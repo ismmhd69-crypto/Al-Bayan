@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/lib/i18n";
-import { getTopic, popularTopicIds } from "@/data/topics";
+import { getPopularQuestions } from "@/lib/content";
 import AskChat from "@/components/AskChat";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -9,11 +9,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   return isLocale(lang) ? { title: getDictionary(lang).ask.title } : {};
 }
 
+export const revalidate = 3600;
+
 export default async function AskPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const t = getDictionary(lang);
-  const suggestions = popularTopicIds.slice(0, 3).map((id) => getTopic(id)!.question[lang]);
+  const suggestions = await getPopularQuestions(lang, 3);
 
   return <AskChat lang={lang} t={t.ask} backLabel={t.common.back} suggestions={suggestions} />;
 }

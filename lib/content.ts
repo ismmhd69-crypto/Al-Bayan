@@ -1,0 +1,91 @@
+import "server-only";
+import { createClient } from "@supabase/supabase-js";
+import type { Locale } from "@/lib/i18n";
+
+// Reads published content with the public key. Row-level security only lets it see
+// published rows, and it can never write.
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
+  { auth: { persistSession: false, autoRefreshToken: false } },
+);
+
+export type CategoryId = "belief" | "science" | "preservation" | "women" | "history";
+export const categoryOrder: CategoryId[] = ["belief", "science", "preservation", "women", "history"];
+
+export type TopicSummary = { id: string; category: CategoryId; title: string; question: string };
+export type Topic = TopicSummary & {
+  shortAnswer: string | null;
+  status: "preparing" | "automatic" | "scholar_reviewed";
+  related: { id: string; title: string }[];
+};
+
+type TopicRow = {
+  id: string;
+  category: CategoryId;
+  popular_rank: number | null;
+  topic_texts: { title: string; question: string; short_answer: string | null; answer_status: Topic["status"] }[];
+};
+
+function fail(what: string, error: { message: string } | null): never {
+  throw new Error(`Could not load ${what} from the database: ${error?.message ?? "no data"}`);
+}
+
+async function loadTopics(lang: Locale): Promise<TopicRow[]> {
+  const { data, error } = await supabase
+    .from("topics")
+    .select("id, category, popular_rank, topic_texts!inner(title, question, short_answer, answer_status)")
+    .eq("topic_texts.lang", lang)
+    .order("sort");
+  if (error || !data) fail("topics", error);
+  return data as TopicRow[];
+}
+
+const summary = (r: TopicRow): TopicSummary => ({
+  id: r.id,
+  category: r.category,
+  title: r.topic_texts[0].title,
+  question: r.topic_texts[0].question,
+});
+
+export async function getTopics(lang: Locale): Promise<TopicSummary[]> {
+  return (await loadTopics(lang)).map(summary);
+}
+
+export async function getPopularQuestions(lang: Locale, limit = 4): Promise<string[]> {
+  return (await loadTopics(lang))
+    .filter((r) => r.popular_rank !== null)
+    .sort((a, b) => a.popular_rank! - b.popular_rank!)
+    .slice(0, limit)
+    .map((r) => r.topic_texts[0].question);
+}
+
+export async function getTopicIds(): Promise<string[]> {
+  const { data, error } = await supabase.from("topics").select("id");
+  if (error || !data) fail("topic ids", error);
+  return data.map((r) => r.id as string);
+}
+
+export async function getTopic(id: string, lang: Locale): Promise<Topic | null> {
+  const rows = await loadTopics(lang);
+  const row = rows.find((r) => r.id === id);
+  if (!row) return null;
+
+  const { data: rel, error } = await supabase
+    .from("topic_related")
+    .select("related_id")
+    .eq("topic_id", id)
+    .order("sort");
+  if (error || !rel) fail("related topics", error);
+
+  const byId = new Map(rows.map((r) => [r.id, r]));
+  return {
+    ...summary(row),
+    shortAnswer: row.topic_texts[0].short_answer,
+    status: row.topic_texts[0].answer_status,
+    related: rel.flatMap(({ related_id }) => {
+      const r = byId.get(related_id as string);
+      return r ? [{ id: r.id, title: r.topic_texts[0].title }] : [];
+    }),
+  };
+}

@@ -1,16 +1,18 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/lib/i18n";
-import { getTopic, popularTopicIds } from "@/data/topics";
+import { getPopularQuestions } from "@/lib/content";
 import AskLauncher from "@/components/AskLauncher";
 import LangSwitch from "@/components/LangSwitch";
 import { Beacon } from "@/components/Logo";
+
+export const revalidate = 3600;
 
 export default async function HomePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const t = getDictionary(lang);
-  const popular = popularTopicIds.map((id) => getTopic(id)!.question[lang]);
+  const popular = await getPopularQuestions(lang);
 
   return (
     <div className="home">

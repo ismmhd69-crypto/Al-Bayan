@@ -3,29 +3,33 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronRight, Hourglass } from "lucide-react";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
-import { getTopic, topics } from "@/data/topics";
+import { getTopic, getTopicIds } from "@/lib/content";
 import AskAboutButton from "@/components/AskAboutButton";
 
 type Params = Promise<{ lang: string; id: string }>;
 
-export const dynamicParams = false;
+export const revalidate = 3600;
+// New topics added to the database get their page on first visit.
+export const dynamicParams = true;
 
-export function generateStaticParams() {
-  return locales.flatMap((lang) => topics.map((t) => ({ lang, id: t.id })));
+export async function generateStaticParams() {
+  const ids = await getTopicIds();
+  return locales.flatMap((lang) => ids.map((id) => ({ lang, id })));
 }
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { lang, id } = await params;
-  const topic = getTopic(id);
-  return isLocale(lang) && topic ? { title: topic.title[lang] } : {};
+  const topic = isLocale(lang) ? await getTopic(id, lang) : null;
+  return topic ? { title: topic.title } : {};
 }
 
 export default async function TopicPage({ params }: { params: Params }) {
   const { lang, id } = await params;
-  const topic = getTopic(id);
-  if (!isLocale(lang) || !topic) notFound();
+  if (!isLocale(lang)) notFound();
+  const topic = await getTopic(id, lang);
+  if (!topic) notFound();
   const t = getDictionary(lang).topics;
-  const related = topic.related.map(getTopic).filter((x) => x !== undefined);
+  const related = topic.related;
 
   return (
     <article className="page">
@@ -36,16 +40,20 @@ export default async function TopicPage({ params }: { params: Params }) {
 
       <header className="page-head">
         <p className="eyebrow">{t.categories[topic.category]}</p>
-        <h1>{topic.title[lang]}</h1>
-        <p className="lead">{topic.question[lang]}</p>
+        <h1>{topic.title}</h1>
+        <p className="lead">{topic.question}</p>
       </header>
 
-      <div className="card card-soft">
-        <Hourglass aria-hidden="true" className="card-icon" />
-        <p>{t.preparing}</p>
-      </div>
+      {topic.shortAnswer ? (
+        <p className="card">{topic.shortAnswer}</p>
+      ) : (
+        <div className="card card-soft">
+          <Hourglass aria-hidden="true" className="card-icon" />
+          <p>{t.preparing}</p>
+        </div>
+      )}
 
-      <AskAboutButton lang={lang} question={topic.question[lang]} label={t.askAbout} />
+      <AskAboutButton lang={lang} question={topic.question} label={t.askAbout} />
 
       {related.length > 0 && (
         <section className="topic-group" aria-labelledby="related-h">
@@ -56,7 +64,7 @@ export default async function TopicPage({ params }: { params: Params }) {
             {related.map((r) => (
               <li key={r.id}>
                 <Link href={`/${lang}/topics/${r.id}`} className="list-row">
-                  <span className="list-title">{r.title[lang]}</span>
+                  <span className="list-title">{r.title}</span>
                   <ChevronRight aria-hidden="true" className="flip-rtl" />
                 </Link>
               </li>
