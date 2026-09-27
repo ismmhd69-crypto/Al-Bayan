@@ -1,0 +1,1447 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Bayan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Hanken+Grotesk:wght@400;500;600;700&family=Reem+Kufi:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<style>
+  /* Palette: manuscript lapis + illumination gold on quiet paper. Always light, by choice. */
+  :root{
+    color-scheme:light;
+    --bg:#F6F7F9;
+    --bg-2:#EEF1F5;
+    --surface:#FFFFFF;
+    --surface-2:#F8F9FB;
+    --line:#E3E7ED;
+    --line-2:#CED5DF;
+    --ink:#141B26;
+    --ink-2:#465163;
+    --ink-3:#6B7587;
+    --accent:#27408B;
+    --accent-hover:#1E3270;
+    --accent-soft:#EDF1FA;
+    --accent-line:#D3DCF0;
+    --accent-ink:#27408B;
+    --on-accent:#FFFFFF;
+    --gold:#A77B2B;
+    --gold-soft:#F8F2E5;
+    --gold-line:#EADBB9;
+    --gold-ink:#7A5716;
+    --flaw:#A5452F;
+    --flaw-soft:#FBF1EE;
+    --flaw-line:#F1D7CF;
+    --stage:#18223A;
+    --shadow-sm:0 1px 2px rgba(20,27,38,.05);
+    --shadow:0 1px 2px rgba(20,27,38,.04),0 10px 28px -14px rgba(20,27,38,.16);
+    --shadow-lg:0 30px 80px -30px rgba(20,27,38,.35);
+    --pattern-op:.05;
+
+    /* type scale (1.2 minor third on 16px) */
+    --fs-xs:.75rem;   /* 12 labels */
+    --fs-sm:.875rem;  /* 14 meta */
+    --fs-md:1rem;     /* 16 body */
+    --fs-lg:1.125rem; /* 18 lead */
+    --fs-xl:1.375rem; /* 22 card titles */
+    --fs-2xl:clamp(1.75rem,3vw,2.375rem);  /* 28–38 section */
+    --fs-3xl:clamp(2.5rem,5vw,3.75rem);    /* 40–60 hero */
+    /* spacing scale (8pt) */
+    --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:72px;
+    --radius:12px;
+    --f-display:"Newsreader","Iowan Old Style",Georgia,serif;
+    --f-body:"Hanken Grotesk","Segoe UI",system-ui,-apple-system,sans-serif;
+    --f-ar:"Reem Kufi","Geeza Pro","Noto Kufi Arabic","Segoe UI",sans-serif;
+    --f-mono:"JetBrains Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+    --pattern:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88' viewBox='0 0 88 88'%3E%3Cg fill='none' stroke='%2327408B' stroke-width='1'%3E%3Crect x='29' y='29' width='30' height='30'/%3E%3Crect x='29' y='29' width='30' height='30' transform='rotate(45 44 44)'/%3E%3Ccircle cx='44' cy='44' r='7'/%3E%3Cpath d='M0 44h14M74 44h14M44 0v14M44 74v14'/%3E%3C/g%3E%3C/svg%3E");
+    --pattern-light:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88' viewBox='0 0 88 88'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='1'%3E%3Crect x='29' y='29' width='30' height='30'/%3E%3Crect x='29' y='29' width='30' height='30' transform='rotate(45 44 44)'/%3E%3Ccircle cx='44' cy='44' r='7'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:var(--fs-md);line-height:1.6;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--accent-soft);color:var(--ink)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:8px}
+  h1,h2,h3,h4{font-family:var(--f-display);text-wrap:balance;letter-spacing:-.01em;color:var(--ink)}
+  .wrap{max-width:1200px;margin-inline:auto;padding-inline:16px}
+  @media (min-width:720px){.wrap{padding-inline:28px}}
+  section{scroll-margin-top:80px}
+  .eyebrow{font-size:var(--fs-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink)}
+  .glass{background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow-sm)}
+  .mono{font-family:var(--f-mono)}
+
+  /* ---------- header ---------- */
+  .site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:color-mix(in srgb,var(--bg) 88%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .head-row{display:flex;align-items:center;gap:var(--s5);height:66px}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);flex-shrink:0}
+  .beacon{width:30px;height:30px}
+  .brand-name{font-family:var(--f-display);font-size:1.3rem;font-weight:600;letter-spacing:-.01em;display:flex;align-items:baseline;gap:8px}
+  .brand-name .sep{color:var(--line-2);font-weight:400}
+  .brand-name .ar{font-family:var(--f-ar);color:var(--accent);font-size:1.15rem;font-weight:500}
+  .nav-links{display:flex;gap:2px;margin-left:var(--s2)}
+  .nav-links a{color:var(--ink-2);text-decoration:none;font-size:var(--fs-sm);font-weight:500;padding:8px 10px;border-radius:8px;white-space:nowrap}
+  .nav-links a:hover{color:var(--ink);background:var(--bg-2)}
+  .head-actions{margin-left:auto;display:flex;align-items:center;gap:10px}
+  .aud-switch{display:inline-flex;padding:3px;border-radius:999px;border:1px solid var(--line);background:var(--bg-2)}
+  .aud-switch button{font-size:.8rem;font-weight:600;padding:6px 12px;border-radius:999px;color:var(--ink-3);white-space:nowrap;transition:background .2s,color .2s}
+  .aud-switch button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow-sm),0 0 0 1px var(--line)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:600;font-size:var(--fs-sm);border-radius:10px;padding:10px 16px;transition:background .2s,border-color .2s,color .2s;cursor:pointer;white-space:nowrap}
+  .btn-primary{background:var(--accent);color:var(--on-accent)}
+  .btn-primary:hover{background:var(--accent-hover)}
+  .btn-ghost{border:1px solid var(--line-2);color:var(--ink);background:var(--surface)}
+  .btn-ghost:hover{border-color:var(--accent);color:var(--accent-ink)}
+  .btn-gold{border:1px solid var(--gold-line);color:var(--gold-ink);background:var(--gold-soft)}
+  .btn-gold:hover{border-color:var(--gold)}
+  .btn svg{width:16px;height:16px}
+  .menu-btn{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--line-2);align-items:center;justify-content:center;color:var(--ink);background:var(--surface)}
+  .menu-btn svg{width:20px;height:20px}
+  .mobile-panel{display:none}
+  @media (max-width:1120px){.nav-links{display:none}.menu-btn{display:inline-flex}
+    .mobile-panel.open{display:grid;gap:2px;padding-block:8px 16px;border-top:1px solid var(--line)}
+    .mobile-panel a{color:var(--ink);text-decoration:none;padding:10px 4px;font-weight:500}
+  }
+  @media (max-width:760px){.head-actions .aud-switch,.head-actions .ask-btn{display:none}}
+  .mobile-only{display:none}
+  @media (max-width:760px){.mobile-only{display:grid}}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:var(--bg)}
+  .hero::before{content:"";position:absolute;inset:0;background-image:var(--pattern);opacity:var(--pattern-op);-webkit-mask-image:linear-gradient(90deg,transparent 35%,#000 85%);mask-image:linear-gradient(90deg,transparent 35%,#000 85%);pointer-events:none}
+  .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,.85fr);gap:var(--s7);align-items:center;padding-block:var(--s8) 64px}
+  @media (max-width:900px){.hero-grid{grid-template-columns:minmax(0,1fr);padding-block:var(--s7)}.hero-mark{display:none}}
+  .hero h1{font-size:var(--fs-3xl);line-height:1.05;font-weight:500;margin-top:var(--s3)}
+  .hero h1 em{font-style:italic;color:var(--accent)}
+  .hero-sub{font-size:var(--fs-lg);color:var(--ink-2);margin-top:var(--s4);max-width:34em}
+  .search{margin-top:var(--s6)}
+  .search-box{display:flex;align-items:center;gap:10px;padding:6px 6px 6px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--line-2);box-shadow:var(--shadow);transition:box-shadow .2s,border-color .2s}
+  .search-box:focus-within{border-color:var(--accent);box-shadow:var(--shadow),0 0 0 4px var(--accent-soft)}
+  .search-box > svg{width:19px;height:19px;color:var(--ink-3);flex-shrink:0}
+  .search-box input{flex:1;min-width:0;background:transparent;border:0;outline:0;color:var(--ink);font-size:var(--fs-md);padding-block:10px}
+  .search-box input::placeholder{color:var(--ink-3)}
+  .suggest{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s3);align-items:center}
+  .suggest .lbl{font-size:var(--fs-sm);color:var(--ink-3);margin-right:2px}
+  .chip{font-size:var(--fs-sm);font-weight:500;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--ink-2);background:var(--surface);transition:all .15s;cursor:pointer;text-align:left}
+  .chip:hover{border-color:var(--line-2);color:var(--ink)}
+  .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+  .personas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s4);margin-top:var(--s6)}
+  @media (max-width:620px){.personas{grid-template-columns:minmax(0,1fr)}}
+  .persona{text-align:left;padding:var(--s5);border-radius:var(--radius);cursor:pointer;transition:border-color .2s,box-shadow .2s;display:flex;flex-direction:column;gap:var(--s2)}
+  .persona:hover{border-color:var(--line-2);box-shadow:var(--shadow)}
+  .persona.is-active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+  .persona .ico{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent-ink)}
+  .persona.gold .ico{background:var(--gold-soft);color:var(--gold-ink)}
+  .persona .ico svg{width:19px;height:19px}
+  .persona h3{font-family:var(--f-body);font-size:var(--fs-md);font-weight:700;letter-spacing:0;margin-top:var(--s1)}
+  .persona p{font-size:var(--fs-sm);color:var(--ink-2);line-height:1.55}
+  .persona .go{margin-top:auto;padding-top:var(--s2);font-size:var(--fs-sm);font-weight:600;color:var(--accent-ink);display:flex;align-items:center;gap:6px}
+  .persona.gold .go{color:var(--gold-ink)}
+  .persona .go svg{width:15px;height:15px}
+  .hero-mark{display:grid;grid-template-rows:auto auto;justify-items:center;align-items:center;row-gap:var(--s5)}
+  .rosette{grid-area:1/1;width:100%;max-width:400px;height:auto;aspect-ratio:1;color:var(--gold);opacity:.55}
+  .hero-mark .ar-word{grid-area:1/1;font-family:var(--f-ar);font-weight:700;font-size:clamp(5.5rem,10vw,8.5rem);line-height:1;color:var(--accent)}
+  .hero-mark .ar-cap{grid-area:2/1;font-size:var(--fs-xs);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap}
+  .hero-mark .ar-cap b{color:var(--gold-ink);font-weight:600}
+
+  /* ---------- section heads ---------- */
+  .sec{padding-block:var(--s8)}
+  @media (max-width:720px){.sec{padding-block:56px}}
+  .sec-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:var(--s4) var(--s6);margin-bottom:var(--s5)}
+  .sec-head h2{font-size:var(--fs-2xl);line-height:1.12;font-weight:500;margin-top:var(--s2)}
+  .sec-head p{color:var(--ink-2);max-width:38em;margin-top:var(--s3)}
+
+  /* ---------- topics ---------- */
+  .filters{display:flex;gap:var(--s2);overflow-x:auto;padding-bottom:4px;scrollbar-width:none;margin-bottom:var(--s2)}
+  .filters::-webkit-scrollbar{display:none}
+  .filters .chip{white-space:nowrap;flex-shrink:0}
+  .result-line{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:var(--fs-sm);color:var(--ink-3);min-height:34px;margin-bottom:var(--s4)}
+  .result-line b{color:var(--ink-2);font-weight:600}
+  .clear-q{color:var(--accent-ink);font-weight:600;display:inline-flex;align-items:center;gap:4px}
+  .clear-q svg{width:14px;height:14px}
+  .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s5)}
+  @media (max-width:1020px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media (max-width:640px){.grid{grid-template-columns:minmax(0,1fr)}}
+  .card{display:flex;flex-direction:column;border-radius:var(--radius);overflow:hidden;cursor:pointer;transition:box-shadow .2s,border-color .2s;animation:rise .3s ease both}
+  .card:hover{border-color:var(--line-2);box-shadow:var(--shadow)}
+  .card:hover .thumb .play{background:#fff;color:#141B26}
+  @keyframes rise{from{opacity:.001;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .card-body{display:flex;flex-direction:column;gap:var(--s3);padding:var(--s4) 20px 20px;flex:1}
+  .card-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .cat-pill{display:inline-flex;align-items:center;gap:6px;font-size:var(--fs-xs);font-weight:600;color:var(--ink-2)}
+  .cat-pill::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--h);transform:rotate(45deg)}
+  .aud-tag{font-size:var(--fs-xs);color:var(--ink-3)}
+  .q-label{display:none}
+  .card h3{font-size:var(--fs-xl);line-height:1.25;font-weight:500}
+  .contrast{display:grid;gap:var(--s2)}
+  .contrast > div{padding:10px 12px;border-radius:8px;font-size:var(--fs-sm);line-height:1.5;color:var(--ink-2)}
+  .contrast .flaw{background:var(--flaw-soft);border:1px solid var(--flaw-line)}
+  .contrast .real{background:var(--accent-soft);border:1px solid var(--accent-line);color:var(--ink)}
+  .contrast .lbl{display:flex;align-items:center;gap:6px;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:2px}
+  .contrast .flaw .lbl{color:var(--flaw)}
+  .contrast .real .lbl{color:var(--accent-ink)}
+  .contrast .lbl svg{width:13px;height:13px}
+  .badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:var(--s1)}
+  .badge{font-size:var(--fs-xs);font-weight:500;padding:3px 8px;border-radius:6px;border:1px solid var(--line);color:var(--ink-2);display:inline-flex;align-items:center;gap:5px;background:var(--surface-2)}
+  .badge.verified{color:var(--gold-ink);border-color:var(--gold-line);background:var(--gold-soft);font-weight:600}
+  .badge svg{width:12px;height:12px}
+  .empty{grid-column:1/-1;padding:48px 24px;text-align:center;border-radius:var(--radius);color:var(--ink-2)}
+  .empty h3{font-size:var(--fs-xl);margin-bottom:6px}
+
+  /* thumbnails: flat category colour, white type */
+  .thumb{position:relative;aspect-ratio:16/9;max-width:100%;overflow:hidden;background:var(--h)}
+  .thumb::before{content:"";position:absolute;inset:0;background-image:var(--pattern-light);background-size:70px;opacity:.035}
+  .thumb::after{content:"";position:absolute;right:-12%;top:-30%;width:56%;aspect-ratio:1;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='.6'%3E%3Crect x='20' y='20' width='60' height='60'/%3E%3Crect x='20' y='20' width='60' height='60' transform='rotate(45 50 50)'/%3E%3Ccircle cx='50' cy='50' r='12'/%3E%3C/g%3E%3C/svg%3E") no-repeat center/contain;opacity:.18;pointer-events:none}
+  .thumb .t-title{position:absolute;left:16px;right:64px;bottom:40px;font-family:var(--f-display);font-size:1.3rem;line-height:1.15;color:#fff;font-weight:500}
+  .thumb .t-spk{position:absolute;left:16px;bottom:13px;display:flex;align-items:center;gap:8px;font-size:.75rem;color:rgba(255,255,255,.82);font-weight:500;right:64px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .avatar-i{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:.6rem;font-weight:700;background:rgba(255,255,255,.16);color:#fff;flex-shrink:0}
+  .thumb .dur{position:absolute;right:12px;bottom:12px;font-family:var(--f-mono);font-size:.7rem;padding:2px 7px;border-radius:5px;background:rgba(0,0,0,.35);color:#fff}
+  .thumb .play{position:absolute;right:14px;top:14px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.16);color:#fff;transition:background .2s,color .2s}
+  .thumb .play svg{width:15px;height:15px;margin-left:2px}
+  .thumb.mini .t-title{font-size:.95rem;bottom:30px;left:10px;right:10px}
+  .thumb.mini .t-spk{left:10px;bottom:8px;font-size:.66rem;right:48px}
+  .thumb.mini .avatar-i{display:none}
+  .thumb.mini .dur{right:8px;bottom:8px;font-size:.62rem}
+  .thumb.mini .play{width:28px;height:28px;right:8px;top:8px}
+  .thumb.mini .play svg{width:12px;height:12px}
+
+  /* ---------- foundations ---------- */
+  .foundations{background:var(--bg-2);border-block:1px solid var(--line)}
+  .path{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s4)}
+  @media (max-width:980px){.path{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media (max-width:560px){.path{grid-template-columns:minmax(0,1fr)}}
+  .step{padding:var(--s5);border-radius:var(--radius);display:flex;flex-direction:column;gap:var(--s2);text-align:left;cursor:pointer;transition:border-color .2s,box-shadow .2s}
+  .step:hover{border-color:var(--line-2);box-shadow:var(--shadow)}
+  .step .num{font-family:var(--f-display);font-size:1.1rem;font-weight:600;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--gold-line);background:var(--gold-soft);color:var(--gold-ink)}
+  .step h3{font-size:var(--fs-xl);line-height:1.25;font-weight:500;margin-top:var(--s1)}
+  .step p{font-size:var(--fs-sm);color:var(--ink-2);line-height:1.55}
+  .step .meta{margin-top:auto;display:flex;align-items:center;justify-content:space-between;font-size:var(--fs-sm);color:var(--ink-3);padding-top:var(--s3)}
+  .step .meta span{display:inline-flex;align-items:center;gap:6px}
+  .step .meta svg{width:14px;height:14px}
+  .step .meta .w{color:var(--accent-ink);font-weight:600}
+
+  /* ---------- assistant ---------- */
+  .ai-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.35fr);gap:var(--s7);align-items:start}
+  @media (max-width:980px){.ai-grid{grid-template-columns:minmax(0,1fr);gap:var(--s6)}}
+  .ai-intro h2{font-size:var(--fs-2xl);line-height:1.12;font-weight:500;margin-top:var(--s2)}
+  .ai-intro > p{color:var(--ink-2);margin-top:var(--s3)}
+  .ai-traits{display:grid;gap:var(--s3);margin-top:var(--s5)}
+  .ai-traits li{display:flex;gap:var(--s3);align-items:flex-start;font-size:var(--fs-sm);color:var(--ink-2)}
+  .ai-traits li b{color:var(--ink);font-weight:600;display:block;font-size:var(--fs-md)}
+  .ai-traits svg{width:18px;height:18px;color:var(--accent);flex-shrink:0;margin-top:4px}
+  .prompt-chips{display:flex;flex-direction:column;gap:var(--s2);margin-top:var(--s5)}
+  .prompt-chips .lbl{font-size:var(--fs-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
+  .prompt-chips .chip{display:flex;align-items:center;gap:10px;border-radius:10px;padding:10px 14px;color:var(--ink)}
+  .prompt-chips .chip:hover{border-color:var(--accent)}
+  .prompt-chips .chip svg{width:15px;height:15px;color:var(--ink-3);flex-shrink:0}
+  .prompt-chips .chip:disabled{opacity:.5;cursor:not-allowed}
+  .chat{border-radius:16px;display:flex;flex-direction:column;overflow:hidden;box-shadow:var(--shadow)}
+  .chat-top{display:flex;align-items:center;gap:var(--s3);padding:14px 18px;border-bottom:1px solid var(--line)}
+  .chat-top .beacon{width:26px;height:26px}
+  .chat-top b{font-weight:700;font-size:var(--fs-md);display:block;line-height:1.2}
+  .chat-top small{font-size:var(--fs-xs);color:var(--ink-3);display:flex;align-items:center;gap:6px}
+  .chat-top small i{width:6px;height:6px;border-radius:50%;background:var(--gold)}
+  .chat-top .reset{margin-left:auto;font-size:var(--fs-sm);color:var(--ink-3);display:inline-flex;gap:6px;align-items:center;padding:6px 8px;border-radius:8px}
+  .chat-top .reset:hover{color:var(--ink);background:var(--bg-2)}
+  .chat-top .reset svg{width:14px;height:14px}
+  .chat-log{position:relative;height:640px;overflow-y:auto;padding:20px 18px;display:flex;flex-direction:column;gap:var(--s5);scroll-behavior:smooth;background:var(--surface-2)}
+  @media (max-width:640px){.chat-log{height:72vh;padding:16px 12px}}
+  .msg{display:flex;gap:10px;align-items:flex-start;animation:rise .3s ease both}
+  .msg.user{justify-content:flex-end}
+  .msg .bubble{max-width:100%;min-width:0}
+  .msg.user .bubble{background:var(--accent);color:var(--on-accent);padding:10px 14px;border-radius:14px 14px 4px 14px;max-width:80%;font-weight:500}
+  .msg.bot .bubble{flex:1;background:var(--surface);border:1px solid var(--line);border-radius:4px 14px 14px 14px;padding:var(--s4);display:flex;flex-direction:column;gap:var(--s3);font-size:.95rem;color:var(--ink)}
+  .bot-av{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:var(--surface);border:1px solid var(--line);flex-shrink:0}
+  .bot-av svg{width:18px;height:18px}
+  .bubble .direct{padding:10px 12px;border-radius:8px;background:var(--accent-soft);border:1px solid var(--accent-line)}
+  .bubble .direct b{color:var(--accent-ink)}
+  .bubble ul.pts{display:grid;gap:6px;padding-left:0}
+  .bubble ul.pts li{display:flex;gap:10px}
+  .bubble ul.pts li::before{content:"";width:6px;height:6px;border-radius:1px;background:var(--gold);transform:rotate(45deg);margin-top:.6em;flex-shrink:0}
+  .box-h{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center;gap:6px;margin-bottom:var(--s2)}
+  .box-h svg{width:13px;height:13px;color:var(--gold)}
+  .cites{border:1px solid var(--gold-line);background:var(--gold-soft);border-radius:10px;padding:12px 14px}
+  .cite{display:grid;gap:3px;padding-block:9px;border-top:1px solid var(--gold-line)}
+  .cite:first-of-type{border-top:0;padding-top:0}
+  .cite-top{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .kind{font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:4px;background:var(--surface);border:1px solid var(--line);color:var(--ink-2)}
+  .kind.q{color:var(--accent-ink);border-color:var(--accent-line)}
+  .kind.h{color:var(--gold-ink);border-color:var(--gold-line)}
+  .cite .ref{font-size:var(--fs-sm);font-weight:600;color:var(--ink)}
+  .cite a.ref{text-decoration:underline;text-decoration-color:var(--line-2);text-underline-offset:3px}
+  .cite a.ref:hover{color:var(--accent-ink);text-decoration-color:var(--accent)}
+  .grade{font-size:.68rem;font-weight:600;padding:1px 6px;border-radius:4px;background:var(--surface);border:1px solid var(--line);color:var(--ink-2)}
+  .cite .txt{font-size:var(--fs-sm);color:var(--ink-2);line-height:1.55}
+  .clips-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}
+  .clip{flex:0 0 188px;border-radius:8px;overflow:hidden;scroll-snap-align:start;cursor:pointer;text-align:left;transition:box-shadow .2s}
+  .clip:hover{box-shadow:0 0 0 2px var(--accent)}
+  .follow{font-family:var(--f-display);font-style:italic;font-size:1.05rem;color:var(--ink-2)}
+  .mentor-btn{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-size:var(--fs-sm);font-weight:600;color:var(--gold-ink);padding:9px 12px;border-radius:10px;border:1px solid var(--gold-line);background:var(--gold-soft);text-align:left}
+  .mentor-btn:hover{border-color:var(--gold)}
+  .mentor-btn svg{width:16px;height:16px;flex-shrink:0}
+  .typing{display:inline-flex;gap:5px;padding:14px 16px;border-radius:4px 14px 14px 14px;background:var(--surface);border:1px solid var(--line)}
+  .typing span{width:7px;height:7px;border-radius:50%;background:var(--ink-3);animation:dot 1s infinite ease-in-out}
+  .typing span:nth-child(2){animation-delay:.15s}.typing span:nth-child(3){animation-delay:.3s}
+  @keyframes dot{0%,80%,100%{opacity:.3}40%{opacity:1}}
+  .chat-form{display:flex;gap:var(--s2);padding:12px;border-top:1px solid var(--line);background:var(--surface)}
+  .chat-form input{flex:1;min-width:0;background:var(--surface-2);border:1px solid var(--line-2);border-radius:10px;padding:11px 14px;color:var(--ink);outline:0;font-size:var(--fs-md)}
+  .chat-form input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+  .chat-form .btn{padding:10px 14px}
+  .chat-note{font-size:var(--fs-xs);color:var(--ink-3);padding:0 14px 12px;background:var(--surface)}
+
+  /* ---------- method ---------- */
+  .pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s5)}
+  @media (max-width:900px){.pillars{grid-template-columns:minmax(0,1fr)}}
+  .pillar{padding:var(--s5);border-radius:var(--radius);display:flex;flex-direction:column;gap:var(--s3)}
+  .pillar .ico{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent-ink)}
+  .pillar:nth-child(2) .ico{background:var(--gold-soft);color:var(--gold-ink)}
+  .pillar .ico svg{width:20px;height:20px}
+  .pillar h3{font-size:var(--fs-xl);font-weight:500}
+  .pillar p{color:var(--ink-2);font-size:.95rem}
+  .pillar .stat{margin-top:auto;padding-top:var(--s4);border-top:1px solid var(--line);font-size:var(--fs-sm);color:var(--ink-3);display:flex;align-items:baseline;gap:8px}
+  .pillar .stat b{font-family:var(--f-display);font-size:1.6rem;font-weight:500;color:var(--ink);font-variant-numeric:tabular-nums}
+  .pipeline{margin-top:var(--s5);padding:18px 20px;border-radius:var(--radius);display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;font-size:var(--fs-sm);color:var(--ink-2)}
+  .pipeline .lead{font-weight:700;color:var(--ink);margin-right:6px}
+  .pipeline .pstep{display:inline-flex;align-items:center;gap:8px}
+  .pipeline .pstep i{font-style:normal;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:700;background:var(--gold-soft);color:var(--gold-ink);border:1px solid var(--gold-line)}
+  .pipeline .arrow{color:var(--line-2)}
+  .pipeline .arrow svg{width:14px;height:14px}
+
+  /* ---------- footer ---------- */
+  footer{position:relative;border-top:1px solid var(--line);background:var(--bg-2)}
+  .foot-grid{position:relative;display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:36px;padding-block:56px 28px}
+  @media (max-width:860px){.foot-grid{grid-template-columns:minmax(0,1fr)}}
+  .foot-grid h4{font-family:var(--f-body);font-size:var(--fs-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:var(--s3)}
+  .foot-grid p{color:var(--ink-2);font-size:var(--fs-sm)}
+  .foot-links{display:grid;gap:var(--s2)}
+  .foot-links a,.foot-links button{color:var(--ink);text-decoration:none;font-size:var(--fs-sm);display:inline-flex;align-items:center;gap:6px;text-align:left}
+  .foot-links a:hover,.foot-links button:hover{color:var(--accent-ink)}
+  .foot-links svg{width:14px;height:14px;color:var(--ink-3)}
+  .foot-links small{display:block;color:var(--ink-3);font-size:var(--fs-xs)}
+  .disclaimer{border:1px solid var(--gold-line);background:var(--gold-soft);border-radius:10px;padding:14px 16px;font-size:var(--fs-sm);color:var(--ink-2)}
+  .disclaimer b{color:var(--gold-ink)}
+  .foot-base{position:relative;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding-block:18px 36px;border-top:1px solid var(--line);font-size:var(--fs-xs);color:var(--ink-3)}
+
+  /* ---------- modal ---------- */
+  .overlay{position:fixed;inset:0;z-index:60;background:rgba(10,14,22,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);display:flex;align-items:flex-start;justify-content:center;padding:max(24px,env(safe-area-inset-top,0px)) 16px 24px;overflow-y:auto;animation:fade .2s ease both}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .modal{width:100%;max-width:900px;border-radius:16px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow-lg);animation:pop .25s ease-out both;overflow:hidden;color:var(--ink)}
+  @keyframes pop{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .modal-head{display:flex;gap:14px;align-items:flex-start;padding:22px 24px 16px}
+  .modal-head h2{font-size:clamp(1.4rem,3vw,1.9rem);line-height:1.18;font-weight:500;margin-top:6px}
+  .x-btn{margin-left:auto;width:38px;height:38px;flex-shrink:0;border-radius:10px;display:grid;place-items:center;border:1px solid var(--line);color:var(--ink-2);background:var(--surface)}
+  .x-btn:hover{color:var(--ink);border-color:var(--line-2)}
+  .x-btn svg{width:18px;height:18px}
+  .player{margin-inline:24px;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+  @media (max-width:560px){.player{margin-inline:12px}.modal-head{padding:16px 14px 12px}}
+  .stage{position:relative;aspect-ratio:16/9;max-width:100%;cursor:pointer;background:var(--stage);overflow:hidden}
+  .stage::before{content:"";position:absolute;inset:0;background-image:var(--pattern-light);opacity:.05}
+  .stage .sim{position:absolute;left:14px;top:14px;font-size:.64rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:4px 8px;border-radius:5px;background:rgba(255,255,255,.1);color:#E6D2A6}
+  .stage .spk-card{position:absolute;right:16px;top:14px;display:flex;align-items:center;gap:10px;text-align:right}
+  .stage .spk-card .avatar-i{width:38px;height:38px;font-size:.8rem;background:var(--h)}
+  .stage .spk-card b{display:block;font-size:var(--fs-sm);color:#fff}
+  .stage .spk-card small{font-size:var(--fs-xs);color:rgba(255,255,255,.65)}
+  @media (max-width:560px){.stage .spk-card small,.stage .spk-card .avatar-i{display:none}.stage .spk-card b{font-size:.74rem}}
+  .stage .chap-t{position:absolute;left:0;right:0;top:44%;transform:translateY(-50%);text-align:center;padding-inline:8%;transition:opacity .3s}
+  .stage .chap-t .k{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:#E6D2A6;font-weight:600}
+  .stage .chap-t h3{font-family:var(--f-display);font-size:clamp(1.3rem,3.6vw,2.3rem);line-height:1.15;font-weight:500;margin-top:6px;color:#fff}
+  .stage .caption{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);max-width:88%;text-align:center;font-size:clamp(.8rem,1.8vw,.98rem);background:rgba(0,0,0,.55);color:#fff;padding:6px 12px;border-radius:6px;line-height:1.4}
+  .stage .big-play{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:68px;height:68px;border-radius:50%;display:grid;place-items:center;background:#fff;color:#18223A;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  .stage .big-play svg{width:26px;height:26px;margin-left:4px}
+  .stage.playing .big-play{display:none}
+  .stage:not(.playing) .chap-t{opacity:.2}
+  .wave{display:none}
+  .controls{display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--surface)}
+  .controls .pp{width:34px;height:34px;border-radius:8px;display:grid;place-items:center;background:var(--bg-2);color:var(--ink)}
+  .controls .pp svg{width:16px;height:16px}
+  .controls .time{font-family:var(--f-mono);font-size:.76rem;color:var(--ink-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .track{flex:1;height:22px;display:flex;align-items:center;cursor:pointer;position:relative}
+  .track .rail{position:relative;width:100%;height:4px;border-radius:4px;background:var(--line)}
+  .track .fill{position:absolute;left:0;top:0;bottom:0;border-radius:4px;background:var(--accent);width:0}
+  .track .tick{position:absolute;top:-3px;width:2px;height:10px;background:var(--gold);border-radius:1px}
+  .chapters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border-top:1px solid var(--line)}
+  @media (max-width:640px){.chapters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  .chapters button{background:var(--surface-2);padding:10px 12px;text-align:left;font-size:.82rem;color:var(--ink-2);display:grid;gap:2px;transition:background .2s,color .2s}
+  .chapters button .mono{font-size:.7rem;color:var(--ink-3)}
+  .chapters button:hover{background:var(--bg-2);color:var(--ink)}
+  .chapters button.on{color:var(--accent-ink);background:var(--accent-soft);font-weight:600}
+  .tiers{padding:var(--s5);display:grid;gap:var(--s5)}
+  @media (max-width:560px){.tiers{padding:16px 14px}}
+  .tier{display:grid;grid-template-columns:120px minmax(0,1fr);gap:var(--s4)}
+  @media (max-width:640px){.tier{grid-template-columns:minmax(0,1fr);gap:var(--s2)}}
+  .tier-k{font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink);padding-top:4px}
+  .tier-k span{display:block;color:var(--ink-3);letter-spacing:0;text-transform:none;font-weight:500;font-size:var(--fs-sm);margin-top:2px}
+  .tier-body{display:grid;gap:var(--s3);font-size:var(--fs-md);color:var(--ink-2);max-width:68ch}
+  .tier-body .lede{font-family:var(--f-display);font-size:1.25rem;line-height:1.5;color:var(--ink)}
+  .tier + .tier{padding-top:var(--s5);border-top:1px solid var(--line)}
+  .modal-foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:16px 24px 22px;border-top:1px solid var(--line);background:var(--surface-2)}
+  .modal-foot .note{font-size:var(--fs-xs);color:var(--ink-3);margin-left:auto;max-width:34em}
+  @media (max-width:560px){.modal-foot{padding:14px}.modal-foot .note{margin-left:0}}
+
+  .dialog{max-width:520px;padding:var(--s5);display:grid;gap:var(--s4)}
+  .dialog h2{font-size:1.6rem;font-weight:500}
+  .dialog p{color:var(--ink-2);font-size:.95rem}
+  .dialog .note-gold{color:var(--gold-ink);font-size:var(--fs-sm);font-weight:600}
+  .field{display:grid;gap:6px}
+  .field label{font-size:var(--fs-sm);font-weight:600;color:var(--ink-2)}
+  .field select,.field textarea{background:var(--surface-2);border:1px solid var(--line-2);border-radius:10px;padding:10px 12px;color:var(--ink);font:inherit;font-size:.95rem;outline:0}
+  .field select option{background:var(--surface);color:var(--ink)}
+  .field select:focus,.field textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+  .field textarea{min-height:110px;resize:vertical}
+  .check{display:flex;gap:10px;align-items:flex-start;font-size:var(--fs-sm);color:var(--ink-2)}
+  .check input{accent-color:var(--accent);margin-top:3px;width:16px;height:16px}
+  .seg{display:flex;gap:8px;flex-wrap:wrap}
+  .done-ico{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent-ink);border:1px solid var(--accent-line)}
+  .done-ico svg{width:22px;height:22px}
+
+  .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:80;background:var(--ink);color:var(--bg);font-size:var(--fs-sm);padding:10px 16px;border-radius:10px;box-shadow:var(--shadow-lg);display:flex;gap:8px;align-items:center;max-width:calc(100% - 32px)}
+  .toast svg{width:16px;height:16px}
+
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  }
+  /* ---------- phone fit (declared last so it wins) ---------- */
+  .hero-grid > *,.ai-grid > *,.grid > *,.path > *,.pillars > *,.foot-grid > *,.personas > *{min-width:0}
+  @media (max-width:900px){.hero-mark{display:none}}
+  .chat-top .reset + .reset{margin-left:0}
+  .chat-top .full-btn{color:var(--ink-2);border:1px solid var(--line)}
+  .chat-suggest{display:none}
+  .chat.is-full{position:fixed;inset:0;z-index:55;border-radius:0;border:0;box-shadow:none;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);animation:fade .2s ease both}
+  .chat.is-full .chat-top{padding-inline:max(16px,calc((100% - 800px) / 2))}
+  .chat.is-full .chat-log{height:auto;flex:1 1 auto;min-height:0;padding-inline:max(14px,calc((100% - 800px) / 2))}
+  .chat.is-full .chat-suggest{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:10px max(12px,calc((100% - 800px) / 2)) 0;background:var(--surface);border-top:1px solid var(--line)}
+  .chat.is-full .chat-suggest::-webkit-scrollbar{display:none}
+  .chat-suggest .chip{white-space:nowrap;flex-shrink:0}
+  .chat.is-full .chat-top,.chat.is-full .chat-suggest,.chat.is-full .chat-form,.chat.is-full .chat-note{flex-shrink:0}
+  .chat.is-full .chat-form{border-top:0;padding-inline:max(12px,calc((100% - 800px) / 2))}
+  .chat.is-full .chat-note{padding-inline:max(14px,calc((100% - 800px) / 2))}
+  .dialog{grid-template-columns:minmax(0,1fr)}
+  .dialog > *,.dialog form > *{min-width:0}
+  .field select,.field textarea{width:100%;max-width:100%;min-width:0}
+  .field select{text-overflow:ellipsis}
+  .dialog h2{min-width:0;overflow-wrap:anywhere}
+  @media (max-width:560px){
+    .head-row{gap:var(--s3)}
+    .hero h1{font-size:2.3rem}
+    .hero-sub{font-size:var(--fs-md)}
+    .search-box{flex-wrap:wrap;padding:8px 8px 8px 14px;row-gap:8px}
+    .search-box input{flex:1 1 calc(100% - 40px)}
+    .search-box .btn{flex:1 1 100%}
+    .sec-head h2{font-size:1.75rem}
+    .card-body{padding:var(--s4)}
+    .btn{white-space:normal;text-align:center}
+    .modal-foot .btn{flex:1 1 100%}
+    .controls{gap:8px;padding:8px 10px}
+    .stage .sim{font-size:.56rem;padding:3px 6px}
+    .stage .chap-t h3{font-size:1.15rem}
+    .stage .caption{font-size:.74rem;bottom:10px}
+    .clip{flex-basis:160px}
+    .pipeline{padding:16px}
+    .pipeline .arrow{display:none}
+    .pipeline .pstep{flex:1 1 100%}
+    .foot-base{flex-direction:column}
+    .chat-top .reset span{display:none}
+    .chat-top .reset{padding:8px}
+    .chat-top small{font-size:.7rem}
+    .dialog{padding:var(--s4)}
+    .dialog h2{font-size:1.35rem}
+    .dialog .btn{flex:0 1 auto;width:100%}
+  }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="beacon" viewBox="0 0 40 40">
+      <rect x="9" y="9" width="22" height="22" rx="2" style="fill:var(--accent)"/>
+      <rect x="9" y="9" width="22" height="22" rx="2" style="fill:var(--accent)" transform="rotate(45 20 20)"/>
+      <circle cx="20" cy="20" r="6.4" style="fill:var(--surface)"/>
+      <circle cx="20" cy="20" r="3.2" style="fill:var(--gold)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="site-head">
+  <div class="wrap">
+    <div class="head-row">
+      <a class="brand" href="#top" aria-label="Bayan home">
+        <svg class="beacon" aria-hidden="true"><use href="#beacon"/></svg>
+        <span class="brand-name">Bayan <span class="sep">|</span> <span class="ar" lang="ar">بيان</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#topics">Topics &amp; Doubts</a>
+        <a href="#topics" data-jump="video">Video Library</a>
+        <a href="#assistant">Bayan AI Assistant</a>
+        <a href="#foundations">Foundations for Seekers</a>
+      </nav>
+      <div class="head-actions">
+        <div class="aud-switch" role="group" aria-label="Who are you?">
+          <button type="button" data-aud="seeker" aria-pressed="true">Exploring Islam</button>
+          <button type="button" data-aud="muslim" aria-pressed="false">Strengthening Conviction</button>
+        </div>
+        <button type="button" class="btn btn-primary ask-btn" data-ask><i data-lucide="message-circle-question"></i>Ask a Question</button>
+        <button type="button" class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+      </div>
+    </div>
+    <div class="mobile-panel" id="mobile-panel">
+      <a href="#topics">Topics &amp; Doubts</a>
+      <a href="#topics">Video Library</a>
+      <a href="#assistant">Bayan AI Assistant</a>
+      <a href="#foundations">Foundations for Seekers</a>
+      <div class="mobile-only" style="gap:10px;padding-top:8px">
+        <div class="aud-switch" role="group" aria-label="Who are you?" style="justify-self:start">
+          <button type="button" data-aud="seeker" aria-pressed="true">Exploring Islam</button>
+          <button type="button" data-aud="muslim" aria-pressed="false">Strengthening Conviction</button>
+        </div>
+        <button type="button" class="btn btn-primary" data-ask style="justify-self:start"><i data-lucide="message-circle-question"></i>Ask a Question</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow" id="hero-eyebrow">For anyone exploring Islam</p>
+        <h1>Find clarity <em>without judgment.</em></h1>
+        <p class="hero-sub">Sourced answers, curated video breakdowns, and intellectual rigor. Every answer shows you exactly where it comes from.</p>
+        <form class="search" id="hero-form" role="search">
+          <div class="search-box">
+            <i data-lucide="search"></i>
+            <input id="hero-search" type="search" autocomplete="off" placeholder="Ask in your own words, e.g. why does God allow suffering?" aria-label="Search questions and topics">
+            <button class="btn btn-primary" type="submit">Find answers</button>
+          </div>
+          <div class="suggest" id="suggest">
+            <span class="lbl">People are asking:</span>
+          </div>
+        </form>
+        <div class="personas">
+          <button type="button" class="persona glass is-active" data-persona="seeker">
+            <span class="ico"><i data-lucide="compass"></i></span>
+            <h3>For Seekers &amp; Non-Muslims</h3>
+            <p>Start with the foundations: the purpose of life, who God is, and why the Quran can be trusted.</p>
+            <span class="go">Start the foundations path <i data-lucide="arrow-right"></i></span>
+          </button>
+          <button type="button" class="persona glass gold" data-persona="muslim">
+            <span class="ico"><i data-lucide="shield-check"></i></span>
+            <h3>For Muslims with Questions</h3>
+            <p>A safe space to explore theological, moral and modern doubts. No judgment, no lectures.</p>
+            <span class="go">Browse hard questions <i data-lucide="arrow-right"></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="hero-mark" aria-hidden="true">
+        <svg class="rosette" viewBox="0 0 400 400">
+          <g fill="none" stroke="currentColor" stroke-width="1">
+            <circle cx="200" cy="200" r="190" stroke-opacity=".5"/>
+            <circle cx="200" cy="200" r="182" stroke-opacity=".25"/>
+            <rect x="80" y="80" width="240" height="240" stroke-opacity=".7"/>
+            <rect x="80" y="80" width="240" height="240" stroke-opacity=".7" transform="rotate(45 200 200)"/>
+            <rect x="120" y="120" width="160" height="160" stroke-opacity=".35" transform="rotate(22.5 200 200)"/>
+            <rect x="120" y="120" width="160" height="160" stroke-opacity=".35" transform="rotate(67.5 200 200)"/>
+          </g>
+        </svg>
+        <span class="ar-word" lang="ar">البيان</span>
+        <span class="ar-cap">al-Bayān · <b>clarity &amp; conviction</b></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOPICS -->
+  <section class="sec" id="topics">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Topics &amp; doubts · Video library</p>
+          <h2>Hard questions, answered carefully</h2>
+          <p>Each topic starts with the common misconception, shows where its reasoning goes wrong, and gives you a short video and the primary sources behind the answer.</p>
+        </div>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filter topics"></div>
+      <div class="result-line" id="result-line" aria-live="polite"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- FOUNDATIONS -->
+  <section class="sec foundations" id="foundations">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Foundations for seekers</p>
+          <h2>New to Islam? Start here.</h2>
+          <p>Four short steps, in order. Each one takes about five minutes and builds on the one before it.</p>
+        </div>
+      </div>
+      <div class="path" id="path"></div>
+    </div>
+  </section>
+
+  <!-- ASSISTANT -->
+  <section class="sec" id="assistant">
+    <div class="wrap ai-grid">
+      <div class="ai-intro">
+        <p class="eyebrow">Bayan AI</p>
+        <h2>A patient guide that shows its sources</h2>
+        <p>Bayan AI asks what you really mean, answers with care, and cites every point. When a question needs a person, it tells you so.</p>
+        <ul class="ai-traits">
+          <li><i data-lucide="heart-handshake"></i><div><b>Warm, never dismissive</b>Your question is treated as sincere, whatever it is.</div></li>
+          <li><i data-lucide="badge-check"></i><div><b>Cites verse and hadith numbers</b>Hadith come with their authenticity grade.</div></li>
+          <li><i data-lucide="users-round"></i><div><b>Hands off to humans</b>Request an anonymous check by a qualified scholar.</div></li>
+        </ul>
+        <div class="prompt-chips" id="prompt-chips">
+          <span class="lbl">Try a question</span>
+        </div>
+      </div>
+      <div class="chat glass" id="chat">
+        <div class="chat-top">
+          <svg class="beacon" aria-hidden="true"><use href="#beacon"/></svg>
+          <div><b>Bayan AI</b><small><i></i>Answers from verified sources only</small></div>
+          <button type="button" class="reset" id="chat-reset" aria-label="New chat"><i data-lucide="rotate-ccw"></i><span>New chat</span></button>
+          <button type="button" class="reset full-btn" id="chat-full" aria-label="Full screen"><i data-lucide="maximize-2"></i><span>Full screen</span></button>
+        </div>
+        <div class="chat-log" id="chat-log" aria-live="polite"></div>
+        <div class="chat-suggest" id="chat-suggest" role="group" aria-label="Suggested questions"></div>
+        <form class="chat-form" id="chat-form">
+          <input id="chat-input" type="text" autocomplete="off" placeholder="Type your question…" aria-label="Your question">
+          <button type="submit" class="btn btn-primary" aria-label="Send"><i data-lucide="send"></i></button>
+        </form>
+        <p class="chat-note">Simulated preview. Answers are prepared examples, not live AI output. Bayan AI does not give fatwas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section class="sec" id="method" style="padding-top:24px">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Why this works</p>
+          <h2>Trust is earned in the details</h2>
+        </div>
+      </div>
+      <div class="pillars">
+        <article class="pillar glass">
+          <span class="ico"><i data-lucide="heart-handshake"></i></span>
+          <h3>Empathy first</h3>
+          <p>Every question is treated as sincere. We answer the question you asked, in plain language, without shaming, lecturing or assuming bad intent.</p>
+          <div class="stat"><b>0</b> judgment. Questions can always be asked anonymously.</div>
+        </article>
+        <article class="pillar glass">
+          <span class="ico"><i data-lucide="badge-check"></i></span>
+          <h3>Verified primary sources only</h3>
+          <p>Every claim links to a Quran verse, a graded hadith or published scholarship. If we can't source it, we don't say it. Where scholars differ, we say that too.</p>
+          <div class="stat"><b>100%</b> of answers carry citations.</div>
+        </article>
+        <article class="pillar glass">
+          <span class="ico"><i data-lucide="clapperboard"></i></span>
+          <h3>Short video format</h3>
+          <p>Each topic opens with a focused clip, then goes deeper in writing for anyone who wants the full picture, down to the sources themselves.</p>
+          <div class="stat"><b>&lt;7</b> minutes per clip, split into chapters.</div>
+        </article>
+      </div>
+      <div class="pipeline glass">
+        <span class="lead">How an answer gets published</span>
+        <span class="pstep"><i>1</i>Drafted from sources</span><span class="arrow"><i data-lucide="chevron-right"></i></span>
+        <span class="pstep"><i>2</i>Every reference checked</span><span class="arrow"><i data-lucide="chevron-right"></i></span>
+        <span class="pstep"><i>3</i>Reviewed by a qualified scholar</span><span class="arrow"><i data-lucide="chevron-right"></i></span>
+        <span class="pstep"><i>4</i>Published with its sources</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div style="display:grid;gap:14px;align-content:start">
+      <a class="brand" href="#top">
+        <svg class="beacon" aria-hidden="true"><use href="#beacon"/></svg>
+        <span class="brand-name">Bayan <span class="sep">|</span> <span class="ar" lang="ar">بيان</span></span>
+      </a>
+      <p>Bayan is an educational project. Our aim is to give sincere people, Muslim or not, clear and honest answers to hard questions about Islam, grounded in the Quran, authentic hadith and serious scholarship.</p>
+      <div class="disclaimer"><b>AI is not a fatwa.</b> Bayan AI summarises verified sources for learning. It does not issue religious rulings. For guidance on your own situation, speak with a qualified scholar you trust.</div>
+    </div>
+    <div>
+      <h4>Further reading</h4>
+      <div class="foot-links">
+        <a href="https://yaqeeninstitute.org" target="_blank" rel="noopener">Yaqeen Institute <i data-lucide="arrow-up-right"></i></a>
+        <a href="https://www.sapienceinstitute.org" target="_blank" rel="noopener">Sapience Institute <i data-lucide="arrow-up-right"></i></a>
+        <a href="https://quran.com" target="_blank" rel="noopener">Quran.com <i data-lucide="arrow-up-right"></i></a>
+        <a href="https://sunnah.com" target="_blank" rel="noopener">Sunnah.com <i data-lucide="arrow-up-right"></i></a>
+        <small>Independent organisations. Listed as reading, not as partners.</small>
+      </div>
+    </div>
+    <div>
+      <h4>Help us improve</h4>
+      <div class="foot-links">
+        <button type="button" data-feedback><i data-lucide="message-square-text"></i>Send feedback on an answer</button>
+        <button type="button" data-mentor><i data-lucide="user-round-check"></i>Request an anonymous scholar check</button>
+        <a href="#method"><i data-lucide="book-open-check"></i>Our methodology</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap foot-base">
+    <span>© 2026 Bayan. Built for learning.</span>
+    <span>Mockup: speakers are real scholars, but these video titles and clips are illustrative, not real recordings.</span>
+  </div>
+</footer>
+
+<div class="overlay" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" id="modal-box"></div>
+</div>
+<div class="overlay" id="dlg" hidden>
+  <div class="modal dialog" role="dialog" aria-modal="true" aria-labelledby="dlg-title" id="dlg-box"></div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+<script>
+(() => {
+const CATS = [
+  {id:"all", label:"All"},
+  {id:"theology", label:"Theology & God", h:"#2E4677"},
+  {id:"science", label:"Science & Reason", h:"#35606A"},
+  {id:"women", label:"Women & Society", h:"#6B4A62"},
+  {id:"preservation", label:"Quran & Hadith Preservation", h:"#7A5F2E"},
+  {id:"morality", label:"Morality & Justice", h:"#86503D"},
+];
+const CAT = Object.fromEntries(CATS.map(c => [c.id, c]));
+const SIN = "Translation adapted from Saheeh International.";
+
+const CARDS = [
+{
+  id:"suffering", cat:"theology", aud:["seeker","muslim"], tt:"Why suffering?",
+  q:"If God is good, why is there suffering?",
+  premise:"A loving, all-powerful God would make a world without pain, so suffering proves He isn't there.",
+  reality:"The Quran calls this life a test, not the final destination. Hardship has meaning, it is temporary, and every wrong is answered with perfect justice.",
+  speaker:"Hamza Andreas Tzortzis", role:"Author, The Divine Reality", dur:252,
+  badges:["Quran","Sahih Hadith","Academic"],
+  kw:["suffer","pain","evil","allow","hardship","bad things","test","grief","loss","tragedy"],
+  short:"Islam never promised a world without pain. It describes this life as a short test that shapes who we become, and it promises that no suffering is wasted: the patient are rewarded, the wronged receive justice, and the story does not end at death.",
+  deeper:[
+    "The objection assumes God's only purpose would be our comfort right now. The Quran gives a different purpose: “[He] who created death and life to test you as to which of you is best in deed” (67:2). Courage, patience, mercy and sacrifice only exist in a world where hardship is real.",
+    "Islam also widens the timeline. What looks senseless inside one lifetime is set inside eternity, where every injustice is put right. The Prophet ﷺ taught that even the prick of a thorn is not wasted for a believer.",
+    "None of this makes pain small. The Prophet ﷺ wept at the death of his young son Ibrahim. Grief is allowed. What faith adds is that grief is never meaningless."
+  ],
+  points:["This life is described as a test with a purpose, not a paradise (67:2).","Hardship is temporary, and relief is promised alongside it (94:5–6).","Justice is complete in the hereafter, so no wrong goes unanswered.","Grief is human and allowed. The Prophet ﷺ himself wept."],
+  open:"That is one of the most human questions there is, and asking it is not a lack of faith. Here is how the Quran and the Prophet ﷺ approach it.",
+  follow:"Is this question coming from something you're going through, or something you've read? I can go deeper either way.",
+  cites:[
+    {k:"q", ref:"Al-Mulk 67:2", url:"67/2", text:"“[He] who created death and life to test you as to which of you is best in deed.”"},
+    {k:"q", ref:"Al-Baqarah 2:155–156", url:"2/155-156", text:"“We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient, who, when disaster strikes them, say: ‘Indeed we belong to Allah, and indeed to Him we will return.’”"},
+    {k:"q", ref:"Ash-Sharh 94:5–6", url:"94/5-6", text:"“For indeed, with hardship will be ease. Indeed, with hardship will be ease.”"},
+    {k:"h", ref:"Sahih Muslim 2999", grade:"Sahih", text:"“How wonderful is the affair of the believer, for all of it is good. If something good happens to him he is grateful, and that is good for him. If something bad befalls him he is patient, and that is good for him.”"},
+    {k:"h", ref:"Sahih al-Bukhari 5641", grade:"Sahih", text:"No fatigue, illness, worry, grief or harm befalls a Muslim, not even the prick of a thorn, except that Allah removes some of his sins because of it."},
+    {k:"a", ref:"Tzortzis, H. A. The Divine Reality: God, Islam and the Mirage of Atheism. Lion Rock Publishing, revised ed. 2019."}
+  ],
+  chapters:[[0,"The question behind the question","Why would a good God allow any of this?"],[62,"A test, not a paradise","“Who created death and life to test you…” (67:2)"],[140,"What hardship makes possible","Patience, courage and mercy need a world where pain is real."],[205,"Justice beyond this life","Nothing is lost. Every wrong is answered."]],
+  related:["doubt","purpose"]
+},
+{
+  id:"who-created", cat:"theology", aud:["seeker"], tt:"Who made God?",
+  q:"If everything needs a creator, who created God?",
+  premise:"God is just one more thing in the chain of things that need a cause.",
+  reality:"The argument says whatever begins to exist needs a cause. God has no beginning, so He ends the chain instead of extending it.",
+  speaker:"Mohammed Hijab", role:"Speaker and researcher", dur:225,
+  badges:["Quran","Sahih Hadith","Academic"],
+  kw:["created god","who made god","creator","cause","universe","begin","exist","atheis","god exist"],
+  short:"The argument for a creator does not say ‘everything needs a cause’. It says ‘everything that begins to exist needs a cause’. The universe had a beginning. God, as the Quran describes Him, has none. An endless chain of causes never gets started, so the chain has to end in something uncaused.",
+  deeper:[
+    "Surah al-Ikhlas describes God as One, the Eternal Refuge, who “neither begets nor is born” (112:3). The question “who made God?” quietly assumes God is a created thing, which is exactly what the Quran denies.",
+    "The Quran puts the choice plainly: “Or were they created by nothing, or were they the creators of themselves?” (52:35). Things do not come from nothing, and they do not create themselves. Muslim theologians such as al-Ghazali developed this into what philosophers now call the kalam argument.",
+    "The Prophet ﷺ even anticipated this thought as a whisper, and taught believers to seek refuge in Allah and stop going round in circles. That is not a ban on thinking. It is advice not to chase a question built on a mistake."
+  ],
+  points:["The argument is about things that begin to exist, not everything.","God has no beginning, so asking what caused Him misreads the claim (112:1–4).","An infinite chain of causes never gets started (52:35).","The Prophet ﷺ named this whisper and told believers how to respond."],
+  open:"A good question, and a very old one. Muslim theologians were answering it over a thousand years ago.",
+  follow:"Would it help to walk through why an endless chain of causes can't explain anything?",
+  cites:[
+    {k:"q", ref:"Al-Ikhlas 112:1–4", url:"112", text:"“Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born, nor is there to Him any equivalent.”"},
+    {k:"q", ref:"At-Tur 52:35", url:"52/35", text:"“Or were they created by nothing, or were they the creators [of themselves]?”"},
+    {k:"h", ref:"Sahih al-Bukhari 3276", grade:"Sahih", text:"“Satan comes to one of you and says: Who created this? Who created that? until he says: Who created your Lord? When he reaches that, let him seek refuge in Allah and stop.”"},
+    {k:"a", ref:"Craig, W. L. The Kalam Cosmological Argument. Macmillan, 1979. Traces the argument to Muslim theologians including al-Ghazali."}
+  ],
+  chapters:[[0,"The question","If God made everything, who made God?"],[55,"Read the premise again","Only things that begin to exist need a cause."],[120,"Why the chain must end","“Or were they created by nothing?” (52:35)"],[180,"The whisper the Prophet ﷺ named","Seek refuge in Allah, and stop the loop."]],
+  related:["purpose","faith-reason"]
+},
+{
+  id:"doubt", cat:"theology", aud:["muslim"], tt:"Doubt is not defeat",
+  q:"If I have doubts, am I a bad Muslim?",
+  premise:"Real believers never have doubts, so questioning means your faith is gone.",
+  reality:"Companions told the Prophet ﷺ about thoughts too heavy to say out loud. He called their discomfort a sign of clear faith. Even Ibrahim (Abraham) asked God to show him.",
+  speaker:"Dr. Haifaa Younis", role:"Founder, Jannah Institute", dur:238,
+  badges:["Quran","Sahih Hadith","Classical text"],
+  kw:["doubt","bad muslim","weak faith","losing faith","struggl","whisper","iman","unsure","question my"],
+  short:"Having doubts does not make you a bad Muslim. The Prophet ﷺ met doubts with gentleness, the Quran records a prophet asking God for reassurance, and some of Islam's greatest scholars wrote openly about their own crises of faith. What matters is what you do next: ask, learn and keep turning back to God.",
+  deeper:[
+    "When companions complained of thoughts they felt were too terrible to speak about, the Prophet ﷺ asked if they really felt that way, then said: “That is clear faith” (Muslim 132). The fact that the thought troubled them showed belief was alive.",
+    "Ibrahim (Abraham), one of the greatest prophets, asked God to show him how He gives life to the dead. When asked “Have you not believed?”, he answered: “Yes, but only so that my heart may be at ease” (2:260). Seeking certainty is part of the path.",
+    "Imam al-Ghazali wrote a whole book, Deliverance from Error, about a period of deep doubt and how he came through it. Doubt handled honestly can lead to firmer conviction."
+  ],
+  points:["The Prophet ﷺ called discomfort with bad thoughts “clear faith” (Muslim 132).","Prophet Ibrahim asked God for reassurance and was not blamed (2:260).","Scholars like al-Ghazali wrote openly about their own doubts.","The next step is to ask, not to hide the question."],
+  open:"First, thank you for trusting us with this. Feeling doubt does not mean you are a bad Muslim, and you are far from alone.",
+  follow:"Would you like to share which question is weighing on you most? We can take it one step at a time.",
+  cites:[
+    {k:"h", ref:"Sahih Muslim 132", grade:"Sahih", text:"Companions said they found thoughts in themselves too grave to speak of. He asked: “Do you really find that?” They said yes. He said: “That is clear faith.”"},
+    {k:"q", ref:"Al-Baqarah 2:260", url:"2/260", text:"“…He said: ‘Have you not believed?’ He said: ‘Yes, but [I ask] only that my heart may be satisfied.’”"},
+    {k:"c", ref:"al-Ghazali, al-Munqidh min al-Dalal (Deliverance from Error), trans. R. J. McCarthy."}
+  ],
+  chapters:[[0,"You are not alone","Doubt is a question, not a verdict."],[60,"“That is clear faith”","The Prophet ﷺ met doubt with gentleness."],[130,"Ibrahim asks to see","“So that my heart may be at ease” (2:260)"],[190,"What to do next","Ask, learn, and keep turning back to God."]],
+  related:["suffering","hadith-late"]
+},
+{
+  id:"purpose", cat:"theology", aud:["seeker"], tt:"Why am I here?",
+  q:"What is the purpose of life in Islam?",
+  premise:"Life is an accident with no built-in purpose, so meaning is whatever you invent.",
+  reality:"The Quran says people were created to know and worship God, and that life is a meaningful test that ends in a return to Him.",
+  speaker:"Nouman Ali Khan", role:"Founder, Bayyinah Institute", dur:200,
+  badges:["Quran"],
+  kw:["purpose","meaning","why am i here","point of life","worship","why exist","why we"],
+  short:"In Islam, life has a purpose given by the One who made it: to know God, worship Him and live well. Worship covers far more than prayer. Kindness, honest work and caring for family all count when done for God. And life leads somewhere: every person returns to Him.",
+  deeper:[
+    "The Quran states it directly: “I did not create jinn and mankind except to worship Me” (51:56). In Islamic teaching, worship is not only ritual. It includes every good act done with the right intention.",
+    "It also asks the reader to think: “Did you think that We created you without purpose, and that you would not be returned to Us?” (23:115). Meaning is not invented. It is discovered.",
+    "This gives weight to ordinary days. A smile, a fair deal or patience with a difficult parent are all part of the purpose."
+  ],
+  points:["People were created to know and worship God (51:56).","Worship includes every good act done for God, not only prayer.","Life is a meaningful test with a return to God (23:115, 67:2)."],
+  open:"A beautiful place to start. Here is the Quran's answer in its own words.",
+  follow:"What would you like to explore next: what worship looks like day to day, or what happens after this life?",
+  cites:[
+    {k:"q", ref:"Adh-Dhariyat 51:56", url:"51/56", text:"“And I did not create the jinn and mankind except to worship Me.”"},
+    {k:"q", ref:"Al-Mu'minun 23:115", url:"23/115", text:"“Then did you think that We created you uselessly and that to Us you would not be returned?”"},
+    {k:"q", ref:"Al-Mulk 67:2", url:"67/2", text:"“[He] who created death and life to test you as to which of you is best in deed.”"}
+  ],
+  chapters:[[0,"Why am I here?","The oldest question a person asks."],[50,"The Quran's answer","“…except to worship Me” (51:56)"],[110,"Worship is bigger than you think","Every good act done for God counts."],[160,"A life that leads somewhere","“…and to Us you would not be returned?” (23:115)"]],
+  related:["who-created","suffering"]
+},
+{
+  id:"faith-reason", cat:"science", aud:["seeker","muslim"], tt:"Faith that thinks",
+  q:"Isn't religious faith just blind belief?",
+  premise:"Believing means switching off your mind and accepting what you're told.",
+  reality:"The Quran repeatedly tells people to reflect, reason and study the natural world. In Islam, faith is meant to rest on reflection.",
+  speaker:"Dr. Shabir Ally", role:"President, Islamic Information & Da'wah Centre", dur:245,
+  badges:["Quran","Classical text"],
+  kw:["blind","reason","logic","evidence","rational","think","proof","intellect"],
+  short:"Islam asks for faith built on reflection, not blind following. The first word revealed to the Prophet ﷺ was “Read”. The Quran constantly points to the heavens, the earth and our own selves as signs, and criticises people who follow their forefathers without thinking.",
+  deeper:[
+    "The Quran describes people of understanding as those who “reflect on the creation of the heavens and the earth” (3:190–191). Reflection is presented as an act of worship.",
+    "It also criticises inherited belief without thought: when told to follow revelation, some said they would follow their forefathers, “even though their fathers understood nothing” (2:170).",
+    "The philosopher and judge Ibn Rushd (Averroes) argued in his Decisive Treatise that the Quran makes rational study of the world a religious duty for those able to do it."
+  ],
+  points:["The first revealed word was “Read” (96:1).","The Quran praises those who reflect on creation (3:190–191).","It criticises blindly following tradition (2:170).","Classical scholars like Ibn Rushd saw reasoning as a religious duty."],
+  open:"A great question, and one many people assume they know the answer to. The Quran's own view may surprise you.",
+  follow:"Is there a specific argument or piece of evidence you'd like to look at together?",
+  cites:[
+    {k:"q", ref:"Al-'Alaq 96:1", url:"96/1", text:"“Read in the name of your Lord who created.”"},
+    {k:"q", ref:"Ali 'Imran 3:190", url:"3/190-191", text:"“Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding.”"},
+    {k:"q", ref:"Al-Baqarah 2:170", url:"2/170", text:"“…Even though their fathers understood nothing, nor were they guided?”"},
+    {k:"c", ref:"Ibn Rushd, Fasl al-Maqal (The Decisive Treatise), trans. C. E. Butterworth. Brigham Young University Press, 2001."}
+  ],
+  chapters:[[0,"Blind faith?","Is believing the opposite of thinking?"],[55,"The first word: “Read”","Revelation began with a command to read (96:1)."],[125,"Signs for people who think","“…signs for those of understanding” (3:190)"],[190,"Ibn Rushd's argument","Reasoning about creation as a religious duty."]],
+  related:["evolution","who-created"]
+},
+{
+  id:"evolution", cat:"science", aud:["muslim","seeker"], tt:"Evolution & Adam",
+  q:"Does Islam reject evolution?",
+  premise:"You must pick one: accept biology and lose faith, or keep faith and reject science.",
+  reality:"Many scholars separate evolution in plants and animals from the special creation of Adam. There are several positions within Islam, and studying nature is encouraged.",
+  speaker:"Dr. Nidhal Guessoum", role:"Astrophysicist, American University of Sharjah", dur:280,
+  badges:["Quran","Academic"],
+  kw:["evolution","darwin","science","biology","adam","species","origin","scientif"],
+  short:"There is no single Islamic position that rejects all of biology. Many scholars see no problem with evolution in plants and animals, since the Quran does not describe how they came about in detail. Scholars are more careful about the creation of Adam, which the Quran describes directly. Muslims are encouraged to study nature, and serious scholars disagree on the details.",
+  deeper:[
+    "The Quran says God “made from water every living thing” (21:30) and invites people to “travel through the land and observe how He began creation” (29:20). Studying the origins of life is encouraged, not forbidden.",
+    "Adam is described as a special creation: “The example of Jesus to Allah is like that of Adam. He created him from dust” (3:59). David Solomon Jalajel has shown that the classical sources speak specifically about Adam, not about every other species.",
+    "Astrophysicist Nidhal Guessoum argues that science and the Quran answer different questions, and that forcing modern theories into verses, or verses into theories, does a disservice to both."
+  ],
+  points:["The Quran encourages studying how life began (29:20).","Many scholars accept evolution for plants and animals.","The creation of Adam is treated as a special case (3:59).","Scholars hold several positions. Honest disagreement is allowed."],
+  open:"This is a question many students wrestle with. The short answer: it's less of a clash than people are told.",
+  follow:"Would you like to see how different scholars handle the question of Adam specifically?",
+  cites:[
+    {k:"q", ref:"Al-Anbiya 21:30", url:"21/30", text:"“…and We made from water every living thing. Then will they not believe?”"},
+    {k:"q", ref:"Al-'Ankabut 29:20", url:"29/20", text:"“Say: Travel through the land and observe how He began creation.”"},
+    {k:"q", ref:"Ali 'Imran 3:59", url:"3/59", text:"“Indeed, the example of Jesus to Allah is like that of Adam. He created him from dust.”"},
+    {k:"a", ref:"Jalajel, D. S. Islam and Biological Evolution: Exploring Classical Sources and Methodologies. University of the Western Cape, 2009."},
+    {k:"a", ref:"Guessoum, N. Islam's Quantum Question: Reconciling Muslim Tradition and Modern Science. I.B. Tauris, 2011."}
+  ],
+  chapters:[[0,"Faith or biology?","Do you really have to choose?"],[60,"Study how creation began","“Travel through the land and observe” (29:20)"],[140,"The question of Adam","A special creation, from dust (3:59)."],[215,"Room for disagreement","Scholars hold several positions."]],
+  related:["faith-reason","who-created"]
+},
+{
+  id:"quran-preserved", cat:"preservation", aud:["seeker","muslim"], tt:"Preserved, page and heart",
+  q:"Hasn't the Quran been changed over time?",
+  premise:"Like other ancient texts, the Quran must have drifted as it was copied by hand.",
+  reality:"It was memorised by many companions, compiled under Abu Bakr and standardised under Uthman. Manuscripts from the first Islamic century match the text read today.",
+  speaker:"Dr. Yasir Qadhi", role:"Resident scholar, East Plano Islamic Center", dur:310,
+  badges:["Quran","Sahih Hadith","Academic"],
+  kw:["quran","preserv","changed","corrupt","manuscript","compil","uthman","birmingham","altered"],
+  short:"The Quran was preserved in two ways at once: in memory and in writing. Many companions memorised it during the Prophet's ﷺ life. It was gathered into one written copy under Abu Bakr and standardised under Uthman within about twenty years of the Prophet's ﷺ death. Early manuscripts, some carbon-dated to within decades of him, match the text Muslims recite today.",
+  deeper:[
+    "After many memorisers were killed at the Battle of Yamama, Abu Bakr asked Zayd ibn Thabit to gather the Quran from written materials and the memories of the companions (Bukhari 4986). Under Uthman, copies were made from this collection and sent to the major cities (Bukhari 4987).",
+    "In 2015, the University of Birmingham carbon-dated leaves of a Quran manuscript to between 568 and 645 CE, which overlaps the Prophet's ﷺ lifetime. The surviving text matches today's Quran.",
+    "Honesty matters here too. Studies of the Sana'a palimpsest found an older layer with small differences in wording. Researchers Behnam Sadeghi and Mohsen Goudarzi argue this fits the Muslim account: other companion copies existed before Uthman chose one standard text."
+  ],
+  points:["Preserved in memory and in writing at the same time.","Compiled under Abu Bakr, standardised under Uthman (Bukhari 4986–4987).","The Birmingham manuscript is carbon-dated to 568–645 CE.","Early variant copies are documented openly, and fit the historical account."],
+  open:"A fair question to ask of any scripture. Here is what the historical record and the manuscripts show.",
+  follow:"Would you like to see how Uthman's standard copy was actually made, step by step?",
+  cites:[
+    {k:"q", ref:"Al-Hijr 15:9", url:"15/9", text:"“Indeed, it is We who sent down the message, and indeed, We will be its guardian.”"},
+    {k:"h", ref:"Sahih al-Bukhari 4986", grade:"Sahih", text:"After the Battle of Yamama, Abu Bakr asks Zayd ibn Thabit to gather the Quran from written pieces and from the memories of men."},
+    {k:"h", ref:"Sahih al-Bukhari 4987", grade:"Sahih", text:"Uthman has copies made from the collected text and sends one to each region."},
+    {k:"a", ref:"University of Birmingham. Radiocarbon dating of the Birmingham Quran manuscript (Mingana Collection), 2015: 568–645 CE."},
+    {k:"a", ref:"Sadeghi, B. & Goudarzi, M. “Ṣan‘ā’ 1 and the Origins of the Qur’ān.” Der Islam 87 (2012)."}
+  ],
+  chapters:[[0,"The claim","Did the Quran drift over time?"],[65,"Memory and writing","Preserved in hearts and on pages together."],[150,"Abu Bakr and Uthman","Compiled, then standardised (Bukhari 4986–4987)."],[235,"What the manuscripts show","Birmingham: carbon-dated to 568–645 CE."]],
+  related:["hadith-late","faith-reason"]
+},
+{
+  id:"hadith-late", cat:"preservation", aud:["muslim"], tt:"The 200-year myth",
+  q:"Weren't hadith written down 200 years after the Prophet ﷺ?",
+  premise:"Nothing was recorded until al-Bukhari's time, so the hadith are late inventions.",
+  reality:"Companions and their students kept written notebooks in the first century, and scholars built a rigorous system for checking every chain of narrators.",
+  speaker:"Dr. Jonathan A.C. Brown", role:"Professor, Georgetown University", dur:365,
+  badges:["Quran","Sahih Hadith","Academic"],
+  kw:["hadith","sunnah","bukhari","200 years","narrat","written","isnad","quranist"],
+  short:"Al-Bukhari (d. 870 CE) collected and selected hadith. He did not start the process. Some companions wrote hadith down in the Prophet's ﷺ own lifetime, their students kept notebooks, and early scholars built a detailed science of checking who narrated what from whom. The famous collections sit on top of two centuries of recorded work.",
+  deeper:[
+    "Abu Hurayra said that only Abdullah ibn Amr had more hadith than him, “because he used to write and I did not” (Bukhari 113). Writing was happening in the first generation.",
+    "One early notebook survives: the Sahifa of Hammam ibn Munabbih, a student of Abu Hurayra. It was published by Muhammad Hamidullah, and its contents match later collections.",
+    "Jonathan Brown explains how hadith critics judged narrators on memory, honesty and whether they could have met, and graded each report. Not every hadith is accepted. That is the point of the system."
+  ],
+  points:["Al-Bukhari compiled and selected. He didn't begin the recording.","Companions wrote hadith in the first generation (Bukhari 113).","Early notebooks such as the Sahifa of Hammam survive.","Every report was graded, and many were rejected."],
+  open:"You've probably seen this claim online. Here is what the historical record shows.",
+  follow:"Want to see how a single hadith's chain of narrators was actually checked?",
+  cites:[
+    {k:"q", ref:"Al-Hashr 59:7", url:"59/7", text:"“And whatever the Messenger has given you, take it; and what he has forbidden you, refrain from.”"},
+    {k:"h", ref:"Sahih al-Bukhari 113", grade:"Sahih", text:"Abu Hurayra: none of the companions narrated more hadith than me except Abdullah ibn Amr, “because he used to write and I did not.”"},
+    {k:"a", ref:"Brown, J. A. C. Hadith: Muhammad's Legacy in the Medieval and Modern World. Oneworld, 2009."},
+    {k:"c", ref:"Sahifa of Hammam ibn Munabbih, ed. Muhammad Hamidullah."}
+  ],
+  chapters:[[0,"The 200-year claim","Were hadith invented late?"],[75,"Writing in the first generation","“He used to write and I did not” (Bukhari 113)"],[170,"Notebooks that survive","The Sahifa of Hammam ibn Munabbih."],[265,"How hadith were graded","Memory, honesty and unbroken chains."]],
+  related:["quran-preserved","doubt"]
+},
+{
+  id:"inheritance", cat:"women", aud:["seeker","muslim"], tt:"Inheritance, the full picture",
+  q:"Why do women inherit half of what men inherit?",
+  premise:"Women always get half of any man, so Islam values women at half.",
+  reality:"The half share applies in specific cases, like a son and a daughter, where the man must financially support the family. In other cases women inherit equally or more, and a woman's own wealth is hers alone.",
+  speaker:"Dr. Omar Suleiman", role:"Founder, Yaqeen Institute", dur:295,
+  badges:["Quran","Classical text"],
+  kw:["inherit","half","share","wealth","daughter","rights","estate","women's rights"],
+  short:"The ‘half’ rule is real, but it is one case, not a general rule. When a son and a daughter inherit from a parent, the son receives twice the daughter's share, because Islamic law obliges him to spend on his family while her wealth is entirely her own. In other situations, such as maternal siblings, men and women inherit equally, and in some cases a woman receives more than a male relative.",
+  deeper:[
+    "The Quran first establishes that women have a guaranteed share: “For men is a share of what the parents and close relatives leave, and for women is a share” (4:7). In seventh-century Arabia, women often inherited nothing.",
+    "The two-to-one ratio appears for the children of the deceased (4:11). It sits inside a system where the husband gives the bridal gift (4:4) and is responsible for housing, food and clothing for his wife and children. A woman is not required to spend her inheritance on anyone.",
+    "Maternal half-siblings inherit equally, male and female (4:12). Classical works such as Ibn Qudamah's al-Mughni list many cases where a woman receives the same as, or more than, a male relative."
+  ],
+  points:["Women's share is guaranteed by the Quran (4:7).","The 2:1 ratio applies to specific cases like sons and daughters (4:11).","Men carry the duty to provide. A woman's wealth is hers alone (4:4).","In other cases women inherit equally or more (4:12)."],
+  open:"An important question, and one that's often presented without the full picture.",
+  follow:"Would a worked example with real numbers help?",
+  cites:[
+    {k:"q", ref:"An-Nisa 4:7", url:"4/7", text:"“For men is a share of what the parents and close relatives leave, and for women is a share of what the parents and close relatives leave.”"},
+    {k:"q", ref:"An-Nisa 4:11", url:"4/11", text:"“Allah instructs you concerning your children: for the male, what is equal to the share of two females.”"},
+    {k:"q", ref:"An-Nisa 4:12", url:"4/12", text:"Where there are maternal siblings, “they share a third”, male and female alike."},
+    {k:"q", ref:"An-Nisa 4:4", url:"4/4", text:"“And give the women [upon marriage] their bridal gifts graciously.”"},
+    {k:"c", ref:"Ibn Qudamah, al-Mughni, Book of Inheritance (Kitab al-Fara'id)."}
+  ],
+  chapters:[[0,"The headline claim","“Women get half.” Is that the whole story?"],[60,"A share guaranteed","“…and for women is a share” (4:7)"],[140,"Who pays for whom","His duty to provide. Her wealth stays hers."],[220,"When women receive equal or more","Maternal siblings share equally (4:12)."]],
+  related:["women-spiritual","never-heard"]
+},
+{
+  id:"women-spiritual", cat:"women", aud:["seeker","muslim"], tt:"Equal before God",
+  q:"Does Islam see women as spiritually lesser?",
+  premise:"Different roles in family life must mean women are worth less before God.",
+  reality:"The Quran addresses believing men and women side by side and promises the same reward for the same deeds. Women were among Islam's great scholars.",
+  speaker:"Dr. Mohammad Akram Nadwi", role:"Author, al-Muhaddithat", dur:230,
+  badges:["Quran","Hasan Hadith","Academic"],
+  kw:["women","female","equal","spiritual","gender","sister","feminis","wife"],
+  short:"No. In the Quran, men and women stand equal before God in faith, deeds and reward. It addresses them side by side, and promises that whoever does good, male or female, will be rewarded. History backs this up: thousands of women taught hadith, including to famous male scholars.",
+  deeper:[
+    "Surah al-Ahzab lists ten qualities, each in its male and female form: “the believing men and believing women, the obedient men and obedient women…” and promises both forgiveness and a great reward (33:35).",
+    "“Whoever does righteousness, whether male or female, while being a believer, We will surely cause them to live a good life” (16:97). Reward is tied to deeds, not gender.",
+    "Mohammad Akram Nadwi documented around 8,000 women hadith scholars in Islamic history in his work al-Muhaddithat. Aisha, the Prophet's ﷺ wife, was one of the most important teachers of the first generation."
+  ],
+  points:["The Quran addresses believing men and women side by side (33:35).","Same deeds, same reward (16:97).","“Women are the twin halves of men” (Abu Dawud 236).","Around 8,000 women hadith scholars are documented."],
+  open:"Thank you for asking directly. The Quran's answer is clear.",
+  follow:"Would you like to hear about some of these women scholars by name?",
+  cites:[
+    {k:"q", ref:"Al-Ahzab 33:35", url:"33/35", text:"“Indeed, the Muslim men and Muslim women, the believing men and believing women… Allah has prepared for them forgiveness and a great reward.”"},
+    {k:"q", ref:"An-Nahl 16:97", url:"16/97", text:"“Whoever does righteousness, whether male or female, while he is a believer, We will surely cause him to live a good life.”"},
+    {k:"h", ref:"Sunan Abi Dawud 236", grade:"Hasan", text:"“Women are the twin halves of men.”"},
+    {k:"a", ref:"Nadwi, M. A. Al-Muhaddithat: The Women Scholars in Islam. Interface Publications, 2007."}
+  ],
+  chapters:[[0,"Equal before God?","What the Quran actually says."],[55,"Side by side","“The believing men and believing women…” (33:35)"],[120,"Same deeds, same reward","“Whether male or female” (16:97)"],[175,"8,000 women scholars","A history rarely told."]],
+  related:["inheritance","doubt"]
+},
+{
+  id:"never-heard", cat:"morality", aud:["seeker"], tt:"Those who never heard",
+  q:"What happens to people who never heard of Islam?",
+  premise:"Everyone outside Islam is condemned, even people the message never reached.",
+  reality:"The Quran says God does not punish before sending a messenger. Many scholars hold that people who never clearly received the message are judged with perfect justice.",
+  speaker:"Dr. Sherman A. Jackson", role:"Professor, University of Southern California", dur:325,
+  badges:["Quran","Academic"],
+  kw:["never heard","hell","non-muslim","non muslim","justice","fair","salvation","unfair","paradise"],
+  short:"God is perfectly just, and the Quran says He does not punish anyone before the message has reached them. Scholars across the centuries, including al-Ghazali, held that people who never heard of Islam, or only heard a distorted version, are not treated like those who knowingly rejected it. Their final judgment rests with God, who knows every heart.",
+  deeper:[
+    "“And never would We punish until We sent a messenger” (17:15). The Quran also says messengers were sent “so that mankind will have no argument against Allah” (4:165). Accountability follows the message.",
+    "Al-Ghazali divided non-Muslims into groups. Those who never heard of the Prophet ﷺ at all, and those who heard only a false picture of him, he placed within the hope of God's mercy. Sherman Jackson translated this work into English.",
+    "The key point across the scholarly discussion is that nobody is wronged: “Your Lord does injustice to no one” (18:49)."
+  ],
+  points:["God does not punish before the message arrives (17:15).","Messengers remove every excuse, which assumes the message was received (4:165).","Al-Ghazali held that those who never heard, or heard a distorted picture, have hope of mercy.","Final judgment belongs to God, who wrongs no one (18:49)."],
+  open:"This question comes from a good place: caring about justice. The Quran cares about it too.",
+  follow:"Is there someone specific you're thinking about? It's natural to care.",
+  cites:[
+    {k:"q", ref:"Al-Isra 17:15", url:"17/15", text:"“And never would We punish until We sent a messenger.”"},
+    {k:"q", ref:"An-Nisa 4:165", url:"4/165", text:"“Messengers as bringers of good tidings and warners so that mankind will have no argument against Allah after the messengers.”"},
+    {k:"q", ref:"Al-Kahf 18:49", url:"18/49", text:"“And your Lord does injustice to no one.”"},
+    {k:"a", ref:"Jackson, S. A. On the Boundaries of Theological Tolerance in Islam: Abu Hamid al-Ghazali's Faysal al-Tafriqa. Oxford University Press, 2002."}
+  ],
+  chapters:[[0,"A question about justice","What about people who never heard?"],[70,"No punishment before a messenger","“…until We sent a messenger” (17:15)"],[160,"Al-Ghazali's categories","Never heard, heard falsely, heard truly."],[250,"Nobody is wronged","“Your Lord does injustice to no one” (18:49)"]],
+  related:["sword","suffering"]
+},
+{
+  id:"sword", cat:"morality", aud:["seeker"], tt:"Conquest vs conversion",
+  q:"Was Islam spread by the sword?",
+  premise:"Military conquest and religious conversion were the same thing.",
+  reality:"The Quran forbids forcing belief. Historians show that conquered regions became majority Muslim slowly, over centuries, and the largest Muslim country today was reached mainly through trade.",
+  speaker:"Sh. Abdal Hakim Murad", role:"Dean, Cambridge Muslim College", dur:270,
+  badges:["Quran","Academic"],
+  kw:["sword","violence","force","spread","conquest","convert","jihad","terror","war"],
+  short:"Early Muslim states did expand through war, like the empires around them. But conquering land and converting people are different things. The Quran says plainly there is no compulsion in religion, and historians show that many regions stayed majority non-Muslim for centuries after conquest. Indonesia, today the largest Muslim-majority country, was never conquered by a Muslim army.",
+  deeper:[
+    "“There shall be no compulsion in religion” (2:256). Christians, Jews and others living under Muslim rule kept their faith and their places of worship.",
+    "Historian Richard Bulliet studied conversion using the names in medieval biographical records. He found that Iran, for example, only became majority Muslim about two centuries after the conquest.",
+    "Islam reached much of Southeast Asia and East Africa through merchants and scholars. Today Indonesia has more Muslims than any other country, and it was never conquered by a Muslim army."
+  ],
+  points:["The Quran forbids forcing belief (2:256).","Conquest and conversion happened on very different timelines.","Iran took about two centuries to become majority Muslim.","Indonesia was reached mainly through trade and teaching."],
+  open:"This is a common claim, and it deserves a careful historical answer rather than a defensive one.",
+  follow:"Would it help to look at how non-Muslims lived under early Muslim rule?",
+  cites:[
+    {k:"q", ref:"Al-Baqarah 2:256", url:"2/256", text:"“There shall be no compulsion in [acceptance of] the religion.”"},
+    {k:"q", ref:"Al-Mumtahanah 60:8", url:"60/8", text:"“Allah does not forbid you from those who do not fight you because of religion and do not expel you from your homes, from being righteous toward them and acting justly toward them.”"},
+    {k:"a", ref:"Bulliet, R. W. Conversion to Islam in the Medieval Period: An Essay in Quantitative History. Harvard University Press, 1979."}
+  ],
+  chapters:[[0,"Sword or persuasion?","Separating conquest from conversion."],[60,"“No compulsion”","A principle, not an afterthought (2:256)."],[140,"What the records show","Conversion took centuries, not days."],[210,"Trade, not armies","How Islam reached Southeast Asia."]],
+  related:["never-heard","faith-reason"]
+}
+];
+const BY = Object.fromEntries(CARDS.map(c => [c.id, c]));
+
+const SUGGEST = ["Why does God allow suffering?","How was the Quran preserved?","Science and Evolution in Islam","Women's rights in inheritance"];
+const PROMPTS = [
+  ["Why does God allow suffering?","suffering"],
+  ["How do we know the Quran wasn't changed?","quran-preserved"],
+  ["I have doubts. Am I a bad Muslim?","doubt"],
+  ["Can a Muslim accept evolution?","evolution"],
+  ["What happens to people who never heard of Islam?","never-heard"]
+];
+const FOUNDATION = [
+  ["purpose","Why am I here?","What the Quran says about the purpose of a human life."],
+  ["who-created","Who is God?","The One with no beginning, and the question of who made Him."],
+  ["quran-preserved","Can the Quran be trusted?","How it was preserved, and what the oldest manuscripts show."],
+  ["faith-reason","Faith and reason","Why Islam asks you to think, not to follow blindly."]
+];
+const GREET = {
+  seeker:"Assalamu alaykum (peace be with you), and welcome. Ask me anything about Islam, however basic or difficult. I'll answer with care, show you exactly where each point comes from, and tell you honestly when a question needs a human scholar.",
+  muslim:"Assalamu alaykum. This is a safe space, and there's no question you can't ask here. I'll answer with care, cite every source with its grade, and point you to a real scholar whenever that would serve you better."
+};
+
+const state = { cat:"all", q:"", aud:"seeker" };
+const $ = (s, r=document) => r.querySelector(s);
+const $$ = (s, r=document) => [...r.querySelectorAll(s)];
+const icons = () => { try { window.lucide && window.lucide.createIcons(); } catch(e){} };
+const fmt = s => { s = Math.max(0, Math.floor(s)); return Math.floor(s/60) + ":" + String(s%60).padStart(2,"0"); };
+const initials = n => n.replace(/^(Dr\.|Sh\.)\s*/,"").split(/\s+/).filter(w=>/^[A-Z]/.test(w)).map(w=>w[0]).slice(0,2).join("");
+const hue = c => CAT[c.cat].h;
+const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---------- search scoring ---------- */
+const STOP = new Set("why does do did is are was were the a an of in to and how what can i my me if it its islam islamic muslim muslims about there that this for with you your be so on at have has not just all any we who when".split(" "));
+function tokens(q){
+  return q.toLowerCase().replace(/[’']s\b/g,"").split(/[^a-z0-9]+/).filter(t => t.length > 2 && !STOP.has(t));
+}
+function score(c, q){
+  const raw = q.toLowerCase();
+  const hay = (c.q+" "+c.premise+" "+c.reality+" "+c.speaker+" "+CAT[c.cat].label+" "+c.short).toLowerCase();
+  let s = 0;
+  c.kw.forEach(k => { if (k.includes(" ") && raw.includes(k)) s += 4; });
+  tokens(q).forEach(t => {
+    const stem = t.length > 6 ? t.slice(0,-3) : t;
+    if (c.kw.some(k => k.includes(stem) || stem.includes(k))) s += 3;
+    else if (hay.includes(stem)) s += 1;
+  });
+  return s;
+}
+function visible(){
+  let list = CARDS.filter(c => state.cat === "all" || c.cat === state.cat);
+  if (state.q.trim()){
+    const scored = list.map(c => [c, score(c, state.q)]).filter(x => x[1] > 0);
+    const top = Math.max(0, ...scored.map(x => x[1]));
+    return scored.filter(x => x[1] >= Math.max(1, top*0.5)).sort((a,b) => b[1]-a[1]).map(x => x[0]);
+  }
+  return [...list].sort((a,b) => b.aud.includes(state.aud) - a.aud.includes(state.aud));
+}
+
+/* ---------- rendering ---------- */
+function thumb(c, mini){
+  return `<div class="thumb${mini?" mini":""}" style="--h:${hue(c)}">
+    <span class="play" aria-hidden="true"><i data-lucide="play"></i></span>
+    <span class="t-title">${c.tt}</span>
+    <span class="t-spk"><span class="avatar-i">${initials(c.speaker)}</span>${c.speaker}</span>
+    <span class="dur">${fmt(c.dur)}</span>
+  </div>`;
+}
+const BADGE_ICON = {"Quran":"book-open","Sahih Hadith":"scroll-text","Hasan Hadith":"scroll-text","Academic":"graduation-cap","Classical text":"library"};
+function card(c, i){
+  const audLabel = c.aud.includes(state.aud) ? (state.aud === "seeker" ? "Popular with seekers" : "Common among Muslims") : "";
+  return `<article class="card glass" role="button" tabindex="0" data-open="${c.id}" style="--h:${hue(c)};animation-delay:${Math.min(i,8)*40}ms" aria-label="Open answer: ${c.q}">
+    ${thumb(c)}
+    <div class="card-body">
+      <div class="card-meta"><span class="cat-pill">${CAT[c.cat].label}</span>${audLabel?`<span class="aud-tag">· ${audLabel}</span>`:""}</div>
+      <span class="q-label">Common question</span>
+      <h3>${c.q}</h3>
+      <div class="contrast">
+        <div class="flaw"><span class="lbl"><i data-lucide="circle-x"></i>Flawed premise</span>${c.premise}</div>
+        <div class="real"><span class="lbl"><i data-lucide="circle-check"></i>Islamic reality</span>${c.reality}</div>
+      </div>
+      <div class="badges">
+        <span class="badge verified"><i data-lucide="badge-check"></i>Verified sources</span>
+        ${c.badges.map(b => `<span class="badge"><i data-lucide="${BADGE_ICON[b]}"></i>${b}</span>`).join("")}
+      </div>
+    </div>
+  </article>`;
+}
+function renderFilters(){
+  $("#filters").innerHTML = CATS.map(c => {
+    const n = c.id === "all" ? CARDS.length : CARDS.filter(x => x.cat === c.id).length;
+    return `<button type="button" class="chip" data-cat="${c.id}" aria-pressed="${state.cat===c.id}">${c.label} <span style="opacity:.6">${n}</span></button>`;
+  }).join("");
+}
+function renderCards(){
+  const list = visible();
+  const grid = $("#grid");
+  if (!list.length){
+    grid.innerHTML = `<div class="empty glass"><h3>No topic matches that yet</h3><p>Try different words, pick another category, or ask Bayan AI directly. You can also request an anonymous scholar check.</p>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px">
+        <button type="button" class="btn btn-primary" data-ask-q>Ask Bayan AI</button>
+        <button type="button" class="btn btn-ghost" data-clear>Show all topics</button></div></div>`;
+  } else grid.innerHTML = list.map(card).join("");
+  const q = state.q.trim();
+  const catTxt = state.cat === "all" ? "" : ` in <b>${CAT[state.cat].label}</b>`;
+  $("#result-line").innerHTML = q
+    ? `<span>${list.length} result${list.length===1?"":"s"} for <b>“${q.replace(/[<>&"]/g,"")}”</b>${catTxt}</span><button type="button" class="clear-q" data-clear><i data-lucide="x"></i>Clear search</button>`
+    : `<span>Showing <b>${list.length}</b> of ${CARDS.length} topics${catTxt}. Sorted for <b>${state.aud==="seeker"?"Exploring Islam":"Strengthening Conviction"}</b>.</span>`;
+  icons();
+}
+function renderPath(){
+  $("#path").innerHTML = FOUNDATION.map(([id, t, d], i) => {
+    const c = BY[id];
+    return `<button type="button" class="step glass" data-open="${id}" data-autoplay>
+      <span class="num">${i+1}</span><h3>${t}</h3><p>${d}</p>
+      <span class="meta"><span><i data-lucide="clock"></i>${fmt(c.dur)} video</span><span class="w">Watch <i data-lucide="play"></i></span></span>
+    </button>`;
+  }).join("");
+}
+
+/* ---------- modal + simulated player ---------- */
+const P = { c:null, t:0, playing:false, timer:null, last:null };
+function openModal(id, autoplay){
+  const c = BY[id]; if (!c) return;
+  P.last = document.activeElement;
+  P.c = c; P.t = 0; stop();
+  const cites = c.cites.map(citeHTML).join("");
+  $("#modal-box").style.setProperty("--h", hue(c));
+  $("#modal-box").innerHTML = `
+    <div class="modal-head">
+      <div style="min-width:0">
+        <span class="cat-pill" style="--h:${hue(c)}">${CAT[c.cat].label}</span>
+        <h2 id="modal-title">${c.q}</h2>
+      </div>
+      <button type="button" class="x-btn" data-close aria-label="Close"><i data-lucide="x"></i></button>
+    </div>
+    <div class="player">
+      <div class="stage" id="stage" role="button" tabindex="0" aria-label="Play or pause video">
+        <span class="sim">Simulated preview</span>
+        <div class="spk-card"><div><b>${c.speaker}</b><small>${c.role}</small></div><span class="avatar-i">${initials(c.speaker)}</span></div>
+        <div class="chap-t"><div class="k" id="chap-k">Chapter 1</div><h3 id="chap-h">${c.chapters[0][1]}</h3></div>
+        <span class="big-play" aria-hidden="true"><i data-lucide="play"></i></span>
+        <div class="wave" aria-hidden="true">${Array.from({length:14},(_, i)=>`<i style="animation-delay:${(i*73)%600}ms"></i>`).join("")}</div>
+        <div class="caption" id="caption">${c.chapters[0][2]}</div>
+      </div>
+      <div class="controls">
+        <button type="button" class="pp" id="pp" aria-label="Play"><i data-lucide="play"></i></button>
+        <div class="track" id="track" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="${c.dur}" aria-valuenow="0">
+          <div class="rail"><div class="fill" id="fill"></div>${c.chapters.slice(1).map(ch=>`<span class="tick" style="left:${ch[0]/c.dur*100}%"></span>`).join("")}</div>
+        </div>
+        <span class="time" id="time">0:00 / ${fmt(c.dur)}</span>
+      </div>
+      <div class="chapters" id="chapters">${c.chapters.map((ch,i)=>`<button type="button" data-seek="${ch[0]}"><span class="mono">${fmt(ch[0])}</span>${ch[1]}</button>`).join("")}</div>
+    </div>
+    <div class="tiers">
+      <div class="tier"><div class="tier-k">Tier 1<span>The short answer</span></div>
+        <div class="tier-body"><p class="lede">${c.short}</p>
+          <div class="contrast"><div class="flaw"><span class="lbl"><i data-lucide="circle-x"></i>Flawed premise</span>${c.premise}</div><div class="real"><span class="lbl"><i data-lucide="circle-check"></i>Islamic reality</span>${c.reality}</div></div>
+        </div></div>
+      <div class="tier"><div class="tier-k">Tier 2<span>Going deeper</span></div>
+        <div class="tier-body">${c.deeper.map(p=>`<p>${p}</p>`).join("")}</div></div>
+      <div class="tier"><div class="tier-k">Tier 3<span>Sources</span></div>
+        <div class="tier-body"><div class="cites">${cites}<p class="txt" style="font-size:.74rem;color:var(--ink-3);margin-top:8px">${SIN} Quran links open on quran.com.</p></div></div></div>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn btn-primary" data-ask-card="${c.id}"><i data-lucide="sparkles"></i>Ask Bayan AI about this</button>
+      <button type="button" class="btn btn-gold" data-mentor="${c.id}"><i data-lucide="user-round-check"></i>Request a scholar check</button>
+      <span class="note">Mockup: the speaker is a real scholar, but this clip and its title are illustrative, not a real recording.</span>
+    </div>`;
+  $("#modal").hidden = false;
+  document.documentElement.style.overflow = "hidden";
+  $("#modal").scrollTop = 0;
+  icons(); paint();
+  $(".x-btn", $("#modal-box")).focus();
+  if (autoplay) play();
+}
+const isFull = () => $("#chat").classList.contains("is-full");
+function setFull(on){
+  const was = isFull();
+  $("#chat").classList.toggle("is-full", on);
+  const b = $("#chat-full");
+  b.innerHTML = on ? '<i data-lucide="minimize-2"></i><span>Exit full screen</span>' : '<i data-lucide="maximize-2"></i><span>Full screen</span>';
+  b.setAttribute("aria-label", on ? "Exit full screen" : "Full screen");
+  document.documentElement.style.overflow = on ? "hidden" : "";
+  icons();
+  if (on && !was) log().scrollTop = log().scrollHeight;
+  if (!on && was) scrollToId("assistant");
+}
+function closeModal(){
+  stop(); $("#modal").hidden = true;
+  if ($("#dlg").hidden && !isFull()) document.documentElement.style.overflow = "";
+  if (P.last && P.last.focus) P.last.focus();
+}
+function chapterIndex(){ let i = 0; P.c.chapters.forEach((ch, k) => { if (P.t >= ch[0]) i = k; }); return i; }
+function paint(){
+  const c = P.c; if (!c) return;
+  const pct = Math.min(100, P.t / c.dur * 100);
+  $("#fill").style.width = pct + "%";
+  $("#time").textContent = fmt(P.t) + " / " + fmt(c.dur);
+  $("#track").setAttribute("aria-valuenow", Math.floor(P.t));
+  const i = chapterIndex();
+  if ($("#chap-h").textContent !== c.chapters[i][1]){
+    $("#chap-h").textContent = c.chapters[i][1];
+    $("#caption").textContent = c.chapters[i][2];
+  }
+  $("#chap-k").textContent = "Chapter " + (i+1) + " of " + c.chapters.length;
+  $$("#chapters button").forEach((b, k) => b.classList.toggle("on", k === i));
+  $("#stage").classList.toggle("playing", P.playing);
+  const pp = $("#pp");
+  const want = P.playing ? "pause" : "play";
+  if (pp.dataset.state !== want){ pp.dataset.state = want; pp.setAttribute("aria-label", P.playing ? "Pause" : "Play"); pp.innerHTML = `<i data-lucide="${want}"></i>`; icons(); }
+}
+function play(){
+  if (!P.c) return;
+  if (P.t >= P.c.dur) P.t = 0;
+  P.playing = true; clearInterval(P.timer);
+  P.timer = setInterval(() => { P.t += .25; if (P.t >= P.c.dur){ P.t = P.c.dur; stop(); } paint(); }, 250);
+  paint();
+}
+function stop(){ P.playing = false; clearInterval(P.timer); P.timer = null; if (P.c && $("#pp")) paint(); }
+function toggle(){ P.playing ? stop() : play(); }
+function seek(t){ P.t = Math.max(0, Math.min(P.c.dur, t)); paint(); }
+
+/* ---------- citations ---------- */
+function citeHTML(x){
+  const kinds = {q:"Quran", h:"Hadith", a:"Academic", c:"Classical"};
+  const ref = x.url ? `<a class="ref" href="https://quran.com/${x.url}" target="_blank" rel="noopener">${x.ref}</a>` : `<span class="ref">${x.ref}</span>`;
+  return `<div class="cite"><div class="cite-top"><span class="kind ${x.k}">${kinds[x.k]}</span>${ref}${x.grade?`<span class="grade">Grade: ${x.grade}</span>`:""}</div>${x.text?`<p class="txt">${x.text}</p>`:""}</div>`;
+}
+
+/* ---------- chat ---------- */
+let busy = false;
+const log = () => $("#chat-log");
+function scrollToMsg(el){ const l = log(); l.scrollTop = Math.max(0, el.offsetTop - 12); }
+function addUser(text){
+  const el = document.createElement("div");
+  el.className = "msg user";
+  const b = document.createElement("div"); b.className = "bubble"; b.textContent = text;
+  el.appendChild(b); log().appendChild(el); scrollToMsg(el);
+}
+function botShell(inner){
+  const el = document.createElement("div");
+  el.className = "msg bot";
+  el.innerHTML = `<span class="bot-av"><svg aria-hidden="true"><use href="#beacon"/></svg></span><div class="bubble">${inner}</div>`;
+  return el;
+}
+function replyHTML(c){
+  const clips = [c.id, ...c.related].map(id => BY[id]).filter(Boolean);
+  return `<p>${c.open}</p>
+    <p class="direct"><b>In short:</b> ${c.reality}</p>
+    <ul class="pts">${c.points.map(p=>`<li>${p}</li>`).join("")}</ul>
+    <div class="cites"><div class="box-h"><i data-lucide="shield-check"></i>Verified citations</div>${c.cites.map(citeHTML).join("")}</div>
+    <div><div class="box-h"><i data-lucide="clapperboard"></i>Recommended video clips</div>
+      <div class="clips-row">${clips.map(x=>`<button type="button" class="clip" data-open="${x.id}" data-autoplay aria-label="Play clip: ${x.tt}">${thumb(x,true)}</button>`).join("")}</div></div>
+    <p class="follow">${c.follow}</p>
+    <button type="button" class="mentor-btn" data-mentor="${c.id}"><i data-lucide="user-round-check"></i>Need a 1-on-1 human mentor? Request anonymous scholarly check.</button>`;
+}
+function fallbackHTML(text){
+  const near = CARDS.map(c => [c, score(c, text)]).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]);
+  return `<p>Thank you for asking. I don't have a verified answer prepared for that yet, and on something this important I'd rather not guess.</p>
+    <p class="direct"><b>What I can do:</b> point you to the closest topics we cover, or pass your question to a qualified scholar, anonymously.</p>
+    <div><div class="box-h"><i data-lucide="clapperboard"></i>Closest topics</div>
+      <div class="clips-row">${near.map(x=>`<button type="button" class="clip" data-open="${x.id}" data-autoplay aria-label="Play clip: ${x.tt}">${thumb(x,true)}</button>`).join("")}</div></div>
+    <p class="follow">Could you tell me a bit more about what's behind the question? That helps me find the right answer.</p>
+    <button type="button" class="mentor-btn" data-mentor><i data-lucide="user-round-check"></i>Need a 1-on-1 human mentor? Request anonymous scholarly check.</button>`;
+}
+function match(text){
+  const best = CARDS.map(c => [c, score(c, text)]).sort((a,b)=>b[1]-a[1])[0];
+  return best && best[1] >= 3 ? best[0] : null;
+}
+function setBusy(v){ busy = v; $$("[data-prompt]").forEach(b => b.disabled = v); }
+function ask(text, forcedId){
+  text = text.trim(); if (!text || busy) return;
+  setBusy(true);
+  addUser(text);
+  const c = forcedId ? BY[forcedId] : match(text);
+  const typing = document.createElement("div");
+  typing.className = "msg bot";
+  typing.innerHTML = `<span class="bot-av"><svg aria-hidden="true"><use href="#beacon"/></svg></span><div class="typing" aria-label="Bayan AI is typing"><span></span><span></span><span></span></div>`;
+  log().appendChild(typing); scrollToMsg(typing);
+  setTimeout(() => {
+    const el = botShell(c ? replyHTML(c) : fallbackHTML(text));
+    typing.replaceWith(el);
+    icons(); scrollToMsg(el.previousElementSibling || el);
+    if (!reduce){ [...el.querySelector(".bubble").children].forEach((ch, i) => { ch.style.animation = `rise .35s ease ${i*110}ms both`; }); }
+    setBusy(false);
+  }, reduce ? 200 : 1100);
+}
+function resetChat(withExample){
+  log().innerHTML = "";
+  const g = botShell(`<p id="greet">${GREET[state.aud]}</p>`);
+  log().appendChild(g);
+  if (withExample){
+    addUser("Why does God allow suffering?");
+    log().appendChild(botShell(replyHTML(BY.suffering)));
+    log().scrollTop = 0;
+  }
+  icons();
+}
+
+/* ---------- dialogs ---------- */
+function openDialog(mode, cardId){
+  const topic = cardId && BY[cardId] ? BY[cardId].q : "";
+  const box = $("#dlg-box");
+  if (mode === "feedback"){
+    box.innerHTML = `<div style="display:flex;align-items:flex-start;gap:12px"><h2 id="dlg-title">Send feedback</h2><button type="button" class="x-btn" data-dclose aria-label="Close"><i data-lucide="x"></i></button></div>
+      <p>Spotted a wrong reference, an unclear answer, or a topic we're missing? Tell us.</p>
+      <form id="dlg-form" style="display:grid;gap:14px">
+        <div class="field"><label for="fb-kind">What kind of feedback?</label><select id="fb-kind"><option>A source looks wrong</option><option>An answer was unclear</option><option>Suggest a new topic</option><option>Something else</option></select></div>
+        <div class="field"><label for="fb-text">Details</label><textarea id="fb-text" placeholder="Which answer, and what should change?" required></textarea></div>
+        <button class="btn btn-primary" type="submit" style="justify-self:start">Send feedback</button>
+      </form>`;
+  } else {
+    box.innerHTML = `<div style="display:flex;align-items:flex-start;gap:12px"><h2 id="dlg-title">Anonymous scholar check</h2><button type="button" class="x-btn" data-dclose aria-label="Close"><i data-lucide="x"></i></button></div>
+      <p>A qualified mentor will read your question and reply in writing. You don't need an account, and your name is never shared.</p>
+      <form id="dlg-form" style="display:grid;gap:14px">
+        <div class="field"><label for="m-topic">Topic</label><select id="m-topic"><option value="">Something not listed</option>${CARDS.map(c=>`<option ${c.q===topic?"selected":""}>${c.q}</option>`).join("")}</select></div>
+        <div class="field"><label for="m-text">What would you like a scholar to look at?</label><textarea id="m-text" required placeholder="Write as much or as little as you like. There are no wrong questions here."></textarea></div>
+        <div class="field"><label>How would you like to talk?</label><div class="seg" id="m-mode"><button type="button" class="chip" aria-pressed="true">Written reply</button><button type="button" class="chip" aria-pressed="false">Short voice call</button></div></div>
+        <label class="check"><input type="checkbox" id="m-anon" checked> Keep me anonymous. The mentor sees only the question.</label>
+        <button class="btn btn-gold" type="submit" style="justify-self:start"><i data-lucide="send"></i>Send request</button>
+      </form>`;
+  }
+  $("#dlg").hidden = false;
+  document.documentElement.style.overflow = "hidden";
+  icons();
+  const first = $("select, textarea", box); first && first.focus();
+  box.dataset.mode = mode;
+}
+function doneDialog(mode){
+  const box = $("#dlg-box");
+  box.innerHTML = `<span class="done-ico"><i data-lucide="check"></i></span>
+    <h2 id="dlg-title">${mode==="feedback" ? "Thanks for the feedback" : "Request ready"}</h2>
+    <p>${mode==="feedback" ? "In the live platform this would go to our review team, who check every reported source." : "In the live platform, a verified mentor would reply within 48 hours, and you'd get a private link to read it."}</p>
+    <p class="note-gold">This is a mockup, so nothing was sent anywhere.</p>
+    <button type="button" class="btn btn-ghost" data-dclose style="justify-self:start">Close</button>`;
+  icons(); $("[data-dclose]", box).focus();
+}
+function closeDialog(){ $("#dlg").hidden = true; if ($("#modal").hidden && !isFull()) document.documentElement.style.overflow = ""; }
+
+/* ---------- audience ---------- */
+let toastT;
+function toast(msg){ const t = $("#toast"); t.innerHTML = `<i data-lucide="check"></i>${msg}`; t.hidden = false; icons(); clearTimeout(toastT); toastT = setTimeout(()=> t.hidden = true, 2400); }
+function setAud(a, silent){
+  state.aud = a;
+  $$("[data-aud]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.aud === a)));
+  $$("[data-persona]").forEach(p => p.classList.toggle("is-active", p.dataset.persona === a));
+  $("#hero-eyebrow").textContent = a === "seeker" ? "For anyone exploring Islam" : "For Muslims working through hard questions";
+  const g = $("#greet"); if (g) g.textContent = GREET[a];
+  renderCards();
+  if (!silent) toast(a === "seeker" ? "Showing topics for people exploring Islam" : "Showing topics for strengthening conviction");
+}
+function scrollToId(id){ const el = document.getElementById(id); el && el.scrollIntoView({behavior: reduce ? "auto" : "smooth", block:"start"}); }
+
+/* ---------- wiring ---------- */
+function init(){
+  $("#suggest").insertAdjacentHTML("beforeend", SUGGEST.map(s => `<button type="button" class="chip" data-suggest="${s}">${s}</button>`).join(""));
+  $("#prompt-chips").insertAdjacentHTML("beforeend", PROMPTS.map(([t,id]) => `<button type="button" class="chip" data-prompt="${id}"><i data-lucide="corner-down-right"></i>${t}</button>`).join(""));
+  renderFilters(); renderCards(); renderPath(); resetChat(true); icons();
+
+  const search = $("#hero-search");
+  search.addEventListener("input", () => { state.q = search.value; renderCards(); });
+  $("#hero-form").addEventListener("submit", e => { e.preventDefault(); state.q = search.value; renderCards(); scrollToId("topics"); });
+  $("#chat-suggest").innerHTML = PROMPTS.map(([t,id]) => `<button type="button" class="chip" data-prompt="${id}">${t}</button>`).join("");
+  $("#chat-form").addEventListener("submit", e => { e.preventDefault(); const i = $("#chat-input"); if (!i.value.trim() || busy) return; setFull(true); ask(i.value); i.value = ""; });
+  $("#chat-reset").addEventListener("click", () => resetChat(false));
+  $("#chat-full").addEventListener("click", () => setFull(!isFull()));
+  $("#chat-input").addEventListener("focus", () => { if (!isFull() && window.matchMedia("(max-width:760px)").matches) setFull(true); });
+  $("#menu-btn").addEventListener("click", () => { const p = $("#mobile-panel"); const o = p.classList.toggle("open"); $("#menu-btn").setAttribute("aria-expanded", String(o)); });
+
+  document.addEventListener("click", e => {
+    const t = e.target.closest("button, [data-open], a, .stage, .track, .overlay");
+    if (!t) return;
+    if (t.matches(".overlay") && e.target === t){ t.id === "modal" ? closeModal() : closeDialog(); return; }
+    if (t.closest("#mobile-panel") && t.matches("a")) { $("#mobile-panel").classList.remove("open"); $("#menu-btn").setAttribute("aria-expanded","false"); }
+    if (t.dataset.cat){ state.cat = t.dataset.cat; renderFilters(); renderCards(); return; }
+    if (t.dataset.suggest){ search.value = t.dataset.suggest; state.q = search.value; renderCards(); scrollToId("topics"); return; }
+    if (t.dataset.aud){ setAud(t.dataset.aud); return; }
+    if (t.dataset.persona){
+      setAud(t.dataset.persona, true);
+      if (t.dataset.persona === "seeker") scrollToId("foundations");
+      else { state.cat = "all"; state.q = ""; search.value = ""; renderFilters(); renderCards(); scrollToId("topics"); }
+      return;
+    }
+    if (t.dataset.open){ openModal(t.dataset.open, t.hasAttribute("data-autoplay") || !!t.closest("#topics")); return; }
+    if (t.dataset.prompt){ const p = PROMPTS.find(x => x[1] === t.dataset.prompt); if (busy) return; setFull(true); ask(p[0], p[1]); return; }
+    if (t.hasAttribute("data-ask")){ $("#mobile-panel").classList.remove("open"); setFull(true); setTimeout(() => $("#chat-input").focus({preventScroll:true}), 60); return; }
+    if (t.hasAttribute("data-ask-q")){ const q = state.q; setFull(true); setTimeout(() => ask(q || "I have a question that isn't listed"), 150); return; }
+    if (t.dataset.askCard){ const c = BY[t.dataset.askCard]; closeModal(); setFull(true); setTimeout(() => ask(c.q, c.id), 150); return; }
+    if (t.hasAttribute("data-clear")){ state.q = ""; search.value = ""; state.cat = "all"; renderFilters(); renderCards(); return; }
+    if (t.hasAttribute("data-mentor")){ openDialog("mentor", t.dataset.mentor); return; }
+    if (t.hasAttribute("data-feedback")){ openDialog("feedback"); return; }
+    if (t.hasAttribute("data-close")){ closeModal(); return; }
+    if (t.hasAttribute("data-dclose")){ closeDialog(); return; }
+    if (t.id === "pp" || t.id === "stage"){ toggle(); return; }
+    if (t.dataset.seek !== undefined){ seek(+t.dataset.seek); if (!P.playing) play(); return; }
+    if (t.id === "track"){ const r = $(".rail", t).getBoundingClientRect(); seek((e.clientX - r.left) / r.width * P.c.dur); return; }
+    if (t.closest("#m-mode")){ $$("#m-mode .chip").forEach(b => b.setAttribute("aria-pressed", String(b === t))); return; }
+    if (t.dataset.jump === "video"){ state.cat = "all"; renderFilters(); renderCards(); }
+  });
+  document.addEventListener("submit", e => { if (e.target.id === "dlg-form"){ e.preventDefault(); doneDialog($("#dlg-box").dataset.mode); } });
+  document.addEventListener("keydown", e => {
+    const open = !$("#dlg").hidden ? $("#dlg-box") : (!$("#modal").hidden ? $("#modal-box") : null);
+    if (e.key === "Escape" && open){ open.id === "dlg-box" ? closeDialog() : closeModal(); return; }
+    if (e.key === "Escape" && isFull()){ setFull(false); return; }
+    if (e.key === "Tab" && open){
+      const f = $$('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])', open).filter(x => !x.disabled && x.offsetParent !== null);
+      if (!f.length) return;
+      if (e.shiftKey && document.activeElement === f[0]){ e.preventDefault(); f[f.length-1].focus(); }
+      else if (!e.shiftKey && document.activeElement === f[f.length-1]){ e.preventDefault(); f[0].focus(); }
+      return;
+    }
+    const t = e.target;
+    if ((e.key === "Enter" || e.key === " ") && t.matches && t.matches("article[data-open], #stage")){ e.preventDefault(); t.click(); }
+    if (t.id === "track" && P.c){ if (e.key === "ArrowRight") seek(P.t + 5); if (e.key === "ArrowLeft") seek(P.t - 5); }
+  });
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
+})();
+</script>
+</body>
+</html>
