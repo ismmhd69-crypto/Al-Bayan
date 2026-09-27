@@ -209,9 +209,12 @@ export function allSupported(raw: unknown, claimCount: number): boolean {
 // Questions about the visitor's own situation. Code rule on top of the AI's classification;
 // either one is enough to send the visitor to a scholar instead of answering.
 const PERSONAL = [
-  /\b(should|can|may|must)\s+i\b/i,
+  // Only clear signs of "what should I do": general questions like "how can I know..." must pass.
+  /\b(should|must)\s+i\b/i,
+  /\b(am\s+i|are\s+we)\s+(allowed|permitted|obliged|required|sinning)\b/i,
+  /\bis\s+it\s+(ok|okay|allowed|halal|haram|permissible|a\s+sin)\s+(for\s+me|if\s+i)\b/i,
   /\bmy\s+(wife|husband|son|daughter|mother|father|parents|family|boss|money|job|marriage)\b/i,
-  /\b(soll|darf|kann|muss)\s+ich\b/i,
+  /\b(soll|darf|muss)\s+ich\b/i,
   /\bmein(e|en|em|er)?\s+(frau|mann|sohn|tochter|mutter|vater|eltern|familie|chef|geld|arbeit|ehe)\b/i,
   /(هل\s+يجوز\s+لي|هل\s+علي|زوجتي|زوجي|أمي|أبي|والدي|ابني|ابنتي)/,
 ];

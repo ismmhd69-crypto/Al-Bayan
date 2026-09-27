@@ -185,6 +185,13 @@ describe("personal questions and direct references", () => {
     expect(looksPersonal("Darf ich das machen?")).toBe(true);
     expect(looksPersonal("هل يجوز لي أن أفعل هذا")).toBe(true);
     expect(looksPersonal("What does the Quran say about patience?")).toBe(false);
+    expect(looksPersonal("Is it halal for me to take this loan?")).toBe(true);
+    expect(looksPersonal("Am I allowed to skip fasting?")).toBe(true);
+  });
+  it("lets general questions through", () => {
+    expect(looksPersonal("Who is Muhammad? How can I know that he is the right prophet?")).toBe(false);
+    expect(looksPersonal("Wie kann ich wissen, dass der Koran wahr ist?")).toBe(false);
+    expect(looksPersonal("How can I learn to pray?")).toBe(false);
   });
   it("reads verse references only when the Quran is mentioned", () => {
     expect(directRefs("What does Quran 2:255 say, and verse 2 : 3?")).toEqual(["2:255", "2:3"]);
