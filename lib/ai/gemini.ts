@@ -24,9 +24,9 @@ function toGeminiSchema(s: JsonSchema): Record<string, unknown> {
 }
 
 // One retry after a short pause when Google is busy (503) or briefly rate limited (429).
-async function withRetry(call: () => Promise<Response>): Promise<Response> {
+async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): Promise<Response> {
   const res = await call();
-  if (res.status !== 503 && res.status !== 429) return res;
+  if ((res.status !== 503 && res.status !== 429) || signal?.aborted) return res;
   await new Promise((r) => setTimeout(r, 1500));
   return call();
 }
@@ -34,11 +34,11 @@ async function withRetry(call: () => Promise<Response>): Promise<Response> {
 export function createGemini(apiKey: string, model: string): AIProvider {
   return {
     id: `gemini/${model}`,
-    async generateJson({ system, prompt, schema, maxOutputTokens = 2048 }: JsonRequest) {
+    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, signal }: JsonRequest) {
       const res = await withRetry(() => fetch(`${ENDPOINT}/${model}:generateContent`, {
         method: "POST",
         headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
-        signal: AbortSignal.timeout(TIMEOUT_MS),
+        signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(TIMEOUT_MS)]) : AbortSignal.timeout(TIMEOUT_MS),
         cache: "no-store",
         body: JSON.stringify({
           systemInstruction: { parts: [{ text: system }] },
@@ -50,13 +50,17 @@ export function createGemini(apiKey: string, model: string): AIProvider {
             responseSchema: toGeminiSchema(schema),
           },
         }),
-      }));
+      }), signal);
       if (!res.ok) throw new Error(`Gemini request failed with status ${res.status}`);
       const data = (await res.json()) as {
         candidates?: { content?: { parts?: { text?: string }[] } }[];
       };
       const text = data.candidates?.[0]?.content?.parts?.map((p) => p.text ?? "").join("") ?? "";
-      return JSON.parse(text);
+      try {
+        return JSON.parse(text);
+      } catch {
+        return null; // malformed output is refused by the caller
+      }
     },
   };
 }

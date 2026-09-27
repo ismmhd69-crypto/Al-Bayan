@@ -13,6 +13,8 @@ export type JsonRequest = {
   prompt: string;
   schema: JsonSchema;
   maxOutputTokens?: number;
+  /** Overall deadline for the whole answer; the call is cancelled when it fires. */
+  signal?: AbortSignal;
 };
 
 export interface AIProvider {

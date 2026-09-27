@@ -58,7 +58,7 @@ export default async function RootLayout({
         <a className="skip-link" href="#main">
           {t.common.skip}
         </a>
-        <Shell lang={lang} nav={t.nav} brandAr={t.common.brandAr}>
+        <Shell lang={lang} nav={t.nav} brandAr={t.common.brandAr} langLabel={t.more.language}>
           {children}
         </Shell>
       </body>

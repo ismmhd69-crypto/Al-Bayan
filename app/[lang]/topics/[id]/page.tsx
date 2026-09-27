@@ -44,14 +44,12 @@ export default async function TopicPage({ params }: { params: Params }) {
         <p className="lead">{topic.question}</p>
       </header>
 
-      {topic.shortAnswer ? (
-        <p className="card">{topic.shortAnswer}</p>
-      ) : (
-        <div className="card card-soft">
-          <Hourglass aria-hidden="true" className="card-icon" />
-          <p>{t.preparing}</p>
-        </div>
-      )}
+      {/* Topic answers stay hidden until they use the same cited-answer display as Ask
+          (Codex review, finding 11). A plain text answer without sources must never appear. */}
+      <div className="card card-soft">
+        <Hourglass aria-hidden="true" className="card-icon" />
+        <p>{t.preparing}</p>
+      </div>
 
       <AskAboutButton lang={lang} question={topic.question} label={t.askAbout} />
 

@@ -1,18 +1,9 @@
-import type { Verse } from "@/lib/sources/quran";
+import { normalizeArabic } from "./checks";
 
 // Keyword search over the verses we are allowed to use. The AI never picks verses
-// from memory; it only sees what this search returns.
+// from memory; it only sees what this search returns. Pure code, tested in tests/search.test.ts.
 
-// For matching only: strip Arabic diacritics and unify letter variants. Stored text is never changed.
-export function normalizeArabic(s: string): string {
-  return s
-    .replace(/[ؐ-ًؚ-ٰٟۖ-ۭـ]/g, "")
-    .replace(/[أإآٱ]/g, "ا")
-    .replace(/ى/g, "ي")
-    .replace(/ة/g, "ه")
-    .replace(/ؤ/g, "و")
-    .replace(/ئ/g, "ي");
-}
+export type SearchDoc = { key: string; arabicPlain: string; en: string; de: string };
 
 const ARABIC_PREFIXES = ["وال", "بال", "فال", "كال", "لل", "ال", "و", "ف", "ب", "ل"];
 const ARABIC_SUFFIXES = ["هما", "كم", "هم", "هن", "نا", "ها", "ون", "ين", "ات", "ان", "ه", "ي", "ك"];
@@ -27,47 +18,53 @@ function arabicStem(word: string): string {
 // Crude but language-neutral: compare the first 5 letters of Latin words.
 const latinStem = (w: string) => w.slice(0, 5);
 
-function tokens(text: string, arabic: boolean): string[] {
-  const t = arabic ? normalizeArabic(text) : text.toLowerCase();
-  return (t.match(arabic ? /[ء-ي]+/g : /[a-zäöüß]+/g) ?? [])
-    .filter((w) => w.length >= 3)
-    .map(arabic ? arabicStem : latinStem);
+// Words too common to mean anything on their own.
+const STOP = new Set(["allah", "god", "gott", "people", "those", "which", "their", "there", "these", "allen", "diese", "welch", "haben", "werde", "الله", "الذي", "الذين", "كان"]);
+
+function tokens(text: string): string[] {
+  const ar = (normalizeArabic(text).match(/[ء-ي]+/g) ?? []).filter((w) => w.length >= 3).map(arabicStem);
+  const lat = (text.toLowerCase().match(/[a-zäöüß]+/g) ?? []).filter((w) => w.length >= 4).map(latinStem);
+  return [...ar, ...lat].filter((t) => !STOP.has(t));
 }
 
-type Doc = { verse: Verse; terms: Set<string> };
+type Indexed = { key: string; terms: Set<string> };
 
-let index: { verses: Verse[]; docs: Doc[]; df: Map<string, number> } | null = null;
+let cache: { docs: SearchDoc[]; index: Indexed[]; df: Map<string, number> } | null = null;
 
-function buildIndex(verses: Verse[]) {
-  if (index?.verses === verses) return index;
-  const docs = verses.map((verse) => ({
-    verse,
-    terms: new Set([
-      ...tokens(verse.arabicPlain, true),
-      ...tokens(verse.translations.en, false),
-      ...tokens(verse.translations.de, false),
-    ]),
-  }));
+function indexOf(docs: SearchDoc[]) {
+  if (cache?.docs === docs) return cache;
+  const index = docs.map((d) => ({ key: d.key, terms: new Set(tokens(`${d.arabicPlain} ${d.en} ${d.de}`)) }));
   const df = new Map<string, number>();
-  for (const d of docs) for (const t of d.terms) df.set(t, (df.get(t) ?? 0) + 1);
-  index = { verses, docs, df };
-  return index;
+  for (const d of index) for (const t of d.terms) df.set(t, (df.get(t) ?? 0) + 1);
+  cache = { docs, index, df };
+  return cache;
 }
 
-export function searchVerses(verses: Verse[], keywords: string[], limit = 12): Verse[] {
-  const { docs, df } = buildIndex(verses);
-  const query = new Set(keywords.flatMap((k) => [...tokens(k, true), ...tokens(k, false)]));
+export const SEARCH_RULES = {
+  // A verse must match at least this many different search words, so one stray word is not enough.
+  minDistinctMatches: 2,
+  limit: 8,
+};
+
+export function searchVerses(docs: SearchDoc[], keywords: string[]): string[] {
+  const { index, df } = indexOf(docs);
+  const query = new Set(keywords.flatMap(tokens));
   if (query.size === 0) return [];
 
-  const scored = docs
+  return index
     .map((d) => {
       let score = 0;
-      // Rarer words count more (inverse document frequency).
-      for (const q of query) if (d.terms.has(q)) score += Math.log(1 + docs.length / (df.get(q) ?? 1));
-      return { verse: d.verse, score };
+      let matched = 0;
+      for (const q of query) {
+        if (!d.terms.has(q)) continue;
+        matched++;
+        // Rarer words count more (inverse document frequency).
+        score += Math.log(1 + index.length / (df.get(q) ?? 1));
+      }
+      return { key: d.key, score, matched };
     })
-    .filter((x) => x.score > 0)
-    .sort((a, b) => b.score - a.score);
-
-  return scored.slice(0, limit).map((x) => x.verse);
+    .filter((x) => x.matched >= SEARCH_RULES.minDistinctMatches)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, SEARCH_RULES.limit)
+    .map((x) => x.key);
 }

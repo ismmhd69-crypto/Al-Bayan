@@ -11,7 +11,7 @@
   --line-2: #ced5df;
   --ink: #141b26;
   --ink-2: #465163;
-  --ink-3: #6b7587;
+  --ink-3: #5b6475; /* 5.4:1 on --bg, WCAG AA */
   --accent: #27408b;
   --accent-hover: #1e3270;
   --accent-soft: #edf1fa;

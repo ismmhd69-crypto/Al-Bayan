@@ -6,7 +6,8 @@ import { localeNames, locales, type Locale } from "@/lib/i18n";
 
 // Remembers the choice on this device for one year.
 function remember(locale: Locale) {
-  document.cookie = `lang=${locale}; path=/; max-age=31536000; samesite=lax`;
+  const secure = location.protocol === "https:" ? "; secure" : "";
+  document.cookie = `lang=${locale}; path=/; max-age=31536000; samesite=lax${secure}`;
 }
 
 export default function LangSwitch({ lang, label }: { lang: Locale; label?: string }) {

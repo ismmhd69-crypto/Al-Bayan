@@ -38,7 +38,7 @@ export default function AskChat({
   const started = useRef(false);
 
   useEffect(() => {
-    endRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
+    endRef.current?.scrollIntoView({ behavior: reducedMotion() ? "auto" : "smooth", block: "end" });
   }, [messages, busy]);
 
   // A question handed over from Home or a topic page is asked straight away.
@@ -231,9 +231,20 @@ function NotReady({ t }: { t: AskText }) {
 
 const dirOf = (l: string) => (l === "ar" ? "rtl" : "ltr");
 
-// A real answer: short answer with a source on every sentence, then the verses exactly as served.
+const reducedMotion = () =>
+  typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// A real answer: an automatic explanation with a source on every sentence, then the verses exactly as served.
 function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
   const anchor = (key: string) => `ev-${id}-${key.replace(":", "-")}`;
+  // Move keyboard and screen-reader focus to the cited verse, not just the view.
+  const goTo = (e: React.MouseEvent<HTMLAnchorElement>, key: string) => {
+    const el = document.getElementById(anchor(key));
+    if (!el) return;
+    e.preventDefault();
+    el.scrollIntoView({ behavior: reducedMotion() ? "auto" : "smooth", block: "center" });
+    el.focus({ preventScroll: true });
+  };
   return (
     <div className="answer">
       <p className="answer-label">{t.label}</p>
@@ -244,11 +255,17 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
           {t.parts.short}
         </h3>
         <p lang={a.language} dir={dirOf(a.language)}>
-          {a.shortAnswer.map((s, i) => (
+          {a.claims.map((s, i) => (
             <span key={i}>
               {s.text}{" "}
               {s.refs.map((r) => (
-                <a key={r} href={`#${anchor(r)}`} className="ref" aria-label={`${t.source}: ${t.quran} ${r}`}>
+                <a
+                  key={r}
+                  href={`#${anchor(r)}`}
+                  className="ref"
+                  aria-label={`${t.source}: ${t.quran} ${r}`}
+                  onClick={(e) => goTo(e, r)}
+                >
                   {r}
                 </a>
               ))}{" "}
@@ -265,13 +282,13 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
         </h3>
         <ul className="evidence">
           {a.evidence.map((e) => (
-            <li key={e.key} id={anchor(e.key)}>
-              <p className="verse-ar" lang="ar" dir="rtl">
+            <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
+              <p className="verse-ar" lang="ar" dir="rtl" translate="no">
                 {e.arabic}
               </p>
               {e.translation && (
-                <p className="verse-tr" lang={a.language}>
-                  {e.translation}
+                <p className="verse-tr" lang={a.language} dir="ltr">
+                  <span translate="no">{e.translation}</span>
                   <span className="verse-by">
                     {t.translation}: {e.translationName}
                   </span>
@@ -295,7 +312,7 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
       </section>
 
       <p className="answer-foot">
-        {t.checked}. {t.notFatwa}
+        {t.checked} {t.attribution}: {a.attribution}. {t.notFatwa}
       </p>
     </div>
   );

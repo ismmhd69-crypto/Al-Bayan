@@ -21,11 +21,13 @@ export default function Shell({
   lang,
   nav,
   brandAr,
+  langLabel,
   children,
 }: {
   lang: Locale;
   nav: Dictionary["nav"];
   brandAr: string;
+  langLabel: string;
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
@@ -50,7 +52,7 @@ export default function Shell({
           ))}
         </nav>
         <div className="sidebar-foot">
-          <LangSwitch lang={lang} />
+          <LangSwitch lang={lang} label={langLabel} />
         </div>
       </aside>
 

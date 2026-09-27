@@ -15,7 +15,6 @@ export const categoryOrder: CategoryId[] = ["belief", "science", "preservation",
 
 export type TopicSummary = { id: string; category: CategoryId; title: string; question: string };
 export type Topic = TopicSummary & {
-  shortAnswer: string | null;
   status: "preparing" | "automatic" | "scholar_reviewed";
   related: { id: string; title: string }[];
 };
@@ -24,7 +23,7 @@ type TopicRow = {
   id: string;
   category: CategoryId;
   popular_rank: number | null;
-  topic_texts: { title: string; question: string; short_answer: string | null; answer_status: Topic["status"] }[];
+  topic_texts: { title: string; question: string; answer_status: Topic["status"] }[];
 };
 
 function fail(what: string, error: { message: string } | null): never {
@@ -34,7 +33,7 @@ function fail(what: string, error: { message: string } | null): never {
 async function loadTopics(lang: Locale): Promise<TopicRow[]> {
   const { data, error } = await supabase
     .from("topics")
-    .select("id, category, popular_rank, topic_texts!inner(title, question, short_answer, answer_status)")
+    .select("id, category, popular_rank, topic_texts!inner(title, question, answer_status)")
     .eq("topic_texts.lang", lang)
     .order("sort");
   if (error || !data) fail("topics", error);
@@ -81,7 +80,6 @@ export async function getTopic(id: string, lang: Locale): Promise<Topic | null> 
   const byId = new Map(rows.map((r) => [r.id, r]));
   return {
     ...summary(row),
-    shortAnswer: row.topic_texts[0].short_answer,
     status: row.topic_texts[0].answer_status,
     related: rel.flatMap(({ related_id }) => {
       const r = byId.get(related_id as string);

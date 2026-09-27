@@ -1,29 +1,30 @@
-# Applies the phase 2 database changes to the Al Bayan Supabase project.
+# Applies any new database changes in supabase/migrations to the Al Bayan Supabase project.
 # Uses the personal access token saved in the Windows setting SUPABASE_ACCESS_TOKEN.
-# Stops without changing anything if the project name is wrong or tables already exist.
+# Stops without changing anything if the project name is wrong. Changes already applied are skipped.
 $ErrorActionPreference = 'Stop'
 $t = [Environment]::GetEnvironmentVariable('SUPABASE_ACCESS_TOKEN', 'User')
+if (-not $t) { throw 'SUPABASE_ACCESS_TOKEN is not set' }
 $h = @{ Authorization = "Bearer $t" }
 $ref = 'jnietkyxgnocyizvjiel'
 $base = "https://api.supabase.com/v1/projects/$ref"
 
-# Safety: confirm this is the Al Bayan project and it has no tables yet.
 $p = Invoke-RestMethod -Uri $base -Headers $h
 "project: $($p.name) / $($p.region)"
-if ($p.name -ne 'Al Bayan') { throw 'wrong project' }
-$q = @{ query = "select count(*)::int as n from information_schema.tables where table_schema in ('public','editorial')"; read_only = $true } | ConvertTo-Json
-$n = (Invoke-RestMethod -Method Post -Uri "$base/database/query" -Headers $h -ContentType 'application/json; charset=utf-8' -Body ([Text.Encoding]::UTF8.GetBytes($q)))[0].n
-"existing tables: $n"
-if ($n -ne 0) { throw 'database not empty, stopping' }
+if ($p.name -ne 'Al Bayan') { throw 'wrong project, stopping' }
 
-foreach ($f in @('20260927120000_phase2_content', '20260927120100_phase2_seed')) {
-  $sql = [IO.File]::ReadAllText("$PSScriptRoot\migrations\$f.sql", [Text.Encoding]::UTF8)
-  $body = @{ query = $sql; name = $f } | ConvertTo-Json
+$applied = @((Invoke-RestMethod -Uri "$base/database/migrations" -Headers $h) | ForEach-Object { $_.name })
+$files = Get-ChildItem "$PSScriptRoot\migrations\*.sql" | Sort-Object Name
+$pending = @($files | Where-Object { $applied -notcontains $_.BaseName })
+if ($pending.Count -eq 0) { 'nothing new to apply'; return }
+
+foreach ($f in $pending) {
+  $sql = [IO.File]::ReadAllText($f.FullName, [Text.Encoding]::UTF8)
+  $body = @{ query = $sql; name = $f.BaseName } | ConvertTo-Json
   try {
     Invoke-RestMethod -Method Post -Uri "$base/database/migrations" -Headers $h -ContentType 'application/json; charset=utf-8' -Body ([Text.Encoding]::UTF8.GetBytes($body)) | Out-Null
-    "applied: $f"
+    "applied: $($f.BaseName)"
   } catch {
-    "FAILED: $f"
+    "FAILED: $($f.BaseName)"
     $_.ErrorDetails.Message
     throw
   }
