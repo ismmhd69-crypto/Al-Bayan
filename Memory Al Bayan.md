@@ -15,23 +15,24 @@ Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
 ## Decisions
 - Sunni only. Quran + hadith graded sahih or hasan only.
 - Strongest view (al-rajih) is the answer; other views only in a closed "Other scholarly views" fold.
-- AI never makes its own ruling; it quotes approved scholars word for word with links.
+- AI never makes its own ruling; it only reports what approved scholars said, with links.
 - Approved scholars list is in `BAYAN_PLAN.md` section 3b.
 - Languages: Arabic (right-to-left), German, English.
 - Accounts optional; videos are curated YouTube clips.
-- AI model: Google Gemini (Flash) for answers, chosen 2026-09-27 for cost. Code must allow swapping providers.
-- Phone: bottom tab bar (Home, Ask, Shubuhat, Seekers, More). Ask = full-screen AI chat.
+- Plan version 3 (2026-09-27): **AI first, fully automatic.** Mo rejected Codex's "scholar library, AI only finds answers" idea. AI answers anything, only from approved sources, every sentence sourced, quotes code-checked. Rajih = view of most approved scholars found. "Ask a scholar" planned, not built now. Codex's privacy, security, rights, labels, accessibility and test fixes kept. Build order in plan section 12.
+- AI provider: undecided (Gemini terms problem, plan section 5). Code must allow swapping providers.
+- Phone: bottom tab bar (Home, Ask, Hard questions, New to Islam, More; Arabic keeps شبهات). Ask = full-screen chat, the heart of the site, answers anything automatically.
 
 ## Rules for working on this project
 - Keep Al-Bayan fully separate from WiseFlow: separate folder, repo, Supabase and notes.
-- Secrets (Supabase secret key, database password, Anthropic key, other API keys) go in a local `.env` file, never in chat and never committed.
+- Secrets (Supabase secret key, database password, AI and other API keys) go in a local `.env` file, never in chat and never committed.
 - The mockup's example speakers must be replaced with scholars from the approved list.
 
 ## Waiting on
 - Sunnah.com API key: **request sent 2026-09-27, Mo is waiting for their approval**
 - Quran Foundation Client ID + Secret: **done 2026-09-27**, in `.env` (pre-production credentials; secret was rotated after a screenshot exposed it). Production access must be requested later in the dev console.
 - YouTube Data API key: **done 2026-09-27**, in `.env` (Google Cloud project "Al-Bayan")
-- Gemini API key: **done 2026-09-27**, in `.env` (project Al-Bayan). Mo chose Gemini over Anthropic because it is cheaper. Currently on the **free tier** for testing only. **Before any real visitor uses the site:** set up billing (Tier 1) + a monthly budget alert, because the free tier lets Google train on the data.
+- Gemini API key: **done 2026-09-27**, in `.env` (project Al-Bayan). Mo chose Gemini over Anthropic because it is cheaper. Free tier, Mo's private testing only. **Codex review found (and Claude confirmed on Google's terms page) that Gemini forbids sites likely used by under-18s and needs the paid service for EU users. AI provider is now undecided (plan section 5).** Whatever is chosen: paid tier + budget alert before any visitor.
 
 ## Next chat starts with
-- Write a ready-to-paste review prompt for GPT Codex (details in `HANDOFF.md` section 8, step 1). Then Phase 1.
+- Plan version 3 done (2026-09-27). Next: phase 1, the Interface (see `HANDOFF.md` section 8).

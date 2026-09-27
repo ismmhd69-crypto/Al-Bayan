@@ -17,7 +17,8 @@ A website where anyone, Muslim or not, asks a question about Islam and gets a ca
 | Repo | https://github.com/ismmhd69-crypto/Al-Bayan, branch `main`. First commit pushed 2026-09-27. Remote URL includes `ismmhd69-crypto@` so this folder pushes as that account, not WiseFlow-dev. Claude's auto mode blocks `git push`, so Claude gives Mo the PowerShell commands and Mo runs them |
 | Supabase | Ref `jnietkyxgnocyizvjiel`. Checked 2026-09-27 (read-only): region eu-central-1 (Frankfurt), healthy, **no tables yet**, security and performance advisors show **zero warnings**. Auth: email login only, anonymous off, email confirmation required. MCP in `.mcp.json` is read-only and limited to this project. The browser login failed ("Resource must be a valid MCP endpoint"), so it now reads a personal access token from the Windows user setting `SUPABASE_ACCESS_TOKEN` (Mo set it with `setx`; it is never in a file or chat). If the MCP tools don't load, the same checks work via the Management API with that setting |
 | API keys | In `.env` (Mo pasted them): Quran Foundation Client ID + Secret (pre-production; secret rotated after a screenshot leaked it), YouTube Data API key (Google Cloud project "Al-Bayan", restricted to YouTube Data API v3), Gemini API key (free tier, testing only). Sunnah.com key still pending (section 7) |
-| AI provider | Google Gemini (Flash), chosen 2026-09-27 for cost instead of Anthropic. The AI layer must let us swap providers |
+| AI provider | Gemini (Flash) was chosen 2026-09-27 for cost, but the Codex review found Gemini's terms forbid sites likely used by under-18s and require the paid service for EU users (confirmed on ai.google.dev/gemini-api/terms). **Now undecided** (plan section 5). Gemini is for Mo's private testing only. The AI layer must be swappable |
+| Plan | **Version 3** (2026-09-27). Codex review suggested a scholar-reviewed library where the AI only finds answers (version 2). **Mo rejected that: the site stays AI first and fully automatic**, people ask anything and get an answer from the approved sources. Codex's other fixes (privacy, security, source rights, labels, accessibility, tests) are kept. Plan section 13 shows what was kept |
 | Code | None written yet |
 
 ## 3. The mockup
@@ -41,15 +42,15 @@ The mockup's example speakers (Omar Suleiman, Yasir Qadhi, Hamza Tzortzis, Nouma
 
 ## 4. Decisions Mo has made (binding)
 - **Methodology:** Sunni only. Evidence: Quran + hadith graded **sahih or hasan only**. Tafsir from recognised Sunni works and the approved scholars.
-- **Differences of opinion:** give **al-rajih** (strongest view, most commonly held by the approved scholars) as the answer. Other views only in a closed "Other scholarly views" fold. Don't confuse the user. If the rajih view is unclear, say so and offer the scholar check.
+- **Differences of opinion:** give **al-rajih** (strongest view, the one held by most approved scholars found; a scholar-reviewed answer overrides it) as the answer. Other views only in a closed "Other scholarly views" fold. Don't confuse the user. If the sources are split or unclear, show the views side by side and suggest asking a scholar.
 - **Answer shape:** short answer → evidence (Arabic + translation + link) → what the scholars said (quote + link) → videos. Usually 2 to 4 sources with links.
-- **AI never rules on its own.** It only quotes approved scholars' fatwas word for word with a link.
+- **AI first (Mo, 2026-09-27):** the AI answers any question automatically, but only from the approved sources. Every sentence must carry a source, code removes unsourced sentences and checks every quote. It never gives its own ruling. AI translations are labelled, Arabic always shown.
 - **Approved scholars** (full table with websites in `BAYAN_PLAN.md` §3b): Ibn Baz, Ibn Uthaymeen, al-Albani, al-Fawzan, Abdul-Muhsin al-Abbad, Abdur-Razzaq al-Badr, Rabee al-Madkhali, Muqbil al-Wadi'i, Ahmad an-Najmi, Sulayman ar-Ruhayli, Salih al-Usaymi, al-Ghudayyan, Abdur-Rahman al-Barrak, Salih Al al-Shaykh, Dagash al-Ajmi, Raslan, Aziz ibn Farhan al-Anizi, ash-Shuwayr, Muhammad Ramzan al-Hajiri.
 - **Accounts:** optional (anonymous by default; sign-in only saves history/favourites).
-- **Scholars for review:** none yet; build the review queue ready for later.
+- **Scholars for review:** none yet and not needed to build or launch. Later they review most-asked answers ("Scholar reviewed" badge). The "Ask a scholar" request is planned but **not built now**.
 - **Videos:** curated YouTube clips with timestamps.
 - **Languages:** Arabic (RTL), German, English.
-- **Stack (from plan):** Next.js on Vercel + Supabase (Frankfurt) + Google Gemini (Flash), swappable. Changed from Anthropic on 2026-09-27 for cost.
+- **Stack (from plan):** Next.js on Vercel (functions pinned to Frankfurt) + Supabase (Frankfurt) + a swappable AI provider (undecided, see section 2).
 
 ## 5. Research done (with sources)
 **Shamela / Islamic libraries**
@@ -80,22 +81,16 @@ The mockup's example speakers (Omar Suleiman, Yasir Qadhi, Hamza Tzortzis, Nouma
 - Sunnah.com API key: **request sent by Mo on 2026-09-27, waiting for approval.** Build against their mock server until it arrives.
 - Quran Foundation Client ID + Secret: **done 2026-09-27**, in `.env`. Pre-production only; production access must be requested later in their dev console.
 - YouTube Data API key: **done 2026-09-27**, in `.env`.
-- Gemini API key: **done 2026-09-27**, in `.env`, free tier. **Before any real visitor uses the site, remind Mo to turn on billing (Tier 1) and a monthly budget alert**, because the free tier lets Google train on the data.
+- Gemini API key: **done 2026-09-27**, in `.env`, free tier. Private testing only. Google's terms require the paid service once EU visitors use it, and forbid sites likely used by under-18s, so the provider decision comes first (plan section 5). Whatever provider is chosen: paid tier + monthly budget alert before any visitor uses it.
 - Later: domain name, scholar advisor(s), permission from scholars' sites, native Arabic/German reviewers.
 
 ## 8. Next steps (in order, ask Mo before each)
-Done 2026-09-27: GitHub remote + first commit, Supabase read-only check (see section 2).
+Done 2026-09-27: GitHub remote + first commit, Supabase read-only check, Codex review, plan version 3 (AI first).
 
-1. **First job for the next chat: write a review prompt for GPT Codex.** Mo wants an outside, honest second opinion on the whole project before we build. Write one ready-to-paste prompt that:
-   - Explains the goal in plain words: Al-Bayan is built for the Ummah, a free and trustworthy place where anyone, Muslim or not, can ask about Islam and get a calm answer quoted only from authentic Sunni sources, with a link for every quote, in Arabic, German and English.
-   - Tells Codex to read `BAYAN_PLAN.md`, `HANDOFF.md`, `Memory Al Bayan.md`, `CLAUDE.md` and the mockup in `mockup/` in the repo https://github.com/ismmhd69-crypto/Al-Bayan.
-   - Asks it to review everything and say plainly what we are doing wrong and where we can improve: methodology and trust (quote-only AI, al-rajih rule, sahih/hasan only, quote checking), sources and their licences, tech choices (Next.js, Vercel, Supabase Frankfurt, Gemini Flash with swappable provider), privacy and GDPR (EU users, Gemini free tier), security, costs, the phone layout, the 3 languages and Arabic right-to-left, accessibility, and the order of the build phases.
-   - Asks for a ranked list (most serious first), each item with the problem, why it matters and a concrete fix, and to say clearly what it could not check.
-   - Says no code changes, review only, and never ask for or print secret keys.
-   Give Mo the prompt in one copy block, then stop. When Codex answers, go through its points with Mo one by one and be honest about which ones we agree with.
-2. Phase 1 from the plan: Next.js skeleton with the 5-tab phone layout (Home, Ask, Shubuhat, Seekers, More), desktop side menu, 3 languages with Arabic RTL, lapis + gold design from the mockup, always light.
-3. Phase 2: database tables for topics, answers, sources, scholars, videos; rewrite the 12 topics using approved scholars only.
-4. Phase 3: the "ask" pipeline (library first, sources second, AI writes only from what was found, code re-checks every quote). Build the AI layer so the provider can be swapped; use the Sunnah.com mock server until the key arrives.
+1. Phase 1 (Interface): Next.js skeleton, 5-tab phone layout (Home, Ask, Hard questions, New to Islam, More; Arabic keeps شبهات), desktop side menu, 3 languages with Arabic right-to-left, lapis + gold design, always light, accessibility from the first component (plan section 8).
+2. Then phase 2 (content and sources) and phase 3 (the automatic Ask). Before public launch (phase 5), Mo needs: AI provider decided (plan section 5), a privacy and copyright lawyer, who legally owns the site, and a written OK from Quran Foundation about AI use.
+3. Fix the mockup's trust claims (plan section 13, last paragraph).
+4. Later phases follow plan section 12.
 
-## 9. Open questions (from the plan)
+## 9. Open questions (see plan section 14)
 Final name/domain; which scholar advisor; YouTube channel permissions and which channels are approved; who decides rajih when unclear; human vs AI-drafted translations of fatwas; free vs donations vs subscription; whether to adopt the pasted research skill as an internal tool.
