@@ -1,4 +1,7 @@
 import "server-only";
+import { TRANSLATIONS, type Verse } from "./quran-meta";
+import type { SearchDoc } from "@/lib/ask/search";
+export { ATTRIBUTION, TRANSLATIONS, type Verse } from "./quran-meta";
 
 // Quran Foundation Content API (plan section 4).
 // Their terms: cache at most one week, keep the Quran text unmodified, credit the translation
@@ -17,27 +20,12 @@ const TIMEOUT_MS = 10_000;
 const MAX_PAGES_PER_CHAPTER = 10; // 286 verses / 50 per page = 6 for the longest surah
 const PARALLEL_CHAPTERS = 3;
 
-export const ATTRIBUTION = "Quran.com / Quran Foundation";
-
-// Translations available on the test (prelive) keys. Arabic readers see the Arabic text itself.
-export const TRANSLATIONS = {
-  en: { id: 85, name: "M.A.S. Abdel Haleem" },
-  de: { id: 208, name: "Abu Reda Muhammad ibn Ahmad" },
-} as const;
 
 // Pre-production keys only contain Surahs 1 and 2.
 export const CHAPTERS = (process.env.QURAN_CHAPTERS ?? "1,2")
   .split(",")
   .map((n) => Number(n.trim()))
   .filter((n) => Number.isInteger(n) && n >= 1 && n <= 114);
-
-export type Verse = {
-  key: string; // "2:255"
-  arabic: string; // Uthmani script, exactly as served
-  arabicPlain: string; // simple script without marks, used only for search
-  translations: { en: string | null; de: string | null }; // exactly as served, or null if not showable
-  url: string;
-};
 
 // ---------- auth: one token request at a time ----------
 
@@ -131,7 +119,7 @@ async function fetchAll(): Promise<Verse[]> {
   return out.flat();
 }
 
-let memory: { verses: Verse[]; byKey: Map<string, Verse>; at: number } | null = null;
+let memory: { verses: Verse[]; byKey: Map<string, Verse>; docs: SearchDoc[]; at: number } | null = null;
 let loading: Promise<Verse[]> | null = null;
 
 // One shared load: simultaneous questions wait for the same download instead of starting their own.
@@ -139,11 +127,22 @@ export function getVerses(): Promise<Verse[]> {
   if (memory && Date.now() - memory.at < CACHE_SECONDS * 1000) return Promise.resolve(memory.verses);
   loading ??= fetchAll()
     .then((verses) => {
-      memory = { verses, byKey: new Map(verses.map((v) => [v.key, v])), at: Date.now() };
+      memory = {
+        verses,
+        byKey: new Map(verses.map((v) => [v.key, v])),
+        // Built once per load, so the search index is not rebuilt for every question.
+        docs: verses.map((v) => ({ key: v.key, arabicPlain: v.arabicPlain, en: v.translations.en ?? "", de: v.translations.de ?? "" })),
+        at: Date.now(),
+      };
       return verses;
     })
     .finally(() => (loading = null));
   return loading;
+}
+
+export async function getSearchDocs(): Promise<SearchDoc[]> {
+  await getVerses();
+  return memory!.docs;
 }
 
 export async function getVerse(key: string): Promise<Verse | undefined> {

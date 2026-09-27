@@ -74,6 +74,8 @@ export default function AskChat({
             ? { kind: "not_ready" }
             : data.status === "no_source"
               ? { kind: "text", text: t.noSource }
+              : data.status === "ask_scholar"
+                ? { kind: "text", text: t.personal }
               : data.status === "out_of_scope"
                 ? { kind: "text", text: t.outOfScope }
                 : data.status === "rate_limited"
@@ -272,7 +274,6 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
             </span>
           ))}
         </p>
-        {a.personal && <p className="answer-note">{t.personal}</p>}
       </section>
 
       <section className="answer-part answer-part--real">
@@ -312,7 +313,11 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
       </section>
 
       <p className="answer-foot">
-        {t.checked} {t.attribution}: {a.attribution}. {t.notFatwa}
+        {t.checked}{" "}
+        <a href={a.attribution.url} target="_blank" rel="noopener noreferrer">
+          {a.attribution.text}
+        </a>
+        . {t.notFatwa}
       </p>
     </div>
   );

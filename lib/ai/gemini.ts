@@ -34,7 +34,7 @@ async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): P
 export function createGemini(apiKey: string, model: string): AIProvider {
   return {
     id: `gemini/${model}`,
-    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, signal }: JsonRequest) {
+    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, thinking, signal }: JsonRequest) {
       const res = await withRetry(() => fetch(`${ENDPOINT}/${model}:generateContent`, {
         method: "POST",
         headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
@@ -48,6 +48,7 @@ export function createGemini(apiKey: string, model: string): AIProvider {
             maxOutputTokens,
             responseMimeType: "application/json",
             responseSchema: toGeminiSchema(schema),
+            ...(thinking ? { thinkingConfig: { thinkingLevel: thinking } } : {}),
           },
         }),
       }), signal);

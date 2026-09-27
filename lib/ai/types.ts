@@ -13,6 +13,8 @@ export type JsonRequest = {
   prompt: string;
   schema: JsonSchema;
   maxOutputTokens?: number;
+  /** How much the model may "think" before answering; thinking uses up the output budget. */
+  thinking?: "minimal" | "low";
   /** Overall deadline for the whole answer; the call is cancelled when it fires. */
   signal?: AbortSignal;
 };

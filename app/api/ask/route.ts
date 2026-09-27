@@ -31,6 +31,11 @@ export async function POST(request: Request) {
     return reply("bad_request", 415);
   }
   if (Number(request.headers.get("content-length") ?? 0) > MAX_BODY_BYTES) return reply("too_long", 413);
+  if (!askEnabled()) return reply("not_ready");
+
+  // Count the request before reading or parsing anything, so floods cost as little as possible.
+  const slot = takeSlot(visitorKey(request.headers.get("x-forwarded-for")));
+  if (slot !== "ok") return reply("rate_limited", 429);
 
   let body: unknown;
   try {
@@ -46,10 +51,6 @@ export async function POST(request: Request) {
     return reply("bad_request", 400);
   }
   if (question.length > MAX_QUESTION) return reply("too_long", 413);
-  if (!askEnabled()) return reply("not_ready");
-
-  const slot = takeSlot(visitorKey(request.headers.get("x-forwarded-for")));
-  if (slot !== "ok") return reply("rate_limited", 429);
 
   try {
     return NextResponse.json(await withSlot(() => ask(question.trim(), lang)), { headers: noStore });
