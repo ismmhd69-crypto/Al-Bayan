@@ -19,7 +19,8 @@ A website where anyone, Muslim or not, asks a question about Islam and gets a ca
 | API keys | In `.env` (Mo pasted them): Quran Foundation Client ID + Secret (pre-production; secret rotated after a screenshot leaked it), YouTube Data API key (Google Cloud project "Al-Bayan", restricted to YouTube Data API v3), Gemini API key (free tier, testing only). Sunnah.com key still pending (section 7) |
 | AI provider | Gemini (Flash) was chosen 2026-09-27 for cost, but the Codex review found Gemini's terms forbid sites likely used by under-18s and require the paid service for EU users (confirmed on ai.google.dev/gemini-api/terms). **Now undecided** (plan section 5). Gemini is for Mo's private testing only. The AI layer must be swappable |
 | Plan | **Version 3** (2026-09-27). Codex review suggested a scholar-reviewed library where the AI only finds answers (version 2). **Mo rejected that: the site stays AI first and fully automatic**, people ask anything and get an answer from the approved sources. Codex's other fixes (privacy, security, source rights, labels, accessibility, tests) are kept. Plan section 13 shows what was kept |
-| Code | None written yet |
+| Code | **Phase 1 (Interface) built 2026-09-27.** Next.js 16 app in the repo root: `app/[lang]/` pages (Home, Ask, Hard questions + topic pages, New to Islam, More, How Bayan works, Privacy), `dictionaries/` (en, de, ar; German and Arabic are AI-drafted, need native check), `data/` (12 topic titles/questions, 6 New to Islam steps; no answers yet), `components/`, `proxy.ts` (sends `/` to the visitor's language). Ask screen is fully designed but `/api/ask` returns "not ready" until the source library exists. Questions pass from Home to Ask on the device only (never in the web address). Run locally: `npm install` then `npm run dev`, open http://localhost:3000. Checked on phone and computer width in all 3 languages, no sideways scrolling |
+| Quran API limits | Pre-production keys only contain **Surahs 1 and 2**, and the Quran API search returned an error (checked 2026-09-27). Real answers need production keys and our own searchable source library in Supabase |
 
 ## 3. The mockup
 - Live link (shared as "Anyone with the link"): https://claude.ai/artifact/J6MS8YX14VXQASqQQxCtWs
@@ -87,7 +88,7 @@ The mockup's example speakers (Omar Suleiman, Yasir Qadhi, Hamza Tzortzis, Nouma
 ## 8. Next steps (in order, ask Mo before each)
 Done 2026-09-27: GitHub remote + first commit, Supabase read-only check, Codex review, plan version 3 (AI first).
 
-1. Phase 1 (Interface): Next.js skeleton, 5-tab phone layout (Home, Ask, Hard questions, New to Islam, More; Arabic keeps شبهات), desktop side menu, 3 languages with Arabic right-to-left, lapis + gold design, always light, accessibility from the first component (plan section 8).
+1. ~~Phase 1 (Interface)~~ **done 2026-09-27**: Next.js skeleton, 5-tab phone layout (Home, Ask, Hard questions, New to Islam, More; Arabic keeps شبهات), desktop side menu, 3 languages with Arabic right-to-left, lapis + gold design, always light, accessibility from the first component (plan section 8).
 2. Then phase 2 (content and sources) and phase 3 (the automatic Ask). Before public launch (phase 5), Mo needs: AI provider decided (plan section 5), a privacy and copyright lawyer, who legally owns the site, and a written OK from Quran Foundation about AI use.
 3. Fix the mockup's trust claims (plan section 13, last paragraph).
 4. Later phases follow plan section 12.

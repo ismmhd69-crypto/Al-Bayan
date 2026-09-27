@@ -35,4 +35,5 @@ Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
 - Gemini API key: **done 2026-09-27**, in `.env` (project Al-Bayan). Mo chose Gemini over Anthropic because it is cheaper. Free tier, Mo's private testing only. **Codex review found (and Claude confirmed on Google's terms page) that Gemini forbids sites likely used by under-18s and needs the paid service for EU users. AI provider is now undecided (plan section 5).** Whatever is chosen: paid tier + budget alert before any visitor.
 
 ## Next chat starts with
-- Plan version 3 done (2026-09-27). Next: phase 1, the Interface (see `HANDOFF.md` section 8).
+- Phase 1 (Interface) built and committed 2026-09-27: all 5 tabs, 3 languages, Arabic right-to-left, Ask screen designed but answers switched off until the source library exists. Next: phase 2 (database tables for topics, sources, scholars, videos). Needs Mo's OK to switch the Supabase MCP from read-only to write.
+- Quran Foundation pre-production keys only include Surahs 1 and 2; its search endpoint returned an error. Ask Mo to request production access when we reach phase 3.

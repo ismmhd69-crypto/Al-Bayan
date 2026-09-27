@@ -1,0 +1,131 @@
+// English is the reference dictionary: German and Arabic must have the same keys.
+const en = {
+  meta: {
+    title: "Bayan: ask anything about Islam",
+    description:
+      "Ask any question about Islam and get a clear answer from the Quran, authentic hadith and trusted scholars, with a source for every point.",
+  },
+  common: {
+    skip: "Skip to content",
+    back: "Back",
+    comingSoon: "Coming soon",
+    brandAr: "بيان",
+  },
+  nav: {
+    label: "Main",
+    home: "Home",
+    ask: "Ask",
+    topics: "Hard questions",
+    start: "New to Islam",
+    more: "More",
+  },
+  home: {
+    title: "Ask anything about Islam.",
+    sub: "Answers from the Quran, authentic hadith and trusted scholars only, with a source for every point.",
+    placeholder: "Type your question...",
+    askButton: "Ask",
+    popular: "Popular questions",
+    browse: "Browse hard questions",
+    newHere: "New to Islam? Start here",
+  },
+  ask: {
+    title: "Ask",
+    notice:
+      "This AI answers only from trusted sources (Quran, authentic hadith and approved scholars), not from its own knowledge. Every answer shows its sources.",
+    placeholder: "Ask your question...",
+    send: "Send",
+    emptyTitle: "What would you like to know?",
+    emptySub: "Ask in Arabic, English or German.",
+    suggestions: "Try one of these",
+    you: "You",
+    bayan: "Bayan",
+    thinking: "Searching the sources...",
+    notReady:
+      "Answers are not switched on yet. We are first building the library of trusted sources the AI is allowed to use. Until then it will not answer, rather than guess.",
+    previewToggle: "See how an answer will look",
+    notFatwa: "Not a fatwa. For your personal situation, ask a qualified scholar you trust.",
+    error: "Something went wrong. Please try again.",
+    tooLong: "Please keep your question under 500 characters.",
+    parts: {
+      short: "Short answer",
+      evidence: "Evidence",
+      scholars: "What the scholars said",
+      watch: "Watch more",
+      otherViews: "Other scholarly views",
+    },
+    previewText: {
+      short: "Two or three plain sentences, written only from the sources below.",
+      evidence: "The verse or hadith in Arabic, with its translation, grade and a link.",
+      scholars: "A quote from an approved scholar, with their name and a link to the original.",
+      watch: "A short video clip from a scholar, when there is one.",
+      otherViews: "Shown only when approved scholars differ. Closed by default.",
+    },
+    label: "Automatic answer from the sources listed",
+  },
+  topics: {
+    title: "Hard questions",
+    intro: "Common questions and doubts about Islam, answered calmly with sources.",
+    all: "All",
+    categories: {
+      belief: "God and belief",
+      science: "Faith and science",
+      preservation: "Quran and hadith",
+      women: "Women in Islam",
+      history: "Justice and history",
+    },
+    preparing:
+      "This answer is being prepared. It will quote the Quran, authentic hadith and approved scholars, with a link for every point.",
+    askAbout: "Ask about this now",
+    backToList: "All hard questions",
+    related: "Related",
+  },
+  start: {
+    title: "New to Islam",
+    intro: "A calm, step by step path. Go at your own pace. Your progress stays on this device.",
+    step: "Step",
+    done: "Done",
+    markDone: "Mark as done",
+    undo: "Not done",
+    read: "Read",
+    ask: "Ask about it",
+    progress: "{done} of {total} done",
+  },
+  more: {
+    title: "More",
+    language: "Language",
+    account: "Sign in",
+    accountNote: "Optional. Only to save your answers.",
+    saved: "Saved answers",
+    about: "How Bayan works",
+    privacy: "Privacy",
+    report: "Report a problem",
+    reportNote: "Found a mistake? Tell us.",
+  },
+  about: {
+    title: "How Bayan works",
+    intro:
+      "Bayan answers questions about Islam automatically, but only from trusted sources. Here is exactly what that means.",
+    points: [
+      ["Closed library", "The AI only answers from our approved sources. It never searches the open internet and does not answer from its own knowledge."],
+      ["Every sentence has a source", "Each sentence in an answer points to a source. Sentences without one are removed before you see the answer."],
+      ["Quotes are checked by code", "Every quoted verse, hadith and scholar quote is checked word for word against the original before it is shown."],
+      ["Authentic hadith only", "Only hadith graded sahih or hasan are used. The grade and who graded it are always shown."],
+      ["Approved scholars", "Rulings are only quoted from a fixed list of Sunni scholars, with a link to the original."],
+      ["Honest when unsure", "If no trusted source is found, Bayan says so instead of guessing."],
+      ["Not a fatwa", "Answers explain what the scholars said. For your personal situation, ask a qualified scholar you trust."],
+    ],
+  },
+  privacy: {
+    title: "Privacy",
+    draft: "Draft. The full privacy policy will be checked by a lawyer before Bayan opens to the public.",
+    points: [
+      "No account is required to ask a question.",
+      "Questions from visitors without an account are not saved in our database.",
+      "Your question never appears in web addresses or analytics.",
+      "Your progress in New to Islam and your chosen language stay on your own device.",
+      "Our database is hosted in Frankfurt, Germany.",
+    ],
+  },
+};
+
+export default en;

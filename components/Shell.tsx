@@ -1,0 +1,77 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { CircleHelp, Compass, Ellipsis, House, MessageCircle, type LucideIcon } from "lucide-react";
+import type { Dictionary, Locale } from "@/lib/i18n";
+import Logo from "./Logo";
+import LangSwitch from "./LangSwitch";
+
+type NavKey = "home" | "ask" | "topics" | "start" | "more";
+
+const items: { key: NavKey; path: string; Icon: LucideIcon }[] = [
+  { key: "home", path: "", Icon: House },
+  { key: "ask", path: "/ask", Icon: MessageCircle },
+  { key: "topics", path: "/topics", Icon: CircleHelp },
+  { key: "start", path: "/start", Icon: Compass },
+  { key: "more", path: "/more", Icon: Ellipsis },
+];
+
+export default function Shell({
+  lang,
+  nav,
+  brandAr,
+  children,
+}: {
+  lang: Locale;
+  nav: Dictionary["nav"];
+  brandAr: string;
+  children: React.ReactNode;
+}) {
+  const pathname = usePathname();
+  const base = `/${lang}`;
+  const sub = pathname.slice(base.length) || "";
+  const isActive = (path: string) => (path === "" ? sub === "" : sub === path || sub.startsWith(`${path}/`));
+  // Ask brings its own header and composer, so on a phone it gets the full screen.
+  const onAsk = isActive("/ask");
+
+  return (
+    <div className={`shell${onAsk ? " shell--ask" : ""}`}>
+      <aside className="sidebar">
+        <Link href={base} className="sidebar-brand" aria-label="Bayan">
+          <Logo brandAr={brandAr} />
+        </Link>
+        <nav aria-label={nav.label} className="sidebar-nav">
+          {items.map(({ key, path, Icon }) => (
+            <Link key={key} href={`${base}${path}`} aria-current={isActive(path) ? "page" : undefined}>
+              <Icon aria-hidden="true" />
+              <span>{nav[key]}</span>
+            </Link>
+          ))}
+        </nav>
+        <div className="sidebar-foot">
+          <LangSwitch lang={lang} />
+        </div>
+      </aside>
+
+      <header className="topbar">
+        <Link href={base} aria-label="Bayan">
+          <Logo brandAr={brandAr} />
+        </Link>
+      </header>
+
+      <main id="main" className="main" tabIndex={-1}>
+        {children}
+      </main>
+
+      <nav aria-label={nav.label} className="tabbar">
+        {items.map(({ key, path, Icon }) => (
+          <Link key={key} href={`${base}${path}`} aria-current={isActive(path) ? "page" : undefined}>
+            <Icon aria-hidden="true" />
+            <span>{nav[key]}</span>
+          </Link>
+        ))}
+      </nav>
+    </div>
+  );
+}
