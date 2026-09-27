@@ -17,5 +17,13 @@ export default async function AskPage({ params }: { params: Promise<{ lang: stri
   const t = getDictionary(lang);
   const suggestions = await getPopularQuestions(lang, 3);
 
-  return <AskChat lang={lang} t={t.ask} backLabel={t.common.back} suggestions={suggestions} />;
+  return (
+    <AskChat
+      lang={lang}
+      t={t.ask}
+      backLabel={t.common.back}
+      suggestions={suggestions}
+      testMode={process.env.QURAN_API_ENV !== "production"}
+    />
+  );
 }

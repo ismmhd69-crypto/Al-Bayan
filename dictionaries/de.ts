@@ -63,6 +63,17 @@ const de: typeof en = {
       otherViews: "Nur sichtbar, wenn anerkannte Gelehrte sich unterscheiden. Standardmäßig geschlossen.",
     },
     label: "Automatische Antwort aus den genannten Quellen",
+    noSource:
+      "Wir haben keine vertrauenswürdige Quelle gefunden, die das beantwortet. Bitte frag einen qualifizierten Gelehrten, dem du vertraust.",
+    outOfScope: "Ich beantworte nur Fragen zum Islam, aus vertrauenswürdigen Quellen. Was möchtest du wissen?",
+    rateLimited: "Du hast in kurzer Zeit viel gefragt. Bitte warte ein paar Minuten und versuch es noch einmal.",
+    checked: "Zitate genau wie in der Quelle",
+    quran: "Koran",
+    translation: "Übersetzung",
+    scholarsEmpty: "Noch keine Gelehrtenzitate in der Bibliothek.",
+    personal: "Für deine persönliche Situation frag bitte einen qualifizierten Gelehrten, dem du vertraust.",
+    testMode: "Testmodus: Bisher sind nur die Suren 1 und 2 in der Bibliothek.",
+    source: "Quelle",
   },
   topics: {
     title: "Schwierige Fragen",

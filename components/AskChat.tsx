@@ -2,14 +2,15 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { ArrowLeft, ArrowUp, BookOpen, ChevronDown, PlayCircle, Quote, ShieldCheck, Users } from "lucide-react";
+import { ArrowLeft, ArrowUp, BookOpen, ChevronDown, ExternalLink, PlayCircle, Quote, ShieldCheck, Users } from "lucide-react";
 import type { Dictionary } from "@/lib/i18n";
+import type { Answer } from "@/lib/ask/pipeline";
 import { takePendingQuestion } from "@/lib/pending";
 import { Beacon } from "./Logo";
 
 type AskText = Dictionary["ask"];
 
-type Reply = { kind: "not_ready" } | { kind: "error"; text: string };
+type Reply = { kind: "not_ready" } | { kind: "text"; text: string } | { kind: "answer"; answer: Answer };
 type NewMessage = { role: "user"; text: string } | { role: "bayan"; reply: Reply };
 type Message = NewMessage & { id: number };
 
@@ -20,11 +21,13 @@ export default function AskChat({
   t,
   backLabel,
   suggestions,
+  testMode,
 }: {
   lang: string;
   t: AskText;
   backLabel: string;
   suggestions: string[];
+  testMode: boolean;
 }) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [value, setValue] = useState("");
@@ -51,7 +54,7 @@ export default function AskChat({
     const question = raw.trim();
     if (!question || busy) return;
     if (question.length > MAX) {
-      push({ role: "bayan", reply: { kind: "error", text: t.tooLong } });
+      push({ role: "bayan", reply: { kind: "text", text: t.tooLong } });
       return;
     }
     push({ role: "user", text: question });
@@ -63,11 +66,24 @@ export default function AskChat({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question, lang }),
       });
-      const data = (await res.json()) as { status?: string };
-      if (!res.ok) throw new Error(data.status ?? "error");
-      push({ role: "bayan", reply: { kind: "not_ready" } });
+      const data = (await res.json()) as { status?: string; answer?: Answer };
+      const reply: Reply =
+        data.status === "answer" && data.answer
+          ? { kind: "answer", answer: data.answer }
+          : data.status === "not_ready"
+            ? { kind: "not_ready" }
+            : data.status === "no_source"
+              ? { kind: "text", text: t.noSource }
+              : data.status === "out_of_scope"
+                ? { kind: "text", text: t.outOfScope }
+                : data.status === "rate_limited"
+                  ? { kind: "text", text: t.rateLimited }
+                  : data.status === "too_long"
+                    ? { kind: "text", text: t.tooLong }
+                    : { kind: "text", text: t.error };
+      push({ role: "bayan", reply });
     } catch {
-      push({ role: "bayan", reply: { kind: "error", text: t.error } });
+      push({ role: "bayan", reply: { kind: "text", text: t.error } });
     } finally {
       setBusy(false);
       inputRef.current?.focus();
@@ -91,7 +107,10 @@ export default function AskChat({
 
       <p className="chat-notice">
         <ShieldCheck aria-hidden="true" />
-        <span>{t.notice}</span>
+        <span>
+          {t.notice}
+          {testMode && <strong className="chat-test"> {t.testMode}</strong>}
+        </span>
       </p>
 
       <div className="chat-log" aria-live="polite" aria-busy={busy}>
@@ -122,7 +141,13 @@ export default function AskChat({
           ) : (
             <div key={m.id} className="msg msg-bayan">
               <span className="sr-only">{t.bayan}: </span>
-              {m.reply.kind === "error" ? <p>{m.reply.text}</p> : <NotReady t={t} />}
+              {m.reply.kind === "text" ? (
+                <p>{m.reply.text}</p>
+              ) : m.reply.kind === "answer" ? (
+                <AnswerView a={m.reply.answer} t={t} id={m.id} />
+              ) : (
+                <NotReady t={t} />
+              )}
             </div>
           ),
         )}
@@ -201,6 +226,78 @@ function NotReady({ t }: { t: AskText }) {
         </div>
       </details>
     </>
+  );
+}
+
+const dirOf = (l: string) => (l === "ar" ? "rtl" : "ltr");
+
+// A real answer: short answer with a source on every sentence, then the verses exactly as served.
+function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
+  const anchor = (key: string) => `ev-${id}-${key.replace(":", "-")}`;
+  return (
+    <div className="answer">
+      <p className="answer-label">{t.label}</p>
+
+      <section className="answer-part answer-part--real">
+        <h3>
+          <BookOpen aria-hidden="true" />
+          {t.parts.short}
+        </h3>
+        <p lang={a.language} dir={dirOf(a.language)}>
+          {a.shortAnswer.map((s, i) => (
+            <span key={i}>
+              {s.text}{" "}
+              {s.refs.map((r) => (
+                <a key={r} href={`#${anchor(r)}`} className="ref" aria-label={`${t.source}: ${t.quran} ${r}`}>
+                  {r}
+                </a>
+              ))}{" "}
+            </span>
+          ))}
+        </p>
+        {a.personal && <p className="answer-note">{t.personal}</p>}
+      </section>
+
+      <section className="answer-part answer-part--real">
+        <h3>
+          <Quote aria-hidden="true" />
+          {t.parts.evidence}
+        </h3>
+        <ul className="evidence">
+          {a.evidence.map((e) => (
+            <li key={e.key} id={anchor(e.key)}>
+              <p className="verse-ar" lang="ar" dir="rtl">
+                {e.arabic}
+              </p>
+              {e.translation && (
+                <p className="verse-tr" lang={a.language}>
+                  {e.translation}
+                  <span className="verse-by">
+                    {t.translation}: {e.translationName}
+                  </span>
+                </p>
+              )}
+              <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
+                {t.quran} {e.key}
+                <ExternalLink aria-hidden="true" />
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="answer-part answer-part--real">
+        <h3>
+          <Users aria-hidden="true" />
+          {t.parts.scholars}
+        </h3>
+        <p className="muted">{t.scholarsEmpty}</p>
+      </section>
+
+      <p className="answer-foot">
+        {t.checked}. {t.notFatwa}
+      </p>
+    </div>
   );
 }
 

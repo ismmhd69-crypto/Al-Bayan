@@ -61,6 +61,17 @@ const en = {
       otherViews: "Shown only when approved scholars differ. Closed by default.",
     },
     label: "Automatic answer from the sources listed",
+    noSource:
+      "We couldn't find a trusted source that answers this. Please ask a qualified scholar you trust.",
+    outOfScope: "I can only answer questions about Islam, from trusted sources. What would you like to know?",
+    rateLimited: "You've asked a lot in a short time. Please wait a few minutes and try again.",
+    checked: "Quotes shown exactly as in the source",
+    quran: "Quran",
+    translation: "Translation",
+    scholarsEmpty: "No scholar quotes in the library yet.",
+    personal: "For your own situation, please ask a qualified scholar you trust.",
+    testMode: "Test mode: only Surahs 1 and 2 are in the library so far.",
+    source: "Source",
   },
   topics: {
     title: "Hard questions",

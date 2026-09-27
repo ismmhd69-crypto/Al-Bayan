@@ -1143,6 +1143,96 @@ details[open] > summary .chev {
   color: var(--ink-3);
 }
 
+.answer-part--real {
+  border-style: solid;
+  border-color: var(--line);
+  background: var(--surface);
+}
+.answer-part--real > p {
+  font-size: var(--fs-md);
+  color: var(--ink);
+}
+.answer-part--real .muted {
+  font-size: var(--fs-sm);
+  color: var(--ink-3);
+}
+.answer-note {
+  font-size: var(--fs-sm) !important;
+  color: var(--gold-ink) !important;
+}
+.ref {
+  display: inline-block;
+  margin-inline-start: 2px;
+  padding: 0 6px;
+  border-radius: 6px;
+  background: var(--gold-soft);
+  border: 1px solid var(--gold-line);
+  color: var(--gold-ink);
+  font-family: var(--f-body);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  line-height: 1.6;
+  text-decoration: none;
+  vertical-align: 1px;
+  unicode-bidi: isolate;
+  direction: ltr;
+}
+.evidence {
+  display: grid;
+  gap: 12px;
+}
+.evidence li {
+  display: grid;
+  gap: 8px;
+  padding-block-start: 12px;
+  border-block-start: 1px solid var(--line);
+  scroll-margin-block: 80px;
+}
+.evidence li:first-child {
+  padding-block-start: 4px;
+  border-block-start: 0;
+}
+.evidence li:target {
+  background: var(--gold-soft);
+  border-radius: 8px;
+}
+.verse-ar {
+  font-family: var(--f-ar-body);
+  font-size: 1.375rem;
+  line-height: 2.1;
+  color: var(--ink);
+  text-align: right;
+}
+.verse-tr {
+  display: grid;
+  gap: 4px;
+  font-size: var(--fs-md);
+  color: var(--ink-2);
+}
+.verse-by {
+  font-size: var(--fs-xs);
+  color: var(--ink-3);
+}
+.verse-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  justify-self: start;
+  min-block-size: 32px;
+  color: var(--accent);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  text-decoration: none;
+  unicode-bidi: isolate;
+}
+.verse-link svg {
+  inline-size: 14px;
+  block-size: 14px;
+}
+.chat-test {
+  font-weight: 700;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
