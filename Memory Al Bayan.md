@@ -8,8 +8,8 @@ Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
 - Mockup source files: `mockup/` (artifact source + standalone copy for tiiny.host)
 - Settings template: `.env.example` (copy to `.env`, fill secrets yourself)
 - Project folder: `C:\Users\wiseflow\Bayan` (own git repo)
-- GitHub: https://github.com/ismmhd69-crypto/Al-Bayan
-- Supabase project ref: `jnietkyxgnocyizvjiel`, region Frankfurt (EU)
+- GitHub: https://github.com/ismmhd69-crypto/Al-Bayan (connected; first commit pushed 2026-09-27). Remote URL includes `ismmhd69-crypto@` so this folder pushes as that account, not WiseFlow-dev. Claude's auto mode blocks git push, so Mo runs pushes in PowerShell.
+- Supabase project ref: `jnietkyxgnocyizvjiel`, region Frankfurt (EU). Checked 2026-09-27 with the public key: healthy, email login only, anonymous off, email confirm required. Supabase MCP set up in `.mcp.json` (read-only, this project only). Browser login failed ("Resource must be a valid MCP endpoint"), so it now uses a personal access token from the Windows user setting `SUPABASE_ACCESS_TOKEN` (set by Mo with setx; never in files or chat). Checked 2026-09-27 read-only: region eu-central-1 (Frankfurt), healthy, no tables yet, security and performance advisors show zero warnings.
 - Mockup: https://claude.ai/artifact/J6MS8YX14VXQASqQQxCtWs (lapis blue + gold, always light)
 
 ## Decisions
@@ -32,3 +32,6 @@ Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
 - Quran Foundation Client ID + Secret: **done 2026-09-27**, in `.env` (pre-production credentials; secret was rotated after a screenshot exposed it). Production access must be requested later in the dev console.
 - YouTube Data API key: **done 2026-09-27**, in `.env` (Google Cloud project "Al-Bayan")
 - Gemini API key: **done 2026-09-27**, in `.env` (project Al-Bayan). Mo chose Gemini over Anthropic because it is cheaper. Currently on the **free tier** for testing only. **Before any real visitor uses the site:** set up billing (Tier 1) + a monthly budget alert, because the free tier lets Google train on the data.
+
+## Next chat starts with
+- Write a ready-to-paste review prompt for GPT Codex (details in `HANDOFF.md` section 8, step 1). Then Phase 1.

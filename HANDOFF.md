@@ -1,6 +1,6 @@
 # Al-Bayan: full handoff
 
-Written 2026-09-27 at the end of the first working session (started 2026-09-25). That session ran from the WiseFlow folder by accident of where the terminal was opened. From now on, all Al-Bayan work happens in `C:\Users\wiseflow\Bayan` only. WiseFlow is a separate product and must never be mixed in.
+Written 2026-09-27 at the end of the first working session (started 2026-09-25). That session ran from the WiseFlow folder by accident of where the terminal was opened. From now on, all Al-Bayan work happens in `C:\Users\wiseflow\Bayan` only. WiseFlow is a separate product and must never be mixed in. Sections 2 and 7 updated later on 2026-09-27 in the second session.
 
 Read in this order: `CLAUDE.md` → this file → `Memory Al Bayan.md` → `BAYAN_PLAN.md`.
 
@@ -14,9 +14,10 @@ A website where anyone, Muslim or not, asks a question about Islam and gets a ca
 |---|---|
 | Mockup | Done and live (8 versions). Not the real app. See section 3 |
 | Plan | `BAYAN_PLAN.md`, approved by Mo, includes methodology + approved scholars |
-| Repo | `git init` done in this folder, **nothing committed yet**. Remote: https://github.com/ismmhd69-crypto/Al-Bayan (not yet connected with `git remote add`) |
-| Supabase | Project created by Mo. Ref `jnietkyxgnocyizvjiel`, region Frankfurt. Empty. Publishable key is in `.env.example` (safe to share). Not yet inspected by Claude |
-| API keys | Mo has been told how to request them; none received yet (section 7) |
+| Repo | https://github.com/ismmhd69-crypto/Al-Bayan, branch `main`. First commit pushed 2026-09-27. Remote URL includes `ismmhd69-crypto@` so this folder pushes as that account, not WiseFlow-dev. Claude's auto mode blocks `git push`, so Claude gives Mo the PowerShell commands and Mo runs them |
+| Supabase | Ref `jnietkyxgnocyizvjiel`. Checked 2026-09-27 (read-only): region eu-central-1 (Frankfurt), healthy, **no tables yet**, security and performance advisors show **zero warnings**. Auth: email login only, anonymous off, email confirmation required. MCP in `.mcp.json` is read-only and limited to this project. The browser login failed ("Resource must be a valid MCP endpoint"), so it now reads a personal access token from the Windows user setting `SUPABASE_ACCESS_TOKEN` (Mo set it with `setx`; it is never in a file or chat). If the MCP tools don't load, the same checks work via the Management API with that setting |
+| API keys | In `.env` (Mo pasted them): Quran Foundation Client ID + Secret (pre-production; secret rotated after a screenshot leaked it), YouTube Data API key (Google Cloud project "Al-Bayan", restricted to YouTube Data API v3), Gemini API key (free tier, testing only). Sunnah.com key still pending (section 7) |
+| AI provider | Google Gemini (Flash), chosen 2026-09-27 for cost instead of Anthropic. The AI layer must let us swap providers |
 | Code | None written yet |
 
 ## 3. The mockup
@@ -48,7 +49,7 @@ The mockup's example speakers (Omar Suleiman, Yasir Qadhi, Hamza Tzortzis, Nouma
 - **Scholars for review:** none yet; build the review queue ready for later.
 - **Videos:** curated YouTube clips with timestamps.
 - **Languages:** Arabic (RTL), German, English.
-- **Stack (from plan):** Next.js on Vercel + Supabase (Frankfurt) + Anthropic API.
+- **Stack (from plan):** Next.js on Vercel + Supabase (Frankfurt) + Google Gemini (Flash), swappable. Changed from Anthropic on 2026-09-27 for cost.
 
 ## 5. Research done (with sources)
 **Shamela / Islamic libraries**
@@ -72,23 +73,29 @@ The mockup's example speakers (Omar Suleiman, Yasir Qadhi, Hamza Tzortzis, Nouma
 - Once Mo states concrete rules, **build them**; don't keep offering option menus.
 - Mo wants **honest, no-sugarcoat** reviews.
 - Say plainly what was checked and what wasn't.
-- **Secrets never in chat.** Supabase secret key, database password, Anthropic key and other API keys go in a local `.env` that Mo fills in; never committed.
+- **Secrets never in chat.** Supabase secret key, database password, Gemini key and other API keys go in a local `.env` that Mo fills in; never committed.
 - Mo may interrupt tool calls; stop and wait when that happens.
 
 ## 7. Waiting on Mo
 - Sunnah.com API key: **request sent by Mo on 2026-09-27, waiting for approval.** Build against their mock server until it arrives.
-- **First job for the new session:** guide Mo step by step (short, plain English, one step at a time) through getting the Quran Foundation Client ID + Secret and the YouTube Data API key, then have Mo paste them into `.env` themselves (never into chat).
-- Quran Foundation Client ID + Secret.
-- YouTube Data API key (Google Cloud → enable YouTube Data API v3 → API key).
-- Anthropic API key (into `.env`, not chat).
+- Quran Foundation Client ID + Secret: **done 2026-09-27**, in `.env`. Pre-production only; production access must be requested later in their dev console.
+- YouTube Data API key: **done 2026-09-27**, in `.env`.
+- Gemini API key: **done 2026-09-27**, in `.env`, free tier. **Before any real visitor uses the site, remind Mo to turn on billing (Tier 1) and a monthly budget alert**, because the free tier lets Google train on the data.
 - Later: domain name, scholar advisor(s), permission from scholars' sites, native Arabic/German reviewers.
 
-## 8. Suggested next steps (in order, ask Mo before each)
-1. Connect the GitHub remote and make the first commit (plan, memory, handoff, mockup, `.gitignore`, `.env.example`).
-2. Inspect the empty Supabase project (read-only first) and confirm region/settings.
-3. Phase 1 from the plan: Next.js skeleton with the 5-tab phone layout, desktop side menu, 3 languages with Arabic RTL, lapis + gold design carried over from the mockup.
-4. Phase 2: database tables for topics, answers, sources, scholars, videos; rewrite the 12 topics using approved scholars only.
-5. Phase 3: the "ask" pipeline (library first, sources second, AI writes only from what was found, code re-checks every quote).
+## 8. Next steps (in order, ask Mo before each)
+Done 2026-09-27: GitHub remote + first commit, Supabase read-only check (see section 2).
+
+1. **First job for the next chat: write a review prompt for GPT Codex.** Mo wants an outside, honest second opinion on the whole project before we build. Write one ready-to-paste prompt that:
+   - Explains the goal in plain words: Al-Bayan is built for the Ummah, a free and trustworthy place where anyone, Muslim or not, can ask about Islam and get a calm answer quoted only from authentic Sunni sources, with a link for every quote, in Arabic, German and English.
+   - Tells Codex to read `BAYAN_PLAN.md`, `HANDOFF.md`, `Memory Al Bayan.md`, `CLAUDE.md` and the mockup in `mockup/` in the repo https://github.com/ismmhd69-crypto/Al-Bayan.
+   - Asks it to review everything and say plainly what we are doing wrong and where we can improve: methodology and trust (quote-only AI, al-rajih rule, sahih/hasan only, quote checking), sources and their licences, tech choices (Next.js, Vercel, Supabase Frankfurt, Gemini Flash with swappable provider), privacy and GDPR (EU users, Gemini free tier), security, costs, the phone layout, the 3 languages and Arabic right-to-left, accessibility, and the order of the build phases.
+   - Asks for a ranked list (most serious first), each item with the problem, why it matters and a concrete fix, and to say clearly what it could not check.
+   - Says no code changes, review only, and never ask for or print secret keys.
+   Give Mo the prompt in one copy block, then stop. When Codex answers, go through its points with Mo one by one and be honest about which ones we agree with.
+2. Phase 1 from the plan: Next.js skeleton with the 5-tab phone layout (Home, Ask, Shubuhat, Seekers, More), desktop side menu, 3 languages with Arabic RTL, lapis + gold design from the mockup, always light.
+3. Phase 2: database tables for topics, answers, sources, scholars, videos; rewrite the 12 topics using approved scholars only.
+4. Phase 3: the "ask" pipeline (library first, sources second, AI writes only from what was found, code re-checks every quote). Build the AI layer so the provider can be swapped; use the Sunnah.com mock server until the key arrives.
 
 ## 9. Open questions (from the plan)
 Final name/domain; which scholar advisor; YouTube channel permissions and which channels are approved; who decides rajih when unclear; human vs AI-drafted translations of fatwas; free vs donations vs subscription; whether to adopt the pasted research skill as an internal tool.
