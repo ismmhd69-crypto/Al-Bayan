@@ -68,6 +68,11 @@ const en = {
     rateLimited: "You've asked a lot in a short time. Please wait a few minutes and try again.",
     checked: "The explanation above is written by AI and screened by a second AI check against the sources; the verses and hadith are shown exactly as their sources provide them.",
     sourceOnlyChecked: "No AI-written explanation: two separate AI checks selected these sources as directly answering the question, and they are shown exactly as their sources provide them.",
+    scholarShort: { "ibn-baz": "Ibn Baz", "ibn-uthaymeen": "Ibn Uthaymeen", "al-albani": "al-Albani", "al-fawzan": "al-Fawzan" },
+    scholarQuote: {
+      arabicOnly: "The scholar's own words in Arabic (short quote)",
+      link: "Read the full fatwa on the scholar's website",
+    },
     hadith: {
       bukhari: "Sahih al-Bukhari",
       muslim: "Sahih Muslim",

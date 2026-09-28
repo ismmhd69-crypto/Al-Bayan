@@ -239,10 +239,17 @@ const reducedMotion = () =>
 // A real answer: an automatic explanation with a source on every sentence, then the verses exactly as served.
 function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
   const anchor = (key: string) => `ev-${id}-${key.replace(":", "-")}`;
-  // Source tags: verses show "2:255", hadith show their Bukhari (or Muslim) number.
+  // Source tags: verses show "2:255", hadith their Bukhari (or Muslim) number, quotes the scholar.
   const byKey = new Map(a.evidence.map((e) => [e.key, e]));
+  const texts = a.evidence.filter((e) => e.kind !== "scholar");
+  const quotes = a.evidence.filter((e) => e.kind === "scholar");
+  const scholarShort = (id: string, full: string) => t.scholarShort[id as keyof typeof t.scholarShort] ?? full;
   const refText = (r: string) => {
     const e = byKey.get(r);
+    if (e?.kind === "scholar") {
+      const name = scholarShort(e.scholarId, e.scholarName);
+      return { short: name, long: `${e.scholarName}, ${e.reference}` };
+    }
     if (e?.kind !== "hadith") return { short: r, long: `${t.quran} ${r}` };
     const n = e.numbers.bukhari
       ? `${t.hadith.numberBukhari} ${e.numbers.bukhari}`
@@ -289,75 +296,110 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
         </section>
       )}
 
-      <section className="answer-part answer-part--real">
-        <h3>
-          <Quote aria-hidden="true" />
-          {t.parts.evidence}
-        </h3>
-        <ul className="evidence">
-          {a.evidence.map((e) =>
-            e.kind === "hadith" ? (
-              // Hadith: collection, numbers, grade and text exactly as the source gives them.
-              <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
-                <p className="hadith-meta">
-                  <span className="hadith-collection">{t.hadith[e.collection]}</span>
-                  <span>
-                    {[
-                      e.numbers.bukhari && `${t.hadith.numberBukhari} ${e.numbers.bukhari}`,
-                      e.numbers.muslim && `${t.hadith.numberMuslim} ${e.numbers.muslim}`,
-                    ]
-                      .filter(Boolean)
-                      .join(" · ")}
-                  </span>
-                  <span lang="ar" dir="rtl" translate="no">
-                    {e.gradeAr} · {e.attributionAr}
-                  </span>
-                </p>
-                <p className="verse-ar" lang="ar" dir="rtl" translate="no">
-                  {e.arabic}
-                </p>
-                {e.translation && e.translationLanguage && (
-                  <p className="verse-tr" lang={e.translationLanguage} dir="ltr">
-                    <span translate="no">{e.translation}</span>
-                    <span className="verse-by">
-                      {e.translationLanguage !== a.language ? t.hadith.englishFallback : t.hadith.translationBy}
+      {texts.length > 0 && (
+        <section className="answer-part answer-part--real">
+          <h3>
+            <Quote aria-hidden="true" />
+            {t.parts.evidence}
+          </h3>
+          <ul className="evidence">
+            {texts.map((e) =>
+              e.kind === "hadith" ? (
+                // Hadith: collection, numbers, grade and text exactly as the source gives them.
+                <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
+                  <p className="hadith-meta">
+                    <span className="hadith-collection">{t.hadith[e.collection]}</span>
+                    <span>
+                      {[
+                        e.numbers.bukhari && `${t.hadith.numberBukhari} ${e.numbers.bukhari}`,
+                        e.numbers.muslim && `${t.hadith.numberMuslim} ${e.numbers.muslim}`,
+                      ]
+                        .filter(Boolean)
+                        .join(" · ")}
+                    </span>
+                    <span lang="ar" dir="rtl" translate="no">
+                      {e.gradeAr} · {e.attributionAr}
                     </span>
                   </p>
-                )}
-                <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
-                  {t.hadith.link}
-                  <ExternalLink aria-hidden="true" />
-                </a>
-              </li>
-            ) : (
-              <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
-                <p className="verse-ar" lang="ar" dir="rtl" translate="no">
-                  {e.arabic}
-                </p>
-                {e.translation && (
-                  <p className="verse-tr" lang={a.language} dir="ltr">
-                    <span translate="no">{e.translation}</span>
-                    <span className="verse-by">
-                      {t.translation}: {e.translationName}
-                    </span>
+                  <p className="verse-ar" lang="ar" dir="rtl" translate="no">
+                    {e.arabic}
                   </p>
-                )}
-                <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
-                  {t.quran} {e.key}
-                  <ExternalLink aria-hidden="true" />
-                </a>
-              </li>
-            ),
-          )}
-        </ul>
-      </section>
+                  {e.translation && e.translationLanguage && (
+                    <p className="verse-tr" lang={e.translationLanguage} dir="ltr">
+                      <span translate="no">{e.translation}</span>
+                      <span className="verse-by">
+                        {e.translationLanguage !== a.language ? t.hadith.englishFallback : t.hadith.translationBy}
+                      </span>
+                    </p>
+                  )}
+                  <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
+                    {t.hadith.link}
+                    <ExternalLink aria-hidden="true" />
+                  </a>
+                </li>
+              ) : e.kind === "quran" ? (
+                <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
+                  <p className="verse-ar" lang="ar" dir="rtl" translate="no">
+                    {e.arabic}
+                  </p>
+                  {e.translation && (
+                    <p className="verse-tr" lang={a.language} dir="ltr">
+                      <span translate="no">{e.translation}</span>
+                      <span className="verse-by">
+                        {t.translation}: {e.translationName}
+                      </span>
+                    </p>
+                  )}
+                  <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
+                    {t.quran} {e.key}
+                    <ExternalLink aria-hidden="true" />
+                  </a>
+                </li>
+              ) : null,
+            )}
+          </ul>
+        </section>
+      )}
 
       <section className="answer-part answer-part--real">
         <h3>
           <Users aria-hidden="true" />
           {t.parts.scholars}
         </h3>
-        <p className="muted">{t.scholarsEmpty}</p>
+        {quotes.length === 0 ? (
+          <p className="muted">{t.scholarsEmpty}</p>
+        ) : (
+          <ul className="evidence">
+            {quotes.map((e) =>
+              e.kind === "scholar" ? (
+                // A scholar's own words, a short quote exactly as on his website, with the question it answers.
+                <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
+                  <p className="hadith-meta">
+                    <span className="hadith-collection">{e.scholarName}</span>
+                  </p>
+                  {e.title && (
+                    <p className="quote-title" lang="ar" dir="rtl" translate="no">
+                      {e.title}
+                    </p>
+                  )}
+                  <p className="verse-ar" lang="ar" dir="rtl" translate="no">
+                    {e.arabic}
+                  </p>
+                  <p className="verse-by">
+                    {a.language !== "ar" && <>{t.scholarQuote.arabicOnly} · </>}
+                    <span lang="ar" dir="rtl" translate="no">
+                      {e.reference}
+                    </span>
+                  </p>
+                  <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
+                    {t.scholarQuote.link}
+                    <ExternalLink aria-hidden="true" />
+                  </a>
+                </li>
+              ) : null,
+            )}
+          </ul>
+        )}
       </section>
 
       <p className="answer-foot">

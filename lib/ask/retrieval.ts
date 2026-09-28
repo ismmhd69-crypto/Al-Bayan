@@ -1,6 +1,7 @@
 import type { Locale } from "@/lib/i18n";
 import type { Verse } from "@/lib/sources/quran-meta";
 import type { Hadith } from "@/lib/sources/hadith-rules";
+import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 
 export const QUESTION_TYPES = [
   "identity",
@@ -129,13 +130,17 @@ export function buildSearchQueries(frame: QuestionFrame, limit = 6): string[] {
   }).slice(0, limit);
 }
 
-// A candidate source: a Quran verse or a hadith (Sahih al-Bukhari / Sahih Muslim only).
-export type Source = { kind: "quran"; verse: Verse } | { kind: "hadith"; hadith: Hadith };
+// A candidate source: a Quran verse, a hadith (Sahih al-Bukhari / Sahih Muslim only), or a short
+// quote from an approved scholar.
+export type Source =
+  | { kind: "quran"; verse: Verse }
+  | { kind: "hadith"; hadith: Hadith }
+  | { kind: "scholar"; quote: ScholarQuote };
 
 export type PassageForSelection = {
-  id: string; // "Q2:255" for verses, "HE4196" for hadith
+  id: string; // "Q2:255" for verses, "HE4196" for hadith, "S<uuid>" for scholar quotes
   source: Source;
-  context: Verse[]; // neighbouring verses; empty for hadith, which stand on their own
+  context: Verse[]; // neighbouring verses; empty for hadith and scholar quotes, which stand on their own
 };
 
 export type SelectedPassage = PassageForSelection & { facets: AnswerFacet[] };

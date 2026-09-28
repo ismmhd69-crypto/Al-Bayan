@@ -5,6 +5,7 @@ import { hadithAllowed, runPipeline, type PipelineDeps } from "@/lib/ask/core";
 import type { AIProvider, JsonRequest } from "@/lib/ai/types";
 import type { Verse } from "@/lib/sources/quran-meta";
 import type { Hadith } from "@/lib/sources/hadith-rules";
+import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 
 const verses: Verse[] = [
   {
@@ -135,7 +136,7 @@ describe("runPipeline", () => {
     if (r.status !== "answer") return;
     expect(r.answer.claims).toEqual([{ text: "Believers are required to fast during a certain month.", refs: ["2:183"] }]);
     expect(r.answer.evidence[0].arabic).toBe(verses[0].arabic);
-    expect(r.answer.evidence[0].translation).toBe(verses[0].translations.en);
+    expect((r.answer.evidence[0] as { translation: string | null }).translation).toBe(verses[0].translations.en);
     expect(r.answer.attribution.text).toBe("Quran data provided by Quran Foundation");
   });
 
@@ -658,7 +659,7 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     expect(writer.seen[1].prompt).not.toContain(hadithFast.arabic);
     expect(writer.seen[1].prompt).toContain(hadithFast.translations.en!);
     for (const req of [...writer.seen.slice(1), ...verifier.seen]) expect(req.prompt).not.toContain("RAW-QUESTION-MARKER");
-    if (r.status === "answer") expect(r.answer.evidence.find((e) => e.key === "HE9001")?.translation).toBeNull();
+    if (r.status === "answer") expect((r.answer.evidence.find((e) => e.key === "HE9001") as { translation: string | null } | undefined)?.translation).toBeNull();
   });
 
   it("shows a hadith in source-only mode when wording fails but the audit passes", async () => {
@@ -691,6 +692,102 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     if (r.status !== "answer") throw new Error("expected an answer");
     const shown = r.answer.evidence.find((e) => e.key === "HE9001");
     expect(shown?.kind === "hadith" && shown.translationLanguage).toBe("en");
-    expect(shown?.translation).toBe(hadithFast.translations.en);
+    expect((shown as { translation: string | null } | undefined)?.translation).toBe(hadithFast.translations.en);
+  });
+});
+
+// ---------- scholar quotes as a third source (made-up texts) ----------
+const quoteFast: ScholarQuote = {
+  id: "S22222222-2222-2222-2222-222222222222",
+  scholarId: "ibn-baz",
+  scholarName: { ar: "عبد العزيز بن باز", en: "Shaykh Abdul-Aziz ibn Baz", de: "Scheich Abdul-Aziz ibn Baz" },
+  title: "حكمة تجريبية من الصيام",
+  reference: "مجموع فتاوى تجريبي (15/ 7)",
+  arabic: "نص تجريبي من كلام الشيخ في بيان حكمة الصيام وأثره في التقوى.",
+  url: "https://binbaz.org.sa/fatwas/9/test",
+};
+const quoteOther: ScholarQuote = { ...quoteFast, id: "S33333333-3333-3333-3333-333333333333", title: "مسألة تجريبية أخرى", arabic: "نص تجريبي عن مسألة أخرى لا علاقة لها." };
+const quoteBad: ScholarQuote = { ...quoteFast, id: "S44444444-4444-4444-4444-444444444444", url: "https://example.com/not-official" };
+
+const scholarSelection = (relevance: string) => ({
+  status: "ready",
+  coverage: "complete",
+  conflict: "none",
+  assessments: [
+    { source_id: "Q2:183", relevance: "direct", supported_facets: ["general"], context_safe: "yes" },
+    { source_id: "Q2:184", relevance: "context", supported_facets: [], context_safe: "yes" },
+    { source_id: quoteFast.id, relevance, supported_facets: relevance === "direct" ? ["general"] : [], context_safe: "yes" },
+    { source_id: quoteOther.id, relevance: "unrelated", supported_facets: [], context_safe: "yes" },
+  ],
+});
+const arabicQueries = { ...understanding, search_queries_ar: ["حكمة الصيام"] };
+
+describe("scholar quotes", () => {
+  it("cites a direct scholar quote, crediting the scholar, and shows his exact words with source and link", async () => {
+    const draft = {
+      status: "answer",
+      claims: [
+        { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], facet_ids: ["general"] },
+        { text: "Shaykh Ibn Baz explained that fasting builds mindfulness of God.", source_ids: [quoteFast.id], facet_ids: ["general"] },
+      ],
+    };
+    const { d, writer } = deps({ understand: arabicQueries, draft }, TWO_SUPPORTED, scholarSelection("direct"));
+    d.searchScholars = async () => [quoteFast, quoteOther];
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    expect(r.answer.claims[1].refs).toEqual([quoteFast.id]);
+    expect(r.answer.evidence.find((e) => e.key === quoteFast.id)).toEqual({
+      kind: "scholar",
+      key: quoteFast.id,
+      scholarId: "ibn-baz",
+      scholarName: "Shaykh Abdul-Aziz ibn Baz",
+      title: quoteFast.title,
+      reference: quoteFast.reference,
+      arabic: quoteFast.arabic,
+      url: quoteFast.url,
+    });
+    // Scholar quotes have no translation, so the writer receives the scholar's Arabic words.
+    expect(writer.seen[1].prompt).toContain(quoteFast.arabic);
+    expect(writer.seen[1].prompt).not.toContain(quoteOther.arabic);
+  });
+
+  it("keeps mention-only quotes away from the writer and the page", async () => {
+    const { d, writer } = deps({ understand: arabicQueries, draft: goodDraft }, undefined, scholarSelection("mention_only"));
+    d.searchScholars = async () => [quoteFast, quoteOther];
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    expect(writer.seen[1].prompt).not.toContain(quoteFast.id);
+    expect(r.answer.evidence.some((e) => e.kind === "scholar")).toBe(false);
+  });
+
+  it("drops quotes that fail the rules before the evidence check sees them", async () => {
+    const reasons: string[] = [];
+    const { d, verifier } = deps({ understand: arabicQueries, draft: goodDraft });
+    d.searchScholars = async () => [quoteBad, quoteOther];
+    d.onRefuse = (r) => reasons.push(r);
+    await runPipeline("What does Islam teach about fasting?", "en", d);
+    expect(verifier.seen[0].prompt).not.toContain(quoteBad.id);
+    expect(verifier.seen[0].prompt).toContain(quoteOther.id);
+    expect(reasons).toContain("scholar_dropped_by_rules");
+  });
+
+  it("answers without scholar quotes when the library search fails, and skips it without Arabic phrases", async () => {
+    const reasons: string[] = [];
+    const { d } = deps({ understand: arabicQueries, draft: goodDraft });
+    d.searchScholars = async () => {
+      throw new Error("down");
+    };
+    d.onRefuse = (r) => reasons.push(r);
+    expect((await runPipeline("What does Islam teach about fasting?", "en", d)).status).toBe("answer");
+    expect(reasons).toContain("scholar_search_failed");
+
+    let called = false;
+    const { d: d2 } = deps({ understand: understanding, draft: goodDraft }); // no Arabic phrases
+    d2.searchScholars = async () => {
+      called = true;
+      return [];
+    };
+    await runPipeline("What does Islam teach about fasting?", "en", d2);
+    expect(called).toBe(false);
   });
 });

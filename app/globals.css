@@ -1217,6 +1217,12 @@ details[open] > summary .chev {
   font-size: var(--fs-sm);
   color: var(--ink-3);
 }
+.quote-title {
+  font-family: var(--f-ar-body);
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+  font-weight: 600;
+}
 .hadith-collection {
   font-weight: 700;
   color: var(--gold-ink);

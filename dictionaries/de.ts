@@ -70,6 +70,11 @@ const de: typeof en = {
     rateLimited: "Du hast in kurzer Zeit viel gefragt. Bitte warte ein paar Minuten und versuch es noch einmal.",
     checked: "Die Erklärung oben schreibt eine KI, und eine zweite KI-Prüfung gleicht sie mit den Quellen ab; Verse und Hadithe werden genau so gezeigt, wie ihre Quellen sie liefern.",
     sourceOnlyChecked: "Keine von KI geschriebene Erklärung: Zwei getrennte KI-Prüfungen haben diese Quellen als direkte Antwort ausgewählt, und sie werden genau so gezeigt, wie ihre Quellen sie liefern.",
+    scholarShort: { "ibn-baz": "Ibn Baz", "ibn-uthaymeen": "Ibn Uthaymeen", "al-albani": "al-Albani", "al-fawzan": "al-Fawzan" },
+    scholarQuote: {
+      arabicOnly: "Die eigenen Worte des Gelehrten auf Arabisch (kurzes Zitat)",
+      link: "Die vollständige Fatwa auf der Website des Gelehrten lesen",
+    },
     hadith: {
       bukhari: "Sahih al-Bukhari",
       muslim: "Sahih Muslim",
