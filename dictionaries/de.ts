@@ -63,11 +63,13 @@ const de: typeof en = {
       otherViews: "Nur sichtbar, wenn anerkannte Gelehrte sich unterscheiden. Standardmäßig geschlossen.",
     },
     label: "Automatische Erklärung, aus den Quellen unten geschrieben",
+    sourceOnlyLabel: "Direkte Antwort aus den Quellen unten",
     noSource:
       "Wir haben keine vertrauenswürdige Quelle gefunden, die das beantwortet. Bitte frag einen qualifizierten Gelehrten, dem du vertraust.",
     outOfScope: "Ich beantworte nur Fragen zum Islam, aus vertrauenswürdigen Quellen. Was möchtest du wissen?",
     rateLimited: "Du hast in kurzer Zeit viel gefragt. Bitte warte ein paar Minuten und versuch es noch einmal.",
     checked: "Die Erklärung oben schreibt eine KI, und eine zweite KI-Prüfung gleicht sie mit den Versen ab; die Verse werden genau so gezeigt, wie die Quelle sie liefert.",
+    sourceOnlyChecked: "Keine von KI geschriebene Erklärung: Zwei getrennte KI-Prüfungen haben diese Verse als direkte Antwort ausgewählt, und sie werden genau so gezeigt, wie die Quelle sie liefert.",
     quran: "Koran",
     translation: "Übersetzung",
     scholarsEmpty: "Noch keine Gelehrtenzitate in der Bibliothek.",

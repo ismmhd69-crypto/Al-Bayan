@@ -6,7 +6,7 @@ import { askEnabled, takeSlot, visitorKey, withSlot } from "@/lib/ask/limits";
 // Privacy (plan section 10): the question text is never logged, stored or put in a URL.
 // Errors are logged without the question.
 
-export const maxDuration = 30;
+export const maxDuration = 60;
 
 const MAX_QUESTION = 500;
 const MAX_BODY_BYTES = 4096;

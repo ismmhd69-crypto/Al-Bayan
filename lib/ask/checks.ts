@@ -4,6 +4,9 @@
 
 import type { Locale } from "@/lib/i18n";
 import { isRealVerse } from "@/lib/sources/quran-meta";
+import { ANSWER_FACETS, type AnswerFacet } from "./retrieval";
+
+export { parseQuestionFrame } from "./retrieval";
 
 export type SourceText = {
   id: string; // e.g. "Q2:255"
@@ -11,16 +14,12 @@ export type SourceText = {
   translations: Partial<Record<"en" | "de", string>>;
 };
 
-export type Claim = { text: string; refs: string[] };
+export type Claim = { text: string; refs: string[]; facets?: AnswerFacet[] };
 
 export const LIMITS = {
   maxClaims: 4,
   maxRefsPerClaim: 3,
   maxClaimLength: 300,
-  maxSubjects: 5,
-  maxSubjectWords: 4,
-  maxKeywords: 8,
-  maxKeywordLength: 40,
 };
 
 // ---------- text helpers ----------
@@ -36,8 +35,13 @@ export function normalizeArabic(s: string): string {
     .replace(/ئ/g, "ي");
 }
 
+// Word "skeletons" for the copy check only: Uthmani Quran spelling often drops or shrinks the alef
+// (ٱلظُّلُمَٰتِ, ٱلرَّحْمَٰنِ) where modern spelling writes it (الظلمات). Ignoring every alef makes
+// both spellings compare the same, so AI-typed Quran wording cannot slip through in modern spelling.
 function arabicWords(s: string): string[] {
-  return normalizeArabic(s).match(/[ء-ي]+/g) ?? [];
+  return (normalizeArabic(s).match(/[ء-ي]+/g) ?? [])
+    .map((w) => w.replace(/ا/g, ""))
+    .filter((w) => w.length > 0);
 }
 
 function latinWords(s: string): string[] {
@@ -50,54 +54,9 @@ function grams(words: string[], n: number): Set<string> {
   return out;
 }
 
-// ---------- 1. runtime validation of AI output ----------
-
-const LOCALES = ["ar", "en", "de"] as const;
-const KINDS = ["question", "personal", "greeting", "off_topic", "harmful"] as const;
-
-export type Understanding = {
-  language: Locale;
-  kind: (typeof KINDS)[number];
-  // Short topic names, never a free sentence, so an attack cannot be passed on as instructions.
-  subjects: string[];
-  keywords: string[];
-};
-
 const isStr = (x: unknown): x is string => typeof x === "string";
 
-// Letters, marks, spaces, apostrophes and hyphens only.
-const SUBJECT = /^[\p{L}\p{M}][\p{L}\p{M}' -]{0,39}$/u;
-
-// Returns null for anything malformed or unknown: the caller must refuse.
-export function parseUnderstanding(raw: unknown): Understanding | null {
-  if (!raw || typeof raw !== "object") return null;
-  const r = raw as Record<string, unknown>;
-  if (!isStr(r.language) || !(LOCALES as readonly string[]).includes(r.language)) return null;
-  if (!isStr(r.kind) || !(KINDS as readonly string[]).includes(r.kind)) return null;
-  if (!Array.isArray(r.subjects)) return null;
-  const subjects = r.subjects
-    .filter(isStr)
-    .map((x) => x.trim().replace(/\s+/g, " "))
-    .filter((x) => SUBJECT.test(x) && x.split(" ").length <= LIMITS.maxSubjectWords)
-    .slice(0, LIMITS.maxSubjects);
-  const kw = (x: unknown) =>
-    Array.isArray(x)
-      ? x
-          .filter(isStr)
-          .map((w) => w.trim())
-          .filter((w) => SUBJECT.test(w) && w.length <= LIMITS.maxKeywordLength)
-          .slice(0, LIMITS.maxKeywords)
-      : [];
-  const kind = r.kind as Understanding["kind"];
-  // A real question needs at least one clean subject; otherwise refuse.
-  if ((kind === "question" || kind === "personal") && subjects.length === 0) return null;
-  return {
-    language: r.language as Locale,
-    kind,
-    subjects,
-    keywords: [...kw(r.keywords_en), ...kw(r.keywords_de), ...kw(r.keywords_ar)],
-  };
-}
+// ---------- 1. runtime validation of AI output ----------
 
 export type DraftResult = { ok: true; claims: Claim[] } | { ok: false; reason: string };
 
@@ -111,7 +70,12 @@ export function inLanguage(text: string, language: Locale): boolean {
 }
 
 // Validates the drafted answer. Any failure refuses the whole answer.
-export function parseDraft(raw: unknown, citable: SourceText[], language: Locale): DraftResult {
+export type DraftPolicy = {
+  requiredFacets: AnswerFacet[];
+  sourceFacets: Record<string, AnswerFacet[]>;
+};
+
+export function parseDraft(raw: unknown, citable: SourceText[], language: Locale, policy?: DraftPolicy): DraftResult {
   if (!raw || typeof raw !== "object") return { ok: false, reason: "malformed" };
   const r = raw as Record<string, unknown>;
   if (r.status === "no_answer") return { ok: false, reason: "model_no_answer" };
@@ -122,7 +86,7 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
   const claims: Claim[] = [];
   for (const c of r.claims) {
     if (!c || typeof c !== "object") return { ok: false, reason: "malformed" };
-    const { text, source_ids } = c as Record<string, unknown>;
+    const { text, source_ids, facet_ids } = c as Record<string, unknown>;
     if (!isStr(text) || !Array.isArray(source_ids)) return { ok: false, reason: "malformed" };
     const t = text.trim();
     if (!t || t.length > LIMITS.maxClaimLength) return { ok: false, reason: "claim_length" };
@@ -134,7 +98,21 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
     if (!refs.every((id) => byId.has(id))) return { ok: false, reason: "unknown_ref" };
     // Copying is checked against every source the AI was given, not only the ones it cited.
     if (copiesSource(t, citable)) return { ok: false, reason: "copied_source" };
-    claims.push({ text: t, refs });
+    if (policy) {
+      if (!Array.isArray(facet_ids)) return { ok: false, reason: "facet_count" };
+      const facets = [...new Set(facet_ids.filter(isStr))]
+        .filter((facet): facet is AnswerFacet => (ANSWER_FACETS as readonly string[]).includes(facet))
+        .filter((facet) => policy.requiredFacets.includes(facet));
+      if (facets.length !== 1 || facets.length !== facet_ids.length) return { ok: false, reason: "facet_count" };
+      const supportedByRefs = new Set(refs.flatMap((id) => policy.sourceFacets[id] ?? []));
+      if (!facets.every((facet) => supportedByRefs.has(facet))) return { ok: false, reason: "unsupported_facet" };
+      claims.push({ text: t, refs, facets });
+    } else {
+      claims.push({ text: t, refs });
+    }
+  }
+  if (policy && !policy.requiredFacets.every((facet) => claims.some((claim) => claim.facets?.includes(facet)))) {
+    return { ok: false, reason: "missing_facet" };
   }
   return { ok: true, claims };
 }
@@ -209,7 +187,7 @@ export function allSupported(raw: unknown, claimCount: number): boolean {
 export function wholeAnswerOk(raw: unknown): boolean {
   if (!raw || typeof raw !== "object") return false;
   const r = raw as Record<string, unknown>;
-  return r.answers_topics === "yes" && r.fair_picture === "yes";
+  return r.answers_question === "yes" && r.covers_facets === "yes" && r.fair_picture === "yes" && r.context_preserved === "yes";
 }
 
 // ---------- 6. questions that need extra care ----------

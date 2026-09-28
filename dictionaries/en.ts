@@ -61,11 +61,13 @@ const en = {
       otherViews: "Shown only when approved scholars differ. Closed by default.",
     },
     label: "Automatic explanation, written from the sources below",
+    sourceOnlyLabel: "Direct answer from the sources below",
     noSource:
       "We couldn't find a trusted source that answers this. Please ask a qualified scholar you trust.",
     outOfScope: "I can only answer questions about Islam, from trusted sources. What would you like to know?",
     rateLimited: "You've asked a lot in a short time. Please wait a few minutes and try again.",
     checked: "The explanation above is written by AI and screened by a second AI check against the verses; the verses are shown exactly as the source provides them.",
+    sourceOnlyChecked: "No AI-written explanation: two separate AI checks selected these verses as directly answering the question, and they are shown exactly as the source provides them.",
     quran: "Quran",
     translation: "Translation",
     scholarsEmpty: "No scholar quotes in the library yet.",

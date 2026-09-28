@@ -249,32 +249,35 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
   };
   return (
     <div className="answer">
-      <p className="answer-label">{t.label}</p>
+      <p className="answer-label">{a.sourceOnly ? t.sourceOnlyLabel : t.label}</p>
 
-      <section className="answer-part answer-part--real">
-        <h3>
-          <BookOpen aria-hidden="true" />
-          {t.parts.short}
-        </h3>
-        <p lang={a.language} dir={dirOf(a.language)}>
-          {a.claims.map((s, i) => (
-            <span key={i}>
-              {s.text}{" "}
-              {s.refs.map((r) => (
-                <a
-                  key={r}
-                  href={`#${anchor(r)}`}
-                  className="ref"
-                  aria-label={`${t.source}: ${t.quran} ${r}`}
-                  onClick={(e) => goTo(e, r)}
-                >
-                  {r}
-                </a>
-              ))}{" "}
-            </span>
-          ))}
-        </p>
-      </section>
+      {/* Source-only answers have no AI-written sentences: only the approved passages below. */}
+      {!a.sourceOnly && (
+        <section className="answer-part answer-part--real">
+          <h3>
+            <BookOpen aria-hidden="true" />
+            {t.parts.short}
+          </h3>
+          <p lang={a.language} dir={dirOf(a.language)}>
+            {a.claims.map((s, i) => (
+              <span key={i}>
+                {s.text}{" "}
+                {s.refs.map((r) => (
+                  <a
+                    key={r}
+                    href={`#${anchor(r)}`}
+                    className="ref"
+                    aria-label={`${t.source}: ${t.quran} ${r}`}
+                    onClick={(e) => goTo(e, r)}
+                  >
+                    {r}
+                  </a>
+                ))}{" "}
+              </span>
+            ))}
+          </p>
+        </section>
+      )}
 
       <section className="answer-part answer-part--real">
         <h3>
@@ -313,7 +316,7 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
       </section>
 
       <p className="answer-foot">
-        {t.checked}{" "}
+        {a.sourceOnly ? t.sourceOnlyChecked : t.checked}{" "}
         <a href={a.attribution.url} target="_blank" rel="noopener noreferrer">
           {a.attribution.text}
         </a>

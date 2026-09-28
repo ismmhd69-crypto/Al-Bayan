@@ -1,5 +1,6 @@
 import "server-only";
 import { isRealVerse, TRANSLATIONS, type Verse } from "./quran-meta";
+import { quranSearchPath } from "./quran-search";
 export { ATTRIBUTION, TRANSLATIONS, type Verse } from "./quran-meta";
 
 // Quran Foundation Content and Search APIs (plan section 4).
@@ -19,7 +20,8 @@ const ENVS = {
 const env = ENVS[process.env.QURAN_API_ENV === "production" ? "production" : "prelive"];
 const CACHE_SECONDS = 86_400;
 const TIMEOUT_MS = 10_000;
-const RESULTS_PER_QUERY = 10;
+const RESULTS_PER_QUERY = 20;
+const MAX_CONTENT_CONCURRENCY = 6;
 
 // Pre-production keys can search the whole Quran but only fetch the text of Surahs 1 and 2,
 // so results are limited to the surahs whose text we can show.
@@ -76,22 +78,23 @@ async function headers() {
 
 // ---------- search ----------
 
-// Runs each query through Quran Foundation search and returns verse keys, best first,
-// without duplicates, limited to verses whose text we can show.
+// Runs each bounded query through Quran Foundation's detailed search and returns candidate
+// verse keys. These are not evidence yet: the ask pipeline independently checks directness,
+// context and full-question coverage before the writer can see any passage.
 export async function searchQuran(queries: string[], limit: number): Promise<string[]> {
   const h = await headers();
   const lists = await Promise.all(
-    queries.slice(0, 4).map(async (q) => {
-      const url =
-        `${env.api}/search/api/v1/search?mode=quick&query=${encodeURIComponent(q)}` +
-        `&versesResultsNumber=${RESULTS_PER_QUERY}&navigationalResultsNumber=0`;
-      const res = await fetch(url, { headers: h, signal: AbortSignal.timeout(TIMEOUT_MS), next: { revalidate: CACHE_SECONDS } });
+    queries.slice(0, 6).map(async (q) => {
+      const url = `${env.api}${quranSearchPath(q, [TRANSLATIONS.en.id, TRANSLATIONS.de.id], RESULTS_PER_QUERY)}`;
+      // Not cached: the search phrases are derived from a visitor's question and must not be kept
+      // on disk. Verse text (below) is cached, because it reveals nothing about who asked what.
+      const res = await fetch(url, { headers: h, signal: AbortSignal.timeout(TIMEOUT_MS), cache: "no-store" });
       if (!res.ok) throw new Error(`Quran search failed with status ${res.status}`);
       const data = (await res.json()) as { result?: { verses?: { key?: unknown; result_type?: unknown }[] } };
       const verses = data.result?.verses;
       if (!Array.isArray(verses)) throw new Error("Quran search response was not understood");
       return verses
-        .filter((v) => v.result_type === "ayah" && typeof v.key === "string" && /^\d{1,3}:\d{1,3}$/.test(v.key))
+        .filter((v) => (v.result_type === undefined || v.result_type === "ayah") && typeof v.key === "string" && /^\d{1,3}:\d{1,3}$/.test(v.key))
         .map((v) => v.key as string);
     }),
   );
@@ -134,12 +137,30 @@ function parseVerse(v: unknown): Verse {
 
 // Shared in-flight requests, so simultaneous questions never fetch the same verse twice at once.
 const inFlight = new Map<string, Promise<Verse | undefined>>();
+let activeContentRequests = 0;
+const contentWaiters: (() => void)[] = [];
+
+// A finished request hands its slot straight to the next waiter, so the limit is never exceeded.
+async function withContentSlot<T>(call: () => Promise<T>): Promise<T> {
+  if (activeContentRequests >= MAX_CONTENT_CONCURRENCY) {
+    await new Promise<void>((resolve) => contentWaiters.push(resolve));
+  } else {
+    activeContentRequests++;
+  }
+  try {
+    return await call();
+  } finally {
+    const next = contentWaiters.shift();
+    if (next) next();
+    else activeContentRequests--;
+  }
+}
 
 export function getVerse(key: string): Promise<Verse | undefined> {
   if (!allowed(key)) return Promise.resolve(undefined);
   let p = inFlight.get(key);
   if (!p) {
-    p = (async () => {
+    p = withContentSlot(async () => {
       const url =
         `${env.api}/content/api/v4/verses/by_key/${key}` +
         `?fields=text_uthmani,text_imlaei_simple&translations=${TRANSLATIONS.en.id},${TRANSLATIONS.de.id}`;
@@ -152,7 +173,7 @@ export function getVerse(key: string): Promise<Verse | undefined> {
       if (!res.ok) throw new Error(`Quran verse request failed with status ${res.status}`);
       const data = (await res.json()) as { verse?: unknown };
       return parseVerse(data.verse);
-    })().finally(() => inFlight.delete(key));
+    }).finally(() => inFlight.delete(key));
     inFlight.set(key, p);
   }
   return p;

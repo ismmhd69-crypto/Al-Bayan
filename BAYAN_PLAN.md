@@ -165,14 +165,23 @@ Supabase (Frankfurt)
    ├─ Sign-in: optional
    └─ Server function "ask":
         1. scholar-reviewed answer exists? → show it
-        2. otherwise search the approved sources:
+        2. otherwise turn the question into a validated frame:
+           question type, subject, required answer parts and conditions
+        3. search broadly for candidates in the approved sources:
            Quran, sahih/hasan hadith, approved scholars' fatwas
-        3. AI writes the answer ONLY from what was found,
-           in the 4-part format, a source attached to every sentence
-        4. code removes any sentence without a source
-           and re-checks every quote word for word
-        5. show answer + sources + videos,
+        4. a separate AI classifies every candidate with its surrounding context;
+           code keeps only direct, context-safe evidence and requires every answer part
+        5. seal that evidence package; rejected passages and the visitor's raw words
+           never reach the answer writer
+        6. AI writes the answer ONLY from the sealed package,
+           one atomic claim at a time, with a source and answer part on every claim
+        7. code checks citations, copied text, language and answer-part coverage;
+           a different AI checks support, relevance, context and fairness
+        8. show answer + exact source text + videos,
            or "no trusted source found"
+        9. if the evidence is sound but no AI wording passes the checks, a second
+           model audits the sealed evidence; only if it fully agrees, show the exact
+           approved passages alone ("source-only"), with no AI-written sentence
 ```
 The AI never has web access and never writes to the database. The model version used is saved with every answer so mistakes can be traced.
 
