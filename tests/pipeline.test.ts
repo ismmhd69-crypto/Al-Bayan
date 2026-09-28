@@ -47,7 +47,9 @@ function fakeAI(id: string, script: Record<string, unknown>) {
   return { ai, seen };
 }
 
-function deps(writerScript: Record<string, unknown>, verdicts: unknown = { verdicts: ["supported"] }) {
+const OK = { answers_topics: "yes", fair_picture: "yes" };
+
+function deps(writerScript: Record<string, unknown>, verdicts: unknown = { verdicts: ["supported"], ...OK }) {
   const writer = fakeAI("fake/writer", writerScript);
   const verifier = fakeAI("fake/verifier", { verdicts });
   const d: PipelineDeps = {
@@ -115,8 +117,20 @@ describe("runPipeline", () => {
 
   it("refuses an unsupported claim that carries a real verse id", async () => {
     const draft = { status: "answer", claims: [{ text: "Music is forbidden.", source_ids: ["Q2:183"] }] };
-    const { d } = deps({ understand: understanding, draft }, { verdicts: ["not_supported"] });
+    const { d } = deps({ understand: understanding, draft }, { verdicts: ["not_supported"], ...OK });
     expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
+  });
+
+  it("refuses real, supported claims that do not answer the question or give a misleading picture", async () => {
+    for (const whole of [
+      { answers_topics: "no", fair_picture: "yes" },
+      { answers_topics: "yes", fair_picture: "no" },
+      { answers_topics: "unsure", fair_picture: "yes" },
+      {},
+    ]) {
+      const { d } = deps({ understand: understanding, draft: goodDraft }, { verdicts: ["supported"], ...whole });
+      expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
+    }
   });
 
   it("refuses the whole answer if only one claim fails screening", async () => {
@@ -127,7 +141,7 @@ describe("runPipeline", () => {
         { text: "Sick people must never fast.", source_ids: ["Q2:184"] },
       ],
     };
-    const { d } = deps({ understand: understanding, draft }, { verdicts: ["supported", "unsure"] });
+    const { d } = deps({ understand: understanding, draft }, { verdicts: ["supported", "unsure"], ...OK });
     expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
   });
 

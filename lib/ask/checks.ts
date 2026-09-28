@@ -204,6 +204,14 @@ export function allSupported(raw: unknown, claimCount: number): boolean {
   return v.every((x) => x === "supported");
 }
 
+// The answer as a whole must directly answer the question and give a fair picture.
+// Anything but a clear "yes" on both counts is a failure.
+export function wholeAnswerOk(raw: unknown): boolean {
+  if (!raw || typeof raw !== "object") return false;
+  const r = raw as Record<string, unknown>;
+  return r.answers_topics === "yes" && r.fair_picture === "yes";
+}
+
 // ---------- 6. questions that need extra care ----------
 
 // Questions about the visitor's own situation. Code rule on top of the AI's classification;
