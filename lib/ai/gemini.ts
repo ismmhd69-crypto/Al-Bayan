@@ -1,8 +1,15 @@
 import "server-only";
 import type { AIProvider, JsonRequest, JsonSchema } from "./types";
 
-// Google Gemini over plain HTTPS. Free tier is for Mo's private testing only (plan section 5).
-const ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models";
+// Google Gemini over plain HTTPS, through one of two doors with the same request format:
+// - "gemini": the Gemini API (generativelanguage.googleapis.com), key from AI Studio.
+// - "vertex": Vertex AI / Agent Platform (aiplatform.googleapis.com), Google Cloud business terms,
+//   separate capacity, processed in the EU (europe-west4 seen 2026-09-28). Key bound to a service
+//   account with the Vertex AI User role.
+const ENDPOINTS = {
+  gemini: "https://generativelanguage.googleapis.com/v1beta/models",
+  vertex: "https://aiplatform.googleapis.com/v1/publishers/google/models",
+} as const;
 // One call may take up to 45 s; the whole answer is still bounded by the 50 s pipeline deadline.
 const TIMEOUT_MS = 45_000;
 
@@ -33,9 +40,13 @@ async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): P
   return call();
 }
 
-export function createGemini(apiKey: string, model: string): AIProvider {
+/** Google said "busy" or "slow down" even after the retry, so another door may still work. */
+export class GoogleBusyError extends Error {}
+
+export function createGemini(apiKey: string, model: string, door: keyof typeof ENDPOINTS = "gemini"): AIProvider {
+  const ENDPOINT = ENDPOINTS[door];
   return {
-    id: `gemini/${model}`,
+    id: `${door}/${model}`,
     async generateJson({ system, prompt, schema, maxOutputTokens = 2048, thinking, signal }: JsonRequest) {
       const res = await withRetry(() => fetch(`${ENDPOINT}/${model}:generateContent`, {
         method: "POST",
@@ -54,7 +65,8 @@ export function createGemini(apiKey: string, model: string): AIProvider {
           },
         }),
       }), signal);
-      if (!res.ok) throw new Error(`Gemini request failed with status ${res.status}`);
+      if (res.status === 503 || res.status === 429) throw new GoogleBusyError(`${door} busy (${res.status})`);
+      if (!res.ok) throw new Error(`${door} request failed with status ${res.status}`);
       const data = (await res.json()) as {
         candidates?: { content?: { parts?: { text?: string }[] } }[];
       };

@@ -68,7 +68,15 @@ const en = {
     rateLimited: "You've asked a lot in a short time. Please wait a few minutes and try again.",
     checked: "The explanation above is written by AI and screened by a second AI check against the sources; the verses and hadith are shown exactly as their sources provide them.",
     sourceOnlyChecked: "No AI-written explanation: two separate AI checks selected these sources as directly answering the question, and they are shown exactly as their sources provide them.",
-    scholarShort: { "ibn-baz": "Ibn Baz", "ibn-uthaymeen": "Ibn Uthaymeen", "al-albani": "al-Albani", "al-fawzan": "al-Fawzan" },
+    scholarShort: { "ibn-baz": "Ibn Baz", "ibn-uthaymeen": "Ibn Uthaymeen", "al-albani": "al-Albani", "al-fawzan": "al-Fawzan", "othman-al-khamis": "Othman al-Khamis" },
+    video: {
+      note: "Related videos from approved channels. They are not part of the checked answer.",
+      play: "Play video",
+      minutes: "min",
+      privacy: "The video loads from YouTube only after you press play.",
+      youtube: "Open on YouTube",
+      channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "Ibn Baz, official website channel", UCwMocSKEbLav6SZvwzTvDbQ: "al-Albani legacy portal", UCWjCSGhmSGu0VLf2mPFS0Kg: "Othman al-Khamis, official channel", UCtF3YygTiodnYSw8vD3UJtQ: "Ibn Uthaymeen Foundation", UCYZkmbBbVMWxB1gyioTPLIA: "Ibn Baz Charitable Foundation" },
+    },
     scholarQuote: {
       arabicOnly: "The scholar's own words in Arabic (short quote)",
       link: "Read the full fatwa on the scholar's website",

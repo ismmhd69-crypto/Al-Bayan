@@ -17,6 +17,8 @@ import type { Locale } from "@/lib/i18n";
 import type { AIProvider } from "@/lib/ai/types";
 import { ATTRIBUTION, TRANSLATIONS, type Verse } from "@/lib/sources/quran-meta";
 import { scholarQuoteAllowed, type ScholarQuote } from "@/lib/sources/scholar-rules";
+import { approvedChannelIds } from "@/lib/sources/youtube-channels";
+import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
 import {
   acceptableGrade,
   collectionOf,
@@ -84,6 +86,7 @@ export type Answer = {
   sourceOnly?: boolean;
   attribution: { text: string; url: string };
   hadithAttribution?: { text: string; url: string }; // present when a hadith is shown
+  videos?: VideoSuggestion[]; // related clips from approved channels; never evidence
   model: string;
   verifier: string;
 };
@@ -105,6 +108,9 @@ export type PipelineDeps = {
   hadithTimeoutMs?: number;
   // Optional third source: short quotes of approved scholars, searched with Arabic phrases.
   searchScholars?: (arabicPhrases: string[]) => Promise<ScholarQuote[]>;
+  // Optional: related videos from the approved YouTube channels, matched by title. Shown under a
+  // finished answer only, never given to the models and never used as evidence.
+  searchVideos?: (arabicPhrases: string[]) => Promise<VideoSuggestion[]>;
   deadlineMs?: number;
   onRefuse?: (reason: string) => void; // reason codes only, never the question
   onStep?: (step: string, elapsedMs: number) => void; // step names and timings only, for local debugging
@@ -115,6 +121,7 @@ export type PipelineDeps = {
 const MAX_QURAN_CANDIDATES = 8;
 const MAX_HADITH_CANDIDATES = 3;
 const MAX_SCHOLAR_CANDIDATES = 3;
+const MAX_VIDEOS = 2;
 // Hadith are an extra source: if their search is slow (first question after a server start loads
 // the title lists) or fails, the answer continues from the Quran alone.
 const HADITH_TIMEOUT_MS = 8_000;
@@ -173,7 +180,7 @@ Strict rules:
 5. Cover every item in required_facets. Use only a source whose supported_facets contains the facet claimed.
 6. Never take a passage out of context or broaden who it concerns.
 7. If the sealed evidence does not directly support a complete answer, return status "no_answer" with no claims. Never stretch a passage to fit.
-8. Write EVERY claim in the language given in "answer_language". In Arabic, use Arabic script only, plain modern prose without diacritics.
+8. Write EVERY claim in the language given in "answer_language". In Arabic, use Arabic script only, plain modern prose without short-vowel marks (tashkeel), but with correct standard spelling: always write hamza (أ إ آ ؤ ئ ء) and taa marbuta (ة) where they belong.
 9. Passages are Quran verses (type "quran"), hadith (type "hadith") or scholar quotes (type "scholar"). A claim based on a hadith presents it as what the Prophet taught or what the narrator reported, never as the Quran. A claim based on a verse never attributes it to the Prophet. A claim based on a scholar quote names that scholar ("Shaykh Ibn Baz explained that ...") and never presents his words as Quran or hadith; a ruling from a scholar is reported as his ruling, exactly as he states it. Do not cite different kinds of sources in the same claim unless all of them state that same fact.`;
 
 const SUPPORT_SYSTEM = `You screen claims against passages for an Islamic question-and-answer website. Be strict.
@@ -379,6 +386,29 @@ async function scholarCandidates(
   }
 }
 
+// Videos never block or change an answer: on failure or timeout the answer simply has none.
+async function videoCandidates(
+  deps: PipelineDeps,
+  arabicPhrases: string[],
+): Promise<{ videos: VideoSuggestion[]; problem: string | null }> {
+  if (!deps.searchVideos || arabicPhrases.length === 0) return { videos: [], problem: null };
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const timeout = new Promise<"timeout">((resolve) => {
+    timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
+  });
+  try {
+    const result = await Promise.race([deps.searchVideos(arabicPhrases), timeout]);
+    if (result === "timeout") return { videos: [], problem: "video_search_timeout" };
+    // Defence in depth: only the approved channels, whatever the search returned.
+    const allowed = result.filter((v) => approvedChannelIds.has(v.channelId) && /^[A-Za-z0-9_-]{11}$/.test(v.youtubeId));
+    return { videos: allowed.slice(0, MAX_VIDEOS), problem: allowed.length < result.length ? "video_dropped_by_rules" : null };
+  } catch {
+    return { videos: [], problem: "video_search_failed" };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 // ---------- the pipeline ----------
 export async function runPipeline(question: string, uiLanguage: Locale, deps: PipelineDeps): Promise<AskResult> {
   // 50 s: the longest safe path (redraft, second screening or evidence audit) must fit on budget
@@ -444,14 +474,16 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   if (queries.length === 0 && direct.length === 0) return refuse("query_plan_empty", language);
   // Quran and hadith are searched at the same time. Hadith use the English phrases (plus the
   // English subject names) on the English list and the Arabic phrases on the Arabic list.
-  const [found, hadithResult, scholarResult] = await Promise.all([
+  const [found, hadithResult, scholarResult, videoResult] = await Promise.all([
     deps.search(queries, MAX_QURAN_CANDIDATES),
     hadithCandidates(deps, {
       en: [...(frame.searchQueries.en ?? []), ...frame.subjects],
       ar: frame.searchQueries.ar ?? [],
     }),
     scholarCandidates(deps, frame.searchQueries.ar ?? []),
+    videoCandidates(deps, frame.searchQueries.ar ?? []),
   ]);
+  if (videoResult.problem) deps.onRefuse?.(videoResult.problem); // reason code only; the answer continues
   if (scholarResult.problem) deps.onRefuse?.(scholarResult.problem); // reason code only; the answer continues
   step("search");
   if (hadithResult.problem) deps.onRefuse?.(hadithResult.problem); // reason code only; the answer continues
@@ -537,6 +569,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
         ...(sourceOnly ? { sourceOnly: true } : {}),
         attribution: { ...ATTRIBUTION },
         ...(used.some((s) => s.kind === "hadith") ? { hadithAttribution: { ...HADITH_ATTRIBUTION } } : {}),
+        ...(videoResult.videos.length > 0 ? { videos: videoResult.videos } : {}),
         model: deps.writer.id,
         verifier: deps.verifier.id,
       },

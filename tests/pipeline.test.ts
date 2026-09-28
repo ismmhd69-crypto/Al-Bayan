@@ -791,3 +791,39 @@ describe("scholar quotes", () => {
     expect(called).toBe(false);
   });
 });
+
+describe("related videos", () => {
+  const video = { youtubeId: "abcdefghijk", channelId: "UCiiJRwQ0MUaQo8ZZuf18pPw", title: "حكم الصيام", minutes: 4 };
+  const outsider = { ...video, youtubeId: "zzzzzzzzzzz", channelId: "UCnotapproved00000000000" };
+
+  it("shows videos from approved channels under the answer, never to the models", async () => {
+    const reasons: string[] = [];
+    const { d, writer, verifier } = deps({ understand: arabicQueries, draft: goodDraft });
+    d.searchVideos = async () => [video, outsider];
+    d.onRefuse = (r) => reasons.push(r);
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    expect(r.answer.videos).toEqual([video]);
+    expect(reasons).toContain("video_dropped_by_rules");
+    for (const call of [...writer.seen, ...verifier.seen]) expect(call.prompt).not.toContain(video.youtubeId);
+  });
+
+  it("answers without videos when the video search fails, and refusals carry no videos", async () => {
+    const reasons: string[] = [];
+    const { d } = deps({ understand: arabicQueries, draft: goodDraft });
+    d.searchVideos = async () => {
+      throw new Error("down");
+    };
+    d.onRefuse = (r) => reasons.push(r);
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    expect(r.answer.videos).toBeUndefined();
+    expect(reasons).toContain("video_search_failed");
+
+    const { d: d2 } = deps({ understand: arabicQueries, draft: goodDraft }, undefined, { status: "insufficient", coverage: "none", conflict: "no", assessments: [] });
+    d2.searchVideos = async () => [video];
+    const refused = await runPipeline("What does Islam teach about fasting?", "en", d2);
+    expect(refused.status).not.toBe("answer");
+    expect(JSON.stringify(refused)).not.toContain(video.youtubeId);
+  });
+});

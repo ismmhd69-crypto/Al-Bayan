@@ -70,7 +70,15 @@ const de: typeof en = {
     rateLimited: "Du hast in kurzer Zeit viel gefragt. Bitte warte ein paar Minuten und versuch es noch einmal.",
     checked: "Die Erklärung oben schreibt eine KI, und eine zweite KI-Prüfung gleicht sie mit den Quellen ab; Verse und Hadithe werden genau so gezeigt, wie ihre Quellen sie liefern.",
     sourceOnlyChecked: "Keine von KI geschriebene Erklärung: Zwei getrennte KI-Prüfungen haben diese Quellen als direkte Antwort ausgewählt, und sie werden genau so gezeigt, wie ihre Quellen sie liefern.",
-    scholarShort: { "ibn-baz": "Ibn Baz", "ibn-uthaymeen": "Ibn Uthaymeen", "al-albani": "al-Albani", "al-fawzan": "al-Fawzan" },
+    scholarShort: { "ibn-baz": "Ibn Baz", "ibn-uthaymeen": "Ibn Uthaymeen", "al-albani": "al-Albani", "al-fawzan": "al-Fawzan", "othman-al-khamis": "Othman al-Khamis" },
+    video: {
+      note: "Passende Videos aus geprüften Kanälen. Sie sind nicht Teil der geprüften Antwort.",
+      play: "Video abspielen",
+      minutes: "Min.",
+      privacy: "Das Video wird erst von YouTube geladen, wenn du auf Abspielen drückst.",
+      youtube: "Auf YouTube öffnen",
+      channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "Ibn Baz, Kanal der offiziellen Website", UCwMocSKEbLav6SZvwzTvDbQ: "Portal zum Erbe al-Albanis", UCWjCSGhmSGu0VLf2mPFS0Kg: "Othman al-Khamis, offizieller Kanal", UCtF3YygTiodnYSw8vD3UJtQ: "Ibn-Uthaymeen-Stiftung", UCYZkmbBbVMWxB1gyioTPLIA: "Ibn-Baz-Stiftung" },
+    },
     scholarQuote: {
       arabicOnly: "Die eigenen Worte des Gelehrten auf Arabisch (kurzes Zitat)",
       link: "Die vollständige Fatwa auf der Website des Gelehrten lesen",
