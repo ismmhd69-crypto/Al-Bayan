@@ -82,11 +82,14 @@ Most answers carry 2 to 4 sources.
 | Shaykh Muhammad Sa'id Raslan | rslan.com |
 | Shaykh Aziz ibn Farhan al-Anizi | azizfarhan.com |
 | Shaykh Muhammad ibn Sa'd al-Shuwai'ir (compiler of Majmu' Fatawa Ibn Baz) | no verified official site yet (shuwaier.com is Shaykh Abdul-Salam al-Shuwai'ir) |
+| Shaykh Othman al-Khamis (added by Mo 2026-09-28, videos and quotes) | othmanalkhamees.com |
 | Shaykh Muhammad Ramzan al-Hajiri | mohammed-ramzan.com |
 
 **Permanent Committee fatwas** (al-Lajnah ad-Da'imah, alifta.gov.sa) are used when an approved scholar on this list signed them (for example Ibn Baz, al-Fawzan, al-Ghudayyan). Decided by Mo 2026-09-28.
 
 **Scholar quote library (Mo's decisions, 2026-09-28):** start with Ibn Baz, Ibn Uthaymeen, al-Albani and al-Fawzan (plus Permanent Committee fatwas they signed). Short quotes only, at most 600 characters of the Arabic original, unchanged, with the scholar, the printed source and a link; rights records say "no written permission yet" and permission letters are sent.
+
+**Approved YouTube channels (Mo's decision, 2026-09-28, list in `lib/sources/youtube-channels.ts`):** Level 1, confirmed by the scholar's own website: Ibn Baz official site channel (@al.shikh.ibnbaz), al-Albani legacy portal (@alalbanyportal), Othman al-Khamis (@othmanalkamees). Level 2, official institutions by their own description: Ibn Uthaymeen foundation channel (@ibnothaimeentv), Ibn Baz Charitable Foundation (@binbaz1425). No confirmed official channel for al-Fawzan yet. Fan and compilation channels are not used. Every video still needs approval before it shows.
 
 **How these sites are used**
 - None of them offers a developer API, and several block automated reading.
