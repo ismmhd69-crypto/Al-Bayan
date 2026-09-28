@@ -29,8 +29,8 @@ const frame = parseQuestionFrame({
 })!;
 
 const candidates: PassageForSelection[] = [
-  { id: "Q9:1", verse: verse("9:1", "The subject is described directly"), context: [] },
-  { id: "Q9:2", verse: verse("9:2", "A different group is discussed and the subject is only named"), context: [] },
+  { id: "Q9:1", source: { kind: "quran", verse: verse("9:1", "The subject is described directly") }, context: [] },
+  { id: "Q9:2", source: { kind: "quran", verse: verse("9:2", "A different group is discussed and the subject is only named") }, context: [] },
 ];
 
 describe("structured retrieval", () => {

@@ -3,7 +3,8 @@ import type { AIProvider, JsonRequest, JsonSchema } from "./types";
 
 // Google Gemini over plain HTTPS. Free tier is for Mo's private testing only (plan section 5).
 const ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models";
-const TIMEOUT_MS = 30_000;
+// One call may take up to 45 s; the whole answer is still bounded by the 50 s pipeline deadline.
+const TIMEOUT_MS = 45_000;
 
 // Gemini's response schema uses upper-case type names.
 function toGeminiSchema(s: JsonSchema): Record<string, unknown> {
@@ -27,6 +28,7 @@ function toGeminiSchema(s: JsonSchema): Record<string, unknown> {
 async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): Promise<Response> {
   const res = await call();
   if ((res.status !== 503 && res.status !== 429) || signal?.aborted) return res;
+  if (process.env.ASK_DEBUG === "true") console.info(`gemini busy (${res.status}), retrying once`);
   await new Promise((r) => setTimeout(r, 1500));
   return call();
 }

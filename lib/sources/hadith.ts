@@ -13,8 +13,13 @@ const CACHE_SECONDS = 86_400;
 const TIMEOUT_MS = 10_000;
 const MAX_PAGES = 20;
 
-async function get(path: string): Promise<unknown> {
-  const res = await fetch(`${API}${path}`, { signal: AbortSignal.timeout(TIMEOUT_MS), next: { revalidate: CACHE_SECONDS } });
+// `cacheToDisk: false` is for the title lists: they are held in memory for a day instead, so
+// loading them does not write over a hundred pages to the server's disk cache.
+async function get(path: string, cacheToDisk = true): Promise<unknown> {
+  const res = await fetch(`${API}${path}`, {
+    signal: AbortSignal.timeout(TIMEOUT_MS),
+    ...(cacheToDisk ? { next: { revalidate: CACHE_SECONDS } } : { cache: "no-store" as const }),
+  });
   if (!res.ok) throw new Error(`HadeethEnc request failed with status ${res.status}`);
   return res.json();
 }
@@ -77,30 +82,56 @@ function terms(text: string): Set<string> {
   return new Set([...ar, ...lat].filter((t) => !STOP.has(t)));
 }
 
+// Loads every page of every category, a few requests at a time (not one after another), so the
+// lists are ready quickly and never flood HadeethEnc.
+const PARALLEL_PAGES = 6;
+
 async function loadCatalogue(language: Locale): Promise<Entry[]> {
-  const roots = (await get(`/categories/roots/?language=${language}`)) as { id?: unknown }[];
-  if (!Array.isArray(roots)) throw new Error("HadeethEnc categories were not understood");
-  const byId = new Map<string, Entry>();
-  for (const root of roots) {
-    if (typeof root?.id !== "string") continue;
-    for (let page = 1; page <= MAX_PAGES; page++) {
-      const list = (await get(`/hadeeths/list/?language=${language}&category_id=${root.id}&page=${page}&per_page=100`)) as {
-        data?: { id?: unknown; title?: unknown }[];
-        meta?: { last_page?: unknown };
-      };
-      if (!Array.isArray(list.data)) throw new Error("HadeethEnc list was not understood");
-      for (const h of list.data) {
-        if (typeof h.id === "string" && typeof h.title === "string" && !byId.has(h.id)) {
-          byId.set(h.id, { id: h.id, title: h.title, terms: terms(h.title) });
-        }
+  type ListPage = { data?: { id?: unknown; title?: unknown }[]; meta?: { last_page?: unknown } };
+  const listPath = (root: string, page: number) =>
+    `/hadeeths/list/?language=${language}&category_id=${root}&page=${page}&per_page=100`;
+  const pool = async <T,>(jobs: (() => Promise<T>)[]): Promise<T[]> => {
+    const out: T[] = new Array(jobs.length);
+    let next = 0;
+    const worker = async () => {
+      while (next < jobs.length) {
+        const i = next++;
+        out[i] = await jobs[i]();
       }
-      if (page >= Number(list.meta?.last_page ?? 1)) break;
+    };
+    await Promise.all(Array.from({ length: Math.min(PARALLEL_PAGES, jobs.length) }, worker));
+    return out;
+  };
+
+  const roots = (await get(`/categories/roots/?language=${language}`, false)) as { id?: unknown }[];
+  if (!Array.isArray(roots)) throw new Error("HadeethEnc categories were not understood");
+  const rootIds = roots.map((r) => r?.id).filter((id): id is string => typeof id === "string");
+
+  // First page of each category tells how many pages it has; then fetch the rest.
+  const firstPages = await pool(rootIds.map((root) => () => get(listPath(root, 1), false) as Promise<ListPage>));
+  const rest = rootIds.flatMap((root, i) => {
+    const last = Math.min(Number(firstPages[i]?.meta?.last_page ?? 1), MAX_PAGES);
+    return Array.from({ length: Math.max(0, last - 1) }, (_, k) => () => get(listPath(root, k + 2), false) as Promise<ListPage>);
+  });
+  const pages = [...firstPages, ...(await pool(rest))];
+
+  const byId = new Map<string, Entry>();
+  for (const list of pages) {
+    if (!Array.isArray(list?.data)) throw new Error("HadeethEnc list was not understood");
+    for (const h of list.data) {
+      if (typeof h.id === "string" && typeof h.title === "string" && !byId.has(h.id)) {
+        byId.set(h.id, { id: h.id, title: h.title, terms: terms(h.title) });
+      }
     }
   }
   return [...byId.values()];
 }
 
-const catalogues = new Map<Locale, { at: number; entries: Promise<Entry[]> }>();
+// Kept on globalThis so the start-up warm-up (instrumentation.ts) and the Ask code share one copy,
+// even though Next.js loads them as separate module instances.
+type CatalogueCache = Map<Locale, { at: number; entries: Promise<Entry[]> }>;
+const globalStore = globalThis as typeof globalThis & { __bayanHadithCatalogues?: CatalogueCache };
+const catalogues: CatalogueCache = (globalStore.__bayanHadithCatalogues ??= new Map());
 
 function catalogue(language: Locale): Promise<Entry[]> {
   const hit = catalogues.get(language);
@@ -168,4 +199,40 @@ export async function searchHadith(queries: string[], language: Locale, limit = 
       return true;
     })
     .slice(0, limit);
+}
+
+/**
+ * Starts loading the English and Arabic title lists in the background (called once when the
+ * server starts with hadith switched on), so the first visitor's question does not wait for it.
+ * Failures are ignored here; a later search simply tries again.
+ */
+export function warmHadithCatalogues(): void {
+  for (const language of ["en", "ar"] as const) catalogue(language).catch(() => {});
+}
+
+/**
+ * For the Ask pipeline: searches the English list with English phrases and the Arabic list with
+ * Arabic phrases (the two largest lists), then merges them without duplicates.
+ * Everything runs against the cached title lists on our server: no search phrase is sent out.
+ */
+export async function searchHadithMulti(queries: Partial<Record<Locale, string[]>>, limit = 4): Promise<Hadith[]> {
+  const lists = await Promise.all(
+    (["en", "ar"] as const)
+      .filter((language) => (queries[language]?.length ?? 0) > 0)
+      .map((language) => searchHadith(queries[language]!, language, limit)),
+  );
+  const seen = new Set<string>();
+  const out: Hadith[] = [];
+  // Interleave, so each language's best result comes first.
+  for (let i = 0; i < limit; i++) {
+    for (const list of lists) {
+      const h = list[i];
+      if (!h) continue;
+      const key = `${h.numbers.bukhari ?? "-"}/${h.numbers.muslim ?? "-"}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(h);
+    }
+  }
+  return out.slice(0, limit);
 }

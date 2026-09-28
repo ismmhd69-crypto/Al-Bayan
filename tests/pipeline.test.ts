@@ -1,9 +1,10 @@
 // End-to-end tests of the answer pipeline with a fake AI and made-up verses (not Quran text).
 // They prove the code refuses, whatever the AI returns.
 import { describe, expect, it } from "vitest";
-import { runPipeline, type PipelineDeps } from "@/lib/ask/core";
+import { hadithAllowed, runPipeline, type PipelineDeps } from "@/lib/ask/core";
 import type { AIProvider, JsonRequest } from "@/lib/ai/types";
 import type { Verse } from "@/lib/sources/quran-meta";
+import type { Hadith } from "@/lib/sources/hadith-rules";
 
 const verses: Verse[] = [
   {
@@ -367,7 +368,7 @@ describe("runPipeline", () => {
       expect(r.answer.claims).toEqual([]);
       // Evidence is the selected passage exactly as the source gave it; no translation for Arabic readers.
       expect(r.answer.evidence).toEqual([
-        { key: "2:183", arabic: verses[0].arabic, translation: null, translationName: null, url: verses[0].url },
+        { kind: "quran", key: "2:183", arabic: verses[0].arabic, translation: null, translationName: null, url: verses[0].url },
       ]);
       // writer: frame, draft, correction, audit
       expect(writer.seen).toHaveLength(4);
@@ -511,5 +512,185 @@ describe("runPipeline", () => {
     const r = await runPipeline("fasting?", "en", d);
     if (r.status !== "answer") throw new Error("expected an answer");
     expect(r.answer.model).not.toBe(r.answer.verifier);
+  });
+});
+
+// ---------- hadith as a second source (made-up texts, not real hadith) ----------
+const hadithFast: Hadith = {
+  id: "HE9001",
+  collection: "agreed",
+  numbers: { bukhari: 1904, muslim: 1151 },
+  attributionAr: "متفق عليه",
+  gradeAr: "صحيح",
+  arabic: "نص حديث تجريبي عن الصيام وجزائه",
+  translations: { en: "Made-up hadith text: fasting is a shield with a great reward", de: null },
+  url: "https://hadeethenc.com/en/browse/hadith/9001",
+};
+const hadithOther: Hadith = {
+  ...hadithFast,
+  id: "HE9002",
+  collection: "bukhari",
+  numbers: { bukhari: 5027, muslim: null },
+  attributionAr: "رواه البخاري",
+  arabic: "نص حديث تجريبي آخر عن التعلم",
+  translations: { en: "Made-up hadith text about learning and teaching", de: "Erfundener Hadith-Text über das Lernen" },
+  url: "https://hadeethenc.com/en/browse/hadith/9002",
+};
+const hadithWeak: Hadith = {
+  ...hadithFast,
+  id: "HE9003",
+  attributionAr: "رواه الترمذي",
+  gradeAr: "ضعيف",
+  collection: "bukhari",
+  numbers: { bukhari: 1, muslim: null },
+};
+
+const hadithSelection = (hadithRelevance: string, otherRelevance = "unrelated") => ({
+  status: "ready",
+  coverage: "complete",
+  conflict: "none",
+  assessments: [
+    { source_id: "Q2:183", relevance: "direct", supported_facets: ["general"], context_safe: "yes" },
+    { source_id: "Q2:184", relevance: "context", supported_facets: [], context_safe: "yes" },
+    ...(hadithRelevance === "none"
+      ? []
+      : [{ source_id: "HE9001", relevance: hadithRelevance, supported_facets: hadithRelevance === "direct" ? ["general"] : [], context_safe: "yes" }]),
+    { source_id: "HE9002", relevance: otherRelevance, supported_facets: [], context_safe: "yes" },
+  ],
+});
+const verseAndHadithDraft = {
+  status: "answer",
+  claims: [
+    { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], facet_ids: ["general"] },
+    { text: "The Prophet taught that fasting protects the one who fasts.", source_ids: ["HE9001"], facet_ids: ["general"] },
+  ],
+};
+const TWO_SUPPORTED = { verdicts: ["supported", "supported"], ...OK };
+
+describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
+  it("cites a direct hadith and shows it exactly as the source gives it", async () => {
+    const { d } = deps({ understand: understanding, draft: verseAndHadithDraft }, TWO_SUPPORTED, hadithSelection("direct"));
+    d.searchHadith = async () => [hadithFast, hadithOther];
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    expect(r.answer.claims.map((c) => c.refs)).toEqual([["2:183"], ["HE9001"]]);
+    const shown = r.answer.evidence.find((e) => e.key === "HE9001");
+    expect(shown).toEqual({
+      kind: "hadith",
+      key: "HE9001",
+      collection: "agreed",
+      numbers: { bukhari: 1904, muslim: 1151 },
+      gradeAr: "صحيح",
+      attributionAr: "متفق عليه",
+      arabic: hadithFast.arabic,
+      translation: hadithFast.translations.en,
+      translationLanguage: "en",
+      url: hadithFast.url,
+    });
+    expect(r.answer.hadithAttribution?.text).toContain("HadeethEnc");
+  });
+
+  it("keeps mention-only and unrelated hadith away from the writer and the page", async () => {
+    const { d, writer } = deps({ understand: understanding, draft: goodDraft }, undefined, hadithSelection("mention_only"));
+    d.searchHadith = async () => [hadithFast, hadithOther];
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    expect(writer.seen[1].prompt).not.toContain("HE9001");
+    expect(writer.seen[1].prompt).not.toContain("HE9002");
+    expect(r.answer.evidence.every((e) => e.kind === "quran")).toBe(true);
+    expect(r.answer.hadithAttribution).toBeUndefined();
+  });
+
+  it("drops weak or non-Sahihayn hadith before the evidence check ever sees them", async () => {
+    const reasons: string[] = [];
+    const { d, verifier } = deps({ understand: understanding, draft: goodDraft }, undefined, hadithSelection("none"));
+    d.searchHadith = async () => [hadithWeak, hadithOther];
+    d.onRefuse = (reason) => reasons.push(reason);
+    await runPipeline("What does Islam teach about fasting?", "en", d);
+    expect(verifier.seen[0].prompt).not.toContain("HE9003");
+    expect(verifier.seen[0].prompt).toContain("HE9002");
+    expect(reasons).toContain("hadith_dropped_by_rules");
+  });
+
+  it("only allows hadith whose collection is confirmed by its numbers and grade", () => {
+    expect(hadithAllowed(hadithFast)).toBe(true);
+    expect(hadithAllowed(hadithOther)).toBe(true);
+    expect(hadithAllowed(hadithWeak)).toBe(false);
+    expect(hadithAllowed({ ...hadithFast, numbers: { bukhari: 1904, muslim: null } })).toBe(false); // "agreed" needs both
+    expect(hadithAllowed({ ...hadithOther, numbers: { bukhari: null, muslim: 7 } })).toBe(false);
+    expect(hadithAllowed({ ...hadithFast, gradeAr: "حسن لكن في إسناده ضعيف" })).toBe(false);
+    expect(hadithAllowed({ ...hadithFast, id: "9001" })).toBe(false);
+  });
+
+  it("answers from the Quran alone when the hadith search fails or is too slow", async () => {
+    const failing: PipelineDeps["searchHadith"] = async () => {
+      throw new Error("down");
+    };
+    const hanging: PipelineDeps["searchHadith"] = () => new Promise<Hadith[]>(() => {});
+    for (const [search, reason] of [
+      [failing, "hadith_search_failed"],
+      [hanging, "hadith_search_timeout"],
+    ] as const) {
+      const reasons: string[] = [];
+      const { d } = deps({ understand: understanding, draft: goodDraft });
+      d.searchHadith = search;
+      d.hadithTimeoutMs = 30;
+      d.onRefuse = (r) => reasons.push(r);
+      const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+      expect(r.status).toBe("answer");
+      expect(reasons).toContain(reason);
+    }
+  });
+
+  it("gives the Arabic writer no Arabic hadith text, and nobody later the raw question", async () => {
+    const arabicFrame = { ...understanding, language: "ar", search_queries_ar: ["الصيام شهر"] };
+    const arabicDraft = {
+      status: "answer",
+      claims: [
+        { text: "يفرض على المؤمنين صيام شهر محدد.", source_ids: ["Q2:183"], facet_ids: ["general"] },
+        { text: "علم النبي أن الصوم يحمي صاحبه.", source_ids: ["HE9001"], facet_ids: ["general"] },
+      ],
+    };
+    const { d, writer, verifier } = deps({ understand: arabicFrame, draft: arabicDraft }, TWO_SUPPORTED, hadithSelection("direct"));
+    d.searchHadith = async () => [hadithFast, hadithOther];
+    const r = await runPipeline("ما حكم الصيام؟ RAW-QUESTION-MARKER", "ar", d);
+    expect(r.status).toBe("answer");
+    expect(writer.seen[1].prompt).not.toContain(hadithFast.arabic);
+    expect(writer.seen[1].prompt).toContain(hadithFast.translations.en!);
+    for (const req of [...writer.seen.slice(1), ...verifier.seen]) expect(req.prompt).not.toContain("RAW-QUESTION-MARKER");
+    if (r.status === "answer") expect(r.answer.evidence.find((e) => e.key === "HE9001")?.translation).toBeNull();
+  });
+
+  it("shows a hadith in source-only mode when wording fails but the audit passes", async () => {
+    // The drafts copy six words of the hadith translation, so wording fails twice.
+    const copied = {
+      status: "answer",
+      claims: [{ text: "Fasting is a shield with a great reward for believers.", source_ids: ["HE9001"], facet_ids: ["general"] }],
+    };
+    const { d } = deps({ understand: understanding, draft: copied, audit: AUDIT_OK }, undefined, hadithSelection("direct"));
+    d.searchHadith = async () => [hadithFast, hadithOther];
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected a source-only answer");
+    expect(r.answer.sourceOnly).toBe(true);
+    expect(r.answer.claims).toEqual([]);
+    expect(r.answer.evidence.map((e) => e.key)).toEqual(["2:183", "HE9001"]);
+  });
+
+  it("shows the English hadith translation, labelled, when no German one exists", async () => {
+    const germanFrame = { ...understanding, language: "de" };
+    const germanDraft = {
+      status: "answer",
+      claims: [
+        { text: "Den Gläubigen ist das Fasten in einem bestimmten Monat vorgeschrieben.", source_ids: ["Q2:183"], facet_ids: ["general"] },
+        { text: "Der Prophet lehrte, dass das Fasten den Fastenden schützt.", source_ids: ["HE9001"], facet_ids: ["general"] },
+      ],
+    };
+    const { d } = deps({ understand: germanFrame, draft: germanDraft }, TWO_SUPPORTED, hadithSelection("direct"));
+    d.searchHadith = async () => [hadithFast, hadithOther];
+    const r = await runPipeline("Warum fasten Muslime?", "de", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    const shown = r.answer.evidence.find((e) => e.key === "HE9001");
+    expect(shown?.kind === "hadith" && shown.translationLanguage).toBe("en");
+    expect(shown?.translation).toBe(hadithFast.translations.en);
   });
 });

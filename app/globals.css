@@ -1209,6 +1209,18 @@ details[open] > summary .chev {
   font-size: var(--fs-md);
   color: var(--ink-2);
 }
+.hadith-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  font-size: var(--fs-sm);
+  color: var(--ink-3);
+}
+.hadith-collection {
+  font-weight: 700;
+  color: var(--gold-ink);
+}
 .verse-by {
   font-size: var(--fs-xs);
   color: var(--ink-3);

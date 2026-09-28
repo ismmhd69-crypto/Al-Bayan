@@ -1,5 +1,6 @@
 import type { Locale } from "@/lib/i18n";
 import type { Verse } from "@/lib/sources/quran-meta";
+import type { Hadith } from "@/lib/sources/hadith-rules";
 
 export const QUESTION_TYPES = [
   "identity",
@@ -128,10 +129,13 @@ export function buildSearchQueries(frame: QuestionFrame, limit = 6): string[] {
   }).slice(0, limit);
 }
 
+// A candidate source: a Quran verse or a hadith (Sahih al-Bukhari / Sahih Muslim only).
+export type Source = { kind: "quran"; verse: Verse } | { kind: "hadith"; hadith: Hadith };
+
 export type PassageForSelection = {
-  id: string;
-  verse: Verse;
-  context: Verse[];
+  id: string; // "Q2:255" for verses, "HE4196" for hadith
+  source: Source;
+  context: Verse[]; // neighbouring verses; empty for hadith, which stand on their own
 };
 
 export type SelectedPassage = PassageForSelection & { facets: AnswerFacet[] };

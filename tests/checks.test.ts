@@ -5,6 +5,7 @@ import {
   allSupported,
   copiesSource,
   directRefs,
+  asciiUmlauts,
   hasQuotation,
   inLanguage,
   isSingleSentence,
@@ -96,6 +97,21 @@ describe("inLanguage", () => {
   });
   it("refuses a draft in the wrong language", () => {
     const r = parseDraft(draft([{ text: "People are told to be patient.", source_ids: ["Q9:1"] }]), sources, "ar");
+    expect(r).toEqual({ ok: false, reason: "wrong_language" });
+  });
+});
+
+describe("asciiUmlauts: German must use real umlauts", () => {
+  it("catches common words written with ae/oe/ue", () => {
+    expect(asciiUmlauts("Allah moechte Erleichterung schaffen.")).toBe(true);
+    expect(asciiUmlauts("Keine Muehe verursachen.")).toBe(true);
+  });
+  it("allows correct spelling and correct words that contain ue", () => {
+    expect(asciiUmlauts("Allah möchte Erleichterung schaffen und keine Mühe verursachen.")).toBe(false);
+    expect(asciiUmlauts("Die neue Quelle und das Feuer.")).toBe(false);
+  });
+  it("makes a German draft with broken umlauts fail as a wording problem", () => {
+    const r = parseDraft(draft([{ text: "Allah moechte es leicht machen.", source_ids: ["Q9:1"] }]), sources, "de");
     expect(r).toEqual({ ok: false, reason: "wrong_language" });
   });
 });

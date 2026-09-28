@@ -69,6 +69,22 @@ export function inLanguage(text: string, language: Locale): boolean {
   return language === "ar" ? arabic / letters >= 0.9 : latin / letters >= 0.95;
 }
 
+// German with umlauts written as ae/oe/ue ("moechte", "Muehe") is broken spelling. A general rule
+// would also hit correct words (neue, Feuer, Quelle), so this lists frequent words only.
+const ASCII_UMLAUT_WORDS = new Set([
+  "fuer", "ueber", "ueberall", "uebrig", "moechte", "moechten", "muehe", "koennen", "koennte", "muessen",
+  "waehrend", "spaeter", "frueh", "frueher", "glaeubige", "glaeubigen", "gebaeude", "maenner", "maedchen",
+  "haende", "suende", "suenden", "pruefung", "pruefungen", "gefuehl", "gefuehle", "hoeren", "gehoert",
+  "gehoeren", "hoechste", "hoechsten", "groesse", "groesste", "schoen", "schoene", "boese", "loesen",
+  "loesung", "toeten", "voellig", "moeglich", "natuerlich", "wuerde", "wuerden", "fuehren", "fuehrt",
+  "gefuehrt", "zurueck", "taeglich", "jaehrlich", "naechste", "naechsten", "aehnlich", "erklaert", "erklaeren",
+  "waere", "haette", "haetten", "gewaehrt", "vergaenglich", "hoelle", "gaerten",
+]);
+
+export function asciiUmlauts(text: string): boolean {
+  return (text.toLowerCase().match(/[a-zäöüß]+/g) ?? []).some((w) => ASCII_UMLAUT_WORDS.has(w));
+}
+
 // Validates the drafted answer. Any failure refuses the whole answer.
 export type DraftPolicy = {
   requiredFacets: AnswerFacet[];
@@ -91,6 +107,7 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
     const t = text.trim();
     if (!t || t.length > LIMITS.maxClaimLength) return { ok: false, reason: "claim_length" };
     if (!inLanguage(t, language)) return { ok: false, reason: "wrong_language" };
+    if (language === "de" && asciiUmlauts(t)) return { ok: false, reason: "wrong_language" };
     if (!isSingleSentence(t)) return { ok: false, reason: "multiple_sentences" };
     if (hasQuotation(t)) return { ok: false, reason: "quotation" };
     const refs = [...new Set(source_ids.filter(isStr).map((s) => s.trim()))];

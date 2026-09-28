@@ -239,6 +239,16 @@ const reducedMotion = () =>
 // A real answer: an automatic explanation with a source on every sentence, then the verses exactly as served.
 function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
   const anchor = (key: string) => `ev-${id}-${key.replace(":", "-")}`;
+  // Source tags: verses show "2:255", hadith show their Bukhari (or Muslim) number.
+  const byKey = new Map(a.evidence.map((e) => [e.key, e]));
+  const refText = (r: string) => {
+    const e = byKey.get(r);
+    if (e?.kind !== "hadith") return { short: r, long: `${t.quran} ${r}` };
+    const n = e.numbers.bukhari
+      ? `${t.hadith.numberBukhari} ${e.numbers.bukhari}`
+      : `${t.hadith.numberMuslim} ${e.numbers.muslim}`;
+    return { short: n, long: `${t.hadith[e.collection]}, ${n}` };
+  };
   // Move keyboard and screen-reader focus to the cited verse, not just the view.
   const goTo = (e: React.MouseEvent<HTMLAnchorElement>, key: string) => {
     const el = document.getElementById(anchor(key));
@@ -267,10 +277,10 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
                     key={r}
                     href={`#${anchor(r)}`}
                     className="ref"
-                    aria-label={`${t.source}: ${t.quran} ${r}`}
+                    aria-label={`${t.source}: ${refText(r).long}`}
                     onClick={(e) => goTo(e, r)}
                   >
-                    {r}
+                    {refText(r).short}
                   </a>
                 ))}{" "}
               </span>
@@ -285,25 +295,60 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
           {t.parts.evidence}
         </h3>
         <ul className="evidence">
-          {a.evidence.map((e) => (
-            <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
-              <p className="verse-ar" lang="ar" dir="rtl" translate="no">
-                {e.arabic}
-              </p>
-              {e.translation && (
-                <p className="verse-tr" lang={a.language} dir="ltr">
-                  <span translate="no">{e.translation}</span>
-                  <span className="verse-by">
-                    {t.translation}: {e.translationName}
+          {a.evidence.map((e) =>
+            e.kind === "hadith" ? (
+              // Hadith: collection, numbers, grade and text exactly as the source gives them.
+              <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
+                <p className="hadith-meta">
+                  <span className="hadith-collection">{t.hadith[e.collection]}</span>
+                  <span>
+                    {[
+                      e.numbers.bukhari && `${t.hadith.numberBukhari} ${e.numbers.bukhari}`,
+                      e.numbers.muslim && `${t.hadith.numberMuslim} ${e.numbers.muslim}`,
+                    ]
+                      .filter(Boolean)
+                      .join(" · ")}
+                  </span>
+                  <span lang="ar" dir="rtl" translate="no">
+                    {e.gradeAr} · {e.attributionAr}
                   </span>
                 </p>
-              )}
-              <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
-                {t.quran} {e.key}
-                <ExternalLink aria-hidden="true" />
-              </a>
-            </li>
-          ))}
+                <p className="verse-ar" lang="ar" dir="rtl" translate="no">
+                  {e.arabic}
+                </p>
+                {e.translation && e.translationLanguage && (
+                  <p className="verse-tr" lang={e.translationLanguage} dir="ltr">
+                    <span translate="no">{e.translation}</span>
+                    <span className="verse-by">
+                      {e.translationLanguage !== a.language ? t.hadith.englishFallback : t.hadith.translationBy}
+                    </span>
+                  </p>
+                )}
+                <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
+                  {t.hadith.link}
+                  <ExternalLink aria-hidden="true" />
+                </a>
+              </li>
+            ) : (
+              <li key={e.key} id={anchor(e.key)} tabIndex={-1}>
+                <p className="verse-ar" lang="ar" dir="rtl" translate="no">
+                  {e.arabic}
+                </p>
+                {e.translation && (
+                  <p className="verse-tr" lang={a.language} dir="ltr">
+                    <span translate="no">{e.translation}</span>
+                    <span className="verse-by">
+                      {t.translation}: {e.translationName}
+                    </span>
+                  </p>
+                )}
+                <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
+                  {t.quran} {e.key}
+                  <ExternalLink aria-hidden="true" />
+                </a>
+              </li>
+            ),
+          )}
         </ul>
       </section>
 
@@ -320,6 +365,14 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
         <a href={a.attribution.url} target="_blank" rel="noopener noreferrer">
           {a.attribution.text}
         </a>
+        {a.hadithAttribution && (
+          <>
+            {". "}
+            <a href={a.hadithAttribution.url} target="_blank" rel="noopener noreferrer">
+              {a.hadithAttribution.text}
+            </a>
+          </>
+        )}
         . {t.notFatwa}
       </p>
     </div>
