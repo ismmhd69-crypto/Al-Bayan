@@ -1,13 +1,15 @@
 import "server-only";
-import { TRANSLATIONS, type Verse } from "./quran-meta";
-import type { SearchDoc } from "@/lib/ask/search";
+import { isRealVerse, TRANSLATIONS, type Verse } from "./quran-meta";
 export { ATTRIBUTION, TRANSLATIONS, type Verse } from "./quran-meta";
 
-// Quran Foundation Content API (plan section 4).
+// Quran Foundation Content and Search APIs (plan section 4).
 // Their terms: cache at most one week, keep the Quran text unmodified, credit the translation
 // and Quran Foundation. We cache for one day and never store verses in our own database.
 // Text is kept exactly as served: no trimming, no editing. A translation that arrives with
 // markup (footnotes etc.) is not shown at all rather than being edited.
+//
+// Search uses Quran Foundation's own search (the one Quran.com uses), then only the verses
+// found are fetched one by one. Nothing downloads the whole Quran during a question.
 
 const ENVS = {
   prelive: { auth: "https://prelive-oauth2.quran.foundation", api: "https://apis-prelive.quran.foundation" },
@@ -17,15 +19,21 @@ const ENVS = {
 const env = ENVS[process.env.QURAN_API_ENV === "production" ? "production" : "prelive"];
 const CACHE_SECONDS = 86_400;
 const TIMEOUT_MS = 10_000;
-const MAX_PAGES_PER_CHAPTER = 10; // 286 verses / 50 per page = 6 for the longest surah
-const PARALLEL_CHAPTERS = 3;
+const RESULTS_PER_QUERY = 10;
 
+// Pre-production keys can search the whole Quran but only fetch the text of Surahs 1 and 2,
+// so results are limited to the surahs whose text we can show.
+export const CHAPTERS = new Set(
+  (process.env.QURAN_CHAPTERS ?? (process.env.QURAN_API_ENV === "production" ? "" : "1,2"))
+    .split(",")
+    .map((n) => Number(n.trim()))
+    .filter((n) => Number.isInteger(n) && n >= 1 && n <= 114),
+);
 
-// Pre-production keys only contain Surahs 1 and 2.
-export const CHAPTERS = (process.env.QURAN_CHAPTERS ?? "1,2")
-  .split(",")
-  .map((n) => Number(n.trim()))
-  .filter((n) => Number.isInteger(n) && n >= 1 && n <= 114);
+const allowed = (key: string) => {
+  const [c, v] = key.split(":").map(Number);
+  return isRealVerse(c, v) && (CHAPTERS.size === 0 || CHAPTERS.has(c));
+};
 
 // ---------- auth: one token request at a time ----------
 
@@ -44,7 +52,7 @@ async function requestToken(): Promise<string> {
       "Content-Type": "application/x-www-form-urlencoded",
       Authorization: `Basic ${Buffer.from(`${id}:${secret}`).toString("base64")}`,
     },
-    body: "grant_type=client_credentials&scope=content",
+    body: "grant_type=client_credentials&scope=content%20search",
   });
   if (!res.ok) throw new Error(`Quran token request failed with status ${res.status}`);
   const data = (await res.json()) as { access_token?: unknown; expires_in?: unknown };
@@ -60,6 +68,42 @@ function getToken(): Promise<string> {
   if (token && Date.now() < token.expires) return Promise.resolve(token.value);
   tokenPromise ??= requestToken().finally(() => (tokenPromise = null));
   return tokenPromise;
+}
+
+async function headers() {
+  return { "x-auth-token": await getToken(), "x-client-id": process.env.QURAN_FOUNDATION_CLIENT_ID! };
+}
+
+// ---------- search ----------
+
+// Runs each query through Quran Foundation search and returns verse keys, best first,
+// without duplicates, limited to verses whose text we can show.
+export async function searchQuran(queries: string[], limit: number): Promise<string[]> {
+  const h = await headers();
+  const lists = await Promise.all(
+    queries.slice(0, 4).map(async (q) => {
+      const url =
+        `${env.api}/search/api/v1/search?mode=quick&query=${encodeURIComponent(q)}` +
+        `&versesResultsNumber=${RESULTS_PER_QUERY}&navigationalResultsNumber=0`;
+      const res = await fetch(url, { headers: h, signal: AbortSignal.timeout(TIMEOUT_MS), next: { revalidate: CACHE_SECONDS } });
+      if (!res.ok) throw new Error(`Quran search failed with status ${res.status}`);
+      const data = (await res.json()) as { result?: { verses?: { key?: unknown; result_type?: unknown }[] } };
+      const verses = data.result?.verses;
+      if (!Array.isArray(verses)) throw new Error("Quran search response was not understood");
+      return verses
+        .filter((v) => v.result_type === "ayah" && typeof v.key === "string" && /^\d{1,3}:\d{1,3}$/.test(v.key))
+        .map((v) => v.key as string);
+    }),
+  );
+  // Interleave the lists so each query's best results come first.
+  const out: string[] = [];
+  for (let i = 0; i < RESULTS_PER_QUERY; i++) {
+    for (const list of lists) {
+      const k = list[i];
+      if (k && allowed(k) && !out.includes(k)) out.push(k);
+    }
+  }
+  return out.slice(0, limit);
 }
 
 // ---------- verses ----------
@@ -88,66 +132,30 @@ function parseVerse(v: unknown): Verse {
   };
 }
 
-async function fetchChapter(chapter: number): Promise<Verse[]> {
-  const verses: Verse[] = [];
-  for (let page = 1; page <= MAX_PAGES_PER_CHAPTER; page++) {
-    const headers = { "x-auth-token": await getToken(), "x-client-id": process.env.QURAN_FOUNDATION_CLIENT_ID! };
-    const url =
-      `${env.api}/content/api/v4/verses/by_chapter/${chapter}?per_page=50&page=${page}` +
-      `&fields=text_uthmani,text_imlaei_simple&translations=${TRANSLATIONS.en.id},${TRANSLATIONS.de.id}`;
-    const res = await fetch(url, { headers, signal: AbortSignal.timeout(TIMEOUT_MS), next: { revalidate: CACHE_SECONDS } });
-    if (!res.ok) throw new Error(`Quran verses request failed with status ${res.status}`);
-    const data = (await res.json()) as { verses?: unknown; pagination?: { next_page?: unknown } };
-    if (!Array.isArray(data.verses)) throw new Error("Quran verses response was not understood");
-    verses.push(...data.verses.map(parseVerse));
-    if (!data.pagination?.next_page) return verses;
+// Shared in-flight requests, so simultaneous questions never fetch the same verse twice at once.
+const inFlight = new Map<string, Promise<Verse | undefined>>();
+
+export function getVerse(key: string): Promise<Verse | undefined> {
+  if (!allowed(key)) return Promise.resolve(undefined);
+  let p = inFlight.get(key);
+  if (!p) {
+    p = (async () => {
+      const url =
+        `${env.api}/content/api/v4/verses/by_key/${key}` +
+        `?fields=text_uthmani,text_imlaei_simple&translations=${TRANSLATIONS.en.id},${TRANSLATIONS.de.id}`;
+      const res = await fetch(url, {
+        headers: await headers(),
+        signal: AbortSignal.timeout(TIMEOUT_MS),
+        next: { revalidate: CACHE_SECONDS },
+      });
+      if (res.status === 404) return undefined;
+      if (!res.ok) throw new Error(`Quran verse request failed with status ${res.status}`);
+      const data = (await res.json()) as { verse?: unknown };
+      return parseVerse(data.verse);
+    })().finally(() => inFlight.delete(key));
+    inFlight.set(key, p);
   }
-  throw new Error(`Quran chapter ${chapter} had more pages than expected`);
-}
-
-// At most a few chapters at a time, so a cold start never floods Quran Foundation.
-async function fetchAll(): Promise<Verse[]> {
-  const out: Verse[][] = new Array(CHAPTERS.length);
-  let next = 0;
-  async function worker() {
-    while (next < CHAPTERS.length) {
-      const i = next++;
-      out[i] = await fetchChapter(CHAPTERS[i]);
-    }
-  }
-  await Promise.all(Array.from({ length: Math.min(PARALLEL_CHAPTERS, CHAPTERS.length) }, worker));
-  return out.flat();
-}
-
-let memory: { verses: Verse[]; byKey: Map<string, Verse>; docs: SearchDoc[]; at: number } | null = null;
-let loading: Promise<Verse[]> | null = null;
-
-// One shared load: simultaneous questions wait for the same download instead of starting their own.
-export function getVerses(): Promise<Verse[]> {
-  if (memory && Date.now() - memory.at < CACHE_SECONDS * 1000) return Promise.resolve(memory.verses);
-  loading ??= fetchAll()
-    .then((verses) => {
-      memory = {
-        verses,
-        byKey: new Map(verses.map((v) => [v.key, v])),
-        // Built once per load, so the search index is not rebuilt for every question.
-        docs: verses.map((v) => ({ key: v.key, arabicPlain: v.arabicPlain, en: v.translations.en ?? "", de: v.translations.de ?? "" })),
-        at: Date.now(),
-      };
-      return verses;
-    })
-    .finally(() => (loading = null));
-  return loading;
-}
-
-export async function getSearchDocs(): Promise<SearchDoc[]> {
-  await getVerses();
-  return memory!.docs;
-}
-
-export async function getVerse(key: string): Promise<Verse | undefined> {
-  await getVerses();
-  return memory?.byKey.get(key);
+  return p;
 }
 
 // The verses just before and after, given to the AI as context only (never citable).

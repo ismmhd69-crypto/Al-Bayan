@@ -53,9 +53,13 @@ function deps(writerScript: Record<string, unknown>, verdicts: unknown = { verdi
   const d: PipelineDeps = {
     writer: writer.ai,
     verifier: verifier.ai,
-    verses: async () => verses,
-    searchDocs: async () =>
-      verses.map((v) => ({ key: v.key, arabicPlain: v.arabicPlain, en: v.translations.en ?? "", de: v.translations.de ?? "" })),
+    // Fake search: a verse matches if its English text contains one of the query words.
+    search: async (queries, limit) =>
+      verses
+        .filter((v) => queries.some((q) => q.split(" ").some((w) => v.translations.en?.toLowerCase().includes(w.toLowerCase()))))
+        .map((v) => v.key)
+        .slice(0, limit),
+    getVerse: async (key) => verses.find((v) => v.key === key),
     neighbours: async () => [],
     deadlineMs: 5000,
   };

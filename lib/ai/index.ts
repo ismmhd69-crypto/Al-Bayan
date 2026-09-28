@@ -3,11 +3,12 @@ import type { AIProvider } from "./types";
 import { createGemini } from "./gemini";
 
 // Exact models pinned on purpose (never "latest"), overridable per environment.
-// Writer: 3.5 Flash-Lite, fast (the free test key has no quota for 3.8 Flash).
-// Verifier: 3.5 Flash, a different and larger model, so the writer never screens its own work.
-// Both are Google for now; AI_VERIFIER_PROVIDER lets the verifier move to another company later.
+// Budget models by Mo's choice (2026-09-28): both cheap "Lite" models.
+// Writer: 3.5 Flash-Lite. Verifier: 3.1 Flash-Lite, a different model, so the writer never
+// screens its own work. Both are Google for now; AI_VERIFIER_PROVIDER lets the verifier move
+// to another company later.
 const DEFAULT_WRITER_MODEL = "gemini-3.5-flash-lite";
-const DEFAULT_VERIFIER_MODEL = "gemini-3.5-flash";
+const DEFAULT_VERIFIER_MODEL = "gemini-3.1-flash-lite";
 
 function create(provider: string, model: string): AIProvider {
   switch (provider) {

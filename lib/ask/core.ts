@@ -5,8 +5,8 @@
 // 1. understand: the AI turns the question into a strictly validated request: language, kind,
 //    short topic names and search words. No free sentences, nothing religious.
 // 2. personal questions (AI or code rule) stop here: the visitor is sent to a scholar.
-// 3. search: code finds verses (direct references like "Quran 2:255" first, then keyword search
-//    with a minimum match). Nothing found → refuse.
+// 3. search: direct references like "Quran 2:255" first, then Quran Foundation's own search with
+//    the topic names and an Arabic search word. Nothing found → refuse.
 // 4. draft: the writer AI gets topic names and the found verses, never the visitor's raw text,
 //    and returns up to 4 one-sentence claims with source ids.
 // 5. code checks every claim (checks.ts). Any failure refuses the whole answer.
@@ -17,7 +17,6 @@
 import type { Locale } from "@/lib/i18n";
 import type { AIProvider } from "@/lib/ai/types";
 import { ATTRIBUTION, TRANSLATIONS, type Verse } from "@/lib/sources/quran-meta";
-import { searchVerses, SEARCH_RULES, type SearchDoc } from "./search";
 import {
   allSupported,
   directRefs,
@@ -55,13 +54,14 @@ export type AskResult =
 export type PipelineDeps = {
   writer: AIProvider; // understands the question and drafts the answer
   verifier: AIProvider; // a different model that screens each claim
-  verses: () => Promise<Verse[]>;
-  searchDocs: () => Promise<SearchDoc[]>;
+  search: (queries: string[], limit: number) => Promise<string[]>; // verse keys, best first
+  getVerse: (key: string) => Promise<Verse | undefined>;
   neighbours: (key: string) => Promise<Verse[]>;
   deadlineMs?: number;
   onRefuse?: (reason: string) => void; // reason codes only, never the question
 };
 
+const MAX_SOURCES = 8;
 const LANGUAGE_NAMES: Record<Locale, string> = { ar: "Arabic", en: "English", de: "German" };
 const RETRYABLE = new Set(["copied_source", "quotation", "multiple_sentences", "claim_length", "wrong_language"]);
 
@@ -167,18 +167,21 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const language = u.language;
 
   // 3. search
-  const verses = await deps.verses();
-  const byKey = new Map(verses.map((v) => [v.key, v]));
-  const direct = directRefs(question).filter((k) => byKey.has(k));
-  const searched = searchVerses(await deps.searchDocs(), [...u.keywords, ...u.subjects]);
-  const keys = [...new Set([...direct, ...searched])].slice(0, SEARCH_RULES.limit);
-  if (keys.length === 0) return refuse("search_empty", language);
+  const arabicWord = u.keywords.find((k) => /[؀-ۿ]/.test(k));
+  const queries = [...u.subjects.slice(0, 3), ...(arabicWord ? [arabicWord] : [])];
+  const direct = directRefs(question);
+  const found = await deps.search(queries, MAX_SOURCES);
+  const keys = [...new Set([...direct, ...found])];
+  const sources = (await Promise.all(keys.map((k) => deps.getVerse(k))))
+    .filter((v): v is Verse => !!v)
+    .slice(0, MAX_SOURCES);
+  if (sources.length === 0) return refuse("search_empty", language);
+  const citedKeys = sources.map((v) => v.key);
 
-  const sources = keys.map((k) => byKey.get(k)!);
   const context = (await Promise.all(sources.map((v) => deps.neighbours(v.key))))
     .flat()
-    .filter((v, i, all) => !keys.includes(v.key) && all.findIndex((x) => x.key === v.key) === i)
-    .slice(0, SEARCH_RULES.limit);
+    .filter((v, i, all) => !citedKeys.includes(v.key) && all.findIndex((x) => x.key === v.key) === i)
+    .slice(0, MAX_SOURCES);
 
   // 4 + 5. draft and check; one fresh draft if the AI broke a writing rule
   const citable = sources.map(asSource);
