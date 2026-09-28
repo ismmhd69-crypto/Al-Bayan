@@ -118,6 +118,23 @@ Only write the data file. Do not write a runner and do not touch `lib/ask/`.
 
 **The only stops:** anything that would send something to other people; any database schema change; storing Othman al-Khamis quotes; a collector that starts producing wrong quotes (stop that collector, continue with the next letter, report it).
 
+## 6c. FIX BATCH (added 2026-09-28 night, after Claude's review of the big batch)
+
+Great work on the big batch. Claude checked all 823 quotes with an AI relevance check and by hand: **759 are fine, 64 are flagged**, listed in `docs/quote-review-flagged.json` (id, scholar, verdict, title, start of quote, link). al-Albani and al-Barrak had no problems (their collectors have the stricter rules). The causes, in the Ibn Baz and Ibn Uthaymeen collectors:
+1. **Opening formula eats the quote:** quotes that start with "بسم الله الرحمن الرحيم" / "الحمد لله ... أما بعد:" and contain little else. Start the quote right after "أما بعد:" (words unchanged), like Codex did for al-Barrak.
+2. **Letters:** quotes that start with a letter heading ("من عبدالعزيز بن عبدالله بن باز إلى حضرة الأخ ... سلام عليكم ورحمة الله وبركاته") must skip the heading and greeting too, then apply rule 1.
+3. **Answer to another question on the same page** (mostly Ibn Uthaymeen tapes with several questions, some Ibn Baz pages): when a page holds more than one question/answer pair, take the answer that belongs to the title's question; if that cannot be determined reliably, skip the page.
+4. **Ibn Uthaymeen tafsir lessons** ("تفسير سورة ..." / "تفسير آيات من ..."): these are lessons, not fatwas. Skip them.
+5. Add the al-Albani topic rule (`sharesContentWord`) and the 200-character minimum to Ibn Baz and Ibn Uthaymeen too, **plus** an AI relevance check before storing: the checker model (`getVerifier()` from `lib/ai`, run the collector with `npx tsx --conditions=react-server`) answers whether the quote answers the title's question; store only on "yes".
+
+Steps:
+- A. Fix the two parsers and collectors for rules 1 to 5, with tests for each rule (`tests/scholar-excerpt.test.ts`).
+- B. For each of the 64 flagged quotes, re-parse its page with the fixed parser. If it now gives a good quote (passes all rules and the AI check), **update** that row's `text_original` and its search document (`search_text` via `searchText()`). If not, set `published = false` on that source (do not delete). Only do step B if Mo's message to you says the cleanup is approved. Report how many were fixed and how many unpublished.
+- C. Run the AI relevance check once over all Ibn Baz and Ibn Uthaymeen quotes collected after this fix. Report the numbers.
+- D. Notes in Memory and HANDOFF. Do not commit; list your files.
+
+Same lanes as before (do not touch Claude's or Codex's files). No stops except anything sent to other people or any schema change.
+
 ## 7. How to verify
 - `npm test` (112 tests passed at handoff), `npm run typecheck`, `npm run build`, `git diff --check`.
 - For collectors: dry run output reviewed by Mo; after a real run, count rows and spot-check 10 against the live pages.
