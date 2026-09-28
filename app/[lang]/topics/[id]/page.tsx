@@ -3,8 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronRight, Hourglass } from "lucide-react";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
-import { getTopic, getTopicIds } from "@/lib/content";
+import { getTopic, getTopicIds, getTopicVideos } from "@/lib/content";
 import AskAboutButton from "@/components/AskAboutButton";
+import VideoCard from "@/components/VideoCard";
 
 type Params = Promise<{ lang: string; id: string }>;
 
@@ -28,8 +29,10 @@ export default async function TopicPage({ params }: { params: Params }) {
   if (!isLocale(lang)) notFound();
   const topic = await getTopic(id, lang);
   if (!topic) notFound();
-  const t = getDictionary(lang).topics;
+  const dict = getDictionary(lang);
+  const t = dict.topics;
   const related = topic.related;
+  const videos = await getTopicVideos(id);
 
   return (
     <article className="page">
@@ -52,6 +55,20 @@ export default async function TopicPage({ params }: { params: Params }) {
       </div>
 
       <AskAboutButton lang={lang} question={topic.question} label={t.askAbout} />
+
+      {videos.length > 0 && (
+        <section className="topic-group" aria-labelledby="watch-h">
+          <h2 id="watch-h" className="eyebrow">
+            {dict.ask.parts.watch}
+          </h2>
+          <p className="muted">{dict.ask.video.note}</p>
+          <ul className="evidence">
+            {videos.map((v) => (
+              <VideoCard key={v.youtubeId} v={v} labels={dict.ask.video} />
+            ))}
+          </ul>
+        </section>
+      )}
 
       {related.length > 0 && (
         <section className="topic-group" aria-labelledby="related-h">

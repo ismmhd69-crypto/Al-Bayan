@@ -241,6 +241,14 @@ describe("personal questions and direct references", () => {
     expect(directRefs("Explain Q2:255")).toEqual(["2:255"]);
     expect(directRefs("ما معنى الآية 2:255")).toEqual(["2:255"]);
   });
+  it("knows well-known passage names", () => {
+    expect(directRefs("What does Ayat al-Kursi say?")).toEqual(["2:255"]);
+    expect(directRefs("Was bedeutet Ayatul Kursi?")).toEqual(["2:255"]);
+    expect(directRefs("ما معنى آية الكرسي؟")).toEqual(["2:255"]);
+    expect(directRefs("Explain surah al-Fatiha")).toHaveLength(7);
+    expect(directRefs("ما فضل سورة الفاتحة")).toContain("1:1");
+    expect(directRefs("Who is Fatima?")).toEqual([]);
+  });
   it("ignores times and impossible verses", () => {
     expect(directRefs("Can I pray at 10:30?")).toEqual([]);
     expect(directRefs("Read 10:30 please")).toEqual([]);

@@ -164,27 +164,39 @@ export function parseEvidencePackage(
   if (!raw || typeof raw !== "object") return null;
   const record = raw as Record<string, unknown>;
   if (record.status !== "ready" || record.coverage !== "complete" || record.conflict !== "none") return null;
-  if (!Array.isArray(record.assessments) || record.assessments.length !== candidates.length) return null;
+  if (!Array.isArray(record.assessments) || record.assessments.length === 0) return null;
 
+  // Budget models sometimes list a candidate twice or skip one. A skipped candidate is simply not
+  // used; a candidate listed more than once is used only if EVERY listing says direct and
+  // context-safe, with the facets they all agree on. An invented id or label still refuses.
   const byId = new Map(candidates.map((candidate) => [candidate.id, candidate]));
-  const seen = new Set<string>();
-  const selected: SelectedPassage[] = [];
+  const verdicts = new Map<string, { ok: boolean; facets: AnswerFacet[] }>();
   for (const item of record.assessments) {
     if (!item || typeof item !== "object") return null;
     const assessment = item as Record<string, unknown>;
-    if (!isString(assessment.source_id) || !byId.has(assessment.source_id) || seen.has(assessment.source_id)) return null;
+    if (!isString(assessment.source_id) || !byId.has(assessment.source_id)) return null;
     if (!isString(assessment.relevance) || !(["direct", "partial", "context", "mention_only", "unrelated"] as Relevance[]).includes(assessment.relevance as Relevance)) return null;
     if (!isString(assessment.context_safe) || !["yes", "no", "unsure"].includes(assessment.context_safe)) return null;
     if (!Array.isArray(assessment.supported_facets)) return null;
     const facets = [...new Set(assessment.supported_facets.filter(isString))]
       .filter((facet): facet is AnswerFacet => frame.requiredFacets.includes(facet as AnswerFacet));
     if (facets.length !== assessment.supported_facets.length) return null;
-    seen.add(assessment.source_id);
-    if (assessment.relevance === "direct" && assessment.context_safe === "yes" && facets.length > 0) {
-      selected.push({ ...byId.get(assessment.source_id)!, facets });
-    }
+    const ok = assessment.relevance === "direct" && assessment.context_safe === "yes" && facets.length > 0;
+    const before = verdicts.get(assessment.source_id);
+    verdicts.set(
+      assessment.source_id,
+      before
+        ? { ok: before.ok && ok, facets: before.facets.filter((facet) => facets.includes(facet)) }
+        : { ok, facets },
+    );
   }
-  if (seen.size !== candidates.length || selected.length === 0 || selected.length > 8) return null;
+  const selected: SelectedPassage[] = candidates
+    .filter((candidate) => {
+      const v = verdicts.get(candidate.id);
+      return v?.ok && v.facets.length > 0;
+    })
+    .map((candidate) => ({ ...candidate, facets: verdicts.get(candidate.id)!.facets }));
+  if (selected.length === 0 || selected.length > 8) return null;
   if (!frame.requiredFacets.every((facet) => selected.some((passage) => passage.facets.includes(facet)))) return null;
 
   return {

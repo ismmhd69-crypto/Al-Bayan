@@ -1,6 +1,6 @@
 import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import { toSearchQuery } from "./scholar-rules";
+import { searchQueryLevels } from "./scholar-rules";
 import { approvedChannelIds } from "./youtube-channels";
 import type { VideoSuggestion } from "./youtube-rules";
 
@@ -17,27 +17,15 @@ function db(): SupabaseClient | null {
   return client;
 }
 
-// The first `n` words of a phrase that toSearchQuery would keep (at least 2 words must remain).
-function shorten(phrase: string, n: number): string {
-  if (!Number.isFinite(n)) return phrase;
-  const kept = toSearchQuery([phrase]).split(" ").filter(Boolean);
-  return kept.length >= 2 ? kept.slice(0, n).join(" ") : "";
-}
-
 type VideoHit = { youtube_id: string; channel_id: string | null; title: string; duration_seconds: number | null };
 
 export async function searchVideos(phrases: string[], limit = 2): Promise<VideoSuggestion[]> {
   const supabase = db();
   if (!supabase) return [];
-  // Every word of a phrase must be in the title. Ask's phrases are often longer than video titles,
-  // so if the full phrases find nothing, try their first 3 words, then their first 2 (never one
-  // word alone, which would match loosely related videos).
+  // Every word of a phrase must be in the title; Ask's phrases are often longer than video titles,
+  // so looser levels are tried when the strict search finds nothing (see searchQueryLevels).
   let hits: VideoHit[] = [];
-  const tried = new Set<string>();
-  for (const words of [Infinity, 3, 2]) {
-    const query = toSearchQuery(phrases.map((p) => shorten(p, words)));
-    if (!query || tried.has(query)) continue;
-    tried.add(query);
+  for (const query of searchQueryLevels(phrases)) {
     const { data, error } = await supabase.rpc("search_approved_videos", { query_text: query, match_count: limit * 3 });
     if (error) throw new Error(`video search failed: ${error.message}`);
     hits = (data as VideoHit[] | null) ?? [];

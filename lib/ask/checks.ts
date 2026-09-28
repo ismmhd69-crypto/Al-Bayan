@@ -230,11 +230,19 @@ export function looksPersonal(question: string): boolean {
 // or a verse (so "10:30" as a time is ignored), and only if that verse really exists.
 const QURAN_WORD = /\b(quran|qur'an|koran|surah?|sure|ayah?|ayat|verse|vers)\b|القرآن|سورة|آية|اية/i;
 
+// Well-known names of passages, which always mean the same verses.
+const NAMED_PASSAGES: [RegExp, string[]][] = [
+  [/ayat[\s-]*(?:al|ul|el)?[\s-]*kurs[iy]|throne\s*verse|thronvers|آي[ةه]\s*الكرسي/i, ["2:255"]],
+  [/(?:al|el)?[\s-]*f[aā]ti[hḥ]a|الفاتح[ةه]/i, ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:7"]],
+];
+
 export function directRefs(question: string): string[] {
+  const named = NAMED_PASSAGES.flatMap(([pattern, keys]) => (pattern.test(question) ? keys : []));
   const marked = /\bQ\d{1,3}:\d{1,3}\b/i.test(question);
-  if (!marked && !QURAN_WORD.test(question)) return [];
-  return [...question.matchAll(/(?<![\d:])Q?(\d{1,3})\s*:\s*(\d{1,3})(?![\d:])(?!\s*(?:am|pm|uhr)\b)/gi)]
+  if (!marked && !QURAN_WORD.test(question)) return named;
+  const numbered = [...question.matchAll(/(?<![\d:])Q?(\d{1,3})\s*:\s*(\d{1,3})(?![\d:])(?!\s*(?:am|pm|uhr)\b)/gi)]
     .map((m) => [Number(m[1]), Number(m[2])])
     .filter(([c, v]) => isRealVerse(c, v))
     .map(([c, v]) => `${c}:${v}`);
+  return [...new Set([...named, ...numbered])];
 }

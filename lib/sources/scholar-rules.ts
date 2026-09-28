@@ -21,6 +21,9 @@ export const QUOTE_SITES: Record<string, string[]> = {
   "ibn-uthaymeen": ["binothaimeen.net"],
   "al-albani": ["al-albany.com"],
   "al-fawzan": ["alfawzan.af.org.sa", "alifta.gov.sa"],
+  // Mo, 2026-09-28: Committee fatwas credited to the Committee, approved signatories in the reference.
+  "permanent-committee": ["alifta.gov.sa"],
+  "al-barrak": ["sh-albarrak.com"],
 };
 
 export function scholarQuoteAllowed(q: ScholarQuote): boolean {
@@ -56,3 +59,27 @@ export function toSearchQuery(phrases: string[]): string {
   return [...new Set(parts)].slice(0, 6).join(" or ");
 }
 
+
+// Question-frame words that rarely appear in a quote's own text ("ruling", "evidence", "permissibility").
+const GENERIC = new Set(["حكم", "احكام", "ادله", "دليل", "مشروعيه", "جواز", "يجوز", "معني", "كيفيه", "شروط", "احاديث"]);
+
+/**
+ * Searches from strict to looser, tried in order until one finds something: the full phrases, their
+ * first 3 words, the same without question-frame words, then their first 2 words. A phrase always
+ * keeps at least 2 words, so a single common word never matches on its own. Loose matches are only
+ * candidates: the evidence check (quotes) or the title match (videos) still decides.
+ */
+export function searchQueryLevels(phrases: string[]): string[] {
+  const words = phrases.map((p) => toSearchQuery([p]).split(" ").filter(Boolean));
+  const level = (n: number, dropGeneric: boolean) =>
+    [...new Set(
+      words
+        .map((w) => (dropGeneric ? w.filter((x) => !GENERIC.has(x)) : w))
+        .filter((w) => w.length >= 2)
+        .map((w) => w.slice(0, n).join(" ")),
+    )]
+      .slice(0, 6)
+      .join(" or ");
+  const levels = [toSearchQuery(phrases), level(3, false), level(3, true), level(2, true)];
+  return [...new Set(levels.filter((q) => q.length > 0))];
+}

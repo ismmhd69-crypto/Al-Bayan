@@ -1,6 +1,6 @@
 import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import { toSearchQuery, type ScholarQuote } from "./scholar-rules";
+import { searchQueryLevels, type ScholarQuote } from "./scholar-rules";
 
 // Reads the private scholar quote library (collected short quotes, see scripts/collect-binbaz.ts).
 // The library is not public, so this runs on the server only, with the secret key.
@@ -31,18 +31,23 @@ type SourceRow = {
 /** Quotes whose search text matches the question's Arabic phrases, best first. */
 export async function searchScholarQuotes(phrases: string[], limit = 3): Promise<ScholarQuote[]> {
   const supabase = db();
-  const query = toSearchQuery(phrases);
-  if (!supabase || !query) return [];
+  if (!supabase) return [];
 
-  const { data: hits, error } = await supabase.rpc("search_approved_source_candidates", {
-    query_text: query,
-    answer_language: "ar",
-    question_type: "general",
-    required_facets: [],
-    match_count: limit * 3,
-  });
-  if (error) throw new Error(`scholar search failed: ${error.message}`);
-  const ids = [...new Set((hits as { source_id: string }[] | null ?? []).map((h) => h.source_id))].slice(0, limit * 2);
+  // Strict first, then looser phrases (see searchQueryLevels); the evidence check still judges each quote.
+  let hits: { source_id: string }[] = [];
+  for (const query of searchQueryLevels(phrases)) {
+    const { data, error } = await supabase.rpc("search_approved_source_candidates", {
+      query_text: query,
+      answer_language: "ar",
+      question_type: "general",
+      required_facets: [],
+      match_count: limit * 3,
+    });
+    if (error) throw new Error(`scholar search failed: ${error.message}`);
+    hits = (data as { source_id: string }[] | null) ?? [];
+    if (hits.length > 0) break;
+  }
+  const ids = [...new Set(hits.map((h) => h.source_id))].slice(0, limit * 2);
   if (ids.length === 0) return [];
 
   const { data: rows, error: rowError } = await supabase

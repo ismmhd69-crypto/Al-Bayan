@@ -1,6 +1,6 @@
 // Tests for scholar quote rules and the library search phrases. Made-up texts.
 import { describe, expect, it } from "vitest";
-import { scholarQuoteAllowed, toSearchQuery, type ScholarQuote } from "@/lib/sources/scholar-rules";
+import { scholarQuoteAllowed, searchQueryLevels, toSearchQuery, type ScholarQuote } from "@/lib/sources/scholar-rules";
 
 const quote: ScholarQuote = {
   id: "S11111111-1111-1111-1111-111111111111",
@@ -37,5 +37,19 @@ describe("toSearchQuery", () => {
   it("returns an empty query when nothing meaningful is left", () => {
     expect(toSearchQuery(["من في", "hello"])).toBe("");
     expect(toSearchQuery([])).toBe("");
+  });
+});
+
+describe("searchQueryLevels", () => {
+  it("goes from the full phrases to shorter ones, dropping question-frame words", () => {
+    const levels = searchQueryLevels(["حكم التوسل بالنبي الأحاديث", "التوسل بجاه النبي أدلة الجواز"]);
+    expect(levels[0]).toBe("حكم توسل نبي احاديث or توسل بجاه نبي ادله جواز");
+    expect(levels).toContain("توسل نبي or توسل بجاه");
+    // Never a single word on its own.
+    for (const q of levels) for (const part of q.split(" or ")) expect(part.split(" ").length).toBeGreaterThanOrEqual(2);
+  });
+
+  it("returns nothing for phrases without usable words", () => {
+    expect(searchQueryLevels(["ما هو", "?"])).toEqual([]);
   });
 });

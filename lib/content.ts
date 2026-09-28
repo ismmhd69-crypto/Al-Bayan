@@ -1,6 +1,8 @@
 import "server-only";
 import { createClient } from "@supabase/supabase-js";
 import type { Locale } from "@/lib/i18n";
+import { approvedChannelIds } from "@/lib/sources/youtube-channels";
+import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
 
 // Reads published content with the public key. Row-level security only lets it see
 // published rows, and it can never write.
@@ -86,4 +88,28 @@ export async function getTopic(id: string, lang: Locale): Promise<Topic | null> 
       return r ? [{ id: r.id, title: r.topic_texts[0].title }] : [];
     }),
   };
+}
+
+type TopicVideoRow = {
+  sort: number;
+  videos: { youtube_id: string; channel_id: string | null; title: string; duration_seconds: number | null } | null;
+};
+
+/** Videos linked to a topic (scripts/link-topic-videos.ts). Row-level security only returns approved videos. */
+export async function getTopicVideos(topicId: string): Promise<VideoSuggestion[]> {
+  const { data, error } = await supabase
+    .from("topic_videos")
+    .select("sort, videos(youtube_id, channel_id, title, duration_seconds)")
+    .eq("topic_id", topicId)
+    .order("sort");
+  if (error) fail("topic videos", error);
+  return ((data as unknown as TopicVideoRow[]) ?? [])
+    .map((r) => r.videos)
+    .filter((v): v is NonNullable<TopicVideoRow["videos"]> => !!v && !!v.channel_id && approvedChannelIds.has(v.channel_id))
+    .map((v) => ({
+      youtubeId: v.youtube_id,
+      channelId: v.channel_id!,
+      title: v.title,
+      minutes: Math.max(1, Math.round((v.duration_seconds ?? 60) / 60)),
+    }));
 }

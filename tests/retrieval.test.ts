@@ -96,13 +96,24 @@ describe("structured retrieval", () => {
     expect(result).toBeNull();
   });
 
+  it("tolerates a repeated or skipped candidate, using only agreed direct verdicts", () => {
+    const direct = { source_id: "Q9:1", relevance: "direct", supported_facets: ["identity", "attributes"], context_safe: "yes" };
+    const twice = parseEvidencePackage({ status: "ready", coverage: "complete", conflict: "none", assessments: [direct, direct] }, frame, candidates);
+    expect(twice?.passages.map((p) => p.id)).toEqual(["Q9:1"]);
+    // Repeated with fewer facets: only the agreed facets count, so a missing facet refuses.
+    expect(parseEvidencePackage({ status: "ready", coverage: "complete", conflict: "none", assessments: [direct, { ...direct, supported_facets: ["identity"] }] }, frame, candidates)).toBeNull();
+  });
+
   it("refuses duplicate, unknown, unsafe or conflicting assessments", () => {
     const base = [
       { source_id: "Q9:1", relevance: "direct", supported_facets: ["identity", "attributes"], context_safe: "yes" },
       { source_id: "Q9:2", relevance: "unrelated", supported_facets: [], context_safe: "yes" },
     ];
     expect(parseEvidencePackage({ status: "conflicting", coverage: "complete", conflict: "present", assessments: base }, frame, candidates)).toBeNull();
-    expect(parseEvidencePackage({ status: "ready", coverage: "complete", conflict: "none", assessments: [base[0], base[0]] }, frame, candidates)).toBeNull();
+    // Listed twice with different verdicts: not used.
+    expect(parseEvidencePackage({ status: "ready", coverage: "complete", conflict: "none", assessments: [base[0], { ...base[0], relevance: "partial" }, base[1]] }, frame, candidates)).toBeNull();
+    // An id that was never a candidate.
+    expect(parseEvidencePackage({ status: "ready", coverage: "complete", conflict: "none", assessments: [base[0], { ...base[1], source_id: "Q9:99" }] }, frame, candidates)).toBeNull();
     expect(parseEvidencePackage({
       status: "ready",
       coverage: "complete",

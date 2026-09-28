@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { isLocale } from "@/lib/i18n";
 import { ask } from "@/lib/ask/pipeline";
 import { askEnabled, takeSlot, visitorKey, withSlot } from "@/lib/ask/limits";
+import { GoogleBusyError } from "@/lib/ai/gemini";
 
 // Privacy (plan section 10): the question text is never logged, stored or put in a URL.
 // Errors are logged without the question.
@@ -55,6 +56,12 @@ export async function POST(request: Request) {
   try {
     return NextResponse.json(await withSlot(() => ask(question.trim(), lang)), { headers: noStore });
   } catch (err) {
+    // Google busy on every door: say so, so the visitor knows it is not their question.
+    // A deadline hit (slow AI) is shown the same way.
+    if (err instanceof GoogleBusyError || (err instanceof Error && err.name === "TimeoutError")) {
+      console.warn("ask: AI busy");
+      return reply("busy", 503);
+    }
     console.error("ask pipeline failed:", err instanceof Error ? err.message : "unknown error");
     return reply("error", 502);
   }

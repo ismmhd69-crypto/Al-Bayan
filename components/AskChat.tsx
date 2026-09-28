@@ -5,7 +5,8 @@ import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowUp, BookOpen, ChevronDown, ExternalLink, PlayCircle, Quote, ShieldCheck, Users } from "lucide-react";
 import type { Dictionary } from "@/lib/i18n";
 import type { Answer } from "@/lib/ask/pipeline";
-import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
+import VideoCard from "./VideoCard";
+import { ReportProblem } from "./ReportProblem";
 import { takePendingQuestion } from "@/lib/pending";
 import { Beacon } from "./Logo";
 
@@ -81,6 +82,8 @@ export default function AskChat({
                 ? { kind: "text", text: t.outOfScope }
                 : data.status === "rate_limited"
                   ? { kind: "text", text: t.rateLimited }
+                  : data.status === "busy"
+                    ? { kind: "text", text: t.busy }
                   : data.status === "too_long"
                     ? { kind: "text", text: t.tooLong }
                     : { kind: "text", text: t.error };
@@ -412,7 +415,7 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
           <p className="muted">{t.video.note}</p>
           <ul className="evidence">
             {a.videos.map((v) => (
-              <VideoCard key={v.youtubeId} v={v} t={t} />
+              <VideoCard key={v.youtubeId} v={v} labels={t.video} />
             ))}
           </ul>
         </section>
@@ -433,50 +436,12 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
         )}
         . {t.notFatwa}
       </p>
+      <ReportProblem
+        lang={a.language}
+        sourceIds={a.evidence.map((e) => (e.kind === "quran" ? `Q${e.key}` : e.key))}
+        labels={t.report}
+      />
     </div>
-  );
-}
-
-// Privacy: nothing loads from YouTube until the visitor presses play (no thumbnail, no player).
-// Then the privacy-enhanced player (youtube-nocookie.com) is loaded.
-function VideoCard({ v, t }: { v: VideoSuggestion; t: AskText }) {
-  const [playing, setPlaying] = useState(false);
-  const channel = t.video.channels[v.channelId as keyof typeof t.video.channels] ?? "";
-  return (
-    <li>
-      <p className="hadith-meta">
-        <span className="hadith-collection">{channel}</span>
-        <span>
-          {v.minutes} {t.video.minutes}
-        </span>
-      </p>
-      <p className="quote-title" lang="ar" dir="rtl" translate="no">
-        {v.title}
-      </p>
-      {playing ? (
-        <div className="video-frame">
-          <iframe
-            src={`https://www.youtube-nocookie.com/embed/${v.youtubeId}?autoplay=1&rel=0`}
-            title={v.title}
-            allow="autoplay; encrypted-media; picture-in-picture"
-            allowFullScreen
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
-        </div>
-      ) : (
-        <>
-          <button type="button" className="video-play" onClick={() => setPlaying(true)}>
-            <PlayCircle aria-hidden="true" />
-            {t.video.play}
-          </button>
-          <p className="verse-by">{t.video.privacy}</p>
-        </>
-      )}
-      <a className="verse-link" href={`https://www.youtube.com/watch?v=${v.youtubeId}`} target="_blank" rel="noopener noreferrer">
-        {t.video.youtube}
-        <ExternalLink aria-hidden="true" />
-      </a>
-    </li>
   );
 }
 

@@ -109,3 +109,27 @@ Add a row to `HANDOFF.md` section 2 and a short line in `Memory Al Bayan.md`: wh
 
 ## 7. Report format to Mo
 Plain English, short, no em dashes: what you did, numbers, what you could not do, what needs his decision.
+
+---
+
+## BATCH 2 (added 2026-09-28 night)
+
+Batch 1 is done, thank you. Claude reviews and applies your migrations and adds `QUOTE_SITES`, labels and the report button; do not do those yourself. Same rules as before (sections 3 and 4 and the BIG BATCH rules): no applying to the database, nothing sent to other people, dry runs saved in `docs/codex-dry-runs.md` without stopping, one report at the end.
+
+**Your new files (lane):** `lib/sources/sunnah.ts`, `tests/sunnah.test.ts`, `docs/sunnah-research.md`, `scripts/import-sunnah.ts` (only if Task B2 says an import is needed), your existing parser/collector files, `docs/codex-dry-runs.md`. Read-only for you: `lib/sources/hadith.ts`, `lib/sources/hadith-rules.ts` (import from them, do not edit), everything Claude or Gemini owns (section 4).
+
+### Task A: al-Barrak real run (after Claude's go-ahead)
+Claude will apply the al-Barrak rights record and add `"al-barrak": ["sh-albarrak.com"]` to `QUOTE_SITES`, then tell Mo. When Mo tells you "al-Barrak approved", run `scripts/collect-barrak.ts` for real with the full topic list in `data/scholar-queries.ts` (Gemini grew it to about 250 queries), count rows, and spot-check 10 against the live pages. Until then, go on with Task B.
+
+### Task B: Sunnah.com hadith connector, ready to switch on
+Mo requested a Sunnah.com API key (https://github.com/sunnah-com/api/issues/3946); it has not arrived. Build everything so that switching on is one setting once the key is in `.env` as `SUNNAH_API_KEY`.
+1. **Research** (`docs/sunnah-research.md`): read the official API documentation (the sunnah-com/api GitHub repository and its linked docs). Which endpoints exist (collections, books, hadith by number, search?), rate limits, response fields (Arabic and English text, grades and who graded, numbering systems, chapter), and the terms of use: caching, storing, showing, AI processing. Quote the exact terms that matter.
+2. **Connector** `lib/sources/sunnah.ts`: returns the same `Hadith` shape that `lib/sources/hadith.ts` returns (read that file first), for **Sahih al-Bukhari and Sahih Muslim only**, reusing the rules in `hadith-rules.ts` (collection, acceptable grade, confirmed printed number, skip Muslim's introduction and Bukhari's chapter-heading reports). Export `searchSunnahMulti(queries)` with the same signature as `searchHadithMulti` so Claude can plug it in with one line. If the API has no search, design the search: say in the research file what is allowed, and propose either (a) using HadeethEnc titles to find hadith and Sunnah.com for the full text and numbers, or (b) a local index, only if the terms allow storing. No bulk download before Mo agrees to the terms reading.
+3. **Tests** `tests/sunnah.test.ts` with made-up API responses: Bukhari/Muslim accepted with numbers; other collections, weak grades, missing numbers and Muslim's introduction rejected; API errors and timeouts return nothing without throwing; the key is never put in a URL or log.
+4. **Stop point:** the terms reading and the chosen search design go in the final report for Mo. Do not call the real API without a key, and never ask for one.
+
+### Task C: Permanent Committee, second attempt
+The sitemap had no usable fatwa pages. Look at the network calls the alifta.gov.sa fatwa pages make in a browser (their public JSON API), and at other official routes to "فتاوى اللجنة الدائمة" on alifta.gov.sa (for example volume and fatwa number pages). If you find stable public pages with question, answer and signatories, update `scripts/collect-alifta.ts` and add a dry run. If not, write down exactly what you tried. Never bypass blocks.
+
+### Task D: notes
+Row in `HANDOFF.md` section 2, short line in `Memory Al Bayan.md`, list of your changed files in the report.
