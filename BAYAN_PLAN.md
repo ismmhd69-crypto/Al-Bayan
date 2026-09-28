@@ -67,7 +67,7 @@ Most answers carry 2 to 4 sources.
 | Shaykh Abdul-Aziz ibn Baz | binbaz.org.sa |
 | Shaykh Muhammad ibn Salih al-Uthaymeen | binothaimeen.net |
 | Shaykh Muhammad Nasir al-Din al-Albani | al-albany.com |
-| Shaykh Salih al-Fawzan | al-fuzan.com |
+| Shaykh Salih al-Fawzan | alfawzan.af.org.sa (corrected 2026-09-28: al-fuzan.com is Shaykh Abdullah ibn Salih al-Fawzan) |
 | Shaykh Abdul-Muhsin al-Abbad | al-abbaad.com |
 | Shaykh Abdur-Razzaq al-Badr | al-badr.net |
 | Shaykh Rabee al-Madkhali | rabee.net |
@@ -81,8 +81,12 @@ Most answers carry 2 to 4 sources.
 | Shaykh Dagash al-Ajmi | kalelm.com (scholar page) |
 | Shaykh Muhammad Sa'id Raslan | rslan.com |
 | Shaykh Aziz ibn Farhan al-Anizi | azizfarhan.com |
-| Shaykh ash-Shuwayr | shuwaier.com |
+| Shaykh Muhammad ibn Sa'd al-Shuwai'ir (compiler of Majmu' Fatawa Ibn Baz) | no verified official site yet (shuwaier.com is Shaykh Abdul-Salam al-Shuwai'ir) |
 | Shaykh Muhammad Ramzan al-Hajiri | mohammed-ramzan.com |
+
+**Permanent Committee fatwas** (al-Lajnah ad-Da'imah, alifta.gov.sa) are used when an approved scholar on this list signed them (for example Ibn Baz, al-Fawzan, al-Ghudayyan). Decided by Mo 2026-09-28.
+
+**Scholar quote library (Mo's decisions, 2026-09-28):** start with Ibn Baz, Ibn Uthaymeen, al-Albani and al-Fawzan (plus Permanent Committee fatwas they signed). Short quotes only, at most 600 characters of the Arabic original, unchanged, with the scholar, the printed source and a link; rights records say "no written permission yet" and permission letters are sent.
 
 **How these sites are used**
 - None of them offers a developer API, and several block automated reading.
