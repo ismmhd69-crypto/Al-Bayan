@@ -33,10 +33,48 @@ function latinPlain(text: string): string {
     .replace(/['’‘`ʿʾ]/g, "");
 }
 
+// Question words and names that appear everywhere, so they never decide a match on their own.
+const STOP = new Set([
+  "why", "what", "doe", "do", "when", "where", "which", "who", "how", "about", "tell", "the", "and", "you", "they",
+  "muslim", "islam", "allah", "god", "prophet", "messenger",
+  "warum", "wieso", "weshalb", "was", "wie", "wann", "welch", "wer", "ueber", "gott", "und", "die", "der", "das",
+  "لماذا", "ماذا", "كيف", "متي", "هل", "الذي", "مسلم", "مسلمون", "مسلمين", "اسلام", "الله", "نبي", "رسول", "عن",
+]);
+
+const ARABIC_PREFIXES = ["وال", "بال", "فال", "كال", "لل", "ال", "و", "ف", "ب", "ل"];
+const ARABIC_SUFFIXES = ["ات", "ون", "ين", "ها", "هم", "ه"];
+
+function arabicStem(word: string): string {
+  let w = word;
+  for (const p of ARABIC_PREFIXES) if (w.startsWith(p) && w.length - p.length >= 3) { w = w.slice(p.length); break; }
+  for (const s of ARABIC_SUFFIXES) if (w.endsWith(s) && w.length - s.length >= 3) { w = w.slice(0, -s.length); break; }
+  return w;
+}
+
+// English and German word endings, so fast / fasts / fasting / fasted / fasten / fastet match,
+// while different words like "faster" stay different.
+const LATIN_SUFFIXES = ["ings", "ing", "est", "ed", "es", "en", "et", "te", "s", "e", "n"];
+
+// Strips endings repeatedly, so "intention" and "intentions" end up the same.
+function latinStem(word: string): string {
+  let w = word;
+  for (let changed = true; changed; ) {
+    changed = false;
+    for (const s of LATIN_SUFFIXES) {
+      if (w.endsWith(s) && w.length - s.length >= 3) {
+        w = w.slice(0, -s.length);
+        changed = true;
+        break;
+      }
+    }
+  }
+  return w;
+}
+
 function terms(text: string): Set<string> {
-  const ar = (normalizeArabic(text).match(/[ء-ي]+/g) ?? []).filter((w) => w.length >= 3);
-  const lat = (latinPlain(text).match(/[a-zß]+/g) ?? []).filter((w) => w.length >= 4).map((w) => w.slice(0, 6));
-  return new Set([...ar, ...lat]);
+  const ar = (normalizeArabic(text).match(/[ء-ي]+/g) ?? []).filter((w) => w.length >= 3).map(arabicStem);
+  const lat = (latinPlain(text).match(/[a-zß]+/g) ?? []).filter((w) => w.length >= 3).map(latinStem);
+  return new Set([...ar, ...lat].filter((t) => !STOP.has(t)));
 }
 
 async function loadCatalogue(language: Locale): Promise<Entry[]> {
@@ -84,10 +122,16 @@ export async function searchHadithIds(queries: string[], language: Locale, limit
   if (wanted.size === 0) return [];
   // A single search word may match on its own; otherwise at least two different words must match.
   const needed = Math.min(2, wanted.size);
+  // Rarer words count more (inverse document frequency).
+  const weight = (w: string) => Math.log(1 + entries.length / (1 + entries.filter((e) => e.terms.has(w)).length));
+  const weights = new Map([...wanted].map((w) => [w, weight(w)]));
   return entries
-    .map((e) => ({ id: e.id, hits: [...wanted].filter((w) => e.terms.has(w)).length }))
+    .map((e) => {
+      const hit = [...wanted].filter((w) => e.terms.has(w));
+      return { id: e.id, hits: hit.length, score: hit.reduce((s, w) => s + weights.get(w)!, 0) };
+    })
     .filter((x) => x.hits >= needed)
-    .sort((a, b) => b.hits - a.hits)
+    .sort((a, b) => b.score - a.score)
     .slice(0, limit)
     .map((x) => x.id);
 }
