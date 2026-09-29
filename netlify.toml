@@ -6,6 +6,11 @@
   command = "npm run build"
   publish = ".next"
 
+# Netlify's official Next.js runtime: turns the build into pages, server functions and the proxy.
+# Without it Netlify only uploads files and every page shows "not found".
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 [build.environment]
   # Next.js 16 needs Node 20.9 or newer; this matches local development.
   NODE_VERSION = "22"
