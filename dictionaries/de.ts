@@ -21,6 +21,7 @@ const de: typeof en = {
     start: "Neu im Islam",
     more: "Mehr",
     review: "Prüfen",
+    support: "Bayan unterstützen",
   },
   home: {
     title: "Frag alles über den Islam.",

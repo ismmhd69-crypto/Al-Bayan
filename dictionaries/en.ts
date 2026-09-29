@@ -19,6 +19,7 @@ const en = {
     start: "New to Islam",
     more: "More",
     review: "Review",
+    support: "Support Bayan",
   },
   home: {
     title: "Ask anything about Islam.",

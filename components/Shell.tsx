@@ -2,19 +2,21 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { CircleHelp, ClipboardCheck, Compass, Ellipsis, House, MessageCircle, type LucideIcon } from "lucide-react";
+import { CircleHelp, ClipboardCheck, Compass, Ellipsis, HeartHandshake, House, MessageCircle, type LucideIcon } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import Logo from "./Logo";
 import LangSwitch from "./LangSwitch";
 
-type NavKey = "home" | "ask" | "topics" | "start" | "more" | "review";
+type NavKey = "home" | "ask" | "topics" | "start" | "more" | "support" | "review";
 
-const items: { key: NavKey; path: string; Icon: LucideIcon }[] = [
+// sidebarOnly: shown in the desktop sidebar, left out of the phone tab bar (reachable via More there).
+const items: { key: NavKey; path: string; Icon: LucideIcon; sidebarOnly?: boolean }[] = [
   { key: "home", path: "", Icon: House },
   { key: "ask", path: "/ask", Icon: MessageCircle },
   { key: "topics", path: "/topics", Icon: CircleHelp },
   { key: "start", path: "/start", Icon: Compass },
   { key: "more", path: "/more", Icon: Ellipsis },
+  { key: "support", path: "/support", Icon: HeartHandshake, sidebarOnly: true },
   // Temporary, until launch: review of prepared answers (Mo, 2026-09-29).
   { key: "review", path: "/review", Icon: ClipboardCheck },
 ];
@@ -69,12 +71,14 @@ export default function Shell({
       </main>
 
       <nav aria-label={nav.label} className="tabbar">
-        {items.map(({ key, path, Icon }) => (
-          <Link key={key} href={`${base}${path}`} aria-current={isActive(path) ? "page" : undefined}>
-            <Icon aria-hidden="true" />
-            <span>{nav[key]}</span>
-          </Link>
-        ))}
+        {items
+          .filter((item) => !item.sidebarOnly)
+          .map(({ key, path, Icon }) => (
+            <Link key={key} href={`${base}${path}`} aria-current={isActive(path) ? "page" : undefined}>
+              <Icon aria-hidden="true" />
+              <span>{nav[key]}</span>
+            </Link>
+          ))}
       </nav>
     </div>
   );

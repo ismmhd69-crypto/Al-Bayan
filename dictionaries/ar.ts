@@ -21,6 +21,7 @@ const ar: typeof en = {
     start: "جديد في الإسلام",
     more: "المزيد",
     review: "مراجعة",
+    support: "ادعم بيان",
   },
   home: {
     title: "اسأل عن أي شيء في الإسلام.",
