@@ -756,14 +756,18 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     id: "repentance-steps-en", lang: "en", question: "How do I repent from a sin?", expect: "answer", focus: true,
     expectedRequestedPoints: [{ facet: "steps", text: "steps of repentance" }],
     mustContain: [
-      { point: "stop the sin", anyOf: ["stop the sin", "leave the sin", "give up the sin", "cease the sin"] },
+      { point: "stop the sin", anyOf: ["stop the sin", "stopping the sin", "leave the sin", "give up the sin", "cease the sin"] },
       { point: "feel remorse", anyOf: ["regret", "remorse"] },
-      { point: "resolve not to return", anyOf: ["not return", "not repeat", "not do it again"] },
+      { point: "resolve not to return", anyOf: ["not return", "not to return", "not repeat", "not to repeat", "not do it again"] },
     ],
   },
   {
     id: "conversion-guidance-de", lang: "de", question: "Was muss ich tun, um Muslim zu werden?", expect: "answer", focus: true,
     expectedRequestedPoints: [{ facet: "steps", text: "how to become Muslim" }],
-    mustContain: [{ point: "shahada or testimony of faith", anyOf: ["schahada", "shahada", "glaubensbekenntnis"] }],
+    mustContain: [
+      { point: "testimony to Allah alone", anyOf: ["keine gottheit", "keinen gott", "einzige gott", "allah allein"] },
+      { point: "Muhammad named in testimony", anyOf: ["muhammad", "mohammed"] },
+      { point: "Muhammad as messenger", anyOf: ["gesandte", "prophet"] },
+    ],
   },
 ];

@@ -163,6 +163,44 @@ export function questionFrameMismatch(question: string, frame: QuestionFrame): s
   return null;
 }
 
+/** Repair only explicit facets detected from the visitor's wording. This changes a search plan,
+ * never an answer: the ordinary evidence selector must still find direct support for each point. */
+export function repairExplicitFrame(question: string, frame: QuestionFrame): QuestionFrame {
+  if (frame.kind !== "question") return frame;
+  const problem = questionFrameMismatch(question, frame);
+  const enteringIslam = /become (?:a )?muslim|convert to islam|muslim werden|zum islam konvertier|أصبح مسلما|أسلم/i.test(question)
+    && !/forced?|gezwungen|إكراه|إجبار/i.test(question);
+  if (!problem && !enteringIslam) return frame;
+  let points = frame.requirements.map(({ text, facet }) => ({ text, facet }));
+  const subject = frame.subjects[0] ?? "the question";
+  const add = (facet: AnswerFacet, text: string) => {
+    if (!points.some((point) => point.facet === facet) && points.length < 4) points.push({ facet, text });
+  };
+  if (problem === "gold_zakat_rate_confused" || problem === "gold_zakat_threshold_added") {
+    points = points.map((point) => point.facet === "quantity"
+      ? { facet: "quantity" as const, text: "rate or amount of gold zakat due" } : point);
+  } else if (problem === "gold_zakat_rate_missing") add("quantity", "rate or amount of gold zakat due");
+  else if (problem === "conditions_missing") add("conditions", `conditions of ${subject}`);
+  else if (problem === "reason_missing") add("reason", `reason for ${subject}`);
+  else if (problem === "quantity_missing") add("quantity", `requested number for ${subject}`);
+  else if (problem === "steps_missing") add("steps", `steps for ${subject}`);
+  else if (problem === "objection_response_missing") add("response", `response to the challenge about ${subject}`);
+  else if (problem === "unasked_definition") points = points.filter((point) => point.facet !== "definition");
+  // A second pass catches a question that asks for both conditions and the payable rate.
+  const provisional = { ...frame, requirements: points.map((point, index) => ({ ...point, id: `R${index + 1}` })) };
+  if (questionFrameMismatch(question, provisional) === "conditions_missing") add("conditions", `conditions of ${subject}`);
+  if (enteringIslam) {
+    if (!points.some((point) => /allah alone|only allah|one god/.test(point.text.toLowerCase()))) {
+      add("steps", "testimony that only Allah is God");
+    }
+    if (!points.some((point) => /muhammad.*messenger|muhammad.*prophet/.test(point.text.toLowerCase()))) {
+      add("steps", "testimony that Muhammad is Allah's messenger");
+    }
+  }
+  const requirements = points.map((point, index) => ({ ...point, id: `R${index + 1}` }));
+  return { ...frame, requirements, requiredFacets: [...new Set(requirements.map((point) => point.facet))] };
+}
+
 /** Orders a small multilingual query set. Search phrases are hints only; they never become claims. */
 export function buildSearchQueries(frame: QuestionFrame, limit = 6): string[] {
   const languageOrder = [...new Set<Locale>([frame.language, "ar", "en", "de"])];

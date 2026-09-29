@@ -3,6 +3,7 @@
 
 import { normalizeArabic } from "@/lib/ask/checks";
 import { MAX_QUOTE_CHARS } from "./scholar-excerpt";
+import { SCHOLAR_SEARCH_ALIASES, type ScholarSearchAlias } from "@/data/scholar-search-aliases";
 
 export type ScholarQuote = {
   id: string; // "S" + database id
@@ -212,4 +213,97 @@ export function searchQueryLevels(phrases: string[]): string[] {
 
   const levels = [toSearchQuery(phrases), level(3, false), level(3, true), level(2, true)];
   return [...new Set(levels.filter((q) => q.length > 0))];
+}
+
+/**
+ * Evaluates whether an alias is safely triggered by the input phrases.
+ * An alias matches if:
+ * 1. Exact trigger phrase or normalized trigger phrase appears in the input text, OR
+ * 2. Specific substantive trigger stems are present with their required context stems,
+ * AND no negative exclusion stems are present.
+ * Never triggers on broad/generic words alone (e.g. صلاة, صيام, عدد, حكم, إسلام).
+ */
+export function isAliasTriggered(alias: ScholarSearchAlias, phrases: string[]): boolean {
+  if (phrases.length === 0) return false;
+  const combined = phrases.join(" ");
+  const normalized = normalizeArabic(combined);
+  const stems = extractSubstantiveStems(combined);
+
+  if (stems.size === 0) return false;
+
+  // Negative stem check (e.g. divorce without death context must never trigger widowhood)
+  if (alias.negativeStems && alias.negativeStems.some((neg) => stems.has(neg))) {
+    return false;
+  }
+
+  // 1. Trigger phrase match
+  for (const tp of alias.triggerPhrases) {
+    const normTp = normalizeArabic(tp);
+    if (normalized.includes(normTp)) return true;
+  }
+
+  // 2. Specific trigger stem match
+  if (alias.id === "fajr-cutoff-eating") {
+    if (stems.has("امساك") || stems.has("سحور")) return true;
+    if (stems.has("فجر") && (stems.has("صوم") || stems.has("اكل") || stems.has("شرب") || stems.has("طعام") || stems.has("مفطر"))) {
+      return true;
+    }
+    return false;
+  }
+
+  if (alias.id === "qibla-facing-prayer") {
+    if (stems.has("قبله") || stems.has("كعبه")) return true;
+    if (stems.has("اتجاه") && stems.has("صلو")) return true;
+    return false;
+  }
+
+  if (alias.id === "riba-banking-interest") {
+    if (stems.has("ربا")) return true;
+    if ((stems.has("فايده") || stems.has("فوائد")) && (stems.has("بنك") || stems.has("بنوك") || stems.has("قرض") || stems.has("حرام") || stems.has("تحريم"))) {
+      return true;
+    }
+    return false;
+  }
+
+  if (alias.id === "widowhood-waiting-period") {
+    if (stems.has("ارمله")) return true;
+    if (stems.has("عده") && stems.has("وفاه")) return true;
+    if (stems.has("عده") && stems.has("متوفى")) return true;
+    if (stems.has("وفاه") && stems.has("زوج")) return true;
+    if (stems.has("متوفى") && stems.has("زوج")) return true;
+    return false;
+  }
+
+  if (alias.id === "intention-in-worship") {
+    if (stems.has("نيه")) return true;
+    if (normalized.includes("بالنيات")) return true;
+    if (stems.has("صحه") && stems.has("عباده") && stems.has("نيه")) return true;
+    return false;
+  }
+
+  return false;
+}
+
+/**
+ * Expands search phrases with reviewable, deterministic aliases for verified scholar titles.
+ * Retains all original phrases and appends verified expansion phrases.
+ * If no safe alias triggers, returns the original phrases unchanged.
+ */
+export function expandScholarSearchAliases(phrases: string[], fallbackText?: string): string[] {
+  const inputPhrases = phrases.filter((p) => p.trim().length > 0);
+  const evaluationPhrases = inputPhrases.length > 0 ? inputPhrases : (fallbackText && /[؀-ۿ]/.test(fallbackText) ? [fallbackText] : []);
+  if (evaluationPhrases.length === 0) return [];
+
+  const addedExpansions: string[] = [];
+  for (const alias of SCHOLAR_SEARCH_ALIASES) {
+    if (isAliasTriggered(alias, evaluationPhrases)) {
+      for (const exp of alias.expansions) {
+        if (!addedExpansions.includes(exp) && !inputPhrases.includes(exp)) {
+          addedExpansions.push(exp);
+        }
+      }
+    }
+  }
+
+  return [...inputPhrases, ...addedExpansions];
 }

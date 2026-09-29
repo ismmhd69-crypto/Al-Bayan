@@ -48,6 +48,7 @@ const en = {
     tooLong: "Please keep your question under 500 characters.",
     parts: {
       short: "Short answer",
+      limit: "What these sources do not establish",
       evidence: "Evidence",
       scholars: "What the scholars said",
       watch: "Watch more",

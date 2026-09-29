@@ -50,6 +50,7 @@ const ar: typeof en = {
     tooLong: "من فضلك اجعل سؤالك أقل من ٥٠٠ حرف.",
     parts: {
       short: "الجواب المختصر",
+      limit: "ما لا تثبته هذه المصادر",
       evidence: "الأدلة",
       scholars: "ما قاله العلماء",
       watch: "شاهد المزيد",

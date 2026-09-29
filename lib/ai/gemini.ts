@@ -40,7 +40,7 @@ async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): P
   return call();
 }
 
-/** Google said "busy" or "slow down" even after the retry, so another door may still work. */
+/** Google said "busy", "slow down" or "no access" on this door, so another door may still work. */
 export class GoogleBusyError extends Error {}
 
 export function createGemini(apiKey: string, model: string, door: keyof typeof ENDPOINTS = "gemini"): AIProvider {
@@ -57,7 +57,7 @@ export function createGemini(apiKey: string, model: string, door: keyof typeof E
           systemInstruction: { parts: [{ text: system }] },
           contents: [{ role: "user", parts: [{ text: prompt }] }],
           generationConfig: {
-            temperature: 0.1,
+            temperature: 0,
             maxOutputTokens,
             responseMimeType: "application/json",
             responseSchema: toGeminiSchema(schema),
@@ -66,6 +66,9 @@ export function createGemini(apiKey: string, model: string, door: keyof typeof E
         }),
       }), signal);
       if (res.status === 503 || res.status === 429) throw new GoogleBusyError(`${door} busy (${res.status})`);
+      // Access problems on this door (billing switched off, key or permission removed): another
+      // door with its own key may still work, so the caller may switch like for "busy".
+      if (res.status === 401 || res.status === 403) throw new GoogleBusyError(`${door} unavailable (${res.status})`);
       if (!res.ok) throw new Error(`${door} request failed with status ${res.status}`);
       const data = (await res.json()) as {
         candidates?: { content?: { parts?: { text?: string }[] } }[];

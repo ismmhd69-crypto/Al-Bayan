@@ -1151,6 +1151,15 @@ details[open] > summary .chev {
 .answer-part--real > p {
   font-size: var(--fs-md);
   color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.answer-part--real > .answer-direct {
+  font-weight: 600;
+  line-height: 1.65;
+}
+.answer-part--real h3 {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
 }
 .answer-part--real .muted {
   font-size: var(--fs-sm);

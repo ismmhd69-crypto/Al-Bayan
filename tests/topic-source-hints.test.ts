@@ -21,6 +21,11 @@ describe("checked topic search hints", () => {
     expect(matchingTopicHints("How do I repent from a sin?").map((item) => item.id)).toContain("repentance-steps");
     expect(matchingTopicHints("Was muss ich tun, um Muslim zu werden?").map((item) => item.id)).toContain("conversion");
   });
+  it("includes the added fasting, marriage and prayer timing verses", () => {
+    expect(TOPIC_SOURCE_HINTS.find((item) => item.id === "fasting-obligation")?.quran).toContain("2:185");
+    expect(TOPIC_SOURCE_HINTS.find((item) => item.id === "marriage-justice")?.quran).toContain("4:129");
+    expect(TOPIC_SOURCE_HINTS.find((item) => item.id === "prayer-timing")?.quran).toEqual(expect.arrayContaining(["11:114", "17:78"]));
+  });
   it("does not attach a gold-zakat hint to a different zakat topic", () => {
     expect(matchingTopicHints("Who may receive zakat?").map((item) => item.id)).not.toContain("gold-zakat-rate");
   });

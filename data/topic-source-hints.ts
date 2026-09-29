@@ -11,7 +11,7 @@ export type TopicHint = {
 
 const BAZ = "https://binbaz.org.sa/fatwas";
 export const TOPIC_SOURCE_HINTS: TopicHint[] = [
-  { id: "fasting-obligation", match: [/رمضان|ramadan/i, /فرض|واجب|compulsory|obligat|pflicht/i, /صيام|صوم|fast/i], quran: ["2:183"], hadith: [], fatwas: [] },
+  { id: "fasting-obligation", match: [/رمضان|ramadan/i, /فرض|واجب|compulsory|obligat|pflicht/i, /صيام|صوم|fast/i], quran: ["2:183", "2:185"], hadith: [], fatwas: [] },
   { id: "fasting-exemption", match: [/صيام|صوم|fast/i, /مريض|مرض|مسافر|سفر|sick|ill|travel|krank|reis/i], quran: ["2:184", "2:185"], hadith: [], fatwas: [] },
   { id: "fasting-dawn", match: [/صيام|صوم|fast/i, /فجر|ليل|أكل|شرب|dawn|night|eat|drink|morgen|nacht|essen|trink/i], quran: ["2:187"], hadith: [], fatwas: [] },
   { id: "qibla", match: [/قبل|qibla|mekka|mecca|مكة/i, /صلا|pray|beten|direction|richtung|وجه/i], quran: ["2:144"], hadith: [], fatwas: [] },
@@ -36,10 +36,10 @@ export const TOPIC_SOURCE_HINTS: TopicHint[] = [
   { id: "zakat-recipients", match: [/زكاة|zakat/i, /مصارف|مستحق|recipients|categories|empfänger|kategorien/i], quran: ["9:60"], hadith: [], fatwas: [] },
   { id: "gold-zakat-rate", match: [/ذهب|gold/i, /زكاة|zakat/i, /مقدار|نسبة|how much|rate|wie viel/i], quran: [], hadith: [], fatwas: [`${BAZ}/5743/مقدار-الزكاة-في-خمسة-وثمانين-جرامًا-من-الذهب`] },
   { id: "repentance-steps", match: [/توب|repent|bereu/i, /كيف|how|wie|شروط|steps/i], quran: [], hadith: [], fatwas: [`${BAZ}/18217/هل-يكفي-الندم-على-الذنب-والإقلاع-عنه-في-التوبة؟`] },
-  { id: "conversion", match: [/مسلم|إسلام|muslim|islam/i, /أصبح|أسلم|الدخول|become|convert|werden|konvertieren/i, /كيف|كيفية|how|what should|was muss|wie werde|wie kann/i], exclude: [/إكراه|إجبار|\bforced?\b|gezwungen|zwang/i], quran: [], hadith: ["HE66512"], fatwas: [`${BAZ}/1158/وجوب-التصديق-مع-الشهادتين`] },
+  { id: "conversion", match: [/مسلم|إسلام|muslim|islam/i, /أصبح|أسلم|الدخول|become|convert|werden|konvertieren/i, /كيف|كيفية|how|what should|was muss|wie werde|wie kann/i], exclude: [/إكراه|إجبار|\bforced?\b|gezwungen|zwang/i], quran: [], hadith: ["HE66512"], fatwas: [`${BAZ}/1158/وجوب-التصديق-مع-الشهادتين`, `${BAZ}/18975/ما-معنى-الشهادتين`] },
   { id: "fasting-purpose", match: [/رمضان|ramadan/i, /صيام|صوم|fast/i, /لماذا|why|warum|حكمة/i], quran: ["2:183"], hadith: [], fatwas: [] },
-  { id: "prayer-timing", match: [/صلا|prayer|gebet/i, /وقت|أوقات|time|zeiten/i], quran: ["4:103"], hadith: [], fatwas: [] },
-  { id: "marriage-justice", match: [/زوجات|نساء|wives|ehefrauen/i, /عدل|justice|fair|gerecht/i], quran: ["4:3"], hadith: [], fatwas: [] },
+  { id: "prayer-timing", match: [/صلا|prayer|gebet/i, /وقت|أوقات|time|zeiten/i], quran: ["4:103", "11:114", "17:78"], hadith: [], fatwas: [] },
+  { id: "marriage-justice", match: [/زوجات|نساء|wives|ehefrauen/i, /عدل|justice|fair|gerecht/i], quran: ["4:3", "4:129"], hadith: [], fatwas: [] },
   { id: "sincere-repentance", match: [/توب|repent|bereu/i, /نصوح|sincere|aufrichtig/i], quran: ["66:8"], hadith: [], fatwas: [] },
 ];
 

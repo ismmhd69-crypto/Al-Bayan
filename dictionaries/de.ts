@@ -50,6 +50,7 @@ const de: typeof en = {
     tooLong: "Bitte halte deine Frage unter 500 Zeichen.",
     parts: {
       short: "Kurze Antwort",
+      limit: "Was diese Quellen nicht belegen",
       evidence: "Belege",
       scholars: "Was die Gelehrten sagten",
       watch: "Mehr ansehen",

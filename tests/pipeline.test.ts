@@ -106,6 +106,10 @@ function fakeAI(id: string, script: Record<string, unknown>) {
 }
 
 const OK = {
+  direct_answer_complete: "yes",
+  listed_items_complete: "yes",
+  no_repetition: "yes",
+  not_established_ok: "yes",
   requirement_verdicts: [{ requirement_id: "R1", verdict: "yes" }],
   answers_question: "yes",
   covers_facets: "yes",

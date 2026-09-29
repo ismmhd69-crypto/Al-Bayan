@@ -51,13 +51,18 @@ async function main() {
   const limit = Number(process.argv.find((a) => a.startsWith("--limit="))?.split("=")[1] ?? Infinity);
   questions = questions.slice(0, limit);
   const traceOutput = process.argv.find((a) => a.startsWith("--trace-output="))?.slice("--trace-output=".length);
+  const answerOutput = process.argv.find((a) => a.startsWith("--answer-output="))?.slice("--answer-output=".length);
+  const runs = Math.max(1, Math.min(3, Number(process.argv.find((a) => a.startsWith("--runs="))?.split("=")[1] ?? 1)));
   const traceRows: unknown[] = [];
+  const answerRows: { id: string; run: number; outcome: string; seconds: number; sentences: number; core: string;
+    fullPass: boolean; answer?: unknown }[] = [];
 
   // Reason codes are printed through console.info by the pipeline when ASK_DEBUG=true; capture them.
   process.env.ASK_DEBUG = "true";
   const tally = new Map<string, number>();
   const reasons = new Map<string, number>();
-  for (const q of questions) {
+  for (const q of questions.flatMap((item) => Array.from({ length: runs }, () => item))) {
+    const run = (answerRows.filter((row) => row.id === q.id).length) + 1;
     const seen: string[] = [];
     const info = console.info;
     console.info = (msg: unknown) => {
@@ -68,6 +73,10 @@ async function main() {
     let outcome: string;
     let refs = "";
     let score = "";
+    let sentenceCount = 0;
+    let core = "";
+    let fullPass = false;
+    let answer: unknown;
     let frame: QuestionFrame | undefined;
     let retrieved: unknown;
     let candidates: PassageForSelection[] = [];
@@ -80,9 +89,16 @@ async function main() {
         onSelection: (value) => { selection = value; },
       } : undefined);
       outcome = r.status === "answer" ? (r.answer.sourceOnly ? "source_only" : "answer") : r.status;
-      if (r.status === "answer") refs = r.answer.evidence.map((e) => e.key.slice(0, 12)).join(" ");
+      if (r.status === "answer") {
+        refs = r.answer.evidence.map((e) => e.key.slice(0, 12)).join(" ");
+        sentenceCount = r.answer.claims.length;
+        core = r.answer.direct_answer.map((item) => item.text).join(" ").trim().toLocaleLowerCase(q.lang).replace(/\s+/g, " ");
+        if (answerOutput) answer = { direct_answer: r.answer.direct_answer, explanation: r.answer.explanation,
+          not_established: r.answer.not_established, evidence: r.answer.evidence.map((e) => ({ key: e.key, kind: e.kind })) };
+      }
       if (q.focus) {
         const s = scoreAnswer(q as EvalQuestion, r);
+        fullPass = r.status === "answer" && s.missingPoints.length === 0 && s.traps.length === 0;
         score = ` accuracy=${s.accuracy} completeness=${s.completeness} support=${s.sourceSupport} clarity=${s.clarity}`;
         if (s.missingPoints.length) score += ` missing=${s.missingPoints.join("|")}`;
         if (s.traps.length) score += ` traps=${s.traps.join("|")}`;
@@ -103,14 +119,26 @@ async function main() {
       selection: selection && typeof selection === "object" ? (selection as { assessments?: unknown }).assessments ?? null : null,
     });
     const secs = Math.round((Date.now() - start) / 1000);
+    answerRows.push({ id: q.id, run, outcome, seconds: secs, sentences: sentenceCount, core, fullPass,
+      ...(answerOutput ? { answer } : {}) });
     const important = seen.filter((s) => !/^(video|scholar|hadith)_/.test(s));
-    console.log(`${q.id.padEnd(16)} ${outcome.padEnd(12)} ${String(secs).padStart(3)}s  ${important.join(",")}  ${refs}${score}`);
+    console.log(`${q.id.padEnd(16)} #${run} ${outcome.padEnd(12)} ${String(secs).padStart(3)}s ${sentenceCount} sentences  ${important.join(",")}  ${refs}${score}`);
     tally.set(outcome, (tally.get(outcome) ?? 0) + 1);
     for (const s of important) reasons.set(s, (reasons.get(s) ?? 0) + 1);
   }
   console.log("\nOutcomes:", Object.fromEntries(tally));
   console.log("Reasons:", Object.fromEntries(reasons));
+  const answered = answerRows.filter((row) => row.outcome === "answer");
+  console.log("Average sentences/full answer:", answered.length ? (answered.reduce((sum, row) => sum + row.sentences, 0) / answered.length).toFixed(2) : "n/a");
+  console.log("Average seconds/question:", (answerRows.reduce((sum, row) => sum + row.seconds, 0) / answerRows.length).toFixed(2));
+  if (runs > 1) for (const q of questions) {
+    const rows = answerRows.filter((row) => row.id === q.id);
+    const cores = rows.filter((row) => row.core).map((row) => row.core);
+    console.log(`${q.id}: ${rows.filter((row) => row.fullPass).length}/${runs} full pass; `
+      + `${cores.length === runs && new Set(cores).size === 1 ? runs : 0}/${runs} same exact core wording`);
+  }
   if (traceOutput) writeFileSync(traceOutput, JSON.stringify(traceRows, null, 2));
+  if (answerOutput) writeFileSync(answerOutput, JSON.stringify(answerRows, null, 2));
 }
 
 main().catch((err) => {

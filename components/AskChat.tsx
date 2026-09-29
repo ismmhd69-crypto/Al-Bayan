@@ -268,6 +268,17 @@ export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) 
     el.scrollIntoView({ behavior: reducedMotion() ? "auto" : "smooth", block: "center" });
     el.focus({ preventScroll: true });
   };
+  const sentences = (items: { text: string; source_ids: string[] }[]) => items.map((s, i) => (
+    <span key={i}>
+      {s.text}{" "}
+      {s.source_ids.map((r) => (
+        <a key={r} href={`#${anchor(r)}`} className="ref"
+          aria-label={`${t.source}: ${refText(r).long}`} onClick={(e) => goTo(e, r)}>
+          {refText(r).short}
+        </a>
+      ))}{" "}
+    </span>
+  ));
   return (
     <div className="answer">
       <p className="answer-label">{a.sourceOnly ? t.sourceOnlyLabel : t.label}</p>
@@ -279,25 +290,22 @@ export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) 
             <BookOpen aria-hidden="true" />
             {t.parts.short}
           </h3>
-          <p lang={a.language} dir={dirOf(a.language)}>
-            {a.claims.map((s, i) => (
-              <span key={i}>
-                {s.text}{" "}
-                {s.refs.map((r) => (
-                  <a
-                    key={r}
-                    href={`#${anchor(r)}`}
-                    className="ref"
-                    aria-label={`${t.source}: ${refText(r).long}`}
-                    onClick={(e) => goTo(e, r)}
-                  >
-                    {refText(r).short}
-                  </a>
-                ))}{" "}
-              </span>
-            ))}
-          </p>
+          <p className="answer-direct" lang={a.language} dir={dirOf(a.language)}>{sentences(a.direct_answer)}</p>
         </section>
+      )}
+
+      {!a.sourceOnly && a.explanation.map((section, index) => (
+        <section className="answer-part answer-part--real" key={index}>
+          <h3 lang={a.language} dir={dirOf(a.language)}><BookOpen aria-hidden="true" />{section.heading}</h3>
+          <p lang={a.language} dir={dirOf(a.language)}>{sentences(section.sentences)}</p>
+        </section>
+      ))}
+
+      {!a.sourceOnly && a.not_established.length > 0 && (
+        <aside className="answer-part answer-part--real answer-note" lang={a.language} dir={dirOf(a.language)}>
+          <h3>{t.parts.limit}</h3>
+          {a.not_established.map((note, index) => <p key={index}>{note.text}</p>)}
+        </aside>
       )}
 
       {texts.length > 0 && (

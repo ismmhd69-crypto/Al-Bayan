@@ -19,6 +19,7 @@ export type Claim = { text: string; refs: string[]; requirementId?: string };
 
 export const LIMITS = {
   maxClaims: 4,
+  maxAnswerSentences: 12,
   maxRefsPerClaim: 3,
   maxClaimLength: 300,
 };
@@ -92,12 +93,12 @@ export type DraftPolicy = {
   sourceRequirements: Record<string, string[]>;
 };
 
-export function parseDraft(raw: unknown, citable: SourceText[], language: Locale, policy?: DraftPolicy): DraftResult {
+export function parseDraft(raw: unknown, citable: SourceText[], language: Locale, policy?: DraftPolicy, maxClaims = LIMITS.maxClaims): DraftResult {
   if (!raw || typeof raw !== "object") return { ok: false, reason: "malformed" };
   const r = raw as Record<string, unknown>;
   if (r.status === "no_answer") return { ok: false, reason: "model_no_answer" };
   if (r.status !== "answer" || !Array.isArray(r.claims)) return { ok: false, reason: "malformed" };
-  if (r.claims.length === 0 || r.claims.length > LIMITS.maxClaims) return { ok: false, reason: "claim_count" };
+  if (r.claims.length === 0 || r.claims.length > maxClaims) return { ok: false, reason: "claim_count" };
 
   const byId = new Map(citable.map((s) => [s.id, s]));
   const claims: Claim[] = [];
@@ -131,6 +132,100 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
     return { ok: false, reason: "missing_requirement" };
   }
   return { ok: true, claims };
+}
+
+export type AnswerSection = { heading: string; sentences: Claim[] };
+export type StructuredDraft = { directAnswer: Claim[]; explanation: AnswerSection[]; notEstablished: string[]; claims: Claim[] };
+export type StructuredDraftResult = { ok: true; answer: StructuredDraft } | { ok: false; reason: string };
+
+/** The live writer uses the prepared answer shape; the old flat parser remains for old records/tests. */
+export function parseStructuredDraft(raw: unknown, citable: SourceText[], language: Locale, policy: DraftPolicy,
+  questionType: string): StructuredDraftResult {
+  if (!raw || typeof raw !== "object") return { ok: false, reason: "malformed" };
+  const record = raw as Record<string, unknown>;
+  if (record.status === "no_answer") return { ok: false, reason: "model_no_answer" };
+  // Older checked draft records and pipeline fixtures have a flat claim array. New live requests
+  // use the structured response schema, but reading the old shape remains safe and checked.
+  if (record.status === "answer" && Array.isArray(record.claims) && !('direct_answer' in record)) {
+    const legacy = parseDraft(raw, citable, language, policy);
+    if (!legacy.ok) return legacy;
+    const split = legacy.claims.length === 4 ? 2 : legacy.claims.length;
+    return { ok: true, answer: {
+      directAnswer: legacy.claims.slice(0, split),
+      explanation: split < legacy.claims.length ? [{ heading: language === "ar" ? "التفصيل" : language === "de" ? "Einzelheiten" : "Details",
+        sentences: legacy.claims.slice(split) }] : [],
+      notEstablished: [], claims: legacy.claims,
+    } };
+  }
+  if (record.status !== "answer" || !Array.isArray(record.direct_answer) || !Array.isArray(record.explanation)
+    || !Array.isArray(record.not_established)) return { ok: false, reason: "malformed" };
+
+  // Layout is tidied, never a reason to discard a correct answer: every sentence below still passes
+  // the full sentence checks (sources, copying, language, quotes, one fact) in parseDraft.
+  const generic = language === "ar" ? "التفصيل" : language === "de" ? "Einzelheiten" : "Details";
+  const signature = (value: string) => normalizeArabic(value.toLowerCase()).replace(/[^\p{L}\p{N}]/gu, "");
+  const seen = new Set<string>();
+  const unique = (items: unknown[]) => items.filter((item) => {
+    const text = item && typeof item === "object" ? (item as Record<string, unknown>).text : undefined;
+    if (!isStr(text)) return true; // malformed sentences are refused by parseDraft
+    const key = signature(text);
+    if (seen.has(key)) return false; // an exact repeat is dropped, not the whole answer
+    seen.add(key);
+    return true;
+  });
+  let direct = unique(record.direct_answer);
+  let sections: { heading: string; sentences: unknown[] }[] = [];
+  for (const section of record.explanation) {
+    if (!section || typeof section !== "object") return { ok: false, reason: "malformed" };
+    const item = section as Record<string, unknown>;
+    if (!Array.isArray(item.sentences)) return { ok: false, reason: "malformed" };
+    const heading = isStr(item.heading) && inLanguage(item.heading, language) && item.heading.length <= 80 && !hasQuotation(item.heading)
+      ? item.heading.trim() : generic;
+    const sentences = unique(item.sentences);
+    if (sentences.length === 0) continue;
+    // A one-sentence section joins the previous section.
+    if (sentences.length === 1 && sections.length > 0) sections[sections.length - 1].sentences.push(...sentences);
+    else sections.push({ heading, sentences });
+  }
+  if (direct.length === 0 && sections.length > 0) {
+    direct = sections[0].sentences.splice(0, 1);
+    sections = sections.filter((section) => section.sentences.length > 0);
+  }
+  if (direct.length === 0) return { ok: false, reason: "answer_shape" };
+  if (direct.length > 3) {
+    const extra = direct.splice(3);
+    if (sections.length > 0) sections[0].sentences.unshift(...extra);
+    else sections.push({ heading: generic, sentences: extra });
+  }
+  if (sections.length > 3) {
+    const tail = sections.splice(3).flatMap((section) => section.sentences);
+    sections[2].sentences.push(...tail);
+  }
+
+  const flattened = [...direct, ...sections.flatMap((section) => section.sentences)];
+  const parsed = parseDraft({ status: "answer", claims: flattened }, citable, language, policy, LIMITS.maxAnswerSentences);
+  if (!parsed.ok) return parsed;
+  const notes: string[] = [];
+  // A Bayan note is optional: one that breaks its rules is left out rather than failing the answer.
+  for (const note of record.not_established.slice(0, 1)) {
+    if (questionType !== "reason" && questionType !== "objection") break;
+    if (!note || typeof note !== "object") continue;
+    const item = note as Record<string, unknown>;
+    if (!isStr(item.text) || !inLanguage(item.text, language) || item.text.length > 300
+      || !isSingleSentence(item.text) || hasQuotation(item.text) || copiesSource(item.text, citable)
+      || "source_ids" in item) continue;
+    notes.push(item.text.trim());
+  }
+  let cursor = direct.length;
+  const explanation = sections.map((section) => {
+    const sentences = parsed.claims.slice(cursor, cursor + section.sentences.length);
+    cursor += section.sentences.length;
+    return { heading: section.heading, sentences };
+  });
+  return { ok: true, answer: {
+    directAnswer: parsed.claims.slice(0, direct.length), explanation,
+    notEstablished: notes, claims: parsed.claims,
+  } };
 }
 
 // ---------- 2. one claim per item ----------
@@ -234,6 +329,56 @@ export function requirementsCovered(raw: unknown, requirementIds: string[]): boo
     seen.add(record.requirement_id);
   }
   return requirementIds.every((id) => seen.has(id));
+}
+
+/** Independent screening must confirm the direct answer and every requested source list item. */
+export function structuredAnswerOk(raw: unknown): boolean {
+  if (!raw || typeof raw !== "object") return false;
+  const r = raw as Record<string, unknown>;
+  return r.direct_answer_complete === "yes" && r.listed_items_complete === "yes"
+    && r.no_repetition === "yes" && r.not_established_ok === "yes";
+}
+
+/** Small source-triggered guard for high-impact lists the Lite checker has repeatedly missed.
+ * It never creates an answer: it can only reject wording when the sealed source itself has the items. */
+export function missingListedItems(question: string, language: Locale, sources: SourceText[], claims: Claim[]): string[] {
+  const answer = claims.map((claim) => claim.text).join(" ").toLowerCase();
+  const source = normalizeArabic(sources.map((item) => item.arabic).join(" "));
+  const missing: string[] = [];
+  const requireItem = (name: string, pattern: RegExp) => { if (!pattern.test(answer)) missing.push(name); };
+  if (/توب|repent|bereu/i.test(question) && /الندم/.test(source) && /الاقلاع/.test(source) && /العزم/.test(source)) {
+    if (language === "ar") {
+      requireItem("stop the sin", /اقلاع|ترك|توقف|يمتنع/);
+      requireItem("regret", /ندم|يندم/);
+      requireItem("resolve not to return", /عزم|عدم العود|لا يعود|الا يعود/);
+    } else if (language === "de") {
+      requireItem("stop the sin", /aufhör|unterlass|beend|lass.*sünde/);
+      requireItem("regret", /bereu|reue/);
+      requireItem("resolve not to return", /nicht wiederhol|nicht zurückkehr|nicht erneut|vorsatz|entschloss/);
+    } else {
+      requireItem("stop the sin", /stop|cease|leave|abandon|give up|refrain/);
+      requireItem("regret", /regret|remorse/);
+      requireItem("resolve not to return", /resolv|intend|determined|not return|not repeat|never return|never repeat/);
+    }
+  }
+  if (/convert|become muslim|muslim werden|konvertier|أسلم|أصبح مسلما/i.test(question)
+    && /لا اله الا الله/.test(source) && /محمد(?:ا)? رسول الله/.test(source)) {
+    if (language === "ar") {
+      requireItem("testimony that Allah alone is God", /لا اله الا الله|اشهد ان لا اله الا الله/);
+      requireItem("testimony that Muhammad is the Messenger", /محمد رسول الله|محمدا رسول الله/);
+    } else if (language === "de") {
+      requireItem("testimony that Allah alone is God", /kein(?:en)? gott außer allah|allah.*einzig.*gott|allein.*allah.*gott/);
+      requireItem("testimony that Muhammad is the Messenger", /muhammad.*gesandt|mohammed.*gesandt|muhammad.*prophet/);
+    } else {
+      requireItem("testimony that Allah alone is God", /no god (?:but|except) allah|allah.*only god/);
+      requireItem("testimony that Muhammad is the Messenger", /muhammad.*messenger|muhammad.*prophet/);
+    }
+  }
+  if (/ذهب|gold/i.test(question) && /زكاة|zakat/i.test(question)
+    && /مقدار|نسبة|how much|rate|wie viel/i.test(question) && /ربع العشر/.test(source)) {
+    requireItem("gold zakat payable rate", language === "ar" ? /ربع العشر|٢[.,٫]٥|2[.,]5/ : /2[.,]5\s*%|one fortieth|quarter of a tenth|viertel.*zehntel/);
+  }
+  return missing;
 }
 
 // ---------- 6. questions that need extra care ----------
