@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { CircleHelp, ClipboardCheck, Compass, Ellipsis, HeartHandshake, House, MessageCircle, type LucideIcon } from "lucide-react";
+import { CircleHelp, Compass, Ellipsis, HeartHandshake, House, MessageCircle, type LucideIcon } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import Logo from "./Logo";
 import LangSwitch from "./LangSwitch";
 
-type NavKey = "home" | "ask" | "topics" | "start" | "more" | "support" | "review";
+type NavKey = "home" | "ask" | "topics" | "start" | "more" | "support";
 
 // sidebarOnly: shown in the desktop sidebar, left out of the phone tab bar (reachable via More there).
 const items: { key: NavKey; path: string; Icon: LucideIcon; sidebarOnly?: boolean }[] = [
@@ -16,8 +16,6 @@ const items: { key: NavKey; path: string; Icon: LucideIcon; sidebarOnly?: boolea
   { key: "topics", path: "/topics", Icon: CircleHelp },
   { key: "start", path: "/start", Icon: Compass },
   { key: "support", path: "/support", Icon: HeartHandshake, sidebarOnly: true },
-  // Temporary, until launch: review of prepared answers (Mo, 2026-09-29).
-  { key: "review", path: "/review", Icon: ClipboardCheck },
   { key: "more", path: "/more", Icon: Ellipsis },
 ];
 

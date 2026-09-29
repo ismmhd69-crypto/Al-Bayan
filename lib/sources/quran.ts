@@ -76,19 +76,27 @@ async function headers() {
   return { "x-auth-token": await getToken(), "x-client-id": process.env.QURAN_FOUNDATION_CLIENT_ID! };
 }
 
+// A token can stop working before its hour is up (for example after new keys are set): on a 401,
+// forget it, get a fresh one and try once more.
+async function authedFetch(url: string, init: RequestInit): Promise<Response> {
+  const res = await fetch(url, { ...init, headers: await headers() });
+  if (res.status !== 401) return res;
+  token = null;
+  return fetch(url, { ...init, headers: await headers() });
+}
+
 // ---------- search ----------
 
 // Runs each bounded query through Quran Foundation's detailed search and returns candidate
 // verse keys. These are not evidence yet: the ask pipeline independently checks directness,
 // context and full-question coverage before the writer can see any passage.
 export async function searchQuran(queries: string[], limit: number): Promise<string[]> {
-  const h = await headers();
   const lists = await Promise.all(
     queries.slice(0, 6).map(async (q) => {
       const url = `${env.api}${quranSearchPath(q, [TRANSLATIONS.en.id, TRANSLATIONS.de.id], RESULTS_PER_QUERY)}`;
       // Not cached: the search phrases are derived from a visitor's question and must not be kept
       // on disk. Verse text (below) is cached, because it reveals nothing about who asked what.
-      const res = await fetch(url, { headers: h, signal: AbortSignal.timeout(TIMEOUT_MS), cache: "no-store" });
+      const res = await authedFetch(url, { signal: AbortSignal.timeout(TIMEOUT_MS), cache: "no-store" });
       if (!res.ok) throw new Error(`Quran search failed with status ${res.status}`);
       const data = (await res.json()) as { result?: { verses?: { key?: unknown; result_type?: unknown }[] } };
       const verses = data.result?.verses;
@@ -164,8 +172,7 @@ export function getVerse(key: string): Promise<Verse | undefined> {
       const url =
         `${env.api}/content/api/v4/verses/by_key/${key}` +
         `?fields=text_uthmani,text_imlaei_simple&translations=${TRANSLATIONS.en.id},${TRANSLATIONS.de.id}`;
-      const res = await fetch(url, {
-        headers: await headers(),
+      const res = await authedFetch(url, {
         signal: AbortSignal.timeout(TIMEOUT_MS),
         next: { revalidate: CACHE_SECONDS },
       });

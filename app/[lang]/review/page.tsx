@@ -13,6 +13,9 @@ import { PREPARED_ANSWERS } from "@/data/prepared-answers";
 // topic pages.
 export const dynamic = "force-dynamic";
 
+// Internal page (Mo, 2026-09-29): not in the menu, not for search engines; reached only by its link.
+export const metadata = { title: "Review (internal)", robots: { index: false, follow: false } };
+
 export default async function ReviewPage({ params, searchParams }: {
   params: Promise<{ lang: string }>;
   searchParams: Promise<{ id?: string; kind?: string }>;
@@ -35,7 +38,7 @@ export default async function ReviewPage({ params, searchParams }: {
   return (
     <article className="page">
       <header className="page-head">
-        <p className="eyebrow">Review</p>
+        <p className="eyebrow">Review · internal use only</p>
         <h1>Prepared answers</h1>
         <p>
           <Link href={`/${lang}/review?kind=topic`} aria-current={kind === "topic" ? "page" : undefined}>Hard questions topics</Link>
@@ -47,6 +50,7 @@ export default async function ReviewPage({ params, searchParams }: {
           {ids.filter((t) => statusOf(t) === "rejected").length} rejected,{" "}
           {ids.filter((t) => statusOf(t) === "draft").length} to review
         </p>
+        <p className="card card-soft">Internal page for the Bayan team. Not linked in the menu; please do not share this link.</p>
       </header>
       <ul className="review-list">
         {ids.map((topic) => (
