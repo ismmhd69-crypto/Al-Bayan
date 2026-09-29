@@ -7,19 +7,25 @@
       "هل فوائد البنوك والربا حرام",
       "ما حكم الربا وفوائد القروض في الإسلام",
       "أدلة تحريم الربا في القرآن والسنة",
-      "ما هي حقيقة الربا وحكم التعامل به"
+      "ما هي حقيقة الربا وحكم التعامل به",
+      "هل الربا حرام",
+      "حكم فوائد البنوك"
     ],
     "en": [
       "Is interest (riba) haram in Islam",
       "Ruling on bank interest and usury in Islam",
       "Why is riba forbidden in Islam",
-      "Evidence for the prohibition of interest in Islam"
+      "Evidence for the prohibition of interest in Islam",
+      "is interest haram",
+      "is riba forbidden"
     ],
     "de": [
       "Sind Zinsen (Riba) im Islam haram",
       "Urteil über Bankzinsen und Wucher im Islam",
       "Warum sind Zinsen im Islam verboten",
-      "Beweise für das Zinsverbot im Islam"
+      "Beweise für das Zinsverbot im Islam",
+      "sind zinsen haram",
+      "sind zinsen verboten"
     ]
   },
   "sources": [
@@ -62,14 +68,14 @@
           ]
         },
         {
-          "text": "وقد أحل الله البيع والتجارة المشروعة وحرم الربا تحريما صريحا، وأمر بالتوبة وترك ما بقي من الربا (2:275).",
+          "text": "يبين القرآن أن حكم البيع يختلف عن حكم الربا، ويأمر المؤمنين بترك ما بقي من الربا (2:275، 2:278).",
           "source_ids": [
             "Q2:275",
             "Q2:278"
           ]
         },
         {
-          "text": "وينذر القرآن من يصر على أكل الربا بحرب من الله ورسوله، ويجب في العملات النقدية التماثل والتقابض يدا بيد (2:279).",
+          "text": "ويحذر القرآن من عدم ترك ما بقي من الربا (2:279)، ويشرح ابن باز أحكام التماثل والتقابض في مبادلة العملات.",
           "source_ids": [
             "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
             "Q2:279"
@@ -81,19 +87,19 @@
           "heading": "التحريم القرآني للربا وحرب المرابين",
           "sentences": [
             {
-              "text": "يفرق القرآن الكريم بين البيع المباح والتعاملات الربوية، مقررا أن الله أحل البيع وحرم الربا (2:275).",
+              "text": "يفرق القرآن بين حكم التجارة وحكم الربا ويقرر اختلافهما (2:275).",
               "source_ids": [
                 "Q2:275"
               ]
             },
             {
-              "text": "ويأمر الله المؤمنين بتقواه وترك ما بقي من أموال الربا وأرباحه (2:278).",
+              "text": "يدعو القرآن المؤمنين إلى تقوى الله وإنهاء ما بقي من التزامات الربا (2:278).",
               "source_ids": [
                 "Q2:278"
               ]
             },
             {
-              "text": "وينذر القرآن من يصر على الربا بحرب معلنة من الله ورسوله جزاء هذا الجرم (2:279).",
+              "text": "يقدم القرآن تحذيرًا شديدًا لمن لا يترك ما بقي من الربا (2:279).",
               "source_ids": [
                 "Q2:279"
               ]
@@ -140,14 +146,14 @@
           ]
         },
         {
-          "text": "Allah has permitted lawful trade and strictly prohibited interest, commanding believers to repent and abandon any outstanding interest (2:275).",
+          "text": "The Quran distinguishes the ruling on trade from the ruling on interest and tells believers to give up outstanding interest (2:275, 2:278).",
           "source_ids": [
             "Q2:275",
             "Q2:278"
           ]
         },
         {
-          "text": "The Quran warns those who insist on consuming interest of war from Allah and His Messenger, and currencies require equality and immediate hand-to-hand exchange (2:279).",
+          "text": "The Quran gives a severe warning if people do not give up outstanding interest (2:279). Ibn Baz explains the equality and immediate-exchange rules for the currency exchanges he discusses.",
           "source_ids": [
             "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
             "Q2:279"
@@ -159,19 +165,19 @@
           "heading": "The Quranic prohibition of interest and warning of war",
           "sentences": [
             {
-              "text": "The Holy Quran draws a distinction between lawful trade and usurious transactions, stating that Allah has permitted trade and forbidden riba (2:275).",
+              "text": "The Quran distinguishes lawful trade from riba and states that their rulings differ (2:275).",
               "source_ids": [
                 "Q2:275"
               ]
             },
             {
-              "text": "Allah commands believers to fear Him and give up what remains of interest and illicit gains (2:278).",
+              "text": "The Quran calls believers to fear Allah and end outstanding riba obligations (2:278).",
               "source_ids": [
                 "Q2:278"
               ]
             },
             {
-              "text": "The Quran delivers a proclamation of war from Allah and His Messenger against anyone who persists in dealing with interest (2:279).",
+              "text": "The Quran gives a severe warning if outstanding riba is not abandoned (2:279).",
               "source_ids": [
                 "Q2:279"
               ]
@@ -218,14 +224,14 @@
           ]
         },
         {
-          "text": "Allah hat den rechtmäßigen Kaufhandel erlaubt und das Zinsnehmen ausdrücklich verboten und geboten, verbleibende Zinsbeträge aufzugeben (2:275).",
+          "text": "Der Koran unterscheidet zwischen dem erlaubten Handel und Riba und gebietet den Gläubigen, ausstehendes Riba aufzugeben (2:275, 2:278).",
           "source_ids": [
             "Q2:275",
             "Q2:278"
           ]
         },
         {
-          "text": "Der Koran droht jenen, die an Zinsen festhalten, Krieg von Allah und Seinem Gesandten an, und bei Währungsgeschäften ist Gleichwertigkeit und sofortige Hand-zu-Hand-Übergabe Pflicht (2:279).",
+          "text": "Der Koran spricht eine ernste Warnung aus, wenn die Menschen die ausstehenden Zinsen nicht aufgeben (2:279). Ibn Baz erklärt die Regeln der Gleichwertigkeit und sofortigen Übergabe für die von ihm behandelten Währungsgeschäfte.",
           "source_ids": [
             "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
             "Q2:279"
@@ -237,19 +243,19 @@
           "heading": "Das koranische Zinsverbot und die Kriegsdrohung",
           "sentences": [
             {
-              "text": "Der Heilige Koran unterscheidet zwischen erlaubtem Handel und Zinsgeschäften, indem er festlegt, dass Allah den Handel erlaubt und Riba verboten hat (2:275).",
+              "text": "Der Koran unterscheidet erlaubten Handel von Riba und stellt fest, dass für beide unterschiedliche Regeln gelten (2:275).",
               "source_ids": [
                 "Q2:275"
               ]
             },
             {
-              "text": "Allah gebietet den Gläubigen, Ihn zu fürchten und alle verbliebenen Zinsforderungen fallen zu lassen (2:278).",
+              "text": "Der Koran ruft die Gläubigen dazu auf, Allah zu fürchten und ausstehende Riba-Verpflichtungen zu beenden (2:278).",
               "source_ids": [
                 "Q2:278"
               ]
             },
             {
-              "text": "Der Koran verkündet jenen, die unbelehrbar an Zinsgeschäften festhalten, eine Kriegserklärung von Allah und Seinem Gesandten (2:279).",
+              "text": "Der Koran spricht eine ernste Warnung aus, wenn ausstehendes Riba nicht aufgegeben wird (2:279).",
               "source_ids": [
                 "Q2:279"
               ]

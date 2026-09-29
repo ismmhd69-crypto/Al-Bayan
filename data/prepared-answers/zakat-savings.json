@@ -7,19 +7,25 @@
       "كيفية إخراج زكاة المال المدخر",
       "ما هو نصاب ومقدار زكاة المدخرات",
       "هل تجب الزكاة على المال المحفوظ في البنك",
-      "حكم زكاة الأموال المدخرة وحولان الحول عليها"
+      "حكم زكاة الأموال المدخرة وحولان الحول عليها",
+      "زكاة المدخرات",
+      "زكاة الفلوس"
     ],
     "en": [
       "How to calculate zakat on savings",
       "What is the zakat rate on saved money",
       "Do I have to pay zakat on bank savings",
-      "Conditions for zakat on savings in Islam"
+      "Conditions for zakat on savings in Islam",
+      "zakat on savings",
+      "zakat on money"
     ],
     "de": [
       "Wie berechnet man die Zakat auf Ersparnisse",
       "Wie hoch ist die Zakat auf erspartes Geld",
       "Muss man Zakat auf Bankguthaben zahlen",
-      "Bedingungen für Zakat auf Ersparnisse im Islam"
+      "Bedingungen für Zakat auf Ersparnisse im Islam",
+      "zakat auf ersparnisse",
+      "zakat auf erspartes"
     ]
   },
   "sources": [
@@ -56,7 +62,7 @@
           ]
         },
         {
-          "text": "وقد حذر القرآن الكريم من كنز الأموال دون أداء حقها والإنفاق في سبيل الله، وأمر بأخذ الصدقة لتطهير أصحابها وتزكيتهم بها.",
+          "text": "وحذر القرآن من كنز الذهب والفضة دون الإنفاق في سبيل الله، وذكر أخذ الصدقة من أموال الناس لتطهيرهم وتزكيتهم.",
           "source_ids": [
             "Q9:34",
             "Q9:103"
@@ -68,13 +74,13 @@
           "heading": "وجوب الزكاة في النقود عند بلوغ النصاب وحولان الحول",
           "sentences": [
             {
-              "text": "حذر القرآن الكريم من كنز الأموال والذهب والفضة دون أداء حق الله والإنفاق في سبيله (9:34).",
+              "text": "حذر القرآن الكريم من كنز الذهب والفضة دون الإنفاق في سبيل الله (9:34).",
               "source_ids": [
                 "Q9:34"
               ]
             },
             {
-              "text": "وأمر الله نبيه بأخذ الصدقة من أموال الناس لتطهيرهم وتزكيتهم بها (9:103).",
+              "text": "وتأمر الآية النبي بأخذ الصدقة من أموال الناس وسيلة لتطهيرهم وتزكيتهم (9:103).",
               "source_ids": [
                 "Q9:103"
               ]
@@ -101,7 +107,7 @@
       ],
       "not_established": [
         {
-          "text": "تبين هذه الفتوى وجوب الزكاة في النقود المدخرة البالغة للنصاب كلما دار عليها الحول، ولا تفصل المقادير الجزئية للعملات أو عروض التجارة."
+          "text": "تقرر هذه الفتوى وجوب الزكاة في النقود المدخرة عند بلوغ النصاب ودوران الحول، لكنها لا تذكر نسبة الزكاة ولا تتناول ترتيبات الحسابات البنكية."
         }
       ]
     },
@@ -115,7 +121,7 @@
           ]
         },
         {
-          "text": "The Holy Quran warns against hoarding wealth without fulfilling its due right and spending in Allah's cause, and commands taking charity to purify and cleanse its owners.",
+          "text": "The Quran warns against hoarding gold and silver without spending in Allah's cause, and mentions taking charity from people's property to purify them.",
           "source_ids": [
             "Q9:34",
             "Q9:103"
@@ -127,13 +133,13 @@
           "heading": "Obligation of zakat upon reaching the threshold and passage of one year",
           "sentences": [
             {
-              "text": "The Holy Quran warns against hoarding gold, silver, and monetary wealth without fulfilling Allah's right and spending in His cause (9:34).",
+              "text": "The Quran warns against hoarding gold and silver instead of spending them in Allah's cause (9:34).",
               "source_ids": [
                 "Q9:34"
               ]
             },
             {
-              "text": "Allah commands that charity be collected from people's wealth to purify and cleanse them (9:103).",
+              "text": "The verse tells the Prophet to take charity from people's wealth as a means of purifying them (9:103).",
               "source_ids": [
                 "Q9:103"
               ]
@@ -160,7 +166,7 @@
       ],
       "not_established": [
         {
-          "text": "This verified ruling establishes the obligation of zakat on monetary savings whenever a year passes, without detailing specific modern currency rates or commercial trade goods."
+          "text": "This fatwa establishes zakat on saved money when it reaches nisab and a year passes, but it does not state the zakat rate or discuss bank-account arrangements."
         }
       ]
     },
@@ -174,7 +180,7 @@
           ]
         },
         {
-          "text": "Der Heilige Koran warnt davor, Vermögen anzuhäufen, ohne das gebührende Recht zu erfüllen und auf dem Wege Allahs auszugeben, und gebietet, eine Abgabe zur Reinigung und Läuterung der Besitzer zu nehmen.",
+          "text": "Der Koran warnt davor, Gold und Silber anzuhäufen, ohne auf Allahs Weg auszugeben, und erwähnt die Entnahme einer Abgabe aus dem Besitz der Menschen zu ihrer Reinigung.",
           "source_ids": [
             "Q9:34",
             "Q9:103"
@@ -186,13 +192,13 @@
           "heading": "Voraussetzungen der Zakat-Pflicht bei Erreichen des Nisab und Ablauf eines Jahres",
           "sentences": [
             {
-              "text": "Der Heilige Koran warnt davor, Gold, Silber und Vermögen anzuhäufen, ohne die Pflichtabgabe zu entrichten und auf dem Wege Allahs auszugeben (9:34).",
+              "text": "Der Koran warnt davor, Gold und Silber zu horten, statt sie auf Allahs Weg auszugeben (9:34).",
               "source_ids": [
                 "Q9:34"
               ]
             },
             {
-              "text": "Allah gebot Seinem Propheten, von ihrem Besitz eine Abgabe zu nehmen, um sie dadurch zu reinigen und zu läutern (9:103).",
+              "text": "Der Vers weist den Propheten an, von ihrem Besitz eine Abgabe zu nehmen, um sie dadurch zu reinigen und zu läutern (9:103).",
               "source_ids": [
                 "Q9:103"
               ]
@@ -219,7 +225,7 @@
       ],
       "not_established": [
         {
-          "text": "Dieses verifizierte Rechtsurteil begründet die Zakat-Pflicht auf Ersparnisse bei jährlicher Frist, ohne detaillierte Umrechnungskurse für Währungen oder Handelswaren aufzuführen."
+          "text": "Diese Fatwa begründet die Zakat-Pflicht auf erspartes Geld bei erreichtem Nisab und nach Ablauf eines Jahres, nennt aber weder den Zakat-Satz noch Regelungen zu Bankkonten."
         }
       ]
     }

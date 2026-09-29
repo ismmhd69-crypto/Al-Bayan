@@ -41,7 +41,7 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "تذكر المصادر الإسلامية أن آدم خُلق من تراب وطين بأمر الله، وأن ذريته جاءت بعد ذلك من سلالة من ماء، كما تذكر الآيات خلقه وتسويته ونفخ الروح فيه.",
+          "text": "تتناول هذه المصادر خلق آدم وأصل الإنسان، لا كل صور التطور البيولوجي؛ فتذكر أن آدم خُلق من تراب وطين، وأن خلقه كان بأمر الله، وأن ذريته جاءت بعد ذلك من سلالة من ماء.",
           "source_ids": [
             "Q3:59",
             "Q32:7",
@@ -61,7 +61,7 @@
           "heading": "خلق آدم",
           "sentences": [
             {
-              "text": "يضرب القرآن خلق آدم مثلًا على قدرة الله، ويذكر أنه خلقه من تراب ثم قال له: كن فكان.",
+              "text": "يعرض القرآن خلق آدم مثالًا على قدرة الله، ويذكر أنه خلقه من تراب بأمره.",
               "source_ids": [
                 "Q3:59"
               ]
@@ -114,7 +114,7 @@
     "en": {
       "direct_answer": [
         {
-          "text": "The Islamic sources describe Adam as created from dust and clay by God's command, while his descendants came afterward from an extract of fluid; they also describe his shaping and receiving the spirit.",
+          "text": "The Islamic sources describe Adam in terms of dust and clay, with his creation occurring by God's command, while his descendants came afterward from an extract of fluid; they also describe his shaping and receiving the spirit.",
           "source_ids": [
             "Q3:59",
             "Q32:7",
@@ -134,7 +134,7 @@
           "heading": "Adam's creation",
           "sentences": [
             {
-              "text": "The Quran presents Adam's creation as an example of God's power and says that He created him from dust and then said, 'Be,' and he was.",
+          "text": "The Quran presents Adam's creation as an example of God's power and describes it as creation from dust by His command.",
               "source_ids": [
                 "Q3:59"
               ]
@@ -180,14 +180,14 @@
       "other_views": [],
       "not_established": [
         {
-          "text": "These sources address Adam's creation and human origins; they do not set out every form or claim of biological change."
+          "text": "These sources address Adam and human origins, but they do not decide every question about biological evolution beyond those statements."
         }
       ]
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Die islamischen Quellen beschreiben Adam als durch Allahs Befehl aus Erde und Ton erschaffen; seine Nachkommenschaft entstand danach aus einem Auszug aus Flüssigkeit. Sie erwähnen außerdem seine Formung und die Einhauchung des Geistes.",
+          "text": "Diese Quellen behandeln die Erschaffung Adams und den Ursprung des Menschen, nicht jede Form der biologischen Evolution; sie beschreiben Adam als aus Erde und Ton erschaffen, wobei seine Erschaffung durch Allahs Befehl geschah, und seine Nachkommenschaft als danach aus einem Auszug aus Flüssigkeit entstanden.",
           "source_ids": [
             "Q3:59",
             "Q32:7",
@@ -207,7 +207,7 @@
           "heading": "Die Erschaffung Adams",
           "sentences": [
             {
-              "text": "Der Koran nennt die Erschaffung Adams als Zeichen für Allahs Macht und sagt, dass Er ihn aus Erde erschuf und zu ihm sagte: „Sei!“, worauf er war.",
+              "text": "Der Koran nennt die Erschaffung Adams als Zeichen für Allahs Macht und beschreibt sie als Erschaffung aus Erde durch Allahs Befehl.",
               "source_ids": [
                 "Q3:59"
               ]
@@ -253,7 +253,7 @@
       "other_views": [],
       "not_established": [
         {
-          "text": "Diese Quellen behandeln die Erschaffung Adams und den Ursprung des Menschen, legen aber nicht jede Form oder Behauptung biologischer Veränderung dar."
+          "text": "Diese Quellen behandeln Adam und den Ursprung des Menschen, entscheiden aber nicht jede Frage der biologischen Evolution über diese Aussagen hinaus."
         }
       ]
     }

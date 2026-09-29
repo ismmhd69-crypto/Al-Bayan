@@ -7,19 +7,25 @@
       "ما حكم زكاة الذهب الملبوس",
       "كيف تحسب زكاة الذهب وما نصابه",
       "هل تجب الزكاة في ذهب الزينة للنساء",
-      "مقدار نصاب الذهب للزكاة بالجرام"
+      "مقدار نصاب الذهب للزكاة بالجرام",
+      "زكاة الذهب",
+      "هل على الذهب زكاة"
     ],
     "en": [
       "How to calculate zakat on gold",
       "What is the nisab for zakat on gold",
       "Is zakat due on gold jewelry worn by women",
-      "Zakat calculation on gold in grams"
+      "Zakat calculation on gold in grams",
+      "zakat on gold",
+      "is zakat due on gold"
     ],
     "de": [
       "Wie berechnet man die Zakat auf Gold",
       "Was ist der Nisab für Zakat auf Gold",
       "Muss man Zakat auf getragenen Goldschmuck zahlen",
-      "Zakat-Berechnung auf Gold in Gramm"
+      "Zakat-Berechnung auf Gold in Gramm",
+      "zakat auf gold",
+      "zakat für goldschmuck"
     ]
   },
   "sources": [
@@ -61,7 +67,7 @@
           "heading": "حكم زكاة حلي الذهب الملبوس",
           "sentences": [
             {
-              "text": "ورد التحذير القرآني الشديد لمن يكنز الذهب والفضة ولا يؤدي حقهما الشرعي والواجب فيهما (9:34).",
+              "text": "حذر القرآن من كنز الذهب والفضة دون الإنفاق في سبيل الله (9:34).",
               "source_ids": [
                 "Q9:34"
               ]
@@ -94,7 +100,7 @@
       ],
       "not_established": [
         {
-          "text": "تبين هذه الفتوى الحكم المرجح في زكاة حلي الذهب الملبوس ونسبتها الشرعية، ولا تفصل تحديد النصاب بالجرامات الحديثة في هذا الموضع بعينه."
+          "text": "تذكر هذه الفتوى الحكم الراجح ونسبة الزكاة، لكنها لا تذكر مقدار النصاب بالجرامات الحديثة؛ لذلك لا تحدد هذه الإجابة رقمًا للجرامات."
         }
       ]
     },
@@ -119,7 +125,7 @@
           "heading": "Ruling on worn gold jewelry",
           "sentences": [
             {
-              "text": "The Holy Quran warns sternly against hoarding gold and silver without discharging the due obligations on them (9:34).",
+              "text": "The Quran warns against hoarding gold and silver instead of spending them in Allah's cause (9:34).",
               "source_ids": [
                 "Q9:34"
               ]
@@ -152,7 +158,7 @@
       ],
       "not_established": [
         {
-          "text": "This verified fatwa presents the preferred ruling on worn gold jewelry and its legal percentage, without specifying the exact modern gram conversion of the nisab in this particular text."
+          "text": "This fatwa gives the preferred ruling and zakat rate, but it does not give the nisab in modern grams, so this answer does not state a gram amount."
         }
       ]
     },
@@ -177,7 +183,7 @@
           "heading": "Rechtsurteil über getragenen Goldschmuck",
           "sentences": [
             {
-              "text": "Der Koran spricht eine deutliche Warnung gegen diejenigen aus, die Gold und Silber horten und nicht die darauf liegenden Pflichten erfüllen (9:34).",
+              "text": "Der Koran warnt davor, Gold und Silber zu horten, statt sie auf Allahs Weg auszugeben (9:34).",
               "source_ids": [
                 "Q9:34"
               ]
@@ -210,7 +216,7 @@
       ],
       "not_established": [
         {
-          "text": "Diese verifizierte Fatwa begründet die vorgezogene Rechtsansicht zur Zakat auf Schmuck und dessen Abgabesatz, ohne die genaue Grammumrechnung des Nisab an dieser Textstelle aufzuführen."
+          "text": "Diese Fatwa nennt die vorzugswürdige Ansicht und den Zakat-Satz, aber nicht den Nisab in modernen Gramm; daher nennt diese Antwort keine Grammzahl."
         }
       ]
     }
