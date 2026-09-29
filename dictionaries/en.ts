@@ -92,6 +92,7 @@ const en = {
       minutes: "min",
       privacy: "The video loads from YouTube only after you press play.",
       youtube: "Open on YouTube",
+      languages: { ar: "Arabic", en: "English", de: "German" },
       channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "Ibn Baz, official website channel", UCwMocSKEbLav6SZvwzTvDbQ: "al-Albani legacy portal", UCWjCSGhmSGu0VLf2mPFS0Kg: "Othman al-Khamis, official channel", UCtF3YygTiodnYSw8vD3UJtQ: "Ibn Uthaymeen Foundation", UCYZkmbBbVMWxB1gyioTPLIA: "Ibn Baz Charitable Foundation" },
     },
     scholarQuote: {

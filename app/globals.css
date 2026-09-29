@@ -1156,6 +1156,28 @@ details[open] > summary .chev {
   font-size: var(--fs-sm);
   color: var(--ink-3);
 }
+.video-fold {
+  background: var(--surface);
+}
+.video-fold > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-block: 12px;
+  color: var(--accent);
+  font-weight: 700;
+  cursor: pointer;
+}
+.video-fold > summary svg {
+  inline-size: 17px;
+  block-size: 17px;
+}
+.video-fold > summary .chev {
+  margin-inline-start: auto;
+}
+.video-fold__content {
+  padding-block-end: 12px;
+}
 .answer-note {
   font-size: var(--fs-sm) !important;
   color: var(--gold-ink) !important;

@@ -94,6 +94,7 @@ const de: typeof en = {
       minutes: "Min.",
       privacy: "Das Video wird erst von YouTube geladen, wenn du auf Abspielen drückst.",
       youtube: "Auf YouTube öffnen",
+      languages: { ar: "Arabisch", en: "Englisch", de: "Deutsch" },
       channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "Ibn Baz, Kanal der offiziellen Website", UCwMocSKEbLav6SZvwzTvDbQ: "Portal zum Erbe al-Albanis", UCWjCSGhmSGu0VLf2mPFS0Kg: "Othman al-Khamis, offizieller Kanal", UCtF3YygTiodnYSw8vD3UJtQ: "Ibn-Uthaymeen-Stiftung", UCYZkmbBbVMWxB1gyioTPLIA: "Ibn-Baz-Stiftung" },
     },
     scholarQuote: {

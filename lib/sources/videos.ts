@@ -17,19 +17,28 @@ function db(): SupabaseClient | null {
   return client;
 }
 
-type VideoHit = { youtube_id: string; channel_id: string | null; title: string; duration_seconds: number | null };
+type VideoHit = {
+  youtube_id: string;
+  channel_id: string | null;
+  title: string;
+  language: "ar" | "en" | "de" | null;
+  duration_seconds: number | null;
+};
 
-export async function searchVideos(phrases: string[], limit = 2): Promise<VideoSuggestion[]> {
+export async function searchVideos(phrases: string[], limit = 12): Promise<VideoSuggestion[]> {
   const supabase = db();
   if (!supabase) return [];
   // Every word of a phrase must be in the title; Ask's phrases are often longer than video titles,
   // so looser levels are tried when the strict search finds nothing (see searchQueryLevels).
-  let hits: VideoHit[] = [];
+  const hits: VideoHit[] = [];
   for (const query of searchQueryLevels(phrases)) {
     const { data, error } = await supabase.rpc("search_approved_videos", { query_text: query, match_count: limit * 3 });
     if (error) throw new Error(`video search failed: ${error.message}`);
-    hits = (data as VideoHit[] | null) ?? [];
-    if (hits.length > 0) break;
+    for (const hit of (data as VideoHit[] | null) ?? []) {
+      if (!hits.some((existing) => existing.youtube_id === hit.youtube_id)) hits.push(hit);
+      if (hits.length >= limit) break;
+    }
+    if (hits.length >= limit) break;
   }
   const seen = new Set<string>();
   return hits
@@ -42,5 +51,6 @@ export async function searchVideos(phrases: string[], limit = 2): Promise<VideoS
       channelId: v.channel_id!,
       title: v.title,
       minutes: Math.max(1, Math.round((v.duration_seconds ?? 60) / 60)),
+      language: v.language === "en" || v.language === "de" ? v.language : "ar",
     }));
 }

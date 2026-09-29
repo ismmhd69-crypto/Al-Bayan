@@ -241,7 +241,7 @@ const reducedMotion = () =>
   typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 // A real answer: an automatic explanation with a source on every sentence, then the verses exactly as served.
-function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
+export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
   const anchor = (key: string) => `ev-${id}-${key.replace(":", "-")}`;
   // Source tags: verses show "2:255", hadith their Bukhari (or Muslim) number, quotes the scholar.
   const byKey = new Map(a.evidence.map((e) => [e.key, e]));
@@ -365,14 +365,12 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
         </section>
       )}
 
-      <section className="answer-part answer-part--real">
-        <h3>
-          <Users aria-hidden="true" />
-          {t.parts.scholars}
-        </h3>
-        {quotes.length === 0 ? (
-          <p className="muted">{t.scholarsEmpty}</p>
-        ) : (
+      {quotes.length > 0 && (
+        <section className="answer-part answer-part--real">
+          <h3>
+            <Users aria-hidden="true" />
+            {t.parts.scholars}
+          </h3>
           <ul className="evidence">
             {quotes.map((e) =>
               e.kind === "scholar" ? (
@@ -403,22 +401,25 @@ function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
               ) : null,
             )}
           </ul>
-        )}
-      </section>
+        </section>
+      )}
 
       {a.videos && a.videos.length > 0 && (
-        <section className="answer-part answer-part--real">
-          <h3>
+        <details className="fold answer-part--real video-fold">
+          <summary>
             <PlayCircle aria-hidden="true" />
             {t.parts.watch}
-          </h3>
-          <p className="muted">{t.video.note}</p>
-          <ul className="evidence">
-            {a.videos.map((v) => (
-              <VideoCard key={v.youtubeId} v={v} labels={t.video} />
-            ))}
-          </ul>
-        </section>
+            <ChevronDown aria-hidden="true" className="chev" />
+          </summary>
+          <div className="video-fold__content">
+            <p className="muted">{t.video.note}</p>
+            <ul className="evidence">
+              {a.videos.map((v) => (
+                <VideoCard key={v.youtubeId} v={v} labels={t.video} />
+              ))}
+            </ul>
+          </div>
+        </details>
       )}
 
       <p className="answer-foot">

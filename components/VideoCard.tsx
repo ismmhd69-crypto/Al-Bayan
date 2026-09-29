@@ -9,6 +9,7 @@ export type VideoLabels = {
   minutes: string;
   privacy: string;
   youtube: string;
+  languages: Record<VideoSuggestion["language"], string>;
   channels: Record<string, string>;
 };
 
@@ -21,10 +22,10 @@ export default function VideoCard({ v, labels }: { v: VideoSuggestion; labels: V
       <p className="hadith-meta">
         <span className="hadith-collection">{labels.channels[v.channelId] ?? ""}</span>
         <span>
-          {v.minutes} {labels.minutes}
+          {labels.languages[v.language]} · {v.minutes} {labels.minutes}
         </span>
       </p>
-      <p className="quote-title" lang="ar" dir="rtl" translate="no">
+      <p className="quote-title" lang={v.language} dir={v.language === "ar" ? "rtl" : "ltr"} translate="no">
         {v.title}
       </p>
       {playing ? (

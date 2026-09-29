@@ -133,3 +133,13 @@ The sitemap had no usable fatwa pages. Look at the network calls the alifta.gov.
 
 ### Task D: notes
 Row in `HANDOFF.md` section 2, short line in `Memory Al Bayan.md`, list of your changed files in the report.
+
+---
+
+## QUEUED: hadith sources research (add to phase 3 when Mo says go)
+
+Sunnah.com has not answered the key request for weeks. Research alternatives, **research and samples only, nothing switched on until Mo approves**:
+1. **Dorar.net (الموسوعة الحديثية, dorar.net):** does it offer a public hadith search API? Its terms for developers and for AI use; what it returns (Arabic text, source book and number, the grading scholar and grade such as "خلاصة حكم المحدث"); speed; whether answers can link to its pages. Try 20 sample searches for common questions and report quality.
+2. **Arabic text of Sahih al-Bukhari and Sahih Muslim for our own search index:** the classical Arabic text is not owned by anyone, but digital editions may carry terms. Find an edition with clear terms (for example open datasets) and compare 50 random hadith (text and number) with sunnah.com. Only the Arabic text and numbers would be used for search and display; translations only from permitted sources (HadeethEnc now, Sunnah.com or another licensed API later).
+3. **fawazahmed0/hadith-api** was reviewed and not accepted as-is (translations copied from other sites, unclear rights, unclear graders, no search, no German); mention only if a use limited to Arabic text is clearly safer than option 2.
+Report: what each offers, rights (allowed / unclear / not allowed, with quotes from the terms), quality from the samples, effort to connect, and your recommendation. Save it in `docs/hadith-sources-research.md`.

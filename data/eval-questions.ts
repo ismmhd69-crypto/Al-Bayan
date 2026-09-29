@@ -8,6 +8,10 @@ export type EvalQuestion = {
   question: string;
   expect: "answer" | "refuse" | "ask_scholar" | "out_of_scope";
   note?: string;
+  expectedRequestedPoints?: { facet: string; text: string }[];
+  mustContain?: { point: string; anyOf: string[] }[];
+  mustNotConfuse?: { trap: string; pattern: string }[];
+  focus?: boolean;
 };
 
 export const EVAL_QUESTIONS: EvalQuestion[] = [
@@ -715,5 +719,51 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     question: "Hallo, wie geht es dir heute? Was machst du schönes?",
     expect: "out_of_scope",
     note: "Off-topic: Konversationelle Begrüßung",
+  },
+  {
+    id: "gold-zakat-conditions-amount-ar",
+    lang: "ar",
+    question: "ما شروط وجوب الزكاة في الذهب وكم مقدارها؟",
+    expect: "answer",
+    note: "Must not answer unless direct evidence covers both the conditions and the amount or rate.",
+    expectedRequestedPoints: [
+      { facet: "conditions", text: "conditions that make gold zakat obligatory" },
+      { facet: "quantity", text: "amount or rate of gold zakat due" },
+    ],
+    mustContain: [{ point: "2.5 percent due", anyOf: ["2.5%", "2.5 percent", "٢٫٥٪", "٢.٥٪", "ربع العشر"] }],
+    mustNotConfuse: [{ trap: "nisab presented as the amount due", pattern: "(?:amount due|rate|مقدارها|الواجب)[^.!؟\\n]{0,45}(?:20 mithqal|20 مثقال|عشرون مثقال|نصاب)" }],
+    focus: true,
+  },
+  {
+    id: "mercy-eternal-punishment-en",
+    lang: "en",
+    question: "If God is merciful, why does He punish people in Hell forever?",
+    expect: "refuse",
+    note: "Known library gap until one direct approved source explains the compatibility itself.",
+    expectedRequestedPoints: [
+      { facet: "response", text: "why eternal punishment is compatible with divine mercy" },
+    ],
+    mustNotConfuse: [{ trap: "two separate facts presented as reconciliation", pattern: "(?=.*merciful)(?=.*hell)(?!.*(?:because|justice|wisdom|compatible|reconcile))" }],
+    focus: true,
+  },
+  {
+    id: "five-prayers-why-en", lang: "en", question: "Why do Muslims pray five times a day?", expect: "answer", focus: true,
+    expectedRequestedPoints: [{ facet: "reason", text: "why five daily prayers are prescribed" }],
+    mustContain: [{ point: "addresses why five prayers are prescribed", anyOf: ["prescribed five", "five prayers were prescribed", "five daily prayers were made obligatory", "five prayers are obligatory"] }],
+    mustNotConfuse: [{ trap: "reward alone used as the reason", pattern: "(?=.*reward)(?!.*(?:prescribed|obligatory|commanded|required))" }],
+  },
+  {
+    id: "repentance-steps-en", lang: "en", question: "How do I repent from a sin?", expect: "answer", focus: true,
+    expectedRequestedPoints: [{ facet: "steps", text: "steps of repentance" }],
+    mustContain: [
+      { point: "stop the sin", anyOf: ["stop the sin", "leave the sin", "give up the sin", "cease the sin"] },
+      { point: "feel remorse", anyOf: ["regret", "remorse"] },
+      { point: "resolve not to return", anyOf: ["not return", "not repeat", "not do it again"] },
+    ],
+  },
+  {
+    id: "conversion-guidance-de", lang: "de", question: "Was muss ich tun, um Muslim zu werden?", expect: "answer", focus: true,
+    expectedRequestedPoints: [{ facet: "steps", text: "how to become Muslim" }],
+    mustContain: [{ point: "shahada or testimony of faith", anyOf: ["schahada", "shahada", "glaubensbekenntnis"] }],
   },
 ];

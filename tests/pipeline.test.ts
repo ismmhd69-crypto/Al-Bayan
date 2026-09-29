@@ -41,7 +41,7 @@ const understanding = {
   kind: "question",
   question_type: "general",
   subjects: ["fasting"],
-  required_facets: ["general"],
+  requested_points: [{ text: "general answer about fasting", facet: "general" }],
   qualifiers: [],
   search_queries_en: ["fasting", "fasting prescribed", "fasting month"],
   search_queries_de: [],
@@ -49,20 +49,24 @@ const understanding = {
 };
 const goodDraft = {
   status: "answer",
-  claims: [{ text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], facet_ids: ["general"] }],
+  claims: [{ text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], requirement_id: "R1" }],
 };
 
 // A fake AI that answers each step from a script and records what it was sent.
 function fakeAI(id: string, script: Record<string, unknown>) {
   const seen: JsonRequest[] = [];
+  let understandingCalls = 0;
   let draftCalls = 0;
   let screeningCalls = 0;
   const ai: AIProvider = {
     id,
     async generateJson(req) {
       seen.push(req);
-      if (req.system.startsWith("You prepare a search")) return script.understand;
-      if (req.system.startsWith("You create a safe search plan")) return script.understand;
+      if (req.system.startsWith("You prepare a search") || req.system.startsWith("You create a safe search plan")) {
+        const understands = script.understands;
+        if (Array.isArray(understands)) return understands[Math.min(understandingCalls++, understands.length - 1)];
+        return script.understand;
+      }
       if (req.system.startsWith("You select evidence")) {
         if (script.selection !== undefined) return script.selection;
         const prompt = JSON.parse(req.prompt) as { candidates: { source: { id: string } }[] };
@@ -73,7 +77,7 @@ function fakeAI(id: string, script: Record<string, unknown>) {
           assessments: prompt.candidates.map((candidate, index) => ({
             source_id: candidate.source.id,
             relevance: index === 0 ? "direct" : "context",
-            supported_facets: index === 0 ? ["general"] : [],
+            supported_requirement_ids: index === 0 ? ["R1"] : [],
             context_safe: "yes",
           })),
         };
@@ -87,6 +91,12 @@ function fakeAI(id: string, script: Record<string, unknown>) {
       if (req.system.startsWith("You independently audit")) {
         return "audit" in script ? script.audit : AUDIT_FAIL;
       }
+      if (req.system.startsWith("You check optional video titles")) {
+        const prompt = JSON.parse(req.prompt) as { titles: unknown[] };
+        return "videoVerdicts" in script
+          ? script.videoVerdicts
+          : { verdicts: prompt.titles.map(() => "yes") };
+      }
       const screenings = script.screenings;
       if (Array.isArray(screenings)) return screenings[Math.min(screeningCalls++, screenings.length - 1)];
       return script.verdicts;
@@ -95,9 +105,22 @@ function fakeAI(id: string, script: Record<string, unknown>) {
   return { ai, seen };
 }
 
-const OK = { answers_question: "yes", covers_facets: "yes", fair_picture: "yes", context_preserved: "yes" };
+const OK = {
+  requirement_verdicts: [{ requirement_id: "R1", verdict: "yes" }],
+  answers_question: "yes",
+  covers_facets: "yes",
+  fair_picture: "yes",
+  context_preserved: "yes",
+};
+const OK_TWO = {
+  ...OK,
+  requirement_verdicts: [
+    { requirement_id: "R1", verdict: "yes" },
+    { requirement_id: "R2", verdict: "yes" },
+  ],
+};
 const AUDIT_OK = { ...OK };
-const AUDIT_FAIL = { answers_question: "no", covers_facets: "no", fair_picture: "no", context_preserved: "no" };
+const AUDIT_FAIL = { ...OK, requirement_verdicts: [{ requirement_id: "R1", verdict: "no" }], answers_question: "no", covers_facets: "no", fair_picture: "no", context_preserved: "no" };
 const isAudit = (req: JsonRequest) => req.system.startsWith("You independently audit");
 
 function deps(
@@ -145,7 +168,10 @@ describe("runPipeline", () => {
       ...understanding,
       question_type: "identity",
       subjects: ["example subject"],
-      required_facets: ["identity", "attributes"],
+      requested_points: [
+        { text: "identity of the example subject", facet: "identity" },
+        { text: "attributes of the example subject", facet: "attributes" },
+      ],
       search_queries_en: ["example subject", "example subject properties"],
     };
     const identityDraft = {
@@ -154,12 +180,12 @@ describe("runPipeline", () => {
         {
           text: "This passage directly identifies the subject.",
           source_ids: ["Q2:255"],
-          facet_ids: ["identity"],
+          requirement_id: "R1",
         },
         {
           text: "This passage directly characterizes the subject.",
           source_ids: ["Q2:255"],
-          facet_ids: ["attributes"],
+          requirement_id: "R2",
         },
       ],
     };
@@ -168,13 +194,13 @@ describe("runPipeline", () => {
       coverage: "complete",
       conflict: "none",
       assessments: [
-        { source_id: "Q2:7", relevance: "mention_only", supported_facets: [], context_safe: "yes" },
-        { source_id: "Q2:10", relevance: "mention_only", supported_facets: [], context_safe: "yes" },
-        { source_id: "Q2:19", relevance: "mention_only", supported_facets: [], context_safe: "yes" },
-        { source_id: "Q2:255", relevance: "direct", supported_facets: ["identity", "attributes"], context_safe: "yes" },
+        { source_id: "Q2:7", relevance: "mention_only", supported_requirement_ids: [], context_safe: "yes" },
+        { source_id: "Q2:10", relevance: "mention_only", supported_requirement_ids: [], context_safe: "yes" },
+        { source_id: "Q2:19", relevance: "mention_only", supported_requirement_ids: [], context_safe: "yes" },
+        { source_id: "Q2:255", relevance: "direct", supported_requirement_ids: ["R1", "R2"], context_safe: "yes" },
       ],
     };
-    const { d, writer } = deps({ understand: identityFrame, draft: identityDraft }, { verdicts: ["supported", "supported"], ...OK }, selection);
+    const { d, writer } = deps({ understand: identityFrame, draft: identityDraft }, { verdicts: ["supported", "supported"], ...OK_TWO }, selection);
     const result = await runPipeline("Who is the example subject?", "en", d);
     expect(result.status).toBe("answer");
     const draftPrompt = writer.seen[1].prompt;
@@ -190,13 +216,110 @@ describe("runPipeline", () => {
       coverage: "incomplete",
       conflict: "none",
       assessments: [
-        { source_id: "Q2:183", relevance: "mention_only", supported_facets: [], context_safe: "yes" },
-        { source_id: "Q2:184", relevance: "context", supported_facets: [], context_safe: "yes" },
+        { source_id: "Q2:183", relevance: "mention_only", supported_requirement_ids: [], context_safe: "yes" },
+        { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes" },
       ],
     };
     const { d, writer } = deps({ understand: understanding, draft: goodDraft }, undefined, selection);
     expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_source");
     expect(writer.seen).toHaveLength(1);
+  });
+
+  it("never answers the zakat question when a retry drops the required amount", async () => {
+    const zakatFrame = {
+      ...understanding,
+      question_type: "ruling",
+      subjects: ["zakat on gold"],
+      requested_points: [
+        { text: "conditions that make gold zakat obligatory", facet: "conditions" },
+        { text: "amount or rate of gold zakat due", facet: "quantity" },
+      ],
+      search_queries_en: ["fasting prescribed", "ill makes up"],
+    };
+    const selection = {
+      status: "ready", coverage: "complete", conflict: "none",
+      assessments: [
+        { source_id: "Q2:183", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" },
+        { source_id: "Q2:184", relevance: "direct", supported_requirement_ids: ["R2"], context_safe: "yes" },
+      ],
+    };
+    const incomplete = {
+      status: "answer",
+      claims: [{ text: "The obligation begins after its conditions are met.", source_ids: ["Q2:183"], requirement_id: "R1" }],
+    };
+    const { d, writer } = deps({ understand: zakatFrame, drafts: [incomplete, incomplete] }, undefined, selection);
+    const result = await runPipeline("ما شروط وجوب الزكاة في الذهب وكم مقدارها", "ar", d);
+    expect(result.status).toBe("no_source");
+    expect(writer.seen[2].prompt).toContain("R2: amount or rate of gold zakat due");
+  });
+
+  it("accepts the zakat question only when conditions and quantity are both claimed and screened", async () => {
+    const zakatFrame = {
+      ...understanding,
+      question_type: "ruling",
+      subjects: ["zakat on gold"],
+      requested_points: [
+        { text: "conditions that make gold zakat obligatory", facet: "conditions" },
+        { text: "amount or rate of gold zakat due", facet: "quantity" },
+      ],
+      search_queries_en: ["fasting prescribed", "ill makes up"],
+    };
+    const selection = {
+      status: "ready", coverage: "complete", conflict: "none",
+      assessments: [
+        { source_id: "Q2:183", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" },
+        { source_id: "Q2:184", relevance: "direct", supported_requirement_ids: ["R2"], context_safe: "yes" },
+      ],
+    };
+    const complete = { status: "answer", claims: [
+      { text: "The duty begins when its stated conditions are met.", source_ids: ["Q2:183"], requirement_id: "R1" },
+      { text: "The due amount follows the stated rate.", source_ids: ["Q2:184"], requirement_id: "R2" },
+    ] };
+    const { d } = deps({ understand: zakatFrame, draft: complete }, { verdicts: ["supported", "supported"], ...OK_TWO }, selection);
+    const result = await runPipeline("What are the conditions for gold zakat and how much is due?", "en", d);
+    expect(result.status).toBe("answer");
+    if (result.status === "answer") expect(result.answer.claims).toHaveLength(2);
+  });
+
+  it("refuses mercy and punishment passages that do not resolve their apparent conflict", async () => {
+    const objection = {
+      ...understanding,
+      question_type: "objection",
+      subjects: ["divine mercy", "eternal punishment"],
+      requested_points: [{ text: "why eternal punishment is compatible with divine mercy", facet: "response" }],
+      search_queries_en: ["other group discussed"],
+    };
+    const selection = {
+      status: "insufficient", coverage: "incomplete", conflict: "none",
+      assessments: [
+        { source_id: "Q2:7", relevance: "mention_only", supported_requirement_ids: [], context_safe: "yes" },
+        { source_id: "Q2:10", relevance: "partial", supported_requirement_ids: [], context_safe: "yes" },
+        { source_id: "Q2:19", relevance: "partial", supported_requirement_ids: [], context_safe: "yes" },
+      ],
+    };
+    const { d, writer } = deps({ understand: objection, draft: goodDraft }, undefined, selection);
+    const result = await runPipeline("If God is merciful, why does He punish people in Hell forever?", "en", d);
+    expect(result.status).toBe("no_source");
+    expect(writer.seen).toHaveLength(1);
+  });
+
+  it("allows an objection only when a direct passage resolves the challenge", async () => {
+    const objection = {
+      ...understanding,
+      question_type: "objection",
+      subjects: ["divine mercy", "eternal punishment"],
+      requested_points: [{ text: "why eternal punishment is compatible with divine mercy", facet: "response" }],
+      search_queries_en: ["direct description"],
+    };
+    const selection = {
+      status: "ready", coverage: "complete", conflict: "none",
+      assessments: [{ source_id: "Q2:255", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" }],
+    };
+    const draft = { status: "answer", claims: [
+      { text: "The passage directly resolves the apparent conflict.", source_ids: ["Q2:255"], requirement_id: "R1" },
+    ] };
+    const { d } = deps({ understand: objection, draft }, undefined, selection);
+    expect((await runPipeline("If X, why Y?", "en", d)).status).toBe("answer");
   });
 
   it("never sends the raw question to the writing or screening step", async () => {
@@ -229,7 +352,7 @@ describe("runPipeline", () => {
     };
     const arabicDraft = {
       status: "answer",
-      claims: [{ text: "يفرض على المؤمنين صيام شهر محدد.", source_ids: ["Q2:183"], facet_ids: ["general"] }],
+      claims: [{ text: "يفرض على المؤمنين صيام شهر محدد.", source_ids: ["Q2:183"], requirement_id: "R1" }],
     };
     const { d, writer } = deps({ understand: arabicFrame, draft: arabicDraft });
     expect((await runPipeline("ما حكم الصيام؟", "ar", d)).status).toBe("answer");
@@ -252,20 +375,51 @@ describe("runPipeline", () => {
     expect(writer.seen.length).toBe(1);
   });
 
+  it("corrects a general conversion question mislabelled as personal before search", async () => {
+    const personal = { ...understanding, language: "de", kind: "personal" };
+    const general = { ...personal, kind: "question", requested_points: [{ text: "steps to become Muslim", facet: "steps" }] };
+    const { d, writer } = deps({ understands: [personal, general], draft: goodDraft });
+    const result = await runPipeline("Was muss ich tun, um Muslim zu werden?", "de", d);
+    expect(result.status).not.toBe("ask_scholar");
+    expect(writer.seen[1].prompt).toContain("general_guidance_misclassified");
+  });
+
   it("refuses when the understanding step returns something unknown", async () => {
     const { d } = deps({ understand: { ...understanding, kind: "totally_safe" }, draft: goodDraft });
     expect((await runPipeline("fasting", "de", d)).status).toBe("no_source");
   });
 
+  it("retries an invalid non-English requested-point label without weakening the frame", async () => {
+    const first = { ...understanding, requested_points: [{ text: "حكم الصيام", facet: "ruling" }] };
+    const { d, writer } = deps({ understands: [first, understanding], draft: goodDraft });
+    const reasons: string[] = [];
+    d.onRefuse = (reason) => reasons.push(reason);
+    const result = await runPipeline("What is the ruling on fasting?", "en", d);
+    expect(`${result.status}:${reasons.join(",")}`).toBe("answer:");
+    expect(writer.seen[1].prompt).toContain("requested_points text must be short plain English");
+  });
+
   it("declines greetings, off-topic and attacks", async () => {
     for (const kind of ["greeting", "off_topic", "harmful"]) {
-      const { d } = deps({ understand: { ...understanding, kind }, draft: goodDraft });
+      const { d } = deps({
+        understand: {
+          ...understanding,
+          kind,
+          subjects: [],
+          requested_points: [],
+          qualifiers: [],
+          search_queries_en: [],
+          search_queries_de: [],
+          search_queries_ar: [],
+        },
+        draft: goodDraft,
+      });
       expect((await runPipeline("hi", "en", d)).status).toBe("out_of_scope");
     }
   });
 
   it("refuses an unsupported claim that carries a real verse id", async () => {
-    const draft = { status: "answer", claims: [{ text: "Music is forbidden.", source_ids: ["Q2:183"], facet_ids: ["general"] }] };
+    const draft = { status: "answer", claims: [{ text: "Music is forbidden.", source_ids: ["Q2:183"], requirement_id: "R1" }] };
     const { d, writer, verifier } = deps({ understand: understanding, draft }, { verdicts: ["not_supported"], ...OK });
     expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
     // writer: frame, first draft, one correction, then the source-only evidence audit (default: fails)
@@ -275,7 +429,7 @@ describe("runPipeline", () => {
   });
 
   it("allows one simpler correction after screening rejects the first wording", async () => {
-    const first = { status: "answer", claims: [{ text: "Fasting always guarantees perfection.", source_ids: ["Q2:183"], facet_ids: ["general"] }] };
+    const first = { status: "answer", claims: [{ text: "Fasting always guarantees perfection.", source_ids: ["Q2:183"], requirement_id: "R1" }] };
     const { d, writer } = deps(
       { understand: understanding, drafts: [first, goodDraft] },
       undefined,
@@ -306,8 +460,8 @@ describe("runPipeline", () => {
     const draft = {
       status: "answer",
       claims: [
-        { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], facet_ids: ["general"] },
-        { text: "Sick people must never fast.", source_ids: ["Q2:184"], facet_ids: ["general"] },
+        { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], requirement_id: "R1" },
+        { text: "Sick people must never fast.", source_ids: ["Q2:184"], requirement_id: "R1" },
       ],
     };
     const { d } = deps({ understand: understanding, draft }, { verdicts: ["supported", "unsure"], ...OK });
@@ -322,7 +476,7 @@ describe("runPipeline", () => {
   });
 
   it("refuses a draft citing a verse it was not given", async () => {
-    const draft = { status: "answer", claims: [{ text: "Something about the throne.", source_ids: ["Q2:255"], facet_ids: ["general"] }] };
+    const draft = { status: "answer", claims: [{ text: "Something about the throne.", source_ids: ["Q2:255"], requirement_id: "R1" }] };
     const { d } = deps({ understand: understanding, draft });
     expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
   });
@@ -337,7 +491,10 @@ describe("runPipeline", () => {
       ...understanding,
       question_type: "identity",
       subjects: ["Allah", "God in Islam"],
-      required_facets: ["identity", "attributes"],
+      requested_points: [
+        { text: "identity of Allah", facet: "identity" },
+        { text: "attributes of Allah", facet: "attributes" },
+      ],
       search_queries_en: ["who is Allah", "attributes Allah Islam", "concept of God in Islam"],
       search_queries_de: ["wer ist Allah"],
       search_queries_ar: ["من هو الله"],
@@ -349,7 +506,7 @@ describe("runPipeline", () => {
   });
 
   it("redoes a draft once after a writing slip, and refuses if it slips again", async () => {
-    const copied = { status: "answer", claims: [{ text: "Fasting is prescribed for you in the blessed month.", source_ids: ["Q2:183"], facet_ids: ["general"] }] };
+    const copied = { status: "answer", claims: [{ text: "Fasting is prescribed for you in the blessed month.", source_ids: ["Q2:183"], requirement_id: "R1" }] };
     const { d, writer } = deps({ understand: understanding, draft: copied });
     expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
     // writer: frame, 2 drafts, then the evidence audit, which fails by default
@@ -362,7 +519,7 @@ describe("runPipeline", () => {
     const arabicFrame = { ...understanding, language: "ar", search_queries_ar: ["الصيام شهر"] };
     const copiedArabic = {
       status: "answer",
-      claims: [{ text: "كتب عليكم الصيام في الشهر المبارك", source_ids: ["Q2:183"], facet_ids: ["general"] }],
+      claims: [{ text: "كتب عليكم الصيام في الشهر المبارك", source_ids: ["Q2:183"], requirement_id: "R1" }],
     };
 
     it("shows only the exact approved passages when wording keeps failing but the audit passes", async () => {
@@ -384,7 +541,7 @@ describe("runPipeline", () => {
     it("never shows AI-written text as Quran text in source-only mode", async () => {
       // A well-formed Arabic summary that screening rejects twice, so the fallback is reached.
       const aiSummary = "يفرض على المؤمنين صيام شهر محدد";
-      const draft = { status: "answer", claims: [{ text: aiSummary, source_ids: ["Q2:183"], facet_ids: ["general"] }] };
+      const draft = { status: "answer", claims: [{ text: aiSummary, source_ids: ["Q2:183"], requirement_id: "R1" }] };
       const { d } = deps({ understand: arabicFrame, draft, audit: AUDIT_OK }, { verdicts: ["not_supported"], ...OK });
       const r = await runPipeline("ما حكم الصيام؟", "ar", d);
       if (r.status !== "answer") throw new Error("expected a source-only answer");
@@ -412,7 +569,10 @@ describe("runPipeline", () => {
         ...understanding,
         question_type: "identity",
         subjects: ["example subject"],
-        required_facets: ["identity", "attributes"],
+        requested_points: [
+          { text: "identity of the example subject", facet: "identity" },
+          { text: "attributes of the example subject", facet: "attributes" },
+        ],
         search_queries_en: ["example subject", "example subject properties"],
       };
       const selection = {
@@ -420,21 +580,21 @@ describe("runPipeline", () => {
         coverage: "complete",
         conflict: "none",
         assessments: [
-          { source_id: "Q2:7", relevance: "mention_only", supported_facets: [], context_safe: "yes" },
-          { source_id: "Q2:10", relevance: "unrelated", supported_facets: [], context_safe: "yes" },
-          { source_id: "Q2:19", relevance: "mention_only", supported_facets: [], context_safe: "yes" },
-          { source_id: "Q2:255", relevance: "direct", supported_facets: ["identity", "attributes"], context_safe: "yes" },
+          { source_id: "Q2:7", relevance: "mention_only", supported_requirement_ids: [], context_safe: "yes" },
+          { source_id: "Q2:10", relevance: "unrelated", supported_requirement_ids: [], context_safe: "yes" },
+          { source_id: "Q2:19", relevance: "mention_only", supported_requirement_ids: [], context_safe: "yes" },
+          { source_id: "Q2:255", relevance: "direct", supported_requirement_ids: ["R1", "R2"], context_safe: "yes" },
         ],
       };
       // Drafts copy six words of the approved translation, so wording fails twice.
       const copied = {
         status: "answer",
         claims: [
-          { text: "The example subject has a direct description here.", source_ids: ["Q2:255"], facet_ids: ["identity"] },
-          { text: "Several distinct properties are listed.", source_ids: ["Q2:255"], facet_ids: ["attributes"] },
+          { text: "The example subject has a direct description here.", source_ids: ["Q2:255"], requirement_id: "R1" },
+          { text: "Several distinct properties are listed.", source_ids: ["Q2:255"], requirement_id: "R2" },
         ],
       };
-      const { d, writer } = deps({ understand: identityFrame, draft: copied, audit: AUDIT_OK }, undefined, selection);
+      const { d, writer } = deps({ understand: identityFrame, draft: copied, audit: OK_TWO }, undefined, selection);
       const r = await runPipeline("Who is the example subject? RAW-QUESTION-MARKER", "en", d);
       if (r.status !== "answer") throw new Error("expected a source-only answer");
       expect(r.answer.sourceOnly).toBe(true);
@@ -469,8 +629,8 @@ describe("runPipeline", () => {
         coverage: "incomplete",
         conflict: "none",
         assessments: [
-          { source_id: "Q2:183", relevance: "partial", supported_facets: [], context_safe: "yes" },
-          { source_id: "Q2:184", relevance: "context", supported_facets: [], context_safe: "yes" },
+          { source_id: "Q2:183", relevance: "partial", supported_requirement_ids: [], context_safe: "yes" },
+          { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes" },
         ],
       };
       const { d, writer } = deps({ understand: arabicFrame, draft: copiedArabic, audit: AUDIT_OK }, undefined, selection);
@@ -487,7 +647,7 @@ describe("runPipeline", () => {
     });
 
     it("is never used when the writer cites a source outside the sealed package", async () => {
-      const draft = { status: "answer", claims: [{ text: "Something about the throne.", source_ids: ["Q2:255"], facet_ids: ["general"] }] };
+      const draft = { status: "answer", claims: [{ text: "Something about the throne.", source_ids: ["Q2:255"], requirement_id: "R1" }] };
       const { d, writer } = deps({ understand: understanding, draft, audit: AUDIT_OK });
       expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
       expect(writer.seen.some(isAudit)).toBe(false);
@@ -497,7 +657,7 @@ describe("runPipeline", () => {
       const germanFrame = { ...understanding, language: "de" };
       const germanDraft = {
         status: "answer",
-        claims: [{ text: "Den Gläubigen ist das Fasten in einem bestimmten Monat vorgeschrieben.", source_ids: ["Q2:183"], facet_ids: ["general"] }],
+        claims: [{ text: "Den Gläubigen ist das Fasten in einem bestimmten Monat vorgeschrieben.", source_ids: ["Q2:183"], requirement_id: "R1" }],
       };
       for (const [frame, draft, lang] of [
         [understanding, goodDraft, "en"],
@@ -556,19 +716,19 @@ const hadithSelection = (hadithRelevance: string, otherRelevance = "unrelated") 
   coverage: "complete",
   conflict: "none",
   assessments: [
-    { source_id: "Q2:183", relevance: "direct", supported_facets: ["general"], context_safe: "yes" },
-    { source_id: "Q2:184", relevance: "context", supported_facets: [], context_safe: "yes" },
+    { source_id: "Q2:183", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" },
+    { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes" },
     ...(hadithRelevance === "none"
       ? []
-      : [{ source_id: "HE9001", relevance: hadithRelevance, supported_facets: hadithRelevance === "direct" ? ["general"] : [], context_safe: "yes" }]),
-    { source_id: "HE9002", relevance: otherRelevance, supported_facets: [], context_safe: "yes" },
+      : [{ source_id: "HE9001", relevance: hadithRelevance, supported_requirement_ids: hadithRelevance === "direct" ? ["R1"] : [], context_safe: "yes" }]),
+    { source_id: "HE9002", relevance: otherRelevance, supported_requirement_ids: [], context_safe: "yes" },
   ],
 });
 const verseAndHadithDraft = {
   status: "answer",
   claims: [
-    { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], facet_ids: ["general"] },
-    { text: "The Prophet taught that fasting protects the one who fasts.", source_ids: ["HE9001"], facet_ids: ["general"] },
+    { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], requirement_id: "R1" },
+    { text: "The Prophet taught that fasting protects the one who fasts.", source_ids: ["HE9001"], requirement_id: "R1" },
   ],
 };
 const TWO_SUPPORTED = { verdicts: ["supported", "supported"], ...OK };
@@ -653,8 +813,8 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     const arabicDraft = {
       status: "answer",
       claims: [
-        { text: "يفرض على المؤمنين صيام شهر محدد.", source_ids: ["Q2:183"], facet_ids: ["general"] },
-        { text: "علم النبي أن الصوم يحمي صاحبه.", source_ids: ["HE9001"], facet_ids: ["general"] },
+        { text: "يفرض على المؤمنين صيام شهر محدد.", source_ids: ["Q2:183"], requirement_id: "R1" },
+        { text: "علم النبي أن الصوم يحمي صاحبه.", source_ids: ["HE9001"], requirement_id: "R1" },
       ],
     };
     const { d, writer, verifier } = deps({ understand: arabicFrame, draft: arabicDraft }, TWO_SUPPORTED, hadithSelection("direct"));
@@ -671,7 +831,7 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     // The drafts copy six words of the hadith translation, so wording fails twice.
     const copied = {
       status: "answer",
-      claims: [{ text: "Fasting is a shield with a great reward for believers.", source_ids: ["HE9001"], facet_ids: ["general"] }],
+      claims: [{ text: "Fasting is a shield with a great reward for believers.", source_ids: ["HE9001"], requirement_id: "R1" }],
     };
     const { d } = deps({ understand: understanding, draft: copied, audit: AUDIT_OK }, undefined, hadithSelection("direct"));
     d.searchHadith = async () => [hadithFast, hadithOther];
@@ -687,13 +847,13 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     const germanDraft = {
       status: "answer",
       claims: [
-        { text: "Den Gläubigen ist das Fasten in einem bestimmten Monat vorgeschrieben.", source_ids: ["Q2:183"], facet_ids: ["general"] },
-        { text: "Der Prophet lehrte, dass das Fasten den Fastenden schützt.", source_ids: ["HE9001"], facet_ids: ["general"] },
+        { text: "Den Gläubigen ist das Fasten in einem bestimmten Monat vorgeschrieben.", source_ids: ["Q2:183"], requirement_id: "R1" },
+        { text: "Der Prophet lehrte, dass das Fasten den Fastenden schützt.", source_ids: ["HE9001"], requirement_id: "R1" },
       ],
     };
     const { d } = deps({ understand: germanFrame, draft: germanDraft }, TWO_SUPPORTED, hadithSelection("direct"));
     d.searchHadith = async () => [hadithFast, hadithOther];
-    const r = await runPipeline("Warum fasten Muslime?", "de", d);
+    const r = await runPipeline("Was wird über das Fasten gelehrt?", "de", d);
     if (r.status !== "answer") throw new Error("expected an answer");
     const shown = r.answer.evidence.find((e) => e.key === "HE9001");
     expect(shown?.kind === "hadith" && shown.translationLanguage).toBe("en");
@@ -719,10 +879,10 @@ const scholarSelection = (relevance: string) => ({
   coverage: "complete",
   conflict: "none",
   assessments: [
-    { source_id: "Q2:183", relevance: "direct", supported_facets: ["general"], context_safe: "yes" },
-    { source_id: "Q2:184", relevance: "context", supported_facets: [], context_safe: "yes" },
-    { source_id: quoteFast.id, relevance, supported_facets: relevance === "direct" ? ["general"] : [], context_safe: "yes" },
-    { source_id: quoteOther.id, relevance: "unrelated", supported_facets: [], context_safe: "yes" },
+    { source_id: "Q2:183", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" },
+    { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes" },
+    { source_id: quoteFast.id, relevance, supported_requirement_ids: relevance === "direct" ? ["R1"] : [], context_safe: "yes" },
+    { source_id: quoteOther.id, relevance: "unrelated", supported_requirement_ids: [], context_safe: "yes" },
   ],
 });
 const arabicQueries = { ...understanding, search_queries_ar: ["حكمة الصيام"] };
@@ -732,8 +892,8 @@ describe("scholar quotes", () => {
     const draft = {
       status: "answer",
       claims: [
-        { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], facet_ids: ["general"] },
-        { text: "Shaykh Ibn Baz explained that fasting builds mindfulness of God.", source_ids: [quoteFast.id], facet_ids: ["general"] },
+        { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], requirement_id: "R1" },
+        { text: "Shaykh Ibn Baz explained that fasting builds mindfulness of God.", source_ids: [quoteFast.id], requirement_id: "R1" },
       ],
     };
     const { d, writer } = deps({ understand: arabicQueries, draft }, TWO_SUPPORTED, scholarSelection("direct"));
@@ -798,10 +958,10 @@ describe("scholar quotes", () => {
 });
 
 describe("related videos", () => {
-  const video = { youtubeId: "abcdefghijk", channelId: "UCiiJRwQ0MUaQo8ZZuf18pPw", title: "حكم الصيام", minutes: 4 };
+  const video = { youtubeId: "abcdefghijk", channelId: "UCiiJRwQ0MUaQo8ZZuf18pPw", title: "حكم الصيام", minutes: 4, language: "ar" as const };
   const outsider = { ...video, youtubeId: "zzzzzzzzzzz", channelId: "UCnotapproved00000000000" };
 
-  it("shows videos from approved channels under the answer, never to the models", async () => {
+  it("shows only videos that pass the separate title relevance check", async () => {
     const reasons: string[] = [];
     const { d, writer, verifier } = deps({ understand: arabicQueries, draft: goodDraft });
     d.searchVideos = async () => [video, outsider];
@@ -810,7 +970,22 @@ describe("related videos", () => {
     if (r.status !== "answer") throw new Error("expected an answer");
     expect(r.answer.videos).toEqual([video]);
     expect(reasons).toContain("video_dropped_by_rules");
-    for (const call of [...writer.seen, ...verifier.seen]) expect(call.prompt).not.toContain(video.youtubeId);
+    for (const call of writer.seen) expect(call.prompt).not.toContain(video.youtubeId);
+    const relevance = verifier.seen.find((call) => call.system.startsWith("You check optional video titles"));
+    expect(relevance?.prompt).toContain(video.title);
+    for (const call of verifier.seen.filter((item) => item !== relevance)) expect(call.prompt).not.toContain(video.youtubeId);
+  });
+
+  it("omits loosely related videos when the title checker says no", async () => {
+    const { d, verifier } = deps({ understand: arabicQueries, draft: goodDraft });
+    d.searchVideos = async () => [video];
+    const original = verifier.ai.generateJson;
+    verifier.ai.generateJson = async (request) => request.system.startsWith("You check optional video titles")
+      ? { verdicts: ["no"] }
+      : original(request);
+    const result = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (result.status !== "answer") throw new Error("expected an answer");
+    expect(result.answer.videos).toBeUndefined();
   });
 
   it("answers without videos when the video search fails, and refusals carry no videos", async () => {

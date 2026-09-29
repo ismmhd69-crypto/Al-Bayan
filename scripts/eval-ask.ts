@@ -2,7 +2,7 @@
 // reasons, so answer quality can be measured before and after a change. Local testing only:
 //
 //   npx tsx --conditions=react-server scripts/eval-ask.ts            (built-in questions)
-//   add --file to use data/eval-questions.ts when it exists, --limit=N, --only=ar|en|de
+//   add --file to use data/eval-questions.ts, --focused, --id=substring, --limit=N, --only=ar|en|de
 //
 // Prints status, failure reason codes and the cited source ids; never stores anything.
 
@@ -13,7 +13,9 @@ try {
   // optional
 }
 
-type Q = { id: string; lang: "ar" | "en" | "de"; question: string; expect?: string };
+import { scoreAnswer } from "./eval-quality";
+import type { EvalQuestion } from "../data/eval-questions";
+type Q = Pick<EvalQuestion, "id" | "lang" | "question"> & Partial<Omit<EvalQuestion, "id" | "lang" | "question">>;
 
 const BUILT_IN: Q[] = [
   { id: "fast-why-en", lang: "en", question: "Why do Muslims fast in Ramadan?", expect: "answer" },
@@ -38,6 +40,9 @@ async function main() {
     const mod = (await import(new URL("../data/eval-questions.ts", import.meta.url).href)) as { EVAL_QUESTIONS?: Q[] };
     questions = mod.EVAL_QUESTIONS ?? questions;
   }
+  if (process.argv.includes("--focused")) questions = questions.filter((q) => q.focus);
+  const id = process.argv.find((a) => a.startsWith("--id="))?.slice(5);
+  if (id) questions = questions.filter((q) => q.id.includes(id));
   const only = process.argv.find((a) => a.startsWith("--only="))?.split("=")[1];
   if (only) questions = questions.filter((q) => q.lang === only);
   const limit = Number(process.argv.find((a) => a.startsWith("--limit="))?.split("=")[1] ?? Infinity);
@@ -57,10 +62,17 @@ async function main() {
     const start = Date.now();
     let outcome: string;
     let refs = "";
+    let score = "";
     try {
       const r = await ask(q.question, q.lang);
       outcome = r.status === "answer" ? (r.answer.sourceOnly ? "source_only" : "answer") : r.status;
       if (r.status === "answer") refs = r.answer.evidence.map((e) => e.key.slice(0, 12)).join(" ");
+      if (q.focus) {
+        const s = scoreAnswer(q as EvalQuestion, r);
+        score = ` accuracy=${s.accuracy} completeness=${s.completeness} support=${s.sourceSupport} clarity=${s.clarity}`;
+        if (s.missingPoints.length) score += ` missing=${s.missingPoints.join("|")}`;
+        if (s.traps.length) score += ` traps=${s.traps.join("|")}`;
+      }
     } catch (err) {
       outcome = `error: ${(err as Error).message.slice(0, 60)}`;
     } finally {
@@ -68,7 +80,7 @@ async function main() {
     }
     const secs = Math.round((Date.now() - start) / 1000);
     const important = seen.filter((s) => !/^(video|scholar|hadith)_/.test(s));
-    console.log(`${q.id.padEnd(16)} ${outcome.padEnd(12)} ${String(secs).padStart(3)}s  ${important.join(",")}  ${refs}`);
+    console.log(`${q.id.padEnd(16)} ${outcome.padEnd(12)} ${String(secs).padStart(3)}s  ${important.join(",")}  ${refs}${score}`);
     tally.set(outcome, (tally.get(outcome) ?? 0) + 1);
     for (const s of important) reasons.set(s, (reasons.get(s) ?? 0) + 1);
   }

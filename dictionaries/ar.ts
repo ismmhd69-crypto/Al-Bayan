@@ -93,6 +93,7 @@ const ar: typeof en = {
       minutes: "دقيقة",
       privacy: "لا يُحمَّل المقطع من يوتيوب إلا بعد الضغط على التشغيل.",
       youtube: "فتح في يوتيوب",
+      languages: { ar: "العربية", en: "الإنجليزية", de: "الألمانية" },
       channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "قناة موقع الشيخ ابن باز", UCwMocSKEbLav6SZvwzTvDbQ: "بوابة تراث الإمام الألباني", UCWjCSGhmSGu0VLf2mPFS0Kg: "القناة الرسمية للشيخ عثمان الخميس", UCtF3YygTiodnYSw8vD3UJtQ: "مؤسسة الشيخ ابن عثيمين", UCYZkmbBbVMWxB1gyioTPLIA: "مؤسسة الشيخ ابن باز الخيرية" },
     },
     scholarQuote: {

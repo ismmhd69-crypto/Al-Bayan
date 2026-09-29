@@ -35,7 +35,13 @@ export type VideoRow = {
 };
 
 /** A related video shown under an answer (click to play). */
-export type VideoSuggestion = { youtubeId: string; channelId: string; title: string; minutes: number };
+export type VideoSuggestion = {
+  youtubeId: string;
+  channelId: string;
+  title: string;
+  minutes: number;
+  language: "ar" | "en" | "de";
+};
 
 /** ISO 8601 duration as YouTube gives it ("PT1H2M3S", "P1DT2H") in seconds; null if unreadable. */
 export function durationSeconds(iso: string | undefined): number | null {

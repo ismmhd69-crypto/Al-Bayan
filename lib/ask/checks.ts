@@ -4,17 +4,18 @@
 
 import type { Locale } from "@/lib/i18n";
 import { isRealVerse } from "@/lib/sources/quran-meta";
-import { ANSWER_FACETS, type AnswerFacet } from "./retrieval";
+import type { AnswerRequirement, Source } from "./retrieval";
 
 export { parseQuestionFrame } from "./retrieval";
 
 export type SourceText = {
   id: string; // e.g. "Q2:255"
+  kind: Source["kind"];
   arabic: string;
   translations: Partial<Record<"en" | "de", string>>;
 };
 
-export type Claim = { text: string; refs: string[]; facets?: AnswerFacet[] };
+export type Claim = { text: string; refs: string[]; requirementId?: string };
 
 export const LIMITS = {
   maxClaims: 4,
@@ -87,8 +88,8 @@ export function asciiUmlauts(text: string): boolean {
 
 // Validates the drafted answer. Any failure refuses the whole answer.
 export type DraftPolicy = {
-  requiredFacets: AnswerFacet[];
-  sourceFacets: Record<string, AnswerFacet[]>;
+  requirements: AnswerRequirement[];
+  sourceRequirements: Record<string, string[]>;
 };
 
 export function parseDraft(raw: unknown, citable: SourceText[], language: Locale, policy?: DraftPolicy): DraftResult {
@@ -102,7 +103,7 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
   const claims: Claim[] = [];
   for (const c of r.claims) {
     if (!c || typeof c !== "object") return { ok: false, reason: "malformed" };
-    const { text, source_ids, facet_ids } = c as Record<string, unknown>;
+    const { text, source_ids, requirement_id } = c as Record<string, unknown>;
     if (!isStr(text) || !Array.isArray(source_ids)) return { ok: false, reason: "malformed" };
     const t = text.trim();
     if (!t || t.length > LIMITS.maxClaimLength) return { ok: false, reason: "claim_length" };
@@ -116,20 +117,18 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
     // Copying is checked against every source the AI was given, not only the ones it cited.
     if (copiesSource(t, citable)) return { ok: false, reason: "copied_source" };
     if (policy) {
-      if (!Array.isArray(facet_ids)) return { ok: false, reason: "facet_count" };
-      const facets = [...new Set(facet_ids.filter(isStr))]
-        .filter((facet): facet is AnswerFacet => (ANSWER_FACETS as readonly string[]).includes(facet))
-        .filter((facet) => policy.requiredFacets.includes(facet));
-      if (facets.length !== 1 || facets.length !== facet_ids.length) return { ok: false, reason: "facet_count" };
-      const supportedByRefs = new Set(refs.flatMap((id) => policy.sourceFacets[id] ?? []));
-      if (!facets.every((facet) => supportedByRefs.has(facet))) return { ok: false, reason: "unsupported_facet" };
-      claims.push({ text: t, refs, facets });
+      if (!isStr(requirement_id)) return { ok: false, reason: "requirement_count" };
+      const requirement = policy.requirements.find((item) => item.id === requirement_id);
+      if (!requirement) return { ok: false, reason: "unknown_requirement" };
+      const supportedByRefs = new Set(refs.flatMap((id) => policy.sourceRequirements[id] ?? []));
+      if (!supportedByRefs.has(requirement.id)) return { ok: false, reason: "unsupported_requirement" };
+      claims.push({ text: t, refs, requirementId: requirement.id });
     } else {
       claims.push({ text: t, refs });
     }
   }
-  if (policy && !policy.requiredFacets.every((facet) => claims.some((claim) => claim.facets?.includes(facet)))) {
-    return { ok: false, reason: "missing_facet" };
+  if (policy && !policy.requirements.every((requirement) => claims.some((claim) => claim.requirementId === requirement.id))) {
+    return { ok: false, reason: "missing_requirement" };
   }
   return { ok: true, claims };
 }
@@ -155,8 +154,10 @@ export function hasQuotation(text: string): boolean {
 
 // ---------- 4. no re-typed verses, in any language ----------
 
-// Arabic Quran text must never be re-typed by the AI: 4 consecutive words, a whole short verse
-// (even one word long), or most of a verse with one word changed all count as copying.
+// Arabic Quran/hadith text must never be re-typed by the AI: 4 consecutive words, a whole short
+// passage (even one word long), or most of a passage with one word changed all count as copying.
+// Scholar explanations may need short technical terms from the credited quote. They still fail on
+// an 8-word copied clause or when a longer claim substantially follows the quote's wording.
 // Translations: 6 consecutive words, or the whole translation when it is shorter than that.
 export function copiesSource(text: string, sources: SourceText[]): boolean {
   const ar = arabicWords(text);
@@ -164,16 +165,28 @@ export function copiesSource(text: string, sources: SourceText[]): boolean {
   for (const s of sources) {
     const vs = arabicWords(s.arabic);
     if (ar.length >= 1 && vs.length > 0) {
-      if (vs.length < 4) {
-        if (grams(ar, vs.length).has(vs.join(" "))) return true;
+      if (s.kind === "scholar") {
+        if (ar.length >= 8 && vs.length >= 8) {
+          const sourceEight = grams(vs, 8);
+          for (const group of grams(ar, 8)) if (sourceEight.has(group)) return true;
+        }
+        const sourcePairs = grams(vs, 2);
+        const claimPairs = [...grams(ar, 2)];
+        if (ar.length >= 12 && claimPairs.length > 0
+          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.7) return true;
       } else {
-        const v4 = grams(vs, 4);
-        for (const g of grams(ar, 4)) if (v4.has(g)) return true;
+        if (vs.length < 4) {
+          if (grams(ar, vs.length).has(vs.join(" "))) return true;
+        } else {
+          const sourceFour = grams(vs, 4);
+          for (const group of grams(ar, 4)) if (sourceFour.has(group)) return true;
+        }
+        // One altered word: most of the claim's word pairs appear in the source.
+        const sourcePairs = grams(vs, 2);
+        const claimPairs = [...grams(ar, 2)];
+        if (claimPairs.length >= 4
+          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.6) return true;
       }
-      // One altered word: most of the claim's word pairs appear in the verse.
-      const v2 = grams(vs, 2);
-      const c2 = [...grams(ar, 2)];
-      if (c2.length >= 4 && c2.filter((g) => v2.has(g)).length / c2.length > 0.6) return true;
     }
     for (const tr of Object.values(s.translations)) {
       if (!tr) continue;
@@ -207,6 +220,22 @@ export function wholeAnswerOk(raw: unknown): boolean {
   return r.answers_question === "yes" && r.covers_facets === "yes" && r.fair_picture === "yes" && r.context_preserved === "yes";
 }
 
+/** Every exact requested point must have one clear yes verdict, with no missing or invented ids. */
+export function requirementsCovered(raw: unknown, requirementIds: string[]): boolean {
+  if (!raw || typeof raw !== "object") return false;
+  const verdicts = (raw as Record<string, unknown>).requirement_verdicts;
+  if (!Array.isArray(verdicts) || verdicts.length !== requirementIds.length) return false;
+  const seen = new Set<string>();
+  for (const item of verdicts) {
+    if (!item || typeof item !== "object") return false;
+    const record = item as Record<string, unknown>;
+    if (!isStr(record.requirement_id) || !requirementIds.includes(record.requirement_id) || seen.has(record.requirement_id)) return false;
+    if (record.verdict !== "yes") return false;
+    seen.add(record.requirement_id);
+  }
+  return requirementIds.every((id) => seen.has(id));
+}
+
 // ---------- 6. questions that need extra care ----------
 
 // Questions about the visitor's own situation. Code rule on top of the AI's classification;
@@ -222,7 +251,14 @@ const PERSONAL = [
   /(هل\s+يجوز\s+لي|هل\s+علي|زوجتي|زوجي|أمي|أبي|والدي|ابني|ابنتي)/,
 ];
 
+export function isGeneralGuidanceQuestion(question: string): boolean {
+  // Learning a general practice or entering Islam is not a case-specific fatwa.
+  return /\b(how|what) (?:can |should |do )?i (?:do |need to |have to )?(?:become (?:a )?muslim|convert to islam|learn to pray)\b|\bhow do i repent(?: from (?:a |my )?sins?)?\s*[?.!]?\s*$|\bwie (?:kann |muss |soll )?ich.{0,20}(?:muslim werden|zum islam konvertieren|bereuen|beten lernen)\b|\bwas muss ich tun, um muslim zu werden\b|كيف (?:أصبح مسلما|أسلم|أتوب|أتعلم الصلاة)/i.test(question)
+    && !/\b(my|mine|wife|husband|divorce|loan|debt|pregnant|ill|sick)\b|\b(meine?|ehe|scheidung|schulden|krank)\b|زوجتي|زوجي|ديني|مرضي/i.test(question);
+}
+
 export function looksPersonal(question: string): boolean {
+  if (isGeneralGuidanceQuestion(question)) return false;
   return PERSONAL.some((re) => re.test(question));
 }
 

@@ -92,14 +92,20 @@ export async function getTopic(id: string, lang: Locale): Promise<Topic | null> 
 
 type TopicVideoRow = {
   sort: number;
-  videos: { youtube_id: string; channel_id: string | null; title: string; duration_seconds: number | null } | null;
+  videos: {
+    youtube_id: string;
+    channel_id: string | null;
+    title: string;
+    duration_seconds: number | null;
+    language: string | null;
+  } | null;
 };
 
 /** Videos linked to a topic (scripts/link-topic-videos.ts). Row-level security only returns approved videos. */
 export async function getTopicVideos(topicId: string): Promise<VideoSuggestion[]> {
   const { data, error } = await supabase
     .from("topic_videos")
-    .select("sort, videos(youtube_id, channel_id, title, duration_seconds)")
+    .select("sort, videos(youtube_id, channel_id, title, duration_seconds, language)")
     .eq("topic_id", topicId)
     .order("sort");
   if (error) fail("topic videos", error);
@@ -111,5 +117,6 @@ export async function getTopicVideos(topicId: string): Promise<VideoSuggestion[]
       channelId: v.channel_id!,
       title: v.title,
       minutes: Math.max(1, Math.round((v.duration_seconds ?? 60) / 60)),
+      language: v.language === "en" || v.language === "de" ? v.language : "ar",
     }));
 }
