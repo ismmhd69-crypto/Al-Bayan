@@ -112,7 +112,7 @@ const de: typeof en = {
     },
     quran: "Koran",
     translation: "Übersetzung",
-    scholarsEmpty: "Noch keine Gelehrtenzitate in der Bibliothek.",
+    scholarsEmpty: "Wir haben kein Zitat eines anerkannten Gelehrten gefunden, das diese Frage direkt beantwortet.",
     personal: "Hier geht es um deine persönliche Situation, deshalb beantwortet Bayan das nicht automatisch. Bitte frag einen qualifizierten Gelehrten, dem du vertraust.",
     testMode: "Testmodus: Bisher sind nur die Suren 1 und 2 in der Bibliothek.",
     source: "Quelle",

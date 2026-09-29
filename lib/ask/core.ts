@@ -120,7 +120,7 @@ export type PipelineDeps = {
 // The future local licensed library can retrieve a wider set before this gate.
 const MAX_QURAN_CANDIDATES = 8;
 const MAX_HADITH_CANDIDATES = 3;
-const MAX_SCHOLAR_CANDIDATES = 3;
+const MAX_SCHOLAR_CANDIDATES = 4; // up to 2 from the stored library + live quotes
 const MAX_VIDEOS = 2;
 // Hadith are an extra source: if their search is slow (first question after a server start loads
 // the title lists) or fails, the answer continues from the Quran alone.

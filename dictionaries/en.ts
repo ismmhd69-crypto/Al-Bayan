@@ -110,7 +110,7 @@ const en = {
     },
     quran: "Quran",
     translation: "Translation",
-    scholarsEmpty: "No scholar quotes in the library yet.",
+    scholarsEmpty: "We found no quote from an approved scholar that answers this question directly.",
     personal: "This is about your own situation, so Bayan does not answer it automatically. Please ask a qualified scholar you trust.",
     testMode: "Test mode: only Surahs 1 and 2 are in the library so far.",
     source: "Source",
