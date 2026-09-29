@@ -3,21 +3,24 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-// Approve / Reject for Mo's local review page. Writes only the status and an optional note.
-export default function ReviewButtons({ kind, id, status }: { kind: "topic"; id: string; status: string }) {
+// Approve / Reject on the review tab. Sends only the status and an optional note.
+export default function ReviewButtons({ kind, id, status, next }: { kind: "topic"; id: string; status: string; next?: string }) {
   const [note, setNote] = useState("");
-  const [state, setState] = useState<"idle" | "saving" | "error">("idle");
+  const [state, setState] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const router = useRouter();
-  async function save(next: "approved" | "rejected" | "draft") {
+  async function save(newStatus: "approved" | "rejected" | "draft") {
     setState("saving");
-    const res = await fetch("/api/dev/review", {
+    const res = await fetch("/api/review", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ kind, id, status: next, note }),
+      body: JSON.stringify({ kind, id, status: newStatus, note }),
     }).catch(() => null);
     if (!res?.ok) return setState("error");
-    setState("idle");
-    router.refresh();
+    setState("saved");
+    setNote("");
+    // After a decision, go straight to the next draft.
+    if (next && next !== id && newStatus !== "draft") router.push(next);
+    else router.refresh();
   }
   return (
     <div className="report-form">
@@ -32,7 +35,8 @@ export default function ReviewButtons({ kind, id, status }: { kind: "topic"; id:
           <button type="button" className="btn" onClick={() => save("rejected")}>Reject</button>
           <button type="button" className="btn" onClick={() => save("draft")}>Back to draft</button>
         </div>
-        {state === "error" && <p role="alert">Could not save. Is the dev server running?</p>}
+        {state === "saved" && <p role="status">Saved.</p>}
+        {state === "error" && <p role="alert">Could not save. Please try again.</p>}
       </fieldset>
     </div>
   );

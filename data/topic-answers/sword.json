@@ -1,7 +1,7 @@
 {
   "topic_id": "sword",
   "status": "draft",
-  "researched_at": "2026-09-29T18:25:00+03:00",
+  "researched_at": "2026-09-29T19:30:00+03:00",
   "sources": [
     {
       "id": "Q2:256",
@@ -10,102 +10,91 @@
       "url": "https://quran.com/2/256"
     },
     {
-      "id": "Q10:99",
+      "id": "Q9:5",
       "kind": "quran",
-      "reference": "10:99",
-      "url": "https://quran.com/10/99"
+      "reference": "9:5",
+      "url": "https://quran.com/9/5"
     },
     {
-      "id": "Q2:190",
+      "id": "Q9:29",
       "kind": "quran",
-      "reference": "2:190",
-      "url": "https://quran.com/2/190"
+      "reference": "9:29",
+      "url": "https://quran.com/9/29"
     },
     {
-      "id": "Q60:8",
+      "id": "Q8:39",
       "kind": "quran",
-      "reference": "60:8",
-      "url": "https://quran.com/60/8"
+      "reference": "8:39",
+      "url": "https://quran.com/8/39"
     },
     {
-      "id": "Q8:61",
-      "kind": "quran",
-      "reference": "8:61",
-      "url": "https://quran.com/8/61"
-    },
-    {
-      "id": "Q9:6",
-      "kind": "quran",
-      "reference": "9:6",
-      "url": "https://quran.com/9/6"
+      "id": "S9d295174-07ff-4455-8952-776ed3a1c094",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "هل نسخت آية السيف آية {لَا إِكْرَاهَ فِي الدِّينِ}؟",
+      "reference": "binbaz.org.sa, fatwa 31487",
+      "arabic": "قيل: منسوخة. وقيل: إنها في أهل الكتاب خاصةً. فيها قولان: أحدهما أنها في أهل الكتاب والمجوس، لا يُكرهون، بل يُخيرون بين الإسلام والجزية، فإن لم يُؤدوا الجزيةَ ولا الإسلام قُوتلوا، وأما بقية الناس فلا تخيير: إما الإسلام، وإما السيف. وقال آخرون: بل هي منسوخة، كان هذا أول الأمر، ثم شرع الله القتال والجهاد؛ لقوله سبحانه: وَقَاتِلُوهُمْ حَتَّى لَا تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ كُلُّهُ لِلَّهِ [الأنفال:39]، فنُسخت بهذه الآية وما جاء في معناها.",
+      "url": "https://binbaz.org.sa/fatwas/31487/%D9%87%D9%84-%D9%86%D8%B3%D8%AE%D8%AA-%D8%A2%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%81-%D8%A2%D9%8A%D8%A9-%7B%D9%84%D9%8E%D8%A7-%D8%A5%D9%90%D9%83%D9%92%D8%B1%D9%8E%D8%A7%D9%87%D9%8E-%D9%81%D9%90%D9%8A-%D8%A7%D9%84%D8%AF%D9%91%D9%90%D9%8A%D9%86%D9%90%7D%D8%9F"
     }
   ],
   "answers": {
     "ar": {
       "direct_answer": [
         {
-          "text": "لا تعرض هذه الآيات نشر الإسلام على أنه إكراه بالسيف؛ فالقرآن يقول صراحةً: لا إكراه في الدين، ويسأل النبي هل يُكره الناس حتى يكونوا مؤمنين.",
+          "text": "ينقل الشيخ ابن باز قولين لأهل العلم في حكم آية نفي الإكراه في الدين مع آيات القتال كآية السيف: القول الأول أنها خاصة بأهل الكتاب والمجوس فيخيرون بين الإسلام والجزية فإن أبوا قوتلوا، وأما بقية الناس فلا تخيير عندهم بل إما الإسلام وإما السيف.",
           "source_ids": [
+            "S9d295174-07ff-4455-8952-776ed3a1c094",
             "Q2:256",
-            "Q10:99"
+            "Q9:5",
+            "Q9:29"
           ]
         },
         {
-          "text": "وفي سياق القتال تقيد الآيات القتال بمن يقاتل، وتنهى عن الاعتداء، وتأمر بالميل إلى السلم إذا مال الطرف الآخر إليه.",
+          "text": "والقول الثاني الذي ينقله أن الآية منسوخة؛ حيث كان عدم الإكراه أول الأمر ثم شرع الله القتال والجهاد بأمره بالقتال حتى لا تكون فتنة ويكون الدين كله لله (8:39)، فنُسخت بها وما جاء في معناها.",
           "source_ids": [
-            "Q2:190",
-            "Q8:61"
+            "S9d295174-07ff-4455-8952-776ed3a1c094",
+            "Q8:39",
+            "Q2:256"
           ]
         }
       ],
       "explanation": [
         {
-          "heading": "لا إكراه في الدين",
+          "heading": "القول الأول: التخصيص بأهل الكتاب والمجوس",
           "sentences": [
             {
-              "text": "يقرر القرآن أنه لا إكراه في الدين بعد تبيّن الرشد من الغي.",
+              "text": "يذكر الشيخ ابن باز أن القول الأول يرى أن آية نفي الإكراه خاصة بأهل الكتاب والمجوس، فلا يكرهون على الدخول في الدين بل يخيرون بين الإسلام ودفع الجزية.",
               "source_ids": [
-                "Q2:256"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q2:256",
+                "Q9:29"
               ]
             },
             {
-              "text": "ويقول للنبي إن إيمان جميع أهل الأرض لو شاء الله، ثم يسأله هل سيكره الناس حتى يؤمنوا.",
+              "text": "ويقرر الشيخ في نص هذا القول أنهم إن لم يؤدوا الجزية ولا الإسلام قوتلوا، وأما بقية الناس فلا تخيير في حقهم: إما الإسلام، وإما السيف.",
               "source_ids": [
-                "Q10:99"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q9:5"
               ]
             }
           ]
         },
         {
-          "heading": "حدود القتال",
+          "heading": "القول الثاني: نسخ نفي الإكراه بآيات القتال والجهاد",
           "sentences": [
             {
-              "text": "يأمر القرآن بالقتال ضد الذين يقاتلون، وينهى عن تجاوز الحدود.",
+              "text": "ينقل الشيخ القول الآخر بأن آية نفي الإكراه كانت في أول الأمر، ثم شرع الله سبحانه القتال والجهاد فنسخت حكمها.",
               "source_ids": [
-                "Q2:190"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q2:256",
+                "Q9:5"
               ]
             },
             {
-              "text": "ويأمر بقبول السلم إذا مال الطرف الآخر إليه.",
+              "text": "ويستند هذا القول إلى أمر الله بالقتال حتى لا تكون فتنة ويكون الدين كله لله (8:39)، حيث يقرر الشيخ أنها نسخت آية نفي الإكراه وما ورد في معناها.",
               "source_ids": [
-                "Q8:61"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "مع غير المقاتلين",
-          "sentences": [
-            {
-              "text": "لا ينهى القرآن عن البر والقسط مع الذين لم يقاتلوا المسلمين في الدين ولم يخرجوهم من ديارهم.",
-              "source_ids": [
-                "Q60:8"
-              ]
-            },
-            {
-              "text": "ويأمر القرآن بمنح طالب الحماية من المشركين الأمان حتى يسمع كلام الله ثم إيصاله إلى مكان آمن.",
-              "source_ids": [
-                "Q9:6"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q8:39"
               ]
             }
           ]
@@ -114,75 +103,67 @@
       "other_views": [],
       "not_established": [
         {
-          "text": "هذه الآيات تجيب عن مبدأ الإكراه وحدود القتال، لكنها لا تسرد وحدها التاريخ الكامل لكل فتح أو تحول ديني في كل بلد."
+          "text": "تبين هذه الفتوى المعتمدة قولي أهل العلم في تفسير آية نفي الإكراه وعلاقتها بآيات السيف والجزية والجهاد، لكنها تقتصر على هذا التقرير الأصولي الفقهي ولا تتناول الوقائع التاريخية المفصلة للفتوحات."
         }
       ]
     },
     "en": {
       "direct_answer": [
         {
-          "text": "These verses do not present the spread of Islam as compulsion by the sword: the Quran says plainly that there is no compulsion in religion and asks the Prophet whether he would compel people to become believers.",
+          "text": "Shaikh Ibn Baz conveys two classical scholarly views on whether the verse of non-compulsion in religion was abrogated by the verses of fighting: the first view is that it applies specifically to the People of the Book and Magians, who are given the choice between Islam and paying jizya, while for the rest of people there is no choice: either Islam or the sword.",
           "source_ids": [
+            "S9d295174-07ff-4455-8952-776ed3a1c094",
             "Q2:256",
-            "Q10:99"
+            "Q9:5",
+            "Q9:29"
           ]
         },
         {
-          "text": "In the passages about fighting, the Quran limits fighting to those who fight and forbids transgression, while commanding acceptance of peace when the other side inclines to it.",
+          "text": "The second view he conveys is that the verse is abrogated, having applied in the initial period before Allah legislated fighting and jihad through His command to fight until there is no fitnah and religion is wholly for Allah (8:39), which abrogated the earlier ruling.",
           "source_ids": [
-            "Q2:190",
-            "Q8:61"
+            "S9d295174-07ff-4455-8952-776ed3a1c094",
+            "Q8:39",
+            "Q2:256"
           ]
         }
       ],
       "explanation": [
         {
-          "heading": "No compulsion in religion",
+          "heading": "The first view: specificity to People of the Book and Magians",
           "sentences": [
             {
-              "text": "The Quran says that there is no compulsion in religion after guidance has become distinct from error.",
+              "text": "Shaikh Ibn Baz states that according to the first scholarly view, the verse is specific to the People of the Book and the Magians, who are not coerced but given the choice between Islam and paying jizya.",
               "source_ids": [
-                "Q2:256"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q2:256",
+                "Q9:29"
               ]
             },
             {
-              "text": "It says that all people could have believed if God had willed, then asks the Prophet whether he would compel people to believe.",
+              "text": "The scholar explicitly conveys that if they refuse both jizya and Islam they are fought, and as for the rest of people, there is no choice: either Islam, or the sword.",
               "source_ids": [
-                "Q10:99"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q9:5"
               ]
             }
           ]
         },
         {
-          "heading": "Limits on fighting",
+          "heading": "The second view: abrogation by the command of fighting and jihad",
           "sentences": [
             {
-              "text": "The Quran commands fighting against those who fight you and forbids crossing the limits.",
+              "text": "The scholar states that other scholars hold the verse to be abrogated, having belonged to the initial stage before fighting and jihad were legislated by Allah.",
               "source_ids": [
-                "Q2:190"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q2:256",
+                "Q9:5"
               ]
             },
             {
-              "text": "It commands accepting peace when the other side inclines toward peace.",
+              "text": "This second view relies on Allah's command to fight until there is no fitnah and religion is wholly for Allah (8:39), which the scholar explains abrogated the non-compulsion verse and what came in its meaning.",
               "source_ids": [
-                "Q8:61"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "With non-combatants",
-          "sentences": [
-            {
-              "text": "The Quran does not forbid kindness and justice toward those who have not fought Muslims for their faith or driven them from their homes.",
-              "source_ids": [
-                "Q60:8"
-              ]
-            },
-            {
-              "text": "It also commands protection for a polytheist who asks for safety, until he can hear God's word, followed by escorting him to a safe place.",
-              "source_ids": [
-                "Q9:6"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q8:39"
               ]
             }
           ]
@@ -191,75 +172,67 @@
       "other_views": [],
       "not_established": [
         {
-          "text": "These verses answer the principle of compulsion and the limits of fighting, but by themselves they do not give the complete history of every conquest or religious change in every country."
+          "text": "This verified fatwa sets out the two classical scholarly positions on non-compulsion, jizya, and the sword verse, but does not provide an exhaustive historical chronicle of individual regional conquests."
         }
       ]
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Diese Verse stellen die Verbreitung des Islams nicht als Zwang mit dem Schwert dar: Der Koran sagt ausdrücklich, dass es keinen Zwang im Glauben gibt, und fragt den Propheten, ob er die Menschen zum Glauben zwingen wolle.",
+          "text": "Scheich Ibn Baz gibt zwei klassische Ansichten der Gelehrten dazu wieder, ob der Vers über die Zwanglosigkeit im Glauben durch die Verse des Kampfes abrogiert wurde: Die erste Ansicht besagt, dass er speziell für die Schriftbesitzer und Magier gilt, die zwischen dem Islam und der Dschizya wählen können, während für alle übrigen Menschen keine Wahl besteht: entweder der Islam oder das Schwert.",
           "source_ids": [
+            "S9d295174-07ff-4455-8952-776ed3a1c094",
             "Q2:256",
-            "Q10:99"
+            "Q9:5",
+            "Q9:29"
           ]
         },
         {
-          "text": "In den Abschnitten über den Kampf begrenzt der Koran den Kampf auf diejenigen, die kämpfen, verbietet Übertretung und ordnet an, Frieden anzunehmen, wenn die andere Seite sich ihm zuneigt.",
+          "text": "Die zweite von ihm dargelegte Ansicht besagt, dass der Vers abrogiert ist, da die Zwanglosigkeit für die Anfangszeit galt, bevor Allah den Kampf und Dschihad durch Sein Gebot zum Kampf vorschrieb, bis es keine Verführung (Fitnah) mehr gibt und die Religion ganz Allah gehört (8:39), wodurch der Vers aufgehoben wurde.",
           "source_ids": [
-            "Q2:190",
-            "Q8:61"
+            "S9d295174-07ff-4455-8952-776ed3a1c094",
+            "Q8:39",
+            "Q2:256"
           ]
         }
       ],
       "explanation": [
         {
-          "heading": "Kein Zwang im Glauben",
+          "heading": "Die erste Ansicht: Beschränkung auf Schriftbesitzer und Magier",
           "sentences": [
             {
-              "text": "Der Koran sagt, dass es keinen Zwang im Glauben gibt, nachdem der richtige Weg vom falschen unterschieden ist.",
+              "text": "Scheich Ibn Baz legt dar, dass der Vers nach der ersten Gelehrtenmeinung speziell für die Schriftbesitzer und Magier gilt, die nicht zum Übertritt gezwungen werden, sondern die Wahl zwischen Islam und Dschizya haben.",
               "source_ids": [
-                "Q2:256"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q2:256",
+                "Q9:29"
               ]
             },
             {
-              "text": "Er sagt, dass alle Menschen hätten glauben können, wenn Allah es gewollt hätte, und fragt den Propheten dann, ob er die Menschen zum Glauben zwingen wolle.",
+              "text": "Der Gelehrte hält ausdrücklich fest, dass sie bekämpft werden, wenn sie weder Dschizya noch Islam annehmen, und dass für die übrigen Menschen keine Wahl besteht: entweder der Islam oder das Schwert.",
               "source_ids": [
-                "Q10:99"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q9:5"
               ]
             }
           ]
         },
         {
-          "heading": "Grenzen des Kampfes",
+          "heading": "Die zweite Ansicht: Abrogation durch die Vorschrift des Dschihad",
           "sentences": [
             {
-              "text": "Der Koran ordnet den Kampf gegen diejenigen an, die kämpfen, und verbietet, die Grenzen zu überschreiten.",
+              "text": "Ebenso führt der Gelehrte die Ansicht an, dass der Vers abrogiert ist und der Anfangsphase angehörte, bevor Allah den Kampf und Dschihad vorschrieb.",
               "source_ids": [
-                "Q2:190"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q2:256",
+                "Q9:5"
               ]
             },
             {
-              "text": "Er ordnet an, Frieden anzunehmen, wenn die andere Seite sich dem Frieden zuneigt.",
+              "text": "Diese Position stützt sich auf Allahs Gebot zum Kampf, bis es keine Verführung (Fitnah) mehr gibt und die Religion ganz Allah gehört (8:39), welches nach der Erläuterung des Gelehrten den Vers über die Zwanglosigkeit und Sinnverwandtes aufhob.",
               "source_ids": [
-                "Q8:61"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Gegenüber Nichtkämpfenden",
-          "sentences": [
-            {
-              "text": "Der Koran verbietet nicht Güte und Gerechtigkeit gegenüber denen, die Muslime nicht wegen ihres Glaubens bekämpft und nicht aus ihren Häusern vertrieben haben.",
-              "source_ids": [
-                "Q60:8"
-              ]
-            },
-            {
-              "text": "Er ordnet außerdem an, einem Götzendiener, der um Schutz bittet, Sicherheit zu gewähren, bis er Allahs Wort hören kann, und ihn danach an einen sicheren Ort zu bringen.",
-              "source_ids": [
-                "Q9:6"
+                "S9d295174-07ff-4455-8952-776ed3a1c094",
+                "Q8:39"
               ]
             }
           ]
@@ -268,7 +241,7 @@
       "other_views": [],
       "not_established": [
         {
-          "text": "Diese Verse beantworten das Prinzip des Zwangs und die Grenzen des Kampfes, liefern aber für sich genommen nicht die vollständige Geschichte jeder Eroberung oder jeder religiösen Veränderung in allen Ländern."
+          "text": "Diese verifizierte Fatwa dokumentiert die beiden klassischen Gelehrtenpositionen zur Zwanglosigkeit, zur Dschizya und zum Schwertvers, liefert jedoch keinen detaillierten historischen Verlauf aller einzelnen regionalen Eroberungen."
         }
       ]
     }

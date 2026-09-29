@@ -20,6 +20,7 @@ const de: typeof en = {
     topics: "Schwierige Fragen",
     start: "Neu im Islam",
     more: "Mehr",
+    review: "Prüfen",
   },
   home: {
     title: "Frag alles über den Islam.",

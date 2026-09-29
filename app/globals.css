@@ -1411,3 +1411,11 @@ details[open] > summary .chev {
   font-weight: 700;
   text-decoration: underline;
 }
+.review-status {
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}
+.review-status {
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}

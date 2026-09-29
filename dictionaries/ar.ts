@@ -20,6 +20,7 @@ const ar: typeof en = {
     topics: "شبهات",
     start: "جديد في الإسلام",
     more: "المزيد",
+    review: "مراجعة",
   },
   home: {
     title: "اسأل عن أي شيء في الإسلام.",

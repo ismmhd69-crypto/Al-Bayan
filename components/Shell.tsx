@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { CircleHelp, Compass, Ellipsis, House, MessageCircle, type LucideIcon } from "lucide-react";
+import { CircleHelp, ClipboardCheck, Compass, Ellipsis, House, MessageCircle, type LucideIcon } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import Logo from "./Logo";
 import LangSwitch from "./LangSwitch";
 
-type NavKey = "home" | "ask" | "topics" | "start" | "more";
+type NavKey = "home" | "ask" | "topics" | "start" | "more" | "review";
 
 const items: { key: NavKey; path: string; Icon: LucideIcon }[] = [
   { key: "home", path: "", Icon: House },
@@ -15,6 +15,8 @@ const items: { key: NavKey; path: string; Icon: LucideIcon }[] = [
   { key: "topics", path: "/topics", Icon: CircleHelp },
   { key: "start", path: "/start", Icon: Compass },
   { key: "more", path: "/more", Icon: Ellipsis },
+  // Temporary, until launch: review of prepared answers (Mo, 2026-09-29).
+  { key: "review", path: "/review", Icon: ClipboardCheck },
 ];
 
 export default function Shell({

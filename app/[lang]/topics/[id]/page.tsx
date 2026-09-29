@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronRight, Hourglass } from "lucide-react";
-import { getDictionary, isLocale, locales } from "@/lib/i18n";
-import { getTopic, getTopicIds, getTopicVideos } from "@/lib/content";
+import { getDictionary, isLocale } from "@/lib/i18n";
+import { getReviewDecisions, getTopic, getTopicVideos } from "@/lib/content";
 import AskAboutButton from "@/components/AskAboutButton";
 import { AnswerView } from "@/components/AskChat";
 import { loadPrepared } from "@/lib/prepared";
@@ -12,14 +12,9 @@ import VideoCard from "@/components/VideoCard";
 
 type Params = Promise<{ lang: string; id: string }>;
 
-export const revalidate = 3600;
-// New topics added to the database get their page on first visit.
-export const dynamicParams = true;
-
-export async function generateStaticParams() {
-  const ids = await getTopicIds();
-  return locales.flatMap((lang) => ids.map((id) => ({ lang, id })));
-}
+// Rendered on each visit: approved prepared answers load their verses live from Quran Foundation
+// (its rules allow no long-term storage), and a new approval shows at once.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { lang, id } = await params;
@@ -37,8 +32,9 @@ export default async function TopicPage({ params }: { params: Params }) {
   const related = topic.related;
   const videos = await getTopicVideos(id);
   // Only answers Mo approved on the local review page are shown; otherwise "preparing".
+  const decisions = await getReviewDecisions("topic").catch(() => ({} as Awaited<ReturnType<typeof getReviewDecisions>>));
   const file = TOPIC_ANSWERS[id];
-  const answer = file ? await loadPrepared(file, lang) : null;
+  const answer = file ? await loadPrepared({ ...file, status: decisions[id]?.status ?? "draft" }, lang) : null;
 
   return (
     <article className="page">

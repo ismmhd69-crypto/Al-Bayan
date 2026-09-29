@@ -18,6 +18,7 @@ const en = {
     topics: "Hard questions",
     start: "New to Islam",
     more: "More",
+    review: "Review",
   },
   home: {
     title: "Ask anything about Islam.",
