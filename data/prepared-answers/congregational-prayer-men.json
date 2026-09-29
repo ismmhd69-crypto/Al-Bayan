@@ -1,0 +1,221 @@
+{
+  "topic_id": "congregational-prayer-men",
+  "status": "draft",
+  "researched_at": "2026-09-29T23:10:00+03:00",
+  "questions": {
+    "ar": [
+      "هل صلاة الجماعة في المسجد فرض على الرجال",
+      "ما حكم التخلف عن صلاة الجماعة بدون عذر",
+      "وجوب صلاة الجماعة للرجال في المسجد",
+      "صلاة الجماعة للرجال",
+      "حكم صلاة الجماعة"
+    ],
+    "en": [
+      "Is congregational prayer in the mosque mandatory for men",
+      "Ruling on missing congregational prayer without an excuse",
+      "Obligation of praying in congregation for men in Islam",
+      "congregational prayer men",
+      "praying in congregation islam"
+    ],
+    "de": [
+      "Ist das Gemeinschaftsgebet in der Moschee Pflicht für Männer",
+      "Urteil über das Versäumen des Gemeinschaftsgebets ohne Entschuldigung",
+      "Pflicht des Gebets in der Gemeinschaft für Männer im Islam",
+      "gemeinschaftsgebet männer",
+      "gebet in gemeinschaft islam"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q2:43",
+      "kind": "quran",
+      "reference": "2:43",
+      "url": "https://quran.com/2/43"
+    },
+    {
+      "id": "S20555000-0000-4000-a000-000000000001",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "حكم التخلف عن صلاة الجماعة بدون عذر",
+      "reference": "binbaz.org.sa, fatwa 20555",
+      "arabic": "نعرف أنَّ حكمه أنه عاصٍ لله، وتشبَّه بالمنافقين، يقول النبيُّ ﷺ: مَن سمع النِّداء فلم يأتِ فلا صلاةَ له إلا من عذرٍ ، والعذر قال ابنُ عباس: المرض والخوف ، العاجز لمرضه، أو كبر سنِّه، أو خوف: لو خرج يخشى أن يُضرب أو يُقتل في بعض البلاد، أو خائفًا من مطاردٍ له يخشى إن خرج أن يُمسكه يُريد أن يضربه أو يقتله.",
+      "url": "https://binbaz.org.sa/fatwas/20555/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D8%AE%D9%84%D9%81-%D8%B9%D9%86-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D8%A8%D8%AF%D9%88%D9%86-%D8%B9%D8%B0%D8%B1"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "صلاة الجماعة في المسجد واجبة على الرجال القادرين بنص القرآن الكريم والسنة النبوية.",
+          "source_ids": [
+            "Q2:43",
+            "S20555000-0000-4000-a000-000000000001"
+          ]
+        },
+        {
+          "text": "المتخلف عن صلاة الجماعة بغير عذر شرعي كالمرض أو الخوف عاص لله تعالى ومتشبه بالمنافقين.",
+          "source_ids": [
+            "S20555000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "أمر القرآن بالصلاة مع المصلين",
+          "sentences": [
+            {
+              "text": "أمر الله تعالى بإقام الصلاة والركوع مع الراكعين دلالة على وجوب شهود الجماعة (البقرة: 43).",
+              "source_ids": [
+                "Q2:43"
+              ]
+            },
+            {
+              "text": "ويوضح الشيخ ابن باز أن من سمع النداء فلم يأت إلى المسجد فإنه واقع في معصية الله ومشابهة المنافقين إلا من عذر.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "الأعذار المبيحة لترك الجماعة",
+          "sentences": [
+            {
+              "text": "يبين الشيخ أن الأعذار الشرعية المرخصة لترك صلاة الجماعة تنحصر في المرض الشديد والخوف المحقق على النفس.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "ويؤكد أن العاجز لمرض أو كبر سن أو من يخشى على نفسه الأذى والقتل معذور في صلاته في بيته.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "هذه الفتوى تقرر وجوب صلاة الجماعة والأعذار المبيحة لتركها، دون مناقشة صحة الصلاة المنفردة من حيث الإجزاء وسقوط القضاء."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "Congregational prayer in the mosque is an obligatory duty upon capable men according to the explicit texts of the Holy Quran and prophetic tradition.",
+          "source_ids": [
+            "Q2:43",
+            "S20555000-0000-4000-a000-000000000001"
+          ]
+        },
+        {
+          "text": "Whoever stays away from congregational prayer without a valid religious excuse such as illness or fear is disobedient to Allah and resembles the hypocrites.",
+          "source_ids": [
+            "S20555000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Quranic command to bow with those who bow",
+          "sentences": [
+            {
+              "text": "Allah commanded establishing prayer and bowing down alongside those who bow down as proof of the obligation of attending congregation (2:43).",
+              "source_ids": [
+                "Q2:43"
+              ]
+            },
+            {
+              "text": "Sheikh Ibn Baz explains that whoever hears the call to prayer and fails to attend the mosque falls into disobedience to Allah and resemblance to hypocrites, unless excused.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Valid excuses permitting absence from congregation",
+          "sentences": [
+            {
+              "text": "The scholar clarifies that legitimate religious excuses permitting absence from congregation are essentially severe illness and genuine fear for personal safety.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "He affirms that one incapacitated by illness, advanced old age, or fear of harm and violence is excused to pray at home.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "This fatwa establishes the obligation of congregational prayer and valid excuses, without deliberating whether an individual prayer prayed alone fulfills the technical validity of the duty."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Das Gemeinschaftsgebet in der Moschee ist eine religiöse Pflicht für fähige Männer gemäss den eindeutigen Texten des Heiligen Korans und der prophetischen Tradition.",
+          "source_ids": [
+            "Q2:43",
+            "S20555000-0000-4000-a000-000000000001"
+          ]
+        },
+        {
+          "text": "Wer ohne triftigen religiösen Grund wie Krankheit oder Furcht dem Gemeinschaftsgebet fernbleibt, begeht Ungehorsam gegenüber Allah und ähnelt den Heuchlern.",
+          "source_ids": [
+            "S20555000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Koranischer Befehl zur Verbeugung mit den Beugenden",
+          "sentences": [
+            {
+              "text": "Allah gebot, das Gebet zu verrichten und sich mit den sich Beugenden niederzubeugen, was auf die Verpflichtung zur Gemeinschaft hinweist (2:43).",
+              "source_ids": [
+                "Q2:43"
+              ]
+            },
+            {
+              "text": "Scheich Ibn Baz legt dar, dass derjenige, der den Gebetsruf hört und nicht zur Moschee eilt, ungehorsam gegenüber Allah ist und den Heuchlern gleicht, außer bei Vorliegen einer Entschuldigung.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Gültige Entschuldigungsgründe für das Fernbleiben",
+          "sentences": [
+            {
+              "text": "Der Gelehrte stellt klar, dass rechtmäßige Entschuldigungen, die ein Fernbleiben vom Gemeinschaftsgebet erlauben, schwere Krankheit und begründete Furcht um die Unversehrtheit umfassen.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "Er bekräftigt, dass derjenige, der durch Krankheit, hohes Alter oder Bedrohung gehindert ist, entschuldigt ist und zu Hause beten darf.",
+              "source_ids": [
+                "S20555000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Diese Fatwa begründet die Pflicht des Gemeinschaftsgebets und die Entschuldigungsgründe, ohne die Gültigkeit des allein verrichteten Pflichtgebets im Einzelfall zu behandeln."
+        }
+      ]
+    }
+  }
+}
