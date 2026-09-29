@@ -1,0 +1,294 @@
+{
+  "topic_id": "who-created",
+  "status": "draft",
+  "researched_at": "2026-09-29T16:04:42+03:00",
+  "sources": [
+    {
+      "id": "Q52:35",
+      "kind": "quran",
+      "reference": "52:35",
+      "url": "https://quran.com/52/35"
+    },
+    {
+      "id": "Q35:15",
+      "kind": "quran",
+      "reference": "35:15",
+      "url": "https://quran.com/35/15"
+    },
+    {
+      "id": "Q112:2",
+      "kind": "quran",
+      "reference": "112:2",
+      "url": "https://quran.com/112/2"
+    },
+    {
+      "id": "Q112:3",
+      "kind": "quran",
+      "reference": "112:3",
+      "url": "https://quran.com/112/3"
+    },
+    {
+      "id": "HE65013",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari and Sahih Muslim",
+      "reference": "Sahih al-Bukhari 3276; Sahih Muslim 134",
+      "numbering": "HadeethEnc printed references",
+      "numbers": {
+        "bukhari": 3276,
+        "muslim": 134
+      },
+      "grade": "sahih",
+      "grade_ar": "صحيح",
+      "attribution_ar": "متفق عليه",
+      "arabic": "عَن أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «يَأْتِي الشَّيْطَانُ أَحَدَكُمْ فَيَقُولُ: مَنْ خَلَقَ كَذَا؟ مَنْ خَلَقَ كَذَا؟ حَتَّى يَقُولَ: مَنْ خَلَقَ رَبَّكَ؟ فَإِذَا بَلَغَهُ فَلْيَسْتَعِذْ بِاللهِ وَلْيَنْتَهِ».",
+      "translation_en": "Abu Hurayrah (may Allah be pleased with him) reported: The Messenger of Allah (may Allah's peace and blessings be upon him) said: \"Satan comes to one of you and says, 'Who created such and such, and who created such and such', until he says: 'Who created your Lord?' If a person experiences this, he should seek refuge with Allah and desist from that.\"",
+      "translation_de": "Von Abu Hurayrah - möge Allah mit ihm zufrieden sein - wird überliefert, dass er sagte: „Der Gesandte Allahs - Allahs Segen und Frieden auf ihm - sagte: ‚Der Schaytan kommt zu einem von euch und sagt: ›Wer hat das erschaffen? Wer hat das erschaffen?‹ Bis er schließlich sagt: ›Wer hat deinen Herrn erschaffen?‹ Kommt man da an, soll man Zuflucht bei Allah suchen und dies (sofort) lassen!‘“",
+      "url": "https://hadeethenc.com/en/browse/hadith/65013"
+    },
+    {
+      "id": "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "كيفية التخلص من الوسوسة في العقيدة وغيرها",
+      "reference": "binbaz.org.sa, fatwa 18107",
+      "arabic": "لا شك أن هذا من الشيطان، فالشيطان يدعو الناس إلى الشك في دين الله، ويلقي عليهم الشبه والوساوس، حتى يقول لهم: ما الدليل على كذا؟ وما الدليل على كذا؟ الواجب على المؤمن والمؤمنة إذا وجدا شيئًا من هذه الأمور أن يقول الواحد منهم: آمنت بالله ورسله، أعوذ بالله من الشيطان الرجيم، فقد صح عن رسول الله -عليه الصلاة والسلام- أنه قال: لا يزال الناس يتساءلون حتى يقولوا: الله خلق كل شيء، فمن خلق الله؟ فمن وجد ذلك فليقل: آمنت بالله ورسله وفي اللفظ الآخر: فليستعذ بالله ولينته.",
+      "url": "https://binbaz.org.sa/fatwas/18107/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AE%D9%84%D8%B5-%D9%85%D9%86-%D8%A7%D9%84%D9%88%D8%B3%D9%88%D8%B3%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9-%D9%88%D8%BA%D9%8A%D8%B1%D9%87%D8%A7"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "لا يقدّم القرآن الله بوصفه مخلوقًا؛ بل يصفه بأنه الغني الذي لم يُولد.",
+          "source_ids": [
+            "Q35:15",
+            "Q112:2",
+            "Q112:3"
+          ]
+        },
+        {
+          "text": "والسؤال يفترض أن الخالق يخضع لنفس وصف المخلوقات، بينما يسأل القرآن: هل خُلق الناس من غير خالق أم هل خلقوا أنفسهم؟",
+          "source_ids": [
+            "Q52:35"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "الخالق والمخلوق",
+          "sentences": [
+            {
+              "text": "يطرح القرآن احتمالين عن الناس: أن يكونوا خُلقوا من غير خالق أو أن يكونوا هم الخالقين، ويرفض السؤالَين بوصفهما تفسيرًا لوجودهم.",
+              "source_ids": [
+                "Q52:35"
+              ]
+            },
+            {
+              "text": "ويصف القرآن الله بأنه الغني، في مقابل حاجة الناس إليه.",
+              "source_ids": [
+                "Q35:15"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "وصف الله في سورة الإخلاص",
+          "sentences": [
+            {
+              "text": "تصف سورة الإخلاص الله بأنه الصمد، وتقول إنه لم يلد ولم يولد.",
+              "source_ids": [
+                "Q112:2",
+                "Q112:3"
+              ]
+            },
+            {
+              "text": "لذلك لا يعرض القرآن الله ككائن بدأ وجوده بولادة أو بسبب مخلوق آخر.",
+              "source_ids": [
+                "Q112:3"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "عند ورود هذا السؤال كوسواس",
+          "sentences": [
+            {
+              "text": "علّم النبي ﷺ أن سؤال: من خلق ربك؟ قد يأتي من الشيطان، وأمر من يواجهه أن يستعيذ بالله وينتهي عن ذلك.",
+              "source_ids": [
+                "HE65013"
+              ]
+            },
+            {
+              "text": "وشرح الشيخ ابن باز أن من وجد هذا الوسواس يقول: آمنت بالله ورسله، ويستعيذ بالله من الشيطان.",
+              "source_ids": [
+                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "هذه المصادر تجيب عن أصل السؤال ووصف الله، لكنها لا تعرض برهانًا فلسفيًا مستقلًا خارج ما تقوله الآيات والحديث."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "The Quran does not present Allah as a created being; it describes Him as self-sufficient and not begotten.",
+          "source_ids": [
+            "Q35:15",
+            "Q112:2",
+            "Q112:3"
+          ]
+        },
+        {
+          "text": "The question treats the Creator as though He had the same description as created things, while the Quran asks whether people were created without an agent or created themselves.",
+          "source_ids": [
+            "Q52:35"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Creator and creation",
+          "sentences": [
+            {
+              "text": "The Quran presents two possibilities about people: that they were created without an agent or that they created themselves, and it rejects both as an explanation of their existence.",
+              "source_ids": [
+                "Q52:35"
+              ]
+            },
+            {
+              "text": "It describes Allah as self-sufficient, while people stand in need of Him.",
+              "source_ids": [
+                "Q35:15"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Allah’s description in Surat al-Ikhlas",
+          "sentences": [
+            {
+              "text": "Surat al-Ikhlas describes Allah as the One on whom all depend and says that He neither begets nor was begotten.",
+              "source_ids": [
+                "Q112:2",
+                "Q112:3"
+              ]
+            },
+            {
+              "text": "The Quran therefore does not describe Allah as a being whose existence began through birth or through another created being.",
+              "source_ids": [
+                "Q112:3"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "When the question comes as a whisper",
+          "sentences": [
+            {
+              "text": "The Prophet taught that the question ‘Who created your Lord?’ can come from Satan, and he instructed the person who experiences it to seek refuge with Allah and stop.",
+              "source_ids": [
+                "HE65013"
+              ]
+            },
+            {
+              "text": "Shaykh Ibn Baz explained that a person who finds this whisper should say, ‘I believe in Allah and His messengers,’ and seek refuge from Satan.",
+              "source_ids": [
+                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "These sources answer the basic question and describe Allah, but they do not present a separate philosophical proof beyond what the verses and hadith say."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Der Koran stellt Allah nicht als ein erschaffenes Wesen dar, sondern beschreibt Ihn als unabhängig und ungezeugt.",
+          "source_ids": [
+            "Q35:15",
+            "Q112:2",
+            "Q112:3"
+          ]
+        },
+        {
+          "text": "Die Frage behandelt den Schöpfer so, als hätte Er dieselbe Eigenschaft wie erschaffene Dinge, während der Koran fragt, ob die Menschen ohne einen Schöpfer erschaffen wurden oder sich selbst erschufen.",
+          "source_ids": [
+            "Q52:35"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Schöpfer und Schöpfung",
+          "sentences": [
+            {
+              "text": "Der Koran stellt zwei Möglichkeiten über die Menschen gegenüber: Sie seien ohne einen Schöpfer entstanden oder hätten sich selbst erschaffen, und weist beide als Erklärung ihrer Existenz zurück.",
+              "source_ids": [
+                "Q52:35"
+              ]
+            },
+            {
+              "text": "Er beschreibt Allah als unabhängig, während die Menschen auf Ihn angewiesen sind.",
+              "source_ids": [
+                "Q35:15"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Allahs Beschreibung in Sure al-Ichlas",
+          "sentences": [
+            {
+              "text": "Sure al-Ichlas beschreibt Allah als den Absoluten, von Dem alles abhängt, und sagt, dass Er weder zeugt noch gezeugt wurde.",
+              "source_ids": [
+                "Q112:2",
+                "Q112:3"
+              ]
+            },
+            {
+              "text": "Der Koran beschreibt Allah daher nicht als ein Wesen, dessen Existenz durch Geburt oder durch ein anderes Geschöpf begonnen hätte.",
+              "source_ids": [
+                "Q112:3"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Wenn diese Frage als Einflüsterung kommt",
+          "sentences": [
+            {
+              "text": "Der Prophet lehrte, dass die Frage „Wer hat deinen Herrn erschaffen?“ vom Satan kommen kann, und wies den Betroffenen an, bei Allah Zuflucht zu suchen und damit aufzuhören.",
+              "source_ids": [
+                "HE65013"
+              ]
+            },
+            {
+              "text": "Scheich Ibn Baz erklärte, dass man bei dieser Einflüsterung sagen soll: „Ich glaube an Allah und Seine Gesandten“, und Zuflucht vor dem Satan suchen soll.",
+              "source_ids": [
+                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "Diese Quellen beantworten die Grundfrage und beschreiben Allah, führen aber keinen eigenständigen philosophischen Beweis über das hinaus an, was die Verse und der Hadith sagen."
+        }
+      ]
+    }
+  }
+}

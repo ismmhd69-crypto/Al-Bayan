@@ -5,6 +5,9 @@ import { ArrowLeft, ChevronRight, Hourglass } from "lucide-react";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
 import { getTopic, getTopicIds, getTopicVideos } from "@/lib/content";
 import AskAboutButton from "@/components/AskAboutButton";
+import { AnswerView } from "@/components/AskChat";
+import { loadPrepared } from "@/lib/prepared";
+import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import VideoCard from "@/components/VideoCard";
 
 type Params = Promise<{ lang: string; id: string }>;
@@ -33,6 +36,9 @@ export default async function TopicPage({ params }: { params: Params }) {
   const t = dict.topics;
   const related = topic.related;
   const videos = await getTopicVideos(id);
+  // Only answers Mo approved on the local review page are shown; otherwise "preparing".
+  const file = TOPIC_ANSWERS[id];
+  const answer = file ? await loadPrepared(file, lang) : null;
 
   return (
     <article className="page">
@@ -47,12 +53,16 @@ export default async function TopicPage({ params }: { params: Params }) {
         <p className="lead">{topic.question}</p>
       </header>
 
-      {/* Topic answers stay hidden until they use the same cited-answer display as Ask
-          (Codex review, finding 11). A plain text answer without sources must never appear. */}
-      <div className="card card-soft">
-        <Hourglass aria-hidden="true" className="card-icon" />
-        <p>{t.preparing}</p>
-      </div>
+      {/* A topic answer appears only with the same cited display as Ask (Codex review, finding 11),
+          and only after Mo approved it. A plain text answer without sources must never appear. */}
+      {answer ? (
+        <AnswerView a={answer} t={dict.ask} id={0} />
+      ) : (
+        <div className="card card-soft">
+          <Hourglass aria-hidden="true" className="card-icon" />
+          <p>{t.preparing}</p>
+        </div>
+      )}
 
       <AskAboutButton lang={lang} question={topic.question} label={t.askAbout} />
 

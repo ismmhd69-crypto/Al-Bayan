@@ -281,7 +281,7 @@ export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) 
   ));
   return (
     <div className="answer">
-      <p className="answer-label">{a.sourceOnly ? t.sourceOnlyLabel : t.label}</p>
+      <p className="answer-label">{a.prepared ? t.preparedLabel : a.sourceOnly ? t.sourceOnlyLabel : t.label}</p>
 
       {/* Source-only answers have no AI-written sentences: only the approved passages below. */}
       {!a.sourceOnly && (
@@ -431,7 +431,7 @@ export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) 
       )}
 
       <p className="answer-foot">
-        {a.sourceOnly ? t.sourceOnlyChecked : t.checked}{" "}
+        {a.prepared ? t.preparedChecked : a.sourceOnly ? t.sourceOnlyChecked : t.checked}{" "}
         <a href={a.attribution.url} target="_blank" rel="noopener noreferrer">
           {a.attribution.text}
         </a>

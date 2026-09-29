@@ -1,0 +1,276 @@
+{
+  "topic_id": "sword",
+  "status": "draft",
+  "researched_at": "2026-09-29T18:25:00+03:00",
+  "sources": [
+    {
+      "id": "Q2:256",
+      "kind": "quran",
+      "reference": "2:256",
+      "url": "https://quran.com/2/256"
+    },
+    {
+      "id": "Q10:99",
+      "kind": "quran",
+      "reference": "10:99",
+      "url": "https://quran.com/10/99"
+    },
+    {
+      "id": "Q2:190",
+      "kind": "quran",
+      "reference": "2:190",
+      "url": "https://quran.com/2/190"
+    },
+    {
+      "id": "Q60:8",
+      "kind": "quran",
+      "reference": "60:8",
+      "url": "https://quran.com/60/8"
+    },
+    {
+      "id": "Q8:61",
+      "kind": "quran",
+      "reference": "8:61",
+      "url": "https://quran.com/8/61"
+    },
+    {
+      "id": "Q9:6",
+      "kind": "quran",
+      "reference": "9:6",
+      "url": "https://quran.com/9/6"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "لا تعرض هذه الآيات نشر الإسلام على أنه إكراه بالسيف؛ فالقرآن يقول صراحةً: لا إكراه في الدين، ويسأل النبي هل يُكره الناس حتى يكونوا مؤمنين.",
+          "source_ids": [
+            "Q2:256",
+            "Q10:99"
+          ]
+        },
+        {
+          "text": "وفي سياق القتال تقيد الآيات القتال بمن يقاتل، وتنهى عن الاعتداء، وتأمر بالميل إلى السلم إذا مال الطرف الآخر إليه.",
+          "source_ids": [
+            "Q2:190",
+            "Q8:61"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "لا إكراه في الدين",
+          "sentences": [
+            {
+              "text": "يقرر القرآن أنه لا إكراه في الدين بعد تبيّن الرشد من الغي.",
+              "source_ids": [
+                "Q2:256"
+              ]
+            },
+            {
+              "text": "ويقول للنبي إن إيمان جميع أهل الأرض لو شاء الله، ثم يسأله هل سيكره الناس حتى يؤمنوا.",
+              "source_ids": [
+                "Q10:99"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "حدود القتال",
+          "sentences": [
+            {
+              "text": "يأمر القرآن بالقتال ضد الذين يقاتلون، وينهى عن تجاوز الحدود.",
+              "source_ids": [
+                "Q2:190"
+              ]
+            },
+            {
+              "text": "ويأمر بقبول السلم إذا مال الطرف الآخر إليه.",
+              "source_ids": [
+                "Q8:61"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "مع غير المقاتلين",
+          "sentences": [
+            {
+              "text": "لا ينهى القرآن عن البر والقسط مع الذين لم يقاتلوا المسلمين في الدين ولم يخرجوهم من ديارهم.",
+              "source_ids": [
+                "Q60:8"
+              ]
+            },
+            {
+              "text": "ويأمر القرآن بمنح طالب الحماية من المشركين الأمان حتى يسمع كلام الله ثم إيصاله إلى مكان آمن.",
+              "source_ids": [
+                "Q9:6"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "هذه الآيات تجيب عن مبدأ الإكراه وحدود القتال، لكنها لا تسرد وحدها التاريخ الكامل لكل فتح أو تحول ديني في كل بلد."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "These verses do not present the spread of Islam as compulsion by the sword: the Quran says plainly that there is no compulsion in religion and asks the Prophet whether he would compel people to become believers.",
+          "source_ids": [
+            "Q2:256",
+            "Q10:99"
+          ]
+        },
+        {
+          "text": "In the passages about fighting, the Quran limits fighting to those who fight and forbids transgression, while commanding acceptance of peace when the other side inclines to it.",
+          "source_ids": [
+            "Q2:190",
+            "Q8:61"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "No compulsion in religion",
+          "sentences": [
+            {
+              "text": "The Quran says that there is no compulsion in religion after guidance has become distinct from error.",
+              "source_ids": [
+                "Q2:256"
+              ]
+            },
+            {
+              "text": "It says that all people could have believed if God had willed, then asks the Prophet whether he would compel people to believe.",
+              "source_ids": [
+                "Q10:99"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Limits on fighting",
+          "sentences": [
+            {
+              "text": "The Quran commands fighting against those who fight you and forbids crossing the limits.",
+              "source_ids": [
+                "Q2:190"
+              ]
+            },
+            {
+              "text": "It commands accepting peace when the other side inclines toward peace.",
+              "source_ids": [
+                "Q8:61"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "With non-combatants",
+          "sentences": [
+            {
+              "text": "The Quran does not forbid kindness and justice toward those who have not fought Muslims for their faith or driven them from their homes.",
+              "source_ids": [
+                "Q60:8"
+              ]
+            },
+            {
+              "text": "It also commands protection for a polytheist who asks for safety, until he can hear God's word, followed by escorting him to a safe place.",
+              "source_ids": [
+                "Q9:6"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "These verses answer the principle of compulsion and the limits of fighting, but by themselves they do not give the complete history of every conquest or religious change in every country."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Diese Verse stellen die Verbreitung des Islams nicht als Zwang mit dem Schwert dar: Der Koran sagt ausdrücklich, dass es keinen Zwang im Glauben gibt, und fragt den Propheten, ob er die Menschen zum Glauben zwingen wolle.",
+          "source_ids": [
+            "Q2:256",
+            "Q10:99"
+          ]
+        },
+        {
+          "text": "In den Abschnitten über den Kampf begrenzt der Koran den Kampf auf diejenigen, die kämpfen, verbietet Übertretung und ordnet an, Frieden anzunehmen, wenn die andere Seite sich ihm zuneigt.",
+          "source_ids": [
+            "Q2:190",
+            "Q8:61"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Kein Zwang im Glauben",
+          "sentences": [
+            {
+              "text": "Der Koran sagt, dass es keinen Zwang im Glauben gibt, nachdem der richtige Weg vom falschen unterschieden ist.",
+              "source_ids": [
+                "Q2:256"
+              ]
+            },
+            {
+              "text": "Er sagt, dass alle Menschen hätten glauben können, wenn Allah es gewollt hätte, und fragt den Propheten dann, ob er die Menschen zum Glauben zwingen wolle.",
+              "source_ids": [
+                "Q10:99"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Grenzen des Kampfes",
+          "sentences": [
+            {
+              "text": "Der Koran ordnet den Kampf gegen diejenigen an, die kämpfen, und verbietet, die Grenzen zu überschreiten.",
+              "source_ids": [
+                "Q2:190"
+              ]
+            },
+            {
+              "text": "Er ordnet an, Frieden anzunehmen, wenn die andere Seite sich dem Frieden zuneigt.",
+              "source_ids": [
+                "Q8:61"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Gegenüber Nichtkämpfenden",
+          "sentences": [
+            {
+              "text": "Der Koran verbietet nicht Güte und Gerechtigkeit gegenüber denen, die Muslime nicht wegen ihres Glaubens bekämpft und nicht aus ihren Häusern vertrieben haben.",
+              "source_ids": [
+                "Q60:8"
+              ]
+            },
+            {
+              "text": "Er ordnet außerdem an, einem Götzendiener, der um Schutz bittet, Sicherheit zu gewähren, bis er Allahs Wort hören kann, und ihn danach an einen sicheren Ort zu bringen.",
+              "source_ids": [
+                "Q9:6"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "Diese Verse beantworten das Prinzip des Zwangs und die Grenzen des Kampfes, liefern aber für sich genommen nicht die vollständige Geschichte jeder Eroberung oder jeder religiösen Veränderung in allen Ländern."
+        }
+      ]
+    }
+  }
+}

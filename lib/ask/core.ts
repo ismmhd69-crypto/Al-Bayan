@@ -98,6 +98,7 @@ export type Answer = {
   not_established: { text: string }[];
   evidence: Evidence[];
   sourceOnly?: boolean;
+  prepared?: boolean; // a researched answer approved by Mo, loaded from data/, not written live
   attribution: { text: string; url: string };
   hadithAttribution?: { text: string; url: string }; // present when a hadith is shown
   videos?: VideoSuggestion[]; // related clips from approved channels; never evidence
@@ -317,7 +318,7 @@ const asSource = (s: Source): SourceText => ({
   translations: { en: sourceTranslations(s).en ?? undefined, de: sourceTranslations(s).de ?? undefined },
 });
 
-function toEvidence(s: Source, language: Locale): Evidence {
+export function toEvidence(s: Source, language: Locale): Evidence {
   if (s.kind === "quran") {
     const v = s.verse;
     const translation = language === "ar" ? null : v.translations[language];

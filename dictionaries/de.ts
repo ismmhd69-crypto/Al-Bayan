@@ -64,6 +64,8 @@ const de: typeof en = {
       otherViews: "Nur sichtbar, wenn anerkannte Gelehrte sich unterscheiden. Standardmäßig geschlossen.",
     },
     label: "Automatische Erklärung, aus den Quellen unten geschrieben",
+    preparedLabel: "Vorbereitete Antwort, aus den Quellen unten erarbeitet und von Bayan geprüft",
+    preparedChecked: "Diese Antwort wurde vorab aus den Quellen unten erarbeitet und vor der Veröffentlichung vom Bayan-Team geprüft (noch nicht von einem Gelehrten); jeder Satz nennt seine Quelle, und Verse und Hadithe werden genau so gezeigt, wie ihre Quellen sie bereitstellen.",
     sourceOnlyLabel: "Direkte Antwort aus den Quellen unten",
     noSource:
       "Wir haben keine vertrauenswürdige Quelle gefunden, die das beantwortet. Bitte frag einen qualifizierten Gelehrten, dem du vertraust.",

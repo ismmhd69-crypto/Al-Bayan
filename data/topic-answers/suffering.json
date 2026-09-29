@@ -1,0 +1,285 @@
+{
+  "topic_id": "suffering",
+  "status": "draft",
+  "researched_at": "2026-09-29T16:18:00+03:00",
+  "sources": [
+    {
+      "id": "Q2:155",
+      "kind": "quran",
+      "reference": "2:155",
+      "url": "https://quran.com/2/155"
+    },
+    {
+      "id": "Q2:156",
+      "kind": "quran",
+      "reference": "2:156",
+      "url": "https://quran.com/2/156"
+    },
+    {
+      "id": "Q2:157",
+      "kind": "quran",
+      "reference": "2:157",
+      "url": "https://quran.com/2/157"
+    },
+    {
+      "id": "Q67:2",
+      "kind": "quran",
+      "reference": "67:2",
+      "url": "https://quran.com/67/2"
+    },
+    {
+      "id": "HE3701",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari and Sahih Muslim",
+      "reference": "Sahih al-Bukhari 5641; Sahih Muslim 2572",
+      "numbering": "HadeethEnc printed references",
+      "numbers": {
+        "bukhari": 5641,
+        "muslim": 2572
+      },
+      "grade": "sahih",
+      "grade_ar": "صحيح",
+      "attribution_ar": "متفق عليه",
+      "arabic": "عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ وَعَنْ أَبِي هُرَيْرَةَ رضي الله عنهما عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ: «مَا يُصِيبُ الْمُسْلِمَ مِنْ نَصَبٍ وَلَا وَصَبٍ وَلَا هَمٍّ وَلَا حُزْنٍ وَلَا أَذًى وَلَا غَمٍّ حَتَّى الشَّوْكَةِ يُشَاكُهَا إِلَّا كَفَّرَ اللهُ بِهَا مِنْ خَطَايَاهُ».",
+      "translation_en": "Abu Sa‘īd al-Khudri and Abu Hurayah (may Allah be pleased with both of them) reported that the Prophet (may Allah's peace and blessings be upon him) said: \"No fatigue, disease, sorrow, sadness, harm, or distress befalls a Muslim, even if it were a prick of a thorn, but Allah will expiate some of his sins thereby.\"",
+      "translation_de": "Von Abu Sa'id Al-Khudri und Abu Hurayrah - möge Allah mit ihnen beiden zufrieden sein - wird überliefert, dass der Prophet - Allahs Segen und Frieden auf ihm - sagte: „Es gibt keine Strapaze, die den Muslim trifft, keine Krankheit, Sorge, Trauer, nichts, was ihn stört und keinen Kummer - selbst ein Stachel, der ihn sticht - ,außer dass Allah ihm damit etwas von seinen Sünden vergibt.“",
+      "url": "https://hadeethenc.com/en/browse/hadith/3701"
+    },
+    {
+      "id": "S5c7e615c-f05b-48b3-8a49-76335cdcb083",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "هل المصائب التي تصيب العبد تعتبر غضب من الله؟",
+      "reference": "binbaz.org.sa, fatwa 13937",
+      "arabic": "المصيبة نوعان: مصيبة تضره كالمرض، ونحو ذلك، هذه كفارة من الذنوب، أو المصيبة الثانية موت، ولد موت قريب، موت أخ، ونحو ذلك فهذا فيها عليه الصبر والاحتساب، ويؤجر في ذلك، ويقول النبي ﷺ: عجبًا لأمر المؤمن إن أمره كله له خير، إن أصابته ضراء صبر فكان خيرًا له، وإن أصابته سراء شكر فكان خيرًا له، وليس ذلك لأحد إلا للمؤمن فإن أصابه ما يكره كان كفارة له لسيئاته، سواءٌ كان مرضًا أو فقرًا أو تسليط بعض الأعداء عليه وإيذائه.",
+      "url": "https://binbaz.org.sa/fatwas/13937/%D9%87%D9%84-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D8%A6%D8%A8-%D8%A7%D9%84%D8%AA%D9%8A-%D8%AA%D8%B5%D9%8A%D8%A8-%D8%A7%D9%84%D8%B9%D8%A8%D8%AF-%D8%AA%D8%B9%D8%AA%D8%A8%D8%B1-%D8%BA%D8%B6%D8%A8-%D9%85%D9%86-%D8%A7%D9%84%D9%84%D9%87%D8%9F"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "يذكر القرآن أن الألم قد يكون جزءًا من ابتلاء يشمل الخوف والجوع ونقص الأموال والأنفس والثمرات.",
+          "source_ids": [
+            "Q2:155"
+          ]
+        },
+        {
+          "text": "ويعلّم الحديث الصحيح أن التعب والمرض والحزن والأذى قد يكفّر الله بها بعض خطايا المسلم.",
+          "source_ids": [
+            "HE3701"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "الابتلاء",
+          "sentences": [
+            {
+              "text": "يصف القرآن الحياة والموت بأنهما اختبار ليظهر من يعمل أحسن العمل.",
+              "source_ids": [
+                "Q67:2"
+              ]
+            },
+            {
+              "text": "ويذكر في سياق المصائب أن الله يختبر الناس بأشكال من الخوف والجوع وفقد المال والأنفس والثمرات.",
+              "source_ids": [
+                "Q2:155"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "ما يترتب على المصيبة",
+          "sentences": [
+            {
+              "text": "يقول الحديث إن حتى الشوكة التي تصيب المسلم قد تكون سببًا في تكفير بعض خطاياه.",
+              "source_ids": [
+                "HE3701"
+              ]
+            },
+            {
+              "text": "وشرح الشيخ ابن باز أن المرض ونحوه قد يكون تكفيرًا للذنوب، وأن الموت أو موت القريب يطلب الصبر والاحتساب ويكون عليه أجر.",
+              "source_ids": [
+                "S5c7e615c-f05b-48b3-8a49-76335cdcb083"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "موقف الصابرين",
+          "sentences": [
+            {
+              "text": "يصف القرآن الصابرين عند المصيبة بأنهم يقولون إنهم لله وإليه راجعون.",
+              "source_ids": [
+                "Q2:156"
+              ]
+            },
+            {
+              "text": "ويذكر لهم صلوات من ربهم ورحمة وهداية.",
+              "source_ids": [
+                "Q2:157"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "هذه المصادر لا تحدد سبب كل معاناة فردية، ولا تقول إن كل مصيبة عقوبة على ذنب معين."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "The Quran says that suffering can be part of a test involving fear, hunger, and loss of property, lives, and crops.",
+          "source_ids": [
+            "Q2:155"
+          ]
+        },
+        {
+          "text": "An authentic hadith teaches that fatigue, illness, sorrow, harm, and distress can be a means by which Allah expiates some of a Muslim’s sins.",
+          "source_ids": [
+            "HE3701"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "The test",
+          "sentences": [
+            {
+              "text": "The Quran describes life and death as a test to show who does the best deeds.",
+              "source_ids": [
+                "Q67:2"
+              ]
+            },
+            {
+              "text": "In the passage about calamities, it says that people are tested with forms of fear, hunger, and loss of property, lives, and crops.",
+              "source_ids": [
+                "Q2:155"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "What hardship can bring",
+          "sentences": [
+            {
+              "text": "The hadith says that even a thorn that pricks a Muslim can be a means of expiating some sins.",
+              "source_ids": [
+                "HE3701"
+              ]
+            },
+            {
+              "text": "Shaykh Ibn Baz explained that illness and similar harm can expiate sins, while death or the death of a relative calls for patience and seeking reward from Allah.",
+              "source_ids": [
+                "S5c7e615c-f05b-48b3-8a49-76335cdcb083"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The response of the steadfast",
+          "sentences": [
+            {
+              "text": "The Quran describes those who are afflicted as saying that they belong to God and will return to Him.",
+              "source_ids": [
+                "Q2:156"
+              ]
+            },
+            {
+              "text": "It says that such people receive blessings and mercy from their Lord and are rightly guided.",
+              "source_ids": [
+                "Q2:157"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "These sources do not identify the reason for every individual’s suffering, and they do not say that every calamity is punishment for a particular sin."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Der Koran sagt, dass Leid Teil einer Prüfung mit Angst, Hunger sowie dem Verlust von Besitz, Menschenleben und Früchten sein kann.",
+          "source_ids": [
+            "Q2:155"
+          ]
+        },
+        {
+          "text": "Ein authentischer Hadith lehrt, dass Ermüdung, Krankheit, Trauer, Schaden und Kummer dazu führen können, dass Allah einem Muslim einige Sünden vergibt.",
+          "source_ids": [
+            "HE3701"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Die Prüfung",
+          "sentences": [
+            {
+              "text": "Der Koran beschreibt Leben und Tod als eine Prüfung, durch die sich zeigt, wer die besseren Taten verrichtet.",
+              "source_ids": [
+                "Q67:2"
+              ]
+            },
+            {
+              "text": "Im Abschnitt über Unglück sagt er, dass die Menschen durch Formen von Angst, Hunger sowie den Verlust von Besitz, Menschenleben und Früchten geprüft werden.",
+              "source_ids": [
+                "Q2:155"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Was Leid bewirken kann",
+          "sentences": [
+            {
+              "text": "Der Hadith sagt, dass sogar ein Dorn, der einen Muslim sticht, dazu führen kann, dass ihm einige Sünden vergeben werden.",
+              "source_ids": [
+                "HE3701"
+              ]
+            },
+            {
+              "text": "Scheich Ibn Baz erklärte, dass Krankheit und ähnlicher Schaden Sünden tilgen können, während beim Tod oder beim Tod eines Angehörigen Geduld und das Erwarten von Allahs Lohn verlangt werden.",
+              "source_ids": [
+                "S5c7e615c-f05b-48b3-8a49-76335cdcb083"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Die Haltung der Geduldigen",
+          "sentences": [
+            {
+              "text": "Der Koran beschreibt die von einem Unglück Betroffenen mit den Worten, dass sie Allah gehören und zu Ihm zurückkehren werden.",
+              "source_ids": [
+                "Q2:156"
+              ]
+            },
+            {
+              "text": "Er sagt, dass solche Menschen den Segen und die Barmherzigkeit ihres Herrn erhalten und rechtgeleitet sind.",
+              "source_ids": [
+                "Q2:157"
+              ]
+            }
+          ]
+        }
+      ],
+      "other_views": [],
+      "not_established": [
+        {
+          "text": "Diese Quellen nennen nicht den Grund für jedes individuelle Leid und sagen nicht, dass jedes Unglück die Strafe für eine bestimmte Sünde ist."
+        }
+      ]
+    }
+  }
+}

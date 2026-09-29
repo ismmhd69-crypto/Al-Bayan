@@ -62,6 +62,8 @@ const en = {
       otherViews: "Shown only when approved scholars differ. Closed by default.",
     },
     label: "Automatic explanation, written from the sources below",
+    preparedLabel: "Prepared answer, researched from the sources below and reviewed by Bayan",
+    preparedChecked: "This answer was researched in advance from the sources below and reviewed by the Bayan team before publishing (not yet reviewed by a scholar); every sentence names its source, and verses and hadith are shown exactly as their sources provide them.",
     sourceOnlyLabel: "Direct answer from the sources below",
     noSource:
       "We couldn't find a trusted source that answers this. Please ask a qualified scholar you trust.",

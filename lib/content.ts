@@ -120,3 +120,11 @@ export async function getTopicVideos(topicId: string): Promise<VideoSuggestion[]
       language: v.language === "en" || v.language === "de" ? v.language : "ar",
     }));
 }
+
+/** Approved scholars' names in the three languages, by id (public table). */
+export async function getScholarNames(): Promise<Record<string, { ar: string; en: string; de: string }>> {
+  const { data, error } = await supabase.from("scholars").select("id, name_ar, name_en, name_de").eq("approved", true);
+  if (error) fail("scholars", error);
+  return Object.fromEntries(((data ?? []) as { id: string; name_ar: string; name_en: string; name_de: string }[])
+    .map((s) => [s.id, { ar: s.name_ar, en: s.name_en, de: s.name_de }]));
+}
