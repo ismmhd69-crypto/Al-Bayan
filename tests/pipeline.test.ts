@@ -212,6 +212,11 @@ describe("runPipeline", () => {
     const { d, writer, verifier } = deps({ understand: understanding, draft: goodDraft });
     d.neighbours = async (key) => key === "2:183" ? [verses[1]] : [];
     expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("answer");
+    const selection = JSON.parse(verifier.seen[0].prompt) as {
+      candidates: { surrounding_context: Record<string, unknown>[] }[];
+    };
+    expect(selection.candidates[0].surrounding_context[0]).not.toHaveProperty("id");
+    expect(selection.candidates[0].surrounding_context[0]).toHaveProperty("translation_en", verses[1].translations.en);
     expect(writer.seen[1].prompt).not.toContain("Q2:184");
     expect(verifier.seen[1].prompt).toContain("Q2:184");
   });

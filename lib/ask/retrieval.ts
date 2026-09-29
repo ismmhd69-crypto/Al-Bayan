@@ -178,9 +178,13 @@ export function parseEvidencePackage(
     if (!isString(assessment.relevance) || !(["direct", "partial", "context", "mention_only", "unrelated"] as Relevance[]).includes(assessment.relevance as Relevance)) return null;
     if (!isString(assessment.context_safe) || !["yes", "no", "unsure"].includes(assessment.context_safe)) return null;
     if (!Array.isArray(assessment.supported_facets)) return null;
-    const facets = [...new Set(assessment.supported_facets.filter(isString))]
+    const statedFacets = [...new Set(assessment.supported_facets.filter(isString))];
+    // Unknown labels are malformed and fail closed. Known but unrequested labels are irrelevant to
+    // this question and may be ignored, especially on candidates already judged non-direct.
+    if (statedFacets.length !== assessment.supported_facets.length
+      || !statedFacets.every((facet) => (ANSWER_FACETS as readonly string[]).includes(facet))) return null;
+    const facets = statedFacets
       .filter((facet): facet is AnswerFacet => frame.requiredFacets.includes(facet as AnswerFacet));
-    if (facets.length !== assessment.supported_facets.length) return null;
     const ok = assessment.relevance === "direct" && assessment.context_safe === "yes" && facets.length > 0;
     const before = verdicts.get(assessment.source_id);
     verdicts.set(

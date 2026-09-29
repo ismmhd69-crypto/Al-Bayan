@@ -83,6 +83,19 @@ describe("structured retrieval", () => {
     expect(result?.passages.map((passage) => passage.id)).toEqual(["Q9:1"]);
   });
 
+  it("ignores known unrequested facets without allowing rejected passages into the package", () => {
+    const result = parseEvidencePackage({
+      status: "ready",
+      coverage: "complete",
+      conflict: "none",
+      assessments: [
+        { source_id: "Q9:1", relevance: "direct", supported_facets: ["identity", "attributes"], context_safe: "yes" },
+        { source_id: "Q9:2", relevance: "partial", supported_facets: ["evidence"], context_safe: "yes" },
+      ],
+    }, frame, candidates);
+    expect(result?.passages.map((passage) => passage.id)).toEqual(["Q9:1"]);
+  });
+
   it("refuses when a required facet has no direct evidence", () => {
     const result = parseEvidencePackage({
       status: "ready",
@@ -119,6 +132,12 @@ describe("structured retrieval", () => {
       coverage: "complete",
       conflict: "none",
       assessments: [{ ...base[0], context_safe: "unsure" }, base[1]],
+    }, frame, candidates)).toBeNull();
+    expect(parseEvidencePackage({
+      status: "ready",
+      coverage: "complete",
+      conflict: "none",
+      assessments: [{ ...base[0], supported_facets: ["identity", "invented"] }, base[1]],
     }, frame, candidates)).toBeNull();
   });
 });
