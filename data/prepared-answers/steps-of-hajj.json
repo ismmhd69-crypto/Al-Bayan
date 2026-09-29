@@ -1,0 +1,221 @@
+{
+  "topic_id": "steps-of-hajj",
+  "status": "draft",
+  "researched_at": "2026-09-29T22:30:00+03:00",
+  "questions": {
+    "ar": [
+      "ما هي خطوات ومناسك الحج بالترتيب",
+      "كيفية أداء مناسك الحج خطوة بخطوة",
+      "صفة الحج وأعماله من الإحرام إلى طواف الوداع",
+      "مناسك الحج",
+      "خطوات الحج"
+    ],
+    "en": [
+      "What are the steps of Hajj in order",
+      "How to perform Hajj rituals step by step",
+      "Description of Hajj acts of worship in Islam",
+      "steps of hajj",
+      "how to do hajj"
+    ],
+    "de": [
+      "Was sind die Schritte der Hajj der Reihe nach",
+      "Wie vollzieht man die Hadsch-Riten Schritt für Schritt",
+      "Beschreibung der Riten der islamischen Pilgerfahrt",
+      "schritte der hadsch",
+      "hadsch anleitung"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q2:196",
+      "kind": "quran",
+      "reference": "2:196",
+      "url": "https://quran.com/2/196"
+    },
+    {
+      "id": "S10034000-0000-4000-a000-000000000001",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "صفة حج المفرد",
+      "reference": "binbaz.org.sa, fatwa 10034",
+      "arabic": "فتذهب إلى مكة وقت الحج، تطوف وتسعى، وتبقى على إحرامك، حتى تقف في عرفات حتى ترمي جمرة العقبة. فإذا رميت جمرة العقبة؛ فالأفضل أن تحلق، وإن قصَّرت؛ فلا بأس، ثم تحل، ومن حل بعد الرمي؛ أجزأه، لكن الأفضل أن يكون بعد الحلق، بعد الرمي والحلق، أو التقصير، ثم يلبس ثيابه إذا شاء، ويتطيب إذا شاء، ثم يطوف ويسعى طوافًا بالبيت سبعة أشواط، ويصلي ركعتين، ثم يسعى بين الصفا والمروة سبعة أشواط، هذا هو الحج المفرد ما فيه هدي",
+      "url": "https://binbaz.org.sa/fatwas/10034/%D8%B5%D9%81%D8%A9-%D8%AD%D8%AC-%D8%A7%D9%84%D9%85%D9%81%D8%B1%D8%AF"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "يؤدي المسلم مناسك الحج طاعة لله وإتماما لفرضه (2:196): فيحرم من الميقات، ثم يقدم مكة ويطوف ويسعى، ويبقى على إحرامه حتى يقف بعرفات ثم يرمي جمرة العقبة يوم النحر.",
+          "source_ids": [
+            "S10034000-0000-4000-a000-000000000001",
+            "Q2:196"
+          ]
+        },
+        {
+          "text": "وبعد رمي الجمرة يحلق أو يقصر فيحصل التحلل، ثم يطوف طواف الإفاضة بالبيت سبعة أشواط ويسعى بين الصفا والمروة.",
+          "source_ids": [
+            "S10034000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "الإحرام والوقوف بعرفات إلى يوم النحر",
+          "sentences": [
+            {
+              "text": "أمر الله عباده بإتمام الحج والعمرة وإخلاصهما لوجهه الكريم (2:196).",
+              "source_ids": [
+                "Q2:196"
+              ]
+            },
+            {
+              "text": "ويوضح الشيخ ابن باز أن الحاج يحرم من الميقات ويقصد مكة، ويبقى على إحرامه متوجها إلى عرفات للوقوف بها حتى يرمي جمرة العقبة يوم العيد.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "التحلل وطواف الإفاضة والسعي",
+          "sentences": [
+            {
+              "text": "يبين الشيخ أن الحاج بعد رمي جمرة العقبة يحلق رأسه أو يقصر ليتحلل ويلبس ثيابه ويتطيب.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "ثم يتوجه إلى البيت الحرام فيطوف سبعة أشواط ويصلي ركعتين، ويسعى بين الصفا والمروة سبعة أشواط لإكمال مناسك حجه.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "تبين هذه الفتوى التسلسل الأساسي لأركان ومناسك الحج، ولا تفصل الفروق الدقيقة في الهدي بين أنواع النسك الثلاثة التمتع والقران والإفراد."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "A Muslim performs the rites of Hajj in obedience to Allah and completing His obligation (2:196): entering Ihram from the Miqat, proceeding to Mecca to perform Tawaf and Sa'i, remaining in Ihram through standing at Arafat until pelting the Jamrah of Aqabah on the Day of Sacrifice.",
+          "source_ids": [
+            "S10034000-0000-4000-a000-000000000001",
+            "Q2:196"
+          ]
+        },
+        {
+          "text": "After pelting the Jamrah, one shaves or trims the hair to exit Ihram, then performs the Tawaf of Ifadah around the House seven circuits and the Sa'i between Safa and Marwah.",
+          "source_ids": [
+            "S10034000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Entering Ihram and standing at Arafat until the Day of Sacrifice",
+          "sentences": [
+            {
+              "text": "Allah commands His servants to complete the Hajj and Umrah sincerely for His sake (2:196).",
+              "source_ids": [
+                "Q2:196"
+              ]
+            },
+            {
+              "text": "Shaikh Ibn Baz clarifies that the pilgrim enters Ihram at the Miqat, travels to Mecca, and remains in Ihram proceeding to Arafat to stand there until stoning the Jamrah on Eid day.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Exiting Ihram, Tawaf al-Ifadah, and Sa'i",
+          "sentences": [
+            {
+              "text": "The scholar explains that upon pelting the Jamrah, the pilgrim shaves or trims their hair to leave Ihram, put on regular garments, and apply perfume.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "The pilgrim then proceeds to the Sacred House to perform seven circuits of Tawaf, offer two rak'ahs, and complete seven circuits of Sa'i between Safa and Marwah to fulfill the pilgrimage rites.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "This verified fatwa outlines the essential succession of core Hajj rites, without detailing sacrificial animal rules between the three pilgrimage types of Tamattu, Qiran, and Ifrad."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Der Muslim vollzieht die Hadsch-Riten im Gehorsam gegenüber Allah zur Vollendung Seiner Pflicht (2:196): Eintritt in den Ihram am Miqat, Tawaf und Sa'i in Mekka, Verweilen im Ihram über das Stehen in Arafat bis zur Steinigung der Jamrat al-Aqaba am Schlachttag.",
+          "source_ids": [
+            "S10034000-0000-4000-a000-000000000001",
+            "Q2:196"
+          ]
+        },
+        {
+          "text": "Nach dem Steinigen schert oder kürzt man das Haar zur Aufhebung des Ihram, vollzieht den Tawaf al-Ifadah um das Haus in sieben Runden und den Sa'i zwischen Safa und Marwah.",
+          "source_ids": [
+            "S10034000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Eintritt in den Ihram und Stehen in Arafat bis zum Festtag",
+          "sentences": [
+            {
+              "text": "Allah gebietet Seinen Dienern, Hadsch und Umrah aufrichtig um Seinetwillen zu vollenden (2:196).",
+              "source_ids": [
+                "Q2:196"
+              ]
+            },
+            {
+              "text": "Scheich Ibn Baz legt dar, dass der Pilger am Miqat den Ihram anlegt, nach Mekka zieht und im Ihram verweilt, um in Arafat zu stehen bis zum Steinigen der Jamrah am Festtag.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Lösung aus dem Weihezustand, Tawaf al-Ifadah und Sa'i",
+          "sentences": [
+            {
+              "text": "Der Gelehrte erläutert, dass der Pilger nach dem Steinigen der Jamrah sein Haar rasiert oder kürzt, um den Weihezustand aufzuheben, weltliche Kleidung anzulegen und sich zu parfümieren.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "Anschließend begibt er sich zum Heiligen Haus, um sieben Runden Tawaf zu ziehen, zwei Rak'ahs zu beten und den Sa'i zwischen Safa und Marwah zur Vollendung der Pilgerfahrt zu vollziehen.",
+              "source_ids": [
+                "S10034000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Diese verifizierte Fatwa nennt den grundlegenden Ablauf der Hauptriten der Pilgerfahrt, ohne auf differenzierte Opfertierregeln für die drei Hadsch-Arten Tamattu, Qiran und Ifrad einzugehen."
+        }
+      ]
+    }
+  }
+}

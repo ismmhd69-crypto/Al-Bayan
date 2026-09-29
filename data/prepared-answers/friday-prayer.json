@@ -1,0 +1,224 @@
+{
+  "topic_id": "friday-prayer",
+  "status": "draft",
+  "researched_at": "2026-09-29T22:30:00+03:00",
+  "questions": {
+    "ar": [
+      "ما حكم صلاة الجمعة وشروط وجوبها",
+      "على من تجب صلاة الجمعة في الإسلام",
+      "كيفية صلاة الجمعة وحكم حضورها",
+      "صلاة الجمعة",
+      "حكم الجمعة"
+    ],
+    "en": [
+      "What is the ruling on Friday prayer in Islam",
+      "Who is Friday prayer obligatory upon",
+      "Conditions and obligations of Friday prayer",
+      "friday prayer",
+      "is friday prayer obligatory"
+    ],
+    "de": [
+      "Wie ist das Urteil über das Freitagsgebet im Islam",
+      "Für wen ist das Freitagsgebet verpflichtend",
+      "Bedingungen und Pflichten des Freitagsgebets",
+      "freitagsgebet",
+      "ist freitagsgebet pflicht"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q62:9",
+      "kind": "quran",
+      "reference": "62:9",
+      "url": "https://quran.com/62/9"
+    },
+    {
+      "id": "S51060000-0000-4000-a000-000000000001",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "الجمعة ليست واجبة على المرأة",
+      "reference": "binbaz.org.sa, fatwa 5106",
+      "arabic": "الجمعة ليست واجبة على المرأة بل هي على الرجال، وهكذا الجماعة ليست واجبة على المرأة بل هي على الرجال، والسنة أن تصلي المرأة في بيتها في الجمعة وغير الجمعة في بيتها أفضل لها، لكن إن صلتها مع الناس أجزأتها الجمعة عن الظهر إذا كانت متسترة متحفظة متحجبة، وتخرج من غير طيب فلا بأس عليها لسماع الفائدة ولسماع الخطبة وسماع المواعظ",
+      "url": "https://binbaz.org.sa/fatwas/5106/%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-%D9%84%D9%8A%D8%B3%D8%AA-%D9%88%D8%A7%D8%AC%D8%A8%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "صلاة الجمعة فريضة واجبة على الرجال بنص القرآن الكريم، فيلزمهم السعي إليها وترك التجارة عند النداء (62:9).",
+          "source_ids": [
+            "S51060000-0000-4000-a000-000000000001",
+            "Q62:9"
+          ]
+        },
+        {
+          "text": "أما النساء فليست الجمعة واجبة عليهن بل يصلين ظهرا في بيوتهن، فإن حضرت المرأة صلاة الجمعة مع المسلمين متسترة ومتحجبة أجزأتها عن الظهر.",
+          "source_ids": [
+            "S51060000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "الأمر القرآني بالسعي إلى صلاة الجمعة",
+          "sentences": [
+            {
+              "text": "أمر الله المؤمنين في كتابه بالسعي إلى ذكر الله والصلاة عند النداء لها يوم الجمعة وترك البيع والمعاملات (62:9).",
+              "source_ids": [
+                "Q62:9"
+              ]
+            },
+            {
+              "text": "ويؤكد الحكم الشرعي وجوب حضور الجمعة والاستماع إلى الخطبة وأداء الصلاة مع جماعة المسلمين.",
+              "source_ids": [
+                "Q62:9",
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "على من تجب صلاة الجمعة وحكم صلاة المرأة",
+          "sentences": [
+            {
+              "text": "يوضح الشيخ ابن باز أن الجمعة والجماعة واجبتان على الرجال، في حين لا تجب على المرأة صلاة الجمعة والسنة لها أن تصلي ظهرا في بيتها.",
+              "source_ids": [
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "ويبين الشيخ أن المرأة إذا خرجت إلى المسجد متسترة بغير طيب لحضور الجمعة وسماع الموعظة صحت صلاتها وأجزأتها الجمعة عن صلاة الظهر.",
+              "source_ids": [
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "تبين هذه الفتوى أحكام وجوب الجمعة على الرجال وعدم وجوبها على النساء وإجزائها إن صلتها، ولا تفصل شروط الخطبتين وعدد المصلين لانعقادها."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "The Friday prayer is an obligatory duty upon Muslim men according to the Holy Quran, requiring them to hasten to it and leave trade upon the call (62:9).",
+          "source_ids": [
+            "S51060000-0000-4000-a000-000000000001",
+            "Q62:9"
+          ]
+        },
+        {
+          "text": "For women, Friday prayer is not obligatory and they pray Dhuhr in their homes, though if a woman attends Friday prayer properly covered and modest, it suffices her for Dhuhr.",
+          "source_ids": [
+            "S51060000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "The Quranic command to hasten to Friday prayer",
+          "sentences": [
+            {
+              "text": "Allah commands the believers in His Book to hasten to His remembrance and prayer when the call is made on Friday, abandoning trade (62:9).",
+              "source_ids": [
+                "Q62:9"
+              ]
+            },
+            {
+              "text": "Islamic law establishes the individual obligation of attending Friday prayer, listening to the sermon, and praying in congregation.",
+              "source_ids": [
+                "Q62:9",
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Obligation criteria and the ruling for women",
+          "sentences": [
+            {
+              "text": "Shaikh Ibn Baz clarifies that Friday prayer and congregation are binding upon men, whereas Friday prayer is not obligatory upon women, who are recommended to pray at home.",
+              "source_ids": [
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "The scholar explains that if a woman goes to the mosque properly veiled and without perfume to hear the sermon and benefit, her Friday prayer is valid and replaces Dhuhr.",
+              "source_ids": [
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "This verified fatwa details the obligation of Friday prayer for men and exemption for women, without detailing minimum congregation sizes or specific structural conditions for the sermons."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Das Freitagsgebet ist für muslimische Männer nach dem Heiligen Koran eine bindende Pflicht, die gebietet, beim Gebetsruf herbeizueilen und den Handel ruhen zu lassen (62:9).",
+          "source_ids": [
+            "S51060000-0000-4000-a000-000000000001",
+            "Q62:9"
+          ]
+        },
+        {
+          "text": "Für Frauen ist das Freitagsgebet keine Pflicht; sie beten Dhuhr zu Hause, doch wenn eine Frau verhüllt und schicklich am Freitagsgebet teilnimmt, ersetzt dies das Dhuhr-Gebet.",
+          "source_ids": [
+            "S51060000-0000-4000-a000-000000000001"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Das koranische Gebot zum Freitagsgebet",
+          "sentences": [
+            {
+              "text": "Allah gebietet den Gläubigen in Seinem Buch, beim Gebetsruf am Freitag zum Gedenken Allahs und zum Gebet zu eilen und den Kaufhandel zu verlassen (62:9).",
+              "source_ids": [
+                "Q62:9"
+              ]
+            },
+            {
+              "text": "Das islamische Recht begründet die Pflicht, am Freitagsgebet teilzunehmen, der Predigt zuzuhören und in Gemeinschaft zu beten.",
+              "source_ids": [
+                "Q62:9",
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verpflichtungskriterien und die Rechtslage für Frauen",
+          "sentences": [
+            {
+              "text": "Scheich Ibn Baz legt dar, dass Freitag und Gemeinschaftsgebet für Männer bindend sind, während Frauen davon befreit sind und vorzugsweise zu Hause beten.",
+              "source_ids": [
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "Der Gelehrte stellt klar, dass eine Frau, die verhüllt und ohne Parfüm zur Moschee geht, um der Predigt beizuwohnen, ein gültiges Gebet verrichtet, welches das Dhuhr-Gebet ersetzt.",
+              "source_ids": [
+                "S51060000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Diese verifizierte Fatwa behandelt die Pflicht des Freitagsgebets für Männer und die Freistellung für Frauen, ohne Mindestteilnehmerzahlen oder formelle Kriterien der beiden Predigten aufzuführen."
+        }
+      ]
+    }
+  }
+}

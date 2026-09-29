@@ -1,0 +1,233 @@
+{
+  "topic_id": "divorce-basics",
+  "status": "draft",
+  "researched_at": "2026-09-29T22:30:00+03:00",
+  "questions": {
+    "ar": [
+      "عدة المطلقة وأحكام الطلاق بالتفصيل",
+      "كم مرة يقع الطلاق وما هي عدته",
+      "كيف يقع الطلاق في الإسلام وعدة المرأة",
+      "عدة المطلقة",
+      "أحكام الطلاق"
+    ],
+    "en": [
+      "Divorce rules and waiting period in Islam",
+      "How many times can you divorce in Islam and waiting period",
+      "How does divorce work in Islam and the iddah",
+      "divorce in islam",
+      "divorce waiting period"
+    ],
+    "de": [
+      "Scheidungsregeln und Wartezeit im Islam",
+      "Wie oft kann man sich scheiden lassen im Islam und Wartezeit",
+      "Wie funktioniert die Scheidung im Islam und die Iddah",
+      "scheidung im islam",
+      "wartezeit scheidung"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q2:228",
+      "kind": "quran",
+      "reference": "2:228",
+      "url": "https://quran.com/2/228"
+    },
+    {
+      "id": "Q2:229",
+      "kind": "quran",
+      "reference": "2:229",
+      "url": "https://quran.com/2/229"
+    },
+    {
+      "id": "S88640000-0000-4000-a000-000000000001",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "أقسام الطلاق",
+      "reference": "binbaz.org.sa, fatwa 8864",
+      "arabic": "الطلاق قسمان: طلاق سنة، وطلاق بدعة، طلاق مباح، وطلاق مشروع، وطلاق محرم، فطلاق البدعة: كونه يطلق في الحيض أو في النفاس أو في طهر جامع فيه، هذا بدعة، وكذلك تطليقها بالثلاث لا يجوز، الرسول زجر عن ذلك عليه الصلاة والسلام، وطلاق السنة: أن يطلقها طلقة واحدة فقط في طهر لم يجامع فيه، أو بحال حملها، هذا يقال له طلاق السنة، وإن طلقها طلقتين فلا بأس مباح، أما تطليقها بالثلاث فلا يجوز، هكذا جاءت السنة.",
+      "url": "https://binbaz.org.sa/fatwas/8864/%D8%A3%D9%82%D8%B3%D8%A7%D9%85-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D9%82"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "طلاق السنة المشروع يكون بتطليق الزوجة طلقة واحدة في طهر لم يجامعها فيه أو وهي حامل، والطلاق الذي تحل بعده الرجعة مرتان.",
+          "source_ids": [
+            "S88640000-0000-4000-a000-000000000001",
+            "Q2:229"
+          ]
+        },
+        {
+          "text": "عدة المطلقة التي تحيض هي ثلاثة قروء، ولا يجوز تطليق المرأة بالثلاث بلفظ واحد أو في الحيض أو النفاس أو طهر حصل فيه جماع.",
+          "source_ids": [
+            "S88640000-0000-4000-a000-000000000001",
+            "Q2:228"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "مشروعية الطلاق ومرات الرجعة والعدة",
+          "sentences": [
+            {
+              "text": "بين القرآن الكريم أن الطلاق المشروع مرتان للمراجعة، وأوجب على المطلقات الانتظار ثلاثة قروء لاستبراء الرحم وحفظ الأنساب (البقرة: 228-229).",
+              "source_ids": [
+                "Q2:228",
+                "Q2:229"
+              ]
+            },
+            {
+              "text": "ويوضح الشيخ ابن باز أن طلاق السنة هو أن يطلق الرجل زوجته طلقة واحدة فقط في طهر لم يجامعها فيه أو في حال حملها.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "الطلاق البدعي المحرم",
+          "sentences": [
+            {
+              "text": "يبين الشيخ أن إيقاع الطلاق في الحيض أو النفاس أو في طهر وقع فيه جماع هو طلاق بدعي محرم شرعا.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "كما يؤكد أن تطليق المرأة ثلاثا في لفظ واحد لا يجوز في الإسلام لنهي النبي صلى الله عليه وسلم وزجره عن ذلك.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "هذه الفتوى تبين أقسام الطلاق السني والبدعي والعدة، دون تفصيل أحكام النفقة والحضانة أثناء العدة وبعدها."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "The legislated divorce according to the Sunnah is to divorce the wife a single time during a period of purity without intercourse or while pregnant, and revocable divorce is allowed twice.",
+          "source_ids": [
+            "S88640000-0000-4000-a000-000000000001",
+            "Q2:229"
+          ]
+        },
+        {
+          "text": "The waiting period for a menstruating divorced woman is three menstrual cycles, and it is impermissible to issue three divorces at once or divorce during menstruation, postpartum bleeding, or after marital intimacy in purity.",
+          "source_ids": [
+            "S88640000-0000-4000-a000-000000000001",
+            "Q2:228"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Legislation of divorce, revocability, and the waiting period",
+          "sentences": [
+            {
+              "text": "The Holy Quran clarifies that revocable divorce is twice, and obligates divorced women to wait three menstrual cycles to verify non-pregnancy and protect lineage (2:228-229).",
+              "source_ids": [
+                "Q2:228",
+                "Q2:229"
+              ]
+            },
+            {
+              "text": "Sheikh Ibn Baz clarifies that divorce according to the Sunnah consists of divorcing the wife only once in a period of purity wherein no intimacy occurred, or during pregnancy.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Innovated and prohibited divorce",
+          "sentences": [
+            {
+              "text": "The scholar explains that divorcing during menstruation, postpartum bleeding, or a purity period where intercourse occurred is an innovated, unlawful divorce in Sharia.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "He also emphasizes that divorcing three times in a single pronouncement is not permitted in Islam because the Prophet strictly reprimanded it.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "This fatwa outlines the Sunnah and innovated divorce types and waiting period, without detailing rules on financial maintenance or child custody during and after the waiting period."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Die vorgeschriebene Scheidung gemäss der Sunna erfolgt durch ein einmaliges Aussprechen während einer Reinheitsphase ohne ehelichen Verkehr oder während der Schwangerschaft, und die widerrufliche Scheidung ist zweimal zulässig.",
+          "source_ids": [
+            "S88640000-0000-4000-a000-000000000001",
+            "Q2:229"
+          ]
+        },
+        {
+          "text": "Die Wartezeit für eine menstruierende geschiedene Frau beträgt drei Monatszyklen, und es ist unzulässig, dreimal auf einmal oder während der Periode, des Wochenbetts oder nach Verkehr in einer Reinheit zu scheiden.",
+          "source_ids": [
+            "S88640000-0000-4000-a000-000000000001",
+            "Q2:228"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Gesetzgebung der Scheidung, Widerruflichkeit und Wartezeit",
+          "sentences": [
+            {
+              "text": "Der Heilige Koran legt dar, dass die widerrufliche Scheidung zweimal gestattet ist, und verpflichtet geschiedene Frauen, drei Monatszyklen als Wartezeit einzuhalten (2:228-229).",
+              "source_ids": [
+                "Q2:228",
+                "Q2:229"
+              ]
+            },
+            {
+              "text": "Scheich Ibn Baz erläutert, dass die Scheidung gemäss der Sunna darin besteht, die Ehefrau nur ein einziges Mal in einer Reinheitsphase ohne vorherigen Verkehr oder während der Schwangerschaft zu scheiden.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Unerlaubte Neuerung bei der Scheidung",
+          "sentences": [
+            {
+              "text": "Der Gelehrte legt dar, dass eine Scheidung während der Menstruation, des Wochenbetts oder einer Reinheitsphase mit vorherigem Verkehr eine verbotene Neuerung im islamischen Recht darstellt.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "Er bekräftigt zudem, dass die dreifache Scheidung auf einmal im Islam unzulässig ist, da der Prophet dies ausdrücklich getadelt und untersagt hat.",
+              "source_ids": [
+                "S88640000-0000-4000-a000-000000000001"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Diese Fatwa behandelt die Formen der vorschriftsmässigen und unzulässigen Scheidung sowie die Wartezeit, ohne Einzelheiten zu Unterhalt und Sorgerecht während oder nach der Wartezeit zu erläutern."
+        }
+      ]
+    }
+  }
+}
