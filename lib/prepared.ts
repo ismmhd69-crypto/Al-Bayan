@@ -1,5 +1,4 @@
 import "server-only";
-import { unstable_rethrow } from "next/navigation";
 import type { Locale } from "@/lib/i18n";
 import { hadithAllowed, toEvidence, type Answer } from "@/lib/ask/core";
 import type { Source } from "@/lib/ask/retrieval";
@@ -38,7 +37,8 @@ export async function loadPrepared(file: PreparedFile, language: Locale, options
   try {
     return await build(file, language, options);
   } catch (err) {
-    unstable_rethrow(err); // Next.js page-rendering signals must pass through
+    // Next.js page-rendering signals must pass through (loaded here so scripts can use this file too).
+    (await import("next/navigation")).unstable_rethrow(err);
     // A source service is down or not configured (for example no Quran keys on this server): show nothing.
     console.error("prepared answer could not be loaded:", err instanceof Error ? err.message : "unknown error");
     return null;
