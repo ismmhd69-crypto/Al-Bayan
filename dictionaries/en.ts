@@ -156,6 +156,8 @@ const en = {
     accountNote: "Optional. Only to save your answers.",
     saved: "Saved answers",
     about: "How Bayan works",
+    support: "Support Bayan",
+    supportNote: "Help cover hosting and AI costs.",
     privacy: "Privacy",
     report: "Report a problem",
     reportNote: "Found a mistake? Tell us.",
@@ -173,6 +175,19 @@ const en = {
       ["Honest when unsure", "If no trusted source is found, Bayan says so instead of guessing."],
       ["Not a fatwa", "Answers explain what the scholars said. For your personal situation, ask a qualified scholar you trust."],
     ],
+  },
+  support: {
+    title: "Support Bayan",
+    intro:
+      "Bayan is a small independent project, built and run by one person. If it helps you, you can support it.",
+    points: [
+      ["What your support pays for", "Hosting, the AI that writes the answers, and the data services behind the site."],
+      ["Bayan stays free", "No ads, no paywall. Every page and every answer stays free for everyone, whether you give or not."],
+      ["Not zakat, not a charity", "Bayan is not a registered charity. Please do not pay your zakat here. Donations are not tax-deductible."],
+    ],
+    button: "Support on Buy Me a Coffee",
+    newTab: "opens in a new tab",
+    notReady: "The donation link is coming soon.",
   },
   privacy: {
     title: "Privacy",

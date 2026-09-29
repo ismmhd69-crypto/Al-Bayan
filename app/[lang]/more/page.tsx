@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Bookmark, ChevronRight, Flag, Info, Lock, UserRound, type LucideIcon } from "lucide-react";
+import { Bookmark, ChevronRight, Flag, HeartHandshake, Info, Lock, UserRound, type LucideIcon } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import LangSwitch from "@/components/LangSwitch";
 
@@ -25,6 +25,7 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
     ],
     [
       { Icon: Info, title: t.about, href: `/${lang}/about` },
+      { Icon: HeartHandshake, title: t.support, note: t.supportNote, href: `/${lang}/support` },
       { Icon: Lock, title: t.privacy, href: `/${lang}/privacy` },
       { Icon: Flag, title: t.report, note: `${t.reportNote} ${d.common.comingSoon}.` },
     ],

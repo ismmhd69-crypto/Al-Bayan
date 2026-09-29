@@ -158,6 +158,8 @@ const de: typeof en = {
     accountNote: "Freiwillig. Nur um Antworten zu speichern.",
     saved: "Gespeicherte Antworten",
     about: "Wie Bayan funktioniert",
+    support: "Bayan unterstützen",
+    supportNote: "Hilf bei den Kosten für Hosting und KI.",
     privacy: "Datenschutz",
     report: "Problem melden",
     reportNote: "Einen Fehler gefunden? Sag es uns.",
@@ -175,6 +177,19 @@ const de: typeof en = {
       ["Ehrlich, wenn unsicher", "Wenn keine vertrauenswürdige Quelle gefunden wird, sagt Bayan das, statt zu raten."],
       ["Keine Fatwa", "Antworten erklären, was die Gelehrten sagten. Für deine persönliche Situation frag einen qualifizierten Gelehrten, dem du vertraust."],
     ],
+  },
+  support: {
+    title: "Bayan unterstützen",
+    intro:
+      "Bayan ist ein kleines, unabhängiges Projekt, das von einer einzelnen Person gebaut und betrieben wird. Wenn es dir hilft, kannst du es unterstützen.",
+    points: [
+      ["Wofür deine Unterstützung verwendet wird", "Hosting, die KI, die die Antworten schreibt, und die Datendienste hinter der Seite."],
+      ["Bayan bleibt kostenlos", "Keine Werbung, keine Bezahlschranke. Jede Seite und jede Antwort bleibt für alle kostenlos, ob du spendest oder nicht."],
+      ["Keine Zakat, keine Wohltätigkeitsorganisation", "Bayan ist keine eingetragene gemeinnützige Organisation. Bitte zahle deine Zakat nicht hier. Spenden sind nicht steuerlich absetzbar."],
+    ],
+    button: "Auf Buy Me a Coffee unterstützen",
+    newTab: "öffnet sich in einem neuen Tab",
+    notReady: "Der Spendenlink kommt bald.",
   },
   privacy: {
     title: "Datenschutz",
