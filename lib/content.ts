@@ -132,7 +132,9 @@ export async function getScholarNames(): Promise<Record<string, { ar: string; en
 export type ReviewDecision = { status: "draft" | "approved" | "rejected"; note: string | null };
 
 /** Review decisions for prepared answers (public table, set on the review tab). */
-export async function getReviewDecisions(kind: "topic"): Promise<Record<string, ReviewDecision>> {
+export type ReviewKind = "topic" | "prepared";
+
+export async function getReviewDecisions(kind: ReviewKind): Promise<Record<string, ReviewDecision>> {
   const { data, error } = await supabase.from("prepared_reviews").select("item_id, status, note").eq("kind", kind);
   if (error) fail("review decisions", error);
   return Object.fromEntries(((data ?? []) as { item_id: string; status: ReviewDecision["status"]; note: string | null }[])
@@ -140,7 +142,7 @@ export async function getReviewDecisions(kind: "topic"): Promise<Record<string, 
 }
 
 /** Stores a review decision through the validating database function. */
-export async function setReviewDecision(kind: "topic", id: string, status: ReviewDecision["status"], note: string): Promise<boolean> {
+export async function setReviewDecision(kind: ReviewKind, id: string, status: ReviewDecision["status"], note: string): Promise<boolean> {
   const { error } = await supabase.rpc("set_prepared_review", { p_kind: kind, p_item_id: id, p_status: status, p_note: note });
   return !error;
 }

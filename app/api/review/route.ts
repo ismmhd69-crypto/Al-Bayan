@@ -3,6 +3,7 @@ import { revalidatePath } from "next/cache";
 import { locales } from "@/lib/i18n";
 import { setReviewDecision } from "@/lib/content";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
+import { PREPARED_ANSWERS } from "@/data/prepared-answers";
 
 // Stores a review decision from the review tab (Mo, 2026-09-29: public until launch) and refreshes the
 // topic page so an approved answer appears at once. Only known answer ids and fixed statuses are accepted.
@@ -28,11 +29,13 @@ export async function POST(request: Request) {
   } catch {
     body = null;
   }
-  const id = typeof body?.id === "string" && Object.hasOwn(TOPIC_ANSWERS, body.id) ? body.id : null;
+  const kind = body?.kind === "topic" || body?.kind === "prepared" ? body.kind : null;
+  const known = kind === "topic" ? TOPIC_ANSWERS : PREPARED_ANSWERS;
+  const id = kind && typeof body?.id === "string" && Object.hasOwn(known, body.id) ? body.id : null;
   const status = body?.status === "approved" || body?.status === "rejected" || body?.status === "draft" ? body.status : null;
   const note = typeof body?.note === "string" ? body.note.slice(0, 1000) : "";
-  if (body?.kind !== "topic" || !id || !status) return NextResponse.json({ status: "bad_request" }, { status: 400 });
-  if (!(await setReviewDecision("topic", id, status, note))) return NextResponse.json({ status: "error" }, { status: 502 });
-  for (const lang of locales) revalidatePath(`/${lang}/topics/${id}`);
+  if (!kind || !id || !status) return NextResponse.json({ status: "bad_request" }, { status: 400 });
+  if (!(await setReviewDecision(kind, id, status, note))) return NextResponse.json({ status: "error" }, { status: 502 });
+  if (kind === "topic") for (const lang of locales) revalidatePath(`/${lang}/topics/${id}`);
   return NextResponse.json({ status: "ok" });
 }

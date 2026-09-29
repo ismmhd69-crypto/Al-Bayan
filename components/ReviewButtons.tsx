@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 // Approve / Reject on the review tab. Sends only the status and an optional note.
-export default function ReviewButtons({ kind, id, status, next }: { kind: "topic"; id: string; status: string; next?: string }) {
+export default function ReviewButtons({ kind, id, status, next }: { kind: "topic" | "prepared"; id: string; status: string; next?: string }) {
   const [note, setNote] = useState("");
   const [state, setState] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const router = useRouter();

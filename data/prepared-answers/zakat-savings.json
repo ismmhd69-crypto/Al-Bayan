@@ -1,0 +1,227 @@
+{
+  "topic_id": "zakat-savings",
+  "status": "draft",
+  "researched_at": "2026-09-29T20:30:00+03:00",
+  "questions": {
+    "ar": [
+      "كيفية إخراج زكاة المال المدخر",
+      "ما هو نصاب ومقدار زكاة المدخرات",
+      "هل تجب الزكاة على المال المحفوظ في البنك",
+      "حكم زكاة الأموال المدخرة وحولان الحول عليها"
+    ],
+    "en": [
+      "How to calculate zakat on savings",
+      "What is the zakat rate on saved money",
+      "Do I have to pay zakat on bank savings",
+      "Conditions for zakat on savings in Islam"
+    ],
+    "de": [
+      "Wie berechnet man die Zakat auf Ersparnisse",
+      "Wie hoch ist die Zakat auf erspartes Geld",
+      "Muss man Zakat auf Bankguthaben zahlen",
+      "Bedingungen für Zakat auf Ersparnisse im Islam"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q9:34",
+      "kind": "quran",
+      "reference": "9:34",
+      "url": "https://quran.com/9/34"
+    },
+    {
+      "id": "Q9:103",
+      "kind": "quran",
+      "reference": "9:103",
+      "url": "https://quran.com/9/103"
+    },
+    {
+      "id": "S099b0a1a-9048-47b0-91da-96c4f5243bcc",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "حكم الزكاة في المال المدخر لحاجة",
+      "reference": "binbaz.org.sa, fatwa 5794",
+      "arabic": "وأفيدك، بأنه إذا كان لدى رجل نقود من المال تبلغ نصابًا، ومضى عليها حول وأخرجت زكاتها، ثم مضى عليها حول آخر، وجب على مالكها أن يخرج زكاتها، وهكذا كلما مضى عليها حول مادام أنها تبلغ النصاب. وفق الله الجميع لما فيه رضاه؛ إنه سميع مجيب.",
+      "url": "https://binbaz.org.sa/fatwas/5794/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D8%AF%D8%AE%D8%B1-%D9%84%D8%AD%D8%A7%D8%AC%D8%A9"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "تجب الزكاة في المال والنقود إذا بلغت النصاب الشرعي ومضى عليها حول كامل، ويجب على مالكها إخراج زكاتها كلما مضى عليها حول ما دامت بالغة للنصاب.",
+          "source_ids": [
+            "S099b0a1a-9048-47b0-91da-96c4f5243bcc",
+            "Q9:103"
+          ]
+        },
+        {
+          "text": "وقد حذر القرآن الكريم من كنز الأموال دون أداء حقها والإنفاق في سبيل الله، وأمر بأخذ الصدقة لتطهير أصحابها وتزكيتهم بها.",
+          "source_ids": [
+            "Q9:34",
+            "Q9:103"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "وجوب الزكاة في النقود عند بلوغ النصاب وحولان الحول",
+          "sentences": [
+            {
+              "text": "حذر القرآن الكريم من كنز الأموال والذهب والفضة دون أداء حق الله والإنفاق في سبيله (9:34).",
+              "source_ids": [
+                "Q9:34"
+              ]
+            },
+            {
+              "text": "وأمر الله نبيه بأخذ الصدقة من أموال الناس لتطهيرهم وتزكيتهم بها (9:103).",
+              "source_ids": [
+                "Q9:103"
+              ]
+            },
+            {
+              "text": "ويفيد الشيخ ابن باز بأنه إذا كان لدى المسلم نقود من المال تبلغ نصابا ومضى عليها حول وجب على مالكها أن يخرج زكاتها، وهكذا كلما مضى عليها حول آخر ما دامت بالغة للنصاب.",
+              "source_ids": [
+                "S099b0a1a-9048-47b0-91da-96c4f5243bcc"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "تكرار الوجوب في كل حول",
+          "sentences": [
+            {
+              "text": "يوضح الشيخ أن إخراج الزكاة يتكرر في كل عام يمضي على المال المدخر ما دام بالغا للنصاب الشرعي المحدد.",
+              "source_ids": [
+                "S099b0a1a-9048-47b0-91da-96c4f5243bcc"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "تبين هذه الفتوى وجوب الزكاة في النقود المدخرة البالغة للنصاب كلما دار عليها الحول، ولا تفصل المقادير الجزئية للعملات أو عروض التجارة."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "Zakat is obligatory on monetary funds once they reach the prescribed threshold (nisab) and one full year (hawl) has passed over them, and the owner must pay zakat whenever a year passes as long as the funds reach the threshold.",
+          "source_ids": [
+            "S099b0a1a-9048-47b0-91da-96c4f5243bcc",
+            "Q9:103"
+          ]
+        },
+        {
+          "text": "The Holy Quran warns against hoarding wealth without fulfilling its due right and spending in Allah's cause, and commands taking charity to purify and cleanse its owners.",
+          "source_ids": [
+            "Q9:34",
+            "Q9:103"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Obligation of zakat upon reaching the threshold and passage of one year",
+          "sentences": [
+            {
+              "text": "The Holy Quran warns against hoarding gold, silver, and monetary wealth without fulfilling Allah's right and spending in His cause (9:34).",
+              "source_ids": [
+                "Q9:34"
+              ]
+            },
+            {
+              "text": "Allah commands that charity be collected from people's wealth to purify and cleanse them (9:103).",
+              "source_ids": [
+                "Q9:103"
+              ]
+            },
+            {
+              "text": "Shaikh Ibn Baz explains that if a person possesses monetary funds reaching the threshold and a full year passes over them, the owner is obligated to pay their zakat, and likewise whenever another year passes as long as the funds reach the threshold.",
+              "source_ids": [
+                "S099b0a1a-9048-47b0-91da-96c4f5243bcc"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Recurrence of obligation each passing year",
+          "sentences": [
+            {
+              "text": "The scholar clarifies that the obligation to pay zakat recurs with every year that passes over the saved money as long as it continues to meet the legal threshold.",
+              "source_ids": [
+                "S099b0a1a-9048-47b0-91da-96c4f5243bcc"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "This verified ruling establishes the obligation of zakat on monetary savings whenever a year passes, without detailing specific modern currency rates or commercial trade goods."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Die Zakat ist auf erspartes Geld verpflichtend, sobald es den Mindestbetrag (Nisab) erreicht und ein volles Jahr (Hawl) darüber vergangen ist, und der Besitzer muss sie jedes Mal entrichten, wenn ein weiteres Jahr vergeht, solange der Betrag den Nisab erreicht.",
+          "source_ids": [
+            "S099b0a1a-9048-47b0-91da-96c4f5243bcc",
+            "Q9:103"
+          ]
+        },
+        {
+          "text": "Der Heilige Koran warnt davor, Vermögen anzuhäufen, ohne das gebührende Recht zu erfüllen und auf dem Wege Allahs auszugeben, und gebietet, eine Abgabe zur Reinigung und Läuterung der Besitzer zu nehmen.",
+          "source_ids": [
+            "Q9:34",
+            "Q9:103"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Voraussetzungen der Zakat-Pflicht bei Erreichen des Nisab und Ablauf eines Jahres",
+          "sentences": [
+            {
+              "text": "Der Heilige Koran warnt davor, Gold, Silber und Vermögen anzuhäufen, ohne die Pflichtabgabe zu entrichten und auf dem Wege Allahs auszugeben (9:34).",
+              "source_ids": [
+                "Q9:34"
+              ]
+            },
+            {
+              "text": "Allah gebot Seinem Propheten, von ihrem Besitz eine Abgabe zu nehmen, um sie dadurch zu reinigen und zu läutern (9:103).",
+              "source_ids": [
+                "Q9:103"
+              ]
+            },
+            {
+              "text": "Scheich Ibn Baz legt dar, dass der Besitzer verpflichtet ist, die Zakat zu entrichten, wenn er Geld besitzt, das den Nisab erreicht und ein Jahr darüber vergeht, und ebenso in jedem weiteren Jahr, solange das Geld den Nisab erreicht.",
+              "source_ids": [
+                "S099b0a1a-9048-47b0-91da-96c4f5243bcc"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Wiederkehrende Pflicht in jedem weiteren Jahr",
+          "sentences": [
+            {
+              "text": "Der Gelehrte verdeutlicht, dass die Pflicht zur Entrichtung der Zakat sich mit jedem Jahr wiederholt, das über den Ersparnissen vergeht, solange der Mindestbetrag erreicht bleibt.",
+              "source_ids": [
+                "S099b0a1a-9048-47b0-91da-96c4f5243bcc"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Dieses verifizierte Rechtsurteil begründet die Zakat-Pflicht auf Ersparnisse bei jährlicher Frist, ohne detaillierte Umrechnungskurse für Währungen oder Handelswaren aufzuführen."
+        }
+      ]
+    }
+  }
+}

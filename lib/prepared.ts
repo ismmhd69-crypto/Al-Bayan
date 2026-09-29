@@ -28,6 +28,7 @@ export type PreparedFile = {
   topic_id?: string;
   status: "draft" | "approved" | "rejected";
   review_note?: string;
+  questions?: Partial<Record<Locale, string[]>>; // common wordings (prepared answers only)
   sources: StoredSource[];
   answers: Record<Locale, LangAnswer>;
 };

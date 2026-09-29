@@ -1,0 +1,248 @@
+{
+  "topic_id": "how-to-wudu",
+  "status": "draft",
+  "researched_at": "2026-09-29T20:30:00+03:00",
+  "questions": {
+    "ar": [
+      "كيفية الوضوء الصحيح بالخطوات",
+      "ما هي خطوات الوضوء",
+      "صفة الوضوء الشرعي",
+      "كيف أتوضأ للصلاة بالتفصيل"
+    ],
+    "en": [
+      "How to make wudu step by step",
+      "What are the steps of ablution in Islam",
+      "How do I perform wudu correctly",
+      "Guide to performing Islamic ablution"
+    ],
+    "de": [
+      "Wie macht man Wudu Schritt für Schritt",
+      "Was sind die Schritte der Gebetswaschung im Islam",
+      "Wie vollzieht man den Wudu richtig",
+      "Anleitung zur Gebetswaschung"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q5:6",
+      "kind": "quran",
+      "reference": "5:6",
+      "url": "https://quran.com/5/6"
+    },
+    {
+      "id": "S40220000-0000-4000-a000-000000000003",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "بيان كيفية الوضوء والصلاة",
+      "reference": "binbaz.org.sa, fatwa 4022",
+      "arabic": "فيشرع للمتوضئ أن يسمي الله في أول الوضوء، وقد أوجب ذلك بعض أهل العلم مع الذكر، فإن نسي أو جهل فلا حرج، ثم يتمضمض ويستنشق ثلاث مرات، ويغسل وجهه ثلاثا، ثم يغسل يديه مع المرفقين ثلاثا يبدأ باليمنى ثم اليسرى، ثم يمسح رأسه وأذنيه مرة واحدة، ثم يغسل رجليه مع الكعبين ثلاث مرات يبدأ باليمنى وإن اقتصر على مرة أو مرتين فلا بأس؛ لأن النبي ﷺ توضأ مرة مرة ومرتين مرتين وثلاثا ثلاثا، وربما غسل بعض أعضائه مرتين وبعضها ثلاثا، وذلك يدل على أن الأمر فيه سعة والحمد لله، لكن التثليث أفضل.",
+      "url": "https://binbaz.org.sa/fatwas/4022/%D8%A8%D9%8A%D8%A7%D9%86-%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B6%D9%88%D8%A1-%D9%88%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "يشرع في الوضوء التسمية في أوله ثم المضمضة والاستنشاق ثلاث مرات وغسل الوجه ثلاثا.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003",
+            "Q5:6"
+          ]
+        },
+        {
+          "text": "ثم يغسل المتوضئ يديه مع المرفقين ثلاثا بدءا باليمنى، ويمسح رأسه وأذنيه مرة واحدة، ثم يغسل رجليه مع الكعبين ثلاثا بدءا باليمنى.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003",
+            "Q5:6"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "التسمية والمضمضة وغسل الوجه",
+          "sentences": [
+            {
+              "text": "يبين الشيخ ابن باز أنه يشرع للمتوضئ أن يسمي الله في أول وضوئه، وأنه إن نسي التسمية أو جهلها فلا حرج عليه.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003"
+              ]
+            },
+            {
+              "text": "ثم يتمضمض ويستنشق ثلاث مرات ويغسل وجهه ثلاثا استجابة لأمر القرآن بغسل الوجوه عند القيام إلى الصلاة (5:6).",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "غسل اليدين ومسح الرأس وغسل الرجلين",
+          "sentences": [
+            {
+              "text": "يغسل المتوضئ يديه مع المرفقين ثلاثا بادئا باليمنى ثم اليسرى امتثالا للأمر القرآني بغسل الأيدي إلى المرافق (5:6).",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            },
+            {
+              "text": "ثم يمسح رأسه وأذنيه مرة واحدة، ويغسل رجليه مع الكعبين ثلاث مرات بادئا بالرجل اليمنى.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            },
+            {
+              "text": "ويوضح الشيخ أن الاقتصار على مرة أو مرتين يجزئ، لكن غسل الأعضاء ثلاثا هو الأفضل تأسيا بالنبي.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "تبين هذه الفتوى الصفة الشرعية الأساسية لأعضاء الوضوء الواجبة والمستحبة، ولا تتطرق إلى تفاصيل المسح على الخفين والجبائر."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "Wudu begins by pronouncing the name of Allah at the start, followed by rinsing the mouth and sniffing water into the nose three times, and washing the face three times.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003",
+            "Q5:6"
+          ]
+        },
+        {
+          "text": "The worshiper then washes both arms including the elbows three times starting with the right, wipes over the head and ears once, and washes both feet including the ankles three times starting with the right.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003",
+            "Q5:6"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Basmalah, rinsing, and facial washing",
+          "sentences": [
+            {
+              "text": "Shaikh Ibn Baz explains that it is prescribed to pronounce the name of Allah at the beginning of wudu, and if one forgets or is ignorant of it, there is no sin.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003"
+              ]
+            },
+            {
+              "text": "The worshiper rinses the mouth and nose three times and washes the face three times, fulfilling the Quranic command to wash the face when preparing for prayer (5:6).",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Washing the arms, wiping the head, and washing the feet",
+          "sentences": [
+            {
+              "text": "The worshiper washes both arms including the elbows three times, starting with the right and then the left, fulfilling the Quranic directive to wash the hands to the elbows (5:6).",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            },
+            {
+              "text": "The worshiper wipes the head and ears once, and washes both feet including the ankles three times starting with the right foot.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            },
+            {
+              "text": "The scholar notes that washing once or twice is permissible, but washing each part three times is the most virtuous practice.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "This verified fatwa presents the standard procedure for washing the prescribed bodily limbs in ablution, without addressing the specific rules for wiping over leather socks or splints."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Der Wudu beginnt mit der Nennung des Namens Allahs zu Beginn, gefolgt vom dreimaligen Ausspülen des Mundes und Einziehen von Wasser in die Nase sowie dem dreimaligen Waschen des Gesichts.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003",
+            "Q5:6"
+          ]
+        },
+        {
+          "text": "Anschließend wäscht der Betende beide Arme einschließlich der Ellbogen dreimal beginnend mit dem rechten Arm, streicht einmal über den Kopf und die Ohren und wäscht beide Füße einschließlich der Knöchel dreimal beginnend mit dem rechten Fuß.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003",
+            "Q5:6"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Basmalah, Ausspülen und Waschen des Gesichts",
+          "sentences": [
+            {
+              "text": "Scheich Ibn Baz legt dar, dass es vorgeschrieben ist, zu Beginn des Wudu den Namen Allahs zu nennen, und dass kein Tadel darauf liegt, wenn man dies vergisst oder nicht wusste.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003"
+              ]
+            },
+            {
+              "text": "Danach spült der Betende Mund und Nase dreimal aus und wäscht das Gesicht dreimal, in Befolgung des koranischen Gebots zur Gesichtsreinigung vor dem Gebet (5:6).",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Waschen der Arme, Überstreichen des Kopfes und Waschen der Füße",
+          "sentences": [
+            {
+              "text": "Der Betende wäscht beide Arme einschließlich der Ellbogen dreimal, beginnend mit dem rechten und danach dem linken Arm, gemäß der koranischen Pflicht zum Waschen der Hände bis zu den Ellbogen (5:6).",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            },
+            {
+              "text": "Daraufhin streicht er einmal über Kopf und Ohren und wäscht beide Füße einschließlich der Knöchel dreimal, beginnend mit dem rechten Fuß.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003",
+                "Q5:6"
+              ]
+            },
+            {
+              "text": "Der Gelehrte erläutert, dass das einmalige oder zweimalige Waschen genügt, das dreimalige Waschen jedoch die vorzüglichste Vorgehensweise ist.",
+              "source_ids": [
+                "S40220000-0000-4000-a000-000000000003"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Diese verifizierte Fatwa behandelt den regulären Ablauf der rituellen Gebetswaschung der vorgeschriebenen Körperteile, ohne Sonderfälle wie das Überstreichen von Ledersocken oder Verbänden zu behandeln."
+        }
+      ]
+    }
+  }
+}

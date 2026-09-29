@@ -1,0 +1,290 @@
+{
+  "topic_id": "is-interest-haram",
+  "status": "draft",
+  "researched_at": "2026-09-29T20:30:00+03:00",
+  "questions": {
+    "ar": [
+      "هل فوائد البنوك والربا حرام",
+      "ما حكم الربا وفوائد القروض في الإسلام",
+      "أدلة تحريم الربا في القرآن والسنة",
+      "ما هي حقيقة الربا وحكم التعامل به"
+    ],
+    "en": [
+      "Is interest (riba) haram in Islam",
+      "Ruling on bank interest and usury in Islam",
+      "Why is riba forbidden in Islam",
+      "Evidence for the prohibition of interest in Islam"
+    ],
+    "de": [
+      "Sind Zinsen (Riba) im Islam haram",
+      "Urteil über Bankzinsen und Wucher im Islam",
+      "Warum sind Zinsen im Islam verboten",
+      "Beweise für das Zinsverbot im Islam"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q2:275",
+      "kind": "quran",
+      "reference": "2:275",
+      "url": "https://quran.com/2/275"
+    },
+    {
+      "id": "Q2:278",
+      "kind": "quran",
+      "reference": "2:278",
+      "url": "https://quran.com/2/278"
+    },
+    {
+      "id": "Q2:279",
+      "kind": "quran",
+      "reference": "2:279",
+      "url": "https://quran.com/2/279"
+    },
+    {
+      "id": "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "حقيقة الربا وحكمه",
+      "reference": "binbaz.org.sa, fatwa 9326",
+      "arabic": "الربا هو معاملة بين جنسين من غير قبض، أو من الجنس الواحد من غير تماثل ولا قبض، يقال له: ربا، إذا كان الجنسان من المكيل المطعوم، أو الموزون المطعوم، أو من الذهب والفضة، أو من العمل التي تقوم مقام الذهب والفضة، فإذا باع عملة بعملة مثلها زائدة هذا ربا، أو عام باع عملة بعملة غيرها لكن من غير تقابض يكون ربا، لابد من يد بيد، دولار بمائة سعودي يدًا بيد، دولار بجنيه عراقي يدًا بيد وهكذا.",
+      "url": "https://binbaz.org.sa/fatwas/9326/%D8%AD%D9%82%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7-%D9%88%D8%AD%D9%83%D9%85%D9%87"
+    }
+  ],
+  "answers": {
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "الربا محرم تحريما قاطعا بنصوص القرآن الكريم، وهو معاملة بين جنسين من غير قبض أو من الجنس الواحد بغير تماثل ولا قبض، كبيع عملة بعملة مثلها زائدة أو بغير تقابض.",
+          "source_ids": [
+            "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
+            "Q2:275"
+          ]
+        },
+        {
+          "text": "وقد أحل الله البيع والتجارة المشروعة وحرم الربا تحريما صريحا، وأمر بالتوبة وترك ما بقي من الربا (2:275).",
+          "source_ids": [
+            "Q2:275",
+            "Q2:278"
+          ]
+        },
+        {
+          "text": "وينذر القرآن من يصر على أكل الربا بحرب من الله ورسوله، ويجب في العملات النقدية التماثل والتقابض يدا بيد (2:279).",
+          "source_ids": [
+            "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
+            "Q2:279"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "التحريم القرآني للربا وحرب المرابين",
+          "sentences": [
+            {
+              "text": "يفرق القرآن الكريم بين البيع المباح والتعاملات الربوية، مقررا أن الله أحل البيع وحرم الربا (2:275).",
+              "source_ids": [
+                "Q2:275"
+              ]
+            },
+            {
+              "text": "ويأمر الله المؤمنين بتقواه وترك ما بقي من أموال الربا وأرباحه (2:278).",
+              "source_ids": [
+                "Q2:278"
+              ]
+            },
+            {
+              "text": "وينذر القرآن من يصر على الربا بحرب معلنة من الله ورسوله جزاء هذا الجرم (2:279).",
+              "source_ids": [
+                "Q2:279"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "حقيقة الربا وضوابط التعامل بالعملات",
+          "sentences": [
+            {
+              "text": "يوضح الشيخ ابن باز حقيقة الربا بأنه معاملة بين جنسين من غير قبض، أو من الجنس الواحد من غير تماثل ولا قبض.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            },
+            {
+              "text": "ويبين الشيخ أن العملات الورقية والنقدية تقوم مقام الذهب والفضة في جريان الربا فيها.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            },
+            {
+              "text": "فإذا بيعت عملة بعملة مثلها بزيادة فهو ربا، وإن بيعت بعملة مغايرة وجب التقابض يدا بيد كدولار بريالات أو دنانير.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "تبين هذه الفتوى حقيقة الربا وضوابطه الشرعية في النقدين والعملات الحديثة، ولا تتناول العقود التمويلية المعقدة كالتورق المنظم والصكوك الاستثمارية."
+        }
+      ]
+    },
+    "en": {
+      "direct_answer": [
+        {
+          "text": "Interest (riba) is categorically prohibited by clear texts of the Holy Quran, and it is a transaction between two different categories without handing over, or of the same category without equality or handing over, such as selling currency for the same currency with an increase or without spot exchange.",
+          "source_ids": [
+            "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
+            "Q2:275"
+          ]
+        },
+        {
+          "text": "Allah has permitted lawful trade and strictly prohibited interest, commanding believers to repent and abandon any outstanding interest (2:275).",
+          "source_ids": [
+            "Q2:275",
+            "Q2:278"
+          ]
+        },
+        {
+          "text": "The Quran warns those who insist on consuming interest of war from Allah and His Messenger, and currencies require equality and immediate hand-to-hand exchange (2:279).",
+          "source_ids": [
+            "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
+            "Q2:279"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "The Quranic prohibition of interest and warning of war",
+          "sentences": [
+            {
+              "text": "The Holy Quran draws a distinction between lawful trade and usurious transactions, stating that Allah has permitted trade and forbidden riba (2:275).",
+              "source_ids": [
+                "Q2:275"
+              ]
+            },
+            {
+              "text": "Allah commands believers to fear Him and give up what remains of interest and illicit gains (2:278).",
+              "source_ids": [
+                "Q2:278"
+              ]
+            },
+            {
+              "text": "The Quran delivers a proclamation of war from Allah and His Messenger against anyone who persists in dealing with interest (2:279).",
+              "source_ids": [
+                "Q2:279"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The reality of riba and currency exchange regulations",
+          "sentences": [
+            {
+              "text": "Shaikh Ibn Baz defines riba as a transaction between two different classes without immediate delivery, or within the same class without exact equality or exchange.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            },
+            {
+              "text": "The scholar explains that modern currencies take the legal place of gold and silver regarding the application of riba rules.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            },
+            {
+              "text": "Selling a currency for the same currency with an excess is riba, and trading one currency for another requires spot hand-to-hand exchange, such as exchanging dollars for riyals or other currencies.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "This verified fatwa explains the core nature of riba and legal rules governing currencies, without examining modern structured financial products such as organized tawarruq or investment sukuk."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Zinsen (Riba) sind durch klare Verse des Korans kategorisch verboten; Riba ist ein Tausch zwischen zwei verschiedenen Warengattungen ohne sofortige Übergabe oder innerhalb derselben Gattung ohne Gleichheit oder Übergabe, wie der Tausch einer Währung gegen dieselbe Währung mit Aufschlag oder ohne Zug-um-Zug-Übergabe.",
+          "source_ids": [
+            "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
+            "Q2:275"
+          ]
+        },
+        {
+          "text": "Allah hat den rechtmäßigen Kaufhandel erlaubt und das Zinsnehmen ausdrücklich verboten und geboten, verbleibende Zinsbeträge aufzugeben (2:275).",
+          "source_ids": [
+            "Q2:275",
+            "Q2:278"
+          ]
+        },
+        {
+          "text": "Der Koran droht jenen, die an Zinsen festhalten, Krieg von Allah und Seinem Gesandten an, und bei Währungsgeschäften ist Gleichwertigkeit und sofortige Hand-zu-Hand-Übergabe Pflicht (2:279).",
+          "source_ids": [
+            "Sa53d290c-21d7-4ae5-b9c1-d616d5add625",
+            "Q2:279"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Das koranische Zinsverbot und die Kriegsdrohung",
+          "sentences": [
+            {
+              "text": "Der Heilige Koran unterscheidet zwischen erlaubtem Handel und Zinsgeschäften, indem er festlegt, dass Allah den Handel erlaubt und Riba verboten hat (2:275).",
+              "source_ids": [
+                "Q2:275"
+              ]
+            },
+            {
+              "text": "Allah gebietet den Gläubigen, Ihn zu fürchten und alle verbliebenen Zinsforderungen fallen zu lassen (2:278).",
+              "source_ids": [
+                "Q2:278"
+              ]
+            },
+            {
+              "text": "Der Koran verkündet jenen, die unbelehrbar an Zinsgeschäften festhalten, eine Kriegserklärung von Allah und Seinem Gesandten (2:279).",
+              "source_ids": [
+                "Q2:279"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Das Wesen von Riba und Regeln für Geldwechselgeschäfte",
+          "sentences": [
+            {
+              "text": "Scheich Ibn Baz definiert Riba als ein Geschäft zwischen zwei verschiedenen Gattungen ohne sofortige Übergabe oder innerhalb derselben Gattung ohne Gleichheit und Übergabe.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            },
+            {
+              "text": "Der Gelehrte stellt klar, dass modernes Geld denselben Rechtsstatus wie Gold und Silber hinsichtlich der Riba-Regeln einnimmt.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            },
+            {
+              "text": "Wird eine Währung gegen dieselbe Währung mit Aufschlag getauscht, ist dies Riba, und beim Tausch verschiedener Währungen ist die sofortige Übergabe von Hand zu Hand erforderlich wie bei Dollar gegen Riyal.",
+              "source_ids": [
+                "Sa53d290c-21d7-4ae5-b9c1-d616d5add625"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Diese verifizierte Fatwa erläutert das Wesen von Riba und Regeln für Geldwechsel, ohne komplexe Finanzprodukte des modernen Bankwesens wie organisierte Tawarruq- oder Sukuk-Strukturen zu untersuchen."
+        }
+      ]
+    }
+  }
+}
