@@ -15,10 +15,10 @@ const items: { key: NavKey; path: string; Icon: LucideIcon; sidebarOnly?: boolea
   { key: "ask", path: "/ask", Icon: MessageCircle },
   { key: "topics", path: "/topics", Icon: CircleHelp },
   { key: "start", path: "/start", Icon: Compass },
-  { key: "more", path: "/more", Icon: Ellipsis },
   { key: "support", path: "/support", Icon: HeartHandshake, sidebarOnly: true },
   // Temporary, until launch: review of prepared answers (Mo, 2026-09-29).
   { key: "review", path: "/review", Icon: ClipboardCheck },
+  { key: "more", path: "/more", Icon: Ellipsis },
 ];
 
 export default function Shell({
