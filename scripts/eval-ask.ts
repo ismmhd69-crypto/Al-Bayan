@@ -14,7 +14,9 @@ try {
 }
 
 import { scoreAnswer } from "./eval-quality";
+import { writeFileSync } from "node:fs";
 import type { EvalQuestion } from "../data/eval-questions";
+import type { PassageForSelection, QuestionFrame } from "../lib/ask/retrieval";
 type Q = Pick<EvalQuestion, "id" | "lang" | "question"> & Partial<Omit<EvalQuestion, "id" | "lang" | "question">>;
 
 const BUILT_IN: Q[] = [
@@ -41,12 +43,15 @@ async function main() {
     questions = mod.EVAL_QUESTIONS ?? questions;
   }
   if (process.argv.includes("--focused")) questions = questions.filter((q) => q.focus);
+  if (process.argv.includes("--phase3")) questions = [...questions.slice(0, 30), ...questions.filter((q) => q.focus)];
   const id = process.argv.find((a) => a.startsWith("--id="))?.slice(5);
   if (id) questions = questions.filter((q) => q.id.includes(id));
   const only = process.argv.find((a) => a.startsWith("--only="))?.split("=")[1];
   if (only) questions = questions.filter((q) => q.lang === only);
   const limit = Number(process.argv.find((a) => a.startsWith("--limit="))?.split("=")[1] ?? Infinity);
   questions = questions.slice(0, limit);
+  const traceOutput = process.argv.find((a) => a.startsWith("--trace-output="))?.slice("--trace-output=".length);
+  const traceRows: unknown[] = [];
 
   // Reason codes are printed through console.info by the pipeline when ASK_DEBUG=true; capture them.
   process.env.ASK_DEBUG = "true";
@@ -63,8 +68,17 @@ async function main() {
     let outcome: string;
     let refs = "";
     let score = "";
+    let frame: QuestionFrame | undefined;
+    let retrieved: unknown;
+    let candidates: PassageForSelection[] = [];
+    let selection: unknown;
     try {
-      const r = await ask(q.question, q.lang);
+      const r = await ask(q.question, q.lang, traceOutput ? {
+        onFrame: (value) => { frame = value; },
+        onRetrieved: (value) => { retrieved = value; },
+        onCandidates: (value) => { candidates = value; },
+        onSelection: (value) => { selection = value; },
+      } : undefined);
       outcome = r.status === "answer" ? (r.answer.sourceOnly ? "source_only" : "answer") : r.status;
       if (r.status === "answer") refs = r.answer.evidence.map((e) => e.key.slice(0, 12)).join(" ");
       if (q.focus) {
@@ -78,6 +92,16 @@ async function main() {
     } finally {
       console.info = info;
     }
+    if (traceOutput) traceRows.push({
+      id: q.id, outcome, reasons: seen,
+      frame: frame ? { kind: frame.kind, type: frame.questionType, requirements: frame.requirements, searchQueries: frame.searchQueries } : null,
+      retrieved: retrieved ?? null,
+      candidates: candidates.map((candidate) => ({ id: candidate.id, kind: candidate.source.kind,
+        title: candidate.source.kind === "scholar" ? candidate.source.quote.title : null,
+        url: candidate.source.kind === "scholar" ? candidate.source.quote.url : candidate.source.kind === "quran" ? candidate.source.verse.url : candidate.source.hadith.url,
+      })),
+      selection: selection && typeof selection === "object" ? (selection as { assessments?: unknown }).assessments ?? null : null,
+    });
     const secs = Math.round((Date.now() - start) / 1000);
     const important = seen.filter((s) => !/^(video|scholar|hadith)_/.test(s));
     console.log(`${q.id.padEnd(16)} ${outcome.padEnd(12)} ${String(secs).padStart(3)}s  ${important.join(",")}  ${refs}${score}`);
@@ -86,6 +110,7 @@ async function main() {
   }
   console.log("\nOutcomes:", Object.fromEntries(tally));
   console.log("Reasons:", Object.fromEntries(reasons));
+  if (traceOutput) writeFileSync(traceOutput, JSON.stringify(traceRows, null, 2));
 }
 
 main().catch((err) => {

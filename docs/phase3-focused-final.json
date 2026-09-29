@@ -1,0 +1,1061 @@
+[
+  {
+    "id": "gold-zakat-conditions-amount-ar",
+    "outcome": "answer",
+    "reasons": [
+      "video_search_timeout"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Conditions for zakat on gold to be obligatory",
+          "facet": "conditions"
+        },
+        {
+          "id": "R2",
+          "text": "The amount or rate of zakat due on gold",
+          "facet": "quantity"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "conditions zakat gold obligatory nisab weight",
+          "zakat rate gold gram amount payable"
+        ],
+        "de": [
+          "Bedingungen Zakat Gold Nisab Gewicht",
+          "Zakat Betrag Gold Gramm fällig"
+        ],
+        "ar": [
+          "شروط وجوب الزكاة في الذهب النصاب",
+          "مقدار زكاة الذهب ربع العشر الجرامات"
+        ]
+      }
+    },
+    "retrieved": {
+      "hintIds": [
+        "gold-zakat-rate"
+      ],
+      "quran": [
+        "9:34",
+        "99:8",
+        "22:41",
+        "5:12",
+        "9:35",
+        "6:141",
+        "9:11",
+        "3:14",
+        "35:33",
+        "4:20",
+        "27:3",
+        "18:81",
+        "18:31",
+        "23:4",
+        "24:56",
+        "30:39"
+      ],
+      "hadith": [
+        "HE66129"
+      ],
+      "scholars": [
+        "https://binbaz.org.sa/fatwas/5743/مقدار-الزكاة-في-خمسة-وثمانين-جرامًا-من-الذهب"
+      ],
+      "scholarEnabled": true,
+      "scholarProblem": null
+    },
+    "candidates": [
+      {
+        "id": "Q9:34",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/34"
+      },
+      {
+        "id": "Q3:14",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/14"
+      },
+      {
+        "id": "Q4:20",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/20"
+      },
+      {
+        "id": "Q9:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/35"
+      },
+      {
+        "id": "Q35:33",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/35/33"
+      },
+      {
+        "id": "Q18:31",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/18/31"
+      },
+      {
+        "id": "Q6:141",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/6/141"
+      },
+      {
+        "id": "Q30:39",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/30/39"
+      },
+      {
+        "id": "HE66129",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66129"
+      },
+      {
+        "id": "Sb712fd13-ba46-16b3-45dd-05a7cae23bbd",
+        "kind": "scholar",
+        "title": "مقدار الزكاة في خمسة وثمانين جرامًا من الذهب",
+        "url": "https://binbaz.org.sa/fatwas/5743/مقدار-الزكاة-في-خمسة-وثمانين-جرامًا-من-الذهب"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q9:34",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:14",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:20",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:35",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q35:33",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q18:31",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q6:141",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q30:39",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66129",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sb712fd13-ba46-16b3-45dd-05a7cae23bbd",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "mercy-eternal-punishment-en",
+    "outcome": "no_source",
+    "reasons": [
+      "evidence_insufficient"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "objection",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "How eternal punishment in Hell is compatible with divine mercy",
+          "facet": "response"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "wisdom eternal punishment divine mercy justice",
+          "why hell eternal merciful god",
+          "justice of hellfire eternal punishment"
+        ],
+        "de": [
+          "ewige strafe hölle barmherzigkeit gottes",
+          "warum ewige hölle barmherzig"
+        ],
+        "ar": [
+          "حكمة الخلود في النار ورحمة الله",
+          "الجمع بين الرحمة والعذاب الأبدي",
+          "عدالة العذاب الأبدي في جهنم"
+        ]
+      }
+    },
+    "retrieved": {
+      "hintIds": [],
+      "quran": [
+        "6:147",
+        "2:163",
+        "4:135",
+        "33:66",
+        "54:45",
+        "29:54",
+        "10:52",
+        "17:8",
+        "7:159",
+        "59:17",
+        "18:58",
+        "43:74",
+        "57:13",
+        "66:1",
+        "16:90",
+        "59:3"
+      ],
+      "hadith": [
+        "HE5502",
+        "HE65036",
+        "HE66204",
+        "HE65657",
+        "HE3103",
+        "HE5433"
+      ],
+      "scholars": [
+        "https://binbaz.org.sa/fatwas/3217/%D9%85%D8%B9%D9%86%D9%89-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B1",
+        "https://binbaz.org.sa/fatwas/1135/%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B1"
+      ],
+      "scholarEnabled": true,
+      "scholarProblem": null
+    },
+    "candidates": [
+      {
+        "id": "Q57:13",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/57/13"
+      },
+      {
+        "id": "Q18:58",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/18/58"
+      },
+      {
+        "id": "Q29:54",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/29/54"
+      },
+      {
+        "id": "Q17:8",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/17/8"
+      },
+      {
+        "id": "Q43:74",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/43/74"
+      },
+      {
+        "id": "Q6:147",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/6/147"
+      },
+      {
+        "id": "Q2:163",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/163"
+      },
+      {
+        "id": "Q7:159",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/7/159"
+      },
+      {
+        "id": "HE3103",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3103"
+      },
+      {
+        "id": "HE5502",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5502"
+      },
+      {
+        "id": "HE65036",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65036"
+      },
+      {
+        "id": "S9669384f-ca5e-39fd-7ada-7e0025760eb0",
+        "kind": "scholar",
+        "title": "معنى الخلود في النار",
+        "url": "https://binbaz.org.sa/fatwas/3217/%D9%85%D8%B9%D9%86%D9%89-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B1"
+      },
+      {
+        "id": "S1052471d-a8b5-5b54-d9d0-2413efbd0a92",
+        "kind": "scholar",
+        "title": "أنواع الخلود في النار",
+        "url": "https://binbaz.org.sa/fatwas/1135/%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B1"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q57:13",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q18:58",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q29:54",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q17:8",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q43:74",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q6:147",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:163",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q7:159",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3103",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5502",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65036",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S9669384f-ca5e-39fd-7ada-7e0025760eb0",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S1052471d-a8b5-5b54-d9d0-2413efbd0a92",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "five-prayers-why-en",
+    "outcome": "no_source",
+    "reasons": [
+      "draft_model_no_answer"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "reason",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "The reason why Muslims are required to pray five times a day",
+          "facet": "reason"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "wisdom behind five daily prayers",
+          "reason for five prayers daily",
+          "obligation of five daily prayers"
+        ],
+        "de": [
+          "Sinn der fünf täglichen Gebete",
+          "Warum fünf Gebete am Tag"
+        ],
+        "ar": [
+          "حكمة تشريع الصوات الخمس",
+          "سبب فرض الصلوات الخمس اليومية"
+        ]
+      }
+    },
+    "retrieved": {
+      "hintIds": [],
+      "quran": [
+        "2:238",
+        "23:9",
+        "54:5",
+        "3:125",
+        "18:26",
+        "70:4",
+        "2:269",
+        "5:58",
+        "11:114",
+        "8:41",
+        "4:103",
+        "28:85",
+        "9:99",
+        "58:7",
+        "22:41",
+        "29:14"
+      ],
+      "hadith": [
+        "HE3591",
+        "HE4176",
+        "HE11286",
+        "HE5830"
+      ],
+      "scholars": [
+        "https://binbaz.org.sa/fatwas/20719/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D9%84%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D9%85%D8%B3"
+      ],
+      "scholarEnabled": true,
+      "scholarProblem": null
+    },
+    "candidates": [
+      {
+        "id": "Q58:7",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/58/7"
+      },
+      {
+        "id": "Q5:58",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/5/58"
+      },
+      {
+        "id": "Q4:103",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/103"
+      },
+      {
+        "id": "Q3:125",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/125"
+      },
+      {
+        "id": "Q70:4",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/70/4"
+      },
+      {
+        "id": "Q11:114",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/11/114"
+      },
+      {
+        "id": "Q8:41",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/8/41"
+      },
+      {
+        "id": "Q9:99",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/99"
+      },
+      {
+        "id": "HE3591",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3591"
+      },
+      {
+        "id": "HE11286",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/11286"
+      },
+      {
+        "id": "HE4176",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4176"
+      },
+      {
+        "id": "Sb3eedd2a-7a17-efe9-d855-b58e89e1e812",
+        "kind": "scholar",
+        "title": "حكم الترتيب في القضاء بين الصلوات الخمس",
+        "url": "https://binbaz.org.sa/fatwas/20719/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D9%84%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D9%85%D8%B3"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q58:7",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q5:58",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:103",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:125",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q70:4",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q11:114",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q8:41",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:99",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3591",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE11286",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4176",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sb3eedd2a-7a17-efe9-d855-b58e89e1e812",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "repentance-steps-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "The steps and conditions required to repent from a sin in Islam",
+          "facet": "steps"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "conditions of sincere repentance",
+          "turning back to God forgiveness"
+        ],
+        "de": [
+          "Bedingungen der aufrichtigen Reue",
+          "Vergebung nach Sünde bereuen"
+        ],
+        "ar": [
+          "شروط التوبة النصوحة",
+          "التوبة من الذنوب والاستغفار"
+        ]
+      }
+    },
+    "retrieved": {
+      "hintIds": [
+        "repentance-steps"
+      ],
+      "quran": [
+        "66:8",
+        "3:155",
+        "3:135",
+        "5:39",
+        "25:71",
+        "11:52",
+        "42:25",
+        "39:53",
+        "7:153",
+        "4:17",
+        "5:74",
+        "3:89",
+        "4:146",
+        "3:149",
+        "24:10",
+        "9:104"
+      ],
+      "hadith": [
+        "HE5365",
+        "HE3078",
+        "HE4706",
+        "HE3313",
+        "HE4196",
+        "HE4202",
+        "HE4817",
+        "HE65009"
+      ],
+      "scholars": [
+        "https://binbaz.org.sa/fatwas/18217/هل-يكفي-الندم-على-الذنب-والإقلاع-عنه-في-التوبة؟"
+      ],
+      "scholarEnabled": true,
+      "scholarProblem": null
+    },
+    "candidates": [
+      {
+        "id": "Q4:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/17"
+      },
+      {
+        "id": "Q42:25",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/42/25"
+      },
+      {
+        "id": "Q9:104",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/104"
+      },
+      {
+        "id": "Q3:135",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/135"
+      },
+      {
+        "id": "Q25:71",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/25/71"
+      },
+      {
+        "id": "Q11:52",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/11/52"
+      },
+      {
+        "id": "Q7:153",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/7/153"
+      },
+      {
+        "id": "Q3:89",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/89"
+      },
+      {
+        "id": "HE4817",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4817"
+      },
+      {
+        "id": "HE3078",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3078"
+      },
+      {
+        "id": "HE3313",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3313"
+      },
+      {
+        "id": "Sf86baae0-81fe-d690-ceb7-e7f16b65d0bb",
+        "kind": "scholar",
+        "title": "هل يكفي الندم على الذنب والإقلاع عنه في التوبة؟",
+        "url": "https://binbaz.org.sa/fatwas/18217/هل-يكفي-الندم-على-الذنب-والإقلاع-عنه-في-التوبة؟"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q4:17",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q42:25",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:104",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:135",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q25:71",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q11:52",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q7:153",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:89",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4817",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3078",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3313",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sf86baae0-81fe-d690-ceb7-e7f16b65d0bb",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "conversion-guidance-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Steps required to become a Muslim",
+          "facet": "steps"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "testimony of faith declaration",
+          "how to enter Islam steps",
+          "pronounce the Shahada meaning"
+        ],
+        "de": [
+          "Schahada sprechen Schritte",
+          "Muslim werden Glaubensbekenntnis",
+          "Konversion zum Islam Ablauf"
+        ],
+        "ar": [
+          "الدخول في الإسلام الشهادتين",
+          "كيف أكون مسلما خطوات"
+        ]
+      }
+    },
+    "retrieved": {
+      "hintIds": [
+        "conversion"
+      ],
+      "quran": [
+        "78:38",
+        "72:14",
+        "3:85",
+        "24:21",
+        "70:33",
+        "3:46",
+        "22:78",
+        "49:17",
+        "61:7",
+        "39:12",
+        "5:107",
+        "49:2",
+        "12:101",
+        "6:125",
+        "3:19",
+        "2:208"
+      ],
+      "hadith": [
+        "HE66512",
+        "HE6468"
+      ],
+      "scholars": [
+        "https://binbaz.org.sa/fatwas/1158/وجوب-التصديق-مع-الشهادتين"
+      ],
+      "scholarEnabled": true,
+      "scholarProblem": null
+    },
+    "candidates": [
+      {
+        "id": "Q24:21",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/24/21"
+      },
+      {
+        "id": "Q39:12",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/39/12"
+      },
+      {
+        "id": "Q12:101",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/12/101"
+      },
+      {
+        "id": "Q2:208",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/208"
+      },
+      {
+        "id": "Q78:38",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/78/38"
+      },
+      {
+        "id": "Q72:14",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/72/14"
+      },
+      {
+        "id": "Q3:85",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/85"
+      },
+      {
+        "id": "Q70:33",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/70/33"
+      },
+      {
+        "id": "HE66512",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66512"
+      },
+      {
+        "id": "HE6468",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/6468"
+      },
+      {
+        "id": "S1ed484d5-7026-699a-2a77-3242321b31e1",
+        "kind": "scholar",
+        "title": "وجوب التصديق مع الشهادتين",
+        "url": "https://binbaz.org.sa/fatwas/1158/وجوب-التصديق-مع-الشهادتين"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q24:21",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q39:12",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q12:101",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:208",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q78:38",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q72:14",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:85",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q70:33",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66512",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE6468",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S1ed484d5-7026-699a-2a77-3242321b31e1",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  }
+]

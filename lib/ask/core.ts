@@ -18,6 +18,7 @@ import type { AIProvider } from "@/lib/ai/types";
 import { ATTRIBUTION, TRANSLATIONS, type Verse } from "@/lib/sources/quran-meta";
 import { scholarQuoteAllowed, type ScholarQuote } from "@/lib/sources/scholar-rules";
 import { approvedChannelIds } from "@/lib/sources/youtube-channels";
+import { matchingTopicHints } from "@/data/topic-source-hints";
 import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
 import {
   acceptableGrade,
@@ -45,8 +46,10 @@ import {
   parseEvidencePackage,
   parseQuestionFrame,
   questionFrameMismatch,
+  rankCandidatesForQuestion,
   type EvidencePackage,
   type PassageForSelection,
+  type QuestionFrame,
   type Source,
 } from "./retrieval";
 
@@ -110,20 +113,28 @@ export type PipelineDeps = {
   searchHadith?: (queries: Partial<Record<Locale, string[]>>) => Promise<Hadith[]>;
   hadithTimeoutMs?: number;
   // Optional third source: short quotes of approved scholars, searched with Arabic phrases.
-  searchScholars?: (arabicPhrases: string[]) => Promise<ScholarQuote[]>;
+  searchScholars?: (arabicPhrases: string[], mappedUrls?: string[]) => Promise<ScholarQuote[]>;
+  getHadith?: (id: string) => Promise<Hadith | null>;
   // Optional: related videos from the approved YouTube channels, matched by title. Shown under a
   // finished answer only, never given to the models and never used as evidence.
   searchVideos?: (arabicPhrases: string[]) => Promise<VideoSuggestion[]>;
   deadlineMs?: number;
   onRefuse?: (reason: string) => void; // reason codes only, never the question
   onStep?: (step: string, elapsedMs: number) => void; // step names and timings only, for local debugging
+  onFrame?: (frame: QuestionFrame) => void; // local evaluation only; never logs visitor text
+  onRetrieved?: (result: { hintIds: string[]; quran: string[]; hadith: string[]; scholars: string[]; scholarEnabled: boolean; scholarProblem: string | null }) => void;
+  onCandidates?: (candidates: PassageForSelection[]) => void;
+  onSelection?: (raw: unknown) => void;
 };
 
 // Remote sources: a small, well-planned candidate set keeps one question within the deadline.
 // The future local licensed library can retrieve a wider set before this gate.
 const MAX_QURAN_CANDIDATES = 8;
+const MAX_QURAN_SEARCH_CANDIDATES = 16;
 const MAX_HADITH_CANDIDATES = 3;
-const MAX_SCHOLAR_CANDIDATES = 4; // up to 2 from the stored library + live quotes
+const MAX_HADITH_SEARCH_CANDIDATES = 8;
+const MAX_SCHOLAR_CANDIDATES = 4;
+const MAX_SCHOLAR_SEARCH_CANDIDATES = 8;
 const MAX_VIDEO_CANDIDATES = 12;
 const MAX_VIDEOS = 2;
 const VIDEO_RELEVANCE_TIMEOUT_MS = 4_000;
@@ -399,14 +410,15 @@ async function hadithCandidates(
 async function scholarCandidates(
   deps: PipelineDeps,
   arabicPhrases: string[],
+  mappedUrls: string[] = [],
 ): Promise<{ quotes: ScholarQuote[]; problem: string | null }> {
-  if (!deps.searchScholars || arabicPhrases.length === 0) return { quotes: [], problem: null };
+  if (!deps.searchScholars || (arabicPhrases.length === 0 && mappedUrls.length === 0)) return { quotes: [], problem: null };
   let timer: ReturnType<typeof setTimeout> | undefined;
   const timeout = new Promise<"timeout">((resolve) => {
     timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
   });
   try {
-    const result = await Promise.race([deps.searchScholars(arabicPhrases), timeout]);
+    const result = await Promise.race([deps.searchScholars(arabicPhrases, mappedUrls), timeout]);
     if (result === "timeout") return { quotes: [], problem: "scholar_search_timeout" };
     const allowed = result.filter(scholarQuoteAllowed);
     return { quotes: allowed, problem: allowed.length < result.length ? "scholar_dropped_by_rules" : null };
@@ -545,6 +557,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }
   step("frame");
   if (!frame || frameProblem(frame)) return refuse("question_frame_invalid", uiLanguage);
+  deps.onFrame?.(frame);
   if (frame.kind === "greeting" || frame.kind === "off_topic" || frame.kind === "harmful") {
     return { status: "out_of_scope", language: frame.language };
   }
@@ -559,40 +572,65 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // 3. Retrieve candidates. Search phrases improve recall but are never treated as evidence.
   const queries = buildSearchQueries(frame);
   const direct = directRefs(question);
-  if (queries.length === 0 && direct.length === 0) return refuse("query_plan_empty", language);
+  const hints = matchingTopicHints(question);
+  const mappedQuran = [...new Set(hints.flatMap((hint) => hint.quran))];
+  const mappedHadith = [...new Set(hints.flatMap((hint) => hint.hadith))];
+  const mappedFatwas = [...new Set(hints.flatMap((hint) => hint.fatwas))];
+  if (queries.length === 0 && direct.length === 0 && mappedQuran.length === 0 && mappedHadith.length === 0 && mappedFatwas.length === 0) return refuse("query_plan_empty", language);
   // Quran and hadith are searched at the same time. Hadith use the English phrases (plus the
   // English subject names) on the English list and the Arabic phrases on the Arabic list.
   const [found, hadithResult, scholarResult, videoResult] = await Promise.all([
-    deps.search(queries, MAX_QURAN_CANDIDATES),
+    deps.search(queries, MAX_QURAN_SEARCH_CANDIDATES),
     hadithCandidates(deps, {
       en: [...(frame.searchQueries.en ?? []), ...frame.subjects],
       ar: frame.searchQueries.ar ?? [],
     }),
-    scholarCandidates(deps, frame.searchQueries.ar ?? []),
+    scholarCandidates(deps, frame.searchQueries.ar ?? [], mappedFatwas),
     videoCandidates(deps, frame.searchQueries.ar ?? []),
   ]);
   if (videoResult.problem) deps.onRefuse?.(videoResult.problem); // reason code only; the answer continues
   if (scholarResult.problem) deps.onRefuse?.(scholarResult.problem); // reason code only; the answer continues
   step("search");
   if (hadithResult.problem) deps.onRefuse?.(hadithResult.problem); // reason code only; the answer continues
-  const keys = [...new Set([...direct, ...found])].slice(0, MAX_QURAN_CANDIDATES);
+  const keys = [...new Set([...direct, ...mappedQuran, ...found])].slice(0, MAX_QURAN_SEARCH_CANDIDATES);
   const verses = (await Promise.all(keys.map((k) => deps.getVerse(k))))
     .filter((v): v is Verse => !!v);
-  const hadith = hadithResult.hadith.slice(0, MAX_HADITH_CANDIDATES);
-  const quotes = scholarResult.quotes.slice(0, MAX_SCHOLAR_CANDIDATES);
+  const mappedHadithRecords = deps.getHadith
+    ? (await Promise.all(mappedHadith.slice(0, 3).map((id) => deps.getHadith!(id.replace(/^HE/, "")).catch(() => null))))
+      .filter((item): item is Hadith => !!item && hadithAllowed(item))
+    : [];
+  const hadith = [...new Map([...mappedHadithRecords, ...hadithResult.hadith].map((item) => [item.id, item])).values()]
+    .slice(0, MAX_HADITH_SEARCH_CANDIDATES);
+  const quotes = scholarResult.quotes.slice(0, MAX_SCHOLAR_SEARCH_CANDIDATES);
+  deps.onRetrieved?.({ hintIds: hints.map((hint) => hint.id), quran: verses.map((verse) => verse.key),
+    hadith: hadith.map((item) => item.id), scholars: quotes.map((quote) => quote.url),
+    scholarEnabled: !!deps.searchScholars, scholarProblem: scholarResult.problem });
   if (verses.length === 0 && hadith.length === 0 && quotes.length === 0) return refuse("search_empty", language);
 
   // 4. The independent model classifies every candidate with its own local context. Code seals
   // only direct, context-safe passages and requires evidence for every requested point.
-  const candidates: PassageForSelection[] = [
-    ...(await Promise.all(verses.map(async (verse) => ({
+  const allCandidates: PassageForSelection[] = [
+    ...verses.map((verse) => ({
       id: `Q${verse.key}`,
       source: verseSource(verse),
-      context: (await deps.neighbours(verse.key)).filter((near) => near.key !== verse.key),
-    })))),
+      context: [],
+    })),
     ...hadith.map((h) => ({ id: h.id, source: { kind: "hadith", hadith: h } as Source, context: [] })),
     ...quotes.map((q) => ({ id: q.id, source: { kind: "scholar", quote: q } as Source, context: [] })),
   ];
+  const mappedIds = new Set([
+    ...direct.map((key) => `Q${key}`), ...mappedQuran.map((key) => `Q${key}`),
+    ...mappedHadith, ...quotes.filter((quote) => mappedFatwas.includes(quote.url)).map((quote) => quote.id),
+  ]);
+  const ranked = rankCandidatesForQuestion(frame, allCandidates, mappedIds, {
+    quran: MAX_QURAN_CANDIDATES, hadith: MAX_HADITH_CANDIDATES, scholar: MAX_SCHOLAR_CANDIDATES,
+  });
+  const candidates = await Promise.all(ranked.map(async (candidate) => {
+    if (candidate.source.kind !== "quran") return candidate;
+    const key = candidate.source.verse.key;
+    return { ...candidate, context: (await deps.neighbours(key)).filter((near) => near.key !== key) };
+  }));
+  deps.onCandidates?.(candidates);
   step("sources_fetched");
   const selected = await deps.verifier.generateJson({
     system: EVIDENCE_SYSTEM,
@@ -636,6 +674,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       required: ["status", "coverage", "conflict", "assessments"],
     },
   });
+  deps.onSelection?.(selected);
   step(`selection(${candidates.length} candidates)`);
   const evidencePackage = parseEvidencePackage(selected, frame, candidates);
   if (!evidencePackage) return refuse("evidence_insufficient", language);

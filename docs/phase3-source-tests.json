@@ -1,0 +1,151 @@
+{
+  "quran": [
+    {
+      "id": "fasting",
+      "expected": "2:183",
+      "rank": 1,
+      "returned": 16,
+      "top": [
+        "2:183",
+        "2:184",
+        "2:185",
+        "2:187",
+        "5:89",
+        "58:4",
+        "2:196",
+        "33:35"
+      ]
+    },
+    {
+      "id": "riba",
+      "expected": "2:275",
+      "rank": 2,
+      "returned": 16,
+      "top": [
+        "2:278",
+        "2:275",
+        "3:130",
+        "30:39",
+        "4:161",
+        "2:276",
+        "2:281",
+        "2:279"
+      ]
+    },
+    {
+      "id": "prayer-timing",
+      "expected": "4:103",
+      "rank": 2,
+      "returned": 16,
+      "top": [
+        "24:58",
+        "4:103",
+        "17:78",
+        "2:238",
+        "4:101",
+        "11:114",
+        "4:102",
+        "24:59"
+      ]
+    },
+    {
+      "id": "repentance",
+      "expected": "66:8",
+      "rank": 1,
+      "returned": 16,
+      "top": [
+        "66:8",
+        "19:60",
+        "25:68",
+        "25:71",
+        "25:69",
+        "7:153",
+        "25:70",
+        "2:37"
+      ]
+    }
+  ],
+  "hadith": [
+    {
+      "id": "intention",
+      "expected": "HE66511",
+      "rank": 1,
+      "returned": 1,
+      "top": [
+        "HE66511"
+      ]
+    },
+    {
+      "id": "pillars",
+      "expected": "HE66512",
+      "rank": 0,
+      "returned": 0,
+      "top": []
+    },
+    {
+      "id": "conversion",
+      "expected": "HE66512",
+      "rank": 0,
+      "returned": 0,
+      "top": []
+    },
+    {
+      "id": "five-prayers",
+      "expected": null,
+      "rank": null,
+      "returned": 2,
+      "top": [
+        "HE3591",
+        "HE4176"
+      ]
+    }
+  ],
+  "stored": [
+    {
+      "id": "gold-rate",
+      "returned": 0,
+      "direct": 0,
+      "titles": []
+    },
+    {
+      "id": "repentance-steps",
+      "returned": 0,
+      "direct": 0,
+      "titles": []
+    },
+    {
+      "id": "conversion-shahada",
+      "returned": 0,
+      "direct": 0,
+      "titles": []
+    }
+  ],
+  "live": [
+    {
+      "id": "gold-rate",
+      "returned": 2,
+      "direct": 2,
+      "titles": [
+        "مقدار الزكاة في خمسة وثمانين جرامًا من الذهب",
+        "حكم الزكاة في خمسة وثمانين جرامًا من الذهب ومقدارها"
+      ],
+      "mappedDirect": true
+    },
+    {
+      "id": "repentance-steps",
+      "returned": 1,
+      "direct": 1,
+      "titles": [
+        "هل يكفي الندم على الذنب والإقلاع عنه في التوبة؟"
+      ],
+      "mappedDirect": true
+    },
+    {
+      "id": "conversion-shahada",
+      "returned": 0,
+      "direct": 0,
+      "titles": [],
+      "mappedDirect": true
+    }
+  ]
+}

@@ -194,6 +194,41 @@ export type PassageForSelection = {
   context: Verse[]; // neighbouring verses; empty for hadith and scholar quotes, which stand on their own
 };
 
+function searchWords(text: string): string[] {
+  return [...new Set((text.toLowerCase().normalize("NFKD").replace(/[\u064b-\u065f]/g, "").match(/[\p{L}\p{M}]{3,}/gu) ?? [])
+    .filter((word) => !GENERIC_SEARCH_WORDS.has(word)))];
+}
+
+/** Ranks a wider retrieved set before the independent evidence selector sees it. */
+export function rankCandidatesForQuestion(
+  frame: QuestionFrame,
+  candidates: PassageForSelection[],
+  mappedIds: ReadonlySet<string>,
+  limits: { quran: number; hadith: number; scholar: number },
+): PassageForSelection[] {
+  const requested = frame.requirements.map((point) => searchWords(point.text));
+  const arabic = searchWords((frame.searchQueries.ar ?? []).join(" "));
+  const scored = candidates.map((candidate, index) => {
+    const source = candidate.source;
+    const main = source.kind === "quran"
+      ? [source.verse.translations.en, source.verse.translations.de, source.verse.arabicPlain]
+      : source.kind === "hadith"
+        ? [source.hadith.translations.en, source.hadith.translations.de, source.hadith.arabic]
+        : [source.quote.title, source.quote.arabic];
+    const words = new Set(searchWords(main.filter(Boolean).join(" ")));
+    const pointScores = requested.map((point) => point.filter((word) => words.has(word)).length);
+    const coverage = pointScores.filter((score) => score > 0).length;
+    const score = (mappedIds.has(candidate.id) ? 100 : 0)
+      + coverage * 8 + pointScores.reduce((sum, item) => sum + item, 0) * 2
+      + arabic.filter((word) => words.has(word)).length * 2;
+    return { candidate, index, score };
+  });
+  const kinds = ["quran", "hadith", "scholar"] as const;
+  return kinds.flatMap((kind) => scored.filter((item) => item.candidate.source.kind === kind)
+    .sort((a, b) => b.score - a.score || a.index - b.index)
+    .slice(0, limits[kind]).map((item) => item.candidate));
+}
+
 export type SelectedPassage = PassageForSelection & { requirementIds: string[]; facets: AnswerFacet[] };
 
 export type EvidencePackage = {

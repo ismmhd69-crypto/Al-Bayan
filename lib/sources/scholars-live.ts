@@ -76,6 +76,7 @@ function liveId(url: string): string {
 }
 
 const cache = new Map<string, { at: number; quotes: ScholarQuote[] }>();
+const mappedCache = new Map<string, { at: number; quote: ScholarQuote }>();
 
 async function get(url: string, init?: RequestInit): Promise<Response | null> {
   try {
@@ -84,6 +85,27 @@ async function get(url: string, init?: RequestInit): Promise<Response | null> {
   } catch {
     return null;
   }
+}
+
+/** Loads only a checked official fatwa URL. A mapped page is still just a candidate. */
+export async function getMappedScholarQuote(url: string): Promise<ScholarQuote | null> {
+  let parsed: URL;
+  try { parsed = new URL(url); } catch { return null; }
+  if (parsed.protocol !== "https:" || parsed.hostname !== "binbaz.org.sa"
+    || !/^\/fatwas\/\d+\/[^/]+$/.test(parsed.pathname) || parsed.search || parsed.hash) return null;
+  const hit = mappedCache.get(url);
+  if (hit && Date.now() - hit.at < CACHE_MS) return hit.quote;
+  const response = await get(url);
+  const fatwa = response ? parseBinBazFatwa(await response.text()) : null;
+  const quote = fatwa ? excerpt(fatwa.answer) : null;
+  const result: ScholarQuote | null = fatwa && goodQuote(fatwa.title, quote)
+    ? { id: liveId(url), scholarId: "ibn-baz", scholarName: { ...NAMES["ibn-baz"] },
+      title: fatwa.title, reference: printedCollection(fatwa.printedSource)?.reference ?? `binbaz.org.sa, fatwa ${parsed.pathname.split("/")[2]}`,
+      arabic: quote, url }
+    : null;
+  // A transient network or parsing failure must not hide a checked hint for a full day.
+  if (result) mappedCache.set(url, { at: Date.now(), quote: result });
+  return result;
 }
 
 function goodQuote(title: string, quote: string | null): quote is string {

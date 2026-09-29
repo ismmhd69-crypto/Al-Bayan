@@ -1,6 +1,6 @@
 import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import { searchQueryLevels, type ScholarQuote } from "./scholar-rules";
+import { isScholarTitleRelevant, searchQueryLevels, type ScholarQuote } from "./scholar-rules";
 
 // Reads the private scholar quote library (collected short quotes, see scripts/collect-binbaz.ts).
 // The library is not public, so this runs on the server only, with the secret key.
@@ -62,6 +62,7 @@ export async function searchScholarQuotes(phrases: string[], limit = 3): Promise
   return ids
     .map((id) => byId.get(id))
     .filter((r): r is SourceRow => !!r && !!r.scholar_id && !!r.scholars)
+    .filter((r) => isScholarTitleRelevant(phrases, r.title))
     .map((r) => ({
       id: `S${r.id}`,
       scholarId: r.scholar_id!,

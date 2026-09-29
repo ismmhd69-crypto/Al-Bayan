@@ -4,6 +4,7 @@ import {
   parseEvidencePackage,
   parseQuestionFrame,
   questionFrameMismatch,
+  rankCandidatesForQuestion,
   type PassageForSelection,
 } from "@/lib/ask/retrieval";
 import type { Verse } from "@/lib/sources/quran-meta";
@@ -38,6 +39,14 @@ const candidates: PassageForSelection[] = [
 ];
 
 describe("structured retrieval", () => {
+  it("ranks a mapped direct candidate above a mere keyword match without enlarging the selector input", () => {
+    const items: PassageForSelection[] = [
+      { id: "Q2:1", source: { kind: "quran", verse: verse("2:1", "Gold is mentioned here") }, context: [] },
+      { id: "Q2:2", source: { kind: "quran", verse: verse("2:2", "The amount due is stated here") }, context: [] },
+    ];
+    const ranked = rankCandidatesForQuestion(frame, items, new Set(["Q2:2"]), { quran: 1, hadith: 0, scholar: 0 });
+    expect(ranked.map((item) => item.id)).toEqual(["Q2:2"]);
+  });
   it("catches a gold zakat threshold substituted for the amount due", () => {
     const wrong = { ...frame, requirements: [
       { id: "R1", facet: "conditions" as const, text: "conditions for gold zakat" },

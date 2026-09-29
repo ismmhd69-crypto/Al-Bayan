@@ -1,0 +1,6448 @@
+[
+  {
+    "id": "fasting-obligation-ar",
+    "outcome": "source_only",
+    "reasons": [
+      "source_only_after_draft_copied_source"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Is fasting Ramadan obligatory for every Muslim",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "Ramadan fasting obligatory every Muslim",
+          "obligation of fasting month of Ramadan"
+        ],
+        "de": [
+          "Fasten im Ramadan Pflicht für Muslime",
+          "Ramadan fasten Verpflichtung"
+        ],
+        "ar": [
+          "فرض صيام رمضان على كل مسلم",
+          "وجوب صيام شهر رمضان"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:185",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/185"
+      },
+      {
+        "id": "Q33:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/35"
+      },
+      {
+        "id": "Q2:184",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/184"
+      },
+      {
+        "id": "Q2:183",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/183"
+      },
+      {
+        "id": "Q4:92",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/92"
+      },
+      {
+        "id": "Q2:187",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/187"
+      },
+      {
+        "id": "Q2:196",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/196"
+      },
+      {
+        "id": "Q2:197",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/197"
+      },
+      {
+        "id": "HE66525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66525"
+      },
+      {
+        "id": "HE4538",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4538"
+      },
+      {
+        "id": "HE3689",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3689"
+      },
+      {
+        "id": "S042eea0c-4574-4497-9cd4-80d54af3a434",
+        "kind": "scholar",
+        "title": "المشروع تقديم القضاء على صوم الست",
+        "url": "https://binbaz.org.sa/fatwas/12670/%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%B9%D9%84%D9%89-%D8%B5%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%AA"
+      },
+      {
+        "id": "Scc3802f6-ed16-4da6-a26f-8652c5dcc25d",
+        "kind": "scholar",
+        "title": "حكم صيام النفل قبل صيام قضاء الفرض",
+        "url": "https://binbaz.org.sa/fatwas/1792/%D8%AD%D9%83%D9%85-%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%86%D9%81%D9%84-%D9%82%D8%A8%D9%84-%D8%B5%D9%8A%D8%A7%D9%85-%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D8%B1%D8%B6"
+      },
+      {
+        "id": "S11246688-990a-2996-4d0d-583555a0738b",
+        "kind": "scholar",
+        "title": "على من يجب صيام رمضان؟ وفضل صيام التطوع",
+        "url": "https://binbaz.org.sa/fatwas/11348/%D8%B9%D9%84%D9%89-%D9%85%D9%86-%D9%8A%D8%AC%D8%A8-%D8%B5%D9%8A%D8%A7%D9%85-%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D8%9F-%D9%88%D9%81%D8%B6%D9%84-%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B9"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:185",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:35",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:184",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:183",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:92",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:187",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:196",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:197",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66525",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4538",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3689",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S042eea0c-4574-4497-9cd4-80d54af3a434",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Scc3802f6-ed16-4da6-a26f-8652c5dcc25d",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S11246688-990a-2996-4d0d-583555a0738b",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "fasting-obligation-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Whether fasting during Ramadan is compulsory for all Muslims",
+          "facet": "ruling"
+        },
+        {
+          "id": "R2",
+          "text": "Exceptions or exemptions for fasting during Ramadan",
+          "facet": "exceptions"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "prescribed fasting Ramadan believers before",
+          "fasting Ramadan obligatory Muslims conditions",
+          "Ramadan fasting excused travelers sick"
+        ],
+        "de": [
+          "Fasten Ramadan Pflicht Muslime",
+          "Ausnahmen Ramadan fasten krank reisen"
+        ],
+        "ar": [
+          "فرض صيام رمضان على كل مسلم",
+          "أعذار الإفطار في رمضان للمريض والمجافر"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:183",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/183"
+      },
+      {
+        "id": "Q33:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/35"
+      },
+      {
+        "id": "Q2:185",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/185"
+      },
+      {
+        "id": "Q2:184",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/184"
+      },
+      {
+        "id": "Q2:196",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/196"
+      },
+      {
+        "id": "Q2:187",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/187"
+      },
+      {
+        "id": "Q22:78",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/22/78"
+      },
+      {
+        "id": "Q4:92",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/92"
+      },
+      {
+        "id": "HE3689",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3689"
+      },
+      {
+        "id": "HE3706",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3706"
+      },
+      {
+        "id": "HE66525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66525"
+      },
+      {
+        "id": "S042eea0c-4574-4497-9cd4-80d54af3a434",
+        "kind": "scholar",
+        "title": "المشروع تقديم القضاء على صوم الست",
+        "url": "https://binbaz.org.sa/fatwas/12670/%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%B9%D9%84%D9%89-%D8%B5%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%AA"
+      },
+      {
+        "id": "Scc3802f6-ed16-4da6-a26f-8652c5dcc25d",
+        "kind": "scholar",
+        "title": "حكم صيام النفل قبل صيام قضاء الفرض",
+        "url": "https://binbaz.org.sa/fatwas/1792/%D8%AD%D9%83%D9%85-%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%86%D9%81%D9%84-%D9%82%D8%A8%D9%84-%D8%B5%D9%8A%D8%A7%D9%85-%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D8%B1%D8%B6"
+      },
+      {
+        "id": "S11246688-990a-2996-4d0d-583555a0738b",
+        "kind": "scholar",
+        "title": "على من يجب صيام رمضان؟ وفضل صيام التطوع",
+        "url": "https://binbaz.org.sa/fatwas/11348/%D8%B9%D9%84%D9%89-%D9%85%D9%86-%D9%8A%D8%AC%D8%A8-%D8%B5%D9%8A%D8%A7%D9%85-%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D8%9F-%D9%88%D9%81%D8%B6%D9%84-%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B9"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:183",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:35",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:185",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:184",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:196",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:187",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q22:78",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:92",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3689",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3706",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66525",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S042eea0c-4574-4497-9cd4-80d54af3a434",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Scc3802f6-ed16-4da6-a26f-8652c5dcc25d",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S11246688-990a-2996-4d0d-583555a0738b",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "fasting-obligation-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Whether fasting in Ramadan is obligatory for every Muslim and who might be exempt",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "fasting Ramadan obligatory upon every Muslim",
+          "exceptions Ramadan fast sick traveler",
+          "義務 fast Ramadan Muslim"
+        ],
+        "de": [
+          "Fasten Ramadan verpflichtend für jeden Muslim",
+          "Ausnahmen Ramadan Fasten Pflicht",
+          "krank reisen Fasten nachholen Ramadan"
+        ],
+        "ar": [
+          "فرض صيام رمضان على كل مسلم",
+          "عذُر الإفطار في رمضان للمريض والمُسافر"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:185",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/185"
+      },
+      {
+        "id": "Q33:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/35"
+      },
+      {
+        "id": "Q2:184",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/184"
+      },
+      {
+        "id": "Q2:196",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/196"
+      },
+      {
+        "id": "Q2:183",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/183"
+      },
+      {
+        "id": "Q48:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/48/17"
+      },
+      {
+        "id": "Q2:187",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/187"
+      },
+      {
+        "id": "Q4:92",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/92"
+      },
+      {
+        "id": "HE66525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66525"
+      },
+      {
+        "id": "HE3706",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3706"
+      },
+      {
+        "id": "HE3689",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3689"
+      },
+      {
+        "id": "S042eea0c-4574-4497-9cd4-80d54af3a434",
+        "kind": "scholar",
+        "title": "المشروع تقديم القضاء على صوم الست",
+        "url": "https://binbaz.org.sa/fatwas/12670/%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%B9%D9%84%D9%89-%D8%B5%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%AA"
+      },
+      {
+        "id": "Scc3802f6-ed16-4da6-a26f-8652c5dcc25d",
+        "kind": "scholar",
+        "title": "حكم صيام النفل قبل صيام قضاء الفرض",
+        "url": "https://binbaz.org.sa/fatwas/1792/%D8%AD%D9%83%D9%85-%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%86%D9%81%D9%84-%D9%82%D8%A8%D9%84-%D8%B5%D9%8A%D8%A7%D9%85-%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D8%B1%D8%B6"
+      },
+      {
+        "id": "S11246688-990a-2996-4d0d-583555a0738b",
+        "kind": "scholar",
+        "title": "على من يجب صيام رمضان؟ وفضل صيام التطوع",
+        "url": "https://binbaz.org.sa/fatwas/11348/%D8%B9%D9%84%D9%89-%D9%85%D9%86-%D9%8A%D8%AC%D8%A8-%D8%B5%D9%8A%D8%A7%D9%85-%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D8%9F-%D9%88%D9%81%D8%B6%D9%84-%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B9"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:185",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:35",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:184",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:196",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:183",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q48:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:187",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:92",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66525",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3706",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3689",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S042eea0c-4574-4497-9cd4-80d54af3a434",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Scc3802f6-ed16-4da6-a26f-8652c5dcc25d",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S11246688-990a-2996-4d0d-583555a0738b",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "fasting-exemption-ar",
+    "outcome": "ask_scholar",
+    "reasons": [
+      "personal"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "ruling on breaking fast for a traveler experiencing hardship",
+          "facet": "ruling"
+        },
+        {
+          "id": "R2",
+          "text": "obligation of making up missed fasts later",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "traveler breaking fast Ramadan hardship",
+          "sick traveler fasting compensation days",
+          "excuse to break fast travel illness"
+        ],
+        "de": [
+          "Reisender fasten brechen Ramadan",
+          "Krankheit Reise fasten nachholen"
+        ],
+        "ar": [
+          "حكم الفطر للمسافر المريض في رمضان",
+          "إفطار المسافر الذي يجد تعبا والقضاء"
+        ]
+      }
+    },
+    "candidates": [],
+    "selection": null
+  },
+  {
+    "id": "fasting-exemption-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "ruling on breaking the fast for a sick person or traveler",
+          "facet": "ruling"
+        },
+        {
+          "id": "R2",
+          "text": "obligation to make up missed fasts later",
+          "facet": "conditions"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "famine disease patient journey fast later",
+          "sick traveler break fast Ramadan",
+          "exemptions fasting illness travel compensation"
+        ],
+        "de": [
+          "krank reisend fasten ramadan brechen",
+          "krankheit reise fastenzahlung nachholen"
+        ],
+        "ar": [
+          "المريض المسافر فطر رمضان",
+          "فدية قضاء صيام المريض المسافر"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:184",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/184"
+      },
+      {
+        "id": "Q2:185",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/185"
+      },
+      {
+        "id": "Q2:196",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/196"
+      },
+      {
+        "id": "Q33:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/35"
+      },
+      {
+        "id": "Q4:92",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/92"
+      },
+      {
+        "id": "Q4:101",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/101"
+      },
+      {
+        "id": "Q48:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/48/17"
+      },
+      {
+        "id": "Q34:19",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/34/19"
+      },
+      {
+        "id": "HE3553",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3553"
+      },
+      {
+        "id": "HE10603",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/10603"
+      },
+      {
+        "id": "HE66525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66525"
+      },
+      {
+        "id": "S3d38ea40-4c26-4638-b0f1-9df0119c0bb6",
+        "kind": "scholar",
+        "title": "من الذي يباح له الفطر ؟",
+        "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B132%5D/%D9%85%D9%86-%D8%A7%D9%84%D8%B0%D9%8A-%D9%8A%D8%A8%D8%A7%D8%AD-%D9%84%D9%87-%D8%A7%D9%84%D9%81%D8%B7%D8%B1-%D8%9F/9bb80450-7fdc-4eed-8c4c-eff2f81f7ec9"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:184",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:185",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:196",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:35",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:92",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:101",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q48:17",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q34:19",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3553",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE10603",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66525",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S3d38ea40-4c26-4638-b0f1-9df0119c0bb6",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "fasting-exemption-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Ruling on delaying Ramadan fast for sick persons and travelers",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "ill traveler exemption Ramadan fast Quran"
+        ],
+        "de": [
+          "fastenbrechen krankenhaus reise koran ayah"
+        ],
+        "ar": [
+          "مريض مسافر قضاء صيام رمضان",
+          "فطر المريض والمقرض في رمضان"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:184",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/184"
+      },
+      {
+        "id": "Q2:185",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/185"
+      },
+      {
+        "id": "Q2:196",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/196"
+      },
+      {
+        "id": "Q5:89",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/5/89"
+      },
+      {
+        "id": "Q48:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/48/17"
+      },
+      {
+        "id": "Q2:187",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/187"
+      },
+      {
+        "id": "Q89:2",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/89/2"
+      },
+      {
+        "id": "Q97:1",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/97/1"
+      },
+      {
+        "id": "HE3553",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3553"
+      },
+      {
+        "id": "HE66525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66525"
+      },
+      {
+        "id": "HE4563",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4563"
+      },
+      {
+        "id": "S18189702-99b7-472b-9a40-cfd2c8560887",
+        "kind": "scholar",
+        "title": "حكم الفطر للمرأة الحامل والمرضع",
+        "url": "https://binbaz.org.sa/fatwas/11498/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%81%D8%B7%D8%B1-%D9%84%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D9%84-%D9%88%D8%A7%D9%84%D9%85%D8%B1%D8%B6%D8%B9"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:184",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:185",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:196",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q5:89",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q48:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:187",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q89:2",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q97:1",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3553",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66525",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4563",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S18189702-99b7-472b-9a40-cfd2c8560887",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "fasting-night-ar",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Exact time when fasting starts and eating and drinking must stop",
+          "facet": "time"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "white thread black thread dawn fast"
+        ],
+        "de": [
+          "Fadens weissen schwarzen Morgenloesung Beginn Fasten",
+          "Fajr Morgendämmerung Essen Trinken einstellen"
+        ],
+        "ar": [
+          "وقت الإمساك عن الأكل والشرب للصائم",
+          "دخول وقت صلاة الفجر الأكل والشرب"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:187",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/187"
+      },
+      {
+        "id": "Q17:78",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/17/78"
+      },
+      {
+        "id": "Q33:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/35"
+      },
+      {
+        "id": "Q24:58",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/24/58"
+      },
+      {
+        "id": "Q35:27",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/35/27"
+      },
+      {
+        "id": "Q23:33",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/23/33"
+      },
+      {
+        "id": "Q26:155",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/26/155"
+      },
+      {
+        "id": "Q2:184",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/184"
+      },
+      {
+        "id": "HE65035",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65035"
+      },
+      {
+        "id": "HE4525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4525"
+      },
+      {
+        "id": "HE2971",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/2971"
+      },
+      {
+        "id": "S96ca097f-2170-4375-8144-d59b020f8792",
+        "kind": "scholar",
+        "title": "حكم تأخير المرأة الصلاة بسبب أعمال البيت",
+        "url": "https://binbaz.org.sa/fatwas/17907/%D8%AD%D9%83%D9%85-%D8%AA%D8%A3%D8%AE%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA"
+      },
+      {
+        "id": "Sff486bf5-22e4-6632-2cd6-ab9ccec43ab2",
+        "kind": "scholar",
+        "title": "حكم من أكل أو شرب وهو صائم ناسياً",
+        "url": "https://binbaz.org.sa/fatwas/9200/%D8%AD%D9%83%D9%85-%D9%85%D9%86-%D8%A3%D9%83%D9%84-%D8%A3%D9%88-%D8%B4%D8%B1%D8%A8-%D9%88%D9%87%D9%88-%D8%B5%D8%A7%D8%A6%D9%85-%D9%86%D8%A7%D8%B3%D9%8A%D8%A7%D9%8B"
+      },
+      {
+        "id": "Sc9db96e7-a24f-5da1-d13b-9abf16592629",
+        "kind": "scholar",
+        "title": "دخل وقت الصلاة وهو في البلد فهل له أن يؤخرها حتى يسافر ليجمعها مع ما بعدها",
+        "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B169%5D/%D8%AF%D8%AE%D9%84-%D9%88%D9%82%D8%AA-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%88%D9%87%D9%88-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%84%D8%AF-%D9%81%D9%87%D9%84-%D9%84%D9%87-%D8%A3%D9%86-%D9%8A%D8%A4%D8%AE%D8%B1%D9%87%D8%A7-%D8%AD%D8%AA%D9%89-%D9%8A%D8%B3%D8%A7%D9%81%D8%B1-%D9%84%D9%8A%D8%AC%D9%85%D8%B9%D9%87%D8%A7-%D9%85%D8%B9-%D9%85%D8%A7-%D8%A8%D8%B9%D8%AF%D9%87%D8%A7/67457d3d-663c-4c39-934b-0d756fcc4e02"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:187",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q17:78",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:35",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q24:58",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q35:27",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q23:33",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q26:155",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:184",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65035",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4525",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE2971",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S96ca097f-2170-4375-8144-d59b020f8792",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sff486bf5-22e4-6632-2cd6-ab9ccec43ab2",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sc9db96e7-a24f-5da1-d13b-9abf16592629",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "fasting-night-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Until what time eating and drinking are permitted before fasting",
+          "facet": "time"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "eat and drink until dawn fajr",
+          "suhoor time white thread black thread",
+          "end of eating before fasting"
+        ],
+        "de": [
+          "suhoor bis zum morgenanbruch essen",
+          "ende des essens vor dem fasten"
+        ],
+        "ar": [
+          "وقت السحور وامتناع الأكل",
+          "حتى طلوع الفجر الصادق",
+          "انتهاء وقت الأكل للصائم"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:187",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/187"
+      },
+      {
+        "id": "Q2:183",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/183"
+      },
+      {
+        "id": "Q13:4",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/13/4"
+      },
+      {
+        "id": "Q97:5",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/97/5"
+      },
+      {
+        "id": "Q33:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/35"
+      },
+      {
+        "id": "Q35:27",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/35/27"
+      },
+      {
+        "id": "Q38:81",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/38/81"
+      },
+      {
+        "id": "Q17:78",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/17/78"
+      },
+      {
+        "id": "HE4525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4525"
+      },
+      {
+        "id": "HE65035",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65035"
+      },
+      {
+        "id": "HE66537",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66537"
+      },
+      {
+        "id": "S7d7a2652-e0cd-4d62-9268-69a26c8517d9",
+        "kind": "scholar",
+        "title": "وقت انتهاء مدة النفاس",
+        "url": "https://binbaz.org.sa/fatwas/11069/%D9%88%D9%82%D8%AA-%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D8%A1-%D9%85%D8%AF%D8%A9-%D8%A7%D9%84%D9%86%D9%81%D8%A7%D8%B3"
+      },
+      {
+        "id": "Sb49b9723-807d-0fbd-5725-f067c23b9e44",
+        "kind": "scholar",
+        "title": "حكم أكل السحور عند بدء أذان الفجر",
+        "url": "https://binbaz.org.sa/fatwas/12005/%D8%AD%D9%83%D9%85-%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B3%D8%AD%D9%88%D8%B1-%D8%B9%D9%86%D8%AF-%D8%A8%D8%AF%D8%A1-%D8%A3%D8%B0%D8%A7%D9%86-%D8%A7%D9%84%D9%81%D8%AC%D8%B1"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:187",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:183",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q13:4",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q97:5",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:35",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q35:27",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q38:81",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q17:78",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4525",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65035",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66537",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S7d7a2652-e0cd-4d62-9268-69a26c8517d9",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sb49b9723-807d-0fbd-5725-f067c23b9e44",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "fasting-night-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Until what time in the morning is eating and drinking permitted during Ramadan",
+          "facet": "time"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "until dawn white thread black thread",
+          "stop eating drinking Fajr adhan",
+          "suhoor time limit dawn"
+        ],
+        "de": [
+          "Ende Suhoor Uhrzeit Morgen",
+          "bis wann essen trinken Ramadan Morgen",
+          "Fajr Morgendämmerung Essen erlaubt",
+          "weißer Faden schwarzer Faden Morgendämmerung"
+        ],
+        "ar": [
+          "وقت السحور أذن الفجر",
+          "إمساك رمضان طلوع الفجر",
+          "الخيط الأبيض من الخيط الأسود"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q18:23",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/18/23"
+      },
+      {
+        "id": "Q69:24",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/69/24"
+      },
+      {
+        "id": "Q17:78",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/17/78"
+      },
+      {
+        "id": "Q2:187",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/187"
+      },
+      {
+        "id": "Q2:185",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/185"
+      },
+      {
+        "id": "Q12:12",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/12/12"
+      },
+      {
+        "id": "Q51:18",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/51/18"
+      },
+      {
+        "id": "Q35:27",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/35/27"
+      },
+      {
+        "id": "HE4457",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4457"
+      },
+      {
+        "id": "HE4525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4525"
+      },
+      {
+        "id": "HE65035",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65035"
+      },
+      {
+        "id": "S1189e53c-2729-d328-ccd3-352950116975",
+        "kind": "scholar",
+        "title": "ما يلزم من تناول السحور بعد أذان الفجر؟",
+        "url": "https://binbaz.org.sa/fatwas/12190/%D9%85%D8%A7-%D9%8A%D9%84%D8%B2%D9%85-%D9%85%D9%86-%D8%AA%D9%86%D8%A7%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D8%AD%D9%88%D8%B1-%D8%A8%D8%B9%D8%AF-%D8%A3%D8%B0%D8%A7%D9%86-%D8%A7%D9%84%D9%81%D8%AC%D8%B1%D8%9F"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q18:23",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q69:24",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q17:78",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:187",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:185",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q12:12",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q51:18",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q35:27",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4457",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4525",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65035",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S1189e53c-2729-d328-ccd3-352950116975",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "qibla-direction-ar",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "definition",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Identify the direction Muslims face during prayer.",
+          "facet": "definition"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "direction faced during prayer",
+          "Kaaba Makkah prayer direction"
+        ],
+        "de": [
+          "Gebetsrichtung der Muslime",
+          "Kaaba Mekka Richtung Gebet"
+        ],
+        "ar": [
+          "وجه شطره المسجد الحرام",
+          "اتجاه القبلة في الصلاة الكعبة",
+          "قبلة المسلمين مكة المكرمة"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:144",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/144"
+      },
+      {
+        "id": "Q27:91",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/27/91"
+      },
+      {
+        "id": "Q2:150",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/150"
+      },
+      {
+        "id": "Q2:143",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/143"
+      },
+      {
+        "id": "Q48:24",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/48/24"
+      },
+      {
+        "id": "Q2:125",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/125"
+      },
+      {
+        "id": "Q2:145",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/145"
+      },
+      {
+        "id": "Q2:149",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/149"
+      },
+      {
+        "id": "HE3078",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3078"
+      },
+      {
+        "id": "HE65090",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65090"
+      },
+      {
+        "id": "HE65426",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65426"
+      },
+      {
+        "id": "Sa1ab186d-de39-a39f-e1df-dda7c539b482",
+        "kind": "scholar",
+        "title": "الصلاة في الساحات المحيطة بالمسجد الحرام والمسجد النبوي",
+        "url": "https://binbaz.org.sa/fatwas/5002/%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A"
+      },
+      {
+        "id": "S82ad284a-4017-e405-71ec-85ccb363d8aa",
+        "kind": "scholar",
+        "title": "حكم الصلاة في مسجد أسس من حرام",
+        "url": "https://binbaz.org.sa/fatwas/7297/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%81%D9%8A-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A3%D8%B3%D8%B3-%D9%85%D9%86-%D8%AD%D8%B1%D8%A7%D9%85"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:144",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q27:91",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:150",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:143",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q48:24",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:125",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:145",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:149",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3078",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65090",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65426",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sa1ab186d-de39-a39f-e1df-dda7c539b482",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S82ad284a-4017-e405-71ec-85ccb363d8aa",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "qibla-direction-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "The direction Muslims face during prayer",
+          "facet": "conditions"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "turn face toward sacred mosque",
+          "qibla direction kaaba mecca prayer"
+        ],
+        "de": [
+          "qibla richtung gebet kaaba mekka",
+          "richtung gebetshalle moschee wenden"
+        ],
+        "ar": [
+          "ول وجهك شطر المسجد الحرام",
+          "اتجاه القبلة في الصلاة الكعبة"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:144",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/144"
+      },
+      {
+        "id": "Q2:145",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/145"
+      },
+      {
+        "id": "Q48:24",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/48/24"
+      },
+      {
+        "id": "Q2:150",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/150"
+      },
+      {
+        "id": "Q2:149",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/149"
+      },
+      {
+        "id": "Q2:143",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/143"
+      },
+      {
+        "id": "Q110:1",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/110/1"
+      },
+      {
+        "id": "Q2:142",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/142"
+      },
+      {
+        "id": "HE3078",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3078"
+      },
+      {
+        "id": "HE65090",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65090"
+      },
+      {
+        "id": "HE65312",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65312"
+      },
+      {
+        "id": "Sa1ab186d-de39-a39f-e1df-dda7c539b482",
+        "kind": "scholar",
+        "title": "الصلاة في الساحات المحيطة بالمسجد الحرام والمسجد النبوي",
+        "url": "https://binbaz.org.sa/fatwas/5002/%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A"
+      },
+      {
+        "id": "S82ad284a-4017-e405-71ec-85ccb363d8aa",
+        "kind": "scholar",
+        "title": "حكم الصلاة في مسجد أسس من حرام",
+        "url": "https://binbaz.org.sa/fatwas/7297/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%81%D9%8A-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A3%D8%B3%D8%B3-%D9%85%D9%86-%D8%AD%D8%B1%D8%A7%D9%85"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:144",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:145",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q48:24",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:150",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:149",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:143",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q110:1",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:142",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3078",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65090",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65312",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sa1ab186d-de39-a39f-e1df-dda7c539b482",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S82ad284a-4017-e405-71ec-85ccb363d8aa",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "qibla-direction-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "direction for prayer",
+          "facet": "general"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "face kaaba during prayer direction",
+          "qibla direction makkah mosque"
+        ],
+        "de": [
+          "richtung kaaba gebet qibla",
+          "nach mekka ausrichten gebet"
+        ],
+        "ar": [
+          "تولی وجهك شطر المسجد الحرام",
+          "اتجاه القبلة في الصلاة مكة"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:145",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/145"
+      },
+      {
+        "id": "Q2:238",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/238"
+      },
+      {
+        "id": "Q2:150",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/150"
+      },
+      {
+        "id": "Q10:87",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/10/87"
+      },
+      {
+        "id": "Q2:144",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/144"
+      },
+      {
+        "id": "Q4:103",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/103"
+      },
+      {
+        "id": "Q2:149",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/149"
+      },
+      {
+        "id": "Q48:24",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/48/24"
+      },
+      {
+        "id": "HE3078",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3078"
+      },
+      {
+        "id": "HE65090",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65090"
+      },
+      {
+        "id": "HE65426",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65426"
+      },
+      {
+        "id": "Sa1ab186d-de39-a39f-e1df-dda7c539b482",
+        "kind": "scholar",
+        "title": "الصلاة في الساحات المحيطة بالمسجد الحرام والمسجد النبوي",
+        "url": "https://binbaz.org.sa/fatwas/5002/%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF-%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A"
+      },
+      {
+        "id": "S82ad284a-4017-e405-71ec-85ccb363d8aa",
+        "kind": "scholar",
+        "title": "حكم الصلاة في مسجد أسس من حرام",
+        "url": "https://binbaz.org.sa/fatwas/7297/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%81%D9%8A-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A3%D8%B3%D8%B3-%D9%85%D9%86-%D8%AD%D8%B1%D8%A7%D9%85"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:145",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:238",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:150",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q10:87",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:144",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:103",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:149",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q48:24",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3078",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65090",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65426",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sa1ab186d-de39-a39f-e1df-dda7c539b482",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S82ad284a-4017-e405-71ec-85ccb363d8aa",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "ayat-al-kursi-ar",
+    "outcome": "source_only",
+    "reasons": [
+      "source_only_after_screening_retry_copied_source"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "identity",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "What Ayat al-Kursi teaches about the attributes of Allah",
+          "facet": "attributes"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "Ayat al Kursi divine attributes"
+        ],
+        "de": [
+          "Ayat al Kursi Gottesattribute",
+          "Eigenschaften Allahs Thronvers"
+        ],
+        "ar": [
+          "لا تأخذه سنة ولا نوم",
+          "صفات الله في آية الكرسي"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:255",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/255"
+      },
+      {
+        "id": "Q29:10",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/29/10"
+      },
+      {
+        "id": "Q53:19",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/53/19"
+      },
+      {
+        "id": "Q21:22",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/21/22"
+      },
+      {
+        "id": "Q15:13",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/15/13"
+      },
+      {
+        "id": "Q5:90",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/5/90"
+      },
+      {
+        "id": "Q15:80",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/15/80"
+      },
+      {
+        "id": "Q27:26",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/27/26"
+      },
+      {
+        "id": "HE65291",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65291"
+      },
+      {
+        "id": "HE66303",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66303"
+      },
+      {
+        "id": "HE65529",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65529"
+      },
+      {
+        "id": "Sb6ba5719-9143-439b-897c-7b66e5b93cbf",
+        "kind": "scholar",
+        "title": "معنى «أعوذ بك منك..»",
+        "url": "https://binbaz.org.sa/fatwas/12773/%D9%85%D8%B9%D9%86%D9%89-%C2%AB%D8%A3%D8%B9%D9%88%D8%B0-%D8%A8%D9%83-%D9%85%D9%86%D9%83..%C2%BB"
+      },
+      {
+        "id": "S97b25b17-4586-4221-a69a-c8cfb7da584d",
+        "kind": "scholar",
+        "title": "حكم قول بحق محمد عليك في الدعاء",
+        "url": "https://binbaz.org.sa/fatwas/1594/%D8%AD%D9%83%D9%85-%D9%82%D9%88%D9%84-%D8%A8%D8%AD%D9%82-%D9%85%D8%AD%D9%85%D8%AF-%D8%B9%D9%84%D9%8A%D9%83-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1"
+      },
+      {
+        "id": "Sd5abab41-abab-1791-e621-24309fc7ee28",
+        "kind": "scholar",
+        "title": "هل النَّوْم مع نصب اليد قبل الفجر سُنة دائمة؟",
+        "url": "https://binbaz.org.sa/fatwas/21866/%D9%87%D9%84-%D8%A7%D9%84%D9%86%D9%91%D9%8E%D9%88%D9%92%D9%85-%D9%85%D8%B9-%D9%86%D8%B5%D8%A8-%D8%A7%D9%84%D9%8A%D8%AF-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%81%D8%AC%D8%B1-%D8%B3%D9%8F%D9%86%D8%A9-%D8%AF%D8%A7%D8%A6%D9%85%D8%A9%D8%9F"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:255",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q29:10",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q53:19",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q21:22",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q15:13",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q5:90",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q15:80",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q27:26",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65291",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66303",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65529",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sb6ba5719-9143-439b-897c-7b66e5b93cbf",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S97b25b17-4586-4221-a69a-c8cfb7da584d",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sd5abab41-abab-1791-e621-24309fc7ee28",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "ayat-al-kursi-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "definition",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "What attributes and qualities of God are mentioned in Ayat al-Kursi",
+          "facet": "attributes"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "Ayat al Kursi God attributes meaning",
+          "Throne verse description of Allah"
+        ],
+        "de": [
+          "Ayat al Kursi Eigenschaften Allahs",
+          "Thronvers Bedeutung Gott Attribute"
+        ],
+        "ar": [
+          "لا تأخذه سنة ولا نوم",
+          "وسعت كرسيه السماوات والأارض",
+          "تفسير آية الكرسي صفات الله"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:255",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/255"
+      },
+      {
+        "id": "Q2:236",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/236"
+      },
+      {
+        "id": "Q21:22",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/21/22"
+      },
+      {
+        "id": "Q3:73",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/73"
+      },
+      {
+        "id": "Q53:19",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/53/19"
+      },
+      {
+        "id": "Q6:139",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/6/139"
+      },
+      {
+        "id": "Q23:116",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/23/116"
+      },
+      {
+        "id": "Q15:13",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/15/13"
+      },
+      {
+        "id": "HE65038",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65038"
+      },
+      {
+        "id": "HE65291",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65291"
+      },
+      {
+        "id": "HE66303",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66303"
+      },
+      {
+        "id": "S3ece4c9e-5a91-412f-b5d9-aea4ac73ebfe",
+        "kind": "scholar",
+        "title": "تفسير: {والذين لا يدعون مع الله إلهًا آخر...}",
+        "url": "https://binbaz.org.sa/fatwas/914/%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%3A-%7B%D9%88%D8%A7%D9%84%D8%B0%D9%8A%D9%86-%D9%84%D8%A7-%D9%8A%D8%AF%D8%B9%D9%88%D9%86-%D9%85%D8%B9-%D8%A7%D9%84%D9%84%D9%87-%D8%A5%D9%84%D9%87%D9%8B%D8%A7-%D8%A2%D8%AE%D8%B1...%7D"
+      },
+      {
+        "id": "Sbbe22e1a-6652-4c2b-b7ab-14d7bdd4a4c4",
+        "kind": "scholar",
+        "title": "تفسير قوله تعالى: ﴿وَالَّذِينَ لَا يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ...﴾ الآية",
+        "url": "https://binbaz.org.sa/fatwas/19785/%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D9%82%D9%88%D9%84%D9%87-%D8%AA%D8%B9%D8%A7%D9%84%D9%89%3A-%EF%B4%BF%D9%88%D9%8E%D8%A7%D9%84%D9%91%D9%8E%D8%B0%D9%90%D9%8A%D9%86%D9%8E-%D9%84%D9%8E%D8%A7-%D9%8A%D9%8E%D8%AF%D9%92%D8%B9%D9%8F%D9%88%D9%86%D9%8E-%D9%85%D9%8E%D8%B9%D9%8E-%D8%A7%D9%84%D9%84%D9%91%D9%8E%D9%87%D9%90-%D8%A5%D9%90%D9%84%D9%8E%D9%87%D9%8B%D8%A7-%D8%A2%D8%AE%D9%8E%D8%B1%D9%8E...%EF%B4%BE-%D8%A7%D9%84%D8%A2%D9%8A%D8%A9"
+      },
+      {
+        "id": "Sd5abab41-abab-1791-e621-24309fc7ee28",
+        "kind": "scholar",
+        "title": "هل النَّوْم مع نصب اليد قبل الفجر سُنة دائمة؟",
+        "url": "https://binbaz.org.sa/fatwas/21866/%D9%87%D9%84-%D8%A7%D9%84%D9%86%D9%91%D9%8E%D9%88%D9%92%D9%85-%D9%85%D8%B9-%D9%86%D8%B5%D8%A8-%D8%A7%D9%84%D9%8A%D8%AF-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%81%D8%AC%D8%B1-%D8%B3%D9%8F%D9%86%D8%A9-%D8%AF%D8%A7%D8%A6%D9%85%D8%A9%D8%9F"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:255",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:236",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q21:22",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:73",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q53:19",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q6:139",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q23:116",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q15:13",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65038",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65291",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66303",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S3ece4c9e-5a91-412f-b5d9-aea4ac73ebfe",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sbbe22e1a-6652-4c2b-b7ab-14d7bdd4a4c4",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sd5abab41-abab-1791-e621-24309fc7ee28",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "ayat-al-kursi-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "definition",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "The attributes of Allah mentioned in Ayat al-Kursi",
+          "facet": "attributes"
+        }
+      ],
+      "searchQueries": {
+        "en": [],
+        "de": [
+          "Ayat al Kursi Bedeutung Eigenschaften Allahs",
+          "Thronvers Eigenschaften Allahs Erläuterung"
+        ],
+        "ar": []
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:255",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/255"
+      },
+      {
+        "id": "Q16:60",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/16/60"
+      },
+      {
+        "id": "Q21:22",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/21/22"
+      },
+      {
+        "id": "Q23:116",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/23/116"
+      },
+      {
+        "id": "Q53:19",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/53/19"
+      },
+      {
+        "id": "Q39:75",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/39/75"
+      },
+      {
+        "id": "Q2:158",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/158"
+      },
+      {
+        "id": "Q27:26",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/27/26"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:255",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q16:60",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q21:22",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q23:116",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q53:19",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q39:75",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:158",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q27:26",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "no-compulsion-ar",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Ruling on forcing someone to enter Islam",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "no compulsion in religion verse",
+          "forcing anyone to become Muslim",
+          "freedom of belief in Islam",
+          "compulsion in religion ruling"
+        ],
+        "de": [
+          "kein Zwang im Glauben",
+          "Islam Zwang zum Glauben",
+          "Religionsfreiheit im Islam"
+        ],
+        "ar": [
+          "حكم إكراه شخص على الإسلام",
+          "حرية الاعتقاد في الشريعة الإسلامية"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q61:7",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/61/7"
+      },
+      {
+        "id": "Q3:24",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/24"
+      },
+      {
+        "id": "Q2:256",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/256"
+      },
+      {
+        "id": "Q72:14",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/72/14"
+      },
+      {
+        "id": "Q53:19",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/53/19"
+      },
+      {
+        "id": "Q4:65",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/65"
+      },
+      {
+        "id": "Q42:8",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/42/8"
+      },
+      {
+        "id": "Q10:99",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/10/99"
+      },
+      {
+        "id": "HE10011",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/10011"
+      },
+      {
+        "id": "HE65091",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65091"
+      },
+      {
+        "id": "S22dce235-3a04-7fb3-84a0-1264f670339d",
+        "kind": "scholar",
+        "title": "حكم إكراه الوالد ابنته بالزواج من شخص ترفضه",
+        "url": "https://binbaz.org.sa/fatwas/7643/%D8%AD%D9%83%D9%85-%D8%A5%D9%83%D8%B1%D8%A7%D9%87-%D8%A7%D9%84%D9%88%D8%A7%D9%84%D8%AF-%D8%A7%D8%A8%D9%86%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D8%B2%D9%88%D8%A7%D8%AC-%D9%85%D9%86-%D8%B4%D8%AE%D8%B5-%D8%AA%D8%B1%D9%81%D8%B6%D9%87"
+      },
+      {
+        "id": "Sa8a890b9-8bf9-f5a5-01d2-c5072151bfab",
+        "kind": "scholar",
+        "title": "لا إكراه في قبول الإسلام",
+        "url": "https://binbaz.org.sa/fatwas/1659/%D9%84%D8%A7-%D8%A5%D9%83%D8%B1%D8%A7%D9%87-%D9%81%D9%8A-%D9%82%D8%A8%D9%88%D9%84-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q61:7",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:24",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:256",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q72:14",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q53:19",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:65",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q42:8",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q10:99",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE10011",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65091",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S22dce235-3a04-7fb3-84a0-1264f670339d",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sa8a890b9-8bf9-f5a5-01d2-c5072151bfab",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "no-compulsion-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Whether forcing someone to convert to Islam is permitted",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "no compulsion in religion",
+          "forced conversion forbidden islam",
+          "coercion in faith prohibited"
+        ],
+        "de": [
+          "kein zwang im glauben",
+          "konversion zwingen islam verboten"
+        ],
+        "ar": [
+          "لا إكراه في الدين",
+          "حكم الإكراه على الإسلام"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:256",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/256"
+      },
+      {
+        "id": "Q5:3",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/5/3"
+      },
+      {
+        "id": "Q9:124",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/124"
+      },
+      {
+        "id": "Q60:10",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/60/10"
+      },
+      {
+        "id": "Q58:8",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/58/8"
+      },
+      {
+        "id": "Q48:4",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/48/4"
+      },
+      {
+        "id": "Q10:99",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/10/99"
+      },
+      {
+        "id": "Q3:85",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/85"
+      },
+      {
+        "id": "HE65329",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65329"
+      },
+      {
+        "id": "HE66098",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66098"
+      },
+      {
+        "id": "Sc030f15d-8d79-4311-85ee-7a42676b3a36",
+        "kind": "scholar",
+        "title": "الجمع بين: {لَا إِكْرَاهَ فِي الدِّينِ} و«الطاعة في المنشط والمكره»",
+        "url": "https://binbaz.org.sa/fatwas/3017/%D8%A7%D9%84%D8%AC%D9%85%D8%B9-%D8%A8%D9%8A%D9%86%3A-%7B%D9%84%D9%8E%D8%A7-%D8%A5%D9%90%D9%83%D9%92%D8%B1%D9%8E%D8%A7%D9%87%D9%8E-%D9%81%D9%90%D9%8A-%D8%A7%D9%84%D8%AF%D9%91%D9%90%D9%8A%D9%86%D9%90%7D-%D9%88%C2%AB%D8%A7%D9%84%D8%B7%D8%A7%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%B7-%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%87%C2%BB"
+      },
+      {
+        "id": "S9d295174-07ff-4455-8952-776ed3a1c094",
+        "kind": "scholar",
+        "title": "هل نسخت آية السيف آية {لَا إِكْرَاهَ فِي الدِّينِ}؟",
+        "url": "https://binbaz.org.sa/fatwas/31487/%D9%87%D9%84-%D9%86%D8%B3%D8%AE%D8%AA-%D8%A2%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%81-%D8%A2%D9%8A%D8%A9-%7B%D9%84%D9%8E%D8%A7-%D8%A5%D9%90%D9%83%D9%92%D8%B1%D9%8E%D8%A7%D9%87%D9%8E-%D9%81%D9%90%D9%8A-%D8%A7%D9%84%D8%AF%D9%91%D9%90%D9%8A%D9%86%D9%90%7D%D8%9F"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:256",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q5:3",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:124",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q60:10",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q58:8",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q48:4",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q10:99",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:85",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65329",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66098",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sc030f15d-8d79-4311-85ee-7a42676b3a36",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S9d295174-07ff-4455-8952-776ed3a1c094",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "no-compulsion-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Ruling on forcing someone to accept Islam",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "there is no compulsion in religion",
+          "forcing faith forbidden Islam",
+          "freedom of belief Quran"
+        ],
+        "de": [
+          "kein Zwang im Glauben",
+          "Glaubensfreiheit Islam verboten",
+          "Zwang zum Islam unzulässig"
+        ],
+        "ar": [
+          "لا إكراه في الدين",
+          "حرية الاعتقاد في الإسلام",
+          "إكراه الشخص على الإسلام"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:256",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/256"
+      },
+      {
+        "id": "Q40:66",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/40/66"
+      },
+      {
+        "id": "Q18:79",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/18/79"
+      },
+      {
+        "id": "Q3:24",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/24"
+      },
+      {
+        "id": "Q52:36",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/52/36"
+      },
+      {
+        "id": "Q49:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/49/17"
+      },
+      {
+        "id": "Q10:99",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/10/99"
+      },
+      {
+        "id": "Q49:14",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/49/14"
+      },
+      {
+        "id": "HE6468",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/6468"
+      },
+      {
+        "id": "HE65329",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65329"
+      },
+      {
+        "id": "HE10098",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/10098"
+      },
+      {
+        "id": "Sc030f15d-8d79-4311-85ee-7a42676b3a36",
+        "kind": "scholar",
+        "title": "الجمع بين: {لَا إِكْرَاهَ فِي الدِّينِ} و«الطاعة في المنشط والمكره»",
+        "url": "https://binbaz.org.sa/fatwas/3017/%D8%A7%D9%84%D8%AC%D9%85%D8%B9-%D8%A8%D9%8A%D9%86%3A-%7B%D9%84%D9%8E%D8%A7-%D8%A5%D9%90%D9%83%D9%92%D8%B1%D9%8E%D8%A7%D9%87%D9%8E-%D9%81%D9%90%D9%8A-%D8%A7%D9%84%D8%AF%D9%91%D9%90%D9%8A%D9%86%D9%90%7D-%D9%88%C2%AB%D8%A7%D9%84%D8%B7%D8%A7%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%B7-%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%87%C2%BB"
+      },
+      {
+        "id": "S9d295174-07ff-4455-8952-776ed3a1c094",
+        "kind": "scholar",
+        "title": "هل نسخت آية السيف آية {لَا إِكْرَاهَ فِي الدِّينِ}؟",
+        "url": "https://binbaz.org.sa/fatwas/31487/%D9%87%D9%84-%D9%86%D8%B3%D8%AE%D8%AA-%D8%A2%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D9%81-%D8%A2%D9%8A%D8%A9-%7B%D9%84%D9%8E%D8%A7-%D8%A5%D9%90%D9%83%D9%92%D8%B1%D9%8E%D8%A7%D9%87%D9%8E-%D9%81%D9%90%D9%8A-%D8%A7%D9%84%D8%AF%D9%91%D9%90%D9%8A%D9%86%D9%90%7D%D8%9F"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:256",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q40:66",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q18:79",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:24",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q52:36",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q49:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q10:99",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q49:14",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE6468",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65329",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE10098",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sc030f15d-8d79-4311-85ee-7a42676b3a36",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S9d295174-07ff-4455-8952-776ed3a1c094",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "riba-prohibition-ar",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Whether dealing with riba and taking interest is forbidden in Islam",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "ribah prohibition interest forbidden islamic law",
+          "taking interest banking usama unlawful"
+        ],
+        "de": [
+          "zinsen verbot riba im islam",
+          "kreditzinsen haram islamische rechtsprechung"
+        ],
+        "ar": [
+          "تحريم الربا وأخذ الفوائد البنكية",
+          "حكم التعامل بالربا في الإسلام",
+          "أخذ الفائدة البنكية حرام"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:275",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/275"
+      },
+      {
+        "id": "Q2:278",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/278"
+      },
+      {
+        "id": "Q2:194",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/194"
+      },
+      {
+        "id": "Q5:3",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/5/3"
+      },
+      {
+        "id": "Q2:276",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/276"
+      },
+      {
+        "id": "Q11:102",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/11/102"
+      },
+      {
+        "id": "Q5:96",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/5/96"
+      },
+      {
+        "id": "Q20:39",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/20/39"
+      },
+      {
+        "id": "HE3228",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3228"
+      },
+      {
+        "id": "HE66121",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66121"
+      },
+      {
+        "id": "S7914f7a3-5bae-4542-a878-a904d57a76c1",
+        "kind": "scholar",
+        "title": "حكم من تعامل بالربا جهلًا",
+        "url": "https://binbaz.org.sa/fatwas/12453/%D8%AD%D9%83%D9%85-%D9%85%D9%86-%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D8%A8%D8%A7%D9%84%D8%B1%D8%A8%D8%A7-%D8%AC%D9%87%D9%84%D9%8B%D8%A7"
+      },
+      {
+        "id": "S49ba9770-c158-4e41-81b3-e57778a332c8",
+        "kind": "scholar",
+        "title": "حكم التعامل مع أرباب الأموال المحرمة",
+        "url": "https://binbaz.org.sa/fatwas/18249/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D8%A3%D8%B1%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%85%D8%A9"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:275",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:278",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:194",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q5:3",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:276",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q11:102",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q5:96",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q20:39",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3228",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66121",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S7914f7a3-5bae-4542-a878-a904d57a76c1",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S49ba9770-c158-4e41-81b3-e57778a332c8",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "riba-prohibition-en",
+    "outcome": "no_source",
+    "reasons": [
+      "evidence_insufficient"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "reason",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Why is interest and usury forbidden",
+          "facet": "reason"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "harm exploitation injustice economic social evil",
+          "prohibition of riba wisdom reasons",
+          "unfair gain wealth concentration exploitation"
+        ],
+        "de": [
+          "Verbot von Zinsen Riba Weisheit Gründe",
+          "Ausbeutung wirtschaftlicher Schaden Ungerechtigkeit"
+        ],
+        "ar": [
+          "تحريم الربا الحكمة والعلة",
+          "أضرار الربا الاقتصادية والاجتماعية",
+          "لماذا حرم الله الربا ظلم استغلال"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q22:13",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/22/13"
+      },
+      {
+        "id": "Q2:275",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/275"
+      },
+      {
+        "id": "Q111:2",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/111/2"
+      },
+      {
+        "id": "Q3:120",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/120"
+      },
+      {
+        "id": "Q6:146",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/6/146"
+      },
+      {
+        "id": "Q90:6",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/90/6"
+      },
+      {
+        "id": "Q2:269",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/269"
+      },
+      {
+        "id": "Q2:276",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/276"
+      },
+      {
+        "id": "HE5889",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5889"
+      },
+      {
+        "id": "HE65116",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65116"
+      },
+      {
+        "id": "HE5932",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5932"
+      },
+      {
+        "id": "Sa2afc969-2027-4884-9483-1f9f552602ab",
+        "kind": "scholar",
+        "title": "ما حكم الصلاة خلف من يتعامل بالربا؟",
+        "url": "https://binbaz.org.sa/fatwas/8702/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D8%AE%D9%84%D9%81-%D9%85%D9%86-%D9%8A%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D8%A8%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%9F"
+      },
+      {
+        "id": "Sce664684-7c1c-2462-68ce-c9856684715f",
+        "kind": "scholar",
+        "title": "علة تحريم الدخان",
+        "url": "https://binbaz.org.sa/fatwas/1558/%D8%B9%D9%84%D8%A9-%D8%AA%D8%AD%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D8%AE%D8%A7%D9%86"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q22:13",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:275",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q111:2",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:120",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q6:146",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q90:6",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:269",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:276",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5889",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65116",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5932",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sa2afc969-2027-4884-9483-1f9f552602ab",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sce664684-7c1c-2462-68ce-c9856684715f",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "riba-prohibition-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "reason",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Why interest and usury are prohibited in Islam",
+          "facet": "reason"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "prohibition of riba economic harm injustice",
+          "exploitation wealth accumulation unfair gain"
+        ],
+        "de": [
+          "Verbot von Zinsen wirtschaftliche Gerechtigkeit",
+          "warum Riba verboten Weisheit",
+          "Ausbeutung Unrecht Zinsverbot"
+        ],
+        "ar": [
+          "حكمة تحريم الربا في الإسلام",
+          "تحريم الربا الظلم الاستغلال",
+          "علت تحريم ربا در اسلام"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q4:135",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/135"
+      },
+      {
+        "id": "Q58:8",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/58/8"
+      },
+      {
+        "id": "Q21:95",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/21/95"
+      },
+      {
+        "id": "Q2:275",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/275"
+      },
+      {
+        "id": "Q7:159",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/7/159"
+      },
+      {
+        "id": "Q2:269",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/269"
+      },
+      {
+        "id": "Q53:22",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/53/22"
+      },
+      {
+        "id": "Q4:161",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/161"
+      },
+      {
+        "id": "HE5889",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5889"
+      },
+      {
+        "id": "S919939af-988a-4f22-bf27-4e3f0939f028",
+        "kind": "scholar",
+        "title": "الحكمة من تحريم الذهب على الرجال",
+        "url": "https://binbaz.org.sa/fatwas/15641/%D8%A7%D9%84%D8%AD%D9%83%D9%85%D8%A9-%D9%85%D9%86-%D8%AA%D8%AD%D8%B1%D9%8A%D9%85-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B1%D8%AC%D8%A7%D9%84"
+      },
+      {
+        "id": "Sa2afc969-2027-4884-9483-1f9f552602ab",
+        "kind": "scholar",
+        "title": "ما حكم الصلاة خلف من يتعامل بالربا؟",
+        "url": "https://binbaz.org.sa/fatwas/8702/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D8%AE%D9%84%D9%81-%D9%85%D9%86-%D9%8A%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D8%A8%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%9F"
+      },
+      {
+        "id": "S367a7bef-f695-ec15-e07f-e557a5520888",
+        "kind": "scholar",
+        "title": "حقيقة الربا وحكمه",
+        "url": "https://binbaz.org.sa/fatwas/9326/%D8%AD%D9%82%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7-%D9%88%D8%AD%D9%83%D9%85%D9%87"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q4:135",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q58:8",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q21:95",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:275",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q7:159",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:269",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q53:22",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:161",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5889",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S919939af-988a-4f22-bf27-4e3f0939f028",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sa2afc969-2027-4884-9483-1f9f552602ab",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S367a7bef-f695-ec15-e07f-e557a5520888",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "charity-usury-ar",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "comparison",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Difference in blessing and increase between charity and usury",
+          "facet": "comparison"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "charity increases blessing destroys usury",
+          "difference between sadaqah and riba barakah"
+        ],
+        "de": [
+          "Unterschied Segen Sadaqah Riba Zinsen",
+          "Altersgabe Vermehrung Zinsverbot Segen"
+        ],
+        "ar": [
+          "يمحق الله الربا ويربي الصدقات",
+          "الفرق بين الصدقة والربا في البركة",
+          "عاقبة الصدقة والربا"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:276",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/276"
+      },
+      {
+        "id": "Q4:114",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/114"
+      },
+      {
+        "id": "Q2:275",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/275"
+      },
+      {
+        "id": "Q30:39",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/30/39"
+      },
+      {
+        "id": "Q3:130",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/130"
+      },
+      {
+        "id": "Q30:10",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/30/10"
+      },
+      {
+        "id": "Q16:124",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/16/124"
+      },
+      {
+        "id": "Q9:104",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/104"
+      },
+      {
+        "id": "HE5889",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5889"
+      },
+      {
+        "id": "HE65116",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65116"
+      },
+      {
+        "id": "HE5512",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5512"
+      },
+      {
+        "id": "S7327b61a-5b24-4034-8e05-e18a6f166c71",
+        "kind": "scholar",
+        "title": "الفرق بين طواف القدوم والإفاضة والوداع",
+        "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B204%5D/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%B7%D9%88%D8%A7%D9%81-%D8%A7%D9%84%D9%82%D8%AF%D9%88%D9%85-%D9%88%D8%A7%D9%84%D8%A5%D9%81%D8%A7%D8%B6%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%AF%D8%A7%D8%B9/4fe801ec-adf2-4c7c-9437-bc09f670a844"
+      },
+      {
+        "id": "S825f17a5-afb5-499e-a7b1-d3ee8d45affd",
+        "kind": "scholar",
+        "title": "الفرق بين الروح والنفس",
+        "url": "https://binbaz.org.sa/fatwas/17589/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B1%D9%88%D8%AD-%D9%88%D8%A7%D9%84%D9%86%D9%81%D8%B3"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:276",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:114",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:275",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q30:39",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:130",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q30:10",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q16:124",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:104",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5889",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65116",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5512",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S7327b61a-5b24-4034-8e05-e18a6f166c71",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S825f17a5-afb5-499e-a7b1-d3ee8d45affd",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "charity-usury-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "comparison",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "How Islam compares charity and interest",
+          "facet": "comparison"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "charity destroys interest increases wealth",
+          "allah deprives usury gives sadqa",
+          "difference between sadaqah and riba",
+          "comparison charity and interest islam"
+        ],
+        "de": [
+          "vergleich wohltätigkeit und zinsen",
+          "sadaqa im vergleich zu riba",
+          "zinsen vernichtung vermögen wohltätigkeit"
+        ],
+        "ar": [
+          "مقارنة الصدقة والربا",
+          "يمحق الله الربا ويربي الصدقات",
+          "الفرق بين الصدقة والربا"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q30:39",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/30/39"
+      },
+      {
+        "id": "Q2:276",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/276"
+      },
+      {
+        "id": "Q4:114",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/114"
+      },
+      {
+        "id": "Q2:275",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/275"
+      },
+      {
+        "id": "Q71:21",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/71/21"
+      },
+      {
+        "id": "Q16:124",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/16/124"
+      },
+      {
+        "id": "Q2:263",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/263"
+      },
+      {
+        "id": "Q3:130",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/130"
+      },
+      {
+        "id": "HE5512",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5512"
+      },
+      {
+        "id": "HE65116",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65116"
+      },
+      {
+        "id": "HE5889",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5889"
+      },
+      {
+        "id": "S7327b61a-5b24-4034-8e05-e18a6f166c71",
+        "kind": "scholar",
+        "title": "الفرق بين طواف القدوم والإفاضة والوداع",
+        "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B204%5D/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%B7%D9%88%D8%A7%D9%81-%D8%A7%D9%84%D9%82%D8%AF%D9%88%D9%85-%D9%88%D8%A7%D9%84%D8%A5%D9%81%D8%A7%D8%B6%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%AF%D8%A7%D8%B9/4fe801ec-adf2-4c7c-9437-bc09f670a844"
+      },
+      {
+        "id": "S825f17a5-afb5-499e-a7b1-d3ee8d45affd",
+        "kind": "scholar",
+        "title": "الفرق بين الروح والنفس",
+        "url": "https://binbaz.org.sa/fatwas/17589/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B1%D9%88%D8%AD-%D9%88%D8%A7%D9%84%D9%86%D9%81%D8%B3"
+      },
+      {
+        "id": "S40cae5f9-3899-037c-940a-5d3bf8c824d1",
+        "kind": "scholar",
+        "title": "الفرق بين ربا النسيئة والتورق",
+        "url": "https://binbaz.org.sa/fatwas/3088/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%B1%D8%A8%D8%A7-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D8%A6%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%B1%D9%82"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q30:39",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:276",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:114",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:275",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q71:21",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q16:124",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:263",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:130",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5512",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65116",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5889",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S7327b61a-5b24-4034-8e05-e18a6f166c71",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S825f17a5-afb5-499e-a7b1-d3ee8d45affd",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S40cae5f9-3899-037c-940a-5d3bf8c824d1",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "charity-usury-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "comparison",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "How the Quran compares charity to interest",
+          "facet": "comparison"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "Allah deprives interest and increases charities",
+          "charity increases wealth interest destroys",
+          "comparison charity and usury Quran"
+        ],
+        "de": [
+          "Almosen vermehren Zinsen vernichten",
+          "Vergleich Almosen und Zinsen Koran",
+          "Geben von Almosen Zinsen Riba"
+        ],
+        "ar": [
+          "يمحق الله الربا ويربي الصدقات",
+          "مثل الصدقة والربا في القرآن",
+          "مقارنة الصدقات والربا"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q30:39",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/30/39"
+      },
+      {
+        "id": "Q13:26",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/13/26"
+      },
+      {
+        "id": "Q2:276",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/276"
+      },
+      {
+        "id": "Q2:275",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/275"
+      },
+      {
+        "id": "Q9:58",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/58"
+      },
+      {
+        "id": "Q3:130",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/130"
+      },
+      {
+        "id": "Q17:89",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/17/89"
+      },
+      {
+        "id": "Q17:16",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/17/16"
+      },
+      {
+        "id": "HE5512",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5512"
+      },
+      {
+        "id": "HE6258",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/6258"
+      },
+      {
+        "id": "HE5889",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5889"
+      },
+      {
+        "id": "S6f33544b-c909-43b7-8be7-881296a082bd",
+        "kind": "scholar",
+        "title": "حكم أكل الناظر على الوقف من الوقف",
+        "url": "https://binbaz.org.sa/fatwas/15416/%D8%AD%D9%83%D9%85-%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D9%86%D8%A7%D8%B8%D8%B1-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%88%D9%82%D9%81-%D9%85%D9%86-%D8%A7%D9%84%D9%88%D9%82%D9%81"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q30:39",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q13:26",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:276",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:275",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:58",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:130",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q17:89",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q17:16",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5512",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE6258",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5889",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S6f33544b-c909-43b7-8be7-881296a082bd",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "debts-contract-ar",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Ruling on writing down a deferred debt",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "writing debt contract deferred loan ruling",
+          "obligation to record debt Quran verse"
+        ],
+        "de": [
+          "Schuldschein schreiben Kredit Urteil",
+          "Vertrag bei Schulden Pflicht"
+        ],
+        "ar": [
+          "توثيق الديون كتابة في الفقه"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:282",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/282"
+      },
+      {
+        "id": "Q9:60",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/60"
+      },
+      {
+        "id": "Q2:283",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/283"
+      },
+      {
+        "id": "Q4:12",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/12"
+      },
+      {
+        "id": "Q68:47",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/68/47"
+      },
+      {
+        "id": "Q18:49",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/18/49"
+      },
+      {
+        "id": "Q64:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/64/17"
+      },
+      {
+        "id": "Q4:11",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/11"
+      },
+      {
+        "id": "HE3753",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3753"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:282",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:60",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:283",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:12",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q68:47",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q18:49",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q64:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:11",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3753",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "debts-contract-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Whether Islamic law instructs writing down loans and debts",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "writing debts loans contract obligation islam",
+          "recording loans financial transactions ruling"
+        ],
+        "de": [
+          "schulden aufschreiben kredit vertrag islam",
+          "darlehen verschriftlichen rechtliche regelung"
+        ],
+        "ar": [
+          "توثيق الديون كتابة القرض أحكام المعاملات"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:282",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/282"
+      },
+      {
+        "id": "Q57:11",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/57/11"
+      },
+      {
+        "id": "Q9:60",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/60"
+      },
+      {
+        "id": "Q57:18",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/57/18"
+      },
+      {
+        "id": "Q4:92",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/92"
+      },
+      {
+        "id": "Q68:46",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/68/46"
+      },
+      {
+        "id": "Q49:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/49/17"
+      },
+      {
+        "id": "Q64:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/64/17"
+      },
+      {
+        "id": "HE3753",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3753"
+      },
+      {
+        "id": "S462518ed-2868-bac1-8b53-03b201dec640",
+        "kind": "scholar",
+        "title": "الكتابة في المعاملات فيها حفظ للحقوق",
+        "url": "https://binbaz.org.sa/fatwas/17429/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D9%81%D9%8A%D9%87%D8%A7-%D8%AD%D9%81%D8%B8-%D9%84%D9%84%D8%AD%D9%82%D9%88%D9%82"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:282",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q57:11",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:60",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q57:18",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:92",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q68:46",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q49:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q64:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3753",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S462518ed-2868-bac1-8b53-03b201dec640",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "debts-contract-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Ruling on writing down debts and loans",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "debt writing obligation Quran verse",
+          "recording loans contracts Islam",
+          "written agreement debt Islam ruling"
+        ],
+        "de": [
+          "Schulden schriftlich festhalten Islam",
+          "Kredit Darlehen aufschreiben Koran",
+          "Leihgeschäft Vertragspflicht Islam",
+          "Verschuldung schriftlicher Vertrag"
+        ],
+        "ar": [
+          "كتابة الدين في الإسلام حكم",
+          "توثيق الديون والقروض كتابة"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:282",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/282"
+      },
+      {
+        "id": "Q49:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/49/17"
+      },
+      {
+        "id": "Q4:12",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/12"
+      },
+      {
+        "id": "Q3:19",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/19"
+      },
+      {
+        "id": "Q69:19",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/69/19"
+      },
+      {
+        "id": "Q36:12",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/36/12"
+      },
+      {
+        "id": "Q57:18",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/57/18"
+      },
+      {
+        "id": "Q64:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/64/17"
+      },
+      {
+        "id": "HE4322",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4322"
+      },
+      {
+        "id": "HE3753",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3753"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:282",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q49:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:12",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:19",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q69:19",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q36:12",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q57:18",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q64:17",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4322",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3753",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "divorce-limit-ar",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "The maximum number of times a husband can issue a revocable divorce",
+          "facet": "quantity"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "number of revocable divorces allowed",
+          "how many times revocable divorce"
+        ],
+        "de": [
+          "anzahl widerrufliche scheidung",
+          "wie oft widerruflich scheiden"
+        ],
+        "ar": [
+          "عدد طلقات الطلاق الرجعي",
+          "كم مرة الطلاق الرجعي",
+          "الطلاق الرجعي كم مرة يملك الزوج"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:229",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/229"
+      },
+      {
+        "id": "Q33:49",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/49"
+      },
+      {
+        "id": "Q2:230",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/230"
+      },
+      {
+        "id": "Q2:227",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/227"
+      },
+      {
+        "id": "Q65:1",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/65/1"
+      },
+      {
+        "id": "Q2:228",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/228"
+      },
+      {
+        "id": "Q96:8",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/96/8"
+      },
+      {
+        "id": "Q9:37",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/37"
+      },
+      {
+        "id": "HE4322",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4322"
+      },
+      {
+        "id": "HE5449",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5449"
+      },
+      {
+        "id": "Sed4ee699-90d0-475d-a23b-581133bbe251",
+        "kind": "scholar",
+        "title": "حكم إرث المطلقة طلاقًا رجعيًا إذا ماتت في العدة",
+        "url": "https://binbaz.org.sa/fatwas/19309/%D8%AD%D9%83%D9%85-%D8%A5%D8%B1%D8%AB-%D8%A7%D9%84%D9%85%D8%B7%D9%84%D9%82%D8%A9-%D8%B7%D9%84%D8%A7%D9%82%D9%8B%D8%A7-%D8%B1%D8%AC%D8%B9%D9%8A%D9%8B%D8%A7-%D8%A5%D8%B0%D8%A7-%D9%85%D8%A7%D8%AA%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%AF%D8%A9"
+      },
+      {
+        "id": "Sdc4c2d76-5be3-474b-8d11-fd01a7c99791",
+        "kind": "scholar",
+        "title": "الوسوسة في الوضوء وكيفية علاجها",
+        "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D9%8A-%5B51%5D/%D8%A7%D9%84%D9%88%D8%B3%D9%88%D8%B3%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%88%D8%B6%D9%88%D8%A1-%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC%D9%87%D8%A7/20cc1922-60d1-427a-a435-672d0ce358ef"
+      },
+      {
+        "id": "Sd3292328-a2dc-ad95-1a74-a5e115aa1953",
+        "kind": "scholar",
+        "title": "ما عدد الطلقات التي تحسب لمن رجعت بعد طلاق بائن؟",
+        "url": "https://binbaz.org.sa/fatwas/6735/%D9%85%D8%A7-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%B7%D9%84%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%8A-%D8%AA%D8%AD%D8%B3%D8%A8-%D9%84%D9%85%D9%86-%D8%B1%D8%AC%D8%B9%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%B7%D9%84%D8%A7%D9%82-%D8%A8%D8%A7%D8%A6%D9%86%D8%9F"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:229",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:230",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:49",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:227",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q65:1",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:228",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q96:8",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:37",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4322",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5449",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sed4ee699-90d0-475d-a23b-581133bbe251",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sdc4c2d76-5be3-474b-8d11-fd01a7c99791",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sd3292328-a2dc-ad95-1a74-a5e115aa1953",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "divorce-limit-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "How many times can a husband divorce and reconcile with his wife",
+          "facet": "quantity"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "number of divorces for reconciliation",
+          "revocable divorce limits times",
+          "returning wife after divorce count"
+        ],
+        "de": [
+          "Anzahl der Scheidungen Wiedervereinigung",
+          "Widerruf der Scheidung wie oft"
+        ],
+        "ar": [
+          "عدد طلاق الرجعة",
+          "الطلاق المرة الأولى والثانية",
+          "مراجعة الزوجة كم مرة"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:228",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/228"
+      },
+      {
+        "id": "Q2:230",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/230"
+      },
+      {
+        "id": "Q2:229",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/229"
+      },
+      {
+        "id": "Q26:7",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/26/7"
+      },
+      {
+        "id": "Q65:1",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/65/1"
+      },
+      {
+        "id": "Q2:227",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/227"
+      },
+      {
+        "id": "Q44:25",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/44/25"
+      },
+      {
+        "id": "Q33:49",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/49"
+      },
+      {
+        "id": "HE66049",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66049"
+      },
+      {
+        "id": "HE65021",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65021"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:228",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:230",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:229",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q26:7",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q65:1",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:227",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q44:25",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:49",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66049",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65021",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "divorce-limit-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Number of times a man can revoke a divorce and resume marriage",
+          "facet": "quantity"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "revocable divorce number of times",
+          "taking back wife divorces count",
+          "resume marriage after revocable divorce"
+        ],
+        "de": [
+          "widerrufliche Scheidung Häufigkeit",
+          "Ehe fortsetzen nach Scheidung wie oft",
+          "wiederheiraten nach erstem und zweitem Talaq"
+        ],
+        "ar": [
+          "عدد طلقات الرجعة"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:230",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/230"
+      },
+      {
+        "id": "Q2:237",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/237"
+      },
+      {
+        "id": "Q17:7",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/17/7"
+      },
+      {
+        "id": "Q2:229",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/229"
+      },
+      {
+        "id": "Q2:241",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/241"
+      },
+      {
+        "id": "Q50:15",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/50/15"
+      },
+      {
+        "id": "Q23:112",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/23/112"
+      },
+      {
+        "id": "Q65:1",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/65/1"
+      },
+      {
+        "id": "HE65021",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65021"
+      },
+      {
+        "id": "Sd3292328-a2dc-ad95-1a74-a5e115aa1953",
+        "kind": "scholar",
+        "title": "ما عدد الطلقات التي تحسب لمن رجعت بعد طلاق بائن؟",
+        "url": "https://binbaz.org.sa/fatwas/6735/%D9%85%D8%A7-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%B7%D9%84%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%8A-%D8%AA%D8%AD%D8%B3%D8%A8-%D9%84%D9%85%D9%86-%D8%B1%D8%AC%D8%B9%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%B7%D9%84%D8%A7%D9%82-%D8%A8%D8%A7%D8%A6%D9%86%D8%9F"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:230",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:237",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q17:7",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:229",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:241",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q50:15",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q23:112",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q65:1",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65021",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sd3292328-a2dc-ad95-1a74-a5e115aa1953",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "gold-zakat-conditions-amount-ar",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "The conditions required for zakat to be obligatory on gold",
+          "facet": "conditions"
+        },
+        {
+          "id": "R2",
+          "text": "The amount or rate due as zakat on gold",
+          "facet": "quantity"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "zakat on gold nisab conditions",
+          "gold zakat percentage rate amount",
+          "minimum weight gold zakat due"
+        ],
+        "de": [
+          "Zakat auf Gold Voraussetzungen Nisab",
+          "Gold Zakat Betrag Prozentsatz"
+        ],
+        "ar": [
+          "شروط وجوب الزكاة في الذهب",
+          "مقدار زكاة الذهب النصب",
+          "كم زكاة الذهب عيار"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q9:34",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/34"
+      },
+      {
+        "id": "Q44:25",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/44/25"
+      },
+      {
+        "id": "Q11:85",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/11/85"
+      },
+      {
+        "id": "Q22:41",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/22/41"
+      },
+      {
+        "id": "Q3:14",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/14"
+      },
+      {
+        "id": "Q9:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/35"
+      },
+      {
+        "id": "Q35:33",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/35/33"
+      },
+      {
+        "id": "Q99:8",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/99/8"
+      },
+      {
+        "id": "HE6611",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/6611"
+      },
+      {
+        "id": "S13e07152-d2a0-4ed7-98c9-407529d8de17",
+        "kind": "scholar",
+        "title": "شروط وجوب الزكاة في الذهب",
+        "url": "https://binbaz.org.sa/fatwas/16233/%D8%B4%D8%B1%D9%88%D8%B7-%D9%88%D8%AC%D9%88%D8%A8-%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B0%D9%87%D8%A8"
+      },
+      {
+        "id": "Sae39d3ca-d721-60ba-23bf-6b8fb94ad2af",
+        "kind": "scholar",
+        "title": "نصاب الزكاة في الذهب",
+        "url": "https://binbaz.org.sa/fatwas/10589/%D9%86%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B0%D9%87%D8%A8"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q9:34",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q44:25",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q11:85",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q22:41",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:14",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:35",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q35:33",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q99:8",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE6611",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S13e07152-d2a0-4ed7-98c9-407529d8de17",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sae39d3ca-d721-60ba-23bf-6b8fb94ad2af",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "mercy-eternal-punishment-en",
+    "outcome": "no_source",
+    "reasons": [
+      "evidence_insufficient"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "objection",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "How eternal punishment in Hell is compatible with divine mercy and justice",
+          "facet": "response"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "wisdom eternal punishment hell mercy justice",
+          "why hell fire eternal disbelievers sins",
+          "divine mercy wrath balance hereafter"
+        ],
+        "de": [
+          "ewige strafe hölle barmherzigkeit gerechtigkeit",
+          "warum hölle ewig göttliche gnade"
+        ],
+        "ar": [
+          "حكمة الخلود في النار ورحمة الله",
+          "الجمع بين الرحمة والعذاب الأبدي",
+          "عدالة الله في تعذيب الكافرين"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q43:74",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/43/74"
+      },
+      {
+        "id": "Q2:81",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/81"
+      },
+      {
+        "id": "Q24:14",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/24/14"
+      },
+      {
+        "id": "Q33:66",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/66"
+      },
+      {
+        "id": "Q54:45",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/54/45"
+      },
+      {
+        "id": "Q33:64",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/64"
+      },
+      {
+        "id": "Q25:65",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/25/65"
+      },
+      {
+        "id": "Q9:68",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/68"
+      },
+      {
+        "id": "HE3566",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3566"
+      },
+      {
+        "id": "HE5502",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5502"
+      },
+      {
+        "id": "HE65657",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65657"
+      },
+      {
+        "id": "S145fe748-6519-42c5-97c8-3fa489b90d51",
+        "kind": "scholar",
+        "title": "لا يجوز الجمع بين الصلاتين إلا بعذر شرعي",
+        "url": "https://binbaz.org.sa/fatwas/5077/%D9%84%D8%A7-%D9%8A%D8%AC%D9%88%D8%B2-%D8%A7%D9%84%D8%AC%D9%85%D8%B9-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%AA%D9%8A%D9%86-%D8%A5%D9%84%D8%A7-%D8%A8%D8%B9%D8%B0%D8%B1-%D8%B4%D8%B1%D8%B9%D9%8A"
+      },
+      {
+        "id": "Sc62422de-c993-49c9-8e01-52bfc137d1a5",
+        "kind": "scholar",
+        "title": "مسافة القصر في السفر والجمع بين الصلاتين",
+        "url": "https://binbaz.org.sa/fatwas/8187/%D9%85%D8%B3%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D9%82%D8%B5%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%81%D8%B1-%D9%88%D8%A7%D9%84%D8%AC%D9%85%D8%B9-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%AA%D9%8A%D9%86"
+      },
+      {
+        "id": "S9669384f-ca5e-39fd-7ada-7e0025760eb0",
+        "kind": "scholar",
+        "title": "معنى الخلود في النار",
+        "url": "https://binbaz.org.sa/fatwas/3217/%D9%85%D8%B9%D9%86%D9%89-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B1"
+      },
+      {
+        "id": "S1052471d-a8b5-5b54-d9d0-2413efbd0a92",
+        "kind": "scholar",
+        "title": "أنواع الخلود في النار",
+        "url": "https://binbaz.org.sa/fatwas/1135/%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D9%84%D9%88%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%86%D8%A7%D8%B1"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q43:74",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:81",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q24:14",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:66",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q54:45",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:64",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q25:65",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:68",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3566",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5502",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65657",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S145fe748-6519-42c5-97c8-3fa489b90d51",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sc62422de-c993-49c9-8e01-52bfc137d1a5",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S9669384f-ca5e-39fd-7ada-7e0025760eb0",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S1052471d-a8b5-5b54-d9d0-2413efbd0a92",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "five-prayers-why-en",
+    "outcome": "no_source",
+    "reasons": [
+      "draft_model_no_answer"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "reason",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "The reasons why Muslims are required to pray five times a day",
+          "facet": "reason"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "wisdom behind five daily prayers",
+          "reasons for prayer times Islam",
+          "spiritual benefits of Salah",
+          "obligation of five prayers reason"
+        ],
+        "de": [
+          "Sinn der fünf täglichen Gebete",
+          "Warum fünfmal am Tag beten Islam",
+          "Weisheit des Gebets im Islam"
+        ],
+        "ar": [
+          "حكمة الصلوات الخمس",
+          "لماذا فرضت الصلاة خمس مرات",
+          "أسرار الصلاة في الإسلام"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q2:238",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/238"
+      },
+      {
+        "id": "Q4:103",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/103"
+      },
+      {
+        "id": "Q22:28",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/22/28"
+      },
+      {
+        "id": "Q4:101",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/101"
+      },
+      {
+        "id": "Q3:125",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/125"
+      },
+      {
+        "id": "Q24:58",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/24/58"
+      },
+      {
+        "id": "Q2:272",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/272"
+      },
+      {
+        "id": "Q30:18",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/30/18"
+      },
+      {
+        "id": "HE3591",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3591"
+      },
+      {
+        "id": "HE4176",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4176"
+      },
+      {
+        "id": "HE11286",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/11286"
+      },
+      {
+        "id": "S0257e130-50c6-4f45-8a29-8249269ec017",
+        "kind": "scholar",
+        "title": "هل يجب قضاء الصلوات الفائتة؟",
+        "url": "https://binbaz.org.sa/fatwas/3906/%D9%87%D9%84-%D9%8A%D8%AC%D8%A8-%D9%82%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B5%D9%84%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%AA%D8%A9%D8%9F"
+      },
+      {
+        "id": "S0a4791a7-cfd9-31e5-003e-85f557994465",
+        "kind": "scholar",
+        "title": "الأذكار التي دبر الصلوات الخمس",
+        "url": "https://binbaz.org.sa/fatwas/8477/%D8%A7%D9%84%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D8%AA%D9%8A-%D8%AF%D8%A8%D8%B1-%D8%A7%D9%84%D8%B5%D9%84%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D9%85%D8%B3"
+      },
+      {
+        "id": "Sb3eedd2a-7a17-efe9-d855-b58e89e1e812",
+        "kind": "scholar",
+        "title": "حكم الترتيب في القضاء بين الصلوات الخمس",
+        "url": "https://binbaz.org.sa/fatwas/20719/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D9%84%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D9%85%D8%B3"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:238",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:103",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q22:28",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:101",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:125",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q24:58",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:272",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q30:18",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3591",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4176",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE11286",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S0257e130-50c6-4f45-8a29-8249269ec017",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S0a4791a7-cfd9-31e5-003e-85f557994465",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sb3eedd2a-7a17-efe9-d855-b58e89e1e812",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "repentance-steps-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Steps required to make sincere repentance",
+          "facet": "steps"
+        },
+        {
+          "id": "R2",
+          "text": "Conditions for repentance to be accepted",
+          "facet": "conditions"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "conditions of sincere repentance tawbah",
+          "steps to repent from sins",
+          "forgiveness turning back to God",
+          "regret abandon resolve not to return"
+        ],
+        "de": [
+          "Bedingungen der Reue Tauba",
+          "Schritte zur Vergebung der Sünden",
+          "Reue zeigen Sünden vergeben"
+        ],
+        "ar": [
+          "شروط التوبة النصوحة",
+          "كيفية التوبة من الذنوب",
+          "التوبة الى الله الندم العزم"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q66:8",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/66/8"
+      },
+      {
+        "id": "Q4:16",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/16"
+      },
+      {
+        "id": "Q11:52",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/11/52"
+      },
+      {
+        "id": "Q2:167",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/167"
+      },
+      {
+        "id": "Q39:53",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/39/53"
+      },
+      {
+        "id": "Q4:146",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/146"
+      },
+      {
+        "id": "Q40:3",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/40/3"
+      },
+      {
+        "id": "Q63:5",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/63/5"
+      },
+      {
+        "id": "HE3078",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3078"
+      },
+      {
+        "id": "HE65312",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/65312"
+      },
+      {
+        "id": "HE4706",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4706"
+      },
+      {
+        "id": "Secf94f79-b132-4f2f-a5c6-f9c39f9ba4e6",
+        "kind": "scholar",
+        "title": "الأمور اللازمة على من أكل أموال الناس بالباطل",
+        "url": "https://binbaz.org.sa/fatwas/9533/%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%B1-%D8%A7%D9%84%D9%84%D8%A7%D8%B2%D9%85%D8%A9-%D8%B9%D9%84%D9%89-%D9%85%D9%86-%D8%A3%D9%83%D9%84-%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D9%86%D8%A7%D8%B3-%D8%A8%D8%A7%D9%84%D8%A8%D8%A7%D8%B7%D9%84"
+      },
+      {
+        "id": "S43e1538e-b01f-40dd-9ee7-7117e53b6370",
+        "kind": "scholar",
+        "title": "حكم من أخرت القضاء إلى رمضان آخر",
+        "url": "https://binbaz.org.sa/fatwas/14200/%D8%AD%D9%83%D9%85-%D9%85%D9%86-%D8%A3%D8%AE%D8%B1%D8%AA-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A1-%D8%A5%D9%84%D9%89-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A2%D8%AE%D8%B1"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q66:8",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:16",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q11:52",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:167",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q39:53",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:146",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q40:3",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q63:5",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3078",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE65312",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4706",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Secf94f79-b132-4f2f-a5c6-f9c39f9ba4e6",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S43e1538e-b01f-40dd-9ee7-7117e53b6370",
+        "relevance": "partial",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  },
+  {
+    "id": "conversion-guidance-de",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "practice",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Steps required to become Muslim",
+          "facet": "steps"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "testimony of faith declaration",
+          "entering Islam steps",
+          "how to become Muslim"
+        ],
+        "de": [
+          "Schahada sprechen Muslim werden",
+          "Glaubensbekenntnis Eintritt in den Islam",
+          "Schritte um Muslim zu werden"
+        ],
+        "ar": [
+          "الشهادتين الدخول في الإسلام",
+          "كيفية الدخول في الإسلام النطق بالشهادتين"
+        ]
+      }
+    },
+    "candidates": [
+      {
+        "id": "Q72:14",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/72/14"
+      },
+      {
+        "id": "Q2:208",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/208"
+      },
+      {
+        "id": "Q3:85",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/85"
+      },
+      {
+        "id": "Q25:27",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/25/27"
+      },
+      {
+        "id": "Q70:33",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/70/33"
+      },
+      {
+        "id": "Q22:78",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/22/78"
+      },
+      {
+        "id": "Q49:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/49/17"
+      },
+      {
+        "id": "Q7:20",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/7/20"
+      },
+      {
+        "id": "HE6468",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/6468"
+      },
+      {
+        "id": "S35f354cc-760c-4ae5-9935-9b41c1294e0e",
+        "kind": "scholar",
+        "title": "شروط كلمة التوحيد",
+        "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B340%5D/%D8%B4%D8%B1%D9%88%D8%B7-%D9%83%D9%84%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF/b8b96695-98d3-490b-b9bb-ec1131a61589"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q72:14",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:208",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:85",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q25:27",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q70:33",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q22:78",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q49:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q7:20",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE6468",
+        "relevance": "context",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "S35f354cc-760c-4ae5-9935-9b41c1294e0e",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  }
+]

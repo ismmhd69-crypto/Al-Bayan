@@ -888,6 +888,28 @@ const scholarSelection = (relevance: string) => ({
 const arabicQueries = { ...understanding, search_queries_ar: ["حكمة الصيام"] };
 
 describe("scholar quotes", () => {
+  it("passes checked topic page URLs to the scholar source adapter", async () => {
+    let mapped: string[] | undefined;
+    const goldFrame = {
+      ...arabicQueries,
+      language: "ar",
+      question_type: "ruling",
+      subjects: ["gold zakat"],
+      requested_points: [
+        { text: "Conditions for gold zakat", facet: "conditions" },
+        { text: "Gold zakat rate due", facet: "quantity" },
+      ],
+      search_queries_ar: ["زكاة الذهب مقدارها"],
+    };
+    const { d: gold } = deps({ understand: goldFrame, draft: goodDraft });
+    gold.searchScholars = async (_phrases, mappedUrls) => {
+      mapped = mappedUrls;
+      return [];
+    };
+    await runPipeline("ما شروط وجوب الزكاة في الذهب وكم مقدارها؟", "ar", gold);
+    expect(mapped?.[0]).toContain("binbaz.org.sa/fatwas/5743/");
+  });
+
   it("cites a direct scholar quote, crediting the scholar, and shows his exact words with source and link", async () => {
     const draft = {
       status: "answer",
@@ -954,6 +976,19 @@ describe("scholar quotes", () => {
     };
     await runPipeline("What does Islam teach about fasting?", "en", d2);
     expect(called).toBe(false);
+  });
+});
+
+describe("wider source search", () => {
+  it("fetches neighbouring verses only for the bounded selector set", async () => {
+    const { d } = deps({ understand: understanding, draft: goodDraft });
+    const keys = ["2:183", ...Array.from({ length: 11 }, (_, index) => `2:${index + 1}`)];
+    d.search = async () => keys;
+    d.getVerse = async (key) => ({ ...verses[0], key, url: `https://quran.com/${key.replace(":", "/")}` });
+    let neighbourCalls = 0;
+    d.neighbours = async () => { neighbourCalls += 1; return []; };
+    await runPipeline("What does Islam teach about fasting?", "en", d);
+    expect(neighbourCalls).toBe(8);
   });
 });
 
