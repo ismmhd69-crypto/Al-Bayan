@@ -21,7 +21,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       </div>
 
       <div className="home-hero">
-        <Beacon size={56} />
+        <Beacon size={88} />
         <h1>{t.home.title}</h1>
         <p className="lead">{t.home.sub}</p>
       </div>

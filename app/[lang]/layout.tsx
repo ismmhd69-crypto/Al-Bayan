@@ -23,6 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   if (!isLocale(lang)) return {};
   const t = getDictionary(lang);
   return {
+    // Netlify sets URL to the site's main address at build time; needed for absolute link-preview images.
+    metadataBase: new URL(process.env.URL ?? "http://localhost:3000"),
     title: { default: t.meta.title, template: `%s · Bayan` },
     description: t.meta.description,
     alternates: { languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])) },

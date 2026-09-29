@@ -122,7 +122,7 @@ export default function AskChat({
       <div className="chat-log" aria-live="polite" aria-busy={busy}>
         {messages.length === 0 && !busy && (
           <div className="chat-empty">
-            <Beacon size={44} />
+            <Beacon size={64} />
             <h2>{t.emptyTitle}</h2>
             <p>{t.emptySub}</p>
             <p className="eyebrow">{t.suggestions}</p>

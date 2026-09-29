@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
+import { Beacon } from "@/components/Logo";
 import { BUY_ME_A_COFFEE_URL } from "@/lib/support";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -23,6 +24,7 @@ export default async function SupportPage({ params }: { params: Promise<{ lang: 
         {d.more.title}
       </Link>
       <header className="page-head">
+        <Beacon size={64} />
         <h1>{t.title}</h1>
         <p className="lead">{t.intro}</p>
       </header>

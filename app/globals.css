@@ -245,7 +245,8 @@ svg {
   inset-block-end: 0;
   z-index: 30;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
   block-size: calc(var(--tabbar) + env(safe-area-inset-bottom, 0px));
   padding-block-end: env(safe-area-inset-bottom, 0);
   background: var(--surface);
