@@ -1420,3 +1420,158 @@ details[open] > summary .chev {
   font-size: var(--fs-sm);
   color: var(--ink-2);
 }
+
+/* ---------- Home sections below the question box (layout B, Mo 2026-09-29) ---------- */
+.home-section {
+  display: grid;
+  gap: 12px;
+  margin-block-start: 12px;
+}
+.home-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.home-how {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+}
+@media (min-width: 720px) {
+  .home-how {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.home-how-item {
+  display: grid;
+  gap: 6px;
+  align-content: start;
+  padding: 18px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.home-how-item h3 {
+  font-size: var(--fs-md);
+}
+.home-how-item p {
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}
+.home-how-icon {
+  inline-size: 22px;
+  block-size: 22px;
+  color: var(--gold);
+}
+.home-topics {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+}
+@media (min-width: 720px) {
+  .home-topics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.home-topic {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 10px;
+  row-gap: 2px;
+  align-items: center;
+  min-block-size: 64px;
+  block-size: 100%;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.home-topic:hover,
+.home-topic:focus-visible {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+.home-topic-title {
+  grid-column: 1;
+  font-weight: 600;
+}
+.home-topic-question {
+  grid-column: 1;
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}
+.home-topic > svg {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  inline-size: 18px;
+  block-size: 18px;
+  color: var(--ink-3);
+}
+.home-new {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-block-start: 12px;
+  padding: 18px;
+  border-radius: var(--radius);
+  background: var(--gold-soft);
+  border: 1px solid var(--gold-line);
+  color: var(--gold-ink);
+  text-decoration: none;
+}
+.home-new > span {
+  flex: 1;
+  display: grid;
+  gap: 2px;
+}
+.home-new strong {
+  font-size: var(--fs-lg);
+}
+.home-new svg {
+  inline-size: 20px;
+  block-size: 20px;
+  flex: none;
+}
+.home-new .home-new-icon {
+  inline-size: 26px;
+  block-size: 26px;
+}
+.home-new:hover,
+.home-new:focus-visible {
+  border-color: var(--gold);
+}
+.home-scholars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.home-scholars li {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}
+.home-support {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-block-start: 12px;
+  padding-block-start: 20px;
+  border-block-start: 1px solid var(--line);
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+  text-align: center;
+}
+.home-support svg {
+  inline-size: 16px;
+  block-size: 16px;
+  color: var(--gold);
+}
