@@ -1,0 +1,11 @@
+# Netlify build settings for Al-Bayan (Next.js). Netlify detects Next.js from this build and adds its
+# Next.js runtime (server pages, API routes, proxy.ts) automatically.
+# Secrets are never put here: set them in Netlify under Project configuration > Environment variables.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  # Next.js 16 needs Node 20.9 or newer; this matches local development.
+  NODE_VERSION = "22"
