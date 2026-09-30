@@ -7,6 +7,7 @@ import a_congregational_prayer_men from "./congregational-prayer-men.json";
 import a_dhikr_after_prayer from "./dhikr-after-prayer.json";
 import a_divorce_basics from "./divorce-basics.json";
 import a_fasting_sick_traveller from "./fasting-sick-traveller.json";
+import a_five_pillars from "./five-pillars.json";
 import a_friday_prayer from "./friday-prayer.json";
 import a_greeting_non_muslims_holidays from "./greeting-non-muslims-holidays.json";
 import a_halal_meat_people_of_the_book from "./halal-meat-people-of-the-book.json";
@@ -23,6 +24,7 @@ import a_marriage_muslim_woman_non_muslim from "./marriage-muslim-woman-non-musl
 import a_missed_prayer from "./missed-prayer.json";
 import a_pillars_of_iman from "./pillars-of-iman.json";
 import a_praying_traveller from "./praying-traveller.json";
+import a_prophet_muhammad from "./prophet-muhammad.json";
 import a_rights_of_parents from "./rights-of-parents.json";
 import a_steps_of_hajj from "./steps-of-hajj.json";
 import a_visiting_graves_asking_dead from "./visiting-graves-asking-dead.json";
@@ -39,6 +41,7 @@ export const PREPARED_ANSWERS: Record<string, PreparedFile> = {
   "dhikr-after-prayer": a_dhikr_after_prayer as unknown as PreparedFile,
   "divorce-basics": a_divorce_basics as unknown as PreparedFile,
   "fasting-sick-traveller": a_fasting_sick_traveller as unknown as PreparedFile,
+  "five-pillars": a_five_pillars as unknown as PreparedFile,
   "friday-prayer": a_friday_prayer as unknown as PreparedFile,
   "greeting-non-muslims-holidays": a_greeting_non_muslims_holidays as unknown as PreparedFile,
   "halal-meat-people-of-the-book": a_halal_meat_people_of_the_book as unknown as PreparedFile,
@@ -55,6 +58,7 @@ export const PREPARED_ANSWERS: Record<string, PreparedFile> = {
   "missed-prayer": a_missed_prayer as unknown as PreparedFile,
   "pillars-of-iman": a_pillars_of_iman as unknown as PreparedFile,
   "praying-traveller": a_praying_traveller as unknown as PreparedFile,
+  "prophet-muhammad": a_prophet_muhammad as unknown as PreparedFile,
   "rights-of-parents": a_rights_of_parents as unknown as PreparedFile,
   "steps-of-hajj": a_steps_of_hajj as unknown as PreparedFile,
   "visiting-graves-asking-dead": a_visiting_graves_asking_dead as unknown as PreparedFile,

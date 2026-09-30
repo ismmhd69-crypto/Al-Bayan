@@ -1,0 +1,316 @@
+{
+  "topic_id": "prophet-muhammad",
+  "status": "draft",
+  "researched_at": "2026-09-30T12:00:00+03:00",
+  "questions": {
+    "en": [
+      "Who was the Prophet Muhammad",
+      "Who is Prophet Muhammad",
+      "Tell me about the Prophet Muhammad",
+      "Who was Muhammad",
+      "Who is the Prophet Muhammad in Islam"
+    ],
+    "de": [
+      "Wer war der Prophet Muhammad",
+      "Wer ist der Prophet Muhammad",
+      "Erzähl mir vom Propheten Muhammad",
+      "Wer war Muhammad",
+      "Wer ist der Prophet Muhammad im Islam"
+    ],
+    "ar": [
+      "من هو النبي محمد",
+      "من هو محمد ﷺ",
+      "عرفني بالنبي محمد",
+      "من هو رسول الله محمد",
+      "من هو نبي الإسلام"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q33:40",
+      "kind": "quran",
+      "reference": "33:40",
+      "url": "https://quran.com/33/40"
+    },
+    {
+      "id": "Q21:25",
+      "kind": "quran",
+      "reference": "21:25",
+      "url": "https://quran.com/21/25"
+    },
+    {
+      "id": "Q68:4",
+      "kind": "quran",
+      "reference": "68:4",
+      "url": "https://quran.com/68/4"
+    },
+    {
+      "id": "HE6180",
+      "kind": "hadith"
+    },
+    {
+      "id": "HE8265",
+      "kind": "hadith"
+    },
+    {
+      "id": "S12434000-0000-4000-a000-000000000001",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "تفسير قوله تعالى: {وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ}",
+      "reference": "binbaz.org.sa, fatwa 12434",
+      "arabic": "الآية على ظاهرها، الله سبحانه أرسل نبيه محمد ﷺ رحمة للعالمين، هو رسول الله إلى الجن والإنس، إلى الجميع، كما قال تعالى: قُلْ يَا أَيُّهَا النَّاسُ إِنِّي رَسُولُ اللَّهِ إِلَيْكُمْ جَمِيعًا[الأعراف:158]، وقال سبحانه: وَمَا أَرْسَلْنَاكَ إِلَّا كَافَّةً لِلنَّاسِ بَشِيرًا وَنَذِيرًا[سبأ:28]، فهو رسول الله إلى الجميع، وهو رحمة الله إلى العالمين بأسباب رسالته وطاعة أوامره",
+      "url": "https://binbaz.org.sa/fatwas/12434/%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D9%82%D9%88%D9%84%D9%87-%D8%AA%D8%B9%D8%A7%D9%84%D9%89%3A-%7B%D9%88%D9%8E%D9%85%D9%8E%D8%A7-%D8%A3%D9%8E%D8%B1%D9%92%D8%B3%D9%8E%D9%84%D9%92%D9%86%D9%8E%D8%A7%D9%83%D9%8E-%D8%A5%D9%90%D9%84%D9%91%D9%8E%D8%A7-%D8%B1%D9%8E%D8%AD%D9%92%D9%85%D9%8E%D8%A9%D9%8B-%D9%84%D9%90%D9%84%D9%92%D8%B9%D9%8E%D8%A7%D9%84%D9%8E%D9%85%D9%90%D9%8A%D9%86%D9%8E%7D"
+    }
+  ],
+  "answers": {
+    "en": {
+      "direct_answer": [
+        {
+          "text": "Muhammad ﷺ is the Messenger of Allah and the last of the prophets.",
+          "source_ids": [
+            "Q33:40"
+          ]
+        },
+        {
+          "text": "Shaykh Ibn Baz explained that Allah sent him as a mercy to the worlds, and that he is Allah's messenger to jinn and mankind, to everyone.",
+          "source_ids": [
+            "S12434000-0000-4000-a000-000000000001"
+          ]
+        },
+        {
+          "text": "His message is the one every messenger before him brought: to serve Allah alone.",
+          "source_ids": [
+            "Q21:25"
+          ]
+        },
+        {
+          "text": "The Quran speaks of his strong character, and Anas described him as the finest of people in character.",
+          "source_ids": [
+            "Q68:4",
+            "HE6180"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Who he is and what he brought",
+          "sentences": [
+            {
+              "text": "The Quran describes him as Allah's Messenger and the last of all prophets (33:40).",
+              "source_ids": [
+                "Q33:40"
+              ]
+            },
+            {
+              "text": "Shaykh Ibn Baz explained that the verse about mercy means what it plainly says, that Allah sent Muhammad ﷺ as a mercy to the worlds.",
+              "source_ids": [
+                "S12434000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "He explained that this mercy comes through his message and through obedience to his commands.",
+              "source_ids": [
+                "S12434000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "The Quran says that every messenger before him was told to teach that there is no god but Allah and to serve Him (21:25).",
+              "source_ids": [
+                "Q21:25"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "His character",
+          "sentences": [
+            {
+              "text": "Anas described the Messenger of Allah ﷺ as the finest of all people in character.",
+              "source_ids": [
+                "HE6180"
+              ]
+            },
+            {
+              "text": "When 'A'ishah was asked about his character, she said it was the Quran, and the Quran itself says he has a strong character (68:4).",
+              "source_ids": [
+                "HE8265",
+                "Q68:4"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "These sources show who he is, his mission and his character, but not the detailed story of his life, which is found in the books of his biography (seerah)."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Muhammad ﷺ ist Allahs Gesandter und der letzte Prophet.",
+          "source_ids": [
+            "Q33:40"
+          ]
+        },
+        {
+          "text": "Scheich Ibn Baz erklärte, dass Allah ihn als Barmherzigkeit für die Welten entsandt hat und dass er der Gesandte Allahs an Dschinn und Menschen ist, an alle.",
+          "source_ids": [
+            "S12434000-0000-4000-a000-000000000001"
+          ]
+        },
+        {
+          "text": "Seine Botschaft ist die aller Gesandten vor ihm: Allah allein zu dienen.",
+          "source_ids": [
+            "Q21:25"
+          ]
+        },
+        {
+          "text": "Der Koran spricht von seinem großartigen Charakter, und Anas beschrieb ihn als den Menschen mit dem schönsten Charakter.",
+          "source_ids": [
+            "Q68:4",
+            "HE6180"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Wer er ist und was er brachte",
+          "sentences": [
+            {
+              "text": "Der Koran beschreibt ihn als Allahs Gesandten und als letzten der Propheten (33:40).",
+              "source_ids": [
+                "Q33:40"
+              ]
+            },
+            {
+              "text": "Scheich Ibn Baz erklärte, dass der Vers über die Barmherzigkeit so gemeint ist, wie er lautet, dass Allah Muhammad ﷺ als Barmherzigkeit für die Welten gesandt hat.",
+              "source_ids": [
+                "S12434000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "Er erklärte, dass diese Barmherzigkeit durch seine Botschaft und den Gehorsam gegenüber seinen Geboten kommt.",
+              "source_ids": [
+                "S12434000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "Der Koran sagt, dass jedem Gesandten vor ihm offenbart wurde, dass es keinen Gott außer Allah gibt und dass man Ihm allein dienen soll (21:25).",
+              "source_ids": [
+                "Q21:25"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Sein Charakter",
+          "sentences": [
+            {
+              "text": "Anas beschrieb den Gesandten Allahs ﷺ als den Menschen mit dem schönsten Charakter.",
+              "source_ids": [
+                "HE6180"
+              ]
+            },
+            {
+              "text": "Als Aischa nach seinem Charakter gefragt wurde, sagte sie, sein Charakter sei der Koran gewesen, und der Koran selbst spricht von seinem großartigen Charakter (68:4).",
+              "source_ids": [
+                "HE8265",
+                "Q68:4"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Diese Quellen zeigen, wer er ist, seine Sendung und seinen Charakter, nicht aber die Einzelheiten seines Lebens, die in den Büchern der Prophetenbiografie (Sira) stehen."
+        }
+      ]
+    },
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "محمد ﷺ رسول الله وآخر الأنبياء.",
+          "source_ids": [
+            "Q33:40"
+          ]
+        },
+        {
+          "text": "وبيّن الشيخ ابن باز أن الله بعثه رحمة للعالمين، وأنه مرسل إلى الجن والإنس جميعًا.",
+          "source_ids": [
+            "S12434000-0000-4000-a000-000000000001"
+          ]
+        },
+        {
+          "text": "رسالته هي رسالة كل رسول قبله: عبادة الله وحده.",
+          "source_ids": [
+            "Q21:25"
+          ]
+        },
+        {
+          "text": "ويذكر القرآن عظمة خلقه، ووصفه أنس بأنه أفضل الناس خلقًا.",
+          "source_ids": [
+            "Q68:4",
+            "HE6180"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "من هو وما الذي جاء به",
+          "sentences": [
+            {
+              "text": "يذكر القرآن أنه رسول الله وآخر الأنبياء (33:40).",
+              "source_ids": [
+                "Q33:40"
+              ]
+            },
+            {
+              "text": "وبيّن الشيخ ابن باز أن الآية على ظاهرها: الله بعث محمدًا ﷺ رحمة للعالمين.",
+              "source_ids": [
+                "S12434000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "وبيّن أن هذه الرحمة تكون بأسباب رسالته وطاعة أوامره.",
+              "source_ids": [
+                "S12434000-0000-4000-a000-000000000001"
+              ]
+            },
+            {
+              "text": "ويقول القرآن إن كل رسول قبله أُوحي إليه بتوحيد الله وأن يُعبد وحده (21:25).",
+              "source_ids": [
+                "Q21:25"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "أخلاقه",
+          "sentences": [
+            {
+              "text": "ووصفه أنس بأنه أفضل الناس خلقًا.",
+              "source_ids": [
+                "HE6180"
+              ]
+            },
+            {
+              "text": "وحين سُئلت عائشة رضي الله عنها عن خلقه قالت إنه القرآن، ويذكر القرآن نفسه عظمة خلقه (68:4).",
+              "source_ids": [
+                "HE8265",
+                "Q68:4"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "تبيّن هذه المصادر من هو النبي ﷺ ورسالته وأخلاقه، ولا تسرد تفاصيل سيرته ووقائعها، وهي مذكورة في كتب السيرة."
+        }
+      ]
+    }
+  }
+}

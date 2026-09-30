@@ -1,0 +1,237 @@
+{
+  "topic_id": "five-pillars",
+  "status": "draft",
+  "researched_at": "2026-09-30T12:00:00+03:00",
+  "questions": {
+    "en": [
+      "What are the five pillars of Islam",
+      "The five pillars of Islam",
+      "Five pillars of Islam explained",
+      "List the pillars of Islam",
+      "What are the pillars of Islam"
+    ],
+    "de": [
+      "Was sind die fünf Säulen des Islam",
+      "Die fünf Säulen des Islam",
+      "Die fünf Säulen des Islam erklärt",
+      "Nenne die Säulen des Islam",
+      "Was sind die Säulen des Islam"
+    ],
+    "ar": [
+      "ما هي أركان الإسلام الخمسة",
+      "أركان الإسلام الخمسة",
+      "ما هي أركان الإسلام",
+      "اذكر أركان الإسلام",
+      "عدد أركان الإسلام"
+    ]
+  },
+  "sources": [
+    {
+      "id": "Q2:43",
+      "kind": "quran",
+      "reference": "2:43",
+      "url": "https://quran.com/2/43"
+    },
+    {
+      "id": "Q2:183",
+      "kind": "quran",
+      "reference": "2:183",
+      "url": "https://quran.com/2/183"
+    },
+    {
+      "id": "Q3:97",
+      "kind": "quran",
+      "reference": "3:97",
+      "url": "https://quran.com/3/97"
+    },
+    {
+      "id": "HE66512",
+      "kind": "hadith"
+    },
+    {
+      "id": "S18974000-0000-4000-a000-000000000002",
+      "kind": "scholar",
+      "scholar_id": "ibn-baz",
+      "title": "مراتب الدين وأركان كل مرتبة",
+      "reference": "binbaz.org.sa, fatwa 18974",
+      "arabic": "مراتبه ثلاث: الإسلام، والإيمان، والإحسان، كما بيَّنه النبي ﷺ. فالمرتبة الأولى: الإسلام المرتبة العامة، وأركانها خمسة: شهادة أن لا إله إلا الله، وأن محمدًا رسول الله، وإقام الصلاة، وإيتاء الزكاة، وصوم رمضان، وحج البيت، وكل عمل مما شرعه الله داخل في الإسلام.",
+      "url": "https://binbaz.org.sa/fatwas/18974/%D9%85%D8%B1%D8%A7%D8%AA%D8%A8-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D9%88%D8%A3%D8%B1%D9%83%D8%A7%D9%86-%D9%83%D9%84-%D9%85%D8%B1%D8%AA%D8%A8%D8%A9"
+    }
+  ],
+  "answers": {
+    "en": {
+      "direct_answer": [
+        {
+          "text": "The five pillars of Islam are the two testimonies of faith (that Allah alone is God and that Muhammad ﷺ is His messenger), the prayer, zakat, fasting in Ramadan, and pilgrimage to the House.",
+          "source_ids": [
+            "HE66512",
+            "S18974000-0000-4000-a000-000000000002"
+          ]
+        },
+        {
+          "text": "Shaykh Ibn Baz explained that these five are the pillars of Islam, and that every act Allah has legislated falls within Islam.",
+          "source_ids": [
+            "S18974000-0000-4000-a000-000000000002"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "The testimony, prayer and zakat",
+          "sentences": [
+            {
+              "text": "The hadith puts first the testimony of faith: that Allah alone is God and that Muhammad ﷺ is His servant and messenger.",
+              "source_ids": [
+                "HE66512"
+              ]
+            },
+            {
+              "text": "The Quran tells believers to keep up the prayer and to pay the prescribed alms (2:43).",
+              "source_ids": [
+                "Q2:43"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fasting and Hajj",
+          "sentences": [
+            {
+              "text": "The Quran says that fasting was required of the believers, as it was of earlier communities, so that they may be mindful of God (2:183).",
+              "source_ids": [
+                "Q2:183"
+              ]
+            },
+            {
+              "text": "It also makes the pilgrimage to the House a duty for those who are able to make the journey (3:97).",
+              "source_ids": [
+                "Q3:97"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "These sources name the five pillars but do not explain the detailed rules of each one, which scholars explain in their own works."
+        }
+      ]
+    },
+    "de": {
+      "direct_answer": [
+        {
+          "text": "Die fünf Säulen des Islam sind die beiden Bezeugungen des Glaubens (dass Allah allein Gott ist und dass Muhammad ﷺ Sein Gesandter ist), das Gebet, die Zakah, das Fasten im Ramadan und die Pilgerfahrt zum Haus.",
+          "source_ids": [
+            "HE66512",
+            "S18974000-0000-4000-a000-000000000002"
+          ]
+        },
+        {
+          "text": "Scheich Ibn Baz erklärte, dass dies die fünf Säulen des Islam sind und dass jede von Allah gesetzlich festgelegte Handlung zum Islam gehört.",
+          "source_ids": [
+            "S18974000-0000-4000-a000-000000000002"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "Das Bekenntnis, das Gebet und die Zakah",
+          "sentences": [
+            {
+              "text": "Der Hadith nennt zuerst das Glaubensbekenntnis: den Glauben an Allah als den einen Gott und an Muhammad ﷺ als Seinen Gesandten.",
+              "source_ids": [
+                "HE66512"
+              ]
+            },
+            {
+              "text": "Der Koran fordert die Gläubigen auf, das Gebet zu verrichten und die Zakah zu entrichten (2:43).",
+              "source_ids": [
+                "Q2:43"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Das Fasten und die Pilgerfahrt",
+          "sentences": [
+            {
+              "text": "Der Koran sagt, dass das Fasten den Gläubigen ebenso auferlegt wurde wie früheren Gemeinschaften, damit sie gottesfürchtig werden (2:183).",
+              "source_ids": [
+                "Q2:183"
+              ]
+            },
+            {
+              "text": "Er macht auch die Pilgerfahrt zum Haus zur Pflicht für alle, die dazu die Möglichkeit haben (3:97).",
+              "source_ids": [
+                "Q3:97"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "Diese Quellen nennen die fünf Säulen, erklären aber nicht die genauen Regeln jeder einzelnen, die Gelehrte in ihren Werken darlegen."
+        }
+      ]
+    },
+    "ar": {
+      "direct_answer": [
+        {
+          "text": "أركان الإسلام خمسة: الشهادتان، وإقامة الصلاة، وإخراج الزكاة، وصيام رمضان، وحج البيت.",
+          "source_ids": [
+            "HE66512",
+            "S18974000-0000-4000-a000-000000000002"
+          ]
+        },
+        {
+          "text": "وبيّن الشيخ ابن باز أن هذه هي أركان الإسلام الخمسة، وأن كل عمل شرعه الله داخل في الإسلام.",
+          "source_ids": [
+            "S18974000-0000-4000-a000-000000000002"
+          ]
+        }
+      ],
+      "explanation": [
+        {
+          "heading": "الشهادتان والصلاة والزكاة",
+          "sentences": [
+            {
+              "text": "ويأتي في الحديث أولًا الإقرار بتوحيد الله وبرسالة محمد ﷺ.",
+              "source_ids": [
+                "HE66512"
+              ]
+            },
+            {
+              "text": "ويأمر القرآن المؤمنين بإقامة الصلاة ودفع الزكاة (2:43).",
+              "source_ids": [
+                "Q2:43"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "الصيام والحج",
+          "sentences": [
+            {
+              "text": "ويقول القرآن إن الصيام فُرض على المؤمنين كما فُرض على الأمم قبلهم لعلهم يتقون (2:183).",
+              "source_ids": [
+                "Q2:183"
+              ]
+            },
+            {
+              "text": "ويوجب القرآن حج البيت على القادر عليه (3:97).",
+              "source_ids": [
+                "Q3:97"
+              ]
+            }
+          ]
+        }
+      ],
+      "not_established": [
+        {
+          "text": "تذكر هذه المصادر أركان الإسلام الخمسة، ولا تشرح الأحكام التفصيلية لكل ركن، وهي مبيّنة في كتب العلماء وفتاواهم."
+        }
+      ]
+    }
+  }
+}

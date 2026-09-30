@@ -28,6 +28,7 @@ export default async function StartPage({ params }: { params: Promise<{ lang: st
           title: s.title[lang],
           text: s.text[lang],
           topicId: s.topicId,
+          answerId: s.answerId,
           question: s.question?.[lang],
         }))}
       />

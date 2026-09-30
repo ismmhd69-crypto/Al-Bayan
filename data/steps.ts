@@ -8,6 +8,8 @@ export type Step = {
   text: Text;
   // Either a Hard questions topic to read, or a question to hand to Ask.
   topicId?: string;
+  // Or a prepared answer (data/prepared-answers) shown on /[lang]/answers/[id].
+  answerId?: string;
   question?: Text;
 };
 
@@ -50,6 +52,7 @@ export const steps: Step[] = [
       de: "Sein Leben, sein Charakter und seine Botschaft.",
       ar: "سيرته وأخلاقه ورسالته.",
     },
+    answerId: "prophet-muhammad",
     question: {
       en: "Who was the Prophet Muhammad?",
       de: "Wer war der Prophet Muhammad?",
@@ -64,6 +67,7 @@ export const steps: Step[] = [
       de: "Die fünf gottesdienstlichen Handlungen im Herzen des Islam.",
       ar: "العبادات الخمس التي هي أساس الإسلام.",
     },
+    answerId: "five-pillars",
     question: {
       en: "What are the five pillars of Islam?",
       de: "Was sind die fünf Säulen des Islam?",

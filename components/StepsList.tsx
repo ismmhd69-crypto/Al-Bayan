@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Check } from "lucide-react";
 import AskAboutButton from "./AskAboutButton";
 
-type Item = { id: string; title: string; text: string; topicId?: string; question?: string };
+type Item = { id: string; title: string; text: string; topicId?: string; answerId?: string; question?: string };
 type Labels = { step: string; done: string; markDone: string; undo: string; read: string; ask: string; progress: string };
 
 const KEY = "bayan:steps-done";
@@ -61,8 +61,8 @@ export default function StepsList({ lang, items, t }: { lang: string; items: Ite
                 <h2>{s.title}</h2>
                 <p>{s.text}</p>
                 <div className="step-actions">
-                  {s.topicId ? (
-                    <Link href={`/${lang}/topics/${s.topicId}`} className="btn btn-ghost">
+                  {s.topicId || s.answerId ? (
+                    <Link href={s.topicId ? `/${lang}/topics/${s.topicId}` : `/${lang}/answers/${s.answerId}`} className="btn btn-ghost">
                       {t.read}
                     </Link>
                   ) : (
