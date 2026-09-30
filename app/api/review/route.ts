@@ -7,6 +7,7 @@ import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import { PREPARED_ANSWERS } from "@/data/prepared-answers";
 import { preparedContentHash } from "@/lib/prepared";
 
+import { sameOrigin } from "@/lib/same-origin";
 // Stores a review decision from the review tab (Mo, 2026-09-29: public until launch) and refreshes the
 // topic page so an approved answer appears at once. Only known answer ids and fixed statuses are accepted.
 const MAX_BODY = 2048;
@@ -18,16 +19,6 @@ function authorized(request: Request): boolean {
   const left = Buffer.from(expected);
   const right = Buffer.from(supplied);
   return left.length === right.length && timingSafeEqual(left, right);
-}
-
-function sameOrigin(request: Request): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return false;
-  try {
-    return new URL(origin).host === new URL(request.url).host;
-  } catch {
-    return false;
-  }
 }
 
 export async function POST(request: Request) {

@@ -3,6 +3,7 @@ import { isLocale } from "@/lib/i18n";
 import { ask } from "@/lib/ask/pipeline";
 import { askEnabled, takeSlot, visitorKey, withSlot } from "@/lib/ask/limits";
 import { GoogleBusyError } from "@/lib/ai/gemini";
+import { sameOrigin } from "@/lib/same-origin";
 
 // Privacy (plan section 10): the question text is never logged, stored or put in a URL.
 // Errors are logged without the question.
@@ -14,17 +15,6 @@ const MAX_BODY_BYTES = 4096;
 const noStore = { "Cache-Control": "no-store" };
 
 const reply = (status: string, code = 200) => NextResponse.json({ status }, { status: code, headers: noStore });
-
-// Only our own pages may call this endpoint.
-function sameOrigin(request: Request): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return false;
-  try {
-    return new URL(origin).host === new URL(request.url).host;
-  } catch {
-    return false;
-  }
-}
 
 export async function POST(request: Request) {
   if (!sameOrigin(request)) return reply("forbidden", 403);

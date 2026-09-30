@@ -1,6 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { visitorKey } from "@/lib/ask/limits";
+import { sameOrigin } from "@/lib/same-origin";
 
 // Deletes the signed-in person's account and, through the database cascade, everything saved under it.
 // The person proves who they are with their own session token; only then is the secret key used, and
@@ -15,12 +16,6 @@ export type DeleteDeps = {
 };
 
 const reply = (status: string, code = 200) => NextResponse.json({ status }, { status: code, headers: noStore });
-
-function sameOrigin(request: Request): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return false;
-  try { return new URL(origin).host === new URL(request.url).host; } catch { return false; }
-}
 
 const seen = new Map<string, number[]>();
 export function deleteAllowed(key: string, now = Date.now()): boolean {

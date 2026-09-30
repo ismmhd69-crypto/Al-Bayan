@@ -2,6 +2,7 @@ import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { hydrateAnswer, type HydrateResult } from "@/lib/chat/hydrate";
 import { visitorKey } from "@/lib/ask/limits";
+import { sameOrigin } from "@/lib/same-origin";
 
 // Opens saved chats: takes the stored answers (source texts removed) of a signed-in person and returns
 // them with the Quran and hadith texts loaded fresh from their sources. Only signed-in people can use
@@ -18,12 +19,6 @@ export type HydrateDeps = {
 };
 
 const reply = (body: Record<string, unknown>, code = 200) => NextResponse.json(body, { status: code, headers: noStore });
-
-function sameOrigin(request: Request): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return false;
-  try { return new URL(origin).host === new URL(request.url).host; } catch { return false; }
-}
 
 // A small in-memory limit of its own, so opening chats never uses up the visitor's Ask questions.
 const seen = new Map<string, number[]>();

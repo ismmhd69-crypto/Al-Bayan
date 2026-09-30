@@ -2,6 +2,7 @@ import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { isLocale, type Locale } from "@/lib/i18n";
 import { takeSlot, visitorKey } from "@/lib/ask/limits";
+import { sameOrigin } from "@/lib/same-origin";
 
 const MAX_BODY_BYTES = 2048;
 const MAX_COMMENT = 500;
@@ -13,12 +14,6 @@ export type ReportInput = { lang: Locale; reason: string; source_ids: string[] |
 type ReportStore = { insert: (report: ReportInput) => Promise<{ error?: { message: string } | null }> };
 
 const reply = (status: string, code = 200) => NextResponse.json({ status }, { status: code, headers: noStore });
-
-function sameOrigin(request: Request): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return false;
-  try { return new URL(origin).host === new URL(request.url).host; } catch { return false; }
-}
 
 export function validateReport(body: unknown): ReportInput | null {
   if (!body || typeof body !== "object" || Array.isArray(body)) return null;
