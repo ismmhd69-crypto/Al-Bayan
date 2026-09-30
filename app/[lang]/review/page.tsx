@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
-import { AnswerView } from "@/components/AskChat";
+import PreparedAnswer from "@/components/PreparedAnswer";
 import ReviewButtons from "@/components/ReviewButtons";
 import { loadPrepared } from "@/lib/prepared";
 import { getReviewDecisions } from "@/lib/content";
@@ -76,7 +76,7 @@ export default async function ReviewPage({ params, searchParams }: {
         <strong>{current}</strong>: {statusOf(current)}
       </p>
       {answer ? (
-        <AnswerView a={answer} t={dict.ask} id={0} />
+        <PreparedAnswer a={answer} t={dict.ask} id={0} />
       ) : (
         <p>This answer could not be shown: a source failed to load or a rule failed.</p>
       )}

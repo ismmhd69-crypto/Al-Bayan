@@ -9,6 +9,7 @@ import VideoCard from "./VideoCard";
 import { ReportProblem } from "./ReportProblem";
 import { takePendingQuestion } from "@/lib/pending";
 import { Beacon } from "./Logo";
+import PreparedAnswer from "./PreparedAnswer";
 
 type AskText = Dictionary["ask"];
 
@@ -150,7 +151,12 @@ export default function AskChat({
               {m.reply.kind === "text" ? (
                 <p>{m.reply.text}</p>
               ) : m.reply.kind === "answer" ? (
-                <AnswerView a={m.reply.answer} t={t} id={m.id} />
+                // Approved prepared answers use the Article layout; live answers keep AnswerView.
+                m.reply.answer.prepared ? (
+                  <PreparedAnswer a={m.reply.answer} t={t} id={m.id} />
+                ) : (
+                  <AnswerView a={m.reply.answer} t={t} id={m.id} />
+                )
               ) : (
                 <NotReady t={t} />
               )}

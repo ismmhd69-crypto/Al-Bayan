@@ -74,7 +74,8 @@ Answer "same" only if the visitor's question asks exactly the same thing as the 
       schema: { type: "object", properties: { verdict: { type: "string", enum: ["same", "different"] } }, required: ["verdict"] },
     })) as { verdict?: string } | null;
     if (verdict?.verdict !== "same") return null;
-    const answer = await loadPrepared(approved[match.id], match.language);
+    // The approval lives in the database, not in the file (whose status stays "draft").
+    const answer = await loadPrepared({ ...approved[match.id], status: "approved" }, match.language);
     if (process.env.ASK_DEBUG === "true") console.info(`ask: prepared answer ${match.id} (${match.score.toFixed(2)})`);
     return answer ? { status: "answer", answer } : null;
   } catch {

@@ -5,7 +5,7 @@ import { ArrowLeft, ChevronRight, Hourglass } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getReviewDecisions, getTopic, getTopicVideos } from "@/lib/content";
 import AskAboutButton from "@/components/AskAboutButton";
-import { AnswerView } from "@/components/AskChat";
+import PreparedAnswer from "@/components/PreparedAnswer";
 import { loadPrepared } from "@/lib/prepared";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import VideoCard from "@/components/VideoCard";
@@ -52,7 +52,8 @@ export default async function TopicPage({ params }: { params: Params }) {
       {/* A topic answer appears only with the same cited display as Ask (Codex review, finding 11),
           and only after Mo approved it. A plain text answer without sources must never appear. */}
       {answer ? (
-        <AnswerView a={answer} t={dict.ask} id={0} />
+        // Article layout (mockup Option A); the topic's videos come last inside it.
+        <PreparedAnswer a={{ ...answer, videos }} t={dict.ask} id={0} />
       ) : (
         <div className="card card-soft">
           <Hourglass aria-hidden="true" className="card-icon" />
@@ -62,7 +63,7 @@ export default async function TopicPage({ params }: { params: Params }) {
 
       <AskAboutButton lang={lang} question={topic.question} label={t.askAbout} />
 
-      {videos.length > 0 && (
+      {!answer && videos.length > 0 && (
         <section className="topic-group" aria-labelledby="watch-h">
           <h2 id="watch-h" className="eyebrow">
             {dict.ask.parts.watch}

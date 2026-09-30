@@ -1575,3 +1575,259 @@ details[open] > summary .chev {
   block-size: 16px;
   color: var(--gold);
 }
+
+/* Prepared answers in the "Article" style (mockup Option A): the direct answer in a
+   gold summary box, editorial sections, then source cards. Logical properties so Arabic flips cleanly. */
+.pa {
+  gap: 14px;
+}
+.pa-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  justify-self: start;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--gold-line);
+  background: var(--gold-soft);
+  color: var(--gold-ink);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  line-height: 1.5;
+}
+.pa-label svg {
+  inline-size: 13px;
+  block-size: 13px;
+}
+.pa-summary {
+  display: grid;
+  gap: 8px;
+  padding: 18px 20px;
+  border: 1px solid var(--gold-line);
+  border-inline-start: 4px solid var(--gold);
+  border-radius: var(--radius);
+  background: linear-gradient(to bottom, var(--surface), #fdfbf7);
+  box-shadow: 0 4px 14px -6px rgba(167, 123, 43, 0.15);
+}
+.pa-summary-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--f-body);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-ink);
+}
+.pa-summary-title svg {
+  inline-size: 14px;
+  block-size: 14px;
+}
+[lang="ar"] .pa-summary-title,
+.pa-summary-title:lang(ar) {
+  font-family: var(--f-ar-body);
+  letter-spacing: 0;
+  font-size: var(--fs-sm);
+}
+.pa-summary-text {
+  font-size: var(--fs-md);
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.pa-article {
+  display: grid;
+  gap: 14px;
+}
+.pa-section {
+  display: grid;
+  gap: 8px;
+  padding: 16px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.pa-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--f-display);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  color: var(--accent);
+  overflow-wrap: anywhere;
+}
+.pa-heading::before {
+  content: "";
+  flex-shrink: 0;
+  inline-size: 8px;
+  block-size: 8px;
+  background: var(--gold);
+  transform: rotate(45deg);
+}
+.pa-heading:lang(ar) {
+  font-family: var(--f-ar-display);
+}
+.pa-text {
+  font-size: var(--fs-md);
+  line-height: 1.75;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.pa-limit {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px dashed var(--line-2);
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}
+.pa-limit > svg {
+  inline-size: 16px;
+  block-size: 16px;
+  margin-block-start: 3px;
+  color: var(--gold);
+}
+.pa-limit h3 {
+  font-family: var(--f-body);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  color: var(--gold-ink);
+}
+.pa-limit h3:lang(ar) {
+  font-family: var(--f-ar-body);
+}
+.pa-sources {
+  display: grid;
+  gap: 10px;
+  margin-block-start: 6px;
+}
+.pa-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--f-body);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-ink);
+}
+.pa-eyebrow svg {
+  inline-size: 15px;
+  block-size: 15px;
+}
+[lang="ar"] .pa-eyebrow {
+  font-family: var(--f-ar-body);
+  letter-spacing: 0;
+  font-size: var(--fs-sm);
+}
+.pa-cards {
+  display: grid;
+  gap: 10px;
+}
+.pa-card {
+  display: grid;
+  gap: 8px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  scroll-margin-block: 80px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.pa-card:hover,
+.pa-card:focus {
+  border-color: var(--accent-line);
+  box-shadow: var(--shadow-sm);
+}
+.pa-card:target,
+.pa-card:focus {
+  background: var(--gold-soft);
+  border-color: var(--gold-line);
+}
+.pa-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px 10px;
+}
+.pa-card-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  color: var(--accent);
+}
+.pa-card-title svg {
+  inline-size: 16px;
+  block-size: 16px;
+}
+.pa-card-badge {
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: var(--bg-2);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+.pa-quote {
+  position: relative;
+  padding-block: 8px;
+  padding-inline: 14px;
+  border-inline-start: 3px solid var(--gold);
+  border-radius: 4px;
+  background: var(--surface-2);
+  font-family: var(--f-ar-body);
+  font-size: 1.125rem;
+  line-height: 1.9;
+  color: var(--ink);
+}
+.pa-quote-mark {
+  inline-size: 14px;
+  block-size: 14px;
+  margin-inline-end: 6px;
+  color: var(--gold);
+  vertical-align: -2px;
+}
+.pa-videos {
+  padding: 4px 16px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.pa-foot {
+  padding-block-start: 12px;
+  border-block-start: 1px solid var(--line);
+  line-height: 1.55;
+}
+.pa-notfatwa {
+  color: var(--gold-ink);
+}
+@media (min-width: 720px) {
+  .pa-summary {
+    padding: 22px 26px;
+  }
+  .pa-summary-text {
+    font-size: 1.0625rem;
+  }
+  .pa-section {
+    padding: 20px 24px;
+  }
+  .pa-heading {
+    font-size: 1.25rem;
+  }
+  .pa-text {
+    font-size: 1.025rem;
+  }
+  .pa-card {
+    padding: 18px 20px;
+  }
+}
