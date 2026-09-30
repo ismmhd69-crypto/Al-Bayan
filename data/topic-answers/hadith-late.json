@@ -17,158 +17,62 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "يبين الشيخ ابن باز أن كتابة الحديث جائزة، وأن النبي ﷺ رخّص فيها وأمر بها في قصة أبي شاه.",
+          "text": "يقرر ابن باز جواز كتابة الحديث، ويذكر أن الإذن بها ثبت في عهد النبي.",
           "source_ids": [
             "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "ويوضح أن النهي عن الكتابة كان في أول الأمر لئلا يختلط كلامه بالقرآن، فلما استقر الأمر وعرف الناس القرآن وتبصروا أذن النبي ﷺ في كتابة الحديث عنه.",
+          "text": "ويشرح أن المنع الأول كان خشية اختلاط الروايات بالنص المنزل ثم زال بعد استقرار معرفته.",
           "source_ids": [
             "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "بيان جواز كتابة الحديث ورخصة النبي فيها",
-          "sentences": [
-            {
-              "text": "يقرر الشيخ ابن باز دلالة النصوص على جواز كتابة الحديث، مستشهدًا بترخيص النبي ﷺ لأصحابه وأمره بالكتابة لأبي شاه.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "توجيه النهي الأول وعلته",
-          "sentences": [
-            {
-              "text": "يبين الشيخ أن النبي عليه الصلاة والسلام كان قد نهى في البداية عن الكتابة عنه خشية أن يختلط كلامه بالقرآن.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            },
-            {
-              "text": "ويضيف أنه لما استقر الأمر وعرف الناس القرآن وتبصروا، رخّص النبي ﷺ في ذلك وأذن في كتابة الحديث عنه.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "هذا النقل المعتمد يثبت الإذن النبوي المبكر بكتابة الحديث وعلة النهي الأول ورخصته اللاحقة، لكنه لا يتناول تفاصيل تدوين المسانيد والكتب الجامعة في القرون اللاحقة."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "Shaikh Ibn Baz clarifies that writing hadith is permissible and that the Prophet permitted and commanded it in the case of Abu Shah.",
+          "text": "Ibn Baz holds that writing hadith is permissible and says that permission for it existed during the Prophet's lifetime.",
           "source_ids": [
             "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "He explains that the prohibition of writing was at first so that the Prophet's words would not be mixed with the Quran, and once the matter was established and people knew the Quran and gained discernment, he permitted writing hadith from him.",
+          "text": "He explains that the early restriction guarded against mixing reports with the revealed text and ended after that text became firmly known.",
           "source_ids": [
             "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Permissibility of writing hadith and the prophetic concession",
-          "sentences": [
-            {
-              "text": "Shaikh Ibn Baz affirms that the texts indicate the permissibility of writing hadith, citing the Prophet's permission for his companions and his command to write for Abu Shah.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Reason for the initial prohibition and subsequent permission",
-          "sentences": [
-            {
-              "text": "The scholar explains that the Prophet had initially prohibited writing from him lest his speech be mixed with the Quran.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            },
-            {
-              "text": "He explains that when the matter was firmly established, and people knew the Quran and understood it with discernment, the Prophet granted concession and permitted the writing of hadith from him.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "This verified explanation establishes prophetic permission and the rationale reconciling prohibition and concession during the prophetic era, but does not detail the later compilation stages of hadith compendia in subsequent centuries."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Scheich Ibn Baz stellt klar, dass das Aufschreiben von Hadithen erlaubt ist und dass der Prophet dies im Fall von Abu Schah gestattete und anordnete.",
+          "text": "Ibn Baz erklärt das Aufschreiben von Hadithen für erlaubt und führt an, dass es bereits zu Lebzeiten des Propheten gestattet wurde.",
           "source_ids": [
             "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Er erläutert, dass das Schreibverbot anfangs galt, damit seine Worte nicht mit dem Koran vermischt würden; als die Angelegenheit gefestigt war und die Menschen den Koran kannten und Klarheit hatten, erlaubte der Prophet das Aufschreiben der Hadithe von ihm.",
+          "text": "Er erläutert, dass die frühe Beschränkung eine Vermischung der Berichte mit dem Offenbarungstext verhindern sollte und nach gefestigter Kenntnis dieses Textes entfiel.",
           "source_ids": [
             "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Zulässigkeit des Aufschreibens und die prophetische Erlaubnis",
-          "sentences": [
-            {
-              "text": "Scheich Ibn Baz bekräftigt, dass die Überlieferungen die Zulässigkeit des Schreibens belegen, und verweist auf die Erlaubnis des Propheten für seine Gefährten und seinen Befehl, für Abu Schah zu schreiben.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Grund des anfänglichen Verbots und die spätere Erlaubnis",
-          "sentences": [
-            {
-              "text": "Der Gelehrte erklärt, dass der Prophet anfangs untersagt hatte, von ihm aufzuschreiben, damit seine Worte nicht mit dem Koran verwechselt würden.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            },
-            {
-              "text": "Er führt aus, dass der Prophet, als die Angelegenheit gefestigt war und die Menschen den Koran kannten und einsichtig waren, die Erleichterung gewährte und das Aufschreiben der Hadithe von ihm erlaubte.",
-              "source_ids": [
-                "Sa8c92f14-0b73-4f9e-9d21-4828dbcf2419"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "Diese Erklärung belegt die prophetische Erlaubnis sowie die Vereinbarkeit des anfänglichen Verbots mit der späteren Erlaubnis in der Frühzeit, erfasst jedoch nicht die spätere Zusammenstellung der Hadithsammlungen."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     }
   }
 }

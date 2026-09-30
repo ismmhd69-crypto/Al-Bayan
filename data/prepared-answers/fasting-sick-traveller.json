@@ -50,57 +50,18 @@
           "source_ids": [
             "S81370000-0000-4000-a000-000000000001",
             "Q2:185"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "ويؤجر المسلم في قبول هذه الرخصة الشرعية والأخذ بها طاعة لله وعملا بما شرع سبحانه.",
           "source_ids": [
             "S81370000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "الرخصة القرآنية للمريض والمسافر",
-          "sentences": [
-            {
-              "text": "قرر القرآن الكريم رخصة الإفطار لمن كان مريضا أو على سفر مع وجوب قضاء عدة ما أفطر من أيام أخر (2:185).",
-              "source_ids": [
-                "Q2:185"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ ابن باز أن الإنسان إذا أصابه المرض وشق عليه الصيام شرع له أن يفطر دون حرج.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "أجر الأخذ برخصة الله",
-          "sentences": [
-            {
-              "text": "يبين الشيخ أن أخذ الرخصة الشرعية طاعة لله، وأن من أخذ بها فهو مأجور ولا إثم عليه.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "فإذا أفطر المريض أو المسافر قبولا لرخصة الله وطاعة لأمره فهو مأجور ولا إثم عليه، وعليه القضاء بعد الشفاء وزوال العذر.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001",
-                "Q2:185"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "تبين هذه الفتوى مشروعية فطر المريض والمسافر وأجر أخذ الرخصة ووجوب القضاء، ولا تتطرق إلى مقدار الإطعام لمن عجز عن الصيام عجزا دائما لكبر أو مرض لا يرجى برؤه."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
@@ -109,116 +70,38 @@
           "source_ids": [
             "S81370000-0000-4000-a000-000000000001",
             "Q2:185"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "A Muslim is rewarded for accepting this religious concession and acting upon it in obedience to Allah and His law.",
           "source_ids": [
             "S81370000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "The Quranic concession for the sick and travelling",
-          "sentences": [
-            {
-              "text": "The Holy Quran grants an explicit concession to break the fast for whoever is ill or on a journey, obligating them to fast an equivalent number of other days (2:185).",
-              "source_ids": [
-                "Q2:185"
-              ]
-            },
-            {
-              "text": "Shaikh Ibn Baz explains that when illness strikes a person making fasting difficult, it is legitimate for them to break their fast without blame.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Reward for adopting Allah's concession",
-          "sentences": [
-            {
-              "text": "The scholar explains that accepting the legal concession in obedience to Allah brings reward and carries no sin.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "When a sick individual or traveller breaks their fast complying with divine concession, they are rewarded without sin, and must make up the days once the obstacle ceases.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001",
-                "Q2:185"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "This verified fatwa outlines the concession to break the fast and obligation to make up missed days, without covering the feeding expiation for chronic conditions where recovery is not expected."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Allah hat das Fastenbrechen im Ramadan für einen Kranken, wenn das Fasten schwerfällt, und für einen Reisenden als Erleichterung vorgeschrieben; die versäumten Tage müssen danach nachgeholt werden (2:185).",
+          "text": "Allah hat das Fastenbrechen im Ramadan für einen Kranken, wenn das Fasten schwerfällt, und für einen Reisenden als Erleichterung vorgeschrieben, die versäumten Tage müssen danach nachgeholt werden (2:185).",
           "source_ids": [
             "S81370000-0000-4000-a000-000000000001",
             "Q2:185"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Der Gläubige wird dafür belohnt, diese rechtliche Erleichterung aus Gehorsam gegenüber Allah und Seiner Gesetzgebung anzunehmen.",
           "source_ids": [
             "S81370000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Die koranische Erleichterung für Kranke und Reisende",
-          "sentences": [
-            {
-              "text": "Der Heilige Koran gewährt Kranken und Reisenden eine klare Erleichterung vom Fasten, verbunden mit der Pflicht, die gleiche Anzahl an anderen Tagen nachzuholen (2:185).",
-              "source_ids": [
-                "Q2:185"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz erläutert, dass jemand, dem Krankheit das Fasten erschwert, rechtmäßig ohne Tadel das Fasten brechen darf.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Der Lohn für das Annehmen göttlicher Erleichterungen",
-          "sentences": [
-            {
-              "text": "Der Gelehrte erklärt, dass die Annahme der rechtlichen Erleichterung im Gehorsam gegenüber Allah belohnt wird und keine Sünde bedeutet.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Bricht der Kranke oder Reisende das Fasten im Einklang mit der göttlichen Erlaubnis, erhält er Lohn ohne Sünde und holt die Tage nach Wegfall des Hinderungsgrundes nach.",
-              "source_ids": [
-                "S81370000-0000-4000-a000-000000000001",
-                "Q2:185"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese verifizierte Fatwa behandelt die Fastenerleichterung und Nachholpflicht, ohne die Speisungspflicht bei dauerhafter, unheilbarer Fastenunfähigkeit im Alter zu erörtern."
-        }
-      ]
+      "explanation": []
     }
   }
 }

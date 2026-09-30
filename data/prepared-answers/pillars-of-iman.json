@@ -46,118 +46,28 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "وضح الشيخ ابن باز أن أركان الإيمان ستة هي الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر خيره وشره.",
+          "text": "أركان الإيمان ستة، وهي توحيد الله والإيمان بالملائكة والكتب والرسل واليوم الآخر والقدر.",
           "source_ids": [
-            "Q4:136",
-            "S18974000-0000-4000-a000-000000000001"
-          ]
-        },
-        {
-          "text": "وأوضح الشيخ ابن باز أن جميع الأعمال الصالحة الظاهرة والباطنة تدخل في مسمى الإيمان والإسلام، وأن جمعها يجعل العبد مسلما مؤمنا.",
-          "source_ids": [
-            "S18974000-0000-4000-a000-000000000001"
-          ]
+            "S18974000-0000-4000-a000-000000000001",
+            "Q4:136"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "أمر القرآن بالإيمان بأركانه",
-          "sentences": [
-            {
-              "text": "يدعو القرآن المؤمنين إلى الإيمان بالله ورسوله وكتبه وملائكته واليوم الآخر (النساء: 136).",
-              "source_ids": [
-                "Q4:136"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ ابن باز أن المرتبة الثانية من مراتب الدين هي الإيمان وأركانها ستة تشمل الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر خيره وشره.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "ارتباط الإيمان بالإحسان والأعمال",
-          "sentences": [
-            {
-              "text": "يبين الشيخ أن المرتبة العليا هي الإحسان بأن يعبد الإنسان ربه كأنه يراه فإن لم يكن يراه فإنه سبحانه يراه.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويؤكد أن الأعمال الصالحة الظاهرة والباطنة تندرج جميعها في مسمى الإسلام والإيمان لتتحقق كمال العبودية.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "هذه الفتوى تبين أركان الإيمان ومراتب الدين، دون استعراض التفريعات الدقيقة لمسائل الأسماء والأحكام المتعلقة بمرتكب الكبيرة."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "Shaykh Ibn Baz explained that iman has six pillars: belief in Allah, His angels, His scriptures, His messengers, the Last Day, and divine decree in its good and bad aspects.",
+          "text": "Iman rests on six pillars: belief in Allah, the angels, the revealed books, the messengers, the Last Day, and divine decree.",
           "source_ids": [
-            "Q4:136",
-            "S18974000-0000-4000-a000-000000000001"
-          ]
-        },
-        {
-          "text": "Shaykh Ibn Baz also explained that righteous outward and inward deeds fall under Islam and iman, and that combining them makes a person a Muslim believer.",
-          "source_ids": [
-            "S18974000-0000-4000-a000-000000000001"
-          ]
+            "S18974000-0000-4000-a000-000000000001",
+            "Q4:136"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Quranic command to believe in the articles of faith",
-          "sentences": [
-            {
-              "text": "The Quran calls believers to believe in Allah, His Messenger, the scriptures, the angels, and the Last Day (4:136).",
-              "source_ids": [
-                "Q4:136"
-              ]
-            },
-            {
-              "text": "Sheikh Ibn Baz explains that the second level of religion is Iman, possessing six pillars: belief in Allah, His angels, His books, His messengers, the Last Day, and divine predestination in its entirety.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Connection between faith, excellence, and righteous deeds",
-          "sentences": [
-            {
-              "text": "The scholar clarifies that the highest level is Ihsan (spiritual excellence), which means worshipping Allah as though you see Him, knowing that He sees you.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "He affirms that outward and inward righteous deeds are all incorporated within Islam and faith, culminating in complete servitude to Allah.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "This fatwa delineates the pillars of iman and religious ranks, without detailing intricate theological debates regarding the theological status of major sinners."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
@@ -166,56 +76,18 @@
           "source_ids": [
             "Q4:136",
             "S18974000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Scheich Ibn Baz erklärte außerdem, dass rechtschaffene innere und äußere Taten zu Islam und Iman gehören und ihre Verbindung einen Menschen zu einem gläubigen Muslim macht.",
           "source_ids": [
             "S18974000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Koranisches Gebot zum Glauben an die Glaubensartikel",
-          "sentences": [
-            {
-              "text": "Der Koran ruft die Gläubigen dazu auf, an Allah, Seinen Gesandten, die Schriften, die Engel und den Jüngsten Tag zu glauben (4:136).",
-              "source_ids": [
-                "Q4:136"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz legt dar, dass die zweite Stufe der Religion der Iman ist, welcher sechs Säulen umfasst: den Glauben an Allah, Seine Engel, Seine Schriften, Seine Gesandten, den Jüngsten Tag und das Schicksal.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Zusammenhang zwischen Glaube, Vollkommenheit und Taten",
-          "sentences": [
-            {
-              "text": "Der Gelehrte stellt klar, dass die höchste Stufe das Ihsan darstellt, was bedeutet, Allah so zu dienen, als sähe man Ihn, wohlwissend, dass Er einen sieht.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Er bekräftigt, dass alle inneren und äußeren guten Werke Teil von Islam und Iman sind, wodurch die vollständige Hingabe erreicht wird.",
-              "source_ids": [
-                "S18974000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Fatwa beschreibt die Säulen des Iman und Stufen der Religion, ohne theologische Debatten über den Status von Begehen großer Sünden zu behandeln."
-        }
-      ]
+      "explanation": []
     }
   }
 }

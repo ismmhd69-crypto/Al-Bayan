@@ -46,60 +46,21 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "وضح الشيخ ابن باز أن الشرك نوعان: أكبر وأصغر، بينما يذكر القرآن أن الله لا يغفر أن يشرك به (النساء: 48).",
-          "source_ids": [
-            "Q4:48",
-            "S14401000-0000-4000-a000-000000000001"
-          ]
-        },
-        {
-          "text": "وعرف الشيخ ابن باز الشرك الأكبر بأنه صرف العبادة أو شيء منها لغير الله، كدعاء الأموات والاستغاثة بهم والنذر لهم أو للجن والملائكة.",
+          "text": "يقسم ابن باز الشرك إلى أكبر وأصغر.",
           "source_ids": [
             "S14401000-0000-4000-a000-000000000001"
-          ]
-        }
-      ],
-      "explanation": [
-        {
-          "heading": "بيان القرآن لخطورة الشرك",
-          "sentences": [
-            {
-              "text": "أخبر الله جل وعلا في محكم تنزيله أنه لا يغفر أن يشرك به ويغفر ما دون ذلك لمن يشاء (النساء: 48).",
-              "source_ids": [
-                "Q4:48"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ ابن باز أن الشرك ينقسم إلى أكبر وأصغر، فالأكبر مخرج من الملة ومحبط للأعمال بالكلية.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "صور الشرك الأكبر في العبادة",
-          "sentences": [
-            {
-              "text": "يبين الشيخ أن الشرك الأكبر يتمثل في صرف أي نوع من أنواع العبادة كالدعاء والذبح والنذر لغير الله تعالى.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويشير إلى أن التوجه إلى الأموات والغائبين أو الجن والملائكة هو عين صنيع مشركي العرب عند أوثانهم في الجاهلية.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          "text": "ويكون الشرك الأكبر بجعل شيء من العبادة لغير الله، مثل دعاء الموتى أو الاستغاثة بهم أو النذر لهم.",
+          "source_ids": [
+            "S14401000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "not_established": [
-        {
-          "text": "هذه الفتوى تحدد ضابط الشرك الأكبر وأمثلته في صرف العبادة، دون استقصاء صور الشرك الأصغر كالرياء والحلف بغير الله وأحكامها التفصيلية."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
@@ -108,56 +69,18 @@
           "source_ids": [
             "Q4:48",
             "S14401000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Shaykh Ibn Baz defined major shirk as directing worship, or any part of it, to other than Allah, such as supplication, seeking rescue, or vows to the dead, jinn, or angels.",
           "source_ids": [
             "S14401000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Quranic severity regarding shirk",
-          "sentences": [
-            {
-              "text": "Allah announced in His clear revelation that He does not forgive associating partners with Him, but forgives anything lesser for whom He wills (4:48).",
-              "source_ids": [
-                "Q4:48"
-              ]
-            },
-            {
-              "text": "Sheikh Ibn Baz explains that shirk is categorized into major and minor, with major shirk expelling a person from the faith and nullifying good deeds entirely.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Manifestations of major shirk in worship",
-          "sentences": [
-            {
-              "text": "The scholar illustrates that major shirk consists of diverting any form of worship, such as supplication, sacrifice, or vows, to anyone besides Allah.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "He indicates that turning to deceased beings, the unseen, jinn, or angels was the precise practice of pre-Islamic idolaters before their statues.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "This fatwa defines the criterion of major shirk in worship, without cataloging all manifestations of minor shirk such as ostentation or swearing by other than Allah."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
@@ -166,56 +89,18 @@
           "source_ids": [
             "Q4:48",
             "S14401000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Scheich Ibn Baz definierte den großen Schirk als das Richten von Anbetung oder Teilen davon an andere als Allah, etwa durch Bittgebete, Nothilfeersuchen oder Gelübde an Tote, Dschinn oder Engel.",
           "source_ids": [
             "S14401000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Koranische Schwere des Schirk",
-          "sentences": [
-            {
-              "text": "Allah offenbarte in Seiner Schrift, dass Er es nicht vergibt, wenn Ihm Partner beigesellt werden, aber alles Geringere vergibt, wem Er will (4:48).",
-              "source_ids": [
-                "Q4:48"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz legt dar, dass Schirk in großen und kleinen Schirk unterteilt wird, wobei der große Schirk aus dem Glauben ausschließt und alle guten Taten zunichtemacht.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Erscheinungsformen des großen Schirk im Gottesdienst",
-          "sentences": [
-            {
-              "text": "Der Gelehrte stellt klar, dass großer Schirk darin besteht, Akte des Gottesdienstes wie Bittgebete, Schlachtopfer oder Gelübde an andere Wesen als Allah zu richten.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Er weist darauf hin, dass die Zuflucht zu Toten, Abwesenden, Dschinn oder Engeln genau der Praxis der altarabischen Götzendiener bei ihren Statuen entsprach.",
-              "source_ids": [
-                "S14401000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Fatwa definiert das Kriterium des großen Schirk im Gottesdienst, ohne alle Ausprägungen des kleinen Schirk wie Augendienerei oder Schwören bei anderen als Allah zu vertiefen."
-        }
-      ]
+      "explanation": []
     }
   }
 }

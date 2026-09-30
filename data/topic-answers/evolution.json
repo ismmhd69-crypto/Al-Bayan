@@ -41,221 +41,89 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "تتناول هذه المصادر خلق آدم وأصل الإنسان، لا كل صور التطور البيولوجي؛ فتذكر أن آدم خُلق من تراب وطين، وأن خلقه كان بأمر الله، وأن ذريته جاءت بعد ذلك من سلالة من ماء.",
+          "text": "تعرض الآيات بداية خلق آدم مرتبطة بالتراب والطين وبأمر الله.",
           "source_ids": [
             "Q3:59",
-            "Q32:7",
+            "Q32:7"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "وتبين أن نسل البشر يستمر بواسطة النطفة، وأن الله سوى خلق الإنسان.",
+          "source_ids": [
             "Q32:8",
             "Q32:9"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "وقد رفض الشيخ ابن باز صراحةً القول بأن أصل الإنسان قرد، وشرح أن آدم خلقه الله من طين.",
+          "text": "وينفي ابن باز نسبة أصل البشر إلى القردة ويثبت البداية الطينية لآدم.",
           "source_ids": [
             "Sd340b9a0-176c-447d-bd3a-45595c5716a7"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "خلق آدم",
-          "sentences": [
-            {
-              "text": "يعرض القرآن خلق آدم مثالًا على قدرة الله، ويذكر أنه خلقه من تراب بأمره.",
-              "source_ids": [
-                "Q3:59"
-              ]
-            },
-            {
-              "text": "وتذكر سورة السجدة أن بدء خلق الإنسان كان من طين.",
-              "source_ids": [
-                "Q32:7"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "آدم وذريته",
-          "sentences": [
-            {
-              "text": "تفرّق الآيات بين بدء خلق الإنسان وبين نسل آدم، فتذكر أن النسل جُعل من سلالة من ماء مهين.",
-              "source_ids": [
-                "Q32:7",
-                "Q32:8"
-              ]
-            },
-            {
-              "text": "ثم تذكر تسوية الإنسان ونفخ الروح فيه ومنحه السمع والأبصار والأفئدة.",
-              "source_ids": [
-                "Q32:9"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "قول ابن باز",
-          "sentences": [
-            {
-              "text": "قال الشيخ ابن باز إن نظرية دارون التي تجعل أصل الإنسان قردًا باطلة، وذكر أن الإنسان خلقه الله من ماء مهين وأن آدم خلقه الله من طين.",
-              "source_ids": [
-                "Sd340b9a0-176c-447d-bd3a-45595c5716a7"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "هذه المصادر تتناول خلق آدم وأصل الإنسان، ولا تفصل كل صورة أو دعوى من دعاوى التغير البيولوجي."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "The Islamic sources describe Adam in terms of dust and clay, with his creation occurring by God's command, while his descendants came afterward from an extract of fluid; they also describe his shaping and receiving the spirit.",
+          "text": "These verses describe Adam as created from dust and clay by God's command.",
           "source_ids": [
             "Q3:59",
-            "Q32:7",
+            "Q32:7"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "They describe his descendants as coming afterward from an extract of fluid and being formed by God.",
+          "source_ids": [
             "Q32:8",
             "Q32:9"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Shaykh Ibn Baz explicitly rejected the claim that human beings originated as apes and explained that Adam was created from clay.",
+          "text": "Ibn Baz rejects the claim that human beings originated as apes and holds that Adam was created from clay.",
           "source_ids": [
             "Sd340b9a0-176c-447d-bd3a-45595c5716a7"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Adam's creation",
-          "sentences": [
-            {
-          "text": "The Quran presents Adam's creation as an example of God's power and describes it as creation from dust by His command.",
-              "source_ids": [
-                "Q3:59"
-              ]
-            },
-            {
-              "text": "Surah al-Sajdah says that the beginning of human creation was from clay.",
-              "source_ids": [
-                "Q32:7"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Adam and his descendants",
-          "sentences": [
-            {
-              "text": "The verses distinguish the beginning of human creation from Adam's descendants, saying that the descendants were made from an extract of lowly fluid.",
-              "source_ids": [
-                "Q32:7",
-                "Q32:8"
-              ]
-            },
-            {
-              "text": "They then mention shaping the human being, breathing the spirit into him, and giving people hearing, sight, and minds.",
-              "source_ids": [
-                "Q32:9"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Ibn Baz's statement",
-          "sentences": [
-            {
-              "text": "Shaykh Ibn Baz said that Darwin's theory that human beings originated as apes is false, and stated that God created human beings from a lowly fluid and Adam from clay.",
-              "source_ids": [
-                "Sd340b9a0-176c-447d-bd3a-45595c5716a7"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "These sources address Adam and human origins, but they do not decide every question about biological evolution beyond those statements."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Diese Quellen behandeln die Erschaffung Adams und den Ursprung des Menschen, nicht jede Form der biologischen Evolution; sie beschreiben Adam als aus Erde und Ton erschaffen, wobei seine Erschaffung durch Allahs Befehl geschah, und seine Nachkommenschaft als danach aus einem Auszug aus Flüssigkeit entstanden.",
+          "text": "Diese Verse beschreiben Adam als auf Allahs Befehl aus Erde und Ton erschaffen.",
           "source_ids": [
             "Q3:59",
-            "Q32:7",
+            "Q32:7"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Sie beschreiben seine Nachkommen als später aus einem Auszug aus Flüssigkeit entstanden und von Allah geformt.",
+          "source_ids": [
             "Q32:8",
             "Q32:9"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Scheich Ibn Baz wies die Aussage, der Mensch stamme ursprünglich vom Affen ab, ausdrücklich zurück und erklärte, Adam sei aus Ton erschaffen worden.",
+          "text": "Ibn Baz weist die Behauptung zurück, der Mensch stamme vom Affen ab, und erklärt Adam als aus Ton erschaffen.",
           "source_ids": [
             "Sd340b9a0-176c-447d-bd3a-45595c5716a7"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Die Erschaffung Adams",
-          "sentences": [
-            {
-              "text": "Der Koran nennt die Erschaffung Adams als Zeichen für Allahs Macht und beschreibt sie als Erschaffung aus Erde durch Allahs Befehl.",
-              "source_ids": [
-                "Q3:59"
-              ]
-            },
-            {
-              "text": "Die Sure as-Sadschda sagt, dass der Beginn der Erschaffung des Menschen aus Ton war.",
-              "source_ids": [
-                "Q32:7"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Adam und seine Nachkommenschaft",
-          "sentences": [
-            {
-              "text": "Die Verse unterscheiden zwischen dem Beginn der Erschaffung des Menschen und der Nachkommenschaft Adams, die aus einem Auszug aus einer verachteten Flüssigkeit gemacht wurde.",
-              "source_ids": [
-                "Q32:7",
-                "Q32:8"
-              ]
-            },
-            {
-              "text": "Danach nennen sie die Formung des Menschen, das Einhauchen des Geistes und die Gabe von Gehör, Augenlicht und Herzen.",
-              "source_ids": [
-                "Q32:9"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Ibn Baz' Aussage",
-          "sentences": [
-            {
-              "text": "Scheich Ibn Baz sagte, Darwins Theorie vom affenartigen Ursprung des Menschen sei falsch, und erklärte, Allah habe den Menschen aus einer verachteten Flüssigkeit und Adam aus Ton erschaffen.",
-              "source_ids": [
-                "Sd340b9a0-176c-447d-bd3a-45595c5716a7"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "Diese Quellen behandeln Adam und den Ursprung des Menschen, entscheiden aber nicht jede Frage der biologischen Evolution über diese Aussagen hinaus."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     }
   }
 }

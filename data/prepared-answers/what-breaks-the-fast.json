@@ -58,236 +58,86 @@
     "ar": {
       "direct_answer": [
         {
-        "text": "تقول الفتوى إن تناول الطعام أو الشراب أو الجماع في نهار الصيام يوجب قضاء اليوم إذا لم يكن ذلك مجرد نسيان.",
+          "text": "تقول الفتوى إن تناول الطعام أو الشراب أو الجماع في نهار الصيام يوجب قضاء اليوم إذا لم يكن ذلك مجرد نسيان.",
           "source_ids": [
             "S88540000-0000-4000-a000-000000000001",
             "Q2:187"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "أما من أكل أو شرب ناسيا فإن صومه صحيح ولا إثم عليه ولا يلزمه قضاء ولا كفارة.",
           "source_ids": [
             "S88540000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "ويوجب تعمد الجماع في نهار رمضان إثم المعصية وبطلان الصوم وقضاء اليوم مع وجوب الكفارة المغلظة.",
           "source_ids": [
             "S47810000-0000-4000-a000-000000000001",
             "Q2:187"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "الأكل والشرب والتفريق بين العمد والنسيان",
-          "sentences": [
-            {
-              "text": "يبين القرآن أن وقت الصيام يمتد من الفجر إلى الليل، مع إباحة الأكل والشرب والجماع في الليل (2:187).",
-              "source_ids": [
-                "Q2:187"
-              ]
-            },
-            {
-              "text": "ويقرر الشيخ ابن باز أن من تناول طعاما أو شرابا أو جامع في نهار الصيام يلزمه قضاء ذلك اليوم لتفريطه أو جهله بالحكم.",
-              "source_ids": [
-                "S88540000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "أما إذا كان الأكل أو الشرب عن طريق النسيان، فيبقى الصوم صحيحا ولا يلزم قضاء ولا كفارة، كما يذكر الشيخ.",
-              "source_ids": [
-                "S88540000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "حكم الجماع في نهار رمضان والكفارة المغلظة",
-          "sentences": [
-            {
-              "text": "يبطل الصوم بمباشرة الرجل أهله في نهار رمضان ويعد فاعله عاصيا لربه، استنادا للنهي الصريح عن ذلك أثناء الصيام (2:187).",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001",
-                "Q2:187"
-              ]
-            },
-            {
-              "text": "ويفصل الشيخ أن من جامع متعمدا في نهار رمضان وجب عليه قضاء ذلك اليوم مع الكفارة المغلظة: عتق رقبة، فإن عجز فصيام شهرين متتابعين، فإن عجز فأطعام ستين مسكينا.",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويبين الشيخ أن الجماع الواقع في الليل لا يضر الصيام ولو أصبح الإنسان جنبا قبل أن يغتسل.",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "تتناول هذه الفتاوى الطعام والشراب والجماع نهارًا، والفرق بين النسيان والجهل، ولا تتطرق إلى المسائل الطبية المعاصرة كالحقن والمناظير وغسيل الكلى."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
         {
-        "text": "The cited fatwa says that eating, drinking, or intercourse during the daytime requires making up the day when it was not mere forgetfulness.",
+          "text": "The cited fatwa says that eating, drinking, or intercourse during the daytime requires making up the day when it was not mere forgetfulness.",
           "source_ids": [
             "S88540000-0000-4000-a000-000000000001",
             "Q2:187"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "However, if one eats or drinks out of forgetfulness, the fast remains completely valid without sin, making up the day, or expiation.",
           "source_ids": [
             "S88540000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Intentionally engaging in marital intercourse in the daytime of Ramadan nullifies the fast, constitutes disobedience, and obligates both making up the day and performing the major expiation.",
           "source_ids": [
             "S47810000-0000-4000-a000-000000000001",
             "Q2:187"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Eating, drinking, and the distinction between intent and forgetfulness",
-          "sentences": [
-            {
-              "text": "The Quran explains that the fasting time extends from dawn to night, while food, drink, and intercourse are permitted at night (2:187).",
-              "source_ids": [
-                "Q2:187"
-              ]
-            },
-            {
-              "text": "Shaikh Ibn Baz affirms that whoever consumes food or drink or has intercourse in the daytime must make up that day due to negligence or ignorance of the ruling.",
-              "source_ids": [
-                "S88540000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "If eating or drinking occurs out of forgetfulness, the cited ruling confirms that the fast remains valid and neither qada nor kaffarah is required.",
-              "source_ids": [
-                "S88540000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Marital intercourse during the day and the major expiation",
-          "sentences": [
-            {
-              "text": "Engaging in marital relations during the daylight hours of Ramadan invalidates the fast and constitutes sin, in accordance with the explicit Quranic restriction (2:187).",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001",
-                "Q2:187"
-              ]
-            },
-            {
-              "text": "The scholar explains that whoever intentionally has intercourse in the daytime of Ramadan must make up the day and perform the major expiation: freeing a slave, or fasting two consecutive months if unable, or feeding sixty needy persons.",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "He clarifies that marital intercourse occurring during the night does not impair the fast, even if dawn arrives while one has not yet bathed.",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "These fatwas address food, drink, and daytime intercourse, including the distinction between forgetfulness and ignorance; they do not address modern medical interventions such as therapeutic injections, endoscopies, or renal dialysis."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
         {
-        "text": "Die zitierte Fatwa sagt, dass Essen, Trinken oder ehelicher Verkehr am Tag des Fastens das Nachholen des Tages erfordern, wenn es nicht bloßes Vergessen war.",
+          "text": "Die zitierte Fatwa sagt, dass Essen, Trinken oder ehelicher Verkehr am Tag des Fastens das Nachholen des Tages erfordern, wenn es nicht bloßes Vergessen war.",
           "source_ids": [
             "S88540000-0000-4000-a000-000000000001",
             "Q2:187"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Wer jedoch aus Vergesslichkeit isst oder trinkt, dessen Fasten bleibt vollständig gültig ohne Sünde, Nachholen oder Sühneleistung.",
           "source_ids": [
             "S88540000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Vorsätzlicher ehelicher Verkehr am Tag des Ramadan bricht das Fasten, stellt eine Sünde dar und verpflichtet zum Nachholen des Tages sowie zur großen Sühneleistung.",
           "source_ids": [
             "S47810000-0000-4000-a000-000000000001",
             "Q2:187"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Essen, Trinken und der Unterschied zwischen Vorsatz und Vergessen",
-          "sentences": [
-            {
-              "text": "Der Koran erklärt, dass die Fastenzeit von der Morgendämmerung bis zur Nacht reicht, während Essen, Trinken und ehelicher Verkehr nachts erlaubt sind (2:187).",
-              "source_ids": [
-                "Q2:187"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz legt fest, dass wer am Tag des Fastens isst, trinkt oder verkehrt, diesen Tag wegen Nachlässigkeit oder Unkenntnis des Urteils nachholen muss.",
-              "source_ids": [
-                "S88540000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Geschieht das Essen oder Trinken aus Vergesslichkeit, bestätigt die zitierte Rechtsauskunft, dass das Fasten gültig bleibt und weder Nachholen noch Sühneleistung fällig sind.",
-              "source_ids": [
-                "S88540000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Ehelicher Verkehr am Tag und die große Sühneleistung",
-          "sentences": [
-            {
-              "text": "Der eheliche Verkehr während der Tagesstunden des Ramadan macht das Fasten ungültig und gilt als Ungehorsam gegenüber Allah, gemäß dem ausdrücklichen Verbot im Fasten (2:187).",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001",
-                "Q2:187"
-              ]
-            },
-            {
-              "text": "Der Gelehrte erläutert, dass vorsätzlicher Verkehr am Tag des Ramadan das Nachholen des Tages sowie die schwere Sühne erfordert: die Freilassung eines Sklaven, oder bei Unvermögen das Fasten zweier aufeinanderfolgender Monate, oder die Speisung von sechzig Bedürftigen.",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Er stellt klar, dass nächtlicher Verkehr dem Fasten nicht schadet, selbst wenn der Morgen im Zustand der rituellen Unreinheit vor der Ganzwaschung anbricht.",
-              "source_ids": [
-                "S47810000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Fatwas behandeln Essen, Trinken und ehelichen Verkehr am Tag sowie den Unterschied zwischen Vergessen und Unkenntnis; moderne medizinische Eingriffe wie Injektionen, Endoskopie oder Dialyse behandeln sie nicht."
-        }
-      ]
+      "explanation": []
     }
   }
 }

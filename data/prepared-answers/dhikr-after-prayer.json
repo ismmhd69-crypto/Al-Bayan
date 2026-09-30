@@ -27,12 +27,6 @@
   },
   "sources": [
     {
-      "id": "Q4:103",
-      "kind": "quran",
-      "reference": "4:103",
-      "url": "https://quran.com/4/103"
-    },
-    {
       "id": "S17728000-0000-4000-a000-000000000001",
       "kind": "scholar",
       "scholar_id": "ibn-baz",
@@ -48,174 +42,57 @@
         {
           "text": "ذكر الشيخ ابن باز أن السنة عقب التسليم من الفريضة هي الاستغفار ثلاثا وسؤال الله السلام والبركة وإعلان توحيده.",
           "source_ids": [
-            "Q4:103",
             "S17728000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "وذكر الشيخ ابن باز أن هذا الذكر مشروع للرجال والنساء، سواء صليت الفريضة في المسجد جماعة أو في البيت لعذر.",
           "source_ids": [
             "S17728000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "أمر القرآن بذكر الله عقب الصلاة",
-          "sentences": [
-            {
-              "text": "يوجه القرآن المؤمنين إلى ذكر الله بعد الصلاة في كل حال (النساء: 103).",
-              "source_ids": [
-                "Q4:103"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ ابن باز أن السنة الثابتة عقب السلام أن يستغفر المصلي ربه ثلاثا ويدعو بالسلام والبركة.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "صفة الذكر للإمام والمأموم والمنفرد",
-          "sentences": [
-            {
-              "text": "يبين الشيخ أن الإمام يقبل بوجهه على المأمومين بعد قضاء دعاء السلام ثم يكمل أذكار التهليل والتوحيد.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويؤكد أن هذه الأذكار النبوية سنة مستحبة لجميع المصلين من الرجال والنساء في الجماعة والفرادى.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "هذه الفتوى تبين أذكار السلام والاستغفار والتهليل عقب الفريضة، دون تفصيل كامل الأذكار الإضافية كقراءة آية الكرسي والمعوذات والتسبيح ثلاثا وثلاثين."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
         {
           "text": "Shaykh Ibn Baz stated that the Sunnah after the taslim of the obligatory prayer is to seek forgiveness three times, ask Allah for peace and blessing, and declare His oneness.",
           "source_ids": [
-            "Q4:103",
             "S17728000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Shaykh Ibn Baz stated that this remembrance is prescribed for men and women, whether the obligatory prayer was offered in congregation at the mosque or at home due to an excuse.",
           "source_ids": [
             "S17728000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Quranic command to remember Allah after prayer",
-          "sentences": [
-            {
-              "text": "The Quran instructs believers to remember Allah after prayer in every posture (4:103).",
-              "source_ids": [
-                "Q4:103"
-              ]
-            },
-            {
-              "text": "Sheikh Ibn Baz explains that the confirmed prophetic tradition upon the greeting of peace is to seek Allah's forgiveness three times and invoke His peace and blessings.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Manner of remembrance for imam, follower, and individual",
-          "sentences": [
-            {
-              "text": "The scholar clarifies that an imam turns to face the congregation after the initial supplication for peace and continues the declarations of monotheism.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "He affirms that these prophetic supplications are recommended Sunnah for all worshippers, men and women, whether praying behind an imam or individually.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "This fatwa outlines the initial post-prayer seeking of forgiveness and declarations of monotheism, without reciting the complete subsequent supplications such as Ayat al-Kursi or the thirty-three glorifications."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
         {
           "text": "Scheich Ibn Baz erklärte, dass es Sunna ist, nach dem Friedensgruß des Pflichtgebets dreimal um Vergebung zu bitten, Allah um Frieden und Segen zu bitten und Seine Einzigkeit zu bezeugen.",
           "source_ids": [
-            "Q4:103",
             "S17728000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Scheich Ibn Baz erklärte, dass dieses Gedenken für Männer und Frauen vorgeschrieben ist, unabhängig davon, ob das Pflichtgebet in der Moschee in Gemeinschaft oder daheim aus Entschuldigung verrichtet wurde.",
           "source_ids": [
             "S17728000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Koranischer Befehl zum Gedenken nach dem Gebet",
-          "sentences": [
-            {
-              "text": "Der Koran weist die Gläubigen an, Allah nach dem Gebet in jeder Körperhaltung zu gedenken (4:103).",
-              "source_ids": [
-                "Q4:103"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz legt dar, dass es die bekräftigte Sunna nach dem Gruß ist, dreimal um Vergebung zu bitten und das Bittgebet um Frieden und Segen zu sprechen.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Methode des Gedenkens für Vorbeter, Mitbetende und Einzelne",
-          "sentences": [
-            {
-              "text": "Der Gelehrte stellt klar, dass sich der Vorbeter nach dem Friedensbittgebet den Mitbetenden zuwendet und die Bekenntnisse der göttlichen Einheit fortführt.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Er bekräftigt, dass diese prophetischen Gedenkformeln eine empfohlene Praxis für alle Betenden, Männer wie Frauen, in der Gemeinschaft und alleine darstellen.",
-              "source_ids": [
-                "S17728000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Fatwa beschreibt das anfängliche Vergebungsbitten und die Bekenntnisse nach dem Pflichtgebet, ohne die weiteren Gedenkformen wie Ayat al-Kursi oder das dreiunddreißigfache Lobpreisen vollständig darzulegen."
-        }
-      ]
+      "explanation": []
     }
   }
 }

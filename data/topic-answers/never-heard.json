@@ -16,12 +16,6 @@
       "url": "https://quran.com/4/165"
     },
     {
-      "id": "Q28:59",
-      "kind": "quran",
-      "reference": "28:59",
-      "url": "https://quran.com/28/59"
-    },
-    {
       "id": "S0a82040b-ffa0-4734-aa2f-064bb04933b7",
       "kind": "scholar",
       "scholar_id": "ibn-baz",
@@ -35,233 +29,65 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "يقول القرآن إن الله لا يعذب حتى يبعث رسولًا، وإن الرسل يأتون بالبشارة والإنذار حتى تقوم الحجة على الناس.",
+          "text": "يبين القرآن أن العقوبة لا تكون قبل إرسال رسول، وأن الرسل يقيمون الحجة على الناس.",
           "source_ids": [
             "Q17:15",
             "Q4:165"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "وشرح الشيخ ابن باز أن من لم تبلغه الدعوة لا يعذب حتى تقوم عليه الحجة، وأن الحجة قد تقوم يوم القيامة، وأن أهل الفترات يُمتحنون يومئذ؛ فمن أجاب نجا ومن عصى دخل النار.",
+          "text": "ويشرح ابن باز أن من لم تبلغه الدعوة يمتحن يوم القيامة، فينجو من يطيع ويعاقب من يعصي.",
           "source_ids": [
             "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "قبل قيام الحجة",
-          "sentences": [
-            {
-              "text": "يربط القرآن العذاب بإرسال رسول، فلا يذكر العقوبة قبل تحقق هذا الشرط.",
-              "source_ids": [
-                "Q17:15"
-              ]
-            },
-            {
-              "text": "ويصف الرسل بأنهم مبشرون ومنذرون حتى لا تكون للناس حجة بعد مجيئهم.",
-              "source_ids": [
-                "Q4:165"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "تأكيد العدل",
-          "sentences": [
-            {
-              "text": "يذكر القرآن أن الله لا يهلك القرى حتى يبعث في أمها رسولًا يتلو عليهم آياته، ولا يهلك أهلها إلا وهم ظالمون.",
-              "source_ids": [
-                "Q28:59"
-              ]
-            },
-            {
-              "text": "وهذا يضع وصول الرسالة وإقامة الحجة داخل السياق القرآني للعدل في العقوبة.",
-              "source_ids": [
-                "Q17:15",
-                "Q28:59"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "شرح ابن باز",
-          "sentences": [
-            {
-              "text": "قال الشيخ ابن باز إن من لم تبلغه الدعوة ليس بمعذب حتى تقام عليه الحجة، وذكر أن الحجة قد تقوم عليه يوم القيامة.",
-              "source_ids": [
-                "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-              ]
-            },
-            {
-              "text": "وذكر أن أهل الفترات يُمتحنون يوم القيامة، فمن أجاب وامتثل نجا ومن عصى دخل النار.",
-              "source_ids": [
-                "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "لا تحدد هذه المصادر الحكم التفصيلي لكل شخص بعينه، ولا تضع معيارًا تفصيليًا لكل معنى يمكن أن يقال عنه إنه سمع بالإسلام أو قامت عليه الحجة."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "The Quran says that God does not punish until He has sent a messenger, and that messengers bring good news and warning so that the proof is established for people.",
+          "text": "The Quran links punishment to the coming of a messenger and describes messengers as establishing proof for people.",
           "source_ids": [
             "Q17:15",
             "Q4:165"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Shaykh Ibn Baz explained that a person who was not reached by the message is not punished until proof is established, that this proof may be established on the Day of Judgment, and that the people of an interval are tested then: whoever responds is saved and whoever refuses enters the Fire.",
+          "text": "Ibn Baz explains that those unreached by the message are tested on the Day of Judgment, with salvation for obedience and punishment for refusal.",
           "source_ids": [
             "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Before proof is established",
-          "sentences": [
-            {
-              "text": "The Quran connects punishment with the sending of a messenger and does not mention punishment before that condition is met.",
-              "source_ids": [
-                "Q17:15"
-              ]
-            },
-            {
-              "text": "It describes the messengers as bearers of good news and warning so that people have no excuse after the messengers have come.",
-              "source_ids": [
-                "Q4:165"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "The stated principle of justice",
-          "sentences": [
-            {
-              "text": "The Quran says that God would not destroy towns until He had raised a messenger in their midst to recite His messages, and that He would not destroy their people unless they were evildoers.",
-              "source_ids": [
-                "Q28:59"
-              ]
-            },
-            {
-              "text": "This places the arrival of the message and the establishment of proof within the Quran's stated context for punishment.",
-              "source_ids": [
-                "Q17:15",
-                "Q28:59"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Ibn Baz's explanation",
-          "sentences": [
-            {
-              "text": "Shaykh Ibn Baz said that someone who was not reached by the message is not punished until proof is established, and that proof may be established on the Day of Judgment.",
-              "source_ids": [
-                "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-              ]
-            },
-            {
-              "text": "He said that the people of an interval are tested on the Day of Judgment, so whoever responds and complies is saved and whoever refuses enters the Fire.",
-              "source_ids": [
-                "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "These sources do not give the detailed judgment for every individual, or define every possible meaning of having heard Islam or having had proof established."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Der Koran sagt, dass Allah nicht bestraft, bevor Er einen Gesandten geschickt hat, und dass die Gesandten frohe Botschaft und Warnung bringen, damit der Beweis für die Menschen erbracht ist.",
+          "text": "Der Koran verbindet Bestrafung mit dem Kommen eines Gesandten und beschreibt die Gesandten als Überbringer des Beweises.",
           "source_ids": [
             "Q17:15",
             "Q4:165"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Scheich Ibn Baz erklärte, dass jemand, den die Botschaft nicht erreicht hat, nicht bestraft wird, bevor der Beweis erbracht ist, dass dies am Tag der Auferstehung geschehen kann und dass die Menschen einer Zwischenzeit dann geprüft werden: Wer antwortet, wird gerettet, und wer sich weigert, kommt ins Feuer.",
+          "text": "Ibn Baz erklärt, dass Menschen ohne erreichte Botschaft am Tag der Auferstehung geprüft werden, wobei Gehorsam zur Rettung und Weigerung zur Strafe führt.",
           "source_ids": [
             "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Vor dem Erbringen des Beweises",
-          "sentences": [
-            {
-              "text": "Der Koran verbindet die Bestrafung mit der Entsendung eines Gesandten und erwähnt keine Bestrafung, bevor diese Bedingung erfüllt ist.",
-              "source_ids": [
-                "Q17:15"
-              ]
-            },
-            {
-              "text": "Er beschreibt die Gesandten als Überbringer froher Botschaft und Warner, damit die Menschen nach ihrem Kommen keinen Beweisgrund haben.",
-              "source_ids": [
-                "Q4:165"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Das genannte Prinzip der Gerechtigkeit",
-          "sentences": [
-            {
-              "text": "Der Koran sagt, dass Allah keine Städte vernichten würde, bevor Er in ihrer Mitte einen Gesandten erweckt hat, der ihnen Seine Verse verliest, und dass Er ihre Bewohner nicht vernichtet, solange sie nicht freveln.",
-              "source_ids": [
-                "Q28:59"
-              ]
-            },
-            {
-              "text": "Damit ordnet der Koran das Ankommen der Botschaft und das Erbringen des Beweises in seinen genannten Zusammenhang für Bestrafung ein.",
-              "source_ids": [
-                "Q17:15",
-                "Q28:59"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Ibn Baz' Erklärung",
-          "sentences": [
-            {
-              "text": "Scheich Ibn Baz sagte, dass jemand, den die Botschaft nicht erreicht hat, nicht bestraft wird, bevor der Beweis erbracht ist, und dass der Beweis am Tag der Auferstehung erbracht werden kann.",
-              "source_ids": [
-                "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-              ]
-            },
-            {
-              "text": "Er sagte, dass die Menschen einer Zwischenzeit am Tag der Auferstehung geprüft werden: Wer antwortet und sich fügt, wird gerettet, und wer sich weigert, kommt ins Feuer.",
-              "source_ids": [
-                "S0a82040b-ffa0-4734-aa2f-064bb04933b7"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "Diese Quellen nennen nicht das genaue Urteil über jede einzelne Person und definieren nicht jede mögliche Bedeutung davon, den Islam gehört zu haben oder der Beweis sei erbracht worden."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     }
   }
 }

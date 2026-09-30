@@ -1,6 +1,8 @@
 # Ask answer structure: design
 
-Status: design only, nothing built yet. Written 2026-09-29 for Mo, and for whoever builds it (Claude, Codex, Gemini). Revised after the Claude and Codex reviews. The revisions below are requirements, not optional implementation notes.
+Status: implemented through step 9 on 2026-09-30. Step 10, Mo's final content acceptance, remains open. The prepared inventory now passes the strict structural and content audit in all 44 files and all three languages. All changed answers remain drafts and require new content-hash approval. Written 2026-09-29 for Mo, and for whoever builds it (Claude, Codex, Gemini). Revised after the Claude and Codex reviews.
+
+**2026-09-30 repair checkpoint:** The loader now retains sources cited only by numbered lists. All 44 prepared answers use the fixed AnswerV2 structure in Arabic, English and German, with 44/44 passing the offline audit and all 37 remaining scholar excerpts matching their official pages exactly. The full live run showed 56/56 displayed answers with valid AnswerV2, zero source-only answers and zero wrong sources among the reviewed cases. Five Gemini 503 responses and one timeout were recorded separately. Fifteen obsolete refusal labels from the former two-surah test scope were corrected after that run, so its old refusal percentage is not a valid final score. Focused gold and repentance runs passed 3/3, and the known tawassul disagreement refused safely 3/3. Live German conversion remains variable and often fails safely as `no_summary`; this is an open provider/drafting quality issue, not a reason to weaken the scripture-copy checks.
 
 ## 1. The problem in one paragraph
 

@@ -4,30 +4,6 @@
   "researched_at": "2026-09-29T19:30:00+03:00",
   "sources": [
     {
-      "id": "Q2:256",
-      "kind": "quran",
-      "reference": "2:256",
-      "url": "https://quran.com/2/256"
-    },
-    {
-      "id": "Q9:5",
-      "kind": "quran",
-      "reference": "9:5",
-      "url": "https://quran.com/9/5"
-    },
-    {
-      "id": "Q9:29",
-      "kind": "quran",
-      "reference": "9:29",
-      "url": "https://quran.com/9/29"
-    },
-    {
-      "id": "Q8:39",
-      "kind": "quran",
-      "reference": "8:39",
-      "url": "https://quran.com/8/39"
-    },
-    {
       "id": "S9d295174-07ff-4455-8952-776ed3a1c094",
       "kind": "scholar",
       "scholar_id": "ibn-baz",
@@ -41,209 +17,62 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "ينقل الشيخ ابن باز قولين لأهل العلم في حكم آية نفي الإكراه في الدين مع آيات القتال كآية السيف: القول الأول أنها خاصة بأهل الكتاب والمجوس فيخيرون بين الإسلام والجزية فإن أبوا قوتلوا، وأما بقية الناس فلا تخيير عندهم بل إما الإسلام وإما السيف.",
+          "text": "ينقل ابن باز قولًا يقصر آية نفي الإكراه على أهل الكتاب والمجوس في أحكام القتال والجزية.",
           "source_ids": [
-            "S9d295174-07ff-4455-8952-776ed3a1c094",
-            "Q2:256",
-            "Q9:5",
-            "Q9:29"
-          ]
+            "S9d295174-07ff-4455-8952-776ed3a1c094"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "والقول الثاني الذي ينقله أن الآية منسوخة؛ حيث كان عدم الإكراه أول الأمر ثم شرع الله القتال والجهاد بالأمر المذكور في (8:39)، فنُسخت به وما جاء في معناها.",
+          "text": "وينقل قولًا آخر يرى أن حكم الآية نسخ بعد تشريع القتال.",
           "source_ids": [
-            "S9d295174-07ff-4455-8952-776ed3a1c094",
-            "Q8:39",
-            "Q2:256"
-          ]
+            "S9d295174-07ff-4455-8952-776ed3a1c094"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "القول الأول: التخصيص بأهل الكتاب والمجوس",
-          "sentences": [
-            {
-              "text": "يذكر الشيخ ابن باز أن القول الأول يرى أن آية نفي الإكراه خاصة بأهل الكتاب والمجوس، فلا يكرهون على الدخول في الدين بل يخيرون بين الإسلام ودفع الجزية.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q2:256",
-                "Q9:29"
-              ]
-            },
-            {
-              "text": "ويقرر الشيخ في نص هذا القول أنهم إن لم يؤدوا الجزية ولا الإسلام قوتلوا، وأما بقية الناس فلا تخيير في حقهم: إما الإسلام، وإما السيف.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q9:5"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "القول الثاني: نسخ نفي الإكراه بآيات القتال والجهاد",
-          "sentences": [
-            {
-              "text": "ينقل الشيخ القول الآخر بأن آية نفي الإكراه كانت في أول الأمر، ثم شرع الله سبحانه القتال والجهاد فنسخت حكمها.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q2:256",
-                "Q9:5"
-              ]
-            },
-            {
-          "text": "ويستند هذا القول إلى الأمر المذكور في (8:39)، ويقرر الشيخ أنه نسخ آية نفي الإكراه وما ورد في معناها.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q8:39"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "تتناول هذه المصادر العلاقة الفقهية بين آية نفي الإكراه وآيات القتال، لكنها لا تقدم تاريخًا كاملًا لكيفية انتشار الإسلام."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "Shaikh Ibn Baz conveys two classical scholarly views on whether the verse of non-compulsion in religion was abrogated by the verses of fighting: the first view is that it applies specifically to the People of the Book and Magians, who are given the choice between Islam and paying jizya, while for the rest of people there is no choice: either Islam or the sword.",
+          "text": "Ibn Baz reports one classical view that limits the non-compulsion verse to the People of the Book and Magians in rulings of fighting and jizya.",
           "source_ids": [
-            "S9d295174-07ff-4455-8952-776ed3a1c094",
-            "Q2:256",
-            "Q9:5",
-            "Q9:29"
-          ]
+            "S9d295174-07ff-4455-8952-776ed3a1c094"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "The second view he conveys is that the verse is abrogated, having applied in the initial period before Allah legislated fighting and jihad through the command discussed in (8:39), which abrogated the earlier ruling.",
+          "text": "He also reports another view that treats its earlier ruling as abrogated after fighting was legislated.",
           "source_ids": [
-            "S9d295174-07ff-4455-8952-776ed3a1c094",
-            "Q8:39",
-            "Q2:256"
-          ]
+            "S9d295174-07ff-4455-8952-776ed3a1c094"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "The first view: specificity to People of the Book and Magians",
-          "sentences": [
-            {
-              "text": "Shaikh Ibn Baz states that according to the first scholarly view, the verse is specific to the People of the Book and the Magians, who are not coerced but given the choice between Islam and paying jizya.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q2:256",
-                "Q9:29"
-              ]
-            },
-            {
-              "text": "The scholar explicitly conveys that if they refuse both jizya and Islam they are fought, and as for the rest of people, there is no choice: either Islam, or the sword.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q9:5"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "The second view: abrogation by the command of fighting and jihad",
-          "sentences": [
-            {
-              "text": "The scholar states that other scholars hold the verse to be abrogated, having belonged to the initial stage before fighting and jihad were legislated by Allah.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q2:256",
-                "Q9:5"
-              ]
-            },
-            {
-          "text": "This second view relies on the command discussed in (8:39), which the scholar explains abrogated the non-compulsion verse and related material.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q8:39"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "These sources address the legal relationship between the no-compulsion verse and the fighting verses, but they do not establish a complete historical account of how Islam spread."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Scheich Ibn Baz gibt zwei klassische Ansichten der Gelehrten dazu wieder, ob der Vers über die Zwanglosigkeit im Glauben durch die Verse des Kampfes abrogiert wurde: Die erste Ansicht besagt, dass er speziell für die Schriftbesitzer und Magier gilt, die zwischen dem Islam und der Dschizya wählen können, während für alle übrigen Menschen keine Wahl besteht: entweder der Islam oder das Schwert.",
+          "text": "Ibn Baz überliefert eine klassische Ansicht, welche den Vers über fehlenden Zwang bei den Regeln zu Kampf und Dschizya auf Schriftbesitzer und Magier begrenzt.",
           "source_ids": [
-            "S9d295174-07ff-4455-8952-776ed3a1c094",
-            "Q2:256",
-            "Q9:5",
-            "Q9:29"
-          ]
+            "S9d295174-07ff-4455-8952-776ed3a1c094"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Die zweite von ihm dargelegte Ansicht besagt, dass der Vers abrogiert ist, da die Zwanglosigkeit für die Anfangszeit galt, bevor Allah den Kampf und Dschihad durch das in (8:39) behandelte Gebot vorschrieb, wodurch der frühere Vers aufgehoben wurde.",
+          "text": "Er überliefert außerdem eine andere Ansicht, nach der die frühere Regelung nach der Anordnung des Kampfes aufgehoben wurde.",
           "source_ids": [
-            "S9d295174-07ff-4455-8952-776ed3a1c094",
-            "Q8:39",
-            "Q2:256"
-          ]
+            "S9d295174-07ff-4455-8952-776ed3a1c094"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Die erste Ansicht: Beschränkung auf Schriftbesitzer und Magier",
-          "sentences": [
-            {
-              "text": "Scheich Ibn Baz legt dar, dass der Vers nach der ersten Gelehrtenmeinung speziell für die Schriftbesitzer und Magier gilt, die nicht zum Übertritt gezwungen werden, sondern die Wahl zwischen Islam und Dschizya haben.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q2:256",
-                "Q9:29"
-              ]
-            },
-            {
-              "text": "Der Gelehrte hält ausdrücklich fest, dass sie bekämpft werden, wenn sie weder Dschizya noch Islam annehmen, und dass für die übrigen Menschen keine Wahl besteht: entweder der Islam oder das Schwert.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q9:5"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Die zweite Ansicht: Abrogation durch die Vorschrift des Dschihad",
-          "sentences": [
-            {
-              "text": "Ebenso führt der Gelehrte die Ansicht an, dass der Vers abrogiert ist und der Anfangsphase angehörte, bevor Allah den Kampf und Dschihad vorschrieb.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q2:256",
-                "Q9:5"
-              ]
-            },
-            {
-          "text": "Diese Position stützt sich auf das in (8:39) behandelte Gebot, welches nach der Erläuterung des Gelehrten den Vers über die Zwanglosigkeit und Sinnverwandtes aufhob.",
-              "source_ids": [
-                "S9d295174-07ff-4455-8952-776ed3a1c094",
-                "Q8:39"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "Diese Quellen behandeln das rechtliche Verhältnis zwischen dem Vers über die Zwanglosigkeit und den Kampfversen, legen aber keine vollständige historische Darstellung der Ausbreitung des Islam vor."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     }
   }
 }

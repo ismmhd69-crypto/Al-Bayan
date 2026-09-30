@@ -57,7 +57,9 @@ async function build(file: PreparedFile, language: Locale, options?: PreparedLoa
   if (file.status !== "approved" && !(options?.allowDraft && file.status === "draft")) return null;
   const a = file.answers?.[language];
   if (!a || !Array.isArray(a.direct_answer) || a.direct_answer.length === 0) return null;
-  const sentences = [...a.direct_answer, ...(a.explanation ?? []).flatMap((s) => s.sentences)];
+  // Lists are part of the checked answer, not decoration. A source may support only a listed
+  // step or condition, so it must be resolved and fail closed exactly like every prose sentence.
+  const sentences = [...a.direct_answer, ...(a.list ?? []), ...(a.explanation ?? []).flatMap((s) => s.sentences)];
   const usedIds = [...new Set(sentences.flatMap((s) => s.source_ids))];
   if (sentences.some((s) => !s.text || s.source_ids.length === 0)) return null;
 

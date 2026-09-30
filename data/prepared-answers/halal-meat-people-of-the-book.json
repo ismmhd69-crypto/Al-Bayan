@@ -50,114 +50,37 @@
           "source_ids": [
             "Q5:5",
             "S76850000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "قرر الشيخ ابن باز أن ذبائح أهل الكتاب حلال للمسلمين إلا إذا علم أنها أهلت لغير الله.",
           "source_ids": [
             "S76850000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "إباحة القرآن لطعام أهل الكتاب",
-          "sentences": [
-            {
-              "text": "نص القرآن الكريم على حل طعام الذين أوتوا الكتاب للمؤمنين (المائدة: 5).",
-              "source_ids": [
-                "Q5:5"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ ابن باز أن الله تعالى مع بيانه لكفر أهل الكتاب وضلالهم أباح طعامهم للمسلمين فضلا منه ورحمة، والمقصود بطعامهم ذبائحهم.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "حكم اللحوم المستوردة وشروط التحريم",
-          "sentences": [
-            {
-              "text": "يبين الشيخ أن ما يذبحه أهل الكتاب من اليهود والنصارى في مختلف البلدان حل للمسلمين بالأصل.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويبين الشيخ ابن باز أن الذبيحة المعينة تحرم إذا علم أنها أهلت لغير الله.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "هذه الفتوى تبين أصل حل ذبائح أهل الكتاب والاستثناءات القطعية، دون تفصيل الإجراءات الحكومية لشهادات الحلال للشركات التجارية."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "The Quran states that the food of the People of the Book is lawful, and Shaykh Ibn Baz explained that this refers to their slaughtered meats.",
-          "source_ids": [
-            "Q5:5",
-            "S76850000-0000-4000-a000-000000000001"
-          ]
-        },
-        {
-          "text": "Shaykh Ibn Baz ruled that their slaughtered animals are lawful for Muslims unless it is known that they were dedicated to other than Allah.",
+          "text": "Ibn Baz normally permits Muslims to eat animals slaughtered by Jewish or Christian people.",
           "source_ids": [
             "S76850000-0000-4000-a000-000000000001"
-          ]
-        }
-      ],
-      "explanation": [
-        {
-          "heading": "Quranic permission of the food of the People of the Book",
-          "sentences": [
-            {
-              "text": "The Holy Quran explicitly establishes that the food of those given the Scripture is lawful for believers (5:5).",
-              "source_ids": [
-                "Q5:5"
-              ]
-            },
-            {
-              "text": "Sheikh Ibn Baz explains that while Allah clearly pointed out their disbelief, He permitted their food for Muslims as a favor and mercy, with food meaning their slaughtered meats.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "Ruling on imported meats and prohibited conditions",
-          "sentences": [
-            {
-              "text": "The scholar clarifies that animals slaughtered by Jews or Christians across different countries are fundamentally halal for Muslims.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Shaykh Ibn Baz stated that if it is known that an animal was dedicated to other than Allah, that particular slaughtered animal is forbidden.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          "text": "He excludes an animal known to have been offered under a name other than Allah's.",
+          "source_ids": [
+            "S76850000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "not_established": [
-        {
-          "text": "This fatwa outlines the foundational lawfulness of slaughter by People of the Book and direct exceptions, without detailing administrative halal certification procedures for commercial companies."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
@@ -166,56 +89,18 @@
           "source_ids": [
             "Q5:5",
             "S76850000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Scheich Ibn Baz urteilte, dass ihre Schlachttiere für Muslime erlaubt sind, es sei denn, es ist bekannt, dass sie anderen als Allah geweiht wurden.",
           "source_ids": [
             "S76850000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Koranische Erlaubnis der Speise der Schriftbesitzer",
-          "sentences": [
-            {
-              "text": "Der Heilige Koran legt ausdrücklich fest, dass die Speise derjenigen, denen die Schrift gegeben wurde, für Gläubige erlaubt ist (5:5).",
-              "source_ids": [
-                "Q5:5"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz legt dar, dass Allah trotz der Klarstellung ihres Unglaubens ihre Speise für Muslime aus Gnade erlaubt hat, wobei mit Speise ihre Schlachttiere gemeint sind.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Urteil über importiertes Fleisch und Verbotsgründe",
-          "sentences": [
-            {
-              "text": "Der Gelehrte stellt klar, dass von Juden oder Christen geschlachtete Tiere in verschiedenen Ländern grundsätzlich für Muslime erlaubt sind.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz erklärte, dass ein bestimmtes Schlachttier verboten ist, wenn bekannt ist, dass es anderen als Allah geweiht wurde.",
-              "source_ids": [
-                "S76850000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Fatwa beschreibt die grundsätzliche Erlaubnis von Fleisch der Schriftbesitzer und Ausnahmen, ohne behördliche Verfahren für Halal-Zertifikate von Handelsunternehmen zu vertiefen."
-        }
-      ]
+      "explanation": []
     }
   }
 }

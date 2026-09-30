@@ -27,12 +27,6 @@
   },
   "sources": [
     {
-      "id": "Q73:20",
-      "kind": "quran",
-      "reference": "73:20",
-      "url": "https://quran.com/73/20"
-    },
-    {
       "id": "S51290000-0000-4000-a000-000000000001",
       "kind": "scholar",
       "scholar_id": "ibn-baz",
@@ -46,174 +40,126 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "صلاة الوتر سنة مؤكدة وقربة فاضلة، يبدأ وقتها بعد صلاة العشاء وينتهي بطلوع الفجر.",
-          "source_ids": [
-            "S51290000-0000-4000-a000-000000000001",
-            "Q73:20"
-          ]
-        },
-        {
-          "text": "وأقل الوتر ركعة واحدة، وأفضله إحدى عشرة ركعة أو ثلاث عشرة ركعة تأسيا بالنبي صلى الله عليه وسلم، ويجوز الزيادة على ذلك بركعتين ركعتين ثم يختم بواحدة.",
+          "text": "الوتر سنة مؤكدة من صلاة الليل.",
           "source_ids": [
             "S51290000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
+      "explanation": [],
+      "list": [
         {
-          "heading": "حكم صلاة الوتر ووقتها الشرعي",
-          "sentences": [
-            {
-              "text": "حث القرآن الكريم على قيام الليل والتعبد بالصلاة والتقرب إلى الله (73:20).",
-              "source_ids": [
-                "Q73:20"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ ابن باز أن صلاة الوتر سنة مؤكدة تبدأ من بعد صلاة العشاء وتمتد حتى طلوع الفجر الثاني.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          "text": "صل الوتر بعد العشاء وقبل طلوع الفجر.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "عدد ركعات الوتر وصفة أدائه",
-          "sentences": [
-            {
-              "text": "يبين الشيخ أن أقل الوتر المجزئ هو ركعة واحدة، وأفضل ما يؤدى به إحدى عشرة أو ثلاث عشرة ركعة لفعل النبي.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويجوز للمصلي أن يزيد فيصلي ما تيسر له مثنى مثنى، ثم يوتر بركعة واحدة تفرز له صلاته قبل طلوع الصبح دون حصر لعدد معين.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
+          "text": "صل صلاة الليل ركعتين ركعتين.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
+        },
         {
-          "text": "تبين هذه الفتوى وقت صلاة الوتر وعدد ركعاته وأقله وأفضله، ولا تتطرق إلى صيغ دعاء القنوت وتفاصيل أحكامه."
+          "text": "اختم ما صليته بركعة واحدة تجعل العدد وترًا.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "يجزئ في الوتر ركعة واحدة، والأفضل إحدى عشرة أو ثلاث عشرة ركعة.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
         }
       ]
     },
     "en": {
       "direct_answer": [
         {
-          "text": "The Witr prayer is an emphatic Sunnah and an act of devotion, whose time begins after the Isha prayer and concludes at the break of dawn.",
-          "source_ids": [
-            "S51290000-0000-4000-a000-000000000001",
-            "Q73:20"
-          ]
-        },
-        {
-          "text": "The minimum for Witr is one single rak'ah, and the most virtuous is eleven or thirteen rak'ahs following the Prophet's practice, while performing more in pairs and concluding with one is entirely permissible.",
+          "text": "Witr is an emphasized Sunnah prayer at night.",
           "source_ids": [
             "S51290000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
+      "explanation": [],
+      "list": [
         {
-          "heading": "Ruling and legal time of Witr prayer",
-          "sentences": [
-            {
-              "text": "The Holy Quran urges believers to stand in prayer during the night and draw near to Allah through worship (73:20).",
-              "source_ids": [
-                "Q73:20"
-              ]
-            },
-            {
-              "text": "Shaikh Ibn Baz clarifies that Witr is a confirmed Sunnah starting directly after the Isha prayer and lasting until the arrival of dawn.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          "text": "Pray Witr after Isha and before dawn.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "Number of rak'ahs and manner of performance",
-          "sentences": [
-            {
-              "text": "The scholar explains that the minimum sufficient Witr is one rak'ah, whereas the optimal performance is eleven or thirteen rak'ahs in accordance with the prophetic tradition.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "A worshipper may pray as many rak'ahs as convenient two by two, sealing them with one single rak'ah before dawn without any set upper limitation.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
+          "text": "Pray the night prayer in sets of two rak'ahs.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
+        },
         {
-          "text": "This verified fatwa outlines the prescribed time, minimum, and preferred rak'ahs of Witr, without detailing the specific wordings or rulings of the Qunut supplication."
+          "text": "Finish with one rak'ah so the total becomes odd.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "One rak'ah is sufficient, while eleven or thirteen is preferable.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
         }
       ]
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Das Witr-Gebet ist eine nachdrückliche Sunnah und gottesdienstliche Hingabe, deren Gebetszeit nach dem Ischa-Gebet beginnt und mit dem Morgengrauen endet.",
-          "source_ids": [
-            "S51290000-0000-4000-a000-000000000001",
-            "Q73:20"
-          ]
-        },
-        {
-          "text": "Das Mindestmaß für Witr ist eine einzelne Rak'ah, und das Beste sind elf oder dreizehn Rak'ahs nach dem Vorbild des Propheten, wobei eine höhere Anzahl jeweils paarweise mit abschließender Einzelrak'ah vollkommen zulässig ist.",
+          "text": "Witr ist ein nachdrücklich empfohlenes Gebet in der Nacht.",
           "source_ids": [
             "S51290000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
+      "explanation": [],
+      "list": [
         {
-          "heading": "Rechtsurteil und Gebetszeit des Witr-Gebets",
-          "sentences": [
-            {
-              "text": "Der Heilige Koran ruft dazu auf, Teile der Nacht im Gebet zu verbringen und sich Allah durch Anbetung zu nähern (73:20).",
-              "source_ids": [
-                "Q73:20"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz legt dar, dass Witr eine bekräftigte Sunnah ist, die unmittelbar nach dem Nachtgebet beginnt und bis zum Eintreffen der Morgendämmerung andauert.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          "text": "Bete Witr nach dem Ischa-Gebet und vor der Morgendämmerung.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "Anzahl der Gebetsabschnitte und Verrichtung",
-          "sentences": [
-            {
-              "text": "Der Gelehrte stellt klar, dass als Mindestmaß eine Rak'ah genügt, während die vorzüglichste Art elf oder dreizehn Rak'ahs nach der Praxis des Propheten umfasst.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Der Betende kann nach Belieben jeweils zwei Rak'ahs beten und diese vor Anbruch der Morgendämmerung mit einer ungeraden Rak'ah ohne starre Obergrenze abschließen.",
-              "source_ids": [
-                "S51290000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
+          "text": "Bete das Nachtgebet jeweils in zwei Rak'ahs.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
+        },
         {
-          "text": "Diese verifizierte Fatwa behandelt die Zeit, das Mindestmaß und die Vorzüge der Rak'ahs des Witr, ohne die genauen Wortlaute oder Regeln für das Qunut-Bittgebet zu erörtern."
+          "text": "Schließe mit einer Rak'ah ab, damit die Gesamtzahl ungerade wird.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Eine Rak'ah genügt, während elf oder dreizehn vorzuziehen sind.",
+          "source_ids": [
+            "S51290000-0000-4000-a000-000000000001"
+          ],
+          "requirement_id": "R1"
         }
       ]
     }

@@ -30,27 +30,6 @@
   },
   "sources": [
     {
-      "id": "Q2:238",
-      "kind": "quran",
-      "reference": "2:238",
-      "url": "https://quran.com/2/238"
-    },
-    {
-      "id": "Q22:77",
-      "kind": "quran",
-      "reference": "22:77",
-      "url": "https://quran.com/22/77"
-    },
-    {
-      "id": "S40220000-0000-4000-a000-000000000001",
-      "kind": "scholar",
-      "scholar_id": "ibn-baz",
-      "title": "بيان كيفية الوضوء والصلاة",
-      "reference": "binbaz.org.sa, fatwa 4022",
-      "arabic": "أما كيفية الصلاة: فإنه ينوي بقلبه الصلاة التي يريد فعلها من فرض أو نفل قبل التكبير، ولا يتلفظ بالنية لعدم الدليل على ذلك بل ذلك بدعة ثم يقول: (الله أكبر) ناويا الصلاة التي كبر لها من فرض أو نفل رافعا يديه إلى حذاء منكبيه أو فروع أذنيه تأسيا بالنبي ﷺ، ويشرع له الاستفتاح بنوع من الاستفتاحات الثابتة عن النبي ﷺ ومنها: سبحانك اللهم وبحمدك وتبارك اسمك وتعالى جدك ولا إله غيرك",
-      "url": "https://binbaz.org.sa/fatwas/4022/%D8%A8%D9%8A%D8%A7%D9%86-%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B6%D9%88%D8%A1-%D9%88%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9"
-    },
-    {
       "id": "S40220000-0000-4000-a000-000000000002",
       "kind": "scholar",
       "scholar_id": "ibn-baz",
@@ -58,223 +37,230 @@
       "reference": "binbaz.org.sa, fatwa 4022",
       "arabic": "ثم يسلم تسليمتين قائلا: (السلام عليكم ورحمة الله، عن يمينه، السلام عليكم ورحمة الله، عن يساره) تأسيا بالنبي ﷺ، وعملا بقوله ﷺ: «صلوا كما رأيتموني أصلي». هذا التسليم ركن من أركان الصلاة لا يخرج منها خروجا شرعيا إلا به، أما الالتفات فسنة، فلو سلم ولم يلتفت صحت صلاته وخرج بذلك من الصلاة، لكن يكون تاركا للسنة وهي الالتفات.",
       "url": "https://binbaz.org.sa/fatwas/4022/%D8%A8%D9%8A%D8%A7%D9%86-%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B6%D9%88%D8%A1-%D9%88%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9"
+    },
+    {
+      "id": "HE3185",
+      "kind": "hadith"
     }
   ],
   "answers": {
     "ar": {
       "direct_answer": [
         {
-          "text": "تفتتح الصلاة باستحضار النية بالقلب دون التلفظ بها ثم التكبير قائلا الله أكبر مع رفع اليدين حذاء المنكبين أو الأذنين والاستفتاح بالأدعية المأثورة.",
+          "text": "تؤدى الصلاة بترتيب أفعالها مع الطمأنينة في كل ركن.",
           "source_ids": [
-            "S40220000-0000-4000-a000-000000000001",
-            "Q2:238"
-          ]
-        },
-        {
-          "text": "ويؤدي المصلي الركوع والسجود امتثالا لأمر القرآن، وتختم الصلاة بالتسليمتين عن اليمين واليسار حيث يعد التسليم ركنا لا يخرج من الصلاة شرعا إلا به.",
-          "source_ids": [
-            "S40220000-0000-4000-a000-000000000002",
-            "Q22:77"
-          ]
+            "HE3185"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
+      "explanation": [],
+      "list": [
         {
-          "heading": "النية وتكبيرة الإحرام والاستفتاح",
-          "sentences": [
-            {
-              "text": "يبين الشيخ ابن باز أن المصلي ينوي بقلبه الصلاة المرادة من فرض أو نفل قبل التكبير، ولا يتلفظ بالنية لعدم ورود الدليل على ذلك واعتبار التلفظ بدعة.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويكبر المصلي قائلا الله أكبر ناويا الصلاة رافعا يديه حذاء منكبيه أو فروع أذنيه تأسيا بالنبي، محافظا على الصلوات والقيام لله قانتين (2:238).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001",
-                "Q2:238"
-              ]
-            },
-            {
-              "text": "ويشرع له أن يستفتح صلاته بأحد الأدعية الثابتة عن النبي.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          "text": "افتح صلاتك بالتكبير.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "الركوع والسجود وختام الصلاة بالتسليم",
-          "sentences": [
-            {
-          "text": "يربط القرآن الصلاة بالركوع والسجود والعبادة وفعل الخير (22:77).",
-              "source_ids": [
-                "Q22:77"
-              ]
-            },
-            {
-              "text": "ويختم المصلي صلاته بالتسليمتين قائلا السلام عليكم ورحمة الله عن يمينه ثم عن يساره عملا بهدي النبي وأمره بالصلاة كما رآه أصحابه يصلي.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000002"
-              ]
-            },
-            {
-              "text": "ويقرر الشيخ أن التسليم ركن من أركان الصلاة لا يخرج منها شرعا إلا به، في حين يعد الالتفات سنة لا تبطل الصلاة بتركه.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000002"
-              ]
-            }
-          ]
+          "text": "اقرأ الفاتحة ثم شيئًا من الوحي تستطيع قراءته.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "اثبت في هيئة الركوع حتى تسكن.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "اعتدل بعد الركوع واقفًا.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "اثبت في هيئة السجود حتى تسكن.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "اجلس مطمئنًا بعد الرفع من السجود.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "اعمل بهذا الترتيب في بقية الصلاة.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "اخرج من الصلاة بتحية السلام جهة اليمين ثم جهة اليسار.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000002"
+          ],
+          "requirement_id": "R1"
         }
       ],
       "not_established": [
-        {
-          "text": "تتناول هذه الفتوى نية الصلاة وتكبير الافتتاح والدعاء والركوع والسجود والتسليم، لكنها لا تشرح كل خطوات الصلاة الوسطى أو عدد الركعات أو جميع الأذكار."
-        }
+        "هذه المصادر لا تعرض ألفاظ التشهد قبل التسليم الأخير."
       ]
     },
     "en": {
       "direct_answer": [
         {
-          "text": "Prayer begins by establishing intention in the heart without vocalizing it, uttering the Takbir saying Allahu Akbar while raising the hands to shoulder or ear level, and reciting established opening supplications.",
+          "text": "Prayer follows an ordered set of actions with calmness in every position.",
           "source_ids": [
-            "S40220000-0000-4000-a000-000000000001",
-            "Q2:238"
-          ]
-        },
-        {
-          "text": "The worshiper performs bowing and prostration in fulfillment of the Quranic command, and concludes with the two greetings of Salam to the right and left, which constitutes an indispensable pillar to exit the prayer.",
-          "source_ids": [
-            "S40220000-0000-4000-a000-000000000002",
-            "Q22:77"
-          ]
+            "HE3185"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
+      "explanation": [],
+      "list": [
         {
-          "heading": "Intention, opening Takbir, and supplication",
-          "sentences": [
-            {
-              "text": "Shaikh Ibn Baz clarifies that the worshiper intends the specific obligatory or voluntary prayer in the heart before Takbir, without vocalizing the intention because doing so lacks evidence and is considered an innovation.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "The worshiper says Allahu Akbar with the intention of the prayer while raising both hands level with the shoulders or earlobes following the Prophet, fulfilling Allah's command to maintain regular prayer and stand devoutly before Him (2:238).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001",
-                "Q2:238"
-              ]
-            },
-            {
-              "text": "It is legislated to begin with one of the established supplications transmitted from the Prophet.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          "text": "Begin with the opening takbir.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "Bowing, prostration, and concluding with Taslim",
-          "sentences": [
-            {
-          "text": "The Quran connects prayer with bowing, prostration, worship, and doing good (22:77).",
-              "source_ids": [
-                "Q22:77"
-              ]
-            },
-            {
-              "text": "The worshiper concludes the prayer with two greetings of Salam saying As-salamu alaykum wa rahmatullah to the right and left, following the Prophet's instruction to pray as he was seen praying.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000002"
-              ]
-            },
-            {
-              "text": "The scholar establishes that this Taslim is a fundamental pillar without which one cannot legally exit the prayer, whereas turning the head is a Sunnah whose omission does not invalidate the prayer.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000002"
-              ]
-            }
-          ]
+          "text": "Then recite what you know.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Bow and become settled in the bowing position.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Rise until you are standing upright.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Prostrate and become settled in prostration.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Rise and sit until you are settled.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Repeat these actions throughout the prayer.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Finish by giving salam to the right and then the left.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000002"
+          ],
+          "requirement_id": "R1"
         }
       ],
       "not_established": [
-        {
-          "text": "This fatwa covers intention, the opening Takbir, supplication, bowing, prostration, and Taslim, but it does not explain every middle step, the number of prayer units, or every remembrance."
-        }
+        "These sources do not provide the wording of the sitting testimony before the final salam."
       ]
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Das Gebet beginnt mit der Absicht im Herzen ohne sie laut auszusprechen, dem Sprechen des Takbir mit den Worten Allahu Akbar unter Heben der Hände auf Schulter- oder Ohrhöhe und dem überlieferten Eröffnungsbitten.",
+          "text": "Das Gebet folgt einer festen Reihenfolge mit Ruhe in jeder Haltung.",
           "source_ids": [
-            "S40220000-0000-4000-a000-000000000001",
-            "Q2:238"
-          ]
-        },
-        {
-          "text": "Der Betende vollzieht Verbeugung und Niederwerfung gemäß dem koranischen Gebot und schließt das Gebet mit dem zweifachen Friedensgruß nach rechts und links ab, welcher eine unverzichtbare Säule zur Beendigung des Gebets darstellt.",
-          "source_ids": [
-            "S40220000-0000-4000-a000-000000000002",
-            "Q22:77"
-          ]
+            "HE3185"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
+      "explanation": [],
+      "list": [
         {
-          "heading": "Absicht, Eröffnungstakbir und Eröffnungsbitten",
-          "sentences": [
-            {
-              "text": "Scheich Ibn Baz legt dar, dass der Betende die Absicht für das jeweilige Pflicht- oder freiwillige Gebet vor dem Takbir im Herzen fasst, ohne sie laut auszusprechen, da es dafür keinen Beleg gibt und dies als Neuerung gilt.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Der Betende spricht Allahu Akbar in Ausrichtung auf das Gebet und hebt die Hände auf Schulter- oder Ohrhöhe in Nachahmung des Propheten, im Gehorsam gegenüber dem koranischen Gebot, die Gebete einzuhalten und demütig vor Allah zu stehen (2:238).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001",
-                "Q2:238"
-              ]
-            },
-            {
-              "text": "Es ist vorgeschrieben, das Gebet mit einem der überlieferten Bittgebete des Propheten zu eröffnen.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
+          "text": "Beginne mit dem Eröffnungstakbir.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "Verbeugung, Niederwerfung und Abschluss durch den Friedensgruß",
-          "sentences": [
-            {
-          "text": "Der Koran verbindet das Gebet mit Verbeugung, Niederwerfung, Anbetung und guten Taten (22:77).",
-              "source_ids": [
-                "Q22:77"
-              ]
-            },
-            {
-              "text": "Er beendet sein Gebet mit dem zweifachen Friedensgruß As-salamu alaykum wa rahmatullah nach rechts und nach links, gemäß der Weisung des Propheten, so zu beten, wie man ihn beten sah.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000002"
-              ]
-            },
-            {
-              "text": "Der Gelehrte stellt fest, dass dieser Taslim eine grundlegende Säule ist, ohne die man das Gebet rechtlich nicht verlassen kann, während das Wenden des Kopfes eine Sunna ist, deren Unterlassen das Gebet nicht ungültig macht.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000002"
-              ]
-            }
-          ]
+          "text": "Rezitiere anschließend, was dir möglich ist.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Verbeuge dich und komme in der Verbeugung zur Ruhe.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Richte dich auf, bis du gerade stehst.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Wirf dich nieder und komme in der Niederwerfung zur Ruhe.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Richte dich auf und sitze ruhig.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Wiederhole diese Handlungen in den Gebetsabschnitten.",
+          "source_ids": [
+            "HE3185"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Beende das Gebet mit dem Friedensgruß nach rechts und dann nach links.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000002"
+          ],
+          "requirement_id": "R1"
         }
       ],
       "not_established": [
-        {
-          "text": "Diese Fatwa behandelt die Absicht, den Eröffnungstakbir, Bittgebete, Verbeugung, Niederwerfung und Taslim, erklärt aber nicht jeden mittleren Schritt, die Zahl der Gebetseinheiten oder jedes Gedenken."
-        }
+        "Diese Quellen enthalten nicht den Wortlaut des Sitzbekenntnisses vor dem abschließenden Friedensgruß."
       ]
     }
   }

@@ -58,6 +58,14 @@ describe("structured answers", () => {
       explanation: [{ heading: "Steps", sentences: [sentence("A person must stop the sin."), sentence("A person must regret it.")] }],
       not_established: [] }, [source], "en", policy, "practice");
     expect(promoted.ok && promoted.answer.directAnswer.map((c) => c.text)).toEqual(["A person must stop the sin."]);
+    // A model may put the whole direct response in a list. Keep its checked wording and promote the
+    // first item instead of returning no-summary for a harmless layout choice.
+    const listOnly = parseStructuredDraft({ status: "answer", simple_answer: [], list: [
+      sentence("A person must stop the sin."), sentence("A person must regret the past act."),
+      sentence("A person must resolve not to return."),
+    ], more_explanation: [], limit_note: [] }, [source], "en", policy, "practice");
+    expect(listOnly.ok && listOnly.answer.directAnswer.map((c) => c.text)).toEqual(["A person must stop the sin."]);
+    expect(listOnly.ok && listOnly.answer.list).toHaveLength(2);
   });
   it("keeps an unsourced limit note only for reason, objection, steps or conditions questions", () => {
     const raw = { status: "answer", direct_answer: [sentence("This source explains the first reason.")],

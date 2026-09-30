@@ -38,81 +38,25 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "نعرف من القرآن أن الله نسب إنزال الذكر إلى نفسه، وتعهد بحفظه، ووصفه بأنه لا يأتيه الباطل من بين يديه ولا من خلفه.",
+          "text": "ينسب القرآن تنزيل الذكر إلى الله ويقرر أن حفظه مضمون، كما ينفي وصول الباطل إليه.",
           "source_ids": [
             "Q15:9",
             "Q41:42"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "وتذكر آيات أخرى أن جمعه وقراءته وبيانه على الله، ولذلك تقدم هذه النصوص أساسًا إيمانيًا لحفظ القرآن.",
+          "text": "وتجعل آيات أخرى جمع القرآن وقراءته وبيانه في ضمان الله.",
           "source_ids": [
             "Q75:17",
             "Q75:18",
             "Q75:19"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "وعد الحفظ",
-          "sentences": [
-            {
-              "text": "يقول القرآن إن الله هو الذي أنزل الذكر وإنه هو الذي يحفظه.",
-              "source_ids": [
-                "Q15:9"
-              ]
-            },
-            {
-              "text": "فالآية تعرض حفظ القرآن بوصفه وعدًا إلهيًا مباشرًا.",
-              "source_ids": [
-                "Q15:9"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "نفي وصول الباطل",
-          "sentences": [
-            {
-              "text": "تصف آية فصلت القرآن بأنه كتاب عزيز لا يأتيه الباطل من أمامه ولا من خلفه.",
-              "source_ids": [
-                "Q41:42"
-              ]
-            },
-            {
-              "text": "وتربط الآية ذلك بكونه تنزيلًا من الحكيم الحميد.",
-              "source_ids": [
-                "Q41:42"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "الجمع والقراءة والبيان",
-          "sentences": [
-            {
-              "text": "تقول سورة القيامة إن جمع القرآن وقراءته على الله.",
-              "source_ids": [
-                "Q75:17"
-              ]
-            },
-            {
-              "text": "ثم توجه إلى اتباع قراءته وتذكر أن بيانه على الله أيضًا.",
-              "source_ids": [
-                "Q75:18",
-                "Q75:19"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "هذه الآيات تقرر الحفظ الإلهي، لكنها لا تقدم وحدها دراسة كاملة لتاريخ المخطوطات أو كل مرحلة من مراحل نقل النص."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "en": {
       "direct_answer": [
@@ -121,7 +65,8 @@
           "source_ids": [
             "Q15:9",
             "Q41:42"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Other verses say that its safe collection, recitation, and clarification are with God, so these texts provide the Quran's faith-based foundation for its preservation.",
@@ -129,69 +74,12 @@
             "Q75:17",
             "Q75:18",
             "Q75:19"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "The promise of guarding",
-          "sentences": [
-            {
-              "text": "The Quran says that God sent down the Reminder and that He Himself will guard it.",
-              "source_ids": [
-                "Q15:9"
-              ]
-            },
-            {
-              "text": "The verse therefore presents the Quran's preservation as a direct divine promise.",
-              "source_ids": [
-                "Q15:9"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Falsehood cannot reach it",
-          "sentences": [
-            {
-              "text": "Surah Fussilat describes the Quran as an unassailable Scripture that falsehood cannot touch from before it or behind it.",
-              "source_ids": [
-                "Q41:42"
-              ]
-            },
-            {
-              "text": "The verse connects this description with its being a revelation from the Wise One, Worthy of All Praise.",
-              "source_ids": [
-                "Q41:42"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Collection, recitation, and clarification",
-          "sentences": [
-            {
-              "text": "Surah al-Qiyamah says that God is responsible for its safe collection and recitation.",
-              "source_ids": [
-                "Q75:17"
-              ]
-            },
-            {
-              "text": "It then says to follow its recitation and states that its clarification is also with God.",
-              "source_ids": [
-                "Q75:18",
-                "Q75:19"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "These verses state divine preservation, but by themselves they do not provide a complete history of manuscripts or every stage of textual transmission."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "de": {
       "direct_answer": [
@@ -200,77 +88,21 @@
           "source_ids": [
             "Q15:9",
             "Q41:42"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Andere Verse sagen, dass seine Sammlung, Verlesung und Darlegung Allah obliegen; damit geben diese Texte die glaubensmäßige Grundlage für die Bewahrung des Korans.",
+          "text": "Andere Verse sagen, dass seine Sammlung, Verlesung und Darlegung Allah obliegen, damit geben diese Texte die glaubensmäßige Grundlage für die Bewahrung des Korans.",
           "source_ids": [
             "Q75:17",
             "Q75:18",
             "Q75:19"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Das Versprechen der Bewahrung",
-          "sentences": [
-            {
-              "text": "Der Koran sagt, dass Allah die Ermahnung herabgesandt hat und selbst ihr Hüter sein wird.",
-              "source_ids": [
-                "Q15:9"
-              ]
-            },
-            {
-              "text": "Der Vers stellt die Bewahrung des Korans somit als unmittelbares göttliches Versprechen dar.",
-              "source_ids": [
-                "Q15:9"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Keine Falschheit erreicht ihn",
-          "sentences": [
-            {
-              "text": "Die Sure Fussilat beschreibt den Koran als ein ehrwürdiges Buch, an das die Falschheit weder von vorn noch von hinten herankommen kann.",
-              "source_ids": [
-                "Q41:42"
-              ]
-            },
-            {
-              "text": "Der Vers verbindet diese Beschreibung damit, dass er eine Offenbarung vom Allweisen und des Lobes Würdigen ist.",
-              "source_ids": [
-                "Q41:42"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Sammlung, Verlesung und Darlegung",
-          "sentences": [
-            {
-              "text": "Die Sure al-Qiyama sagt, dass Allah für die Sammlung und Verlesung des Korans einsteht.",
-              "source_ids": [
-                "Q75:17"
-              ]
-            },
-            {
-              "text": "Danach fordert sie dazu auf, seiner Verlesung zu folgen, und sagt, dass auch seine Darlegung Allah obliegt.",
-              "source_ids": [
-                "Q75:18",
-                "Q75:19"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "Diese Verse bezeugen die göttliche Bewahrung, liefern aber für sich genommen keine vollständige Geschichte der Handschriften oder jeder Stufe der Überlieferung."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     }
   }
 }

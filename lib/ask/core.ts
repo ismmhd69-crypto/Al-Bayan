@@ -22,6 +22,7 @@ import { matchingTopicHints } from "@/data/topic-source-hints";
 import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
 import { validateAnswerV2, type AnswerV2 } from "./answer-v2";
 import { buildLiveAnswerV2 } from "./assemble";
+import { asksKnownUnresolvedView } from "@/data/view-decisions";
 import {
   hadithAllowed,
   HADITH_ATTRIBUTION,
@@ -598,6 +599,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     return { status: "ask_scholar", language: frame.language };
   }
   const language = frame.language;
+  if (asksKnownUnresolvedView(question, frame.questionType)) {
+    return refuse("scholar_difference_unresolved_known_topic", language);
+  }
 
   // 3. Retrieve candidates. Search phrases improve recall but are never treated as evidence.
   const queries = buildSearchQueries(frame);
@@ -859,8 +863,11 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   let parsed = await draftOnce();
   step("draft");
   if (!parsed.ok && RETRYABLE.has(parsed.reason)) {
+    const copyGuidance = parsed.reason === "copied_source" && requiredDirectItems.length > 0
+      ? " When an indispensable item has familiar source wording, state its meaning with a different sentence structure while keeping every required name and role explicit."
+      : "";
     parsed = await draftOnce(
-      `The previous draft failed the code rule "${parsed.reason}". Keep the simple answer and list complete; use shorter, simpler cited sentences and do not reproduce source wording or repeat a fact. You must still cover every requested point: ${requirementReminder}.`,
+      `The previous draft failed the code rule "${parsed.reason}". Keep the simple answer and list complete; use shorter, simpler cited sentences and do not reproduce source wording or repeat a fact. You must still cover every requested point: ${requirementReminder}.${copyGuidance}`,
     );
   }
   if (!parsed.ok) return noSummaryFallback(`draft_${parsed.reason}`, RETRYABLE.has(parsed.reason));
@@ -933,7 +940,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     || !requirementsCovered(verdicts, requirementIds)
     || !structuredAnswerOk(verdicts)) {
     const corrected = await draftOnce(
-      `The previous wording failed independent screening. Give the requested answer directly in simple_answer or list, include every applicable item listed in the cited source, remove repetition, and keep every sentence directly supported. Required points: ${requirementReminder}.`,
+      `The previous wording failed independent screening. Give the requested answer directly in simple_answer or list, include every applicable item listed in the cited source, remove repetition, and keep every sentence directly supported. Required points: ${requirementReminder}. Mandatory direct items: ${requiredDirectItems.join(", ") || "none beyond the required points"}.`,
     );
     if (!corrected.ok) return noSummaryFallback(`screening_retry_${corrected.reason}`, RETRYABLE.has(corrected.reason));
     parsed = corrected;

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "audit:prepared": "tsx --conditions=react-server scripts/dry-run-prepared-v2.ts --strict"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

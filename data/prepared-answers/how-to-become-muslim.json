@@ -30,18 +30,6 @@
   },
   "sources": [
     {
-      "id": "Q3:19",
-      "kind": "quran",
-      "reference": "3:19",
-      "url": "https://quran.com/3/19"
-    },
-    {
-      "id": "Q49:14",
-      "kind": "quran",
-      "reference": "49:14",
-      "url": "https://quran.com/49/14"
-    },
-    {
       "id": "HE66512",
       "kind": "hadith"
     },
@@ -59,233 +47,62 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "يدخل الإنسان في الإسلام بالنطق الصادق بالشهادتين والإقرار بهما: متى أقر بالشهادتين ووحد الله عز وجل وصدق رسوله محمدا ﷺ دخل في الإسلام.",
+          "text": "يدخل المرء في الإسلام بإخلاص التوحيد لله والإقرار بأن محمدًا رسوله.",
           "source_ids": [
             "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3",
             "HE66512"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "ودين الإسلام هو الدين الحق المقبول عند الله القائم على الاستسلام له بالتوحيد (3:19).",
+          "text": "بعد الدخول في الإسلام يبدأ المسلم بإقامة الصلاة وسائر أركان الدين الواجبة.",
           "source_ids": [
-            "Q3:19"
-          ]
-        },
-        {
-          "text": "ثم يلتزم المسلم بأركان دينه العملية: فإن صلى تم إسلامه، ولا يجوز له إنكار وجوب الصلاة أو الصيام أو الزكاة أو الحج.",
-          "source_ids": [
-            "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3",
-            "HE66512"
-          ]
+            "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "الشهادتان بوابة الدخول في الإسلام",
-          "sentences": [
-            {
-              "text": "يبين الحديث الصحيح أن الإسلام يقوم على خمسة أركان، ويذكر الشهادتين أولها.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "ويقرر الشيخ ابن باز أن الإنسان يكون مسلما بالشهادتين، فمتى أقر بهما ووحد الله عز وجل وصدق رسوله دخل في الإسلام.",
-              "source_ids": [
-                "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
-              ]
-            },
-            {
-              "text": "ويؤكد القرآن الكريم أن الدين الحق المقبول عند الله هو الإسلام القائم على إفراده بالعبادة (3:19).",
-              "source_ids": [
-                "Q3:19"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "إتمام الإسلام بالصلاة والالتزام بالأركان",
-          "sentences": [
-            {
-              "text": "يفرق القرآن بين مجرد الاستسلام الظاهري ورسوخ الإيمان واليقين في القلب داعيا إلى الطاعة لله ورسوله (49:14).",
-              "source_ids": [
-                "Q49:14"
-              ]
-            },
-            {
-              "text": "وتقتضي الاستجابة للشهادتين المحافظة على بقية أركان الإسلام الخمسة من الصلاة والزكاة والصوم وحج البيت لمن استطاع.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ أن المسلم بعد نطقه بالشهادتين ينظر في أمره، فإن صلى تم إسلامه، محذرا من إنكار شيء من فرائض الإسلام كالصلاة أو الصيام أو الزكاة أو الحج.",
-              "source_ids": [
-                "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "تشرح هذه المصادر الدخول في الإسلام بالشهادتين والالتزام بأركانه، لكنها لا تتناول المعاملات الورقية أو المراسم الشكلية."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "A person enters Islam by sincerely acknowledging and proclaiming the two testimonies of faith: whenever one affirms the Shahadah, singles out Allah in worship, and believes in His Messenger Muhammad ﷺ, they enter into Islam.",
+          "text": "A person enters Islam by sincerely affirming that Allah alone deserves worship and that Muhammad is His Messenger.",
           "source_ids": [
             "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3",
             "HE66512"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Islam is the only true religion accepted in the sight of Allah, based on surrendering to Him in monotheism (3:19).",
+          "text": "After entering Islam, the new Muslim begins observing prayer and the other required pillars.",
           "source_ids": [
-            "Q3:19"
-          ]
-        },
-        {
-          "text": "The new Muslim then adheres to the practical pillars of religion: if they observe the prayer their Islam is complete, and one must never deny the obligation of prayer, fasting, zakat, or hajj.",
-          "source_ids": [
-            "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3",
-            "HE66512"
-          ]
+            "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "The two testimonies as the entry to Islam",
-          "sentences": [
-            {
-              "text": "The authentic hadith presents Islam as resting on five pillars and places the two testimonies first.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "Shaikh Ibn Baz affirms that a person becomes a Muslim through the two testimonies of faith, so that whenever they affirm them, affirm Allah's oneness, and believe in His Messenger, they enter Islam.",
-              "source_ids": [
-                "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
-              ]
-            },
-            {
-              "text": "The Holy Quran confirms that the true religion accepted with Allah is Islam, grounded in dedicating all worship solely to Him (3:19).",
-              "source_ids": [
-                "Q3:19"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Completing Islam through prayer and adhering to the pillars",
-          "sentences": [
-            {
-              "text": "The Quran distinguishes outer submission from faith taking deep root in the heart, calling believers to sincere obedience to Allah and His Messenger (49:14).",
-              "source_ids": [
-                "Q49:14"
-              ]
-            },
-            {
-              "text": "Answering the call of the Shahadah entails practicing the remaining pillars of Islam: prayer, zakat, fasting Ramadan, and performing the pilgrimage if capable.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "The scholar emphasizes that after confessing faith, if a person performs prayer their Islam is complete, warning strictly against denying any obligatory pillar such as prayer, fasting, zakat, or hajj.",
-              "source_ids": [
-                "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "These sources explain entry into Islam through the two testimonies and adherence to its pillars, but they do not discuss administrative documents or formal ceremonies."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Der Mensch tritt in den Islam ein, indem er aufrichtig das zweifache Glaubensbekenntnis (die Schahada) anerkennt und spricht: Sobald man die Schahada bezeugt, Allahs Einheit anerkennt und an Seinen Gesandten Muhammad ﷺ glaubt, tritt man in den Islam ein.",
+          "text": "Ein Mensch tritt in den Islam ein, indem er aufrichtig bekennt, dass Allah allein Anbetung verdient und Muhammad Sein Gesandter ist.",
           "source_ids": [
             "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3",
             "HE66512"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Der Islam ist die einzig wahre, bei Allah angenommene Religion, die auf der reinen Hingabe an Ihn im Monotheismus beruht (3:19).",
+          "text": "Danach beginnt der neue Muslim mit dem Gebet und den weiteren verpflichtenden Säulen.",
           "source_ids": [
-            "Q3:19"
-          ]
-        },
-        {
-          "text": "Anschließend verpflichtet sich der Gläubige zu den praktischen Pfeilern der Religion: Verrichtet er das Gebet, ist sein Islam vollständig, und niemals darf die Pflicht von Gebet, Fasten, Zakat oder Hadsch geleugnet werden.",
-          "source_ids": [
-            "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3",
-            "HE66512"
-          ]
+            "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Die Schahada als Tor zum Islam",
-          "sentences": [
-            {
-              "text": "Der authentische Hadith stellt den Islam als auf fünf Säulen beruhend dar und nennt die beiden Glaubenszeugnisse an erster Stelle.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz bekräftigt, dass der Mensch durch die beiden Glaubenszeugnisse Muslim wird, sobald er sie bekennt, Allahs Einzigkeit bezeugt und Seinen Gesandten bestätigt.",
-              "source_ids": [
-                "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
-              ]
-            },
-            {
-              "text": "Der Koran bestätigt, dass die einzige von Allah angenommene Religion der Islam ist, der auf der ausschließlichen Verehrung Seiner Einheit fußt (3:19).",
-              "source_ids": [
-                "Q3:19"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Vollendung des Islam durch das Gebet und die Pfeiler",
-          "sentences": [
-            {
-              "text": "Der Koran unterscheidet zwischen der bloßen äußeren Ergebenheit und dem tiefen Einzug des Glaubens in das Herz und ruft zum Gehorsam gegenüber Allah und Seinem Gesandten auf (49:14).",
-              "source_ids": [
-                "Q49:14"
-              ]
-            },
-            {
-              "text": "Das Bekenntnis fordert die Erfüllung der übrigen Grundpfeiler: das regelmäßige Gebet, die Zakat-Abgabe, das Fasten im Ramadan und die Pilgerfahrt.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "Der Gelehrte stellt klar, dass nach dem Aussprechen des Zeugnisses das Verrichten des Gebets den Islam vollendet, und warnt eindringlich davor, die Pflichten wie Gebet, Fasten, Zakat oder Hadsch zu leugnen.",
-              "source_ids": [
-                "S85ba041c-2d11-4730-95af-f5bbdcd6e8d3"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Quellen erklären den Eintritt in den Islam durch die Schahada und das Befolgen seiner Säulen, behandeln aber keine bürokratischen Dokumente oder formellen Zeremonien."
-        }
-      ]
+      "explanation": []
     }
   }
 }

@@ -16,252 +16,75 @@
       "url": "https://quran.com/3/190"
     },
     {
-      "id": "Q3:191",
-      "kind": "quran",
-      "reference": "3:191",
-      "url": "https://quran.com/3/191"
-    },
-    {
       "id": "Q52:35",
       "kind": "quran",
       "reference": "52:35",
       "url": "https://quran.com/52/35"
-    },
-    {
-      "id": "Q52:36",
-      "kind": "quran",
-      "reference": "52:36",
-      "url": "https://quran.com/52/36"
     }
   ],
   "answers": {
     "ar": {
       "direct_answer": [
         {
-          "text": "لا يطلب القرآن إيمانًا أعمى؛ بل يلفت إلى آيات في الخلق ويدعو أصحاب العقول إلى النظر فيها.",
+          "text": "لا يطلب القرآن إيمانًا أعمى، بل يلفت إلى آيات في الخلق ويدعو أصحاب العقول إلى النظر فيها.",
           "source_ids": [
             "Q2:164",
             "Q3:190"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "ويطرح أسئلة عقلية عن أصل الإنسان: هل خُلق من غير خالق أم خلق نفسه؟",
           "source_ids": [
             "Q52:35"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "آيات في العالم",
-          "sentences": [
-            {
-              "text": "يذكر القرآن السماوات والأرض والليل والنهار والماء والرياح والسحاب، ثم يصفها بأنها آيات لمن يعقلون.",
-              "source_ids": [
-                "Q2:164"
-              ]
-            },
-            {
-              "text": "ويقول إن في خلق السماوات والأرض واختلاف الليل والنهار آيات لأولي الألباب.",
-              "source_ids": [
-                "Q3:190"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "التفكر والعبادة",
-          "sentences": [
-            {
-              "text": "يصف القرآن أناسًا يذكرون الله ويتفكرون في خلق السماوات والأرض.",
-              "source_ids": [
-                "Q3:191"
-              ]
-            },
-            {
-              "text": "وينسب إليهم قولهم إن الله لم يخلق هذا باطلًا.",
-              "source_ids": [
-                "Q3:191"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "أسئلة عن الخلق",
-          "sentences": [
-            {
-              "text": "يسأل القرآن هل خُلق الناس من غير خالق أو هل هم الخالقون.",
-              "source_ids": [
-                "Q52:35"
-              ]
-            },
-            {
-              "text": "ثم يسأل هل خلقوا السماوات والأرض، ويجيب بالنفي.",
-              "source_ids": [
-                "Q52:36"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "هذه الآيات تدعو إلى استعمال العقل والتفكر، لكنها لا تقول إن كل مسألة دينية تُحسم بالعقل البشري وحده."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "The Quran does not ask for blind belief; it points to signs in creation and calls people with understanding to consider them.",
+          "text": "The Quran does not ask for blind belief, it points to signs in creation and calls people with understanding to consider them.",
           "source_ids": [
             "Q2:164",
             "Q3:190"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "It also asks rational questions about human origins: were people created without an agent, or did they create themselves?",
           "source_ids": [
             "Q52:35"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Signs in the world",
-          "sentences": [
-            {
-              "text": "The Quran names the heavens, earth, night, day, water, winds, and clouds, then calls them signs for people who use their minds.",
-              "source_ids": [
-                "Q2:164"
-              ]
-            },
-            {
-              "text": "It says that the creation of the heavens and earth and the alternation of night and day contain signs for people with understanding.",
-              "source_ids": [
-                "Q3:190"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Reflection and worship",
-          "sentences": [
-            {
-              "text": "The Quran describes people who remember God and reflect on the creation of the heavens and earth.",
-              "source_ids": [
-                "Q3:191"
-              ]
-            },
-            {
-              "text": "It reports their conclusion that God did not create this without purpose.",
-              "source_ids": [
-                "Q3:191"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Questions about creation",
-          "sentences": [
-            {
-              "text": "The Quran asks whether people were created without an agent or whether they are the creators.",
-              "source_ids": [
-                "Q52:35"
-              ]
-            },
-            {
-              "text": "It then asks whether they created the heavens and earth and answers no.",
-              "source_ids": [
-                "Q52:36"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "These verses call people to use reason and reflect, but they do not say that every religious question is settled by human reason alone."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Der Koran verlangt keinen blinden Glauben; er weist auf Zeichen in der Schöpfung hin und ruft die Verständigen dazu auf, über sie nachzudenken.",
+          "text": "Der Koran verlangt keinen blinden Glauben, er weist auf Zeichen in der Schöpfung hin und ruft die Verständigen dazu auf, über sie nachzudenken.",
           "source_ids": [
             "Q2:164",
             "Q3:190"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Er stellt außerdem vernünftige Fragen nach dem Ursprung des Menschen: Wurden die Menschen ohne einen Schöpfer erschaffen, oder haben sie sich selbst erschaffen?",
           "source_ids": [
             "Q52:35"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Zeichen in der Welt",
-          "sentences": [
-            {
-              "text": "Der Koran nennt Himmel, Erde, Nacht, Tag, Wasser, Winde und Wolken und bezeichnet sie als Zeichen für Menschen, die begreifen.",
-              "source_ids": [
-                "Q2:164"
-              ]
-            },
-            {
-              "text": "Er sagt, dass in der Schöpfung von Himmel und Erde sowie im Wechsel von Nacht und Tag Zeichen für die Verständigen liegen.",
-              "source_ids": [
-                "Q3:190"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Nachdenken und Anbetung",
-          "sentences": [
-            {
-              "text": "Der Koran beschreibt Menschen, die Allahs gedenken und über die Schöpfung von Himmel und Erde nachdenken.",
-              "source_ids": [
-                "Q3:191"
-              ]
-            },
-            {
-              "text": "Er berichtet ihre Schlussfolgerung, dass Allah dies nicht sinnlos erschaffen hat.",
-              "source_ids": [
-                "Q3:191"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Fragen über die Schöpfung",
-          "sentences": [
-            {
-              "text": "Der Koran fragt, ob die Menschen ohne einen Schöpfer erschaffen wurden oder selbst die Schöpfer sind.",
-              "source_ids": [
-                "Q52:35"
-              ]
-            },
-            {
-              "text": "Dann fragt er, ob sie Himmel und Erde erschaffen haben, und antwortet mit Nein.",
-              "source_ids": [
-                "Q52:36"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "Diese Verse rufen dazu auf, den Verstand zu gebrauchen und nachzudenken, sagen aber nicht, dass jede religiöse Frage allein durch menschliche Vernunft entschieden wird."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     }
   }
 }

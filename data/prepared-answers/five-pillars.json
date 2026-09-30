@@ -27,24 +27,6 @@
   },
   "sources": [
     {
-      "id": "Q2:43",
-      "kind": "quran",
-      "reference": "2:43",
-      "url": "https://quran.com/2/43"
-    },
-    {
-      "id": "Q2:183",
-      "kind": "quran",
-      "reference": "2:183",
-      "url": "https://quran.com/2/183"
-    },
-    {
-      "id": "Q3:97",
-      "kind": "quran",
-      "reference": "3:97",
-      "url": "https://quran.com/3/97"
-    },
-    {
       "id": "HE66512",
       "kind": "hadith"
     },
@@ -66,56 +48,11 @@
           "source_ids": [
             "HE66512",
             "S18974000-0000-4000-a000-000000000002"
-          ]
-        },
-        {
-          "text": "Shaykh Ibn Baz explained that these five are the pillars of Islam, and that every act Allah has legislated falls within Islam.",
-          "source_ids": [
-            "S18974000-0000-4000-a000-000000000002"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "The testimony, prayer and zakat",
-          "sentences": [
-            {
-              "text": "The hadith puts first the testimony of faith: bearing witness that none is worthy of worship except Allah and that the Prophet Muhammad ﷺ is His servant and messenger.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "The Quran tells believers to keep up the prayer and to pay the prescribed alms (2:43).",
-              "source_ids": [
-                "Q2:43"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Fasting and Hajj",
-          "sentences": [
-            {
-              "text": "The Quran says that fasting was prescribed for the believers, as it was for communities before them, so that they may be mindful of Allah (2:183).",
-              "source_ids": [
-                "Q2:183"
-              ]
-            },
-            {
-              "text": "It also makes the pilgrimage to the House a duty for those who are able to make the journey (3:97).",
-              "source_ids": [
-                "Q3:97"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "These sources name the five pillars but do not explain the detailed rules of each one, which scholars explain in their own works."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
@@ -124,56 +61,11 @@
           "source_ids": [
             "HE66512",
             "S18974000-0000-4000-a000-000000000002"
-          ]
-        },
-        {
-          "text": "Scheich Ibn Baz erklärte, dass dies die fünf Säulen des Islam sind und dass jede von Allah gesetzlich festgelegte Handlung zum Islam gehört.",
-          "source_ids": [
-            "S18974000-0000-4000-a000-000000000002"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Das Bekenntnis, das Gebet und die Zakah",
-          "sentences": [
-            {
-              "text": "Der Hadith nennt an erster Stelle das Glaubensbekenntnis: zu bezeugen, dass niemand außer Allah der Anbetung würdig ist und dass der Prophet Muhammad ﷺ Sein Diener und Gesandter ist.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "Der Koran fordert die Gläubigen auf, das Gebet zu verrichten und die Zakah zu entrichten (2:43).",
-              "source_ids": [
-                "Q2:43"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Das Fasten und die Pilgerfahrt",
-          "sentences": [
-            {
-              "text": "Der Koran sagt, dass das Fasten den Gläubigen ebenso auferlegt wurde wie früheren Gemeinschaften, damit sie Achtsamkeit gegenüber Allah erlangen (2:183).",
-              "source_ids": [
-                "Q2:183"
-              ]
-            },
-            {
-              "text": "Er macht auch die Pilgerfahrt zum Haus zur Pflicht für alle, die dazu die Möglichkeit haben (3:97).",
-              "source_ids": [
-                "Q3:97"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Quellen nennen die fünf Säulen, erklären aber nicht die genauen Regeln jeder einzelnen, die Gelehrte in ihren Werken darlegen."
-        }
-      ]
+      "explanation": []
     },
     "ar": {
       "direct_answer": [
@@ -182,56 +74,11 @@
           "source_ids": [
             "HE66512",
             "S18974000-0000-4000-a000-000000000002"
-          ]
-        },
-        {
-          "text": "وبيّن الشيخ ابن باز أن هذه هي أركان الإسلام الخمسة، وأن كل عمل شرعه الله داخل في الإسلام.",
-          "source_ids": [
-            "S18974000-0000-4000-a000-000000000002"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "الشهادتان والصلاة والزكاة",
-          "sentences": [
-            {
-              "text": "ويأتي في الحديث أولًا الإقرار بتوحيد الله وبرسالة محمد ﷺ.",
-              "source_ids": [
-                "HE66512"
-              ]
-            },
-            {
-              "text": "ويأمر القرآن المؤمنين بإقامة الصلاة ودفع الزكاة (2:43).",
-              "source_ids": [
-                "Q2:43"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "الصيام والحج",
-          "sentences": [
-            {
-              "text": "ويقول القرآن إن الصيام فُرض على المؤمنين كما فُرض على الأمم قبلهم لعلهم يتقون (2:183).",
-              "source_ids": [
-                "Q2:183"
-              ]
-            },
-            {
-              "text": "ويوجب القرآن حج البيت على القادر عليه (3:97).",
-              "source_ids": [
-                "Q3:97"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "تذكر هذه المصادر أركان الإسلام الخمسة، ولا تشرح الأحكام التفصيلية لكل ركن، وهي مبيّنة في كتب العلماء وفتاواهم."
-        }
-      ]
+      "explanation": []
     }
   }
 }

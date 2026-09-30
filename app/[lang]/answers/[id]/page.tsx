@@ -6,6 +6,7 @@ import { getDictionary, isLocale } from "@/lib/i18n";
 import { getReviewDecisions } from "@/lib/content";
 import { loadPrepared } from "@/lib/prepared";
 import { PREPARED_ANSWERS } from "@/data/prepared-answers";
+import { PREPARED_IDS_AWAITING_VIEW_DECISION } from "@/data/view-decisions";
 import { steps } from "@/data/steps";
 import AskAboutButton from "@/components/AskAboutButton";
 import PreparedAnswer from "@/components/PreparedAnswer";
@@ -35,9 +36,11 @@ export default async function AnswerPage({ params }: { params: Params }) {
   // Only answers Mo approved on the review page are shown; otherwise "preparing".
   const decisions = await getReviewDecisions("prepared").catch(() => ({} as Awaited<ReturnType<typeof getReviewDecisions>>));
   // An approval counts only for the exact content that was reviewed (its fingerprint is stored with the decision).
-  const answer = await loadPrepared({ ...file, status: decisions[id]?.status ?? "draft" }, lang, {
-    approvalHash: decisions[id]?.contentHash ?? undefined,
-  });
+  const answer = PREPARED_IDS_AWAITING_VIEW_DECISION.has(id)
+    ? null
+    : await loadPrepared({ ...file, status: decisions[id]?.status ?? "draft" }, lang, {
+        approvalHash: decisions[id]?.contentHash ?? undefined,
+      });
 
   return (
     <article className="page">

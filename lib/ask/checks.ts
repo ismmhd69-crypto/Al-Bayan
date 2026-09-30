@@ -252,6 +252,9 @@ export function parseStructuredDraft(raw: unknown, citable: SourceText[], langua
     direct = sections[0].sentences.splice(0, 1);
     sections = sections.filter((section) => section.sentences.length > 0);
   }
+  // Models sometimes put the complete direct response entirely in the list. Promote one checked
+  // item before validating list length, rather than discarding otherwise valid sourced wording.
+  if (direct.length === 0 && list.length > 0) direct = list.splice(0, 1);
   if (direct.length === 0) return { ok: false, reason: "answer_shape" };
   // A single valid item is not rendered as a one-item list. Keep it as a simple-answer sentence
   // when there is room, so harmless model formatting does not discard supported content.

@@ -49,204 +49,171 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "يشرع في الوضوء التسمية في أوله ثم المضمضة والاستنشاق ثلاث مرات وغسل الوجه ثلاثا.",
+          "text": "يكون الوضوء بترتيب الأعضاء مع إسباغ غسلها.",
           "source_ids": [
             "S40220000-0000-4000-a000-000000000003",
             "Q5:6"
-          ]
-        },
+          ],
+          "requirement_id": "R1"
+        }
+      ],
+      "explanation": [],
+      "list": [
         {
-          "text": "ثم يغسل المتوضئ يديه مع المرفقين ثلاثا بدءا باليمنى، ويمسح رأسه وأذنيه مرة واحدة، ثم يغسل رجليه مع الكعبين ثلاثا بدءا باليمنى.",
+          "text": "ابدأ بذكر اسم الله.",
           "source_ids": [
-            "S40220000-0000-4000-a000-000000000003",
-            "Q5:6"
-          ]
-        }
-      ],
-      "explanation": [
-        {
-          "heading": "التسمية والمضمضة وغسل الوجه",
-          "sentences": [
-            {
-              "text": "يبين الشيخ ابن باز أنه يشرع للمتوضئ أن يسمي الله في أول وضوئه، وأنه إن نسي التسمية أو جهلها فلا حرج عليه.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003"
-              ]
-            },
-            {
-              "text": "ثم يتمضمض ويستنشق ثلاث مرات ويغسل وجهه ثلاثا استجابة لأمر القرآن بغسل الوجوه عند القيام إلى الصلاة (5:6).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            }
-          ]
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "غسل اليدين ومسح الرأس وغسل الرجلين",
-          "sentences": [
-            {
-              "text": "يغسل المتوضئ يديه مع المرفقين ثلاثا بادئا باليمنى ثم اليسرى امتثالا للأمر القرآني بغسل الأيدي إلى المرافق (5:6).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            },
-            {
-              "text": "ثم يمسح رأسه وأذنيه مرة واحدة، ويغسل رجليه مع الكعبين ثلاث مرات بادئا بالرجل اليمنى.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ أن الاقتصار على مرة أو مرتين يجزئ، لكن غسل الأعضاء ثلاثا هو الأفضل تأسيا بالنبي.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
+          "text": "تمضمض واستنشق الماء.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
         {
-          "text": "تبين هذه الفتوى الصفة الشرعية الأساسية لأعضاء الوضوء الواجبة والمستحبة، ولا تتطرق إلى تفاصيل المسح على الخفين والجبائر."
+          "text": "اغسل وجهك.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "اغسل يديك مع المرفقين وابدأ باليمين.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "امسح رأسك وأذنيك مرة واحدة.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "اغسل رجليك مع الكعبين وابدأ باليمين.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
         }
       ]
     },
     "en": {
       "direct_answer": [
         {
-          "text": "Wudu begins by pronouncing the name of Allah at the start, followed by rinsing the mouth and sniffing water into the nose three times, and washing the face three times.",
+          "text": "Wudu is performed by washing and wiping the required parts in order.",
           "source_ids": [
             "S40220000-0000-4000-a000-000000000003",
             "Q5:6"
-          ]
-        },
+          ],
+          "requirement_id": "R1"
+        }
+      ],
+      "explanation": [],
+      "list": [
         {
-          "text": "The worshiper then washes both arms including the elbows three times starting with the right, wipes over the head and ears once, and washes both feet including the ankles three times starting with the right.",
+          "text": "Begin by mentioning Allah's name.",
           "source_ids": [
-            "S40220000-0000-4000-a000-000000000003",
-            "Q5:6"
-          ]
-        }
-      ],
-      "explanation": [
-        {
-          "heading": "Basmalah, rinsing, and facial washing",
-          "sentences": [
-            {
-              "text": "Shaikh Ibn Baz explains that it is prescribed to pronounce the name of Allah at the beginning of wudu, and if one forgets or is ignorant of it, there is no sin.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003"
-              ]
-            },
-            {
-              "text": "The worshiper rinses the mouth and nose three times and washes the face three times, fulfilling the Quranic command to wash the face when preparing for prayer (5:6).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            }
-          ]
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "Washing the arms, wiping the head, and washing the feet",
-          "sentences": [
-            {
-              "text": "The worshiper washes both arms including the elbows three times, starting with the right and then the left, fulfilling the Quranic directive to wash the hands to the elbows (5:6).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            },
-            {
-              "text": "The worshiper wipes the head and ears once, and washes both feet including the ankles three times starting with the right foot.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            },
-            {
-              "text": "The scholar notes that washing once or twice is permissible, but washing each part three times is the most virtuous practice.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
+          "text": "Rinse your mouth and nose.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
         {
-          "text": "This verified fatwa presents the standard procedure for washing the prescribed bodily limbs in ablution, without addressing the specific rules for wiping over leather socks or splints."
+          "text": "Wash your face.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Wash your arms through the elbows, starting with the right.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Wipe your head and ears once.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Wash your feet through the ankles, starting with the right.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
         }
       ]
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Der Wudu beginnt mit der Nennung des Namens Allahs zu Beginn, gefolgt vom dreimaligen Ausspülen des Mundes und Einziehen von Wasser in die Nase sowie dem dreimaligen Waschen des Gesichts.",
+          "text": "Der Wudu wird ausgeführt, indem die vorgeschriebenen Körperteile der Reihe nach gewaschen oder gestrichen werden.",
           "source_ids": [
             "S40220000-0000-4000-a000-000000000003",
             "Q5:6"
-          ]
-        },
+          ],
+          "requirement_id": "R1"
+        }
+      ],
+      "explanation": [],
+      "list": [
         {
-          "text": "Anschließend wäscht der Betende beide Arme einschließlich der Ellbogen dreimal beginnend mit dem rechten Arm, streicht einmal über den Kopf und die Ohren und wäscht beide Füße einschließlich der Knöchel dreimal beginnend mit dem rechten Fuß.",
+          "text": "Beginne mit der Nennung von Allahs Namen.",
           "source_ids": [
-            "S40220000-0000-4000-a000-000000000003",
-            "Q5:6"
-          ]
-        }
-      ],
-      "explanation": [
-        {
-          "heading": "Basmalah, Ausspülen und Waschen des Gesichts",
-          "sentences": [
-            {
-              "text": "Scheich Ibn Baz legt dar, dass es vorgeschrieben ist, zu Beginn des Wudu den Namen Allahs zu nennen, und dass kein Tadel darauf liegt, wenn man dies vergisst oder nicht wusste.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003"
-              ]
-            },
-            {
-              "text": "Danach spült der Betende Mund und Nase dreimal aus und wäscht das Gesicht dreimal, in Befolgung des koranischen Gebots zur Gesichtsreinigung vor dem Gebet (5:6).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            }
-          ]
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
         },
         {
-          "heading": "Waschen der Arme, Überstreichen des Kopfes und Waschen der Füße",
-          "sentences": [
-            {
-              "text": "Der Betende wäscht beide Arme einschließlich der Ellbogen dreimal, beginnend mit dem rechten und danach dem linken Arm, gemäß der koranischen Pflicht zum Waschen der Hände bis zu den Ellbogen (5:6).",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            },
-            {
-              "text": "Daraufhin streicht er einmal über Kopf und Ohren und wäscht beide Füße einschließlich der Knöchel dreimal, beginnend mit dem rechten Fuß.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003",
-                "Q5:6"
-              ]
-            },
-            {
-              "text": "Der Gelehrte erläutert, dass das einmalige oder zweimalige Waschen genügt, das dreimalige Waschen jedoch die vorzüglichste Vorgehensweise ist.",
-              "source_ids": [
-                "S40220000-0000-4000-a000-000000000003"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
+          "text": "Spüle Mund und Nase.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
         {
-          "text": "Diese verifizierte Fatwa behandelt den regulären Ablauf der rituellen Gebetswaschung der vorgeschriebenen Körperteile, ohne Sonderfälle wie das Überstreichen von Ledersocken oder Verbänden zu behandeln."
+          "text": "Wasche dein Gesicht.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Wasche die Arme samt Ellbogen, beginnend mit dem rechten.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Streiche einmal über Kopf und Ohren.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
+        },
+        {
+          "text": "Wasche die Füße samt Knöcheln, beginnend mit dem rechten.",
+          "source_ids": [
+            "S40220000-0000-4000-a000-000000000003"
+          ],
+          "requirement_id": "R1"
         }
       ]
     }

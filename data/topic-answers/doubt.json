@@ -1,6 +1,6 @@
 {
   "topic_id": "doubt",
-  "status": "approved",
+  "status": "draft",
   "researched_at": "2026-09-29T16:28:00+03:00",
   "sources": [
     {
@@ -26,245 +26,68 @@
       "translation_en": "Abu Hurayrah (may Allah be pleased with him) reported: Some of the Prophet's Companions came to him and said: \"We find within ourselves thoughts that one of us would find too grave to talk about.\" He said: \"Have you experienced that?\" They said: 'Yes'. He said: \"That is the clear faith.\"",
       "translation_de": "Von Abu Hurayrah - möge Allah mit ihm zufrieden sein - wird überliefert, dass er sagte: „Einige Leute von den Gefährten des Propheten - Allahs Segen und Frieden auf ihm - kamen (zu ihm) und fragten ihn: ‚Wir finden in unseren Seelen Dinge vor, von denen wir so entsetzt sind, dass wir sie gar nicht aussprechen können!‘ Er sagte: ‚Ist das wirklich so, dass ihr solche Dinge vorfindet?‘ Sie sagten: ‚Ja!‘ Er sagte: ‚Das ist der deutliche/wahre Glaube!‘“",
       "url": "https://hadeethenc.com/en/browse/hadith/65011"
-    },
-    {
-      "id": "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6",
-      "kind": "scholar",
-      "scholar_id": "ibn-baz",
-      "title": "كيفية التخلص من الوسوسة في العقيدة وغيرها",
-      "reference": "binbaz.org.sa, fatwa 18107",
-      "arabic": "لا شك أن هذا من الشيطان، فالشيطان يدعو الناس إلى الشك في دين الله، ويلقي عليهم الشبه والوساوس، حتى يقول لهم: ما الدليل على كذا؟ وما الدليل على كذا؟ الواجب على المؤمن والمؤمنة إذا وجدا شيئًا من هذه الأمور أن يقول الواحد منهم: آمنت بالله ورسله، أعوذ بالله من الشيطان الرجيم، فقد صح عن رسول الله -عليه الصلاة والسلام- أنه قال: لا يزال الناس يتساءلون حتى يقولوا: الله خلق كل شيء، فمن خلق الله؟ فمن وجد ذلك فليقل: آمنت بالله ورسله وفي اللفظ الآخر: فليستعذ بالله ولينته.",
-      "url": "https://binbaz.org.sa/fatwas/18107/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AE%D9%84%D8%B5-%D9%85%D9%86-%D8%A7%D9%84%D9%88%D8%B3%D9%88%D8%B3%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9-%D9%88%D8%BA%D9%8A%D8%B1%D9%87%D8%A7"
     }
   ],
   "answers": {
     "ar": {
       "direct_answer": [
         {
-          "text": "إذا كانت الشكوك خواطرَ ملحّة تكرهها ولا ترضاها، فلا يدل ورودها وحده على أنك مسلم سيئ؛ فقد ذكر الحديث أن أصحابًا وجدوا خواطر عظيمة عليهم، ووصف ذلك بصريح الإيمان.",
+          "text": "إذا كانت الشكوك خواطرَ ملحّة تكرهها ولا ترضاها، فلا يدل ورودها وحده على أنك مسلم سيئ، فقد ذكر الحديث أن أصحابًا وجدوا خواطر عظيمة عليهم، ووصف ذلك بصريح الإيمان.",
           "source_ids": [
             "HE65011"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "أما الشك المستقر في الدين فليس هو الحالة التي يصفها هذا الحديث، والقرآن يصف المؤمنين الصادقين بأنهم لا يرتابون.",
           "source_ids": [
             "Q49:15"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "الخواطر غير المقصودة",
-          "sentences": [
-            {
-              "text": "جاء أصحاب للنبي ﷺ وقالوا إنهم يجدون في أنفسهم أفكارًا يعظم عليهم الكلام بها.",
-              "source_ids": [
-                "HE65011"
-              ]
-            },
-            {
-              "text": "فلما أقروا بوجودها قال لهم النبي ﷺ إن ذلك صريح الإيمان.",
-              "source_ids": [
-                "HE65011"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "الشك المستقر",
-          "sentences": [
-            {
-              "text": "يصف القرآن المؤمنين الصادقين بأنهم آمنوا بالله ورسوله ثم لم يرتابوا.",
-              "source_ids": [
-                "Q49:15"
-              ]
-            },
-            {
-              "text": "فالنص القرآني يتحدث عن ترك الارتياب، بينما الحديث السابق يتحدث عن خواطر يكره أصحابها أن ينطقوا بها.",
-              "source_ids": [
-                "Q49:15",
-                "HE65011"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "ماذا تفعل مع الوسواس؟",
-          "sentences": [
-            {
-              "text": "شرح الشيخ ابن باز أن هذه الوساوس من دعوة الشيطان إلى الشك، وأرشد من وجدها إلى قول: آمنت بالله ورسله، والاستعاذة بالله من الشيطان.",
-              "source_ids": [
-                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
-              ]
-            },
-            {
-              "text": "وذكر المصدر نفسه أن من وجد هذا النوع من الوسواس يستعيذ بالله وينتهي عنه.",
-              "source_ids": [
-                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "هذه المصادر لا تحكم على كل نوع من الشك الفكري، ولا تكفي وحدها لتشخيص حالة شخص بعينه من غير معرفة طبيعة شكه."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "en": {
       "direct_answer": [
         {
-          "text": "If your doubts are intrusive thoughts that you dislike and do not accept, their occurrence alone does not show that you are a bad Muslim; the hadith says that Companions had thoughts they found overwhelming and calls that clear faith.",
+          "text": "If your doubts are intrusive thoughts that you dislike and do not accept, their occurrence alone does not show that you are a bad Muslim, the hadith says that Companions had thoughts they found overwhelming and calls that clear faith.",
           "source_ids": [
             "HE65011"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Settled doubt about the religion is not the situation described by that hadith, and the Quran describes sincere believers as those who leave doubt behind.",
           "source_ids": [
             "Q49:15"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Unwanted thoughts",
-          "sentences": [
-            {
-              "text": "Some Companions came to the Prophet and said that they found thoughts within themselves that they considered too grave to speak about.",
-              "source_ids": [
-                "HE65011"
-              ]
-            },
-            {
-              "text": "When they confirmed this, the Prophet told them that it was clear faith.",
-              "source_ids": [
-                "HE65011"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Settled doubt",
-          "sentences": [
-            {
-              "text": "The Quran describes sincere believers as those who believe in Allah and His Messenger and then leave doubt behind.",
-              "source_ids": [
-                "Q49:15"
-              ]
-            },
-            {
-              "text": "The Quran therefore speaks about leaving doubt, while the hadith speaks about thoughts that the Companions disliked and would not voice.",
-              "source_ids": [
-                "Q49:15",
-                "HE65011"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "What to do with a whisper",
-          "sentences": [
-            {
-              "text": "Shaykh Ibn Baz explained that these whispers are part of Satan’s call to doubt and directed the person who experiences them to say, ‘I believe in Allah and His messengers,’ and seek refuge with Allah from Satan.",
-              "source_ids": [
-                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
-              ]
-            },
-            {
-              "text": "The same source says that a person who experiences this kind of whisper should seek refuge with Allah and stop engaging with it.",
-              "source_ids": [
-                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "These sources do not classify every kind of intellectual doubt, and they are not enough to diagnose one particular person without knowing what their doubt is."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "de": {
       "direct_answer": [
         {
-          "text": "Wenn deine Zweifel aufdringliche Gedanken sind, die du ablehnst und nicht annimmst, beweist ihr Auftreten allein nicht, dass du ein schlechter Muslim bist; der Hadith berichtet von solchen Gedanken bei Gefährten und nennt dies deutlichen Glauben.",
+          "text": "Wenn deine Zweifel aufdringliche Gedanken sind, die du ablehnst und nicht annimmst, beweist ihr Auftreten allein nicht, dass du ein schlechter Muslim bist, der Hadith berichtet von solchen Gedanken bei Gefährten und nennt dies deutlichen Glauben.",
           "source_ids": [
             "HE65011"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Ein feststehender Zweifel an der Religion ist nicht die Situation, die dieser Hadith beschreibt, und der Koran beschreibt aufrichtige Gläubige als Menschen, die den Zweifel hinter sich lassen.",
           "source_ids": [
             "Q49:15"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Ungewollte Gedanken",
-          "sentences": [
-            {
-              "text": "Einige Gefährten kamen zum Propheten und sagten, dass sie in sich Gedanken fänden, über die zu sprechen ihnen zu schlimm erschien.",
-              "source_ids": [
-                "HE65011"
-              ]
-            },
-            {
-              "text": "Als sie dies bestätigten, sagte der Prophet, dass dies deutlicher Glaube sei.",
-              "source_ids": [
-                "HE65011"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Ein feststehender Zweifel",
-          "sentences": [
-            {
-              "text": "Der Koran beschreibt aufrichtige Gläubige als Menschen, die an Allah und Seinen Gesandten glauben und den Zweifel hinter sich lassen.",
-              "source_ids": [
-                "Q49:15"
-              ]
-            },
-            {
-              "text": "Der Koran spricht also vom Ablegen des Zweifels, während der Hadith von Gedanken spricht, die die Gefährten ablehnten und nicht aussprechen wollten.",
-              "source_ids": [
-                "Q49:15",
-                "HE65011"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Was man mit einer Einflüsterung tun soll",
-          "sentences": [
-            {
-              "text": "Scheich Ibn Baz erklärte, dass diese Einflüsterungen zum Aufruf des Satans zum Zweifel gehören, und wies den Betroffenen an zu sagen: „Ich glaube an Allah und Seine Gesandten“, sowie Zuflucht vor dem Satan bei Allah zu suchen.",
-              "source_ids": [
-                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
-              ]
-            },
-            {
-              "text": "Dieselbe Quelle sagt, dass man bei dieser Art von Einflüsterung Zuflucht bei Allah suchen und sich nicht weiter damit beschäftigen soll.",
-              "source_ids": [
-                "Sede61bd2-bb4a-4e83-ab1b-2599bf83b9f6"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "Diese Quellen ordnen nicht jede Art von intellektuellem Zweifel ein und reichen nicht aus, um eine bestimmte Person ohne Kenntnis der Art ihres Zweifels zu beurteilen."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     }
   },
   "reviewed_at": "2026-09-29T16:38:36.548Z"

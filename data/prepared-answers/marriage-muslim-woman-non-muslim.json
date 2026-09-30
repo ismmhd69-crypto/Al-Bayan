@@ -30,12 +30,6 @@
   },
   "sources": [
     {
-      "id": "Q2:221",
-      "kind": "quran",
-      "reference": "2:221",
-      "url": "https://quran.com/2/221"
-    },
-    {
       "id": "Q60:10",
       "kind": "quran",
       "reference": "60:10",
@@ -59,77 +53,11 @@
           "source_ids": [
             "S20080000-0000-4000-a000-000000000001",
             "Q60:10"
-          ]
-        },
-        {
-          "text": "وقد نهى القرآن المؤمنين عن تزويج المشركين حتى يؤمنوا (2:221).",
-          "source_ids": [
-            "Q2:221",
-            "S20080000-0000-4000-a000-000000000001"
-          ]
-        },
-        {
-          "text": "وتبين الآية منع زواج المؤمنات من الرجال الكافرين (60:10).",
-          "source_ids": [
-            "S20080000-0000-4000-a000-000000000001",
-            "Q60:10"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "التحريم القرآني الصريح لزواج المسلمة بغير المسلم",
-          "sentences": [
-            {
-              "text": "تربط سورة البقرة زواج المؤمنات من المشركين بإيمانهم، وتمنعه قبل ذلك (2:221).",
-              "source_ids": [
-                "Q2:221"
-              ]
-            },
-            {
-              "text": "وتقدم الآية المؤمن العبد على المشرك رغم ما قد يكون للمشرك من جاذبية (2:221).",
-              "source_ids": [
-                "Q2:221"
-              ]
-            },
-            {
-              "text": "وتقرر سورة الممتحنة منع زواج المؤمنات من الكافرين (60:10).",
-              "source_ids": [
-                "Q60:10"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "إجماع العلماء والتفريق بين الرجل والمرأة",
-          "sentences": [
-            {
-              "text": "يقرر الشيخ ابن باز أنه ليس للمسلمة أن تنكح كافرا أبدا، وإذا كانت المرأة مسلمة فليس لها أن تتزوج إلا من كان مسلما.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ أن الاستثناء في نكاح غير المسلمة خاص بالرجل المسلم فقط، حيث أباحت الشريعة له نكاح العفيفة من أهل الكتاب دون سائر غير المسلمات.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-          "text": "ويقرر ابن باز أن الاستثناء الخاص بالرجل المسلم لا ينطبق على المرأة المسلمة، وأنها لا تتزوج إلا مسلمًا.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001",
-                "Q2:221"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "تتناول هذه المصادر حكم زواج المسلمة من غير المسلم، لكنها لا تتطرق إلى أحكام ثبوت النسب عند جهل الطرفين بالحكم."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
@@ -138,77 +66,11 @@
           "source_ids": [
             "S20080000-0000-4000-a000-000000000001",
             "Q60:10"
-          ]
-        },
-        {
-          "text": "The Quran prohibits giving believing women in marriage to polytheistic men until they believe (2:221).",
-          "source_ids": [
-            "Q2:221",
-            "S20080000-0000-4000-a000-000000000001"
-          ]
-        },
-        {
-          "text": "The verse bars marriage between believing women and disbelieving men (60:10).",
-          "source_ids": [
-            "S20080000-0000-4000-a000-000000000001",
-            "Q60:10"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "The explicit Quranic prohibition of marrying non-Muslim men",
-          "sentences": [
-            {
-              "text": "Surah al-Baqarah links marriage to polytheistic men with their belief and prohibits it before that (2:221).",
-              "source_ids": [
-                "Q2:221"
-              ]
-            },
-            {
-              "text": "The verse gives a believing slave precedence over an idolater despite the idolater's appeal (2:221).",
-              "source_ids": [
-                "Q2:221"
-              ]
-            },
-            {
-              "text": "Surah al-Mumtahanah prohibits marriage between believing women and disbelieving men (60:10).",
-              "source_ids": [
-                "Q60:10"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Scholarly consensus and the distinction between genders",
-          "sentences": [
-            {
-              "text": "Shaikh Ibn Baz establishes that it is never permissible for a Muslim woman to marry a non-Muslim, and if she is Muslim, she can only marry a Muslim man.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "The scholar explains that the specific scriptural exception regarding interfaith marriage applies solely to Muslim men, who are permitted to marry chaste women from the People of the Book.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Ibn Baz states that the exception for Muslim men does not apply to Muslim women, who may marry only Muslim men.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001",
-                "Q2:221"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "These sources state the ruling on a Muslim woman marrying a non-Muslim man, but they do not address the civil status of children when both parties were ignorant of the religious ruling."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
@@ -217,77 +79,11 @@
           "source_ids": [
             "S20080000-0000-4000-a000-000000000001",
             "Q60:10"
-          ]
-        },
-        {
-          "text": "Der Koran verbietet den Gläubigen, gläubige Frauen mit Götzendienern zu verheiraten, solange diese nicht glauben (2:221).",
-          "source_ids": [
-            "Q2:221",
-            "S20080000-0000-4000-a000-000000000001"
-          ]
-        },
-        {
-          "text": "Der Vers untersagt die Ehe zwischen gläubigen Frauen und ungläubigen Männern (60:10).",
-          "source_ids": [
-            "S20080000-0000-4000-a000-000000000001",
-            "Q60:10"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Das ausdrückliche koranische Verbot der Heirat mit Nicht-Muslimen",
-          "sentences": [
-            {
-              "text": "Die Sure al-Baqarah verbindet die Heirat gläubiger Frauen mit Götzendienern mit deren Glauben und untersagt sie vorher (2:221).",
-              "source_ids": [
-                "Q2:221"
-              ]
-            },
-            {
-              "text": "Der Vers stellt einen gläubigen Sklaven trotz der Anziehungskraft eines Götzendieners über diesen (2:221).",
-              "source_ids": [
-                "Q2:221"
-              ]
-            },
-            {
-              "text": "Die Sure al-Mumtahanah untersagt die Ehe zwischen gläubigen Frauen und ungläubigen Männern (60:10).",
-              "source_ids": [
-                "Q60:10"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Konsens der Gelehrten und die rechtliche Unterscheidung",
-          "sentences": [
-            {
-              "text": "Scheich Ibn Baz legt dar, dass es einer Muslimin niemals erlaubt ist, einen Nicht-Muslim zu heiraten, und dass sie als Muslimin ausschließlich einen Muslim ehelichen darf.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Der Gelehrte erläutert, dass die Ausnahmeregelung bei interreligiösen Ehen ausschließlich dem muslimischen Mann zusteht, dem die Heirat mit keuschen Frauen der Schriftbesitzer gestattet wurde.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Ibn Baz erklärt, dass die Ausnahme für muslimische Männer nicht für muslimische Frauen gilt, die nur muslimische Männer heiraten dürfen.",
-              "source_ids": [
-                "S20080000-0000-4000-a000-000000000001",
-                "Q2:221"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Quellen nennen das Urteil über die Heirat einer Muslimin mit einem Nicht-Muslim, behandeln aber nicht den zivilrechtlichen Status von Kindern, wenn beide Parteien das religiöse Urteil nicht kannten."
-        }
-      ]
+      "explanation": []
     }
   }
 }

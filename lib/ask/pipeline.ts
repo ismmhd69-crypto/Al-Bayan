@@ -13,6 +13,7 @@ import { bestWording } from "@/lib/prepared-match";
 import { loadPrepared } from "@/lib/prepared";
 import { getReviewDecisions } from "@/lib/content";
 import { PREPARED_ANSWERS } from "@/data/prepared-answers";
+import { PREPARED_IDS_AWAITING_VIEW_DECISION } from "@/data/view-decisions";
 
 const HADITH_ON = process.env.HADITH_SOURCE === "hadeethenc";
 // Scholar quotes need the server's secret key (the library is private); SCHOLAR_QUOTES=off disables them.
@@ -63,7 +64,8 @@ export async function askPreparedOnly(question: string): Promise<AskResult | nul
   if (process.env.PREPARED_PUBLISHING_ENABLED !== "true" || process.env.PREPARED_ANSWERS === "off" || looksPersonal(question)) return null;
   try {
     const decisions = await getReviewDecisions("prepared");
-    const approved = Object.fromEntries(Object.entries(PREPARED_ANSWERS).filter(([id]) => decisions[id]?.status === "approved"));
+    const approved = Object.fromEntries(Object.entries(PREPARED_ANSWERS).filter(([id]) =>
+      decisions[id]?.status === "approved" && !PREPARED_IDS_AWAITING_VIEW_DECISION.has(id)));
     const match = bestWording(question, approved);
     if (!match) return null;
     const verdict = (await getVerifier().generateJson({

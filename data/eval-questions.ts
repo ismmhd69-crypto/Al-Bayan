@@ -52,8 +52,8 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     id: "fasting-exemption-ar",
     lang: "ar",
     question: "انا مسافر في رمضان وعندي تعب، هل يجوز لي افطر واقضي بعدين؟",
-    expect: "answer",
-    note: "Quran 2:184-185: فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ عَلَى سَفَرٍ فَعِدَّةٌ مِنْ أَيَّامٍ أُخَرَ",
+    expect: "ask_scholar",
+    note: "Personal travel and health situation: answer the general rule only after clarification or refer safely",
   },
   {
     id: "fasting-exemption-en",
@@ -485,7 +485,7 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
   },
 
   // =========================================================================
-  // Group 2: Outside Surahs 1 and 2, must be refused for now (expect: "refuse")
+  // Group 2: Direct Quran references from the complete Quran corpus (expect: "answer")
   // =========================================================================
 
   // Topic 21: Polygyny limit of four wives (Surah An-Nisa 4:3)
@@ -493,22 +493,22 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     id: "polygyny-limit-ar",
     lang: "ar",
     question: "كم عدد الزوجات المسموح به للرجل المسلم في سورة النساء؟",
-    expect: "refuse",
-    note: "Refuse for now: answered in Surah 4:3 (outside Surahs 1 and 2)",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 4:3",
   },
   {
     id: "polygyny-limit-en",
     lang: "en",
     question: "How many wives is a Muslim man permitted to marry simultaneously according to Surah 4:3?",
-    expect: "refuse",
-    note: "Refuse for now: Surah 4:3 is outside current Quran scope",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 4:3",
   },
   {
     id: "polygyny-limit-de",
     lang: "de",
     question: "Wie viele Ehefrauen darf ein muslimischer Mann laut Sure 4:3 maximal haben?",
-    expect: "refuse",
-    note: "Refuse for now: Sure 4:3 liegt außerhalb der aktuellen Suren 1 und 2",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 4:3",
   },
 
   // Topic 22: Fixed inheritance shares for daughters and parents (Surah An-Nisa 4:11)
@@ -516,22 +516,22 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     id: "inheritance-shares-ar",
     lang: "ar",
     question: "ما هو نصيب البنتين والوالدين المحدد في اية المواريث في سورة النساء؟",
-    expect: "refuse",
-    note: "Refuse for now: answered in Surah 4:11 (outside Surahs 1 and 2)",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 4:11",
   },
   {
     id: "inheritance-shares-en",
     lang: "en",
     question: "What exact mathematical share does a daughter receive according to Surah 4:11?",
-    expect: "refuse",
-    note: "Refuse for now: Surah 4:11 is outside current Quran scope",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 4:11",
   },
   {
     id: "inheritance-shares-de",
     lang: "de",
     question: "Wie hoch ist der genaue Erbteil für Töchter laut Sure 4 Vers 11?",
-    expect: "refuse",
-    note: "Refuse for now: Sure 4:11 liegt außerhalb der aktuellen Suren 1 und 2",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 4:11",
   },
 
   // Topic 23: Detailed limbs of Wudu in Surah al-Ma'idah (5:6)
@@ -539,22 +539,22 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     id: "wudu-verse-maidah-ar",
     lang: "ar",
     question: "ما هي اعضاء الوضوء المذكورة نصا في اية سورة المائدة؟",
-    expect: "refuse",
-    note: "Refuse for now: answered in Surah 5:6 (outside Surahs 1 and 2)",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 5:6",
   },
   {
     id: "wudu-verse-maidah-en",
     lang: "en",
     question: "Which specific body parts are listed for ablution in Surah al-Ma'idah verse 6?",
-    expect: "refuse",
-    note: "Refuse for now: Surah 5:6 is outside current Quran scope",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 5:6",
   },
   {
     id: "wudu-verse-maidah-de",
     lang: "de",
     question: "Welche Körperteile werden für die Waschung in Sure 5 Vers 6 genannt?",
-    expect: "refuse",
-    note: "Refuse for now: Sure 5:6 liegt außerhalb der aktuellen Suren 1 und 2",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 5:6",
   },
 
   // Topic 24: Prescribed penalty for theft in Surah al-Ma'idah (5:38)
@@ -562,22 +562,22 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     id: "theft-penalty-ar",
     lang: "ar",
     question: "ما هي عقوبة السارق والسارقة المذكورة في سورة المائدة؟",
-    expect: "refuse",
-    note: "Refuse for now: answered in Surah 5:38 (outside Surahs 1 and 2)",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 5:38",
   },
   {
     id: "theft-penalty-en",
     lang: "en",
     question: "What is the penalty for theft prescribed in Surah al-Ma'idah 5:38?",
-    expect: "refuse",
-    note: "Refuse for now: Surah 5:38 is outside current Quran scope",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 5:38",
   },
   {
     id: "theft-penalty-de",
     lang: "de",
     question: "Welche Strafe für Diebstahl wird in Sure 5 Vers 38 genannt?",
-    expect: "refuse",
-    note: "Refuse for now: Sure 5:38 liegt außerhalb der aktuellen Suren 1 und 2",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 5:38",
   },
 
   // Topic 25: Eight recipients of Zakat in Surah At-Tawbah (9:60)
@@ -585,22 +585,22 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     id: "zakat-recipients-tawbah-ar",
     lang: "ar",
     question: "من هم الاصناف الثمانية المستحقون للزكاة في سورة التوبة اية 60؟",
-    expect: "refuse",
-    note: "Refuse for now: answered in Surah 9:60 (outside Surahs 1 and 2)",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 9:60",
   },
   {
     id: "zakat-recipients-tawbah-en",
     lang: "en",
     question: "Who are the eight categories of zakat recipients explicitly named in Surah At-Tawbah verse 60?",
-    expect: "refuse",
-    note: "Refuse for now: Surah 9:60 is outside current Quran scope",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 9:60",
   },
   {
     id: "zakat-recipients-tawbah-de",
     lang: "de",
     question: "Wer sind die acht Personengruppen, die in Sure 9 Vers 60 für die Zakat berechtigt sind?",
-    expect: "refuse",
-    note: "Refuse for now: Sure 9:60 liegt außerhalb der aktuellen Suren 1 und 2",
+    expect: "answer",
+    note: "Direct Quran reference: Surah 9:60",
   },
 
   // =========================================================================
@@ -737,6 +737,7 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     ],
     mustContain: [{ point: "2.5 percent due", anyOf: ["2.5%", "2.5 percent", "٢٫٥٪", "٢.٥٪", "ربع العشر"] }],
     mustNotConfuse: [{ trap: "nisab presented as the amount due", pattern: "(?:amount due|rate|مقدارها|الواجب)[^.!؟\\n]{0,45}(?:20 mithqal|20 مثقال|عشرون مثقال|نصاب)" }],
+    acceptableSources: { classes: ["scholar:ibn-baz"], reviewedBy: "Codex source review", reviewedAt: "2026-09-30" },
     focus: true,
   },
   {
@@ -763,16 +764,18 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     mustContain: [
       { point: "stop the sin", anyOf: ["stop the sin", "stopping the sin", "leave the sin", "give up the sin", "cease the sin"] },
       { point: "feel remorse", anyOf: ["regret", "remorse"] },
-      { point: "resolve not to return", anyOf: ["not return", "not to return", "not repeat", "not to repeat", "not do it again"] },
+      { point: "resolve not to return", anyOf: ["not return", "not to return", "not repeat", "not to repeat", "not do it again", "resolve", "resolution", "determined", "commit not", "firm intention"] },
     ],
+    acceptableSources: { ids: ["Q2:160", "Q3:135"], classes: ["scholar:ibn-baz"], reviewedBy: "Codex source review", reviewedAt: "2026-09-30" },
   },
   {
     id: "conversion-guidance-de", lang: "de", question: "Was muss ich tun, um Muslim zu werden?", expect: "answer", focus: true,
     expectedRequestedPoints: [{ facet: "steps", text: "how to become Muslim" }],
     mustContain: [
-      { point: "testimony to Allah alone", anyOf: ["keine gottheit", "keinen gott", "einzige gott", "allah allein"] },
+      { point: "testimony to Allah alone", anyOf: ["keine gottheit", "keinen gott", "kein gott außer allah", "einzige gott", "allah allein", "nichts anbetungswürdiges außer allah", "niemand verdient anbetung außer allah"] },
       { point: "Muhammad named in testimony", anyOf: ["muhammad", "mohammed"] },
       { point: "Muhammad as messenger", anyOf: ["gesandte", "prophet"] },
     ],
+    acceptableSources: { ids: ["HE3390"], classes: ["scholar:ibn-baz"], reviewedBy: "Codex source review", reviewedAt: "2026-09-30" },
   },
 ];

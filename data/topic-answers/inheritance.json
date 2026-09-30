@@ -4,22 +4,10 @@
   "researched_at": "2026-09-29T17:55:00+03:00",
   "sources": [
     {
-      "id": "Q4:7",
-      "kind": "quran",
-      "reference": "4:7",
-      "url": "https://quran.com/4/7"
-    },
-    {
       "id": "Q4:11",
       "kind": "quran",
       "reference": "4:11",
       "url": "https://quran.com/4/11"
-    },
-    {
-      "id": "Q4:12",
-      "kind": "quran",
-      "reference": "4:12",
-      "url": "https://quran.com/4/12"
     },
     {
       "id": "Q4:34",
@@ -32,77 +20,22 @@
     "ar": {
       "direct_answer": [
         {
-          "text": "يقرر القرآن في بعض صور الميراث أن للذكر مثل حظ الأنثيين، لكنه يقدّم هذا التوزيع فريضة من الله ولا يذكر في آية الميراث تعليلًا تفصيليًا بصيغة واحدة لكل حالة.",
+          "text": "في بعض مسائل الإرث يكون نصيب الابن ضعف نصيب البنت، وتعرض الآية ذلك بوصفه حكمًا مفروضًا دون تعليل شامل لكل حالة.",
           "source_ids": [
             "Q4:11"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "ويذكر القرآن في سياق الأسرة أن الزوج ينفق من ماله في رعاية زوجته؛ فهذا هو السياق المالي المذكور في النصوص، وليس تعليلًا إضافيًا ننسبه إلى الآية بغير نص.",
+          "text": "وفي أحكام الأسرة تذكر آية أخرى مسؤولية الزوج المالية تجاه زوجته، ولا يصح تحويل هذا السياق إلى علة لم يذكرها النص.",
           "source_ids": [
             "Q4:34"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "حق المرأة في الميراث",
-          "sentences": [
-            {
-              "text": "يقرر القرآن أن للرجال نصيبًا وللنساء نصيبًا مما يترك الوالدان والأقربون، قليلًا كان المال أو كثيرًا.",
-              "source_ids": [
-                "Q4:7"
-              ]
-            },
-            {
-              "text": "ويصف هذه الأنصبة بأنها أنصبة مفروضة.",
-              "source_ids": [
-                "Q4:7"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "ليست كل الصور واحدة",
-          "sentences": [
-            {
-              "text": "تذكر آية المواريث أن البنت الواحدة قد يكون لها النصف، وأن البنتين فأكثر لهما الثلثان في الصورة المذكورة.",
-              "source_ids": [
-                "Q4:11"
-              ]
-            },
-            {
-              "text": "وتذكر آية أخرى أن نصيب الزوج يختلف بحسب وجود الولد، وأن نصيب الزوجة كذلك يختلف بحسب وجود الولد، كما تجعل للأخ أو الأخت السدس في حالة معينة.",
-              "source_ids": [
-                "Q4:12"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "السياق المالي المذكور",
-          "sentences": [
-            {
-              "text": "تذكر سورة النساء أن رعاية الزوجة مرتبطة بما ينفقه الزوج من ماله.",
-              "source_ids": [
-                "Q4:34"
-              ]
-            },
-            {
-              "text": "أما آية الميراث نفسها فتختم تقريرها بأن ذلك فريضة من الله وأن الله عليم حكيم.",
-              "source_ids": [
-                "Q4:11"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "المصادر المختارة لا تقول إن كل حالة ترث فيها المرأة أقل لها سبب واحد، ولا تشرح وحدها كل الحكمة التفصيلية وراء جميع مقادير المواريث."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "en": {
       "direct_answer": [
@@ -110,74 +43,19 @@
           "text": "The Quran gives a son twice the share of a daughter in some inheritance arrangements, but presents that distribution as a divine obligation and does not state one detailed reason for every case in the inheritance verse.",
           "source_ids": [
             "Q4:11"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "In the family context, the Quran says that a husband spends from his wealth in caring for his wife; that is the financial context stated by the text, not an extra rationale that we should attribute to the verse without a direct statement.",
+          "text": "In the family context, the Quran says that a husband spends from his wealth in caring for his wife, that is the financial context stated by the text, not an extra rationale that we should attribute to the verse without a direct statement.",
           "source_ids": [
             "Q4:34"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "A woman's inheritance is a right",
-          "sentences": [
-            {
-              "text": "The Quran says that men have a share and women have a share in what parents and close relatives leave, whether the estate is small or large.",
-              "source_ids": [
-                "Q4:7"
-              ]
-            },
-            {
-              "text": "It describes these shares as ordained portions.",
-              "source_ids": [
-                "Q4:7"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "The arrangements differ",
-          "sentences": [
-            {
-              "text": "The inheritance verse says that one daughter may receive half, while two or more daughters receive two-thirds in the stated arrangement.",
-              "source_ids": [
-                "Q4:11"
-              ]
-            },
-            {
-              "text": "Another verse says that a husband's share changes depending on whether there are children, that a wife's share changes in the same way, and that a single brother or sister receives one-sixth in a particular case.",
-              "source_ids": [
-                "Q4:12"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "The stated financial context",
-          "sentences": [
-            {
-              "text": "Surah al-Nisa says in the family context that a husband cares for his wife with what he spends from his wealth.",
-              "source_ids": [
-                "Q4:34"
-              ]
-            },
-            {
-              "text": "The inheritance verse itself closes by calling the distribution a law from God and describing Him as all knowing and wise.",
-              "source_ids": [
-                "Q4:11"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "The selected sources do not say that every case in which a woman receives less has one single reason, and they do not by themselves explain every detailed wisdom behind all inheritance shares."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     },
     "de": {
       "direct_answer": [
@@ -185,74 +63,19 @@
           "text": "Der Koran gibt einem Sohn in bestimmten Erbregelungen den Anteil von zwei Töchtern, stellt diese Verteilung aber als göttliche Vorschrift dar und nennt im Erbvers keinen einzigen ausführlichen Grund für jeden Fall.",
           "source_ids": [
             "Q4:11"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
-          "text": "Im familiären Zusammenhang sagt der Koran, dass der Ehemann seine Frau mit dem versorgt, was er von seinem Vermögen ausgibt; das ist der im Text genannte finanzielle Zusammenhang und keine zusätzliche Begründung, die wir dem Vers ohne ausdrückliche Aussage zuschreiben sollten.",
+          "text": "Im familiären Zusammenhang sagt der Koran, dass der Ehemann seine Frau mit dem versorgt, was er von seinem Vermögen ausgibt, das ist der im Text genannte finanzielle Zusammenhang und keine zusätzliche Begründung, die wir dem Vers ohne ausdrückliche Aussage zuschreiben sollten.",
           "source_ids": [
             "Q4:34"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Das Erbrecht der Frau",
-          "sentences": [
-            {
-              "text": "Der Koran sagt, dass Männern und Frauen ein Anteil an dem zusteht, was Eltern und nahe Verwandte hinterlassen, sei es wenig oder viel.",
-              "source_ids": [
-                "Q4:7"
-              ]
-            },
-            {
-              "text": "Er bezeichnet diese Anteile als vorgeschriebene Anteile.",
-              "source_ids": [
-                "Q4:7"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Die Regelungen unterscheiden sich",
-          "sentences": [
-            {
-              "text": "Der Erbvers sagt, dass eine einzige Tochter die Hälfte erhalten kann, während zwei oder mehr Töchter in der genannten Regelung zwei Drittel erhalten.",
-              "source_ids": [
-                "Q4:11"
-              ]
-            },
-            {
-              "text": "Ein anderer Vers sagt, dass sich der Anteil des Ehemanns je nach vorhandenen Kindern ändert, dass dies auch für den Anteil der Ehefrau gilt und dass ein einzelner Bruder oder eine einzelne Schwester in einem bestimmten Fall ein Sechstel erhält.",
-              "source_ids": [
-                "Q4:12"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Der genannte finanzielle Zusammenhang",
-          "sentences": [
-            {
-              "text": "Die Sure an-Nisa sagt im familiären Zusammenhang, dass der Ehemann für seine Frau mit dem sorgt, was er von seinem Vermögen ausgibt.",
-              "source_ids": [
-                "Q4:34"
-              ]
-            },
-            {
-              "text": "Der Erbvers selbst schließt damit, die Verteilung als Vorschrift Allahs zu bezeichnen und Allah als Allwissenden und Allweisen zu beschreiben.",
-              "source_ids": [
-                "Q4:11"
-              ]
-            }
-          ]
-        }
-      ],
-      "other_views": [],
-      "not_established": [
-        {
-          "text": "Die ausgewählten Quellen sagen nicht, dass jeder Fall, in dem eine Frau weniger erhält, denselben einzigen Grund hat, und erklären für sich genommen nicht jede einzelne Weisheit hinter allen Erbanteilen."
-        }
-      ]
+      "explanation": [],
+      "other_views": []
     }
   }
 }

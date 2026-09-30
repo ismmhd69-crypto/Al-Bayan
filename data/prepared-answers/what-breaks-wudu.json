@@ -27,12 +27,6 @@
   },
   "sources": [
     {
-      "id": "Q4:43",
-      "kind": "quran",
-      "reference": "4:43",
-      "url": "https://quran.com/4/43"
-    },
-    {
       "id": "S65910000-0000-4000-a000-000000000001",
       "kind": "scholar",
       "scholar_id": "ibn-baz",
@@ -48,174 +42,57 @@
         {
           "text": "قرر الشيخ ابن باز أن الوضوء ينتقض بما يخرج من السبيلين كالبول والغائط والريح، وكذلك النوم المستغرق وأكل لحم الإبل.",
           "source_ids": [
-            "Q4:43",
             "S65910000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "كما قرر الشيخ ابن باز أن مجرد مس المرأة أو مصافحة غير المسلم لا ينقض الطهارة، مع بقاء حرمة مس المرأة الأجنبية.",
           "source_ids": [
             "S65910000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "بيان القرآن لموجبات الطهارة",
-          "sentences": [
-            {
-              "text": "ذكر القرآن الكريم قضاء الحاجة والجماع من موجبات الوضوء والتطهر للصلاة (النساء: 43).",
-              "source_ids": [
-                "Q4:43"
-              ]
-            },
-            {
-              "text": "ويوضح الشيخ ابن باز أن نواقض الوضوء المعروفة شرعا هي الخارج من السبيلين كالبول والغائط والريح، وزوال العقل بالنوم، وأكل لحم الإبل.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "تفسير ملامسة النساء وحكم مس الكافر",
-          "sentences": [
-            {
-              "text": "يبين الشيخ أن المراد بالملامسة في الآية الكريمة الجماع كما فسره الصحابي عبد الله بن عباس وجماعة من السلف وليس مجرد المس باليد.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "ويؤكد أن مس الكافر لا ينقض الوضوء.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "هذه الفتوى تبين أصول نواقض الوضوء وحكم مس المرأة والكافر، دون تفصيل الخلاف في مقدار الدم الكثير أو القيء الخارج من غير السبيلين."
-        }
-      ]
+      "explanation": []
     },
     "en": {
       "direct_answer": [
         {
           "text": "Shaykh Ibn Baz ruled that wudu is invalidated by what exits the two private passages, such as urine, stool, and passing gas, as well as deep sleep and eating camel meat.",
           "source_ids": [
-            "Q4:43",
             "S65910000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Shaykh Ibn Baz also ruled that merely touching a woman or shaking hands with a non-Muslim does not invalidate ritual purity, although touching a non-mahram woman remains unlawful.",
           "source_ids": [
             "S65910000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Quranic clarification of requirements for purification",
-          "sentences": [
-            {
-              "text": "The Holy Quran mentions relieving oneself and marital intimacy as causes requiring purification before prayer (4:43).",
-              "source_ids": [
-                "Q4:43"
-              ]
-            },
-            {
-              "text": "Sheikh Ibn Baz explains that the established invalidators of ablution in Sharia are bodily waste exiting the private parts like urine, feces, and wind, loss of consciousness through sleep, and eating camel meat.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Interpretation of touching women and contact with non-Muslims",
-          "sentences": [
-            {
-              "text": "The scholar clarifies that touching mentioned in the verse signifies sexual intercourse as interpreted by the companion Ibn Abbas and others, rather than mere physical skin contact with the hand.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "He affirms that touching a non-Muslim does not nullify wudu.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "This fatwa establishes the principal invalidators of ablution and rulings on touching, without examining differences over substantial blood loss or vomiting outside the private passages."
-        }
-      ]
+      "explanation": []
     },
     "de": {
       "direct_answer": [
         {
           "text": "Scheich Ibn Baz urteilte, dass der Wudu durch Ausscheidungen wie Urin, Kot und Winde sowie tiefen Schlaf und den Verzehr von Kamelfleisch ungültig wird.",
           "source_ids": [
-            "Q4:43",
             "S65910000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         },
         {
           "text": "Scheich Ibn Baz urteilte außerdem, dass die bloße Berührung einer Frau oder das Händeschütteln mit einem Nichtmuslim die Gebetswaschung nicht bricht, obwohl die Berührung einer nicht verwandten Frau verboten bleibt.",
           "source_ids": [
             "S65910000-0000-4000-a000-000000000001"
-          ]
+          ],
+          "requirement_id": "R1"
         }
       ],
-      "explanation": [
-        {
-          "heading": "Koranische Darlegung der Erfordernisse für die Gebetswaschung",
-          "sentences": [
-            {
-              "text": "Der Heilige Koran führt die Verrichtung der Notdurft und eheliche Intimität als Gründe auf, die eine rituelle Reinigung vor dem Gebet erfordern (4:43).",
-              "source_ids": [
-                "Q4:43"
-              ]
-            },
-            {
-              "text": "Scheich Ibn Baz legt dar, dass zu den anerkannten Nichtigkeitsgründen der Waschung Ausscheidungen wie Urin, Kot und Winde, Bewusstseinsverlust durch Schlaf und der Verzehr von Kamelfleisch zählen.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Bedeutung des Berührens von Frauen und Kontakt mit Nichtmuslimen",
-          "sentences": [
-            {
-              "text": "Der Gelehrte stellt klar, dass mit der Berührung im Vers der Beischlaf gemeint ist, wie der Prophetengefährte Ibn Abbas und andere Altvordere erläuterten, und nicht die bloße Handberührung.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            },
-            {
-              "text": "Er bekräftigt, dass die Berührung eines Nichtmuslims den Wudu nicht bricht.",
-              "source_ids": [
-                "S65910000-0000-4000-a000-000000000001"
-              ]
-            }
-          ]
-        }
-      ],
-      "not_established": [
-        {
-          "text": "Diese Fatwa behandelt die zentralen Nichtigkeitsgründe des Wudu und Berührungen, ohne auf die Meinungsverschiedenheiten bezüglich starkem Blutverlust oder Erbrechen außerhalb der Körperöffnungen einzugehen."
-        }
-      ]
+      "explanation": []
     }
   }
 }
