@@ -36,7 +36,7 @@ export const TOPIC_SOURCE_HINTS: TopicHint[] = [
   { id: "zakat-recipients", match: [/زكاة|zakat/i, /مصارف|مستحق|recipients|categories|empfänger|kategorien/i], quran: ["9:60"], hadith: [], fatwas: [] },
   { id: "gold-zakat-rate", match: [/ذهب|gold/i, /زكاة|zakat/i, /مقدار|نسبة|how much|rate|wie viel/i], quran: [], hadith: [], fatwas: [`${BAZ}/5743/مقدار-الزكاة-في-خمسة-وثمانين-جرامًا-من-الذهب`] },
   { id: "repentance-steps", match: [/توب|repent|bereu/i, /كيف|how|wie|شروط|steps/i], quran: [], hadith: [], fatwas: [`${BAZ}/18217/هل-يكفي-الندم-على-الذنب-والإقلاع-عنه-في-التوبة؟`] },
-  { id: "conversion", match: [/مسلم|إسلام|muslim|islam/i, /أصبح|أسلم|الدخول|become|convert|werden|konvertieren/i, /كيف|كيفية|how|what should|was muss|wie werde|wie kann/i], exclude: [/إكراه|إجبار|\bforced?\b|gezwungen|zwang/i], quran: [], hadith: ["HE66512"], fatwas: [`${BAZ}/1158/وجوب-التصديق-مع-الشهادتين`, `${BAZ}/18975/ما-معنى-الشهادتين`] },
+  { id: "conversion", match: [/مسلم|إسلام|muslim|islam/i, /أصبح|أسلم|الدخول|become|convert|werden|konvertieren/i, /كيف|كيفية|how|what should|was muss|wie werde|wie kann/i], exclude: [/إكراه|إجبار|\bforced?\b|gezwungen|zwang/i], quran: [], hadith: ["HE3390"], fatwas: [`${BAZ}/1158/وجوب-التصديق-مع-الشهادتين`, `${BAZ}/18975/ما-معنى-الشهادتين`] },
   { id: "fasting-purpose", match: [/رمضان|ramadan/i, /صيام|صوم|fast/i, /لماذا|why|warum|حكمة/i], quran: ["2:183"], hadith: [], fatwas: [] },
   { id: "prayer-timing", match: [/صلا|prayer|gebet/i, /وقت|أوقات|time|zeiten/i], quran: ["4:103", "11:114", "17:78"], hadith: [], fatwas: [] },
   { id: "marriage-justice", match: [/زوجات|نساء|wives|ehefrauen/i, /عدل|justice|fair|gerecht/i], quran: ["4:3", "4:129"], hadith: [], fatwas: [] },

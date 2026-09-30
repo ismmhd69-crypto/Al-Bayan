@@ -18,6 +18,8 @@ export function htmlToText(html: string): string {
     .replace(/&quot;/g, '"')
     .replace(/&amp;/g, "&")
     .replace(/&#39;/g, "'")
+    .replace(/&laquo;/g, "«")
+    .replace(/&raquo;/g, "»")
     .replace(/[ \t]+/g, " ")
     .replace(/\s*\n\s*/g, "\n")
     .trim();
@@ -43,13 +45,101 @@ export type ParsedFatwa = {
   printedSource: string | null; // e.g. "مجموع فتاوى ومقالات الشيخ ابن باز (6/ 298)"
 };
 
+import type { AIProvider } from "@/lib/ai/types";
+
+// Rule 1: Opening formula (Basmalah, Hamd, Salawat ending with أما بعد / وبعد)
+export function stripOpeningFormula(text: string): string {
+  let t = text.trim();
+  const praise = /^(?:بسم\s+الله\s+الرحمن\s+الرحيم[،.\s]*)?(?:الحمد\s+لله|حمداً\s+لله|نحمده|إن\s+الحمد\s+لله)[\s\S]{0,500}?(?:أما\s+بعد|وبعد)\s*[:：،,]?\s*/i.exec(t);
+  if (praise) {
+    t = t.slice(praise[0].length).trim();
+  }
+  const basmalah = /^بسم\s+الله\s+الرحمن\s+الرحيم[،.\s]*/i.exec(t);
+  if (basmalah && basmalah[0].length < 60 && t.length > basmalah[0].length + 40) {
+    t = t.slice(basmalah[0].length).trim();
+  }
+  const amaBaad = /^(?:أما\s+بعد|وبعد|بعده)\s*[:：،,]?\s*/i.exec(t);
+  if (amaBaad) {
+    t = t.slice(amaBaad[0].length).trim();
+  }
+  return t;
+}
+
+// Rule 2: Letters (heading, greetings, receipt preambles, and signoffs)
+export function stripLetterHeading(text: string): string {
+  let t = text.trim();
+  const letterHead = /^من\s+(?:عبد\s*العزيز\s+بن\s+عبد\s*الله\s+بن\s+باز|محمد\s+(?:بن\s+صالح|الصالح)\s+(?:العثيمين|بن\s+عثيمين))[\s\S]{0,450}?(?:سلام\s+عليكم|السلام\s+عليكم|وعليكم\s+السلام)[\s\S]{0,200}?(?:أما\s+بعد|وبعد|بعده)\s*[:：،,]?\s*/i.exec(t);
+  if (letterHead) {
+    t = t.slice(letterHead[0].length).trim();
+  }
+
+  const greeting = /^(?:وعليكم\s+السلام|السلام\s+عليكم|سلام\s+عليكم)(?:\s+ورحمة\s+الله(?:\s+وبركاته)?)?[،.\s]*(?:(?:أما\s+بعد|وبعد|بعده)\s*[:：،,]?\s*)?/i.exec(t);
+  if (greeting) {
+    t = t.slice(greeting[0].length).trim();
+  }
+
+  const letterPreamble = /^فقد\s+(?:وصلني|اطلعت\s+على|تكررت\s+الأسئلة|ورد\s+(?:إلينا|إلي|لنا))[\s\S]{0,250}?(?:وهذا\s+جوابها|والجواب\s+عن\s+ذلك|والجواب)\s*[:：،,]?\s*/i.exec(t);
+  if (letterPreamble) {
+    t = t.slice(letterPreamble[0].length).trim();
+  }
+
+  const advicePreamble = /^(?:أقول\s+وبالله\s+التوفيق|والجواب\s+عن\s+ذلك|والجواب\s*[:：])\s*[:：،,]?\s*/i.exec(t);
+  if (advicePreamble) {
+    t = t.slice(advicePreamble[0].length).trim();
+  }
+
+  t = t.replace(/(?:والسلام\s+عليكم\s+ورحمة\s+الله\s+وبركاته|وفق\s+الله\s+الجميع|والله\s+الموفق|وصلى\s+الله\s+وسلم\s+على\s+نبينا\s+محمد)\.?\s*$/i, "").trim();
+
+  return t;
+}
+
+// Strips letter heading, greeting, and opening formula
+export function stripLetterAndFormula(text: string): string {
+  return stripOpeningFormula(stripLetterHeading(text));
+}
+
+// Rule 5: AI relevance checker
+export async function checkQuoteRelevance(
+  verifier: AIProvider,
+  title: string,
+  quote: string
+): Promise<{ answers: boolean; reason: string }> {
+  try {
+    const prompt = `Title: ${title}\nQuote: ${quote}\n\nDoes this quote answer or directly address the title's question/topic?`;
+    const res = (await verifier.generateJson({
+      system:
+        "You are a precise classifier checking if an Islamic scholar fatwa quote directly answers or addresses the specific question/topic in the title. If the quote is about an unrelated topic, or only addresses a different question, answer false. Answer strictly in JSON.",
+      prompt,
+      schema: {
+        type: "object",
+        properties: {
+          answers: { type: "boolean", description: "Whether the quote directly answers or addresses the title question/topic" },
+          reason: { type: "string", description: "Short explanation in English" },
+        },
+        required: ["answers", "reason"],
+      },
+    })) as { answers: boolean; reason: string };
+    return res;
+  } catch (err) {
+    return { answers: false, reason: (err as Error).message };
+  }
+}
+
+// Rule 4: Ibn Uthaymeen tafsir lessons are lessons, not fatwas
+export function isUthaymeenTafsirLesson(title: string): boolean {
+  return /^(تفسير\s+(سورة|آيات|أواخر|أوائل|الآيات|السورة)|في\s+ظلال\s+سورة)/i.test(title.trim());
+}
+
 // binbaz.org.sa fatwa page: <article class="fatwa"> ... <section class="footnotes"><cite>source</cite>.
-export function parseBinBazFatwa(html: string): ParsedFatwa | null {
+export function parseBinBazFatwa(
+  html: string,
+  options?: { title?: string; printedSource?: string | null; minChars?: number }
+): ParsedFatwa | null {
   const start = html.indexOf('<article class="fatwa"');
   if (start < 0) return null;
   const end = html.indexOf("</article>", start);
   const article = html.slice(start, end < 0 ? undefined : end);
-  const title = htmlToText(article.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? "");
+  const title = htmlToText(options?.title ?? (article.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? "")).trim();
   const cite = article.match(/<section class="footnotes">[\s\S]*?<cite>([\s\S]*?)<\/cite>/i)?.[1];
   const body = htmlToText(
     article
@@ -69,18 +159,39 @@ export function parseBinBazFatwa(html: string): ParsedFatwa | null {
   // Radio programmes continue with the presenter or a follow-up question: stop the answer there.
   const dialogue = answer.search(/(^|\s)(الشيخ|المقدم|السائل|السؤال|سؤال|س)\s*[:：]/);
   if (dialogue > 0) answer = answer.slice(0, dialogue).trim();
-  if (!title || answer.length < 40) return null;
-  return { title, answer, printedSource: cite ? htmlToText(cite).replace(/\.$/, "") : null };
+
+  // Rule 1 & 2: Skip letter heading and opening formula
+  answer = stripLetterAndFormula(answer);
+
+  // Rule 3: When page holds multiple numbered answers, take the one matching the title
+  const hasMultipleNumbered = /(?:^|\s)(?:أولًا|أولا|1|١)\s*[:：]/.test(answer) && /(?:^|\s)(?:ثانيًا|ثانيا|2|٢)\s*[:：]/.test(answer);
+  if (hasMultipleNumbered) {
+    const parts = answer.split(/(?=(?:أولًا|ثانيًا|ثالثًا|رابعًا|خامسًا|أولا|ثانيا|ثالثا|رابعا|خامسا|\n\d+\s*[-–:])\s*[:：]?)/);
+    for (const p of parts) {
+      const cleanP = stripLetterAndFormula(p.replace(/^(?:أولًا|ثانيًا|ثالثًا|رابعًا|خامسًا|أولا|ثانيا|ثالثا|رابعا|خامسا|\d+\s*[-–:])\s*[:：]?\s*/, ""));
+      if (sharesContentWord(title, cleanP) && cleanP.length >= (options?.minChars ?? 40)) {
+        answer = cleanP;
+        break;
+      }
+    }
+  }
+
+  const minChars = options?.minChars ?? 40;
+  if (!title || answer.length < minChars) return null;
+  return { title, answer, printedSource: options?.printedSource ?? (cite ? htmlToText(cite).replace(/\.$/, "") : null) };
 }
 
 // binothaimeen.net fatwa: parsed from page HTML or the site's fatwa objective snippet.
 // Extracts only Shaykh Ibn Uthaymeen's own answer, excluding questioner and presenter.
 export function parseUthaymeenFatwa(
   html: string,
-  options?: { title?: string; printedSource?: string | null }
+  options?: { title?: string; printedSource?: string | null; minChars?: number }
 ): ParsedFatwa | null {
   const h1Match = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  const title = htmlToText(h1Match ? h1Match[1] : (options?.title ?? "")).replace(/^-\s*/, "").trim();
+  const title = htmlToText(options?.title ?? (h1Match ? h1Match[1] : "")).replace(/^-\s*/, "").trim();
+
+  // Rule 4: skip tafsir lessons
+  if (!title || isUthaymeenTafsirLesson(title)) return null;
 
   let body = html
     .replace(/<script[\s\S]*?<\/script>/gi, "")
@@ -120,7 +231,11 @@ export function parseUthaymeenFatwa(
     answer = answer.slice(0, dialogue).trim();
   }
 
-  if (!title || answer.length < 40) return null;
+  // Rule 1 & 2: Strip opening formula and greetings
+  answer = stripLetterAndFormula(answer);
+
+  const minChars = options?.minChars ?? 40;
+  if (answer.length < minChars) return null;
   if (looksLikeQuestion(answer)) return null;
 
   return {
@@ -170,6 +285,28 @@ export function sharesContentWord(title: string, text: string): boolean {
   const textStems = extractContentStems(text);
   for (const ts of titleStems) {
     if (textStems.has(ts)) return true;
+  }
+  return false;
+}
+
+// Computes content stem set for deduplication
+export function quoteStemSet(quote: string): Set<string> {
+  return extractContentStems(quote);
+}
+
+// Checks if a quote has high content stem overlap with any existing quote (>= 70% overlap)
+export function isNearDuplicate(stems: Set<string>, existingStemSets: Set<string>[], threshold = 0.70): boolean {
+  if (stems.size < 5) return false;
+  for (const existing of existingStemSets) {
+    if (existing.size < 5) continue;
+    let common = 0;
+    for (const s of stems) {
+      if (existing.has(s)) common++;
+    }
+    const minSize = Math.min(stems.size, existing.size);
+    if (minSize > 0 && common / minSize >= threshold) {
+      return true;
+    }
   }
   return false;
 }

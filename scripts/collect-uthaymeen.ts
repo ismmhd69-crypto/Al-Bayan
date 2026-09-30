@@ -11,12 +11,16 @@
 
 import { createClient } from "@supabase/supabase-js";
 import { SCHOLAR_QUERIES } from "@/data/scholar-queries";
+import { getVerifier } from "@/lib/ai";
 import {
+  checkQuoteRelevance,
   excerpt,
   htmlToText,
   looksLikeQuestion,
   parseUthaymeenFatwa,
   searchText,
+  sharesContentWord,
+  startsLikeRoomTalk,
 } from "@/lib/sources/scholar-excerpt";
 
 process.loadEnvFile(".env");
@@ -116,6 +120,7 @@ async function main() {
   const key = process.env.SUPABASE_SECRET_KEY;
   if (!url || !key) throw new Error("NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SECRET_KEY must be set in .env");
   const db = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
+  const verifier = getVerifier();
 
   const seen = new Set<string>();
   let stored = 0,
@@ -191,9 +196,38 @@ async function main() {
       const fatwa = parseUthaymeenFatwa(rawHtml, { title: cleanTitle, printedSource: reference });
       const quote = fatwa && excerpt(fatwa.answer);
 
-      if (!fatwa || !quote || looksLikeQuestion(quote)) {
+      if (
+        !fatwa ||
+        !quote ||
+        quote.length < 200 ||
+        startsLikeRoomTalk(quote) ||
+        !sharesContentWord(fatwa.title, quote) ||
+        looksLikeQuestion(quote)
+      ) {
         skipped++;
-        console.log(`[${topic}] skipped ${hit.id}: ${!fatwa ? "not parsed" : !quote ? "no clean excerpt" : "looks like question"}`);
+        console.log(
+          `[${topic}] skipped ${hit.id}: ${
+            !fatwa
+              ? "not parsed"
+              : !quote
+                ? "no clean excerpt"
+                : quote.length < 200
+                  ? "quote under 200 chars"
+                  : startsLikeRoomTalk(quote)
+                    ? "starts like room talk"
+                    : !sharesContentWord(fatwa.title, quote)
+                      ? "no shared content word"
+                      : "looks like question"
+          }`
+        );
+        continue;
+      }
+
+      // AI relevance check before storing
+      const relevance = await checkQuoteRelevance(verifier, fatwa.title, quote);
+      if (!relevance.answers) {
+        skipped++;
+        console.log(`[${topic}] skipped ${hit.id}: AI relevance rejected (${relevance.reason})`);
         continue;
       }
 

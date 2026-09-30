@@ -1,0 +1,218 @@
+[
+  {
+    "id": "fasting-obligation-en",
+    "outcome": "source_only",
+    "reasons": [
+      "source_only_after_screening_claim"
+    ],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Ruling on whether fasting Ramadan is compulsory for all Muslims",
+          "facet": "ruling"
+        },
+        {
+          "id": "R2",
+          "text": "Exceptions for who is excused from fasting Ramadan",
+          "facet": "exceptions"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "obligatory pillar of islam fasting ramadan",
+          "compulsory fasting ramadan muslims"
+        ],
+        "de": [
+          "fasten im ramadan pflicht muslime",
+          "wer muss nicht fasten ramadan ausnahmen"
+        ],
+        "ar": []
+      }
+    },
+    "retrieved": {
+      "hintIds": [
+        "fasting-obligation"
+      ],
+      "quran": [
+        "2:183",
+        "2:185",
+        "33:35",
+        "2:184",
+        "4:92",
+        "58:4",
+        "2:187",
+        "4:146",
+        "2:196",
+        "5:89",
+        "3:85",
+        "31:10",
+        "19:26",
+        "49:17",
+        "2:249",
+        "89:7"
+      ],
+      "hadith": [
+        "HE66525",
+        "HE3689",
+        "HE4549",
+        "HE4563",
+        "HE4196",
+        "HE4508"
+      ],
+      "scholars": [],
+      "scholarEnabled": true,
+      "scholarProblem": null
+    },
+    "candidates": [
+      {
+        "id": "Q2:183",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/183"
+      },
+      {
+        "id": "Q2:185",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/185"
+      },
+      {
+        "id": "Q2:196",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/196"
+      },
+      {
+        "id": "Q2:249",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/249"
+      },
+      {
+        "id": "Q33:35",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/33/35"
+      },
+      {
+        "id": "Q2:184",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/184"
+      },
+      {
+        "id": "Q31:10",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/31/10"
+      },
+      {
+        "id": "Q4:92",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/4/92"
+      },
+      {
+        "id": "HE4508",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/4508"
+      },
+      {
+        "id": "HE3689",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/3689"
+      },
+      {
+        "id": "HE66525",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66525"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:183",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:185",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:196",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:249",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q33:35",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q2:184",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1",
+          "R2"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q31:10",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q4:92",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE4508",
+        "relevance": "mention_only",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE3689",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66525",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      }
+    ]
+  }
+]

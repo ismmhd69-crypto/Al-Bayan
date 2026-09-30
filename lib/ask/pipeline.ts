@@ -59,8 +59,8 @@ export type { Answer, AskResult, Evidence } from "./core";
 // A prepared answer approved by Mo is shown when the visitor asks the same question: first a clear word
 // match with a stored wording, then the checker model must confirm it is the same question. Any doubt,
 // error or personal question falls through to the normal live pipeline.
-async function preparedAnswer(question: string): Promise<AskResult | null> {
-  if (process.env.PREPARED_ANSWERS === "off" || looksPersonal(question)) return null;
+export async function askPreparedOnly(question: string): Promise<AskResult | null> {
+  if (process.env.PREPARED_PUBLISHING_ENABLED !== "true" || process.env.PREPARED_ANSWERS === "off" || looksPersonal(question)) return null;
   try {
     const decisions = await getReviewDecisions("prepared");
     const approved = Object.fromEntries(Object.entries(PREPARED_ANSWERS).filter(([id]) => decisions[id]?.status === "approved"));
@@ -75,7 +75,9 @@ Answer "same" only if the visitor's question asks exactly the same thing as the 
     })) as { verdict?: string } | null;
     if (verdict?.verdict !== "same") return null;
     // The approval lives in the database, not in the file (whose status stays "draft").
-    const answer = await loadPrepared({ ...approved[match.id], status: "approved" }, match.language);
+    const answer = await loadPrepared({ ...approved[match.id], status: "approved" }, match.language, {
+      approvalHash: decisions[match.id]?.contentHash ?? undefined,
+    });
     if (process.env.ASK_DEBUG === "true") console.info(`ask: prepared answer ${match.id} (${match.score.toFixed(2)})`);
     return answer ? { status: "answer", answer } : null;
   } catch {
@@ -85,7 +87,7 @@ Answer "same" only if the visitor's question asks exactly the same thing as the 
 
 export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection">): Promise<AskResult> {
   // Evaluation traces measure the live pipeline, so they skip prepared answers.
-  const prepared = trace ? null : await preparedAnswer(question);
+  const prepared = trace ? null : await askPreparedOnly(question);
   if (prepared) return prepared;
   return runPipeline(question, uiLanguage, {
     ...trace,

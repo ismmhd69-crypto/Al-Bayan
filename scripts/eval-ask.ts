@@ -5,6 +5,7 @@
 //   add --file to use data/eval-questions.ts, --focused, --id=substring, --limit=N, --only=ar|en|de
 //
 // Prints status, failure reason codes and the cited source ids; never stores anything.
+// Ends with the design phase 1 numbers (scripts/eval-metrics.ts), live and prepared answers separately.
 
 process.loadEnvFile(".env");
 try {
@@ -14,6 +15,9 @@ try {
 }
 
 import { scoreAnswer } from "./eval-quality";
+import { formatSummary, summarize, type CitedSource, type EvalOutcome, type EvalRow } from "./eval-metrics";
+import { validateAnswerV2 } from "../lib/ask/answer-v2";
+import { namedPassageGroups } from "../lib/ask/checks";
 import { writeFileSync } from "node:fs";
 import type { EvalQuestion } from "../data/eval-questions";
 import type { PassageForSelection, QuestionFrame } from "../lib/ask/retrieval";
@@ -35,7 +39,12 @@ const BUILT_IN: Q[] = [
 ];
 
 async function main() {
-  const { ask } = await import("@/lib/ask/pipeline");
+  const mode = process.argv.find((a) => a.startsWith("--mode="))?.split("=")[1] ?? "live";
+  if (mode !== "live" && mode !== "prepared") throw new Error("--mode must be live or prepared");
+  // Prepared evaluation is an explicit local action. It may inspect matching approved fixtures even
+  // while public prepared publishing remains safely disabled in the deployment environment.
+  if (mode === "prepared") process.env.PREPARED_PUBLISHING_ENABLED = "true";
+  const { ask, askPreparedOnly } = await import("@/lib/ask/pipeline");
   let questions = BUILT_IN;
   if (process.argv.includes("--file")) {
     // Optional file written by another agent; loaded by path so a missing file never breaks the build.
@@ -56,6 +65,7 @@ async function main() {
   const traceRows: unknown[] = [];
   const answerRows: { id: string; run: number; outcome: string; seconds: number; sentences: number; core: string;
     fullPass: boolean; answer?: unknown }[] = [];
+  const metricRows: EvalRow[] = [];
 
   // Reason codes are printed through console.info by the pipeline when ASK_DEBUG=true; capture them.
   process.env.ASK_DEBUG = "true";
@@ -77,28 +87,48 @@ async function main() {
     let core = "";
     let fullPass = false;
     let answer: unknown;
+    let origin: EvalRow["origin"] = "live";
+    let structureOk: boolean | null = null;
+    let mustContainPassed: string[] | null = null;
+    let cited: CitedSource[] = [];
     let frame: QuestionFrame | undefined;
     let retrieved: unknown;
     let candidates: PassageForSelection[] = [];
     let selection: unknown;
     try {
-      const r = await ask(q.question, q.lang, traceOutput ? {
-        onFrame: (value) => { frame = value; },
-        onRetrieved: (value) => { retrieved = value; },
-        onCandidates: (value) => { candidates = value; },
-        onSelection: (value) => { selection = value; },
-      } : undefined);
-      outcome = r.status === "answer" ? (r.answer.sourceOnly ? "source_only" : "answer") : r.status;
-      if (r.status === "answer") {
-        refs = r.answer.evidence.map((e) => e.key.slice(0, 12)).join(" ");
-        sentenceCount = r.answer.claims.length;
-        core = r.answer.direct_answer.map((item) => item.text).join(" ").trim().toLocaleLowerCase(q.lang).replace(/\s+/g, " ");
-        if (answerOutput) answer = { direct_answer: r.answer.direct_answer, explanation: r.answer.explanation,
-          not_established: r.answer.not_established, evidence: r.answer.evidence.map((e) => ({ key: e.key, kind: e.kind })) };
+      const trace = {
+        onFrame: (value: QuestionFrame) => { frame = value; },
+        onRetrieved: (value: unknown) => { retrieved = value; },
+        onCandidates: (value: PassageForSelection[]) => { candidates = value; },
+        onSelection: (value: unknown) => { selection = value; },
+      };
+      // Live mode always bypasses prepared matching. Prepared mode never falls through to a live
+      // answer, so the two origins have honest answer-rate and latency numbers.
+      const r = mode === "prepared" ? await askPreparedOnly(q.question) : await ask(q.question, q.lang, trace);
+      const result = r ?? { status: "no_source" as const, language: q.lang };
+      outcome = result.status;
+      if (result.status === "answer") {
+        origin = result.answer.prepared ? "prepared" : "live";
+        // structure_ok: the AnswerV2 attached to a checked answer must pass the runtime validator.
+        // Every shown answer must have AnswerV2; unconverted prepared answers are counted separately.
+        if (result.answer.v2) structureOk = validateAnswerV2(result.answer.v2, origin === "prepared"
+          ? { origin: "prepared", review: "bayan_reviewed" }
+          : { origin: "live", review: "automatic", namedPassages: namedPassageGroups(q.question) }).ok;
+        cited = result.answer.evidence.map((e) => ({ id: e.kind === "quran" ? `Q${e.key}` : e.key, kind: e.kind,
+          ...(e.kind === "scholar" ? { scholarId: e.scholarId } : {}) }));
+        refs = result.answer.evidence.map((e) => e.key.slice(0, 12)).join(" ");
+        sentenceCount = result.answer.claims.length;
+        core = result.answer.direct_answer.map((item) => item.text).join(" ").trim().toLocaleLowerCase(q.lang).replace(/\s+/g, " ");
+        if (answerOutput) answer = { direct_answer: result.answer.direct_answer, explanation: result.answer.explanation,
+          not_established: result.answer.not_established, evidence: result.answer.evidence.map((e) => ({ key: e.key, kind: e.kind })) };
+      }
+      if (q.mustContain?.length) {
+        const missing = new Set(scoreAnswer(q as EvalQuestion, result).missingPoints);
+        mustContainPassed = q.mustContain.map((item) => item.point).filter((point) => !missing.has(point));
       }
       if (q.focus) {
-        const s = scoreAnswer(q as EvalQuestion, r);
-        fullPass = r.status === "answer" && s.missingPoints.length === 0 && s.traps.length === 0;
+        const s = scoreAnswer(q as EvalQuestion, result);
+        fullPass = result.status === "answer" && s.missingPoints.length === 0 && s.traps.length === 0;
         score = ` accuracy=${s.accuracy} completeness=${s.completeness} support=${s.sourceSupport} clarity=${s.clarity}`;
         if (s.missingPoints.length) score += ` missing=${s.missingPoints.join("|")}`;
         if (s.traps.length) score += ` traps=${s.traps.join("|")}`;
@@ -121,6 +151,8 @@ async function main() {
     const secs = Math.round((Date.now() - start) / 1000);
     answerRows.push({ id: q.id, run, outcome, seconds: secs, sentences: sentenceCount, core, fullPass,
       ...(answerOutput ? { answer } : {}) });
+    metricRows.push({ id: q.id, run, outcome: (outcome.startsWith("error") ? "error" : outcome) as EvalOutcome,
+      origin, seconds: secs, structureOk, mustContainPassed, cited });
     const important = seen.filter((s) => !/^(video|scholar|hadith)_/.test(s));
     console.log(`${q.id.padEnd(16)} #${run} ${outcome.padEnd(12)} ${String(secs).padStart(3)}s ${sentenceCount} sentences  ${important.join(",")}  ${refs}${score}`);
     tally.set(outcome, (tally.get(outcome) ?? 0) + 1);
@@ -136,6 +168,12 @@ async function main() {
     const cores = rows.filter((row) => row.core).map((row) => row.core);
     console.log(`${q.id}: ${rows.filter((row) => row.fullPass).length}/${runs} full pass; `
       + `${cores.length === runs && new Set(cores).size === 1 ? runs : 0}/${runs} same exact core wording`);
+  }
+  const byId = new Map(questions.map((q) => [q.id, q as EvalQuestion]));
+  for (const origin of ["live", "prepared"] as const) {
+    const rows = metricRows.filter((row) => row.origin === origin);
+    console.log(`
+${formatSummary(summarize(rows, byId), origin === "live" ? "live pipeline (and all refusals)" : "prepared answers")}`);
   }
   if (traceOutput) writeFileSync(traceOutput, JSON.stringify(traceRows, null, 2));
   if (answerOutput) writeFileSync(answerOutput, JSON.stringify(answerRows, null, 2));

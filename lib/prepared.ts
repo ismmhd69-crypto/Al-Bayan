@@ -6,6 +6,8 @@ import { getVerse, ATTRIBUTION } from "@/lib/sources/quran";
 import { getHadith, HADITH_ATTRIBUTION } from "@/lib/sources/hadith";
 import { scholarQuoteAllowed, type ScholarQuote } from "@/lib/sources/scholar-rules";
 import { getScholarNames } from "@/lib/content";
+import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
+import { convertPreparedToAnswerV2, preparedContentHash } from "@/lib/prepared-v2";
 
 // Prepared answers: researched in advance (data/topic-answers, later data/prepared-answers), shown only
 // after Mo approves them. Quran text is never stored (Quran Foundation allows at most one week of
@@ -13,10 +15,11 @@ import { getScholarNames } from "@/lib/content";
 // quotes are stored short quotes and pass the same site rules as the library. If any cited source cannot
 // be loaded or fails its rule, the whole answer is not shown (fail closed).
 
-type Sentence = { text: string; source_ids: string[] };
+export type PreparedSentence = { text: string; source_ids: string[]; requirement_id?: string };
 type LangAnswer = {
-  direct_answer: Sentence[];
-  explanation: { heading: string; sentences: Sentence[] }[];
+  direct_answer: PreparedSentence[];
+  list?: PreparedSentence[];
+  explanation: { heading: string; sentences: PreparedSentence[] }[];
   not_established?: ({ text: string } | string)[];
 };
 type StoredSource =
@@ -28,13 +31,17 @@ export type PreparedFile = {
   topic_id?: string;
   status: "draft" | "approved" | "rejected";
   review_note?: string;
+  researched_at?: string;
   questions?: Partial<Record<Locale, string[]>>; // common wordings (prepared answers only)
   sources: StoredSource[];
   answers: Record<Locale, LangAnswer>;
+  videos?: VideoSuggestion[];
 };
 
 /** The answer in the Ask answer shape, or null when not approved (unless allowed) or a source fails. */
-export async function loadPrepared(file: PreparedFile, language: Locale, options?: { allowDraft?: boolean }): Promise<Answer | null> {
+export type PreparedLoadOptions = { allowDraft?: boolean; approvalHash?: string; videos?: VideoSuggestion[]; onFailure?: (reason: string) => void };
+
+export async function loadPrepared(file: PreparedFile, language: Locale, options?: PreparedLoadOptions): Promise<Answer | null> {
   try {
     return await build(file, language, options);
   } catch (err) {
@@ -46,7 +53,7 @@ export async function loadPrepared(file: PreparedFile, language: Locale, options
   }
 }
 
-async function build(file: PreparedFile, language: Locale, options?: { allowDraft?: boolean }): Promise<Answer | null> {
+async function build(file: PreparedFile, language: Locale, options?: PreparedLoadOptions): Promise<Answer | null> {
   if (file.status !== "approved" && !(options?.allowDraft && file.status === "draft")) return null;
   const a = file.answers?.[language];
   if (!a || !Array.isArray(a.direct_answer) || a.direct_answer.length === 0) return null;
@@ -79,9 +86,20 @@ async function build(file: PreparedFile, language: Locale, options?: { allowDraf
 
   // Same display ids as live answers: verses as "2:255", hadith and quotes by their id.
   const shown = (id: string) => (id.startsWith("Q") ? id.slice(1) : id);
-  const sentence = (s: Sentence) => ({ text: s.text, source_ids: s.source_ids.map(shown) });
+  const sentence = (s: PreparedSentence) => ({ text: s.text, source_ids: s.source_ids.map(shown) });
   const notes = (a.not_established ?? []).map((n) => (typeof n === "string" ? n : n.text)).filter(Boolean);
   const used = usedIds.map((id) => byId.get(id)!);
+  const contentHash = preparedContentHash(file);
+  // Public prepared answers require the exact content hash recorded by the approval decision.
+  // Draft review may convert the current bytes for preview, but it never grants publication.
+  const approvalHash = options?.allowDraft ? contentHash : options?.approvalHash;
+  if (!approvalHash) return null;
+  const converted = convertPreparedToAnswerV2({ file, language, sources: byId,
+    review: "bayan_reviewed", approvalHash, videos: options?.videos });
+  if (!converted.ok) {
+    options?.onFailure?.(converted.reason);
+    return null;
+  }
   return {
     language,
     prepared: true,
@@ -94,5 +112,8 @@ async function build(file: PreparedFile, language: Locale, options?: { allowDraf
     ...(used.some((s) => s.kind === "hadith") ? { hadithAttribution: { ...HADITH_ATTRIBUTION } } : {}),
     model: "prepared",
     verifier: "reviewed-by-mo",
+    v2: converted.answer,
   };
 }
+
+export { preparedContentHash } from "@/lib/prepared-v2";

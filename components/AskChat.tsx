@@ -9,17 +9,17 @@ import VideoCard from "./VideoCard";
 import { ReportProblem } from "./ReportProblem";
 import { takePendingQuestion } from "@/lib/pending";
 import { Beacon } from "./Logo";
-import PreparedAnswer from "./PreparedAnswer";
+import { AnswerV2View } from "./AnswerV2View";
 
 type AskText = Dictionary["ask"];
 
-type Reply = { kind: "not_ready" } | { kind: "text"; text: string } | { kind: "answer"; answer: Answer };
+type Reply = { kind: "not_ready" } | { kind: "no_summary" } | { kind: "text"; text: string } | { kind: "answer"; answer: Answer };
 export type NewMessage = { role: "user"; text: string } | { role: "bayan"; reply: Reply };
 type Message = NewMessage & { id: number };
 
 const MAX = 500;
 // Only real answers and the fixed "no source / personal / out of scope" replies are worth saving in a chat.
-const SAVED_STATUSES = new Set(["answer", "no_source", "ask_scholar", "out_of_scope"]);
+const SAVED_STATUSES = new Set(["answer", "no_source", "no_summary", "ask_scholar", "out_of_scope"]);
 
 export default function AskChat({
   lang,
@@ -86,6 +86,8 @@ export default function AskChat({
             ? { kind: "not_ready" }
             : data.status === "no_source"
               ? { kind: "text", text: t.noSource }
+              : data.status === "no_summary"
+                ? { kind: "no_summary" }
               : data.status === "ask_scholar"
                 ? { kind: "text", text: t.personal }
               : data.status === "out_of_scope"
@@ -100,6 +102,7 @@ export default function AskChat({
       if (onExchange && data.status && SAVED_STATUSES.has(data.status)) {
         if (reply.kind === "answer") onExchange(question, { kind: "answer", answer: reply.answer });
         else if (reply.kind === "text") onExchange(question, { kind: "text", text: reply.text });
+        else if (reply.kind === "no_summary") onExchange(question, { kind: "text", text: t.noSummary });
       }
       push({ role: "bayan", reply });
     } catch {
@@ -134,7 +137,7 @@ export default function AskChat({
         </span>
       </p>
 
-      <div className="chat-log" aria-live="polite" aria-busy={busy}>
+      <div className="chat-log" aria-busy={busy}>
         {messages.length === 0 && !busy && (
           <div className="chat-empty">
             <Beacon size={64} />
@@ -163,16 +166,24 @@ export default function AskChat({
             <div key={m.id} className="msg msg-bayan">
               <span className="sr-only">{t.bayan}: </span>
               {m.reply.kind === "text" ? (
-                <p>{m.reply.text}</p>
+                <p role="status">{m.reply.text}</p>
+              ) : m.reply.kind === "no_summary" ? (
+                <div role="status" className="answer-empty">
+                  <p>{t.noSummary}</p>
+                  <Link href={`/${lang}/topics`}>{t.noSummaryBrowse}</Link>
+                  <ReportProblem lang={lang as "ar" | "en" | "de"} sourceIds={[]} labels={t.report} defaultReason="not_answering" />
+                </div>
               ) : m.reply.kind === "answer" ? (
-                // Approved prepared answers use the Article layout; live answers keep AnswerView.
-                m.reply.answer.prepared ? (
-                  <PreparedAnswer a={m.reply.answer} t={t} id={m.id} />
-                ) : (
-                  <AnswerView a={m.reply.answer} t={t} id={m.id} />
-                )
+                <>
+                  <span className="sr-only" role="status">{t.v2.answerReady}</span>
+                  {m.reply.answer.v2 ? <AnswerV2View answer={m.reply.answer.v2} t={t} id={m.id} />
+                    : <AnswerView a={m.reply.answer} t={t} id={m.id} />}
+                </>
               ) : (
-                <NotReady t={t} />
+                <>
+                  <span className="sr-only" role="status">{t.notReady}</span>
+                  <NotReady t={t} />
+                </>
               )}
             </div>
           ),
@@ -262,6 +273,7 @@ const reducedMotion = () =>
 
 // A real answer: an automatic explanation with a source on every sentence, then the verses exactly as served.
 export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) {
+  if (a.v2) return <AnswerV2View answer={a.v2} t={t} id={id} />;
   const anchor = (key: string) => `ev-${id}-${key.replace(":", "-")}`;
   // Source tags: verses show "2:255", hadith their Bukhari (or Muslim) number, quotes the scholar.
   const byKey = new Map(a.evidence.map((e) => [e.key, e]));
@@ -301,27 +313,24 @@ export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) 
   ));
   return (
     <div className="answer">
-      <p className="answer-label">{a.prepared ? t.preparedLabel : a.sourceOnly ? t.sourceOnlyLabel : t.label}</p>
+      <p className="answer-label">{a.prepared ? t.preparedLabel : t.label}</p>
 
-      {/* Source-only answers have no AI-written sentences: only the approved passages below. */}
-      {!a.sourceOnly && (
-        <section className="answer-part answer-part--real">
+      <section className="answer-part answer-part--real">
           <h3>
             <BookOpen aria-hidden="true" />
             {t.parts.short}
           </h3>
           <p className="answer-direct" lang={a.language} dir={dirOf(a.language)}>{sentences(a.direct_answer)}</p>
-        </section>
-      )}
+      </section>
 
-      {!a.sourceOnly && a.explanation.map((section, index) => (
+      {a.explanation.map((section, index) => (
         <section className="answer-part answer-part--real" key={index}>
           <h3 lang={a.language} dir={dirOf(a.language)}><BookOpen aria-hidden="true" />{section.heading}</h3>
           <p lang={a.language} dir={dirOf(a.language)}>{sentences(section.sentences)}</p>
         </section>
       ))}
 
-      {!a.sourceOnly && a.not_established.length > 0 && (
+      {a.not_established.length > 0 && (
         <aside className="answer-part answer-part--real answer-note" lang={a.language} dir={dirOf(a.language)}>
           <h3>{t.parts.limit}</h3>
           {a.not_established.map((note, index) => <p key={index}>{note.text}</p>)}
@@ -451,7 +460,7 @@ export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) 
       )}
 
       <p className="answer-foot">
-        {a.prepared ? t.preparedChecked : a.sourceOnly ? t.sourceOnlyChecked : t.checked}{" "}
+        {a.prepared ? t.preparedChecked : t.checked}{" "}
         <a href={a.attribution.url} target="_blank" rel="noopener noreferrer">
           {a.attribution.text}
         </a>

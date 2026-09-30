@@ -2,6 +2,7 @@
 // They prove the code refuses, whatever the AI returns.
 import { describe, expect, it } from "vitest";
 import { hadithAllowed, runPipeline, type PipelineDeps } from "@/lib/ask/core";
+import { validateAnswerV2 } from "@/lib/ask/answer-v2";
 import type { AIProvider, JsonRequest } from "@/lib/ai/types";
 import type { Verse } from "@/lib/sources/quran-meta";
 import type { Hadith } from "@/lib/sources/hadith-rules";
@@ -253,7 +254,7 @@ describe("runPipeline", () => {
     };
     const { d, writer } = deps({ understand: zakatFrame, drafts: [incomplete, incomplete] }, undefined, selection);
     const result = await runPipeline("ما شروط وجوب الزكاة في الذهب وكم مقدارها", "ar", d);
-    expect(result.status).toBe("no_source");
+    expect(result.status).toBe("no_summary");
     expect(writer.seen[2].prompt).toContain("R2: amount or rate of gold zakat due");
   });
 
@@ -425,10 +426,10 @@ describe("runPipeline", () => {
   it("refuses an unsupported claim that carries a real verse id", async () => {
     const draft = { status: "answer", claims: [{ text: "Music is forbidden.", source_ids: ["Q2:183"], requirement_id: "R1" }] };
     const { d, writer, verifier } = deps({ understand: understanding, draft }, { verdicts: ["not_supported"], ...OK });
-    expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
-    // writer: frame, first draft, one correction, then the source-only evidence audit (default: fails)
-    expect(writer.seen).toHaveLength(4);
-    expect(isAudit(writer.seen[3])).toBe(true);
+    expect((await runPipeline("fasting?", "en", d)).status).toBe("no_summary");
+    // writer: frame, first draft and one correction. No bare-source audit runs.
+    expect(writer.seen).toHaveLength(3);
+    expect(writer.seen.some(isAudit)).toBe(false);
     expect(verifier.seen).toHaveLength(3); // evidence selection + two final screens
   });
 
@@ -456,7 +457,7 @@ describe("runPipeline", () => {
       {},
     ]) {
       const { d } = deps({ understand: understanding, draft: goodDraft }, { verdicts: ["supported"], ...whole });
-      expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
+      expect((await runPipeline("fasting?", "en", d)).status).toBe("no_summary");
     }
   });
 
@@ -475,7 +476,7 @@ describe("runPipeline", () => {
   it("refuses when the screening answer is malformed or the wrong length", async () => {
     for (const v of [null, "supported", { verdicts: [] }, { verdicts: ["supported", "supported"] }]) {
       const { d } = deps({ understand: understanding, draft: goodDraft }, v);
-      expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
+      expect(["no_source", "no_summary"]).toContain((await runPipeline("fasting?", "en", d)).status);
     }
   });
 
@@ -512,13 +513,13 @@ describe("runPipeline", () => {
   it("redoes a draft once after a writing slip, and refuses if it slips again", async () => {
     const copied = { status: "answer", claims: [{ text: "Fasting is prescribed for you in the blessed month.", source_ids: ["Q2:183"], requirement_id: "R1" }] };
     const { d, writer } = deps({ understand: understanding, draft: copied });
-    expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
-    // writer: frame, 2 drafts, then the evidence audit, which fails by default
-    expect(writer.seen.length).toBe(4);
-    expect(isAudit(writer.seen[3])).toBe(true);
+    expect((await runPipeline("fasting?", "en", d)).status).toBe("no_summary");
+    // writer: frame and two drafts. No bare-source audit runs.
+    expect(writer.seen.length).toBe(3);
+    expect(writer.seen.some(isAudit)).toBe(false);
   });
 
-  describe("source-only fallback", () => {
+  describe("no-summary fallback", () => {
     // Arabic frame whose drafts keep re-typing the verse (a wording failure, not an evidence failure).
     const arabicFrame = { ...understanding, language: "ar", search_queries_ar: ["الصيام شهر"] };
     const copiedArabic = {
@@ -526,49 +527,35 @@ describe("runPipeline", () => {
       claims: [{ text: "كتب عليكم الصيام في الشهر المبارك", source_ids: ["Q2:183"], requirement_id: "R1" }],
     };
 
-    it("shows only the exact approved passages when wording keeps failing but the audit passes", async () => {
+    it("shows no bare sources when wording keeps failing", async () => {
       const { d, writer } = deps({ understand: arabicFrame, draft: copiedArabic, audit: AUDIT_OK });
       const r = await runPipeline("ما حكم الصيام؟", "ar", d);
-      expect(r.status).toBe("answer");
-      if (r.status !== "answer") return;
-      expect(r.answer.sourceOnly).toBe(true);
-      expect(r.answer.claims).toEqual([]);
-      // Evidence is the selected passage exactly as the source gave it; no translation for Arabic readers.
-      expect(r.answer.evidence).toEqual([
-        { kind: "quran", key: "2:183", arabic: verses[0].arabic, translation: null, translationName: null, url: verses[0].url },
-      ]);
-      // writer: frame, draft, correction, audit
-      expect(writer.seen).toHaveLength(4);
-      expect(isAudit(writer.seen[3])).toBe(true);
+      expect(r.status).toBe("no_summary");
+      expect(writer.seen).toHaveLength(3);
+      expect(writer.seen.some(isAudit)).toBe(false);
     });
 
-    it("never shows AI-written text as Quran text in source-only mode", async () => {
+    it("never shows rejected AI text or source cards in no-summary mode", async () => {
       // A well-formed Arabic summary that screening rejects twice, so the fallback is reached.
       const aiSummary = "يفرض على المؤمنين صيام شهر محدد";
       const draft = { status: "answer", claims: [{ text: aiSummary, source_ids: ["Q2:183"], requirement_id: "R1" }] };
       const { d } = deps({ understand: arabicFrame, draft, audit: AUDIT_OK }, { verdicts: ["not_supported"], ...OK });
       const r = await runPipeline("ما حكم الصيام؟", "ar", d);
-      if (r.status !== "answer") throw new Error("expected a source-only answer");
-      expect(r.answer.sourceOnly).toBe(true);
-      // The AI summary appears nowhere; every displayed Arabic text is a source passage unchanged.
-      expect(JSON.stringify(r.answer)).not.toContain(aiSummary);
-      expect(r.answer.evidence.length).toBeGreaterThan(0);
-      for (const e of r.answer.evidence) expect(verses.find((v) => v.key === e.key)!.arabic).toBe(e.arabic);
+      expect(r).toEqual({ status: "no_summary", language: "ar" });
+      expect(JSON.stringify(r)).not.toContain(aiSummary);
     });
 
-    it("falls back after failed claim screening too, still only with a passing audit", async () => {
+    it("returns no-summary after failed claim screening", async () => {
       const { d, verifier } = deps(
         { understand: understanding, draft: goodDraft, audit: AUDIT_OK },
         { verdicts: ["not_supported"], ...OK },
       );
       const r = await runPipeline("What does the Quran say about fasting?", "en", d);
-      if (r.status !== "answer") throw new Error("expected a source-only answer");
-      expect(r.answer.sourceOnly).toBe(true);
-      expect(r.answer.claims).toEqual([]);
-      expect(verifier.seen).toHaveLength(3); // selection + two screens; the audit runs on the writer model
+      expect(r.status).toBe("no_summary");
+      expect(verifier.seen).toHaveLength(3); // selection + two screens
     });
 
-    it("keeps the raw question and rejected candidates out of the audit", async () => {
+    it("does not make another model call after a checked wording failure", async () => {
       const identityFrame = {
         ...understanding,
         question_type: "identity",
@@ -600,17 +587,11 @@ describe("runPipeline", () => {
       };
       const { d, writer } = deps({ understand: identityFrame, draft: copied, audit: OK_TWO }, undefined, selection);
       const r = await runPipeline("Who is the example subject? RAW-QUESTION-MARKER", "en", d);
-      if (r.status !== "answer") throw new Error("expected a source-only answer");
-      expect(r.answer.sourceOnly).toBe(true);
-      expect(r.answer.evidence.map((e) => e.key)).toEqual(["2:255"]);
-      const audit = writer.seen.find(isAudit)!;
-      expect(audit.prompt).toContain("Q2:255");
-      for (const hidden of ["RAW-QUESTION-MARKER", "Q2:7", "Q2:10", "Q2:19", "merely named", "only mentioned"]) {
-        expect(audit.prompt).not.toContain(hidden);
-      }
+      expect(r.status).toBe("no_summary");
+      expect(writer.seen.some(isAudit)).toBe(false);
     });
 
-    it("refuses when the audit says no or unsure, or is malformed or missing", async () => {
+    it("does not depend on the removed source-only audit", async () => {
       for (const audit of [
         AUDIT_FAIL,
         { ...AUDIT_OK, answers_question: "no" },
@@ -623,11 +604,11 @@ describe("runPipeline", () => {
         undefined,
       ]) {
         const { d } = deps({ understand: arabicFrame, draft: copiedArabic, audit });
-        expect((await runPipeline("ما حكم الصيام؟", "ar", d)).status).toBe("no_source");
+        expect((await runPipeline("ما حكم الصيام؟", "ar", d)).status).toBe("no_summary");
       }
     });
 
-    it("is never used when evidence selection itself is insufficient", async () => {
+    it("keeps no-summary separate from insufficient evidence", async () => {
       const selection = {
         status: "insufficient",
         coverage: "incomplete",
@@ -642,7 +623,7 @@ describe("runPipeline", () => {
       expect(writer.seen.some(isAudit)).toBe(false);
     });
 
-    it("is never used when the writer says the evidence does not answer, or returns malformed output", async () => {
+    it("keeps no-summary separate from model no-answer and malformed output", async () => {
       for (const draft of [{ status: "no_answer", claims: [] }, null, { status: "answer", claims: "x" }]) {
         const { d, writer } = deps({ understand: understanding, draft, audit: AUDIT_OK });
         expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_source");
@@ -650,14 +631,14 @@ describe("runPipeline", () => {
       }
     });
 
-    it("is never used when the writer cites a source outside the sealed package", async () => {
+    it("keeps no-summary separate from citations outside the sealed package", async () => {
       const draft = { status: "answer", claims: [{ text: "Something about the throne.", source_ids: ["Q2:255"], requirement_id: "R1" }] };
       const { d, writer } = deps({ understand: understanding, draft, audit: AUDIT_OK });
       expect((await runPipeline("fasting?", "en", d)).status).toBe("no_source");
       expect(writer.seen.some(isAudit)).toBe(false);
     });
 
-    it("keeps normal English and German answers as checked claims, not source-only", async () => {
+    it("keeps normal English and German answers as checked claims", async () => {
       const germanFrame = { ...understanding, language: "de" };
       const germanDraft = {
         status: "answer",
@@ -670,7 +651,6 @@ describe("runPipeline", () => {
         const { d, writer } = deps({ understand: frame, draft, audit: AUDIT_OK });
         const r = await runPipeline("fasting?", lang, d);
         if (r.status !== "answer") throw new Error(`expected a normal ${lang} answer`);
-        expect(r.answer.sourceOnly).toBeUndefined();
         expect(r.answer.claims).toHaveLength(1);
         expect(writer.seen.some(isAudit)).toBe(false);
       }
@@ -831,7 +811,7 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     if (r.status === "answer") expect((r.answer.evidence.find((e) => e.key === "HE9001") as { translation: string | null } | undefined)?.translation).toBeNull();
   });
 
-  it("shows a hadith in source-only mode when wording fails but the audit passes", async () => {
+  it("returns no-summary without showing hadith cards when wording fails", async () => {
     // The drafts copy six words of the hadith translation, so wording fails twice.
     const copied = {
       status: "answer",
@@ -840,10 +820,7 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     const { d } = deps({ understand: understanding, draft: copied, audit: AUDIT_OK }, undefined, hadithSelection("direct"));
     d.searchHadith = async () => [hadithFast, hadithOther];
     const r = await runPipeline("What does Islam teach about fasting?", "en", d);
-    if (r.status !== "answer") throw new Error("expected a source-only answer");
-    expect(r.answer.sourceOnly).toBe(true);
-    expect(r.answer.claims).toEqual([]);
-    expect(r.answer.evidence.map((e) => e.key)).toEqual(["2:183", "HE9001"]);
+    expect(r).toEqual({ status: "no_summary", language: "en" });
   });
 
   it("shows the English hadith translation, labelled, when no German one exists", async () => {
@@ -1044,5 +1021,146 @@ describe("related videos", () => {
     const refused = await runPipeline("What does Islam teach about fasting?", "en", d2);
     expect(refused.status).not.toBe("answer");
     expect(JSON.stringify(refused)).not.toContain(video.youtubeId);
+  });
+});
+
+// ---------- AnswerV2 (design phases 1 to 3), made-up texts ----------
+const isDraft = (req: JsonRequest) => req.system.startsWith("You write short explanations");
+const madeUpVerse = (key: string): Verse => ({
+  key,
+  arabic: `نص عربي تجريبي للمصدر ${key.replace(":", " ")}`,
+  arabicPlain: `نص عربي تجريبي للمصدر ${key.replace(":", " ")}`,
+  translations: { en: `Made-up verse text for key ${key.replace(":", " ")}`, de: null },
+  url: `https://quran.com/${key.replace(":", "/")}`,
+});
+const allDirect = (ids: string[]) => ({
+  status: "ready", coverage: "complete", conflict: "none",
+  assessments: ids.map((id) => ({ source_id: id, relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" })),
+});
+const supported = (n: number) => ({ verdicts: Array.from({ length: n }, () => "supported"), ...OK });
+
+describe("AnswerV2 in the live pipeline", () => {
+  it("attaches a validated AnswerV2 that keeps internal Quran ids, while the old view keeps display ids", async () => {
+    const { d } = deps({ understand: understanding, draft: goodDraft });
+    const r = await runPipeline("What does the Quran say about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    const v2 = r.answer.v2!;
+    expect(validateAnswerV2(v2, { origin: "live", review: "automatic", requirementIds: ["R1"] }).ok).toBe(true);
+    expect(v2.review).toBe("automatic");
+    expect(v2.provenance).toEqual({ model: "fake/writer", verifier: "fake/verifier" });
+    expect(v2.simple_answer.sentences).toEqual([{ text: goodDraft.claims[0].text, source_ids: ["Q2:183"], requirement_id: "R1" }]);
+    expect(v2.quran.map((card) => card.id)).toEqual(["quran-2-183"]);
+    expect(v2.quran[0].verses[0].arabic).toBe(verses[0].arabic); // exactly as served
+    expect(r.answer.claims[0].refs).toEqual(["2:183"]);
+  });
+
+  it("tells the writer whether code permits a list, and the writer schema has the new fields", async () => {
+    const { d, writer } = deps({ understand: understanding, draft: goodDraft });
+    await runPipeline("What does the Quran say about fasting?", "en", d);
+    const draft = writer.seen.find(isDraft)!;
+    expect(draft.prompt).toContain('"list_allowed":false');
+    expect(Object.keys((draft.schema as { properties: object }).properties)).toEqual(["status", "simple_answer", "list", "more_explanation", "limit_note"]);
+  });
+
+  it("hands the writer at most two scholar quotes and two hadith, whatever the selector marks direct", async () => {
+    const quotes = [5, 6, 7, 8].map((n): ScholarQuote => ({ ...quoteFast, id: `S${String(n).repeat(8)}-${String(n).repeat(4)}-${String(n).repeat(4)}-${String(n).repeat(4)}-${String(n).repeat(12)}`,
+      url: `https://binbaz.org.sa/fatwas/${n}/test`, arabic: `نص تجريبي رقم ${n} من كلام الشيخ.` }));
+    const { d, writer } = deps({ understand: arabicQueries, draft: goodDraft }, undefined,
+      allDirect(["Q2:183", "Q2:184", "HE9001", "HE9002", ...quotes.map((q) => q.id)]));
+    d.searchScholars = async () => quotes;
+    d.searchHadith = async () => [hadithFast, hadithOther, { ...hadithOther, id: "HE9004", url: "https://hadeethenc.com/en/browse/hadith/9004" }];
+    await runPipeline("What does Islam teach about fasting?", "en", d);
+    const prompt = writer.seen.find(isDraft)!.prompt;
+    expect(quotes.filter((q) => prompt.includes(q.id))).toHaveLength(2);
+    expect(["HE9001", "HE9002", "HE9004"].filter((id) => prompt.includes(id))).toHaveLength(2);
+  });
+
+  it("shows cited consecutive verses as one passage card and hides uncited package sources", async () => {
+    const { d } = deps({ understand: understanding, draft: { status: "answer", claims: [
+      { text: "Believers are told about the first matter.", source_ids: ["Q2:183"], requirement_id: "R1" },
+      { text: "Believers are told about a second matter.", source_ids: ["Q2:184"], requirement_id: "R1" },
+      { text: "Believers are told about a third matter.", source_ids: ["Q2:185"], requirement_id: "R1" },
+    ] } }, supported(3), allDirect(["Q2:183", "Q2:184", "Q2:185", "Q3:1", "Q4:1"]));
+    d.search = async () => ["2:183", "2:184", "2:185", "3:1", "4:1"];
+    d.getVerse = async (key) => madeUpVerse(key);
+    const r = await runPipeline("What does the Quran say about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    expect(r.answer.v2!.quran.map((card) => card.source_ids)).toEqual([["Q2:183", "Q2:184", "Q2:185"]]);
+    expect(r.answer.evidence.map((e) => e.key)).toEqual(["2:183", "2:184", "2:185"]);
+  });
+
+  it("fails closed rather than dropping a cited verse when the rendered cards would exceed three", async () => {
+    const reasons: string[] = [];
+    const { d } = deps({ understand: understanding, draft: { status: "answer", claims: [
+      { text: "Believers are told about the first matter.", source_ids: ["Q2:183"], requirement_id: "R1" },
+      { text: "Believers are told about a later matter.", source_ids: ["Q2:185"], requirement_id: "R1" },
+      { text: "Believers are told about another matter.", source_ids: ["Q3:1"], requirement_id: "R1" },
+      { text: "Believers are told about a last matter.", source_ids: ["Q4:1"], requirement_id: "R1" },
+    ] } }, supported(4), allDirect(["Q2:183", "Q2:184", "Q2:185", "Q3:1", "Q4:1"]));
+    d.search = async () => ["2:183", "2:184", "2:185", "3:1", "4:1"];
+    d.getVerse = async (key) => madeUpVerse(key);
+    d.onRefuse = (reason) => reasons.push(reason);
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_source");
+    expect(reasons).toContain("answer_v2_rendered_quran_cards_over_cap");
+  });
+
+  it("shows a complete named passage (al-Fatiha) as one card, but cites and lists only what the answer uses", async () => {
+    const fatihaFrame = { ...understanding, question_type: "reference", subjects: ["al-Fatiha"],
+      requested_points: [{ text: "meaning of al-Fatiha", facet: "meaning" }], search_queries_en: ["praise guidance path"] };
+    const fatiha = Array.from({ length: 7 }, (_, i) => `Q1:${i + 1}`);
+    const { d } = deps({ understand: fatihaFrame, draft: { status: "answer", claims: [
+      { text: "The chapter praises God as the Lord of all.", source_ids: ["Q1:2"], requirement_id: "R1" },
+      { text: "It asks to be guided on the straight way.", source_ids: ["Q1:6"], requirement_id: "R1" },
+    ] } }, supported(2), allDirect(fatiha));
+    d.search = async () => [];
+    d.getVerse = async (key) => madeUpVerse(key);
+    const r = await runPipeline("What does al-Fatiha say?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    expect(r.answer.v2!.quran).toHaveLength(1);
+    expect(r.answer.v2!.quran[0].id).toBe("quran-1-1-7");
+    expect(r.answer.v2!.quran[0].verses.map((v) => v.key)).toEqual(fatiha.map((id) => id.slice(1)));
+    expect(r.answer.evidence.map((e) => e.key)).toEqual(["1:2", "1:6"]);
+  });
+
+  it("returns no-summary with no AnswerV2 payload when checked wording fails", async () => {
+    const arabicFrame = { ...understanding, language: "ar", search_queries_ar: ["الصيام شهر"] };
+    const copied = { status: "answer", claims: [{ text: "كتب عليكم الصيام في الشهر المبارك", source_ids: ["Q2:183"], requirement_id: "R1" }] };
+    const { d } = deps({ understand: arabicFrame, draft: copied, audit: AUDIT_OK });
+    const r = await runPipeline("ما حكم الصيام؟", "ar", d);
+    expect(r).toEqual({ status: "no_summary", language: "ar" });
+  });
+
+  describe("steps list and the draft budget", () => {
+    const quoteRepent: ScholarQuote = { ...quoteFast, id: "S66666666-6666-6666-6666-666666666666", title: "شروط التوبة",
+      arabic: "التوبة تكون بالندم على الذنب والإقلاع عنه والعزم ألا يعود إليه.", url: "https://binbaz.org.sa/fatwas/66/test" };
+    const repentFrame = { ...understanding, question_type: "practice", subjects: ["repentance"],
+      requested_points: [{ text: "steps of repentance", facet: "steps" }], search_queries_en: ["repentance steps"], search_queries_ar: ["شروط التوبة من الذنب"] };
+    const cite = (text: string) => ({ text, source_ids: [quoteRepent.id], requirement_id: "R1" });
+    const quoted = { status: "answer", claims: [cite("Say \"I repent\" now.")] }; // wording slip, retryable
+    const oneStep = { status: "answer", claims: [cite("Shaykh Ibn Baz explained that repentance requires regret.")] }; // misses two steps
+    const complete = { status: "answer", simple_answer: [cite("Shaykh Ibn Baz explained that repentance has three conditions.")],
+      list: [cite("Stop the sin."), cite("Regret the sin."), cite("Resolve never to return to it.")], more_explanation: [], limit_note: [] };
+    const run = (screenings: unknown[]) => {
+      const setup = deps({ understand: repentFrame, drafts: [quoted, oneStep, complete, complete] }, undefined, allDirect([quoteRepent.id]), screenings);
+      setup.d.searchScholars = async () => [quoteRepent];
+      return setup;
+    };
+
+    it("puts the steps in a checked list that counts as the direct answer", async () => {
+      const { d, writer } = run([{ verdicts: ["not_supported", "supported", "supported", "supported"], ...OK }, supported(4)]);
+      const r = await runPipeline("How do I repent from a sin?", "en", d);
+      if (r.status !== "answer") throw new Error("expected an answer");
+      expect(writer.seen.filter(isDraft)).toHaveLength(4);
+      expect(writer.seen.find(isDraft)!.prompt).toContain('"list_allowed":true');
+      expect(r.answer.v2!.simple_answer.list!.map((item) => item.text)).toEqual(["Stop the sin.", "Regret the sin.", "Resolve never to return to it."]);
+      expect(r.answer.direct_answer).toHaveLength(4); // the old view shows the list after the simple answer
+      expect(validateAnswerV2(r.answer.v2, { origin: "live", review: "automatic", requirementIds: ["R1"], listAllowed: true }).ok).toBe(true);
+    });
+
+    it("never makes more than four draft calls, and refuses when they are used up", async () => {
+      const { d, writer } = run([{ verdicts: ["not_supported", "supported", "supported", "supported"], ...OK }]);
+        expect((await runPipeline("How do I repent from a sin?", "en", d)).status).toBe("no_summary");
+      expect(writer.seen.filter(isDraft)).toHaveLength(4);
+    });
   });
 });

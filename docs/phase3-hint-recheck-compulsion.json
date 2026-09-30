@@ -1,0 +1,224 @@
+[
+  {
+    "id": "no-compulsion-en",
+    "outcome": "answer",
+    "reasons": [],
+    "frame": {
+      "kind": "question",
+      "type": "ruling",
+      "requirements": [
+        {
+          "id": "R1",
+          "text": "Whether a person can be forced to convert to Islam",
+          "facet": "ruling"
+        }
+      ],
+      "searchQueries": {
+        "en": [
+          "there is no compulsion in religion",
+          "forcing someone to accept Islam",
+          "coercion in faith prohibited"
+        ],
+        "de": [
+          "kein Zwang im Glauben",
+          "Konversion zum Islam Zwang",
+          "Religionsfreiheit im Islam"
+        ],
+        "ar": [
+          "لا إكراه في الدين",
+          "إكراه الشخص على الإسلام",
+          "حكم إكراه الكافر على الإسلام"
+        ]
+      }
+    },
+    "retrieved": {
+      "hintIds": [
+        "no-compulsion"
+      ],
+      "quran": [
+        "2:256",
+        "49:17",
+        "9:124",
+        "22:78",
+        "6:125",
+        "48:4",
+        "10:99",
+        "61:7",
+        "25:55",
+        "18:29",
+        "39:22",
+        "42:8",
+        "3:85",
+        "10:9",
+        "3:19",
+        "40:48"
+      ],
+      "hadith": [
+        "HE5518",
+        "HE66271",
+        "HE6468",
+        "HE11256",
+        "HE6272",
+        "HE65329",
+        "HE66098"
+      ],
+      "scholars": [
+        "https://binbaz.org.sa/fatwas/3017/%D8%A7%D9%84%D8%AC%D9%85%D8%B9-%D8%A8%D9%8A%D9%86%3A-%7B%D9%84%D9%8E%D8%A7-%D8%A5%D9%90%D9%83%D9%92%D8%B1%D9%8E%D8%A7%D9%87%D9%8E-%D9%81%D9%90%D9%8A-%D8%A7%D9%84%D8%AF%D9%91%D9%90%D9%8A%D9%86%D9%90%7D-%D9%88%C2%AB%D8%A7%D9%84%D8%B7%D8%A7%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%B7-%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%87%C2%BB"
+      ],
+      "scholarEnabled": true,
+      "scholarProblem": null
+    },
+    "candidates": [
+      {
+        "id": "Q2:256",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/2/256"
+      },
+      {
+        "id": "Q22:78",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/22/78"
+      },
+      {
+        "id": "Q25:55",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/25/55"
+      },
+      {
+        "id": "Q10:99",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/10/99"
+      },
+      {
+        "id": "Q3:19",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/3/19"
+      },
+      {
+        "id": "Q40:48",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/40/48"
+      },
+      {
+        "id": "Q49:17",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/49/17"
+      },
+      {
+        "id": "Q9:124",
+        "kind": "quran",
+        "title": null,
+        "url": "https://quran.com/9/124"
+      },
+      {
+        "id": "HE66271",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/66271"
+      },
+      {
+        "id": "HE5518",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/5518"
+      },
+      {
+        "id": "HE6468",
+        "kind": "hadith",
+        "title": null,
+        "url": "https://hadeethenc.com/en/browse/hadith/6468"
+      },
+      {
+        "id": "Sc90793f2-6883-7596-04c5-845df97c4588",
+        "kind": "scholar",
+        "title": "الجمع بين: {لَا إِكْرَاهَ فِي الدِّينِ} و«الطاعة في المنشط والمكره»",
+        "url": "https://binbaz.org.sa/fatwas/3017/%D8%A7%D9%84%D8%AC%D9%85%D8%B9-%D8%A8%D9%8A%D9%86%3A-%7B%D9%84%D9%8E%D8%A7-%D8%A5%D9%90%D9%83%D9%92%D8%B1%D9%8E%D8%A7%D9%87%D9%8E-%D9%81%D9%90%D9%8A-%D8%A7%D9%84%D8%AF%D9%91%D9%90%D9%8A%D9%86%D9%90%7D-%D9%88%C2%AB%D8%A7%D9%84%D8%B7%D8%A7%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%B7-%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%87%C2%BB"
+      }
+    ],
+    "selection": [
+      {
+        "source_id": "Q2:256",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q22:78",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q25:55",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q10:99",
+        "relevance": "direct",
+        "supported_requirement_ids": [
+          "R1"
+        ],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q3:19",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q40:48",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q49:17",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Q9:124",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE66271",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE5518",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "HE6468",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      },
+      {
+        "source_id": "Sc90793f2-6883-7596-04c5-845df97c4588",
+        "relevance": "unrelated",
+        "supported_requirement_ids": [],
+        "context_safe": "yes"
+      }
+    ]
+  }
+]

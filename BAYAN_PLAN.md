@@ -2,6 +2,8 @@
 
 Version 3, 2026-09-27. Version 2 followed an outside review by GPT Codex. Mo then decided the site stays **AI first**: people ask anything and get an automatic answer. Codex's other fixes (privacy, security, source rights, honest labels, accessibility, testing) are kept. Section 13 lists what changed. Older versions are in git history.
 
+**Answer structure checkpoint, 2026-09-30:** Live and prepared answers now target one checked `AnswerV2` shape: simple cited answer, optional cited list, Quran, hadith, scholar quotes, optional folded detail, and videos that are never evidence. Empty sections stay hidden. Bare sources are never shown as an answer; failed summaries return the honest no-summary result. Unresolved scholar differences refuse safely instead of choosing a view by quote count. Prepared approvals are tied to the exact reviewed content hash. The final full evaluation and Mo's content acceptance are still required before launch.
+
 ## 1. The goal in one paragraph
 Bayan is a website, built for the Ummah and for anyone curious about Islam, where people type any question and get a calm, clear answer straight away. The answer is written automatically, but only from trusted sources: the Quran, authentic hadith and the approved scholars. It works in Arabic, German and English, feels simple on a phone, and always shows where every sentence comes from. When no trusted source is found, it says so honestly instead of guessing.
 
@@ -19,7 +21,7 @@ Bayan is a website, built for the Ummah and for anyone curious about Islam, wher
 | Languages | Arabic (right-to-left), German, English |
 | Look | The lapis blue + gold light design from the mockup, always light |
 | Methodology | Sunni only (Ahl al-Sunnah). Evidence from the Quran and hadith graded sahih or hasan only. Explanations and rulings quoted from the approved scholars in section 3b |
-| When scholars differ | Show the strongest view (al-rajih), meaning the view held by most of the approved scholars found for that question, as the answer. Other views in a closed "Other scholarly views" fold. The main answer still says in one line that a difference exists. If a scholar-reviewed answer exists, its view is used instead |
+| When scholars differ | Automatic search never decides al-rajih by counting retrieved quotes or scholars. A documented reviewed view decision may put one view first, with other views in a closed fold. Without one, supported views are shown with equal weight or the answer refuses. Only a real scholar review may label a view "strongest" or "al-rajih" |
 | AI provider | **Undecided, see section 5.** Gemini's terms forbid sites likely used by under-18s. The code talks to the AI through one swappable layer |
 
 ## 3. About trust (honest version)
@@ -35,6 +37,7 @@ No website can promise 100%. What we promise, and say on the site:
 
 **Status labels shown on answers (use these exact wordings, never stronger ones):**
 - "Automatic answer from the sources listed" (normal AI answer)
+- "Prepared answer, reviewed by Bayan" (only while the stored approval hash exactly matches the current prepared content; this is not scholar review)
 - "Scholar reviewed" (only after a real scholar approved it)
 - "Quotes checked against the source" (never "verified" or "100%")
 - "No account required" (never "anonymous")
@@ -49,10 +52,10 @@ No website can promise 100%. What we promise, and say on the site:
 - Every quote links to the exact page it came from.
 
 **When there is a difference of opinion**
-1. The answer states the strongest view (al-rajih), meaning the view held by most of the approved scholars found, with its evidence and who held it.
-2. If approved scholars clearly differ on a practical matter, the main answer says so in one line, and a closed "Other scholarly views" fold lists the other view(s) briefly, with who held them.
-3. If the sources found are evenly split or unclear, Bayan does not pick a side. It shows the views side by side and says a scholar should be asked.
-4. If a scholar-reviewed answer exists for the question, it is shown first and its view is used.
+1. Retrieval results cannot establish the strongest view. The library is incomplete and uneven, so Bayan never picks a winner by counting quotes or retrieved scholars.
+2. A documented reviewed view decision may put one view first, with its evidence and who held it. Other supported views appear in a closed "Other scholarly views" fold. The main answer says in fixed site text that a difference exists.
+3. Without a matching reviewed decision, Bayan shows checked views side by side with equal presentation, or refuses when it cannot present them fairly. It does not call either view al-rajih.
+4. Only a real scholar review may label a view "strongest", "al-rajih" or "Scholar reviewed". A Bayan or Mo content approval is not a religious ruling.
 
 **Every answer has the same 4 parts**
 1. **Short answer** in plain words, written by the AI only from the sources below.
@@ -109,7 +112,7 @@ Most answers carry 2 to 4 sources.
 ## 3c. Scholar review (later, does not block building)
 The site works fully without scholars. When a scholar advisor or small board joins:
 - They review the most-asked answers. Approved answers are saved as "answer packages" (the answer, its evidence, who approved it and when, any other views, a version number) and shown first with a "Scholar reviewed" badge.
-- They decide the strongest view where the automatic rule (most approved scholars) is unclear.
+- They decide the strongest view and create or approve documented view decisions. Automatic retrieval never decides it.
 - Every change to a reviewed answer is kept in a history and can be rolled back.
 
 ## 4. Trusted sources
@@ -187,9 +190,8 @@ Supabase (Frankfurt)
            a different AI checks support, relevance, context and fairness
         8. show answer + exact source text + videos,
            or "no trusted source found"
-        9. if the evidence is sound but no AI wording passes the checks, a second
-           model audits the sealed evidence; only if it fully agrees, show the exact
-           approved passages alone ("source-only"), with no AI-written sentence
+        9. if direct evidence exists but no AI wording passes the bounded checks,
+           show an honest no-summary message; never show bare passages as an answer
 ```
 The AI never has web access and never writes to the database. The model version used is saved with every answer so mistakes can be traced.
 
@@ -278,7 +280,7 @@ Privacy and security rules (sections 10 and 11) apply from phase 2 onwards, beca
 ### 12b. Test set (replaces "50 questions, zero wrong quotes")
 A list of test questions (checked by a scholar once one joins) covering: all 3 languages, mixed languages and spelling mistakes, every topic category, personal situations and requests for rulings, recognised differences of opinion, questions with no reviewed answer, misleading or hostile questions, Arabic without diacritics, broken links and removed videos, and attempts to push the AI outside the library.
 
-We measure: is each claim supported, are citations correct, does it refuse when it should, are translations faithful, did it pick the view held by most approved scholars, and how often it wrongly says "no answer". The same test runs before every change to the model, instructions, search or content.
+We measure: is each claim supported, are citations correct, does it refuse when it should, are translations faithful, did it follow a matching reviewed view decision or present undecided views equally, and how often it wrongly says "no answer". The same test runs before every change to the model, instructions, search or content.
 
 ### 12c. "Ask a scholar" (later, not built now)
 Planned, not built now. Before building it we define: who the reviewers are and how they are checked, which subjects they answer, response times we can actually meet, confidentiality and retention, escalation for abuse, self-harm and emergencies, secure communication, and what happens if nobody picks up a request. Until then the site says: "Please ask a qualified scholar you trust." No promises of 48-hour replies, calls or anonymity.
@@ -287,7 +289,7 @@ Planned, not built now. Before building it we define: who the reviewers are and 
 | # | Codex finding | What we did |
 |---|---|---|
 | 1 | Gemini terms forbid sites likely used by under-18s; EU needs paid service | Kept. Section 5: provider undecided, Gemini for private testing only |
-| 2 | Nobody has authority to decide the strongest view | Partly. Automatic rule: the view of most approved scholars found; split or unclear means no side is picked. Scholar review later (3c) |
+| 2 | Nobody has authority to decide the strongest view | Fixed. Automatic retrieval never decides it. A documented reviewed decision may put one view first; only a real scholar review may call it strongest or al-rajih. Otherwise checked views are equal or the answer refuses |
 | 3 | AI can mislead even with real quotes | **Mo chose to stay AI first.** Mitigations: every sentence needs a source, code removes unsourced sentences, quote checking, "not a fatwa" label, report link, test set |
 | 4 | Privacy plan too small for religious data | Kept. Section 10 rewritten |
 | 5 | Source terms may block the library | Kept. Section 4 limits + source-rights register (4b) |

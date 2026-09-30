@@ -1,0 +1,80 @@
+{
+  "ibn-baz": {
+    "scholarId": "ibn-baz",
+    "queriesAttempted": 302,
+    "hitsFound": 593,
+    "existingCount": 485,
+    "skippedCount": 105,
+    "storedCount": 3,
+    "skipReasons": {
+      "Not parsed / rejected by parser": 12,
+      "No shared content word with title": 1,
+      "No clean excerpt": 90,
+      "Title mismatch": 1,
+      "AI rejected: The quote only addresses the ruling on astrology (التنجيم) and does not address the ruling on the divorce of a mentally unstable person (طلاق مختل الشعور).": 1
+    },
+    "newlyStored": [
+      {
+        "id": "37deb433-49b6-4391-8123-8061b87166b2",
+        "title": "نواقض الإسلام وخطرها على الفرد والمجتمع",
+        "url": "https://binbaz.org.sa/fatwas/9598/%D9%86%D9%88%D8%A7%D9%82%D8%B6-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85-%D9%88%D8%AE%D8%B7%D8%B1%D9%87%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%81%D8%B1%D8%AF-%D9%88%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9",
+        "reference": "binbaz.org.sa, fatwa 9598",
+        "quote": ". فهذا سؤال عظيم، يجب على كل مؤمن أن يفهمه، وأن يعتني به؛ لأن نواقض الإسلام اليوم كثيرة، وخطرها عظيم، وهذا السؤال فيه فائدة كبيرة لكل مسلم، قد ألف العلماء في نواقض الإسلام مؤلفات، وذكروا في كتب الفقه بابًا مستقلًا في هذا الباب، في هذه المسألة سموه: باب حكم المرتد، باب، سموا هذا المقام، مسائل هذا الباب جعلوها تحت باب وهو باب حكم المرتد، وهو الذي يكفر بعد إسلامه، ثم ذكروا النواقض التي يحصل بها الردةن يقال لها: نواقض الإسلام، مبطلات الإسلام، أسباب الردة، وهي كثيرة ذكرها العلماء في هذا الباب، في مذهب الحنابلة، والشافعية، والمالكية، والحنبلية وغيرهم، وذكرها أيضًا جماعة في مؤلفات خاصة مستقلة."
+      },
+      {
+        "id": "4c20bb9f-626d-4bb0-83b1-8516f57d94a3",
+        "title": "التوسل المشروع والممنوع",
+        "url": "https://binbaz.org.sa/fatwas/17976/%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D9%84-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%88%D8%A7%D9%84%D9%85%D9%85%D9%86%D9%88%D8%B9",
+        "reference": "binbaz.org.sa, fatwa 17976",
+        "quote": "فالتوسل أقسام: أقسام ممنوعة، وأقسام جائزة: فالأقسام الممنوعة: كالتوسل الذي هو شرك، يسميه المسلمون توسلاً وهو دعوة الأموات، والاستغاثة بالأموات، والنذر لهم هذا يسميه المسلمون توسلاً وهو شرك أكبر، فالواجب الحذر منه، دعوة الميت، والاستغاثة به، والنذر له ونحو ذلك هذا كله من الشرك الأكبر وإن سماه توسلاً، قال-تعالى-: وَيَعْبُدُونَ مِنْ دُونِ اللَّهِ مَا لا يَضُرُّهُمْ وَلا يَنْفَعُهُمْ وَيَقُولُونَ هَؤُلاءِ شُفَعَاؤُنَا عِنْدَ اللَّهِ[يونس:18]، ويقول : وَالَّذِينَ اتَّخَذُوا مِنْ دُونِهِ أَوْلِيَاءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَا إِلَى اللَّهِ زُلْفَى[الزمر:3]."
+      },
+      {
+        "id": "72e2b769-61fb-438e-9c6e-252897bf4af7",
+        "title": "فضل الذكر والاستغفار",
+        "url": "https://binbaz.org.sa/fatwas/13938/%D9%81%D8%B6%D9%84-%D8%A7%D9%84%D8%B0%D9%83%D8%B1-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%BA%D9%81%D8%A7%D8%B1",
+        "reference": "binbaz.org.sa, fatwa 13938",
+        "quote": "فإن الله -جل وعلا شرع- لعباده الذكر والاستغفار، وأمرهم بالإكثار من ذكر الله، قال -جل وعلا-: يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا [الأحزاب:41]، وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا [الأحزاب:42] قال تعالى: فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلا تَكْفُرُونِ [البقرة:152] وقال -جل وعلا-: وَأَنِ اسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ [هود:3]، قال: وَاسْتَغْفِرُوا اللَّهَ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ [البقرة:199]، فالمؤمن مأمور بالإكثار من الذكر، والإكثار من الاستغفار لعل الله -جل وعلا- يضاعف له المثوبة ويغفر له السيئات."
+      }
+    ]
+  },
+  "ibn-uthaymeen": {
+    "scholarId": "ibn-uthaymeen",
+    "queriesAttempted": 302,
+    "hitsFound": 211,
+    "existingCount": 88,
+    "skippedCount": 123,
+    "storedCount": 0,
+    "skipReasons": {
+      "Tafsir lesson": 34,
+      "No clean excerpt": 22,
+      "Not fatwa collection": 46,
+      "Not parsed / rejected by parser": 21
+    },
+    "newlyStored": []
+  },
+  "al-albani": {
+    "scholarId": "al-albani",
+    "queriesAttempted": 302,
+    "hitsFound": 97,
+    "existingCount": 11,
+    "skippedCount": 86,
+    "storedCount": 0,
+    "skipReasons": {
+      "Not parsed / rejected by parser": 86
+    },
+    "newlyStored": []
+  },
+  "al-barrak": {
+    "scholarId": "al-barrak",
+    "queriesAttempted": 302,
+    "hitsFound": 22,
+    "existingCount": 6,
+    "skippedCount": 16,
+    "storedCount": 0,
+    "skipReasons": {
+      "Not parsed / rejected by parser": 10,
+      "No clean excerpt": 6
+    },
+    "newlyStored": []
+  }
+}

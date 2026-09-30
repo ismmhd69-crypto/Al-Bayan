@@ -47,6 +47,18 @@ export function acceptableGrade(gradeAr: string): boolean {
   return /صحيح|حسن/.test(g);
 }
 
+// Defence in depth: whatever the hadith source returns, only Sahih al-Bukhari / Sahih Muslim,
+// graded sahih or hasan, with a confirmed number for each collection it claims, may be used.
+export function hadithAllowed(h: Hadith): boolean {
+  const claimed = collectionOf(h.attributionAr);
+  if (!claimed || !acceptableGrade(h.gradeAr)) return false;
+  if (!/^HE\d+$/.test(h.id) || !h.arabic.trim()) return false;
+  const { bukhari, muslim } = h.numbers;
+  if (h.collection === "bukhari") return !!bukhari && claimed !== "muslim";
+  if (h.collection === "muslim") return !!muslim && claimed !== "bukhari";
+  return !!bukhari && !!muslim;
+}
+
 // In the standard printed edition, Sahih Muslim's introduction (muqaddimah) fills the first pages
 // of volume 1 before Kitab al-Iman. Its reports are not part of the main Sahih and are skipped.
 // Conservative cut-off: anything before volume 1, page 36 counts as the introduction.

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
-import PreparedAnswer from "@/components/PreparedAnswer";
+import { AnswerV2View } from "@/components/AnswerV2View";
 import ReviewButtons from "@/components/ReviewButtons";
-import { loadPrepared } from "@/lib/prepared";
+import { loadPrepared, preparedContentHash } from "@/lib/prepared";
 import { getReviewDecisions } from "@/lib/content";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import { PREPARED_ANSWERS } from "@/data/prepared-answers";
@@ -20,6 +20,7 @@ export default async function ReviewPage({ params, searchParams }: {
   params: Promise<{ lang: string }>;
   searchParams: Promise<{ id?: string; kind?: string }>;
 }) {
+  if (process.env.BAYAN_REVIEW_ENABLED !== "true") notFound();
   const { lang } = await params;
   const { id, kind: kindParam } = await searchParams;
   const kind = kindParam === "prepared" ? "prepared" : "topic";
@@ -28,7 +29,8 @@ export default async function ReviewPage({ params, searchParams }: {
   const dict = getDictionary(lang);
   const decisions = await getReviewDecisions(kind);
   const ids = Object.keys(ALL);
-  const statusOf = (t: string) => decisions[t]?.status ?? "draft";
+  const statusOf = (t: string) => decisions[t]?.status === "approved"
+    && decisions[t]?.contentHash !== preparedContentHash(ALL[t]) ? "draft" : decisions[t]?.status ?? "draft";
   const current = id && ALL[id] ? id : ids.find((t) => statusOf(t) === "draft") ?? ids[0];
   const file = ALL[current];
   const q = (k: string, extra = "") => `/${lang}/review?kind=${kind}&id=${k}${extra}`;
@@ -76,7 +78,7 @@ export default async function ReviewPage({ params, searchParams }: {
         <strong>{current}</strong>: {statusOf(current)}
       </p>
       {answer ? (
-        <PreparedAnswer a={answer} t={dict.ask} id={0} />
+        <AnswerV2View answer={answer.v2!} t={dict.ask} id={0} draftPreview={statusOf(current) !== "approved"} />
       ) : (
         <p>This answer could not be shown: a source failed to load or a rule failed.</p>
       )}

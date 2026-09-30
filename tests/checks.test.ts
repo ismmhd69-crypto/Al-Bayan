@@ -13,8 +13,23 @@ import {
   parseDraft,
   parseQuestionFrame,
   requirementsCovered,
+  requiredSourceItemsPresent,
   type SourceText,
 } from "@/lib/ask/checks";
+
+it("requires both parts of the testimony in the sealed source for conversion guidance", () => {
+  const source = (arabic: string): SourceText => ({ id: "S11111111-1111-1111-1111-111111111111", kind: "scholar", arabic, translations: {} });
+  expect(requiredSourceItemsPresent("How do I become Muslim?", [source("لا اله الا الله")])).toBe(false);
+  expect(requiredSourceItemsPresent("How do I become Muslim?", [source("لا اله الا الله محمد رسول الله")])).toBe(true);
+  expect(requiredSourceItemsPresent("What is patience?", [])).toBe(true);
+});
+
+it("refuses why-five-prayers questions until the library has a direct reason source", () => {
+  const source = (arabic: string): SourceText => ({ id: "S11111111-1111-1111-1111-111111111111", kind: "scholar", arabic, translations: {} });
+  expect(requiredSourceItemsPresent("Why do Muslims pray five times a day?", [source("reward for the five prayers")])).toBe(false);
+  expect(requiredSourceItemsPresent("Warum beten Muslime fünfmal am Tag?", [source("reward for the five prayers")])).toBe(false);
+  expect(requiredSourceItemsPresent("What reward is there for the five prayers?", [source("reward for the five prayers")])).toBe(true);
+});
 
 const A: SourceText = {
   id: "Q9:1",
@@ -299,5 +314,62 @@ describe("verse count table", () => {
     const { VERSES_PER_SURAH } = await import("@/lib/sources/quran-meta");
     expect(VERSES_PER_SURAH.length).toBe(114);
     expect(VERSES_PER_SURAH.reduce((a, b) => a + b, 0)).toBe(6236);
+  });
+});
+
+// Design phase 3: copy detection refined only for honorific formulas, with tests on both sides.
+// All texts are made up; none is real Quran or hadith wording.
+describe("copiesSource: honorific formulas around hadith and scholar text", () => {
+  const hadith: SourceText = {
+    id: "HE1",
+    kind: "hadith",
+    arabic: "قال رسول الله صلى الله عليه وسلم إن الصبر نور يضيء طريق المؤمن في الشدة",
+    translations: {
+      en: "The Messenger of Allah (may Allah's peace and blessings be upon him) said: Patience is a light for the believer in hardship.",
+      de: "Der Gesandte Allahs (Allahs Segen und Frieden auf ihm) sagte: Geduld ist ein Licht für den Gläubigen in der Not.",
+    },
+  };
+  const asQuran: SourceText = { ...hadith, id: "Q9:3", kind: "quran" };
+
+  it("lets a reviewed safe paraphrase keep the honorific (ar, en, de), which the old check rejected", () => {
+    const safe = [
+      "علم النبي صلى الله عليه وسلم أن الصبر يعين المؤمن",
+      "The Prophet (peace and blessings be upon him) taught that patience helps believers.",
+      "Der Prophet (Allahs Segen und Frieden auf ihm) lehrte, dass Geduld den Gläubigen hilft.",
+    ];
+    for (const text of safe) {
+      expect(copiesSource(text, [hadith])).toBe(false);
+      // The same wording against a Quran source is still caught: nothing changed for the Quran.
+      expect(copiesSource(text, [asQuran])).toBe(true);
+    }
+  });
+
+  it("still catches exact hadith retyping in every language", () => {
+    expect(copiesSource("قال إن الصبر نور يضيء طريق المؤمن", [hadith])).toBe(true);
+    expect(copiesSource("He said patience is a light for the believer.", [hadith])).toBe(true);
+    expect(copiesSource("Er sagte, Geduld ist ein Licht für den Gläubigen.", [hadith])).toBe(true);
+  });
+
+  it("still catches retyping split by an inserted honorific", () => {
+    expect(copiesSource("إن الصبر صلى الله عليه وسلم نور يضيء طريق", [hadith])).toBe(true);
+    expect(copiesSource("Patience is a light, peace and blessings be upon him, for the believer in hardship.", [hadith])).toBe(true);
+    expect(copiesSource("Geduld ist ein Licht, Allahs Segen und Frieden auf ihm, für den Gläubigen.", [hadith])).toBe(true);
+  });
+
+  it("still catches lightly altered retyping", () => {
+    // One word changed (ينير for يضيء), with diacritics and the honorific kept.
+    expect(copiesSource("إنَّ الصبرَ نورٌ ينير طريق المؤمن في الشدة", [hadith])).toBe(true);
+    expect(copiesSource("Patience is truly a light for the believer in hardship.", [hadith])).toBe(true);
+  });
+
+  it("never removes honorific-like words from Quran text", () => {
+    const quran: SourceText = { id: "Q9:4", kind: "quran", arabic: "رضي الله عنهم وأعد لهم خيرا كثيرا", translations: { en: "May Allah be pleased with them and prepare much good" } };
+    expect(copiesSource("رضي الله عنهم وأعد لهم", [quran])).toBe(true);
+    expect(copiesSource("It says may Allah be pleased with them always.", [quran])).toBe(true);
+  });
+
+  it("does not treat an honorific alone as a copy of anything but the Quran", () => {
+    expect(copiesSource("صلى الله عليه وسلم", [hadith])).toBe(false);
+    expect(copiesSource("peace and blessings be upon him", [hadith])).toBe(false);
   });
 });

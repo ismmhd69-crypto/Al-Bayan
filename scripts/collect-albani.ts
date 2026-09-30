@@ -11,7 +11,9 @@
 
 import { createClient } from "@supabase/supabase-js";
 import { SCHOLAR_QUERIES } from "@/data/scholar-queries";
+import { getVerifier } from "@/lib/ai";
 import {
+  checkQuoteRelevance,
   excerpt,
   htmlToText,
   looksLikeQuestion,
@@ -88,6 +90,7 @@ async function main() {
   const key = process.env.SUPABASE_SECRET_KEY;
   if (!url || !key) throw new Error("NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SECRET_KEY must be set in .env");
   const db = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
+  const verifier = getVerifier();
 
   const seen = new Set<string>();
   let stored = 0,
@@ -140,6 +143,14 @@ async function main() {
         console.log(
           `[${topic}] skipped: ${!fatwa ? "not parsed / other speaker / title mismatch" : !quote ? "no clean excerpt" : quote.length < 200 ? "too short < 200" : "looks like question"}`
         );
+        continue;
+      }
+
+      // AI relevance check before storing
+      const relevance = await checkQuoteRelevance(verifier, fatwa.title, quote);
+      if (!relevance.answers) {
+        skipped++;
+        console.log(`[${topic}] skipped: AI relevance rejected (${relevance.reason})`);
         continue;
       }
 

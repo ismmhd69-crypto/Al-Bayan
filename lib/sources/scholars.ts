@@ -1,6 +1,6 @@
 import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import { isScholarTitleRelevant, searchQueryLevels, type ScholarQuote } from "./scholar-rules";
+import { expandScholarSearchAliases, isScholarTitleRelevant, searchQueryLevels, type ScholarQuote } from "./scholar-rules";
 
 // Reads the private scholar quote library (collected short quotes, see scripts/collect-binbaz.ts).
 // The library is not public, so this runs on the server only, with the secret key.
@@ -33,9 +33,11 @@ export async function searchScholarQuotes(phrases: string[], limit = 3): Promise
   const supabase = db();
   if (!supabase) return [];
 
+  const expandedPhrases = expandScholarSearchAliases(phrases);
+
   // Strict first, then looser phrases (see searchQueryLevels); the evidence check still judges each quote.
   let hits: { source_id: string }[] = [];
-  for (const query of searchQueryLevels(phrases)) {
+  for (const query of searchQueryLevels(expandedPhrases)) {
     const { data, error } = await supabase.rpc("search_approved_source_candidates", {
       query_text: query,
       answer_language: "ar",
@@ -62,7 +64,7 @@ export async function searchScholarQuotes(phrases: string[], limit = 3): Promise
   return ids
     .map((id) => byId.get(id))
     .filter((r): r is SourceRow => !!r && !!r.scholar_id && !!r.scholars)
-    .filter((r) => isScholarTitleRelevant(phrases, r.title))
+    .filter((r) => isScholarTitleRelevant(expandedPhrases, r.title))
     .map((r) => ({
       id: `S${r.id}`,
       scholarId: r.scholar_id!,

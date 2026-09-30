@@ -2,6 +2,13 @@
 
 Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
 
+## 2026-09-30 answer structure
+- Design phases 1 to 8 are built. Phase 4 browser acceptance passed for phone width, Arabic RTL, keyboard, accessibility structure and 400 percent equivalent reflow.
+- The prepared content-hash migration was applied to project `jnietkyxgnocyizvjiel` with Mo's approval and verified. All old approvals returned to draft.
+- Prepared inventory: 44 files, 7 pass the converter in all languages, 37 remain safely draft, and all 42 scholar excerpts verify word for word.
+- Live focused checks keep valid shown structures at 100 percent and source-only at zero. Repentance reached 3/3; completed gold runs passed. Provider 503s and timeouts still block a clean final stability run.
+- Internal review requires `BAYAN_REVIEW_ENABLED=true` plus `BAYAN_REVIEW_KEY`. Public prepared publishing defaults off. Apply `20260930150000_lock_prepared_review_writes.sql` only after Mo separately approves revoking public RPC execution, verify it, then deliberately enable prepared publishing.
+
 ## Where things live
 - Full history and handoff: `HANDOFF.md` (this folder)
 - Plan: `BAYAN_PLAN.md` (this folder)
@@ -42,6 +49,15 @@ Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
 
 - 2026-09-29 Mo's decision on the "sword" topic: **show what the approved scholars really say, including the hard parts, carefully and in full context**; never soften or add to a scholar's words. Mo checks it before it goes live.
 
+## STATUS SNAPSHOT 2026-09-29 evening (checked against git and the database)
+- **Works:** Ask in ar/en/de (full Quran via Quran Foundation production; ~2,800 HadeethEnc hadith; 778 stored scholar quotes: Ibn Baz 555, Ibn Uthaymeen 195, al-Albani 22, al-Barrak 6; live search of binbaz.org.sa and binothaimeen.net; 21,482 videos). AI = Gemini API key only (Vertex dropped). Report-a-problem button (0 reports so far).
+- **Prepared answers:** 12 Hard-questions topic answers (data/topic-answers) and 10 common-question answers (data/prepared-answers), all quotes verified word for word (`scripts/verify-quotes.ts`). Shown only after Mo approves on the public **Review** tab (`/[lang]/review`, decisions in `public.prepared_reviews`). **Approved so far: only topic "doubt".** Ask uses an approved prepared answer first (word match + checker confirms), else the live pipeline.
+- **Quality plan (Codex, docs/answer-quality-fix-plan-2026-09-29.md):** phases 1 to 4 done; phase 4 measured only partly (Gemini busy): sources-only fixed (0), repentance 2/3, zakat 2/3, three focused questions still 0/3. Phases 5 to 8 open.
+- **Also done:** Support Bayan page (Buy Me a Coffee), new logo, Netlify site working (Next.js runtime).
+- **Not pushed:** everything after 437fceb (review list for common questions, Support page, logo). Pushing only when Mo says.
+- **Uncommitted, not mine:** Gemini's quote fix batch (scholar-excerpt.ts, collectors, scholars.ts) and Codex collector/sunnah files; review before committing.
+- **Open:** Mo approves the 21 remaining answers; Gemini's next 10 prepared answers; quality phases 5 to 8; more hadith (Sunnah.com key still missing; other hadith API form sent); tafsir needs Quran Foundation written OK; al-Fawzan site broken; Permanent Committee pages not found; own paid AI account before launch; rights wording for Turkey; remove the public Review tab before launch; domain (askbayan.org looked free).
+
 ## Waiting on
 - **As of 2026-09-28 Mo has sent all requests and is waiting for replies:** Quran Foundation production (full Quran) access, permission letters to the scholar websites and HadeethEnc, Sunnah.com API key. Don't ask him to send these again; just ask whether a reply came.
 - Hadith backup research (2026-09-28): Mo wants Sahih al-Bukhari / Sahihayn. Best backup = **HadeethEnc.com** (public API `hadeethenc.com/api/v1/...`, Arabic + English + German, fields `attribution_ar` e.g. رواه البخاري and `grade_ar` e.g. صحيح; selected frequently-cited hadith only, no hadith numbers, no license stated, unnamed explanations: use text + grade only, needs written permission). Rejected: fawazahmed0/hadith-api (copied from many sites, unclear rights, no German), hadithapi.com (one person, no terms, no grades). For Bukhari/Muslim skip mu'allaq chapter-heading reports and Muslim's muqaddimah; always store the numbering system.
@@ -70,4 +86,5 @@ Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
 - 2026-09-28 Codex batch, proposed only: Permanent Committee migration and strict collector, research for six scholar sites, al-Barrak and al-Ghudayyan collectors/rights proposals, and private report-problem API/form/tests. Al-Barrak dry run found 6 safe candidates; alifta had no sitemap pages and al-Ghudayyan returned 403, with no bypass. Claude must review/apply migrations, add site allowlist entries and place translations.
 - 2026-09-28 Codex Batch 2: Sunnah.com connector prepared but off until `SUNNAH_API_KEY` exists. It uses individual Sahihayn records only and a HadeethEnc-title bridge because Sunnah.com's documented API has no text search. No storage/index/AI permission is confirmed. A second ordinary alifta attempt found no safe public individual Committee fatwa pages; no bypass used.
 - 2026-09-29 Support page added: /[lang]/support (ar/en/de), linked from More. Buy Me a Coffee, plain link only (no widget, scripts or trackers). Says clearly: not zakat, not a charity, not tax-deductible, site stays free. Link lives in one constant `lib/support.ts` (`BUY_ME_A_COFFEE_URL`); set to https://buymeacoffee.com/askbayan (2026-09-29).
+- 2026-09-30 Answer-structure implementation: live answers use validated AnswerV2 and the shared phone-first view; source-only was removed and wording failures now return no_summary with no source list. Prepared AnswerV2 conversion, exact content hashes, shared Review/topic rendering and separate live/prepared eval modes are built. Real inventory is 44 files (32 common, 12 topic); 42 scholar excerpts passed exact live verification, 5 files convert in all languages and 39 remain draft for explicit structure/wording review. Migration `20260930130000_prepared_review_hash.sql` is written but not applied without Mo's approval. Focused live 3-run checkpoint: structure 12/12, source-only 0, correct refusal 3/3, must-contain 5/12, p50/p90 18/27 seconds; final evaluation and Mo acceptance remain open.
 - 2026-09-29 New logo made in Remotion (`brand/`, own package; renders go to `brand/out/`, git-ignored; run stills with `--port=3123` because the dev server uses 3000). Star band in lapis + gold rosette, rays and thin gold star at larger sizes. Used on the site via `Beacon` in `components/Logo.tsx`, plus `app/icon.svg`, `app/apple-icon.png`, `app/opengraph-image.jpg`. `metadataBase` uses Netlify `URL`. Phone tab bar now fits any number of tabs. Mo uploads `brand/out/Avatar.png` to Buy Me a Coffee.

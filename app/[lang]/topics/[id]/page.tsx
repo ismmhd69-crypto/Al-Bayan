@@ -5,7 +5,7 @@ import { ArrowLeft, ChevronRight, Hourglass } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getReviewDecisions, getTopic, getTopicVideos } from "@/lib/content";
 import AskAboutButton from "@/components/AskAboutButton";
-import PreparedAnswer from "@/components/PreparedAnswer";
+import { AnswerV2View } from "@/components/AnswerV2View";
 import { loadPrepared } from "@/lib/prepared";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import VideoCard from "@/components/VideoCard";
@@ -34,7 +34,10 @@ export default async function TopicPage({ params }: { params: Params }) {
   // Only answers Mo approved on the local review page are shown; otherwise "preparing".
   const decisions = await getReviewDecisions("topic").catch(() => ({} as Awaited<ReturnType<typeof getReviewDecisions>>));
   const file = TOPIC_ANSWERS[id];
-  const answer = file ? await loadPrepared({ ...file, status: decisions[id]?.status ?? "draft" }, lang) : null;
+  const answer = process.env.PREPARED_PUBLISHING_ENABLED === "true" && file ? await loadPrepared({ ...file, status: decisions[id]?.status ?? "draft" }, lang, {
+    approvalHash: decisions[id]?.contentHash ?? undefined,
+    videos,
+  }) : null;
 
   return (
     <article className="page">
@@ -52,8 +55,7 @@ export default async function TopicPage({ params }: { params: Params }) {
       {/* A topic answer appears only with the same cited display as Ask (Codex review, finding 11),
           and only after Mo approved it. A plain text answer without sources must never appear. */}
       {answer ? (
-        // Article layout (mockup Option A); the topic's videos come last inside it.
-        <PreparedAnswer a={{ ...answer, videos }} t={dict.ask} id={0} />
+        <AnswerV2View answer={answer.v2!} t={dict.ask} id={0} />
       ) : (
         <div className="card card-soft">
           <Hourglass aria-hidden="true" className="card-icon" />

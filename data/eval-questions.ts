@@ -12,6 +12,11 @@ export type EvalQuestion = {
   mustContain?: { point: string; anyOf: string[] }[];
   mustNotConfuse?: { trap: string; pattern: string }[];
   focus?: boolean;
+  // Reviewed sources an answer may cite (design phase 1, "wrong source"). Only a human reviewer adds
+  // these; a question without them is reported as unreviewed, never as passing. Exact ids use the
+  // internal form ("Q2:183", "HE4196", "S<uuid>"). Classes: "quran", "quran:2", "quran:2:183-187",
+  // "hadith", "scholar", "scholar:ibn-baz".
+  acceptableSources?: { ids?: string[]; classes?: string[]; reviewedBy: string; reviewedAt: string };
 };
 
 export const EVAL_QUESTIONS: EvalQuestion[] = [
@@ -747,9 +752,9 @@ export const EVAL_QUESTIONS: EvalQuestion[] = [
     focus: true,
   },
   {
-    id: "five-prayers-why-en", lang: "en", question: "Why do Muslims pray five times a day?", expect: "answer", focus: true,
+    id: "five-prayers-why-en", lang: "en", question: "Why do Muslims pray five times a day?", expect: "refuse", focus: true,
     expectedRequestedPoints: [{ facet: "reason", text: "why five daily prayers are prescribed" }],
-    mustContain: [{ point: "addresses why five prayers are prescribed", anyOf: ["prescribed five", "five prayers were prescribed", "five daily prayers were made obligatory", "five prayers are obligatory"] }],
+    note: "Known library gap until one direct approved source explains why five daily prayers were prescribed, not only their reward.",
     mustNotConfuse: [{ trap: "reward alone used as the reason", pattern: "(?=.*reward)(?!.*(?:prescribed|obligatory|commanded|required))" }],
   },
   {

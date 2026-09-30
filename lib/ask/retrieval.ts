@@ -2,6 +2,7 @@ import type { Locale } from "@/lib/i18n";
 import type { Verse } from "@/lib/sources/quran-meta";
 import type { Hadith } from "@/lib/sources/hadith-rules";
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
+import { chooseSealedPackage, type ChooserOptions, type QuranCard } from "./package";
 
 export const QUESTION_TYPES = [
   "identity",
@@ -271,7 +272,9 @@ export type SelectedPassage = PassageForSelection & { requirementIds: string[]; 
 
 export type EvidencePackage = {
   question: Pick<QuestionFrame, "language" | "questionType" | "subjects" | "requirements" | "requiredFacets" | "qualifiers">;
-  passages: SelectedPassage[];
+  passages: SelectedPassage[]; // capped, in writer order
+  cards: QuranCard[]; // how the package's verses form Quran passage cards
+  scholarDifference?: { positions: Record<string, string[]> };
 };
 
 type Relevance = "direct" | "partial" | "context" | "mention_only" | "unrelated";
@@ -284,14 +287,18 @@ export function parseEvidencePackage(
   raw: unknown,
   frame: QuestionFrame,
   candidates: PassageForSelection[],
+  options: ChooserOptions = {},
 ): EvidencePackage | null {
   if (!raw || typeof raw !== "object") return null;
   const record = raw as Record<string, unknown>;
   if (!["ready", "insufficient", "ambiguous", "conflicting"].includes(String(record.status))) return null;
   if (!["complete", "incomplete"].includes(String(record.coverage))) return null;
-  // Status and coverage are fallible summaries. Code derives coverage from the source-by-source
-  // assessments below. A reported conflict still refuses because it can involve any candidate.
-  if (record.conflict !== "none") return null;
+  const conflictType = typeof record.conflict_type === "string" ? record.conflict_type
+    : record.conflict === "none" ? "none" : "uncertain";
+  if (!["none", "revelation_conflict", "scholar_difference", "uncertain"].includes(conflictType)) return null;
+  // Quran or hadith conflict always refuses. Only explicit scholar-position grouping may proceed,
+  // and the caller still needs a reviewed decision or an equal-view answer path.
+  if (conflictType === "revelation_conflict" || conflictType === "uncertain") return null;
   if (!Array.isArray(record.assessments) || record.assessments.length === 0) return null;
 
   // Budget models sometimes list a candidate twice or skip one. A skipped candidate is simply not
@@ -299,7 +306,7 @@ export function parseEvidencePackage(
   // context-safe, with the requirement ids they all agree on. An invented id still refuses.
   const byId = new Map(candidates.map((candidate) => [candidate.id, candidate]));
   const requirementById = new Map(frame.requirements.map((requirement) => [requirement.id, requirement]));
-  const verdicts = new Map<string, { ok: boolean; requirementIds: string[] }>();
+  const verdicts = new Map<string, { ok: boolean; requirementIds: string[]; position: string | null }>();
   for (const item of record.assessments) {
     if (!item || typeof item !== "object") return null;
     const assessment = item as Record<string, unknown>;
@@ -313,12 +320,18 @@ export function parseEvidencePackage(
     const direct = assessment.relevance === "direct";
     if (!direct && requirementIds.length > 0) return null;
     const ok = direct && assessment.context_safe === "yes" && requirementIds.length > 0;
+    const position = typeof assessment.position === "string" && /^[a-z][a-z0-9-]{0,39}$/.test(assessment.position)
+      ? assessment.position : null;
+    const candidate = byId.get(assessment.source_id)!;
+    if (position && candidate.source.kind !== "scholar") return null;
+    if (conflictType === "scholar_difference" && ok && candidate.source.kind === "scholar" && !position) return null;
     const before = verdicts.get(assessment.source_id);
     verdicts.set(
       assessment.source_id,
       before
-        ? { ok: before.ok && ok, requirementIds: before.requirementIds.filter((id) => requirementIds.includes(id)) }
-        : { ok, requirementIds },
+        ? { ok: before.ok && ok, requirementIds: before.requirementIds.filter((id) => requirementIds.includes(id)),
+            position: before.position === position ? position : null }
+        : { ok, requirementIds, position },
     );
   }
   const direct: SelectedPassage[] = candidates
@@ -336,39 +349,25 @@ export function parseEvidencePackage(
     });
   if (direct.length === 0) return null;
 
-  // Build a bounded package without throwing away a valid large set. Cover every requirement first,
-  // then retain direct scholar evidence, then fill the remaining places in retrieval order.
-  const selected: SelectedPassage[] = [];
-  const selectedIds = new Set<string>();
-  const add = (passage: SelectedPassage) => {
-    if (selected.length >= 8 || selectedIds.has(passage.id)) return;
-    selected.push(passage);
-    selectedIds.add(passage.id);
-  };
-  const requiredIds = frame.requirements.map((requirement) => requirement.id);
-  let minimumCover: SelectedPassage[] | null = null;
-  const findCover = (start: number, wanted: number, picked: SelectedPassage[]) => {
-    if (minimumCover) return;
-    if (picked.length === wanted) {
-      const covered = new Set(picked.flatMap((passage) => passage.requirementIds));
-      if (requiredIds.every((id) => covered.has(id))) minimumCover = [...picked];
-      return;
-    }
-    for (let index = start; index <= direct.length - (wanted - picked.length); index += 1) {
-      picked.push(direct[index]);
-      findCover(index + 1, wanted, picked);
-      picked.pop();
-      if (minimumCover) return;
-    }
-  };
-  for (let size = 1; size <= Math.min(8, direct.length) && !minimumCover; size += 1) findCover(0, size, []);
-  const cover = minimumCover as SelectedPassage[] | null;
-  if (!cover) return null;
-  for (const passage of cover) add(passage);
-  for (const passage of direct) if (passage.source.kind === "scholar") add(passage);
-  for (const passage of direct) add(passage);
+  // Code builds the capped package before drafting (lib/ask/package.ts): cover every requested
+  // point first, then fill by the fixed ranking within 3 Quran cards, 2 hadith and 2 scholar quotes.
+  const chosen = chooseSealedPackage(direct, frame.requirements.map((requirement) => requirement.id), options);
+  if (!chosen) return null;
+  const selected = chosen.passages;
   if (!frame.requirements.every((requirement) => selected.some((passage) => passage.requirementIds.includes(requirement.id)))) return null;
 
+  let scholarDifference: EvidencePackage["scholarDifference"];
+  if (conflictType === "scholar_difference") {
+    const positions: Record<string, string[]> = {};
+    for (const passage of selected) {
+      if (passage.source.kind !== "scholar") continue;
+      const position = verdicts.get(passage.id)?.position;
+      if (!position) return null;
+      (positions[position] ??= []).push(passage.id);
+    }
+    if (Object.keys(positions).length < 2) return null;
+    scholarDifference = { positions };
+  }
   return {
     question: {
       language: frame.language,
@@ -379,5 +378,7 @@ export function parseEvidencePackage(
       qualifiers: frame.qualifiers,
     },
     passages: selected,
+    cards: chosen.cards,
+    ...(scholarDifference ? { scholarDifference } : {}),
   };
 }

@@ -13,9 +13,11 @@ const REASONS = ["wrong_source", "misquoted", "not_answering", "unclear", "offen
 // Lets a visitor flag an answer. Privacy (plan section 10): only the reason, the cited source ids and
 // an optional comment are sent, never the question or anything about the visitor.
 // A fold-out form under the answer (built by Codex, laid out by Claude).
-export function ReportProblem({ lang, sourceIds, labels }: { lang: "ar" | "en" | "de"; sourceIds: string[]; labels: ReportLabels }) {
+export function ReportProblem({ lang, sourceIds, labels, defaultReason = "wrong_source" }: {
+  lang: "ar" | "en" | "de"; sourceIds: string[]; labels: ReportLabels; defaultReason?: (typeof REASONS)[number];
+}) {
   const [open, setOpen] = useState(false);
-  const [reason, setReason] = useState<(typeof REASONS)[number]>("wrong_source");
+  const [reason, setReason] = useState<(typeof REASONS)[number]>(defaultReason);
   const [comment, setComment] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const formId = useId();

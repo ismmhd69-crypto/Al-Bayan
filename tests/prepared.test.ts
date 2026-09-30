@@ -7,7 +7,7 @@ const getVerse = vi.fn(async (key: string) => (key === "51:56" ? verse : undefin
 vi.mock("@/lib/sources/quran", () => ({ getVerse, ATTRIBUTION: { text: "Quran data provided by Quran Foundation", url: "https://quran.foundation" } }));
 vi.mock("@/lib/sources/hadith", () => ({ getHadith: vi.fn(async () => null), HADITH_ATTRIBUTION: { text: "h", url: "https://hadeethenc.com" } }));
 vi.mock("@/lib/content", () => ({ getScholarNames: vi.fn(async () => ({ "ibn-baz": { ar: "ابن باز", en: "Shaykh Ibn Baz", de: "Scheich Ibn Baz" } })) }));
-const { loadPrepared } = await import("@/lib/prepared");
+const { loadPrepared, preparedContentHash } = await import("@/lib/prepared");
 
 const answers = (ids: string[]) => ({
   direct_answer: [{ text: "People were created to worship Allah alone.", source_ids: ids }],
@@ -29,10 +29,22 @@ describe("loadPrepared", () => {
   });
 
   it("fetches the verse live and shows it like a live answer", async () => {
-    const a = await loadPrepared(file("approved"), "en");
+    const approved = file("approved");
+    const a = await loadPrepared(approved, "en", { approvalHash: preparedContentHash(approved) });
     expect(getVerse).toHaveBeenCalledWith("51:56");
     expect(a?.direct_answer[0].source_ids).toEqual(["51:56"]);
     expect(a?.evidence[0]).toMatchObject({ kind: "quran", key: "51:56", translation: verse.translations.en });
+    expect(a?.v2?.origin).toBe("prepared");
+    expect(a?.v2?.quran[0].verses[0].arabic).toBe(verse.arabic);
+  });
+
+  it("invalidates an approval after any reader-visible content change", async () => {
+    const approved = file("approved");
+    const hash = preparedContentHash(approved);
+    const changed = structuredClone(approved);
+    changed.answers.en.direct_answer[0].text = "People have a changed explanation about worship.";
+    expect(await loadPrepared(changed, "en", { approvalHash: hash })).toBeNull();
+    expect(await loadPrepared(changed, "en", { allowDraft: true })).not.toBeNull();
   });
 
   it("fails closed when a cited source is unknown, missing or rejected", async () => {
@@ -52,7 +64,7 @@ describe("loadPrepared scholar quotes", () => {
     const ok = { status: "approved" as const,
       sources: [{ id, kind: "scholar" as const, scholar_id: "ibn-baz", reference: "binbaz.org.sa, fatwa 1", arabic: "نص قصير من كلام الشيخ.", url: "https://binbaz.org.sa/fatwas/1/x" }],
       answers: { ar: answers([id]), en: answers([id]), de: answers([id]) } };
-    const a = await loadPrepared(ok, "en");
+    const a = await loadPrepared(ok, "en", { approvalHash: preparedContentHash(ok) });
     expect(a?.evidence[0]).toMatchObject({ kind: "scholar", scholarName: "Shaykh Ibn Baz" });
   });
 });

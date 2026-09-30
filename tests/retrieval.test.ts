@@ -219,6 +219,23 @@ describe("structured retrieval", () => {
     }, frame, candidates)).toBeNull();
   });
 
+  it("separates revelation conflict from a checked scholar difference without choosing a winner", () => {
+    expect(parseEvidencePackage({
+      status: "conflicting", coverage: "complete", conflict_type: "revelation_conflict", assessments: [],
+    }, frame, candidates)).toBeNull();
+    const scholars = ["a", "b"].map((name, index): PassageForSelection => ({
+      id: `S${String(index + 1).repeat(8)}-${String(index + 1).repeat(4)}-4${String(index + 1).repeat(3)}-a${String(index + 1).repeat(3)}-${String(index + 1).repeat(12)}`,
+      source: { kind: "scholar", quote: { id: "", scholarId: name, scholarName: { ar: name, en: name, de: name },
+        title: name, reference: name, arabic: name, url: `https://example.test/${name}` } }, context: [],
+    }));
+    const assessments = scholars.map((candidate, index) => ({ source_id: candidate.id, relevance: "direct",
+      supported_requirement_ids: ["R1", "R2"], context_safe: "yes", position: `position-${index + 1}` }));
+    const result = parseEvidencePackage({ status: "conflicting", coverage: "complete", conflict_type: "scholar_difference", assessments }, frame, scholars);
+    expect(result?.scholarDifference?.positions).toEqual({ "position-1": [scholars[0].id], "position-2": [scholars[1].id] });
+    expect(parseEvidencePackage({ status: "conflicting", coverage: "complete", conflict_type: "scholar_difference",
+      assessments: assessments.map((item) => ({ ...item, position: "same-position" })) }, frame, scholars)).toBeNull();
+  });
+
   it("safely reduces more than eight direct passages without losing requested-point coverage", () => {
     const many = Array.from({ length: 10 }, (_, index): PassageForSelection => ({
       id: `Q9:${index + 1}`,

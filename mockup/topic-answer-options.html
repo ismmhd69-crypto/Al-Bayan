@@ -1,0 +1,2251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Al-Bayan — Topic Answer Presentation Options (Mockup)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Reem+Kufi:wght@500;600;700&display=swap">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f6f7f9;
+    --bg-2: #eef1f5;
+    --surface: #ffffff;
+    --surface-2: #f8f9fb;
+    --line: #e3e7ed;
+    --line-2: #ced5df;
+    --ink: #141b26;
+    --ink-2: #465163;
+    --ink-3: #5b6475;
+    --accent: #27408b;
+    --accent-hover: #1e3270;
+    --accent-soft: #edf1fa;
+    --accent-line: #d3dcf0;
+    --on-accent: #ffffff;
+    --gold: #a77b2b;
+    --gold-soft: #f8f2e5;
+    --gold-line: #eadbb9;
+    --gold-ink: #7a5716;
+    --radius: 12px;
+    --shadow-sm: 0 1px 2px rgba(20, 27, 38, 0.05);
+    --shadow: 0 1px 2px rgba(20, 27, 38, 0.04), 0 10px 28px -14px rgba(20, 27, 38, 0.16);
+    --shadow-lg: 0 16px 40px -16px rgba(20, 27, 38, 0.22);
+    --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+    --f-body: "Hanken Grotesk", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --f-ar-display: "Reem Kufi", "Geeza Pro", "Segoe UI", sans-serif;
+    --f-ar-body: "Amiri", "Geeza Pro", "Segoe UI", serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--f-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    margin: 0;
+    color: var(--ink);
+  }
+
+  p { margin: 0; }
+  ul, ol { margin: 0; padding: 0; list-style: none; }
+  a { color: inherit; text-decoration: none; }
+  button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+
+  /* Studio Control Bar */
+  .studio-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: color-mix(in srgb, var(--surface) 92%, transparent);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 20px;
+    box-shadow: var(--shadow-sm);
+  }
+  .studio-bar-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+  }
+  .studio-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .studio-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .studio-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 6px;
+    background: var(--gold-soft);
+    color: var(--gold-ink);
+    border: 1px solid var(--gold-line);
+    text-transform: uppercase;
+  }
+  .studio-controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .control-group {
+    display: inline-flex;
+    padding: 3px;
+    background: var(--bg-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+  .control-btn {
+    padding: 6px 14px;
+    font-size: 0.825rem;
+    font-weight: 600;
+    border-radius: 8px;
+    color: var(--ink-2);
+    transition: all 0.15s ease;
+  }
+  .control-btn.active {
+    background: var(--surface);
+    color: var(--accent);
+    box-shadow: var(--shadow-sm);
+  }
+  .jump-nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.825rem;
+  }
+  .jump-link {
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--ink-2);
+    font-weight: 600;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .jump-link:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* Main presentation container */
+  .wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    display: grid;
+    gap: 56px;
+  }
+
+  /* Intro Banner */
+  .intro-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px 32px;
+    box-shadow: var(--shadow-sm);
+    display: grid;
+    gap: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+  .intro-card::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block: 0;
+    width: 4px;
+    background: linear-gradient(to bottom, var(--accent), var(--gold));
+  }
+  .intro-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .intro-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-ink);
+  }
+  .intro-card h1 {
+    font-size: clamp(1.6rem, 3vw, 2.25rem);
+    color: var(--ink);
+  }
+  .intro-desc {
+    color: var(--ink-2);
+    font-size: 0.95rem;
+    max-width: 900px;
+    line-height: 1.6;
+  }
+
+  /* Option Section Wrapper */
+  .option-section {
+    scroll-margin-top: 88px;
+    display: grid;
+    gap: 20px;
+  }
+  .option-meta-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 24px;
+    display: grid;
+    gap: 14px;
+    box-shadow: var(--shadow-sm);
+  }
+  .option-header-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .option-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-line);
+    padding: 4px 12px;
+    border-radius: 999px;
+  }
+  .option-tag-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.75rem;
+  }
+  .option-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .pros-cons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+  }
+  .pro-box, .con-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  .pro-badge, .con-badge {
+    flex-shrink: 0;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 6px;
+    margin-top: 2px;
+  }
+  .pro-badge {
+    background: #e8f5e9;
+    color: #1b5e20;
+    border: 1px solid #c8e6c9;
+  }
+  .con-badge {
+    background: #fff3e0;
+    color: #b75306;
+    border: 1px solid #ffe0b2;
+  }
+
+  /* Dual View Layout (Phone + Desktop) */
+  .views-dual {
+    display: grid;
+    grid-template-columns: 390px minmax(0, 1fr);
+    gap: 28px;
+    align-items: start;
+  }
+  @media (max-width: 1040px) {
+    .views-dual {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* View Containers */
+  .view-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .view-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* Phone Mockup Frame */
+  .phone-frame {
+    width: 390px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 40px;
+    background: #ffffff;
+    border: 10px solid #1e2633;
+    box-shadow: var(--shadow-lg), 0 0 0 1px rgba(0,0,0,0.06);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 780px;
+    max-height: 860px;
+  }
+  .phone-notch {
+    height: 28px;
+    background: #1e2633;
+    width: 140px;
+    margin: 0 auto;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 60;
+  }
+  .phone-screen {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px 14px 40px;
+    background: var(--bg);
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-2) transparent;
+  }
+
+  /* Desktop Mockup Frame */
+  .desktop-frame {
+    border-radius: 16px;
+    background: var(--surface);
+    border: 1px solid var(--line-2);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 780px;
+  }
+  .desktop-window-bar {
+    height: 38px;
+    background: var(--bg-2);
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap: 8px;
+  }
+  .window-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+  }
+  .dot-red { background: #ef5350; }
+  .dot-yellow { background: #ffca28; }
+  .dot-green { background: #66bb6a; }
+  .desktop-address {
+    margin-left: 16px;
+    flex: 1;
+    max-width: 440px;
+    height: 24px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font-size: 0.72rem;
+    color: var(--ink-3);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .desktop-screen {
+    flex: 1;
+    padding: 40px 48px;
+    background: var(--bg);
+    overflow-y: auto;
+  }
+
+  /* Common Bayan UI Elements */
+  .bayan-page {
+    max-width: 740px;
+    margin: 0 auto;
+    display: grid;
+    gap: 22px;
+  }
+  .bayan-breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .bayan-title-block {
+    display: grid;
+    gap: 6px;
+  }
+  .bayan-category {
+    font-size: 0.725rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-ink);
+  }
+  .bayan-title {
+    font-size: clamp(1.5rem, 2.5vw, 1.95rem);
+    color: var(--ink);
+  }
+  .bayan-question {
+    font-size: 1.05rem;
+    color: var(--ink-2);
+    line-height: 1.5;
+  }
+  .bayan-badge-prepared {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: var(--gold-ink);
+    background: var(--gold-soft);
+    border: 1px solid var(--gold-line);
+    padding: 4px 10px;
+    border-radius: 6px;
+    align-self: start;
+    width: fit-content;
+  }
+
+  /* Source Chips (Strict requirement: every sentence has its chip) */
+  .ref-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    margin-inline-start: 4px;
+    padding: 1px 7px;
+    border-radius: 6px;
+    background: var(--gold-soft);
+    border: 1px solid var(--gold-line);
+    color: var(--gold-ink);
+    font-family: var(--f-body);
+    font-size: 0.725rem;
+    font-weight: 700;
+    line-height: 1.5;
+    vertical-align: 1px;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .ref-chip:hover {
+    background: var(--gold);
+    color: #ffffff;
+    border-color: var(--gold);
+  }
+  .ref-chip svg {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Footnote & Disclaimer */
+  .bayan-foot {
+    border-top: 1px solid var(--line);
+    padding-top: 14px;
+    font-size: 0.75rem;
+    color: var(--ink-3);
+    line-height: 1.5;
+    display: grid;
+    gap: 4px;
+  }
+  .not-fatwa-tag {
+    font-weight: 700;
+    color: var(--gold-ink);
+  }
+
+  /* Boundary / Limit aside note */
+  .limit-card {
+    background: var(--surface-2);
+    border: 1px dashed var(--line-2);
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 0.825rem;
+    color: var(--ink-3);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .limit-card svg {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    color: var(--gold);
+    margin-top: 2px;
+  }
+
+  /* Primary Sources List Cards */
+  .sources-card-list {
+    display: grid;
+    gap: 10px;
+  }
+  .source-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: grid;
+    gap: 8px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .source-card:hover {
+    border-color: var(--accent-line);
+    box-shadow: var(--shadow-sm);
+  }
+  .source-card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .source-card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--accent);
+  }
+  .source-card-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 5px;
+    background: var(--bg-2);
+    color: var(--ink-2);
+  }
+  .source-placeholder-box {
+    background: var(--surface-2);
+    border: 1px dashed var(--line-2);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-family: var(--f-body);
+    font-size: 0.85rem;
+    color: var(--ink-3);
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .source-quote-text {
+    font-family: var(--f-ar-body);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--ink);
+    direction: rtl;
+    text-align: right;
+    background: var(--surface-2);
+    border-right: 3px solid var(--gold);
+    padding: 8px 14px;
+    border-radius: 4px;
+  }
+  .source-link-out {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  /* ---------------------------------------------------- */
+  /* OPTION A: "ARTICLE" STYLE SPECIFICS                  */
+  /* ---------------------------------------------------- */
+  .opt-a-header-art {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(135deg, #1b2e63 0%, #27408b 60%, #3553ad 100%);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .opt-a-summary-box {
+    background: linear-gradient(to bottom, #ffffff, #fdfbf7);
+    border: 1px solid var(--gold-line);
+    border-left: 4px solid var(--gold);
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 14px -6px rgba(167, 123, 43, 0.15);
+    display: grid;
+    gap: 8px;
+  }
+  .opt-a-summary-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-ink);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .opt-a-summary-text {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  .opt-a-article {
+    display: grid;
+    gap: 16px;
+    margin-top: 4px;
+  }
+  .opt-a-section {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: grid;
+    gap: 8px;
+  }
+  .opt-a-heading {
+    font-family: var(--f-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .opt-a-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--ink);
+  }
+
+  /* ---------------------------------------------------- */
+  /* OPTION B: "STEP BY STEP" STYLE SPECIFICS             */
+  /* ---------------------------------------------------- */
+  .opt-b-steps {
+    display: grid;
+    gap: 14px;
+  }
+  .opt-b-step-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.15s, border-color 0.15s;
+  }
+  .opt-b-step-num {
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid var(--accent-line);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  .opt-b-step-content {
+    flex: 1;
+    display: grid;
+    gap: 6px;
+  }
+  .opt-b-step-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .opt-b-step-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 5px;
+    background: var(--bg-2);
+    color: var(--ink-3);
+    text-transform: uppercase;
+  }
+  .opt-b-step-body {
+    font-size: 0.925rem;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  .opt-b-source-ledger {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    display: grid;
+    gap: 10px;
+  }
+  .opt-b-ledger-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-ink);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .opt-b-ledger-list {
+    display: grid;
+    gap: 8px;
+  }
+  .opt-b-ledger-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: var(--surface-2);
+    font-size: 0.8rem;
+  }
+
+  /* ---------------------------------------------------- */
+  /* OPTION C: "SUMMARY + PROOFS" STYLE SPECIFICS         */
+  /* ---------------------------------------------------- */
+  .opt-c-conclusion-card {
+    background: linear-gradient(135deg, #fbf8f2 0%, #ffffff 100%);
+    border: 2px solid var(--gold-line);
+    border-radius: 16px;
+    padding: 22px 24px;
+    box-shadow: 0 6px 20px -8px rgba(167, 123, 43, 0.2);
+    display: grid;
+    gap: 10px;
+    position: relative;
+  }
+  .opt-c-conclusion-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-ink);
+  }
+  .opt-c-conclusion-main {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  .opt-c-tabs-nav {
+    display: flex;
+    gap: 6px;
+    border-bottom: 2px solid var(--line);
+    padding-bottom: 2px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .opt-c-tab-btn {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink-3);
+    border-radius: 8px 8px 0 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+  .opt-c-tab-btn.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+    background: var(--surface);
+  }
+  .opt-c-tab-btn svg {
+    width: 15px;
+    height: 15px;
+  }
+  .opt-c-tab-count {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 999px;
+    background: var(--bg-2);
+    color: var(--ink-2);
+  }
+  .opt-c-tab-btn.active .opt-c-tab-count {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .opt-c-tab-content {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 20px;
+    display: grid;
+    gap: 12px;
+  }
+
+  /* Accordion Mode (for mobile or toggle) */
+  .opt-c-accordion {
+    display: grid;
+    gap: 8px;
+  }
+  .opt-c-acc-item {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .opt-c-acc-summary {
+    padding: 12px 16px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: var(--surface);
+  }
+  .opt-c-acc-summary:hover {
+    background: var(--surface-2);
+  }
+  .opt-c-acc-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent);
+  }
+  .opt-c-acc-body {
+    padding: 14px 16px;
+    border-top: 1px solid var(--line);
+    background: var(--bg);
+    display: grid;
+    gap: 10px;
+  }
+
+  /* Video Proof Card */
+  .video-proof-box {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px;
+    background: var(--surface);
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+  .video-thumb-sim {
+    width: 100px;
+    height: 56px;
+    border-radius: 6px;
+    background: #18223a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .video-info {
+    display: grid;
+    gap: 4px;
+  }
+  .video-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .video-channel {
+    font-size: 0.75rem;
+    color: var(--ink-3);
+  }
+
+  /* Arabic RTL Preview Container */
+  .arabic-box {
+    direction: rtl;
+    text-align: right;
+    font-family: var(--f-ar-body);
+  }
+  .arabic-box h1, .arabic-box h2, .arabic-box h3, .arabic-box .bayan-title {
+    font-family: var(--f-ar-display);
+    letter-spacing: 0;
+  }
+  .arabic-box .ref-chip {
+    font-family: var(--f-ar-body);
+    font-size: 0.8rem;
+    vertical-align: middle;
+  }
+
+  /* View Mode Switcher States */
+  body[data-view="desktop"] .views-dual {
+    grid-template-columns: 1fr;
+  }
+  body[data-view="desktop"] .view-phone-col {
+    display: none;
+  }
+  body[data-view="phone"] .views-dual {
+    grid-template-columns: 1fr;
+  }
+  body[data-view="phone"] .view-desktop-col {
+    display: none;
+  }
+</style>
+</head>
+<body data-view="both">
+
+<!-- Studio Header Navigation Bar -->
+<header class="studio-bar">
+  <div class="studio-bar-inner">
+    <div class="studio-brand">
+      <!-- Islamic Star Rosette SVG -->
+      <svg width="28" height="28" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+        <rect x="10" y="10" width="24" height="24" rx="2" stroke="#27408b" stroke-width="2.2" fill="#edf1fa"/>
+        <rect x="10" y="10" width="24" height="24" rx="2" stroke="#a77b2b" stroke-width="2.2" fill="#f8f2e5" transform="rotate(45 22 22)"/>
+        <circle cx="22" cy="22" r="5" fill="#27408b"/>
+        <circle cx="22" cy="22" r="2.5" fill="#f8f2e5"/>
+      </svg>
+      <div class="studio-title">
+        <span>Al-Bayan Mockup Studio</span>
+        <span class="studio-badge">Hard Questions UI</span>
+      </div>
+    </div>
+
+    <!-- Quick Navigation Jumps -->
+    <div class="jump-nav">
+      <a href="#option-a" class="jump-link">Option A: Article</a>
+      <a href="#option-b" class="jump-link">Option B: Step by Step</a>
+      <a href="#option-c" class="jump-link">Option C: Summary + Proofs</a>
+      <a href="#arabic-preview" class="jump-link" style="color:var(--gold-ink);border-color:var(--gold-line);">العربية (RTL)</a>
+    </div>
+
+    <!-- Interactive View Mode Controls -->
+    <div class="studio-controls">
+      <div class="control-group" role="group" aria-label="Viewport Switcher">
+        <button type="button" class="control-btn active" id="btn-both" onclick="setView('both')">Side-by-Side</button>
+        <button type="button" class="control-btn" id="btn-phone" onclick="setView('phone')">Phone Only</button>
+        <button type="button" class="control-btn" id="btn-desktop" onclick="setView('desktop')">Desktop Only</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- Overview Intro Card -->
+  <section class="intro-card">
+    <div class="intro-header">
+      <span class="intro-eyebrow">Design Options Evaluation — Prepared Answers</span>
+      <span class="bayan-badge-prepared">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Topic: doubt.json (Approved)
+      </span>
+    </div>
+    <h1>3 Presentation Options for Hard Questions</h1>
+    <p class="intro-desc">
+      Each design option uses the real approved content for <strong>"I have doubts. Does that make me a bad Muslim?"</strong>.
+      Every claim maintains its authentic source chip, the clear <em>"Not a fatwa"</em> status note, and 100% non-figurative Islamic geometric art.
+      Compare each option across phone width (390px) and desktop width side-by-side.
+    </p>
+  </section>
+
+
+  <!-- ================================================================= -->
+  <!-- OPTION A: "ARTICLE" STYLE                                         -->
+  <!-- ================================================================= -->
+  <section id="option-a" class="option-section">
+    <div class="option-meta-card">
+      <div class="option-header-row">
+        <div>
+          <span class="option-tag"><span class="option-tag-num">A</span> Option A</span>
+          <h2 class="option-title">"Article" Style</h2>
+        </div>
+        <span style="font-size:0.85rem;color:var(--ink-3);">Highlighted summary box • Editorial sections • Source cards at end</span>
+      </div>
+      <div class="pros-cons-grid">
+        <div class="pro-box">
+          <span class="pro-badge">Pros</span>
+          <span>Familiar, peaceful editorial reading flow that invites deep contemplation and reassurance for anxious questioners.</span>
+        </div>
+        <div class="con-box">
+          <span class="con-badge">Cons</span>
+          <span>Requires longer scrolling down the page before reaching full primary text evidence cards at the bottom.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="views-dual">
+      <!-- Phone View Column -->
+      <div class="view-wrapper view-phone-col">
+        <div class="view-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+          Phone View (390px)
+        </div>
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="bayan-page">
+              <span class="bayan-breadcrumb">← Hard questions</span>
+
+              <div class="bayan-title-block">
+                <span class="bayan-category">Hard questions</span>
+                <h3 class="bayan-title">Doubt and faith</h3>
+                <p class="bayan-question">I have doubts. Does that make me a bad Muslim?</p>
+              </div>
+
+              <span class="bayan-badge-prepared">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Prepared answer, researched from the sources and reviewed by Bayan
+              </span>
+
+              <!-- Highlighted Summary Box -->
+              <div class="opt-a-summary-box">
+                <span class="opt-a-summary-title">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  Short Answer
+                </span>
+                <p class="opt-a-summary-text">
+                  If your doubts are intrusive thoughts that you dislike and do not accept, their occurrence alone does not show that you are a bad Muslim; the hadith says that Companions had thoughts they found overwhelming and calls that clear faith.
+                  <a href="#opt-a-m132" class="ref-chip">Sahih Muslim 132</a>
+                </p>
+                <p class="opt-a-summary-text" style="margin-top:6px;">
+                  Settled doubt about the religion is not the situation described by that hadith, and the Quran describes sincere believers as those who leave doubt behind.
+                  <a href="#opt-a-q49" class="ref-chip">Quran 49:15</a>
+                </p>
+              </div>
+
+              <!-- Editorial Article Sections -->
+              <div class="opt-a-article">
+                <section class="opt-a-section">
+                  <h4 class="opt-a-heading">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    Unwanted thoughts
+                  </h4>
+                  <p class="opt-a-text">
+                    Some Companions came to the Prophet and said that they found thoughts within themselves that they considered too grave to speak about.
+                    <a href="#opt-a-m132" class="ref-chip">Sahih Muslim 132</a>
+                    When they confirmed this, the Prophet told them that it was clear faith.
+                    <a href="#opt-a-m132" class="ref-chip">Sahih Muslim 132</a>
+                  </p>
+                </section>
+
+                <section class="opt-a-section">
+                  <h4 class="opt-a-heading">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Settled doubt
+                  </h4>
+                  <p class="opt-a-text">
+                    The Quran describes sincere believers as those who believe in Allah and His Messenger and then leave doubt behind.
+                    <a href="#opt-a-q49" class="ref-chip">Quran 49:15</a>
+                    The Quran therefore speaks about leaving doubt, while the hadith speaks about thoughts that the Companions disliked and would not voice.
+                    <a href="#opt-a-q49" class="ref-chip">Quran 49:15</a>
+                    <a href="#opt-a-m132" class="ref-chip">Sahih Muslim 132</a>
+                  </p>
+                </section>
+
+                <section class="opt-a-section">
+                  <h4 class="opt-a-heading">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    What to do with a whisper
+                  </h4>
+                  <p class="opt-a-text">
+                    Shaykh Ibn Baz explained that these whispers are part of Satan’s call to doubt and directed the person who experiences them to say, ‘I believe in Allah and His messengers,’ and seek refuge with Allah from Satan.
+                    <a href="#opt-a-baz" class="ref-chip">Ibn Baz, fatwa 18107</a>
+                    The same source says that a person who experiences this kind of whisper should seek refuge with Allah and stop engaging with it.
+                    <a href="#opt-a-baz" class="ref-chip">Ibn Baz, fatwa 18107</a>
+                  </p>
+                </section>
+
+                <div class="limit-card">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  <span><strong>Scholarly limit:</strong> These sources do not classify every kind of intellectual doubt, and they are not enough to diagnose one particular person without knowing what their doubt is.</span>
+                </div>
+              </div>
+
+              <!-- Sources as Elegant Cards at the End -->
+              <div class="sources-card-list" style="margin-top:10px;">
+                <span class="intro-eyebrow">Sources & Proofs</span>
+
+                <div class="source-card" id="opt-a-q49">
+                  <div class="source-card-head">
+                    <span class="source-card-title">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                      Quran 49:15
+                    </span>
+                    <span class="source-card-badge">Quran Foundation API</span>
+                  </div>
+                  <div class="source-placeholder-box">
+                    [Quran 49:15 shown here]
+                  </div>
+                  <a href="https://quran.com/49/15" target="_blank" rel="noopener" class="source-link-out">View official verse ↗</a>
+                </div>
+
+                <div class="source-card" id="opt-a-m132">
+                  <div class="source-card-head">
+                    <span class="source-card-title">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                      Sahih Muslim 132
+                    </span>
+                    <span class="source-card-badge">Sahih · HadeethEnc</span>
+                  </div>
+                  <div class="source-placeholder-box">
+                    [Sahih Muslim 132 shown here]
+                  </div>
+                  <a href="https://hadeethenc.com/en/browse/hadith/65011" target="_blank" rel="noopener" class="source-link-out">View authenticated record ↗</a>
+                </div>
+
+                <div class="source-card" id="opt-a-baz">
+                  <div class="source-card-head">
+                    <span class="source-card-title">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                      Shaykh Ibn Baz (Fatwa 18107)
+                    </span>
+                    <span class="source-card-badge">Official Archive</span>
+                  </div>
+                  <div class="source-quote-text">
+                    "الواجب على المؤمن والمؤمنة إذا وجدا شيئًا من هذه الأمور أن يقول الواحد منهم: آمنت بالله ورسله، أعوذ بالله من الشيطان الرجيم..."
+                  </div>
+                  <a href="https://binbaz.org.sa/fatwas/18107" target="_blank" rel="noopener" class="source-link-out">binbaz.org.sa ↗</a>
+                </div>
+              </div>
+
+              <div class="bayan-foot">
+                <span>Prepared answer, researched from authentic sources and reviewed by Bayan.</span>
+                <span class="not-fatwa-tag">Not a fatwa.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop View Column -->
+      <div class="view-wrapper view-desktop-col">
+        <div class="view-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          Desktop View
+        </div>
+        <div class="desktop-frame">
+          <div class="desktop-window-bar">
+            <span class="window-dot dot-red"></span>
+            <span class="window-dot dot-yellow"></span>
+            <span class="window-dot dot-green"></span>
+            <div class="desktop-address">https://askbayan.org/en/topics/doubt</div>
+          </div>
+          <div class="desktop-screen">
+            <div class="bayan-page">
+              <span class="bayan-breadcrumb">← Back to Hard questions</span>
+
+              <div class="bayan-title-block">
+                <span class="bayan-category">Hard questions</span>
+                <h2 class="bayan-title" style="font-size:2.25rem;">Doubt and faith</h2>
+                <p class="bayan-question" style="font-size:1.2rem;">I have doubts. Does that make me a bad Muslim?</p>
+              </div>
+
+              <span class="bayan-badge-prepared">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Prepared answer, researched from the sources and reviewed by Bayan
+              </span>
+
+              <!-- Highlighted Summary Box -->
+              <div class="opt-a-summary-box" style="padding:24px 28px;">
+                <span class="opt-a-summary-title">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  Short Answer
+                </span>
+                <p class="opt-a-summary-text" style="font-size:1.0625rem;">
+                  If your doubts are intrusive thoughts that you dislike and do not accept, their occurrence alone does not show that you are a bad Muslim; the hadith says that Companions had thoughts they found overwhelming and calls that clear faith.
+                  <a href="#opt-a-desk-m132" class="ref-chip">Sahih Muslim 132</a>
+                </p>
+                <p class="opt-a-summary-text" style="font-size:1.0625rem; margin-top:8px;">
+                  Settled doubt about the religion is not the situation described by that hadith, and the Quran describes sincere believers as those who leave doubt behind.
+                  <a href="#opt-a-desk-q49" class="ref-chip">Quran 49:15</a>
+                </p>
+              </div>
+
+              <!-- Editorial Sections -->
+              <div class="opt-a-article">
+                <section class="opt-a-section" style="padding:22px 26px;">
+                  <h3 class="opt-a-heading" style="font-size:1.3rem;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    Unwanted thoughts
+                  </h3>
+                  <p class="opt-a-text" style="font-size:1.025rem;">
+                    Some Companions came to the Prophet and said that they found thoughts within themselves that they considered too grave to speak about.
+                    <a href="#opt-a-desk-m132" class="ref-chip">Sahih Muslim 132</a>
+                    When they confirmed this, the Prophet told them that it was clear faith.
+                    <a href="#opt-a-desk-m132" class="ref-chip">Sahih Muslim 132</a>
+                  </p>
+                </section>
+
+                <section class="opt-a-section" style="padding:22px 26px;">
+                  <h3 class="opt-a-heading" style="font-size:1.3rem;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Settled doubt
+                  </h3>
+                  <p class="opt-a-text" style="font-size:1.025rem;">
+                    The Quran describes sincere believers as those who believe in Allah and His Messenger and then leave doubt behind.
+                    <a href="#opt-a-desk-q49" class="ref-chip">Quran 49:15</a>
+                    The Quran therefore speaks about leaving doubt, while the hadith speaks about thoughts that the Companions disliked and would not voice.
+                    <a href="#opt-a-desk-q49" class="ref-chip">Quran 49:15</a>
+                    <a href="#opt-a-desk-m132" class="ref-chip">Sahih Muslim 132</a>
+                  </p>
+                </section>
+
+                <section class="opt-a-section" style="padding:22px 26px;">
+                  <h3 class="opt-a-heading" style="font-size:1.3rem;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    What to do with a whisper
+                  </h3>
+                  <p class="opt-a-text" style="font-size:1.025rem;">
+                    Shaykh Ibn Baz explained that these whispers are part of Satan’s call to doubt and directed the person who experiences them to say, ‘I believe in Allah and His messengers,’ and seek refuge with Allah from Satan.
+                    <a href="#opt-a-desk-baz" class="ref-chip">Ibn Baz, fatwa 18107</a>
+                    The same source says that a person who experiences this kind of whisper should seek refuge with Allah and stop engaging with it.
+                    <a href="#opt-a-desk-baz" class="ref-chip">Ibn Baz, fatwa 18107</a>
+                  </p>
+                </section>
+
+                <div class="limit-card" style="padding:16px 20px;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  <span style="font-size:0.9rem;"><strong>Scholarly limit:</strong> These sources do not classify every kind of intellectual doubt, and they are not enough to diagnose one particular person without knowing what their doubt is.</span>
+                </div>
+              </div>
+
+              <!-- Sources at the end -->
+              <div class="sources-card-list" style="margin-top:16px; gap:14px;">
+                <span class="intro-eyebrow" style="font-size:0.85rem;">Authentic Evidence & Citations</span>
+
+                <div class="source-card" id="opt-a-desk-q49" style="padding:20px;">
+                  <div class="source-card-head">
+                    <span class="source-card-title" style="font-size:0.95rem;">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                      Quran — Surah Al-Hujurat 49:15
+                    </span>
+                    <span class="source-card-badge">Quran Foundation Production API</span>
+                  </div>
+                  <div class="source-placeholder-box" style="padding:14px 18px; font-size:0.95rem;">
+                    [Quran 49:15 shown here]
+                  </div>
+                  <a href="https://quran.com/49/15" target="_blank" rel="noopener" class="source-link-out">View Quran 49:15 on Quran.com ↗</a>
+                </div>
+
+                <div class="source-card" id="opt-a-desk-m132" style="padding:20px;">
+                  <div class="source-card-head">
+                    <span class="source-card-title" style="font-size:0.95rem;">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                      Sahih Muslim — Hadith 132
+                    </span>
+                    <span class="source-card-badge">Sahih · HadeethEnc verified</span>
+                  </div>
+                  <div class="source-placeholder-box" style="padding:14px 18px; font-size:0.95rem;">
+                    [Sahih Muslim 132 shown here]
+                  </div>
+                  <a href="https://hadeethenc.com/en/browse/hadith/65011" target="_blank" rel="noopener" class="source-link-out">View hadith on HadeethEnc ↗</a>
+                </div>
+
+                <div class="source-card" id="opt-a-desk-baz" style="padding:20px;">
+                  <div class="source-card-head">
+                    <span class="source-card-title" style="font-size:0.95rem;">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                      Shaykh Abd al-Aziz ibn Baz — Fatwa 18107
+                    </span>
+                    <span class="source-card-badge">Official Bin Baz Portal</span>
+                  </div>
+                  <div class="source-quote-text" style="font-size:1.15rem;">
+                    "لا شك أن هذا من الشيطان، فالشيطان يدعو الناس إلى الشك في دين الله، ويلقي عليهم الشبه والوساوس... الواجب على المؤمن والمؤمنة إذا وجدا شيئًا من هذه الأمور أن يقول الواحد منهم: آمنت بالله ورسله، أعوذ بالله من الشيطان الرجيم..."
+                  </div>
+                  <a href="https://binbaz.org.sa/fatwas/18107" target="_blank" rel="noopener" class="source-link-out">View original fatwa at binbaz.org.sa ↗</a>
+                </div>
+              </div>
+
+              <div class="bayan-foot" style="padding-top:18px;">
+                <p>Prepared answer, researched from authentic sources and reviewed by Bayan.</p>
+                <p class="not-fatwa-tag">Not a fatwa. For personal rulings, consult a qualified local Sunni scholar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================= -->
+  <!-- OPTION B: "STEP BY STEP" STYLE                                    -->
+  <!-- ================================================================= -->
+  <section id="option-b" class="option-section">
+    <div class="option-meta-card">
+      <div class="option-header-row">
+        <div>
+          <span class="option-tag"><span class="option-tag-num">B</span> Option B</span>
+          <h2 class="option-title">"Step by step" Style</h2>
+        </div>
+        <span style="font-size:0.85rem;color:var(--ink-3);">Numbered cards • Distinct icons • Inline source chips • Grouped source ledger below</span>
+      </div>
+      <div class="pros-cons-grid">
+        <div class="pro-box">
+          <span class="pro-badge">Pros</span>
+          <span>Exceptional scannability and practical clarity, breaking complex theological anxiety into orderly, actionable steps.</span>
+        </div>
+        <div class="con-box">
+          <span class="con-badge">Cons</span>
+          <span>Can feel slightly segmented or mechanical for deeply philosophical topics that benefit from natural narrative flow.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="views-dual">
+      <!-- Phone View Column -->
+      <div class="view-wrapper view-phone-col">
+        <div class="view-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+          Phone View (390px)
+        </div>
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="bayan-page">
+              <span class="bayan-breadcrumb">← Hard questions</span>
+
+              <div class="bayan-title-block">
+                <span class="bayan-category">Hard questions</span>
+                <h3 class="bayan-title">Doubt and faith</h3>
+                <p class="bayan-question">I have doubts. Does that make me a bad Muslim?</p>
+              </div>
+
+              <span class="bayan-badge-prepared">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Prepared answer, researched from the sources and reviewed by Bayan
+              </span>
+
+              <!-- Numbered Step Cards -->
+              <div class="opt-b-steps">
+                <!-- Step 1 -->
+                <div class="opt-b-step-card">
+                  <div class="opt-b-step-num">
+                    <span>01</span>
+                  </div>
+                  <div class="opt-b-step-content">
+                    <div class="opt-b-step-title">
+                      <span>1. The Core Ruling</span>
+                      <span class="opt-b-step-badge">Reassurance</span>
+                    </div>
+                    <p class="opt-b-step-body">
+                      If your doubts are intrusive thoughts that you dislike and do not accept, their occurrence alone does not show that you are a bad Muslim; the hadith says that Companions had thoughts they found overwhelming and calls that clear faith.
+                      <a href="#opt-b-ledger" class="ref-chip">Sahih Muslim 132</a>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="opt-b-step-card">
+                  <div class="opt-b-step-num">
+                    <span>02</span>
+                  </div>
+                  <div class="opt-b-step-content">
+                    <div class="opt-b-step-title">
+                      <span>2. Unwanted Thoughts</span>
+                      <span class="opt-b-step-badge">Context</span>
+                    </div>
+                    <p class="opt-b-step-body">
+                      Some Companions came to the Prophet and said that they found thoughts within themselves that they considered too grave to speak about.
+                      <a href="#opt-b-ledger" class="ref-chip">Sahih Muslim 132</a>
+                      When they confirmed this, the Prophet told them that it was clear faith.
+                      <a href="#opt-b-ledger" class="ref-chip">Sahih Muslim 132</a>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="opt-b-step-card">
+                  <div class="opt-b-step-num">
+                    <span>03</span>
+                  </div>
+                  <div class="opt-b-step-content">
+                    <div class="opt-b-step-title">
+                      <span>3. Settled Doubt vs. Whispers</span>
+                      <span class="opt-b-step-badge">Distinction</span>
+                    </div>
+                    <p class="opt-b-step-body">
+                      Settled doubt about the religion is not the situation described by that hadith, and the Quran describes sincere believers as those who leave doubt behind.
+                      <a href="#opt-b-ledger" class="ref-chip">Quran 49:15</a>
+                      The Quran therefore speaks about leaving doubt, while the hadith speaks about thoughts that the Companions disliked and would not voice.
+                      <a href="#opt-b-ledger" class="ref-chip">Quran 49:15</a>
+                      <a href="#opt-b-ledger" class="ref-chip">Sahih Muslim 132</a>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="opt-b-step-card">
+                  <div class="opt-b-step-num">
+                    <span>04</span>
+                  </div>
+                  <div class="opt-b-step-content">
+                    <div class="opt-b-step-title">
+                      <span>4. Action & Remedy</span>
+                      <span class="opt-b-step-badge">Sunnah</span>
+                    </div>
+                    <p class="opt-b-step-body">
+                      Shaykh Ibn Baz explained that these whispers are part of Satan’s call to doubt and directed the person who experiences them to say, ‘I believe in Allah and His messengers,’ and seek refuge with Allah from Satan.
+                      <a href="#opt-b-ledger" class="ref-chip">Ibn Baz, fatwa 18107</a>
+                      The same source says that a person who experiences this kind of whisper should seek refuge with Allah and stop engaging with it.
+                      <a href="#opt-b-ledger" class="ref-chip">Ibn Baz, fatwa 18107</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Scope Limit -->
+              <div class="limit-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                <span><strong>Scope limit:</strong> These sources do not classify every kind of intellectual doubt, and they are not enough to diagnose one particular person without knowing what their doubt is.</span>
+              </div>
+
+              <!-- Grouped Source Ledger Below -->
+              <div class="opt-b-source-ledger" id="opt-b-ledger">
+                <span class="opt-b-ledger-title">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                  Verified Source Ledger (3 Citations)
+                </span>
+                <div class="opt-b-ledger-list">
+                  <div class="opt-b-ledger-item">
+                    <span><strong>Quran 49:15</strong> — [Quran 49:15 shown here]</span>
+                    <a href="https://quran.com/49/15" target="_blank" class="source-link-out">Link ↗</a>
+                  </div>
+                  <div class="opt-b-ledger-item">
+                    <span><strong>Sahih Muslim 132</strong> — [Sahih Muslim 132 shown here]</span>
+                    <a href="https://hadeethenc.com/en/browse/hadith/65011" target="_blank" class="source-link-out">Link ↗</a>
+                  </div>
+                  <div class="opt-b-ledger-item">
+                    <span><strong>Ibn Baz (Fatwa 18107)</strong> — binbaz.org.sa</span>
+                    <a href="https://binbaz.org.sa/fatwas/18107" target="_blank" class="source-link-out">Link ↗</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bayan-foot">
+                <span>Prepared answer, researched from authentic sources and reviewed by Bayan.</span>
+                <span class="not-fatwa-tag">Not a fatwa.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop View Column -->
+      <div class="view-wrapper view-desktop-col">
+        <div class="view-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          Desktop View
+        </div>
+        <div class="desktop-frame">
+          <div class="desktop-window-bar">
+            <span class="window-dot dot-red"></span>
+            <span class="window-dot dot-yellow"></span>
+            <span class="window-dot dot-green"></span>
+            <div class="desktop-address">https://askbayan.org/en/topics/doubt?style=steps</div>
+          </div>
+          <div class="desktop-screen">
+            <div class="bayan-page">
+              <span class="bayan-breadcrumb">← Back to Hard questions</span>
+
+              <div class="bayan-title-block">
+                <span class="bayan-category">Hard questions</span>
+                <h2 class="bayan-title" style="font-size:2.25rem;">Doubt and faith</h2>
+                <p class="bayan-question" style="font-size:1.2rem;">I have doubts. Does that make me a bad Muslim?</p>
+              </div>
+
+              <span class="bayan-badge-prepared">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Prepared answer, researched from the sources and reviewed by Bayan
+              </span>
+
+              <!-- Step Cards Grid/List on Desktop -->
+              <div class="opt-b-steps" style="gap:16px;">
+                <!-- Step 1 -->
+                <div class="opt-b-step-card" style="padding:22px;">
+                  <div class="opt-b-step-num" style="width:48px; height:48px; font-size:1.1rem;">
+                    <span>01</span>
+                  </div>
+                  <div class="opt-b-step-content" style="gap:8px;">
+                    <div class="opt-b-step-title" style="font-size:1.15rem;">
+                      <span>Step 1: Direct Ruling & Immediate Reassurance</span>
+                      <span class="opt-b-step-badge" style="font-size:0.75rem;">Clear Faith</span>
+                    </div>
+                    <p class="opt-b-step-body" style="font-size:1.025rem;">
+                      If your doubts are intrusive thoughts that you dislike and do not accept, their occurrence alone does not show that you are a bad Muslim; the hadith says that Companions had thoughts they found overwhelming and calls that clear faith.
+                      <a href="#opt-b-desk-ledger" class="ref-chip">Sahih Muslim 132</a>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="opt-b-step-card" style="padding:22px;">
+                  <div class="opt-b-step-num" style="width:48px; height:48px; font-size:1.1rem;">
+                    <span>02</span>
+                  </div>
+                  <div class="opt-b-step-content" style="gap:8px;">
+                    <div class="opt-b-step-title" style="font-size:1.15rem;">
+                      <span>Step 2: Understanding Unwanted Thoughts</span>
+                      <span class="opt-b-step-badge" style="font-size:0.75rem;">Historical Precedent</span>
+                    </div>
+                    <p class="opt-b-step-body" style="font-size:1.025rem;">
+                      Some Companions came to the Prophet and said that they found thoughts within themselves that they considered too grave to speak about.
+                      <a href="#opt-b-desk-ledger" class="ref-chip">Sahih Muslim 132</a>
+                      When they confirmed this, the Prophet told them that it was clear faith.
+                      <a href="#opt-b-desk-ledger" class="ref-chip">Sahih Muslim 132</a>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="opt-b-step-card" style="padding:22px;">
+                  <div class="opt-b-step-num" style="width:48px; height:48px; font-size:1.1rem;">
+                    <span>03</span>
+                  </div>
+                  <div class="opt-b-step-content" style="gap:8px;">
+                    <div class="opt-b-step-title" style="font-size:1.15rem;">
+                      <span>Step 3: Distinguishing Settled Doubt</span>
+                      <span class="opt-b-step-badge" style="font-size:0.75rem;">Quranic Standard</span>
+                    </div>
+                    <p class="opt-b-step-body" style="font-size:1.025rem;">
+                      Settled doubt about the religion is not the situation described by that hadith, and the Quran describes sincere believers as those who leave doubt behind.
+                      <a href="#opt-b-desk-ledger" class="ref-chip">Quran 49:15</a>
+                      The Quran therefore speaks about leaving doubt, while the hadith speaks about thoughts that the Companions disliked and would not voice.
+                      <a href="#opt-b-desk-ledger" class="ref-chip">Quran 49:15</a>
+                      <a href="#opt-b-desk-ledger" class="ref-chip">Sahih Muslim 132</a>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="opt-b-step-card" style="padding:22px;">
+                  <div class="opt-b-step-num" style="width:48px; height:48px; font-size:1.1rem;">
+                    <span>04</span>
+                  </div>
+                  <div class="opt-b-step-content" style="gap:8px;">
+                    <div class="opt-b-step-title" style="font-size:1.15rem;">
+                      <span>Step 4: Practical Remedy Against Whispers (Waswas)</span>
+                      <span class="opt-b-step-badge" style="font-size:0.75rem;">Scholarly Guidance</span>
+                    </div>
+                    <p class="opt-b-step-body" style="font-size:1.025rem;">
+                      Shaykh Ibn Baz explained that these whispers are part of Satan’s call to doubt and directed the person who experiences them to say, ‘I believe in Allah and His messengers,’ and seek refuge with Allah from Satan.
+                      <a href="#opt-b-desk-ledger" class="ref-chip">Ibn Baz, fatwa 18107</a>
+                      The same source says that a person who experiences this kind of whisper should seek refuge with Allah and stop engaging with it.
+                      <a href="#opt-b-desk-ledger" class="ref-chip">Ibn Baz, fatwa 18107</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Limit Card -->
+              <div class="limit-card" style="padding:16px 20px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                <span style="font-size:0.9rem;"><strong>Scholarly limit:</strong> These sources do not classify every kind of intellectual doubt, and they are not enough to diagnose one particular person without knowing what their doubt is.</span>
+              </div>
+
+              <!-- Grouped Source Ledger on Desktop -->
+              <div class="opt-b-source-ledger" id="opt-b-desk-ledger" style="padding:22px;">
+                <span class="opt-b-ledger-title" style="font-size:0.85rem;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                  Verified Source Ledger (Grouped Evidence)
+                </span>
+                <div class="opt-b-ledger-list" style="gap:10px;">
+                  <div class="opt-b-ledger-item" style="padding:10px 14px; font-size:0.9rem;">
+                    <div>
+                      <strong>Quran 49:15</strong> — <span style="font-style:italic;">[Quran 49:15 shown here]</span>
+                    </div>
+                    <a href="https://quran.com/49/15" target="_blank" class="source-link-out">quran.com/49/15 ↗</a>
+                  </div>
+                  <div class="opt-b-ledger-item" style="padding:10px 14px; font-size:0.9rem;">
+                    <div>
+                      <strong>Sahih Muslim 132</strong> — <span style="font-style:italic;">[Sahih Muslim 132 shown here]</span>
+                    </div>
+                    <a href="https://hadeethenc.com/en/browse/hadith/65011" target="_blank" class="source-link-out">hadeethenc.com/65011 ↗</a>
+                  </div>
+                  <div class="opt-b-ledger-item" style="padding:10px 14px; font-size:0.9rem;">
+                    <div>
+                      <strong>Shaykh Ibn Baz (Fatwa 18107)</strong> — "كيفية التخلص من الوسوسة في العقيدة وغيرها"
+                    </div>
+                    <a href="https://binbaz.org.sa/fatwas/18107" target="_blank" class="source-link-out">binbaz.org.sa ↗</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bayan-foot" style="padding-top:18px;">
+                <p>Prepared answer, researched from authentic sources and reviewed by Bayan.</p>
+                <p class="not-fatwa-tag">Not a fatwa. For personal rulings, consult a qualified local Sunni scholar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================= -->
+  <!-- OPTION C: "SUMMARY + PROOFS" STYLE                                -->
+  <!-- ================================================================= -->
+  <section id="option-c" class="option-section">
+    <div class="option-meta-card">
+      <div class="option-header-row">
+        <div>
+          <span class="option-tag"><span class="option-tag-num">C</span> Option C</span>
+          <h2 class="option-title">"Summary + proofs" Style</h2>
+        </div>
+        <span style="font-size:0.85rem;color:var(--ink-3);">Big plain-language conclusion • Strict Proof tabs (Quran, Hadith, Scholars, Video)</span>
+      </div>
+      <div class="pros-cons-grid">
+        <div class="pro-box">
+          <span class="pro-badge">Pros</span>
+          <span>Gives the bottom-line conclusion instantly upfront, followed by dedicated deep-dive tabs for each evidence category.</span>
+        </div>
+        <div class="con-box">
+          <span class="con-badge">Cons</span>
+          <span>Separates explanatory context across tabs/accordions, which may hide the interlinked reasoning from readers who don't click tabs.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="views-dual">
+      <!-- Phone View Column -->
+      <div class="view-wrapper view-phone-col">
+        <div class="view-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+          Phone View (390px)
+        </div>
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="bayan-page">
+              <span class="bayan-breadcrumb">← Hard questions</span>
+
+              <div class="bayan-title-block">
+                <span class="bayan-category">Hard questions</span>
+                <h3 class="bayan-title">Doubt and faith</h3>
+                <p class="bayan-question">I have doubts. Does that make me a bad Muslim?</p>
+              </div>
+
+              <span class="bayan-badge-prepared">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Prepared answer, researched from the sources and reviewed by Bayan
+              </span>
+
+              <!-- Big Plain-Language Conclusion Card at Top -->
+              <div class="opt-c-conclusion-card">
+                <div class="opt-c-conclusion-head">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  Clear Conclusion
+                </div>
+                <p class="opt-c-conclusion-main">
+                  If your doubts are intrusive thoughts that you dislike and do not accept, their occurrence alone does not show that you are a bad Muslim; the hadith says that Companions had thoughts they found overwhelming and calls that clear faith.
+                  <a href="#opt-c-tab-hadith" class="ref-chip">Sahih Muslim 132</a>
+                </p>
+                <p class="opt-c-conclusion-main" style="margin-top:6px; font-weight:500; font-size:0.95rem;">
+                  Settled doubt about the religion is not the situation described by that hadith, and the Quran describes sincere believers as those who leave doubt behind.
+                  <a href="#opt-c-tab-quran" class="ref-chip">Quran 49:15</a>
+                </p>
+              </div>
+
+              <!-- Accordions on Phone for Quran, Hadith, Scholars, Video -->
+              <div class="opt-c-accordion">
+                <!-- 1. Quran Accordion -->
+                <details class="opt-c-acc-item" open>
+                  <summary class="opt-c-acc-summary">
+                    <span class="opt-c-acc-title">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                      1. Quran Proof
+                    </span>
+                    <span class="opt-c-tab-count">1 Verse</span>
+                  </summary>
+                  <div class="opt-c-acc-body">
+                    <p style="font-size:0.875rem; color:var(--ink-2);">
+                      The Quran describes sincere believers as those who believe in Allah and His Messenger and then leave doubt behind.
+                      <span class="ref-chip">Quran 49:15</span>
+                    </p>
+                    <div class="source-placeholder-box">
+                      [Quran 49:15 shown here]
+                    </div>
+                    <a href="https://quran.com/49/15" target="_blank" class="source-link-out">View Quran 49:15 ↗</a>
+                  </div>
+                </details>
+
+                <!-- 2. Hadith Accordion -->
+                <details class="opt-c-acc-item" open>
+                  <summary class="opt-c-acc-summary">
+                    <span class="opt-c-acc-title">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                      2. Hadith Proof
+                    </span>
+                    <span class="opt-c-tab-count">Sahih Muslim</span>
+                  </summary>
+                  <div class="opt-c-acc-body">
+                    <p style="font-size:0.875rem; color:var(--ink-2);">
+                      Some Companions came to the Prophet and said that they found thoughts within themselves that they considered too grave to speak about. When they confirmed this, the Prophet told them that it was clear faith.
+                      <span class="ref-chip">Sahih Muslim 132</span>
+                    </p>
+                    <div class="source-placeholder-box">
+                      [Sahih Muslim 132 shown here]
+                    </div>
+                    <a href="https://hadeethenc.com/en/browse/hadith/65011" target="_blank" class="source-link-out">View Sahih Muslim 132 ↗</a>
+                  </div>
+                </details>
+
+                <!-- 3. Scholars Accordion -->
+                <details class="opt-c-acc-item">
+                  <summary class="opt-c-acc-summary">
+                    <span class="opt-c-acc-title">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                      3. Scholars
+                    </span>
+                    <span class="opt-c-tab-count">Ibn Baz</span>
+                  </summary>
+                  <div class="opt-c-acc-body">
+                    <p style="font-size:0.875rem; color:var(--ink-2);">
+                      Shaykh Ibn Baz explained that these whispers are part of Satan’s call to doubt and directed the person who experiences them to say, ‘I believe in Allah and His messengers,’ and seek refuge with Allah from Satan.
+                      <span class="ref-chip">Ibn Baz, fatwa 18107</span>
+                    </p>
+                    <div class="source-quote-text">
+                      "الواجب على المؤمن والمؤمنة إذا وجدا شيئًا من هذه الأمور أن يقول الواحد منهم: آمنت بالله ورسله..."
+                    </div>
+                    <a href="https://binbaz.org.sa/fatwas/18107" target="_blank" class="source-link-out">View Fatwa 18107 ↗</a>
+                  </div>
+                </details>
+
+                <!-- 4. Video Accordion -->
+                <details class="opt-c-acc-item">
+                  <summary class="opt-c-acc-summary">
+                    <span class="opt-c-acc-title">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                      4. Video Explanation
+                    </span>
+                    <span class="opt-c-tab-count">Curated</span>
+                  </summary>
+                  <div class="opt-c-acc-body">
+                    <div class="video-proof-box">
+                      <div class="video-thumb-sim">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="8 5 19 12 8 19 8 5"/></svg>
+                      </div>
+                      <div class="video-info">
+                        <span class="video-title">Dealing with Whispers in Faith</span>
+                        <span class="video-channel">Approved Scholar Channel</span>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Scope Limit -->
+              <div class="limit-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                <span><strong>Scholarly limit:</strong> These sources do not classify every kind of intellectual doubt, and they are not enough to diagnose one particular person without knowing what their doubt is.</span>
+              </div>
+
+              <div class="bayan-foot">
+                <span>Prepared answer, researched from authentic sources and reviewed by Bayan.</span>
+                <span class="not-fatwa-tag">Not a fatwa.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop View Column with Interactive Tabs -->
+      <div class="view-wrapper view-desktop-col">
+        <div class="view-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          Desktop View (Interactive Tabs)
+        </div>
+        <div class="desktop-frame">
+          <div class="desktop-window-bar">
+            <span class="window-dot dot-red"></span>
+            <span class="window-dot dot-yellow"></span>
+            <span class="window-dot dot-green"></span>
+            <div class="desktop-address">https://askbayan.org/en/topics/doubt?style=proofs</div>
+          </div>
+          <div class="desktop-screen">
+            <div class="bayan-page">
+              <span class="bayan-breadcrumb">← Back to Hard questions</span>
+
+              <div class="bayan-title-block">
+                <span class="bayan-category">Hard questions</span>
+                <h2 class="bayan-title" style="font-size:2.25rem;">Doubt and faith</h2>
+                <p class="bayan-question" style="font-size:1.2rem;">I have doubts. Does that make me a bad Muslim?</p>
+              </div>
+
+              <span class="bayan-badge-prepared">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Prepared answer, researched from the sources and reviewed by Bayan
+              </span>
+
+              <!-- Big Plain-Language Conclusion Card -->
+              <div class="opt-c-conclusion-card" style="padding:28px 32px;">
+                <div class="opt-c-conclusion-head" style="font-size:0.8rem;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  Plain-Language Scholarly Conclusion
+                </div>
+                <p class="opt-c-conclusion-main" style="font-size:1.25rem;">
+                  If your doubts are intrusive thoughts that you dislike and do not accept, their occurrence alone does not show that you are a bad Muslim; the hadith says that Companions had thoughts they found overwhelming and calls that clear faith.
+                  <a href="javascript:switchOptCTab('hadith')" class="ref-chip">Sahih Muslim 132</a>
+                </p>
+                <p class="opt-c-conclusion-main" style="font-size:1.1rem; font-weight:400; color:var(--ink-2); margin-top:8px;">
+                  Settled doubt about the religion is not the situation described by that hadith, and the Quran describes sincere believers as those who leave doubt behind.
+                  <a href="javascript:switchOptCTab('quran')" class="ref-chip">Quran 49:15</a>
+                </p>
+              </div>
+
+              <!-- Interactive Tabs (Strict Order: Quran, Hadith, Scholars, Video) -->
+              <div>
+                <div class="opt-c-tabs-nav" role="tablist">
+                  <button type="button" class="opt-c-tab-btn active" id="tab-btn-quran" onclick="switchOptCTab('quran')">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    1. Quran
+                    <span class="opt-c-tab-count">49:15</span>
+                  </button>
+                  <button type="button" class="opt-c-tab-btn" id="tab-btn-hadith" onclick="switchOptCTab('hadith')">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    2. Hadith
+                    <span class="opt-c-tab-count">Muslim 132</span>
+                  </button>
+                  <button type="button" class="opt-c-tab-btn" id="tab-btn-scholars" onclick="switchOptCTab('scholars')">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                    3. Scholars
+                    <span class="opt-c-tab-count">Ibn Baz</span>
+                  </button>
+                  <button type="button" class="opt-c-tab-btn" id="tab-btn-video" onclick="switchOptCTab('video')">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                    4. Video
+                    <span class="opt-c-tab-count">Curated</span>
+                  </button>
+                </div>
+
+                <!-- Tab 1: Quran -->
+                <div class="opt-c-tab-content" id="tab-content-quran" style="display:grid; padding:24px;">
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <h3 style="font-size:1.15rem; color:var(--accent);">Quranic Evidence on Leaving Doubt</h3>
+                    <span class="source-card-badge">Quran Foundation Production</span>
+                  </div>
+                  <p style="font-size:1rem; color:var(--ink);">
+                    The Quran describes sincere believers as those who believe in Allah and His Messenger and then leave doubt behind.
+                    <span class="ref-chip">Quran 49:15</span>
+                  </p>
+                  <p style="font-size:0.95rem; color:var(--ink-2);">
+                    The Quran therefore speaks about leaving doubt, while the hadith speaks about thoughts that the Companions disliked and would not voice.
+                    <span class="ref-chip">Quran 49:15</span>
+                  </p>
+                  <div class="source-placeholder-box" style="padding:14px 18px;">
+                    [Quran 49:15 shown here]
+                  </div>
+                  <a href="https://quran.com/49/15" target="_blank" class="source-link-out">View official recitation and translation at Quran.com ↗</a>
+                </div>
+
+                <!-- Tab 2: Hadith -->
+                <div class="opt-c-tab-content" id="tab-content-hadith" style="display:none; padding:24px;">
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <h3 style="font-size:1.15rem; color:var(--accent);">Prophetic Hadith: Thoughts as Clear Faith</h3>
+                    <span class="source-card-badge">Sahih Muslim 132</span>
+                  </div>
+                  <p style="font-size:1rem; color:var(--ink);">
+                    Some Companions came to the Prophet and said that they found thoughts within themselves that they considered too grave to speak about.
+                    <span class="ref-chip">Sahih Muslim 132</span>
+                  </p>
+                  <p style="font-size:1rem; color:var(--ink);">
+                    When they confirmed this, the Prophet told them that it was clear faith.
+                    <span class="ref-chip">Sahih Muslim 132</span>
+                  </p>
+                  <div class="source-placeholder-box" style="padding:14px 18px;">
+                    [Sahih Muslim 132 shown here]
+                  </div>
+                  <a href="https://hadeethenc.com/en/browse/hadith/65011" target="_blank" class="source-link-out">View verified hadith entry at HadeethEnc ↗</a>
+                </div>
+
+                <!-- Tab 3: Scholars -->
+                <div class="opt-c-tab-content" id="tab-content-scholars" style="display:none; padding:24px;">
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <h3 style="font-size:1.15rem; color:var(--accent);">Approved Scholarly Explanation: Shaykh Ibn Baz</h3>
+                    <span class="source-card-badge">Fatwa 18107</span>
+                  </div>
+                  <p style="font-size:1rem; color:var(--ink);">
+                    Shaykh Ibn Baz explained that these whispers are part of Satan’s call to doubt and directed the person who experiences them to say, ‘I believe in Allah and His messengers,’ and seek refuge with Allah from Satan.
+                    <span class="ref-chip">Ibn Baz, fatwa 18107</span>
+                  </p>
+                  <p style="font-size:1rem; color:var(--ink);">
+                    The same source says that a person who experiences this kind of whisper should seek refuge with Allah and stop engaging with it.
+                    <span class="ref-chip">Ibn Baz, fatwa 18107</span>
+                  </p>
+                  <div class="source-quote-text" style="font-size:1.15rem;">
+                    "لا شك أن هذا من الشيطان، فالشيطان يدعو الناس إلى الشك في دين الله، ويلقي عليهم الشبه والوساوس... الواجب على المؤمن والمؤمنة إذا وجدا شيئًا من هذه الأمور أن يقول الواحد منهم: آمنت بالله ورسله، أعوذ بالله من الشيطان الرجيم..."
+                  </div>
+                  <a href="https://binbaz.org.sa/fatwas/18107" target="_blank" class="source-link-out">View original fatwa on binbaz.org.sa ↗</a>
+                </div>
+
+                <!-- Tab 4: Video -->
+                <div class="opt-c-tab-content" id="tab-content-video" style="display:none; padding:24px;">
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <h3 style="font-size:1.15rem; color:var(--accent);">Curated Video Explanations</h3>
+                    <span class="source-card-badge">Approved Channels Only</span>
+                  </div>
+                  <p style="font-size:0.95rem; color:var(--ink-2);">
+                    Curated YouTube lectures from verified scholar channels (Othman al-Khamis and Ibn Baz Foundation) explaining intrusive doubts in faith.
+                  </p>
+                  <div class="video-proof-box" style="padding:18px;">
+                    <div class="video-thumb-sim" style="width:140px; height:80px;">
+                      <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><polygon points="8 5 19 12 8 19 8 5"/></svg>
+                    </div>
+                    <div class="video-info" style="gap:6px;">
+                      <span class="video-title" style="font-size:1rem;">علاج الوسوسة والشكوك في العقيدة والإيمان</span>
+                      <span class="video-channel">Official Channel • Privacy-enhanced player</span>
+                      <span style="font-size:0.75rem; color:var(--ink-3);">Click-to-load YouTube nocookie stream. Not counted as primary ruling evidence.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Scope Limit -->
+              <div class="limit-card" style="padding:16px 20px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                <span style="font-size:0.9rem;"><strong>Scholarly limit:</strong> These sources do not classify every kind of intellectual doubt, and they are not enough to diagnose one particular person without knowing what their doubt is.</span>
+              </div>
+
+              <div class="bayan-foot" style="padding-top:18px;">
+                <p>Prepared answer, researched from authentic sources and reviewed by Bayan.</p>
+                <p class="not-fatwa-tag">Not a fatwa. For personal rulings, consult a qualified local Sunni scholar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================= -->
+  <!-- ARABIC (RTL) PREVIEW OF THE APPROVED ANSWER                       -->
+  <!-- ================================================================= -->
+  <section id="arabic-preview" class="option-section">
+    <div class="option-meta-card">
+      <div class="option-header-row">
+        <div>
+          <span class="option-tag" style="background:var(--gold-soft); color:var(--gold-ink); border-color:var(--gold-line);">
+            العربية RTL
+          </span>
+          <h2 class="option-title">Arabic (Right-to-Left) Layout Preview</h2>
+        </div>
+        <span style="font-size:0.85rem;color:var(--ink-3);">Authentic typography • Native RTL flow • Verified Arabic citations</span>
+      </div>
+      <p style="font-size:0.9rem; color:var(--ink-2);">
+        Inspection preview of how Arabic text, inline reference chips, and layout elements flip cleanly in right-to-left orientation (using Amiri & Reem Kufi typography).
+      </p>
+    </div>
+
+    <div class="views-dual">
+      <!-- Phone View in Arabic -->
+      <div class="view-wrapper view-phone-col">
+        <div class="view-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+          معاينة الهاتف (RTL Phone)
+        </div>
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen arabic-box">
+            <div class="bayan-page">
+              <span class="bayan-breadcrumb">الرجوع إلى الشبهات →</span>
+
+              <div class="bayan-title-block">
+                <span class="bayan-category">شبهات</span>
+                <h3 class="bayan-title">الشك والإيمان</h3>
+                <p class="bayan-question">عندي شكوك. هل هذا يجعلني مسلمًا سيئًا؟</p>
+              </div>
+
+              <span class="bayan-badge-prepared">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                إجابة معدة، مستخرجة من المصادر ومراجعة من بيان
+              </span>
+
+              <!-- Direct Answer Box in Arabic -->
+              <div class="opt-a-summary-box" style="border-left:1px solid var(--gold-line); border-right:4px solid var(--gold);">
+                <span class="opt-a-summary-title">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  الجواب المباشر
+                </span>
+                <p style="font-size:1.05rem; line-height:1.8;">
+                  إذا كانت الشكوك خواطرَ ملحّة تكرهها ولا ترضاها، فلا يدل ورودها وحده على أنك مسلم سيئ؛ فقد ذكر الحديث أن أصحابًا وجدوا خواطر عظيمة عليهم، ووصف ذلك بصريح الإيمان.
+                  <span class="ref-chip">صحيح مسلم 132</span>
+                </p>
+                <p style="font-size:1.05rem; line-height:1.8; margin-top:6px;">
+                  أما الشك المستقر في الدين فليس هو الحالة التي يصفها هذا الحديث، والقرآن يصف المؤمنين الصادقين بأنهم لا يرتابون.
+                  <span class="ref-chip">القرآن 49:15</span>
+                </p>
+              </div>
+
+              <!-- Arabic Sections -->
+              <div class="opt-a-article">
+                <section class="opt-a-section">
+                  <h4 class="opt-a-heading">الخواطر غير المقصودة</h4>
+                  <p style="font-size:1rem; line-height:1.8;">
+                    جاء أصحاب للنبي ﷺ وقالوا إنهم يجدون في أنفسهم أفكارًا يعظم عليهم الكلام بها.
+                    <span class="ref-chip">صحيح مسلم 132</span>
+                    فلما أقروا بوجودها قال لهم النبي ﷺ إن ذلك صريح الإيمان.
+                    <span class="ref-chip">صحيح مسلم 132</span>
+                  </p>
+                </section>
+
+                <section class="opt-a-section">
+                  <h4 class="opt-a-heading">الشك المستقر</h4>
+                  <p style="font-size:1rem; line-height:1.8;">
+                    يصف القرآن المؤمنين الصادقين بأنهم آمنوا بالله ورسوله ثم لم يرتابوا.
+                    <span class="ref-chip">القرآن 49:15</span>
+                    فالنص القرآني يتحدث عن ترك الارتياب، بينما الحديث السابق يتحدث عن خواطر يكره أصحابها أن ينطقوا بها.
+                    <span class="ref-chip">القرآن 49:15</span>
+                    <span class="ref-chip">صحيح مسلم 132</span>
+                  </p>
+                </section>
+
+                <section class="opt-a-section">
+                  <h4 class="opt-a-heading">ماذا تفعل مع الوسواس؟</h4>
+                  <p style="font-size:1rem; line-height:1.8;">
+                    شرح الشيخ ابن باز أن هذه الوساوس من دعوة الشيطان إلى الشك، وأرشد من وجدها إلى قول: آمنت بالله ورسله، والاستعاذة بالله من الشيطان.
+                    <span class="ref-chip">ابن باز، فتوى 18107</span>
+                    وذكر المصدر نفسه أن من وجد هذا النوع من الوسواس يستعيذ بالله وينتهي عنه.
+                    <span class="ref-chip">ابن باز، فتوى 18107</span>
+                  </p>
+                </section>
+
+                <div class="limit-card">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  <span><strong>حدود الأدلة:</strong> هذه المصادر لا تحكم على كل نوع من الشك الفكري، ولا تكفي وحدها لتشخيص حالة شخص بعينه من غير معرفة طبيعة شكه.</span>
+                </div>
+              </div>
+
+              <!-- Arabic Placeholders -->
+              <div class="sources-card-list" style="margin-top:10px;">
+                <div class="source-card">
+                  <div class="source-card-head">
+                    <span class="source-card-title">القرآن الكريم — سورة الحجرات 49:15</span>
+                  </div>
+                  <div class="source-placeholder-box">
+                    [نص الآية 49:15 يظهر هنا]
+                  </div>
+                </div>
+                <div class="source-card">
+                  <div class="source-card-head">
+                    <span class="source-card-title">صحيح مسلم — حديث 132</span>
+                  </div>
+                  <div class="source-placeholder-box">
+                    [نص حديث صحيح مسلم 132 يظهر هنا]
+                  </div>
+                </div>
+              </div>
+
+              <div class="bayan-foot">
+                <span>إجابة معدة، مستخرجة من المصادر ومراجعة من بيان.</span>
+                <span class="not-fatwa-tag">ليست فتوى.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop View in Arabic -->
+      <div class="view-wrapper view-desktop-col">
+        <div class="view-label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          معاينة شاشة الحاسوب (RTL Desktop)
+        </div>
+        <div class="desktop-frame">
+          <div class="desktop-window-bar">
+            <span class="window-dot dot-red"></span>
+            <span class="window-dot dot-yellow"></span>
+            <span class="window-dot dot-green"></span>
+            <div class="desktop-address" style="direction:ltr;">https://askbayan.org/ar/topics/doubt</div>
+          </div>
+          <div class="desktop-screen arabic-box">
+            <div class="bayan-page">
+              <span class="bayan-breadcrumb">الرجوع إلى قائمة الشبهات →</span>
+
+              <div class="bayan-title-block">
+                <span class="bayan-category">شبهات</span>
+                <h2 class="bayan-title" style="font-size:2.4rem;">الشك والإيمان</h2>
+                <p class="bayan-question" style="font-size:1.3rem;">عندي شكوك. هل هذا يجعلني مسلمًا سيئًا؟</p>
+              </div>
+
+              <span class="bayan-badge-prepared">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                إجابة معدة، مستخرجة من المصادر ومراجعة من بيان
+              </span>
+
+              <div class="opt-a-summary-box" style="padding:24px 28px; border-left:1px solid var(--gold-line); border-right:4px solid var(--gold);">
+                <span class="opt-a-summary-title">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  الخلاصة المباشرة
+                </span>
+                <p style="font-size:1.15rem; line-height:1.85;">
+                  إذا كانت الشكوك خواطرَ ملحّة تكرهها ولا ترضاها، فلا يدل ورودها وحده على أنك مسلم سيئ؛ فقد ذكر الحديث أن أصحابًا وجدوا خواطر عظيمة عليهم، ووصف ذلك بصريح الإيمان.
+                  <span class="ref-chip">صحيح مسلم 132</span>
+                </p>
+                <p style="font-size:1.15rem; line-height:1.85; margin-top:8px;">
+                  أما الشك المستقر في الدين فليس هو الحالة التي يصفها هذا الحديث، والقرآن يصف المؤمنين الصادقين بأنهم لا يرتابون.
+                  <span class="ref-chip">القرآن 49:15</span>
+                </p>
+              </div>
+
+              <div class="opt-a-article" style="gap:18px;">
+                <section class="opt-a-section" style="padding:22px 26px;">
+                  <h3 class="opt-a-heading" style="font-size:1.35rem;">الخواطر غير المقصودة</h3>
+                  <p style="font-size:1.1rem; line-height:1.85;">
+                    جاء أصحاب للنبي ﷺ وقالوا إنهم يجدون في أنفسهم أفكارًا يعظم عليهم الكلام بها.
+                    <span class="ref-chip">صحيح مسلم 132</span>
+                    فلما أقروا بوجودها قال لهم النبي ﷺ إن ذلك صريح الإيمان.
+                    <span class="ref-chip">صحيح مسلم 132</span>
+                  </p>
+                </section>
+
+                <section class="opt-a-section" style="padding:22px 26px;">
+                  <h3 class="opt-a-heading" style="font-size:1.35rem;">الشك المستقر</h3>
+                  <p style="font-size:1.1rem; line-height:1.85;">
+                    يصف القرآن المؤمنين الصادقين بأنهم آمنوا بالله ورسوله ثم لم يرتابوا.
+                    <span class="ref-chip">القرآن 49:15</span>
+                    فالنص القرآني يتحدث عن ترك الارتياب، بينما الحديث السابق يتحدث عن خواطر يكره أصحابها أن ينطقوا بها.
+                    <span class="ref-chip">القرآن 49:15</span>
+                    <span class="ref-chip">صحيح مسلم 132</span>
+                  </p>
+                </section>
+
+                <section class="opt-a-section" style="padding:22px 26px;">
+                  <h3 class="opt-a-heading" style="font-size:1.35rem;">ماذا تفعل مع الوسواس؟</h3>
+                  <p style="font-size:1.1rem; line-height:1.85;">
+                    شرح الشيخ ابن باز أن هذه الوساوس من دعوة الشيطان إلى الشك، وأرشد من وجدها إلى قول: آمنت بالله ورسله، والاستعاذة بالله من الشيطان.
+                    <span class="ref-chip">ابن باز، فتوى 18107</span>
+                    وذكر المصدر نفسه أن من وجد هذا النوع من الوسواس يستعيذ بالله وينتهي عنه.
+                    <span class="ref-chip">ابن باز، فتوى 18107</span>
+                  </p>
+                </section>
+
+                <div class="limit-card" style="padding:16px 20px;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  <span style="font-size:0.95rem;"><strong>حدود المصادر:</strong> هذه المصادر لا تحكم على كل نوع من الشك الفكري، ولا تكفي وحدها لتشخيص حالة شخص بعينه من غير معرفة طبيعة شكه.</span>
+                </div>
+              </div>
+
+              <!-- Arabic Source Ledger -->
+              <div class="sources-card-list" style="margin-top:16px; gap:12px;">
+                <div class="source-card" style="padding:20px;">
+                  <div class="source-card-head">
+                    <span class="source-card-title">القرآن الكريم — سورة الحجرات (49:15)</span>
+                    <span class="source-card-badge">مؤسسة القرآن</span>
+                  </div>
+                  <div class="source-placeholder-box">
+                    [نص الآية 49:15 يظهر هنا]
+                  </div>
+                </div>
+                <div class="source-card" style="padding:20px;">
+                  <div class="source-card-head">
+                    <span class="source-card-title">صحيح مسلم — حديث رقم 132</span>
+                    <span class="source-card-badge">صحيح · موسوعة الأحاديث</span>
+                  </div>
+                  <div class="source-placeholder-box">
+                    [نص حديث صحيح مسلم 132 يظهر هنا]
+                  </div>
+                </div>
+                <div class="source-card" style="padding:20px;">
+                  <div class="source-card-head">
+                    <span class="source-card-title">الشيخ عبد العزيز بن باز — فتوى 18107</span>
+                    <span class="source-card-badge">الموقع الرسمي</span>
+                  </div>
+                  <div class="source-quote-text" style="font-size:1.15rem;">
+                    "لا شك أن هذا من الشيطان، فالشيطان يدعو الناس إلى الشك في دين الله، ويلقي عليهم الشبه والوساوس... الواجب على المؤمن والمؤمنة إذا وجدا شيئًا من هذه الأمور أن يقول الواحد منهم: آمنت بالله ورسله، أعوذ بالله من الشيطان الرجيم..."
+                  </div>
+                </div>
+              </div>
+
+              <div class="bayan-foot" style="padding-top:18px;">
+                <p>إجابة معدة، مستخرجة من المصادر ومراجعة من بيان.</p>
+                <p class="not-fatwa-tag">ليست فتوى. المسائل الشخصية تُعرض على أهل العلم الموثوقين.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+  function setView(mode) {
+    document.body.setAttribute('data-view', mode);
+    document.querySelectorAll('.control-btn').forEach(btn => btn.classList.remove('active'));
+    document.getElementById('btn-' + mode)?.classList.add('active');
+  }
+
+  function switchOptCTab(tabKey) {
+    const tabs = ['quran', 'hadith', 'scholars', 'video'];
+    tabs.forEach(t => {
+      const btn = document.getElementById('tab-btn-' + t);
+      const content = document.getElementById('tab-content-' + t);
+      if (btn) btn.classList.remove('active');
+      if (content) content.style.display = 'none';
+    });
+    const activeBtn = document.getElementById('tab-btn-' + tabKey);
+    const activeContent = document.getElementById('tab-content-' + tabKey);
+    if (activeBtn) activeBtn.classList.add('active');
+    if (activeContent) activeContent.style.display = 'grid';
+  }
+</script>
+</body>
+</html>

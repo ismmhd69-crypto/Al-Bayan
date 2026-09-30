@@ -1,5 +1,5 @@
 import "server-only";
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Locale } from "@/lib/i18n";
 import { approvedChannelIds } from "@/lib/sources/youtube-channels";
 import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
@@ -11,6 +11,15 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
   { auth: { persistSession: false, autoRefreshToken: false } },
 );
+
+let reviewClient: SupabaseClient | null = null;
+function reviewDb(): SupabaseClient | null {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.SUPABASE_SECRET_KEY;
+  if (!url || !key) return null;
+  reviewClient ??= createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
+  return reviewClient;
+}
 
 export type CategoryId = "belief" | "science" | "preservation" | "women" | "history";
 export const categoryOrder: CategoryId[] = ["belief", "science", "preservation", "women", "history"];
@@ -129,20 +138,27 @@ export async function getScholarNames(): Promise<Record<string, { ar: string; en
     .map((s) => [s.id, { ar: s.name_ar, en: s.name_en, de: s.name_de }]));
 }
 
-export type ReviewDecision = { status: "draft" | "approved" | "rejected"; note: string | null };
+export type ReviewDecision = { status: "draft" | "approved" | "rejected"; note: string | null; contentHash: string | null };
 
 /** Review decisions for prepared answers (public table, set on the review tab). */
 export type ReviewKind = "topic" | "prepared";
 
 export async function getReviewDecisions(kind: ReviewKind): Promise<Record<string, ReviewDecision>> {
-  const { data, error } = await supabase.from("prepared_reviews").select("item_id, status, note").eq("kind", kind);
-  if (error) fail("review decisions", error);
-  return Object.fromEntries(((data ?? []) as { item_id: string; status: ReviewDecision["status"]; note: string | null }[])
-    .map((r) => [r.item_id, { status: r.status, note: r.note }]));
+  const current = await supabase.from("prepared_reviews").select("item_id, status, note, content_hash").eq("kind", kind);
+  if (!current.error) return Object.fromEntries(((current.data ?? []) as { item_id: string; status: ReviewDecision["status"]; note: string | null; content_hash: string | null }[])
+    .map((r) => [r.item_id, { status: r.status, note: r.note, contentHash: r.content_hash }]));
+  // Before the separately approved migration is applied, decisions can be reviewed but cannot
+  // publish an AnswerV2 because they have no content hash.
+  const legacy = await supabase.from("prepared_reviews").select("item_id, status, note").eq("kind", kind);
+  if (legacy.error) fail("review decisions", legacy.error);
+  return Object.fromEntries(((legacy.data ?? []) as { item_id: string; status: ReviewDecision["status"]; note: string | null }[])
+    .map((r) => [r.item_id, { status: r.status, note: r.note, contentHash: null }]));
 }
 
 /** Stores a review decision through the validating database function. */
-export async function setReviewDecision(kind: ReviewKind, id: string, status: ReviewDecision["status"], note: string): Promise<boolean> {
-  const { error } = await supabase.rpc("set_prepared_review", { p_kind: kind, p_item_id: id, p_status: status, p_note: note });
+export async function setReviewDecision(kind: ReviewKind, id: string, status: ReviewDecision["status"], note: string, contentHash: string): Promise<boolean> {
+  const db = reviewDb();
+  if (!db) return false;
+  const { error } = await db.rpc("set_prepared_review", { p_kind: kind, p_item_id: id, p_status: status, p_note: note, p_content_hash: contentHash });
   return !error;
 }

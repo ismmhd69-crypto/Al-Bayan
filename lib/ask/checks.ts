@@ -135,34 +135,96 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
 }
 
 export type AnswerSection = { heading: string; sentences: Claim[] };
-export type StructuredDraft = { directAnswer: Claim[]; explanation: AnswerSection[]; notEstablished: string[]; claims: Claim[] };
+// directAnswer is the design's simple answer (1 to 4 sentences); list is its optional step,
+// condition or exception list. Together they form the direct answer for every coverage check.
+export type StructuredDraft = { directAnswer: Claim[]; list: Claim[]; explanation: AnswerSection[]; notEstablished: string[]; claims: Claim[] };
 export type StructuredDraftResult = { ok: true; answer: StructuredDraft } | { ok: false; reason: string };
 
-/** The live writer uses the prepared answer shape; the old flat parser remains for old records/tests. */
+// Design section 4.3. The total counts every AI-written cited item (sentences and list items).
+export const DRAFT_LIMITS = {
+  simpleSentences: 4,
+  listMin: 2,
+  listMax: 8,
+  listItemLength: 160,
+  moreSections: 2,
+  totalItems: LIMITS.maxAnswerSentences, // 12
+  headingLength: 80,
+  limitNoteLength: 300,
+} as const;
+
+const LIST_FACETS = new Set(["steps", "conditions", "exceptions"]);
+
+/** Code, not the model, decides whether a list is permitted: steps, conditions or exceptions only.
+ * A quantity point alone never permits a list. */
+export function listPermitted(requirements: Pick<AnswerRequirement, "facet">[]): boolean {
+  return requirements.some((requirement) => LIST_FACETS.has(requirement.facet));
+}
+
+/** A limit note is allowed only for reason, objection, steps or conditions questions. */
+export function limitNotePermitted(questionType: string, requirements: Pick<AnswerRequirement, "facet">[]): boolean {
+  return questionType === "reason" || questionType === "objection"
+    || requirements.some((requirement) => requirement.facet === "steps" || requirement.facet === "conditions");
+}
+
+const SOURCE_ID_IN_TEXT = /\bQ?\d{1,3}:\d{1,3}\b|\bHE\d+\b|\bS[0-9a-f-]{36}\b/;
+
+/** One sentence in the answer language that only marks a limit: no citation, quotation or ruling. */
+export function limitNoteOk(text: string, language: Locale, sources: SourceText[]): boolean {
+  const t = text.trim();
+  return !!t && t.length <= DRAFT_LIMITS.limitNoteLength && inLanguage(t, language) && isSingleSentence(t)
+    && !hasQuotation(t) && !hasRulingTerm(t) && !SOURCE_ID_IN_TEXT.test(t)
+    && !sources.some((source) => t.includes(source.id)) && !copiesSource(t, sources);
+}
+
+/** Headings are short neutral labels. A heading that could carry a claim is replaced by a fixed one. */
+export function headingOk(text: string, language: Locale): boolean {
+  const t = text.trim();
+  return !!t && t.length <= DRAFT_LIMITS.headingLength && !/\n/.test(t) && inLanguage(t, language)
+    && isSingleSentence(t) && !hasQuotation(t) && !hasRulingTerm(t);
+}
+
+/** Fixed site headings are the only headings rendered; model-written headings are never trusted text. */
+export function fixedExplanationHeadings(language: Locale): readonly [string, string] {
+  if (language === "ar") return ["التفصيل", "تفصيل إضافي"];
+  if (language === "de") return ["Einzelheiten", "Weitere Einzelheiten"];
+  return ["Details", "Further details"];
+}
+
+/** The live writer's shape (simple_answer, list, more_explanation, limit_note). Older drafts with a
+ * flat claim array or direct_answer/explanation/not_established are read with the same checks. */
 export function parseStructuredDraft(raw: unknown, citable: SourceText[], language: Locale, policy: DraftPolicy,
   questionType: string): StructuredDraftResult {
   if (!raw || typeof raw !== "object") return { ok: false, reason: "malformed" };
   const record = raw as Record<string, unknown>;
   if (record.status === "no_answer") return { ok: false, reason: "model_no_answer" };
-  // Older checked draft records and pipeline fixtures have a flat claim array. New live requests
-  // use the structured response schema, but reading the old shape remains safe and checked.
-  if (record.status === "answer" && Array.isArray(record.claims) && !('direct_answer' in record)) {
+  const finish = (answer: StructuredDraft): StructuredDraftResult => {
+    // Every requested point must be answered in the simple answer or its list, not only in the fold.
+    const direct = [...answer.directAnswer, ...answer.list];
+    if (!policy.requirements.every((requirement) => direct.some((claim) => claim.requirementId === requirement.id))) {
+      return { ok: false, reason: "missing_requirement" };
+    }
+    // "The Quran says" must rest on a verse, never on a hadith or a scholar's words.
+    if (answer.claims.some((claim) => sourceKindMismatch(claim.text, claim.refs))) return { ok: false, reason: "source_attribution" };
+    return { ok: true, answer };
+  };
+  // Older checked draft records and pipeline fixtures have a flat claim array (at most 4 claims):
+  // all of them form the simple answer.
+  if (record.status === "answer" && Array.isArray(record.claims) && !("direct_answer" in record) && !("simple_answer" in record)) {
     const legacy = parseDraft(raw, citable, language, policy);
     if (!legacy.ok) return legacy;
-    const split = legacy.claims.length === 4 ? 2 : legacy.claims.length;
-    return { ok: true, answer: {
-      directAnswer: legacy.claims.slice(0, split),
-      explanation: split < legacy.claims.length ? [{ heading: language === "ar" ? "التفصيل" : language === "de" ? "Einzelheiten" : "Details",
-        sentences: legacy.claims.slice(split) }] : [],
-      notEstablished: [], claims: legacy.claims,
-    } };
+    return finish({ directAnswer: legacy.claims, list: [], explanation: [], notEstablished: [], claims: legacy.claims });
   }
-  if (record.status !== "answer" || !Array.isArray(record.direct_answer) || !Array.isArray(record.explanation)
-    || !Array.isArray(record.not_established)) return { ok: false, reason: "malformed" };
+  const simpleRaw = record.simple_answer ?? record.direct_answer;
+  const listRaw = record.list ?? [];
+  const sectionsRaw = record.more_explanation ?? record.explanation;
+  const notesRaw = record.limit_note ?? record.not_established;
+  if (record.status !== "answer" || !Array.isArray(simpleRaw) || !Array.isArray(listRaw) || !Array.isArray(sectionsRaw)
+    || !Array.isArray(notesRaw)) return { ok: false, reason: "malformed" };
 
-  // Layout is tidied, never a reason to discard a correct answer: every sentence below still passes
-  // the full sentence checks (sources, copying, language, quotes, one fact) in parseDraft.
+  // Layout is tidied, never a reason to discard a correct answer: every sentence and list item below
+  // still passes the full sentence checks (sources, copying, language, quotes, one fact) in parseDraft.
   const generic = language === "ar" ? "التفصيل" : language === "de" ? "Einzelheiten" : "Details";
+  const fixedHeadings = fixedExplanationHeadings(language);
   const signature = (value: string) => normalizeArabic(value.toLowerCase()).replace(/[^\p{L}\p{N}]/gu, "");
   const seen = new Set<string>();
   const unique = (items: unknown[]) => items.filter((item) => {
@@ -173,59 +235,74 @@ export function parseStructuredDraft(raw: unknown, citable: SourceText[], langua
     seen.add(key);
     return true;
   });
-  let direct = unique(record.direct_answer);
+  let direct = unique(simpleRaw);
+  let list = unique(listRaw);
   let sections: { heading: string; sentences: unknown[] }[] = [];
-  for (const section of record.explanation) {
+  for (const section of sectionsRaw) {
     if (!section || typeof section !== "object") return { ok: false, reason: "malformed" };
     const item = section as Record<string, unknown>;
     if (!Array.isArray(item.sentences)) return { ok: false, reason: "malformed" };
-    const heading = isStr(item.heading) && inLanguage(item.heading, language) && item.heading.length <= 80 && !hasQuotation(item.heading)
-      ? item.heading.trim() : generic;
     const sentences = unique(item.sentences);
     if (sentences.length === 0) continue;
     // A one-sentence section joins the previous section.
     if (sentences.length === 1 && sections.length > 0) sections[sections.length - 1].sentences.push(...sentences);
-    else sections.push({ heading, sentences });
+    else sections.push({ heading: fixedHeadings[Math.min(sections.length, 1)], sentences });
   }
   if (direct.length === 0 && sections.length > 0) {
     direct = sections[0].sentences.splice(0, 1);
     sections = sections.filter((section) => section.sentences.length > 0);
   }
   if (direct.length === 0) return { ok: false, reason: "answer_shape" };
-  if (direct.length > 3) {
-    const extra = direct.splice(3);
+  // A single valid item is not rendered as a one-item list. Keep it as a simple-answer sentence
+  // when there is room, so harmless model formatting does not discard supported content.
+  if (list.length === 1 && direct.length < DRAFT_LIMITS.simpleSentences) {
+    direct.push(list[0]);
+    list = [];
+  }
+  if (direct.length > DRAFT_LIMITS.simpleSentences) {
+    const extra = direct.splice(DRAFT_LIMITS.simpleSentences);
     if (sections.length > 0) sections[0].sentences.unshift(...extra);
     else sections.push({ heading: generic, sentences: extra });
   }
-  if (sections.length > 3) {
-    const tail = sections.splice(3).flatMap((section) => section.sentences);
-    sections[2].sentences.push(...tail);
+  if (sections.length > DRAFT_LIMITS.moreSections) {
+    const tail = sections.splice(DRAFT_LIMITS.moreSections).flatMap((section) => section.sentences);
+    sections[DRAFT_LIMITS.moreSections - 1].sentences.push(...tail);
+  }
+  // Lists are only for steps, conditions or exceptions (code decides), with 2 to 8 short items.
+  if (list.length > 0) {
+    if (!listPermitted(policy.requirements)) return { ok: false, reason: "list_not_allowed" };
+    if (list.length < DRAFT_LIMITS.listMin || list.length > DRAFT_LIMITS.listMax) return { ok: false, reason: "list_count" };
+    for (const item of list) {
+      const text = item && typeof item === "object" ? (item as Record<string, unknown>).text : undefined;
+      if (isStr(text) && text.trim().length > DRAFT_LIMITS.listItemLength) return { ok: false, reason: "claim_length" };
+    }
   }
 
-  const flattened = [...direct, ...sections.flatMap((section) => section.sentences)];
-  const parsed = parseDraft({ status: "answer", claims: flattened }, citable, language, policy, LIMITS.maxAnswerSentences);
+  const flattened = [...direct, ...list, ...sections.flatMap((section) => section.sentences)];
+  const parsed = parseDraft({ status: "answer", claims: flattened }, citable, language, policy, DRAFT_LIMITS.totalItems);
   if (!parsed.ok) return parsed;
   const notes: string[] = [];
   // A Bayan note is optional: one that breaks its rules is left out rather than failing the answer.
-  for (const note of record.not_established.slice(0, 1)) {
-    if (questionType !== "reason" && questionType !== "objection") break;
+  for (const note of notesRaw.slice(0, 1)) {
+    if (!limitNotePermitted(questionType, policy.requirements)) break;
     if (!note || typeof note !== "object") continue;
     const item = note as Record<string, unknown>;
-    if (!isStr(item.text) || !inLanguage(item.text, language) || item.text.length > 300
-      || !isSingleSentence(item.text) || hasQuotation(item.text) || copiesSource(item.text, citable)
-      || "source_ids" in item) continue;
+    if (!isStr(item.text) || "source_ids" in item || !limitNoteOk(item.text, language, citable)) continue;
     notes.push(item.text.trim());
   }
-  let cursor = direct.length;
+  let cursor = direct.length + list.length;
   const explanation = sections.map((section) => {
     const sentences = parsed.claims.slice(cursor, cursor + section.sentences.length);
     cursor += section.sentences.length;
     return { heading: section.heading, sentences };
   });
-  return { ok: true, answer: {
-    directAnswer: parsed.claims.slice(0, direct.length), explanation,
-    notEstablished: notes, claims: parsed.claims,
-  } };
+  return finish({
+    directAnswer: parsed.claims.slice(0, direct.length),
+    list: parsed.claims.slice(direct.length, direct.length + list.length),
+    explanation,
+    notEstablished: notes,
+    claims: parsed.claims,
+  });
 }
 
 // ---------- 2. one claim per item ----------
@@ -247,6 +324,28 @@ export function hasQuotation(text: string): boolean {
   return /(says|said|sagt|sagte|states|reads|قال|يقول|تقول)\s*:/iu.test(text);
 }
 
+// ---------- 3b. honest source kind and no free-text rulings ----------
+
+// Explicit source attributions must match at least one cited source of that kind. These patterns
+// target attribution wording, not every mention: "the Quran mentions the Prophet" may cite a verse,
+// while "the Prophet taught" must cite a hadith and "Shaykh X explained" must cite a scholar quote.
+const QURAN_WORD_IN_TEXT = /\b(quran|qur'an|koran)\b|القرآن|القران/iu;
+const PROPHET_ATTRIBUTION = /\b(?:the\s+)?(?:prophet|messenger)(?:\s+muhammad)?\s+(?:taught|said|stated|reported|instructed|commanded|forbade|prohibited|allowed|permitted|explained)\b|\b(?:der\s+)?prophet\s+(?:lehrte|sagte|erklärte|berichtete|befahl|verbot|erlaubte)\b|(?:قال|بيّن|بين|أوضح|علّم|علم|أمر|نهى)\s+(?:النبي|الرسول)/iu;
+const SCHOLAR_ATTRIBUTION = /\b(?:shaykh|sheikh|scheich)\b.{0,80}\b(?:explained|said|stated|ruled|held|taught|erklärte|sagte|urteilte|lehrte)\b|(?:قال|بيّن|بين|أوضح|أفتى|ذكر)\s+الشيخ/iu;
+
+export function sourceKindMismatch(text: string, refs: string[]): boolean {
+  if (QURAN_WORD_IN_TEXT.test(text) && !refs.some((id) => /^Q\d{1,3}:\d{1,3}$/.test(id))) return true;
+  if (PROPHET_ATTRIBUTION.test(text) && !refs.some((id) => /^HE\d+$/.test(id))) return true;
+  return SCHOLAR_ATTRIBUTION.test(text) && !refs.some((id) => /^S/.test(id));
+}
+
+// Headings and limit notes are not screened claim by claim, so they may not carry a ruling.
+const RULING_TERMS = /\b(halal|haram|forbidden|prohibited|obligat\w*|compulsory|permissible|permitted|allowed|lawful|unlawful|sinful|makruh|verboten|erlaubt|pflicht\w*|verpflichtend|zulässig|sünde)\b|حرام|حلال|واجب|محرم|يجوز|مباح|فرض|مكروه|يحرم|يجب/iu;
+
+export function hasRulingTerm(text: string): boolean {
+  return RULING_TERMS.test(text);
+}
+
 // ---------- 4. no re-typed verses, in any language ----------
 
 // Arabic Quran/hadith text must never be re-typed by the AI: 4 consecutive words, a whole short
@@ -254,11 +353,49 @@ export function hasQuotation(text: string): boolean {
 // Scholar explanations may need short technical terms from the credited quote. They still fail on
 // an 8-word copied clause or when a longer claim substantially follows the quote's wording.
 // Translations: 6 consecutive words, or the whole translation when it is shorter than that.
+// Honorific formulas said after the Prophet's, the Companions' or Allah's name. Hadith texts and
+// their translations repeat them around the narration, and a correct paraphrase naturally repeats
+// them too, so sharing one is not copying. They are removed from BOTH sides before comparing with a
+// hadith or a scholar quote, which keeps every real run of narration words adjacent: retyping still
+// fails, even with an honorific inserted to split it. Never applied to the Quran, whose own text
+// contains some of these words (for example رضي الله عنهم).
+const HONORIFICS_AR = [
+  "صلى الله عليه وآله وسلم", "صلى الله عليه وسلم", "عليه الصلاة والسلام", "عليه السلام",
+  "رضي الله عنهما", "رضي الله عنهم", "رضي الله عنها", "رضي الله عنه", "رحمهم الله", "رحمه الله",
+  "سبحانه وتعالى", "تبارك وتعالى", "عز وجل",
+].map(arabicWords).sort((a, b) => b.length - a.length);
+const HONORIFICS_LATIN = [
+  "may allah's peace and blessings be upon him", "peace and blessings of allah be upon him",
+  "peace and blessings be upon him", "sallallahu alayhi wa sallam", "may allah be pleased with them",
+  "may allah be pleased with both of them", "may allah be pleased with him", "may allah be pleased with her",
+  "may allah have mercy on him", "glorified and exalted be he",
+  "allahs segen und frieden auf ihm", "allah segne ihn und schenke ihm frieden", "friede und segen seien auf ihm",
+  "segen und frieden auf ihm", "möge allah mit ihm zufrieden sein", "möge allah mit ihnen zufrieden sein",
+  "möge allah zufrieden mit ihm sein",
+].map(latinWords).sort((a, b) => b.length - a.length);
+
+function withoutPhrases(words: string[], phrases: string[][]): string[] {
+  const out: string[] = [];
+  for (let i = 0; i < words.length;) {
+    const hit = phrases.find((phrase) => phrase.length > 0 && phrase.every((word, k) => words[i + k] === word));
+    if (hit) i += hit.length;
+    else out.push(words[i++]);
+  }
+  return out;
+}
+
 export function copiesSource(text: string, sources: SourceText[]): boolean {
-  const ar = arabicWords(text);
-  const lat = latinWords(text);
+  const claimAr = arabicWords(text);
+  const claimLat = latinWords(text);
+  const strippedAr = withoutPhrases(claimAr, HONORIFICS_AR);
+  const strippedLat = withoutPhrases(claimLat, HONORIFICS_LATIN);
   for (const s of sources) {
-    const vs = arabicWords(s.arabic);
+    const honorificsRemoved = s.kind !== "quran";
+    const ar = honorificsRemoved ? strippedAr : claimAr;
+    const lat = honorificsRemoved ? strippedLat : claimLat;
+    const vs = honorificsRemoved
+      ? withoutPhrases(arabicWords(s.arabic), HONORIFICS_AR)
+      : arabicWords(s.arabic);
     if (ar.length >= 1 && vs.length > 0) {
       if (s.kind === "scholar") {
         if (ar.length >= 8 && vs.length >= 8) {
@@ -285,7 +422,7 @@ export function copiesSource(text: string, sources: SourceText[]): boolean {
     }
     for (const tr of Object.values(s.translations)) {
       if (!tr) continue;
-      const tw = latinWords(tr);
+      const tw = honorificsRemoved ? withoutPhrases(latinWords(tr), HONORIFICS_LATIN) : latinWords(tr);
       const n = Math.min(6, tw.length);
       if (n === 0 || lat.length < n) continue;
       const tg = grams(tw, n);
@@ -381,6 +518,19 @@ export function missingListedItems(question: string, language: Locale, sources: 
   return missing;
 }
 
+/** Some high-impact procedures are complete only when the sealed source itself contains every
+ * indispensable item. This gate can only refuse; it never supplies religious content. */
+export function requiredSourceItemsPresent(question: string, sources: SourceText[]): boolean {
+  const asksWhyFivePrayers = /why.{0,35}(?:(?:five|5).{0,25}pray|pray.{0,25}(?:five|5))|warum.{0,35}(?:(?:f(?:u|ü)nf|5).{0,25}(?:gebet|mal)|(?:bet|gebet).{0,25}(?:f(?:u|ü)nf|5))|(?:لماذا|ما الحكمة).{0,35}(?:(?:خمس|٥).{0,25}صل|صل.{0,25}(?:خمس|٥))/iu.test(question);
+  // The current sealed library has texts about the number and reward of the prayers, but no direct
+  // approved source explaining why five were prescribed. Refuse until that source is added.
+  if (asksWhyFivePrayers) return false;
+
+  if (!/convert|become muslim|muslim werden|konvertier|أسلم|أصبح مسلما/i.test(question)) return true;
+  const source = normalizeArabic(sources.map((item) => item.arabic).join(" "));
+  return /لا اله الا الله/.test(source) && /محمد(?:ا)? رسول الله/.test(source);
+}
+
 // ---------- 6. questions that need extra care ----------
 
 // Questions about the visitor's own situation. Code rule on top of the AI's classification;
@@ -416,6 +566,11 @@ const NAMED_PASSAGES: [RegExp, string[]][] = [
   [/ayat[\s-]*(?:al|ul|el)?[\s-]*kurs[iy]|throne\s*verse|thronvers|آي[ةه]\s*الكرسي/i, ["2:255"]],
   [/(?:al|el)?[\s-]*f[aā]ti[hḥ]a|الفاتح[ةه]/i, ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:7"]],
 ];
+
+/** Complete passages named by their well-known name, as internal ids ("Q1:1" ... "Q1:7"). */
+export function namedPassageGroups(question: string): string[][] {
+  return NAMED_PASSAGES.filter(([pattern]) => pattern.test(question)).map(([, keys]) => keys.map((key) => `Q${key}`));
+}
 
 export function directRefs(question: string): string[] {
   const named = NAMED_PASSAGES.flatMap(([pattern, keys]) => (pattern.test(question) ? keys : []));

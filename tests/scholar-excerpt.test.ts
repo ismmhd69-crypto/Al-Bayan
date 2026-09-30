@@ -11,6 +11,12 @@ import {
   searchText,
   sharesContentWord,
   startsLikeRoomTalk,
+  stripOpeningFormula,
+  stripLetterHeading,
+  stripLetterAndFormula,
+  isUthaymeenTafsirLesson,
+  quoteStemSet,
+  isNearDuplicate,
 } from "@/lib/sources/scholar-excerpt";
 
 const page = `<html><body><nav>قائمة الموقع</nav>
@@ -272,5 +278,62 @@ describe("looksLikeQuestion", () => {
     expect(looksLikeQuestion("ما حكم كذا وكذا")).toBe(true);
     expect(looksLikeQuestion("نص فيه سؤال في أوله؟ ثم كلام")).toBe(true);
     expect(looksLikeQuestion("الواجب على المسلم أن يتقي الله.")).toBe(false);
+  });
+});
+
+describe("Rules 1 to 5: quote cleaning and relevance", () => {
+  it("Rule 1: stripOpeningFormula removes Basmalah and Hamd up to أما بعد", () => {
+    const raw = "بسم الله الرحمن الرحيم، الحمد لله رب العالمين والصلاة والسلام على رسول الله، أما بعد: فالصيام ركن من أركان الإسلام العظيمة.";
+    expect(stripOpeningFormula(raw)).toBe("فالصيام ركن من أركان الإسلام العظيمة.");
+  });
+
+  it("Rule 2: stripLetterHeading removes letter greetings, headings, and signoffs", () => {
+    const letter = "من عبدالعزيز بن عبدالله بن باز إلى حضرة الأخ المكرم سلام عليكم ورحمة الله وبركاته، أما بعد: فالذي نفتي به أن الواجب تقوى الله. والله الموفق.";
+    expect(stripLetterHeading(letter)).toBe("فالذي نفتي به أن الواجب تقوى الله.");
+    expect(stripLetterAndFormula(letter)).toBe("فالذي نفتي به أن الواجب تقوى الله.");
+  });
+
+  it("Rule 3: multi-question selection takes the answer matching the title", () => {
+    const multiPage = `<article class="fatwa"><h1>حكم صيام المريض</h1>
+      <div>الجواب: أولًا: الصلاة واجبة في وقتها على كل مسلم ومسلمة. ثانيًا: الصيام يسقط عن المريض الذي يشق عليه الصوم ويقضي بعد شفائه.</div>
+    </article>`;
+    const f = parseBinBazFatwa(multiPage)!;
+    expect(f).not.toBeNull();
+    expect(f.title).toBe("حكم صيام المريض");
+    expect(f.answer).toContain("الصيام يسقط عن المريض الذي يشق عليه الصوم");
+    expect(f.answer).not.toContain("أولًا: الصلاة واجبة");
+  });
+
+  it("Rule 4: isUthaymeenTafsirLesson rejects tafsir lessons and parseUthaymeenFatwa skips them", () => {
+    expect(isUthaymeenTafsirLesson("تفسير سورة البقرة")).toBe(true);
+    expect(isUthaymeenTafsirLesson("تفسير آيات من سورة آل عمران")).toBe(true);
+    expect(isUthaymeenTafsirLesson("في ظلال سورة الفاتحة")).toBe(true);
+    expect(isUthaymeenTafsirLesson("حكم صوم رمضان")).toBe(false);
+
+    const tafsirHtml = `<article><h1>تفسير سورة البقرة</h1><p><span class="sidetitle">الجواب:</span></p><div class="fatwah-ans-cont"><p>هذه السورة الكريمة من أعظم سور القرآن الكريم وتضمنت أحكاما جليلة.</p></div></article>`;
+    expect(parseUthaymeenFatwa(tafsirHtml, { title: "تفسير سورة البقرة" })).toBeNull();
+  });
+
+  it("Rule 5: sharesContentWord and 200 character minimum", () => {
+    const title = "حكم زكاة الفطر";
+    const matchingQuote = "زكاة الفطر فريضة فرضها رسول الله صلى الله عليه وسلم صاعاً من تمر أو صاعاً من شعير على العبد والحر والذكر والأنثى والصغير والكبير من المسلمين وأمر بها أن تؤدى قبل خروج الناس إلى الصلاة.";
+    expect(sharesContentWord(title, matchingQuote)).toBe(true);
+    expect(matchingQuote.length).toBeGreaterThanOrEqual(180);
+
+    const unsharedQuote = "الصلاة هي الركن الثاني من أركان الإسلام الخمسة بعد الشهادتين، وقد فرضها الله تعالى على نبيه في ليلة الإسراء والمعراج خمس صلوات في اليوم والليلة.";
+    expect(sharesContentWord(title, unsharedQuote)).toBe(false);
+  });
+
+  it("deduplication: isNearDuplicate identifies near-identical content", () => {
+    const q1 = "صوم التطوع سنة وقربة عظيمة إلى الله تعالى، وقد رغب النبي صلى الله عليه وسلم في الصيام وحث عليه في أحاديث كثيرة.";
+    const q2 = "صوم التطوع سنة عظيمة وقربة يتقرب بها المسلم إلى الله، وقد رغب النبي عليه الصلاة والسلام في الصوم وحث عليه.";
+    const q3 = "الزكاة ركن من أركان الإسلام الخمسة تجب في الأموال بشروط مخصوصة وأنصبة مقدرة شرعا.";
+
+    const stems1 = quoteStemSet(q1);
+    const stems2 = quoteStemSet(q2);
+    const stems3 = quoteStemSet(q3);
+
+    expect(isNearDuplicate(stems2, [stems1])).toBe(true);
+    expect(isNearDuplicate(stems3, [stems1])).toBe(false);
   });
 });
