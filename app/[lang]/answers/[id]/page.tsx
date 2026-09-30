@@ -9,6 +9,7 @@ import { PREPARED_ANSWERS } from "@/data/prepared-answers";
 import { steps } from "@/data/steps";
 import AskAboutButton from "@/components/AskAboutButton";
 import PreparedAnswer from "@/components/PreparedAnswer";
+import { AnswerV2View } from "@/components/AnswerV2View";
 
 type Params = Promise<{ lang: string; id: string }>;
 
@@ -33,7 +34,10 @@ export default async function AnswerPage({ params }: { params: Params }) {
   const dict = getDictionary(lang);
   // Only answers Mo approved on the review page are shown; otherwise "preparing".
   const decisions = await getReviewDecisions("prepared").catch(() => ({} as Awaited<ReturnType<typeof getReviewDecisions>>));
-  const answer = await loadPrepared({ ...file, status: decisions[id]?.status ?? "draft" }, lang);
+  // An approval counts only for the exact content that was reviewed (its fingerprint is stored with the decision).
+  const answer = await loadPrepared({ ...file, status: decisions[id]?.status ?? "draft" }, lang, {
+    approvalHash: decisions[id]?.contentHash ?? undefined,
+  });
 
   return (
     <article className="page">
@@ -48,7 +52,7 @@ export default async function AnswerPage({ params }: { params: Params }) {
       </header>
 
       {answer ? (
-        <PreparedAnswer a={answer} t={dict.ask} id={0} />
+        answer.v2 ? <AnswerV2View answer={answer.v2} t={dict.ask} id={0} /> : <PreparedAnswer a={answer} t={dict.ask} id={0} />
       ) : (
         <div className="card card-soft">
           <Hourglass aria-hidden="true" className="card-icon" />

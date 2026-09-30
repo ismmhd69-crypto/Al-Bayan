@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getPopularQuestions } from "@/lib/content";
-import AskChat from "@/components/AskChat";
+import AskWorkspace from "@/components/AskWorkspace";
+import { chatText } from "@/lib/chat-text";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -18,9 +19,10 @@ export default async function AskPage({ params }: { params: Promise<{ lang: stri
   const suggestions = await getPopularQuestions(lang, 3);
 
   return (
-    <AskChat
+    <AskWorkspace
       lang={lang}
       t={t.ask}
+      chat={chatText[lang]}
       backLabel={t.common.back}
       suggestions={suggestions}
       testMode={process.env.QURAN_API_ENV !== "production"}

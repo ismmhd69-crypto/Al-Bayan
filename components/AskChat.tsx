@@ -14,10 +14,12 @@ import PreparedAnswer from "./PreparedAnswer";
 type AskText = Dictionary["ask"];
 
 type Reply = { kind: "not_ready" } | { kind: "text"; text: string } | { kind: "answer"; answer: Answer };
-type NewMessage = { role: "user"; text: string } | { role: "bayan"; reply: Reply };
+export type NewMessage = { role: "user"; text: string } | { role: "bayan"; reply: Reply };
 type Message = NewMessage & { id: number };
 
 const MAX = 500;
+// Only real answers and the fixed "no source / personal / out of scope" replies are worth saving in a chat.
+const SAVED_STATUSES = new Set(["answer", "no_source", "ask_scholar", "out_of_scope"]);
 
 export default function AskChat({
   lang,
@@ -25,17 +27,24 @@ export default function AskChat({
   backLabel,
   suggestions,
   testMode,
+  initialMessages,
+  onExchange,
+  headerExtra,
 }: {
   lang: string;
   t: AskText;
   backLabel: string;
   suggestions: string[];
   testMode: boolean;
+  // Optional, for saved chats: earlier messages to show, a call after each finished answer, and extra header content.
+  initialMessages?: NewMessage[];
+  onExchange?: (question: string, reply: { kind: "answer"; answer: Answer } | { kind: "text"; text: string }) => void;
+  headerExtra?: React.ReactNode;
 }) {
-  const [messages, setMessages] = useState<Message[]>([]);
+  const [messages, setMessages] = useState<Message[]>(() => (initialMessages ?? []).map((m, i) => ({ ...m, id: i + 1 })));
   const [value, setValue] = useState("");
   const [busy, setBusy] = useState(false);
-  const nextId = useRef(1);
+  const nextId = useRef((initialMessages?.length ?? 0) + 1);
   const endRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const started = useRef(false);
@@ -88,6 +97,10 @@ export default function AskChat({
                   : data.status === "too_long"
                     ? { kind: "text", text: t.tooLong }
                     : { kind: "text", text: t.error };
+      if (onExchange && data.status && SAVED_STATUSES.has(data.status)) {
+        if (reply.kind === "answer") onExchange(question, { kind: "answer", answer: reply.answer });
+        else if (reply.kind === "text") onExchange(question, { kind: "text", text: reply.text });
+      }
       push({ role: "bayan", reply });
     } catch {
       push({ role: "bayan", reply: { kind: "text", text: t.error } });
@@ -110,6 +123,7 @@ export default function AskChat({
         </Link>
         <Beacon size={24} />
         <h1>{t.title}</h1>
+        {headerExtra}
       </header>
 
       <p className="chat-notice">

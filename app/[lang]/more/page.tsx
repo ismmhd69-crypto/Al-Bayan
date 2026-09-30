@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Bookmark, ChevronRight, Flag, HeartHandshake, Info, Lock, UserRound, type LucideIcon } from "lucide-react";
+import { Bookmark, ChevronRight, Flag, HeartHandshake, Info, Lock, type LucideIcon } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import LangSwitch from "@/components/LangSwitch";
+import AccountRow from "@/components/AccountRow";
+import { authText } from "@/lib/auth-text";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   return isLocale(lang) ? { title: getDictionary(lang).more.title } : {};
 }
 
-type Row = { Icon: LucideIcon; title: string; note?: string; href?: string };
+type Row = { Icon: LucideIcon; title: string; note?: string; href?: string; custom?: React.ReactNode };
 
 export default async function MorePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -20,7 +22,11 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
 
   const rows: Row[][] = [
     [
-      { Icon: UserRound, title: t.account, note: `${t.accountNote} ${d.common.comingSoon}.` },
+      {
+        Icon: Bookmark,
+        title: t.account,
+        custom: <AccountRow href={`/${lang}/account`} signInTitle={t.account} signInNote={t.accountNote} accountTitle={authText[lang].title} />,
+      },
       { Icon: Bookmark, title: t.saved, note: d.common.comingSoon },
     ],
     [
@@ -46,7 +52,8 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
 
       {rows.map((group, i) => (
         <ul key={i} className="list">
-          {group.map(({ Icon, title, note, href }) => {
+          {group.map(({ Icon, title, note, href, custom }) => {
+            if (custom) return <li key={title}>{custom}</li>;
             const inner = (
               <>
                 <Icon aria-hidden="true" className="row-icon" />

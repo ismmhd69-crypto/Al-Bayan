@@ -1,0 +1,141 @@
+/* Optional account form. Uses the site's tokens; logical properties so Arabic flips cleanly. */
+.panel {
+  display: grid;
+  gap: 16px;
+  max-inline-size: 440px;
+}
+.form {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.form h2 {
+  font-size: var(--fs-xl);
+}
+.field {
+  display: grid;
+  gap: 6px;
+}
+.field label {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  color: var(--ink-2);
+}
+.hint {
+  font-size: var(--fs-xs);
+  color: var(--ink-3);
+}
+.input {
+  inline-size: 100%;
+  min-block-size: 46px;
+  padding: 10px 14px;
+  border: 1px solid var(--line-2);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: var(--fs-md);
+}
+.input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.passwordRow {
+  position: relative;
+  display: grid;
+}
+.passwordRow .input {
+  padding-inline-end: 52px;
+}
+.toggle {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-end: 0;
+  display: grid;
+  place-items: center;
+  inline-size: 48px;
+  border: 0;
+  background: none;
+  color: var(--ink-3);
+}
+.toggle:hover {
+  color: var(--accent);
+}
+.toggle svg {
+  inline-size: 18px;
+  block-size: 18px;
+}
+.consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}
+.consent input {
+  flex-shrink: 0;
+  inline-size: 20px;
+  block-size: 20px;
+  margin-block-start: 2px;
+  accent-color: var(--accent);
+}
+.links {
+  display: grid;
+  gap: 4px;
+  justify-items: start;
+}
+.link {
+  min-block-size: 36px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-align: start;
+}
+.message {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: var(--fs-sm);
+}
+.ok {
+  border: 1px solid var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--accent-hover);
+}
+.error {
+  border: 1px solid #e6c1bd;
+  background: #fbefee;
+  color: #8a2a22;
+}
+.who {
+  overflow-wrap: anywhere;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.danger {
+  border-color: #e6c1bd;
+  color: #8a2a22;
+}
+.confirm {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #e6c1bd;
+  border-radius: 10px;
+  background: #fbefee;
+  font-size: var(--fs-sm);
+  color: #8a2a22;
+}
+.confirmRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
