@@ -25,22 +25,36 @@ async function main() {
     fs.mkdirSync(dir, { recursive: true });
   }
 
-  // 1. Get all fatwa translations already present (en and de)
-  const { data: doneTranslations, error: transError } = await db
-    .from("source_translations")
-    .select("source_id, lang")
-    .in("lang", ["en", "de"]);
-
-  if (transError) {
-    throw new Error(`Failed to fetch source_translations: ${transError.message}`);
-  }
-
+  // 1. Get all fatwa translations already present (en and de) in pages of 1000
   const completedMap = new Map<string, Set<string>>();
-  for (const row of doneTranslations ?? []) {
-    if (!completedMap.has(row.source_id)) {
-      completedMap.set(row.source_id, new Set());
+  const TRANS_PAGE_SIZE = 1000;
+  let transFrom = 0;
+  while (true) {
+    const { data: doneTranslations, error: transError } = await db
+      .from("source_translations")
+      .select("source_id, lang")
+      .in("lang", ["en", "de"])
+      .range(transFrom, transFrom + TRANS_PAGE_SIZE - 1);
+
+    if (transError) {
+      throw new Error(`Failed to fetch source_translations: ${transError.message}`);
     }
-    completedMap.get(row.source_id)!.add(row.lang);
+
+    if (!doneTranslations || doneTranslations.length === 0) {
+      break;
+    }
+
+    for (const row of doneTranslations) {
+      if (!completedMap.has(row.source_id)) {
+        completedMap.set(row.source_id, new Set());
+      }
+      completedMap.get(row.source_id)!.add(row.lang);
+    }
+
+    if (doneTranslations.length < TRANS_PAGE_SIZE) {
+      break;
+    }
+    transFrom += TRANS_PAGE_SIZE;
   }
 
   // Read skipped / Needs Mo IDs from docs/translation-log.md

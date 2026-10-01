@@ -14,12 +14,22 @@ async function main() {
 
   console.log(`Total published fatwas in sources: ${totalPublishedFatwas}`);
 
-  const { data: translations, error: err2 } = await db
-    .from("source_translations")
-    .select("source_id, lang, origin, translator, published");
-  if (err2) throw err2;
+  const translations: Array<{ source_id: string; lang: string; origin: string; translator: string; published: boolean }> = [];
+  const PAGE_SIZE = 1000;
+  let from = 0;
+  while (true) {
+    const { data, error } = await db
+      .from("source_translations")
+      .select("source_id, lang, origin, translator, published")
+      .range(from, from + PAGE_SIZE - 1);
+    if (error) throw error;
+    if (!data || data.length === 0) break;
+    translations.push(...data);
+    if (data.length < PAGE_SIZE) break;
+    from += PAGE_SIZE;
+  }
 
-  console.log(`Total rows in source_translations: ${translations?.length ?? 0}`);
+  console.log(`Total rows in source_translations: ${translations.length}`);
 
   const langMap = new Map<string, Set<string>>();
   for (const t of translations ?? []) {
