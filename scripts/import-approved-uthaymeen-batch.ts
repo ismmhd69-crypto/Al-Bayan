@@ -31,9 +31,18 @@ async function main() {
   const items = decisions.approved.map((i) => batch.candidates[i - 1]);
   if (items.some((c) => !c)) throw new Error("approved number out of range");
 
-  const { data: existing, error: exErr } = await db.from("sources").select("url").eq("scholar_id", "ibn-uthaymeen");
-  if (exErr) throw exErr;
-  const have = new Set((existing ?? []).map((r) => r.url.split("/").pop()));
+  const readAll = async () => {
+    const out: Array<{ id: string; url: string }> = [];
+    for (let from = 0; ; from += 1000) {
+      const { data, error } = await db.from("sources").select("id, url").eq("scholar_id", "ibn-uthaymeen").range(from, from + 999);
+      if (error) throw error;
+      out.push(...(data ?? []));
+      if (!data || data.length < 1000) break;
+    }
+    return out;
+  };
+  const existing = await readAll();
+  const have = new Set(existing.map((r) => r.url.split("/").pop()));
   let stored = 0;
   for (const c of items) {
     if (have.has(c.lessonId)) { console.log(`[skip existing] ${c.lessonId}`); continue; }
@@ -67,8 +76,7 @@ async function main() {
 
   // Verify in the database: rows and approved search documents for this batch.
   const ids = items.map((c) => c.lessonId);
-  const { data: rows, error: vErr } = await db.from("sources").select("id, url").eq("scholar_id", "ibn-uthaymeen");
-  if (vErr) throw vErr;
+  const rows = await readAll();
   const mine = (rows ?? []).filter((r) => ids.includes(r.url.split("/").pop()!));
   const { count: docs } = await db.from("source_search_documents").select("id", { count: "exact", head: true }).in("source_id", mine.map((r) => r.id)).eq("approved", true);
   console.log(`Batch ${num}: stored ${stored} of ${items.length}; in database for this batch: ${mine.length} rows, ${docs} approved search documents; Ibn Uthaymeen rows now: ${rows?.length}`);

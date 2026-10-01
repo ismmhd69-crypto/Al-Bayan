@@ -393,3 +393,48 @@ Official route used: section listing API, see `docs/uthaymeen-official-routes.md
 - NEEDS MO #39 "هل تشرع البسملة والاستعاذة في كل ركعة ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B328%5D/%D9%87%D9%84-%D8%AA%D8%B4%D8%B1%D8%B9-%D8%A7%D9%84%D8%A8%D8%B3%D9%85%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%B0%D8%A9-%D9%81%D9%8A-%D9%83%D9%84-%D8%B1%D9%83%D8%B9%D8%A9-%D8%9F/ddf46b24-0411-44a8-95ef-62e6fcb31df0): Gives two scholarly views on the isti'adha in every rak'ah without choosing, next to a ruling on the basmalah
 - NEEDS MO #44 "حكم تفسير القرآن بالرأي" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B329%5D/%D8%AD%D9%83%D9%85-%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A8%D8%A7%D9%84%D8%B1%D8%A3%D9%8A/0e142cd3-8f05-45eb-953c-256e6f0b8885): Quotes 'whoever speaks about the Quran by his own opinion' without saying it is sound
 - NEEDS MO #47 "معنى حديث : " ليس منا من لم يتغنَّ بالقرآن "" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B330%5D/%D9%85%D8%B9%D9%86%D9%89-%D8%AD%D8%AF%D9%8A%D8%AB-%3A-%22-%D9%84%D9%8A%D8%B3-%D9%85%D9%86%D8%A7-%D9%85%D9%86-%D9%84%D9%85-%D9%8A%D8%AA%D8%BA%D9%86%D9%91%D9%8E-%D8%A8%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%22/8dda8a58-6741-4662-bff0-efa8d1dc21b9): Lists two scholarly explanations of the hadith 'not one of us who does not chant the Quran' without choosing one
+
+## Batch 022: 36 approved, 14 rejected, 0 needs Mo. Running total stored this run: 757
+
+- Rejected #2 "حلف يمينا ثم تراجع عنه فماذا يلزمه ؟": Depends on the case ('what he swore against his son'), needs the question
+- Rejected #4 "حكم هجر الزوج لزوجته سنة كاملة": Ends with a garbled verse reference and 'consider the words of Allah'
+- Rejected #6 "حكم متابعة المرأة لصلاة الإمام عن طريق التلفاز": Near duplicate of the stored answer on following the imam through radio or television
+- Rejected #9 "تغطية المرأة المحرمة لوجهها عند الرجال الأجانب": Near duplicate of the stored answer on a woman covering her face in ihram
+- Rejected #14 "التفصيل في أحكام المسح على الخفين": Near duplicate of the stored answer on wiping over socks
+- Rejected #15 "حكم اقتداء بعض النساء بإمام مسجد الحي": Near duplicate of the stored answer on praying behind an imam from outside the mosque
+- Rejected #21 "هل التدخين محرم شرعا ؟": Near duplicate of the stored answers on smoking
+- Rejected #26 "هل يكبر أثناء سجود التلاوة في الصلاة ؟": Near duplicate of the stored answer on takbir for the prostration of recitation
+- Rejected #27 "حكم الإنصات إلى تلاوة قارىء القرآن في غير الصلاة": Cut off after naming Imam Ahmad, the point is not finished
+- Rejected #29 "حكم صلاة النساء جماعة في البيت لتعذر وجود مسجد": Near duplicate of the stored answer on women praying Eid at home
+- Rejected #31 "حكم قص المرأة لشعرها تجملا لزوجها": Near duplicate of the stored answer on women cutting their hair
+- Rejected #39 "تاب من غيبة الآخرين وتصدق عليهم فهل تقبل توبته ؟": Near duplicate of the stored answer on repenting from backbiting
+- Rejected #46 "حكم كشف المرأة ليديها في الصلاة": Near duplicate of the stored answer on a woman uncovering her hands in prayer
+- Rejected #48 "هل فرق المرأة لشعرها من الجنب..يدخل في حديث : " مميلات مائلات "": Near duplicate of the stored answer on parting the hair to one side
+
+## Batch 023: 39 approved, 9 rejected, 2 needs Mo. Running total stored this run: 796
+
+- Rejected #2 "التثاؤب من الشيطان سواء كان في الصلاة أو خارجها": Near duplicate of the stored answers on yawning
+- Rejected #10 "حكم قراءة سورة " يس " جماعة عند الدفن": Near duplicate of the stored answer on reading Ya-Sin at the graveyard
+- Rejected #12 "تحية المسجد تدخل في راتبة الظهر": Ends with the presenter's courtesy ('may Allah be good to you')
+- Rejected #13 "حكم جلوس النفساء مدة أربعين يوما لا تصلي...مع أنها قد طهرت ؟": Near duplicate of the stored answer on postpartum bleeding
+- Rejected #36 "من نام عن وتره فهل له قضاءه إذا أصبح ؟": Near duplicate of the stored answers on making up the witr prayer
+- Rejected #38 "متى يجوز الكذب ؟": Near duplicate of the stored answer on when lying is allowed
+- Rejected #40 "فاتته صلوات في الماضي ولا يذكر عددها فماذا يفعل ؟": Overlaps item #3 in the same batch (missed prayers)
+- Rejected #44 "حكم التلفظ بنية الصيام": Near duplicate of the stored answers on pronouncing the intention
+- Rejected #47 "هل لمس المرأة ينقض الوضوء ؟": Near duplicate of the stored answer on touching a woman and wudu
+- NEEDS MO #7 "حكم دفع الزكاة لشخص لا يصلي" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B341%5D/%D8%AD%D9%83%D9%85-%D8%AF%D9%81%D8%B9-%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9-%D9%84%D8%B4%D8%AE%D8%B5-%D9%84%D8%A7-%D9%8A%D8%B5%D9%84%D9%8A/0c53ab20-1fa1-4ca7-898b-e3c64f1af053): Sensitive: says someone who never prays is an apostate and may not be given zakat
+- NEEDS MO #32 "حكم من كذب بالبعث بعد الموث" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B345%5D/%D8%AD%D9%83%D9%85-%D9%85%D9%86-%D9%83%D8%B0%D8%A8-%D8%A8%D8%A7%D9%84%D8%A8%D8%B9%D8%AB-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D9%85%D9%88%D8%AB/4cb224a2-24df-440d-bdcd-8cb6949e196a): Sensitive: says someone who denies the resurrection is an apostate and is to be reported to the authorities who carry out the apostasy ruling
+
+## Batch 024: 39 approved, 10 rejected, 1 needs Mo. Running total stored this run: 835
+
+- Rejected #3 "متى وقت أذكار الصباح والمساء": Near duplicate of the stored answer on the times of the morning and evening adhkar
+- Rejected #16 "لا يجيد قراءة القرآن فهل يؤم الناس في الصلاة ؟": Near duplicate of the stored answer on the imam who cannot recite well
+- Rejected #20 "حكم الدخول مع من يصلي العشاء بنية صلاة المغرب": Near duplicate of the stored answer on entering the Isha prayer with the intention of Maghrib
+- Rejected #24 "هل للمرأة أن تزوج نفسها إذا امتنع وليها من تزويجها ؟": Near duplicate of the stored answers on a woman marrying herself
+- Rejected #29 "حكم شراء الذهب بالتقسيط": Says there are two kinds but the quote covers only the first
+- Rejected #33 "رمى الجمرات في أيام التشريق بعد منتصف الليل": Depends on a detail not given ('which day he stoned')
+- Rejected #34 "هل يعد فعله سفرا ؟": Starts mid-answer, depends on the case in the question
+- Rejected #41 "هل تنزع سن الذهب من الميت قبل دفنه ؟": Near duplicate of the stored answer on gold teeth of the dead
+- Rejected #45 "حكم استخدام آلة الصعق لقتل الحشرات": Near duplicate of the stored answer on killing insects by electric shock
+- Rejected #48 "لديه سيارة أجرة يعمل عليها فهل فيها الزكاة؟": Near duplicate of the stored answer on zakat on taxis
+- NEEDS MO #26 "حكم أخذ أحد الشركاء من مال الشركة لشراء دخان" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B353%5D/%D8%AD%D9%83%D9%85-%D8%A3%D8%AE%D8%B0-%D8%A3%D8%AD%D8%AF-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%A1-%D9%85%D9%86-%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%84%D8%B4%D8%B1%D8%A7%D8%A1-%D8%AF%D8%AE%D8%A7%D9%86/2c485725-48a6-4469-8710-67feb488e25a): Quotes the hadith qudsi 'I am the third of two partners' without saying it is sound
