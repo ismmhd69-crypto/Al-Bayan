@@ -438,3 +438,74 @@ Official route used: section listing API, see `docs/uthaymeen-official-routes.md
 - Rejected #45 "حكم استخدام آلة الصعق لقتل الحشرات": Near duplicate of the stored answer on killing insects by electric shock
 - Rejected #48 "لديه سيارة أجرة يعمل عليها فهل فيها الزكاة؟": Near duplicate of the stored answer on zakat on taxis
 - NEEDS MO #26 "حكم أخذ أحد الشركاء من مال الشركة لشراء دخان" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B353%5D/%D8%AD%D9%83%D9%85-%D8%A3%D8%AE%D8%B0-%D8%A3%D8%AD%D8%AF-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%A1-%D9%85%D9%86-%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%84%D8%B4%D8%B1%D8%A7%D8%A1-%D8%AF%D8%AE%D8%A7%D9%86/2c485725-48a6-4469-8710-67feb488e25a): Quotes the hadith qudsi 'I am the third of two partners' without saying it is sound
+
+## Batch 025: 38 approved, 10 rejected, 2 needs Mo. Running total stored this run: 873
+
+- Rejected #9 "يوتر آخر الليل إلى قبيل صلاة الفجر بساعة فهل هذا من قيام الليل؟": Ends with the filler 'نعم. .'
+- Rejected #14 "هل يؤجر الإنسان على ما يصيبه من مصائب في الدنيا؟": Near duplicate of the stored answers on calamities and reward
+- Rejected #21 "يريد الحج وعليه دين لشخص وقد بحث عنه ولم يجده": Near duplicate of the stored answers on hajj with a debt
+- Rejected #26 "هل تغني صلاة العيد عن الجمعة إذا حضر صلاة العيد؟": Near duplicate of the stored answer on Eid falling on Friday
+- Rejected #27 "وجه الفرق بين قوله تعالى: (نحن نرزقهم وإياكم) وقوله: (نحن نرزقكم وإياهم)": Tafsir (the difference between two verses)
+- Rejected #32 "متى تقضى صلاة الوتر بالنهار؟": Near duplicate of the stored answers on making up the witr prayer
+- Rejected #35 "هل تجديد أثاث البيت يعد من الإسراف؟": Says there are two kinds of renewing furniture but the quote covers only the first
+- Rejected #38 "المطلقة الرجعية لها أن تخرج من البيت ليلا أو نهارا بخلاف المحادة؟": Near duplicate of the stored answer on a divorced woman leaving her house
+- Rejected #39 "حكم الغش في الامتحانات": Starts by saying the question needs no answer, depends on the asker
+- Rejected #48 "هل المني والمذي نجسان؟": Garbled list of the kinds of impurity on the official page
+- NEEDS MO #22 "هل يدعى بالمغفرة لمن مات وهو لا يصلي؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B362%5D/%D9%87%D9%84-%D9%8A%D8%AF%D8%B9%D9%89-%D8%A8%D8%A7%D9%84%D9%85%D8%BA%D9%81%D8%B1%D8%A9-%D9%84%D9%85%D9%86-%D9%85%D8%A7%D8%AA-%D9%88%D9%87%D9%88-%D9%84%D8%A7-%D9%8A%D8%B5%D9%84%D9%8A%D8%9F/a232d780-8c29-4547-b5dc-088d9fd951e5): Sensitive: says not to pray for forgiveness for someone who died without ever praying because he died a disbeliever
+- NEEDS MO #25 "من لا يصلي إلا الجمعة هل يكون كافراً؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B362%5D/%D9%85%D9%86-%D9%84%D8%A7-%D9%8A%D8%B5%D9%84%D9%8A-%D8%A5%D9%84%D8%A7-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-%D9%87%D9%84-%D9%8A%D9%83%D9%88%D9%86-%D9%83%D8%A7%D9%81%D8%B1%D8%A7%D9%8B%D8%9F/2bee1542-5181-4560-aab7-77316fa6bb37): Sensitive: says a person who prays only the Friday prayer is a disbeliever according to some scholars, then gives his own narrower view
+
+## Batch 026: 32 approved, 17 rejected, 1 needs Mo. Running total stored this run: 905
+
+- Rejected #5 "هل تجب صلاة الجماعة في المسجد على المسافر؟": Near duplicate of the stored answer on congregational prayer for the traveler
+- Rejected #7 "حكم خيانة الأمانة": Starts with a long praise preamble
+- Rejected #9 "حكم جهر بعض المؤذنين بالصلاة على النبي بعد الأذان": Near duplicate of the stored answer on the muezzin adding salawat after the adhan
+- Rejected #10 "له خالات كبار في السن هل لهن أن يكشفن على أبيه؟": Confusing: refers to 'his father' and the aunts without saying whose
+- Rejected #16 "هل يكبر للنزول لسجود التلاوة والرفع منه؟": Near duplicate of the stored answers on takbir for the prostration of recitation
+- Rejected #17 "هل للصائم أن يأكل ويشرب وقت أذان الفجر": Near duplicate of the stored answer on when to stop eating before fajr
+- Rejected #20 "شروط المسح على الجوربين": Near duplicate of the stored answers on wiping over socks
+- Rejected #25 "مسبوق فاتته ركعتان فهل يقرأ الفاتحة وسوة عند قضائهما؟": Near duplicate of the stored answer on how the latecomer completes his prayer
+- Rejected #27 "حكم وضع القرآن في السيارة حفظاً من العين": Near duplicate of the stored answer on the mushaf in the car
+- Rejected #31 "ما هو الحوض المورود؟": Near duplicate of the stored answer on the Hawd and the Kawthar
+- Rejected #34 "هل يجوز الوضوء داخل الحمام؟": Near duplicate of the stored answer on wudu inside the bathroom
+- Rejected #35 "وافق العيد يوم الجمعة فصلى الإمام الظهر بدل الجمعة": Near duplicate of the stored answers on Eid falling on Friday
+- Rejected #37 "حكم رقص المرأة بين النساء": Near duplicate of the answer on women dancing at weddings
+- Rejected #40 "هل تخرج زكاة حليها من الحلي نفسها؟": Near duplicate of the stored answers on zakat on jewelry
+- Rejected #41 "بين الإفراط والتفريط في حق النبي صلى الله عليه وسلم": Ends with a stray 'نعم' after the last sentence
+- Rejected #43 "كبيرة في السن لا تستطيع المشي فهل يحج ولدها عنها؟": Near duplicate of the stored answer on hajj on behalf of a relative
+- Rejected #45 "هل الأفضل المداومة على صلاة الضحى أم تركها أحيانا؟": Near duplicate of the stored answers on the Duha prayer
+- NEEDS MO #36 "ما المقصود بالدف" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B373%5D/%D9%85%D8%A7-%D8%A7%D9%84%D9%85%D9%82%D8%B5%D9%88%D8%AF-%D8%A8%D8%A7%D9%84%D8%AF%D9%81/9bb4a4a1-8a85-41cb-a5b3-603cbe86e1a4): Sensitive: music and the duff (which kind of duff is allowed, drums and instruments are forbidden)
+
+## Batch 027: 43 approved, 6 rejected, 1 needs Mo. Running total stored this run: 948
+
+- Rejected #13 "قضاء الدين أهم من أداء الحج": Near duplicate of the stored answers on hajj and debt
+- Rejected #14 "هل يجب الحج على من عليه دين ؟": Near duplicate of the stored answers on hajj and debt
+- Rejected #17 "صلى وفي ثوبه نجاسة ولم يعلم بها إلا بعد الصلاة فما حكم صلاته ؟": Near duplicate of the stored answer on praying with impurity on the clothes
+- Rejected #24 "الجائز والحلال والمباح عند الفقهاء بمعنى واحد": Near duplicate of the stored answer on 'permitted' and 'halal'
+- Rejected #33 "حكم استئناف الوضوء بعد قطع نيته": Near duplicate of the stored answer on intending to break wudu
+- Rejected #34 "حكم تغيير نية صلاة السفر إلى الإتمام": Ends with closing supplications instead of the ruling
+- NEEDS MO #26 "الإعداد للجهاد في سبيل الله" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B2%5D/%D8%A7%D9%84%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D9%84%D9%84%D8%AC%D9%87%D8%A7%D8%AF-%D9%81%D9%8A-%D8%B3%D8%A8%D9%8A%D9%84-%D8%A7%D9%84%D9%84%D9%87/7e95053c-5227-4675-b4fd-e13f7ef01337): Sensitive: says preparing for jihad is a collective duty on the rulers
+
+## Batch 028: 28 approved, 15 rejected, 7 needs Mo. Running total stored this run: 976
+
+- Rejected #2 "هل له أن يصلي العيد بنية صلاة الجمعة ؟": Near duplicate of the stored answers on Eid falling on Friday
+- Rejected #7 "هل في الحلي الملبوس زكاة ؟": Near duplicate of the stored answers on zakat on jewelry
+- Rejected #8 "حكم القيام بالأعمال الخاصة أثناء الدوام": Refers to something said earlier in the same session
+- Rejected #10 "حكم ترك النوافل في السفر": Near duplicate of the stored answers on voluntary prayers for the traveler
+- Rejected #14 "حكم التنفل بركعة واحدة، والاقتصار على تسليمة واحدة": Near duplicate of the stored answer on one taslim
+- Rejected #19 "متى يقرأ المأموم فاتحة الكتاب ؟": Near duplicate of the stored answers on reading al-Fatiha behind the imam
+- Rejected #21 "حكم المسح على النعلين": Reports views on wiping over sandals and gives no ruling
+- Rejected #22 "شروط إنكار المنكر": Cut off after the first of the conditions
+- Rejected #25 "قول: (والله والتراب بك) تنقصاً لأخيه المسلم": Tentative ('perhaps this is an oath'), depends on the question
+- Rejected #28 "الجمع بين قوله صلى الله عليه وسلم (لا عدوى ولا طيرة) وقوله (فر من المجذوم فرارك من الأسد)": Near duplicate of the stored answer on the hadiths about contagion
+- Rejected #30 "هل صحيح أن قراءة القرآن مجوداً واجبة ؟": Near duplicate of the stored answers on tajweed
+- Rejected #39 "الإسراف في العبادات والعادات ومفاسد بيع التقسيط": Only covers extravagance in worship and customs, not the installment-sale part of the title
+- Rejected #44 "حكم إطلاق مصطلح أهل السنة و الجماعة": Starts with 'never, no need for that', needs the question
+- Rejected #45 "معنى الباء في قوله ( وامسحوا برءوسكم )": Arabic grammar point about a letter in a verse, tafsir-like
+- Rejected #46 "حكم مقولة سقط من عين الله سبحانه وتعالى": Ends in the middle of a hadith
+- NEEDS MO #6 "صحة حديث: (الكيس من دان نفسه)" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B5%5D/%D8%B5%D8%AD%D8%A9-%D8%AD%D8%AF%D9%8A%D8%AB%3A-(%D8%A7%D9%84%D9%83%D9%8A%D8%B3-%D9%85%D9%86-%D8%AF%D8%A7%D9%86-%D9%86%D9%81%D8%B3%D9%87)/531e4a20-8783-42d0-9128-6ef631c46b90): Quotes the hadith 'the wise one is who holds himself to account' and only says its meaning is correct, without grading it
+- NEEDS MO #24 "هل يكفر من حكم بغير ما أنزل الله مع اعتقاده وجوب الحكم بما أنزل الله ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B6%5D/%D9%87%D9%84-%D9%8A%D9%83%D9%81%D8%B1-%D9%85%D9%86-%D8%AD%D9%83%D9%85-%D8%A8%D8%BA%D9%8A%D8%B1-%D9%85%D8%A7-%D8%A3%D9%86%D8%B2%D9%84-%D8%A7%D9%84%D9%84%D9%87-%D9%85%D8%B9-%D8%A7%D8%B9%D8%AA%D9%82%D8%A7%D8%AF%D9%87-%D9%88%D8%AC%D9%88%D8%A8-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%A8%D9%85%D8%A7-%D8%A3%D9%86%D8%B2%D9%84-%D8%A7%D9%84%D9%84%D9%87-%D8%9F/23b70bec-d6e0-4daa-aa58-9ec56d62f254): Sensitive: ruling on a ruler who judges by other than what Allah revealed (kufr or sin depending on belief)
+- NEEDS MO #26 "هل الأشاعرة من أهل السنة؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B6%5D/%D9%87%D9%84-%D8%A7%D9%84%D8%A3%D8%B4%D8%A7%D8%B9%D8%B1%D8%A9-%D9%85%D9%86-%D8%A3%D9%87%D9%84-%D8%A7%D9%84%D8%B3%D9%86%D8%A9%D8%9F/5e3b7eb8-6802-4aad-ab38-904f580d4728): Sensitive: says the Ash'aris are Ahl al-Sunna only in what they agree on
+- NEEDS MO #32 "كتاب (في ظلال القرآن) في الميزان" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B6%5D/%D9%83%D8%AA%D8%A7%D8%A8-(%D9%81%D9%8A-%D8%B8%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86)-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%8A%D8%B2%D8%A7%D9%86/e5dfb88a-442f-4750-8ba6-54371e9acb4b): Sensitive: criticism of the book Fi Zilal al-Quran and its author
+- NEEDS MO #38 "حكم قتل الحر بالعبد" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B8%5D/%D8%AD%D9%83%D9%85-%D9%82%D8%AA%D9%84-%D8%A7%D9%84%D8%AD%D8%B1-%D8%A8%D8%A7%D9%84%D8%B9%D8%A8%D8%AF/9bdc6e62-5167-4962-a3b6-7aed1b2ec892): Sensitive: ruling on killing a free man for a slave (slavery-related)
+- NEEDS MO #40 "حكم طلب الزوج مالاً أكثر مما أعطى المرأة عند الخلع" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B8%5D/%D8%AD%D9%83%D9%85-%D8%B7%D9%84%D8%A8-%D8%A7%D9%84%D8%B2%D9%88%D8%AC-%D9%85%D8%A7%D9%84%D8%A7%D9%8B-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%85%D8%A7-%D8%A3%D8%B9%D8%B7%D9%89-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D8%AE%D9%84%D8%B9/9d53c11b-ad3d-4e93-97f1-ab4ab9e5ef7a): Gives two scholarly views on how much a husband may take in khul' and does not choose
+- NEEDS MO #49 "كثرة الزلازل والفتن من أشراط الساعة" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B9%5D/%D9%83%D8%AB%D8%B1%D8%A9-%D8%A7%D9%84%D8%B2%D9%84%D8%A7%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D9%81%D8%AA%D9%86-%D9%85%D9%86-%D8%A3%D8%B4%D8%B1%D8%A7%D8%B7-%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9/5af3e9e0-b377-42e7-b49b-0362bf3f8f48): Sensitive: says earthquakes and tribulations are signs of the Hour and criticises 'state scholars'

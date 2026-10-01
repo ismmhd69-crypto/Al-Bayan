@@ -1,7 +1,7 @@
 {
-  "stored": 835,
-  "rejected": 308,
-  "needsMo": 57,
+  "stored": 976,
+  "rejected": 356,
+  "needsMo": 68,
   "batches": {
     "001": {
       "approved": 31,
@@ -122,6 +122,26 @@
       "approved": 39,
       "rejected": 10,
       "needsMo": 1
+    },
+    "025": {
+      "approved": 38,
+      "rejected": 10,
+      "needsMo": 2
+    },
+    "026": {
+      "approved": 32,
+      "rejected": 17,
+      "needsMo": 1
+    },
+    "027": {
+      "approved": 43,
+      "rejected": 6,
+      "needsMo": 1
+    },
+    "028": {
+      "approved": 28,
+      "rejected": 15,
+      "needsMo": 7
     }
   }
 }
