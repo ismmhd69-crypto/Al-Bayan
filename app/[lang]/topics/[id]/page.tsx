@@ -9,6 +9,7 @@ import { AnswerV2View } from "@/components/AnswerV2View";
 import { loadPrepared } from "@/lib/prepared";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import VideoCard from "@/components/VideoCard";
+import { attachScholarTranslations } from "@/lib/ask/display-translations";
 
 type Params = Promise<{ lang: string; id: string }>;
 
@@ -38,6 +39,7 @@ export default async function TopicPage({ params }: { params: Params }) {
     approvalHash: decisions[id]?.contentHash ?? undefined,
     videos,
   }) : null;
+  const displayAnswer = answer?.v2 ? { ...answer, v2: await attachScholarTranslations(answer.v2) } : answer;
 
   return (
     <article className="page">
@@ -54,8 +56,8 @@ export default async function TopicPage({ params }: { params: Params }) {
 
       {/* A topic answer appears only with the same cited display as Ask (Codex review, finding 11),
           and only after Mo approved it. A plain text answer without sources must never appear. */}
-      {answer ? (
-        <AnswerV2View answer={answer.v2!} t={dict.ask} id={0} />
+      {displayAnswer ? (
+        <AnswerV2View answer={displayAnswer.v2!} t={dict.ask} id={0} />
       ) : (
         <div className="card card-soft">
           <Hourglass aria-hidden="true" className="card-icon" />

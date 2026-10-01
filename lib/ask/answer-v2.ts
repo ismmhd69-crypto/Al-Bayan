@@ -69,6 +69,7 @@ export type ScholarItem = ItemBase & {
   title: string | null;
   reference: string;
   arabic: string;
+  translation?: string;
   url: string;
 };
 

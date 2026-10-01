@@ -4,6 +4,7 @@ import { ask } from "@/lib/ask/pipeline";
 import { askEnabled, takeSlot, visitorKey, withSlot } from "@/lib/ask/limits";
 import { GoogleBusyError } from "@/lib/ai/gemini";
 import { sameOrigin } from "@/lib/same-origin";
+import { attachScholarTranslations } from "@/lib/ask/display-translations";
 
 // Privacy (plan section 10): the question text is never logged, stored or put in a URL.
 // Errors are logged without the question.
@@ -44,7 +45,11 @@ export async function POST(request: Request) {
   if (question.length > MAX_QUESTION) return reply("too_long", 413);
 
   try {
-    return NextResponse.json(await withSlot(() => ask(question.trim(), lang)), { headers: noStore });
+    const result = await withSlot(() => ask(question.trim(), lang));
+    if (result.status === "answer" && result.answer.v2) {
+      result.answer.v2 = await attachScholarTranslations(result.answer.v2);
+    }
+    return NextResponse.json(result, { headers: noStore });
   } catch (err) {
     // Google busy on every door: say so, so the visitor knows it is not their question.
     // A deadline hit (slow AI) is shown the same way.

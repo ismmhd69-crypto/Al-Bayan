@@ -145,6 +145,7 @@ const de: typeof en = {
     },
     scholarQuote: {
       arabicOnly: "Die eigenen Worte des Gelehrten auf Arabisch (kurzes Zitat)",
+      aiTranslation: "KI-Übersetzung, bitte das arabische Original prüfen",
       link: "Die vollständige Fatwa auf der Website des Gelehrten lesen",
     },
     hadith: {

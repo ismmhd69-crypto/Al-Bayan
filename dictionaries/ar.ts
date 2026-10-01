@@ -143,6 +143,7 @@ const ar: typeof en = {
     },
     scholarQuote: {
       arabicOnly: "كلام العالم بنصه (اقتباس قصير)",
+      aiTranslation: "ترجمة بالذكاء الاصطناعي، راجع النص العربي الأصلي",
       link: "اقرأ الفتوى كاملة في موقع الشيخ",
     },
     hadith: {

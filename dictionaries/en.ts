@@ -143,6 +143,7 @@ const en = {
     },
     scholarQuote: {
       arabicOnly: "The scholar's own words in Arabic (short quote)",
+      aiTranslation: "AI translation, check the Arabic original",
       link: "Read the full fatwa on the scholar's website",
     },
     hadith: {

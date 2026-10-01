@@ -5,6 +5,7 @@ import type { Dictionary } from "@/lib/i18n";
 import { displaySourceId, type AnswerV2, type Cited, type HadithItem, type QuranItem, type ScholarItem, type ScholarView } from "@/lib/ask/answer-v2";
 import VideoCard from "./VideoCard";
 import { ReportProblem } from "./ReportProblem";
+import { shouldShowScholarTranslation } from "@/lib/ask/display-choice";
 
 type AskText = Dictionary["ask"];
 
@@ -251,8 +252,10 @@ function ScholarCard({ item, answerLanguage, t, anchor }: { item: ScholarItem; a
     <article className="answer-source-card answer-source-target" id={anchor(item.id)} tabIndex={-1}>
       <h4>{item.scholar_name}</h4>
       {item.title && <p className="quote-title" lang="ar" dir="rtl" translate="no">{item.title}</p>}
-      {answerLanguage !== "ar" && <p className="source-language-label">{t.scholarQuote.arabicOnly}</p>}
+      {shouldShowScholarTranslation(answerLanguage, item.translation) && <p className="source-language-label">{t.scholarQuote.aiTranslation}</p>}
       <p className="verse-ar" lang="ar" dir="rtl" translate="no">{item.arabic}</p>
+      {shouldShowScholarTranslation(answerLanguage, item.translation) && <p className="verse-tr" lang={answerLanguage} dir="ltr">{item.translation}</p>}
+      {answerLanguage !== "ar" && <p className="source-language-label">{t.scholarQuote.arabicOnly}</p>}
       <p className="verse-by" lang="ar" dir="rtl" translate="no">{item.reference}</p>
       <a className="verse-link" href={item.url} target="_blank" rel="noopener noreferrer">{t.scholarQuote.link}<ExternalLink aria-hidden="true" /></a>
     </article>

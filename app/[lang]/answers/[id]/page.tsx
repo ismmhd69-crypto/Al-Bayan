@@ -11,6 +11,7 @@ import { steps } from "@/data/steps";
 import AskAboutButton from "@/components/AskAboutButton";
 import PreparedAnswer from "@/components/PreparedAnswer";
 import { AnswerV2View } from "@/components/AnswerV2View";
+import { attachScholarTranslations } from "@/lib/ask/display-translations";
 
 type Params = Promise<{ lang: string; id: string }>;
 
@@ -41,6 +42,7 @@ export default async function AnswerPage({ params }: { params: Params }) {
     : await loadPrepared({ ...file, status: decisions[id]?.status ?? "draft" }, lang, {
         approvalHash: decisions[id]?.contentHash ?? undefined,
       });
+  const displayAnswer = answer?.v2 ? { ...answer, v2: await attachScholarTranslations(answer.v2) } : answer;
 
   return (
     <article className="page">
@@ -54,8 +56,8 @@ export default async function AnswerPage({ params }: { params: Params }) {
         <p className="lead">{step.text[lang]}</p>
       </header>
 
-      {answer ? (
-        answer.v2 ? <AnswerV2View answer={answer.v2} t={dict.ask} id={0} /> : <PreparedAnswer a={answer} t={dict.ask} id={0} />
+      {displayAnswer ? (
+        displayAnswer.v2 ? <AnswerV2View answer={displayAnswer.v2} t={dict.ask} id={0} /> : <PreparedAnswer a={displayAnswer} t={dict.ask} id={0} />
       ) : (
         <div className="card card-soft">
           <Hourglass aria-hidden="true" className="card-icon" />

@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 import { hydrateAnswer, type HydrateResult } from "@/lib/chat/hydrate";
 import { visitorKey } from "@/lib/ask/limits";
 import { sameOrigin } from "@/lib/same-origin";
+import { attachScholarTranslations } from "@/lib/ask/display-translations";
 
 // Opens saved chats: takes the stored answers (source texts removed) of a signed-in person and returns
 // them with the Quran and hadith texts loaded fresh from their sources. Only signed-in people can use
@@ -72,7 +73,10 @@ function serverDeps(): HydrateDeps {
       const { data, error } = await db.auth.getUser(token);
       return !error && !!data.user;
     },
-    hydrate: (stored) => hydrateAnswer(stored),
+    hydrate: async (stored) => {
+      const result = await hydrateAnswer(stored);
+      return result.ok ? { ok: true, answer: await attachScholarTranslations(result.answer) } : result;
+    },
   };
 }
 
