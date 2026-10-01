@@ -641,3 +641,96 @@ Official route used: section listing API, see `docs/uthaymeen-official-routes.md
 - NEEDS MO #27 "حكم الخروج مع جماعة التبليغ" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B97%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AE%D8%B1%D9%88%D8%AC-%D9%85%D8%B9-%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%A8%D9%84%D9%8A%D8%BA/e8ced530-43e8-4d98-ae1a-be7a8b157efb): Sensitive: praises the Tabligh group as active and harmless and says it does not criticise rulers or scholars
 - NEEDS MO #40 "حكم الدعاء بحرمة النبي -صلى الله عليه وسلم-" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B100%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1-%D8%A8%D8%AD%D8%B1%D9%85%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D9%8A--%D8%B5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%84%D9%8A%D9%87-%D9%88%D8%B3%D9%84%D9%85-/835bc936-5343-4f51-b39e-c5eebc25e9e8): Sensitive: tawassul, says asking by the sanctity of the Prophet is an innovation
 - NEEDS MO #48 "حكم قول القائل في الوطن: "كل الوجود سواك هالك"" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B103%5D/%D8%AD%D9%83%D9%85-%D9%82%D9%88%D9%84-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D9%88%D8%B7%D9%86%3A-%22%D9%83%D9%84-%D8%A7%D9%84%D9%88%D8%AC%D9%88%D8%AF-%D8%B3%D9%88%D8%A7%D9%83-%D9%87%D8%A7%D9%84%D9%83%22/3508c3ca-f07f-4ea8-86ce-8aa597f4f896): Sensitive: says a line of a national song ('all existence besides You perishes') may amount to apostasy if the person persists, and calls national zeal a pre-Islamic partisanship if not for Islam
+
+## Batch 036: 35 approved, 11 rejected, 4 needs Mo. Running total stored this run: 1250
+
+- Rejected #2 "وصايا للكشافة الذين يقومون بخدمة الحجاج": Cut off after the first of several pieces of advice
+- Rejected #3 "هل يبكر الإمام في الإتيان للمسجد أو يأتي عند الإقامة؟": Cut off before the ruling is finished
+- Rejected #16 "حكم الذهاب إلى الكهنة الذين يدعون علم الغيب": Starts with 'this is a doubt', depends on the question
+- Rejected #20 "قوله تعالى: {وربائبكم اللاتي في حجوركم ...} هل له مفهوم؟": Only an explanation of a verse, not a ruling
+- Rejected #21 "حكم قلب الصلاة السرية إلى جهرية والعكس": Mixes several points and harsh wording about the imam, no single clear ruling
+- Rejected #36 "تعريف الواجب": Only explains a definition from a text, depends on the question
+- Rejected #37 "حكم سجود التلاوة للإمام في الصلاة السرية": Only reports what the Hanbali jurists say, no clear ruling from the Sheikh
+- Rejected #39 "حكم حذف كلمة (ابن) من الأسماء عند النسبة": Starts with 'as for the first', depends on the question
+- Rejected #40 "حكم تبادل السلع غير الربوية": Ends by listing another view with no conclusion
+- Rejected #43 "حكم زيارة القبور وشد الرحل إليها": Cut off before reaching the ruling
+- Rejected #45 "معنى قوله: (لا تبع ما ليس عندك)": Ends with unrelated closing supplications
+- NEEDS MO #5 "حكم التمثيل بالكفار" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B106%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%A8%D8%A7%D9%84%D9%83%D9%81%D8%A7%D8%B1/7b7aaabb-1a2e-45f0-a104-a209942dd908): Sensitive: jihad, says mutilating the enemy is allowed as retaliation
+- NEEDS MO #24 "هل الدم طاهر أو نجس؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B109%5D/%D9%87%D9%84-%D8%A7%D9%84%D8%AF%D9%85-%D8%B7%D8%A7%D9%87%D8%B1-%D8%A3%D9%88-%D9%86%D8%AC%D8%B3%D8%9F/dca39191-c403-4052-ac56-339e6581e082): Sensitive: says human blood is pure, which differs from the usual ruling
+- NEEDS MO #44 "منهج جماعة التبليغ" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B114%5D/%D9%85%D9%86%D9%87%D8%AC-%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%A8%D9%84%D9%8A%D8%BA/ef330f7a-23e1-4379-8791-f2ac1e3b2458): Sensitive: opinion on the Tabligh group
+- NEEDS MO #50 "توجيه ما نقل عن الإمام أحمد في مقولة: (لفظي بالقرآن مخلوق)" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B115%5D/%D8%AA%D9%88%D8%AC%D9%8A%D9%87-%D9%85%D8%A7-%D9%86%D9%82%D9%84-%D8%B9%D9%86-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85-%D8%A3%D8%AD%D9%85%D8%AF-%D9%81%D9%8A-%D9%85%D9%82%D9%88%D9%84%D8%A9%3A-(%D9%84%D9%81%D8%B8%D9%8A-%D8%A8%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D9%85%D8%AE%D9%84%D9%88%D9%82)/20a79fe2-2b2f-4f11-8d26-c18ff25156ac): Sensitive: creed, the saying about 'my recitation of the Quran is created'
+
+## Batch 037: 28 approved, 15 rejected, 7 needs Mo. Running total stored this run: 1278
+
+- Rejected #2 "حكم دفن الرجال والنساء في قبر واحد": The Sheikh says he gives no opinion on the main point
+- Rejected #8 "كم عدد أيام العيد؟": Depends on the asker ('perhaps you mean') and mixes two topics
+- Rejected #13 "هل تخرج زكاة حلي أمها بغير علمها؟": Depends on the question (a particular mother and the past year)
+- Rejected #15 "معنى القول السديد": Only explains the meaning of a phrase in a verse, not a ruling
+- Rejected #21 "واقع المسلمين سبب في صد الناس عن الإسلام": Starts with 'this is a disbeliever', depends on the question
+- Rejected #26 "الطريقة السليمة في الاستنابة في الحج": Cut off, and rests on a report of what a madhhab says
+- Rejected #27 "هل يخلد قاتل نفسه في النار ؟": Only the question text, no answer
+- Rejected #31 "متمتع لم يتم طواف العمرة ثم جامع وأكمل حجه فهل يصح حجه؟": Depends on a particular case ('this one')
+- Rejected #34 "حكم الوقوف بعرفة والدفع منها قبل الزوال": Starts by reporting what the madhhabs say, ruling comes only as advice
+- Rejected #37 "صلاة النبي صلى الله عليه وسلم على صاحب الدين": Starts with 'this is correct', depends on the question
+- Rejected #39 "أقسام موالاة الكافرين": Starts with 'this is because', depends on the question
+- Rejected #43 "من العالم الذي يحق له الاجتهاد في المسائل النازلة؟": Starts with a greeting to the asker and is cut off
+- Rejected #44 "حكم شرب الدم من أجل الشفاء": Speculative, partly aimed at the audience
+- Rejected #45 "هل السفيه مرفوع عنه القلم؟": Does not answer its own title, talks about the insane person
+- Rejected #49 "ضعف حديث أن الرجل يدعى بأمه يوم القيامة": Starts with 'it is not authentic', depends on the question, cut off
+- NEEDS MO #3 "حكم أخذ المال على الرقية" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B116%5D/%D8%AD%D9%83%D9%85-%D8%A3%D8%AE%D8%B0-%D8%A7%D9%84%D9%85%D8%A7%D9%84-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B1%D9%82%D9%8A%D8%A9/7d0d93ab-3810-4afd-8038-868c69b16be4): Sensitive: taking money for ruqya, harsh wording and mentions the state
+- NEEDS MO #7 "حكم الضرب على الزير" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B117%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B6%D8%B1%D8%A8-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B2%D9%8A%D8%B1/933e8ba4-3e81-4ec4-b4cc-bac2e35709b1): Sensitive: music, says the zir drum is forbidden but the duff is allowed
+- NEEDS MO #20 "حكم الصلاة في الفلاة وفضلها" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B119%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D9%84%D8%A7%D8%A9-%D9%88%D9%81%D8%B6%D9%84%D9%87%D8%A7/7f099b0a-60af-4c5f-b082-4efdbc68625b): Hadith about prayer in the wilderness being worth fifty prayers, no grade given
+- NEEDS MO #22 "حكم حلق رأس الغلام المولود" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B120%5D/%D8%AD%D9%83%D9%85-%D8%AD%D9%84%D9%82-%D8%B1%D8%A3%D8%B3-%D8%A7%D9%84%D8%BA%D9%84%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%88%D9%84%D9%88%D8%AF/7d88e32b-ad10-4d75-8772-48ccd347c4d7): Hadith about shaving the baby and giving silver, no grade given
+- NEEDS MO #23 "التحذير من غيبة ولاة الأمر" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B120%5D/%D8%A7%D9%84%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D9%85%D9%86-%D8%BA%D9%8A%D8%A8%D8%A9-%D9%88%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1/4c3cc52c-2b9b-453e-8d78-9a5a51adfcc8): Sensitive: political, backbiting rulers
+- NEEDS MO #25 "الكلام في أهل البدع هل هو من باب الغيبة؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B120%5D/%D8%A7%D9%84%D9%83%D9%84%D8%A7%D9%85-%D9%81%D9%8A-%D8%A3%D9%87%D9%84-%D8%A7%D9%84%D8%A8%D8%AF%D8%B9-%D9%87%D9%84-%D9%87%D9%88-%D9%85%D9%86-%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%BA%D9%8A%D8%A8%D8%A9%D8%9F/0331142f-79c4-4d02-8e77-878c6bc3a513): Sensitive: speaking about people of innovation, methodology of warning
+- NEEDS MO #30 "حكم تكرار العمرة في سفر واحد" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B121%5D/%D8%AD%D9%83%D9%85-%D8%AA%D9%83%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D9%81%D9%8A-%D8%B3%D9%81%D8%B1-%D9%88%D8%A7%D8%AD%D8%AF/fa8eb203-be6b-4913-926a-9261d65a0346): Sensitive: says repeating Umrah in one trip is an innovation, contested
+
+## Batch 038: 27 approved, 18 rejected, 5 needs Mo. Running total stored this run: 1305
+
+- Rejected #5 "الراجح من أقوال العلماء في وقت التكبير المطلق والمقيد": Cut off, and the Sheikh says there is no clear text and only gives the closest view
+- Rejected #10 "هل يجوز ذبح هدي التمتع والقران خارج الحرم؟": Depends on the asker's own case ('you must redo them now')
+- Rejected #16 "حلفت إن رجعت إلى أهلها أن تصوم شهرين ..ثم رجعت فماذا يلزمها ؟": Depends on the asker's intention and ends with closing praise
+- Rejected #17 "حكم رفع السبابة عند الاحتضار والشهادة": Unclear, says the finger raising needs proof but then allows it for prayer
+- Rejected #18 "التبكير في الإقامة": Political, explains the ministry's timetable, cut off
+- Rejected #20 "الكلام على قول الشاعر "دع الأيام تفعل ما تشاء"": Only a comment on a line of poetry, not a ruling
+- Rejected #21 "هل يؤم المسافر الناس في صلاة الجمعة؟": Cut off and ends with an aside to the audience
+- Rejected #24 "حكم الطلاق بالنية": Cut off before the exceptions to the rule
+- Rejected #25 "حكم جمع العصر إلى الظهر مع علمهم بوصول البلد في وقت العصر": Depends on the particular trip in the question
+- Rejected #27 "طفل رضع من أم أبيه فهل تحرم عليه بنات عمه؟": Depends on the particular case in the question
+- Rejected #29 "الصفات قد تكون ذاتية باعتبار اصلها فعليه باعتبار آحادها": Technical creed discussion, cut off, needs the question
+- Rejected #32 "لفظ (السبيل) يضاف إلى الله تارة مفردا وتارة مجموعا": Only explains a language point in the Quran
+- Rejected #36 "هل هناك ملاحظات على كتاب مدارج السالكين لابن القيم؟": Not a ruling, comments on a book
+- Rejected #37 "هل يجب إجابة دعوة وليمة العرس؟": Reports only what the jurists say, no ruling in the Sheikh's own words
+- Rejected #38 "من بَعُدَ عهده بالجماع أولى بدفن المرأة من غيره": Reports only what the scholars say
+- Rejected #42 "الحكمة من نزول عيسى عليه السلام آخر الزمان": Cut off, a discussion of wisdom rather than a ruling
+- Rejected #43 "هل تجب صلوات غير الصوات الخمس": Cut off and lists views without a conclusion
+- Rejected #50 "حكم قول قال الله على لسان نبيه كذا. وقول الشاعر لعمري": Two unrelated topics in one title
+- NEEDS MO #8 "خطأ من قال إن الكفر العملي لا يكون كفراً أكبر" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B127%5D/%D8%AE%D8%B7%D8%A3-%D9%85%D9%86-%D9%82%D8%A7%D9%84-%D8%A5%D9%86-%D8%A7%D9%84%D9%83%D9%81%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A-%D9%84%D8%A7-%D9%8A%D9%83%D9%88%D9%86-%D9%83%D9%81%D8%B1%D8%A7%D9%8B-%D8%A3%D9%83%D8%A8%D8%B1/625d87cf-8b89-4d37-800f-c4648595db52): Sensitive: takfir, says ruling by action can be major disbelief and mentions leaving prayer and rulers
+- NEEDS MO #13 "حكم الرد على المخالف في المسائل الاجتهادية" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B127%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D9%84%D9%81-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%87%D8%A7%D8%AF%D9%8A%D8%A9/9c3bf554-f7d9-4dea-963d-c4b426e7a903): Sensitive: replying to others and warning against innovators
+- NEEDS MO #26 "هل يُورَث المرتد؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B130%5D/%D9%87%D9%84-%D9%8A%D9%8F%D9%88%D8%B1%D9%8E%D8%AB-%D8%A7%D9%84%D9%85%D8%B1%D8%AA%D8%AF%D8%9F/3a876c6c-eda9-46b3-97a7-a989ca4e0864): Sensitive: takfir, inheritance of an apostate and the one who abandons prayer
+- NEEDS MO #30 "معنى قول الإمام أحمد في حديث النزول والرؤية (نؤمن بها ونصدق بها بلا كيف ولا معنى...)" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B130%5D/%D9%85%D8%B9%D9%86%D9%89-%D9%82%D9%88%D9%84-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85-%D8%A3%D8%AD%D9%85%D8%AF-%D9%81%D9%8A-%D8%AD%D8%AF%D9%8A%D8%AB-%D8%A7%D9%84%D9%86%D8%B2%D9%88%D9%84-%D9%88%D8%A7%D9%84%D8%B1%D8%A4%D9%8A%D8%A9-(%D9%86%D8%A4%D9%85%D9%86-%D8%A8%D9%87%D8%A7-%D9%88%D9%86%D8%B5%D8%AF%D9%82-%D8%A8%D9%87%D8%A7-%D8%A8%D9%84%D8%A7-%D9%83%D9%8A%D9%81-%D9%88%D9%84%D8%A7-%D9%85%D8%B9%D9%86%D9%89...)/099fd529-95e3-4de6-b197-5a481b76307d): Sensitive: creed, meaning of Imam Ahmad's words about the attributes
+- NEEDS MO #46 "الرد على من يقول بجوز النظر إلى المرأة" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B134%5D/%D8%A7%D9%84%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D9%85%D9%86-%D9%8A%D9%82%D9%88%D9%84-%D8%A8%D8%AC%D9%88%D8%B2-%D8%A7%D9%84%D9%86%D8%B8%D8%B1-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/8168a5b0-41e3-4a51-ae75-99950402b72b): Sensitive: face veil, mentions that the matter is disputed
+
+## Batch 039: 29 approved, 19 rejected, 2 needs Mo. Running total stored this run: 1334
+
+- Rejected #2 "حكم ترك المندوبات": Depends on a quote in the question ('if it is total it is a sin')
+- Rejected #3 "حكم تأخر المأموم عن إمامه بركن أو واجب": Only reports what the scholars say, no ruling in the Sheikh's own words
+- Rejected #5 "هل يلزم الكفلاء تعليم الخدم والسائقين أمور الدين ؟": Ends with a rhetorical question to the audience
+- Rejected #7 "الحيوانات النجسة والحيوانات الطاهرة": Cut off, covers only the first of two kinds
+- Rejected #10 "حكم تقسيم الشرك إلى بدائي وحضاري": Depends on a claim in the question, cut off
+- Rejected #11 "حكم استقدام السائق والخادمة": Starts by telling the asker not to use a phrase
+- Rejected #13 "حكم الاستنشاق والمضمضة في الغسل": Starts with 'this is not valid', depends on the question
+- Rejected #15 "حكم مؤذن منع وكيل الإمام من الصلاة بالناس وقدَّم غيره": Aimed at a particular muezzin, scolding rather than a ruling
+- Rejected #21 "حكم بيع العظم وشرائه": Gives views and only a precaution, no clear ruling
+- Rejected #24 "معية الله لخلقه معية حقيقية": Cut off, refers to an earlier talk
+- Rejected #25 "الطلاق لا يثبت بالشك في وقوعه": Mixes the ruling with an unrelated point about types of knowledge
+- Rejected #26 "حكم إغلاق الميكرفونات الخارجية في المساجد أثناء الصلاة": Aimed at imams and the authorities, cut off
+- Rejected #28 "الأخلاق من مضمون الرسالة وأساسياتها": Not a ruling, general talk about morals
+- Rejected #31 "حجت فحاضت يوم عرفة وأكملت الحج وهي حائض": Depends on a particular woman's case
+- Rejected #36 "الرد على من يقول لا اعتكاف إلا في المساجد الثلاثة": Depends on the question and an argument about hadith, cut off
+- Rejected #38 "صلاة الجمعة للمسافر": Depends on the asker's trip and a government ban, cut off
+- Rejected #40 "معنى جعل كل الصلاة للرسول صلى الله عليه وسلم": Two possible meanings, no clear ruling
+- Rejected #43 "كيفية التفريق بين الجنس والنوع والعين والعدد": Only explains terms of usul, not a ruling
+- Rejected #44 "المراجعة قد تكون بمعنى الرجوع": Only a language point
+- NEEDS MO #6 "حكم زيارة قبر النبي صلى الله عليه وسلم" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B138%5D/%D8%AD%D9%83%D9%85-%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D9%82%D8%A8%D8%B1-%D8%A7%D9%84%D9%86%D8%A8%D9%8A-%D8%B5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%84%D9%8A%D9%87-%D9%88%D8%B3%D9%84%D9%85/ba338b24-b5ac-4904-a158-6e56b7db443a): Sensitive: visiting the Prophet's grave, disagreement between the Sheikh and Ibn Taymiyyah
+- NEEDS MO #22 "لهم عند رجل حق أنكره فهل يحتالون عليه لأخذ حقهم؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B141%5D/%D9%84%D9%87%D9%85-%D8%B9%D9%86%D8%AF-%D8%B1%D8%AC%D9%84-%D8%AD%D9%82-%D8%A3%D9%86%D9%83%D8%B1%D9%87-%D9%81%D9%87%D9%84-%D9%8A%D8%AD%D8%AA%D8%A7%D9%84%D9%88%D9%86-%D8%B9%D9%84%D9%8A%D9%87-%D9%84%D8%A3%D8%AE%D8%B0-%D8%AD%D9%82%D9%87%D9%85%D8%9F/6e414ce2-906d-4299-9e10-b7d55d031df7): Hadith 'give the trust to whoever trusted you', no grade given
