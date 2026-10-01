@@ -51,3 +51,5 @@ Published: `false`
 | 36 | 40 | 80 | 0 | 1439 | Batch 36 (40 fatwas) translated and stored cleanly |
 | 37 | 40 | 80 | 0 | 1479 | Batch 37 (40 fatwas) translated and stored cleanly |
 | 38 | 40 | 80 | 0 | 1519 | Batch 38 (40 fatwas) translated and stored cleanly |
+| 39 | 40 | 80 | 0 | 1559 | Batch 39 (40 fatwas) translated and stored cleanly |
+| 40 | 40 | 80 | 0 | 1599 | Batch 40 (40 fatwas) translated and stored cleanly |
