@@ -769,3 +769,50 @@ Rejected:
 - 21308 ما حكم التوسل بجاه الأنبياء؟: near duplicate of approved items on tawassul
 - 21416 معنى "فَهُمَا في الوِزْر سواء" في الحديث: starts with "this is something else", needs context
 - 22292 حكم من يلزمه والده بخطبة فتاة معينة: near duplicate of an approved item on marriage and parents
+
+## Batch 033
+
+- Candidates read: 50
+- Approved and stored: 30
+- Rejected: 20
+- Needs Mo: 0
+- Page requests: 249, request errors: 0
+- Running total stored in this run: 1207
+
+Rejected:
+- 23020 ما الفرق بين كراهة التنزيه وكراهة التحريم؟: needs context
+- 23251 معنى الوعيد في آية الجن لمن عصى الله؟: needs context
+- 23439 هل يجب أن يَكْرَه المسلم للناس ما يَكْرَهُ لنفسه؟: rambling, unclear
+- 23452 حكم سماع القرآن من المذياع بغرض الشفاء: needs context
+- 23840 حكم جعل إسلام الرجل أو تعليم القرآن مهرًا: views without a clear ruling
+- 23987 ما الراجح في الصَّدقة على بني هاشم؟: views without a clear ruling
+- 24034 حكم الشرب من فم السقاء: commentary on a book chapter
+- 24058 حكم الشعر الذي يسقط عند الحجامة للمُحْرِم: several views, no clear ruling
+- 24081 هل صح قول النبي ﷺ لعكاشة "أنت منهم"؟: hadith wording doubtful, no clear ruling
+- 24229 ما تفسير قوله تعالى {وَإِذَا سَأَلْتُمُوهُنَّ مَتَاعًا..}؟: needs context
+- 24298 حكم مخالفة الترتيب في دعاء الهم والحزن: incomplete answer
+- 24312 ما حكم الدعاء في النوازل؟: needs context
+- 24459 هل تَفْضُل التلاوةُ على الأذكار في كل وقت؟: needs context
+- 24468 تفسير: {فَمَنْ شَاءَ فَلْيُؤْمِنْ وَمَنْ شَاءَ فَلْيَكْفُرْ}: needs context
+- 24510 ما حكم زعم أن الدعوة للتوحيد تفرِّق الناس؟: context opener
+- 24513 كيفية دعوة شخص يُشك في وقوعه بالشرك؟: needs context
+- 24740 حكم لبس خُفِّ اليمنى قبل غسل اليسرى: views, no clear ruling
+- 24923 حكم مَنْ يترك الإكثار من الحج لتخفيف الزحام: hedged, no clear ruling
+- 27029 معنى العبادة لله سبحانه وصرفها لغيره: needs context
+- 31078 ما حكم قضاء الصلاة لمن زال عقله عدة أيام؟: needs context
+
+## Batch 034
+
+- Candidates read: 11
+- Approved and stored: 6
+- Rejected: 5
+- Needs Mo: 0
+- Page requests: 29, request errors: 0
+- Running total stored in this run: 1213
+
+Rejected:
+- 31229 هل الأفضل الأذان أم الإمامة؟: views without a clear ruling
+- 31400 حكم إطلاق كلمة "حُجَّة الإسلام" على عالم؟: no ruling, loose wording
+- 31450 حكم معاملة المبتدع في البيع والشراء ونحوه: hedged, no clear ruling
+- 31453 هل يُعذر بالجهل مَنْ نشأ على عقيدة منحرفة؟: near duplicate of approved excuse by ignorance items
+- 31640 ما حكم مَن يرتد أعرابيًّا بعد الهجرة؟: needs context
