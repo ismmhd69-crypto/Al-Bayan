@@ -165,3 +165,96 @@ Rejected:
 
 Needs Mo:
 - 10175 ما حكم مصاحبة من لا يصلي؟: very harsh ruling on friendship, Mo should decide
+
+## Batch 009
+
+- Candidates read: 50
+- Approved and stored: 38
+- Rejected: 11
+- Needs Mo: 1
+- Page requests: 58, request errors: 0
+- Running total stored in this run: 345
+
+Rejected:
+- 10764 هل زيارة المقبرة جائزة للنساء، أم لا؟: near duplicate of approved items on women visiting graves
+- 10800 حكم من وشمت قبل البلوغ: near duplicate of an approved item on tattoos in childhood
+- 10837 حكم الزواج ممن لا تصلي، وحكم ولاية الفاسق: near duplicate of approved items on marrying someone who does not pray
+- 10969 حكم من لا يصلي إلا الجمعة: near duplicate of approved items on leaving prayer
+- 11250 شرح حديث: (صنفان من أمتي...): title promises an explanation, quote is only the hadith
+- 11453 التكاليف الشرعية تسقط باختلال الشعور: reply to a letter, signed, needs outside context
+- 11580 حكم صلاة الجمعة على أهل البادية والصحراء: near duplicate of an approved item on Friday prayer for workers
+- 11628 حكم من يترك صلاة الفجر: near duplicate of approved items on leaving prayer
+- 11641 حكم من حلف ألا يفعل وحلف عليه غيره أن يفعل: unclear spoken case, near duplicate (oath)
+- 12015 الحكمة من الوضوء من أكل لحم الجزور: near duplicate of approved items on wudu after camel meat
+- 12144 الفرق بين القرآن والحديث القدسي والنبوي: cut off at the end
+
+Needs Mo:
+- 11110 كيفية تصرف الوالد مع ابنة تاركة للصلاة: very harsh ruling about a daughter (beating, then killing), Mo should decide
+
+## Batch 010
+
+- Candidates read: 50
+- Approved and stored: 28
+- Rejected: 19
+- Needs Mo: 3
+- Page requests: 57, request errors: 0
+- Running total stored in this run: 373
+
+Rejected:
+- 12196 هل المصلى له حكم المسجد؟: near duplicate of an approved item on prayer rooms
+- 12230 حكم إرسال اليدين في الصلاة: near duplicate of an approved item on folding hands in prayer
+- 12274 الواجب تجاه من يظهر أنها فقدت عقلها: unclear case, needs the question
+- 12393 أسباب عدم تفوق الطالب مع اجتهاده: personal advice to one student, not a general answer
+- 12402 الحكمة في منع النساء من زيارة القبور: near duplicate of approved items on women visiting graves
+- 12450 حكم الصلاة على القبر: near duplicate of an approved item on prayer at the grave
+- 12524 هل معاني القرآن المترجمة لها حكم المصحف؟: near duplicate of approved items on translated Quran
+- 12544 كيفية الختان وحكمه: near duplicate of an approved item on circumcision
+- 12611 مدة الإقامة التي تقصر فيها الصلاة: near duplicate of approved items on travel prayer
+- 12695 حكم زيارة القبور للرجال والنساء: near duplicate of approved items on women visiting graves
+- 12718 حكم من حلف بالطلاق وصام ثلاثة أيام كفارة: near duplicate (oath of divorce)
+- 12725 أرجو أن تنصحوني ببعض الكتب بعد الكتاب والسنة: near duplicate of an approved item on book advice
+- 12782 حكم من ارتكب الشرك الأكبر ومتى يعذر بالجهل؟: does not answer the excuse part of its title
+- 12820 حكم الأواني المطلية بماء الذهب خوفًا من الصدأ: does not mention plated vessels, so does not answer its title
+- 13170 ما حكم من سب الدين؟: near duplicate of approved items on insulting the religion
+- 13223 ما حكم من يسب الدين؟: near duplicate of approved items on insulting the religion
+- 13226 حكم قراءة المجلات: title asks about magazines, quote only praises the Quran
+- 13250 حكم طلاق الغضبان: cut off after the first of three cases
+- 13288 حكم كتابة الشعر: near duplicate of an approved item on poetry
+
+Needs Mo:
+- 12671 هل يجوز أن يصلى على إنسان غائب؟: says the scholars differ and nothing is clear
+- 12935 فضل الانتظار بعد الفجر إلى طلوع الشمس: hadith is called acceptable, not clearly sound
+- 13337 كيف شمل إبليس أمر السجود وهو ليس من الملائكة؟: gives two scholarly views without choosing
+
+## Batch 011
+
+- Candidates read: 50
+- Approved and stored: 30
+- Rejected: 18
+- Needs Mo: 2
+- Page requests: 70, request errors: 0
+- Running total stored in this run: 403
+
+Rejected:
+- 13531 حكم من حلف بالطلاق معتقدًا فعل شيء فبان خلافه: near duplicate (oath of divorce)
+- 13534 حكم قراءة الفاتحة للميت وحكم المآتم: starts with "this reading", needs context
+- 13607 حكم الحلف بالطلاق على الضيف وكفارته: near duplicate (oath of divorce)
+- 13739 حكم من حلف بالطلاق ألا تغسل زوجته ملابسه: near duplicate (oath of divorce)
+- 13797 حكم من حرم زوجته إن أخفت شيئًا عن حياتهما الزوجية: near duplicate (oath of divorce)
+- 13836 حكم من طلق وهو في حالة غضب شديد: near duplicate (divorce in anger)
+- 13850 حكم من حلف بالطلاق ألا يفعل شيئًا معينًا ثم فعله: near duplicate (oath of divorce)
+- 13875 توجيه لمن يكثر الحلف بالطلاق والحرام: near duplicate (oath of divorce)
+- 13968 حكم من قال لزوجته: أنا محرمك: near duplicate of approved items on zihar
+- 13983 حكم من حلف بالطلاق في وقائع مختلفة: near duplicate (oath of divorce)
+- 14024 حكم التلفظ بالحرام والطلاق بنية التخويف: near duplicate (oath of divorce)
+- 14129 حكم من سب الدين عند الغضب: near duplicate of approved items on insulting the religion
+- 14161 حكم من حلف بالطلاق ألا يسامح أخاه: near duplicate (oath of divorce)
+- 14484 ما حكم من صافح ابنة عمه؟: near duplicate of approved items on shaking hands with women
+- 14505 مواقيت الحج الزمانية والمكانية: does not answer the places part of its title
+- 14696 مسألة العذر بالجهل في أمور العقيدة؟: near duplicate of approved items on excuse by ignorance
+- 14857 حكم قضاء الصوم على الرجل الخرف: near duplicate of an approved item on fasting for someone who lost their mind
+- 14879 من أتى بالعمرة في ذي القعدة هل يبقى متمتعاً للحج؟: near duplicate of an approved item on Hajj tamattu
+
+Needs Mo:
+- 13583 حكم الوقف على الأولاد ثم على أبناء الذكور: lists views and sends the matter to the court
+- 14151 حكم نقل أعضاء جسم الكافر إلى المسلم: lists two views without choosing

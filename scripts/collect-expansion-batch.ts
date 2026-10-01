@@ -3,6 +3,7 @@ import { SCHOLAR_QUERIES } from "@/data/scholar-queries";
 import { getVerifier } from "@/lib/ai";
 import {
   checkQuoteRelevance,
+  extractContentStems,
   excerpt,
   htmlToText,
   isNearDuplicate,
@@ -143,10 +144,23 @@ async function runForScholar(scholarId: string) {
   const verifier = getVerifier();
 
   // Preload URLs and stem sets for deduplication
-  const { data: existingRows } = await db.from("sources").select("id, url, text_original").eq("scholar_id", scholarId);
+  const { data: existingRows } = await db.from("sources").select("id, url, title, text_original").eq("scholar_id", scholarId);
   const existingUrls = new Set((existingRows ?? []).map((r) => r.url));
   const existingUthaymeenIds = new Set((existingRows ?? []).map((r) => r.url.split("/").pop()));
   const existingStems: Set<string>[] = (existingRows ?? []).map((r) => quoteStemSet(r.text_original));
+  // Index mode: same-topic title gate (two or more shared title words, at least 75% of the shorter title).
+  const titleStems: Set<string>[] = (existingRows ?? []).map((r) => extractContentStems(r.title ?? ""));
+  const sameTopicTitle = (t: string) => {
+    const mine = extractContentStems(t);
+    if (mine.size < 2) return false;
+    for (const other of titleStems) {
+      if (other.size < 2) continue;
+      let common = 0;
+      for (const w of mine) if (other.has(w)) common++;
+      if (common >= 2 && common / Math.min(mine.size, other.size) >= 0.75) return true;
+    }
+    return false;
+  };
 
   const seenUrls = new Set<string>();
   let queriesAttempted = 0;
@@ -242,6 +256,10 @@ async function runForScholar(scholarId: string) {
         continue;
       }
       if (link) seenUrls.add(link);
+      if (useIndex && scholarId === "ibn-baz" && sameTopicTitle(hitTitle)) {
+        recordSkip("Same topic as a stored title");
+        continue;
+      }
 
       let fatwa: { title: string; answer: string; printedSource: string | null } | null = null;
       let reference = "";
@@ -355,6 +373,7 @@ async function runForScholar(scholarId: string) {
 
       if (DRY_RUN) {
         existingStems.push(stems);
+        titleStems.push(extractContentStems(fatwa.title));
         markState(currentRef, "candidate");
         storedCount++;
         newlyStored.push({
