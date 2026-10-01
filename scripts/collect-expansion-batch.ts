@@ -144,7 +144,13 @@ async function runForScholar(scholarId: string) {
   const verifier = getVerifier();
 
   // Preload URLs and stem sets for deduplication
-  const { data: existingRows } = await db.from("sources").select("id, url, title, text_original").eq("scholar_id", scholarId);
+  // Page through all rows: one request returns at most 1000.
+  const existingRows: Array<{ id: string; url: string; title: string; text_original: string }> = [];
+  for (let from = 0; ; from += 1000) {
+    const { data: page } = await db.from("sources").select("id, url, title, text_original").eq("scholar_id", scholarId).range(from, from + 999);
+    existingRows.push(...(page ?? []));
+    if (!page || page.length < 1000) break;
+  }
   const existingUrls = new Set((existingRows ?? []).map((r) => r.url));
   const existingUthaymeenIds = new Set((existingRows ?? []).map((r) => r.url.split("/").pop()));
   const existingStems: Set<string>[] = (existingRows ?? []).map((r) => quoteStemSet(r.text_original));
