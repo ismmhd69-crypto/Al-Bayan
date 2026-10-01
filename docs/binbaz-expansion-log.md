@@ -417,3 +417,128 @@ Rejected:
 - 3844 قراءة كتب التفسير لمن كان على غير طهارة: near duplicate of an approved item on a woman in her period reading Quran
 - 3845 إذا طهرت النفساء قبل الأربعين هل تصوم وتصلي وتحج؟: near duplicate of approved items on nifas
 - 3873 حكم معاشرة الزوج الذي لا يصلي ولا يصوم: near duplicate of approved items on leaving prayer
+
+## Batch 018
+
+- Candidates read: 50
+- Approved and stored: 32
+- Rejected: 18
+- Needs Mo: 0
+- Page requests: 70, request errors: 0
+- Running total stored in this run: 646
+
+Rejected:
+- 3916 حكم الأذان والإقامة بغير طهارة: opens as a reply to an official letter, needs context
+- 3973 حكم من صلى والدخان في جيبه: does not answer its title, only says tobacco is forbidden
+- 4057 معنى "إذا قامت الساعة وفي يد أحدكم فسيلة": ends in the middle of a hadith
+- 4106 ما النصيحة للشَّباب في قضاء الأوقات؟: too vague
+- 4123 الدعاء مشروع وليس بواجب في الصلاة: near duplicate of an approved item on dua in prayer
+- 4127 ما النصيحة تجاه مظاهر التناقض مع الشرع؟: too vague
+- 4151 متى يقال: اللهم أعني على ذكرك وشكرك وحسن عبادتك؟: near duplicate of an approved item on the end of the prayer
+- 4182 حكم إخراج المقترض للزكاة من مال المقرض بغير إذنه: cut off, lists views without a ruling
+- 4267 حكم الصلاة لمن مكث في غيبوبة طويلة: near duplicate of approved items on someone who lost consciousness
+- 4289 ما حكم من كان زوجها لا يصلي؟: near duplicate of approved items on leaving prayer
+- 4301 حكم من قصد العمرة ثم تعدَّى الميقات: near duplicate of an approved item on passing the miqat
+- 4302 ما الكتب التي يبدأ بها طالب العالم المبتدئ؟: near duplicate of approved items on book advice
+- 4315 نصيحة للشباب غير القادرين على الزواج: near duplicate of an approved item on fasting for those who cannot marry
+- 4316 حكم المغالاة في المهور والولائم: near duplicate of an approved item on costly weddings
+- 4367 دعاء ختم القرآن معروف عند السلف: near duplicate of approved items on the Quran completion dua
+- 4421 حكم الزكاة في المال الذي يجمع ويدَّخر: near duplicate of an approved item on zakat of saved money
+- 4432 ما أهم الكتب التي ينصح بها في العقيدة؟: near duplicate of approved items on book advice
+- 4458 حكم العادة السرية والفعل في بعض الحيوانات: ends in the middle of a hadith
+
+## Batch 019
+
+- Candidates read: 50
+- Approved and stored: 44
+- Rejected: 6
+- Needs Mo: 0
+- Page requests: 93, request errors: 0
+- Running total stored in this run: 690
+
+Rejected:
+- 4521 الحج عن الغير لمن لم يحج عن نفسه: starts with "as for the dead woman", needs the question
+- 4671 الحكم حال الشك في عدد الرضعات المحرمات: only hadiths, no ruling for the doubt case
+- 4763 متى يتحلل المُفرد بالحج؟: does not answer its title
+- 4782 هل يجوز العمل بخلاف ظاهر الحديث؟: starts by answering a claim we do not show
+- 5174 حكم من يقتصر على صلاة الجمعة وصيام رمضان: starts by answering a claim we do not show
+- 5247 حكم من حج عن غيره واعتمر عن آخر بإذنهما: starts with "as before", needs context
+
+## Batch 020
+
+- Candidates read: 50
+- Approved and stored: 31
+- Rejected: 19
+- Needs Mo: 0
+- Page requests: 142, request errors: 0
+- Running total stored in this run: 721
+
+Rejected:
+- 5485 حكم قراءة سورة الإخلاص على روح الموتى: no ruling of Ibn Baz himself, only what most scholars say
+- 5533 حكم إهداء ثواب الأعمال للميت: near duplicate of an approved item on gifting reward to the dead
+- 5633 حرمة الانتحار وتمني الموت: ends mid-quote
+- 5721 حكم الزكاة في مالي الذي استدانه أحد الناس: refers to a previous answer, ends cut
+- 5729 حكم زكاة بهيمة الأنعام إذا كان يعلفها أغلب السنة: near duplicate of an approved item on zakat of fed sheep
+- 5782 زكاة المرتبات فيها تفصيل: ends with a signature line, needs outside context
+- 5784 الزكاة تكون فيما دار عليه الحول وهو بحوزة الإنسان: ends with a signature line, needs outside context
+- 5804 حكم زكاة الأرض التي تركت لوقت الحاجة: near duplicate of approved items on zakat of land
+- 5807 حكم زكاة الأرض التي يتردد صاحبها في بيعها: near duplicate of approved items on zakat of land
+- 5812 حكم زكاة الأراضي التي يمتلكها الناس لسنوات: near duplicate of approved items on zakat of land
+- 5814 تجب الزكاة في غلة ما أعد للإيجار من دور وعمائر: near duplicate of approved items on zakat of rented buildings
+- 5818 هل تجب الزكاة في البيوت والسيارات؟: near duplicate of approved items on zakat of houses and cars
+- 5848 حكم كفارة من أسقطت جنينها بسبب العوار: says the question is unclear, no answer
+- 5942 صورة مسألة التورق وحكمها: cut off, lists views without a ruling
+- 6047 حكم الصيام عن المريض العاجز عن الصوم: near duplicate of an approved item on feeding for a sick person
+- 6095 هل الدعاء بعد الفرض سنة أم بدعة؟: near duplicate of approved items on dua after prayer
+- 6104 حكم الزواج لمن قدر عليه من الرجال والنساء: does not answer its title
+- 6235 حكم زكاة الأموال التي تجمع للزواج وغيرها: near duplicate of approved items on zakat of saved money
+- 6287 حكم استعمال المرأة للمناكير التي تطلى بها الأظافر: near duplicate of an approved item on nail polish
+
+## Batch 021
+
+- Candidates read: 50
+- Approved and stored: 35
+- Rejected: 15
+- Needs Mo: 0
+- Page requests: 172, request errors: 0
+- Running total stored in this run: 756
+
+Rejected:
+- 6537 حكم تسديد ديون المعسرين من الزكاة: ends with a signature line
+- 6744 من يقدم عند اجتماع جنازة رجل وطفل وامرأة؟: near duplicate of an approved item on funeral order
+- 6861 علاج الخوف من الوقوع تحت أثر السحر: near duplicate of a stored text and not a ruling
+- 6916 حكم نكاح البدل (الشغار): near duplicate of approved items on shighar marriage
+- 7123 الواجب على أولياء الميت إذا مات وعليه صوم: personal case about the questioners mother
+- 7207 حكم من اعتمر في أشهر الحج ثم أراد أن يحج: near duplicate of approved items on hajj tamattu
+- 7563 حكم نكاح المرأة دون أخذ إذنها: does not answer its title
+- 7643 حكم إكراه الوالد ابنته بالزواج من شخص ترفضه: ends in the middle of a story
+- 7789 حكم طلب المرأة الطلاق من زوجٍ لا يصلي: near duplicate of approved items on someone who does not pray
+- 7943 حكم من يدعو غير الله ويستغيث به: ends in the middle of a sentence
+- 8110 حكم من طلق طلاقاً رجعياً ثم انقضت العدة وأراد استرجاعها: cut off before the conditions are finished
+- 8157 فضل تعلم كتاب الله والسنة النبوية: ends in the middle of a hadith
+- 8217 كيفية بر الوالدين في حياتهما وبعد موتهما: ends in the middle of a hadith
+- 8279 حكم الحديث الذي فيه أن سورة تبارك تشفع لقارئها: Ibn Baz says he does not know the grade of the hadith
+- 8284 حكم استئذان الوالد في الذهاب للحج: near duplicate of an approved item on a father forbidding hajj
+
+## Batch 022
+
+- Candidates read: 50
+- Approved and stored: 38
+- Rejected: 12
+- Needs Mo: 0
+- Page requests: 137, request errors: 0
+- Running total stored in this run: 794
+
+Rejected:
+- 8741 حكم الزواج بمن لا يصلي ونُصح الآباء في ذلك: opens with a prayer about rulers, mixes unrelated topics
+- 8859 آداب الخطوبة وضوابطها: near duplicate of an approved item on seeing the fiancee
+- 8860 حكم تعليم الخطيب لمخطوبته الصلاة: near duplicate of approved items on marrying someone who does not pray
+- 8895 حكم من عجزت عن الصوم وقضائه بسبب الحمل والرضاع: near duplicate of approved items on fasting while pregnant or nursing
+- 9180 نصيحة لشاب لا يستطيع الزواج: ends in the middle of a hadith
+- 9556 حكم هجر من يحصل الضرر بوصاله: personal case, needs context
+- 9694 صفة الأفراح الموافقة للشرع: near duplicate of approved items on weddings
+- 10018 صفة تقصير الشعر في الحج والعمرة: near duplicate of an approved item on shortening hair
+- 10041 حكم لمس القرآن للمحدث عند الحاجة: near duplicate of approved items on touching the Quran
+- 10126 واجب الوالد تجاه ولده المحتاج والعاجز عن العمل: personal advice to one person
+- 10188 أهم كتب العقيدة: near duplicate of approved items on book advice
+- 10228 ما الفرق بين التطوع والنفل والراتبة؟: ends in the middle of a sentence

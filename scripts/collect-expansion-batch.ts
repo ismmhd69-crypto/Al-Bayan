@@ -163,7 +163,7 @@ async function runForScholar(scholarId: string) {
       if (other.size < 2) continue;
       let common = 0;
       for (const w of mine) if (other.has(w)) common++;
-      if (common >= 2 && common / Math.min(mine.size, other.size) >= 0.6) return true;
+      if (common >= 2 && common / Math.min(mine.size, other.size) >= 0.5) return true;
     }
     return false;
   };
@@ -190,7 +190,7 @@ async function runForScholar(scholarId: string) {
   const markState = (ref: string | null, status: string) => {
     if (!useIndex || !ref) return;
     runState.processed[ref] = status;
-    fsSync.writeFileSync(STATE_FILE, JSON.stringify(runState), "utf-8");
+    for (let t = 0; t < 5; t++) { try { fsSync.writeFileSync(STATE_FILE, JSON.stringify(runState), "utf-8"); break; } catch (e) { if (t === 4) throw e; Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 500); } }
   };
 
   const recordSkip = (reason: string) => {
@@ -359,11 +359,11 @@ async function runForScholar(scholarId: string) {
       if (!sharesContentWord(fatwa.title, quote)) { recordSkip("No shared content word with title"); continue; }
       if (looksLikeQuestion(quote)) { recordSkip("Looks like question"); continue; }
       // Index mode: stricter mechanical gate for text with gaps or openers that point to something we do not show.
-      if (useIndex && (/\.{2,}|…|&[a-z]+;/.test(quote) || /^(فقد (وصلني|اطلعت|قرأت)|فلقد قرأت|تقدم|مثل ما تقدم|سبق|وسبق|ما سمعت|تكميل|أسئلة|على كل حال|بسم الله|سمعتم)/.test(quote))) { recordSkip("Gap or context opener"); continue; }
+      if (useIndex && (/\.{2,}|…|&[a-z]+;|[؟?]\s*$/.test(quote) || /^(فقد (وصلني|اطلعت|قرأت)|فلقد قرأت|تقدم|مثل ما تقدم|سبق|وسبق|ما سمعت|تكميل|أسئلة|على كل حال|بسم الله|سمعتم|وعليكم السلام|الشيخ:|هذا غلط|هذا خطأ|ليس بصحيح|الحمد لله)/.test(quote))) { recordSkip("Gap or context opener"); continue; }
 
       // Deduplication check
       const stems = quoteStemSet(quote);
-      if (isNearDuplicate(stems, existingStems, useIndex ? 0.5 : 0.7)) {
+      if (isNearDuplicate(stems, existingStems, useIndex ? 0.4 : 0.7)) {
         recordSkip("Near duplicate of existing quote");
         continue;
       }
