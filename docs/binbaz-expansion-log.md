@@ -653,3 +653,119 @@ Rejected:
 - 16777 الحث على إحضار القلب عند ذكر الله وعبادته: too general, no concrete ruling
 - 16809 حكم إتيان الحائض بالأذكار واستماع القرآن: near duplicate of approved items on a woman in her period and the Quran
 - 17159 ما حكم التنباك؟: near duplicate of approved items on tobacco
+
+## Batch 028
+
+- Candidates read: 50
+- Approved and stored: 34
+- Rejected: 16
+- Needs Mo: 0
+- Page requests: 98, request errors: 0
+- Running total stored in this run: 1022
+
+Rejected:
+- 17230 الصدقة مفيدة للميت والمتصدق: near duplicate of approved items on charity for the dead
+- 17383 حكم دفع مبلغ من المال للشركة زيادة على مبلغ السيارة: near duplicate of approved items on instalment sales
+- 17392 حكم من يقول: إن المجتمعات اليوم جاهلية: answers a remark about a girl we do not show
+- 17401 بماذا تحاز السيارة: near duplicate of approved items on taking possession before selling
+- 17459 الأعمال التي يشرع إهداؤها إلى الميت: near duplicate of approved items on deeds that reach the dead
+- 17527 حكم الزواج ممن رضعت معه من غير أمه: near duplicate of approved items on foster siblings
+- 17548 مسألة في الرضاع بين أبناء عم: near duplicate of approved items on foster siblings
+- 17585 حكم بيع تسعة ريالات من الهلل بعشرة من الورق: near duplicate of an approved item on exchanging currency
+- 17613 الحكم على حديث: (الدعاء ينفع مما نزل ...): Ibn Baz says he does not remember the grade of the hadith
+- 17663 حكم ما يسمى (الوعد بالشراء): near duplicate of approved items on taking possession before selling
+- 17666 حكم الأبوين إذا توفي طفلهما بسبب إهمالهما: personal case, needs context
+- 17675 حكم التجارة بأشرطة الفيديو: near duplicate of approved items on forbidden videos
+- 17716 معنى الاعتداء في الدعاء: ends mid sentence
+- 17882 الدليل على علو الله فوق العرش: starts by agreeing with an answer we do not show
+- 17932 معنى القبض الشرعي: near duplicate of approved items on taking possession before selling
+- 17942 معنى "النهي عن بيعتين في بيعة": near duplicate of an approved item on two sales in one
+
+## Batch 029
+
+- Candidates read: 50
+- Approved and stored: 39
+- Rejected: 11
+- Needs Mo: 0
+- Page requests: 114, request errors: 0
+- Running total stored in this run: 1061
+
+Rejected:
+- 18349 حكم دعاء الأولياء وسؤال الكهنة والتولة: near duplicate of approved items on calling on the dead
+- 18451 أفضل الكتب في العقيدة: near duplicate of approved items on book advice
+- 18595 حكم طاعة الولد والده في معصية الله عز وجل: near duplicate of approved items on obeying parents in sin
+- 18597 مسألة العذر بالجهل: near duplicate of approved items on excuse by ignorance
+- 18618 حكم الاقتراض من المصرف بفائدة: near duplicate of an approved item on bank interest
+- 18671 حكم التأمين على الحياة والممتلكات: near duplicate of an approved item on insurance
+- 18687 حكم التوسل بجاه الأنبياء والصالحين وبجاه القرآن: near duplicate of approved items on tawassul
+- 18909 حكم نقل الوقف إذا تعطلت مصالحه: near duplicate of an approved item on selling a waqf
+- 18994 هل يحرم أولاد البنات من الوقف؟: Ibn Baz says he is undecided
+- 19035 يحرم من الرضاعة ما يحرم من النسب: near duplicate of approved items on foster siblings
+- 19064 حكم اللعب والرقص في حفلة الزواج: near duplicate of approved items on weddings, ends unclear
+
+## Batch 030
+
+- Candidates read: 50
+- Approved and stored: 32
+- Rejected: 18
+- Needs Mo: 0
+- Page requests: 115, request errors: 0
+- Running total stored in this run: 1093
+
+Rejected:
+- 19103 جواز ضرب الدف للنساء في الزواج: near duplicate of approved items on the duff at weddings
+- 19111 لا يجوز لبس الثياب التي تصف البشرة: ends with a signature line
+- 19132 غلاء المهور سبب في تأخر النكاح: near duplicate of approved items on costly dowries
+- 19158 من أوصى بعتق رقبة فمن الثلث: mixes cases, needs the question
+- 19170 بعث الحكمين عند اختلاف الزوجين: cut off, lists views without a ruling
+- 19183 حكم الطلاق في فترة الحمل: letter reply with opening and closing, needs context
+- 19211 إذا اختلف الزوجان في صيغة الطلاق: letter reply, needs context
+- 19235 حكم قول (طالق، طالق، طالق) ولم يرد الثلاث: starts with "based on that I ruled", needs context
+- 19242 حكم من طلق بقوله تراكِ طالق طالق ثم طالق: starts with "based on that I ruled", needs context
+- 19272 تطليق الرجل امرأته بالثلاث فيه تفصيل: letter reply, needs context
+- 19345 خطأ من أباح الشغار إذا سمي المهر: refers to a person we do not show
+- 19495 لحم الخنزير وشحمه حرام: near duplicate of an approved item on pork fat
+- 19506 العمل بالقرائن في الرضاع: letter about one case, needs context
+- 19551 لبن الرضاعة منشأه الزوجان وليس المرأة فقط: near duplicate of approved items on foster siblings
+- 19612 الكفارة تبقى في ذمتك حتى تستطيع: ends with a signature line
+- 19721 مسألة في تكرار اليمين: starts with "based on what you mentioned", needs context
+- 19812 حكم مس النصراني للمصحف: near duplicate of approved items on non-Muslims touching the Quran
+- 19880 كتب الحديث المعروفة المشهورة: near duplicate of approved items on lists of books
+
+## Batch 031
+
+- Candidates read: 50
+- Approved and stored: 39
+- Rejected: 11
+- Needs Mo: 0
+- Page requests: 100, request errors: 0
+- Running total stored in this run: 1132
+
+Rejected:
+- 19923 حكم الدعاء على غير وضوء: near duplicate of an approved item on dua without wudu
+- 19999 ما صحة حديث خالد وفيه السؤال عن بضع وعشرين مسألة؟: only a hadith text, no ruling
+- 20075 من أفضل كتب العقيدة الصحيحة: near duplicate of approved items on book advice
+- 20120 وصية في التفقه في الدين وتدبر القرآن: near duplicate of approved items on book advice
+- 20135 حكم العذر بالجهل في العقائد: near duplicate of approved items on excuse by ignorance
+- 20151 حكم من عقد بيعة لغير ولاة الأمور: near duplicate of an approved item on allegiance to non-rulers
+- 20483 المسبل آثم وصلاته صحيحة: near duplicate of approved items on lowering the garment
+- 20542 حكم من يمنعه والده من أداء حجة الإسلام: near duplicate of approved items on a father forbidding hajj
+- 20906 حكم التوسل بجاه النبي وقبور الصالحين: near duplicate of approved items on tawassul
+- 20910 كيف يحذر المسلم من البدع والتصوف؟: near duplicate of approved items on innovations in Sufism
+- 20948 حكم حضور حفلات الزفاف التي بها غناء: near duplicate of approved items on weddings
+
+## Batch 032
+
+- Candidates read: 50
+- Approved and stored: 45
+- Rejected: 5
+- Needs Mo: 0
+- Page requests: 189, request errors: 0
+- Running total stored in this run: 1177
+
+Rejected:
+- 21075 هل يُعذر المسلم بالجهل في خطأ العقيدة؟: near duplicate of approved items on excuse by ignorance
+- 21082 ما الكتب التي يُوصى بها في الحديث والعقيدة؟: near duplicate of approved items on book advice
+- 21308 ما حكم التوسل بجاه الأنبياء؟: near duplicate of approved items on tawassul
+- 21416 معنى "فَهُمَا في الوِزْر سواء" في الحديث: starts with "this is something else", needs context
+- 22292 حكم من يلزمه والده بخطبة فتاة معينة: near duplicate of an approved item on marriage and parents

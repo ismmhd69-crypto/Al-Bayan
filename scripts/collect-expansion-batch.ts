@@ -359,7 +359,7 @@ async function runForScholar(scholarId: string) {
       if (!sharesContentWord(fatwa.title, quote)) { recordSkip("No shared content word with title"); continue; }
       if (looksLikeQuestion(quote)) { recordSkip("Looks like question"); continue; }
       // Index mode: stricter mechanical gate for text with gaps or openers that point to something we do not show.
-      if (useIndex && (/\.{2,}|…|&[a-z]+;|[؟?]\s*$/.test(quote) || /^(فقد (وصلني|اطلعت|قرأت)|فلقد قرأت|تقدم|مثل ما تقدم|سبق|وسبق|ما سمعت|تكميل|أسئلة|على كل حال|بسم الله|سمعتم|وعليكم السلام|الشيخ:|هذا غلط|هذا خطأ|ليس بصحيح|الحمد لله)/.test(quote))) { recordSkip("Gap or context opener"); continue; }
+      if (useIndex && (/\.{2,}|…|&[a-z]+;|[؟?]\s*$/.test(quote) || /^(فقد (وصلني|اطلعت|قرأت)|فلقد قرأت|تقدم|مثل ما تقدم|سبق|وسبق|ما سمعت|تكميل|أسئلة|على كل حال|بسم الله|سمعتم|وعليكم السلام|الشيخ:|هذا غلط|هذا خطأ|ليس بصحيح|الحمد لله|وبناء على|بناء على|والجواب|الجواب|لا يخفى على|يا محب|من عبدالعزيز)/.test(quote) || /مفتي عام المملكة|الرئيس العام|رئيس الجامعة الإسلامية|والسلام عليكم ورحمة الله/.test(quote))) { recordSkip("Gap or context opener"); continue; }
 
       // Deduplication check
       const stems = quoteStemSet(quote);
