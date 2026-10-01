@@ -37,6 +37,18 @@ Provenance and local checks: its edition metadata lists the Arabic author as Unk
 
 Result: the software license does not establish permission to store the data. Provenance is unclear, so it cannot be selected.
 
+## Dorar Hadith Encyclopedia API
+
+The research note describes an official public API intended to show search results on other websites. It does not clearly allow copying a complete collection, storing a local full-text index, sending the text to an AI provider, or translations. The request from this host was blocked by Cloudflare, so its fields, numbering, and completeness could not be verified.
+
+Result: permission and data evidence are unclear. It cannot be selected.
+
+## Sunnah.com official API
+
+The official developer page says an API key is required and that an offline dump is not available yet. The current project has no key. The official About page also prohibits scraping and mass reproduction of entire collections. An API key would not by itself prove permission for a permanent local full-text copy, search indexing, or AI processing.
+
+Result: unavailable and not authorised for this storage use. It cannot be selected.
+
 ## HadeethEnc check
 
 The required 30-record comparison was not run. The decision rule requires a qualifying dataset before that comparison and before any import. Running it would not cure the licensing and provenance failures above.
