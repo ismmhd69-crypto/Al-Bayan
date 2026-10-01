@@ -1,0 +1,32 @@
+{
+  "stored": 142,
+  "rejected": 92,
+  "needsMo": 16,
+  "batches": {
+    "001": {
+      "approved": 31,
+      "rejected": 17,
+      "needsMo": 2
+    },
+    "002": {
+      "approved": 18,
+      "rejected": 31,
+      "needsMo": 1
+    },
+    "003": {
+      "approved": 30,
+      "rejected": 15,
+      "needsMo": 5
+    },
+    "004": {
+      "approved": 30,
+      "rejected": 15,
+      "needsMo": 5
+    },
+    "005": {
+      "approved": 33,
+      "rejected": 14,
+      "needsMo": 3
+    }
+  }
+}
