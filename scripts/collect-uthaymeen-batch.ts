@@ -148,9 +148,12 @@ async function main() {
         // Gates added after batch 2 (62% rejected): labels, praise preambles, answers aimed at the asker's own case,
         // filler endings, multi-part titles, and weak title/quote overlap.
         if (/(كما (أسلفنا|قلنا|ذكرنا|سبق|تقدم)|لا أدري|لا أعرف|أشار إليه|سأل عنه|السؤال|نبدأ|مستمعي|الأخ بنجلاديشي|هذه القبيلة)/.test(quote) || /[؟?]$/.test(quote)) { skip(id, "Refers to question or earlier answer, or ends with a question"); continue; }
+        if (/(قوله تعالى|قول الله تعالى|قوله جل وعلا|الآية الكريمة)/.test(fatwa.title) && /^(تفسير|معنى|بيان معنى|توضيح|ما المقصود|ما المراد|المراد|المقصود|الجمع بين|تفسير وقوله|الحكمة من)/.test(fatwa.title.trim())) { skip(id, "Tafsir of a verse"); continue; }
+        if (/(حلقة قادمة|أشرت|سردته|نقول لها|نقول لهذه|فإنك|وأما أنت|إنك|هل أنت|ننصحك|أنصحك)/.test(quote)) { skip(id, "Aimed at the asker (2)"); continue; }
+        if (/^تفسير/.test(fatwa.title.trim()) || /^(عدة|مسائل متعددة|أسئلة)/.test(fatwa.title.trim())) { skip(id, "Tafsir or vague multi-question title"); continue; }
         if (/^(الجواب|الشيخ|نقول)/.test(quote)) { skip(id, "Starts with a label"); continue; }
         if (/(وأصلي وأسلم|والصلاة والسلام على|أسأله التوفيق|وأسأل الله)/.test(quote.slice(0, 250)) || /^الحمد لله رب العالمين/.test(quote)) { skip(id, "Praise preamble"); continue; }
-        if (/(نعم|أحسنتم|جزاكم الله خيرا|بارك الله فيك)[.!]?$/.test(quote)) { skip(id, "Filler ending"); continue; }
+        if (/(^|\s)(نعم|أحسنتم|جزاكم الله خيرا|بارك الله فيك)[.!]?$/.test(quote)) { skip(id, "Filler ending"); continue; }
         if (/(هذا الرجل|هذه المرأة|هذه البنت|هذا الشاب|هؤلاء|هولاء|رميك|حجك|إحرامك|صلاتك|صيامك|زوجتك|زوجك|والدتك|والدك|أختك|أخيك|ابنك|بنتك|عليك|أيها الأخ|يا أخي|أخي الكريم|ما وصفت|كما ذكرت|فيما ذكرت|كما قال السائل|وصفته|ذكرته|أرى لك|أنصحك|وفقك)/.test(quote)) { skip(id, "Aimed at the asker's own case"); continue; }
         if (/\sو(هل|ما|ماذا|حكم|كيف|هل)\s/.test(" " + fatwa.title + " ")) { skip(id, "Multi-part title"); continue; }
         {

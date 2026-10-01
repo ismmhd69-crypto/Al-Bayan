@@ -124,3 +124,131 @@ Official route used: section listing API, see `docs/uthaymeen-official-routes.md
 - NEEDS MO #5 "حكم إمامة الألثغ" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B49%5D/%D8%AD%D9%83%D9%85-%D8%A5%D9%85%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%84%D8%AB%D8%BA/b1ea9551-ffe2-4df3-ae19-ddb8ccf968d1): Gives two scholarly views on a lisping imam and does not choose one
 - NEEDS MO #18 "هل على المعتمر طواف وداع ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B51%5D/%D9%87%D9%84-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%85%D8%B1-%D8%B7%D9%88%D8%A7%D9%81-%D9%88%D8%AF%D8%A7%D8%B9-%D8%9F/13fe9fa1-975b-4c95-b2e6-f39e90446bce): Gives two scholarly views on farewell tawaf for umrah and does not choose one
 - NEEDS MO #50 "حكم حضور الحفلات إذا لم تكن مصحوبة بطبول" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B62%5D/%D8%AD%D9%83%D9%85-%D8%AD%D8%B6%D9%88%D8%B1-%D8%A7%D9%84%D8%AD%D9%81%D9%84%D8%A7%D8%AA-%D8%A5%D8%B0%D8%A7-%D9%84%D9%85-%D8%AA%D9%83%D9%86-%D9%85%D8%B5%D8%AD%D9%88%D8%A8%D8%A9-%D8%A8%D8%B7%D8%A8%D9%88%D9%84/d0638871-dde1-477e-b971-1ed926c347f1): Sensitive: music and singing ruling (the handoff says music questions need a reviewed view decision)
+
+## Batch 006: 34 approved, 15 rejected, 1 needs Mo. Running total stored this run: 176
+
+- Rejected #1 "مسائل متعددة في سجود السهو": Title ('several issues') is vague and does not match the quote
+- Rejected #5 "الوضوء بالمُد والاغتسال بالصاع": Refers to 'the brother mentioned' and the earlier conversion to kilograms
+- Rejected #6 "المقصود بثلثي المُد": Refers to an earlier explanation ('you already know the amount')
+- Rejected #9 "حكم الصلاة في مسجد المدرسة": Starts with a stray word ('ممكن') and depends on the question
+- Rejected #11 "هذه الصورة من الرهان والقمار والميسر": Depends on a picture or case not shown
+- Rejected #12 "حكم الأكل من الذبيحة التي تذبح تقربا إلى الله وكيفية الذبح": Does not cover the second half of the title (how to slaughter)
+- Rejected #15 "حكم دفن الميت في المسجد وبناء المساجد على القبور": Covers only building mosques on graves, not burial inside a mosque
+- Rejected #17 "حكم الخميرة التي توضع في العجين": Starts with 'I answer them', needs the question
+- Rejected #18 "حكم كشف المرأة وجهها عند عملها في المزرعة..": Ends with the presenter's thanks
+- Rejected #22 "تحرم المرأة على زوجها إذا طلقها ثلاثا حتى تنكح زوجا غيره": Refers to 'this book he mentioned'
+- Rejected #23 "حكم قول المأمور بالمعروف : " لكم دينكم ولي ديني "": Ends mid-thought, the sentence is left unfinished
+- Rejected #27 "حكم بيع التقسيط مع زيادة في السعر": Ends mid-thought, the second case is left unfinished
+- Rejected #28 "حكم انغماس الصائم في الماء": Starts with 'there is no truth in that' and relies on a reported (not graded) narration
+- Rejected #30 "حكم زيارة المرأة لقبر النبي صلى الله عليه وسلم": Does not mention the Prophet's grave specifically, partial match to the title
+- Rejected #33 "حكم النظر إلى النساء السافرات": Does not address looking at women, only their going out
+- NEEDS MO #21 "هل مس المرأة ينقض الوضوء ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B70%5D/%D9%87%D9%84-%D9%85%D8%B3-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D9%8A%D9%86%D9%82%D8%B6-%D8%A7%D9%84%D9%88%D8%B6%D9%88%D8%A1-%D8%9F/1943ccb3-2bb6-48e1-90d2-0c88ed236a8e): Lists three scholarly views on touching a woman and wudu without choosing one
+
+## Batch 007: 31 approved, 18 rejected, 1 needs Mo. Running total stored this run: 207
+
+- Rejected #1 "من الأحاديث الموضوعة عن النبي صلى الله عليه وسلم": Says 'this hadith is fabricated' without saying which hadith
+- Rejected #2 "كيفية معاملة من يبتدع في الدين إرضاء للعوام": Refers to 'this innovator', needs the question
+- Rejected #5 "حكم صوم يوم عرفة أو عاشورا بنية القضاء": Quote is about the six days of Shawwal, does not match the title
+- Rejected #7 "حكم لبس الساعات التي تحمل إشارة الصليب": Ends with an objection that is never answered in the quote
+- Rejected #9 "تفسير قوله تعالى : " بلى قادرين على أن نسوي بنانه "": Tafsir of a verse, tafsir is skipped
+- Rejected #19 "حكم صلاة المسبوق إذا قام لإكمال صلاته ولم يسجد مع الإمام سجود السهو..": Starts mid-answer ('if it was after the salam'), needs the question
+- Rejected #22 "حكم الإتيان بالذكر الوارد بعد الأذان عن طريق مكبر الصوت": Addressed to the asker ('because you...')
+- Rejected #25 "بيع السندات": Quote is about shares in companies, the title is about bonds
+- Rejected #26 "هل صحيح أن زواج البنت يسقط حقها من الميراث ؟": Addressed to the asker's own family ('your father and your uncles')
+- Rejected #27 "تفسير قوله تعالى : " إنا عرضنا الأمانة على السماوات والأرض والجبال..."": Tafsir of a verse, tafsir is skipped
+- Rejected #29 "هل دم الإنسان نجس ؟": Does not clearly say whether blood is impure
+- Rejected #30 "هل يعذر المريض بترك الصلاة ؟": Starts with 'this act is ignorance', needs the question
+- Rejected #31 "حكم خروج المعتكف للضرورة": Cut off after the first of three kinds of leaving
+- Rejected #33 "تفسير قوله تعالى : " ومن لم يحكم بما أنزل الله فأولئك هم الكافرون "": Tafsir of a verse, tafsir is skipped
+- Rejected #38 "تفسير وقوله تعالى : " من كان في هذه أعمى فهو في الآخرة أعمى وأضل سبيلا "": Tafsir of a verse, tafsir is skipped
+- Rejected #47 "تفسير قوله تعالى : " والقمر قدرناه منازل حتى عاد كالعرجون القديم "": Tafsir of a verse, tafsir is skipped
+- Rejected #48 "عدة أسئلة في الصلاة على الجنازة": Title ('several questions') is vague and the quote covers only timing
+- Rejected #49 "معنى استصحاب نية الوضوء": Addressed to the asker ('we advise you')
+- NEEDS MO #37 "التفصيل في تعليق التمائم" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B94%5D/%D8%A7%D9%84%D8%AA%D9%81%D8%B5%D9%8A%D9%84-%D9%81%D9%8A-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%A6%D9%85/d68e5fcc-2c42-44b1-bc84-58569355d272): Gives two scholarly views on hanging amulets with Quran and does not choose one in the quote
+
+## Batch 008: 25 approved, 21 rejected, 4 needs Mo. Running total stored this run: 232
+
+- Rejected #3 "قبول التوبة": Says there are five conditions of repentance but the quote gives only the first
+- Rejected #6 "التصرف في المال اليتيم": Refers to 'this act' of the asker, needs the question
+- Rejected #7 "الجمع بين قوله تعالى : " وإن تبدوا ما في أنفسكم أو تخفوه يحاسبكم به الله " وبين الحديث : " إن الله تجاوز عن أمتي ما حدثت بها أنفسها.."": Refers to 'the hadith you mentioned', addressed to the asker
+- Rejected #10 "ما المقصود بالأمانة في قوله تعالى : " إِنَّا عَرَضْنَا الْأَمَانَةَ عَلَى السَّمَاوَاتِ وَالْأَرْضِ وَالْجِبَالِ.."": Tafsir of a verse, tafsir is skipped
+- Rejected #11 "هل للمرأة أن تنكح نفسها إذا لم يكن لها ولي أو كان غائبا ؟": Same topic as an item already stored (a woman marrying herself)
+- Rejected #17 "زوجها يفرض على ولده أن يعطيه من ماله للحديث : " أنت ومالك لأبيك "": Starts with 'what you quoted of the hadith', addressed to the asker
+- Rejected #18 "هل يجب على من ارتكب جريمة تسليم نفسه بعد أن أهملت القضية ؟": Cut off after the first of two cases
+- Rejected #20 "الصلاة آخر جمعة من رمضان قضاء ما فاتهم من الفروض": Ends with a question aimed at the asker
+- Rejected #24 "الأذكار عقب الصلاة متنوعة": Quote talks about opening supplications, not the dhikr after prayer in the title
+- Rejected #25 "حقوق الطريق": Starts with 'our view is that what they mentioned', needs the question
+- Rejected #26 "طرق القبور والجلوس عليه": Ends with advice to the asker to report the matter to officials
+- Rejected #27 "هل في الفول زكاة ؟": The Sheikh says he will give the weight later in the episode
+- Rejected #29 "من نذر أن يصوم يوم الجمعة فهل يلزمه ذلك ؟": Addressed to the asker ('we say to her')
+- Rejected #30 "هل له أن يتزوج من بنت خالته إذا كان إخوته قد رضعوا من أمها ؟": Aimed at the asker's own family situation
+- Rejected #31 "ما هي الأعذار المبيحة لترك صلاة الجماعة ؟": Starts with 'first, this hadith is weak', needs the question
+- Rejected #33 "معنى قوله تعالى : " وَكَلَّمَ اللَّهُ مُوسَى تَكْلِيماً "": Tafsir of a verse, tafsir is skipped
+- Rejected #36 "دفع الأرض لمن يزرعها": Cut off after two of the three kinds
+- Rejected #37 "معنى حديث : " فمن كانت هجرته لدنيا يصيبها..": Ends by telling the asker he did not make the hijra
+- Rejected #40 "إذا كان قدر الله سابق فلماذا العمل بالأسباب ؟": Ends with the Companions' question and no answer
+- Rejected #45 "معنى قوله تعالى : " الله نزل أحسن الحديث كتابا.." الآية": Tafsir of a verse, tafsir is skipped
+- Rejected #48 "زوجها المأذون الشرعي بعد أن علم أن والدها لا يصلي فما حكم نكاحها ؟": Depends on the case in the question (the marriage contract)
+- NEEDS MO #2 "حكم تعليق التمائم" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B97%5D/%D8%AD%D9%83%D9%85-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%A6%D9%85/e9df8757-5aee-47e6-979f-84038ccf7757): Gives two scholarly views on hanging amulets with Quran and does not choose one
+- NEEDS MO #34 "حكم ختان الأنثى" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B108%5D/%D8%AD%D9%83%D9%85-%D8%AE%D8%AA%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%86%D8%AB%D9%89/cfa7d0cb-739d-4fb2-bee3-b8aa2d695b7c): Sensitive: ruling on female circumcision
+- NEEDS MO #35 "الفرق بين المرتد والكافر الأصلي" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B108%5D/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D8%B1%D8%AA%D8%AF-%D9%88%D8%A7%D9%84%D9%83%D8%A7%D9%81%D8%B1-%D8%A7%D9%84%D8%A3%D8%B5%D9%84%D9%8A/bb38c6a2-927e-4944-9ed4-9b3cef24b559): Sensitive: says an apostate is killed unless he returns to Islam
+- NEEDS MO #47 "طهرت في نهار رمضان فماذا يلزمها ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B111%5D/%D8%B7%D9%87%D8%B1%D8%AA-%D9%81%D9%8A-%D9%86%D9%87%D8%A7%D8%B1-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D9%81%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D9%84%D8%B2%D9%85%D9%87%D8%A7-%D8%9F/37df4b28-8c49-41ed-b7ad-fa10145c9ecb): Gives two scholarly views on a woman who becomes pure during a Ramadan day, and quotes a report from Ibn Masud
+
+## Batch 009: 35 approved, 12 rejected, 3 needs Mo. Running total stored this run: 267
+
+- Rejected #6 "هل صحيح أن الميت ينتفع بجميع العبادات المالية والبدنية..؟": Refers to 'what you read' by the asker
+- Rejected #11 "من معوقات النكاح والنصيحة لأولياء الأمور": Refers to 'what the brother mentioned', needs the question
+- Rejected #13 "حكم زيارة القبور بعد صلاة العيد": Addressed to the asker's own group ('your action')
+- Rejected #18 "هل يعد هذا العذر مبيحاً لترك الجماعة في المسجد ؟": The Quran verse and hadith are blank in the page text
+- Rejected #22 "حكم السؤال بوجه الله تعالى": Starts with 'this hadith', which is not shown, and the Sheikh does not grade it
+- Rejected #25 "حكم صوم شهرين متتابعين كفارة لذنوبه": Ends with a cut-off hadith opening
+- Rejected #31 "من هو العزيز الذي جاء ذكره في سورة يوسف ؟": Starts with 'No', needs the question (about a Quran story)
+- Rejected #35 "حكم من لا يحضرة صلاة الجمعة مع المسلمين ويصلي في بيته": Same topic as another item in the same batch (Friday prayer at home)
+- Rejected #40 "ما هي المسافة التي ينبغي أن تكون بين موضع السجود والمار بين يدي المصلي ؟": The second case gives views without a ruling and is cut off
+- Rejected #43 "حكم دفن الاثنين في قبر واحد": Depends on the case ('this girl and this miscarried baby')
+- Rejected #44 "حكم صلاة المنفرد خلف الصف": Lists three views and is cut off after the first
+- Rejected #48 "حكم صوم المريض إذا كان مرضه غير مرجو الزوال": Addressed to the asker at the end ('if this illness stays with you')
+- NEEDS MO #7 "حكم من أنكر المعراج أو أول تفسيره" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B116%5D/%D8%AD%D9%83%D9%85-%D9%85%D9%86-%D8%A3%D9%86%D9%83%D8%B1-%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D8%A7%D8%AC-%D8%A3%D9%88-%D8%A3%D9%88%D9%84-%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%D9%87/24067637-7b4e-43ad-b7db-d04cc58b9e8c): Sensitive: says someone who denies the mi'raj after the truth is clear is a disbeliever
+- NEEDS MO #15 "الصحيح في الزواج بنية الطلاق" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B118%5D/%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%AD-%D9%81%D9%8A-%D8%A7%D9%84%D8%B2%D9%88%D8%A7%D8%AC-%D8%A8%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D9%82/f4ffceb2-1ba4-4437-afd3-03c2f800ff97): Only gives the Hanbali school's position on marrying with the intention of divorce, not the Sheikh's own ruling
+- NEEDS MO #38 "حكم الإحرام بالحج قبل أشهر الحج" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B136%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%A5%D8%AD%D8%B1%D8%A7%D9%85-%D8%A8%D8%A7%D9%84%D8%AD%D8%AC-%D9%82%D8%A8%D9%84-%D8%A3%D8%B4%D9%87%D8%B1-%D8%A7%D9%84%D8%AD%D8%AC/f8b45d33-62af-4b3c-867c-41bacab00c35): Gives two scholarly views on starting the hajj ihram before the hajj months and does not choose
+
+## Batch 010: 32 approved, 15 rejected, 3 needs Mo. Running total stored this run: 299
+
+- Rejected #7 "حكم زيارة مسجد معاذ رضي الله عنه في اليمن": Garbled sentence on the official page ('ليس لك أن معاذ...')
+- Rejected #8 "بيان معنى قوله تعالى : " ليلة القدر خير من ألف شهر "": Tafsir of a verse, tafsir is skipped
+- Rejected #9 "حكم دفن الميت في المسجد": Near duplicate of burial-in-mosque items already stored
+- Rejected #10 "الحوارات في القرآن": Not a fatwa (a point about Quran style) and cut off ('this is one')
+- Rejected #11 "من كرامات الله لعمر رضي الله عنه": Not a fatwa (a story about Umar) and cut off
+- Rejected #16 "هل هذه الصورة من الكذب ؟": Addressed to the asker ('your words to the judge')
+- Rejected #20 "في قصة أهل الكهف والرجل الذي أماته الله مائة عام..وهل يشعر الميت بالمدة التي مرت عليه ؟": Starts with 'first, she mentioned two stories', needs the question
+- Rejected #30 "صلوا إلى غير جهة القبلة جهلاً منهم فهل تلزمهم الإعادة ؟": Covers only the first of two cases, cut off
+- Rejected #31 "الحكمة من الحروف الهجائية في أوائل بعض السور": Tafsir (the opening letters of surahs)
+- Rejected #32 "الفرق بين المسكين والفقير": Garbled definition on the official page (mixes up the poor and the needy)
+- Rejected #34 "ما حكم الشرع في المسبحة ؟": Cut off after the first of several points
+- Rejected #35 "حديث في ذم من حفظ سورة من القرآن ثم نسيها": Depends on a hadith not shown and not graded ('if it is sound')
+- Rejected #40 "من هم بسيئة ثم تركها فهل يؤجر على تركه ؟": Cut off in the middle of a hadith
+- Rejected #41 "توفي وعليه قضاء من رمضان فماذا يجب على الورثة ؟": Cut off after the first of three kinds
+- Rejected #48 "حكم إظهار الفرح والسرور في بعض الأيام كالسابع والعشرين من رجب والنصف من شعبان...": Quote does not address the dates in the title (Rajab and Shaban)
+- NEEDS MO #6 "هل وردت أدعية تقال عند الإفطار والسحور ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B153%5D/%D9%87%D9%84-%D9%88%D8%B1%D8%AF%D8%AA-%D8%A3%D8%AF%D8%B9%D9%8A%D8%A9-%D8%AA%D9%82%D8%A7%D9%84-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D8%A5%D9%81%D8%B7%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%B3%D8%AD%D9%88%D8%B1-%D8%9F/a94f59f2-1109-46d6-9d50-7890048b56eb): Quotes the iftar supplication 'اللهم لك صمت' and a hadith about the fasting person's dua without saying they are sound
+- NEEDS MO #45 "حكم قتل الوالد بولده" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B173%5D/%D8%AD%D9%83%D9%85-%D9%82%D8%AA%D9%84-%D8%A7%D9%84%D9%88%D8%A7%D9%84%D8%AF-%D8%A8%D9%88%D9%84%D8%AF%D9%87/d2b0396c-d28b-4cb5-afa4-60fc94aa8d7c): Only reports what the majority of scholars say (a father is not executed for his son) and quotes a hadith without grading it
+- NEEDS MO #46 "حكم أخذ الأجرة على الطاعات" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B173%5D/%D8%AD%D9%83%D9%85-%D8%A3%D8%AE%D8%B0-%D8%A7%D9%84%D8%A3%D8%AC%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B7%D8%A7%D8%B9%D8%A7%D8%AA/80f91b24-52fd-4880-b7e9-72d860f6d226): Says an imam may not take wages for his post, which seems to conflict with the earlier stored answer that a state salary for imams is allowed
+
+## Batch 011: 33 approved, 12 rejected, 5 needs Mo. Running total stored this run: 332
+
+- Rejected #3 "حكم التوسل بالقرآن وبجاه النبي صلى الله عليه وسلم": Covers only tawassul by the Quran, not the second half of the title (by the Prophet's rank)
+- Rejected #7 "المراد بالبنين في القرآن الكريم": Tafsir (the meaning of 'sons' in the Quran)
+- Rejected #25 "هل الأفضل أن يأكل إذا حضر الطعام أو يذهب للصلاة ؟": Duplicate of another item in the same batch (food and prayer)
+- Rejected #33 "حكم قول : " صدق الله العظيم بعد تلاوة القرآن الكريم "": Near duplicate of an item already stored (saying 'sadaqa Allahu al-azim')
+- Rejected #35 "ما هي الكتب المفيدة بعد كتاب الله عز والجل ؟": Garbled start on the official page
+- Rejected #37 "ما هي الحكمة من منع المرأة من زيارة القبور ؟": Starts with 'your understanding is good', addressed to the asker
+- Rejected #38 "حكم قول المأموم : " أستعنا بالله " بعد قول الإمام : " إياك نعبد وإياك نستعين "": Cut off in the middle ('as for their saying: we seek help from Allah.')
+- Rejected #39 "هل له الذهاب للجهاد إذا رفض والداه ؟": Addressed to the asker and has a garbled phrase on the page
+- Rejected #41 "الأجر المترتب على قراءة سورة الكهف ليلة الجمعة": Starts with 'no, this is not correct', needs the question
+- Rejected #42 "ما صحة حديث : " ..من اغتسل يوم الجمعة كان في طهارة إلى الجمعة الأخرى " ؟": The Sheikh says he does not recall whether the hadith is sound
+- Rejected #44 "آفة العلم النسيان": Not a ruling and ends in a loose saying
+- Rejected #48 "حكم تنظيم النسل وتحديده": Does not state a ruling, only where the idea comes from
+- NEEDS MO #4 "حكم تشييع جنازة غير المسلم" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B181%5D/%D8%AD%D9%83%D9%85-%D8%AA%D8%B4%D9%8A%D9%8A%D8%B9-%D8%AC%D9%86%D8%A7%D8%B2%D8%A9-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85/38a8e726-25af-4a6c-ab6f-0a2059f55c02): Sensitive: says a Muslim may not follow the funeral of a non-Muslim, even a close relative
+- NEEDS MO #11 "حكم الانتماء إلى جماعة معينة" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B186%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%85%D8%A7%D8%A1-%D8%A5%D9%84%D9%89-%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D9%85%D8%B9%D9%8A%D9%86%D8%A9/da1835a1-63b5-45ca-9644-00aee76c4745): Sensitive: says it is not allowed to join party-style groups, ruling on belonging to a 'jama'a'
+- NEEDS MO #27 "هل للمرأة أن تتصدق بمهرها بغير موافقة الزوج؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B191%5D/%D9%87%D9%84-%D9%84%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A3%D9%86-%D8%AA%D8%AA%D8%B5%D8%AF%D9%82-%D8%A8%D9%85%D9%87%D8%B1%D9%87%D8%A7-%D8%A8%D8%BA%D9%8A%D8%B1-%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%AC%D8%9F/b523bccf-772f-4750-9fba-8710cd173ea2): Mentions sending money to the Afghan mujahideen as an allowed use of a wife's dowry, politically sensitive wording
+- NEEDS MO #31 "حكم المتخلف عقليا حكم المجنون" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B195%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AE%D9%84%D9%81-%D8%B9%D9%82%D9%84%D9%8A%D8%A7-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D8%AC%D9%86%D9%88%D9%86/bd38b9e5-36d0-46d5-9727-c99827d7dc6c): Sensitive creed matter: fate of the mentally disabled and of children of disbelievers on the Day of Judgement
+- NEEDS MO #50 "هل للمرأة أن تقوم بإكرام الضيف في حال غياب زوجها ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B210%5D/%D9%87%D9%84-%D9%84%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A3%D9%86-%D8%AA%D9%82%D9%88%D9%85-%D8%A8%D8%A5%D9%83%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D8%B6%D9%8A%D9%81-%D9%81%D9%8A-%D8%AD%D8%A7%D9%84-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%B2%D9%88%D8%AC%D9%87%D8%A7-%D8%9F/48c88ca4-a4bf-4e29-be89-727e520d868d): Says a woman may not serve a guest when her husband is away, could be misread without context
