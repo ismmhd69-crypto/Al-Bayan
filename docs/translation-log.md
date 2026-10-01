@@ -19,3 +19,5 @@ Published: `false`
 | 4 | 40 | 80 | 0 | 160 | Batch 4 (40 fatwas) translated and stored cleanly |
 | 5 | 39 | 78 | 1 | 199 | 1 item skipped due to transcription error in Arabic source |
 | 6 | 40 | 80 | 0 | 239 | Batch 6 (40 fatwas) translated and stored cleanly |
+| 7 | 40 | 80 | 0 | 279 | Batch 7 (40 fatwas) translated and stored cleanly |
+| 8 | 40 | 80 | 0 | 319 | Batch 8 (40 fatwas) translated and stored cleanly |
