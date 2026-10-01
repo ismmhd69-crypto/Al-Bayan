@@ -16,10 +16,9 @@ import { createNvidia } from "./nvidia";
 // answers short prompts in about 3 s but did not finish the real checking prompt in 40 s, which would
 // only delay the "busy" message. Fast NVIDIA models seen working: google/gemma-4-31b-it,
 // openai/gpt-oss-20b, nvidia/nemotron-3-super-120b-a12b.
-// Checked again 2026-10-01: gemini-3.8-flash and gemini-3.7-flash returned 503, while both lite
-// models answered. Keep production on the confirmed pair instead of delaying visitors with busy
-// full-model fallbacks.
-const DEFAULT_WRITER_MODELS = ["gemini-3.5-flash-lite"];
+// Mo selected Gemini 3.7 Flash as the production writer on 2026-10-01. The checker remains a
+// different model so the writer never approves its own answer.
+const DEFAULT_WRITER_MODELS = ["gemini-3.7-flash"];
 const DEFAULT_VERIFIER_MODELS = ["gemini-3.1-flash-lite"];
 
 // Mo's decision (2026-09-28): Vertex AI is the main door when VERTEX_API_KEY is set; the Gemini API
