@@ -31,13 +31,18 @@ function toGeminiSchema(s: JsonSchema): Record<string, unknown> {
   }
 }
 
-// One retry after a short pause when Google is busy (503) or briefly rate limited (429).
+// A couple of spaced retries absorb short Gemini capacity bursts without weakening
+// the fail-closed caller checks.
 async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): Promise<Response> {
-  const res = await call();
-  if ((res.status !== 503 && res.status !== 429) || signal?.aborted) return res;
-  if (process.env.ASK_DEBUG === "true") console.info(`gemini busy (${res.status}), retrying once`);
-  await new Promise((r) => setTimeout(r, 1500));
-  return call();
+  let res = await call();
+  const delays = [1500, 4000];
+  for (let attempt = 0; attempt < delays.length; attempt += 1) {
+    if ((res.status !== 503 && res.status !== 429) || signal?.aborted) return res;
+    if (process.env.ASK_DEBUG === "true") console.info(`gemini busy (${res.status}), retrying in ${delays[attempt]}ms`);
+    await new Promise((r) => setTimeout(r, delays[attempt]));
+    res = await call();
+  }
+  return res;
 }
 
 /** Google said "busy", "slow down" or "no access" on this door, so another door may still work. */
