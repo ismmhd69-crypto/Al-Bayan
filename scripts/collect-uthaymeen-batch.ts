@@ -130,7 +130,14 @@ async function main() {
         if (!html) { skip(id, "No content"); continue; }
         const fatwa = parseUthaymeenFatwa(html, { title, printedSource: reference, minChars: 200 });
         if (!fatwa) { skip(id, "Not parsed / too short / question"); continue; }
-        const quote = excerpt(fatwa.answer);
+        // A trailing "نعم." / "أحسنتم" is the presenter's filler, not part of the ruling: drop it so the quote ends at the last real sentence.
+        let answerText = fatwa.answer;
+        for (let k = 0; k < 3; k++) {
+          const trimmed = answerText.replace(/(^|\s)(نعم|أحسنتم|جزاكم الله خيرا|بارك الله فيك)\s*[.!]?\s*$/, "").trimEnd();
+          if (trimmed === answerText) break;
+          answerText = trimmed;
+        }
+        const quote = excerpt(answerText);
         if (!quote) { skip(id, "No clean excerpt"); continue; }
         if (quote.length < 200) { skip(id, "Quote under 200 chars"); continue; }
         if (startsLikeRoomTalk(quote)) { skip(id, "Room talk start"); continue; }
