@@ -27,3 +27,7 @@ Published: `false`
 | 12 | 40 | 80 | 0 | 479 | Batch 12 (40 fatwas) translated and stored cleanly |
 | 13 | 40 | 80 | 0 | 519 | Batch 13 (40 fatwas) translated and stored cleanly |
 | 14 | 40 | 80 | 0 | 559 | Batch 14 (40 fatwas) translated and stored cleanly |
+| 15 | 40 | 80 | 0 | 599 | Batch 15 (40 fatwas) translated and stored cleanly |
+| 16 | 40 | 80 | 0 | 639 | Batch 16 (40 fatwas) translated and stored cleanly |
+
+
