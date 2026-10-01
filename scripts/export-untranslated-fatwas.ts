@@ -85,7 +85,7 @@ async function main() {
       .select("id, title, text_original")
       .eq("kind", "fatwa")
       .eq("published", true)
-      .order("created_at", { ascending: true })
+      .order("created_at", { ascending: false })
       .range(page * PAGE_SIZE, (page + 1) * PAGE_SIZE - 1);
 
     if (sourcesError) {
