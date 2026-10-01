@@ -258,3 +258,162 @@ Rejected:
 Needs Mo:
 - 13583 حكم الوقف على الأولاد ثم على أبناء الذكور: lists views and sends the matter to the court
 - 14151 حكم نقل أعضاء جسم الكافر إلى المسلم: lists two views without choosing
+
+## Batch 012
+
+- Candidates read: 50
+- Approved and stored: 34
+- Rejected: 16
+- Needs Mo: 0
+- Page requests: 85, request errors: 0
+- Running total stored in this run: 437
+
+Rejected:
+- 6 السبيل إلى معرفة التوحيد اعتقادًا وسلوكًا وعملًا: too vague to answer its title
+- 25 أسئلة مندوب صحيفة البلاد عن مسائل بعضها يتعلق بالقومية العربية: only an introduction to questions we do not show
+- 26 هل الوهابية مذهب خامس أم تتبع بعض المذاهب الأربعة: opening of a letter, no answer
+- 27 لا ينكر مسلم شفاعة الرسول: answers a claim we do not show
+- 39 الإجابة عن سؤال من مدع الكرامات والمعجزات: reply to a letter, no answer
+- 122 من زعم أن الله أباح الأغاني وآلات الملاهي فقد كذب: near duplicate of approved items on songs
+- 130 كيفية العلاج من أمراض حسية ومعنوية: too general, no concrete answer
+- 861 حكم التصوير وما يحل منه وما يحرم: only an introduction, cut off before the ruling
+- 953 حكم الزواج بنية الطلاق والفرق بينه وبين زواج المتعة: does not answer its title (marriage with intent to divorce)
+- 1002 حكم من ساعد في استمرار نكاح الشغار: unclear, needs context
+- 1039 حكم العمرة بدون التقصير أو الحلق: starts with "as answered before", needs context
+- 1051 هل مصارف الزكاة على الترتيب؟: contradicts itself on whether there is an order
+- 1064 حكم صرف الزكاة في جوائز المسابقات: starts with "I did not hear this", needs context
+- 1074 كيف تزكى المشاريع الحديثة كالإنتاج الحيواني وغيره: starts with "same as before", needs context
+- 1136 حكم اجتماع أهل الميت للصلاة والدعاء له: refers to earlier answers
+- 1176 حكم قراءة الفاتحة على قبور الأولياء: does not answer its title (reading Fatiha at graves)
+
+## Batch 013
+
+- Candidates read: 50
+- Approved and stored: 41
+- Rejected: 9
+- Needs Mo: 0
+- Page requests: 85, request errors: 0
+- Running total stored in this run: 478
+
+Rejected:
+- 1252 هل يجوز للمرأة ترك الإحداد على زوجها؟: starts with "this is ignorance", needs context
+- 1335 حكم الاجتهاد مقابل النص: starts with "this is a dangerous statement", needs the claim
+- 1348 حكم رضا الأولاد بقسمة أبيهم العادلة: personal inheritance case, not a general answer
+- 1407 أسماء بعض الكتب المفيدة: near duplicate of approved items on book advice
+- 1481 حكم الزكاة مع وجود الدين: near duplicate of approved items on zakat with debt
+- 1515 من نوى التوقيت في الزواج هل يكون ذلك متعة؟: near duplicate of an approved item on marriage with intent to divorce
+- 1548 بيان كيفية التيمم: near duplicate of an approved item on tayammum
+- 1579 الأوقات التي تتحرى فيها ساعة الجمعة: near duplicate of an approved item on the Friday hour
+- 1624 حكم الغسل والوضوء على من غسل ميتًا: near duplicate of an approved item on washing the dead
+
+## Batch 014
+
+- Candidates read: 50
+- Approved and stored: 32
+- Rejected: 17
+- Needs Mo: 1
+- Page requests: 81, request errors: 0
+- Running total stored in this run: 510
+
+Rejected:
+- 1661 حكم إطلاق لفظ سيدنا على النبي أو الخلفاء الراشدين: no clear ruling, ends without a conclusion
+- 1689 حكم من استقدم عمالاً من الخارج وأخذ مالاً على ذلك: starts with "this is not", needs the question
+- 1702 حكم طاعة الوالد في ترك النوافل: near duplicate of an approved item on obeying parents over voluntary acts
+- 1703 كيفية إخراج زكاة الغنم المشتركة بين اثنين: does not cover the shared flock in its title
+- 1742 حكم نقل حجارة مسجد قديم إلى البيت: does not answer its title (moving old mosque stones)
+- 1750 حكم الظهار من الزوجتين بلفظ واحد: unclear case, needs context
+- 1752 حكم نكاح الشغار البدل: near duplicate of approved items on shighar marriage
+- 1829 شرح معنى مائلات مميلات: title promises an explanation, quote is only the hadith
+- 1886 وقت احتساب البداية والنهاية في المسح على الخفين: near duplicate of an approved item on wiping socks
+- 1910 كيفية تبليغ الرسول صلى الله عليه وسلم الرسالة إلى الجن: ends with an unfinished question
+- 1940 الرد على القول بتحريم الذهب للنساء وأن الحج تمتع فقط: answers a claim we do not show
+- 1971 حكم تعليم الإسلام والقرآن بأجر: starts "this is about the messengers", needs context
+- 1973 حكم خلع الجورب لمن هو على طهارة: near duplicate of an approved item on taking off socks
+- 2025 أهم كتب العقيدة: near duplicate of approved items on book advice
+- 2048 سؤال حول بعض الشركات التي تتعامل بالربا: names companies, not useful as a general answer
+- 2096 العلاج لمن به صرف أو عطف أو سحر: near duplicate of approved items on sorcery
+- 2113 ما حكم زواج الشغار مع دفع المهر؟: near duplicate of approved items on shighar marriage
+
+Needs Mo:
+- 1977 حكم انتساب ولد الزنا إلى الزاني بعد زواجه بالزانية: uses very harsh words about the man
+
+## Batch 015
+
+- Candidates read: 50
+- Approved and stored: 38
+- Rejected: 10
+- Needs Mo: 2
+- Page requests: 89, request errors: 0
+- Running total stored in this run: 548
+
+Rejected:
+- 2451 حكم رفع اليدين بالدعاء عقب الصلوات: near duplicate of an approved item on raising hands after prayer
+- 2523 هل يإثم من حفظ شيئا من القرآن ثم نسيه؟: near duplicate of an approved item on forgetting the Quran
+- 2546 حكم استئجار من يقرأ القرآن عن الميت: near duplicate of approved items on paid reading for the dead
+- 2612 الواجب فعله على الوالدين تجاه أولادهم: starts with "what you did", needs the question
+- 2796 حكم الاستهزاء بآيات القرآن الكريم: conditional answer, needs the question
+- 2799 هل يجب على الابن الدعاء لوالده بعد وفاته؟: ends with an unfinished question
+- 2820 ما الكتب التي يوصى بها للتفُّقه في الدين؟: near duplicate of approved items on book advice
+- 2855 هل يصح عقد من تزوج بنية الطلاق؟: does not answer its title
+- 2874 حكم من مات وعليه صوم: near duplicate of an approved item on fasting for the dead
+- 2884 نصيحة إلى من يكنز المال ولا يزكيه: advice to one person about their father, needs context
+
+Needs Mo:
+- 2601 الرد على من أجاز التزوج بتسع نسوة: rules on nine wives but uses harsh words about a sect
+- 2918 هل الدعاء يرد القضاء؟: hadith is quoted without saying how sound it is
+
+## Batch 016
+
+- Candidates read: 50
+- Approved and stored: 33
+- Rejected: 17
+- Needs Mo: 0
+- Page requests: 66, request errors: 0
+- Running total stored in this run: 581
+
+Rejected:
+- 3077 حكم زكاة الذهب المعد للاستعمال: near duplicate of approved items on zakat of jewelry
+- 3110 كيفية التكفير عن المعاصي: mostly a list of books, not a ruling
+- 3124 حكم صلاة مريض الفشل الكلوي وقت الجلسة: near duplicate of an approved item on prayer during dialysis
+- 3141 حكم الطواف في الحج بدون وضوء: ends without a clear conclusion
+- 3143 الواجب نحو ازدياد نشاط الشيعة في دعوتهم: no answer to its title, only describes a group
+- 3157 كيفية التصرف بأسورة فضة لا تلبس ولا تباع: near duplicate of an approved item on zakat of silver
+- 3243 حكم من يزعم أنه ينتفع بالأغاني مثل القرآن: ends with an unfinished question
+- 3274 أجر من يقرأ القرآن وهو عليه شاق: near duplicate of an approved item on reading with difficulty
+- 3304 حكم الدعاء بعد الفريضة ورفع اليدين في القنوت: near duplicate of approved items on raising hands after prayer
+- 3320 حكم قول القائل: بجاه القرآن الكريم: opens with a prayer formula and wording needing context
+- 3375 حكم انقطاع دم النفاس ثم ظهوره مرة أخرى: near duplicate of approved items on nifas
+- 3389 صرف مال الزكاة للمجاهدين: does not answer its title (zakat for fighters)
+- 3393 بيع السلعة قبل حيازتها: near duplicate of approved items on selling before taking possession
+- 3404 أنواع التوسل: only the first of several kinds is given
+- 3410 ما حكم استعمال الشمة التي توضع في الفم؟: near duplicate of approved items on tobacco
+- 3412 حكم استماع الأغاني وكتابة أشعارها: near duplicate of approved items on songs
+- 3415 الإلحاح في الدعاء وعدم اليأس: personal advice to one person
+
+## Batch 017
+
+- Candidates read: 50
+- Approved and stored: 33
+- Rejected: 17
+- Needs Mo: 0
+- Page requests: 67, request errors: 0
+- Running total stored in this run: 614
+
+Rejected:
+- 3545 أثر عدم الصلاة على صحة العقد بين الزوجين: near duplicate of approved items on marriage of someone who does not pray
+- 3572 حكم تعليق التمائم على الصبيان والمرضى: ends before it gives the ruling on hanging verses
+- 3577 حكم طهارة الماء دون القلتين إذا خالطته نجاسة: cut off, lists views without a ruling
+- 3675 حكم الاستهزاء باللحية وتقصير الثياب: near duplicate of approved items on mocking the religion
+- 3691 ما حكم الغش في الامتحان ونحوه؟: ends in the middle of a story
+- 3730 المسح على الشراب بدون سبب من برد أو غيره: near duplicate of approved items on wiping socks
+- 3732 حكم لبس الجورب اليمنى قبل غسل الرجل اليسرى: near duplicate of approved items on wiping socks
+- 3765 ما الطريقة المثلى لحفظ القرآن الكريم؟: near duplicate of approved items on memorising the Quran
+- 3771 مس الطبيب لعورة المريض ينقض الوضوء: near duplicate of an approved item on a doctor touching the private parts
+- 3778 الوضوء لقراءة القرآن: near duplicate of approved items on touching the Quran
+- 3779 حكم مسك المصحف المفسر بدون طهارة: near duplicate of approved items on touching the Quran
+- 3780 يجب الطهارة من الحدثين لمس المصحف: near duplicate of approved items on touching the Quran
+- 3810 هل الغسل يكفي عن الوضوء؟: near duplicate of an approved item on ghusl and wudu
+- 3826 طريقة التيمم الصحيحة: near duplicate of an approved item on tayammum
+- 3844 قراءة كتب التفسير لمن كان على غير طهارة: near duplicate of an approved item on a woman in her period reading Quran
+- 3845 إذا طهرت النفساء قبل الأربعين هل تصوم وتصلي وتحج؟: near duplicate of approved items on nifas
+- 3873 حكم معاشرة الزوج الذي لا يصلي ولا يصوم: near duplicate of approved items on leaving prayer

@@ -5,7 +5,7 @@ import fs from "node:fs";
 const INDEX_PATH = "docs/binbaz-archive-index.json";
 const HEADERS = { "User-Agent": "AlBayan-Collector/0.1 (non-commercial Islamic Q&A; short credited quotes)", Accept: "application/json" };
 const PAUSE_MS = 1500;
-const MAX_PAGE = 1000; // the site stops answering deep pages; stop at the first empty or failing page
+const MAX_PAGE = Number(process.argv.find((a) => a.startsWith("--max-pages="))?.slice(12) ?? 1000); // the site stops answering deep pages; stop at the first empty or failing page
 const QUERIES = (process.argv.find((a) => a.startsWith("--queries="))?.slice(10) ?? "حكم").split(",");
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 

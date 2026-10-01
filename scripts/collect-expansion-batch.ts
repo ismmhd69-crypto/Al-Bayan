@@ -157,7 +157,7 @@ async function runForScholar(scholarId: string) {
       if (other.size < 2) continue;
       let common = 0;
       for (const w of mine) if (other.has(w)) common++;
-      if (common >= 2 && common / Math.min(mine.size, other.size) >= 0.75) return true;
+      if (common >= 2 && common / Math.min(mine.size, other.size) >= 0.6) return true;
     }
     return false;
   };
@@ -353,11 +353,11 @@ async function runForScholar(scholarId: string) {
       if (!sharesContentWord(fatwa.title, quote)) { recordSkip("No shared content word with title"); continue; }
       if (looksLikeQuestion(quote)) { recordSkip("Looks like question"); continue; }
       // Index mode: stricter mechanical gate for text with gaps or openers that point to something we do not show.
-      if (useIndex && (/\.{2,}|…|&[a-z]+;/.test(quote) || /^(فقد (وصلني|اطلعت|قرأت)|فلقد قرأت|تقدم|مثل ما تقدم|على كل حال|بسم الله|سمعتم)/.test(quote))) { recordSkip("Gap or context opener"); continue; }
+      if (useIndex && (/\.{2,}|…|&[a-z]+;/.test(quote) || /^(فقد (وصلني|اطلعت|قرأت)|فلقد قرأت|تقدم|مثل ما تقدم|سبق|وسبق|ما سمعت|تكميل|أسئلة|على كل حال|بسم الله|سمعتم)/.test(quote))) { recordSkip("Gap or context opener"); continue; }
 
       // Deduplication check
       const stems = quoteStemSet(quote);
-      if (isNearDuplicate(stems, existingStems)) {
+      if (isNearDuplicate(stems, existingStems, useIndex ? 0.5 : 0.7)) {
         recordSkip("Near duplicate of existing quote");
         continue;
       }
