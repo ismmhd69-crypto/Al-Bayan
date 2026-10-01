@@ -57,3 +57,5 @@ Published: `false`
 | 42 | 40 | 80 | 0 | 1679 | Batch 42 (40 fatwas) translated and stored cleanly |
 | 43 | 40 | 80 | 0 | 1719 | Batch 43 (40 fatwas) translated and stored cleanly |
 | 44 | 40 | 80 | 0 | 1759 | Batch 44 (40 fatwas) translated and stored cleanly |
+| 45 | 40 | 80 | 0 | 1799 | Batch 45 (40 fatwas) translated and stored cleanly |
+| 46 | 40 | 80 | 0 | 1839 | Batch 46 (40 fatwas) translated and stored cleanly |
