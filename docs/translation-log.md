@@ -67,3 +67,12 @@ Published: `false`
 | 52 | 40 | 80 | 0 | 2079 | Batch 52 (40 fatwas) translated and stored cleanly |
 | 53 | 40 | 80 | 0 | 2119 | Batch 53 (40 fatwas) translated and stored cleanly |
 | 54 | 40 | 80 | 0 | 2159 | Batch 54 (40 fatwas) translated and stored cleanly |
+| 55 | 40 | 80 | 0 | 2199 | Batch 55 (40 fatwas) translated and stored cleanly |
+
+| 56 | 40 | 80 | 0 | 2240 | Batch 56 (40 fatwas) translated and stored cleanly |
+
+## Fix Batches (Umlaut Corrections)
+
+- Fix batch 1: 40 rows fixed
+- Fix batch 2: 40 rows fixed
+- Fix batch 3: 38 rows fixed
