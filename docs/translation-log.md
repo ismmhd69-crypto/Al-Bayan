@@ -91,6 +91,10 @@ Published: `false`
 
 | 66 | 40 | 80 | 0 | 2640 | Batch 66 (40 fatwas) translated and stored cleanly |
 
+| 67 | 40 | 80 | 0 | 2680 | Batch 67 (40 fatwas) translated and stored cleanly |
+
+| 68 | 40 | 80 | 0 | 2720 | Batch 68 (40 fatwas) translated and stored cleanly |
+
 ## Fix Batches (Umlaut Corrections)
 
 - Fix batch 1: 40 rows fixed
