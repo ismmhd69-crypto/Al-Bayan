@@ -101,7 +101,7 @@ async function main() {
       if (other.size < 2) continue;
       let common = 0;
       for (const w of mine) if (other.has(w)) common++;
-      if (common >= 2 && common / Math.min(mine.size, other.size) >= 0.75) return true;
+      if (common >= 2 && common / Math.min(mine.size, other.size) >= 0.67) return true;
     }
     return false;
   };

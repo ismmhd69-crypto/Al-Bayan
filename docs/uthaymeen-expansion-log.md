@@ -335,3 +335,61 @@ Official route used: section listing API, see `docs/uthaymeen-official-routes.md
 - Rejected #46 "هل يجب على المرأة لبس القفازات ؟": Does not answer whether gloves are required
 - NEEDS MO #31 "حكم قول : " من عاشر قوما أربعين يوما صار منهم "" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B290%5D/%D8%AD%D9%83%D9%85-%D9%82%D9%88%D9%84-%3A-%22-%D9%85%D9%86-%D8%B9%D8%A7%D8%B4%D8%B1-%D9%82%D9%88%D9%85%D8%A7-%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86-%D9%8A%D9%88%D9%85%D8%A7-%D8%B5%D8%A7%D8%B1-%D9%85%D9%86%D9%87%D9%85-%22/714fbf09-f22b-451a-a823-583f5126150d): Quotes the hadith 'whoever loves a people is one of them' without grading it
 - NEEDS MO #43 "ما هي السنة التي تفعل عند ولادة المولود ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B295%5D/%D9%85%D8%A7-%D9%87%D9%8A-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AA%D9%8A-%D8%AA%D9%81%D8%B9%D9%84-%D8%B9%D9%86%D8%AF-%D9%88%D9%84%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D9%84%D9%88%D8%AF-%D8%9F/66b8283a-0526-4a73-b32f-1f9fddcd10cf): Says it is a sunnah to call the adhan in a newborn's ear, a point where the hadith is disputed
+
+## Batch 018: 38 approved, 10 rejected, 2 needs Mo. Running total stored this run: 605
+
+- Rejected #11 "صفة طواف القدوم": Quote is about the hadith of Urwa and does not describe the tawaf al-qudum in the title
+- Rejected #12 "نذر إن شفى الله والده أن ينحر ناقة فشفي لمدة شهر ثم عاوده المرض..فماذا يلزمه ؟": Case-specific and ends in the middle of a sentence
+- Rejected #13 "رؤية الله يوم القيامة ثابتة بالكتاب والسنة وإجماع السلف": Near duplicate of the stored answer on seeing Allah on the Day of Judgement
+- Rejected #17 "هل التدخين محرم أم مكروه ؟": Near duplicate of the stored answer on smoking
+- Rejected #20 "هل له قتل الحيوانات العادية إذا اعتدت على بهائمه ؟": Addressed to the asker ('we advise you')
+- Rejected #26 "حكم سب المرأة لزوجها وأقاربه حال الغضب": Case-specific ('this wife') and about cursing in anger, not a clear ruling
+- Rejected #32 "متى يكون الحديث صحيحاً ؟": Lists four of the five conditions and is cut off
+- Rejected #36 "صلاة النفل قاعدا": Quote is about praying the obligatory prayer on a chair, not voluntary prayer sitting
+- Rejected #40 "هل يضر الميت شيء إذا دفن في بلاد بعيدا عن أهله ؟": Near duplicate of the stored answer on burial place wills
+- Rejected #49 "ما الواجب على من قام إلى ركعة ثالثة في صلاة الفجر ؟": Last sentence refers to the woman who asked
+- NEEDS MO #9 "متى يعق عن المولود ؟ ومتى يحلق شعره؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B298%5D/%D9%85%D8%AA%D9%89-%D9%8A%D8%B9%D9%82-%D8%B9%D9%86-%D8%A7%D9%84%D9%85%D9%88%D9%84%D9%88%D8%AF-%D8%9F-%D9%88%D9%85%D8%AA%D9%89-%D9%8A%D8%AD%D9%84%D9%82-%D8%B4%D8%B9%D8%B1%D9%87%D8%9F/99dd6cd5-e67a-4fe6-a202-af74cc994d45): Gives the dates for the aqiqah (7th, 14th, 21st day) and mentions a hadith on giving silver for the baby's hair, without saying it is sound
+- NEEDS MO #23 "حكم الدعاء بعد صلاة الفريضة" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B300%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1-%D8%A8%D8%B9%D8%AF-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D8%B6%D8%A9/2c461d82-ddb8-4a7d-80cd-34c62d0e3873): Says that making dua after the obligatory prayer is an innovation, a view many scholars do not share
+
+## Batch 019: 39 approved, 10 rejected, 1 needs Mo. Running total stored this run: 644
+
+- Rejected #7 "توجيه قوله تعالى : " وإن خفتم ألا تقسطوا في اليتامى فانكحوا ما طاب لكم من النساء "": Tafsir of a verse, tafsir is skipped
+- Rejected #11 "حكم الصلاة على النبي صلى الله عليه وسلم ورد السلام وتشميت العاطس أثناء قراءة القرآن": Does not cover the return of the greeting named in the title
+- Rejected #16 "هل له بعد قراءة القرآن أن يهب ثوابه للميت ؟": Near duplicate of stored answers on gifting the reward of recitation to the dead
+- Rejected #19 "الصلاة الفرض والنفل قاعدا": Near duplicate of stored answers on sitting in voluntary prayer
+- Rejected #27 "هل له أن يصلي ركعتي الوضوء وقت النهي ؟": Starts with a garbled sentence that depends on the question
+- Rejected #28 "نسي الصلاة على النبي صىلى الله عليه وسلم في التشهد الأخير فما حكم صلاته ؟": Only lists the views of the schools, no ruling from the Sheikh
+- Rejected #36 "حكم ختم المصحف وإهداء ثوابه للميت": Near duplicate of stored answers on gifting the reward of recitation to the dead
+- Rejected #38 "استعدت للحج .. ثم توفي زوجها فهل لها الخروج في أثناء عدتها ؟": Near duplicate of the stored answer on leaving for hajj during the waiting period
+- Rejected #44 "حكم الحلف بالنبي صلى الله عليه وسلم": Near duplicate of the stored answer on swearing by the Prophet
+- Rejected #48 "خروج المرأة بشكل مستمر لحضور حلقات العلم والندوات..بموافقة وليها": Near duplicate of the stored answer on women attending knowledge circles
+- NEEDS MO #25 "قول بعضهم : " علي الطلاق أن تفعل كذا .." ولم يصرح بالزوجة فهل تطلق زوجته ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B312%5D/%D9%82%D9%88%D9%84-%D8%A8%D8%B9%D8%B6%D9%87%D9%85-%3A-%22-%D8%B9%D9%84%D9%8A-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D9%82-%D8%A3%D9%86-%D8%AA%D9%81%D8%B9%D9%84-%D9%83%D8%B0%D8%A7-..%22-%D9%88%D9%84%D9%85-%D9%8A%D8%B5%D8%B1%D8%AD-%D8%A8%D8%A7%D9%84%D8%B2%D9%88%D8%AC%D8%A9-%D9%81%D9%87%D9%84-%D8%AA%D8%B7%D9%84%D9%82-%D8%B2%D9%88%D8%AC%D8%AA%D9%87-%D8%9F/5e44cb49-5824-4c1a-8ba5-c9ea079b9da7): Swearing by divorce: says it is an innovation but then only reports that most scholars say the divorce takes effect, not the Sheikh's own ruling on whether it counts
+
+## Batch 020: 37 approved, 10 rejected, 3 needs Mo. Running total stored this run: 681
+
+- Rejected #9 "ماذا تفعل النفساء إذا استمر دمها أكثر من أربعين يوما ؟": Near duplicate of the stored answer on bleeding after childbirth beyond forty days
+- Rejected #11 "معنى قول السلف في أسماء وصفات الله : " أمروها كما جاءت بلا كيف "": Overlaps the fuller answer #26 in the same batch (the creed of Ahl al-Sunnah on the attributes)
+- Rejected #13 "حكم الصلاة في البيت المبني داخل المقبرة": Ends in the middle of a sentence ('the prayer in.')
+- Rejected #14 "هل تجب الزكاة في السيارة الأجرة ؟": Near duplicate of the stored answer on zakat on cars
+- Rejected #29 "أخذ المصحف عند الرفع من سجود التلاوة قبل الاستتمام قاعدا": Quote does not match the title (taking the mushaf when rising from the prostration)
+- Rejected #31 "قوله تعالى : " واستعينوا بالصبر والصلاة "": Tafsir of a verse, tafsir is skipped
+- Rejected #47 "حكم المواظبة على قراءة سورة السجدة في صلاة الفجر من يوم الجمعة": Near duplicate of the stored answer on reading Surah as-Sajdah on Friday fajr
+- Rejected #48 "حكم المواظبة على قنوت الفجر": Near duplicate of the stored answer on qunut in fajr
+- Rejected #49 "النية في العبادات لا بد منها والنطق بها بدعة": Near duplicate of the stored answer on pronouncing the intention
+- Rejected #50 "قراءة القرآن بالنظر من غير نطق الحروف هل فيها أجر ؟": Ends with 'this is one', pointing at points that are not in the quote
+- NEEDS MO #2 "هل يبطل الطواف بالحدث ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B316%5D/%D9%87%D9%84-%D9%8A%D8%A8%D8%B7%D9%84-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D9%81-%D8%A8%D8%A7%D9%84%D8%AD%D8%AF%D8%AB-%D8%9F/10c00490-0baa-4078-baa7-6f769d79a5a0): Gives the majority view that wudu is needed for tawaf and Ibn Taymiyyah's opposite view, and leans towards the second without saying so plainly
+- NEEDS MO #25 "حكم لقطة الحرم" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B319%5D/%D8%AD%D9%83%D9%85-%D9%84%D9%82%D8%B7%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D9%85/531a1c9f-3542-4a6f-8549-76161cbb39eb): Reports two views on lost property in Makkah (the majority and the minority) without a clear ruling from the Sheikh
+- NEEDS MO #27 "هل للإحرام صلاة تخصه ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B319%5D/%D9%87%D9%84-%D9%84%D9%84%D8%A5%D8%AD%D8%B1%D8%A7%D9%85-%D8%B5%D9%84%D8%A7%D8%A9-%D8%AA%D8%AE%D8%B5%D9%87-%D8%9F/70660ef1-e5f3-4b70-85d1-be1f6094a69f): Reports two views on whether ihram has its own prayer and does not choose one
+
+## Batch 021: 40 approved, 7 rejected, 3 needs Mo. Running total stored this run: 721
+
+- Rejected #7 "هل تسقط صلاة الضحى على المسافر ؟": Near duplicate of the stored answer on voluntary prayers for the traveler
+- Rejected #9 "حكم إطالة شعر الرأس إلى المنكبين": Near duplicate of the stored answer on men growing their hair
+- Rejected #20 "إذا دخل المسجد أثناء الأذان فهل يصلي تحية المسجد أو يردد مع المؤذن..؟": Starts with a remark about the asker's wording of the question
+- Rejected #30 "ترك التدريس للتفرغ للعبادة": Addressed to the asker ('I see that you should stay')
+- Rejected #33 "ماهي اوقات النهي وماهي انواع الصلاة المنهي عنها": Near duplicate of the stored answer on the times when prayer is forbidden
+- Rejected #38 "قضاء صلاة الليل في النهار": Near duplicate of the stored answer on making up the night prayer in the day
+- Rejected #49 "حكم الاستثناء في الدعاء": Says there are two kinds but the quote does not reach the forbidden kind
+- NEEDS MO #39 "هل تشرع البسملة والاستعاذة في كل ركعة ؟" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B328%5D/%D9%87%D9%84-%D8%AA%D8%B4%D8%B1%D8%B9-%D8%A7%D9%84%D8%A8%D8%B3%D9%85%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%A7%D8%B0%D8%A9-%D9%81%D9%8A-%D9%83%D9%84-%D8%B1%D9%83%D8%B9%D8%A9-%D8%9F/ddf46b24-0411-44a8-95ef-62e6fcb31df0): Gives two scholarly views on the isti'adha in every rak'ah without choosing, next to a ruling on the basmalah
+- NEEDS MO #44 "حكم تفسير القرآن بالرأي" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B329%5D/%D8%AD%D9%83%D9%85-%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A8%D8%A7%D9%84%D8%B1%D8%A3%D9%8A/0e142cd3-8f05-45eb-953c-256e6f0b8885): Quotes 'whoever speaks about the Quran by his own opinion' without saying it is sound
+- NEEDS MO #47 "معنى حديث : " ليس منا من لم يتغنَّ بالقرآن "" (https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B330%5D/%D9%85%D8%B9%D9%86%D9%89-%D8%AD%D8%AF%D9%8A%D8%AB-%3A-%22-%D9%84%D9%8A%D8%B3-%D9%85%D9%86%D8%A7-%D9%85%D9%86-%D9%84%D9%85-%D9%8A%D8%AA%D8%BA%D9%86%D9%91%D9%8E-%D8%A8%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%22/8dda8a58-6741-4662-bff0-efa8d1dc21b9): Lists two scholarly explanations of the hadith 'not one of us who does not chant the Quran' without choosing one
