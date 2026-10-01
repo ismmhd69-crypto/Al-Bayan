@@ -7,7 +7,7 @@ Published: `false`
 
 ## Needs Mo
 
-*None yet.*
+- `e942fb99-5c68-4433-a192-d89779835490`: Text in original Arabic transcript contains transcription errors ("ويفتح له باب إلى الجنة" said about the kafir, and "وأما المؤمن فيقول: ها ها لا أدري" said about the second person). Skipped rather than guessing.
 
 ## Batch History
 
@@ -17,3 +17,5 @@ Published: `false`
 | 2 | 40 | 80 | 0 | 80 | Batch 2 (40 fatwas) translated and stored cleanly |
 | 3 | 40 | 80 | 0 | 120 | Batch 3 (40 fatwas) translated and stored cleanly |
 | 4 | 40 | 80 | 0 | 160 | Batch 4 (40 fatwas) translated and stored cleanly |
+| 5 | 39 | 78 | 1 | 199 | 1 item skipped due to transcription error in Arabic source |
+| 6 | 40 | 80 | 0 | 239 | Batch 6 (40 fatwas) translated and stored cleanly |

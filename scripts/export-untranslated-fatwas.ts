@@ -43,6 +43,23 @@ async function main() {
     completedMap.get(row.source_id)!.add(row.lang);
   }
 
+  // Read skipped / Needs Mo IDs from docs/translation-log.md
+  const skippedSet = new Set<string>();
+  const logPath = path.join("docs", "translation-log.md");
+  if (fs.existsSync(logPath)) {
+    const logContent = fs.readFileSync(logPath, "utf-8");
+    const needsMoSection = logContent.split("## Needs Mo")[1]?.split("## Batch History")[0] ?? "";
+    const matches = needsMoSection.match(/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/gi);
+    if (matches) {
+      for (const id of matches) {
+        skippedSet.add(id);
+      }
+    }
+  }
+  if (skippedSet.size > 0) {
+    console.log(`Skipping ${skippedSet.size} items from Needs Mo list:`, Array.from(skippedSet));
+  }
+
   // 2. Fetch published fatwas that do not have both translations
   const batch: SourceItem[] = [];
   const PAGE_SIZE = 500;
@@ -66,6 +83,7 @@ async function main() {
     }
 
     for (const s of sources) {
+      if (skippedSet.has(s.id)) continue;
       const langs = completedMap.get(s.id);
       const hasBoth = langs && langs.has("en") && langs.has("de");
       if (!hasBoth) {
