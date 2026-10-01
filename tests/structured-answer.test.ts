@@ -95,6 +95,31 @@ describe("structured answers", () => {
     ]);
     expect(missingListedItems("How do I repent?", "en", [{ ...source, arabic: "الندم" }], claims)).toEqual([]);
   });
+  it("requires a complete repentance answer to include restoring another person's rights", () => {
+    const question = "What are the conditions of sincere repentance, and what should someone do if the sin harmed another person?";
+    const completeSources = [source, { ...source, id: "S2", arabic: "يرضي أصحاب الحقوق ويرد الحقوق إليهم" }];
+    const conditions = [{ text: "A person must stop the sin, regret it, and resolve not to return.", refs: ["S1"] }];
+    expect(missingListedItems(question, "en", completeSources, conditions)).toEqual([
+      "restore or satisfy the person's rights",
+    ]);
+    expect(missingListedItems(question, "en", completeSources, [...conditions,
+      { text: "They must restore or satisfy the other person's rights.", refs: ["S2"] },
+    ])).toEqual([]);
+  });
+  it("requires the disclosure condition and alternative for backbiting repentance", () => {
+    const question = "What are the conditions for backbiting repentance, and must the person tell the one they spoke about?";
+    const backbiting = { ...source, id: "S2", arabic: "من تاب من الغيبة فإن تيسر أن يستحله فعل وإذا خاف الشر واشتداد البغضاء لا يعلمه ويذكره بخير ويستغفر له" };
+    const conditions = { text: "A person must stop the sin, regret it, and resolve not to return.", refs: ["S1"] };
+    const complete = { text: "They may tell the person when that is safe, but if telling could cause hostility or greater harm, they should not tell them and should instead mention their good qualities and ask Allah to forgive them.", refs: ["S2"] };
+    expect(missingListedItems(question, "en", [source, backbiting], [conditions, complete])).toEqual([]);
+    expect(missingListedItems(question, "en", [source, backbiting], [conditions,
+      { text: "They must always tell and inform the person.", refs: ["S2"] },
+    ])).toEqual(expect.arrayContaining([
+      "state the harm exception",
+      "state the alternative when telling may cause harm",
+      "do not say the person must always be told",
+    ]));
+  });
   it("keeps the payable rate separate from a threshold", () => {
     const gold = { ...source, arabic: "الزكاة ربع العشر إذا بلغ الذهب النصاب" };
     expect(missingListedItems("ما مقدار زكاة الذهب؟", "ar", [gold], [

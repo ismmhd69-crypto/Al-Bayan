@@ -1,15 +1,26 @@
 import "server-only";
 import type { AIProvider } from "./types";
 import { createGemini, GoogleBusyError } from "./gemini";
+import { createNvidia } from "./nvidia";
 
 // Exact models pinned on purpose (never "latest"). Each role has an ordered chain: the first model is
 // tried, and when Google says "busy" or "slow down" (429/503) the next one is tried, and so on.
 // Gemini limits each model separately, so a chain absorbs a busy or exhausted model.
 // The writer chain and the verifier chain must never share a model, so the writer never screens its
-// own work, whichever model of the chain ends up answering. Both are Google for now;
-// AI_VERIFIER_PROVIDER lets the verifier move to another company later.
-const DEFAULT_WRITER_MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite"];
-const DEFAULT_VERIFIER_MODELS = ["gemini-3.6-flash", "gemini-3.5-flash"];
+// own work, whichever model of the chain ends up answering. A chain entry is "model" (default
+// provider) or "provider:model", so a different company can sit at the end of a chain. The NVIDIA
+// models are the last resort when every Google model is busy (needs NVIDIA_API_KEY; without it those
+// steps are simply left out). Tested 2026-10-01: these three answered in about 3 s with valid JSON;
+// deepseek-v4.1-flash sat in the free queue for 90 s+, so it is not used.
+// NVIDIA is opt-in (AI_MODELS / AI_VERIFIER_MODELS) and not a default: tested 2026-10-01, its free tier
+// answers short prompts in about 3 s but did not finish the real checking prompt in 40 s, which would
+// only delay the "busy" message. Fast NVIDIA models seen working: google/gemma-4-31b-it,
+// openai/gpt-oss-20b, nvidia/nemotron-3-super-120b-a12b.
+// Checked 2026-10-01 on the free-tier key: gemini-3.6-flash and gemini-3.5-flash are limited to 20
+// requests a day per model, the two lite models answer, and the 2.5 models are gone (404). So the
+// lite models carry the traffic and the full Flash models are the backup.
+const DEFAULT_WRITER_MODELS = ["gemini-3.5-flash-lite"];
+const DEFAULT_VERIFIER_MODELS = ["gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-3.5-flash"];
 
 // Mo's decision (2026-09-28): Vertex AI is the main door when VERTEX_API_KEY is set; the Gemini API
 // key is the backup for the same model when Vertex is busy. Same model either way, so the answer
@@ -31,6 +42,11 @@ function create(provider: string, model: string): AIProvider {
       const vertex = createGemini(key, model, "vertex");
       const backupKey = process.env.GEMINI_API_KEY;
       return backupKey ? withBackup(vertex, createGemini(backupKey, model, "gemini")) : vertex;
+    }
+    case "nvidia": {
+      const key = process.env.NVIDIA_API_KEY;
+      if (!key) throw new Error("NVIDIA_API_KEY is not set");
+      return createNvidia(key, model);
     }
     default:
       throw new Error(`Unknown AI provider: ${provider}`);
@@ -99,18 +115,38 @@ function verifierModels(): string[] {
   return chainOf("AI_VERIFIER_MODELS", "AI_VERIFIER_MODEL", "AI_VERIFIER_FALLBACK_MODEL", DEFAULT_VERIFIER_MODELS);
 }
 
+const KNOWN_PROVIDERS = ["gemini", "vertex", "nvidia"];
+
+// "nvidia:deepseek-ai/deepseek-v4.1-flash" -> provider nvidia; a bare "gemini-3.6-flash" uses the default.
+function parseEntry(entry: string, fallbackProvider: string): { provider: string; model: string } {
+  const colon = entry.indexOf(":");
+  if (colon > 0 && KNOWN_PROVIDERS.includes(entry.slice(0, colon))) return { provider: entry.slice(0, colon), model: entry.slice(colon + 1) };
+  return { provider: fallbackProvider, model: entry };
+}
+
+// Vertex and the Gemini API run the same Google models, so they count as one company when comparing.
+const identity = ({ provider, model }: { provider: string; model: string }) => `${provider === "vertex" ? "gemini" : provider}/${model}`;
+
+// A provider whose key is missing is left out of its chain instead of breaking every answer.
+function usable(provider: string): boolean {
+  if (provider === "nvidia") return !!process.env.NVIDIA_API_KEY;
+  return true;
+}
+
+function build(entries: { provider: string; model: string }[]): AIProvider {
+  const models = entries.filter((e) => usable(e.provider)).map((e) => create(e.provider, e.model));
+  return withChain(models);
+}
+
 export function getProvider(): AIProvider {
-  const provider = defaultProvider();
-  return withChain(writerModels().map((model) => create(provider, model)));
+  return build(writerModels().map((entry) => parseEntry(entry, defaultProvider())));
 }
 
 export function getVerifier(): AIProvider {
-  const provider = process.env.AI_VERIFIER_PROVIDER ?? defaultProvider();
-  const verifierChain = verifierModels();
-  // Same company is the only case where model names can be compared; a different company is a different model.
-  if (provider === defaultProvider()) {
-    const shared = verifierChain.filter((model) => writerModels().includes(model));
-    if (shared.length > 0) throw new Error(`The verifier must be a different model from the writer (shared: ${shared.join(", ")})`);
-  }
-  return withChain(verifierChain.map((model) => create(provider, model)));
+  const writer = writerModels().map((entry) => parseEntry(entry, defaultProvider()));
+  const verifier = verifierModels().map((entry) => parseEntry(entry, process.env.AI_VERIFIER_PROVIDER ?? defaultProvider()));
+  const writerIds = new Set(writer.map(identity));
+  const shared = verifier.map(identity).filter((id) => writerIds.has(id));
+  if (shared.length > 0) throw new Error(`The verifier must be a different model from the writer (shared: ${shared.join(", ")})`);
+  return build(verifier);
 }

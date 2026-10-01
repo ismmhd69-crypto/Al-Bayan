@@ -483,6 +483,7 @@ export function structuredAnswerOk(raw: unknown): boolean {
  * It never creates an answer: it can only reject wording when the sealed source itself has the items. */
 export function missingListedItems(question: string, language: Locale, sources: SourceText[], claims: Claim[]): string[] {
   const answer = claims.map((claim) => claim.text).join(" ").toLowerCase();
+  const normalizedAnswer = normalizeArabic(answer);
   const source = normalizeArabic(sources.map((item) => item.arabic).join(" "));
   const missing: string[] = [];
   const requireItem = (name: string, pattern: RegExp) => { if (!pattern.test(answer)) missing.push(name); };
@@ -500,6 +501,39 @@ export function missingListedItems(question: string, language: Locale, sources: 
       requireItem("regret", /regret|remorse/);
       requireItem("resolve not to return", /resolv|intend|determined|not return|not repeat|never return|never repeat/);
     }
+  }
+  if (asksAboutRestoringRights(question)) {
+    if (language === "ar") {
+      requireItem("restore or satisfy the person's rights", /\u0631\u062f.{0,20}\u062d\u0642\u0648\u0642|\u0627\u0639\u0627\u062f.{0,20}\u062d\u0642\u0648\u0642|\u0627\u0631\u0636\u0627\u0621.{0,20}\u0627\u0635\u062d\u0627\u0628.{0,20}\u062d\u0642\u0648\u0642|\u064a\u0631\u0636\u064a.{0,20}\u0627\u0635\u062d\u0627\u0628.{0,20}\u062d\u0642\u0648\u0642|\u0627\u062f\u0627\u0621.{0,20}\u062d\u0642\u0648\u0642|\u062a\u062d\u0644\u0644/);
+    } else if (language === "de") {
+      requireItem("restore or satisfy the person's rights", /zur\u00fcckgeb|zurueckgeb|erstat|entsch\u00e4d|entschaed|wiedergut|zufriedenstell/);
+    } else {
+      requireItem("restore or satisfy the person's rights", /restore.{0,40}rights?|return.{0,40}(?:rights?|property|money|what was taken)|repay|compensat|make amends|satisf(?:y|ied).{0,50}(?:person|people|owner|victim|rights?)|seek forgiveness.{0,40}(?:person|people|owner|victim)/);
+    }
+  }
+  if (asksBackbitingDisclosure(question)) {
+    if (language === "ar") {
+      requireItem("state whether the person should be told", /\u064a\u062e\u0628\u0631|\u064a\u0639\u0644\u0645|\u064a\u0628\u0644\u063a|\u0627\u0633\u062a\u0633\u0645\u062d|\u064a\u0633\u062a\u062d\u0644/);
+      requireItem("state the harm exception", /\u0641\u062a\u0646\u0647|\u0634\u0631|\u0627\u0630\u064a|\u0628\u063a\u0636\u0627\u0621|\u0644\u0627 \u064a\u0639\u0644\u0645/);
+      requireItem("state the alternative when telling may cause harm", /\u064a\u0630\u0643\u0631.{0,30}\u0628\u062e\u064a\u0631|\u064a\u0630\u0643\u0631.{0,30}\u0645\u062d\u0627\u0633\u0646|\u064a\u0633\u062a\u063a\u0641\u0631.{0,20}\u0644/);
+    } else if (language === "de") {
+      requireItem("state whether the person should be told", /informier|mitteil|sag.{0,20}(?:person|betroffen)/);
+      requireItem("state the harm exception", /schaden|feindschaft|streit|verschlimmer|zwietracht/);
+      requireItem("state the alternative when telling may cause harm", /gut.{0,20}(?:sprechen|erw\u00e4hnen)|lob|f\u00fcr.{0,20}(?:vergebung|beten)|allah.{0,20}vergebung/);
+    } else {
+      requireItem("state whether the person should be told", /\btell(?:ing)?\b|\btold\b|\binform(?:ed|ing)?\b|\bdisclos/);
+      requireItem("state the harm exception", /harm|hostility|resentment|conflict|discord|worse|greater evil|fitna/);
+      requireItem("state the alternative when telling may cause harm", /mention.{0,30}(?:good|qualities)|speak well|praise|ask allah.{0,30}forgiv|pray.{0,20}for (?:them|him|her)/);
+    }
+    const categorical = language === "ar"
+      ? /(?:\u064a\u062c\u0628|\u0644\u0627 \u0628\u062f).{0,25}(?:\u064a\u062e\u0628\u0631|\u064a\u0639\u0644\u0645|\u064a\u0628\u0644\u063a)/.test(normalizedAnswer)
+        && !/\u0627\u0630\u0627|\u0627\u0646|\u0627\u0644\u0627|\u0644\u0643\u0646|\u0641\u062a\u0646\u0647|\u0634\u0631/.test(normalizedAnswer)
+      : language === "de"
+        ? /(?:muss|immer).{0,25}(?:informier|mitteil|sagen)/.test(answer)
+          && !/wenn|falls|au\u00dfer|aber|schaden|streit/.test(answer)
+        : /(?:must|always|required to).{0,25}(?:tell|inform|disclos)/.test(answer)
+          && !/\bif\b|\bwhen\b|unless|except|however|harm|hostility|resentment|conflict/.test(answer);
+    if (categorical) missing.push("do not say the person must always be told");
   }
   if (/convert|become muslim|muslim werden|konvertier|أسلم|أصبح مسلما/i.test(question)
     && /لا اله الا الله/.test(source) && /محمد(?:ا)? رسول الله/.test(source)) {
@@ -521,6 +555,14 @@ export function missingListedItems(question: string, language: Locale, sources: 
   return missing;
 }
 
+const asksAboutRepentance = (question: string) => /\u062a\u0648\u0628|repent|bereu|reue/i.test(question);
+const asksForRepentanceConditions = (question: string) => asksAboutRepentance(question)
+  && /\u0634\u0631\u0648\u0637|conditions?|requirements?|bedingungen|voraussetzungen/i.test(question);
+const asksAboutRestoringRights = (question: string) => asksAboutRepentance(question)
+  && /harm(?:ed|ing)?\s+(?:another|someone|a person)|hurt\s+(?:another|someone|a person)|violat(?:e|ed|ing).{0,20}rights?|another person'?s rights?|people'?s rights?|restore.{0,20}rights?|make amends|jemandem geschadet|rechte (?:anderer|verletzt)|wiedergutmachen|\u062d\u0642\u0648\u0642|\u0638\u0644\u0645|[\u0623\u0627]\u0630\u0649/i.test(question);
+const asksBackbitingDisclosure = (question: string) => /\u063a\u064a\u0628\u0629|\u0627\u063a\u062a\u0627\u0628|backbit|gossip|\u00fcble nachrede|l\u00e4ster|laester/i.test(question)
+  && /must.{0,25}(?:tell|inform)|tell.{0,35}(?:person|them|him|her)|inform|notify|disclos|\u0627\u062e\u0628\u0627\u0631|\u0627\u0639\u0644\u0627\u0645|\u064a\u062e\u0628\u0631|\u0627\u0628\u0644\u0627\u063a|mitteil|informier|sagen/i.test(question);
+
 /** Some high-impact procedures are complete only when the sealed source itself contains every
  * indispensable item. This gate can only refuse; it never supplies religious content. */
 export function requiredSourceItemsPresent(question: string, sources: SourceText[]): boolean {
@@ -528,6 +570,25 @@ export function requiredSourceItemsPresent(question: string, sources: SourceText
   // The current sealed library has texts about the number and reward of the prayers, but no direct
   // approved source explaining why five were prescribed. Refuse until that source is added.
   if (asksWhyFivePrayers) return false;
+
+  const sealedSource = normalizeArabic(sources.map((item) => item.arabic).join(" "));
+  if (asksForRepentanceConditions(question)
+    && !(/\u0627\u0644\u0646\u062f\u0645/.test(sealedSource)
+      && /\u0627\u0644\u0627\u0642\u0644\u0627\u0639/.test(sealedSource)
+      && /\u0627\u0644\u0639\u0632\u0645/.test(sealedSource))) return false;
+  if (asksAboutRestoringRights(question)
+    && !sources.some((item) => {
+      const text = normalizeArabic(item.arabic);
+      return /\u062d\u0642\u0648\u0642/.test(text)
+        && /\u064a\u0631\u0636\u064a|\u0631\u062f|\u0627\u062f\u0627\u0621|\u0627\u0639\u0627\u062f|\u0627\u0631\u062c\u0627\u0639|\u062a\u062d\u0644\u0644/.test(text);
+    })) return false;
+  if (asksBackbitingDisclosure(question)
+    && !sources.some((item) => {
+      const text = normalizeArabic(item.arabic);
+      return /\u063a\u064a\u0628[\u0629\u0647]|\u0627\u063a\u062a\u0627\u0628/.test(text)
+        && /\u064a\u0639\u0644\u0645|\u064a\u062e\u0628\u0631|\u064a\u0628\u0644\u063a|\u0627\u0633\u062a\u0633\u0645\u062d|\u064a\u0633\u062a\u062d\u0644/.test(text)
+        && /\u0644\u0627 \u064a\u0639\u0644\u0645|\u064a\u062e\u0627\u0641|\u0641\u062a\u0646\u0647|\u0634\u0631|\u0628\u063a\u0636\u0627\u0621|\u062a\u064a\u0633\u0631/.test(text);
+    })) return false;
 
   if (!/convert|become muslim|muslim werden|konvertier|أسلم|أصبح مسلما/i.test(question)) return true;
   const source = normalizeArabic(sources.map((item) => item.arabic).join(" "));

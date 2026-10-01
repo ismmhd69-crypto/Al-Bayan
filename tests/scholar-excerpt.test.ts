@@ -207,6 +207,10 @@ describe("sharesContentWord", () => {
   it("rejects when no content words overlap, even if stop words are present", () => {
     expect(sharesContentWord("الكلام على الإتباع ونبذ التقليد", "الصلاة ركن من أركان الإسلام وهو فرض")).toBe(false);
   });
+
+  it("recognizes the Arabic noun and verb forms for backbiting as the same topic", () => {
+    expect(sharesContentWord("كيفية تكفير ذنب الغيبة", "إذا اغتابه ثم تاب إلى الله واستغفر له")).toBe(true);
+  });
 });
 
 describe("startsLikeRoomTalk", () => {

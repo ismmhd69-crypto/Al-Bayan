@@ -35,7 +35,8 @@ function toGeminiSchema(s: JsonSchema): Record<string, unknown> {
 // the fail-closed caller checks.
 async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): Promise<Response> {
   let res = await call();
-  const delays = [1500, 4000];
+  // One short retry: the model chain (lib/ai/index.ts) moves to the next model instead of waiting here.
+  const delays = [1500];
   for (let attempt = 0; attempt < delays.length; attempt += 1) {
     if ((res.status !== 503 && res.status !== 429) || signal?.aborted) return res;
     if (process.env.ASK_DEBUG === "true") console.info(`gemini busy (${res.status}), retrying in ${delays[attempt]}ms`);

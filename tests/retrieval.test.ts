@@ -5,6 +5,7 @@ import {
   parseQuestionFrame,
   questionFrameMismatch,
   rankCandidatesForQuestion,
+  repairExplicitFrame,
   type PassageForSelection,
 } from "@/lib/ask/retrieval";
 import type { Verse } from "@/lib/sources/quran-meta";
@@ -109,6 +110,37 @@ describe("structured retrieval", () => {
     expect(multiple?.requirements.map(({ id, facet }) => ({ id, facet }))).toEqual([
       { id: "R1", facet: "quantity" },
       { id: "R2", facet: "reason" },
+    ]);
+  });
+  it("keeps repentance conditions and restoring another person's rights as separate points", () => {
+    const question = "What are the conditions of sincere repentance, and what should someone do if the sin harmed another person?";
+    const conditionsOnly = parseQuestionFrame({
+      language: "en", kind: "question", question_type: "practice", subjects: ["sincere repentance"],
+      requested_points: [{ text: "conditions of sincere repentance", facet: "conditions" }], qualifiers: [],
+      search_queries_en: ["conditions of sincere repentance"], search_queries_de: [], search_queries_ar: [],
+    });
+    expect(conditionsOnly).not.toBeNull();
+    expect(questionFrameMismatch(question, conditionsOnly!)).toBe("repentance_rights_missing");
+    const repaired = repairExplicitFrame(question, conditionsOnly!);
+    expect(repaired.requirements).toEqual([
+      { id: "R1", text: "conditions of sincere repentance", facet: "conditions" },
+      { id: "R2", text: "restoring rights after harming another person", facet: "steps" },
+    ]);
+    expect(questionFrameMismatch(question, repaired)).toBeNull();
+  });
+  it("keeps the backbiting disclosure ruling separate from repentance conditions", () => {
+    const question = "What are the conditions for backbiting repentance, and must the person tell the one they spoke about?";
+    const conditionsOnly = parseQuestionFrame({
+      language: "en", kind: "question", question_type: "practice", subjects: ["backbiting repentance"],
+      requested_points: [{ text: "conditions for backbiting repentance", facet: "conditions" }], qualifiers: [],
+      search_queries_en: ["backbiting repentance conditions"], search_queries_de: [], search_queries_ar: [],
+    });
+    expect(conditionsOnly).not.toBeNull();
+    expect(questionFrameMismatch(question, conditionsOnly!)).toBe("backbiting_disclosure_missing");
+    const repaired = repairExplicitFrame(question, conditionsOnly!);
+    expect(repaired.requirements).toEqual([
+      { id: "R1", text: "conditions for backbiting repentance", facet: "conditions" },
+      { id: "R2", text: "whether the person must tell the one they spoke about", facet: "ruling" },
     ]);
   });
 

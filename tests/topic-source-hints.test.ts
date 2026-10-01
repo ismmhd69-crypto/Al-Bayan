@@ -3,9 +3,9 @@ import { matchingTopicHints, TOPIC_SOURCE_HINTS } from "@/data/topic-source-hint
 import { isRealVerse } from "@/lib/sources/quran-meta";
 
 describe("checked topic search hints", () => {
-  it("has thirty distinct topics and real Quran keys", () => {
-    expect(TOPIC_SOURCE_HINTS).toHaveLength(30);
-    expect(new Set(TOPIC_SOURCE_HINTS.map((topic) => topic.id)).size).toBe(30);
+  it("has thirty-two distinct topics and real Quran keys", () => {
+    expect(TOPIC_SOURCE_HINTS).toHaveLength(32);
+    expect(new Set(TOPIC_SOURCE_HINTS.map((topic) => topic.id)).size).toBe(32);
     for (const topic of TOPIC_SOURCE_HINTS) {
       expect(topic.quran.length + topic.hadith.length + topic.fatwas.length).toBeGreaterThan(0);
       for (const key of topic.quran) {
@@ -20,6 +20,23 @@ describe("checked topic search hints", () => {
     expect(matchingTopicHints("ما شروط وجوب الزكاة في الذهب وكم مقدارها؟").map((item) => item.id)).toContain("gold-zakat-rate");
     expect(matchingTopicHints("How do I repent from a sin?").map((item) => item.id)).toContain("repentance-steps");
     expect(matchingTopicHints("Was muss ich tun, um Muslim zu werden?").map((item) => item.id)).toContain("conversion");
+  });
+  it("finds the checked repentance-conditions source in English, German and Arabic", () => {
+    const questions = [
+      "What are the conditions of sincere repentance?",
+      "Was sind die Bedingungen und Voraussetzungen aufrichtiger Reue?",
+      "ما شروط التوبة النصوح؟",
+    ];
+    for (const question of questions) {
+      expect(matchingTopicHints(question).map((item) => item.id)).toContain("repentance-steps");
+    }
+    expect(matchingTopicHints("What are the conditions of sincere repentance, and what should someone do if the sin harmed another person?")
+      .map((item) => item.id)).toEqual(expect.arrayContaining(["repentance-steps", "repentance-rights", "sincere-repentance"]));
+  });
+  it("finds the checked backbiting source before the general repentance source", () => {
+    const ids = matchingTopicHints("What are the conditions for backbiting repentance, and must the person tell the one they spoke about?")
+      .map((item) => item.id);
+    expect(ids).toEqual(["backbiting-repentance", "repentance-steps"]);
   });
   it("includes the added fasting, marriage and prayer timing verses", () => {
     expect(TOPIC_SOURCE_HINTS.find((item) => item.id === "fasting-obligation")?.quran).toContain("2:185");

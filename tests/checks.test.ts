@@ -31,6 +31,34 @@ it("refuses why-five-prayers questions until the library has a direct reason sou
   expect(requiredSourceItemsPresent("What reward is there for the five prayers?", [source("reward for the five prayers")])).toBe(true);
 });
 
+it("requires both the repentance conditions and restoration of another person's rights", () => {
+  const source = (arabic: string): SourceText => ({ id: "S11111111-1111-1111-1111-111111111111", kind: "scholar", arabic, translations: {} });
+  const question = "What are the conditions of sincere repentance, and what should someone do if the sin harmed another person?";
+  const specificWrongdoingAndRights = source("تابوا وأصلحوا وبينوا الحق ويرضي أصحاب الحقوق");
+  const threeConditions = source("الندم على الماضي والإقلاع من الذنب والعزم ألا يعود");
+  const restoringRights = source("يرضي أصحاب الحقوق ويرد الحقوق إليهم");
+  expect(requiredSourceItemsPresent(question, [specificWrongdoingAndRights])).toBe(false);
+  expect(requiredSourceItemsPresent(question, [threeConditions])).toBe(false);
+  expect(requiredSourceItemsPresent(question, [threeConditions, restoringRights])).toBe(true);
+});
+
+it("requires a source that directly addresses backbiting disclosure", () => {
+  const source = (id: string, arabic: string): SourceText => ({ id, kind: "scholar", arabic, translations: {} });
+  const question = "What are the conditions for backbiting repentance, and must the person tell the one they spoke about?";
+  const general = source("S1", "الندم على الماضي والإقلاع من الذنب والعزم ألا يعود واستحلال الغير أو إعطاؤه حقه");
+  const specific = source("S2", "من تاب من الغيبة فإن تيسر أن يستحله فعل وإذا خاف الشر واشتداد البغضاء لا يعلمه");
+  expect(requiredSourceItemsPresent(question, [general])).toBe(false);
+  expect(requiredSourceItemsPresent(question, [general, specific])).toBe(true);
+});
+
+it("recognizes the checked wording of Ibn Baz fatwa 11907", () => {
+  const source = (id: string, arabic: string): SourceText => ({ id, kind: "scholar", arabic, translations: {} });
+  const question = "What are the conditions for backbiting repentance, and must the person tell the one they spoke about?";
+  const conditions = source("S1", "الندم على الماضي والإقلاع من الذنب والعزم ألا يعود");
+  const disclosure = source("S2", "يستغفر الله ويذكره بالمحاسن التي يعلمها منه في المجالس التي اغتابه فيها وإذا تيسر أن يستحله ويقول سامحني هذا طيب أما إذا كان يخاف أنه إذا علمه تشتد البغضاء لا يعلمه لكن يذكره بالمحاسن ويستغفر الله");
+  expect(requiredSourceItemsPresent(question, [conditions, disclosure])).toBe(true);
+});
+
 const A: SourceText = {
   id: "Q9:1",
   kind: "quran",

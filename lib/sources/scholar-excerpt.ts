@@ -270,9 +270,9 @@ export function extractContentStems(text: string): Set<string> {
     if (ARABIC_STOP_WORDS.has(w)) continue;
     const bare = w.replace(/^(وال|فال|بال|كال|ولل|فلل|لل|ال|و|ف|ب|ل)(?=.{3,})/, "");
     if (!ARABIC_STOP_WORDS.has(bare) && bare.length >= 3) {
-      stems.add(bare);
+      stems.add(/^(?:غيبه|اغتاب(?:ه|ها|هم|هن)?|يغتاب(?:ه|ها|هم|هن)?|مغتاب(?:ه|ها|هم|هن)?)$/.test(bare) ? "غيب" : bare);
     } else if (w.length >= 3 && !ARABIC_STOP_WORDS.has(w)) {
-      stems.add(w);
+      stems.add(/^(?:غيبه|اغتاب(?:ه|ها|هم|هن)?|يغتاب(?:ه|ها|هم|هن)?|مغتاب(?:ه|ها|هم|هن)?)$/.test(w) ? "غيب" : w);
     }
   }
   return stems;

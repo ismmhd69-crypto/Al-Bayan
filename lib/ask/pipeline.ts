@@ -24,25 +24,23 @@ const LIVE_TIMEOUT_MS = 7_000;
 
 // Checked mapped pages first; otherwise stored library and live quotes, without repeating a page.
 // A slow website only loses its own quotes, never the library's.
-async function scholarQuotes(phrases: string[], mappedUrls: string[] = []): Promise<ScholarQuote[]> {
-  // A checked direct page must not be lost when a broad library or live search times out.
-  if (mappedUrls.length > 0) {
-    const mapped = await Promise.all(mappedUrls.slice(0, 2).map((url) => getMappedScholarQuote(url).catch(() => null)));
-    const direct = mapped.filter((quote): quote is ScholarQuote => !!quote);
-    if (direct.length > 0) return direct;
-  }
+export async function scholarQuotes(phrases: string[], mappedUrls: string[] = []): Promise<ScholarQuote[]> {
+  // Checked pages rank first, but a broad mapped page must not suppress a more specific library or
+  // live result needed for another requested point.
+  const mapped = Promise.all(mappedUrls.slice(0, 2).map((url) => getMappedScholarQuote(url).catch(() => null)));
   const live = LIVE_ON
     ? Promise.race([
         searchScholarsLive(phrases).catch(() => [] as ScholarQuote[]),
         new Promise<ScholarQuote[]>((resolve) => setTimeout(() => resolve([]), LIVE_TIMEOUT_MS)),
       ])
     : Promise.resolve([] as ScholarQuote[]);
-  const [stored, fresh] = await Promise.all([
+  const [direct, stored, fresh] = await Promise.all([
+    mapped.then((items) => items.filter((quote): quote is ScholarQuote => !!quote)),
     phrases.length ? searchScholarQuotes(phrases, 6).catch(() => [] as ScholarQuote[]) : Promise.resolve([] as ScholarQuote[]),
     live,
   ]);
   const seen = new Set<string>();
-  return [...stored, ...fresh]
+  return [...direct, ...stored, ...fresh]
     .filter((quote) => {
       if (seen.has(quote.url)) return false;
       seen.add(quote.url);

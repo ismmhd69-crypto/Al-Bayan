@@ -141,6 +141,14 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
   };
 }
 
+const asksAboutRepentance = (question: string) => /\u062a\u0648\u0628|repent|bereu|reue/i.test(question);
+const asksForRepentanceConditions = (question: string) => asksAboutRepentance(question)
+  && /\u0634\u0631\u0648\u0637|conditions?|requirements?|bedingungen|voraussetzungen/i.test(question);
+const asksAboutRestoringRights = (question: string) => asksAboutRepentance(question)
+  && /harm(?:ed|ing)?\s+(?:another|someone|a person)|hurt\s+(?:another|someone|a person)|violat(?:e|ed|ing).{0,20}rights?|another person'?s rights?|people'?s rights?|restore.{0,20}rights?|make amends|jemandem geschadet|rechte (?:anderer|verletzt)|wiedergutmachen|\u062d\u0642\u0648\u0642|\u0638\u0644\u0645|[\u0623\u0627]\u0630\u0649/i.test(question);
+const asksBackbitingDisclosure = (question: string) => /\u063a\u064a\u0628\u0629|\u0627\u063a\u062a\u0627\u0628|backbit|gossip|\u00fcble nachrede|l\u00e4ster|laester/i.test(question)
+  && /must.{0,25}(?:tell|inform)|tell.{0,35}(?:person|them|him|her)|inform|notify|disclos|\u0627\u062e\u0628\u0627\u0631|\u0627\u0639\u0644\u0627\u0645|\u064a\u062e\u0628\u0631|\u0627\u0628\u0644\u0627\u063a|mitteil|informier|sagen/i.test(question);
+
 /** Check explicit requests against the original text before any search is run. */
 export function questionFrameMismatch(question: string, frame: QuestionFrame): string | null {
   if (frame.kind !== "question") return null;
@@ -154,6 +162,19 @@ export function questionFrameMismatch(question: string, frame: QuestionFrame): s
     const quantities = points.filter((point) => point.facet === "quantity").map((point) => point.text.toLowerCase());
     if (!quantities.some((point) => /rate|amount due|amount to pay|percentage|percent/.test(point))) return "gold_zakat_rate_confused";
     if (quantities.some((point) => /nisab|threshold|minimum/.test(point)) && !/نصاب|threshold|nisab|mindestbetrag/i.test(question)) return "gold_zakat_threshold_added";
+  }
+  if (asksForRepentanceConditions(question)) {
+    const hasConditionsPoint = points.some((point) => !/rights?|harm|amends|restore|victim/i.test(point.text)
+      && (point.facet === "conditions" || /repentance.{0,20}(?:conditions?|requirements?|steps)|conditions?.{0,20}repentance/i.test(point.text)));
+    if (!hasConditionsPoint) return "repentance_conditions_missing";
+  }
+  if (asksAboutRestoringRights(question)
+    && !points.some((point) => /rights?|harm|amends|restore|repay|compensat|satisfy|victim/i.test(point.text))) {
+    return "repentance_rights_missing";
+  }
+  if (asksBackbitingDisclosure(question)
+    && !points.some((point) => /tell|inform|notify|disclos|whether.{0,20}(?:tell|inform)/i.test(point.text))) {
+    return "backbiting_disclosure_missing";
   }
   if (/شروط|conditions|voraussetzungen/i.test(question) && goldZakat && !has("conditions")) return "conditions_missing";
   if (/\bwhy\b|لماذا|\bwarum\b/i.test(question) && !has("reason") && !has("response")) return "reason_missing";
@@ -177,6 +198,9 @@ export function repairExplicitFrame(question: string, frame: QuestionFrame): Que
   const add = (facet: AnswerFacet, text: string) => {
     if (!points.some((point) => point.facet === facet) && points.length < 4) points.push({ facet, text });
   };
+  const addDistinct = (facet: AnswerFacet, text: string) => {
+    if (!points.some((point) => point.text.toLowerCase() === text.toLowerCase()) && points.length < 4) points.push({ facet, text });
+  };
   if (problem === "gold_zakat_rate_confused" || problem === "gold_zakat_threshold_added") {
     points = points.map((point) => point.facet === "quantity"
       ? { facet: "quantity" as const, text: "rate or amount of gold zakat due" } : point);
@@ -187,6 +211,19 @@ export function repairExplicitFrame(question: string, frame: QuestionFrame): Que
   else if (problem === "steps_missing") add("steps", `steps for ${subject}`);
   else if (problem === "objection_response_missing") add("response", `response to the challenge about ${subject}`);
   else if (problem === "unasked_definition") points = points.filter((point) => point.facet !== "definition");
+  if (asksForRepentanceConditions(question)
+    && !points.some((point) => !/rights?|harm|amends|restore|victim/i.test(point.text)
+      && (point.facet === "conditions" || /repentance.{0,20}(?:conditions?|requirements?|steps)|conditions?.{0,20}repentance/i.test(point.text)))) {
+    addDistinct("conditions", "conditions of sincere repentance");
+  }
+  if (asksAboutRestoringRights(question)
+    && !points.some((point) => /rights?|harm|amends|restore|repay|compensat|satisfy|victim/i.test(point.text))) {
+    addDistinct("steps", "restoring rights after harming another person");
+  }
+  if (asksBackbitingDisclosure(question)
+    && !points.some((point) => /tell|inform|notify|disclos|whether.{0,20}(?:tell|inform)/i.test(point.text))) {
+    addDistinct("ruling", "whether the person must tell the one they spoke about");
+  }
   // A second pass catches a question that asks for both conditions and the payable rate.
   const provisional = { ...frame, requirements: points.map((point, index) => ({ ...point, id: `R${index + 1}` })) };
   if (questionFrameMismatch(question, provisional) === "conditions_missing") add("conditions", `conditions of ${subject}`);

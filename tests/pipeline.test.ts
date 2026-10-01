@@ -57,6 +57,7 @@ const goodDraft = {
 function fakeAI(id: string, script: Record<string, unknown>) {
   const seen: JsonRequest[] = [];
   let understandingCalls = 0;
+  let selectionCalls = 0;
   let draftCalls = 0;
   let screeningCalls = 0;
   const ai: AIProvider = {
@@ -69,6 +70,8 @@ function fakeAI(id: string, script: Record<string, unknown>) {
         return script.understand;
       }
       if (req.system.startsWith("You select evidence")) {
+        const selections = script.selections;
+        if (Array.isArray(selections)) return selections[Math.min(selectionCalls++, selections.length - 1)];
         if (script.selection !== undefined) return script.selection;
         const prompt = JSON.parse(req.prompt) as { candidates: { source: { id: string } }[] };
         return {
@@ -228,6 +231,122 @@ describe("runPipeline", () => {
     const { d, writer } = deps({ understand: understanding, draft: goodDraft }, undefined, selection);
     expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_source");
     expect(writer.seen).toHaveLength(1);
+  });
+
+  it("retries one thin selection with fewer candidates and continues only after the strict gate passes", async () => {
+    const thin = {
+      status: "insufficient", coverage: "incomplete", conflict_type: "none",
+      assessments: [
+        { source_id: "Q2:183", relevance: "partial", supported_requirement_ids: [], context_safe: "yes", position: "" },
+        { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes", position: "" },
+      ],
+    };
+    const ready = {
+      status: "ready", coverage: "complete", conflict_type: "none",
+      assessments: [
+        { source_id: "Q2:183", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes", position: "" },
+        { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes", position: "" },
+      ],
+    };
+    const reasons: string[] = [];
+    const { d, verifier } = deps({ understand: understanding, draft: goodDraft });
+    verifier.ai.generateJson = fakeAI("retry/verifier", { selections: [thin, ready], verdicts: { verdicts: ["supported"], ...OK } }).ai.generateJson;
+    d.verifier = verifier.ai;
+    d.deadlineMs = 20_000;
+    d.onRefuse = (reason) => reasons.push(reason);
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("answer");
+    expect(reasons).toContain("selection_retry_started_thin");
+    expect(reasons).toContain("selection_retry_succeeded");
+  });
+
+  it("refuses when the correction selection is still thin", async () => {
+    const thin = {
+      status: "insufficient", coverage: "incomplete", conflict_type: "none",
+      assessments: [
+        { source_id: "Q2:183", relevance: "partial", supported_requirement_ids: [], context_safe: "yes", position: "" },
+        { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes", position: "" },
+      ],
+    };
+    const reasons: string[] = [];
+    const { d, verifier, writer } = deps({ understand: understanding, draft: goodDraft });
+    verifier.ai.generateJson = fakeAI("retry/verifier", { selections: [thin, thin] }).ai.generateJson;
+    d.verifier = verifier.ai;
+    d.deadlineMs = 20_000;
+    d.onRefuse = (reason) => reasons.push(reason);
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_source");
+    expect(reasons).toContain("selection_retry_failed");
+    expect(reasons).toContain("evidence_insufficient");
+    expect(writer.seen).toHaveLength(1);
+  });
+
+  it("retries when the checker skipped a known candidate", async () => {
+    const skipped = {
+      status: "insufficient", coverage: "incomplete", conflict_type: "none",
+      assessments: [
+        { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes", position: "" },
+      ],
+    };
+    const ready = {
+      status: "ready", coverage: "complete", conflict_type: "none",
+      assessments: [
+        { source_id: "Q2:183", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes", position: "" },
+        { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes", position: "" },
+      ],
+    };
+    const reasons: string[] = [];
+    const { d, verifier } = deps({ understand: understanding, draft: goodDraft });
+    verifier.ai.generateJson = fakeAI("retry/verifier", { selections: [skipped, ready], verdicts: { verdicts: ["supported"], ...OK } }).ai.generateJson;
+    d.verifier = verifier.ai;
+    d.deadlineMs = 20_000;
+    d.onRefuse = (reason) => reasons.push(reason);
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("answer");
+    expect(reasons).toContain("selection_retry_started_skipped");
+  });
+
+  it("does not retry conflicts, invented ids or unsafe complete selections", async () => {
+    const unsafeSelections = [
+      { status: "conflicting", coverage: "incomplete", conflict_type: "revelation_conflict", assessments: [] },
+      { status: "insufficient", coverage: "incomplete", conflict_type: "none", assessments: [
+        { source_id: "Q9:99", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes", position: "" },
+      ] },
+      { status: "ready", coverage: "complete", conflict_type: "none", assessments: [
+        { source_id: "Q2:183", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "unsure", position: "" },
+        { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes", position: "" },
+      ] },
+    ];
+    for (const selection of unsafeSelections) {
+      const reasons: string[] = [];
+      const { d, verifier } = deps({ understand: understanding, draft: goodDraft }, undefined, selection);
+      d.deadlineMs = 20_000;
+      d.onRefuse = (reason) => reasons.push(reason);
+      expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_source");
+      expect(verifier.seen.filter((call) => call.system.startsWith("You select evidence"))).toHaveLength(1);
+      expect(reasons.some((reason) => reason.startsWith("selection_retry_started"))).toBe(false);
+    }
+  });
+
+  it("refuses safely when the correction selection times out", async () => {
+    const thin = {
+      status: "insufficient", coverage: "incomplete", conflict_type: "none",
+      assessments: [
+        { source_id: "Q2:183", relevance: "partial", supported_requirement_ids: [], context_safe: "yes", position: "" },
+        { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes", position: "" },
+      ],
+    };
+    const reasons: string[] = [];
+    const { d, verifier } = deps({ understand: understanding, draft: goodDraft }, undefined, thin);
+    const original = verifier.ai.generateJson;
+    let selectionCalls = 0;
+    verifier.ai.generateJson = async (request) => {
+      if (!request.system.startsWith("You select evidence") || selectionCalls++ === 0) return original(request);
+      return new Promise((_, reject) => request.signal?.addEventListener("abort", () => reject(request.signal?.reason), { once: true }));
+    };
+    d.deadlineMs = 5_000;
+    d.selectionRetryTimeoutMs = 10;
+    d.onRefuse = (reason) => reasons.push(reason);
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_source");
+    expect(reasons).toContain("selection_retry_timeout");
+    expect(reasons).toContain("evidence_insufficient");
   });
 
   it("never answers the zakat question when a retry drops the required amount", async () => {
@@ -977,6 +1096,19 @@ describe("related videos", () => {
   const video = { youtubeId: "abcdefghijk", channelId: "UCiiJRwQ0MUaQo8ZZuf18pPw", title: "حكم الصيام", minutes: 4, language: "ar" as const };
   const outsider = { ...video, youtubeId: "zzzzzzzzzzz", channelId: "UCnotapproved00000000000" };
 
+  it("does not let optional video search delay evidence selection", async () => {
+    let finishVideoSearch: ((videos: typeof video[]) => void) | undefined;
+    const { d, verifier } = deps({ understand: arabicQueries, draft: goodDraft });
+    d.searchVideos = async () => new Promise((resolve) => { finishVideoSearch = resolve; });
+    const running = runPipeline("What does Islam teach about fasting?", "en", d);
+    for (let i = 0; i < 10 && !verifier.seen.some((call) => call.system.startsWith("You select evidence")); i += 1) {
+      await new Promise((resolve) => setTimeout(resolve, 0));
+    }
+    expect(verifier.seen.some((call) => call.system.startsWith("You select evidence"))).toBe(true);
+    finishVideoSearch?.([]);
+    expect((await running).status).toBe("answer");
+  });
+
   it("shows only videos that pass the separate title relevance check", async () => {
     const reasons: string[] = [];
     const { d, writer, verifier } = deps({ understand: arabicQueries, draft: goodDraft });
@@ -1145,6 +1277,44 @@ describe("AnswerV2 in the live pipeline", () => {
       setup.d.searchScholars = async () => [quoteRepent];
       return setup;
     };
+
+    const backbitingQuestion = "What are the conditions for backbiting repentance, and must the person tell the one they spoke about?";
+    const backbitingFrame = { ...repentFrame, subjects: ["backbiting repentance"], requested_points: [
+      { text: "conditions for backbiting repentance", facet: "conditions" },
+      { text: "whether the person must tell the one they spoke about", facet: "ruling" },
+    ], search_queries_en: ["backbiting repentance conditions", "whether to tell the person"],
+    search_queries_ar: ["شروط التوبة من الغيبة", "هل يخبر من اغتابه"] };
+    const quoteBackbiting: ScholarQuote = { ...quoteFast, id: "S77777777-7777-7777-7777-777777777777", title: "كيفية تكفير ذنب الغيبة",
+      arabic: "من تاب من الغيبة فإن تيسر أن يستحله ويخبره فعل وإذا خاف الشر واشتداد البغضاء لا يعلمه ويذكره بخير ويستغفر له.", url: "https://binbaz.org.sa/fatwas/11907/test" };
+
+    it("refuses a general repentance source falsely marked direct for a specific backbiting ruling", async () => {
+      const selection = { status: "ready", coverage: "complete", conflict: "none", assessments: [
+        { source_id: quoteRepent.id, relevance: "direct", supported_requirement_ids: ["R1", "R2"], context_safe: "yes" },
+      ] };
+      const { d, writer } = deps({ understand: backbitingFrame, draft: complete }, undefined, selection);
+      d.searchScholars = async () => [quoteRepent];
+      expect((await runPipeline(backbitingQuestion, "en", d)).status).toBe("no_source");
+      expect(writer.seen.filter(isDraft)).toHaveLength(0);
+    });
+
+    it("answers both points only with general conditions and a specific qualified backbiting source", async () => {
+      const selection = { status: "ready", coverage: "complete", conflict: "none", assessments: [
+        { source_id: quoteRepent.id, relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" },
+        { source_id: quoteBackbiting.id, relevance: "direct", supported_requirement_ids: ["R2"], context_safe: "yes" },
+      ] };
+      const r1 = (text: string) => ({ text, source_ids: [quoteRepent.id], requirement_id: "R1" });
+      const r2 = (text: string) => ({ text, source_ids: [quoteBackbiting.id], requirement_id: "R2" });
+      const answer = { status: "answer", simple_answer: [
+        r1("Shaykh Ibn Baz explained that repentance has three general conditions."),
+        r2("The person may be told when that is safe, but if telling could cause hostility or greater harm, they should not be told and should instead mention their good qualities and ask Allah to forgive them."),
+      ], list: [r1("Stop the sin."), r1("Regret the sin."), r1("Resolve never to return to it.")], more_explanation: [], limit_note: [] };
+      const screening = { verdicts: Array.from({ length: 5 }, () => "supported"), ...OK_TWO };
+      const { d } = deps({ understand: backbitingFrame, draft: answer }, screening, selection);
+      d.searchScholars = async () => [quoteRepent, quoteBackbiting];
+      const result = await runPipeline(backbitingQuestion, "en", d);
+      expect(result.status).toBe("answer");
+      if (result.status === "answer") expect(result.answer.claims.some((claim) => /should not be told/i.test(claim.text))).toBe(true);
+    });
 
     it("puts the steps in a checked list that counts as the direct answer", async () => {
       const { d, writer } = run([{ verdicts: ["not_supported", "supported", "supported", "supported"], ...OK }, supported(4)]);
