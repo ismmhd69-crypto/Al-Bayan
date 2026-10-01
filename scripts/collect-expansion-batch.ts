@@ -25,6 +25,19 @@ const SCHOLAR_ARG = process.argv.find((a) => a.startsWith("--scholar="))?.split(
 const LIMIT = Number(process.argv.find((a) => a.startsWith("--limit="))?.split("=")[1] ?? Infinity);
 const OFFSET = Number(process.argv.find((a) => a.startsWith("--offset="))?.split("=")[1] ?? 0);
 const MAX_STORED = Number(process.argv.find((a) => a.startsWith("--max-stored="))?.split("=")[1] ?? 50);
+const SEARCH_PAGES = Math.max(1, Math.min(5, Number(process.argv.find((a) => a.startsWith("--pages="))?.split("=")[1] ?? 1)));
+const DRY_RUN = process.argv.includes("--dry-run");
+// Review-by-hand mode: skip the Gemini relevance check. Only allowed with --dry-run so nothing unreviewed is stored.
+const SKIP_AI = process.argv.includes("--skip-ai");
+if (SKIP_AI && !DRY_RUN) throw new Error("--skip-ai is only allowed together with --dry-run");
+const EXTRA_QUERY = process.argv.find((a) => a.startsWith("--extra-query="))?.slice("--extra-query=".length);
+const HITS_PER_QUERY = Math.max(1, Math.min(10, Number(process.argv.find((a) => a.startsWith("--hits="))?.split("=")[1] ?? 3)));
+
+// Index mode (Ibn Baz only): walk the saved archive index in order instead of searching topics.
+// Every processed reference is recorded in the state file so a stopped run resumes where it left off.
+const INDEX_FILE = process.argv.find((a) => a.startsWith("--from-index="))?.slice("--from-index=".length);
+const STATE_FILE = process.argv.find((a) => a.startsWith("--state="))?.slice("--state=".length) ?? "docs/binbaz-run-state.json";
+const BATCH_FILE = process.argv.find((a) => a.startsWith("--batch-file="))?.slice("--batch-file=".length);
 
 const PAUSE_MS = 1500;
 const HEADERS = { "User-Agent": "AlBayan-Collector/0.1 (non-commercial Islamic Q&A; short credited quotes)" };
@@ -41,25 +54,45 @@ const RIGHTS_IDS: Record<string, string> = {
 
 // --- Search implementations ---
 async function searchBinBaz(q: string) {
-  const res = await fetch(`https://binbaz.org.sa/api/search?type=fatwa&operator=AND_ONLY&page=1&q=${encodeURIComponent(q)}`, {
-    headers: { ...HEADERS, Accept: "application/json" },
-    signal: AbortSignal.timeout(20_000),
-  });
-  if (!res.ok) return [];
-  const data = (await res.json()) as { Search?: { results?: Array<{ id: number; reference: number; title: string }> } };
-  return (data.Search?.results ?? []).filter((h) => Number.isInteger(h.reference) && typeof h.title === "string");
+  const all: Array<{ id: number; reference: number; title: string }> = [];
+  const seen = new Set<number>();
+  for (let page = 1; page <= SEARCH_PAGES; page++) {
+    const res = await fetch(`https://binbaz.org.sa/api/search?type=fatwa&operator=AND_ONLY&page=${page}&q=${encodeURIComponent(q)}`, {
+      headers: { ...HEADERS, Accept: "application/json" },
+      signal: AbortSignal.timeout(20_000),
+    });
+    if (!res.ok) continue;
+    const data = (await res.json()) as { Search?: { results?: Array<{ id: number; reference: number; title: string }> } };
+    const results = (data.Search?.results ?? []).filter((h) => Number.isInteger(h.reference) && typeof h.title === "string");
+    for (const hit of results) {
+      if (!seen.has(hit.reference)) { seen.add(hit.reference); all.push(hit); }
+    }
+    if (results.length === 0) break;
+    await sleep(300);
+  }
+  return all;
 }
 
 async function searchUthaymeen(q: string) {
-  const res = await fetch("https://shekhcp.binothaimeen.net/api/search-data", {
-    method: "POST",
-    headers: { ...HEADERS, "Content-Type": "application/json" },
-    body: JSON.stringify({ pageSize: 6, searchTerm: q, type: "audios", page: 1, mode: "exact" }),
-    signal: AbortSignal.timeout(20_000),
-  });
-  if (!res.ok) return [];
-  const data = (await res.json()) as { data?: Array<{ id: string; title: { ar?: string } }> };
-  return (data.data ?? []).filter((h) => typeof h.id === "string" && typeof h.title?.ar === "string");
+  const all: Array<{ id: string; title: { ar?: string } }> = [];
+  const seen = new Set<string>();
+  for (let page = 1; page <= SEARCH_PAGES; page++) {
+    const res = await fetch("https://shekhcp.binothaimeen.net/api/search-data", {
+      method: "POST",
+      headers: { ...HEADERS, "Content-Type": "application/json" },
+      body: JSON.stringify({ pageSize: 10, searchTerm: q, type: "audios", page, mode: "exact" }),
+      signal: AbortSignal.timeout(20_000),
+    });
+    if (!res.ok) continue;
+    const data = (await res.json()) as { data?: Array<{ id: string; title: { ar?: string } }> };
+    const results = (data.data ?? []).filter((h) => typeof h.id === "string" && typeof h.title?.ar === "string");
+    for (const hit of results) {
+      if (!seen.has(hit.id)) { seen.add(hit.id); all.push(hit); }
+    }
+    if (results.length === 0) break;
+    await sleep(300);
+  }
+  return all;
 }
 
 async function searchAlbani(q: string) {
@@ -102,7 +135,8 @@ async function searchBarrak(q: string) {
 async function runForScholar(scholarId: string) {
   console.log(`\n==================================================`);
   console.log(`STARTING COLLECTION FOR: ${scholarId.toUpperCase()}`);
-  console.log(`Max to store this run: ${MAX_STORED}`);
+  console.log(`${DRY_RUN ? "Dry-run validated candidates" : "Max to store this run"}: ${MAX_STORED}`);
+  console.log(`Official search pages per query: ${SEARCH_PAGES}`);
   console.log(`==================================================\n`);
 
   const db = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.SUPABASE_SECRET_KEY!);
@@ -121,14 +155,35 @@ async function runForScholar(scholarId: string) {
   let skippedCount = 0;
   let storedCount = 0;
   const skipReasons: Record<string, number> = {};
-  const newlyStored: Array<{ id: string; title: string; url: string; reference: string; quote: string }> = [];
+  const newlyStored: Array<{ id: string; title: string; url: string; reference: string; collection?: string; quote: string }> = [];
+
+  // Index-mode state: which archive references were already looked at (so the run can resume).
+  const fsSync = await import("fs");
+  const useIndex = Boolean(INDEX_FILE) && scholarId === "ibn-baz";
+  const archiveIndex: Record<string, { id: number; title: string }> = useIndex ? JSON.parse(fsSync.readFileSync(INDEX_FILE!, "utf-8")).items : {};
+  const runState: { processed: Record<string, string>; requests: number; requestErrors: number } = useIndex && fsSync.existsSync(STATE_FILE)
+    ? JSON.parse(fsSync.readFileSync(STATE_FILE, "utf-8"))
+    : { processed: {}, requests: 0, requestErrors: 0 };
+  let currentRef: string | null = null;
+  let runRequests = 0;
+  let runRequestErrors = 0;
+  const markState = (ref: string | null, status: string) => {
+    if (!useIndex || !ref) return;
+    runState.processed[ref] = status;
+    fsSync.writeFileSync(STATE_FILE, JSON.stringify(runState), "utf-8");
+  };
 
   const recordSkip = (reason: string) => {
     skippedCount++;
     skipReasons[reason] = (skipReasons[reason] || 0) + 1;
+    markState(currentRef, reason);
   };
 
-  const queries = SCHOLAR_QUERIES.slice(OFFSET, OFFSET + LIMIT);
+  const queries = useIndex
+    ? [{ topic: "index", q: "index" }]
+    : EXTRA_QUERY
+      ? [{ topic: "extra-query", q: EXTRA_QUERY }]
+      : SCHOLAR_QUERIES.slice(OFFSET, OFFSET + LIMIT);
 
   for (const { topic, q } of queries) {
     if (storedCount >= MAX_STORED) {
@@ -142,7 +197,14 @@ async function runForScholar(scholarId: string) {
     }
     let hits: any[] = [];
     try {
-      if (scholarId === "ibn-baz") hits = await searchBinBaz(q);
+      if (useIndex) {
+        const done = new Set(Object.keys(runState.processed));
+        const from = Number(process.argv.find((a) => a.startsWith("--ref-from="))?.split("=")[1] ?? 0);
+        hits = Object.entries(archiveIndex)
+          .filter(([ref]) => !done.has(ref) && Number(ref) >= from)
+          .sort((a, b) => Number(a[0]) - Number(b[0]))
+          .map(([ref, v]) => ({ id: v.id, reference: Number(ref), title: v.title }));
+      } else if (scholarId === "ibn-baz") hits = await searchBinBaz(q);
       else if (scholarId === "ibn-uthaymeen") hits = await searchUthaymeen(q);
       else if (scholarId === "al-albani") hits = await searchAlbani(q);
       else if (scholarId === "al-barrak") hits = await searchBarrak(q);
@@ -151,10 +213,11 @@ async function runForScholar(scholarId: string) {
       await sleep(PAUSE_MS);
       continue;
     }
-    await sleep(PAUSE_MS);
+    if (!useIndex) await sleep(PAUSE_MS);
 
-    for (const hit of hits.slice(0, 3)) {
+    for (const hit of useIndex ? hits : hits.slice(0, HITS_PER_QUERY)) {
       if (storedCount >= MAX_STORED) break;
+      currentRef = scholarId === "ibn-baz" ? String(hit.reference) : null;
 
       let link = "";
       let hitTitle = "";
@@ -175,6 +238,7 @@ async function runForScholar(scholarId: string) {
 
       if (link && (existingUrls.has(link) || seenUrls.has(link))) {
         existingCount++;
+        markState(currentRef, "existing");
         continue;
       }
       if (link) seenUrls.add(link);
@@ -184,8 +248,18 @@ async function runForScholar(scholarId: string) {
       let collectionName = "";
 
       if (scholarId === "ibn-baz") {
-        const res = await fetch(link, { headers: HEADERS, signal: AbortSignal.timeout(20_000) });
+        let res: Response;
+        runRequests++;
+        try {
+          res = await fetch(link, { headers: HEADERS, signal: AbortSignal.timeout(20_000) });
+        } catch {
+          runRequestErrors++;
+          console.log(`  request error for ${hit.reference} (${runRequestErrors}/${runRequests})`);
+          await sleep(PAUSE_MS);
+          continue; // not recorded in state: it is tried again next run
+        }
         await sleep(PAUSE_MS);
+        if (res.status >= 500 || res.status === 429) { runRequestErrors++; console.log(`  HTTP ${res.status} for ${hit.reference} (${runRequestErrors}/${runRequests})`); continue; }
         if (!res.ok) { recordSkip(`HTTP ${res.status}`); continue; }
         fatwa = parseBinBazFatwa(await res.text(), { minChars: 200 });
         if (fatwa && fatwa.title.replace(/\s+/g, " ") !== hitTitle.replace(/\s+/g, " ")) {
@@ -260,6 +334,8 @@ async function runForScholar(scholarId: string) {
       if (startsLikeRoomTalk(quote)) { recordSkip("Starts like room talk"); continue; }
       if (!sharesContentWord(fatwa.title, quote)) { recordSkip("No shared content word with title"); continue; }
       if (looksLikeQuestion(quote)) { recordSkip("Looks like question"); continue; }
+      // Index mode: stricter mechanical gate for text with gaps or openers that point to something we do not show.
+      if (useIndex && (/\.{2,}|…|&[a-z]+;/.test(quote) || /^(فقد (وصلني|اطلعت|قرأت)|فلقد قرأت|تقدم|مثل ما تقدم|على كل حال|بسم الله|سمعتم)/.test(quote))) { recordSkip("Gap or context opener"); continue; }
 
       // Deduplication check
       const stems = quoteStemSet(quote);
@@ -269,9 +345,27 @@ async function runForScholar(scholarId: string) {
       }
 
       // AI relevance check
-      const rel = await checkQuoteRelevance(verifier, fatwa.title, quote);
-      if (!rel.answers) {
-        recordSkip(`AI rejected: ${rel.reason}`);
+      if (!SKIP_AI) {
+        const rel = await checkQuoteRelevance(verifier, fatwa.title, quote);
+        if (!rel.answers) {
+          recordSkip(`AI rejected: ${rel.reason}`);
+          continue;
+        }
+      }
+
+      if (DRY_RUN) {
+        existingStems.push(stems);
+        markState(currentRef, "candidate");
+        storedCount++;
+        newlyStored.push({
+          id: "dry-run",
+          title: fatwa.title,
+          url: link,
+          reference,
+          collection: collectionName,
+          quote,
+        });
+        console.log(`[VALIDATED ${storedCount}/${MAX_STORED}] (${scholarId}) ${fatwa.title} (${quote.length} chars)`);
         continue;
       }
 
@@ -322,6 +416,7 @@ async function runForScholar(scholarId: string) {
         title: fatwa.title,
         url: link,
         reference,
+        collection: collectionName,
         quote,
       });
 
@@ -335,6 +430,10 @@ async function runForScholar(scholarId: string) {
   console.log(`Already existing: ${existingCount}`);
   console.log(`Skipped: ${skippedCount}`);
   console.log(`Newly stored: ${storedCount}`);
+  if (useIndex) {
+    console.log(`Index mode: ${runRequests} page requests, ${runRequestErrors} request errors, ${Object.keys(runState.processed).length} references processed in total`);
+    if (BATCH_FILE) fsSync.writeFileSync(BATCH_FILE, JSON.stringify({ requests: runRequests, requestErrors: runRequestErrors, skipReasons, candidates: newlyStored }, null, 2), "utf-8");
+  }
   console.log(`Skip reasons:`);
   for (const [r, c] of Object.entries(skipReasons)) {
     console.log(`  - ${r}: ${c}`);
@@ -355,11 +454,10 @@ async function runForScholar(scholarId: string) {
 async function main() {
   const scholars = SCHOLAR_ARG ? [SCHOLAR_ARG] : ["ibn-baz", "ibn-uthaymeen", "al-albani", "al-barrak"];
   const fs = await import("fs");
+  const resultsPath = DRY_RUN ? "docs/expansion-batch-dry-run.json" : "docs/expansion-batch-stored.json";
   let allResults: Record<string, any> = {};
-  if (fs.existsSync("docs/expansion-batch-stored.json")) {
-    try {
-      allResults = JSON.parse(fs.readFileSync("docs/expansion-batch-stored.json", "utf-8"));
-    } catch {}
+  if (!DRY_RUN && fs.existsSync(resultsPath)) {
+    try { allResults = JSON.parse(fs.readFileSync(resultsPath, "utf-8")); } catch {}
   }
 
   for (const s of scholars) {
@@ -385,8 +483,8 @@ async function main() {
     }
   }
 
-  fs.writeFileSync("docs/expansion-batch-stored.json", JSON.stringify(allResults, null, 2), "utf-8");
-  console.log("\nSaved expansion results to docs/expansion-batch-stored.json");
+  fs.writeFileSync(resultsPath, JSON.stringify(allResults, null, 2), "utf-8");
+  console.log(`\nSaved ${DRY_RUN ? "dry-run validation" : "expansion"} results to ${resultsPath}`);
 }
 
 main().catch((err) => {
