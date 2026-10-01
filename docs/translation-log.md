@@ -15,3 +15,5 @@ Published: `false`
 |-------|--------------|----------------------------|---------|---------------------------------|-------|
 | 1 | 40 | 80 | 0 | 40 | First 40 fatwas translated and stored cleanly |
 | 2 | 40 | 80 | 0 | 80 | Batch 2 (40 fatwas) translated and stored cleanly |
+| 3 | 40 | 80 | 0 | 120 | Batch 3 (40 fatwas) translated and stored cleanly |
+| 4 | 40 | 80 | 0 | 160 | Batch 4 (40 fatwas) translated and stored cleanly |
