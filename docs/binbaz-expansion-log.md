@@ -542,3 +542,114 @@ Rejected:
 - 10126 واجب الوالد تجاه ولده المحتاج والعاجز عن العمل: personal advice to one person
 - 10188 أهم كتب العقيدة: near duplicate of approved items on book advice
 - 10228 ما الفرق بين التطوع والنفل والراتبة؟: ends in the middle of a sentence
+
+## Batch 023
+
+- Candidates read: 50
+- Approved and stored: 38
+- Rejected: 12
+- Needs Mo: 0
+- Page requests: 145, request errors: 0
+- Running total stored in this run: 832
+
+Rejected:
+- 10361 هل يجوز تعليق الآيات القرآنية في محلات بيع الأحذية؟: near duplicate of an approved item on hanging verses
+- 10474 النصح بترك الوالدة الدعاء على ولدها: personal case, needs context
+- 10707 هل تعليق الحروز شرك يخرج من الملة؟: near duplicate of approved items on amulets
+- 10746 حكم تعليق القرآن تميمة: near duplicate of approved items on amulets
+- 10790 معنى قوله تعالى: (لا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ): near duplicate of approved items on touching the Quran
+- 10830 ضابط نكاح الشغار: near duplicate of approved items on shighar marriage
+- 11190 الأجر الذي يصل إلى الميت: near duplicate of approved items on reward for the dead
+- 11243 الجمع بين: {وَفِي السَّمَاءِ رِزْقُكُمْ وَمَا تُوعَدُونَ} و {فَامْشُوا فِي مَنَاكِبِهَا}: explains only the first verse, does not answer its title
+- 11391 حكم الصيام عن المريض مرضا مزمنًا: near duplicate of an approved item on feeding for a sick person
+- 11478 صيام من أصيب بالشلل في نصف الجسم: near duplicate of an approved item on feeding for a sick person
+- 11536 حكم مس المحدث القرآن للضرورة: near duplicate of approved items on touching the Quran
+- 11564 معنى قوله (العمرة إلى العمرة كفارة لما بينهن): near duplicate of an approved item on umrah as expiation
+
+## Batch 024
+
+- Candidates read: 50
+- Approved and stored: 40
+- Rejected: 10
+- Needs Mo: 0
+- Page requests: 131, request errors: 0
+- Running total stored in this run: 872
+
+Rejected:
+- 11780 هل الصدقة والحوليات تنفع الميت؟: near duplicate of approved items on reward reaching the dead
+- 12360 حكم طلاء الأظافر للنساء: near duplicate of approved items on nail polish
+- 12462 ما هو الصوم الذي يقضى عن الميت؟: ends in the middle of a hadith
+- 12484 يشرع لأقارب الميت القضاء عنه: ends with a signature line
+- 12523 حكم طلاق الرجل للمرأة التي لا تصلي: near duplicate of approved items on marrying someone who does not pray
+- 12655 وجوب الاهتمام بالعقيدة: ends in the middle of a quote
+- 12731 وصايا لحديث عهد بتوبة: near duplicate of approved items on book advice
+- 12814 هل على السيارة والمحل المغلق زكاة؟: near duplicate of approved items on zakat of cars and shops
+- 13034 تعاطي الأسباب الشرعية من أجل الحمل: opens with a prayer for the questioner, text does not answer cleanly
+- 13437 حكم الزواج بأخت الأخت من الرضاع: near duplicate of approved items on foster siblings
+
+## Batch 025
+
+- Candidates read: 50
+- Approved and stored: 35
+- Rejected: 15
+- Needs Mo: 0
+- Page requests: 130, request errors: 0
+- Running total stored in this run: 907
+
+Rejected:
+- 13667 حكم نكاح أخت الأخت من الرضاعة ونكاح الأخ لأحدى أخواتها: near duplicate of approved items on foster siblings
+- 13744 حكم ترك صوم النذر لعذر المرض: does not answer its title, only quotes a hadith on vows
+- 13768 الأعمال المشروعة التي تنفع الميت: near duplicate of approved items on what benefits the dead
+- 13827 حكم من تزوج زوجة أخيه لاعتقاد موته ثم ظهر أنه حي: personal case, needs context
+- 13907 الكتب التي بينت أحكام الحج: mostly a list of books
+- 13931 العمرة مشروعة في كل وقت: near duplicate of an approved item on repeating umrah
+- 13952 هل الحج والعمرة أفضل من الصدقة بنفقتهما؟: starts by denying a claim we do not show
+- 13958 هل رفع القرآن من علامات الساعة الكبرى؟: near duplicate of an approved item on the Quran being lifted
+- 14033 حكم من تزوج امرأة رضعت من أمه أربع رضعات: near duplicate of approved items on foster siblings
+- 14081 معنى التوكل على الله في الرزق: near duplicate of an approved item on reliance on Allah
+- 14152 حكم تبرع أو بيع الإنسان بعض أعضائه: Ibn Baz says he is undecided
+- 14174 حكم زكاة الغنم إذا كانت تعلف غالب الحول: near duplicate of approved items on zakat of fed sheep
+- 14234 حكم نكاح من لا يصلي: near duplicate of approved items on marrying someone who does not pray
+- 14755 نوى الحج عن والدته وعند الميقات نسي، فما الحكم؟: near duplicate of an approved item on intention in hajj
+- 14845 حكم الاعتمار في شوال ثم الذهاب للأهل ثم الرجوع للحج: near duplicate of approved items on hajj tamattu
+
+## Batch 026
+
+- Candidates read: 50
+- Approved and stored: 39
+- Rejected: 11
+- Needs Mo: 0
+- Page requests: 109, request errors: 0
+- Running total stored in this run: 946
+
+Rejected:
+- 14883 حكم من أتى بالعمرة في أشهر الحج ثم خرج إلى المدينة: near duplicate of approved items on hajj tamattu
+- 14900 حكم كَدِّ الشعر للمحرم: near duplicate of an approved item on what is forbidden in ihram
+- 15011 حكم حفلات الزواج والتفاخر فيها بين النساء: near duplicate of approved items on weddings
+- 15079 توجيه لمن أراد حفظ كتاب الله: near duplicate of approved items on memorising the Quran
+- 15086 حكم بقاء الرجل المُسنِّ مع امرأة لا تصلي: near duplicate of approved items on someone who does not pray
+- 15182 ما الواجب على من أفطر عدة رمضانات متعمدًا؟: near duplicate of approved items on missed Ramadans
+- 15265 وصية للشباب والدعاة بالحكمة في الدعوة إلى الله: ends in the middle of a sentence
+- 15455 ماذا عن كتاب تحفة العروس؟: Ibn Baz has not read the book, no clear answer
+- 15478 ما حكم أن أزوج أختي لابن عمي، وأتزوج بنت عمي دون مهر؟: near duplicate of approved items on shighar marriage
+- 15640 حكم الزواج من ابن الأخت من الرضاعة: near duplicate of approved items on foster siblings
+- 15939 نيل الأجر من سماع القرآن من الراديو: near duplicate of approved items on listening to the Quran
+
+## Batch 027
+
+- Candidates read: 50
+- Approved and stored: 42
+- Rejected: 8
+- Needs Mo: 0
+- Page requests: 121, request errors: 0
+- Running total stored in this run: 988
+
+Rejected:
+- 15994 الحث على التسهيل في الزواج وترك التكلف: near duplicate of approved items on easy weddings
+- 16003 حكم من حكم عليه القاضي بأنه قد طلق ثلاثًا: only tells the person to ask the judge, no ruling
+- 16461 حكم الزواج بالفتاة التي لا تصلي: near duplicate of approved items on marrying someone who does not pray
+- 16548 حكم الإكثار من تهديد الرجل أهله بالطلاق: personal case, needs context
+- 16578 ما حكم الحلف بالقرآن؟: near duplicate of approved items on swearing by the Quran
+- 16777 الحث على إحضار القلب عند ذكر الله وعبادته: too general, no concrete ruling
+- 16809 حكم إتيان الحائض بالأذكار واستماع القرآن: near duplicate of approved items on a woman in her period and the Quran
+- 17159 ما حكم التنباك؟: near duplicate of approved items on tobacco
