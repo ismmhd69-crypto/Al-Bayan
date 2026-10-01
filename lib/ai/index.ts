@@ -16,11 +16,11 @@ import { createNvidia } from "./nvidia";
 // answers short prompts in about 3 s but did not finish the real checking prompt in 40 s, which would
 // only delay the "busy" message. Fast NVIDIA models seen working: google/gemma-4-31b-it,
 // openai/gpt-oss-20b, nvidia/nemotron-3-super-120b-a12b.
-// Checked 2026-10-01 on the free-tier key: gemini-3.6-flash and gemini-3.5-flash are limited to 20
-// requests a day per model, the two lite models answer, and the 2.5 models are gone (404). So the
-// lite models carry the traffic and the full Flash models are the backup.
+// Checked again 2026-10-01: gemini-3.8-flash and gemini-3.7-flash returned 503, while both lite
+// models answered. Keep production on the confirmed pair instead of delaying visitors with busy
+// full-model fallbacks.
 const DEFAULT_WRITER_MODELS = ["gemini-3.5-flash-lite"];
-const DEFAULT_VERIFIER_MODELS = ["gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-3.5-flash"];
+const DEFAULT_VERIFIER_MODELS = ["gemini-3.1-flash-lite"];
 
 // Mo's decision (2026-09-28): Vertex AI is the main door when VERTEX_API_KEY is set; the Gemini API
 // key is the backup for the same model when Vertex is busy. Same model either way, so the answer
