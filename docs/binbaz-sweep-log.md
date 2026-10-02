@@ -471,3 +471,12 @@ The later review of internal IDs 2750-2752 approved only ID 2751. The idempotent
 - Import status: imported 34 approved candidates; sources and search documents each increased by 34, from 20,541 to 20,575.
 - Sensitive or uncertain items were not stored.
 - One overlapping decision entry was corrected after coverage review. No duplicate database row was created.
+## Batch 0049
+
+- Candidates reviewed: 50
+- Approved: 23
+- Rejected: 4
+- Held for Mo review: 23
+- Import status: imported 23 approved candidates; sources and search documents each increased by 23, from 20,575 to 20,598.
+- Sensitive or uncertain items were not stored.
+- Decisions were based on complete parsed answers and subject overlap.
