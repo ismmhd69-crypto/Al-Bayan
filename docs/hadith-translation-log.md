@@ -496,3 +496,11 @@ Batch 207 inserted 6 rows for Bukhari hadiths 595 to 597. The database count inc
 Batch 208 inserted 6 rows for Bukhari hadiths 598 to 600. The database count increased from 10,162 to 10,168, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
 
 Batch 209 inserted 6 rows for Bukhari hadiths 601 to 603. The database count increased from 10,168 to 10,174, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
+
+Batch 210 inserted 6 rows for Bukhari hadiths 604 to 606. The database count increased from 10,174 to 10,180, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
+
+Batch 211 inserted 6 rows for Bukhari hadiths 607 to 609. The database count increased from 10,180 to 10,186, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
+
+Batch 212 inserted 6 rows for Bukhari hadiths 610 to 612. The database count increased from 10,186 to 10,192, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
+
+Batch 213 inserted 6 rows for Bukhari hadiths 613 to 615. The database count increased from 10,192 to 10,198, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
