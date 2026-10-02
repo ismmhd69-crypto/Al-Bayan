@@ -3,12 +3,12 @@ import fs from "node:fs";
 type Kind = "prophet_words" | "narration" | "companion_words" | "dialogue" | "reference_only" | "unclear";
 
 const kinds: Kind[] = [
-  "dialogue","dialogue","dialogue","companion_words","dialogue","dialogue","dialogue","companion_words","companion_words","companion_words",
-  "narration","prophet_words","narration","companion_words","companion_words","reference_only","companion_words","companion_words","companion_words","companion_words",
-  "dialogue","dialogue","companion_words","companion_words","prophet_words","dialogue","dialogue","companion_words","reference_only","narration",
-  "prophet_words","narration","narration","dialogue","dialogue","narration","companion_words","companion_words","companion_words","prophet_words",
-  "dialogue","prophet_words","dialogue","companion_words","dialogue","dialogue","companion_words","narration","dialogue","dialogue",
-  "dialogue","companion_words","narration","dialogue","companion_words","dialogue","companion_words","companion_words","companion_words","companion_words",
+  "companion_words","companion_words","dialogue","companion_words","companion_words","companion_words","narration","companion_words","companion_words","dialogue",
+  "companion_words","companion_words","companion_words","dialogue","dialogue","dialogue","prophet_words","companion_words","prophet_words","narration",
+  "narration","companion_words","dialogue","dialogue","dialogue","dialogue","reference_only","narration","companion_words","dialogue",
+  "reference_only","companion_words","dialogue","companion_words","companion_words","companion_words","narration","dialogue","dialogue","companion_words",
+  "companion_words","dialogue","dialogue","dialogue","companion_words","companion_words","narration","dialogue","dialogue","dialogue",
+  "narration","companion_words","dialogue","companion_words","dialogue","prophet_words","narration","narration","dialogue","reference_only",
 ];
 
 function firstMatnSegment(text: string): string {
@@ -35,7 +35,7 @@ function firstMatnSegment(text: string): string {
   return end < 0 ? rest : rest.slice(0, end);
 }
 
-const batch = JSON.parse(fs.readFileSync("data/hadith-split/batch-049.json", "utf8"));
+const batch = JSON.parse(fs.readFileSync("data/hadith-split/batch-050.json", "utf8"));
 if (batch.length !== kinds.length) throw new Error(`Expected ${kinds.length} items, got ${batch.length}`);
 
 const marks = batch.map((item: any, index: number) => ({
@@ -44,10 +44,11 @@ const marks = batch.map((item: any, index: number) => ({
   start: firstMatnSegment(item.text_original),
   kind: kinds[index],
 }));
-marks[0].start = "كُنَّا فِي غَزَاةٍ فَكَسَعَ رَجُلٌ مِنَ الْمُهَاجِرِينَ";
+marks[0].start = "لَمَّا نَزَلَتْ";
 
-marks[15].start = null;
-marks[28].start = null;
+marks[26].start = null;
+marks[30].start = null;
+marks[59].start = null;
 
 for (let index = 0; index < marks.length; index++) {
   const text = batch[index].text_original;
@@ -63,5 +64,5 @@ for (let index = 0; index < marks.length; index++) {
   }
 }
 
-fs.writeFileSync("data/hadith-split/marks-049.json", JSON.stringify(marks, null, 2) + "\n", "utf8");
-console.log("Wrote 60 marks to data/hadith-split/marks-049.json");
+fs.writeFileSync("data/hadith-split/marks-050.json", JSON.stringify(marks, null, 2) + "\n", "utf8");
+console.log("Wrote 60 marks to data/hadith-split/marks-050.json");

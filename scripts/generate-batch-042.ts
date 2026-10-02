@@ -22,6 +22,7 @@ function firstMatnSegment(text: string): string {
 const batch = JSON.parse(fs.readFileSync("data/hadith-split/batch-042.json", "utf8"));
 if (batch.length !== kinds.length) throw new Error(`Expected ${kinds.length} items, got ${batch.length}`);
 const marks = batch.map((item: any, index: number) => ({ id: item.id, url: item.url, start: firstMatnSegment(item.text_original), kind: kinds[index] }));
+marks[0].start = "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَقْبَلَ يَوْمَ الْفَتْحِ";
 marks[43].start = batch[43].text_original.split(/\s+/u).slice(11).join(" ");
 for (const [index, tail] of [
   [1, "تَابَعَهُ مَعْمَرٌ"],

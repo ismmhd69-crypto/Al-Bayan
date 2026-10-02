@@ -22,6 +22,7 @@ function firstMatnSegment(text: string): string {
 const batch = JSON.parse(fs.readFileSync("data/hadith-split/batch-045.json", "utf8"));
 if (batch.length !== kinds.length) throw new Error(`Expected ${kinds.length} items, got ${batch.length}`);
 const marks = batch.map((item: any, index: number) => ({ id: item.id, url: item.url, start: firstMatnSegment(item.text_original), kind: kinds[index] }));
+marks[0].start = "فِينَا نَزَلَتْ";
 marks[11].start = batch[11].text_original.split(/\s+/u).slice(29).join(" ");
 marks[19].start = batch[19].text_original.split(/\s+/u).slice(20).join(" ");
 marks[26].start = batch[26].text_original.split(/\s+/u).slice(25).join(" ");

@@ -55,6 +55,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 | 047   | 60        | 60     | 0          | 0              | 1 / 4 / 34 / 21 / 0 / 0        | 2820          | Bukhari 4729 through Bukhari 4818. No tail_start markers. Zero errors. |
 | 048   | 60        | 58     | 2          | 0              | 8 / 11 / 26 / 13 / 0 / 2       | 2880          | Bukhari 4819 through Bukhari 4906. bukhari:4842 and bukhari:4843 marked reference_only. No tail_start markers. Zero errors. |
 | 049   | 60        | 58     | 2          | 0              | 5 / 8 / 24 / 21 / 0 / 2        | 2940          | Bukhari 4907 through Bukhari 4989. bukhari:4931 and bukhari:4945b marked reference_only. No tail_start markers. Zero errors. |
+| 050   | 60        | 57     | 3          | 0              | 3 / 9 / 23 / 22 / 0 / 3        | 3000          | Bukhari 4990 through Bukhari 5088. bukhari:5032b, bukhari:5037b, and bukhari:5088 marked reference_only. No tail_start markers. Zero errors. |
 
 *Legend for Kinds: P = prophet_words, N = narration, C = companion_words, D = dialogue, U = unclear, R = reference_only.*
 
@@ -86,6 +87,12 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 - Sample size: 10 hadiths sampled across batches 31 through 40.
 - Sample items inspected: bukhari:3134 (narration), bukhari:3356 (companion_words), bukhari:3424 (prophet_words), bukhari:3648 (companion_words), bukhari:3705 (companion_words), bukhari:3853 (companion_words), bukhari:3878 (narration), bukhari:3991 (dialogue with tail_start), bukhari:4060 (reference_only), and bukhari:4186 (companion_words).
 - Findings: All 10 samples have clean isnad-to-matn boundaries, kinds consistent with the visible narration, correct null handling for the reference-only item, correct tail exclusion on the sampled editorial continuation, and no text corruption.
+- Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
+
+### Check 5 (After 50 Batches / 3000 Hadith)
+- Sample size: 10 hadiths sampled across batches 41 through 50.
+- Sample items inspected: bukhari:4206, bukhari:4289, bukhari:4376, bukhari:4474, bukhari:4558, bukhari:4638, bukhari:4729, bukhari:4819, bukhari:4907, and bukhari:4990.
+- Findings: All 10 samples have clean isnad-to-matn boundaries after correcting the sampled starts, kinds consistent with the visible narration, no tail exclusions required, and no text corruption.
 - Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
 
 ### Check 2 (After 20 Batches / 1200 Hadith)
