@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 070   | 60        | 60     | 0          | 0              | 11 / 19 / 15 / 15 / 0 / 0    | 4200          | Bukhari 7369 through Bukhari 7531. 2 hadiths have tail_start comments marked. Zero errors on validation. |
 | 069   | 60        | 60     | 0          | 0              | 11 / 19 / 15 / 15 / 0 / 0    | 4140          | Bukhari 7257 through Bukhari 7367. Zero errors on validation. |
 | 068   | 60        | 60     | 0          | 0              | 7 / 12 / 22 / 19 / 0 / 0     | 4080          | Bukhari 7110 through Bukhari 7256. 2 hadiths have tail_start comments marked. Zero errors on validation. |
 | 067   | 60        | 60     | 0          | 0              | 17 / 17 / 12 / 14 / 0 / 0   | 4020          | Bukhari 6952 through Bukhari 7105. Zero errors on validation. |
@@ -119,6 +120,12 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 - Sample items inspected: bukhari:5089, bukhari:5176, bukhari:5291, bukhari:5394, bukhari:5486, bukhari:5569, bukhari:5672, bukhari:5814, bukhari:5905, and bukhari:6006.
 - Findings: The sample boundaries and kinds are consistent with the visible matn openings. Bukhari 5291 and 5394 had heuristic starts that were corrected to the substantive matn openings; Bukhari 6006 was checked with its continuation chain excluded. Tail markers and reference handling were validated, with no text corruption.
 - Error rate: 0.0% (0 / 10) after corrections. Quality benchmark satisfied.
+
+### Check 7 (After 70 Batches / 4200 Hadith)
+- Sample size: 10 hadiths sampled across batches 61 through 70.
+- Sample items inspected: bukhari:6192, bukhari:6409, bukhari:6444, bukhari:6666, bukhari:6817, bukhari:6875, bukhari:7094, bukhari:7196, bukhari:7334, and bukhari:7523.
+- Findings: All 10 samples have clean isnad-to-matn boundaries, kinds consistent with the visible narration, no text corruption, and correct tail handling. The sampled starts include companion reports, direct prophetic wording, dialogue, and narration openings across the ten batches.
+- Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
 
 ### Check 2 (After 20 Batches / 1200 Hadith)
 - Sample size: 10 hadiths sampled across batches 11 through 20.
