@@ -1,0 +1,140 @@
+import fs from "node:fs";
+type Kind="prophet_words"|"narration"|"companion_words"|"dialogue"|"reference_only"|"unclear";
+const kinds:Kind[]=[
+"reference_only","reference_only","reference_only","reference_only","prophet_words","prophet_words","narration","prophet_words","reference_only","narration",
+"narration","companion_words","reference_only","narration","reference_only","prophet_words","companion_words","companion_words","prophet_words","reference_only",
+"reference_only","dialogue","dialogue","companion_words","prophet_words","prophet_words","prophet_words","companion_words","reference_only","companion_words",
+"companion_words","dialogue","companion_words","narration","narration","companion_words","reference_only","companion_words","companion_words","reference_only",
+"companion_words","companion_words","companion_words","companion_words","companion_words","companion_words","companion_words","companion_words","reference_only","companion_words",
+"companion_words","companion_words","companion_words","reference_only","companion_words","companion_words","companion_words","companion_words","reference_only","reference_only"
+];
+const batch=JSON.parse(fs.readFileSync("data/hadith-split/batch-100.json","utf8"));
+if(batch.length!==60)throw new Error("Expected 60");
+const marks=batch.map((x:any,i:number)=>({id:x.id,url:x.url,start:null as string|null,kind:kinds[i]}));
+marks[49].kind="narration";
+marks[54].kind="narration";
+marks[31].kind="dialogue";
+marks[47].kind="narration";
+const strip=(s:string)=>s.replace(/[\u064b-\u065f\u0670]/g,"");
+function cleanMap(t:string){const chars=[...t],clean:string[]=[],map:number[]=[];for(let i=0;i<chars.length;i++){if(/[\u064b-\u065f\u0670]/.test(chars[i]))continue;clean.push(chars[i]);map.push(i);}return {clean:clean.join(""),map};}
+const markers=["قال","أن","كان","سمع","يقول"].map(strip);
+function chooseStart(t:string):string|null{const {clean,map}=cleanMap(t),candidates:number[]=[];for(const marker of markers){let p=clean.indexOf(marker,50);while(p>=0){candidates.push(p);p=clean.indexOf(marker,p+1);}}candidates.sort((a,b)=>a-b);for(const p of candidates){if(p>0&&/[\u0621-\u064a]/.test(clean[p-1]))continue;const window=clean.slice(p,p+110);if(/حدث|أخبر/.test(window))continue;return t.slice(map[p],map[p]+Math.min(90,t.length-map[p]));}return null;}
+for(let i=0;i<60;i++)marks[i].start=chooseStart(batch[i].text_original);
+function setByText(i:number, text:string){const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(text),50);if(p>=0){const orig=map[p];marks[i].start=batch[i].text_original.slice(orig,orig+Math.min(90,batch[i].text_original.length-orig));}}
+for(const [i,text] of [
+  [0,"قال فرض رسول الله"],[1,"قال فرض النبي"],[2,"قال إن رسول الله"],[3,"أن رسول الله"],
+  [4,"يقول كنا"],[5,"قال كنا"],[6,"يقول كنا"],[7,"قال كنا"],[8,"أن معاوية"],
+  [9,"أن رسول الله"],[10,"أن رسول الله"],[11,"قال رسول الله"],[12,"ما من صاحب إبل"],
+  [13,"قال رسول الله"],[14,"سمعت رسول الله"],[15,"عن النبي صلى الله عليه وسلم قال"],
+  [17,"قال انتهيت"],[18,"قال انتهيت"],[20,"قال قدمت"],[21,"قال كنت"],
+  [22,"يبلغ به النبي"],[23,"قال رسول الله"],[24,"قال أعتق"],[29,"قالت قال رسول الله"],
+  [36,"إن رسول الله"],[38,"قال رسول الله"],[39,"عن النبي صلى الله عليه وسلم قال"],
+  [41,"عن النبي صلى الله عليه وسلم قال"],[44,"قال رسول الله"],[45,"قال رسول الله"],
+  [46,"قال ذكر رسول الله"],[48,"قال كنا"],[49,"قال جاء ناس"],[50,"قال خطب رسول الله"],
+  [52,"قال أمرنا"],[54,"قال رسول الله"],[57,"قال أمرني"],[58,"أن رسول الله"]
+] as [number,string][])setByText(i,text);
+for(const [i,text] of [
+  [0,"قال رسول الله"],[1,"قال رسول الله"],[2,"قال رسول الله"],[4,"ورجل معلق"],[5,"قال أي الصدقة أفضل"],
+  [6,"يقول إياكم"],[8,"أن رسول الله"],[9,"قال رسول الله"],[11,"قال النبي"],[12,"قال كنا"],
+  [13,"قال تحملت"],[20,"يقول قام رسول الله"],[21,"أن رسول الله"],[22,"قال جلس رسول الله"],
+  [24,"قال رسول الله"],[26,"قال كنت أمشي"],[28,"أنه قال قسم رسول الله"],[29,"أن أناسا"],
+  [30,"أنه قال لما أفاء"],[32,"قال جمع رسول الله"],[33,"قال لما فتحت مكة"],[34,"قال لما كان يوم حنين"],
+  [35,"قال افتتحنا مكة"],[36,"قال أعطى رسول الله"],[37,"أن النبي"],[39,"أن رسول الله"],
+  [40,"قال لما كان يوم حنين"],[41,"قال أتى رجل"],[43,"قال بعث علي"],[44,"يقول بعث علي"],
+  [45,"زاد فقام إليه"],[46,"قال بينا نحن"],[47,"أن النبي"],[51,"قال ذكر الخوارج"],
+  [54,"أنا لا"],[55,"أنا لا"],[56,"قال اجتمع"],[57,"قالا لعبد المطلب"],[58,"قال إن جويرية"]
+] as [number,string][])setByText(i,text);
+for(const [i,text] of [
+  [0,"قال رسول الله"],[1,"قالت بعث"],[2,"أن النبي كان"],[3,"قال كان رسول الله"],[4,"قال صل عليهم"],
+  [5,"قال رسول الله"],[6,"وقال فإن غم عليكم"],[7,"وقال ذكر رسول الله"],[8,"قال رسول الله"],[10,"قال له ما يدريك"],
+  [14,"قال فقدمت الشام"],[15,"أن نبي الله"],[16,"قال لما نزلت"],[17,"قال لما نزلت"],[20,"قال قال رسول الله"],
+  [21,"قال إن الفجر"],[23,"يقول سمعت محمدا"],[26,"قال تسحرنا"],[29,"قال دخلت أنا"],[30,"قال دخلت أنا"],
+  [31,"قال رسول الله"],[32,"قال كنا"],[33,"قال كنا"],[36,"قال نهى رسول الله"],[37,"قال رسول الله"],
+  [38,"قال فاكلفوا"],[40,"قال كان رسول الله"],[41,"قالت كان رسول الله"],[42,"أن النبي كان"],
+  [43,"قالت كان رسول الله"],[44,"قالت كان رسول الله"],[45,"أن رسول الله"],[46,"أن رسول الله"],
+  [47,"قال انطلقت أنا"],[49,"أن رسول الله"],[51,"قالت كان رسول الله"],[52,"قالت كان رسول الله"],
+  [53,"أن النبي"],[54,"قالت كان رسول الله"],[56,"أنه سأل رسول الله"],[57,"قال سمعت أبا هريرة"],
+  [58,"قالت قد كان رسول الله"],[59,"قالت كان رسول الله"]
+] as [number,string][])setByText(i,text);
+for(const [i,text] of [
+  [0,"أنهما قالتا إن كان رسول الله"],[1,"قالت كان رسول الله"],[2,"أن أبا يونس"],[3,"قال كان رسول الله"],[4,"وقال بعَرَق"],[5,"أن رجلا وقع"],
+  [6,"أن رجلا أفطر"],[7,"أن النبي أمر"],[9,"أن عائشة"],[10,"أنه سمع عائشة"],[14,"أن أم الفضل"],[15,"قال سافر رسول الله"],
+  [16,"قال لا تعب"],[17,"فقيل له إن الناس"],[19,"يقول رأى رسول الله"],[21,"قال غزونا مع رسول الله"],[22,"قال غزونا"],
+  [23,"قال كنا نسافر"],[24,"قال كنا نغزو"],[25,"قالا سافرنا"],[26,"قال سئل أنس"],[27,"قال خرجت"],
+  [28,"قال أتيت أبا سعيد"],[30,"أن حمزة قال"],[31,"أنه قال يا رسول الله"],[32,"قال خرجنا"],[33,"قال أبو الدرداء"],
+  [34,"أن ناسا تماروا"],[37,"تقول شك ناس"],[38,"أنها قالت إن الناس"],[40,"أن يوم عاشوراء"],[41,"قالت كان رسول الله"],
+  [43,"قال ذكر عند النبي"],[44,"قال دخل الأشعث"],[46,"قال ذكر"],[47,"قال دخل الأشعث"],[48,"قال كان رسول الله"],
+  [50,"سمع النبي يقول"],[52,"أن رسول الله قدم المدينة"],[55,"وسئل عن صيام"],[57,"قال انتهيت"],[59,"قالت بعث رسول الله"]
+] as [number,string][])setByText(i,text);
+for(let i=0;i<60;i++)delete marks[i].tail_start;
+const refs=[8,11,12,13,20,22,35,36,39,42,43,45,49,51,53,54,56,58];
+for(const i of refs)marks[i].start=null;
+for(let i=0;i<60;i++)if(marks[i].start===null)marks[i].kind="reference_only";
+const tails:[[number,string],...Array<[number,string]>]=[
+  [5,"انتهى حديث"],[6,"ولم يذكرا"],[11,"فذكر بمعنى"],[18,"فذكر نحو"],[30,"وساق الحديث"],[36,"قال أبو توبة"],[38,"وقال"],[41,"وفي رواية"],[45,"زاد ابن حجر"],[48,"حدثني عمرو"],[49,"فذكر بمعنى"],[50,"بمعنى حديث"],[58,"حدثني عمرو"]
+];
+for(const [i,needle] of tails){const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(needle));if(p>=0)marks[i].tail_start=batch[i].text_original.slice(map[p]);}
+for(let i=0;i<60;i++)delete marks[i].tail_start;
+const newTails:[[number,string],...Array<[number,string]>]=[
+  [7,"فذكر مثله"],[31,"وساق الحديث"],[42,"وساق الحديث"]
+];
+for(const [i,needle] of newTails){const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(needle));if(p>=0)marks[i].tail_start=batch[i].text_original.slice(map[p]);}
+for(let i=0;i<60;i++)delete marks[i].tail_start;
+const batchTails:[[number,string],...Array<[number,string]>]=[
+  [4,"ولم يذكر"],[6,"ثم ذكر بمثل حديث"],[12,"قال يحيى قال سفيان"],[13,"قال الزهري"],[14,"وشك يحيى"],[17,"فدعا بقدح"],
+  [20,"نحوَه"],[35,"ولم يذكر"],[39,"وقال في آخر الحديث"],[42,"بمثله"],[45,"فلما نزل رمضان"],[49,"بمثله"],[51,"وقال فسألهم"],
+  [53,"لم يسمه"],[54,"وزاد قال"],[56,"بمثله"],[58,"بمثله"],[59,"فذكر بمثل"]
+];
+for(const [i,needle] of batchTails){const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(needle));if(p>=0)marks[i].tail_start=batch[i].text_original.slice(map[p]);}
+delete marks[54].tail_start;
+delete marks[17].tail_start;
+const finalTails:[[number,string],...Array<[number,string]>]=[
+  [6,"نحو حديث"],[11,"نحوه"],[13,"بمعنى"],[19,"نحو حديث"],[22,"وانتهى حديث"],
+  [24,"فذكر هذا"],[34,"بمعنى حديث"],[39,"بمثل حديث"],[48,"فذكر نحوه"],[50,"مثله"]
+];
+for(const [i,needle] of finalTails){const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(needle));if(p>=0)marks[i].tail_start=batch[i].text_original.slice(map[p]);}
+for(const [i,text] of [
+  [0,"أنه قال شهدت العيد"],[1,"أن رسول الله نهى"],[2,"قال جاء رجل"],[3,"قالت نهى رسول الله"],[4,"قال خالد فلقيت"],[6,"سألت جابر"],[7,"أنه سأل جابر"],
+  [8,"قال لما نزلت"],[9,"أنه قال لما نزلت"],[10,"تقول كان يكون"],[14,"عن عائشة"],[15,"أن امرأة أتت"],[16,"قال جاء رجل"],[17,"أن ابن عباس"],[19,"قال بينا أنا"],
+  [21,"قال جاءت امرأة"],[23,"قال أتت امرأة"],[24,"قال إذا لقي الله"],[26,"قالت قال لي"],[27,"قالت دخل علي النبي"],[28,"قلت لعائشة"],[29,"قلت لعائشة"],
+  [30,"سألت عائشة"],[32,"أنها قالت كان رسول الله"],[33,"قال سألت عائشة"],[34,"قال ما صام رسول الله"],[36,"قال سألت سعيد"],[38,"قال كان رسول الله"],
+  [40,"قال انطلقت أنا"],[43,"بلغني أن رسول الله"],[45,"قال قال لي رسول الله"],[47,"قال قال لي رسول الله"],[48,"قال دخلت مع أبيك"],[50,"قال عبد الله بن عمرو"],
+  [51,"أنها سألت عائشة"],[52,"قال له أو"],[53,"أن رسول الله قال له"],[54,"أن النبي قال لرجل"],[55,"قال لرجل"],[57,"رجل أتى النبي"]
+] as [number,string][])setByText(i,text);
+marks[4].kind="companion_words";
+marks[8].kind="companion_words";
+marks[36].kind="companion_words";
+marks[45].kind="prophet_words";
+marks[51].kind="companion_words";
+const finalRefs=[5,11,12,13,18,20,22,25,35,37,39,41,44,46,49,56,58,59];
+for(const i of finalRefs){marks[i].start=null;marks[i].kind="reference_only";delete marks[i].tail_start;}
+for(let i=0;i<60;i++)delete marks[i].tail_start;
+const finalTails2:[[number,string],...Array<[number,string]>]=[
+  [5,"فناديا"],[6,"ثم ذكر بمثل حديث"],[11,"غير أنه قال"],[12,"يحيى يقوله"],[13,"ولم يذكرا"],[17,"وزاد"],[20,"نحوه"],[22,"وقال صوم شهرين"],
+  [25,"بمثل هذا الإسناد"],[35,"وقال شهرا متتابعا"],[37,"بمثله"],[39,"ولم يذكر"],[41,"وزاد فيه"],[44,"قال مسلم"],[46,"وقال"],[49,"بمثله"],[56,"بمثله"]
+];
+for(const [i,needle] of finalTails2){const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(needle));if(p>=0)marks[i].tail_start=batch[i].text_original.slice(map[p]);}
+for(const [i,text] of [
+  [2,"قال سمعت رسول الله"],[3,"قال رسول الله"],[4,"قال رسول الله"],[5,"أن رسول الله قال"],[6,"أنه قال كان رسول الله"],[7,"قال إن"],
+  [9,"أن النبي كان يعتكف"],[10,"أن رسول الله كان يعتكف"],[11,"قالت كان رسول الله"],[13,"أن النبي كان يعتكف"],[15,"عن عائشة"],[16,"سمعت الأسود"],
+  [17,"قالت ما رأيت"],[18,"أن النبي لم يصم"],[21,"قال أتى النبي"],[22,"أن النبي"],[23,"قال كنا مع"],[24,"أن رسول الله قال"],
+  [25,"أن رسول الله قال"],[26,"قال سمعت رسول الله"],[27,"سمعت ثم انتهى"],[29,"يقول بيداؤكم"],[30,"قال كان ابن عمر"],[31,"أنه قال لعبد الله"],
+  [32,"قال حججت مع"],[33,"قال كان رسول الله"],[34,"أنه كان يخبر"],[35,"قال رأيت رسول الله"],[37,"قالت طيبت رسول الله"],[38,"قالت طيبت رسول الله"],
+  [40,"قالت طيبت رسول الله"],[41,"سمعت عائشة"],[42,"قال سألت عائشة"],[43,"قالت كنت أطيب رسول الله"],[44,"أنها قالت طيبت رسول الله"],
+  [45,"قالت كان رسول الله"],[46,"قالت كان رسول الله"],[47,"قالت كأني أنظر"],[49,"أنها قالت كأنما"],[50,"قالت إن كنت لأنظر"],
+  [51,"أن أبي إسحاق سمع"],[52,"قالت عائشة"],[54,"قالت كنت أطيب النبي"],[55,"قال سألت عبد الله"],[56,"أنها قالت كنت"],[57,"قال سمعت ابن عمر"]
+] as [number,string][])setByText(i,text);
+const finalRefs100=[0,1,2,3,8,12,14,19,20,28,36,39,48,53,58,59];
+for(const i of finalRefs100){marks[i].start=null;marks[i].kind="reference_only";delete marks[i].tail_start;}
+for(let i=0;i<60;i++)delete marks[i].tail_start;
+const tails100:[[number,string],...Array<[number,string]>]=[
+  [0,"غير أنه ذكر"],[1,"بمثله"],[2,"يقول"],[3,"بمثل"],[8,"بمثل حديث"],[11,"بمثل"],[12,"يحيى يقوله"],[14,"مثل حديث"],
+  [19,"بمثل"],[20,"بمثل"],[28,"فذكر بمثل"],[36,"بمثله"],[39,"بمثل"],[48,"بمثل حديث"],[53,"بمثله"],[58,"وقال أهديت"]
+];
+for(const [i,needle] of tails100){const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(needle));if(p>=0)marks[i].tail_start=batch[i].text_original.slice(map[p]);}
+for(const [i,text] of [[11,"قالت كان رسول الله"],[35,"قال رأيت رسول الله"],[37,"قالت طيبت رسول الله"],[42,"قال سألت عائشة"],[43,"قالت كنت أطيب رسول الله"],[44,"أنها قالت طيبت رسول الله"],[45,"قالت كأني أنظر"],[49,"أنها قالت كأنما"],[51,"قالت كان رسول الله"],[54,"قالت كنت أطيب النبي"],[56,"أنها قالت كنت"]] as [number,string][])setByText(i,text);
+for(const i of [11,35,37,42,43,44,45,49,51,54,56]){if(i===45)marks[i].kind="prophet_words";else if(i===35)marks[i].kind="narration";else marks[i].kind="companion_words";}
+for(let i=0;i<60;i++)delete marks[i].tail_start;
+for(const [i,needle] of [[11,"بمثله"],[35,"ثم يهل"],[37,"قبل أن يطوف"],[42,"قالت بأطيب"],[43,"ثم يحرم"],[44,"قبل أن يفيض"],[45,"ولم يقل خلف"],[49,"وهو محرم"],[51,"بعد ذلك"],[54,"بطيب فيه مسك"],[56,"ينضح طيبا"]] as [number,string][]) {const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(needle));if(p>=0)marks[i].tail_start=batch[i].text_original.slice(map[p]);}
+fs.writeFileSync("data/hadith-split/marks-100.json",JSON.stringify(marks,null,2)+"\n","utf8");
+console.log("Wrote 60 marks to data/hadith-split/marks-100.json");
