@@ -498,3 +498,12 @@ The later review of internal IDs 2750-2752 approved only ID 2751. The idempotent
 - Import status: imported 29 approved candidates; sources and search documents each increased by 29, from 20,626 to 20,655.
 - Sensitive or uncertain items were not stored.
 - Decisions were based on complete parsed answers and subject overlap.
+## Batch 0052
+
+- Candidates reviewed: 50
+- Approved: 24
+- Rejected: 4
+- Held for Mo review: 22
+- Import status: imported 24 approved candidates; sources and search documents each increased by 24, from 20,655 to 20,679.
+- Sensitive or uncertain items were not stored.
+- Decisions were based on complete parsed answers and subject overlap.
