@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 090   | 60        | 47     | 13         | 0              | 9 / 19 / 19 / 0 / 0 / 13     | 5400          | Muslim 795c through Muslim 835a. 13 hadiths marked reference_only because they point to another narration without repeating its matn. Zero errors on validation. |
 | 089   | 60        | 48     | 12         | 0              | 9 / 22 / 11 / 6 / 0 / 12     | 5340          | Muslim 743b through Muslim 794c. 12 hadiths marked reference_only because they point to another narration without repeating its matn. Zero errors on validation. |
 | 088   | 60        | 53     | 7          | 0              | 4 / 35 / 3 / 11 / 0 / 7      | 5280          | Muslim 718 through Muslim 743a. 7 hadiths marked reference_only because they point to another narration without repeating its matn. Zero errors on validation. |
 | 087   | 60        | 51     | 9          | 0              | 3 / 36 / 4 / 8 / 0 / 9       | 5220          | Muslim 700h through Muslim 717b, including parallel 715a entries. 9 hadiths marked reference_only because they point to another narration without repeating its matn. Zero errors on validation. |
@@ -150,6 +151,12 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 - Sample size: 10 hadiths sampled across batches 71 through 80.
 - Sample items inspected: muslim:30c, muslim:85a, muslim:142h, muslim:160a, muslim:240c, muslim:286c, muslim:336f, muslim:378b, muslim:438b, and muslim:453.
 - Findings: All 10 samples have clean isnad-to-matn boundaries, kinds consistent with the visible narration, correct reference-only handling for the sampled repeated narration, and no text corruption.
+- Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
+
+### Check 9 (After 90 Batches / 5400 Hadith)
+- Sample size: 10 hadiths sampled across batches 81 through 90.
+- Sample items inspected: muslim:503c, muslim:539a, muslim:579a, muslim:623, muslim:676, muslim:677h, muslim:705a, muslim:724f, muslim:763e, and muslim:819b.
+- Findings: All 10 samples passed after refining two sampled nested-chain boundaries in earlier marks. The corrected starts are clean, kinds remain consistent, the reference-only sample is correctly null, and no tail issues were found.
 - Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
 
 ### Check 2 (After 20 Batches / 1200 Hadith)
