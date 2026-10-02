@@ -90,7 +90,7 @@ export function buildLiveAnswerV2(input: LiveAnswerInput): BuildResult {
     } else if (e.kind === "hadith") {
       hadith.push({ id: passage.id, points: pointsOf([passage.id]), cited: true, collection: e.collection, numbers: { ...e.numbers },
         grade_ar: e.gradeAr, attribution_ar: e.attributionAr, arabic: e.arabic, translation: e.translation,
-        translation_language: e.translationLanguage, url: e.url });
+        translation_language: e.translationLanguage, url: e.url, ...(e.chapter ? { chapter: e.chapter } : {}) });
     } else {
       scholars.push({ id: passage.id, points: pointsOf([passage.id]), cited: true, scholar_id: e.scholarId, scholar_name: e.scholarName,
         title: e.title, reference: e.reference, arabic: e.arabic, url: e.url });

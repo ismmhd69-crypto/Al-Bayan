@@ -22,6 +22,10 @@ export function stripAnswer(answer: AnswerV2): AnswerV2 {
     hadith.translation = null;
     hadith.translation_language = null;
     delete hadith.ai_translation;
+    // Sunnah.com text too: the chapter heading and the display split are rebuilt when the chat is opened.
+    delete hadith.chapter;
+    delete hadith.display_split;
+    delete hadith.words_translation;
     hadith.grade_ar = "";
     hadith.attribution_ar = "";
   }

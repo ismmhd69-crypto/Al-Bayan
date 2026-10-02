@@ -86,6 +86,7 @@ export type Evidence =
       translation: string | null; // exactly as served; null for Arabic readers or if none exists
       translationLanguage: "en" | "de" | null; // "en" when shown because no German exists
       url: string;
+      chapter?: string; // stored hadith: chapter heading, display only (never sent to the AI steps)
     }
   | {
       kind: "scholar";
@@ -427,6 +428,7 @@ export function toEvidence(s: Source, language: Locale): Evidence {
     translation,
     translationLanguage,
     url: h.url,
+    ...(h.chapter ? { chapter: h.chapter } : {}),
   };
 }
 

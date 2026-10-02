@@ -1521,6 +1521,63 @@ details[open] > summary .chev {
   font-size: var(--fs-sm);
   color: var(--ink-3);
 }
+/* Stored hadith card: chapter heading, the quoted words highlighted, the chain of narrators folded.
+   Logical properties only, so the gold edge sits on the reading start side in Arabic too. */
+.hadith-chapter {
+  margin: 0;
+  font-family: var(--f-ar-body);
+  font-size: var(--fs-sm);
+  line-height: 1.9;
+  color: var(--ink-2);
+  text-align: right;
+}
+.hadith-words {
+  display: grid;
+  gap: 4px;
+  min-inline-size: 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border-inline-start: 3px solid var(--gold);
+  background: var(--gold-soft);
+}
+.hadith-words-label {
+  margin: 0;
+  color: var(--gold-ink);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+/* What the narrator or compiler adds after the quoted words: quieter, always outside the box. */
+.verse-ar.hadith-tail {
+  font-size: 1.125rem;
+  color: var(--ink-3);
+}
+.hadith-isnad {
+  min-inline-size: 0;
+  padding: 0 12px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.hadith-isnad > summary {
+  justify-content: flex-start;
+  color: var(--accent);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+.hadith-isnad > summary .chev {
+  margin-inline-start: auto;
+}
+.hadith-isnad > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+.hadith-isnad > .verse-ar {
+  font-size: 1.125rem;
+  color: var(--ink-3);
+}
+.hadith-isnad > .verse-tr {
+  margin-block-start: 6px;
+}
 .quote-title {
   font-family: var(--f-ar-body);
   font-size: var(--fs-sm);

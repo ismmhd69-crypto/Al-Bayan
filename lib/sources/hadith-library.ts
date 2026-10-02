@@ -18,7 +18,7 @@ import {
 
 const MAX_RESULTS = 8;
 const SEARCH_POOL = 50; // the database function's own maximum; fatwas share it, hadith rows are picked out afterwards
-const COLUMNS = "id, kind, scholar_id, published, reference, collection, grade, text_original, url";
+const COLUMNS = "id, kind, scholar_id, published, reference, collection, grade, text_original, url, title";
 
 let client: SupabaseClient | null = null;
 

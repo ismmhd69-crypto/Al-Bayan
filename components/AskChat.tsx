@@ -10,6 +10,7 @@ import { ReportProblem } from "./ReportProblem";
 import { takePendingQuestion } from "@/lib/pending";
 import { Beacon } from "./Logo";
 import { AnswerV2View } from "./AnswerV2View";
+import { cleanHadithMarkup } from "@/lib/sources/hadith-markup";
 
 type AskText = Dictionary["ask"];
 
@@ -363,11 +364,11 @@ export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) 
                     </span>
                   </p>
                   <p className="verse-ar" lang="ar" dir="rtl" translate="no">
-                    {e.arabic}
+                    {cleanHadithMarkup(e.arabic)}
                   </p>
                   {e.translation && e.translationLanguage && (
                     <p className="verse-tr" lang={e.translationLanguage} dir="ltr">
-                      <span translate="no">{e.translation}</span>
+                      <span translate="no">{cleanHadithMarkup(e.translation)}</span>
                       <span className="verse-by">
                         {e.translationLanguage !== a.language ? t.hadith.englishFallback : t.hadith.translationBy}
                       </span>

@@ -6,6 +6,8 @@ import { displaySourceId, type AnswerV2, type Cited, type HadithItem, type Quran
 import VideoCard from "./VideoCard";
 import { ReportProblem } from "./ReportProblem";
 import { shouldShowScholarTranslation } from "@/lib/ask/display-choice";
+import { splitRejoins, tailHasWords, tailParts } from "@/lib/sources/hadith-split";
+import { cleanHadithMarkup } from "@/lib/sources/hadith-markup";
 
 type AskText = Dictionary["ask"];
 
@@ -229,7 +231,22 @@ function QuranCard({ card, answerLanguage, t, anchor }: { card: QuranItem; answe
 
 const LONG_HADITH_CHARS = 1200;
 
+// Sunnah.com's [quran sura=".."] tags are tidied for display only; the stored text is never changed.
+const clean = cleanHadithMarkup;
+
 function HadithCard({ item, answerLanguage, t, anchor }: { item: HadithItem; answerLanguage: AnswerV2["language"]; t: AskText; anchor: (id: string) => string }) {
+  // The chain/words layout is used only when the display step found a certain split AND its pieces still
+  // rejoin to the full text here. Otherwise the full-text card is shown, exactly as before.
+  const split = item.display_split && splitRejoins(item.display_split, item.arabic) ? item.display_split : null;
+  const translation = item.translation && item.translation_language ? (
+    <p className="verse-tr" lang={item.translation_language} dir="ltr">
+      <span translate="no">{clean(item.translation)}</span>
+      {!item.ai_translation && <span className="verse-by">{item.translation_language !== answerLanguage ? t.hadith.englishFallback : t.hadith.translationBy}</span>}
+    </p>
+  ) : null;
+  const aiLabel = item.ai_translation && item.translation ? <p className="source-language-label">{t.scholarQuote.aiTranslation}</p> : null;
+  // Phase 2: a translation of the words alone goes into the box; the full translation then moves into the chain fold.
+  const wordsTranslation = split && item.words_translation && answerLanguage !== "ar" ? clean(item.words_translation) : null;
   return (
     <article className="answer-source-card answer-source-target" id={anchor(item.id)} tabIndex={-1}>
       <h4>{t.hadith[item.collection]}</h4>
@@ -237,21 +254,42 @@ function HadithCard({ item, answerLanguage, t, anchor }: { item: HadithItem; ans
         <span>{[item.numbers.bukhari && `${t.hadith.numberBukhari} ${item.numbers.bukhari}`, item.numbers.muslim && `${t.hadith.numberMuslim} ${item.numbers.muslim}`].filter(Boolean).join(" · ")}</span>
         <span lang="ar" dir="rtl" translate="no">{item.grade_ar} · {item.attribution_ar}</span>
       </p>
-      {item.ai_translation && item.translation && <p className="source-language-label">{t.scholarQuote.aiTranslation}</p>}
-      {item.arabic.length > LONG_HADITH_CHARS ? (
-        // Long hadith (usually a long chain of narrators first): the whole text is one tap away, never cut.
-        <details className="hadith-long">
-          <summary>{t.hadith.showFull}</summary>
-          <p className="verse-ar" lang="ar" dir="rtl" translate="no">{item.arabic}</p>
-        </details>
-      ) : (
-        <p className="verse-ar" lang="ar" dir="rtl" translate="no">{item.arabic}</p>
-      )}
-      {item.translation && item.translation_language && (
-        <p className="verse-tr" lang={item.translation_language} dir="ltr">
-          <span translate="no">{item.translation}</span>
-          {!item.ai_translation && <span className="verse-by">{item.translation_language !== answerLanguage ? t.hadith.englishFallback : t.hadith.translationBy}</span>}
+      {item.chapter && (
+        <p className="hadith-chapter" lang="ar" dir="rtl" translate="no">
+          <span className="sr-only">{t.hadith.chapter}: </span>{item.chapter}
         </p>
+      )}
+      {split ? (
+        <>
+          <div className="hadith-words">
+            <p className="hadith-words-label">{split.speaker === "prophet" ? t.hadith.prophetSaid : t.hadith.textLabel}</p>
+            <p className="verse-ar" lang="ar" dir="rtl" translate="no">{clean(split.words)}{tailParts(split.tail).lead}</p>
+            {wordsTranslation && <p className="verse-tr" lang={answerLanguage} dir="ltr">{wordsTranslation}</p>}
+          </div>
+          {tailHasWords(split.tail) && <p className="verse-ar hadith-tail" lang="ar" dir="rtl" translate="no">{clean(tailParts(split.tail).rest)}</p>}
+          {!wordsTranslation && aiLabel}
+          {!wordsTranslation && translation}
+          <details className="hadith-isnad">
+            <summary>{t.hadith.showChain}<ChevronDown aria-hidden="true" className="chev" /></summary>
+            <p className="verse-ar" lang="ar" dir="rtl" translate="no">{clean(split.chain)}</p>
+            {wordsTranslation && translation}
+          </details>
+          {wordsTranslation && <p className="source-language-label">{t.scholarQuote.aiTranslation}</p>}
+        </>
+      ) : (
+        <>
+          {aiLabel}
+          {item.arabic.length > LONG_HADITH_CHARS ? (
+            // Long hadith (usually a long chain of narrators first): the whole text is one tap away, never cut.
+            <details className="hadith-long">
+              <summary>{t.hadith.showFull}</summary>
+              <p className="verse-ar" lang="ar" dir="rtl" translate="no">{clean(item.arabic)}</p>
+            </details>
+          ) : (
+            <p className="verse-ar" lang="ar" dir="rtl" translate="no">{clean(item.arabic)}</p>
+          )}
+          {translation}
+        </>
       )}
       <a className="verse-link" href={item.url} target="_blank" rel="noopener noreferrer">{item.url.startsWith("https://sunnah.com/") ? t.hadith.linkSunnah : t.hadith.link}<ExternalLink aria-hidden="true" /></a>
     </article>

@@ -22,6 +22,7 @@ export type Hadith = {
   arabic: string; // exactly as served
   translations: { en: string | null; de: string | null }; // exactly as served, or null
   url: string;
+  chapter?: string | null; // stored hadith: the chapter heading ("باب ...") exactly as stored; display only
 };
 
 export const HADITH_ATTRIBUTION = {
@@ -166,6 +167,7 @@ export type StoredHadithRow = {
   grade: string | null;
   text_original: string;
   url: string;
+  title?: string | null; // the chapter heading
 };
 
 // Longest stored hadith Ask will use. Longer ones are left out, never cut: the evidence step must see
@@ -216,6 +218,7 @@ export function mapStoredHadith(row: StoredHadithRow): Hadith | null {
     arabic: row.text_original,
     translations: { en: null, de: null },
     url: row.url,
+    chapter: typeof row.title === "string" && row.title.trim() && !/[<>]/.test(row.title) ? row.title : null,
   };
   return hadithAllowed(hadith) ? hadith : null;
 }

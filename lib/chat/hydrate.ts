@@ -73,6 +73,9 @@ export async function hydrateAnswer(stored: unknown, deps: HydrateDeps = realDep
           item.translation = e.translation;
           item.translation_language = e.translationLanguage;
           item.url = e.url;
+          // Old saved answers have no chapter heading; it is added back from the library when it exists.
+          if (e.chapter) item.chapter = e.chapter;
+          else delete item.chapter;
           return true;
         }),
       );

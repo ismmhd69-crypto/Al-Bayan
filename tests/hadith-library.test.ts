@@ -30,6 +30,9 @@ import { attachScholarTranslations } from "@/lib/ask/display-translations";
 import { validateAnswerV2, type AnswerV2 } from "@/lib/ask/answer-v2";
 import { hydrateAnswer } from "@/lib/chat/hydrate";
 import { sourceKindMismatch } from "@/lib/ask/checks";
+import { stripAnswer } from "@/lib/chat/answer-store";
+import { attachHadithDisplay } from "@/lib/ask/display-translations";
+import { toEvidence } from "@/lib/ask/core";
 
 const UUID = "11111111-2222-4333-8444-555555555555";
 const row = (over: Partial<StoredHadithRow> = {}): StoredHadithRow => ({
@@ -241,4 +244,90 @@ describe("library lookup", () => {
     expect((await searchLibraryHadith({ ar: ["فضل صلاة الجماعة في المسجد"] })).map((h) => h.id)).toEqual([`SH${UUID}`]);
   });
   it("returns nothing without Arabic phrases", async () => { expect(await searchLibraryHadith({ en: ["prayer"] })).toEqual([]); });
+});
+
+// ---------- hadith card layout: chapter heading and display split ----------
+
+const QUOTED = "حدثنا فلان عن فلان عن النبي صلى الله عليه وسلم قال ‏\"‏ نص تجريبي عن الصيام وجزائه ‏\"‏‏.‏";
+const withChapter = (over: Partial<AnswerV2["hadith"][number]> = {}): AnswerV2 => {
+  const a = answer();
+  a.hadith[0] = { ...a.hadith[0], arabic: QUOTED, chapter: "باب تجريبي", ...over };
+  return a;
+};
+
+describe("chapter heading", () => {
+  it("comes from the stored title, unchanged, and reaches the evidence item", () => {
+    const h = mapStoredHadith(row({ title: "باب مِنَ الإِيمَانِ" }))!;
+    expect(h.chapter).toBe("باب مِنَ الإِيمَانِ");
+    expect(toEvidence({ kind: "hadith", hadith: h }, "en")).toMatchObject({ chapter: "باب مِنَ الإِيمَانِ" });
+    expect(mapStoredHadith(row())!.chapter).toBeNull();
+    expect(mapStoredHadith(row({ title: "  " }))!.chapter).toBeNull();
+    expect(mapStoredHadith(row({ title: "<b>باب</b>" }))!.chapter).toBeNull();
+    expect("chapter" in toEvidence({ kind: "hadith", hadith: mapStoredHadith(row())! }, "en")).toBe(false);
+  });
+  it("the validator accepts it on stored hadith only and rejects a display split", () => {
+    expect(validateAnswerV2(withChapter(), LIVE).ok).toBe(true);
+    expect(validateAnswerV2(answer(), LIVE).ok).toBe(true); // old answers without a chapter
+    expect(validateAnswerV2(withChapter({ chapter: " " }), LIVE).ok).toBe(false);
+    const split = withChapter(); (split.hadith[0] as Record<string, unknown>).display_split = { chain: "x" };
+    expect(validateAnswerV2(split, LIVE).ok).toBe(false); // the split is display-only, never stored or checked
+  });
+});
+
+describe("saved chats with the new card", () => {
+  it("strip the chapter, split and words translation; reopening adds the chapter back from the library", async () => {
+    const shown = await attachHadithDisplay(withChapter(), true);
+    expect(shown.hadith[0].display_split).toBeTruthy();
+    const saved = stripAnswer({ ...shown, hadith: [{ ...shown.hadith[0], words_translation: "x" }] });
+    for (const key of ["chapter", "display_split", "words_translation"]) expect(key in saved.hadith[0]).toBe(false);
+    const reopened = await hydrateAnswer(saved, { getVerse: async () => undefined, getHadith: vi.fn(),
+      getLibraryHadith: async () => mapStoredHadith(row({ title: "باب تجريبي", text_original: QUOTED })) });
+    expect(reopened.ok && reopened.answer.hadith[0].chapter).toBe("باب تجريبي");
+  });
+  it("an old saved answer without a chapter still opens", async () => {
+    const old = { ...answer(), hadith: [{ ...answer().hadith[0], arabic: "", grade_ar: "", attribution_ar: "" }] };
+    const reopened = await hydrateAnswer(old, { getVerse: async () => undefined, getHadith: vi.fn(), getLibraryHadith: async () => mapStoredHadith(row()) });
+    expect(reopened.ok).toBe(true);
+  });
+});
+
+describe("display step: split and kill switch", () => {
+  const prev = process.env.SHOW_AI_TRANSLATIONS;
+  afterEach(() => { if (prev === undefined) delete process.env.SHOW_AI_TRANSLATIONS; else process.env.SHOW_AI_TRANSLATIONS = prev; });
+  it("adds a split whose pieces rejoin to the full text; the full text is untouched", async () => {
+    rowsResult = { data: [], error: null };
+    const out = (await attachHadithDisplay(withChapter(), true)).hadith[0];
+    const s = out.display_split!;
+    expect(out.arabic).toBe(QUOTED);
+    expect(s.chain + s.open + s.words + s.close + s.tail).toBe(QUOTED);
+    expect(s.speaker).toBe("prophet");
+  });
+  it("HADITH_SPLIT=off: no split (the full-text card as before)", async () => {
+    expect((await attachHadithDisplay(withChapter(), false)).hadith[0].display_split).toBeUndefined();
+    const prevSplit = process.env.HADITH_SPLIT;
+    process.env.HADITH_SPLIT = "off";
+    rowsResult = { data: [], error: null };
+    expect((await attachScholarTranslations(withChapter())).hadith[0].display_split).toBeUndefined();
+    if (prevSplit === undefined) delete process.env.HADITH_SPLIT; else process.env.HADITH_SPLIT = prevSplit;
+  });
+  it("no split when the text has no quote, and never for HadeethEnc hadith", async () => {
+    expect((await attachHadithDisplay(answer(), true)).hadith[0].display_split).toBeUndefined();
+    const he = withChapter({ id: "HE5913", url: "https://hadeethenc.com/en/browse/hadith/5913" });
+    delete he.hadith[0].chapter;
+    expect((await attachHadithDisplay(he, true)).hadith[0].display_split).toBeUndefined();
+  });
+  it("words translation (Phase 2) is attached when it exists and allowed, else the card falls back", async () => {
+    process.env.NEXT_PUBLIC_SUPABASE_URL = "http://x"; process.env.SUPABASE_SECRET_KEY = "k";
+    process.env.SHOW_AI_TRANSLATIONS = "true";
+    rowsResult = { data: [{ source_id: UUID, lang: "en", text: "Made-up words", origin: "ai", published: false }], error: null };
+    expect((await attachHadithDisplay(withChapter(), true)).hadith[0].words_translation).toBe("Made-up words");
+    delete process.env.SHOW_AI_TRANSLATIONS;
+    expect((await attachHadithDisplay(withChapter(), true)).hadith[0].words_translation).toBeUndefined();
+    rowsResult = { data: null, error: { message: "relation does not exist" } };
+    const out = (await attachHadithDisplay(withChapter(), true)).hadith[0];
+    expect(out.words_translation).toBeUndefined();
+    expect(out.display_split).toBeTruthy();
+    const ar = withChapter(); ar.language = "ar";
+    expect((await attachHadithDisplay(ar, true)).hadith[0].words_translation).toBeUndefined();
+  });
 });

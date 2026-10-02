@@ -1376,6 +1376,25 @@ describe("stored library hadith in the pipeline", () => {
     expect(r.answer.v2?.attribution.hadith?.text).toBe("Hadith text: Sunnah.com");
   });
 
+  it("the AI steps see the full hadith text, never the chapter heading or a split; the answer carries the chapter", async () => {
+    const quoted: Hadith = {
+      ...storedFast,
+      arabic: "حدثنا فلان عن فلان عن النبي صلى الله عليه وسلم قال ‏\"‏ نص تجريبي عن الصيام وجزائه ‏\"‏‏.‏",
+      chapter: "باب عنوان تجريبي للفصل",
+    };
+    const { d, writer, verifier } = deps({ understand: understanding, draft: storedDraft }, TWO_SUPPORTED, storedSelection);
+    d.searchHadith = async () => [quoted];
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    const prompts = [...writer.seen, ...verifier.seen].map((s) => s.prompt);
+    const full = JSON.stringify(quoted.arabic).slice(1, -1);
+    expect(verifier.seen.some((s) => s.prompt.includes(full))).toBe(true);
+    expect(prompts.some((p) => p.includes("عنوان تجريبي للفصل"))).toBe(false);
+    const item = r.answer.v2?.hadith[0];
+    expect(item).toMatchObject({ arabic: quoted.arabic, chapter: quoted.chapter });
+    expect(item && "display_split" in item).toBe(false);
+  });
+
   it("fails closed: if the library lookup fails there is no hadith and no fallback", async () => {
     const { d } = deps({ understand: understanding, draft: goodDraft });
     const fallback = vi.fn(async () => hadithFast as Hadith | null);

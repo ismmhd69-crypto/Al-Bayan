@@ -2,6 +2,8 @@ import "server-only";
 import type { AnswerV2, ScholarItem, ScholarView } from "./answer-v2";
 import { HADITH_LIBRARY_ID } from "./ids";
 import { getScholarTranslations } from "@/lib/sources/scholar-translations";
+import { getHadithWordsTranslations } from "@/lib/sources/hadith-words-translations";
+import { hadithSplitEnabled, splitHadith } from "@/lib/sources/hadith-split";
 
 function translatedScholar(item: ScholarItem, translations: Map<string, string>): ScholarItem {
   const text = translations.get(item.id.slice(1));
@@ -31,8 +33,28 @@ async function attachHadithTranslations(answer: AnswerV2): Promise<AnswerV2> {
   };
 }
 
+/** Display-only layout for stored hadith: chain and words when the split is certain (HADITH_SPLIT=off
+ * turns it off), plus the words-only translation when one exists. Runs after validation; the split is
+ * never saved and never reaches search, evidence selection or the checks, which all use the full text. */
+export async function attachHadithDisplay(answer: AnswerV2, splitEnabled = hadithSplitEnabled()): Promise<AnswerV2> {
+  if (!splitEnabled || !answer.hadith.some((item) => HADITH_LIBRARY_ID.test(item.id))) return answer;
+  const hadith = answer.hadith.map((item) => {
+    const split = HADITH_LIBRARY_ID.test(item.id) ? splitHadith(item.arabic) : null;
+    return split ? { ...item, display_split: split } : item;
+  });
+  const splitIds = hadith.filter((item) => item.display_split).map((item) => item.id.slice(2));
+  const words = await getHadithWordsTranslations(splitIds, answer.language);
+  return {
+    ...answer,
+    hadith: hadith.map((item) => {
+      const text = item.display_split ? words.get(item.id.slice(2)) : undefined;
+      return text ? { ...item, words_translation: text } : item;
+    }),
+  };
+}
+
 export async function attachScholarTranslations(input: AnswerV2): Promise<AnswerV2> {
-  const answer = await attachHadithTranslations(input);
+  const answer = await attachHadithDisplay(await attachHadithTranslations(input));
   const views = answer.view_handling?.mode === "reviewed_main"
     ? answer.view_handling.other_views
     : answer.view_handling?.mode === "side_by_side" ? answer.view_handling.views : [];

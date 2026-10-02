@@ -10,6 +10,7 @@
 import type { Locale } from "@/lib/i18n";
 import { ATTRIBUTION, isRealVerse } from "@/lib/sources/quran-meta";
 import { hadithAllowed, hadithAttributionFor, type HadithCollection } from "@/lib/sources/hadith-rules";
+import type { HadithSplit } from "@/lib/sources/hadith-split";
 import { scholarQuoteAllowed } from "@/lib/sources/scholar-rules";
 import { approvedChannelIds } from "@/lib/sources/youtube-channels";
 import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
@@ -63,6 +64,11 @@ export type HadithItem = ItemBase & {
   translation_language: "en" | "de" | null;
   ai_translation?: boolean; // set only by the display step for stored hadith; shown with the AI label
   url: string;
+  chapter?: string; // stored hadith: chapter heading ("باب ..."), exactly as stored
+  // Set only by the display step (after validation, never saved): chain and words for the card layout.
+  // chain + open + words + close + tail is exactly `arabic`; the page checks this again.
+  display_split?: HadithSplit;
+  words_translation?: string; // display step only: AI translation of the words alone (Phase 2 table)
 };
 export type ScholarItem = ItemBase & {
   scholar_id: string;
@@ -230,10 +236,12 @@ function quranCard(value: unknown, path: string, language: Locale, trust: Answer
 
 function hadithItem(value: unknown, path: string, language: Locale, trust: AnswerV2Trust): HadithItem {
   const h = record(value, path, ["id", "points", "cited", "collection", "numbers", "grade_ar", "attribution_ar", "arabic",
-    "translation", "translation_language", "url"]);
+    "translation", "translation_language", "url"], ["chapter"]);
   const id = typeof h.id === "string" ? h.id.match(HADITH_HE_ID) : null;
   const storedId = typeof h.id === "string" && HADITH_LIBRARY_ID.test(h.id);
   if (!id && !storedId) return fail(`hadith_id:${path}`);
+  // The chapter heading exists only for stored library hadith.
+  if ("chapter" in h && (!storedId || !sourceText(h.chapter, `${path}.chapter`, 1_000))) fail(`hadith_chapter:${path}`);
   if (!["bukhari", "muslim", "agreed"].includes(h.collection as string)) fail(`hadith_collection:${path}`);
   const numbers = record(h.numbers, `${path}.numbers`, ["bukhari", "muslim"]);
   for (const n of [numbers.bukhari, numbers.muslim]) {
