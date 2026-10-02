@@ -138,6 +138,8 @@ export type PipelineDeps = {
   // finished answer only, never given to the models and never used as evidence.
   searchVideos?: (arabicPhrases: string[]) => Promise<VideoSuggestion[]>;
   deadlineMs?: number;
+  /** Fewer candidates for the evidence check (faster on slow models). Fewer can only mean more refusals. */
+  candidateLimits?: { quran: number; hadith: number; scholar: number };
   selectionRetryTimeoutMs?: number; // test override; production default stays short and bounded
   onRefuse?: (reason: string) => void; // reason codes only, never the question
   onStep?: (step: string, elapsedMs: number) => void; // step names and timings only, for local debugging
@@ -724,8 +726,12 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     ...direct.map((key) => `Q${key}`), ...mappedQuran.map((key) => `Q${key}`),
     ...mappedHadith, ...quotes.filter((quote) => mappedFatwas.includes(quote.url)).map((quote) => quote.id),
   ]);
+  const defaultLimits = { quran: MAX_QURAN_CANDIDATES, hadith: MAX_HADITH_CANDIDATES, scholar: MAX_SCHOLAR_CANDIDATES };
+  const limits = deps.candidateLimits ?? defaultLimits;
   const ranked = rankCandidatesForQuestion(frame, allCandidates, mappedIds, {
-    quran: MAX_QURAN_CANDIDATES, hadith: MAX_HADITH_CANDIDATES, scholar: MAX_SCHOLAR_CANDIDATES,
+    quran: Math.min(limits.quran, defaultLimits.quran),
+    hadith: Math.min(limits.hadith, defaultLimits.hadith),
+    scholar: Math.min(limits.scholar, defaultLimits.scholar),
   });
   const candidates = await Promise.all(ranked.map(async (candidate) => {
     if (candidate.source.kind !== "quran") return candidate;

@@ -12,6 +12,7 @@ import { createNvidia } from "./nvidia";
 // models are the last resort when every Google model is busy (needs NVIDIA_API_KEY; without it those
 // steps are simply left out). Tested 2026-10-01: these three answered in about 3 s with valid JSON;
 // deepseek-v4.1-flash sat in the free queue for 90 s+, so it is not used.
+// 2026-10-02: NVIDIA mix measured again (docs/nvidia-switch-report.md); still opt-in.
 // NVIDIA is opt-in (AI_MODELS / AI_VERIFIER_MODELS) and not a default: tested 2026-10-01, its free tier
 // answers short prompts in about 3 s but did not finish the real checking prompt in 40 s, which would
 // only delay the "busy" message. Fast NVIDIA models seen working: google/gemma-4-31b-it,
@@ -72,18 +73,20 @@ function withBackup(main: AIProvider, backup: AIProvider): AIProvider {
 // Tries each model in order. Only a "busy" answer moves on to the next model; any other failure is
 // reported as it is. If every model is busy, the last busy error is thrown (the site shows "busy").
 function withChain(models: AIProvider[]): AIProvider {
-  if (models.length === 1) return models[0];
   return {
     id: models.map((m) => m.id).join("|fallback:"),
     async generateJson(request) {
       let lastBusy: unknown;
       for (const [i, model] of models.entries()) {
         try {
-          return await model.generateJson(request);
+          const result = await model.generateJson(request);
+          // Model id only (never the prompt or the answer), so a measurement can see who answered.
+          if (process.env.ASK_DEBUG === "true") console.info(`ai answered: ${model.id}`);
+          return result;
         } catch (err) {
           if (!(err instanceof GoogleBusyError) || request.signal?.aborted) throw err;
           lastBusy = err;
-          if (process.env.ASK_DEBUG === "true" && models[i + 1]) console.info(`${model.id} busy, using ${models[i + 1].id}`);
+          if (process.env.ASK_DEBUG === "true") console.info(`ai skipped: ${model.id} (${err.message})${models[i + 1] ? `, using ${models[i + 1].id}` : ""}`);
         }
       }
       throw lastBusy;

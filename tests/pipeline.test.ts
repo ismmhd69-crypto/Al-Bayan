@@ -1386,3 +1386,19 @@ describe("stored library hadith in the pipeline", () => {
     expect(fallback).not.toHaveBeenCalled();
   });
 });
+
+describe("lean candidate limits (ASK_LEAN)", () => {
+  it("sends fewer candidates to the evidence check and never more than the defaults", async () => {
+    const { d, verifier } = deps({ understand: understanding, draft: goodDraft });
+    d.candidateLimits = { quran: 1, hadith: 1, scholar: 1 };
+    await runPipeline("What does the Quran say about fasting?", "en", d);
+    const lean = JSON.parse(verifier.seen[0].prompt) as { candidates: unknown[] };
+    expect(lean.candidates.length).toBe(1);
+    const wide = deps({ understand: understanding, draft: goodDraft });
+    wide.d.candidateLimits = { quran: 999, hadith: 999, scholar: 999 };
+    await runPipeline("What does the Quran say about fasting?", "en", wide.d);
+    const normal = deps({ understand: understanding, draft: goodDraft });
+    await runPipeline("What does the Quran say about fasting?", "en", normal.d);
+    expect(JSON.parse(wide.verifier.seen[0].prompt).candidates.length).toBe(JSON.parse(normal.verifier.seen[0].prompt).candidates.length);
+  });
+});
