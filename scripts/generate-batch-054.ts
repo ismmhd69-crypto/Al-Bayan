@@ -45,6 +45,9 @@ const marks = batch.map((item: any, index: number) => ({
   kind: kinds[index],
 }));
 
+marks[0].start = "قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ الْمُؤْمِنَ يَأْكُلُ فِي مِعًى وَاحِدٍ";
+marks[0].tail_start = batch[0].text_original.slice(batch[0].text_original.indexOf("وَقَالَ ابْنُ بُكَيْرٍ"));
+
 marks[55].start = null;
 marks[52].start = "أُتِيَ النَّبِيُّ صلى الله عليه وسلم بِصَبِيٍّ يُحَنِّكُهُ";
 

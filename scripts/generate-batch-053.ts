@@ -45,6 +45,8 @@ const marks = batch.map((item: any, index: number) => ({
   kind: kinds[index],
 }));
 
+marks[0].start = "إِذَا مَضَتْ أَرْبَعَةُ أَشْهُرٍ";
+
 marks[13].start = "لاَعَنَ النَّبِيُّ صلى الله عليه وسلم";
 
 for (let index = 0; index < marks.length; index++) {

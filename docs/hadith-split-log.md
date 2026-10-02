@@ -59,12 +59,13 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 | 051   | 60        | 59     | 1          | 0              | 5 / 10 / 21 / 23 / 0 / 1       | 3060          | Bukhari 5089 through Bukhari 5175. bukhari:5139 marked reference_only. No tail_start markers. Zero errors. |
 | 052   | 60        | 58     | 2          | 0              | 4 / 11 / 32 / 11 / 0 / 2       | 3120          | Bukhari 5176 through Bukhari 5290. bukhari:5257 and bukhari:5277 marked reference_only. No tail_start markers. Zero errors. |
 | 053   | 60        | 60     | 0          | 0              | 9 / 10 / 17 / 24 / 0 / 0       | 3180          | Bukhari 5291 through Bukhari 5390. No tail_start markers. Zero errors. |
-| 054   | 60        | 59     | 1          | 0              | 10 / 9 / 33 / 7 / 0 / 1        | 3240          | Bukhari 5394 through Bukhari 5477. bukhari:5470b marked reference_only. No tail_start markers. Zero errors. |
+| 054   | 60        | 59     | 1          | 0              | 10 / 9 / 33 / 7 / 0 / 1        | 3240          | Bukhari 5394 through Bukhari 5477. bukhari:5470b marked reference_only. 1 tail_start marker. Zero errors. |
 | 055   | 60        | 59     | 1          | 0              | 13 / 10 / 22 / 14 / 0 / 1      | 3300          | Bukhari 5486 through Bukhari 5568. bukhari:5491 marked reference_only. No tail_start markers. Zero errors. |
 | 056   | 60        | 60     | 0          | 0              | 12 / 14 / 22 / 12 / 0 / 0      | 3360          | Bukhari 5569 through Bukhari 5670. No tail_start markers. Zero errors. |
 | 057   | 60        | 60     | 0          | 0              | 15 / 24 / 12 / 9 / 0 / 0       | 3420          | Bukhari 5672 through Bukhari 5813. No tail_start markers. Zero errors. |
 | 058   | 60        | 60     | 0          | 0              | 14 / 16 / 17 / 13 / 0 / 0       | 3480          | Bukhari 5814 through Bukhari 5904. No tail_start markers. Zero errors. |
 | 059   | 60        | 58     | 2          | 0              | 11 / 13 / 22 / 12 / 0 / 2       | 3540          | Bukhari 5905 through Bukhari 6004. bukhari:5944b and bukhari:5956 marked reference_only. 2 tail_start markers. Zero errors. |
+| 060   | 60        | 60     | 0          | 0              | 12 / 11 / 13 / 24 / 0 / 0       | 3600          | Bukhari 6006 through Bukhari 6163. 8 tail_start markers. Zero errors. |
 
 *Legend for Kinds: P = prophet_words, N = narration, C = companion_words, D = dialogue, U = unclear, R = reference_only.*
 
@@ -103,6 +104,12 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 - Sample items inspected: bukhari:4206, bukhari:4289, bukhari:4376, bukhari:4474, bukhari:4558, bukhari:4638, bukhari:4729, bukhari:4819, bukhari:4907, and bukhari:4990.
 - Findings: All 10 samples have clean isnad-to-matn boundaries after correcting the sampled starts, kinds consistent with the visible narration, no tail exclusions required, and no text corruption.
 - Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
+
+### Check 6 (After 60 Batches / 3600 Hadith)
+- Sample size: 10 hadiths sampled across batches 51 through 60.
+- Sample items inspected: bukhari:5089, bukhari:5176, bukhari:5291, bukhari:5394, bukhari:5486, bukhari:5569, bukhari:5672, bukhari:5814, bukhari:5905, and bukhari:6006.
+- Findings: The sample boundaries and kinds are consistent with the visible matn openings. Bukhari 5291 and 5394 had heuristic starts that were corrected to the substantive matn openings; Bukhari 6006 was checked with its continuation chain excluded. Tail markers and reference handling were validated, with no text corruption.
+- Error rate: 0.0% (0 / 10) after corrections. Quality benchmark satisfied.
 
 ### Check 2 (After 20 Batches / 1200 Hadith)
 - Sample size: 10 hadiths sampled across batches 11 through 20.
