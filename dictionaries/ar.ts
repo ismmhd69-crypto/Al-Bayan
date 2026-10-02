@@ -115,7 +115,7 @@ const ar: typeof en = {
     busy: "خدمة الذكاء الاصطناعي مشغولة جدًا الآن. حاول مرة أخرى بعد دقيقة.",
     rateLimited: "لقد سألت كثيرًا في وقت قصير. انتظر بضع دقائق ثم حاول مرة أخرى.",
     checked: "الشرح أعلاه يكتبه الذكاء الاصطناعي ويُفحص بفحص ثانٍ بالذكاء الاصطناعي مقابل المصادر، والآيات والأحاديث معروضة كما تقدّمها مصادرها تمامًا.",
-    scholarShort: { "ibn-baz": "ابن باز", "ibn-uthaymeen": "ابن عثيمين", "al-albani": "الألباني", "al-fawzan": "الفوزان", "othman-al-khamis": "عثمان الخميس", "permanent-committee": "اللجنة الدائمة", "al-barrak": "البراك" },
+    scholarShort: { "ibn-baz": "ابن باز", "ibn-uthaymeen": "ابن عثيمين", "al-albani": "الألباني", "al-fawzan": "الفوزان", "permanent-committee": "اللجنة الدائمة", "al-barrak": "البراك" },
     report: {
       button: "الإبلاغ عن مشكلة",
       title: "ما المشكلة في هذا الجواب؟",
@@ -139,7 +139,7 @@ const ar: typeof en = {
       privacy: "لا يُحمَّل المقطع من يوتيوب إلا بعد الضغط على التشغيل.",
       youtube: "فتح في يوتيوب",
       languages: { ar: "العربية", en: "الإنجليزية", de: "الألمانية" },
-      channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "قناة موقع الشيخ ابن باز", UCwMocSKEbLav6SZvwzTvDbQ: "بوابة تراث الإمام الألباني", UCWjCSGhmSGu0VLf2mPFS0Kg: "القناة الرسمية للشيخ عثمان الخميس", UCtF3YygTiodnYSw8vD3UJtQ: "مؤسسة الشيخ ابن عثيمين", UCYZkmbBbVMWxB1gyioTPLIA: "مؤسسة الشيخ ابن باز الخيرية" },
+      channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "قناة موقع الشيخ ابن باز", UCwMocSKEbLav6SZvwzTvDbQ: "بوابة تراث الإمام الألباني", UCtF3YygTiodnYSw8vD3UJtQ: "مؤسسة الشيخ ابن عثيمين", UCYZkmbBbVMWxB1gyioTPLIA: "مؤسسة الشيخ ابن باز الخيرية" },
     },
     scholarQuote: {
       arabicOnly: "كلام العالم بنصه (اقتباس قصير)",
