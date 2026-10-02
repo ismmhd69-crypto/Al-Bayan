@@ -1247,3 +1247,31 @@ Rejected:
 - 24108 حكم تقديم اليُسرى على اليُمنى في الوضوء: contested view, no clear ruling
 - 24334 هل كان عند الرسول ﷺ مالٌ؟: not a ruling
 - 24347 معنى قوله ﷺ: "إني أنا النذير العريان": cut off
+
+## Batch 053
+
+- Candidates read: 41
+- Approved and stored: 24
+- Rejected: 17
+- Needs Mo: 0
+- Page requests: 164, request errors: 0
+- Running total stored in this run: 1904
+
+Rejected:
+- 24581 ما الفرق بين الشرك ووسائل الشرك؟: context opener
+- 24607 ما وصف السحر الذي يوصف بالكفر فاعله؟: unclear
+- 25002 كيف قام النبي بأعمال كثيرة يوم النحر؟: not a ruling
+- 28808 حكم مَن يأتيه مال من الدولة وهو غني عنه: unclear
+- 29984 حكم من تاب من الفواحش والمنكرات ثم رجع إليها: only quotes verses
+- 30009 ما كيفية مواجهة أساليب التنصير في بلاد المسلمين؟: vague
+- 30155 ما الواجب تجاه الشباب؟ وماذا قُدِّم له؟: not a ruling
+- 31040 ما حكم التعوُّذ بعزة الله والتوسُّل بها؟: near duplicate of an approved item
+- 31126 ما مداخل الشيطان الثلاثة؟ وما أدلتها؟: not a ruling
+- 31413 حكم الطواف حول القبر بقصد التقرُّب إلى الله: near duplicate of an approved item
+- 31443 هل للمسلم أن يفرح بالمصيبة في بلد الكفار؟: sensitive ruling, dropped
+- 31492 هل خطبة الاستسقاء واحدة أم اثنتان؟: hedged
+- 31527 هل يُغسل الشهيد ويُكفّن؟: near duplicate of an approved item
+- 31555 ما مقدار الفصل بين الأذانين في الفجر والجمعة؟: cut off
+- 31685 ما معنى حديث "لا تتمنّوا لقاء العدو.."؟: cut off
+- 31688 هل للمنافق والجاسوس توبة؟: sensitive ruling, dropped
+- 31769 ما النصيحة للنساء لرفع هممهنَّ في الدعوة؟: general advice
