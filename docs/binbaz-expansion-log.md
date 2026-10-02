@@ -1191,3 +1191,59 @@ Rejected:
 - 19573 الأولى بالحضانة: quotes a book, no ruling
 - 19592 ما معنى تحرير رقبة؟: not a ruling
 - 19620 مات رجل بسبب مشكلة مع ولده فهل تلزم الولد كفارة؟: personal case
+
+## Batch 051
+
+- Candidates read: 50
+- Approved and stored: 31
+- Rejected: 19
+- Needs Mo: 0
+- Page requests: 207, request errors: 0
+- Running total stored in this run: 1845
+
+Rejected:
+- 20263 الإقبال على العبادة من علامات الخير للتائب: personal case
+- 20266 الأذكار سبب لطرد الشياطين: personal case
+- 20537 الكشافة المدرسية وأمنية الشيخ بن باز رحمه الله: no ruling
+- 20541 متى تبدأ عدة المطلقة ومتى تنتهي: personal case
+- 20563 معنى ما جاء بالحديث من أعمال توجب الجنة: does not match its title
+- 20907 ما دور المدرس ورسالته وحكم تقصيره؟: general advice
+- 20934 هل دخل النبي ﷺ الكعبة أكثر من مرة؟: scholar unsure
+- 21080 ما كتب العقيدة التي يُوصى بها طلبة العلم؟: near duplicate of an approved item
+- 21164 حكم توزيع هدايا بمتجر بعد شراءٍ معيّن: near duplicate of an approved item
+- 21183 حكم من كتبها زوجها ناشزًا وتركها مُعلَّقة: personal case
+- 21203 ما النصيحة للشباب المسلم في هذا العصر؟: general advice
+- 21498 ما النفاق الذي كان يخشاه السلف؟: hedged
+- 21531 حكم مَن سَنَّ سنة سيئة وتَبِعَه أناسٌ ثم تاب: hedged
+- 21586 ما صحة مقولة "أبغض بغيضك هونًا ما.."؟: not a ruling
+- 21648 معنى الجدال الذي جاء في سورة المجادلة: not a ruling
+- 21687 ما حكم تعذيب المُجْرِم المتهم؟: sensitive ruling, dropped
+- 21700 ما معنى: {وَالْجَارِ ذِي الْقُرْبَى وَالْجَارِ الْجُنُبِ}؟: cut off
+- 22022 معنى حديث "كان نبيٌّ من الأنبياء يَخُطُّ": unclear
+- 22262 معنى إعطائه ﷺ لمَن في قلوبهم جزع: not a ruling
+
+## Batch 052
+
+- Candidates read: 50
+- Approved and stored: 35
+- Rejected: 15
+- Needs Mo: 0
+- Page requests: 237, request errors: 0
+- Running total stored in this run: 1880
+
+Rejected:
+- 22373 حكم صرف مئة ريال مع بقاء جزء مؤجل: unclear
+- 22502 حكم مَن سمع النداء للصلاة فلم يُجبه: needs context
+- 22660 معنى "أعظم الناس شهادة" في حديث الدجّال: speculative
+- 22679 هل اليمين الغَمُوس خاصة بالتجارة أم عامة؟: vague
+- 23038 هل يجوز استرقاق كفار العرب؟: sensitive ruling, dropped
+- 23510 ما الحالات التي تجوز فيها الغِيبَة؟: messy text
+- 23617 حكم استقدام السفراء والعمال من الكفار: near duplicate of approved items
+- 23627 حكم الكنائس في بلاد الإسلام: needs context
+- 23874 ما ضابط الاستئذان؟: not a ruling
+- 23880 هل للزوجة هجر زوجها لاقترافه المنكرات؟: mixed, sensitive
+- 24069 ما عقوبة الساحر المسلم وغير المسلم؟: sensitive ruling, dropped
+- 24086 ما معنى "الجَيْب" في الثوب وسبب تسميته؟: not a ruling
+- 24108 حكم تقديم اليُسرى على اليُمنى في الوضوء: contested view, no clear ruling
+- 24334 هل كان عند الرسول ﷺ مالٌ؟: not a ruling
+- 24347 معنى قوله ﷺ: "إني أنا النذير العريان": cut off
