@@ -18,3 +18,21 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 | 010   | 60        | 60     | 0          | 0              | 2 / 11 / 21 / 26 / 0 / 0      | 600           | Bukhari 893 through Bukhari 981. 12 hadiths have tail_start comments marked. Zero errors. |
 
 *Legend for Kinds: P = prophet_words, N = narration, C = companion_words, D = dialogue, U = unclear, R = reference_only.*
+
+## Milestone Quality Checks
+
+### Check 1 (After 10 Batches / 600 Hadith)
+- Sample size: 10 randomly selected hadiths across batches 1 through 10.
+- Sample items inspected:
+  1. Batch 1 (bukhari:58): companion_words. Matn starts cleanly with Jarir's speech on the day al-Mughirah died.
+  2. Batch 2 (bukhari:158): narration. Matn starts cleanly with the Prophet's wudu once each.
+  3. Batch 3 (bukhari:251): narration with tail_start. Matn starts with Abu Salamah and Aisha's brother entering, tail separates Yazid ibn Harun's comment.
+  4. Batch 4 (bukhari:344): dialogue. Matn starts with the expedition narrative leading to tayammum dialogue.
+  5. Batch 5 (bukhari:446): narration. Matn starts with the description of the Prophet's mosque.
+  6. Batch 6 (bukhari:518): narration with tail_start. Matn starts with Aisha sleeping next to the Prophet praying, tail marks Musaddad's addition.
+  7. Batch 7 (bukhari:634): companion_words. Matn starts with Abu Juhayfah watching Bilal call the adhan.
+  8. Batch 8 (bukhari:754): narration. Matn starts with the morning prayer during the Prophet's final illness.
+  9. Batch 9 (bukhari:841): companion_words. Matn starts with Ibn Abbas recounting loud dhikr after prayer.
+  10. Batch 10 (bukhari:962): companion_words. Matn starts with Ibn Abbas witnessing the Eid prayer before the khutbah.
+- Findings: All 10 samples have exact boundary placements, valid kinds, correct tail exclusions where present, and zero text corruption.
+- Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
