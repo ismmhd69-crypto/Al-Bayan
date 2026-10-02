@@ -6,7 +6,8 @@ Published: false
 
 ## Needs Mo
 
-None.
+- `67ed0b56-fc0c-49b8-985b-eb22527c73b7` (Bukhari 7): unusually long body, about 7,000 Arabic characters; requires a dedicated complete translation pass.
+- `659a3d16-0048-4882-9422-4392fdc83b3e` (Bukhari 19): exported source ID is not present in `public.sources`, so no translation row can be inserted without changing source data.
 
 ## Batch history
 
