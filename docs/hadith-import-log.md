@@ -55,3 +55,10 @@ translation_index_allowed: false
 - Saved-raw verification: 60 random database rows, 58 direct raw-response matches, 0 text mismatches. Two combined-number references need a specialised matcher.
 - HadeethEnc comparison: not yet completed; it remains an explicit follow-up and is not claimed as complete.
 - Current fatwa count after import: 3,787. This job did not write fatwa rows, translations, Ask code, or the live HadeethEnc path.
+
+## Step 4: required HadeethEnc spot check, 2026-10-02
+
+- Checked 60 randomly selected hadiths found in HadeethEnc with the same collection and number.
+- Collection and number were correct for all 60.
+- After the required Arabic normalization, 18 matched the stored body and 42 did not.
+- This exceeds the hard-stop limit of two mismatches. The stored rows are full Sunnah.com bodies, not verified matn-only text. No further database writes were made after this check.

@@ -2,9 +2,11 @@
 
 Date: 2026-10-02
 
+HARD STOP: the current full-body Sunnah.com API import failed the required HadeethEnc text check. Of 60 same-number, same-collection records, 42 did not match after Arabic normalization. The attached goal allows at most two mismatches. The current rows therefore cannot be accepted as a verified matn-only dataset.
+
 ## Decision
 
-Sunnah.com official API was selected after written permission from Sunnah.com support on 2026-10-02. The permission allows using the API key to make our own cache or database, with a monthly refresh recommendation. Only Arabic text is stored. The API key is not stored in the app, database, raw files, or reports.
+The Sunnah.com official API was used after written permission from Sunnah.com support on 2026-10-02. That permission allows using the API key to make our own cache or database, with a monthly refresh recommendation. However, the API provides a full body and no separate matn field. The current import therefore does not meet the attached matn-only requirement. The API key is not stored in the app, database, raw files, or reports.
 
 ## Dataset and exact-text findings
 
@@ -32,11 +34,11 @@ Rights record ID: `fd8cd4f5-5011-40a1-ae14-cb6e8fa165b7`
 - All 14,629 hadith sources have `published=true`, grade `sahih`, the Sunnah.com rights ID, a Sunnah.com URL, and a grader.
 - All 14,629 hadith rows have an approved Arabic search document.
 - Twenty Arabic database searches ran successfully through the approved search function. Twelve returned five results; eight returned no match for those exact terms. No search call returned an error.
-- A random 60-row check matched 58 records to saved raw API responses with zero text mismatches. Two combined-number references were not matched by the simple local checker and remain listed for follow-up.
+- The required HadeethEnc check matched collection and number for all 60 records, but only 18 had exact normalized Arabic agreement with the stored body. The 42 mismatches trigger the hard stop.
 - Fatwa rows were not written by this job. Current fatwa count is 3,787. Total source-search documents are 18,416, of which 14,629 belong to these hadith rows.
 
 ## Follow-up
 
 1. Keep the monthly refresh within the written Sunnah.com permission and API cap.
 2. Resolve the API gaps if Sunnah.com supplies the missing records.
-3. Complete the 60-record HadeethEnc comparison before using that comparison as a release claim.
+3. Do not release this import as the requested matn-only library. Obtain a verified matn-only source or a reviewed mapping for the mismatches.

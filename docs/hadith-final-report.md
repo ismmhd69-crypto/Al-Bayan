@@ -1,6 +1,8 @@
 # Hadith final report
 
-Import completed on 2026-10-02 from the official Sunnah.com API.
+HARD STOP: the required 60-record HadeethEnc comparison found 42 text mismatches. All 60 had the correct collection and number, but only 18 matched the stored Arabic body after the required diacritic normalization. The limit is two mismatches, so this dataset cannot be called trustworthy for the requested matn-only import.
+
+The database already contains the earlier Sunnah.com API import, but this goal is not complete. No further database writes were made after the failed 60-record check.
 
 Totals stored:
 
@@ -11,9 +13,9 @@ Totals stored:
 
 Rights record: `fd8cd4f5-5011-40a1-ae14-cb6e8fa165b7`, status granted.
 
-The API has no separate matn field, so each stored Arabic text is the full Arabic body. Only HTML tags were removed and whitespace was normalised. No translation text was stored.
+The API has no separate matn field, so the existing rows contain the full Arabic body, including narrator chains. That does not meet the attached requirement to store the matn only. No translation text was stored.
 
-Verification found zero publication-gate failures. Twenty Arabic search calls were completed without errors. A random 60-row saved-raw-response check found 58 direct matches and zero text mismatches; two combined-number references need a more specialised checker. The HadeethEnc 60-record comparison is still open and must be completed before claiming that cross-source check.
+The publication gate still has zero failures, and twenty Arabic search calls completed without errors. Those checks do not overcome the failed text comparison.
 
 Known API gaps, not guessed or filled: Bukhari 6940, 7268, 7269, 7270, 7271, 7272, 7278, 7279, 7284, 7285, 7317, 7318.
 
@@ -31,3 +33,8 @@ Ten stored links:
 10. https://sunnah.com/bukhari:5864
 
 No fatwa rows were changed by this importer. No source translations, Ask code, or live HadeethEnc path was changed.
+
+Needs Mo:
+
+1. Choose a source with a clearly permitted Arabic matn-only edition and documented provenance, or obtain a verified source mapping for the mismatches.
+2. Decide whether the existing API rows should be removed or retained as a separate full-body cache. This job does not delete them.
