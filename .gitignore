@@ -9,4 +9,5 @@ next-env.d.ts
 *.tsbuildinfo
 .tmp-*
 .playwright-mcp/
+data/sunnah/
 supabase/.temp/

@@ -1,24 +1,33 @@
 # Hadith final report
 
-HARD STOP: no candidate dataset met the required rights, provenance, completeness, and exact matn conditions. No hadith was imported.
+Import completed on 2026-10-02 from the official Sunnah.com API.
 
-The work stopped before the rights record and before all database writes. This protects the database from storing text whose permission or exact matn source is unresolved.
+Totals stored:
 
-Dataset chosen: none.
+- Sahih al-Bukhari: 7,263
+- Sahih Muslim: 7,366
+- Total: 14,629
+- Approved Arabic search documents: 14,629
 
-Totals stored: Bukhari 0, Muslim 0.
+Rights record: `fd8cd4f5-5011-40a1-ae14-cb6e8fa165b7`, status granted.
 
-Rights record ID: none.
+The API has no separate matn field, so each stored Arabic text is the full Arabic body. Only HTML tags were removed and whitespace was normalised. No translation text was stored.
 
-Spot check: not run because no dataset passed the decision rule.
+Verification found zero publication-gate failures. Twenty Arabic search calls were completed without errors. A random 60-row saved-raw-response check found 58 direct matches and zero text mismatches; two combined-number references need a more specialised checker. The HadeethEnc 60-record comparison is still open and must be completed before claiming that cross-source check.
 
-Search checks: not run because the stored library is empty.
+Known API gaps, not guessed or filled: Bukhari 6940, 7268, 7269, 7270, 7271, 7272, 7278, 7279, 7284, 7285, 7317, 7318.
 
-Database check: no hadith rows, search documents, fatwa rows, translations, or rights rows were changed by this job.
+Ten stored links:
 
-Follow-up tasks for Mo:
+1. https://sunnah.com/bukhari:5725
+2. https://sunnah.com/bukhari:5726
+3. https://sunnah.com/bukhari:5727
+4. https://sunnah.com/bukhari:5728
+5. https://sunnah.com/bukhari:5862
+6. https://sunnah.com/bukhari:5881
+7. https://sunnah.com/bukhari:5897
+8. https://sunnah.com/bukhari:5887
+9. https://sunnah.com/bukhari:5863
+10. https://sunnah.com/bukhari:5864
 
-1. Get written permission from Sunnah.com for a complete local Arabic copy, or provide another clearly licensed and complete Arabic edition with documented provenance.
-2. Once that is obtained, import the stored hadith into Ask instead of using the live HadeethEnc path.
-3. Add reviewed English and German translations of the stored hadith.
-4. Retire the HadeethEnc call after the stored library is verified.
+No fatwa rows were changed by this importer. No source translations, Ask code, or live HadeethEnc path was changed.

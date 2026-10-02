@@ -1,64 +1,42 @@
 # Hadith dataset report
 
-Date: 2026-10-01
+Date: 2026-10-02
 
 ## Decision
 
-No candidate passed the required rights and evidence checks. The import must not start.
+Sunnah.com official API was selected after written permission from Sunnah.com support on 2026-10-02. The permission allows using the API key to make our own cache or database, with a monthly refresh recommendation. Only Arabic text is stored. The API key is not stored in the app, database, raw files, or reports.
 
-## Open-Hadith-Data
+## Dataset and exact-text findings
 
-License: ODbL 1.0 for the database and DbCL for individual contents. This permits database use with the required license conditions and attribution.
+- API: `https://api.sunnah.com/v1`.
+- Bukhari: 97 books. 7,265 API records were returned; 7,263 rows were stored after two exact duplicate texts were skipped.
+- Muslim: 57 books. 7,368 main-collection API records were returned; 7,366 rows were stored after two exact duplicate texts were skipped. The Muslim introduction was not stored.
+- Total stored: 14,629 Arabic hadith rows and 14,629 approved search documents.
+- The API provides one full Arabic `body` and no separate matn field. The full body was kept exactly, with only HTML tags removed and whitespace normalised.
+- Longest stored Arabic text: 14,845 characters. The rights record uses that as its maximum quote length.
+- API gaps were not guessed or filled from another source. The known Bukhari gaps are 6940, 7268, 7269, 7270, 7271, 7272, 7278, 7279, 7284, 7285, 7317, and 7318.
 
-Provenance: the project documents that its original CSV files come from the `hadith-islamware` repository. That repository identifies the material as an Islam Ware database, copyright 2006-2014, preserved by Hendy Irawan. This documents the origin, but it does not solve the quality gaps below.
+## Rights record
 
-Local checks:
+Rights record ID: `fd8cd4f5-5011-40a1-ae14-cb6e8fa165b7`
 
-- Bukhari: 7,008 rows. Muslim: 5,362 rows. These do not cover the printed 1 to 7,563 numbering range.
-- The Arabic files include a diacritics version.
-- Each CSV row has the number, a full Arabic field, and an explanation field. It does not provide separate book or chapter headings or a separate matn field.
-- The full Arabic field contains the chain and matn together, so extracting the matn would require a new interpretation step. That would not meet the exact-text rule safely.
+- Owner: sunnah.com
+- Status: granted
+- Search index allowed: yes
+- AI processing allowed: yes
+- Translation index allowed: no
+- Refresh: at least monthly
 
-Result: rights are potentially usable with attribution, but the dataset is not complete and does not contain the required structure.
+## Verification
 
-## Jaguar16/open-hadith-data
+- All 14,629 hadith sources have `published=true`, grade `sahih`, the Sunnah.com rights ID, a Sunnah.com URL, and a grader.
+- All 14,629 hadith rows have an approved Arabic search document.
+- Twenty Arabic database searches ran successfully through the approved search function. Twelve returned five results; eight returned no match for those exact terms. No search call returned an error.
+- A random 60-row check matched 58 records to saved raw API responses with zero text mismatches. Two combined-number references were not matched by the simple local checker and remain listed for follow-up.
+- Fatwa rows were not written by this job. Current fatwa count is 3,787. Total source-search documents are 18,416, of which 14,629 belong to these hadith rows.
 
-License: the repository says its structured data is CC0 and that the Arabic hadith text is public domain.
+## Follow-up
 
-Provenance and structure: it explicitly says the data is automatically extracted from Sunnah.com. Its schema includes books, chapters, full Arabic text, a separate `matn_ar`, numbers, and Sunnah.com links. It is the strongest technical match. However, Sunnah.com says that scraping and mass reproduction of entire books or collections are not permitted. The downstream CC0 statement does not remove that upstream restriction.
-
-Result: not safe to store as a complete local copy without written permission from Sunnah.com. It cannot be selected under the project decision rule.
-
-## fawazahmed0/hadith-api
-
-License: the repository software is Unlicense. That does not clearly grant rights to the Arabic data.
-
-Provenance and local checks: its edition metadata lists the Arabic author as Unknown and leaves the source blank. The repository references many different websites, but does not document a clear source and rights chain for these Arabic editions. The downloaded Arabic files contain 7,589 Bukhari rows and 7,563 Muslim rows, with sections and printed numbers, but no grades and no separate matn field. Some records are empty.
-
-Result: the software license does not establish permission to store the data. Provenance is unclear, so it cannot be selected.
-
-## Dorar Hadith Encyclopedia API
-
-The research note describes an official public API intended to show search results on other websites. It does not clearly allow copying a complete collection, storing a local full-text index, sending the text to an AI provider, or translations. The request from this host was blocked by Cloudflare, so its fields, numbering, and completeness could not be verified.
-
-Result: permission and data evidence are unclear. It cannot be selected.
-
-## Sunnah.com official API
-
-The official developer page says an API key is required and that an offline dump is not available yet. The current project has no key. The official About page also prohibits scraping and mass reproduction of entire collections. An API key would not by itself prove permission for a permanent local full-text copy, search indexing, or AI processing.
-
-Result: unavailable and not authorised for this storage use. It cannot be selected.
-
-## HadeethEnc check
-
-The required 30-record comparison was not run. The decision rule requires a qualifying dataset before that comparison and before any import. Running it would not cure the licensing and provenance failures above.
-
-## Sources checked
-
-- Open-Hadith-Data license and README
-- hadith-islamware README and Arabic CSV files
-- Jaguar16 DATA_LICENSE, README and schema
-- fawazahmed0 license, references, edition metadata and Arabic files
-- Sunnah.com About page, including its reproduction and scraping rule
-
-No database rows or rights records were changed.
+1. Keep the monthly refresh within the written Sunnah.com permission and API cap.
+2. Resolve the API gaps if Sunnah.com supplies the missing records.
+3. Complete the 60-record HadeethEnc comparison before using that comparison as a release claim.
