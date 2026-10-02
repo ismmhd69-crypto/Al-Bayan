@@ -11,6 +11,7 @@ export type HadithMark = {
   url: string;
   start: string | null;
   kind: "prophet_words" | "narration" | "companion_words" | "dialogue" | "reference_only" | "unclear";
+  tail_start?: string;
 };
 
 export type ValidationResult = {
@@ -71,6 +72,24 @@ export function validateSingleMark(mark: HadithMark, textOriginal: string): Vali
   const rest = textOriginal.slice(startIndex + mark.start.length);
   if (chain + mark.start + rest !== textOriginal) {
     return { valid: false, error: `chain + start + rest does not reproduce text_original exactly` };
+  }
+
+  // 6. Optional tail_start validation
+  if (mark.tail_start) {
+    const tailOccurrences = textOriginal.split(mark.tail_start).length - 1;
+    if (tailOccurrences === 0) {
+      return { valid: false, error: `tail_start text was not found in text_original` };
+    }
+    if (tailOccurrences > 1) {
+      return { valid: false, error: `tail_start text occurs ${tailOccurrences} times (must be exactly once)` };
+    }
+    const tailIndex = textOriginal.indexOf(mark.tail_start);
+    if (tailIndex <= startIndex) {
+      return { valid: false, error: `tail_start occurs before or at start` };
+    }
+    if (tailIndex > 0 && isArabicLetter(textOriginal[tailIndex - 1])) {
+      return { valid: false, error: `tail_start does not begin at a word boundary` };
+    }
   }
 
   return { valid: true };
