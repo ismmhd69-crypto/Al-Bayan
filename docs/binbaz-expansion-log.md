@@ -1141,3 +1141,53 @@ Rejected:
 - 17987 حكم تصديق النساء أمر الرضاع وغيره: views, no clear ruling
 - 17989 من أسباب الفشل في الحياة الزوجية: not a ruling
 - 18009 خصومات الطلاق يرجع فيها إلى المحكمة الشرعية: ruling postponed
+
+## Batch 049
+
+- Candidates read: 50
+- Approved and stored: 36
+- Rejected: 14
+- Needs Mo: 0
+- Page requests: 128, request errors: 0
+- Running total stored in this run: 1778
+
+Rejected:
+- 18196 الهدية للدائن من الربا: personal case
+- 18201 حكم من عنده أمانة ثم توفي صاحبها وله أبناء قصر: personal case
+- 18280 الاختلاف في نبوة ذي القرنين: no ruling
+- 18291 حكم المطلقة ثلاثًا إذا مات مطلقها قبل انقضاء عدتها: needs context
+- 18306 الطلاق من المصائب المكفرة للسيئات: not a ruling
+- 18312 تفسير آية الاستئذان الواردة في سورة النور: only quotes the verse
+- 18403 وجوب العدل بين الأولاد الكبار والصغار في العطية: near duplicate of approved items
+- 18442 حكم من وكلت غيرها في الرمي خوفًا من الزحام: near duplicate of an approved item
+- 18717 صفات عباد الله المتقين: vague
+- 18854 مشروعية الإكثار من ذكر الموت والاستعداد له: no ruling
+- 19019 إذا عرفت اللقطة ولم تجد مالكها فهي لك: near duplicate of approved items
+- 19053 هل للوالد أن يخص بعض أولاده بشيء دون الباقين؟: near duplicate of approved items
+- 19076 حكم تخصيص الأولاد الذكور بأثاث المنزل: near duplicate of approved items
+- 19085 حكم تخصيص الذكور دون الإناث في قسم الأموال: near duplicate of approved items
+
+## Batch 050
+
+- Candidates read: 50
+- Approved and stored: 36
+- Rejected: 14
+- Needs Mo: 0
+- Page requests: 211, request errors: 0
+- Running total stored in this run: 1814
+
+Rejected:
+- 19155 الوصية بوجوه البر: vague
+- 19162 حجزت التركة في البنك فزادت أين تصرف الزيادة؟: personal case
+- 19260 حكم الصدقة من الميراث دون علم الورثة: personal case
+- 19377 حكم قول: (عودي إلى بيتك والنوم معك حرام): letter opener
+- 19509 إذا أرضعت طفلًا فتحرم عليه بناتك من جميع الأزواج: near duplicate of milk-kinship items
+- 19512 لا حرج في الزواج بابنة الخالة من الرضاع: personal case
+- 19524 صفة الرضعات المحرمة: near duplicate of milk-kinship items
+- 19535 الرضاع يختص بالرضيع: near duplicate of milk-kinship items
+- 19546 يجوز لإخوتك الزواج من أخواتك من الرضاعة: near duplicate of milk-kinship items
+- 19549 حكم من تزوجت رجلًا قد رضعت من أمه مع أخيه الصغير: near duplicate of milk-kinship items
+- 19555 عمات أخواتك من الرضاع محرمات عليك: near duplicate of milk-kinship items
+- 19573 الأولى بالحضانة: quotes a book, no ruling
+- 19592 ما معنى تحرير رقبة؟: not a ruling
+- 19620 مات رجل بسبب مشكلة مع ولده فهل تلزم الولد كفارة؟: personal case
