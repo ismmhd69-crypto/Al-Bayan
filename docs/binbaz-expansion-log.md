@@ -816,3 +816,82 @@ Rejected:
 - 31450 حكم معاملة المبتدع في البيع والشراء ونحوه: hedged, no clear ruling
 - 31453 هل يُعذر بالجهل مَنْ نشأ على عقيدة منحرفة؟: near duplicate of approved excuse by ignorance items
 - 31640 ما حكم مَن يرتد أعرابيًّا بعد الهجرة؟: needs context
+
+## Batch 035
+
+- Candidates read: 50
+- Approved and stored: 36
+- Rejected: 14
+- Needs Mo: 0
+- Page requests: 98, request errors: 0
+- Running total stored in this run: 1249
+
+Rejected:
+- 24 كيفية خروج العالم الإسلامي من الدوامة التي فيها: too general, no ruling
+- 924 وجوب العدل بين العامل المسلم وغيره: vague, harsh
+- 975 الحث على الصبر في الدعوة إلى الله: needs context
+- 977 الحكم على حديث: «إن الله يعجب لشاب ليس له صبوة»: hadith grade unknown to the scholar
+- 1001 خطر الابتعاث للخارج: needs context
+- 1017 هل يجوز العمل بالقوانين التي لا تخالف الشريعة؟: needs context
+- 1026 خطورة مخالطة المرأة للرجال: no clear ruling
+- 1048 حكم أرباح الشركات التي تضمن فيها الحكومة نسبة من الربح: needs context
+- 1077 التحرج من التصوير في وسائل الإعلام: no clear ruling
+- 1102 الحث على العمل والاجتهاد في العبادة دائماً: needs context
+- 1175 الرضاع الذي يحرم: needs context
+- 1228 حكم من لم يستطع الهجرة من بلاد الكفر: context opener
+- 1314 كيفية ستر المسلم والمسلمة لجسديهما: refers to a lecture
+- 1328 درجة حديث: "كان النبي ﷺ يتحدث معنا ونتحدث معه": hadith grade unknown to the scholar
+
+## Batch 036
+
+- Candidates read: 50
+- Approved and stored: 36
+- Rejected: 14
+- Needs Mo: 0
+- Page requests: 100, request errors: 0
+- Running total stored in this run: 1285
+
+Rejected:
+- 1355 هل يجوز الخروج على الوالد القاسي في معاملته؟: no clear ruling
+- 1397 نصيحة موجهة للعلماء وطلبة العلم للقيام بواجبهم: general complaint, no ruling
+- 1421 الأمور المترتبة على الرضاع: needs context
+- 1596 وصية لجميع المسلمين بمناسبة غزو العراق للكويت: not a ruling, tied to an event
+- 1634 حكم الاستدانة لأجل الزواج: context opener
+- 1756 حكم ابتعاث الطلبة إلى دول الشرق والغرب: political, mixed
+- 1770 مدى صحة قول من قال: بأن الشمس أكبر من الأرض: does not answer its title
+- 1773 حكم مراجعة المطلقة التي أخذ منها العوض: unclear text
+- 1803 مشروعية دفن المحرم في ثوبي الإحرام: does not answer its title
+- 1830 هذه أحاديث باطلة ومكذوبة على النبي ﷺ: refers to a preacher not shown
+- 1869 حكم القول بجواز العمل بالمذاهب الأربعة كلها: context opener
+- 1905 حكم استقدام الخدم الكفار: political, near duplicate of another item
+- 2035 ما الرد على أنه لا يوجد أحد يتعلم إلا من أجل الشهادات؟: needs context
+- 2038 كيف نعالج مشكلة انصراف المجتمع عن طالب العلم: needs context
+
+## Batch 037
+
+- Candidates read: 50
+- Approved and stored: 32
+- Rejected: 18
+- Needs Mo: 0
+- Page requests: 126, request errors: 0
+- Running total stored in this run: 1317
+
+Rejected:
+- 2194 الرد على شبهة إياكم وكثرة العيال: needs context
+- 2214 الدعاة إلى المعاصي من جنود إبليس: no ruling
+- 2261 حكم التدريس في المدارس المختلطة: options without a clear ruling
+- 2262 الجمع بين: قتل السكران بعد الرابعة، و «لا يحل دم امرئٍ»: refers to a symposium
+- 2341 نصيحة للطلاب أيام الامتحانات: general advice, no ruling
+- 2345 موظف في صيدلية رئيسته في العمل امرأة: text cut off
+- 2352 ما حدود طاعة الأمير؟: does not answer its title
+- 2366 شبهة من يحتفلون بالموالد والرد عليها: needs context
+- 2368 حكم الاحتفال بمناسبة ما دون تكرارها: context opener
+- 2395 حكم الاقتراض من البنك وأخذ الراتب منه: unclear text
+- 2526 استخدام الكهنة للشياطين: context opener
+- 2538 حكم وقوف بعض المصلين عن يمين الإمام: unclear
+- 2549 حكم المطالبة بالطلاق إذا كان الزوج يسكر: context opener
+- 2659 حكم منع الزوجة من العمل رغم اشتراطها ذلك عند العقد: vague
+- 2664 ما الطريق الصحيح لإقامة شرع الله في الأرض؟: political
+- 2687 أنفع الطرق لتحصيل العلم: context opener
+- 2744 حقيقة الأولياء: needs context
+- 2798 ما أفضل أنواع الجهاد؟: mixed, no clear ruling
