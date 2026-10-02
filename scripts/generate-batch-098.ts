@@ -93,5 +93,6 @@ const finalTails:[[number,string],...Array<[number,string]>]=[
   [24,"فذكر هذا"],[34,"بمعنى حديث"],[39,"بمثل حديث"],[48,"فذكر نحوه"],[50,"مثله"]
 ];
 for(const [i,needle] of finalTails){const {clean,map}=cleanMap(batch[i].text_original);const p=clean.indexOf(strip(needle));if(p>=0)marks[i].tail_start=batch[i].text_original.slice(map[p]);}
+setByText(26,"سئل أنس");
 fs.writeFileSync("data/hadith-split/marks-098.json",JSON.stringify(marks,null,2)+"\n","utf8");
 console.log("Wrote 60 marks to data/hadith-split/marks-098.json");
