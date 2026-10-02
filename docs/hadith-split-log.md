@@ -56,6 +56,12 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 - Findings: All 10 samples have exact boundary placements, valid kinds, correct tail exclusions where present, and zero text corruption.
 - Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
 
+### Check 3 (After 30 Batches / 1800 Hadith)
+- Sample size: 10 hadiths sampled across batches 21 through 30.
+- Sample items inspected: bukhari:1994 (dialogue), bukhari:2135 (companion_words), bukhari:2254 (dialogue), bukhari:2383 (prophet_words), bukhari:2532 (companion_words), bukhari:2545 (companion_words), bukhari:2683 (companion_words), bukhari:2824 (companion_words), bukhari:2947 (companion_words), and bukhari:3058 (dialogue).
+- Findings: All 10 samples have clean isnad-to-matn boundaries, kinds consistent with the visible narration, no tail exclusions required, and no text corruption.
+- Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
+
 ### Check 2 (After 20 Batches / 1200 Hadith)
 - Sample size: 10 hadiths sampled across batches 11 through 20.
 - Sample items inspected:
