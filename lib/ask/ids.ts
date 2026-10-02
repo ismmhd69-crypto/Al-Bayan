@@ -1,9 +1,14 @@
 // Source id helpers shared by the package chooser and the AnswerV2 validator. No imports, so any
 // module can use them without creating an import cycle.
 //
-// Internal ids: "Q2:255" (verse), "HE4196" (HadeethEnc hadith), "S<uuid>" (scholar quote).
+// Internal ids: "Q2:255" (verse), "HE4196" (HadeethEnc hadith), "SH<uuid>" (stored library hadith),
+// "S<uuid>" (scholar quote).
 
 export const QURAN_ID = /^Q(\d{1,3}):(\d{1,3})$/;
+export const HADITH_HE_ID = /^HE(\d+)$/;
+export const HADITH_LIBRARY_ID = /^SH([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$/;
+/** Any hadith id: live HadeethEnc ("HE123") or stored library ("SH<uuid>"). */
+export const isHadithId = (id: string) => HADITH_HE_ID.test(id) || HADITH_LIBRARY_ID.test(id);
 
 /** [surah, verse] of an internal verse id, or null for any other id. */
 export function versePosition(id: string): [number, number] | null {

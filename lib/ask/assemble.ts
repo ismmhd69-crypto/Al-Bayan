@@ -6,7 +6,7 @@
 
 import type { Locale } from "@/lib/i18n";
 import { ATTRIBUTION } from "@/lib/sources/quran-meta";
-import { HADITH_ATTRIBUTION } from "@/lib/sources/hadith-rules";
+import { hadithAttributionFor } from "@/lib/sources/hadith-rules";
 import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
 import type { Evidence } from "./core";
 import type { Claim, StructuredDraft } from "./checks";
@@ -120,7 +120,7 @@ export function buildLiveAnswerV2(input: LiveAnswerInput): BuildResult {
     ...(draft.notEstablished.length > 0 ? { limit_note: draft.notEstablished[0] } : {}),
     attribution: {
       ...(quran.length > 0 ? { quran: { ...ATTRIBUTION } } : {}),
-      ...(hadith.length > 0 ? { hadith: { ...HADITH_ATTRIBUTION } } : {}),
+      ...(hadith.length > 0 ? { hadith: hadithAttributionFor(hadith.map((h) => h.id)) ?? undefined } : {}),
     },
     provenance: { model: input.model, verifier: input.verifier },
   };

@@ -3,6 +3,8 @@ import type { Locale } from "@/lib/i18n";
 import { getProvider, getVerifier } from "@/lib/ai";
 import { getVerse, neighbours, searchQuran } from "@/lib/sources/quran";
 import { getHadith, searchHadithMulti, warmHadithCatalogues } from "@/lib/sources/hadith";
+import { getLibraryHadith, searchLibraryHadith } from "@/lib/sources/hadith-library";
+import { hadithMode } from "@/lib/sources/hadith-mode";
 import { searchScholarQuotes } from "@/lib/sources/scholars";
 import { getMappedScholarQuote, searchScholarsLive } from "@/lib/sources/scholars-live";
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
@@ -15,7 +17,10 @@ import { getReviewDecisions } from "@/lib/content";
 import { PREPARED_ANSWERS } from "@/data/prepared-answers";
 import { PREPARED_IDS_AWAITING_VIEW_DECISION } from "@/data/view-decisions";
 
-const HADITH_ON = process.env.HADITH_SOURCE === "hadeethenc";
+// HADITH_SOURCE=library: stored Sahih al-Bukhari / Sahih Muslim hadith. =hadeethenc: the old live path.
+// Anything else: hadith off. Never both.
+const HADITH_MODE = hadithMode();
+const HADITH_ON = HADITH_MODE === "hadeethenc";
 // Scholar quotes need the server's secret key (the library is private); SCHOLAR_QUOTES=off disables them.
 const SCHOLARS_ON = !!process.env.SUPABASE_SECRET_KEY && process.env.SCHOLAR_QUOTES !== "off";
 // Live search of Ibn Baz's and Ibn Uthaymeen's websites (Mo, 2026-09-29); SCHOLARS_LIVE=off disables it.
@@ -99,6 +104,8 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
     // Hadith from Sahih al-Bukhari / Sahih Muslim via HadeethEnc (permission requested 2026-09-28).
     // Off unless HADITH_SOURCE=hadeethenc, so it can be switched off instantly.
     ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8), getHadith } : {}),
+    // Stored hadith from our own library (Sunnah.com text). Needs the server's secret key.
+    ...(HADITH_MODE === "library" ? { searchHadith: searchLibraryHadith, getHadith: getLibraryHadith } : {}),
     // Short quotes of approved scholars from our private library (rights: short quotes, permission pending).
     ...(SCHOLARS_ON ? { searchScholars: (phrases: string[], mappedUrls?: string[]) => scholarQuotes(phrases, mappedUrls) } : {}),
     // Related clips from the approved YouTube channels, shown under the answer (never evidence).

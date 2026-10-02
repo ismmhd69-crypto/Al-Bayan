@@ -1,6 +1,6 @@
 // End-to-end tests of the answer pipeline with a fake AI and made-up verses (not Quran text).
 // They prove the code refuses, whatever the AI returns.
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { hadithAllowed, runPipeline, type PipelineDeps } from "@/lib/ask/core";
 import { validateAnswerV2 } from "@/lib/ask/answer-v2";
 import type { AIProvider, JsonRequest } from "@/lib/ai/types";
@@ -1332,5 +1332,57 @@ describe("AnswerV2 in the live pipeline", () => {
         expect((await runPipeline("How do I repent from a sin?", "en", d)).status).toBe("no_summary");
       expect(writer.seen.filter(isDraft)).toHaveLength(4);
     });
+  });
+});
+
+// ---------- stored library hadith (HADITH_SOURCE=library) ----------
+const LIB_UUID = "11111111-2222-4333-8444-555555555555";
+const storedFast: Hadith = {
+  id: `SH${LIB_UUID}`,
+  collection: "bukhari",
+  numbers: { bukhari: 1904, muslim: null },
+  attributionAr: "رواه البخاري",
+  gradeAr: "صحيح",
+  arabic: "نص حديث تجريبي عن الصيام وجزائه",
+  translations: { en: null, de: null },
+  url: "https://sunnah.com/bukhari:1904",
+};
+const storedSelection = {
+  status: "ready", coverage: "complete", conflict: "none",
+  assessments: [
+    { source_id: "Q2:183", relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" },
+    { source_id: "Q2:184", relevance: "context", supported_requirement_ids: [], context_safe: "yes" },
+    { source_id: storedFast.id, relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes" },
+  ],
+};
+const storedDraft = {
+  status: "answer",
+  claims: [
+    { text: "Believers are required to fast during a certain month.", source_ids: ["Q2:183"], requirement_id: "R1" },
+    { text: "The Prophet taught that fasting protects the one who fasts.", source_ids: [storedFast.id], requirement_id: "R1" },
+  ],
+};
+
+describe("stored library hadith in the pipeline", () => {
+  it("cites a stored hadith, shows Sunnah.com attribution and the Sunnah.com link, and builds a valid AnswerV2", async () => {
+    const { d } = deps({ understand: understanding, draft: storedDraft }, TWO_SUPPORTED, storedSelection);
+    d.searchHadith = async () => [storedFast];
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status !== "answer") throw new Error("expected an answer");
+    const shown = r.answer.evidence.find((e) => e.key === storedFast.id);
+    expect(shown).toMatchObject({ kind: "hadith", url: "https://sunnah.com/bukhari:1904", arabic: storedFast.arabic, translation: null });
+    expect(r.answer.hadithAttribution).toEqual({ text: "Hadith text: Sunnah.com", url: "https://sunnah.com" });
+    expect(r.answer.v2?.hadith.map((h) => h.id)).toEqual([storedFast.id]);
+    expect(r.answer.v2?.attribution.hadith?.text).toBe("Hadith text: Sunnah.com");
+  });
+
+  it("fails closed: if the library lookup fails there is no hadith and no fallback", async () => {
+    const { d } = deps({ understand: understanding, draft: goodDraft });
+    const fallback = vi.fn(async () => hadithFast as Hadith | null);
+    d.searchHadith = async () => { throw new Error("library down"); };
+    d.getHadith = fallback;
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    if (r.status === "answer") expect(r.answer.evidence.some((e) => e.kind === "hadith")).toBe(false);
+    expect(fallback).not.toHaveBeenCalled();
   });
 });

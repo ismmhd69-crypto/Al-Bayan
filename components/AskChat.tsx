@@ -374,7 +374,7 @@ export function AnswerView({ a, t, id }: { a: Answer; t: AskText; id: number }) 
                     </p>
                   )}
                   <a className="verse-link" href={e.url} target="_blank" rel="noopener noreferrer">
-                    {t.hadith.link}
+                    {e.url.startsWith("https://sunnah.com/") ? t.hadith.linkSunnah : t.hadith.link}
                     <ExternalLink aria-hidden="true" />
                   </a>
                 </li>

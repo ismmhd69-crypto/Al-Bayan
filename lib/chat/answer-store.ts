@@ -21,6 +21,7 @@ export function stripAnswer(answer: AnswerV2): AnswerV2 {
     hadith.arabic = "";
     hadith.translation = null;
     hadith.translation_language = null;
+    delete hadith.ai_translation;
     hadith.grade_ar = "";
     hadith.attribution_ar = "";
   }

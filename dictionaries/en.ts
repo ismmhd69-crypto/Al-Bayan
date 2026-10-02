@@ -155,6 +155,8 @@ const en = {
       translationBy: "Translation: HadeethEnc",
       englishFallback: "English translation (HadeethEnc)",
       link: "Hadith on HadeethEnc",
+      linkSunnah: "Hadith on Sunnah.com",
+      showFull: "Show full text",
     },
     quran: "Quran",
     translation: "Translation",

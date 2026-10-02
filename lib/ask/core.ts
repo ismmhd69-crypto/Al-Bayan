@@ -25,7 +25,7 @@ import { buildLiveAnswerV2 } from "./assemble";
 import { asksKnownUnresolvedView } from "@/data/view-decisions";
 import {
   hadithAllowed,
-  HADITH_ATTRIBUTION,
+  hadithAttributionFor,
   type Hadith,
   type HadithCollection,
 } from "@/lib/sources/hadith-rules";
@@ -77,7 +77,7 @@ export type Evidence =
     }
   | {
       kind: "hadith";
-      key: string; // "HE4196" (HadeethEnc id)
+      key: string; // "HE4196" (HadeethEnc id) or "SH<uuid>" (stored hadith)
       collection: HadithCollection;
       numbers: { bukhari: number | null; muslim: number | null };
       gradeAr: string; // exactly as served
@@ -430,6 +430,12 @@ export function toEvidence(s: Source, language: Locale): Evidence {
 
 // The Sahihayn rule lives with the other hadith rules so the AnswerV2 validator can reuse it.
 export { hadithAllowed };
+
+// The one attribution line for the hadith actually shown (Sunnah.com for stored ones, HadeethEnc for live ones).
+export function hadithAttributionField(used: Source[]): { hadithAttribution?: { text: string; url: string } } {
+  const link = hadithAttributionFor(used.flatMap((s) => (s.kind === "hadith" ? [s.hadith.id] : [])));
+  return link ? { hadithAttribution: link } : {};
+}
 
 const words = { type: "array", items: { type: "string" } } as const;
 
@@ -887,7 +893,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
         not_established: answer.notEstablished.map((text) => ({ text })),
         evidence: used.map((s) => toEvidence(s, language)),
         attribution: { ...ATTRIBUTION },
-        ...(used.some((s) => s.kind === "hadith") ? { hadithAttribution: { ...HADITH_ATTRIBUTION } } : {}),
+        ...hadithAttributionField(used),
         ...(videos.length > 0 ? { videos } : {}),
         model: deps.writer.id,
         verifier: deps.verifier.id,

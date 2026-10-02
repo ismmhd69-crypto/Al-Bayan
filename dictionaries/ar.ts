@@ -155,6 +155,8 @@ const ar: typeof en = {
       translationBy: "الترجمة: موسوعة الأحاديث النبوية",
       englishFallback: "ترجمة إنجليزية (موسوعة الأحاديث النبوية)",
       link: "الحديث في موسوعة الأحاديث النبوية",
+      linkSunnah: "الحديث في موقع سنة",
+      showFull: "عرض النص كاملاً",
     },
     quran: "القرآن",
     translation: "الترجمة",

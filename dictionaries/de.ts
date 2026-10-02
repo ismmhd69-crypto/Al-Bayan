@@ -157,6 +157,8 @@ const de: typeof en = {
       translationBy: "Übersetzung: HadeethEnc",
       englishFallback: "Englische Übersetzung, noch keine deutsche vorhanden (HadeethEnc)",
       link: "Hadith auf HadeethEnc",
+      linkSunnah: "Hadith auf Sunnah.com",
+      showFull: "Ganzen Text anzeigen",
     },
     quran: "Koran",
     translation: "Übersetzung",

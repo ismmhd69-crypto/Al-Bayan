@@ -1,5 +1,6 @@
 import "server-only";
 import type { AnswerV2, ScholarItem, ScholarView } from "./answer-v2";
+import { HADITH_LIBRARY_ID } from "./ids";
 import { getScholarTranslations } from "@/lib/sources/scholar-translations";
 
 function translatedScholar(item: ScholarItem, translations: Map<string, string>): ScholarItem {
@@ -12,7 +13,26 @@ function translatedView(view: ScholarView, translations: Map<string, string>): S
 }
 
 /** Adds translations after validation, so they can never affect retrieval, evidence, or quote checks. */
-export async function attachScholarTranslations(answer: AnswerV2): Promise<AnswerV2> {
+// Stored hadith ("SH<uuid>") get their AI translation here too, in the visitor's language only (no
+// English fallback for German), flagged so the page shows the AI label instead of a source credit.
+async function attachHadithTranslations(answer: AnswerV2): Promise<AnswerV2> {
+  const stored = answer.hadith.filter((item) => HADITH_LIBRARY_ID.test(item.id));
+  if (stored.length === 0) return answer;
+  const translations = await getScholarTranslations(stored.map((item) => item.id.slice(2)), answer.language);
+  if (translations.size === 0) return answer;
+  return {
+    ...answer,
+    hadith: answer.hadith.map((item) => {
+      const text = HADITH_LIBRARY_ID.test(item.id) ? translations.get(item.id.slice(2)) : undefined;
+      return text && answer.language !== "ar"
+        ? { ...item, translation: text, translation_language: answer.language, ai_translation: true }
+        : item;
+    }),
+  };
+}
+
+export async function attachScholarTranslations(input: AnswerV2): Promise<AnswerV2> {
+  const answer = await attachHadithTranslations(input);
   const views = answer.view_handling?.mode === "reviewed_main"
     ? answer.view_handling.other_views
     : answer.view_handling?.mode === "side_by_side" ? answer.view_handling.views : [];

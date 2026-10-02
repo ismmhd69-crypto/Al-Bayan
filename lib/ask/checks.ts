@@ -338,8 +338,8 @@ const SCHOLAR_ATTRIBUTION = /\b(?:shaykh|sheikh|scheich)\b.{0,80}\b(?:explained|
 
 export function sourceKindMismatch(text: string, refs: string[]): boolean {
   if (QURAN_WORD_IN_TEXT.test(text) && !refs.some((id) => /^Q\d{1,3}:\d{1,3}$/.test(id))) return true;
-  if (PROPHET_ATTRIBUTION.test(text) && !refs.some((id) => /^HE\d+$/.test(id))) return true;
-  return SCHOLAR_ATTRIBUTION.test(text) && !refs.some((id) => /^S/.test(id));
+  if (PROPHET_ATTRIBUTION.test(text) && !refs.some((id) => /^(HE\d+|SH[0-9a-f-]{36})$/.test(id))) return true;
+  return SCHOLAR_ATTRIBUTION.test(text) && !refs.some((id) => /^S(?!H)/.test(id));
 }
 
 // Headings and limit notes are not screened claim by claim, so they may not carry a ruling.

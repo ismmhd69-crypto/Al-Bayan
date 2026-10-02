@@ -227,6 +227,8 @@ function QuranCard({ card, answerLanguage, t, anchor }: { card: QuranItem; answe
   );
 }
 
+const LONG_HADITH_CHARS = 1200;
+
 function HadithCard({ item, answerLanguage, t, anchor }: { item: HadithItem; answerLanguage: AnswerV2["language"]; t: AskText; anchor: (id: string) => string }) {
   return (
     <article className="answer-source-card answer-source-target" id={anchor(item.id)} tabIndex={-1}>
@@ -235,14 +237,23 @@ function HadithCard({ item, answerLanguage, t, anchor }: { item: HadithItem; ans
         <span>{[item.numbers.bukhari && `${t.hadith.numberBukhari} ${item.numbers.bukhari}`, item.numbers.muslim && `${t.hadith.numberMuslim} ${item.numbers.muslim}`].filter(Boolean).join(" · ")}</span>
         <span lang="ar" dir="rtl" translate="no">{item.grade_ar} · {item.attribution_ar}</span>
       </p>
-      <p className="verse-ar" lang="ar" dir="rtl" translate="no">{item.arabic}</p>
+      {item.ai_translation && item.translation && <p className="source-language-label">{t.scholarQuote.aiTranslation}</p>}
+      {item.arabic.length > LONG_HADITH_CHARS ? (
+        // Long hadith (usually a long chain of narrators first): the whole text is one tap away, never cut.
+        <details className="hadith-long">
+          <summary>{t.hadith.showFull}</summary>
+          <p className="verse-ar" lang="ar" dir="rtl" translate="no">{item.arabic}</p>
+        </details>
+      ) : (
+        <p className="verse-ar" lang="ar" dir="rtl" translate="no">{item.arabic}</p>
+      )}
       {item.translation && item.translation_language && (
         <p className="verse-tr" lang={item.translation_language} dir="ltr">
           <span translate="no">{item.translation}</span>
-          <span className="verse-by">{item.translation_language !== answerLanguage ? t.hadith.englishFallback : t.hadith.translationBy}</span>
+          {!item.ai_translation && <span className="verse-by">{item.translation_language !== answerLanguage ? t.hadith.englishFallback : t.hadith.translationBy}</span>}
         </p>
       )}
-      <a className="verse-link" href={item.url} target="_blank" rel="noopener noreferrer">{t.hadith.link}<ExternalLink aria-hidden="true" /></a>
+      <a className="verse-link" href={item.url} target="_blank" rel="noopener noreferrer">{item.url.startsWith("https://sunnah.com/") ? t.hadith.linkSunnah : t.hadith.link}<ExternalLink aria-hidden="true" /></a>
     </article>
   );
 }

@@ -9,7 +9,7 @@
 
 import type { Locale } from "@/lib/i18n";
 import { ATTRIBUTION, isRealVerse } from "@/lib/sources/quran-meta";
-import { HADITH_ATTRIBUTION, hadithAllowed, type HadithCollection } from "@/lib/sources/hadith-rules";
+import { hadithAllowed, hadithAttributionFor, type HadithCollection } from "@/lib/sources/hadith-rules";
 import { scholarQuoteAllowed } from "@/lib/sources/scholar-rules";
 import { approvedChannelIds } from "@/lib/sources/youtube-channels";
 import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
@@ -25,7 +25,7 @@ import {
   sourceKindMismatch,
   type SourceText,
 } from "./checks";
-import { QURAN_ID, quranCardId } from "./ids";
+import { HADITH_HE_ID, HADITH_LIBRARY_ID, isHadithId, QURAN_ID, quranCardId } from "./ids";
 
 export type RequirementId = "R1" | "R2" | "R3" | "R4";
 export type ReviewLabel = "automatic" | "bayan_reviewed" | "scholar_reviewed";
@@ -61,6 +61,7 @@ export type HadithItem = ItemBase & {
   arabic: string;
   translation: string | null;
   translation_language: "en" | "de" | null;
+  ai_translation?: boolean; // set only by the display step for stored hadith; shown with the AI label
   url: string;
 };
 export type ScholarItem = ItemBase & {
@@ -132,11 +133,12 @@ export type AnswerV2Trust = {
 
 export type AnswerV2Result = { ok: true; answer: AnswerV2 } | { ok: false; reason: string };
 
-const HADITH_ID = /^HE(\d+)$/;
 const SCHOLAR_ID = /^S[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 const REQUIREMENT_ID = /^R[1-4]$/;
 const YOUTUBE_ID = /^[A-Za-z0-9_-]{11}$/;
 const HADITH_URL = /^https:\/\/hadeethenc\.com\/(?:ar|en|de)\/browse\/hadith\/(\d+)$/;
+// Stored library hadith link to their Sunnah.com page (checked against the id again in hadithAllowed).
+const SUNNAH_HADITH_URL = /^https:\/\/sunnah\.com\/(?:bukhari|muslim):\d+[a-z]{0,3}$/;
 const LOCALES: readonly string[] = ["ar", "en", "de"];
 
 export { displaySourceId, quranCardId } from "./ids";
@@ -229,15 +231,18 @@ function quranCard(value: unknown, path: string, language: Locale, trust: Answer
 function hadithItem(value: unknown, path: string, language: Locale, trust: AnswerV2Trust): HadithItem {
   const h = record(value, path, ["id", "points", "cited", "collection", "numbers", "grade_ar", "attribution_ar", "arabic",
     "translation", "translation_language", "url"]);
-  const id = typeof h.id === "string" ? h.id.match(HADITH_ID) : null;
-  if (!id) return fail(`hadith_id:${path}`);
+  const id = typeof h.id === "string" ? h.id.match(HADITH_HE_ID) : null;
+  const storedId = typeof h.id === "string" && HADITH_LIBRARY_ID.test(h.id);
+  if (!id && !storedId) return fail(`hadith_id:${path}`);
   if (!["bukhari", "muslim", "agreed"].includes(h.collection as string)) fail(`hadith_collection:${path}`);
   const numbers = record(h.numbers, `${path}.numbers`, ["bukhari", "muslim"]);
   for (const n of [numbers.bukhari, numbers.muslim]) {
     if (n !== null && !(Number.isInteger(n) && (n as number) > 0)) fail(`hadith_numbers:${path}`);
   }
-  const url = typeof h.url === "string" ? h.url.match(HADITH_URL) : null;
-  if (!url || url[1] !== id[1]) fail(`hadith_url:${path}`);
+  if (id) {
+    const url = typeof h.url === "string" ? h.url.match(HADITH_URL) : null;
+    if (!url || url[1] !== id[1]) fail(`hadith_url:${path}`);
+  } else if (typeof h.url !== "string" || !SUNNAH_HADITH_URL.test(h.url)) fail(`hadith_url:${path}`);
   const translation = nullableSourceText(h.translation, `${path}.translation`, 20_000);
   const translationLanguage = h.translation_language;
   if (translation === null ? translationLanguage !== null : !["en", "de"].includes(translationLanguage as string)) fail(`hadith_translation:${path}`);
@@ -444,7 +449,7 @@ function validate(raw: unknown, trust: AnswerV2Trust): AnswerV2 {
   const resolve = (item: Cited, allowed: Set<string>, path: string) => {
     for (const id of item.source_ids) {
       if (videoIds.has(id)) fail(`video_citation:${path}`);
-      if (!QURAN_ID.test(id) && !HADITH_ID.test(id) && !SCHOLAR_ID.test(id)) fail(`invalid_source_id:${path}`);
+      if (!QURAN_ID.test(id) && !isHadithId(id) && !SCHOLAR_ID.test(id)) fail(`invalid_source_id:${path}`);
       if (!allowed.has(id)) fail(`missing_cited_source:${path}`);
       citedIds.add(id);
     }
@@ -512,7 +517,8 @@ function validate(raw: unknown, trust: AnswerV2Trust): AnswerV2 {
     return link.text === expected.text && link.url === expected.url;
   };
   if ((quran.length > 0) !== ("quran" in attribution) || (quran.length > 0 && !sameLink(attribution.quran, ATTRIBUTION))) fail("attribution");
-  if ((hadith.length > 0) !== ("hadith" in attribution) || (hadith.length > 0 && !sameLink(attribution.hadith, HADITH_ATTRIBUTION))) fail("attribution");
+  const hadithLink = hadithAttributionFor(hadith.map((h) => h.id));
+  if ((hadith.length > 0) !== ("hadith" in attribution) || (hadith.length > 0 && (!hadithLink || !sameLink(attribution.hadith, hadithLink)))) fail("attribution");
 
   return raw as AnswerV2;
 }
