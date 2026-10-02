@@ -895,3 +895,79 @@ Rejected:
 - 2687 أنفع الطرق لتحصيل العلم: context opener
 - 2744 حقيقة الأولياء: needs context
 - 2798 ما أفضل أنواع الجهاد؟: mixed, no clear ruling
+
+## Batch 038
+
+- Candidates read: 50
+- Approved and stored: 33
+- Rejected: 17
+- Needs Mo: 0
+- Page requests: 89, request errors: 0
+- Running total stored in this run: 1350
+
+Rejected:
+- 2815 ماذا يُعمل بأرباح البنك؟ وهل هي ربا؟: needs context
+- 2902 حكم نسبة المدد والإعانة لغير الله: transcript fragment, no ruling
+- 3027 الرد على دعوى القائلين بجواز كشف المرأة الوجه والكفين: needs context
+- 3047 تزيين الشيطان الباطل للعبد: no ruling
+- 3118 البديل الإسلامي لوسائل الإعلام الضارة: no ruling
+- 3165 حكم الزواج ممن رضعت مع أخت الأخ الذي رضعت معه؟: needs context
+- 3187 توجيه كلام الألباني في تحسين حديث أسماء في كشف الوجه: criticism of a scholar, not a ruling
+- 3219 الفرق بين الفأل والتطير: context opener
+- 3234 الأبناء إخوة لمن رضع من زوجة أبيهم: needs context
+- 3267 حكم التمثيل والقصص الخيالية لغرض دعوي: needs context
+- 3287 حكم من لم يتيقن وصول الحصى في حوض الجمرات: needs context
+- 3323 حول ترك السنن لتألف الناس: needs context
+- 3329 ما هو حد الحرابة وما حكم من تاب قبل أن يقدر عليه؟: does not answer its title
+- 3357 حكم من يأمر بالمعروف وينهى عن المنكر وعنده تقصير: lecture opening
+- 3365 حكم هجر من لم ينته عن المنكر: views without a clear ruling
+- 3367 المبتدع والعاصي: vague
+- 3379 رضع من زوجة جده الثانية، فهل يتزوج من بنت زوجته الثالثة؟: needs context
+
+## Batch 039
+
+- Candidates read: 50
+- Approved and stored: 38
+- Rejected: 12
+- Needs Mo: 0
+- Page requests: 155, request errors: 0
+- Running total stored in this run: 1388
+
+Rejected:
+- 3462 حكم الكشف والمصافحة لزوجة العم التي ربته: praise, not a ruling
+- 3494 دراسة الفتاة في المدارس والجامعات التي فيها اختلاط: context opener
+- 3497 موت الجنين بسبب نوم الأم على بطنها: mixed topics
+- 3500 حكم ألعاب الأطفال التي على شكل حيوانات: views without a clear ruling
+- 3513 تقويم كتاب الحصون المنيعة لمحمد علوي المالكي: criticism of a person, not a ruling
+- 3551 ماذا تعمل من يأبى زوجها تطليقها؟: unclear
+- 3605 حكم خروج المرأة إلى السوق وهي متعطرة: does not answer its title
+- 3693 حكم لبس البنطلون والصلاة فيه: no clear ruling
+- 4079 كيف يُجمع بين محبتهﷺوعدم الغلو فيه؟: refers to earlier talk
+- 4089 معنى حديث "إن الله لا ينظر إلى صوركم..": cut off
+- 4125 حكم ميراث من تدفع له الدولة مالاً سنويًّا: needs context
+- 4307 ما حكم مَن تحيض في عمر الخمسين؟: views without a clear ruling
+
+## Batch 040
+
+- Candidates read: 50
+- Approved and stored: 36
+- Rejected: 14
+- Needs Mo: 0
+- Page requests: 221, request errors: 0
+- Running total stored in this run: 1424
+
+Rejected:
+- 5001 مضاعفة الصلاة يعم الحرم كله: near duplicate of an approved item
+- 5148 حكم كشف البنات لزوج جدتهن: context opener
+- 5323 إرجاع أمر حضانة الأبناء إلى القضاء: no ruling, sent to judges
+- 5382 حكم الصلاة على الغائب وعلى من لم يدفن بعد: views without a clear ruling
+- 5637 لا يجوز إيقاف السيارات على القبور: does not answer its title
+- 6334 حكم وعظ الناس بالموضوعات والأباطيل: near duplicate of an approved item
+- 6335 التحذير من الطريقة الختمية: based on hearsay
+- 6814 حكم طلاق المحاكم الشرعية من دون علم الزوج: no ruling
+- 6869 ما معنى: {إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ}؟: only states the question
+- 6967 صحة المذاهب الأربعة وتاريخ نشأتها: history, no ruling
+- 7042 العدة .. أنواعها وأحكامها: cut off
+- 7058 حكم الابتداع في الدين: needs context
+- 7073 حكم المشروبات والعصائر والبيرة الخالية من الكحول: doubtful wording on beer
+- 7122 حكم الفزع إلى غير الله: needs context
