@@ -43,6 +43,7 @@ Published: false
 | 28 | Sahih al-Bukhari 143 to 145 | 3 | 6 | 0 | 130 |
 | 29 | Sahih al-Bukhari 146 to 148 | 3 | 6 | 0 | 133 |
 | 30 | Sahih al-Bukhari 149 to 151 | 3 | 6 | 0 | 136 |
+| 31 | Sahih al-Bukhari 152 to 154 | 3 | 6 | 0 | 139 |
 
 Batch 1 validation passed for the inserted rows. Both English and German texts are non-empty, contain no Arabic letters, stay within the required length ratio, and include German umlauts. The rows are unpublished and use `origin=ai`, `translator=codex`. Hadith 3 contains Quran references in the Arabic source; the translation retains the source reference markers and translates the quoted meaning. Hadith 7 was deferred within the first two batches because its source is about 7,000 characters and needs its own careful pass. Hadith 19 was not inserted because its exported source ID is no longer present in `public.sources`; no source row was changed.
 
@@ -103,3 +104,5 @@ Batch 28 inserted 6 rows for three Bukhari hadiths. The database count increased
 Batch 29 inserted 6 rows for three Bukhari hadiths. The database count increased from 7,706 to 7,712, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, remain within the required length ratio, and all German texts use real umlauts.
 
 Batch 30 inserted 6 rows for three Bukhari hadiths. The database count increased from 7,712 to 7,718, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, remain within the required length ratio, and all German texts use real umlauts.
+
+Batch 31 inserted 6 rows for three Bukhari hadiths. The database count increased from 7,718 to 7,724, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, remain within the required length ratio, and all German texts use real umlauts.
