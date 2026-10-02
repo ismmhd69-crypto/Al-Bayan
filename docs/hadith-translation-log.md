@@ -28,6 +28,7 @@ Published: false
 | 13 | Sahih al-Bukhari 102, 103, 105 to 106 | 4 | 8 | 0 | 92 |
 | 14 | Sahih al-Bukhari 107 to 111 | 5 | 10 | 0 | 97 |
 | 15 | Sahih al-Bukhari 104, 113 | 2 | 4 | 0 | 99 |
+| 16 | Sahih al-Bukhari 114 to 119 | 6 | 12 | 0 | 105 |
 
 Batch 1 validation passed for the inserted rows. Both English and German texts are non-empty, contain no Arabic letters, stay within the required length ratio, and include German umlauts. The rows are unpublished and use `origin=ai`, `translator=codex`. Hadith 3 contains Quran references in the Arabic source; the translation retains the source reference markers and translates the quoted meaning. Hadith 7 was deferred within the first two batches because its source is about 7,000 characters and needs its own careful pass. Hadith 19 was not inserted because its exported source ID is no longer present in `public.sources`; no source row was changed.
 
@@ -58,3 +59,5 @@ Batch 13 inserted 8 rows for four Bukhari hadiths. The database count increased 
 Batch 14 inserted 10 rows for five Bukhari hadiths. The database count increased from 7,630 to 7,640, exactly matching the 10 inserted rows.
 
 Batch 15 inserted 4 rows for two Bukhari hadiths. The database count increased from 7,640 to 7,644, exactly matching the 4 inserted rows.
+
+Batch 16 inserted 12 rows for six Bukhari hadiths. The database count increased from 7,644 to 7,656, exactly matching the 12 inserted rows.
