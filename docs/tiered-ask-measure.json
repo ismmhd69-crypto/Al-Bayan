@@ -1,0 +1,1821 @@
+{
+  "at": "2026-10-02T16:50:02.217Z",
+  "models": {
+    "writer": "gemini-3.5-flash-lite,nvidia:nvidia/nemotron-3-super-120b-a12b",
+    "checker": "gemini-3.1-flash-lite,nvidia:openai/gpt-oss-20b"
+  },
+  "summary": {
+    "old": {
+      "questions": 30,
+      "answered": "15/28",
+      "refusalRate": "13/28",
+      "mustRefuseRefused": "2/2",
+      "answersWithVerse": "11/15",
+      "answersWithHadith": "1/15",
+      "answersWithFatwa": "11/15",
+      "answersWithVideos": "6/15",
+      "answersOpeningWithQuran": "11/15",
+      "errorsOrTimeouts": 0,
+      "medianSeconds": 25.1,
+      "p95Seconds": 39.1,
+      "outcomes": {
+        "no_source": 10,
+        "no_summary": 2,
+        "answer": 15,
+        "ask_scholar": 2,
+        "out_of_scope": 1
+      }
+    },
+    "tiered": {
+      "questions": 30,
+      "answered": "14/28",
+      "refusalRate": "14/28",
+      "mustRefuseRefused": "2/2",
+      "answersWithVerse": "11/14",
+      "answersWithHadith": "2/14",
+      "answersWithFatwa": "12/14",
+      "answersWithVideos": "1/14",
+      "answersOpeningWithQuran": "11/14",
+      "errorsOrTimeouts": 1,
+      "medianSeconds": 24.8,
+      "p95Seconds": 44.5,
+      "outcomes": {
+        "timeout": 1,
+        "answer": 14,
+        "no_summary": 2,
+        "no_source": 10,
+        "ask_scholar": 2,
+        "out_of_scope": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "intentions-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 30.5,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1620 ms",
+        "search at 7866 ms",
+        "sources_fetched at 8556 ms",
+        "selection(14 candidates) at 16226 ms",
+        "draft at 30542 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "intentions-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "timeout",
+      "seconds": 50,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [],
+      "steps": [
+        "frame at 20719 ms",
+        "search at 25014 ms",
+        "sources_fetched at 25782 ms",
+        "selection(16 candidates) at 35370 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": [],
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "patience-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_summary",
+      "seconds": 39.1,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "no_summary_after_draft_source_attribution"
+      ],
+      "steps": [
+        "frame at 2852 ms",
+        "search at 9999 ms",
+        "sources_fetched at 11081 ms",
+        "selection(12 candidates) at 18319 ms",
+        "draft at 19896 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "patience-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 34.5,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "tier_missing_kept",
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 3677 ms",
+        "search at 7207 ms",
+        "sources_fetched at 8175 ms",
+        "selection(13 candidates) at 22882 ms",
+        "draft at 24171 ms",
+        "screening at 34501 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 23.4,
+      "quran": 1,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [],
+      "steps": [
+        "frame at 1338 ms",
+        "search at 7846 ms",
+        "sources_fetched at 8670 ms",
+        "selection(12 candidates) at 14910 ms",
+        "draft at 15866 ms",
+        "screening at 19385 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 20.8,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 1,
+      "firstKind": "quran",
+      "reasons": [
+        "tier_missing_kept"
+      ],
+      "steps": [
+        "frame at 2745 ms",
+        "search at 7413 ms",
+        "sources_fetched at 8081 ms",
+        "selection(12 candidates) at 14642 ms",
+        "draft at 15743 ms",
+        "screening at 19072 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 14.2,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1437 ms",
+        "search at 5448 ms",
+        "sources_fetched at 6157 ms",
+        "selection(13 candidates) at 13275 ms",
+        "draft at 14220 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 25.2,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 2,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "tier_missing_kept",
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1691 ms",
+        "search at 6179 ms",
+        "sources_fetched at 6942 ms",
+        "selection(15 candidates) at 14618 ms",
+        "draft at 16775 ms",
+        "screening at 25201 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 34.1,
+      "quran": 1,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 2,
+      "firstKind": "quran",
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 1485 ms",
+        "search at 9270 ms",
+        "sources_fetched at 10200 ms",
+        "selection(12 candidates) at 18045 ms",
+        "draft at 19332 ms",
+        "screening at 31454 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 26.2,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "scholar_dropped_by_rules",
+        "tier_missing_kept",
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1688 ms",
+        "search at 5550 ms",
+        "sources_fetched at 6287 ms",
+        "selection(17 candidates) at 18719 ms",
+        "draft at 20274 ms",
+        "screening at 26233 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "parents-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 25.1,
+      "quran": 1,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 2,
+      "firstKind": "quran",
+      "reasons": [],
+      "steps": [
+        "frame at 1610 ms",
+        "search at 5976 ms",
+        "sources_fetched at 6827 ms",
+        "selection(14 candidates) at 20920 ms",
+        "draft at 21951 ms",
+        "screening at 23928 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "parents-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 26.7,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 2,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1756 ms",
+        "search at 5062 ms",
+        "sources_fetched at 5884 ms",
+        "selection(14 candidates) at 12828 ms",
+        "draft at 21884 ms",
+        "screening at 26742 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "lying-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 31.1,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [],
+      "steps": [
+        "frame at 8243 ms",
+        "search at 15118 ms",
+        "sources_fetched at 16127 ms",
+        "selection(13 candidates) at 28475 ms",
+        "draft at 29779 ms",
+        "screening at 31085 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "lying-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_summary",
+      "seconds": 24.8,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "no_summary_after_draft_ruling_without_scholar"
+      ],
+      "steps": [
+        "frame at 6373 ms",
+        "search at 13162 ms",
+        "sources_fetched at 14473 ms",
+        "selection(13 candidates) at 22458 ms",
+        "draft at 23575 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 20.8,
+      "quran": 1,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [],
+      "steps": [
+        "frame at 1330 ms",
+        "search at 4521 ms",
+        "sources_fetched at 5244 ms",
+        "selection(12 candidates) at 10550 ms",
+        "draft at 11859 ms",
+        "screening at 16745 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 20.1,
+      "quran": 1,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1959 ms",
+        "search at 9150 ms",
+        "sources_fetched at 9922 ms",
+        "selection(14 candidates) at 16199 ms",
+        "draft at 17848 ms",
+        "screening at 20057 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 26,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1668 ms",
+        "search at 6875 ms",
+        "sources_fetched at 7821 ms",
+        "selection(12 candidates) at 17031 ms",
+        "selection_retry(8 candidates) at 25960 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 15,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1819 ms",
+        "search at 5566 ms",
+        "sources_fetched at 6316 ms",
+        "selection(12 candidates) at 14188 ms",
+        "draft at 15049 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "compulsion-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 19.7,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1376 ms",
+        "search at 4111 ms",
+        "sources_fetched at 4908 ms",
+        "selection(13 candidates) at 19736 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "compulsion-en",
+      "lang": "en",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 10.5,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "required_source_items_missing"
+      ],
+      "steps": [
+        "frame at 1486 ms",
+        "search at 6016 ms",
+        "sources_fetched at 6804 ms",
+        "selection(13 candidates) at 10536 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "mode": "old",
+      "outcome": "ask_scholar",
+      "seconds": 1.7,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 1676 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "mode": "tiered",
+      "outcome": "ask_scholar",
+      "seconds": 3.5,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 3533 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "intentions-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 20.7,
+      "quran": 0,
+      "hadith": 1,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "hadith",
+      "reasons": [],
+      "steps": [
+        "frame at 1396 ms",
+        "search at 4619 ms",
+        "sources_fetched at 5370 ms",
+        "selection(14 candidates) at 10701 ms",
+        "draft at 12187 ms",
+        "screening at 16720 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "intentions-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 27.5,
+      "quran": 0,
+      "hadith": 1,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "hadith",
+      "reasons": [
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1809 ms",
+        "search at 8467 ms",
+        "sources_fetched at 9227 ms",
+        "selection(15 candidates) at 17645 ms",
+        "draft at 19009 ms",
+        "screening at 27448 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "patience-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 22.7,
+      "quran": 3,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 2,
+      "firstKind": "quran",
+      "reasons": [],
+      "steps": [
+        "frame at 1620 ms",
+        "search at 7559 ms",
+        "sources_fetched at 8300 ms",
+        "selection(12 candidates) at 15953 ms",
+        "draft at 17670 ms",
+        "screening at 20927 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "patience-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 31.7,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "tier_missing_kept",
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 3675 ms",
+        "search at 8704 ms",
+        "sources_fetched at 14877 ms",
+        "selection(13 candidates) at 21467 ms",
+        "draft at 22907 ms",
+        "screening at 31653 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "prayer-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 36.5,
+      "quran": 1,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [],
+      "steps": [
+        "frame at 1414 ms",
+        "search at 8418 ms",
+        "sources_fetched at 9297 ms",
+        "selection(12 candidates) at 19498 ms",
+        "draft at 20509 ms",
+        "screening at 32522 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "prayer-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 25,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "tier_missing_fixed",
+        "screening_retry_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1887 ms",
+        "search at 4688 ms",
+        "sources_fetched at 5380 ms",
+        "selection(17 candidates) at 16969 ms",
+        "draft at 18336 ms",
+        "screening at 24074 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "zakah-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 33.9,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 1,
+      "firstKind": "scholar",
+      "reasons": [],
+      "steps": [
+        "frame at 2828 ms",
+        "search at 10257 ms",
+        "sources_fetched at 11102 ms",
+        "selection(15 candidates) at 22898 ms",
+        "draft at 24065 ms",
+        "screening at 30694 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "zakah-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 29.2,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 3,
+      "videos": 0,
+      "firstKind": "scholar",
+      "reasons": [
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1757 ms",
+        "search at 4431 ms",
+        "sources_fetched at 5134 ms",
+        "selection(17 candidates) at 20236 ms",
+        "draft at 21513 ms",
+        "screening at 29225 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "riba-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 27.7,
+      "quran": 1,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 1466 ms",
+        "search at 5740 ms",
+        "sources_fetched at 6444 ms",
+        "selection(13 candidates) at 13966 ms",
+        "draft at 15251 ms",
+        "screening at 23675 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "riba-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_summary",
+      "seconds": 23.4,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "scholar_dropped_by_rules",
+        "no_summary_after_draft_ruling_without_scholar"
+      ],
+      "steps": [
+        "frame at 1740 ms",
+        "search at 5613 ms",
+        "sources_fetched at 6309 ms",
+        "selection(16 candidates) at 20574 ms",
+        "draft at 21944 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "parents-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 33.3,
+      "quran": 3,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [],
+      "steps": [
+        "frame at 2451 ms",
+        "search at 6727 ms",
+        "sources_fetched at 7467 ms",
+        "selection(15 candidates) at 18844 ms",
+        "draft at 21172 ms",
+        "screening at 29287 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "parents-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 24.2,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 2032 ms",
+        "search at 6150 ms",
+        "sources_fetched at 6777 ms",
+        "selection(14 candidates) at 23157 ms",
+        "draft at 24169 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "lying-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 16.6,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1439 ms",
+        "search at 6099 ms",
+        "sources_fetched at 6841 ms",
+        "selection(14 candidates) at 15686 ms",
+        "draft at 16602 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "lying-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 31.5,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "tier_missing_kept",
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1464 ms",
+        "search at 8368 ms",
+        "sources_fetched at 9178 ms",
+        "selection(14 candidates) at 25552 ms",
+        "draft at 26869 ms",
+        "screening at 31489 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 43.7,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [],
+      "steps": [
+        "frame at 2554 ms",
+        "search at 10292 ms",
+        "sources_fetched at 11052 ms",
+        "selection(12 candidates) at 30010 ms",
+        "draft at 31237 ms",
+        "screening at 39718 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 44.5,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1878 ms",
+        "search at 8967 ms",
+        "sources_fetched at 9749 ms",
+        "selection(14 candidates) at 38076 ms",
+        "draft at 39448 ms",
+        "screening at 44535 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "mercy-hell-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 27.1,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1496 ms",
+        "search at 8501 ms",
+        "sources_fetched at 9415 ms",
+        "selection(12 candidates) at 23759 ms",
+        "selection_retry(8 candidates) at 27049 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "mercy-hell-de",
+      "lang": "de",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 28.4,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1983 ms",
+        "search at 5653 ms",
+        "sources_fetched at 6416 ms",
+        "selection(14 candidates) at 27463 ms",
+        "draft at 28362 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "mode": "old",
+      "outcome": "out_of_scope",
+      "seconds": 0.9,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [],
+      "steps": [
+        "frame at 894 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "mode": "tiered",
+      "outcome": "out_of_scope",
+      "seconds": 1,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [],
+      "steps": [
+        "frame at 990 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "intentions-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 26.1,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 1,
+      "firstKind": "scholar",
+      "reasons": [],
+      "steps": [
+        "frame at 2608 ms",
+        "search at 6573 ms",
+        "sources_fetched at 7307 ms",
+        "selection(14 candidates) at 15995 ms",
+        "draft at 17030 ms",
+        "screening at 22827 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "intentions-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 29,
+      "quran": 0,
+      "hadith": 1,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "hadith",
+      "reasons": [
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1717 ms",
+        "search at 6546 ms",
+        "sources_fetched at 7383 ms",
+        "selection(15 candidates) at 24546 ms",
+        "draft at 25987 ms",
+        "screening at 29013 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "patience-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_summary",
+      "seconds": 17.7,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "no_summary_after_draft_copied_source"
+      ],
+      "steps": [
+        "frame at 1389 ms",
+        "search at 7821 ms",
+        "sources_fetched at 8743 ms",
+        "selection(12 candidates) at 14745 ms",
+        "draft at 16259 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "patience-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 21.9,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 2051 ms",
+        "search at 5388 ms",
+        "sources_fetched at 6059 ms",
+        "selection(13 candidates) at 12695 ms",
+        "draft at 14176 ms",
+        "screening at 21869 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "prayer-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 32,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 2,
+      "firstKind": "scholar",
+      "reasons": [],
+      "steps": [
+        "frame at 1354 ms",
+        "search at 4254 ms",
+        "sources_fetched at 5017 ms",
+        "selection(12 candidates) at 19719 ms",
+        "draft at 20970 ms",
+        "screening at 30486 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "prayer-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 19.7,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1828 ms",
+        "search at 8390 ms",
+        "sources_fetched at 9216 ms",
+        "selection(13 candidates) at 18919 ms",
+        "draft at 19694 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "zakah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 19.8,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1496 ms",
+        "search at 6456 ms",
+        "sources_fetched at 7158 ms",
+        "selection(15 candidates) at 19776 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "zakah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 38.3,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1834 ms",
+        "search at 8838 ms",
+        "sources_fetched at 9692 ms",
+        "selection(12 candidates) at 28494 ms",
+        "selection_retry(8 candidates) at 38336 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "answer",
+      "seconds": 32.5,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 2660 ms",
+        "search at 9559 ms",
+        "sources_fetched at 10227 ms",
+        "selection(15 candidates) at 27005 ms",
+        "draft at 28241 ms",
+        "screening at 32484 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "answer",
+      "seconds": 33.8,
+      "quran": 2,
+      "hadith": 0,
+      "scholars": 1,
+      "videos": 0,
+      "firstKind": "quran",
+      "reasons": [
+        "scholar_dropped_by_rules",
+        "tier_missing_kept",
+        "video_skipped_budget"
+      ],
+      "steps": [
+        "frame at 1965 ms",
+        "search at 5332 ms",
+        "sources_fetched at 6078 ms",
+        "selection(17 candidates) at 18154 ms",
+        "draft at 19952 ms",
+        "screening at 33816 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "parents-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "ask_scholar",
+      "seconds": 2.6,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 2580 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "parents-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "ask_scholar",
+      "seconds": 1.9,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 1924 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "lying-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 33.8,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_timeout",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1435 ms",
+        "search at 7280 ms",
+        "sources_fetched at 7961 ms",
+        "selection(13 candidates) at 23813 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "lying-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 22.2,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1784 ms",
+        "search at 7319 ms",
+        "sources_fetched at 8140 ms",
+        "selection(14 candidates) at 21300 ms",
+        "draft at 22156 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "backbiting-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 14.3,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1275 ms",
+        "search at 4682 ms",
+        "sources_fetched at 5396 ms",
+        "selection(11 candidates) at 13349 ms",
+        "draft at 14276 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "backbiting-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 14.1,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 1744 ms",
+        "search at 6544 ms",
+        "sources_fetched at 7366 ms",
+        "selection(12 candidates) at 13079 ms",
+        "draft at 14094 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite",
+        "gemini/gemini-3.1-flash-lite",
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "music-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "old",
+      "outcome": "no_source",
+      "seconds": 1.7,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 1720 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    },
+    {
+      "id": "music-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "mode": "tiered",
+      "outcome": "no_source",
+      "seconds": 1.7,
+      "quran": 0,
+      "hadith": 0,
+      "scholars": 0,
+      "videos": 0,
+      "firstKind": null,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 1678 ms"
+      ],
+      "answered": [
+        "gemini/gemini-3.5-flash-lite"
+      ],
+      "skipped": []
+    }
+  ]
+}

@@ -13,11 +13,16 @@ import type { SelectedPassage } from "./retrieval";
 
 export const PACKAGE_CAPS = { quranCards: 3, hadith: 2, scholar: 2, passages: 8 } as const;
 
+// quranVerses is optional: tiered mode (lib/ask/tiered.ts) also limits the number of verses.
+export type PackageCaps = { quranCards: number; quranVerses?: number; hadith: number; scholar: number; passages: number };
+
 export type QuranCard = { id: string; sourceIds: string[]; named: boolean };
 
 export type ChooserOptions = {
   preferredIds?: ReadonlySet<string>; // checked topic map or passages the visitor named by reference
   namedPassages?: readonly (readonly string[])[]; // complete passages named by the visitor (al-Fatiha)
+  caps?: PackageCaps; // default PACKAGE_CAPS
+  tierOrder?: boolean; // writer order Quran, hadith, scholar before the first point (tiered mode)
 };
 
 export type ChosenPackage = { passages: SelectedPassage[]; cards: QuranCard[] };
@@ -43,13 +48,16 @@ function preference(a: Unit, b: Unit): number {
     || compareSourceIds(a.passages[0].id, b.passages[0].id);
 }
 
-function fits(units: Unit[]): boolean {
+function fits(units: Unit[], caps: PackageCaps): boolean {
   const named = units.filter((unit) => unit.kind === "quran" && unit.named).length;
   const verses = units.filter((unit) => unit.kind === "quran" && !unit.named).flatMap((unit) => unit.passages.map((p) => p.id));
-  return named + consecutiveRuns(verses).length <= PACKAGE_CAPS.quranCards
-    && units.filter((unit) => unit.kind === "hadith").length <= PACKAGE_CAPS.hadith
-    && units.filter((unit) => unit.kind === "scholar").length <= PACKAGE_CAPS.scholar
-    && units.reduce((sum, unit) => sum + (unit.named ? 1 : unit.passages.length), 0) <= PACKAGE_CAPS.passages;
+  // A complete passage the visitor named counts as one item, so tiered mode can still show it.
+  const allVerses = named + verses.length;
+  return named + consecutiveRuns(verses).length <= caps.quranCards
+    && (caps.quranVerses === undefined || allVerses <= caps.quranVerses)
+    && units.filter((unit) => unit.kind === "hadith").length <= caps.hadith
+    && units.filter((unit) => unit.kind === "scholar").length <= caps.scholar
+    && units.reduce((sum, unit) => sum + (unit.named ? 1 : unit.passages.length), 0) <= caps.passages;
 }
 
 const covers = (units: Unit[], required: readonly string[]) => {
@@ -66,6 +74,7 @@ export function chooseSealedPackage(
   requiredIds: readonly string[],
   options: ChooserOptions = {},
 ): ChosenPackage | null {
+  const caps = options.caps ?? PACKAGE_CAPS;
   // Exact duplicate ids and repeated fatwa pages are dropped, keeping the better placed copy.
   const seenIds = new Set<string>();
   const seenUrls = new Set<string>();
@@ -117,7 +126,7 @@ export function chooseSealedPackage(
   let cover: Unit[] | null = null;
   const search = (start: number, size: number, picked: Unit[]): boolean => {
     if (picked.length === size) {
-      if (covers(picked, requiredIds) && fits(picked)) {
+      if (covers(picked, requiredIds) && fits(picked, caps)) {
         cover = [...picked];
         return true;
       }
@@ -125,13 +134,13 @@ export function chooseSealedPackage(
     }
     for (let index = start; index <= units.length - (size - picked.length); index += 1) {
       picked.push(units[index]);
-      const found = fits(picked) && search(index + 1, size, picked);
+      const found = fits(picked, caps) && search(index + 1, size, picked);
       picked.pop();
       if (found) return true;
     }
     return false;
   };
-  for (let size = 1; size <= Math.min(PACKAGE_CAPS.passages, units.length) && !cover; size += 1) search(0, size, []);
+  for (let size = 1; size <= Math.min(caps.passages, units.length) && !cover; size += 1) search(0, size, []);
   if (!cover) return null;
   const coverUnits: Unit[] = cover;
 
@@ -139,7 +148,7 @@ export function chooseSealedPackage(
   const chosen = [...coverUnits];
   for (const unit of units) {
     if (chosen.includes(unit)) continue;
-    if (fits([...chosen, unit])) chosen.push(unit);
+    if (fits([...chosen, unit], caps)) chosen.push(unit);
   }
 
   // Cards: the named passage as one card, the other verses grouped into consecutive runs.
@@ -154,10 +163,12 @@ export function chooseSealedPackage(
 
   // Writer order: by the first point a passage answers, then Quran, hadith, scholar, then cover
   // members before fillers, then preference. Verses of one named passage stay in order.
+  // Tiered mode puts the source kind first: all Quran, then hadith, then scholars.
   const position = new Map(chosen.map((unit, index) => [unit, index]));
   const firstPoint = (unit: Unit) => Math.min(...[...unit.requirementIds].map((id) => Number(id.slice(1))));
+  const tier = (unit: Unit) => (options.tierOrder ? KIND_ORDER[unit.kind] : 0);
   const passages = [...chosen]
-    .sort((a, b) => firstPoint(a) - firstPoint(b) || KIND_ORDER[a.kind] - KIND_ORDER[b.kind]
+    .sort((a, b) => tier(a) - tier(b) || firstPoint(a) - firstPoint(b) || KIND_ORDER[a.kind] - KIND_ORDER[b.kind]
       || Number(coverUnits.includes(b)) - Number(coverUnits.includes(a)) || position.get(a)! - position.get(b)!)
     .flatMap((unit) => unit.passages);
   return { passages, cards };

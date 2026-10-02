@@ -10,7 +10,7 @@ import { getMappedScholarQuote, searchScholarsLive } from "@/lib/sources/scholar
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 import { searchVideos } from "@/lib/sources/videos";
 import { runPipeline, type AskResult, type PipelineDeps } from "./core";
-import { askDeadlineMs, LEAN_CANDIDATE_LIMITS } from "./settings";
+import { askDeadlineMs, askMaxVideos, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
 import { looksPersonal } from "./checks";
 import { bestWording } from "@/lib/prepared-match";
 import { loadPrepared } from "@/lib/prepared";
@@ -101,6 +101,8 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
     verifier: getVerifier(),
     deadlineMs: askDeadlineMs(),
     ...(process.env.ASK_LEAN === "true" ? { candidateLimits: { ...LEAN_CANDIDATE_LIMITS } } : {}),
+    // ASK_TIERED=true: Quran, then hadith, then fatwas, then videos (read per question so it can be switched).
+    ...(askTiered() ? { tiered: { videoBudgetMs: askVideoBudgetMs(), maxVideos: askMaxVideos() } } : {}),
     search: searchQuran,
     getVerse,
     neighbours,

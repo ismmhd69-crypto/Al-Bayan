@@ -65,6 +65,21 @@ import {
   type QuestionFrame,
   type Source,
 } from "./retrieval";
+import {
+  TIER_CANDIDATE_LIMITS,
+  TIER_PACKAGE_CAPS,
+  TIERED_DRAFT_RULES,
+  TIERED_EVIDENCE_RULES,
+  TIERED_UNDERSTAND_RULES,
+  flattenTieredSelection,
+  missingTiers,
+  orderDraftByTier,
+  rulingWithoutScholar,
+  tierLists,
+  tieredSelectionSchema,
+  videoBudgetAllows,
+  type Tier,
+} from "./tiered";
 
 export type Evidence =
   | {
@@ -148,6 +163,9 @@ export type PipelineDeps = {
   onRetrieved?: (result: { hintIds: string[]; quran: string[]; hadith: string[]; scholars: string[]; scholarEnabled: boolean; scholarProblem: string | null }) => void;
   onCandidates?: (candidates: PassageForSelection[]) => void;
   onSelection?: (raw: unknown) => void;
+  // ASK_TIERED=true (lib/ask/tiered.ts): Quran, hadith and scholar evidence are judged in separate
+  // lists and written in that order; videos only when the answer was ready within the budget.
+  tiered?: { videoBudgetMs: number; maxVideos: number };
 };
 
 // Remote sources: a small, well-planned candidate set keeps one question within the deadline.
@@ -187,6 +205,7 @@ const RETRYABLE = new Set([
   "list_not_allowed",
   "list_count",
   "source_attribution",
+  "ruling_without_scholar", // tiered mode only
 ]);
 // Explicit draft budget (design section 4.4): the initial draft plus at most one wording/format
 // correction, one missing-items correction and one screening correction. Never more.
@@ -552,8 +571,9 @@ async function relevantVideos(
   requirements: { id: string; text: string }[],
   candidates: VideoSuggestion[],
   signal: AbortSignal,
+  maxVideos: number = MAX_VIDEOS,
 ): Promise<VideoSuggestion[]> {
-  if (candidates.length === 0) return [];
+  if (candidates.length === 0 || maxVideos <= 0) return [];
   try {
     const output = await deps.verifier.generateJson({
       system: VIDEO_RELEVANCE_SYSTEM,
@@ -575,7 +595,7 @@ async function relevantVideos(
     const verdicts = output?.verdicts;
     if (!Array.isArray(verdicts) || verdicts.length !== candidates.length) return [];
     if (!verdicts.every((verdict) => verdict === "yes" || verdict === "no")) return [];
-    return candidates.filter((_, index) => verdicts[index] === "yes").slice(0, MAX_VIDEOS);
+    return candidates.filter((_, index) => verdicts[index] === "yes").slice(0, maxVideos);
   } catch {
     return [];
   }
@@ -594,8 +614,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   };
 
   // 1. Build a bounded question frame. Anything malformed or unknown is refused.
+  const tiered = deps.tiered;
   const understandOnce = (correction?: string) => deps.writer.generateJson({
-      system: UNDERSTAND_SYSTEM,
+      system: tiered ? `${UNDERSTAND_SYSTEM}\n${TIERED_UNDERSTAND_RULES}` : UNDERSTAND_SYSTEM,
       prompt: JSON.stringify({
         visitor_text: question,
         ...(correction ? { correction } : {}),
@@ -624,6 +645,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           search_queries_en: words,
           search_queries_de: words,
           search_queries_ar: words,
+          ...(tiered ? { search_queries_quran_ar: words, search_queries_hadith_ar: words } : {}),
         },
         required: [
           "language",
@@ -635,6 +657,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           "search_queries_en",
           "search_queries_de",
           "search_queries_ar",
+          ...(tiered ? ["search_queries_quran_ar", "search_queries_hadith_ar"] : []),
         ],
       },
     });
@@ -675,7 +698,17 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }
 
   // 3. Retrieve candidates. Search phrases improve recall but are never treated as evidence.
-  const queries = buildSearchQueries(frame);
+  // Tiered mode: Quran search gets the Quran-wording phrases instead of fatwa titles, and hadith search
+  // tries the Prophet's wording first. An empty tier list falls back to the fatwa phrases.
+  const tierQuran = tiered && frame.tierQueries?.quran.length ? frame.tierQueries.quran : null;
+  const queries = buildSearchQueries(tierQuran ? { ...frame, searchQueries: { ...frame.searchQueries, ar: tierQuran } } : frame);
+  // A hadith's own opening words find it best ("إنما الأعمال بالنيات" finds Bukhari 1 first), so a
+  // long hadith phrase is also searched by its first three words.
+  const tierHadith = frame.tierQueries?.hadith ?? [];
+  const hadithOpenings = tierHadith.map((phrase) => phrase.split(" ")).filter((w) => w.length > 3).map((w) => w.slice(0, 3).join(" "));
+  const hadithArabic = tiered
+    ? [...new Set([...hadithOpenings, ...tierHadith, ...(frame.searchQueries.ar ?? [])])]
+    : frame.searchQueries.ar ?? [];
   const direct = directRefs(question);
   const hints = matchingTopicHints(question);
   const mappedQuran = [...new Set(hints.flatMap((hint) => hint.quran))];
@@ -691,7 +724,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     deps.search(queries, MAX_QURAN_SEARCH_CANDIDATES),
     hadithCandidates(deps, {
       en: [...(frame.searchQueries.en ?? []), ...frame.subjects],
-      ar: frame.searchQueries.ar ?? [],
+      ar: hadithArabic,
     }),
     scholarCandidates(deps, frame.searchQueries.ar ?? [], mappedFatwas),
   ]);
@@ -728,9 +761,15 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     ...direct.map((key) => `Q${key}`), ...mappedQuran.map((key) => `Q${key}`),
     ...mappedHadith, ...quotes.filter((quote) => mappedFatwas.includes(quote.url)).map((quote) => quote.id),
   ]);
-  const defaultLimits = { quran: MAX_QURAN_CANDIDATES, hadith: MAX_HADITH_CANDIDATES, scholar: MAX_SCHOLAR_CANDIDATES };
+  const defaultLimits = tiered
+    ? { ...TIER_CANDIDATE_LIMITS }
+    : { quran: MAX_QURAN_CANDIDATES, hadith: MAX_HADITH_CANDIDATES, scholar: MAX_SCHOLAR_CANDIDATES };
   const limits = deps.candidateLimits ?? defaultLimits;
-  const ranked = rankCandidatesForQuestion(frame, allCandidates, mappedIds, {
+  // Tiered mode also ranks by the Quran and hadith wording phrases, not only the fatwa phrases.
+  const rankFrame = tiered && frame.tierQueries
+    ? { ...frame, searchQueries: { ...frame.searchQueries, ar: [...frame.tierQueries.hadith, ...frame.tierQueries.quran, ...(frame.searchQueries.ar ?? [])] } }
+    : frame;
+  const ranked = rankCandidatesForQuestion(rankFrame, allCandidates, mappedIds, {
     quran: Math.min(limits.quran, defaultLimits.quran),
     hadith: Math.min(limits.hadith, defaultLimits.hadith),
     scholar: Math.min(limits.scholar, defaultLimits.scholar),
@@ -769,35 +808,43 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     required: ["status", "coverage", "conflict_type", "assessments"],
   };
   const namedByVisitor = new Set(direct.map((key) => `Q${key}`));
-  const selectEvidence = (items: PassageForSelection[], selectionSignal: AbortSignal, correction = false) =>
-    deps.verifier.generateJson({
+  const evidenceSystem = tiered ? `${EVIDENCE_SYSTEM}\n${TIERED_EVIDENCE_RULES}` : EVIDENCE_SYSTEM;
+  const selectEvidence = async (items: PassageForSelection[], selectionSignal: AbortSignal, correction = false) => {
+    const question = {
+      language: frame.language,
+      question_type: frame.questionType,
+      subjects: frame.subjects,
+      requirements: frame.requirements,
+      qualifiers: frame.qualifiers,
+    };
+    const raw = await deps.verifier.generateJson({
       system: correction
-        ? `${EVIDENCE_SYSTEM}\nThis is one correction pass over a smaller candidate list. Assess every candidate exactly once. Do not upgrade partial or uncertain evidence merely to complete coverage.`
-        : EVIDENCE_SYSTEM,
-      prompt: JSON.stringify({
-        question: {
-          language: frame.language,
-          question_type: frame.questionType,
-          subjects: frame.subjects,
-          requirements: frame.requirements,
-          qualifiers: frame.qualifiers,
-        },
-        // Verses the visitor named by number or well-known name ("Ayat al-Kursi"), matched by code.
-        candidates: items.map((candidate) => selectionSource(candidate, namedByVisitor)),
-      }),
+        ? `${evidenceSystem}\nThis is one correction pass over a smaller candidate list. Assess every candidate exactly once. Do not upgrade partial or uncertain evidence merely to complete coverage.`
+        : evidenceSystem,
+      prompt: JSON.stringify(tiered
+        ? { question, ...tierLists(items, (candidate) => selectionSource(candidate, namedByVisitor)) }
+        : {
+            question,
+            // Verses the visitor named by number or well-known name ("Ayat al-Kursi"), matched by code.
+            candidates: items.map((candidate) => selectionSource(candidate, namedByVisitor)),
+          }),
       maxOutputTokens: correction ? 2048 : 3072,
       thinking: "low",
       signal: selectionSignal,
-      schema: selectionSchema,
+      schema: tiered ? tieredSelectionSchema(frame.requirements.map((requirement) => requirement.id)) : selectionSchema,
     });
+    deps.onSelection?.(raw);
+    // Tiered output becomes the flat shape, so the same strict parser and retry rules apply.
+    return tiered ? flattenTieredSelection(raw, items) : raw;
+  };
   const selected = await selectEvidence(candidates, signal);
-  deps.onSelection?.(selected);
   step(`selection(${candidates.length} candidates)`);
   // Code seals a capped package (3 Quran passage cards, 2 hadith, 2 scholar quotes) BEFORE drafting,
   // so a cap can never remove a source the writer later cites. Topic-map and visitor-named passages
   // rank first among equals; a complete named passage (al-Fatiha) may stay whole as one card.
   const namedPassages = namedPassageGroups(question);
-  let evidencePackage = parseEvidencePackage(selected, frame, candidates, { preferredIds: mappedIds, namedPassages });
+  const packageOptions = { preferredIds: mappedIds, namedPassages, ...(tiered ? { caps: TIER_PACKAGE_CAPS, tierOrder: true } : {}) };
+  let evidencePackage = parseEvidencePackage(selected, frame, candidates, packageOptions);
   const retryKind = evidencePackage ? null : selectionRetryKind(selected, candidates);
   if (retryKind) {
     const retryTimeoutMs = deps.selectionRetryTimeoutMs ?? SELECTION_RETRY_TIMEOUT_MS;
@@ -808,9 +855,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       try {
         const retrySignal = AbortSignal.any([signal, AbortSignal.timeout(retryTimeoutMs)]);
         const retried = await selectEvidence(retryCandidates, retrySignal, true);
-        deps.onSelection?.(retried);
         step(`selection_retry(${retryCandidates.length} candidates)`);
-        const retriedPackage = parseEvidencePackage(retried, frame, retryCandidates, { preferredIds: mappedIds, namedPassages });
+        const retriedPackage = parseEvidencePackage(retried, frame, retryCandidates, packageOptions);
         if (retriedPackage) {
           evidencePackage = retriedPackage;
           deps.onRefuse?.("selection_retry_succeeded");
@@ -834,6 +880,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // 5 + 6. The writer sees only the sealed package. Code verifies citations and requested-point coverage.
   const selectedSources = evidencePackage.passages.map((passage) => passage.source);
   const byId = new Map(selectedSources.map((s) => [sourceId(s), s]));
+  const kindOf = (id: string): Tier | undefined => byId.get(id)?.kind;
   const citable = selectedSources.map(asSource);
   if (!requiredSourceItemsPresent(question, citable)) return refuse("required_source_items_missing", language);
   const sourceRequirements = Object.fromEntries(
@@ -849,7 +896,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }).join("; ");
   const answerFrom = async (answer: StructuredDraft): Promise<AskResult> => {
     const claims = answer.claims;
-    const videoResult = await videoResultPromise;
+    // Tiered mode: videos come last and only when everything above finished within the budget.
+    const videosAllowed = !tiered || videoBudgetAllows(Date.now() - started, tiered.videoBudgetMs);
+    if (!videosAllowed) deps.onRefuse?.("video_skipped_budget"); // reason code only; the answer continues
+    const videoResult = videosAllowed ? await videoResultPromise : { videos: [] as VideoSuggestion[], problem: null };
     if (videoResult.problem) deps.onRefuse?.(videoResult.problem); // reason code only; the answer continues
     // Optional title checking starts only after the checked answer is complete, so it cannot
     // compete with selection, drafting or screening. Timeout and malformed output mean no videos.
@@ -858,6 +908,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       frame.requirements.map(({ id, text }) => ({ id, text })),
       videoResult.videos,
       AbortSignal.any([signal, AbortSignal.timeout(VIDEO_RELEVANCE_TIMEOUT_MS)]),
+      tiered ? tiered.maxVideos : MAX_VIDEOS,
     );
     const used = [...new Set(claims.flatMap((claim) => claim.refs))].map((id) => byId.get(id)!);
     // Verse refs are shown as "2:255"; hadith refs keep their id ("HE4196") and the page shows
@@ -935,9 +986,18 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const draftOnce = async (correction?: string): Promise<StructuredDraftResult> => {
     if (draftCalls >= MAX_DRAFT_CALLS) return { ok: false, reason: "draft_budget" };
     draftCalls += 1;
+    const result = await draftRequest(correction);
+    if (!tiered || !result.ok) return result;
+    // Tiered mode: code puts the simple answer in Quran, hadith, scholar order (screening sees the
+    // final order), and a ruling word must rest on an approved scholar's quote.
+    const ordered = orderDraftByTier(result.answer, kindOf);
+    if (rulingWithoutScholar(ordered.claims, kindOf)) return { ok: false, reason: "ruling_without_scholar" };
+    return { ok: true, answer: ordered };
+  };
+  const draftRequest = async (correction?: string): Promise<StructuredDraftResult> => {
     return parseStructuredDraft(
       await deps.writer.generateJson({
-        system: DRAFT_SYSTEM,
+        system: tiered ? `${DRAFT_SYSTEM}\n${TIERED_DRAFT_RULES}` : DRAFT_SYSTEM,
         prompt: JSON.stringify({
           answer_language: LANGUAGE_NAMES[language],
           list_allowed: listAllowed,
@@ -983,7 +1043,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   if (!parsed.ok && RETRYABLE.has(parsed.reason)) {
     const copyGuidance = parsed.reason === "copied_source" && requiredDirectItems.length > 0
       ? " When an indispensable item has familiar source wording, state its meaning with a different sentence structure while keeping every required name and role explicit."
-      : "";
+      : parsed.reason === "ruling_without_scholar"
+        ? " A ruling word may appear only in a sentence citing a scholar quote. Sentences citing a verse or hadith only restate what it says."
+        : "";
     parsed = await draftOnce(
       `The previous draft failed the code rule "${parsed.reason}". Keep the simple answer and list complete; use shorter, simpler cited sentences and do not reproduce source wording or repeat a fact. Keep every list item under ${DRAFT_LIMITS.listItemLength} characters and every sentence under ${LIMITS.maxClaimLength} characters. You must still cover every requested point: ${requirementReminder}. Use only these source ids for each point: ${requirementSourceReminder}.${copyGuidance}`,
     );
@@ -995,6 +1057,24 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     if (!parsed.ok) return noSummaryFallback(`list_retry_${parsed.reason}`, RETRYABLE.has(parsed.reason));
     missingItems = missingListedItems(question, language, citable, directClaims(parsed.answer));
     if (missingItems.length > 0) return noSummaryFallback("list_items_missing", true);
+  }
+
+  // Tiered mode: every source type in the package should appear in the simple answer. One correction;
+  // if it does not help, the draft that already passed every check is kept (a missing tier is not a
+  // safety problem, so it never refuses an answer on its own).
+  if (tiered) {
+    const packageTiers = new Set(selectedSources.map((source) => source.kind));
+    const missing = missingTiers(parsed.answer, packageTiers, kindOf);
+    if (missing.length > 0) {
+      const corrected = await draftOnce(`The simple answer left out these source types from the sealed package: ${missing.join(", ")}. Write simple_answer in the order Quran, Prophet, scholars, with at least one cited sentence for each source type present. Keep every other rule. Use only these source ids for each requested point: ${requirementSourceReminder}.`);
+      if (corrected.ok && missingTiers(corrected.answer, packageTiers, kindOf).length < missing.length
+        && missingListedItems(question, language, citable, directClaims(corrected.answer)).length === 0) {
+        parsed = corrected;
+        deps.onRefuse?.("tier_missing_fixed");
+      } else {
+        deps.onRefuse?.("tier_missing_kept");
+      }
+    }
   }
 
   // 7. Independent final screening of the answer against the sealed package.

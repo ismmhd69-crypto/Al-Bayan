@@ -115,8 +115,8 @@ export const ANSWER_V2_LIMITS = {
   quranCards: 3,
   versesPerCard: 8,
   hadith: 2,
-  scholars: 2,
-  videos: 2,
+  scholars: 3, // tiered mode allows 3 fatwas; the old package still stops at 2
+  videos: 4, // tiered mode shows up to 4 (MAX_VIDEOS); the old mode still stops at 2
   moreSections: 2,
   otherViews: 2,
   sideBySideViews: 3,

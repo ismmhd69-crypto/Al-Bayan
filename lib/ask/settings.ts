@@ -9,3 +9,24 @@ export function askDeadlineMs(value: string | undefined = process.env.ASK_DEADLI
 
 // ASK_LEAN=true: fewer candidates for the evidence check (for slower models). Off by default.
 export const LEAN_CANDIDATE_LIMITS = { quran: 5, hadith: 2, scholar: 3 } as const;
+
+// ASK_TIERED=true: evidence is chosen per tier (Quran, then hadith, then scholars), videos last.
+// Anything else keeps the single shared evidence check.
+export function askTiered(value: string | undefined = process.env.ASK_TIERED): boolean {
+  return value === "true";
+}
+
+// ASK_VIDEO_BUDGET_MS (tiered mode): videos are added only if the checked answer was ready within this
+// time (default 20 s). 0 means never.
+export function askVideoBudgetMs(value: string | undefined = process.env.ASK_VIDEO_BUDGET_MS): number {
+  const n = Number(value);
+  if (value === undefined || value.trim() === "" || !Number.isFinite(n) || n < 0) return 20_000;
+  return Math.min(Math.floor(n), 55_000);
+}
+
+// MAX_VIDEOS (tiered mode): at most this many related videos (default 4, never more than 4).
+export function askMaxVideos(value: string | undefined = process.env.MAX_VIDEOS): number {
+  const n = Number(value);
+  if (value === undefined || value.trim() === "" || !Number.isFinite(n) || n < 0) return 4;
+  return Math.min(Math.floor(n), 4);
+}

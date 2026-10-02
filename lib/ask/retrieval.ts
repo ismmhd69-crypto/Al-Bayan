@@ -56,6 +56,9 @@ export type QuestionFrame = {
   requiredFacets: AnswerFacet[];
   qualifiers: string[];
   searchQueries: Partial<Record<Locale, string[]>>;
+  // Tiered mode only: Arabic phrases in Quran wording and in the Prophet's wording. searchQueries.ar
+  // stays the fatwa wording. Absent in the old mode.
+  tierQueries?: { quran: string[]; hadith: string[] };
 };
 
 const LOCALES = ["ar", "en", "de"] as const;
@@ -128,6 +131,8 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
     ar: phrases(record.search_queries_ar, 6, 6).filter((query) => /\p{Script=Arabic}/u.test(query)),
   };
   if (kind === "question" && Object.values(searchQueries).every((list) => list.length === 0)) return null;
+  const arabicOnly = (value: unknown) => phrases(value, 3, 8).filter((query) => /\p{Script=Arabic}/u.test(query));
+  const tiered = "search_queries_quran_ar" in record || "search_queries_hadith_ar" in record;
 
   return {
     language: record.language as Locale,
@@ -138,6 +143,7 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
     requiredFacets,
     qualifiers,
     searchQueries,
+    ...(tiered ? { tierQueries: { quran: arabicOnly(record.search_queries_quran_ar), hadith: arabicOnly(record.search_queries_hadith_ar) } } : {}),
   };
 }
 
