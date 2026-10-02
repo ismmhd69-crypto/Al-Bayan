@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 120   | 60        | 36     | 24         | 0              | 3 / 6 / 8 / 19 / 0 / 24      | 7200          | Muslim 1762a through Muslim 1799. Twenty-four hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
 | 119   | 60        | 40     | 20         | 0              | 4 / 8 / 14 / 14 / 0 / 20      | 7140          | Muslim 1716c through Muslim 1759b. Twenty hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
 | 118   | 60        | 31     | 29         | 0              | 1 / 10 / 6 / 14 / 0 / 29      | 7080          | Muslim 1686a through Muslim 1716b. Twenty-nine hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
 | 117   | 60        | 32     | 28         | 0              | 3 / 6 / 10 / 13 / 0 / 28      | 7020          | Muslim 1659b through Muslim 1685b. Twenty-eight hadiths marked reference_only because they repeat or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
@@ -198,6 +199,12 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 - Sample size: 10 hadiths sampled across batches 101 through 110.
 - Sampled items: Batch 101 hadith 1198d, Batch 102 hadith 1216a, Batch 103 hadith 1250b, Batch 104 hadith 1288a, Batch 105 hadith 1318f, Batch 106 hadith 1359a, Batch 107 hadith 1392, Batch 108 hadith 1422a, Batch 109 hadith 1456a, and Batch 110 hadith 1479a.
 - Findings: All 10 samples have clean isnad-to-matn boundaries, kinds consistent with the visible narration, correct reference-only handling where applicable, and correct tail handling where present. No text corruption was found.
+- Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
+
+### Check 12 (After 120 Batches / 7200 Hadith)
+- Sample size: 10 hadiths sampled across batches 111 through 120, one from each batch.
+- Sampled items: Muslim 1480r, 1511e, 1537, 1555a, 1599d, 1628c, 1659c, 1686a, 1722a, and 1762a.
+- Findings: All 10 samples have clean isnad-to-matn boundaries, kinds consistent with the visible narration, correct reference-only handling where applicable, and no text corruption. No tail issues were found in the sampled items.
 - Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
 
 ### Check 2 (After 20 Batches / 1200 Hadith)
