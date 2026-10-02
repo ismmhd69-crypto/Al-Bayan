@@ -68,4 +68,5 @@ translation_index_allowed: false
 - Jaguar16/open-hadith-data was inspected because it separates `matn_ar` from `isnad_ar` and states CC0/public-domain terms for the Arabic text. Its current release contains 7,252 Bukhari records but only 3,087 Muslim records, so it cannot provide the complete two-book library.
 - mhashim6/Open-Hadith-Data was inspected under ODbL and DbCL. It documents its upstream Arabic source but does not provide a separately verified matn field.
 - fawazahmed0/hadith-api was not selected because its software public-domain statement does not establish rights or provenance for the Arabic editions.
+- Direct file checks found 7,009 mhashim Bukhari rows and 5,363 mhashim Muslim rows. The fawaz Arabic records contain full `text` fields, not a matn-only field.
 - No database changes were made during this recheck.
