@@ -1045,3 +1045,41 @@ Rejected:
 - 11256 حكم الطلاق المؤقت: ruling postponed
 - 11472 ما معنى: {‌وَلَقَدْ ‌هَمَّتْ ‌بِهِ ‌وَهَمَّ ‌بِهَا}؟: views, no clear ruling
 - 11766 نصيحة للمتساهلين في الفتوى بغير علم: general advice
+
+## Batch 045
+
+- Candidates read: 50
+- Approved and stored: 43
+- Rejected: 7
+- Needs Mo: 0
+- Page requests: 113, request errors: 0
+- Running total stored in this run: 1637
+
+Rejected:
+- 12081 أولاد المرضعة جميعًا إخوة لمن رضع منها: near duplicate of approved milk-kinship items
+- 12894 الفرق بين الأيام المعدودات والمعلومات: views, no clear ruling
+- 13083 حكم الاختلاط ببعض الأسر بسبب تحمل شؤونها: vague
+- 13209 هل إخوان من رضع من امرأة أبناء لها؟: near duplicate of approved milk-kinship items
+- 13336 ما يجب على من يعود إلى الذنب كلما تاب منه؟: general advice
+- 13685 بيان حديث قتال المسلمين لليهود، وفي أي زمن؟: not a ruling, political
+- 13774 توجيه لمن يفتي بغير علم: general advice
+
+## Batch 046
+
+- Candidates read: 50
+- Approved and stored: 41
+- Rejected: 9
+- Needs Mo: 0
+- Page requests: 119, request errors: 0
+- Running total stored in this run: 1678
+
+Rejected:
+- 13824 حكم قول الرجل لزوجته: إذا وافقت خيرًا فاستخيري: does not match its title
+- 14108 خصمت عليه الشركة فأخذ ما تعطى من خصم من المحلات: needs context
+- 14153 خطورة إخفاء طلاق المرأة على أهلها: needs context
+- 14439 الحكم على حديث: (سورة قريش أمان لكل خائف): no ruling
+- 14614 ليس عليك حرج في إقامتك بجدة وأنت محرم: needs context
+- 14645 حكم حرمان البنت من الميراث لكثرة مصاريف زواجها: needs context
+- 14689 حكم شهادة الزور وكفارتها: cut off
+- 14829 واجب الأب تجاه من يترك الصلاة من أولاده: harsh ruling in a personal case
+- 14873 حكم أعمال من تساهلت في الحجاب: needs context
