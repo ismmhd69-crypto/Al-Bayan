@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 130   | 60        | 35     | 25         | 0              | 6 / 12 / 12 / 5 / 0 / 25      | 7800          | Muslim 2107l through Muslim 2146a. Twenty-five hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
 | 129   | 60        | 34     | 26         | 0              | 11 / 8 / 7 / 8 / 0 / 26      | 7740          | Muslim 2078b through Muslim 2107k. Twenty-six hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
 | 128   | 60        | 25     | 35         | 0              | 7 / 3 / 3 / 12 / 0 / 35      | 7680          | Muslim 2045b through Muslim 2078a. Thirty-five hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
 | 127   | 60        | 33     | 27         | 0              | 11 / 10 / 4 / 8 / 0 / 27     | 7620          | Muslim 2010b through Muslim 2045a. Twenty-seven hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
@@ -231,3 +232,8 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
   10. Batch 20 (bukhari:1860): companion_words. Matn starts cleanly with Umar permitting the Prophet's wives to perform Hajj.
 - Findings: All 10 samples have precise boundary placements, valid kinds, correct tail exclusions where present, and zero text corruption.
 - Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
+
+### Check 13 (After 130 Batches / 7,800 Hadith)
+- Sample size: 10 hadiths, one marked hadith from each of batches 121 through 130.
+- Findings: All 10 samples had starts found exactly once, began at valid word boundaries, matched their recorded matn kind, and had no tail markers. Batch 130 validation also returned zero errors.
+- Error rate: 0.0% (0 / 10 sampled boundaries; 0 / 600 batch marks on validation). Quality benchmark satisfied.
