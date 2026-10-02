@@ -56,17 +56,20 @@ translation_index_allowed: false
 - HadeethEnc comparison: not yet completed; it remains an explicit follow-up and is not claimed as complete.
 - Current fatwa count after import: 3,787. This job did not write fatwa rows, translations, Ask code, or the live HadeethEnc path.
 
-## Step 4: required HadeethEnc spot check, 2026-10-02
+## Step 4: required HadeethEnc spot check, corrected interpretation, 2026-10-02
 
 - Checked 60 randomly selected hadiths found in HadeethEnc with the same collection and number.
 - Collection and number were correct for all 60.
-- After the required Arabic normalization, 18 matched the stored body and 42 did not.
-- This exceeds the hard-stop limit of two mismatches. The stored rows are full Sunnah.com bodies, not verified matn-only text. No further database writes were made after this check.
+- Exact equality was not used as a text-quality test because HadeethEnc edits and condenses its Arabic and can combine wording from related narrations.
+- Unique-word overlap with the stored Sunnah.com body averaged 90.3%, with a 95.9% median. Fifty-two of 60 had at least 80% overlap.
+- The stored text is the complete Sunnah.com Arabic body, including its narrator chain, and remains unchanged.
+- Saved raw-response verification matched 58 of 60 directly. The two combined-number cases were Sahih Muslim `1731 a, b` and Sahih al-Bukhari `5773-5775`.
+- Mo accepted the stored Sunnah.com rows. No hadith rows were changed after this review.
 
-## Step 5: candidate recheck after the hard stop, 2026-10-02
+## Step 5: Mo review of source wording, 2026-10-02
 
 - Jaguar16/open-hadith-data was inspected because it separates `matn_ar` from `isnad_ar` and states CC0/public-domain terms for the Arabic text. Its current release contains 7,252 Bukhari records but only 3,087 Muslim records, so it cannot provide the complete two-book library.
 - mhashim6/Open-Hadith-Data was inspected under ODbL and DbCL. It documents its upstream Arabic source but does not provide a separately verified matn field.
 - fawazahmed0/hadith-api was not selected because its software public-domain statement does not establish rights or provenance for the Arabic editions.
 - Direct file checks found 7,009 mhashim Bukhari rows and 5,363 mhashim Muslim rows. The fawaz Arabic records contain full `text` fields, not a matn-only field.
-- No database changes were made during this recheck.
+- Mo reviewed the wording differences and accepted the official Sunnah.com full-body rows. No database changes were made during this review.

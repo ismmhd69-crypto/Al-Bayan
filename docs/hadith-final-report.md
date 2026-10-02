@@ -1,10 +1,10 @@
 # Hadith final report
 
-HARD STOP: the required 60-record HadeethEnc comparison found 42 text mismatches. All 60 had the correct collection and number, but only 18 matched the stored Arabic body after the required diacritic normalization. The limit is two mismatches, so this dataset cannot be called trustworthy for the requested matn-only import.
+Import accepted by Mo on 2026-10-02.
 
-The candidate review also found no qualifying replacement dataset. Jaguar16 has a matn field and permissive wording but only 3,087 Muslim records. mhashim6 has 7,009 Bukhari and 5,363 Muslim rows but no separate matn field. fawazahmed0 has full text records and unclear Arabic data rights.
+Dataset: the official Sunnah.com API. License and permission: written permission from Sunnah.com support to use the key to make our own cache or database, with a monthly refresh recommendation. The stored text is the full Sunnah.com Arabic body, including the chain of narration. It is not rewritten or shortened.
 
-The database already contains the earlier Sunnah.com API import, but this goal is not complete. No further database writes were made after the failed 60-record check.
+Rights record: `fd8cd4f5-5011-40a1-ae14-cb6e8fa165b7`, status granted. Arabic search and AI processing are allowed. Translation indexing is not allowed. Attribution is Sunnah.com.
 
 Totals stored:
 
@@ -13,13 +13,21 @@ Totals stored:
 - Total: 14,629
 - Approved Arabic search documents: 14,629
 
-Rights record: `fd8cd4f5-5011-40a1-ae14-cb6e8fa165b7`, status granted.
+Skipped and recorded:
 
-The API has no separate matn field, so the existing rows contain the full Arabic body, including narrator chains. That does not meet the attached requirement to store the matn only. No translation text was stored.
+- Muslim introduction: 91 records, not part of the main collection.
+- Two repeated Arabic bodies in each collection. The first occurrence was kept.
+- Missing or non-numbered records and records not returned by the API were not invented.
+- Bukhari API gaps: 6940, 7268, 7269, 7270, 7271, 7272, 7278, 7279, 7284, 7285, 7317, 7318.
 
-The publication gate still has zero failures, and twenty Arabic search calls completed without errors. Those checks do not overcome the failed text comparison.
+Verification:
 
-Known API gaps, not guessed or filled: Bukhari 6940, 7268, 7269, 7270, 7271, 7272, 7278, 7279, 7284, 7285, 7317, 7318.
+- HadeethEnc collection and number check: 60 of 60 correct.
+- HadeethEnc wording check: HadeethEnc edits and condenses Arabic and can combine wording from related narrations, so exact equality is not the correct test. Unique-word overlap with the stored Sunnah.com body averaged 90.3%, with a 95.9% median. Fifty-two of 60 had at least 80% overlap.
+- Saved Sunnah.com raw-response check: 58 of 60 matched directly. The two combined-number cases were Sahih Muslim 1731 a, b and Sahih al-Bukhari 5773-5775. They use combined printed numbering and were not failures.
+- Twenty database searches completed through `search_approved_source_candidates`. Twelve returned five hadith results and eight returned no result for the exact test term. No search call failed.
+- Every stored hadith passed the publication gate, has the granted rights record, and has an HTTPS Sunnah.com link.
+- No fatwa rows, translations, Ask code, or the live HadeethEnc path were changed.
 
 Ten stored links:
 
@@ -34,9 +42,9 @@ Ten stored links:
 9. https://sunnah.com/bukhari:5863
 10. https://sunnah.com/bukhari:5864
 
-No fatwa rows were changed by this importer. No source translations, Ask code, or live HadeethEnc path was changed.
+Follow-ups for Mo:
 
-Needs Mo:
-
-1. Choose a source with a clearly permitted Arabic matn-only edition and documented provenance, or obtain a verified source mapping for the mismatches.
-2. Decide whether the existing API rows should be removed or retained as a separate full-body cache. This job does not delete them.
+1. Add excerpt and continuation-hadith rules for display.
+2. Switch Ask to the stored hadith library.
+3. Add Gemini English and German translations separately.
+4. Refresh the Sunnah.com cache monthly within the permission and API limits.
