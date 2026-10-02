@@ -1,0 +1,187 @@
+import fs from "node:fs";
+import { HadithExportItem } from "./export-hadith-for-marking";
+import { HadithMark, validateSingleMark } from "./validate-hadith-marks";
+
+const batch: HadithExportItem[] = JSON.parse(fs.readFileSync("data/hadith-split/batch-004.json", "utf8"));
+
+function getStartSlice(text: string, marker: string): string {
+  const idx = text.indexOf(marker);
+  if (idx === -1) throw new Error(`Marker not found: ${marker}`);
+  let len = Math.max(marker.length, 35);
+  while (len < text.length - idx) {
+    const candidate = text.slice(idx, idx + len);
+    if (text.split(candidate).length === 2) {
+      return candidate;
+    }
+    len += 5;
+  }
+  return text.slice(idx);
+}
+
+function getTailSlice(text: string, marker: string): string {
+  const idx = text.indexOf(marker);
+  if (idx === -1) throw new Error(`Tail marker not found: ${marker}`);
+  let len = Math.max(marker.length, 30);
+  while (len < text.length - idx) {
+    const candidate = text.slice(idx, idx + len);
+    if (text.split(candidate).length === 2) {
+      return candidate;
+    }
+    len += 5;
+  }
+  return text.slice(idx);
+}
+
+const defs: Array<[number, string | null, HadithMark["kind"], string?]> = [
+  // 1: bukhari:303
+  [0, "كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا أَرَادَ أَنْ يُبَاشِرَ", "companion_words", "وَرَوَاهُ سُفْيَانُ عَنِ الشَّيْبَانِيِّ‏.‏"],
+  // 2: bukhari:304
+  [1, "خَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي أَضْحًى", "dialogue"],
+  // 3: bukhari:308
+  [2, "كَانَتْ إِحْدَانَا تَحِيضُ، ثُمَّ تَقْتَرِصُ الدَّمَ", "companion_words"],
+  // 4: bukhari:309
+  [3, "أَنَّ النَّبِيَّ صلى الله عليه وسلم اعْتَكَفَ مَعَهُ بَعْضُ نِسَائِهِ", "narration"],
+  // 5: bukhari:310
+  [4, "اعْتَكَفَتْ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم امْرَأَةٌ", "narration"],
+  // 6: bukhari:311
+  [5, "أَنَّ بَعْضَ، أُمَّهَاتِ الْمُؤْمِنِينَ اعْتَكَفَتْ", "narration"],
+  // 7: bukhari:312
+  [6, "مَا كَانَ لإِحْدَانَا إِلاَّ ثَوْبٌ وَاحِدٌ تَحِيضُ فِيهِ،", "companion_words"],
+  // 8: bukhari:313
+  [7, "كُنَّا نُنْهَى أَنْ نُحِدَّ عَلَى مَيِّتٍ فَوْقَ ثَلاَثٍ،", "companion_words", "قَالَ رَوَاهُ هِشَامُ بْنُ حَسَّانَ عَنْ حَفْصَةَ"],
+  // 9: bukhari:314
+  [8, "أَنَّ امْرَأَةً، سَأَلَتِ النَّبِيَّ صلى الله عليه وسلم عَنْ غُسْلِهَا", "dialogue"],
+  // 10: bukhari:315
+  [9, "أَنَّ امْرَأَةً، مِنَ الأَنْصَارِ قَالَتْ لِلنَّبِيِّ صلى الله عليه وسلم", "dialogue"],
+  // 11: bukhari:317
+  [10, "خَرَجْنَا مُوَافِينَ لِهِلاَلِ ذِي الْحِجَّةِ،", "dialogue", "قَالَ هِشَامٌ وَلَمْ يَكُنْ فِي شَىْءٍ مِنْ ذَلِكَ"],
+  // 12: bukhari:321
+  [11, "أَنَّ امْرَأَةً، قَالَتْ لِعَائِشَةَ أَتَجْزِي إِحْدَانَا", "dialogue"],
+  // 13: bukhari:324
+  [12, "كُنَّا نَمْنَعُ عَوَاتِقَنَا أَنْ يَخْرُجْنَ فِي الْعِيدَيْنِ،", "dialogue"],
+  // 14: bukhari:326
+  [13, "كُنَّا لاَ نَعُدُّ الْكُدْرَةَ وَالصُّفْرَةَ شَيْئًا‏.‏", "companion_words"],
+  // 15: bukhari:328
+  [14, "أَنَّهَا قَالَتْ لِرَسُولِ اللَّهِ صلى الله عليه وسلم يَا رَسُولَ اللَّهِ،", "dialogue"],
+  // 16: bukhari:329
+  [15, "رُخِّصَ لِلْحَائِضِ أَنْ تَنْفِرَ، إِذَا حَاضَتْ‏.‏", "companion_words"],
+  // 17: bukhari:332
+  [16, "أَنَّ امْرَأَةً، مَاتَتْ فِي بَطْنٍ، فَصَلَّى عَلَيْهَا النَّبِيُّ", "narration"],
+  // 18: bukhari:333
+  [17, "أَنَّهَا كَانَتْ تَكُونُ حَائِضًا لاَ تُصَلِّي،", "companion_words"],
+  // 19: bukhari:334
+  [18, "خَرَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي بَعْضِ أَسْفَارِهِ،", "dialogue"],
+  // 20: bukhari:336
+  [19, "أَنَّهَا اسْتَعَارَتْ مِنْ أَسْمَاءَ قِلاَدَةً فَهَلَكَتْ،", "dialogue"],
+  // 21: bukhari:337
+  [20, "أَقْبَلْتُ أَنَا وَعَبْدُ اللَّهِ بْنُ يَسَارٍ،", "narration"],
+  // 22: bukhari:339
+  [21, null, "reference_only"],
+  // 23: bukhari:340
+  [22, null, "reference_only"],
+  // 24: bukhari:342
+  [23, null, "reference_only"],
+  // 25: bukhari:343
+  [24, "فَضَرَبَ النَّبِيُّ صلى الله عليه وسلم بِيَدِهِ الأَرْضَ،", "narration"],
+  // 26: bukhari:344
+  [25, "كُنَّا فِي سَفَرٍ مَعَ النَّبِيِّ صلى الله عليه وسلم", "dialogue"],
+  // 27: bukhari:345
+  [26, "قَالَ أَبُو مُوسَى لِعَبْدِ اللَّهِ بْنِ مَسْعُودٍ إِذَا لَمْ يَجِدِ الْمَاءَ", "companion_words"],
+  // 28: bukhari:347
+  [27, "كُنْتُ جَالِسًا مَعَ عَبْدِ اللَّهِ وَأَبِي مُوسَى الأَشْعَرِيِّ", "dialogue", "وَزَادَ يَعْلَى عَنِ الأَعْمَشِ عَنْ شَقِيقٍ"],
+  // 29: bukhari:348
+  [28, "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم رَأَى رَجُلاً مُعْتَزِلاً", "dialogue"],
+  // 30: bukhari:349
+  [29, "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \u200F\"\u200F فُرِجَ عَنْ سَقْفِ بَيْتِي", "prophet_words"],
+  // 31: bukhari:351
+  [30, "أُمِرْنَا أَنْ نُخْرِجَ، الْحُيَّضَ يَوْمَ الْعِيدَيْنِ", "dialogue", "وَقَالَ عَبْدُ اللَّهِ بْنُ رَجَاءٍ حَدَّثَنَا عِمْرَانُ،"],
+  // 32: bukhari:352
+  [31, "صَلَّى جَابِرٌ فِي إِزَارٍ قَدْ عَقَدَهُ مِنْ قِبَلِ قَفَاهُ،", "dialogue"],
+  // 33: bukhari:353
+  [32, "رَأَيْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ يُصَلِّي فِي ثَوْبٍ وَاحِدٍ", "companion_words"],
+  // 34: bukhari:354
+  [33, "أَنَّ النَّبِيَّ صلى الله عليه وسلم صَلَّى فِي ثَوْبٍ وَاحِدٍ", "narration"],
+  // 35: bukhari:355
+  [34, "أَنَّهُ رَأَى النَّبِيَّ صلى الله عليه وسلم يُصَلِّي فِي ثَوْبٍ وَاحِدٍ", "narration"],
+  // 36: bukhari:356
+  [35, "رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يُصَلِّي فِي ثَوْبٍ وَاحِدٍ", "narration"],
+  // 37: bukhari:357
+  [36, "ذَهَبْتُ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم عَامَ الْفَتْحِ،", "dialogue"],
+  // 38: bukhari:361
+  [37, "سَأَلْنَا جَابِرَ بْنَ عَبْدِ اللَّهِ عَنِ الصَّلاَةِ، فِي الثَّوْبِ الْوَاحِدِ", "dialogue"],
+  // 39: bukhari:362
+  [38, "كَانَ رِجَالٌ يُصَلُّونَ مَعَ النَّبِيِّ صلى الله عليه وسلم عَاقِدِي أُزْرِهِمْ", "narration"],
+  // 40: bukhari:364
+  [39, "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَنْقُلُ مَعَهُمُ الْحِجَارَةَ", "narration"],
+  // 41: bukhari:366
+  [40, "سَأَلَ رَجُلٌ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ مَا يَلْبَسُ الْمُحْرِمُ", "dialogue", "وَعَنْ نَافِعٍ عَنِ ابْنِ عُمَرَ عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَهُ‏.‏"],
+  // 42: bukhari:367
+  [41, "نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ اشْتِمَالِ الصَّمَّاءِ", "narration"],
+  // 43: bukhari:368
+  [42, "نَهَى النَّبِيُّ صلى الله عليه وسلم عَنْ بَيْعَتَيْنِ", "narration"],
+  // 44: bukhari:369
+  [43, "بَعَثَنِي أَبُو بَكْرٍ فِي تِلْكَ الْحَجَّةِ فِي مُؤَذِّنِينَ", "companion_words"],
+  // 45: bukhari:370
+  [44, "دَخَلْتُ عَلَى جَابِرِ بْنِ عَبْدِ اللَّهِ وَهُوَ يُصَلِّي فِي ثَوْبٍ", "dialogue"],
+  // 46: bukhari:371
+  [45, "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم غَزَا خَيْبَرَ،", "dialogue"],
+  // 47: bukhari:372
+  [46, "لَقَدْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي الْفَجْرَ،", "narration"],
+  // 48: bukhari:373
+  [47, "أَنَّ النَّبِيَّ صلى الله عليه وسلم صَلَّى فِي خَمِيصَةٍ لَهَا أَعْلاَمٌ،", "narration", "وَقَالَ هِشَامُ بْنُ عُرْوَةَ عَنْ أَبِيهِ"],
+  // 49: bukhari:376
+  [48, "رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فِي قُبَّةٍ حَمْرَاءَ", "narration"],
+  // 50: bukhari:377
+  [49, "سَأَلُوا سَهْلَ بْنَ سَعْدٍ مِنْ أَىِّ شَىْءٍ الْمِنْبَرُ", "dialogue", "قَالَ أَبُو عَبْدِ اللَّهِ قَالَ عَلِيُّ بْنُ عَبْدِ اللَّهِ سَأَلَنِي أَحْمَدُ بْنُ حَنْبَلٍ"],
+  // 51: bukhari:378
+  [50, "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم سَقَطَ عَنْ فَرَسِهِ،", "dialogue"],
+  // 52: bukhari:379
+  [51, "كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي وَأَنَا حِذَاءَهُ", "companion_words"],
+  // 53: bukhari:381
+  [52, "كَانَ النَّبِيُّ صلى الله عليه وسلم يُصَلِّي عَلَى الْخُمْرَةِ‏.‏", "narration"],
+  // 54: bukhari:382
+  [53, "كُنْتُ أَنَامُ بَيْنَ يَدَىْ رَسُولِ اللَّهِ صلى الله عليه وسلم وَرِجْلاَىَ فِي قِبْلَتِهِ،", "companion_words"],
+  // 55: bukhari:383
+  [54, "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يُصَلِّي وَهْىَ بَيْنَهُ", "narration"],
+  // 56: bukhari:384
+  [55, "أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يُصَلِّي وَعَائِشَةُ مُعْتَرِضَةٌ", "narration"],
+  // 57: bukhari:385
+  [56, "كُنَّا نُصَلِّي مَعَ النَّبِيِّ صلى الله عليه وسلم فَيَضَعُ أَحَدُنَا", "companion_words"],
+  // 58: bukhari:386
+  [57, "سَأَلْتُ أَنَسَ بْنَ مَالِكٍ أَكَانَ النَّبِيُّ صلى الله عليه وسلم يُصَلِّي", "dialogue"],
+  // 59: bukhari:387
+  [58, "رَأَيْتُ جَرِيرَ بْنَ عَبْدِ اللَّهِ بَالَ ثُمَّ تَوَضَّأَ،", "companion_words", "قَالَ إِبْرَاهِيمُ فَكَانَ يُعْجِبُهُمْ،"],
+  // 60: bukhari:388
+  [59, "وَضَّأْتُ النَّبِيَّ صلى الله عليه وسلم فَمَسَحَ عَلَى خُفَّيْهِ وَصَلَّى‏.‏", "narration"],
+];
+
+const marks: HadithMark[] = [];
+let hasError = false;
+
+for (const [idx, marker, kind, tailMarker] of defs) {
+  const item = batch[idx];
+  const t = item.text_original;
+  const start = marker ? getStartSlice(t, marker) : null;
+  const tail_start = tailMarker ? getTailSlice(t, tailMarker) : undefined;
+  const mark: HadithMark = {
+    id: item.id,
+    url: item.url,
+    start,
+    kind,
+    tail_start,
+  };
+  const val = validateSingleMark(mark, t);
+  if (!val.valid) {
+    console.error(`Validation failed for [${item.url}]: ${val.error}`);
+    hasError = true;
+  }
+  marks.push(mark);
+}
+
+if (hasError) {
+  console.error("Batch 4 marks had validation errors!");
+  process.exit(1);
+}
+
+fs.writeFileSync("data/hadith-split/marks-004.json", JSON.stringify(marks, null, 2), "utf8");
+console.log(`Successfully generated and validated ${marks.length} marks for batch 4! Saved to data/hadith-split/marks-004.json`);
