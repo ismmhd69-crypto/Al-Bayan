@@ -62,3 +62,10 @@ translation_index_allowed: false
 - Collection and number were correct for all 60.
 - After the required Arabic normalization, 18 matched the stored body and 42 did not.
 - This exceeds the hard-stop limit of two mismatches. The stored rows are full Sunnah.com bodies, not verified matn-only text. No further database writes were made after this check.
+
+## Step 5: candidate recheck after the hard stop, 2026-10-02
+
+- Jaguar16/open-hadith-data was inspected because it separates `matn_ar` from `isnad_ar` and states CC0/public-domain terms for the Arabic text. Its current release contains 7,252 Bukhari records but only 3,087 Muslim records, so it cannot provide the complete two-book library.
+- mhashim6/Open-Hadith-Data was inspected under ODbL and DbCL. It documents its upstream Arabic source but does not provide a separately verified matn field.
+- fawazahmed0/hadith-api was not selected because its software public-domain statement does not establish rights or provenance for the Arabic editions.
+- No database changes were made during this recheck.

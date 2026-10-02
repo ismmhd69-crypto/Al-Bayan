@@ -2,6 +2,8 @@
 
 HARD STOP: the required 60-record HadeethEnc comparison found 42 text mismatches. All 60 had the correct collection and number, but only 18 matched the stored Arabic body after the required diacritic normalization. The limit is two mismatches, so this dataset cannot be called trustworthy for the requested matn-only import.
 
+The candidate review also found no qualifying replacement dataset. Jaguar16 has a matn field and permissive wording but only 3,087 Muslim records. The other reviewed candidates are incomplete, lack a separate verified matn, or have unclear data rights.
+
 The database already contains the earlier Sunnah.com API import, but this goal is not complete. No further database writes were made after the failed 60-record check.
 
 Totals stored:

@@ -8,6 +8,15 @@ HARD STOP: the current full-body Sunnah.com API import failed the required Hadee
 
 The Sunnah.com official API was used after written permission from Sunnah.com support on 2026-10-02. That permission allows using the API key to make our own cache or database, with a monthly refresh recommendation. However, the API provides a full body and no separate matn field. The current import therefore does not meet the attached matn-only requirement. The API key is not stored in the app, database, raw files, or reports.
 
+## Candidate review required by the original plan
+
+- Jaguar16/open-hadith-data is the only reviewed candidate with explicit `matn_ar` and `isnad_ar` fields. Its current release reports 7,252 Bukhari records and 3,087 Muslim records, so it is not complete for this goal. Its CC0 and public-domain wording is clear, but its README also says the data was extracted from Sunnah.com and gives no guarantee of completeness or correctness.
+- mhashim6/Open-Hadith-Data uses ODbL for the database and DbCL for contents, and documents hadith-islamware as the upstream Arabic source. The reviewed material is a full Arabic field, not a separately verified matn field, so it does not meet the requested storage rule.
+- fawazahmed0/hadith-api places its software in the public domain, but the software license does not establish rights or provenance for each Arabic edition. It was not selected.
+- The Sunnah.com API has written permission for a cache or database, but its response has only a full body and no matn field. It is therefore not a qualifying matn-only dataset for this goal.
+
+No candidate passed all three requirements together: permissive rights, complete Bukhari and Muslim coverage, and a verified Arabic matn-only field.
+
 ## Dataset and exact-text findings
 
 - API: `https://api.sunnah.com/v1`.
