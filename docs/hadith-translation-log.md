@@ -650,3 +650,7 @@ Batch 283 inserted 6 rows for Bukhari hadiths 829 to 831. The database count inc
 Batch 284 inserted 6 rows for Bukhari hadiths 832/833 to 835. The database count increased from 10,618 to 10,624, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
 
 Batch 285 inserted 6 rows for Bukhari hadiths 836 to 838. The database count increased from 10,624 to 10,630, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
+
+Batch 286 inserted 6 rows for Bukhari hadiths 839/840 to 842. The database count increased from 10,630 to 10,636, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
+
+Batch 287 inserted 6 rows for Bukhari hadiths 843 to 845. The database count increased from 10,636 to 10,642, exactly matching the 6 inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
