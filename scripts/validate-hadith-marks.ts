@@ -4,7 +4,7 @@ import path from "node:path";
 
 process.loadEnvFile(".env");
 
-const CHAIN_WORDS = ["حَدَّثَنَا", "أَخْبَرَنَا", "حَدَّثَنِي", "أَخْبَرَنِي", "عَنْ", "سَمِعْتُ", "قَالَ"];
+const CHAIN_WORDS = ["حَدَّثَنَا", "أَخْبَرَنَا", "حَدَّثَنِي", "أَخْبَرَنِي", "عَنْ", "سَمِعْتُ", "قَالَ", "حَدَّثَهُ"];
 
 export type HadithMark = {
   id: string;
