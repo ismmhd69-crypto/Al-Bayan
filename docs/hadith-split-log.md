@@ -33,6 +33,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 | 025   | 60        | 59     | 1          | 0              | 13 / 9 / 18 / 19 / 0 / 1       | 1500          | Bukhari 2412 through Bukhari 2539. bukhari:2437b marked reference_only. 2 hadiths have tail_start comments marked. Zero errors. |
 | 026   | 60        | 60     | 0          | 0              | 14 / 18 / 22 / 6 / 0 / 0        | 1560          | Bukhari 2541 through Bukhari 2662. No tail_start markers. Zero errors. |
 | 027   | 60        | 60     | 0          | 0              | 10 / 9 / 31 / 10 / 0 / 0        | 1620          | Bukhari 2664 through Bukhari 2778. No tail_start markers. Zero errors. |
+| 028   | 60        | 60     | 0          | 0              | 11 / 7 / 38 / 4 / 0 / 0        | 1680          | Bukhari 2780 through Bukhari 2908. No tail_start markers. Zero errors. |
 
 *Legend for Kinds: P = prophet_words, N = narration, C = companion_words, D = dialogue, U = unclear, R = reference_only.*
 
