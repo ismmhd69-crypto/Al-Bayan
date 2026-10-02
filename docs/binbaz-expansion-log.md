@@ -1083,3 +1083,61 @@ Rejected:
 - 14689 حكم شهادة الزور وكفارتها: cut off
 - 14829 واجب الأب تجاه من يترك الصلاة من أولاده: harsh ruling in a personal case
 - 14873 حكم أعمال من تساهلت في الحجاب: needs context
+
+## Batch 047
+
+- Candidates read: 50
+- Approved and stored: 32
+- Rejected: 18
+- Needs Mo: 0
+- Page requests: 152, request errors: 0
+- Running total stored in this run: 1710
+
+Rejected:
+- 14982 الوصية بالإصلاح بين الوالدين: personal advice
+- 15049 حكم من نذر تعليم ابنه العلم الشرعي ولم يتمكن: personal case
+- 15143 من نزل عليها الدم تبقى على إحرامها: needs context
+- 15164 حكم من طاف للوداع يوم الحادي عشر وخرج من مكة: personal case
+- 15170 الأفضل للمرأة أن تحرم في شراب وليس لها الإحرام في قفازين: reported speech
+- 15240 ما يجب على من تركت الرمي مع قدرتها؟: personal case
+- 15364 شرح حديث: "لأن يمشي أحدكم في حاجة أخيه...": hadith unknown to scholar
+- 15723 الإكثار من الطواف والصلاة: views, no clear ruling
+- 15728 حكم من شك هل أتم سبعة أشواط أم لا؟: mixed answer
+- 15752 هل يأثم الرجل إذا غاب عن أهله عدة سنوات؟: personal case
+- 15925 الوقوف بعرفة مع جماعة المسلمين لا على الحساب: about a group not shown
+- 16196 الأولى في مسائل الطلاق التوجه للمحكمة أو مفتي البلد: ruling postponed
+- 16198 حكم ترك زيارة الأقارب بسبب المنكرات: personal case
+- 16199 بعض أسباب الطلاق وعلاج ذلك: not a ruling
+- 16288 حكم إعطاء الأم ميراث أولادها لمن يتجر به: personal case
+- 16344 من توقف عن الطواف لعذر يكمل من حيث توقف: personal case
+- 16361 حكم الزيادة في السعي: personal case
+- 16366 حكم من سافر ولم يكمل سعيه: personal case
+
+## Batch 048
+
+- Candidates read: 50
+- Approved and stored: 32
+- Rejected: 18
+- Needs Mo: 0
+- Page requests: 169, request errors: 1
+- Running total stored in this run: 1742
+
+Rejected:
+- 16805 الحكم على حديث: (أنا ابن الذبيحين): hadith soundness unknown
+- 16825 حكم الرجوع إلى الدخان بعد تركه: vague
+- 17075 حكم يمين الغضبان: near duplicate of an approved item
+- 17127 حكم تقيد الورثة بوصية والدهم: personal case
+- 17176 وجوب العدل بين الأولاد في العطية: near duplicate of approved items
+- 17202 حكم توزيع الطعام والحلوى في المولد النبوي: no clear ruling
+- 17327 أخو خال الأم من الرضاعة ليس محرمًا: near duplicate of milk-kinship items
+- 17329 حكم من رأى هلال رمضان ولم يعمل برؤيته: views, no clear ruling
+- 17428 حكم خلوة المرأة مع من يُشك في محرميته: near duplicate of milk-kinship items
+- 17612 أهمية التوبة والإكثار من فعل الطاعات: personal case
+- 17648 الأحكام التي تثبت بالرضاع: near duplicate of milk-kinship items
+- 17691 توجيه إلى المتساهلين في الفتوى: general advice
+- 17943 ما معنى: «لا تقوم الساعة حتى يكلم الرجل فخذه»؟: speculative
+- 17955 حكم طاعة الوالدين في أمرهما بالنفقة على الإخوان: personal case
+- 17980 تبرك الصحابة بالنبي ﷺ وحكم قياس غيره عليه: no ruling
+- 17987 حكم تصديق النساء أمر الرضاع وغيره: views, no clear ruling
+- 17989 من أسباب الفشل في الحياة الزوجية: not a ruling
+- 18009 خصومات الطلاق يرجع فيها إلى المحكمة الشرعية: ruling postponed
