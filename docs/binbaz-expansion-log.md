@@ -1011,3 +1011,37 @@ Rejected:
 - 9499 تزكية النفوس .. ومداخل الشيطان: vague
 - 9645 ميزان العفة في الشرع: no real ruling
 - 9652 تفسير أوائل سورة عبس: no content
+
+## Batch 043
+
+- Candidates read: 50
+- Approved and stored: 42
+- Rejected: 8
+- Needs Mo: 0
+- Page requests: 136, request errors: 0
+- Running total stored in this run: 1548
+
+Rejected:
+- 9696 توجيه للتجار الذين يستغلون حاجة الفقراء: general advice, no ruling
+- 9728 ما معنى: {فَمَنِ اتَّبَعَ هُدَايَ فَلا يَضِلُّ وَلا يَشْقَى}؟: only quotes the verse
+- 9832 نصيحة للزوجة وأم زوجها بالصبر والتحمل والبعد عن المشاكل: personal advice
+- 9924 ما صحة حديث: «أخوف ما أخاف على أمتي الهوى»؟: hadith unknown to scholar
+- 10184 ميقات أهل السودان: unclear ending
+- 10479 حكم من ارتكب محظوراً من محظورات الإحرام: needs context
+- 10683 إرشاد من كان له والدان وله زوجة لا تحسن إليهما: personal case, needs context
+- 10755 وجوب طاعة الولد لوالده في المعروف مع إساءته للولد: context opener
+
+## Batch 044
+
+- Candidates read: 50
+- Approved and stored: 46
+- Rejected: 4
+- Needs Mo: 0
+- Page requests: 159, request errors: 4
+- Running total stored in this run: 1594
+
+Rejected:
+- 11024 هل يجذب مصلٍ من الصف إذا لم يوجد من يصف معه؟: near duplicate of an approved item
+- 11256 حكم الطلاق المؤقت: ruling postponed
+- 11472 ما معنى: {‌وَلَقَدْ ‌هَمَّتْ ‌بِهِ ‌وَهَمَّ ‌بِهَا}؟: views, no clear ruling
+- 11766 نصيحة للمتساهلين في الفتوى بغير علم: general advice
