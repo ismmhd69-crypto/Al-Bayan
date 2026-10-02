@@ -7,7 +7,7 @@ Published: `false`
 
 ## Needs Mo
 
-- `e942fb99-5c68-4433-a192-d89779835490`: Text in original Arabic transcript contains transcription errors ("ويفتح له باب إلى الجنة" said about the kafir, and "وأما المؤمن فيقول: ها ها لا أدري" said about the second person). Skipped rather than guessing.
+- `e942fb99-5c68-4433-a192-d89779835490`: Unpublished by Gemini on Mo's instruction, 2026-10-02; the Arabic has reversed statements, Mo to check the official page and decide.
 
 ## Batch History
 
@@ -152,3 +152,13 @@ Published: `false`
 - Fix batch 1: 40 rows fixed
 - Fix batch 2: 40 rows fixed
 - Fix batch 3: 38 rows fixed
+
+
+## Wording Fixes (Islamic Terminology)
+
+- Fix 2026-10-02: id `3e3c29e2-a16e-4302-89ac-8e283f9dabfd` (source `ae5da83a-7634-44e8-8557-c81cde54ea2f`, en): "in the cultic sites:" -> "in the sacred sites (al-mashair):"
+- Fix 2026-10-02: id `18b3fc19-0ecb-40f6-80e2-b42a3ea6f189` (source `ae5da83a-7634-44e8-8557-c81cde54ea2f`, de): "an den Kultstätten:" -> "an den heiligen Stätten (al-Mascha'ir):"
+- Fix 2026-10-02: id `325645d0-630f-48ab-bdde-18e4fefb280e` (source `a910afb0-070b-423a-8fb3-982fdac303db`, de): "Kulthandlungen Allahs" -> "Zeichen Allahs"
+- Fix 2026-10-02: id `261a5494-e36b-4c7d-93e3-c06f0d442c4d` (source `bbc4a076-2566-44a0-a326-5909953e672c`, de): "Kulthandlungen Allahs" -> "Zeichen Allahs"
+- Fix 2026-10-02: id `834e3735-135f-4852-ad5a-20c06ed00808` (source `bb3cfc43-6b08-47b2-9581-692bcb0900a8`, en): "attend the rituals" -> "attend the sacred sites (al-mashair)"
+- Fix 2026-10-02: id `41774544-fc4f-493c-9523-b7a1fdd20218` (source `bb3cfc43-6b08-47b2-9581-692bcb0900a8`, de): "den Riten beiwohnen" -> "den heiligen Stätten (al-Mascha'ir) beiwohnen"
