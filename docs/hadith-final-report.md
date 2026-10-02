@@ -2,6 +2,8 @@
 
 Import accepted by Mo on 2026-10-02.
 
+Goal status: complete. The 14,629 accepted hadith rows remain unchanged.
+
 Dataset: the official Sunnah.com API. License and permission: written permission from Sunnah.com support to use the key to make our own cache or database, with a monthly refresh recommendation. The stored text is the full Sunnah.com Arabic body, including the chain of narration. It is not rewritten or shortened.
 
 Rights record: `fd8cd4f5-5011-40a1-ae14-cb6e8fa165b7`, status granted. Arabic search and AI processing are allowed. Translation indexing is not allowed. Attribution is Sunnah.com.
@@ -23,7 +25,7 @@ Skipped and recorded:
 Verification:
 
 - HadeethEnc collection and number check: 60 of 60 correct.
-- HadeethEnc wording check: HadeethEnc edits and condenses Arabic and can combine wording from related narrations, so exact equality is not the correct test. Unique-word overlap with the stored Sunnah.com body averaged 90.3%, with a 95.9% median. Fifty-two of 60 had at least 80% overlap.
+- HadeethEnc wording check: HadeethEnc edits and condenses Arabic and can combine wording from related narrations, so exact matn equality is not the correct test. A word-overlap comparison against HadeethEnc and the stored Sunnah.com body averaged 90.3%, with a 95.9% median. Fifty-two of 60 had at least 80% overlap.
 - Saved Sunnah.com raw-response check: 58 of 60 matched directly. The two combined-number cases were Sahih Muslim 1731 a, b and Sahih al-Bukhari 5773-5775. They use combined printed numbering and were not failures.
 - Twenty database searches completed through `search_approved_source_candidates`. Twelve returned five hadith results and eight returned no result for the exact test term. No search call failed.
 - Every stored hadith passed the publication gate, has the granted rights record, and has an HTTPS Sunnah.com link.

@@ -1,5 +1,7 @@
 # Hadith import log
 
+Import status: complete. Mo accepted the 14,629 stored Sunnah.com rows. No hadith rows were deleted or changed.
+
 Date: 2026-10-01
 
 ## Batch 0: dataset decision
@@ -52,8 +54,8 @@ translation_index_allowed: false
 - Every imported row passed the publication gate with the granted Sunnah.com rights record, `sahih` grade, grader, and Sunnah.com URL.
 - Batch size: 500. The importer resumed safely after one document-duplicate interruption and backfilled the missing documents.
 - Search verification: 20 Arabic queries, 12 with five results and 8 with no matching result, all without RPC errors.
-- Saved-raw verification: 60 random database rows, 58 direct raw-response matches, 0 text mismatches. Two combined-number references need a specialised matcher.
-- HadeethEnc comparison: not yet completed; it remains an explicit follow-up and is not claimed as complete.
+- Saved-raw verification: 60 random database rows, 58 direct raw-response matches. The two combined-number cases were Sahih Muslim `1731 a, b` and Sahih al-Bukhari `5773-5775`; they are not data mismatches.
+- HadeethEnc comparison: collection and number matched for 60 of 60. Exact matn equality is not the correct test because HadeethEnc edits and condenses Arabic and can combine wording from related narrations. A word-overlap comparison against HadeethEnc averaged 90.3%, with a 95.9% median; 52 of 60 had at least 80% overlap.
 - Current fatwa count after import: 3,787. This job did not write fatwa rows, translations, Ask code, or the live HadeethEnc path.
 
 ## Step 4: required HadeethEnc spot check, corrected interpretation, 2026-10-02
