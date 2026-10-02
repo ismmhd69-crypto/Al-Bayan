@@ -173,6 +173,10 @@ Published: `false`
 
 | 107 | 40 | 80 | 0 | 4174 | Batch 107 (40 fatwas) translated and stored cleanly |
 
+| 108 | 40 | 80 | 0 | 4214 | Batch 108 (40 fatwas) translated and stored cleanly |
+
+| 109 | 40 | 80 | 0 | 4254 | Batch 109 (40 fatwas) translated and stored cleanly |
+
 ## Fix Batches (Umlaut Corrections)
 
 - Fix batch 1: 40 rows fixed
