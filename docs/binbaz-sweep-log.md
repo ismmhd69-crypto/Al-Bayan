@@ -615,3 +615,12 @@ The later review of internal IDs 2750-2752 approved only ID 2751. The idempotent
 - Import status: imported 29 approved candidates; sources and search documents each increased by 29, from 20,964 to 20,993.
 - Sensitive or uncertain items were not stored.
 - Decisions were based on complete self-contained answers and sensitivity involving medical, financial, marital, reproductive, sectarian, supernatural, unseen-knowledge, self-defense, and afterlife rulings.
+## Batch 0065
+
+- Candidates reviewed: 50
+- Approved: 28
+- Rejected: 5
+- Held for Mo review: 17
+- Import status: imported 28 approved candidates; sources and search documents each increased by 28, from 20,993 to 21,021.
+- Sensitive or uncertain items were not stored.
+- Decisions were based on complete self-contained answers, narrow-topic overlap, and sensitivity involving afterlife, marriage, gender, sectarian, medical, financial, emergency, and religious-classification rulings.
