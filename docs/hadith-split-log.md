@@ -25,6 +25,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 | 017   | 60        | 60     | 0          | 0              | 1 / 4 / 29 / 26 / 0 / 0       | 1020          | Bukhari 1583 through Bukhari 1666. 7 hadiths have tail_start comments marked. Zero errors. |
 | 018   | 60        | 58     | 2          | 0              | 3 / 1 / 34 / 20 / 0 / 2       | 1080          | Bukhari 1668 through Bukhari 1740. bukhari:1692 and bukhari:1738 marked reference_only. 11 hadiths have tail_start comments marked. Zero errors. |
 | 019   | 60        | 57     | 3          | 0              | 0 / 6 / 29 / 22 / 0 / 3       | 1140          | Bukhari 1741 through Bukhari 1813. bukhari:1743, 1744, 1808 marked reference_only. 10 hadiths have tail_start comments marked. Zero errors. |
+| 020   | 60        | 57     | 3          | 0              | 2 / 4 / 28 / 23 / 0 / 3       | 1200          | Bukhari 1814 through Bukhari 1959. bukhari:1818, 1848, 1853 marked reference_only. 12 hadiths have tail_start comments marked. Zero errors. |
 
 *Legend for Kinds: P = prophet_words, N = narration, C = companion_words, D = dialogue, U = unclear, R = reference_only.*
 
@@ -45,3 +46,20 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
   10. Batch 10 (bukhari:962): companion_words. Matn starts with Ibn Abbas witnessing the Eid prayer before the khutbah.
 - Findings: All 10 samples have exact boundary placements, valid kinds, correct tail exclusions where present, and zero text corruption.
 - Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
+
+### Check 2 (After 20 Batches / 1200 Hadith)
+- Sample size: 10 hadiths sampled across batches 11 through 20.
+- Sample items inspected:
+  1. Batch 11 (bukhari:1004): companion_words. Matn starts cleanly with Anas's account of qunut in Maghrib and Fajr.
+  2. Batch 12 (bukhari:1102): companion_words. Matn starts cleanly with Ibn Umar recounting traveling with the Prophet and shortening prayer.
+  3. Batch 13 (bukhari:1209): companion_words. Matn starts cleanly with Aisha describing stretching her feet in the Prophet's qiblah during prayer.
+  4. Batch 14 (bukhari:1337): dialogue. Matn starts cleanly with the narrative of the person who swept the mosque dying at night.
+  5. Batch 15 (bukhari:1493): dialogue. Matn starts cleanly with Aisha intending to buy Barirah and set her free.
+  6. Batch 16 (bukhari:1574): companion_words with tail_start. Matn starts cleanly with the Prophet staying overnight at Dhu Tuwa; tail separates Ibn Umar's practice.
+  7. Batch 17 (bukhari:1666): dialogue with tail_start. Matn starts cleanly with Usamah being asked about the Prophet's pace; tail separates Hisham's lexical note.
+  8. Batch 18 (bukhari:1678): companion_words. Matn starts cleanly with Ibn Abbas stating he was among the weak of his family sent ahead at night.
+  9. Batch 19 (bukhari:1754): companion_words. Matn starts cleanly with Aisha recounting perfuming the Prophet before ihram and after tahallul.
+  10. Batch 20 (bukhari:1860): companion_words. Matn starts cleanly with Umar permitting the Prophet's wives to perform Hajj.
+- Findings: All 10 samples have precise boundary placements, valid kinds, correct tail exclusions where present, and zero text corruption.
+- Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
+
