@@ -89,8 +89,8 @@ export async function processBatchNumber(batchNum: number): Promise<{ processed:
   const untranslatedFile = path.join("data", "translations", `batch-${pad}-untranslated.json`);
   const translatedFile = path.join("data", "translations", `batch-${pad}-translated.json`);
 
-  // 1. Export untranslated items if file doesn't exist
-  if (!fs.existsSync(untranslatedFile)) {
+  // 1. Export untranslated items if translatedFile doesn't exist
+  if (!fs.existsSync(translatedFile)) {
     console.log(`Exporting untranslated items for batch ${pad}...`);
     const { execSync } = await import("child_process");
     execSync(`npx tsx scripts/export-untranslated-fatwas.ts --limit=40 --out=${untranslatedFile}`, {
@@ -163,19 +163,38 @@ export async function processBatchNumber(batchNum: number): Promise<{ processed:
     stdio: "inherit"
   });
 
-  // Calculate remaining
+  // Calculate remaining accurately
+  const leftRes = await fetch("https://api.supabase.com/v1/projects/jnietkyxgnocyizvjiel/database/query", {
+    method: "POST",
+    headers: {
+      "Authorization": "Bearer " + process.env.SUPABASE_ACCESS_TOKEN,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      query: `select count(distinct s.id) from public.sources s left join public.source_translations st_en on st_en.source_id = s.id and st_en.lang = 'en' left join public.source_translations st_de on st_de.source_id = s.id and st_de.lang = 'de' where s.kind = 'fatwa' and s.published = true and (st_en.id is null or st_de.id is null);`
+    }),
+  });
+  const leftData = await leftRes.json();
+  const left = leftData[0]?.count ?? 0;
+
   const { count: totalPublished } = await db
     .from("sources")
     .select("*", { count: "exact", head: true })
     .eq("kind", "fatwa")
     .eq("published", true);
 
-  const { count: totalTrans } = await db
-    .from("source_translations")
-    .select("*", { count: "exact", head: true });
-
-  const translatedFatwas = (totalTrans || 0) / 2;
-  const left = (totalPublished || 0) - translatedFatwas;
+  const transRes = await fetch("https://api.supabase.com/v1/projects/jnietkyxgnocyizvjiel/database/query", {
+    method: "POST",
+    headers: {
+      "Authorization": "Bearer " + process.env.SUPABASE_ACCESS_TOKEN,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      query: `select count(distinct s.id) from public.sources s join public.source_translations st_en on st_en.source_id = s.id and st_en.lang = 'en' join public.source_translations st_de on st_de.source_id = s.id and st_de.lang = 'de' where s.kind = 'fatwa' and s.published = true;`
+    }),
+  });
+  const transData = await transRes.json();
+  const translatedFatwas = transData[0]?.count ?? 0;
 
   console.log(`Progress: ${translatedFatwas} / ${totalPublished} translated. Left: ${left}`);
 
