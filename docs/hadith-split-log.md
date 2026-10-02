@@ -47,6 +47,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 | 039   | 60        | 59     | 1          | 0              | 7 / 15 / 23 / 14 / 0 / 1       | 2340          | Bukhari 4030 through Bukhari 4126. bukhari:4060 marked reference_only. 5 tail_start markers. Zero errors. |
 | 040   | 60        | 58     | 2          | 0              | 0 / 10 / 31 / 17 / 0 / 2       | 2400          | Bukhari 4127 through Bukhari 4205. bukhari:4130 and bukhari:4204 marked reference_only. 7 tail_start markers. Zero errors. |
 | 041   | 60        | 59     | 1          | 0              | 9 / 14 / 30 / 6 / 0 / 1        | 2460          | Bukhari 4206 through Bukhari 4282. bukhari:4225 marked reference_only. 2 tail_start markers. Zero errors. |
+| 042   | 60        | 60     | 0          | 0              | 6 / 8 / 20 / 26 / 0 / 0        | 2520          | Bukhari 4289 through Bukhari 4373. 3 tail_start markers. Zero errors. |
 
 *Legend for Kinds: P = prophet_words, N = narration, C = companion_words, D = dialogue, U = unclear, R = reference_only.*
 
