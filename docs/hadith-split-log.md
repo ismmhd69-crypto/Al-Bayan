@@ -26,6 +26,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 | 018   | 60        | 58     | 2          | 0              | 3 / 1 / 34 / 20 / 0 / 2       | 1080          | Bukhari 1668 through Bukhari 1740. bukhari:1692 and bukhari:1738 marked reference_only. 11 hadiths have tail_start comments marked. Zero errors. |
 | 019   | 60        | 57     | 3          | 0              | 0 / 6 / 29 / 22 / 0 / 3       | 1140          | Bukhari 1741 through Bukhari 1813. bukhari:1743, 1744, 1808 marked reference_only. 10 hadiths have tail_start comments marked. Zero errors. |
 | 020   | 60        | 57     | 3          | 0              | 2 / 4 / 28 / 23 / 0 / 3       | 1200          | Bukhari 1814 through Bukhari 1959. bukhari:1818, 1848, 1853 marked reference_only. 12 hadiths have tail_start comments marked. Zero errors. |
+| 021   | 60        | 60     | 0          | 0              | 5 / 21 / 18 / 16 / 0 / 0       | 1260          | Bukhari 1961 through Bukhari 2062. 7 hadiths have tail_start comments marked. Zero errors. |
 
 *Legend for Kinds: P = prophet_words, N = narration, C = companion_words, D = dialogue, U = unclear, R = reference_only.*
 
@@ -62,4 +63,3 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
   10. Batch 20 (bukhari:1860): companion_words. Matn starts cleanly with Umar permitting the Prophet's wives to perform Hajj.
 - Findings: All 10 samples have precise boundary placements, valid kinds, correct tail exclusions where present, and zero text corruption.
 - Error rate: 0.0% (0 / 10). Quality benchmark satisfied.
-
