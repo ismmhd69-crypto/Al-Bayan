@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 069   | 60        | 60     | 0          | 0              | 11 / 19 / 15 / 15 / 0 / 0    | 4140          | Bukhari 7257 through Bukhari 7367. Zero errors on validation. |
 | 068   | 60        | 60     | 0          | 0              | 7 / 12 / 22 / 19 / 0 / 0     | 4080          | Bukhari 7110 through Bukhari 7256. 2 hadiths have tail_start comments marked. Zero errors on validation. |
 | 067   | 60        | 60     | 0          | 0              | 17 / 17 / 12 / 14 / 0 / 0   | 4020          | Bukhari 6952 through Bukhari 7105. Zero errors on validation. |
 | 066   | 60        | 58     | 2          | 0              | 7 / 14 / 19 / 18 / 0 / 2     | 3960          | Bukhari 6851 through Bukhari 6949. bukhari:6884 and bukhari:6895b marked reference_only. Zero errors on validation. |
