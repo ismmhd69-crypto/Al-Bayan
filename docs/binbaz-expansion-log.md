@@ -971,3 +971,43 @@ Rejected:
 - 7058 حكم الابتداع في الدين: needs context
 - 7073 حكم المشروبات والعصائر والبيرة الخالية من الكحول: doubtful wording on beer
 - 7122 حكم الفزع إلى غير الله: needs context
+
+## Batch 041
+
+- Candidates read: 50
+- Approved and stored: 43
+- Rejected: 7
+- Needs Mo: 0
+- Page requests: 195, request errors: 0
+- Running total stored in this run: 1467
+
+Rejected:
+- 7399 حكم قتل من يفعل فعل قوم لوط.: context opener
+- 7591 بيان أن للجن عدة لغات كما هي لبني آدم: speculation, no ruling
+- 7617 قبول الابن نصيحة الأم في اختيار الزوجة: personal advice
+- 7872 حكم العمرة إذا كانت مئونتها من الغير: vague
+- 8029 حكم قول الرجل علي الطلاق: needs context
+- 8058 حكم الطلاق في الحيض: hedged views
+- 8321 حكم من حلف أن لا يقترف ذنباً ثم اقترفه: does not answer its title
+
+## Batch 042
+
+- Candidates read: 50
+- Approved and stored: 39
+- Rejected: 11
+- Needs Mo: 0
+- Page requests: 99, request errors: 0
+- Running total stored in this run: 1506
+
+Rejected:
+- 8733 حكم إعالة الأبناء والزوجة من مال حرام: hedged
+- 8748 معنى قوله صلى الله عليه وسلم: (أنا ابن الذبيحين): hadith soundness doubtful
+- 8790 ما سبب عزل عمر لخالد بن الوليد وتوليته لأبي عبيدة؟: history, not a ruling
+- 8836 تكفير السيئات وحط الخطايا بالخشية والخوف من الله: hadith unknown to scholar
+- 9269 حكم من أصابته الغموم والهموم وكيفية محاربتها: context opener
+- 9304 حكم الاستدلال بآية واضحة المعنى في مناسبة ما: vague
+- 9332 حكم من تاب من ذنب وأقسم ألا يعود ثم عاد: cut off
+- 9467 حكم إعطاء الوالد لولده الكبير نفقة أكثر من الصغير: needs context
+- 9499 تزكية النفوس .. ومداخل الشيطان: vague
+- 9645 ميزان العفة في الشرع: no real ruling
+- 9652 تفسير أوائل سورة عبس: no content
