@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 148   | 60        | 60     | 0          | 0              | 6 / 6 / 12 / 36 / 0 / 0       | 8880          | Bukhari 28 through Bukhari 408. All hadiths had standalone narration text; no reference_only entries and no tail_start markers. Zero errors on validation. |
 | 147   | 60        | 46     | 14         | 0              | 3 / 0 / 25 / 18 / 0 / 14      | 8820          | Muslim 2987b through Bukhari 20. Fourteen hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
 | 146   | 60        | 34     | 26         | 0              | 0 / 1 / 18 / 15 / 0 / 26      | 8760          | Muslim 2937b through Muslim 2984b. Twenty-six hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
 | 145   | 60        | 31     | 29         | 0              | 4 / 1 / 3 / 23 / 0 / 29       | 8700          | Muslim 2876b through Muslim 2937a. Twenty-nine hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
