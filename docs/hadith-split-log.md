@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 155   | 60        | 60     | 0          | 0              | 17 / 8 / 7 / 28 / 0 / 0       | 9300          | Bukhari 2636 through Bukhari 2915. All hadiths had standalone narration text; three narrator-variant tails were marked at Bukhari 2653, 2872, and 2901. Zero errors on validation. |
 | 154   | 60        | 60     | 0          | 0              | 12 / 8 / 11 / 29 / 0 / 0       | 9240          | Bukhari 2325 through Bukhari 2627. All hadiths had standalone narration text; three narrator-variant tails were marked at Bukhari 2431, 2481, and 2615. Zero errors on validation. |
 | 153   | 60        | 59     | 1          | 0              | 20 / 5 / 10 / 24 / 0 / 1       | 9180          | Bukhari 1911 through Bukhari 2318. Bukhari 2239b was marked reference_only as a continuation variant without standalone matn; three editorial or narrator tails were marked at Bukhari 1964, 2056, and 2153. Zero errors on validation. |
 | 152   | 60        | 60     | 0          | 0              | 11 / 8 / 20 / 21 / 0 / 0       | 9120          | Bukhari 1518 through Bukhari 1910. All hadiths had standalone narration text; three explanatory or editorial tails were marked at Bukhari 1590, 1831, and 1878. Zero errors on validation. |
