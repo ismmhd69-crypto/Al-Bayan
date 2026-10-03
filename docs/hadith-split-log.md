@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 176   | 60        | 60     | 0          | 0              | 0 / 39 / 10 / 11 / 0 / 0       | 10560         | Muslim 1445j through Muslim 1632a. All hadiths had standalone narration text. Zero errors on validation. |
 | 175   | 60        | 60     | 0          | 0              | 0 / 38 / 10 / 12 / 0 / 0       | 10500         | Muslim 1283a through Muslim 1445i. All hadiths had standalone narration text. Zero errors on validation. |
 | 174   | 60        | 60     | 0          | 0              | 0 / 38 / 10 / 12 / 0 / 0       | 10440         | Muslim 1126f through Muslim 1280f. All hadiths had standalone narration text. Zero errors on validation. |
 | 173   | 60        | 60     | 0          | 0              | 5 / 36 / 9 / 10 / 0 / 0       | 10380         | Muslim 960a through Muslim 1126d. All hadiths had standalone narration text. Zero errors on validation. |
