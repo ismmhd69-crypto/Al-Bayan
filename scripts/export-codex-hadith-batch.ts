@@ -10,6 +10,7 @@ const db = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.SUPAB
 const collection = process.argv.find((a) => a.startsWith("--collection="))?.split("=")[1] ?? "Sahih al-Bukhari";
 const out = process.argv.find((a) => a.startsWith("--out="))?.split("=")[1] ?? "data/hadith-words-translations/codex-batch.json";
 const size = Number(process.argv.find((a) => a.startsWith("--size="))?.split("=")[1] ?? 30);
+const skip = new Set((process.argv.find((a) => a.startsWith("--skip="))?.split("=")[1] ?? "").split(",").filter(Boolean));
 
 function key(url: string): [number, string] {
   const m = /:(\d+)([a-z]*)$/i.exec(url ?? "");
@@ -35,7 +36,7 @@ async function main() {
 
   const langs = new Map<string, Set<string>>();
   for (const row of translations) (langs.get(row.source_id) ?? langs.set(row.source_id, new Set()).get(row.source_id)!).add(row.lang);
-  const todo = sources.filter((row) => (langs.get(row.id)?.has("en") && langs.get(row.id)?.has("de")) !== true);
+  const todo = sources.filter((row) => (langs.get(row.id)?.has("en") && langs.get(row.id)?.has("de")) !== true && !skip.has(row.url));
   todo.sort((a, b) => { const ka = key(a.url), kb = key(b.url); return ka[0] - kb[0] || ka[1].localeCompare(kb[1]); });
 
   const batch: any[] = [];

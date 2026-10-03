@@ -9,6 +9,8 @@ Published: false
 - `67ed0b56-fc0c-49b8-985b-eb22527c73b7` (Bukhari 7): unusually long body, about 7,000 Arabic characters; requires a dedicated complete translation pass.
 - `659a3d16-0048-4882-9422-4392fdc83b3e` (Bukhari 19): exported source ID is not present in `public.sources`, so no translation row can be inserted without changing source data.
 - `fb45f5b3-f5bd-4e0b-9636-91175b2595d4` (Bukhari 2661): very long multi-report hadith, about 10,543 source characters; requires a dedicated complete translation pass before insertion.
+- Bukhari 2704: the inserted translation omits the final compiler note, “Ali ibn Abdullah said that only al-Hasan's hearing from Abu Bakra through this hadith was established.” Existing rows were not changed.
+- Bukhari 2718: the inserted translation summarizes the source's long set of variant chains and price reports instead of translating every variant chain literally. Existing rows were not changed.
 
 ## Batch history
 
@@ -1396,4 +1398,8 @@ Codex batch 017 inserted 32 rows for Sahih al-Bukhari 2645 to 2660. The database
 
 Codex batch 018 deferred Bukhari 2661 without inserting rows because it is a very long multi-report hadith requiring a dedicated complete translation pass. The database count was unchanged. The next export was advanced past this item temporarily; it remains in Needs Mo.
 
+Codex ten-batch self-check for batches 011 through 020: re-read Bukhari 2695, 2698, 2700, 2702, 2704, 2706, 2711, 2717, 2722, and 2727 against their Arabic sources. Chains, main rulings, quantities, and Quran references were checked. Two fidelity problems were found: Bukhari 2704 omits the final compiler note, and Bukhari 2718 contains condensed variant-chain notes. No existing rows were corrected because this task is insert-only; both items are listed under Needs Mo.
+
 Codex batch 019 inserted 60 rows for Sahih al-Bukhari 2662 to 2694. The database count increased from 18436 to 18496, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 020 inserted 60 rows for Sahih al-Bukhari 2695 to 2727. The database count increased from 18668 to 18728, exactly matching the inserted rows. Validation passed for 30 hadiths.
