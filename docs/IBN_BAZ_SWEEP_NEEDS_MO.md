@@ -2,6 +2,12 @@
 
 These items were not stored because the collection decision was uncertain.
 
+## Batch 0095 held references
+
+Full titles and canonical links are preserved in `docs/binbaz-sweep-candidates/batch-0095.json`:
+
+19983, 19998, 20038, 20048, 20049, 20070, 20074, 20081, 20095, 20100, 20106, 20115, 20119, 20138, 20145, 20153, 20154, 20155, 20179, 20195, 20213, 20215, 20218, 20219, 20221, 20227, 20229, 20231. These were held for sensitive sexual, theological, fasting, sectarian, family, gender, property, magic, superstition, or medical content.
+
 ## Batch 0076
 
 ## Batch 0077
