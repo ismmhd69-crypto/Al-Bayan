@@ -4,7 +4,7 @@ import { checkVideo, durationSeconds, type YouTubeVideo } from "@/lib/sources/yo
 import { APPROVED_CHANNELS } from "@/lib/sources/youtube-channels";
 
 const ibnBaz = APPROVED_CHANNELS[0];
-const albani = APPROVED_CHANNELS.find((c) => c.scholarId === "al-albani")!;
+const khamis = APPROVED_CHANNELS.find((c) => c.scholarId === "othman-al-khamis")!;
 
 const video = (over: Partial<YouTubeVideo> = {}): YouTubeVideo => ({
   id: "abcdefghijk",
@@ -49,14 +49,14 @@ describe("checkVideo", () => {
   });
 
   it("maps each channel to its scholar", () => {
-    const r = checkVideo(video({ snippet: { ...video().snippet, channelId: albani.channelId } }), albani);
-    expect("row" in r && r.row.scholar_id).toBe("al-albani");
+    const r = checkVideo(video({ snippet: { ...video().snippet, channelId: khamis.channelId } }), khamis);
+    expect("row" in r && r.row.scholar_id).toBe("othman-al-khamis");
   });
 
   it("refuses a video whose own channel is not the approved one, even if listed there", () => {
     expect(checkVideo(video({ snippet: { ...video().snippet, channelId: "UCsomeoneelse0000000000" } }), ibnBaz)).toEqual({ skip: "not from the approved channel" });
     // From another approved channel than the list it came from
-    expect("skip" in checkVideo(video({ snippet: { ...video().snippet, channelId: albani.channelId } }), ibnBaz)).toBe(true);
+    expect("skip" in checkVideo(video({ snippet: { ...video().snippet, channelId: khamis.channelId } }), ibnBaz)).toBe(true);
   });
 
   it("refuses private, unlisted, not embeddable, live and age-restricted videos", () => {

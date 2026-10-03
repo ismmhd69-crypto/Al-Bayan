@@ -30,6 +30,14 @@ export const APPROVED_CHANNELS: ApprovedChannel[] = [
     evidence: "al-albany.com embeds this channel's videos (checked 2026-09-28)",
   },
   {
+    channelId: "UCWjCSGhmSGu0VLf2mPFS0Kg",
+    handle: "@othmanalkamees",
+    name: "Dr. Othman Alkamees - الشيخ الدكتور عثمان الخميس",
+    scholarId: "othman-al-khamis",
+    level: 1,
+    evidence: "othmanalkhamees.com links to this channel (checked 2026-09-28)",
+  },
+  {
     channelId: "UCtF3YygTiodnYSw8vD3UJtQ",
     handle: "@ibnothaimeentv",
     name: "قناة الشيخ محمد ابن عثيمين الرسمية",

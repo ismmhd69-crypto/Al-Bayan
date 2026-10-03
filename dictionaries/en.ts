@@ -115,7 +115,7 @@ const en = {
     busy: "The AI service is very busy right now. Please try again in a minute.",
     rateLimited: "You've asked a lot in a short time. Please wait a few minutes and try again.",
     checked: "The explanation above is written by AI and screened by a second AI check against the sources; the verses and hadith are shown exactly as their sources provide them.",
-    scholarShort: { "ibn-baz": "Ibn Baz", "ibn-uthaymeen": "Ibn Uthaymeen", "al-albani": "al-Albani", "al-fawzan": "al-Fawzan", "permanent-committee": "The Permanent Committee", "al-barrak": "al-Barrak" },
+    scholarShort: { "ibn-baz": "Ibn Baz", "ibn-uthaymeen": "Ibn Uthaymeen", "al-albani": "al-Albani", "al-fawzan": "al-Fawzan", "othman-al-khamis": "Othman al-Khamis", "permanent-committee": "The Permanent Committee", "al-barrak": "al-Barrak" },
     report: {
       button: "Report a problem",
       title: "What is wrong with this answer?",
@@ -139,7 +139,7 @@ const en = {
       privacy: "The video loads from YouTube only after you press play.",
       youtube: "Open on YouTube",
       languages: { ar: "Arabic", en: "English", de: "German" },
-      channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "Ibn Baz, official website channel", UCwMocSKEbLav6SZvwzTvDbQ: "al-Albani legacy portal", UCtF3YygTiodnYSw8vD3UJtQ: "Ibn Uthaymeen Foundation", UCYZkmbBbVMWxB1gyioTPLIA: "Ibn Baz Charitable Foundation" },
+      channels: { UCiiJRwQ0MUaQo8ZZuf18pPw: "Ibn Baz, official website channel", UCwMocSKEbLav6SZvwzTvDbQ: "al-Albani legacy portal", UCWjCSGhmSGu0VLf2mPFS0Kg: "Othman al-Khamis, official channel", UCtF3YygTiodnYSw8vD3UJtQ: "Ibn Uthaymeen Foundation", UCYZkmbBbVMWxB1gyioTPLIA: "Ibn Baz Charitable Foundation" },
     },
     scholarQuote: {
       arabicOnly: "The scholar's own words in Arabic (short quote)",
