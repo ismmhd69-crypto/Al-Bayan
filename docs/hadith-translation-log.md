@@ -1679,3 +1679,15 @@ Codex batch 103 inserted 24 rows for Sahih al-Bukhari 4073 to 4085. The database
 Codex batch 104 inserted 2 rows for Sahih al-Bukhari 4086 to 4086. The database count increased from 24912 to 24914, exactly matching the inserted rows. Validation passed for 1 hadiths.
 
 Codex batch 105 inserted 60 rows for Sahih al-Bukhari 4087 to 4116. The database count increased from 24914 to 24974, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 106 inserted 48 rows for Sahih al-Bukhari 4117 to 4140. The database count increased from 24974 to 25022, exactly matching the inserted rows. Validation passed for 24 hadiths.
+
+Needs Mo: Sahih al-Bukhari 4141 deferred. It is a 13,052-character source containing the full incident of the slander against Aisha; it needs a dedicated complete translation and was not shortened or inserted.
+
+Codex ten-batch self-check for batches 101 through 110: re-read Bukhari 4206, 4209, 4210, 4213, 4219, 4220, 4228, 4230, 4234, and 4237 against their Arabic source bodies and local English and German outputs. Chains, Khaybar banner wording, Safiyya marriage details, donkey-meat rulings, share counts, Abyssinian emigration numbers, unlawful booty wording, and the closing report were checked. No missing material, Arabic letters, or Quran tags were found. Bukhari 4237 contains an obscure Arabic metaphor in its closing sentence and is flagged for Mo review; the inserted row was not changed.
+
+Codex batch 108 inserted 60 rows for Sahih al-Bukhari 4142 to 4173. The database count increased from 25022 to 25082, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 109 inserted 60 rows for Sahih al-Bukhari 4174 to 4205. The database count increased from 25082 to 25142, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 110 inserted 60 rows for Sahih al-Bukhari 4206 to 4237. The database count increased from 25142 to 25202, exactly matching the inserted rows. Validation passed for 30 hadiths.
