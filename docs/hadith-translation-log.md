@@ -1577,3 +1577,17 @@ Codex batch 059 inserted 52 rows for Sahih al-Bukhari 3434 to 3463. The database
 Codex batch 060 inserted 2 rows for Sahih al-Bukhari 3464 to 3464. The database count increased from 23750 to 23752, exactly matching the inserted rows. Validation passed for 1 hadiths.
 
 Codex ten-batch self-check for batches 051 through 060: re-read Bukhari 3342, 3343, 3364, 3365, 3366, 3397, 3401, 3429, 3439, and 3464 against their Arabic source bodies. Chains, quoted speech, negations, numbers, Quran references, legal rulings, and the long test narrative in 3464 were checked in both languages. No missing source element or Arabic text was found in this review. No existing rows were changed.
+
+Codex batch 061 inserted 2 rows for Sahih al-Bukhari 3465 to 3465. The database count increased from 23752 to 23754, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Needs Mo during this continuation: Bukhari 2661 is about 19,680 Arabic characters and was skipped from normal batching; Bukhari 2731 and 2940 remain deferred as previously recorded. No database rows were changed for these deferred items.
+
+Codex batch 062 inserted 60 rows for Sahih al-Bukhari 3466 to 3498. The database count increased from 23754 to 23814, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 063 inserted 46 rows for Sahih al-Bukhari 3499 to 3521. The database count increased from 23814 to 23860, exactly matching the inserted rows. Validation passed for 23 hadiths.
+
+Codex batch 064 inserted 2 rows for Sahih al-Bukhari 3522 to 3522. The database count increased from 23860 to 23862, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 065 inserted 60 rows for Sahih al-Bukhari 3523 to 3553. The database count increased from 23862 to 23922, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex ten-batch self-check for batches 056 through 065: re-read Bukhari 3397, 3402, 3434, 3464, 3466, 3475, 3498, 3505, 3522, and 3553 against their Arabic source bodies. Chains, repeated variants, negations, numbers, Quran references 6:140 and 26:214, kinship rulings, and physical descriptions were checked in both languages. No missing source element or Arabic text was found in this review. No existing rows were changed.
