@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 169   | 60        | 60     | 0          | 0              | 50 / 3 / 7 / 0 / 0 / 0       | 10140         | Muslim 177a through Muslim 368a. All hadiths had standalone narration text; seven transmission or variant-report tails were marked at Muslim 179a, 208b, 229, 332a, 334a, 347a, and 361. Zero errors on validation. |
 | 168   | 60        | 60     | 0          | 0              | 53 / 4 / 3 / 0 / 0 / 0       | 10080         | Bukhari 7467 through Muslim 169e. All hadiths had standalone narration text. Zero errors on validation. |
 | 167   | 60        | 60     | 0          | 0              | 36 / 0 / 2 / 22 / 0 / 0       | 10020         | Bukhari 7149 through Bukhari 7461. All hadiths had standalone narration text; six transmission or variant-report tails were marked at Bukhari 7241, 7261, 7333, 7343, 7360, and 7398. Zero errors on validation. |
 | 166   | 60        | 59     | 1          | 0              | 30 / 1 / 6 / 22 / 0 / 1       | 9960          | Bukhari 6646 through Bukhari 7145. Fifty-nine hadiths had standalone narration text; Bukhari 7051 was marked reference_only as a continuation-only record. Four transmission or narrator-variant tails were marked at Bukhari 6798, 6837, 6869, and 7068. Zero errors on validation. |
