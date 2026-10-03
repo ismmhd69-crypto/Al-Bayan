@@ -1463,3 +1463,5 @@ Codex batch 030 was exported as Sahih al-Bukhari 2940. It was deferred to Needs 
 
 Needs Mo additions:
 - Bukhari 2940: very long Heraclius dialogue and the Prophet's letter, 6,735 Arabic characters; requires a dedicated complete translation pass.
+
+Codex batch 692 inserted 6 rows for Bukhari hadiths 6946 to 6948. Batch 693 inserted 6 rows for Bukhari hadiths 6949 to 6951. The database count increased from 21258 to 21270, exactly matching the 12 newly inserted English and German rows; other translation batches had increased the count since the prior log entry. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve the full stored source bodies including chains, Quran-reference content, and transmission details, remain within the required length ratio, and all German texts use real umlauts. Existing translation rows were not changed.
