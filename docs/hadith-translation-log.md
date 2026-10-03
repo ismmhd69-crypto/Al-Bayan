@@ -9,6 +9,7 @@ Published: false
 - `67ed0b56-fc0c-49b8-985b-eb22527c73b7` (Bukhari 7): unusually long body, about 7,000 Arabic characters; requires a dedicated complete translation pass.
 - `659a3d16-0048-4882-9422-4392fdc83b3e` (Bukhari 19): exported source ID is not present in `public.sources`, so no translation row can be inserted without changing source data.
 - `fb45f5b3-f5bd-4e0b-9636-91175b2595d4` (Bukhari 2661): very long multi-report hadith, about 10,543 source characters; requires a dedicated complete translation pass before insertion.
+- Bukhari 2731: very long multi-report treaty narrative, about 14,292 source characters; requires a dedicated complete translation pass before insertion.
 - Bukhari 2704: the inserted translation omits the final compiler note, “Ali ibn Abdullah said that only al-Hasan's hearing from Abu Bakra through this hadith was established.” Existing rows were not changed.
 - Bukhari 2718: the inserted translation summarizes the source's long set of variant chains and price reports instead of translating every variant chain literally. Existing rows were not changed.
 
@@ -1400,8 +1401,14 @@ Codex batch 018 deferred Bukhari 2661 without inserting rows because it is a ver
 
 Codex ten-batch self-check for batches 011 through 020: re-read Bukhari 2695, 2698, 2700, 2702, 2704, 2706, 2711, 2717, 2722, and 2727 against their Arabic sources. Chains, main rulings, quantities, and Quran references were checked. Two fidelity problems were found: Bukhari 2704 omits the final compiler note, and Bukhari 2718 contains condensed variant-chain notes. No existing rows were corrected because this task is insert-only; both items are listed under Needs Mo.
 
+Codex batch 022 deferred Bukhari 2731 without inserting rows because it is a very long multi-report treaty narrative requiring a dedicated complete translation pass. The database count was unchanged. The next export was advanced past this item temporarily; it remains in Needs Mo.
+
 Codex batch 019 inserted 60 rows for Sahih al-Bukhari 2662 to 2694. The database count increased from 18436 to 18496, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 020 inserted 60 rows for Sahih al-Bukhari 2695 to 2727. The database count increased from 18668 to 18728, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 656 inserted 6 rows for Bukhari hadiths 6835/6836, 6837/6838, and 6839. Batch 657 inserted 6 rows for Bukhari hadiths 6840, 6841, and the combined-number source record 6842/6843. The database count increased from 18808 to 18820, exactly matching the 12 newly inserted English and German rows; other translation batches had increased the count since the prior log entry. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve the full stored source bodies including chains, remain within the required length ratio, and all German texts use real umlauts. Existing translation rows were not changed.
+
+Codex batch 658 inserted 6 rows for Bukhari hadiths 6844 to 6846. Batch 659 inserted 6 rows for Bukhari hadiths 6847 to 6849. The database count increased from 18986 to 18998, exactly matching the 12 newly inserted English and German rows; other translation batches had increased the count since the prior log entry. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve the full stored source bodies including chains and compiler notes, remain within the required length ratio, and all German texts use real umlauts. Existing translation rows were not changed.
+
+Codex batch 021 inserted 6 rows for Sahih al-Bukhari 2728 to 2730. The database count increased from 18900 to 18906, exactly matching the inserted rows. Validation passed for 3 hadiths.
