@@ -5,6 +5,14 @@ These items were not stored because the collection decision was uncertain.
 ## Batch 0076
 
 ## Batch 0077
+
+## Batch 0078 held references
+
+The full candidate records and exact titles are preserved in `docs/binbaz-sweep-candidates/batch-0078.json`; these references were held and not stored:
+
+16175, 16180, 16186, 16191, 16192, 16210, 16220, 16222, 16225, 16230, 16235, 16264, 16279, 16291, 16294, 16296, 16299, 16303, 16313, 16319, 16321, 16323, 16324, 16325, 16331, 16379, 16382, 16388, 16394.
+
+Each held item is linked from its candidate record and was held for sensitive family, gender, medical, financial, pilgrimage, theology, apostasy, burial, or sorcery content.
 - Exact link 16034: https://binbaz.org.sa/fatwas/16034/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D8%B5%D8%A8%D8%BA-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%A9-%D8%B4%D8%B9%D8%B1%D9%87%D8%A7-%D9%84%D9%84%D8%AA%D8%B2%D9%8A%D9%8A%D9%86-%D9%84%D9%84%D8%B2%D9%88%D8%AC
 - Exact link 16167: https://binbaz.org.sa/fatwas/16167/%D8%ح%D9%83%D9%85-%D8%A7%D9%84%D9%85%D8%B3%D8%AD-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D8%B1%D8%A8-%D9%88%D8%A7%D9%85%D8%A7%D9%85%D8%A9-%D8%B5%D8%A7%D8%AD%D8%A8-%D8%A7%D9%84%D8%AD%D8%AF%D8%AB-%D8%A7%D9%84%D8%AF%D8%A7%D9%89%D9%85
 
