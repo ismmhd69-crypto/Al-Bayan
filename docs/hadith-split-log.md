@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 150   | 60        | 60     | 0          | 0              | 10 / 26 / 9 / 15 / 0 / 0       | 9000          | Bukhari 817 through Bukhari 1213. All hadiths had standalone narration text; no reference_only entries and no tail_start markers. Zero errors on validation. |
 | 149   | 60        | 60     | 0          | 0              | 4 / 25 / 9 / 22 / 0 / 0       | 8940          | Bukhari 410 through Bukhari 813. All hadiths had standalone narration text; no reference_only entries and no tail_start markers. Zero errors on validation. |
 | 148   | 60        | 60     | 0          | 0              | 6 / 6 / 12 / 36 / 0 / 0       | 8880          | Bukhari 28 through Bukhari 408. All hadiths had standalone narration text; no reference_only entries and no tail_start markers. Zero errors on validation. |
 | 147   | 60        | 46     | 14         | 0              | 3 / 0 / 25 / 18 / 0 / 14      | 8820          | Muslim 2987b through Bukhari 20. Fourteen hadiths marked reference_only because they repeat, continue, or point to an earlier narration without a standalone matn. No tail_start markers. Zero errors on validation. |
@@ -261,4 +262,10 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 - Sample size: 10 hadiths, one marked hadith from each of batches 131 through 140.
 - Sampled items: Muslim 2148, 2199d, 2243c, 2314a, 2353c, 2408b, 2418a, 2475b, 2549d, and 2645c.
 - Findings: All 10 samples had clean isnad-to-matn boundaries and kinds consistent with the visible narration. Reference-only samples were correctly null, no tail markers were needed, and no text corruption was found. Full validation of batches 131 through 140 returned 0 errors for all 600 marks.
+- Error rate: 0.0% (0 / 10 sampled boundaries; 0 / 600 batch marks on validation). Quality benchmark satisfied.
+
+### Check 15 (After 150 Batches / 9,000 Hadith)
+- Sample size: 10 hadiths, one from each of batches 141 through 150.
+- Sampled items: Muslim 2648a, 2704d, 2761b, 2815, 2876b, 2937b, 2987b, Bukhari 28, 410, and 817.
+- Findings: All 10 samples had clean isnad-to-matn boundaries and kinds consistent with the visible narration. Reference-only samples were correctly null, and no tail markers were needed. Full validation of batches 141 through 150 returned 0 errors for all 600 batch marks.
 - Error rate: 0.0% (0 / 10 sampled boundaries; 0 / 600 batch marks on validation). Quality benchmark satisfied.
