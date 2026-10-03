@@ -10,6 +10,36 @@ These items were not stored because the collection decision was uncertain.
 
 ## Batch 0079
 
+## Batch 0080
+
+Held references and reasons (full titles and canonical links are preserved in `docs/binbaz-sweep-candidates/batch-0080.json`):
+
+- [16640](https://binbaz.org.sa/fatwas/16640): sensitive reproductive and ritual-purity ruling about labour pains and missed prayer.
+- [16642](https://binbaz.org.sa/fatwas/16642): sensitive gender-boundary ruling about a domestic worker covering from the homeowner.
+- [16658](https://binbaz.org.sa/fatwas/16658): sensitive sectarian and theological ruling identifying the saved group.
+- [16659](https://binbaz.org.sa/fatwas/16659): sensitive grave-visitation ruling about saluting the Prophet.
+- [16667](https://binbaz.org.sa/fatwas/16667): sensitive grave-visitation ruling about visiting Medina.
+- [16668](https://binbaz.org.sa/fatwas/16668): sensitive gender-boundary ruling about uncovering before a daughter's husband.
+- [16669](https://binbaz.org.sa/fatwas/16669): sensitive menstrual and ritual-purity ruling.
+- [16670](https://binbaz.org.sa/fatwas/16670): sensitive mental-capacity and bereavement ruling.
+- [16673](https://binbaz.org.sa/fatwas/16673): sensitive marital-rights ruling about good treatment of wives.
+- [16680](https://binbaz.org.sa/fatwas/16680): sensitive gender and grave-visitation ruling.
+- [16685](https://binbaz.org.sa/fatwas/16685): sensitive gender and adornment ruling.
+- [16688](https://binbaz.org.sa/fatwas/16688): sensitive marriage and consent ruling.
+- [16697](https://binbaz.org.sa/fatwas/16697): sensitive gender and theological ruling.
+- [16720](https://binbaz.org.sa/fatwas/16720): sensitive gender and ritual-purity ruling.
+- [16732](https://binbaz.org.sa/fatwas/16732): sensitive gender-boundary ruling.
+- [16735](https://binbaz.org.sa/fatwas/16735): sensitive apostasy and worship ruling.
+- [16739](https://binbaz.org.sa/fatwas/16739): sensitive medical and bereavement ruling.
+- [16751](https://binbaz.org.sa/fatwas/16751): sensitive gender and adornment ruling.
+- [16781](https://binbaz.org.sa/fatwas/16781): sensitive financial-contract ruling.
+- [16792](https://binbaz.org.sa/fatwas/16792): sensitive marriage and family ruling.
+- [16799](https://binbaz.org.sa/fatwas/16799): sensitive gender and worship ruling.
+- [16803](https://binbaz.org.sa/fatwas/16803): sensitive gender and worship ruling.
+- [16808](https://binbaz.org.sa/fatwas/16808): sensitive death and theology ruling.
+- [16811](https://binbaz.org.sa/fatwas/16811): sensitive travel and prayer ruling.
+- [16813](https://binbaz.org.sa/fatwas/16813): sensitive death and bereavement ruling.
+
 - 16448 | حكم كتابة الآيات القرآنية ثم محوها للاستشفاء؟ | https://binbaz.org.sa/fatwas/16448/%D8%AD%D9%83%D9%85-%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D8%AB%D9%85-%D9%85%D8%AD%D9%88%D9%87%D8%A7-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D9%81%D8%A7%D8%A1 | sensitive religious-healing and medical-like ruling
 - 16451 | ما حكم مقابلة المرأة عم والدها؟ | https://binbaz.org.sa/fatwas/16451/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%B9%D9%85-%D9%88%D8%A7%D9%84%D8%AF%D9%87%D8%A7 | sensitive gender and family-boundary ruling
 - 16463 | هل يسأل الشهداء والأطفال في القبور؟ | https://binbaz.org.sa/fatwas/16463/%D9%87%D9%84-%D9%8A%D8%B3%D8%A7%D9%84-%D8%A7%D9%84%D8%B4%D9%87%D8%AF%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%A7%D8%B7%D9%81%D8%A7%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%A8%D9%88%D8%B1 | sensitive theology and afterlife ruling
