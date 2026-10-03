@@ -17,6 +17,13 @@ Check after batch 20 (10 random rows, Bukhari 1016, 1022, 1024, 1031, 1064, 1113
 - Bukhari 1396: "أرب ماله" translated as "He has a need"; the exact sense is debated.
 - Bukhari 1363 and 1374: the phrase for jinn and mankind ("الثقلين") is given as "jinn and mankind" (sense) without the word thaqalayn.
 
+Check after batch 30 (10 random rows, Bukhari 1025, 1128, 1132, 1145, 1207, 1246, 1260, 1312, 1339, 1397): no meaning errors. Notes for Mo (no updates made):
+- Bukhari 1708 (German): I added the words "(so der Text)" after "das Haus und as-Safa umkreiste" because the Arabic says he circled the House and as-Safa. That bracket is not in the Arabic and should be removed by a reviewer.
+- Bukhari 1561: the Arabic "عقرى حلقى" is an idiom; I kept it as the transliteration "Aqra halqa" without a literal meaning.
+- Bukhari 1651: the Arabic is a plain euphemism; I wrote "the private part of one of us is dripping" (German: "das Glied eines von uns tropft").
+- Bukhari 1132: "الصارخ" is rendered "the crier" (many scholars say it means the rooster).
+- Bukhari 1501: "سمر أعينهم" rendered "had their eyes seared" (German "ausbrennen"); the exact method is described differently in different reports.
+
 ## Batch history
 
 | Batch | Collection and range | Hadith items | Rows inserted | Skipped | Total claude rows |
@@ -41,3 +48,13 @@ Check after batch 20 (10 random rows, Bukhari 1016, 1022, 1024, 1031, 1064, 1113
 | 18 | Bukhari 1387 to 1406 | 21 | 42 | 0 | 742 |
 | 19 | Bukhari 1407 to 1432 | 24 | 48 | 0 | 790 |
 | 20 | Bukhari 1433 to 1456 | 24 | 48 | 0 | 838 |
+| 21 | Bukhari 1458 to 1476 | 18 | 36 | 0 | 874 |
+| 22 | Bukhari 1477 to 1500 | 23 | 46 | 0 | 920 |
+| 23 | Bukhari 1501 to 1530 | 30 | 60 | 0 | 980 |
+| 24 | Bukhari 1531 to 1558 | 26 | 52 | 0 | 1032 |
+| 25 | Bukhari 1559 to 1581 | 23 | 46 | 0 | 1078 |
+| 26 | Bukhari 1582 to 1607 | 26 | 52 | 0 | 1130 |
+| 27 | Bukhari 1608 to 1638 | 28 | 56 | 0 | 1186 |
+| 28 | Bukhari 1639 to 1658 | 18 | 36 | 0 | 1222 |
+| 29 | Bukhari 1659 to 1685 | 26 | 52 | 0 | 1274 |
+| 30 | Bukhari 1686 to 1716 | 29 | 58 | 0 | 1332 |
