@@ -1591,3 +1591,14 @@ Codex batch 064 inserted 2 rows for Sahih al-Bukhari 3522 to 3522. The database 
 Codex batch 065 inserted 60 rows for Sahih al-Bukhari 3523 to 3553. The database count increased from 23862 to 23922, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex ten-batch self-check for batches 056 through 065: re-read Bukhari 3397, 3402, 3434, 3464, 3466, 3475, 3498, 3505, 3522, and 3553 against their Arabic source bodies. Chains, repeated variants, negations, numbers, Quran references 6:140 and 26:214, kinship rulings, and physical descriptions were checked in both languages. No missing source element or Arabic text was found in this review. No existing rows were changed.
+
+Codex batch 066 inserted 60 rows for Sahih al-Bukhari 3554 to 3586. The database count increased from 23922 to 23982, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 067 inserted 60 rows for Sahih al-Bukhari 3587 to 3618. The database count increased from 23982 to 24042, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 068 inserted 60 rows for Sahih al-Bukhari 3619 to 3652. The database count increased from 24042 to 24102, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 069 inserted 60 rows for Sahih al-Bukhari 3653 to 3684. The database count increased from 24102 to 24162, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 070 inserted 30 rows for Sahih al-Bukhari 3685 to 3699. The database count increased from 24162 to 24192, exactly matching the inserted rows. Validation passed for 15 hadiths.
+Codex ten-batch self-check for batches 061 through 070: re-read Bukhari 3465, 3499, 3522, 3554, 3587, 3610, 3623, 3654, 3688, and 3696 against their Arabic source bodies and inserted English and German rows. Chains, honorifics, repeated variants, negations, Quran references 3:144, 39:30, and 99:7-8, tayammum, legal rulings, and numerical details were checked. No Arabic text or missing source element was found in this review. No existing rows were changed. Batch 070 contained 15 rows because the next untranslated source exceeded the normal long-text boundary.
