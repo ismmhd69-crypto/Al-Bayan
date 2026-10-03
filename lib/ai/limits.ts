@@ -47,7 +47,12 @@ const positive = (value: string | undefined, fallback: number) => {
   return Number.isFinite(n) && n > 0 ? Math.floor(n) : fallback;
 };
 
-export const nvidiaLimiter = createRateLimiter(
+export const openrouterLimiter = createRateLimiter(
+  positive(process.env.OPENROUTER_RPM, 100),
+  positive(process.env.OPENROUTER_DAILY_LIMIT, 1000),
+);
+
+export const nvidiaLimiter =createRateLimiter(
   positive(process.env.NVIDIA_RPM, 35),
   positive(process.env.NVIDIA_DAILY_LIMIT, 1000),
 );

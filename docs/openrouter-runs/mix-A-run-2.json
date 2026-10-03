@@ -1,0 +1,858 @@
+{
+  "at": "2026-10-03T19:32:16.260Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 13,
+    "answered": 3,
+    "answeredOfExpected": "3/17",
+    "timeoutsOrBusyOrErrors": 7,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 35.4,
+    "p95Seconds": 50,
+    "skips": 0,
+    "skipReasons": [],
+    "retries": 0,
+    "costUsdTotal": 0.02485,
+    "costUsdPerQuestion": 0.00124,
+    "refusalReasons": [
+      "selection_retry_skipped_time",
+      "evidence_insufficient",
+      "scholar_dropped_by_rules",
+      "scholar_difference_unresolved_known_topic",
+      "no_summary_after_screening_whole_answer",
+      "no_summary_after_draft_copied_source",
+      "no_summary_after_draft_quotation",
+      "personal",
+      "no_summary_after_screening_whole_answer",
+      "no_summary_after_draft_source_attribution",
+      "scholar_dropped_by_rules"
+    ],
+    "modelsUsed": [
+      "openrouter/qwen/qwen3-235b-a22b-2507",
+      "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 41.9,
+      "reasons": [
+        "selection_retry_skipped_time",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 13615 ms",
+        "search at 17243 ms",
+        "sources_fetched at 18071 ms",
+        "selection(11 candidates) at 41939 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.001153475
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [],
+      "steps": [
+        "frame at 10253 ms",
+        "search at 13103 ms",
+        "sources_fetched at 13760 ms",
+        "selection(15 candidates) at 33185 ms",
+        "draft at 47877 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.001681545,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 31.5,
+      "reasons": [],
+      "steps": [
+        "frame at 7281 ms",
+        "search at 10899 ms",
+        "sources_fetched at 11527 ms",
+        "selection(12 candidates) at 24410 ms",
+        "draft at 26712 ms",
+        "screening at 30239 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0013383925,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "The reason for fasting in Ramadan is to become mindful of God.",
+            "refs": [
+              "2:183"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "The reason for fasting in Ramadan is to become mindful of God.",
+            "source_ids": [
+              "2:183"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/183"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "The reason for fasting in Ramadan is to become mindful of God.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 32.8,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 4596 ms",
+        "search at 7044 ms",
+        "sources_fetched at 7745 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026447,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 33.4,
+      "reasons": [],
+      "steps": [
+        "frame at 10362 ms",
+        "search at 14164 ms",
+        "sources_fetched at 14855 ms",
+        "selection(11 candidates) at 20198 ms",
+        "draft at 25869 ms",
+        "screening at 31802 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0018987837499999998,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "A husband can divorce his wife twice, and after each divorce he may take her back during her waiting period.",
+            "refs": [
+              "2:229"
+            ]
+          },
+          {
+            "text": "After the second divorce, if the husband divorces her a third time, she is not lawful for him again until she marries another man and that marriage ends in divorce.",
+            "refs": [
+              "2:230"
+            ]
+          },
+          {
+            "text": "The husband must keep or release the wife in a good manner after each of the first two divorces, without taking back any gifts he has given her.",
+            "refs": [
+              "2:229"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "A husband can divorce his wife twice, and after each divorce he may take her back during her waiting period.",
+            "source_ids": [
+              "2:229"
+            ]
+          },
+          {
+            "text": "After the second divorce, if the husband divorces her a third time, she is not lawful for him again until she marries another man and that marriage ends in divorce.",
+            "source_ids": [
+              "2:230"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Details",
+            "sentences": [
+              {
+                "text": "The husband must keep or release the wife in a good manner after each of the first two divorces, without taking back any gifts he has given her.",
+                "source_ids": [
+                  "2:229"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:229",
+            "arabic": "ٱلطَّلَـٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَـٰنٍ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+            "translation": "Divorce can happen twice, and [each time] wives either be kept on in an acceptable manner or released in a good way. It is not lawful for you to take back anything that you have given [your wives], except where both fear that they cannot maintain [the marriage] within the bounds set by God: if you [arbiters] suspect that the couple may not be able to do this, then there will be no blame on either of them if the woman opts to give something for her release. These are the bounds set by God: do not overstep them. It is those who overstep God’s bounds who are doing wrong.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/229"
+          },
+          {
+            "kind": "quran",
+            "key": "2:230",
+            "arabic": "فَإِن طَلَّقَهَا فَلَا تَحِلُّ لَهُۥ مِنۢ بَعْدُ حَتَّىٰ تَنكِحَ زَوْجًا غَيْرَهُۥ ۗ فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يَتَرَاجَعَآ إِن ظَنَّآ أَن يُقِيمَا حُدُودَ ٱللَّهِ ۗ وَتِلْكَ حُدُودُ ٱللَّهِ يُبَيِّنُهَا لِقَوْمٍ يَعْلَمُونَ",
+            "translation": "If a husband re-divorces his wife after the second divorce, she will not be lawful for him until she has taken another husband; if that one divorces her, there will be no blame if she and the first husband return to one another, provided they feel that they can keep within the bounds set by God. These are God’s bounds, which He makes clear for those who know.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/230"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "egAGfjPOlow",
+            "channelId": "UCiiJRwQ0MUaQo8ZZuf18pPw",
+            "title": "حكم مراجعة الزوجة بعد قول الزوج طلاق لا رجعة فيه",
+            "minutes": 3,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "A husband can divorce his wife twice, and after each divorce he may take her back during her waiting period.",
+                "source_ids": [
+                  "Q2:229"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "After the second divorce, if the husband divorces her a third time, she is not lawful for him again until she marries another man and that marriage ends in divorce.",
+                "source_ids": [
+                  "Q2:230"
+                ],
+                "requirement_id": "R2"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-229-230",
+              "source_ids": [
+                "Q2:229",
+                "Q2:230"
+              ],
+              "points": [
+                "R1",
+                "R2"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:229",
+                  "key": "2:229",
+                  "arabic": "ٱلطَّلَـٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَـٰنٍ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+                  "translation": "Divorce can happen twice, and [each time] wives either be kept on in an acceptable manner or released in a good way. It is not lawful for you to take back anything that you have given [your wives], except where both fear that they cannot maintain [the marriage] within the bounds set by God: if you [arbiters] suspect that the couple may not be able to do this, then there will be no blame on either of them if the woman opts to give something for her release. These are the bounds set by God: do not overstep them. It is those who overstep God’s bounds who are doing wrong.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/229"
+                },
+                {
+                  "id": "Q2:230",
+                  "key": "2:230",
+                  "arabic": "فَإِن طَلَّقَهَا فَلَا تَحِلُّ لَهُۥ مِنۢ بَعْدُ حَتَّىٰ تَنكِحَ زَوْجًا غَيْرَهُۥ ۗ فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يَتَرَاجَعَآ إِن ظَنَّآ أَن يُقِيمَا حُدُودَ ٱللَّهِ ۗ وَتِلْكَ حُدُودُ ٱللَّهِ يُبَيِّنُهَا لِقَوْمٍ يَعْلَمُونَ",
+                  "translation": "If a husband re-divorces his wife after the second divorce, she will not be lawful for him until she has taken another husband; if that one divorces her, there will be no blame if she and the first husband return to one another, provided they feel that they can keep within the bounds set by God. These are God’s bounds, which He makes clear for those who know.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/230"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "egAGfjPOlow",
+              "channelId": "UCiiJRwQ0MUaQo8ZZuf18pPw",
+              "title": "حكم مراجعة الزوجة بعد قول الزوج طلاق لا رجعة فيه",
+              "minutes": 3,
+              "language": "ar"
+            }
+          ],
+          "more_explanation": [
+            {
+              "heading": "Details",
+              "sentences": [
+                {
+                  "text": "The husband must keep or release the wife in a good manner after each of the first two divorces, without taking back any gifts he has given her.",
+                  "source_ids": [
+                    "Q2:229"
+                  ],
+                  "requirement_id": "R2"
+                }
+              ]
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [],
+      "steps": [
+        "frame at 6740 ms",
+        "search at 10530 ms",
+        "sources_fetched at 11215 ms",
+        "selection(14 candidates) at 32575 ms",
+        "draft at 44215 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00197350875,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 5.1,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 5129 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027452
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 40.5,
+      "reasons": [
+        "no_summary_after_screening_whole_answer"
+      ],
+      "steps": [
+        "frame at 5654 ms",
+        "search at 9479 ms",
+        "sources_fetched at 10299 ms",
+        "selection(12 candidates) at 25267 ms",
+        "draft at 28379 ms",
+        "screening at 32593 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00211076125
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 39.6,
+      "reasons": [
+        "no_summary_after_draft_copied_source"
+      ],
+      "steps": [
+        "frame at 6895 ms",
+        "search at 12146 ms",
+        "sources_fetched at 12928 ms",
+        "selection(13 candidates) at 30991 ms",
+        "draft at 35952 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00165061375
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 40.4,
+      "reasons": [
+        "no_summary_after_draft_quotation"
+      ],
+      "steps": [
+        "frame at 5656 ms",
+        "search at 8994 ms",
+        "sources_fetched at 9716 ms",
+        "selection(15 candidates) at 29444 ms",
+        "draft at 33211 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0017612900000000002
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 7.9,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 7913 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00034552
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 2,
+      "reasons": [],
+      "steps": [
+        "frame at 2008 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00017658
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 43.2,
+      "reasons": [],
+      "steps": [
+        "frame at 6127 ms",
+        "search at 9411 ms",
+        "sources_fetched at 10047 ms",
+        "selection(12 candidates) at 31715 ms",
+        "draft at 33876 ms",
+        "screening at 39202 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0013475274999999998,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Der Grund für das Fasten im Ramadan ist, damit die Menschen gottesfürchtig werden.",
+            "refs": [
+              "2:183"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Der Grund für das Fasten im Ramadan ist, damit die Menschen gottesfürchtig werden.",
+            "source_ids": [
+              "2:183"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/2/183"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Der Grund für das Fasten im Ramadan ist, damit die Menschen gottesfürchtig werden.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 47.1,
+      "reasons": [
+        "no_summary_after_screening_whole_answer"
+      ],
+      "steps": [
+        "frame at 9346 ms",
+        "search at 13355 ms",
+        "sources_fetched at 13972 ms",
+        "selection(15 candidates) at 25523 ms",
+        "draft at 32682 ms",
+        "screening at 36719 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0026506087499999996
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [],
+      "steps": [
+        "frame at 6058 ms",
+        "search at 8117 ms",
+        "sources_fetched at 8741 ms",
+        "selection(15 candidates) at 28462 ms",
+        "draft at 34570 ms",
+        "screening at 39109 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0027629062499999997,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 1.7,
+      "reasons": [],
+      "steps": [
+        "frame at 1693 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0002823
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 42.5,
+      "reasons": [
+        "no_summary_after_draft_source_attribution"
+      ],
+      "steps": [
+        "frame at 4924 ms",
+        "search at 7369 ms",
+        "sources_fetched at 8155 ms",
+        "selection(15 candidates) at 29979 ms",
+        "draft at 34934 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00238654375
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.9,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 4083 ms",
+        "search at 8276 ms",
+        "sources_fetched at 8901 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00025344,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.3,
+      "reasons": [],
+      "steps": [
+        "frame at 5310 ms",
+        "search at 7640 ms",
+        "sources_fetched at 8258 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027469,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.4,
+      "reasons": [],
+      "steps": [
+        "frame at 5827 ms",
+        "search at 9362 ms",
+        "sources_fetched at 10346 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026456,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    }
+  ]
+}

@@ -1,0 +1,1663 @@
+{
+  "at": "2026-10-03T20:55:02.022Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 19,
+    "answered": 6,
+    "answeredOfExpected": "6/17",
+    "timeoutsOrBusyOrErrors": 1,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 17.9,
+    "p95Seconds": 29,
+    "skips": 1,
+    "skipReasons": [
+      "local limit)"
+    ],
+    "retries": 0,
+    "costUsdTotal": 0,
+    "costUsdPerQuestion": 0,
+    "refusalReasons": [
+      "evidence_insufficient",
+      "selection_retry_started_thin",
+      "selection_retry_succeeded",
+      "scholar_dropped_by_rules",
+      "draft_malformed",
+      "scholar_difference_unresolved_known_topic",
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient",
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient",
+      "personal",
+      "question_frame_invalid",
+      "no_summary_after_draft_copied_source",
+      "evidence_insufficient",
+      "question_frame_invalid",
+      "selection_retry_started_thin",
+      "selection_retry_succeeded",
+      "no_summary_after_draft_wrong_language",
+      "scholar_dropped_by_rules",
+      "draft_malformed",
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient"
+    ],
+    "modelsUsed": [
+      "openrouter/apodex/apodex-1.1-mini:free",
+      "openrouter/inclusionai/ling-3.0-flash-sante:free"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 10.7,
+      "reasons": [
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 2068 ms",
+        "search at 5971 ms",
+        "sources_fetched at 6604 ms",
+        "selection(13 candidates) at 10677 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 29,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_succeeded"
+      ],
+      "steps": [
+        "frame at 1855 ms",
+        "search at 4986 ms",
+        "sources_fetched at 5665 ms",
+        "selection(15 candidates) at 11291 ms",
+        "selection_retry(8 candidates) at 15078 ms",
+        "draft at 19647 ms",
+        "screening at 23949 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "Zakat is obligatory upon every person who possesses wealth reaching the minimum threshold, as the Quran commands it as a duty tied to prayer and belief.",
+            "refs": [
+              "31:4",
+              "5:55"
+            ]
+          },
+          {
+            "text": "The person required to pay is any individual who holds the amount, including money kept for marriage or a house, regardless of financial hardship, provided it has reached the full minimum threshold.",
+            "refs": [
+              "S87acf5f4-db2a-4344-8ee5-0cec01c4476d",
+              "Sa09fe768-fc5d-4013-9bc4-6846fccff01b"
+            ]
+          },
+          {
+            "text": "Shaykh al-Uthaymeen stated that liability depends on reaching the complete minimum threshold, and that one below that amount owes nothing, citing the Prophet that no alms is due on less than five uqiyyahs of silver.",
+            "refs": [
+              "S87acf5f4-db2a-4344-8ee5-0cec01c4476d"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Zakat is obligatory upon every person who possesses wealth reaching the minimum threshold, as the Quran commands it as a duty tied to prayer and belief.",
+            "source_ids": [
+              "31:4",
+              "5:55"
+            ]
+          },
+          {
+            "text": "The person required to pay is any individual who holds the amount, including money kept for marriage or a house, regardless of financial hardship, provided it has reached the full minimum threshold.",
+            "source_ids": [
+              "S87acf5f4-db2a-4344-8ee5-0cec01c4476d",
+              "Sa09fe768-fc5d-4013-9bc4-6846fccff01b"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Details",
+            "sentences": [
+              {
+                "text": "Shaykh al-Uthaymeen stated that liability depends on reaching the complete minimum threshold, and that one below that amount owes nothing, citing the Prophet that no alms is due on less than five uqiyyahs of silver.",
+                "source_ids": [
+                  "S87acf5f4-db2a-4344-8ee5-0cec01c4476d"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "31:4",
+            "arabic": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+            "translation": "who keep up the prayer, pay the prescribed alms, and are certain of the Hereafter:",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/31/4"
+          },
+          {
+            "kind": "quran",
+            "key": "5:55",
+            "arabic": "إِنَّمَا وَلِيُّكُمُ ٱللَّهُ وَرَسُولُهُۥ وَٱلَّذِينَ ءَامَنُوا۟ ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُمْ رَٰكِعُونَ",
+            "translation": "Your true allies are God, His Messenger, and the believers- those who keep up the prayer, pay the prescribed alms, and bow down in worship.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/5/55"
+          },
+          {
+            "kind": "scholar",
+            "key": "S87acf5f4-db2a-4344-8ee5-0cec01c4476d",
+            "scholarId": "ibn-uthaymeen",
+            "scholarName": "Shaykh Muhammad ibn Salih al-Uthaymeen",
+            "title": "عنده مبلغ من المال..وقد حال عليه الحول فهل تجب فيه الزكاة ؟",
+            "reference": "فتاوى نور على الدرب (الشريط رقم [185])",
+            "arabic": "نعم، إذا كان عند الإنسان عملة ورقية فإنها بمنزلة النقدين، أي بمنزلة الذهب والفضة، فعليه زكاتها كل عام، ومقدار الزكاة ربع العشر، وكيفية استخراجها أن تقسم ما عندك من المال على أربعين وما خرج بالقسمة فهو الزكاة، فإذا كان عندك أربعون ألفاً مثلاً فزكاتها ألف، وإذا كان عندك أربعمائة فزكاتها عشرة آلاف وهكذا، فاقسم ما عندك على أربعين فما خرج بالقسمة فهو الزكاة، ولكن يجب أن نعلم بأن وجوب الزكاة مشروطٌ بتمام النصاب، فمن كان عنده مالٌ لا يبلغ النصاب فليس فيه زكاة؛ لقول النبي صلى الله عليه وسلم: «ليس فيما دون الخمس أواقٍ صدقة».",
+            "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B185%5D/%D8%B9%D9%86%D8%AF%D9%87-%D9%85%D8%A8%D9%84%D8%BA-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%A7%D9%84..%D9%88%D9%82%D8%AF-%D8%AD%D8%A7%D9%84-%D8%B9%D9%84%D9%8A%D9%87-%D8%A7%D9%84%D8%AD%D9%88%D9%84-%D9%81%D9%87%D9%84-%D8%AA%D8%AC%D8%A8-%D9%81%D9%8A%D9%87-%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9-%D8%9F/42874c84-176c-40d8-8367-1d7ebad598bf"
+          },
+          {
+            "kind": "scholar",
+            "key": "Sa09fe768-fc5d-4013-9bc4-6846fccff01b",
+            "scholarId": "ibn-uthaymeen",
+            "scholarName": "Shaykh Muhammad ibn Salih al-Uthaymeen",
+            "title": "حكم المال إذا حال عليه الحول وكان مدخراً لزواج ونحوه",
+            "reference": "لقاءات الباب المفتوح (لقاء الباب المفتوح [20])",
+            "arabic": "نعم. إذا جمع الإنسان مالاً للزواج، أو ليشتري به بيتاً أو ما أشبه ذلك، فإنه تجب عليه فيه الزكاة، حتى إن كانت حالته المادية متعبة؛ لأن المال تجب الزكاة فيه من حيث إنه مال، وإذا وجد مال عند أي إنسان، فإنه يجب عليه أن يزكيه.",
+            "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B20%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D8%A7%D9%84-%D8%A5%D8%B0%D8%A7-%D8%AD%D8%A7%D9%84-%D8%B9%D9%84%D9%8A%D9%87-%D8%A7%D9%84%D8%AD%D9%88%D9%84-%D9%88%D9%83%D8%A7%D9%86-%D9%85%D8%AF%D8%AE%D8%B1%D8%A7%D9%8B-%D9%84%D8%B2%D9%88%D8%A7%D8%AC-%D9%88%D9%86%D8%AD%D9%88%D9%87/ed361cd4-9b8a-4737-affa-d17e08eb84fe"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "6B14bFwVsAc",
+            "channelId": "UCtF3YygTiodnYSw8vD3UJtQ",
+            "title": "حكم إقامة الجمعيات بين الموظفين ووجوب الزكاة فيها - فضيلة الشيخ ابن عثيمين رحمه الله تعالى",
+            "minutes": 4,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Zakat is obligatory upon every person who possesses wealth reaching the minimum threshold, as the Quran commands it as a duty tied to prayer and belief.",
+                "source_ids": [
+                  "Q31:4",
+                  "Q5:55"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "The person required to pay is any individual who holds the amount, including money kept for marriage or a house, regardless of financial hardship, provided it has reached the full minimum threshold.",
+                "source_ids": [
+                  "S87acf5f4-db2a-4344-8ee5-0cec01c4476d",
+                  "Sa09fe768-fc5d-4013-9bc4-6846fccff01b"
+                ],
+                "requirement_id": "R2"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-5-55",
+              "source_ids": [
+                "Q5:55"
+              ],
+              "points": [
+                "R1",
+                "R2"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q5:55",
+                  "key": "5:55",
+                  "arabic": "إِنَّمَا وَلِيُّكُمُ ٱللَّهُ وَرَسُولُهُۥ وَٱلَّذِينَ ءَامَنُوا۟ ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُمْ رَٰكِعُونَ",
+                  "translation": "Your true allies are God, His Messenger, and the believers- those who keep up the prayer, pay the prescribed alms, and bow down in worship.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/5/55"
+                }
+              ]
+            },
+            {
+              "id": "quran-31-4",
+              "source_ids": [
+                "Q31:4"
+              ],
+              "points": [
+                "R1",
+                "R2"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q31:4",
+                  "key": "31:4",
+                  "arabic": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+                  "translation": "who keep up the prayer, pay the prescribed alms, and are certain of the Hereafter:",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/31/4"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "S87acf5f4-db2a-4344-8ee5-0cec01c4476d",
+              "points": [
+                "R1",
+                "R2"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-uthaymeen",
+              "scholar_name": "Shaykh Muhammad ibn Salih al-Uthaymeen",
+              "title": "عنده مبلغ من المال..وقد حال عليه الحول فهل تجب فيه الزكاة ؟",
+              "reference": "فتاوى نور على الدرب (الشريط رقم [185])",
+              "arabic": "نعم، إذا كان عند الإنسان عملة ورقية فإنها بمنزلة النقدين، أي بمنزلة الذهب والفضة، فعليه زكاتها كل عام، ومقدار الزكاة ربع العشر، وكيفية استخراجها أن تقسم ما عندك من المال على أربعين وما خرج بالقسمة فهو الزكاة، فإذا كان عندك أربعون ألفاً مثلاً فزكاتها ألف، وإذا كان عندك أربعمائة فزكاتها عشرة آلاف وهكذا، فاقسم ما عندك على أربعين فما خرج بالقسمة فهو الزكاة، ولكن يجب أن نعلم بأن وجوب الزكاة مشروطٌ بتمام النصاب، فمن كان عنده مالٌ لا يبلغ النصاب فليس فيه زكاة؛ لقول النبي صلى الله عليه وسلم: «ليس فيما دون الخمس أواقٍ صدقة».",
+              "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B185%5D/%D8%B9%D9%86%D8%AF%D9%87-%D9%85%D8%A8%D9%84%D8%BA-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%A7%D9%84..%D9%88%D9%82%D8%AF-%D8%AD%D8%A7%D9%84-%D8%B9%D9%84%D9%8A%D9%87-%D8%A7%D9%84%D8%AD%D9%88%D9%84-%D9%81%D9%87%D9%84-%D8%AA%D8%AC%D8%A8-%D9%81%D9%8A%D9%87-%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9-%D8%9F/42874c84-176c-40d8-8367-1d7ebad598bf"
+            },
+            {
+              "id": "Sa09fe768-fc5d-4013-9bc4-6846fccff01b",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-uthaymeen",
+              "scholar_name": "Shaykh Muhammad ibn Salih al-Uthaymeen",
+              "title": "حكم المال إذا حال عليه الحول وكان مدخراً لزواج ونحوه",
+              "reference": "لقاءات الباب المفتوح (لقاء الباب المفتوح [20])",
+              "arabic": "نعم. إذا جمع الإنسان مالاً للزواج، أو ليشتري به بيتاً أو ما أشبه ذلك، فإنه تجب عليه فيه الزكاة، حتى إن كانت حالته المادية متعبة؛ لأن المال تجب الزكاة فيه من حيث إنه مال، وإذا وجد مال عند أي إنسان، فإنه يجب عليه أن يزكيه.",
+              "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B20%5D/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D8%A7%D9%84-%D8%A5%D8%B0%D8%A7-%D8%AD%D8%A7%D9%84-%D8%B9%D9%84%D9%8A%D9%87-%D8%A7%D9%84%D8%AD%D9%88%D9%84-%D9%88%D9%83%D8%A7%D9%86-%D9%85%D8%AF%D8%AE%D8%B1%D8%A7%D9%8B-%D9%84%D8%B2%D9%88%D8%A7%D8%AC-%D9%88%D9%86%D8%AD%D9%88%D9%87/ed361cd4-9b8a-4737-affa-d17e08eb84fe"
+            }
+          ],
+          "videos": [
+            {
+              "youtubeId": "6B14bFwVsAc",
+              "channelId": "UCtF3YygTiodnYSw8vD3UJtQ",
+              "title": "حكم إقامة الجمعيات بين الموظفين ووجوب الزكاة فيها - فضيلة الشيخ ابن عثيمين رحمه الله تعالى",
+              "minutes": 4,
+              "language": "ar"
+            }
+          ],
+          "more_explanation": [
+            {
+              "heading": "Details",
+              "sentences": [
+                {
+                  "text": "Shaykh al-Uthaymeen stated that liability depends on reaching the complete minimum threshold, and that one below that amount owes nothing, citing the Prophet that no alms is due on less than five uqiyyahs of silver.",
+                  "source_ids": [
+                    "S87acf5f4-db2a-4344-8ee5-0cec01c4476d"
+                  ],
+                  "requirement_id": "R2"
+                }
+              ]
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 17.9,
+      "reasons": [],
+      "steps": [
+        "frame at 1854 ms",
+        "search at 5687 ms",
+        "sources_fetched at 6363 ms",
+        "selection(12 candidates) at 10071 ms",
+        "draft at 11594 ms",
+        "screening at 16530 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "The reason fasting is prescribed is to help believers become mindful of God and to be thankful for His guidance.",
+            "refs": [
+              "2:183"
+            ]
+          },
+          {
+            "text": "It was also revealed in Ramadan as a clear guide distinguishing right from wrong, so that God may be glorified and believers grateful.",
+            "refs": [
+              "2:185"
+            ]
+          },
+          {
+            "text": "Fasting is required of every responsible Muslim man or woman, and guardians should urge those able to do it, just as they urge prayer.",
+            "refs": [
+              "S11246688-990a-2996-4d0d-583555a0738b"
+            ]
+          },
+          {
+            "text": "Those who are ill or traveling should make up the missed days on other days.",
+            "refs": [
+              "2:184"
+            ]
+          },
+          {
+            "text": "People who find fasting extremely hard may instead feed a needy person, while voluntary good is rewarded further.",
+            "refs": [
+              "2:184"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "The reason fasting is prescribed is to help believers become mindful of God and to be thankful for His guidance.",
+            "source_ids": [
+              "2:183"
+            ]
+          },
+          {
+            "text": "It was also revealed in Ramadan as a clear guide distinguishing right from wrong, so that God may be glorified and believers grateful.",
+            "source_ids": [
+              "2:185"
+            ]
+          },
+          {
+            "text": "Fasting is required of every responsible Muslim man or woman, and guardians should urge those able to do it, just as they urge prayer.",
+            "source_ids": [
+              "S11246688-990a-2996-4d0d-583555a0738b"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Details",
+            "sentences": [
+              {
+                "text": "Those who are ill or traveling should make up the missed days on other days.",
+                "source_ids": [
+                  "2:184"
+                ]
+              },
+              {
+                "text": "People who find fasting extremely hard may instead feed a needy person, while voluntary good is rewarded further.",
+                "source_ids": [
+                  "2:184"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/183"
+          },
+          {
+            "kind": "quran",
+            "key": "2:185",
+            "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+            "translation": "It was in the month of Ramadan that the Quran was revealed as guidance for mankind, clear messages giving guidance and distinguishing between right and wrong. So any one of you who is present that month should fast, and anyone who is ill or on a journey should make up for the lost days by fasting on other days later. God wants ease for you, not hardship. He wants you to complete the prescribed period and to glorify Him for having guided you, so that you may be thankful.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/185"
+          },
+          {
+            "kind": "scholar",
+            "key": "S11246688-990a-2996-4d0d-583555a0738b",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "على من يجب صيام رمضان؟ وفضل صيام التطوع",
+            "reference": "binbaz.org.sa, fatwa 11348",
+            "arabic": "يجب صوم رمضان على كل مسلم مكلف من الرجال والنساء، ويستحب لمن بلغ سبعًا فأكثر وأطاقه من الذكور والإناث، ويجب على أولياء أمورهم أمرهم بذلك إذا أطاقوه كما يأمرونهم بالصلاة، والأصل في هذا قول الله : يَا أَيُّهَا الَّذِينَ آمَنُواْ كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ ۝ أَيَّامًا مَّعْدُودَاتٍ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَى سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ...",
+            "url": "https://binbaz.org.sa/fatwas/11348/%D8%B9%D9%84%D9%89-%D9%85%D9%86-%D9%8A%D8%AC%D8%A8-%D8%B5%D9%8A%D8%A7%D9%85-%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D8%9F-%D9%88%D9%81%D8%B6%D9%84-%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B9"
+          },
+          {
+            "kind": "quran",
+            "key": "2:184",
+            "arabic": "أَيَّامًا مَّعْدُودَٰتٍ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌ طَعَامُ مِسْكِينٍ ۖ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+            "translation": "Fast for a specific number of days, but if one of you is ill, or on a journey, on other days later. For those who can fast only with extreme difficulty, there is a way to compensate- feed a needy person. But if anyone does good of his own accord, it is better for him, and fasting is better for you, if only you knew.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/184"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "The reason fasting is prescribed is to help believers become mindful of God and to be thankful for His guidance.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "It was also revealed in Ramadan as a clear guide distinguishing right from wrong, so that God may be glorified and believers grateful.",
+                "source_ids": [
+                  "Q2:185"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "Fasting is required of every responsible Muslim man or woman, and guardians should urge those able to do it, just as they urge prayer.",
+                "source_ids": [
+                  "S11246688-990a-2996-4d0d-583555a0738b"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183-185",
+              "source_ids": [
+                "Q2:183",
+                "Q2:184",
+                "Q2:185"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/183"
+                },
+                {
+                  "id": "Q2:184",
+                  "key": "2:184",
+                  "arabic": "أَيَّامًا مَّعْدُودَٰتٍ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌ طَعَامُ مِسْكِينٍ ۖ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+                  "translation": "Fast for a specific number of days, but if one of you is ill, or on a journey, on other days later. For those who can fast only with extreme difficulty, there is a way to compensate- feed a needy person. But if anyone does good of his own accord, it is better for him, and fasting is better for you, if only you knew.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/184"
+                },
+                {
+                  "id": "Q2:185",
+                  "key": "2:185",
+                  "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+                  "translation": "It was in the month of Ramadan that the Quran was revealed as guidance for mankind, clear messages giving guidance and distinguishing between right and wrong. So any one of you who is present that month should fast, and anyone who is ill or on a journey should make up for the lost days by fasting on other days later. God wants ease for you, not hardship. He wants you to complete the prescribed period and to glorify Him for having guided you, so that you may be thankful.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/185"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "S11246688-990a-2996-4d0d-583555a0738b",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "على من يجب صيام رمضان؟ وفضل صيام التطوع",
+              "reference": "binbaz.org.sa, fatwa 11348",
+              "arabic": "يجب صوم رمضان على كل مسلم مكلف من الرجال والنساء، ويستحب لمن بلغ سبعًا فأكثر وأطاقه من الذكور والإناث، ويجب على أولياء أمورهم أمرهم بذلك إذا أطاقوه كما يأمرونهم بالصلاة، والأصل في هذا قول الله : يَا أَيُّهَا الَّذِينَ آمَنُواْ كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ ۝ أَيَّامًا مَّعْدُودَاتٍ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَى سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ...",
+              "url": "https://binbaz.org.sa/fatwas/11348/%D8%B9%D9%84%D9%89-%D9%85%D9%86-%D9%8A%D8%AC%D8%A8-%D8%B5%D9%8A%D8%A7%D9%85-%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D8%9F-%D9%88%D9%81%D8%B6%D9%84-%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B9"
+            }
+          ],
+          "videos": [],
+          "more_explanation": [
+            {
+              "heading": "Details",
+              "sentences": [
+                {
+                  "text": "Those who are ill or traveling should make up the missed days on other days.",
+                  "source_ids": [
+                    "Q2:184"
+                  ],
+                  "requirement_id": "R1"
+                },
+                {
+                  "text": "People who find fasting extremely hard may instead feed a needy person, while voluntary good is rewarded further.",
+                  "source_ids": [
+                    "Q2:184"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "busy",
+      "seconds": 9,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 1534 ms",
+        "search at 7241 ms",
+        "sources_fetched at 7992 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [
+        "openrouter/inclusionai/ling-3.0-flash-sante:free (openrouter busy (local limit))"
+      ],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter busy (local limit)"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 19.7,
+      "reasons": [
+        "draft_malformed"
+      ],
+      "steps": [
+        "frame at 4403 ms",
+        "search at 10664 ms",
+        "sources_fetched at 11376 ms",
+        "selection(12 candidates) at 16265 ms",
+        "draft at 19687 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 22.6,
+      "reasons": [],
+      "steps": [
+        "frame at 3776 ms",
+        "search at 7772 ms",
+        "sources_fetched at 8433 ms",
+        "selection(13 candidates) at 13851 ms",
+        "draft at 16254 ms",
+        "screening at 21374 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "Yes, hijab is obligatory for Muslim women who have reached maturity, as the Quran orders believing women to cover their adornments and draw their head coverings over their necklines.",
+            "refs": [
+              "24:31"
+            ]
+          },
+          {
+            "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must observe hijab before any non-mahram man, including her husband's brother, uncles and non-mahram neighbors, and must not obey her family if they forbid it.",
+            "refs": [
+              "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+              "24:31"
+            ]
+          },
+          {
+            "text": "According to Shaykh ibn Baz, a woman must cover her hair, face and body before cousins, children of uncles and aunts, and neighbors who are not mahrams.",
+            "refs": [
+              "S345198b5-92d0-60f8-74f7-a11352af3583"
+            ]
+          },
+          {
+            "text": "There is no covering obligation when she is before her mahrams, such as her maternal uncle or paternal uncle.",
+            "refs": [
+              "S345198b5-92d0-60f8-74f7-a11352af3583"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Yes, hijab is obligatory for Muslim women who have reached maturity, as the Quran orders believing women to cover their adornments and draw their head coverings over their necklines.",
+            "source_ids": [
+              "24:31"
+            ]
+          },
+          {
+            "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must observe hijab before any non-mahram man, including her husband's brother, uncles and non-mahram neighbors, and must not obey her family if they forbid it.",
+            "source_ids": [
+              "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+              "24:31"
+            ]
+          },
+          {
+            "text": "According to Shaykh ibn Baz, a woman must cover her hair, face and body before cousins, children of uncles and aunts, and neighbors who are not mahrams.",
+            "source_ids": [
+              "S345198b5-92d0-60f8-74f7-a11352af3583"
+            ]
+          },
+          {
+            "text": "There is no covering obligation when she is before her mahrams, such as her maternal uncle or paternal uncle.",
+            "source_ids": [
+              "S345198b5-92d0-60f8-74f7-a11352af3583"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "24:31",
+            "arabic": "وَقُل لِّلْمُؤْمِنَـٰتِ يَغْضُضْنَ مِنْ أَبْصَـٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُنَّ أَوِ ٱلتَّـٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+            "translation": "And tell believing women that they should lower their glances, guard their private parts, and not display their charms beyond what [it is acceptable] to reveal; they should let their headscarves fall to cover their necklines and not reveal their charms except to their husbands, their fathers, their husbands’ fathers, their sons, their husbands’ sons, their brothers, their brothers’ sons, their sisters’ sons, their womenfolk, their slaves, such men as attend them who have no sexual desire, or children who are not yet aware of women’s nakedness; they should not stamp their feet so as to draw attention to any hidden charms. Believers, all of you, turn to God so that you may prosper.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/24/31"
+          },
+          {
+            "kind": "scholar",
+            "key": "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "حكم طاعة البنت أهلها في عدم ارتداء الحجاب",
+            "reference": "binbaz.org.sa, fatwa 15262",
+            "arabic": "الواجب عليك ارتداء النقاب، والتحجب عن الرجال الأجانب، ولو أبى أهلك في ذلك، ليس لهم طاعة في هذا، يقول النبي ﷺ: إنما الطاعة في المعروف والمعروف هو ما شرعه الله -جل وعلا- وأباحه، ويقول ﷺ: لا طاعة لمخلوق في معصية الخالق. فالواجب عليك التستر، والحجاب عن الأجنبي، كأخي الزوج، أو عمه، وكالجيران الذين ليسوا بمحارم، وغيرهم، كل رجل ليس محرمًا لك؛ عليك التحجب عنه، ولو أبى أهلك ذلك، لا، ليس لك أن تطيعيهم في ذلك.",
+            "url": "https://binbaz.org.sa/fatwas/15262/%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AA-%D8%A3%D9%87%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D8%B9%D8%AF%D9%85-%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%A8"
+          },
+          {
+            "kind": "scholar",
+            "key": "S345198b5-92d0-60f8-74f7-a11352af3583",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "حكم حجاب المرأة المسلمة أمام المحارم",
+            "reference": "binbaz.org.sa, fatwa 4291",
+            "arabic": "الشيخ: نعم الواجب على المرأة الحجاب عن بني عمِّها وبني خالها وأبناء عمَّتها وخالتها، ليسوا محارم، فعليها أن تحتجب عنهم: شعرها ووجهها وبدنها؛ لأنَّهم ليسوا محارم، وهي فتنةٌ وعورةٌ، لكن إذا كانوا محارم -كالخال والعمّ- فلا بأس، أما ابن الخال وابن العمّ وابن العمّة وابن الخالة والجيران فليسوا محارم، فالواجب التَّحجب عنهم بغطاء الوجه وستر البدن.",
+            "url": "https://binbaz.org.sa/fatwas/4291/%D8%AD%D9%83%D9%85-%D8%AD%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D9%85"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Yes, hijab is obligatory for Muslim women who have reached maturity, as the Quran orders believing women to cover their adornments and draw their head coverings over their necklines.",
+                "source_ids": [
+                  "Q24:31"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must observe hijab before any non-mahram man, including her husband's brother, uncles and non-mahram neighbors, and must not obey her family if they forbid it.",
+                "source_ids": [
+                  "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+                  "Q24:31"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "According to Shaykh ibn Baz, a woman must cover her hair, face and body before cousins, children of uncles and aunts, and neighbors who are not mahrams.",
+                "source_ids": [
+                  "S345198b5-92d0-60f8-74f7-a11352af3583"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "There is no covering obligation when she is before her mahrams, such as her maternal uncle or paternal uncle.",
+                "source_ids": [
+                  "S345198b5-92d0-60f8-74f7-a11352af3583"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-24-31",
+              "source_ids": [
+                "Q24:31"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q24:31",
+                  "key": "24:31",
+                  "arabic": "وَقُل لِّلْمُؤْمِنَـٰتِ يَغْضُضْنَ مِنْ أَبْصَـٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُنَّ أَوِ ٱلتَّـٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+                  "translation": "And tell believing women that they should lower their glances, guard their private parts, and not display their charms beyond what [it is acceptable] to reveal; they should let their headscarves fall to cover their necklines and not reveal their charms except to their husbands, their fathers, their husbands’ fathers, their sons, their husbands’ sons, their brothers, their brothers’ sons, their sisters’ sons, their womenfolk, their slaves, such men as attend them who have no sexual desire, or children who are not yet aware of women’s nakedness; they should not stamp their feet so as to draw attention to any hidden charms. Believers, all of you, turn to God so that you may prosper.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/24/31"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "حكم طاعة البنت أهلها في عدم ارتداء الحجاب",
+              "reference": "binbaz.org.sa, fatwa 15262",
+              "arabic": "الواجب عليك ارتداء النقاب، والتحجب عن الرجال الأجانب، ولو أبى أهلك في ذلك، ليس لهم طاعة في هذا، يقول النبي ﷺ: إنما الطاعة في المعروف والمعروف هو ما شرعه الله -جل وعلا- وأباحه، ويقول ﷺ: لا طاعة لمخلوق في معصية الخالق. فالواجب عليك التستر، والحجاب عن الأجنبي، كأخي الزوج، أو عمه، وكالجيران الذين ليسوا بمحارم، وغيرهم، كل رجل ليس محرمًا لك؛ عليك التحجب عنه، ولو أبى أهلك ذلك، لا، ليس لك أن تطيعيهم في ذلك.",
+              "url": "https://binbaz.org.sa/fatwas/15262/%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AA-%D8%A3%D9%87%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D8%B9%D8%AF%D9%85-%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%A8"
+            },
+            {
+              "id": "S345198b5-92d0-60f8-74f7-a11352af3583",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "حكم حجاب المرأة المسلمة أمام المحارم",
+              "reference": "binbaz.org.sa, fatwa 4291",
+              "arabic": "الشيخ: نعم الواجب على المرأة الحجاب عن بني عمِّها وبني خالها وأبناء عمَّتها وخالتها، ليسوا محارم، فعليها أن تحتجب عنهم: شعرها ووجهها وبدنها؛ لأنَّهم ليسوا محارم، وهي فتنةٌ وعورةٌ، لكن إذا كانوا محارم -كالخال والعمّ- فلا بأس، أما ابن الخال وابن العمّ وابن العمّة وابن الخالة والجيران فليسوا محارم، فالواجب التَّحجب عنهم بغطاء الوجه وستر البدن.",
+              "url": "https://binbaz.org.sa/fatwas/4291/%D8%AD%D9%83%D9%85-%D8%AD%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D9%85"
+            }
+          ],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 2.2,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 2167 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 17.4,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1723 ms",
+        "search at 8678 ms",
+        "sources_fetched at 9558 ms",
+        "selection(12 candidates) at 13750 ms",
+        "selection_retry(8 candidates) at 17360 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 15.1,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1746 ms",
+        "search at 5246 ms",
+        "sources_fetched at 5907 ms",
+        "selection(15 candidates) at 11085 ms",
+        "selection_retry(8 candidates) at 15057 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 25.8,
+      "reasons": [],
+      "steps": [
+        "frame at 4191 ms",
+        "search at 7704 ms",
+        "sources_fetched at 8641 ms",
+        "selection(13 candidates) at 13873 ms",
+        "draft at 16631 ms",
+        "screening at 20605 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "Intentions must be in the heart for every act of worship, because an action is judged by what its possessor intends.",
+            "refs": [
+              "S916e042e-8573-4e52-b138-8bb26b56360e"
+            ]
+          },
+          {
+            "text": "Speaking the intention aloud with the tongue is not prescribed and is considered an innovation, since the Prophet and his companions did not do so.",
+            "refs": [
+              "S916e042e-8573-4e52-b138-8bb26b56360e",
+              "Sd453e132-3eab-6aac-cbc4-af37569eef70"
+            ]
+          },
+          {
+            "text": "Shaykh Abdul-Aziz ibn Baz stated that the intention is required in prayer, Hajj, fasting, charity and all other acts of worship, and it occurs in the heart rather than by verbal utterance.",
+            "refs": [
+              "S916e042e-8573-4e52-b138-8bb26b56360e"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Intentions must be in the heart for every act of worship, because an action is judged by what its possessor intends.",
+            "source_ids": [
+              "S916e042e-8573-4e52-b138-8bb26b56360e"
+            ]
+          },
+          {
+            "text": "Speaking the intention aloud with the tongue is not prescribed and is considered an innovation, since the Prophet and his companions did not do so.",
+            "source_ids": [
+              "S916e042e-8573-4e52-b138-8bb26b56360e",
+              "Sd453e132-3eab-6aac-cbc4-af37569eef70"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Details",
+            "sentences": [
+              {
+                "text": "Shaykh Abdul-Aziz ibn Baz stated that the intention is required in prayer, Hajj, fasting, charity and all other acts of worship, and it occurs in the heart rather than by verbal utterance.",
+                "source_ids": [
+                  "S916e042e-8573-4e52-b138-8bb26b56360e"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "scholar",
+            "key": "S916e042e-8573-4e52-b138-8bb26b56360e",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "محل النية وحكم التلفظ بها",
+            "reference": "binbaz.org.sa, fatwa 8343",
+            "arabic": "النية لابد منها في العبادات كلها لقول النبي ﷺ: إنما الأعمال بالنيات، وإنما لكل امرئ ما نوى، فالنية بالقلب في الصلاة في الحج في الصيام في جميع العبادات في الصدقة إلى غير ذلك، لكن التلفظ غير مشروع، كونه يقول نويت بلسانه يتكلم: نويت أن أصلي الظهر كذا العصر كذا المغرب كذا هذا غير مشروع ولم يفعله النبي ﷺ ولا أصحابه ولا السلف الصالح، وإنما النية بالقلب، فما يفعله بعض الناس يقول: نويت أن أتوضأ كذا، نويت أن أصلي الظهر أربع ركعات إماماً أو مأموماً.. إلى آخره؛ كل هذا لا أصل له بل هو من البدع، وإنما النية تكون بالقلب لا باللسان. نعم.",
+            "url": "https://binbaz.org.sa/fatwas/8343/%D9%85%D8%AD%D9%84-%D8%A7%D9%84%D9%86%D9%8A%D8%A9-%D9%88%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B8-%D8%A8%D9%87%D8%A7"
+          },
+          {
+            "kind": "scholar",
+            "key": "Sd453e132-3eab-6aac-cbc4-af37569eef70",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "ما حكم التلفظ بالنية في الأعمال؟",
+            "reference": "binbaz.org.sa, fatwa 13102",
+            "arabic": "هذا بدعة، ما يجوز. التلفظ بالنية بدعة، ينوي في قلبه، والحمد لله، إذا قام بنية الصلاة كبر فقط، ما يقول: نويت أن أصلي كذا وكذا، ولا نويت أن أطوف، يأتي بالنية إذا قام للصلاة، ينوي الظهر يكبر، إذا قام العصر كبر بنية العصر، المغرب كبر بنية المغرب، وهكذا بالقلب نعم.",
+            "url": "https://binbaz.org.sa/fatwas/13102/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B8-%D8%A8%D8%A7%D9%84%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D8%9F"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "fXebD7KyinI",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "[1] حديث: إنما الأعمال بالنيات - التعليق على صحيح البخاري - عثمان الخميس",
+            "minutes": 3,
+            "language": "ar"
+          },
+          {
+            "youtubeId": "Nd1f7GmP6eI",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "ينبغي لمن صنّف أن يبدأ بحديث (إنما الأعمال بالنّيّات) - عثمان الخميس",
+            "minutes": 2,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Intentions must be in the heart for every act of worship, because an action is judged by what its possessor intends.",
+                "source_ids": [
+                  "S916e042e-8573-4e52-b138-8bb26b56360e"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "Speaking the intention aloud with the tongue is not prescribed and is considered an innovation, since the Prophet and his companions did not do so.",
+                "source_ids": [
+                  "S916e042e-8573-4e52-b138-8bb26b56360e",
+                  "Sd453e132-3eab-6aac-cbc4-af37569eef70"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "S916e042e-8573-4e52-b138-8bb26b56360e",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "محل النية وحكم التلفظ بها",
+              "reference": "binbaz.org.sa, fatwa 8343",
+              "arabic": "النية لابد منها في العبادات كلها لقول النبي ﷺ: إنما الأعمال بالنيات، وإنما لكل امرئ ما نوى، فالنية بالقلب في الصلاة في الحج في الصيام في جميع العبادات في الصدقة إلى غير ذلك، لكن التلفظ غير مشروع، كونه يقول نويت بلسانه يتكلم: نويت أن أصلي الظهر كذا العصر كذا المغرب كذا هذا غير مشروع ولم يفعله النبي ﷺ ولا أصحابه ولا السلف الصالح، وإنما النية بالقلب، فما يفعله بعض الناس يقول: نويت أن أتوضأ كذا، نويت أن أصلي الظهر أربع ركعات إماماً أو مأموماً.. إلى آخره؛ كل هذا لا أصل له بل هو من البدع، وإنما النية تكون بالقلب لا باللسان. نعم.",
+              "url": "https://binbaz.org.sa/fatwas/8343/%D9%85%D8%AD%D9%84-%D8%A7%D9%84%D9%86%D9%8A%D8%A9-%D9%88%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B8-%D8%A8%D9%87%D8%A7"
+            },
+            {
+              "id": "Sd453e132-3eab-6aac-cbc4-af37569eef70",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "ما حكم التلفظ بالنية في الأعمال؟",
+              "reference": "binbaz.org.sa, fatwa 13102",
+              "arabic": "هذا بدعة، ما يجوز. التلفظ بالنية بدعة، ينوي في قلبه، والحمد لله، إذا قام بنية الصلاة كبر فقط، ما يقول: نويت أن أصلي كذا وكذا، ولا نويت أن أطوف، يأتي بالنية إذا قام للصلاة، ينوي الظهر يكبر، إذا قام العصر كبر بنية العصر، المغرب كبر بنية المغرب، وهكذا بالقلب نعم.",
+              "url": "https://binbaz.org.sa/fatwas/13102/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B8-%D8%A8%D8%A7%D9%84%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D8%9F"
+            }
+          ],
+          "videos": [
+            {
+              "youtubeId": "fXebD7KyinI",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "[1] حديث: إنما الأعمال بالنيات - التعليق على صحيح البخاري - عثمان الخميس",
+              "minutes": 3,
+              "language": "ar"
+            },
+            {
+              "youtubeId": "Nd1f7GmP6eI",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "ينبغي لمن صنّف أن يبدأ بحديث (إنما الأعمال بالنّيّات) - عثمان الخميس",
+              "minutes": 2,
+              "language": "ar"
+            }
+          ],
+          "more_explanation": [
+            {
+              "heading": "Details",
+              "sentences": [
+                {
+                  "text": "Shaykh Abdul-Aziz ibn Baz stated that the intention is required in prayer, Hajj, fasting, charity and all other acts of worship, and it occurs in the heart rather than by verbal utterance.",
+                  "source_ids": [
+                    "S916e042e-8573-4e52-b138-8bb26b56360e"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {},
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 4.1,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 4070 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "no_source",
+      "seconds": 2,
+      "reasons": [
+        "question_frame_invalid"
+      ],
+      "steps": [
+        "frame at 1993 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 19.3,
+      "reasons": [
+        "no_summary_after_draft_copied_source"
+      ],
+      "steps": [
+        "frame at 1658 ms",
+        "search at 8498 ms",
+        "sources_fetched at 9512 ms",
+        "selection(13 candidates) at 14546 ms",
+        "draft at 16910 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 15.2,
+      "reasons": [
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 6704 ms",
+        "search at 10208 ms",
+        "sources_fetched at 10963 ms",
+        "selection(15 candidates) at 15172 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 21.3,
+      "reasons": [],
+      "steps": [
+        "frame at 1509 ms",
+        "search at 8618 ms",
+        "sources_fetched at 9249 ms",
+        "selection(11 candidates) at 13919 ms",
+        "draft at 17737 ms",
+        "screening at 20213 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Die Pilgerfahrt zur Kaaba ist für Muslime nur dann verpflichtend, wer dazu die physische und finanzielle Fähigkeit besitzt, den Weg zu ihr anzutreten.",
+            "refs": [
+              "3:97"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Die Pilgerfahrt zur Kaaba ist für Muslime nur dann verpflichtend, wer dazu die physische und finanzielle Fähigkeit besitzt, den Weg zu ihr anzutreten.",
+            "source_ids": [
+              "3:97"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "3:97",
+            "arabic": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+            "translation": "In ihm sind deutliche Zeichen die Stätte Abrahams. Und wer es betritt, ist sicher. Und der Menschen Pflicht gegenüber Allah ist die Pilgerfahrt zum Hause, wer da den Weg zu ihm machen kann. Wer aber ungläubig ist wahrlich, Allah ist nicht auf die Welten angewiesen.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/3/97"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Die Pilgerfahrt zur Kaaba ist für Muslime nur dann verpflichtend, wer dazu die physische und finanzielle Fähigkeit besitzt, den Weg zu ihr anzutreten.",
+                "source_ids": [
+                  "Q3:97"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-3-97",
+              "source_ids": [
+                "Q3:97"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q3:97",
+                  "key": "3:97",
+                  "arabic": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+                  "translation": "In ihm sind deutliche Zeichen die Stätte Abrahams. Und wer es betritt, ist sicher. Und der Menschen Pflicht gegenüber Allah ist die Pilgerfahrt zum Hause, wer da den Weg zu ihm machen kann. Wer aber ungläubig ist wahrlich, Allah ist nicht auf die Welten angewiesen.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/3/97"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "no_source",
+      "seconds": 3.2,
+      "reasons": [
+        "question_frame_invalid"
+      ],
+      "steps": [
+        "frame at 3186 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 22.7,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_succeeded",
+        "no_summary_after_draft_wrong_language"
+      ],
+      "steps": [
+        "frame at 2000 ms",
+        "search at 6104 ms",
+        "sources_fetched at 7085 ms",
+        "selection(15 candidates) at 11328 ms",
+        "selection_retry(8 candidates) at 14356 ms",
+        "draft at 19304 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 35.7,
+      "reasons": [
+        "scholar_dropped_by_rules",
+        "draft_malformed"
+      ],
+      "steps": [
+        "frame at 6940 ms",
+        "search at 11667 ms",
+        "sources_fetched at 12357 ms",
+        "selection(15 candidates) at 17915 ms",
+        "draft at 22555 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 19.1,
+      "reasons": [],
+      "steps": [
+        "frame at 1467 ms",
+        "search at 4896 ms",
+        "sources_fetched at 5580 ms",
+        "selection(12 candidates) at 10392 ms",
+        "draft at 12149 ms",
+        "screening at 14517 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "ar",
+        "claims": [
+          {
+            "text": "لا يجوز إكراه أحد على قبول الإسلام، فالدين لا يُقبل بالإجبار.",
+            "refs": [
+              "2:256",
+              "10:99"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "لا يجوز إكراه أحد على قبول الإسلام، فالدين لا يُقبل بالإجبار.",
+            "source_ids": [
+              "2:256",
+              "10:99"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:256",
+            "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+            "translation": null,
+            "translationName": null,
+            "url": "https://quran.com/2/256"
+          },
+          {
+            "kind": "quran",
+            "key": "10:99",
+            "arabic": "وَلَوْ شَآءَ رَبُّكَ لَـَٔامَنَ مَن فِى ٱلْأَرْضِ كُلُّهُمْ جَمِيعًا ۚ أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ",
+            "translation": null,
+            "translationName": null,
+            "url": "https://quran.com/10/99"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "xo2FXY-DMYA",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "لا إكراه في الدين - عثمان الخميس",
+            "minutes": 3,
+            "language": "ar"
+          },
+          {
+            "youtubeId": "UDSdW2En7Yc",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "810 - لا إكراه في الدين - عثمان الخميس",
+            "minutes": 3,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "ar",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "لا يجوز إكراه أحد على قبول الإسلام، فالدين لا يُقبل بالإجبار.",
+                "source_ids": [
+                  "Q2:256",
+                  "Q10:99"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-256",
+              "source_ids": [
+                "Q2:256"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:256",
+                  "key": "2:256",
+                  "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+                  "translation": null,
+                  "translation_name": null,
+                  "url": "https://quran.com/2/256"
+                }
+              ]
+            },
+            {
+              "id": "quran-10-99",
+              "source_ids": [
+                "Q10:99"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q10:99",
+                  "key": "10:99",
+                  "arabic": "وَلَوْ شَآءَ رَبُّكَ لَـَٔامَنَ مَن فِى ٱلْأَرْضِ كُلُّهُمْ جَمِيعًا ۚ أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ",
+                  "translation": null,
+                  "translation_name": null,
+                  "url": "https://quran.com/10/99"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "xo2FXY-DMYA",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "لا إكراه في الدين - عثمان الخميس",
+              "minutes": 3,
+              "language": "ar"
+            },
+            {
+              "youtubeId": "UDSdW2En7Yc",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "810 - لا إكراه في الدين - عثمان الخميس",
+              "minutes": 3,
+              "language": "ar"
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 24.8,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 4330 ms",
+        "search at 10005 ms",
+        "sources_fetched at 10758 ms",
+        "selection(15 candidates) at 15324 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    }
+  ]
+}

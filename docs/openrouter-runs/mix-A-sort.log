@@ -1,0 +1,60 @@
+writer chain: openrouter:qwen/qwen3-235b-a22b-2507 | checker chain: openrouter:mistralai/mistral-small-3.2-24b-instruct
+prayer-en              no_source      23.5s  selection_retry_started_thin,selection_retry_failed,evidence_insufficient  skipped:0 retries:0 $0.00157
+zakah-en               no_source      35.9s  selection_retry_started_skipped,selection_retry_failed,evidence_insufficient  skipped:0 retries:0 $0.00177
+fasting-en             answer         33.4s    skipped:0 retries:0 $0.00195
+riba-en                timeout        46.5s  scholar_dropped_by_rules  skipped:0 retries:0 $0.00086
+divorce-en             no_summary     25.7s  no_summary_after_draft_multiple_sentences  skipped:0 retries:0 $0.00185
+hijab-en               timeout          50s    skipped:0 retries:0 $0.00259
+music-en               no_source       4.4s  scholar_difference_unresolved_known_topic  skipped:0 retries:0 $0.00030
+suffering-en           no_source      34.6s  selection_retry_started_thin,selection_retry_failed,evidence_insufficient  skipped:0 retries:0 $0.00133
+quran-preserved-en     no_summary     32.2s  no_summary_after_draft_copied_source  skipped:0 retries:0 $0.00209
+intention-hadith-en    no_summary     27.7s  no_summary_after_draft_quotation  skipped:0 retries:0 $0.00195
+personal-en            ask_scholar     4.8s  personal  skipped:0 retries:0 $0.00035
+offtopic-en            out_of_scope    0.8s    skipped:0 retries:0 $0.00035
+fasting-de             answer           22s    skipped:0 retries:0 $0.00166
+qibla-de               answer         27.3s    skipped:0 retries:0 $0.00185
+hajj-de                no_summary     46.8s  no_summary_after_screening_claim  skipped:0 retries:0 $0.00269
+offtopic-de            out_of_scope    3.3s    skipped:0 retries:0 $0.00035
+jamaah-ar              answer         32.1s    skipped:0 retries:0 $0.00213
+riba-ar                timeout          50s  scholar_dropped_by_rules  skipped:0 retries:0 $0.00242
+compulsion-ar          answer         46.7s    skipped:0 retries:0 $0.00218
+tawhid-ar              no_summary     26.4s  no_summary_after_draft_source_attribution  skipped:0 retries:0 $0.00290
+{
+  "questions": 20,
+  "correctOrSafeRefusal": 17,
+  "answered": 5,
+  "answeredOfExpected": "5/17",
+  "timeoutsOrBusyOrErrors": 3,
+  "answeredWhenItShouldRefuse": [],
+  "medianSeconds": 27.7,
+  "p95Seconds": 50,
+  "skips": 0,
+  "skipReasons": [],
+  "retries": 0,
+  "costUsdTotal": 0.03316,
+  "costUsdPerQuestion": 0.00166,
+  "refusalReasons": [
+    "selection_retry_started_thin",
+    "selection_retry_failed",
+    "evidence_insufficient",
+    "selection_retry_started_skipped",
+    "selection_retry_failed",
+    "evidence_insufficient",
+    "scholar_dropped_by_rules",
+    "no_summary_after_draft_multiple_sentences",
+    "scholar_difference_unresolved_known_topic",
+    "selection_retry_started_thin",
+    "selection_retry_failed",
+    "evidence_insufficient",
+    "no_summary_after_draft_copied_source",
+    "no_summary_after_draft_quotation",
+    "personal",
+    "no_summary_after_screening_claim",
+    "scholar_dropped_by_rules",
+    "no_summary_after_draft_source_attribution"
+  ],
+  "modelsUsed": [
+    "openrouter/qwen/qwen3-235b-a22b-2507",
+    "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+  ]
+}

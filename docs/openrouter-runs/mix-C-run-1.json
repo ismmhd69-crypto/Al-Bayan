@@ -1,0 +1,998 @@
+{
+  "at": "2026-10-03T18:49:15.383Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 14,
+    "answered": 4,
+    "answeredOfExpected": "4/17",
+    "timeoutsOrBusyOrErrors": 6,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 37.9,
+    "p95Seconds": 50,
+    "skips": 0,
+    "skipReasons": [],
+    "retries": 0,
+    "costUsdTotal": 0.03172,
+    "costUsdPerQuestion": 0.00159,
+    "refusalReasons": [
+      "scholar_dropped_by_rules",
+      "no_summary_after_draft_multiple_sentences",
+      "scholar_difference_unresolved_known_topic",
+      "no_summary_after_screening_whole_answer",
+      "question_frame_invalid",
+      "personal",
+      "no_summary_after_screening_whole_answer",
+      "no_summary_after_draft_quotation",
+      "scholar_dropped_by_rules",
+      "selection_retry_started_thin",
+      "selection_retry_timeout",
+      "evidence_insufficient"
+    ],
+    "modelsUsed": [
+      "openrouter/qwen/qwen3-235b-a22b-2507",
+      "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.3,
+      "reasons": [],
+      "steps": [
+        "frame at 5377 ms",
+        "search at 9458 ms",
+        "sources_fetched at 10239 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027634,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [],
+      "steps": [
+        "frame at 5042 ms",
+        "search at 6857 ms",
+        "sources_fetched at 7500 ms",
+        "selection(15 candidates) at 28237 ms",
+        "draft at 40359 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0024419999999999997,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 42.7,
+      "reasons": [],
+      "steps": [
+        "frame at 6283 ms",
+        "search at 9585 ms",
+        "sources_fetched at 10218 ms",
+        "selection(12 candidates) at 31525 ms",
+        "draft at 33800 ms",
+        "screening at 40713 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00183251375,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "The reason for fasting in Ramadan is to become mindful of God.",
+            "refs": [
+              "2:183"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "The reason for fasting in Ramadan is to become mindful of God.",
+            "source_ids": [
+              "2:183"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/183"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "The reason for fasting in Ramadan is to become mindful of God.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 4462 ms",
+        "search at 6911 ms",
+        "sources_fetched at 7915 ms",
+        "selection(15 candidates) at 31988 ms",
+        "draft at 41656 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.001536335,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 38.7,
+      "reasons": [
+        "no_summary_after_draft_multiple_sentences"
+      ],
+      "steps": [
+        "frame at 5561 ms",
+        "search at 9038 ms",
+        "sources_fetched at 11281 ms",
+        "selection(13 candidates) at 21747 ms",
+        "draft at 31858 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0019395900000000002
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [],
+      "steps": [
+        "frame at 5143 ms",
+        "search at 11977 ms",
+        "sources_fetched at 12756 ms",
+        "selection(14 candidates) at 29097 ms",
+        "draft at 39175 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00207676,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 7.3,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 7266 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027132
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 43.9,
+      "reasons": [
+        "no_summary_after_screening_whole_answer"
+      ],
+      "steps": [
+        "frame at 6686 ms",
+        "search at 10504 ms",
+        "sources_fetched at 11231 ms",
+        "selection(12 candidates) at 22678 ms",
+        "draft at 30858 ms",
+        "screening at 33717 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0029567575
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 29.8,
+      "reasons": [],
+      "steps": [
+        "frame at 6170 ms",
+        "search at 9563 ms",
+        "sources_fetched at 10370 ms",
+        "selection(15 candidates) at 24286 ms",
+        "draft at 25732 ms",
+        "screening at 28976 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0016148399999999998,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "The Quran has been preserved without change, as the word of Allah is complete in truth and justice and cannot be altered.",
+            "refs": [
+              "6:115"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "The Quran has been preserved without change, as the word of Allah is complete in truth and justice and cannot be altered.",
+            "source_ids": [
+              "6:115"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "6:115",
+            "arabic": "وَتَمَّتْ كَلِمَتُ رَبِّكَ صِدْقًا وَعَدْلًا ۚ لَّا مُبَدِّلَ لِكَلِمَـٰتِهِۦ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+            "translation": "The word of your Lord is complete in its truth and justice. No one can change His words: He is the All Hearing, the All Knowing.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/6/115"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "YRd01k7Ak4k",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "19- قصّة اليهودي الذي أسلم لمّا اختبر حفظ القرآن وتحريف التوراة والإنجيل - عثمان الخميس",
+            "minutes": 2,
+            "language": "ar"
+          },
+          {
+            "youtubeId": "RlObQa7TEZ8",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "3 - تعهُّد الله تعالى بحفظ القرآن الكريم - عثمان الخميس",
+            "minutes": 1,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "The Quran has been preserved without change, as the word of Allah is complete in truth and justice and cannot be altered.",
+                "source_ids": [
+                  "Q6:115"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-6-115",
+              "source_ids": [
+                "Q6:115"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q6:115",
+                  "key": "6:115",
+                  "arabic": "وَتَمَّتْ كَلِمَتُ رَبِّكَ صِدْقًا وَعَدْلًا ۚ لَّا مُبَدِّلَ لِكَلِمَـٰتِهِۦ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+                  "translation": "The word of your Lord is complete in its truth and justice. No one can change His words: He is the All Hearing, the All Knowing.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/6/115"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "YRd01k7Ak4k",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "19- قصّة اليهودي الذي أسلم لمّا اختبر حفظ القرآن وتحريف التوراة والإنجيل - عثمان الخميس",
+              "minutes": 2,
+              "language": "ar"
+            },
+            {
+              "youtubeId": "RlObQa7TEZ8",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "3 - تعهُّد الله تعالى بحفظ القرآن الكريم - عثمان الخميس",
+              "minutes": 1,
+              "language": "ar"
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 27.2,
+      "reasons": [
+        "question_frame_invalid"
+      ],
+      "steps": [
+        "frame at 27209 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0009869800000000001
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 13.6,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 13560 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00031494
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 10.3,
+      "reasons": [],
+      "steps": [
+        "frame at 10254 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00052475
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 46.2,
+      "reasons": [],
+      "steps": [
+        "frame at 3684 ms",
+        "search at 7832 ms",
+        "sources_fetched at 8568 ms",
+        "selection(13 candidates) at 21147 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00117891375,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 45,
+      "reasons": [
+        "no_summary_after_screening_whole_answer"
+      ],
+      "steps": [
+        "frame at 3651 ms",
+        "search at 7314 ms",
+        "sources_fetched at 7966 ms",
+        "selection(15 candidates) at 15397 ms",
+        "draft at 22823 ms",
+        "screening at 36875 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0028597225000000005
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 32.9,
+      "reasons": [],
+      "steps": [
+        "frame at 4912 ms",
+        "search at 8269 ms",
+        "sources_fetched at 9150 ms",
+        "selection(15 candidates) at 17142 ms",
+        "draft at 20376 ms",
+        "screening at 23130 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00273899375,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Die Pilgerfahrt (Hajj) ist eine Pflicht für jeden Muslim, der die Mittel und Fähigkeit dazu hat.",
+            "refs": [
+              "3:97"
+            ]
+          },
+          {
+            "text": "Allah sagt im Koran, dass die Pilgerfahrt zum Haus eine Pflicht ist, die den Menschen gegenüber Gott besteht, sofern sie den Weg dorthin schaffen können.",
+            "refs": [
+              "3:97"
+            ]
+          },
+          {
+            "text": "Der islamische Gelehrte Schaykh Muhammad ibn Salih al-Uthaymeen erklärte, dass der Hajj eine Säule des Islams ist und dass alle Muslime darin übereinstimmen, dass er eine Pflicht darstellt.",
+            "refs": [
+              "S445610bd-0dd0-479f-a766-f2c1a9134569"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Die Pilgerfahrt (Hajj) ist eine Pflicht für jeden Muslim, der die Mittel und Fähigkeit dazu hat.",
+            "source_ids": [
+              "3:97"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Einzelheiten",
+            "sentences": [
+              {
+                "text": "Allah sagt im Koran, dass die Pilgerfahrt zum Haus eine Pflicht ist, die den Menschen gegenüber Gott besteht, sofern sie den Weg dorthin schaffen können.",
+                "source_ids": [
+                  "3:97"
+                ]
+              },
+              {
+                "text": "Der islamische Gelehrte Schaykh Muhammad ibn Salih al-Uthaymeen erklärte, dass der Hajj eine Säule des Islams ist und dass alle Muslime darin übereinstimmen, dass er eine Pflicht darstellt.",
+                "source_ids": [
+                  "S445610bd-0dd0-479f-a766-f2c1a9134569"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "3:97",
+            "arabic": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+            "translation": "In ihm sind deutliche Zeichen die Stätte Abrahams. Und wer es betritt, ist sicher. Und der Menschen Pflicht gegenüber Allah ist die Pilgerfahrt zum Hause, wer da den Weg zu ihm machen kann. Wer aber ungläubig ist wahrlich, Allah ist nicht auf die Welten angewiesen.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/3/97"
+          },
+          {
+            "kind": "scholar",
+            "key": "S445610bd-0dd0-479f-a766-f2c1a9134569",
+            "scholarId": "ibn-uthaymeen",
+            "scholarName": "Scheich Muhammad ibn Salih al-Uthaymeen",
+            "title": "حكم تقديم الجهاد على الحج",
+            "reference": "فتاوى نور على الدرب (الشريط رقم [220])",
+            "arabic": "الواجب تقديم الحج؛ لأن الحج ركن من أركان الإسلام بالنفس والإيمان قال الله تعالى: ﴿وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلاً﴾ وقال النبي صلى الله عليه وسلم «بني الإسلام على خمس شهادة أن لا إله إلا الله وأن محمداً رسول الله وإقام الصلاة وإيتاء الزكاة وصوم رمضان وحج بيت الله الحرام» وأجمع المسلمون على أن الحج فريضة، وركن من أركان الإسلام فلا يجوز للقادم عليه أن ينصرف إلى الجهاد ويدع الحج.",
+            "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B220%5D/%D8%AD%D9%83%D9%85-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AD%D8%AC/24c90471-1fc7-44ab-99a6-dddd2fe1ec11"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "CGbwVcbyHqc",
+            "channelId": "UCiiJRwQ0MUaQo8ZZuf18pPw",
+            "title": "ماذا يفعل من يمنعه أبوه من حج الفريضة؟",
+            "minutes": 1,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Die Pilgerfahrt (Hajj) ist eine Pflicht für jeden Muslim, der die Mittel und Fähigkeit dazu hat.",
+                "source_ids": [
+                  "Q3:97"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-3-97",
+              "source_ids": [
+                "Q3:97"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q3:97",
+                  "key": "3:97",
+                  "arabic": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+                  "translation": "In ihm sind deutliche Zeichen die Stätte Abrahams. Und wer es betritt, ist sicher. Und der Menschen Pflicht gegenüber Allah ist die Pilgerfahrt zum Hause, wer da den Weg zu ihm machen kann. Wer aber ungläubig ist wahrlich, Allah ist nicht auf die Welten angewiesen.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/3/97"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "S445610bd-0dd0-479f-a766-f2c1a9134569",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-uthaymeen",
+              "scholar_name": "Scheich Muhammad ibn Salih al-Uthaymeen",
+              "title": "حكم تقديم الجهاد على الحج",
+              "reference": "فتاوى نور على الدرب (الشريط رقم [220])",
+              "arabic": "الواجب تقديم الحج؛ لأن الحج ركن من أركان الإسلام بالنفس والإيمان قال الله تعالى: ﴿وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلاً﴾ وقال النبي صلى الله عليه وسلم «بني الإسلام على خمس شهادة أن لا إله إلا الله وأن محمداً رسول الله وإقام الصلاة وإيتاء الزكاة وصوم رمضان وحج بيت الله الحرام» وأجمع المسلمون على أن الحج فريضة، وركن من أركان الإسلام فلا يجوز للقادم عليه أن ينصرف إلى الجهاد ويدع الحج.",
+              "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B220%5D/%D8%AD%D9%83%D9%85-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AD%D8%AC/24c90471-1fc7-44ab-99a6-dddd2fe1ec11"
+            }
+          ],
+          "videos": [
+            {
+              "youtubeId": "CGbwVcbyHqc",
+              "channelId": "UCiiJRwQ0MUaQo8ZZuf18pPw",
+              "title": "ماذا يفعل من يمنعه أبوه من حج الفريضة؟",
+              "minutes": 1,
+              "language": "ar"
+            }
+          ],
+          "more_explanation": [
+            {
+              "heading": "Einzelheiten",
+              "sentences": [
+                {
+                  "text": "Allah sagt im Koran, dass die Pilgerfahrt zum Haus eine Pflicht ist, die den Menschen gegenüber Gott besteht, sofern sie den Weg dorthin schaffen können.",
+                  "source_ids": [
+                    "Q3:97"
+                  ],
+                  "requirement_id": "R1"
+                },
+                {
+                  "text": "Der islamische Gelehrte Schaykh Muhammad ibn Salih al-Uthaymeen erklärte, dass der Hajj eine Säule des Islams ist und dass alle Muslime darin übereinstimmen, dass er eine Pflicht darstellt.",
+                  "source_ids": [
+                    "S445610bd-0dd0-479f-a766-f2c1a9134569"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 2.2,
+      "reasons": [],
+      "steps": [
+        "frame at 2212 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00052525
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 38.9,
+      "reasons": [
+        "no_summary_after_draft_quotation"
+      ],
+      "steps": [
+        "frame at 3857 ms",
+        "search at 6953 ms",
+        "sources_fetched at 7931 ms",
+        "selection(15 candidates) at 21339 ms",
+        "draft at 29306 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.002083195
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 4827 ms",
+        "search at 8036 ms",
+        "sources_fetched at 8772 ms",
+        "selection(14 candidates) at 14954 ms",
+        "draft at 29823 ms",
+        "screening at 45522 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0027575825000000003,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 24.7,
+      "reasons": [],
+      "steps": [
+        "frame at 3534 ms",
+        "search at 6815 ms",
+        "sources_fetched at 7899 ms",
+        "selection(12 candidates) at 18243 ms",
+        "draft at 20734 ms",
+        "screening at 24178 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00175121375,
+      "answer": {
+        "language": "ar",
+        "claims": [
+          {
+            "text": "لا يجوز إجبار أحد على اعتناق الإسلام، لأن في الدين لا إكراه.",
+            "refs": [
+              "2:256"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "لا يجوز إجبار أحد على اعتناق الإسلام، لأن في الدين لا إكراه.",
+            "source_ids": [
+              "2:256"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:256",
+            "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+            "translation": null,
+            "translationName": null,
+            "url": "https://quran.com/2/256"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "ar",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "لا يجوز إجبار أحد على اعتناق الإسلام، لأن في الدين لا إكراه.",
+                "source_ids": [
+                  "Q2:256"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-256",
+              "source_ids": [
+                "Q2:256"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:256",
+                  "key": "2:256",
+                  "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+                  "translation": null,
+                  "translation_name": null,
+                  "url": "https://quran.com/2/256"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 37.9,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_timeout",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 4377 ms",
+        "search at 9493 ms",
+        "sources_fetched at 10534 ms",
+        "selection(12 candidates) at 27876 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0010569575
+    }
+  ]
+}

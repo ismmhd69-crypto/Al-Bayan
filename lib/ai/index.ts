@@ -2,6 +2,7 @@ import "server-only";
 import type { AIProvider } from "./types";
 import { createGemini, GoogleBusyError } from "./gemini";
 import { createNvidia } from "./nvidia";
+import { createOpenRouter } from "./openrouter";
 
 // Exact models pinned on purpose (never "latest"). Each role has an ordered chain: the first model is
 // tried, and when Google says "busy" or "slow down" (429/503) the next one is tried, and so on.
@@ -47,6 +48,11 @@ function create(provider: string, model: string): AIProvider {
       const key = process.env.NVIDIA_API_KEY;
       if (!key) throw new Error("NVIDIA_API_KEY is not set");
       return createNvidia(key, model);
+    }
+    case "openrouter": {
+      const key = process.env.OPENROUTER_API_KEY;
+      if (!key) throw new Error("OPENROUTER_API_KEY is not set");
+      return createOpenRouter(key, model);
     }
     default:
       throw new Error(`Unknown AI provider: ${provider}`);
@@ -117,7 +123,7 @@ function verifierModels(): string[] {
   return chainOf("AI_VERIFIER_MODELS", "AI_VERIFIER_MODEL", "AI_VERIFIER_FALLBACK_MODEL", DEFAULT_VERIFIER_MODELS);
 }
 
-const KNOWN_PROVIDERS = ["gemini", "vertex", "nvidia"];
+const KNOWN_PROVIDERS = ["gemini", "vertex", "nvidia", "openrouter"];
 
 // "nvidia:deepseek-ai/deepseek-v4.1-flash" -> provider nvidia; a bare "gemini-3.6-flash" uses the default.
 function parseEntry(entry: string, fallbackProvider: string): { provider: string; model: string } {
@@ -132,6 +138,7 @@ const identity = ({ provider, model }: { provider: string; model: string }) => `
 // A provider whose key is missing is left out of its chain instead of breaking every answer.
 function usable(provider: string): boolean {
   if (provider === "nvidia") return !!process.env.NVIDIA_API_KEY;
+  if (provider === "openrouter") return !!process.env.OPENROUTER_API_KEY;
   return true;
 }
 

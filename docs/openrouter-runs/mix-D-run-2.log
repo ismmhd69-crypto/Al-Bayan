@@ -1,0 +1,70 @@
+writer chain: openrouter:apodex/apodex-1.1-mini:free | checker chain: openrouter:inclusionai/ling-3.0-flash-sante:free
+prayer-en              no_source      21.5s  selection_retry_started_thin,selection_retry_failed,evidence_insufficient  skipped:0 retries:0 $0.00000
+zakah-en               no_source      14.3s  selection_retry_started_thin,selection_retry_failed,evidence_insufficient  skipped:0 retries:0 $0.00000
+fasting-en             answer         16.4s    skipped:0 retries:0 $0.00000
+riba-en                answer         18.5s  scholar_dropped_by_rules  skipped:0 retries:0 $0.00000
+divorce-en             no_summary       20s  no_summary_after_draft_copied_source  skipped:0 retries:0 $0.00000
+hijab-en               answer         15.5s    skipped:0 retries:0 $0.00000
+music-en               no_source       1.9s  scholar_difference_unresolved_known_topic  skipped:0 retries:0 $0.00000
+suffering-en           no_source      12.4s  evidence_insufficient  skipped:0 retries:0 $0.00000
+quran-preserved-en     no_source      16.4s  selection_retry_started_thin,selection_retry_failed,evidence_insufficient  skipped:0 retries:0 $0.00000
+intention-hadith-en    no_source       3.5s  question_frame_invalid  skipped:0 retries:0 $0.00000
+personal-en            ask_scholar     2.4s  personal  skipped:0 retries:0 $0.00000
+offtopic-en            out_of_scope    2.5s    skipped:0 retries:0 $0.00000
+fasting-de             answer         18.1s    skipped:0 retries:0 $0.00000
+qibla-de               busy            1.5s    skipped:1 retries:1 $0.00000
+hajj-de                no_summary     23.3s  no_summary_after_draft_multiple_sentences  skipped:0 retries:1 $0.00000
+offtopic-de            no_source       3.2s  question_frame_invalid  skipped:0 retries:0 $0.00000
+jamaah-ar              no_source      19.9s  selection_retry_started_thin,selection_retry_succeeded,draft_model_no_answer  skipped:0 retries:0 $0.00000
+riba-ar                no_source      15.1s  scholar_dropped_by_rules,draft_malformed  skipped:0 retries:0 $0.00000
+compulsion-ar          no_summary     18.5s  no_summary_after_screening_retry_copied_source  skipped:0 retries:0 $0.00000
+tawhid-ar              no_source      14.6s  selection_retry_started_thin,selection_retry_failed,evidence_insufficient  skipped:0 retries:0 $0.00000
+{
+  "questions": 20,
+  "correctOrSafeRefusal": 19,
+  "answered": 4,
+  "answeredOfExpected": "4/17",
+  "timeoutsOrBusyOrErrors": 1,
+  "answeredWhenItShouldRefuse": [],
+  "medianSeconds": 15.1,
+  "p95Seconds": 21.5,
+  "skips": 1,
+  "skipReasons": [
+    "429)"
+  ],
+  "retries": 2,
+  "costUsdTotal": 0,
+  "costUsdPerQuestion": 0,
+  "refusalReasons": [
+    "selection_retry_started_thin",
+    "selection_retry_failed",
+    "evidence_insufficient",
+    "selection_retry_started_thin",
+    "selection_retry_failed",
+    "evidence_insufficient",
+    "scholar_dropped_by_rules",
+    "no_summary_after_draft_copied_source",
+    "scholar_difference_unresolved_known_topic",
+    "evidence_insufficient",
+    "selection_retry_started_thin",
+    "selection_retry_failed",
+    "evidence_insufficient",
+    "question_frame_invalid",
+    "personal",
+    "no_summary_after_draft_multiple_sentences",
+    "question_frame_invalid",
+    "selection_retry_started_thin",
+    "selection_retry_succeeded",
+    "draft_model_no_answer",
+    "scholar_dropped_by_rules",
+    "draft_malformed",
+    "no_summary_after_screening_retry_copied_source",
+    "selection_retry_started_thin",
+    "selection_retry_failed",
+    "evidence_insufficient"
+  ],
+  "modelsUsed": [
+    "openrouter/apodex/apodex-1.1-mini:free",
+    "openrouter/inclusionai/ling-3.0-flash-sante:free"
+  ]
+}

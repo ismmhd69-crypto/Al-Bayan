@@ -1,0 +1,626 @@
+{
+  "at": "2026-10-03T18:37:57.058Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 7,
+    "answered": 1,
+    "answeredOfExpected": "1/17",
+    "timeoutsOrBusyOrErrors": 13,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 34.1,
+    "p95Seconds": 45.6,
+    "skips": 0,
+    "skipReasons": [],
+    "retries": 0,
+    "costUsdTotal": 0.01056,
+    "costUsdPerQuestion": 0.00053,
+    "refusalReasons": [
+      "scholar_dropped_by_rules",
+      "scholar_difference_unresolved_known_topic",
+      "selection_retry_started_thin",
+      "selection_retry_timeout",
+      "evidence_insufficient",
+      "question_frame_invalid",
+      "personal",
+      "scholar_dropped_by_rules"
+    ],
+    "modelsUsed": [
+      "openrouter/qwen/qwen3-235b-a22b-2507",
+      "openrouter/qwen/qwen3-32b"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 36,
+      "reasons": [],
+      "steps": [
+        "frame at 5487 ms",
+        "search at 10316 ms",
+        "sources_fetched at 10978 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00028562,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 34.1,
+      "reasons": [],
+      "steps": [
+        "frame at 6049 ms",
+        "search at 8511 ms",
+        "sources_fetched at 9125 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00029566,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35,
+      "reasons": [],
+      "steps": [
+        "frame at 6093 ms",
+        "search at 9296 ms",
+        "sources_fetched at 9974 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026384,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 34.5,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 5671 ms",
+        "search at 8833 ms",
+        "sources_fetched at 9518 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0003939,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.7,
+      "reasons": [],
+      "steps": [
+        "frame at 6389 ms",
+        "search at 10074 ms",
+        "sources_fetched at 10707 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00059554,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 38,
+      "reasons": [],
+      "steps": [
+        "frame at 8544 ms",
+        "search at 12319 ms",
+        "sources_fetched at 12942 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026092,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 6.8,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 6781 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00028732
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 45.6,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_timeout",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 6459 ms",
+        "search at 11205 ms",
+        "sources_fetched at 11970 ms",
+        "selection(11 candidates) at 35611 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00109219
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 31,
+      "reasons": [],
+      "steps": [
+        "frame at 1835 ms",
+        "search at 5165 ms",
+        "sources_fetched at 5957 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0004432,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 11.3,
+      "reasons": [
+        "question_frame_invalid"
+      ],
+      "steps": [
+        "frame at 11310 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00097394
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 1.9,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 1933 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0004868
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 1.6,
+      "reasons": [],
+      "steps": [
+        "frame at 1575 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00017658
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 48.2,
+      "reasons": [],
+      "steps": [
+        "frame at 6400 ms",
+        "search at 10917 ms",
+        "sources_fetched at 11798 ms",
+        "selection(12 candidates) at 35323 ms",
+        "draft at 41834 ms",
+        "screening at 46293 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-32b"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00215987,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Der Grund für das Fasten im Ramadan ist, damit die Gläubigen Gott fürchten und ihm näherkommen.",
+            "refs": [
+              "2:183"
+            ]
+          },
+          {
+            "text": "Allah hat das Fasten im Ramadan angeordnet, damit die Menschen lernen, ihn zu fürchten, wie es auch früheren Gemeinschaften vorgeschrieben wurde.",
+            "refs": [
+              "2:183"
+            ]
+          },
+          {
+            "text": "Das Fasten dient auch dazu, Allah dafür zu danken, dass er die Menschen durch den Quran geleitet hat, der im Ramadan offenbart wurde.",
+            "refs": [
+              "2:185"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Der Grund für das Fasten im Ramadan ist, damit die Gläubigen Gott fürchten und ihm näherkommen.",
+            "source_ids": [
+              "2:183"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Einzelheiten",
+            "sentences": [
+              {
+                "text": "Allah hat das Fasten im Ramadan angeordnet, damit die Menschen lernen, ihn zu fürchten, wie es auch früheren Gemeinschaften vorgeschrieben wurde.",
+                "source_ids": [
+                  "2:183"
+                ]
+              },
+              {
+                "text": "Das Fasten dient auch dazu, Allah dafür zu danken, dass er die Menschen durch den Quran geleitet hat, der im Ramadan offenbart wurde.",
+                "source_ids": [
+                  "2:185"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/2/183"
+          },
+          {
+            "kind": "quran",
+            "key": "2:185",
+            "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+            "translation": "Der Monat Ramadan ist es, in dem der Quran als Rechtleitung für die Menschen herabgesandt worden ist und als klarer Beweis der Rechtleitung und der Unterscheidung. Wer also von euch in dem Monat zugegen ist, der soll in ihm fasten. Und wer krank ist oder sich auf einer Reise befindet, soll eine Anzahl anderer Tage (fasten) Allah will es euch leicht, Er will es euch nicht schwer machen damit ihr die Frist vollendet und Allah rühmt, daß Er euch geleitet hat. Vielleicht werdet ihr dankbar sein.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/2/185"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "gbo7RJ3mJBE",
+            "channelId": "UCtF3YygTiodnYSw8vD3UJtQ",
+            "title": "ما حكم صيام شهر رمضان؟ فضيلة الشيخ ابن عثيمين رحمه الله تعالى",
+            "minutes": 2,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/qwen/qwen3-32b",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Der Grund für das Fasten im Ramadan ist, damit die Gläubigen Gott fürchten und ihm näherkommen.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            },
+            {
+              "id": "quran-2-185",
+              "source_ids": [
+                "Q2:185"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:185",
+                  "key": "2:185",
+                  "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+                  "translation": "Der Monat Ramadan ist es, in dem der Quran als Rechtleitung für die Menschen herabgesandt worden ist und als klarer Beweis der Rechtleitung und der Unterscheidung. Wer also von euch in dem Monat zugegen ist, der soll in ihm fasten. Und wer krank ist oder sich auf einer Reise befindet, soll eine Anzahl anderer Tage (fasten) Allah will es euch leicht, Er will es euch nicht schwer machen damit ihr die Frist vollendet und Allah rühmt, daß Er euch geleitet hat. Vielleicht werdet ihr dankbar sein.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/2/185"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "gbo7RJ3mJBE",
+              "channelId": "UCtF3YygTiodnYSw8vD3UJtQ",
+              "title": "ما حكم صيام شهر رمضان؟ فضيلة الشيخ ابن عثيمين رحمه الله تعالى",
+              "minutes": 2,
+              "language": "ar"
+            }
+          ],
+          "more_explanation": [
+            {
+              "heading": "Einzelheiten",
+              "sentences": [
+                {
+                  "text": "Allah hat das Fasten im Ramadan angeordnet, damit die Menschen lernen, ihn zu fürchten, wie es auch früheren Gemeinschaften vorgeschrieben wurde.",
+                  "source_ids": [
+                    "Q2:183"
+                  ],
+                  "requirement_id": "R1"
+                },
+                {
+                  "text": "Das Fasten dient auch dazu, Allah dafür zu danken, dass er die Menschen durch den Quran geleitet hat, der im Ramadan offenbart wurde.",
+                  "source_ids": [
+                    "Q2:185"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/qwen/qwen3-32b"
+          }
+        }
+      }
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 39.7,
+      "reasons": [],
+      "steps": [
+        "frame at 9719 ms",
+        "search at 13953 ms",
+        "sources_fetched at 14677 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00028774,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.8,
+      "reasons": [],
+      "steps": [
+        "frame at 4801 ms",
+        "search at 8132 ms",
+        "sources_fetched at 8828 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026827,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 1.9,
+      "reasons": [],
+      "steps": [
+        "frame at 1880 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0001773
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33,
+      "reasons": [],
+      "steps": [
+        "frame at 3708 ms",
+        "search at 6718 ms",
+        "sources_fetched at 7997 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0007115,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.1,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 5496 ms",
+        "search at 8891 ms",
+        "sources_fetched at 10127 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00024464,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.9,
+      "reasons": [],
+      "steps": [
+        "frame at 4575 ms",
+        "search at 8267 ms",
+        "sources_fetched at 8905 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0007615,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.4,
+      "reasons": [],
+      "steps": [
+        "frame at 4820 ms",
+        "search at 9506 ms",
+        "sources_fetched at 10379 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00039728,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    }
+  ]
+}

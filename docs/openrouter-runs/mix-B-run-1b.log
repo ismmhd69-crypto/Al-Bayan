@@ -1,0 +1,47 @@
+writer chain: openrouter:qwen/qwen3-235b-a22b-2507 | checker chain: openrouter:qwen/qwen3-32b
+prayer-en              timeout        37.5s    skipped:0 retries:0 $0.00028
+zakah-en               timeout        33.4s    skipped:0 retries:0 $0.00075
+fasting-en             timeout        36.5s    skipped:0 retries:0 $0.00027
+riba-en                timeout          50s  scholar_dropped_by_rules  skipped:0 retries:0 $0.00215
+divorce-en             answer         46.2s    skipped:0 retries:0 $0.00226
+hijab-en               answer         48.2s    skipped:0 retries:0 $0.00200
+music-en               no_source       8.1s  scholar_difference_unresolved_known_topic  skipped:0 retries:0 $0.00028
+suffering-en           timeout        37.6s    skipped:0 retries:0 $0.00027
+quran-preserved-en     timeout        35.9s    skipped:0 retries:0 $0.00028
+intention-hadith-en    timeout        34.6s    skipped:0 retries:0 $0.00027
+personal-en            ask_scholar     7.2s  personal  skipped:0 retries:0 $0.00033
+offtopic-en            timeout          25s    skipped:0 retries:0 $0.00000
+fasting-de             timeout        36.2s    skipped:0 retries:0 $0.00026
+qibla-de               timeout        35.9s    skipped:0 retries:0 $0.00027
+hajj-de                timeout          50s    skipped:0 retries:0 $0.00177
+offtopic-de            out_of_scope    1.7s    skipped:0 retries:0 $0.00018
+jamaah-ar              timeout          35s    skipped:0 retries:0 $0.00026
+riba-ar                timeout        33.1s  scholar_dropped_by_rules  skipped:0 retries:0 $0.00024
+compulsion-ar          timeout        35.8s    skipped:0 retries:0 $0.00028
+tawhid-ar              no_summary     30.6s  no_summary_after_draft_copied_source  skipped:0 retries:0 $0.00203
+{
+  "questions": 20,
+  "correctOrSafeRefusal": 6,
+  "answered": 2,
+  "answeredOfExpected": "2/17",
+  "timeoutsOrBusyOrErrors": 14,
+  "answeredWhenItShouldRefuse": [],
+  "medianSeconds": 35.8,
+  "p95Seconds": 50,
+  "skips": 0,
+  "skipReasons": [],
+  "retries": 0,
+  "costUsdTotal": 0.01443,
+  "costUsdPerQuestion": 0.00072,
+  "refusalReasons": [
+    "scholar_dropped_by_rules",
+    "scholar_difference_unresolved_known_topic",
+    "personal",
+    "scholar_dropped_by_rules",
+    "no_summary_after_draft_copied_source"
+  ],
+  "modelsUsed": [
+    "openrouter/qwen/qwen3-235b-a22b-2507",
+    "openrouter/qwen/qwen3-32b"
+  ]
+}
