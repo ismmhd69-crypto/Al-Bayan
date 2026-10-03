@@ -12,6 +12,12 @@ These items were not stored because the collection decision was uncertain.
 
 ## Batch 0080
 
+## Batch 0081 held references
+
+Full titles and canonical links are preserved in `docs/binbaz-sweep-candidates/batch-0081.json`:
+
+16814, 16816, 16817, 16820, 16822, 16824, 16828, 16832, 16840, 16845, 16855, 16873, 16878, 16881, 16895, 16900, 16910, 16924, 16925, 16926, 16933, 16937, 16941, 16943, 16944, 16948, 16959, 16969, 16977. These were held for sensitive pilgrimage, burial, medical, gender, family, financial, naming, or apostasy content.
+
 Held references and reasons (full titles and canonical links are preserved in `docs/binbaz-sweep-candidates/batch-0080.json`):
 
 - [16640](https://binbaz.org.sa/fatwas/16640): sensitive reproductive and ritual-purity ruling about labour pains and missed prayer.
