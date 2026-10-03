@@ -1625,3 +1625,13 @@ Codex batch 079 inserted 28 rows for Sahih al-Bukhari 3873 to 3886. The database
 Codex batch 080 was reserved for Sahih al-Bukhari 3887, a 6,039-character hadith. It was not inserted because a complete translation could not be safely completed in this pass. Add it to Needs Mo.
 
 Codex ten-batch self-check for batches 071 through 080: re-read Bukhari 3826, 3831, 3852, 3860, 3873, 3875, 3880, 3882, 3884, and 3886 against their Arabic source bodies and local English and German outputs. The chains, honorifics, Quran references, migration details, prayer counts, names, and repeated wording were checked. The check found one problem: Bukhari 3860 contains the Arabic place-name text `نصيبين` in the German output and therefore must remain on Needs Mo; the database row was not updated because only INSERT operations are permitted. No other selected output contained Arabic letters or a Quran tag.
+
+Codex batch 081 inserted 32 rows for Sahih al-Bukhari 3888 to 3904. The database count increased from 24542 to 24574, exactly matching the inserted rows. Validation passed for 16 hadiths.
+
+Codex batch 082 was reserved for Sahih al-Bukhari 3905, a 6,441-character hadith. It was not inserted because a complete translation could not be safely completed in this pass. Add it to Needs Mo.
+
+Codex batch 083 was reserved for Sahih al-Bukhari 3906, a 5,353-character hadith. It was not inserted because a complete translation could not be safely completed in this pass. Add it to Needs Mo.
+
+Codex batch 085 was reserved for Sahih al-Bukhari 3911, a 3,720-character hadith. It was not inserted because a complete translation could not be safely completed in this pass. Add it to Needs Mo.
+
+Codex batch 084 inserted 8 rows for Sahih al-Bukhari 3907 to 3910. The database count increased from 24574 to 24582, exactly matching the inserted rows. Validation passed for 4 hadiths.
