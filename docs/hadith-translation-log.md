@@ -1657,3 +1657,15 @@ Codex batch 093 inserted 20 rows for Sahih al-Bukhari 3990 to 3999. The database
 Codex batch 094 inserted 20 rows for Sahih al-Bukhari 4000 to 4009. The database count increased from 24754 to 24774, exactly matching the inserted rows. Validation passed for 10 hadiths.
 
 Codex batch 095 inserted 20 rows for Sahih al-Bukhari 4010 to 4021. The database count increased from 24774 to 24794, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex batch 096 inserted 22 rows for Sahih al-Bukhari 4022 to 4032. The database count increased from 24794 to 24816, exactly matching the inserted rows. Validation passed for 11 hadiths.
+
+Codex batch 097 inserted 2 rows for Sahih al-Bukhari 4033 to 4033. The database count increased from 24816 to 24818, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 098 inserted 16 rows for Sahih al-Bukhari 4035 to 4043. The database count increased from 24818 to 24834, exactly matching the inserted rows. Validation passed for 8 hadiths.
+
+Codex batch 099 inserted 20 rows for Sahih al-Bukhari 4045 to 4054. The database count increased from 24834 to 24854, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex batch 100 inserted 20 rows for Sahih al-Bukhari 4055 to 4065. The database count increased from 24854 to 24874, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex ten-batch self-check for batches 091 through 100: re-read Bukhari 3990, 3992, 4000, 4002, 4012, 4022, 4031, 4033, 4038, and 4058 against their Arabic source bodies and local English and German outputs. Chains, narrator names, Badr references, the Quran references 33:5 and 59:5, adoption wording, property wording, and the repeated parent-ransom expression were checked. No missing material, Arabic letters, Quran tags, or translation errors were found in the selected entries. No new Needs Mo item was added.
