@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 170   | 60        | 60     | 0          | 0              | 50 / 24 / 6 / 0 / 0 / 0       | 10200         | Muslim 372 through Muslim 546a. All hadiths had standalone narration text. Zero errors on validation. |
 | 169   | 60        | 60     | 0          | 0              | 50 / 3 / 7 / 0 / 0 / 0       | 10140         | Muslim 177a through Muslim 368a. All hadiths had standalone narration text; seven transmission or variant-report tails were marked at Muslim 179a, 208b, 229, 332a, 334a, 347a, and 361. Zero errors on validation. |
 | 168   | 60        | 60     | 0          | 0              | 53 / 4 / 3 / 0 / 0 / 0       | 10080         | Bukhari 7467 through Muslim 169e. All hadiths had standalone narration text. Zero errors on validation. |
 | 167   | 60        | 60     | 0          | 0              | 36 / 0 / 2 / 22 / 0 / 0       | 10020         | Bukhari 7149 through Bukhari 7461. All hadiths had standalone narration text; six transmission or variant-report tails were marked at Bukhari 7241, 7261, 7333, 7343, 7360, and 7398. Zero errors on validation. |
@@ -179,6 +180,12 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 *Legend for Kinds: P = prophet_words, N = narration, C = companion_words, D = dialogue, U = unclear, R = reference_only.*
 
 ## Milestone Quality Checks
+
+### Check 17 (After 170 Batches / 10,200 Hadith)
+- Sample size: 10 hadiths, one from each of batches 161 through 170.
+- Sampled items: Bukhari 5203, 5657, 5677, 6084, 6390, 6804, 7301, and Muslim 63a, 327b, and 515c.
+- Findings: All 10 sampled marks matched their source records and had valid boundary markers. No sampled text corruption was found. Full validation of Batch 170 returned 0 errors.
+- Error rate: 0.0% (0 / 10 sampled marks; 0 / 60 Batch 170 marks on validation). Quality benchmark satisfied.
 
 ### Check 1 (After 10 Batches / 600 Hadith)
 - Sample size: 10 randomly selected hadiths across batches 1 through 10.
