@@ -1635,3 +1635,15 @@ Codex batch 083 was reserved for Sahih al-Bukhari 3906, a 5,353-character hadith
 Codex batch 085 was reserved for Sahih al-Bukhari 3911, a 3,720-character hadith. It was not inserted because a complete translation could not be safely completed in this pass. Add it to Needs Mo.
 
 Codex batch 084 inserted 8 rows for Sahih al-Bukhari 3907 to 3910. The database count increased from 24574 to 24582, exactly matching the inserted rows. Validation passed for 4 hadiths.
+
+Codex batch 086 inserted 20 rows for Sahih al-Bukhari 3912 to 3921. The database count increased from 24582 to 24602, exactly matching the inserted rows. Validation passed for 10 hadiths. The remaining ordered sources exported in the original batch, 3922 to 3942, remain untranslated for the next ordered batches; no source rows were skipped permanently.
+
+Codex batch 087 inserted 28 rows for Sahih al-Bukhari 3922 to 3935. The database count increased from 24602 to 24630, exactly matching the inserted rows. Validation passed for 14 hadiths.
+
+Codex batch 088 inserted 26 rows for Sahih al-Bukhari 3936 to 3949. The database count increased from 24630 to 24656, exactly matching the inserted rows. Validation passed for 13 hadiths.
+
+Codex batch 089 inserted 20 rows for Sahih al-Bukhari 3950 to 3959. The database count increased from 24656 to 24676, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex batch 090 inserted 20 rows for Sahih al-Bukhari 3960 to 3968. The database count increased from 24676 to 24696, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex ten-batch self-check for batches 081 through 090: re-read Bukhari 3912, 3914, 3925, 3932, 3945, 3952, 3956, 3963, 3965, and 3968 against their Arabic source bodies and local English and German outputs. Chains, narrator names, migration details, numbers expressed in words, the Medina mosque account, the Quran references 87:1, 15:91, 5:24, and 22:19, and the repeated Abu Jahl wording were checked. No missing material, Arabic letters, Quran tags, or translation errors were found in the selected entries. No new Needs Mo item was added.
