@@ -1613,3 +1613,15 @@ Codex batch 073 inserted 60 rows for Sahih al-Bukhari 3734 to 3765. The database
 Codex batch 074 inserted 60 rows for Sahih al-Bukhari 3766 to 3795. The database count increased from 24314 to 24374, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 075 inserted 60 rows for Sahih al-Bukhari 3796 to 3825. The database count increased from 24374 to 24434, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 076 inserted 52 rows for Sahih al-Bukhari 3826 to 3855. The database count increased from 24434 to 24486, exactly matching the inserted rows. Validation passed for 26 hadiths.
+
+Codex batch 077 inserted 26 rows for Sahih al-Bukhari 3856 to 3871. The database count increased from 24486 to 24512, exactly matching the inserted rows. Validation passed for 13 hadiths.
+
+Codex batch 078 inserted 2 rows for Sahih al-Bukhari 3872 to 3872. The database count increased from 24512 to 24514, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 079 inserted 28 rows for Sahih al-Bukhari 3873 to 3886. The database count increased from 24514 to 24542, exactly matching the inserted rows. Validation passed for 14 hadiths.
+
+Codex batch 080 was reserved for Sahih al-Bukhari 3887, a 6,039-character hadith. It was not inserted because a complete translation could not be safely completed in this pass. Add it to Needs Mo.
+
+Codex ten-batch self-check for batches 071 through 080: re-read Bukhari 3826, 3831, 3852, 3860, 3873, 3875, 3880, 3882, 3884, and 3886 against their Arabic source bodies and local English and German outputs. The chains, honorifics, Quran references, migration details, prayer counts, names, and repeated wording were checked. The check found one problem: Bukhari 3860 contains the Arabic place-name text `نصيبين` in the German output and therefore must remain on Needs Mo; the database row was not updated because only INSERT operations are permitted. No other selected output contained Arabic letters or a Quran tag.
