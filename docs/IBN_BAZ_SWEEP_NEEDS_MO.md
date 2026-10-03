@@ -22,6 +22,12 @@ These items were not stored because the collection decision was uncertain.
 
 ## Batch 0085 held references
 
+## Batch 0086 held references
+
+Full titles and canonical links are preserved in `docs/binbaz-sweep-candidates/batch-0086.json`:
+
+17695, 17720, 17722, 17727, 17730, 17732, 17733, 17743, 17745, 17749, 17756, 17768, 17770, 17774, 17775, 17778, 17780, 17784, 17786, 17792, 17821, 17823, 17826, 17827, 17828, 17833, 17848. These were held for sensitive family, gender, medical, financial, grave, theological, and apostasy content.
+
 Full titles and canonical links are preserved in `docs/binbaz-sweep-candidates/batch-0085.json`:
 
 17517, 17536, 17542, 17549, 17554, 17555, 17559, 17562, 17564, 17578, 17579, 17582, 17584, 17594, 17601, 17603, 17609, 17611, 17622, 17630, 17632, 17639, 17643, 17644, 17647, 17650, 17651, 17659, 17669, 17676, 17679, 17680, 17693. These were held for sensitive family, gender, medical, financial, burial, travel, theological, and apostasy content.
