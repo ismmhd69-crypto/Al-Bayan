@@ -1484,6 +1484,8 @@ Codex batch 704 inserted 6 rows for Bukhari hadiths 6983 to 6985. Batch 705 inse
 
 Codex batch 706 inserted 6 rows for Bukhari hadiths 6989 to 6991. Batch 707 inserted 6 rows for Bukhari hadiths 6992 to 6994. The database count increased from 22242 to 22254, exactly matching the 12 newly inserted English and German rows; other translation batches had increased the count since the prior log entry. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve the full stored source bodies including chains, dream guidance, and the compiler note in 6993, remain within the required length ratio, and all German texts use real umlauts. Existing translation rows were not changed.
 
+Codex batch 708 inserted 6 rows for Bukhari hadiths 6995 to 6997. Batch 709 inserted 6 rows for Bukhari hadiths 6998 to 7000. The database count increased from 22428 to 22440, exactly matching the 12 newly inserted English and German rows; other translation batches had increased the count since the prior log entry. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve the full stored source bodies including chains, dream descriptions, transmission notes, and compiler wording, remain within the required length ratio, and all German texts use real umlauts. Existing translation rows were not changed.
+
 Codex batch 032 inserted 60 rows for Sahih al-Bukhari 2975 to 3005. The database count increased from 21858 to 21918, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 033 inserted 60 rows for Sahih al-Bukhari 3006 to 3038. The database count increased from 22102 to 22162, exactly matching the inserted rows. Validation passed for 30 hadiths.
