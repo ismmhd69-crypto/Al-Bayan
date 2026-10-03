@@ -1456,3 +1456,10 @@ Codex batch 026 inserted 60 rows for Sahih al-Bukhari 2826 to 2855. The database
 Codex batch 027 inserted 60 rows for Sahih al-Bukhari 2856 to 2886. The database count increased from 20116 to 20176, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 028 inserted 60 rows for Sahih al-Bukhari 2887 to 2918. The database count increased from 20814 to 20874, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 029 inserted 42 rows for Sahih al-Bukhari 2919 to 2939. The database count increased from 21136 to 21178, exactly matching the inserted rows. Validation passed for 21 hadiths.
+
+Codex batch 030 was exported as Sahih al-Bukhari 2940. It was deferred to Needs Mo because the stored Arabic body is 6,735 characters and contains the complete Heraclius dialogue and letter; no rows were inserted and no existing rows were changed.
+
+Needs Mo additions:
+- Bukhari 2940: very long Heraclius dialogue and the Prophet's letter, 6,735 Arabic characters; requires a dedicated complete translation pass.
