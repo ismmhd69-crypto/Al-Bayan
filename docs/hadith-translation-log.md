@@ -1228,3 +1228,7 @@ Skipped Bukhari hadith 6572 because the stored Arabic source is only an incomple
 Batch 572 processed Bukhari hadiths 6573, 6574, and 6575. The database count increased from 14,728 to 14,732. Four rows were newly inserted for 6573 and 6574; the two existing translation rows for 6575 were preserved unchanged. The translation validation passed for the six selected records: no Arabic letters, real German umlauts, and acceptable source-length ratios.
 
 Batch 573 inserted 6 rows for Bukhari hadiths 6576, 6577, and 6578. The database count increased from 14,732 to 14,738, exactly matching the 6 newly inserted rows. The translation validation passed: all three new texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and use real German umlauts.
+
+Batch 574 inserted 6 rows for Bukhari hadiths 6579, 6580, and 6581. The database count increased from 14,738 to 14,744, exactly matching the 6 newly inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
+
+Batch 575 inserted 6 rows for Bukhari hadiths 6582, 6583, and 6584. The database count increased from 14,744 to 14,750, exactly matching the 6 newly inserted rows. The JSON validation passed: all six texts are non-empty, contain no Arabic letters, preserve all source numbers, remain within the required length ratio, and all German texts use real umlauts.
