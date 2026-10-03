@@ -818,10 +818,10 @@ The later review of internal IDs 2750-2752 approved only ID 2751. The idempotent
 ## Batch 0073
 
 - Candidate internal IDs covered: 19403 through 19535, with 50 candidates reviewed.
-- Approved: 29
+- Approved: 28
 - Rejected: 2
-- Held for Mo review: 20
-- Import status: imported 29 approved candidates; sources and search documents each increased by 29, from 21,202 to 21,231. Existing approved URLs skipped: 0.
+- Held for Mo review: 21
+- Import status: 29 records were inserted in the original batch run; the corrected review record holds reference 15322 for Mo. Sources and search documents each increased by 29, from 21,202 to 21,231. Existing approved URLs skipped: 0.
 - Sensitive or uncertain items were not stored.
 - Decisions were based on complete self-contained answers, narrow-topic overlap, and sensitivity involving marriage, gender, death, burial, medical, reproductive, financial, road-safety, sorcery, and family rulings.
 ## Batch 0074
