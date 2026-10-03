@@ -696,3 +696,12 @@ The later review of internal IDs 2750-2752 approved only ID 2751. The idempotent
 - Import status: imported 29 approved candidates; sources and search documents each increased by 29, from 21,202 to 21,231. Existing approved URLs skipped: 0.
 - Sensitive or uncertain items were not stored.
 - Decisions were based on complete self-contained answers, narrow-topic overlap, and sensitivity involving marriage, gender, death, burial, medical, reproductive, financial, road-safety, sorcery, and family rulings.
+## Batch 0074
+
+- Candidate internal IDs covered: 19537 through 19704, with 50 candidates reviewed.
+- Approved: 23
+- Rejected: 8
+- Held for Mo review: 19
+- Import status: imported 23 approved candidates in total; sources and search documents each increased by 23, from 21,231 to 21,254. Existing approved URLs skipped on the final verification: 22.
+- Sensitive or uncertain items were not stored.
+- Decisions were based on complete self-contained answers, narrow-topic overlap, and sensitivity involving fasting, gender, family, marriage, death, medical, financial, afterlife, pilgrimage, and theological rulings.
