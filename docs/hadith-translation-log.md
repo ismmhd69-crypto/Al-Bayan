@@ -1511,3 +1511,7 @@ Codex batch 038 inserted 2 rows for Sahih al-Bukhari 3094 to 3094. The database 
 Codex batch 039 inserted 60 rows for Sahih al-Bukhari 3095 to 3124. The database count increased from 22944 to 23004, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Needs Mo: batch 039 was inserted before the validator's final umlaut check completed because the insert command was chained after a failed validation. The local artifact was corrected and now validates, but existing database rows for Bukhari 3124 were not changed, per the insert-only rule. Review Bukhari 3124 before final completion.
+
+Codex batch 040 inserted 8 rows for Sahih al-Bukhari 3125 to 3128. The database count increased from 23016 to 23024, exactly matching the inserted rows. Validation passed for 4 hadiths.
+
+Codex ten-batch self-check for batches 031 through 040: re-read Bukhari 3046, 3053, 3062, 3070, 3075, 3081, 3091, 3101, 3110, and 3124 against their Arabic source bodies. Chains, quoted speech, negations, quantities, prayer details, Quran 59:6 reference, and variant notes were checked. The translations preserved the source content. Bukhari 3124 remains listed under Needs Mo because its database rows were inserted before the final local umlaut validation was rerun; existing rows were not changed.
