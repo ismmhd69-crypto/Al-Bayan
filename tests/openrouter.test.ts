@@ -34,13 +34,14 @@ describe("createOpenRouter", () => {
     expect(await run()).toBeNull();
   });
 
-  it("sends the privacy preferences, reasoning off and the key only as a header", async () => {
+  it("sends the privacy preferences, low reasoning effort and the key only as a header", async () => {
     let init: RequestInit = {};
     vi.stubGlobal("fetch", vi.fn(async (_u: string, i: RequestInit) => { init = i; return reply("{}"); }));
     await run();
     const body = JSON.parse(String(init.body));
     expect(body.provider).toEqual({ data_collection: "deny", zdr: true });
-    expect(body.reasoning).toEqual({ enabled: false, exclude: true });
+    // Low effort is the default: Gemini 3.5 Flash-Lite refuses "reasoning off" with a 400.
+    expect(body.reasoning).toEqual({ effort: "low", exclude: true });
     expect(body.temperature).toBe(0);
     expect((init.headers as Record<string, string>).Authorization).toBe(`Bearer ${KEY}`);
     expect(String(init.body)).not.toContain(KEY);
@@ -54,9 +55,12 @@ describe("createOpenRouter", () => {
     await run();
     process.env.OPENROUTER_REASONING = "default";
     await run();
+    process.env.OPENROUTER_REASONING = "off";
+    await run();
     expect(bodies[0].provider).toEqual({ data_collection: "deny" });
     expect(bodies[0].reasoning).toEqual({ effort: "low", exclude: true });
     expect(bodies[1].reasoning).toBeUndefined();
+    expect(bodies[2].reasoning).toEqual({ enabled: false, exclude: true });
   });
 
   it("adds a provider sort only for a known OPENROUTER_SORT value", async () => {
@@ -183,5 +187,47 @@ describe("model chains with openrouter (lib/ai/index.ts)", () => {
     expect(await getProvider().generateJson({ system: "s", prompt: "p", schema })).toEqual({ from: "gemini" });
     delete process.env.OPENROUTER_API_KEY;
     expect(getProvider().id).toBe("gemini/gemini-3.7-flash");
+  });
+});
+
+// The default model chains: OpenRouter Gemini Lite mix when the key exists, the old direct Gemini otherwise.
+describe("default model chains", () => {
+  const chains = async () => {
+    vi.resetModules();
+    vi.doMock("server-only", () => ({}));
+    const { getProvider, getVerifier } = await import("@/lib/ai");
+    return { writer: getProvider().id, checker: getVerifier().id };
+  };
+  const clear = () => {
+    for (const k of ["AI_MODELS", "AI_VERIFIER_MODELS", "AI_MODEL", "AI_FALLBACK_MODEL", "AI_VERIFIER_MODEL", "AI_VERIFIER_FALLBACK_MODEL", "AI_PROVIDER", "VERTEX_API_KEY"]) delete process.env[k];
+  };
+
+  it("uses OpenRouter Gemini Lite as the main mix when OPENROUTER_API_KEY is set", async () => {
+    clear();
+    process.env.OPENROUTER_API_KEY = KEY;
+    process.env.GEMINI_API_KEY = "g";
+    const { writer, checker } = await chains();
+    expect(writer.startsWith("openrouter/google/gemini-3.5-flash-lite")).toBe(true);
+    expect(writer).toContain("openrouter/google/gemini-3.8-flash");
+    expect(checker.startsWith("openrouter/google/gemini-3.1-flash-lite")).toBe(true);
+    expect(checker).toContain("openrouter/mistralai/mistral-small-3.2-24b-instruct");
+  });
+
+  it("falls back to the direct Gemini defaults without an OpenRouter key", async () => {
+    clear();
+    delete process.env.OPENROUTER_API_KEY;
+    process.env.GEMINI_API_KEY = "g";
+    const { writer, checker } = await chains();
+    expect(writer).toBe("gemini/gemini-3.7-flash");
+    expect(checker).toBe("gemini/gemini-3.1-flash-lite");
+  });
+
+  it("an explicit AI_MODELS still wins over the OpenRouter default", async () => {
+    clear();
+    process.env.OPENROUTER_API_KEY = KEY;
+    process.env.GEMINI_API_KEY = "g";
+    process.env.AI_MODELS = "gemini-3.5-flash-lite";
+    const { writer } = await chains();
+    expect(writer).toBe("gemini/gemini-3.5-flash-lite");
   });
 });
