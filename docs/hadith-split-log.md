@@ -6,6 +6,7 @@ Tracking the boundary marking between isnad (chain of narrators) and matn (narra
 
 | Batch | Processed | Marked | Null (Ref) | Null (Unclear) | Kinds (P / N / C / D / U / R) | Running Total | Notes |
 |-------|-----------|--------|------------|----------------|-------------------------------|---------------|-------|
+| 181   | 60        | 57     | 3          | 0              | 27 / 5 / 1 / 24 / 0 / 3       | 10860         | Muslim 2468a through Muslim 2666. Three variant-only records were marked reference-only with null boundaries; two editorial tails were marked at Muslim 2577d and 2636b. Zero errors on validation. |
 | 180   | 60        | 58     | 2          | 0              | 24 / 7 / 1 / 26 / 0 / 2       | 10800         | Muslim 2200 through Muslim 2467. Two variant-only records were marked reference-only with null boundaries; one narrator-chain tail was marked at Muslim 2386a. Zero errors on validation. |
 | 179   | 60        | 53     | 7          | 0              | 16 / 9 / 0 / 28 / 0 / 7       | 10740         | Muslim 2012b through Muslim 2199e. Seven variant-only or cross-reference records were marked reference-only with null boundaries; one editorial tail was marked at Muslim 2139a. Zero errors on validation. |
 | 178   | 60        | 56     | 4          | 0              | 17 / 6 / 4 / 29 / 0 / 4       | 10680         | Muslim 1846a through Muslim 2010a. Four variant-only records were marked reference-only with null boundaries. Zero errors on validation. |
