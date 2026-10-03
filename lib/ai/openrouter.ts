@@ -29,11 +29,14 @@ export function providerPreferences(): Record<string, unknown> {
   return sort === "throughput" || sort === "latency" || sort === "price" ? { ...privacy, sort } : privacy;
 }
 
-// A thinking model must not spend the output budget on hidden reasoning. OPENROUTER_REASONING=off
-// (default) switches it off, low/medium/high asks for that effort, default sends nothing. "exclude"
-// is always set so any reasoning text that is still produced never ends up in the reply.
+// A thinking model must not spend the output budget on hidden reasoning. OPENROUTER_REASONING=low
+// (default) asks for low effort: Gemini 3.5 Flash-Lite cannot switch thinking off (OpenRouter answers
+// 400 "Reasoning is mandatory for this endpoint"), and low effort worked on every Gemini model tested
+// (2026-10-04). off switches it off where the model allows it, medium/high ask for that effort,
+// default sends nothing. "exclude" is always set so any reasoning text that is still produced never
+// ends up in the reply.
 export function reasoningOptions(): Record<string, unknown> {
-  const mode = process.env.OPENROUTER_REASONING ?? "off";
+  const mode = process.env.OPENROUTER_REASONING ?? "low";
   if (mode === "default") return {};
   if (mode === "low" || mode === "medium" || mode === "high") return { reasoning: { effort: mode, exclude: true } };
   return { reasoning: { enabled: false, exclude: true } };

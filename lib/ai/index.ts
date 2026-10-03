@@ -20,8 +20,20 @@ import { createOpenRouter } from "./openrouter";
 // openai/gpt-oss-20b, nvidia/nemotron-3-super-120b-a12b.
 // Mo selected Gemini 3.7 Flash as the production writer on 2026-10-01. The checker remains a
 // different model so the writer never approves its own answer.
-const DEFAULT_WRITER_MODELS = ["gemini-3.7-flash"];
-const DEFAULT_VERIFIER_MODELS = ["gemini-3.1-flash-lite"];
+const GEMINI_DIRECT_WRITER_MODELS = ["gemini-3.7-flash"];
+const GEMINI_DIRECT_VERIFIER_MODELS = ["gemini-3.1-flash-lite"];
+
+// Mo's decision (2026-10-04): OpenRouter is the main AI door whenever OPENROUTER_API_KEY is set. Measured
+// on the real 20-question run (docs/openrouter-runs, Gemini Lite mix with zero-data-retention routing):
+// 20 of 20 correct or safe refusals, 11 of 17 answerable questions answered (65%), median 17.8 s,
+// 95th percentile 23.5 s, no timeouts, about $0.007 per question. The first model of each chain is the
+// cheap Lite mix; the second is the stronger fallback when the first is busy. The writer and checker
+// chains share no model. Without an OpenRouter key the older direct Gemini defaults above are used.
+const OPENROUTER_WRITER_MODELS = ["openrouter:google/gemini-3.5-flash-lite", "openrouter:google/gemini-3.8-flash"];
+const OPENROUTER_VERIFIER_MODELS = ["openrouter:google/gemini-3.1-flash-lite", "openrouter:mistralai/mistral-small-3.2-24b-instruct"];
+const openRouterOn = () => !!process.env.OPENROUTER_API_KEY;
+const DEFAULT_WRITER_MODELS = () => (openRouterOn() ? OPENROUTER_WRITER_MODELS : GEMINI_DIRECT_WRITER_MODELS);
+const DEFAULT_VERIFIER_MODELS = () => (openRouterOn() ? OPENROUTER_VERIFIER_MODELS : GEMINI_DIRECT_VERIFIER_MODELS);
 
 // Mo's decision (2026-09-28): Vertex AI is the main door when VERTEX_API_KEY is set; the Gemini API
 // key is the backup for the same model when Vertex is busy. Same model either way, so the answer
@@ -116,11 +128,11 @@ function chainOf(chainVar: string, firstVar: string, fallbackVar: string, defaul
 }
 
 function writerModels(): string[] {
-  return chainOf("AI_MODELS", "AI_MODEL", "AI_FALLBACK_MODEL", DEFAULT_WRITER_MODELS);
+  return chainOf("AI_MODELS", "AI_MODEL", "AI_FALLBACK_MODEL", DEFAULT_WRITER_MODELS());
 }
 
 function verifierModels(): string[] {
-  return chainOf("AI_VERIFIER_MODELS", "AI_VERIFIER_MODEL", "AI_VERIFIER_FALLBACK_MODEL", DEFAULT_VERIFIER_MODELS);
+  return chainOf("AI_VERIFIER_MODELS", "AI_VERIFIER_MODEL", "AI_VERIFIER_FALLBACK_MODEL", DEFAULT_VERIFIER_MODELS());
 }
 
 const KNOWN_PROVIDERS = ["gemini", "vertex", "nvidia", "openrouter"];
