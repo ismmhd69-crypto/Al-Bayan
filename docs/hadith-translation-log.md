@@ -1543,3 +1543,13 @@ Codex batch 044 inserted 24 rows for Sahih al-Bukhari 3195 to 3206. The database
 Codex batch 045 inserted 2 rows for Sahih al-Bukhari 3207 to 3207. The database count increased from 23238 to 23240, exactly matching the inserted rows. Validation passed for 1 hadiths.
 
 Codex batch 046 inserted 60 rows for Sahih al-Bukhari 3208 to 3237. The database count increased from 23252 to 23312, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 047 inserted 60 rows for Sahih al-Bukhari 3238 to 3268. The database count increased from 23324 to 23384, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 048 inserted 60 rows for Sahih al-Bukhari 3269 to 3300. The database count increased from 23384 to 23444, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 049 inserted 60 rows for Sahih al-Bukhari 3301 to 3332. The database count increased from 23444 to 23504, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 050 inserted 18 rows for Sahih al-Bukhari 3333 to 3341. The database count increased from 23504 to 23522, exactly matching the inserted rows. Validation passed for 9 hadiths.
+
+Codex ten-batch self-check for batches 041 through 050: re-read Bukhari 3129, 3134, 3163, 3195, 3208, 3231, 3269, 3294, 3329, and 3340 against their Arabic source bodies. Chains, repeated variants, negations, quantities, Quran references 74:1-5 and 2:143, animal rulings, and the incomplete-source note in 3340 were checked. The translations preserved the source content. No database rows were changed during this review.
