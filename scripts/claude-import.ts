@@ -10,7 +10,7 @@ const dry = process.argv.includes("--dry");
 const logFile = "docs/hadith-translation-log-claude.md";
 
 type In = { id: string; url: string; text_original: string; need: string[] };
-type Out = { id: string; en: string; de: string };
+type Out = { id: string; n?: string; en: string; de: string };
 
 const AR = /[؀-ۿݐ-ݿ]/;
 const strip = (s: string) => s.replace(/[ً-ٰٟـ‏‎]/g, "");
@@ -35,6 +35,7 @@ function validate(i: In, o: Out) {
 async function main() {
   const ins: In[] = JSON.parse(fs.readFileSync(`${dir}/in.json`, "utf-8"));
   const outs: Out[] = JSON.parse(fs.readFileSync(`${dir}/out.json`, "utf-8"));
+  for (const o of outs) if (!o.id && o.n) o.id = ins.find((i) => i.url.endsWith(":" + o.n))?.id ?? "";
   const om = new Map(outs.map((o) => [o.id, o]));
   const bad: string[] = [];
   if (outs.length !== ins.length || ins.some((i) => !om.has(i.id))) bad.push("ids do not match");
