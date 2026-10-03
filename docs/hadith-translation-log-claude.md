@@ -28,6 +28,11 @@ Check after batch 40 (10 random rows, Bukhari 1232, 1262, 1265, 1266, 1268, 1277
 - Bukhari 1983: the Arabic "سرر" (sirar) of the month is kept as the transliteration "sirar" (English) and "Sirar" (German) without a gloss, because scholars differ on whether it means the last days or the middle of the month.
 - Bukhari 1982: the Arabic "بضع وعشرون ومائة" is rendered "a hundred and some twenty" (German "einhundert und einige zwanzig"), which is awkward; it means a little over a hundred and twenty.
 - Bukhari 1935 and 1936: "احترق" / "هلكت" are rendered "I am burned" / "I am ruined"; the euphemism "أصبت أهلي / وقعت على امرأتي" is rendered plainly as "had relations with my wife" (German "Verkehr mit meiner Frau").
+- Self-check after batch 50 (read 10 random rows against the Arabic: 1983, 1283, 1469, 1294, 1966, 1095, 1974, 1326, 1032, 1331). No wrong meaning found. Small wording issues only:
+  - Bukhari 1966: "take on of deeds what you can bear" is stiff; better "take on only the deeds you can bear".
+  - Bukhari 1974: "Half of time" for "نصف الدهر" is literal; "half of the time" reads better.
+  - Bukhari 1331: "died in childbirth bleeding" for "ماتت في نفاسها"; more exact is "died in her postnatal period".
+  - Bukhari 1983: sirar already flagged above.
 
 ## Batch history
 
@@ -73,3 +78,13 @@ Check after batch 40 (10 random rows, Bukhari 1232, 1262, 1265, 1266, 1268, 1277
 | 38 | Bukhari 1904 to 1934 | 28 | 56 | 0 | 1746 |
 | 39 | Bukhari 1935 to 1963 | 29 | 58 | 0 | 1804 |
 | 40 | Bukhari 1964 to 1985 | 22 | 44 | 0 | 1848 |
+| 41 | Bukhari 1986 to 2017 | 30 | 60 | 0 | 1908 |
+| 42 | Bukhari 2018 to 2042 | 24 | 48 | 0 | 1956 |
+| 43 | Bukhari 2043 to 2066 | 23 | 46 | 0 | 2002 |
+| 44 | Bukhari 2067 to 2094 | 28 | 56 | 0 | 2058 |
+| 45 | Bukhari 2095 to 2121 | 27 | 54 | 0 | 2112 |
+| 46 | Bukhari 2122 to 2152 | 30 | 60 | 0 | 2172 |
+| 47 | Bukhari 2153 to 2187 | 30 | 60 | 0 | 2232 |
+| 48 | Bukhari 2188 to 2216 | 29 | 58 | 0 | 2290 |
+| 49 | Bukhari 2217 to 2242 | 27 | 54 | 0 | 2344 |
+| 50 | Bukhari 2244 to 2271 | 24 | 48 | 0 | 2392 |
