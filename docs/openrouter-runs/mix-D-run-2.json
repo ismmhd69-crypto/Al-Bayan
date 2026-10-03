@@ -1,0 +1,1218 @@
+{
+  "at": "2026-10-03T21:30:28.396Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 19,
+    "answered": 4,
+    "answeredOfExpected": "4/17",
+    "timeoutsOrBusyOrErrors": 1,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 15.1,
+    "p95Seconds": 21.5,
+    "skips": 1,
+    "skipReasons": [
+      "429)"
+    ],
+    "retries": 2,
+    "costUsdTotal": 0,
+    "costUsdPerQuestion": 0,
+    "refusalReasons": [
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient",
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient",
+      "scholar_dropped_by_rules",
+      "no_summary_after_draft_copied_source",
+      "scholar_difference_unresolved_known_topic",
+      "evidence_insufficient",
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient",
+      "question_frame_invalid",
+      "personal",
+      "no_summary_after_draft_multiple_sentences",
+      "question_frame_invalid",
+      "selection_retry_started_thin",
+      "selection_retry_succeeded",
+      "draft_model_no_answer",
+      "scholar_dropped_by_rules",
+      "draft_malformed",
+      "no_summary_after_screening_retry_copied_source",
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient"
+    ],
+    "modelsUsed": [
+      "openrouter/apodex/apodex-1.1-mini:free",
+      "openrouter/inclusionai/ling-3.0-flash-sante:free"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 21.5,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 2857 ms",
+        "search at 6914 ms",
+        "sources_fetched at 7520 ms",
+        "selection(12 candidates) at 18188 ms",
+        "selection_retry(8 candidates) at 21517 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 14.3,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 2253 ms",
+        "search at 4313 ms",
+        "sources_fetched at 5055 ms",
+        "selection(15 candidates) at 10543 ms",
+        "selection_retry(8 candidates) at 14333 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 16.4,
+      "reasons": [],
+      "steps": [
+        "frame at 1904 ms",
+        "search at 5908 ms",
+        "sources_fetched at 6552 ms",
+        "selection(12 candidates) at 11501 ms",
+        "draft at 13570 ms",
+        "screening at 15193 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "The reason for fasting in Ramadan is that God prescribed it so that believers may become mindful of Him, and it is tied to the revelation of the Quran in that month.",
+            "refs": [
+              "2:183",
+              "2:185"
+            ]
+          },
+          {
+            "text": "Its spiritual benefits are that it cultivates mindfulness of God, helps distinguish right from wrong through guidance, leads to glorification and thankfulness, and offers ease rather than hardship for those able to fast or who need concessions.",
+            "refs": [
+              "2:183",
+              "2:185"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "The reason for fasting in Ramadan is that God prescribed it so that believers may become mindful of Him, and it is tied to the revelation of the Quran in that month.",
+            "source_ids": [
+              "2:183",
+              "2:185"
+            ]
+          },
+          {
+            "text": "Its spiritual benefits are that it cultivates mindfulness of God, helps distinguish right from wrong through guidance, leads to glorification and thankfulness, and offers ease rather than hardship for those able to fast or who need concessions.",
+            "source_ids": [
+              "2:183",
+              "2:185"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/183"
+          },
+          {
+            "kind": "quran",
+            "key": "2:185",
+            "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+            "translation": "It was in the month of Ramadan that the Quran was revealed as guidance for mankind, clear messages giving guidance and distinguishing between right and wrong. So any one of you who is present that month should fast, and anyone who is ill or on a journey should make up for the lost days by fasting on other days later. God wants ease for you, not hardship. He wants you to complete the prescribed period and to glorify Him for having guided you, so that you may be thankful.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/185"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "OhbeC8vJsow",
+            "channelId": "UCtF3YygTiodnYSw8vD3UJtQ",
+            "title": "الحكمة من #الصيام || فضيلة الشيخ العلامة محمد #ابن_عثيمين – رحمه الله تعالى",
+            "minutes": 3,
+            "language": "en"
+          }
+        ],
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "The reason for fasting in Ramadan is that God prescribed it so that believers may become mindful of Him, and it is tied to the revelation of the Quran in that month.",
+                "source_ids": [
+                  "Q2:183",
+                  "Q2:185"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "Its spiritual benefits are that it cultivates mindfulness of God, helps distinguish right from wrong through guidance, leads to glorification and thankfulness, and offers ease rather than hardship for those able to fast or who need concessions.",
+                "source_ids": [
+                  "Q2:183",
+                  "Q2:185"
+                ],
+                "requirement_id": "R2"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1",
+                "R2"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            },
+            {
+              "id": "quran-2-185",
+              "source_ids": [
+                "Q2:185"
+              ],
+              "points": [
+                "R1",
+                "R2"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:185",
+                  "key": "2:185",
+                  "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+                  "translation": "It was in the month of Ramadan that the Quran was revealed as guidance for mankind, clear messages giving guidance and distinguishing between right and wrong. So any one of you who is present that month should fast, and anyone who is ill or on a journey should make up for the lost days by fasting on other days later. God wants ease for you, not hardship. He wants you to complete the prescribed period and to glorify Him for having guided you, so that you may be thankful.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/185"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "OhbeC8vJsow",
+              "channelId": "UCtF3YygTiodnYSw8vD3UJtQ",
+              "title": "الحكمة من #الصيام || فضيلة الشيخ العلامة محمد #ابن_عثيمين – رحمه الله تعالى",
+              "minutes": 3,
+              "language": "en"
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 18.5,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 1748 ms",
+        "search at 6070 ms",
+        "sources_fetched at 6958 ms",
+        "selection(14 candidates) at 12353 ms",
+        "draft at 15502 ms",
+        "screening at 17137 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "Taking interest (riba) is forbidden in Islam, as the Quran explicitly allows trade while forbidding usury, commands believers to avoid it, and warns of severe punishment for those who persist.",
+            "refs": [
+              "2:275",
+              "3:130",
+              "4:161"
+            ]
+          },
+          {
+            "text": "Shaykh Ibn Baz states that all interest earned through banks is unlawful and must be given to charitable causes if it was received knowingly, while a person who has not yet received it is entitled only to their original principal.",
+            "refs": [
+              "S27c5737a-03b2-45b0-8b60-f40fff386519"
+            ]
+          },
+          {
+            "text": "The Quran warns that those who continue to take usury after warning will be inhabitants of the Fire, whereas whoever stops after receiving warning may keep their past lawful gains.",
+            "refs": [
+              "2:275"
+            ]
+          },
+          {
+            "text": "Shaykh Ibn Baz also ruled that banks dealing in usury may not be worked in, and that anyone assisting such banks becomes a partner in the sin, citing the Prophet's curse on the eater of usury, the one who pays it, its writer, and its witnesses.",
+            "refs": [
+              "S6a4613ce-18e1-4fca-ad05-323c87d5b5b7"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Taking interest (riba) is forbidden in Islam, as the Quran explicitly allows trade while forbidding usury, commands believers to avoid it, and warns of severe punishment for those who persist.",
+            "source_ids": [
+              "2:275",
+              "3:130",
+              "4:161"
+            ]
+          },
+          {
+            "text": "Shaykh Ibn Baz states that all interest earned through banks is unlawful and must be given to charitable causes if it was received knowingly, while a person who has not yet received it is entitled only to their original principal.",
+            "source_ids": [
+              "S27c5737a-03b2-45b0-8b60-f40fff386519"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Details",
+            "sentences": [
+              {
+                "text": "The Quran warns that those who continue to take usury after warning will be inhabitants of the Fire, whereas whoever stops after receiving warning may keep their past lawful gains.",
+                "source_ids": [
+                  "2:275"
+                ]
+              },
+              {
+                "text": "Shaykh Ibn Baz also ruled that banks dealing in usury may not be worked in, and that anyone assisting such banks becomes a partner in the sin, citing the Prophet's curse on the eater of usury, the one who pays it, its writer, and its witnesses.",
+                "source_ids": [
+                  "S6a4613ce-18e1-4fca-ad05-323c87d5b5b7"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:275",
+            "arabic": "ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَـٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
+            "translation": "But those who take usury will rise up on the Day of Resurrection like someone tormented by Satan’s touch. That is because they say, ‘Trade and usury are the same,’ but God has allowed trade and forbidden usury. Whoever, on receiving God’s warning, stops taking usury may keep his past gains- God will be his judge- but whoever goes back to usury will be an inhabitant of the Fire, there to remain.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/275"
+          },
+          {
+            "kind": "quran",
+            "key": "3:130",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَـٰفًا مُّضَـٰعَفَةً ۖ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+            "translation": "You who believe, do not consume usurious interest, doubled and redoubled. Be mindful of God so that you may prosper-",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/3/130"
+          },
+          {
+            "kind": "quran",
+            "key": "4:161",
+            "arabic": "وَأَخْذِهِمُ ٱلرِّبَوٰا۟ وَقَدْ نُهُوا۟ عَنْهُ وَأَكْلِهِمْ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَـٰطِلِ ۚ وَأَعْتَدْنَا لِلْكَـٰفِرِينَ مِنْهُمْ عَذَابًا أَلِيمًا",
+            "translation": "for taking usury when they had been forbidden to do so; and for wrongfully devouring other people’s property. For those of them that reject the truth we have prepared an agonizing torment.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/4/161"
+          },
+          {
+            "kind": "scholar",
+            "key": "S27c5737a-03b2-45b0-8b60-f40fff386519",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "حكم التعامل مع البنوك بالربا وزكاتها",
+            "reference": "مجموع فتاوى ومقالات الشيخ ابن باز (14/ 153)",
+            "arabic": "يحرم التعامل بالربا مع البنوك وغيرها، وجميع الفوائد الناتجة عن الربا كلها محرمة، وليست مالًا لصاحبها، بل يجب صرفها في وجوه الخير، إذا كان قبضها وهو يعلم حكم الله في ذلك، أما إن كان لم يقبضها فليس له إلا رأس ماله؛ لقول الله : يَا أَيُّهَا الَّذِينَ آمَنُواْ اتَّقُواْ اللّهَ وَذَرُواْ مَا بَقِيَ مِنَ الرِّبَا إِن كُنتُم مُّؤْمِنِينَ ۝ فَإِن لَّمْ تَفْعَلُواْ فَأْذَنُواْ بِحَرْبٍ مِّنَ اللّهِ وَرَسُولِهِ وَإِن تُبْتُمْ فَلَكُمْ رُؤُوسُ أَمْوَالِكُمْ لاَ تَظْلِمُونَ وَلاَ تُظْلَمُونَ ۝ [البقرة:278-279].",
+            "url": "https://binbaz.org.sa/fatwas/5796/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A8%D8%A7%D9%84%D8%B1%D8%A8%D8%A7-%D9%88%D8%B2%D9%83%D8%A7%D8%AA%D9%87%D8%A7"
+          },
+          {
+            "kind": "scholar",
+            "key": "S6a4613ce-18e1-4fca-ad05-323c87d5b5b7",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "ما حكم العمل والإيداع في البنوك الربوية؟",
+            "reference": "binbaz.org.sa, fatwa 30578",
+            "arabic": "البنوك لا يجوز العمل فيها، بنوك الربا لا يجوز العمل فيها؛ لأنها تعاونٌ على الإثم والعدوان، فلا يجوز التَّعامل بها، الرسول لعن آكل الربا ومُوكله وكاتبه وشاهديه، وقال: هم سواء، فالكاتب للربا والشَّاهد عليه شريكٌ، والذي يُعينهم يكون محاسبًا أو يكون مُراسلًا أو يكون فرَّاشًا فيه إعانة لهم على بلائهم.",
+            "url": "https://binbaz.org.sa/fatwas/30578/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%A7%D9%84%D8%A5%D9%8A%D8%AF%D8%A7%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D8%B1%D8%A8%D9%88%D9%8A%D8%A9%D8%9F"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "vvRbAebq1iY",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "الحكمة من تحريم الربا وهل يجوز التعامل بالربا مع البنوك؟ - عثمان الخميس",
+            "minutes": 2,
+            "language": "ar"
+          },
+          {
+            "youtubeId": "7O6Yzikuacc",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "131 - الحكمة من تحريم الربا وهل يجوز التعامل بالربا مع البنوك؟ - عثمان الخميس",
+            "minutes": 2,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Taking interest (riba) is forbidden in Islam, as the Quran explicitly allows trade while forbidding usury, commands believers to avoid it, and warns of severe punishment for those who persist.",
+                "source_ids": [
+                  "Q2:275",
+                  "Q3:130",
+                  "Q4:161"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "Shaykh Ibn Baz states that all interest earned through banks is unlawful and must be given to charitable causes if it was received knowingly, while a person who has not yet received it is entitled only to their original principal.",
+                "source_ids": [
+                  "S27c5737a-03b2-45b0-8b60-f40fff386519"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-275",
+              "source_ids": [
+                "Q2:275"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:275",
+                  "key": "2:275",
+                  "arabic": "ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَـٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
+                  "translation": "But those who take usury will rise up on the Day of Resurrection like someone tormented by Satan’s touch. That is because they say, ‘Trade and usury are the same,’ but God has allowed trade and forbidden usury. Whoever, on receiving God’s warning, stops taking usury may keep his past gains- God will be his judge- but whoever goes back to usury will be an inhabitant of the Fire, there to remain.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/275"
+                }
+              ]
+            },
+            {
+              "id": "quran-3-130",
+              "source_ids": [
+                "Q3:130"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q3:130",
+                  "key": "3:130",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَـٰفًا مُّضَـٰعَفَةً ۖ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+                  "translation": "You who believe, do not consume usurious interest, doubled and redoubled. Be mindful of God so that you may prosper-",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/3/130"
+                }
+              ]
+            },
+            {
+              "id": "quran-4-161",
+              "source_ids": [
+                "Q4:161"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q4:161",
+                  "key": "4:161",
+                  "arabic": "وَأَخْذِهِمُ ٱلرِّبَوٰا۟ وَقَدْ نُهُوا۟ عَنْهُ وَأَكْلِهِمْ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَـٰطِلِ ۚ وَأَعْتَدْنَا لِلْكَـٰفِرِينَ مِنْهُمْ عَذَابًا أَلِيمًا",
+                  "translation": "for taking usury when they had been forbidden to do so; and for wrongfully devouring other people’s property. For those of them that reject the truth we have prepared an agonizing torment.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/4/161"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "S6a4613ce-18e1-4fca-ad05-323c87d5b5b7",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "ما حكم العمل والإيداع في البنوك الربوية؟",
+              "reference": "binbaz.org.sa, fatwa 30578",
+              "arabic": "البنوك لا يجوز العمل فيها، بنوك الربا لا يجوز العمل فيها؛ لأنها تعاونٌ على الإثم والعدوان، فلا يجوز التَّعامل بها، الرسول لعن آكل الربا ومُوكله وكاتبه وشاهديه، وقال: هم سواء، فالكاتب للربا والشَّاهد عليه شريكٌ، والذي يُعينهم يكون محاسبًا أو يكون مُراسلًا أو يكون فرَّاشًا فيه إعانة لهم على بلائهم.",
+              "url": "https://binbaz.org.sa/fatwas/30578/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%A7%D9%84%D8%A5%D9%8A%D8%AF%D8%A7%D8%B9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A7%D9%84%D8%B1%D8%A8%D9%88%D9%8A%D8%A9%D8%9F"
+            },
+            {
+              "id": "S27c5737a-03b2-45b0-8b60-f40fff386519",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "حكم التعامل مع البنوك بالربا وزكاتها",
+              "reference": "مجموع فتاوى ومقالات الشيخ ابن باز (14/ 153)",
+              "arabic": "يحرم التعامل بالربا مع البنوك وغيرها، وجميع الفوائد الناتجة عن الربا كلها محرمة، وليست مالًا لصاحبها، بل يجب صرفها في وجوه الخير، إذا كان قبضها وهو يعلم حكم الله في ذلك، أما إن كان لم يقبضها فليس له إلا رأس ماله؛ لقول الله : يَا أَيُّهَا الَّذِينَ آمَنُواْ اتَّقُواْ اللّهَ وَذَرُواْ مَا بَقِيَ مِنَ الرِّبَا إِن كُنتُم مُّؤْمِنِينَ ۝ فَإِن لَّمْ تَفْعَلُواْ فَأْذَنُواْ بِحَرْبٍ مِّنَ اللّهِ وَرَسُولِهِ وَإِن تُبْتُمْ فَلَكُمْ رُؤُوسُ أَمْوَالِكُمْ لاَ تَظْلِمُونَ وَلاَ تُظْلَمُونَ ۝ [البقرة:278-279].",
+              "url": "https://binbaz.org.sa/fatwas/5796/%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%85%D9%84-%D9%85%D8%B9-%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83-%D8%A8%D8%A7%D9%84%D8%B1%D8%A8%D8%A7-%D9%88%D8%B2%D9%83%D8%A7%D8%AA%D9%87%D8%A7"
+            }
+          ],
+          "videos": [
+            {
+              "youtubeId": "vvRbAebq1iY",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "الحكمة من تحريم الربا وهل يجوز التعامل بالربا مع البنوك؟ - عثمان الخميس",
+              "minutes": 2,
+              "language": "ar"
+            },
+            {
+              "youtubeId": "7O6Yzikuacc",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "131 - الحكمة من تحريم الربا وهل يجوز التعامل بالربا مع البنوك؟ - عثمان الخميس",
+              "minutes": 2,
+              "language": "ar"
+            }
+          ],
+          "more_explanation": [
+            {
+              "heading": "Details",
+              "sentences": [
+                {
+                  "text": "The Quran warns that those who continue to take usury after warning will be inhabitants of the Fire, whereas whoever stops after receiving warning may keep their past lawful gains.",
+                  "source_ids": [
+                    "Q2:275"
+                  ],
+                  "requirement_id": "R1"
+                },
+                {
+                  "text": "Shaykh Ibn Baz also ruled that banks dealing in usury may not be worked in, and that anyone assisting such banks becomes a partner in the sin, citing the Prophet's curse on the eater of usury, the one who pays it, its writer, and its witnesses.",
+                  "source_ids": [
+                    "S6a4613ce-18e1-4fca-ad05-323c87d5b5b7"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 20,
+      "reasons": [
+        "no_summary_after_draft_copied_source"
+      ],
+      "steps": [
+        "frame at 2328 ms",
+        "search at 5678 ms",
+        "sources_fetched at 6603 ms",
+        "selection(12 candidates) at 12460 ms",
+        "draft at 16723 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 15.5,
+      "reasons": [],
+      "steps": [
+        "frame at 1635 ms",
+        "search at 5304 ms",
+        "sources_fetched at 5876 ms",
+        "selection(13 candidates) at 11346 ms",
+        "draft at 13022 ms",
+        "screening at 14448 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "Yes, wearing hijab is obligatory for Muslim women, and parents cannot be obeyed in forbidding it because obedience is only valid in what is good and lawful.",
+            "refs": [
+              "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Yes, wearing hijab is obligatory for Muslim women, and parents cannot be obeyed in forbidding it because obedience is only valid in what is good and lawful.",
+            "source_ids": [
+              "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "scholar",
+            "key": "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "حكم طاعة البنت أهلها في عدم ارتداء الحجاب",
+            "reference": "binbaz.org.sa, fatwa 15262",
+            "arabic": "الواجب عليك ارتداء النقاب، والتحجب عن الرجال الأجانب، ولو أبى أهلك في ذلك، ليس لهم طاعة في هذا، يقول النبي ﷺ: إنما الطاعة في المعروف والمعروف هو ما شرعه الله -جل وعلا- وأباحه، ويقول ﷺ: لا طاعة لمخلوق في معصية الخالق. فالواجب عليك التستر، والحجاب عن الأجنبي، كأخي الزوج، أو عمه، وكالجيران الذين ليسوا بمحارم، وغيرهم، كل رجل ليس محرمًا لك؛ عليك التحجب عنه، ولو أبى أهلك ذلك، لا، ليس لك أن تطيعيهم في ذلك.",
+            "url": "https://binbaz.org.sa/fatwas/15262/%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AA-%D8%A3%D9%87%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D8%B9%D8%AF%D9%85-%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%A8"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Yes, wearing hijab is obligatory for Muslim women, and parents cannot be obeyed in forbidding it because obedience is only valid in what is good and lawful.",
+                "source_ids": [
+                  "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "حكم طاعة البنت أهلها في عدم ارتداء الحجاب",
+              "reference": "binbaz.org.sa, fatwa 15262",
+              "arabic": "الواجب عليك ارتداء النقاب، والتحجب عن الرجال الأجانب، ولو أبى أهلك في ذلك، ليس لهم طاعة في هذا، يقول النبي ﷺ: إنما الطاعة في المعروف والمعروف هو ما شرعه الله -جل وعلا- وأباحه، ويقول ﷺ: لا طاعة لمخلوق في معصية الخالق. فالواجب عليك التستر، والحجاب عن الأجنبي، كأخي الزوج، أو عمه، وكالجيران الذين ليسوا بمحارم، وغيرهم، كل رجل ليس محرمًا لك؛ عليك التحجب عنه، ولو أبى أهلك ذلك، لا، ليس لك أن تطيعيهم في ذلك.",
+              "url": "https://binbaz.org.sa/fatwas/15262/%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AA-%D8%A3%D9%87%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D8%B9%D8%AF%D9%85-%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%A8"
+            }
+          ],
+          "videos": [],
+          "attribution": {},
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 1.9,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 1904 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 12.4,
+      "reasons": [
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 3463 ms",
+        "search at 7190 ms",
+        "sources_fetched at 7787 ms",
+        "selection(13 candidates) at 12373 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 16.4,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1897 ms",
+        "search at 5087 ms",
+        "sources_fetched at 5681 ms",
+        "selection(15 candidates) at 11723 ms",
+        "selection_retry(8 candidates) at 16445 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 3.5,
+      "reasons": [
+        "question_frame_invalid"
+      ],
+      "steps": [
+        "frame at 3478 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 2.4,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 2356 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 2.5,
+      "reasons": [],
+      "steps": [
+        "frame at 2546 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 18.1,
+      "reasons": [],
+      "steps": [
+        "frame at 2530 ms",
+        "search at 6418 ms",
+        "sources_fetched at 7198 ms",
+        "selection(12 candidates) at 12269 ms",
+        "draft at 13821 ms",
+        "screening at 16970 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Muslims fast in Ramadan to cultivate mindfulness of God (taqwa), to follow a prescription given to earlier communities, and to glorify God after being guided by the Quran revealed in this month.",
+            "refs": [
+              "2:183",
+              "2:185"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Muslims fast in Ramadan to cultivate mindfulness of God (taqwa), to follow a prescription given to earlier communities, and to glorify God after being guided by the Quran revealed in this month.",
+            "source_ids": [
+              "2:183",
+              "2:185"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/2/183"
+          },
+          {
+            "kind": "quran",
+            "key": "2:185",
+            "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+            "translation": "Der Monat Ramadan ist es, in dem der Quran als Rechtleitung für die Menschen herabgesandt worden ist und als klarer Beweis der Rechtleitung und der Unterscheidung. Wer also von euch in dem Monat zugegen ist, der soll in ihm fasten. Und wer krank ist oder sich auf einer Reise befindet, soll eine Anzahl anderer Tage (fasten) Allah will es euch leicht, Er will es euch nicht schwer machen damit ihr die Frist vollendet und Allah rühmt, daß Er euch geleitet hat. Vielleicht werdet ihr dankbar sein.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/2/185"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "YgMitMRhfB8",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "الحكمة من وجوب الصوم - عثمان الخميس",
+            "minutes": 1,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/apodex/apodex-1.1-mini:free",
+        "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Muslims fast in Ramadan to cultivate mindfulness of God (taqwa), to follow a prescription given to earlier communities, and to glorify God after being guided by the Quran revealed in this month.",
+                "source_ids": [
+                  "Q2:183",
+                  "Q2:185"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            },
+            {
+              "id": "quran-2-185",
+              "source_ids": [
+                "Q2:185"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:185",
+                  "key": "2:185",
+                  "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+                  "translation": "Der Monat Ramadan ist es, in dem der Quran als Rechtleitung für die Menschen herabgesandt worden ist und als klarer Beweis der Rechtleitung und der Unterscheidung. Wer also von euch in dem Monat zugegen ist, der soll in ihm fasten. Und wer krank ist oder sich auf einer Reise befindet, soll eine Anzahl anderer Tage (fasten) Allah will es euch leicht, Er will es euch nicht schwer machen damit ihr die Frist vollendet und Allah rühmt, daß Er euch geleitet hat. Vielleicht werdet ihr dankbar sein.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/2/185"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "YgMitMRhfB8",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "الحكمة من وجوب الصوم - عثمان الخميس",
+              "minutes": 1,
+              "language": "ar"
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/apodex/apodex-1.1-mini:free",
+            "verifier": "openrouter/inclusionai/ling-3.0-flash-sante:free"
+          }
+        }
+      }
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "busy",
+      "seconds": 1.5,
+      "reasons": [],
+      "steps": [],
+      "answered": [],
+      "skipped": [
+        "openrouter/apodex/apodex-1.1-mini:free (openrouter busy (429))"
+      ],
+      "retries": 1,
+      "costUsd": 0,
+      "error": "Error: openrouter busy (429)"
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 23.3,
+      "reasons": [
+        "no_summary_after_draft_multiple_sentences"
+      ],
+      "steps": [
+        "frame at 2921 ms",
+        "search at 7065 ms",
+        "sources_fetched at 8079 ms",
+        "selection(15 candidates) at 13813 ms",
+        "draft at 18655 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 1,
+      "costUsd": 0
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "no_source",
+      "seconds": 3.2,
+      "reasons": [
+        "question_frame_invalid"
+      ],
+      "steps": [
+        "frame at 3214 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 19.9,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_succeeded",
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 3815 ms",
+        "search at 7022 ms",
+        "sources_fetched at 7590 ms",
+        "selection(15 candidates) at 15186 ms",
+        "selection_retry(8 candidates) at 18922 ms",
+        "draft at 19894 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 15.1,
+      "reasons": [
+        "scholar_dropped_by_rules",
+        "draft_malformed"
+      ],
+      "steps": [
+        "frame at 1668 ms",
+        "search at 5301 ms",
+        "sources_fetched at 5834 ms",
+        "selection(15 candidates) at 11263 ms",
+        "draft at 15075 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 18.5,
+      "reasons": [
+        "no_summary_after_screening_retry_copied_source"
+      ],
+      "steps": [
+        "frame at 1521 ms",
+        "search at 5347 ms",
+        "sources_fetched at 6027 ms",
+        "selection(13 candidates) at 11140 ms",
+        "draft at 13415 ms",
+        "screening at 16587 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 14.6,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 1533 ms",
+        "search at 5563 ms",
+        "sources_fetched at 6280 ms",
+        "selection(11 candidates) at 10867 ms",
+        "selection_retry(8 candidates) at 14559 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free",
+        "openrouter/inclusionai/ling-3.0-flash-sante:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    }
+  ]
+}

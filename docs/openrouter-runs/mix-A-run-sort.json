@@ -1,0 +1,1125 @@
+{
+  "at": "2026-10-03T20:01:25.666Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 17,
+    "answered": 5,
+    "answeredOfExpected": "5/17",
+    "timeoutsOrBusyOrErrors": 3,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 27.7,
+    "p95Seconds": 50,
+    "skips": 0,
+    "skipReasons": [],
+    "retries": 0,
+    "costUsdTotal": 0.03316,
+    "costUsdPerQuestion": 0.00166,
+    "refusalReasons": [
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient",
+      "selection_retry_started_skipped",
+      "selection_retry_failed",
+      "evidence_insufficient",
+      "scholar_dropped_by_rules",
+      "no_summary_after_draft_multiple_sentences",
+      "scholar_difference_unresolved_known_topic",
+      "selection_retry_started_thin",
+      "selection_retry_failed",
+      "evidence_insufficient",
+      "no_summary_after_draft_copied_source",
+      "no_summary_after_draft_quotation",
+      "personal",
+      "no_summary_after_screening_claim",
+      "scholar_dropped_by_rules",
+      "no_summary_after_draft_source_attribution"
+    ],
+    "modelsUsed": [
+      "openrouter/qwen/qwen3-235b-a22b-2507",
+      "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 23.5,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 5273 ms",
+        "search at 8842 ms",
+        "sources_fetched at 9523 ms",
+        "selection(11 candidates) at 17506 ms",
+        "selection_retry(8 candidates) at 23546 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0015731599999999999
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 35.9,
+      "reasons": [
+        "selection_retry_started_skipped",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 5037 ms",
+        "search at 9716 ms",
+        "sources_fetched at 10451 ms",
+        "selection(15 candidates) at 30536 ms",
+        "selection_retry(8 candidates) at 35918 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00177481
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 33.4,
+      "reasons": [],
+      "steps": [
+        "frame at 11453 ms",
+        "search at 14775 ms",
+        "sources_fetched at 15457 ms",
+        "selection(13 candidates) at 25510 ms",
+        "draft at 28444 ms",
+        "screening at 32747 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0019528350000000002,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "The reason for fasting in Ramadan is to develop mindfulness of God.",
+            "refs": [
+              "2:183"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "The reason for fasting in Ramadan is to develop mindfulness of God.",
+            "source_ids": [
+              "2:183"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/183"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "The reason for fasting in Ramadan is to develop mindfulness of God.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 46.5,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 4802 ms",
+        "search at 8882 ms",
+        "sources_fetched at 9709 ms",
+        "selection(15 candidates) at 21465 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.000858975,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 25.7,
+      "reasons": [
+        "no_summary_after_draft_multiple_sentences"
+      ],
+      "steps": [
+        "frame at 5477 ms",
+        "search at 9068 ms",
+        "sources_fetched at 9650 ms",
+        "selection(11 candidates) at 22884 ms",
+        "draft at 24304 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0018531449999999998
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [],
+      "steps": [
+        "frame at 4475 ms",
+        "search at 7887 ms",
+        "sources_fetched at 8507 ms",
+        "selection(14 candidates) at 26311 ms",
+        "draft at 33279 ms",
+        "screening at 40687 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.002593365,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 4.4,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 4433 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00029852
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 34.6,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_failed",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 4842 ms",
+        "search at 8742 ms",
+        "sources_fetched at 9397 ms",
+        "selection(13 candidates) at 25678 ms",
+        "selection_retry(8 candidates) at 34582 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0013292500000000001
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 32.2,
+      "reasons": [
+        "no_summary_after_draft_copied_source"
+      ],
+      "steps": [
+        "frame at 3918 ms",
+        "search at 8753 ms",
+        "sources_fetched at 9595 ms",
+        "selection(15 candidates) at 21661 ms",
+        "draft at 27151 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00209208
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 27.7,
+      "reasons": [
+        "no_summary_after_draft_quotation"
+      ],
+      "steps": [
+        "frame at 5898 ms",
+        "search at 9560 ms",
+        "sources_fetched at 10214 ms",
+        "selection(15 candidates) at 21988 ms",
+        "draft at 23852 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00194654
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 4.8,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 4800 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00035192
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 0.8,
+      "reasons": [],
+      "steps": [
+        "frame at 749 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0003492
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 22,
+      "reasons": [],
+      "steps": [
+        "frame at 3731 ms",
+        "search at 7782 ms",
+        "sources_fetched at 8530 ms",
+        "selection(12 candidates) at 17160 ms",
+        "draft at 19088 ms",
+        "screening at 21201 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00166457,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Der Grund für das Fasten im Ramadan ist, dass die Gläubigen Gott fürchten lernen sollen.",
+            "refs": [
+              "2:183"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Der Grund für das Fasten im Ramadan ist, dass die Gläubigen Gott fürchten lernen sollen.",
+            "source_ids": [
+              "2:183"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/2/183"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Der Grund für das Fasten im Ramadan ist, dass die Gläubigen Gott fürchten lernen sollen.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 27.3,
+      "reasons": [],
+      "steps": [
+        "frame at 3649 ms",
+        "search at 7724 ms",
+        "sources_fetched at 8479 ms",
+        "selection(15 candidates) at 17618 ms",
+        "draft at 23215 ms",
+        "screening at 26165 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.001854865,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Der Grund dafür, dass Muslime in Richtung Mekka beten, ist, dass Gott dem Propheten Muhammad befohlen hat, sich von der Himmelsrichtung abzuwenden und sich der heiligen Moschee zuzuwenden, und dass diese Richtung den Gläubigen gefallen soll.",
+            "refs": [
+              "2:144"
+            ]
+          },
+          {
+            "text": "Allah hat im Koran erklärt, dass die Festlegung der Gebetsrichtung (Qibla) zur heiligen Moschee in Mekka eine Anweisung ist, die auf göttlicher Offenbarung beruht und von denen, die das Buch erhalten haben, als Wahrheit anerkannt wird.",
+            "refs": [
+              "2:144"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Der Grund dafür, dass Muslime in Richtung Mekka beten, ist, dass Gott dem Propheten Muhammad befohlen hat, sich von der Himmelsrichtung abzuwenden und sich der heiligen Moschee zuzuwenden, und dass diese Richtung den Gläubigen gefallen soll.",
+            "source_ids": [
+              "2:144"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Einzelheiten",
+            "sentences": [
+              {
+                "text": "Allah hat im Koran erklärt, dass die Festlegung der Gebetsrichtung (Qibla) zur heiligen Moschee in Mekka eine Anweisung ist, die auf göttlicher Offenbarung beruht und von denen, die das Buch erhalten haben, als Wahrheit anerkannt wird.",
+                "source_ids": [
+                  "2:144"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:144",
+            "arabic": "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ ۗ وَإِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ لَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا يَعْمَلُونَ",
+            "translation": "Wir sehen, wie dein Gesicht sich dem Himmel suchend zukehrt, und Wir werden dich nun zu einer Qibla wenden, mit der du zufrieden sein wirst. So wende dein Gesicht in Richtung der heiligen Moschee, und wo immer ihr auch seid, wendet eure Gesichter in ihre Richtung. Diejenigen, denen das Buch gegeben wurde, wissen bestimmt, daß es die Wahrheit von ihrem Herrn ist. Und Allah ist dessen nicht achtlos, was sie tun.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/2/144"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "NhAO2GDrHVI",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "527- السبب في تكرار الأمر باستقبال القبلة في قوله تعالى: (فول وجهك) - عثمان الخميس",
+            "minutes": 3,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Der Grund dafür, dass Muslime in Richtung Mekka beten, ist, dass Gott dem Propheten Muhammad befohlen hat, sich von der Himmelsrichtung abzuwenden und sich der heiligen Moschee zuzuwenden, und dass diese Richtung den Gläubigen gefallen soll.",
+                "source_ids": [
+                  "Q2:144"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-144",
+              "source_ids": [
+                "Q2:144"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:144",
+                  "key": "2:144",
+                  "arabic": "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ ۗ وَإِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ لَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا يَعْمَلُونَ",
+                  "translation": "Wir sehen, wie dein Gesicht sich dem Himmel suchend zukehrt, und Wir werden dich nun zu einer Qibla wenden, mit der du zufrieden sein wirst. So wende dein Gesicht in Richtung der heiligen Moschee, und wo immer ihr auch seid, wendet eure Gesichter in ihre Richtung. Diejenigen, denen das Buch gegeben wurde, wissen bestimmt, daß es die Wahrheit von ihrem Herrn ist. Und Allah ist dessen nicht achtlos, was sie tun.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/2/144"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "NhAO2GDrHVI",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "527- السبب في تكرار الأمر باستقبال القبلة في قوله تعالى: (فول وجهك) - عثمان الخميس",
+              "minutes": 3,
+              "language": "ar"
+            }
+          ],
+          "more_explanation": [
+            {
+              "heading": "Einzelheiten",
+              "sentences": [
+                {
+                  "text": "Allah hat im Koran erklärt, dass die Festlegung der Gebetsrichtung (Qibla) zur heiligen Moschee in Mekka eine Anweisung ist, die auf göttlicher Offenbarung beruht und von denen, die das Buch erhalten haben, als Wahrheit anerkannt wird.",
+                  "source_ids": [
+                    "Q2:144"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 46.8,
+      "reasons": [
+        "no_summary_after_screening_claim"
+      ],
+      "steps": [
+        "frame at 3994 ms",
+        "search at 5825 ms",
+        "sources_fetched at 6555 ms",
+        "selection(15 candidates) at 26691 ms",
+        "draft at 32471 ms",
+        "screening at 35309 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0026888249999999997
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 3.3,
+      "reasons": [],
+      "steps": [
+        "frame at 3301 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0003508
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 32.1,
+      "reasons": [],
+      "steps": [
+        "frame at 3691 ms",
+        "search at 8116 ms",
+        "sources_fetched at 8813 ms",
+        "selection(15 candidates) at 22125 ms",
+        "draft at 27924 ms",
+        "screening at 30255 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0021324100000000004,
+      "answer": {
+        "language": "ar",
+        "claims": [
+          {
+            "text": "صلاة الجماعة واجبة على المسلم القادر عليها في الحضر والسفر، وقد هم النبي ﷺ أن يحرق بيوت المتخلفين عنها بالنار.",
+            "refs": [
+              "S11da4f53-7d26-3ca1-2c91-f62b9bfe8612"
+            ]
+          },
+          {
+            "text": "من صلى الفرض منفردًا في بيته مع القدرة على الجماعة فقد أبرأ ذمته من الفريضة، لكنه لا يجوز له أن يفعل ذلك مع القدرة على الصلاة في الجماعة.",
+            "refs": [
+              "S11da4f53-7d26-3ca1-2c91-f62b9bfe8612"
+            ]
+          },
+          {
+            "text": "إذا كان لدى الشخص عذر شرعي مثل خوف ضياع مصلحة أو حصول ضرر، فإن واجب الجماعة يسقط عنه بسبب العذر، لكنها تبقى واجبة أصلًا.",
+            "refs": [
+              "Sa9c8322a-5c1a-83e0-d175-fc233993c581"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "صلاة الجماعة واجبة على المسلم القادر عليها في الحضر والسفر، وقد هم النبي ﷺ أن يحرق بيوت المتخلفين عنها بالنار.",
+            "source_ids": [
+              "S11da4f53-7d26-3ca1-2c91-f62b9bfe8612"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "التفصيل",
+            "sentences": [
+              {
+                "text": "من صلى الفرض منفردًا في بيته مع القدرة على الجماعة فقد أبرأ ذمته من الفريضة، لكنه لا يجوز له أن يفعل ذلك مع القدرة على الصلاة في الجماعة.",
+                "source_ids": [
+                  "S11da4f53-7d26-3ca1-2c91-f62b9bfe8612"
+                ]
+              },
+              {
+                "text": "إذا كان لدى الشخص عذر شرعي مثل خوف ضياع مصلحة أو حصول ضرر، فإن واجب الجماعة يسقط عنه بسبب العذر، لكنها تبقى واجبة أصلًا.",
+                "source_ids": [
+                  "Sa9c8322a-5c1a-83e0-d175-fc233993c581"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "scholar",
+            "key": "S11da4f53-7d26-3ca1-2c91-f62b9bfe8612",
+            "scholarId": "ibn-uthaymeen",
+            "scholarName": "محمد بن صالح العثيمين",
+            "title": "إذا صلى في بيته الفرض منفرداً ثم أتى مسجد جماعة فهل يجب عليه أن يصلي معهم ؟",
+            "reference": "فتاوى نور على الدرب (الشريط رقم [125])",
+            "arabic": "إذا صليت وحدك فقد أبرأت ذمتك وسقطت عنك الفريضة، ولكن لا يحل لك أن تصلي وحدك مع قدرتك على الجماعة؛ لأن صلاة الجماعة واجبة حتى إن النبي صلى الله عليه وسلم همَّ أن يحرق المتخلفين عنها بالنار، يحرق عليهم بيوتهم بالنار، ولكن إذا حصل في يوم من الأيام عذر وصليت وحدك ثم ذهبت إلى مسجد الجماعة ووجدتهم يصلون فصلِّ معهم، وليس ذلك بواجب عليك وإنما هو نافلة؛ لقول النبي عليه الصلاة والسلام للرجلين اللذين لما يصليا معه في مسجد الخيف في صلاة الفجر قال لهما صلى الله عليه وسلم: . نعم.",
+            "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B125%5D/%D8%A5%D8%B0%D8%A7-%D8%B5%D9%84%D9%89-%D9%81%D9%8A-%D8%A8%D9%8A%D8%AA%D9%87-%D8%A7%D9%84%D9%81%D8%B1%D8%B6-%D9%85%D9%86%D9%81%D8%B1%D8%AF%D8%A7%D9%8B-%D8%AB%D9%85-%D8%A3%D8%AA%D9%89-%D9%85%D8%B3%D8%AC%D8%AF-%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D9%81%D9%87%D9%84-%D9%8A%D8%AC%D8%A8-%D8%B9%D9%84%D9%8A%D9%87-%D8%A3%D9%86-%D9%8A%D8%B5%D9%84%D9%8A-%D9%85%D8%B9%D9%87%D9%85-%D8%9F/027ac805-f417-47f6-b772-2a174671f70e"
+          },
+          {
+            "kind": "scholar",
+            "key": "Sa9c8322a-5c1a-83e0-d175-fc233993c581",
+            "scholarId": "ibn-uthaymeen",
+            "scholarName": "محمد بن صالح العثيمين",
+            "title": "حكم صلاة الجماعة للمسافر",
+            "reference": "لقاءات الباب المفتوح (لقاء الباب المفتوح [177])",
+            "arabic": "صلاة الجماعة واجبة في الحضر والسفر، على المستوطن والمقيم؛ لعموم الأدلة. ولكن إذا كان هذا الرجل لو ذهب يصلي مع الجماعة فاتت حوائجه وربما يتضرر فهو هنا معذور فله العذر. فلا يقال: إنها لم تجب عليه، بل يقال: وجبت ولكن سقطت للعذر.",
+            "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B177%5D/%D8%AD%D9%83%D9%85-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D9%84%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%B1/05e6bfe3-ccef-49c6-b9ab-9da3a59424d1"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "WsY0ce1F1Lg",
+            "channelId": "UCwMocSKEbLav6SZvwzTvDbQ",
+            "title": "ما حُكمُ صَلاة الجَماعة للمُسافر؟",
+            "minutes": 2,
+            "language": "ar"
+          },
+          {
+            "youtubeId": "6xaysZHvY1g",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "حكم صلاة الجماعة بالنسبة للفرائض والجمعة والعيد - عثمان الخميس",
+            "minutes": 1,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "ar",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "صلاة الجماعة واجبة على المسلم القادر عليها في الحضر والسفر، وقد هم النبي ﷺ أن يحرق بيوت المتخلفين عنها بالنار.",
+                "source_ids": [
+                  "S11da4f53-7d26-3ca1-2c91-f62b9bfe8612"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "S11da4f53-7d26-3ca1-2c91-f62b9bfe8612",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-uthaymeen",
+              "scholar_name": "محمد بن صالح العثيمين",
+              "title": "إذا صلى في بيته الفرض منفرداً ثم أتى مسجد جماعة فهل يجب عليه أن يصلي معهم ؟",
+              "reference": "فتاوى نور على الدرب (الشريط رقم [125])",
+              "arabic": "إذا صليت وحدك فقد أبرأت ذمتك وسقطت عنك الفريضة، ولكن لا يحل لك أن تصلي وحدك مع قدرتك على الجماعة؛ لأن صلاة الجماعة واجبة حتى إن النبي صلى الله عليه وسلم همَّ أن يحرق المتخلفين عنها بالنار، يحرق عليهم بيوتهم بالنار، ولكن إذا حصل في يوم من الأيام عذر وصليت وحدك ثم ذهبت إلى مسجد الجماعة ووجدتهم يصلون فصلِّ معهم، وليس ذلك بواجب عليك وإنما هو نافلة؛ لقول النبي عليه الصلاة والسلام للرجلين اللذين لما يصليا معه في مسجد الخيف في صلاة الفجر قال لهما صلى الله عليه وسلم: . نعم.",
+              "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D8%B4%D8%B1%D9%8A%D8%B7-%D8%B1%D9%82%D9%85-%5B125%5D/%D8%A5%D8%B0%D8%A7-%D8%B5%D9%84%D9%89-%D9%81%D9%8A-%D8%A8%D9%8A%D8%AA%D9%87-%D8%A7%D9%84%D9%81%D8%B1%D8%B6-%D9%85%D9%86%D9%81%D8%B1%D8%AF%D8%A7%D9%8B-%D8%AB%D9%85-%D8%A3%D8%AA%D9%89-%D9%85%D8%B3%D8%AC%D8%AF-%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D9%81%D9%87%D9%84-%D9%8A%D8%AC%D8%A8-%D8%B9%D9%84%D9%8A%D9%87-%D8%A3%D9%86-%D9%8A%D8%B5%D9%84%D9%8A-%D9%85%D8%B9%D9%87%D9%85-%D8%9F/027ac805-f417-47f6-b772-2a174671f70e"
+            },
+            {
+              "id": "Sa9c8322a-5c1a-83e0-d175-fc233993c581",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-uthaymeen",
+              "scholar_name": "محمد بن صالح العثيمين",
+              "title": "حكم صلاة الجماعة للمسافر",
+              "reference": "لقاءات الباب المفتوح (لقاء الباب المفتوح [177])",
+              "arabic": "صلاة الجماعة واجبة في الحضر والسفر، على المستوطن والمقيم؛ لعموم الأدلة. ولكن إذا كان هذا الرجل لو ذهب يصلي مع الجماعة فاتت حوائجه وربما يتضرر فهو هنا معذور فله العذر. فلا يقال: إنها لم تجب عليه، بل يقال: وجبت ولكن سقطت للعذر.",
+              "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-%5B177%5D/%D8%AD%D9%83%D9%85-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9-%D9%84%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%B1/05e6bfe3-ccef-49c6-b9ab-9da3a59424d1"
+            }
+          ],
+          "videos": [
+            {
+              "youtubeId": "WsY0ce1F1Lg",
+              "channelId": "UCwMocSKEbLav6SZvwzTvDbQ",
+              "title": "ما حُكمُ صَلاة الجَماعة للمُسافر؟",
+              "minutes": 2,
+              "language": "ar"
+            },
+            {
+              "youtubeId": "6xaysZHvY1g",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "حكم صلاة الجماعة بالنسبة للفرائض والجمعة والعيد - عثمان الخميس",
+              "minutes": 1,
+              "language": "ar"
+            }
+          ],
+          "more_explanation": [
+            {
+              "heading": "التفصيل",
+              "sentences": [
+                {
+                  "text": "من صلى الفرض منفردًا في بيته مع القدرة على الجماعة فقد أبرأ ذمته من الفريضة، لكنه لا يجوز له أن يفعل ذلك مع القدرة على الصلاة في الجماعة.",
+                  "source_ids": [
+                    "S11da4f53-7d26-3ca1-2c91-f62b9bfe8612"
+                  ],
+                  "requirement_id": "R1"
+                },
+                {
+                  "text": "إذا كان لدى الشخص عذر شرعي مثل خوف ضياع مصلحة أو حصول ضرر، فإن واجب الجماعة يسقط عنه بسبب العذر، لكنها تبقى واجبة أصلًا.",
+                  "source_ids": [
+                    "Sa9c8322a-5c1a-83e0-d175-fc233993c581"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {},
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 6282 ms",
+        "search at 10844 ms",
+        "sources_fetched at 11590 ms",
+        "selection(15 candidates) at 26774 ms",
+        "draft at 44052 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00241929,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 46.7,
+      "reasons": [],
+      "steps": [
+        "frame at 13734 ms",
+        "search at 18501 ms",
+        "sources_fetched at 19229 ms",
+        "selection(12 candidates) at 33826 ms",
+        "draft at 43050 ms",
+        "screening at 46688 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.002176225,
+      "answer": {
+        "language": "ar",
+        "claims": [
+          {
+            "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل الإكراه.",
+            "refs": [
+              "2:256"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل الإكراه.",
+            "source_ids": [
+              "2:256"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:256",
+            "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+            "translation": null,
+            "translationName": null,
+            "url": "https://quran.com/2/256"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "ar",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل الإكراه.",
+                "source_ids": [
+                  "Q2:256"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-256",
+              "source_ids": [
+                "Q2:256"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:256",
+                  "key": "2:256",
+                  "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+                  "translation": null,
+                  "translation_name": null,
+                  "url": "https://quran.com/2/256"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 26.4,
+      "reasons": [
+        "no_summary_after_draft_source_attribution"
+      ],
+      "steps": [
+        "frame at 5682 ms",
+        "search at 9668 ms",
+        "sources_fetched at 10414 ms",
+        "selection(11 candidates) at 18903 ms",
+        "draft at 22361 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00290418
+    }
+  ]
+}

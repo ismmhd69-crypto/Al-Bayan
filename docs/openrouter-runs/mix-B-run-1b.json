@@ -1,0 +1,746 @@
+{
+  "at": "2026-10-03T19:10:27.181Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 6,
+    "answered": 2,
+    "answeredOfExpected": "2/17",
+    "timeoutsOrBusyOrErrors": 14,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 35.8,
+    "p95Seconds": 50,
+    "skips": 0,
+    "skipReasons": [],
+    "retries": 0,
+    "costUsdTotal": 0.01443,
+    "costUsdPerQuestion": 0.00072,
+    "refusalReasons": [
+      "scholar_dropped_by_rules",
+      "scholar_difference_unresolved_known_topic",
+      "personal",
+      "scholar_dropped_by_rules",
+      "no_summary_after_draft_copied_source"
+    ],
+    "modelsUsed": [
+      "openrouter/qwen/qwen3-235b-a22b-2507",
+      "openrouter/qwen/qwen3-32b"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 37.5,
+      "reasons": [],
+      "steps": [
+        "frame at 7156 ms",
+        "search at 11500 ms",
+        "sources_fetched at 12448 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00028446,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.4,
+      "reasons": [],
+      "steps": [
+        "frame at 4845 ms",
+        "search at 7678 ms",
+        "sources_fetched at 8421 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00074575,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 36.5,
+      "reasons": [],
+      "steps": [
+        "frame at 7239 ms",
+        "search at 10774 ms",
+        "sources_fetched at 11483 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026944,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 6193 ms",
+        "search at 8032 ms",
+        "sources_fetched at 8714 ms",
+        "selection(15 candidates) at 30598 ms",
+        "draft at 45751 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00215,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 46.2,
+      "reasons": [],
+      "steps": [
+        "frame at 4879 ms",
+        "search at 10525 ms",
+        "sources_fetched at 11268 ms",
+        "selection(12 candidates) at 33922 ms",
+        "draft at 37795 ms",
+        "screening at 45175 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-32b"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0022595799999999997,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "A husband can divorce his wife twice, and after each divorce he may take her back during the waiting period in a lawful manner.",
+            "refs": [
+              "2:229"
+            ]
+          },
+          {
+            "text": "After the second divorce, if he divorces her again, she is not lawful for him until she marries another man who then divorces her.",
+            "refs": [
+              "2:230"
+            ]
+          },
+          {
+            "text": "It is permissible for the first husband to remarry her only after she has married and been divorced by another man, provided both believe they can uphold God's limits.",
+            "refs": [
+              "2:230"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "A husband can divorce his wife twice, and after each divorce he may take her back during the waiting period in a lawful manner.",
+            "source_ids": [
+              "2:229"
+            ]
+          },
+          {
+            "text": "After the second divorce, if he divorces her again, she is not lawful for him until she marries another man who then divorces her.",
+            "source_ids": [
+              "2:230"
+            ]
+          },
+          {
+            "text": "It is permissible for the first husband to remarry her only after she has married and been divorced by another man, provided both believe they can uphold God's limits.",
+            "source_ids": [
+              "2:230"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:229",
+            "arabic": "ٱلطَّلَـٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَـٰنٍ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+            "translation": "Divorce can happen twice, and [each time] wives either be kept on in an acceptable manner or released in a good way. It is not lawful for you to take back anything that you have given [your wives], except where both fear that they cannot maintain [the marriage] within the bounds set by God: if you [arbiters] suspect that the couple may not be able to do this, then there will be no blame on either of them if the woman opts to give something for her release. These are the bounds set by God: do not overstep them. It is those who overstep God’s bounds who are doing wrong.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/229"
+          },
+          {
+            "kind": "quran",
+            "key": "2:230",
+            "arabic": "فَإِن طَلَّقَهَا فَلَا تَحِلُّ لَهُۥ مِنۢ بَعْدُ حَتَّىٰ تَنكِحَ زَوْجًا غَيْرَهُۥ ۗ فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يَتَرَاجَعَآ إِن ظَنَّآ أَن يُقِيمَا حُدُودَ ٱللَّهِ ۗ وَتِلْكَ حُدُودُ ٱللَّهِ يُبَيِّنُهَا لِقَوْمٍ يَعْلَمُونَ",
+            "translation": "If a husband re-divorces his wife after the second divorce, she will not be lawful for him until she has taken another husband; if that one divorces her, there will be no blame if she and the first husband return to one another, provided they feel that they can keep within the bounds set by God. These are God’s bounds, which He makes clear for those who know.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/230"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "egAGfjPOlow",
+            "channelId": "UCiiJRwQ0MUaQo8ZZuf18pPw",
+            "title": "حكم مراجعة الزوجة بعد قول الزوج طلاق لا رجعة فيه",
+            "minutes": 3,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/qwen/qwen3-32b",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "A husband can divorce his wife twice, and after each divorce he may take her back during the waiting period in a lawful manner.",
+                "source_ids": [
+                  "Q2:229"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "After the second divorce, if he divorces her again, she is not lawful for him until she marries another man who then divorces her.",
+                "source_ids": [
+                  "Q2:230"
+                ],
+                "requirement_id": "R1"
+              },
+              {
+                "text": "It is permissible for the first husband to remarry her only after she has married and been divorced by another man, provided both believe they can uphold God's limits.",
+                "source_ids": [
+                  "Q2:230"
+                ],
+                "requirement_id": "R2"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-229-230",
+              "source_ids": [
+                "Q2:229",
+                "Q2:230"
+              ],
+              "points": [
+                "R1",
+                "R2"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:229",
+                  "key": "2:229",
+                  "arabic": "ٱلطَّلَـٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَـٰنٍ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+                  "translation": "Divorce can happen twice, and [each time] wives either be kept on in an acceptable manner or released in a good way. It is not lawful for you to take back anything that you have given [your wives], except where both fear that they cannot maintain [the marriage] within the bounds set by God: if you [arbiters] suspect that the couple may not be able to do this, then there will be no blame on either of them if the woman opts to give something for her release. These are the bounds set by God: do not overstep them. It is those who overstep God’s bounds who are doing wrong.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/229"
+                },
+                {
+                  "id": "Q2:230",
+                  "key": "2:230",
+                  "arabic": "فَإِن طَلَّقَهَا فَلَا تَحِلُّ لَهُۥ مِنۢ بَعْدُ حَتَّىٰ تَنكِحَ زَوْجًا غَيْرَهُۥ ۗ فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يَتَرَاجَعَآ إِن ظَنَّآ أَن يُقِيمَا حُدُودَ ٱللَّهِ ۗ وَتِلْكَ حُدُودُ ٱللَّهِ يُبَيِّنُهَا لِقَوْمٍ يَعْلَمُونَ",
+                  "translation": "If a husband re-divorces his wife after the second divorce, she will not be lawful for him until she has taken another husband; if that one divorces her, there will be no blame if she and the first husband return to one another, provided they feel that they can keep within the bounds set by God. These are God’s bounds, which He makes clear for those who know.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/230"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "egAGfjPOlow",
+              "channelId": "UCiiJRwQ0MUaQo8ZZuf18pPw",
+              "title": "حكم مراجعة الزوجة بعد قول الزوج طلاق لا رجعة فيه",
+              "minutes": 3,
+              "language": "ar"
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/qwen/qwen3-32b"
+          }
+        }
+      }
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 48.2,
+      "reasons": [],
+      "steps": [
+        "frame at 8152 ms",
+        "search at 12602 ms",
+        "sources_fetched at 13311 ms",
+        "selection(14 candidates) at 35916 ms",
+        "draft at 42736 ms",
+        "screening at 47619 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-32b"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00200051,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "Hijab is obligatory for Muslim women in front of non-mahram men, including covering the face and body, according to Shaykh Abdul-Aziz ibn Baz.",
+            "refs": [
+              "S345198b5-92d0-60f8-74f7-a11352af3583"
+            ]
+          },
+          {
+            "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must wear the hijab and cover herself from non-mahram men even if her family opposes it, because obedience to people is not allowed in disobedience to Allah.",
+            "refs": [
+              "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Hijab is obligatory for Muslim women in front of non-mahram men, including covering the face and body, according to Shaykh Abdul-Aziz ibn Baz.",
+            "source_ids": [
+              "S345198b5-92d0-60f8-74f7-a11352af3583"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Details",
+            "sentences": [
+              {
+                "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must wear the hijab and cover herself from non-mahram men even if her family opposes it, because obedience to people is not allowed in disobedience to Allah.",
+                "source_ids": [
+                  "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "scholar",
+            "key": "S345198b5-92d0-60f8-74f7-a11352af3583",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "حكم حجاب المرأة المسلمة أمام المحارم",
+            "reference": "binbaz.org.sa, fatwa 4291",
+            "arabic": "الشيخ: نعم الواجب على المرأة الحجاب عن بني عمِّها وبني خالها وأبناء عمَّتها وخالتها، ليسوا محارم، فعليها أن تحتجب عنهم: شعرها ووجهها وبدنها؛ لأنَّهم ليسوا محارم، وهي فتنةٌ وعورةٌ، لكن إذا كانوا محارم -كالخال والعمّ- فلا بأس، أما ابن الخال وابن العمّ وابن العمّة وابن الخالة والجيران فليسوا محارم، فالواجب التَّحجب عنهم بغطاء الوجه وستر البدن.",
+            "url": "https://binbaz.org.sa/fatwas/4291/%D8%AD%D9%83%D9%85-%D8%AD%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D9%85"
+          },
+          {
+            "kind": "scholar",
+            "key": "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "حكم طاعة البنت أهلها في عدم ارتداء الحجاب",
+            "reference": "binbaz.org.sa, fatwa 15262",
+            "arabic": "الواجب عليك ارتداء النقاب، والتحجب عن الرجال الأجانب، ولو أبى أهلك في ذلك، ليس لهم طاعة في هذا، يقول النبي ﷺ: إنما الطاعة في المعروف والمعروف هو ما شرعه الله -جل وعلا- وأباحه، ويقول ﷺ: لا طاعة لمخلوق في معصية الخالق. فالواجب عليك التستر، والحجاب عن الأجنبي، كأخي الزوج، أو عمه، وكالجيران الذين ليسوا بمحارم، وغيرهم، كل رجل ليس محرمًا لك؛ عليك التحجب عنه، ولو أبى أهلك ذلك، لا، ليس لك أن تطيعيهم في ذلك.",
+            "url": "https://binbaz.org.sa/fatwas/15262/%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AA-%D8%A3%D9%87%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D8%B9%D8%AF%D9%85-%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%A8"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/qwen/qwen3-32b",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Hijab is obligatory for Muslim women in front of non-mahram men, including covering the face and body, according to Shaykh Abdul-Aziz ibn Baz.",
+                "source_ids": [
+                  "S345198b5-92d0-60f8-74f7-a11352af3583"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "S345198b5-92d0-60f8-74f7-a11352af3583",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "حكم حجاب المرأة المسلمة أمام المحارم",
+              "reference": "binbaz.org.sa, fatwa 4291",
+              "arabic": "الشيخ: نعم الواجب على المرأة الحجاب عن بني عمِّها وبني خالها وأبناء عمَّتها وخالتها، ليسوا محارم، فعليها أن تحتجب عنهم: شعرها ووجهها وبدنها؛ لأنَّهم ليسوا محارم، وهي فتنةٌ وعورةٌ، لكن إذا كانوا محارم -كالخال والعمّ- فلا بأس، أما ابن الخال وابن العمّ وابن العمّة وابن الخالة والجيران فليسوا محارم، فالواجب التَّحجب عنهم بغطاء الوجه وستر البدن.",
+              "url": "https://binbaz.org.sa/fatwas/4291/%D8%AD%D9%83%D9%85-%D8%AD%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D9%85"
+            },
+            {
+              "id": "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "حكم طاعة البنت أهلها في عدم ارتداء الحجاب",
+              "reference": "binbaz.org.sa, fatwa 15262",
+              "arabic": "الواجب عليك ارتداء النقاب، والتحجب عن الرجال الأجانب، ولو أبى أهلك في ذلك، ليس لهم طاعة في هذا، يقول النبي ﷺ: إنما الطاعة في المعروف والمعروف هو ما شرعه الله -جل وعلا- وأباحه، ويقول ﷺ: لا طاعة لمخلوق في معصية الخالق. فالواجب عليك التستر، والحجاب عن الأجنبي، كأخي الزوج، أو عمه، وكالجيران الذين ليسوا بمحارم، وغيرهم، كل رجل ليس محرمًا لك؛ عليك التحجب عنه، ولو أبى أهلك ذلك، لا، ليس لك أن تطيعيهم في ذلك.",
+              "url": "https://binbaz.org.sa/fatwas/15262/%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AA-%D8%A3%D9%87%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D8%B9%D8%AF%D9%85-%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%A8"
+            }
+          ],
+          "videos": [],
+          "more_explanation": [
+            {
+              "heading": "Details",
+              "sentences": [
+                {
+                  "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must wear the hijab and cover herself from non-mahram men even if her family opposes it, because obedience to people is not allowed in disobedience to Allah.",
+                  "source_ids": [
+                    "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {},
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/qwen/qwen3-32b"
+          }
+        }
+      }
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 8.1,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 8135 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00028252
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 37.6,
+      "reasons": [],
+      "steps": [
+        "frame at 7136 ms",
+        "search at 11881 ms",
+        "sources_fetched at 12615 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0002701,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.9,
+      "reasons": [],
+      "steps": [
+        "frame at 5462 ms",
+        "search at 10153 ms",
+        "sources_fetched at 10869 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00028495,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 34.6,
+      "reasons": [],
+      "steps": [
+        "frame at 5415 ms",
+        "search at 8862 ms",
+        "sources_fetched at 9587 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027335,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 7.2,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 7190 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00032792
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "timeout",
+      "seconds": 25,
+      "reasons": [],
+      "steps": [],
+      "answered": [],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 36.2,
+      "reasons": [],
+      "steps": [
+        "frame at 5811 ms",
+        "search at 10517 ms",
+        "sources_fetched at 11224 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00025932,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.9,
+      "reasons": [],
+      "steps": [
+        "frame at 6337 ms",
+        "search at 10280 ms",
+        "sources_fetched at 10938 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026694,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [],
+      "steps": [
+        "frame at 5866 ms",
+        "search at 8070 ms",
+        "sources_fetched at 8827 ms",
+        "selection(13 candidates) at 31696 ms",
+        "draft at 42512 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00177132,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 1.7,
+      "reasons": [],
+      "steps": [
+        "frame at 1709 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0001773
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35,
+      "reasons": [],
+      "steps": [
+        "frame at 5517 ms",
+        "search at 9338 ms",
+        "sources_fetched at 9997 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026106,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.1,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 4176 ms",
+        "search at 7519 ms",
+        "sources_fetched at 8128 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00024144,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.8,
+      "reasons": [],
+      "steps": [
+        "frame at 5777 ms",
+        "search at 10136 ms",
+        "sources_fetched at 10804 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027933,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 30.6,
+      "reasons": [
+        "no_summary_after_draft_copied_source"
+      ],
+      "steps": [
+        "frame at 3601 ms",
+        "search at 6936 ms",
+        "sources_fetched at 7597 ms",
+        "selection(11 candidates) at 23660 ms",
+        "draft at 27137 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00202621
+    }
+  ]
+}

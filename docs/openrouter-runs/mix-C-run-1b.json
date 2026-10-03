@@ -1,0 +1,1113 @@
+{
+  "at": "2026-10-03T19:20:36.328Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 16,
+    "answered": 6,
+    "answeredOfExpected": "6/17",
+    "timeoutsOrBusyOrErrors": 4,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 32.4,
+    "p95Seconds": 50,
+    "skips": 0,
+    "skipReasons": [],
+    "retries": 0,
+    "costUsdTotal": 0.02484,
+    "costUsdPerQuestion": 0.00124,
+    "refusalReasons": [
+      "selection_retry_started_skipped",
+      "selection_retry_timeout",
+      "evidence_insufficient",
+      "evidence_insufficient",
+      "scholar_dropped_by_rules",
+      "no_summary_after_draft_multiple_sentences",
+      "scholar_difference_unresolved_known_topic",
+      "no_summary_after_screening_claim",
+      "no_summary_after_draft_quotation",
+      "personal",
+      "draft_model_no_answer",
+      "scholar_dropped_by_rules"
+    ],
+    "modelsUsed": [
+      "openrouter/qwen/qwen3-235b-a22b-2507",
+      "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 40.1,
+      "reasons": [
+        "selection_retry_started_skipped",
+        "selection_retry_timeout",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 6585 ms",
+        "search at 9899 ms",
+        "sources_fetched at 10631 ms",
+        "selection(12 candidates) at 30086 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.001081375
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 26.5,
+      "reasons": [
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 6603 ms",
+        "search at 9653 ms",
+        "sources_fetched at 10334 ms",
+        "selection(15 candidates) at 26457 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.001096325
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 30.8,
+      "reasons": [],
+      "steps": [
+        "frame at 6239 ms",
+        "search at 9875 ms",
+        "sources_fetched at 10876 ms",
+        "selection(12 candidates) at 23976 ms",
+        "draft at 25879 ms",
+        "screening at 29507 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00128806375,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "The reason for fasting in Ramadan is to become mindful of God.",
+            "refs": [
+              "2:183"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "The reason for fasting in Ramadan is to become mindful of God.",
+            "source_ids": [
+              "2:183"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+            "translationName": "M.A.S. Abdel Haleem",
+            "url": "https://quran.com/2/183"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "The reason for fasting in Ramadan is to become mindful of God.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+                  "translation_name": "M.A.S. Abdel Haleem",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.9,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 6357 ms",
+        "search at 8254 ms",
+        "sources_fetched at 8855 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0004089,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 32.4,
+      "reasons": [
+        "no_summary_after_draft_multiple_sentences"
+      ],
+      "steps": [
+        "frame at 5627 ms",
+        "search at 9451 ms",
+        "sources_fetched at 10025 ms",
+        "selection(13 candidates) at 17897 ms",
+        "draft at 23086 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00257395875
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 45.2,
+      "reasons": [],
+      "steps": [
+        "frame at 6069 ms",
+        "search at 10828 ms",
+        "sources_fetched at 11584 ms",
+        "selection(14 candidates) at 17988 ms",
+        "draft at 24142 ms",
+        "screening at 44418 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.001861525,
+      "answer": {
+        "language": "en",
+        "claims": [
+          {
+            "text": "Hijab is obligatory for Muslim women, and they must not obey their family if they forbid it, because obedience is only in what is right according to Islamic law.",
+            "refs": [
+              "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+            ]
+          },
+          {
+            "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must wear the hijab and veil herself from non-mahram men, even if her family objects, as there is no obedience to creation in disobedience to the Creator.",
+            "refs": [
+              "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+            ]
+          },
+          {
+            "text": "He explained that non-mahram men include cousins and neighbors, and a woman must cover her hair, face, and body from them, as they are potential sources of temptation and she is considered 'awrah before them.",
+            "refs": [
+              "S345198b5-92d0-60f8-74f7-a11352af3583"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Hijab is obligatory for Muslim women, and they must not obey their family if they forbid it, because obedience is only in what is right according to Islamic law.",
+            "source_ids": [
+              "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+            ]
+          }
+        ],
+        "explanation": [
+          {
+            "heading": "Details",
+            "sentences": [
+              {
+                "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must wear the hijab and veil herself from non-mahram men, even if her family objects, as there is no obedience to creation in disobedience to the Creator.",
+                "source_ids": [
+                  "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+                ]
+              },
+              {
+                "text": "He explained that non-mahram men include cousins and neighbors, and a woman must cover her hair, face, and body from them, as they are potential sources of temptation and she is considered 'awrah before them.",
+                "source_ids": [
+                  "S345198b5-92d0-60f8-74f7-a11352af3583"
+                ]
+              }
+            ]
+          }
+        ],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "scholar",
+            "key": "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "حكم طاعة البنت أهلها في عدم ارتداء الحجاب",
+            "reference": "binbaz.org.sa, fatwa 15262",
+            "arabic": "الواجب عليك ارتداء النقاب، والتحجب عن الرجال الأجانب، ولو أبى أهلك في ذلك، ليس لهم طاعة في هذا، يقول النبي ﷺ: إنما الطاعة في المعروف والمعروف هو ما شرعه الله -جل وعلا- وأباحه، ويقول ﷺ: لا طاعة لمخلوق في معصية الخالق. فالواجب عليك التستر، والحجاب عن الأجنبي، كأخي الزوج، أو عمه، وكالجيران الذين ليسوا بمحارم، وغيرهم، كل رجل ليس محرمًا لك؛ عليك التحجب عنه، ولو أبى أهلك ذلك، لا، ليس لك أن تطيعيهم في ذلك.",
+            "url": "https://binbaz.org.sa/fatwas/15262/%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AA-%D8%A3%D9%87%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D8%B9%D8%AF%D9%85-%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%A8"
+          },
+          {
+            "kind": "scholar",
+            "key": "S345198b5-92d0-60f8-74f7-a11352af3583",
+            "scholarId": "ibn-baz",
+            "scholarName": "Shaykh Abdul-Aziz ibn Baz",
+            "title": "حكم حجاب المرأة المسلمة أمام المحارم",
+            "reference": "binbaz.org.sa, fatwa 4291",
+            "arabic": "الشيخ: نعم الواجب على المرأة الحجاب عن بني عمِّها وبني خالها وأبناء عمَّتها وخالتها، ليسوا محارم، فعليها أن تحتجب عنهم: شعرها ووجهها وبدنها؛ لأنَّهم ليسوا محارم، وهي فتنةٌ وعورةٌ، لكن إذا كانوا محارم -كالخال والعمّ- فلا بأس، أما ابن الخال وابن العمّ وابن العمّة وابن الخالة والجيران فليسوا محارم، فالواجب التَّحجب عنهم بغطاء الوجه وستر البدن.",
+            "url": "https://binbaz.org.sa/fatwas/4291/%D8%AD%D9%83%D9%85-%D8%AD%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D9%85"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "en",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Hijab is obligatory for Muslim women, and they must not obey their family if they forbid it, because obedience is only in what is right according to Islamic law.",
+                "source_ids": [
+                  "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [],
+          "hadith": [],
+          "scholars": [
+            {
+              "id": "Sc9420454-68f3-4aed-a23b-931bfc2e64a8",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "حكم طاعة البنت أهلها في عدم ارتداء الحجاب",
+              "reference": "binbaz.org.sa, fatwa 15262",
+              "arabic": "الواجب عليك ارتداء النقاب، والتحجب عن الرجال الأجانب، ولو أبى أهلك في ذلك، ليس لهم طاعة في هذا، يقول النبي ﷺ: إنما الطاعة في المعروف والمعروف هو ما شرعه الله -جل وعلا- وأباحه، ويقول ﷺ: لا طاعة لمخلوق في معصية الخالق. فالواجب عليك التستر، والحجاب عن الأجنبي، كأخي الزوج، أو عمه، وكالجيران الذين ليسوا بمحارم، وغيرهم، كل رجل ليس محرمًا لك؛ عليك التحجب عنه، ولو أبى أهلك ذلك، لا، ليس لك أن تطيعيهم في ذلك.",
+              "url": "https://binbaz.org.sa/fatwas/15262/%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AA-%D8%A3%D9%87%D9%84%D9%87%D8%A7-%D9%81%D9%8A-%D8%B9%D8%AF%D9%85-%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%A8"
+            },
+            {
+              "id": "S345198b5-92d0-60f8-74f7-a11352af3583",
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "scholar_id": "ibn-baz",
+              "scholar_name": "Shaykh Abdul-Aziz ibn Baz",
+              "title": "حكم حجاب المرأة المسلمة أمام المحارم",
+              "reference": "binbaz.org.sa, fatwa 4291",
+              "arabic": "الشيخ: نعم الواجب على المرأة الحجاب عن بني عمِّها وبني خالها وأبناء عمَّتها وخالتها، ليسوا محارم، فعليها أن تحتجب عنهم: شعرها ووجهها وبدنها؛ لأنَّهم ليسوا محارم، وهي فتنةٌ وعورةٌ، لكن إذا كانوا محارم -كالخال والعمّ- فلا بأس، أما ابن الخال وابن العمّ وابن العمّة وابن الخالة والجيران فليسوا محارم، فالواجب التَّحجب عنهم بغطاء الوجه وستر البدن.",
+              "url": "https://binbaz.org.sa/fatwas/4291/%D8%AD%D9%83%D9%85-%D8%AD%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85%D8%A9-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D9%85"
+            }
+          ],
+          "videos": [],
+          "more_explanation": [
+            {
+              "heading": "Details",
+              "sentences": [
+                {
+                  "text": "Shaykh Abdul-Aziz ibn Baz stated that a woman must wear the hijab and veil herself from non-mahram men, even if her family objects, as there is no obedience to creation in disobedience to the Creator.",
+                  "source_ids": [
+                    "Sc9420454-68f3-4aed-a23b-931bfc2e64a8"
+                  ],
+                  "requirement_id": "R1"
+                },
+                {
+                  "text": "He explained that non-mahram men include cousins and neighbors, and a woman must cover her hair, face, and body from them, as they are potential sources of temptation and she is considered 'awrah before them.",
+                  "source_ids": [
+                    "S345198b5-92d0-60f8-74f7-a11352af3583"
+                  ],
+                  "requirement_id": "R1"
+                }
+              ]
+            }
+          ],
+          "attribution": {},
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 7.3,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 7328 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027612
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 41.2,
+      "reasons": [
+        "no_summary_after_screening_claim"
+      ],
+      "steps": [
+        "frame at 7333 ms",
+        "search at 11313 ms",
+        "sources_fetched at 12003 ms",
+        "selection(14 candidates) at 23070 ms",
+        "draft at 26998 ms",
+        "screening at 30429 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00206210125
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 36.4,
+      "reasons": [],
+      "steps": [
+        "frame at 7169 ms",
+        "search at 10770 ms",
+        "sources_fetched at 11387 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00029597,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_summary",
+      "seconds": 23.7,
+      "reasons": [
+        "no_summary_after_draft_quotation"
+      ],
+      "steps": [
+        "frame at 5709 ms",
+        "search at 9219 ms",
+        "sources_fetched at 9892 ms",
+        "selection(15 candidates) at 16410 ms",
+        "draft at 19773 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0017342199999999999
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 14.1,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 14066 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00033272
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 2.2,
+      "reasons": [],
+      "steps": [
+        "frame at 2182 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0002811
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 36,
+      "reasons": [],
+      "steps": [
+        "frame at 6080 ms",
+        "search at 9392 ms",
+        "sources_fetched at 10190 ms",
+        "selection(14 candidates) at 26533 ms",
+        "draft at 29168 ms",
+        "screening at 31946 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0013554724999999999,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Der Grund für das Fasten im Ramadan ist, damit die Menschen gottesfürchtig werden.",
+            "refs": [
+              "2:183"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Der Grund für das Fasten im Ramadan ist, damit die Menschen gottesfürchtig werden.",
+            "source_ids": [
+              "2:183"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/2/183"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Der Grund für das Fasten im Ramadan ist, damit die Menschen gottesfürchtig werden.",
+                "source_ids": [
+                  "Q2:183"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-183",
+              "source_ids": [
+                "Q2:183"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:183",
+                  "key": "2:183",
+                  "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+                  "translation": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/2/183"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [],
+      "steps": [
+        "frame at 11888 ms",
+        "search at 15681 ms",
+        "sources_fetched at 16450 ms",
+        "selection(15 candidates) at 23751 ms",
+        "draft at 30154 ms",
+        "screening at 46606 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00187784125,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 29.4,
+      "reasons": [],
+      "steps": [
+        "frame at 7882 ms",
+        "search at 11015 ms",
+        "sources_fetched at 11816 ms",
+        "selection(11 candidates) at 20708 ms",
+        "draft at 23104 ms",
+        "screening at 25336 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00133625625,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Die Hajj-Pilgerfahrt ist eine Pflicht gegenüber Allah für jeden, der die Mittel und Fähigkeit dazu hat.",
+            "refs": [
+              "3:97"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Die Hajj-Pilgerfahrt ist eine Pflicht gegenüber Allah für jeden, der die Mittel und Fähigkeit dazu hat.",
+            "source_ids": [
+              "3:97"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "3:97",
+            "arabic": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+            "translation": "In ihm sind deutliche Zeichen die Stätte Abrahams. Und wer es betritt, ist sicher. Und der Menschen Pflicht gegenüber Allah ist die Pilgerfahrt zum Hause, wer da den Weg zu ihm machen kann. Wer aber ungläubig ist wahrlich, Allah ist nicht auf die Welten angewiesen.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/3/97"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Die Hajj-Pilgerfahrt ist eine Pflicht gegenüber Allah für jeden, der die Mittel und Fähigkeit dazu hat.",
+                "source_ids": [
+                  "Q3:97"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-3-97",
+              "source_ids": [
+                "Q3:97"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q3:97",
+                  "key": "3:97",
+                  "arabic": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+                  "translation": "In ihm sind deutliche Zeichen die Stätte Abrahams. Und wer es betritt, ist sicher. Und der Menschen Pflicht gegenüber Allah ist die Pilgerfahrt zum Hause, wer da den Weg zu ihm machen kann. Wer aber ungläubig ist wahrlich, Allah ist nicht auf die Welten angewiesen.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/3/97"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 2.4,
+      "reasons": [],
+      "steps": [
+        "frame at 2373 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00039996
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 37.9,
+      "reasons": [
+        "draft_model_no_answer"
+      ],
+      "steps": [
+        "frame at 7290 ms",
+        "search at 10634 ms",
+        "sources_fetched at 11308 ms",
+        "selection(15 candidates) at 35652 ms",
+        "draft at 37922 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.001358385
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 50,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 7058 ms",
+        "search at 11198 ms",
+        "sources_fetched at 12287 ms",
+        "selection(15 candidates) at 23035 ms",
+        "draft at 33851 ms",
+        "screening at 37705 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00181012,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 43.5,
+      "reasons": [],
+      "steps": [
+        "frame at 5144 ms",
+        "search at 8716 ms",
+        "sources_fetched at 9343 ms",
+        "selection(12 candidates) at 29470 ms",
+        "draft at 31876 ms",
+        "screening at 35950 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00204268,
+      "answer": {
+        "language": "ar",
+        "claims": [
+          {
+            "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل بالإكراه.",
+            "refs": [
+              "2:256"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل بالإكراه.",
+            "source_ids": [
+              "2:256"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:256",
+            "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+            "translation": null,
+            "translationName": null,
+            "url": "https://quran.com/2/256"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "ar",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل بالإكراه.",
+                "source_ids": [
+                  "Q2:256"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-256",
+              "source_ids": [
+                "Q2:256"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:256",
+                  "key": "2:256",
+                  "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+                  "translation": null,
+                  "translation_name": null,
+                  "url": "https://quran.com/2/256"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 24.6,
+      "reasons": [],
+      "steps": [
+        "frame at 4971 ms",
+        "search at 8220 ms",
+        "sources_fetched at 8988 ms",
+        "selection(11 candidates) at 17995 ms",
+        "draft at 22449 ms",
+        "screening at 24593 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00136857625,
+      "answer": {
+        "language": "ar",
+        "claims": [
+          {
+            "text": "التَّوْحيد هو عبادة الله وحده لا شريك له، والانقياد له بالطاعة، كما عبَدَه آباؤنا إبراهيم وإسماعيل وإسحاق.",
+            "refs": [
+              "2:133"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "التَّوْحيد هو عبادة الله وحده لا شريك له، والانقياد له بالطاعة، كما عبَدَه آباؤنا إبراهيم وإسماعيل وإسحاق.",
+            "source_ids": [
+              "2:133"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:133",
+            "arabic": "أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنۢ بَعْدِى قَالُوا۟ نَعْبُدُ إِلَـٰهَكَ وَإِلَـٰهَ ءَابَآئِكَ إِبْرَٰهِـۧمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ إِلَـٰهًا وَٰحِدًا وَنَحْنُ لَهُۥ مُسْلِمُونَ",
+            "translation": null,
+            "translationName": null,
+            "url": "https://quran.com/2/133"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+        "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+        "v2": {
+          "version": 2,
+          "language": "ar",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "التَّوْحيد هو عبادة الله وحده لا شريك له، والانقياد له بالطاعة، كما عبَدَه آباؤنا إبراهيم وإسماعيل وإسحاق.",
+                "source_ids": [
+                  "Q2:133"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-133",
+              "source_ids": [
+                "Q2:133"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:133",
+                  "key": "2:133",
+                  "arabic": "أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنۢ بَعْدِى قَالُوا۟ نَعْبُدُ إِلَـٰهَكَ وَإِلَـٰهَ ءَابَآئِكَ إِبْرَٰهِـۧمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ إِلَـٰهًا وَٰحِدًا وَنَحْنُ لَهُۥ مُسْلِمُونَ",
+                  "translation": null,
+                  "translation_name": null,
+                  "url": "https://quran.com/2/133"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507|fallback:openrouter/google/gemini-2.5-flash-lite",
+            "verifier": "openrouter/mistralai/mistral-small-3.2-24b-instruct"
+          }
+        }
+      }
+    }
+  ]
+}

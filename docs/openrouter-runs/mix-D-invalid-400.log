@@ -1,0 +1,46 @@
+writer chain: openrouter:apodex/apodex-1.1-mini:free | checker chain: openrouter:inclusionai/ling-3.0-flash-sante:free
+prayer-en              error           7.4s    skipped:0 retries:0 $0.00000
+zakah-en               error           7.1s    skipped:0 retries:0 $0.00000
+fasting-en             error           6.2s    skipped:0 retries:0 $0.00000
+riba-en                error           6.8s  scholar_dropped_by_rules  skipped:0 retries:0 $0.00000
+divorce-en             error             9s    skipped:0 retries:0 $0.00000
+hijab-en               error           7.4s    skipped:0 retries:0 $0.00000
+music-en               no_source         2s  scholar_difference_unresolved_known_topic  skipped:0 retries:0 $0.00000
+suffering-en           error           6.7s    skipped:0 retries:0 $0.00000
+quran-preserved-en     error           6.6s    skipped:0 retries:0 $0.00000
+intention-hadith-en    no_source       3.7s  question_frame_invalid  skipped:0 retries:0 $0.00000
+personal-en            ask_scholar       3s  personal  skipped:0 retries:0 $0.00000
+offtopic-en            out_of_scope    2.4s    skipped:0 retries:0 $0.00000
+fasting-de             error             7s    skipped:0 retries:0 $0.00000
+qibla-de               error           7.6s    skipped:0 retries:0 $0.00000
+hajj-de                error           5.9s    skipped:0 retries:0 $0.00000
+offtopic-de            out_of_scope    1.4s    skipped:0 retries:0 $0.00000
+jamaah-ar              error             8s    skipped:0 retries:0 $0.00000
+riba-ar                error           8.9s  scholar_dropped_by_rules  skipped:0 retries:0 $0.00000
+compulsion-ar          error           7.9s    skipped:0 retries:0 $0.00000
+tawhid-ar              error           7.4s    skipped:0 retries:0 $0.00000
+{
+  "questions": 20,
+  "correctOrSafeRefusal": 5,
+  "answered": 0,
+  "answeredOfExpected": "0/17",
+  "timeoutsOrBusyOrErrors": 15,
+  "answeredWhenItShouldRefuse": [],
+  "medianSeconds": 6.8,
+  "p95Seconds": 8.9,
+  "skips": 0,
+  "skipReasons": [],
+  "retries": 0,
+  "costUsdTotal": 0,
+  "costUsdPerQuestion": 0,
+  "refusalReasons": [
+    "scholar_dropped_by_rules",
+    "scholar_difference_unresolved_known_topic",
+    "question_frame_invalid",
+    "personal",
+    "scholar_dropped_by_rules"
+  ],
+  "modelsUsed": [
+    "openrouter/apodex/apodex-1.1-mini:free"
+  ]
+}

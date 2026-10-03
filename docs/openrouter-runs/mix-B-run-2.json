@@ -1,0 +1,662 @@
+{
+  "at": "2026-10-03T19:42:03.224Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 8,
+    "answered": 2,
+    "answeredOfExpected": "2/17",
+    "timeoutsOrBusyOrErrors": 12,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 34.8,
+    "p95Seconds": 39.2,
+    "skips": 0,
+    "skipReasons": [],
+    "retries": 0,
+    "costUsdTotal": 0.01175,
+    "costUsdPerQuestion": 0.00059,
+    "refusalReasons": [
+      "scholar_dropped_by_rules",
+      "scholar_difference_unresolved_known_topic",
+      "selection_retry_started_thin",
+      "selection_retry_timeout",
+      "evidence_insufficient",
+      "personal",
+      "scholar_dropped_by_rules",
+      "selection_retry_started_skipped",
+      "selection_retry_timeout",
+      "evidence_insufficient"
+    ],
+    "modelsUsed": [
+      "openrouter/qwen/qwen3-235b-a22b-2507",
+      "openrouter/qwen/qwen3-32b"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.6,
+      "reasons": [],
+      "steps": [
+        "frame at 4460 ms",
+        "search at 7919 ms",
+        "sources_fetched at 8610 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00028156,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 34.8,
+      "reasons": [],
+      "steps": [
+        "frame at 5424 ms",
+        "search at 9082 ms",
+        "sources_fetched at 9771 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0003012,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 34.6,
+      "reasons": [],
+      "steps": [
+        "frame at 5522 ms",
+        "search at 8935 ms",
+        "sources_fetched at 9548 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026224,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 34.9,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 4506 ms",
+        "search at 9105 ms",
+        "sources_fetched at 9877 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0002485,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.2,
+      "reasons": [],
+      "steps": [
+        "frame at 6545 ms",
+        "search at 9589 ms",
+        "sources_fetched at 10170 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00031762,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 36.5,
+      "reasons": [],
+      "steps": [
+        "frame at 5900 ms",
+        "search at 10703 ms",
+        "sources_fetched at 11510 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027772,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 4.7,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 4713 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00028172
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 44.1,
+      "reasons": [
+        "selection_retry_started_thin",
+        "selection_retry_timeout",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 6532 ms",
+        "search at 11216 ms",
+        "sources_fetched at 12017 ms",
+        "selection(11 candidates) at 34119 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00118194
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.9,
+      "reasons": [],
+      "steps": [
+        "frame at 7098 ms",
+        "search at 10274 ms",
+        "sources_fetched at 10889 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00027598,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.1,
+      "reasons": [],
+      "steps": [
+        "frame at 3891 ms",
+        "search at 7305 ms",
+        "sources_fetched at 8107 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00040245,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 5.5,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 5497 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00035112
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 1.9,
+      "reasons": [],
+      "steps": [
+        "frame at 1932 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00017658
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33.5,
+      "reasons": [],
+      "steps": [
+        "frame at 4522 ms",
+        "search at 7789 ms",
+        "sources_fetched at 8488 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00025612,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 35.2,
+      "reasons": [],
+      "steps": [
+        "frame at 4580 ms",
+        "search at 9149 ms",
+        "sources_fetched at 10188 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026934,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 36,
+      "reasons": [],
+      "steps": [
+        "frame at 3661 ms",
+        "search at 7078 ms",
+        "sources_fetched at 8205 ms",
+        "selection(12 candidates) at 29145 ms",
+        "draft at 32087 ms",
+        "screening at 35010 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-32b"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0026400399999999997,
+      "answer": {
+        "language": "de",
+        "claims": [
+          {
+            "text": "Die Hajj-Pilgerfahrt ist eine Pflicht gegenüber Allah für jeden, der die Mittel und Fähigkeit dazu hat.",
+            "refs": [
+              "3:97"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "Die Hajj-Pilgerfahrt ist eine Pflicht gegenüber Allah für jeden, der die Mittel und Fähigkeit dazu hat.",
+            "source_ids": [
+              "3:97"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "3:97",
+            "arabic": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+            "translation": "In ihm sind deutliche Zeichen die Stätte Abrahams. Und wer es betritt, ist sicher. Und der Menschen Pflicht gegenüber Allah ist die Pilgerfahrt zum Hause, wer da den Weg zu ihm machen kann. Wer aber ungläubig ist wahrlich, Allah ist nicht auf die Welten angewiesen.",
+            "translationName": "Abu Reda Muhammad ibn Ahmad",
+            "url": "https://quran.com/3/97"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "videos": [
+          {
+            "youtubeId": "iSU38Zm5irc",
+            "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+            "title": "5559- حكم منع الزوج زوجتَه من الخروج إلى المسجد وإلى حجِّ الفريضة - عثمان الخميس",
+            "minutes": 1,
+            "language": "ar"
+          },
+          {
+            "youtubeId": "CGbwVcbyHqc",
+            "channelId": "UCiiJRwQ0MUaQo8ZZuf18pPw",
+            "title": "ماذا يفعل من يمنعه أبوه من حج الفريضة؟",
+            "minutes": 1,
+            "language": "ar"
+          }
+        ],
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/qwen/qwen3-32b",
+        "v2": {
+          "version": 2,
+          "language": "de",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "Die Hajj-Pilgerfahrt ist eine Pflicht gegenüber Allah für jeden, der die Mittel und Fähigkeit dazu hat.",
+                "source_ids": [
+                  "Q3:97"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-3-97",
+              "source_ids": [
+                "Q3:97"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q3:97",
+                  "key": "3:97",
+                  "arabic": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+                  "translation": "In ihm sind deutliche Zeichen die Stätte Abrahams. Und wer es betritt, ist sicher. Und der Menschen Pflicht gegenüber Allah ist die Pilgerfahrt zum Hause, wer da den Weg zu ihm machen kann. Wer aber ungläubig ist wahrlich, Allah ist nicht auf die Welten angewiesen.",
+                  "translation_name": "Abu Reda Muhammad ibn Ahmad",
+                  "url": "https://quran.com/3/97"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [
+            {
+              "youtubeId": "iSU38Zm5irc",
+              "channelId": "UCWjCSGhmSGu0VLf2mPFS0Kg",
+              "title": "5559- حكم منع الزوج زوجتَه من الخروج إلى المسجد وإلى حجِّ الفريضة - عثمان الخميس",
+              "minutes": 1,
+              "language": "ar"
+            },
+            {
+              "youtubeId": "CGbwVcbyHqc",
+              "channelId": "UCiiJRwQ0MUaQo8ZZuf18pPw",
+              "title": "ماذا يفعل من يمنعه أبوه من حج الفريضة؟",
+              "minutes": 1,
+              "language": "ar"
+            }
+          ],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/qwen/qwen3-32b"
+          }
+        }
+      }
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 1.7,
+      "reasons": [],
+      "steps": [
+        "frame at 1661 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.0001773
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 36.2,
+      "reasons": [],
+      "steps": [
+        "frame at 5956 ms",
+        "search at 10514 ms",
+        "sources_fetched at 11215 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026186,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "timeout",
+      "seconds": 33,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 5760 ms",
+        "search at 7340 ms",
+        "sources_fetched at 7963 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00026304,
+      "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "answer",
+      "seconds": 39.2,
+      "reasons": [],
+      "steps": [
+        "frame at 5766 ms",
+        "search at 10261 ms",
+        "sources_fetched at 10988 ms",
+        "selection(12 candidates) at 33021 ms",
+        "draft at 34689 ms",
+        "screening at 39194 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b",
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00183982,
+      "answer": {
+        "language": "ar",
+        "claims": [
+          {
+            "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل بالإكراه.",
+            "refs": [
+              "2:256"
+            ]
+          }
+        ],
+        "direct_answer": [
+          {
+            "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل بالإكراه.",
+            "source_ids": [
+              "2:256"
+            ]
+          }
+        ],
+        "explanation": [],
+        "not_established": [],
+        "evidence": [
+          {
+            "kind": "quran",
+            "key": "2:256",
+            "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+            "translation": null,
+            "translationName": null,
+            "url": "https://quran.com/2/256"
+          }
+        ],
+        "attribution": {
+          "text": "Quran data provided by Quran Foundation",
+          "url": "https://quran.foundation"
+        },
+        "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+        "verifier": "openrouter/qwen/qwen3-32b",
+        "v2": {
+          "version": 2,
+          "language": "ar",
+          "origin": "live",
+          "review": "automatic",
+          "simple_answer": {
+            "sentences": [
+              {
+                "text": "لا يجوز إجبار أحد على الدخول في الإسلام، لأن الدين لا يقبل بالإكراه.",
+                "source_ids": [
+                  "Q2:256"
+                ],
+                "requirement_id": "R1"
+              }
+            ]
+          },
+          "quran": [
+            {
+              "id": "quran-2-256",
+              "source_ids": [
+                "Q2:256"
+              ],
+              "points": [
+                "R1"
+              ],
+              "cited": true,
+              "verses": [
+                {
+                  "id": "Q2:256",
+                  "key": "2:256",
+                  "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+                  "translation": null,
+                  "translation_name": null,
+                  "url": "https://quran.com/2/256"
+                }
+              ]
+            }
+          ],
+          "hadith": [],
+          "scholars": [],
+          "videos": [],
+          "attribution": {
+            "quran": {
+              "text": "Quran data provided by Quran Foundation",
+              "url": "https://quran.foundation"
+            }
+          },
+          "provenance": {
+            "model": "openrouter/qwen/qwen3-235b-a22b-2507",
+            "verifier": "openrouter/qwen/qwen3-32b"
+          }
+        }
+      }
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 35.6,
+      "reasons": [
+        "selection_retry_started_skipped",
+        "selection_retry_timeout",
+        "evidence_insufficient"
+      ],
+      "steps": [
+        "frame at 4475 ms",
+        "search at 7693 ms",
+        "sources_fetched at 8756 ms",
+        "selection(11 candidates) at 25625 ms"
+      ],
+      "answered": [
+        "openrouter/qwen/qwen3-235b-a22b-2507",
+        "openrouter/qwen/qwen3-32b"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0.00168064
+    }
+  ]
+}

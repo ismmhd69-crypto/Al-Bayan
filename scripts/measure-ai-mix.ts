@@ -42,7 +42,7 @@ const QUESTIONS: { id: string; lang: "en" | "de" | "ar"; question: string; expec
 
 type Row = {
   id: string; lang: string; expect: Expect; outcome: string; seconds: number;
-  reasons: string[]; steps: string[]; answered: string[]; skipped: string[]; retries: number; error?: string;
+  reasons: string[]; steps: string[]; answered: string[]; skipped: string[]; retries: number; costUsd: number; answer?: unknown; error?: string;
 };
 
 function percentile(values: number[], p: number): number {
@@ -60,8 +60,12 @@ async function main() {
   const questions = QUESTIONS.filter((q) => !only || q.id.includes(only)).slice(0, limit);
   console.log(`writer chain: ${process.env.AI_MODELS ?? "(default)"} | checker chain: ${process.env.AI_VERIFIER_MODELS ?? "(default)"}`);
   const rows: Row[] = [];
+  // Stop early when the real spend reaches the cap (OPENROUTER_STOP_USD, default 0.80).
+  const stopAt = Number(process.env.OPENROUTER_STOP_USD) || 0.8;
+  let spent = 0;
   for (const q of questions) {
-    const row: Row = { id: q.id, lang: q.lang, expect: q.expect, outcome: "", seconds: 0, reasons: [], steps: [], answered: [], skipped: [], retries: 0 };
+    if (spent >= stopAt) { console.log(`STOPPED: spend reached $${spent.toFixed(4)}`); break; }
+    const row: Row = { id: q.id, lang: q.lang, expect: q.expect, outcome: "", seconds: 0, reasons: [], steps: [], answered: [], skipped: [], retries: 0, costUsd: 0 };
     const info = console.info;
     console.info = (msg: unknown) => {
       const m = String(msg);
@@ -70,6 +74,7 @@ async function main() {
       else if ((x = m.match(/^ask step: (.+)$/))) row.steps.push(x[1]);
       else if ((x = m.match(/^ai answered: (.+)$/))) row.answered.push(x[1]);
       else if ((x = m.match(/^ai skipped: (.+)$/))) row.skipped.push(x[1]);
+      else if ((x = m.match(/^ai cost: \S+ ([0-9.e-]+)$/))) row.costUsd += Number(x[1]);
       else if (/busy \(\d+\), retrying once/.test(m)) row.retries += 1;
     };
     const started = Date.now();
@@ -77,6 +82,7 @@ async function main() {
       // The trace argument skips prepared answers, so every question goes through the live pipeline.
       const result = await ask(q.question, q.lang, {});
       row.outcome = result.status;
+      if (result.status === "answer") row.answer = result.answer;
     } catch (err) {
       const name = err instanceof Error ? err.name : "Error";
       row.outcome = name === "TimeoutError" ? "timeout" : err instanceof GoogleBusyError ? "busy" : "error";
@@ -86,7 +92,8 @@ async function main() {
     }
     row.seconds = Math.round((Date.now() - started) / 100) / 10;
     rows.push(row);
-    console.log(`${q.id.padEnd(22)} ${row.outcome.padEnd(13)} ${String(row.seconds).padStart(5)}s  ${row.reasons.join(",")}  skipped:${row.skipped.length} retries:${row.retries}`);
+    spent += row.costUsd;
+    console.log(`${q.id.padEnd(22)} ${row.outcome.padEnd(13)} ${String(row.seconds).padStart(5)}s  ${row.reasons.join(",")}  skipped:${row.skipped.length} retries:${row.retries} $${row.costUsd.toFixed(5)}`);
   }
 
   const failed = (r: Row) => ["timeout", "busy", "error"].includes(r.outcome);
@@ -105,6 +112,9 @@ async function main() {
     skips: rows.reduce((n, r) => n + r.skipped.length, 0),
     skipReasons: rows.flatMap((r) => r.skipped.map((s) => s.replace(/^.*\((.*)\).*$/, "$1"))),
     retries: rows.reduce((n, r) => n + r.retries, 0),
+    costUsdTotal: Number(spent.toFixed(5)),
+    costUsdPerQuestion: rows.length ? Number((spent / rows.length).toFixed(5)) : 0,
+    refusalReasons: rows.flatMap((r) => r.reasons),
     modelsUsed: [...new Set(rows.flatMap((r) => r.answered))],
   };
   console.log(JSON.stringify(summary, null, 2));

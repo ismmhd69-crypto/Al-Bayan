@@ -1,0 +1,429 @@
+{
+  "at": "2026-10-03T20:20:37.605Z",
+  "summary": {
+    "questions": 20,
+    "correctOrSafeRefusal": 5,
+    "answered": 0,
+    "answeredOfExpected": "0/17",
+    "timeoutsOrBusyOrErrors": 15,
+    "answeredWhenItShouldRefuse": [],
+    "medianSeconds": 6.8,
+    "p95Seconds": 8.9,
+    "skips": 0,
+    "skipReasons": [],
+    "retries": 0,
+    "costUsdTotal": 0,
+    "costUsdPerQuestion": 0,
+    "refusalReasons": [
+      "scholar_dropped_by_rules",
+      "scholar_difference_unresolved_known_topic",
+      "question_frame_invalid",
+      "personal",
+      "scholar_dropped_by_rules"
+    ],
+    "modelsUsed": [
+      "openrouter/apodex/apodex-1.1-mini:free"
+    ]
+  },
+  "rows": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 7.4,
+      "reasons": [],
+      "steps": [
+        "frame at 2412 ms",
+        "search at 6246 ms",
+        "sources_fetched at 6957 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 7.1,
+      "reasons": [],
+      "steps": [
+        "frame at 1654 ms",
+        "search at 5657 ms",
+        "sources_fetched at 6428 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 6.2,
+      "reasons": [],
+      "steps": [
+        "frame at 1769 ms",
+        "search at 5048 ms",
+        "sources_fetched at 5808 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 6.8,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 1846 ms",
+        "search at 5568 ms",
+        "sources_fetched at 6352 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 9,
+      "reasons": [],
+      "steps": [
+        "frame at 3487 ms",
+        "search at 7414 ms",
+        "sources_fetched at 8055 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 7.4,
+      "reasons": [],
+      "steps": [
+        "frame at 2131 ms",
+        "search at 6257 ms",
+        "sources_fetched at 7019 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 2,
+      "reasons": [
+        "scholar_difference_unresolved_known_topic"
+      ],
+      "steps": [
+        "frame at 1970 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 6.7,
+      "reasons": [],
+      "steps": [
+        "frame at 1636 ms",
+        "search at 5282 ms",
+        "sources_fetched at 6149 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 6.6,
+      "reasons": [],
+      "steps": [
+        "frame at 2581 ms",
+        "search at 5329 ms",
+        "sources_fetched at 6194 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "expect": "answer",
+      "outcome": "no_source",
+      "seconds": 3.7,
+      "reasons": [
+        "question_frame_invalid"
+      ],
+      "steps": [
+        "frame at 3657 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "ask_scholar",
+      "seconds": 3,
+      "reasons": [
+        "personal"
+      ],
+      "steps": [
+        "frame at 3028 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 2.4,
+      "reasons": [],
+      "steps": [
+        "frame at 2420 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 7,
+      "reasons": [],
+      "steps": [
+        "frame at 1512 ms",
+        "search at 5730 ms",
+        "sources_fetched at 6427 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 7.6,
+      "reasons": [],
+      "steps": [
+        "frame at 2908 ms",
+        "search at 6578 ms",
+        "sources_fetched at 7261 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 5.9,
+      "reasons": [],
+      "steps": [
+        "frame at 1617 ms",
+        "search at 4881 ms",
+        "sources_fetched at 5562 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "expect": "refuse",
+      "outcome": "out_of_scope",
+      "seconds": 1.4,
+      "reasons": [],
+      "steps": [
+        "frame at 1374 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 8,
+      "reasons": [],
+      "steps": [
+        "frame at 3910 ms",
+        "search at 6889 ms",
+        "sources_fetched at 7614 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 8.9,
+      "reasons": [
+        "scholar_dropped_by_rules"
+      ],
+      "steps": [
+        "frame at 3404 ms",
+        "search at 7390 ms",
+        "sources_fetched at 8020 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 7.9,
+      "reasons": [],
+      "steps": [
+        "frame at 1883 ms",
+        "search at 6626 ms",
+        "sources_fetched at 7570 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "expect": "answer",
+      "outcome": "error",
+      "seconds": 7.4,
+      "reasons": [],
+      "steps": [
+        "frame at 2846 ms",
+        "search at 6134 ms",
+        "sources_fetched at 6996 ms"
+      ],
+      "answered": [
+        "openrouter/apodex/apodex-1.1-mini:free"
+      ],
+      "skipped": [],
+      "retries": 0,
+      "costUsd": 0,
+      "error": "Error: openrouter request failed with status 400"
+    }
+  ]
+}
