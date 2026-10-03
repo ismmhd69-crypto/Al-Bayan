@@ -24,6 +24,11 @@ Check after batch 30 (10 random rows, Bukhari 1025, 1128, 1132, 1145, 1207, 1246
 - Bukhari 1132: "الصارخ" is rendered "the crier" (many scholars say it means the rooster).
 - Bukhari 1501: "سمر أعينهم" rendered "had their eyes seared" (German "ausbrennen"); the exact method is described differently in different reports.
 
+Check after batch 40 (10 random rows, Bukhari 1232, 1262, 1265, 1266, 1268, 1277, 1278, 1300, 1321, 1425): no meaning errors. Notes for Mo (no updates made):
+- Bukhari 1983: the Arabic "سرر" (sirar) of the month is kept as the transliteration "sirar" (English) and "Sirar" (German) without a gloss, because scholars differ on whether it means the last days or the middle of the month.
+- Bukhari 1982: the Arabic "بضع وعشرون ومائة" is rendered "a hundred and some twenty" (German "einhundert und einige zwanzig"), which is awkward; it means a little over a hundred and twenty.
+- Bukhari 1935 and 1936: "احترق" / "هلكت" are rendered "I am burned" / "I am ruined"; the euphemism "أصبت أهلي / وقعت على امرأتي" is rendered plainly as "had relations with my wife" (German "Verkehr mit meiner Frau").
+
 ## Batch history
 
 | Batch | Collection and range | Hadith items | Rows inserted | Skipped | Total claude rows |
@@ -58,3 +63,13 @@ Check after batch 30 (10 random rows, Bukhari 1025, 1128, 1132, 1145, 1207, 1246
 | 28 | Bukhari 1639 to 1658 | 18 | 36 | 0 | 1222 |
 | 29 | Bukhari 1659 to 1685 | 26 | 52 | 0 | 1274 |
 | 30 | Bukhari 1686 to 1716 | 29 | 58 | 0 | 1332 |
+| 31 | Bukhari 1717 to 1742 | 26 | 52 | 0 | 1384 |
+| 32 | Bukhari 1743 to 1773 | 26 | 52 | 0 | 1436 |
+| 33 | Bukhari 1774 to 1795 | 19 | 38 | 0 | 1474 |
+| 34 | Bukhari 1796 to 1822 | 27 | 54 | 0 | 1528 |
+| 35 | Bukhari 1823 to 1846 | 24 | 48 | 0 | 1576 |
+| 36 | Bukhari 1847 to 1876 | 30 | 60 | 0 | 1636 |
+| 37 | Bukhari 1877 to 1903 | 27 | 54 | 0 | 1690 |
+| 38 | Bukhari 1904 to 1934 | 28 | 56 | 0 | 1746 |
+| 39 | Bukhari 1935 to 1963 | 29 | 58 | 0 | 1804 |
+| 40 | Bukhari 1964 to 1985 | 22 | 44 | 0 | 1848 |
