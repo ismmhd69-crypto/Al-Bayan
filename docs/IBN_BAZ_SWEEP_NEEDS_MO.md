@@ -2,6 +2,12 @@
 
 These items were not stored because the collection decision was uncertain.
 
+## Batch 0098 held references
+
+Full titles and canonical links are preserved in `docs/binbaz-sweep-candidates/batch-0098.json`:
+
+20570, 20585, 20587, 20588, 20609, 20610, 20620, 20621, 20622, 20644, 20657. These were held for sensitive warfare, apostasy, marriage, sexual, family, media, gender, or criminal-enforcement content.
+
 ## Batch 0097 held references
 
 Full titles and canonical links are preserved in `docs/binbaz-sweep-candidates/batch-0097.json`:
