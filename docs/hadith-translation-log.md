@@ -2301,3 +2301,5 @@ Codex batch 306 inserted 36 rows for Sahih Muslim 927b to 939b. The database cou
 Codex batches 872 and 873 completed six Sahih Muslim records: 939c, 939d, 939e, 939f, 939g, and 939h. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
 Codex batches 874 and 875 completed six Sahih Muslim records: 939i, 940a, 940b, 941a, 941b, and 941c. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
+
+Codex batches 876 and 877 completed six Sahih Muslim records: 941d, 942a, 942b, 943, 944a, and 944b. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
