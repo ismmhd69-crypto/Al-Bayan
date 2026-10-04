@@ -20,6 +20,7 @@ import { PREPARED_ANSWERS } from "@/data/prepared-answers";
 import { PREPARED_IDS_AWAITING_VIEW_DECISION } from "@/data/view-decisions";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import { diagnosticLogger } from "./diagnostics";
+import { currentAskRequestId, currentAskStarted, observedProvider, errorCategory } from "./trace-context";
 
 // HADITH_SOURCE=library: stored Sahih al-Bukhari / Sahih Muslim hadith. =hadeethenc: the old live path.
 // Anything else: hadith off. Never both.
@@ -67,7 +68,7 @@ export type { Answer, AskResult, Evidence } from "./core";
 // A prepared answer approved by Mo is shown when the visitor asks the same question: first a clear word
 // match with a stored wording, then the checker model must confirm it is the same question. Any doubt,
 // error or personal question falls through to the normal live pipeline.
-export async function askPreparedOnly(question: string): Promise<AskResult | null> {
+export async function askPreparedOnly(question: string, observe?: (provider: ReturnType<typeof getVerifier>) => ReturnType<typeof getVerifier>): Promise<AskResult | null> {
   if (process.env.PREPARED_PUBLISHING_ENABLED !== "true" || process.env.PREPARED_ANSWERS === "off") return null;
   const answer = await approvedForQuestion(question, {
     common: PREPARED_ANSWERS, topics: TOPIC_ANSWERS,
@@ -76,69 +77,96 @@ export async function askPreparedOnly(question: string): Promise<AskResult | nul
     getReviews: getReviewDecisions,
     getTopicQuestions: async () => (await Promise.all((["ar", "en", "de"] as const).map(async (language) =>
       (await getTopics(language)).map((topic) => ({ id: topic.id, language, question: topic.question }))))).flat(),
-    verifier: getVerifier, load: loadPrepared,
+    verifier: () => observe ? observe(getVerifier()) : getVerifier(), load: loadPrepared,
   });
   return answer ? { status: "answer", answer } : null;
 }
 
 export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection" | "onCoverage">, previousUserMessages: string[] = []): Promise<AskResult> {
-  const requestStarted = Date.now();
-  // Evaluation traces measure the live pipeline, so they skip prepared answers.
-  const libraryFlow = askLibraryFlow();
-  const prepared = trace || (libraryFlow && previousUserMessages.length) ? null : await askPreparedOnly(question);
-  if (prepared) return prepared;
-  const writer = getProvider();
-  const verifier = getVerifier();
-  const claimAudit = askClaimAudit();
-  const tiered = askTiered();
-  const onDiagnostic = diagnosticLogger(process.env.ASK_DEBUG === "true", {
-    requestId: randomUUID(), revision: process.env.VERCEL_GIT_COMMIT_SHA,
-    writerChain: writer.id, verifierChain: verifier.id,
+  const requestStarted = currentAskStarted() ?? Date.now();
+  const debug = process.env.ASK_DEBUG === "true";
+  const libraryFlow = askLibraryFlow(), claimAudit = askClaimAudit(), tiered = askTiered();
+  const requestId = currentAskRequestId() ?? randomUUID();
+  const context = {
+    requestId, revision: process.env.VERCEL_GIT_COMMIT_SHA,
+    writerChain: "unknown", verifierChain: "unknown",
     claimAudit, tiered, lean: process.env.ASK_LEAN === "true", libraryFlow,
-  }, (line) => console.info(line));
+  };
+  let onDiagnostic = diagnosticLogger(debug, context, (line) => console.info(line));
+  let calls = 0;
+  const observe = (provider: ReturnType<typeof getProvider>, role: "writer" | "checker") => debug
+    ? observedProvider(provider, role, onDiagnostic, requestStarted, () => `A${++calls}`) : provider;
+  const skipPrepared = !!trace || !!(libraryFlow && previousUserMessages.length);
+  onDiagnostic("prepared", "reuse_started", Date.now() - requestStarted, { skipped: skipPrepared, prepared_enabled: process.env.PREPARED_PUBLISHING_ENABLED === "true" && process.env.PREPARED_ANSWERS !== "off", approved_topics_enabled: process.env.ASK_APPROVED_TOPICS !== "false" });
+  const prepared = skipPrepared ? null : await askPreparedOnly(question, (provider) => observe(provider, "checker"));
+  onDiagnostic("prepared", "reuse_finished", Date.now() - requestStarted, { outcome: skipPrepared ? "skipped" : prepared ? "matched" : "miss" });
+  if (prepared) {
+    onDiagnostic("answer", "approved_answer_ready", Date.now() - requestStarted, { status: "answer" });
+    return prepared;
+  }
+  const writer = getProvider(), verifier = getVerifier();
+  onDiagnostic = diagnosticLogger(debug, { ...context, writerChain: writer.id, verifierChain: verifier.id }, (line) => console.info(line));
+  onDiagnostic("request", "runtime_configuration", Date.now() - requestStarted, { scholar_enabled: SCHOLARS_ON, live_scholar_enabled: LIVE_ON && SCHOLARS_ON, videos_enabled: VIDEOS_ON, deadline_ms: askDeadlineMs() });
   onDiagnostic("retrieval", `hadith_mode_${HADITH_MODE}`, Date.now() - requestStarted);
   if (!SCHOLARS_ON) onDiagnostic("retrieval", process.env.SCHOLAR_QUOTES === "off"
     ? "scholar_disabled" : "scholar_server_configuration_missing", Date.now() - requestStarted);
-  return runPipeline(question, uiLanguage, {
-    ...trace,
-    writer,
-    verifier,
-    deadlineMs: askDeadlineMs(),
-    claimAudit,
-    libraryFlow,
-    previousUserMessages,
-    ...(process.env.ASK_LEAN === "true" ? { candidateLimits: { ...LEAN_CANDIDATE_LIMITS } } : {}),
-    // ASK_TIERED=true: Quran, then hadith, then fatwas, then videos (read per question so it can be switched).
-    ...(tiered ? { tiered: { videoBudgetMs: askVideoBudgetMs(), maxVideos: askMaxVideos() } } : {}),
-    search: searchQuran,
-    getVerse,
-    neighbours,
-    // Hadith from Sahih al-Bukhari / Sahih Muslim via HadeethEnc (permission requested 2026-09-28).
-    // Off unless HADITH_SOURCE=hadeethenc, so it can be switched off instantly.
-    ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8), getHadith } : {}),
-    // Stored hadith from our own library (Sunnah.com text). Needs the server's secret key.
-    ...(HADITH_MODE === "library" ? { searchHadith: (queries) => searchLibraryHadith(queries, {
-      onAudit: (audit) => {
-        if (audit.configurationMissing) onDiagnostic("retrieval", "hadith_server_configuration_missing", Date.now() - requestStarted);
-        for (const [name, count] of Object.entries(audit)) if (typeof count === "number" && count > 0)
-          onDiagnostic("retrieval", `hadith_${name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`)}_${count}`, Date.now() - requestStarted);
-      },
-    }), getHadith: getLibraryHadith } : {}),
-    // Short quotes of approved scholars from our private library (rights: short quotes, permission pending).
-    ...(SCHOLARS_ON ? { searchScholars: (phrases: string[], mappedUrls?: string[]) => scholarQuotes(phrases, mappedUrls, {
-      allVariants: libraryFlow,
-      onAudit: (audit) => {
-        if (audit.configurationMissing) onDiagnostic("retrieval", "scholar_server_configuration_missing", Date.now() - requestStarted);
-        for (const [name, count] of Object.entries(audit)) if (typeof count === "number" && count > 0)
-          onDiagnostic("retrieval", `scholar_${name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`)}_${count}`, Date.now() - requestStarted);
-      },
-    }) } : {}),
-    ...(libraryFlow && LIVE_ON && SCHOLARS_ON ? { searchScholarsLive } : {}),
-    // Related clips from the approved YouTube channels, shown under the answer (never evidence).
-    ...(VIDEOS_ON ? { searchVideos: (phrases) => searchVideos(phrases) } : {}),
-    // Reason codes only, never the question. Local testing only.
-    onRefuse: process.env.ASK_DEBUG === "true" ? (reason) => console.info(`ask refused: ${reason}`) : undefined,
-    onStep: process.env.ASK_DEBUG === "true" ? (name, ms) => console.info(`ask step: ${name} at ${ms} ms`) : undefined,
-    onDiagnostic,
-  });
+  try {
+    const result = await runPipeline(question, uiLanguage, {
+      ...trace,
+      writer: observe(writer, "writer"),
+      verifier: observe(verifier, "checker"),
+      deadlineMs: askDeadlineMs(),
+      claimAudit,
+      libraryFlow,
+      previousUserMessages,
+      ...(process.env.ASK_LEAN === "true" ? { candidateLimits: { ...LEAN_CANDIDATE_LIMITS } } : {}),
+      // ASK_TIERED=true: Quran, then hadith, then fatwas, then videos (read per question so it can be switched).
+      ...(tiered ? { tiered: { videoBudgetMs: askVideoBudgetMs(), maxVideos: askMaxVideos() } } : {}),
+      search: searchQuran,
+      getVerse,
+      neighbours,
+      // Hadith from Sahih al-Bukhari / Sahih Muslim via HadeethEnc (permission requested 2026-09-28).
+      // Off unless HADITH_SOURCE=hadeethenc, so it can be switched off instantly.
+      ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8), getHadith } : {}),
+      // Stored hadith from our own library (Sunnah.com text). Needs the server's secret key.
+      ...(HADITH_MODE === "library" ? { searchHadith: (queries) => searchLibraryHadith(queries, {
+        onAudit: (audit) => {
+          onDiagnostic("retrieval", "library_filter_totals", Date.now() - requestStarted, {
+            kind: audit.group, query_count: audit.queries, configuration_missing: audit.configurationMissing,
+            filters: Object.fromEntries(Object.entries(audit).filter(([, count]) => typeof count === "number")
+              .map(([name, count]) => [name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`), count])),
+          });
+          if (audit.configurationMissing) onDiagnostic("retrieval", "hadith_server_configuration_missing", Date.now() - requestStarted);
+          for (const [name, count] of Object.entries(audit)) if (typeof count === "number" && count > 0)
+            onDiagnostic("retrieval", `hadith_${name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`)}_${count}`, Date.now() - requestStarted);
+        },
+      }), getHadith: getLibraryHadith } : {}),
+      // Short quotes of approved scholars from our private library (rights: short quotes, permission pending).
+      ...(SCHOLARS_ON ? { searchScholars: (phrases: string[], mappedUrls?: string[]) => scholarQuotes(phrases, mappedUrls, {
+        allVariants: libraryFlow,
+        onAudit: (audit) => {
+          onDiagnostic("retrieval", "library_filter_totals", Date.now() - requestStarted, {
+            kind: audit.group, query_count: audit.queries, configuration_missing: audit.configurationMissing,
+            filters: Object.fromEntries(Object.entries(audit).filter(([, count]) => typeof count === "number")
+              .map(([name, count]) => [name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`), count])),
+          });
+          if (audit.configurationMissing) onDiagnostic("retrieval", "scholar_server_configuration_missing", Date.now() - requestStarted);
+          for (const [name, count] of Object.entries(audit)) if (typeof count === "number" && count > 0)
+            onDiagnostic("retrieval", `scholar_${name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`)}_${count}`, Date.now() - requestStarted);
+        },
+      }) } : {}),
+      ...(libraryFlow && LIVE_ON && SCHOLARS_ON ? { searchScholarsLive } : {}),
+      // Related clips from the approved YouTube channels, shown under the answer (never evidence).
+      ...(VIDEOS_ON ? { searchVideos: (phrases) => searchVideos(phrases) } : {}),
+      // Reason codes only, never the question. Local testing only.
+      onRefuse: debug ? (reason) => { console.info(`ask refused: ${reason}`); onDiagnostic("answer", `refused_${reason}`, Date.now() - requestStarted); } : undefined,
+      onStep: debug ? (name, ms) => { console.info(`ask step: ${name} at ${ms} ms`); onDiagnostic("request", `step_${name.replace(/[^a-z0-9_]/g, "_")}`, Date.now() - requestStarted); } : undefined,
+      onDiagnostic: debug ? (stage, code, _ms, details) => onDiagnostic(stage, code, Date.now() - requestStarted, details) : undefined,
+    });
+    onDiagnostic("answer", "live_process_finished", Date.now() - requestStarted, { status: result.status, duration_ms: Date.now() - requestStarted });
+    return result;
+  } catch (error) {
+    onDiagnostic("answer", "live_process_failed", Date.now() - requestStarted, { outcome: errorCategory(error) });
+    throw error;
+  }
 }

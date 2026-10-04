@@ -16,6 +16,8 @@
 import type { Locale } from "@/lib/i18n";
 import type { AIProvider, JsonRequest, JsonSchema } from "@/lib/ai/types";
 import { optionalWithin } from "./optional";
+import type { Diagnostic, DiagnosticStage } from "./diagnostics";
+import { frameSummary, sourceSummary, selectionSummary, draftSummary, screeningSummary } from "./trace-summary";
 import { parseUserHistory, safeClarificationChoices } from "./conversation";
 import { LIBRARY_PLAN_RULES, POINT_PLAN_PROPERTIES, pointSearchPlans, interleaveUnique, explicitPointMismatch } from "./library-flow";
 import { screeningSystem, claimAuditSchema } from "./claim-audit";
@@ -173,7 +175,7 @@ export type PipelineDeps = {
   selectionRetryTimeoutMs?: number; // test override; production default stays short and bounded
   onRefuse?: (reason: string) => void; // reason codes only, never the question
   onStep?: (step: string, elapsedMs: number) => void; // step names and timings only, for local debugging
-  onDiagnostic?: (stage: "selection" | "selection_retry" | "screening" | "screening_retry" | "retrieval" | "draft", code: string, elapsedMs: number) => void;
+  onDiagnostic?: Diagnostic;
   onCoverage?: (stage: "retrieved" | "candidate" | "selected" | "writer", counts: Record<string, number>) => void;
   searchScholarsLive?: (arabicPhrases: string[]) => Promise<ScholarQuote[]>;
   onFrame?: (frame: QuestionFrame) => void; // local evaluation only; never logs visitor text
@@ -632,9 +634,14 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // models. The route allows 60 s, so the answer still returns before the server gives up.
   const signal = AbortSignal.timeout(deps.deadlineMs ?? 50_000);
   const started = Date.now();
+  const detail = (stage: DiagnosticStage, code: string, value: () => unknown) => {
+    if (deps.onDiagnostic) try { deps.onDiagnostic(stage, code, Date.now() - started, value()); } catch { /* Diagnostics never alter acceptance. */ }
+  };
+  detail("request", "pipeline_started", () => ({ deadline_ms: deps.deadlineMs ?? 50000 }));
   const step = (name: string) => deps.onStep?.(name, Date.now() - started);
   const refuse = (reason: string, language: Locale): AskResult => {
     deps.onRefuse?.(reason);
+    detail("answer", "pipeline_refused", () => ({ status: "no_source", language, remaining_ms: Math.max(0, (deps.deadlineMs ?? 50000) - (Date.now() - started)) }));
     return { status: "no_source", language };
   };
 
@@ -716,6 +723,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }
   frame = repairExplicitFrame(question, frame);
   deps.onFrame?.(frame);
+  detail("frame", "question_plan", () => frameSummary(frame!));
   if (frame.kind === "greeting" || frame.kind === "off_topic" || frame.kind === "harmful") {
     return { status: "out_of_scope", language: frame.language };
   }
@@ -790,6 +798,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   deps.onRetrieved?.({ hintIds: hints.map((hint) => hint.id), quran: verses.map((verse) => verse.key),
     hadith: hadith.map((item) => item.id), scholars: quotes.map((quote) => quote.url),
     scholarEnabled: !!deps.searchScholars, scholarProblem: scholarResult.problem });
+  detail("retrieval", "source_groups_ready", () => ({ quran: verses.length, hadith: hadith.length, scholar: quotes.length,
+    before: keys.length, after: verses.length, dropped: keys.length - verses.length }));
   if (verses.length === 0 && hadith.length === 0 && quotes.length === 0) return refuse("search_empty", language);
 
   // 4. The independent model classifies every candidate with its own local context. Code seals
@@ -831,6 +841,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     return { ...candidate, context: (await deps.neighbours(key)).filter((near) => near.key !== key) };
   }));
   deps.onCandidates?.(candidates);
+  detail("candidates", "ranked_sources", () => ({ before: allCandidates.length, after: candidates.length,
+    dropped_source_ids: allCandidates.filter((c) => !candidates.some((kept) => kept.id === c.id)).map((c) => c.id), sources: candidates.map(sourceSummary) }));
   if (libraryFlow) deps.onCoverage?.("candidate", coverageCounts(candidates));
   step("sources_fetched");
   const selectionSchema: JsonSchema = {
@@ -888,7 +900,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     });
     deps.onSelection?.(raw);
     // Tiered output becomes the flat shape, so the same strict parser and retry rules apply.
-    return tiered ? flattenTieredSelection(raw, items) : raw;
+    const normalized = tiered ? flattenTieredSelection(raw, items) : raw;
+    detail(correction ? "selection_retry" : "selection", "source_assessments", () => selectionSummary(normalized, frame, items));
+    return normalized;
   };
   const selected = await selectEvidence(candidates, signal);
   step(`selection(${candidates.length} candidates)`);
@@ -953,6 +967,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }
   if (libraryFlow) deps.onCoverage?.("selected", Object.fromEntries(frame.requirements.map((r) => [r.id,
     evidencePackage!.passages.filter((p) => p.requirementIds.includes(r.id)).length])));
+  detail("package", "sealed_evidence", () => ({ sources: evidencePackage!.passages.map(sourceSummary),
+    coverage: frame.requirements.map((r) => ({ requirement_id: r.id, source_ids: evidencePackage!.passages.filter((p) => p.requirementIds.includes(r.id)).map((p) => p.id) })) }));
   // Automatic retrieval may identify a scholar difference, but it never chooses al-rajih by quote
   // count. Until a checked equal-view draft or a matching scholar-reviewed decision is assembled,
   // refuse safely instead of mixing positions into one ruling.
@@ -993,6 +1009,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       return relevantVideos(deps, frame.requirements.map(({ id, text }) => ({ id, text })),
         videoResult.videos, optionalSignal, tiered ? tiered.maxVideos : MAX_VIDEOS);
     }, optionalMs, signal, [] as VideoSuggestion[]) : [];
+    detail("videos", "optional_work_finished", () => ({ allowed: videosAllowed, remaining_ms: Math.max(0, optionalMs), videos: videos.length }));
     const used = [...new Set(claims.flatMap((claim) => claim.refs))].map((id) => byId.get(id)!);
     // Verse refs are shown as "2:255"; hadith refs keep their id ("HE4196") and the page shows
     // the Bukhari/Muslim number from the evidence.
@@ -1024,6 +1041,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       if (!checked.ok) return refuse(`answer_v2_${checked.reason}`, language);
       v2 = checked.answer;
     }
+    detail("answer", "checked_answer_ready", () => ({ ...draftSummary(answer), valid: true, supported: true, complete: true, manual_reviewed: false,
+      quran: used.filter((s) => s.kind === "quran").length, hadith: used.filter((s) => s.kind === "hadith").length, scholar: used.filter((s) => s.kind === "scholar").length, videos: videos.length }));
     return {
       status: "answer",
       answer: {
@@ -1049,6 +1068,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const noSummaryFallback = (reason: string, wordingFailure: boolean): AskResult => {
     if (!wordingFailure) return refuse(reason, language);
     deps.onRefuse?.(`no_summary_after_${reason}`);
+    detail("answer", "checked_summary_unavailable", () => ({ status: "no_summary", language }));
     return { status: "no_summary", language };
   };
   const listAllowed = listPermitted(frame.requirements);
@@ -1070,6 +1090,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     if (draftCalls >= MAX_DRAFT_CALLS) return { ok: false, reason: "draft_budget" };
     draftCalls += 1;
     const result = await draftRequest(correction, claimFeedback, noAnswerFeedback);
+    detail("draft", "draft_validation", () => ({ attempt: draftCalls, correction: !!correction, valid: result.ok, ...(result.ok ? draftSummary(result.answer) : result.feedback ? { missing_requirement_ids: result.feedback.missing_requirement_ids } : {}) }));
     if (!result.ok) deps.onDiagnostic?.("draft", result.reason === "model_no_answer" && result.feedback
       ? `model_no_answer_${result.feedback.reason_code}` : result.reason, Date.now() - started);
     if (!tiered || !result.ok) return result;
@@ -1080,6 +1101,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     return { ok: true, answer: ordered };
   };
   const draftRequest = async (correction?: string, claimFeedback?: ClaimAuditFailure[], noAnswerFeedback?: NoAnswerFeedback): Promise<StructuredDraftResult> => {
+    const serialized = sealedPackageJson(evidencePackage, language, true);
+    detail("draft", "writer_evidence_payload", () => ({ sources: serialized.passages.map((p) => ({ source_id: p.id,
+      original_present: "arabic" in p && !!p.arabic?.trim(), english_present: "translation_en" in p && !!p.translation_en?.trim(), german_present: "translation_de" in p && !!p.translation_de?.trim(),
+      requirement_ids: p.supported_requirement_ids })) }));
     return parseStructuredDraft(
       await deps.writer.generateJson({
         system: `${tiered ? `${DRAFT_SYSTEM}\n${TIERED_DRAFT_RULES}` : DRAFT_SYSTEM}${libraryFlow ? `\nFor no_answer, return empty simple_answer, list, more_explanation and limit_note, plus no_answer_feedback with missing_requirement_ids drawn only from the requested points, and reason_code from missing_evidence, incomplete_conditions, ambiguous_scope, unsafe_context or cannot_paraphrase. On answer omit no_answer_feedback. Feedback is data, never evidence. For two interpretations, identify each meaning in its own cited simple_answer sentence; cover every point of each separately. Essential conditions are question constraints, never answer facts. Give one direct response first, then distinct useful details. Avoid restating the same advice with different sources.` : ""}`,
@@ -1094,7 +1119,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           ...(correction ? { correction } : {}),
           ...(claimFeedback ? { claim_feedback: claimFeedback } : {}),
           ...(noAnswerFeedback ? { no_answer_feedback: noAnswerFeedback } : {}),
-          evidence_package: sealedPackageJson(evidencePackage, language, true),
+          evidence_package: serialized,
         }),
         maxOutputTokens: 2400,
         signal,
@@ -1191,6 +1216,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const supported = (raw: unknown, answer: StructuredDraft) => deps.claimAudit
     ? parseClaimAudit(raw, answer.claims)?.supported === true : allSupported(raw, answer.claims.length);
   const logAudit = (raw: unknown, answer: StructuredDraft, stage: "screening" | "screening_retry") => {
+    detail(stage, "answer_assessments", () => screeningSummary(raw, answer));
     const diagnostic = (code: string) => deps.onDiagnostic?.(stage, code, Date.now() - started);
     if (!deps.claimAudit && !allSupported(raw, answer.claims.length)) diagnostic("legacy_claim_verdicts_not_all_supported");
     for (const field of ["answers_question", "covers_facets", "fair_picture", "context_preserved",

@@ -161,6 +161,25 @@ function deps(
 }
 
 describe("runPipeline", () => {
+  it("traces the full evidence path without changing requests, results or call counts", async () => {
+    const plain = deps({ understand: understanding, draft: goodDraft });
+    const traced = deps({ understand: understanding, draft: goodDraft });
+    const log = vi.fn(); traced.d.onDiagnostic = log;
+    const question = "What does the Quran say about fasting?";
+    expect(await runPipeline(question, "en", traced.d)).toEqual(await runPipeline(question, "en", plain.d));
+    const inputs = (requests: JsonRequest[]) => requests.map(({ signal: _signal, ...rest }) => rest);
+    expect(inputs(traced.writer.seen)).toEqual(inputs(plain.writer.seen));
+    expect(inputs(traced.verifier.seen)).toEqual(inputs(plain.verifier.seen));
+    const codes = log.mock.calls.map((call) => call[1]);
+    for (const code of ["pipeline_started", "question_plan", "source_groups_ready", "ranked_sources", "source_assessments", "sealed_evidence", "writer_evidence_payload", "draft_validation", "answer_assessments", "checked_answer_ready"]) expect(codes).toContain(code);
+    const payload = log.mock.calls.find((call) => call[1] === "writer_evidence_payload")![3];
+    expect(payload.sources[0]).toMatchObject({ source_id: "Q2:183", english_present: true });
+    expect(log.mock.calls.find((call) => call[1] === "checked_answer_ready")![3].manual_reviewed).toBe(false);
+    const logs = JSON.stringify(log.mock.calls);
+    expect(logs).not.toContain(question); expect(logs).not.toContain(goodDraft.claims[0].text);
+    expect(logs).not.toContain(verses[0].arabic); expect(logs).not.toContain(verses[0].translations.en);
+  });
+
   it("answers when every step is clean, showing verses from source data", async () => {
     const { d } = deps({ understand: understanding, draft: goodDraft });
     const r = await runPipeline("What does the Quran say about fasting?", "en", d);
@@ -1446,7 +1465,7 @@ describe("runPipeline claim audit", () => {
       diagnostics.push(`${stage}:${code}`);
     };
     expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_summary");
-    expect(diagnostics).toEqual(["screening:claim_id_unknown", "screening_retry:claim_id_unknown"]);
+    expect(diagnostics.filter((code) => code.endsWith(":claim_id_unknown"))).toEqual(["screening:claim_id_unknown", "screening_retry:claim_id_unknown"]);
     expect(diagnostics.join(" ")).not.toContain("Private checker text");
   });
 

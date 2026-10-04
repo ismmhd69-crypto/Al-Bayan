@@ -1,4 +1,5 @@
 import "server-only";
+import { emitAiTrace } from "@/lib/ask/trace-context";
 import type { AIProvider } from "./types";
 import { createGemini, GoogleBusyError } from "./gemini";
 import { createNvidia } from "./nvidia";
@@ -82,6 +83,7 @@ function withBackup(main: AIProvider, backup: AIProvider): AIProvider {
       } catch (err) {
         if (!(err instanceof GoogleBusyError) || request.signal?.aborted) throw err;
         if (process.env.ASK_DEBUG === "true") console.info(`${main.id} busy, using ${backup.id}`);
+        emitAiTrace("fallback_selected", { model: backup.id, fallback: true });
         return backup.generateJson(request);
       }
     },
@@ -97,14 +99,17 @@ function withChain(models: AIProvider[]): AIProvider {
       let lastBusy: unknown;
       for (const [i, model] of models.entries()) {
         try {
+          emitAiTrace("chain_model_started", { model: model.id, attempt: i + 1, fallback: i > 0 });
           const result = await model.generateJson(request);
+          emitAiTrace("chain_model_answered", { model: model.id, attempt: i + 1 });
           // Model id only (never the prompt or the answer), so a measurement can see who answered.
           if (process.env.ASK_DEBUG === "true") console.info(`ai answered: ${model.id}`);
           return result;
         } catch (err) {
           if (!(err instanceof GoogleBusyError) || request.signal?.aborted) throw err;
           lastBusy = err;
-          if (process.env.ASK_DEBUG === "true") console.info(`ai skipped: ${model.id} (${err.message})${models[i + 1] ? `, using ${models[i + 1].id}` : ""}`);
+          emitAiTrace("chain_model_skipped", { model: model.id, attempt: i + 1, outcome: "busy" });
+          if (process.env.ASK_DEBUG === "true") console.info(`ai skipped: ${model.id} (busy)${models[i + 1] ? `, using ${models[i + 1].id}` : ""}`);
         }
       }
       throw lastBusy;
