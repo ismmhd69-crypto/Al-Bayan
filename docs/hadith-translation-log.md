@@ -2553,5 +2553,13 @@ Codex batch 349 inserted 0 rows for Sahih Muslim 1365d to 1365e. The database co
 Codex batch 1020 inserted 12 rows for Sahih Muslim 1365i to 1370a. The database count increased from 33522 to 33534, exactly matching the inserted rows. Validation passed for 6 hadiths.
 
 Codex batch 350 inserted 18 rows for Sahih Muslim 1365i to 1373b. The database count increased from 33534 to 33552, exactly matching the inserted rows. Validation passed for 15 hadiths.
-Codex batch 1022 inserted 12 rows for Sahih Muslim 1374a to 1375. The database count increased from 33552 to 33564, exactly matching the 12 inserted translation rows. Validation passed for 6 hadiths.
-Codex batch 1024 inserted 12 rows for Sahih Muslim 1376a to 1378a. The database count increased from 33564 to 33576, exactly matching the 12 inserted translation rows. Validation passed for 6 hadiths.
+
+Codex batch 1022 inserted 12 rows for Sahih Muslim 1374a to 1375. The database count increased from 33552 to 33564, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+Codex batch 351 inserted 0 rows for Sahih Muslim 1374a to 1374a. The database count increased from 33564 to 33564, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 1024 inserted 12 rows for Sahih Muslim 1376a to 1378a. The database count increased from 33564 to 33576, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+Codex batch 352 inserted 48 rows for Sahih Muslim 1376a to 1392. The database count increased from 33576 to 33624, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 1026 inserted 0 rows for Sahih Muslim 1378b to 1382a. The database count increased from 33624 to 33624, exactly matching the inserted rows. Validation passed for 6 hadiths.
