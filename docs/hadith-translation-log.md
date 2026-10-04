@@ -1857,3 +1857,15 @@ Codex batch 178 inserted 16 rows for Sahih Muslim 178a to 181b. The database cou
 Codex batch 179 inserted 2 rows for Sahih Muslim 182a to 182a. The database count increased from 27670 to 27672, exactly matching the inserted rows. Validation passed for 1 hadiths.
 
 Codex batch 180 inserted 4 rows for Sahih Muslim 182b to 182c. The database count increased from 27672 to 27676, exactly matching the inserted rows. Validation passed for 2 hadiths.
+
+Codex batch 181 inserted 2 rows for Sahih Muslim 183a to 183a. The database count increased from 27676 to 27678, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 182 inserted 16 rows for Sahih Muslim 183b to 186b. The database count increased from 27678 to 27694, exactly matching the inserted rows. Validation passed for 8 hadiths.
+
+Codex batch 183 inserted 8 rows for Sahih Muslim 188 to 190b. The database count increased from 27694 to 27702, exactly matching the inserted rows. Validation passed for 4 hadiths.
+
+Codex batch 183 inserted 8 rows for Sahih Muslim 191b to 192. The database count increased from 27702 to 27710, exactly matching the inserted rows. Validation passed for 4 hadiths.
+
+Codex batch 184 inserted 6 rows for Sahih Muslim 189b to 191e. The database count increased from 27710 to 27716, exactly matching the inserted rows. Validation passed for 3 hadiths.
+
+Codex batch 185 inserted 8 rows for Sahih Muslim 190a to 193d. The database count increased from 27716 to 27724, exactly matching the inserted rows. Validation passed for 4 hadiths.
