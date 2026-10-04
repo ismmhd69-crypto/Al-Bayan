@@ -1,0 +1,32 @@
+{
+  "batch": "albani-006",
+  "source": "docs/albani-batch-006-dry-run.json",
+  "reviewedBy": "Codex manual review",
+  "reviewedAt": "2026-10-01",
+  "approved": [
+    { "candidate": 1, "reason": "Complete direct answer about the indexing method." },
+    { "candidate": 2, "reason": "Complete direct answer and the two readings are explicitly called mutawatir and established." },
+    { "candidate": 6, "reason": "Complete explanation of his hadith grading approach and willingness to revise." },
+    { "candidate": 11, "reason": "Complete answer; the report is explicitly called authentic and its meaning is explained." },
+    { "candidate": 13, "reason": "Complete direct answer about avoiding al-Waqidi's reports while using other Ibn Sa'd material." },
+    { "candidate": 18, "reason": "Complete direct answer with a clear ruling and the stated Quranic basis." },
+    { "candidate": 19, "reason": "Complete practical answer with no visible truncation." },
+    { "candidate": 20, "reason": "Complete answer based on a general sound prophetic principle." }
+  ],
+  "rejected": [
+    { "candidate": 3, "reason": "Starts with room talk and is not a clean self-contained excerpt." },
+    { "candidate": 4, "reason": "Begins by referring to a previous answer and ends before the ruling." },
+    { "candidate": 5, "reason": "Begins with 'the answer was given before' and ends with a new question." },
+    { "candidate": 9, "reason": "Ends during the proposed solution and is cut off." },
+    { "candidate": 10, "reason": "Ends with room talk asking for another question." },
+    { "candidate": 12, "reason": "Repeats itself and ends before explaining how the zakat is paid." },
+    { "candidate": 14, "reason": "Ends mid-answer after 'therefore if'." },
+    { "candidate": 15, "reason": "Ends with the question about the pilgrim's umrah and is incomplete." },
+    { "candidate": 17, "reason": "Contains an ellipsis and ends inside a new example." }
+  ],
+  "needsMo": [
+    { "candidate": 7, "reason": "The interpretation is clear but the hadith grading is not stated in the excerpt." },
+    { "candidate": 8, "reason": "Discusses the principles for grading the added wording but does not state the final grade." },
+    { "candidate": 16, "reason": "Discusses changing a hadith grade but does not clearly state the ruling on the reported statement." }
+  ]
+}

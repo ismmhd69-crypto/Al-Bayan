@@ -1,0 +1,27 @@
+{
+  "batch": "albani-001",
+  "source": "docs/albani-batch-001-dry-run.json",
+  "reviewedBy": "Codex manual review",
+  "reviewedAt": "2026-10-01",
+  "approved": [
+    { "candidate": 1, "reason": "Direct answer, complete, self-contained, and the cited hadith is presented as authentic." },
+    { "candidate": 3, "reason": "Direct answer about al-Shawkani's creed and method, complete and self-contained." },
+    { "candidate": 5, "reason": "Direct answer about Ibn Hibban's grading approach and the hadith status is clearly stated." },
+    { "candidate": 6, "reason": "Direct answer distinguishes the authentic general hadith from the unsupported list of names." },
+    { "candidate": 8, "reason": "Direct answer about Ibn Hibban's jarh and ta'dil method, complete and self-contained." },
+    { "candidate": 9, "reason": "Direct reconciliation of the two hadiths, complete and self-contained." },
+    { "candidate": 10, "reason": "Clear direct ruling with a cited hadith and Quran verse, complete." },
+    { "candidate": 11, "reason": "Direct answer about the Hanafi position and the stated disagreement, complete." },
+    { "candidate": 12, "reason": "Direct answer addresses the reported signs and rejects unsupported timing claims." }
+  ],
+  "rejected": [
+    { "candidate": 2, "reason": "Starts with 'the rest of the previous question', so it is a continuation and not self-contained." },
+    { "candidate": 13, "reason": "Ends with a questioner interruption, so the excerpt is cut off." },
+    { "candidate": 15, "reason": "Ends with a new question, so the excerpt is cut off." }
+  ],
+  "needsMo": [
+    { "candidate": 4, "reason": "Al-Albani explicitly says he does not know the answer and offers only a possible explanation." },
+    { "candidate": 7, "reason": "The excerpt does not clearly finish the answer to whether an unmarried person is deficient in faith." },
+    { "candidate": 14, "reason": "Al-Albani says the hadith's authenticity is unresolved and gives no ruling." }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "batch": "albani-003",
+  "source": "docs/albani-batch-003-dry-run.json",
+  "reviewedBy": "Codex manual review",
+  "reviewedAt": "2026-10-01",
+  "approved": [
+    { "candidate": 1, "reason": "Complete direct answer, explicitly described as an area of scholarly disagreement." },
+    { "candidate": 4, "reason": "Complete direct answer giving the three-part water classification." },
+    { "candidate": 5, "reason": "Complete answer that gives the general status and honestly limits the detailed claim." },
+    { "candidate": 6, "reason": "Complete direct answer distinguishing recommendation from obligation." },
+    { "candidate": 8, "reason": "Complete answer clearly states the preferred view and that it is an inference, not a direct hadith." },
+    { "candidate": 11, "reason": "Complete answer addresses the narrator criticism and the supporting reports." },
+    { "candidate": 12, "reason": "Complete answer clearly says the hadith is sound." },
+    { "candidate": 13, "reason": "Complete definitions with a clear example and no visible truncation." }
+  ],
+  "rejected": [
+    { "candidate": 3, "reason": "Contains an explicit ellipsis and does not reach the answer." },
+    { "candidate": 7, "reason": "Ends before completing the two reasons promised in the answer." },
+    { "candidate": 9, "reason": "The excerpt is still the question asking for detail, not the answer." },
+    { "candidate": 14, "reason": "Ends with a question to the Shaykh and is cut off." },
+    { "candidate": 16, "reason": "Ends during the example and does not finish the answer about women's awrah." },
+    { "candidate": 17, "reason": "Ends with an unfinished question and is cut off." },
+    { "candidate": 18, "reason": "Gives only the first part of the reason and ends mid-answer." },
+    { "candidate": 19, "reason": "Contains an explicit ellipsis and is not a complete answer." },
+    { "candidate": 20, "reason": "Contains ellipses and ends mid-answer." }
+  ],
+  "needsMo": [
+    { "candidate": 2, "reason": "High-stakes jihad answer and the supporting hadith is used without a clear grade in the excerpt." },
+    { "candidate": 10, "reason": "Al-Albani says the hadith's status is disputed and that he does not know the stronger view." },
+    { "candidate": 15, "reason": "The answer relies on the hadith but does not state its grading clearly." }
+  ]
+}

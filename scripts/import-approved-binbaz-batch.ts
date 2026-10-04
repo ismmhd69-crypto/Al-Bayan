@@ -22,8 +22,13 @@ async function main() {
   const approved = new Set(decisions.approved.map(String));
   const items = batch.candidates.filter((c) => approved.has(c.url.match(/\/fatwas\/(\d+)\//)![1]));
   if (items.length !== approved.size) throw new Error(`approved refs not all found in batch: ${items.length} of ${approved.size}`);
-  const { data: existing, error: exErr } = await db.from("sources").select("url").eq("scholar_id", "ibn-baz");
-  if (exErr) throw exErr;
+  const existing: Array<{ url: string }> = [];
+  for (let from = 0; ; from += 1000) {
+    const { data: page, error: exErr } = await db.from("sources").select("url").eq("scholar_id", "ibn-baz").range(from, from + 999);
+    if (exErr) throw exErr;
+    existing.push(...(page ?? []));
+    if (!page || page.length < 1000) break;
+  }
   const have = new Set((existing ?? []).map((r) => r.url));
   let stored = 0;
   for (const c of items) {

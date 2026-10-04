@@ -142,12 +142,19 @@ export async function processBatchNumber(batchNum: number): Promise<{ processed:
       throw new Error(`Failed to get translations for chunk ${c + 1}`);
     }
 
-    for (const r of chunkRes) {
-      r.de = fixUmlauts(r.de);
-      if (DIGRAPH_CHECK.test(r.de)) {
-        console.warn(`Warning: Digraph detected after fix in ${r.id}: ${r.de.match(DIGRAPH_CHECK)?.[0]}`);
+    for (let idx = 0; idx < chunkRes.length; idx++) {
+      const r = chunkRes[idx];
+      // Always enforce the exact original source ID from the chunk to prevent single-character UUID hallucinations by the AI
+      const exactId = chunk[idx].id;
+      const fixedDe = fixUmlauts(r.de);
+      if (DIGRAPH_CHECK.test(fixedDe)) {
+        console.warn(`Warning: Digraph detected after fix in ${exactId}: ${fixedDe.match(DIGRAPH_CHECK)?.[0]}`);
       }
-      results.push(r);
+      results.push({
+        id: exactId,
+        en: r.en,
+        de: fixedDe,
+      });
     }
     await new Promise((r) => setTimeout(r, 1500));
   }

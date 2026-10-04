@@ -1,0 +1,32 @@
+{
+  "batch": "albani-005",
+  "source": "docs/albani-batch-005-dry-run.json",
+  "reviewedBy": "Codex manual review",
+  "reviewedAt": "2026-10-01",
+  "approved": [
+    { "candidate": 2, "reason": "Complete direct answer and the hadith is explicitly called sahih." },
+    { "candidate": 3, "reason": "Complete direct answer with the reported hadith and practical description." },
+    { "candidate": 4, "reason": "Complete direct answer; the supporting hadith is identified as agreed upon." },
+    { "candidate": 6, "reason": "Complete direct answer with clear conditions for asking about food." },
+    { "candidate": 7, "reason": "Complete answer clearly rejects the unsupported reports as Isra'iliyyat." },
+    { "candidate": 11, "reason": "Complete direct definition of how 'the majority' depends on the speaker and time." },
+    { "candidate": 13, "reason": "Complete direct answer with a clear distinction between the tax and the unlawful evasion method." },
+    { "candidate": 19, "reason": "Complete direct answer; the hadith support is described as mutually strengthening reports." }
+  ],
+  "rejected": [
+    { "candidate": 1, "reason": "Explicitly says the answer continues on the next tape." },
+    { "candidate": 5, "reason": "Explicitly says the answer continues on the next tape." },
+    { "candidate": 9, "reason": "Ends with a new question about trade goods and is incomplete." },
+    { "candidate": 10, "reason": "Promises a second point but ends before giving it." },
+    { "candidate": 12, "reason": "Contains an ellipsis and is incomplete." },
+    { "candidate": 14, "reason": "Ends with a repeated question and does not reach the ruling." },
+    { "candidate": 17, "reason": "Ends by asking a new language question and is incomplete." },
+    { "candidate": 20, "reason": "Explicitly says the answer continues on the next tape." }
+  ],
+  "needsMo": [
+    { "candidate": 8, "reason": "Does not clearly answer whether the Prophet may conceal anything and needs a decision on the intended scope." },
+    { "candidate": 15, "reason": "Compares two hadiths but does not clearly answer which practice is better for the traveler." },
+    { "candidate": 16, "reason": "Gives a starting point but does not fully answer the requested study method." },
+    { "candidate": 18, "reason": "Gives a ruling based on a hadith but the hadith grading and full context are not clear in the excerpt." }
+  ]
+}

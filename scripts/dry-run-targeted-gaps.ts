@@ -22,6 +22,13 @@ process.loadEnvFile(".env");
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const PAUSE_MS = 1500;
+// The original gap audit only inspected page one. Keep the default bounded, but allow a deeper
+// read-only pass so a missing answer is not confused with a first-page search miss.
+const SEARCH_PAGES = Math.max(1, Math.min(5, Number(process.argv.find((a) => a.startsWith("--pages="))?.split("=")[1] ?? 3)));
+const TARGET_FILTER = process.argv.find((a) => a.startsWith("--target="))?.split("=")[1]?.trim();
+const SELECTED_TARGETS = TARGET_FILTER
+  ? TARGETED_GAPS.filter((target) => target.id === TARGET_FILTER)
+  : TARGETED_GAPS;
 const HEADERS = { "User-Agent": "AlBayan-Collector/0.1 (non-commercial Islamic Q&A; short credited quotes)" };
 
 const CP_URL = "https://shekhcp.binothaimeen.net";
@@ -48,25 +55,41 @@ export type TargetResult = {
 
 // --- Ibn Baz Search ---
 async function searchBinBaz(q: string) {
-  let res = await fetch(`https://binbaz.org.sa/api/search?type=fatwa&operator=AND_ONLY&page=1&q=${encodeURIComponent(q)}`, {
-    headers: { ...HEADERS, Accept: "application/json" },
-    signal: AbortSignal.timeout(20_000),
-  });
-  if (!res.ok) return [];
-  let data = (await res.json()) as { Search?: { results?: Array<{ id: number; reference: number; title: string }> } };
-  let results = data.Search?.results ?? [];
-  if (results.length === 0) {
-    await sleep(500);
-    res = await fetch(`https://binbaz.org.sa/api/search?type=fatwa&page=1&q=${encodeURIComponent(q)}`, {
+  const all: Array<{ id: number; reference: number; title: string }> = [];
+  const seen = new Set<number>();
+  for (let page = 1; page <= SEARCH_PAGES; page++) {
+    let res = await fetch(`https://binbaz.org.sa/api/search?type=fatwa&operator=AND_ONLY&page=${page}&q=${encodeURIComponent(q)}`, {
       headers: { ...HEADERS, Accept: "application/json" },
       signal: AbortSignal.timeout(20_000),
     });
+    let results: Array<{ id: number; reference: number; title: string }> = [];
     if (res.ok) {
-      data = (await res.json()) as { Search?: { results?: Array<{ id: number; reference: number; title: string }> } };
+      const data = (await res.json()) as { Search?: { results?: Array<{ id: number; reference: number; title: string }> } };
       results = data.Search?.results ?? [];
     }
+    // Some pages expose no strict AND_ONLY result but do return a useful broader page. Keep the
+    // fallback on the same page number and let the title/relevance gates reject false matches.
+    if (results.length === 0) {
+      await sleep(500);
+      res = await fetch(`https://binbaz.org.sa/api/search?type=fatwa&page=${page}&q=${encodeURIComponent(q)}`, {
+        headers: { ...HEADERS, Accept: "application/json" },
+        signal: AbortSignal.timeout(20_000),
+      });
+      if (res.ok) {
+        const data = (await res.json()) as { Search?: { results?: Array<{ id: number; reference: number; title: string }> } };
+        results = data.Search?.results ?? [];
+      }
+    }
+    for (const hit of results) {
+      if (Number.isInteger(hit.reference) && typeof hit.title === "string" && !seen.has(hit.reference)) {
+        seen.add(hit.reference);
+        all.push(hit);
+      }
+    }
+    if (results.length === 0) break;
+    await sleep(500);
   }
-  return results.filter((h) => Number.isInteger(h.reference) && typeof h.title === "string");
+  return all;
 }
 
 // --- Ibn Uthaymeen Search ---
@@ -83,29 +106,37 @@ type UthaymeenAudioDetail = {
 };
 
 async function searchUthaymeen(q: string): Promise<UthaymeenSearchHit[]> {
-  let res = await fetch(`${CP_URL}/api/search-data`, {
-    method: "POST",
-    headers: { ...HEADERS, "Content-Type": "application/json" },
-    body: JSON.stringify({ pageSize: 6, searchTerm: q, type: "audios", page: 1, mode: "exact" }),
-    signal: AbortSignal.timeout(20_000),
-  });
-  if (!res.ok) return [];
-  let data = (await res.json()) as { data?: UthaymeenSearchHit[] };
-  let hits = data.data ?? [];
-  if (hits.length === 0) {
-    await sleep(500);
-    res = await fetch(`${CP_URL}/api/search-data`, {
+  const all: UthaymeenSearchHit[] = [];
+  const seen = new Set<string>();
+  for (let page = 1; page <= SEARCH_PAGES; page++) {
+    let res = await fetch(`${CP_URL}/api/search-data`, {
       method: "POST",
       headers: { ...HEADERS, "Content-Type": "application/json" },
-      body: JSON.stringify({ pageSize: 6, searchTerm: q, type: "audios", page: 1, mode: "similar" }),
+      body: JSON.stringify({ pageSize: 10, searchTerm: q, type: "audios", page, mode: "exact" }),
       signal: AbortSignal.timeout(20_000),
     });
-    if (res.ok) {
-      data = (await res.json()) as { data?: UthaymeenSearchHit[] };
-      hits = data.data ?? [];
+    let hits: UthaymeenSearchHit[] = [];
+    if (res.ok) hits = ((await res.json()) as { data?: UthaymeenSearchHit[] }).data ?? [];
+    if (hits.length === 0) {
+      await sleep(500);
+      res = await fetch(`${CP_URL}/api/search-data`, {
+        method: "POST",
+        headers: { ...HEADERS, "Content-Type": "application/json" },
+        body: JSON.stringify({ pageSize: 10, searchTerm: q, type: "audios", page, mode: "similar" }),
+        signal: AbortSignal.timeout(20_000),
+      });
+      if (res.ok) hits = ((await res.json()) as { data?: UthaymeenSearchHit[] }).data ?? [];
     }
+    for (const hit of hits) {
+      if (typeof hit.id === "string" && typeof hit.title?.ar === "string" && !seen.has(hit.id)) {
+        seen.add(hit.id);
+        all.push(hit);
+      }
+    }
+    if (hits.length === 0) break;
+    await sleep(500);
   }
-  return hits.filter((h) => typeof h.id === "string" && typeof h.title?.ar === "string");
+  return all;
 }
 
 async function fetchUthaymeenAudioDetail(id: string): Promise<UthaymeenAudioDetail | null> {
@@ -176,13 +207,13 @@ async function main() {
   }
 
   console.log(`Loaded ${existingRows?.length ?? 0} existing published quotes for deduplication.`);
-  console.log(`Starting targeted gap dry run for ${TARGETED_GAPS.length} evidence targets...\n`);
+  console.log(`Starting targeted gap dry run for ${SELECTED_TARGETS.length} evidence targets across up to ${SEARCH_PAGES} official search pages...\n`);
 
   const targetResults: TargetResult[] = [];
 
-  for (let i = 0; i < TARGETED_GAPS.length; i++) {
-    const target = TARGETED_GAPS[i];
-    console.log(`[Target ${i + 1}/${TARGETED_GAPS.length}] (${target.scholar}) ${target.id}: "${target.englishDescription}"`);
+  for (let i = 0; i < SELECTED_TARGETS.length; i++) {
+    const target = SELECTED_TARGETS[i];
+    console.log(`[Target ${i + 1}/${SELECTED_TARGETS.length}] (${target.scholar}) ${target.id}: "${target.englishDescription}"`);
 
     const result: TargetResult = {
       target,
@@ -454,7 +485,7 @@ async function main() {
   // Generate markdown report
   let md = "# Targeted Scholar Library Gap Dry-Run Report\n\n";
   md += `Date: 2026-09-29  \n`;
-  md += `Scope: Dry run across 20 targeted evidence gaps (14 Ibn Baz, 6 Ibn Uthaymeen).  \n`;
+  md += `Scope: Read-only dry run across ${SELECTED_TARGETS.length} selected targeted evidence gaps, up to ${SEARCH_PAGES} official search pages per phrase.  \n`;
   md += `Database Operations: Read-only check. Zero rows written to database.  \n\n`;
 
   const foundCount = targetResults.filter((r) => r.status === "found").length;
@@ -462,7 +493,7 @@ async function main() {
   const totalCandidates = targetResults.reduce((acc, r) => acc + r.candidates.length, 0);
 
   md += `## Summary\n\n`;
-  md += `- Targets evaluated: ${TARGETED_GAPS.length}\n`;
+  md += `- Targets evaluated: ${SELECTED_TARGETS.length}\n`;
   md += `- Targets with clean candidate found: ${foundCount}\n`;
   md += `- Targets remaining as safe gaps: ${gapCount}\n`;
   md += `- Total clean candidates identified: ${totalCandidates}\n\n`;

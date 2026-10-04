@@ -1,0 +1,32 @@
+{
+  "batch": "albani-002",
+  "source": "docs/albani-batch-002-dry-run.json",
+  "reviewedBy": "Codex manual review",
+  "reviewedAt": "2026-10-01",
+  "approved": [
+    { "candidate": 1, "reason": "Direct answer; the cited Tirmidhi wording is clearly called weak." },
+    { "candidate": 2, "reason": "Direct, complete answer to the stated question, quoted without added ruling." },
+    { "candidate": 3, "reason": "Direct and complete answer about remaining under the emir's authority." },
+    { "candidate": 6, "reason": "Direct answer with a clear ruling and stated calculation." },
+    { "candidate": 7, "reason": "Direct explanation of the hadith wording and its meaning." },
+    { "candidate": 8, "reason": "Complete direct answer, just over the 200-character minimum, with no obvious damage." },
+    { "candidate": 16, "reason": "Complete direct explanation of when hasan li-ghayrihi reaches sahih." },
+    { "candidate": 17, "reason": "Complete direct answer about permissible treatment and prohibited practitioners." },
+    { "candidate": 20, "reason": "Complete direct answer recommending the named hadith researchers." }
+  ],
+  "rejected": [
+    { "candidate": 5, "reason": "Ends with a new question, so it is cut off." },
+    { "candidate": 9, "reason": "The answer is followed by greetings and room talk in the excerpt." },
+    { "candidate": 10, "reason": "Ends inside a quoted hadith and is cut off." },
+    { "candidate": 11, "reason": "Includes a reference to a previous explanation and ends by moving to a new question." },
+    { "candidate": 14, "reason": "Ends mid-example after 'this, as he said', so it is cut off." },
+    { "candidate": 15, "reason": "Near duplicate of candidate 7 from batch 001 and does not add a complete new answer." },
+    { "candidate": 18, "reason": "Ends inside the story and quoted hadith, so it is cut off." }
+  ],
+  "needsMo": [
+    { "candidate": 4, "reason": "Explains why the books contain silent entries but does not give the hadith grades requested." },
+    { "candidate": 12, "reason": "Begins an analogy about mixed materials but does not reach the gold ruling." },
+    { "candidate": 13, "reason": "The answer ends with a question about whether the criticism is correct." },
+    { "candidate": 19, "reason": "The answer relies on a hadith but does not state its grading clearly." }
+  ]
+}

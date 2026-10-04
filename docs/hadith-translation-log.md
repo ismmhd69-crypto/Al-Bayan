@@ -2163,3 +2163,5 @@ Codex batch 280 inserted 60 rows for Sahih Muslim 619b to 634a. The database cou
 Codex batch 281 inserted 60 rows for Sahih Muslim 634b to 648b. The database count increased from 29414 to 29474, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Self-check after Codex batch 280: reread 10 Codex translations from Muslim 645a to 648b against their Arabic source, including narrator chains, prayer-time wording, negations, and repeated variants. No problems found. Needs Mo: none.
+
+Codex batch 282 inserted 60 rows for Sahih Muslim 648c to 655a. The database count increased from 29510 to 29570, exactly matching the inserted rows. Validation passed for 30 hadiths.

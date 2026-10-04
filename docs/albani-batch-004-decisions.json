@@ -1,0 +1,15 @@
+{
+  "batch": "albani-004",
+  "source": "docs/albani-batch-004-dry-run.json",
+  "reviewedBy": "Codex manual review",
+  "reviewedAt": "2026-10-01",
+  "approved": [],
+  "rejected": [
+    { "candidate": 1, "reason": "Ends with room talk asking for another question." },
+    { "candidate": 2, "reason": "Contains an ellipsis and ends with an interruption." },
+    { "candidate": 3, "reason": "Begins with an ellipsis, so the answer is already cut off." },
+    { "candidate": 4, "reason": "Ends with a new question instead of a completed explanation." },
+    { "candidate": 5, "reason": "Ends in an unfinished phrase and is cut off." }
+  ],
+  "needsMo": []
+}

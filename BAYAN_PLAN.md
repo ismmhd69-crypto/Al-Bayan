@@ -316,3 +316,21 @@ Planned, not built now. Before building it we define: who the reviewers are and 
 - Which YouTube channels are approved, and asking channel owners for permission.
 - Donations, subscription, or fully free?
 - Whether to use the pasted "trusted-fatwa-research" skill as an internal research tool for reviewers.
+
+## 15. Social media videos (decided by Mo, 2026-10-04)
+
+Al-Bayan posts short vertical videos (Instagram Reels, TikTok, YouTube Shorts) that teach one authentic hadith or verse with an approved scholar's explanation. The full recipe is in `brand/VIDEO_FORMAT.md`; the Claude skill `/bayan-video` follows it. The same content rules as the website apply (section 3b): sahih/hasan only, approved scholars only, original Arabic shown, every source linked, nothing of our own presented as a ruling.
+
+**Fixed rules for every video, so the page looks and sounds like one series:**
+
+| Rule | What it means |
+|---|---|
+| One folder per video | `brand/out/videos/<nn>-<name>/` (numbered: `01-intentions`, `02-...`). It holds exactly the video (`<name>.mp4`), its cover (`<name>-cover.png`) and its post text (`<name>-captions.txt`). Files of different videos are never mixed. |
+| Every video has its own cover | Designed in `brand/src/ReelCover.tsx`: big English title, Arabic title, the video's key illustration, source tag, Bayan logo. Everything important stays inside Instagram's 3:4 grid crop. |
+| Same voice | Gemini voice **"Charon"**, calm, text only (no spoken instructions). English always with `gemini-3.1-flash-tts-preview`, German always with `gemini-2.5-flash-preview-tts`. Clips levelled to -16 LUFS. If the daily free quota runs out, wait for the next day; never switch to another voice or model, because the sound would change. |
+| Same sound effects | Only the fixed set in `brand/public/sfx/` (made once by `brand/sfx/make_sfx.py`, fixed seed). Reuse these files as they are; do not regenerate or replace them. The same sound always means the same thing: whoosh/whip for scene changes, pop for things appearing, hit/stamp for slams and sources, heartbeat for the heart, sparkle/ding for reward, chime at the end. No music. |
+| Same look | Lapis and gold, faceless characters from `brand/src/motion/`, moving camera, gold word-by-word captions with the original Arabic, "BAYAN · askbayan.org" tag on top. |
+| Same ending | Logo, askbayan.org button, "SHARE IT" (centred) with Sahih Muslim 1893 «مَنْ دَلَّ عَلَى خَيْرٍ فَلَهُ مِثْلُ أَجْرِ فَاعِلِهِ» as text. |
+| Review | Mo watches every video and reviews the quote translations before anything is posted. |
+
+**Profile:** profile picture `brand/out/SocialProfile.png`; display name "Al-Bayan | البيان"; website askbayan.org.

@@ -23,8 +23,14 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   if (!isLocale(lang)) return {};
   const t = getDictionary(lang);
   return {
-    // Netlify sets URL to the site's main address at build time; needed for absolute link-preview images.
-    metadataBase: new URL(process.env.URL ?? "http://localhost:3000"),
+    // The site's main address, needed for absolute link-preview images. SITE_URL wins (set it to
+    // https://askbayan.org); otherwise the host's own variable: Netlify sets URL, Vercel sets
+    // VERCEL_PROJECT_PRODUCTION_URL (host only, no https://).
+    metadataBase: new URL(
+      process.env.SITE_URL ??
+        process.env.URL ??
+        (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000"),
+    ),
     title: { default: t.meta.title, template: `%s · Bayan` },
     description: t.meta.description,
     alternates: { languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])) },
