@@ -469,7 +469,7 @@ describe("runPipeline", () => {
     expect(verifier.seen[1].prompt).toContain("Q2:184");
   });
 
-  it("does not give Arabic verse wording to the Arabic writer", async () => {
+  it("gives the Arabic writer the original verse wording for faithful paraphrasing", async () => {
     const arabicFrame = {
       ...understanding,
       language: "ar",
@@ -482,7 +482,7 @@ describe("runPipeline", () => {
     const { d, writer } = deps({ understand: arabicFrame, draft: arabicDraft });
     expect((await runPipeline("ما حكم الصيام؟", "ar", d)).status).toBe("answer");
     const draftPrompt = writer.seen[1].prompt;
-    expect(draftPrompt).not.toContain(verses[0].arabic);
+    expect(draftPrompt).toContain(verses[0].arabic);
     expect(draftPrompt).toContain(verses[0].translations.en!);
   });
 
@@ -912,7 +912,7 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     }
   });
 
-  it("gives the Arabic writer no Arabic hadith text, and nobody later the raw question", async () => {
+  it("gives the Arabic writer original hadith text, and nobody later the raw question", async () => {
     const arabicFrame = { ...understanding, language: "ar", search_queries_ar: ["الصيام شهر"] };
     const arabicDraft = {
       status: "answer",
@@ -925,7 +925,7 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     d.searchHadith = async () => [hadithFast, hadithOther];
     const r = await runPipeline("ما حكم الصيام؟ RAW-QUESTION-MARKER", "ar", d);
     expect(r.status).toBe("answer");
-    expect(writer.seen[1].prompt).not.toContain(hadithFast.arabic);
+    expect(writer.seen[1].prompt).toContain(hadithFast.arabic);
     expect(writer.seen[1].prompt).toContain(hadithFast.translations.en!);
     for (const req of [...writer.seen.slice(1), ...verifier.seen]) expect(req.prompt).not.toContain("RAW-QUESTION-MARKER");
     if (r.status === "answer") expect((r.answer.evidence.find((e) => e.key === "HE9001") as { translation: string | null } | undefined)?.translation).toBeNull();
@@ -1390,6 +1390,7 @@ describe("stored library hadith in the pipeline", () => {
     const prompts = [...writer.seen, ...verifier.seen].map((s) => s.prompt);
     const full = JSON.stringify(quoted.arabic).slice(1, -1);
     expect(verifier.seen.some((s) => s.prompt.includes(full))).toBe(true);
+    expect(writer.seen.filter(isDraft).every((s) => s.prompt.includes(full))).toBe(true);
     expect(prompts.some((p) => p.includes("عنوان تجريبي للفصل"))).toBe(false);
     const item = r.answer.v2?.hadith[0];
     expect(item).toMatchObject({ arabic: quoted.arabic, chapter: quoted.chapter });

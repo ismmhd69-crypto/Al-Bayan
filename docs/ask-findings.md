@@ -64,3 +64,9 @@ The evaluation runner stopped before loading the model or making a paid request:
 ## Precise refusal diagnostics follow-up, 4 October 2026
 
 Diagnostics now identify the exact source-selection and screening rejection branch under `ASK_DEBUG`, without visitor or source content. Pre-audit commit `648b0fd` and current flag-off builders send identical controlled model requests; successful and refusing outcomes are preserved. Historical baseline selections also replay unchanged. See `ask-diagnostics-report.md`. This is a diagnostic delivery, not a confirmed fix for the latest production promises failure. Paid reproduction and real-model acceptance remain blocked by the unchanged shared ledger; additional experiment cost is $0.00. Claim audit remains off by default, and no model/prompt/schema/limit or Vercel setting was changed.
+# Library evidence-path repair (2026-10-04, isolated branch)
+
+The writer serializer removed Arabic from Quran and hadith regardless of whether a usable translation existed. The stored hadith reader correctly supplied originals but no authoritative translations. Historical recorded writer requests therefore lost the only readable passage: 4/4 stored-hadith appearances in baseline-1 and 28/28 in pilot-1. These count appearances including retries, not distinct questions or successful answers.
+
+The repair retains original Arabic whenever the requested-language authoritative translation is absent, and for all Arabic answers. Metadata-only sealed sources now fail before model dispatch. Display-only AI translations still enter only after screening; their publication and approval states are unchanged. Regression tests inspect the actual writer request, alongside an English/German/Arabic serialization matrix. This proves wording delivery, not model understanding or religious answer accuracy.
+

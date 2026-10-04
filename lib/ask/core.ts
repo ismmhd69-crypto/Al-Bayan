@@ -336,7 +336,7 @@ const sourceTranslations = (s: Source): { en: string | null; de: string | null }
 
 const verseSource = (verse: Verse): Source => ({ kind: "quran", verse });
 
-// What the AI steps see for one source. The "arabic" key is removed for the Arabic writer.
+// What the AI steps see for one source. No display-only translation enters this builder.
 function sourceJson(s: Source, language: Locale) {
   const tr = sourceTranslations(s);
   const common = {
@@ -486,18 +486,25 @@ function selectionSource(candidate: PassageForSelection, namedByVisitor: Set<str
   };
 }
 
-function sealedPackageJson(evidence: EvidencePackage, language: Locale, forWriter = false, includeContext = false) {
+export function sealedPackageJson(evidence: EvidencePackage, language: Locale, forWriter = false, includeContext = false) {
   return {
     question: evidence.question,
     passages: evidence.passages.map((passage) => {
       const source = sourceJson(passage.source, language);
+      const translations = sourceTranslations(passage.source);
+      if (![source.arabic, translations.en, translations.de]
+        .some((text) => typeof text === "string" && text.trim().length > 0)) {
+        throw new Error("sealed_source_text_missing");
+      }
       const context = includeContext
         ? { surrounding_context: passage.context.map((verse) => sourceJson(verseSource(verse), language)) }
         : {};
-      // The writer works from the approved translations only, in every language: this keeps it from
-      // retyping Arabic Quran or hadith text and keeps its input short. Code checks and final
-      // screening still compare every claim against the Arabic.
-      if (forWriter && passage.source.kind !== "scholar") {
+      // Only eligible source translations occur here; display-only AI translations are attached
+      // after screening. Never strip the sole readable wording of a stored passage. Arabic
+      // answers use the original even when a source also supplies an English translation.
+      const translation = language === "de" ? translations.de : translations.en;
+      if (forWriter && language !== "ar" && passage.source.kind !== "scholar"
+        && typeof translation === "string" && translation.trim().length > 0) {
         const { arabic: _arabic, ...withoutArabic } = source;
         return { ...withoutArabic, supported_requirement_ids: passage.requirementIds, ...context };
       }
