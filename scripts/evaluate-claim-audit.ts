@@ -8,6 +8,7 @@ import { allSupported, parseClaimAudit, requirementsCovered, structuredAnswerOk,
 import type { EvidencePackage, PassageForSelection } from "../lib/ask/retrieval";
 import type { Locale } from "../lib/i18n";
 import { installSpendGuard } from "./ask-spend-guard";
+import { sharedAskLedgerPath } from "./ask-test-profile";
 
 export function frozenAuditCases() {
   return cases.packages.flatMap((item) => (["en", "de", "ar"] as const).flatMap((language) =>
@@ -77,7 +78,7 @@ async function main() {
   try {
     // Install BEFORE loading models. The original unresolved reservation blocks all paid work.
     const calls: string[] = [];
-    budget = installSpendGuard("docs/ask-repair-runs/spend.json", (body) => calls.push(String(body.model)));
+    budget = installSpendGuard(sharedAskLedgerPath(), (body) => calls.push(String(body.model)));
     spendBefore = budget.guard.actual;
     for (const name of ["AI_MODELS", "AI_MODEL", "AI_FALLBACK_MODEL", "AI_VERIFIER_MODELS", "AI_VERIFIER_MODEL", "AI_VERIFIER_FALLBACK_MODEL", "AI_PROVIDER", "AI_VERIFIER_PROVIDER"]) delete process.env[name];
     process.env.OPENROUTER_REASONING = "low";

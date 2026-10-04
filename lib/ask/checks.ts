@@ -91,6 +91,7 @@ export function asciiUmlauts(text: string): boolean {
 export type DraftPolicy = {
   requirements: AnswerRequirement[];
   sourceRequirements: Record<string, string[]>;
+  requireNoAnswerFeedback?: boolean;
 };
 
 export function parseDraft(raw: unknown, citable: SourceText[], language: Locale, policy?: DraftPolicy, maxClaims = LIMITS.maxClaims): DraftResult {
@@ -138,7 +139,19 @@ export type AnswerSection = { heading: string; sentences: Claim[] };
 // directAnswer is the design's simple answer (1 to 4 sentences); list is its optional step,
 // condition or exception list. Together they form the direct answer for every coverage check.
 export type StructuredDraft = { directAnswer: Claim[]; list: Claim[]; explanation: AnswerSection[]; notEstablished: string[]; claims: Claim[] };
-export type StructuredDraftResult = { ok: true; answer: StructuredDraft } | { ok: false; reason: string };
+export const NO_ANSWER_REASONS = ["missing_evidence", "incomplete_conditions", "ambiguous_scope", "unsafe_context", "cannot_paraphrase"] as const;
+export type NoAnswerFeedback = { missing_requirement_ids: string[]; reason_code: typeof NO_ANSWER_REASONS[number] };
+export function parseNoAnswerFeedback(raw: unknown, requirementIds: string[]): NoAnswerFeedback | null {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
+  const r = raw as Record<string, unknown>;
+  if (!Array.isArray(r.missing_requirement_ids) || !r.missing_requirement_ids.length
+    || r.missing_requirement_ids.length > requirementIds.length
+    || !r.missing_requirement_ids.every((id) => typeof id === "string" && requirementIds.includes(id))
+    || new Set(r.missing_requirement_ids).size !== r.missing_requirement_ids.length
+    || !NO_ANSWER_REASONS.includes(r.reason_code as NoAnswerFeedback["reason_code"])) return null;
+  return { missing_requirement_ids: [...r.missing_requirement_ids], reason_code: r.reason_code as NoAnswerFeedback["reason_code"] };
+}
+export type StructuredDraftResult = { ok: true; answer: StructuredDraft } | { ok: false; reason: string; feedback?: NoAnswerFeedback };
 
 // Design section 4.3. The total counts every AI-written cited item (sentences and list items).
 export const DRAFT_LIMITS = {
@@ -196,7 +209,12 @@ export function parseStructuredDraft(raw: unknown, citable: SourceText[], langua
   questionType: string): StructuredDraftResult {
   if (!raw || typeof raw !== "object") return { ok: false, reason: "malformed" };
   const record = raw as Record<string, unknown>;
-  if (record.status === "no_answer") return { ok: false, reason: "model_no_answer" };
+  if (record.status === "no_answer") {
+    if (!policy.requireNoAnswerFeedback) return { ok: false, reason: "model_no_answer" };
+    if (!["simple_answer", "list", "more_explanation", "limit_note"].every((field) => Array.isArray(record[field]) && (record[field] as unknown[]).length === 0)) return { ok: false, reason: "no_answer_feedback_invalid" };
+    const feedback = parseNoAnswerFeedback(record.no_answer_feedback, policy.requirements.map((r) => r.id));
+    return feedback ? { ok: false, reason: "model_no_answer", feedback } : { ok: false, reason: "no_answer_feedback_invalid" };
+  }
   const finish = (answer: StructuredDraft): StructuredDraftResult => {
     // Every requested point must be answered in the simple answer or its list, not only in the fold.
     const direct = [...answer.directAnswer, ...answer.list];

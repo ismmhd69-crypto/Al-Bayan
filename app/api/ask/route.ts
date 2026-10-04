@@ -5,6 +5,8 @@ import { askEnabled, takeSlot, visitorKey, withSlot } from "@/lib/ask/limits";
 import { GoogleBusyError } from "@/lib/ai/gemini";
 import { sameOrigin } from "@/lib/same-origin";
 import { attachScholarTranslations } from "@/lib/ask/display-translations";
+import { MAX_ASK_BODY_BYTES, parseUserHistory } from "@/lib/ask/conversation";
+import { getDictionary } from "@/lib/i18n";
 
 // Privacy (plan section 10): the question text is never logged, stored or put in a URL.
 // Errors are logged without the question.
@@ -12,7 +14,7 @@ import { attachScholarTranslations } from "@/lib/ask/display-translations";
 export const maxDuration = 60;
 
 const MAX_QUESTION = 500;
-const MAX_BODY_BYTES = 4096;
+const MAX_BODY_BYTES = MAX_ASK_BODY_BYTES;
 const noStore = { "Cache-Control": "no-store" };
 
 const reply = (status: string, code = 200) => NextResponse.json({ status }, { status: code, headers: noStore });
@@ -38,18 +40,23 @@ export async function POST(request: Request) {
     return reply("bad_request", 400);
   }
 
-  const { question, lang } = (body ?? {}) as { question?: unknown; lang?: unknown };
+  const { question, lang, previous_user_messages, supports_clarification } = (body ?? {}) as { question?: unknown; lang?: unknown; previous_user_messages?: unknown; supports_clarification?: unknown };
   if (typeof question !== "string" || !question.trim() || typeof lang !== "string" || !isLocale(lang)) {
     return reply("bad_request", 400);
   }
   if (question.length > MAX_QUESTION) return reply("too_long", 413);
+  const history = parseUserHistory(previous_user_messages);
+  if (history === null) return reply("bad_request", 400);
 
   try {
-    const result = await withSlot(() => ask(question.trim(), lang));
+    const result = await withSlot(() => history.length ? ask(question.trim(), lang, undefined, history) : ask(question.trim(), lang));
     if (result.status === "answer" && result.answer.v2) {
       result.answer.v2 = await attachScholarTranslations(result.answer.v2);
     }
-    return NextResponse.json(result, { headers: noStore });
+    // Older clients understand no_summary. They retain a safe readable response instead of an
+    // unknown-status error; new clients advertise support and receive clarification controls.
+    return NextResponse.json(result.status === "clarify" ? { ...result, status: supports_clarification === true ? "clarify" : "no_summary", text: getDictionary(result.language).ask.clarify,
+      clarification: { ...result.clarification, prompt: getDictionary(result.language).ask.clarify } } : result, { headers: noStore });
   } catch (err) {
     // Google busy on every door: say so, so the visitor knows it is not their question.
     // A deadline hit (slow AI) is shown the same way.

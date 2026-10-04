@@ -11,16 +11,17 @@ import { takePendingQuestion } from "@/lib/pending";
 import { Beacon } from "./Logo";
 import { AnswerV2View } from "./AnswerV2View";
 import { cleanHadithMarkup } from "@/lib/sources/hadith-markup";
+import { previousUserMessages } from "@/lib/ask/conversation";
 
 type AskText = Dictionary["ask"];
 
-type Reply = { kind: "not_ready" } | { kind: "no_summary" } | { kind: "text"; text: string } | { kind: "answer"; answer: Answer };
+type Reply = { kind: "not_ready" } | { kind: "no_summary" } | { kind: "clarify"; choices: string[] } | { kind: "text"; text: string } | { kind: "answer"; answer: Answer };
 export type NewMessage = { role: "user"; text: string } | { role: "bayan"; reply: Reply };
 type Message = NewMessage & { id: number };
 
 const MAX = 500;
 // Only real answers and the fixed "no source / personal / out of scope" replies are worth saving in a chat.
-const SAVED_STATUSES = new Set(["answer", "no_source", "no_summary", "ask_scholar", "out_of_scope"]);
+const SAVED_STATUSES = new Set(["answer", "no_source", "no_summary", "ask_scholar", "out_of_scope", "clarify"]);
 
 export default function AskChat({
   lang,
@@ -77,12 +78,14 @@ export default function AskChat({
       const res = await fetch("/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question, lang }),
+        body: JSON.stringify({ question, lang, previous_user_messages: previousUserMessages(messages), supports_clarification: true }),
       });
-      const data = (await res.json()) as { status?: string; answer?: Answer };
+      const data = (await res.json()) as { status?: string; answer?: Answer; clarification?: { choices?: string[] } };
       const reply: Reply =
         data.status === "answer" && data.answer
           ? { kind: "answer", answer: data.answer }
+          : data.status === "clarify"
+            ? { kind: "clarify", choices: (data.clarification?.choices ?? []).filter((choice) => typeof choice === "string" && choice.length <= 80).slice(0, 2) }
           : data.status === "not_ready"
             ? { kind: "not_ready" }
             : data.status === "no_source"
@@ -104,6 +107,7 @@ export default function AskChat({
         if (reply.kind === "answer") onExchange(question, { kind: "answer", answer: reply.answer });
         else if (reply.kind === "text") onExchange(question, { kind: "text", text: reply.text });
         else if (reply.kind === "no_summary") onExchange(question, { kind: "text", text: t.noSummary });
+        else if (reply.kind === "clarify") onExchange(question, { kind: "text", text: [t.clarify, ...reply.choices].join(" ") });
       }
       push({ role: "bayan", reply });
     } catch {
@@ -168,6 +172,8 @@ export default function AskChat({
               <span className="sr-only">{t.bayan}: </span>
               {m.reply.kind === "text" ? (
                 <p role="status">{m.reply.text}</p>
+              ) : m.reply.kind === "clarify" ? (
+                <ClarificationView choices={m.reply.choices} prompt={t.clarify} busy={busy} onChoose={(choice) => void send(choice)} />
               ) : m.reply.kind === "no_summary" ? (
                 <div role="status" className="answer-empty">
                   <p>{t.noSummary}</p>
@@ -235,6 +241,11 @@ export default function AskChat({
       </form>
     </div>
   );
+}
+
+export function ClarificationView({ choices, prompt, busy, onChoose }: { choices: string[]; prompt: string; busy: boolean; onChoose: (choice: string) => void }) {
+  return <div role="status"><p>{prompt}</p><ul className="chips">{choices.map((choice) =>
+    <li key={choice}><button type="button" className="chip" disabled={busy} onClick={() => onChoose(choice)}>{choice}</button></li>)}</ul></div>;
 }
 
 // Until the source library exists, Bayan says so and shows the answer layout with no content in it.

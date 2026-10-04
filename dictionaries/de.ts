@@ -113,6 +113,7 @@ const de: typeof en = {
     noSummary:
       "Wir haben Quellen dazu gefunden, konnten aber keine kurze Antwort schreiben, die wir zuverlässig prüfen können. Bitte frag einen qualifizierten Gelehrten, dem du vertraust, oder stelle eine engere Frage.",
     noSummaryBrowse: "Schwierige Fragen ansehen",
+    clarify: "Bitte ergänze ein paar Details, damit wir verstehen, was du meinst.",
     outOfScope: "Ich beantworte nur Fragen zum Islam, aus vertrauenswürdigen Quellen. Was möchtest du wissen?",
     busy: "Der KI-Dienst ist gerade stark ausgelastet. Bitte versuch es in einer Minute noch einmal.",
     rateLimited: "Du hast in kurzer Zeit viel gefragt. Bitte warte ein paar Minuten und versuch es noch einmal.",

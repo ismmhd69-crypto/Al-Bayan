@@ -31,4 +31,10 @@ describe("writer receives eligible wording", () => {
     if (s.kind === "hadith") s.hadith.arabic = "  ";
     expect(() => sealedPackageJson(pack(s), "en", true)).toThrow("sealed_source_text_missing");
   });
+  it("cannot rely on a translation that is absent from the actual English payload", () => {
+    const s = source({ en: null, de: "Authoritative German" });
+    if (s.kind === "hadith") s.hadith.arabic = "";
+    expect(() => sealedPackageJson(pack(s), "en", true)).toThrow("sealed_source_text_missing");
+    expect(sealedPackageJson(pack(s), "de", true).passages[0]).toHaveProperty("translation_de", "Authoritative German");
+  });
 });

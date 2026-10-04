@@ -11,7 +11,8 @@ import { getMappedScholarQuote, searchScholarsLive } from "@/lib/sources/scholar
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 import { searchVideos } from "@/lib/sources/videos";
 import { runPipeline, type AskResult, type PipelineDeps } from "./core";
-import { askClaimAudit, askDeadlineMs, askMaxVideos, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
+import { askClaimAudit, askDeadlineMs, askLibraryFlow, askMaxVideos, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
+import type { SearchOptions } from "@/lib/sources/search-audit";
 import { approvedForQuestion } from "./approved";
 import { loadPrepared } from "@/lib/prepared";
 import { getReviewDecisions, getTopics } from "@/lib/content";
@@ -32,11 +33,11 @@ const LIVE_TIMEOUT_MS = 7_000;
 
 // Checked mapped pages first; otherwise stored library and live quotes, without repeating a page.
 // A slow website only loses its own quotes, never the library's.
-export async function scholarQuotes(phrases: string[], mappedUrls: string[] = []): Promise<ScholarQuote[]> {
+export async function scholarQuotes(phrases: string[], mappedUrls: string[] = [], options: SearchOptions = {}): Promise<ScholarQuote[]> {
   // Checked pages rank first, but a broad mapped page must not suppress a more specific library or
   // live result needed for another requested point.
   const mapped = Promise.all(mappedUrls.slice(0, 2).map((url) => getMappedScholarQuote(url).catch(() => null)));
-  const live = LIVE_ON
+  const live = LIVE_ON && !options.allVariants
     ? Promise.race([
         searchScholarsLive(phrases).catch(() => [] as ScholarQuote[]),
         new Promise<ScholarQuote[]>((resolve) => setTimeout(() => resolve([]), LIVE_TIMEOUT_MS)),
@@ -44,7 +45,7 @@ export async function scholarQuotes(phrases: string[], mappedUrls: string[] = []
     : Promise.resolve([] as ScholarQuote[]);
   const [direct, stored, fresh] = await Promise.all([
     mapped.then((items) => items.filter((quote): quote is ScholarQuote => !!quote)),
-    phrases.length ? searchScholarQuotes(phrases, 6).catch(() => [] as ScholarQuote[]) : Promise.resolve([] as ScholarQuote[]),
+    phrases.length ? searchScholarQuotes(phrases, 6, options).catch(() => [] as ScholarQuote[]) : Promise.resolve([] as ScholarQuote[]),
     live,
   ]);
   const seen = new Set<string>();
@@ -80,9 +81,11 @@ export async function askPreparedOnly(question: string): Promise<AskResult | nul
   return answer ? { status: "answer", answer } : null;
 }
 
-export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection">): Promise<AskResult> {
+export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection" | "onCoverage">, previousUserMessages: string[] = []): Promise<AskResult> {
+  const requestStarted = Date.now();
   // Evaluation traces measure the live pipeline, so they skip prepared answers.
-  const prepared = trace ? null : await askPreparedOnly(question);
+  const libraryFlow = askLibraryFlow();
+  const prepared = trace || (libraryFlow && previousUserMessages.length) ? null : await askPreparedOnly(question);
   if (prepared) return prepared;
   const writer = getProvider();
   const verifier = getVerifier();
@@ -91,14 +94,19 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
   const onDiagnostic = diagnosticLogger(process.env.ASK_DEBUG === "true", {
     requestId: randomUUID(), revision: process.env.VERCEL_GIT_COMMIT_SHA,
     writerChain: writer.id, verifierChain: verifier.id,
-    claimAudit, tiered, lean: process.env.ASK_LEAN === "true",
+    claimAudit, tiered, lean: process.env.ASK_LEAN === "true", libraryFlow,
   }, (line) => console.info(line));
+  onDiagnostic("retrieval", `hadith_mode_${HADITH_MODE}`, Date.now() - requestStarted);
+  if (!SCHOLARS_ON) onDiagnostic("retrieval", process.env.SCHOLAR_QUOTES === "off"
+    ? "scholar_disabled" : "scholar_server_configuration_missing", Date.now() - requestStarted);
   return runPipeline(question, uiLanguage, {
     ...trace,
     writer,
     verifier,
     deadlineMs: askDeadlineMs(),
     claimAudit,
+    libraryFlow,
+    previousUserMessages,
     ...(process.env.ASK_LEAN === "true" ? { candidateLimits: { ...LEAN_CANDIDATE_LIMITS } } : {}),
     // ASK_TIERED=true: Quran, then hadith, then fatwas, then videos (read per question so it can be switched).
     ...(tiered ? { tiered: { videoBudgetMs: askVideoBudgetMs(), maxVideos: askMaxVideos() } } : {}),
@@ -109,9 +117,23 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
     // Off unless HADITH_SOURCE=hadeethenc, so it can be switched off instantly.
     ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8), getHadith } : {}),
     // Stored hadith from our own library (Sunnah.com text). Needs the server's secret key.
-    ...(HADITH_MODE === "library" ? { searchHadith: searchLibraryHadith, getHadith: getLibraryHadith } : {}),
+    ...(HADITH_MODE === "library" ? { searchHadith: (queries) => searchLibraryHadith(queries, {
+      onAudit: (audit) => {
+        if (audit.configurationMissing) onDiagnostic("retrieval", "hadith_server_configuration_missing", Date.now() - requestStarted);
+        for (const [name, count] of Object.entries(audit)) if (typeof count === "number" && count > 0)
+          onDiagnostic("retrieval", `hadith_${name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`)}_${count}`, Date.now() - requestStarted);
+      },
+    }), getHadith: getLibraryHadith } : {}),
     // Short quotes of approved scholars from our private library (rights: short quotes, permission pending).
-    ...(SCHOLARS_ON ? { searchScholars: (phrases: string[], mappedUrls?: string[]) => scholarQuotes(phrases, mappedUrls) } : {}),
+    ...(SCHOLARS_ON ? { searchScholars: (phrases: string[], mappedUrls?: string[]) => scholarQuotes(phrases, mappedUrls, {
+      allVariants: libraryFlow,
+      onAudit: (audit) => {
+        if (audit.configurationMissing) onDiagnostic("retrieval", "scholar_server_configuration_missing", Date.now() - requestStarted);
+        for (const [name, count] of Object.entries(audit)) if (typeof count === "number" && count > 0)
+          onDiagnostic("retrieval", `scholar_${name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`)}_${count}`, Date.now() - requestStarted);
+      },
+    }) } : {}),
+    ...(libraryFlow && LIVE_ON && SCHOLARS_ON ? { searchScholarsLive } : {}),
     // Related clips from the approved YouTube channels, shown under the answer (never evidence).
     ...(VIDEOS_ON ? { searchVideos: (phrases) => searchVideos(phrases) } : {}),
     // Reason codes only, never the question. Local testing only.

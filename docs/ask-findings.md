@@ -70,3 +70,30 @@ The writer serializer removed Arabic from Quran and hadith regardless of whether
 
 The repair retains original Arabic whenever the requested-language authoritative translation is absent, and for all Arabic answers. Metadata-only sealed sources now fail before model dispatch. Display-only AI translations still enter only after screening; their publication and approval states are unchanged. Regression tests inspect the actual writer request, alongside an English/German/Arabic serialization matrix. This proves wording delivery, not model understanding or religious answer accuracy.
 
+## Library reliability implementation and measured boundaries
+
+Read-only audit at `2026-10-04T15:32:54.507Z`: 14,629 published hadith and 7,255 published fatwa extracts. English/German translation rows linked to published sources number 7,461 each for hadith and 7,255 each for fatwas; none of those translation rows are published. Total fatwa translation rows are 7,324 per language, including other source publication states. No publication, rights or approval status was changed.
+
+Local `HADITH_SOURCE=hadeethenc` selects the external service rather than this stored library. The matched test profile explicitly selects `library` in its process. The deployed configuration/revision was not independently verified in this task.
+
+Four fixed Arabic probes demonstrate reader recall differences, with independent relevance still unmeasured:
+
+| Probe | Old eligible scholar results returned | Revised results returned | Hadith returned |
+|---|---:|---:|---:|
+| Intentions | 1 | 6 | 8 |
+| Promises | 0 | 0 | 8 |
+| Voluntary charity | 2 | 2 | 8 |
+| Zakat amount | 2 | 6 | 8 |
+
+Old scholar search stopped after its first nonempty RPC result, even when the result contained a competing kind or all title-filtered extracts. Revised search examines at most four bounded variants in parallel within the existing 50-result mixed ceiling and interleaves before filtering/capping. Reader return caps and final evidence caps are unchanged. Across these probes, examined scholar hits rose from 26 to 104, eligible hits from 5 to 27, and returned results from 5 to 14. Title losses were 20 before and 76 after; the latter reflects examining more hits, not weakening the filter. Wrong-kind/unavailable loss was one in either path. Promises scholar retrieval remains a gap in this probe.
+
+The hadith reader already searched variants in parallel. Its four probes examined 234 distinct hits within individual probes (aggregated, not globally unique), lost 33 to mixed-kind/unavailable rows, five to the existing length rule and 18 to continuation reports; 178 were eligible and 32 returned under caps. Every probe encountered a 50-result ceiling. Missing text/authenticity losses were zero in these probes, not proven zero across the library. Rights-blocked rows hidden by the RPC are not measurable from these hits.
+
+Recorded writer replay confirms missing hadith wording **32 before → 0 after**, with no missing replay originals. These are appearances including retries, not answer counts. Evidence files: `ask-repair-runs/library-audit.json` and `ask-repair-runs/wording-replay.json`.
+
+The experimental `ASK_LIBRARY_FLOW` adds per-point/group search, candidate reservation, bounded user-only history, two-meaning planning, localized clarification, and validated selector/writer disagreement feedback inside existing corrections. Query provenance never grants direct support. Search hints/history are excluded from answer evidence. Whole corrected answers are screened; failed claims are not removed to publish the remainder. `ASK_LIBRARY_FLOW` and `ASK_CLAIM_AUDIT` remain off by default; tiered mode and model/deadline/token/retry limits are unchanged.
+
+The 44-case multilingual manifest was frozen before calls, including the original 26, promises, equivalent wording, charity ambiguity and follow-ups. Complete accepted success requires original-source review, all requested points, and support; clarifications and partial/unreviewed answers remain separate. Music's expected refusal and original 23/adjusted 22 denominators remain recorded. The 85% target must pass both original and expanded answerable subsets.
+
+Final offline proof: 647 tests across 51 files, full TypeScript check and production build pass. Actual model evaluations stopped before the first call due to the old unsettled reservation. No new answer-rate, refusal-frequency, source-share, accuracy or latency result is available. The original ledger hash is unchanged; new model cost is $0.00. Repeated rounds, saved/live separation measurements, six new original-source reviews and claim-audit detection/speed gates remain incomplete. See `ask-fix-report.md` for complete configuration, costs and rollout limits.
+

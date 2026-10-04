@@ -1,141 +1,191 @@
-# Ask repair report
+# Ask library repair report — 4 October 2026
 
-Date: 2026-10-04. Local work only. Findings: `ask-findings.md`. Raw public-test records and shared cost ledger: `ask-repair-runs/`.
+## Delivery status
 
-## Current status
+The confirmed source-wording fault is repaired and tested. The broader search, question planning, clarification and follow-up work is implemented behind `ASK_LIBRARY_FLOW`, **off by default**. `ASK_CLAIM_AUDIT` remains **off**. Neither the 85% answer target nor the real-model accuracy and speed gates have been proved for this implementation.
 
-Partial implementation, stopped under the agreed spending rule. The required repeated measurements, 85% target and safety acceptance were not achieved. Do not deploy this as a proven reliability fix. No database writes or manual hosting changes were made. Mo subsequently authorized pushing; the original repair and build-type correction were pushed to main. This follow-up includes only its own repair files.
+Work is isolated on `ask-library-reliability`, starting from `e0b487f`. Commit `9dd6213` contains the confirmed wording repair separately. The subsequent branch commit contains the experimental flow, evaluation tools and this report. Only this task's files are included. Main, translation work, database contents, hosting settings and deployment were not changed. Branch push details are recorded in the delivery message; pushing the repair branch does not establish acceptance on the live website.
 
-## What changed
+## What was actually broken
 
-- The writer sees the existing 300-character sentence and 160-character list limits on the first request and in the response schema. Code still rejects excess length; nothing is truncated.
-- The attribution correction explains exactly why a Quran sentence cannot impersonate a hadith and why a scholar-only sentence cannot be presented as Quran. Existing source-kind checks are unchanged.
-- OpenRouter responses with `finish_reason=length` are rejected before JSON extraction, so an inner object from an incomplete reply cannot masquerade as a complete selection. The existing model chain can fall back. A larger same-model retry was tested, used more reasoning and time, and was removed from the final code. This final fallback variant has offline tests but no completed live measurement.
-- Writer and checker instructions explicitly prohibit inventing a causal link between adjacent source statements and broadening a scholar's stated scope.
-- The existing separate Quran/hadith/fatwa selection remains behind `ASK_TIERED`. Its existing safety and source rules stay in place. The prompts clarify that introducing a ruling with “The Quran states” does not bypass the approved-scholar requirement.
-- Optional video search/checking is bounded independently by the remaining answer deadline. Errors or ignored cancellation cannot swallow a checked answer. Default tiered eligibility is 20 seconds; cap is four videos.
-- Ask can reuse the 12 approved topic answers through `ASK_APPROVED_TOPICS`, default on when prepared publishing is on. Topic question wording is read from published database rows; approval status, exact file hash, independent same-question verdict and the existing source loader must all pass. A read-only check confirmed all 12 topic approvals currently match; 31/32 common approvals match, with music deliberately unavailable.
-- A durable, locked experiment ledger reserves a conservative allowance before every paid call. It applies provider price ceilings, counts retries/fallbacks and retains reservations if billing is unknown. It never stores headers or keys.
-- Generated batch/translation-output scripts are excluded from the website build. Maintained scripts remain checked; `.ts` imports are allowed under the existing no-emit configuration.
+Stored hadith supplied readable Arabic, but their authoritative English/German translations were absent. The writer request then removed Arabic anyway. The writer received source IDs and metadata without the words it was supposed to explain. Having the hadith in the database did not mean the model received it.
 
-## Measurements
+The repair preserves Arabic whenever the requested-language authoritative translation is absent, and for Arabic answers. A source without readable wording in its actual serialized payload cannot be dispatched. An eligible English translation still uses the existing short English payload. Scholar originals remain available. Unpublished or display-only AI translations are not promoted to authoritative evidence.
 
-All live rounds bypassed approved-answer reuse. These are pipeline answer counts, not proof that every answer is correct. Music was declared an expected refusal before testing. The original denominator includes music; the adjusted denominator excludes it.
+Exact recorded-source replay:
 
-| Run | Cases | Answerable answered | Original denominator | Median / p95 | Known round cost | Cost per returned answer |
-|---|---:|---|---|---|---:|---:|
-| Baseline 1 | 26 | 16/22 (72.7%) | 16/23 (69.6%) | 16.7 / 27.2 s | $0.18666 including a repeated lost checkpoint | $0.01167 |
-| Exploratory tiered pilot | 26 | 15/22 (68.2%) | 15/23 (65.2%) | 19.5 / 26.4 s | $0.22548 | $0.01503 |
-| Interrupted repaired trial | 11 | 6/10 (60.0%), incomplete subset | 6/11 (54.5%) | 20.2 / 50.0 s | $0.10534 plus unknown final call | at least $0.01756 |
+| Recorded run | Stored-hadith appearances, including retries | Missing wording before | Missing wording after |
+|---|---:|---:|---:|
+| Baseline 1 | 4 | 4 | 0 |
+| Tiered pilot 1 | 28 | 28 | 0 |
+| Total | 32 | 32 | 0 |
 
-Both complete runs correctly refused all four expected refusal cases. The partial run reached music and refused it; it stopped before the personal/off-topic cases. It had one deadline error. The partial trial used the subsequently removed larger retry and is not a measurement of the final code.
+All 32 appearances were replayable from their recorded selected originals. This proves source delivery, not that the models understand every passage or produce accurate complete answers. Evidence: `ask-repair-runs/wording-replay.json`; reproducible with `scripts/replay-ask-wording.ts`.
 
-Source shares count cited evidence entries, not sentences or correctness: baseline Quran 20/30 (66.7%), hadith 2/30 (6.7%), fatwas 8/30 (26.7%); pilot 22/36 (61.1%), 2/36 (5.6%), 12/36 (33.3%); partial 8/14 (57.1%), 0/14, 6/14 (42.9%). Tiering did not raise the hadith share in this trial.
+## Library and retrieval audit
 
-Confirmed total experiment spending is **$0.51748087**. An aborted checker request has an unresolved **$0.113472** reservation, so conservative total exposure is **$0.63095287**, below $1.50. The durable ledger is stopped and must not be reset or its reservation released without billing evidence. Across 37 returned answers, total experiment cost per returned answer is at least **$0.01399**, or $0.01705 using conservative exposure. These are experimental returns, not 37 independently accepted answers.
+A read-only audit of the configured database at `2026-10-04T15:32:54.507Z` found:
 
-The second baseline and second repaired rounds at least 30 minutes apart were **not run**. Approved reuse has unit tests and read-only approval/hash confirmation, but no separate paid timing/answer-rate measurement. Stored answers did not hide live failures. The 85% target remains unmet, and tiered mode stays **off by default**.
+| Sources | Published source rows | English translation rows linked to published sources | German translation rows linked to published sources | Published translation rows |
+|---|---:|---:|---:|---:|
+| Hadith | 14,629 | 7,461 | 7,461 | 0 in either language |
+| Fatwa extracts | 7,255 | 7,255 | 7,255 | 0 in either language |
 
-### Six answers read against their recorded sources
+There are 7,324 total fatwa translation rows per language, including rows linked to other source publication states. The extra 69 per language are not counted as published-source coverage. These counts were read directly; no rows, rights or approvals were edited.
 
-| Answer | Review result |
-|---|---|
-| Exact Quran preservation question | Quran 15:9 claim is supported. The Ibn Baz paraphrase removes the source's tentative qualifier about a possible reason; this is a confidence concern. |
-| Zakah | Quran instructions are supported. Scholar summaries broaden specific ownership and earmarked-fund cases and omit conditions; full coverage is not established. |
-| Fasting | Mindfulness claim matches 2:183. The draft infers a causal link between Ramadan fasting and revelation from 2:185; the source does not explicitly establish that causal claim. This fails manual acceptance. |
-| Divorce | The verse-based permission and omitted scholar conditions raise a ruling-support concern despite the automatic checker accepting it. |
-| Hijab | Recorded verse and explicitly attributed Ibn Baz explanations support the returned claims; this is a named view, not proof of consensus. |
-| Suffering | The narrow claim about trials with good and bad matches 21:35. |
+The same four fixed Arabic search probes compared the old first-hit scholar path with the revised bounded variant search:
 
-These concerns mean safety acceptance is incomplete. No source rule was weakened, but passing automated checks was insufficient. Further answer tuning stopped; these results cannot justify enabling tiered mode or claiming the root cause fully repaired.
+| Probe | Eligible scholar results returned before | Returned after | Hadith results returned |
+|---|---:|---:|---:|
+| Intentions | 1 | 6 | 8 |
+| Promises | 0 | 0 | 8 |
+| Voluntary charity | 2 | 2 | 8 |
+| Zakat amount | 2 | 6 | 8 |
+| Total across probes | 5 | 14 | 32 |
 
-## Verification
+The scholar return cap stayed six per reader call; the pipeline candidate/package caps stayed unchanged. The revised path examines up to four existing query variants, each within the existing mixed 50-result RPC ceiling, before applying the same title and eligibility rules. The promises probe still found no eligible scholar extract; Quran/hadith support and question completeness require separate selection.
 
-Final full suite: **543 tests pass in 42 files**. Regression coverage includes length, source competition/caps/order/empty tiers, video deadlines, topic matching/hash/source validation, incomplete OpenRouter responses and the shared spending guard. Existing unsupported-claim, invented-ID, unsafe-context, incomplete-answer, invalid-hadith, unapproved-scholar and writer/checker separation tests remain passing.
+Filter losses in these probes:
 
-The original full checks failed on the maintained translation-validator type error. After Mo supplied the matching deployment error, commit `648b0fd` corrected its types without changing validation behavior. The current full typecheck and production build both pass; maintained scripts remain checked.
+- Hadith: 234 distinct hits within each probe, aggregated across probes; 33 were another kind or unavailable when read, 5 exceeded the existing 2,500-character limit, and 18 were continuation reports. 178 survived reader filtering; 32 were returned under the existing eight-result cap. Each probe hit the RPC ceiling at least once.
+- Scholar old path: 26 examined, one wrong-kind/unavailable, 20 removed by title relevance, five eligible and returned.
+- Scholar revised path: 104 examined, one wrong-kind/unavailable, 76 removed by title relevance, 27 eligible and 14 returned under the reader caps. The zakat probe hit the mixed RPC ceiling.
+- Missing wording and authenticity losses were zero in these four probes. That does not establish zero losses across the whole library. Rights-blocked rows are hidden by the RPC, so their count cannot be inferred from returned hits.
 
-## What Mo must set in Vercel
+These are eligible retrieval candidates, **not independently confirmed answers or point coverage**. A candidate count includes neither semantic support nor completeness. Audit evidence is in `ask-repair-runs/library-audit.json`; the maintained read-only runner is `scripts/audit-ask-library.ts`.
 
-Use the **Production** environment for project **al-bayan**. These are instructions only; no settings were changed.
+## Broader flow implemented, awaiting live acceptance
 
-| Variable | Value |
+With `ASK_LIBRARY_FLOW=true` in an isolated test process:
+
+- Question planning identifies up to four requested points, essential question conditions and at most two interpretations. Each point has bounded source-language queries. Queries suggest search terms only; they are removed from the selector's question meaning and the writer's sealed evidence package.
+- Each point searches Quran, hadith and scholar groups separately in parallel. Results are interleaved across bounded variants. Candidate ranking reserves places for different points within the current per-group caps. Search provenance is a ranking hint; only the independent selector can establish relevance, context safety and supported points.
+- Stored scholar extracts are primary. Existing mapped source pages remain available. General live scholar search is used only for a point still missing after stored selection, inside the existing single selection correction and deadline. Invented IDs and unsafe context do not trigger this recovery.
+- The request can carry at most four earlier **user** messages, each at most 500 characters. Only question planning receives them. Every answer retrieves fresh evidence; previous AI answers never become evidence. Prepared reuse is skipped for contextual follow-ups.
+- Ambiguities can cover two meanings with separately identified, cited sentences when both are supported. Otherwise the response requests one short clarification. English, German and Arabic have localized prompts. Only reviewed neutral charity/zakat topic names become clickable choices; arbitrary model wording cannot become an unchecked religious statement.
+- Clarifications save through the existing text exchange format. Reopened chats retain the question history and clarification text; their old clarification buttons are not reconstructed. Typed follow-ups still work. Older clients receive their supported `no_summary` status instead of an unknown status; their older fixed wording will not show the new clarification controls until refreshed.
+- The API body allowance is 12,288 bytes to fit bounded Unicode history. Missing history remains compatible with the previous request shape; oversize/malformed history is rejected.
+- A writer decline must name known missing requirement IDs and a bounded reason code. Malformed feedback fails. Valid selector/writer disagreement reuses the existing wording correction against the same sealed source package. No feedback supplies facts. Unsafe-context feedback is not retried into an answer. The whole corrected answer is screened again.
+- Missing evidence, clarification, failure to produce a checked explanation and personal-scholar referral have distinct response paths. A writer decline after selection no longer pretends retrieval found nothing in the experimental flow.
+- Direct answers still come first. Required points, conditions and procedures must be covered; extra explanation must add distinct supported detail. Sentence/list limits, citation checks, whole-answer fairness/completeness and approved-scholar support remain enforced.
+
+The writer/checker model chains, 50-second default deadline, output allowances, four-draft maximum and selection/screening correction limits are unchanged. The new planning fields must fit the existing 900-token allowance; their real-model completion rate remains unmeasured. Tiered mode was not promoted. No embeddings, new providers, tafsir, indexes, chunking or wider final evidence limits were introduced.
+
+## Offline proof
+
+Final verification: **647 tests in 51 files pass**, `npx tsc --noEmit --incremental false` passes, and `npm run build` passes with 44 generated pages. Next's existing `metadataBase` warning is unrelated and non-blocking. A first build attempt could not use a dependency junction; an isolated local dependency copy resolved that workstation issue.
+
+Regression tests cover actual empty stored-hadith writer requests; absent English/German translations and Arabic output; metadata-only payloads; per-point/group retrieval; first-hit search stopping; candidate reservation and caps; query hints excluded from evidence; exact decline feedback; successful correction and continued refusal; full rescreening; ambiguous meanings; user-only conversation references; personal context; multilingual/older-client clarification; and frozen evaluation boundaries.
+
+Existing tests for invented citations, unsupported claims, changed audiences, lost conditions, inferred causes, unsafe context, invalid hadith, unapproved scholars, incomplete procedures and overlapping writer/checker models remain passing. Flag-off controlled request compatibility tests still pass. Generated batch exclusions remain unchanged; application code, tests and these maintained scripts are typechecked.
+
+Mocked enforcement tests cannot prove that an actual model detects a subtle distortion. The previous 72-case claim-audit set and its real-model gates remain outstanding.
+
+## Frozen evaluations and live results
+
+The new manifest contains **44 cases**: the original 26 plus promises, rewording, charity ambiguity and follow-up sequences in English, German and Arabic. Expected points, source suitability and refusals were frozen before model calls. SHA-256: `0467f5de302aae918e36ad47ae36c43f771f6879c726e4384b3666ea1b784b00`.
+
+Its expectations are review criteria, not proof that suitable full evidence exists for every point. Music was declared an expected safe refusal in advance. The original answerable denominator of 23 remains documented; the adjusted original denominator is 22.
+
+`scripts/evaluate-ask-library.ts` uses the actual pipeline/request builder, records retrieved/candidate/selected/writer-stage point counts separately, and privately captures controlled model requests and responses without headers or keys. Search-stage counts are query provenance, not supported-point verdicts. Live mode bypasses saved answers; approved reuse is a separate mode. Clarifications, unreviewed answers, partial answers, complete supported answers and refusals remain separate. Round 2 requires a complete matched first round at least 30 minutes old. Output files cannot overwrite earlier rounds.
+
+Acceptance requires at least 85% reviewed complete supported answers both in the new answerable set and in the original 22-case answerable subset, no known unsupported evaluated claims, no unsafe answers to expected refusal cases, completed repeated rounds, the agreed claim-audit gates, and at most 10% median/p95 slowdown. Extra successes cannot conceal missing original points. Manual original-source review is still required; the runner does not automatically approve answers or enable production flags.
+
+**No paid live questions ran for this repair.** The attempt stopped before loading providers or issuing its first call: `unsettled earlier call; reconcile before continuing`. New answer rates, refusal frequencies, source shares and median/p95 times are therefore unavailable. `ask-repair-runs/library-evaluation-status.json` records the block.
+
+Historical results below predate this repair and cannot be presented as its after-results:
+
+| Earlier run | Cases | Answerable returned | Original denominator | Median / p95 | Known cost |
+|---|---:|---|---|---|---:|
+| Baseline 1 | 26 | 16/22, 72.7% | 16/23, 69.6% | 16.7 / 27.2 s | $0.18665505, including repeated checkpoint work |
+| Tiered pilot | 26 | 15/22, 68.2% | 15/23, 65.2% | 19.5 / 26.4 s | $0.22548205 |
+| Interrupted repaired trial | 11 | 6/10, 60.0%, incomplete subset | 6/11, 54.5% | 20.2 / 50.0 s | $0.10534377 plus unresolved final call |
+
+Historical cited source shares: baseline Quran/hadith/fatwa 20/2/8 (66.7%/6.7%/26.7%); pilot 22/2/12 (61.1%/5.6%/33.3%); partial trial 8/0/6 (57.1%/0%/42.9%). These count evidence entries, not correct claims.
+
+Earlier baseline final failures included attribution correction, incomplete direct evidence, copied wording, multiple sentences in one claim and the intentional why-five-prayers source gap. Music, personal circumstances and two off-topic cases were expected refusals. The interrupted trial had a deadline failure. Earlier six-answer original-source review found a fasting causal inference, a removed tentative qualifier in preservation, and scope/condition concerns in zakah/divorce; it did not establish safety acceptance. Six new successful answers cannot be reviewed because the new live run has not occurred.
+
+Both second baseline/repaired rounds at least 30 minutes apart remain incomplete. Separate saved-answer measurement, multilingual original-source review and claim-audit real-model detection (all deliberately wrong summaries rejected, at least 95% faithful accepted) remain incomplete. The 85% reliability target is **unproved**, and earlier returned-answer rates fell short.
+
+## Spending
+
+New paid model spending: **$0.00**. The original shared ledger remains byte-for-byte unchanged, SHA-256 `FA92584AB52E6EC22A25D6A9C3C0C3412C5392CFBDEFC747EBD5010EA85844B7`.
+
+Confirmed lifetime experiment cost is **$0.51748087**. The unresolved call retains **$0.113472**, for conservative exposure **$0.63095287**, under the original **$1.50** cap. The arithmetic unreserved allowance is $0.86904713, but **no spending is authorized by the guard while billing is unresolved**. That amount is not a promise that every required round can fit its conservative call reservations.
+
+Across the earlier 37 returned answers, experiment cost per return was at least $0.01399 ($0.01705 using conservative exposure). Total cost per independently accepted successful answer is **unavailable**: those 37 returns were not all independently accepted. The new evaluator reports round cost per accepted answer only after complete original-source review.
+
+All evaluation scripts now locate the main checkout's original ledger through Git's common directory, including when launched from a worktree. They cannot silently start from the worktree's copied ledger. Reservations, retries, fallback charges, provider price ceilings and unknown-cost stopping remain intact. Reconciliation requires billing evidence for the old call; the latest production logs do not settle it. Do not delete the stopped status or reservation without that evidence.
+
+## Reproducible configuration and production differences
+
+The local environment inspected for this work uses `HADITH_SOURCE=hadeethenc`; that selects the external catalogue, not the imported hadith library. Production Quran and all chapters were locally configured, with no local model overrides. `SHOW_AI_TRANSLATIONS=false` was local display configuration; it affects display, not source authority. The deployed revision, flags, keys and source mode were **not independently verified** in this task. Screenshots or one good answer cannot settle those differences.
+
+`scripts/ask-test-profile.ts` supplies one process-only matched profile: production Quran, all chapters, stored hadith, current default nonoverlapping chains, low reasoning/ZDR, prepared publishing on, scholars on, tiered/lean/audit off. Only the baseline/repaired `ASK_LIBRARY_FLOW` value changes. Environment files are not edited. The shared ledger is installed before paid providers or network work.
+
+Mo's Vercel checklist below is documentation, **not an instruction to enable the experimental flow now**. Use project `al-bayan`, Production; apply changes yourself after the appropriate review and deploy a reviewed revision explicitly.
+
+| Variable | Required profile / safe rollout value |
 |---|---|
 | `ASK_ENABLED` | `true` |
-| `ASK_CLAIM_AUDIT` | `false` until real-model acceptance passes |
+| `ASK_LIBRARY_FLOW` | `false` or absent until the new acceptance gates pass |
+| `ASK_CLAIM_AUDIT` | `false` until its separate real-model gates pass |
+| `ASK_TIERED` | `false`; keep current mode unchanged |
+| `ASK_LEAN` | `false` or absent |
 | `QURAN_API_ENV` | `production` |
-| `QURAN_FOUNDATION_CLIENT_ID` | Existing production Quran client ID, entered privately |
-| `QURAN_FOUNDATION_CLIENT_SECRET` | Matching production secret, marked sensitive |
-| `QURAN_CHAPTERS` | Delete it or leave empty, allowing all chapters |
-| `HADITH_SOURCE` | `library` |
-| `SUPABASE_SECRET_KEY` | Existing Al-Bayan server key, marked sensitive |
-| `NEXT_PUBLIC_SUPABASE_URL` | Existing Al-Bayan project URL, ref `jnietkyxgnocyizvjiel` |
-| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Existing Al-Bayan public key |
-| `PREPARED_PUBLISHING_ENABLED` | `true` |
-| `ASK_APPROVED_TOPICS` | `true` |
-| `SHOW_AI_TRANSLATIONS` | `true` |
-| `OPENROUTER_API_KEY` | Existing key, marked sensitive; never paste into chat |
+| `QURAN_CHAPTERS` | Absent or empty, allowing all chapters |
+| `QURAN_FOUNDATION_CLIENT_ID` | Existing production ID, entered privately |
+| `QURAN_FOUNDATION_CLIENT_SECRET` | Matching production secret, sensitive |
+| `HADITH_SOURCE` | `library` for the matched library profile |
+| `NEXT_PUBLIC_SUPABASE_URL` | Existing Al-Bayan project URL |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Existing public key |
+| `SUPABASE_SECRET_KEY` | Existing server key, sensitive |
+| `OPENROUTER_API_KEY` | Existing key, sensitive; never paste into chat |
 | `OPENROUTER_REASONING` | `low` |
 | `OPENROUTER_PRIVACY` | `zdr` |
-| `ASK_VIDEO_BUDGET_MS` | `20000` |
-| `MAX_VIDEOS` | `4` |
-| `ASK_DEBUG` | `true` while checking refusal reasons; disable afterwards |
+| `PREPARED_PUBLISHING_ENABLED` | `true` |
+| `ASK_APPROVED_TOPICS` | `true` |
+| `SHOW_AI_TRANSLATIONS` | Existing desired display setting; `true` shows eligible display translations, not authoritative evidence |
+| `SCHOLAR_QUOTES` | `on` or absent |
+| `SCHOLARS_LIVE` | `on` or absent; experimental flow invokes only unresolved coverage |
+| `PREPARED_ANSWERS`, `VIDEOS` | Do not set `off` if these existing features are wanted |
+| `ASK_VIDEO_BUDGET_MS`, `MAX_VIDEOS` | Existing `20000` / `4` settings; tiered mode stays off |
+| `ASK_DEADLINE_MS` | Leave existing/default value; default 50000, unchanged |
+| `ASK_DEBUG` | `true` for controlled diagnosis, then disable |
 
-`ASK_TIERED`: **`false`**, because repeated benefit and safety have not been established. Keep `ASK_LEAN` off. Ensure `SCHOLAR_QUOTES`, `PREPARED_ANSWERS` and `VIDEOS` are not set to `off` if those features are wanted.
+Obsolete override names to remove when matching defaults: `AI_MODELS`, `AI_MODEL`, `AI_FALLBACK_MODEL`, `AI_VERIFIER_MODELS`, `AI_VERIFIER_MODEL`, `AI_VERIFIER_FALLBACK_MODEL`, `AI_PROVIDER`, `AI_VERIFIER_PROVIDER`. Old `NVIDIA_*` settings are unnecessary for this OpenRouter profile. This task removed overrides only in test processes, not hosting.
 
-Remove stale `AI_MODELS`, `AI_MODEL`, `AI_FALLBACK_MODEL`, `AI_VERIFIER_MODELS`, `AI_VERIFIER_MODEL`, `AI_VERIFIER_FALLBACK_MODEL`, `AI_PROVIDER` and `AI_VERIFIER_PROVIDER` overrides to use the current OpenRouter defaults. Remove old `NVIDIA_*` settings rather than carrying an unused older configuration. The defaults are writer `google/gemini-3.5-flash-lite`, then `google/gemini-3.8-flash`; checker `google/gemini-3.1-flash-lite`, then `mistralai/mistral-small-3.2-24b-instruct`. No model is shared between roles.
+Source-confirmed default writer chain: `google/gemini-3.5-flash-lite`, then `google/gemini-3.8-flash`. Checker: `google/gemini-3.1-flash-lite`, then `mistralai/mistral-small-3.2-24b-instruct`. No overlap was introduced. These defaults are unchanged in this repair.
 
-Settings take effect on a new deployment. Nothing here has been pushed or deployed. See [Vercel environment variables](https://vercel.com/docs/environment-variables).
+To independently check a deployed configuration after a deliberate rollout, match the production commit to the reviewed commit, check Production variable names privately, and inspect controlled runtime diagnostics for revision, model chains, active flags and `hadith_mode_library`. A deployment with `revision=unknown` is not proof of the reviewed revision. No secret values or visitor text are needed for this check.
 
-## Finding a live refusal reason
+## Logs and evaluation commands
 
-In Vercel, open **al-bayan → Logs**, select the production deployment and `/api/ask`, then ask the failing public question once. Look for `ask refused: <reason>` and nearby `ask step:` entries. Logs use UTC, which is three hours behind Istanbul. A retry or `video_skipped_budget` line is not the final refusal when an answer succeeds. `ask pipeline failed:` indicates an error; `ask: AI busy` indicates the service/deadline path. Use runtime logs, not build logs. See [Vercel runtime logs](https://vercel.com/docs/logs/runtime).
+In Vercel, open **al-bayan → Logs**, select the intended production deployment and `/api/ask`. Use function/runtime logs rather than build logs. `ask diagnostic:` includes request ID, revision, model chains, flags, stage, bounded failure/category code and elapsed milliseconds. Retrieval diagnostics show source mode, missing configuration and numeric filter/cap losses. Writer decline codes distinguish missing evidence/conditions, ambiguity, unsafe context and inability to paraphrase. No visitor questions, answer text or excerpts are logged.
 
-## Remaining limits
+`ask refused: <reason>` identifies a final failure unless followed by a successful recovery. `selection_retry_started_*`, filter-loss counts and skipped videos are warnings/attempts, not independent final refusals. A completed checked answer must survive optional video failure. `ask pipeline failed:` / busy indicate operational failure rather than a correct evidence refusal. All source/claim safety gates remain strict.
 
-- No supported explanation for why exactly five prayers was established; that question still refuses instead of inventing a reason.
-- The writer can say `no_answer` even after evidence selection succeeds. This remains a refusal; it is not force-retried into answering.
-- Relevant stored hadith and useful fatwa excerpts are not guaranteed for every question. No database search changes were made.
-- Two AI models and six hand-read answers cannot prove religious correctness. Local results do not prove Vercel has the same code, keys, settings or latency.
-- Missing billing evidence blocks additional paid tests. Manual review concerns block safety acceptance. The validator build blocker has since been resolved.
-- Commit identity is provided in the delivery message; the report is committed with the implementation. The live website remains unverified until Mo deploys and checks it.
+After billing reconciliation, from this branch:
 
-## General claim audit implementation and acceptance status
+```text
+npx tsx --conditions=react-server scripts/replay-ask-wording.ts --out=docs/ask-repair-runs/wording-replay-new.json
+npx tsx --conditions=react-server scripts/audit-ask-library.ts --out=docs/ask-repair-runs/library-audit-new.json
+npx tsx --conditions=react-server scripts/evaluate-ask-library.ts --arm=baseline --round=1 --mode=live --out=work/private-ask-evaluation/baseline-live-1.json
+npx tsx --conditions=react-server scripts/evaluate-ask-library.ts --arm=repaired --round=1 --mode=live --out=work/private-ask-evaluation/repaired-live-1.json
+```
 
-This follow-up strengthens the existing final screen under `ASK_CLAIM_AUDIT=true`, default **off**. It does not enable tiered mode, change model chains, change saved-answer review, add conversation memory or alter the response API/UI.
+The first two commands have no model calls or database writes. For round 2 use a fresh output name, `--round=2`, and `--previous-round=work/private-ask-evaluation/<matching-first-round>.json`, at least 30 minutes later. Run `--mode=approved` with separate paths for saved reuse. Add `--dry-run` to the evaluator for manifest-only validation without calls. Raw controlled captures stay private and ignored; publish only sanitized aggregate results after review. Do not overwrite previous rounds or freeze new expected labels after seeing results.
 
-Each flattened draft claim gets C1/C2/etc. within that draft. Screening sees its exact source IDs, source text and surrounding context; adjacent context has no selectable ID. Results must cover every claim once, repeat its exact citation set and separately confirm direct support, audience, conditions, scope and causal meaning. Unknown IDs, duplicated/missing citations, missing/malformed decisions, inconsistent reason codes and uncertain results fail. Failed claims carry bounded (240-character) comparison explanations. Validated feedback goes into the existing writer correction as untrusted JSON comparison data, never new evidence. The complete corrected answer is screened again within the original deadline and draft-call cap.
+Use the existing `scripts/evaluate-claim-audit.ts` separately for its 72-case paired old/new model comparison. All experiments share the same original cap and stop rules. If reservations cannot cover further work, report incomplete results and keep both experimental flags off.
 
-Whole-answer support, required points, fairness and completeness still apply. Successful first drafts use the same number of calls and a 2,048-token checker output allowance. Cut-off output never passes. Debug messages contain only reason categories and elapsed timings. The old screen remains active when the flag is absent/false.
+## Remaining library and product limits
 
-Final offline verification: **561 tests pass across 44 files**, full `npx tsc --noEmit --incremental false` passes, and `npm run build` passes (44 pages). Next's metadataBase warning is unrelated and non-blocking. New tests exercise strict parsing, all five negative/uncertain dimensions, identity/citation matching, preserved context, exact feedback, one full-answer correction, continued refusal, whole-answer checks and recorded-fixture integrity. Existing safety tests remain passing.
-
-| Acceptance requirement | Current evidence |
-|---|---|
-| Fixed source set | 12 packages, 72 paired-language cases, source/provenance hashes verified offline |
-| Deliberately wrong summaries rejected by real models | Not measured |
-| At least 95% faithful summaries accepted by real models | Not measured |
-| Matched median/p95 latency no more than 10% slower | Not measured |
-| Two baseline and two repaired live rounds at least 30 minutes apart | Still incomplete |
-| 85% answerable live questions answered | Not established |
-| Saved-answer reuse measured separately | Still incomplete |
-| Added experiment cost | $0.00; known total remains $0.51748087 plus the $0.113472 unresolved reservation |
-| Live website acceptance | Not performed for this flag-off experimental change |
-
-The evaluator was blocked before any request by the unchanged original ledger. Its record is `ask-repair-runs/claim-audit-evaluation.json`. Detection and latency must not be inferred from mocked tests, frozen labels or earlier live rounds. Do not enable the flag in production yet.
-
-### Evaluation commands after billing reconciliation
-
-Run from the Bayan repository. Do not delete/reset the ledger or release the reservation without verified billing evidence. No automatic reconciliation is supplied.
-
-- Fixed-source paired old/new comparison: `npx tsx --conditions=react-server scripts/evaluate-claim-audit.ts --out=docs/ask-repair-runs/claim-audit-model-comparison.json`. Existing output cannot be overwritten. The runner measures every variant against both screens with the same default chains, retaining individual outcomes/timing/cost. An incomplete run cannot pass the detection gate. Full comparison needs 144 calls; the guard may stop sooner if the cap cannot cover them.
-- Live baseline: `npx tsx --conditions=react-server scripts/measure-ai-mix.ts --phase=baseline --claim-audit=off --out=docs/ask-repair-runs/claim-live-baseline-1.json`.
-- Live repaired: `npx tsx --conditions=react-server scripts/measure-ai-mix.ts --phase=repaired --claim-audit=on --out=docs/ask-repair-runs/claim-live-repaired-1.json`.
-- Repeat both with distinct round-2 paths at least 30 minutes apart within each arm. Both arms keep tiered mode off, clear model overrides only in their test processes, use production Quran/all chapters/stored hadith and bypass saved answers. Music remains an expected refusal with the historical denominator retained.
-- Measure approved reuse independently with the measurement command plus `--approved` and distinct output paths. Saved answers must not contribute to live answer rates.
-
-All experiments share the original $1.50 ledger. If reconciliation or budget prevents these measurements, deliver **tested offline, general semantic improvement unverified, flag off**. The pushed commit identifies this follow-up in the delivery message. Vercel settings were not changed by this task.
-
-## Precise refusal diagnostics follow-up, 4 October 2026
-
-Diagnostics now identify the exact source-selection and screening rejection branch under `ASK_DEBUG`, without visitor or source content. Pre-audit commit `648b0fd` and current flag-off builders send identical controlled model requests; successful and refusing outcomes are preserved. Historical baseline selections also replay unchanged. See `ask-diagnostics-report.md`. This is a diagnostic delivery, not a confirmed fix for the latest production promises failure. Paid reproduction and real-model acceptance remain blocked by the unchanged shared ledger; additional experiment cost is $0.00. Claim audit remains off by default, and no model/prompt/schema/limit or Vercel setting was changed.
+- Quran verses and authoritative translations are loaded; tafsir is not integrated.
+- Published fatwas are short extracts, at most 600 characters. They may omit a condition or procedural step contained in the full ruling.
+- 7,168 published hadith have no English or German translation row in this audit; the 7,461 rows that exist are unpublished. Original delivery is repaired, but source eligibility, search recall and model comprehension still limit usable coverage.
+- The mixed 50-result search ceiling still allows cross-kind competition. No database/index change was made, and reader-level separation cannot recover rows the RPC never returns.
+- Title/word matching remains a recall limit. The revised probes improved scholar recall but did not prove direct support or complete answers. Missing configuration can still disable source groups.
+- The why-five-prayers reason gap and reviewed unresolved music disagreement remain safe refusals. Personal rulings still require a qualified scholar.
+- History is limited to four user messages; unresolved references request clarification. It is not unlimited or perfect conversation memory.
+- Real models may still fail planning, select incomplete evidence, decline a usable package or produce a distortion missed by the legacy screen. The stronger audit's detection and speed gates remain unverified.
+- A successful build, mocked tests, library size or one good answer cannot establish that Ask is reliable. The live site remains unchanged and unverified by this branch delivery.

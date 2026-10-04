@@ -16,6 +16,8 @@
 import type { Locale } from "@/lib/i18n";
 import type { AIProvider, JsonRequest, JsonSchema } from "@/lib/ai/types";
 import { optionalWithin } from "./optional";
+import { parseUserHistory, safeClarificationChoices } from "./conversation";
+import { LIBRARY_PLAN_RULES, POINT_PLAN_PROPERTIES, pointSearchPlans, interleaveUnique, explicitPointMismatch } from "./library-flow";
 import { screeningSystem, claimAuditSchema } from "./claim-audit";
 import { ATTRIBUTION, TRANSLATIONS, type Verse } from "@/lib/sources/quran-meta";
 import { scholarQuoteAllowed, type ScholarQuote } from "@/lib/sources/scholar-rules";
@@ -55,6 +57,8 @@ import {
   type StructuredDraft,
   type StructuredDraftResult,
   type SourceText,
+  NO_ANSWER_REASONS,
+  type NoAnswerFeedback,
 } from "./checks";
 import {
   ANSWER_FACETS,
@@ -65,6 +69,7 @@ import {
   questionFrameMismatch,
   repairExplicitFrame,
   rankCandidatesForQuestion,
+  requirementMeaning,
   type EvidencePackage,
   type PassageForSelection,
   type QuestionFrame,
@@ -141,7 +146,8 @@ export type AskResult =
   | { status: "no_summary"; language: Locale }
   | { status: "no_source"; language: Locale }
   | { status: "ask_scholar"; language: Locale }
-  | { status: "out_of_scope"; language: Locale };
+  | { status: "out_of_scope"; language: Locale }
+  | { status: "clarify"; language: Locale; clarification: { choices: string[] } };
 
 export type PipelineDeps = {
   writer: AIProvider; // understands the question and drafts the answer
@@ -160,12 +166,16 @@ export type PipelineDeps = {
   searchVideos?: (arabicPhrases: string[]) => Promise<VideoSuggestion[]>;
   deadlineMs?: number;
   claimAudit?: boolean; // Experimental; false leaves legacy screening untouched.
+  libraryFlow?: boolean; // Experimental per-point search and follow-ups; off until acceptance.
+  previousUserMessages?: string[];
   /** Fewer candidates for the evidence check (faster on slow models). Fewer can only mean more refusals. */
   candidateLimits?: { quran: number; hadith: number; scholar: number };
   selectionRetryTimeoutMs?: number; // test override; production default stays short and bounded
   onRefuse?: (reason: string) => void; // reason codes only, never the question
   onStep?: (step: string, elapsedMs: number) => void; // step names and timings only, for local debugging
-  onDiagnostic?: (stage: "selection" | "selection_retry" | "screening" | "screening_retry", code: string, elapsedMs: number) => void;
+  onDiagnostic?: (stage: "selection" | "selection_retry" | "screening" | "screening_retry" | "retrieval" | "draft", code: string, elapsedMs: number) => void;
+  onCoverage?: (stage: "retrieved" | "candidate" | "selected" | "writer", counts: Record<string, number>) => void;
+  searchScholarsLive?: (arabicPhrases: string[]) => Promise<ScholarQuote[]>;
   onFrame?: (frame: QuestionFrame) => void; // local evaluation only; never logs visitor text
   onRetrieved?: (result: { hintIds: string[]; quran: string[]; hadith: string[]; scholars: string[]; scholarEnabled: boolean; scholarProblem: string | null }) => void;
   onCandidates?: (candidates: PassageForSelection[]) => void;
@@ -492,7 +502,7 @@ export function sealedPackageJson(evidence: EvidencePackage, language: Locale, f
     passages: evidence.passages.map((passage) => {
       const source = sourceJson(passage.source, language);
       const translations = sourceTranslations(passage.source);
-      if (![source.arabic, translations.en, translations.de]
+      if (![source.arabic, "translation_en" in source ? source.translation_en : null, "translation_de" in source ? source.translation_de : null]
         .some((text) => typeof text === "string" && text.trim().length > 0)) {
         throw new Error("sealed_source_text_missing");
       }
@@ -630,10 +640,14 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
 
   // 1. Build a bounded question frame. Anything malformed or unknown is refused.
   const tiered = deps.tiered;
+  const libraryFlow = deps.libraryFlow === true;
+  const history = parseUserHistory(deps.previousUserMessages);
+  if (history === null) return refuse("history_invalid", uiLanguage);
   const understandOnce = (correction?: string) => deps.writer.generateJson({
-      system: tiered ? `${UNDERSTAND_SYSTEM}\n${TIERED_UNDERSTAND_RULES}` : UNDERSTAND_SYSTEM,
+      system: `${tiered ? `${UNDERSTAND_SYSTEM}\n${TIERED_UNDERSTAND_RULES}` : UNDERSTAND_SYSTEM}${libraryFlow ? `\n${LIBRARY_PLAN_RULES}` : ""}`,
       prompt: JSON.stringify({
         visitor_text: question,
+        ...(libraryFlow && history.length ? { previous_user_messages: history } : {}),
         ...(correction ? { correction } : {}),
       }),
       maxOutputTokens: 900,
@@ -652,8 +666,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
               properties: {
                 text: { type: "string" },
                 facet: { type: "string", enum: [...ANSWER_FACETS] },
+                ...(libraryFlow ? POINT_PLAN_PROPERTIES : {}),
               },
-              required: ["text", "facet"],
+              required: ["text", "facet", ...(libraryFlow ? Object.keys(POINT_PLAN_PROPERTIES) : [])],
             },
           },
           qualifiers: words,
@@ -661,6 +676,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           search_queries_de: words,
           search_queries_ar: words,
           ...(tiered ? { search_queries_quran_ar: words, search_queries_hadith_ar: words } : {}),
+          ...(libraryFlow ? { interpretations: { ...words, maxItems: 2 }, clarification_needed: { type: "boolean" } } : {}),
         },
         required: [
           "language",
@@ -673,6 +689,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           "search_queries_de",
           "search_queries_ar",
           ...(tiered ? ["search_queries_quran_ar", "search_queries_hadith_ar"] : []),
+          ...(libraryFlow ? ["interpretations", "clarification_needed"] : []),
         ],
       },
     });
@@ -680,6 +697,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const frameProblem = (candidate: typeof frame) => candidate
     ? (candidate.kind === "personal" && isGeneralGuidanceQuestion(question) ? "general_guidance_misclassified" : null)
       ?? questionFrameMismatch(question, candidate)
+      ?? (libraryFlow ? explicitPointMismatch(question, candidate) : null)
       ?? (candidate.language === "ar" && candidate.kind === "question" && (candidate.searchQueries.ar?.length ?? 0) === 0 ? "arabic_queries_missing" : null)
     : "invalid";
   if (frameProblem(frame)) {
@@ -708,6 +726,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     return { status: "ask_scholar", language: frame.language };
   }
   const language = frame.language;
+  const clarification = (): AskResult => ({ status: "clarify", language,
+    clarification: { choices: safeClarificationChoices(frame!.interpretations?.map((item) => item.label) ?? [], language) } });
+  if (libraryFlow && frame.clarificationNeeded) return clarification();
+  if (libraryFlow && explicitPointMismatch(question, frame)) return refuse("question_requested_point_missing", frame.language);
   if (asksKnownUnresolvedView(question, frame.questionType)) {
     return refuse("scholar_difference_unresolved_known_topic", language);
   }
@@ -735,14 +757,23 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // Videos are optional and never evidence. Start their search now, but do not let it delay Quran,
   // hadith or scholar retrieval and evidence selection.
   const videoResultPromise = videoCandidates(deps, frame.searchQueries.ar ?? []);
-  const [found, hadithResult, scholarResult] = await Promise.all([
-    deps.search(queries, MAX_QURAN_SEARCH_CANDIDATES),
-    hadithCandidates(deps, {
-      en: [...(frame.searchQueries.en ?? []), ...frame.subjects],
-      ar: hadithArabic,
-    }),
-    scholarCandidates(deps, frame.searchQueries.ar ?? [], mappedFatwas),
-  ]);
+  const pointPlans = libraryFlow ? pointSearchPlans(frame) : [];
+  const pointResults = libraryFlow ? await Promise.all(pointPlans.map(async (plan, index) => {
+    const [quran, hadith, scholars] = await Promise.all([
+      deps.search(plan.quran, MAX_QURAN_SEARCH_CANDIDATES), hadithCandidates(deps, plan.hadith),
+      scholarCandidates(deps, plan.scholar, index === 0 ? mappedFatwas : []),
+    ]);
+    return { id: plan.id, quran, hadith, scholars };
+  })) : [];
+  const [found, hadithResult, scholarResult] = libraryFlow ? [
+    interleaveUnique(pointResults.map((r) => r.quran), (key) => key, MAX_QURAN_SEARCH_CANDIDATES),
+    { hadith: interleaveUnique(pointResults.map((r) => r.hadith.hadith), (h) => h.id, MAX_HADITH_SEARCH_CANDIDATES), problem: pointResults.find((r) => r.hadith.problem)?.hadith.problem ?? null },
+    { quotes: interleaveUnique(pointResults.map((r) => r.scholars.quotes), (s) => s.id, MAX_SCHOLAR_SEARCH_CANDIDATES), problem: pointResults.find((r) => r.scholars.problem)?.scholars.problem ?? null },
+  ] as const : await Promise.all([
+      deps.search(queries, MAX_QURAN_SEARCH_CANDIDATES),
+      hadithCandidates(deps, { en: [...(frame.searchQueries.en ?? []), ...frame.subjects], ar: hadithArabic }),
+      scholarCandidates(deps, frame.searchQueries.ar ?? [], mappedFatwas),
+    ]);
   if (scholarResult.problem) deps.onRefuse?.(scholarResult.problem); // reason code only; the answer continues
   step("search");
   if (hadithResult.problem) deps.onRefuse?.(hadithResult.problem); // reason code only; the answer continues
@@ -763,6 +794,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
 
   // 4. The independent model classifies every candidate with its own local context. Code seals
   // only direct, context-safe passages and requires evidence for every requested point.
+  const provenance = (id: string): string[] => pointResults.filter((r) => r.quran.some((key) => `Q${key}` === id)
+    || r.hadith.hadith.some((h) => h.id === id) || r.scholars.quotes.some((q) => q.id === id)).map((r) => r.id);
   const allCandidates: PassageForSelection[] = [
     ...verses.map((verse) => ({
       id: `Q${verse.key}`,
@@ -771,7 +804,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     })),
     ...hadith.map((h) => ({ id: h.id, source: { kind: "hadith", hadith: h } as Source, context: [] })),
     ...quotes.map((q) => ({ id: q.id, source: { kind: "scholar", quote: q } as Source, context: [] })),
-  ];
+  ].map((candidate) => libraryFlow ? { ...candidate, retrievedFor: provenance(candidate.id) } : candidate);
+  const coverageCounts = (items: PassageForSelection[]) => Object.fromEntries(frame.requirements.map((r) => [r.id, items.filter((c) => c.retrievedFor?.includes(r.id)).length]));
+  if (libraryFlow) deps.onCoverage?.("retrieved", coverageCounts(allCandidates));
   const mappedIds = new Set([
     ...direct.map((key) => `Q${key}`), ...mappedQuran.map((key) => `Q${key}`),
     ...mappedHadith, ...quotes.filter((quote) => mappedFatwas.includes(quote.url)).map((quote) => quote.id),
@@ -784,17 +819,19 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const rankFrame = tiered && frame.tierQueries
     ? { ...frame, searchQueries: { ...frame.searchQueries, ar: [...frame.tierQueries.hadith, ...frame.tierQueries.quran, ...(frame.searchQueries.ar ?? [])] } }
     : frame;
-  const ranked = rankCandidatesForQuestion(rankFrame, allCandidates, mappedIds, {
+  const cappedLimits = {
     quran: Math.min(limits.quran, defaultLimits.quran),
     hadith: Math.min(limits.hadith, defaultLimits.hadith),
     scholar: Math.min(limits.scholar, defaultLimits.scholar),
-  });
-  const candidates = await Promise.all(ranked.map(async (candidate) => {
+  };
+  const ranked = rankCandidatesForQuestion(rankFrame, allCandidates, mappedIds, cappedLimits);
+  let candidates = await Promise.all(ranked.map(async (candidate) => {
     if (candidate.source.kind !== "quran") return candidate;
     const key = candidate.source.verse.key;
     return { ...candidate, context: (await deps.neighbours(key)).filter((near) => near.key !== key) };
   }));
   deps.onCandidates?.(candidates);
+  if (libraryFlow) deps.onCoverage?.("candidate", coverageCounts(candidates));
   step("sources_fetched");
   const selectionSchema: JsonSchema = {
     type: "object",
@@ -829,8 +866,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       language: frame.language,
       question_type: frame.questionType,
       subjects: frame.subjects,
-      requirements: frame.requirements,
+      requirements: requirementMeaning(frame.requirements),
       qualifiers: frame.qualifiers,
+      ...(libraryFlow && frame.interpretations?.length ? { interpretations: frame.interpretations } : {}),
     };
     const raw = await deps.verifier.generateJson({
       system: correction
@@ -859,17 +897,37 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // rank first among equals; a complete named passage (al-Fatiha) may stay whole as one card.
   const namedPassages = namedPassageGroups(question);
   const packageOptions = { preferredIds: mappedIds, namedPassages, ...(tiered ? { caps: TIER_PACKAGE_CAPS, tierOrder: true } : {}) };
+  let selectionFailure: string | undefined;
   let evidencePackage = parseEvidencePackage(selected, frame, candidates, packageOptions,
-    (code) => deps.onDiagnostic?.("selection", code, Date.now() - started));
-  const retryKind = evidencePackage ? null : selectionRetryKind(selected, candidates);
+    (code) => { selectionFailure = code; deps.onDiagnostic?.("selection", code, Date.now() - started); });
+  const retryKind = evidencePackage ? null : selectionRetryKind(selected, candidates)
+    ?? (libraryFlow && selectionFailure === "direct_requirement_coverage_missing" ? "thin" : null);
   if (retryKind) {
     const retryTimeoutMs = deps.selectionRetryTimeoutMs ?? SELECTION_RETRY_TIMEOUT_MS;
     const remainingMs = (deps.deadlineMs ?? 50_000) - (Date.now() - started);
     if (remainingMs > retryTimeoutMs + SELECTION_RETRY_BUFFER_MS) {
+      // Use the existing single selection correction, never an extra call. Live scholar pages
+      // are consulted only after stored coverage actually failed, and inside the same timeout.
+      const retrySignal = AbortSignal.any([signal, AbortSignal.timeout(retryTimeoutMs)]);
+      if (libraryFlow && selectionFailure === "direct_requirement_coverage_missing" && deps.searchScholarsLive) {
+        const rawAssessments = selected && typeof selected === "object" && Array.isArray((selected as Record<string, unknown>).assessments)
+          ? (selected as { assessments: { relevance?: string; context_safe?: string; supported_requirement_ids?: string[] }[] }).assessments : [];
+        const covered = new Set(rawAssessments.filter((a) => a.relevance === "direct" && a.context_safe === "yes")
+          .flatMap((a) => a.supported_requirement_ids ?? []));
+        const missing = pointPlans.filter((p) => !covered.has(p.id));
+        const fresh = await optionalWithin(() => deps.searchScholarsLive!(missing.flatMap((p) => p.scholar).slice(0, 6)),
+          Math.min(7_000, retryTimeoutMs - SELECTION_RETRY_BUFFER_MS), retrySignal, [] as ScholarQuote[]);
+        const additions: PassageForSelection[] = (fresh ?? []).filter(scholarQuoteAllowed).map((quote) => ({
+          id: quote.id, source: { kind: "scholar", quote }, context: [], retrievedFor: missing.map((p) => p.id),
+        }));
+        const combined = [...new Map([...additions, ...candidates].map((c) => [c.id, c])).values()];
+        candidates = rankCandidatesForQuestion(rankFrame, combined, mappedIds, cappedLimits);
+        deps.onCandidates?.(candidates);
+        deps.onDiagnostic?.("retrieval", "live_scholar_unresolved_coverage", Date.now() - started);
+      }
       const retryCandidates = selectionRetryCandidates(selected, candidates, mappedIds);
       deps.onRefuse?.(`selection_retry_started_${retryKind}`);
       try {
-        const retrySignal = AbortSignal.any([signal, AbortSignal.timeout(retryTimeoutMs)]);
         const retried = await selectEvidence(retryCandidates, retrySignal, true);
         step(`selection_retry(${retryCandidates.length} candidates)`);
         const retriedPackage = parseEvidencePackage(retried, frame, retryCandidates, packageOptions,
@@ -889,11 +947,20 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       deps.onRefuse?.("selection_retry_skipped_time");
     }
   }
-  if (!evidencePackage) return refuse("evidence_insufficient", language);
+  if (!evidencePackage) {
+    if (libraryFlow && frame.interpretations?.length && ["direct_requirement_coverage_missing", "no_direct_evidence_with_requirements"].includes(selectionFailure ?? "")) return clarification();
+    return refuse("evidence_insufficient", language);
+  }
+  if (libraryFlow) deps.onCoverage?.("selected", Object.fromEntries(frame.requirements.map((r) => [r.id,
+    evidencePackage!.passages.filter((p) => p.requirementIds.includes(r.id)).length])));
   // Automatic retrieval may identify a scholar difference, but it never chooses al-rajih by quote
   // count. Until a checked equal-view draft or a matching scholar-reviewed decision is assembled,
   // refuse safely instead of mixing positions into one ruling.
   if (evidencePackage.scholarDifference) return refuse("scholar_difference_unresolved", language);
+  if (libraryFlow && frame.requirements.some((r) => r.facet === "ruling"
+    && !evidencePackage!.passages.some((p) => p.source.kind === "scholar" && p.requirementIds.includes(r.id)))) {
+    return refuse("ruling_requirement_without_scholar", language);
+  }
   // 5 + 6. The writer sees only the sealed package. Code verifies citations and requested-point coverage.
   const selectedSources = evidencePackage.passages.map((passage) => passage.source);
   const byId = new Map(selectedSources.map((s) => [sourceId(s), s]));
@@ -999,10 +1066,12 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // Deterministic source checks identify indispensable listed items before the first draft. Giving
   // these labels to the writer improves consistency; they are reminders only and never evidence.
   const requiredDirectItems = missingListedItems(question, language, citable, []);
-  const draftOnce = async (correction?: string, claimFeedback?: ClaimAuditFailure[]): Promise<StructuredDraftResult> => {
+  const draftOnce = async (correction?: string, claimFeedback?: ClaimAuditFailure[], noAnswerFeedback?: NoAnswerFeedback): Promise<StructuredDraftResult> => {
     if (draftCalls >= MAX_DRAFT_CALLS) return { ok: false, reason: "draft_budget" };
     draftCalls += 1;
-    const result = await draftRequest(correction, claimFeedback);
+    const result = await draftRequest(correction, claimFeedback, noAnswerFeedback);
+    if (!result.ok) deps.onDiagnostic?.("draft", result.reason === "model_no_answer" && result.feedback
+      ? `model_no_answer_${result.feedback.reason_code}` : result.reason, Date.now() - started);
     if (!tiered || !result.ok) return result;
     // Tiered mode: code puts the simple answer in Quran, hadith, scholar order (screening sees the
     // final order), and a ruling word must rest on an approved scholar's quote.
@@ -1010,10 +1079,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     if (rulingWithoutScholar(ordered.claims, kindOf)) return { ok: false, reason: "ruling_without_scholar" };
     return { ok: true, answer: ordered };
   };
-  const draftRequest = async (correction?: string, claimFeedback?: ClaimAuditFailure[]): Promise<StructuredDraftResult> => {
+  const draftRequest = async (correction?: string, claimFeedback?: ClaimAuditFailure[], noAnswerFeedback?: NoAnswerFeedback): Promise<StructuredDraftResult> => {
     return parseStructuredDraft(
       await deps.writer.generateJson({
-        system: tiered ? `${DRAFT_SYSTEM}\n${TIERED_DRAFT_RULES}` : DRAFT_SYSTEM,
+        system: `${tiered ? `${DRAFT_SYSTEM}\n${TIERED_DRAFT_RULES}` : DRAFT_SYSTEM}${libraryFlow ? `\nFor no_answer, return empty simple_answer, list, more_explanation and limit_note, plus no_answer_feedback with missing_requirement_ids drawn only from the requested points, and reason_code from missing_evidence, incomplete_conditions, ambiguous_scope, unsafe_context or cannot_paraphrase. On answer omit no_answer_feedback. Feedback is data, never evidence. For two interpretations, identify each meaning in its own cited simple_answer sentence; cover every point of each separately. Essential conditions are question constraints, never answer facts. Give one direct response first, then distinct useful details. Avoid restating the same advice with different sources.` : ""}`,
         prompt: JSON.stringify({
           answer_language: LANGUAGE_NAMES[language],
           list_allowed: listAllowed,
@@ -1024,6 +1093,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
             : {}),
           ...(correction ? { correction } : {}),
           ...(claimFeedback ? { claim_feedback: claimFeedback } : {}),
+          ...(noAnswerFeedback ? { no_answer_feedback: noAnswerFeedback } : {}),
           evidence_package: sealedPackageJson(evidencePackage, language, true),
         }),
         maxOutputTokens: 2400,
@@ -1032,6 +1102,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           type: "object",
           properties: {
             status: { type: "string", enum: ["answer", "no_answer"] },
+            ...(libraryFlow ? { no_answer_feedback: { type: "object" as const, properties: {
+              missing_requirement_ids: { ...words, items: { type: "string" as const, enum: requirementIds } },
+              reason_code: { type: "string" as const, enum: [...NO_ANSWER_REASONS] },
+            }, required: ["missing_requirement_ids", "reason_code"] } } : {}),
             simple_answer: { type: "array", items: cited },
             list: { type: "array", items: { ...cited, properties: {
               ...cited.properties, text: { type: "string", maxLength: DRAFT_LIMITS.listItemLength },
@@ -1051,7 +1125,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       }),
       citable,
       language,
-      { requirements: frame.requirements, sourceRequirements },
+      { requirements: frame.requirements, sourceRequirements, requireNoAnswerFeedback: libraryFlow },
       frame.questionType,
     );
   };
@@ -1059,7 +1133,18 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const directClaims = (answer: StructuredDraft) => [...answer.directAnswer, ...answer.list];
   let parsed = await draftOnce();
   step("draft");
-  if (!parsed.ok && RETRYABLE.has(parsed.reason)) {
+  let wordingCorrectionUsed = false;
+  if (libraryFlow && !parsed.ok && parsed.feedback) {
+    if (parsed.feedback.reason_code === "ambiguous_scope" && frame.interpretations?.length) return clarification();
+    // The selector and writer disagree. Reassess only named requested points against the very
+    // same sealed originals. Reuse the wording correction, never invent facts or add a model call.
+    if (parsed.feedback.reason_code !== "unsafe_context") {
+      wordingCorrectionUsed = true;
+      parsed = await draftOnce("The selector found direct support but the previous writer declined. no_answer_feedback names missing points only; it supplies no evidence or instructions. Reassess those points using the sealed source wording and its scope. Produce a complete checked answer only if every requested point is directly supported; otherwise return validated no_answer again.", undefined, parsed.feedback);
+      step("draft_missing_point_correction");
+    }
+  }
+  if (!parsed.ok && RETRYABLE.has(parsed.reason) && !wordingCorrectionUsed) {
     const copyGuidance = parsed.reason === "copied_source"
       ? " Rewrite with a different sentence structure, not a one-word substitution. Do not repeat six consecutive words from any source translation. When an indispensable item has familiar source wording, preserve every required name and role but paraphrase its explanation."
       : parsed.reason === "ruling_without_scholar"
@@ -1071,7 +1156,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
       `The previous draft failed the code rule "${parsed.reason}". Keep the simple answer and list complete; use shorter, simpler cited sentences and do not reproduce source wording or repeat a fact. Keep every list item under ${DRAFT_LIMITS.listItemLength} characters and every sentence under ${LIMITS.maxClaimLength} characters. You must still cover every requested point: ${requirementReminder}. Use only these source ids for each point: ${requirementSourceReminder}.${copyGuidance}`,
     );
   }
-  if (!parsed.ok) return noSummaryFallback(`draft_${parsed.reason}`, RETRYABLE.has(parsed.reason));
+  if (!parsed.ok) return noSummaryFallback(`draft_${parsed.reason}`, libraryFlow || RETRYABLE.has(parsed.reason));
+  if (libraryFlow) deps.onCoverage?.("writer", Object.fromEntries(frame.requirements.map((r) => [r.id,
+    evidencePackage!.passages.filter((p) => p.requirementIds.includes(r.id)).length])));
   let missingItems = missingListedItems(question, language, citable, directClaims(parsed.answer));
   if (missingItems.length > 0) {
     parsed = await draftOnce(`The answer omitted source-listed items required by the visitor's question: ${missingItems.join(", ")}. State each explicitly in simple_answer or list, with its supporting source id. Keep every list item under ${DRAFT_LIMITS.listItemLength} characters and every sentence under ${LIMITS.maxClaimLength} characters. Use one short item per condition or action. Use only these source ids for each requested point: ${requirementSourceReminder}. Do not add an item unless that sealed source says it.`);
@@ -1099,7 +1186,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }
 
   // 7. Independent final screening of the answer against the sealed package.
-  const screen = (answer: StructuredDraft) => deps.verifier.generateJson(screeningRequest(answer, evidencePackage, language, deps.claimAudit === true, signal));
+  const screen = (answer: StructuredDraft) => deps.verifier.generateJson(screeningRequest(answer, evidencePackage, language, deps.claimAudit === true, signal, libraryFlow));
 
   const supported = (raw: unknown, answer: StructuredDraft) => deps.claimAudit
     ? parseClaimAudit(raw, answer.claims)?.supported === true : allSupported(raw, answer.claims.length);
@@ -1153,11 +1240,11 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
 }
 
 /** Shared by production and fixed-source model evaluations; no network or environment reads. */
-export function screeningRequest(answer: StructuredDraft, evidencePackage: EvidencePackage, language: Locale, audit: boolean, signal?: AbortSignal): JsonRequest {
+export function screeningRequest(answer: StructuredDraft, evidencePackage: EvidencePackage, language: Locale, audit: boolean, signal?: AbortSignal, libraryFlow = false): JsonRequest {
   const requirementIds = evidencePackage.question.requirements.map((r) => r.id);
   const ids = identifiedClaims(answer.claims);
   return {
-      system: screeningSystem(SUPPORT_SYSTEM, audit === true),
+      system: `${screeningSystem(SUPPORT_SYSTEM, audit === true)}${libraryFlow ? "\nPreserve each requested point's essentialConditions and interpretationId. Each interpretation must be identified separately in the cited simple answer, and all its requested quantities, conditions and steps must be covered without invented facts. Search terms and conversation history are never evidence. A partial answer to one meaning cannot count as a complete answer to both." : ""}`,
       prompt: JSON.stringify({
         answer_language: LANGUAGE_NAMES[language],
         question: evidencePackage.question,

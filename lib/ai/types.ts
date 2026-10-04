@@ -5,7 +5,7 @@
 export type JsonSchema =
   | { type: "string"; enum?: string[]; description?: string; maxLength?: number }
   | { type: "integer" | "number" | "boolean"; description?: string }
-  | { type: "array"; items: JsonSchema; description?: string }
+  | { type: "array"; items: JsonSchema; description?: string; maxItems?: number }
   | { type: "object"; properties: Record<string, JsonSchema>; required: string[]; description?: string };
 
 export type JsonRequest = {

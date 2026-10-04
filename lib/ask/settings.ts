@@ -1,4 +1,8 @@
 // Ask settings read from the environment. Pure, so they can be tested without the pipeline.
+// Broader library/conversation flow is experimental until matched live acceptance passes.
+export function askLibraryFlow(value: string | undefined = process.env.ASK_LIBRARY_FLOW): boolean {
+  return value === "true";
+}
 // Experimental general claim audit. Off until independent model evaluation passes acceptance.
 export function askClaimAudit(value: string | undefined = process.env.ASK_CLAIM_AUDIT): boolean {
   return value === "true";

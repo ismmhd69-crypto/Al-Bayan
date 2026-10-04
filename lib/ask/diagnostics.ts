@@ -1,4 +1,4 @@
-export type DiagnosticStage = "selection" | "selection_retry" | "screening" | "screening_retry";
+export type DiagnosticStage = "selection" | "selection_retry" | "screening" | "screening_retry" | "retrieval" | "draft";
 export type DiagnosticContext = {
   requestId: string;
   revision?: string;
@@ -7,6 +7,7 @@ export type DiagnosticContext = {
   claimAudit: boolean;
   tiered: boolean;
   lean: boolean;
+  libraryFlow?: boolean;
 };
 
 // Fixed fields only. Neither raw AI output nor visitor content belongs in function logs.
@@ -17,9 +18,10 @@ export function diagnosticLogger(enabled: boolean, context: DiagnosticContext, s
     revision: /^[a-fA-F0-9]{7,64}$/.test(context.revision ?? "") ? context.revision : "unknown",
     writer_chain: model(context.writerChain), verifier_chain: model(context.verifierChain),
     claim_audit: context.claimAudit, tiered: context.tiered, lean: context.lean,
+    ...(context.libraryFlow !== undefined ? { library_flow: context.libraryFlow } : {}),
   };
   return (stage: DiagnosticStage, code: string, elapsedMs: number) => {
-    if (!enabled || !["selection", "selection_retry", "screening", "screening_retry"].includes(stage)
+    if (!enabled || !["selection", "selection_retry", "screening", "screening_retry", "retrieval", "draft"].includes(stage)
       || !/^[a-z][a-z0-9_]{1,80}$/.test(code) || !Number.isFinite(elapsedMs) || elapsedMs < 0) return;
     sink(`ask diagnostic: ${JSON.stringify({ ...safe, stage, code, elapsed_ms: Math.round(elapsedMs) })}`);
   };
