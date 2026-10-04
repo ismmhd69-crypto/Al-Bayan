@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const skip: string[] = ["https://sunnah.com/muslim:447b", "https://sunnah.com/muslim:567a"];
+const skip: string[] = ["https://sunnah.com/muslim:447b", "https://sunnah.com/muslim:567a", "https://sunnah.com/muslim:680a", "https://sunnah.com/muslim:680b", "https://sunnah.com/muslim:681", "https://sunnah.com/muslim:737a", "https://sunnah.com/muslim:737b", "https://sunnah.com/muslim:737c", "https://sunnah.com/muslim:738a", "https://sunnah.com/muslim:738b", "https://sunnah.com/muslim:738c", "https://sunnah.com/muslim:738d", "https://sunnah.com/muslim:738e", "https://sunnah.com/muslim:739", "https://sunnah.com/muslim:740", "https://sunnah.com/muslim:741", "https://sunnah.com/muslim:742", "https://sunnah.com/muslim:743a", "https://sunnah.com/muslim:743b", "https://sunnah.com/muslim:744a", "https://sunnah.com/muslim:744b", "https://sunnah.com/muslim:745a", "https://sunnah.com/muslim:745b", "https://sunnah.com/muslim:745c"];
 for (let n = 467; n <= 479; n++) {
   skip.push(`https://sunnah.com/muslim:${n}`);
   for (const l of ["a", "b", "c", "d", "e", "f"]) skip.push(`https://sunnah.com/muslim:${n}${l}`);
@@ -38,6 +38,11 @@ const processedCount = current[0]?.url === "https://sunnah.com/muslim:567a" ? 1
   : current[0]?.url === "https://sunnah.com/muslim:655b" ? 30
   : current[0]?.url === "https://sunnah.com/muslim:672c" ? 30
   : current[0]?.url === "https://sunnah.com/muslim:694d" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:703c" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:713a" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:715w" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:725b" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:746a" ? 1
   : current[0]?.url === "https://sunnah.com/muslim:570a" ? 6
   : 10;
 const processedCurrent = current.slice(0, processedCount);

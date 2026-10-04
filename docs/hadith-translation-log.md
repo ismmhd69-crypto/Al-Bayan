@@ -2204,6 +2204,8 @@ Codex batch 285 inserted 60 rows for Sahih Muslim 682a to 694c. The database cou
 
 Codex batch 285 inserted 0 rows for Sahih Muslim 682a to 694c. The database count increased from 29822 to 29822, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
+Ten-batch self-check after Codex batch 291: I re-read ten recent translations against their Arabic source, including Muslim 694d, 695a, 697a, 699a, 700c, 703c, 706c, 710a, 715k, and 746a. Chain order, prayer rulings, travel details, Quran references, and the long 746a night-prayer account were present in both languages. No correction was inserted because existing translation rows were not changed. Needs Mo remains the skipped 680a, 680b, 681, and 737a to 745c records.
+
 Codex batch 286 inserted 60 rows for Sahih Muslim 694d to 703b. The database count increased from 29858 to 29918, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 287 inserted 60 rows for Sahih Muslim 703c to 712. The database count increased from 29930 to 29990, exactly matching the inserted rows. Validation passed for 30 hadiths.
@@ -2213,3 +2215,5 @@ Codex batch 288 inserted 60 rows for Sahih Muslim 713a to 715v. The database cou
 Codex batch 289 inserted 60 rows for Sahih Muslim 715w to 725a. The database count increased from 30074 to 30134, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 290 inserted 60 rows for Sahih Muslim 725b to 736b. The database count increased from 30146 to 30206, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 291 inserted 2 rows for Sahih Muslim 746a to 746a. The database count increased from 30230 to 30232, exactly matching the inserted rows. Validation passed for 1 hadiths.
