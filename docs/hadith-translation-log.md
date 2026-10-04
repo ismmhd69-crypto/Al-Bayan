@@ -1955,3 +1955,15 @@ Codex batch 219 inserted 14 rows for Sahih Muslim 305c to 308. The database coun
 Codex batch 220 inserted 14 rows for Sahih Muslim 309 to 314a. The database count increased from 28192 to 28206, exactly matching the inserted rows. Validation passed for 7 hadiths.
 
 Self-check after batches 211 to 220: reread Muslim 293b, 294, 302, 303a, 305a, 305c, 307a, 309, 311, and 314a against the Arabic. Chains, rulings, negations, intimate wording, and main meanings matched. The previously recorded length-ratio warning for Muslim 297d remains under Needs Mo; no existing rows were changed.
+
+Codex batch 221 inserted 14 rows for Sahih Muslim 314b to 316d. The database count increased from 28206 to 28220, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 222 inserted 14 rows for Sahih Muslim 317a to 320. The database count increased from 28220 to 28234, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Needs Mo: Muslim 320 English contains the Arabic term "الوفرة" in the hairstyle description. The German translation uses "Wufra". Existing rows were not changed under the insert-only rule.
+
+Codex batch 223 inserted 14 rows for Sahih Muslim 321a to 324. The database count increased from 28234 to 28248, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 224 inserted 14 rows for Sahih Muslim 325a to 328. The database count increased from 28248 to 28262, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 225 inserted 14 rows for Sahih Muslim 329 to 332b. The database count increased from 28262 to 28276, exactly matching the inserted rows. Validation passed for 7 hadiths.
