@@ -2345,3 +2345,5 @@ Codex batches 902 and 903 completed five available Sahih Muslim records: 991a, 9
 Codex batches 904 and 905 completed six Sahih Muslim records: 1000b, 1001a, 1001b, 1002a, 1002b, and 1003a. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
 Codex batches 906 and 907 completed six Sahih Muslim records: 1003b, 1004a, 1004b, 1004c, 1004d, and 1004e. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
+
+Codex batches 908 and 909 completed six Sahih Muslim records: 1016b, 1016c, 1016d, 1017a, 1017b, and 1017c. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
