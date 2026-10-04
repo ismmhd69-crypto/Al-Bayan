@@ -1877,3 +1877,17 @@ Codex batch 187 inserted 2 rows for Sahih Muslim 193a to 193a. The database coun
 Codex batch 188 inserted 2 rows for Sahih Muslim 193e to 193e. The database count increased from 27728 to 27730, exactly matching the inserted rows. Validation passed for 1 hadiths.
 
 Codex batch 189 inserted 2 rows for Sahih Muslim 194a to 194a. The database count increased from 27730 to 27732, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 190 inserted 12 rows for Sahih Muslim 194b to 197. The database count increased from 27732 to 27744, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+Codex batch 191 inserted 14 rows for Sahih Muslim 198a to 199c. The database count increased from 27744 to 27758, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 192 inserted 14 rows for Sahih Muslim 200a to 203. The database count increased from 27758 to 27772, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 193 inserted 14 rows for Sahih Muslim 204a to 207b. The database count increased from 27772 to 27786, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 194 inserted 14 rows for Sahih Muslim 208a to 211. The database count increased from 27786 to 27800, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 195 inserted 14 rows for Sahih Muslim 212 to 216b. The database count increased from 27800 to 27814, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Self-check after batches 186 to 195: reread Muslim 193a, 193e, 194a, 194b, 195, 198a, 202, 204a, 208a, and 216a against the Arabic. Chains, repeated wording, Quran references, numbers, negations, and main rulings matched. No problems found and no Needs-Mo item added.
