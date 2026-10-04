@@ -1711,3 +1711,15 @@ Codex batch 118 inserted 20 rows for Sahih al-Bukhari 4407 to 4417. The database
 Needs Mo: Sahih al-Bukhari 4418 deferred. It is a 13,306-character source containing the full report of Ka'b ibn Malik and the repentance after Tabuk; it needs a dedicated complete translation and was not shortened or inserted.
 
 Codex batch 120 inserted 60 rows for Sahih al-Bukhari 4419 to 4450. The database count increased from 25528 to 25588, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 121 inserted 60 rows for Sahih al-Bukhari 4451 to 4485. The database count increased from 25588 to 25648, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex ten-batch self-check for batches 111 through 120: re-read Bukhari 4238, 4240, 4242, 4275, 4307, 4340, 4373, 4407, 4419, and 4450 against their Arabic source bodies and local English and German outputs. Chains, honorifics, Quran references, death reports, and the closing wording were checked. No missing material, Arabic letters, or Quran tags were found. Bukhari 4418 remained deferred under Needs Mo because it is a 13,306-character report requiring a dedicated complete translation.
+
+Codex batch 122 inserted 60 rows for Sahih al-Bukhari 4486 to 4517. The database count increased from 25648 to 25708, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 123 inserted 60 rows for Sahih al-Bukhari 4518 to 4549. The database count increased from 25708 to 25768, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Needs Mo: Sahih al-Bukhari 4553 deferred. It is a 5,719-character source requiring a dedicated complete translation and was not shortened or inserted. Bukhari 4551 and 4552 were held temporarily because the exporter encountered this dedicated long source next; they remain untranslated and will be returned to in a later full batch.
+
+Needs Mo: Sahih al-Bukhari 4566 deferred. It is a 3,241-character source requiring a dedicated complete translation and was not shortened or inserted. Bukhari 4554 through 4565 were held temporarily because the exporter encountered this dedicated long source next; they remain untranslated and will be returned to in a later full batch.
