@@ -1915,3 +1915,17 @@ Codex batch 204 inserted 14 rows for Sahih Muslim 245 to 249a. The database coun
 Codex batch 205 inserted 14 rows for Sahih Muslim 249b to 253b. The database count increased from 27940 to 27954, exactly matching the inserted rows. Validation passed for 7 hadiths.
 
 Codex batch 206 inserted 14 rows for Sahih Muslim 254 to 257b. The database count increased from 27954 to 27968, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 207 inserted 14 rows for Sahih Muslim 258 to 261b. The database count increased from 27968 to 27982, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 207 inserted 14 rows for Sahih Muslim 262a to 266b. The database count increased from 27982 to 27996, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 208 inserted 14 rows for Sahih Muslim 267a to 269. The database count increased from 27996 to 28010, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 208 inserted 14 rows for Sahih Muslim 270 to 273b. The database count increased from 28010 to 28024, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 209 inserted 14 rows for Sahih Muslim 274a to 274g. The database count increased from 28024 to 28038, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 210 inserted 14 rows for Sahih Muslim 274h to 275. The database count increased from 28038 to 28052, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Self-check after batches 201 to 210: reread Muslim 235c, 238, 241b, 245, 249b, 254, 258, 267a, 274a, and 274h against the Arabic. Chains, rulings, negations, numbers, and main meanings matched. Needs Mo: Muslim 241b German uses localized narrator spellings such as “Schu'ba” and “Baschar” instead of the required standard English spellings in both languages; Muslim 245 German expands “Abd al-Wahid, namely Ibn Ziyad” as “the son of Ziyad,” which should be reviewed for name fidelity. Existing rows were not changed.
