@@ -2263,3 +2263,7 @@ Codex batch 298 inserted 2 rows for Sahih Muslim 832 to 832. The database count 
 Codex batch 299 inserted 56 rows for Sahih Muslim 833a to 846a. The database count increased from 30722 to 30778, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 300 inserted 60 rows for Sahih Muslim 846b to 857a. The database count increased from 30778 to 30838, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 301 inserted 60 rows for Sahih Muslim 857b to 874. The database count increased from 30838 to 30898, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Ten-batch self-check after Codex batch 301: I re-read ten recent translations against their Arabic source, including Muslim 857b, 858a, 861, 863a, 865, 867a, 868, 869, 871, and 873a. The checked entries preserved Friday attendance and silence, sermon posture, the Quran 62:11 and Quran 43:77 references, the sermon warnings, the DImad conversion account, and the Quran 50:1 reference. Chain order and the English and German meanings were present. No correction was inserted because existing translation rows were not changed. Needs Mo includes the skipped Muslim 823b to 831 records because only 22 ordinary records remained before the long Muslim 832 record.

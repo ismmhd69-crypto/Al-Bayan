@@ -1,6 +1,7 @@
 import fs from "node:fs";
 
 const skip: string[] = ["https://sunnah.com/muslim:447b", "https://sunnah.com/muslim:567a", "https://sunnah.com/muslim:680a", "https://sunnah.com/muslim:680b", "https://sunnah.com/muslim:681", "https://sunnah.com/muslim:737a", "https://sunnah.com/muslim:737b", "https://sunnah.com/muslim:737c", "https://sunnah.com/muslim:738a", "https://sunnah.com/muslim:738b", "https://sunnah.com/muslim:738c", "https://sunnah.com/muslim:738d", "https://sunnah.com/muslim:738e", "https://sunnah.com/muslim:739", "https://sunnah.com/muslim:740", "https://sunnah.com/muslim:741", "https://sunnah.com/muslim:742", "https://sunnah.com/muslim:743a", "https://sunnah.com/muslim:743b", "https://sunnah.com/muslim:744a", "https://sunnah.com/muslim:744b", "https://sunnah.com/muslim:745a", "https://sunnah.com/muslim:745b", "https://sunnah.com/muslim:745c"];
+skip.push(...["823b","824a","824b","824c","824d","825","826a","826b","827","827b","827c","827d","827e","827f","827g","827h","828a","828b","829","830a","830b","831"].map((url) => `https://sunnah.com/muslim:${url}`));
 for (let n = 467; n <= 479; n++) {
   skip.push(`https://sunnah.com/muslim:${n}`);
   for (const l of ["a", "b", "c", "d", "e", "f"]) skip.push(`https://sunnah.com/muslim:${n}${l}`);
@@ -48,6 +49,13 @@ const processedCount = current[0]?.url === "https://sunnah.com/muslim:567a" ? 1
   : current[0]?.url === "https://sunnah.com/muslim:763l" ? 30
   : current[0]?.url === "https://sunnah.com/muslim:782c" ? 30
   : current[0]?.url === "https://sunnah.com/muslim:795c" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:810" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:823b" ? 22
+  : current[0]?.url === "https://sunnah.com/muslim:827c" ? 12
+  : current[0]?.url === "https://sunnah.com/muslim:832" ? 1
+  : current[0]?.url === "https://sunnah.com/muslim:833a" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:846b" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:857b" ? 30
   : current[0]?.url === "https://sunnah.com/muslim:570a" ? 6
   : 10;
 const processedCurrent = current.slice(0, processedCount);
