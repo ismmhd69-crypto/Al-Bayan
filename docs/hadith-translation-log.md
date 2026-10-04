@@ -2416,4 +2416,4 @@ Codex batch 946 inserted 12 rows for Sahih Muslim 1126a to 1126f. The database c
 
 Codex batch 325 inserted 48 rows for Sahih Muslim 1126a to 1137. The database count increased from 32174 to 32222, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
-Codex batch 948 inserted 0 rows for Sahih Muslim 1127a to 1129a. The database count increased from 32222 to 32222, exactly matching the inserted rows. Validation passed for 6 hadiths.
+Codex batch 948 checked Sahih Muslim 1127a to 1129a. All 12 database translation rows already existed, so no rows were inserted or changed. The stored wording differed from this draft, so no conflicting local translations were added. Validation passed for 6 hadiths.
