@@ -1830,6 +1830,8 @@ Codex batch 171 inserted 16 rows for Sahih Muslim 160b to 162. The database coun
 
 Codex batch 172 inserted 2 rows for Sahih Muslim 162a to 162a. The database count increased from 27584 to 27586, exactly matching the inserted rows. Validation passed for 1 hadiths.
 
+Codex ten-batch self-check after batches 171-180: reread Muslim 162a, 164a, 166a, 168, 171, 173, 177a, 178b, 179a, and 182a against their Arabic sources and inserted English and German outputs. The Night Journey details, Quran references, descriptions of Jibril, the Dajjal, the veils, the bridge, prostration marks, resurrection judgment, and the final person's entry into Paradise were checked. No translation problem was found. Existing rows were not changed.
+
 Codex batch 173 inserted 4 rows for Sahih Muslim 162b to 162c. The database count increased from 27586 to 27590, exactly matching the inserted rows. Validation passed for 2 hadiths.
 
 Codex batch 174 inserted 2 rows for Sahih Muslim 163 to 163. The database count increased from 27590 to 27592, exactly matching the inserted rows. Validation passed for 1 hadiths.
@@ -1849,3 +1851,9 @@ Codex batch 176 inserted 8 rows for Sahih Muslim 164b to 174a. The database coun
 Codex batch 176 inserted 18 rows for Sahih Muslim 164b to 177d. The database count increased from 27634 to 27652, exactly matching the inserted rows. Validation passed for 29 hadiths.
 
 Codex batch 177 inserted 2 rows for Sahih Muslim 177a to 177a. The database count increased from 27652 to 27654, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 178 inserted 16 rows for Sahih Muslim 178a to 181b. The database count increased from 27654 to 27670, exactly matching the inserted rows. Validation passed for 8 hadiths.
+
+Codex batch 179 inserted 2 rows for Sahih Muslim 182a to 182a. The database count increased from 27670 to 27672, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 180 inserted 4 rows for Sahih Muslim 182b to 182c. The database count increased from 27672 to 27676, exactly matching the inserted rows. Validation passed for 2 hadiths.
