@@ -30,6 +30,9 @@ const processedCount = current[0]?.url === "https://sunnah.com/muslim:567a" ? 1
   : current[0]?.url === "https://sunnah.com/muslim:588e" ? 10
   : current[0]?.url === "https://sunnah.com/muslim:592c" ? 10
   : current[0]?.url === "https://sunnah.com/muslim:594a" ? 10
+  : current[0]?.url === "https://sunnah.com/muslim:598a" ? 10
+  : current[0]?.url === "https://sunnah.com/muslim:604a" ? 30
+  : current[0]?.url === "https://sunnah.com/muslim:619b" ? 30
   : current[0]?.url === "https://sunnah.com/muslim:570a" ? 6
   : 10;
 const processedCurrent = current.slice(0, processedCount);

@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const rows=JSON.parse(fs.readFileSync('data/hadith-words-translations/codex-batch-current.json','utf8')) as Array<{id:string,url:string}>;
+const source=fs.readFileSync('scripts/translate-codex-batch-277-run.ts','utf8');
+const t:Record<string,[string,string]>={};
+for(const m of source.matchAll(/'(https:\/\/sunnah\.com\/muslim:[^']+)':\["([\s\S]*?)","([\s\S]*?)"\](?:,|\r?\n)/g)) t[m[1]]=[m[2],m[3]];
+t['https://sunnah.com/muslim:603b']=['Abu Bakr ibn Abi Shayba narrated to us. Muawiya ibn Hisham narrated to us. Shayban narrated to us, with this chain.','Abu Bakr ibn Abi Shayba überlieferte uns. Muawiya ibn Hisham überlieferte uns. Shayban überlieferte uns, mit dieser Überliefererkette.'];
+const out=rows.slice(0,10).map(r=>{const x=t[r.url];if(!x)throw Error(`Missing ${r.url}`);return {id:r.id,url:r.url,en:x[0],de:x[1]};});
+fs.writeFileSync('data/hadith-words-translations/codex-batch-277-part.json',JSON.stringify(rows.slice(0,10),null,2)+'\n');
+fs.writeFileSync('data/hadith-words-translations/codex-out-277-part.json',JSON.stringify(out,null,2)+'\n');
+console.log(`translated=${out.length}`);
