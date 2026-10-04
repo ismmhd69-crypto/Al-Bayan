@@ -3,7 +3,7 @@
 // pointing AI_PROVIDER at it; nothing else changes.
 
 export type JsonSchema =
-  | { type: "string"; enum?: string[]; description?: string }
+  | { type: "string"; enum?: string[]; description?: string; maxLength?: number }
   | { type: "integer" | "number" | "boolean"; description?: string }
   | { type: "array"; items: JsonSchema; description?: string }
   | { type: "object"; properties: Record<string, JsonSchema>; required: string[]; description?: string };

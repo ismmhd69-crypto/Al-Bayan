@@ -100,9 +100,17 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
       if (BUSY_STATUSES.has(res.status)) throw new GoogleBusyError(`openrouter busy (${res.status})`);
       if (UNAVAILABLE_STATUSES.has(res.status)) throw new GoogleBusyError(`openrouter unavailable (${res.status})`);
       if (!res.ok) throw new Error(`openrouter request failed with status ${res.status}`);
-      const data = (await res.json()) as { choices?: { message?: { content?: string | null } }[]; usage?: { cost?: number } };
-      // Real money per call (dollars), logged as model id and number only, so a measurement can add it up.
-      if (typeof data.usage?.cost === "number") debug(`ai cost: ${id} ${data.usage.cost}`);
+      type Reply = { choices?: { finish_reason?: string; message?: { content?: string | null } }[]; usage?: { cost?: number } };
+      const read = async (response: Response): Promise<Reply> => {
+        const data = await response.json() as Reply;
+        // Count every successful HTTP call, including a cut-off first attempt.
+        if (typeof data.usage?.cost === "number") debug(`ai cost: ${id} ${data.usage.cost}`);
+        return data;
+      };
+      const data = await read(res);
+      // Hidden reasoning shares max_tokens. Never salvage a nested object from cut-off JSON.
+      // Let the existing chain try its next model without a costly same-model retry.
+      if (data.choices?.[0]?.finish_reason === "length") throw new GoogleBusyError("openrouter output cut off");
       return extractJsonObject(data.choices?.[0]?.message?.content ?? "");
     },
   };

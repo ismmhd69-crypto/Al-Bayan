@@ -262,6 +262,37 @@ function setup(script: Script, tiered: PipelineDeps["tiered"] | null = { videoBu
 }
 
 describe("tiered pipeline", () => {
+  it("states existing sentence and list limits before the first draft and in its schema", async () => {
+    const { d, writer } = setup({ drafts: [draft(verseClaim, hadithClaim, scholarClaim)] });
+    expect((await runPipeline("What does Islam teach about fasting?", "en", d)).status).toBe("answer");
+    const request = writer.seen.find((call) => call.system.startsWith("You write short explanations"))!;
+    expect(request.system).toContain("at most 300 characters");
+    expect(request.system).toContain("at most 160 characters");
+    expect(request.system).toContain("Do not turn adjacent statements into a causal explanation");
+    expect(request.schema).toMatchObject({ properties: {
+      simple_answer: { items: { properties: { text: { maxLength: 300 } } } },
+      list: { items: { properties: { text: { maxLength: 160 } } } },
+      more_explanation: { items: { properties: { sentences: { items: { properties: { text: { maxLength: 300 } } } } } } },
+    } });
+  });
+  it("rejects an overlong claim, allows one shorter sourced correction, and still refuses a stuck writer", async () => {
+    const long = { ...verseClaim, text: `Believers ${"observe ".repeat(40)}a certain month.` };
+    const fixed = setup({ drafts: [draft(long), draft(verseClaim, hadithClaim, scholarClaim)] });
+    expect((await runPipeline("What does Islam teach about fasting?", "en", fixed.d)).status).toBe("answer");
+    const stuck = setup({ drafts: [draft(long)] });
+    expect((await runPipeline("What does Islam teach about fasting?", "en", stuck.d)).status).toBe("no_summary");
+    expect(stuck.reasons).toContain("no_summary_after_draft_claim_length");
+  });
+  it("corrects source attribution without letting Quran-only claims impersonate hadith", async () => {
+    const wrong = { ...verseClaim, text: "The Prophet explained that people fast during a certain month." };
+    const { d, writer } = setup({ drafts: [draft(wrong), draft(verseClaim, hadithClaim, scholarClaim)] });
+    expect((await runPipeline("What does Islam teach about fasting?", "en", d)).status).toBe("answer");
+    const corrected = writer.seen.filter((call) => call.system.startsWith("You write short explanations"))[1];
+    expect(JSON.parse(corrected.prompt).correction).toContain("only with a hadith citation");
+    const stuck = setup({ drafts: [draft(wrong)] });
+    expect((await runPipeline("What does Islam teach about fasting?", "en", stuck.d)).status).toBe("no_summary");
+    expect(stuck.reasons).toContain("no_summary_after_draft_source_attribution");
+  });
   it("shows the verse, the hadith and the fatwa, written in that order, even when the writer starts with the fatwa", async () => {
     const { d, writer, verifier } = setup({ drafts: [draft(scholarClaim, hadithClaim, verseClaim)] });
     const r = await runPipeline("What does Islam teach about fasting?", "en", d);
@@ -378,6 +409,17 @@ describe("tiered pipeline", () => {
     expect(r.answer.videos).toBeUndefined();
     expect(reasons).toContain("video_skipped_budget");
     expect(verifier.seen.some((call) => call.system.startsWith("You check optional video titles"))).toBe(false);
+  });
+
+  it("returns a checked answer when optional video checking ignores its deadline", async () => {
+    const { d } = setup({ drafts: [draft(verseClaim, hadithClaim, scholarClaim)] });
+    const generate = d.verifier.generateJson;
+    d.deadlineMs = 400;
+    d.verifier = { id: d.verifier.id, generateJson: (request) => request.system.startsWith("You check optional video titles")
+      ? new Promise(() => {}) : generate(request) };
+    const r = await runPipeline("What does Islam teach about fasting?", "en", d);
+    expect(r.status).toBe("answer");
+    if (r.status === "answer") expect(r.answer.videos).toBeUndefined();
   });
 
   it("respects a smaller MAX_VIDEOS", async () => {

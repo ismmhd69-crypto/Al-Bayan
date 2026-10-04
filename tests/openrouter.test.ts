@@ -24,6 +24,26 @@ afterEach(() => {
 });
 
 describe("createOpenRouter", () => {
+  it("records cut-off reply cost before falling through to the existing chain", async () => {
+    process.env.ASK_DEBUG = "true";
+    const info = vi.spyOn(console, "info").mockImplementation(() => {});
+    const bodies: Record<string, unknown>[] = [];
+    vi.stubGlobal("fetch", vi.fn(async (_url: string, init: RequestInit) => {
+      bodies.push(JSON.parse(String(init.body)));
+      return bodies.length === 1
+        ? new Response(JSON.stringify({ choices: [{ finish_reason: "length", message: { content: '{"assessments":[{"source_id":"Q2:1"},' } }], usage: { cost: 0.001 } }))
+        : reply('{"ok":true}', { usage: { cost: 0.002 } });
+    }));
+    await expect(run()).rejects.toBeInstanceOf(GoogleBusyError);
+    expect(bodies.map((b) => b.max_tokens)).toEqual([2048]);
+    expect(info.mock.calls.filter(([message]) => String(message).startsWith("ai cost:"))).toHaveLength(1);
+  });
+  it("never accepts nested objects from a cut-off response", async () => {
+    const fetcher = vi.fn(async () => new Response(JSON.stringify({ choices: [{ finish_reason: "length", message: { content: '{"assessments":[{"source_id":"Q2:1"},' } }] })));
+    vi.stubGlobal("fetch", fetcher);
+    await expect(run()).rejects.toBeInstanceOf(GoogleBusyError);
+    expect(fetcher).toHaveBeenCalledTimes(1);
+  });
   it("reads JSON with reasoning text or a think block around it", async () => {
     vi.stubGlobal("fetch", vi.fn(async () => reply('<think>hmm {"a":0}</think>Here: {"ok":true}')));
     expect(await run()).toEqual({ ok: true });
