@@ -2393,3 +2393,6 @@ Codex batch 932-933 inserted 12 rows for Sahih Muslim 1072a to 1085b. The databa
 Codex batch 321 inserted 54 rows for Sahih Muslim 1084b to 1096b. The database count increased from 31928 to 31982, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Self-check after Codex batches 312 to 321: re-read 10 own translations against the Arabic. The sampled translations were generally complete, but 987a, 1000b, 1016b, 1028 and 1056 omitted the source honorific attached to the Prophet or Messenger of Allah in the English and/or German text. These existing rows were not updated or deleted under the insert-only rule. They remain Needs Mo.
+
+
+Codex batch 934-935 inserted 12 rows for Sahih Muslim 1097a to 1099b. The database count increased from 31982 to 31994, exactly matching the inserted rows. Validation passed for 6 hadiths.
