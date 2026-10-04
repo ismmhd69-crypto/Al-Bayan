@@ -1979,3 +1979,15 @@ Codex batch 229 inserted 14 rows for Sahih Muslim 337 to 340a. The database coun
 Codex batch 230 inserted 14 rows for Sahih Muslim 340b to 345. The database count increased from 28332 to 28346, exactly matching the inserted rows. Validation passed for 7 hadiths.
 
 Self-check after batches 221-230: Re-read 10 translations against their Arabic, including Muslim 314b, 315a, 315b, 316a, 316b, 316c, 316d, 317a, 317b, and 317c. Narrator chains, variant notes, washing details, quantities, negations, and the Quran reference were preserved. No new problems found. Existing Needs Mo items remain unchanged.
+
+Codex batch 231 inserted 14 rows for Sahih Muslim 346a to 349. The database count increased from 28346 to 28360, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 232 inserted 14 rows for Sahih Muslim 350 to 355a. The database count increased from 28360 to 28374, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 233 inserted 14 rows for Sahih Muslim 355b to 359a. The database count increased from 28374 to 28388, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 234 inserted 14 rows for Sahih Muslim 359b to 363b. The database count increased from 28388 to 28402, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 235 inserted 14 rows for Sahih Muslim 363c to 366c. The database count increased from 28402 to 28416, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Self-check after batches 226-235: Re-read 10 translations against their Arabic, including Muslim 332c, 334c, 336a, 337, 340b, 346a, 350, 355b, 359b, and 363c. Narrator chains, variant wording, purification instructions, rulings, and repeated-chain notes were preserved. No new problems found. Existing Needs Mo items remain unchanged.
