@@ -2394,19 +2394,26 @@ Codex batch 321 inserted 54 rows for Sahih Muslim 1084b to 1096b. The database c
 
 Self-check after Codex batches 312 to 321: re-read 10 own translations against the Arabic. The sampled translations were generally complete, but 987a, 1000b, 1016b, 1028 and 1056 omitted the source honorific attached to the Prophet or Messenger of Allah in the English and/or German text. These existing rows were not updated or deleted under the insert-only rule. They remain Needs Mo.
 
-
 Codex batch 934-935 inserted 12 rows for Sahih Muslim 1097a to 1099b. The database count increased from 31982 to 31994, exactly matching the inserted rows. Validation passed for 6 hadiths.
-
 
 Codex batch 936-937 inserted 12 rows for Sahih Muslim 1100 to 1102a. The database count increased from 31994 to 32006, exactly matching the inserted rows. Validation passed for 6 hadiths.
 
+Codex batch 322 inserted 36 rows for Sahih Muslim 1097a to 1106i. The database count increased from 32006 to 32042, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
-Codex batch 938-939 checked Sahih Muslim 1102b to 1103d. All 12 database translation rows already existed, so no rows were inserted or changed. The stored wording differed from this draft, so no conflicting local translations were added. Validation passed for 6 hadiths.
-
+Codex batch 938-939 inserted 0 rows for Sahih Muslim 1102b to 1103d. The database count increased from 32042 to 32042, exactly matching the inserted rows. Validation passed for 6 hadiths.
 
 Codex batch 940-941 inserted 12 rows for Sahih Muslim 1106j to 1107b. The database count increased from 32042 to 32054, exactly matching the inserted rows. Validation passed for 6 hadiths.
 
+Codex batch 323 inserted 48 rows for Sahih Muslim 1106j to 1114b. The database count increased from 32054 to 32102, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
-Codex batch 942-943 checked Sahih Muslim 1108 to 1109e. All 12 database translation rows already existed, so no rows were inserted or changed. The stored wording differed from this draft, so no conflicting local translations were added. Validation passed for 6 hadiths.
+Codex batch 942-943 inserted 0 rows for Sahih Muslim 1108 to 1109e. The database count increased from 32102 to 32102, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
 Codex batch 944 inserted 12 rows for Sahih Muslim 1115a to 1116c. The database count increased from 32102 to 32114, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+Codex batch 324 inserted 48 rows for Sahih Muslim 1115a to 1125e. The database count increased from 32114 to 32162, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
 Codex batch 946 inserted 12 rows for Sahih Muslim 1126a to 1126f. The database count increased from 32162 to 32174, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+Codex batch 325 inserted 48 rows for Sahih Muslim 1126a to 1137. The database count increased from 32174 to 32222, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 948 inserted 0 rows for Sahih Muslim 1127a to 1129a. The database count increased from 32222 to 32222, exactly matching the inserted rows. Validation passed for 6 hadiths.
