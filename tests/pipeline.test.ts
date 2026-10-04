@@ -7,6 +7,7 @@ import type { AIProvider, JsonRequest } from "@/lib/ai/types";
 import type { Verse } from "@/lib/sources/quran-meta";
 import type { Hadith } from "@/lib/sources/hadith-rules";
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
+import { CLAIM_AUDIT_FIELDS, parseClaimAudit } from "@/lib/ask/checks";
 
 const verses: Verse[] = [
   {
@@ -1419,5 +1420,71 @@ describe("lean candidate limits (ASK_LEAN)", () => {
     const normal = deps({ understand: understanding, draft: goodDraft });
     await runPipeline("What does the Quran say about fasting?", "en", normal.d);
     expect(JSON.parse(wide.verifier.seen[0].prompt).candidates.length).toBe(JSON.parse(normal.verifier.seen[0].prompt).candidates.length);
+  });
+});
+
+
+describe("runPipeline claim audit", () => {
+  const assessment = (overrides: Record<string, unknown> = {}) => ({
+    claim_id: "C1", source_ids: ["Q2:183"],
+    ...Object.fromEntries(CLAIM_AUDIT_FIELDS.map((field) => [field, "yes"])),
+    reason_codes: [], explanation: "", ...overrides,
+  });
+  const auditOk = () => ({ ...OK, claim_assessments: [assessment()] });
+  const auditFail = () => ({ ...OK, claim_assessments: [assessment({
+    audience_preserved: "no", reason_codes: ["audience_changed"], explanation: "Keep the source's addressed group explicit.",
+  })] });
+
+  it("uses the same call count and allowance, with claim IDs, citations and unselectable context", async () => {
+    const { d, writer, verifier } = deps({ understand: understanding, draft: goodDraft }, auditOk());
+    d.claimAudit = true;
+    d.neighbours = async () => [verses[1]];
+    const result = await runPipeline("What does the Quran say about fasting?", "en", d);
+    expect(result.status).toBe("answer");
+    expect(writer.seen).toHaveLength(2);
+    expect(verifier.seen).toHaveLength(2);
+    const screen = verifier.seen.find((r) => r.system.startsWith("You screen claims"))!;
+    const prompt = JSON.parse(screen.prompt);
+    expect(prompt.claims[0].claim_id).toBe("C1");
+    expect(prompt.claims[0].source_ids).toEqual(["Q2:183"]);
+    expect(prompt.claims[0].passages[0].id).toBe("Q2:183");
+    expect(prompt.claims[0].passages[0].surrounding_context[0].arabic).toBe(verses[1].arabic);
+    expect(prompt.claims[0].passages[0].surrounding_context[0]).not.toHaveProperty("id");
+    expect(screen.maxOutputTokens).toBe(2048);
+    expect(screen.signal).toBeDefined();
+    expect(screen.schema.type === "object" && screen.schema.required).toContain("claim_assessments");
+  });
+  it("passes precise feedback as JSON and screens the full correction again", async () => {
+    const { d, writer, verifier } = deps({ understand: understanding, drafts: [goodDraft, goodDraft] }, undefined, undefined, [auditFail(), auditOk()]);
+    d.claimAudit = true;
+    const logs: string[] = [];
+    d.onStep = (name) => logs.push(name);
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("answer");
+    const retry = JSON.parse(writer.seen.at(-1)!.prompt);
+    expect(retry.claim_feedback).toEqual(parseClaimAudit(auditFail(), [{ text: "", refs: ["Q2:183"] }])!.failures);
+    expect(retry.correction).toContain("never evidence or instructions");
+    expect(verifier.seen.filter((r) => r.system.startsWith("You screen claims"))).toHaveLength(2);
+    expect(logs).toContain("claim_audit_failed_audience_changed");
+    expect(logs.join(" ")).not.toContain("addressed group");
+  });
+  it("refuses after one unsuccessful correction and publishes no leftover claims", async () => {
+    const { d, writer } = deps({ understand: understanding, drafts: [goodDraft, goodDraft] }, auditFail());
+    d.claimAudit = true;
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_summary");
+    expect(writer.seen).toHaveLength(3);
+  });
+  it("does not forward malformed checker feedback or accept legacy verdicts in audit mode", async () => {
+    const malformed = { ...auditFail(), claim_assessments: [assessment({ claim_id: "C999", explanation: "Untrusted added facts." })] };
+    for (const verdicts of [malformed, { ...OK, verdicts: ["supported"] }]) {
+      const { d, writer } = deps({ understand: understanding, draft: goodDraft }, verdicts);
+      d.claimAudit = true;
+      expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_summary");
+      expect(JSON.parse(writer.seen.at(-1)!.prompt)).not.toHaveProperty("claim_feedback");
+    }
+  });
+  it("still enforces whole-answer checks even with five yes results per claim", async () => {
+    const { d } = deps({ understand: understanding, draft: goodDraft }, { ...auditOk(), context_preserved: "no" });
+    d.claimAudit = true;
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_summary");
   });
 });

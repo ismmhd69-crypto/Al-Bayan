@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-04T13:09:10.930Z",
+  "manifestHash": "02ac676284c8a244e27643f0f989cd85cc7556918a8b0d3819993b7d9fc530ee",
+  "cases": 72,
+  "mode": "paired old/new checker",
+  "status": "blocked_or_incomplete",
+  "blocked": "unsettled earlier call; reconcile before continuing",
+  "rows": [],
+  "summary": [
+    {
+      "audit": false,
+      "cases": 0,
+      "faithfulAccepted": 0,
+      "unnecessaryRefusals": 0,
+      "incorrectRejected": 0,
+      "unsafeAccepted": 0,
+      "medianSeconds": null,
+      "p95Seconds": null,
+      "detectionGatePassed": false
+    },
+    {
+      "audit": true,
+      "cases": 0,
+      "faithfulAccepted": 0,
+      "unnecessaryRefusals": 0,
+      "incorrectRejected": 0,
+      "unsafeAccepted": 0,
+      "medianSeconds": null,
+      "p95Seconds": null,
+      "detectionGatePassed": false
+    }
+  ],
+  "confirmedCost": 0,
+  "elapsedMs": 1
+}

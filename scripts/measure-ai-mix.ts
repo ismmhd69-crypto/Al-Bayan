@@ -78,7 +78,13 @@ async function main() {
   const limit = Number(process.argv.find((a) => a.startsWith("--limit="))?.slice(8) ?? Infinity);
   const only = process.argv.find((a) => a.startsWith("--id="))?.slice(5);
   const phase = process.argv.find((a) => a.startsWith("--phase="))?.slice(8);
+  const claimAudit = process.argv.find((a) => a.startsWith("--claim-audit="))?.slice(14);
+  if (claimAudit !== undefined && (!phase || !["on", "off"].includes(claimAudit))) throw new AskSpendStop("claim-audit comparison requires a phase and on/off");
   const approved = process.argv.includes("--approved");
+  const prior = process.argv.includes("--resume") && out ? JSON.parse(readFileSync(out, "utf8")) as { at: string; rows: Row[]; phase?: string; claimAudit?: string } : undefined;
+  if (prior && prior.phase !== phase) throw new Error("resume phase mismatch");
+  if (prior && prior.claimAudit !== claimAudit) throw new Error("resume audit mode mismatch");
+  const at = prior?.at ?? new Date().toISOString();
   let activeRow: Row | undefined;
   let budget: ReturnType<typeof installSpendGuard> | undefined;
   if (phase) {
@@ -92,13 +98,12 @@ async function main() {
     process.env.OPENROUTER_REASONING = "low";
     process.env.OPENROUTER_PRIVACY = "zdr";
     process.env.ASK_LEAN = "false";
-    process.env.ASK_TIERED = phase === "repaired" ? "true" : "false";
+    // Claim-audit comparisons hold tiered mode OFF in both arms; never change two variables together.
+    process.env.ASK_TIERED = claimAudit !== undefined ? "false" : phase === "repaired" ? "true" : "false";
+    process.env.ASK_CLAIM_AUDIT = claimAudit === "on" ? "true" : "false";
     process.env.PREPARED_PUBLISHING_ENABLED = "true";
     budget = installSpendGuard("docs/ask-repair-runs/spend.json", (body, response) => activeRow?.calls?.push({ body, response }));
   }
-  const prior = process.argv.includes("--resume") && out ? JSON.parse(readFileSync(out, "utf8")) as { at: string; rows: Row[]; phase?: string } : undefined;
-  if (prior && prior.phase !== phase) throw new Error("resume phase mismatch");
-  const at = prior?.at ?? new Date().toISOString();
   try {
   const { ask } = await import("@/lib/ask/pipeline");
   const full = phase ? [ADDITIONS[0], ...QUESTIONS, ...ADDITIONS.slice(1)] : QUESTIONS;
@@ -147,7 +152,7 @@ async function main() {
     row.failedStep = row.outcome === "answer" ? undefined : row.steps.at(-1)?.replace(/ at .+$/, "");
     spent += row.costUsd;
     console.log(`${q.id.padEnd(22)} ${row.outcome.padEnd(13)} ${String(row.seconds).padStart(5)}s  ${row.reasons.join(",")}  skipped:${row.skipped.length} retries:${row.retries} $${row.costUsd.toFixed(5)}`);
-    if (out) await checkpoint(out, { at, phase, approved, rows });
+    if (out) await checkpoint(out, { at, phase, claimAudit, approved, rows });
     if (row.error?.startsWith("AskSpendStop:") || budget?.guard.ledger.stopped) break;
   }
 
@@ -176,7 +181,7 @@ async function main() {
     actualExperimentSpend: budget?.guard.actual,
   };
   console.log(JSON.stringify(summary, null, 2));
-  if (out) await checkpoint(out, { at, finishedAt: new Date().toISOString(), phase, approved, summary, rows });
+  if (out) await checkpoint(out, { at, finishedAt: new Date().toISOString(), phase, claimAudit, approved, summary, rows });
   } finally { budget?.close(); }
 }
 

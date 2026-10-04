@@ -1,0 +1,671 @@
+{
+  "version": 1,
+  "frozenBeforeModelEvaluation": true,
+  "description": "12 recorded packages; paired faithful/incorrect summaries in three languages. Labels are comparison expectations, not scholar approval. No model evaluation has been run.",
+  "packages": [
+    {
+      "id": "q-audience",
+      "category": "audience_changed",
+      "kind": "quran",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "zakah-en",
+        "candidate_sha256": "6329d74c0283251966d42e495189673caeb34a8f9755dcdccec5f310eeffc9ad"
+      },
+      "candidate": {
+        "id": "Q31:17",
+        "source": {
+          "kind": "quran",
+          "verse": {
+            "key": "31:17",
+            "arabic": "يَـٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
+            "arabicPlain": "يا بني اقم الصلاة وامر بالمعروف وانه عن المنكر واصبر على ما اصابك ان ذلك من عزم الامور",
+            "translations": {
+              "en": "Keep up the prayer, my son; command what is right; forbid what is wrong; bear anything that happens to you steadfastly: these are things to be aspired to.",
+              "de": "O mein Sohn, verrichte das Gebet und gebiete Gutes und verbiete Böses und ertrage geduldig, was dich auch treffen mag. Das ist wahrlich eine Stärke in allen Dingen."
+            },
+            "url": "https://quran.com/31/17"
+          }
+        },
+        "context": [
+          {
+            "key": "31:16",
+            "arabic": "يَـٰبُنَىَّ إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُن فِى صَخْرَةٍ أَوْ فِى ٱلسَّمَـٰوَٰتِ أَوْ فِى ٱلْأَرْضِ يَأْتِ بِهَا ٱللَّهُ ۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ",
+            "arabicPlain": "يا بني انها ان تك مثقال حبة من خردل فتكن في صخرة او في السماوات او في الارض يات بها الله ان الله لطيف خبير",
+            "translations": {
+              "en": "[And Luqman continued], ‘My son, if even the weight of a mustard seed were hidden in a rock or anywhere in the heavens or earth, God would bring it [to light], for He is all subtle and all aware.",
+              "de": "\"O mein Sohn, hätte es auch nur das Gewicht eines Senfkorns und wäre es in einem Felsen oder in den Himmeln oder in der Erde, Allah würde es gewiß hervorbringen. Wahrlich, Allah ist Gnädig, Kundig."
+            },
+            "url": "https://quran.com/31/16"
+          },
+          {
+            "key": "31:18",
+            "arabic": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+            "arabicPlain": "ولا تصعر خدك للناس ولا تمش في الارض مرحا ان الله لا يحب كل مختال فخور",
+            "translations": {
+              "en": "Do not turn your nose up at people, nor walk about the place arrogantly, for God does not love arrogant or boastful people.",
+              "de": "Und weise den Menschen nicht verächtlich deine Wange und schreite nicht mit Heiterkeit auf Erden; denn Allah liebt keine eingebildeten Prahler."
+            },
+            "url": "https://quran.com/31/18"
+          }
+        ]
+      },
+      "summaries": {
+        "en": {
+          "faithful": "This verse addresses a son, urging him to maintain prayer and bear what happens with patience.",
+          "incorrect": "This verse addresses every person, urging them to maintain prayer and bear what happens with patience."
+        },
+        "de": {
+          "faithful": "Dieser Vers richtet sich an einen Sohn und fordert ihn auf, das Gebet zu bewahren und Geschehnisse geduldig zu ertragen.",
+          "incorrect": "Dieser Vers richtet sich an alle Menschen und fordert sie auf, das Gebet zu bewahren und Geschehnisse geduldig zu ertragen."
+        },
+        "ar": {
+          "faithful": "تخاطب الآية ابنا وتحثه على إقامة الصلاة والصبر على ما يصيبه.",
+          "incorrect": "تخاطب الآية جميع الناس وتحثهم على إقامة الصلاة والصبر على ما يصيبهم."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "q-cause",
+      "category": "cause_inferred",
+      "kind": "quran",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "fasting-en",
+        "candidate_sha256": "30f65e6e10fe77947b1c031fb48f7fb80a66fb757a4c5d8001832d17c08bdf11"
+      },
+      "candidate": {
+        "id": "Q2:185",
+        "source": {
+          "kind": "quran",
+          "verse": {
+            "key": "2:185",
+            "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+            "arabicPlain": "شهر رمضان الذي انزل فيه القران هدى للناس وبينات من الهدى والفرقان فمن شهد منكم الشهر فليصمه ومن كان مريضا او على سفر فعدة من ايام اخر يريد الله بكم اليسر ولا يريد بكم العسر ولتكملوا العدة ولتكبروا الله على ما هداكم ولعلكم تشكرون",
+            "translations": {
+              "en": "It was in the month of Ramadan that the Quran was revealed as guidance for mankind, clear messages giving guidance and distinguishing between right and wrong. So any one of you who is present that month should fast, and anyone who is ill or on a journey should make up for the lost days by fasting on other days later. God wants ease for you, not hardship. He wants you to complete the prescribed period and to glorify Him for having guided you, so that you may be thankful.",
+              "de": "Der Monat Ramadan ist es, in dem der Quran als Rechtleitung für die Menschen herabgesandt worden ist und als klarer Beweis der Rechtleitung und der Unterscheidung. Wer also von euch in dem Monat zugegen ist, der soll in ihm fasten. Und wer krank ist oder sich auf einer Reise befindet, soll eine Anzahl anderer Tage (fasten) Allah will es euch leicht, Er will es euch nicht schwer machen damit ihr die Frist vollendet und Allah rühmt, daß Er euch geleitet hat. Vielleicht werdet ihr dankbar sein."
+            },
+            "url": "https://quran.com/2/185"
+          }
+        },
+        "context": [
+          {
+            "key": "2:184",
+            "arabic": "أَيَّامًا مَّعْدُودَٰتٍ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌ طَعَامُ مِسْكِينٍ ۖ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+            "arabicPlain": "اياما معدودات فمن كان منكم مريضا او على سفر فعدة من ايام اخر وعلى الذين يطيقونه فدية طعام مسكين فمن تطوع خيرا فهو خير له وان تصوموا خير لكم ان كنتم تعلمون",
+            "translations": {
+              "en": "Fast for a specific number of days, but if one of you is ill, or on a journey, on other days later. For those who can fast only with extreme difficulty, there is a way to compensate- feed a needy person. But if anyone does good of his own accord, it is better for him, and fasting is better for you, if only you knew.",
+              "de": "Es sind nur abgezählte Tage. Und wer von euch krank ist oder sich auf einer Reise befindet, soll eine Anzahl anderer Tage (fasten) Und denen, die es mit großer Mühe ertragen können, ist als Ersatz die Speisung eines Armen auferlegt. Und wenn jemand freiwillig Gutes tut, so ist es besser für ihn. Und daß ihr fastet, ist besser für euch, wenn ihr es (nur) wüßtet!"
+            },
+            "url": "https://quran.com/2/184"
+          },
+          {
+            "key": "2:186",
+            "arabic": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ",
+            "arabicPlain": "واذا سالك عبادي عني فاني قريب اجيب دعوة الداع اذا دعان فليستجيبوا لي وليؤمنوا بي لعلهم يرشدون",
+            "translations": {
+              "en": "[Prophet], if My servants ask you about Me, I am near. I respond to those who call Me, so let them respond to Me, and believe in Me, so that they may be guided.",
+              "de": "Und wenn dich Meine Diener über Mich befragen, so bin Ich nahe; Ich höre den Ruf des Rufenden, wenn er Mich ruft. Deshalb sollen sie auf Mich hören und an Mich glauben. Vielleicht werden sie den rechten Weg einschlagen."
+            },
+            "url": "https://quran.com/2/186"
+          }
+        ]
+      },
+      "summaries": {
+        "en": {
+          "faithful": "The passage mentions revelation in Ramadan and instructs those present during the month to fast.",
+          "incorrect": "The passage instructs those present during Ramadan to fast because revelation occurred in that month."
+        },
+        "de": {
+          "faithful": "Die Stelle erwähnt die Offenbarung im Ramadan und fordert die während dieses Monats Anwesenden zum Fasten auf.",
+          "incorrect": "Die Stelle fordert die während des Ramadan Anwesenden zum Fasten auf, weil die Offenbarung in diesem Monat erfolgte."
+        },
+        "ar": {
+          "faithful": "تذكر الآية نزول القرآن في رمضان وتأمر من شهد الشهر بصيامه.",
+          "incorrect": "تأمر الآية من شهد رمضان بصيامه لأن القرآن نزل فيه."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "q-condition",
+      "category": "condition_lost",
+      "kind": "quran",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "fasting-en",
+        "candidate_sha256": "b3ea902a22186b289de7239f9c06c1e321412923991a3f8e1ad9ad6549594477"
+      },
+      "candidate": {
+        "id": "Q2:184",
+        "source": {
+          "kind": "quran",
+          "verse": {
+            "key": "2:184",
+            "arabic": "أَيَّامًا مَّعْدُودَٰتٍ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌ طَعَامُ مِسْكِينٍ ۖ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+            "arabicPlain": "اياما معدودات فمن كان منكم مريضا او على سفر فعدة من ايام اخر وعلى الذين يطيقونه فدية طعام مسكين فمن تطوع خيرا فهو خير له وان تصوموا خير لكم ان كنتم تعلمون",
+            "translations": {
+              "en": "Fast for a specific number of days, but if one of you is ill, or on a journey, on other days later. For those who can fast only with extreme difficulty, there is a way to compensate- feed a needy person. But if anyone does good of his own accord, it is better for him, and fasting is better for you, if only you knew.",
+              "de": "Es sind nur abgezählte Tage. Und wer von euch krank ist oder sich auf einer Reise befindet, soll eine Anzahl anderer Tage (fasten) Und denen, die es mit großer Mühe ertragen können, ist als Ersatz die Speisung eines Armen auferlegt. Und wenn jemand freiwillig Gutes tut, so ist es besser für ihn. Und daß ihr fastet, ist besser für euch, wenn ihr es (nur) wüßtet!"
+            },
+            "url": "https://quran.com/2/184"
+          }
+        },
+        "context": [
+          {
+            "key": "2:183",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+            "arabicPlain": "يا ايها الذين امنوا كتب عليكم الصيام كما كتب على الذين من قبلكم لعلكم تتقون",
+            "translations": {
+              "en": "You who believe, fasting is prescribed for you, as it was prescribed for those before you, so that you may be mindful of God.",
+              "de": "O ihr, die ihr glaubt! Das Fasten ist euch vorgeschrieben, so wie es denen vorgeschrieben war, die vor euch waren. Vielleicht werdet ihr (Allah) fürchten."
+            },
+            "url": "https://quran.com/2/183"
+          },
+          {
+            "key": "2:185",
+            "arabic": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+            "arabicPlain": "شهر رمضان الذي انزل فيه القران هدى للناس وبينات من الهدى والفرقان فمن شهد منكم الشهر فليصمه ومن كان مريضا او على سفر فعدة من ايام اخر يريد الله بكم اليسر ولا يريد بكم العسر ولتكملوا العدة ولتكبروا الله على ما هداكم ولعلكم تشكرون",
+            "translations": {
+              "en": "It was in the month of Ramadan that the Quran was revealed as guidance for mankind, clear messages giving guidance and distinguishing between right and wrong. So any one of you who is present that month should fast, and anyone who is ill or on a journey should make up for the lost days by fasting on other days later. God wants ease for you, not hardship. He wants you to complete the prescribed period and to glorify Him for having guided you, so that you may be thankful.",
+              "de": "Der Monat Ramadan ist es, in dem der Quran als Rechtleitung für die Menschen herabgesandt worden ist und als klarer Beweis der Rechtleitung und der Unterscheidung. Wer also von euch in dem Monat zugegen ist, der soll in ihm fasten. Und wer krank ist oder sich auf einer Reise befindet, soll eine Anzahl anderer Tage (fasten) Allah will es euch leicht, Er will es euch nicht schwer machen damit ihr die Frist vollendet und Allah rühmt, daß Er euch geleitet hat. Vielleicht werdet ihr dankbar sein."
+            },
+            "url": "https://quran.com/2/185"
+          }
+        ]
+      },
+      "summaries": {
+        "en": {
+          "faithful": "The passage provides for making up fasting days later for a person who is ill or travelling.",
+          "incorrect": "The passage provides for making up fasting days later for any person who prefers another time."
+        },
+        "de": {
+          "faithful": "Die Stelle sieht für einen Kranken oder Reisenden vor, Fastentage später nachzuholen.",
+          "incorrect": "Die Stelle sieht für jeden, der einen anderen Zeitpunkt bevorzugt, vor, Fastentage später nachzuholen."
+        },
+        "ar": {
+          "faithful": "تذكر الآية قضاء أيام الصيام في وقت آخر للمريض أو المسافر.",
+          "incorrect": "تذكر الآية قضاء أيام الصيام في وقت آخر لكل من يفضل وقتا آخر."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "q-joined",
+      "category": "unsupported_meaning",
+      "kind": "quran",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "home-quran-en",
+        "candidate_sha256": "f0a41ccc0f17f31d3b3bc733001cd641de2f3a527937a83039c0c480e981dc82"
+      },
+      "candidate": {
+        "id": "Q2:255",
+        "source": {
+          "kind": "quran",
+          "verse": {
+            "key": "2:255",
+            "arabic": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+            "arabicPlain": "الله لا اله الا هو الحي القيوم لا تاخذه سنة ولا نوم له ما في السماوات وما في الارض من ذا الذي يشفع عنده الا باذنه يعلم ما بين ايديهم وما خلفهم ولا يحيطون بشيء من علمه الا بما شاء وسع كرسيه السماوات والارض ولا يئوده حفظهما وهو العلي العظيم",
+            "translations": {
+              "en": "God: there is no god but Him, the Ever Living, the Ever Watchful.Neither slumber nor sleep overtakes Him. All that is in the heavens and in the earth belongs to Him. Who is there that can intercede with Him except by His leave? He knows what is before them and what is behind them, but they do not comprehend any of His knowledge except what He wills. His throne extends over the heavens and the earth; it does not weary Him to preserve them both. He is the Most High, the Tremendous.",
+              "de": "Allah kein Gott ist da außer Ihm, dem Lebendigen, dem Ewigen. Ihn ergreift weder Schlummer noch Schlaf. Ihm gehört, was in den Himmeln und was auf der Erde ist. Wer ist es, der bei Ihm Fürsprache einlegen könnte außer mit Seiner Erlaubnis? Er weiß, was vor ihnen und was hinter ihnen liegt; sie aber begreifen nichts von Seinem Wissen, es sei denn das, was Er will. Weit reicht Sein Thron über die Himmel und die Erde, und es fällt Ihm nicht schwer, sie (beide) zu bewahren. Und Er ist der Hohe, der Erhabene."
+            },
+            "url": "https://quran.com/2/255"
+          }
+        },
+        "context": [
+          {
+            "key": "2:254",
+            "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَنفِقُوا۟ مِمَّا رَزَقْنَـٰكُم مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا بَيْعٌ فِيهِ وَلَا خُلَّةٌ وَلَا شَفَـٰعَةٌ ۗ وَٱلْكَـٰفِرُونَ هُمُ ٱلظَّـٰلِمُونَ",
+            "arabicPlain": "يا ايها الذين امنوا انفقوا مما رزقناكم من قبل ان ياتي يوم لا بيع فيه ولا خلة ولا شفاعة والكافرون هم الظالمون",
+            "translations": {
+              "en": "You who believe, give from what We have provided for you, before the Day comes when there is no bargaining, no friendship, and no intercession. It is the disbelievers who are wrong.",
+              "de": "O ihr, die ihr glaubt! Spendet von dem, was Wir euch (an Gut) beschert haben, bevor ein Tag kommt, an dem es kein Handeln, keine Freundschaft und keine Fürsprache (mehr) geben wird. Die Ungläubigen sind es, die Unrecht tun."
+            },
+            "url": "https://quran.com/2/254"
+          },
+          {
+            "key": "2:256",
+            "arabic": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+            "arabicPlain": "لا اكراه في الدين قد تبين الرشد من الغي فمن يكفر بالطاغوت ويؤمن بالله فقد استمسك بالعروة الوثقى لا انفصام لها والله سميع عليم",
+            "translations": {
+              "en": "There is no compulsion in religion: true guidance has become distinct from error, so whoever rejects false gods and believes in God has grasped the firmest hand-hold, one that will never break. God is all hearing and all knowing.",
+              "de": "Es gibt keinen Zwang im Glauben. Der richtige Weg ist nun klar erkennbar geworden gegenüber dem unrichtigen. Der also, der nicht an falsche Götter glaubt, aber an Allah glaubt, hat gewiß den sichersten Halt ergriffen, bei dem es kein Zerreißen gibt. Und Allah ist Allhörend, Allwissend."
+            },
+            "url": "https://quran.com/2/256"
+          }
+        ]
+      },
+      "summaries": {
+        "en": {
+          "faithful": "The verse states that neither slumber nor sleep overtakes God and that people grasp His knowledge only as He wills.",
+          "incorrect": "The verse states that neither slumber nor sleep overtakes God and that people grasp all His knowledge."
+        },
+        "de": {
+          "faithful": "Der Vers sagt, dass weder Schlummer noch Schlaf Gott erfasst und dass Menschen Sein Wissen nur nach Seinem Willen erfassen.",
+          "incorrect": "Der Vers sagt, dass weder Schlummer noch Schlaf Gott erfasst und dass Menschen Sein gesamtes Wissen erfassen."
+        },
+        "ar": {
+          "faithful": "تذكر الآية أن الله لا تأخذه سنة ولا نوم وأن الناس لا يحيطون بعلمه إلا بما شاء.",
+          "incorrect": "تذكر الآية أن الله لا تأخذه سنة ولا نوم وأن الناس يحيطون بكل علمه."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "h-condition",
+      "category": "condition_lost",
+      "kind": "hadith",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "home-quran-en",
+        "candidate_sha256": "866a1002c887d496ab2847ebc343a445239bc33ca535ad37d296558f436f7e2c"
+      },
+      "candidate": {
+        "id": "SH49bc6ce2-1e8a-42cb-a906-bd38343d3c5a",
+        "source": {
+          "kind": "hadith",
+          "hadith": {
+            "id": "SH49bc6ce2-1e8a-42cb-a906-bd38343d3c5a",
+            "collection": "bukhari",
+            "numbers": {
+              "bukhari": 2014,
+              "muslim": null
+            },
+            "attributionAr": "رواه البخاري",
+            "gradeAr": "صحيح",
+            "arabic": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ حَفِظْنَاهُ وَإِنَّمَا حَفِظَ مِنَ الزُّهْرِيِّ عَنْ أَبِي سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ، وَمَنْ قَامَ لَيْلَةَ الْقَدْرِ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ ‏\"‏‏.‏ تَابَعَهُ سُلَيْمَانُ بْنُ كَثِيرٍ عَنِ الزُّهْرِيِّ‏.‏",
+            "translations": {
+              "en": null,
+              "de": null
+            },
+            "url": "https://sunnah.com/bukhari:2014",
+            "chapter": "باب فَضْلِ لَيْلَةِ الْقَدْرِ"
+          }
+        },
+        "context": []
+      },
+      "summaries": {
+        "en": {
+          "faithful": "The Prophet linked forgiveness of past sins to fasting Ramadan with faith and seeking reward.",
+          "incorrect": "The Prophet linked forgiveness of past sins to fasting Ramadan, regardless of faith or seeking reward."
+        },
+        "de": {
+          "faithful": "Der Prophet verknüpfte die Vergebung früherer Sünden mit dem Fasten im Ramadan aus Glauben und in Erwartung von Lohn.",
+          "incorrect": "Der Prophet verknüpfte die Vergebung früherer Sünden mit dem Fasten im Ramadan, unabhängig von Glauben oder erwartetem Lohn."
+        },
+        "ar": {
+          "faithful": "ربط النبي مغفرة الذنوب السابقة بصيام رمضان إيمانا وطلبا للثواب.",
+          "incorrect": "ربط النبي مغفرة الذنوب السابقة بصيام رمضان بغض النظر عن الإيمان وطلب الثواب."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "h-scope",
+      "category": "scope_broadened",
+      "kind": "hadith",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "intention-hadith-en",
+        "candidate_sha256": "2dc4a1d0f6623713c0889e8f7033b967352fb717dad662fa357b50ed7ae68123"
+      },
+      "candidate": {
+        "id": "SH09c17088-3041-4121-af6a-3858bbfe2d4d",
+        "source": {
+          "kind": "hadith",
+          "hadith": {
+            "id": "SH09c17088-3041-4121-af6a-3858bbfe2d4d",
+            "collection": "bukhari",
+            "numbers": {
+              "bukhari": 1,
+              "muslim": null
+            },
+            "attributionAr": "رواه البخاري",
+            "gradeAr": "صحيح",
+            "arabic": "حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ الأَنْصَارِيُّ، قَالَ أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِيُّ، أَنَّهُ سَمِعَ عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ، يَقُولُ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ ـ رضى الله عنه ـ عَلَى الْمِنْبَرِ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى دُنْيَا يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ ‏\"‏‏.‏",
+            "translations": {
+              "en": null,
+              "de": null
+            },
+            "url": "https://sunnah.com/bukhari:1",
+            "chapter": "باب كَيْفَ كَانَ بَدْءُ الْوَحْىِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم"
+          }
+        },
+        "context": []
+      },
+      "summaries": {
+        "en": {
+          "faithful": "The Prophet explained that migration aimed at worldly gain or marriage is for the purpose intended.",
+          "incorrect": "The Prophet explained that all migration is aimed at worldly gain or marriage."
+        },
+        "de": {
+          "faithful": "Der Prophet erklärte, dass eine auf weltlichen Gewinn oder Heirat gerichtete Auswanderung dem beabsichtigten Zweck dient.",
+          "incorrect": "Der Prophet erklärte, dass jede Auswanderung auf weltlichen Gewinn oder Heirat gerichtet ist."
+        },
+        "ar": {
+          "faithful": "بين النبي أن الهجرة التي يقصد بها مكسب دنيوي أو زواج تكون لذلك المقصد.",
+          "incorrect": "بين النبي أن كل هجرة يقصد بها مكسب دنيوي أو زواج."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "h-attribution",
+      "category": "unsupported_meaning",
+      "kind": "hadith",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "patience-en",
+        "candidate_sha256": "956943e0845153e60fd2084a6edc00397167509cbec2c97858d2a0a76fb09d6b"
+      },
+      "candidate": {
+        "id": "SHae52e96c-1545-4124-8d65-48a515bdb836",
+        "source": {
+          "kind": "hadith",
+          "hadith": {
+            "id": "SHae52e96c-1545-4124-8d65-48a515bdb836",
+            "collection": "bukhari",
+            "numbers": {
+              "bukhari": 5051,
+              "muslim": null
+            },
+            "attributionAr": "رواه البخاري",
+            "gradeAr": "صحيح",
+            "arabic": "حَدَّثَنَا عَلِيٌّ، حَدَّثَنَا سُفْيَانُ، قَالَ لِي ابْنُ شُبْرُمَةَ نَظَرْتُ كَمْ يَكْفِي الرَّجُلَ مِنَ الْقُرْآنِ فَلَمْ أَجِدْ سُورَةً أَقَلَّ مِنْ ثَلاَثِ آيَاتٍ، فَقُلْتُ لاَ يَنْبَغِي لأَحَدٍ أَنْ يَقْرَأَ أَقَلَّ مِنْ ثَلاَثِ آيَاتٍ‏.‏",
+            "translations": {
+              "en": null,
+              "de": null
+            },
+            "url": "https://sunnah.com/bukhari:5051",
+            "chapter": "بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ"
+          }
+        },
+        "context": []
+      },
+      "summaries": {
+        "en": {
+          "faithful": "This report records Ibn Shubrumah expressing the view that a person should not recite fewer than three verses.",
+          "incorrect": "This report records the Prophet expressing the view that a person should not recite fewer than three verses."
+        },
+        "de": {
+          "faithful": "Dieser Bericht gibt Ibn Schubrumahs Ansicht wieder, dass jemand nicht weniger als drei Verse rezitieren sollte.",
+          "incorrect": "Dieser Bericht gibt die Ansicht des Propheten wieder, dass jemand nicht weniger als drei Verse rezitieren sollte."
+        },
+        "ar": {
+          "faithful": "ينقل هذا الخبر رأي ابن شبرمة بأن الإنسان لا ينبغي له أن يقرأ أقل من ثلاث آيات.",
+          "incorrect": "ينقل هذا الخبر رأي النبي بأن الإنسان لا ينبغي له أن يقرأ أقل من ثلاث آيات."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "h-audience",
+      "category": "scope_broadened",
+      "kind": "hadith",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "home-quran-en",
+        "candidate_sha256": "adf6b96564f048c4c1ff3bc2f3982ddd0959d73927b755cf365494b46711afd8"
+      },
+      "candidate": {
+        "id": "SHe93326f0-55e6-4a8e-b9bc-b2dc0465f37d",
+        "source": {
+          "kind": "hadith",
+          "hadith": {
+            "id": "SHe93326f0-55e6-4a8e-b9bc-b2dc0465f37d",
+            "collection": "muslim",
+            "numbers": {
+              "bukhari": null,
+              "muslim": 1113
+            },
+            "attributionAr": "رواه مسلم",
+            "gradeAr": "صحيح",
+            "arabic": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ عَبْدِ الْكَرِيمِ، عَنْ طَاوُسٍ، عَنِ ابْنِ، عَبَّاسٍ - رضى الله عنهما - قَالَ لاَ تَعِبْ عَلَى مَنْ صَامَ وَلاَ عَلَى مَنْ أَفْطَرَ قَدْ صَامَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي السَّفَرِ وَأَفْطَرَ ‏.‏",
+            "translations": {
+              "en": null,
+              "de": null
+            },
+            "url": "https://sunnah.com/muslim:1113f",
+            "chapter": "باب جواز الصوم والفطر في شهر رمضان للمسافر في غير معصية إذا كان سفره مرحلتين فأكثر وأن الأفضل لمن أطاقه بلا ضرر أن يصوم ولمن يشق عليه أن يفطر"
+          }
+        },
+        "context": []
+      },
+      "summaries": {
+        "en": {
+          "faithful": "Ibn Abbas reported that the Messenger both fasted and did not fast while travelling.",
+          "incorrect": "Ibn Abbas reported that the Messenger both fasted and did not fast, whether travelling or at home."
+        },
+        "de": {
+          "faithful": "Ibn Abbas berichtete, dass der Gesandte auf Reisen sowohl fastete als auch nicht fastete.",
+          "incorrect": "Ibn Abbas berichtete, dass der Gesandte sowohl auf Reisen als auch zu Hause fastete und nicht fastete."
+        },
+        "ar": {
+          "faithful": "روى ابن عباس أن الرسول صام في السفر وأفطر فيه.",
+          "incorrect": "روى ابن عباس أن الرسول صام وأفطر سواء في السفر أو في بيته."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "s-uncertainty",
+      "category": "condition_lost",
+      "kind": "scholar",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "home-quran-en",
+        "candidate_sha256": "bdaac92986867afee4d1edccba36b56edc424ba1f669b2052a20ea08f131dbca"
+      },
+      "candidate": {
+        "id": "S1a6372f9-4fbe-4594-b95d-b9d5cbb8f4bd",
+        "source": {
+          "kind": "scholar",
+          "quote": {
+            "id": "S1a6372f9-4fbe-4594-b95d-b9d5cbb8f4bd",
+            "scholarId": "ibn-baz",
+            "scholarName": {
+              "ar": "عبد العزيز بن باز",
+              "en": "Shaykh Abdul-Aziz ibn Baz",
+              "de": "Scheich Abdul-Aziz ibn Baz"
+            },
+            "title": "الحكمة من حفظ الله للقرآن الكريم دون بقية الكتب",
+            "reference": "binbaz.org.sa, fatwa 11299",
+            "arabic": "له الحكمة البالغة، ولعل من الأسباب: أن الكتب بعدها كتب تبين ما يحرفه الناس، ويغيره الناس، أما القرآن ما بعده وحي، انقطع الوحي؛ فمن رحمة الله أن حفظه، حفظ السنة والقرآن؛ لأنه ليس هناك نبي جديد يأتي يبين لنا ما أخطأ فيه الناس، فكان من رحمة الله أن حفظ على أمة محمد القرآن والسنة. أما الماضون قبل محمد كل نبي بعده نبي، وبعده رسل يبينون ما أخطأ فيه أمة الرسول السابق، وما حرفوا وغيروا، ولهذا بيَّن القرآن والسنة ما حرف أهل الكتاب في التوراة والإنجيل، وفي شرائعهم، أما محمد ﷺ فهو الخاتم ليس بعده نبي؛ فمن رحمة الله أن حفظ كتابه، وحفظ سنة رسوله ﷺ، نعم.",
+            "url": "https://binbaz.org.sa/fatwas/11299/%D8%A7%D9%84%D8%AD%D9%83%D9%85%D8%A9-%D9%85%D9%86-%D8%AD%D9%81%D8%B8-%D8%A7%D9%84%D9%84%D9%87-%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AF%D9%88%D9%86-%D8%A8%D9%82%D9%8A%D8%A9-%D8%A7%D9%84%D9%83%D8%AA%D8%A8"
+          }
+        },
+        "context": []
+      },
+      "summaries": {
+        "en": {
+          "faithful": "Ibn Baz suggested that one possible reason for preservation is that no prophet comes after Muhammad to clarify later alterations.",
+          "incorrect": "Ibn Baz established that the only reason for preservation is that no prophet comes after Muhammad to clarify later alterations."
+        },
+        "de": {
+          "faithful": "Ibn Baz nannte als möglichen Grund für die Bewahrung, dass nach Muhammad kein Prophet kommt, um spätere Veränderungen aufzuklären.",
+          "incorrect": "Ibn Baz stellte fest, dass der einzige Grund für die Bewahrung darin besteht, dass nach Muhammad kein Prophet spätere Veränderungen aufklärt."
+        },
+        "ar": {
+          "faithful": "ذكر ابن باز أن من الأسباب المحتملة للحفظ عدم مجيء نبي بعد محمد يبين ما يغيره الناس.",
+          "incorrect": "قرر ابن باز أن السبب الوحيد للحفظ هو عدم مجيء نبي بعد محمد يبين ما يغيره الناس."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "s-ownership",
+      "category": "scope_broadened",
+      "kind": "scholar",
+      "provenance": {
+        "record": "docs/ask-repair-runs/pilot-1.json",
+        "row": "zakah-en",
+        "candidate_sha256": "6a500ab143497bb46d61ea1e47b121032861c018f743d3afbcc99173005a66af"
+      },
+      "candidate": {
+        "id": "S4c71789a-80d2-90c8-1a2c-79aa9f791bc8",
+        "source": {
+          "kind": "scholar",
+          "quote": {
+            "id": "S4c71789a-80d2-90c8-1a2c-79aa9f791bc8",
+            "scholarId": "ibn-uthaymeen",
+            "scholarName": {
+              "ar": "محمد بن صالح العثيمين",
+              "en": "Shaykh Muhammad ibn Salih al-Uthaymeen",
+              "de": "Scheich Muhammad ibn Salih al-Uthaymeen"
+            },
+            "title": "هل في الأموال الموقوفة للكوارث زكاة؟ وهل تجب الزكاة في المال المحفوظ للزواج؟",
+            "reference": "اللقاء الشهري (اللقاء الشهري [19])",
+            "arabic": "إن كان الأول فهذه الدراهم ملك لصاحبها يجب عليه أن يؤدي الزكاة بعض الناس أن الدراهم التي يعدها للزواج أو لشراء بيت ليس فيها زكاة، وهذا غلط، مادامت الدراهم في ملكه ففيها الزكاة سواء أعددتها للزواج أو لشراء بيت أو لأي شيء من الأغراض، وأما الدراهم التي تبرع بها أهلها للزواج أو للصدقات أو للجهاد أو ما أشبه ذلك فليس فيها زكاة حتى تبرع بها أهلها للنكبات التي تحصل على بعضهم، ليس فيها زكاة، كما يوجد في بعض القبائل يضعون صندوقاً للتبرع يجمعون فيه التبرعات فإذا حصل على أحدهم نقص فإنهم يعطونه من هذه الدراهم، نقول: هذه الدراهم ليس فيها زكاة؛ لماذا؟",
+            "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D9%8A-%5B19%5D/%D9%87%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%82%D9%88%D9%81%D8%A9-%D9%84%D9%84%D9%83%D9%88%D8%A7%D8%B1%D8%AB-%D8%B2%D9%83%D8%A7%D8%A9%D8%9F-%D9%88%D9%87%D9%84-%D8%AA%D8%AC%D8%A8-%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D8%AD%D9%81%D9%88%D8%B8-%D9%84%D9%84%D8%B2%D9%88%D8%A7%D8%AC%D8%9F/08d8f6a7-fb73-48ab-ab1e-b1f67c6bae2a"
+          }
+        },
+        "context": []
+      },
+      "summaries": {
+        "en": {
+          "faithful": "Ibn Uthaymeen explained that money still owned by its holder remains subject to zakah even when set aside for marriage or a house.",
+          "incorrect": "Ibn Uthaymeen explained that all money set aside for marriage remains subject to zakah, including money donated to a charitable fund."
+        },
+        "de": {
+          "faithful": "Ibn Uthaymeen erklärte, dass weiterhin eigenes Geld auch dann der Zakat unterliegt, wenn es für eine Heirat oder ein Haus zurückgelegt wird.",
+          "incorrect": "Ibn Uthaymeen erklärte, dass jedes für eine Heirat zurückgelegte Geld der Zakat unterliegt, auch Spenden an einen Hilfsfonds."
+        },
+        "ar": {
+          "faithful": "بين ابن عثيمين أن المال الباقي في ملك صاحبه فيه زكاة ولو أعده للزواج أو شراء بيت.",
+          "incorrect": "بين ابن عثيمين أن كل مال أعد للزواج فيه زكاة بما في ذلك المال المتبرع به لصندوق خيري."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "s-divorce",
+      "category": "condition_lost",
+      "kind": "scholar",
+      "provenance": {
+        "record": "docs/ask-repair-runs/baseline-1.json",
+        "row": "divorce-en",
+        "candidate_sha256": "fe5dcb5160fdcd6a1340f372d2a159e6a50f8f9e322a41f380c2f6dfa3b7b2b2"
+      },
+      "candidate": {
+        "id": "Sd3292328-a2dc-ad95-1a74-a5e115aa1953",
+        "source": {
+          "kind": "scholar",
+          "quote": {
+            "id": "Sd3292328-a2dc-ad95-1a74-a5e115aa1953",
+            "scholarId": "ibn-baz",
+            "scholarName": {
+              "ar": "عبد العزيز بن باز",
+              "en": "Shaykh Abdul-Aziz ibn Baz",
+              "de": "Scheich Abdul-Aziz ibn Baz"
+            },
+            "title": "ما عدد الطلقات التي تحسب لمن رجعت بعد طلاق بائن؟",
+            "reference": "binbaz.org.sa, fatwa 6735",
+            "arabic": "فإن المطلقة إذا كانت رجعية وهي التي طلقت طلقة واحدة أو طلقتين على غير مال وقد دخل بها فإنها تعود إليه على بقية الطلاق، لا يبقى له إلا ما بقي من الثلاث، فإن كان طلقها واحدة عادت إلى طلقتين، وإن كان طلقها طلقتين عادت .. طلقة، لم يبق لها إلا طلقة، هذا هو الذي عليه أهل العلم. نعم.",
+            "url": "https://binbaz.org.sa/fatwas/6735/%D9%85%D8%A7-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%B7%D9%84%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%8A-%D8%AA%D8%AD%D8%B3%D8%A8-%D9%84%D9%85%D9%86-%D8%B1%D8%AC%D8%B9%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%B7%D9%84%D8%A7%D9%82-%D8%A8%D8%A7%D8%A6%D9%86%D8%9F"
+          }
+        },
+        "context": []
+      },
+      "summaries": {
+        "en": {
+          "faithful": "Ibn Baz explained that a consummated marriage resumed after one revocable divorce without payment retains two divorces of the original three.",
+          "incorrect": "Ibn Baz explained that every marriage resumed after one divorce retains two divorces of the original three, regardless of its circumstances."
+        },
+        "de": {
+          "faithful": "Ibn Baz erklärte, dass nach einer widerruflichen Scheidung ohne Zahlung bei vollzogener Ehe und Rückkehr zwei der drei Scheidungen verbleiben.",
+          "incorrect": "Ibn Baz erklärte, dass nach jeder Scheidung und Rückkehr unabhängig von den Umständen zwei der drei Scheidungen verbleiben."
+        },
+        "ar": {
+          "faithful": "بين ابن باز أن من رجعت بعد طلقة رجعية واحدة بغير مال وقد دخل بها زوجها يبقى له من الثلاث طلقتان.",
+          "incorrect": "بين ابن باز أن كل من رجعت بعد طلقة واحدة يبقى لزوجها من الثلاث طلقتان مهما كانت ظروف الطلاق."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    },
+    {
+      "id": "s-view",
+      "category": "scope_broadened",
+      "kind": "scholar",
+      "provenance": {
+        "record": "docs/ask-repair-runs/repaired-1.json",
+        "row": "hijab-en",
+        "candidate_sha256": "d1b2f2575aa1996536c09a8ab525b13db05986c4dc6669083ccca84fc09077d4"
+      },
+      "candidate": {
+        "id": "Saebb09c6-4070-4813-8865-e6bfb55ee19a",
+        "source": {
+          "kind": "scholar",
+          "quote": {
+            "id": "Saebb09c6-4070-4813-8865-e6bfb55ee19a",
+            "scholarId": "ibn-uthaymeen",
+            "scholarName": {
+              "ar": "محمد بن صالح العثيمين",
+              "en": "Shaykh Muhammad ibn Salih al-Uthaymeen",
+              "de": "Scheich Muhammad ibn Salih al-Uthaymeen"
+            },
+            "title": "هل للمرأة لباس خاص بالإحرام؟",
+            "reference": "اللقاء الشهري (اللقاء الشهري [73])",
+            "arabic": "المرأة ليس لها ثياب معينة في الإحرام، تلبس ما شاءت غير ألا تتبرج بالزينة، ولها أن تغير الثياب لوسخ أو نجاسة أو غير ذلك، وكذلك الرجل له أن يغير لباس الإحرام، لكن الرجل معروف أن له لباساً خاصاً في الإحرام وهو الإزار والرداء، لكن لو أراد أن يغيرها فلا حرج، إما لوسخ أو نجاسة أو لغير ذلك من الأسباب.",
+            "url": "https://binothaimeen.net/ar/voice_library/lessonDetails/%D8%A7%D9%84%D9%84%D9%82%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D9%8A-%5B73%5D/%D9%87%D9%84-%D9%84%D9%84%D9%85%D8%B1%D8%A3%D8%A9-%D9%84%D8%A8%D8%A7%D8%B3-%D8%AE%D8%A7%D8%B5-%D8%A8%D8%A7%D9%84%D8%A5%D8%AD%D8%B1%D8%A7%D9%85%D8%9F/b3cd3fd5-a706-40d8-b3ad-ab5083b10b75"
+          }
+        },
+        "context": []
+      },
+      "summaries": {
+        "en": {
+          "faithful": "Ibn Uthaymeen explained that women have no particular designated clothing for ihram, provided they do not display adornment.",
+          "incorrect": "All scholars agree that women have no particular designated clothing for ihram, provided they do not display adornment."
+        },
+        "de": {
+          "faithful": "Ibn Uthaymeen erklärte, dass Frauen für den Ihram keine bestimmte Kleidung haben, sofern sie keinen Schmuck zur Schau stellen.",
+          "incorrect": "Alle Gelehrten stimmen darin überein, dass Frauen für den Ihram keine bestimmte Kleidung haben, sofern sie keinen Schmuck zur Schau stellen."
+        },
+        "ar": {
+          "faithful": "بين ابن عثيمين أن المرأة ليس لها ثياب معينة في الإحرام بشرط ألا تتبرج بالزينة.",
+          "incorrect": "أجمع جميع العلماء على أن المرأة ليس لها ثياب معينة في الإحرام بشرط ألا تتبرج بالزينة."
+        }
+      },
+      "expected": {
+        "faithful": "accept",
+        "incorrect": "reject"
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Date: 2026-10-04. Local work only. Findings: `ask-findings.md`. Raw public-test 
 
 ## Current status
 
-Partial implementation, stopped under the agreed spending rule. The required repeated measurements, 85% target and safety acceptance were not achieved. Do not deploy this as a proven reliability fix. No database writes, hosting changes or pushes were made. Only this task is included in the local commit.
+Partial implementation, stopped under the agreed spending rule. The required repeated measurements, 85% target and safety acceptance were not achieved. Do not deploy this as a proven reliability fix. No database writes or manual hosting changes were made. Mo subsequently authorized pushing; the original repair and build-type correction were pushed to main. This follow-up includes only its own repair files.
 
 ## What changed
 
@@ -53,7 +53,7 @@ These concerns mean safety acceptance is incomplete. No source rule was weakened
 
 Final full suite: **543 tests pass in 42 files**. Regression coverage includes length, source competition/caps/order/empty tiers, video deadlines, topic matching/hash/source validation, incomplete OpenRouter responses and the shared spending guard. Existing unsupported-claim, invented-ID, unsafe-context, incomplete-answer, invalid-hadith, unapproved-scholar and writer/checker separation tests remain passing.
 
-Full `npx tsc --noEmit --incremental false` and `npm run build` were run. Both fail solely at the existing maintained `scripts/validate-codex-hadith-batch.ts:19` type error (`en`/`de` indexing `{}`). Next compiled successfully before its type check failed. The validator and other sessions' translation files were left untouched, and maintained scripts remain checked. No permission to exclude that maintained file was received.
+The original full checks failed on the maintained translation-validator type error. After Mo supplied the matching deployment error, commit `648b0fd` corrected its types without changing validation behavior. The current full typecheck and production build both pass; maintained scripts remain checked.
 
 ## What Mo must set in Vercel
 
@@ -62,6 +62,7 @@ Use the **Production** environment for project **al-bayan**. These are instructi
 | Variable | Value |
 |---|---|
 | `ASK_ENABLED` | `true` |
+| `ASK_CLAIM_AUDIT` | `false` until real-model acceptance passes |
 | `QURAN_API_ENV` | `production` |
 | `QURAN_FOUNDATION_CLIENT_ID` | Existing production Quran client ID, entered privately |
 | `QURAN_FOUNDATION_CLIENT_SECRET` | Matching production secret, marked sensitive |
@@ -96,5 +97,41 @@ In Vercel, open **al-bayan → Logs**, select the production deployment and `/ap
 - The writer can say `no_answer` even after evidence selection succeeds. This remains a refusal; it is not force-retried into answering.
 - Relevant stored hadith and useful fatwa excerpts are not guaranteed for every question. No database search changes were made.
 - Two AI models and six hand-read answers cannot prove religious correctness. Local results do not prove Vercel has the same code, keys, settings or latency.
-- Missing billing evidence blocks additional paid tests. Manual review concerns block safety acceptance. The existing validator error blocks a successful website build.
+- Missing billing evidence blocks additional paid tests. Manual review concerns block safety acceptance. The validator build blocker has since been resolved.
 - Commit identity is provided in the delivery message; the report is committed with the implementation. The live website remains unverified until Mo deploys and checks it.
+
+## General claim audit implementation and acceptance status
+
+This follow-up strengthens the existing final screen under `ASK_CLAIM_AUDIT=true`, default **off**. It does not enable tiered mode, change model chains, change saved-answer review, add conversation memory or alter the response API/UI.
+
+Each flattened draft claim gets C1/C2/etc. within that draft. Screening sees its exact source IDs, source text and surrounding context; adjacent context has no selectable ID. Results must cover every claim once, repeat its exact citation set and separately confirm direct support, audience, conditions, scope and causal meaning. Unknown IDs, duplicated/missing citations, missing/malformed decisions, inconsistent reason codes and uncertain results fail. Failed claims carry bounded (240-character) comparison explanations. Validated feedback goes into the existing writer correction as untrusted JSON comparison data, never new evidence. The complete corrected answer is screened again within the original deadline and draft-call cap.
+
+Whole-answer support, required points, fairness and completeness still apply. Successful first drafts use the same number of calls and a 2,048-token checker output allowance. Cut-off output never passes. Debug messages contain only reason categories and elapsed timings. The old screen remains active when the flag is absent/false.
+
+Final offline verification: **561 tests pass across 44 files**, full `npx tsc --noEmit --incremental false` passes, and `npm run build` passes (44 pages). Next's metadataBase warning is unrelated and non-blocking. New tests exercise strict parsing, all five negative/uncertain dimensions, identity/citation matching, preserved context, exact feedback, one full-answer correction, continued refusal, whole-answer checks and recorded-fixture integrity. Existing safety tests remain passing.
+
+| Acceptance requirement | Current evidence |
+|---|---|
+| Fixed source set | 12 packages, 72 paired-language cases, source/provenance hashes verified offline |
+| Deliberately wrong summaries rejected by real models | Not measured |
+| At least 95% faithful summaries accepted by real models | Not measured |
+| Matched median/p95 latency no more than 10% slower | Not measured |
+| Two baseline and two repaired live rounds at least 30 minutes apart | Still incomplete |
+| 85% answerable live questions answered | Not established |
+| Saved-answer reuse measured separately | Still incomplete |
+| Added experiment cost | $0.00; known total remains $0.51748087 plus the $0.113472 unresolved reservation |
+| Live website acceptance | Not performed for this flag-off experimental change |
+
+The evaluator was blocked before any request by the unchanged original ledger. Its record is `ask-repair-runs/claim-audit-evaluation.json`. Detection and latency must not be inferred from mocked tests, frozen labels or earlier live rounds. Do not enable the flag in production yet.
+
+### Evaluation commands after billing reconciliation
+
+Run from the Bayan repository. Do not delete/reset the ledger or release the reservation without verified billing evidence. No automatic reconciliation is supplied.
+
+- Fixed-source paired old/new comparison: `npx tsx --conditions=react-server scripts/evaluate-claim-audit.ts --out=docs/ask-repair-runs/claim-audit-model-comparison.json`. Existing output cannot be overwritten. The runner measures every variant against both screens with the same default chains, retaining individual outcomes/timing/cost. An incomplete run cannot pass the detection gate. Full comparison needs 144 calls; the guard may stop sooner if the cap cannot cover them.
+- Live baseline: `npx tsx --conditions=react-server scripts/measure-ai-mix.ts --phase=baseline --claim-audit=off --out=docs/ask-repair-runs/claim-live-baseline-1.json`.
+- Live repaired: `npx tsx --conditions=react-server scripts/measure-ai-mix.ts --phase=repaired --claim-audit=on --out=docs/ask-repair-runs/claim-live-repaired-1.json`.
+- Repeat both with distinct round-2 paths at least 30 minutes apart within each arm. Both arms keep tiered mode off, clear model overrides only in their test processes, use production Quran/all chapters/stored hadith and bypass saved answers. Music remains an expected refusal with the historical denominator retained.
+- Measure approved reuse independently with the measurement command plus `--approved` and distinct output paths. Saved answers must not contribute to live answer rates.
+
+All experiments share the original $1.50 ledger. If reconciliation or budget prevents these measurements, deliver **tested offline, general semantic improvement unverified, flag off**. The pushed commit identifies this follow-up in the delivery message. Vercel settings were not changed by this task.

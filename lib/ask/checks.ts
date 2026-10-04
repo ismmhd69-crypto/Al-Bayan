@@ -439,6 +439,51 @@ export function copiesSource(text: string, sources: SourceText[]): boolean {
 
 export type Verdict = "supported" | "not_supported" | "unsure";
 
+export const CLAIM_AUDIT_FIELDS = ["direct_support", "audience_preserved", "conditions_preserved", "scope_preserved", "causal_meaning_preserved"] as const;
+export const CLAIM_AUDIT_REASONS = ["unsupported_meaning", "audience_changed", "condition_lost", "scope_broadened", "cause_inferred"] as const;
+export type ClaimAuditFailure = {
+  claim_id: string; source_ids: string[]; reason_codes: (typeof CLAIM_AUDIT_REASONS)[number][]; explanation: string;
+};
+export type ClaimAuditResult = { supported: boolean; failures: ClaimAuditFailure[] };
+
+/** Draft-local IDs are stable across screening calls; never part of the public answer. */
+export function identifiedClaims(claims: Claim[]) {
+  return claims.map((claim, i) => ({ claim_id: `C${i + 1}`, source_ids: [...claim.refs], claim: claim.text, requirement_id: claim.requirementId }));
+}
+
+/** Validate the entire audit before accepting any feedback. Missing/extra IDs or verdicts fail closed. */
+export function parseClaimAudit(raw: unknown, claims: Claim[]): ClaimAuditResult | null {
+  if (!raw || typeof raw !== "object" || claims.length === 0) return null;
+  const assessments = (raw as Record<string, unknown>).claim_assessments;
+  if (!Array.isArray(assessments) || assessments.length !== claims.length) return null;
+  const expected = new Map(identifiedClaims(claims).map((c) => [c.claim_id, c]));
+  const seen = new Set<string>();
+  const failures: ClaimAuditFailure[] = [];
+  for (const item of assessments) {
+    if (!item || typeof item !== "object") return null;
+    const r = item as Record<string, unknown>;
+    if (typeof r.claim_id !== "string" || seen.has(r.claim_id)) return null;
+    const claim = expected.get(r.claim_id);
+    if (!claim || !Array.isArray(r.source_ids) || r.source_ids.length !== claim.source_ids.length
+      || new Set(r.source_ids).size !== r.source_ids.length
+      || !r.source_ids.every((id) => typeof id === "string" && claim.source_ids.includes(id))) return null;
+    seen.add(r.claim_id);
+    if (!CLAIM_AUDIT_FIELDS.every((field) => typeof r[field] === "string" && ["yes", "no", "unsure"].includes(r[field] as string))) return null;
+    if (!Array.isArray(r.reason_codes) || new Set(r.reason_codes).size !== r.reason_codes.length
+      || !r.reason_codes.every((code) => CLAIM_AUDIT_REASONS.includes(code))
+      || typeof r.explanation !== "string" || r.explanation.length > 240) return null;
+    const requiredReasons = CLAIM_AUDIT_FIELDS.flatMap((field, i) => r[field] === "yes" ? [] : [CLAIM_AUDIT_REASONS[i]]);
+    if (r.reason_codes.length !== requiredReasons.length || !requiredReasons.every((code) => (r.reason_codes as unknown[]).includes(code))) return null;
+    if (requiredReasons.length === 0) {
+      if (r.explanation !== "") return null;
+    } else {
+      if (!r.explanation.trim()) return null;
+      failures.push({ claim_id: r.claim_id, source_ids: [...claim.source_ids], reason_codes: requiredReasons, explanation: r.explanation });
+    }
+  }
+  return { supported: failures.length === 0, failures };
+}
+
 // Every claim must be "supported". Unsure, missing or malformed counts as a failure.
 export function allSupported(raw: unknown, claimCount: number): boolean {
   if (!raw || typeof raw !== "object") return false;

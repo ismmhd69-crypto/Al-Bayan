@@ -1,4 +1,8 @@
 // Ask settings read from the environment. Pure, so they can be tested without the pipeline.
+// Experimental general claim audit. Off until independent model evaluation passes acceptance.
+export function askClaimAudit(value: string | undefined = process.env.ASK_CLAIM_AUDIT): boolean {
+  return value === "true";
+}
 // ASK_DEADLINE_MS: the whole answer's deadline (default 50 s). Capped at 55 s so it always ends before
 // the route's 60 s limit and the visitor gets the normal busy message, never a cut-off answer.
 export function askDeadlineMs(value: string | undefined = process.env.ASK_DEADLINE_MS): number {
