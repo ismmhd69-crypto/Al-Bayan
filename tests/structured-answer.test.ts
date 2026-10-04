@@ -10,6 +10,10 @@ const policy = { requirements: [{ id: "R1", text: "steps of repentance", facet: 
 const sentence = (text: string) => ({ text, source_ids: ["S1"], requirement_id: "R1" });
 
 describe("structured answers", () => {
+  it("still rejects the exact source-attribution failures reproduced on Quran preservation", () => {
+    expect(sourceKindMismatch("The Prophet explained that he could not change the Quran of his own accord, as he only followed what was revealed to him.", ["Q10:15"])).toBe(true);
+    expect(sourceKindMismatch("Allah protected the Quran because no new prophet will come after Prophet Muhammad to correct any changes, as Shaykh Ibn Baz explained.", ["S1a6372f9-4fbe-4594-b95d-b9d5cbb8f4bd"])).toBe(true);
+  });
   it("accepts a direct answer with a distinct cited explanation", () => {
     const parsed = parseStructuredDraft({ status: "answer",
       direct_answer: [sentence("Repentance requires leaving the sin, regret and resolve not to return.")],

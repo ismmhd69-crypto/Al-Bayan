@@ -31,7 +31,7 @@ Judge each list on its own. A verse or hadith is direct when its own words speak
 
 export const TIERED_DRAFT_RULES = `
 11. TIERED ORDER. The sealed package lists Quran verses first, then hadith, then scholar quotes. Write simple_answer in that order: first what the Quran states (citing the verse), then what the Prophet taught (citing the hadith), then the scholars' ruling (citing the scholar quote and naming the scholar). Give at least one sentence for every source type present in the package.
-12. Only approved scholars give rulings. A ruling word (halal, haram, obligatory, forbidden, prohibited, allowed, permissible, lawful, unlawful, sinful, or the same in German or Arabic) may appear only in a sentence that cites a scholar quote. A sentence citing only a verse or hadith restates what that passage says, without ruling words and without drawing a ruling from it.`;
+12. Only approved scholars give rulings. A ruling word (halal, haram, obligatory, forbidden, prohibited, allowed, permissible, lawful, unlawful, sinful, or the same in German or Arabic) may appear only in a sentence that cites a scholar quote. This also applies when you introduce it with 'The Quran states': that phrase is not an exemption. A sentence citing only a verse or hadith restates what that passage says, without ruling words and without drawing a ruling from it. When both a verse and a scholar explicitly state the same fact, a sentence may cite both, but attribute the ruling to the named scholar; never add a scholar citation that does not explicitly support the claim.`;
 
 const assessmentItem = (requirementIds: string[]): JsonSchema => ({
   type: "object",
