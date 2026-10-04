@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+const rows=JSON.parse(fs.readFileSync('data/hadith-words-translations/codex-batch-336.json','utf8')) as Array<{id:string;text_original:string;translation_en:string;translation_de:string}>;
+if(rows.length!==30)throw new Error(`Expected 30 rows, got ${rows.length}`);
+const nums=(s:string)=>[...new Set([...s.matchAll(/\d+/g)].map(m=>m[0]))].sort().join(',');
+for(const r of rows){if(!r.id||!r.translation_en.trim()||!r.translation_de.trim())throw new Error(`Missing ${r.id}`);if(/[\u0600-\u06ff]/.test(r.translation_en)||/[\u0600-\u06ff]/.test(r.translation_de))throw new Error(`Arabic remains ${r.id}`);if(nums(r.text_original)!==nums(r.translation_en)||nums(r.text_original)!==nums(r.translation_de))throw new Error(`Numbers changed ${r.id}`);for(const [l,t] of [['en',r.translation_en],['de',r.translation_de]] as const){const ratio=t.length/r.text_original.length;if(ratio<.6||ratio>3.5)throw new Error(`${l} ratio ${ratio.toFixed(2)} ${r.id}`);}if(!/[äöüÄÖÜß]/.test(r.translation_de))throw new Error(`No German umlaut ${r.id}`);if(/\[quran\b/i.test(r.translation_en)||/\[quran\b/i.test(r.translation_de))throw new Error(`Quran tag ${r.id}`);}
+console.log(`Validated ${rows.length} rows: IDs, nonempty text, Arabic removal, numbers, ratios, German umlauts, and Quran tags.`);
