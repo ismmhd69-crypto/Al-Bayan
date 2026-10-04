@@ -2285,3 +2285,5 @@ Codex batches 860 and 861 completed six Sahih Muslim records: 897c, 897d, 897e, 
 Codex batches 862 and 863 completed six Sahih Muslim records: 899c, 900a, 900b, 901a, 901b, and 901c. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
 Codex batch 304 inserted 36 rows for Sahih Muslim 897c to 909. The database count increased from 31042 to 31078, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batches 864 and 865 completed six Sahih Muslim records: 910, 911a, 911b, 911c, 912, and 913a. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
