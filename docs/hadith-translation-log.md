@@ -1789,3 +1789,15 @@ Codex batch 153 inserted 60 rows for Sahih al-Bukhari 5089 to 5120. The database
 Codex batch 154 inserted 60 rows for Sahih al-Bukhari 5121 to 5151. The database count increased from 26804 to 26864, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 155 inserted 60 rows for Sahih al-Bukhari 5152 to 5182. The database count increased from 26864 to 26924, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 156 inserted 10 rows for Sahih al-Bukhari 5183 to 5188. The database count increased from 26924 to 26934, exactly matching the inserted rows. Validation passed for 5 hadiths.
+
+Codex batch 157 inserted 58 rows for Sahih Muslim 18b to 33a. The database count increased from 26934 to 26992, exactly matching the inserted rows. Validation passed for 29 hadiths.
+
+Codex batch 158 inserted 2 rows for Sahih Muslim 31 to 31. The database count increased from 26992 to 26994, exactly matching the inserted rows. Validation passed for 1 hadith.
+
+Codex batch 159 inserted 4 rows for Sahih Muslim 33b to 33c. The database count increased from 26994 to 26998, exactly matching the inserted rows. Validation passed for 2 hadiths.
+
+Codex batch 160 inserted 60 rows for Sahih Muslim 33d to 48c. The database count increased from 26998 to 27058, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex ten-batch self-check after batches 151-160: reread Muslim 18b, 19a, 20, 24a, 27a, 30a, 31, 33c, 35b, and 45a against their Arabic sources and inserted English and German outputs. Chains, repeated variants, negations, faith wording, prayer and zakah obligations, Quran references, and the guest and neighbor rulings were checked. One wording concern was found in Muslim 27a: the English closing sentence says "will fail to enter Paradise" and the German says "wird daran gehindert, ins Paradies einzutreten"; this should be reviewed against the direct meaning "will enter Paradise." Existing rows were not changed because this work is insert-only. Needs Mo: Muslim 27a wording review.
