@@ -2100,6 +2100,10 @@ Codex batches 766 and 767 completed six Sahih Muslim records: 61, 62, 63a, 63b, 
 
 Codex batches 768 and 769 completed six Sahih Muslim records: 65, 66a, 66b, 66c, 67, and 68. The English and German translations were added to the translation JSON. The database already contained 12 translation rows for these records, so the duplicate-safety check made no database change. Those existing rows were preserved under the insert-only rule. Validation passed for the six JSON records and their source rows, including the complete chain and continuation wording, no Arabic characters, German umlauts, and acceptable length ratios. Existing concurrent database rows were not changed.
 
+Codex batch 274 inserted 20 rows for Sahih Muslim 588e to 592b. The database count increased from 29086 to 29106, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex batch 275 inserted 20 rows for Sahih Muslim 592c to 593i. The database count increased from 29106 to 29126, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
 Codex batch 264 inserted 60 rows for Sahih Muslim 545 to 561b. The database count increased from 28876 to 28936, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 265 inserted 20 rows for Sahih Muslim 561c to 566. The database count increased from 28936 to 28956, exactly matching the inserted rows. Validation passed for 10 hadiths.
@@ -2121,3 +2125,5 @@ Codex batch 271 inserted 20 rows for Sahih Muslim 577 to 579a. The database coun
 Codex batch 272 inserted 20 rows for Sahih Muslim 579b to 583b. The database count increased from 29046 to 29066, exactly matching the inserted rows. Validation passed for 10 hadiths.
 
 Codex batch 273 inserted 20 rows for Sahih Muslim 583c to 588d. The database count increased from 29066 to 29086, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex batch 276 inserted 20 rows for Sahih Muslim 594a to 597b. The database count increased from 29126 to 29146, exactly matching the inserted rows. Validation passed for 10 hadiths.
