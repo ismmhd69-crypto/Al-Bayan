@@ -1941,3 +1941,17 @@ Codex batch 213 inserted 14 rows for Sahih Muslim 284b to 287b. The database cou
 Codex batch 214 inserted 14 rows for Sahih Muslim 287c to 289a. The database count increased from 28108 to 28122, exactly matching the inserted rows. Validation passed for 7 hadiths.
 
 Codex batch 215 inserted 14 rows for Sahih Muslim 289b to 293a. The database count increased from 28122 to 28136, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 216 inserted 14 rows for Sahih Muslim 293b to 297c. The database count increased from 28136 to 28150, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 217 inserted 14 rows for Sahih Muslim 297d to 301. The database count increased from 28150 to 28164, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Needs Mo: Muslim 297d is a long chain-and-report translation. The validator reported English length ratio 5.07 and German length ratio 5.67. The complete translation was inserted without shortening; review the ratio warning later without updating this row under the insert-only rule.
+
+Codex batch 218 inserted 14 rows for Sahih Muslim 302 to 305b. The database count increased from 28164 to 28178, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 219 inserted 14 rows for Sahih Muslim 305c to 308. The database count increased from 28178 to 28192, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 220 inserted 14 rows for Sahih Muslim 309 to 314a. The database count increased from 28192 to 28206, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Self-check after batches 211 to 220: reread Muslim 293b, 294, 302, 303a, 305a, 305c, 307a, 309, 311, and 314a against the Arabic. Chains, rulings, negations, intimate wording, and main meanings matched. The previously recorded length-ratio warning for Muslim 297d remains under Needs Mo; no existing rows were changed.
