@@ -2330,9 +2330,11 @@ Codex batch 311 inserted 2 rows for Sahih Muslim 986b to 986b. The database coun
 
 Codex batches 892 and 893 completed six Sahih Muslim records: 982c, 982d, 983, 984a, 984b, and 984c. Eight database translation rows were already present and four missing rows were inserted. Existing rows were preserved without changes. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
+Codex batches 894 and 895 completed the final three exported Sahih Muslim records: 985a, 985b, and 985c. The English and German translations were added to the translation JSON, and six new database translation rows were inserted. Validation passed for all three records, including source matching, no Arabic text in the translations, and German character checks.
+
 Ten-batch self-check for Codex batches 302 to 311: source-chain and meaning problems were found and placed under Needs Mo. Sampled 977c was translated as the earlier grave-visiting and sacrificial-meat report, while the Arabic is the vessel and intoxicant report. Sampled 979a was translated as the bankrupt-person report, while the Arabic is the minimum zakah thresholds. Sampled 980 was translated as the joint-charity report, while the Arabic is the minimum thresholds for silver, camels, and dates. Sampled 982a was translated as the silver, camel, and date thresholds, while the Arabic says there is no charity due on a Muslim's slave or horse. Sampled 984a added young and old and an instruction about giving before prayer that are not in this Arabic row. Sampled 985d omitted the chain and the actual three food types. Sampled 986a omitted the full chain. These inserted rows must not be updated or deleted under the current permissions; they remain Needs Mo for a later approved repair path.
 
-Codex batches 894 and 895 completed the final three exported Sahih Muslim records: 985a, 985b, and 985c. The English and German translations were added to the translation JSON, and six new database translation rows were inserted. Validation passed for all three records, including source matching, no Arabic text in the translations, and German character checks.
+Codex batch 312 inserted 2 rows for Sahih Muslim 987a to 987a. The database count increased from 31440 to 31442, exactly matching the inserted rows. Validation passed for 1 hadiths.
 
 Codex batches 896 and 897 checked the final Sahih Muslim record, 987a. Both translation rows were already present, so no existing rows were changed and no duplicate rows were inserted. Validation passed for the record, including source matching, no Arabic text in the translations, and German character checks.
 
@@ -2350,5 +2352,14 @@ Codex batches 908 and 909 completed six Sahih Muslim records: 1016b, 1016c, 1016
 
 Codex batches 910 and 911 completed six Sahih Muslim records: 1017d, 1017e, 1017f, 1017g, 1017h, and 1018a. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
+Codex batch 313 inserted 30 rows for Sahih Muslim 987b to 1000a. The database count increased from 31472 to 31502, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 314 inserted 36 rows for Sahih Muslim 1000b to 1016a. The database count increased from 31526 to 31562, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 315 inserted 36 rows for Sahih Muslim 1016b to 1027c. The database count increased from 31586 to 31622, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 912-913 verified 12 existing translation rows for Sahih Muslim 1018b to 1021c. No database rows were inserted or changed. Validation passed for 6 hadiths; the stored database text was preserved because those rows already existed.
+
+Codex batch 914-915 inserted 12 rows for Sahih Muslim 1028 to 1029d. The database count increased from 31622 to 31634, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+Codex batch 316 inserted 48 rows for Sahih Muslim 1028 to 1042a. The database count increased from 31634 to 31682, exactly matching the inserted rows. Validation passed for 30 hadiths.
