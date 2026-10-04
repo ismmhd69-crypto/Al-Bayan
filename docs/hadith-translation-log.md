@@ -2241,3 +2241,5 @@ Codex batches 838 and 839 completed six Sahih Muslim records: 743a, 743b, 744a, 
 Codex batch 294 inserted 60 rows for Sahih Muslim 763l to 782b. The database count increased from 30394 to 30454, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 295 inserted 60 rows for Sahih Muslim 782c to 795b. The database count increased from 30466 to 30526, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 296 inserted 60 rows for Sahih Muslim 795c to 809b. The database count increased from 30550 to 30610, exactly matching the inserted rows. Validation passed for 30 hadiths.
