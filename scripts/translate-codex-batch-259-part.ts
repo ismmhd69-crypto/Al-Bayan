@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const rows: any[] = JSON.parse(fs.readFileSync('data/hadith-words-translations/codex-batch-current.json', 'utf8'));
+const tr: Record<string, { en: string; de: string }> = {
+  'https://sunnah.com/muslim:439': { en: 'Ibrahim ibn Dinar narrated to us. Muhammad ibn Harb al-Wasiti narrated to us. And Amr ibn Hafs narrated to us. He said: Shuba narrated to us, from Qatada, from Khirash, from Abu Rafi, from Abu Hurayra, from the Prophet (peace be upon him), who said: The best rows for men are the first rows and the worst are the last, while the best rows for women are the last rows and the worst are the first.', de: 'Ibrahim ibn Dinar überlieferte uns. Muhammad ibn Harb al-Wasiti überlieferte uns. Und Amr ibn Hafs überlieferte uns. Er sagte: Shuba überlieferte uns, von Qatada, von Khirash, von Abu Rafi, von Abu Hurayra, vom Propheten (Friede sei auf ihm), der sagte: Die besten Reihen für Männer sind die ersten Reihen und die schlechtesten die letzten, während die besten Reihen für Frauen die letzten Reihen und die schlechtesten die ersten sind.' },
+  'https://sunnah.com/muslim:440a': { en: 'Zuhayr ibn Harb narrated to us. Jarir narrated to us, from Suhayl, from his father, from Abu Hurayra, who said: The Messenger of Allah (peace be upon him) said: The best rows for men are the first ones, and their worst are the last ones; the best rows for women are the last ones, and their worst are the first ones.', de: 'Zuhayr ibn Harb überlieferte uns. Jarir überlieferte uns, von Suhayl, von dessen Vater, von Abu Hurayra, der sagte: Der Gesandte Allahs (Friede sei auf ihm) sagte: Die besten Reihen für Männer sind die vorderen und ihre schlechtesten die hinteren; die besten Reihen für Frauen sind die hinteren und ihre schlechtesten die vorderen.' }
+};
+const out = rows.filter(r => tr[r.url]).map(r => ({ ...r, ...tr[r.url] }));
+if (out.length !== 2) throw new Error(`expected 2 got ${out.length}`);
+fs.writeFileSync('data/hadith-words-translations/codex-batch-259-part.json', JSON.stringify(out, null, 2));
+fs.writeFileSync('data/hadith-words-translations/codex-out-259-part.json', JSON.stringify(out, null, 2));
+console.log(`wrote ${out.length} staged translations`);

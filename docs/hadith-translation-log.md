@@ -2035,3 +2035,15 @@ Codex batch 253 inserted 14 rows for Sahih Muslim 415b to 418d. The database cou
 Codex batch 254 inserted 14 rows for Sahih Muslim 418e to 419c. The database count increased from 28668 to 28682, exactly matching the inserted rows. Validation passed for 7 hadiths.
 
 Codex batch 255 inserted 14 rows for Sahih Muslim 419d to 422b. The database count increased from 28682 to 28696, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 256 inserted 14 rows for Sahih Muslim 422c to 426b. The database count increased from 28696 to 28710, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 257 inserted 14 rows for Sahih Muslim 427a to 430b. The database count increased from 28710 to 28724, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 258 inserted 28 rows for Sahih Muslim 431a to 438b. The database count increased from 28724 to 28752, exactly matching the inserted rows. Validation passed for 14 hadiths.
+
+Codex batch 259 inserted 4 rows for Sahih Muslim 439 to 440a. The database count increased from 28752 to 28756, exactly matching the inserted rows. Validation passed for 2 hadiths.
+
+Codex batch 260 inserted 60 rows for Sahih Muslim 440b to 452b. The database count increased from 28756 to 28816, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Self-check after batches 251 to 260: reviewed 10 Codex hadith translations against their stored Arabic rows: Muslim 410d, 415a, 419d, 422c, 427a, 431a, 439, 442b, 446, and 450a. Chains, narrator order, prayer rulings, Quran references, and German umlauts were checked. No correction was inserted and no issue was added to Needs Mo.
