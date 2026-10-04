@@ -452,32 +452,40 @@ export function identifiedClaims(claims: Claim[]) {
 }
 
 /** Validate the entire audit before accepting any feedback. Missing/extra IDs or verdicts fail closed. */
-export function parseClaimAudit(raw: unknown, claims: Claim[]): ClaimAuditResult | null {
-  if (!raw || typeof raw !== "object" || claims.length === 0) return null;
+export function parseClaimAudit(raw: unknown, claims: Claim[], onFailure?: (code: string) => void): ClaimAuditResult | null {
+  const fail = (code: string): null => { onFailure?.(code); return null; };
+  if (!raw || typeof raw !== "object" || claims.length === 0) return fail("response_or_claims_missing");
   const assessments = (raw as Record<string, unknown>).claim_assessments;
-  if (!Array.isArray(assessments) || assessments.length !== claims.length) return null;
+  if (!Array.isArray(assessments)) return fail("assessments_missing");
+  if (assessments.length !== claims.length) return fail("assessment_count_mismatch");
   const expected = new Map(identifiedClaims(claims).map((c) => [c.claim_id, c]));
   const seen = new Set<string>();
   const failures: ClaimAuditFailure[] = [];
   for (const item of assessments) {
-    if (!item || typeof item !== "object") return null;
+    if (!item || typeof item !== "object") return fail("assessment_not_object");
     const r = item as Record<string, unknown>;
-    if (typeof r.claim_id !== "string" || seen.has(r.claim_id)) return null;
+    if (typeof r.claim_id !== "string") return fail("claim_id_missing");
+    if (seen.has(r.claim_id)) return fail("claim_id_duplicate");
     const claim = expected.get(r.claim_id);
-    if (!claim || !Array.isArray(r.source_ids) || r.source_ids.length !== claim.source_ids.length
+    if (!claim) return fail("claim_id_unknown");
+    if (!Array.isArray(r.source_ids) || r.source_ids.length !== claim.source_ids.length
       || new Set(r.source_ids).size !== r.source_ids.length
-      || !r.source_ids.every((id) => typeof id === "string" && claim.source_ids.includes(id))) return null;
+      || !r.source_ids.every((id) => typeof id === "string" && claim.source_ids.includes(id))) return fail("citation_ids_mismatch");
     seen.add(r.claim_id);
-    if (!CLAIM_AUDIT_FIELDS.every((field) => typeof r[field] === "string" && ["yes", "no", "unsure"].includes(r[field] as string))) return null;
+    for (const field of CLAIM_AUDIT_FIELDS) {
+      if (r[field] === undefined) return fail(`${field}_missing`);
+      if (typeof r[field] !== "string" || !["yes", "no", "unsure"].includes(r[field] as string)) return fail(`${field}_invalid`);
+    }
     if (!Array.isArray(r.reason_codes) || new Set(r.reason_codes).size !== r.reason_codes.length
-      || !r.reason_codes.every((code) => CLAIM_AUDIT_REASONS.includes(code))
-      || typeof r.explanation !== "string" || r.explanation.length > 240) return null;
+      || !r.reason_codes.every((code) => CLAIM_AUDIT_REASONS.includes(code))) return fail("reason_codes_missing_or_invalid");
+    if (typeof r.explanation !== "string") return fail("explanation_missing");
+    if (r.explanation.length > 240) return fail("explanation_too_long");
     const requiredReasons = CLAIM_AUDIT_FIELDS.flatMap((field, i) => r[field] === "yes" ? [] : [CLAIM_AUDIT_REASONS[i]]);
-    if (r.reason_codes.length !== requiredReasons.length || !requiredReasons.every((code) => (r.reason_codes as unknown[]).includes(code))) return null;
+    if (r.reason_codes.length !== requiredReasons.length || !requiredReasons.every((code) => (r.reason_codes as unknown[]).includes(code))) return fail("reason_codes_disagree_with_decisions");
     if (requiredReasons.length === 0) {
-      if (r.explanation !== "") return null;
+      if (r.explanation !== "") return fail("positive_assessment_has_explanation");
     } else {
-      if (!r.explanation.trim()) return null;
+      if (!r.explanation.trim()) return fail("negative_assessment_explanation_empty");
       failures.push({ claim_id: r.claim_id, source_ids: [...claim.source_ids], reason_codes: requiredReasons, explanation: r.explanation });
     }
   }

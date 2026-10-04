@@ -331,18 +331,20 @@ export function parseEvidencePackage(
   frame: QuestionFrame,
   candidates: PassageForSelection[],
   options: ChooserOptions = {},
+  onFailure?: (code: string) => void,
 ): EvidencePackage | null {
-  if (!raw || typeof raw !== "object") return null;
+  const fail = (code: string): null => { onFailure?.(code); return null; };
+  if (!raw || typeof raw !== "object") return fail("response_not_object");
   const record = raw as Record<string, unknown>;
-  if (!["ready", "insufficient", "ambiguous", "conflicting"].includes(String(record.status))) return null;
-  if (!["complete", "incomplete"].includes(String(record.coverage))) return null;
+  if (!["ready", "insufficient", "ambiguous", "conflicting"].includes(String(record.status))) return fail(record.status === undefined ? "status_missing" : "status_invalid");
+  if (!["complete", "incomplete"].includes(String(record.coverage))) return fail(record.coverage === undefined ? "coverage_missing" : record.coverage === "uncertain" ? "coverage_uncertain" : "coverage_invalid");
   const conflictType = typeof record.conflict_type === "string" ? record.conflict_type
     : record.conflict === "none" ? "none" : "uncertain";
-  if (!["none", "revelation_conflict", "scholar_difference", "uncertain"].includes(conflictType)) return null;
+  if (!["none", "revelation_conflict", "scholar_difference", "uncertain"].includes(conflictType)) return fail("conflict_invalid");
   // Quran or hadith conflict always refuses. Only explicit scholar-position grouping may proceed,
   // and the caller still needs a reviewed decision or an equal-view answer path.
-  if (conflictType === "revelation_conflict" || conflictType === "uncertain") return null;
-  if (!Array.isArray(record.assessments) || record.assessments.length === 0) return null;
+  if (conflictType === "revelation_conflict" || conflictType === "uncertain") return fail("conflict_unsafe_or_uncertain");
+  if (!Array.isArray(record.assessments) || record.assessments.length === 0) return fail(record.assessments === undefined ? "assessments_missing" : "assessments_invalid_or_empty");
 
   // Budget models sometimes list a candidate twice or skip one. A skipped candidate is simply not
   // used; a candidate listed more than once is used only if EVERY listing says direct and
@@ -351,23 +353,23 @@ export function parseEvidencePackage(
   const requirementById = new Map(frame.requirements.map((requirement) => [requirement.id, requirement]));
   const verdicts = new Map<string, { ok: boolean; requirementIds: string[]; position: string | null }>();
   for (const item of record.assessments) {
-    if (!item || typeof item !== "object") return null;
+    if (!item || typeof item !== "object") return fail("assessment_not_object");
     const assessment = item as Record<string, unknown>;
-    if (!isString(assessment.source_id) || !byId.has(assessment.source_id)) return null;
-    if (!isString(assessment.relevance) || !(["direct", "partial", "context", "mention_only", "unrelated"] as Relevance[]).includes(assessment.relevance as Relevance)) return null;
-    if (!isString(assessment.context_safe) || !["yes", "no", "unsure"].includes(assessment.context_safe)) return null;
-    if (!Array.isArray(assessment.supported_requirement_ids)) return null;
+    if (!isString(assessment.source_id) || !byId.has(assessment.source_id)) return fail(assessment.source_id === undefined ? "source_id_missing" : "source_id_invalid_or_unknown");
+    if (!isString(assessment.relevance) || !(["direct", "partial", "context", "mention_only", "unrelated"] as Relevance[]).includes(assessment.relevance as Relevance)) return fail(assessment.relevance === undefined ? "relevance_missing" : "relevance_invalid");
+    if (!isString(assessment.context_safe) || !["yes", "no", "unsure"].includes(assessment.context_safe)) return fail(assessment.context_safe === undefined ? "context_decision_missing" : "context_decision_invalid");
+    if (!Array.isArray(assessment.supported_requirement_ids)) return fail("requirement_ids_missing");
     const requirementIds = [...new Set(assessment.supported_requirement_ids.filter(isString))];
     if (requirementIds.length !== assessment.supported_requirement_ids.length
-      || !requirementIds.every((id) => requirementById.has(id))) return null;
+      || !requirementIds.every((id) => requirementById.has(id))) return fail("requirement_ids_invalid_or_unknown");
     const direct = assessment.relevance === "direct";
-    if (!direct && requirementIds.length > 0) return null;
+    if (!direct && requirementIds.length > 0) return fail("non_direct_requirement_assignment");
     const ok = direct && assessment.context_safe === "yes" && requirementIds.length > 0;
     const position = typeof assessment.position === "string" && /^[a-z][a-z0-9-]{0,39}$/.test(assessment.position)
       ? assessment.position : null;
     const candidate = byId.get(assessment.source_id)!;
-    if (position && candidate.source.kind !== "scholar") return null;
-    if (conflictType === "scholar_difference" && ok && candidate.source.kind === "scholar" && !position) return null;
+    if (position && candidate.source.kind !== "scholar") return fail("position_on_non_scholar");
+    if (conflictType === "scholar_difference" && ok && candidate.source.kind === "scholar" && !position) return fail("scholar_position_missing");
     const before = verdicts.get(assessment.source_id);
     verdicts.set(
       assessment.source_id,
@@ -390,14 +392,18 @@ export function parseEvidencePackage(
         facets: [...new Set(requirementIds.map((id) => requirementById.get(id)!.facet))],
       };
     });
-  if (direct.length === 0) return null;
+  if (direct.length === 0) return fail(
+    record.assessments.some((item) => item.relevance === "direct" && item.context_safe !== "yes")
+      ? "no_direct_evidence_unsafe_context" : "no_direct_evidence_with_requirements",
+  );
 
   // Code builds the capped package before drafting (lib/ask/package.ts): cover every requested
   // point first, then fill by the fixed ranking within 3 Quran cards, 2 hadith and 2 scholar quotes.
   const chosen = chooseSealedPackage(direct, frame.requirements.map((requirement) => requirement.id), options);
-  if (!chosen) return null;
+  if (!chosen) return fail(frame.requirements.every((requirement) => direct.some((passage) => passage.requirementIds.includes(requirement.id)))
+    ? "package_caps_prevent_coverage" : "direct_requirement_coverage_missing");
   const selected = chosen.passages;
-  if (!frame.requirements.every((requirement) => selected.some((passage) => passage.requirementIds.includes(requirement.id)))) return null;
+  if (!frame.requirements.every((requirement) => selected.some((passage) => passage.requirementIds.includes(requirement.id)))) return fail("sealed_requirement_coverage_missing");
 
   let scholarDifference: EvidencePackage["scholarDifference"];
   if (conflictType === "scholar_difference") {
@@ -405,10 +411,10 @@ export function parseEvidencePackage(
     for (const passage of selected) {
       if (passage.source.kind !== "scholar") continue;
       const position = verdicts.get(passage.id)?.position;
-      if (!position) return null;
+      if (!position) return fail("sealed_scholar_position_missing");
       (positions[position] ??= []).push(passage.id);
     }
-    if (Object.keys(positions).length < 2) return null;
+    if (Object.keys(positions).length < 2) return fail("scholar_difference_positions_missing");
     scholarDifference = { positions };
   }
   return {

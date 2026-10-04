@@ -1,4 +1,5 @@
 import "server-only";
+import { randomUUID } from "node:crypto";
 import type { Locale } from "@/lib/i18n";
 import { getProvider, getVerifier } from "@/lib/ai";
 import { getVerse, neighbours, searchQuran } from "@/lib/sources/quran";
@@ -17,6 +18,7 @@ import { getReviewDecisions, getTopics } from "@/lib/content";
 import { PREPARED_ANSWERS } from "@/data/prepared-answers";
 import { PREPARED_IDS_AWAITING_VIEW_DECISION } from "@/data/view-decisions";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
+import { diagnosticLogger } from "./diagnostics";
 
 // HADITH_SOURCE=library: stored Sahih al-Bukhari / Sahih Muslim hadith. =hadeethenc: the old live path.
 // Anything else: hadith off. Never both.
@@ -82,15 +84,24 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
   // Evaluation traces measure the live pipeline, so they skip prepared answers.
   const prepared = trace ? null : await askPreparedOnly(question);
   if (prepared) return prepared;
+  const writer = getProvider();
+  const verifier = getVerifier();
+  const claimAudit = askClaimAudit();
+  const tiered = askTiered();
+  const onDiagnostic = diagnosticLogger(process.env.ASK_DEBUG === "true", {
+    requestId: randomUUID(), revision: process.env.VERCEL_GIT_COMMIT_SHA,
+    writerChain: writer.id, verifierChain: verifier.id,
+    claimAudit, tiered, lean: process.env.ASK_LEAN === "true",
+  }, (line) => console.info(line));
   return runPipeline(question, uiLanguage, {
     ...trace,
-    writer: getProvider(),
-    verifier: getVerifier(),
+    writer,
+    verifier,
     deadlineMs: askDeadlineMs(),
-    claimAudit: askClaimAudit(),
+    claimAudit,
     ...(process.env.ASK_LEAN === "true" ? { candidateLimits: { ...LEAN_CANDIDATE_LIMITS } } : {}),
     // ASK_TIERED=true: Quran, then hadith, then fatwas, then videos (read per question so it can be switched).
-    ...(askTiered() ? { tiered: { videoBudgetMs: askVideoBudgetMs(), maxVideos: askMaxVideos() } } : {}),
+    ...(tiered ? { tiered: { videoBudgetMs: askVideoBudgetMs(), maxVideos: askMaxVideos() } } : {}),
     search: searchQuran,
     getVerse,
     neighbours,
@@ -106,5 +117,6 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
     // Reason codes only, never the question. Local testing only.
     onRefuse: process.env.ASK_DEBUG === "true" ? (reason) => console.info(`ask refused: ${reason}`) : undefined,
     onStep: process.env.ASK_DEBUG === "true" ? (name, ms) => console.info(`ask step: ${name} at ${ms} ms`) : undefined,
+    onDiagnostic,
   });
 }

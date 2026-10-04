@@ -1435,6 +1435,20 @@ describe("runPipeline claim audit", () => {
     audience_preserved: "no", reason_codes: ["audience_changed"], explanation: "Keep the source's addressed group explicit.",
   })] });
 
+  it("explains both malformed screens without logging answer or feedback text", async () => {
+    const { d } = deps({ understand: understanding, draft: goodDraft }, { ...OK,
+      claim_assessments: [assessment({ claim_id: "C999", explanation: "Private checker text." })] });
+    d.claimAudit = true;
+    const diagnostics: string[] = [];
+    d.onDiagnostic = (stage, code, ms) => {
+      expect(ms).toBeGreaterThanOrEqual(0);
+      diagnostics.push(`${stage}:${code}`);
+    };
+    expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_summary");
+    expect(diagnostics).toEqual(["screening:claim_id_unknown", "screening_retry:claim_id_unknown"]);
+    expect(diagnostics.join(" ")).not.toContain("Private checker text");
+  });
+
   it("uses the same call count and allowance, with claim IDs, citations and unselectable context", async () => {
     const { d, writer, verifier } = deps({ understand: understanding, draft: goodDraft }, auditOk());
     d.claimAudit = true;

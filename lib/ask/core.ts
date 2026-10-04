@@ -165,6 +165,7 @@ export type PipelineDeps = {
   selectionRetryTimeoutMs?: number; // test override; production default stays short and bounded
   onRefuse?: (reason: string) => void; // reason codes only, never the question
   onStep?: (step: string, elapsedMs: number) => void; // step names and timings only, for local debugging
+  onDiagnostic?: (stage: "selection" | "selection_retry" | "screening" | "screening_retry", code: string, elapsedMs: number) => void;
   onFrame?: (frame: QuestionFrame) => void; // local evaluation only; never logs visitor text
   onRetrieved?: (result: { hintIds: string[]; quran: string[]; hadith: string[]; scholars: string[]; scholarEnabled: boolean; scholarProblem: string | null }) => void;
   onCandidates?: (candidates: PassageForSelection[]) => void;
@@ -851,7 +852,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // rank first among equals; a complete named passage (al-Fatiha) may stay whole as one card.
   const namedPassages = namedPassageGroups(question);
   const packageOptions = { preferredIds: mappedIds, namedPassages, ...(tiered ? { caps: TIER_PACKAGE_CAPS, tierOrder: true } : {}) };
-  let evidencePackage = parseEvidencePackage(selected, frame, candidates, packageOptions);
+  let evidencePackage = parseEvidencePackage(selected, frame, candidates, packageOptions,
+    (code) => deps.onDiagnostic?.("selection", code, Date.now() - started));
   const retryKind = evidencePackage ? null : selectionRetryKind(selected, candidates);
   if (retryKind) {
     const retryTimeoutMs = deps.selectionRetryTimeoutMs ?? SELECTION_RETRY_TIMEOUT_MS;
@@ -863,7 +865,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
         const retrySignal = AbortSignal.any([signal, AbortSignal.timeout(retryTimeoutMs)]);
         const retried = await selectEvidence(retryCandidates, retrySignal, true);
         step(`selection_retry(${retryCandidates.length} candidates)`);
-        const retriedPackage = parseEvidencePackage(retried, frame, retryCandidates, packageOptions);
+        const retriedPackage = parseEvidencePackage(retried, frame, retryCandidates, packageOptions,
+          (code) => deps.onDiagnostic?.("selection_retry", code, Date.now() - started));
         if (retriedPackage) {
           evidencePackage = retriedPackage;
           deps.onRefuse?.("selection_retry_succeeded");
@@ -1093,15 +1096,27 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
 
   const supported = (raw: unknown, answer: StructuredDraft) => deps.claimAudit
     ? parseClaimAudit(raw, answer.claims)?.supported === true : allSupported(raw, answer.claims.length);
-  const logAudit = (raw: unknown, answer: StructuredDraft) => {
+  const logAudit = (raw: unknown, answer: StructuredDraft, stage: "screening" | "screening_retry") => {
+    const diagnostic = (code: string) => deps.onDiagnostic?.(stage, code, Date.now() - started);
+    if (!deps.claimAudit && !allSupported(raw, answer.claims.length)) diagnostic("legacy_claim_verdicts_not_all_supported");
+    for (const field of ["answers_question", "covers_facets", "fair_picture", "context_preserved",
+      "direct_answer_complete", "listed_items_complete", "no_repetition", "not_established_ok"] as const) {
+      const value = raw && typeof raw === "object" ? (raw as Record<string, unknown>)[field] : undefined;
+      if (value !== "yes") diagnostic(`${field}_${value === "no" || value === "unsure" ? value : "missing_or_invalid"}`);
+    }
+    if (!requirementsCovered(raw, requirementIds)) diagnostic("answer_requirement_coverage_invalid_or_not_yes");
     if (!deps.claimAudit) return;
-    const audit = parseClaimAudit(raw, answer.claims);
+    const audit = parseClaimAudit(raw, answer.claims,
+      (code) => deps.onDiagnostic?.(stage, code, Date.now() - started));
     if (!audit) { step("claim_audit_invalid"); return; }
-    for (const reason of new Set(audit.failures.flatMap((failure) => failure.reason_codes))) step(`claim_audit_failed_${reason}`);
+    for (const reason of new Set(audit.failures.flatMap((failure) => failure.reason_codes))) {
+      step(`claim_audit_failed_${reason}`);
+      diagnostic(`claim_${reason}`);
+    }
   };
   let verdicts = await screen(parsed.answer);
   step("screening");
-  logAudit(verdicts, parsed.answer);
+  logAudit(verdicts, parsed.answer, "screening");
   if (!verdicts) return refuse("screening_unreadable", language);
   if (!supported(verdicts, parsed.answer)
     || !wholeAnswerOk(verdicts)
@@ -1118,7 +1133,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     }
     verdicts = await screen(parsed.answer);
     step("screening_retry");
-    logAudit(verdicts, parsed.answer);
+    logAudit(verdicts, parsed.answer, "screening_retry");
     if (!verdicts) return refuse("screening_retry_unreadable", language);
   }
   if (!supported(verdicts, parsed.answer)) return noSummaryFallback(deps.claimAudit ? "screening_claim_audit" : "screening_claim", true);

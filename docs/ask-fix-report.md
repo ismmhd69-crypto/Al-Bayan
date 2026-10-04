@@ -135,3 +135,7 @@ Run from the Bayan repository. Do not delete/reset the ledger or release the res
 - Measure approved reuse independently with the measurement command plus `--approved` and distinct output paths. Saved answers must not contribute to live answer rates.
 
 All experiments share the original $1.50 ledger. If reconciliation or budget prevents these measurements, deliver **tested offline, general semantic improvement unverified, flag off**. The pushed commit identifies this follow-up in the delivery message. Vercel settings were not changed by this task.
+
+## Precise refusal diagnostics follow-up, 4 October 2026
+
+Diagnostics now identify the exact source-selection and screening rejection branch under `ASK_DEBUG`, without visitor or source content. Pre-audit commit `648b0fd` and current flag-off builders send identical controlled model requests; successful and refusing outcomes are preserved. Historical baseline selections also replay unchanged. See `ask-diagnostics-report.md`. This is a diagnostic delivery, not a confirmed fix for the latest production promises failure. Paid reproduction and real-model acceptance remain blocked by the unchanged shared ledger; additional experiment cost is $0.00. Claim audit remains off by default, and no model/prompt/schema/limit or Vercel setting was changed.
