@@ -1813,3 +1813,15 @@ Codex batch 164 inserted 60 rows for Sahih Muslim 91c to 106b. The database coun
 Codex batch 165 inserted 60 rows for Sahih Muslim 106c to 122. The database count increased from 27298 to 27358, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex ten-batch self-check after batches 161-165: reread Muslim 48d, 57e, 91a, 91c, 94b, 96a, 102, 104a, 106c, 109a, 112, 119a, and 122 against their Arabic sources and inserted English and German outputs. Chains, variant wording, negations, Quran references, arrogance, embezzlement, shirk, deception, mourning, suicide, apparent deeds, the verse about lowering voices, and repentance were checked. No translation problem was found. Existing rows were not changed.
+
+Codex batch 166 inserted 60 rows for Sahih Muslim 123a to 136b. The database count increased from 27358 to 27418, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 167 inserted 60 rows for Sahih Muslim 137a to 148a. The database count increased from 27418 to 27478, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 168 inserted 60 rows for Sahih Muslim 148b to 157e. The database count increased from 27478 to 27538, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 169 inserted 28 rows for Sahih Muslim 157f to 159d. The database count increased from 27538 to 27566, exactly matching the inserted rows. Validation passed for 14 hadiths.
+
+Codex batch 170 inserted 2 rows for Sahih Muslim 160a to 160a. The database count increased from 27566 to 27568, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex ten-batch self-check after batches 166-170: reread Muslim 123a, 136b, 148b, 151a, 154a, 155b, 157a, 157h, 159a, and 160a against their Arabic sources and inserted English and German outputs. Chains, variant reports, Quran references, the sun rising from the west, charity, the Antichrist, the Dajjal, the beginning of revelation, and the complete long report were checked. No translation problem was found. Existing rows were not changed.
