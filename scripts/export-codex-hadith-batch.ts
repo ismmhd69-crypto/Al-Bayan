@@ -10,7 +10,11 @@ const db = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.SUPAB
 const collection = process.argv.find((a) => a.startsWith("--collection="))?.split("=")[1] ?? "Sahih al-Bukhari";
 const out = process.argv.find((a) => a.startsWith("--out="))?.split("=")[1] ?? "data/hadith-words-translations/codex-batch.json";
 const size = Number(process.argv.find((a) => a.startsWith("--size="))?.split("=")[1] ?? 30);
-const skip = new Set((process.argv.find((a) => a.startsWith("--skip="))?.split("=")[1] ?? "").split(",").filter(Boolean));
+const skipFile = process.argv.find((a) => a.startsWith("--skip-file="))?.split("=")[1];
+const skip = new Set([
+  ...(process.argv.find((a) => a.startsWith("--skip="))?.split("=")[1] ?? "").split(",").filter(Boolean),
+  ...(skipFile && fs.existsSync(skipFile) ? fs.readFileSync(skipFile, "utf8").split(/\r?\n/).filter(Boolean) : []),
+]);
 
 function key(url: string): [number, string] {
   const m = /:(\d+)([a-z]*)$/i.exec(url ?? "");
