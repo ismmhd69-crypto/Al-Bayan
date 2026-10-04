@@ -2096,6 +2096,8 @@ Codex batches 762 and 763 completed six Sahih Muslim records: 57c, 57d, 57e, 57f
 
 Codex batches 764 and 765 completed six Sahih Muslim records: 59a, 59b, 59c, 59d, 60a, and 60b. The English and German translations were added to the translation JSON. The database already contained 12 translation rows for these records, so the duplicate-safety check made no database change. Those existing rows were preserved under the insert-only rule. Validation passed for the six JSON records and their source rows, including the complete chain and continuation wording, no Arabic characters, German umlauts, and acceptable length ratios. Existing concurrent database rows were not changed.
 
+Codex batches 766 and 767 completed six Sahih Muslim records: 61, 62, 63a, 63b, 64a, and 64b. The English and German translations were added to the translation JSON. The database already contained 12 translation rows for these records, so the duplicate-safety check made no database change. Those existing rows were preserved under the insert-only rule. Validation passed for the six JSON records and their source rows, including the complete chain and continuation wording, no Arabic characters, German umlauts, and acceptable length ratios. Existing concurrent database rows were not changed.
+
 Codex batch 264 inserted 60 rows for Sahih Muslim 545 to 561b. The database count increased from 28876 to 28936, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 265 inserted 20 rows for Sahih Muslim 561c to 566. The database count increased from 28936 to 28956, exactly matching the inserted rows. Validation passed for 10 hadiths.
@@ -2115,3 +2117,5 @@ Codex batch 270 inserted 20 rows for Sahih Muslim 573a to 576. The database coun
 Codex batch 271 inserted 20 rows for Sahih Muslim 577 to 579a. The database count increased from 29026 to 29046, exactly matching the inserted rows. Validation passed for 10 hadiths.
 
 Codex batch 272 inserted 20 rows for Sahih Muslim 579b to 583b. The database count increased from 29046 to 29066, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex batch 273 inserted 20 rows for Sahih Muslim 583c to 588d. The database count increased from 29066 to 29086, exactly matching the inserted rows. Validation passed for 10 hadiths.
