@@ -1801,3 +1801,15 @@ Codex batch 159 inserted 4 rows for Sahih Muslim 33b to 33c. The database count 
 Codex batch 160 inserted 60 rows for Sahih Muslim 33d to 48c. The database count increased from 26998 to 27058, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex ten-batch self-check after batches 151-160: reread Muslim 18b, 19a, 20, 24a, 27a, 30a, 31, 33c, 35b, and 45a against their Arabic sources and inserted English and German outputs. Chains, repeated variants, negations, faith wording, prayer and zakah obligations, Quran references, and the guest and neighbor rulings were checked. One wording concern was found in Muslim 27a: the English closing sentence says "will fail to enter Paradise" and the German says "wird daran gehindert, ins Paradies einzutreten"; this should be reviewed against the direct meaning "will enter Paradise." Existing rows were not changed because this work is insert-only. Needs Mo: Muslim 27a wording review.
+
+Codex batch 161 inserted 60 rows for Sahih Muslim 48d to 57d. The database count increased from 27058 to 27118, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 162 inserted 60 rows for Sahih Muslim 57e to 74b. The database count increased from 27118 to 27178, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 163 inserted 60 rows for Sahih Muslim 75 to 91b. The database count increased from 27178 to 27238, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 164 inserted 60 rows for Sahih Muslim 91c to 106b. The database count increased from 27238 to 27298, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 165 inserted 60 rows for Sahih Muslim 106c to 122. The database count increased from 27298 to 27358, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex ten-batch self-check after batches 161-165: reread Muslim 48d, 57e, 91a, 91c, 94b, 96a, 102, 104a, 106c, 109a, 112, 119a, and 122 against their Arabic sources and inserted English and German outputs. Chains, variant wording, negations, Quran references, arrogance, embezzlement, shirk, deception, mourning, suicide, apparent deeds, the verse about lowering voices, and repentance were checked. No translation problem was found. Existing rows were not changed.

@@ -54,9 +54,10 @@ async function main() {
 
   const first = input[0].url.split(":").pop();
   const last = input.at(-1)!.url.split(":").pop();
+  const collection = input[0].url.includes("sunnah.com/muslim:") ? "Sahih Muslim" : "Sahih al-Bukhari";
   const logPath = "docs/hadith-translation-log.md";
   const existingLog = fs.existsSync(logPath) ? fs.readFileSync(logPath, "utf8").trimEnd() : "# Hadith translation log\n";
-  const line = `\n\nCodex batch ${batchName} inserted ${rows.length} rows for Sahih al-Bukhari ${first} to ${last}. The database count increased from ${before} to ${after}, exactly matching the inserted rows. Validation passed for ${input.length} hadiths.`;
+  const line = `\n\nCodex batch ${batchName} inserted ${rows.length} rows for ${collection} ${first} to ${last}. The database count increased from ${before} to ${after}, exactly matching the inserted rows. Validation passed for ${input.length} hadiths.`;
   fs.writeFileSync(logPath, existingLog + line + "\n", "utf8");
   console.log(`logged Codex batch ${batchName}`);
 }
