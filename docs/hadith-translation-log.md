@@ -1701,3 +1701,13 @@ Codex batch 113 inserted 60 rows for Sahih al-Bukhari 4242 to 4274. The database
 Codex batch 114 inserted 60 rows for Sahih al-Bukhari 4275 to 4305. The database count increased from 25268 to 25328, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 115 inserted 60 rows for Sahih al-Bukhari 4307 to 4339. The database count increased from 25328 to 25388, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 116 inserted 60 rows for Sahih al-Bukhari 4340 to 4372. The database count increased from 25388 to 25448, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 117 inserted 60 rows for Sahih al-Bukhari 4373 to 4406. The database count increased from 25448 to 25508, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 118 inserted 20 rows for Sahih al-Bukhari 4407 to 4417. The database count increased from 25508 to 25528, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Needs Mo: Sahih al-Bukhari 4418 deferred. It is a 13,306-character source containing the full report of Ka'b ibn Malik and the repentance after Tabuk; it needs a dedicated complete translation and was not shortened or inserted.
+
+Codex batch 120 inserted 60 rows for Sahih al-Bukhari 4419 to 4450. The database count increased from 25528 to 25588, exactly matching the inserted rows. Validation passed for 30 hadiths.
