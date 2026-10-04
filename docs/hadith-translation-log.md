@@ -2240,8 +2240,12 @@ Codex batches 838 and 839 completed six Sahih Muslim records: 743a, 743b, 744a, 
 
 Codex batches 840 and 841 covered six Sahih Muslim records: 745c, 795c, 796, 797a, 797b, and 798a. Five records already had both language rows in the database, so they were preserved without changes. The remaining record, 745c, received 2 new database translation rows. Validation confirmed all six source records and all 12 English and German database rows, including the complete chain and continuation wording, no Arabic characters, German umlauts, and acceptable length ratios.
 
+Codex batches 842 and 843 completed six Sahih Muslim records: 823b, 824a, 824b, 824c, 824d, and 825. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six JSON records and their source rows, including the complete chain and continuation wording, no Arabic characters, German umlauts, and acceptable length ratios.
+
 Codex batch 294 inserted 60 rows for Sahih Muslim 763l to 782b. The database count increased from 30394 to 30454, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 295 inserted 60 rows for Sahih Muslim 782c to 795b. The database count increased from 30466 to 30526, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batch 296 inserted 60 rows for Sahih Muslim 795c to 809b. The database count increased from 30550 to 30610, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 297 inserted 60 rows for Sahih Muslim 810 to 823a. The database count increased from 30612 to 30672, exactly matching the inserted rows. Validation passed for 30 hadiths.
