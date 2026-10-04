@@ -2100,6 +2100,8 @@ Codex batches 766 and 767 completed six Sahih Muslim records: 61, 62, 63a, 63b, 
 
 Codex batches 768 and 769 completed six Sahih Muslim records: 65, 66a, 66b, 66c, 67, and 68. The English and German translations were added to the translation JSON. The database already contained 12 translation rows for these records, so the duplicate-safety check made no database change. Those existing rows were preserved under the insert-only rule. Validation passed for the six JSON records and their source rows, including the complete chain and continuation wording, no Arabic characters, German umlauts, and acceptable length ratios. Existing concurrent database rows were not changed.
 
+Codex batches 770 and 771 completed six Sahih Muslim records: 467a, 467b, 467c, 467d, 468a, and 468b. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for the six JSON records and their source rows, including the complete chain and continuation wording, no Arabic characters, German umlauts, and acceptable length ratios.
+
 Codex batch 274 inserted 20 rows for Sahih Muslim 588e to 592b. The database count increased from 29086 to 29106, exactly matching the inserted rows. Validation passed for 10 hadiths.
 
 Codex batch 275 inserted 20 rows for Sahih Muslim 592c to 593i. The database count increased from 29106 to 29126, exactly matching the inserted rows. Validation passed for 10 hadiths.
