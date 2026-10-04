@@ -2304,11 +2304,17 @@ Codex batches 874 and 875 completed six Sahih Muslim records: 939i, 940a, 940b, 
 
 Codex batches 876 and 877 completed six Sahih Muslim records: 941d, 942a, 942b, 943, 944a, and 944b. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
+Codex batch 307 inserted 24 rows for Sahih Muslim 939c to 948. The database count increased from 31234 to 31258, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
 Codex batches 878 and 879 completed six Sahih Muslim records: 944c, 945a, 945b, 945c, 945d, and 945e. All 12 database translation rows were already present, so no existing rows were changed and no duplicate rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
+
+Codex batch 308 inserted 60 rows for Sahih Muslim 949a to 962d. The database count increased from 31258 to 31318, exactly matching the inserted rows. Validation passed for 30 hadiths.
 
 Codex batches 880 and 881 completed six Sahih Muslim records: 949a, 949b, 950a, 950b, 951a, and 951b. All 12 database translation rows were already present, so no existing rows were changed and no duplicate rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
 Codex batches 882 and 883 completed six Sahih Muslim records: 962e, 963a, 963c, 963d, 964a, and 964b. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
+
+Codex batch 309 inserted 44 rows for Sahih Muslim 963a to 977b. The database count increased from 31330 to 31374, exactly matching the inserted rows. Validation passed for 27 hadiths.
 
 Codex batches 884 and 885 completed six Sahih Muslim records: 964c, 965a, 965b, 966, 967, and 968. All 12 database translation rows were already present, so no existing rows were changed and no duplicate rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
@@ -2318,4 +2324,10 @@ Codex batches 888 and 889 completed six Sahih Muslim records: 979a, 979b, 979c, 
 
 Codex batches 890 and 891 completed six Sahih Muslim records: 979g, 979h, 980, 981, 982a, and 982b. The English and German translations were added to the translation JSON, and 12 new database translation rows were inserted. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
 
-Codex batches 892 and 893 completed six Sahih Muslim records: 982c, 982d, 983, 984a, 984b, 984c. Eight database translation rows were already present and four missing rows were inserted. Existing rows were preserved without changes. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
+Codex batch 310 inserted 18 rows for Sahih Muslim 977c to 986a. The database count increased from 31410 to 31428, exactly matching the inserted rows. Validation passed for 23 hadiths.
+
+Codex batch 311 inserted 2 rows for Sahih Muslim 986b to 986b. The database count increased from 31428 to 31430, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batches 892 and 893 completed six Sahih Muslim records: 982c, 982d, 983, 984a, 984b, and 984c. Eight database translation rows were already present and four missing rows were inserted. Existing rows were preserved without changes. Validation passed for all six records, including source matching, no Arabic text in the translations, and German character checks.
+
+Ten-batch self-check for Codex batches 302 to 311: source-chain and meaning problems were found and placed under Needs Mo. Sampled 977c was translated as the earlier grave-visiting and sacrificial-meat report, while the Arabic is the vessel and intoxicant report. Sampled 979a was translated as the bankrupt-person report, while the Arabic is the minimum zakah thresholds. Sampled 980 was translated as the joint-charity report, while the Arabic is the minimum thresholds for silver, camels, and dates. Sampled 982a was translated as the silver, camel, and date thresholds, while the Arabic says there is no charity due on a Muslim's slave or horse. Sampled 984a added young and old and an instruction about giving before prayer that are not in this Arabic row. Sampled 985d omitted the chain and the actual three food types. Sampled 986a omitted the full chain. These inserted rows must not be updated or deleted under the current permissions; they remain Needs Mo for a later approved repair path.
