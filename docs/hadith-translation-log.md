@@ -1825,3 +1825,27 @@ Codex batch 169 inserted 28 rows for Sahih Muslim 157f to 159d. The database cou
 Codex batch 170 inserted 2 rows for Sahih Muslim 160a to 160a. The database count increased from 27566 to 27568, exactly matching the inserted rows. Validation passed for 1 hadiths.
 
 Codex ten-batch self-check after batches 166-170: reread Muslim 123a, 136b, 148b, 151a, 154a, 155b, 157a, 157h, 159a, and 160a against their Arabic sources and inserted English and German outputs. Chains, variant reports, Quran references, the sun rising from the west, charity, the Antichrist, the Dajjal, the beginning of revelation, and the complete long report were checked. No translation problem was found. Existing rows were not changed.
+
+Codex batch 171 inserted 16 rows for Sahih Muslim 160b to 162. The database count increased from 27568 to 27584, exactly matching the inserted rows. Validation passed for 8 hadiths.
+
+Codex batch 172 inserted 2 rows for Sahih Muslim 162a to 162a. The database count increased from 27584 to 27586, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 173 inserted 4 rows for Sahih Muslim 162b to 162c. The database count increased from 27586 to 27590, exactly matching the inserted rows. Validation passed for 2 hadiths.
+
+Codex batch 174 inserted 2 rows for Sahih Muslim 163 to 163. The database count increased from 27590 to 27592, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 175 inserted 2 rows for Sahih Muslim 164a to 164a. The database count increased from 27592 to 27594, exactly matching the inserted rows. Validation passed for 1 hadiths.
+
+Codex batch 176 inserted 12 rows for Sahih Muslim 164b to 166c. The database count increased from 27594 to 27606, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+Codex batch 176 inserted 0 rows for Sahih Muslim 164b to 166c. The database count increased from 27606 to 27606, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+Codex batch 176 inserted 8 rows for Sahih Muslim 164b to 168c. The database count increased from 27606 to 27614, exactly matching the inserted rows. Validation passed for 10 hadiths.
+
+Codex batch 176 inserted 12 rows for Sahih Muslim 164b to 172. The database count increased from 27614 to 27626, exactly matching the inserted rows. Validation passed for 16 hadiths.
+
+Codex batch 176 inserted 8 rows for Sahih Muslim 164b to 174a. The database count increased from 27626 to 27634, exactly matching the inserted rows. Validation passed for 20 hadiths.
+
+Codex batch 176 inserted 18 rows for Sahih Muslim 164b to 177d. The database count increased from 27634 to 27652, exactly matching the inserted rows. Validation passed for 29 hadiths.
+
+Codex batch 177 inserted 2 rows for Sahih Muslim 177a to 177a. The database count increased from 27652 to 27654, exactly matching the inserted rows. Validation passed for 1 hadiths.
