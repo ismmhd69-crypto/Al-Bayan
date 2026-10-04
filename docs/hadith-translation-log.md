@@ -1723,3 +1723,13 @@ Codex batch 123 inserted 60 rows for Sahih al-Bukhari 4518 to 4549. The database
 Needs Mo: Sahih al-Bukhari 4553 deferred. It is a 5,719-character source requiring a dedicated complete translation and was not shortened or inserted. Bukhari 4551 and 4552 were held temporarily because the exporter encountered this dedicated long source next; they remain untranslated and will be returned to in a later full batch.
 
 Needs Mo: Sahih al-Bukhari 4566 deferred. It is a 3,241-character source requiring a dedicated complete translation and was not shortened or inserted. Bukhari 4554 through 4565 were held temporarily because the exporter encountered this dedicated long source next; they remain untranslated and will be returned to in a later full batch.
+
+Codex batch 128 inserted 60 rows for Sahih al-Bukhari 4567 to 4596. The database count increased from 25768 to 25828, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 129 inserted 60 rows for Sahih al-Bukhari 4597 to 4626. The database count increased from 25828 to 25888, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 131 inserted 60 rows for Sahih al-Bukhari 4657 to 4686. The database count increased from 25888 to 25948, exactly matching the inserted rows. Validation passed for 30 hadiths.
+
+Codex batch 132 inserted 50 rows for Sahih al-Bukhari 4687 to 4711. The database count increased from 25948 to 25998, exactly matching the inserted rows. Validation passed for 25 hadiths.
+
+Codex batch 133 inserted 2 rows for Sahih al-Bukhari 4712 to 4712. The database count increased from 25998 to 26000, exactly matching the inserted rows. Validation passed for 1 hadiths.
