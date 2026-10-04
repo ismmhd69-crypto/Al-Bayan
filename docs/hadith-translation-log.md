@@ -1929,3 +1929,15 @@ Codex batch 209 inserted 14 rows for Sahih Muslim 274a to 274g. The database cou
 Codex batch 210 inserted 14 rows for Sahih Muslim 274h to 275. The database count increased from 28038 to 28052, exactly matching the inserted rows. Validation passed for 7 hadiths.
 
 Self-check after batches 201 to 210: reread Muslim 235c, 238, 241b, 245, 249b, 254, 258, 267a, 274a, and 274h against the Arabic. Chains, rulings, negations, numbers, and main meanings matched. Needs Mo: Muslim 241b German uses localized narrator spellings such as “Schu'ba” and “Baschar” instead of the required standard English spellings in both languages; Muslim 245 German expands “Abd al-Wahid, namely Ibn Ziyad” as “the son of Ziyad,” which should be reviewed for name fidelity. Existing rows were not changed.
+
+Codex batch 211 inserted 14 rows for Sahih Muslim 276a to 278c. The database count increased from 28052 to 28066, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 211 inserted 14 rows for Sahih Muslim 278d to 279e. The database count increased from 28066 to 28080, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 212 inserted 14 rows for Sahih Muslim 280a to 284a. The database count increased from 28080 to 28094, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 213 inserted 14 rows for Sahih Muslim 284b to 287b. The database count increased from 28094 to 28108, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 214 inserted 14 rows for Sahih Muslim 287c to 289a. The database count increased from 28108 to 28122, exactly matching the inserted rows. Validation passed for 7 hadiths.
+
+Codex batch 215 inserted 14 rows for Sahih Muslim 289b to 293a. The database count increased from 28122 to 28136, exactly matching the inserted rows. Validation passed for 7 hadiths.
