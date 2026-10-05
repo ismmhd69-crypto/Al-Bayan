@@ -2584,3 +2584,6 @@ Codex batch 1034 inserted 12 rows for Sahih Muslim 1412e to 1413d. The database 
 
 
 Codex batch 1036 inserted 12 rows for Sahih Muslim 1425a to 1427c. The database count increased from 33864 to 33876, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+
+Codex batch 1038 checked Sahih Muslim 1427d to 1428b. All 12 database translation rows already existed, so no rows were inserted or changed. The stored wording differed from this draft, so no conflicting local translations were added. Validation passed for 6 hadiths.
