@@ -2581,3 +2581,6 @@ Codex batch 1032 inserted 12 rows for Sahih Muslim 1406l to 1407e. The database 
 
 
 Codex batch 1034 inserted 12 rows for Sahih Muslim 1412e to 1413d. The database count increased from 33804 to 33816, exactly matching the inserted rows. Validation passed for 6 hadiths.
+
+
+Codex batch 1036 inserted 12 rows for Sahih Muslim 1425a to 1427c. The database count increased from 33864 to 33876, exactly matching the inserted rows. Validation passed for 6 hadiths.
