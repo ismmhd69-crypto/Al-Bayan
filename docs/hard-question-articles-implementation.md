@@ -19,14 +19,14 @@ All 21 articles are integrated at the existing `/{lang}/topics/{id}` routes in E
 
 The manuscript helper and document/website checkers support additions without requiring former approved answer files. Original hashes are checked only for the original 12. Reference parity, related-link existence and complete follow-up answers remain required for every new language version.
 
-The draft reader is enabled only in development through `showHardQuestionDrafts()`. Production keeps the existing approved-answer path. This is intentional local integration, not publication acceptance. Both the reader and list identify the content as editorial drafts; no scholar-review badge is added.
+Mo authorised public visibility on 19 October 2026. `showHardQuestionDrafts()` now enables all 21 authored articles in production as well as development. Both the reader and list retain editorial-draft labels; no scholar-review badge is added. Public visibility is distinct from independent scholarly/native-language acceptance and does not update approval records. Article metadata retains noindex for these drafts.
 
-No existing topic-answer JSON, prepared answer, review record, database row, live Ask sources, or API contract changed. No commit, push or deployment was performed. Independent scholarly and native-language acceptance remain open; the manuscript's specific research gaps remain applicable.
+No existing topic-answer JSON, prepared answer, review record, database row, live Ask sources, or API contract changed. The earlier content package was committed and pushed; the subsequent visibility change is being released at Mo's request. Independent scholarly and native-language acceptance remain open; the manuscript's specific research gaps remain applicable.
 
 ## Verification
 
 - `npm run typecheck`: passed.
-- `npx vitest run tests/hard-question-articles.test.ts`: three focused tests passed. They cover all language sections, follow-ups, source parity, Quran passage resolution, internal links, evidence kinds, rejected link schemes and the production draft gate.
+- `npx vitest run tests/hard-question-articles.test.ts`: three focused tests cover all language sections, follow-ups, source parity, Quran passage resolution, internal links, evidence kinds, rejected link schemes and public visibility in production. The production expectation was updated for Mo's release request.
 - HTTP verification: 63 article routes and three topic indexes returned 200. Required sections, 189 rendered follow-ups, every cited source panel, Arabic RTL and absence of the old approval badge were checked.
 - Integrated content compared with all 63 manuscript bodies: exact match after relative-link conversion.
 - SHA-256 comparison: all 12 original topic-answer files remain unchanged.

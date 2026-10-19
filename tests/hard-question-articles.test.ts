@@ -34,8 +34,8 @@ describe("expanded Hard Questions articles", () => {
     expect(articleHref("javascript:alert(1)", "en")).toBeNull();
     expect(articleHref("#unwritten-candidate", "en")).toBeNull();
   });
-  it("does not enable draft articles in production or mark existing answers approved", () => {
-    vi.stubEnv("NODE_ENV", "production"); expect(showHardQuestionDrafts()).toBe(false);
+  it("enables the authored articles in production as well as development", () => {
+    vi.stubEnv("NODE_ENV", "production"); expect(showHardQuestionDrafts()).toBe(true);
     vi.stubEnv("NODE_ENV", "development"); expect(showHardQuestionDrafts()).toBe(true);
   });
 });

@@ -10,8 +10,9 @@ export type HardQuestionArticle = {
 };
 export const hardQuestionArticles = content.articles as HardQuestionArticle[];
 export const hardQuestionReferences = content.references as Record<string, ArticleReference>;
-// Implementation preview only. Publication approval is separate; no approval records are changed.
-export function showHardQuestionDrafts() { return process.env.NODE_ENV === "development"; }
+// Mo authorised public visibility on 19 October 2026. Editorial labels remain;
+// visibility does not confer scholarly acceptance or change approval records.
+export function showHardQuestionDrafts() { return true; }
 export function findHardQuestionArticle(id: string) { return hardQuestionArticles.find((article) => article.id === id); }
 export function articleReferences(body: string) {
   return [...new Set([...body.matchAll(/\[[^\]]+\]\[([^\]]+)\]/g)].map((m) => m[1]))].map((id) => {
