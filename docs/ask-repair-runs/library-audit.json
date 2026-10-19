@@ -1,0 +1,306 @@
+{
+  "at": "2026-10-04T15:32:54.507Z",
+  "kind": "read_only_retrieval_audit_no_models",
+  "published": {
+    "hadith": 14629,
+    "fatwa": 7255
+  },
+  "translations": {
+    "hadith/en": {
+      "total": 7461,
+      "published": 0,
+      "forPublishedSources": 7461
+    },
+    "hadith/de": {
+      "total": 7461,
+      "published": 0,
+      "forPublishedSources": 7461
+    },
+    "fatwa/en": {
+      "total": 7324,
+      "published": 0,
+      "forPublishedSources": 7255
+    },
+    "fatwa/de": {
+      "total": 7324,
+      "published": 0,
+      "forPublishedSources": 7255
+    }
+  },
+  "warning": "Eligible retrieval candidates are not proof of direct support. Wrong-kind/unavailable counts combine competing groups and later publication changes; rights-blocked rows are hidden by RPC and cannot be counted from these hits. Text and questions are omitted.",
+  "probes": [
+    {
+      "id": "intentions",
+      "audits": {
+        "scholarAfter": {
+          "group": "scholar",
+          "queries": 2,
+          "hits": 41,
+          "ceilingHits": 0,
+          "wrongKindOrUnavailable": 0,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 0,
+          "titleOrTopic": 35,
+          "authenticity": 0,
+          "eligible": 6,
+          "returned": 6,
+          "configurationMissing": false
+        },
+        "scholarBefore": {
+          "group": "scholar",
+          "queries": 1,
+          "hits": 12,
+          "ceilingHits": 0,
+          "wrongKindOrUnavailable": 0,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 0,
+          "titleOrTopic": 11,
+          "authenticity": 0,
+          "eligible": 1,
+          "returned": 1,
+          "configurationMissing": false
+        },
+        "hadith": {
+          "group": "hadith",
+          "queries": 3,
+          "hits": 79,
+          "ceilingHits": 1,
+          "wrongKindOrUnavailable": 28,
+          "missingText": 0,
+          "length": 2,
+          "continuation": 7,
+          "titleOrTopic": 0,
+          "authenticity": 0,
+          "eligible": 42,
+          "returned": 8,
+          "configurationMissing": false
+        }
+      },
+      "hadith": [
+        "SH09c17088-3041-4121-af6a-3858bbfe2d4d",
+        "SH9471b7c8-2f04-4b11-8d16-aed0e481ddb9",
+        "SH1a03b025-e884-4325-8e87-83e26311e6c1",
+        "SH17ebbd51-47fb-4637-83c2-a091acbb686a",
+        "SHe7a254ac-fe9c-4c59-81d9-3edc6fc27e46",
+        "SH3c4f9718-4989-48be-bda9-8433de3ad44b",
+        "SH69cda25e-c7e6-4fb0-93cf-7f61e0dbb30c",
+        "SH3aa234c6-62c0-4e25-8f92-d6cca50faae2"
+      ],
+      "scholarBefore": [
+        "S916e042e-8573-4e52-b138-8bb26b56360e"
+      ],
+      "scholarAfter": [
+        "S916e042e-8573-4e52-b138-8bb26b56360e",
+        "S18911181-5e16-46fb-b1d0-7217d995dbf6",
+        "S1bd27133-297c-48d3-8186-f5f8d2649b6b",
+        "S3683c0c4-e682-4708-9360-6c7cb5116b1a",
+        "S78a7d1da-df96-4c89-abc4-0493b80dbc23",
+        "S30396e9c-3f10-4250-9d2d-13f4e3b53f88"
+      ]
+    },
+    {
+      "id": "promises",
+      "audits": {
+        "scholarAfter": {
+          "group": "scholar",
+          "queries": 1,
+          "hits": 1,
+          "ceilingHits": 0,
+          "wrongKindOrUnavailable": 1,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 0,
+          "titleOrTopic": 0,
+          "authenticity": 0,
+          "eligible": 0,
+          "returned": 0,
+          "configurationMissing": false
+        },
+        "scholarBefore": {
+          "group": "scholar",
+          "queries": 1,
+          "hits": 1,
+          "ceilingHits": 0,
+          "wrongKindOrUnavailable": 1,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 0,
+          "titleOrTopic": 0,
+          "authenticity": 0,
+          "eligible": 0,
+          "returned": 0,
+          "configurationMissing": false
+        },
+        "hadith": {
+          "group": "hadith",
+          "queries": 3,
+          "hits": 50,
+          "ceilingHits": 1,
+          "wrongKindOrUnavailable": 0,
+          "missingText": 0,
+          "length": 2,
+          "continuation": 1,
+          "titleOrTopic": 0,
+          "authenticity": 0,
+          "eligible": 47,
+          "returned": 8,
+          "configurationMissing": false
+        }
+      },
+      "hadith": [
+        "SHbb8539fb-88a9-40eb-a6b2-57e1be658f67",
+        "SH9d01c548-041a-4aab-b85f-bde8b02d75e4",
+        "SHfd7ed50c-2c13-4400-ba11-25a38ecb7744",
+        "SHfd6fff1e-9ef2-4800-a58e-02e05150ed36",
+        "SH36aee9ae-886a-457f-ab2f-4b7a45b3336d",
+        "SHeca1bb1b-43ba-49ab-b05a-5b8a7b6629f8",
+        "SH36ac827a-6a35-4c1d-915b-0224181c980d",
+        "SH78207201-3fed-4e57-ad63-1435023f3f77"
+      ],
+      "scholarBefore": [],
+      "scholarAfter": []
+    },
+    {
+      "id": "voluntary-charity",
+      "audits": {
+        "hadith": {
+          "group": "hadith",
+          "queries": 3,
+          "hits": 50,
+          "ceilingHits": 1,
+          "wrongKindOrUnavailable": 0,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 4,
+          "titleOrTopic": 0,
+          "authenticity": 0,
+          "eligible": 46,
+          "returned": 8,
+          "configurationMissing": false
+        },
+        "scholarBefore": {
+          "group": "scholar",
+          "queries": 2,
+          "hits": 8,
+          "ceilingHits": 0,
+          "wrongKindOrUnavailable": 0,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 0,
+          "titleOrTopic": 6,
+          "authenticity": 0,
+          "eligible": 2,
+          "returned": 2,
+          "configurationMissing": false
+        },
+        "scholarAfter": {
+          "group": "scholar",
+          "queries": 3,
+          "hits": 11,
+          "ceilingHits": 0,
+          "wrongKindOrUnavailable": 0,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 0,
+          "titleOrTopic": 9,
+          "authenticity": 0,
+          "eligible": 2,
+          "returned": 2,
+          "configurationMissing": false
+        }
+      },
+      "hadith": [
+        "SHd56eacb6-cad5-443a-a46a-c513920b6ce0",
+        "SH6f82f59d-c56c-4a43-bb64-efbea2fd81ae",
+        "SHc295f995-eca3-4911-aeca-b1f1bc0daaed",
+        "SHf05aada4-5c6f-4fa3-b945-b7787e63230b",
+        "SH5a097f69-a1e0-405d-9350-8ac1e689cd74",
+        "SH85abee27-41e4-41db-9cc7-dde979a49d5e",
+        "SHf9c9e6fa-5aed-4c5d-9317-e13efbac6992",
+        "SHc779f94c-3e6a-49db-83f3-ddb0555173e3"
+      ],
+      "scholarBefore": [
+        "S077ea161-0a41-4a88-bfda-2b3b2eb533a4",
+        "S99cca2f1-ef0c-49d8-be3c-258e9bdffb83"
+      ],
+      "scholarAfter": [
+        "S077ea161-0a41-4a88-bfda-2b3b2eb533a4",
+        "S99cca2f1-ef0c-49d8-be3c-258e9bdffb83"
+      ]
+    },
+    {
+      "id": "zakat-amount",
+      "audits": {
+        "scholarBefore": {
+          "group": "scholar",
+          "queries": 1,
+          "hits": 5,
+          "ceilingHits": 0,
+          "wrongKindOrUnavailable": 0,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 0,
+          "titleOrTopic": 3,
+          "authenticity": 0,
+          "eligible": 2,
+          "returned": 2,
+          "configurationMissing": false
+        },
+        "scholarAfter": {
+          "group": "scholar",
+          "queries": 4,
+          "hits": 51,
+          "ceilingHits": 1,
+          "wrongKindOrUnavailable": 0,
+          "missingText": 0,
+          "length": 0,
+          "continuation": 0,
+          "titleOrTopic": 32,
+          "authenticity": 0,
+          "eligible": 19,
+          "returned": 6,
+          "configurationMissing": false
+        },
+        "hadith": {
+          "group": "hadith",
+          "queries": 3,
+          "hits": 55,
+          "ceilingHits": 1,
+          "wrongKindOrUnavailable": 5,
+          "missingText": 0,
+          "length": 1,
+          "continuation": 6,
+          "titleOrTopic": 0,
+          "authenticity": 0,
+          "eligible": 43,
+          "returned": 8,
+          "configurationMissing": false
+        }
+      },
+      "hadith": [
+        "SHa54aa8db-ea47-4855-b282-51fc5b0f3025",
+        "SH24202370-0926-4813-8edd-e147eea1ba53",
+        "SH44e7ccb2-8f12-479e-9b5a-95e592e22000",
+        "SH3042fdb0-0d18-4dc7-b2ec-ee8423b70f02",
+        "SHdbf314b4-2123-4815-9b5b-598683351b15",
+        "SH21d5ec2d-760a-4bf2-8e0f-b08b81f810d3",
+        "SHa4bb360d-00d9-4d48-b74b-e1e2d5eb1f5d",
+        "SH1781e324-3f21-4573-96bd-02face09de39"
+      ],
+      "scholarBefore": [
+        "S87acf5f4-db2a-4344-8ee5-0cec01c4476d",
+        "S22bd6225-5ca9-4b6b-ab53-67045f587c72"
+      ],
+      "scholarAfter": [
+        "S87acf5f4-db2a-4344-8ee5-0cec01c4476d",
+        "S9e422635-908d-42da-96d0-34063cf85eee",
+        "S13e07152-d2a0-4ed7-98c9-407529d8de17",
+        "Sfa4224cd-0b25-4d3e-9cd7-677e531b108b",
+        "S48053382-130f-4544-ba05-88d15663127f",
+        "S22bd6225-5ca9-4b6b-ab53-67045f587c72"
+      ]
+    }
+  ]
+}

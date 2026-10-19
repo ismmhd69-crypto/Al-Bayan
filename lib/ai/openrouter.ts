@@ -1,4 +1,5 @@
 import "server-only";
+import { emitAiTrace, errorCategory } from "@/lib/ask/trace-context";
 import type { AIProvider, JsonRequest } from "./types";
 import { GoogleBusyError } from "./gemini";
 import { extractJsonObject } from "./nvidia";
@@ -53,14 +54,17 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
     async generateJson({ system, prompt, schema, maxOutputTokens = 2048, signal }: JsonRequest) {
       // Some providers reject response_format (a 400); the reply is parsed tolerantly anyway, so one
       // retry without it is safe. Once a 400 shows it, the rest of this call goes without it.
-      let jsonMode = true;
+      let jsonMode = true, attempt = 0;
       const call = async (): Promise<Response> => {
+        const started = Date.now();
+        emitAiTrace("http_attempt_started", { model: id, attempt: ++attempt, json_mode: jsonMode });
         if (!(await waitForSlot(limiter, model, SLOT_WAIT_MS, signal))) {
           if (signal?.aborted) throw signal.reason ?? new Error("aborted");
+          emitAiTrace("http_attempt_failed", { model: id, attempt, duration_ms: Date.now() - started, outcome: "busy" });
           throw new GoogleBusyError("openrouter busy (local limit)");
         }
         try {
-          return await fetch(ENDPOINT, {
+          const response = await fetch(ENDPOINT, {
             method: "POST",
             headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}`, "X-Title": "Al-Bayan" },
             signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(timeoutMs())]) : AbortSignal.timeout(timeoutMs()),
@@ -79,7 +83,10 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
               ...reasoningOptions(),
             }),
           });
+          emitAiTrace("http_attempt_finished", { model: id, attempt, http_status: response.status, duration_ms: Date.now() - started });
+          return response;
         } catch (err) {
+          emitAiTrace("http_attempt_failed", { model: id, attempt, duration_ms: Date.now() - started, outcome: errorCategory(err) });
           if (!signal?.aborted && (err as Error).name === "TimeoutError") throw new GoogleBusyError("openrouter slow (timeout)");
           throw err;
         }
@@ -100,9 +107,10 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
       if (BUSY_STATUSES.has(res.status)) throw new GoogleBusyError(`openrouter busy (${res.status})`);
       if (UNAVAILABLE_STATUSES.has(res.status)) throw new GoogleBusyError(`openrouter unavailable (${res.status})`);
       if (!res.ok) throw new Error(`openrouter request failed with status ${res.status}`);
-      type Reply = { choices?: { finish_reason?: string; message?: { content?: string | null } }[]; usage?: { cost?: number } };
+      type Reply = { choices?: { finish_reason?: string; message?: { content?: string | null } }[]; usage?: { cost?: number; prompt_tokens?: number; completion_tokens?: number; completion_tokens_details?: { reasoning_tokens?: number } } };
       const read = async (response: Response): Promise<Reply> => {
         const data = await response.json() as Reply;
+        emitAiTrace("model_usage", { model: id, attempt, cost_usd: data.usage?.cost, prompt_tokens: data.usage?.prompt_tokens, completion_tokens: data.usage?.completion_tokens, reasoning_tokens: data.usage?.completion_tokens_details?.reasoning_tokens, finish_reason: data.choices?.[0]?.finish_reason });
         // Count every successful HTTP call, including a cut-off first attempt.
         if (typeof data.usage?.cost === "number") debug(`ai cost: ${id} ${data.usage.cost}`);
         return data;

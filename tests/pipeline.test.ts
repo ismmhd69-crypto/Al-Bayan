@@ -161,6 +161,25 @@ function deps(
 }
 
 describe("runPipeline", () => {
+  it("traces the full evidence path without changing requests, results or call counts", async () => {
+    const plain = deps({ understand: understanding, draft: goodDraft });
+    const traced = deps({ understand: understanding, draft: goodDraft });
+    const log = vi.fn(); traced.d.onDiagnostic = log;
+    const question = "What does the Quran say about fasting?";
+    expect(await runPipeline(question, "en", traced.d)).toEqual(await runPipeline(question, "en", plain.d));
+    const inputs = (requests: JsonRequest[]) => requests.map(({ signal: _signal, ...rest }) => rest);
+    expect(inputs(traced.writer.seen)).toEqual(inputs(plain.writer.seen));
+    expect(inputs(traced.verifier.seen)).toEqual(inputs(plain.verifier.seen));
+    const codes = log.mock.calls.map((call) => call[1]);
+    for (const code of ["pipeline_started", "question_plan", "source_groups_ready", "ranked_sources", "source_assessments", "sealed_evidence", "writer_evidence_payload", "draft_validation", "answer_assessments", "checked_answer_ready"]) expect(codes).toContain(code);
+    const payload = log.mock.calls.find((call) => call[1] === "writer_evidence_payload")![3];
+    expect(payload.sources[0]).toMatchObject({ source_id: "Q2:183", english_present: true });
+    expect(log.mock.calls.find((call) => call[1] === "checked_answer_ready")![3].manual_reviewed).toBe(false);
+    const logs = JSON.stringify(log.mock.calls);
+    expect(logs).not.toContain(question); expect(logs).not.toContain(goodDraft.claims[0].text);
+    expect(logs).not.toContain(verses[0].arabic); expect(logs).not.toContain(verses[0].translations.en);
+  });
+
   it("answers when every step is clean, showing verses from source data", async () => {
     const { d } = deps({ understand: understanding, draft: goodDraft });
     const r = await runPipeline("What does the Quran say about fasting?", "en", d);
@@ -469,7 +488,7 @@ describe("runPipeline", () => {
     expect(verifier.seen[1].prompt).toContain("Q2:184");
   });
 
-  it("does not give Arabic verse wording to the Arabic writer", async () => {
+  it("gives the Arabic writer the original verse wording for faithful paraphrasing", async () => {
     const arabicFrame = {
       ...understanding,
       language: "ar",
@@ -482,7 +501,7 @@ describe("runPipeline", () => {
     const { d, writer } = deps({ understand: arabicFrame, draft: arabicDraft });
     expect((await runPipeline("ما حكم الصيام؟", "ar", d)).status).toBe("answer");
     const draftPrompt = writer.seen[1].prompt;
-    expect(draftPrompt).not.toContain(verses[0].arabic);
+    expect(draftPrompt).toContain(verses[0].arabic);
     expect(draftPrompt).toContain(verses[0].translations.en!);
   });
 
@@ -912,7 +931,7 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     }
   });
 
-  it("gives the Arabic writer no Arabic hadith text, and nobody later the raw question", async () => {
+  it("gives the Arabic writer original hadith text, and nobody later the raw question", async () => {
     const arabicFrame = { ...understanding, language: "ar", search_queries_ar: ["الصيام شهر"] };
     const arabicDraft = {
       status: "answer",
@@ -925,7 +944,7 @@ describe("hadith from Sahih al-Bukhari and Sahih Muslim", () => {
     d.searchHadith = async () => [hadithFast, hadithOther];
     const r = await runPipeline("ما حكم الصيام؟ RAW-QUESTION-MARKER", "ar", d);
     expect(r.status).toBe("answer");
-    expect(writer.seen[1].prompt).not.toContain(hadithFast.arabic);
+    expect(writer.seen[1].prompt).toContain(hadithFast.arabic);
     expect(writer.seen[1].prompt).toContain(hadithFast.translations.en!);
     for (const req of [...writer.seen.slice(1), ...verifier.seen]) expect(req.prompt).not.toContain("RAW-QUESTION-MARKER");
     if (r.status === "answer") expect((r.answer.evidence.find((e) => e.key === "HE9001") as { translation: string | null } | undefined)?.translation).toBeNull();
@@ -1390,6 +1409,7 @@ describe("stored library hadith in the pipeline", () => {
     const prompts = [...writer.seen, ...verifier.seen].map((s) => s.prompt);
     const full = JSON.stringify(quoted.arabic).slice(1, -1);
     expect(verifier.seen.some((s) => s.prompt.includes(full))).toBe(true);
+    expect(writer.seen.filter(isDraft).every((s) => s.prompt.includes(full))).toBe(true);
     expect(prompts.some((p) => p.includes("عنوان تجريبي للفصل"))).toBe(false);
     const item = r.answer.v2?.hadith[0];
     expect(item).toMatchObject({ arabic: quoted.arabic, chapter: quoted.chapter });
@@ -1445,7 +1465,7 @@ describe("runPipeline claim audit", () => {
       diagnostics.push(`${stage}:${code}`);
     };
     expect((await runPipeline("What does the Quran say about fasting?", "en", d)).status).toBe("no_summary");
-    expect(diagnostics).toEqual(["screening:claim_id_unknown", "screening_retry:claim_id_unknown"]);
+    expect(diagnostics.filter((code) => code.endsWith(":claim_id_unknown"))).toEqual(["screening:claim_id_unknown", "screening_retry:claim_id_unknown"]);
     expect(diagnostics.join(" ")).not.toContain("Private checker text");
   });
 

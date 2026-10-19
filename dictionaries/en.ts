@@ -111,6 +111,7 @@ const en = {
     noSummary:
       "We found sources on this, but could not write a short answer that we can check. Please ask a qualified scholar you trust or try a narrower question.",
     noSummaryBrowse: "Browse hard questions",
+    clarify: "Please add a little detail so we can understand what you mean.",
     outOfScope: "I can only answer questions about Islam, from trusted sources. What would you like to know?",
     busy: "The AI service is very busy right now. Please try again in a minute.",
     rateLimited: "You've asked a lot in a short time. Please wait a few minutes and try again.",

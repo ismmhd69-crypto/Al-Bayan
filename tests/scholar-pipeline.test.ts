@@ -45,4 +45,10 @@ describe("scholar source merging", () => {
     expect(mocks.searchScholarsLive).toHaveBeenCalledOnce();
     expect(result.map((item) => item.url)).toEqual([mapped.url, stored.url, live.url]);
   });
+  it("keeps live retrieval out of the primary stored-library path", async () => {
+    mocks.getMappedScholarQuote.mockResolvedValue(null);
+    mocks.searchScholarQuotes.mockResolvedValue([]);
+    expect(await scholarQuotes(["عبارة بحث محددة"], [], { allVariants: true })).toEqual([]);
+    expect(mocks.searchScholarsLive).not.toHaveBeenCalled();
+  });
 });

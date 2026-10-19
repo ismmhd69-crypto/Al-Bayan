@@ -16,6 +16,7 @@ try {
 import { readFileSync, writeFileSync, renameSync } from "node:fs";
 import { GoogleBusyError } from "../lib/ai/gemini";
 import { AskSpendStop, installSpendGuard } from "./ask-spend-guard";
+import { sharedAskLedgerPath } from "./ask-test-profile";
 
 type Expect = "answer" | "refuse";
 const QUESTIONS: { id: string; lang: "en" | "de" | "ar"; question: string; expect: Expect }[] = [
@@ -102,7 +103,7 @@ async function main() {
     process.env.ASK_TIERED = claimAudit !== undefined ? "false" : phase === "repaired" ? "true" : "false";
     process.env.ASK_CLAIM_AUDIT = claimAudit === "on" ? "true" : "false";
     process.env.PREPARED_PUBLISHING_ENABLED = "true";
-    budget = installSpendGuard("docs/ask-repair-runs/spend.json", (body, response) => activeRow?.calls?.push({ body, response }));
+    budget = installSpendGuard(sharedAskLedgerPath(), (body, response) => activeRow?.calls?.push({ body, response }));
   }
   try {
   const { ask } = await import("@/lib/ask/pipeline");

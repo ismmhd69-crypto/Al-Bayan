@@ -45,6 +45,11 @@ export type AnswerRequirement = {
   id: string; // Assigned by code as R1...R4. The understanding model never chooses ids.
   text: string;
   facet: AnswerFacet;
+  essentialConditions?: string[]; // Question constraints, never answer facts.
+  interpretationId?: "I1" | "I2";
+  searchQueries?: Partial<Record<Locale, string[]>>;
+  quranArabic?: string[];
+  hadithArabic?: string[];
 };
 
 export type QuestionFrame = {
@@ -59,7 +64,13 @@ export type QuestionFrame = {
   // Tiered mode only: Arabic phrases in Quran wording and in the Prophet's wording. searchQueries.ar
   // stays the fatwa wording. Absent in the old mode.
   tierQueries?: { quran: string[]; hadith: string[] };
+  interpretations?: { id: "I1" | "I2"; label: string }[];
+  clarificationNeeded?: boolean;
 };
+
+export function requirementMeaning(requirements: AnswerRequirement[]): AnswerRequirement[] {
+  return requirements.map(({ searchQueries: _queries, quranArabic: _quran, hadithArabic: _hadith, ...meaning }) => meaning);
+}
 
 const LOCALES = ["ar", "en", "de"] as const;
 const KINDS = ["question", "personal", "greeting", "off_topic", "harmful"] as const;
@@ -100,7 +111,27 @@ function requirements(value: unknown): AnswerRequirement[] | null {
     if (!SAFE_REQUIREMENT.test(text) || INSTRUCTION_WORDS.test(text) || text.split(" ").length > 16) return null;
     if (!(ANSWER_FACETS as readonly string[]).includes(point.facet) || seen.has(key)) return null;
     seen.add(key);
-    parsed.push({ text, facet: point.facet as AnswerFacet });
+    const extras: Partial<AnswerRequirement> = {};
+    if (point.essential_conditions !== undefined) {
+      if (!Array.isArray(point.essential_conditions) || point.essential_conditions.length > 3) return null;
+      const conditions = phrases(point.essential_conditions, 3, 5);
+      if (conditions.length !== point.essential_conditions.length) return null;
+      extras.essentialConditions = conditions;
+    }
+    if (point.interpretation_id !== undefined && point.interpretation_id !== "") {
+      if (point.interpretation_id !== "I1" && point.interpretation_id !== "I2") return null;
+      extras.interpretationId = point.interpretation_id;
+    }
+    if (point.search_queries !== undefined) {
+      if (!point.search_queries || typeof point.search_queries !== "object") return null;
+      const queries = point.search_queries as Record<string, unknown>;
+      extras.searchQueries = Object.fromEntries(LOCALES.map((lang) => [lang, phrases(queries[lang], 2, 6)
+        .filter((query) => lang !== "ar" || /\p{Script=Arabic}/u.test(query))]));
+      if (!Object.values(extras.searchQueries).some((list) => list!.length > 0)) return null;
+      extras.quranArabic = phrases(point.quran_ar, 2, 8).filter((q) => /\p{Script=Arabic}/u.test(q));
+      extras.hadithArabic = phrases(point.hadith_ar, 2, 8).filter((q) => /\p{Script=Arabic}/u.test(q));
+    }
+    parsed.push({ text, facet: point.facet as AnswerFacet, ...extras });
   }
   return parsed.map((point, index) => ({ id: `R${index + 1}`, ...point }));
 }
@@ -133,6 +164,16 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
   if (kind === "question" && Object.values(searchQueries).every((list) => list.length === 0)) return null;
   const arabicOnly = (value: unknown) => phrases(value, 3, 8).filter((query) => /\p{Script=Arabic}/u.test(query));
   const tiered = "search_queries_quran_ar" in record || "search_queries_hadith_ar" in record;
+  let interpretations: QuestionFrame["interpretations"];
+  if (record.interpretations !== undefined) {
+    if (!Array.isArray(record.interpretations) || record.interpretations.length > 2) return null;
+    const labels = phrases(record.interpretations, 2, 5);
+    if (labels.length !== record.interpretations.length || labels.length === 1) return null;
+    interpretations = labels.map((label, index) => ({ id: index === 0 ? "I1" : "I2", label }));
+    if (interpretations.length && !interpretations.every((item) => answerRequirements.some((r) => r.interpretationId === item.id))) return null;
+  }
+  if (answerRequirements.some((r) => r.interpretationId && !interpretations?.some((i) => i.id === r.interpretationId))) return null;
+  if (record.clarification_needed !== undefined && typeof record.clarification_needed !== "boolean") return null;
 
   return {
     language: record.language as Locale,
@@ -143,6 +184,7 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
     requiredFacets,
     qualifiers,
     searchQueries,
+    ...(interpretations ? { interpretations, clarificationNeeded: record.clarification_needed === true } : {}),
     ...(tiered ? { tierQueries: { quran: arabicOnly(record.search_queries_quran_ar), hadith: arabicOnly(record.search_queries_hadith_ar) } } : {}),
   };
 }
@@ -199,7 +241,7 @@ export function repairExplicitFrame(question: string, frame: QuestionFrame): Que
   const enteringIslam = /become (?:a )?muslim|convert to islam|muslim werden|zum islam konvertier|أصبح مسلما|أسلم/i.test(question)
     && !/forced?|gezwungen|إكراه|إجبار/i.test(question);
   if (!problem && !enteringIslam) return frame;
-  let points = frame.requirements.map(({ text, facet }) => ({ text, facet }));
+  let points: Omit<AnswerRequirement, "id">[] = frame.requirements.map(({ id: _id, ...point }) => point);
   const subject = frame.subjects[0] ?? "the question";
   const add = (facet: AnswerFacet, text: string) => {
     if (!points.some((point) => point.facet === facet) && points.length < 4) points.push({ facet, text });
@@ -274,6 +316,7 @@ export type PassageForSelection = {
   id: string; // "Q2:255" for verses, "HE4196" for hadith, "S<uuid>" for scholar quotes
   source: Source;
   context: Verse[]; // neighbouring verses; empty for hadith and scholar quotes, which stand on their own
+  retrievedFor?: string[]; // Search provenance only. Never establishes supported requirements.
 };
 
 function searchWords(text: string): string[] {
@@ -298,23 +341,35 @@ export function rankCandidatesForQuestion(
         ? [source.hadith.translations.en, source.hadith.translations.de, source.hadith.arabic]
         : [source.quote.title, source.quote.arabic];
     const words = new Set(searchWords(main.filter(Boolean).join(" ")));
-    const pointScores = requested.map((point) => point.filter((word) => words.has(word)).length);
+    const pointScores = requested.map((point, i) => point.filter((word) => words.has(word)).length
+      + (candidate.retrievedFor?.includes(frame.requirements[i].id) ? 4 : 0));
     const coverage = pointScores.filter((score) => score > 0).length;
     const score = (mappedIds.has(candidate.id) ? 100 : 0)
       + coverage * 8 + pointScores.reduce((sum, item) => sum + item, 0) * 2
       + arabic.filter((word) => words.has(word)).length * 2;
-    return { candidate, index, score };
+    return { candidate, index, score, pointScores };
   });
   const kinds = ["quran", "hadith", "scholar"] as const;
-  return kinds.flatMap((kind) => scored.filter((item) => item.candidate.source.kind === kind)
-    .sort((a, b) => b.score - a.score || a.index - b.index)
-    .slice(0, limits[kind]).map((item) => item.candidate));
+  return kinds.flatMap((kind) => {
+    const group = scored.filter((item) => item.candidate.source.kind === kind)
+      .sort((a, b) => b.score - a.score || a.index - b.index);
+    // Legacy ranking is unchanged when no per-point search provenance is present.
+    if (!group.some((item) => item.candidate.retrievedFor?.length)) return group.slice(0, limits[kind]).map((item) => item.candidate);
+    const chosen = new Set<string>();
+    for (let i = 0; i < requested.length && chosen.size < limits[kind]; i++) {
+      const best = [...group].filter((item) => !chosen.has(item.candidate.id) && item.pointScores[i] > 0)
+        .sort((a, b) => b.pointScores[i] - a.pointScores[i] || b.score - a.score || a.index - b.index)[0];
+      if (best) chosen.add(best.candidate.id);
+    }
+    for (const item of group) if (chosen.size < limits[kind]) chosen.add(item.candidate.id);
+    return group.filter((item) => chosen.has(item.candidate.id)).map((item) => item.candidate);
+  });
 }
 
 export type SelectedPassage = PassageForSelection & { requirementIds: string[]; facets: AnswerFacet[] };
 
 export type EvidencePackage = {
-  question: Pick<QuestionFrame, "language" | "questionType" | "subjects" | "requirements" | "requiredFacets" | "qualifiers">;
+  question: Pick<QuestionFrame, "language" | "questionType" | "subjects" | "requirements" | "requiredFacets" | "qualifiers" | "interpretations">;
   passages: SelectedPassage[]; // capped, in writer order
   cards: QuranCard[]; // how the package's verses form Quran passage cards
   scholarDifference?: { positions: Record<string, string[]> };
@@ -422,9 +477,10 @@ export function parseEvidencePackage(
       language: frame.language,
       questionType: frame.questionType,
       subjects: frame.subjects,
-      requirements: frame.requirements,
+      requirements: requirementMeaning(frame.requirements),
       requiredFacets: frame.requiredFacets,
       qualifiers: frame.qualifiers,
+      ...(frame.interpretations?.length ? { interpretations: frame.interpretations } : {}),
     },
     passages: selected,
     cards: chosen.cards,

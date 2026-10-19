@@ -40,7 +40,8 @@ export async function controlledPromises(run = runPipeline, claimAudit?: boolean
     neighbours: async () => [],
   };
   const diagnostics: string[] = [];
-  deps.onDiagnostic = (stage, code) => diagnostics.push(`${stage}:${code}`);
+  // Keep the historical failure-code comparison separate from new structural trace events.
+  deps.onDiagnostic = (stage, code, _ms, details) => { if (details === undefined) diagnostics.push(`${stage}:${code}`); };
   const result = await run("What does the Quran say about keeping promises?", "en", deps);
   return { requests, status: result.status, diagnostics };
 }

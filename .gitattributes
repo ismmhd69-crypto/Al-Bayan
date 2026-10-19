@@ -1,0 +1,2 @@
+# Preserve the frozen evaluation hash on Windows and Linux checkouts.
+tests/fixtures/ask-library-evaluation.json text eol=lf

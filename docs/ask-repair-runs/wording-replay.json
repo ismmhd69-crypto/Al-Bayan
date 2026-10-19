@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-04T15:16:07.809Z",
+  "runs": [
+    {
+      "recordedRun": "docs/ask-repair-runs/baseline-1.json",
+      "appearances": 4,
+      "questionIds": [
+        "intention-hadith-en",
+        "riba-ar",
+        "actions-intentions-en"
+      ],
+      "missingBefore": 4,
+      "missingAfter": 0,
+      "unavailableForReplay": 0,
+      "scope": "Exact recorded selected sources serialized offline; no model calls, semantic judgments or new answer-rate claims"
+    },
+    {
+      "recordedRun": "docs/ask-repair-runs/pilot-1.json",
+      "appearances": 28,
+      "questionIds": [
+        "zakah-en",
+        "riba-en",
+        "divorce-en",
+        "suffering-en",
+        "quran-preserved-en",
+        "qibla-de",
+        "hajj-de",
+        "riba-ar",
+        "home-suffering-en",
+        "actions-intentions-en"
+      ],
+      "missingBefore": 28,
+      "missingAfter": 0,
+      "unavailableForReplay": 0,
+      "scope": "Exact recorded selected sources serialized offline; no model calls, semantic judgments or new answer-rate claims"
+    }
+  ]
+}

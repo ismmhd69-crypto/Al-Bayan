@@ -1,0 +1,759 @@
+{
+  "version": 1,
+  "frozen_before_paid_testing": true,
+  "original_denominator": 26,
+  "original_answerable_denominator": 23,
+  "adjusted_answerable_denominator": 22,
+  "expected_music_refusal_declared": true,
+  "evaluation_rules": {
+    "complete": "Every expected point covered and every claim manually supported by eligible original evidence; automatic answer status alone is not acceptance",
+    "clarification": "Separate from a complete answer and not included in the 85 percent numerator",
+    "partial": "Missing point is a failure, even if another point is well supported",
+    "safe_refusal": "Personal, out of scope and unresolved music disagreement",
+    "speed": "Matched baseline and repaired rounds; median and p95 each at most 10 percent slower",
+    "rounds": "Two baseline and two repaired rounds at least 30 minutes apart; live and saved reuse separate"
+  },
+  "cases": [
+    {
+      "id": "prayer-en",
+      "lang": "en",
+      "question": "Why do Muslims pray five times a day?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Give an explicitly sourced explanation for exactly five daily prayers; do not invent a wisdom"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "zakah-en",
+      "lang": "en",
+      "question": "Is zakah obligatory and who has to pay it?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Whether zakah is obligatory",
+        "Who must pay it and relevant stated conditions"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "fasting-en",
+      "lang": "en",
+      "question": "Why do Muslims fast in Ramadan?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explicitly stated purpose or wisdom of Ramadan fasting; no inferred causal link to revelation"
+      ],
+      "suitable_evidence": [
+        "Q2:183"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "riba-en",
+      "lang": "en",
+      "question": "Is interest allowed in Islam?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Approved scholar ruling on interest with relevant scope and qualifications"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "divorce-en",
+      "lang": "en",
+      "question": "How many times can a husband divorce his wife and take her back?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Number of revocable divorces and stated limits on taking a wife back"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "hijab-en",
+      "lang": "en",
+      "question": "Is the hijab obligatory for Muslim women?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Attributed approved scholar ruling on hijab for Muslim women; no invented consensus"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "music-en",
+      "lang": "en",
+      "question": "What do scholars say about listening to music?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "safe_refusal",
+      "expected_points": [
+        "Expected safe refusal for the unresolved reviewed scholarly disagreement"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "suffering-en",
+      "lang": "en",
+      "question": "Why does God allow suffering?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explicit sourced response about why suffering occurs; do not combine two premises into an invented cause"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "quran-preserved-en",
+      "lang": "en",
+      "question": "Has the Quran been preserved without change?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explicit evidence of preservation, within what the source establishes"
+      ],
+      "suitable_evidence": [
+        "Q15:9"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "intention-hadith-en",
+      "lang": "en",
+      "question": "What did the Prophet say about intentions?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Authentic hadith teaching on intentions; original wording reaches the writer"
+      ],
+      "suitable_evidence": [
+        "https://sunnah.com/bukhari:1"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "personal-en",
+      "lang": "en",
+      "question": "My husband said 'you are divorced' three times yesterday while angry, are we still married?",
+      "expect": "refuse",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "refuse",
+      "expected": "safe_refusal",
+      "expected_points": [
+        "Personal divorce situation must be referred to a qualified scholar"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "offtopic-en",
+      "lang": "en",
+      "question": "What is the best recipe for chocolate cake?",
+      "expect": "refuse",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "refuse",
+      "expected": "safe_refusal",
+      "expected_points": [
+        "Decline non-Islamic recipe question"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "fasting-de",
+      "lang": "de",
+      "question": "Warum fasten Muslime im Ramadan?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explicit purpose or wisdom of Ramadan fasting in German"
+      ],
+      "suitable_evidence": [
+        "Q2:183"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "qibla-de",
+      "lang": "de",
+      "question": "Warum beten Muslime Richtung Mekka?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explicit reason for the direction of prayer, without inferred causes"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "hajj-de",
+      "lang": "de",
+      "question": "Ist die Pilgerfahrt (Hadsch) Pflicht?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Approved scholar ruling on Hajj obligation and its stated conditions"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "offtopic-de",
+      "lang": "de",
+      "question": "Wer hat die Fußball-Weltmeisterschaft 2014 gewonnen?",
+      "expect": "refuse",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "refuse",
+      "expected": "safe_refusal",
+      "expected_points": [
+        "Decline non-Islamic sports question"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "jamaah-ar",
+      "lang": "ar",
+      "question": "ما حكم صلاة الجماعة؟",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Attributed approved scholar ruling on congregational prayer in Arabic"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "riba-ar",
+      "lang": "ar",
+      "question": "ما حكم الربا؟",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Approved scholar ruling on riba in Arabic"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "compulsion-ar",
+      "lang": "ar",
+      "question": "هل يجوز إكراه أحد على الإسلام؟",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Source-backed treatment of religious compulsion, retaining audience and scope"
+      ],
+      "suitable_evidence": [
+        "Q2:256"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "tawhid-ar",
+      "lang": "ar",
+      "question": "ما معنى التوحيد؟",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Definition of tawhid from directly relevant sources"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "home-quran-en",
+      "lang": "en",
+      "question": "How do we know the Quran was not changed?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explain the Quran's preservation with explicit evidence; distinguish a source's claim from historical proof"
+      ],
+      "suitable_evidence": [
+        "Q15:9"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "home-purpose-en",
+      "lang": "en",
+      "question": "What is the purpose of life in Islam?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Purpose of creation and life explicitly stated by the source"
+      ],
+      "suitable_evidence": [
+        "Q51:56"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "home-suffering-en",
+      "lang": "en",
+      "question": "If God is good, why is there suffering?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explicit source response to the apparent conflict between goodness and suffering"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "home-sword-en",
+      "lang": "en",
+      "question": "Was Islam spread by the sword?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Historically supported response to spread by force; do not infer history from a general religious command"
+      ],
+      "suitable_evidence": [
+        "Eligible original passage explicitly covering all expected points; an attributed approved scholar is required for rulings"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "actions-intentions-en",
+      "lang": "en",
+      "question": "Are actions judged by intentions in Islam",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Authentic teaching on actions and intentions, preserving conditions and scope"
+      ],
+      "suitable_evidence": [
+        "https://sunnah.com/bukhari:1"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "patience-en",
+      "lang": "en",
+      "question": "What does the Quran say about patience?",
+      "expect": "answer",
+      "cohort": "original26",
+      "previous_user_messages": [],
+      "historical_expectation": "answer",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Direct Quran teachings about patience, with source audiences and conditions retained"
+      ],
+      "suitable_evidence": [
+        "Q2:153",
+        "Q3:200"
+      ],
+      "evidence_note": "Anchors are limited to their explicit statements. They do not prove that every requested point is available. Source eligibility, context and full coverage require separate review."
+    },
+    {
+      "id": "promises-en",
+      "lang": "en",
+      "question": "What does the Quran say about keeping promises?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explain keeping pledges and oaths from cited Quran originals",
+        "Preserve specifically addressed audiences, including Children of Israel if 2:40 is used"
+      ],
+      "suitable_evidence": [
+        "Q16:91",
+        "Q6:152"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "promises-reworded-en",
+      "lang": "en",
+      "question": "What guidance does the Quran give about honouring commitments?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explain keeping pledges and oaths from cited Quran originals",
+        "Preserve specifically addressed audiences, including Children of Israel if 2:40 is used"
+      ],
+      "suitable_evidence": [
+        "Q16:91",
+        "Q6:152"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "charity-ambiguous-en",
+      "lang": "en",
+      "question": "Should we give to charity and how much?",
+      "cohort": "expanded",
+      "expected": "complete_answer_or_clarification",
+      "expected_points": [
+        "Distinguish voluntary charity and obligatory zakat",
+        "Answer both giving and amount for each meaning if directly supported, otherwise ask one clarification"
+      ],
+      "suitable_evidence": [
+        "Eligible approved-scholar originals explicitly covering voluntary charity amounts and zakat conditions/rates; verses alone cannot establish an invented universal rate"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "zakat-followup-en",
+      "lang": "en",
+      "question": "I mean obligatory zakat on money: what conditions apply and what rate is due?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Conditions for zakat on money",
+        "Rate payable, distinct from a threshold",
+        "Retain any source conditions and exceptions"
+      ],
+      "suitable_evidence": [
+        "Eligible original approved-scholar passage explicitly covering zakat on money, its conditions and rate"
+      ],
+      "previous_user_messages": [
+        "Should we give to charity and how much?"
+      ]
+    },
+    {
+      "id": "voluntary-followup-en",
+      "lang": "en",
+      "question": "I mean voluntary charity: is there a fixed amount I must give?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Whether voluntary charity requires a fixed amount, as explicitly stated by an approved scholar"
+      ],
+      "suitable_evidence": [
+        "Eligible original approved-scholar passage on voluntary charity; do not substitute a zakat rate"
+      ],
+      "previous_user_messages": [
+        "Should we give to charity and how much?"
+      ]
+    },
+    {
+      "id": "fairness-followup-en",
+      "lang": "en",
+      "question": "What if I cannot be fair with them?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Resolve the reference to fairness among wives",
+        "Preserve the condition of fearing unequal treatment"
+      ],
+      "suitable_evidence": [
+        "Q4:3",
+        "Eligible approved scholar original explaining the ruling"
+      ],
+      "previous_user_messages": [
+        "How many wives can a Muslim man have?"
+      ]
+    },
+    {
+      "id": "promises-de",
+      "lang": "de",
+      "question": "Was sagt der Koran über das Einhalten von Versprechen?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explain keeping pledges and oaths from cited Quran originals",
+        "Preserve specifically addressed audiences, including Children of Israel if 2:40 is used"
+      ],
+      "suitable_evidence": [
+        "Q16:91",
+        "Q6:152"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "promises-reworded-de",
+      "lang": "de",
+      "question": "Welche Anleitung gibt der Koran zum Erfüllen von Zusagen?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explain keeping pledges and oaths from cited Quran originals",
+        "Preserve specifically addressed audiences, including Children of Israel if 2:40 is used"
+      ],
+      "suitable_evidence": [
+        "Q16:91",
+        "Q6:152"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "charity-ambiguous-de",
+      "lang": "de",
+      "question": "Sollten wir spenden und wie viel?",
+      "cohort": "expanded",
+      "expected": "complete_answer_or_clarification",
+      "expected_points": [
+        "Distinguish voluntary charity and obligatory zakat",
+        "Answer both giving and amount for each meaning if directly supported, otherwise ask one clarification"
+      ],
+      "suitable_evidence": [
+        "Eligible approved-scholar originals explicitly covering voluntary charity amounts and zakat conditions/rates; verses alone cannot establish an invented universal rate"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "zakat-followup-de",
+      "lang": "de",
+      "question": "Ich meine die verpflichtende Zakat auf Geld: Welche Bedingungen gelten und welcher Satz ist fällig?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Conditions for zakat on money",
+        "Rate payable, distinct from a threshold",
+        "Retain any source conditions and exceptions"
+      ],
+      "suitable_evidence": [
+        "Eligible original approved-scholar passage explicitly covering zakat on money, its conditions and rate"
+      ],
+      "previous_user_messages": [
+        "Sollten wir spenden und wie viel?"
+      ]
+    },
+    {
+      "id": "voluntary-followup-de",
+      "lang": "de",
+      "question": "Ich meine freiwillige Spenden: Gibt es einen festen Betrag, den ich geben muss?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Whether voluntary charity requires a fixed amount, as explicitly stated by an approved scholar"
+      ],
+      "suitable_evidence": [
+        "Eligible original approved-scholar passage on voluntary charity; do not substitute a zakat rate"
+      ],
+      "previous_user_messages": [
+        "Sollten wir spenden und wie viel?"
+      ]
+    },
+    {
+      "id": "fairness-followup-de",
+      "lang": "de",
+      "question": "Was ist, wenn ich ihnen gegenüber nicht gerecht sein kann?",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Resolve the reference to fairness among wives",
+        "Preserve the condition of fearing unequal treatment"
+      ],
+      "suitable_evidence": [
+        "Q4:3",
+        "Eligible approved scholar original explaining the ruling"
+      ],
+      "previous_user_messages": [
+        "Wie viele Ehefrauen darf ein muslimischer Mann haben?"
+      ]
+    },
+    {
+      "id": "promises-ar",
+      "lang": "ar",
+      "question": "ماذا يقول القرآن عن الوفاء بالوعود؟",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explain keeping pledges and oaths from cited Quran originals",
+        "Preserve specifically addressed audiences, including Children of Israel if 2:40 is used"
+      ],
+      "suitable_evidence": [
+        "Q16:91",
+        "Q6:152"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "promises-reworded-ar",
+      "lang": "ar",
+      "question": "ما توجيه القرآن بشأن الوفاء بالعهود؟",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Explain keeping pledges and oaths from cited Quran originals",
+        "Preserve specifically addressed audiences, including Children of Israel if 2:40 is used"
+      ],
+      "suitable_evidence": [
+        "Q16:91",
+        "Q6:152"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "charity-ambiguous-ar",
+      "lang": "ar",
+      "question": "هل ينبغي أن نتصدق وكم نعطي؟",
+      "cohort": "expanded",
+      "expected": "complete_answer_or_clarification",
+      "expected_points": [
+        "Distinguish voluntary charity and obligatory zakat",
+        "Answer both giving and amount for each meaning if directly supported, otherwise ask one clarification"
+      ],
+      "suitable_evidence": [
+        "Eligible approved-scholar originals explicitly covering voluntary charity amounts and zakat conditions/rates; verses alone cannot establish an invented universal rate"
+      ],
+      "previous_user_messages": []
+    },
+    {
+      "id": "zakat-followup-ar",
+      "lang": "ar",
+      "question": "أقصد زكاة المال الواجبة: ما شروطها وما النسبة المطلوبة؟",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Conditions for zakat on money",
+        "Rate payable, distinct from a threshold",
+        "Retain any source conditions and exceptions"
+      ],
+      "suitable_evidence": [
+        "Eligible original approved-scholar passage explicitly covering zakat on money, its conditions and rate"
+      ],
+      "previous_user_messages": [
+        "هل ينبغي أن نتصدق وكم نعطي؟"
+      ]
+    },
+    {
+      "id": "voluntary-followup-ar",
+      "lang": "ar",
+      "question": "أقصد صدقة التطوع: هل يجب أن أعطي مبلغًا ثابتًا؟",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Whether voluntary charity requires a fixed amount, as explicitly stated by an approved scholar"
+      ],
+      "suitable_evidence": [
+        "Eligible original approved-scholar passage on voluntary charity; do not substitute a zakat rate"
+      ],
+      "previous_user_messages": [
+        "هل ينبغي أن نتصدق وكم نعطي؟"
+      ]
+    },
+    {
+      "id": "fairness-followup-ar",
+      "lang": "ar",
+      "question": "ماذا لو لم أستطع العدل بينهن؟",
+      "cohort": "expanded",
+      "expected": "complete_answer",
+      "expected_points": [
+        "Resolve the reference to fairness among wives",
+        "Preserve the condition of fearing unequal treatment"
+      ],
+      "suitable_evidence": [
+        "Q4:3",
+        "Eligible approved scholar original explaining the ruling"
+      ],
+      "previous_user_messages": [
+        "كم زوجة يجوز للرجل المسلم أن يجمع؟"
+      ]
+    }
+  ]
+}
