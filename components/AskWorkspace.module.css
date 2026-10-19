@@ -85,6 +85,7 @@
 }
 .scroll {
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 0 8px 12px;
   min-block-size: 0;
 }
@@ -107,7 +108,7 @@
 }
 .row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 4px;
   border-radius: 10px;
   padding-inline-end: 4px;
@@ -129,25 +130,30 @@
   color: inherit;
 }
 .title {
-  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   font-size: var(--fs-sm);
   font-weight: 600;
   color: var(--ink);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .sub {
   display: block;
   font-size: 0.72rem;
   color: var(--ink-3);
+  margin-block-start: 3px;
 }
 .bin {
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  inline-size: 36px;
-  block-size: 36px;
+  inline-size: 32px;
+  block-size: 32px;
+  margin-block-start: 6px;
   border: 0;
   border-radius: 8px;
   background: none;

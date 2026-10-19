@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Günahlarını her gün temizlemenin bir yolu var mı?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Birinizin kapısının önünde bir nehir olsa, o kimse her gün bu nehirde beş defa yıkansa, kirinden bir şey kalır mı? Sahabeler: O kimsenin kirinden hiçbir şey kalmaz, dediler. Bunun üzerine Rasûlullah şöyle buyurdu: Beş vakit namaz işte bunun gibidir. Allah beş vakit namazla günahları silip yok eder. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Her Müslüman erkek ve kadına düşen, beş vakit namazı vaktinde korumaktır."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Büyük günahlardan kaçınıldığında, Allah küçük günahları affeder."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

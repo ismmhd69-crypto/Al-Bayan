@@ -10,6 +10,10 @@ import { loadPrepared } from "@/lib/prepared";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import VideoCard from "@/components/VideoCard";
 import { attachScholarTranslations } from "@/lib/ask/display-translations";
+import { findHardQuestionArticle, showHardQuestionDrafts } from "@/lib/learning/hard-questions";
+import HardQuestionArticle from "@/components/learning/HardQuestionArticle";
+import "../../start/learning.css";
+import "../articles.css";
 
 type Params = Promise<{ lang: string; id: string }>;
 
@@ -19,6 +23,8 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { lang, id } = await params;
+  const article = showHardQuestionDrafts() && findHardQuestionArticle(id);
+  if (isLocale(lang) && article) return { title: article.title[lang], robots: { index: false, follow: false } };
   const topic = isLocale(lang) ? await getTopic(id, lang) : null;
   return topic ? { title: topic.title } : {};
 }
@@ -26,6 +32,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 export default async function TopicPage({ params }: { params: Params }) {
   const { lang, id } = await params;
   if (!isLocale(lang)) notFound();
+  const article = showHardQuestionDrafts() && findHardQuestionArticle(id);
+  if (article) return <HardQuestionArticle article={article} lang={lang} />;
   const topic = await getTopic(id, lang);
   if (!topic) notFound();
   const dict = getDictionary(lang);

@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Öldükten sonra da sevap kazanabilir misin?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Bir insan öldüğü zaman, üç ameli dışında bütün amellerinin sevabı kesilir: Sadaka-i câriye, kendisinden faydalanılan ilim ve kendisine dua eden salih evlat. Müslim rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Sadaka-i câriye, kişinin vakfettiği şeydir; içinde namaz kılınan bir mescid vakfetmek gibi. İnsanlar ondan faydalandıkça, ölümünden sonra da sevabı ona akar."
+    },
+    "explain2": {
+      "tr": "Şeyh İbn Useymin, Allah ona rahmet etsin, şöyle dedi: Diriler ve ölüler için en faziletli şey duadır."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Saniyeler süren iki kelime, mizanını doldurabilir mi?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: İki kelime vardır ki dile kolay, mizanda ağır gelir ve Rahman'a sevimlidir. Bunlar: Sübhanallahil azim, Sübhanallahi ve bihamdihi. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Kişinin kendi kendine tesbih etmesinde bir sakınca yoktur. Aksine bunda büyük hayır ve bol sevap vardır."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Allah'ı çokça zikretmek ve istiğfar etmek, kalplerin huzurunun ve rahatlığının en büyük sebeplerindendir."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

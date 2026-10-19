@@ -182,11 +182,11 @@ export const Stamp: React.FC<{ text: string; sub?: string; font: string }> = ({ 
   </div>
 );
 
-/** Open book that fills with a golden glow; `fill` 0..1. */
-export const DeedsBook: React.FC<{ width: number; fill: number; label: string; font: string }> = ({ width, fill, label, font }) => (
+/** Open book that fills with writing; `fill` 0..1. */
+export const DeedsBook: React.FC<{ width: number; fill: number; label: string; font: string; circle?: boolean }> = ({ width, fill, label, font, circle = false }) => (
   <div style={{ position: "relative", width, display: "flex", flexDirection: "column", alignItems: "center" }}>
     <svg width={width} height={width * 0.62} viewBox="-160 -100 320 200" style={{ overflow: "visible" }}>
-      <circle r={150 * (0.6 + fill * 0.5)} fill={GOLD} opacity={0.15 + fill * 0.2} />
+      {circle ? <circle r={150 * (0.6 + fill * 0.5)} fill={GOLD} opacity={0.15 + fill * 0.2} /> : null}
       <path d="M 0 -70 Q -80 -95 -150 -72 L -150 84 Q -80 62 0 86 Z" fill="#fbf3df" stroke={GOLD} strokeWidth={5} />
       <path d="M 0 -70 Q 80 -95 150 -72 L 150 84 Q 80 62 0 86 Z" fill="#f2e4c2" stroke={GOLD} strokeWidth={5} />
       <line x1={0} y1={-70} x2={0} y2={86} stroke="#a77b2b" strokeWidth={4} />
@@ -455,3 +455,144 @@ export const Check: React.FC<{ size: number; p: number }> = ({ size, p }) => (
     <path d="M -13 1 L -3 11 L 14 -9" stroke="#1b2d66" strokeWidth={7} fill="none" strokeLinecap="round" strokeLinejoin="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - p} />
   </svg>
 );
+
+// ---------------------------------------------------------------------------
+// Props added for video 03 (speak good)
+
+/** Elegant speech bubble with optional glow and tail. */
+export const SpeechBubbleGold: React.FC<{
+  width: number;
+  tail?: "left" | "right" | "bottom" | "none";
+  glow?: number;
+  children?: React.ReactNode;
+}> = ({ width, tail = "bottom", glow = 0.5, children }) => (
+  <div style={{ position: "relative", width, display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        padding: "18px 24px",
+        borderRadius: 28,
+        background: "linear-gradient(180deg, #fffcf4 0%, #f7e8c3 100%)",
+        border: `3px solid ${GOLD}`,
+        boxShadow: `0 12px 32px rgba(0,0,0,0.35), 0 0 ${glow * 30}px rgba(212,168,82,${glow * 0.7})`,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        zIndex: 2,
+      }}
+    >
+      {children}
+    </div>
+    {tail === "bottom" ? (
+      <svg width={28} height={18} viewBox="0 0 28 18" style={{ marginTop: -2, zIndex: 1, filter: "drop-shadow(0 4px 6px rgba(0,0,0,0.2))" }}>
+        <path d="M 0 0 L 14 16 L 28 0 Z" fill="#f7e8c3" stroke={GOLD} strokeWidth={2} />
+      </svg>
+    ) : null}
+  </div>
+);
+
+/** Dark/grey heavy speech bubble representing harmful or careless speech. */
+export const SpeechBubbleDark: React.FC<{
+  width: number;
+  tail?: "bottom" | "none";
+  children?: React.ReactNode;
+}> = ({ width, tail = "bottom", children }) => (
+  <div style={{ position: "relative", width, display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        padding: "16px 22px",
+        borderRadius: 26,
+        background: "linear-gradient(180deg, #3d4a6b 0%, #232d47 100%)",
+        border: "3px solid #6b7a9e",
+        boxShadow: "0 10px 28px rgba(0,0,0,0.45)",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        zIndex: 2,
+      }}
+    >
+      {children}
+    </div>
+    {tail === "bottom" ? (
+      <svg width={24} height={16} viewBox="0 0 24 16" style={{ marginTop: -2, zIndex: 1 }}>
+        <path d="M 0 0 L 12 14 L 24 0 Z" fill="#232d47" stroke="#6b7a9e" strokeWidth={2} />
+      </svg>
+    ) : null}
+  </div>
+);
+
+/** Golden sieve/filter gate for selecting beneficial words. */
+export const FilterSieve: React.FC<{ width: number; active?: boolean; glow?: number }> = ({ width, active = true, glow = 0.6 }) => (
+  <svg width={width} height={width * 0.75} viewBox="-120 -90 240 180" style={{ overflow: "visible" }}>
+    {/* Glow */}
+    {active ? <circle r={80} fill={GOLD} opacity={0.18 * glow} /> : null}
+    {/* Outer funnel / arch frame */}
+    <path
+      d="M -90 -60 L 90 -60 L 50 20 L 50 60 L -50 60 L -50 20 Z"
+      fill="rgba(15,26,69,0.85)"
+      stroke={GOLD}
+      strokeWidth={5}
+      strokeLinejoin="round"
+    />
+    {/* Filter mesh lines */}
+    {[-30, 0, 30].map((x) => (
+      <line key={x} x1={x} y1={-55} x2={x * 0.6} y2={18} stroke={GOLD} strokeWidth={3} strokeDasharray="6 4" opacity={0.75} />
+    ))}
+    {[-35, -10, 15].map((y) => (
+      <line key={y} x1={-70 + (y + 35) * 0.5} y1={y} x2={70 - (y + 35) * 0.5} y2={y} stroke={GOLD} strokeWidth={2.5} opacity={0.7} />
+    ))}
+    {/* Bottom exit ring */}
+    <ellipse cx={0} cy={60} rx={50} ry={12} fill="none" stroke={GOLD} strokeWidth={4} />
+  </svg>
+);
+
+/** Analog clock with animated ticking hand for "wastes people's time". */
+export const TickingClock: React.FC<{ size: number; t: number }> = ({ size, t }) => {
+  const angle = (t * 180) % 360; // spins actively
+  return (
+    <svg width={size} height={size} viewBox="-60 -60 120 120" style={{ overflow: "visible" }}>
+      <circle r={52} fill="rgba(15,26,69,0.9)" stroke="#d3302a" strokeWidth={5} />
+      <circle r={46} fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth={2} />
+      {/* 12 tick marks */}
+      {Array.from({ length: 12 }, (_, i) => (
+        <line
+          key={i}
+          x1={0}
+          y1={-44}
+          x2={0}
+          y2={i % 3 === 0 ? -36 : -40}
+          stroke={i % 3 === 0 ? "#ffffff" : "rgba(255,255,255,0.5)"}
+          strokeWidth={i % 3 === 0 ? 3 : 2}
+          transform={`rotate(${i * 30})`}
+        />
+      ))}
+      {/* Minute hand */}
+      <line x1={0} y1={0} x2={0} y2={-26} stroke="#ffffff" strokeWidth={4} strokeLinecap="round" transform={`rotate(${(t * 30) % 360})`} />
+      {/* Second hand */}
+      <line x1={0} y1={10} x2={0} y2={-38} stroke="#d3302a" strokeWidth={3} strokeLinecap="round" transform={`rotate(${angle})`} />
+      <circle r={5} fill="#d3302a" />
+    </svg>
+  );
+};
+
+/** Red cross / warning badge for affliction / waste. */
+export const CrossBadge: React.FC<{ size: number; p: number }> = ({ size, p }) => (
+  <svg width={size} height={size} viewBox="-30 -30 60 60">
+    <circle r={27} fill="#d3302a" />
+    <path
+      d="M -11 -11 L 11 11 M 11 -11 L -11 11"
+      stroke="#ffffff"
+      strokeWidth={6}
+      strokeLinecap="round"
+      pathLength={1}
+      strokeDasharray={1}
+      strokeDashoffset={1 - p}
+    />
+  </svg>
+);
+

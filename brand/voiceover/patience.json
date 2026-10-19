@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Gerçek sabır ne zaman gösterilir?"
+    },
+    "hadith": {
+      "tr": "Enes b. Mâlik şöyle dedi: Rasûlullah sallallahu aleyhi ve sellem bir kabrin yanı başında ağlayan bir kadının yanından geçti. O kadına: Allah'tan kork ve sabırlı ol! dedi. Kadın: Beni rahat bırak! Çünkü benim başıma gelen musibet sana gelmedi, dedi. Kadına: Bu, Nebi sallallahu aleyhi ve sellem'dir, denilince, kadın Nebi'nin kapısına geldi ve kapının önünde bekçiler yoktu. Ey Allah'ın Rasûlü! Ben seni tanıyamadım, dedi. Rasûlullah: Gerçek sabır, ilk musibet anında gösterilen sabırdır! dedi. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Sevap ve ecir getiren sabır, musibetin ilk anında gösterilen sabırdır."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Kişi sabreder ve sevabını Allah'tan umar; feryat etmez ve kötü söz söylemez."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

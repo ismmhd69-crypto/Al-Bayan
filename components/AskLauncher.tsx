@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ArrowRight, Search } from "lucide-react";
 import { setPendingQuestion } from "@/lib/pending";
 
@@ -21,6 +21,18 @@ export default function AskLauncher({
 }) {
   const router = useRouter();
   const [value, setValue] = useState("");
+
+  // Quick focus with Ctrl+K or Cmd+K
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        document.getElementById("home-q")?.focus();
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
 
   function go(question: string) {
     const q = question.trim();
@@ -53,6 +65,7 @@ export default function AskLauncher({
           placeholder={placeholder}
           onChange={(e) => setValue(e.target.value)}
         />
+        <span className="search-kbd" aria-hidden="true">⌘K</span>
         <button type="submit" className="btn btn-primary">
           {button}
         </button>

@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Kendin için istediğini, kardeşin için de istiyor musun?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Sizden biriniz kendisi için istediği şeyi din kardeşi için de istemedikçe, kâmil manada iman etmiş olmaz. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Useymin, Allah ona rahmet etsin, şöyle açıkladı: Kul, kendisi için sevdiği dini ve dünyevi hayrı kardeşi için de sevmedikçe imanı kemale ermez."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Bu hadiste hasede karşı bir uyarı vardır. Haset, Allah'ın başkasına verdiği nimeti hoş görmemektir."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

@@ -25,7 +25,12 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   ]);
   // Topics with an approved answer first, then the rest in their usual order.
   const approved = (id: string) => Number(decisions[id]?.status === "approved");
-  const shown = [...topics].sort((a, b) => approved(b.id) - approved(a.id)).slice(0, 6);
+  // Deduplicate shown topics against popular questions
+  const popularSet = new Set(popular.map((q) => q.toLowerCase().trim()));
+  const shown = [...topics]
+    .filter((t) => !popularSet.has(t.question.toLowerCase().trim()) && !popularSet.has(t.title.toLowerCase().trim()))
+    .sort((a, b) => approved(b.id) - approved(a.id))
+    .slice(0, 6);
   const scholars = QUOTED.map((id) => names[id]?.[lang]).filter((name): name is string => !!name);
   const how = [
     { Icon: BookOpen, title: h.how1t, text: h.how1 },
@@ -46,6 +51,48 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       </div>
 
       <AskLauncher lang={lang} placeholder={h.placeholder} button={h.askButton} popularLabel={h.popular} popular={popular} />
+
+      <section className="home-gateways" aria-label="Core Gateways">
+        <Link href={`/${lang}/start`} className="home-gateway-card home-gateway-card--new">
+          <div className="home-gateway-header">
+            <div className="home-gateway-icon">
+              <Compass aria-hidden="true" />
+            </div>
+            <span className="home-gateway-badge">{lang === "ar" ? "مسار تعليمي" : lang === "de" ? "Geführter Kurs" : "Guided Course"}</span>
+          </div>
+          <div className="home-gateway-content">
+            <h2 className="home-gateway-title">{h.newTitle}</h2>
+            <p className="home-gateway-desc">{h.newText}</p>
+          </div>
+          <div className="home-gateway-action">
+            <span>{lang === "ar" ? "ابدأ المسار الميسر" : lang === "de" ? "Kurs beginnen" : "Start the guided journey"}</span>
+            <ArrowRight aria-hidden="true" className="flip-rtl" />
+          </div>
+        </Link>
+
+        <Link href={`/${lang}/topics`} className="home-gateway-card home-gateway-card--hard">
+          <div className="home-gateway-header">
+            <div className="home-gateway-icon">
+              <BookOpen aria-hidden="true" />
+            </div>
+            <span className="home-gateway-badge">{lang === "ar" ? "المكتبة العقدية" : lang === "de" ? "Themenbibliothek" : "Curated Library"}</span>
+          </div>
+          <div className="home-gateway-content">
+            <h2 className="home-gateway-title">{h.hardTitle}</h2>
+            <p className="home-gateway-desc">
+              {lang === "ar"
+                ? "إجابات موثقة عن الأسئلة الصعبة والشبهات وقضايا الإيمان والعقل."
+                : lang === "de"
+                ? "Verlässliche Antworten zu schwierigen Fragen, Zweifeln und Vernunft."
+                : "Thoughtful answers to modern dilemmas, doubts, science, and the problem of suffering."}
+            </p>
+          </div>
+          <div className="home-gateway-action">
+            <span>{h.seeAll}</span>
+            <ArrowRight aria-hidden="true" className="flip-rtl" />
+          </div>
+        </Link>
+      </section>
 
       <section className="home-section" aria-labelledby="how-h">
         <h2 id="how-h" className="eyebrow">
@@ -85,15 +132,6 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
           </ul>
         </section>
       )}
-
-      <Link href={`/${lang}/start`} className="home-new">
-        <Compass aria-hidden="true" className="home-new-icon" />
-        <span>
-          <strong>{h.newTitle}</strong>
-          <span>{h.newText}</span>
-        </span>
-        <ArrowRight aria-hidden="true" className="flip-rtl" />
-      </Link>
 
       {scholars.length > 0 && (
         <section className="home-section" aria-labelledby="scholars-h">

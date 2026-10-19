@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Dinde kendini çok mu zorluyorsun?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Din kolaylıktır. Dini aşmak isteyen kimse, ona yenik düşer. O halde orta yolu tutunuz, en iyiyi yapmaya çalışınız, o zaman size müjdeler olsun. Günün başlangıcından, sonundan ve bir miktar da geceden faydalanınız. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Mümin hak üzere sebat etmekle, aşırılıktan ve gevşeklikten sakınmakla emrolunmuştur."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Aşırı gidip kendini zorlamaz, gevşeyip ihmal de etmez. İkisinin arasındadır: ne aşırılık, ne gevşeklik."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

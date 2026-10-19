@@ -1,0 +1,607 @@
+{
+ "hook": [
+  {
+   "word": "Gerçek",
+   "start": 0.2,
+   "end": 0.56
+  },
+  {
+   "word": "sabır",
+   "start": 0.72,
+   "end": 0.87
+  },
+  {
+   "word": "ne",
+   "start": 1.5,
+   "end": 1.16
+  },
+  {
+   "word": "zaman",
+   "start": 1.8,
+   "end": 1.61
+  },
+  {
+   "word": "gösterilir?",
+   "start": 2.1,
+   "end": 2.52
+  }
+ ],
+ "hadith": [
+  {
+   "word": "Enes",
+   "start": 0.14,
+   "end": 0.4
+  },
+  {
+   "word": "b.",
+   "start": 0.55,
+   "end": 0.7
+  },
+  {
+   "word": "Mâlik",
+   "start": 1,
+   "end": 1.09
+  },
+  {
+   "word": "şöyle",
+   "start": 1.64,
+   "end": 1.89
+  },
+  {
+   "word": "dedi:",
+   "start": 2,
+   "end": 2.42
+  },
+  {
+   "word": "Rasûlullah",
+   "start": 2.76,
+   "end": 3.2
+  },
+  {
+   "word": "sallallahu",
+   "start": 3.52,
+   "end": 3.93
+  },
+  {
+   "word": "aleyhi",
+   "start": 4.16,
+   "end": 4.36
+  },
+  {
+   "word": "ve",
+   "start": 4.48,
+   "end": 4.5
+  },
+  {
+   "word": "sellem",
+   "start": 4.72,
+   "end": 4.95
+  },
+  {
+   "word": "bir",
+   "start": 5.42,
+   "end": 5.47
+  },
+  {
+   "word": "kabrin",
+   "start": 5.72,
+   "end": 5.96
+  },
+  {
+   "word": "yanı",
+   "start": 6.04,
+   "end": 6.13
+  },
+  {
+   "word": "başında",
+   "start": 6.28,
+   "end": 6.52
+  },
+  {
+   "word": "ağlayan",
+   "start": 6.8,
+   "end": 7.11
+  },
+  {
+   "word": "bir",
+   "start": 7.26,
+   "end": 7.28
+  },
+  {
+   "word": "kadının",
+   "start": 7.52,
+   "end": 7.68
+  },
+  {
+   "word": "yanından",
+   "start": 7.84,
+   "end": 8.13
+  },
+  {
+   "word": "geçti.",
+   "start": 8.34,
+   "end": 8.97
+  },
+  {
+   "word": "O",
+   "start": 9.4,
+   "end": 9.12
+  },
+  {
+   "word": "kadına:",
+   "start": 9.58,
+   "end": 9.83
+  },
+  {
+   "word": "Allah'tan",
+   "start": 10.78,
+   "end": 11
+  },
+  {
+   "word": "kork",
+   "start": 11.34,
+   "end": 11.44
+  },
+  {
+   "word": "ve",
+   "start": 11.74,
+   "end": 11.78
+  },
+  {
+   "word": "sabırlı",
+   "start": 11.98,
+   "end": 12.37
+  },
+  {
+   "word": "ol!",
+   "start": 12.34,
+   "end": 12.55
+  },
+  {
+   "word": "dedi.",
+   "start": 12.56,
+   "end": 13.24
+  },
+  {
+   "word": "Kadın:",
+   "start": 13.46,
+   "end": 13.63
+  },
+  {
+   "word": "Beni",
+   "start": 14.34,
+   "end": 14.06
+  },
+  {
+   "word": "rahat",
+   "start": 14.62,
+   "end": 14.47
+  },
+  {
+   "word": "bırak!",
+   "start": 14.94,
+   "end": 15.07
+  },
+  {
+   "word": "Çünkü",
+   "start": 15.66,
+   "end": 15.76
+  },
+  {
+   "word": "benim",
+   "start": 15.94,
+   "end": 16.09
+  },
+  {
+   "word": "başıma",
+   "start": 16.2,
+   "end": 16.61
+  },
+  {
+   "word": "gelen",
+   "start": 16.6,
+   "end": 16.96
+  },
+  {
+   "word": "musibet",
+   "start": 16.9,
+   "end": 17.14
+  },
+  {
+   "word": "sana",
+   "start": 17.46,
+   "end": 17.46
+  },
+  {
+   "word": "gelmedi,",
+   "start": 17.76,
+   "end": 18.04
+  },
+  {
+   "word": "dedi.",
+   "start": 18.3,
+   "end": 19
+  },
+  {
+   "word": "Kadına:",
+   "start": 19.3,
+   "end": 20.09
+  },
+  {
+   "word": "Bu,",
+   "start": 20.06,
+   "end": 20.19
+  },
+  {
+   "word": "Nebi",
+   "start": 20.32,
+   "end": 20.42
+  },
+  {
+   "word": "sallallahu",
+   "start": 20.68,
+   "end": 20.89
+  },
+  {
+   "word": "aleyhi",
+   "start": 21.34,
+   "end": 21.09
+  },
+  {
+   "word": "ve",
+   "start": 21.58,
+   "end": 21.27
+  },
+  {
+   "word": "sellem'dir,",
+   "start": 21.84,
+   "end": 22
+  },
+  {
+   "word": "denilince,",
+   "start": 22.52,
+   "end": 22.85
+  },
+  {
+   "word": "kadın",
+   "start": 23.66,
+   "end": 23.33
+  },
+  {
+   "word": "Nebi'nin",
+   "start": 24.04,
+   "end": 23.87
+  },
+  {
+   "word": "kapısına",
+   "start": 24.52,
+   "end": 24.65
+  },
+  {
+   "word": "geldi",
+   "start": 25.08,
+   "end": 25.05
+  },
+  {
+   "word": "ve",
+   "start": 25.68,
+   "end": 25.21
+  },
+  {
+   "word": "kapının",
+   "start": 25.9,
+   "end": 25.92
+  },
+  {
+   "word": "önünde",
+   "start": 26.2,
+   "end": 26.55
+  },
+  {
+   "word": "bekçiler",
+   "start": 26.56,
+   "end": 27.25
+  },
+  {
+   "word": "yoktu.",
+   "start": 27.08,
+   "end": 27.97
+  },
+  {
+   "word": "Ey",
+   "start": 28.1,
+   "end": 28.15
+  },
+  {
+   "word": "Allah'ın",
+   "start": 28.46,
+   "end": 28.65
+  },
+  {
+   "word": "Rasûlü!",
+   "start": 28.9,
+   "end": 29.09
+  },
+  {
+   "word": "Ben",
+   "start": 29.7,
+   "end": 29.23
+  },
+  {
+   "word": "seni",
+   "start": 29.92,
+   "end": 29.55
+  },
+  {
+   "word": "tanıyamadım,",
+   "start": 30.18,
+   "end": 30.51
+  },
+  {
+   "word": "dedi.",
+   "start": 30.94,
+   "end": 31
+  },
+  {
+   "word": "Rasûlullah:",
+   "start": 31.74,
+   "end": 31.97
+  },
+  {
+   "word": "Gerçek",
+   "start": 33,
+   "end": 32.51
+  },
+  {
+   "word": "sabır,",
+   "start": 33.34,
+   "end": 33.12
+  },
+  {
+   "word": "ilk",
+   "start": 34.02,
+   "end": 33.35
+  },
+  {
+   "word": "musibet",
+   "start": 34.26,
+   "end": 33.88
+  },
+  {
+   "word": "anında",
+   "start": 34.72,
+   "end": 34.41
+  },
+  {
+   "word": "gösterilen",
+   "start": 35.16,
+   "end": 35.26
+  },
+  {
+   "word": "sabırdır!",
+   "start": 35.72,
+   "end": 36.31
+  },
+  {
+   "word": "dedi.",
+   "start": 36.42,
+   "end": 36.97
+  },
+  {
+   "word": "Buhârî",
+   "start": 37.3,
+   "end": 37.53
+  },
+  {
+   "word": "rivayet",
+   "start": 37.84,
+   "end": 38.17
+  },
+  {
+   "word": "etmiştir.",
+   "start": 38.26,
+   "end": 39
+  }
+ ],
+ "explain1": [
+  {
+   "word": "Şeyh",
+   "start": 0.26,
+   "end": 0.51
+  },
+  {
+   "word": "İbn",
+   "start": 0.79,
+   "end": 1.07
+  },
+  {
+   "word": "Baz,",
+   "start": 1.35,
+   "end": 1.62
+  },
+  {
+   "word": "Allah",
+   "start": 2.18,
+   "end": 2.08
+  },
+  {
+   "word": "ona",
+   "start": 2.52,
+   "end": 2.4
+  },
+  {
+   "word": "rahmet",
+   "start": 2.78,
+   "end": 3.04
+  },
+  {
+   "word": "etsin,",
+   "start": 3.14,
+   "end": 3.77
+  },
+  {
+   "word": "şöyle",
+   "start": 3.88,
+   "end": 4.18
+  },
+  {
+   "word": "açıkladı:",
+   "start": 4.32,
+   "end": 4.96
+  },
+  {
+   "word": "Sevap",
+   "start": 5.54,
+   "end": 5.3
+  },
+  {
+   "word": "ve",
+   "start": 5.88,
+   "end": 5.62
+  },
+  {
+   "word": "ecir",
+   "start": 6.04,
+   "end": 5.99
+  },
+  {
+   "word": "getiren",
+   "start": 6.36,
+   "end": 6.36
+  },
+  {
+   "word": "sabır,",
+   "start": 6.86,
+   "end": 7.44
+  },
+  {
+   "word": "musibetin",
+   "start": 7.78,
+   "end": 8.02
+  },
+  {
+   "word": "ilk",
+   "start": 8.6,
+   "end": 8.31
+  },
+  {
+   "word": "anında",
+   "start": 8.88,
+   "end": 8.82
+  },
+  {
+   "word": "gösterilen",
+   "start": 9.38,
+   "end": 9.59
+  },
+  {
+   "word": "sabırdır.",
+   "start": 9.94,
+   "end": 10.46
+  }
+ ],
+ "explain2": [
+  {
+   "word": "Ve",
+   "start": 0.18,
+   "end": 0.13
+  },
+  {
+   "word": "şöyle",
+   "start": 0.5,
+   "end": 0.61
+  },
+  {
+   "word": "dedi:",
+   "start": 0.88,
+   "end": 0.96
+  },
+  {
+   "word": "Kişi",
+   "start": 1.62,
+   "end": 1.65
+  },
+  {
+   "word": "sabreder",
+   "start": 1.98,
+   "end": 2.4
+  },
+  {
+   "word": "ve",
+   "start": 3.04,
+   "end": 2.8
+  },
+  {
+   "word": "sevabını",
+   "start": 3.28,
+   "end": 3.6
+  },
+  {
+   "word": "Allah'tan",
+   "start": 3.98,
+   "end": 4.32
+  },
+  {
+   "word": "umar;",
+   "start": 4.42,
+   "end": 4.72
+  },
+  {
+   "word": "feryat",
+   "start": 5.26,
+   "end": 5.51
+  },
+  {
+   "word": "etmez",
+   "start": 5.76,
+   "end": 6.07
+  },
+  {
+   "word": "ve",
+   "start": 6.64,
+   "end": 6.29
+  },
+  {
+   "word": "kötü",
+   "start": 6.52,
+   "end": 6.76
+  },
+  {
+   "word": "söz",
+   "start": 7.22,
+   "end": 7.16
+  },
+  {
+   "word": "söylemez.",
+   "start": 7.48,
+   "end": 7.89
+  }
+ ],
+ "close": [
+  {
+   "word": "Paylaş,",
+   "start": 0.1,
+   "end": 1.22
+  },
+  {
+   "word": "Allah",
+   "start": 1.42,
+   "end": 1.49
+  },
+  {
+   "word": "amellerini",
+   "start": 1.78,
+   "end": 2.31
+  },
+  {
+   "word": "kabul",
+   "start": 2.52,
+   "end": 2.68
+  },
+  {
+   "word": "etsin.",
+   "start": 2.78,
+   "end": 3.01
+  }
+ ]
+}

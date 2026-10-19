@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Her gece Rabbin seni çağırıyor. Duyuyor musun?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Her gece, Rabbimiz Tebâreke ve Teâlâ, gecenin son üçte biri kaldığı zaman dünya semasına inerek şöyle buyurur: Bana kim dua eder, onun duasına icabet edeyim! Benden kim bir şey ister, ona dilediğini vereyim! Benden kim mağfiret diler, ona mağfiret edeyim! Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Gecenin en faziletli vakti son üçte biridir. Bu vakit büyük bir vakittir, ilahi iniş vaktidir."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Rabbin, kullarını kendisinden istemeye ve kendisine yalvarmaya çağırdığı vakittir. En faziletli vakit budur."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

@@ -17,9 +17,10 @@ import { Rays, Stamp } from "./Props";
 
 export const fonts = {
   amiri: loadAmiri("normal", { weights: ["400", "700"], subsets: ["arabic"] }).fontFamily,
-  serif: loadNewsreader("normal", { weights: ["400", "500"], subsets: ["latin"] }).fontFamily,
-  serifItalic: loadNewsreader("italic", { weights: ["400"], subsets: ["latin"] }).fontFamily,
-  sans: loadInter("normal", { weights: ["800"], subsets: ["latin"] }).fontFamily,
+  // latin-ext covers Turkish (ş ğ ı İ) and German letters.
+  serif: loadNewsreader("normal", { weights: ["400", "500"], subsets: ["latin", "latin-ext"] }).fontFamily,
+  serifItalic: loadNewsreader("italic", { weights: ["400"], subsets: ["latin", "latin-ext"] }).fontFamily,
+  sans: loadInter("normal", { weights: ["800"], subsets: ["latin", "latin-ext"] }).fontFamily,
 };
 const { amiri, serif, serifItalic, sans } = fonts;
 
@@ -28,9 +29,21 @@ const { amiri, serif, serifItalic, sans } = fonts;
 
 export type Word = { word: string; start: number; end: number };
 export type SceneKey = "hook" | "hadith" | "explain1" | "explain2" | "close";
+export type Lang = "en" | "de" | "tr";
+
+/** On-screen words of the shared parts, per language. */
+export const UI: Record<Lang, { prophetSaid: string; explanation: string; ibnBaz: string; shareIt: string; closingHadith: string; closingSource: string; sahih: string }> = {
+  en: { prophetSaid: "The Prophet ﷺ said:", explanation: "Explanation", ibnBaz: "Shaykh Ibn Baz", shareIt: "SHARE IT", closingHadith: "“One who guides to something good has a reward similar to that of its doer.”", closingSource: "Sahih Muslim 1893", sahih: "SAHIH" },
+  de: { prophetSaid: "Der Prophet ﷺ sagte:", explanation: "Erklärung", ibnBaz: "Scheich Ibn Baz", shareIt: "TEILEN", closingHadith: "„Wer zu etwas Gutem hinführt, erhält einen Lohn wie der, der es tut.“", closingSource: "Sahih Muslim 1893", sahih: "SAHIH" },
+  // Turkish closing hadith: HadeethEnc id 5354 (human translation).
+  tr: { prophetSaid: "Peygamber ﷺ buyurdu:", explanation: "Açıklama", ibnBaz: "Şeyh İbn Baz", shareIt: "PAYLAŞ", closingHadith: "«Kim bir hayra (iyiliğe) vesile olursa o kimseye hayrı yapan kimsenin ecri gibi ecir vardır.»", closingSource: "Sahih Müslim 1893", sahih: "SAHİH" },
+};
+
 export type ReelBase = {
   id: string;
-  lang: "en" | "de";
+  lang: Lang;
+  /** Maps the English cue word a scene was designed around to the spoken word in this language, e.g. { "intention#1": ["niyet", 1] }. */
+  alias?: Partial<Record<SceneKey, Record<string, [string, number]>>>;
   durations: Record<SceneKey, number>;
   words: Record<SceneKey, Word[]>;
 };
@@ -54,10 +67,20 @@ export const reelMetadata =
     return { durationInFrames: Math.ceil(ORDER.reduce((a, k) => a + s[k], 0) * FPS) };
   };
 
-export const norm = (w: string) => w.toLowerCase().replace(/[^a-z-]/g, "");
+/** Lower-case, keep letters only, fold accents (so "Buhârî", "buhari" and "BUHARI" match; Turkish ı/İ fold to i). */
+export const norm = (w: string) =>
+  w
+    .replace(/İ/g, "i")
+    .replace(/ı/g, "i")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[^\p{L}-]/gu, "");
 
 /** Scene-local time (s) when the nth occurrence of `word` is spoken, slightly early. */
-export const wordTime = (words: Word[]) => (word: string, nth = 0) => {
+export const wordTime = (words: Word[], alias?: Record<string, [string, number]>) => (cue: string, cueNth = 0) => {
+  const a = alias?.[`${cue}#${cueNth}`] ?? (cueNth === 0 ? alias?.[cue] : undefined);
+  const word = norm(a ? a[0] : cue);
+  const nth = a ? a[1] : cueNth;
   let n = 0;
   for (const w of words) {
     if (norm(w.word) === word) {
@@ -72,8 +95,9 @@ export type WordFn = ReturnType<typeof wordTime>;
 /** Index of the nth occurrence of a word in a word list. */
 export const wordIndex = (words: Word[], word: string, nth = 0) => {
   let n = 0;
+  const target = norm(word);
   for (let i = 0; i < words.length; i++) {
-    if (norm(words[i].word) === word) {
+    if (norm(words[i].word) === target) {
       if (n === nth) return i;
       n++;
     }
@@ -335,6 +359,7 @@ export type HadithLayout = {
   englishSize?: number;
   contentTop?: number; // where the Arabic/English block starts inside the scroll (default 270)
   stampBottom?: number; // stamp distance from the scroll bottom (default 70)
+  lang?: Lang;
 };
 
 export const HadithScroll: React.FC<{ t: number; dur: number; W: WordFn; words: Word[]; h: HadithLayout }> = ({ t, dur, W, words, h }) => {
@@ -370,7 +395,7 @@ export const HadithScroll: React.FC<{ t: number; dur: number; W: WordFn; words: 
           <div style={{ position: "relative" }}>
             <ScrollBox open={open}>
               <div style={{ position: "absolute", top: 90, left: 0, right: 0, textAlign: "center", opacity: head }}>
-                <div style={{ fontFamily: serifItalic, fontSize: 58, color: "#1b2d66" }}>The Prophet ﷺ said:</div>
+                <div style={{ fontFamily: serifItalic, fontSize: 58, color: "#1b2d66" }}>{UI[h.lang ?? "en"].prophetSaid}</div>
                 <div style={{ fontFamily: serif, fontSize: 24, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8a6a3a", marginTop: 8 }}>{h.narrator}</div>
               </div>
               <div style={{ position: "absolute", top: h.contentTop ?? 270, left: 40, right: 40, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
@@ -387,7 +412,7 @@ export const HadithScroll: React.FC<{ t: number; dur: number; W: WordFn; words: 
             </ScrollBox>
             {t >= stampT ? (
               <div style={{ position: "absolute", right: 40, bottom: h.stampBottom ?? 70, transform: `rotate(-9deg) scale(${lerp(2.6, 1, st)})`, opacity: st }}>
-                <Stamp text={h.stamp} sub="SAHIH" font={serif} />
+                <Stamp text={h.stamp} sub={UI[h.lang ?? "en"].sahih} font={serif} />
               </div>
             ) : null}
           </div>
@@ -400,7 +425,8 @@ export const HadithScroll: React.FC<{ t: number; dur: number; W: WordFn; words: 
 // ---------------------------------------------------------------------------
 // Scene 5 (shared): the fixed ending.
 
-export const Close: React.FC<{ t: number; dur: number; W: WordFn }> = ({ t, dur, W }) => {
+export const Close: React.FC<{ t: number; dur: number; W: WordFn; lang?: Lang }> = ({ t, dur, W, lang = "en" }) => {
+  const ui = UI[lang];
   const flash = prog(t, 0, 0.35) * (1 - prog(t, 0.35, 0.8));
   const draw = prog(t, 0.2, 1.1);
   const fillP = prog(t, 0.9, 1.4, easeInOut);
@@ -438,7 +464,7 @@ export const Close: React.FC<{ t: number; dur: number; W: WordFn }> = ({ t, dur,
         <At x={540} y={1250} anchor="center">
           {/* The words are centred on the screen; the arrow hangs off to the right. */}
           <div style={{ position: "relative", transform: `scale(${share})` }}>
-            <span style={{ fontFamily: sans, fontWeight: 800, fontSize: 66, color: theme.gold, letterSpacing: "0.02em", whiteSpace: "nowrap" }}>SHARE IT</span>
+            <span style={{ fontFamily: sans, fontWeight: 800, fontSize: 66, color: theme.gold, letterSpacing: "0.02em", whiteSpace: "nowrap" }}>{ui.shareIt}</span>
             <svg width={84} height={70} viewBox="-60 -50 120 100" style={{ position: "absolute", left: "100%", top: "50%", marginLeft: 18, transform: `translate(${Math.sin(t * 6) * 8}px, -50%)` }}>
               <path d="M -40 30 Q -30 -20 20 -20 L 20 -42 L 56 -6 L 20 30 L 20 8 Q -14 8 -40 30 Z" fill={theme.gold} />
             </svg>
@@ -446,15 +472,15 @@ export const Close: React.FC<{ t: number; dur: number; W: WordFn }> = ({ t, dur,
         </At>
         <At x={540} y={1490}>
           <div style={{ width: 920, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
-            <div style={{ ...reveal(prog(t, W("share") + 0.35, W("share") + 0.9)), fontFamily: serifItalic, fontSize: 38, color: theme.lineSoft }}>The Prophet ﷺ said:</div>
+            <div style={{ ...reveal(prog(t, W("share") + 0.35, W("share") + 0.9)), fontFamily: serifItalic, fontSize: 38, color: theme.lineSoft }}>{ui.prophetSaid}</div>
             <div lang="ar" dir="rtl" style={{ ...reveal(prog(t, W("share") + 0.6, W("share") + 1.2)), fontFamily: amiri, fontWeight: 700, fontSize: 58, lineHeight: 1.5, color: theme.gold }}>
               مَنْ دَلَّ عَلَى خَيْرٍ فَلَهُ مِثْلُ أَجْرِ فَاعِلِهِ
             </div>
             <div style={{ ...reveal(prog(t, W("share") + 0.8, W("share") + 1.4)), fontFamily: serif, fontSize: 46, lineHeight: 1.3, color: theme.text, textAlign: "center", textWrap: "balance" }}>
-              “One who guides to something good has a reward similar to that of its doer.”
+              {ui.closingHadith}
             </div>
             <div style={{ ...reveal(prog(t, W("share") + 1.1, W("share") + 1.6)), marginTop: 8, fontFamily: serif, fontSize: 28, color: theme.gold, border: `2px solid ${theme.gold}`, borderRadius: 999, padding: "5px 22px" }}>
-              Sahih Muslim 1893
+              {ui.closingSource}
             </div>
           </div>
         </At>
@@ -475,12 +501,12 @@ const sharedCues = (p: ReelBase, add: AddCue, h: HadithLayout) => {
   add("hook", 0, "whoosh", 0.35);
   for (const k of ["hadith", "explain1", "explain2"] as SceneKey[]) add(k, -0.25, "whip", 0.4);
   add("close", -0.3, "rise", 0.35);
-  const d = wordTime(p.words.hadith);
+  const d = wordTime(p.words.hadith, p.alias?.hadith);
   add("hadith", 0.3, "paper", 0.35);
   add("hadith", d(h.line1[0], h.line1[1]), "scratch", 0.22);
   add("hadith", d(h.line2[0], h.line2[1]), "scratch", 0.22);
   add("hadith", d(h.stampWord) + 0.15, "stamp", 0.55);
-  const g = wordTime(p.words.close);
+  const g = wordTime(p.words.close, p.alias?.close);
   add("close", g("share"), "pop", 0.35);
   add("close", g("deeds"), "chime", 0.4);
 };
@@ -491,7 +517,7 @@ export type SceneProps = { t: number; dur: number; W: WordFn; words: Word[] };
 export const ReelRunner: React.FC<{
   p: ReelBase;
   hadith: HadithLayout;
-  scenes: { hook: React.FC<SceneProps>; explain1: React.FC<SceneProps>; explain2: React.FC<SceneProps> };
+  scenes: { hook: React.FC<SceneProps>; explain1: React.FC<SceneProps>; explain2: React.FC<SceneProps>; hadithOverlay?: React.FC<SceneProps> };
   cues: (add: AddCue) => void;
 }> = ({ p, hadith, scenes, cues }) => {
   const frame = useCurrentFrame();
@@ -513,7 +539,7 @@ export const ReelRunner: React.FC<{
   const active = ORDER.find((k) => T >= starts[k] && T < starts[k] + sec[k]) ?? "close";
   const t = T - starts[active];
   const dur = sec[active];
-  const W = wordTime(p.words[active]);
+  const W = wordTime(p.words[active], p.alias?.[active]);
   const words = p.words[active];
   const dirs: Record<SceneKey, { in: [number, number]; out: [number, number] }> = {
     hook: { in: [0, 0], out: [0, 1] },
@@ -527,14 +553,16 @@ export const ReelRunner: React.FC<{
   const E2 = scenes.explain2;
 
   return (
-    <AbsoluteFill style={{ backgroundColor: theme.bg }}>
+    // lang drives correct upper-casing (Turkish i -> İ) in captions.
+    <AbsoluteFill lang={p.lang} style={{ backgroundColor: theme.bg }}>
       <Background t={T} progress={frame / durationInFrames} />
       <Whip t={t} dur={dur} dirIn={dirs[active].in} dirOut={dirs[active].out}>
         {active === "hook" ? <Hook t={t} dur={dur} W={W} words={words} /> : null}
-        {active === "hadith" ? <HadithScroll t={t} dur={dur} W={W} words={words} h={hadith} /> : null}
+        {active === "hadith" ? <HadithScroll t={t} dur={dur} W={W} words={words} h={{ lang: p.lang, ...hadith }} /> : null}
+        {active === "hadith" && scenes.hadithOverlay ? <scenes.hadithOverlay t={t} dur={dur} W={W} words={words} /> : null}
         {active === "explain1" ? <E1 t={t} dur={dur} W={W} words={words} /> : null}
         {active === "explain2" ? <E2 t={t} dur={dur} W={W} words={words} /> : null}
-        {active === "close" ? <Close t={t} dur={dur} W={W} /> : null}
+        {active === "close" ? <Close t={t} dur={dur} W={W} lang={p.lang} /> : null}
       </Whip>
       {ORDER.map((k) => (
         <Sequence key={k} from={f(starts[k] + LEAD)} name={`voice ${k}`} layout="none">

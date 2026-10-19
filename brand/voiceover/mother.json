@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "İyiliğe en çok kim layık?"
+    },
+    "hadith": {
+      "tr": "Bir adam Rasûlullah sallallahu aleyhi ve sellem'e gelerek: Kendisine en iyi davranmam gereken kimdir? diye sordu. Rasûlullah sallallahu aleyhi ve sellem: Annen! buyurdu. Adam: Ondan sonra kimdir? diye sordu. Annen! buyurdu. Adam tekrar sordu: Ondan sonra kim gelir? diye sordu. Annen! buyurdu. Adam tekrar: Sonra kim gelir? diye sordu. Rasûlullah sallallahu aleyhi ve sellem: Baban! cevabını verdi. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Anne babaya iyilik, en önemli vazifelerden ve en büyük farzlardandır. Allah, anne babanın hakkını kendi hakkıyla, tevhid ile birlikte zikretmiştir."
+    },
+    "explain2": {
+      "tr": "Şeyh İbn Useymin, Allah ona rahmet etsin, şöyle dedi: Baba ile annenin isteği çatışırsa, ikisini de gözetmeli, hem babanın hem annenin işini görmelisin. İkisi eşitse, anneyi öne al."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

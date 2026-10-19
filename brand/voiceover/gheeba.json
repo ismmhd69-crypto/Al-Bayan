@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Söylediğin doğruysa, yine de gıybet midir?"
+    },
+    "hadith": {
+      "tr": "Rasûlullah sallallahu aleyhi ve sellem buyurdu: Gıybet nedir bilir misiniz? Ashab: Allah ve Rasûlü daha iyi bilir, dediler. Bunun üzerine Rasûlullah: Kardeşini hoşlanmadığı bir şeyle anmandır, buyurdu. Ya kardeşimde benim söylediğim bulunursa, ne buyurursun? denildiğinde, O da: Söylediğin onda varsa, onun gıybetini yapmış olursun. Eğer onda yoksa, ona iftira etmiş olursun, diye buyurdu. Müslim rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Useymin, Allah ona rahmet etsin, şöyle açıkladı: Gıybet büyük günahlardandır."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Gıybet edilen kişi bunu bilmiyorsa, onun için istiğfar etmesi ve gıybet ettiği meclislerde onu hayırla anması yeterlidir."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

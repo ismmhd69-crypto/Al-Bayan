@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Bir ağaç dikmek sadaka olabilir mi?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Bir müslüman, bir ağaç diker yahut bir şey ekerse ve ondan insan, hayvan ve bir şey yerse bu onun için sadaka olur. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Müslümanın ektiği ekinler, diktiği hurma ve diğer ağaçlar için ona sevap vardır."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Ondan alıp insanlara sadaka olarak verdiği ve ev halkına verdiği de böyledir. Bunların hepsi bu dikimden gelen hayırdandır."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

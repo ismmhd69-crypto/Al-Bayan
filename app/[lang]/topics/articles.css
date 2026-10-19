@@ -1,0 +1,12 @@
+/* Article reading follows the same lapis, gold and typography as New to Islam. */
+.hard-reader .hard-jump{display:flex;flex-wrap:wrap;gap:8px 18px;padding-block:12px;border-block:1px solid var(--line);font-size:var(--fs-sm)}
+.hard-jump a{color:var(--accent);text-decoration:none;padding-block:5px;min-block-size:36px;display:flex;align-items:center}
+.hard-jump a:hover{text-decoration:underline}
+.hard-reader section[id]{scroll-margin-block:90px}
+.hard-prose{font-size:var(--fs-md)}
+.hard-ref--quran{background:var(--gold-soft)!important;border-color:var(--gold-line)!important;color:var(--gold-ink)!important}
+.hard-ref--history,.hard-ref--science{background:var(--surface)!important;border-color:var(--line-2)!important;color:var(--ink-2)!important}
+.hard-reader .learning-neighbour:only-child{grid-column:1/-1}
+.hard-reader .page-head{gap:12px}
+.hard-reader a:focus-visible,.hard-reader summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:4px}
+.hard-reader .learning-source summary{overflow-wrap:anywhere}

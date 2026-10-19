@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Cennet sana ne kadar yakın?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Cennet size, ayakkabınızın bağından daha yakındır. Cehennem de öyledir. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Ölümü hatırlamanın faydaları vardır. Ahirete hazırlanmanın ve Allah'a kavuşmaya hazırlanmanın sebeplerindendir."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Müslümanın ölümü çokça hatırlaması ve aklından çıkarmaması müstehaptır; ta ki ahireti için hazırlık yapsın."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

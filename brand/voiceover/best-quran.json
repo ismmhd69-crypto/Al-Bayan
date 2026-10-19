@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "İnsanların en hayırlısı kim?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Sizin en hayırlınız Kur'an-ı öğrenen ve öğretendir. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: İnsanların en hayırlıları, Kur'an'ı öğrenen, insanlara öğreten ve onunla amel eden Kur'an ehlidir."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Allah'ın Kitabını öğretmek, Allah'a yaklaştıran amellerin ve ibadetlerin en faziletlilerindendir. Bundan maksat, onunla amel etmek, içindekini almak ve onun üzerinde dosdoğru durmaktır."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

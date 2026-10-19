@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { categoryOrder, getTopics } from "@/lib/content";
 import TopicBrowser from "@/components/TopicBrowser";
+import { hardQuestionArticles, hardQuestionText, showHardQuestionDrafts } from "@/lib/learning/hard-questions";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -15,13 +16,15 @@ export default async function TopicsPage({ params }: { params: Promise<{ lang: s
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const t = getDictionary(lang).topics;
-  const topics = await getTopics(lang);
+  const preview = showHardQuestionDrafts();
+  const topics = preview ? hardQuestionArticles.map((article) => ({ id: article.id, category: article.category, title: article.title[lang], question: "" })) : await getTopics(lang);
 
   return (
     <div className="page">
       <header className="page-head">
         <h1>{t.title}</h1>
-        <p className="lead">{t.intro}</p>
+        <p className="lead">{preview ? hardQuestionText[lang].listNote : t.intro}</p>
+        {preview && <p className="muted">{hardQuestionText[lang].draft}</p>}
       </header>
       <TopicBrowser
         lang={lang}

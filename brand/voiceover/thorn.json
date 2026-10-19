@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Yoldan bir dal kaldırmak, seni bağışlatabilir mi?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Bir adam yolda yürürken, dikenli bir dal buldu ve onu yoldan kaldırdı. Bu sebeple Allah da ondan memnun oldu ve onu bağışladı. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Yoldan eziyet veren şeyi kaldırmak, imanın şubelerindendir."
+    },
+    "explain2": {
+      "tr": "Şeyh İbn Useymin, Allah ona rahmet etsin, şöyle dedi: Peygamber, yoldan eziyet veren şeyi kaldırmanın sadaka olduğunu, birine yardım etmenin de sadaka olduğunu haber vermiştir."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

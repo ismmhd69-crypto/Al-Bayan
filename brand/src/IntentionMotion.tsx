@@ -28,8 +28,10 @@ import {
   fonts,
   reelMetadata,
   wordTime,
+  UI,
   type AddCue,
   type HadithLayout,
+  type Lang,
   type ReelBase,
   type SceneKey,
   type Word,
@@ -40,7 +42,26 @@ import {
 
 const { amiri, serif, serifItalic, sans } = fonts;
 
+/** Words this video shows on screen, per language. */
+export type IntentionText = {
+  hookBig: string;
+  hookWords: { text: string; cue: string; gold?: boolean }[];
+  bubble: string;
+  ill: string;
+  travel: string;
+  reward: string;
+  cite2996: string;
+  narrator: string;
+  stamp: string;
+  line1: [string, number];
+  line2: [string, number];
+  stampWord: string;
+  contentTop?: number;
+  stampBottom?: number;
+};
+
 export type IntentionMotionProps = ReelBase & {
+  tx: IntentionText;
   arabicLines: [string, string];
   quote1: [string, string];
   quote2: [string, string];
@@ -51,7 +72,7 @@ export const calculateIntentionMetadata = reelMetadata<IntentionMotionProps>();
 // ---------------------------------------------------------------------------
 // Scene 1: hook. Two men give the same charity; their hearts differ.
 
-const Hook: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime> }> = ({ t, dur, W }) => {
+const Hook: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime>; tx: IntentionText }> = ({ t, dur, W, tx }) => {
   const s = keys(t, [
     [0, 1.5],
     [1.3, 1.0],
@@ -74,7 +95,7 @@ const Hook: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime> }>
   const [sx, sy] = shake(t, W("one"), 12);
 
   const slam = prog(t, W("one"), W("one") + 0.25, ease);
-  const rest = ["that", "changes", "every", "deed"].map((w) => prog(t, W(w), W(w) + 0.25));
+  const rest = tx.hookWords.map((w) => prog(t, W(w.cue), W(w.cue) + 0.25));
 
   return (
     <AbsoluteFill style={{ transform: `translate(${sx}px, ${sy}px)` }}>
@@ -107,12 +128,12 @@ const Hook: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime> }>
       </Camera>
       <div style={{ position: "absolute", top: 400, left: 0, right: 0, textAlign: "center" }}>
         <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 116, color: "#fff", letterSpacing: "-0.01em", opacity: slam, transform: `scale(${lerp(2.4, 1, slam)})`, textShadow: "0 10px 40px rgba(0,0,0,0.5)" }}>
-          ONE SENTENCE
+          {tx.hookBig}
         </div>
         <div style={{ display: "flex", justifyContent: "center", gap: 18, marginTop: 16, fontFamily: serifItalic, fontSize: 70 }}>
-          {["that", "changes", "every", "deed."].map((w, i) => (
-            <span key={w} style={{ opacity: rest[i], transform: `translateY(${(1 - rest[i]) * 30}px)`, color: i >= 2 ? theme.gold : theme.text, display: "inline-block" }}>
-              {w}
+          {tx.hookWords.map((w, i) => (
+            <span key={i} style={{ opacity: rest[i], transform: `translateY(${(1 - rest[i]) * 30}px)`, color: w.gold ? theme.gold : theme.text, display: "inline-block" }}>
+              {w.text}
             </span>
           ))}
         </div>
@@ -129,7 +150,7 @@ const k3 = MAN3.size / 520;
 const HEART3 = { x: MAN3.x - 22 * k3, y: MAN3.feet - 300 * k3 };
 const HEAD3 = { x: MAN3.x, y: MAN3.feet - 432 * k3 };
 
-const Explain1: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime>; words: Word[]; quote: [string, string] }> = ({ t, dur, W, words, quote }) => {
+const Explain1: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime>; words: Word[]; quote: [string, string]; tx: IntentionText; lang: Lang }> = ({ t, dur, W, words, quote, tx, lang }) => {
   const iA = W("intention");
   const iB = W("intention", 1);
   const tHeart = W("heart");
@@ -218,7 +239,7 @@ const Explain1: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime
             style={{ transform: `translate(-50%, -50%) scale(${bubbleIn}) rotate(${bubbleFall * 25 + Math.sin(t * 40) * 3 * strike * (1 - bubbleFall)}deg)`, opacity: 1 - bubbleFall }}
           >
             <div style={{ position: "relative" }}>
-              <Bubble width={400} text="“I intend to pray…”" font={serifItalic} size={40} />
+              <Bubble width={400} text={tx.bubble} font={serifItalic} size={40} />
               <svg width={440} height={140} viewBox="0 0 440 140" style={{ position: "absolute", left: -20, top: -10 }}>
                 <path d="M 20 110 L 420 30" stroke="#d3302a" strokeWidth={14} strokeLinecap="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - strike} />
               </svg>
@@ -227,7 +248,7 @@ const Explain1: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime
         ) : null}
       </Camera>
       <div style={{ position: "absolute", top: 270, left: 0, right: 0, display: "flex", justifyContent: "center", transform: `translate(${(1 - card) * -900}px, ${(1 - card) * -300}px) rotate(${(1 - card) * -12}deg)` }}>
-        <NameCard kicker="Explanation" name="Shaykh Ibn Baz" font={serif} arabicFont={amiri} />
+        <NameCard kicker={UI[lang].explanation} name={UI[lang].ibnBaz} font={serif} arabicFont={amiri} />
       </div>
       <ArabicLine t={t} text={quote[0]} from={iA} to={iB - 0.05} y={1440} />
       <ArabicLine t={t} text={quote[1]} from={iB} to={dur} y={1440} />
@@ -239,7 +260,7 @@ const Explain1: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime
 // ---------------------------------------------------------------------------
 // Scene 4: intended, held back by an excuse, still rewarded.
 
-const Explain2: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime>; words: Word[]; quote: [string, string] }> = ({ t, dur, W, words, quote }) => {
+const Explain2: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime>; words: Word[]; quote: [string, string]; tx: IntentionText; lang: Lang }> = ({ t, dur, W, words, quote, tx, lang }) => {
   const tIntends = W("intends");
   const tHeld = W("held");
   const tReceives = W("receives");
@@ -343,8 +364,8 @@ const Explain2: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime
       {partB > 0 ? (
         <AbsoluteFill>
           {[
-            { x: 290, at: tWhen - 0.25, label: "ILL" },
-            { x: 790, at: tTravels - 0.35, label: "TRAVELLING" },
+            { x: 290, at: tWhen - 0.25, label: tx.ill },
+            { x: 790, at: tTravels - 0.35, label: tx.travel },
           ].map((panel, i) => {
             const p = prog(t, panel.at, panel.at + 0.45);
             const bob = Math.sin(t * 2 + i) * 6;
@@ -407,11 +428,11 @@ const Explain2: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime
               </div>
             ) : null}
             <div style={{ position: "relative" }}>
-              <DeedsBook width={400} fill={fill} label="Reward" font={serif} />
+              <DeedsBook width={400} fill={fill} label={tx.reward} font={serif} />
             </div>
             {cite > 0 ? (
               <div style={{ marginTop: 14, transform: `perspective(600px) rotateX(${(1 - cite) * 90}deg)`, opacity: cite, fontFamily: serif, fontSize: 30, color: theme.gold, border: `2px solid ${theme.gold}`, borderRadius: 999, padding: "6px 24px", background: "rgba(15,26,69,0.75)" }}>
-                Sahih al-Bukhari 2996
+                {tx.cite2996}
               </div>
             ) : null}
           </div>
@@ -419,7 +440,7 @@ const Explain2: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime
       ) : null}
 
       <div style={{ position: "absolute", top: 270, left: 0, right: 0, display: "flex", justifyContent: "center", opacity: 1 - book }}>
-        <NameCard kicker="Explanation" name="Shaykh Ibn Baz" font={serif} arabicFont={amiri} />
+        <NameCard kicker={UI[lang].explanation} name={UI[lang].ibnBaz} font={serif} arabicFont={amiri} />
       </div>
       <ArabicLine t={t} text={quote[0]} from={W("if")} to={tWhen - 0.3} y={1400} size={50} />
       <ArabicLine t={t} text={quote[1]} from={tWhen} to={dur} y={1400} size={50} />
@@ -433,7 +454,7 @@ const Explain2: React.FC<{ t: number; dur: number; W: ReturnType<typeof wordTime
 // Sound cues for this video's own scenes (shared cues come from ReelKit).
 
 const ownCues = (p: IntentionMotionProps) => (add: AddCue) => {
-  const W = (scene: SceneKey) => wordTime(p.words[scene]);
+  const W = (scene: SceneKey) => wordTime(p.words[scene], p.alias?.[scene]);
   const h = W("hook");
   add("hook", 0.55, "pop", 0.35);
   add("hook", 0.73, "pop_high", 0.3);
@@ -469,21 +490,23 @@ const ownCues = (p: IntentionMotionProps) => (add: AddCue) => {
 
 export const IntentionMotion: React.FC<IntentionMotionProps> = (p) => {
   const hadith: HadithLayout = {
-    narrator: "Narrated by Umar ibn al-Khattab",
-    stamp: "Sahih al-Bukhari 1",
+    narrator: p.tx.narrator,
+    stamp: p.tx.stamp,
     arabic: p.arabicLines,
-    line1: ["actions", 0],
-    line2: ["and", 0],
-    stampWord: "reported",
+    line1: p.tx.line1,
+    line2: p.tx.line2,
+    stampWord: p.tx.stampWord,
+    contentTop: p.tx.contentTop,
+    stampBottom: p.tx.stampBottom,
   };
   return (
     <ReelRunner
       p={p}
       hadith={hadith}
       scenes={{
-        hook: ({ t, dur, W }) => <Hook t={t} dur={dur} W={W} />,
-        explain1: ({ t, dur, W, words }) => <Explain1 t={t} dur={dur} W={W} words={words} quote={p.quote1} />,
-        explain2: ({ t, dur, W, words }) => <Explain2 t={t} dur={dur} W={W} words={words} quote={p.quote2} />,
+        hook: ({ t, dur, W }) => <Hook t={t} dur={dur} W={W} tx={p.tx} />,
+        explain1: ({ t, dur, W, words }) => <Explain1 t={t} dur={dur} W={W} words={words} quote={p.quote1} tx={p.tx} lang={p.lang} />,
+        explain2: ({ t, dur, W, words }) => <Explain2 t={t} dur={dur} W={W} words={words} quote={p.quote2} tx={p.tx} lang={p.lang} />,
       }}
       cues={ownCues(p)}
     />

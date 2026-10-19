@@ -1,0 +1,432 @@
+{
+ "hook": [
+  {
+   "word": "Bir",
+   "start": 0.14,
+   "end": 0.19
+  },
+  {
+   "word": "ağaç",
+   "start": 0.44,
+   "end": 0.78
+  },
+  {
+   "word": "dikmek",
+   "start": 0.8,
+   "end": 1.13
+  },
+  {
+   "word": "sadaka",
+   "start": 1.68,
+   "end": 1.89
+  },
+  {
+   "word": "olabilir",
+   "start": 2.24,
+   "end": 2.52
+  },
+  {
+   "word": "mi?",
+   "start": 2.58,
+   "end": 2.61
+  }
+ ],
+ "hadith": [
+  {
+   "word": "Peygamber",
+   "start": 0.16,
+   "end": 0.77
+  },
+  {
+   "word": "sallallahu",
+   "start": 1.14,
+   "end": 1.64
+  },
+  {
+   "word": "aleyhi",
+   "start": 2.02,
+   "end": 2.15
+  },
+  {
+   "word": "ve",
+   "start": 2.42,
+   "end": 2.32
+  },
+  {
+   "word": "sellem",
+   "start": 2.66,
+   "end": 2.84
+  },
+  {
+   "word": "buyurdu:",
+   "start": 3.08,
+   "end": 3.93
+  },
+  {
+   "word": "Bir",
+   "start": 4.36,
+   "end": 4.2
+  },
+  {
+   "word": "müslüman,",
+   "start": 4.56,
+   "end": 5.26
+  },
+  {
+   "word": "bir",
+   "start": 5.46,
+   "end": 5.48
+  },
+  {
+   "word": "ağaç",
+   "start": 5.76,
+   "end": 5.91
+  },
+  {
+   "word": "diker",
+   "start": 6.08,
+   "end": 6.44
+  },
+  {
+   "word": "yahut",
+   "start": 6.8,
+   "end": 7.01
+  },
+  {
+   "word": "bir",
+   "start": 7.14,
+   "end": 7.33
+  },
+  {
+   "word": "şey",
+   "start": 7.4,
+   "end": 7.37
+  },
+  {
+   "word": "ekerse",
+   "start": 7.58,
+   "end": 8.46
+  },
+  {
+   "word": "ve",
+   "start": 8.78,
+   "end": 8.67
+  },
+  {
+   "word": "ondan",
+   "start": 9.16,
+   "end": 9.18
+  },
+  {
+   "word": "insan,",
+   "start": 9.66,
+   "end": 9.92
+  },
+  {
+   "word": "hayvan",
+   "start": 10.34,
+   "end": 10.54
+  },
+  {
+   "word": "ve",
+   "start": 10.72,
+   "end": 10.75
+  },
+  {
+   "word": "bir",
+   "start": 10.9,
+   "end": 11.06
+  },
+  {
+   "word": "şey",
+   "start": 11.12,
+   "end": 11.48
+  },
+  {
+   "word": "yerse",
+   "start": 11.36,
+   "end": 12.06
+  },
+  {
+   "word": "bu",
+   "start": 12.3,
+   "end": 12.26
+  },
+  {
+   "word": "onun",
+   "start": 12.56,
+   "end": 12.67
+  },
+  {
+   "word": "için",
+   "start": 12.88,
+   "end": 13.18
+  },
+  {
+   "word": "sadaka",
+   "start": 13.26,
+   "end": 13.8
+  },
+  {
+   "word": "olur.",
+   "start": 13.66,
+   "end": 14.28
+  },
+  {
+   "word": "Buhârî",
+   "start": 15,
+   "end": 14.86
+  },
+  {
+   "word": "rivayet",
+   "start": 15.26,
+   "end": 15.49
+  },
+  {
+   "word": "etmiştir.",
+   "start": 15.68,
+   "end": 16.32
+  }
+ ],
+ "explain1": [
+  {
+   "word": "Şeyh",
+   "start": 0.26,
+   "end": 0.42
+  },
+  {
+   "word": "İbn",
+   "start": 0.7,
+   "end": 0.97
+  },
+  {
+   "word": "Baz,",
+   "start": 1.25,
+   "end": 1.53
+  },
+  {
+   "word": "Allah",
+   "start": 2.08,
+   "end": 2.01
+  },
+  {
+   "word": "ona",
+   "start": 2.34,
+   "end": 2.28
+  },
+  {
+   "word": "rahmet",
+   "start": 2.56,
+   "end": 2.82
+  },
+  {
+   "word": "etsin,",
+   "start": 2.9,
+   "end": 3.5
+  },
+  {
+   "word": "şöyle",
+   "start": 3.86,
+   "end": 4.06
+  },
+  {
+   "word": "açıkladı:",
+   "start": 4.2,
+   "end": 5.06
+  },
+  {
+   "word": "Müslümanın",
+   "start": 5.06,
+   "end": 6
+  },
+  {
+   "word": "ektiği",
+   "start": 5.94,
+   "end": 6.41
+  },
+  {
+   "word": "ekinler,",
+   "start": 6.38,
+   "end": 7.19
+  },
+  {
+   "word": "diktiği",
+   "start": 7.42,
+   "end": 7.84
+  },
+  {
+   "word": "hurma",
+   "start": 7.9,
+   "end": 8.2
+  },
+  {
+   "word": "ve",
+   "start": 8.5,
+   "end": 8.4
+  },
+  {
+   "word": "diğer",
+   "start": 8.76,
+   "end": 8.83
+  },
+  {
+   "word": "ağaçlar",
+   "start": 9.02,
+   "end": 9.46
+  },
+  {
+   "word": "için",
+   "start": 9.54,
+   "end": 9.6
+  },
+  {
+   "word": "ona",
+   "start": 10.18,
+   "end": 10.02
+  },
+  {
+   "word": "sevap",
+   "start": 10.44,
+   "end": 10.38
+  },
+  {
+   "word": "vardır.",
+   "start": 10.94,
+   "end": 11.22
+  }
+ ],
+ "explain2": [
+  {
+   "word": "Ve",
+   "start": 0.06,
+   "end": 0.2
+  },
+  {
+   "word": "şöyle",
+   "start": 0.38,
+   "end": 0.7
+  },
+  {
+   "word": "dedi:",
+   "start": 0.72,
+   "end": 1.2
+  },
+  {
+   "word": "Ondan",
+   "start": 1.78,
+   "end": 1.62
+  },
+  {
+   "word": "alıp",
+   "start": 2.04,
+   "end": 2.03
+  },
+  {
+   "word": "insanlara",
+   "start": 2.58,
+   "end": 2.78
+  },
+  {
+   "word": "sadaka",
+   "start": 3.14,
+   "end": 3.27
+  },
+  {
+   "word": "olarak",
+   "start": 3.54,
+   "end": 3.78
+  },
+  {
+   "word": "verdiği",
+   "start": 3.98,
+   "end": 4.24
+  },
+  {
+   "word": "ve",
+   "start": 4.84,
+   "end": 4.66
+  },
+  {
+   "word": "ev",
+   "start": 5.14,
+   "end": 4.82
+  },
+  {
+   "word": "halkına",
+   "start": 5.28,
+   "end": 5.47
+  },
+  {
+   "word": "verdiği",
+   "start": 5.86,
+   "end": 6.16
+  },
+  {
+   "word": "de",
+   "start": 6.12,
+   "end": 6.31
+  },
+  {
+   "word": "böyledir.",
+   "start": 6.32,
+   "end": 7.21
+  },
+  {
+   "word": "Bunların",
+   "start": 7.88,
+   "end": 7.85
+  },
+  {
+   "word": "hepsi",
+   "start": 8.38,
+   "end": 8.21
+  },
+  {
+   "word": "bu",
+   "start": 8.94,
+   "end": 8.31
+  },
+  {
+   "word": "dikimden",
+   "start": 9.08,
+   "end": 8.91
+  },
+  {
+   "word": "gelen",
+   "start": 9.66,
+   "end": 9.27
+  },
+  {
+   "word": "hayırdandır.",
+   "start": 10,
+   "end": 10.43
+  }
+ ],
+ "close": [
+  {
+   "word": "Paylaş,",
+   "start": 0.1,
+   "end": 1.22
+  },
+  {
+   "word": "Allah",
+   "start": 1.42,
+   "end": 1.49
+  },
+  {
+   "word": "amellerini",
+   "start": 1.78,
+   "end": 2.31
+  },
+  {
+   "word": "kabul",
+   "start": 2.52,
+   "end": 2.68
+  },
+  {
+   "word": "etsin.",
+   "start": 2.78,
+   "end": 3.01
+  }
+ ]
+}

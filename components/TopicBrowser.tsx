@@ -50,7 +50,7 @@ export default function TopicBrowser({
                 <Link href={`/${lang}/topics/${i.id}`} className="list-row">
                   <span>
                     <span className="list-title">{i.title}</span>
-                    <span className="list-sub">{i.question}</span>
+                    {i.question && <span className="list-sub">{i.question}</span>}
                   </span>
                   <ChevronRight aria-hidden="true" className="flip-rtl" />
                 </Link>

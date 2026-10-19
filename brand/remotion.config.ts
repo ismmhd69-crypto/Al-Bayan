@@ -14,6 +14,7 @@ Config.setOverwriteOutput(true);
 Config.overrideBundlerConfig(enableTailwind);
 
 // The Al-Bayan website dev server uses port 3000. Keep Remotion off it:
-// studio on 3123, render server (CLI renders and the studio's Render button) on 3124.
+// studio on 3123, the studio's Render button on 3124, command-line renders on 3125.
 Config.setStudioPort(3123);
-Config.setRendererPort(3124);
+// The studio keeps its render server open, so command-line renders use their own port.
+Config.setRendererPort(process.argv.includes("studio") ? 3124 : 3125);

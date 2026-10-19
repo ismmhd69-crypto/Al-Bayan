@@ -1,0 +1,647 @@
+{
+ "hook": [
+  {
+   "word": "İyiliğe",
+   "start": 0.12,
+   "end": 1
+  },
+  {
+   "word": "en",
+   "start": 1.08,
+   "end": 1.15
+  },
+  {
+   "word": "çok",
+   "start": 1.3,
+   "end": 1.43
+  },
+  {
+   "word": "kim",
+   "start": 1.53,
+   "end": 1.64
+  },
+  {
+   "word": "layık?",
+   "start": 1.74,
+   "end": 1.84
+  }
+ ],
+ "hadith": [
+  {
+   "word": "Bir",
+   "start": 0.14,
+   "end": 0.24
+  },
+  {
+   "word": "adam",
+   "start": 0.48,
+   "end": 0.56
+  },
+  {
+   "word": "Rasûlullah",
+   "start": 1.16,
+   "end": 1.37
+  },
+  {
+   "word": "sallallahu",
+   "start": 2,
+   "end": 2.17
+  },
+  {
+   "word": "aleyhi",
+   "start": 2.74,
+   "end": 2.65
+  },
+  {
+   "word": "ve",
+   "start": 3.1,
+   "end": 2.81
+  },
+  {
+   "word": "sellem'e",
+   "start": 3.32,
+   "end": 3.46
+  },
+  {
+   "word": "gelerek:",
+   "start": 3.72,
+   "end": 4.5
+  },
+  {
+   "word": "Kendisine",
+   "start": 4.96,
+   "end": 5.24
+  },
+  {
+   "word": "en",
+   "start": 5.68,
+   "end": 5.39
+  },
+  {
+   "word": "iyi",
+   "start": 5.88,
+   "end": 5.65
+  },
+  {
+   "word": "davranmam",
+   "start": 6.1,
+   "end": 6.44
+  },
+  {
+   "word": "gereken",
+   "start": 6.7,
+   "end": 7
+  },
+  {
+   "word": "kimdir?",
+   "start": 7.24,
+   "end": 8
+  },
+  {
+   "word": "diye",
+   "start": 8.08,
+   "end": 8.39
+  },
+  {
+   "word": "sordu.",
+   "start": 8.32,
+   "end": 8.92
+  },
+  {
+   "word": "Rasûlullah",
+   "start": 9.52,
+   "end": 9.59
+  },
+  {
+   "word": "sallallahu",
+   "start": 10.34,
+   "end": 10.59
+  },
+  {
+   "word": "aleyhi",
+   "start": 11.06,
+   "end": 11.09
+  },
+  {
+   "word": "ve",
+   "start": 11.38,
+   "end": 11.26
+  },
+  {
+   "word": "sellem:",
+   "start": 11.68,
+   "end": 12
+  },
+  {
+   "word": "Annen!",
+   "start": 12.72,
+   "end": 12.86
+  },
+  {
+   "word": "buyurdu.",
+   "start": 13.34,
+   "end": 14.09
+  },
+  {
+   "word": "Adam:",
+   "start": 14.6,
+   "end": 14.84
+  },
+  {
+   "word": "Ondan",
+   "start": 15.48,
+   "end": 15.39
+  },
+  {
+   "word": "sonra",
+   "start": 15.86,
+   "end": 15.92
+  },
+  {
+   "word": "kimdir?",
+   "start": 16.18,
+   "end": 16.4
+  },
+  {
+   "word": "diye",
+   "start": 16.94,
+   "end": 17
+  },
+  {
+   "word": "sordu.",
+   "start": 17.18,
+   "end": 17.52
+  },
+  {
+   "word": "Annen!",
+   "start": 18.28,
+   "end": 18.39
+  },
+  {
+   "word": "buyurdu.",
+   "start": 18.9,
+   "end": 19.52
+  },
+  {
+   "word": "Adam",
+   "start": 20.1,
+   "end": 19.93
+  },
+  {
+   "word": "tekrar",
+   "start": 20.46,
+   "end": 20.19
+  },
+  {
+   "word": "sordu:",
+   "start": 20.84,
+   "end": 21.24
+  },
+  {
+   "word": "Ondan",
+   "start": 21.9,
+   "end": 21.75
+  },
+  {
+   "word": "sonra",
+   "start": 22.3,
+   "end": 22.25
+  },
+  {
+   "word": "kim",
+   "start": 22.58,
+   "end": 22.56
+  },
+  {
+   "word": "gelir?",
+   "start": 22.92,
+   "end": 23.07
+  },
+  {
+   "word": "diye",
+   "start": 23.48,
+   "end": 23.46
+  },
+  {
+   "word": "sordu.",
+   "start": 23.76,
+   "end": 24.24
+  },
+  {
+   "word": "Annen!",
+   "start": 24.82,
+   "end": 24.84
+  },
+  {
+   "word": "buyurdu.",
+   "start": 25.46,
+   "end": 25.96
+  },
+  {
+   "word": "Adam",
+   "start": 26.62,
+   "end": 26.52
+  },
+  {
+   "word": "tekrar:",
+   "start": 27.12,
+   "end": 27.52
+  },
+  {
+   "word": "Sonra",
+   "start": 27.92,
+   "end": 28.04
+  },
+  {
+   "word": "kim",
+   "start": 28.26,
+   "end": 28.16
+  },
+  {
+   "word": "gelir?",
+   "start": 28.6,
+   "end": 28.87
+  },
+  {
+   "word": "diye",
+   "start": 29.1,
+   "end": 29.29
+  },
+  {
+   "word": "sordu.",
+   "start": 29.34,
+   "end": 29.96
+  },
+  {
+   "word": "Rasûlullah",
+   "start": 30.38,
+   "end": 30.63
+  },
+  {
+   "word": "sallallahu",
+   "start": 31.18,
+   "end": 31.68
+  },
+  {
+   "word": "aleyhi",
+   "start": 31.88,
+   "end": 32.3
+  },
+  {
+   "word": "ve",
+   "start": 32.2,
+   "end": 32.48
+  },
+  {
+   "word": "sellem:",
+   "start": 32.44,
+   "end": 33.02
+  },
+  {
+   "word": "Baban!",
+   "start": 33.3,
+   "end": 33.47
+  },
+  {
+   "word": "cevabını",
+   "start": 34.08,
+   "end": 34.01
+  },
+  {
+   "word": "verdi.",
+   "start": 34.7,
+   "end": 35.16
+  },
+  {
+   "word": "Buhârî",
+   "start": 35.52,
+   "end": 35.7
+  },
+  {
+   "word": "rivayet",
+   "start": 36.08,
+   "end": 36.33
+  },
+  {
+   "word": "etmiştir.",
+   "start": 36.5,
+   "end": 37.2
+  }
+ ],
+ "explain1": [
+  {
+   "word": "Şeyh",
+   "start": 0.28,
+   "end": 0.35
+  },
+  {
+   "word": "İbn",
+   "start": 0.7,
+   "end": 0.92
+  },
+  {
+   "word": "Baz,",
+   "start": 1.02,
+   "end": 1.54
+  },
+  {
+   "word": "Allah",
+   "start": 1.88,
+   "end": 1.98
+  },
+  {
+   "word": "ona",
+   "start": 2.18,
+   "end": 2.26
+  },
+  {
+   "word": "rahmet",
+   "start": 2.44,
+   "end": 2.78
+  },
+  {
+   "word": "etsin,",
+   "start": 2.78,
+   "end": 3.32
+  },
+  {
+   "word": "şöyle",
+   "start": 3.58,
+   "end": 3.78
+  },
+  {
+   "word": "açıkladı:",
+   "start": 4.02,
+   "end": 4.99
+  },
+  {
+   "word": "Anne",
+   "start": 5.4,
+   "end": 5.43
+  },
+  {
+   "word": "babaya",
+   "start": 5.64,
+   "end": 6.07
+  },
+  {
+   "word": "iyilik,",
+   "start": 6.06,
+   "end": 6.33
+  },
+  {
+   "word": "en",
+   "start": 6.96,
+   "end": 6.87
+  },
+  {
+   "word": "önemli",
+   "start": 7.28,
+   "end": 7.4
+  },
+  {
+   "word": "vazifelerden",
+   "start": 7.58,
+   "end": 8.27
+  },
+  {
+   "word": "ve",
+   "start": 8.7,
+   "end": 8.64
+  },
+  {
+   "word": "en",
+   "start": 9,
+   "end": 8.72
+  },
+  {
+   "word": "büyük",
+   "start": 9.28,
+   "end": 9.27
+  },
+  {
+   "word": "farzlardandır.",
+   "start": 9.56,
+   "end": 11.04
+  },
+  {
+   "word": "Allah,",
+   "start": 11.4,
+   "end": 11.39
+  },
+  {
+   "word": "anne",
+   "start": 11.8,
+   "end": 11.67
+  },
+  {
+   "word": "babanın",
+   "start": 12.04,
+   "end": 12.22
+  },
+  {
+   "word": "hakkını",
+   "start": 12.48,
+   "end": 12.86
+  },
+  {
+   "word": "kendi",
+   "start": 13.36,
+   "end": 13.21
+  },
+  {
+   "word": "hakkıyla,",
+   "start": 13.68,
+   "end": 13.82
+  },
+  {
+   "word": "tevhid",
+   "start": 14.56,
+   "end": 14.12
+  },
+  {
+   "word": "ile",
+   "start": 15,
+   "end": 14.47
+  },
+  {
+   "word": "birlikte",
+   "start": 15.32,
+   "end": 15.03
+  },
+  {
+   "word": "zikretmiştir.",
+   "start": 15.58,
+   "end": 16.24
+  }
+ ],
+ "explain2": [
+  {
+   "word": "Şeyh",
+   "start": 0.22,
+   "end": 0.44
+  },
+  {
+   "word": "İbn",
+   "start": 0.7,
+   "end": 0.99
+  },
+  {
+   "word": "Useymin,",
+   "start": 1.12,
+   "end": 1.72
+  },
+  {
+   "word": "Allah",
+   "start": 2.28,
+   "end": 2.17
+  },
+  {
+   "word": "ona",
+   "start": 2.5,
+   "end": 2.44
+  },
+  {
+   "word": "rahmet",
+   "start": 2.74,
+   "end": 2.98
+  },
+  {
+   "word": "etsin,",
+   "start": 3.04,
+   "end": 3.59
+  },
+  {
+   "word": "şöyle",
+   "start": 3.94,
+   "end": 4.21
+  },
+  {
+   "word": "dedi:",
+   "start": 4.28,
+   "end": 4.64
+  },
+  {
+   "word": "Baba",
+   "start": 5.04,
+   "end": 4.94
+  },
+  {
+   "word": "ile",
+   "start": 5.38,
+   "end": 5.2
+  },
+  {
+   "word": "annenin",
+   "start": 5.68,
+   "end": 5.65
+  },
+  {
+   "word": "isteği",
+   "start": 6.12,
+   "end": 6.12
+  },
+  {
+   "word": "çatışırsa,",
+   "start": 6.4,
+   "end": 7.27
+  },
+  {
+   "word": "ikisini",
+   "start": 7.48,
+   "end": 7.8
+  },
+  {
+   "word": "de",
+   "start": 7.84,
+   "end": 7.95
+  },
+  {
+   "word": "gözetmeli,",
+   "start": 8,
+   "end": 8.78
+  },
+  {
+   "word": "hem",
+   "start": 9.1,
+   "end": 8.99
+  },
+  {
+   "word": "babanın",
+   "start": 9.34,
+   "end": 9.69
+  },
+  {
+   "word": "hem",
+   "start": 10.14,
+   "end": 9.9
+  },
+  {
+   "word": "annenin",
+   "start": 10.44,
+   "end": 10.26
+  },
+  {
+   "word": "işini",
+   "start": 10.78,
+   "end": 10.81
+  },
+  {
+   "word": "görmelisin.",
+   "start": 11.1,
+   "end": 11.77
+  },
+  {
+   "word": "İkisi",
+   "start": 12.26,
+   "end": 12.13
+  },
+  {
+   "word": "eşitse,",
+   "start": 12.66,
+   "end": 13.2
+  },
+  {
+   "word": "anneyi",
+   "start": 13.72,
+   "end": 13.68
+  },
+  {
+   "word": "öne",
+   "start": 14.08,
+   "end": 14
+  },
+  {
+   "word": "al.",
+   "start": 14.3,
+   "end": 14.5
+  }
+ ],
+ "close": [
+  {
+   "word": "Paylaş,",
+   "start": 0.1,
+   "end": 1.22
+  },
+  {
+   "word": "Allah",
+   "start": 1.42,
+   "end": 1.49
+  },
+  {
+   "word": "amellerini",
+   "start": 1.78,
+   "end": 2.31
+  },
+  {
+   "word": "kabul",
+   "start": 2.52,
+   "end": 2.68
+  },
+  {
+   "word": "etsin.",
+   "start": 2.78,
+   "end": 3.01
+  }
+ ]
+}

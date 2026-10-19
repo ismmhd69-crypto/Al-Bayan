@@ -13,8 +13,10 @@ import {
   fonts,
   reelMetadata,
   wordTime,
+  UI,
   type AddCue,
   type HadithLayout,
+  type Lang,
   type ReelBase,
   type SceneKey,
   type SceneProps,
@@ -26,7 +28,23 @@ import {
 
 const { amiri, serif, sans } = fonts;
 
+/** Words this video shows on screen, per language. */
+export type AngerText = {
+  hook1: string;
+  hook2: string;
+  dhikrMeaning: string;
+  pill6115: string;
+  wait: string;
+  cards: [string, string, string];
+  narrator: string;
+  stamp: string;
+  line1: [string, number];
+  line2: [string, number];
+  stampWord: string;
+};
+
 export type AngerMotionProps = ReelBase & {
+  tx: AngerText;
   arabicLines: [string, string];
   quote1: string; // Ibn Baz's Arabic, first explanation (before the dhikr)
   dhikr: string; // «أعوذ بالله من الشيطان الرجيم»
@@ -39,7 +57,7 @@ export const calculateAngerMetadata = reelMetadata<AngerMotionProps>();
 // ---------------------------------------------------------------------------
 // Scene 1: hook. A strongman lifts a barbell; the crowd cheers. "Who is truly strong?"
 
-const Hook: React.FC<SceneProps> = ({ t, dur, W }) => {
+const Hook: React.FC<SceneProps & { tx: AngerText }> = ({ t, dur, W, tx }) => {
   const s = keys(t, [
     [0, 1.6],
     [1.0, 1.0],
@@ -77,9 +95,9 @@ const Hook: React.FC<SceneProps> = ({ t, dur, W }) => {
         })}
       </Camera>
       <div style={{ position: "absolute", top: 380, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center" }}>
-        <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 96, color: "#fff", opacity: who, transform: `scale(${lerp(2, 1, who)})`, textShadow: "0 10px 40px rgba(0,0,0,0.5)" }}>WHO IS</div>
+        <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 96, color: "#fff", opacity: who, transform: `scale(${lerp(2, 1, who)})`, textShadow: "0 10px 40px rgba(0,0,0,0.5)" }}>{tx.hook1}</div>
         <div style={{ position: "relative", fontFamily: sans, fontWeight: 800, fontSize: 112, color: theme.gold, opacity: truly, transform: `scale(${lerp(2.2, 1, truly)})`, textShadow: "0 10px 40px rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>
-          TRULY STRONG
+          {tx.hook2}
           <span style={{ position: "absolute", left: "100%", marginLeft: 8, display: "inline-block", transform: `scale(${q}) rotate(${(1 - q) * 30}deg)`, color: "#fff" }}>?</span>
         </div>
       </div>
@@ -95,7 +113,7 @@ const OTHER = { x: 870, feet: 1390, size: 540 };
 const kA = ANGRY.size / 520;
 const HEAD_A = { x: ANGRY.x, y: ANGRY.feet - 432 * kA };
 
-const Explain1: React.FC<SceneProps & { quote: string; dhikr: string }> = ({ t, dur, W, words, quote, dhikr }) => {
+const Explain1: React.FC<SceneProps & { quote: string; dhikr: string; tx: AngerText; lang: Lang }> = ({ t, dur, W, words, quote, dhikr, tx, lang }) => {
   const tWhen = W("when");
   const tAngry = W("angry");
   const tWord = W("i", 0);
@@ -199,18 +217,18 @@ const Explain1: React.FC<SceneProps & { quote: string; dhikr: string }> = ({ t, 
             <div lang="ar" dir="rtl" style={{ fontFamily: amiri, fontWeight: 700, fontSize: 62, lineHeight: 1.75, color: "#8a5a12" }}>
               {dhikr}
             </div>
-            <div style={{ fontFamily: serif, fontSize: 36, lineHeight: 1.3, color: "#1b2d66", marginTop: 16 }}>“I seek refuge in Allah from the accursed Shaytan.”</div>
+            <div style={{ fontFamily: serif, fontSize: 36, lineHeight: 1.3, color: "#1b2d66", marginTop: 16 }}>{tx.dhikrMeaning}</div>
           </div>
         </At>
       ) : null}
 
       <div style={{ position: "absolute", top: 270, left: 0, right: 0, display: "flex", justifyContent: "center", transform: `translate(${(1 - card) * -900}px, ${(1 - card) * -300}px) rotate(${(1 - card) * -12}deg)`, opacity: 1 - prog(t, tWord - 0.3, tWord) }}>
-        <NameCard kicker="Explanation" name="Shaykh Ibn Baz" font={serif} arabicFont={amiri} />
+        <NameCard kicker={UI[lang].explanation} name={UI[lang].ibnBaz} font={serif} arabicFont={amiri} />
       </div>
       {pill > 0 ? (
         <div style={{ position: "absolute", top: 1440, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
           <div style={{ transform: `perspective(600px) rotateX(${(1 - pill) * 90}deg)`, opacity: pill, fontFamily: serif, fontSize: 32, color: theme.gold, border: `2px solid ${theme.gold}`, borderRadius: 999, padding: "6px 26px", background: "rgba(15,26,69,0.8)" }}>
-            Hadith: Sahih al-Bukhari 6115
+            {tx.pill6115}
           </div>
         </div>
       ) : null}
@@ -223,7 +241,7 @@ const Explain1: React.FC<SceneProps & { quote: string; dhikr: string }> = ({ t, 
 // ---------------------------------------------------------------------------
 // Scene 4: "Do not be hasty" + three remedies, each on a card; he calms down step by step.
 
-const Explain2: React.FC<SceneProps & { quote: [string, string] }> = ({ t, dur, W, words, quote }) => {
+const Explain2: React.FC<SceneProps & { quote: [string, string]; tx: AngerText }> = ({ t, dur, W, words, quote, tx }) => {
   const tHasty = W("hasty");
   const tBeware = W("beware");
   const tLeave = W("leaving");
@@ -245,9 +263,9 @@ const Explain2: React.FC<SceneProps & { quote: [string, string] }> = ({ t, dur, 
   ]);
 
   const cards = [
-    { at: tLeave, x: 190, label: "LEAVE THE\nGATHERING" },
-    { at: tWudu, x: 540, label: "MAKE\nWUDU" },
-    { at: tQuran, x: 890, label: "READ THE\nQURAN" },
+    { at: tLeave, x: 190, label: tx.cards[0] },
+    { at: tWudu, x: 540, label: tx.cards[1] },
+    { at: tQuran, x: 890, label: tx.cards[2] },
   ];
 
   return (
@@ -288,7 +306,7 @@ const Explain2: React.FC<SceneProps & { quote: [string, string] }> = ({ t, dur, 
         <At x={540} y={620} style={{ transform: `translate(-50%, -50%) scale(${lerp(2.6, 1, wait) * (1 - waitOut)}) rotate(${(1 - wait) * -15}deg)`, opacity: wait * (1 - waitOut) }}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
             <WaitHand size={240} />
-            <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 80, color: "#fff", letterSpacing: "0.04em", textShadow: "0 8px 30px rgba(0,0,0,0.5)" }}>DON'T RUSH</div>
+            <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 80, color: "#fff", letterSpacing: "0.04em", textShadow: "0 8px 30px rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>{tx.wait}</div>
           </div>
         </At>
       ) : null}
@@ -303,7 +321,7 @@ const Explain2: React.FC<SceneProps & { quote: [string, string] }> = ({ t, dur, 
 // Sound cues for this video's own scenes (only the fixed sound set).
 
 const ownCues = (p: AngerMotionProps) => (add: AddCue) => {
-  const W = (scene: SceneKey) => wordTime(p.words[scene]);
+  const W = (scene: SceneKey) => wordTime(p.words[scene], p.alias?.[scene]);
   const h = W("hook");
   add("hook", 0.3, "pop", 0.3);
   add("hook", 0.5, "pop_high", 0.25);
@@ -332,12 +350,12 @@ const ownCues = (p: AngerMotionProps) => (add: AddCue) => {
 
 export const AngerMotion: React.FC<AngerMotionProps> = (p) => {
   const hadith: HadithLayout = {
-    narrator: "Narrated by Abu Huraira",
-    stamp: "Sahih al-Bukhari 6114",
+    narrator: p.tx.narrator,
+    stamp: p.tx.stamp,
     arabic: p.arabicLines,
-    line1: ["the", 1],
-    line2: ["but", 0],
-    stampWord: "reported",
+    line1: p.tx.line1,
+    line2: p.tx.line2,
+    stampWord: p.tx.stampWord,
     arabicSize: 76,
     englishSize: 44,
     contentTop: 235,
@@ -348,9 +366,9 @@ export const AngerMotion: React.FC<AngerMotionProps> = (p) => {
       p={p}
       hadith={hadith}
       scenes={{
-        hook: Hook,
-        explain1: (sp) => <Explain1 {...sp} quote={p.quote1} dhikr={p.dhikr} />,
-        explain2: (sp) => <Explain2 {...sp} quote={p.quote2} />,
+        hook: (sp) => <Hook {...sp} tx={p.tx} />,
+        explain1: (sp) => <Explain1 {...sp} quote={p.quote1} dhikr={p.dhikr} tx={p.tx} lang={p.lang} />,
+        explain2: (sp) => <Explain2 {...sp} quote={p.quote2} tx={p.tx} />,
       }}
       cues={ownCues(p)}
     />

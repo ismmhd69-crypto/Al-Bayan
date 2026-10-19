@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Bir Müslüman acı çekince, sen ne hissediyorsun?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Müminler birbirlerini sevmekte, birbirlerine merhamet etmekte ve birbirlerini korumakta bir vücuda benzerler. Vücudun bir uzvu hasta olduğu zaman, diğer uzuvlar da bu sebeple uykusuzluğa ve ateşli hastalığa tutulurlar. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Müslümanlara düşen, birbirleriyle ilgilenmeleridir."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: İhtiyaç sahipleri için dua ederler: Allah lütfuyla onlara yardım etsin, sıkıntılarını gidersin ve rahmetiyle onlara merhamet etsin diye. Çünkü Müslümanlar tek bir şey ve tek bir binadır."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

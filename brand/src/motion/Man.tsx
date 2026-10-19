@@ -33,6 +33,12 @@ export const POSES = {
   accuse: { left: { out: 18, bend: -40 }, right: { out: 82, bend: -6 }, lean: 5, headTilt: 4, bob: 0, stepL: 0, stepR: 0 },
   // Calm, hands open low.
   calm: { left: { out: 22, bend: 18 }, right: { out: 22, bend: 18 }, lean: 0, headTilt: -2, bob: 0, stepL: 0, stepR: 0 },
+  // Speaking gesture: one hand raised slightly towards chest/chin with natural inwards bend.
+  speak: { left: { out: 10, bend: 4 }, right: { out: 28, bend: -70 }, lean: -1, headTilt: 2, bob: 0, stepL: 0, stepR: 0 },
+  // Sifting / evaluating: both hands held forward thoughtfully with inwards bends.
+  sift: { left: { out: 18, bend: -42 }, right: { out: 24, bend: -54 }, lean: 2, headTilt: 4, bob: 0, stepL: 0, stepR: 0 },
+  // Guarded / quiet: hands close to sides, holding tongue.
+  quiet: { left: { out: 14, bend: -24 }, right: { out: 14, bend: -24 }, lean: 0, headTilt: -2, bob: 0, stepL: 0, stepR: 0 },
 } satisfies Record<string, Pose>;
 
 const mixArm = (a: ArmPose, b: ArmPose, p: number): ArmPose => ({ out: a.out + (b.out - a.out) * p, bend: a.bend + (b.bend - a.bend) * p });

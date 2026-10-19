@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Allah, tövbene ne kadar sevinir biliyor musun?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Kulunun tövbe etmesinden dolayı Allah Teâlâ'nın duyduğu memnuniyet, sizden birinin ıssız çölde kaybettiği devesini bulduğu zamanki sevincinden çok daha fazladır. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Samimi tövbe; geçmişe pişmanlık, günahı terk etmek ve bir daha dönmemeye kesin karar vermektir."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Kişi samimi bir tövbe ederse, Allah onun bütün günahlarını siler."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

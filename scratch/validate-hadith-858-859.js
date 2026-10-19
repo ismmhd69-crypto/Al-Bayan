@@ -1,0 +1,25 @@
+process.loadEnvFile('.env');
+const fs = require('fs');
+const { createClient } = require('@supabase/supabase-js');
+const draft = JSON.parse(fs.readFileSync('scratch/hadith-batch-858-859.json', 'utf8'));
+const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const key = process.env.SUPABASE_SECRET_KEY;
+if (!url || !key) throw new Error('missing Supabase credentials');
+const ids = draft.map(row => row.id);
+if (new Set(ids).size !== 6) throw new Error('draft does not contain six unique ids');
+for (const row of draft) {
+  if (!row.en || !row.de || /[\u0600-\u06ff]/.test(row.en + row.de) || !/[äöüÄÖÜß]/.test(row.de)) throw new Error(`text check failed: ${row.id}`);
+  if (row.en.length < 40 || row.de.length < 40) throw new Error(`text too short: ${row.id}`);
+}
+const supabase = createClient(url, key);
+(async () => {
+  const { data, error } = await supabase.from('sources').select('id,text_original').in('id', ids);
+  if (error) throw error;
+  if (data.length !== 6) throw new Error(`expected 6 source rows, found ${data.length}`);
+  for (const row of draft) {
+    const source = data.find(item => item.id === row.id);
+    const ratio = Math.max(row.en.length, row.de.length) / source.text_original.length;
+    if (ratio < 0.6 || ratio > 3.5) throw new Error(`length ratio failed: ${row.id} ${ratio}`);
+  }
+  console.log(JSON.stringify({ valid: true, count: draft.length }));
+})().catch(error => { console.error(error.message); process.exit(1); });

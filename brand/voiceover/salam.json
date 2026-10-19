@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Birbirinizi sevmenin en kolay yolu ne?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: İman etmedikçe Cennet'e giremezsiniz; birbirinizi sevmedikçe de iman etmiş olmazsınız. Yaptığınız zaman birbirinizi seveceğiniz bir şeyi size haber vereyim mi? Aranızda selamı yayınız. Müslim rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Mümin, selamı ilk vermekte cimrilik etmemeli, selama koşmalıdır. Müminin sünneti budur."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Kişi selamı ilk veren olmaya koşmalıdır. Selamı almak ise vaciptir."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

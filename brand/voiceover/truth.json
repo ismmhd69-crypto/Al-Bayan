@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Küçük bir yalan seni nereye götürür?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Hiç şüphe yok ki doğruluk iyiliğe götürür. İyilik de Cennet'e götürür. Kişi doğru sözlü olur ve doğru söylemeye devam ederse, Allah katında doğru sözlü biri olarak yazılır. Yalan kötülüğe götürür. Kötülük de Cehennem'e götürür. Kişi yalan söz söyler ve yalan konuşmaya devam ederse, Allah katında çok yalancı biri olarak yazılır. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Sadık mümin yalan söylemez. Ama imanının eksikliği ve zayıflığı yüzünden yalan söyleyebilir."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Her mümine düşen, yalandan sakınmaktır. Doğruluğu gözetmelidir."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

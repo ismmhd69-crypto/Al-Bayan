@@ -1,0 +1,20 @@
+{
+  "voice": "onyx (OpenRouter openai/gpt-audio)",
+  "scenes": {
+    "hook": {
+      "tr": "Bir köpeğe su vermek, günahlarını affettirebilir mi?"
+    },
+    "hadith": {
+      "tr": "Peygamber sallallahu aleyhi ve sellem buyurdu: Bir adam, yolda giderken çok susadı. Sonunda bir kuyuya rastladı. İçine inip susuzluğunu giderdi. Çıkınca susuzluktan soluyup toprağı yemekte olan bir köpek gördü. Adam kendi kendine: Bu köpek de benim gibi çok susamış, deyip hemen kuyuya indi, mestini su ile doldurup ağzıyla tutarak dışarı çıktı ve köpeği suladı. Allah onun bu davranışını övdü ve günahlarını affetti. Ashab: Ey Allah'ın Rasûlü! Bize hayvanlara yaptığımız iyilikler için de ecir mi var? dediler. Buyurdu: Evet! Her ciğer sahibi canlıya yapılan iyilikte bir ecir vardır. Buhârî rivayet etmiştir."
+    },
+    "explain1": {
+      "tr": "Şeyh İbn Baz, Allah ona rahmet etsin, şöyle açıkladı: Biz hayvanlara şefkatle davranmakla emrolunduk."
+    },
+    "explain2": {
+      "tr": "Ve şöyle dedi: Onlara eziyet etmemek, zulmetmemek ve ihtiyaç olmadıkça onları dövmemekle de emrolunduk."
+    },
+    "close": {
+      "tr": "Paylaş, Allah amellerini kabul etsin."
+    }
+  }
+}

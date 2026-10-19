@@ -1,0 +1,11 @@
+import { createClient } from '@supabase/supabase-js';
+import fs from 'node:fs';
+process.loadEnvFile('.env');
+const db = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SECRET_KEY, { auth: { persistSession: false } });
+const draft = JSON.parse(fs.readFileSync('scratch/hadith-batch-928-929-draft.json', 'utf8'));
+const { data, error } = await db.from('source_translations').select('source_id,lang,text').in('source_id', draft.map(x => x.id)).in('lang', ['en', 'de']);
+if (error) throw error;
+const by = new Map(data.map(x => [`${x.source_id}:${x.lang}`, x.text]));
+if (data.length !== draft.length * 2) throw new Error(`expected ${draft.length * 2} rows, got ${data.length}`);
+for (const row of draft) for (const lang of ['en', 'de']) if (by.get(`${row.id}:${lang}`) !== row[lang]) throw new Error(`text mismatch ${row.id} ${lang}`);
+console.log(`Exact database match: ${data.length} rows`);

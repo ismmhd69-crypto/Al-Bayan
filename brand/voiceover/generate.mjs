@@ -1,7 +1,8 @@
 // Makes one voiceover clip per scene with Gemini speech, then writes the
 // clip lengths so the video can time each scene to its voice.
 // Usage (from brand/): node voiceover/generate.mjs bukhari-1 en
-// Needs GEMINI_API_KEY (read from ../.env). Clips go to public/vo/<id>-<lang>-<scene>.wav
+// Needs VIDEO_TTS_API_KEY (a separate, Mo-approved video key; never the website .env) to
+// generate missing clips. Clips go to public/vo/<id>-<lang>-<scene>.wav
 import { readFileSync, writeFileSync, mkdirSync, existsSync, unlinkSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { dirname, join } from "node:path";
@@ -11,16 +12,16 @@ const here = dirname(fileURLToPath(import.meta.url));
 const [id, lang] = process.argv.slice(2);
 if (!id || !lang) throw new Error("usage: node voiceover/generate.mjs <id> <en|de>");
 
-const envFile = join(here, "..", "..", ".env");
-const key =
-  process.env.GEMINI_API_KEY ??
-  readFileSync(envFile, "utf8").match(/^GEMINI_API_KEY=(.*)$/m)?.[1]?.trim().replace(/^["']|["']$/g, "");
-if (!key) throw new Error("GEMINI_API_KEY missing");
+// API RULE (Mo, 2026-10-04): the website's keys in .env are for the website only.
+// This script never reads .env. It needs a separate key, approved by Mo for videos,
+// passed as VIDEO_TTS_API_KEY. Without it, it only levels existing recordings
+// (Mo's own voice in public/vo/<id>-<lang>-<scene>.wav) and writes their lengths.
+const key = process.env.VIDEO_TTS_API_KEY;
 
 // Free-tier speech quotas are small (about 10 a day per model), so the model can be chosen per run.
 // Fixed per language so every video sounds the same (BAYAN_PLAN.md section 15).
 // Do not change these or the voice "Charon"; if the daily quota runs out, wait a day.
-const MODEL_BY_LANG = { en: "gemini-3.1-flash-tts-preview", de: "gemini-2.5-flash-preview-tts" };
+const MODEL_BY_LANG = { en: "gemini-3.1-flash-tts-preview", de: "gemini-2.5-flash-preview-tts", tr: "gemini-3.8-flash-tts" };
 const model = process.env.TTS_MODEL ?? MODEL_BY_LANG[lang] ?? MODEL_BY_LANG.en;
 const script = JSON.parse(readFileSync(join(here, `${id}.json`), "utf8"));
 const outDir = join(here, "..", "public", "vo");
@@ -30,6 +31,7 @@ const durations = {};
 for (const [scene, texts] of Object.entries(script.scenes)) {
   const wav = join(outDir, `${id}-${lang}-${scene}.wav`);
   if (!existsSync(wav) || process.env.FORCE) {
+    if (!key) throw new Error(`${scene}: no recording at ${wav} and no approved VIDEO_TTS_API_KEY. Ask Mo for his recording or an approved video key (never use .env).`);
     let res;
     for (let attempt = 0; ; attempt++) {
       res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {

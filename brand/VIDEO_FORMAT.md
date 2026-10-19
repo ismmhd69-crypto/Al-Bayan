@@ -23,14 +23,30 @@ A Claude Code skill runs this whole process: `/bayan-video` (file `.claude/skill
 | Top bar | Star mark + "BAYAN · askbayan.org" at y 150, and a gold progress line at y 210. Visible the whole video. |
 | Safe areas | Keep text out of the top and bottom 250 px, except the top bar. |
 
+## 1a. API rule (non-negotiable)
+
+**Never use the website's API keys** (anything in `.env`: Gemini, YouTube, Quran Foundation, Sunnah.com, Supabase, OpenRouter, NVIDIA) for videos or anything else except the website, unless Mo explicitly asks for that exact use. That covers voiceovers, transcription checks and any other creation step. `generate.mjs` therefore no longer reads `.env`: it needs a separate key passed as `VIDEO_TTS_API_KEY`, and only when Mo has approved it. Otherwise the voice comes from Mo's own recording, saved as `public/vo/<id>-<lang>-<scene>.wav` (one file per scene). Word timings use local Whisper (no API), so they stay allowed. Checking quotes in the scholar library also needs Mo's go-ahead per video.
+
+**Approved exception (Mo, 2026-10-04):** the Gemini key may be used for **voiceovers only** (the `generate.mjs` voice step). Nothing else: no transcription checks, images or other tools.
+
 ## 1b. Consistency rules (same on every video)
 
 Also written in `BAYAN_PLAN.md` section 15.
 
-- **Same voice:** Gemini **"Charon"**. English always uses `gemini-3.1-flash-tts-preview` and German always uses `gemini-2.5-flash-preview-tts`; `generate.mjs` picks these by itself. If the daily free quota runs out, wait for the next day. Never switch the voice or the model.
+- **Same voice:** Gemini **"Charon"**. English always uses `gemini-3.1-flash-tts-preview`, German always uses `gemini-2.5-flash-preview-tts` and Turkish always uses `gemini-3.8-flash-tts`; `generate.mjs` picks these by itself. If the daily free quota runs out, wait for the next day. Never switch the voice or the model.
 - **Same sound effects:** only the fixed files in `public/sfx/`. Never rerun `make_sfx.py` or replace a file. Each sound keeps its meaning (section 5). Only add a sound under a new name if one is truly missing.
 - **Same look and ending:** the background, captions, top tag, camera style, character style and closing scene stay the same. Only the hook and the explanation scenes change per video.
 - **One folder per video** with its own designed cover (sections 4b and 8).
+
+## 1c. Languages (Turkish first, decided 2026-10-04)
+
+Mo's TikTok audience is in Turkey, so every video gets a **Turkish version** (own folder `out/videos/<nn>-<name>-tr/`, own cover, own post text), posted on a separate Turkish account. English stays on its own account and YouTube Shorts.
+- **Hadith in Turkish:** only HadeethEnc's human Turkish translations (`https://hadeethenc.com/api/v1/hadeeths/one/?language=tr&id=<id>`, public, no key), word for word. Find the id by searching HadeethEnc's Arabic titles. If the scholar cites a hadith, the Turkish voice quotes HadeethEnc's text and the screen shows that hadith's own Arabic wording.
+- **Scholar quotes in Turkish:** no trusted source exists, so Claude translates from the scholar's Arabic and **a Turkish speaker must check every line before posting.**
+- **How it works in code:** each video has a `tx` object (its on-screen words) and the kit has `UI[lang]` (shared words such as "Peygamber ﷺ buyurdu:", PAYLAŞ, the closing hadith). Scenes are designed around English cue words. A Turkish version maps them to the Turkish spoken words with `alias`, for example `"intention#1": ["niyet", 1]`. See `bukhari1MotionTr` and `angerMotionTr`.
+- **Before the voice exists:** `node voiceover/estimate-timings.mjs <id> tr` writes estimated timings so the layout can be checked. `python scripts/contact-sheet.py <CompId> voiceover/<id>-tr.durations.json out/frames/x.png 4` renders a review sheet (4 stills per scene; add `--frames=a,b,c` to re-check single frames). It bundles once and renders all stills in one browser via `scripts/stills.mjs`; do not run it while a render is running (both use port 3125).
+- **After the voice exists:** `word-timings.mjs` aligns the transcript to the script, so captions always show the script's exact spelling with the real timing.
+- Fonts load `latin-ext`, and the reel sets `lang`, so Turkish capitals are right (i becomes İ).
 
 ## 2. Content rules (non-negotiable)
 
@@ -157,7 +173,8 @@ cd brand
 node voiceover/generate.mjs <id> en
 node voiceover/generate.mjs <id> de
 ```
-- Uses `GEMINI_API_KEY` from `../.env`. Clips are trimmed and set to -16 LUFS, and the lengths file is written.
+- **Only with Mo's approval** and a separate video key: `VIDEO_TTS_API_KEY=... node voiceover/generate.mjs <id> en`. It never reads `.env` (section 1a). Clips are trimmed and set to -16 LUFS, and the lengths file is written.
+- Without an approved key: Mo records each scene, the files go in `public/vo/<id>-<lang>-<scene>.wav`, and you run `node voiceover/generate.mjs <id> en` to level them and write the lengths. It only processes existing files and makes no API call.
 - The **free quota is about 10 clips a day per model**. Each language has its own fixed model (set in `generate.mjs`). To redo one clip, delete its wav and rerun. If the quota runs out, wait a day; don't switch the model.
 
 ### Step 4: Word timings (also checks the words)
@@ -181,7 +198,7 @@ node voiceover/word-timings.mjs <id> en
 npx tsc --noEmit
 npx remotion still <Id> out/frames/<name>.png --frame=<n> --port=3124 --scale=0.5
 ```
-- Ports are fixed in `remotion.config.ts`: studio **3123** (`setStudioPort`), renders **3124** (`setRendererPort`). The website's dev server uses 3000. Without this, the studio's Render button opened the website on port 3000 and failed with "Error while getting compositions". Don't use the outdated `setPort`, because it puts both on the same port.
+- Ports are fixed in `remotion.config.ts`: studio **3123** (`setStudioPort`), the studio's Render button **3124**, command-line renders **3125** (`setRendererPort`, chosen by whether the studio is running the config). The website's dev server uses 3000. Without this, the studio's Render button opened the website on port 3000 and failed with "Error while getting compositions". Don't use the outdated `setPort`, because it puts both on the same port.
 - Render about 15 frames across all scenes and put them on one contact sheet. Check:
   - faces are blank;
   - no text is cut off or overlapping (Arabic over captions, logo rays over the name);
@@ -227,13 +244,21 @@ Then Mo watches it, reviews the translations and decides when to post.
 - **Higgsfield:** free plan, 3.5 credits (about 14 GPT images). Its audio tool makes speech only. That is why characters and sound effects are made in code. With paid credits we could generate richer artwork and animate it the same way.
 - **Shell edits:** don't write `\n` inside Python replacement strings in heredocs, because it turns into a real line break inside the code. Use the Edit tool or `|` markers instead.
 - **Video 02 lessons:** two characters facing each other must not both point (their hands meet and it reads as a handshake). Keep about 540 px between them and give only one an arm out. Keep the camera focus at y 960 in the hook when the title sits at the top, or the art slides under the title. Long hadith on the scroll need `arabicSize` 76, `englishSize` 44, `contentTop` 235 and `stampBottom` 22. Captions light only one word at a time (overlapping word timings once glued "THEPRESCRIBEDWUDU" together).
-- **Character options added:** `headTint` (red anger flush), `bulk` (strongman), poses `flex`, `lift`, `fists`, `accuse`, `calm`, style `MAN_STRONG`. Props: `Steam` (with colour), `ScribbleBubble`, `AngerMeter`, `Barbell`, `CrowdFigure`, `Door`, `Tap`, `Quran`, `WaitHand`, `Check`.
+- **Video 03 lessons:**
+  - **No circle mesh behind DeedsBook:** `DeedsBook` defaults `circle` to false. Translucent circle backings behind the book look muddy and grey on dark cards (Mo flagged this).
+  - **Speech bubble text clearance:** when stacking Arabic and English in a speech bubble (such as «يَنْفَع» above "BENEFICIAL"), set `lineHeight: 1.3` on the Arabic text and add top margin to the English label so deep Arabic descenders (like `ع`) never overlap English text.
+  - **Natural arm bends:** inward arm folds in front of the body must use negative bend values (`speak`, `sift`, `quiet`). Positive bends fold the forearms outward away from the body like robot wings.
+  - **Hadith stamp positioning:** set `stampBottom: 110` so the red hadith source stamp stays well clear of the lower wooden scroll roller.
+- **Character options added:** `headTint` (red anger flush), `bulk` (strongman), poses `flex`, `lift`, `fists`, `accuse`, `calm`, `speak`, `sift`, `quiet`, style `MAN_STRONG`. Props: `Steam` (with colour), `ScribbleBubble`, `AngerMeter`, `Barbell`, `CrowdFigure`, `Door`, `Tap`, `Quran`, `WaitHand`, `Check`, `SpeechBubbleGold`, `SpeechBubbleDark`, `FilterSieve`, `TickingClock`, `CrossBadge`.
+- **OpenRouter voice (Mo approved "for now", 2026-10-05):** `OPENROUTER_VIDEO_KEY=... node voiceover/generate-openrouter.mjs <id> <lang> onyx` uses OpenAI gpt-audio. It is a different voice from Gemini Charon, so it always redoes all 5 clips of a video (never mix voices in one video). `ONLY=hadith` redoes single clips. It once dropped the last sentence while its own transcript claimed it, so always check `word-timings.mjs` shows every script word matched.
 - **Mo's fixes so far:**
   - natural walking arms;
   - shorter logo rays and the logo moved up;
   - askbayan.org on the video;
   - "SHARE IT" centred;
-  - the closing hadith as on-screen text.
+  - the closing hadith as on-screen text;
+  - no circle mesh behind DeedsBook on cards;
+  - proper clearance between Arabic descenders and English labels in speech bubbles.
 
 ## 11. Ideas for later
 
