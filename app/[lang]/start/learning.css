@@ -159,10 +159,10 @@
 .prayer-meta-text{font-size:var(--fs-sm);color:var(--ink);line-height:1.6;margin:0}
 
 .prayer-unit-remembrances{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-block-start:6px}
-.prayer-remembrance-item{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 14px;display:flex;flex-direction:column;gap:3px}
+.prayer-remembrance-item{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 14px;display:flex;flex-direction:column;gap:3px;min-inline-size:0;overflow:hidden}
 .prayer-remembrance-badge{font-size:var(--fs-xs);font-weight:700;color:var(--gold-ink);text-transform:uppercase;letter-spacing:.05em}
-.prayer-remembrance-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:var(--fs-sm);font-weight:700;color:var(--accent);direction:rtl;text-align:start}
-.prayer-remembrance-phonetic{font-size:0.75rem;color:var(--ink-2);font-style:italic}
+.prayer-remembrance-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:var(--fs-sm);font-weight:700;color:var(--accent);direction:rtl;text-align:start;overflow-wrap:anywhere}
+.prayer-remembrance-phonetic{font-size:0.75rem;color:var(--ink-2);font-style:italic;overflow-wrap:anywhere}
 @media(max-width:600px){.prayer-unit-remembrances{grid-template-columns:1fr}}
 
 [lang=ar] .learning-prose{font-family:var(--f-ar-body);font-size:var(--fs-lg);line-height:2}
@@ -197,10 +197,10 @@
 .audio-play-pill:hover,.audio-play-pill.playing{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 
 /* Prayer Times Visual Component */
-.prayer-times-visual-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-block:20px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:18px}
+.prayer-times-visual-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-block:20px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:18px;inline-size:100%;max-inline-size:100%;min-inline-size:0;box-sizing:border-box}
 .prayer-times-head h3{margin:0 0 4px;font-size:var(--fs-lg);color:var(--ink)}
 .prayer-times-sub{margin:0;font-size:var(--fs-sm);color:var(--ink-2)}
-.sky-continuum-wrapper{overflow-x:auto;padding:8px 6px;margin:-4px -6px}
+.sky-continuum-wrapper{overflow-x:auto;padding:8px 6px;margin:-4px -6px;inline-size:100%;max-inline-size:100%;min-inline-size:0;-webkit-overflow-scrolling:touch}
 .sky-continuum-bar{display:flex;gap:8px;min-inline-size:520px}
 .sky-node{flex:1;padding:10px 12px;border-radius:8px;border:2px solid transparent;color:#fff;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;transition:all .2s;box-shadow:0 2px 4px rgba(0,0,0,.15)}
 .sky-node:hover{transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,.25)}
@@ -257,11 +257,11 @@
 .fatihah-verse-meaning{font-size:var(--fs-sm);color:var(--ink-2);line-height:1.5}
 
 /* Five Pillars Visual Component */
-.pillars-visual-card,.iman-visual-card,.ramadan-visual-card,.hajj-visual-card,.dua-etiquette-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-block:22px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:18px}
+.pillars-visual-card,.iman-visual-card,.ramadan-visual-card,.hajj-visual-card,.dua-etiquette-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-block:22px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:18px;inline-size:100%;max-inline-size:100%;min-inline-size:0;box-sizing:border-box}
 .pillars-visual-head h3,.iman-visual-head h3,.ramadan-visual-head h3,.hajj-visual-head h3,.dua-etiquette-head h3{margin:0 0 4px;font-size:var(--fs-lg);color:var(--ink)}
 .pillars-visual-sub,.iman-visual-sub,.ramadan-visual-sub,.hajj-visual-sub,.dua-etiquette-sub{margin:0;font-size:var(--fs-sm);color:var(--ink-2)}
 
-.pillars-row-wrapper{overflow-x:auto;padding-block:4px}
+.pillars-row-wrapper{overflow-x:auto;padding-block:4px;inline-size:100%;max-inline-size:100%;min-inline-size:0;-webkit-overflow-scrolling:touch}
 .pillars-row{display:flex;gap:10px;min-inline-size:520px}
 .pillar-tab{flex:1;min-inline-size:90px;padding:12px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface-2);display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;transition:all .2s}
 .pillar-tab:hover,.pillar-tab.active{border-color:var(--pillar-color);background:var(--surface);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
@@ -270,66 +270,66 @@
 .pillar-tab-name{font-size:var(--fs-sm);color:var(--ink);font-weight:600;white-space:nowrap}
 .pillar-tab-ar{font-size:0.75rem;color:var(--ink-2);font-family:var(--f-ar-display,var(--f-ar-body))}
 
-.pillar-spotlight-box{background:var(--surface-2);border:1px solid var(--line);border-inline-start:4px solid var(--accent);border-radius:var(--radius);padding:18px 22px;display:flex;flex-direction:column;gap:12px}
-.pillar-spotlight-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.pillar-spotlight-meta{display:flex;flex-direction:column;gap:6px}
+.pillar-spotlight-box{background:var(--surface-2);border:1px solid var(--line);border-inline-start:4px solid var(--accent);border-radius:var(--radius);padding:18px 22px;display:flex;flex-direction:column;gap:12px;min-inline-size:0}
+.pillar-spotlight-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;min-inline-size:0}
+.pillar-spotlight-meta{display:flex;flex-direction:column;gap:6px;min-inline-size:0;flex:1}
 .pillar-spotlight-badge{display:inline-flex;font-size:var(--fs-xs);font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid currentColor;max-inline-size:max-content;white-space:nowrap}
 .pillar-spotlight-title{margin:0;font-size:var(--fs-xl);color:var(--ink)}
-.pillar-arabic-callout{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.35rem;font-weight:700;color:var(--accent);line-height:1.6}
+.pillar-arabic-callout{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.35rem;font-weight:700;color:var(--accent);line-height:1.6;overflow-wrap:anywhere;word-break:normal}
 .pillar-spotlight-summary{margin:0;font-size:var(--fs-sm);color:var(--ink);line-height:1.7}
 
-.pillars-overview-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-.pillar-mini-card{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;display:flex;flex-direction:column;gap:8px;cursor:pointer;transition:all .15s}
+.pillars-overview-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;min-inline-size:0}
+.pillar-mini-card{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;display:flex;flex-direction:column;gap:8px;cursor:pointer;transition:all .15s;min-inline-size:0}
 .pillar-mini-card:hover,.pillar-mini-card.selected{border-color:var(--mini-color);background:var(--surface);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
 .pillar-mini-card:last-child:nth-child(odd){grid-column:1/-1}
-.pillar-mini-head{display:flex;align-items:center;gap:8px}
+.pillar-mini-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .pillar-mini-badge{inline-size:22px;block-size:22px;border-radius:50%;background:var(--mini-color);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;flex-shrink:0}
-.pillar-mini-name{font-size:var(--fs-sm);font-weight:700;color:var(--ink);white-space:nowrap}
-.pillar-mini-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.15rem;font-weight:700;color:var(--accent);line-height:1.4}
-.pillar-mini-nature{font-size:0.84rem;color:var(--ink-2);line-height:1.5;white-space:nowrap}
+.pillar-mini-name{font-size:var(--fs-sm);font-weight:700;color:var(--ink)}
+.pillar-mini-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.15rem;font-weight:700;color:var(--accent);line-height:1.4;overflow-wrap:anywhere;word-break:normal}
+.pillar-mini-nature{font-size:0.84rem;color:var(--ink-2);line-height:1.5;overflow-wrap:anywhere;word-break:normal}
 
 /* Six Pillars of Iman Component */
-.iman-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-.iman-card{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:all .2s}
+.iman-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;min-inline-size:0}
+.iman-card{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:all .2s;min-inline-size:0}
 .iman-card:hover,.iman-card.selected{border-color:var(--iman-color);background:var(--surface);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
-.iman-card-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.iman-card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .iman-badge{font-size:var(--fs-xs);font-weight:700;color:var(--iman-color);text-transform:uppercase;letter-spacing:.05em;white-space:nowrap;flex-shrink:0}
 .iman-card-name{font-size:var(--fs-sm);font-weight:700;color:var(--ink);text-align:end}
-.iman-card-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.15rem;font-weight:700;color:var(--accent);line-height:1.4}
+.iman-card-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.15rem;font-weight:700;color:var(--accent);line-height:1.4;overflow-wrap:anywhere}
 .iman-card-detail{margin:0;font-size:0.86rem;color:var(--ink-2);line-height:1.6}
 
 /* Ramadan Timeline Component */
-.ramadan-timeline-row{display:flex;gap:8px;overflow-x:auto;padding:8px 6px;margin:-4px -6px}
+.ramadan-timeline-row{display:flex;gap:8px;overflow-x:auto;padding:8px 6px;margin:-4px -6px;inline-size:100%;max-inline-size:100%;min-inline-size:0;-webkit-overflow-scrolling:touch}
 .ramadan-step-btn{flex:1;min-inline-size:110px;padding:10px;border-radius:8px;border:1px solid var(--line);background:var(--surface-2);display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;transition:all .15s}
 .ramadan-step-btn:hover,.ramadan-step-btn.active{border-color:var(--accent);background:var(--surface);box-shadow:var(--shadow-sm)}
 .ramadan-step-num{inline-size:20px;block-size:20px;border-radius:50%;background:var(--gold-soft);color:var(--gold-ink);font-size:0.72rem;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
 .ramadan-step-time{font-size:0.68rem;color:var(--ink-3);font-weight:600}
 .ramadan-step-name{font-size:var(--fs-xs);font-weight:700;color:var(--ink);text-align:center}
 
-.ramadan-spotlight-card{background:var(--surface-2);border:1px solid var(--line);border-inline-start:4px solid var(--gold);border-radius:var(--radius);padding:18px 22px;display:flex;flex-direction:column;gap:12px}
+.ramadan-spotlight-card{background:var(--surface-2);border:1px solid var(--line);border-inline-start:4px solid var(--gold);border-radius:var(--radius);padding:18px 22px;display:flex;flex-direction:column;gap:12px;min-inline-size:0}
 .ramadan-spotlight-header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .ramadan-time-badge{font-size:var(--fs-xs);font-weight:700;color:var(--gold-ink);text-transform:uppercase;letter-spacing:.05em}
 .ramadan-spotlight-title{margin:2px 0 0;font-size:var(--fs-lg);color:var(--ink)}
-.ramadan-arabic-tag{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.2rem;font-weight:700;color:var(--accent)}
+.ramadan-arabic-tag{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.2rem;font-weight:700;color:var(--accent);overflow-wrap:anywhere}
 .ramadan-spotlight-detail{margin:0;font-size:var(--fs-sm);color:var(--ink);line-height:1.7}
-.ramadan-dua-box{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;margin-block-start:8px}
+.ramadan-dua-box{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;margin-block-start:8px;min-inline-size:0}
 .ramadan-dua-label{font-size:var(--fs-xs);font-weight:700;color:var(--gold-ink);text-transform:uppercase;letter-spacing:.05em}
-.ramadan-dua-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.2rem;font-weight:700;color:var(--accent);line-height:1.6}
+.ramadan-dua-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.2rem;font-weight:700;color:var(--accent);line-height:1.6;overflow-wrap:anywhere}
 .ramadan-dua-phonetic{font-size:0.8rem;color:var(--ink);font-style:italic}
 .ramadan-dua-meaning{font-size:0.82rem;color:var(--ink-2);line-height:1.5}
 
 /* Hajj Stations Component */
-.hajj-talbiyah-card{background:var(--surface-2);border:1px solid var(--gold-line);border-radius:var(--radius);padding:18px 22px;display:flex;flex-direction:column;gap:10px}
+.hajj-talbiyah-card{background:var(--surface-2);border:1px solid var(--gold-line);border-radius:var(--radius);padding:18px 22px;display:flex;flex-direction:column;gap:10px;min-inline-size:0}
 .hajj-talbiyah-title{display:flex;align-items:center;gap:8px;font-size:var(--fs-sm);font-weight:700;color:var(--gold-ink);text-transform:uppercase;letter-spacing:.05em}
-.hajj-talbiyah-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.35rem;font-weight:700;color:var(--accent);line-height:1.8}
+.hajj-talbiyah-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.35rem;font-weight:700;color:var(--accent);line-height:1.8;overflow-wrap:anywhere}
 .hajj-talbiyah-phonetic{font-size:0.85rem;color:var(--ink);font-style:italic;line-height:1.5}
-.hajj-stations-row{display:flex;gap:8px;overflow-x:auto;padding-block:4px}
+.hajj-stations-row{display:flex;gap:8px;overflow-x:auto;padding-block:4px;inline-size:100%;max-inline-size:100%;min-inline-size:0;-webkit-overflow-scrolling:touch}
 .hajj-station-tab{flex:1;min-inline-size:110px;padding:10px;border-radius:8px;border:1px solid var(--line);background:var(--surface-2);display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;transition:all .15s}
 .hajj-station-tab:hover,.hajj-station-tab.active{border-color:var(--accent);background:var(--surface);box-shadow:var(--shadow-sm)}
 .hajj-num-badge{inline-size:22px;block-size:22px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-size:0.75rem;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
 .hajj-tab-name{font-size:var(--fs-xs);font-weight:700;color:var(--ink);text-align:center}
-.hajj-spotlight-box{background:var(--surface-2);border:1px solid var(--line);border-inline-start:4px solid var(--accent);border-radius:var(--radius);padding:18px 22px;display:flex;flex-direction:column;gap:12px}
-.hajj-spotlight-header{display:flex;align-items:center;gap:10px}
+.hajj-spotlight-box{background:var(--surface-2);border:1px solid var(--line);border-inline-start:4px solid var(--accent);border-radius:var(--radius);padding:18px 22px;display:flex;flex-direction:column;gap:12px;min-inline-size:0}
+.hajj-spotlight-header{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .hajj-badge{font-size:var(--fs-xs);font-weight:700;color:var(--gold-ink);background:var(--gold-soft);border:1px solid var(--gold-line);padding:2px 10px;border-radius:999px}
 .hajj-spotlight-title{margin:0;font-size:var(--fs-xl);color:var(--ink)}
 .hajj-meta-row{display:flex;gap:16px;flex-wrap:wrap;font-size:var(--fs-xs);color:var(--ink-2)}
@@ -337,12 +337,12 @@
 .hajj-spotlight-detail{margin:0;font-size:var(--fs-sm);color:var(--ink);line-height:1.7}
 
 /* Dua Etiquette Component */
-.dua-etiquette-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-.dua-etiquette-item{background:var(--surface-2);border:1px solid var(--line);border-inline-start:3px solid var(--eti-color);border-radius:var(--radius);padding:16px 18px;display:flex;flex-direction:column;gap:8px}
-.dua-eti-top{display:flex;align-items:center;justify-content:space-between}
+.dua-etiquette-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;min-inline-size:0}
+.dua-etiquette-item{background:var(--surface-2);border:1px solid var(--line);border-inline-start:3px solid var(--eti-color);border-radius:var(--radius);padding:16px 18px;display:flex;flex-direction:column;gap:8px;min-inline-size:0}
+.dua-eti-top{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
 .dua-eti-badge{font-size:var(--fs-xs);font-weight:700;color:var(--eti-color);text-transform:uppercase;letter-spacing:.05em}
 .dua-eti-title{margin:0;font-size:var(--fs-md);color:var(--ink)}
-.dua-eti-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.15rem;font-weight:700;color:var(--accent);line-height:1.4}
+.dua-eti-ar{font-family:var(--f-ar-display,var(--f-ar-body));font-size:1.15rem;font-weight:700;color:var(--accent);line-height:1.4;overflow-wrap:anywhere}
 .dua-eti-summary{margin:0;font-size:0.82rem;color:var(--ink-2);line-height:1.6}
 
 @media(max-width:768px){
@@ -350,6 +350,25 @@
   .pillar-mini-card:last-child:nth-child(odd){grid-column:auto}
   .iman-grid{grid-template-columns:1fr}
   .dua-etiquette-grid{grid-template-columns:1fr}
+}
+
+@media(max-width:640px){
+  .pillars-visual-card,.iman-visual-card,.ramadan-visual-card,.hajj-visual-card,.dua-etiquette-card,.prayer-times-visual-card,.fatihah-trainer-card,.prayer-unit-tracker{padding:16px 14px;gap:14px}
+  .pillar-spotlight-box{padding:14px 14px}
+  .pillar-spotlight-top{flex-direction:column;align-items:stretch;gap:8px}
+  .pillar-arabic-callout{font-size:1.15rem;text-align:start}
+  .pillar-mini-card{padding:12px 14px}
+  .spotlight-header{flex-wrap:wrap;gap:8px}
+  .spotlight-details-grid{grid-template-columns:1fr}
+  .prayer-times-overview-grid{grid-template-columns:1fr}
+  .prayer-mini-card{padding:10px 12px}
+  .ramadan-spotlight-card{padding:14px 14px}
+  .ramadan-spotlight-header{flex-direction:column;align-items:flex-start;gap:6px}
+  .hajj-spotlight-box{padding:14px 14px}
+  .hajj-meta-row{gap:10px}
+  .fatihah-trainer-card{padding:16px 14px}
+  .fatihah-trainer-head{flex-direction:column;align-items:stretch;gap:12px}
+  .fatihah-full-play-btn{align-self:flex-start}
 }
 
 

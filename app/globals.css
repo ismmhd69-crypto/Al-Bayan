@@ -51,6 +51,8 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  max-inline-size: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -61,6 +63,8 @@ body {
   font-size: var(--fs-md);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  max-inline-size: 100%;
+  overflow-x: hidden;
 }
 
 h1,
@@ -210,6 +214,9 @@ svg {
 /* ---------- shell: phone first ---------- */
 .shell {
   min-block-size: 100dvh;
+  inline-size: 100%;
+  max-inline-size: 100%;
+  overflow-x: hidden;
 }
 
 .sidebar {
@@ -237,6 +244,9 @@ svg {
 .main {
   outline: none;
   padding-block-end: calc(var(--tabbar) + env(safe-area-inset-bottom, 0px) + 24px);
+  inline-size: 100%;
+  min-inline-size: 0;
+  max-inline-size: 100%;
 }
 
 .tabbar {
@@ -379,12 +389,20 @@ svg {
 .home {
   inline-size: 100%;
   max-inline-size: 760px;
+  min-inline-size: 0;
   margin-inline: auto;
   padding: 24px 16px;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 24px;
   align-content: start;
+}
+@media (max-width: 640px) {
+  .page,
+  .home {
+    padding: 20px 14px;
+    gap: 18px;
+  }
 }
 @media (min-width: 960px) {
   .page,
