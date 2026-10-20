@@ -1,6 +1,6 @@
 "use client";
 
-import type { AnswerV2 } from "@/lib/ask/answer-v2";
+import type { SavedAnswer } from "./answer-store";
 import { browserSupabase } from "@/lib/supabase-browser";
 import { chatTitle, stripAnswer } from "./answer-store";
 
@@ -8,7 +8,7 @@ import { chatTitle, stripAnswer } from "./answer-store";
 // the database only ever lets them see and change their own rows (row-level security).
 
 export type ChatSummary = { id: string; title: string; updated_at: string; turns: number };
-export type SavedReply = { kind: "answer"; answer: AnswerV2 } | { kind: "text"; text: string };
+export type SavedReply = { kind: "answer"; answer: SavedAnswer } | { kind: "text"; text: string };
 export type OpenedTurn = { question: string; reply: SavedReply | { kind: "unavailable" } };
 export type OpenedChat = { id: string; turns: OpenedTurn[] };
 
@@ -30,7 +30,7 @@ export async function listChats(): Promise<ChatSummary[]> {
   }));
 }
 
-type TurnRow = { position: number; question: string; kind: "answer" | "text"; answer: AnswerV2 | null; text_reply: string | null };
+type TurnRow = { position: number; question: string; kind: "answer" | "text"; answer: SavedAnswer | null; text_reply: string | null };
 
 /** Opens a chat: its questions, with the saved answers' Quran and hadith texts loaded fresh again. */
 export async function openChat(id: string): Promise<OpenedChat> {
@@ -44,7 +44,7 @@ export async function openChat(id: string): Promise<OpenedChat> {
   const rows = (data ?? []) as TurnRow[];
 
   const stored = rows.filter((r) => r.kind === "answer" && r.answer);
-  let results: ({ ok: true; answer: AnswerV2 } | { ok: false })[] = [];
+  let results: ({ ok: true; answer: SavedAnswer } | { ok: false })[] = [];
   if (stored.length > 0) {
     const token = (await supabase.auth.getSession()).data.session?.access_token;
     if (!token) throw new Error("not signed in");

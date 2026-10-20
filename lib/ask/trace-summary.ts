@@ -5,7 +5,7 @@ import type { StructuredDraft } from "./checks";
 const record = (raw: unknown): Record<string, unknown> => raw && typeof raw === "object" && !Array.isArray(raw) ? raw as Record<string, unknown> : {};
 export function frameSummary(frame: QuestionFrame) {
   return { language: frame.language, kind: frame.kind, question_type: frame.questionType, qualifier_count: frame.qualifiers.length,
-    interpretation_count: frame.interpretations?.length ?? 0, requirements: frame.requirements.map((r) => ({ requirement_id: r.id, facet: r.facet })),
+    interpretation_count: frame.interpretations?.length ?? 0, requirements: frame.requirements.map((r) => ({ requirement_id: r.id, facet: r.facet, scope: r.scope ?? "general" })),
     queries: { english_query_count: (frame.searchQueries.en ?? []).length, german_query_count: (frame.searchQueries.de ?? []).length, arabic_query_count: (frame.searchQueries.ar ?? []).length }, has_arabic_queries: !!frame.searchQueries.ar?.length };
 }
 export function sourceSummary(candidate: PassageForSelection) {
@@ -13,7 +13,7 @@ export function sourceSummary(candidate: PassageForSelection) {
   const original = source.kind === "quran" ? source.verse.arabic : source.kind === "hadith" ? source.hadith.arabic : source.quote.arabic;
   const translations = source.kind === "quran" ? source.verse.translations : source.kind === "hadith" ? source.hadith.translations : { en: null, de: null };
   return { source_id: candidate.id, kind: source.kind, original_chars: original?.length ?? 0, english_chars: translations.en?.length ?? 0, german_chars: translations.de?.length ?? 0,
-    readable: !!(original?.trim() || translations.en?.trim() || translations.de?.trim()), context_count: candidate.context.length,
+    readable: !!(original?.trim() || translations.en?.trim() || translations.de?.trim()), context_count: candidate.context.length, ...("contribution" in candidate && candidate.contribution ? { contribution: candidate.contribution } : {}),
     fingerprint: createHash("sha256").update(JSON.stringify([original, translations.en, translations.de])).digest("hex") };
 }
 export function selectionSummary(raw: unknown, frame: QuestionFrame, candidates: PassageForSelection[]) {
@@ -25,7 +25,7 @@ export function selectionSummary(raw: unknown, frame: QuestionFrame, candidates:
     direct_count: direct.length, partial_count: assessments.filter((a) => a.relevance === "partial").length,
     unsafe_count: assessments.filter((a) => a.context_safe !== "yes").length,
     unassigned_count: assessments.filter((a) => !Array.isArray(a.supported_requirement_ids) || !a.supported_requirement_ids.length).length,
-    assessments: assessments.slice(0, 40).map((a) => ({ source_id: a.source_id, source_known: candidates.some((c) => c.id === a.source_id), relevance: a.relevance, context_safe: a.context_safe, requirement_ids: a.supported_requirement_ids })),
+    assessments: assessments.slice(0, 40).map((a) => ({ source_id: a.source_id, source_known: candidates.some((c) => c.id === a.source_id), relevance: a.relevance, context_safe: a.context_safe, contribution: a.contribution, scope_matches_question: a.scope_matches_question, requirement_ids: a.supported_requirement_ids, related_requirement_ids: a.related_requirement_ids, distinct_contribution: a.distinct_contribution })),
     coverage: frame.requirements.map((point) => ({ requirement_id: point.id, direct_count: direct.filter((a) => (a.supported_requirement_ids as unknown[]).includes(point.id) && candidates.some((c) => c.id === a.source_id)).length })) };
 }
 export function draftSummary(answer: StructuredDraft) {

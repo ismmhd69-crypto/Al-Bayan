@@ -6,10 +6,23 @@
 // fresh from their sources, when a chat is opened.
 
 import type { AnswerV2 } from "@/lib/ask/answer-v2";
+import type { RichAnswer } from "@/lib/ask/rich-answer";
+export type SavedAnswer = AnswerV2 | RichAnswer;
 
 /** The stored copy: the same shape as AnswerV2, with the source texts blanked. */
-export function stripAnswer(answer: AnswerV2): AnswerV2 {
+export function stripAnswer<T extends SavedAnswer>(answer: T): T {
   const copy = structuredClone(answer);
+  if ((copy.version === 3 || copy.version === 4)) {
+    for (const section of copy.sections) for (const source of section.sources) {
+      const e = source.evidence;
+      if (e.kind === "scholar") continue;
+      e.arabic = "";
+      e.translation = null;
+      if (e.kind === "quran") e.translationName = null;
+      else { e.gradeAr = ""; e.attributionAr = ""; e.translationLanguage = null; delete e.chapter; }
+    }
+    return copy;
+  }
   for (const card of copy.quran) {
     for (const verse of card.verses) {
       verse.arabic = "";

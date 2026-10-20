@@ -1,6 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { diagnosticLogger } from "@/lib/ask/diagnostics";
 import { withAskRequest, errorCategory } from "@/lib/ask/trace-context";
+import { localAskUnhurried } from "@/lib/ask/settings";
 import { askClaimAudit, askLibraryFlow, askTiered } from "@/lib/ask/settings";
 import { NextResponse } from "next/server";
 import { isLocale } from "@/lib/i18n";
@@ -63,7 +64,9 @@ export async function POST(request: Request) {
 
   try {
     log("request", "request_validated", Date.now() - started, { question_chars: question.trim().length, history_count: history.length, language: lang });
-    const result = await withAskRequest(requestId, () => withSlot(() => history.length ? ask(question.trim(), lang, undefined, history) : ask(question.trim(), lang)), started);
+    const result = await withAskRequest(requestId, () => withSlot(() => localAskUnhurried()
+      ? ask(question.trim(), lang, undefined, history, { signal: request.signal })
+      : history.length ? ask(question.trim(), lang, undefined, history) : ask(question.trim(), lang)), started);
     if (result.status === "answer" && result.answer.v2) {
       const displayStarted = Date.now();
       log("display", "display_translation_started", Date.now() - started);

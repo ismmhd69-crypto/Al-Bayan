@@ -10,6 +10,7 @@ export type DiagnosticContext = {
   tiered: boolean;
   lean: boolean;
   libraryFlow?: boolean;
+  rich?: boolean;
 };
 
 // Fixed fields only. Neither raw AI output nor visitor content belongs in function logs.
@@ -21,6 +22,7 @@ export function diagnosticLogger(enabled: boolean, context: DiagnosticContext, s
     writer_chain: model(context.writerChain), verifier_chain: model(context.verifierChain),
     claim_audit: context.claimAudit, tiered: context.tiered, lean: context.lean,
     ...(context.libraryFlow !== undefined ? { library_flow: context.libraryFlow } : {}),
+    ...(context.rich !== undefined ? { rich: context.rich } : {}),
   };
   return (stage: DiagnosticStage, code: string, elapsedMs: number, details?: unknown) => {
     if (!enabled || !(DIAGNOSTIC_STAGES as readonly string[]).includes(stage)
@@ -33,15 +35,17 @@ export function diagnosticLogger(enabled: boolean, context: DiagnosticContext, s
   };
 }
 
-const containers = new Set(["requirements", "sources", "assessments", "claims", "checks", "coverage", "queries", "filters"]);
+const containers = new Set(["requirements", "sources", "assessments", "claims", "checks", "coverage", "queries", "filters", "contribution"]);
 const numbers = new Set("english_query_count german_query_count arabic_query_count count question_chars history_count qualifier_count interpretation_count duration_ms deadline_ms remaining_ms quran hadith scholar videos before after dropped original_chars english_chars german_chars context_count prompt_chars schema_chars max_output_tokens attempt http_status prompt_tokens completion_tokens reasoning_tokens cost_usd simple_count list_count explanation_count note_count claim_chars unique_sources expected_count actual_count direct_count partial_count unsafe_count unassigned_count duplicate_count missing_count query_count hits ceiling_hits wrong_kind_or_unavailable missing_text length continuation title_or_topic authenticity eligible returned direct yes no unsure invalid missing covered".split(" "));
 const booleans = new Set("scholar_enabled live_scholar_enabled videos_enabled prepared_enabled approved_topics_enabled logging_truncated manual_reviewed enabled skipped source_known readable english_present german_present original_present valid supported whole_answer_ok complete expected allowed configuration_missing body_valid fallback json_mode correction has_arabic_queries".split(" "));
 const ids = new Set(["id", "source_id", "claim_id", "requirement_id", "call_id"]);
-const lists = new Set(["source_ids", "requirement_ids", "missing_requirement_ids", "unassessed_source_ids", "dropped_source_ids"]);
+const lists = new Set(["source_ids", "claim_ids", "requirement_ids", "missing_requirement_ids", "related_requirement_ids", "unassessed_source_ids", "dropped_source_ids"]);
 const enums: Record<string, string[]> = {
+  distinct_contribution: ["yes", "no", "unsure"],
+  scope: ["general", "case_specific"], scope_matches_question: ["yes", "no", "unsure"],
   language: ["en", "de", "ar"], kind: ["quran", "hadith", "scholar", "question", "personal", "greeting", "off_topic", "harmful"],
-  role: ["writer", "checker"], phase: ["frame", "selection", "draft", "screening", "videos", "prepared", "other"],
-  status: ["ready", "insufficient", "ambiguous", "conflicting", "answer", "no_answer", "no_source", "no_summary", "ask_scholar", "out_of_scope", "clarify", "busy", "error", "not_ready", "rate_limited", "forbidden", "bad_request", "too_long"],
+  role: ["writer", "checker", "direct", "background", "limited_example"], phase: ["frame", "selection", "draft", "screening", "reranking", "recovery_planning", "videos", "prepared", "other"],
+  status: ["ready", "insufficient", "ambiguous", "conflicting", "answer", "rich_answer", "incomplete", "no_answer", "no_source", "no_summary", "ask_scholar", "out_of_scope", "clarify", "busy", "error", "not_ready", "rate_limited", "forbidden", "bad_request", "too_long"],
   outcome: ["started", "finished", "failed", "timeout", "busy", "aborted", "other", "matched", "miss", "disabled", "skipped"],
   coverage_decision: ["complete", "incomplete", "uncertain"], conflict: ["none", "revelation_conflict", "scholar_difference", "uncertain"],
   relevance: ["direct", "partial", "context", "mention_only", "unrelated"], context_safe: ["yes", "no", "unsure"],

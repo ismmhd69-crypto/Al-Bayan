@@ -33,7 +33,22 @@ export const TIERED_DRAFT_RULES = `
 11. TIERED ORDER. The sealed package lists Quran verses first, then hadith, then scholar quotes. Write simple_answer in that order: first what the Quran states (citing the verse), then what the Prophet taught (citing the hadith), then the scholars' ruling (citing the scholar quote and naming the scholar). Give at least one sentence for every source type present in the package.
 12. Only approved scholars give rulings. A ruling word (halal, haram, obligatory, forbidden, prohibited, allowed, permissible, lawful, unlawful, sinful, or the same in German or Arabic) may appear only in a sentence that cites a scholar quote. This also applies when you introduce it with 'The Quran states': that phrase is not an exemption. A sentence citing only a verse or hadith restates what that passage says, without ruling words and without drawing a ruling from it. When both a verse and a scholar explicitly state the same fact, a sentence may cite both, but attribute the ruling to the named scholar; never add a scholar citation that does not explicitly support the claim.`;
 
-const assessmentItem = (requirementIds: string[]): JsonSchema => ({
+export const CONTRIBUTION_FIELDS: Record<string, JsonSchema> = {
+  contribution: { type: "object", properties: {
+    role: { type: "string", enum: ["direct", "background", "limited_example"] },
+    scope: { type: "string", enum: ["general", "case_specific"] },
+    conditions: { type: "array", items: { type: "string", maxLength: 200 }, maxItems: 6 },
+  }, required: ["role", "scope", "conditions"] },
+  scope_matches_question: { type: "string", enum: ["yes", "no", "unsure"] },
+  related_requirement_ids: { type: "array", items: { type: "string" }, maxItems: 4 },
+  distinct_contribution: { type: "string", enum: ["yes", "no", "unsure"] },
+};
+
+export const CONTRIBUTION_RULES = `RICH EVIDENCE CONTRACT, overriding the legacy whole-point relevance definitions above: assess support for individual explicit statements separately from completeness of the entire requested point. A direct passage supplies an explicit answer statement; a partial passage with role direct supplies an explicit complementary part of an answer, never an inferred fact. Assign supported_requirement_ids only to these direct contributions when scope_matches_question is yes. Several direct contributions can jointly establish a complete answer; verify that the combined originals really establish every necessary step and condition before marking coverage complete. A missing explanation or cause cannot be invented by combining merely related facts.
+Background and limited_example passages may be context or partial and must have empty supported_requirement_ids. They may explain a relevant principle without settling the requested procedure. Record related_requirement_ids identifying the actual question parts they help explain, and distinct_contribution yes only if the original adds a useful explanation or qualification not duplicated by better evidence. Mention-only and unrelated candidates are never usable context. Do not classify relevant background as mention_only simply because it does not answer the entire question.
+For every candidate record contribution role, scope and conditions stated in its original. A case-specific passage cannot establish a universal instruction. Limited examples retain their audience and conditions and never count as direct coverage for a general question. Preserve the reader's question; never add a requested point to fit the sources. These rules apply to every topic. Search hints and familiar references do not approve evidence.`;
+
+const assessmentItem = (requirementIds: string[], rich = false): JsonSchema => ({
   type: "object",
   properties: {
     source_id: { type: "string" },
@@ -41,12 +56,13 @@ const assessmentItem = (requirementIds: string[]): JsonSchema => ({
     supported_requirement_ids: { type: "array", items: { type: "string", enum: requirementIds } },
     context_safe: { type: "string", enum: ["yes", "no", "unsure"] },
     position: { type: "string" },
+    ...(rich ? CONTRIBUTION_FIELDS : {}),
   },
-  required: ["source_id", "relevance", "supported_requirement_ids", "context_safe", "position"],
+  required: ["source_id", "relevance", "supported_requirement_ids", "context_safe", "position", ...(rich ? Object.keys(CONTRIBUTION_FIELDS) : [])],
 });
 
-export function tieredSelectionSchema(requirementIds: string[]): JsonSchema {
-  const list: JsonSchema = { type: "array", items: assessmentItem(requirementIds) };
+export function tieredSelectionSchema(requirementIds: string[], rich = false): JsonSchema {
+  const list: JsonSchema = { type: "array", items: assessmentItem(requirementIds, rich) };
   return {
     type: "object",
     properties: {

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "purpose": "Frozen question checklist and review set. These are questions, not approved religious answers. Offline scripted checks establish implementation behaviour only.",
+  "cases": [
+    { "id": "belief-purpose", "category": "belief", "kind": "question", "facets": ["reason", "response"], "concerns": ["Purpose of worship", "Whether Allah needs our worship"], "referenceHints": false, "liveLanguage": "en", "questions": {
+      "en": "Why do we worship Allah if He does not need anything from us?",
+      "ar": "لماذا نعبد الله إذا كان لا يحتاج إلى شيء منا؟",
+      "de": "Warum beten wir Allah an, wenn Er nichts von uns braucht?"
+    } },
+    { "id": "belief-last-day", "category": "belief", "kind": "question", "facets": ["definition", "reason"], "concerns": ["Meaning of belief in the Last Day", "Its relationship to responsibility"], "referenceHints": false, "questions": {
+      "en": "What does believing in the Last Day mean, and how does it relate to responsibility?",
+      "ar": "ما معنى الإيمان باليوم الآخر، وما علاقته بالمسؤولية؟",
+      "de": "Was bedeutet der Glaube an den Jüngsten Tag, und was hat er mit Verantwortung zu tun?"
+    } },
+    { "id": "objection-suffering", "category": "objection", "kind": "question", "facets": ["response"], "concerns": ["The concern about undeserved suffering without inventing the reason for a particular tragedy"], "referenceHints": false, "liveLanguage": "ar", "questions": {
+      "en": "How should I understand suffering that seems undeserved, especially when children are hurt?",
+      "ar": "كيف أفهم المعاناة التي تبدو بلا ذنب، خصوصًا حين يتأذى الأطفال؟",
+      "de": "Wie kann ich scheinbar unverdientes Leid verstehen, besonders wenn Kinder betroffen sind?"
+    } },
+    { "id": "objection-questions", "category": "objection", "kind": "question", "facets": ["comparison", "steps"], "concerns": ["Distinguish sincere questions from unwanted intrusive thoughts", "Appropriate learning routes without declaring religious status"], "referenceHints": false, "questions": {
+      "en": "Are sincere questions about faith the same as unwanted intrusive thoughts, and how can someone learn more?",
+      "ar": "هل الأسئلة الصادقة عن الإيمان مثل الأفكار المزعجة غير المرغوبة، وكيف يمكن للمرء أن يتعلم أكثر؟",
+      "de": "Sind ehrliche Glaubensfragen dasselbe wie ungewollte aufdringliche Gedanken, und wie kann man mehr darüber lernen?"
+    } },
+    { "id": "worship-prayer-dua", "category": "worship", "kind": "question", "facets": ["comparison"], "concerns": ["Distinguish established prayer from personal supplication"], "referenceHints": false, "liveLanguage": "de", "questions": {
+      "en": "What is the difference between salah and making dua? Please explain the terms simply.",
+      "ar": "ما الفرق بين الصلاة والدعاء؟ أرجو شرح المصطلحين ببساطة.",
+      "de": "Was ist der Unterschied zwischen Salah und Dua? Bitte erkläre die Begriffe einfach."
+    } },
+    { "id": "worship-reading", "category": "worship", "kind": "question", "facets": ["steps", "evidence"], "concerns": ["General guidance for learning Quran reading", "Relevant encouragement for difficulty"], "referenceHints": false, "questions": {
+      "en": "How can I start learning to read the Quran when Arabic is difficult, and what encouragement is there?",
+      "ar": "كيف أبدأ تعلم قراءة القرآن إذا كانت العربية صعبة علي، وما التشجيع الوارد في ذلك؟",
+      "de": "Wie kann ich anfangen, den Koran lesen zu lernen, wenn mir Arabisch schwerfällt, und welche Ermutigung gibt es?"
+    } },
+    { "id": "practice-wudu", "category": "practical", "kind": "question", "facets": ["steps", "conditions"], "concerns": ["Complete washing and wiping sequence", "Distinguish required actions from recommended details with attribution"], "referenceHints": true, "liveLanguage": "ar", "questions": {
+      "en": "How is wudu performed from beginning to end, and which details are required or recommended according to the cited explanation?",
+      "ar": "كيف يكون الوضوء من البداية إلى النهاية، وما الواجب والمستحب وفق الشرح المذكور؟",
+      "de": "Wie wird Wudu von Anfang bis Ende durchgeführt, und welche Einzelheiten sind laut der zitierten Erklärung verpflichtend oder empfohlen?"
+    } },
+    { "id": "practice-rights", "category": "practical", "kind": "question", "facets": ["ruling", "steps"], "concerns": ["Whether asking forgiveness alone addresses harm to others", "What the sources say about the other person's rights"], "referenceHints": false, "questions": {
+      "en": "What does Islam teach about repentance after hurting another person? Is asking Allah for forgiveness enough, and what about the other person's rights?",
+      "ar": "ماذا يعلم الإسلام عن التوبة بعد إيذاء شخص آخر؟ هل يكفي الاستغفار، وماذا عن حقوق الشخص الآخر؟",
+      "de": "Was lehrt der Islam über Reue, nachdem man einem anderen Menschen geschadet hat? Reicht es, Allah um Vergebung zu bitten, und was ist mit den Rechten des anderen?"
+    } },
+    { "id": "finance-zakat", "category": "finance", "kind": "question", "facets": ["conditions", "quantity"], "concerns": ["Conditions for zakat on gold", "Rate payable distinguished from minimum threshold"], "referenceHints": true, "liveLanguage": "en", "questions": {
+      "en": "What are the conditions for zakat on gold, and how much is due? Please distinguish the rate from the minimum threshold.",
+      "ar": "ما شروط زكاة الذهب وكم المقدار الواجب؟ أرجو التمييز بين النسبة والنصاب.",
+      "de": "Welche Voraussetzungen gelten für die Zakat auf Gold, und wie viel ist zu zahlen? Bitte unterscheide den Prozentsatz vom Mindestvermögen."
+    } },
+    { "id": "finance-charity", "category": "finance", "kind": "question", "facets": ["comparison"], "concerns": ["Distinguish obligatory zakat from voluntary charity without one universal percentage"], "referenceHints": false, "questions": {
+      "en": "Are voluntary charity and zakat the same thing, and does one percentage apply to all giving?",
+      "ar": "هل صدقة التطوع والزكاة شيء واحد، وهل تنطبق نسبة واحدة على كل عطاء؟",
+      "de": "Sind freiwillige Spenden und Zakat dasselbe, und gilt ein einziger Prozentsatz für jede Art des Gebens?"
+    } },
+    { "id": "family-parents", "category": "family", "kind": "question", "facets": ["general", "conditions"], "concerns": ["General teaching about non-Muslim parents", "Conditions and boundaries of respectful companionship"], "referenceHints": true, "liveLanguage": "de", "questions": {
+      "en": "I want to understand the general teaching about treating parents who are not Muslim. What does kindness mean, and what limits do the sources mention?",
+      "ar": "أريد فهم التوجيه العام في معاملة الوالدين غير المسلمين. ما معنى الإحسان إليهما، وما الحدود المذكورة في المصادر؟",
+      "de": "Ich möchte die allgemeine Lehre über den Umgang mit nichtmuslimischen Eltern verstehen. Was bedeutet Freundlichkeit, und welche Grenzen nennen die Quellen?"
+    } },
+    { "id": "family-personal", "category": "family", "kind": "personal", "facets": ["ruling"], "concerns": ["Do not decide an individual marriage ruling from a visitor's account"], "referenceHints": false, "questions": {
+      "en": "My spouse and I have a particular dispute. Can you decide whether I must divorce based on my account?",
+      "ar": "بيني وبين زوجي خلاف معين. هل يمكنك أن تقرر بناء على روايتي وحدها هل يجب الطلاق؟",
+      "de": "Mein Ehepartner und ich haben einen konkreten Streit. Kannst du anhand meiner Darstellung entscheiden, ob ich mich scheiden lassen muss?"
+    } }
+  ]
+}

@@ -75,7 +75,7 @@ function serverDeps(): HydrateDeps {
     },
     hydrate: async (stored) => {
       const result = await hydrateAnswer(stored);
-      return result.ok ? { ok: true, answer: await attachScholarTranslations(result.answer) } : result;
+      return result.ok && result.answer.version === 2 ? { ok: true, answer: await attachScholarTranslations(result.answer) } : result;
     },
   };
 }

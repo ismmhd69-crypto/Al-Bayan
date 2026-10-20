@@ -43,13 +43,14 @@ export async function searchScholarQuotes(phrases: string[], limit = 3, options:
   const queryLevels = searchQueryLevels(expandedPhrases);
   const search = async (query: string) => {
     audit.queries++;
-    const { data, error } = await supabase.rpc("search_approved_source_candidates", {
+    const lookup = supabase.rpc("search_approved_source_candidates", {
       query_text: query,
       answer_language: "ar",
       question_type: "general",
       required_facets: [],
       match_count: options.allVariants ? 50 : limit * 3,
     });
+    const { data, error } = await (options.signal ? lookup.abortSignal(options.signal) : lookup);
     if (error) throw new Error(`scholar search failed: ${error.message}`);
     const result = (data as { source_id: string }[] | null) ?? [];
     if (result.length >= 50) audit.ceilingHits++;
@@ -67,12 +68,13 @@ export async function searchScholarQuotes(phrases: string[], limit = 3, options:
   audit.hits = ids.length;
   if (ids.length === 0) { options.onAudit?.(audit); return []; }
 
-  const { data: rows, error: rowError } = await supabase
+  const read = supabase
     .from("sources")
     .select("id, kind, scholar_id, title, reference, text_original, url, scholars(name_ar, name_en, name_de)")
     .in("id", ids)
     .eq("published", true)
     .eq("kind", "fatwa");
+  const { data: rows, error: rowError } = await (options.signal ? read.abortSignal(options.signal) : read);
   if (rowError) throw new Error(`scholar quotes could not be read: ${rowError.message}`);
 
   const byId = new Map((rows as unknown as SourceRow[] ?? []).map((r) => [r.id, r]));

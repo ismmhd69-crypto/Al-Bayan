@@ -4,6 +4,7 @@ import { getDictionary, isLocale } from "@/lib/i18n";
 import { getPopularQuestions } from "@/lib/content";
 import AskWorkspace from "@/components/AskWorkspace";
 import { chatText } from "@/lib/chat-text";
+import { askRich } from "@/lib/ask/settings";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -26,6 +27,7 @@ export default async function AskPage({ params }: { params: Promise<{ lang: stri
       backLabel={t.common.back}
       suggestions={suggestions}
       testMode={process.env.QURAN_API_ENV !== "production"}
+      richEnabled={askRich()}
     />
   );
 }

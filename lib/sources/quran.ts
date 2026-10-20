@@ -1,6 +1,7 @@
 import "server-only";
 import { isRealVerse, TRANSLATIONS, type Verse } from "./quran-meta";
 import { quranSearchPath } from "./quran-search";
+import { isTimeoutFailure } from "@/lib/ask/abort";
 export { ATTRIBUTION, TRANSLATIONS, type Verse } from "./quran-meta";
 
 // Quran Foundation Content and Search APIs (plan section 4).
@@ -90,13 +91,13 @@ async function authedFetch(url: string, init: RequestInit): Promise<Response> {
 // Runs each bounded query through Quran Foundation's detailed search and returns candidate
 // verse keys. These are not evidence yet: the ask pipeline independently checks directness,
 // context and full-question coverage before the writer can see any passage.
-export async function searchQuran(queries: string[], limit: number): Promise<string[]> {
-  const lists = await Promise.all(
+export async function searchQuran(queries: string[], limit: number, signal?: AbortSignal, onFailure?: (outcome: "timeout" | "search_failed") => void): Promise<string[]> {
+  const jobs =
     queries.slice(0, 6).map(async (q) => {
       const url = `${env.api}${quranSearchPath(q, [TRANSLATIONS.en.id, TRANSLATIONS.de.id], RESULTS_PER_QUERY)}`;
       // Not cached: the search phrases are derived from a visitor's question and must not be kept
       // on disk. Verse text (below) is cached, because it reveals nothing about who asked what.
-      const res = await authedFetch(url, { signal: AbortSignal.timeout(TIMEOUT_MS), cache: "no-store" });
+      const res = await authedFetch(url, { signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(TIMEOUT_MS)]) : AbortSignal.timeout(TIMEOUT_MS), cache: "no-store" });
       if (!res.ok) throw new Error(`Quran search failed with status ${res.status}`);
       const data = (await res.json()) as { result?: { verses?: { key?: unknown; result_type?: unknown }[] } };
       const verses = data.result?.verses;
@@ -104,8 +105,16 @@ export async function searchQuran(queries: string[], limit: number): Promise<str
       return verses
         .filter((v) => (v.result_type === undefined || v.result_type === "ayah") && typeof v.key === "string" && /^\d{1,3}:\d{1,3}$/.test(v.key))
         .map((v) => v.key as string);
-    }),
-  );
+    });
+  const results = onFailure ? await Promise.allSettled(jobs) : (await Promise.all(jobs)).map(value => ({ status: "fulfilled" as const, value }));
+  signal?.throwIfAborted();
+  const failures = results.filter(r => r.status === "rejected");
+  for (const failure of failures) onFailure?.(isTimeoutFailure(failure.reason) ? "timeout" : "search_failed");
+  const lists = results.flatMap(r => r.status === "fulfilled" ? [r.value] : []);
+  if (results.length > 0 && lists.length === 0) {
+    if (failures.some(r => isTimeoutFailure(r.reason))) throw new DOMException("Quran search timed out", "TimeoutError");
+    throw new Error("Quran searches failed");
+  }
   // Interleave the lists so each query's best results come first.
   const out: string[] = [];
   for (let i = 0; i < RESULTS_PER_QUERY; i++) {

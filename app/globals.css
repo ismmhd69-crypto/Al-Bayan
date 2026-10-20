@@ -39,7 +39,7 @@
 
   --f-display: var(--font-display), "Iowan Old Style", Georgia, serif;
   --f-body: var(--font-body), "Segoe UI", system-ui, -apple-system, sans-serif;
-  --f-ar-display: var(--font-ar-display), "Geeza Pro", "Segoe UI", sans-serif;
+  --f-ar-display: var(--font-ar-body), "Geeza Pro", "Segoe UI", sans-serif;
   --f-ar-body: var(--font-ar-body), "Geeza Pro", "Segoe UI", sans-serif;
 }
 

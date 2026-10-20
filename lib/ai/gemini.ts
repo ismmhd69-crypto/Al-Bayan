@@ -1,3 +1,6 @@
+import { askTimeout } from "@/lib/ask/timing";
+import { modelFetch } from "./transport";
+import { recordLocalAskEvent } from "@/lib/ask/local-trace";
 import "server-only";
 import type { AIProvider, JsonRequest, JsonSchema } from "./types";
 
@@ -54,10 +57,10 @@ export function createGemini(apiKey: string, model: string, door: keyof typeof E
   return {
     id: `${door}/${model}`,
     async generateJson({ system, prompt, schema, maxOutputTokens = 2048, thinking, signal }: JsonRequest) {
-      const res = await withRetry(() => fetch(`${ENDPOINT}/${model}:generateContent`, {
+      const res = await withRetry(() => modelFetch(`${ENDPOINT}/${model}:generateContent`, {
         method: "POST",
         headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
-        signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(TIMEOUT_MS)]) : AbortSignal.timeout(TIMEOUT_MS),
+        signal: askTimeout(signal, TIMEOUT_MS, "gemini_http"),
         cache: "no-store",
         body: JSON.stringify({
           systemInstruction: { parts: [{ text: system }] },
@@ -77,9 +80,10 @@ export function createGemini(apiKey: string, model: string, door: keyof typeof E
       if (res.status === 401 || res.status === 403) throw new GoogleBusyError(`${door} unavailable (${res.status})`);
       if (!res.ok) throw new Error(`${door} request failed with status ${res.status}`);
       const data = (await res.json()) as {
-        candidates?: { content?: { parts?: { text?: string }[] } }[];
+        candidates?: { content?: { parts?: { text?: string; thought?: boolean }[] } }[];
       };
-      const text = data.candidates?.[0]?.content?.parts?.map((p) => p.text ?? "").join("") ?? "";
+      const text = data.candidates?.[0]?.content?.parts?.filter(p => !p.thought).map((p) => p.text ?? "").join("") ?? "";
+      recordLocalAskEvent("provider_visible_output", { model: `${door}/${model}`, content: text });
       try {
         return JSON.parse(text);
       } catch {

@@ -7,6 +7,8 @@ import { getHadith } from "@/lib/sources/hadith";
 import { getLibraryHadith } from "@/lib/sources/hadith-library";
 import type { Verse } from "@/lib/sources/quran-meta";
 import type { Hadith } from "@/lib/sources/hadith-rules";
+import { validRichAnswer, type RichAnswer } from "@/lib/ask/rich-answer";
+import type { SavedAnswer } from "./answer-store";
 
 // Opens a saved answer: puts the Quran and hadith texts back, fresh from their sources, then runs the
 // same strict validator as every other answer. If any source cannot be loaded, or anything fails the
@@ -17,7 +19,7 @@ export type HydrateDeps = {
   getHadith: (id: string) => Promise<Hadith | null>;
   getLibraryHadith?: (uuid: string) => Promise<Hadith | null>; // stored hadith ("SH<uuid>")
 };
-export type HydrateResult = { ok: true; answer: AnswerV2 } | { ok: false; reason: string };
+export type HydrateResult = { ok: true; answer: SavedAnswer } | { ok: false; reason: string };
 
 const realDeps: HydrateDeps = { getVerse, getHadith, getLibraryHadith };
 const REVIEWS: readonly ReviewLabel[] = ["automatic", "bayan_reviewed", "scholar_reviewed"];
@@ -28,6 +30,7 @@ const LIBRARY_HADITH_ID = /^SH([0-9a-f-]{36})$/;
 export async function hydrateAnswer(stored: unknown, deps: HydrateDeps = realDeps): Promise<HydrateResult> {
   try {
     if (!stored || typeof stored !== "object" || Array.isArray(stored)) return { ok: false, reason: "shape" };
+    if ([3, 4].includes((stored as { version?: number }).version ?? 0)) return hydrateRich(stored, deps);
     const a = structuredClone(stored) as AnswerV2;
     if (a.version !== 2 || typeof a.language !== "string" || !isLocale(a.language)) return { ok: false, reason: "shape" };
     if (a.origin !== "live" && a.origin !== "prepared") return { ok: false, reason: "shape" };
@@ -87,4 +90,34 @@ export async function hydrateAnswer(stored: unknown, deps: HydrateDeps = realDep
   } catch {
     return { ok: false, reason: "error" };
   }
+}
+
+async function hydrateRich(stored: unknown, deps: HydrateDeps): Promise<HydrateResult> {
+  try {
+    const a = structuredClone(stored) as RichAnswer;
+    if (!isLocale(a.language) || !Array.isArray(a.sections) || a.sections.length !== 4) return { ok: false, reason: "shape" };
+    const loaded = new Map<string, Promise<ReturnType<typeof toEvidence> | null>>();
+    for (const section of a.sections) {
+      if (!Array.isArray(section.sources) || section.sources.length > 20) return { ok: false, reason: "shape" };
+      for (const source of section.sources) {
+        const e = source.evidence;
+        if (e.kind === "scholar") continue;
+        if (!loaded.has(source.id)) {
+          let job: Promise<ReturnType<typeof toEvidence> | null>;
+          if (e.kind === "quran" && source.id === `Q${e.key}` && VERSE_KEY.test(e.key)) {
+            job = deps.getVerse(e.key).then(v => v ? toEvidence({ kind: "quran", verse: v }, a.language) : null);
+          } else if (e.kind === "hadith" && source.id === e.key) {
+            const he = e.key.match(HADITH_ID), sh = e.key.match(LIBRARY_HADITH_ID);
+            if (!he && !sh) return { ok: false, reason: "shape" };
+            job = (he ? deps.getHadith(he[1]) : deps.getLibraryHadith?.(sh![1]) ?? Promise.resolve(null)).then(h => h ? toEvidence({ kind: "hadith", hadith: h }, a.language) : null);
+          } else return { ok: false, reason: "shape" };
+          loaded.set(source.id, job);
+        }
+        const fresh = await loaded.get(source.id)!;
+        if (!fresh || fresh.kind !== e.kind || fresh.key !== e.key) return { ok: false, reason: "source_unavailable" };
+        source.evidence = fresh;
+      }
+    }
+    return validRichAnswer(a) ? { ok: true, answer: a } : { ok: false, reason: "invalid_rich" };
+  } catch { return { ok: false, reason: "error" }; }
 }

@@ -149,22 +149,31 @@ function catalogue(language: Locale): Promise<Entry[]> {
 /** Finds hadith whose title shares search words with the queries; returns ids, best first. */
 export async function searchHadithIds(queries: string[], language: Locale, limit = 10): Promise<string[]> {
   const entries = await catalogue(language);
-  const wanted = new Set(queries.flatMap((q) => [...terms(q)]));
-  if (wanted.size === 0) return [];
-  // A single search word may match on its own; otherwise at least two different words must match.
-  const needed = Math.min(2, wanted.size);
+  return rankHadithTitles(entries, queries, limit);
+}
+
+/** Each phrase competes independently; unrelated words from different searches cannot combine
+ * into a false match. Round-robin preserves a place for each requested concern. Pure for tests. */
+export function rankHadithTitles(entries: Entry[], queries: string[], limit: number): string[] {
+  const plans = queries.map(q => terms(q)).filter(q => q.size > 0);
+  const wanted = new Set(plans.flatMap(q => [...q]));
   // Rarer words count more (inverse document frequency).
   const weight = (w: string) => Math.log(1 + entries.length / (1 + entries.filter((e) => e.terms.has(w)).length));
   const weights = new Map([...wanted].map((w) => [w, weight(w)]));
-  return entries
+  const lists = plans.map(plan => entries
     .map((e) => {
-      const hit = [...wanted].filter((w) => e.terms.has(w));
+      const hit = [...plan].filter((w) => e.terms.has(w));
       return { id: e.id, hits: hit.length, score: hit.reduce((s, w) => s + weights.get(w)!, 0) };
     })
-    .filter((x) => x.hits >= needed)
+    .filter((x) => x.hits >= Math.min(2, plan.size))
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
-    .map((x) => x.id);
+    .map((x) => x.id));
+  const found = new Set<string>();
+  for (let i = 0; i < limit && found.size < limit; i++) {
+    for (const list of lists) if (list[i] && found.size < limit) found.add(list[i]);
+  }
+  return [...found];
 }
 
 const inFlight = new Map<string, Promise<Hadith | null>>();

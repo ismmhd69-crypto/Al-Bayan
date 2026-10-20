@@ -38,7 +38,7 @@ function seedFrom(turns: OpenedTurn[], unavailable: string): NewMessage[] {
       role: "bayan",
       reply:
         turn.reply.kind === "answer"
-          ? { kind: "answer", answer: asAnswer(turn.reply.answer) }
+          ? (turn.reply.answer.version === 3 || turn.reply.answer.version === 4) ? { kind: "rich", answer: turn.reply.answer } : { kind: "answer", answer: asAnswer(turn.reply.answer) }
           : { kind: "text", text: turn.reply.kind === "text" ? turn.reply.text : unavailable },
     },
   ]);
@@ -159,7 +159,7 @@ export default function AskWorkspace({ chat: text, ...props }: WorkspaceProps) {
             now.turns + 1,
             lang,
             question,
-            reply.kind === "answer" ? { kind: "answer", answer: reply.answer.v2! } : { kind: "text", text: reply.text },
+            reply.kind === "rich" ? { kind: "answer", answer: reply.answer } : reply.kind === "answer" ? { kind: "answer", answer: reply.answer.v2! } : { kind: "text", text: reply.text },
           );
           const next = { ...activeRef.current, chatId: saved.chatId, turns: saved.position };
           if (activeRef.current.key === key) {

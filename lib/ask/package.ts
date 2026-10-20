@@ -133,6 +133,7 @@ export function chooseSealedPackage(
       return false;
     }
     for (let index = start; index <= units.length - (size - picked.length); index += 1) {
+      if (!units[index].requirementIds.size) continue;
       picked.push(units[index]);
       const found = fits(picked, caps) && search(index + 1, size, picked);
       picked.pop();
@@ -146,7 +147,11 @@ export function chooseSealedPackage(
 
   // 2. Fill the remaining places in preference order while every cap still holds.
   const chosen = [...coverUnits];
-  for (const unit of units) {
+  // First preserve useful explanations from otherwise absent source groups, then other
+  // contributions. None can replace a member of the direct coverage set above.
+  const fillers = direct.some(p => p.explanationRequirementIds !== undefined) ? [...units].sort((a, b) => Number(coverUnits.some(u => u.kind === a.kind))
+    - Number(coverUnits.some(u => u.kind === b.kind)) || preference(a, b)) : units;
+  for (const unit of fillers) {
     if (chosen.includes(unit)) continue;
     if (fits([...chosen, unit], caps)) chosen.push(unit);
   }

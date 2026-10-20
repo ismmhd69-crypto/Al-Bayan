@@ -1,4 +1,7 @@
+import { askTimeout } from "@/lib/ask/timing";
+import { modelFetch } from "./transport";
 import "server-only";
+import { recordLocalAskEvent } from "@/lib/ask/local-trace";
 import type { AIProvider, JsonRequest } from "./types";
 import { GoogleBusyError } from "./gemini";
 import { nvidiaLimiter, waitForSlot, type RateLimiter } from "./limits";
@@ -73,10 +76,10 @@ export function createNvidia(apiKey: string, model: string, limiter: RateLimiter
           throw new GoogleBusyError("nvidia busy (local limit)");
         }
         try {
-          return await fetch(ENDPOINT, {
+          return await modelFetch(ENDPOINT, {
             method: "POST",
             headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
-            signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(timeoutMs())]) : AbortSignal.timeout(timeoutMs()),
+            signal: askTimeout(signal, timeoutMs(), "nvidia_http"),
             cache: "no-store",
             body: JSON.stringify({
               model,
@@ -110,6 +113,7 @@ export function createNvidia(apiKey: string, model: string, limiter: RateLimiter
       if (UNAVAILABLE_STATUSES.has(res.status)) throw new GoogleBusyError(`nvidia unavailable (${res.status})`);
       if (!res.ok) throw new Error(`nvidia request failed with status ${res.status}`);
       const data = (await res.json()) as { choices?: { message?: { content?: string | null } }[] };
+      recordLocalAskEvent("provider_visible_output", { model: id, content: (data.choices?.[0]?.message?.content ?? "").replace(/<think>[\s\S]*?<\/think>/gi, "[reasoning omitted]").replace(/<think>[\s\S]*$/gi, "[reasoning omitted]") });
       return extractJsonObject(data.choices?.[0]?.message?.content ?? "");
     },
   };

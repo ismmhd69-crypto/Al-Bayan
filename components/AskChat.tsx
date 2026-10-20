@@ -12,10 +12,14 @@ import { Beacon } from "./Logo";
 import { AnswerV2View } from "./AnswerV2View";
 import { cleanHadithMarkup } from "@/lib/sources/hadith-markup";
 import { previousUserMessages } from "@/lib/ask/conversation";
+import { consumeRichStream, emptyRichState, reduceRichEvent, validRichAnswer, validRichSection, RICH_ORDER, type RichSection, type RichAnswer, type RichStreamState } from "@/lib/ask/rich-answer";
+import { richText } from "@/lib/ask/rich-text";
+import { RichAnswerView } from "./RichAnswerView";
+import type { Locale } from "@/lib/i18n";
 
 type AskText = Dictionary["ask"];
 
-type Reply = { kind: "not_ready" } | { kind: "no_summary" } | { kind: "clarify"; choices: string[] } | { kind: "text"; text: string } | { kind: "answer"; answer: Answer };
+type Reply = { kind: "not_ready" } | { kind: "no_summary" } | { kind: "clarify"; choices: string[] } | { kind: "text"; text: string } | { kind: "answer"; answer: Answer } | { kind: "rich"; answer: RichAnswer } | { kind: "partial"; state: RichStreamState };
 export type NewMessage = { role: "user"; text: string } | { role: "bayan"; reply: Reply };
 type Message = NewMessage & { id: number };
 
@@ -32,6 +36,7 @@ export default function AskChat({
   initialMessages,
   onExchange,
   headerExtra,
+  richEnabled = false,
 }: {
   lang: string;
   t: AskText;
@@ -40,8 +45,9 @@ export default function AskChat({
   testMode: boolean;
   // Optional, for saved chats: earlier messages to show, a call after each finished answer, and extra header content.
   initialMessages?: NewMessage[];
-  onExchange?: (question: string, reply: { kind: "answer"; answer: Answer } | { kind: "text"; text: string }) => void;
+  onExchange?: (question: string, reply: { kind: "answer"; answer: Answer } | { kind: "text"; text: string } | { kind: "rich"; answer: RichAnswer }) => void;
   headerExtra?: React.ReactNode;
+  richEnabled?: boolean;
 }) {
   const [messages, setMessages] = useState<Message[]>(() => (initialMessages ?? []).map((m, i) => ({ ...m, id: i + 1 })));
   const [value, setValue] = useState("");
@@ -50,6 +56,11 @@ export default function AskChat({
   const endRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const started = useRef(false);
+  const activeRequest = useRef<AbortController | null>(null);
+  const sending = useRef(false);
+  const [streamState, setStreamState] = useState<RichStreamState | null>(null);
+  const rt = richText[lang as Locale];
+  useEffect(() => () => activeRequest.current?.abort(), []);
 
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: reducedMotion() ? "auto" : "smooth", block: "end" });
@@ -57,16 +68,22 @@ export default function AskChat({
 
   // A question handed over from Home or a topic page is asked straight away.
   useEffect(() => {
-    if (started.current) return;
-    started.current = true;
-    const pending = takePendingQuestion();
-    if (pending) void send(pending);
+    // Defer both consuming the handoff and sending until after mount-effect replay.
+    // Strict Mode cleans up its first setup immediately; starting fetch there aborts
+    // the only request while leaving the pending question consumed and started=true.
+    const launch = window.setTimeout(() => {
+      if (started.current) return;
+      started.current = true;
+      const pending = takePendingQuestion();
+      if (pending) void send(pending);
+    }, 0);
+    return () => window.clearTimeout(launch);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   async function send(raw: string) {
     const question = raw.trim();
-    if (!question || busy) return;
+    if (!question || sending.current) return;
     if (question.length > MAX) {
       push({ role: "bayan", reply: { kind: "text", text: t.tooLong } });
       return;
@@ -74,13 +91,41 @@ export default function AskChat({
     push({ role: "user", text: question });
     setValue("");
     setBusy(true);
+    sending.current = true;
+    const controller = new AbortController();
+    activeRequest.current = controller;
+    let state = emptyRichState();
+    if (richEnabled) setStreamState(state);
     try {
-      const res = await fetch("/api/ask", {
+      const res = await fetch(richEnabled ? "/api/ask/stream" : "/api/ask", {
         method: "POST",
+        signal: controller.signal,
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question, lang, previous_user_messages: previousUserMessages(messages), supports_clarification: true }),
       });
-      const data = (await res.json()) as { status?: string; answer?: Answer; clarification?: { choices?: string[] } };
+      let rawData: unknown;
+      if (res.headers.get("content-type")?.startsWith("text/event-stream")) {
+        if (!res.body) throw new Error("missing_stream");
+        await consumeRichStream(res.body, event => { state = reduceRichEvent(state, event); setStreamState(state); });
+        if (!state.terminal) throw new Error("interrupted_stream");
+        rawData = state.result;
+      } else rawData = await res.json();
+      controller.signal.throwIfAborted();
+      const data = rawData as { status?: string; answer?: Answer; clarification?: { choices?: string[] }; withdraw?: boolean; sections?: RichSection[] };
+      if (data.status === "rich_answer") {
+        if (!validRichAnswer(data.answer) || data.answer.language !== lang) throw new Error("invalid_rich_answer");
+        push({ role: "bayan", reply: { kind: "rich", answer: data.answer } });
+        onExchange?.(question, { kind: "rich", answer: data.answer });
+        return;
+      }
+      if (data.status === "incomplete") {
+        if (data.sections && !res.headers.get("content-type")?.startsWith("text/event-stream")) {
+          if (!Array.isArray(data.sections) || data.sections.length > 4 || !data.sections.every((s, i) => s.group === RICH_ORDER[i] && validRichSection(s, lang as Locale))) throw new Error("invalid_partial");
+          state = { ...state, sections: data.sections };
+        }
+        push({ role: "bayan", reply: { kind: "partial", state: data.withdraw ? { ...state, sections: [], withdrawn: true } : { ...state, sections: state.sections.filter(s => s.group !== "summary") } } });
+        return;
+      }
       const reply: Reply =
         data.status === "answer" && data.answer
           ? { kind: "answer", answer: data.answer }
@@ -110,10 +155,16 @@ export default function AskChat({
         else if (reply.kind === "clarify") onExchange(question, { kind: "text", text: [t.clarify, ...reply.choices].join(" ") });
       }
       push({ role: "bayan", reply });
-    } catch {
-      push({ role: "bayan", reply: { kind: "text", text: t.error } });
+    } catch (error) {
+      // An interrupted paid request is never automatically retried or saved.
+      if (richEnabled && (state.sections.length || state.withdrawn)) push({ role: "bayan", reply: { kind: "partial", state: { ...state, sections: state.sections.filter(s => s.group !== "summary") } } });
+      else push({ role: "bayan", reply: { kind: "text", text: richEnabled ? controller.signal.aborted ? rt.stopped : error instanceof TypeError && /fetch|network|load failed/i.test(error.message) ? rt.interrupted : rt.checkFailure : t.error } });
     } finally {
+      controller.abort();
+      activeRequest.current = null;
+      sending.current = false;
       setBusy(false);
+      setStreamState(null);
       inputRef.current?.focus();
     }
   }
@@ -142,7 +193,7 @@ export default function AskChat({
         </span>
       </p>
 
-      <div className="chat-log" aria-busy={busy}>
+      <div className="chat-log" aria-busy={busy && !richEnabled}>
         {messages.length === 0 && !busy && (
           <div className="chat-empty">
             <Beacon size={64} />
@@ -170,7 +221,11 @@ export default function AskChat({
           ) : (
             <div key={m.id} className="msg msg-bayan">
               <span className="sr-only">{t.bayan}: </span>
-              {m.reply.kind === "text" ? (
+              {m.reply.kind === "rich" ? (
+                <RichAnswerView sections={m.reply.answer.sections} language={m.reply.answer.language} text={t} guide={m.reply.answer.guide} complete />
+              ) : m.reply.kind === "partial" ? (
+                <RichAnswerView sections={m.reply.state.sections} language={lang as Locale} text={t} incomplete withdrawn={m.reply.state.withdrawn} />
+              ) : m.reply.kind === "text" ? (
                 <p role="status">{m.reply.text}</p>
               ) : m.reply.kind === "clarify" ? (
                 <ClarificationView choices={m.reply.choices} prompt={t.clarify} busy={busy} onChoose={(choice) => void send(choice)} />
@@ -196,7 +251,12 @@ export default function AskChat({
           ),
         )}
 
-        {busy && (
+        {busy && streamState && <div className="msg msg-bayan">
+          {(streamState.sections.length > 0 || streamState.withdrawn) && <RichAnswerView sections={streamState.sections} language={lang as Locale} text={t} withdrawn={streamState.withdrawn} />}
+          <p role="status" aria-live="polite">{rt.progress[streamState.progress]}</p>
+          <button type="button" className="chip" onClick={() => activeRequest.current?.abort()}>{rt.stop}</button>
+        </div>}
+        {busy && !streamState && (
           <div className="msg msg-bayan msg-thinking" role="status">
             <span className="dots" aria-hidden="true">
               <i />

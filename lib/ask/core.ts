@@ -15,13 +15,22 @@
 
 import type { Locale } from "@/lib/i18n";
 import type { AIProvider, JsonRequest, JsonSchema } from "@/lib/ai/types";
+import { uniqueResearchCandidates } from "./search-engine/candidate-identity";
+import { recoverEvidence, type EvidenceGap, type RecoveryQuery, type RecoveryFamily } from "./search-engine/recovery";
 import { optionalWithin } from "./optional";
+import { abortable, isTimeoutFailure } from "./abort";
 import type { Diagnostic, DiagnosticStage } from "./diagnostics";
 import { frameSummary, sourceSummary, selectionSummary, draftSummary, screeningSummary } from "./trace-summary";
 import { parseUserHistory, safeClarificationChoices } from "./conversation";
+import { runRichAnswer, RICH_CAPS } from "./rich-engine";
+import type { RichCallbacks, RichTerminal, RichSection, GroupOutcome } from "./rich-answer";
+import { SHARED_QUESTION_RULES } from "./question-contract";
+import { observeSourceFunctions, recordLocalAskEvent } from "./local-trace";
+import { askTimeout } from "./timing";
+import { localAskUnhurried } from "./settings";
 import { LIBRARY_PLAN_RULES, POINT_PLAN_PROPERTIES, pointSearchPlans, interleaveUnique, explicitPointMismatch } from "./library-flow";
 import { screeningSystem, claimAuditSchema } from "./claim-audit";
-import { ATTRIBUTION, TRANSLATIONS, type Verse } from "@/lib/sources/quran-meta";
+import { ATTRIBUTION, TRANSLATIONS, isRealVerse, type Verse } from "@/lib/sources/quran-meta";
 import { scholarQuoteAllowed, type ScholarQuote } from "@/lib/sources/scholar-rules";
 import { approvedChannelIds } from "@/lib/sources/youtube-channels";
 import { matchingTopicHints } from "@/data/topic-source-hints";
@@ -92,6 +101,7 @@ import {
   videoBudgetAllows,
   type Tier,
 } from "./tiered";
+import { CONTRIBUTION_FIELDS, CONTRIBUTION_RULES } from "./tiered";
 
 export type Evidence =
   | {
@@ -144,14 +154,20 @@ export type Answer = {
 };
 
 export type AskResult =
+  | RichTerminal
   | { status: "answer"; answer: Answer }
   | { status: "no_summary"; language: Locale }
   | { status: "no_source"; language: Locale }
+  | { status: "error"; language: Locale }
   | { status: "ask_scholar"; language: Locale }
   | { status: "out_of_scope"; language: Locale }
   | { status: "clarify"; language: Locale; clarification: { choices: string[] } };
 
 export type PipelineDeps = {
+  rich?: RichCallbacks;
+  abortSignal?: AbortSignal;
+  sourceAvailability?: { hadith: boolean; scholar: boolean };
+  sourceProblems?: Partial<Record<"quran" | "hadith" | "scholar", "timeout" | "search_failed">>;
   writer: AIProvider; // understands the question and drafts the answer
   verifier: AIProvider; // a different model that screens each claim
   search: (queries: string[], limit: number) => Promise<string[]>; // verse keys, best first
@@ -172,6 +188,9 @@ export type PipelineDeps = {
   previousUserMessages?: string[];
   /** Fewer candidates for the evidence check (faster on slow models). Fewer can only mean more refusals. */
   candidateLimits?: { quran: number; hadith: number; scholar: number };
+  meaningRankCandidates?: import("./search-engine/pipeline-ranking").PipelineMeaningRanker;
+  planEvidenceRecovery?: import("./search-engine/recovery").RecoveryPlanner;
+  retrieveCorpusCandidates?: (frame: QuestionFrame, signal: AbortSignal) => Promise<PassageForSelection[]>;
   selectionRetryTimeoutMs?: number; // test override; production default stays short and bounded
   onRefuse?: (reason: string) => void; // reason codes only, never the question
   onStep?: (step: string, elapsedMs: number) => void; // step names and timings only, for local debugging
@@ -179,6 +198,8 @@ export type PipelineDeps = {
   onCoverage?: (stage: "retrieved" | "candidate" | "selected" | "writer", counts: Record<string, number>) => void;
   searchScholarsLive?: (arabicPhrases: string[]) => Promise<ScholarQuote[]>;
   onFrame?: (frame: QuestionFrame) => void; // local evaluation only; never logs visitor text
+  displayTranslationLookup?: (sources: import("./rich-answer").RichSource[], language: Locale, signal: AbortSignal) => Promise<Map<string, import("./rich-answer").DisplayTranslation>>;
+  disableReferenceHints?: boolean; // Evaluation control, never a visitor-controlled option.
   onRetrieved?: (result: { hintIds: string[]; quran: string[]; hadith: string[]; scholars: string[]; scholarEnabled: boolean; scholarProblem: string | null }) => void;
   onCandidates?: (candidates: PassageForSelection[]) => void;
   onSelection?: (raw: unknown) => void;
@@ -495,6 +516,7 @@ function selectionSource(candidate: PassageForSelection, namedByVisitor: Set<str
     ...(namedByVisitor.has(candidate.id) ? { named_by_visitor: true } : {}),
     // Context stays visible for safety, but has no id so it cannot be mistaken for a selectable source.
     surrounding_context: candidate.context.map(contextText),
+    ...(candidate.contextAvailability ? { context_availability: candidate.contextAvailability } : {}),
   };
 }
 
@@ -508,9 +530,9 @@ export function sealedPackageJson(evidence: EvidencePackage, language: Locale, f
         .some((text) => typeof text === "string" && text.trim().length > 0)) {
         throw new Error("sealed_source_text_missing");
       }
-      const context = includeContext
+      const context = { ...(passage.contextAvailability ? { context_availability: passage.contextAvailability } : {}), ...(includeContext
         ? { surrounding_context: passage.context.map((verse) => sourceJson(verseSource(verse), language)) }
-        : {};
+        : {}) };
       // Only eligible source translations occur here; display-only AI translations are attached
       // after screening. Never strip the sole readable wording of a stored passage. Arabic
       // answers use the original even when a source also supplies an English translation.
@@ -518,9 +540,9 @@ export function sealedPackageJson(evidence: EvidencePackage, language: Locale, f
       if (forWriter && language !== "ar" && passage.source.kind !== "scholar"
         && typeof translation === "string" && translation.trim().length > 0) {
         const { arabic: _arabic, ...withoutArabic } = source;
-        return { ...withoutArabic, supported_requirement_ids: passage.requirementIds, ...context };
+        return { ...withoutArabic, supported_requirement_ids: passage.requirementIds, ...(passage.explanationRequirementIds ? { explanation_requirement_ids: passage.explanationRequirementIds } : {}), ...(passage.contribution ? { contribution: passage.contribution } : {}), ...context };
       }
-      return { ...source, supported_requirement_ids: passage.requirementIds, ...context };
+      return { ...source, supported_requirement_ids: passage.requirementIds, ...(passage.explanationRequirementIds ? { explanation_requirement_ids: passage.explanationRequirementIds } : {}), ...(passage.contribution ? { contribution: passage.contribution } : {}), ...context };
     }),
   };
 }
@@ -533,15 +555,15 @@ async function hadithCandidates(
   if (!deps.searchHadith) return { hadith: [], problem: null };
   let timer: ReturnType<typeof setTimeout> | undefined;
   const timeout = new Promise<"timeout">((resolve) => {
-    timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
+    if (!localAskUnhurried()) timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? (deps.rich ? 12_000 : HADITH_TIMEOUT_MS));
   });
   try {
     const result = await Promise.race([deps.searchHadith(queries), timeout]);
     if (result === "timeout") return { hadith: [], problem: "hadith_search_timeout" };
     const allowed = result.filter(hadithAllowed);
     return { hadith: allowed, problem: allowed.length < result.length ? "hadith_dropped_by_rules" : null };
-  } catch {
-    return { hadith: [], problem: "hadith_search_failed" };
+  } catch (error) {
+    return { hadith: [], problem: isTimeoutFailure(error) ? "hadith_search_timeout" : "hadith_search_failed" };
   } finally {
     clearTimeout(timer);
   }
@@ -556,7 +578,7 @@ async function scholarCandidates(
   if (!deps.searchScholars || (arabicPhrases.length === 0 && mappedUrls.length === 0)) return { quotes: [], problem: null };
   let timer: ReturnType<typeof setTimeout> | undefined;
   const timeout = new Promise<"timeout">((resolve) => {
-    timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
+    if (!localAskUnhurried()) timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
   });
   try {
     const result = await Promise.race([deps.searchScholars(arabicPhrases, mappedUrls), timeout]);
@@ -630,34 +652,41 @@ async function relevantVideos(
 
 // ---------- the pipeline ----------
 export async function runPipeline(question: string, uiLanguage: Locale, deps: PipelineDeps): Promise<AskResult> {
+  deps = observeSourceFunctions(deps);
+  recordLocalAskEvent("pipeline_input", { question, language: uiLanguage, previous_user_messages: deps.previousUserMessages, rich: !!deps.rich, deadline_ms: deps.deadlineMs });
   // 50 s: the longest safe path (redraft, second screening or evidence audit) must fit on budget
   // models. The route allows 60 s, so the answer still returns before the server gives up.
-  const signal = AbortSignal.timeout(deps.deadlineMs ?? 50_000);
+  const signal = askTimeout(deps.abortSignal, Math.min(deps.deadlineMs ?? 50_000, 55_000), "pipeline");
+  deps.rich?.onProgress?.("understanding");
   const started = Date.now();
   const detail = (stage: DiagnosticStage, code: string, value: () => unknown) => {
     if (deps.onDiagnostic) try { deps.onDiagnostic(stage, code, Date.now() - started, value()); } catch { /* Diagnostics never alter acceptance. */ }
   };
   detail("request", "pipeline_started", () => ({ deadline_ms: deps.deadlineMs ?? 50000 }));
   const step = (name: string) => deps.onStep?.(name, Date.now() - started);
+  let richRefusal: (() => AskResult) | undefined;
   const refuse = (reason: string, language: Locale): AskResult => {
     deps.onRefuse?.(reason);
-    detail("answer", "pipeline_refused", () => ({ status: "no_source", language, remaining_ms: Math.max(0, (deps.deadlineMs ?? 50000) - (Date.now() - started)) }));
-    return { status: "no_source", language };
+    // A malformed internal plan is a processing failure, not a search result.
+    // Clients already display error without saving it as a completed exchange.
+    const status = deps.rich && (reason === "question_frame_invalid" || reason === "question_checklist_invalid" || reason === "query_plan_empty") ? "error" : "no_source";
+    detail("answer", "pipeline_refused", () => ({ status: richRefusal ? "incomplete" : status, language, remaining_ms: Math.max(0, (deps.deadlineMs ?? 50000) - (Date.now() - started)) }));
+    return richRefusal ? richRefusal() : { status, language };
   };
 
   // 1. Build a bounded question frame. Anything malformed or unknown is refused.
   const tiered = deps.tiered;
-  const libraryFlow = deps.libraryFlow === true;
+  const libraryFlow = !!deps.rich || deps.libraryFlow === true;
   const history = parseUserHistory(deps.previousUserMessages);
   if (history === null) return refuse("history_invalid", uiLanguage);
   const understandOnce = (correction?: string) => deps.writer.generateJson({
-      system: `${tiered ? `${UNDERSTAND_SYSTEM}\n${TIERED_UNDERSTAND_RULES}` : UNDERSTAND_SYSTEM}${libraryFlow ? `\n${LIBRARY_PLAN_RULES}` : ""}`,
+      system: `${deps.rich ? SHARED_QUESTION_RULES : UNDERSTAND_SYSTEM}${tiered ? `\n${TIERED_UNDERSTAND_RULES}` : ""}${libraryFlow ? `\n${LIBRARY_PLAN_RULES}` : ""}`,
       prompt: JSON.stringify({
         visitor_text: question,
         ...(libraryFlow && history.length ? { previous_user_messages: history } : {}),
         ...(correction ? { correction } : {}),
       }),
-      maxOutputTokens: 900,
+      maxOutputTokens: deps.rich ? 1600 : 900,
       signal,
       schema: {
         type: "object",
@@ -674,8 +703,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
                 text: { type: "string" },
                 facet: { type: "string", enum: [...ANSWER_FACETS] },
                 ...(libraryFlow ? POINT_PLAN_PROPERTIES : {}),
+                ...(deps.rich ? { scope: { type: "string", enum: ["general", "case_specific"] } as JsonSchema } : {}),
               },
-              required: ["text", "facet", ...(libraryFlow ? Object.keys(POINT_PLAN_PROPERTIES) : [])],
+              required: ["text", "facet", ...(libraryFlow ? Object.keys(POINT_PLAN_PROPERTIES) : []), ...(deps.rich ? ["scope"] : [])],
             },
           },
           qualifiers: words,
@@ -684,6 +714,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           search_queries_ar: words,
           ...(tiered ? { search_queries_quran_ar: words, search_queries_hadith_ar: words } : {}),
           ...(libraryFlow ? { interpretations: { ...words, maxItems: 2 }, clarification_needed: { type: "boolean" } } : {}),
+          ...(deps.rich ? { checklist_status: { type: "string", enum: ["complete", "ambiguous", "too_complex"] } as JsonSchema } : {}),
         },
         required: [
           "language",
@@ -696,20 +727,24 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           "search_queries_de",
           "search_queries_ar",
           ...(tiered ? ["search_queries_quran_ar", "search_queries_hadith_ar"] : []),
+          ...(deps.rich ? ["checklist_status"] : []),
           ...(libraryFlow ? ["interpretations", "clarification_needed"] : []),
         ],
       },
     });
   let frame = parseQuestionFrame(await understandOnce());
-  const frameProblem = (candidate: typeof frame) => candidate
-    ? (candidate.kind === "personal" && isGeneralGuidanceQuestion(question) ? "general_guidance_misclassified" : null)
+  const frameProblem = (candidate: typeof frame): string | null => {
+    if (!candidate) return "invalid";
+    if (deps.rich) return candidate.checklistStatus ? null : "question_checklist_missing";
+    return (candidate.kind === "personal" && isGeneralGuidanceQuestion(question) ? "general_guidance_misclassified" : null)
       ?? questionFrameMismatch(question, candidate)
       ?? (libraryFlow ? explicitPointMismatch(question, candidate) : null)
-      ?? (candidate.language === "ar" && candidate.kind === "question" && (candidate.searchQueries.ar?.length ?? 0) === 0 ? "arabic_queries_missing" : null)
-    : "invalid";
+      ?? (candidate.language === "ar" && candidate.kind === "question" && (candidate.searchQueries.ar?.length ?? 0) === 0 ? "arabic_queries_missing" : null);
+  };
   if (frameProblem(frame)) {
     const retried = parseQuestionFrame(await understandOnce(
-      `Correct the question frame against the original visitor wording. Problem: ${frameProblem(frame)}. Include every requested point, exclude points not asked, and distinguish the zakat amount due from its threshold. General conversion and repentance guidance is not a personal ruling. requested_points text must be short plain English, even when the visitor writes in Arabic or German. Every search_queries_ar phrase must be written in Arabic script.`,
+      deps.rich ? `Correct the question checklist against the original visitor wording. Problem: ${frameProblem(frame)}. Represent every actual concern without adding an answer or invented circumstances. Return checklist_status too_complex rather than omit points exceeding the four-point limit. Distinguish general learning from a request to decide an individual's ruling. Use short plain English for point descriptions and Arabic script for Arabic search phrases. Include the appropriate scope for every point.`
+        : `Correct the question frame against the original visitor wording. Problem: ${frameProblem(frame)}. Include every requested point, exclude points not asked, and distinguish the zakat amount due from its threshold. General conversion and repentance guidance is not a personal ruling. requested_points text must be short plain English, even when the visitor writes in Arabic or German. Every search_queries_ar phrase must be written in Arabic script.`,
     ));
     // A valid original frame is better than refusing a real question because a retry was malformed.
     // The later evidence and answer checks still require direct support for every retained point.
@@ -718,10 +753,11 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }
   step("frame");
   if (!frame) return refuse("question_frame_invalid", uiLanguage);
-  if (frame.kind === "personal" && isGeneralGuidanceQuestion(question)) {
+  if (deps.rich && !frame.checklistStatus) return refuse("question_checklist_invalid", frame.language);
+  if (!deps.rich && frame.kind === "personal" && isGeneralGuidanceQuestion(question)) {
     frame = { ...frame, kind: "question" };
   }
-  frame = repairExplicitFrame(question, frame);
+  if (!deps.rich) frame = repairExplicitFrame(question, frame);
   deps.onFrame?.(frame);
   detail("frame", "question_plan", () => frameSummary(frame!));
   if (frame.kind === "greeting" || frame.kind === "off_topic" || frame.kind === "harmful") {
@@ -729,15 +765,16 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }
 
   // 2. personal situations are never answered automatically
-  if (frame.kind === "personal" || looksPersonal(question)) {
+  if (frame.kind === "personal" || (!deps.rich && looksPersonal(question))) {
     deps.onRefuse?.("personal");
     return { status: "ask_scholar", language: frame.language };
   }
   const language = frame.language;
   const clarification = (): AskResult => ({ status: "clarify", language,
     clarification: { choices: safeClarificationChoices(frame!.interpretations?.map((item) => item.label) ?? [], language) } });
+  if (deps.rich && frame.checklistStatus && frame.checklistStatus !== "complete") return clarification();
   if (libraryFlow && frame.clarificationNeeded) return clarification();
-  if (libraryFlow && explicitPointMismatch(question, frame)) return refuse("question_requested_point_missing", frame.language);
+  if (!deps.rich && libraryFlow && explicitPointMismatch(question, frame)) return refuse("question_requested_point_missing", frame.language);
   if (asksKnownUnresolvedView(question, frame.questionType)) {
     return refuse("scholar_difference_unresolved_known_topic", language);
   }
@@ -755,7 +792,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     ? [...new Set([...hadithOpenings, ...tierHadith, ...(frame.searchQueries.ar ?? [])])]
     : frame.searchQueries.ar ?? [];
   const direct = directRefs(question);
-  const hints = matchingTopicHints(question);
+  const hints = deps.disableReferenceHints ? [] : matchingTopicHints(question);
   const mappedQuran = [...new Set(hints.flatMap((hint) => hint.quran))];
   const mappedHadith = [...new Set(hints.flatMap((hint) => hint.hadith))];
   const mappedFatwas = [...new Set(hints.flatMap((hint) => hint.fatwas))];
@@ -764,11 +801,41 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // English subject names) on the English list and the Arabic phrases on the Arabic list.
   // Videos are optional and never evidence. Start their search now, but do not let it delay Quran,
   // hadith or scholar retrieval and evidence selection.
-  const videoResultPromise = videoCandidates(deps, frame.searchQueries.ar ?? []);
+  signal.throwIfAborted();
+  deps.rich?.onProgress?.("searching");
+  const videoResultPromise = deps.rich ? Promise.resolve({ videos: [], problem: null }) : videoCandidates(deps, frame.searchQueries.ar ?? []);
   const pointPlans = libraryFlow ? pointSearchPlans(frame) : [];
+  let quranProblem: GroupOutcome = "no_direct_evidence";
+  const sourceOutcome = (kind: "hadith" | "scholar", problem: string | null): GroupOutcome => {
+    if (deps.sourceAvailability?.[kind] === false || (!deps.retrieveCorpusCandidates && !(kind === "hadith" ? deps.searchHadith : deps.searchScholars))) return "unavailable";
+    return problem?.endsWith("timeout") ? "timeout" : problem?.endsWith("failed") ? "search_failed" : deps.sourceProblems?.[kind] ?? "no_direct_evidence";
+  };
+  const corpusPromise = deps.rich && deps.retrieveCorpusCandidates
+    ? abortable(deps.retrieveCorpusCandidates(frame, signal), signal).then(items => {
+      if (!Array.isArray(items) || items.length > 60) throw new Error("invalid_corpus_candidates");
+      return items.filter(c => {
+        if ((c.source.kind === "hadith" || c.source.kind === "scholar") && deps.sourceAvailability?.[c.source.kind] === false) return false;
+        if (c.source.kind === "hadith") return c.id === c.source.hadith.id && hadithAllowed(c.source.hadith);
+        if (c.source.kind === "scholar") return c.id === c.source.quote.id && scholarQuoteAllowed(c.source.quote);
+        const [surah, ayah] = c.source.verse.key.split(":").map(Number);
+        return c.id === `Q${c.source.verse.key}` && isRealVerse(surah, ayah);
+      });
+    }).catch(error => {
+      detail("retrieval", "corpus_search_failed", () => ({ error: error instanceof Error ? error.message : "unknown" }));
+      for (const kind of ["hadith", "scholar"] as const) (deps.sourceProblems ??= {})[kind] = "search_failed";
+      return [] as PassageForSelection[];
+    }) : Promise.resolve([] as PassageForSelection[]);
+  const searchQuran = async (phrases: string[], limit: number) => {
+    if (!deps.rich) return deps.search(phrases, limit);
+    // The source's individual HTTP requests allow ten seconds. Do not discard all results
+    // at eight seconds before that source can return successful partial-query results.
+    const bounded = askTimeout(signal, 12_000, "quran_retrieval");
+    try { return await abortable(deps.search(phrases, limit), bounded); }
+    catch (error) { signal.throwIfAborted(); quranProblem = bounded.aborted || isTimeoutFailure(error) ? "timeout" : "search_failed"; return []; }
+  };
   const pointResults = libraryFlow ? await Promise.all(pointPlans.map(async (plan, index) => {
     const [quran, hadith, scholars] = await Promise.all([
-      deps.search(plan.quran, MAX_QURAN_SEARCH_CANDIDATES), hadithCandidates(deps, plan.hadith),
+      searchQuran(plan.quran, MAX_QURAN_SEARCH_CANDIDATES), hadithCandidates(deps, plan.hadith),
       scholarCandidates(deps, plan.scholar, index === 0 ? mappedFatwas : []),
     ]);
     return { id: plan.id, quran, hadith, scholars };
@@ -778,7 +845,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     { hadith: interleaveUnique(pointResults.map((r) => r.hadith.hadith), (h) => h.id, MAX_HADITH_SEARCH_CANDIDATES), problem: pointResults.find((r) => r.hadith.problem)?.hadith.problem ?? null },
     { quotes: interleaveUnique(pointResults.map((r) => r.scholars.quotes), (s) => s.id, MAX_SCHOLAR_SEARCH_CANDIDATES), problem: pointResults.find((r) => r.scholars.problem)?.scholars.problem ?? null },
   ] as const : await Promise.all([
-      deps.search(queries, MAX_QURAN_SEARCH_CANDIDATES),
+      searchQuran(queries, MAX_QURAN_SEARCH_CANDIDATES),
       hadithCandidates(deps, { en: [...(frame.searchQueries.en ?? []), ...frame.subjects], ar: hadithArabic }),
       scholarCandidates(deps, frame.searchQueries.ar ?? [], mappedFatwas),
     ]);
@@ -786,27 +853,55 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   step("search");
   if (hadithResult.problem) deps.onRefuse?.(hadithResult.problem); // reason code only; the answer continues
   const keys = [...new Set([...direct, ...mappedQuran, ...found])].slice(0, MAX_QURAN_SEARCH_CANDIDATES);
-  const verses = (await Promise.all(keys.map((k) => deps.getVerse(k))))
+  let verses = (await Promise.all(keys.map(async k => {
+    if (!deps.rich) return deps.getVerse(k);
+    const bounded = askTimeout(signal, 12_000, "quran_retrieval");
+    try { const verse = await abortable(deps.getVerse(k), bounded); if (!verse) quranProblem = "search_failed"; return verse; }
+    catch (error) { signal.throwIfAborted(); quranProblem = bounded.aborted || isTimeoutFailure(error) ? "timeout" : "search_failed"; return undefined; }
+  })))
     .filter((v): v is Verse => !!v);
   const mappedHadithRecords = deps.getHadith
     ? (await Promise.all(mappedHadith.slice(0, 3).map((id) => deps.getHadith!(id.replace(/^HE/, "")).catch(() => null))))
       .filter((item): item is Hadith => !!item && hadithAllowed(item))
     : [];
-  const hadith = [...new Map([...mappedHadithRecords, ...hadithResult.hadith].map((item) => [item.id, item])).values()]
+  let hadith = [...new Map([...mappedHadithRecords, ...hadithResult.hadith].map((item) => [item.id, item])).values()]
     .slice(0, MAX_HADITH_SEARCH_CANDIDATES);
-  const quotes = scholarResult.quotes.slice(0, MAX_SCHOLAR_SEARCH_CANDIDATES);
+  let quotes = scholarResult.quotes.slice(0, MAX_SCHOLAR_SEARCH_CANDIDATES);
+  const indexed = await corpusPromise; signal.throwIfAborted();
+  const indexedById = new Map(indexed.map(c => [c.id, c]));
+  verses = [...new Map([...verses, ...indexed.flatMap(c => c.source.kind === "quran" ? [c.source.verse] : [])].map(v => [v.key, v])).values()];
+  hadith = [...new Map([...hadith, ...indexed.flatMap(c => c.source.kind === "hadith" ? [c.source.hadith] : [])].map(h => [h.id, h])).values()];
+  quotes = [...new Map([...quotes, ...indexed.flatMap(c => c.source.kind === "scholar" ? [c.source.quote] : [])].map(q => [q.id, q])).values()];
+  if (quranProblem === "no_direct_evidence" && deps.sourceProblems?.quran) quranProblem = deps.sourceProblems.quran;
+  if (deps.rich) richRefusal = () => {
+    const gap = (outcome: GroupOutcome, found: number): GroupOutcome => outcome === "no_direct_evidence" && found > 0 ? "not_checked" : outcome;
+    const sections: RichSection[] = [
+      { group: "quran", outcome: gap(quranProblem, verses.length), claims: [], sources: [] },
+      { group: "hadith", outcome: gap(sourceOutcome("hadith", hadithResult.problem), hadith.length), claims: [], sources: [] },
+      { group: "scholar", outcome: gap(sourceOutcome("scholar", scholarResult.problem), quotes.length), claims: [], sources: [] },
+    ];
+    for (const section of sections) deps.rich?.onSection?.(section);
+    return { status: "incomplete", language, withdraw: false, sections };
+  };
   deps.onRetrieved?.({ hintIds: hints.map((hint) => hint.id), quran: verses.map((verse) => verse.key),
     hadith: hadith.map((item) => item.id), scholars: quotes.map((quote) => quote.url),
     scholarEnabled: !!deps.searchScholars, scholarProblem: scholarResult.problem });
   detail("retrieval", "source_groups_ready", () => ({ quran: verses.length, hadith: hadith.length, scholar: quotes.length,
     before: keys.length, after: verses.length, dropped: keys.length - verses.length }));
-  if (verses.length === 0 && hadith.length === 0 && quotes.length === 0) return refuse("search_empty", language);
+  if (verses.length === 0 && hadith.length === 0 && quotes.length === 0) {
+    if (deps.rich) {
+      const sections = ([["quran", quranProblem], ["hadith", sourceOutcome("hadith", hadithResult.problem)], ["scholar", sourceOutcome("scholar", scholarResult.problem)]] as const).map(([group, outcome]) => ({ group, outcome, claims: [], sources: [] }));
+      for (const section of sections) deps.rich.onSection?.(section);
+      return { status: "incomplete", language, withdraw: false, sections };
+    }
+    return refuse("search_empty", language);
+  }
 
   // 4. The independent model classifies every candidate with its own local context. Code seals
   // only direct, context-safe passages and requires evidence for every requested point.
   const provenance = (id: string): string[] => pointResults.filter((r) => r.quran.some((key) => `Q${key}` === id)
     || r.hadith.hadith.some((h) => h.id === id) || r.scholars.quotes.some((q) => q.id === id)).map((r) => r.id);
-  const allCandidates: PassageForSelection[] = [
+  const gatheredCandidates: PassageForSelection[] = [
     ...verses.map((verse) => ({
       id: `Q${verse.key}`,
       source: verseSource(verse),
@@ -814,7 +909,9 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     })),
     ...hadith.map((h) => ({ id: h.id, source: { kind: "hadith", hadith: h } as Source, context: [] })),
     ...quotes.map((q) => ({ id: q.id, source: { kind: "scholar", quote: q } as Source, context: [] })),
-  ].map((candidate) => libraryFlow ? { ...candidate, retrievedFor: provenance(candidate.id) } : candidate);
+  ].map((candidate) => libraryFlow ? { ...candidate, retrievedFor: [...new Set([...provenance(candidate.id), ...(indexedById.get(candidate.id)?.retrievedFor ?? [])])],
+    ...(indexedById.get(candidate.id)?.contextAvailability ? { contextAvailability: indexedById.get(candidate.id)!.contextAvailability } : {}) } : candidate);
+  const allCandidates = deps.rich ? uniqueResearchCandidates(gatheredCandidates) : gatheredCandidates;
   const coverageCounts = (items: PassageForSelection[]) => Object.fromEntries(frame.requirements.map((r) => [r.id, items.filter((c) => c.retrievedFor?.includes(r.id)).length]));
   if (libraryFlow) deps.onCoverage?.("retrieved", coverageCounts(allCandidates));
   const mappedIds = new Set([
@@ -834,12 +931,31 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     hadith: Math.min(limits.hadith, defaultLimits.hadith),
     scholar: Math.min(limits.scholar, defaultLimits.scholar),
   };
-  const ranked = rankCandidatesForQuestion(rankFrame, allCandidates, mappedIds, cappedLimits);
-  let candidates = await Promise.all(ranked.map(async (candidate) => {
+  const addContext = async (candidate: PassageForSelection): Promise<PassageForSelection> => {
     if (candidate.source.kind !== "quran") return candidate;
+    if (candidate.context.length) return candidate;
     const key = candidate.source.verse.key;
     return { ...candidate, context: (await deps.neighbours(key)).filter((near) => near.key !== key) };
-  }));
+  };
+  let priorMeaningRanking: { signature: string; candidates: PassageForSelection[] } | undefined;
+  const rankWithMeaning = async (pool: PassageForSelection[]) => {
+    const contextual = await Promise.all(pool.map(addContext));
+    const signature = JSON.stringify(contextual.map(c => ({ id: c.id, source: c.source, context: c.context })).sort((a, b) => a.id.localeCompare(b.id)));
+    if (priorMeaningRanking?.signature === signature) {
+      detail("candidates", "meaning_ranking_reused", () => ({ before: pool.length, after: priorMeaningRanking!.candidates.length }));
+      return priorMeaningRanking.candidates;
+    }
+    const result = await deps.meaningRankCandidates!(frame!, contextual, signal);
+    // Keep authoritative source objects, never provider-supplied replacement text.
+    const originalById = new Map(contextual.map(c => [c.id, c]));
+    if (result.length > 30 || new Set(result.map(c => c.id)).size !== result.length || result.some(c => !originalById.has(c.id))) throw new Error("meaning_ranking_invalid_candidates");
+    const retained = result.map(c => originalById.get(c.id)!);
+    priorMeaningRanking = { signature, candidates: retained };
+    return retained;
+  };
+  let candidates = deps.rich && deps.meaningRankCandidates
+    ? await rankWithMeaning(allCandidates)
+    : await Promise.all(rankCandidatesForQuestion(rankFrame, allCandidates, mappedIds, cappedLimits).map(addContext));
   deps.onCandidates?.(candidates);
   detail("candidates", "ranked_sources", () => ({ before: allCandidates.length, after: candidates.length,
     dropped_source_ids: allCandidates.filter((c) => !candidates.some((kept) => kept.id === c.id)).map((c) => c.id), sources: candidates.map(sourceSummary) }));
@@ -864,15 +980,16 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
             },
             context_safe: { type: "string", enum: ["yes", "no", "unsure"] },
             position: { type: "string" },
+            ...(deps.rich ? CONTRIBUTION_FIELDS : {}),
           },
-          required: ["source_id", "relevance", "supported_requirement_ids", "context_safe", "position"],
+          required: ["source_id", "relevance", "supported_requirement_ids", "context_safe", "position", ...(deps.rich ? Object.keys(CONTRIBUTION_FIELDS) : [])],
         },
       },
     },
     required: ["status", "coverage", "conflict_type", "assessments"],
   };
   const namedByVisitor = new Set(direct.map((key) => `Q${key}`));
-  const evidenceSystem = tiered ? `${EVIDENCE_SYSTEM}\n${TIERED_EVIDENCE_RULES}` : EVIDENCE_SYSTEM;
+  const evidenceSystem = `${EVIDENCE_SYSTEM}${tiered ? `\n${TIERED_EVIDENCE_RULES}` : ""}${deps.rich ? `\n${CONTRIBUTION_RULES}\nFor a candidate marked context_availability stored_excerpt_only, only statements explicitly established by that excerpt are supported. Do not infer an unrestricted audience, missing conditions or a universal ruling from omitted context. If the conclusion requires unavailable context, mark it unsupported.` : ""}`;
   const selectEvidence = async (items: PassageForSelection[], selectionSignal: AbortSignal, correction = false) => {
     const question = {
       language: frame.language,
@@ -893,10 +1010,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
             // Verses the visitor named by number or well-known name ("Ayat al-Kursi"), matched by code.
             candidates: items.map((candidate) => selectionSource(candidate, namedByVisitor)),
           }),
-      maxOutputTokens: correction ? 2048 : 3072,
+      maxOutputTokens: deps.rich ? 6000 : correction ? 2048 : 3072,
       thinking: "low",
       signal: selectionSignal,
-      schema: tiered ? tieredSelectionSchema(frame.requirements.map((requirement) => requirement.id)) : selectionSchema,
+      schema: tiered ? tieredSelectionSchema(frame.requirements.map((requirement) => requirement.id), !!deps.rich) : selectionSchema,
     });
     deps.onSelection?.(raw);
     // Tiered output becomes the flat shape, so the same strict parser and retry rules apply.
@@ -904,42 +1021,135 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     detail(correction ? "selection_retry" : "selection", "source_assessments", () => selectionSummary(normalized, frame, items));
     return normalized;
   };
-  const selected = await selectEvidence(candidates, signal);
+  deps.rich?.onProgress?.("checking_evidence");
+  let selected = await selectEvidence(candidates, signal);
   step(`selection(${candidates.length} candidates)`);
   // Code seals a capped package (3 Quran passage cards, 2 hadith, 2 scholar quotes) BEFORE drafting,
   // so a cap can never remove a source the writer later cites. Topic-map and visitor-named passages
   // rank first among equals; a complete named passage (al-Fatiha) may stay whole as one card.
   const namedPassages = namedPassageGroups(question);
-  const packageOptions = { preferredIds: mappedIds, namedPassages, ...(tiered ? { caps: TIER_PACKAGE_CAPS, tierOrder: true } : {}) };
+  const packageOptions = { preferredIds: mappedIds, namedPassages, requireContributions: !!deps.rich, ...(deps.rich ? { caps: RICH_CAPS, tierOrder: true } : tiered ? { caps: TIER_PACKAGE_CAPS, tierOrder: true } : {}) };
   let selectionFailure: string | undefined;
   let evidencePackage = parseEvidencePackage(selected, frame, candidates, packageOptions,
     (code) => { selectionFailure = code; deps.onDiagnostic?.("selection", code, Date.now() - started); });
-  const retryKind = evidencePackage ? null : selectionRetryKind(selected, candidates)
+  // An otherwise complete scholarly answer must not suppress a search for applicable hadith.
+  // Exactly one recovery pass shares the existing selection retry and deadline.
+  const missingGroups = deps.rich && evidencePackage ? (["quran", "hadith", "scholar"] as const).filter(kind =>
+    (kind === "quran" ? pointPlans.some(p => Object.values(p.quran).some(q => q?.length)) : kind === "hadith" ? !!deps.searchHadith && pointPlans.some(p => Object.values(p.hadith).some(q => q?.length))
+      : !!deps.searchScholarsLive && pointPlans.some(p => p.scholar.length))
+    && !evidencePackage!.passages.some(p => p.source.kind === kind)) : [];
+  const retryKind = evidencePackage ? (missingGroups.length ? "thin" : null) : selectionRetryKind(selected, candidates)
     ?? (libraryFlow && selectionFailure === "direct_requirement_coverage_missing" ? "thin" : null);
-  if (retryKind) {
+  if (deps.rich && deps.planEvidenceRecovery && retryKind) {
+    const applicable: RecoveryFamily[] = ["quran", ...(deps.searchHadith ? ["hadith" as const] : []), ...(deps.searchScholars || deps.searchScholarsLive ? ["scholar" as const] : [])];
+    const gaps = (state: { pack: typeof evidencePackage }): EvidenceGap[] => frame!.requirements.flatMap<EvidenceGap>(r => {
+      const covered = state.pack?.passages.some(p => p.requirementIds.includes(r.id));
+      const absent = applicable.filter(kind => !state.pack?.passages.some(p => p.source.kind === kind));
+      return !covered ? [{ requirementId: r.id, concern: r.text, reason: "missing_direct_support" as const, families: applicable }]
+        : absent.length ? [{ requirementId: r.id, concern: r.text, reason: "missing_source_contribution" as const, families: absent }] : [];
+    });
+    const previousQueries: RecoveryQuery[] = pointPlans.flatMap(p => [
+      ...p.quran.map(text => ({ requirementId: p.id, family: "quran" as const, language: /\p{Script=Arabic}/u.test(text) ? "ar" as const : "en" as const, text })),
+      ...(["ar", "en", "de"] as const).flatMap(language => (p.hadith[language] ?? []).map(text => ({ requirementId: p.id, family: "hadith" as const, language, text }))),
+      ...p.scholar.map(text => ({ requirementId: p.id, family: "scholar" as const, language: "ar" as const, text })),
+    ]);
+    try {
+      const recovered = await recoverEvidence({ frame, initial: { pack: evidencePackage, selected, ranked: candidates }, candidates: allCandidates, previousQueries, gaps,
+        plan: deps.planEvidenceRecovery, signal,
+        onNovelEvidence: () => { evidencePackage = null; },
+        search: async (query, recoverySignal) => {
+          try {
+            if (query.family === "quran") {
+              const keys = await abortable(deps.search([query.text], 4), recoverySignal);
+              const found = await Promise.all(keys.slice(0, 4).map(key => deps.getVerse(key)));
+              return found.filter((v): v is Verse => !!v).map(verse => ({ id: `Q${verse.key}`, source: verseSource(verse), context: [] }));
+            }
+            if (query.family === "hadith") {
+              const found = await abortable(deps.searchHadith!({ [query.language]: [query.text] }), recoverySignal);
+              return found.filter(hadithAllowed).map(hadith => ({ id: hadith.id, source: { kind: "hadith" as const, hadith }, context: [] }));
+            }
+            const found = deps.searchScholarsLive ? await abortable(deps.searchScholarsLive([query.text]), recoverySignal)
+              : await abortable(deps.searchScholars!([query.text]), recoverySignal);
+            return found.filter(scholarQuoteAllowed).map(quote => ({ id: quote.id, source: { kind: "scholar" as const, quote }, context: [] }));
+          } catch (error) {
+            signal.throwIfAborted(); (deps.sourceProblems ??= {})[query.family] = isTimeoutFailure(error) ? "timeout" : "search_failed"; throw error;
+          }
+        },
+        assess: async (pool, assessmentSignal) => {
+          const ranked = deps.meaningRankCandidates ? await rankWithMeaning(pool)
+            : await Promise.all(rankCandidatesForQuestion(rankFrame, pool, mappedIds, { quran: 10, hadith: 10, scholar: 10 }).map(addContext));
+          deps.onCandidates?.(ranked);
+          const raw = await selectEvidence(ranked, assessmentSignal, true);
+          const pack = parseEvidencePackage(raw, frame!, ranked, packageOptions, code => deps.onDiagnostic?.("selection_retry", code, Date.now() - started));
+          evidencePackage = pack; selected = raw; candidates = ranked;
+          return { pack, selected: raw, ranked };
+        },
+        onEvent: event => { detail("retrieval", `research_${event.code}_round_${event.round}`, () => event); },
+      });
+      evidencePackage = recovered.value.pack; selected = recovered.value.selected; candidates = recovered.value.ranked;
+      step(`research_recovery(${recovered.rounds} rounds)`);
+    } catch (error) {
+      signal.throwIfAborted();
+      detail("retrieval", "research_recovery_failed", () => ({ error: error instanceof Error ? error.message : "unknown" }));
+      deps.onRefuse?.("research_recovery_failed");
+    }
+  } else if (retryKind) {
     const retryTimeoutMs = deps.selectionRetryTimeoutMs ?? SELECTION_RETRY_TIMEOUT_MS;
     const remainingMs = (deps.deadlineMs ?? 50_000) - (Date.now() - started);
     if (remainingMs > retryTimeoutMs + SELECTION_RETRY_BUFFER_MS) {
-      // Use the existing single selection correction, never an extra call. Live scholar pages
-      // are consulted only after stored coverage actually failed, and inside the same timeout.
-      const retrySignal = AbortSignal.any([signal, AbortSignal.timeout(retryTimeoutMs)]);
-      if (libraryFlow && selectionFailure === "direct_requirement_coverage_missing" && deps.searchScholarsLive) {
+      // Reuse the single bounded selection correction. Recover a missing applicable source
+      // group or an uncovered point before sealing again; never loop to fill source quotas.
+      const retrySignal = askTimeout(signal, retryTimeoutMs, "recovery_search_and_selection");
+      if (libraryFlow && (selectionFailure === "direct_requirement_coverage_missing" || missingGroups.length)) {
         const rawAssessments = selected && typeof selected === "object" && Array.isArray((selected as Record<string, unknown>).assessments)
           ? (selected as { assessments: { relevance?: string; context_safe?: string; supported_requirement_ids?: string[] }[] }).assessments : [];
-        const covered = new Set(rawAssessments.filter((a) => a.relevance === "direct" && a.context_safe === "yes")
-          .flatMap((a) => a.supported_requirement_ids ?? []));
-        const missing = pointPlans.filter((p) => !covered.has(p.id));
-        const fresh = await optionalWithin(() => deps.searchScholarsLive!(missing.flatMap((p) => p.scholar).slice(0, 6)),
-          Math.min(7_000, retryTimeoutMs - SELECTION_RETRY_BUFFER_MS), retrySignal, [] as ScholarQuote[]);
-        const additions: PassageForSelection[] = (fresh ?? []).filter(scholarQuoteAllowed).map((quote) => ({
-          id: quote.id, source: { kind: "scholar", quote }, context: [], retrievedFor: missing.map((p) => p.id),
-        }));
-        const combined = [...new Map([...additions, ...candidates].map((c) => [c.id, c])).values()];
-        candidates = rankCandidatesForQuestion(rankFrame, combined, mappedIds, cappedLimits);
+        const covered = new Set(evidencePackage?.passages.flatMap(p => p.requirementIds)
+          ?? rawAssessments.filter(a => a.relevance === "direct" && a.context_safe === "yes")
+            .flatMap(a => a.supported_requirement_ids ?? []));
+        const recoveryPlans = missingGroups.length ? pointPlans : pointPlans.filter(p => !covered.has(p.id));
+        const recover = async <T,>(kind: "quran" | "hadith" | "scholar", work: () => Promise<T[]>): Promise<T[]> => {
+          const bounded = askTimeout(retrySignal, Math.min(7_000, retryTimeoutMs - SELECTION_RETRY_BUFFER_MS), `recovery_${kind}_search`);
+          try { return await abortable(work(), bounded); }
+          catch (error) {
+            signal.throwIfAborted();
+            const problem = bounded.aborted || isTimeoutFailure(error) ? "timeout" : "search_failed";
+            (deps.sourceProblems ??= {})[kind] = problem;
+            deps.onDiagnostic?.("retrieval", `${kind}_recovery_${problem}`, Date.now() - started);
+            return [];
+          }
+        };
+        const [freshScholars, freshHadith, freshQuran] = await Promise.all([
+          deps.searchScholarsLive && (!evidencePackage || missingGroups.includes("scholar"))
+            ? recover("scholar", () => deps.searchScholarsLive!(recoveryPlans.flatMap(p => p.scholar).slice(0, 6))) : [],
+          deps.rich && deps.searchHadith && (!evidencePackage || missingGroups.includes("hadith"))
+            ? recover("hadith", () => deps.searchHadith!({
+              en: [...frame.requirements.filter(r => recoveryPlans.some(p => p.id === r.id)).map(r => r.text), ...recoveryPlans.flatMap(p => p.hadith.en ?? [])],
+              ar: recoveryPlans.flatMap(p => p.hadith.ar ?? []),
+            })) : [],
+          deps.rich && (!evidencePackage || missingGroups.includes("quran"))
+            ? recover("quran", async () => {
+              const groups = await Promise.all(recoveryPlans.map(p => deps.search(p.quran, 4)));
+              const keys = [...new Set(groups.flat())].slice(0, 8);
+              const verses = await Promise.all(keys.map(key => deps.getVerse(key)));
+              return verses.filter((v): v is Verse => !!v);
+            }) : [],
+        ]);
+        const additions: PassageForSelection[] = [
+          ...(freshQuran ?? []).map(verse => ({ id: `Q${verse.key}`, source: { kind: "quran" as const, verse }, context: [], retrievedFor: recoveryPlans.map(p => p.id) })),
+          ...(freshScholars ?? []).filter(scholarQuoteAllowed).map(quote => ({ id: quote.id, source: { kind: "scholar" as const, quote }, context: [], retrievedFor: recoveryPlans.map(p => p.id) })),
+          ...(freshHadith ?? []).filter(hadithAllowed).map(hadith => ({ id: hadith.id, source: { kind: "hadith" as const, hadith }, context: [], retrievedFor: recoveryPlans.map(p => p.id) })),
+        ];
+        // Reconsider initially capped candidates too. New candidates retain their source checks.
+        const combined = deps.rich ? uniqueResearchCandidates([...candidates, ...allCandidates, ...additions])
+          : [...new Map([...candidates, ...allCandidates, ...additions].map(c => [c.id, c])).values()];
+        const recoveryPreferred = new Set([...mappedIds, ...additions.map(p => p.id), ...(evidencePackage?.passages.map(p => p.id) ?? [])]);
+        candidates = deps.rich && deps.meaningRankCandidates
+          ? await rankWithMeaning(combined)
+          : await Promise.all(rankCandidatesForQuestion(rankFrame, combined, recoveryPreferred, cappedLimits).map(addContext));
         deps.onCandidates?.(candidates);
-        deps.onDiagnostic?.("retrieval", "live_scholar_unresolved_coverage", Date.now() - started);
+        deps.onDiagnostic?.("retrieval", "source_group_recovery", Date.now() - started, { hadith: freshHadith?.length ?? 0, scholar: freshScholars?.length ?? 0 });
       }
-      const retryCandidates = selectionRetryCandidates(selected, candidates, mappedIds);
+      const retryCandidates = deps.rich ? candidates : selectionRetryCandidates(selected, candidates, mappedIds);
       deps.onRefuse?.(`selection_retry_started_${retryKind}`);
       try {
         const retried = await selectEvidence(retryCandidates, retrySignal, true);
@@ -965,6 +1175,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     if (libraryFlow && frame.interpretations?.length && ["direct_requirement_coverage_missing", "no_direct_evidence_with_requirements"].includes(selectionFailure ?? "")) return clarification();
     return refuse("evidence_insufficient", language);
   }
+  const sealedEvidence = evidencePackage;
   if (libraryFlow) deps.onCoverage?.("selected", Object.fromEntries(frame.requirements.map((r) => [r.id,
     evidencePackage!.passages.filter((p) => p.requirementIds.includes(r.id)).length])));
   detail("package", "sealed_evidence", () => ({ sources: evidencePackage!.passages.map(sourceSummary),
@@ -977,12 +1188,18 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     && !evidencePackage!.passages.some((p) => p.source.kind === "scholar" && p.requirementIds.includes(r.id)))) {
     return refuse("ruling_requirement_without_scholar", language);
   }
+  // Legacy topic-specific item patterns stay on the legacy path. Rich answers check the
+  // complete lists, quantities and exceptions in the actual originals for every subject.
+  if (!deps.rich && !requiredSourceItemsPresent(question, evidencePackage.passages.map(p => asSource(p.source)))) return refuse("required_source_items_missing", language);
+  if (deps.rich) {
+    signal.throwIfAborted();
+    return runRichAnswer(evidencePackage, language, deps, signal, question, { quran: quranProblem, hadith: sourceOutcome("hadith", hadithResult.problem), scholar: sourceOutcome("scholar", scholarResult.problem) }, (deps.deadlineMs ?? 50_000) - (Date.now() - started));
+  }
   // 5 + 6. The writer sees only the sealed package. Code verifies citations and requested-point coverage.
   const selectedSources = evidencePackage.passages.map((passage) => passage.source);
   const byId = new Map(selectedSources.map((s) => [sourceId(s), s]));
   const kindOf = (id: string): Tier | undefined => byId.get(id)?.kind;
   const citable = selectedSources.map(asSource);
-  if (!requiredSourceItemsPresent(question, citable)) return refuse("required_source_items_missing", language);
   const sourceRequirements = Object.fromEntries(
     evidencePackage.passages.map((passage) => [passage.id, passage.requirementIds]),
   );
@@ -1021,8 +1238,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     {
       const built = buildLiveAnswerV2({
         language,
-        cards: evidencePackage.cards,
-        passages: evidencePackage.passages,
+        cards: sealedEvidence.cards,
+        passages: sealedEvidence.passages,
         evidence: new Map(selectedSources.map((s) => [sourceId(s), toEvidence(s, language)])),
         draft: answer,
         videos,
@@ -1036,7 +1253,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
         requirementIds,
         listAllowed: listPermitted(frame.requirements),
         limitNoteAllowed: limitNotePermitted(frame.questionType, frame.requirements),
-        namedPassages: evidencePackage.cards.filter((card) => card.named).map((card) => card.sourceIds),
+        namedPassages: sealedEvidence.cards.filter((card) => card.named).map((card) => card.sourceIds),
       });
       if (!checked.ok) return refuse(`answer_v2_${checked.reason}`, language);
       v2 = checked.answer;
@@ -1101,7 +1318,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     return { ok: true, answer: ordered };
   };
   const draftRequest = async (correction?: string, claimFeedback?: ClaimAuditFailure[], noAnswerFeedback?: NoAnswerFeedback): Promise<StructuredDraftResult> => {
-    const serialized = sealedPackageJson(evidencePackage, language, true);
+    const serialized = sealedPackageJson(sealedEvidence, language, true);
     detail("draft", "writer_evidence_payload", () => ({ sources: serialized.passages.map((p) => ({ source_id: p.id,
       original_present: "arabic" in p && !!p.arabic?.trim(), english_present: "translation_en" in p && !!p.translation_en?.trim(), german_present: "translation_de" in p && !!p.translation_de?.trim(),
       requirement_ids: p.supported_requirement_ids })) }));
@@ -1211,7 +1428,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   }
 
   // 7. Independent final screening of the answer against the sealed package.
-  const screen = (answer: StructuredDraft) => deps.verifier.generateJson(screeningRequest(answer, evidencePackage, language, deps.claimAudit === true, signal, libraryFlow));
+  const screen = (answer: StructuredDraft) => deps.verifier.generateJson(screeningRequest(answer, sealedEvidence, language, deps.claimAudit === true, signal, libraryFlow));
 
   const supported = (raw: unknown, answer: StructuredDraft) => deps.claimAudit
     ? parseClaimAudit(raw, answer.claims)?.supported === true : allSupported(raw, answer.claims.length);

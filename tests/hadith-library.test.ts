@@ -282,7 +282,7 @@ describe("saved chats with the new card", () => {
     for (const key of ["chapter", "display_split", "words_translation"]) expect(key in saved.hadith[0]).toBe(false);
     const reopened = await hydrateAnswer(saved, { getVerse: async () => undefined, getHadith: vi.fn(),
       getLibraryHadith: async () => mapStoredHadith(row({ title: "باب تجريبي", text_original: QUOTED })) });
-    expect(reopened.ok && reopened.answer.hadith[0].chapter).toBe("باب تجريبي");
+    expect(reopened.ok && reopened.answer.version === 2 && reopened.answer.hadith[0].chapter).toBe("باب تجريبي");
   });
   it("an old saved answer without a chapter still opens", async () => {
     const old = { ...answer(), hadith: [{ ...answer().hadith[0], arabic: "", grade_ar: "", attribution_ar: "" }] };

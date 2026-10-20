@@ -12,6 +12,7 @@ export default async function LearningEvidence({ lang, references }: { lang: Loc
     const verses = await Promise.all(keys.map(async (key) => { try { return await getVerse(key); } catch { return undefined; } }));
     return { reference, keys, verses };
   }));
+  if (passages.length === 0) return null;
   return <section className="learning-evidence" aria-labelledby="learning-quran-title">
     <h2 id="learning-quran-title"><BookOpen aria-hidden="true" />{t.quran}</h2>
     {passages.map(({ reference, keys, verses }) => <details key={reference.id} open className="learning-source answer-source-card" id={`learning-source-${reference.id}`} tabIndex={-1}>

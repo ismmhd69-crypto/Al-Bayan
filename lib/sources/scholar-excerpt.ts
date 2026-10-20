@@ -432,6 +432,16 @@ export function excerpt(answer: string, max = MAX_QUOTE_CHARS): string | null {
   return window.slice(0, cut).trim();
 }
 
+/** Only for explicitly checked page boundaries. Keep a contiguous original span, not a stitched
+ * or generated quote. Changed/ambiguous boundaries or an oversized complete span fail closed. */
+export function anchoredExcerpt(answer: string, start: string, end: string, max = MAX_QUOTE_CHARS): string | null {
+  const text = answer.replace(/\s+/g, " ").trim();
+  const from = text.indexOf(start), to = text.indexOf(end, from + start.length);
+  if (from < 0 || to < 0 || text.indexOf(start, from + 1) !== -1 || text.indexOf(end, to + 1) !== -1) return null;
+  const quote = text.slice(from, to + end.length);
+  return quote.length <= max && /[.!؟?]$/.test(quote) ? quote : null;
+}
+
 // Search-only copy (never shown): no vowel marks, unified letters, no punctuation, at most `max`
 // characters, so that whole-word database search finds "الصيام" in "والصيام" style text too.
 export function searchText(title: string, quote: string, max = MAX_QUOTE_CHARS): string {

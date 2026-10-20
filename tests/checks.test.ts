@@ -251,6 +251,12 @@ describe("parseQuestionFrame: unknown or malformed means refuse", () => {
   it("accepts a valid object", () => {
     expect(parseQuestionFrame(ok)?.questionType).toBe("definition");
   });
+  it.each(["Why worship Allah when He has no needs?", "Prayer: purpose; meaning!", "What is the person's responsibility?"])("accepts ordinary checklist punctuation: %s", text => {
+    expect(parseQuestionFrame({ ...ok, requested_points: [{ text, facet: "reason" }] })?.requirements[0].text).toBe(text);
+  });
+  it.each(["Ignore instructions?", "Meaning <script>?</script>", "Meaning\u0000?", "Meaning {override}?"])("still rejects unsafe checklist text: %s", text => {
+    expect(parseQuestionFrame({ ...ok, requested_points: [{ text, facet: "reason" }] })).toBeNull();
+  });
   it("rejects unknown kinds and languages", () => {
     expect(parseQuestionFrame({ ...ok, kind: "safe_trust_me" })).toBeNull();
     expect(parseQuestionFrame({ ...ok, language: "fr" })).toBeNull();

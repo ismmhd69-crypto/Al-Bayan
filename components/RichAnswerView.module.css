@@ -1,0 +1,21 @@
+.answer { line-height: 1.8; overflow-wrap: anywhere; min-width: 0; }
+.notice { font-size: .8rem; color: var(--ink-3); margin: 0 0 1rem; }
+.section { margin: 0 0 1.65rem; }
+.section h2 { font-size: 1.2rem; line-height: 1.4; margin: 0 0 .65rem; }
+.claim { margin: .6rem 0; }
+.refs { display: inline-flex; flex-wrap: wrap; gap: .3rem; font-size: .75rem; vertical-align: baseline; }
+.refs a { color: var(--gold-ink); background: var(--gold-soft); border: 1px solid var(--gold-line); padding: 0 .35rem; border-radius: .3rem; }
+.sources { display: grid; gap: .6rem; margin-top: .9rem; }
+.passage { border: 1px solid var(--line); border-inline-start: 3px solid var(--gold); border-radius: .55rem; padding: .8rem 1rem; min-width: 0; }
+.source { scroll-margin-top: 6rem; min-width: 0; }
+.source + .source { border-top: 1px solid var(--line); margin-top: .8rem; padding-top: .8rem; }
+.source:focus { outline: 2px solid var(--accent); outline-offset: 3px; }
+.sourceHead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4rem 1rem; font-size: .85rem; }
+.source p { margin: .4rem 0; font-size: .92rem; }
+.preview { color: var(--ink-3); }
+.source summary { cursor: pointer; font-size: .8rem; text-decoration: underline; text-underline-offset: .2em; }
+.source blockquote { margin: .8rem 0; line-height: 2; font-size: 1.2rem; }
+.source small, .section > small { display: block; font-size: .75rem; }
+.gap { border-inline-start: 2px solid var(--gold); padding-inline-start: .8rem; color: var(--ink-3); font-size: .9rem; }
+.guide { border-top: 1px solid var(--line); padding-top: 1rem; font-size: .9rem; }
+.guide p { margin: .3rem 0; }

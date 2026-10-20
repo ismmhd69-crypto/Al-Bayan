@@ -11,7 +11,11 @@ import { getMappedScholarQuote, searchScholarsLive } from "@/lib/sources/scholar
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 import { searchVideos } from "@/lib/sources/videos";
 import { runPipeline, type AskResult, type PipelineDeps } from "./core";
-import { askClaimAudit, askDeadlineMs, askLibraryFlow, askMaxVideos, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
+import { askClaimAudit, askCorpusRetrieval, askDeadlineMs, askLibraryFlow, askMaxVideos, askMeaningRanking, askResearchRecovery, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
+import { localCorpusRetriever } from "./search-engine/server-corpus";
+import { pipelineMeaningRanker } from "./search-engine/pipeline-ranking";
+import { modelMeaningReranker } from "./search-engine/reranker";
+import { modelRecoveryPlanner } from "./search-engine/recovery-planner";
 import type { SearchOptions } from "@/lib/sources/search-audit";
 import { approvedForQuestion } from "./approved";
 import { loadPrepared } from "@/lib/prepared";
@@ -21,6 +25,10 @@ import { PREPARED_IDS_AWAITING_VIEW_DECISION } from "@/data/view-decisions";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import { diagnosticLogger } from "./diagnostics";
 import { currentAskRequestId, currentAskStarted, observedProvider, errorCategory } from "./trace-context";
+import type { RichCallbacks } from "./rich-answer";
+import { lookupDisplayTranslations } from "./display-translation-lookup";
+import { recordLocalAskEvent } from "./local-trace";
+import { localAskTraceEnabled } from "./settings";
 
 // HADITH_SOURCE=library: stored Sahih al-Bukhari / Sahih Muslim hadith. =hadeethenc: the old live path.
 // Anything else: hadith off. Never both.
@@ -37,16 +45,16 @@ const LIVE_TIMEOUT_MS = 7_000;
 export async function scholarQuotes(phrases: string[], mappedUrls: string[] = [], options: SearchOptions = {}): Promise<ScholarQuote[]> {
   // Checked pages rank first, but a broad mapped page must not suppress a more specific library or
   // live result needed for another requested point.
-  const mapped = Promise.all(mappedUrls.slice(0, 2).map((url) => getMappedScholarQuote(url).catch(() => null)));
+  const mapped = Promise.all(mappedUrls.slice(0, 2).map((url) => getMappedScholarQuote(url, options.signal).catch(() => { options.onFailure?.("search_failed"); return null; })));
   const live = LIVE_ON && !options.allVariants
     ? Promise.race([
-        searchScholarsLive(phrases).catch(() => [] as ScholarQuote[]),
+        searchScholarsLive(phrases, options.signal).catch(() => { options.onFailure?.("search_failed"); return [] as ScholarQuote[]; }),
         new Promise<ScholarQuote[]>((resolve) => setTimeout(() => resolve([]), LIVE_TIMEOUT_MS)),
       ])
     : Promise.resolve([] as ScholarQuote[]);
   const [direct, stored, fresh] = await Promise.all([
     mapped.then((items) => items.filter((quote): quote is ScholarQuote => !!quote)),
-    phrases.length ? searchScholarQuotes(phrases, 6, options).catch(() => [] as ScholarQuote[]) : Promise.resolve([] as ScholarQuote[]),
+    phrases.length ? searchScholarQuotes(phrases, 6, options).catch(() => { options.onFailure?.("search_failed"); return [] as ScholarQuote[]; }) : Promise.resolve([] as ScholarQuote[]),
     live,
   ]);
   const seen = new Set<string>();
@@ -82,47 +90,79 @@ export async function askPreparedOnly(question: string, observe?: (provider: Ret
   return answer ? { status: "answer", answer } : null;
 }
 
-export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection" | "onCoverage">, previousUserMessages: string[] = []): Promise<AskResult> {
+export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection" | "onCoverage">, previousUserMessages: string[] = [], options?: { rich?: RichCallbacks; signal?: AbortSignal; disableReferenceHints?: boolean }): Promise<AskResult> {
   const requestStarted = currentAskStarted() ?? Date.now();
-  const debug = process.env.ASK_DEBUG === "true";
-  const libraryFlow = askLibraryFlow(), claimAudit = askClaimAudit(), tiered = askTiered();
+  const debug = process.env.ASK_DEBUG === "true" || localAskTraceEnabled();
+  const libraryFlow = !!options?.rich || askLibraryFlow(), claimAudit = askClaimAudit(), tiered = !!options?.rich || askTiered();
   const requestId = currentAskRequestId() ?? randomUUID();
   const context = {
     requestId, revision: process.env.VERCEL_GIT_COMMIT_SHA,
     writerChain: "unknown", verifierChain: "unknown",
-    claimAudit, tiered, lean: process.env.ASK_LEAN === "true", libraryFlow,
+    claimAudit: !!options?.rich || claimAudit, tiered, lean: process.env.ASK_LEAN === "true", libraryFlow,
+    ...(options?.rich ? { rich: true } : {}),
   };
-  let onDiagnostic = diagnosticLogger(debug, context, (line) => console.info(line));
+  const makeDiagnostic = (runtime: typeof context) => {
+    const publicLog = diagnosticLogger(debug, runtime, line => console.info(line));
+    return ((stage, code, elapsedMs, details) => {
+      recordLocalAskEvent("stage", { stage, code, elapsed_ms: elapsedMs, details });
+      publicLog(stage, code, elapsedMs, details);
+    }) as ReturnType<typeof diagnosticLogger>;
+  };
+  let onDiagnostic = makeDiagnostic(context);
   let calls = 0;
-  const observe = (provider: ReturnType<typeof getProvider>, role: "writer" | "checker") => debug
-    ? observedProvider(provider, role, onDiagnostic, requestStarted, () => `A${++calls}`) : provider;
+  const observe = (provider: ReturnType<typeof getProvider>, role: "writer" | "checker") => {
+    const bounded = options?.signal ? { id: provider.id, generateJson: (request: Parameters<typeof provider.generateJson>[0]) => {
+      options.signal!.throwIfAborted();
+      return provider.generateJson({ ...request, signal: request.signal ? AbortSignal.any([request.signal, options.signal!]) : options.signal });
+    } } : provider;
+    return debug ? observedProvider(bounded, role, onDiagnostic, requestStarted, () => `A${++calls}`) : bounded;
+  };
   const skipPrepared = !!trace || !!(libraryFlow && previousUserMessages.length);
   onDiagnostic("prepared", "reuse_started", Date.now() - requestStarted, { skipped: skipPrepared, prepared_enabled: process.env.PREPARED_PUBLISHING_ENABLED === "true" && process.env.PREPARED_ANSWERS !== "off", approved_topics_enabled: process.env.ASK_APPROVED_TOPICS !== "false" });
   const prepared = skipPrepared ? null : await askPreparedOnly(question, (provider) => observe(provider, "checker"));
   onDiagnostic("prepared", "reuse_finished", Date.now() - requestStarted, { outcome: skipPrepared ? "skipped" : prepared ? "matched" : "miss" });
   if (prepared) {
+    recordLocalAskEvent("terminal_result", prepared);
     onDiagnostic("answer", "approved_answer_ready", Date.now() - requestStarted, { status: "answer" });
     return prepared;
   }
   const writer = getProvider(), verifier = getVerifier();
-  onDiagnostic = diagnosticLogger(debug, { ...context, writerChain: writer.id, verifierChain: verifier.id }, (line) => console.info(line));
+  onDiagnostic = makeDiagnostic({ ...context, writerChain: writer.id, verifierChain: verifier.id });
   onDiagnostic("request", "runtime_configuration", Date.now() - requestStarted, { scholar_enabled: SCHOLARS_ON, live_scholar_enabled: LIVE_ON && SCHOLARS_ON, videos_enabled: VIDEOS_ON, deadline_ms: askDeadlineMs() });
   onDiagnostic("retrieval", `hadith_mode_${HADITH_MODE}`, Date.now() - requestStarted);
   if (!SCHOLARS_ON) onDiagnostic("retrieval", process.env.SCHOLAR_QUOTES === "off"
     ? "scholar_disabled" : "scholar_server_configuration_missing", Date.now() - requestStarted);
   try {
+    const sourceProblems: PipelineDeps["sourceProblems"] = {};
     const result = await runPipeline(question, uiLanguage, {
       ...trace,
+      ...(options?.rich ? { rich: {
+        onProgress: stage => { onDiagnostic("response", `rich_${stage}`, Date.now() - requestStarted); options.rich?.onProgress?.(stage); },
+        onSection: section => { onDiagnostic("response", `checked_${section.group}_${section.outcome}`, Date.now() - requestStarted, { count: section.claims.length }); options.rich?.onSection?.(section); },
+        onWithdraw: () => { onDiagnostic("response", "rich_sections_withdrawn", Date.now() - requestStarted); options.rich?.onWithdraw?.(); },
+      }, sourceProblems, sourceAvailability: { hadith: HADITH_ON || (HADITH_MODE === "library" && !!process.env.SUPABASE_SECRET_KEY), scholar: SCHOLARS_ON } } : {}),
+      ...(options?.signal ? { abortSignal: options.signal } : {}),
       writer: observe(writer, "writer"),
       verifier: observe(verifier, "checker"),
+      ...(options?.rich && askCorpusRetrieval() ? { retrieveCorpusCandidates: localCorpusRetriever([...(HADITH_MODE !== "off" ? ["hadith" as const] : []), ...(SCHOLARS_ON ? ["scholar" as const] : [])]) } : {}),
+      ...(options?.rich && askResearchRecovery() ? { planEvidenceRecovery: modelRecoveryPlanner(observe(writer, "writer")) } : {}),
+      ...(options?.rich && askMeaningRanking() ? { meaningRankCandidates: pipelineMeaningRanker(modelMeaningReranker(observe(verifier, "checker")), audit => {
+        recordLocalAskEvent("meaning_ranking", audit);
+        onDiagnostic("candidates", "meaning_ranking_finished", Date.now() - requestStarted, { before: audit.before, after: audit.after, dropped_source_ids: audit.droppedIds });
+      }) } : {}),
       deadlineMs: askDeadlineMs(),
+      ...(options?.disableReferenceHints ? { disableReferenceHints: true } : {}),
+      ...(options?.rich ? { displayTranslationLookup: lookupDisplayTranslations } : {}),
       claimAudit,
       libraryFlow,
       previousUserMessages,
       ...(process.env.ASK_LEAN === "true" ? { candidateLimits: { ...LEAN_CANDIDATE_LIMITS } } : {}),
       // ASK_TIERED=true: Quran, then hadith, then fatwas, then videos (read per question so it can be switched).
       ...(tiered ? { tiered: { videoBudgetMs: askVideoBudgetMs(), maxVideos: askMaxVideos() } } : {}),
-      search: searchQuran,
+      search: options?.signal ? (queries, limit) => searchQuran(queries, limit, options.signal, outcome => {
+        sourceProblems.quran = outcome;
+        onDiagnostic("retrieval", `quran_partial_${outcome}`, Date.now() - requestStarted);
+      }) : searchQuran,
       getVerse,
       neighbours,
       // Hadith from Sahih al-Bukhari / Sahih Muslim via HadeethEnc (permission requested 2026-09-28).
@@ -130,6 +170,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8), getHadith } : {}),
       // Stored hadith from our own library (Sunnah.com text). Needs the server's secret key.
       ...(HADITH_MODE === "library" ? { searchHadith: (queries) => searchLibraryHadith(queries, {
+        ...(options?.signal ? { signal: options.signal } : {}),
         onAudit: (audit) => {
           onDiagnostic("retrieval", "library_filter_totals", Date.now() - requestStarted, {
             kind: audit.group, query_count: audit.queries, configuration_missing: audit.configurationMissing,
@@ -144,6 +185,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       // Short quotes of approved scholars from our private library (rights: short quotes, permission pending).
       ...(SCHOLARS_ON ? { searchScholars: (phrases: string[], mappedUrls?: string[]) => scholarQuotes(phrases, mappedUrls, {
         allVariants: libraryFlow,
+        ...(options?.rich ? { signal: options.signal, onFailure: (outcome: "timeout" | "search_failed") => { sourceProblems.scholar = outcome; onDiagnostic("retrieval", `scholar_partial_${outcome}`, Date.now() - requestStarted); } } : {}),
         onAudit: (audit) => {
           onDiagnostic("retrieval", "library_filter_totals", Date.now() - requestStarted, {
             kind: audit.group, query_count: audit.queries, configuration_missing: audit.configurationMissing,
@@ -155,7 +197,10 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
             onDiagnostic("retrieval", `scholar_${name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`)}_${count}`, Date.now() - requestStarted);
         },
       }) } : {}),
-      ...(libraryFlow && LIVE_ON && SCHOLARS_ON ? { searchScholarsLive } : {}),
+      ...(libraryFlow && LIVE_ON && SCHOLARS_ON ? { searchScholarsLive: async (queries: string[]) => {
+        try { return await searchScholarsLive(queries, options?.signal); }
+        catch (error) { if (options?.rich) sourceProblems.scholar = options.signal?.aborted ? "timeout" : "search_failed"; throw error; }
+      } } : {}),
       // Related clips from the approved YouTube channels, shown under the answer (never evidence).
       ...(VIDEOS_ON ? { searchVideos: (phrases) => searchVideos(phrases) } : {}),
       // Reason codes only, never the question. Local testing only.
@@ -164,8 +209,10 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       onDiagnostic: debug ? (stage, code, _ms, details) => onDiagnostic(stage, code, Date.now() - requestStarted, details) : undefined,
     });
     onDiagnostic("answer", "live_process_finished", Date.now() - requestStarted, { status: result.status, duration_ms: Date.now() - requestStarted });
+    recordLocalAskEvent("terminal_result", result);
     return result;
   } catch (error) {
+    recordLocalAskEvent("pipeline_failed", { error, request_aborted: options?.signal?.aborted, reason: options?.signal?.reason });
     onDiagnostic("answer", "live_process_failed", Date.now() - requestStarted, { outcome: errorCategory(error) });
     throw error;
   }

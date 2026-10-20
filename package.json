@@ -8,6 +8,14 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
+    "ask:trace": "tsx scripts/read-ask-trace.ts",
+    "ask:inventory": "tsx scripts/inventory-ask-sources.ts",
+    "ask:benchmark:prepare": "tsx scripts/prepare-ask-search-benchmark.ts",
+    "ask:index:pilot": "tsx scripts/build-ask-source-pilot.ts",
+    "ask:index:probe": "tsx scripts/probe-ask-source-pilot.ts",
+    "ask:index:prune": "tsx scripts/maintain-ask-source-pilot.ts",
+    "ask:jobs:verify": "tsx scripts/verify-ask-job-storage.ts",
+    "ask:worker:preview": "tsx --conditions=react-server scripts/run-ask-worker.ts",
     "audit:prepared": "tsx --conditions=react-server scripts/dry-run-prepared-v2.ts --strict"
   },
   "dependencies": {

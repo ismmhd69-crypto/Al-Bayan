@@ -45,6 +45,7 @@ export type AnswerRequirement = {
   id: string; // Assigned by code as R1...R4. The understanding model never chooses ids.
   text: string;
   facet: AnswerFacet;
+  scope?: "general" | "case_specific";
   essentialConditions?: string[]; // Question constraints, never answer facts.
   interpretationId?: "I1" | "I2";
   searchQueries?: Partial<Record<Locale, string[]>>;
@@ -66,6 +67,7 @@ export type QuestionFrame = {
   tierQueries?: { quran: string[]; hadith: string[] };
   interpretations?: { id: "I1" | "I2"; label: string }[];
   clarificationNeeded?: boolean;
+  checklistStatus?: "complete" | "ambiguous" | "too_complex";
 };
 
 export function requirementMeaning(requirements: AnswerRequirement[]): AnswerRequirement[] {
@@ -75,7 +77,9 @@ export function requirementMeaning(requirements: AnswerRequirement[]): AnswerReq
 const LOCALES = ["ar", "en", "de"] as const;
 const KINDS = ["question", "personal", "greeting", "off_topic", "harmful"] as const;
 const SAFE_PHRASE = /^[\p{L}\p{M}][\p{L}\p{M}' -]{0,79}$/u;
-const SAFE_REQUIREMENT = /^(?=.*[A-Za-z])[A-Za-z\d%'(),. -]{1,120}$/;
+// Checklist descriptions may be statements or questions. Ordinary punctuation is
+// harmless here; instruction filtering, length limits and enums remain enforced.
+const SAFE_REQUIREMENT = /^(?=.*[A-Za-z])[A-Za-z\d%'(),.:;?! -]{1,120}$/;
 const INSTRUCTION_WORDS = /\b(ignore|disregard|instructions?|prompt|system|output|reveal|override|bypass)\b|\b(ignoriere|anweisung|prompt|system|ausgabe|enth[üu]lle|umgehe)\b|تجاهل|تعليمات|موجه|نظام|اكشف|تجاوز/iu;
 const GENERIC_SEARCH_WORDS = new Set([
   "who", "what", "why", "how", "where", "when", "is", "are", "was", "were", "the", "a", "an", "of", "in", "about", "on", "for",
@@ -112,6 +116,10 @@ function requirements(value: unknown): AnswerRequirement[] | null {
     if (!(ANSWER_FACETS as readonly string[]).includes(point.facet) || seen.has(key)) return null;
     seen.add(key);
     const extras: Partial<AnswerRequirement> = {};
+    if (point.scope !== undefined) {
+      if (point.scope !== "general" && point.scope !== "case_specific") return null;
+      extras.scope = point.scope;
+    }
     if (point.essential_conditions !== undefined) {
       if (!Array.isArray(point.essential_conditions) || point.essential_conditions.length > 3) return null;
       const conditions = phrases(point.essential_conditions, 3, 5);
@@ -174,6 +182,7 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
   }
   if (answerRequirements.some((r) => r.interpretationId && !interpretations?.some((i) => i.id === r.interpretationId))) return null;
   if (record.clarification_needed !== undefined && typeof record.clarification_needed !== "boolean") return null;
+  if (record.checklist_status !== undefined && !["complete", "ambiguous", "too_complex"].includes(String(record.checklist_status))) return null;
 
   return {
     language: record.language as Locale,
@@ -184,6 +193,7 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
     requiredFacets,
     qualifiers,
     searchQueries,
+    ...(record.checklist_status ? { checklistStatus: record.checklist_status as QuestionFrame["checklistStatus"] } : {}),
     ...(interpretations ? { interpretations, clarificationNeeded: record.clarification_needed === true } : {}),
     ...(tiered ? { tierQueries: { quran: arabicOnly(record.search_queries_quran_ar), hadith: arabicOnly(record.search_queries_hadith_ar) } } : {}),
   };
@@ -317,6 +327,7 @@ export type PassageForSelection = {
   source: Source;
   context: Verse[]; // neighbouring verses; empty for hadith and scholar quotes, which stand on their own
   retrievedFor?: string[]; // Search provenance only. Never establishes supported requirements.
+  contextAvailability?: "complete_parent" | "stored_excerpt_only";
 };
 
 function searchWords(text: string): string[] {
@@ -366,7 +377,12 @@ export function rankCandidatesForQuestion(
   });
 }
 
-export type SelectedPassage = PassageForSelection & { requirementIds: string[]; facets: AnswerFacet[] };
+export type SourceContribution = { role: "direct" | "background" | "limited_example"; scope: "general" | "case_specific"; conditions: string[] };
+export type SelectedPassage = PassageForSelection & {
+  requirementIds: string[]; // Direct contributions only; context never establishes coverage.
+  explanationRequirementIds?: string[];
+  facets: AnswerFacet[]; contribution?: SourceContribution;
+};
 
 export type EvidencePackage = {
   question: Pick<QuestionFrame, "language" | "questionType" | "subjects" | "requirements" | "requiredFacets" | "qualifiers" | "interpretations">;
@@ -385,7 +401,7 @@ export function parseEvidencePackage(
   raw: unknown,
   frame: QuestionFrame,
   candidates: PassageForSelection[],
-  options: ChooserOptions = {},
+  options: ChooserOptions & { requireContributions?: boolean } = {},
   onFailure?: (code: string) => void,
 ): EvidencePackage | null {
   const fail = (code: string): null => { onFailure?.(code); return null; };
@@ -407,6 +423,8 @@ export function parseEvidencePackage(
   const byId = new Map(candidates.map((candidate) => [candidate.id, candidate]));
   const requirementById = new Map(frame.requirements.map((requirement) => [requirement.id, requirement]));
   const verdicts = new Map<string, { ok: boolean; requirementIds: string[]; position: string | null }>();
+  const contributions = new Map<string, SourceContribution>();
+  const supporting = new Map<string, string[]>();
   for (const item of record.assessments) {
     if (!item || typeof item !== "object") return fail("assessment_not_object");
     const assessment = item as Record<string, unknown>;
@@ -417,9 +435,38 @@ export function parseEvidencePackage(
     const requirementIds = [...new Set(assessment.supported_requirement_ids.filter(isString))];
     if (requirementIds.length !== assessment.supported_requirement_ids.length
       || !requirementIds.every((id) => requirementById.has(id))) return fail("requirement_ids_invalid_or_unknown");
-    const direct = assessment.relevance === "direct";
+    const direct = assessment.relevance === "direct" || (!!options.requireContributions && assessment.relevance === "partial"
+      && (assessment.contribution as SourceContribution | undefined)?.role === "direct");
+    let scopeCompatible = true;
+    if (options.requireContributions) {
+      const c = assessment.contribution as Record<string, unknown> | undefined;
+      if (!c || !["direct", "background", "limited_example"].includes(String(c.role))
+        || !["general", "case_specific"].includes(String(c.scope)) || !Array.isArray(c.conditions)
+        || c.conditions.length > 6 || !c.conditions.every(s => typeof s === "string" && s.length > 0 && s.length <= 200)
+        || !["yes", "no", "unsure"].includes(String(assessment.scope_matches_question))) return fail("contribution_invalid");
+      if (direct && (c.role !== "direct" || assessment.scope_matches_question !== "yes")) return fail("source_scope_mismatch");
+      // The question frame and evidence selector make separate scope decisions. A selector's
+      // blanket "yes" cannot turn a narrow case into instructions for a general requested point.
+      if (direct && c.scope === "case_specific" && requirementIds.some(id => requirementById.get(id)?.scope !== "case_specific")) {
+        scopeCompatible = false;
+        onFailure?.("source_scope_rejected");
+      }
+      const contribution = c as SourceContribution;
+      const previous = contributions.get(assessment.source_id);
+      if (previous && JSON.stringify(previous) !== JSON.stringify(contribution)) return fail("contribution_conflict");
+      contributions.set(assessment.source_id, contribution);
+      // Context must have an explicit question link and a distinct useful contribution. A
+      // keyword match or a selector's contradictory duplicate verdict is never enough.
+      if (!direct && ["context", "partial"].includes(assessment.relevance)
+        && c.role !== "direct" && assessment.context_safe === "yes"
+        && assessment.distinct_contribution === "yes"
+        && Array.isArray(assessment.related_requirement_ids) && assessment.related_requirement_ids.length > 0
+        && assessment.related_requirement_ids.every(id => typeof id === "string" && requirementById.has(id))) {
+        supporting.set(assessment.source_id, [...new Set(assessment.related_requirement_ids as string[])]);
+      } else supporting.delete(assessment.source_id);
+    }
     if (!direct && requirementIds.length > 0) return fail("non_direct_requirement_assignment");
-    const ok = direct && assessment.context_safe === "yes" && requirementIds.length > 0;
+    const ok = direct && scopeCompatible && assessment.context_safe === "yes" && requirementIds.length > 0;
     const position = typeof assessment.position === "string" && /^[a-z][a-z0-9-]{0,39}$/.test(assessment.position)
       ? assessment.position : null;
     const candidate = byId.get(assessment.source_id)!;
@@ -444,17 +491,24 @@ export function parseEvidencePackage(
       return {
         ...candidate,
         requirementIds,
+        ...(contributions.has(candidate.id) ? { contribution: contributions.get(candidate.id)! } : {}),
         facets: [...new Set(requirementIds.map((id) => requirementById.get(id)!.facet))],
       };
     });
+  const context: SelectedPassage[] = options.requireContributions ? candidates
+    .filter(candidate => supporting.has(candidate.id) && !direct.some(p => p.id === candidate.id)
+      && (record.assessments as Record<string, unknown>[]).filter(a => a.source_id === candidate.id).length === 1)
+    .map(candidate => ({ ...candidate, requirementIds: [], explanationRequirementIds: supporting.get(candidate.id)!,
+      contribution: contributions.get(candidate.id)!, facets: [] })) : [];
   if (direct.length === 0) return fail(
     record.assessments.some((item) => item.relevance === "direct" && item.context_safe !== "yes")
       ? "no_direct_evidence_unsafe_context" : "no_direct_evidence_with_requirements",
   );
+  if (options.requireContributions && (record.status !== "ready" || record.coverage !== "complete")) return fail("direct_requirement_coverage_missing");
 
   // Code builds the capped package before drafting (lib/ask/package.ts): cover every requested
   // point first, then fill by the fixed ranking within 3 Quran cards, 2 hadith and 2 scholar quotes.
-  const chosen = chooseSealedPackage(direct, frame.requirements.map((requirement) => requirement.id), options);
+  const chosen = chooseSealedPackage([...direct, ...context], frame.requirements.map((requirement) => requirement.id), options);
   if (!chosen) return fail(frame.requirements.every((requirement) => direct.some((passage) => passage.requirementIds.includes(requirement.id)))
     ? "package_caps_prevent_coverage" : "direct_requirement_coverage_missing");
   const selected = chosen.passages;

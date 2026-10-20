@@ -103,7 +103,7 @@ describe("hydrateAnswer", () => {
   it("puts the texts back from their sources and passes the strict validator", async () => {
     const result = await hydrateAnswer(stripAnswer(answer()), deps);
     expect(result.ok).toBe(true);
-    if (!result.ok) return;
+    if (!result.ok || result.answer.version !== 2) return;
     expect(result.answer.quran[0].verses[0].arabic).toBe("نص عربي تجريبي");
     expect(result.answer.quran[0].verses[0].translation).toBe("Made-up translation for testing");
     expect(result.answer.hadith[0].translation).toBe("Made-up hadith text about a shield");

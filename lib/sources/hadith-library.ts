@@ -44,13 +44,14 @@ export async function searchLibraryHadith(queries: Partial<Record<Locale, string
   // usable hadith at all.
   const levels = await Promise.all(hadithSearchQueries(phrases).map(async (query) => {
     audit.queries++;
-    const { data, error } = await supabase.rpc("search_approved_source_candidates", {
+    const search = supabase.rpc("search_approved_source_candidates", {
       query_text: query,
       answer_language: "ar",
       question_type: "general",
       required_facets: [],
       match_count: SEARCH_POOL,
     });
+    const { data, error } = await (options.signal ? search.abortSignal(options.signal) : search);
     if (error) throw new Error(`hadith search failed: ${error.message}`);
     const result = (data as { source_id: string }[] | null) ?? [];
     if (result.length >= SEARCH_POOL) audit.ceilingHits++;
@@ -64,8 +65,9 @@ export async function searchLibraryHadith(queries: Partial<Record<Locale, string
   if (ids.length === 0) { options.onAudit?.(audit); return []; }
 
   // One batched read for every hit; rows that are not published hadith are simply not returned.
-  const { data: rows, error } = await supabase
+  const read = supabase
     .from("sources").select(COLUMNS).in("id", ids).eq("published", true).eq("kind", "hadith");
+  const { data: rows, error } = await (options.signal ? read.abortSignal(options.signal) : read);
   if (error) throw new Error(`hadith could not be read: ${error.message}`);
   const byId = new Map(((rows as StoredHadithRow[] | null) ?? []).map((r) => [r.id, r]));
   audit.wrongKindOrUnavailable = ids.filter((id) => !byId.has(id)).length;

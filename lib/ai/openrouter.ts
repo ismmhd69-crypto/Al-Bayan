@@ -1,3 +1,5 @@
+import { askTimeout } from "@/lib/ask/timing";
+import { modelFetch } from "./transport";
 import "server-only";
 import { emitAiTrace, errorCategory } from "@/lib/ask/trace-context";
 import type { AIProvider, JsonRequest } from "./types";
@@ -64,10 +66,10 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
           throw new GoogleBusyError("openrouter busy (local limit)");
         }
         try {
-          const response = await fetch(ENDPOINT, {
+          const response = await modelFetch(ENDPOINT, {
             method: "POST",
             headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}`, "X-Title": "Al-Bayan" },
-            signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(timeoutMs())]) : AbortSignal.timeout(timeoutMs()),
+            signal: askTimeout(signal, timeoutMs(), "openrouter_http"),
             cache: "no-store",
             body: JSON.stringify({
               model,
@@ -110,6 +112,8 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
       type Reply = { choices?: { finish_reason?: string; message?: { content?: string | null } }[]; usage?: { cost?: number; prompt_tokens?: number; completion_tokens?: number; completion_tokens_details?: { reasoning_tokens?: number } } };
       const read = async (response: Response): Promise<Reply> => {
         const data = await response.json() as Reply;
+        emitAiTrace("provider_visible_output", { model: id, finish_reason: data.choices?.[0]?.finish_reason,
+          content: (data.choices?.[0]?.message?.content ?? "").replace(/<think>[\s\S]*?<\/think>/gi, "[reasoning omitted]").replace(/<think>[\s\S]*$/gi, "[reasoning omitted]") });
         emitAiTrace("model_usage", { model: id, attempt, cost_usd: data.usage?.cost, prompt_tokens: data.usage?.prompt_tokens, completion_tokens: data.usage?.completion_tokens, reasoning_tokens: data.usage?.completion_tokens_details?.reasoning_tokens, finish_reason: data.choices?.[0]?.finish_reason });
         // Count every successful HTTP call, including a cut-off first attempt.
         if (typeof data.usage?.cost === "number") debug(`ai cost: ${id} ${data.usage.cost}`);
