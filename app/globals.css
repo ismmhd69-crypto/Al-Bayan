@@ -78,7 +78,9 @@ h3 {
   margin: 0;
 }
 
-p {
+p,
+figure,
+blockquote {
   margin: 0;
 }
 
@@ -247,6 +249,7 @@ svg {
   inline-size: 100%;
   min-inline-size: 0;
   max-inline-size: 100%;
+  overflow-x: hidden;
 }
 
 .tabbar {
@@ -400,8 +403,8 @@ svg {
 @media (max-width: 640px) {
   .page,
   .home {
-    padding: 20px 14px;
-    gap: 18px;
+    padding: 16px 12px;
+    gap: 16px;
   }
 }
 @media (min-width: 960px) {
