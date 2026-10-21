@@ -8,6 +8,7 @@ import type { LearningReference, LessonParts, LessonSummary, PrayerKey } from "@
 import { learningText, learningReadingTime, learningSourceLabel } from "@/lib/learning/text";
 import { useReadingProgress } from "./useReadingProgress";
 import LearningMarkdown, { LearningInline } from "./LearningMarkdown";
+import PrayerUnitTracker from "./PrayerUnitTracker";
 const chapterLabel = (id: number, language: Locale) =>
   language === "ar"
     ? ["أ", "ب", "ج", "د", "هـ", "و"][id - 1] ?? String.fromCharCode(64 + id)
