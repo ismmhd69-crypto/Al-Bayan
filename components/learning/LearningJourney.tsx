@@ -38,8 +38,7 @@ export default function LearningJourney({ lang, lessons, chapters }: { lang: Loc
     <section className="progress learning-progress" aria-label={t.chapters}>
       <p aria-live="polite">{label(progress.read.length, lessons.length)}</p>
       <progress max={lessons.length} value={progress.read.length} aria-label={label(progress.read.length, lessons.length)} />
-      <p>{t.progressNote}</p>
-      <p>{storageAvailable ? t.storage : t.storageUnavailable}</p>
+      <p>{storageAvailable ? t.progressNote : t.storageUnavailable}</p>
     </section>
     {legacy && <p className="learning-small">{t.legacy}</p>}
     <section className="learning-chapters" aria-labelledby="learning-chapters-title"><h2 id="learning-chapters-title">{t.chapters}</h2>
