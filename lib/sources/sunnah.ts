@@ -1,3 +1,4 @@
+import { askTimeout } from "@/lib/ask/timing";
 import "server-only";
 import type { Locale } from "@/lib/i18n";
 import { searchHadithMulti } from "./hadith";
@@ -74,7 +75,7 @@ async function fetchSunnah(path: string): Promise<unknown | null> {
   const key = process.env.SUNNAH_API_KEY;
   if (!key) return null;
   try {
-    const response = await fetch(`${API}${path}`, { headers: { "X-API-Key": key, Accept: "application/json" }, signal: AbortSignal.timeout(TIMEOUT_MS), next: { revalidate: 86_400 } });
+    const response = await fetch(`${API}${path}`, { headers: { "X-API-Key": key, Accept: "application/json" }, signal: askTimeout(undefined, TIMEOUT_MS, "sunnah_transport"), next: { revalidate: 86_400 } });
     if (!response.ok) return null;
     return await response.json();
   } catch { return null; }

@@ -11,7 +11,7 @@ import { getMappedScholarQuote, searchScholarsLive } from "@/lib/sources/scholar
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 import { searchVideos } from "@/lib/sources/videos";
 import { runPipeline, type AskResult, type PipelineDeps } from "./core";
-import { askClaimAudit, askCorpusRetrieval, askDeadlineMs, askLibraryFlow, askMaxVideos, askMeaningRanking, askResearchRecovery, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
+import { askClaimAudit, askRichVideos, askCorpusRetrieval, askDeadlineMs, askLibraryFlow, askMaxVideos, askMeaningRanking, askResearchRecovery, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
 import { localCorpusRetriever } from "./search-engine/server-corpus";
 import { pipelineMeaningRanker } from "./search-engine/pipeline-ranking";
 import { modelMeaningReranker } from "./search-engine/reranker";
@@ -28,7 +28,7 @@ import { currentAskRequestId, currentAskStarted, observedProvider, errorCategory
 import type { RichCallbacks } from "./rich-answer";
 import { lookupDisplayTranslations } from "./display-translation-lookup";
 import { recordLocalAskEvent } from "./local-trace";
-import { localAskTraceEnabled } from "./settings";
+import { localAskTraceEnabled, localAskUnhurried } from "./settings";
 
 // HADITH_SOURCE=library: stored Sahih al-Bukhari / Sahih Muslim hadith. =hadeethenc: the old live path.
 // Anything else: hadith off. Never both.
@@ -49,7 +49,7 @@ export async function scholarQuotes(phrases: string[], mappedUrls: string[] = []
   const live = LIVE_ON && !options.allVariants
     ? Promise.race([
         searchScholarsLive(phrases, options.signal).catch(() => { options.onFailure?.("search_failed"); return [] as ScholarQuote[]; }),
-        new Promise<ScholarQuote[]>((resolve) => setTimeout(() => resolve([]), LIVE_TIMEOUT_MS)),
+        ...(localAskUnhurried() ? [] : [new Promise<ScholarQuote[]>((resolve) => setTimeout(() => resolve([]), LIVE_TIMEOUT_MS))]),
       ])
     : Promise.resolve([] as ScholarQuote[]);
   const [direct, stored, fresh] = await Promise.all([
@@ -148,7 +148,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       ...(options?.rich && askResearchRecovery() ? { planEvidenceRecovery: modelRecoveryPlanner(observe(writer, "writer")) } : {}),
       ...(options?.rich && askMeaningRanking() ? { meaningRankCandidates: pipelineMeaningRanker(modelMeaningReranker(observe(verifier, "checker")), audit => {
         recordLocalAskEvent("meaning_ranking", audit);
-        onDiagnostic("candidates", "meaning_ranking_finished", Date.now() - requestStarted, { before: audit.before, after: audit.after, dropped_source_ids: audit.droppedIds });
+        onDiagnostic("candidates", "meaning_ranking_finished", Date.now() - requestStarted, { before: audit.before, after: audit.after, dropped_source_ids: audit.droppedIds, ignored_unknown_count: audit.ignoredUnknownCount });
       }) } : {}),
       deadlineMs: askDeadlineMs(),
       ...(options?.disableReferenceHints ? { disableReferenceHints: true } : {}),
@@ -170,6 +170,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8), getHadith } : {}),
       // Stored hadith from our own library (Sunnah.com text). Needs the server's secret key.
       ...(HADITH_MODE === "library" ? { searchHadith: (queries) => searchLibraryHadith(queries, {
+        meaningCandidates: !!options?.rich && askMeaningRanking(),
         ...(options?.signal ? { signal: options.signal } : {}),
         onAudit: (audit) => {
           onDiagnostic("retrieval", "library_filter_totals", Date.now() - requestStarted, {
@@ -184,7 +185,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       }), getHadith: getLibraryHadith } : {}),
       // Short quotes of approved scholars from our private library (rights: short quotes, permission pending).
       ...(SCHOLARS_ON ? { searchScholars: (phrases: string[], mappedUrls?: string[]) => scholarQuotes(phrases, mappedUrls, {
-        allVariants: libraryFlow,
+        allVariants: libraryFlow, meaningCandidates: !!options?.rich && askMeaningRanking(),
         ...(options?.rich ? { signal: options.signal, onFailure: (outcome: "timeout" | "search_failed") => { sourceProblems.scholar = outcome; onDiagnostic("retrieval", `scholar_partial_${outcome}`, Date.now() - requestStarted); } } : {}),
         onAudit: (audit) => {
           onDiagnostic("retrieval", "library_filter_totals", Date.now() - requestStarted, {
@@ -202,7 +203,8 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
         catch (error) { if (options?.rich) sourceProblems.scholar = options.signal?.aborted ? "timeout" : "search_failed"; throw error; }
       } } : {}),
       // Related clips from the approved YouTube channels, shown under the answer (never evidence).
-      ...(VIDEOS_ON ? { searchVideos: (phrases) => searchVideos(phrases) } : {}),
+      richVideos: askRichVideos(),
+      ...(VIDEOS_ON ? { searchVideos: (phrases, signal) => searchVideos(phrases, 12, signal) } : {}),
       // Reason codes only, never the question. Local testing only.
       onRefuse: debug ? (reason) => { console.info(`ask refused: ${reason}`); onDiagnostic("answer", `refused_${reason}`, Date.now() - requestStarted); } : undefined,
       onStep: debug ? (name, ms) => { console.info(`ask step: ${name} at ${ms} ms`); onDiagnostic("request", `step_${name.replace(/[^a-z0-9_]/g, "_")}`, Date.now() - requestStarted); } : undefined,

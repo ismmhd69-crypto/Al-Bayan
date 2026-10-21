@@ -1048,6 +1048,16 @@ a.list-row:hover {
   border-end-start-radius: 6px;
   box-shadow: var(--shadow-sm);
 }
+@media (max-width: 640px) {
+  .msg-bayan {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    max-inline-size: 100%;
+    border-radius: 0;
+  }
+}
 .msg-thinking {
   display: flex;
   align-items: center;

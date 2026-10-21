@@ -94,6 +94,17 @@ describe("hybrid search provenance and source eligibility", () => {
     hybridSearch(index(p), { ...concern, phrases: ["الى الهدى"], vector: undefined }, { now });
     expect(p.original).toBe(original);
   });
+  it("does not discover evidence through formatting tag names or attribute numbers",()=>{
+    const original='نص تجريبي [quran sura="27" aya_start="80" aya_end="80"]{ آية تجريبية للاختبار }';
+    const p=passage("markup","hadith",original);
+    expect(searchTokens(original)).not.toContain("quran");
+    expect(searchTokens(original)).not.toContain("sura");
+    expect(searchTokens(original)).not.toContain("27");
+    expect(searchTokens(original)).toContain("اية");
+    const result=hybridSearch(index(p),{...concern,phrases:["quran sura"],vector:undefined},{now});
+    expect(result.hits).toEqual([]);
+    expect(p.original).toBe(original);
+  });
 });
 
 describe("semantic ranking validation", () => {

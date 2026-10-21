@@ -33,6 +33,31 @@ describe("shared evidence roles", () => {
     expect(richCoverageChecked(coverage("Q2:183"), [{ text: "Limited background.", refs: ["Q2:183"], requirementId: "R1" }], selected!)).toBe(false);
     expect(sealedPackageJson(selected!, "en").passages.find(p => p.id === "Q2:183")).toMatchObject({ explanation_requirement_ids: ["R1"], supported_requirement_ids: [] });
   });
+  it("accepts direct evidence and a separately checked background contribution together", () => {
+    const selected = parseEvidencePackage(selection(pack.passages.map(p => assessment(p.id, p.source.kind === "quran" ? "direct" : "background"))), frame, pack.passages, { requireContributions: true })!;
+    const items = [
+      { text: "A direct part of the answer.", refs: ["Q2:183"], requirementId: "R1" },
+      { text: "A useful limited explanation.", refs: ["HE9001"], requirementId: "R1" },
+    ];
+    const combined = [{ requirement_id: "R1", claim_ids: ["C1", "C2"], source_ids: ["Q2:183", "HE9001"], fully_answered: "yes", conditions_preserved: "yes" }];
+    expect(richCoverageChecked(combined, items, selected)).toBe(true);
+    expect(richCoverageChecked([{ ...combined[0], fully_answered: "no" }], items, selected)).toBe(false);
+    expect(richCoverageChecked([{ ...combined[0], conditions_preserved: "unsure" }], items, selected)).toBe(false);
+    selected.passages.find(p => p.id === "HE9001")!.explanationRequirementIds = ["R2"];
+    expect(richCoverageChecked(combined, items, selected)).toBe(false);
+  });
+  it("does not let a correct coverage map override a failed source scope check", async () => {
+    const deps = dependencies();
+    deps.verifier.generateJson = async req => {
+      const result = audit(req.prompt);
+      if (JSON.parse(req.prompt).full_answer) {
+        result.claim_assessments.at(-1)!.scope_preserved = "no";
+        result.claim_assessments.at(-1)!.reason_codes = ["scope_broadened"];
+      }
+      return result;
+    };
+    expect(await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {}, 9000)).toMatchObject({ status: "incomplete" });
+  });
   it.each(["mention_only", "unrelated"])("does not relabel %s as usable background", relevance => {
     const raw = selection(pack.passages.map(p => assessment(p.id, p.source.kind === "quran" ? "background" : "direct", p.source.kind === "quran" ? relevance : "direct")));
     expect(parseEvidencePackage(raw, frame, pack.passages, { requireContributions: true })?.passages.some(p => p.source.kind === "quran")).toBe(false);
@@ -90,6 +115,44 @@ describe("shared question contract and useful answers", () => {
   it.each(["useful_explanation", "guidance_safe", "guidance_relevant", "question_checklist_complete", "personal_application_avoided"])("cannot complete an answer that fails %s", async field => {
     const deps = dependencies(); deps.verifier.generateJson = async req => ({ ...audit(req.prompt), ...(JSON.parse(req.prompt).full_answer ? { [field]: "no" } : {}) });
     expect(await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {}, 9000)).toMatchObject({ status: "incomplete" });
+  });
+  it("rejects a repeating final summary even when all broad checker verdicts say yes", async () => {
+    const deps = dependencies();
+    deps.verifier.generateJson = async req => {
+      const r = audit(req.prompt), request = JSON.parse(req.prompt);
+      if (request.full_answer) {
+        const summary = r.contribution_map.find((row: { claim_id: string }) => request.summary_claim_ids.includes(row.claim_id));
+        summary.kind = "restatement"; summary.duplicates = [request.claims[0].claim_id];
+      }
+      return r;
+    };
+    expect(await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {}, 9000)).toMatchObject({ status: "incomplete" });
+  });
+  it("passes the exact failed claim and explanation to the single bounded correction", async () => {
+    const deps = dependencies(), originalWrite = deps.writer.generateJson;
+    const corrections: unknown[] = [];
+    deps.writer.generateJson = async req => {
+      const request = JSON.parse(req.prompt);
+      if (request.correction) corrections.push(request.correction);
+      return originalWrite(req);
+    };
+    let rejected = false;
+    deps.verifier.generateJson = async req => {
+      const result = audit(req.prompt), request = JSON.parse(req.prompt);
+      if (request.full_answer && !rejected) {
+        rejected = true;
+        const failure = result.claim_assessments.at(-1)!;
+        failure.direct_support = "no";
+        failure.reason_codes = ["unsupported_meaning"];
+        failure.explanation = "The cited excerpt does not contain this additional detail.";
+      }
+      return result;
+    };
+    await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {}, 30000);
+    expect(corrections).toHaveLength(1);
+    expect(corrections[0]).toMatchObject({ checker_findings: {
+      support_failures: [{ explanation: "The cited excerpt does not contain this additional detail." }],
+    } });
   });
   it("lets the semantic audit reject an independent ruling even if its wording passes parsing", async () => {
     const deps = dependencies(), write = deps.writer.generateJson;

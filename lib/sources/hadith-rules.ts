@@ -179,20 +179,48 @@ const STORED_NAMES = {
   muslim: { collection: "Sahih Muslim", attributionAr: "رواه مسلم" },
 } as const;
 
-// A continuation report ("and so-and-so told us this with the same chain, like it") has no wording
-// of its own, so it is a poor quote. Matched on text without diacritics.
-const CONTINUATION_PHRASE = /بهذا الاسناد|في هذا الاسناد|بمثله|بمثل حديث|بنحوه|نحوه|بإسناده|باسناده|بهذا الحديث|بمعناه|مثله/;
-// The last words of the text (after punctuation is removed).
-const CONTINUATION_ENDING = /(بهذا الاسناد|في هذا الاسناد|بمثله|مثله|نحوه|بنحوه|بمثل حديث \S+|بمعناه|بهذا|بهذا الحديث|بإسناده|باسناده)\s*$/;
-const PROPHET_WORDS = /(قال|يقول|يقول:|فقال) (رسول الله|النبي)|(رسول الله|النبي)[^.]{0,40}(قال|يقول|يقول:)/;
+// A report can have a very long chain but supply only a reference to earlier
+// wording or a variant. Length cannot make that missing antecedent complete.
+const CONTINUATION_PHRASE = /(?:^| )(?:بهذا الاسناد|في هذا الاسناد|بهذين الاسنادين|بالاسنادين(?: جميعا)?|بهذه الاسانيد|بمثله(?:ما)?|بمثل حديث(?:ه)?|بنحو حديث(?:ه)?|نحو حديث(?:ه)?|مثل حديث(?:ه)?|بنحوه(?:ما)?|نحوه(?:ما)?|باسناده|بهذا الحديث|بمعني حديث|بمعناه|مثله(?:ما)?)(?= |$)/g;
+const CONTINUATION_ENDING = /(?:^| )(?:بهذا الاسناد|في هذا الاسناد|بمثله(?:ما)?|مثله(?:ما)?|نحوه(?:ما)?|بنحوه(?:ما)?|بمثل حديث \S+|بنحو حديث \S+|نحو حديث \S+|بمعناه|بهذا|بهذا الحديث|باسناده)$/;
+const PROPHET_NAME = "(?:رسول الله|النبي|نبي الله|ابو القاسم|ابا القاسم)";
+const HONORIFIC = "(?: صلي الله عليه وسلم)?";
+// No arbitrary 40-character jump from a name to a verb: "all the narrators
+// say" after "from the Prophet, by this report" is not fresh prophetic speech.
+const PROPHET_WORDS = new RegExp(`(?:^| )(?:(?:قال|فقال|وقال|يقول) (?:(?:لي|لنا|له|لها|لهم) )?${PROPHET_NAME}${HONORIFIC}|${PROPHET_NAME}${HONORIFIC} (?:انه )?(?:قال|يقول))(?= |$)`, "g");
+const PROPHET_NARRATIVE = new RegExp(`(?:^| )(?:(?:ثم )?(?:قال|قالت) )?(?:رايت|راينا|سمعت|سمعنا|كان|كانت) ${PROPHET_NAME}(?= |$)`);
+const hadithContextText = (text: string) => normalizeArabic(text).replace(/[^ء-ي\s]/g, " ").replace(/\s+/g, " ").trim();
+
+export type HadithContextAssessment = { needsAntecedent: boolean; reason: "short_fragment" | "unresolved_reference" | "reference_ending" | "no_dependency_detected" };
+
+/** Structural context check, not authenticity grading or a claim that every
+ * possible missing context has been detected. Originals are never rewritten. */
+export function assessHadithContext(arabic: string): HadithContextAssessment {
+  const text = hadithContextText(arabic);
+  if (text.length < 40) return { needsAntecedent: true, reason: "short_fragment" };
+  // Only the lead-in is examined for a supplied full quote. A comparison such
+  // as "like it" inside the Prophet's actual words is not an isnad reference.
+  const quote = arabic.indexOf('\u200f"\u200f');
+  const closing = quote < 0 ? -1 : arabic.indexOf('\u200f"\u200f', quote + 3);
+  const hasQuotedWords = closing > quote && /[ء-ي]/.test(arabic.slice(quote + 3, closing));
+  const lead = hasQuotedWords ? hadithContextText(arabic.slice(0, quote)) : text;
+  const references = [...lead.matchAll(CONTINUATION_PHRASE)];
+  if (references.length) {
+    const last = references.at(-1)!;
+    const afterReference = lead.slice(last.index! + last[0].length);
+    const speechBeforeReference = [...lead.slice(0, references[0].index!).matchAll(PROPHET_WORDS)].length > 0;
+    const onlyComparisons = references.every(r => /^(?:ب?مثله(?:ما)?|ب?نحوه(?:ما)?)$/.test(r[0].trim()));
+    const ordinaryComparison = speechBeforeReference && onlyComparisons && !CONTINUATION_ENDING.test(text);
+    // A fresh speech attribution or observed action can introduce the actual
+    // report. A quoted variant alone, without either, cannot.
+    if (!ordinaryComparison && !PROPHET_NARRATIVE.test(afterReference) && ![...afterReference.matchAll(PROPHET_WORDS)].length) return { needsAntecedent: true, reason: "unresolved_reference" };
+  }
+  if (!hasQuotedWords && CONTINUATION_ENDING.test(text)) return { needsAntecedent: true, reason: "reference_ending" };
+  return { needsAntecedent: false, reason: "no_dependency_detected" };
+}
 
 export function isContinuationHadith(arabic: string): boolean {
-  const text = normalizeArabic(arabic).replace(/[^ء-ي\s]/g, " ").replace(/\s+/g, " ").trim();
-  if (text.length < 40) return true;
-  if (text.length < 220 && CONTINUATION_PHRASE.test(text) && !PROPHET_WORDS.test(text)) return true;
-  // A medium-length report that ends by pointing back to an earlier one ("...from the Prophet, like it")
-  // has no wording of its own to quote.
-  return text.length < 700 && CONTINUATION_ENDING.test(text);
+  return assessHadithContext(arabic).needsAntecedent;
 }
 
 // Builds a Hadith from a stored row, or null if it breaks any rule (fail closed).
@@ -208,7 +236,7 @@ export function mapStoredHadith(row: StoredHadithRow): Hadith | null {
   if (!number || !link || link[1] !== key) return null;
   const base = Number(number[1]);
   if (!Number.isInteger(base) || base <= 0 || Number(link[2].match(/^\d+/)![0]) !== base) return null;
-  if (!row.text_original.trim() || /[<>]/.test(row.text_original)) return null;
+  if (!row.text_original.trim() || /[<>]/.test(row.text_original) || isContinuationHadith(row.text_original)) return null;
   const hadith: Hadith = {
     id: `SH${row.id}`,
     collection: key,

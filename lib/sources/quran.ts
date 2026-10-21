@@ -1,3 +1,4 @@
+import { askTimeout } from "@/lib/ask/timing";
 import "server-only";
 import { isRealVerse, TRANSLATIONS, type Verse } from "./quran-meta";
 import { quranSearchPath } from "./quran-search";
@@ -50,7 +51,7 @@ async function requestToken(): Promise<string> {
   const res = await fetch(`${env.auth}/oauth2/token`, {
     method: "POST",
     cache: "no-store",
-    signal: AbortSignal.timeout(TIMEOUT_MS),
+    signal: askTimeout(undefined, TIMEOUT_MS, "quran_transport"),
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
       Authorization: `Basic ${Buffer.from(`${id}:${secret}`).toString("base64")}`,
@@ -97,7 +98,7 @@ export async function searchQuran(queries: string[], limit: number, signal?: Abo
       const url = `${env.api}${quranSearchPath(q, [TRANSLATIONS.en.id, TRANSLATIONS.de.id], RESULTS_PER_QUERY)}`;
       // Not cached: the search phrases are derived from a visitor's question and must not be kept
       // on disk. Verse text (below) is cached, because it reveals nothing about who asked what.
-      const res = await authedFetch(url, { signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(TIMEOUT_MS)]) : AbortSignal.timeout(TIMEOUT_MS), cache: "no-store" });
+      const res = await authedFetch(url, { signal: askTimeout(signal, TIMEOUT_MS, "quran_transport"), cache: "no-store" });
       if (!res.ok) throw new Error(`Quran search failed with status ${res.status}`);
       const data = (await res.json()) as { result?: { verses?: { key?: unknown; result_type?: unknown }[] } };
       const verses = data.result?.verses;
@@ -182,7 +183,7 @@ export function getVerse(key: string): Promise<Verse | undefined> {
         `${env.api}/content/api/v4/verses/by_key/${key}` +
         `?fields=text_uthmani,text_imlaei_simple&translations=${TRANSLATIONS.en.id},${TRANSLATIONS.de.id}`;
       const res = await authedFetch(url, {
-        signal: AbortSignal.timeout(TIMEOUT_MS),
+        signal: askTimeout(undefined, TIMEOUT_MS, "quran_transport"),
         next: { revalidate: CACHE_SECONDS },
       });
       if (res.status === 404) return undefined;

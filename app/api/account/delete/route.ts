@@ -3,7 +3,8 @@ import { NextResponse } from "next/server";
 import { visitorKey } from "@/lib/ask/limits";
 import { sameOrigin } from "@/lib/same-origin";
 
-// Deletes the signed-in person's account and, through the database cascade, everything saved under it.
+// Deletes the signed-in person's account. Database cascades remove saved content; the research
+// migration's Auth trigger erases private work and detaches any minimal unsettled billing records.
 // The person proves who they are with their own session token; only then is the secret key used, and
 // only to delete that same person.
 const WINDOW_MS = 60 * 60 * 1000;

@@ -1,8 +1,9 @@
 // Display-only cleaner for Sunnah.com's Quran markup inside stored hadith texts and their translations:
 //   [quran sura="6" aya_start="82" aya_end="82"]{‏ الَّذِينَ آمَنُوا ... ‏}‏
 // becomes the verse in its braces followed by the reference: {‏ الَّذِينَ آمَنُوا ... ‏} (6:82).
-// The stored text is never changed: search, evidence selection, AI checks, quote verification and the
-// chain/words split all use the original text. Pure and browser-safe (tests/hadith-split.test.ts).
+// The stored text is never changed: evidence selection, AI checks, quote verification and the
+// chain/words split use the original. Index lookup masks tag attributes so formatting metadata
+// cannot act as religious content. Pure and browser-safe (tests/hadith-split.test.ts).
 
 /** The tag itself. Only this exact form occurs in the library (1,357 tags in 956 hadith, 2026-10-02). */
 export const QURAN_TAG = /\[quran sura="(\d{1,3})" aya_start="(\d{1,3})" aya_end="(\d{1,3})"\]/g;

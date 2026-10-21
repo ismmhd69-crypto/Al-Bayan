@@ -9,19 +9,22 @@ import type { Verse } from "@/lib/sources/quran-meta";
 import type { Hadith } from "@/lib/sources/hadith-rules";
 import { validRichAnswer, type RichAnswer } from "@/lib/ask/rich-answer";
 import type { SavedAnswer } from "./answer-store";
+import { refreshRelatedVideos, type VideoRefresh } from "@/lib/ask/related-videos";
+import { currentVideos } from "@/lib/sources/videos";
 
 // Opens a saved answer: puts the Quran and hadith texts back, fresh from their sources, then runs the
 // same strict validator as every other answer. If any source cannot be loaded, or anything fails the
 // validator, the answer is not shown (fail closed, like lib/prepared.ts).
 
 export type HydrateDeps = {
+  refreshVideos?: VideoRefresh;
   getVerse: (key: string) => Promise<Verse | undefined>;
   getHadith: (id: string) => Promise<Hadith | null>;
   getLibraryHadith?: (uuid: string) => Promise<Hadith | null>; // stored hadith ("SH<uuid>")
 };
 export type HydrateResult = { ok: true; answer: SavedAnswer } | { ok: false; reason: string };
 
-const realDeps: HydrateDeps = { getVerse, getHadith, getLibraryHadith };
+const realDeps: HydrateDeps = { getVerse, getHadith, getLibraryHadith, refreshVideos: currentVideos };
 const REVIEWS: readonly ReviewLabel[] = ["automatic", "bayan_reviewed", "scholar_reviewed"];
 const VERSE_KEY = /^\d{1,3}:\d{1,3}$/;
 const HADITH_ID = /^HE(\d{1,12})$/;
@@ -117,6 +120,10 @@ async function hydrateRich(stored: unknown, deps: HydrateDeps): Promise<HydrateR
         if (!fresh || fresh.kind !== e.kind || fresh.key !== e.key) return { ok: false, reason: "source_unavailable" };
         source.evidence = fresh;
       }
+    }
+    if (a.version === 4 && a.videos) {
+      const fresh = await refreshRelatedVideos(a.videos, deps.refreshVideos);
+      if (fresh) a.videos = fresh; else delete a.videos;
     }
     return validRichAnswer(a) ? { ok: true, answer: a } : { ok: false, reason: "invalid_rich" };
   } catch { return { ok: false, reason: "error" }; }

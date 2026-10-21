@@ -34,4 +34,12 @@ describe("corpus discovery to authoritative source candidates", () => {
     const result = await corpusCandidates(frame, async () => snapshot, { signal: new AbortController().signal, allowLexicalOnly: true });
     expect(result).toEqual([]);
   });
+  it("does not trust a legacy generation's complete flag after context rules change", async () => {
+    const row={...source,text_original:"وحدثنا راو تجريبي عن غيره في مثال مخترع للاختبار ".repeat(26)+"عن النبي صلى الله عليه وسلم بهذا الحديث كلهم يقول في هذه الرواية لفظ مختلف"};
+    const snapshot=index(row);
+    expect(snapshot.passages.every(p=>!p.context.complete)).toBe(true);
+    snapshot.passages.forEach(p=>{p.context.complete=true;}); // Simulate an older generation's stale flag.
+    const result=await corpusCandidates(frame,async()=>snapshot,{signal:new AbortController().signal,allowLexicalOnly:true});
+    expect(result).toEqual([]);
+  });
 });

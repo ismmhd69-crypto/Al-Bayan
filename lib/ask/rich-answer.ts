@@ -5,6 +5,7 @@ import { inLanguage, sourceKindMismatch, isSingleSentence } from "./checks";
 import { isRealVerse } from "@/lib/sources/quran-meta";
 import { hadithAllowed } from "@/lib/sources/hadith-rules";
 import { scholarQuoteAllowed } from "@/lib/sources/scholar-rules";
+import { validRelatedVideos, type RelatedVideos } from "./related-videos";
 
 export const RICH_ORDER = ["quran", "hadith", "scholar", "summary"] as const;
 export type RichGroup = typeof RICH_ORDER[number];
@@ -16,8 +17,8 @@ export type RichSection = { group: RichGroup; outcome: GroupOutcome; claims: Cla
 export type RichGuidance = { text: string; refs: string[]; kind: "learning" | "sourced_instruction" };
 export type RichGuide = "ask_specific_followup" | "clarify_application" | "study_evidence" | "learn_steps" | RichGuidance;
 type RichBase = { language: Locale; review: "automatic"; sections: RichSection[]; complete: true };
-export type RichAnswer = RichBase & ({ version: 3; guide: Exclude<RichGuide, RichGuidance> } | { version: 4; guide: RichGuidance });
-export type RichProgress = "understanding" | "searching" | "checking_evidence" | "writing_quran" | "checking_quran" | "checking_hadith" | "checking_scholar" | "checking_remaining";
+export type RichAnswer = RichBase & ({ version: 3; guide: Exclude<RichGuide, RichGuidance>; videos?: never } | { version: 4; guide: RichGuidance; videos?: RelatedVideos });
+export type RichProgress = "understanding" | "searching" | "checking_evidence" | "writing_quran" | "checking_quran" | "checking_hadith" | "checking_scholar" | "checking_remaining" | "finding_videos";
 export type RichCallbacks = { onSection?: (section: RichSection) => void; onProgress?: (stage: RichProgress) => void; onWithdraw?: () => void };
 export type RichTerminal = { status: "rich_answer"; answer: RichAnswer } | { status: "incomplete"; language: Locale; withdraw: boolean; sections?: RichSection[] };
 export type RichEvent = { request_id: string; sequence: number } & (
@@ -28,7 +29,7 @@ export type RichEvent = { request_id: string; sequence: number } & (
 );
 
 const outcomes = ["ready", "no_direct_evidence", "unavailable", "timeout", "search_failed", "failed_check", "not_checked"];
-const stages = ["understanding", "searching", "checking_evidence", "writing_quran", "checking_quran", "checking_hadith", "checking_scholar", "checking_remaining"];
+const stages = ["understanding", "searching", "checking_evidence", "writing_quran", "checking_quran", "checking_hadith", "checking_scholar", "checking_remaining", "finding_videos"];
 export function validRichGuidance(value: unknown, language: Locale, sourceIds: string[]): value is RichGuidance {
   const g = value as RichGuidance | null;
   return !!g && typeof g.text === "string" && g.text.trim().length > 0 && g.text.length <= 420 && inLanguage(g.text, language)
@@ -82,6 +83,7 @@ export function validRichAnswer(value: unknown): value is RichAnswer {
   if (!a || !Array.isArray(a.sections) || a.sections.some(s => !s || !Array.isArray(s.sources))) return false;
   const explanationRefs = new Set(a.sections.filter(s => s.group !== "summary").flatMap(s => Array.isArray(s.claims) ? s.claims.flatMap(c => c.refs) : []));
   return !!a && [3, 4].includes(a.version) && ["en", "ar", "de"].includes(a.language) && a.review === "automatic" && a.complete === true
+    && (a.videos === undefined || a.version === 4 && validRelatedVideos(a.videos))
     && (a.version === 3 ? ["ask_specific_followup", "clarify_application", "study_evidence", "learn_steps"].includes(a.guide)
       : validRichGuidance(a.guide, a.language, a.sections?.flatMap(s => s.sources.map(x => x.id)) ?? []))
     && Array.isArray(a.sections) && a.sections.length === 4 && a.sections.every((s, i) => validRichSection(s, a.language) && s.group === RICH_ORDER[i])

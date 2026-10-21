@@ -1,3 +1,4 @@
+import { askTimeout } from "@/lib/ask/timing";
 import "server-only";
 import { createHash } from "node:crypto";
 import { createClient } from "@supabase/supabase-js";
@@ -15,7 +16,7 @@ export async function lookupDisplayTranslations(sources: RichSource[], language:
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL, key = process.env.SUPABASE_SECRET_KEY;
   if (!scholars.length) return result;
   if (!url || !key) return unavailable("unavailable");
-  const bounded = AbortSignal.any([signal, AbortSignal.timeout(1500)]);
+  const bounded = askTimeout(signal, 1500, "display_translation_lookup");
   try {
     const canonical = (value: string) => new URL(value).href;
     const urlVariants = [...new Set(scholars.flatMap(s => [s.evidence.url, canonical(s.evidence.url), decodeURI(s.evidence.url)]))];

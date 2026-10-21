@@ -9,13 +9,18 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "ask:trace": "tsx scripts/read-ask-trace.ts",
+    "ask:spend:inspect": "tsx scripts/inspect-ask-spend.ts",
     "ask:inventory": "tsx scripts/inventory-ask-sources.ts",
     "ask:benchmark:prepare": "tsx scripts/prepare-ask-search-benchmark.ts",
+    "ask:benchmark:probe": "tsx scripts/probe-ask-search-benchmark.ts",
     "ask:index:pilot": "tsx scripts/build-ask-source-pilot.ts",
     "ask:index:probe": "tsx scripts/probe-ask-source-pilot.ts",
+    "ask:index:context": "tsx scripts/audit-ask-source-context.ts",
     "ask:index:prune": "tsx scripts/maintain-ask-source-pilot.ts",
+    "ask:index:verify": "tsx scripts/verify-ask-persistent-index.ts",
     "ask:jobs:verify": "tsx scripts/verify-ask-job-storage.ts",
     "ask:worker:preview": "tsx --conditions=react-server scripts/run-ask-worker.ts",
+    "ask:client:preview": "tsx scripts/preview-ask-reconnection.ts",
     "audit:prepared": "tsx --conditions=react-server scripts/dry-run-prepared-v2.ts --strict"
   },
   "dependencies": {

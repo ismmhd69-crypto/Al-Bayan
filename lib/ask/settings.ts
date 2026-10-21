@@ -8,6 +8,7 @@ export const askDurable = () => askRich() && process.env.ASK_DURABLE_ENABLED ===
 export const askMeaningRanking = () => process.env.ASK_MEANING_RANKING === "true";
 export const askResearchRecovery = () => process.env.ASK_RESEARCH_RECOVERY === "true";
 export const askCorpusRetrieval = () => process.env.ASK_CORPUS_RETRIEVAL === "true";
+export const askRichVideos = () => process.env.ASK_RICH_VIDEOS === "true" && process.env.VIDEOS !== "off";
 // Owner-only local development. Never relax a deployed function's execution budget.
 export const localAskRuntime = () => process.env.NODE_ENV === "development" && !process.env.VERCEL;
 export const localAskUnhurried = () => localAskRuntime() && process.env.ASK_LOCAL_UNHURRIED !== "false";

@@ -6,6 +6,8 @@ create schema if not exists editorial;
 create table editorial.ask_research_jobs (
   id uuid primary key,
   owner_hash text not null check (owner_hash ~ '^[a-f0-9]{64}$'),
+  account_id uuid references auth.users(id) on delete set null,
+  erased_at timestamptz,
   rate_hash text not null check (rate_hash ~ '^[a-f0-9]{64}$'),
   dedupe_hash text not null check (dedupe_hash ~ '^[a-f0-9]{64}$'),
   request_hash text not null check (request_hash ~ '^[a-f0-9]{64}$'),
@@ -28,6 +30,7 @@ create table editorial.ask_research_jobs (
 create index ask_research_jobs_queue on editorial.ask_research_jobs(status,created_at);
 create index ask_research_jobs_rate on editorial.ask_research_jobs(rate_hash,created_at);
 create index ask_research_jobs_expiry on editorial.ask_research_jobs(expires_at);
+create index ask_research_jobs_account on editorial.ask_research_jobs(account_id) where account_id is not null;
 
 create table editorial.ask_research_events (
   job_id uuid not null references editorial.ask_research_jobs(id) on delete cascade,
@@ -55,6 +58,28 @@ revoke all on editorial.ask_research_jobs, editorial.ask_research_events, editor
 grant usage on schema editorial to service_role;
 grant select,insert,update,delete on editorial.ask_research_jobs, editorial.ask_research_events, editorial.ask_research_attempts to service_role;
 
+-- Account deletion and private-text erasure occur in the same database transaction.
+-- Narrow trigger-only definer: Auth's deletion role needs no access to editorial tables.
+create function editorial.erase_account_research() returns trigger
+language plpgsql security definer set search_path = '' as $$
+declare stamp timestamptz := clock_timestamp();
+begin
+  update editorial.ask_research_jobs set request_cipher=null,status='expired',lease_id=null,lease_expires_at=null,erased_at=stamp,
+    expires_at=least(expires_at,stamp),updated_at=stamp where account_id=old.id;
+  delete from editorial.ask_research_events e using editorial.ask_research_jobs j where e.job_id=j.id and j.account_id=old.id;
+  update editorial.ask_research_attempts a set response_cipher=null from editorial.ask_research_jobs j where a.job_id=j.id and j.account_id=old.id;
+  -- Keep only minimal outstanding billing receipts, detached from the deleted account.
+  delete from editorial.ask_research_jobs j where account_id=old.id
+    and not exists(select 1 from editorial.ask_research_attempts a where a.job_id=j.id and a.state<>'settled');
+  update editorial.ask_research_jobs set account_id=null,
+    owner_hash=replace(id::text,'-','')||repeat('0',32),rate_hash=repeat('0',64),request_hash=repeat('0',64),dedupe_hash=repeat('0',64)
+    where account_id=old.id;
+  return old;
+end $$;
+revoke all on function editorial.erase_account_research() from public,anon,authenticated,service_role;
+create trigger erase_account_research before delete on auth.users
+for each row execute function editorial.erase_account_research();
+
 -- Invoker rights: only the server role has execution/table privileges. No visitor RPC access.
 create or replace function public.ask_research_job(operation text, payload jsonb)
 returns jsonb language plpgsql security invoker set search_path = '' as $$
@@ -66,9 +91,30 @@ declare
   amount numeric;
   total_reserved numeric;
   result jsonb;
+  export_stamp timestamptz;
 begin
   if payload is null or jsonb_typeof(payload) <> 'object' or octet_length(payload::text) > 4100000 then
     raise exception 'invalid_research_payload';
+  end if;
+
+  if operation='account_ready' then
+    if payload->>'account_id' is null then raise exception 'invalid_research_account'; end if;
+    perform (payload->>'account_id')::uuid;
+    return jsonb_build_object('status','ok','lifecycle_version',1);
+  end if;
+
+  if operation='account_export' then
+    if payload->>'account_id' is null then raise exception 'invalid_research_account'; end if;
+    export_stamp:=coalesce((payload->>'as_of')::timestamptz,stamp);
+    if export_stamp>stamp or export_stamp<stamp-interval '24 hours' then raise exception 'invalid_research_snapshot'; end if;
+    select coalesce(jsonb_agg(jsonb_build_object('id',q.id,'state',q.status,'language',q.language,'created_at',q.created_at,
+      'expires_at',q.expires_at,'request_cipher',q.request_cipher) order by q.id),'[]'::jsonb) into result from (
+      select * from editorial.ask_research_jobs where account_id=(payload->>'account_id')::uuid
+        and created_at<=export_stamp and expires_at>stamp and request_cipher is not null
+        and (payload->>'after' is null or id>(payload->>'after')::uuid) order by id limit 10
+    ) q;
+    return jsonb_build_object('status','ok','as_of',export_stamp,'jobs',result,
+      'next',case when jsonb_array_length(result)=10 then result->9->>'id' else null end);
   end if;
 
   if operation='enqueue' then
@@ -83,7 +129,10 @@ begin
     perform pg_catalog.pg_advisory_xact_lock(1800261020::bigint);
     select * into j from editorial.ask_research_jobs where owner_hash=payload->>'owner' and dedupe_hash=payload->>'dedupe' for update;
     if found then
-      if j.request_hash<>payload->>'request_hash' then return jsonb_build_object('status','idempotency_conflict'); end if;
+      if j.status='cancelled' and j.request_cipher is null then
+        return jsonb_build_object('status','ok','id',j.id,'state','cancelled','sequence',j.sequence);
+      end if;
+      if j.request_hash<>payload->>'request_hash' or j.account_id is distinct from (payload->>'account_id')::uuid then return jsonb_build_object('status','idempotency_conflict'); end if;
       return jsonb_build_object('status','ok','id',j.id,'state',j.status,'sequence',j.sequence);
     end if;
     if (select count(*) from editorial.ask_research_jobs where rate_hash=payload->>'rate' and created_at>stamp-interval '10 minutes')>=8
@@ -91,10 +140,31 @@ begin
       or (select count(*) from editorial.ask_research_jobs where status in ('queued','running') and expires_at>stamp)>=100 then
       return jsonb_build_object('status','rate_limited');
     end if;
-    insert into editorial.ask_research_jobs(id,owner_hash,rate_hash,dedupe_hash,request_hash,language,request_cipher,max_cost_usd)
-      values((payload->>'id')::uuid,payload->>'owner',payload->>'rate',payload->>'dedupe',payload->>'request_hash',payload->>'language',payload->'request_cipher',amount)
+    insert into editorial.ask_research_jobs(id,owner_hash,account_id,rate_hash,dedupe_hash,request_hash,language,request_cipher,max_cost_usd)
+      values((payload->>'id')::uuid,payload->>'owner',(payload->>'account_id')::uuid,payload->>'rate',payload->>'dedupe',payload->>'request_hash',payload->>'language',payload->'request_cipher',amount)
       returning * into j;
     return jsonb_build_object('status','ok','id',j.id,'state',j.status,'sequence',0);
+  end if;
+
+  if operation='cancel_key' then
+    if coalesce(payload->>'owner','') !~ '^[a-f0-9]{64}$' or coalesce(payload->>'rate','') !~ '^[a-f0-9]{64}$'
+      or coalesce(payload->>'dedupe','') !~ '^[a-f0-9]{64}$' or coalesce(payload->>'language','') not in ('en','ar','de') then raise exception 'invalid_research_cancellation'; end if;
+    perform pg_catalog.pg_advisory_xact_lock(1800261020::bigint);
+    select * into j from editorial.ask_research_jobs where owner_hash=payload->>'owner' and dedupe_hash=payload->>'dedupe' for update;
+    if not found then
+      -- A bounded tombstone wins against a late enqueue of this same owner/submission.
+      -- It contains no question/cipher and can never be claimed by a worker.
+      if (select count(*) from editorial.ask_research_jobs where rate_hash=payload->>'rate' and created_at>stamp-interval '10 minutes')>=8
+        or (select count(*) from editorial.ask_research_jobs where created_at>=date_trunc('day',stamp at time zone 'UTC') at time zone 'UTC')>=200 then
+        return jsonb_build_object('status','rate_limited');
+      end if;
+      insert into editorial.ask_research_jobs(id,owner_hash,account_id,rate_hash,dedupe_hash,request_hash,language,status,max_cost_usd)
+        values((payload->>'id')::uuid,payload->>'owner',(payload->>'account_id')::uuid,payload->>'rate',payload->>'dedupe',repeat('0',64),payload->>'language','cancelled',0.000001)
+        returning * into j;
+    elsif j.status in ('queued','running','reconciliation_required') then
+      update editorial.ask_research_jobs set status='cancelled',lease_id=null,lease_expires_at=null,updated_at=stamp where id=j.id returning * into j;
+    end if;
+    return jsonb_build_object('status','ok','id',j.id,'state',j.status,'sequence',j.sequence);
   end if;
 
   if operation='claim' then
@@ -121,21 +191,29 @@ begin
     delete from editorial.ask_research_events e using editorial.ask_research_jobs q where e.job_id=q.id and q.expires_at<=stamp;
     update editorial.ask_research_attempts p set response_cipher=null from editorial.ask_research_jobs q where p.job_id=q.id and q.expires_at<=stamp;
     update editorial.ask_research_jobs set request_cipher=null,status='expired',lease_id=null,lease_expires_at=null,updated_at=stamp where expires_at<=stamp and status<>'expired';
-    delete from editorial.ask_research_jobs q where q.created_at<stamp-interval '30 days'
+    delete from editorial.ask_research_jobs q where (q.created_at<stamp-interval '30 days' or q.erased_at is not null)
       and not exists(select 1 from editorial.ask_research_attempts p where p.job_id=q.id and p.state<>'settled');
     return jsonb_build_object('status','ok');
   end if;
 
+  if operation='lookup' then
+    select * into j from editorial.ask_research_jobs where owner_hash=payload->>'owner' and dedupe_hash=payload->>'dedupe';
+    if not found then return jsonb_build_object('status','not_found'); end if;
+    payload:=payload||jsonb_build_object('id',j.id);
+  end if;
   target_job_id := (payload->>'id')::uuid;
   select * into j from editorial.ask_research_jobs where id=target_job_id for update;
   if not found then return jsonb_build_object('status','not_found'); end if;
-  if operation in ('read','cancel') then
+  if operation in ('read','cancel','lookup') then
     if j.owner_hash<>coalesce(payload->>'owner','') then return jsonb_build_object('status','not_found'); end if;
     if j.expires_at<=stamp then return jsonb_build_object('status','expired'); end if;
-    if operation='read' then
+    if operation in ('read','lookup') then
       if j.read_window_started<=stamp-interval '1 minute' then j.read_count:=0; j.read_window_started:=stamp; end if;
       if j.read_count>=120 then return jsonb_build_object('status','rate_limited'); end if;
       update editorial.ask_research_jobs set read_count=j.read_count+1,read_window_started=j.read_window_started where id=j.id;
+    end if;
+    if operation='lookup' then
+      return jsonb_build_object('status','ok','id',j.id,'state',j.status,'language',j.language,'sequence',j.sequence,'request_cipher',j.request_cipher);
     end if;
     if operation='cancel' and j.status in ('queued','running','reconciliation_required') then
       update editorial.ask_research_jobs set status='cancelled',lease_id=null,lease_expires_at=null,updated_at=stamp where id=target_job_id returning * into j;

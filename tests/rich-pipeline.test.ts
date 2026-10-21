@@ -2,6 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 vi.mock("server-only", () => ({}));
 import { runPipeline } from "@/lib/ask/core";
 import { audit, dependencies, drafts, pack } from "./fixtures/rich";
+import { APPROVED_CHANNELS } from "@/lib/sources/youtube-channels";
 import recordedFrames from "./fixtures/ask-frame-punctuation.json";
 import type { RecoveryPlanner } from "@/lib/ask/search-engine/recovery";
 
@@ -28,6 +29,29 @@ function setup() {
   return deps;
 }
 describe("rich path through real framing, parallel retrieval and selection", () => {
+  it.each([false, true])("excludes a Quran candidate after context failure while preserving other sources (meaning ranking %s)", async meaning => {
+    const deps = setup();
+    deps.neighbours = vi.fn(async () => { throw new DOMException("Provider request timed out", "TimeoutError"); });
+    const ranked: string[][] = [];
+    if (meaning) deps.meaningRankCandidates = async (_frame, candidates) => {
+      ranked.push(candidates.map(c => c.id)); return candidates;
+    };
+    const selected: string[][] = [];
+    deps.onCandidates = candidates => selected.push(candidates.map(c => c.id));
+    const result = await runPipeline("Explain care", "en", deps);
+    expect(selected[0]).not.toContain("Q2:183");
+    expect(selected[0]).toContain(pack.passages[1].id);
+    expect(selected[0]).toContain(pack.passages[2].id);
+    if (meaning) expect(ranked[0]).not.toContain("Q2:183");
+    expect(result.status).not.toBe("error");
+    expect(deps.neighbours).toHaveBeenCalledTimes(1);
+  });
+  it("still honours cancellation during context lookup", async () => {
+    const deps = setup(), controller = new AbortController();
+    deps.abortSignal = controller.signal;
+    deps.neighbours = async () => { controller.abort(); throw new Error("disconnected"); };
+    await expect(runPipeline("Explain care", "en", deps)).rejects.toMatchObject({ name: "AbortError" });
+  });
   it("uses corpus-sourced hadith when the old keyword route finds none", async () => {
     const deps = setup(), source = pack.passages.find(p => p.source.kind === "hadith")!;
     deps.searchHadith = async () => [];
@@ -165,4 +189,37 @@ describe("rich path through real framing, parallel retrieval and selection", () 
     if (result.status === "rich_answer") expect(result.answer.sections[1].outcome).toBe("search_failed");
   });
 
+});
+
+
+describe("optional rich learning clips", () => {
+  const clip = { youtubeId: "abcdefghijk", channelId: APPROVED_CHANNELS[0].channelId, title: "An invented learning clip", language: "en" as const, minutes: 3 };
+  it("keeps retrieval off without the independent opt-in", async () => {
+    const deps = setup(); deps.searchVideos = vi.fn(async () => [clip]);
+    expect((await runPipeline("Explain care", "en", deps)).status).toBe("rich_answer");
+    expect(deps.searchVideos).not.toHaveBeenCalled();
+  });
+  it("streams every written section before optional title checking, then attaches at most two learning clips", async () => {
+    const deps = setup(), check = deps.verifier.generateJson, delivered: string[] = [];
+    deps.richVideos = true; deps.searchVideos = async () => [clip];
+    deps.rich = { onSection: s => { delivered.push(s.group); } };
+    deps.verifier.generateJson = async req => {
+      if (req.system.startsWith("You check optional video titles")) {
+        expect(delivered).toEqual(["quran", "hadith", "scholar", "summary"]);
+        expect(req.prompt).not.toContain("source_ids");
+        return { verdicts: ["yes"] };
+      }
+      expect(req.prompt).not.toContain(clip.title);
+      return check(req);
+    };
+    const result = await runPipeline("Explain care", "en", deps);
+    expect(result.status).toBe("rich_answer");
+    if (result.status === "rich_answer") expect(result.answer.videos).toEqual({ version: 1, basis: "title_only", items: [clip] });
+  });
+  it("keeps a complete answer when optional video search fails", async () => {
+    const deps = setup(); deps.richVideos = true; deps.searchVideos = async () => { throw new Error("video outage"); };
+    const result = await runPipeline("Explain care", "en", deps);
+    expect(result.status).toBe("rich_answer");
+    if (result.status === "rich_answer") expect(result.answer.videos).toBeUndefined();
+  });
 });

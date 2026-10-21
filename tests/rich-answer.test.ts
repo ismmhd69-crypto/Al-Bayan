@@ -8,6 +8,18 @@ import { hydrateAnswer } from "@/lib/chat/hydrate";
 import { pack, sections, drafts, richAnswer, audit, dependencies } from "./fixtures/rich";
 
 describe("checked rich explanations", () => {
+  it("delivers Quran while an unrelated scholarly display translation is still loading", async () => {
+    const deps = dependencies(); let release!: () => void;
+    const lookup = new Promise<void>(resolve => { release = resolve; });
+    let quranDelivered = false;
+    deps.displayTranslationLookup = async () => { await lookup; return new Map(); };
+    deps.rich = { onSection: section => {
+      if (section.group === "quran") { quranDelivered = true; release(); }
+    } };
+    const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {});
+    expect(quranDelivered).toBe(true);
+    expect(result.status).toBe("rich_answer");
+  });
   it("sends a checked Quran section before waiting for the remaining writer", async () => {
     const deps = dependencies(), events: string[] = [];
     let release!: () => void;

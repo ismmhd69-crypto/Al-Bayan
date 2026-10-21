@@ -7,6 +7,8 @@ import type { Locale } from "@/lib/i18n";
 import type { AuthText } from "@/lib/auth-text";
 import { browserSupabase } from "@/lib/supabase-browser";
 import { deleteAllChats, exportChats } from "@/lib/chat/chats";
+import { exportResearchRequests } from "@/lib/chat/research-export";
+import { buildAccountExport } from "@/lib/chat/account-export";
 import styles from "./AuthPanel.module.css";
 
 type Mode = "signin" | "signup" | "forgot" | "reset";
@@ -18,7 +20,7 @@ const looksLikeEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
 
 // Optional account: sign in, create an account, forgot password. Email plus password, nothing else.
 // Bayan works fully without it. Never says whether an email already has an account.
-export default function AuthPanel({ lang, t }: { lang: Locale; t: AuthText }) {
+export default function AuthPanel({ lang, t, researchPrivacyEnabled = false }: { lang: Locale; t: AuthText; researchPrivacyEnabled?: boolean }) {
   const uid = useId();
   const [mode, setMode] = useState<Mode>("signin");
   const [user, setUser] = useState<{ email: string } | null | undefined>(undefined);
@@ -137,13 +139,11 @@ export default function AuthPanel({ lang, t }: { lang: Locale; t: AuthText }) {
     setNote(null);
     try {
       const supabase = browserSupabase();
-      const { data: who } = await supabase.auth.getUser();
-      const meta = who.user?.user_metadata ?? {};
-      const chats = await exportChats();
-      const file = {
-        account: { email: who.user?.email ?? null, created_at: who.user?.created_at ?? null, consent_at: meta.consent_at ?? null, consent_lang: meta.consent_lang ?? null },
-        ...chats,
-      };
+      const file = await buildAccountExport({
+        session: async () => (await supabase.auth.getSession()).data.session,
+        userFor: async token => { const { data, error } = await supabase.auth.getUser(token); return error ? null : data.user; },
+        chats: token => exportChats({ accessToken: token }), research: exportResearchRequests,
+      });
       const url = URL.createObjectURL(new Blob([JSON.stringify(file, null, 2)], { type: "application/json" }));
       const link = document.createElement("a");
       link.href = url;
@@ -213,6 +213,7 @@ export default function AuthPanel({ lang, t }: { lang: Locale; t: AuthText }) {
 
         <div className={styles.form}>
           <h2>{t.yourData}</h2>
+          {researchPrivacyEnabled && <p>{t.researchPrivacy}</p>}
           <button type="button" className="btn btn-ghost" onClick={exportData} disabled={busy}>
             {t.exportData}
           </button>

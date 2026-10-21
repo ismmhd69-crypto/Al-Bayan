@@ -1,8 +1,9 @@
 import type { PassageForSelection, QuestionFrame } from "../retrieval";
 import type { MeaningReranker } from "./hybrid";
 import { abortable } from "../abort";
+import { checkedRerankerScores } from "./reranker-result";
 
-export type PipelineRankingAudit = { concerns: number; before: number; after: number; modelCalls: number; droppedIds: string[] };
+export type PipelineRankingAudit = { concerns: number; before: number; after: number; modelCalls: number; droppedIds: string[]; ignoredUnknownCount: number };
 export type PipelineMeaningRanker = (frame: QuestionFrame, candidates: PassageForSelection[], signal: AbortSignal) => Promise<PassageForSelection[]>;
 
 /** Re-ranks the existing, already source-filtered candidates before lexical caps.
@@ -18,13 +19,14 @@ export function pipelineMeaningRanker(reranker: MeaningReranker, onAudit?: (audi
     if (JSON.stringify(passages).length > 100_000) throw new Error("meaning_ranking_context_budget_exceeded");
     if (!candidates.length) return [];
     const rankings: { id: string; score: number }[][] = [];
+    let ignoredUnknownCount = 0;
     // Sequential and at most four calls. No unbounded per-passage paid fan-out.
     for (const concern of frame.requirements) {
       signal.throwIfAborted();
       const result = await abortable(reranker({ id: concern.id, text: concern.text }, passages, signal), signal);
-      if (!Array.isArray(result) || result.length !== candidates.length || new Set(result.map(r => r.id)).size !== result.length
-        || result.some(r => !candidates.some(c => c.id === r.id) || !Number.isFinite(r.score) || r.score < 0 || r.score > 100)) throw new Error("invalid_reranker_result");
-      rankings.push(result.filter(r => r.score > 0).sort((a, b) => b.score - a.score || a.id.localeCompare(b.id)));
+      const checked = checkedRerankerScores(result, candidates.map(c => c.id));
+      ignoredUnknownCount += checked.ignoredUnknownCount;
+      rankings.push(checked.scores.filter(r => r.score > 0).sort((a, b) => b.score - a.score || a.id.localeCompare(b.id)));
     }
     const byId = new Map(candidates.map(c => [c.id, c])), chosen = new Set<string>();
     // Preserve each concern's strongest useful contribution from each family.
@@ -36,7 +38,7 @@ export function pipelineMeaningRanker(reranker: MeaningReranker, onAudit?: (audi
       const item = ranking[rank]; if (item && chosen.size < limit) chosen.add(item.id);
     }
     const result = [...chosen].map(id => byId.get(id)!);
-    onAudit?.({ concerns: frame.requirements.length, before: candidates.length, after: result.length, modelCalls: rankings.length, droppedIds: candidates.filter(c => !chosen.has(c.id)).map(c => c.id) });
+    onAudit?.({ concerns: frame.requirements.length, before: candidates.length, after: result.length, modelCalls: rankings.length, droppedIds: candidates.filter(c => !chosen.has(c.id)).map(c => c.id), ignoredUnknownCount });
     return result;
   };
 }

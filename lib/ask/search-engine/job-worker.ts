@@ -55,13 +55,13 @@ function terminalState(result: AskResult, state: RichStreamState): "complete" | 
 /** One claimed job. HTTP connections are not involved. Restart replays committed model
  * responses and checks prior sections before appending new ones. Unknown billing stops replay. */
 export async function runNextResearchJob(deps: ResearchWorkerDeps): Promise<WorkerOutcome> {
-  if (!/^[a-f0-9]{64}$/.test(deps.engineRevision) || !Number.isInteger(deps.durationMs) || deps.durationMs < 1000 || deps.durationMs > 600_000) throw new Error("invalid_research_worker_policy");
+  if (!/^[a-f0-9]{64}$/.test(deps.engineRevision) || (deps.durationMs !== Infinity && (!Number.isInteger(deps.durationMs) || deps.durationMs < 1000 || deps.durationMs > 600_000))) throw new Error("invalid_research_worker_policy");
   deps.signal?.throwIfAborted();
   const lease = await deps.store.claim();
   if (!lease) return "idle";
   const cancel = new AbortController();
-  const duration = AbortSignal.timeout(deps.durationMs);
-  const signal = AbortSignal.any([cancel.signal, duration, ...(deps.signal ? [deps.signal] : [])]);
+  const duration = deps.durationMs === Infinity ? [] : [AbortSignal.timeout(deps.durationMs)];
+  const signal = AbortSignal.any([cancel.signal, ...duration, ...(deps.signal ? [deps.signal] : [])]);
   let state = emptyRichState(), sequence = lease.sequence, heartbeat: ReturnType<typeof setTimeout> | undefined;
   let heartbeatWork: Promise<void> = Promise.resolve(), writes: Promise<void> = Promise.resolve();
   let queueError: unknown, closed = false;

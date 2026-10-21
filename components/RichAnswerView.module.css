@@ -1,21 +1,283 @@
-.answer { line-height: 1.8; overflow-wrap: anywhere; min-width: 0; }
-.notice { font-size: .8rem; color: var(--ink-3); margin: 0 0 1rem; }
-.section { margin: 0 0 1.65rem; }
-.section h2 { font-size: 1.2rem; line-height: 1.4; margin: 0 0 .65rem; }
-.claim { margin: .6rem 0; }
-.refs { display: inline-flex; flex-wrap: wrap; gap: .3rem; font-size: .75rem; vertical-align: baseline; }
-.refs a { color: var(--gold-ink); background: var(--gold-soft); border: 1px solid var(--gold-line); padding: 0 .35rem; border-radius: .3rem; }
-.sources { display: grid; gap: .6rem; margin-top: .9rem; }
-.passage { border: 1px solid var(--line); border-inline-start: 3px solid var(--gold); border-radius: .55rem; padding: .8rem 1rem; min-width: 0; }
-.source { scroll-margin-top: 6rem; min-width: 0; }
-.source + .source { border-top: 1px solid var(--line); margin-top: .8rem; padding-top: .8rem; }
-.source:focus { outline: 2px solid var(--accent); outline-offset: 3px; }
-.sourceHead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4rem 1rem; font-size: .85rem; }
-.source p { margin: .4rem 0; font-size: .92rem; }
-.preview { color: var(--ink-3); }
-.source summary { cursor: pointer; font-size: .8rem; text-decoration: underline; text-underline-offset: .2em; }
-.source blockquote { margin: .8rem 0; line-height: 2; font-size: 1.2rem; }
-.source small, .section > small { display: block; font-size: .75rem; }
-.gap { border-inline-start: 2px solid var(--gold); padding-inline-start: .8rem; color: var(--ink-3); font-size: .9rem; }
-.guide { border-top: 1px solid var(--line); padding-top: 1rem; font-size: .9rem; }
-.guide p { margin: .3rem 0; }
+.answer {
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+.notice {
+  font-size: 0.82rem;
+  color: var(--ink-3);
+  margin: 0 0 1rem;
+}
+
+.section {
+  margin: 0 0 1.8rem;
+}
+
+.section h2 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin: 0 0 0.75rem;
+  font-family: var(--f-display);
+  font-weight: 600;
+}
+
+.claim {
+  margin: 0.65rem 0;
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+/* Reference Pills */
+.refs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  vertical-align: baseline;
+  margin-inline-start: 0.3rem;
+}
+
+.refs a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.35rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Color-Specific Citation Pills */
+.refQuran {
+  color: #14532d;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+.refQuran:hover {
+  background: #dcfce7;
+  border-color: #86efac;
+}
+
+.refHadith {
+  color: #1e3a8a;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+}
+.refHadith:hover {
+  background: #dbeafe;
+  border-color: #93c5fd;
+}
+
+.refScholar {
+  color: #334155;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+}
+.refScholar:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.refDefault {
+  color: var(--gold-ink);
+  background: var(--gold-soft);
+  border: 1px solid var(--gold-line);
+}
+
+/* Sources & Passage Cards */
+.sources {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.95rem;
+}
+
+.passage {
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  padding: 0.85rem 1.05rem;
+  min-width: 0;
+  background: var(--surface);
+  box-shadow: 0 1px 2px rgba(20, 27, 38, 0.03);
+  transition: box-shadow 0.15s ease;
+}
+.passage:hover {
+  box-shadow: 0 2px 8px -2px rgba(20, 27, 38, 0.08);
+}
+
+/* Distinct Stripe per Section */
+.passageQuran {
+  border-inline-start: 3.5px solid #15803d;
+}
+
+.passageHadith {
+  border-inline-start: 3.5px solid #2563eb;
+}
+
+.passageScholar {
+  border-inline-start: 3.5px solid #64748b;
+}
+
+.source {
+  scroll-margin-top: 6rem;
+  min-width: 0;
+}
+
+.source + .source {
+  border-top: 1px solid var(--line);
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.source:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.sourceHead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.4rem 1rem;
+  font-size: 0.88rem;
+}
+
+.sourceHead a {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.sourceHead a:hover {
+  color: var(--accent);
+}
+
+.source p {
+  margin: 0.4rem 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.preview {
+  color: var(--ink-3);
+}
+
+.source summary {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  color: var(--ink-3);
+  margin-top: 0.4rem;
+}
+.source summary:hover {
+  color: var(--ink);
+}
+
+.source blockquote {
+  margin: 0.8rem 0;
+  line-height: 2;
+  font-size: 1.25rem;
+  font-family: var(--f-ar-body);
+}
+
+.source small,
+.section > small {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--ink-3);
+  margin-top: 0.35rem;
+}
+.section > small a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.gap {
+  border-inline-start: 3px solid #64748b;
+  background: #f8fafc;
+  border-radius: 6px;
+  padding: 0.65rem 0.85rem;
+  color: var(--ink-2);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0.5rem 0 1rem;
+}
+
+/* Citations Fold Drawer (Bayan Summary) */
+.citationsFold {
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: var(--surface);
+  overflow: hidden;
+  margin-top: 0.85rem;
+  box-shadow: 0 1px 2px rgba(20, 27, 38, 0.03);
+}
+
+.foldSummary {
+  padding: 0.65rem 0.95rem;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  background: var(--surface);
+  transition: background-color 0.15s ease;
+}
+.foldSummary:hover {
+  background: #f8fafc;
+  color: var(--ink);
+}
+.citationsFold[open] .foldSummary {
+  border-bottom: 1px solid var(--line);
+  background: #f8fafc;
+}
+
+.foldCount {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  background: var(--bg-2);
+  color: var(--ink-2);
+  border: 1px solid var(--line);
+}
+
+.foldContent {
+  padding: 0.8rem 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background: #fdfdfd;
+}
+
+.foldContent .preview {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed var(--line);
+}
+.foldContent .preview:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.guide {
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+  font-size: 0.92rem;
+}
+.guide p {
+  margin: 0.3rem 0;
+  line-height: 1.6;
+}

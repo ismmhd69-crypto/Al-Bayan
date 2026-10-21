@@ -28,7 +28,7 @@ export default async function AccountPage({ params }: { params: Promise<{ lang: 
         <h1>{t.title}</h1>
         <p className="lead">{t.intro}</p>
       </header>
-      <AuthPanel lang={lang} t={t} />
+      <AuthPanel lang={lang} t={t} researchPrivacyEnabled={!!process.env.ASK_JOB_ENCRYPTION_KEY || !!process.env.ASK_JOB_OWNER_SECRET || process.env.ASK_DURABLE_ENABLED === "true"} />
     </article>
   );
 }

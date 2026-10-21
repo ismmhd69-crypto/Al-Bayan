@@ -7,6 +7,7 @@ import { currentIndexSourceStates } from "@/lib/sources/index-source-state";
 import { getVerse } from "@/lib/sources/quran";
 import { localAskRuntime } from "../settings";
 import { recordLocalAskEvent } from "../local-trace";
+import { configuredLocalEmbeddings } from "./local-embeddings";
 
 /** Local pilot adapter. Production uses a separately deployed persistent index;
  * this never assumes Vercel's filesystem is a durable corpus store. */
@@ -20,7 +21,7 @@ export function localCorpusRetriever(families: ("hadith" | "scholar")[] = ["hadi
     if (!rel || rel.startsWith("..") || resolve(root, rel) !== target) throw new Error("corpus_index_directory_invalid");
     const store = new PrivateSearchIndexStore(target);
     return corpusCandidates(frame, () => store.load(ids => currentIndexSourceStates(ids, signal)), {
-      signal, getVerse, families, allowLexicalOnly: process.env.ASK_CORPUS_LEXICAL_PREVIEW === "true",
+      signal, getVerse, families, embedder: configuredLocalEmbeddings(), allowLexicalOnly: process.env.ASK_CORPUS_LEXICAL_PREVIEW === "true",
       onDiscovery: r => recordLocalAskEvent("corpus_discovery", { generation: r.generation, count: r.hits.length, semantic: r.semantic, unrepresentedConcerns: r.unrepresentedConcernIds, truncated: r.truncated }),
     });
   };

@@ -1,0 +1,47 @@
+import { describe, expect, it, vi } from "vitest";
+import { checkedRerankerScores } from "@/lib/ask/search-engine/reranker-result";
+import { pipelineMeaningRanker } from "@/lib/ask/search-engine/pipeline-ranking";
+import { modelMeaningReranker } from "@/lib/ask/search-engine/reranker";
+import type { PassageForSelection } from "@/lib/ask/retrieval";
+import { pack } from "./fixtures/rich";
+import type { AIProvider } from "@/lib/ai/types";
+import recorded from "./fixtures/reranker-context-extra.json";
+
+describe("ranking context IDs cannot become evidence",()=>{
+  it("replays the actual failed 25-candidate result without promoting its extra context verse",()=>{
+    const result=checkedRerankerScores(recorded.rankings,recorded.candidateIds);
+    expect(result.scores).toHaveLength(25);
+    expect(result.ignoredUnknownCount).toBe(1);
+    expect(result.scores.some(s=>s.id==="Q3:97")).toBe(false);
+    expect(new Set(result.scores.map(s=>s.id))).toEqual(new Set(recorded.candidateIds));
+  });
+  it("discards an extra context reference only when all real candidates have valid scores",()=>{
+    const result=checkedRerankerScores([{id:"Q3:98",score:20},{id:"Q3:97",score:99},{id:"HE1",score:80}],["Q3:98","HE1"]);
+    expect(result).toEqual({scores:[{id:"Q3:98",score:20},{id:"HE1",score:80}],ignoredUnknownCount:1});
+  });
+  it.each([
+    [{id:"Q3:97",score:99}],
+    [{id:"Q3:98",score:20},{id:"Q3:98",score:30}],
+    [{id:"Q3:98",score:NaN}],
+    [{id:"Q3:98",score:101}],
+    [{id:"Q3:98",score:20},{id:"unknown",score:Infinity}],
+    [{id:"Q3:98",score:20},{id:"unknown",score:30},{id:"unknown",score:40}],
+  ].map(raw=>({raw})))("still rejects incomplete, duplicate or malformed ranking: %j",({raw})=>{
+    expect(()=>checkedRerankerScores(raw,["Q3:98"])).toThrow("invalid_reranker_result");
+  });
+  it("keeps all original safety gates and does not retry the model",async()=>{
+    const candidates:PassageForSelection[]=pack.passages.map(p=>({id:p.id,source:p.source,context:[]}));
+    const rank=vi.fn(async()=>[...candidates.map((c,i)=>({id:c.id,score:90-i})),{id:"Q3:97",score:100}]);
+    const audit=vi.fn();
+    const result=await pipelineMeaningRanker(rank,audit)({...pack.question,kind:"question",searchQueries:{}},candidates,new AbortController().signal);
+    expect(rank).toHaveBeenCalledTimes(1);
+    expect(result.every(c=>candidates.includes(c))).toBe(true);
+    expect(result.map(c=>c.id)).not.toContain("Q3:97");
+    expect(audit).toHaveBeenCalledWith(expect.objectContaining({ignoredUnknownCount:1}));
+  });
+  it("constrains the provider schema to the candidate IDs, excluding context references",async()=>{
+    const generateJson=vi.fn<AIProvider["generateJson"]>(async()=>({rankings:[{id:"Q3:98",score:50}]}));
+    await modelMeaningReranker({id:"fixture",generateJson})({id:"R1",text:"Invented concern"},[{id:"Q3:98",original:"invented original",before:"Q3:97: context only",after:"",title:"fixture"}],new AbortController().signal);
+    expect(generateJson.mock.calls[0][0].schema).toMatchObject({properties:{rankings:{items:{properties:{id:{enum:["Q3:98"]}}}}}});
+  });
+});

@@ -43,6 +43,7 @@ export type AuthText = {
   saved: string;
   yourData: string;
   exportData: string;
+  researchPrivacy: string;
   deleteChats: string;
   deleteChatsAsk: string;
   deleteAccount: string;
@@ -95,6 +96,7 @@ export const authText: Record<Locale, AuthText> = {
     saved: "Your Ask chats are saved in your account. Saving answers and progress comes next.",
     yourData: "Your data",
     exportData: "Export my data",
+    researchPrivacy: "Deleting your account stops its unfinished research and removes the questions and drafts. Text-free records of Bayan's AI costs may remain until a billing check is finished.",
     deleteChats: "Delete all my chats",
     deleteChatsAsk: "Delete all your saved chats? This cannot be undone.",
     deleteAccount: "Delete my account",
@@ -145,6 +147,7 @@ export const authText: Record<Locale, AuthText> = {
     saved: "Deine Ask-Chats werden in deinem Konto gespeichert. Das Speichern von Antworten und Fortschritt folgt als Nächstes.",
     yourData: "Deine Daten",
     exportData: "Meine Daten exportieren",
+    researchPrivacy: "Wenn du dein Konto löschst, werden laufende Recherchen beendet und die zugehörigen Fragen und Entwürfe entfernt. Aufzeichnungen zu Bayans KI-Kosten ohne Frage- oder Antworttexte können bis zum Abschluss einer Abrechnungsprüfung verbleiben.",
     deleteChats: "Alle meine Chats löschen",
     deleteChatsAsk: "Alle gespeicherten Chats löschen? Das lässt sich nicht rückgängig machen.",
     deleteAccount: "Mein Konto löschen",
@@ -195,6 +198,7 @@ export const authText: Record<Locale, AuthText> = {
     saved: "محادثاتك في «اسأل» محفوظة في حسابك. حفظ الأجوبة والتقدّم هو الخطوة التالية.",
     yourData: "بياناتك",
     exportData: "تصدير بياناتي",
+    researchPrivacy: "حذف حسابك يوقف أبحاثه غير المكتملة ويحذف الأسئلة والمسودات. قد تبقى سجلات لتكاليف الذكاء الاصطناعي الخاصة ببيان، دون نصوص الأسئلة أو الأجوبة، حتى اكتمال التحقق من الفاتورة.",
     deleteChats: "حذف كل محادثاتي",
     deleteChatsAsk: "حذف جميع محادثاتك المحفوظة؟ لا يمكن التراجع عن ذلك.",
     deleteAccount: "حذف حسابي",

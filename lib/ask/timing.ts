@@ -5,6 +5,7 @@ import { remainingResearchMs } from "./research-runtime";
 /** Local owner debugging waits for completion or cancellation. Production retains its limits. */
 export function askTimeout(parent: AbortSignal | undefined, milliseconds: number, stage: string): AbortSignal {
   const workerRemaining = remainingResearchMs();
+  if (workerRemaining === Infinity) return parent ?? new AbortController().signal;
   if (workerRemaining === undefined && localAskUnhurried()) {
     recordLocalAskEvent("timeout_disabled_locally", { stage, usual_limit_ms: milliseconds });
     return parent ?? new AbortController().signal;

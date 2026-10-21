@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 export type SearchFamily = "quran" | "hadith" | "scholar" | "video";
 export type SearchLanguage = "ar" | "en" | "de";
 export type SearchMethod = "exact" | "lexical" | "semantic";
-export type VectorSpace = { model: string; revision: string; dimensions: number };
+export type VectorSpace = { model: string; revision: string; dimensions: number; recipe?: string };
 export type TextSpan = { start: number; end: number };
 export type SourcePermissions = {
   published: boolean; search: boolean; ai: boolean; embeddings: boolean;
@@ -22,7 +22,7 @@ export type SearchPassage = {
 };
 export type SearchIndex = { version: 1; generation: string; space: VectorSpace; passages: SearchPassage[] };
 export const textHash = (text: string) => createHash("sha256").update(text).digest("hex");
-export const sameSpace = (a: VectorSpace, b: VectorSpace) => a.model === b.model && a.revision === b.revision && a.dimensions === b.dimensions;
+export const sameSpace = (a: VectorSpace, b: VectorSpace) => a.model === b.model && a.revision === b.revision && a.dimensions === b.dimensions && a.recipe === b.recipe;
 export function validVector(values: number[], dimensions: number) {
   return Number.isSafeInteger(dimensions) && dimensions > 0 && dimensions <= 8192 && Array.isArray(values)
     && values.length === dimensions && values.every(n => typeof n === "number" && Number.isFinite(n)) && values.some(n => n !== 0);
@@ -52,6 +52,7 @@ export function evidenceContextProblem(p: SearchPassage): string | null {
 }
 
 export function validateIndex(index: SearchIndex) {
+  if (index?.space?.recipe !== undefined && (typeof index.space.recipe !== "string" || !/^[a-f0-9]{64}$/.test(index.space.recipe))) throw new Error("invalid_embedding_recipe");
   if (!index || index.version !== 1 || typeof index.generation !== "string" || !/^[a-zA-Z0-9._-]{1,100}$/.test(index.generation) || !index.space?.model || !index.space.revision || !Number.isSafeInteger(index.space.dimensions) || index.space.dimensions <= 0 || index.space.dimensions > 8192) throw new Error("invalid_index_manifest");
   if (!Array.isArray(index.passages) || new Set(index.passages.map(p => p.id)).size !== index.passages.length) throw new Error("duplicate_passage_identity");
   for (const p of index.passages) if (p.vector && (!sameSpace(p.vector.space, index.space) || !validVector(p.vector.values, index.space.dimensions) || p.vector.textHash !== p.originalHash)) throw new Error("index_vector_mismatch");

@@ -26,6 +26,8 @@ export const richAnswer: RichAnswer = { version: 3, language: "en", review: "aut
 export function audit(prompt: string) {
   const request = JSON.parse(prompt);
   return {
+    contribution_map: request.claims.map((c: { claim_id: string }, i: number) => ({ claim_id: c.claim_id,
+      contribution: `Invented distinct test contribution ${i + 1}`, kind: (request.summary_claim_ids ?? []).includes(c.claim_id) ? "synthesis" : "explanation", adds_value: "yes", duplicates: [] })),
     useful_explanation: "yes", question_checklist_complete: "yes", guidance_safe: "yes", guidance_relevant: "yes", personal_application_avoided: "yes",
     translation_checks: (request.display_translation_candidates ?? []).map((t: { source_id: string; original_hash: string }) => ({ source_id: t.source_id, original_hash: t.original_hash, faithful: "yes", complete: "yes", conditions_preserved: "yes" })),
     attribution_checks: request.claims.map((c: { claim_id: string }) => ({ claim_id: c.claim_id, verdict: "yes" })),

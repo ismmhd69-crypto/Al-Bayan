@@ -162,6 +162,8 @@ describe("research engine configuration fingerprint", () => {
     expect(researchEngineRevision({ ...env, AI_MODELS: "model-two" })).not.toBe(first);
     expect(researchEngineRevision({ ...env, HADITH_SOURCE: "hadeethenc" })).not.toBe(first);
     expect(researchEngineRevision({ ...env, ASK_JOB_BUILD_REVISION: "b".repeat(40) })).not.toBe(first);
+    expect(researchEngineRevision({ ...env, ASK_LOCAL_EMBEDDINGS: "true" })).not.toBe(first);
+    expect(researchEngineRevision({ ...env, ASK_LOCAL_EMBEDDING_CONFIG: "changed-encoding-recipe" })).not.toBe(first);
   });
   it("tracks provider availability without depending on secret key bytes", () => {
     const env = { ASK_JOB_BUILD_REVISION: "a".repeat(40), OPENROUTER_API_KEY: "secret-one" };

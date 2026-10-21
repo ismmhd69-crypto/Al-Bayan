@@ -32,10 +32,9 @@ import { LIBRARY_PLAN_RULES, POINT_PLAN_PROPERTIES, pointSearchPlans, interleave
 import { screeningSystem, claimAuditSchema } from "./claim-audit";
 import { ATTRIBUTION, TRANSLATIONS, isRealVerse, type Verse } from "@/lib/sources/quran-meta";
 import { scholarQuoteAllowed, type ScholarQuote } from "@/lib/sources/scholar-rules";
-import { approvedChannelIds } from "@/lib/sources/youtube-channels";
 import { matchingTopicHints } from "@/data/topic-source-hints";
 import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
-import { validateAnswerV2, type AnswerV2 } from "./answer-v2";
+import { validateAnswerV2, isValidVideo, type AnswerV2 } from "./answer-v2";
 import { buildLiveAnswerV2 } from "./assemble";
 import { asksKnownUnresolvedView } from "@/data/view-decisions";
 import {
@@ -181,7 +180,8 @@ export type PipelineDeps = {
   getHadith?: (id: string) => Promise<Hadith | null>;
   // Optional: related videos from the approved YouTube channels, matched by title. Shown under a
   // finished answer only, never given to the models and never used as evidence.
-  searchVideos?: (arabicPhrases: string[]) => Promise<VideoSuggestion[]>;
+  searchVideos?: (arabicPhrases: string[], signal?: AbortSignal) => Promise<VideoSuggestion[]>;
+  richVideos?: boolean; // Independent preview switch; metadata suggestions are never evidence.
   deadlineMs?: number;
   claimAudit?: boolean; // Experimental; false leaves legacy screening untouched.
   libraryFlow?: boolean; // Experimental per-point search and follow-ups; off until acceptance.
@@ -596,6 +596,7 @@ async function scholarCandidates(
 async function videoCandidates(
   deps: PipelineDeps,
   arabicPhrases: string[],
+  parent?: AbortSignal,
 ): Promise<{ videos: VideoSuggestion[]; problem: string | null }> {
   if (!deps.searchVideos || arabicPhrases.length === 0) return { videos: [], problem: null };
   let timer: ReturnType<typeof setTimeout> | undefined;
@@ -603,10 +604,11 @@ async function videoCandidates(
     timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
   });
   try {
-    const result = await Promise.race([deps.searchVideos(arabicPhrases), timeout]);
+    const signal = parent ? AbortSignal.any([parent, AbortSignal.timeout(deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS)]) : AbortSignal.timeout(deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
+    const result = await Promise.race([abortable(deps.searchVideos(arabicPhrases, signal), signal), timeout]);
     if (result === "timeout") return { videos: [], problem: "video_search_timeout" };
     // Defence in depth: only the approved channels, whatever the search returned.
-    const allowed = result.filter((v) => approvedChannelIds.has(v.channelId) && /^[A-Za-z0-9_-]{11}$/.test(v.youtubeId));
+    const allowed = result.filter(isValidVideo);
     return { videos: allowed.slice(0, MAX_VIDEO_CANDIDATES), problem: allowed.length < result.length ? "video_dropped_by_rules" : null };
   } catch {
     return { videos: [], problem: "video_search_failed" };
@@ -803,7 +805,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // hadith or scholar retrieval and evidence selection.
   signal.throwIfAborted();
   deps.rich?.onProgress?.("searching");
-  const videoResultPromise = deps.rich ? Promise.resolve({ videos: [], problem: null }) : videoCandidates(deps, frame.searchQueries.ar ?? []);
+  const videoResultPromise = deps.rich && !deps.richVideos ? Promise.resolve({ videos: [], problem: null }) : videoCandidates(deps, frame.searchQueries.ar ?? [], signal);
   const pointPlans = libraryFlow ? pointSearchPlans(frame) : [];
   let quranProblem: GroupOutcome = "no_direct_evidence";
   const sourceOutcome = (kind: "hadith" | "scholar", problem: string | null): GroupOutcome => {
@@ -931,15 +933,29 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     hadith: Math.min(limits.hadith, defaultLimits.hadith),
     scholar: Math.min(limits.scholar, defaultLimits.scholar),
   };
-  const addContext = async (candidate: PassageForSelection): Promise<PassageForSelection> => {
+  const contextLookups = new Map<string, Promise<Verse[] | null>>();
+  const addContext = async (candidate: PassageForSelection): Promise<PassageForSelection | null> => {
     if (candidate.source.kind !== "quran") return candidate;
     if (candidate.context.length) return candidate;
     const key = candidate.source.verse.key;
-    return { ...candidate, context: (await deps.neighbours(key)).filter((near) => near.key !== key) };
+    let lookup = contextLookups.get(key);
+    if (!lookup) {
+      lookup = deps.neighbours(key).catch(() => {
+        signal.throwIfAborted();
+        detail("candidates", "context_lookup_failed", () => ({ source_id: candidate.id, outcome: "excluded" }));
+        return null;
+      });
+      contextLookups.set(key, lookup);
+    }
+    const context = await lookup;
+    signal.throwIfAborted();
+    return context === null ? null : { ...candidate, context: context.filter((near) => near.key !== key) };
   };
+  const withContext = async (pool: PassageForSelection[]): Promise<PassageForSelection[]> =>
+    (await Promise.all(pool.map(addContext))).filter((candidate): candidate is PassageForSelection => candidate !== null);
   let priorMeaningRanking: { signature: string; candidates: PassageForSelection[] } | undefined;
   const rankWithMeaning = async (pool: PassageForSelection[]) => {
-    const contextual = await Promise.all(pool.map(addContext));
+    const contextual = await withContext(pool);
     const signature = JSON.stringify(contextual.map(c => ({ id: c.id, source: c.source, context: c.context })).sort((a, b) => a.id.localeCompare(b.id)));
     if (priorMeaningRanking?.signature === signature) {
       detail("candidates", "meaning_ranking_reused", () => ({ before: pool.length, after: priorMeaningRanking!.candidates.length }));
@@ -955,7 +971,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   };
   let candidates = deps.rich && deps.meaningRankCandidates
     ? await rankWithMeaning(allCandidates)
-    : await Promise.all(rankCandidatesForQuestion(rankFrame, allCandidates, mappedIds, cappedLimits).map(addContext));
+    : await withContext(rankCandidatesForQuestion(rankFrame, allCandidates, mappedIds, cappedLimits));
   deps.onCandidates?.(candidates);
   detail("candidates", "ranked_sources", () => ({ before: allCandidates.length, after: candidates.length,
     dropped_source_ids: allCandidates.filter((c) => !candidates.some((kept) => kept.id === c.id)).map((c) => c.id), sources: candidates.map(sourceSummary) }));
@@ -1044,9 +1060,8 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     const applicable: RecoveryFamily[] = ["quran", ...(deps.searchHadith ? ["hadith" as const] : []), ...(deps.searchScholars || deps.searchScholarsLive ? ["scholar" as const] : [])];
     const gaps = (state: { pack: typeof evidencePackage }): EvidenceGap[] => frame!.requirements.flatMap<EvidenceGap>(r => {
       const covered = state.pack?.passages.some(p => p.requirementIds.includes(r.id));
-      const absent = applicable.filter(kind => !state.pack?.passages.some(p => p.source.kind === kind));
       return !covered ? [{ requirementId: r.id, concern: r.text, reason: "missing_direct_support" as const, families: applicable }]
-        : absent.length ? [{ requirementId: r.id, concern: r.text, reason: "missing_source_contribution" as const, families: absent }] : [];
+        : [];
     });
     const previousQueries: RecoveryQuery[] = pointPlans.flatMap(p => [
       ...p.quran.map(text => ({ requirementId: p.id, family: "quran" as const, language: /\p{Script=Arabic}/u.test(text) ? "ar" as const : "en" as const, text })),
@@ -1077,7 +1092,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
         },
         assess: async (pool, assessmentSignal) => {
           const ranked = deps.meaningRankCandidates ? await rankWithMeaning(pool)
-            : await Promise.all(rankCandidatesForQuestion(rankFrame, pool, mappedIds, { quran: 10, hadith: 10, scholar: 10 }).map(addContext));
+            : await withContext(rankCandidatesForQuestion(rankFrame, pool, mappedIds, { quran: 10, hadith: 10, scholar: 10 }));
           deps.onCandidates?.(ranked);
           const raw = await selectEvidence(ranked, assessmentSignal, true);
           const pack = parseEvidencePackage(raw, frame!, ranked, packageOptions, code => deps.onDiagnostic?.("selection_retry", code, Date.now() - started));
@@ -1145,7 +1160,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
         const recoveryPreferred = new Set([...mappedIds, ...additions.map(p => p.id), ...(evidencePackage?.passages.map(p => p.id) ?? [])]);
         candidates = deps.rich && deps.meaningRankCandidates
           ? await rankWithMeaning(combined)
-          : await Promise.all(rankCandidatesForQuestion(rankFrame, combined, recoveryPreferred, cappedLimits).map(addContext));
+          : await withContext(rankCandidatesForQuestion(rankFrame, combined, recoveryPreferred, cappedLimits));
         deps.onCandidates?.(candidates);
         deps.onDiagnostic?.("retrieval", "source_group_recovery", Date.now() - started, { hadith: freshHadith?.length ?? 0, scholar: freshScholars?.length ?? 0 });
       }
@@ -1184,7 +1199,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // count. Until a checked equal-view draft or a matching scholar-reviewed decision is assembled,
   // refuse safely instead of mixing positions into one ruling.
   if (evidencePackage.scholarDifference) return refuse("scholar_difference_unresolved", language);
-  if (libraryFlow && frame.requirements.some((r) => r.facet === "ruling"
+  if (libraryFlow && frame.requirements.some((r) => r.facet === "ruling" && (!deps.rich || r.scope === "case_specific")
     && !evidencePackage!.passages.some((p) => p.source.kind === "scholar" && p.requirementIds.includes(r.id)))) {
     return refuse("ruling_requirement_without_scholar", language);
   }
@@ -1193,7 +1208,23 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   if (!deps.rich && !requiredSourceItemsPresent(question, evidencePackage.passages.map(p => asSource(p.source)))) return refuse("required_source_items_missing", language);
   if (deps.rich) {
     signal.throwIfAborted();
-    return runRichAnswer(evidencePackage, language, deps, signal, question, { quran: quranProblem, hadith: sourceOutcome("hadith", hadithResult.problem), scholar: sourceOutcome("scholar", scholarResult.problem) }, (deps.deadlineMs ?? 50_000) - (Date.now() - started));
+    const written = await runRichAnswer(evidencePackage, language, deps, signal, question, { quran: quranProblem, hadith: sourceOutcome("hadith", hadithResult.problem), scholar: sourceOutcome("scholar", scholarResult.problem) }, (deps.deadlineMs ?? 50_000) - (Date.now() - started));
+    // All checked prose has already streamed. Optional title relevance never changes its evidence.
+    if (written.status === "rich_answer" && deps.richVideos && !signal.aborted) {
+      deps.rich.onProgress?.("finding_videos");
+      const optionalMs = Math.min(VIDEO_RELEVANCE_TIMEOUT_MS, (deps.deadlineMs ?? 50_000) - (Date.now() - started) - 250);
+      const videos = await optionalWithin(async optionalSignal => {
+        const candidates = await videoResultPromise;
+        if (candidates.problem) deps.onRefuse?.(candidates.problem);
+        return relevantVideos(deps, frame.requirements.map(({ id, text }) => ({ id, text })), candidates.videos, optionalSignal, 2);
+      }, optionalMs, signal, [] as VideoSuggestion[]);
+      const seen = new Set<string>(), titles = new Set<string>();
+      const items = videos.filter(v => isValidVideo(v) && !seen.has(v.youtubeId) && !titles.has(v.title.trim())
+        && !!seen.add(v.youtubeId) && !!titles.add(v.title.trim()));
+      if (items.length && written.answer.version === 4) written.answer.videos = { version: 1, basis: "title_only", items };
+      detail("videos", "rich_optional_work_finished", () => ({ videos: items.length, remaining_ms: Math.max(0, optionalMs) }));
+    }
+    return written;
   }
   // 5 + 6. The writer sees only the sealed package. Code verifies citations and requested-point coverage.
   const selectedSources = evidencePackage.passages.map((passage) => passage.source);

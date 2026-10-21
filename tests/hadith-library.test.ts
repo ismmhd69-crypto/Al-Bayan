@@ -21,11 +21,11 @@ vi.mock("@supabase/supabase-js", () => ({
 }));
 
 import {
-  hadithAllowed, hadithAttributionFor, HADITH_ATTRIBUTION, isContinuationHadith, mapStoredHadith,
+  hadithAllowed, hadithAttributionFor, HADITH_ATTRIBUTION, isContinuationHadith, assessHadithContext, mapStoredHadith,
   MAX_LIBRARY_HADITH_CHARS, SUNNAH_ATTRIBUTION, type StoredHadithRow,
 } from "@/lib/sources/hadith-rules";
 import { hadithMode } from "@/lib/sources/hadith-mode";
-import { searchLibraryHadith } from "@/lib/sources/hadith-library";
+import { getLibraryHadith, searchLibraryHadith } from "@/lib/sources/hadith-library";
 import { attachScholarTranslations } from "@/lib/ask/display-translations";
 import { validateAnswerV2, type AnswerV2 } from "@/lib/ask/answer-v2";
 import { hydrateAnswer } from "@/lib/chat/hydrate";
@@ -103,6 +103,7 @@ describe("hadithAllowed still guards both sources", () => {
 });
 
 describe("continuation filter", () => {
+  const inventedChain = "وحدثنا راو تجريبي عن راو آخر في سند مخترع للاختبار فقط ".repeat(28);
   const removed = [
     "وَحَدَّثَنِيهِ أَبُو كَامِلٍ، حَدَّثَنَا حَمَّادٌ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
     "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا هِشَامٌ، بِهَذَا الإِسْنَادِ ‏.‏",
@@ -115,6 +116,37 @@ describe("continuation filter", () => {
     expect(isContinuationHadith(row().text_original)).toBe(false);
     expect(isContinuationHadith("وَكُنْتُ أَغْتَسِلُ أَنَا وَالنَّبِيُّ، صلى الله عليه وسلم مِنْ إِنَاءٍ وَاحِدٍ‏.‏")).toBe(false);
     expect(isContinuationHadith("حدثنا فلان بهذا الإسناد ثم قال رسول الله صلى الله عليه وسلم " + "كلمة ".repeat(60))).toBe(false);
+  });
+  it.each([
+    "عن النبي صلى الله عليه وسلم بهذا الحديث كلهم يقول حتى يفعل كذا ولم يقل أحد منهم ثلاثا إلا في الرواية السابقة",
+    "بالإسنادين جميعا نحو حديث راو تجريبي",
+    'بهذا الإسناد مثله غير أن في روايتهما ‏"‏ لفظ تجريبي لزيادة في النص السابق ‏"‏',
+    "عن النبي صلى الله عليه وسلم نحوه",
+  ])("detects a dependent variant independently of chain length: %s", ending => {
+    for (const prefix of ["حدثنا راو تجريبي عن غيره ", inventedChain]) {
+      const original=prefix+ending;
+      expect(assessHadithContext(original).needsAntecedent).toBe(true);
+      expect(mapStoredHadith(row({ text_original: original }))).toBeNull();
+    }
+  });
+  it("does not confuse a narrator's nearby verb with new prophetic wording", () => {
+    const original=inventedChain+"عن النبي صلى الله عليه وسلم بهذا الحديث كلهم يقول في بعض الروايات لفظا مختلفا";
+    expect(assessHadithContext(original)).toEqual({needsAntecedent:true,reason:"unresolved_reference"});
+  });
+  it("keeps explicit new wording after the chain reference and comparisons inside wording", () => {
+    const quotation='‏"‏ هذا كلام مخترع للاختبار وفيه مقارنة بمثله ولا يمثل حديثا حقيقيا ‏"‏';
+    expect(isContinuationHadith(inventedChain+"بهذا الإسناد ثم قال رسول الله صلى الله عليه وسلم "+quotation)).toBe(false);
+    expect(isContinuationHadith(inventedChain+"قال رسول الله صلى الله عليه وسلم "+quotation)).toBe(false);
+    expect(isContinuationHadith(inventedChain+"قال رسول الله صلى الله عليه وسلم هذا مثال تجريبي بمثله في وسط الجملة وليس نصا حقيقيا")).toBe(false);
+    expect(isContinuationHadith(inventedChain+"بهذا الإسناد ثم قال رأيت النبي صلى الله عليه وسلم في واقعة مخترعة للاختبار لا تمثل رواية حقيقية")).toBe(false);
+  });
+  it("keeps an unquoted narrative that has no continuation marker", () => {
+    const original=inventedChain+"قال الراوي رأيت النبي صلى الله عليه وسلم في قصة مخترعة للاختبار فقط ولا تمثل رواية حقيقية";
+    expect(assessHadithContext(original)).toEqual({needsAntecedent:false,reason:"no_dependency_detected"});
+  });
+  it("withholds a saved-library lookup whose wording requires an antecedent", async () => {
+    rowsResult={data:[row({text_original:inventedChain+"بالإسنادين جميعا نحو حديث راو تجريبي"})],error:null};
+    expect(await getLibraryHadith(UUID)).toBeNull();
   });
 });
 

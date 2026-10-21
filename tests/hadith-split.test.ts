@@ -55,7 +55,7 @@ describe("splitHadith: real hadith", () => {
   });
 
   it("Muslim 1829d (several chains, ح, an addition 'like the hadith of Nafi'): not split", () => {
-    expect(analyseHadithSplit(text("muslim:1829d"))).toEqual({ split: null, reason: "refers_to_other_hadith" });
+    expect(analyseHadithSplit(text("muslim:1829d"))).toEqual({ split: null, reason: "continuation" });
   });
 
   it("Muslim 303c: Companion's story, but the quote follows فقال رسول الله ﷺ", () => {

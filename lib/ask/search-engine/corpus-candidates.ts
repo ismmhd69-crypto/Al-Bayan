@@ -15,6 +15,13 @@ export async function corpusCandidates(frame: QuestionFrame, load: () => Promise
   const found = await retrieveFromCorpus(frame, load, { signal: options.signal, embedder: options.embedder, limit: 60, families: options.families });
   options.onDiscovery?.(found);
   if (found.semantic !== "used" && !options.allowLexicalOnly) throw new Error("corpus_semantic_provider_not_ready");
+  return discoveredCorpusCandidates(found, options);
+}
+
+/** Shared parent reconstruction for filesystem and persistent discovery. */
+export async function discoveredCorpusCandidates(found: CorpusRetrieval, options: {
+  signal: AbortSignal; getVerse?: (key: string) => Promise<Verse | undefined>;
+}): Promise<PassageForSelection[]> {
   const byParent = new Map<string, typeof found.hits[number]>();
   for (const hit of found.hits) {
     const prior = byParent.get(hit.passage.sourceId);

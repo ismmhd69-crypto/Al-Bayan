@@ -21,11 +21,14 @@ const UNAVAILABLE_STATUSES = new Set([401, 403, 404, 410]);
 
 /**
  * The first complete JSON object in a model's reply, tolerating code fences, reasoning text or
- * <think> blocks around it. Malformed output gives null, which every caller refuses (fail closed).
+ * <think> blocks around it. Never salvage a child object from a malformed or truncated envelope.
  */
 export function extractJsonObject(text: string): unknown {
   const visible = text.replace(/<think>[\s\S]*?<\/think>/gi, " ").replace(/<think>[\s\S]*$/i, " ");
-  for (let start = visible.indexOf("{"); start !== -1; start = visible.indexOf("{", start + 1)) {
+  const start = visible.indexOf("{");
+  const arrayStart = visible.indexOf("[");
+  if (arrayStart !== -1 && (start === -1 || arrayStart < start)) return null;
+  if (start !== -1) {
     let depth = 0;
     let inString = false;
     let escaped = false;
@@ -42,7 +45,8 @@ export function extractJsonObject(text: string): unknown {
           const value: unknown = JSON.parse(visible.slice(start, i + 1));
           if (value && typeof value === "object" && !Array.isArray(value)) return value;
         } catch {
-          // not valid JSON from this "{": try the next one
+          // A valid nested member is not a valid provider response.
+          return null;
         }
         break;
       }

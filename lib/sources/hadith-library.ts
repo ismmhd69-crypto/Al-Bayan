@@ -84,7 +84,7 @@ export async function searchLibraryHadith(queries: Partial<Record<Locale, string
       return true;
     })
     .map(({ row, order }) => ({ row, order, score: hadithTopicScore(row.reference.split(", ").slice(3).join(", "), row.text_original, topic) }))
-    .filter((x) => { if (topic.length && x.score === 0) { audit.titleOrTopic++; return false; } return true; })
+    .filter((x) => { if (!options.meaningCandidates && topic.length && x.score === 0) { audit.titleOrTopic++; return false; } return true; })
     .sort((a, b) => b.score - a.score || a.order - b.order)
     .map(({ row }) => { const mapped = mapStoredHadith(row); if (!mapped) audit.authenticity++; return mapped; })
     .filter((h): h is Hadith => !!h)

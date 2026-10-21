@@ -31,6 +31,13 @@ describe("extractJsonObject", () => {
     expect(extractJsonObject("<think>unfinished {\"a\":1}")).toBeNull();
     expect(extractJsonObject("[1,2,3]")).toBeNull();
   });
+  it("does not salvage a ranking or a question point from a broken outer response", () => {
+    // Shape recorded in the local recovery failure, with invented IDs.
+    expect(extractJsonObject('{"rankings":[{"id":"candidate-a","score":0},{"},{"id":"candidate-b","score":100}]}')).toBeNull();
+    expect(extractJsonObject('{"requested_points":[{"text":"A point","facet":"reason"}],')).toBeNull();
+    expect(extractJsonObject('[{"id":"candidate-a","score":0}]')).toBeNull();
+    expect(extractJsonObject('{"broken":true,} {"ok":true}')).toBeNull();
+  });
 });
 
 describe("createNvidia", () => {

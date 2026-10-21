@@ -13,7 +13,7 @@ export type SearchAudit = {
   returned: number;
   configurationMissing: boolean;
 };
-export type SearchOptions = { allVariants?: boolean; onAudit?: (audit: SearchAudit) => void; signal?: AbortSignal; onFailure?: (outcome: "timeout" | "search_failed") => void };
+export type SearchOptions = { allVariants?: boolean; meaningCandidates?: boolean; onAudit?: (audit: SearchAudit) => void; signal?: AbortSignal; onFailure?: (outcome: "timeout" | "search_failed") => void };
 export const emptySearchAudit = (group: SearchAudit["group"]): SearchAudit => ({
   group, queries: 0, hits: 0, ceilingHits: 0, wrongKindOrUnavailable: 0, missingText: 0,
   length: 0, continuation: 0, titleOrTopic: 0, authenticity: 0, eligible: 0, returned: 0, configurationMissing: false,

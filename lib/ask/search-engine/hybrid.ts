@@ -1,4 +1,8 @@
 import { passageProblem, sameSpace, validVector, validateIndex, type SearchFamily, type SearchIndex, type SearchMethod, type SearchPassage, type VectorSpace } from "./contract";
+import { maskQuranTags } from "@/lib/sources/hadith-markup";
+import { checkedRerankerScores } from "./reranker-result";
+
+export const SOURCE_LOOKUP_REVISION = "source-lookup-v2";
 
 export type SearchConcern = { id: string; text: string; phrases: string[]; exactReferences: string[]; vector?: { space: VectorSpace; values: number[] } };
 export type SearchHit = { passage: SearchPassage; concernIds: string[]; methods: SearchMethod[]; fusionScore: number; ranks: Partial<Record<SearchMethod, number>>; relevanceScore?: number };
@@ -6,7 +10,7 @@ export type SearchAudit = { generation: string; before: number; eligible: number
 
 /** Lookup-only normalisation. Original content never passes through this function. */
 export function searchTokens(text: string): string[] {
-  return text.normalize("NFKC").toLocaleLowerCase().replace(/[\u064b-\u065f\u0670\u0640]/g, "")
+  return maskQuranTags(text).normalize("NFKC").toLocaleLowerCase().replace(/[\u064b-\u065f\u0670\u0640]/g, "")
     .replace(/[أإآٱ]/g, "ا").replace(/ى/g, "ي").match(/[\p{L}\p{N}]+/gu) ?? [];
 }
 function cosine(a: number[], b: number[]) {
@@ -81,7 +85,7 @@ export async function rerankByMeaning(concern: SearchConcern, hits: SearchHit[],
   if (!hits.length) return [];
   const scores = await reranker({ id: concern.id, text: concern.text }, hits.map(h => ({ id: h.passage.id, original: h.passage.original, before: h.passage.context.before, after: h.passage.context.after, title: h.passage.title })), signal);
   signal.throwIfAborted();
-  const byId = new Map(scores.map(s => [s.id, s.score]));
-  if (byId.size !== hits.length || scores.length !== hits.length || hits.some(h => !Number.isFinite(byId.get(h.passage.id))) || scores.some(s => !hits.some(h => h.passage.id === s.id))) throw new Error("invalid_reranker_result");
+  const checked = checkedRerankerScores(scores, hits.map(h => h.passage.id));
+  const byId = new Map(checked.scores.map(s => [s.id, s.score]));
   return hits.map(h => ({ ...h, relevanceScore: byId.get(h.passage.id)! })).sort((a, b) => b.relevanceScore! - a.relevanceScore! || b.fusionScore - a.fusionScore).slice(0, limit);
 }

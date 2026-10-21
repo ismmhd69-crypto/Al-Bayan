@@ -84,7 +84,7 @@ export async function searchScholarQuotes(phrases: string[], limit = 3, options:
     .filter((r): r is SourceRow => !!r && !!r.scholar_id && !!r.scholars)
     .filter((r) => {
       if (!r.text_original?.trim()) { audit.missingText++; return false; }
-      if (!isScholarTitleRelevant(expandedPhrases, r.title)) { audit.titleOrTopic++; return false; }
+      if (!options.meaningCandidates && !isScholarTitleRelevant(expandedPhrases, r.title)) { audit.titleOrTopic++; return false; }
       return true;
     })
     .map((r): ScholarQuote => ({

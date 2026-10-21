@@ -2,9 +2,21 @@
 import { describe, expect, it, vi } from "vitest";
 
 vi.mock("server-only", () => ({}));
-const { bestTitles, getMappedScholarQuote, livePhrases } = await import("@/lib/sources/scholars-live");
+const { bestTitles, getMappedScholarQuote, livePhrases, verifyOfficialScholarExcerpt } = await import("@/lib/sources/scholars-live");
 
 describe("mapped official fatwas", () => {
+  it("rechecks an original directly instead of trusting the search cache",async()=>{
+    const body='<article class="fatwa"><h1>شروط التوبة</h1><p>ج: التوبة لها شروط، منها الندم على الذنب والإقلاع عنه، والعزم على عدم العودة إليه. ويجب أن تكون التوبة صادقة خالصة لله تعالى، وأن يترك الإنسان الذنب في الحال ويعزم على ألا يرجع إليه.</p></article>';
+    const fetcher=vi.fn<typeof fetch>(async()=>new Response(body,{status:200}));vi.stubGlobal("fetch",fetcher);
+    try{
+      const q=await getMappedScholarQuote("https://binbaz.org.sa/fatwas/999994/شروط-التوبة");expect(q).not.toBeNull();
+      expect(await verifyOfficialScholarExcerpt(q!,"en",new AbortController().signal)).toBe(true);
+      fetcher.mockImplementation(async()=>new Response(body.replace("الندم على الذنب","تغيير النص الأصلي"),{status:200}));
+      expect(await verifyOfficialScholarExcerpt(q!,"en",new AbortController().signal)).toBe(false);
+      expect(fetcher).toHaveBeenCalledTimes(3);
+      expect(fetcher.mock.calls.at(-1)?.[1]).toMatchObject({redirect:"error",cache:"no-store"});
+    }finally{vi.unstubAllGlobals();}
+  });
   it("rejects arbitrary and non-fatwa URLs without fetching", async () => {
     const fetcher = vi.fn();
     vi.stubGlobal("fetch", fetcher);

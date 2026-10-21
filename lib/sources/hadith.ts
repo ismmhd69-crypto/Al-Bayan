@@ -1,3 +1,4 @@
+import { askTimeout } from "@/lib/ask/timing";
 import "server-only";
 import type { Locale } from "@/lib/i18n";
 import { normalizeArabic } from "@/lib/ask/checks";
@@ -17,7 +18,7 @@ const MAX_PAGES = 20;
 // loading them does not write over a hundred pages to the server's disk cache.
 async function get(path: string, cacheToDisk = true): Promise<unknown> {
   const res = await fetch(`${API}${path}`, {
-    signal: AbortSignal.timeout(TIMEOUT_MS),
+    signal: askTimeout(undefined, TIMEOUT_MS, "hadith_transport"),
     ...(cacheToDisk ? { next: { revalidate: CACHE_SECONDS } } : { cache: "no-store" as const }),
   });
   if (!res.ok) throw new Error(`HadeethEnc request failed with status ${res.status}`);

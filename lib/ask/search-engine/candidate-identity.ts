@@ -12,6 +12,7 @@ function canonicalPage(raw: string): string {
     url.searchParams.sort(); return url.toString();
   } catch { return raw; }
 }
+export const canonicalSourcePage = canonicalPage;
 export function candidateIdentity(candidate: PassageForSelection): string {
   if (candidate.source.kind !== "scholar") return candidate.id;
   const q = candidate.source.quote;
