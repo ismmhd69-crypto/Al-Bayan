@@ -8,8 +8,10 @@ import type { LearningReference, LessonParts, LessonSummary, PrayerKey } from "@
 import { learningText, learningReadingTime, learningSourceLabel } from "@/lib/learning/text";
 import { useReadingProgress } from "./useReadingProgress";
 import LearningMarkdown, { LearningInline } from "./LearningMarkdown";
-import LearningShortcuts from "./LearningShortcuts";
-import PrayerUnitTracker from "./PrayerUnitTracker";
+const chapterLabel = (id: number, language: Locale) =>
+  language === "ar"
+    ? ["أ", "ب", "ج", "د", "هـ", "و"][id - 1] ?? String.fromCharCode(64 + id)
+    : String.fromCharCode(64 + id);
 
 export default function LearningLesson({ lang, lesson, parts, references, lessonIds, previous, next, quran }: {
   lang: Locale; lesson: LessonSummary; parts: LessonParts; references: LearningReference[]; lessonIds: string[]; previous: LessonSummary | null; next: LessonSummary | null; quran: ReactNode;
@@ -28,9 +30,8 @@ export default function LearningLesson({ lang, lesson, parts, references, lesson
   const prose = (text: string) => <LearningMarkdown text={text} lang={lang} references={byId} lessonIds={lessonIds} onPrayer={choosePrayer} isPrayerLesson={lesson.id === "how-to-pray"} isWuduLesson={lesson.id === "wudu"} lessonId={lesson.id} />;
   const selected = parts.branches.find((branch) => branch.key === prayer);
   return <article className="page learning-page learning-reader">
-    <nav className="learning-reader-nav" aria-label={t.overview}><Link href={`/${lang}/start`} className="text-link"><ArrowLeft className="learning-arrow" aria-hidden="true" />{t.overview}</Link><span className="learning-small">{t.chapter} {lesson.chapter} · {t.lesson} {lesson.number} / 32</span></nav>
+    <nav className="learning-reader-nav" aria-label={t.overview}><Link href={`/${lang}/start`} className="text-link"><ArrowLeft className="learning-arrow" aria-hidden="true" />{t.overview}</Link><span className="learning-small">{t.chapter} {chapterLabel(lesson.chapter, lang)} · {t.lesson} {lesson.number} / 32</span></nav>
     <header className="page-head"><h1>{lesson.title}</h1><p className="learning-small">{learningReadingTime(lang, lesson.minutes)}</p></header>
-    <LearningShortcuts lang={lang} />
     {parts.branches.length > 0 && <aside className="learning-prayer-intro prayer-picker-box">
       <p>{t.prayerScope}</p>
       <div className="prayer-pills-row" role="tablist" aria-label={t.choosePrayer}>
