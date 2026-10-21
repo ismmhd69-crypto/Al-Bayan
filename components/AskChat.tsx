@@ -653,15 +653,15 @@ export default function AskChat({
         {headerExtra}
       </header>
 
-      <p className="chat-notice">
-        <ShieldCheck aria-hidden="true" />
-        <span>
-          {t.notice}
-          {testMode && <strong className="chat-test"> {t.testMode}</strong>}
-        </span>
-      </p>
-
       <div className="chat-log" aria-busy={busy && !richEnabled}>
+        <p className="chat-notice">
+          <ShieldCheck aria-hidden="true" />
+          <span>
+            {t.notice}
+            {testMode && <strong className="chat-test"> {t.testMode}</strong>}
+          </span>
+        </p>
+
         {messages.length === 0 && !busy && (
           <div className="chat-empty">
             <Beacon size={64} />
