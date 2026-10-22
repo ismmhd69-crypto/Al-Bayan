@@ -5,6 +5,7 @@ import { Bookmark, ChevronRight, Flag, HeartHandshake, Info, Lock, type LucideIc
 import { getDictionary, isLocale } from "@/lib/i18n";
 import LangSwitch from "@/components/LangSwitch";
 import AccountRow from "@/components/AccountRow";
+import TeamReviewSection from "@/components/TeamReviewSection";
 import { authText } from "@/lib/auth-text";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -33,7 +34,7 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
       { Icon: Info, title: t.about, href: `/${lang}/about` },
       { Icon: HeartHandshake, title: t.support, note: t.supportNote, href: `/${lang}/support` },
       { Icon: Lock, title: t.privacy, href: `/${lang}/privacy` },
-      { Icon: Flag, title: t.report, note: `${t.reportNote} ${d.common.comingSoon}.` },
+      { Icon: Flag, title: t.report, note: t.reportNote, href: `/${lang}/report` },
     ],
   ];
 
@@ -49,6 +50,8 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
         </h2>
         <LangSwitch lang={lang} label={t.language} />
       </section>
+
+      <TeamReviewSection lang={lang} />
 
       {rows.map((group, i) => (
         <ul key={i} className="list">

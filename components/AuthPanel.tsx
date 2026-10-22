@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { useEffect, useId, useState, type FormEvent } from "react";
-import { Eye, EyeOff } from "lucide-react";
+import { Eye, EyeOff, ShieldCheck } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 import type { AuthText } from "@/lib/auth-text";
 import { browserSupabase } from "@/lib/supabase-browser";
 import { deleteAllChats, exportChats } from "@/lib/chat/chats";
 import { exportResearchRequests } from "@/lib/chat/research-export";
 import { buildAccountExport } from "@/lib/chat/account-export";
+import { isTeamUser } from "./TeamReviewSection";
 import styles from "./AuthPanel.module.css";
 
 type Mode = "signin" | "signup" | "forgot" | "reset";
@@ -23,7 +24,7 @@ const looksLikeEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
 export default function AuthPanel({ lang, t, researchPrivacyEnabled = false }: { lang: Locale; t: AuthText; researchPrivacyEnabled?: boolean }) {
   const uid = useId();
   const [mode, setMode] = useState<Mode>("signin");
-  const [user, setUser] = useState<{ email: string } | null | undefined>(undefined);
+  const [user, setUser] = useState<{ email: string; app_metadata?: Record<string, unknown> } | null | undefined>(undefined);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -37,10 +38,10 @@ export default function AuthPanel({ lang, t, researchPrivacyEnabled = false }: {
     const supabase = browserSupabase();
     let active = true;
     supabase.auth.getSession().then(({ data }) => {
-      if (active) setUser(data.session?.user ? { email: data.session.user.email ?? "" } : null);
+      if (active) setUser(data.session?.user ? { email: data.session.user.email ?? "", app_metadata: data.session.user.app_metadata } : null);
     });
     const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
-      setUser(session?.user ? { email: session.user.email ?? "" } : null);
+      setUser(session?.user ? { email: session.user.email ?? "", app_metadata: session.user.app_metadata } : null);
       // The link in the "forgot password" email brings the person back here to choose a new one.
       if (event === "PASSWORD_RECOVERY") {
         setMode("reset");
@@ -210,6 +211,21 @@ export default function AuthPanel({ lang, t, researchPrivacyEnabled = false }: {
             {t.signOut}
           </button>
         </div>
+
+        {isTeamUser(user) && (
+          <div className={styles.form} style={{ borderInlineStart: "4px solid var(--accent)", background: "var(--accent-soft)" }}>
+            <h2 style={{ fontSize: "var(--fs-lg)", display: "flex", alignItems: "center", gap: "8px", color: "var(--accent-hover)" }}>
+              <ShieldCheck size={20} aria-hidden="true" style={{ color: "var(--accent)" }} />
+              Team Member Portal
+            </h2>
+            <p className="muted" style={{ fontSize: "var(--fs-sm)" }}>
+              You are recognized as an authorized Bayan team member.
+            </p>
+            <Link href={`/${lang}/review?kind=reports`} className="btn btn-primary" style={{ textAlign: "center" }}>
+              View Problem Reports & Review
+            </Link>
+          </div>
+        )}
 
         <div className={styles.form}>
           <h2>{t.yourData}</h2>

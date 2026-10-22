@@ -4,13 +4,50 @@ import { isLocale, type Locale } from "@/lib/i18n";
 import { takeSlot, visitorKey } from "@/lib/ask/limits";
 import { sameOrigin } from "@/lib/same-origin";
 
-const MAX_BODY_BYTES = 2048;
-const MAX_COMMENT = 500;
-const REASONS = new Set(["wrong_source", "misquoted", "not_answering", "unclear", "offensive", "other"]);
-const SOURCE_ID = /^(?:Q\d{1,3}:\d{1,3}|HE\d{1,12}|S[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12})$/i;
+const MAX_BODY_BYTES = 4096;
+const MAX_COMMENT_LEGACY = 500;
+const MAX_COMMENT_PROBLEM = 1000;
+const MAX_PAGE_URL = 300;
+
+export const REASONS = new Set(["wrong_source", "misquoted", "not_answering", "unclear", "offensive", "other"]);
+export const CATEGORIES = new Set([
+  "content_mistake",
+  "translation_error",
+  "technical_bug",
+  "typo",
+  "offensive",
+  "other",
+]);
+
+const CATEGORY_TO_REASON_FALLBACK: Record<string, string> = {
+  content_mistake: "wrong_source",
+  translation_error: "misquoted",
+  technical_bug: "other",
+  typo: "unclear",
+  offensive: "offensive",
+  other: "other",
+};
+
+const SOURCE_ID = /^(?:Q\d{1,3}:\d{1,3}|HE\d{1,12}|SH[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}|S[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12})$/i;
 const noStore = { "Cache-Control": "no-store" };
 
-export type ReportInput = { lang: Locale; reason: string; source_ids: string[] | null; comment: string | null };
+export type ProblemReportInput = {
+  lang: Locale;
+  category: "content_mistake" | "translation_error" | "technical_bug" | "typo" | "offensive" | "other";
+  comment: string;
+  page_url?: string | null;
+  source_ids?: string[] | null;
+};
+
+export type LegacyReportInput = {
+  lang: Locale;
+  reason: string;
+  source_ids: string[] | null;
+  comment: string | null;
+};
+
+export type ReportInput = ProblemReportInput | LegacyReportInput;
+
 type ReportStore = { insert: (report: ReportInput) => Promise<{ error?: { message: string } | null }> };
 
 const reply = (status: string, code = 200) => NextResponse.json({ status }, { status: code, headers: noStore });
@@ -18,20 +55,63 @@ const reply = (status: string, code = 200) => NextResponse.json({ status }, { st
 export function validateReport(body: unknown): ReportInput | null {
   if (!body || typeof body !== "object" || Array.isArray(body)) return null;
   const value = body as Record<string, unknown>;
-  const allowed = new Set(["lang", "reason", "source_ids", "comment"]);
-  if (Object.keys(value).some((key) => !allowed.has(key))) return null;
-  if (typeof value.lang !== "string" || !isLocale(value.lang) || typeof value.reason !== "string" || !REASONS.has(value.reason)) return null;
-  let sourceIds: string[] | null = null;
-  if (value.source_ids !== undefined) {
-    if (!Array.isArray(value.source_ids) || value.source_ids.length > 12 || value.source_ids.some((id) => typeof id !== "string" || !SOURCE_ID.test(id))) return null;
-    sourceIds = [...new Set(value.source_ids)];
+
+  // Check language
+  if (typeof value.lang !== "string" || !isLocale(value.lang)) return null;
+
+  // Problem report format (with category)
+  if (value.category !== undefined) {
+    const allowed = new Set(["lang", "category", "comment", "page_url", "source_ids"]);
+    if (Object.keys(value).some((key) => !allowed.has(key))) return null;
+    if (typeof value.category !== "string" || !CATEGORIES.has(value.category)) return null;
+    if (typeof value.comment !== "string") return null;
+
+    const trimmedComment = value.comment.trim();
+    if (!trimmedComment || trimmedComment.length > MAX_COMMENT_PROBLEM) return null;
+
+    let pageUrl: string | null = null;
+    if (value.page_url !== undefined && value.page_url !== null) {
+      if (typeof value.page_url !== "string" || value.page_url.length > MAX_PAGE_URL) return null;
+      pageUrl = value.page_url.trim() || null;
+    }
+
+    let sourceIds: string[] | null = null;
+    if (value.source_ids !== undefined && value.source_ids !== null) {
+      if (!Array.isArray(value.source_ids) || value.source_ids.length > 12 || value.source_ids.some((id) => typeof id !== "string" || !SOURCE_ID.test(id))) return null;
+      sourceIds = [...new Set(value.source_ids)];
+    }
+
+    return {
+      lang: value.lang,
+      category: value.category as ProblemReportInput["category"],
+      comment: trimmedComment,
+      page_url: pageUrl,
+      source_ids: sourceIds,
+    };
   }
-  let comment: string | null = null;
-  if (value.comment !== undefined) {
-    if (typeof value.comment !== "string" || value.comment.length > MAX_COMMENT) return null;
-    comment = value.comment.trim() || null;
+
+  // Legacy answer report format (with reason)
+  if (value.reason !== undefined) {
+    const allowed = new Set(["lang", "reason", "source_ids", "comment"]);
+    if (Object.keys(value).some((key) => !allowed.has(key))) return null;
+    if (typeof value.reason !== "string" || !REASONS.has(value.reason)) return null;
+
+    let sourceIds: string[] | null = null;
+    if (value.source_ids !== undefined && value.source_ids !== null) {
+      if (!Array.isArray(value.source_ids) || value.source_ids.length > 12 || value.source_ids.some((id) => typeof id !== "string" || !SOURCE_ID.test(id))) return null;
+      sourceIds = [...new Set(value.source_ids)];
+    }
+
+    let comment: string | null = null;
+    if (value.comment !== undefined && value.comment !== null) {
+      if (typeof value.comment !== "string" || value.comment.length > MAX_COMMENT_LEGACY) return null;
+      comment = value.comment.trim() || null;
+    }
+
+    return { lang: value.lang, reason: value.reason, source_ids: sourceIds, comment };
   }
-  return { lang: value.lang, reason: value.reason, source_ids: sourceIds, comment };
+
+  return null;
 }
 
 export async function handleReport(request: Request, store: ReportStore): Promise<Response> {
@@ -58,7 +138,34 @@ function serverStore(): ReportStore {
   const db = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
   return {
     async insert(report) {
-      // The editorial schema is private; a server-only database function stores the report.
+      if ("category" in report) {
+        // Try public.problem_reports table
+        const { error } = await db.from("problem_reports").insert({
+          lang: report.lang,
+          category: report.category,
+          comment: report.comment,
+          page_url: report.page_url ?? null,
+          source_ids: report.source_ids ?? null,
+        });
+
+        if (!error) return {};
+
+        // Fallback to legacy RPC if problem_reports table has not been migrated remotely yet
+        const mappedReason = CATEGORY_TO_REASON_FALLBACK[report.category] ?? "other";
+        const fallbackComment = report.page_url
+          ? `[${report.page_url}] ${report.comment}`.slice(0, 500)
+          : report.comment.slice(0, 500);
+
+        const rpcRes = await db.rpc("submit_answer_report", {
+          report_lang: report.lang,
+          report_reason: mappedReason,
+          report_source_ids: report.source_ids ?? null,
+          report_comment: fallbackComment,
+        });
+        return { error: rpcRes.error ? { message: error.message } : null };
+      }
+
+      // Legacy answer report
       const { error } = await db.rpc("submit_answer_report", {
         report_lang: report.lang,
         report_reason: report.reason,

@@ -162,3 +162,26 @@ export async function setReviewDecision(kind: ReviewKind, id: string, status: Re
   const { error } = await db.rpc("set_prepared_review", { p_kind: kind, p_item_id: id, p_status: status, p_note: note, p_content_hash: contentHash });
   return !error;
 }
+
+export type ProblemReportRow = {
+  id: string;
+  created_at: string;
+  lang: string;
+  category: string;
+  comment: string;
+  page_url: string | null;
+  source_ids: string[] | null;
+  status: "new" | "reviewed" | "resolved";
+};
+
+export async function getProblemReports(limit = 50): Promise<ProblemReportRow[]> {
+  const db = reviewDb();
+  if (!db) return [];
+  const { data, error } = await db
+    .from("problem_reports")
+    .select("id, created_at, lang, category, comment, page_url, source_ids, status")
+    .order("created_at", { ascending: false })
+    .limit(limit);
+  if (error || !data) return [];
+  return data as ProblemReportRow[];
+}

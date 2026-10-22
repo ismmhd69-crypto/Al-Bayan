@@ -251,6 +251,31 @@ const en = {
       "Our database is hosted in Frankfurt, Germany.",
     ],
   },
+  reportPage: {
+    title: "Report a problem",
+    subtitle: "Found an error, wrong translation, or something broken? Let us know so we can fix it.",
+    categoryLabel: "What type of problem is it?",
+    commentLabel: "Details (please don't include personal information)",
+    commentPlaceholder: "Describe what went wrong or what needs fixing...",
+    pageUrlLabel: "Page or question (optional)",
+    pageUrlPlaceholder: "e.g. Question about fasting, or page link",
+    send: "Send report",
+    sending: "Sending...",
+    thanksTitle: "Thank you for letting us know",
+    thanksMessage: "Your report has been sent to our team. We will review it carefully.",
+    reportAnother: "Report another issue",
+    backToMore: "Back to More",
+    error: "Could not send the report. Please try again.",
+    categories: {
+      content_mistake: "Content or factual mistake",
+      translation_error: "Translation error",
+      technical_bug: "Something is broken / technical bug",
+      typo: "Typo or spelling error",
+      offensive: "Offensive or inappropriate content",
+      other: "Other feedback",
+    },
+    privacyNote: "No personal data, email, or identity is requested or stored.",
+  },
 };
 
 export default en;

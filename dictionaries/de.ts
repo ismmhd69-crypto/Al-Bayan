@@ -253,6 +253,31 @@ const de: typeof en = {
       "Unsere Datenbank liegt in Frankfurt, Deutschland.",
     ],
   },
+  reportPage: {
+    title: "Problem melden",
+    subtitle: "Hast du einen inhaltlichen Fehler, eine falsche Übersetzung oder ein technisches Problem gefunden? Sag es uns, damit wir es beheben können.",
+    categoryLabel: "Welche Art von Problem ist es?",
+    commentLabel: "Details (bitte keine persönlichen Daten angeben)",
+    commentPlaceholder: "Beschreibe, was nicht stimmt oder korrigiert werden sollte...",
+    pageUrlLabel: "Seite oder Frage (optional)",
+    pageUrlPlaceholder: "z. B. Frage zum Fasten oder Seiten-Link",
+    send: "Meldung senden",
+    sending: "Wird gesendet...",
+    thanksTitle: "Vielen Dank für deine Rückmeldung",
+    thanksMessage: "Deine Meldung wurde an unser Team gesendet. Wir werden sie sorgfältig prüfen.",
+    reportAnother: "Ein weiteres Problem melden",
+    backToMore: "Zurück zu Mehr",
+    error: "Die Meldung konnte nicht gesendet werden. Bitte versuch es noch einmal.",
+    categories: {
+      content_mistake: "Inhaltlicher oder sachlicher Fehler",
+      translation_error: "Übersetzungsfehler",
+      technical_bug: "Technischer Fehler / Funktioniert nicht",
+      typo: "Tipp- oder Rechtschreibfehler",
+      offensive: "Unangemessener Inhalt",
+      other: "Sonstiges Feedback",
+    },
+    privacyNote: "Es werden keine persönlichen Daten, E-Mail-Adressen oder Identitäten erfasst.",
+  },
 };
 
 export default de;
