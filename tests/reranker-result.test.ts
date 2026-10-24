@@ -62,8 +62,9 @@ describe("ranking context IDs cannot become evidence",()=>{
     expect(audit).toHaveBeenCalledWith(expect.objectContaining({ignoredUnknownCount:1}));
   });
   it("constrains the provider schema to the candidate IDs, excluding context references",async()=>{
-    const generateJson=vi.fn<AIProvider["generateJson"]>(async()=>({rankings:[{id:"Q3:98",score:50}]}));
+    const generateJson=vi.fn<AIProvider["generateJson"]>(async()=>({scores:[50]}));
     await modelMeaningReranker({id:"fixture",generateJson})({id:"R1",text:"Invented concern"},[{id:"Q3:98",original:"invented original",before:"Q3:97: context only",after:"",title:"fixture"}],new AbortController().signal);
-    expect(generateJson.mock.calls[0][0].schema).toMatchObject({properties:{rankings:{items:{properties:{id:{enum:["Q3:98"]}}}}}});
+    expect(generateJson.mock.calls[0][0].schema).toMatchObject({properties:{scores:{type:"array",maxItems:1,items:{type:"number"}}}});
+    expect(JSON.parse(generateJson.mock.calls[0][0].prompt).passages[0]).toMatchObject({id:"Q3:98",score_index:0});
   });
 });

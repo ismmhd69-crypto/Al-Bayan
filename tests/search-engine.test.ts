@@ -162,8 +162,8 @@ describe("semantic ranking validation", () => {
     expect(reranker).not.toHaveBeenCalled();
   });
   it("rejects malformed model scores and labels passage content as untrusted", async () => {
-    const provider = { id: "fixture", generateJson: vi.fn<AIProvider["generateJson"]>(async () => ({ rankings: [{ id: "a", score: 101 }] })) };
-    await expect(modelMeaningReranker(provider)({ id: "R1", text: "Question" }, [], new AbortController().signal)).rejects.toThrow("invalid_reranker_score");
+    const provider = { id: "fixture", generateJson: vi.fn<AIProvider["generateJson"]>(async () => ({ scores: [101] })) };
+    await expect(modelMeaningReranker(provider)({ id: "R1", text: "Question" }, [{id:"a",title:"fixture",original:"invented",before:"",after:""}], new AbortController().signal)).rejects.toThrow("invalid_reranker_score");
     expect(provider.generateJson.mock.calls[0][0].system).toContain("untrusted data");
   });
 });

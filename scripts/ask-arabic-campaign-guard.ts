@@ -30,6 +30,17 @@ export function persistCampaign(path: string, value: unknown) {
   replaceCampaignFile(temp, path);
 }
 export class CampaignStop extends Error { constructor(message: string) { super(message); this.name = "CampaignStop"; } }
+/** A reviewed continuation carries the existing ceiling, never renews an allowance.
+ * Caller supplies the owner's resumed scope and must verify its prior result review. */
+export function sameAllowanceContinuation(bytes: string, path: string, authorization: string): CampaignLedger {
+  const previous: CampaignLedger = JSON.parse(bytes);
+  if (!previous.stopped || previous.evaluationCases?.some(c => c.review === "pending") || !authorization.trim()) throw new CampaignStop("prior_campaign_review_required");
+  const guard = new ArabicCampaignGuard(previous, () => {}, { cap: previous.cap, priorExposure: previous.priorExposure });
+  if (guard.exposure > previous.cap) throw new CampaignStop("prior_campaign_over_ceiling");
+  return { version: 1, cap: previous.cap, priorExposure: guard.exposure, originalLedgerHash: previous.originalLedgerHash,
+    prices: structuredClone(previous.prices), calls: [], stopped: "reviewed_continuation_prepared",
+    priorCampaign: { path, hash: digest(bytes), exposure: guard.exposure, authorization } };
+}
 export class ArabicCampaignGuard {
   private capacityWaiters = new Set<() => void>();
   private wakeCapacity() { for (const wake of [...this.capacityWaiters]) wake(); }

@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "cap": 2.3824438125,
+  "priorExposure": 2.2068656724999998,
+  "originalLedgerHash": "fa92584ab52e6ec22a25d6a9c3c0c3412c5392cfbdefc747ebd5010ea85844b7",
+  "prices": {
+    "google/gemini-3.5-flash-lite": {
+      "prompt": 0.54,
+      "completion": 4.5,
+      "request": 0
+    },
+    "google/gemini-3.8-flash": {
+      "prompt": 1.35,
+      "completion": 6.75,
+      "request": 0
+    },
+    "google/gemini-3.1-flash-lite": {
+      "prompt": 0.44999999999999996,
+      "completion": 2.7,
+      "request": 0
+    },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "prompt": 0.09999999999999999,
+      "completion": 0.3,
+      "request": 0
+    }
+  },
+  "calls": [
+    {
+      "fingerprint": "acf3f31b2b6e36648eeefb4a2fd7badc05556278735d3101360fd9b3b9e06ac7",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0402075,
+      "at": "2026-10-24T11:29:46.957Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792841385-K91zQpgstvZDQkjZ4NW6",
+      "promptTokens": 4889,
+      "completionTokens": 1674,
+      "finishReason": "stop",
+      "cost": 0.00373325
+    },
+    {
+      "fingerprint": "6be2f5cee644116d918875f180e7e6b23dd4c881c00391fefae9708baccb2ab6",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0414054,
+      "at": "2026-10-24T11:30:50.948Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792841449-hjRmX6dwAd9XDbHCDSp2",
+      "promptTokens": 7779,
+      "completionTokens": 1355,
+      "finishReason": "stop",
+      "cost": 0.00397725
+    }
+  ],
+  "priorCampaign": {
+    "path": "C:\\Users\\wiseflow\\Bayan\\docs\\ask-repair-runs\\arabic-quality-20261024-compact-ranking-spend.json",
+    "hash": "e6f04b7b75cfbb496936e447f4efc0ea2762dd35d3f0cea576be84f9d31d3fbc",
+    "exposure": 2.2068656724999998,
+    "authorization": "Continue Mo's active repair loop within the SAME remaining allowance: two sequential current-checker calls on eight fixed Arabic original/claim controls, current meaning check versus source-first scope comparison. No model switch, added budget, website activation, full-question rerun, fallback or retry. Review before further spending."
+  },
+  "stopped": "source_scope_matched_finished_review_required",
+  "reviewStops": [
+    {
+      "at": "2026-10-24T11:32:55.173Z",
+      "reason": "source_scope_comparison_reviewed_failed_do_not_activate",
+      "authorization": "No added spending or website activation. Both settled calls reviewed. Preserve raw responses and strict rejection; no repeat queued."
+    }
+  ]
+}

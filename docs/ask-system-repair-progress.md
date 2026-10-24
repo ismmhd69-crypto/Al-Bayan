@@ -603,6 +603,30 @@ On 22 October 2026:
 
 **Accepted:** source-supported meanings in this one repeated case only. Review classification supported but incomplete: 1/1 technical completion, 0/1 useful complete answers; 49 other bank questions not tested in this retest. No clear verified full-answer reliability improvement, scholarly certification, release or Mo acceptance. Next priorities are direct concern coverage, bounded ranking output/truncation, source-failure handling and Arabic/summary quality. Current models/privacy/source boundaries unchanged; no deployment or storage activation.
 
+## 51. Compact ranking removes truncation in one retest; answer review still fails (24 October)
+
+**Implemented:** fixed-order numeric ranking scores with exact count/range/whole-envelope validation and code-owned source identities. Originals/context, models, reasoning/output allowances and later checks retained. Same-ceiling continuation preserves prior journals and exposure. [Repair and independent review](ask-compact-ranking-repair-2026-10-24.md).
+
+**Offline verified:** full suite 1,637 tests in 155 files before the continuation helper; subsequently 47 focused tests in four files and TypeScript passed. Three valid recorded score sets retain every score with about 90% smaller visible JSON. The invalid set is rejected. No semantic accuracy inferred from structural tests.
+
+**Live verified:** one repeated Arabic worship question; four valid ranking arrays, zero truncated results and zero backups. First checked section 63.509 s versus 105.228 s previously; total 88.246 s versus 112.687 s. Original 30% baseline target remains missed. Direct pipeline only, with corrected parent signal; no HTTP/browser/history proof. Independent review of all six displayed occurrences found gratitude widened to worship and reward conditions omitted; summary inherits defects. Hadith correction withheld after changing the source meaning. Technical rich_answer does not establish reliability.
+
+**Spending:** 19 settled calls cost $0.0674257, combined exposure $2.2068656725, remainder $0.17557814 under the unchanged ceiling. Prior journals and old unresolved reservation preserved. No substantial demonstrated cost saving or automatic paid repeat.
+
+**Accepted:** mechanical ranking repair and measured speed improvement in this run only. Answer classification containing unsupported claim, 0/1 accepted useful complete answers. No religious-accuracy/release/Mo acceptance or goal completion. Highest-value next repair is preserving source scope and beneficiary conditions. Current models/privacy/source boundaries unchanged; no deployment or storage activation.
+
+## 52. Explicit source-first comparison still misses target errors; rejected (24 October)
+
+**Implemented:** owner-only subject/assertion/condition comparison with exact source and claim bindings. Eight fixed Arabic controls compare the existing meaning checker with this candidate, same current checker/privacy and output allowance. No website import. [Findings and limits](ask-source-scope-comparison-2026-10-24.md).
+
+**Offline verified:** 22 focused tests in three files, then the full 1,654 tests in 157 files, zero failures/skips, and TypeScript passed. An unsupported schema keyword was caught locally after the baseline, corrected and covered by compilation. Only the never-dispatched candidate was then sent. A results-count status bug was corrected so a null parsed response cannot be reported as successful. Eight immutable campaign ancestors and the original spending hash verified unchanged.
+
+**Live verified:** baseline accepted 4/4 faithful controls and rejected 2/4 defective controls, missing the widened activity and omitted belief. Candidate contract failed exact binding and was rejected wholesale. Its raw comparisons still approved both target defects, even after extracting the missing belief condition. No semantic improvement, no partial salvage, no activation. Two component calls are not eight full question attempts or a general accuracy score.
+
+**Spending:** two settled calls cost $0.00771050, combined exposure $2.2145761725, remaining $0.16786764 under the unchanged ceiling. Original unresolved reservation and prior journals preserved; no new uncertain charge or automatic repeat.
+
+**Accepted:** evidence narrowing the checker limitation only. No candidate/accuracy/release/Mo acceptance or goal completion. Current website models/privacy/source boundaries unchanged; no deployment or durable-storage activation.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

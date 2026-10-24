@@ -79,7 +79,7 @@ it("refuses an ineligible common source and preserves legitimate pools above six
 
 it("shares the exact ranking request builder with the provider adapter", async () => {
   const concern = { id: "R1", text: "Invented meaning with an exception" }, passages = [{ id: "Q2:183", title: "Fixture", original: "نص مخترع", before: "قيد مخترع", after: "" }];
-  const provider = { id: "scripted", generateJson: vi.fn(async () => ({ rankings: [{ id: "Q2:183", score: 90 }] })) };
+  const provider = { id: "scripted", generateJson: vi.fn(async () => ({ scores: [90] })) };
   const signal = new AbortController().signal;
   await modelMeaningReranker(provider)(concern, passages, signal);
   expect(provider.generateJson).toHaveBeenCalledWith(meaningRerankingRequest(concern, passages, signal));
