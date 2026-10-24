@@ -717,6 +717,18 @@ On 22 October 2026:
 
 **Accepted:** the observed contract/withdrawal mechanism is fixed and verified offline. Full-answer reliability, the unshown scholar condition gap, original timing target, source-faithfulness/release review and Mo acceptance remain open. No deployment, durable storage activation or goal completion. A separate decision can authorize one further full test within the existing remainder.
 
+## 61. Live attribution retest keeps sections but exposes a displayed grammar/scope error (24 October)
+
+**Implemented:** Mo authorized one full Arabic parents retest within the existing remainder, with no added money. Unique guarded run/report and independent-review scripts preserve prior journals and prevent repeat. No production repair/settings changes during evaluation. [Actual result and source review](ask-parents-attribution-retest-2026-10-24.md).
+
+**Offline verified:** 50 focused guard/attribution checks and TypeScript passed before dispatch; TypeScript passed after review. Prior full suite remains 1,744 tests, not religious proof. Thirteen spending ancestors and the original journal hash verified.
+
+**Live verified:** every attribution identity is returned in all four primary reviews; the previous missing-row failure does not recur. Quran and a useful Sahihayn narration appear, stay visible, and final status is incomplete. Independent review finds 2/3 displayed explanations supported; the first Quran sentence introduces أو and turns an embedded association-related phrase into a broader alternative exception. Both model checks miss it, including later rechecks. Unshown scholar drafts still lose an explicit ties/assistance qualification and remain repetitive after the single correction. Final narrow checking withholds a summary sentence about non-Muslim parents because religious status is not explicit in its own verses; whether this is an overly literal application rejection remains a qualified-review question. Classification containing_unsupported_claim; useful complete answers 0/1. No general accuracy or original 30% timing-target claim.
+
+**Spending:** 19 settled calls cost $0.06858795; first checked 52.289 s, total 80.576 s; 170,901 input / 16,131 completion tokens. One truncated primary output and one configured backup call. Cap unchanged $2.6324438125; combined exposure $2.40716351625; remainder $0.22528029625. Old unresolved reservation retained; no new uncertain charge, active lock, budget-blocked call or automatic paid repeat.
+
+**Accepted:** specific live checker-contract behavior and useful source retrieval only. Displayed scope drift and unfinished conclusion prevent full-answer/religious-accuracy/release/Mo acceptance or goal completion. Next priority is source grammar/scope and condition preservation; do not lower checks or hardcode this question to obtain a completion. No deployment or durable storage activation.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
