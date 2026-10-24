@@ -9,7 +9,7 @@ export const PRIOR_EXPOSURE = .113472;
 export const CURRENT_MODELS = ["google/gemini-3.5-flash-lite", "google/gemini-3.8-flash", "google/gemini-3.1-flash-lite", "mistralai/mistral-small-3.2-24b-instruct"];
 export type Price = { prompt: number; completion: number; request: number };
 export type CampaignCall = { fingerprint: string; model: string; reserved: number; at: string; cost?: number; generationId?: string; httpStatus?: number; promptTokens?: number; completionTokens?: number; finishReason?: string; rejection?: string };
-export type CampaignLedger = { version: 1; cap: number; priorExposure: number; originalLedgerHash: string; prices: Record<string, Price>; calls: CampaignCall[]; evaluationCases?: { id: string; requestId: string; reportPath: string; revisionHash?: string; review: "pending" | "supported" | "failed" }[]; stopped?: string; reviewStops?: { at: string; reason: string; authorization: string }[]; priorCampaign?: { path: string; hash: string; exposure: number; authorization: string } };
+export type CampaignLedger = { version: 1; cap: number; executionCap?: number; priorExposure: number; originalLedgerHash: string; prices: Record<string, Price>; calls: CampaignCall[]; evaluationCases?: { id: string; requestId: string; reportPath: string; revisionHash?: string; review: "pending" | "supported" | "failed" }[]; stopped?: string; reviewStops?: { at: string; reason: string; authorization: string }[]; priorCampaign?: { path: string; hash: string; exposure: number; authorization: string } };
 export const digest = (value: string) => createHash("sha256").update(value).digest("hex");
 export function replaceCampaignFile(from: string, to: string, rename = renameSync,
   wait = (ms: number) => { Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms); }) {
@@ -42,12 +42,15 @@ export function sameAllowanceContinuation(bytes: string, path: string, authoriza
     priorCampaign: { path, hash: digest(bytes), exposure: guard.exposure, authorization } };
 }
 export class ArabicCampaignGuard {
+  private readonly executionCap: number;
   private capacityWaiters = new Set<() => void>();
   private wakeCapacity() { for (const wake of [...this.capacityWaiters]) wake(); }
   constructor(readonly ledger: CampaignLedger, private save: () => void = () => {}, limits = { cap: CAMPAIGN_CAP, priorExposure: PRIOR_EXPOSURE }) {
     if (!Number.isFinite(limits.cap) || !Number.isFinite(limits.priorExposure) || limits.cap <= limits.priorExposure || limits.priorExposure < 0 || ledger.version !== 1 || ledger.cap !== limits.cap || ledger.priorExposure !== limits.priorExposure || !Array.isArray(ledger.calls)) throw new CampaignStop("invalid_campaign");
     if (ledger.calls.some(c => !Number.isFinite(c.reserved) || c.reserved <= 0 || (c.cost !== undefined && (!Number.isFinite(c.cost) || c.cost < 0 || c.cost > c.reserved)))) throw new CampaignStop("invalid_campaign_receipt");
     if (ledger.calls.some(c => c.cost === undefined)) throw new CampaignStop("new_campaign_charge_unresolved_no_resume");
+    this.executionCap = ledger.executionCap === undefined ? ledger.cap : ledger.executionCap;
+    if (!Number.isFinite(this.executionCap) || this.executionCap <= ledger.priorExposure || this.executionCap > ledger.cap) throw new CampaignStop("invalid_campaign_execution_cap");
   }
   get actual() { return this.ledger.calls.reduce((sum, c) => sum + (c.cost ?? 0), 0); }
   get exposure() { return this.ledger.priorExposure + this.ledger.calls.reduce((sum, c) => sum + (c.cost ?? c.reserved), 0); }
@@ -65,8 +68,8 @@ export class ArabicCampaignGuard {
   }
   reserve(body: any) {
     const reserved = this.requiredReservation(body);
-    if (this.exposure + reserved > this.ledger.cap) {
-      this.ledger.stopped = "campaign_budget_cannot_cover_next_call"; this.save(); throw new CampaignStop(this.ledger.stopped);
+    if (this.exposure + reserved > this.executionCap) {
+      this.ledger.stopped = this.executionCap < this.ledger.cap ? "campaign_execution_limit_cannot_cover_next_call" : "campaign_budget_cannot_cover_next_call"; this.save(); throw new CampaignStop(this.ledger.stopped);
     }
     const entry: CampaignCall = { fingerprint: digest(JSON.stringify(body)), model: body.model, reserved, at: new Date().toISOString() };
     this.ledger.calls.push(entry);
@@ -83,13 +86,13 @@ export class ArabicCampaignGuard {
   }
   private async reserveForDispatch(body: any, signal: AbortSignal | null | undefined, originalUnchanged: () => boolean) {
     const required = this.requiredReservation(body);
-    while (this.exposure + required > this.ledger.cap) {
+    while (this.exposure + required > this.executionCap) {
       signal?.throwIfAborted();
       if (!originalUnchanged()) throw new CampaignStop("original_ledger_changed");
       if (this.ledger.stopped) throw new CampaignStop(this.ledger.stopped);
       const settledExposure = this.ledger.priorExposure + this.actual;
       // If it cannot fit even with zero cost for every pending call, waiting cannot help.
-      if (settledExposure + required > this.ledger.cap || !this.ledger.calls.some(c => c.cost === undefined)) return this.reserve(body);
+      if (settledExposure + required > this.executionCap || !this.ledger.calls.some(c => c.cost === undefined)) return this.reserve(body);
       await new Promise<void>((resolve, reject) => {
         const cleanup = () => { this.capacityWaiters.delete(wake); signal?.removeEventListener("abort", aborted); };
         const wake = () => { cleanup(); resolve(); };

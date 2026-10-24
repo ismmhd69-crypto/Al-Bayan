@@ -765,6 +765,18 @@ On 22 October 2026:
 
 **Accepted:** additional source-faithfulness failure evidence only, not the completed answer, general accuracy, source/release review or Mo acceptance. No paid comparison, website model/privacy/source change, deployment or goal completion. Any comparison on the prepared balanced controls requires its own scope decision.
 
+## 65. Five-cent authorized comparison shows false approvals in the primary and false rejections in the backup (24 October)
+
+**Implemented:** one separately approved comparison of the current checker and configured backup on twelve fixed Arabic single-claim controls, no expected-label leakage or website switch. Added a persisted task execution ceiling within the unchanged overall spending authorization, enforced before every dispatch and across overlapping reservations. [Complete results and independent rationale review](ask-twelve-case-checker-comparison-2026-10-24.md).
+
+**Offline verified:** 38 focused checks and TypeScript before calls. Later malformed null/string/boolean cap hardening passes 34 focused guard checks; final full suite 1,767 tests in 167 files, zero failures/skips, plus TypeScript. Mechanical spending/protocol proof only.
+
+**Live verified:** 24/24 readable settled generations on all twelve controls. Gemini accepts 6/6 faithful controls but falsely approves 4/6 defective statements, including both latest parent-related failures. Mistral blocks 6/6 defective statements but wrongly rejects 4/6 faithful controls. Several of its negative reasons contradict explicit source text; blocking alone is not proof of diagnosing the actual defect. No website replacement, unanimous-vote rule, religious-accuracy improvement or full-answer acceptance is justified. The disputed application case stays unscored; this is not a held-out/global accuracy estimate.
+
+**Spending:** authorized maximum $0.05; actual $0.00662064375. Global cap unchanged $2.6324438125; inherited exposure $2.40716351625; task ceiling $2.45716351625; new combined exposure $2.41378416; remaining $0.2186596525. All 24 calls normal-stop HTTP 200 with settled receipts; fourteen ancestor hashes and original journal unchanged. Old unresolved reservation counted; no uncertain charge, active lock, automatic repeat or new budget.
+
+**Accepted:** safe task spending boundary and evidence against blindly replacing the primary or adding a mandatory backup vote. One comparison finished/reviewed; no further paid call queued. Overall semantic reliability, qualified source review and Mo acceptance remain open. No production/model/privacy/source change, deployment, durable storage activation or goal completion.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "cap": 2.6324438125,
+  "priorExposure": 2.40716351625,
+  "originalLedgerHash": "fa92584ab52e6ec22a25d6a9c3c0c3412c5392cfbdefc747ebd5010ea85844b7",
+  "prices": {
+    "google/gemini-3.5-flash-lite": {
+      "prompt": 0.54,
+      "completion": 4.5,
+      "request": 0
+    },
+    "google/gemini-3.8-flash": {
+      "prompt": 1.35,
+      "completion": 6.75,
+      "request": 0
+    },
+    "google/gemini-3.1-flash-lite": {
+      "prompt": 0.44999999999999996,
+      "completion": 2.7,
+      "request": 0
+    },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "prompt": 0.09999999999999999,
+      "completion": 0.3,
+      "request": 0
+    }
+  },
+  "calls": [
+    {
+      "fingerprint": "65bc8bfeed4326f813bb232e138ace4230e454eb5cf3224999c1e69eebb1d485",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0181584,
+      "at": "2026-10-24T19:03:43.059Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868624-b9cFRL69nakt9FY5cJvB",
+      "promptTokens": 958,
+      "completionTokens": 157,
+      "finishReason": "stop",
+      "cost": 0.000475
+    },
+    {
+      "fingerprint": "4534b53e8e0bdddd01f1b9c9e5762086902d10b235f423ed80987d2131742103",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027752,
+      "at": "2026-10-24T19:03:44.991Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868625-c6drFrf74kvKg8UlSpLL",
+      "promptTokens": 820,
+      "completionTokens": 35,
+      "finishReason": "stop",
+      "cost": 0.000085625
+    },
+    {
+      "fingerprint": "cf2bf9424a35f3c539e215c56a5b5c1889487b7b3152bde2b4426116d59c0a3f",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0182484,
+      "at": "2026-10-24T19:03:46.111Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868627-TCg6p5QibWMTNP2jW3vR",
+      "promptTokens": 961,
+      "completionTokens": 146,
+      "finishReason": "stop",
+      "cost": 0.00045925
+    },
+    {
+      "fingerprint": "3ca632fda596423cea4112e46f7e1f3538bc5f428d3b50db68dd83e0293b5863",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027952,
+      "at": "2026-10-24T19:03:47.774Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868628-qedIyt0FhiIhHLDZDfPr",
+      "promptTokens": 827,
+      "completionTokens": 50,
+      "finishReason": "stop",
+      "cost": 0.00009003125
+    },
+    {
+      "fingerprint": "799408c0d3bc59155b28f8f760b33c80f216ae0c8514ffd06d94603c8b9bea2b",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0180315,
+      "at": "2026-10-24T19:03:48.827Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868629-cPMYBVk9loLSMHkBu4nx",
+      "promptTokens": 880,
+      "completionTokens": 179,
+      "finishReason": "stop",
+      "cost": 0.0004885
+    },
+    {
+      "fingerprint": "e09f7df1b3f409e9852bebb6b76214d820c62d6328394a6cc6f28f6fd194f1e6",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002747,
+      "at": "2026-10-24T19:03:50.027Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868630-QNLLM9xIG9RVTp6GPTQ7",
+      "promptTokens": 702,
+      "completionTokens": 54,
+      "finishReason": "stop",
+      "cost": 0.00006345
+    },
+    {
+      "fingerprint": "451ed14e0afd9af21ac1b9c0285163080022564f54be98c9b097f74165b3f65c",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0192321,
+      "at": "2026-10-24T19:03:51.184Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868632-DfLQy5Js0ogit1xUK7aK",
+      "promptTokens": 1279,
+      "completionTokens": 157,
+      "finishReason": "stop",
+      "cost": 0.00055525
+    },
+    {
+      "fingerprint": "80219a9da081988a267a8ae2d3774d30ed21ba4f73c2bf47292d7cb1f76161cc",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0030138,
+      "at": "2026-10-24T19:03:52.635Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868633-UKaHfdjbblEgBEQJC5Io",
+      "promptTokens": 1151,
+      "completionTokens": 48,
+      "finishReason": "stop",
+      "cost": 0.000095925
+    },
+    {
+      "fingerprint": "8cae6705be5d953d0416c78fa4b7cd0041af59e31f0ef8cdfd83cc6b29a3f191",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0176274,
+      "at": "2026-10-24T19:03:54.633Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868635-5Qtu52qFk0eg3NQwyUch",
+      "promptTokens": 776,
+      "completionTokens": 172,
+      "finishReason": "stop",
+      "cost": 0.000452
+    },
+    {
+      "fingerprint": "d9d2790386798e820a293949047bd8897ecbb51769c738bdffa22fcad7e09d8d",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026572,
+      "at": "2026-10-24T19:03:55.713Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868636-U3cGACZ3SuIpYGyz57cI",
+      "promptTokens": 638,
+      "completionTokens": 32,
+      "finishReason": "stop",
+      "cost": 0.0000678125
+    },
+    {
+      "fingerprint": "5d245d87952182a005cfbd60cab9c9997fed92c75ef643abefda24155445a7fd",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0181467,
+      "at": "2026-10-24T19:03:56.921Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868637-awyyNGTxEpALH37tTKKM",
+      "promptTokens": 902,
+      "completionTokens": 216,
+      "finishReason": "stop",
+      "cost": 0.0005495
+    },
+    {
+      "fingerprint": "e473a22c2f0a88fa7fce5d5b19a2125dfa632683a01ef8e39de4c1542020f91d",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027726,
+      "at": "2026-10-24T19:03:58.607Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868639-CW13wGEiUgYoVDqC0hfq",
+      "promptTokens": 729,
+      "completionTokens": 55,
+      "finishReason": "stop",
+      "cost": 0.000065675
+    },
+    {
+      "fingerprint": "ec4d792645734fe28f086494d317476a551624d118f470a5a06a6a2e497ae14f",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0181053,
+      "at": "2026-10-24T19:04:00.099Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868640-CfTPh59Mn2BxZFT2yPrW",
+      "promptTokens": 948,
+      "completionTokens": 148,
+      "finishReason": "stop",
+      "cost": 0.000459
+    },
+    {
+      "fingerprint": "060063eab852008e5863e31f7fd3554a229c627ac884d500af8d3f2604900ad6",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027634,
+      "at": "2026-10-24T19:04:01.422Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868642-NAUPluv7l484vUkGGaO6",
+      "promptTokens": 812,
+      "completionTokens": 40,
+      "finishReason": "stop",
+      "cost": 0.0000689
+    },
+    {
+      "fingerprint": "71906febc2e01428d37c81ae47d5f730c0b7bfd59af2445bf3844dc389a075a5",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0176283,
+      "at": "2026-10-24T19:04:02.667Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868643-wnNByIovXbtIYE1Guqy6",
+      "promptTokens": 775,
+      "completionTokens": 147,
+      "finishReason": "stop",
+      "cost": 0.00041425
+    },
+    {
+      "fingerprint": "4f2b7510ea8552e8158998578527b41ad2449969f107b2fa11ae9f95808f0eaf",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026574,
+      "at": "2026-10-24T19:04:04.058Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868644-z6v3p2NOUBzzWSSdatw0",
+      "promptTokens": 636,
+      "completionTokens": 30,
+      "finishReason": "stop",
+      "cost": 0.000067125
+    },
+    {
+      "fingerprint": "fce236de06fedb271a650f16a58875830ab234d2022d85a60cc2964fe7ffc4fe",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.018279,
+      "at": "2026-10-24T19:04:05.418Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868646-tuMeEXs1u9dnw2jIUoKo",
+      "promptTokens": 963,
+      "completionTokens": 239,
+      "finishReason": "stop",
+      "cost": 0.00059925
+    },
+    {
+      "fingerprint": "fdb4b35d1481a59ed5842b75e7bb29e3c9ed8eff02336bd1abf4efd62aac09d8",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002802,
+      "at": "2026-10-24T19:04:06.852Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868647-oQS0RJy7PDy394vmGIlx",
+      "promptTokens": 832,
+      "completionTokens": 84,
+      "finishReason": "stop",
+      "cost": 0.000099
+    },
+    {
+      "fingerprint": "ab573a5b1dc1020332549c3a37043f590b857e6a09b7c8ccb5850c0bd8ca0fd7",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0182385,
+      "at": "2026-10-24T19:04:08.853Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868649-dxJf00ASX8t25Ev5Oftn",
+      "promptTokens": 956,
+      "completionTokens": 167,
+      "finishReason": "stop",
+      "cost": 0.0004895
+    },
+    {
+      "fingerprint": "920a3198959c13e0d438b4f698fca7f9e0c89d372a559ee2d506ecf5e8e79df4",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002793,
+      "at": "2026-10-24T19:04:10.580Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868651-tsUFhw9ZmCLfo6ZHyEIn",
+      "promptTokens": 823,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.000065325
+    },
+    {
+      "fingerprint": "05893bafab96d52c646a849bde5d7d9fff65fe9d221ce51aa73734f8bb5be727",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0178092,
+      "at": "2026-10-24T19:04:11.288Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868652-RfIvKvq5YrWIYS4dtTbb",
+      "promptTokens": 774,
+      "completionTokens": 146,
+      "finishReason": "stop",
+      "cost": 0.0004125
+    },
+    {
+      "fingerprint": "da1b7127a5264bd59e5626019cb53149ca120e76f0af6f4b45657fef4013b50a",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026976,
+      "at": "2026-10-24T19:04:12.624Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868653-KP8nlbiEVr2qpKua3C0w",
+      "promptTokens": 626,
+      "completionTokens": 35,
+      "finishReason": "stop",
+      "cost": 0.00005395
+    },
+    {
+      "fingerprint": "af2f3ed8a050b50342413d7d98e1875b64ec697fa4c020b0ae1722171e0eabf9",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0178497,
+      "at": "2026-10-24T19:04:13.728Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868654-AkfFFfbJ22L2CAw1rCNx",
+      "promptTokens": 794,
+      "completionTokens": 129,
+      "finishReason": "stop",
+      "cost": 0.000392
+    },
+    {
+      "fingerprint": "12ad8ff551783ebbeef5155f555e382650ce8d16ec9ef82811ac8258bd14de7b",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027066,
+      "at": "2026-10-24T19:04:14.989Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792868655-zGB1KVIMCBeUb2f8191p",
+      "promptTokens": 643,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.000051825
+    }
+  ],
+  "priorCampaign": {
+    "path": "C:\\Users\\wiseflow\\Bayan\\docs\\ask-repair-runs\\arabic-quality-20261024-parents-attribution-spend.json",
+    "hash": "dfe3f01d9bccd7d8f5f3af78c58fc2aab124c2f3eaaae8dc3e334ab645a0edca",
+    "exposure": 2.40716351625,
+    "authorization": "Mo explicitly approved Compare within 5 cents: one comparison of current Gemini checker and its configured Mistral backup on twelve fixed Arabic source checks, using existing evaluation funds. Overall ceiling preserved; maximum new actual-plus-pending exposure $0.05. No added budget, website switch, third model, retries after failure, full question or deployment. Expected labels local only; disputed applicability case excluded."
+  },
+  "executionCap": 2.4571635162499996,
+  "stopped": "semantic_comparison_finished_review_required",
+  "reviewStops": [
+    {
+      "at": "2026-10-24T19:07:29.756Z",
+      "reason": "semantic_comparison_reviewed_no_activation",
+      "authorization": "Independent source review completed for the owner's one five-cent comparison. This is not authorization for further calls or a website model switch."
+    }
+  ]
+}
