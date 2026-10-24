@@ -695,6 +695,18 @@ On 22 October 2026:
 
 **Accepted:** bibliography recovery and source-interface diagnosis only. The parents search/meaning failures and full verification remain open. No model/privacy/source approval, deployment, durable storage or goal-completion change.
 
+## 59. Funded full parents verification exposes missing checker rows and loss of supported progress (24 October)
+
+**Implemented:** Mo approved up to another $0.25 for one full Arabic parents retest, then stop/report. A new one-shot harness and ancestry-preserving authorization journal ran R03 through the current website rich pipeline, live research, no reuse or total cutoff. No answer-system/model/privacy/source changes during evaluation. [Result and next repair](ask-parents-verification-2026-10-24.md).
+
+**Offline verified:** 25 authorization/guard/storage tests and TypeScript passed before dispatch. Prior production suite remains 1,715 tests; no new production code was changed. Independent review binds the exact request, displayed wording and missing attribution entries. Mechanical evidence only.
+
+**Live verified:** first checked Quran section at 60.093 seconds, terminal incomplete at 81.052 seconds. Two temporarily displayed explanations are supported by their own Arabic originals; the previous Quran scope extension is absent. Three unshown scholar sentences name Ibn Baz, but one drops an explicit ties/assistance qualification and uses stronger obligation wording; no faithfulness credit for that draft. Combined checker responses twice omit attribution rows for the earlier Quran claims while approving their meaning. The code treats this as source attribution failure, spends the writer correction on unchanged prose and eventually withdraws the Quran group. Final synthesis never runs. Classification technical_failure; useful complete answers 0/1. Hadith search limitations remain, and the original 30% timing target is unproved.
+
+**Spending:** 16 settled calls, $0.05819919375, 142,192 input / 16,624 completion tokens. One truncated primary ranking response and one configured backup call. New total cap $2.6324438125; combined exposure $2.33857556625; remaining $0.29386824625, all earlier charges and original unresolved reservation retained. No new uncertain charge or active lock; no automatic further paid attempt after the agreed one-test stop.
+
+**Accepted:** source-supported transient Quran wording, named-source behavior and a specific contract/withdrawal diagnosis. No complete-answer/general religious-accuracy/release/Mo acceptance or goal completion. The next proposed repair is complete checker attribution identities plus format-failure isolation, preserving earlier checked sections while retaining genuine semantic withdrawal. It is not implemented by this evaluation. No deployment or storage activation.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
