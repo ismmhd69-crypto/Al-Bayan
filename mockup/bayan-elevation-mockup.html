@@ -1,0 +1,1621 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Al-Bayan — Elevated Unboxed & Breathable Manuscript UI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Reem+Kufi:wght@500;600;700&family=Scheherazade+New:wght@400;700&display=swap">
+<style>
+  :root {
+    color-scheme: light;
+    --bg-page: #f6f7f9;
+    --bg-canvas: #ffffff;
+    --bg-subtle: #f8f9fb;
+
+    --line: #e2e8f0;
+    --line-subtle: #edf1f7;
+
+    --ink: #141b26;
+    --ink-2: #475569;
+    --ink-3: #64748b;
+    --ink-muted: #94a3b8;
+
+    /* Bayan Lapis & Illumination Gold */
+    --bayan-lapis: #27408b;
+    --bayan-lapis-hover: #1e3270;
+    --bayan-lapis-soft: #edf2fc;
+    --bayan-lapis-border: #cbd5e1;
+
+    --gold: #a77b2b;
+    --gold-soft: #fbf7ee;
+    --gold-line: #eadbb9;
+    --gold-ink: #7a5716;
+
+    /* 1. QURAN: Noble Evergreen (Divine Revelation) */
+    --quran-ink: #14532d;
+    --quran-text: #166534;
+    --quran-bg: #f0fdf4;
+    --quran-bg-hover: #dcfce7;
+    --quran-line: #bbf7d0;
+    --quran-border: #86efac;
+    --quran-accent: #15803d;
+
+    /* 2. SUNNAH: Scholarly Sapphire (Prophetic Tradition) */
+    --sunnah-ink: #1e3a8a;
+    --sunnah-text: #1d4ed8;
+    --sunnah-bg: #eff6ff;
+    --sunnah-bg-hover: #dbeafe;
+    --sunnah-line: #bfdbfe;
+    --sunnah-border: #93c5fd;
+    --sunnah-accent: #2563eb;
+
+    /* 3. SCHOLARS: Refined Slate & Cedar (Scholarly Commentary) */
+    --scholar-ink: #334155;
+    --scholar-text: #475569;
+    --scholar-bg: #f8fafc;
+    --scholar-bg-hover: #f1f5f9;
+    --scholar-line: #e2e8f0;
+    --scholar-border: #cbd5e1;
+    --scholar-accent: #64748b;
+
+    /* Typography */
+    --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+    --f-body: "Hanken Grotesk", system-ui, -apple-system, sans-serif;
+    --f-ar-display: "Reem Kufi", "Geeza Pro", "Segoe UI", sans-serif;
+    --f-ar-body: "Amiri", "Scheherazade New", Georgia, serif;
+    --f-ar-quran: "Scheherazade New", "Amiri", serif;
+
+    /* Spacing & Sizes */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --radius-pill: 999px;
+
+    --shadow-subtle: 0 1px 3px rgba(20, 27, 38, 0.04), 0 4px 12px -4px rgba(20, 27, 38, 0.05);
+    --shadow-float: 0 12px 32px -8px rgba(20, 27, 38, 0.12), 0 2px 6px rgba(20, 27, 38, 0.04);
+    --shadow-phone: 0 25px 65px -15px rgba(15, 23, 42, 0.35), 0 0 0 1px rgba(15, 23, 42, 0.08);
+
+    --font-scale: 1;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg-page);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: calc(1rem * var(--font-scale));
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* RTL Support */
+  [dir="rtl"] {
+    font-family: var(--f-ar-body);
+  }
+  [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3 {
+    font-family: var(--f-ar-display);
+    font-weight: 700;
+  }
+
+  /* ============================================================
+     STUDIO TOPBAR (Interactive Demo Switchers)
+     ============================================================ */
+  .studio-bar {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--line);
+    padding: 10px 20px;
+    box-shadow: 0 1px 2px rgba(20, 27, 38, 0.03);
+  }
+  .studio-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .brand-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .beacon-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #27408b 0%, #1e3270 100%);
+    color: #ffd700;
+    box-shadow: 0 2px 6px rgba(39, 64, 139, 0.25);
+  }
+  .brand-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  .studio-pill {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: var(--bayan-lapis-soft);
+    color: var(--bayan-lapis);
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(39, 64, 139, 0.15);
+  }
+
+  .studio-controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .seg-control {
+    display: inline-flex;
+    background: #f1f5f9;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-pill);
+    padding: 2px;
+  }
+  .seg-btn {
+    border: none;
+    background: transparent;
+    padding: 5px 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: var(--radius-pill);
+    color: var(--ink-2);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .seg-btn:hover { color: var(--ink); }
+  .seg-btn.active {
+    background: #ffffff;
+    color: var(--bayan-lapis);
+    box-shadow: 0 1px 3px rgba(20, 27, 38, 0.08);
+  }
+
+  .util-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    padding: 5px 12px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+    color: var(--ink-2);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .util-btn:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    color: var(--ink);
+  }
+
+  /* ============================================================
+     LAYOUT CONTAINER MODES (Free Desktop vs Phone vs Split)
+     ============================================================ */
+  .workspace-wrap {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 24px 20px 80px;
+  }
+
+  .layout-grid {
+    display: grid;
+    gap: 32px;
+    transition: all 0.25s ease;
+  }
+  .layout-grid.mode-desktop {
+    grid-template-columns: minmax(0, 840px);
+    justify-content: center;
+  }
+  .layout-grid.mode-phone {
+    grid-template-columns: 395px;
+    justify-content: center;
+  }
+  .layout-grid.mode-split {
+    grid-template-columns: minmax(0, 1fr) 395px;
+    align-items: start;
+  }
+
+  /* Desktop Canvas */
+  .desktop-canvas {
+    background: var(--bg-canvas);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    box-shadow: var(--shadow-subtle);
+    padding: 40px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    min-width: 0;
+  }
+
+  /* Phone Frame Container */
+  .phone-frame {
+    background: #0f172a;
+    border-radius: 46px;
+    padding: 12px;
+    box-shadow: var(--shadow-phone);
+    margin: 0 auto;
+    width: 395px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 84px;
+  }
+  .phone-screen {
+    background: #ffffff;
+    border-radius: 36px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .phone-header-notch {
+    height: 38px;
+    background: #ffffff;
+    border-bottom: 1px solid var(--line-subtle);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--ink);
+    z-index: 10;
+    flex-shrink: 0;
+  }
+  .phone-scroll-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px 14px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    scrollbar-width: thin;
+  }
+  .phone-tabbar {
+    height: 56px;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8px;
+    flex-shrink: 0;
+  }
+  .tabbar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--ink-3);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .tabbar-item.active {
+    color: var(--bayan-lapis);
+    font-weight: 700;
+  }
+
+  /* ============================================================
+     THE UNBOXED, BREATHABLE ANSWER STREAM
+     (NO NESTED BOXES! ZERO CONTAINER FATIGUE!)
+     ============================================================ */
+  .answer-stream {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  /* User Query Bubble */
+  .user-query-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4px;
+  }
+  .user-query-bubble {
+    background: linear-gradient(135deg, #1e3a8a 0%, #27408b 100%);
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 20px 20px 4px 20px;
+    font-size: 1.02rem;
+    line-height: 1.45;
+    font-weight: 500;
+    max-width: 85%;
+    box-shadow: 0 3px 8px rgba(30, 58, 138, 0.2);
+  }
+  [dir="rtl"] .user-query-bubble {
+    border-radius: 20px 20px 20px 4px;
+  }
+
+  /* Verified Status Bar */
+  .status-trust-strip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--line-subtle);
+  }
+  .trust-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+  .trust-badge svg {
+    color: var(--bayan-lapis);
+  }
+  .action-pills-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .action-icon-btn {
+    border: none;
+    background: transparent;
+    color: var(--ink-3);
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    transition: all 0.15s ease;
+  }
+  .action-icon-btn:hover {
+    background: #f1f5f9;
+    color: var(--ink);
+  }
+
+  /* Lead / Direct Synthesis (Simple Answer) */
+  .simple-answer-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .lead-statement {
+    font-family: var(--f-display);
+    font-size: 1.35rem;
+    line-height: 1.45;
+    color: var(--ink);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  [dir="rtl"] .lead-statement {
+    font-family: var(--f-ar-display);
+    font-size: 1.45rem;
+    line-height: 1.6;
+  }
+
+  .synthesis-prose {
+    font-size: 1.02rem;
+    line-height: 1.75;
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* CITATION PILLS (Interactive, Color-Coded) */
+  .citation-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: baseline;
+    transition: all 0.15s ease;
+    margin-inline: 3px;
+    white-space: nowrap;
+  }
+  .citation-pill.quran {
+    background: var(--quran-bg);
+    color: var(--quran-ink);
+    border: 1px solid var(--quran-line);
+  }
+  .citation-pill.quran:hover {
+    background: var(--quran-bg-hover);
+    border-color: var(--quran-border);
+  }
+  .citation-pill.sunnah {
+    background: var(--sunnah-bg);
+    color: var(--sunnah-ink);
+    border: 1px solid var(--sunnah-line);
+  }
+  .citation-pill.sunnah:hover {
+    background: var(--sunnah-bg-hover);
+    border-color: var(--sunnah-border);
+  }
+  .citation-pill.scholar {
+    background: var(--scholar-bg);
+    color: var(--scholar-ink);
+    border: 1px solid var(--scholar-line);
+  }
+  .citation-pill.scholar:hover {
+    background: var(--scholar-bg-hover);
+    border-color: var(--scholar-border);
+  }
+
+  /* Section Dividers & Rosette Illumination */
+  .manuscript-divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 8px 0;
+  }
+  .divider-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--line), transparent);
+  }
+  .divider-rosette {
+    color: var(--gold);
+    font-size: 1.1rem;
+    line-height: 1;
+    user-select: none;
+  }
+
+  /* ============================================================
+     SOURCE SECTIONS (BREATHABLE, SEMANTIC, ELEVATED)
+     ============================================================ */
+  .sources-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .source-card {
+    border-radius: var(--radius-md);
+    padding: 20px 22px;
+    transition: all 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    position: relative;
+  }
+  .source-card.target-highlight {
+    animation: citationPulse 2.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  @keyframes citationPulse {
+    0% { transform: scale(1.02); box-shadow: 0 0 0 4px var(--gold-line); }
+    50% { box-shadow: 0 0 0 6px var(--gold-line); }
+    100% { transform: scale(1); box-shadow: none; }
+  }
+
+  /* 1. QURAN CARD (Noble Evergreen) */
+  .source-card.quran-theme {
+    background: var(--quran-bg);
+    border: 1px solid var(--quran-line);
+    border-inline-start: 4px solid var(--quran-accent);
+  }
+  .source-card.quran-theme .source-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .source-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.76rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 6px;
+  }
+  .source-chip.quran {
+    background: #ffffff;
+    color: var(--quran-ink);
+    border: 1px solid var(--quran-border);
+  }
+
+  /* ============================================================
+     ALAFASY CALIFORNIA RECITATION AUDIO SUITE (REAL AUDIO)
+     ============================================================ */
+  .alafasy-audio-box {
+    background: #ffffff;
+    border: 1px solid var(--quran-border);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(20, 83, 45, 0.06);
+  }
+  .audio-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .reciter-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.84rem;
+    font-weight: 700;
+    color: var(--quran-ink);
+  }
+  .california-tag {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    background: linear-gradient(135deg, #14532d 0%, #166534 100%);
+    color: #ffd700;
+    padding: 2px 8px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px rgba(20, 83, 45, 0.2);
+  }
+  .recitation-track-picker {
+    display: inline-flex;
+    background: #f1f5f9;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 2px;
+  }
+  .track-btn {
+    border: none;
+    background: transparent;
+    padding: 3px 10px;
+    font-size: 0.74rem;
+    font-weight: 600;
+    border-radius: 999px;
+    color: var(--ink-2);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .track-btn.active {
+    background: #ffffff;
+    color: var(--quran-ink);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  .audio-controls-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .audio-main-play-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #15803d 0%, #14532d 100%);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 3px 10px rgba(21, 128, 61, 0.35);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .audio-main-play-btn:hover {
+    transform: scale(1.06);
+    box-shadow: 0 4px 14px rgba(21, 128, 61, 0.45);
+  }
+  .audio-main-play-btn.playing {
+    background: linear-gradient(135deg, #166534 0%, #0f3d20 100%);
+  }
+
+  .audio-timeline-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+  }
+  .audio-scrubber-track {
+    width: 100%;
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 999px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .audio-scrubber-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #15803d, #22c55e);
+    border-radius: 999px;
+    transition: width 0.1s linear;
+  }
+  [dir="rtl"] .audio-scrubber-fill {
+    left: auto;
+    right: 0;
+  }
+
+  .audio-time-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--ink-3);
+  }
+
+  /* Equalizer Animation */
+  .soundwave-anim {
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    height: 18px;
+    padding: 0 4px;
+  }
+  .wave-bar {
+    width: 3.5px;
+    background: #86efac;
+    border-radius: 2px;
+    height: 4px;
+    transition: height 0.15s ease;
+  }
+  .playing .wave-bar:nth-child(1) { animation: wave 0.7s infinite ease-in-out alternate; }
+  .playing .wave-bar:nth-child(2) { animation: wave 0.9s infinite ease-in-out 0.2s alternate; }
+  .playing .wave-bar:nth-child(3) { animation: wave 0.6s infinite ease-in-out 0.4s alternate; }
+  .playing .wave-bar:nth-child(4) { animation: wave 1.1s infinite ease-in-out 0.1s alternate; }
+  .playing .wave-bar:nth-child(5) { animation: wave 0.8s infinite ease-in-out 0.3s alternate; }
+
+  @keyframes wave {
+    0% { height: 4px; background: #86efac; }
+    100% { height: 18px; background: #15803d; }
+  }
+
+  /* Quran Verse Arabic & Translation */
+  .quran-verse-arabic {
+    font-family: var(--f-ar-quran);
+    font-size: 1.55rem;
+    line-height: 2.1;
+    color: var(--quran-ink);
+    text-align: right;
+    direction: rtl;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(134, 239, 172, 0.5);
+  }
+  .verse-end-symbol {
+    color: var(--gold);
+    font-family: var(--f-ar-quran);
+    margin: 0 4px;
+  }
+  .quran-verse-trans {
+    font-family: var(--f-display);
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: var(--ink-2);
+    font-style: italic;
+  }
+  [dir="rtl"] .quran-verse-trans {
+    font-family: var(--f-ar-body);
+    font-style: normal;
+  }
+
+  /* 2. SUNNAH CARD (Sapphire / Lapis) */
+  .source-card.sunnah-theme {
+    background: var(--sunnah-bg);
+    border: 1px solid var(--sunnah-line);
+    border-inline-start: 4px solid var(--sunnah-accent);
+  }
+  .source-chip.sunnah {
+    background: #ffffff;
+    color: var(--sunnah-ink);
+    border: 1px solid var(--sunnah-border);
+  }
+  .hadith-authenticity-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #15803d;
+    background: #dcfce7;
+    border: 1px solid #bbf7d0;
+    padding: 2px 7px;
+    border-radius: 5px;
+  }
+
+  /* Hadith Isnād vs Matn Typographic Distinction */
+  .hadith-isnad {
+    font-size: 0.88rem;
+    color: var(--ink-3);
+    line-height: 1.55;
+    font-style: italic;
+    border-bottom: 1px dashed var(--sunnah-border);
+    padding-bottom: 6px;
+  }
+  [dir="rtl"] .hadith-isnad { font-style: normal; }
+
+  .hadith-matn {
+    font-family: var(--f-display);
+    font-size: 1.1rem;
+    line-height: 1.65;
+    color: var(--sunnah-ink);
+    font-weight: 500;
+  }
+  [dir="rtl"] .hadith-matn {
+    font-family: var(--f-ar-body);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  /* 3. SCHOLAR CARD (Refined Slate & Cedar) */
+  .source-card.scholar-theme {
+    background: var(--scholar-bg);
+    border: 1px solid var(--scholar-line);
+    border-inline-start: 4px solid var(--scholar-accent);
+  }
+  .source-chip.scholar {
+    background: #ffffff;
+    color: var(--scholar-ink);
+    border: 1px solid var(--scholar-border);
+  }
+  .scholar-profile-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .scholar-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #cbd5e1;
+    color: #334155;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+  .scholar-meta-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .scholar-name {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .scholar-ref {
+    font-size: 0.76rem;
+    color: var(--ink-3);
+  }
+  .scholar-quote {
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: var(--scholar-ink);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 12px 14px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--scholar-line);
+    margin: 0;
+  }
+
+  /* Follow-up Prompts Section */
+  .followup-box {
+    margin-top: 10px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .followup-title {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .followup-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .followup-chip {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    padding: 7px 14px;
+    border-radius: var(--radius-pill);
+    font-size: 0.86rem;
+    font-weight: 500;
+    color: var(--ink-2);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-decoration: none;
+  }
+  .followup-chip:hover {
+    border-color: var(--bayan-lapis);
+    color: var(--bayan-lapis);
+    background: var(--bayan-lapis-soft);
+  }
+
+  /* ============================================================
+     INTERACTIVE POPUP / TOOLTIP FOR CITATION PREVIEW
+     ============================================================ */
+  .citation-popover {
+    position: fixed;
+    z-index: 500;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-float);
+    padding: 14px 16px;
+    width: 320px;
+    max-width: calc(100vw - 32px);
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.86rem;
+    line-height: 1.5;
+    animation: popFade 0.15s ease;
+  }
+  @keyframes popFade {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .popover-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.78rem;
+  }
+  .popover-body {
+    color: var(--ink-2);
+  }
+
+  /* Toast Notification */
+  .toast-notification {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(40px);
+    background: #141b26;
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: var(--radius-pill);
+    font-size: 0.86rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 1000;
+  }
+  .toast-notification.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  /* SVG Icons Inline Helper */
+  svg.feather {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP STUDIO TOOLBAR -->
+<header class="studio-bar">
+  <div class="studio-inner">
+    <div class="brand-group">
+      <div class="beacon-logo">
+        <svg class="feather" viewBox="0 0 24 24" style="stroke: #ffd700;"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </div>
+      <span class="brand-title">Al-Bayan</span>
+      <span class="studio-pill">Alafasy Audio Edition</span>
+    </div>
+
+    <div class="studio-controls">
+      <!-- Device Viewport Toggle -->
+      <div class="seg-control" role="group" aria-label="Viewport Mode">
+        <button class="seg-btn" id="btn-mode-desktop" onclick="setMode('desktop')">Desktop Canvas</button>
+        <button class="seg-btn" id="btn-mode-phone" onclick="setMode('phone')">Mobile 395px</button>
+        <button class="seg-btn active" id="btn-mode-split" onclick="setMode('split')">Split View</button>
+      </div>
+
+      <!-- Language Switcher -->
+      <div class="seg-control" role="group" aria-label="Language Switch">
+        <button class="seg-btn active" id="btn-lang-en" onclick="setLang('en')">English (LTR)</button>
+        <button class="seg-btn" id="btn-lang-ar" onclick="setLang('ar')">العربية (RTL)</button>
+      </div>
+
+      <!-- Text Size Adjuster -->
+      <div class="seg-control" role="group" aria-label="Font Size">
+        <button class="seg-btn" onclick="adjustFont(-0.06)">A−</button>
+        <button class="seg-btn" onclick="adjustFont(0.06)">A+</button>
+      </div>
+
+      <!-- Copy Action -->
+      <button class="util-btn" onclick="copyFormattedAnswer()">
+        <svg class="feather" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        <span>Copy Answer</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HIDDEN HTML5 AUDIO ELEMENT -->
+<audio id="real-audio-player" preload="metadata"></audio>
+
+<!-- MAIN WORKSPACE -->
+<main class="workspace-wrap">
+  <div class="layout-grid mode-split" id="layout-grid">
+
+    <!-- DESKTOP UNBOXED STREAM CANVAS -->
+    <section class="desktop-canvas" id="desktop-view">
+
+      <!-- User Query -->
+      <div class="user-query-row">
+        <div class="user-query-bubble" id="query-text">
+          Does touching something impure automatically break one’s ablution (Wudu)?
+        </div>
+      </div>
+
+      <!-- Unboxed Answer Stream -->
+      <article class="answer-stream" id="answer-content">
+
+        <!-- Status & Trust Strip -->
+        <div class="status-trust-strip">
+          <div class="trust-badge">
+            <svg class="feather" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span id="trust-label">Verified Scholarly Consensus (Rajih)</span>
+          </div>
+          <div class="action-pills-row">
+            <button class="action-icon-btn" onclick="copyFormattedAnswer()" title="Share quote">
+              <svg class="feather" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              <span>Share</span>
+            </button>
+            <button class="action-icon-btn" onclick="showToast('Thank you. Problem report opened.')" title="Report issue">
+              <svg class="feather" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <span>Report</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Lead Synthesis (Direct, unboxed, bold) -->
+        <div class="simple-answer-block">
+          <h1 class="lead-statement" id="lead-statement">
+            Touching an impurity does not invalidate Wudu, though washing the affected spot is obligatory before praying.
+          </h1>
+
+          <div class="synthesis-prose" id="synthesis-text">
+            <p>
+              According to the verified ruling of the majority of scholars, merely coming into contact with an impurity (Najasah) does not break one’s state of ritual purity (Wudu).
+              <a href="#src-quran-1" class="citation-pill quran" onmouseenter="previewCitation(event, 'Quran 5:6', 'Noble Evergreen: Purity verse establishes specific nullifiers of ritual ablution.')" onclick="jumpTo(event, 'src-quran-1')">Quran 5:6</a>
+              The nullifiers of Wudu are explicitly defined in the Sunnah and do not include physical contact with impure substances.
+              <a href="#src-hadith-1" class="citation-pill sunnah" onmouseenter="previewCitation(event, 'Sahih al-Bukhari #137', 'Sapphire Sunnah: The Prophet ﷺ specified what exits the body, not what touches the surface.')" onclick="jumpTo(event, 'src-hadith-1')">Bukhari 137</a>
+            </p>
+            <p>
+              However, one must wash the impurity off the skin or garment before offering prayer (Salah), as purity of body, clothing, and place is a strict precondition for prayer validity.
+              <a href="#src-scholar-1" class="citation-pill scholar" onmouseenter="previewCitation(event, 'Shaykh Ibn Baz', 'Refined Slate: Clarification on washing the site vs. performing a full new ablution.')" onclick="jumpTo(event, 'src-scholar-1')">Ibn Baz (Majmu’ 10/140)</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Manuscript Divider with Rosette -->
+        <div class="manuscript-divider">
+          <div class="divider-line"></div>
+          <div class="divider-rosette">۞</div>
+          <div class="divider-line"></div>
+        </div>
+
+        <!-- 3-TIER COLOR-CODED EVIDENCE STREAM -->
+        <div class="sources-container">
+
+          <!-- 1. QURAN CARD (Evergreen) -->
+          <section class="source-card quran-theme" id="src-quran-1">
+            <div class="source-header">
+              <span class="source-chip quran">
+                <svg class="feather" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                <span id="label-quran">The Noble Quran — Surah Al-Ma'idah 5:6</span>
+              </span>
+            </div>
+
+            <!-- REAL MISHARY ALAFASY CALIFORNIA AUDIO PLAYER -->
+            <div class="alafasy-audio-box" id="audio-box-container">
+              <div class="audio-top-row">
+                <div class="reciter-badge">
+                  <svg class="feather" viewBox="0 0 24 24" style="stroke: #15803d;"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                  <span id="audio-reciter-name">Sheikh Mishary Rashid Alafasy</span>
+                  <span class="california-tag" id="california-tag-label">California 1430 Recitation</span>
+                </div>
+
+                <!-- Recitation Mode Selector -->
+                <div class="recitation-track-picker">
+                  <button class="track-btn active" id="btn-track-california" onclick="selectTrack('california')">California Tour (1430)</button>
+                  <button class="track-btn" id="btn-track-ayah" onclick="selectTrack('ayah')">Exact Ayah (5:6)</button>
+                </div>
+              </div>
+
+              <!-- Controls & Scrubber -->
+              <div class="audio-controls-row">
+                <button class="audio-main-play-btn" id="master-play-btn" onclick="togglePlayAudio()" title="Play Alafasy recitation">
+                  <svg class="feather" id="play-icon-svg" viewBox="0 0 24 24" style="width: 18px; height: 18px; margin-left: 2px;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </button>
+
+                <div class="audio-timeline-wrap">
+                  <div class="audio-scrubber-track" id="audio-scrubber-bar" onclick="seekAudio(event)">
+                    <div class="audio-scrubber-fill" id="audio-progress-fill"></div>
+                  </div>
+                  <div class="audio-time-row">
+                    <span id="audio-cur-time">0:00</span>
+                    <span id="audio-status-label" style="color: var(--quran-text); font-weight: 700;">Click to listen live</span>
+                    <span id="audio-total-time">--:--</span>
+                  </div>
+                </div>
+
+                <!-- Equalizer Waves -->
+                <div class="soundwave-anim" id="soundwave-box">
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Uthmani Verse -->
+            <div class="quran-verse-arabic">
+              يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ <span class="verse-end-symbol">۝٦</span>
+            </div>
+
+            <!-- Verse Translation -->
+            <p class="quran-verse-trans" id="quran-trans-text">
+              “O you who have believed, when you rise to [perform] prayer, wash your faces and your forearms to the elbows and wipe over your heads and wash your feet to the ankles...”
+            </p>
+          </section>
+
+          <!-- 2. SUNNAH CARD (Sapphire / Lapis) -->
+          <section class="source-card sunnah-theme" id="src-hadith-1">
+            <div class="source-header">
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span class="source-chip sunnah">
+                  <svg class="feather" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                  <span>Prophetic Sunnah — Sahih al-Bukhari #137</span>
+                </span>
+                <span class="hadith-authenticity-tag">
+                  <svg class="feather" viewBox="0 0 24 24" style="width: 12px; height: 12px;"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Authentic (Sahih)</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- Isnād -->
+            <div class="hadith-isnad" id="hadith-isnad-text">
+              Narrated Abu Huraira (may Allah be pleased with him): The Messenger of Allah ﷺ said:
+            </div>
+
+            <!-- Matn -->
+            <div class="hadith-matn" id="hadith-matn-text">
+              “The prayer of a person who does Hadath (passes wind, urine, or stool) will not be accepted until he performs ablution.”
+            </div>
+          </section>
+
+          <!-- 3. SCHOLARS CARD (Slate & Cedar) -->
+          <section class="source-card scholar-theme" id="src-scholar-1">
+            <div class="source-header">
+              <span class="source-chip scholar">
+                <svg class="feather" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <span>Approved Scholar Commentary</span>
+              </span>
+            </div>
+
+            <!-- Scholar Profile Info -->
+            <div class="scholar-profile-row">
+              <div class="scholar-avatar">IB</div>
+              <div class="scholar-meta-text">
+                <span class="scholar-name" id="scholar-name">Shaykh 'Abd al-'Aziz ibn Baz</span>
+                <span class="scholar-ref">Majmu' Fatawa wa Maqalat Mutanawwi'ah (10/140)</span>
+              </div>
+            </div>
+
+            <!-- Quote Text -->
+            <blockquote class="scholar-quote" id="scholar-quote-text">
+              “Touching impurity does not break the wudu; rather, it is only incumbent upon the person who touched it to wash the location that was soiled, whether hand or foot. As for his wudu, it remains intact and valid.”
+            </blockquote>
+          </section>
+
+        </div>
+
+        <!-- Follow-up Questions -->
+        <div class="followup-box">
+          <span class="followup-title">Explore Related Topics</span>
+          <div class="followup-chips" id="followup-container">
+            <a href="#" class="followup-chip" onclick="simulateQuestion('Does blood invalidate Wudu?')">Does bleeding break Wudu?</a>
+            <a href="#" class="followup-chip" onclick="simulateQuestion('How to purify clothes from impurities?')">Purifying clothes from impurities</a>
+            <a href="#" class="followup-chip" onclick="simulateQuestion('What are all the things that break Wudu?')">Full list of Wudu nullifiers</a>
+          </div>
+        </div>
+
+      </article>
+    </section>
+
+    <!-- MOBILE PHONE FRAME (Clean Native Simulator) -->
+    <aside class="phone-frame" id="phone-view">
+      <div class="phone-screen">
+        <div class="phone-header-notch">
+          <span>9:41</span>
+          <span style="font-size: 0.68rem; color: var(--ink-3); font-weight: 700;">Al-Bayan Mobile</span>
+          <span>100%</span>
+        </div>
+
+        <div class="phone-scroll-body" id="phone-content-body">
+          <!-- Mobile Specific Flow -->
+          <div class="user-query-row">
+            <div class="user-query-bubble" id="phone-query-text" style="font-size: 0.92rem; padding: 10px 14px;">
+              Does touching something impure automatically break one’s ablution (Wudu)?
+            </div>
+          </div>
+
+          <div style="font-size: 0.78rem; color: var(--ink-2); display: flex; align-items: center; gap: 6px; font-weight: 600; padding-bottom: 4px; border-bottom: 1px solid var(--line-subtle);">
+            <svg class="feather" viewBox="0 0 24 24" style="width: 14px; height: 14px; color: var(--bayan-lapis);"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span id="phone-trust-label">Verified Scholarly Consensus (Rajih)</span>
+          </div>
+
+          <h2 id="phone-lead-statement" style="font-family: var(--f-display); font-size: 1.15rem; line-height: 1.4; margin: 0; color: var(--ink); font-weight: 600;">
+            Touching an impurity does not invalidate Wudu, though washing the affected spot is obligatory before praying.
+          </h2>
+
+          <div id="phone-synthesis-text" style="font-size: 0.92rem; line-height: 1.65; color: var(--ink); display: flex; flex-direction: column; gap: 8px;">
+            <p>
+              According to the verified ruling of the majority of scholars, merely coming into contact with an impurity (Najasah) does not break one’s state of ritual purity (Wudu).
+              <span class="citation-pill quran" style="font-size: 0.72rem;">Quran 5:6</span>
+            </p>
+          </div>
+
+          <!-- Mobile Quran Card with Mini Audio -->
+          <div class="source-card quran-theme" style="padding: 14px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 6px;">
+              <span class="source-chip quran" style="font-size: 0.7rem; padding: 2px 6px;">
+                <span id="phone-quran-label">Quran 5:6</span>
+              </span>
+              <span class="california-tag" style="font-size: 0.62rem;">Alafasy California</span>
+            </div>
+
+            <div class="quran-verse-arabic" style="font-size: 1.28rem; line-height: 1.9; padding: 8px 10px;">
+              يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ <span class="verse-end-symbol">۝٦</span>
+            </div>
+
+            <button class="audio-main-play-btn" onclick="togglePlayAudio()" style="width: 100%; height: 34px; border-radius: 999px; gap: 6px; font-size: 0.78rem; font-weight: 700;">
+              <svg class="feather" viewBox="0 0 24 24" style="width: 14px; height: 14px;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Play Alafasy Recitation</span>
+            </button>
+          </div>
+
+          <!-- Mobile Sunnah Card -->
+          <div class="source-card sunnah-theme" style="padding: 14px;">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <span class="source-chip sunnah" style="font-size: 0.7rem; padding: 2px 6px;">Sahih al-Bukhari #137</span>
+              <span class="hadith-authenticity-tag" style="font-size: 0.66rem; padding: 1px 5px;">Sahih</span>
+            </div>
+            <div class="hadith-matn" style="font-size: 0.98rem; line-height: 1.5;">
+              “The prayer of a person who does Hadath will not be accepted until he performs ablution.”
+            </div>
+          </div>
+
+          <!-- Mobile Scholar Card -->
+          <div class="source-card scholar-theme" style="padding: 14px;">
+            <div class="scholar-profile-row">
+              <div class="scholar-avatar" style="width: 28px; height: 28px; font-size: 0.72rem;">IB</div>
+              <div class="scholar-meta-text">
+                <span style="font-size: 0.84rem; font-weight: 700;">Shaykh Ibn Baz</span>
+                <span style="font-size: 0.7rem; color: var(--ink-3);">Majmu' Fatawa 10/140</span>
+              </div>
+            </div>
+            <div class="scholar-quote" style="font-size: 0.86rem; line-height: 1.55; padding: 8px 10px;">
+              “Touching impurity does not break the wudu; rather, it is only incumbent upon the person who touched it to wash the location.”
+            </div>
+          </div>
+        </div>
+
+        <nav class="phone-tabbar">
+          <div class="tabbar-item active">
+            <svg class="feather" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            <span>Home</span>
+          </div>
+          <div class="tabbar-item">
+            <svg class="feather" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <span>Ask</span>
+          </div>
+          <div class="tabbar-item">
+            <svg class="feather" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>Doubts</span>
+          </div>
+          <div class="tabbar-item">
+            <svg class="feather" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>More</span>
+          </div>
+        </nav>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<!-- FLOATING CITATION POPOVER -->
+<div class="citation-popover" id="citation-popover" onmouseleave="hideCitation()">
+  <div class="popover-header">
+    <span id="popover-title" style="color: var(--bayan-lapis);">Source Citation</span>
+    <span style="color: var(--gold); font-size: 0.72rem;">Verified</span>
+  </div>
+  <div class="popover-body" id="popover-body">
+    Loading citation details...
+  </div>
+</div>
+
+<!-- TOAST MESSAGE -->
+<div class="toast-notification" id="toast">
+  <svg class="feather" viewBox="0 0 24 24" style="stroke: #86efac;"><polyline points="20 6 9 17 4 12"/></svg>
+  <span id="toast-msg">Copied cleanly with citations to clipboard!</span>
+</div>
+
+<script>
+  let currentFontScale = 1;
+  let currentLang = 'en';
+
+  /* REAL AUDIO RECITATION SOURCES FOR SHEIKH MISHARY RASHID ALAFASY */
+  const audioTracks = {
+    // California Tour 1430 AH (Surah Al-Ma'idah 5:6 section)
+    california: {
+      nameEn: "Sheikh Mishary Rashid Alafasy",
+      editionEn: "California 1430 Recitation",
+      nameAr: "الشيخ مشاري راشد العفاسي",
+      editionAr: "تسجيلات كاليفورنيا ١٤٣٠هـ",
+      url: "https://archive.org/download/hfasy/005.mp3"
+    },
+    // Exact Studio Ayah (Surah 005 Ayah 006)
+    ayah: {
+      nameEn: "Sheikh Mishary Rashid Alafasy",
+      editionEn: "Exact Ayah 5:6 (Murattal)",
+      nameAr: "الشيخ مشاري راشد العفاسي",
+      editionAr: "تلاوة الآية الكريمة (٥:٦)",
+      url: "https://everyayah.com/data/Alafasy_128kbps/005006.mp3"
+    }
+  };
+
+  let activeTrackKey = 'california';
+  const audioEl = document.getElementById('real-audio-player');
+  let isPlaying = false;
+
+  // Initialize Audio Source
+  audioEl.src = audioTracks[activeTrackKey].url;
+
+  function selectTrack(trackKey) {
+    if (activeTrackKey === trackKey) return;
+    activeTrackKey = trackKey;
+
+    document.getElementById('btn-track-california').classList.toggle('active', trackKey === 'california');
+    document.getElementById('btn-track-ayah').classList.toggle('active', trackKey === 'ayah');
+
+    const track = audioTracks[trackKey];
+    audioEl.src = track.url;
+    audioEl.currentTime = 0;
+
+    if (currentLang === 'ar') {
+      document.getElementById('california-tag-label').textContent = track.editionAr;
+      document.getElementById('audio-status-label').textContent = "تم تغيير التلاوة: " + track.editionAr;
+    } else {
+      document.getElementById('california-tag-label').textContent = track.editionEn;
+      document.getElementById('audio-status-label').textContent = "Recitation: " + track.editionEn;
+    }
+
+    if (isPlaying) {
+      audioEl.play().catch(handleAudioError);
+    } else {
+      updateAudioProgressUI(0, 0);
+    }
+    showToast("Loaded: " + (currentLang === 'ar' ? track.editionAr : track.editionEn));
+  }
+
+  function togglePlayAudio() {
+    if (audioEl.paused) {
+      audioEl.play().then(() => {
+        isPlaying = true;
+        updatePlayStateUI(true);
+        showToast("Playing Sheikh Mishary Alafasy...");
+      }).catch(handleAudioError);
+    } else {
+      audioEl.pause();
+      isPlaying = false;
+      updatePlayStateUI(false);
+    }
+  }
+
+  function handleAudioError(err) {
+    console.warn("Audio playback notice:", err);
+    // If California big file hit network restriction, fallback seamlessly to ayah file
+    if (activeTrackKey === 'california') {
+      selectTrack('ayah');
+      audioEl.play().then(() => {
+        isPlaying = true;
+        updatePlayStateUI(true);
+      }).catch(() => {
+        showToast("Audio stream loading...");
+      });
+    }
+  }
+
+  function updatePlayStateUI(playing) {
+    const btn = document.getElementById('master-play-btn');
+    const waveBox = document.getElementById('soundwave-box');
+    const playIconSvg = document.getElementById('play-icon-svg');
+    const statusLabel = document.getElementById('audio-status-label');
+
+    btn.classList.toggle('playing', playing);
+    waveBox.classList.toggle('playing', playing);
+
+    if (playing) {
+      playIconSvg.innerHTML = '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>';
+      statusLabel.textContent = currentLang === 'ar' ? "جارٍ الاستماع..." : "Playing live...";
+    } else {
+      playIconSvg.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"/>';
+      statusLabel.textContent = currentLang === 'ar' ? "مؤقت" : "Paused";
+    }
+  }
+
+  audioEl.addEventListener('timeupdate', () => {
+    if (audioEl.duration) {
+      updateAudioProgressUI(audioEl.currentTime, audioEl.duration);
+    }
+  });
+
+  audioEl.addEventListener('ended', () => {
+    isPlaying = false;
+    updatePlayStateUI(false);
+    updateAudioProgressUI(0, audioEl.duration || 0);
+  });
+
+  function updateAudioProgressUI(current, duration) {
+    const percent = duration > 0 ? (current / duration) * 100 : 0;
+    document.getElementById('audio-progress-fill').style.width = percent + '%';
+    document.getElementById('audio-cur-time').textContent = formatTime(current);
+    document.getElementById('audio-total-time').textContent = duration ? formatTime(duration) : '--:--';
+  }
+
+  function seekAudio(event) {
+    const rect = document.getElementById('audio-scrubber-bar').getBoundingClientRect();
+    const clickX = event.clientX - rect.left;
+    const width = rect.width;
+    const percent = Math.max(0, Math.min(1, clickX / width));
+    if (audioEl.duration) {
+      audioEl.currentTime = percent * audioEl.duration;
+    }
+  }
+
+  function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s < 10 ? '0' : ''}${s}`;
+  }
+
+  /* TRANSLATIONS DICTIONARY */
+  const translations = {
+    en: {
+      query: "Does touching something impure automatically break one’s ablution (Wudu)?",
+      trust: "Verified Scholarly Consensus (Rajih)",
+      lead: "Touching an impurity does not invalidate Wudu, though washing the affected spot is obligatory before praying.",
+      synthesis: `
+        <p>
+          According to the verified ruling of the majority of scholars, merely coming into contact with an impurity (Najasah) does not break one’s state of ritual purity (Wudu).
+          <a href="#src-quran-1" class="citation-pill quran" onmouseenter="previewCitation(event, 'Quran 5:6', 'Noble Evergreen: Purity verse establishes specific nullifiers of ritual ablution.')" onclick="jumpTo(event, 'src-quran-1')">Quran 5:6</a>
+          The nullifiers of Wudu are explicitly defined in the Sunnah and do not include physical contact with impure substances.
+          <a href="#src-hadith-1" class="citation-pill sunnah" onmouseenter="previewCitation(event, 'Sahih al-Bukhari #137', 'Sapphire Sunnah: The Prophet ﷺ specified what exits the body, not what touches the surface.')" onclick="jumpTo(event, 'src-hadith-1')">Bukhari 137</a>
+        </p>
+        <p>
+          However, one must wash the impurity off the skin or garment before offering prayer (Salah), as purity of body, clothing, and place is a strict precondition for prayer validity.
+          <a href="#src-scholar-1" class="citation-pill scholar" onmouseenter="previewCitation(event, 'Shaykh Ibn Baz', 'Refined Slate: Clarification on washing the site vs. performing a full new ablution.')" onclick="jumpTo(event, 'src-scholar-1')">Ibn Baz (Majmu’ 10/140)</a>
+        </p>
+      `,
+      quranLabel: "The Noble Quran — Surah Al-Ma'idah 5:6",
+      quranTrans: "“O you who have believed, when you rise to [perform] prayer, wash your faces and your forearms to the elbows and wipe over your heads and wash your feet to the ankles...”",
+      hadithIsnad: "Narrated Abu Huraira (may Allah be pleased with him): The Messenger of Allah ﷺ said:",
+      hadithMatn: "“The prayer of a person who does Hadath (passes wind, urine, or stool) will not be accepted until he performs ablution.”",
+      scholarName: "Shaykh 'Abd al-'Aziz ibn Baz",
+      scholarQuote: "“Touching impurity does not break the wudu; rather, it is only incumbent upon the person who touched it to wash the location that was soiled, whether hand or foot. As for his wudu, it remains intact and valid.”",
+      followup: [
+        "Does bleeding break Wudu?",
+        "Purifying clothes from impurities",
+        "Full list of Wudu nullifiers"
+      ]
+    },
+    ar: {
+      query: "هل لمس النجاسة ينقض الوضوء؟",
+      trust: "القول الراجح بإجماع المحققين من أهل العلم",
+      lead: "لمس النجاسة لا ينقض الوضوء، وإنما تجب إزالتها وغسل الموضع المتنجس قبل الصلاة.",
+      synthesis: `
+        <p>
+          القول الراجح والمقرر عند جماهير أهل العلم أن مجرد ملامسة النجاسة ببدن أو ثوب لا ينقض الوضوء؛ لأن نواقض الوضوء توقيفية حصرها الشرع، ولم يجعل ملامسة النجس منها.
+          <a href="#src-quran-1" class="citation-pill quran" onmouseenter="previewCitation(event, 'القرآن الكريم 5:6', 'سورة المائدة: بينت آية الوضوء النواقض والأحداث الموجبة للطهارة.')" onclick="jumpTo(event, 'src-quran-1')">المائدة ٦</a>
+          وقد ضبطت السنة النبوية ما يخرج من السبيلين ولم تعتبر مجرد إصابة الظاهر بالنجس ناقضاً للوضوء.
+          <a href="#src-hadith-1" class="citation-pill sunnah" onmouseenter="previewCitation(event, 'صحيح البخاري ١٣٧', 'السنة المشرفة: بيان ما ينقض الوضوء مما يخرج من الجسد.')" onclick="jumpTo(event, 'src-hadith-1')">البخاري ١٣٧</a>
+        </p>
+        <p>
+          غير أنه يجب على المسلم غسل تلك النجاسة وإزالتها عن بدنه وثوبه عند إرادة الصلاة، لأن طهارة الثوب والبدن والمكان شرط من شروط صحة الصلاة بإجماع العلماء.
+          <a href="#src-scholar-1" class="citation-pill scholar" onmouseenter="previewCitation(event, 'سماحة الشيخ ابن باز', 'مجموع فتاوى الشيخ: التفريق بين وجوب غسل النجاسة وبقاء أصل الطهارة.')" onclick="jumpTo(event, 'src-scholar-1')">ابن باز (مجموع الفتاوى ١٠/١٤٠)</a>
+        </p>
+      `,
+      quranLabel: "القرآن الكريم — سورة المائدة ٥:٦",
+      quranTrans: "﴿يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ﴾",
+      hadithIsnad: "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ:",
+      hadithMatn: "«لَا تُقْبَلُ صَلَاةُ مَنْ أَحْدَثَ حَتَّى يَتَوَضَّأَ»",
+      scholarName: "سماحة الشيخ عبد العزيز بن باز رحمه الله",
+      scholarQuote: "«لمس النجاسة لا ينقض الوضوء، وإنما على من لمسها أن يغسل ما أصابه منها بيده أو رجله، أما وضوءه فصحيح بحاله لا يفسد.»",
+      followup: [
+        "هل خروج الدم ينقض الوضوء؟",
+        "كيفية تطهير الثوب النجس للصلاة",
+        "النواقض المعتمدة للوضوء بالتفصيل"
+      ]
+    }
+  };
+
+  function setMode(mode) {
+    const grid = document.getElementById('layout-grid');
+    const phoneView = document.getElementById('phone-view');
+    const desktopView = document.getElementById('desktop-view');
+
+    document.getElementById('btn-mode-desktop').classList.toggle('active', mode === 'desktop');
+    document.getElementById('btn-mode-phone').classList.toggle('active', mode === 'phone');
+    document.getElementById('btn-mode-split').classList.toggle('active', mode === 'split');
+
+    grid.className = 'layout-grid mode-' + mode;
+
+    if (mode === 'desktop') {
+      desktopView.style.display = 'flex';
+      phoneView.style.display = 'none';
+    } else if (mode === 'phone') {
+      desktopView.style.display = 'none';
+      phoneView.style.display = 'flex';
+    } else if (mode === 'split') {
+      desktopView.style.display = 'flex';
+      phoneView.style.display = 'flex';
+    }
+  }
+
+  function setLang(lang) {
+    currentLang = lang;
+    document.getElementById('btn-lang-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-lang-ar').classList.toggle('active', lang === 'ar');
+
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+
+    const t = translations[lang];
+    document.getElementById('query-text').textContent = t.query;
+    document.getElementById('trust-label').textContent = t.trust;
+    document.getElementById('lead-statement').textContent = t.lead;
+    document.getElementById('synthesis-text').innerHTML = t.synthesis;
+    document.getElementById('label-quran').textContent = t.quranLabel;
+    document.getElementById('quran-trans-text').textContent = t.quranTrans;
+    document.getElementById('hadith-isnad-text').textContent = t.hadithIsnad;
+    document.getElementById('hadith-matn-text').textContent = t.hadithMatn;
+    document.getElementById('scholar-name').textContent = t.scholarName;
+    document.getElementById('scholar-quote-text').textContent = t.scholarQuote;
+
+    // Mobile elements update
+    document.getElementById('phone-query-text').textContent = t.query;
+    document.getElementById('phone-trust-label').textContent = t.trust;
+    document.getElementById('phone-lead-statement').textContent = t.lead;
+    document.getElementById('phone-quran-label').textContent = lang === 'ar' ? 'المائدة ٥:٦' : 'Quran 5:6';
+
+    const track = audioTracks[activeTrackKey];
+    document.getElementById('audio-reciter-name').textContent = lang === 'ar' ? track.nameAr : track.nameEn;
+    document.getElementById('california-tag-label').textContent = lang === 'ar' ? track.editionAr : track.editionEn;
+
+    const followupContainer = document.getElementById('followup-container');
+    followupContainer.innerHTML = t.followup.map(item => `
+      <a href="#" class="followup-chip" onclick="simulateQuestion('${item}')">${item}</a>
+    `).join('');
+  }
+
+  function adjustFont(delta) {
+    currentFontScale = Math.max(0.85, Math.min(1.3, currentFontScale + delta));
+    document.documentElement.style.setProperty('--font-scale', currentFontScale);
+  }
+
+  function previewCitation(event, title, body) {
+    const popover = document.getElementById('citation-popover');
+    document.getElementById('popover-title').textContent = title;
+    document.getElementById('popover-body').textContent = body;
+
+    const rect = event.target.getBoundingClientRect();
+    popover.style.display = 'flex';
+    popover.style.top = (rect.bottom + 6) + 'px';
+    popover.style.left = Math.min(window.innerWidth - 330, Math.max(16, rect.left - 20)) + 'px';
+  }
+
+  function hideCitation() {
+    document.getElementById('citation-popover').style.display = 'none';
+  }
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.citation-pill') && !e.target.closest('#citation-popover')) {
+      hideCitation();
+    }
+  });
+
+  function jumpTo(event, id) {
+    event.preventDefault();
+    hideCitation();
+    const target = document.getElementById(id);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      target.classList.remove('target-highlight');
+      void target.offsetWidth; // trigger reflow
+      target.classList.add('target-highlight');
+    }
+  }
+
+  function copyFormattedAnswer() {
+    const t = translations[currentLang];
+    const textToCopy = `Al-Bayan Answer:\n\nQ: ${t.query}\n\nSummary:\n${t.lead}\n\nSources:\n• ${t.quranLabel}\n• Sahih al-Bukhari #137\n• ${t.scholarName} (Majmu' Fatawa 10/140)\n\nRead more on Al-Bayan.`;
+    navigator.clipboard.writeText(textToCopy).catch(() => {});
+    showToast('Copied formatted answer with verified sources!');
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('toast');
+    document.getElementById('toast-msg').textContent = msg;
+    toast.classList.add('show');
+    setTimeout(() => { toast.classList.remove('show'); }, 3000);
+  }
+
+  function simulateQuestion(q) {
+    showToast(`Loading: "${q}"...`);
+  }
+</script>
+</body>
+</html>

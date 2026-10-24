@@ -47,6 +47,20 @@ function setup(seed: RichEvent[] = []) {
 afterEach(() => { vi.useRealTimers(); vi.unstubAllEnvs(); });
 
 describe("leased background research worker", () => {
+  it("keeps a patient job alive past ten minutes while retaining heartbeats", async () => {
+    vi.useFakeTimers();
+    const { deps } = setup(), execute = deps.execute;
+    deps.durationMs = Infinity;
+    deps.execute = async (request, callbacks, signal) => {
+      expect(askDeadlineMs()).toBe(Infinity);
+      expect(askTimeout(signal, 6000, "scholar_transport")).toBe(signal);
+      await vi.advanceTimersByTimeAsync(660001);
+      expect(signal.aborted).toBe(false);
+      return execute(request, callbacks, signal);
+    };
+    expect(await runNextResearchJob(deps)).toBe("complete");
+    expect(deps.store.pulse).toHaveBeenCalled();
+  });
   it("stores checked sections in order and completes only after the matching final answer", async () => {
     const { deps, events } = setup();
     expect(await runNextResearchJob(deps)).toBe("complete");
@@ -160,6 +174,7 @@ describe("research engine configuration fingerprint", () => {
     const env = { ASK_JOB_BUILD_REVISION: "a".repeat(40), AI_MODELS: "model-one", HADITH_SOURCE: "library" };
     const first = researchEngineRevision(env);
     expect(researchEngineRevision({ ...env, AI_MODELS: "model-two" })).not.toBe(first);
+    expect(researchEngineRevision({ ...env, OPENROUTER_STRUCTURED_OUTPUTS: "true" })).not.toBe(first);
     expect(researchEngineRevision({ ...env, HADITH_SOURCE: "hadeethenc" })).not.toBe(first);
     expect(researchEngineRevision({ ...env, ASK_JOB_BUILD_REVISION: "b".repeat(40) })).not.toBe(first);
     expect(researchEngineRevision({ ...env, ASK_LOCAL_EMBEDDINGS: "true" })).not.toBe(first);

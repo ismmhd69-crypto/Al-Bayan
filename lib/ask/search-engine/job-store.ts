@@ -1,4 +1,6 @@
 import type { EncryptedJobValue } from "./job-encryption";
+import type { PatientEvent } from "../patient-protocol";
+import type { PatientCheckpoint } from "../patient-engine";
 import { randomUUID } from "node:crypto";
 import { parseUserHistory } from "../conversation";
 import { researchJobEncryption } from "./job-encryption";
@@ -16,6 +18,7 @@ export type ResearchRpc = (
 export type ResearchJobState =
   | "queued"
   | "running"
+  | "paused"
   | "complete"
   | "incomplete"
   | "cancelled"
@@ -28,6 +31,7 @@ export type ResearchLease = {
   sequence: number;
   request: unknown;
   expiresAt: string;
+  checkpoint?: PatientCheckpoint;
 };
 export type ResearchJobView = {
   id: string;
@@ -36,6 +40,7 @@ export type ResearchJobView = {
   sequence: number;
   events: { sequence: number; payload: unknown }[];
   expiresAt: string;
+  protocol?: 2;
 };
 type Codec = ReturnType<typeof researchJobEncryption>;
 const UUID = /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i;
@@ -44,6 +49,7 @@ const ATTEMPT = /^[a-f0-9]{64}:[1-9][0-9]{0,3}$/;
 const states: ResearchJobState[] = [
   "queued",
   "running",
+  "paused",
   "complete",
   "incomplete",
   "cancelled",
@@ -133,6 +139,7 @@ export function researchJobStore(rpc: ResearchRpc, codec: Codec) {
       sequence: end,
       events,
       expiresAt: timestamp(reply.expires_at),
+      ...(reply.protocol === 2 ? { protocol: 2 as const } : {}),
     };
   };
   return {
@@ -171,6 +178,7 @@ export function researchJobStore(rpc: ResearchRpc, codec: Codec) {
         language,
         request_cipher: codec.seal(input.id, "request", input.request),
         max_cost_usd: input.maxCostUsd,
+        protocol: object(input.request).version === 2 ? 2 : 1,
       });
       if (
         typeof reply.id !== "string" ||
@@ -292,6 +300,7 @@ export function researchJobStore(rpc: ResearchRpc, codec: Codec) {
           reply.request_cipher as EncryptedJobValue,
         ),
         expiresAt: timestamp(reply.expires_at),
+        ...(reply.checkpoint_cipher ? { checkpoint: codec.open(reply.id, "patient-checkpoint", reply.checkpoint_cipher as EncryptedJobValue) as PatientCheckpoint } : {}),
       };
     },
     async pulse(lease: ResearchLease) {
@@ -302,6 +311,22 @@ export function researchJobStore(rpc: ResearchRpc, codec: Codec) {
     },
     async hold(lease: ResearchLease) {
       await call("hold", leasePayload(lease));
+    },
+    async continue(id: string, owner: string) {
+      if (!UUID.test(id) || !HASH.test(owner)) throw new Error("invalid_research_owner");
+      const result = await call("continue", { id, owner });
+      if (result.id !== id || result.state !== "queued") throw new Error("invalid_patient_continuation");
+      return { id, state: "queued" as const, sequence: sequence(result.sequence) };
+    },
+    async appendPatient(lease: ResearchLease, event: PatientEvent, checkpoint: PatientCheckpoint) {
+      if (event.job_id !== lease.id || event.sequence !== checkpoint.state.sequence || checkpoint.state.jobId !== lease.id
+        || checkpoint.version !== 2 || event.version !== 2) throw new Error("invalid_patient_checkpoint");
+      const state = checkpoint.state.status === "working" ? "running" : checkpoint.state.status;
+      const result = await call("patient_event", { ...leasePayload(lease), expected_sequence: event.sequence - 1,
+        payload_cipher: codec.seal(lease.id, `event:${event.sequence}`, event),
+        checkpoint_cipher: codec.seal(lease.id, "patient-checkpoint", checkpoint), state });
+      if (result.sequence !== event.sequence) throw new Error("invalid_research_append_response");
+      return event.sequence;
     },
     async append(
       lease: ResearchLease,

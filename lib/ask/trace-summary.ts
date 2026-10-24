@@ -24,6 +24,8 @@ export function selectionSummary(raw: unknown, frame: QuestionFrame, candidates:
     duplicate_count: ids.length - new Set(ids).size, unassessed_source_ids: candidates.filter((c) => !ids.includes(c.id)).map((c) => c.id),
     direct_count: direct.length, partial_count: assessments.filter((a) => a.relevance === "partial").length,
     unsafe_count: assessments.filter((a) => a.context_safe !== "yes").length,
+    evidence_plan: Array.isArray(r.evidence_plan) ? r.evidence_plan.slice(0, 12).map(record).map(unit => ({ source_ids: unit.source_ids,
+      requirement_ids: unit.requirement_ids, purpose: unit.purpose, necessary: unit.necessary })) : [],
     unassigned_count: assessments.filter((a) => !Array.isArray(a.supported_requirement_ids) || !a.supported_requirement_ids.length).length,
     assessments: assessments.slice(0, 40).map((a) => ({ source_id: a.source_id, source_known: candidates.some((c) => c.id === a.source_id), relevance: a.relevance, context_safe: a.context_safe, contribution: a.contribution, scope_matches_question: a.scope_matches_question, requirement_ids: a.supported_requirement_ids, related_requirement_ids: a.related_requirement_ids, distinct_contribution: a.distinct_contribution })),
     coverage: frame.requirements.map((point) => ({ requirement_id: point.id, direct_count: direct.filter((a) => (a.supported_requirement_ids as unknown[]).includes(point.id) && candidates.some((c) => c.id === a.source_id)).length })) };

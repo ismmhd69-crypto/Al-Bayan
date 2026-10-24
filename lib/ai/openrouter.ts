@@ -6,6 +6,7 @@ import type { AIProvider, JsonRequest } from "./types";
 import { GoogleBusyError } from "./gemini";
 import { extractJsonObject } from "./nvidia";
 import { openrouterLimiter, waitForSlot, type RateLimiter } from "./limits";
+import { structuredOutputContract, providerShapeSchema } from "./structured-output";
 
 // OpenRouter (openrouter.ai), OpenAI-compatible chat API in front of many hosted models. Same "busy"
 // error class as the other providers, so the model chain (lib/ai/index.ts) moves on the same way.
@@ -38,7 +39,11 @@ export function providerPreferences(): Record<string, unknown> {
 // (2026-10-04). off switches it off where the model allows it, medium/high ask for that effort,
 // default sends nothing. "exclude" is always set so any reasoning text that is still produced never
 // ends up in the reply.
-export function reasoningOptions(): Record<string, unknown> {
+export function reasoningOptions(model?: string): Record<string, unknown> {
+  // This pinned non-reasoning model's advertised parameters (including ZDR
+  // endpoints) omit reasoning. require_parameters must remain enabled: do not
+  // exclude every eligible endpoint by attaching an unsupported optional knob.
+  if (model === "mistralai/mistral-small-3.2-24b-instruct") return {};
   const mode = process.env.OPENROUTER_REASONING ?? "low";
   if (mode === "default") return {};
   if (mode === "low" || mode === "medium" || mode === "high") return { reasoning: { effort: mode, exclude: true } };
@@ -53,13 +58,18 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
   const id = `openrouter/${model}`;
   return {
     id,
-    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, signal }: JsonRequest) {
-      // Some providers reject response_format (a 400); the reply is parsed tolerantly anyway, so one
-      // retry without it is safe. Once a 400 shows it, the rest of this call goes without it.
+    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, signal, structuredOutput }: JsonRequest) {
+      // Opt-in preview. Provider support varies by endpoint; local validation is still required.
+      // Compile before any model transport or local request slot can be consumed.
+      const contract = structuredOutput || process.env.OPENROUTER_STRUCTURED_OUTPUTS === "true" ? structuredOutputContract(schema) : null;
+      // Recorded Google 400s depend on nested size constraints. Acceptance still uses
+      // the untouched full local contract, including every count/length restriction.
+      const transportSchema = contract && model.startsWith("google/") ? providerShapeSchema(contract.schema) : contract?.schema;
+      // Legacy JSON-object mode retains its existing 400 fallback. Schema mode never downgrades.
       let jsonMode = true, attempt = 0;
       const call = async (): Promise<Response> => {
         const started = Date.now();
-        emitAiTrace("http_attempt_started", { model: id, attempt: ++attempt, json_mode: jsonMode });
+        emitAiTrace("http_attempt_started", { model: id, attempt: ++attempt, json_mode: jsonMode, output_contract: contract ? "schema" : "legacy" });
         if (!(await waitForSlot(limiter, model, SLOT_WAIT_MS, signal))) {
           if (signal?.aborted) throw signal.reason ?? new Error("aborted");
           emitAiTrace("http_attempt_failed", { model: id, attempt, duration_ms: Date.now() - started, outcome: "busy" });
@@ -77,12 +87,16 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
                 { role: "system", content: `${system}\n\nReply with ONLY one JSON object that matches this JSON schema, with no other text:\n${JSON.stringify(schema)}` },
                 { role: "user", content: prompt },
               ],
-              temperature: 0,
+              // Strict routing requires support for EVERY supplied parameter.
+              // The current Google Vertex endpoints support schema output but
+              // not temperature; do not exclude them with an optional knob.
+              ...(!contract ? { temperature: 0 } : {}),
               max_tokens: maxOutputTokens,
               stream: false,
-              ...(jsonMode ? { response_format: { type: "json_object" } } : {}),
-              provider: providerPreferences(),
-              ...reasoningOptions(),
+              ...(contract ? { response_format: { type: "json_schema", json_schema: { name: "bayan_response", strict: true, schema: transportSchema } } }
+                : jsonMode ? { response_format: { type: "json_object" } } : {}),
+              provider: { ...providerPreferences(), ...(contract ? { require_parameters: true } : {}) },
+              ...reasoningOptions(model),
             }),
           });
           emitAiTrace("http_attempt_finished", { model: id, attempt, http_status: response.status, duration_ms: Date.now() - started });
@@ -95,7 +109,7 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
       };
 
       let res = await call();
-      if (res.status === 400 && jsonMode && !signal?.aborted) {
+      if (res.status === 400 && jsonMode && !contract && !signal?.aborted) {
         debug(`${id} rejected JSON mode (400), retrying without it`);
         jsonMode = false;
         res = await call();
@@ -105,6 +119,17 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
         debug(`${id} busy (${res.status}), retrying once`);
         await new Promise((r) => setTimeout(r, 500 + Math.floor(Math.random() * 1000)));
         if (!signal?.aborted) res = await call();
+      }
+      if (!res.ok) {
+        // Classify provider errors without logging their message/body, which may
+        // echo visitor input. Preserve privacy and strict-output requirements.
+        const error = await res.clone().json().catch(() => null) as { error?: { code?: unknown; message?: unknown } } | null;
+        const message = typeof error?.error?.message === "string" ? error.error.message : "";
+        const outcome = /no endpoints|no (?:available )?providers|no route/i.test(message) ? "no_eligible_endpoint"
+          : /parameter|schema/i.test(message) ? "parameter_or_schema_rejected"
+          : [401, 403].includes(res.status) ? "authorization_rejected" : "provider_rejected";
+        emitAiTrace("provider_request_rejected", { model: id, http_status: res.status, outcome,
+          output_contract: contract ? "schema" : "legacy", temperature_sent: !contract });
       }
       if (BUSY_STATUSES.has(res.status)) throw new GoogleBusyError(`openrouter busy (${res.status})`);
       if (UNAVAILABLE_STATUSES.has(res.status)) throw new GoogleBusyError(`openrouter unavailable (${res.status})`);
@@ -123,7 +148,15 @@ export function createOpenRouter(apiKey: string, model: string, limiter: RateLim
       // Hidden reasoning shares max_tokens. Never salvage a nested object from cut-off JSON.
       // Let the existing chain try its next model without a costly same-model retry.
       if (data.choices?.[0]?.finish_reason === "length") throw new GoogleBusyError("openrouter output cut off");
-      return extractJsonObject(data.choices?.[0]?.message?.content ?? "");
+      if (contract) {
+        const parsed = contract.parse(data.choices?.[0]?.message?.content ?? "");
+        if (parsed === null) emitAiTrace("structured_output_rejected", { model: id, outcome: "format_invalid" });
+        return parsed;
+      }
+      const parsed = extractJsonObject(data.choices?.[0]?.message?.content ?? "");
+      if (parsed === null) emitAiTrace("model_output_rejected", { model: id, outcome: "invalid_json_object",
+        finish_reason: data.choices?.[0]?.finish_reason, visible_chars: (data.choices?.[0]?.message?.content ?? "").length });
+      return parsed;
     },
   };
 }

@@ -97,6 +97,8 @@ createRoot(document.getElementById('root')).render(<React.StrictMode><p style={{
       state: string;
       reads: number;
       lost: boolean;
+      patient?: boolean;
+      continued?: boolean;
       events: unknown[];
     }
   >();
@@ -258,6 +260,12 @@ createRoot(document.getElementById('root')).render(<React.StrictMode><p style={{
         });
         return;
       }
+      if (path.endsWith("/continue")) {
+        const job = owned.find(j => j.id === body.id);
+        if (!job || !job.patient || job.state !== "paused") { answer({ status: "not_ready" }, 409); return; }
+        job.continued = true; job.state = "running";
+        answer({ version: 2, status: "job", id: job.id, state: "queued", sequence: 3 }); return;
+      }
       if (path.endsWith("/read")) {
         reads++;
         const job = owned.find((j) => j.id === body.id);
@@ -266,6 +274,13 @@ createRoot(document.getElementById('root')).render(<React.StrictMode><p style={{
           return;
         }
         job.reads++;
+        if (job.patient) {
+          const pause = scenario === "patient-pause";
+          const count = pause && !job.continued ? 3 : !pause && job.reads < 4 ? 2 : job.events.length;
+          job.state = pause && !job.continued ? "paused" : count === job.events.length ? "complete" : "running";
+          answer({ version: 2, status: "job", id: job.id, language: job.lang, state: job.state,
+            sequence: count, events: job.events.slice(Number(body.after ?? 0), count) }); return;
+        }
         if (scenario === "drop" && job.reads === 1) {
           req.socket.destroy();
           return;
@@ -305,7 +320,7 @@ createRoot(document.getElementById('root')).render(<React.StrictMode><p style={{
       starts++;
       const id = randomUUID(), lang = body.lang ?? "en";
       let answerData: RichAnswer = structuredClone(richAnswer);
-      if (scenario === "videos") answerData = {
+      if (scenario === "videos" || scenario.startsWith("patient-")) answerData = {
         ...answerData, version: 4,
         guide: { kind: "learning", refs: [], text: lang === "ar" ? "اقرأ المصادر التجريبية لفهم هذا المثال." : lang === "de" ? "Lesen Sie die erfundenen Quellen dieses Beispiels." : "Read the invented sources for this example." },
         sections: answerData.sections.map(s => ({ ...s, sources: s.sources.map(source => ({ ...source, role: "direct", requirementIds: ["R1"], explanationRequirementIds: [] })) })),
@@ -363,6 +378,18 @@ createRoot(document.getElementById('root')).render(<React.StrictMode><p style={{
         type: "terminal",
         result: { status: "rich_answer", answer: answerData },
       });
+      const patient = scenario.startsWith("patient-");
+      if (patient) {
+        events.length = 0;
+        const emit = (body: object) => events.push({ ...body, version: 2, job_id: id, sequence: events.length + 1 });
+        emit({ type: "section", section: answerData.sections[0], revision: 1, evidence_revision: 1 });
+        emit({ type: "section", section: answerData.sections[1], revision: 1, evidence_revision: 2 });
+        if (scenario === "patient-pause") { emit({ type: "pause", reason: "source_failed" }); emit({ type: "resume" }); }
+        emit({ type: "section", section: answerData.sections[2], revision: 1, evidence_revision: 3 });
+        emit({ type: "section", section: answerData.sections[3], revision: 1, evidence_revision: 3 });
+        emit({ type: "terminal", status: "complete", answer: answerData });
+        delete answerData.videos;
+      }
       jobs.set(`${scope}:${key}`, {
         id,
         key,
@@ -372,6 +399,7 @@ createRoot(document.getElementById('root')).render(<React.StrictMode><p style={{
         state: "running",
         reads: 0,
         lost: false,
+        patient,
         events,
       });
       if (scenario === "lost") {

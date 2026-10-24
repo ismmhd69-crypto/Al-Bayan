@@ -15,6 +15,7 @@ import { richAnswer, sections } from "./fixtures/rich";
 import { dependencies as richDependencies, pack } from "./fixtures/rich";
 import { runRichAnswer } from "@/lib/ask/rich-engine";
 import { APPROVED_CHANNELS } from "@/lib/sources/youtube-channels";
+import { emptyPatientState, reducePatientEvent, type PatientEvent } from "@/lib/ask/patient-protocol";
 
 const id = "00000000-0000-4000-8000-000000000001",
   key = "00000000-0000-4000-8000-000000000002";
@@ -107,6 +108,27 @@ function setup() {
 afterEach(() => vi.unstubAllEnvs());
 
 describe("owned research job API", () => {
+  it("opts new patient jobs into version two without changing the default contract", async () => {
+    const deps = setup(); deps.protocol = 2;
+    const response = await handleResearchJob(request("start", { question: "Synthetic question", lang: "en" }, { cookie: signedCookie(), "idempotency-key": key }), "start", deps);
+    expect(response.status).toBe(202); expect(await response.json()).toMatchObject({ version: 2, id });
+    expect(deps.store.enqueue).toHaveBeenCalledWith(expect.objectContaining({ request: expect.objectContaining({ version: 2 }) }));
+  });
+  it("continues an owned paused job without submitting a new question", async () => {
+    const deps = setup(); deps.protocol = 2;
+    deps.continue = vi.fn(async () => ({ id, state: "queued" as const, sequence: 7 }));
+    const response = await handleResearchJob(request("continue", { id, owner: "forged" }, { cookie: signedCookie() }), "continue", deps);
+    expect(response.status).toBe(202); expect(await response.json()).toMatchObject({ version: 2, id, sequence: 7 });
+    expect(deps.continue).toHaveBeenCalledWith(id, expect.stringMatching(/^[a-f0-9]{64}$/)); expect(deps.store.enqueue).not.toHaveBeenCalled();
+  });
+  it("delivers a paused patient event only after source/history validation", async () => {
+    const deps = setup();
+    const event: PatientEvent = { version: 2, job_id: id, sequence: 1, type: "pause", reason: "source_failed" };
+    expect(reducePatientEvent(emptyPatientState(id, "en"), event).status).toBe("paused");
+    deps.store.read = vi.fn(async () => ({ id, state: "paused" as const, protocol: 2 as const, sequence: 1, language: "en" as const, events: [{ sequence: 1, payload: event }], expiresAt: "2027-01-01T00:00:00Z" }));
+    const response = await handleResearchJob(request("read", { id, after: 0 }, { cookie: signedCookie() }), "read", deps);
+    expect(response.status).toBe(200); expect(await response.json()).toMatchObject({ version: 2, state: "paused", events: [event] });
+  });
   it("binds account lifecycle to verified identity rather than a visitor-supplied account field", async () => {
     const deps = setup();
     const response = await handleResearchJob(request("start", { question: "Synthetic question", lang: "en", accountId: "user-b" },

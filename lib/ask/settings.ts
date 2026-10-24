@@ -2,8 +2,11 @@ import { remainingResearchMs } from "./research-runtime";
 // Ask settings read from the environment. Pure, so they can be tested without the pipeline.
 // Independent rollbacks. Never opt in production while live acceptance is incomplete.
 export const askRich = () => process.env.ASK_RICH_ENABLED === "true";
+export const askFocusedChecks = () => process.env.ASK_FOCUSED_CHECKS === "true";
+export const askDistinctSelection = () => process.env.ASK_DISTINCT_SELECTION === "true";
 export const askStreaming = () => process.env.ASK_STREAM_ENABLED === "true";
 export const askDurable = () => askRich() && process.env.ASK_DURABLE_ENABLED === "true" && process.env.ASK_JOB_WORKER_ACCEPTED === "true";
+export const askPatient = () => askDurable() && process.env.ASK_PATIENT_ENABLED === "true";
 // Research preview only. Off by default; existing approved-source checks still run.
 export const askMeaningRanking = () => process.env.ASK_MEANING_RANKING === "true";
 export const askResearchRecovery = () => process.env.ASK_RESEARCH_RECOVERY === "true";

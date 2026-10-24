@@ -8,6 +8,7 @@ import type { JsonSchema } from "@/lib/ai/types";
 import { hasRulingTerm, type Claim, type StructuredDraft } from "./checks";
 import type { PackageCaps } from "./package";
 import type { PassageForSelection, Source } from "./retrieval";
+import { contributionPlanSchema } from "./contribution-plan";
 
 export type Tier = Source["kind"]; // "quran" | "hadith" | "scholar"
 export const TIERS: readonly Tier[] = ["quran", "hadith", "scholar"];
@@ -27,6 +28,7 @@ search_queries_ar stays the scholar-library (fatwa) wording described above. Do 
 
 export const TIERED_EVIDENCE_RULES = `
 TIERED INPUT: the candidates come in three separate lists: quran_candidates, hadith_candidates and scholar_candidates. Return one assessment per candidate in the matching list: quran_assessments, hadith_assessments, scholar_assessments. Never move an id to another list.
+The position field is a scholarly-disagreement label only. It must be the empty string for every Quran and hadith assessment, including direct evidence. Never label a hadith position-a merely because it agrees with a scholar.
 Judge each list on its own. A verse or hadith is direct when its own words speak directly to a requested point, even when a scholar quote answers the same point more fully or more practically. Never mark a verse or hadith lower because a scholar quote exists, and never mark a scholar quote lower because a verse or hadith exists. A list may have no direct item at all; that is fine.`;
 
 export const TIERED_DRAFT_RULES = `
@@ -48,7 +50,7 @@ export const CONTRIBUTION_RULES = `RICH EVIDENCE CONTRACT, overriding the legacy
 Background and limited_example passages may be context or partial and must have empty supported_requirement_ids. They may explain a relevant principle without settling the requested procedure. Record related_requirement_ids identifying the actual question parts they help explain, and distinct_contribution yes only if the original adds a useful explanation or qualification not duplicated by better evidence. Mention-only and unrelated candidates are never usable context. Do not classify relevant background as mention_only simply because it does not answer the entire question.
 For every candidate record contribution role, scope and conditions stated in its original. A case-specific passage cannot establish a universal instruction. Limited examples retain their audience and conditions and never count as direct coverage for a general question. Preserve the reader's question; never add a requested point to fit the sources. These rules apply to every topic. Search hints and familiar references do not approve evidence.`;
 
-const assessmentItem = (requirementIds: string[], rich = false): JsonSchema => ({
+export const assessmentItem = (requirementIds: string[], rich = false): Extract<JsonSchema, { type: "object" }> => ({
   type: "object",
   properties: {
     source_id: { type: "string" },
@@ -61,19 +63,22 @@ const assessmentItem = (requirementIds: string[], rich = false): JsonSchema => (
   required: ["source_id", "relevance", "supported_requirement_ids", "context_safe", "position", ...(rich ? Object.keys(CONTRIBUTION_FIELDS) : [])],
 });
 
-export function tieredSelectionSchema(requirementIds: string[], rich = false): JsonSchema {
+export function tieredSelectionSchema(requirementIds: string[], rich = false, distinct = false): JsonSchema {
   const list: JsonSchema = { type: "array", items: assessmentItem(requirementIds, rich) };
+  const original = assessmentItem(requirementIds, rich);
+  const revelation: JsonSchema = { type: "array", items: { ...original, properties: { ...original.properties, position: { type: "string", enum: [""] } } } };
   return {
     type: "object",
     properties: {
       status: { type: "string", enum: ["ready", "insufficient", "ambiguous", "conflicting"] },
       coverage: { type: "string", enum: ["complete", "incomplete", "uncertain"] },
       conflict_type: { type: "string", enum: ["none", "revelation_conflict", "scholar_difference", "uncertain"] },
-      quran_assessments: list,
-      hadith_assessments: list,
+      quran_assessments: revelation,
+      hadith_assessments: revelation,
       scholar_assessments: list,
+      ...(distinct ? { evidence_plan: contributionPlanSchema(requirementIds) } : {}),
     },
-    required: ["status", "coverage", "conflict_type", "quran_assessments", "hadith_assessments", "scholar_assessments"],
+    required: ["status", "coverage", "conflict_type", "quran_assessments", "hadith_assessments", "scholar_assessments", ...(distinct ? ["evidence_plan"] : [])],
   };
 }
 
@@ -102,7 +107,8 @@ export function flattenTieredSelection(raw: unknown, candidates: PassageForSelec
       assessments.push(item);
     }
   }
-  return { status: record.status, coverage: record.coverage, conflict_type: record.conflict_type, assessments };
+  return { status: record.status, coverage: record.coverage, conflict_type: record.conflict_type, assessments,
+    ...(record.evidence_plan !== undefined ? { evidence_plan: record.evidence_plan } : {}) };
 }
 
 export type KindOf = (id: string) => Tier | undefined;

@@ -5,20 +5,22 @@ import { discoveredCorpusCandidates } from "./corpus-candidates";
 import type { CorpusRetrieval, QueryEmbedder } from "./corpus-retrieval";
 import type { SearchHit } from "./hybrid";
 import { persistentSearchIndex, type IndexRpc } from "./persistent-index";
+import { concernMeaning } from "./concern-meaning";
 
 /** Persistent discovery uses one pinned generation and one query batch. Each
  * concern/family has its own retrieval allowance before the shared limit. */
 export async function retrieveFromPersistentCorpus(frame: QuestionFrame, rpc: IndexRpc, options: {
-  signal: AbortSignal; embedder?: QueryEmbedder; families?: ("hadith" | "scholar")[]; limit?: number;
+  signal: AbortSignal; embedder?: QueryEmbedder; families?: ("hadith" | "scholar")[]; limit?: number; requireSemantic?: boolean;
 }): Promise<CorpusRetrieval> {
   const { signal } = options, families = options.families ?? ["hadith", "scholar"], limit = options.limit ?? 60;
   if (!frame.requirements.length || frame.requirements.length > 4 || !Number.isSafeInteger(limit) || limit < 1 || limit > 120
     || !families.length || new Set(families).size !== families.length || families.some(f => !["hadith", "scholar"].includes(f))) throw new Error("invalid_persistent_corpus_contract");
   const store = persistentSearchIndex(rpc), pinned = await store.manifest(signal);
+  if (options.requireSemantic && (!options.embedder || pinned.semanticEligible === 0)) throw new Error("corpus_semantic_provider_not_ready");
   let vectors: number[][] | undefined;
   if (options.embedder && pinned.semanticEligible > 0) {
     if (!sameSpace(pinned.space, options.embedder.space)) throw new Error("query_vector_mismatch");
-    vectors = await abortable(options.embedder.embedQueries(frame.requirements.map(r => r.text), signal), signal);
+    vectors = await abortable(options.embedder.embedQueries(frame.requirements.map(r => concernMeaning(frame, r)), signal), signal);
     if (!Array.isArray(vectors) || vectors.length !== frame.requirements.length || vectors.some(v => !validVector(v, pinned.space.dimensions))) throw new Error("query_embedding_batch_mismatch");
   }
   const streams: SearchHit[][] = [], audits: CorpusRetrieval["audits"] = [];
@@ -29,7 +31,7 @@ export async function retrieveFromPersistentCorpus(frame: QuestionFrame, rpc: In
   for (const [i, concern] of frame.requirements.entries()) for (const family of families) {
     const sourcePhrases = family === "hadith" ? concern.hadithArabic : [];
     const phrases = [...new Set([...(sourcePhrases ?? []), ...Object.values(concern.searchQueries ?? {}).flatMap(q => q ?? [])])].slice(0, 12);
-    const found = await store.search(pinned, { id: concern.id, text: concern.text, phrases, exactReferences: [],
+    const found = await store.search(pinned, { id: concern.id, text: concernMeaning(frame, concern), phrases: phrases.length ? phrases : [concern.text], exactReferences: [],
       ...(vectors ? { vector: { space: pinned.space, values: vectors[i] } } : {}) }, family, signal);
     streams.push(found.hits); semanticEligible += found.semanticEligible;
     audits.push({ concernId: concern.id, family, audit: { generation: pinned.generation, before: found.eligible, eligible: found.eligible,
@@ -62,7 +64,7 @@ export async function persistentCorpusCandidates(frame: QuestionFrame, rpc: Inde
   signal: AbortSignal; embedder?: QueryEmbedder; families?: ("hadith" | "scholar")[]; allowLexicalOnly?: boolean;
   onDiscovery?: (result: CorpusRetrieval) => void;
 }) {
-  const found = await retrieveFromPersistentCorpus(frame, rpc, options);
+  const found = await retrieveFromPersistentCorpus(frame, rpc, { ...options, requireSemantic: !options.allowLexicalOnly });
   options.onDiscovery?.(found);
   if (found.semantic !== "used" && !options.allowLexicalOnly) throw new Error("corpus_semantic_provider_not_ready");
   return discoveredCorpusCandidates(found, { signal: options.signal });

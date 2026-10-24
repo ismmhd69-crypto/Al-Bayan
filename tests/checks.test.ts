@@ -74,6 +74,10 @@ const sources = [A, SHORT];
 const draft = (claims: { text: string; source_ids: string[] }[]) => ({ status: "answer", claims });
 
 describe("parseDraft: the whole answer is refused on any failure", () => {
+  it.each([null, 42, { source_id: "Q9:1" }, ["Q9:1"], "", "  "])("rejects malformed citation entries beside a valid reference %#", invalid => {
+    const value = { status: "answer", claims: [{ text: "Patience is praised.", source_ids: ["Q9:1", invalid] }] };
+    expect(parseDraft(value, sources, "en")).toEqual({ ok: false, reason: "invalid_citation" });
+  });
   it("accepts a clean single-sentence claim with a valid source", () => {
     const r = parseDraft(draft([{ text: "People are told to be patient in hardship.", source_ids: ["Q9:1"] }]), sources, "en");
     expect(r).toEqual({ ok: true, claims: [{ text: "People are told to be patient in hardship.", refs: ["Q9:1"] }] });
@@ -172,7 +176,7 @@ describe("isSingleSentence", () => {
   it("rejects two sentences", () => {
     expect(isSingleSentence("One thing. Another thing.")).toBe(false);
     expect(isSingleSentence("أمر بالصبر؟ ونهى عن الجزع")).toBe(false);
-    expect(isSingleSentence("First part; second part")).toBe(false);
+    expect(isSingleSentence("First part; second part")).toBe(true);
   });
 });
 
@@ -189,9 +193,10 @@ describe("hasQuotation", () => {
 });
 
 describe("copiesSource: the AI may not re-type source text", () => {
-  it("catches 4 copied Arabic words", () => {
+  it("keeps the four-word Quran rule while distinguishing short hadith terminology", () => {
     expect(copiesSource("قيل لهم اصبروا على ما أصابكم في كل حال", [A])).toBe(true);
-    expect(copiesSource("قيل لهم اصبروا على ما أصابكم في كل حال", [{ ...A, id: "HE1", kind: "hadith" }])).toBe(true);
+    expect(copiesSource("قيل لهم اصبروا على ما أصابكم في كل حال", [{ ...A, id: "HE1", kind: "hadith" }])).toBe(false);
+    expect(copiesSource(A.arabic, [{ ...A, id: "HE1", kind: "hadith" }])).toBe(true);
   });
   it("catches copying with diacritics or letter variants", () => {
     expect(copiesSource("اصْبِروا عَلى ما اَصابكم", [A])).toBe(true);
@@ -405,5 +410,15 @@ describe("copiesSource: honorific formulas around hadith and scholar text", () =
   it("does not treat an honorific alone as a copy of anything but the Quran", () => {
     expect(copiesSource("صلى الله عليه وسلم", [hadith])).toBe(false);
     expect(copiesSource("peace and blessings be upon him", [hadith])).toBe(false);
+  });
+});
+
+
+describe("clause separators are not sentence terminators", () => {
+  it("accepts Arabic and Latin semicolons while checking all words and citations", () => {
+    for (const text of ["This point is limited; its stated condition still applies.", "يبين النص معنى محددا؛ مع بقاء شرطه المذكور في الأصل."]) {
+      const result = parseDraft(draft([{ text, source_ids: ["Q9:1"] }]), sources, text.includes("يبين") ? "ar" : "en");
+      expect(result).not.toEqual({ ok: false, reason: "multiple_sentences" });
+    }
   });
 });

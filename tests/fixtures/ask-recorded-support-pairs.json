@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "source": "Exact selected originals and restrictive context from recorded call A8; public source fields only. Hadith numbering matches the owner-provided source card. Context identities follow the recorded neighbours order. No visitor text, private history or credentials copied. Labels and newly drafted Arabic/German claims require independent source and language review. Not approved Ask answers.",
+  "recorded_input_hash": "cd8feceb4377466fc472f49215ba0ebea6a238b35e5a2dfc51e8f203cd329eea",
+  "candidates": [
+    {
+      "id": "Q51:56",
+      "source": {
+        "kind": "quran",
+        "verse": {
+          "key": "51:56",
+          "arabic": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
+          "arabicPlain": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
+          "translations": {
+            "en": "I created jinn and mankind only to worship Me:",
+            "de": null
+          },
+          "url": "https://quran.com/51/56"
+        }
+      },
+      "context": [
+        {
+          "key": "51:55",
+          "arabic": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+          "arabicPlain": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
+          "translations": {
+            "en": "and go on reminding [people], it is good for those who believe to be reminded.",
+            "de": null
+          },
+          "url": "https://quran.com/51/55"
+        },
+        {
+          "key": "51:57",
+          "arabic": "مَآ أُرِيدُ مِنْهُم مِّن رِّزْقٍ وَمَآ أُرِيدُ أَن يُطْعِمُونِ",
+          "arabicPlain": "مَآ أُرِيدُ مِنْهُم مِّن رِّزْقٍ وَمَآ أُرِيدُ أَن يُطْعِمُونِ",
+          "translations": {
+            "en": "I want no provision from them, nor do I want them to feed Me-",
+            "de": null
+          },
+          "url": "https://quran.com/51/57"
+        }
+      ]
+    },
+    {
+      "id": "Q29:17",
+      "source": {
+        "kind": "quran",
+        "verse": {
+          "key": "29:17",
+          "arabic": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَـٰنًا وَتَخْلُقُونَ إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
+          "arabicPlain": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَـٰنًا وَتَخْلُقُونَ إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
+          "translations": {
+            "en": "What you worship instead of God are mere idols; what you invent is nothing but falsehood. Those you serve instead of God have no power to give you provisions, so seek provisions from God, serve Him, and give Him thanks: you will all be returned to Him.",
+            "de": null
+          },
+          "url": "https://quran.com/29/17"
+        }
+      },
+      "context": [
+        {
+          "key": "29:16",
+          "arabic": "وَإِبْرَٰهِيمَ إِذْ قَالَ لِقَوْمِهِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ ۖ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+          "arabicPlain": "وَإِبْرَٰهِيمَ إِذْ قَالَ لِقَوْمِهِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ ۖ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+          "translations": {
+            "en": "We also sent Abraham. He said to his people, ‘Serve God and be mindful of Him: that is better for you, if only you knew.",
+            "de": null
+          },
+          "url": "https://quran.com/29/16"
+        },
+        {
+          "key": "29:18",
+          "arabic": "وَإِن تُكَذِّبُوا۟ فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ ۖ وَمَا عَلَى ٱلرَّسُولِ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
+          "arabicPlain": "وَإِن تُكَذِّبُوا۟ فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ ۖ وَمَا عَلَى ٱلرَّسُولِ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
+          "translations": {
+            "en": "If you say this is a lie, [be warned that] other communities before you said the same. The messenger’s only duty is to give clear warning.’",
+            "de": null
+          },
+          "url": "https://quran.com/29/18"
+        }
+      ]
+    },
+    {
+      "id": "HE65936",
+      "source": {
+        "kind": "hadith",
+        "hadith": {
+          "id": "HE65936",
+          "arabic": "عَنْ أَنَسٍ أَنَّ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ رَأَى شَيْخًا يُهَادَى بَيْنَ ابْنَيْهِ، فَقَالَ: «مَا بَالُ هَذَا؟» قَالُوا: نَذَرَ أَنْ يَمْشِيَ، قَالَ: «إِنَّ اللهَ عَنْ تَعْذِيبِ هَذَا نَفْسَهُ لَغَنِيٌّ»، وَأَمَرَهُ أَنْ يَرْكَبَ.",
+          "translations": {
+            "en": null,
+            "de": null
+          },
+          "collection": "agreed",
+          "numbers": {
+            "bukhari": 1865,
+            "muslim": 1642
+          },
+          "gradeAr": "صحيح",
+          "attributionAr": "متفق عليه",
+          "url": "https://hadeethenc.com/en/browse/hadith/65936"
+        }
+      },
+      "context": []
+    }
+  ],
+  "pairs": [
+    {
+      "id": "recorded-creation",
+      "candidateIds": [
+        "Q51:56"
+      ],
+      "category": "uncited_context_leak",
+      "claims": {
+        "en": {
+          "faithful": "The Quran states that jinn and mankind were created to worship Allah.",
+          "incorrect": "God created humans solely to worship Him, not because He requires their provision or sustenance."
+        },
+        "de": {
+          "faithful": "Der Koran sagt, dass die Dschinn und die Menschen erschaffen wurden, um Allah zu dienen.",
+          "incorrect": "Gott erschuf die Menschen allein, um Ihm zu dienen, nicht weil Er ihre Versorgung oder ihren Unterhalt braucht."
+        },
+        "ar": {
+          "faithful": "يذكر القرآن أن الجن والإنس خُلقوا لعبادة الله.",
+          "incorrect": "خلق الله البشر لعبادته وحده، لا لأنه يحتاج إلى رزقهم أو إطعامهم."
+        }
+      }
+    },
+    {
+      "id": "recorded-benefit",
+      "candidateIds": [
+        "Q29:17",
+        "HE65936"
+      ],
+      "category": "unsupported_causal_benefit",
+      "claims": {
+        "en": {
+          "faithful": "The Quran calls its audience to worship God and give thanks; the Prophet said Allah does not need that man's self-imposed suffering.",
+          "incorrect": "Although God is entirely self-sufficient and independent of human actions, people are directed to worship and thank Him because it benefits them."
+        },
+        "de": {
+          "faithful": "Der Koran fordert seine Zuhörer auf, Gott zu dienen und Ihm zu danken; der Prophet sagte, dass Allah die selbst auferlegte Qual dieses Mannes nicht braucht.",
+          "incorrect": "Obwohl Gott vollkommen unabhängig von menschlichen Handlungen ist, werden die Menschen zu Gottesdienst und Dank aufgefordert, weil dies ihnen nützt."
+        },
+        "ar": {
+          "faithful": "يدعو القرآن المخاطَبين إلى عبادة الله وشكره، وذكر النبي أن الله غني عن تعذيب ذلك الرجل نفسه.",
+          "incorrect": "مع أن الله غني تمامًا عن أفعال البشر، فقد أُمر الناس بعبادته وشكره لأن ذلك ينفعهم."
+        }
+      }
+    }
+  ]
+}

@@ -10,6 +10,7 @@
 
 import { compareSourceIds, consecutiveRuns, quranCardId } from "./ids";
 import type { SelectedPassage } from "./retrieval";
+import type { ContributionUnit } from "./contribution-plan";
 
 export const PACKAGE_CAPS = { quranCards: 3, hadith: 2, scholar: 2, passages: 8 } as const;
 
@@ -23,6 +24,9 @@ export type ChooserOptions = {
   namedPassages?: readonly (readonly string[])[]; // complete passages named by the visitor (al-Fatiha)
   caps?: PackageCaps; // default PACKAGE_CAPS
   tierOrder?: boolean; // writer order Quran, hadith, scholar before the first point (tiered mode)
+  contributionPlan?: readonly ContributionUnit[]; // Preview: preserve necessary meaning; no quota filling.
+  preservePlannedExcerpts?: boolean; // Internal: separate eligible excerpts on one page may both be needed.
+  diverseQuranFillers?: boolean; // Order optional high-overlap Quran fillers after other eligible contributions.
 };
 
 export type ChosenPackage = { passages: SelectedPassage[]; cards: QuranCard[] };
@@ -65,6 +69,23 @@ const covers = (units: Unit[], required: readonly string[]) => {
   return required.every((id) => covered.has(id));
 };
 
+// Ranking signal only, never a judgment that two teachings are interchangeable.
+// Originals remain untouched. Named/required/condition-bearing units are not demoted.
+function overlapsQuranFiller(a: Unit, chosen: Unit[]) {
+  if (a.kind !== "quran" || a.named || a.passages.some(p => p.contribution?.conditions.length)) return false;
+  const words = (s: string) => s.normalize("NFKC").replace(/[\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06edـ]/gu, "")
+    .replace(/[أإآٱ]/gu, "ا").replace(/ى/gu, "ي").match(/[\p{L}\p{N}]+/gu) ?? [];
+  return a.passages.some(p => p.source.kind === "quran" && chosen.some(unit => unit.kind === "quran" && unit.passages.some(q => {
+    if (q.source.kind !== "quran" || !p.requirementIds.length || p.requirementIds.length !== q.requirementIds.length
+      || !p.requirementIds.every(id => q.requirementIds.includes(id))) return false;
+    const x = words(p.source.kind === "quran" ? p.source.verse.arabic : ""), y = words(q.source.verse.arabic);
+    const n = Math.max(7, Math.ceil(Math.min(x.length, y.length) * .6));
+    if (Math.min(x.length, y.length) < n) return false;
+    const spans = new Set(Array.from({ length: x.length - n + 1 }, (_, i) => x.slice(i, i + n).join(" ")));
+    return Array.from({ length: y.length - n + 1 }, (_, i) => y.slice(i, i + n).join(" ")).some(s => spans.has(s));
+  })));
+}
+
 /**
  * Builds the capped package from direct, context-safe passages given in retrieval order.
  * Returns null when no set within the caps covers every requested point (the answer refuses).
@@ -83,12 +104,39 @@ export function chooseSealedPackage(
     .filter(({ passage }) => {
       if (seenIds.has(passage.id)) return false;
       seenIds.add(passage.id);
-      if (passage.source.kind !== "scholar") return true;
+      if (passage.source.kind !== "scholar" || options.contributionPlan || options.preservePlannedExcerpts) return true;
       const url = passage.source.quote.url;
       if (seenUrls.has(url)) return false;
       seenUrls.add(url);
       return true;
     });
+
+  if (options.contributionPlan) {
+    // All citations jointly needed for a contribution are atomic. If the required evidence
+    // exceeds the limits, refuse instead of silently dropping a necessary step/condition.
+    const allIds = new Set(ordered.map(x => x.passage.id));
+    if (!options.contributionPlan.length || options.contributionPlan.some(u => !u.sourceIds.length || u.sourceIds.some(id => !allIds.has(id)))) return null;
+    const selectedIds = new Set(options.contributionPlan.filter(u => u.necessary).flatMap(u => u.sourceIds));
+    const preserveNamed = (ids: Set<string>) => {
+      for (const group of options.namedPassages ?? []) if (group.every(id => allIds.has(id)) && group.some(id => ids.has(id))) group.forEach(id => ids.add(id));
+      return ids;
+    };
+    preserveNamed(selectedIds);
+    const packageFor = (ids: Set<string>) => chooseSealedPackage(ordered.filter(x => ids.has(x.passage.id)).map(x => x.passage), requiredIds,
+      { ...options, contributionPlan: undefined, preservePlannedExcerpts: true });
+    // The legacy chooser may order and group this explicit set, but may not truncate it.
+    const intact = (ids: Set<string>) => {
+      const result = packageFor(ids);
+      return result && result.passages.length === ids.size ? result : null;
+    };
+    if (selectedIds.size && !intact(selectedIds)) return null;
+    for (const unit of options.contributionPlan.filter(u => !u.necessary)) {
+      const proposed = preserveNamed(new Set([...selectedIds, ...unit.sourceIds]));
+      if (intact(proposed)) proposed.forEach(id => selectedIds.add(id));
+    }
+    if (!selectedIds.size) return null;
+    return intact(selectedIds);
+  }
 
   // A complete passage the visitor named (for example al-Fatiha) is one unit, but only when every
   // one of its verses was judged direct and context-safe. Otherwise its verses stand alone.
@@ -123,7 +171,7 @@ export function chooseSealedPackage(
   units.sort(preference);
 
   // 1. The smallest cover within the caps; among equal sizes, the first in preference order.
-  let cover: Unit[] | null = null;
+  let cover: Unit[] | null = requiredIds.length ? null : [];
   const search = (start: number, size: number, picked: Unit[]): boolean => {
     if (picked.length === size) {
       if (covers(picked, requiredIds) && fits(picked, caps)) {
@@ -151,8 +199,11 @@ export function chooseSealedPackage(
   // contributions. None can replace a member of the direct coverage set above.
   const fillers = direct.some(p => p.explanationRequirementIds !== undefined) ? [...units].sort((a, b) => Number(coverUnits.some(u => u.kind === a.kind))
     - Number(coverUnits.some(u => u.kind === b.kind)) || preference(a, b)) : units;
-  for (const unit of fillers) {
-    if (chosen.includes(unit)) continue;
+  const pendingFillers = fillers.filter(unit => !chosen.includes(unit));
+  while (pendingFillers.length) {
+    if (options.diverseQuranFillers) pendingFillers.sort((a, b) => Number(overlapsQuranFiller(a, chosen)) - Number(overlapsQuranFiller(b, chosen))
+      || fillers.indexOf(a) - fillers.indexOf(b));
+    const unit = pendingFillers.shift()!;
     if (fits([...chosen, unit], caps)) chosen.push(unit);
   }
 

@@ -13,11 +13,11 @@ export type GroupOutcome = "ready" | "no_direct_evidence" | "unavailable" | "tim
 export type DisplayTranslation = { status: "ready"; text: string; language: "en" | "de"; origin: "ai" | "human"; original: string; originalHash: string; reviewer?: string; reviewedAt?: string }
   | { status: "unavailable" | "lookup_failed" | "not_checked" | "rejected" };
 export type RichSource = { id: string; evidence: Evidence; role?: "direct" | "background" | "limited_example"; requirementIds?: string[]; explanationRequirementIds?: string[]; displayTranslation?: DisplayTranslation };
-export type RichSection = { group: RichGroup; outcome: GroupOutcome; claims: Claim[]; sources: RichSource[]; searchOutcome?: "unavailable" | "timeout" | "search_failed" };
+export type RichSection = { group: RichGroup; outcome: GroupOutcome; omitted?: true; claims: Claim[]; sources: RichSource[]; searchOutcome?: "unavailable" | "timeout" | "search_failed" };
 export type RichGuidance = { text: string; refs: string[]; kind: "learning" | "sourced_instruction" };
 export type RichGuide = "ask_specific_followup" | "clarify_application" | "study_evidence" | "learn_steps" | RichGuidance;
 type RichBase = { language: Locale; review: "automatic"; sections: RichSection[]; complete: true };
-export type RichAnswer = RichBase & ({ version: 3; guide: Exclude<RichGuide, RichGuidance>; videos?: never } | { version: 4; guide: RichGuidance; videos?: RelatedVideos });
+export type RichAnswer = RichBase & ({ version: 3; guide: Exclude<RichGuide, RichGuidance>; videos?: never } | { version: 4; guide?: RichGuidance; videos?: RelatedVideos });
 export type RichProgress = "understanding" | "searching" | "checking_evidence" | "writing_quran" | "checking_quran" | "checking_hadith" | "checking_scholar" | "checking_remaining" | "finding_videos";
 export type RichCallbacks = { onSection?: (section: RichSection) => void; onProgress?: (stage: RichProgress) => void; onWithdraw?: () => void };
 export type RichTerminal = { status: "rich_answer"; answer: RichAnswer } | { status: "incomplete"; language: Locale; withdraw: boolean; sections?: RichSection[] };
@@ -49,6 +49,7 @@ export function validRichSection(value: unknown, language?: Locale): value is Ri
   try {
     const s = value as RichSection;
     if (!s || !RICH_ORDER.includes(s.group) || !outcomes.includes(s.outcome) || !Array.isArray(s.claims) || !Array.isArray(s.sources) || s.sources.length > 20 || s.claims.length > (s.group === "summary" ? 4 : 8)) return false;
+    if (s.omitted !== undefined && (s.omitted !== true || s.group === "summary" || s.outcome !== "not_checked" || s.claims.length || s.sources.length)) return false;
     if (s.searchOutcome !== undefined && !["unavailable", "timeout", "search_failed"].includes(s.searchOutcome)) return false;
     if (s.outcome !== "ready") return s.claims.length === 0 && s.sources.length === 0 && s.group !== "summary";
     if (!s.claims.length || !s.sources.length || new Set(s.sources.map(x => x.id)).size !== s.sources.length) return false;
@@ -85,12 +86,12 @@ export function validRichAnswer(value: unknown): value is RichAnswer {
   return !!a && [3, 4].includes(a.version) && ["en", "ar", "de"].includes(a.language) && a.review === "automatic" && a.complete === true
     && (a.videos === undefined || a.version === 4 && validRelatedVideos(a.videos))
     && (a.version === 3 ? ["ask_specific_followup", "clarify_application", "study_evidence", "learn_steps"].includes(a.guide)
-      : validRichGuidance(a.guide, a.language, a.sections?.flatMap(s => s.sources.map(x => x.id)) ?? []))
+      : a.guide === undefined || validRichGuidance(a.guide, a.language, a.sections?.flatMap(s => s.sources.map(x => x.id)) ?? []))
     && Array.isArray(a.sections) && a.sections.length === 4 && a.sections.every((s, i) => validRichSection(s, a.language) && s.group === RICH_ORDER[i])
     && a.sections[3].outcome === "ready" && (a.version === 4 || a.sections.every(s => s.outcome !== "failed_check" && s.outcome !== "not_checked"))
     && (a.version === 3 || a.sections.every(s => s.sources.every(x => !!x.role && Array.isArray(x.requirementIds) && Array.isArray(x.explanationRequirementIds))))
     && (a.version === 3 || a.sections.filter(s => s.group === "summary").every(s => s.claims.every(c => c.refs.every(ref => explanationRefs.has(ref))))
-      && a.guide.refs.every(ref => explanationRefs.has(ref)))
+      && (a.guide === undefined || a.guide.refs.every(ref => explanationRefs.has(ref))))
     && a.sections.reduce((n, s) => n + s.claims.length, 0) <= 32;
   } catch { return false; }
 }

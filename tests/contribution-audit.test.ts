@@ -6,6 +6,23 @@ const findings = () => [
   { claim_id: "C2", contribution: "Connects that principle to the requested concern", kind: "synthesis", adds_value: "yes", duplicates: [] as string[] },
 ];
 describe("structured contribution findings", () => {
+  it("allows a checked direct summary to recap source explanations without inventing novel facts", () => {
+    const rows = findings(); rows[0].duplicates = ["C2"]; rows[1].duplicates = ["C1"]; rows[1].adds_value = "no";
+    expect(contributionAudit(rows, ["C1", "C2"], ["C2"], true)).toEqual([]);
+    expect(contributionAudit(rows, ["C1", "C2"], ["C2"], false)).toContain("semantic_repetition");
+    rows[1].adds_value = "unsure";
+    expect(contributionAudit(rows, ["C1", "C2"], ["C2"], true)).toContain("contribution_not_useful");
+  });
+  it("still rejects repetition between explanations even with a checked summary", () => {
+    const rows = findings(); rows[0].duplicates = ["C2"];
+    expect(contributionAudit(rows, ["C1", "C2"], [], true)).toContain("semantic_repetition");
+  });
+  it("allows a source explanation to connect passages without misclassifying it as a final answer", () => {
+    const rows = findings(); rows[0].kind = "synthesis";
+    expect(contributionAudit(rows, ["C1", "C2"], [])).toEqual([]);
+    rows[0].duplicates = ["C2"];
+    expect(contributionAudit(rows, ["C1", "C2"], [])).toContain("semantic_repetition");
+  });
   it("accepts a short useful explanation and direct synthesis without demanding new religious claims", () => {
     expect(contributionAudit(findings(), ["C1", "C2"], ["C2"])).toEqual([]);
   });

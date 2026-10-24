@@ -1,6 +1,6 @@
 import "server-only";
 import { createClient } from "@supabase/supabase-js";
-import { askDurable, askStreaming } from "@/lib/ask/settings";
+import { askDurable, askStreaming, askPatient } from "@/lib/ask/settings";
 import { askEnabled } from "@/lib/ask/limits";
 import { handleResearchJob, type ResearchAction } from "./job-api";
 import { researchOwners } from "./job-owner";
@@ -43,9 +43,11 @@ export async function researchJobRoute(
       },
     });
     const { serverJobFreshness } = await import("./server-job-freshness");
+    const store = serverResearchJobs();
     return await handleResearchJob(request, action, {
       owners: researchOwners(secret),
-      store: serverResearchJobs(),
+      store,
+      ...(askPatient() ? { protocol: 2 as const, continue: store.continue } : {}),
       freshness: serverJobFreshness(),
       engineRevision: researchEngineRevision(),
       maxCostUsd,

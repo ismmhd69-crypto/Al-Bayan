@@ -13,3 +13,7 @@ data/sunnah/
 supabase/.temp/
 /work/private-ask-evaluation/
 /work/local-ask-traces/
+# Generated local test reports and interrupted atomic-write files stay local.
+/work/*-tests.json
+/work/*-results.json
+/docs/ask-repair-runs/*.pending*

@@ -10,6 +10,12 @@ import { journalledModelTransport } from "../lib/ask/search-engine/transport-jou
 import { runNextResearchJob } from "../lib/ask/search-engine/job-worker";
 import { modelFetch } from "../lib/ai/transport";
 import { richAnswer, sections } from "../tests/fixtures/rich";
+import { emptyPatientState, reducePatientEvent, type PatientEvent } from "../lib/ask/patient-protocol";
+import type { PatientCheckpoint } from "../lib/ask/patient-engine";
+import { runPatientResearch, type PatientEngineDeps } from "../lib/ask/patient-engine";
+import { runPatientLease } from "../lib/ask/search-engine/patient-worker";
+import { pack } from "../tests/fixtures/rich";
+import { nextResearchProgress } from "../lib/ask/research-progress";
 
 async function main() {
   const root = resolve(process.cwd(), "work/private-ask-evaluation");
@@ -303,6 +309,86 @@ async function main() {
       const complete = await store.read(id, owner);
       assert.equal(complete.state, "complete"); assert.equal(networkCalls, 1);
       assert.equal(complete.events.filter(e => (e.payload as { type?: string }).type === "section").length, 4);
+    });
+    await check("patient pause checkpoint is private and Continue keeps the same job and sequence", async () => {
+      await reset();
+      const codec = researchJobEncryption("test-key", Buffer.alloc(32, 9).toString("base64"));
+      const store = researchJobStore(rpc, codec), id = randomUUID(), engineRevision = "e".repeat(64);
+      await store.enqueue({ id, owner, rate, dedupe: "d".repeat(64), requestHash, request: { version: 2, question: "Synthetic patient question", lang: "en", previous_user_messages: [], engineRevision }, maxCostUsd: 0.2 });
+      const lease = (await store.claim())!;
+      let state = emptyPatientState(id, "en");
+      const event: PatientEvent = { version: 2, job_id: id, sequence: 1, type: "pause", reason: "source_failed" };
+      state = reducePatientEvent(state, event);
+      const checkpoint: PatientCheckpoint = { version: 2, engineRevision, state, evidenceRevision: 1, research: {} };
+      await store.appendPatient(lease, event, checkpoint);
+      const paused = await store.read(id, owner);
+      assert.equal(paused.state, "paused"); assert.equal(paused.protocol, 2);
+      assert.equal("checkpoint" in paused, false);
+      await assert.rejects(store.continue(id, "0".repeat(64)), /not_found/);
+      assert.deepEqual(await store.continue(id, owner), { id, state: "queued", sequence: 1 });
+      const resumed = (await store.claim())!;
+      assert.equal(resumed.id, id); assert.deepEqual(resumed.checkpoint, checkpoint);
+      await assert.rejects(store.appendPatient(lease, { ...event, sequence: 2 }, { ...checkpoint, state: { ...state, sequence: 2 } }), /lease_lost/);
+      const row = await db.query("select checkpoint_cipher::text as cipher, spent_usd from editorial.ask_research_jobs where id=$1", [id]);
+      assert.equal(String(row.rows[0].cipher).includes("source_failed"), false);
+      assert.equal(Number(row.rows[0].spent_usd), 0);
+    });
+    await check("unfinished discovery survives a worker lease restart without exposing originals or queries in events", async () => {
+      await reset();
+      const codec = researchJobEncryption("test-key", Buffer.alloc(32, 9).toString("base64"));
+      const store = researchJobStore(rpc, codec), id = randomUUID(), engineRevision = "e".repeat(64);
+      await store.enqueue({ id, owner, rate, dedupe: "d".repeat(64), requestHash, request: { version: 2, question: "Synthetic discovery", lang: "en", previous_user_messages: [], engineRevision }, maxCostUsd: 0.2 });
+      const lease = (await store.claim())!;
+      const discovery = nextResearchProgress(undefined, { candidates: pack.passages, working: pack.passages,
+        queries: [{ query: { requirementId: "R1", family: "hadith", language: "en", text: "private unfinished query" }, attempt: 0, status: "planned" }],
+        recoveryRounds: [{ attempt: 0, round: 1 }] });
+      const event: PatientEvent = { version: 2, job_id: id, sequence: 1, type: "research_checkpoint", revision: discovery.revision, hash: discovery.hash };
+      const checkpoint: PatientCheckpoint = { version: 2, engineRevision, state: reducePatientEvent(emptyPatientState(id, "en"), event), evidenceRevision: 1, research: {}, discovery };
+      await store.appendPatient(lease, event, checkpoint);
+      const view = await store.read(id, owner), publicText = JSON.stringify(view);
+      assert.equal("checkpoint" in view, false);
+      assert.equal(publicText.includes("private unfinished query"), false);
+      assert.equal(publicText.includes(pack.passages[0].source.kind === "quran" ? pack.passages[0].source.verse.arabic : "invalid fixture"), false);
+      assert.deepEqual(view.events[0].payload, event);
+      await db.query("update editorial.ask_research_jobs set lease_expires_at=clock_timestamp()-interval '1 second' where id=$1", [id]);
+      const restarted = (await store.claim())!;
+      assert.equal(restarted.id, id); assert.deepEqual(restarted.checkpoint, checkpoint);
+      const row = await db.query("select checkpoint_cipher::text as cipher, spent_usd from editorial.ask_research_jobs where id=$1", [id]);
+      assert.equal(String(row.rows[0].cipher).includes("private unfinished query"), false);
+      assert.equal(Number(row.rows[0].spent_usd), 0);
+    });
+    await check("patient worker pauses and continues through SQL without rerunning finished source work", async () => {
+      await reset();
+      const store = researchJobStore(rpc, researchJobEncryption("test-key", Buffer.alloc(32, 9).toString("base64")));
+      const id = randomUUID(), engineRevision = "a".repeat(64);
+      await store.enqueue({ id, owner, rate, dedupe: "d".repeat(64), requestHash, request: { version: 2, question: "Synthetic patient work", lang: "en", previous_user_messages: [], engineRevision }, maxCostUsd: 0.2 });
+      let networkCalls = 0, resumed = false;
+      const researched: string[] = [];
+      const send = async () => { networkCalls++; return new Response(JSON.stringify({ id: `gen-patient-fake-${networkCalls}`, usage: { cost: 0.01 }, choices: [] })); };
+      const section = (group: string) => ({ ...sections.find(s => s.group === group)!, sources: sections.find(s => s.group === group)!.sources.map(s => ({ ...s, role: "direct" as const, requirementIds: ["R1"], explanationRequirementIds: [] })) });
+      const execute: Parameters<typeof runPatientLease>[1]["execute"] = async (request, checkpoint, append, signal) => {
+        const deps: PatientEngineDeps = { engineRevision, signal, append, revalidate: async () => true,
+          research: async group => {
+            researched.push(group);
+            if (group === "scholar" && !resumed) return { status: "failed", reason: "source_failed" };
+            if (group === "quran" || group === "scholar") await modelFetch("https://openrouter.ai/api/v1/chat/completions", { method: "POST", body: JSON.stringify({ synthetic_stage: group }) });
+            return { status: "ready", passages: pack.passages.filter(p => p.source.kind === group) };
+          },
+          checkSection: async group => section(group),
+          finalReview: async () => resumed ? { status: "complete", summary: section("summary"), guide: { text: "Read the cited explanation.", kind: "learning", refs: [] } }
+            : { status: "needs_attention", reason: "source_failed", requiredGroups: ["scholar"], withdrawGroups: [] },
+        };
+        return runPatientResearch({ jobId: id, language: request.lang, checkpoint }, deps);
+      };
+      assert.equal(await runPatientLease((await store.claim())!, { store, engineRevision, maxAttemptCostUsd: 0.05, execute, send }), "paused");
+      const partial = await store.read(id, owner); assert.equal(partial.state, "paused");
+      assert.equal(networkCalls, 1); assert.equal(partial.events.filter(e => (e.payload as PatientEvent).type === "section").length, 2);
+      await store.continue(id, owner); resumed = true;
+      assert.equal(await runPatientLease((await store.claim())!, { store, engineRevision, maxAttemptCostUsd: 0.05, execute, send }), "complete");
+      assert.deepEqual(researched, ["quran", "hadith", "scholar", "scholar"]); assert.equal(networkCalls, 2);
+      const completed = await store.read(id, owner); assert.equal(completed.state, "complete");
+      assert.equal((completed.events.at(-1)!.payload as PatientEvent).type, "terminal");
+      const costs = await db.query("select spent_usd from editorial.ask_research_jobs where id=$1", [id]); assert.equal(Number(costs.rows[0].spent_usd), 0.02);
     });
     const report = { status: "passed", checkedAt: new Date().toISOString(), database: "local PostgreSQL via PGlite 0.5.10", migration: "unapplied remotely",
       migrationSha256: createHash("sha256").update(migration).digest("hex"), rightsMigrationSha256:createHash("sha256").update(rightsMigration).digest("hex"), checks };

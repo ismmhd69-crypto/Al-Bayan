@@ -28,7 +28,138 @@ function setup() {
   deps.searchScholars = async () => pack.passages[2].source.kind === "scholar" ? [pack.passages[2].source.quote] : [];
   return deps;
 }
+function requireHadithForCoverage(deps: ReturnType<typeof setup>) {
+  const verify = deps.verifier.generateJson;
+  deps.verifier.generateJson = async req => {
+    const result = await verify(req) as Record<string, unknown>;
+    if (req.system.startsWith("You select evidence")) for (const group of ["quran", "scholar"]) {
+      for (const row of result[`${group}_assessments`] as Record<string, unknown>[]) Object.assign(row, {
+        relevance: "partial", supported_requirement_ids: [], related_requirement_ids: ["R1"], distinct_contribution: "yes",
+        contribution: { role: "background", scope: "general", conditions: [] },
+      });
+    }
+    return result;
+  };
+}
 describe("rich path through real framing, parallel retrieval and selection", () => {
+  it("allocates bounded neighbour discovery after relevance ordering in the actual pipeline", async () => {
+    const deps = setup(), base = pack.passages[0].source;
+    if (base.kind !== "quran") throw Error("fixture");
+    const keys = Array.from({ length: 16 }, (_, i) => `2:${i * 3 + 4}`);
+    const verse = (key: string) => ({ ...structuredClone(base.verse), key, url: `https://quran.com/${key.replace(":", "/")}`, arabic: `نص اختباري مستقل للآية ${key}` });
+    deps.search = async () => keys;
+    deps.getVerse = vi.fn(async key => verse(key));
+    deps.neighbours = vi.fn(async key => { const n = Number(key.split(":")[1]); return [verse(`2:${n - 1}`), verse(`2:${n + 1}`)]; });
+    const ranked: string[][] = [], selected: string[][] = [];
+    deps.meaningRankCandidates = async (_frame, candidates) => {
+      ranked.push(candidates.map(c => c.id));
+      return [...candidates].sort((a, b) => Number(b.id === "Q2:49") - Number(a.id === "Q2:49")).slice(0, 30);
+    };
+    deps.onCandidates = candidates => selected.push(candidates.map(c => c.id));
+    await runPipeline("Explain care", "en", deps);
+    expect(ranked[0]).not.toContain("Q2:50");
+    expect(ranked[1]).toContain("Q2:50");
+    expect(selected[0]).toContain("Q2:50");
+    expect(deps.getVerse).toHaveBeenCalledWith("2:50");
+    expect(deps.neighbours).toHaveBeenCalledWith("2:50");
+  });
+
+  it("reuses the seed ranking when discovery adds nothing", async () => {
+    const deps = setup(); deps.neighbours = async () => [];
+    deps.meaningRankCandidates = vi.fn(async (_frame, candidates) => candidates);
+    await runPipeline("Explain care", "en", deps);
+    expect(deps.meaningRankCandidates).toHaveBeenCalledOnce();
+  });
+
+  it("independently fetches and selects an adjacent original instead of borrowing its meaning through context", async () => {
+    const deps = setup(), base = pack.passages[0].source;
+    if (base.kind !== "quran") throw Error("fixture");
+    const neighbor = { ...structuredClone(base.verse), key: "2:184", url: "https://quran.com/2/184", arabic: "هذا مثال مجاور مستقل يستخدم لاختبار مسار البحث وحده" };
+    deps.getVerse = vi.fn(async key => key === "2:183" ? base.verse : key === "2:184" ? neighbor : undefined);
+    deps.neighbours = vi.fn(async key => key === "2:183" ? [neighbor] : [base.verse]);
+    const ranked: string[][] = [];
+    deps.meaningRankCandidates = async (_frame, candidates) => { ranked.push(candidates.map(c => c.id)); return candidates; };
+    const verify = deps.verifier.generateJson, write = deps.writer.generateJson;
+    deps.verifier.generateJson = async req => {
+      const result = await verify(req) as any;
+      if (req.system.startsWith("You select evidence")) for (const r of result.quran_assessments) {
+        if (r.source_id === "Q2:183") Object.assign(r, { relevance: "mention_only", supported_requirement_ids: [] });
+      }
+      return result;
+    };
+    deps.writer.generateJson = async req => {
+      const result = structuredClone(await write(req)) as any;
+      if (req.system.startsWith("You create a safe search plan")) return result;
+      for (const group of ["quran", "summary"]) for (const claim of result[group] ?? []) claim.source_ids = claim.source_ids.map((id: string) => id === "Q2:183" ? "Q2:184" : id);
+      return result;
+    };
+    const result = await runPipeline("Explain care", "en", deps);
+    expect(ranked[0]).not.toContain("Q2:184");
+    expect(ranked[1]).toContain("Q2:184");
+    expect(deps.getVerse).toHaveBeenCalledWith("2:184");
+    expect(deps.neighbours).toHaveBeenCalledWith("2:184");
+    expect(result.status).toBe("rich_answer");
+    if (result.status === "rich_answer") {
+      const quran = result.answer.sections.find(s => s.group === "quran")!;
+      expect(quran.sources.map(s => s.id)).toEqual(["Q2:184"]);
+      expect(quran.sources[0].evidence.arabic).toBe(neighbor.arabic);
+    }
+  });
+
+  it.each([false, true])("uses the explicit contribution plan in the real pipeline without filling a scholar quota (tiered %s)", async tiered => {
+    const deps = setup(), verify = deps.verifier.generateJson, write = deps.writer.generateJson;
+    deps.distinctSelection = true; if (!tiered) deps.tiered = undefined;
+    let selections = 0;
+    deps.verifier.generateJson = async req => {
+      if (!req.system.startsWith("You select evidence")) return verify(req);
+      selections++;
+      expect(req.system).toContain("evidence_plan");
+      expect(req.schema.type === "object" && req.schema.required).toContain("evidence_plan");
+      const input = JSON.parse(req.prompt);
+      const assess = (p: { source: { id: string } }) => ({ source_id: p.source.id, relevance: "partial", supported_requirement_ids: ["R1"],
+        context_safe: "yes", position: "", contribution: { role: "direct", scope: "general", conditions: [] }, scope_matches_question: "yes", distinct_contribution: "yes", related_requirement_ids: [] });
+      return { status: "ready", coverage: "complete", conflict_type: "none",
+        ...(tiered ? Object.fromEntries(["quran", "hadith", "scholar"].map(g => [`${g}_assessments`, input[`${g}_candidates`].map(assess)])) : { assessments: input.candidates.map(assess) }),
+        evidence_plan: [{ contribution: "The general principle", purpose: "answer", necessary: "yes", requirement_ids: ["R1"], source_ids: ["Q2:183"] },
+          { contribution: "A complementary detail", purpose: "qualification", necessary: "yes", requirement_ids: ["R1"], source_ids: ["HE9001"] }] };
+    };
+    deps.writer.generateJson = async req => {
+      if (req.system.startsWith("You create a safe search plan")) return write(req);
+      const input = JSON.parse(req.prompt), result = await write(req) as Record<string, unknown>;
+      expect(input.evidence_package.passages.map((p: { id: string }) => p.id)).toEqual(["Q2:183", "HE9001"]);
+      expect(input.evidence_package.contribution_plan).toMatchObject({ planning_only: true, cannot_establish_support: true });
+      if (input.sections_to_write.includes("scholar")) result.scholar = [];
+      if (input.sections_to_write.includes("summary")) result.summary = [{ ...drafts.summary[0], source_ids: ["Q2:183", "HE9001"] }];
+      return result;
+    };
+    const result = await runPipeline("Explain care", "en", deps);
+    expect(result.status).toBe("rich_answer"); expect(selections).toBe(1);
+  });
+  it("normalises a scholar-only label on a known hadith without another model call", async () => {
+    const deps = setup(), verify = deps.verifier.generateJson;
+    let selections = 0;
+    deps.verifier.generateJson = async req => {
+      const result = await verify(req) as Record<string, unknown>;
+      if (req.system.startsWith("You select evidence")) {
+        selections++;
+        if (selections === 1) (result.hadith_assessments as { position: string }[])[0].position = "position-a";
+      }
+      return result;
+    };
+    expect((await runPipeline("Explain care", "en", deps)).status).toBe("rich_answer");
+    expect(selections).toBe(1);
+  });
+  it("does not normalise an unknown source identity along with an irrelevant position", async () => {
+    const deps = setup(), verify = deps.verifier.generateJson;
+    let selections = 0;
+    deps.verifier.generateJson = async req => {
+      const result = await verify(req) as Record<string, unknown>;
+      if (req.system.startsWith("You select evidence")) { selections++; Object.assign((result.hadith_assessments as object[])[0], { position: "position-a", source_id: "HE111111111" }); }
+      return result;
+    };
+    expect((await runPipeline("Explain care", "en", deps)).status).toBe("incomplete");
+    expect(selections).toBeLessThanOrEqual(2);
+  });
   it.each([false, true])("excludes a Quran candidate after context failure while preserving other sources (meaning ranking %s)", async meaning => {
     const deps = setup();
     deps.neighbours = vi.fn(async () => { throw new DOMException("Provider request timed out", "TimeoutError"); });
@@ -70,18 +201,28 @@ describe("rich path through real framing, parallel retrieval and selection", () 
   });
   it("uses a new gap-specific search phrase and rechecks recovered evidence", async () => {
     const deps = setup(), h = deps.searchHadith!; let calls = 0;
+    const diagnostics: string[] = []; deps.onDiagnostic = (_stage, code) => { diagnostics.push(code); };
+    requireHadithForCoverage(deps);
     deps.searchHadith = async q => ++calls === 1 ? [] : h(q);
     deps.planEvidenceRecovery = vi.fn<RecoveryPlanner>(async () => [{ requirementId: "R1", family: "hadith", language: "ar", text: "صياغة مختلفة للبحث" }]);
     const result = await runPipeline("Explain care", "en", deps);
-    expect(deps.planEvidenceRecovery).toHaveBeenCalledOnce(); expect(calls).toBe(2); expect(result.status).toBe("rich_answer");
+    expect(deps.planEvidenceRecovery).toHaveBeenCalledOnce(); expect(calls).toBe(2); expect(result.status, diagnostics.join(", ")).toBe("rich_answer");
   });
   it("withholds completion if checking newly recovered evidence fails", async () => {
-    const deps = setup(), h = deps.searchHadith!, verify = deps.verifier.generateJson; let searches = 0, selections = 0;
+    const deps = setup(), h = deps.searchHadith!; let searches = 0, selections = 0;
+    requireHadithForCoverage(deps);
+    const verify = deps.verifier.generateJson;
     deps.searchHadith = async q => ++searches === 1 ? [] : h(q);
     deps.planEvidenceRecovery = async () => [{ requirementId: "R1", family: "hadith", language: "ar", text: "صياغة مختلفة للبحث" }];
     deps.verifier.generateJson = async req => { if (req.system.startsWith("You select evidence") && ++selections > 1) throw new Error("checker unavailable"); return verify(req); };
     const result = await runPipeline("Explain care", "en", deps);
     expect(result.status).toBe("incomplete");
+  });
+  it("does not recover merely to fill an empty source family when direct coverage exists", async () => {
+    const deps = setup(); deps.searchHadith = async () => [];
+    deps.planEvidenceRecovery = vi.fn(async () => []);
+    await runPipeline("Explain care", "en", deps);
+    expect(deps.planEvidenceRecovery).not.toHaveBeenCalled();
   });
   it("offers all retrieved candidates to meaning ranking before the small lexical caps", async () => {
     const deps = setup(), h = (await deps.searchHadith!({}))[0];
@@ -116,6 +257,20 @@ describe("rich path through real framing, parallel retrieval and selection", () 
     expect(deps.writer.generateJson).toHaveBeenCalledTimes(2);
     expect(deps.search).not.toHaveBeenCalled(); expect(deps.searchHadith).not.toHaveBeenCalled();
   });
+  it("routes its existing unreadable-framing correction to the backup without a third attempt", async () => {
+    const deps = setup(), write = deps.writer.generateJson;
+    const flags: (boolean | undefined)[] = [];
+    deps.writer.generateJson = async req => {
+      if (req.system.startsWith("You create a safe search plan")) {
+        expect(req.structuredOutput).toBe(true);
+        flags.push(req.malformedResponseRetry);
+        return flags.length === 1 ? null : frame;
+      }
+      return write(req);
+    };
+    expect((await runPipeline("Explain care", "en", deps)).status).toBe("rich_answer");
+    expect(flags).toEqual([undefined, true]);
+  });
   it("waits for combined evidence, then streams checked explanations for all selected groups", async () => {
     const deps = setup(), seen: string[] = []; let release!: () => void;
     const gate = new Promise<void>(r => release = r); const h = deps.searchHadith!, s = deps.searchScholars!;
@@ -146,8 +301,28 @@ describe("rich path through real framing, parallel retrieval and selection", () 
     expect(result.status).toBe("rich_answer");
     if (result.status === "rich_answer") expect(result.answer.sections[2]).toMatchObject({ outcome: "ready", searchOutcome: "search_failed" });
   });
-  it("recovers missing hadith once even when the scholar already covers the point", async () => {
+  it("does not spend its fallback selection retry to fill an empty optional source family", async () => {
+    const deps = setup(), verify = deps.verifier.generateJson;
+    deps.searchHadith = vi.fn(async () => []);
+    const write = deps.writer.generateJson;
+    deps.writer.generateJson = async req => {
+      const result = structuredClone(await write(req)) as any;
+      if (result.summary) result.summary[0].source_ids = ["Q2:183"];
+      return result;
+    };
+    let selections = 0;
+    deps.verifier.generateJson = async req => {
+      if (req.system.startsWith("You select evidence")) selections++;
+      return verify(req);
+    };
+    const result = await runPipeline("Explain care", "en", deps);
+    expect(result.status).toBe("rich_answer");
+    expect(deps.searchHadith).toHaveBeenCalledTimes(1);
+    expect(selections).toBe(1);
+  });
+  it("recovers missing hadith once when its requested contribution is not covered by the other sources", async () => {
     const deps = setup(), original = deps.searchHadith!;
+    requireHadithForCoverage(deps);
     let searches = 0;
     deps.searchHadith = async q => ++searches === 1 ? [] : original(q);
     const result = await runPipeline("Explain care in daily life", "en", deps);
@@ -155,29 +330,36 @@ describe("rich path through real framing, parallel retrieval and selection", () 
     expect(result.status).toBe("rich_answer");
     if (result.status === "rich_answer") expect(result.answer.sections[1].outcome).toBe("ready");
   });
-  it("tries the approved live scholar recovery when only Quran and hadith were selected", async () => {
+  it("does not invoke live scholar recovery merely because Quran and hadith already cover the concern", async () => {
     const deps = setup();
     deps.searchScholars = async () => [];
+    const writer = deps.writer.generateJson;
+    deps.writer.generateJson = async req => {
+      const output = structuredClone(await writer(req)) as any;
+      if (output.summary) output.summary[0].source_ids = ["Q2:183", "HE9001"];
+      return output;
+    };
     deps.searchScholarsLive = vi.fn(async () => pack.passages[2].source.kind === "scholar" ? [pack.passages[2].source.quote] : []);
     const result = await runPipeline("Explain care in daily life", "en", deps);
-    expect(deps.searchScholarsLive).toHaveBeenCalledOnce();
+    expect(deps.searchScholarsLive).not.toHaveBeenCalled();
     expect(result.status).toBe("rich_answer");
-    if (result.status === "rich_answer") expect(result.answer.sections[2].outcome).toBe("ready");
+    if (result.status === "rich_answer") expect(result.answer.sections[2].outcome).toBe("no_direct_evidence");
   });
-  it("does not force evidence into a source group after one unsuccessful recovery", async () => {
+  it("does not repeat a source search merely to fill an optional group", async () => {
     const deps = setup(), write = deps.writer.generateJson;
     deps.searchHadith = vi.fn(async () => []);
     deps.writer.generateJson = async req => req.system.startsWith("You write short explanations") ? {
       ...await write(req) as object, hadith: [], summary: [{ ...drafts.summary[0], source_ids: ["Q2:183"] }],
     } : write(req);
     const result = await runPipeline("Explain care in daily life", "en", deps);
-    expect(deps.searchHadith).toHaveBeenCalledTimes(2);
+    expect(deps.searchHadith).toHaveBeenCalledTimes(1);
     expect(result.status).toBe("rich_answer");
     if (result.status === "rich_answer") expect(result.answer.sections[1].outcome).toBe("no_direct_evidence");
   });
 
   it("reports a failed recovery as a failed search rather than claiming no direct evidence", async () => {
     const deps = setup(), write = deps.writer.generateJson;
+    requireHadithForCoverage(deps);
     let calls = 0;
     deps.searchHadith = async () => { if (++calls === 1) return []; throw new Error("source down"); };
     deps.writer.generateJson = async req => req.system.startsWith("You write short explanations") ? {
@@ -185,8 +367,8 @@ describe("rich path through real framing, parallel retrieval and selection", () 
     } : write(req);
     const result = await runPipeline("Explain care in daily life", "en", deps);
     expect(calls).toBe(2);
-    expect(result.status).toBe("rich_answer");
-    if (result.status === "rich_answer") expect(result.answer.sections[1].outcome).toBe("search_failed");
+    expect(result.status).toBe("incomplete");
+    if (result.status === "incomplete") expect(result.sections?.[1].outcome).toBe("search_failed");
   });
 
 });

@@ -276,6 +276,11 @@ describe("library lookup", () => {
     expect((await searchLibraryHadith({ ar: ["فضل صلاة الجماعة في المسجد"] })).map((h) => h.id)).toEqual([`SH${UUID}`]);
   });
   it("returns nothing without Arabic phrases", async () => { expect(await searchLibraryHadith({ en: ["prayer"] })).toEqual([]); });
+  it("retains an eligible hit without matching topic words when meaning ranking will assess it", async () => {
+    rpcResult = { data: [{ source_id: UUID }], error: null }; rowsResult = { data: [row()], error: null };
+    expect(await searchLibraryHadith({ ar: ["الصيام" ] })).toEqual([]);
+    expect((await searchLibraryHadith({ ar: ["الصيام"] }, { meaningCandidates: true })).map(h => h.id)).toEqual([`SH${UUID}`]);
+  });
 });
 
 // ---------- hadith card layout: chapter heading and display split ----------

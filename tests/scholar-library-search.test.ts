@@ -25,6 +25,11 @@ describe("bounded scholar library variants", () => {
     expect(await searchScholarQuotes(phrases)).toEqual([]);
     expect(mock.rpc).toHaveBeenCalledTimes(1);
   });
+  it("keeps original-text hits with an unfamiliar title for later meaning checks", async () => {
+    mock.rows = [{ ...row, title: "عنوان مختلف تماما" }];
+    expect(await searchScholarQuotes(phrases)).toEqual([]);
+    expect((await searchScholarQuotes(phrases, 6, { meaningCandidates: true })).map(q => q.id)).toEqual([`S${good}`]);
+  });
   it("searches remaining variants even after hits and filters wrong-kind results before the returned cap", async () => {
     mock.rpc.mockResolvedValueOnce({ data: [{ source_id: competing }], error: null });
     const onAudit = vi.fn();

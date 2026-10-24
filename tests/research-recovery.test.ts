@@ -15,6 +15,28 @@ const base = () => ({ frame, initial: 0, candidates: [] as PassageForSelection[]
   plan: vi.fn<RecoveryPlanner>(async () => [query]), search: vi.fn<(query: RecoveryQuery, signal: AbortSignal) => Promise<PassageForSelection[]>>(async () => [candidate("S123")]), assess: vi.fn(async () => 1), signal: new AbortController().signal });
 
 describe("bounded gap-driven research", () => {
+  it("persists round and queries before search, then results before reassessment", async () => {
+    const deps = base(), order: string[] = [];
+    deps.plan = vi.fn(async () => { order.push("plan"); return [query]; });
+    deps.search = vi.fn(async () => { order.push("search"); return [candidate("S123")]; });
+    deps.assess = vi.fn(async () => { order.push("assess"); return 1; });
+    await recoverEvidence({ ...deps, onRoundStart: async () => { order.push("save-round"); },
+      onPlanned: async () => { order.push("save-plan"); }, onSearchResult: async () => { order.push("save-result"); } });
+    expect(order).toEqual(["save-round", "plan", "save-plan", "search", "save-result", "assess"]);
+  });
+  it("does not reset the two-round allowance when work resumes", async () => {
+    const deps = base();
+    await recoverEvidence({ ...deps, startingRound: 2 });
+    expect(deps.plan).not.toHaveBeenCalled(); expect(deps.search).not.toHaveBeenCalled();
+    await recoverEvidence({ ...deps, startingRound: 1 });
+    expect(deps.plan).toHaveBeenCalledOnce(); expect(deps.plan.mock.calls[0][0].round).toBe(2);
+  });
+  it("propagates a failed result checkpoint without pretending the source failed or calling the checker", async () => {
+    const deps = base(), events: string[] = [];
+    await expect(recoverEvidence({ ...deps, onSearchResult: async () => { throw Error("checkpoint failure"); },
+      onEvent: event => { events.push(event.code); } })).rejects.toThrow("checkpoint failure");
+    expect(deps.assess).not.toHaveBeenCalled(); expect(events).not.toContain("search_failed");
+  });
   it("reformulates the specific gap, assesses new evidence, then stops when covered", async () => {
     const deps = base(), result = await recoverEvidence(deps);
     expect(result.value).toBe(1); expect(result.remainingGaps).toEqual([]); expect(deps.plan).toHaveBeenCalledOnce();

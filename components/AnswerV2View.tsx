@@ -8,6 +8,7 @@ import { ReportProblem } from "./ReportProblem";
 import { shouldShowScholarTranslation } from "@/lib/ask/display-choice";
 import { splitRejoins, tailHasWords, tailParts } from "@/lib/sources/hadith-split";
 import { cleanHadithMarkup } from "@/lib/sources/hadith-markup";
+import { AlafasyAudioButton } from "./AlafasyAudioButton";
 
 type AskText = Dictionary["ask"];
 
@@ -55,12 +56,20 @@ export function AnswerV2View({ answer, t, id, draftPreview = false }: { answer: 
     });
   };
 
+  const sourceType = (sourceId: string) => {
+    if (quranById.has(sourceId)) return "quran";
+    if (hadithById.has(sourceId)) return "hadith";
+    if (scholarById.has(sourceId)) return "scholar";
+    return "general";
+  };
+
   const citations = (item: Cited) => (
     <span className="answer-v2-citations" role="group" aria-label={t.v2.sources}>
       {item.source_ids.map((sourceId) => {
         const label = refText(sourceId);
+        const type = sourceType(sourceId);
         return (
-          <a key={sourceId} href={`#${anchor(sourceId)}`} className="ref"
+          <a key={sourceId} href={`#${anchor(sourceId)}`} className={`ref ref--${type}`}
             aria-label={`${t.source}: ${label.long}`} onClick={(event) => goTo(event, sourceId)}>
             <bdi dir="ltr">{label.short}</bdi>
           </a>
@@ -209,8 +218,11 @@ function QuranCard({ card, answerLanguage, t, anchor }: { card: QuranItem; answe
   const range = card.verses.length === 1 ? card.verses[0].key
     : `${card.verses[0].key}–${card.verses[card.verses.length - 1].key.split(":")[1]}`;
   return (
-    <article className="answer-source-card">
-      <h4><bdi dir="ltr">{t.quran} {range}</bdi></h4>
+    <article className="answer-source-card answer-source-card--quran">
+      <div className="source-card-head">
+        <h4><bdi dir="ltr">{t.quran} {range}</bdi></h4>
+        <AlafasyAudioButton verseKey={card.verses[0]?.key} />
+      </div>
       {card.verses.map((verse) => (
         <div className="answer-source-target quran-verse" id={anchor(verse.id)} tabIndex={-1} key={verse.id}>
           <p className="verse-ar" lang="ar" dir="rtl" translate="no">{verse.arabic}</p>
@@ -248,7 +260,7 @@ function HadithCard({ item, answerLanguage, t, anchor }: { item: HadithItem; ans
   // Phase 2: a translation of the words alone goes into the box; the full translation then moves into the chain fold.
   const wordsTranslation = split && item.words_translation && answerLanguage !== "ar" ? clean(item.words_translation) : null;
   return (
-    <article className="answer-source-card answer-source-target" id={anchor(item.id)} tabIndex={-1}>
+    <article className="answer-source-card answer-source-card--hadith answer-source-target" id={anchor(item.id)} tabIndex={-1}>
       <h4>{t.hadith[item.collection]}</h4>
       <p className="hadith-meta">
         <span>{[item.numbers.bukhari && `${t.hadith.numberBukhari} ${item.numbers.bukhari}`, item.numbers.muslim && `${t.hadith.numberMuslim} ${item.numbers.muslim}`].filter(Boolean).join(" · ")}</span>
@@ -298,7 +310,7 @@ function HadithCard({ item, answerLanguage, t, anchor }: { item: HadithItem; ans
 
 function ScholarCard({ item, answerLanguage, t, anchor }: { item: ScholarItem; answerLanguage: AnswerV2["language"]; t: AskText; anchor: (id: string) => string }) {
   return (
-    <article className="answer-source-card answer-source-target" id={anchor(item.id)} tabIndex={-1}>
+    <article className="answer-source-card answer-source-card--scholar answer-source-target" id={anchor(item.id)} tabIndex={-1}>
       <h4>{item.scholar_name}</h4>
       {item.title && <p className="quote-title" lang="ar" dir="rtl" translate="no">{item.title}</p>}
       {shouldShowScholarTranslation(answerLanguage, item.translation) && <p className="source-language-label">{t.scholarQuote.aiTranslation}</p>}

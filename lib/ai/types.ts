@@ -17,6 +17,10 @@ export type JsonRequest = {
   thinking?: "minimal" | "low";
   /** Overall deadline for the whole answer; the call is cancelled when it fires. */
   signal?: AbortSignal;
+  /** Internal: use the configured backup for an already-budgeted correction of unreadable JSON. */
+  malformedResponseRetry?: boolean;
+  /** Require provider schema output for this request; never downgrade to JSON-object mode. */
+  structuredOutput?: boolean;
 };
 
 export interface AIProvider {

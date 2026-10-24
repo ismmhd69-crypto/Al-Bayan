@@ -1,4 +1,5 @@
 import type { Locale } from "@/lib/i18n";
+import { emptyPatientState, reducePatientEvent, type PatientEvent } from "../patient-protocol";
 import type { Answer } from "@/lib/ask/core";
 import {
   emptyRichState,
@@ -39,6 +40,23 @@ export async function verifyResearchJob(
 ): Promise<SourceFreshness> {
   try {
     signal.throwIfAborted();
+    if (view.protocol === 2) {
+      let patient = emptyPatientState(view.id, view.language);
+      const checked = new Map<string, RichSource>();
+      for (const row of view.events) {
+        const event = row.payload as PatientEvent;
+        if (event.sequence !== row.sequence) return "changed";
+        patient = reducePatientEvent(patient, event);
+        if (event.type === "section") for (const source of event.section.sources) checked.set(canonical(source), source);
+      }
+      if (patient.sequence !== view.sequence || view.state === "complete" && patient.status !== "complete"
+        || view.state === "paused" && patient.status !== "paused") return "changed";
+      if (patient.prepared) return deps.prepared(patient.prepared, signal);
+      const statuses = await Promise.all([...checked.values()].map(source => deps.evidence(source, view.language, signal)));
+      if (statuses.includes("changed")) return "changed";
+      if (statuses.some(status => status !== "valid")) return "unavailable";
+      return "valid";
+    }
     let state = emptyRichState();
     const sources = new Map<string, RichSource>();
     let prepared: Answer | undefined;

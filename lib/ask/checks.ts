@@ -113,7 +113,10 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
     if (language === "de" && asciiUmlauts(t)) return { ok: false, reason: "wrong_language" };
     if (!isSingleSentence(t)) return { ok: false, reason: "multiple_sentences" };
     if (hasQuotation(t)) return { ok: false, reason: "quotation" };
-    const refs = [...new Set(source_ids.filter(isStr).map((s) => s.trim()))];
+    // A valid-looking reference must not hide malformed citation fields beside it.
+    // Never repair an object/number/null citation by dropping it from the draft.
+    if (source_ids.some(id => !isStr(id) || !id.trim())) return { ok: false, reason: "invalid_citation" };
+    const refs = [...new Set((source_ids as string[]).map(s => s.trim()))];
     if (refs.length === 0 || refs.length > LIMITS.maxRefsPerClaim) return { ok: false, reason: "ref_count" };
     if (!refs.every((id) => byId.has(id))) return { ok: false, reason: "unknown_ref" };
     // Copying is checked against every source the AI was given, not only the ones it cited.
@@ -331,7 +334,9 @@ export function parseStructuredDraft(raw: unknown, citable: SourceText[], langua
 // A claim may end with one sentence mark; any sentence mark before the end means two sentences.
 export function isSingleSentence(text: string): boolean {
   const body = text.trim().replace(/[.!?؟。]+$/u, "");
-  return !/[.!?؟;؛](\s|$)/u.test(body);
+  // Semicolons connect clauses inside a grammatical sentence. Every clause still
+  // undergoes the complete wording, support, scope and qualification audit.
+  return !/[.!?؟](\s|$)/u.test(body);
 }
 
 // ---------- 3. no quotations from the AI ----------
@@ -369,8 +374,11 @@ export function hasRulingTerm(text: string): boolean {
 
 // ---------- 4. no re-typed verses, in any language ----------
 
-// Arabic Quran/hadith text must never be re-typed by the AI: 4 consecutive words, a whole short
-// passage (even one word long), or most of a passage with one word changed all count as copying.
+// Arabic Quran text: 4 consecutive words, a whole short passage (even one word
+// long), or most of a passage with one word changed all count as copying.
+// Hadith paraphrases can share short terminology. Catch 6 consecutive words,
+// the whole original when shorter, and substantially copied wording below.
+// This editorial distinction never approves meaning or bypasses source review.
 // Scholar explanations may need short technical terms from the credited quote. They still fail on
 // an 8-word copied clause or when a longer claim substantially follows the quote's wording.
 // Translations: 6 consecutive words, or the whole translation when it is shorter than that.
@@ -405,7 +413,9 @@ function withoutPhrases(words: string[], phrases: string[][]): string[] {
   return out;
 }
 
-export function copiesSource(text: string, sources: SourceText[]): boolean {
+export type SourceCopyMatch = { sourceId: string; language: "ar" | "en" | "de"; rule: "copied_clause" | "near_copy"; normalizedMatch?: string };
+/** Editorial overlap only, never a verdict about religious correctness. */
+export function sourceCopyMatch(text: string, sources: SourceText[]): SourceCopyMatch | null {
   const claimAr = arabicWords(text);
   const claimLat = latinWords(text);
   const strippedAr = withoutPhrases(claimAr, HONORIFICS_AR);
@@ -421,37 +431,40 @@ export function copiesSource(text: string, sources: SourceText[]): boolean {
       if (s.kind === "scholar") {
         if (ar.length >= 8 && vs.length >= 8) {
           const sourceEight = grams(vs, 8);
-          for (const group of grams(ar, 8)) if (sourceEight.has(group)) return true;
+          for (const group of grams(ar, 8)) if (sourceEight.has(group)) return { sourceId: s.id, language: "ar", rule: "copied_clause", normalizedMatch: group };
         }
         const sourcePairs = grams(vs, 2);
         const claimPairs = [...grams(ar, 2)];
         if (ar.length >= 12 && claimPairs.length > 0
-          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.7) return true;
+          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.7) return { sourceId: s.id, language: "ar", rule: "near_copy" };
       } else {
-        if (vs.length < 4) {
-          if (grams(ar, vs.length).has(vs.join(" "))) return true;
+        const clauseLength = s.kind === "hadith" ? 6 : 4;
+        if (vs.length < clauseLength) {
+          if (grams(ar, vs.length).has(vs.join(" "))) return { sourceId: s.id, language: "ar", rule: "copied_clause", normalizedMatch: vs.join(" ") };
         } else {
-          const sourceFour = grams(vs, 4);
-          for (const group of grams(ar, 4)) if (sourceFour.has(group)) return true;
+          const sourceClauses = grams(vs, clauseLength);
+          for (const group of grams(ar, clauseLength)) if (sourceClauses.has(group)) return { sourceId: s.id, language: "ar", rule: "copied_clause", normalizedMatch: group };
         }
         // One altered word: most of the claim's word pairs appear in the source.
         const sourcePairs = grams(vs, 2);
         const claimPairs = [...grams(ar, 2)];
         if (claimPairs.length >= 4
-          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.6) return true;
+          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.6) return { sourceId: s.id, language: "ar", rule: "near_copy" };
       }
     }
-    for (const tr of Object.values(s.translations)) {
+    for (const [language, tr] of Object.entries(s.translations)) {
       if (!tr) continue;
       const tw = honorificsRemoved ? withoutPhrases(latinWords(tr), HONORIFICS_LATIN) : latinWords(tr);
       const n = Math.min(6, tw.length);
       if (n === 0 || lat.length < n) continue;
       const tg = grams(tw, n);
-      for (const g of grams(lat, n)) if (tg.has(g)) return true;
+      for (const g of grams(lat, n)) if (tg.has(g)) return { sourceId: s.id, language: language as "en" | "de", rule: "copied_clause", normalizedMatch: g };
     }
   }
-  return false;
+  return null;
 }
+
+export const copiesSource = (text: string, sources: SourceText[]): boolean => sourceCopyMatch(text, sources) !== null;
 
 // ---------- 5. support check result ----------
 

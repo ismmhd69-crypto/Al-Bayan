@@ -1,4 +1,6 @@
 import type { Locale } from "@/lib/i18n";
+import { emptyPatientState, reducePatientEvent, type PatientState, type PatientEvent } from "./patient-protocol";
+import { RICH_ORDER } from "./rich-answer";
 import {
   emptyRichState,
   reduceRichEvent,
@@ -21,7 +23,7 @@ export type ResearchLocator = {
   chatId: string | null;
   position: number;
 };
-export type ResearchPending = { locator: ResearchLocator; question: string };
+export type ResearchPending = { locator: ResearchLocator; question: string; paused?: boolean };
 export type ResearchConnection =
   | "queued"
   | "submitting"
@@ -65,6 +67,7 @@ export function researchClient(options: {
   storage?: () => StorageLike;
   fetch?: typeof fetch;
   onConnection?: (state: ResearchConnection) => void;
+  onPatientState?: (state: PatientState | null) => void;
 }) {
   const network = options.fetch ?? fetch;
   let scope: string | null = null,
@@ -169,7 +172,7 @@ export function researchClient(options: {
             ? "network_error"
             : "invalid_response",
       );
-    if (value.version !== 1 || (path !== "/session" && value.scope !== scope))
+    if (![1, 2].includes(Number(value.version)) || (path !== "/session" && value.scope !== scope))
       throw new ResearchClientError("invalid_response");
     return value;
   };
@@ -211,7 +214,7 @@ export function researchClient(options: {
           throw new ResearchClientError("invalid_response");
         const next = { ...locator, id: value.id };
         remember(next);
-        return { locator: next, question: value.question };
+        return { locator: next, question: value.question, ...(value.state === "paused" ? { paused: true } : {}) };
       } catch (error) {
         signal.throwIfAborted();
         if (error instanceof ResearchClientError && error.code === "expired") {
@@ -342,6 +345,7 @@ export function researchClient(options: {
       const locator = pending.locator;
       if (scope !== locator.scope || !locator.id)
         throw new ResearchClientError("invalid_session");
+      let patient: PatientState | null = null;
       let state = emptyRichState(),
         failures = 0;
       while (true) {
@@ -359,15 +363,33 @@ export function researchClient(options: {
             !Array.isArray(value.events)
           )
             throw new ResearchClientError("invalid_response");
-          for (const event of value.events)
-            state = reduceRichEvent(state, event as RichEvent);
+          if (value.version === 2) {
+            if (!patient && state.sequence) throw new ResearchClientError("invalid_response");
+            patient ??= emptyPatientState(locator.id, options.language);
+            try {
+              for (const event of value.events) patient = reducePatientEvent(patient, event as PatientEvent);
+            } catch { throw new ResearchClientError("invalid_response"); }
+            state = { ...state, requestId: locator.id, sequence: patient.sequence,
+              sections: RICH_ORDER.flatMap(g => patient!.groups[g].section ? [patient!.groups[g].section!] : []),
+              terminal: ["complete", "failed", "cancelled"].includes(patient.status),
+              result: patient.status === "complete" ? patient.prepared ? { status: "answer", answer: patient.prepared } : { status: "rich_answer", answer: patient.answer } : patient.status === "failed" ? { status: "error" } : undefined };
+          } else {
+            if (patient) throw new ResearchClientError("invalid_response");
+            for (const event of value.events) state = reduceRichEvent(state, event as RichEvent);
+          }
           if (value.sequence !== state.sequence)
             throw new ResearchClientError("invalid_response");
+          if (patient) {
+            const expected = patient.status === "working" ? ["queued", "running"] : [patient.status];
+            if (!expected.includes(String(value.state))) throw new ResearchClientError("invalid_response");
+            options.onPatientState?.(patient);
+          }
           options.onConnection?.(
             value.state === "queued" ? "queued" : "working",
           );
           receive(state);
           failures = 0;
+          if (patient?.status === "paused" && value.state === "paused") return { result: { status: "patient_paused", patient }, state };
           if (state.terminal) return { result: state.result, state };
           if (["cancelled", "expired"].includes(String(value.state))) {
             clear(locator);
@@ -406,6 +428,7 @@ export function researchClient(options: {
           ) {
             if (error.code !== "cancelled") {
               state = { ...emptyRichState(), withdrawn: true };
+              options.onPatientState?.(null);
               receive(state);
             }
             if (!["scope_changed", "unauthorized"].includes(error.code))
@@ -430,6 +453,11 @@ export function researchClient(options: {
       const locator = active ?? read();
       if (!locator) return "cancelled";
       return cancel(locator);
+    },
+    async continue(pending: ResearchPending, signal: AbortSignal) {
+      if (!pending.locator.id || scope !== pending.locator.scope) throw new ResearchClientError("invalid_session");
+      // This is called only by the visitor's explicit Continue action. It never enqueues a new job.
+      await post("/continue", { id: pending.locator.id }, signal);
     },
     acknowledge(pending: ResearchPending) {
       clear(pending.locator);

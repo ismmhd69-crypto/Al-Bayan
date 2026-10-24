@@ -6,8 +6,30 @@ import type { PassageForSelection } from "@/lib/ask/retrieval";
 import { pack } from "./fixtures/rich";
 import type { AIProvider } from "@/lib/ai/types";
 import recorded from "./fixtures/reranker-context-extra.json";
+import missing from "./fixtures/reranker-missing-candidates.json";
 
 describe("ranking context IDs cannot become evidence",()=>{
+  it("reproduces the recorded 29-input/26-score failure without inventing the missing scores", () => {
+    expect(missing.candidateIds).toHaveLength(29); expect(missing.rankings).toHaveLength(26);
+    expect(missing.candidateIds.filter(id => !missing.rankings.some(r => r.id === id))).toEqual(["Q4:106", "Q4:54", "HE6035"]);
+    expect(() => checkedRerankerScores(missing.rankings, missing.candidateIds)).toThrow("invalid_reranker_result");
+  });
+  it("can discard a malformed discovery ranking and retain bounded originals for independent selection without a retry", async () => {
+    const candidates: PassageForSelection[] = pack.passages.map(p => ({ id: p.id, source: p.source, context: [], retrievedFor: ["R1"] }));
+    const rank = vi.fn(async () => candidates.slice(0, 2).map(p => ({ id: p.id, score: 90 })));
+    const audit = vi.fn();
+    const result = await pipelineMeaningRanker(rank, audit, 30, { retainCandidatesOnInvalidResult: true })({ ...pack.question, kind: "question", searchQueries: {} }, candidates, new AbortController().signal);
+    expect(result).toEqual(candidates); expect(rank).toHaveBeenCalledOnce();
+    expect(audit).toHaveBeenCalledWith(expect.objectContaining({ fallbackReason: "invalid_reranker_result", modelCalls: 1, before: 3, after: 3 }));
+    // The measurement adapter stays strict: a broken ranker cannot earn ranking-quality credit.
+    await expect(pipelineMeaningRanker(rank)({ ...pack.question, kind: "question", searchQueries: {} }, candidates, new AbortController().signal)).rejects.toThrow("invalid_reranker_result");
+  });
+  it.each(["ModelReconciliationRequired", "ResearchStorageError", "network unavailable"])("does not hide %s behind discovery fallback", async reason => {
+    const error = Object.assign(Error(reason), { name: reason });
+    const rank = vi.fn(async () => { throw error; });
+    await expect(pipelineMeaningRanker(rank, undefined, 30, { retainCandidatesOnInvalidResult: true })({ ...pack.question, kind: "question", searchQueries: {} }, pack.passages, new AbortController().signal)).rejects.toBe(error);
+    expect(rank).toHaveBeenCalledOnce();
+  });
   it("replays the actual failed 25-candidate result without promoting its extra context verse",()=>{
     const result=checkedRerankerScores(recorded.rankings,recorded.candidateIds);
     expect(result.scores).toHaveLength(25);

@@ -183,12 +183,12 @@ describe("first available source streaming and safe completion", () => {
     const result = await runRichAnswer(local, "en", deps, new AbortController().signal, "Explain care", {});
     expect(result.status).toBe("rich_answer"); expect(seen).toEqual(["quran", "hadith", "scholar", "summary"]);
   });
-  it("can complete when a failed nonessential section leaves a genuinely complete checked answer", async () => {
+  it("can complete when an omitted nonessential section leaves a genuinely complete checked answer", async () => {
     const deps = dependencies(), write = deps.writer.generateJson;
     deps.writer.generateJson = async req => ({ ...await write(req) as object, scholar: [], summary: [{ ...drafts.summary[0], source_ids: ["Q2:183", "HE9001"] }] });
     const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {});
     expect(result.status).toBe("rich_answer");
-    if (result.status === "rich_answer") expect(result.answer.sections[2].outcome).toBe("failed_check");
+    if (result.status === "rich_answer") expect(result.answer.sections[2]).toMatchObject({ outcome: "not_checked", omitted: true });
   });
   it("does not complete if the only evidence for an essential concern is lost", async () => {
     const local = structuredClone(pack), deps = dependencies(), write = deps.writer.generateJson;

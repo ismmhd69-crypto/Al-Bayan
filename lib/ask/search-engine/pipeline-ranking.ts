@@ -2,13 +2,16 @@ import type { PassageForSelection, QuestionFrame } from "../retrieval";
 import type { MeaningReranker } from "./hybrid";
 import { abortable } from "../abort";
 import { checkedRerankerScores } from "./reranker-result";
+import { concernMeaning } from "./concern-meaning";
+import { researchCandidatePool } from "./research-candidate-pool";
 
-export type PipelineRankingAudit = { concerns: number; before: number; after: number; modelCalls: number; droppedIds: string[]; ignoredUnknownCount: number };
+export type PipelineRankingAudit = { concerns: number; before: number; after: number; modelCalls: number; droppedIds: string[]; ignoredUnknownCount: number; fallbackReason?: string };
 export type PipelineMeaningRanker = (frame: QuestionFrame, candidates: PassageForSelection[], signal: AbortSignal) => Promise<PassageForSelection[]>;
 
 /** Re-ranks the existing, already source-filtered candidates before lexical caps.
  * This adapter does not claim to provide corpus-wide semantic retrieval. */
-export function pipelineMeaningRanker(reranker: MeaningReranker, onAudit?: (audit: PipelineRankingAudit) => void, limit = 30): PipelineMeaningRanker {
+export function pipelineMeaningRanker(reranker: MeaningReranker, onAudit?: (audit: PipelineRankingAudit) => void, limit = 30,
+  options: { retainCandidatesOnInvalidResult?: boolean } = {}): PipelineMeaningRanker {
   return async (frame, candidates, signal) => {
     signal.throwIfAborted();
     if (!Number.isSafeInteger(limit) || limit < 1 || limit > 30 || candidates.length > 120 || new Set(candidates.map(c => c.id)).size !== candidates.length || !frame.requirements.length || frame.requirements.length > 4) throw new Error("meaning_ranking_budget_invalid");
@@ -19,12 +22,28 @@ export function pipelineMeaningRanker(reranker: MeaningReranker, onAudit?: (audi
     if (JSON.stringify(passages).length > 100_000) throw new Error("meaning_ranking_context_budget_exceeded");
     if (!candidates.length) return [];
     const rankings: { id: string; score: number }[][] = [];
+    const concerns = frame.requirements.map(r => ({ id: r.id, text: concernMeaning(frame, r) }));
     let ignoredUnknownCount = 0;
     // Sequential and at most four calls. No unbounded per-passage paid fan-out.
-    for (const concern of frame.requirements) {
+    for (const concern of concerns) {
       signal.throwIfAborted();
-      const result = await abortable(reranker({ id: concern.id, text: concern.text }, passages, signal), signal);
-      const checked = checkedRerankerScores(result, candidates.map(c => c.id));
+      let checked: ReturnType<typeof checkedRerankerScores>;
+      try {
+        const result = await abortable(reranker(concern, passages, signal), signal);
+        checked = checkedRerankerScores(result, candidates.map(c => c.id));
+      } catch (error) {
+        signal.throwIfAborted();
+        // An invalid discovery score is not a verdict against any original. Discard
+        // the whole score set, retain a fair bounded source pool, and let the
+        // independent selector decide support. Never catch billing/storage/transport
+        // failures here or issue an automatic replacement model call.
+        const reason = error instanceof Error ? error.message : "";
+        if (!options.retainCandidatesOnInvalidResult || !["invalid_reranker_result", "invalid_reranker_score", "unreadable_reranker_result"].includes(reason)) throw error;
+        const retained = researchCandidatePool(frame, candidates, limit).candidates;
+        onAudit?.({ concerns: frame.requirements.length, before: candidates.length, after: retained.length,
+          modelCalls: rankings.length + 1, droppedIds: candidates.filter(c => !retained.some(p => p.id === c.id)).map(c => c.id), ignoredUnknownCount: 0, fallbackReason: reason });
+        return retained;
+      }
       ignoredUnknownCount += checked.ignoredUnknownCount;
       rankings.push(checked.scores.filter(r => r.score > 0).sort((a, b) => b.score - a.score || a.id.localeCompare(b.id)));
     }

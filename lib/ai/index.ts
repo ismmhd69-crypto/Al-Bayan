@@ -72,12 +72,17 @@ function create(provider: string, model: string): AIProvider {
   }
 }
 
-// Only a "busy" answer switches doors; any other failure is reported as it is. The id stays the
+// A "busy" answer switches doors automatically. An explicitly budgeted malformed-response
+// correction starts at the backup; malformed output itself never triggers an extra call. The id stays the
 // main door's, and the backup's id is logged locally when it is used.
 function withBackup(main: AIProvider, backup: AIProvider): AIProvider {
   return {
     id: main.id,
     async generateJson(request) {
+      if (request.malformedResponseRetry) {
+        emitAiTrace("fallback_selected", { model: backup.id, fallback: true });
+        return backup.generateJson(request);
+      }
       try {
         return await main.generateJson(request);
       } catch (err) {
@@ -90,18 +95,20 @@ function withBackup(main: AIProvider, backup: AIProvider): AIProvider {
   };
 }
 
-// Tries each model in order. Only a "busy" answer moves on to the next model; any other failure is
-// reported as it is. If every model is busy, the last busy error is thrown (the site shows "busy").
+// Tries models in order on busy errors. The caller can start its already-budgeted
+// unreadable-response correction at the backup. Other failures still propagate.
 function withChain(models: AIProvider[]): AIProvider {
   return {
     id: models.map((m) => m.id).join("|fallback:"),
     async generateJson(request) {
       let lastBusy: unknown;
+      const start = request.malformedResponseRetry && models.length > 1 ? 1 : 0;
       for (const [i, model] of models.entries()) {
+        if (i < start) continue;
         try {
           emitAiTrace("chain_model_started", { model: model.id, attempt: i + 1, fallback: i > 0 });
           const result = await model.generateJson(request);
-          emitAiTrace("chain_model_answered", { model: model.id, attempt: i + 1 });
+          emitAiTrace(result == null ? "chain_model_unreadable" : "chain_model_answered", { model: model.id, attempt: i + 1 });
           // Model id only (never the prompt or the answer), so a measurement can see who answered.
           if (process.env.ASK_DEBUG === "true") console.info(`ai answered: ${model.id}`);
           return result;

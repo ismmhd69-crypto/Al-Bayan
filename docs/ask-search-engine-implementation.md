@@ -290,6 +290,16 @@ The benchmark command preserves an existing draft. Use `-- --replace-draft` only
 
 ## Full-plan completion audit
 
+### Patient streaming checkpoint, 21 October 2026
+
+The [ordered patient repair record](ask-patient-sections-repair.md) now distinguishes implemented, offline verified, live verified and accepted for each phase. Protocol-v2 coordination, actual search/model adapters, encrypted checkpoints, same-job Continue, lease/journal worker execution without a total elapsed answer deadline, and browser handling are implemented behind a disabled patient gate. The staged migration remains unapplied remotely. The existing site does not silently switch to this new worker path.
+
+Local PostgreSQL checks and the offline real-component browser harness exercise pause/continue, source ordering, provisional sections, final saving and three-language presentation without paid calls. Exact-excerpt translation diagnosis found unpublished AI drafts, which remain withheld. The full-project type check now passes; the older LearningMarkdown type-check blocker described above is historical, not current.
+
+Live source-faithfulness, measured latency/cost, the guarded six-question comparison, remote storage/worker acceptance and Mo's acceptance remain pending. The existing unsettled spending reservation still blocks automated paid evaluation. No migration, production deploy or approval change occurred.
+
+Current automated result: **1,132 tests / 98 files passed**, whole-project TypeScript passed, and **21 local PostgreSQL verification groups passed**. The patient worker was exercised only with scripted sources and model transport, not paid live questions.
+
 | Phase | Current evidence | Still required |
 |---|---|---|
 | 0. Inventory and baseline | Current metadata inventory; 100 drafted multilingual intents; recorded failing request | Corpus/context and permission correspondence audit, human source labels, frozen reviewed baseline, cost reconciliation |

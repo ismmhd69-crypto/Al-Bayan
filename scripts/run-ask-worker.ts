@@ -10,8 +10,8 @@ async function main() {
   for (const file of [".env.local", ".env"]) if (existsSync(file)) process.loadEnvFile(file);
   if (process.env.ASK_DURABLE_ENABLED !== "true" || process.env.ASK_JOB_WORKER_ACCEPTED !== "true"
     || process.env.ASK_ENABLED !== "true" || process.env.ASK_RICH_ENABLED !== "true") throw new Error("Research worker is disabled pending preview acceptance.");
-  const durationMs = Number(process.env.ASK_JOB_MAX_DURATION_MS), maxAttemptCostUsd = Number(process.env.ASK_JOB_MAX_ATTEMPT_USD);
-  if (!Number.isInteger(durationMs) || durationMs < 60_000 || durationMs > 600_000 || !Number.isFinite(maxAttemptCostUsd) || maxAttemptCostUsd <= 0 || maxAttemptCostUsd > 1.5) {
+  const durationMs = process.env.ASK_PATIENT_ENABLED === "true" ? Infinity : Number(process.env.ASK_JOB_MAX_DURATION_MS), maxAttemptCostUsd = Number(process.env.ASK_JOB_MAX_ATTEMPT_USD);
+  if ((durationMs !== Infinity && (!Number.isInteger(durationMs) || durationMs < 60_000 || durationMs > 600_000)) || !Number.isFinite(maxAttemptCostUsd) || maxAttemptCostUsd <= 0 || maxAttemptCostUsd > 1.5) {
     throw new Error("Configure an accepted research duration and model-call reservation before starting.");
   }
   const engineRevision = researchEngineRevision();
@@ -28,13 +28,19 @@ async function main() {
     }
     const { serverResearchJobs } = await import("../lib/ask/search-engine/server-jobs");
     const { runNextResearchJob } = await import("../lib/ask/search-engine/job-worker");
+    const { runPatientLease } = await import("../lib/ask/search-engine/patient-worker");
+    const { executePatientRequest } = await import("../lib/ask/patient-server");
     const { ask } = await import("../lib/ask/pipeline");
     const store = serverResearchJobs();
     let nextPrune = 0;
     while (!stopping.signal.aborted) {
       if (Date.now() >= nextPrune) { await store.prune(); nextPrune = Date.now() + 60_000; }
-      const result = await runNextResearchJob({ store, engineRevision, durationMs, maxAttemptCostUsd, signal: stopping.signal,
-        execute: (request, rich, signal) => ask(request.question, request.lang, undefined, request.previous_user_messages, { rich, signal }) });
+      const lease = process.env.ASK_PATIENT_ENABLED === "true" ? await store.claim() : undefined;
+      const result = lease && (lease.request as { version?: unknown }).version === 2
+        ? await runPatientLease(lease, { store, engineRevision, maxAttemptCostUsd, signal: stopping.signal, execute: executePatientRequest })
+        : lease === null ? "idle" : await runNextResearchJob({ store: lease ? { ...store, claim: async () => lease } : store,
+          engineRevision, durationMs, maxAttemptCostUsd, signal: stopping.signal,
+          execute: (request, rich, signal) => ask(request.question, request.lang, undefined, request.previous_user_messages, { rich, signal }) });
       if (result !== "idle") console.info(JSON.stringify({ component: "ask_preview_worker", outcome: result }));
       if (budget.guard.ledger.stopped || budget.guard.ledger.entries.some(e => e.cost === undefined)) throw new Error("Billing needs reconciliation. The research worker has stopped.");
       if (process.argv.includes("--once")) break;

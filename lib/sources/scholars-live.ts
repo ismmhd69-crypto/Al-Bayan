@@ -1,4 +1,4 @@
-import { askTimeout } from "@/lib/ask/timing";
+import { sourceRequestTimeout } from "@/lib/ask/timing";
 import "server-only";
 import { createHash } from "node:crypto";
 import {
@@ -112,7 +112,7 @@ const mappedCache = new Map<string, { at: number; quote: ScholarQuote }>();
 
 async function get(url: string, init?: RequestInit): Promise<Response | null> {
   try {
-    const res = await fetch(url, { ...init, headers: { ...HEADERS, ...(init?.headers ?? {}) }, signal: askTimeout(init?.signal ?? undefined, TIMEOUT_MS, "scholars-live_transport"), cache: "no-store" });
+    const res = await fetch(url, { ...init, headers: { ...HEADERS, ...(init?.headers ?? {}) }, signal: sourceRequestTimeout(init?.signal ?? undefined, TIMEOUT_MS, "scholars-live_transport"), cache: "no-store" });
     if (!res.ok && init?.signal) throw new Error("scholar source unavailable");
     return res.ok ? res : null;
   } catch (error) {

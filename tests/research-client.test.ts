@@ -77,6 +77,39 @@ function setup() {
 const signal = () => new AbortController().signal;
 afterEach(() => vi.useRealTimers());
 describe("resumable browser research transport", () => {
+  it("retains a paused patient job without starting another request", async () => {
+    const { options, send } = setup(), base = send.getMockImplementation()!;
+    const onPatientState = vi.fn();
+    send.mockImplementation(async (input, init) => String(input).endsWith("/read") ? reply({ version: 2, status: "job", id, language: "en", state: "paused", sequence: 1,
+      events: [{ version: 2, job_id: id, sequence: 1, type: "pause", reason: "source_failed" }] }) : base(input, init));
+    const client = researchClient({ ...options, onPatientState });
+    const pending = await client.begin("Question", [], { chatId: null, position: 1 }, signal());
+    expect((await client.observe(pending, vi.fn(), signal())).result).toMatchObject({ status: "patient_paused" });
+    expect(onPatientState).toHaveBeenLastCalledWith(expect.objectContaining({ status: "paused", jobId: id }));
+    expect(send.mock.calls.filter(([url]) => String(url).endsWith("/continue"))).toHaveLength(0);
+    expect(send.mock.calls.filter(([url]) => String(url) === "/api/ask/jobs")).toHaveLength(1);
+  });
+  it("rejects malformed patient events immediately without reconnect retries", async () => {
+    const { options, send } = setup(), base = send.getMockImplementation()!;
+    const onPatientState = vi.fn();
+    send.mockImplementation(async (input, init) => String(input).endsWith("/read") ? reply({ version: 2, status: "job", id, language: "en", state: "paused", sequence: 2,
+      events: [{ version: 2, job_id: id, sequence: 2, type: "pause", reason: "source_failed" }] }) : base(input, init));
+    const client = researchClient({ ...options, onPatientState });
+    const pending = await client.begin("Question", [], { chatId: null, position: 1 }, signal());
+    await expect(client.observe(pending, vi.fn(), signal())).rejects.toMatchObject({ code: "invalid_response" });
+    expect(send.mock.calls.filter(([url]) => String(url).endsWith("/read"))).toHaveLength(1);
+    expect(onPatientState).toHaveBeenCalledExactlyOnceWith(null);
+  });
+  it("does not display patient progress before the response sequence is validated", async () => {
+    const { options, send } = setup(), base = send.getMockImplementation()!;
+    const onPatientState = vi.fn();
+    send.mockImplementation(async (input, init) => String(input).endsWith("/read") ? reply({ version: 2, status: "job", id, language: "en", state: "paused", sequence: 9,
+      events: [{ version: 2, job_id: id, sequence: 1, type: "pause", reason: "source_failed" }] }) : base(input, init));
+    const client = researchClient({ ...options, onPatientState });
+    const pending = await client.begin("Question", [], { chatId: null, position: 1 }, signal());
+    await expect(client.observe(pending, vi.fn(), signal())).rejects.toMatchObject({ code: "invalid_response" });
+    expect(onPatientState).toHaveBeenCalledExactlyOnceWith(null);
+  });
   it("stores only scoped opaque metadata and observes a checked terminal result", async () => {
     const { client, records, send } = setup();
     const pending = await client.begin(

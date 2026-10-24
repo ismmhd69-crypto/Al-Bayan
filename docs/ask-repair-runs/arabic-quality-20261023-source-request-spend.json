@@ -1,0 +1,1659 @@
+{
+  "version": 1,
+  "cap": 2.1324438125,
+  "priorExposure": 1.8824438125000003,
+  "originalLedgerHash": "fa92584ab52e6ec22a25d6a9c3c0c3412c5392cfbdefc747ebd5010ea85844b7",
+  "prices": {
+    "google/gemini-3.5-flash-lite": {
+      "prompt": 0.54,
+      "completion": 4.5,
+      "request": 0
+    },
+    "google/gemini-3.8-flash": {
+      "prompt": 1.35,
+      "completion": 6.75,
+      "request": 0
+    },
+    "google/gemini-3.1-flash-lite": {
+      "prompt": 0.44999999999999996,
+      "completion": 2.7,
+      "request": 0
+    },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "prompt": 0.09999999999999999,
+      "completion": 0.3,
+      "request": 0
+    }
+  },
+  "calls": [
+    {
+      "fingerprint": "21c1bbad1fd8bf2eeb85c74d481b9daa4df1e6fd22348a48e3d4851cc7509d77",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0271332,
+      "at": "2026-10-23T15:30:19.056Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792769418-jugcKT9p3jkU9eMzyq1n",
+      "promptTokens": 2780,
+      "completionTokens": 762,
+      "finishReason": "stop",
+      "cost": 0.002739
+    },
+    {
+      "fingerprint": "8bf2c9e4f42d1ace1717e66a13ce2706ee941845eb67d8765da13a6b1df5b70a",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.02803608,
+      "at": "2026-10-23T15:30:23.504Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792769422-p8h0L0PXkA9uzGYVMYJO",
+      "promptTokens": 2944,
+      "completionTokens": 613,
+      "finishReason": "stop",
+      "cost": 0.0024157
+    },
+    {
+      "fingerprint": "3c157e8855b921c448d695a28900174d44c30a127d847345e01d40f8594c9101",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0514278,
+      "at": "2026-10-23T15:41:21.43Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770080-M59OiSwE4ociqinRIoCt",
+      "promptTokens": 10974,
+      "completionTokens": 1364,
+      "finishReason": "stop",
+      "cost": 0.0047895
+    },
+    {
+      "fingerprint": "7fa4cb6c508c7b95c0287b584365d0c41c1d18c1390b5e988b5ab30e2e01ee02",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0514152,
+      "at": "2026-10-23T15:41:25.731Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770085-gvZtw3qco8GYxL2lDt8Y",
+      "promptTokens": 10970,
+      "completionTokens": 1357,
+      "finishReason": "stop",
+      "cost": 0.004778
+    },
+    {
+      "fingerprint": "1e48480bfde6765b087d25606364a2a5ca9448b51756e1b52367093dd5a4bf78",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0846342,
+      "at": "2026-10-23T15:41:29.29Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770088-Ypn8PrqjcvgtM5uqp5q7",
+      "promptTokens": 13713,
+      "completionTokens": 5326,
+      "finishReason": "stop",
+      "cost": 0.01141725
+    },
+    {
+      "fingerprint": "fb7179862375eb4c019a52bb3accc404a663b70c8ed6a492fc7e156746fcd9f3",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.04811436,
+      "at": "2026-10-23T15:41:40.77Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770100-0TL79dh8xgibuqN6S7EI",
+      "promptTokens": 5704,
+      "completionTokens": 219,
+      "finishReason": "stop",
+      "cost": 0.0022587
+    },
+    {
+      "fingerprint": "48fa0e1ab78fba86211a13358c70ae7c9aa69c805b76fdccd5f3f2419c4fe9b4",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.048042,
+      "at": "2026-10-23T15:41:42.439Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770101-wYcYYG14ubGuj9QeEbJ5",
+      "promptTokens": 5619,
+      "completionTokens": 38,
+      "finishReason": "stop",
+      "cost": 0.0017807
+    },
+    {
+      "fingerprint": "0a21b019272b216c2c8945dcdc158c0c03ebc0e14cd6495384cf71099897a7a4",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.09333036,
+      "at": "2026-10-23T15:41:43.465Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770102-d8ASOOj1KY3yxOvguqFl",
+      "promptTokens": 6783,
+      "completionTokens": 109,
+      "finishReason": "stop",
+      "cost": 0.0023074
+    },
+    {
+      "fingerprint": "840c656c6df23318f1aeec76b4be8f522603a16c99b2b0323a3122f33db4ffc7",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0843345,
+      "at": "2026-10-23T15:41:44.992Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770104-5h8YPIurm8PbwGHma92X",
+      "promptTokens": 11252,
+      "completionTokens": 2387,
+      "finishReason": "stop",
+      "cost": 0.0063935
+    },
+    {
+      "fingerprint": "21c1bbad1fd8bf2eeb85c74d481b9daa4df1e6fd22348a48e3d4851cc7509d77",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0271332,
+      "at": "2026-10-23T15:52:10.932Z",
+      "cost": 0,
+      "rejection": "not_dispatched_reservation_storage_failed"
+    },
+    {
+      "fingerprint": "21c1bbad1fd8bf2eeb85c74d481b9daa4df1e6fd22348a48e3d4851cc7509d77",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0271332,
+      "at": "2026-10-23T15:54:48.037Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770887-SehzccKgrhEMDqaTTEvu",
+      "promptTokens": 2780,
+      "completionTokens": 716,
+      "finishReason": "stop",
+      "cost": 0.002624
+    },
+    {
+      "fingerprint": "8bf2c9e4f42d1ace1717e66a13ce2706ee941845eb67d8765da13a6b1df5b70a",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.02803608,
+      "at": "2026-10-23T15:54:51.05Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770890-QPr2dzCoMJd6lWFSTj8K",
+      "promptTokens": 2944,
+      "completionTokens": 556,
+      "finishReason": "stop",
+      "cost": 0.0022732
+    },
+    {
+      "fingerprint": "09dcdae07f4cd31d624d7db2b6121ecd282994d63640915ce8c12f1eee6436f3",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0515115,
+      "at": "2026-10-23T15:55:21.065Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770920-8riTTSiuivhrH956FnVM",
+      "promptTokens": 11504,
+      "completionTokens": 1203,
+      "finishReason": "stop",
+      "cost": 0.0046805
+    },
+    {
+      "fingerprint": "8f2ded446adea092830fe93a4446e23e5f00a20fa8f539ab12615895cf8e0f53",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0515043,
+      "at": "2026-10-23T15:55:24.868Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770924-0efFv6ZHsaRd8vDOPt2k",
+      "promptTokens": 11502,
+      "completionTokens": 1196,
+      "finishReason": "stop",
+      "cost": 0.0046695
+    },
+    {
+      "fingerprint": "65e05972344a222d0630db39b3af3ae3fa708af1737af0a33cc14796b707f385",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0833454,
+      "at": "2026-10-23T15:55:28.586Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770927-T03gnRjL1F2qJyeR8iuB",
+      "promptTokens": 13089,
+      "completionTokens": 5025,
+      "finishReason": "stop",
+      "cost": 0.01080975
+    },
+    {
+      "fingerprint": "289785ff17e8a5932824424dbf0c27af9e4124ac03883f686ea0dff4e819f96b",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.04290552,
+      "at": "2026-10-23T15:55:42.537Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770941-lx2WMsH6FywMU4WsQAJU",
+      "promptTokens": 4329,
+      "completionTokens": 162,
+      "finishReason": "stop",
+      "cost": 0.0017037
+    },
+    {
+      "fingerprint": "6fe3acea8e1995ce7c1ed486b67eb0e62fa642798a55c9b924b752388f7d0c38",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.043284601,
+      "at": "2026-10-23T15:55:43.812Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770943-MmOKtKSZxEidM1v2Z0Uy",
+      "promptTokens": 4395,
+      "completionTokens": 184,
+      "finishReason": "stop",
+      "cost": 0.0017785
+    },
+    {
+      "fingerprint": "c359f8f84033e49d48584dd3810abad1e80b22692b46a03a49c7b84feefe4f9c",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0490158,
+      "at": "2026-10-23T15:55:43.819Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770943-eWBNkIyAxF7qMIVO9vP1",
+      "promptTokens": 8609,
+      "completionTokens": 843,
+      "finishReason": "stop",
+      "cost": 0.00341675
+    },
+    {
+      "fingerprint": "a0e770cb1f7254359cdaa4126222d3dc685ca5a7170b13d313005836744d4f8b",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0209673,
+      "at": "2026-10-23T15:55:46.767Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770946-1VaqSW0vPkTbNR4JHbf7",
+      "promptTokens": 1401,
+      "completionTokens": 154,
+      "finishReason": "stop",
+      "cost": 0.00058125
+    },
+    {
+      "fingerprint": "c790b797c8c13bf9fa363e2ea26637562b2652b60fb0e0a65de3b460add7acbd",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0823878,
+      "at": "2026-10-23T15:55:48.12Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770947-N3enAY10bGP6InZorxSF",
+      "promptTokens": 11673,
+      "completionTokens": 864,
+      "finishReason": "stop",
+      "cost": 0.00421425
+    },
+    {
+      "fingerprint": "2d8f547d43ca903209a316d2809f425a4df1f585a4209bff7edb9e61b0e6a230",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0263736,
+      "at": "2026-10-23T15:55:51.089Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770950-0ZB4XH1JpO71MNtFSqo5",
+      "promptTokens": 2214,
+      "completionTokens": 244,
+      "finishReason": "stop",
+      "cost": 0.0009195
+    },
+    {
+      "fingerprint": "12910a5279f95c7f248f932a4a3af656f91aba1f33da383cf022c9b974bce906",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.083217241,
+      "at": "2026-10-23T15:55:53.05Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770953-HuUH2sz157I7F3ZRDSAk",
+      "promptTokens": 4630,
+      "completionTokens": 390,
+      "finishReason": "stop",
+      "cost": 0.002364
+    },
+    {
+      "fingerprint": "cbc0debd6bad5e6a349679e067a60d8b86adeb235b1762e08f5dce35a3078d53",
+      "model": "google/gemini-3.8-flash",
+      "reserved": 0.1584225,
+      "at": "2026-10-23T15:55:56.408Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770955-qAxHZvSgXZQOLL0bJidH",
+      "promptTokens": 5280,
+      "completionTokens": 292,
+      "finishReason": "stop",
+      "cost": 0.005055
+    },
+    {
+      "fingerprint": "6eec3e8effca73c6afd2e4ddef31d2d462b2f710e74622358e314d95ea890980",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.09792,
+      "at": "2026-10-23T15:56:00.935Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770960-jDg5NiAQwQMcoLBjmeOx",
+      "promptTokens": 18084,
+      "completionTokens": 1546,
+      "finishReason": "stop",
+      "cost": 0.00684
+    },
+    {
+      "fingerprint": "36144dccf1c8a831770479f0bb43d24e27c16457c16b2e38e85969bb6bf334b7",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0336915,
+      "at": "2026-10-23T15:56:06.412Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792770965-iKerEnU8Sxd679fXqjjN",
+      "promptTokens": 3648,
+      "completionTokens": 185,
+      "finishReason": "stop",
+      "cost": 0.0011895
+    },
+    {
+      "fingerprint": "ce722e7f54991f01f591efaba01297f87aa1982a8d17955e5bbdb78fb244d0a0",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0176841,
+      "at": "2026-10-23T16:00:31.57Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792771231-gHYwZUvToNqc0ErHosvI",
+      "promptTokens": 718,
+      "completionTokens": 155,
+      "finishReason": "stop",
+      "cost": 0.000412
+    },
+    {
+      "fingerprint": "ecdaf77917e9c39ccb5ad79dd32eaf5d7adc797b1bc0b34c29157bd4db32fb53",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0178542,
+      "at": "2026-10-23T16:00:33.141Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792771232-Ly1hF6M3WIZd7U9I1OGV",
+      "promptTokens": 775,
+      "completionTokens": 168,
+      "finishReason": "stop",
+      "cost": 0.00044575
+    },
+    {
+      "fingerprint": "b7963b4b28d31381b0d380dc74831e530e3ee0323e7bff679e7c8a8e8b5701ff",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0176643,
+      "at": "2026-10-23T16:00:34.506Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792771233-a460ObmAB5l61w5lT8FD",
+      "promptTokens": 710,
+      "completionTokens": 147,
+      "finishReason": "stop",
+      "cost": 0.000398
+    },
+    {
+      "fingerprint": "7d8ad816abae000cbcdd46e6bb7aae450b5859411367dcbdcd5bee4eba9cdd0a",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0187803,
+      "at": "2026-10-23T16:00:35.667Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792771234-8NFrT07V3n7DAnazNV9A",
+      "promptTokens": 1059,
+      "completionTokens": 172,
+      "finishReason": "stop",
+      "cost": 0.00052275
+    },
+    {
+      "fingerprint": "ce722e7f54991f01f591efaba01297f87aa1982a8d17955e5bbdb78fb244d0a0",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0176841,
+      "at": "2026-10-23T16:08:10.649Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792771690-rTlxzmyZHDsamnNUSZAo",
+      "promptTokens": 718,
+      "completionTokens": 177,
+      "finishReason": "stop",
+      "cost": 0.000445
+    },
+    {
+      "fingerprint": "ecdaf77917e9c39ccb5ad79dd32eaf5d7adc797b1bc0b34c29157bd4db32fb53",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0178542,
+      "at": "2026-10-23T16:08:13.177Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792771692-qho6gIzugipsTf8lOOL3",
+      "promptTokens": 775,
+      "completionTokens": 141,
+      "finishReason": "stop",
+      "cost": 0.00040525
+    },
+    {
+      "fingerprint": "e356b530fa51a82fcad843cb91f0f92839f7a7395afb61468fe6e06e28bcede6",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0180621,
+      "at": "2026-10-23T16:08:14.258Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792771693-wwDCiugyMGnPS7tekkQA",
+      "promptTokens": 1108,
+      "completionTokens": 416,
+      "finishReason": "stop",
+      "cost": 0.000901
+    },
+    {
+      "fingerprint": "72fbc9b99516323c914345c96b116ba42fc5fae67e9a73b4536ef466989d912e",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0176274,
+      "at": "2026-10-23T16:13:31.477Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772011-W0k9R6Yy84alw9xJ8eFk",
+      "promptTokens": 704,
+      "completionTokens": 164,
+      "finishReason": "stop",
+      "cost": 0.000422
+    },
+    {
+      "fingerprint": "037296d7a56d4b579dacb9fa828e9a31990193e019effa9c9001bd35ab9d17c9",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026572,
+      "at": "2026-10-23T16:13:32.829Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "feb1ad674e8b15160b790997562ff1ecfb6acb56ade4468fb0c1ae006d9c119e",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0176841,
+      "at": "2026-10-23T16:13:32.899Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772012-S0DVTk0fGW8VYiGjrgmD",
+      "promptTokens": 717,
+      "completionTokens": 201,
+      "finishReason": "stop",
+      "cost": 0.00048075
+    },
+    {
+      "fingerprint": "da66d898db9416c2da32dfd6e51742b4dbe9ec9f9fd408a146289597ee140aad",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002669801,
+      "at": "2026-10-23T16:13:34.208Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "2e69028b3ce7e2dc2854fbd267036b17077ec94d765a4a481c6ae60821403b80",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0178308,
+      "at": "2026-10-23T16:13:34.273Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772013-Yxpv6Y17DugEmhpmoOyS",
+      "promptTokens": 769,
+      "completionTokens": 164,
+      "finishReason": "stop",
+      "cost": 0.00043825
+    },
+    {
+      "fingerprint": "a721a98872d37450031f57200ae32882bd8f8d9fa2867d641a5730addc25bf57",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027024,
+      "at": "2026-10-23T16:13:35.834Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "47f269086b5fd93e5b9060a61d171fb90c90e3431f7629477857cdfae6f09961",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0179865,
+      "at": "2026-10-23T16:13:35.915Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772015-sgorkc9osVfF50ERy83h",
+      "promptTokens": 825,
+      "completionTokens": 153,
+      "finishReason": "stop",
+      "cost": 0.00043575
+    },
+    {
+      "fingerprint": "bf8432237f9b745e796bc797395296ade4afc8cac2496b41e2caa3db6fc4bb92",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002737,
+      "at": "2026-10-23T16:13:37.115Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "95fb92f523e7a7bf35b3ad796e4115cde132a4abfeb1f61ac00b51e18a706936",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0187326,
+      "at": "2026-10-23T16:13:37.185Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772016-V5djAGYfGm2i44zAIlbU",
+      "promptTokens": 1048,
+      "completionTokens": 120,
+      "finishReason": "stop",
+      "cost": 0.000442
+    },
+    {
+      "fingerprint": "30fff18c95db20659453c3182ee4bc0cb8702ea47f634fe0b53dcd9b18f8b322",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0029028,
+      "at": "2026-10-23T16:13:38.55Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "a3a5f229313f653357780b5e70d7925575e81050b52ca0886ec31c4ae5bc47d0",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0178146,
+      "at": "2026-10-23T16:13:38.62Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772017-RmpOJUb2p7uIU1rWnbMn",
+      "promptTokens": 776,
+      "completionTokens": 235,
+      "finishReason": "stop",
+      "cost": 0.0005465
+    },
+    {
+      "fingerprint": "cdcd43af177e1c3ed889eb0908f4c9809281d190755a922ad448462a7ce0521b",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002698801,
+      "at": "2026-10-23T16:13:40.105Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "ba7a04f04b15267ba8c09479cbb841fba86011400c3954bfcf002acdc6b562a5",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.017816401,
+      "at": "2026-10-23T16:13:40.168Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772019-BDqG0wt2FwFWyD9LssRI",
+      "promptTokens": 774,
+      "completionTokens": 159,
+      "finishReason": "stop",
+      "cost": 0.000432
+    },
+    {
+      "fingerprint": "ee9b7914f773571154036c437be0fe509a4a947c8320c126199d012944b8aed2",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026992,
+      "at": "2026-10-23T16:13:41.767Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "9759f7ee5067f045a3ab1391351715ecd177e1e528600089df797a748100f6fb",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0182511,
+      "at": "2026-10-23T16:13:41.895Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772021-SlgdojOgKmew1oE4SSER",
+      "promptTokens": 885,
+      "completionTokens": 224,
+      "finishReason": "stop",
+      "cost": 0.00055725
+    },
+    {
+      "fingerprint": "96c453893f4c9975abc2be9590d2fabd0e7d227f768e03e187d71d6a06fff481",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027958,
+      "at": "2026-10-23T16:13:43.159Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "347a386c0d2b44abbbdf230ac81fea7f46a06dfedc8a0ee10e84c7bb4e3d1e29",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0179622,
+      "at": "2026-10-23T16:13:43.227Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772022-cinAJDPHDyETUFtMl8ZT",
+      "promptTokens": 800,
+      "completionTokens": 246,
+      "finishReason": "stop",
+      "cost": 0.000569
+    },
+    {
+      "fingerprint": "2ff6772aec1fa76f81dc5b81bf891502273fe96bbe8d3386b68234e809a099e1",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027316,
+      "at": "2026-10-23T16:13:44.941Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "78c897952d38ccfdbc54a75027b2b01f38975f84c0076154a49bf28982092c29",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0180981,
+      "at": "2026-10-23T16:13:45.004Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772024-6I7TGRtmAmYmgDudyjFR",
+      "promptTokens": 870,
+      "completionTokens": 189,
+      "finishReason": "stop",
+      "cost": 0.000501
+    },
+    {
+      "fingerprint": "835c8789d1538a37a8905a38b99d57d524c7b32d168ec17aa3fe917bc43eff91",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027618,
+      "at": "2026-10-23T16:13:47.309Z",
+      "httpStatus": 404,
+      "rejection": "no_eligible_route",
+      "cost": 0
+    },
+    {
+      "fingerprint": "2a5f14479a43c80112a0f72df04ee464dcf90cdaa12328f2c1609a9fd71c09eb",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026572,
+      "at": "2026-10-23T16:18:12.078Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772291-NKbjjQUacciEDfBPtzmt",
+      "promptTokens": 570,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.00004635
+    },
+    {
+      "fingerprint": "2fc6e2c93c0cb7d23d0a16bf5acf9be6459bf3459c57344321e99780779c34cb",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002669801,
+      "at": "2026-10-23T16:18:13.917Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772293-IglnmLTtFBDaFku8nHA2",
+      "promptTokens": 580,
+      "completionTokens": 36,
+      "finishReason": "stop",
+      "cost": 0.0000507
+    },
+    {
+      "fingerprint": "4e454481fdf881d64dfe3fb874ddd6f59cab0ed74a3411f9206daa5f07db3237",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027024,
+      "at": "2026-10-23T16:18:14.942Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772294-UuSWwVHRQ8lypG67FbyW",
+      "promptTokens": 632,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.000051
+    },
+    {
+      "fingerprint": "ae552e612924cf9a1cc28c970ec79745ffd397bcfe98751910718dbed4dfc9b9",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002737,
+      "at": "2026-10-23T16:18:15.799Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772295-gGGp8sZDwVeBxfZjFpMu",
+      "promptTokens": 686,
+      "completionTokens": 41,
+      "finishReason": "stop",
+      "cost": 0.00005965
+    },
+    {
+      "fingerprint": "549cd9c7ce3d6a5ab8f3b39de127c2c01347741ee0c0f2212be4eb5fec430a0d",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0029028,
+      "at": "2026-10-23T16:18:16.952Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772296-4wxaFPkv5H3l4MGI8rPR",
+      "promptTokens": 891,
+      "completionTokens": 41,
+      "finishReason": "stop",
+      "cost": 0.000075025
+    },
+    {
+      "fingerprint": "2512dcd5949f4da8da8e1d6d1aa8278ec5bb48881eb50a88d13c7199f0832ac2",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002698801,
+      "at": "2026-10-23T16:18:17.892Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772297-bPjO4hKjFOy3bDXzbrNs",
+      "promptTokens": 640,
+      "completionTokens": 31,
+      "finishReason": "stop",
+      "cost": 0.00006775
+    },
+    {
+      "fingerprint": "9b2531d856c41d4ab1d30b5a750b9e65aeb21a665347b52bd70a8d6ffcca4fe0",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026992,
+      "at": "2026-10-23T16:18:19.823Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772299-WtnutJVHkFd8nJqvWRO3",
+      "promptTokens": 638,
+      "completionTokens": 29,
+      "finishReason": "stop",
+      "cost": 0.0000670625
+    },
+    {
+      "fingerprint": "6dc61b1d4d34ac3c95c54270c390e2dc078b0962076fc5a1516635f0579dc394",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027958,
+      "at": "2026-10-23T16:18:20.913Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772300-PJgFsb5lnosXuqcYlgo4",
+      "promptTokens": 732,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.000073125
+    },
+    {
+      "fingerprint": "76a0be46e2e05c8b820fe8fb56ebb9202133f27c3797b5a60d7f5601d7be24ce",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027316,
+      "at": "2026-10-23T16:18:21.572Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772300-ijyPm9yPQGgtV9qN0jtU",
+      "promptTokens": 649,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.000052275
+    },
+    {
+      "fingerprint": "c7ef6e0e80d03050d80124eafc3d645e8719c5fac7d63564f2e0f96a1ea4331e",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027618,
+      "at": "2026-10-23T16:18:22.408Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772301-h9Wb6MJD34lE2GQFLlr5",
+      "promptTokens": 734,
+      "completionTokens": 43,
+      "finishReason": "stop",
+      "cost": 0.00006365
+    },
+    {
+      "fingerprint": "7b7715329b0235ce0fb29ae16e8cd75dee93dc24654aa63d6ce9cb7820c02dc7",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0236331,
+      "at": "2026-10-23T16:26:41.156Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772800-m9niVo2MKx36f7I2R9JB",
+      "promptTokens": 1369,
+      "completionTokens": 395,
+      "finishReason": "stop",
+      "cost": 0.00093475
+    },
+    {
+      "fingerprint": "62e4e0e94cbb33c565a6840d407820e4929e83c3e4507f8730220a91da3a2c73",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.025107301,
+      "at": "2026-10-23T16:26:42.865Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792772802-UaR3E4sGugB10sjRHXbG",
+      "promptTokens": 1825,
+      "completionTokens": 288,
+      "finishReason": "stop",
+      "cost": 0.00088825
+    },
+    {
+      "fingerprint": "a95b3fd7e1769afb9eb9e865ada61cd1622389d7db12605225875971620dac74",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0265014,
+      "at": "2026-10-23T16:32:13.082Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792773132-tmW38GhJsdniBXFmLvut",
+      "promptTokens": 559,
+      "completionTokens": 48,
+      "finishReason": "stop",
+      "cost": 0.0002877
+    },
+    {
+      "fingerprint": "aa0406cc061ced8ca8cadb8eda1fdd5f5936bd0726a1a30eda66cf6ee39b53d1",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027492,
+      "at": "2026-10-23T16:48:30.489Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774110-pY5LMH29sNrLM6hxQG0H",
+      "promptTokens": 658,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.00005295
+    },
+    {
+      "fingerprint": "447c845f011e87b8e3da3b3d155eb7c97cb4dee6242396347eb8f5d8b3c6b674",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027618,
+      "at": "2026-10-23T16:48:32.376Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774111-YhfH5wZQceXEwpVB5Hjd",
+      "promptTokens": 668,
+      "completionTokens": 29,
+      "finishReason": "stop",
+      "cost": 0.0000559
+    },
+    {
+      "fingerprint": "4d8fbd058398e8ff672ae850c12bb29a779ae8c4a99d9078083320d23b098635",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0028138,
+      "at": "2026-10-23T16:48:35.196Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774114-1YdsMRLiQSdLtMPSWTB2",
+      "promptTokens": 741,
+      "completionTokens": 56,
+      "finishReason": "stop",
+      "cost": 0.000066775
+    },
+    {
+      "fingerprint": "57387f49dc1631528146e9e328566d633bb7e1de27adad790020ef422ff49699",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0028708,
+      "at": "2026-10-23T16:48:37.756Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774117-p93M7NS7jG9ES1WephTK",
+      "promptTokens": 821,
+      "completionTokens": 48,
+      "finishReason": "stop",
+      "cost": 0.000071175
+    },
+    {
+      "fingerprint": "9d892fde6be00b1fc9320896549a829055c895686d3aa9221d3b2dcb32794f49",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0031274,
+      "at": "2026-10-23T16:48:40.124Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774119-wDijLd9XsOhzJUDOes78",
+      "promptTokens": 1121,
+      "completionTokens": 47,
+      "finishReason": "stop",
+      "cost": 0.00011684375
+    },
+    {
+      "fingerprint": "f8fd72665eb8449624b218fd4a3a34f5e9460df063c84dfc651f59e91c6ec037",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0028116,
+      "at": "2026-10-23T16:48:43.224Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774122-jvFUmj9VwFEXuAYRkJIM",
+      "promptTokens": 755,
+      "completionTokens": 37,
+      "finishReason": "stop",
+      "cost": 0.00008003125
+    },
+    {
+      "fingerprint": "d1eb95cf8931a7debb3c8ef0fc4e5b6aac42bed508e74a945db2c089e366a78c",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002812,
+      "at": "2026-10-23T16:48:44.453Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774123-Pju8bDpz3ereg3uxXvCk",
+      "promptTokens": 753,
+      "completionTokens": 29,
+      "finishReason": "stop",
+      "cost": 0.00007647
+    },
+    {
+      "fingerprint": "04d09c4320137e94c16e79e00508fbb46d2cc6edfa052f052d0c78171ca782ca",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002961,
+      "at": "2026-10-23T16:48:45.558Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774124-bEHzi4urJMOyd9P4c5AR",
+      "promptTokens": 898,
+      "completionTokens": 38,
+      "finishReason": "stop",
+      "cost": 0.00007495
+    },
+    {
+      "fingerprint": "caed859a9ffdd29077b2f9bfdade69c94963b54f13f96c373774a1f1f61652e9",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0028664,
+      "at": "2026-10-23T16:48:47.758Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774127-nFdU9WJ3PS6xriPEXR7R",
+      "promptTokens": 780,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.000077625
+    },
+    {
+      "fingerprint": "a1e662a83e28935d35dc1251899dea666eac8b6e19d8f21707c221513dc53e68",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0029016,
+      "at": "2026-10-23T16:48:51.474Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774130-3HgPvO8VEWXvVzKFJdpy",
+      "promptTokens": 887,
+      "completionTokens": 44,
+      "finishReason": "stop",
+      "cost": 0.000075325
+    },
+    {
+      "fingerprint": "29ea52700c108623034521a3327b79fba1bca28a4d3bc849e2e9891562a30a35",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026572,
+      "at": "2026-10-23T16:50:29.043Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774228-gzr3jhGnrgl6TbFJVpGY",
+      "promptTokens": 570,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.00004635
+    },
+    {
+      "fingerprint": "08d1592f47e791e3b120ed54bea85ff3564f5ac4d87055195cbafcb2f103cbd5",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002669801,
+      "at": "2026-10-23T16:50:30.511Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774229-AZ0xfuJFsGPO42S2tUvJ",
+      "promptTokens": 580,
+      "completionTokens": 37,
+      "finishReason": "stop",
+      "cost": 0.0000509
+    },
+    {
+      "fingerprint": "03e42f6ead67496488b50a670aad7d8caeda2c86d2043f9374c8a27ed9c526ee",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027024,
+      "at": "2026-10-23T16:50:32.116Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774231-7xI2Xr3U0ajptPhvqWo5",
+      "promptTokens": 632,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.000051
+    },
+    {
+      "fingerprint": "9f436579b3e017a8ad1540b1508d4e0db3976e7117dd07f1128611eea8c17913",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002737,
+      "at": "2026-10-23T16:50:33.599Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774233-1L4bxf9IUKxupboxMsu8",
+      "promptTokens": 686,
+      "completionTokens": 44,
+      "finishReason": "stop",
+      "cost": 0.00006025
+    },
+    {
+      "fingerprint": "f16725a9ca8d75f5a8967e049ada84beb5c2929a367b190c24fb4e275d44ef80",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0029028,
+      "at": "2026-10-23T16:50:35.365Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774234-xnZW29lyRNnM6Pn5g95W",
+      "promptTokens": 891,
+      "completionTokens": 43,
+      "finishReason": "stop",
+      "cost": 0.000075425
+    },
+    {
+      "fingerprint": "afb594c7e7cf2ab0bd846176ec8d4394629bd41896edcbb9a3200b7e991237ed",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002698801,
+      "at": "2026-10-23T16:50:37.244Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774236-kVMgXK9zUVMGuEx8SjJt",
+      "promptTokens": 640,
+      "completionTokens": 31,
+      "finishReason": "stop",
+      "cost": 0.00006775
+    },
+    {
+      "fingerprint": "5533b29399d01b9389922c2e339ec0f7f8c2f24c335fa439c12b9c62f4851d7a",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026992,
+      "at": "2026-10-23T16:50:38.489Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774237-Yw2Z2kCyrn74H0meEgiI",
+      "promptTokens": 638,
+      "completionTokens": 29,
+      "finishReason": "stop",
+      "cost": 0.00005365
+    },
+    {
+      "fingerprint": "09c11bc32f20865320f38805d01199c16e8d6988f234ba164072865539ac8cf6",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027958,
+      "at": "2026-10-23T16:50:39.429Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774238-JJklQwhkKM28haYyPMLx",
+      "promptTokens": 732,
+      "completionTokens": 18,
+      "finishReason": "stop",
+      "cost": 0.000073125
+    },
+    {
+      "fingerprint": "fae1ca70294adefc902189c715f68fe6ef7aaf35bf4e3c1b0130ef96682bac24",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027316,
+      "at": "2026-10-23T16:50:40.363Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774239-dAaP81ivfFweZ2Y4uTGj",
+      "promptTokens": 649,
+      "completionTokens": 44,
+      "finishReason": "stop",
+      "cost": 0.000057475
+    },
+    {
+      "fingerprint": "a8cce4ae4c3bd3b8d816a08176d28375b3874d638364cfc7eff8f7f11fd19166",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0027618,
+      "at": "2026-10-23T16:50:41.889Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774241-dTtaPu4rNyl0giYB4U1a",
+      "promptTokens": 734,
+      "completionTokens": 46,
+      "finishReason": "stop",
+      "cost": 0.00006425
+    },
+    {
+      "fingerprint": "a5e4ced54afc612e11f280658155de8cf4a014243ba306feeed9ab9492b45949",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0186804,
+      "at": "2026-10-23T16:54:26.505Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774466-JNbkF8VNtE1UwPHR3nBt",
+      "promptTokens": 1141,
+      "completionTokens": 538,
+      "finishReason": "stop",
+      "cost": 0.00109225
+    },
+    {
+      "fingerprint": "85da85adcc8a9a419b5760620d323e58822d366185471f4bba9300af2343945d",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0028912,
+      "at": "2026-10-23T16:55:39.758Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774539-uEHzyzfaLr5vKIlvzEmR",
+      "promptTokens": 859,
+      "completionTokens": 275,
+      "finishReason": "stop",
+      "cost": 0.00014928125
+    },
+    {
+      "fingerprint": "a015c3d133a89c84bfcf293135d465fa2731016b40a8f3c0e9c81299b03c0385",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002723,
+      "at": "2026-10-23T16:56:02.672Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774562-4z5FadI9cV8GJowGHfE9",
+      "promptTokens": 647,
+      "completionTokens": 210,
+      "finishReason": "stop",
+      "cost": 0.00011315625
+    },
+    {
+      "fingerprint": "eb5f2d3acdb6561aa8cb3d2e1333fdf093f0840c0084f041fb21245493904f65",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026848,
+      "at": "2026-10-23T16:56:14.420Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774573-nvBOxNoXnrJAF5oIRUsx",
+      "promptTokens": 601,
+      "completionTokens": 255,
+      "finishReason": "stop",
+      "cost": 0.00012009375
+    },
+    {
+      "fingerprint": "93f2905f9a19fbedbb3c1756f90217178f40ebff37ff0e159653c94227d1258e",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002655801,
+      "at": "2026-10-23T16:56:25.116Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774584-iOKfbyPwWdeqOKIQwQsr",
+      "promptTokens": 541,
+      "completionTokens": 97,
+      "finishReason": "stop",
+      "cost": 0.00007779
+    },
+    {
+      "fingerprint": "58dd8343d69613feb9be5e218841acbfa4fed8844bb3858ca58e4c50c36e23db",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026906,
+      "at": "2026-10-23T16:56:27.292Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774586-cbMVbZqhKPmdTuzaZFsU",
+      "promptTokens": 600,
+      "completionTokens": 197,
+      "finishReason": "stop",
+      "cost": 0.0001055
+    },
+    {
+      "fingerprint": "0c7d0a3b19ec94152d7438b46b0e9612b2282d8410f76c433953ad8c3489138a",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026432,
+      "at": "2026-10-23T16:56:36.008Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774595-5Q1KPZv6C7LUDkdVrcyZ",
+      "promptTokens": 531,
+      "completionTokens": 110,
+      "finishReason": "stop",
+      "cost": 0.00007728125
+    },
+    {
+      "fingerprint": "4f998fef0c76fdae17b5855c88d4a4206a84f4140a7432bd3f8e9622867ad132",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0026852,
+      "at": "2026-10-23T16:56:41.388Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774600-vY7wyM0HmiWUTLzUZYlo",
+      "promptTokens": 599,
+      "completionTokens": 139,
+      "finishReason": "stop",
+      "cost": 0.00009090625
+    },
+    {
+      "fingerprint": "d8e8d276ee54d64c221544611d1b1255e2db3930bf4e2e0bf20fb7e9fa3a27b5",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002782,
+      "at": "2026-10-23T16:56:50.492Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774609-UNJenAHTETn9HcAIyKpo",
+      "promptTokens": 693,
+      "completionTokens": 125,
+      "finishReason": "stop",
+      "cost": 0.00009621875
+    },
+    {
+      "fingerprint": "284e58cfeab011b50a8bb6fc956f58c9378c3f75e4c98316a26e955fc98fc051",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.002717801,
+      "at": "2026-10-23T16:56:56.446Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774615-ax6cs8LdqYyDlHeYr0Gw",
+      "promptTokens": 610,
+      "completionTokens": 159,
+      "finishReason": "stop",
+      "cost": 0.00007755
+    },
+    {
+      "fingerprint": "87f7ccc0a0b23291101ddfbaea68c1ba3f20e595324e81b42ba5b7cd920ef638",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.00275,
+      "at": "2026-10-23T16:57:03.815Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774623-xZXCMcRIRmdP32zlKcc5",
+      "promptTokens": 702,
+      "completionTokens": 412,
+      "finishReason": "stop",
+      "cost": 0.0001688125
+    },
+    {
+      "fingerprint": "449827bdb333a52db1ae9c27d6e4f5f92cb7abbb4433855d8248ec0d50c8ade7",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0187326,
+      "at": "2026-10-23T16:58:20.772Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792774700-S4RQHXPuXnF920m7heVU",
+      "promptTokens": 1048,
+      "completionTokens": 15,
+      "finishReason": "stop",
+      "cost": 0.0002845
+    },
+    {
+      "fingerprint": "21c1bbad1fd8bf2eeb85c74d481b9daa4df1e6fd22348a48e3d4851cc7509d77",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0271332,
+      "at": "2026-10-23T20:53:02.043Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788780-oQfwbXwxPVGZcMqBq9AX",
+      "promptTokens": 2780,
+      "completionTokens": 525,
+      "finishReason": "stop",
+      "cost": 0.0021465
+    },
+    {
+      "fingerprint": "8bf2c9e4f42d1ace1717e66a13ce2706ee941845eb67d8765da13a6b1df5b70a",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.02803608,
+      "at": "2026-10-23T20:53:04.375Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788782-YU0yN9wR3YemL5QhPgGy",
+      "promptTokens": 2944,
+      "completionTokens": 617,
+      "finishReason": "stop",
+      "cost": 0.0024257
+    },
+    {
+      "fingerprint": "b1c11921b824634e1e5f7d4b5620c2b8220d8dfcdfc9c5da4b2193bd18249074",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0414702,
+      "at": "2026-10-23T20:53:18.921Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788797-boAPr6YH0FGvzQVBILDK",
+      "promptTokens": 8381,
+      "completionTokens": 733,
+      "finishReason": "stop",
+      "cost": 0.00319475
+    },
+    {
+      "fingerprint": "ca5296bdc4f927c828007174317a5d1dc1378189d9174ebed6cc1fa89bc73d36",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.041463,
+      "at": "2026-10-23T20:53:21.923Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788800-mvJ9WZjKfEfNefaIQbZi",
+      "promptTokens": 8379,
+      "completionTokens": 1149,
+      "finishReason": "stop",
+      "cost": 0.00381825
+    },
+    {
+      "fingerprint": "7777f9141f6791826b5a15ff7a7faeb66520cc0b60c22cd770706bbbb442fb00",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0588654,
+      "at": "2026-10-23T20:53:26.681Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788805-aPIThCdQXZKOxjES1bAt",
+      "promptTokens": 12699,
+      "completionTokens": 1561,
+      "finishReason": "stop",
+      "cost": 0.00551625
+    },
+    {
+      "fingerprint": "1a13f6698b6efc78d7237cfb1fe5277b7dd2ef791281e33e4dcdf717148cdb81",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0588582,
+      "at": "2026-10-23T20:53:30.877Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788809-KMk272eXKQI6W71Ndedw",
+      "promptTokens": 12697,
+      "completionTokens": 1556,
+      "finishReason": "stop",
+      "cost": 0.00550825
+    },
+    {
+      "fingerprint": "212b492efbf71a25f613ca253ff260e4f8b2edb0f9ff89164195d51d5a626022",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0851544,
+      "at": "2026-10-23T20:53:34.928Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788813-TE16rQnuH2H1ZPZa9lKj",
+      "promptTokens": 13487,
+      "completionTokens": 5170,
+      "finishReason": "stop",
+      "cost": 0.01112675
+    },
+    {
+      "fingerprint": "7a2be8a7fb6c700845584d308a74fed4307b6c01931268ed71cbd0153c6d6f15",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.04834872,
+      "at": "2026-10-23T20:53:46.612Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788824-lyCKa6PdzJHsGsnJBA57",
+      "promptTokens": 5487,
+      "completionTokens": 194,
+      "finishReason": "stop",
+      "cost": 0.0021311
+    },
+    {
+      "fingerprint": "0128f88e111f51253b98829fa64fd806b66ddc87ce2f9578b215656585f0dd15",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0895212,
+      "at": "2026-10-23T20:53:47.942Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788826-9bwO3IOwOS045Q7QBZxp",
+      "promptTokens": 6209,
+      "completionTokens": 196,
+      "finishReason": "stop",
+      "cost": 0.0023527
+    },
+    {
+      "fingerprint": "ea9695f6e299c0507812145c4561614ce59a454f1ec30b1bc39ccfcf458ed00a",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0549225,
+      "at": "2026-10-23T20:53:49.542Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788827-yiC96PNr2m8HIRPn8kH3",
+      "promptTokens": 10201,
+      "completionTokens": 596,
+      "finishReason": "stop",
+      "cost": 0.00344425
+    },
+    {
+      "fingerprint": "72d07f164d6f25b8c972db3d1032c1e8bc2d4cac4ddd4356e383e90841db0f4c",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.022995901,
+      "at": "2026-10-23T20:53:51.867Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788830-J5ku5wGOvtOmjfGyhe2j",
+      "promptTokens": 2015,
+      "completionTokens": 155,
+      "finishReason": "stop",
+      "cost": 0.00073625
+    },
+    {
+      "fingerprint": "8c33a00ded08fff29c29b45b26fd5eef468b9647a575c240ed16526cedfe64c3",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.089658,
+      "at": "2026-10-23T20:53:53.388Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788832-7gG55NMgkgYaX3hXznRT",
+      "promptTokens": 13655,
+      "completionTokens": 1002,
+      "finishReason": "stop",
+      "cost": 0.00491675
+    },
+    {
+      "fingerprint": "5da022a10870d5c659c2c9756b840aa24496a86e4d098f28a69aabac437dc53f",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0287586,
+      "at": "2026-10-23T20:53:58.191Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788836-SwC8TwiV84wvPQ325hCU",
+      "promptTokens": 2914,
+      "completionTokens": 226,
+      "finishReason": "stop",
+      "cost": 0.0010675
+    },
+    {
+      "fingerprint": "3ac5b7a9c1c63783e7612654419f2a237f0bc1457adccd8771abcafa81cd10fa",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0888732,
+      "at": "2026-10-23T20:53:59.978Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792788838-2kvGTz9vvccu36UjeJXV",
+      "promptTokens": 5841,
+      "completionTokens": 356,
+      "finishReason": "stop",
+      "cost": 0.0026423
+    },
+    {
+      "fingerprint": "d4b55eaa656a40aacf66a6b25214d56a783de052e51258a88178123943cb10fc",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0920889,
+      "at": "2026-10-23T21:15:41.270Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792790139-XHcFByf2oHaKftMVSpJg",
+      "promptTokens": 17058,
+      "completionTokens": 1749,
+      "finishReason": "stop",
+      "cost": 0.006888
+    },
+    {
+      "fingerprint": "a71a38f5b3ccd86582aaa7886a2b94fe325fb7d2b9b1b5d0075e688b05553ee2",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.05664852,
+      "at": "2026-10-23T21:25:49.090Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792790747-hLqYrUpm0ekCBMGV8xDo",
+      "promptTokens": 7634,
+      "completionTokens": 484,
+      "finishReason": "stop",
+      "cost": 0.0035002
+    },
+    {
+      "fingerprint": "419083ca3931c6d6fad15dfa8fadd3fd0024fa4bf175059f2e86d28783f5be5a",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.057006,
+      "at": "2026-10-23T21:30:46.570Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792791045-VQukZd7a83V8pCwqVEWg",
+      "promptTokens": 7734,
+      "completionTokens": 331,
+      "finishReason": "stop",
+      "cost": 0.0031477
+    },
+    {
+      "fingerprint": "70db3a8379576d4c8f9694a1149bfb5b9f56938bfbaa30154f006d46e011c4d8",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.039996,
+      "at": "2026-10-23T21:32:15.082Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792791133-JWUGp75BRgASyLvU5dro",
+      "promptTokens": 3728,
+      "completionTokens": 122,
+      "finishReason": "stop",
+      "cost": 0.0014234
+    },
+    {
+      "fingerprint": "6803b77158e19d1936e7571a468126a04f0dd94e15b7e9d14fe40d4aaa47c36f",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.03954456,
+      "at": "2026-10-23T21:32:43.240Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792791161-6ikFo17MrKVGwgOxddxA",
+      "promptTokens": 3604,
+      "completionTokens": 165,
+      "finishReason": "stop",
+      "cost": 0.0014937
+    },
+    {
+      "fingerprint": "57373939c621eb7f4122ba741fbe619ddd40300cd87ce41ca79ee89bbed384bc",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.04098636,
+      "at": "2026-10-23T21:34:50.362Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792791288-8qnOXOa2KybWg9jHxKzK",
+      "promptTokens": 4029,
+      "completionTokens": 116,
+      "finishReason": "stop",
+      "cost": 0.0014987
+    },
+    {
+      "fingerprint": "7e3bb49f98541bb7005cc8f11b414db5389bbbe7674c09504ef11c1a11a35bf2",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.039297241,
+      "at": "2026-10-23T21:35:47.484Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792791345-w7PctBKBL0HgDDdsqeyB",
+      "promptTokens": 3591,
+      "completionTokens": 284,
+      "finishReason": "stop",
+      "cost": 0.0017873
+    },
+    {
+      "fingerprint": "f291b9af24b981531c635027277b53618eb438ea2181c56347603eacea42808e",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.04338828,
+      "at": "2026-10-23T21:37:08.433Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792791426-6mMUe0Lin9zSCpK1F4q6",
+      "promptTokens": 4666,
+      "completionTokens": 412,
+      "finishReason": "stop",
+      "cost": 0.0024298
+    },
+    {
+      "fingerprint": "dc183c452a64c3baa7cb222db587d46d983cd1bf6e8790961d884eace3891098",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.067052881,
+      "at": "2026-10-23T22:05:10.965Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792793109-S89GLvsh4ppxkk4tmFXR",
+      "promptTokens": 761,
+      "completionTokens": 11,
+      "finishReason": "stop",
+      "cost": 0.0002558
+    },
+    {
+      "fingerprint": "192d292248bc886290f8466982eff7c1debacb15fa12ec2ab9ca826222e9b626",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0219555,
+      "at": "2026-10-23T22:10:04.247Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792793405-dtSN6hjXDTBHbI0Nxq65",
+      "promptTokens": 2583,
+      "completionTokens": 1296,
+      "finishReason": "stop",
+      "cost": 0.00258975
+    },
+    {
+      "fingerprint": "b4c37adc2d5e73ce1ed43a97ae20c2756cfa9145891c315ade21c8a06236a7fd",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.04842648,
+      "at": "2026-10-23T22:12:44.236Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792793563-D2EzxyQ8JWFq5VbsisOb",
+      "promptTokens": 5449,
+      "completionTokens": 236,
+      "finishReason": "stop",
+      "cost": 0.0022247
+    },
+    {
+      "fingerprint": "b0db307c19af235bdd33dd92cd779130060c8d5038159084087c69e5ef202ef9",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.04798368,
+      "at": "2026-10-23T22:20:24.814Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792794023-2KWZBhrNrLCph2Gtmocb",
+      "promptTokens": 5239,
+      "completionTokens": 129,
+      "finishReason": "stop",
+      "cost": 0.0018942
+    },
+    {
+      "fingerprint": "4c5b859b54fa6e79e31e3ba887f8d5d5b543e2e3e19824594e23f60a7377a4f1",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.05081436,
+      "at": "2026-10-23T22:33:26.736Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792794805-9MXbHGqhVxtG8JcDVlKB",
+      "promptTokens": 6103,
+      "completionTokens": 210,
+      "finishReason": "stop",
+      "cost": 0.0023559
+    }
+  ],
+  "priorCampaign": {
+    "path": "C:\\Users\\wiseflow\\Bayan\\docs\\ask-repair-runs\\arabic-quality-20261022-coordination-spend.json",
+    "hash": "ae68c81e857ba0dc3038a78e799a4396558d7d40f632efc6e927c64ab1d5dc6c",
+    "exposure": 1.8824438125000003,
+    "authorization": "Mo explicitly approved up to 25 cents more for one full Arabic worship retest after the source-request and summary-replay repairs. Preserve all earlier actual/reserved exposure, the original uncertain reservation, current models, privacy and price/reservation limits. Do not retry any uncertain request or deploy."
+  },
+  "reviewStops": [
+    {
+      "at": "2026-10-23T15:41:00.839Z",
+      "reason": "planning_process_exit_reviewed",
+      "authorization": "Continue the already authorized single worship attempt from two exact settled planning responses. No added allowance, changed models, privacy or request maxima. Completed planning calls may not be paid again."
+    },
+    {
+      "at": "2026-10-23T15:52:10.599Z",
+      "reason": "single_source_request_retest_finished_review_required",
+      "authorization": "Mo explicitly said continue the goal after the failed single-attempt source review. One new R01 test of stage-specific checking, correction context and source-group assignment repairs, within the unspent existing $0.25 allowance. No cap increase, changed models/privacy/request maxima or automatic repeat of an interrupted/uncertain request."
+    },
+    {
+      "at": "2026-10-23T15:54:47.624Z",
+      "reason": "campaign_reservation_storage_failed_before_dispatch",
+      "authorization": "Mo explicitly said continue the goal after the failed single-attempt source review. One new R01 test of stage-specific checking, correction context and source-group assignment repairs, within the unspent existing $0.25 allowance. No cap increase, changed models/privacy/request maxima or automatic repeat of an interrupted/uncertain request."
+    },
+    {
+      "at": "2026-10-23T16:00:31.551Z",
+      "reason": "source_faithfulness_failure_review_required",
+      "authorization": "Mo resumed the repair/test goal. After independent review of the completed but unsupported answer, run at most five fixed isolated-original checker controls within the unchanged remaining allowance, stopping on the first failed control. No fresh full question or model change."
+    },
+    {
+      "at": "2026-10-23T16:08:10.626Z",
+      "reason": "isolated_controls_finished_review_required",
+      "authorization": "Continue the authorized repair/test goal with one fixed combined relation/isolation experiment after the reviewed isolated-checker failure. At most ten fixed cases, including supported and unsupported new controls, at most two guarded checker calls each, stop on first mismatch. Existing allowance only, no model/privacy/cap change or automatic full-question repeat."
+    },
+    {
+      "at": "2026-10-23T16:13:31.457Z",
+      "reason": "relation_controls_finished_review_required",
+      "authorization": "Mo explicitly approved comparing current checker and configured backup on ten fixed Arabic cases within remaining allowance, no added budget or website model change."
+    },
+    {
+      "at": "2026-10-23T16:18:12.055Z",
+      "reason": "checker_comparison_finished_review_required",
+      "authorization": "Continue Mo's explicitly approved same-ten-case backup comparison after all original backup requests were explicitly rejected before generation. One-variable transport repair omits unsupported optional reasoning for this pinned non-reasoning model. Preserve privacy, strict schema, prices/output/reservations and existing allowance. Reuse primary comparison results; do not pay for those again. Stop on first backup transport or format failure."
+    },
+    {
+      "at": "2026-10-23T16:26:41.141Z",
+      "reason": "checker_comparison_reviewed_no_model_switch",
+      "authorization": "Continue the authorized repair/test goal within the unchanged remaining allowance: at most one blind source-criticism review for each of the three fixed recorded disagreements. Reuse settled reviewer outputs, no model change, full Ask rerun or automatic retry. Experimental only; stop at first mismatch."
+    },
+    {
+      "at": "2026-10-23T16:32:13.062Z",
+      "reason": "disagreement_controls_finished_review_required",
+      "authorization": "Continue the authorized repair/test goal within the unchanged remaining allowance: one text-only rewrite of each of the three fixed disagreements by the current writer, followed by current and configured-backup support checks. At most nine calls, no repeated correction, model/website change or full Ask rerun. Reuse saved criticisms, retain citations, language/copy checks and stop on first failed case. Independent Arabic-source review required."
+    },
+    {
+      "at": "2026-10-23T16:48:30.319Z",
+      "reason": "bounded_rewrite_controls_finished_review_required",
+      "authorization": "Mo resumed current-model repair/test goal. At most ten sequential fixed-bank compatibility controls with configured Mistral backup within existing remaining allowance. Add deterministic reading aid alongside unchanged exact originals; no website activation, new model, retry or full-question rerun. Stop on first unsupported acceptance or transport/format failure. Independently review results."
+    },
+    {
+      "at": "2026-10-23T16:50:29.025Z",
+      "reason": "reading_aid_controls_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within unchanged remaining allowance: ten same-bank Mistral controls changing only temperature to zero, keeping baseline exact request fingerprint after removing that one field. No reading aid or other prompt changes. At most one dispatch per case; stop on first unsupported acceptance or transport/format failure. No full-question rerun, new model or additional budget. Independently review results before retaining settings change."
+    },
+    {
+      "at": "2026-10-23T16:53:45.167Z",
+      "reason": "temperature_controls_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within unchanged remaining allowance: at most ten fixed-bank Arabic analysis-before-verdict checks by current Gemini checker, same exact originals, no reading aid or temperature override. No website activation, new model, retry, full-question rerun or added budget. Stop on first unsupported acceptance or transport/format failure. Require independent review and fresh controls before any activation."
+    },
+    {
+      "at": "2026-10-23T16:54:26.486Z",
+      "reason": "deliberate_meaning_controls_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within unchanged remaining allowance: at most ten fixed-bank Arabic analysis-before-verdict checks by current Gemini checker, same exact originals, no reading aid or temperature override. No website activation, new model, retry, full-question rerun or added budget. Stop on first unsupported acceptance or transport/format failure. Require independent review and fresh controls before any activation."
+    },
+    {
+      "at": "2026-10-23T16:55:39.736Z",
+      "reason": "deliberate_meaning_controls_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within unchanged remaining allowance: at most ten fixed-bank Arabic analysis-before-verdict checks by mistralai/mistral-small-3.2-24b-instruct, same exact originals, no reading aid or temperature override. Primary unreadable response remains rejected whole; no primary rerun. No website activation, new model, retry, full-question rerun or added budget. Stop on first unsupported acceptance or transport/format failure. Require independent review and fresh controls before any activation."
+    },
+    {
+      "at": "2026-10-23T16:58:20.758Z",
+      "reason": "deliberate_meaning_controls_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within unchanged remaining allowance: at most ten fixed Arabic controls on current Gemini checker changing only reasoning effort low to medium, verified against entire saved baseline transport fingerprints. Same prompt/schema/output limit, privacy and models; no experimental reading aid or analysis-first prompt. No website change, retry or added budget. Stop on first unsupported acceptance or format/transport failure."
+    },
+    {
+      "at": "2026-10-23T20:53:02.006Z",
+      "reason": "medium_reasoning_controls_finished_review_required",
+      "authorization": "Mo resumed the current-model repair/test goal. One fresh R01 attempt after relevance-prioritized bounded neighbour discovery, which reproduces the recorded missing-original defect offline and verifies fresh original identity. Existing allowance, ancestors, unresolved reservation, full per-call reservations and all settings preserved; no automatic repeat, deployment or new budget."
+    },
+    {
+      "at": "2026-10-23T21:15:41.233Z",
+      "reason": "campaign_budget_cannot_cover_next_call",
+      "authorization": "Continue Mo's current-model repair/test goal within the unchanged remainder: one current-checker audit of the saved, never-dispatched final request after removing previous approvals and mechanically lossless source sharing. All originals/restrictions/claims and the full response contract/output allowance retained; same conservative guard and price ceiling. Experimental input only; no new question/model, publication, retry or additional budget. Independently review the complete response."
+    },
+    {
+      "at": "2026-10-23T21:25:49.077Z",
+      "reason": "shared_originals_single_audit_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within the unchanged remainder: one fixed single-group writing component using the current writer and shared experimental context-before-prose contract. Use the existing normal single-group 2200-token allowance, full per-call reservation, price/privacy controls and own originals. No full-question/model comparison, fallback, correction, repeat or added budget. Independently review before any next fixed case; experiment remains off on website."
+    },
+    {
+      "at": "2026-10-23T21:30:46.557Z",
+      "reason": "grounded_writer_component_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within the unchanged remainder: one fixed single-group writing component using the current writer and shared experimental context-before-prose contract. Use the existing normal single-group 2200-token allowance, full per-call reservation, price/privacy controls and own originals. No full-question/model comparison, fallback, correction, repeat or added budget. Independently review before any next fixed case; experiment remains off on website."
+    },
+    {
+      "at": "2026-10-23T21:32:15.070Z",
+      "reason": "grounded_writer_component_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within the unchanged remainder: one fixed single-group writing component using the current writer and shared experimental context-before-prose contract. Use the existing normal single-group 2200-token allowance, full per-call reservation, price/privacy controls and own originals. No full-question/model comparison, fallback, correction, repeat or added budget. Independently review before any next fixed case; experiment remains off on website."
+    },
+    {
+      "at": "2026-10-23T21:32:43.229Z",
+      "reason": "grounded_writer_component_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within the unchanged remainder: one fixed single-group writing component using the current writer and shared experimental context-before-prose contract. Use the existing normal single-group 2200-token allowance, full per-call reservation, price/privacy controls and own originals. No full-question/model comparison, fallback, correction, repeat or added budget. Independently review before any next fixed case; experiment remains off on website."
+    },
+    {
+      "at": "2026-10-23T21:34:50.348Z",
+      "reason": "grounded_writer_component_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within the unchanged remainder: one fixed single-group writing component using the current writer and shared experimental context-before-prose contract. Use the existing normal single-group 2200-token allowance, full per-call reservation, price/privacy controls and own originals. No full-question/model comparison, fallback, correction, repeat or added budget. Independently review before any next fixed case; experiment remains off on website."
+    },
+    {
+      "at": "2026-10-23T21:35:47.473Z",
+      "reason": "grounded_writer_component_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within the unchanged remainder: one fixed single-group writing component using the current writer and shared experimental context-before-prose contract. Use the existing normal single-group 2200-token allowance, full per-call reservation, price/privacy controls and own originals. No full-question/model comparison, fallback, correction, repeat or added budget. Independently review before any next fixed case; experiment remains off on website."
+    },
+    {
+      "at": "2026-10-23T21:37:08.421Z",
+      "reason": "grounded_writer_component_finished_review_required",
+      "authorization": "Continue Mo's current-model repair/test goal within the unchanged remainder: one fixed single-group writing component using the current writer and shared experimental context-before-prose contract. Use the existing normal single-group 2200-token allowance, full per-call reservation, price/privacy controls and own originals. No full-question/model comparison, fallback, correction, repeat or added budget. Independently review before any next fixed case; experiment remains off on website."
+    },
+    {
+      "at": "2026-10-23T22:05:10.950Z",
+      "reason": "grounded_writer_component_finished_review_required",
+      "authorization": "Continue the current-model repair goal within the unchanged remainder: one exact-sentence summary selection component on the four saved source claims. Unchanged full output allowance, privacy, price ceilings and reservation guard. No final-answer completion, publication, fallback, retry or added budget. Independently review inherited claims."
+    },
+    {
+      "at": "2026-10-23T22:10:01.726Z",
+      "reason": "selected_summary_component_finished_review_required",
+      "authorization": "Continue current-model repair goal within existing remainder: one actual focused source-support component on all four saved explanations and exact own originals/context. Same output formula, prices, privacy and conservative reservations; no fallback, retry, full-answer completion or added budget."
+    },
+    {
+      "at": "2026-10-23T22:12:43.979Z",
+      "reason": "focused_recorded_support_finished_review_required",
+      "authorization": "Continue current-model repair goal within unchanged remainder: one W00 source-writing component with unchecked sibling drafts and selector scope labels removed by the actual engine helper. Full originals/context, normal 2200-token output, schema, privacy, prices and conservative guard unchanged. No prefix/grounding generation, retry, backup, final-answer completion or added budget. Independently review; website remains unchanged."
+    },
+    {
+      "at": "2026-10-23T22:20:24.798Z",
+      "reason": "grounded_writer_component_finished_review_required",
+      "authorization": "Continue current-model repair goal in unchanged remainder: one actual-engine case-referent source correction component. Normal schema/output/timeout, originals/context, privacy/prices and conservative reservation. Prior checker stages are scripted, not religious verification. Independently review live corrected wording. No complete answer, extra correction, fallback, retry or budget increase."
+    },
+    {
+      "at": "2026-10-23T22:33:26.725Z",
+      "reason": "case_referent_correction_finished_review_required",
+      "authorization": "Continue current-model repair goal within unchanged remainder: one normal initial Quran-writing component after actual chooser diversity replay and fresh identity/context checks. Only selected Quran membership/routing enums change. Normal 2200-token output, privacy, prices and conservative reservation. No model switch, whole-answer completion, backup, correction, retry or budget increase. Independently review all generated claims."
+    }
+  ],
+  "evaluationCases": [
+    {
+      "id": "R01",
+      "requestId": "6e80b9a7-d088-46fd-b068-f1f71fd8ef67",
+      "reportPath": "C:\\Users\\wiseflow\\Bayan\\work\\private-ask-evaluation\\arabic-quality-20261022-source-request-retest\\report.json",
+      "review": "failed"
+    },
+    {
+      "id": "R01",
+      "requestId": "3e8ee2a8-832c-49a2-9672-ad51972a3f45",
+      "reportPath": "C:\\Users\\wiseflow\\Bayan\\work\\private-ask-evaluation\\arabic-quality-20261022-source-contract-retest\\report.json",
+      "review": "failed"
+    },
+    {
+      "id": "R01",
+      "requestId": "2c2b118f-d7be-459d-83ae-95a6adad2f98",
+      "reportPath": "C:\\Users\\wiseflow\\Bayan\\work\\private-ask-evaluation\\discovery-priority-full-retest-20261023.json",
+      "revisionHash": "a1c52c4ff2815a15e82c374e895453767417c646d53e4db990d3557a5008ce33",
+      "review": "failed"
+    }
+  ],
+  "stopped": "diverse_package_writer_finished_review_required"
+}

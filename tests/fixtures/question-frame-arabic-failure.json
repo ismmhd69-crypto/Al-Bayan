@@ -1,0 +1,139 @@
+{
+  "plans": [
+    {
+      "language": "ar",
+      "kind": "question",
+      "question_type": "definition",
+      "subjects": [
+        "الصبر",
+        "الظلم",
+        "المطالبة بالحق"
+      ],
+      "requested_points": [
+        {
+          "text": "هل الصبر يعني السكوت عن الظلم؟",
+          "facet": "definition",
+          "essential_conditions": [],
+          "interpretation_id": "",
+          "search_queries": {
+            "en": [],
+            "de": [],
+            "ar": [
+              "هل الصبر يعني السكوت عن الظلم",
+              "معنى الصبر في مواجهة الظلم"
+            ]
+          },
+          "quran_ar": [],
+          "hadith_ar": [],
+          "scope": "general"
+        },
+        {
+          "text": "كيف يجمع المسلم بين الصبر والمطالبة بحقه؟",
+          "facet": "steps",
+          "essential_conditions": [],
+          "interpretation_id": "",
+          "search_queries": {
+            "en": [],
+            "de": [],
+            "ar": [
+              "الجمع بين الصبر والمطالبة بالحق",
+              "كيف يطالب المسلم بحقه مع الصبر"
+            ]
+          },
+          "quran_ar": [],
+          "hadith_ar": [],
+          "scope": "general"
+        }
+      ],
+      "qualifiers": [],
+      "search_queries_en": [],
+      "search_queries_de": [],
+      "search_queries_ar": [
+        "هل الصبر السكوت عن الظلم",
+        "الجمع بين الصبر ودفع الظلم",
+        "المطالبة بالحق مع الصبر",
+        "مفهوم الصبر الحقيقي في الإسلام"
+      ],
+      "search_queries_quran_ar": [
+        "ولمن انتصر بعد ظلمه فأولئك ما عليهم من سبيل"
+      ],
+      "search_queries_hadith_ar": [
+        "انصر أخاك ظالماً أو مظلوماً"
+      ],
+      "interpretations": [],
+      "clarification_needed": false,
+      "checklist_status": "complete"
+    },
+    {
+      "language": "ar",
+      "kind": "question",
+      "question_type": "definition",
+      "subjects": [
+        "الصبر",
+        "الظلم",
+        "المطالبة بالحق"
+      ],
+      "requested_points": [
+        {
+          "text": "Does patience mean remaining silent about injustice?",
+          "facet": "definition",
+          "essential_conditions": [],
+          "interpretation_id": "",
+          "search_queries": {
+            "en": [
+              "does patience mean silence on injustice"
+            ],
+            "de": [],
+            "ar": [
+              "هل الصبر يعني السكوت عن الظلم",
+              "مفهوم الصبر على الظلم"
+            ]
+          },
+          "quran_ar": [],
+          "hadith_ar": [],
+          "scope": "general"
+        },
+        {
+          "text": "How does a Muslim combine patience and claiming their right?",
+          "facet": "practice",
+          "essential_conditions": [],
+          "interpretation_id": "",
+          "search_queries": {
+            "en": [
+              "combining patience and demanding rights"
+            ],
+            "de": [],
+            "ar": [
+              "الجمع بين الصبر والمطالبة بالحق",
+              "كيف يجمع المسلم بين الصبر والحق"
+            ]
+          },
+          "quran_ar": [],
+          "hadith_ar": [],
+          "scope": "general"
+        }
+      ],
+      "qualifiers": [],
+      "search_queries_en": [
+        "patience and injustice in Islam",
+        "demanding rights while being patient"
+      ],
+      "search_queries_de": [],
+      "search_queries_ar": [
+        "هل الصبر يعني السكوت عن الظلم",
+        "الجمع بين الصبر والمطالبة بحق المظلوم",
+        "حكم السكوت عن الظلم بحجة الصبر"
+      ],
+      "search_queries_quran_ar": [
+        "ولمن انتصر بعد ظلمه فأولئك ما عليهم من سبيل"
+      ],
+      "search_queries_hadith_ar": [
+        "انصر أخاك ظالماً أو مظلوماً"
+      ],
+      "interpretations": [],
+      "clarification_needed": false,
+      "checklist_status": "complete"
+    }
+  ],
+  "description": "Recorded rejected planning responses only; no religious answer or source approval"
+}

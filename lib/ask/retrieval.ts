@@ -3,6 +3,7 @@ import type { Verse } from "@/lib/sources/quran-meta";
 import type { Hadith } from "@/lib/sources/hadith-rules";
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 import { chooseSealedPackage, type ChooserOptions, type QuranCard } from "./package";
+import { parseContributionPlan, type ContributionUnit } from "./contribution-plan";
 
 export const QUESTION_TYPES = [
   "identity",
@@ -148,6 +149,20 @@ function requirements(value: unknown): AnswerRequirement[] | null {
  * Validates the AI's question analysis. Only bounded labels and filtered short phrases survive;
  * the raw visitor text is never forwarded to retrieval, drafting or screening.
  */
+/** Fixed, privacy-safe correction hints. Never coerce a rejected plan into approval. */
+export function questionFrameRejection(raw: unknown): string {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return "frame_response_unreadable";
+  const points = (raw as Record<string, unknown>).requested_points;
+  if (Array.isArray(points)) for (const item of points) {
+    if (!item || typeof item !== "object") return "requested_point_malformed";
+    const p = item as Record<string, unknown>;
+    if (typeof p.text === "string" && !SAFE_REQUIREMENT.test(p.text.trim().replace(/[’‘]/g, "'").replace(/[–—]/g, "-").replace(/\s+/g, " ")))
+      return "requested_point_text_must_be_short_plain_English";
+    if (typeof p.facet === "string" && !(ANSWER_FACETS as readonly string[]).includes(p.facet)) return "requested_point_facet_not_in_allowed_enum";
+  }
+  return "question_frame_contract_invalid";
+}
+
 export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
   if (!raw || typeof raw !== "object") return null;
   const record = raw as Record<string, unknown>;
@@ -385,6 +400,8 @@ export type SelectedPassage = PassageForSelection & {
 };
 
 export type EvidencePackage = {
+  partial?: true; // Source explanation only; never a completed answer package.
+  contributionPlan?: ContributionUnit[]; // Checked identity/scope only; not approved religious content.
   question: Pick<QuestionFrame, "language" | "questionType" | "subjects" | "requirements" | "requiredFacets" | "qualifiers" | "interpretations">;
   passages: SelectedPassage[]; // capped, in writer order
   cards: QuranCard[]; // how the package's verses form Quran passage cards
@@ -401,14 +418,15 @@ export function parseEvidencePackage(
   raw: unknown,
   frame: QuestionFrame,
   candidates: PassageForSelection[],
-  options: ChooserOptions & { requireContributions?: boolean } = {},
+  options: ChooserOptions & { requireContributions?: boolean; partialPreview?: boolean; distinctSelection?: boolean } = {},
   onFailure?: (code: string) => void,
 ): EvidencePackage | null {
   const fail = (code: string): null => { onFailure?.(code); return null; };
+  if (options.distinctSelection && !options.requireContributions) return fail("evidence_plan_requires_contributions");
   if (!raw || typeof raw !== "object") return fail("response_not_object");
   const record = raw as Record<string, unknown>;
-  if (!["ready", "insufficient", "ambiguous", "conflicting"].includes(String(record.status))) return fail(record.status === undefined ? "status_missing" : "status_invalid");
-  if (!["complete", "incomplete"].includes(String(record.coverage))) return fail(record.coverage === undefined ? "coverage_missing" : record.coverage === "uncertain" ? "coverage_uncertain" : "coverage_invalid");
+  if (!isString(record.status) || !["ready", "insufficient", "ambiguous", "conflicting"].includes(record.status)) return fail(record.status === undefined ? "status_missing" : "status_invalid");
+  if (!isString(record.coverage) || !["complete", "incomplete"].includes(record.coverage)) return fail(record.coverage === undefined ? "coverage_missing" : record.coverage === "uncertain" ? "coverage_uncertain" : "coverage_invalid");
   const conflictType = typeof record.conflict_type === "string" ? record.conflict_type
     : record.conflict === "none" ? "none" : "uncertain";
   if (!["none", "revelation_conflict", "scholar_difference", "uncertain"].includes(conflictType)) return fail("conflict_invalid");
@@ -428,6 +446,7 @@ export function parseEvidencePackage(
   for (const item of record.assessments) {
     if (!item || typeof item !== "object") return fail("assessment_not_object");
     const assessment = item as Record<string, unknown>;
+    if (options.distinctSelection && (!isString(assessment.distinct_contribution) || !["yes", "no", "unsure"].includes(assessment.distinct_contribution))) return fail("distinct_contribution_invalid");
     if (!isString(assessment.source_id) || !byId.has(assessment.source_id)) return fail(assessment.source_id === undefined ? "source_id_missing" : "source_id_invalid_or_unknown");
     if (!isString(assessment.relevance) || !(["direct", "partial", "context", "mention_only", "unrelated"] as Relevance[]).includes(assessment.relevance as Relevance)) return fail(assessment.relevance === undefined ? "relevance_missing" : "relevance_invalid");
     if (!isString(assessment.context_safe) || !["yes", "no", "unsure"].includes(assessment.context_safe)) return fail(assessment.context_safe === undefined ? "context_decision_missing" : "context_decision_invalid");
@@ -440,10 +459,10 @@ export function parseEvidencePackage(
     let scopeCompatible = true;
     if (options.requireContributions) {
       const c = assessment.contribution as Record<string, unknown> | undefined;
-      if (!c || !["direct", "background", "limited_example"].includes(String(c.role))
-        || !["general", "case_specific"].includes(String(c.scope)) || !Array.isArray(c.conditions)
+      if (!c || !isString(c.role) || !["direct", "background", "limited_example"].includes(c.role)
+        || !isString(c.scope) || !["general", "case_specific"].includes(c.scope) || !Array.isArray(c.conditions)
         || c.conditions.length > 6 || !c.conditions.every(s => typeof s === "string" && s.length > 0 && s.length <= 200)
-        || !["yes", "no", "unsure"].includes(String(assessment.scope_matches_question))) return fail("contribution_invalid");
+        || !isString(assessment.scope_matches_question) || !["yes", "no", "unsure"].includes(assessment.scope_matches_question)) return fail("contribution_invalid");
       if (direct && (c.role !== "direct" || assessment.scope_matches_question !== "yes")) return fail("source_scope_mismatch");
       // The question frame and evidence selector make separate scope decisions. A selector's
       // blanket "yes" cannot turn a narrow case into instructions for a general requested point.
@@ -467,10 +486,16 @@ export function parseEvidencePackage(
     }
     if (!direct && requirementIds.length > 0) return fail("non_direct_requirement_assignment");
     const ok = direct && scopeCompatible && assessment.context_safe === "yes" && requirementIds.length > 0;
-    const position = typeof assessment.position === "string" && /^[a-z][a-z0-9-]{0,39}$/.test(assessment.position)
+    let position = typeof assessment.position === "string" && /^[a-z][a-z0-9-]{0,39}$/.test(assessment.position)
       ? assessment.position : null;
     const candidate = byId.get(assessment.source_id)!;
-    if (position && candidate.source.kind !== "scholar") return fail("position_on_non_scholar");
+    if (position && candidate.source.kind !== "scholar") {
+      if (!options.requireContributions) return fail("position_on_non_scholar");
+      // The known source kind is code-owned. This presentation label has no
+      // meaning for revelation; leave all substantive assessment fields intact.
+      position = null;
+      onFailure?.("presentation_position_normalised");
+    }
     if (conflictType === "scholar_difference" && ok && candidate.source.kind === "scholar" && !position) return fail("scholar_position_missing");
     const before = verdicts.get(assessment.source_id);
     verdicts.set(
@@ -500,19 +525,30 @@ export function parseEvidencePackage(
       && (record.assessments as Record<string, unknown>[]).filter(a => a.source_id === candidate.id).length === 1)
     .map(candidate => ({ ...candidate, requirementIds: [], explanationRequirementIds: supporting.get(candidate.id)!,
       contribution: contributions.get(candidate.id)!, facets: [] })) : [];
-  if (direct.length === 0) return fail(
+  if (direct.length === 0 && (!options.partialPreview || context.length === 0)) return fail(
     record.assessments.some((item) => item.relevance === "direct" && item.context_safe !== "yes")
       ? "no_direct_evidence_unsafe_context" : "no_direct_evidence_with_requirements",
   );
-  if (options.requireContributions && (record.status !== "ready" || record.coverage !== "complete")) return fail("direct_requirement_coverage_missing");
+  if (options.requireContributions && !options.partialPreview && (record.status !== "ready" || record.coverage !== "complete")) return fail("direct_requirement_coverage_missing");
+  if (options.partialPreview && !["ready", "insufficient"].includes(String(record.status))) return fail("partial_status_unsafe");
 
-  // Code builds the capped package before drafting (lib/ask/package.ts): cover every requested
-  // point first, then fill by the fixed ranking within 3 Quran cards, 2 hadith and 2 scholar quotes.
-  const chosen = chooseSealedPackage([...direct, ...context], frame.requirements.map((requirement) => requirement.id), options);
+  // The preview uses explicit contributions instead of filling spare source slots. The legacy
+  // chooser remains available for unchanged clients while the new selection is being evaluated.
+  const contributionPlan = options.distinctSelection ? parseContributionPlan(record.evidence_plan, [...direct, ...context], frame,
+    !!options.partialPreview, record.assessments as Record<string, unknown>[], fail) : undefined;
+  if (contributionPlan === null) return null;
+  if (contributionPlan) {
+    const planned = new Set(contributionPlan.flatMap(u => u.sourceIds));
+    for (const group of options.namedPassages ?? []) {
+      if (group.every(id => direct.some(p => p.id === id)) && group.some(id => planned.has(id)) && !group.every(id => planned.has(id))) return fail("evidence_plan_named_passage_incomplete");
+    }
+  }
+  const chosen = chooseSealedPackage([...direct, ...context], options.partialPreview ? [] : frame.requirements.map((requirement) => requirement.id),
+    { ...options, ...(contributionPlan ? { contributionPlan } : {}) });
   if (!chosen) return fail(frame.requirements.every((requirement) => direct.some((passage) => passage.requirementIds.includes(requirement.id)))
     ? "package_caps_prevent_coverage" : "direct_requirement_coverage_missing");
   const selected = chosen.passages;
-  if (!frame.requirements.every((requirement) => selected.some((passage) => passage.requirementIds.includes(requirement.id)))) return fail("sealed_requirement_coverage_missing");
+  if (!options.partialPreview && !frame.requirements.every((requirement) => selected.some((passage) => passage.requirementIds.includes(requirement.id)))) return fail("sealed_requirement_coverage_missing");
 
   let scholarDifference: EvidencePackage["scholarDifference"];
   if (conflictType === "scholar_difference") {
@@ -527,6 +563,7 @@ export function parseEvidencePackage(
     scholarDifference = { positions };
   }
   return {
+    ...(options.partialPreview ? { partial: true as const } : {}),
     question: {
       language: frame.language,
       questionType: frame.questionType,
@@ -537,6 +574,7 @@ export function parseEvidencePackage(
       ...(frame.interpretations?.length ? { interpretations: frame.interpretations } : {}),
     },
     passages: selected,
+    ...(contributionPlan ? { contributionPlan: contributionPlan.filter(unit => unit.sourceIds.every(id => selected.some(p => p.id === id))) } : {}),
     cards: chosen.cards,
     ...(scholarDifference ? { scholarDifference } : {}),
   };

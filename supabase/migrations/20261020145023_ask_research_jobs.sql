@@ -13,7 +13,9 @@ create table editorial.ask_research_jobs (
   request_hash text not null check (request_hash ~ '^[a-f0-9]{64}$'),
   language text not null check (language in ('en','ar','de')),
   request_cipher jsonb,
-  status text not null default 'queued' check (status in ('queued','running','complete','incomplete','failed','cancelled','reconciliation_required','expired')),
+  protocol smallint not null default 1 check (protocol in (1,2)),
+  checkpoint_cipher jsonb check (checkpoint_cipher is null or (jsonb_typeof(checkpoint_cipher)='object' and octet_length(checkpoint_cipher::text)<=4000000)),
+  status text not null default 'queued' check (status in ('queued','running','paused','complete','incomplete','failed','cancelled','reconciliation_required','expired')),
   lease_id uuid,
   lease_expires_at timestamptz,
   sequence integer not null default 0 check (sequence between 0 and 512),
@@ -64,7 +66,7 @@ create function editorial.erase_account_research() returns trigger
 language plpgsql security definer set search_path = '' as $$
 declare stamp timestamptz := clock_timestamp();
 begin
-  update editorial.ask_research_jobs set request_cipher=null,status='expired',lease_id=null,lease_expires_at=null,erased_at=stamp,
+  update editorial.ask_research_jobs set request_cipher=null,checkpoint_cipher=null,status='expired',lease_id=null,lease_expires_at=null,erased_at=stamp,
     expires_at=least(expires_at,stamp),updated_at=stamp where account_id=old.id;
   delete from editorial.ask_research_events e using editorial.ask_research_jobs j where e.job_id=j.id and j.account_id=old.id;
   update editorial.ask_research_attempts a set response_cipher=null from editorial.ask_research_jobs j where a.job_id=j.id and j.account_id=old.id;
@@ -140,8 +142,8 @@ begin
       or (select count(*) from editorial.ask_research_jobs where status in ('queued','running') and expires_at>stamp)>=100 then
       return jsonb_build_object('status','rate_limited');
     end if;
-    insert into editorial.ask_research_jobs(id,owner_hash,account_id,rate_hash,dedupe_hash,request_hash,language,request_cipher,max_cost_usd)
-      values((payload->>'id')::uuid,payload->>'owner',(payload->>'account_id')::uuid,payload->>'rate',payload->>'dedupe',payload->>'request_hash',payload->>'language',payload->'request_cipher',amount)
+    insert into editorial.ask_research_jobs(id,owner_hash,account_id,rate_hash,dedupe_hash,request_hash,language,request_cipher,max_cost_usd,protocol)
+      values((payload->>'id')::uuid,payload->>'owner',(payload->>'account_id')::uuid,payload->>'rate',payload->>'dedupe',payload->>'request_hash',payload->>'language',payload->'request_cipher',amount,coalesce((payload->>'protocol')::smallint,1))
       returning * into j;
     return jsonb_build_object('status','ok','id',j.id,'state',j.status,'sequence',0);
   end if;
@@ -182,7 +184,7 @@ begin
     if not found then return jsonb_build_object('status','empty'); end if;
     update editorial.ask_research_jobs set status='running',lease_id=pg_catalog.gen_random_uuid(),lease_expires_at=stamp+interval '30 seconds',updated_at=stamp
       where id=j.id returning * into j;
-    return jsonb_build_object('status','ok','id',j.id,'lease',j.lease_id,'sequence',j.sequence,'request_cipher',j.request_cipher,'expires_at',j.expires_at);
+    return jsonb_build_object('status','ok','id',j.id,'lease',j.lease_id,'sequence',j.sequence,'request_cipher',j.request_cipher,'checkpoint_cipher',j.checkpoint_cipher,'expires_at',j.expires_at);
   end if;
 
   if operation='prune' then
@@ -190,7 +192,7 @@ begin
     -- until operator reconciliation; it contains no prompts, originals or response bodies.
     delete from editorial.ask_research_events e using editorial.ask_research_jobs q where e.job_id=q.id and q.expires_at<=stamp;
     update editorial.ask_research_attempts p set response_cipher=null from editorial.ask_research_jobs q where p.job_id=q.id and q.expires_at<=stamp;
-    update editorial.ask_research_jobs set request_cipher=null,status='expired',lease_id=null,lease_expires_at=null,updated_at=stamp where expires_at<=stamp and status<>'expired';
+    update editorial.ask_research_jobs set request_cipher=null,checkpoint_cipher=null,status='expired',lease_id=null,lease_expires_at=null,updated_at=stamp where expires_at<=stamp and status<>'expired';
     delete from editorial.ask_research_jobs q where (q.created_at<stamp-interval '30 days' or q.erased_at is not null)
       and not exists(select 1 from editorial.ask_research_attempts p where p.job_id=q.id and p.state<>'settled');
     return jsonb_build_object('status','ok');
@@ -202,11 +204,20 @@ begin
     payload:=payload||jsonb_build_object('id',j.id);
   end if;
   target_job_id := (payload->>'id')::uuid;
+  if operation='continue' then perform pg_catalog.pg_advisory_xact_lock(1800261020::bigint); end if;
   select * into j from editorial.ask_research_jobs where id=target_job_id for update;
   if not found then return jsonb_build_object('status','not_found'); end if;
-  if operation in ('read','cancel','lookup') then
+  if operation in ('read','cancel','lookup','continue') then
     if j.owner_hash<>coalesce(payload->>'owner','') then return jsonb_build_object('status','not_found'); end if;
     if j.expires_at<=stamp then return jsonb_build_object('status','expired'); end if;
+    if operation='continue' then
+      if j.protocol<>2 or j.status<>'paused' or j.checkpoint_cipher is null then return jsonb_build_object('status','not_paused'); end if;
+      if exists(select 1 from editorial.ask_research_attempts where job_id=j.id and state<>'settled') then return jsonb_build_object('status','reconciliation_required'); end if;
+      perform pg_catalog.pg_advisory_xact_lock(1800261020::bigint);
+      if (select count(*) from editorial.ask_research_jobs where status in ('queued','running') and expires_at>stamp)>=100 then return jsonb_build_object('status','rate_limited'); end if;
+      update editorial.ask_research_jobs set status='queued',lease_id=null,lease_expires_at=null,updated_at=stamp where id=j.id returning * into j;
+      return jsonb_build_object('status','ok','id',j.id,'state',j.status,'sequence',j.sequence);
+    end if;
     if operation in ('read','lookup') then
       if j.read_window_started<=stamp-interval '1 minute' then j.read_count:=0; j.read_window_started:=stamp; end if;
       if j.read_count>=120 then return jsonb_build_object('status','rate_limited'); end if;
@@ -215,13 +226,13 @@ begin
     if operation='lookup' then
       return jsonb_build_object('status','ok','id',j.id,'state',j.status,'language',j.language,'sequence',j.sequence,'request_cipher',j.request_cipher);
     end if;
-    if operation='cancel' and j.status in ('queued','running','reconciliation_required') then
+    if operation='cancel' and j.status in ('queued','running','paused','reconciliation_required') then
       update editorial.ask_research_jobs set status='cancelled',lease_id=null,lease_expires_at=null,updated_at=stamp where id=target_job_id returning * into j;
     end if;
     if coalesce((payload->>'after')::integer,0) not between 0 and 512 then raise exception 'invalid_research_cursor'; end if;
     select coalesce(jsonb_agg(jsonb_build_object('sequence',e.sequence,'payload_cipher',e.payload_cipher) order by e.sequence),'[]'::jsonb) into result
       from editorial.ask_research_events e where e.job_id=target_job_id and e.sequence>coalesce((payload->>'after')::integer,0);
-    return jsonb_build_object('status','ok','id',j.id,'state',j.status,'sequence',j.sequence,'language',j.language,'events',result,'expires_at',j.expires_at);
+    return jsonb_build_object('status','ok','id',j.id,'state',j.status,'sequence',j.sequence,'language',j.language,'events',result,'expires_at',j.expires_at,'protocol',j.protocol);
   end if;
 
   -- Every worker write checks the current, unexpired lease. Stop revokes it immediately.
@@ -273,6 +284,17 @@ begin
     end if;
     update editorial.ask_research_jobs set spent_usd=spent_usd+amount,updated_at=stamp where id=j.id;
     return jsonb_build_object('status','ok');
+  elsif operation='patient_event' then
+    if j.protocol<>2 or (payload->>'expected_sequence')::integer is distinct from j.sequence then return jsonb_build_object('status','sequence_conflict'); end if;
+    if j.sequence>=512 then return jsonb_build_object('status','event_limit'); end if;
+    if payload->'checkpoint_cipher' is null or jsonb_typeof(payload->'checkpoint_cipher')<>'object' then raise exception 'invalid_patient_checkpoint'; end if;
+    if coalesce(payload->>'state','running') not in ('running','paused','complete','failed','cancelled') then raise exception 'invalid_patient_state'; end if;
+    if coalesce(payload->>'state','running')<>'running' and exists(select 1 from editorial.ask_research_attempts where job_id=j.id and state<>'settled') then return jsonb_build_object('status','reconciliation_required'); end if;
+    insert into editorial.ask_research_events(job_id,sequence,payload_cipher) values(j.id,j.sequence+1,payload->'payload_cipher');
+    update editorial.ask_research_jobs set sequence=sequence+1,checkpoint_cipher=payload->'checkpoint_cipher',updated_at=stamp,
+      status=coalesce(payload->>'state','running'),lease_id=case when coalesce(payload->>'state','running')='running' then lease_id else null end,
+      lease_expires_at=case when coalesce(payload->>'state','running')='running' then lease_expires_at else null end where id=j.id returning * into j;
+    return jsonb_build_object('status','ok','sequence',j.sequence);
   elsif operation in ('event','finish') then
     if (payload->>'expected_sequence')::integer is distinct from j.sequence then return jsonb_build_object('status','sequence_conflict'); end if;
     if j.sequence>=512 then return jsonb_build_object('status','event_limit'); end if;

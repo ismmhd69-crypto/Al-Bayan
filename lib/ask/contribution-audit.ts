@@ -1,5 +1,8 @@
 // Validates semantic findings, not the religious accuracy of the model's judgement.
-export function contributionAudit(raw: unknown, claimIds: string[], summaryIds: string[]): string[] {
+export const crossSummaryOverlap = (id: string, duplicates: string[], summaryIds: string[]) => duplicates.length > 0
+  && duplicates.every(other => summaryIds.includes(id) !== summaryIds.includes(other));
+
+export function contributionAudit(raw: unknown, claimIds: string[], summaryIds: string[], directSummaryChecked = false): string[] {
   if (!Array.isArray(raw) || raw.length !== claimIds.length) return ["contribution_map_invalid"];
   const seen = new Set<string>();
   const reasons = new Set<string>();
@@ -13,10 +16,15 @@ export function contributionAudit(raw: unknown, claimIds: string[], summaryIds: 
       reasons.add("contribution_map_invalid"); continue;
     }
     seen.add(row.claim_id);
-    if (row.adds_value !== "yes") reasons.add("contribution_not_useful");
-    if (row.kind === "restatement" || row.duplicates.length) reasons.add("semantic_repetition");
+    // A directly checked final answer may recap its explanations. It must not
+    // invent an additional religious claim just to qualify as new information.
+    const recap = directSummaryChecked && crossSummaryOverlap(row.claim_id, row.duplicates, summaryIds)
+      && (!summaryIds.includes(row.claim_id) || row.kind === "synthesis");
+    if (row.adds_value !== "yes" && !(recap && row.adds_value === "no")) reasons.add("contribution_not_useful");
+    if (row.kind === "restatement" || row.duplicates.length && !recap) reasons.add("semantic_repetition");
     if (summaryIds.includes(row.claim_id) && row.kind !== "synthesis") reasons.add("summary_not_synthesis");
-    if (!summaryIds.includes(row.claim_id) && row.kind === "synthesis") reasons.add("contribution_map_invalid");
+    // Source explanations can connect several cited passages too. Their
+    // presentation role is supplied by code, not inferred from this label.
   }
   if (seen.size !== claimIds.length) reasons.add("contribution_map_invalid");
   return [...reasons];

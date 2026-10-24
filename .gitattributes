@@ -1,2 +1,4 @@
 # Preserve the frozen evaluation hash on Windows and Linux checkouts.
 tests/fixtures/ask-library-evaluation.json text eol=lf
+# Spending ancestry hashes cover exact bytes, including historical line endings.
+docs/ask-repair-runs/*spend.json -text

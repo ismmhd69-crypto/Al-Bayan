@@ -36,6 +36,7 @@ import {
 } from "@/lib/ask/rich-answer";
 import { richText } from "@/lib/ask/rich-text";
 import { RichAnswerView } from "./RichAnswerView";
+import type { PatientState } from "@/lib/ask/patient-protocol";
 import type { Locale } from "@/lib/i18n";
 import { browserSupabase } from "@/lib/supabase-browser";
 import {
@@ -56,6 +57,7 @@ type Reply =
   | { kind: "text"; text: string }
   | { kind: "answer"; answer: Answer }
   | { kind: "rich"; answer: RichAnswer }
+  | { kind: "patient"; state: PatientState }
   | { kind: "partial"; state: RichStreamState };
 export type NewMessage = (
   | { role: "user"; text: string }
@@ -123,6 +125,8 @@ export default function AskChat({
   const activeRequest = useRef<AbortController | null>(null);
   const sending = useRef(false);
   const [streamState, setStreamState] = useState<RichStreamState | null>(null);
+  const [patientState, setPatientState] = useState<PatientState | null>(null);
+  const patientRef = useRef<PatientState | null>(null);
   const [initializing, setInitializing] = useState(
     durableEnabled && resumePending,
   );
@@ -143,6 +147,7 @@ export default function AskChat({
   if (durableEnabled && !researcher.current)
     researcher.current = researchClient({
       language: lang as Locale,
+      onPatientState: state => { patientRef.current = state; if (alive.current) setPatientState(state); },
       getToken: async () => {
         const { data, error } = await browserSupabase().auth.getSession();
         if (error) throw error;
@@ -197,10 +202,11 @@ export default function AskChat({
     }
   }
 
-  async function restore(signal: AbortSignal) {
+  async function restore(signal: AbortSignal, continuePaused = false) {
     try {
       const pending = await researcher.current!.pending(signal);
       signal.throwIfAborted();
+      if (pending?.paused && continuePaused) await researcher.current!.continue(pending, signal);
       if (pending) void send(pending.question, pending);
       else if (alive.current) setRecoverable(false);
     } catch {
@@ -222,7 +228,7 @@ export default function AskChat({
     setInitializing(true);
     const controller = new AbortController();
     activeRequest.current = controller;
-    void restore(controller.signal);
+    void restore(controller.signal, true);
   }
 
   useEffect(() => {
@@ -291,6 +297,7 @@ export default function AskChat({
       });
     setValue("");
     setBusy(true);
+    patientRef.current = null; setPatientState(null);
     sending.current = true;
     const controller = new AbortController();
     activeRequest.current = controller;
@@ -366,6 +373,12 @@ export default function AskChat({
         withdraw?: boolean;
         sections?: RichSection[];
       };
+      if (data.status === "patient_paused") {
+        const current = patientRef.current as PatientState | null;
+        if (!durableEnabled || !current || current.status !== "paused") throw new ResearchClientError("invalid_response");
+        push({ role: "bayan", reply: { kind: "patient", state: current }, exchangeId: job?.locator.id ?? undefined, researchKey: job?.locator.key });
+        setRecoverable(true); return;
+      }
       if (data.status === "rich_answer") {
         if (!validRichAnswer(data.answer) || data.answer.language !== lang)
           throw new Error("invalid_rich_answer");
@@ -699,10 +712,13 @@ export default function AskChat({
                   sections={m.reply.answer.sections}
                   language={m.reply.answer.language}
                   text={t}
-                  guide={m.reply.answer.guide}
+                  guide={m.reply.answer.guide ?? null}
                   videos={m.reply.answer.videos}
                   complete
                 />
+              ) : m.reply.kind === "patient" ? (
+                <RichAnswerView sections={RICH_ORDER.flatMap(g => m.reply.kind === "patient" && m.reply.state.groups[g].section ? [m.reply.state.groups[g].section!] : [])}
+                  language={lang as Locale} text={t} patient={m.reply.state} />
               ) : m.reply.kind === "partial" ? (
                 <RichAnswerView
                   sections={m.reply.state.sections}
@@ -756,12 +772,13 @@ export default function AskChat({
 
         {busy && streamState && (
           <div className="msg msg-bayan">
-            {(streamState.sections.length > 0 || streamState.withdrawn) && (
+            {(patientState || streamState.sections.length > 0 || streamState.withdrawn) && (
               <RichAnswerView
                 sections={streamState.sections}
                 language={lang as Locale}
                 text={t}
                 withdrawn={streamState.withdrawn}
+                patient={patientState ?? undefined}
               />
             )}
             <p role="status" aria-live="polite">
@@ -811,7 +828,7 @@ export default function AskChat({
         {recoverable && !busy && !initializing && (
           <div className="msg msg-bayan">
             <button type="button" className="chip" onClick={resume}>
-              {rt.resume}
+              {patientState?.status === "paused" ? rt.continueResearch : rt.resume}
             </button>
             <button type="button" className="chip" onClick={() => void stop()}>
               {rt.stop}

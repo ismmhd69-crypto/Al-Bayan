@@ -1,4 +1,4 @@
-import { askTimeout } from "@/lib/ask/timing";
+import { runSourceRequest } from "@/lib/ask/timing";
 import "server-only";
 import type { Locale } from "@/lib/i18n";
 import { normalizeArabic } from "@/lib/ask/checks";
@@ -17,12 +17,14 @@ const MAX_PAGES = 20;
 // `cacheToDisk: false` is for the title lists: they are held in memory for a day instead, so
 // loading them does not write over a hundred pages to the server's disk cache.
 async function get(path: string, cacheToDisk = true): Promise<unknown> {
-  const res = await fetch(`${API}${path}`, {
-    signal: askTimeout(undefined, TIMEOUT_MS, "hadith_transport"),
-    ...(cacheToDisk ? { next: { revalidate: CACHE_SECONDS } } : { cache: "no-store" as const }),
+  return runSourceRequest(undefined, TIMEOUT_MS, "hadith_transport", async signal => {
+    const res = await fetch(`${API}${path}`, {
+      signal,
+      ...(cacheToDisk ? { next: { revalidate: CACHE_SECONDS } } : { cache: "no-store" as const }),
+    });
+    if (!res.ok) throw new Error(`HadeethEnc request failed with status ${res.status}`);
+    return res.json();
   });
-  if (!res.ok) throw new Error(`HadeethEnc request failed with status ${res.status}`);
-  return res.json();
 }
 
 // ---------- catalogue: every hadith id with its short title, per language ----------
@@ -195,9 +197,13 @@ export function getHadith(id: string): Promise<Hadith | null> {
 }
 
 /** Search plus details: only Sahihayn hadith graded sahih or hasan come back. */
-export async function searchHadith(queries: string[], language: Locale, limit = 6): Promise<Hadith[]> {
+export async function searchHadith(queries: string[], language: Locale, limit = 6, onFailure?: () => void): Promise<Hadith[]> {
   const ids = await searchHadithIds(queries, language, limit * 3);
-  const found = await Promise.all(ids.map(getHadith));
+  const settled = await Promise.allSettled(ids.map(getHadith));
+  const failures = settled.filter(r => r.status === "rejected");
+  if (failures.length) onFailure?.();
+  if (settled.length && failures.length === settled.length) throw (failures[0] as PromiseRejectedResult).reason;
+  const found = settled.flatMap(r => r.status === "fulfilled" ? [r.value] : []);
   // HadeethEnc sometimes lists the same hadith under two ids: keep one per Bukhari/Muslim number.
   const seen = new Set<string>();
   return found
@@ -221,16 +227,20 @@ export function warmHadithCatalogues(): void {
 }
 
 /**
- * For the Ask pipeline: searches the English list with English phrases and the Arabic list with
- * Arabic phrases (the two largest lists), then merges them without duplicates.
+ * For the Ask pipeline: searches each requested language with its own phrases, then merges
+ * them without duplicates. German variants must not silently disappear before discovery.
  * Everything runs against the cached title lists on our server: no search phrase is sent out.
  */
-export async function searchHadithMulti(queries: Partial<Record<Locale, string[]>>, limit = 4): Promise<Hadith[]> {
-  const lists = await Promise.all(
-    (["en", "ar"] as const)
+export async function searchHadithMulti(queries: Partial<Record<Locale, string[]>>, limit = 4, onFailure?: () => void): Promise<Hadith[]> {
+  const settled = await Promise.allSettled(
+    (["en", "ar", "de"] as const)
       .filter((language) => (queries[language]?.length ?? 0) > 0)
-      .map((language) => searchHadith(queries[language]!, language, limit)),
+      .map((language) => searchHadith(queries[language]!, language, limit, onFailure)),
   );
+  const failures = settled.filter(r => r.status === "rejected");
+  if (failures.length) onFailure?.();
+  if (settled.length && failures.length === settled.length) throw (failures[0] as PromiseRejectedResult).reason;
+  const lists = settled.flatMap(r => r.status === "fulfilled" ? [r.value] : []);
   const seen = new Set<string>();
   const out: Hadith[] = [];
   // Interleave, so each language's best result comes first.

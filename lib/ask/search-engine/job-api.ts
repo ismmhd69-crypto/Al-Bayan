@@ -9,13 +9,15 @@ import { verifyResearchJob, type JobFreshnessDeps } from "./job-freshness";
 import { refreshRelatedVideos } from "@/lib/ask/related-videos";
 import type { RichAnswer } from "@/lib/ask/rich-answer";
 
-export type ResearchAction = "session" | "start" | "read" | "cancel" | "find";
+export type ResearchAction = "session" | "start" | "read" | "cancel" | "find" | "continue";
 export type JobApiDeps = {
   owners: ReturnType<typeof researchOwners>;
   store: Pick<
     ResearchJobStore,
     "enqueue" | "read" | "cancel" | "find" | "cancelSubmission"
   >;
+  continue?: ResearchJobStore["continue"];
+  protocol?: 1 | 2;
   freshness: JobFreshnessDeps;
   verifyUser(token: string): Promise<string | null>;
   engineRevision: string;
@@ -147,7 +149,7 @@ export async function handleResearchJob(
       const history = parseUserHistory(body.previous_user_messages);
       if (!history) return reply({ status: "bad_request" }, 400);
       const input = {
-        version: 1 as const,
+        version: deps.protocol ?? 1,
         question: body.question.trim(),
         lang: body.lang,
         previous_user_messages: history,
@@ -163,7 +165,7 @@ export async function handleResearchJob(
         request: input,
         maxCostUsd: deps.maxCostUsd,
       });
-      return reply({ version: 1, status: "job", ...job, scope }, 202);
+      return reply({ version: deps.protocol ?? 1, status: "job", ...job, scope }, 202);
     }
     if (action === "find") {
       if (typeof body.key !== "string" || !UUID.test(body.key))
@@ -194,6 +196,11 @@ export async function handleResearchJob(
     }
     if (typeof body.id !== "string" || !UUID.test(body.id))
       return reply({ status: "bad_request" }, 400);
+    if (action === "continue") {
+      if (deps.protocol !== 2 || !deps.continue) return reply({ status: "not_ready" }, 404);
+      const job = await deps.continue(body.id, owner);
+      return reply({ version: 2, status: "job", ...job, scope }, 202);
+    }
     if (action === "cancel") {
       const view = await deps.store.cancel(body.id, owner);
       // Never return unvalidated stored sections on the cancellation path.
@@ -246,7 +253,7 @@ export async function handleResearchJob(
     const deliver =
       deps.streaming !== false || !["queued", "running"].includes(view.state);
     return reply({
-      version: 1,
+      version: view.protocol ?? 1,
       status: "job",
       id: view.id,
       state: view.state,

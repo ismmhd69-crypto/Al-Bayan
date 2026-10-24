@@ -11,6 +11,11 @@ export const richText = {
     stopping: "Confirming that research has stopped…",
     saving: "Saving the checked answer…",
     resume: "Resume research",
+    continueResearch: "Continue research",
+    patientNotice: "These explanations passed automatic checks. Research is continuing; the final answer is not ready yet.",
+    patientPaused: "Research is paused. Your checked sections are kept. Continue research resumes the unfinished work in this same job.",
+    patientSummaryWaiting: "The final summary will appear after the necessary research and checks are complete.",
+    patientStates: { searching: "Searching this source group…", checking: "Checking this explanation…", ready: "Checked explanation ready.", empty: "No directly relevant evidence was selected from this group.", needs_attention: "This step needs attention before the final answer can be completed." },
     reconnectFailed:
       "The connection was interrupted. Resume checks the same research job without sending a new question.",
     cancelFailed:
@@ -108,6 +113,11 @@ export const richText = {
     stopping: "جارٍ التأكد من توقف البحث…",
     saving: "جارٍ حفظ الإجابة التي اجتازت التحقق…",
     resume: "استئناف البحث",
+    continueResearch: "متابعة البحث",
+    patientNotice: "اجتازت هذه الشروح التحقق الآلي. البحث مستمر، ولم تكتمل الإجابة النهائية بعد.",
+    patientPaused: "توقف البحث مؤقتًا. احتُفظ بالأجزاء التي اجتازت التحقق. متابعة البحث تستأنف العمل غير المكتمل في المهمة نفسها.",
+    patientSummaryWaiting: "سيظهر الملخص النهائي بعد اكتمال البحث الضروري والتحقق من الإجابة.",
+    patientStates: { searching: "جارٍ البحث في هذه المصادر…", checking: "جارٍ التحقق من هذا الشرح…", ready: "الشرح الذي اجتاز التحقق جاهز.", empty: "لم يُختَر دليل مرتبط مباشرة بالسؤال من هذه المصادر.", needs_attention: "تحتاج هذه الخطوة إلى متابعة قبل إكمال الإجابة النهائية." },
     reconnectFailed:
       "انقطع الاتصال. يتحقق الاستئناف من مهمة البحث نفسها دون إرسال سؤال جديد.",
     cancelFailed:
@@ -196,6 +206,11 @@ export const richText = {
     stopping: "Es wird geprüft, ob die Recherche beendet wurde…",
     saving: "Die geprüfte Antwort wird gespeichert…",
     resume: "Recherche fortsetzen",
+    continueResearch: "Recherche fortsetzen",
+    patientNotice: "Diese Erläuterungen haben automatische Prüfungen bestanden. Die Recherche läuft weiter; die abschließende Antwort ist noch nicht fertig.",
+    patientPaused: "Die Recherche ist pausiert. Die geprüften Abschnitte bleiben erhalten. Beim Fortsetzen wird die offene Arbeit in derselben Recherche wieder aufgenommen.",
+    patientSummaryWaiting: "Die abschließende Zusammenfassung erscheint, sobald die erforderliche Recherche und Prüfung abgeschlossen sind.",
+    patientStates: { searching: "Diese Quellengruppe wird durchsucht…", checking: "Diese Erläuterung wird geprüft…", ready: "Geprüfte Erläuterung bereit.", empty: "Aus dieser Gruppe wurde kein unmittelbar relevanter Beleg ausgewählt.", needs_attention: "Dieser Schritt muss geklärt werden, bevor die abschließende Antwort fertiggestellt werden kann." },
     reconnectFailed:
       "Die Verbindung wurde unterbrochen. Beim Fortsetzen wird dieselbe Recherche geprüft, ohne eine neue Frage zu senden.",
     cancelFailed:

@@ -57,8 +57,19 @@ necessary. Discovery does not bypass any of them.
 `server-persistent-index.ts` supplies an explicit server-only Supabase transport,
 pinned to Bayan's project. It sanitises storage errors, forwards cancellation and
 bounds an individual storage request to ten seconds. Importing it does not load
-keys or connect. The website pipeline is **not switched to this store yet**.
-Production query-model selection and integration remain open.
+keys or connect. Both server pipeline adapters now expose this store through
+`server-corpus-router.ts`, behind `ASK_CORPUS_RETRIEVAL`, an explicit
+`ASK_CORPUS_BACKEND=persistent` selection and `ASK_PERSISTENT_INDEX_ACCEPTED=true`.
+The store is **not enabled locally or in production**. The default remains the
+local adapter; an invalid or unaccepted persistent selection fails rather than
+silently falling back. Production query-model and hosting acceptance remain open.
+
+Hadith and scholar retrieval can be requested independently, so a pending scholar
+index lookup does not block Quran or hadith work in the patient pipeline. Disabled
+families are excluded before storage or query embedding. Semantic mode rejects
+an absent embedder or eligible vector set before inference/search; lexical-only
+preview is restricted to local development. Discovery still passes the shared
+eligibility gate and independent evidence selection/checking.
 
 Expired, withdrawn or currently ineligible passages are excluded immediately at
 read time. Explicit pruning removes their stored text, deletes expired/withdrawn
@@ -93,8 +104,9 @@ suppression, interrupted uploads and cancellation of an unresponsive transport.
   vectors merely by changing the existing exporter's `embeddings: false` flag.
 - Choose and evaluate a real multilingual model and its production query host;
   no real inference or multilingual accuracy comparison has run here.
-- Wire the persistent backend and importer into an explicitly controlled preview
-  after those gates. Keep source modes and rollback switches independent.
+- Prepare the accepted index and importer workflow, then activate and verify the
+  already wired backend only after those gates. Keep source modes and rollback
+  switches independent.
 - Apply and verify the migration only with the deployment authorisation required
   by the repository. Test actual Supabase roles, Data API and extension placement.
 - Implement and evaluate dimension-specific approximate vector indexes where

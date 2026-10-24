@@ -26,6 +26,10 @@ export const richAnswer: RichAnswer = { version: 3, language: "en", review: "aut
 export function audit(prompt: string) {
   const request = JSON.parse(prompt);
   return {
+    citation_checks: request.claims.map((c: { claim_id: string; claim: string; source_ids: string[] }) => ({ claim_id: c.claim_id,
+      clauses: [{ text: c.claim, supported: "yes", scope_preserved: "yes", qualifiers_preserved: "yes",
+        evidence: c.source_ids.map(id => ({ source_id: id, original_excerpt: request.claim_evidence.find((b: { claim_id: string }) => b.claim_id === c.claim_id).cited_originals.find((p: { id: string }) => p.id === id).arabic.slice(0, 600) })) }] })),
+    consequence_checks: [],
     contribution_map: request.claims.map((c: { claim_id: string }, i: number) => ({ claim_id: c.claim_id,
       contribution: `Invented distinct test contribution ${i + 1}`, kind: (request.summary_claim_ids ?? []).includes(c.claim_id) ? "synthesis" : "explanation", adds_value: "yes", duplicates: [] })),
     useful_explanation: "yes", question_checklist_complete: "yes", guidance_safe: "yes", guidance_relevant: "yes", personal_application_avoided: "yes",
@@ -41,6 +45,28 @@ export function audit(prompt: string) {
     all_claims_consistent: "yes", complete_coverage: "yes", listed_items_complete: "yes", direct_summary: "yes", no_repetition: "yes", earlier_section_safe: "yes" };
 }
 export function dependencies(): PipelineDeps {
-  return { writer: { id: "fake/writer", generateJson: async req => ({ status: "answer", next_step: { text: "Read the cited explanation of care and ask which condition is unclear.", kind: "learning", refs: [] }, ...Object.fromEntries(JSON.parse(req.prompt).sections_to_write.map((g: keyof typeof drafts) => [g, drafts[g]])) }) },
-    verifier: { id: "fake/checker", generateJson: async req => audit(req.prompt) }, search: async () => [], getVerse: async () => undefined, neighbours: async () => [], rich: {} };
+  return { writer: { id: "fake/writer", generateJson: async req => {
+    const input = JSON.parse(req.prompt);
+    return { status: "answer", next_step: { text: "Read the cited explanation of care and ask which condition is unclear.", kind: "learning", refs: [] },
+      ...Object.fromEntries(input.sections_to_write.map((g: keyof typeof drafts) => {
+        const patch = input.correction?.checker_findings?.sentence_patches?.find((p: { group: string }) => p.group === g);
+        return [g, patch ? Object.fromEntries(patch.replace_indices.map((i: number) => [`P${i}`, { text: drafts[g][Math.min(i, drafts[g].length - 1)].text }])) : drafts[g]];
+      })) };
+  } }, verifier: { id: "fake/checker", generateJson: async req => audit(req.prompt) }, search: async () => [], getVerse: async () => undefined, neighbours: async () => [], rich: {} };
+}
+
+/** A complete provider-shaped fixture, not a semantic verdict about real sources. */
+export function strictAudit(prompt: string): any {
+  const input = JSON.parse(prompt), result: any = audit(prompt);
+  result.citation_checks = Object.fromEntries(result.citation_checks.map((row: any) => [row.claim_id, { ...row,
+    clauses: row.clauses.map((clause: any) => ({ ...clause, evidence: clause.evidence.map((e: any) => ({ anchor_id:
+      input.claim_evidence.find((r: any) => r.claim_id === row.claim_id).excerpt_choices.find((a: any) => a.source_id === e.source_id).anchor_id })) })),
+  }]));
+  result.contribution_map = Object.fromEntries(result.contribution_map.map((row: any) => [row.claim_id, row]));
+  if (!input.full_answer) for (const key of ["requirement_coverage", "question_checklist_complete", "guidance_safe", "guidance_relevant", "complete_coverage", "listed_items_complete", "direct_summary"]) delete result[key];
+  else {
+    result.requirement_coverage = Object.fromEntries(result.requirement_coverage.map(({ source_ids: _ids, ...row }: any) => [row.requirement_id, row]));
+    if (!input.next_step) { delete result.guidance_safe; delete result.guidance_relevant; }
+  }
+  return result;
 }

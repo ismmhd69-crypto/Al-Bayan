@@ -14,10 +14,13 @@ export const errorCategory = (error: unknown) => error instanceof Error && error
   : error instanceof Error && error.constructor.name === "GoogleBusyError" ? "busy" : "other";
 export function requestPhase(request: JsonRequest) {
   return request.system.startsWith("You create a safe search plan") ? "frame"
+    : request.system.startsWith("You check whether Bayan claims") ? "source_support"
+    : request.system.startsWith("You check the usefulness") ? "answer_quality"
+    : request.system.startsWith("You check display translations") ? "display_alignment"
     : request.system.startsWith("Rank candidate passages") ? "reranking"
     : request.system.startsWith("You plan a focused evidence recovery") ? "recovery_planning"
     : request.system.startsWith("You select evidence") ? "selection"
-    : request.system.startsWith("You write short explanations") ? "draft"
+    : request.system.startsWith("You write short explanations") || request.system.startsWith("Select existing explanations for Bayan") ? "draft"
     : request.system.includes("video") && request.system.includes("title") ? "videos"
     : request.system.includes("same question") || request.system.startsWith("You compare two questions") ? "prepared" : "screening";
 }

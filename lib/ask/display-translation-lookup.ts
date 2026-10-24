@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import { createClient } from "@supabase/supabase-js";
 import type { Locale } from "@/lib/i18n";
 import type { RichSource, DisplayTranslation } from "./rich-answer";
+import { canonicalSourcePage } from "./search-engine/candidate-identity";
 
 /** Candidate display text only. A checker must compare it with this exact original before use.
  * URL plus exact original resolves live-generated ids without treating a hash as a database id.
@@ -15,25 +16,61 @@ export async function lookupDisplayTranslations(sources: RichSource[], language:
   const unavailable = (status: "unavailable" | "lookup_failed") => new Map(scholars.map(s => [s.id, { status } as DisplayTranslation]));
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL, key = process.env.SUPABASE_SECRET_KEY;
   if (!scholars.length) return result;
+  if (scholars.length > 14 || new Set(scholars.map(s => s.id)).size !== scholars.length) return unavailable("lookup_failed");
   if (!url || !key) return unavailable("unavailable");
   const bounded = askTimeout(signal, 1500, "display_translation_lookup");
   try {
     const canonical = (value: string) => new URL(value).href;
-    const urlVariants = [...new Set(scholars.flatMap(s => [s.evidence.url, canonical(s.evidence.url), decodeURI(s.evidence.url)]))];
+    const urlVariants = [...new Set(scholars.flatMap(s => [s.evidence.url, canonical(s.evidence.url), decodeURI(s.evidence.url), canonicalSourcePage(s.evidence.url)]))];
     const db = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
-    const { data: originals, error } = await db.from("sources").select("id, url, text_original")
-      .in("url", urlVariants).eq("kind", "fatwa").eq("published", true).limit(30).abortSignal(bounded);
-    if (error) return unavailable("lookup_failed");
-    const matched = scholars.map(s => ({ source: s, original: originals?.find(o => canonical(o.url) === canonical(s.evidence.url) && o.text_original === s.evidence.arabic) }));
-    const ids = matched.flatMap(m => m.original ? [m.original.id as string] : []);
-    if (!ids.length) return unavailable("unavailable");
+    const columns = "id, url, text_original, scholar_id";
+    const { data: originals, error } = await db.from("sources").select(columns)
+      .in("url", urlVariants).eq("kind", "fatwa").eq("published", true).limit(31).abortSignal(bounded);
+    if (error || (originals?.length ?? 0) > 30) return unavailable("lookup_failed");
+    const rows = [...(originals ?? [])];
+    const matches = (s: RichSource, o: typeof rows[number]) => s.evidence.kind === "scholar"
+      && o.scholar_id === s.evidence.scholarId && o.text_original === s.evidence.arabic
+      && canonicalSourcePage(o.url) === canonicalSourcePage(s.evidence.url);
+    const failures = new Set<string>();
+    let missing = scholars.filter(s => !rows.some(o => matches(s, o)));
+    if (missing.length) {
+      // An ID is a lookup aid only: live IDs may be generated hashes. Every row
+      // must still match the official page, named scholar and exact original.
+      const ids = [...new Set(missing.map(s => s.id.slice(1)).filter(id => /^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i.test(id)))];
+      if (ids.length) {
+        const found = await db.from("sources").select(columns).in("id", ids).eq("kind", "fatwa").eq("published", true).limit(31).abortSignal(bounded);
+        if (found.error || (found.data?.length ?? 0) > 30) missing.forEach(s => failures.add(s.id)); else rows.push(...(found.data ?? []));
+      }
+      missing = missing.filter(s => !rows.some(o => matches(s, o)));
+      const pages = [...new Set(missing.map(s => canonicalSourcePage(s.evidence.url))
+        .filter(page => /^https:\/\/binbaz\.org\.sa\/fatwas\/[0-9]+$/.test(page)))];
+      // The existing provider canonicalisation identifies this family's pages by
+      // numeric ID. No question/topic references or arbitrary URL patterns enter SQL.
+      await Promise.all(pages.map(async page => {
+        const found = await db.from("sources").select(columns).like("url", `${page}/%`)
+          .eq("kind", "fatwa").eq("published", true).limit(31).abortSignal(bounded);
+        if (found.error || (found.data?.length ?? 0) > 30) missing.filter(s => canonicalSourcePage(s.evidence.url) === page).forEach(s => failures.add(s.id));
+        else rows.push(...(found.data ?? []));
+      }));
+    }
+    const matched = scholars.map(s => ({ source: s, originals: rows.filter(o => matches(s, o)) }));
+    const ids = [...new Set(matched.flatMap(m => m.originals.map(o => o.id as string)))];
+    if (!ids.length) return new Map(scholars.map(s => [s.id, { status: failures.has(s.id) ? "lookup_failed" : "unavailable" } as DisplayTranslation]));
     const { data: translations, error: translationError } = await db.from("source_translations")
-      .select("source_id, lang, text, origin, published, reviewer, reviewed_at, version").in("source_id", ids).eq("lang", language).eq("published", true).limit(60).abortSignal(bounded);
-    if (translationError) return unavailable("lookup_failed");
-    for (const { source, original } of matched) {
-      const rows = (translations?.filter(t => t.source_id === original?.id && t.lang === language && t.published === true && ["ai", "human"].includes(t.origin)) ?? [])
+      .select("source_id, lang, text, origin, published, reviewer, reviewed_at, version").in("source_id", ids).eq("lang", language).eq("published", true).limit(61).abortSignal(bounded);
+    if (translationError || (translations?.length ?? 0) > 60) return unavailable("lookup_failed");
+    for (const { source, originals } of matched) {
+      if (!originals.length) { result.set(source.id, { status: failures.has(source.id) ? "lookup_failed" : "unavailable" }); continue; }
+      const rows = (translations?.filter(t => originals.some(o => o.id === t.source_id) && t.lang === language && t.published === true && ["ai", "human"].includes(t.origin)) ?? [])
         .sort((a, b) => b.version - a.version);
-      const t = rows.find(t => t.origin === "human" && t.reviewer && t.reviewed_at) ?? rows.find(t => t.origin === "human") ?? rows.find(t => t.origin === "ai");
+      if (rows.some(t => typeof t.text !== "string" || !t.text.trim() || t.text.length > 16000 || !Number.isSafeInteger(t.version) || t.version < 1
+        || t.origin === "human" && (typeof t.reviewer !== "string" || !t.reviewer.trim() || typeof t.reviewed_at !== "string" || !Number.isFinite(Date.parse(t.reviewed_at))))) {
+        result.set(source.id, { status: "rejected" }); continue;
+      }
+      const t = rows.find(t => t.origin === "human") ?? rows.find(t => t.origin === "ai");
+      if (t && rows.some(other => other.origin === t.origin && other.version === t.version && other.text !== t.text)) {
+        result.set(source.id, { status: "rejected" }); continue;
+      }
       result.set(source.id, t && typeof t.text === "string" && t.text.trim() && t.text.length <= 16000
         ? { status: "ready", text: t.text, language, origin: t.origin as "ai" | "human", original: source.evidence.arabic,
           originalHash: createHash("sha256").update(source.evidence.arabic).digest("hex"),

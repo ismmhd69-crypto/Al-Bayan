@@ -2,6 +2,7 @@ import { abortable } from "../abort";
 import type { QuestionFrame } from "../retrieval";
 import { sameSpace, validVector, validateIndex, passageProblem, type SearchFamily, type SearchIndex, type VectorSpace } from "./contract";
 import { hybridSearch, type SearchHit, type SearchAudit } from "./hybrid";
+import { concernMeaning } from "./concern-meaning";
 
 export type QueryEmbedder = { space: VectorSpace; embedQueries: (queries: string[], signal: AbortSignal) => Promise<number[][]> };
 export type CorpusRetrieval = { generation: string; hits: SearchHit[]; audits: { concernId: string; family: SearchFamily; audit: SearchAudit }[]; semantic: "used" | "not_configured" | "no_indexed_vectors"; truncated: number; unrepresentedConcernIds: string[] };
@@ -22,7 +23,7 @@ export async function retrieveFromCorpus(frame: QuestionFrame, loadIndex: () => 
   let vectors: number[][] | undefined;
   if (hasVectors && options.embedder) {
     if (!sameSpace(index.space, options.embedder.space)) throw new Error("query_vector_mismatch");
-    vectors = await abortable(options.embedder.embedQueries(frame.requirements.map(r => r.text), options.signal), options.signal);
+    vectors = await abortable(options.embedder.embedQueries(frame.requirements.map(r => concernMeaning(frame, r)), options.signal), options.signal);
     if (!Array.isArray(vectors) || vectors.length !== frame.requirements.length || vectors.some(v => !validVector(v, index.space.dimensions))) throw new Error("query_embedding_batch_mismatch");
   }
   const audits: CorpusRetrieval["audits"] = [], streams: SearchHit[][] = [];
@@ -31,7 +32,7 @@ export async function retrieveFromCorpus(frame: QuestionFrame, loadIndex: () => 
     const concern = frame.requirements[i];
     const sourcePhrases = family === "quran" ? concern.quranArabic : family === "hadith" ? concern.hadithArabic : undefined;
     const phrases = [...new Set([...(sourcePhrases ?? []), ...Object.values(concern.searchQueries ?? {}).flatMap(q => q ?? [])])].slice(0, 12);
-    const found = hybridSearch(index, { id: concern.id, text: concern.text, phrases: phrases.length ? phrases : [concern.text], exactReferences: options.exactReferences?.[family] ?? [],
+    const found = hybridSearch(index, { id: concern.id, text: concernMeaning(frame, concern), phrases: phrases.length ? phrases : [concern.text], exactReferences: options.exactReferences?.[family] ?? [],
       ...(vectors ? { vector: { space: index.space, values: vectors[i] } } : {}) }, { families: [family], perMethod: 20, limit: 60 });
     streams.push(found.hits); audits.push({ concernId: concern.id, family, audit: found.audit });
   }

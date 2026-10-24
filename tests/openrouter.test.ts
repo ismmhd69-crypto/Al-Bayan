@@ -6,6 +6,8 @@ vi.mock("server-only", () => ({}));
 import { createOpenRouter } from "@/lib/ai/openrouter";
 import { GoogleBusyError } from "@/lib/ai/gemini";
 import { createRateLimiter } from "@/lib/ai/limits";
+import { runRichAnswer } from "@/lib/ask/rich-engine";
+import { pack, dependencies, audit } from "./fixtures/rich";
 
 const schema = { type: "object" as const, properties: {}, required: [] };
 const reply = (content: string, extra: object = {}, status = 200) =>
@@ -16,7 +18,7 @@ const make = (model = "m", limiter = free()) => createOpenRouter(KEY, model, lim
 const run = (m = make()) => m.generateJson({ system: "s", prompt: "p", schema });
 
 const saved = { ...process.env };
-beforeEach(() => { delete process.env.ASK_DEBUG; });
+beforeEach(() => { delete process.env.ASK_DEBUG; delete process.env.OPENROUTER_STRUCTURED_OUTPUTS; });
 afterEach(() => {
   vi.unstubAllGlobals();
   vi.restoreAllMocks();
@@ -24,6 +26,135 @@ afterEach(() => {
 });
 
 describe("createOpenRouter", () => {
+  it("uses Google's bounded-output shape without accepting locally oversized results", async () => {
+    const fetcher = vi.fn(async (_url: unknown, init?: RequestInit) => {
+      const body = JSON.parse(String(init?.body));
+      expect(JSON.stringify(body.response_format.json_schema.schema)).not.toMatch(/maxItems|maxLength/);
+      expect(body.response_format.json_schema.schema.additionalProperties).toBe(false);
+      return reply('{"rows":["oversized"]}');
+    });
+    vi.stubGlobal("fetch", fetcher);
+    expect(await make("google/scripted").generateJson({ system: "s", prompt: "p", structuredOutput: true,
+      schema: { type: "object", properties: { rows: { type: "array", maxItems: 1, items: { type: "string", maxLength: 3 } } }, required: ["rows"] } })).toBeNull();
+    expect(fetcher).toHaveBeenCalledOnce();
+  });
+  it("does not exclude the recorded schema-capable Vertex routes with an unsupported optional temperature", async () => {
+    // Read-only endpoint metadata on 2026-10-22: Google Vertex supports these
+    // generation parameters, but not temperature. This is a routing fixture,
+    // not a live model result or proof of account-specific endpoint eligibility.
+    const supported = new Set(["reasoning", "include_reasoning", "max_tokens", "seed", "response_format", "stop", "structured_outputs", "tools", "tool_choice", "reasoning_effort"]);
+    const fetcher = vi.fn(async (_url: unknown, init?: RequestInit) => {
+      const body = JSON.parse(String(init?.body));
+      const generation = Object.keys(body).filter(key => !["model", "messages", "stream", "provider"].includes(key));
+      if (body.provider.require_parameters && generation.some(key => !supported.has(key)))
+        return new Response(JSON.stringify({ error: { code: 404, message: "No endpoints found supporting all requested parameters" } }), { status: 404 });
+      expect(body.provider).toMatchObject({ data_collection: "deny", zdr: true, require_parameters: true });
+      expect(body.response_format.type).toBe("json_schema");
+      return reply('{"ok":true}');
+    });
+    vi.stubGlobal("fetch", fetcher);
+    expect(await make().generateJson({ system: "s", prompt: "p", structuredOutput: true,
+      schema: { type: "object", properties: { ok: { type: "boolean" } }, required: ["ok"] } })).toEqual({ ok: true });
+    expect(fetcher).toHaveBeenCalledOnce();
+  });
+  it("enforces a request-specific writing schema even when the global preview is off", async () => {
+    vi.stubEnv("OPENROUTER_STRUCTURED_OUTPUTS", "false");
+    const fetcher = vi.fn(async (_url: unknown, init?: RequestInit) => {
+      const body = JSON.parse(String(init?.body));
+      expect(body.response_format.type).toBe("json_schema");
+      expect(body.response_format.json_schema.strict).toBe(true);
+      expect(body.provider.require_parameters).toBe(true);
+      expect(body).not.toHaveProperty("temperature");
+      return new Response(JSON.stringify({ choices: [{ finish_reason: "stop", message: { content: '{"wrong":true}' } }] }), { status: 200 });
+    });
+    vi.stubGlobal("fetch", fetcher);
+    const provider = createOpenRouter("fake-key", "test-model", free());
+    expect(await provider.generateJson({ system: "s", prompt: "p", schema: { type: "object", properties: { ok: { type: "boolean" } }, required: ["ok"] }, structuredOutput: true })).toBeNull();
+    expect(fetcher).toHaveBeenCalledOnce();
+  });
+  it("requests strict shape support without dropping privacy and validates the returned shape", async () => {
+    process.env.OPENROUTER_STRUCTURED_OUTPUTS = "true";
+    const bodies: Record<string, unknown>[] = [];
+    vi.stubGlobal("fetch", vi.fn(async (_u: string, init: RequestInit) => { bodies.push(JSON.parse(String(init.body))); return reply("{}"); }));
+    expect(await run()).toEqual({});
+    expect(bodies[0].provider).toEqual({ data_collection: "deny", zdr: true, require_parameters: true });
+    expect(bodies[0]).not.toHaveProperty("temperature");
+    expect(bodies[0].response_format).toEqual({ type: "json_schema", json_schema: { name: "bayan_response", strict: true,
+      schema: { type: "object", properties: {}, required: [], additionalProperties: false } } });
+  });
+
+  it("does not downgrade or retry strict schema mode after a 400", async () => {
+    process.env.OPENROUTER_STRUCTURED_OUTPUTS = "true";
+    const fetcher = vi.fn(async () => new Response("", { status: 400 })); vi.stubGlobal("fetch", fetcher);
+    await expect(run()).rejects.toThrow("status 400"); expect(fetcher).toHaveBeenCalledTimes(1);
+  });
+
+  it.each(['{"extra":true}', 'Here: {}', '{"extra":', '```json\n{}\n```'])
+  ("refuses invalid strict output without another model call %#", async content => {
+    process.env.OPENROUTER_STRUCTURED_OUTPUTS = "true";
+    const fetcher = vi.fn(async () => reply(content)); vi.stubGlobal("fetch", fetcher);
+    expect(await run()).toBeNull(); expect(fetcher).toHaveBeenCalledTimes(1);
+  });
+
+  it("rejects an invalid declared schema before transport", async () => {
+    process.env.OPENROUTER_STRUCTURED_OUTPUTS = "true";
+    const fetcher = vi.fn(); vi.stubGlobal("fetch", fetcher);
+    await expect(make().generateJson({ system: "s", prompt: "p", schema: { ...schema, required: ["missing"] } })).rejects.toThrow("structured_schema_invalid");
+    expect(fetcher).not.toHaveBeenCalled();
+  });
+
+  it("carries actual rich writer and checker contracts through strict transport without paid calls", async () => {
+    process.env.OPENROUTER_STRUCTURED_OUTPUTS = "true";
+    const deps = dependencies(), scriptedWrite = deps.writer.generateJson;
+    const routes: string[] = [];
+    vi.stubGlobal("fetch", vi.fn(async (_u: string, init: RequestInit) => {
+      const body = JSON.parse(String(init.body)); routes.push(body.model);
+      expect(body.response_format.type).toBe("json_schema");
+      expect(body.provider.require_parameters).toBe(true);
+      const [system, user] = body.messages;
+      const value = body.model === "scripted-writer"
+        ? { ...await scriptedWrite({ system: system.content, prompt: user.content, schema }) as object, no_answer_feedback: [] }
+        : audit(user.content);
+      if (body.model === "scripted-checker") {
+        const record = value as Record<string, unknown>;
+        const request = JSON.parse(user.content);
+        record.citation_checks = Object.fromEntries((record.citation_checks as any[]).map(row => [row.claim_id, { ...row,
+          clauses: row.clauses.map((clause: any) => ({ ...clause, evidence: clause.evidence.map((e: any) => ({ anchor_id:
+            request.claim_evidence.find((b: any) => b.claim_id === row.claim_id).excerpt_choices.find((a: any) => a.source_id === e.source_id).anchor_id })) })) }]));
+        record.contribution_map = Object.fromEntries((record.contribution_map as { claim_id: string }[]).map(row => [row.claim_id, row]));
+        if (!request.full_answer) for (const key of ["requirement_coverage", "question_checklist_complete", "guidance_safe", "guidance_relevant",
+          "complete_coverage", "listed_items_complete", "direct_summary"]) delete record[key];
+      }
+      if (body.model === "scripted-checker" && JSON.parse(user.content).full_answer) {
+        const record = value as Record<string, unknown>;
+        record.requirement_coverage = Object.fromEntries((record.requirement_coverage as { requirement_id: string; source_ids: string[] }[]).map(({ source_ids: _sources, ...row }) => [row.requirement_id, row]));
+      }
+      // The old scripted fixture always adds guidance, including source-only jobs.
+      // This strict-response fixture follows the actual requested contract instead.
+      if (body.model === "scripted-writer" && !JSON.parse(user.content).sections_to_write.includes("summary")) delete (value as Record<string, unknown>).next_step;
+      return reply(JSON.stringify(value));
+    }));
+    deps.writer = make("scripted-writer"); deps.verifier = make("scripted-checker");
+    expect((await runRichAnswer(pack, "en", deps, new AbortController().signal, "Invented care question", {})).status).toBe("rich_answer");
+    expect(routes.filter(r => r === "scripted-writer")).toHaveLength(3);
+    expect(routes.filter(r => r === "scripted-checker")).toHaveLength(3);
+  });
+
+  it("keeps strict privacy and output checks without sending unsupported reasoning to the pinned non-reasoning backup", async () => {
+    const bodies: any[] = [];
+    vi.stubGlobal("fetch", vi.fn(async (_url, init) => {
+      const body = JSON.parse(String(init.body)); bodies.push(body);
+      if (body.reasoning && body.provider.require_parameters) return reply("", { error: { code: 404 } }, 404);
+      return reply('{"ok":true}');
+    }));
+    const provider = make("mistralai/mistral-small-3.2-24b-instruct");
+    expect(await provider.generateJson({ system: "s", prompt: "p", structuredOutput: true,
+      schema: { type: "object", properties: { ok: { type: "boolean" } }, required: ["ok"] } })).toEqual({ ok: true });
+    expect(bodies).toHaveLength(1); expect(bodies[0].reasoning).toBeUndefined();
+    expect(bodies[0].provider).toMatchObject({ zdr: true, data_collection: "deny", require_parameters: true });
+    expect(bodies[0].response_format.type).toBe("json_schema");
+  });
+
   it("records cut-off reply cost before falling through to the existing chain", async () => {
     process.env.ASK_DEBUG = "true";
     const info = vi.spyOn(console, "info").mockImplementation(() => {});
@@ -188,6 +319,19 @@ describe("model chains with openrouter (lib/ai/index.ts)", () => {
     process.env.AI_MODELS = writer;
     process.env.AI_VERIFIER_MODELS = verifier;
   };
+  it("uses the configured backup only for an explicit already-budgeted malformed-response correction", async () => {
+    const { getProvider } = await import("@/lib/ai");
+    setEnv("openrouter:primary/test,openrouter:backup/test", "openrouter:checker/test");
+    const models: string[] = [];
+    vi.stubGlobal("fetch", vi.fn(async (_url, init) => {
+      const model = JSON.parse(String(init.body)).model; models.push(model);
+      return reply(model === "primary/test" ? '{"broken": - }' : '{"ok":true}');
+    }));
+    const provider = getProvider();
+    expect(await provider.generateJson({ system: "s", prompt: "p", schema })).toBeNull();
+    expect(await provider.generateJson({ system: "s", prompt: "p", schema, malformedResponseRetry: true })).toEqual({ ok: true });
+    expect(models).toEqual(["primary/test", "backup/test"]);
+  });
 
   it("builds the chains and refuses a shared model", async () => {
     const { getProvider, getVerifier } = await import("@/lib/ai");

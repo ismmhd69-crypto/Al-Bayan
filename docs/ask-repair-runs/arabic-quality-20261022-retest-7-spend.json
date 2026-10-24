@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "cap": 1.03405128125,
+  "priorExposure": 0.78405128125,
+  "originalLedgerHash": "fa92584ab52e6ec22a25d6a9c3c0c3412c5392cfbdefc747ebd5010ea85844b7",
+  "prices": {
+    "google/gemini-3.5-flash-lite": {
+      "prompt": 0.54,
+      "completion": 4.5,
+      "request": 0
+    },
+    "google/gemini-3.8-flash": {
+      "prompt": 1.35,
+      "completion": 6.75,
+      "request": 0
+    },
+    "google/gemini-3.1-flash-lite": {
+      "prompt": 0.44999999999999996,
+      "completion": 2.7,
+      "request": 0
+    },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "prompt": 0.09999999999999999,
+      "completion": 0.3,
+      "request": 0
+    }
+  },
+  "calls": [
+    {
+      "fingerprint": "21c1bbad1fd8bf2eeb85c74d481b9daa4df1e6fd22348a48e3d4851cc7509d77",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0271332,
+      "at": "2026-10-22T16:18:05.332Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685886-Ik6YvAd4Rk5D59mupCFs",
+      "promptTokens": 2780,
+      "completionTokens": 720,
+      "finishReason": "stop",
+      "cost": 0.002634
+    },
+    {
+      "fingerprint": "bf5b5e7b67cd1bb5b863e382dcac1bc8cb357a9bdf80efc297f0a2709262dcc2",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0411147,
+      "at": "2026-10-22T16:18:23.248Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685904-F5YJCJ2etMTdHNU20vQX",
+      "promptTokens": 8279,
+      "completionTokens": 1139,
+      "finishReason": "stop",
+      "cost": 0.00377825
+    },
+    {
+      "fingerprint": "f06ef148ba0d7b6a634e80dad0ea8ab0c94c338481c51061b8684050b1a6dab2",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0411012,
+      "at": "2026-10-22T16:18:27.700Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685908-9MDIDscFloSesyaabdei",
+      "promptTokens": 8275,
+      "completionTokens": 1141,
+      "finishReason": "stop",
+      "cost": 0.00378025
+    },
+    {
+      "fingerprint": "3d76521f35eeca329fe65430f86a51d1b7fa3acaa50f916c65a360a96cd48bb1",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0828765,
+      "at": "2026-10-22T16:18:31.528Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685912-vSBSYeaLe0wE8postlW5",
+      "promptTokens": 12626,
+      "completionTokens": 5209,
+      "finishReason": "stop",
+      "cost": 0.01097
+    },
+    {
+      "fingerprint": "d21e06384851e0c44ca56b67d279b052709a5ca8c1f58a76b3fdac8120490c15",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.041055481,
+      "at": "2026-10-22T16:18:43.381Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685923-uz6JkdXzzUTenacil44f",
+      "promptTokens": 4032,
+      "completionTokens": 230,
+      "finishReason": "stop",
+      "cost": 0.0017846
+    },
+    {
+      "fingerprint": "b8123de213ca4077f93dc52b0e848cb9a36340de0e984f620643cd9cb8e64268",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0822798,
+      "at": "2026-10-22T16:18:44.939Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685925-LAdjELFFziPv0Y8PPkIk",
+      "promptTokens": 4763,
+      "completionTokens": 319,
+      "finishReason": "stop",
+      "cost": 0.0022264
+    },
+    {
+      "fingerprint": "3619009eb5a98a4307f4f2bc2591d861107d008706c9a7d2cfdd70449ea68b93",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0503523,
+      "at": "2026-10-22T16:18:44.945Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685925-Lzatz4ovqZ3NLjDOFsFb",
+      "promptTokens": 8642,
+      "completionTokens": 872,
+      "finishReason": "stop",
+      "cost": 0.0034685
+    },
+    {
+      "fingerprint": "ecce87b79d0a93effdc67875a2bf3e8a7c87daa17dc46e1c0ac6d1a1c0b40f14",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.08740656,
+      "at": "2026-10-22T16:18:48.652Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685929-KHEgHqA521WdIkVE3eEf",
+      "promptTokens": 5728,
+      "completionTokens": 307,
+      "finishReason": "stop",
+      "cost": 0.0024859
+    },
+    {
+      "fingerprint": "9a4afda85c89fcebf8a8a1dbf3c11245c1b49ac858a4c32194b72e32518d43a9",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.088316101,
+      "at": "2026-10-22T16:18:50.513Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792685931-aOrTeihzuVw119QBz1cy",
+      "promptTokens": 11825,
+      "completionTokens": 4471,
+      "finishReason": "stop",
+      "cost": 0.00966275
+    }
+  ],
+  "priorCampaign": {
+    "path": "C:\\Users\\wiseflow\\Bayan\\docs\\ask-repair-runs\\arabic-quality-20261022-retest-3-spend.json",
+    "hash": "38f7468dfaf802550069f592330e82807e27926f0f56ddf1c1473aeea7e67c23",
+    "exposure": 0.78405128125,
+    "authorization": "Mo explicitly approved up to 25 cents more to finish one fresh Arabic online attempt; preserve all earlier charges and reservations; stop after one attempt"
+  }
+}

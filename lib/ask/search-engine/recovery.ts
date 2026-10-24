@@ -19,16 +19,21 @@ export async function recoverEvidence<T>(options: {
   search: (query: RecoveryQuery, signal: AbortSignal) => Promise<PassageForSelection[]>;
   assess: (candidates: PassageForSelection[], signal: AbortSignal) => Promise<T>;
   onNovelEvidence?: (candidates: PassageForSelection[]) => void;
-  signal: AbortSignal; maxRounds?: number; onEvent?: (event: RecoveryEvent) => void;
+  onPlanned?: (queries: RecoveryQuery[]) => Promise<void>;
+  onRoundStart?: (round: number) => Promise<void>;
+  onSearchResult?: (query: RecoveryQuery, candidates: PassageForSelection[], status: "finished" | "failed") => Promise<void>;
+  signal: AbortSignal; maxRounds?: number; startingRound?: number; onEvent?: (event: RecoveryEvent) => void;
 }): Promise<{ value: T; candidates: PassageForSelection[]; rounds: number; remainingGaps: EvidenceGap[] }> {
   const maxRounds = options.maxRounds ?? 2;
-  if (!Number.isSafeInteger(maxRounds) || maxRounds < 1 || maxRounds > 2 || options.candidates.length > 120) throw new Error("invalid_research_budget");
+  const startingRound = options.startingRound ?? 0;
+  if (!Number.isSafeInteger(maxRounds) || maxRounds < 1 || maxRounds > 2 || !Number.isSafeInteger(startingRound) || startingRound < 0 || startingRound > maxRounds || options.candidates.length > 120) throw new Error("invalid_research_budget");
   let value = options.initial, candidates = uniqueResearchCandidates(options.candidates), rounds = 0;
   const previousQueries = [...options.previousQueries], visitedQueries = new Set(previousQueries.map(recoveryQueryKey));
   const visitedSources = new Set(candidates.map(candidateIdentity));
-  for (let round = 1; round <= maxRounds; round++) {
+  for (let round = startingRound + 1; round <= maxRounds; round++) {
     options.signal.throwIfAborted();
     const gaps = options.gaps(value); if (!gaps.length) break;
+    await options.onRoundStart?.(round);
     const proposed = await abortable(options.plan({ frame: options.frame, gaps, previousQueries: [...previousQueries], visitedSources: candidates.map(c => c.id), round }, options.signal), options.signal);
     if (!Array.isArray(proposed) || proposed.length > 6) throw new Error("invalid_recovery_plan");
     const queries: RecoveryQuery[] = [];
@@ -43,14 +48,20 @@ export async function recoverEvidence<T>(options: {
     rounds = round;
     options.onEvent?.({ code: queries.length ? "planned" : "no_new_queries", round, queries: queries.length });
     if (!queries.length) break;
+    await options.onPlanned?.(queries);
     const batches = await Promise.all(queries.map(async q => {
+      let found: PassageForSelection[] = [], status: "finished" | "failed" = "finished";
       try {
         const result = await abortable(options.search(q, options.signal), options.signal);
         if (!Array.isArray(result) || result.length > 20 || result.some(c => c.source.kind !== q.family)) throw new Error("invalid_recovery_sources");
-        return result.map(c => ({ ...c, retrievedFor: [...new Set([...(c.retrievedFor ?? []), q.requirementId])] }));
+        found = result.map(c => ({ ...c, retrievedFor: [...new Set([...(c.retrievedFor ?? []), q.requirementId])] }));
       } catch (error) {
-        options.signal.throwIfAborted(); options.onEvent?.({ code: "search_failed", round }); return [];
+        options.signal.throwIfAborted(); options.onEvent?.({ code: "search_failed", round }); status = "failed";
       }
+      // Checkpoint failures must propagate, not masquerade as source outages or
+      // permit a paid reassessment against work that has not been saved.
+      await options.onSearchResult?.(q, found, status);
+      return found;
     }));
     const novel = uniqueResearchCandidates(batches.flat()).filter(c => !visitedSources.has(candidateIdentity(c)));
     options.onEvent?.({ code: novel.length ? "reselected" : "no_new_sources", round, sources: novel.length });

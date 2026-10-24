@@ -185,7 +185,7 @@ describe("diagnosable writing and checked surviving coverage", () => {
     const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {});
     expect(result).toMatchObject({ status: "incomplete", withdraw: false });
     if (result.status === "incomplete") expect(result.sections?.[0].outcome).toBe("ready");
-    expect(write).toHaveBeenCalledTimes(2);
+    expect(write).toHaveBeenCalledTimes(3);
   });
 
   it("repairs both failed writing jobs together instead of letting Quran consume the only correction", async () => {
@@ -198,13 +198,14 @@ describe("diagnosable writing and checked surviving coverage", () => {
     deps.writer.generateJson = async req => {
       const input = JSON.parse(req.prompt);
       if (input.correction) { corrected.push(input.sections_to_write); return write(req); }
+      if (input.sections_to_write.includes("summary")) return write(req);
       if (input.sections_to_write[0] === "quran") { release(); return { status: "answer", quran: [{ ...drafts.quran[0], text: "The Quran presents invented source wording solely for tests." }] }; }
       await gate;
       return { status: "no_answer", no_answer_feedback: [{ group: "hadith", reason: "cannot_paraphrase", missing_requirement_ids: [] }], hadith: [], scholar: [], summary: [] };
     };
     const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {});
     expect(result.status).toBe("rich_answer");
-    expect(corrected).toEqual([["quran", "hadith", "scholar", "summary"]]);
+    expect(corrected).toEqual([["quran", "hadith", "scholar"]]);
     expect(rejectionCodes).toContain("rich_quran_copied_source");
   });
   it("preserves immediate Quran streaming when its draft is valid and only the rest needs repair", async () => {

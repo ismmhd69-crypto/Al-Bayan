@@ -1,22 +1,28 @@
 import { createHash } from "node:crypto";
 import { afterEach, describe, expect, it, vi } from "vitest";
 vi.mock("server-only", () => ({}));
-const database = vi.hoisted(() => ({ originals: [] as unknown[], translations: [] as unknown[], error: false, calls: [] as string[] }));
+const database = vi.hoisted(() => ({ originals: [] as unknown[], idOriginals: undefined as unknown[] | undefined, pageOriginals: undefined as unknown[] | undefined,
+  translations: [] as unknown[], error: false, calls: [] as string[], filters: [] as unknown[] }));
 vi.mock("@supabase/supabase-js", () => ({ createClient: () => ({ from: (table: string) => {
   database.calls.push(table);
-  const query = { select: () => query, in: () => query, eq: () => query, limit: () => query,
-    abortSignal: async () => ({ data: table === "sources" ? database.originals : database.translations, error: database.error ? new Error("offline") : null }) };
+  let kind = "url";
+  const query = { select: () => query, in: (column: string, values: unknown) => { kind = column; database.filters.push([table, "in", column, values]); return query; },
+    like: (column: string, value: string) => { kind = "page"; database.filters.push([table, "like", column, value]); return query; },
+    eq: () => query, limit: () => query,
+    abortSignal: async () => ({ data: table !== "sources" ? database.translations : kind === "id" ? database.idOriginals ?? database.originals
+      : kind === "page" ? database.pageOriginals ?? database.originals : database.originals, error: database.error ? new Error("offline") : null }) };
   return query;
 } }) }));
 import { lookupDisplayTranslations } from "@/lib/ask/display-translation-lookup";
 import { toEvidence } from "@/lib/ask/core";
 import { pack, scholarId } from "./fixtures/rich";
-afterEach(() => { vi.unstubAllEnvs(); database.originals = []; database.translations = []; database.calls = []; database.error = false; });
+afterEach(() => { vi.unstubAllEnvs(); database.originals = []; database.idOriginals = undefined; database.pageOriginals = undefined;
+  database.translations = []; database.calls = []; database.filters = []; database.error = false; });
 const source = { id: scholarId, evidence: toEvidence(pack.passages[2].source, "en") };
 const storedId = "33333333-3333-3333-3333-333333333333";
 function configure() {
   vi.stubEnv("NEXT_PUBLIC_SUPABASE_URL", "https://example.test"); vi.stubEnv("SUPABASE_SECRET_KEY", "fake-unit-test-only");
-  database.originals = [{ id: storedId, url: source.evidence.url, text_original: source.evidence.arabic }];
+  database.originals = [{ id: storedId, url: source.evidence.url, text_original: source.evidence.arabic, scholar_id: "ibn-baz" }];
   database.translations = [{ source_id: storedId, lang: "en", origin: "ai", text: "Invented translation fixture", published: true, version: 1 }];
 }
 describe("exact excerpt display lookup, never generation or approval", () => {
@@ -27,10 +33,49 @@ describe("exact excerpt display lookup, never generation or approval", () => {
     });
     expect(database.calls).toEqual(["sources", "source_translations"]);
   });
+  it("resolves changed presentation slugs only through the same scholar, page identity and exact excerpt", async () => {
+    configure();
+    const rows = structuredClone(database.originals) as Record<string, unknown>[];
+    rows[0].url = "https://binbaz.org.sa/fatwas/9/changed-presentation";
+    database.originals = []; database.idOriginals = []; database.pageOriginals = rows;
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)?.status).toBe("ready");
+    expect(database.filters).toContainEqual(["sources", "like", "url", "https://binbaz.org.sa/fatwas/9/%"]);
+    database.pageOriginals = [{ ...rows[0], scholar_id: "another-scholar" }];
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)?.status).toBe("unavailable");
+    database.pageOriginals = [{ ...rows[0], text_original: "Another excerpt from that page" }];
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)?.status).toBe("unavailable");
+  });
+  it("does not let a coincident stored ID bypass page/excerpt identity", async () => {
+    configure(); database.idOriginals = [{ ...(database.originals[0] as object), id: scholarId.slice(1), url: "https://binbaz.org.sa/fatwas/10/another-page" }];
+    database.originals = []; database.pageOriginals = [];
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)?.status).toBe("unavailable");
+  });
+  it("considers every exact original match rather than depending on database row order", async () => {
+    configure();
+    database.originals.unshift({ ...(database.originals[0] as object), id: "44444444-4444-4444-4444-444444444444" });
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)?.status).toBe("ready");
+  });
+  it.each([
+    { text: "" }, { version: -1 }, { origin: "human", reviewer: "", reviewed_at: null },
+    { origin: "human", reviewer: "Reviewer", reviewed_at: "not a date" },
+  ])("rejects defective published provenance/text instead of calling it absent %#", async invalid => {
+    configure(); database.translations = [{ ...(database.translations[0] as object), ...invalid }];
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)).toEqual({ status: "rejected" });
+  });
+  it("rejects conflicting same-version translations rather than selecting by row order", async () => {
+    configure(); database.translations.push({ ...(database.translations[0] as object), text: "Conflicting wording" });
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)).toEqual({ status: "rejected" });
+  });
+  it("does not select from a truncated source or translation batch", async () => {
+    configure(); database.originals = Array.from({ length: 31 }, () => database.originals[0]);
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)).toEqual({ status: "lookup_failed" });
+    configure(); database.translations = Array.from({ length: 61 }, () => database.translations[0]);
+    expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)).toEqual({ status: "lookup_failed" });
+  });
   it("will not attach a translation of another excerpt from the same page", async () => {
     configure(); database.originals = [{ id: storedId, url: source.evidence.url, text_original: "A different original excerpt" }];
     expect((await lookupDisplayTranslations([source], "en", new AbortController().signal)).get(scholarId)).toEqual({ status: "unavailable" });
-    expect(database.calls).toEqual(["sources"]);
+    expect(database.calls.every(table => table === "sources")).toBe(true);
   });
   it("preserves actual human review metadata, preferring it to AI text", async () => {
     configure(); database.translations.push({ source_id: storedId, lang: "en", origin: "human", text: "Human test translation", published: true, version: 2, reviewer: "Test reviewer", reviewed_at: "2026-10-20T00:00:00Z" });

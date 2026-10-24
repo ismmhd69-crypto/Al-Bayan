@@ -12,7 +12,7 @@ import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 import { searchVideos } from "@/lib/sources/videos";
 import { runPipeline, type AskResult, type PipelineDeps } from "./core";
 import { askClaimAudit, askRichVideos, askCorpusRetrieval, askDeadlineMs, askLibraryFlow, askMaxVideos, askMeaningRanking, askResearchRecovery, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
-import { localCorpusRetriever } from "./search-engine/server-corpus";
+import { serverCorpusRetriever } from "./search-engine/server-corpus-router";
 import { pipelineMeaningRanker } from "./search-engine/pipeline-ranking";
 import { modelMeaningReranker } from "./search-engine/reranker";
 import { modelRecoveryPlanner } from "./search-engine/recovery-planner";
@@ -28,7 +28,7 @@ import { currentAskRequestId, currentAskStarted, observedProvider, errorCategory
 import type { RichCallbacks } from "./rich-answer";
 import { lookupDisplayTranslations } from "./display-translation-lookup";
 import { recordLocalAskEvent } from "./local-trace";
-import { localAskTraceEnabled, localAskUnhurried } from "./settings";
+import { localAskTraceEnabled, localAskUnhurried, askFocusedChecks, askDistinctSelection } from "./settings";
 
 // HADITH_SOURCE=library: stored Sahih al-Bukhari / Sahih Muslim hadith. =hadeethenc: the old live path.
 // Anything else: hadith off. Never both.
@@ -136,6 +136,9 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
     const sourceProblems: PipelineDeps["sourceProblems"] = {};
     const result = await runPipeline(question, uiLanguage, {
       ...trace,
+      meaningReview: !!options?.rich,
+      focusedChecks: !!options?.rich && askFocusedChecks(),
+      distinctSelection: !!options?.rich && askDistinctSelection(),
       ...(options?.rich ? { rich: {
         onProgress: stage => { onDiagnostic("response", `rich_${stage}`, Date.now() - requestStarted); options.rich?.onProgress?.(stage); },
         onSection: section => { onDiagnostic("response", `checked_${section.group}_${section.outcome}`, Date.now() - requestStarted, { count: section.claims.length }); options.rich?.onSection?.(section); },
@@ -144,12 +147,12 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       ...(options?.signal ? { abortSignal: options.signal } : {}),
       writer: observe(writer, "writer"),
       verifier: observe(verifier, "checker"),
-      ...(options?.rich && askCorpusRetrieval() ? { retrieveCorpusCandidates: localCorpusRetriever([...(HADITH_MODE !== "off" ? ["hadith" as const] : []), ...(SCHOLARS_ON ? ["scholar" as const] : [])]) } : {}),
+      ...(options?.rich && askCorpusRetrieval() ? { retrieveCorpusCandidates: serverCorpusRetriever([...(HADITH_MODE !== "off" ? ["hadith" as const] : []), ...(SCHOLARS_ON ? ["scholar" as const] : [])]) } : {}),
       ...(options?.rich && askResearchRecovery() ? { planEvidenceRecovery: modelRecoveryPlanner(observe(writer, "writer")) } : {}),
       ...(options?.rich && askMeaningRanking() ? { meaningRankCandidates: pipelineMeaningRanker(modelMeaningReranker(observe(verifier, "checker")), audit => {
         recordLocalAskEvent("meaning_ranking", audit);
-        onDiagnostic("candidates", "meaning_ranking_finished", Date.now() - requestStarted, { before: audit.before, after: audit.after, dropped_source_ids: audit.droppedIds, ignored_unknown_count: audit.ignoredUnknownCount });
-      }) } : {}),
+        onDiagnostic("candidates", audit.fallbackReason ? "meaning_ranking_invalid_retained_candidates" : "meaning_ranking_finished", Date.now() - requestStarted, { before: audit.before, after: audit.after, dropped_source_ids: audit.droppedIds, ignored_unknown_count: audit.ignoredUnknownCount, ...(audit.fallbackReason ? { reason: audit.fallbackReason } : {}) });
+      }, 30, { retainCandidatesOnInvalidResult: true }) } : {}),
       deadlineMs: askDeadlineMs(),
       ...(options?.disableReferenceHints ? { disableReferenceHints: true } : {}),
       ...(options?.rich ? { displayTranslationLookup: lookupDisplayTranslations } : {}),
@@ -167,7 +170,10 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       neighbours,
       // Hadith from Sahih al-Bukhari / Sahih Muslim via HadeethEnc (permission requested 2026-09-28).
       // Off unless HADITH_SOURCE=hadeethenc, so it can be switched off instantly.
-      ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8), getHadith } : {}),
+      ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8, () => {
+        sourceProblems.hadith = "search_failed";
+        onDiagnostic("retrieval", "hadith_partial_search_failed", Date.now() - requestStarted);
+      }), getHadith } : {}),
       // Stored hadith from our own library (Sunnah.com text). Needs the server's secret key.
       ...(HADITH_MODE === "library" ? { searchHadith: (queries) => searchLibraryHadith(queries, {
         meaningCandidates: !!options?.rich && askMeaningRanking(),
