@@ -8,6 +8,7 @@ import { withModelTransport } from "../lib/ai/transport";
 import { digest, persistCampaign, type CampaignLedger } from "./ask-arabic-campaign-guard";
 import type { JsonRequest } from "../lib/ai/types";
 import { shareReviewOriginals } from "../lib/ask/shared-originals-review";
+import { archivedReviewSchemaMatches } from "./archived-ask-review-schema";
 
 export function recordedBlindReview() {
   const tracePath = resolve("work/local-ask-traces/2c2b118f-d7be-459d-83ae-95a6adad2f98.jsonl"), bytes = readFileSync(tracePath, "utf8");
@@ -19,14 +20,14 @@ export function recordedBlindReview() {
   const request = richReviewRequest({ items, language: "ar", full: true, question: p.visitor_question, serialized: draft.evidence_package,
     guidance: p.next_step, translationCandidates: p.display_translation_candidates, summaryCount: p.summary_claim_ids.length, earlierCount: p.earlier_claim_ids.length });
   const expected = structuredClone(p); delete expected.prior_claim_reviews;
-  if (JSON.stringify(JSON.parse(request.prompt)) !== JSON.stringify(expected) || JSON.stringify(request.schema) !== JSON.stringify(old.schema)
+  if (JSON.stringify(JSON.parse(request.prompt)) !== JSON.stringify(expected) || !archivedReviewSchemaMatches(request.schema, old.schema, p.claims.map((c: any) => c.claim_id))
     || request.maxOutputTokens !== old.max_output_tokens) throw Error("source_claim_context_or_contract_changed");
   return { request, oldRequest: { system: old.system, prompt: JSON.stringify(old.prompt), schema: old.schema, maxOutputTokens: old.max_output_tokens, thinking: old.thinking, structuredOutput: true } as JsonRequest,
-    items, serialized: draft.evidence_package, traceHash: digest(bytes) };
+    items, serialized: draft.evidence_package, traceHash: digest(bytes), attributionContractUpgraded: JSON.stringify(request.schema) !== JSON.stringify(old.schema) };
 }
 
 async function main() {
-  const { request, oldRequest, traceHash } = recordedBlindReview();
+  const { request, oldRequest, traceHash, attributionContractUpgraded } = recordedBlindReview();
   const ledgerPath = resolve("docs/ask-repair-runs/arabic-quality-20261023-source-request-spend.json"), ledgerBytes = readFileSync(ledgerPath, "utf8"), ledger: CampaignLedger = JSON.parse(ledgerBytes);
   const model = "google/gemini-3.1-flash-lite", price = ledger.prices[model], bodies: any[] = [];
   process.env.OPENROUTER_PRIVACY = "zdr"; process.env.OPENROUTER_REASONING = "low";
@@ -42,7 +43,8 @@ async function main() {
   const remaining = ledger.cap - ledger.priorExposure - ledger.calls.reduce((sum, c) => sum + (c.cost ?? c.reserved), 0);
   const report = { status: "offline_only_no_network", traceHash, before: size(bodies[0]), after: size(bodies[1]), remaining,
     sharedOriginalsExperiment: size(bodies[2]),
-    sameOriginalsClaimsRestrictionsAndOutputContract: true, removedOnlyPriorCheckerVotesAndDuplicateProofs: true, modelCalls: 0, modelCost: 0,
+    sameOriginalsClaimsRestrictions: true, attributionContractUpgraded, outputContractOtherwisePreserved: true,
+    removedPriorCheckerVotesAndDuplicateProofs: true, modelCalls: 0, modelCost: 0,
     nextCallFitsUnchangedReservation: size(bodies[1]).fullReservation <= remaining, sharedOriginalsCallFits: size(bodies[2]).fullReservation <= remaining };
   if (readFileSync(ledgerPath, "utf8") !== ledgerBytes) throw Error("offline_measurement_changed_ledger");
   persistCampaign(resolve("work/private-ask-evaluation/shared-originals-request-size-20261024.json"), report);

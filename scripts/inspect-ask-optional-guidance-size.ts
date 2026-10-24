@@ -6,6 +6,7 @@ import { createOpenRouter } from "../lib/ai/openrouter";
 import { createRateLimiter } from "../lib/ai/limits";
 import { withModelTransport } from "../lib/ai/transport";
 import { digest, persistCampaign, type CampaignLedger } from "./ask-arabic-campaign-guard";
+import { archivedReviewSchemaMatches } from "./archived-ask-review-schema";
 
 export function optionalGuidanceSizeRequests() {
   const tracePath = resolve("work/local-ask-traces/fadc13d1-9af2-402a-b490-4af97684233f.jsonl"), bytes = readFileSync(tracePath, "utf8");
@@ -17,13 +18,14 @@ export function optionalGuidanceSizeRequests() {
     language: "ar" as const, full: true, question: p.visitor_question, serialized, translationCandidates: p.display_translation_candidates,
     summaryCount: p.summary_claim_ids.length, earlierCount: p.earlier_claim_ids.length };
   const withGuidance = richReviewRequest({ ...common, guidance: p.next_step });
-  if (JSON.stringify(JSON.parse(withGuidance.prompt)) !== JSON.stringify(p) || JSON.stringify(withGuidance.schema) !== JSON.stringify(old.schema)
+  if (JSON.stringify(JSON.parse(withGuidance.prompt)) !== JSON.stringify(p) || !archivedReviewSchemaMatches(withGuidance.schema, old.schema, p.claims.map((c: any) => c.claim_id))
     || withGuidance.maxOutputTokens !== old.max_output_tokens) throw Error("baseline_claims_or_contract_changed");
   const withoutGuidance = richReviewRequest({ ...common, guidance: null });
   const before = JSON.parse(withGuidance.prompt), after = JSON.parse(withoutGuidance.prompt);
   delete before.next_step;
   if (JSON.stringify(before) !== JSON.stringify(after)) throw Error("body_evidence_or_coverage_changed");
-  return { withGuidance, withoutGuidance, traceHash: digest(bytes), tracePath, bytes };
+  return { withGuidance, withoutGuidance, traceHash: digest(bytes), tracePath, bytes,
+    attributionContractUpgraded: JSON.stringify(withGuidance.schema) !== JSON.stringify(old.schema) };
 }
 
 async function main() {
@@ -52,7 +54,8 @@ async function main() {
   if (readFileSync(ledgerPath, "utf8") !== ledgerBytes || readFileSync(c.tracePath, "utf8") !== c.bytes
     || digest(readFileSync(resolve("docs/ask-repair-runs/spend.json"), "utf8")) !== ledger.originalLedgerHash) throw Error("offline_replay_changed_history");
   const report = { status: "offline_only_no_network", traceHash: c.traceHash, before, after, remaining,
-    sameClaimsOriginalsRestrictionsAndCoverage: true, removedOnlyAbsentOptionalGuidanceChecks: true,
+    sameClaimsOriginalsRestrictionsAndCoverage: true, removedOnlyAbsentOptionalGuidanceChecksBetweenCurrentRequests: true,
+    attributionContractUpgradedSinceArchive: c.attributionContractUpgraded,
     existingOutputReservationAndHeadroomUnchanged: true, beforeFits: before.fullReservation <= remaining, afterFits: after.fullReservation <= remaining,
     modelCalls: 0, actualCost: 0, limitation: "Exact historical final-primary request only. Known body defects remain; this is not a reviewed answer or prediction of new retrieval, writer, backup or final meaning-check cost." };
   persistCampaign(resolve("work/private-ask-evaluation/optional-guidance-size-20261024.json"), report);

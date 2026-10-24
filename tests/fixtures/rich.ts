@@ -63,6 +63,7 @@ export function strictAudit(prompt: string): any {
       input.claim_evidence.find((r: any) => r.claim_id === row.claim_id).excerpt_choices.find((a: any) => a.source_id === e.source_id).anchor_id })) })),
   }]));
   result.contribution_map = Object.fromEntries(result.contribution_map.map((row: any) => [row.claim_id, row]));
+  result.attribution_checks = Object.fromEntries(result.attribution_checks.map((row: any) => [row.claim_id, row]));
   if (!input.full_answer) for (const key of ["requirement_coverage", "question_checklist_complete", "guidance_safe", "guidance_relevant", "complete_coverage", "listed_items_complete", "direct_summary"]) delete result[key];
   else {
     result.requirement_coverage = Object.fromEntries(result.requirement_coverage.map(({ source_ids: _ids, ...row }: any) => [row.requirement_id, row]));

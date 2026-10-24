@@ -30,6 +30,7 @@ it("rejects the recorded failure shape in full, with no coverage-field stripping
   value.citation_checks = { C1: { claim_id: "C1", clauses: [{ text: "A distinct invented explanation.", supported: "yes", scope_preserved: "yes",
     qualifiers_preserved: "yes", evidence: [{ anchor_id: "C1E1" }] }] } };
   value.contribution_map = { C1: value.contribution_map[0] };
+  value.attribution_checks = { C1: value.attribution_checks[0] };
   for (const key of finalOnly) delete value[key];
   expect(contract.parse(JSON.stringify(value))).not.toBeNull();
   expect(contract.parse(JSON.stringify({ ...value, requirement_coverage: ["R1", "R2"] }))).toBeNull();

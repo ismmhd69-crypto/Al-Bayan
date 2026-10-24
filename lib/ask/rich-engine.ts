@@ -9,6 +9,7 @@ import { meaningReviewRequest, parseMeaningReview } from "./meaning-review";
 import { textOnlyPatchSchema, applyTextOnlyPatch, sourceSupportTextPatch, type TextOnlyPatch } from "./text-only-patch";
 import { richWritingClaimsSchema, richWritingOutputAllowance } from "./rich-writing-schema";
 import { richReviewRequest, normalizeRichReview } from "./rich-review-request";
+import { parseAttributionReview } from "./attribution-review";
 import { toEvidence, sealedPackageJson, type PipelineDeps } from "./core";
 import type { EvidencePackage } from "./retrieval";
 import { RICH_ORDER, validRichSection, validRichAnswer, validRichGuidance, validDisplayTranslation, type RichGuidance, type DisplayTranslation, type RichCallbacks, type RichGroup, type RichSection, type RichTerminal, type GroupOutcome } from "./rich-answer";
@@ -426,6 +427,14 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
       return { ok: false, withdraw: false, reasons: ["checker_failed", "checker_response_invalid"], safeClaimIds: [] };
     }
     const r = raw as Record<string, unknown>;
+    // A missing identity/finding is a checker response failure, not evidence that
+    // the writer's prose is wrong. Do not rewrite or withdraw previously checked
+    // sections, approve siblings, or salvage positive fields from this response.
+    const attribution = parseAttributionReview(r.attribution_checks, items);
+    if (!attribution) {
+      diagnostic("screening", "attribution_response_invalid");
+      return { ok: false, withdraw: false, reasons: ["checker_failed", "attribution_response_invalid"], safeClaimIds: [] };
+    }
     for (const t of translationCandidates) {
       const checks = Array.isArray(r?.translation_checks) ? r.translation_checks.filter(c => c?.source_id === t.source_id) : [];
       const c = checks[0];
@@ -441,10 +450,7 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
     for (const reason of binding.reasons) diagnostic("screening", reason);
     const consequence = checkConsequences(raw, items, pack.passages.map(sourceText));
     for (const reason of consequence.reasons) diagnostic("screening", reason);
-    const attribution = r?.attribution_checks as { claim_id: string; verdict: string }[] | undefined;
-    const attributionOk = Array.isArray(attribution) && attribution.length === items.length
-      && new Set(attribution.map(a => a?.claim_id)).size === items.length
-      && attribution.every(a => identified.some(c => c.claim_id === a?.claim_id) && a.verdict === "yes");
+    const attributionOk = attribution.every(a => a.verdict === "yes");
     const coverageReasons: string[] = [];
     const coverage = !full || richCoverageChecked(r?.requirement_coverage, items, pack, summaryCount, (code, details) => {
       coverageReasons.push(code); diagnostic("screening", code, details);

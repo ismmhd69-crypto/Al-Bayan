@@ -707,6 +707,16 @@ On 22 October 2026:
 
 **Accepted:** source-supported transient Quran wording, named-source behavior and a specific contract/withdrawal diagnosis. No complete-answer/general religious-accuracy/release/Mo acceptance or goal completion. The next proposed repair is complete checker attribution identities plus format-failure isolation, preserving earlier checked sections while retaining genuine semantic withdrawal. It is not implemented by this evaluation. No deployment or storage activation.
 
+## 60. Missing checker attribution entries no longer erase independently checked progress (24 October)
+
+**Implemented:** all-claim keyed attribution output schema plus strict identity/decision validation in the active rich path. Missing, duplicate, unknown and malformed findings are checker response failures, with no writer correction, new-claim approval or withdrawal based on that invalid response. Complete negative semantic/condition findings still withdraw earlier unsafe content. No question-specific/source-ID exception, retry expansion or model/source/privacy change. [Repair, replay and limits](ask-attribution-contract-repair-2026-10-24.md).
+
+**Offline verified:** 1,744 tests in 164 files, zero failures/skips, and TypeScript passed. An exact saved-exchange replay uses unchanged claim/original/context prompts and recorded responses under a network-blocking stub. It keeps both previously checked Quran claims, emits no scholar section/summary, spends no writer correction and preserves the report/trace/spending bytes. Historical replay comparisons explicitly account for only the declared attribution schema upgrade; no other source/coverage contract relaxation. Scripted verdicts do not prove religious accuracy.
+
+**Live verified:** pending. The previous parents attempt remains technical_failure, not relabelled. Zero paid/source calls for this repair; remaining $0.29386824625 unchanged and all earlier charges/unresolved reservation retained. No automatic additional paid test after the previous one-test authorization.
+
+**Accepted:** the observed contract/withdrawal mechanism is fixed and verified offline. Full-answer reliability, the unshown scholar condition gap, original timing target, source-faithfulness/release review and Mo acceptance remain open. No deployment, durable storage activation or goal completion. A separate decision can authorize one further full test within the existing remainder.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

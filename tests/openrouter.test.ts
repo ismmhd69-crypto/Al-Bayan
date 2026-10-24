@@ -122,6 +122,7 @@ describe("createOpenRouter", () => {
           clauses: row.clauses.map((clause: any) => ({ ...clause, evidence: clause.evidence.map((e: any) => ({ anchor_id:
             request.claim_evidence.find((b: any) => b.claim_id === row.claim_id).excerpt_choices.find((a: any) => a.source_id === e.source_id).anchor_id })) })) }]));
         record.contribution_map = Object.fromEntries((record.contribution_map as { claim_id: string }[]).map(row => [row.claim_id, row]));
+        record.attribution_checks = Object.fromEntries((record.attribution_checks as { claim_id: string }[]).map(row => [row.claim_id, row]));
         if (!request.full_answer) for (const key of ["requirement_coverage", "question_checklist_complete", "guidance_safe", "guidance_relevant",
           "complete_coverage", "listed_items_complete", "direct_summary"]) delete record[key];
       }
