@@ -661,6 +661,18 @@ On 22 October 2026:
 
 **Accepted:** correction-boundary mechanics only. Semantic false approvals, overlap-repair scope and named scholarly attribution remain unresolved. No complete-answer/religious-accuracy/release/Mo acceptance or goal completion. No deployment or storage activation.
 
+## 56. Code enforces named scholarly sources; one live correction preserves supported meanings (24 October)
+
+**Implemented:** localized author metadata reaches the rich writer. A negative-only identity check prevents generic scholar-source attribution from passing on positive model votes; every distinct cited author must be named. Same-author excerpts deduplicate, approved collective institutions keep their names, source-summary synthesis remains separate. Missing names feed the one existing identity-locked correction and late-withdrawal path. [Scope and independent review](ask-named-scholar-repair-2026-10-24.md).
+
+**Offline verified:** full suite 1,689 tests in 161 files, zero failures/skips, and TypeScript passed. Exact parents source replay triggers two failures and captures one normal localized correction. An Arabic conjunction-prefix mismatch was fixed before passing. Names are identity metadata, never semantic evidence.
+
+**Live verified:** one current-writer component corrected the two saved source sentences. Both name Ibn Baz, pass copying, read naturally and retain meanings supported by their own Arabic excerpts. The old stronger obligatory-obedience wording is absent. 2/2 supported component meanings, not two full answers. Upstream capture verdicts scripted only; no new retrieval, live checker, full summary/question, browser or history proof. Parents Quran scope failure remains open.
+
+**Spending:** one settled generation cost $0.00166440; combined exposure $2.2803763725, remainder $0.10206744 under the unchanged ceiling. Prior journals and original unresolved reservation retained. No uncertain charge, automatic repeat or added budget.
+
+**Accepted:** general named-source boundary and useful live component correction only. No general religious-accuracy/complete-answer/release/Mo acceptance or goal completion. Models/privacy/source boundaries unchanged; no deployment or storage activation.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

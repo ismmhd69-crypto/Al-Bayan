@@ -20,6 +20,7 @@ import { correctionFeedback, referenceRepairFeedback } from "./correction-feedba
 import { checkCitationBindings } from "./citation-check";
 import { checkConsequences } from "./consequence-check";
 import { checkCaseReferents } from "./case-referent-check";
+import { checkScholarAttributions, scholarAttributionNames } from "./scholar-attribution-check";
 import { removeDuplicateDraftMetadata } from "./draft-metadata";
 import { checkFocusedSupport, answerQualityRequest, parseAnswerQuality, displayAlignmentRequest, parseDisplayAlignment } from "./focused-checks";
 
@@ -143,6 +144,8 @@ export async function runRichAnswer(pack: EvidencePackage, language: Locale, dep
   const callbacks: RichCallbacks = deps.rich ?? {};
   const emitted: RichSection[] = [];
   const serialized = sealedPackageJson(pack, language, false, true); // originals always retained
+  const scholarIdentities = pack.passages.flatMap(p => p.source.kind === "scholar"
+    ? [{ id: p.id, scholarId: p.source.quote.scholarId, name: p.source.quote.scholarName[language] }] : []);
   // Display-only lookup runs alongside writing; candidates never enter sealed evidence.
   const translationSignal = askTimeout(signal, 1800, "display_translations");
   const translationJob = deps.displayTranslationLookup && language !== "ar" ? abortable(
@@ -196,7 +199,10 @@ export async function runRichAnswer(pack: EvidencePackage, language: Locale, dep
     let raw: unknown;
     let writingRequest: JsonRequest | undefined;
     const prepareWriting = (request: JsonRequest) => {
-      const input = deps.independentSourceWriting ? independentSourceWritingInput(request) : request;
+      const labels = scholarAttributionNames(scholarIdentities.filter(s => Object.values(allowedByGroup).some(ids => ids.includes(s.id))), language);
+      const withNames = labels.length ? { ...request, prompt: JSON.stringify({ ...JSON.parse(request.prompt), scholar_attribution_names: labels }),
+        system: request.system + "\nFor a scholar-source explanation, name each cited author using scholar_attribution_names in the answer language. Multiple excerpts by the same author do not establish multiple scholars or consensus. Names are source identity metadata, not support for a religious assertion. Preserve every original, condition and later check." } : request;
+      const input = deps.independentSourceWriting ? independentSourceWritingInput(withNames) : withNames;
       writingRequest = deps.groundedSourceWriting ? groundedWritingRequest(input) : input;
       return writingRequest;
     };
@@ -506,14 +512,16 @@ When writing summary also return next_step: {text, kind, refs}. Make it a specif
     try {
       const verdict = await verifyOnce(items, full, summaryCount, sourceStage);
       const referents = checkCaseReferents(items, pack.passages.map(sourceText));
-      if (!referents.blocked.length) return verdict;
-      for (const code of referents.reasons) diagnostic("screening", code, { claim_ids: referents.blocked });
+      const named = checkScholarAttributions(items.slice(0, full ? items.length - summaryCount : items.length), scholarIdentities, language);
+      const blocked = [...new Set([...referents.blocked, ...named.blocked])];
+      if (!blocked.length) return verdict;
+      for (const check of [referents, named]) for (const code of check.reasons) diagnostic("screening", code, { claim_ids: check.blocked });
       const feedback = verdict.feedback ?? correctionFeedback({}, items, full ? summaryCount : 0);
-      feedback.support_failures.push(...referents.failures);
+      feedback.support_failures.push(...referents.failures, ...named.failures);
       return { ...verdict, ok: false, supported: false, feedback,
-        reasons: [...new Set([...(verdict.reasons ?? []), ...referents.reasons])],
-        safeClaimIds: verdict.safeClaimIds?.filter(id => !referents.blocked.includes(id)) ?? [],
-        withdraw: verdict.withdraw || (full || sourceStage) && referents.blocked.some(id => Number(id.slice(1)) <= emitted.flatMap(s => s.claims).length) };
+        reasons: [...new Set([...(verdict.reasons ?? []), ...referents.reasons, ...named.reasons])],
+        safeClaimIds: verdict.safeClaimIds?.filter(id => !blocked.includes(id)) ?? [],
+        withdraw: verdict.withdraw || (full || sourceStage) && blocked.some(id => Number(id.slice(1)) <= emitted.flatMap(s => s.claims).length) };
     }
     catch {
       diagnostic("screening", signal.aborted ? "checker_aborted" : "checker_failed");
