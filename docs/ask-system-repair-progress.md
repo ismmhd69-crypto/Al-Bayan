@@ -741,6 +741,18 @@ On 22 October 2026:
 
 **Accepted:** trace-backed diagnosis and a fixed future evaluation artifact only. Mo asked to finish this last item, commit/push and launch locally. Overall reliability, qualified source review and Mo acceptance remain open; no goal-completion, deployment or storage-activation claim.
 
+## 63. Fix the live local Quran stall at the complete-operation boundary (24 October)
+
+**Implemented:** after Mo's stalled anger request, Quran authentication/search/content now use the existing hard promise deadline around auth waits, headers and JSON bodies. Late auth data cannot populate the token cache, expired queries cannot dispatch after headers resolve, and failed verse reads release shared entries/content slots. Partial successful queries survive. Existing source ten-second limits, overall local patient execution, exact originals, model/privacy and evidence checks remain unchanged. [Diagnosis and verification](ask-quran-stall-repair-2026-10-24.md).
+
+**Offline verified:** 21 focused tests; full suite 1,756 tests in 166 files, zero failures/skips, plus TypeScript. Includes transports ignoring cancellation, body stalls, late tokens, visitor cancellation, shared reads and queue recovery. No malformed source is accepted to make recovery pass.
+
+**Live verified:** bounded source-only searches and verse 3:134 finished in 1.407 seconds; sixteen candidates, original verse and English translation available, no reported failures. Restarted local site; /en/ask returns 200. No generated answer was rerun and no semantic-accuracy claim follows from source availability.
+
+**Spending:** zero new model calls; existing evaluation spending/reservations unchanged. No automatic paid test or deployment.
+
+**Accepted:** the observed source-stall boundary is repaired and source availability verified. Earlier semantic scope/condition failures, full-answer reliability, qualified review and Mo acceptance remain open. Existing browser requests cannot survive a server restart and need retry. No durable storage activation or goal-completion claim.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

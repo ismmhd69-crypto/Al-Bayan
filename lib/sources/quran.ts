@@ -1,4 +1,4 @@
-import { sourceRequestTimeout } from "@/lib/ask/timing";
+import { runSourceRequest } from "@/lib/ask/timing";
 import "server-only";
 import { isRealVerse, TRANSLATIONS, type Verse } from "./quran-meta";
 import { quranSearchPath } from "./quran-search";
@@ -48,24 +48,27 @@ async function requestToken(): Promise<string> {
   const id = process.env.QURAN_FOUNDATION_CLIENT_ID;
   const secret = process.env.QURAN_FOUNDATION_CLIENT_SECRET;
   if (!id || !secret) throw new Error("Quran Foundation credentials are not set");
-  const res = await fetch(`${env.auth}/oauth2/token`, {
-    method: "POST",
-    cache: "no-store",
-    signal: sourceRequestTimeout(undefined, TIMEOUT_MS, "quran_transport"),
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      Authorization: `Basic ${Buffer.from(`${id}:${secret}`).toString("base64")}`,
-    },
-    body: "grant_type=client_credentials&scope=content%20search",
+  return runSourceRequest(undefined, TIMEOUT_MS, "quran_auth", async signal => {
+    const res = await fetch(`${env.auth}/oauth2/token`, {
+      method: "POST",
+      cache: "no-store",
+      signal,
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        Authorization: `Basic ${Buffer.from(`${id}:${secret}`).toString("base64")}`,
+      },
+      body: "grant_type=client_credentials&scope=content%20search",
+    });
+    if (!res.ok) throw new Error(`Quran token request failed with status ${res.status}`);
+    const data = (await res.json()) as { access_token?: unknown; expires_in?: unknown };
+    signal.throwIfAborted();
+    if (typeof data.access_token !== "string" || typeof data.expires_in !== "number") {
+      throw new Error("Quran token response was not understood");
+    }
+    // Renew a minute early; tokens last one hour and cannot be refreshed.
+    token = { value: data.access_token, expires: Date.now() + (data.expires_in - 60) * 1000 };
+    return token.value;
   });
-  if (!res.ok) throw new Error(`Quran token request failed with status ${res.status}`);
-  const data = (await res.json()) as { access_token?: unknown; expires_in?: unknown };
-  if (typeof data.access_token !== "string" || typeof data.expires_in !== "number") {
-    throw new Error("Quran token response was not understood");
-  }
-  // Renew a minute early; tokens last one hour and cannot be refreshed.
-  token = { value: data.access_token, expires: Date.now() + (data.expires_in - 60) * 1000 };
-  return token.value;
 }
 
 function getToken(): Promise<string> {
@@ -81,10 +84,16 @@ async function headers() {
 // A token can stop working before its hour is up (for example after new keys are set): on a 401,
 // forget it, get a fresh one and try once more.
 async function authedFetch(url: string, init: RequestInit): Promise<Response> {
-  const res = await fetch(url, { ...init, headers: await headers() });
+  init.signal?.throwIfAborted();
+  const authHeaders = await headers();
+  init.signal?.throwIfAborted();
+  const res = await fetch(url, { ...init, headers: authHeaders });
+  init.signal?.throwIfAborted();
   if (res.status !== 401) return res;
   token = null;
-  return fetch(url, { ...init, headers: await headers() });
+  const renewedHeaders = await headers();
+  init.signal?.throwIfAborted();
+  return fetch(url, { ...init, headers: renewedHeaders });
 }
 
 // ---------- search ----------
@@ -94,19 +103,20 @@ async function authedFetch(url: string, init: RequestInit): Promise<Response> {
 // context and full-question coverage before the writer can see any passage.
 export async function searchQuran(queries: string[], limit: number, signal?: AbortSignal, onFailure?: (outcome: "timeout" | "search_failed") => void): Promise<string[]> {
   const jobs =
-    queries.slice(0, 6).map(async (q) => {
+    queries.slice(0, 6).map(q => runSourceRequest(signal, TIMEOUT_MS, "quran_search", async requestSignal => {
       const url = `${env.api}${quranSearchPath(q, [TRANSLATIONS.en.id, TRANSLATIONS.de.id], RESULTS_PER_QUERY)}`;
       // Not cached: the search phrases are derived from a visitor's question and must not be kept
       // on disk. Verse text (below) is cached, because it reveals nothing about who asked what.
-      const res = await authedFetch(url, { signal: sourceRequestTimeout(signal, TIMEOUT_MS, "quran_transport"), cache: "no-store" });
+      const res = await authedFetch(url, { signal: requestSignal, cache: "no-store" });
       if (!res.ok) throw new Error(`Quran search failed with status ${res.status}`);
       const data = (await res.json()) as { result?: { verses?: { key?: unknown; result_type?: unknown }[] } };
+      requestSignal.throwIfAborted();
       const verses = data.result?.verses;
       if (!Array.isArray(verses)) throw new Error("Quran search response was not understood");
       return verses
         .filter((v) => (v.result_type === undefined || v.result_type === "ayah") && typeof v.key === "string" && /^\d{1,3}:\d{1,3}$/.test(v.key))
         .map((v) => v.key as string);
-    });
+    }));
   const results = onFailure ? await Promise.allSettled(jobs) : (await Promise.all(jobs)).map(value => ({ status: "fulfilled" as const, value }));
   signal?.throwIfAborted();
   const failures = results.filter(r => r.status === "rejected");
@@ -178,19 +188,20 @@ export function getVerse(key: string): Promise<Verse | undefined> {
   if (!allowed(key)) return Promise.resolve(undefined);
   let p = inFlight.get(key);
   if (!p) {
-    p = withContentSlot(async () => {
+    p = withContentSlot(() => runSourceRequest(undefined, TIMEOUT_MS, "quran_content", async requestSignal => {
       const url =
         `${env.api}/content/api/v4/verses/by_key/${key}` +
         `?fields=text_uthmani,text_imlaei_simple&translations=${TRANSLATIONS.en.id},${TRANSLATIONS.de.id}`;
       const res = await authedFetch(url, {
-        signal: sourceRequestTimeout(undefined, TIMEOUT_MS, "quran_transport"),
+        signal: requestSignal,
         next: { revalidate: CACHE_SECONDS },
       });
       if (res.status === 404) return undefined;
       if (!res.ok) throw new Error(`Quran verse request failed with status ${res.status}`);
       const data = (await res.json()) as { verse?: unknown };
+      requestSignal.throwIfAborted();
       return parseVerse(data.verse);
-    }).finally(() => inFlight.delete(key));
+    })).finally(() => inFlight.delete(key));
     inFlight.set(key, p);
   }
   return p;
