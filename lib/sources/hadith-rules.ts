@@ -93,11 +93,15 @@ const MUSLIM_MAIN_TEXT_STARTS = { volume: 1, page: 36 };
 
 type Ref = { volume: number; page: number; number: number };
 
-// Reads "صحيح البخاري (6/ 192) (5027)" style entries from the reference text.
+// Reads a single numbered reference, including a printed page range. Keep the
+// FIRST page for Muslim-introduction checks; a range cannot bypass that gate.
 export function readReference(reference: string, book: "bukhari" | "muslim"): Ref | null {
   const name = book === "bukhari" ? "صحيح البخاري" : "صحيح مسلم";
-  const m = reference.match(new RegExp(`${name}\\s*\\((\\d+)\\s*/\\s*(\\d+)\\)\\s*\\((\\d+)\\)`));
-  return m ? { volume: Number(m[1]), page: Number(m[2]), number: Number(m[3]) } : null;
+  const m = reference.match(new RegExp(`${name}\\s*\\(\\s*(\\d+)\\s*/\\s*(\\d+)(?:\\s*[-–—]\\s*(\\d+))?\\s*\\)\\s*\\(\\s*(\\d+)\\s*\\)`));
+  if (!m) return null;
+  const volume = Number(m[1]), page = Number(m[2]), lastPage = m[3] === undefined ? page : Number(m[3]), number = Number(m[4]);
+  if (![volume, page, lastPage, number].every(n => Number.isSafeInteger(n) && n > 0) || lastPage < page) return null;
+  return { volume, page, number };
 }
 
 export function inMuslimIntroduction(ref: Ref): boolean {

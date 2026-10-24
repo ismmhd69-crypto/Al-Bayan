@@ -683,6 +683,18 @@ On 22 October 2026:
 
 **Accepted:** optional-absence mechanics and fiscal evidence only. Does not solve a model's misclassification of supplied advice or the parents Quran scope error. Original journal/reservation and all prior spending retained; no model/privacy/source change, deployment, storage activation or goal completion.
 
+## 58. Known Sunnah evidence exposes title-interface limits; printed page ranges now parse (24 October)
+
+**Implemented:** generic ascending page-range support for Bukhari/Muslim references. Keeps first-page introduction checks and rejects malformed/reversed ranges, ambiguous hadith-number ranges and invalid integers. Original Arabic, grades and source boundaries unchanged. No title-query or source-ID production workaround. [Source probes, repair and limits](ask-hadith-title-and-reference-audit-2026-10-24.md).
+
+**Offline verified:** 32 focused tests in three files and TypeScript passed; full suite then passed 1,715 tests in 162 files, zero failures/skips. Actual saved source metadata now retains Bukhari 4141 and Muslim 2770 instead of only the latter, with exact original bytes. The real title provider misses a known source under the saved Arabic point queries even in an oracle catalogue; exact-title wording finds it. This is a miss mechanism, not full-catalogue recall.
+
+**Live verified:** official Arabic source identity/grade/reference format and three source-only website searches were checked. All three searches missed the known control; other results were not all reviewed. The alternative is not enabled, and no visitor-query forwarding or anonymous explanatory evidence was added. New parser replay is offline against the exact live snapshot, not a new full Ask attempt or religious-accuracy proof.
+
+**Spending:** zero paid model calls; exposure $2.2803763725 and remainder $0.10206744 unchanged, with old unresolved reservation/ancestors retained. Public source probes were bounded with no automatic retry; the failed inline local script dispatched nothing. No paid repeat or budget increase.
+
+**Accepted:** bibliography recovery and source-interface diagnosis only. The parents search/meaning failures and full verification remain open. No model/privacy/source approval, deployment, durable storage or goal-completion change.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

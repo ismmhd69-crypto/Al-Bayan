@@ -1,6 +1,7 @@
 // Tests for the hadith rules (Sahihayn only, sahih/hasan only, text unchanged).
 // The sample records are shaped like HadeethEnc responses; texts are short made-up placeholders.
 import { describe, expect, it } from "vitest";
+import { existsSync, readFileSync } from "node:fs";
 import { acceptableGrade, collectionOf, parseHadith, readReference } from "@/lib/sources/hadith-rules";
 
 describe("collectionOf: Bukhari or Muslim only", () => {
@@ -81,6 +82,48 @@ describe("parseHadith", () => {
   it("reads printed references", () => {
     expect(readReference("صحيح البخاري (6/ 192) (5027).", "bukhari")).toEqual({ volume: 6, page: 192, number: 5027 });
     expect(readReference("صحيح البخاري (6/ 192) (5027).", "muslim")).toBeNull();
+  });
+
+  it.each(["-", "–", "—"])("reads printed page ranges without discarding a confirmed collection (%s)", dash => {
+    const reference = `صحيح البخاري (5/ 116${dash}120) (4141)، صحيح مسلم (4/ 2129) (2770)`;
+    expect(readReference(reference, "bukhari")).toEqual({ volume: 5, page: 116, number: 4141 });
+    const h = parseHadith({ ...ar, attribution: "متفق عليه", reference }, null, null)!;
+    expect(h.collection).toBe("agreed");
+    expect(h.numbers).toEqual({ bukhari: 4141, muslim: 2770 });
+    expect(h.arabic).toBe(ar.hadeeth);
+  });
+
+  it("keeps the introduction boundary conservative when a Muslim range straddles it", () => {
+    expect(parseHadith({ ...ar, attribution: "رواه مسلم", reference: "صحيح مسلم (1/ 10-40) (3)" }, null, null)).toBeNull();
+    expect(parseHadith({ ...ar, attribution: "رواه مسلم", reference: "صحيح مسلم (1/ 36-40) (3)" }, null, null)?.numbers.muslim).toBe(3);
+  });
+
+  it.each([
+    "صحيح البخاري (5/ 120-116) (4141)",
+    "صحيح البخاري (5/ 116-120-123) (4141)",
+    "صحيح البخاري (5/ 116-120) (4141-4142)",
+    "صحيح البخاري (0/ 116-120) (4141)",
+    "صحيح البخاري (5/ 0-120) (4141)",
+    "صحيح البخاري (5/ 116-120) (0)",
+    "صحيح البخاري (5/ 116-9007199254740992) (4141)",
+    "صحيح البخاري (5/ 116-120) (9007199254740992)",
+    "سنن الترمذي (5/ 116-120) (4141)",
+  ])("does not guess a number from malformed, reversed or other-book ranges: %s", reference => {
+    expect(readReference(reference, "bukhari")).toBeNull();
+  });
+
+  it("does not let range support bypass grade, attribution or exact-Arabic rules", () => {
+    const reference = "صحيح البخاري (5/ 116-120) (4141)، صحيح مسلم (4/ 2129-2131) (2770)";
+    expect(parseHadith({ ...ar, reference, attribution: "متفق عليه", grade: "ضعيف" }, null, null)).toBeNull();
+    expect(parseHadith({ ...ar, reference, attribution: "رواه الترمذي" }, null, null)).toBeNull();
+    expect(parseHadith({ ...ar, reference, attribution: "متفق عليه" }, null, null)?.arabic).toBe(ar.hadeeth);
+  });
+
+  it.skipIf(!existsSync("work/private-ask-evaluation/hadeethenc-official-search-candidate-65784-20261024.json"))("replays the actual official range without changing its original text", () => {
+    const saved = JSON.parse(readFileSync("work/private-ask-evaluation/hadeethenc-official-search-candidate-65784-20261024.json", "utf8"));
+    const h = parseHadith({ id: saved.id, hadeeth: saved.original, grade: saved.grade, attribution: saved.attribution, reference: saved.reference }, null, null)!;
+    expect(h.collection).toBe("agreed"); expect(h.numbers).toEqual({ bukhari: 4141, muslim: 2770 });
+    expect(h.arabic).toBe(saved.original);
   });
   it("works for Arabic-only hadith with no English or German", () => {
     expect(parseHadith(ar, null, null)!.translations).toEqual({ en: null, de: null });
