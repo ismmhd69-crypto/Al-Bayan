@@ -753,6 +753,18 @@ On 22 October 2026:
 
 **Accepted:** the observed source-stall boundary is repaired and source availability verified. Earlier semantic scope/condition failures, full-answer reliability, qualified review and Mo acceptance remain open. Existing browser requests cannot survive a server restart and need retry. No durable storage activation or goal-completion claim.
 
+## 64. An existing complete English answer also omits the known source qualification (24 October)
+
+**Implemented:** source review of an existing visitor-initiated English parents response only. No new request or production change. The exact trace-bound review inspects all nine displayed claim occurrences rather than treating rich_answer as acceptance. [Findings and usage boundaries](ask-existing-english-source-review-2026-10-24.md).
+
+**Offline verified:** TypeScript passed; review binds terminal language/status, exact affected wording, the own original's exception and eighteen existing usage entries. Six claim occurrences have supported cores, two repeat a missing source qualification, one application remains a review question. Counts are not independent-answer accuracy.
+
+**Live verified:** none newly added. The historical response predates the Quran stall repair. The current file inventory has no post-restart question, so no new end-to-end answer proof. The review shows the same source-condition problem in English despite technical completion; it does not invalidate the separate transport repair or claim it solves semantic judgment.
+
+**Spending:** no network/model calls or new cost. Historical manual website usage is recorded separately from immutable evaluation spending; no journal, old reservation or visitor history changed.
+
+**Accepted:** additional source-faithfulness failure evidence only, not the completed answer, general accuracy, source/release review or Mo acceptance. No paid comparison, website model/privacy/source change, deployment or goal completion. Any comparison on the prepared balanced controls requires its own scope decision.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
