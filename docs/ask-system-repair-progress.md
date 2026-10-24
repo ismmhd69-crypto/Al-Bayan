@@ -777,6 +777,18 @@ On 22 October 2026:
 
 **Accepted:** safe task spending boundary and evidence against blindly replacing the primary or adding a mandatory backup vote. One comparison finished/reviewed; no further paid call queued. Overall semantic reliability, qualified source review and Mo acceptance remain open. No production/model/privacy/source change, deployment, durable storage activation or goal completion.
 
+## 66. Completion audit confirms a source-meaning decision gate after three consecutive turns (24 October)
+
+**Implemented:** no further website change. Requirement-by-requirement completion audit preserves the full outcome instead of treating source transport, strict contracts or offline tests as proof of semantic reliability. [Current audit and decision needed](ask-current-goal-completion-audit-2026-10-24.md).
+
+**Offline/current-state verified:** latest private Arabic/English reviews remain unaccepted, comparison remains reviewed with primary false approvals and backup false rejections, original ledger hash unchanged, all 24 comparison receipts settled, no active lock or running evaluation process. Unrelated mockup deletions untouched. No new network/model/source call or added cost.
+
+**Live verified:** none added. The source-meaning gate is revalidated across records 64, 65 and this audit. No accepted current-model activation candidate or full-answer acceptance is established. The original latency target, full patient recovery and qualified/Mo acceptance remain open.
+
+**Spending:** cap $2.6324438125, exposure $2.41378416, remainder $0.2186596525 unchanged; old unresolved reservation retained. Latest paid scope finished/reviewed; no automatic repeat or new model proposal activation.
+
+**Accepted:** completion remains unproved. Mark goal blocked pending direction on qualified source review or preparing a separate additional-checker proposal. Respect the current-model restriction; do not lower checks, hardcode questions or infer permission for further paid calls. No deployment, storage activation, silent pause or goal completion.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
