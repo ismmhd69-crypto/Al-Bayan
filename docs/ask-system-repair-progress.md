@@ -729,6 +729,18 @@ On 22 October 2026:
 
 **Accepted:** specific live checker-contract behavior and useful source retrieval only. Displayed scope drift and unfinished conclusion prevent full-answer/religious-accuracy/release/Mo acceptance or goal completion. Next priority is source grammar/scope and condition preservation; do not lower checks or hardcode this question to obtain a completion. No deployment or durable storage activation.
 
+## 62. Final offline semantic audit and fixed source-support controls; stop for Mo's local testing (24 October)
+
+**Implemented:** owner-only preparation of twelve Arabic source-support controls, six supported and six defective, including the latest grammar and missing-condition failures with faithful counterparts. A disputed summary application remains separate and unscored. Actual saved call provenance establishes four primary and four narrow approvals of one unchanged bad sentence on the same checker model. No new production fix or model change. [Audit and boundaries](ask-semantic-failure-audit-2026-10-24.md).
+
+**Offline verified:** 21 focused checks in three files and TypeScript passed. One-claim requests contain only own originals/context and exclude expected labels. Exact stored claim/model/finish identities, strict schemas and unchanged history/spending are checked; no network attempts. The unrun first draft is preserved and the refined second version is hashed before any paid comparison.
+
+**Live verified:** none added. Prior full answer remains containing_unsupported_claim and incomplete; repeated same-model approvals are not independent cases or religious proof. This preparation does not fix source meaning or establish the original timing target.
+
+**Spending:** zero new model/source calls or cost. Remaining $0.22528029625 unchanged; all prior charges and the old unresolved reservation retained. No paid comparison or automatic repeat queued.
+
+**Accepted:** trace-backed diagnosis and a fixed future evaluation artifact only. Mo asked to finish this last item, commit/push and launch locally. Overall reliability, qualified source review and Mo acceptance remain open; no goal-completion, deployment or storage-activation claim.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
