@@ -20,7 +20,12 @@ type RichBase = { language: Locale; review: "automatic"; sections: RichSection[]
 export type RichAnswer = RichBase & ({ version: 3; guide: Exclude<RichGuide, RichGuidance>; videos?: never } | { version: 4; guide?: RichGuidance; videos?: RelatedVideos });
 export type RichProgress = "understanding" | "searching" | "checking_evidence" | "writing_quran" | "checking_quran" | "checking_hadith" | "checking_scholar" | "checking_remaining" | "finding_videos";
 export type RichCallbacks = { onSection?: (section: RichSection) => void; onProgress?: (stage: RichProgress) => void; onWithdraw?: () => void };
-export type RichTerminal = { status: "rich_answer"; answer: RichAnswer } | { status: "incomplete"; language: Locale; withdraw: boolean; sections?: RichSection[] };
+export type RichFailureKind = "checker_failure" | "source_support" | "missing_qualification" | "context_needed" | "question_coverage";
+export function richFailureKind(value: unknown): RichFailureKind | null {
+  const r = value as { status?: string; failureKind?: RichFailureKind } | null;
+  return r?.status === "incomplete" && ["checker_failure", "source_support", "missing_qualification", "context_needed", "question_coverage"].includes(r.failureKind ?? "") ? r.failureKind! : null;
+}
+export type RichTerminal = { status: "rich_answer"; answer: RichAnswer } | { status: "incomplete"; language: Locale; withdraw: boolean; sections?: RichSection[]; failureKind?: RichFailureKind };
 export type RichEvent = { request_id: string; sequence: number } & (
   | { type: "progress"; stage: RichProgress }
   | { type: "section"; section: RichSection }

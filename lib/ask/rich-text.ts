@@ -2,6 +2,7 @@ import type { Locale } from "@/lib/i18n";
 
 export const richText = {
   en: {
+    technicalFailure: "Research stopped because part of processing or checking failed. Any sections shown below passed their individual checks. No final answer was saved.",
     relatedVideoNotice: "Further learning matched by title from approved channels. The recording has not been checked as evidence for this answer.",
     checkingPending: "Checking for unfinished research…",
     submitting: "Sending your question…",
@@ -104,6 +105,7 @@ export const richText = {
     next: "Ask a specific follow-up about the evidence or how it applies to your question. Personal circumstances may need a qualified scholar.",
   },
   ar: {
+    technicalFailure: "توقف البحث بسبب تعذر إتمام المعالجة أو التحقق. الأقسام المعروضة أدناه اجتازت التحقق الفردي. لم تُحفظ إجابة نهائية.",
     relatedVideoNotice: "للتعلّم الإضافي: مقاطع من قنوات معتمدة اختيرت بحسب العنوان. لم يُراجع التسجيل بوصفه دليلاً لهذا الجواب.",
     checkingPending: "جارٍ التحقق من وجود بحث لم يكتمل…",
     submitting: "جارٍ إرسال سؤالك…",
@@ -197,6 +199,7 @@ export const richText = {
     next: "اسأل سؤال متابعة محددًا عن الدليل أو صلته بسؤالك. وقد تحتاج ظروفك الشخصية إلى سؤال عالم مؤهل.",
   },
   de: {
+    technicalFailure: "Die Recherche wurde wegen eines Verarbeitungs- oder Prüfungsfehlers beendet. Angezeigte Abschnitte haben ihre Einzelprüfungen bestanden. Es wurde keine endgültige Antwort gespeichert.",
     relatedVideoNotice: "Weiterführende Videos aus freigegebenen Kanälen, anhand des Titels ausgewählt. Die Aufnahme wurde nicht als Beleg für diese Antwort geprüft.",
     checkingPending: "Es wird nach einer noch offenen Recherche gesucht…",
     submitting: "Deine Frage wird gesendet…",

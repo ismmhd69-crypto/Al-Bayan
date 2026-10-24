@@ -16,14 +16,14 @@ it("feeds a narrow scope rejection into the existing single correction without s
   const writer = deps.writer.generateJson;
   deps.writer.generateJson = async req => {
     const input = JSON.parse(req.prompt);
-    if (input.correction) { corrected = true; expect(input.correction.checker_findings.support_failures).toContainEqual({ claim_id: "C1", explanation: "A limited audience was broadened." }); }
+    if (input.correction) { corrected = true; expect(input.correction.checker_findings.support_failures).toContainEqual(expect.objectContaining({ claim_id: "C1", explanation: "A limited audience was broadened." })); }
     return writer(req);
   };
   deps.verifier.generateJson = async req => {
     const input = JSON.parse(req.prompt);
     if (input.stage !== "narrow_meaning_review_v1") return audit(req.prompt);
     const no = !rejected; rejected = true;
-    return { claims: Object.fromEntries(input.claims.map((c: { claim_id: string }) => [c.claim_id, { verdict: no ? "no" : "yes", explanation: no ? "A limited audience was broadened." : "" }])) };
+    return { claims: Object.fromEntries(input.claims.map((c: { claim_id: string; text: string; originals: { source_id: string; arabic: string }[] }) => [c.claim_id, { finding: { category: "source_support", claim_quote: c.text, source_id: c.originals[0].source_id, source_quote: c.originals[0].arabic.slice(0, 900) }, verdict: no ? "no" : "yes", explanation: no ? "A limited audience was broadened." : "" }])) };
   };
   const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {});
   expect(result.status).toBe("rich_answer"); expect(corrected).toBe(true);
@@ -33,7 +33,7 @@ it("withdraws an earlier explanation when the later independent meaning check fi
   deps.verifier.generateJson = async req => {
     const input = JSON.parse(req.prompt);
     if (input.stage !== "narrow_meaning_review_v1") return audit(req.prompt);
-    return { claims: Object.fromEntries(input.claims.map((c: { claim_id: string }, i: number) => [c.claim_id, { verdict: input.claims.length > 1 && i === 0 ? "no" : "yes", explanation: input.claims.length > 1 && i === 0 ? "A newly noticed original condition is missing." : "" }])) };
+    return { claims: Object.fromEntries(input.claims.map((c: { claim_id: string; text: string; originals: { source_id: string; arabic: string }[] }, i: number) => [c.claim_id, { finding: { category: "source_support", claim_quote: c.text, source_id: c.originals[0].source_id, source_quote: c.originals[0].arabic.slice(0, 900) }, verdict: input.claims.length > 1 && i === 0 ? "no" : "yes", explanation: input.claims.length > 1 && i === 0 ? "A newly noticed original condition is missing." : "" }])) };
   };
   expect(await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {})).toMatchObject({ status: "incomplete", withdraw: true });
 });
@@ -44,7 +44,7 @@ it("checks survivors even when another claim already failed, preserving original
     const input = JSON.parse(req.prompt);
     if (input.stage === "narrow_meaning_review_v1") {
       if (input.claims.length > 1) checkedSurvivors = true;
-      return { claims: Object.fromEntries(input.claims.map((c: { claim_id: string }) => [c.claim_id, { verdict: input.claims.length > 1 ? "no" : "yes", explanation: input.claims.length > 1 ? "A surviving claim broadened a specific activity." : "" }])) };
+      return { claims: Object.fromEntries(input.claims.map((c: { claim_id: string; text: string; originals: { source_id: string; arabic: string }[] }) => [c.claim_id, { finding: { category: "source_support", claim_quote: c.text, source_id: c.originals[0].source_id, source_quote: c.originals[0].arabic.slice(0, 900) }, verdict: input.claims.length > 1 ? "no" : "yes", explanation: input.claims.length > 1 ? "A surviving claim broadened a specific activity." : "" }])) };
     }
     const result = audit(req.prompt);
     if (input.full_answer) {

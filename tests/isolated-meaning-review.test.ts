@@ -22,7 +22,7 @@ it("retains strict whole-response shape and negative/uncertain decisions", () =>
   const item = { text: "A test assertion.", refs: ["Q1"] };
   const req = isolatedMeaningReviewRequest(item, { passages: [{ id: "Q1", arabic: "TEST" }] }, new AbortController().signal);
   const contract = structuredOutputContract(req.schema);
-  const rejected = { claims: { C1: { verdict: "no", explanation: "Missing assertion." } } };
+  const rejected = { claims: { C1: { verdict: "no", explanation: "Missing assertion.", finding: { category: "source_support", claim_quote: item.text, source_id: "Q1", source_quote: "TEST" } } } };
   expect(parseMeaningReview(contract.parse(JSON.stringify(rejected)), [item])?.failures).toHaveLength(1);
   expect(contract.parse(JSON.stringify({ ...rejected, coverage: "yes" }))).toBeNull();
   expect(contract.parse('{"claims":{"C1":{"verdict":"yes","explanation":""}}')).toBeNull();

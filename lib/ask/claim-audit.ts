@@ -1,7 +1,9 @@
 import type { JsonSchema } from "@/lib/ai/types";
 import { CLAIM_AUDIT_FIELDS, CLAIM_AUDIT_REASONS } from "./checks";
+import { findingSchema, MEANING_RULES, NEGATIVE_FINDING_RULES } from "./review-findings";
 
-export const CLAIM_AUDIT_RULES = `
+export const CLAIM_AUDIT_RULES = `${MEANING_RULES}\n${NEGATIVE_FINDING_RULES}
+For every non-yes claim assessment return finding with category source_support, missing_qualification or context_needed, exact claim_quote, source_id and source_quote. For all-yes rows return finding with category source_support and empty quote/source strings. A missing qualification that changes a promise or obligation must fail the relevant condition/scope check; a shorter faithful teaching is not automatically false because unrelated practical advice is omitted.
 CLAIM AUDIT MODE: replace the bare verdicts array with claim_assessments. Assess every claim_id exactly once and repeat its exact source_ids. Judge only its cited passages; other passages and surrounding_context may restrict meaning but cannot support an uncited fact. Context passages are never citations.
 For each claim, report yes/no/unsure separately for:
 - direct_support: EVERY assertion and joined clause is directly stated by the cited sources, with correct attribution and no extra meaning.
@@ -21,7 +23,8 @@ export function claimAuditSchema(): JsonSchema {
       ...Object.fromEntries(CLAIM_AUDIT_FIELDS.map((field) => [field, decision])),
       reason_codes: { type: "array", items: { type: "string", enum: [...CLAIM_AUDIT_REASONS] } },
       explanation: { type: "string", maxLength: 240 },
-    }, required: ["claim_id", "source_ids", ...CLAIM_AUDIT_FIELDS, "reason_codes", "explanation"],
+      finding: findingSchema,
+    }, required: ["claim_id", "source_ids", ...CLAIM_AUDIT_FIELDS, "reason_codes", "explanation", "finding"],
   } };
 }
 

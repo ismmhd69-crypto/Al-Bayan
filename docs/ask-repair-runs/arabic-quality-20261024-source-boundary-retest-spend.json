@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "cap": 2.8824438125,
+  "priorExposure": 2.5074707599999995,
+  "originalLedgerHash": "fa92584ab52e6ec22a25d6a9c3c0c3412c5392cfbdefc747ebd5010ea85844b7",
+  "prices": {
+    "google/gemini-3.5-flash-lite": {
+      "prompt": 0.54,
+      "completion": 4.5,
+      "request": 0
+    },
+    "google/gemini-3.8-flash": {
+      "prompt": 1.35,
+      "completion": 6.75,
+      "request": 0
+    },
+    "google/gemini-3.1-flash-lite": {
+      "prompt": 0.44999999999999996,
+      "completion": 2.7,
+      "request": 0
+    },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "prompt": 0.09999999999999999,
+      "completion": 0.3,
+      "request": 0
+    }
+  },
+  "calls": [
+    {
+      "fingerprint": "22f722e911ca0e1c210c1519508d4c00d83ba26362594ef6175d441aff71b581",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0271386,
+      "at": "2026-10-24T20:49:31.166Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792874972-ivhF2TBEPfvB7j20RoJC",
+      "promptTokens": 2781,
+      "completionTokens": 563,
+      "finishReason": "stop",
+      "cost": 0.0022418
+    },
+    {
+      "fingerprint": "89ec58e2b79b1263744f0a2767b3ec8fbf41627b0a7be01fdc447f23e9e45270",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0428985,
+      "at": "2026-10-24T20:49:48.477Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792874989-LpXJK8JQOgMnvu5PIlve",
+      "promptTokens": 9353,
+      "completionTokens": 158,
+      "finishReason": "stop",
+      "cost": 0.00257525
+    },
+    {
+      "fingerprint": "2d335da1efb72a48a831c9d5573f60ef1699a63e5fa9ed6e61c90700b0906670",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0429714,
+      "at": "2026-10-24T20:49:49.747Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792874990-VosDqiJWUoNpayPesEkN",
+      "promptTokens": 9366,
+      "completionTokens": 1868,
+      "finishReason": "length",
+      "cost": 0.0051435
+    },
+    {
+      "fingerprint": "ebf198c3d126a922deca121c5a9c87d7c7238e4fc8f6362cbf57e7c291fea259",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.0084194,
+      "at": "2026-10-24T20:49:55.812Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792874996-NawsBZJ08QtQl8ZUxopY",
+      "promptTokens": 9289,
+      "completionTokens": 68,
+      "finishReason": "stop",
+      "cost": 0.000710275
+    },
+    {
+      "fingerprint": "27cd573acfa18fef2c4c224252dd82b88d2030d3240145088067f8e9b81c7395",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0640593,
+      "at": "2026-10-24T20:50:17.661Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875018-Dh0cfIsxOeJ8ZveuV2lQ",
+      "promptTokens": 15228,
+      "completionTokens": 249,
+      "finishReason": "stop",
+      "cost": 0.0041805
+    },
+    {
+      "fingerprint": "ed79f09201b873783d5de91b7b3e26a26371d242a96c3323d9308e52580e61f0",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0641322,
+      "at": "2026-10-24T20:50:20.095Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875021-9uNebZWfbl9rL7tulGcw",
+      "promptTokens": 15241,
+      "completionTokens": 224,
+      "finishReason": "stop",
+      "cost": 0.00414625
+    },
+    {
+      "fingerprint": "0a7bc6ae1a3cfa4056ad09bc13b8c32b578d79322fa8be4eaf7df9d73ff644f3",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0947754,
+      "at": "2026-10-24T20:50:21.639Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875023-BYmvXVlXsZVPal6yBQ9B",
+      "promptTokens": 16637,
+      "completionTokens": 4381,
+      "finishReason": "stop",
+      "cost": 0.01073075
+    },
+    {
+      "fingerprint": "47e4bdd04bc18fe021f32df88b2eec74b3e3a5afa816c12e97c6e51f701c417e",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.05278536,
+      "at": "2026-10-24T20:50:42.807Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875043-6fuFOcXAhu87eAzcWzEo",
+      "promptTokens": 6748,
+      "completionTokens": 177,
+      "finishReason": "stop",
+      "cost": 0.0024669
+    },
+    {
+      "fingerprint": "fb03d197e291be049ba6fc8de7175fb1afdb1e5388a5117007e885aeffa0d68d",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.043039441,
+      "at": "2026-10-24T20:50:44.287Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875045-kq2MOPk2P0jTfRNzXygO",
+      "promptTokens": 4212,
+      "completionTokens": 405,
+      "finishReason": "stop",
+      "cost": 0.0022761
+    },
+    {
+      "fingerprint": "cd305a79d7aa8e32e15ac049e1c34cc3e30f215eaf0438d140883eb034d8e405",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0709614,
+      "at": "2026-10-24T20:50:44.314Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875045-NwhNvkvwrafOqgYtbXEE",
+      "promptTokens": 15382,
+      "completionTokens": 1181,
+      "finishReason": "stop",
+      "cost": 0.005617
+    },
+    {
+      "fingerprint": "43bf4569c4e85238003f289936fbfe9c997787916cf7c81b1c72d4816ca5a0a8",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0279513,
+      "at": "2026-10-24T20:50:48.052Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875050-XZNAxtDjdCVntPJO70Ii",
+      "promptTokens": 3752,
+      "completionTokens": 227,
+      "finishReason": "stop",
+      "cost": 0.0012785
+    },
+    {
+      "fingerprint": "e98a2db3de429ee0036b94638512e97cd2cd26a08dd3943a5006f1616c5e8bba",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.1101015,
+      "at": "2026-10-24T20:50:50.742Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875051-WMmnkepWAa43kvNPICTB",
+      "promptTokens": 20945,
+      "completionTokens": 2966,
+      "finishReason": "stop",
+      "cost": 0.00968525
+    },
+    {
+      "fingerprint": "93ea2bfa101dfeb4d18c9354be916643dae9bc12fb80dc5b92e0d1544cbbd70a",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0395838,
+      "at": "2026-10-24T20:50:59.767Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875060-oi1w7l4cD8sxDUuPHAC7",
+      "promptTokens": 6240,
+      "completionTokens": 312,
+      "finishReason": "stop",
+      "cost": 0.002028
+    },
+    {
+      "fingerprint": "edcf41485134360a69a97c7a43c17965667aab5b495ed036eee8c688c830d63b",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0987606,
+      "at": "2026-10-24T20:51:01.689Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875062-a6XCtQ2RXmp46Kt01TkF",
+      "promptTokens": 8620,
+      "completionTokens": 188,
+      "finishReason": "stop",
+      "cost": 0.003056
+    },
+    {
+      "fingerprint": "db25a9838b9c5d796418bd4032820fc328982744a550e4ec42fb64dd243e3386",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.1305837,
+      "at": "2026-10-24T20:51:03.236Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875064-n4udTBaxCN4nRcabhGd8",
+      "promptTokens": 29093,
+      "completionTokens": 4704,
+      "finishReason": "stop",
+      "cost": 0.01432925
+    },
+    {
+      "fingerprint": "2d270552789e5bfc5ca933beee222ab3c778aed29e6d44b5f594a4959cc80d69",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0527931,
+      "at": "2026-10-24T20:51:15.864Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792875076-TYNVseA2LFLzdmjDkcDp",
+      "promptTokens": 9765,
+      "completionTokens": 1368,
+      "finishReason": "stop",
+      "cost": 0.00449325
+    }
+  ],
+  "priorCampaign": {
+    "path": "C:\\Users\\wiseflow\\Bayan\\docs\\ask-repair-runs\\arabic-quality-20261024-meaning-quality-live-spend.json",
+    "hash": "5f103da40d5437f960eb7f05d7135197a1c1b3759ede1d962ebbc548a4af7c40",
+    "exposure": 2.5074707599999995,
+    "authorization": "Mo explicitly approved Allow up to 25 cents more for ONE full Arabic R03 parents retest after the offline source-boundary fixes, then review and report. Increase the overall cap by $0.25 only. Preserve the old remainder, all prior charges and unresolved exposure. Same models, privacy and source boundaries; no comparisons, automatic repeat, further case, deployment or unlimited retries."
+  },
+  "executionCap": 2.8824438125,
+  "reviewStops": [
+    {
+      "at": "2026-10-24T20:49:31.116Z",
+      "reason": "reviewed_continuation_prepared",
+      "authorization": "Execute one owner-approved Arabic parents retest after source-boundary repairs; extra allowance at most $0.25, earlier exposure retained, then review and stop."
+    },
+    {
+      "at": "2026-10-24T20:54:14.105Z",
+      "reason": "source_boundary_retest_reviewed_failed_stop",
+      "authorization": "One approved Arabic parents retest is finished and reviewed. The narrow guard missed a wording variant and a Quran explanation exceeded its own citations. Stop and report. No further paid attempt, repair or spending authorization follows from this review."
+    }
+  ],
+  "evaluationCases": [
+    {
+      "id": "R03",
+      "requestId": "527a5f15-5205-47bd-82de-41f278d99cc7",
+      "reportPath": "C:\\Users\\wiseflow\\Bayan\\work\\private-ask-evaluation\\source-boundary-full-retest-R03-20261024.json",
+      "revisionHash": "9dfc59f997d59a1e30339c4d3c523861377f3d0483d8e85947a1ef8210298e4d",
+      "review": "failed"
+    }
+  ],
+  "stopped": "source_boundary_retest_reviewed_failed_stop"
+}

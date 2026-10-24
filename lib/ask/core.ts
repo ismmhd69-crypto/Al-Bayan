@@ -1,3 +1,4 @@
+import { approvedContext } from "./approved-context";
 // The automatic answer pipeline (plan section 7), after two Codex code reviews.
 // This file holds the logic only; lib/ask/pipeline.ts plugs in the real AI and Quran source.
 // Because everything comes in through `deps`, tests can run it with a fake AI (tests/pipeline.test.ts).
@@ -530,7 +531,7 @@ export function selectionSource(candidate: PassageForSelection, namedByVisitor: 
   };
 }
 
-export function sealedPackageJson(evidence: EvidencePackage, language: Locale, forWriter = false, includeContext = false) {
+export function sealedPackageJson(evidence: EvidencePackage, language: Locale, forWriter = false, includeContext = false, includeApprovedContext = false) {
   return {
     question: evidence.question,
     ...(evidence.contributionPlan ? { contribution_plan: { planning_only: true, cannot_establish_support: true, units: evidence.contributionPlan } } : {}),
@@ -542,7 +543,8 @@ export function sealedPackageJson(evidence: EvidencePackage, language: Locale, f
         throw new Error("sealed_source_text_missing");
       }
       const context = { ...(passage.contextAvailability ? { context_availability: passage.contextAvailability } : {}), ...(includeContext
-        ? { surrounding_context: passage.context.map((verse) => sourceJson(verseSource(verse), language)) }
+        ? { surrounding_context: passage.context.map((verse) => sourceJson(verseSource(verse), language)), ...(includeApprovedContext ? { approved_context: approvedContext(passage, evidence),
+          explanatory_context_status: approvedContext(passage, evidence).some(c => c.relationship === "selected_scholar_explanation") ? "supplied" : "not_supplied" } : {}) }
         : {}) };
       // Only eligible source translations occur here; display-only AI translations are attached
       // after screening. Never strip the sole readable wording of a stored passage. Arabic

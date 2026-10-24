@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "cap": 2.6324438125,
+  "priorExposure": 2.4137841599999996,
+  "originalLedgerHash": "fa92584ab52e6ec22a25d6a9c3c0c3412c5392cfbdefc747ebd5010ea85844b7",
+  "prices": {
+    "google/gemini-3.5-flash-lite": {
+      "prompt": 0.54,
+      "completion": 4.5,
+      "request": 0
+    },
+    "google/gemini-3.8-flash": {
+      "prompt": 1.35,
+      "completion": 6.75,
+      "request": 0
+    },
+    "google/gemini-3.1-flash-lite": {
+      "prompt": 0.44999999999999996,
+      "completion": 2.7,
+      "request": 0
+    },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "prompt": 0.09999999999999999,
+      "completion": 0.3,
+      "request": 0
+    }
+  },
+  "calls": [
+    {
+      "fingerprint": "22f722e911ca0e1c210c1519508d4c00d83ba26362594ef6175d441aff71b581",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0271386,
+      "at": "2026-10-24T20:07:11.634Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872432-PgvghQ5PUlf69R1udQXC",
+      "promptTokens": 2781,
+      "completionTokens": 361,
+      "finishReason": "stop",
+      "cost": 0.0017368
+    },
+    {
+      "fingerprint": "8d6bd27ae28bf3f6fcbb70225019c2588c79ae6cda12a75c2ca4ed1b692426d4",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0386541,
+      "at": "2026-10-24T20:07:35.114Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872456-Ncp2YM9NTTifVdANq2Wh",
+      "promptTokens": 8277,
+      "completionTokens": 1672,
+      "finishReason": "length",
+      "cost": 0.00457725
+    },
+    {
+      "fingerprint": "a9bf79df695dae2eefba575c3d4213cca7afd6a93c7cab0da02ffabf1ebd6016",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "reserved": 0.007577,
+      "at": "2026-10-24T20:07:40.674Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872461-p2IRorcRpg24sDayPriD",
+      "promptTokens": 8150,
+      "completionTokens": 66,
+      "finishReason": "stop",
+      "cost": 0.00062445
+    },
+    {
+      "fingerprint": "7674740d64a93a861d639d97727f87466be6ac39fa10627da6d2b0666443f6af",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0386658,
+      "at": "2026-10-24T20:07:43.282Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872464-XSKjsnuhhLvXHtO7QBLj",
+      "promptTokens": 8278,
+      "completionTokens": 1659,
+      "finishReason": "stop",
+      "cost": 0.004558
+    },
+    {
+      "fingerprint": "ca5828cffaea177d0f917707ab7f0e4df6ae4a388a546c7b001f8c0c73e25afb",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.061479,
+      "at": "2026-10-24T20:07:56.133Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872477-2quZ8YMAdFIF043vemnE",
+      "promptTokens": 14522,
+      "completionTokens": 2500,
+      "finishReason": "stop",
+      "cost": 0.0073805
+    },
+    {
+      "fingerprint": "fdda880f0773c129d1543675ab5a7a94aced0a1d0364e42570054d9c60788595",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0614907,
+      "at": "2026-10-24T20:08:03.658Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872484-m6dt8RvmGHlxPtIknAbp",
+      "promptTokens": 14523,
+      "completionTokens": 2171,
+      "finishReason": "stop",
+      "cost": 0.00688725
+    },
+    {
+      "fingerprint": "43fb4d5981cc8ceeec6d71861054505f77be5b81f0d0bb38ec1af9120c806def",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0974925,
+      "at": "2026-10-24T20:08:10.807Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872491-1ojdUOXvT4CfBMWeWVlL",
+      "promptTokens": 17498,
+      "completionTokens": 5261,
+      "finishReason": "stop",
+      "cost": 0.012266
+    },
+    {
+      "fingerprint": "8d1435e259059813ac531a0bb0af1e28a15160703dbacb35374ded9772a0a880",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.065949481,
+      "at": "2026-10-24T20:08:25.659Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872506-pjL3ER8vUusro79R78Dg",
+      "promptTokens": 10151,
+      "completionTokens": 251,
+      "finishReason": "stop",
+      "cost": 0.0036728
+    },
+    {
+      "fingerprint": "b5c254da156a812cea04f137bb418aa8a6c0ab4a2a88bbc836cabe3d47a8fbcc",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.067804921,
+      "at": "2026-10-24T20:08:27.384Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872508-PsxlfRDUv41s3L0B5BiR",
+      "promptTokens": 10737,
+      "completionTokens": 287,
+      "finishReason": "stop",
+      "cost": 0.0039386
+    },
+    {
+      "fingerprint": "35898aa7c639360d9b15389a4cd80dfea134e09a3fc23bda8f232ab533827873",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0863208,
+      "at": "2026-10-24T20:08:27.412Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872508-plvp02TamkfoFBqRtW9B",
+      "promptTokens": 21079,
+      "completionTokens": 1257,
+      "finishReason": "stop",
+      "cost": 0.00715525
+    },
+    {
+      "fingerprint": "dee608c9c6080f0bc55d920d9f8de0b4b95d7e8cc9e738ab44aa48f5e0fd10cf",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0345303,
+      "at": "2026-10-24T20:08:32.149Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872513-DaQr6rie3a3M33jy8cCF",
+      "promptTokens": 5539,
+      "completionTokens": 191,
+      "finishReason": "stop",
+      "cost": 0.00167125
+    },
+    {
+      "fingerprint": "2604df7771383524019bcdee0739c32359615fb6fbd2b1118bc42a56f7f933c8",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.1213713,
+      "at": "2026-10-24T20:08:33.793Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872514-zyHy7MNsIYHDjRARn08s",
+      "promptTokens": 25598,
+      "completionTokens": 3492,
+      "finishReason": "stop",
+      "cost": 0.0116375
+    },
+    {
+      "fingerprint": "8b298fa3f3d0e03fa1943560513ceccb71858f1149d484e672b9e95104fa192f",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0447129,
+      "at": "2026-10-24T20:08:43.159Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872524-9sPlDxjHMzluudUr820E",
+      "promptTokens": 7669,
+      "completionTokens": 285,
+      "finishReason": "stop",
+      "cost": 0.00234475
+    },
+    {
+      "fingerprint": "47b8aa25a3b26fcf42da6bf529862dd8ef4625860117ad82d4e3544b402b14dc",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.108313201,
+      "at": "2026-10-24T20:08:45.154Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872526-tL84TLjNSZAtLOtMxhGB",
+      "promptTokens": 11159,
+      "completionTokens": 397,
+      "finishReason": "stop",
+      "cost": 0.0043402
+    },
+    {
+      "fingerprint": "c0a5bfb4df985e83e5de687a03e6d8374e842cbf18c6282dd212513f32fbe35a",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.145395,
+      "at": "2026-10-24T20:08:47.339Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872528-2WuYwOpvPT8UbiPg0v84",
+      "promptTokens": 35570,
+      "completionTokens": 5611,
+      "finishReason": "stop",
+      "cost": 0.017309
+    },
+    {
+      "fingerprint": "e9d60001693e47c69fb59184f14c0824767018d5cf02dfe4c5e7e59aadd7f72b",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0613233,
+      "at": "2026-10-24T20:09:13.143Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792872554-lM3OcZgMvS4NYvCyQ7ZZ",
+      "promptTokens": 11900,
+      "completionTokens": 408,
+      "finishReason": "stop",
+      "cost": 0.003587
+    }
+  ],
+  "priorCampaign": {
+    "path": "C:\\Users\\wiseflow\\Bayan\\docs\\ask-repair-runs\\arabic-quality-20261024-semantic-comparison-spend.json",
+    "hash": "29af2377b8a8237289d2fbce31d5b3c850b039e5c51c55a83b37c124c97262bc",
+    "exposure": 2.4137841599999996,
+    "authorization": "Mo explicitly approved Run within the remaining allowance: up to $0.21866, bounded by the unchanged overall cap, for at most two Arabic full-pipeline questions, R03 non-Muslim parents then F13 honesty and defects in selling. Review after R03 before F13. No added budget, model/privacy/source changes, deployment or automatic repeat. Stop on uncertain charges, insufficient reservation capacity or serious unsupported religious instruction. All earlier spending and unresolved exposure counted."
+  },
+  "executionCap": 2.6324438125,
+  "reviewStops": [
+    {
+      "at": "2026-10-24T20:07:11.583Z",
+      "reason": "reviewed_continuation_prepared",
+      "authorization": "Execute R03 once within the owner-approved two-question Arabic fixed sample and unchanged total cap. No repeat or added budget."
+    },
+    {
+      "at": "2026-10-24T20:12:50.314Z",
+      "reason": "meaning_quality_source_review_failed_stop_sample",
+      "authorization": "Owner authorized at most R03 and F13 within remaining allowance, with stop for serious unsupported instruction. R03 source-bound instruction broadened its own citations. Stop conservatively; F13 not tested. No retry, new spending or model switch authorized by this review."
+    }
+  ],
+  "evaluationCases": [
+    {
+      "id": "R03",
+      "requestId": "5de3c2cd-01b6-4e02-ba21-4a7d9a9372b5",
+      "reportPath": "C:\\Users\\wiseflow\\Bayan\\work\\private-ask-evaluation\\meaning-quality-live-R03-20261024.json",
+      "revisionHash": "bd057f1e653db574783a18e24dd19ab8c8db0dd18649f83fdb66ee531b4c1735",
+      "review": "failed"
+    }
+  ],
+  "stopped": "meaning_quality_source_review_failed_stop_sample"
+}

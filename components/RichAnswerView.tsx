@@ -28,8 +28,8 @@ export function richSourceCards(section: RichSection) {
     ...section.sources.filter(s => s.evidence.kind !== "quran").map(s => [s])];
 }
 
-export function RichAnswerView({ sections, language, text, complete = false, guide = "ask_specific_followup", incomplete = false, withdrawn = false, videos, patient }: {
-  sections: RichSection[]; language: Locale; text: Dictionary["ask"]; complete?: boolean; guide?: RichGuide | null; incomplete?: boolean; withdrawn?: boolean; videos?: RelatedVideos; patient?: PatientState;
+export function RichAnswerView({ sections, language, text, complete = false, guide = "ask_specific_followup", incomplete = false, withdrawn = false, technicalFailure = false, videos, patient }: {
+  sections: RichSection[]; language: Locale; text: Dictionary["ask"]; complete?: boolean; guide?: RichGuide | null; incomplete?: boolean; withdrawn?: boolean; technicalFailure?: boolean; videos?: RelatedVideos; patient?: PatientState;
 }) {
   const prefix = useId();
   const t = richText[language];
@@ -60,7 +60,7 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
     .filter(section => section.outcome === "ready" && section.claims.length > 0
       || patient && ["searching", "checking"].includes(patient.groups[section.group].state) && patient.status === "working");
   return <article className={styles.answer} dir={language === "ar" ? "rtl" : "ltr"}>
-    <p className={styles.notice} role={patient ? "status" : undefined}>{patient ? patient.status === "paused" ? t.patientPaused : t.patientNotice : withdrawn ? t.withdrawn : incomplete ? sections.some(s => s.outcome === "ready" && s.claims.length) ? t.incomplete : t.noCheckedSections : text.v2.review.automatic}</p>
+    <p className={styles.notice} role={patient ? "status" : undefined}>{patient ? patient.status === "paused" ? t.patientPaused : t.patientNotice : withdrawn ? t.withdrawn : incomplete && technicalFailure ? t.technicalFailure : incomplete ? sections.some(s => s.outcome === "ready" && s.claims.length) ? t.incomplete : t.noCheckedSections : text.v2.review.automatic}</p>
     {complete && sections.some(s => !!s.searchOutcome || !s.omitted && ["timeout", "search_failed", "unavailable", "failed_check", "not_checked"].includes(s.outcome)) && <p className={styles.gap} role="note">{t.limited}</p>}
     {!withdrawn && displayed.map(section => <section className={styles.section} key={section.group} aria-labelledby={`${prefix}-${section.group}`}>
       <h2 id={`${prefix}-${section.group}`}>{t.titles[section.group]}</h2>

@@ -40,7 +40,8 @@ export function audit(prompt: string) {
         && c.source_ids.some(id => request.evidence_package.passages.some((p: { id: string; supported_requirement_ids: string[] }) => p.id === id && p.supported_requirement_ids.includes(r.id))));
       return { requirement_id: r.id, claim_ids: matched.map((c: { claim_id: string }) => c.claim_id), source_ids: [...new Set(matched.flatMap((c: { source_ids: string[] }) => c.source_ids))], fully_answered: "yes", conditions_preserved: "yes" };
     }) : [],
-    claim_assessments: request.claims.map((c: { claim_id: string; source_ids: string[] }) => ({ claim_id: c.claim_id, source_ids: c.source_ids,
+    claim_assessments: request.claims.map((c: { claim_id: string; source_ids: string[]; claim: string }) => ({ claim_id: c.claim_id, source_ids: c.source_ids,
+      finding: { category: "source_support", claim_quote: c.claim, source_id: c.source_ids[0], source_quote: request.claim_evidence.find((r: any) => r.claim_id === c.claim_id).cited_originals.find((p: any) => p.id === c.source_ids[0]).arabic.slice(0, 900) },
     ...Object.fromEntries(CLAIM_AUDIT_FIELDS.map(f => [f, "yes"])), reason_codes: [], explanation: "" })),
     all_claims_consistent: "yes", complete_coverage: "yes", listed_items_complete: "yes", direct_summary: "yes", no_repetition: "yes", earlier_section_safe: "yes" };
 }

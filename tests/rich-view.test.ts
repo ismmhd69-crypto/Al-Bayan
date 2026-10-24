@@ -7,6 +7,13 @@ import { richText } from "@/lib/ask/rich-text";
 import { sections } from "./fixtures/rich";
 import { emptyPatientState } from "@/lib/ask/patient-protocol";
 describe("rich evidence reading view", () => {
+  it.each(["en", "ar", "de"] as const)("distinguishes a technical interruption from insufficient evidence in %s", lang => {
+    const html = renderToStaticMarkup(createElement(RichAnswerView, { language: lang, sections: [sections[0]], text: getDictionary(lang).ask,
+      incomplete: true, technicalFailure: true }));
+    expect(html).toContain(richText[lang].technicalFailure);
+    expect(html).not.toContain(richText[lang].noCheckedSections);
+    expect(html).toContain(sections[0].claims[0].text);
+  });
   it.each(["en", "ar", "de"] as const)("shows no invented or empty next-step footer when guidance is absent in %s", lang => {
     const html = renderToStaticMarkup(createElement(RichAnswerView, { language: lang, sections, text: getDictionary(lang).ask, complete: true, guide: null }));
     expect(html).not.toContain(richText[lang].guidance);

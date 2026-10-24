@@ -1,5 +1,7 @@
 "use client";
 
+import { richFailureKind } from "@/lib/ask/rich-answer";
+
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -416,6 +418,7 @@ export default function AskChat({
               : {
                   ...state,
                   sections: state.sections.filter((s) => s.group !== "summary"),
+                  result: data,
                 },
           },
         });
@@ -726,6 +729,7 @@ export default function AskChat({
                   text={t}
                   incomplete
                   withdrawn={m.reply.state.withdrawn}
+                  technicalFailure={richFailureKind(m.reply.state.result) === "checker_failure"}
                 />
               ) : m.reply.kind === "text" ? (
                 <p role="status">{m.reply.text}</p>

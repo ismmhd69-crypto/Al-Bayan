@@ -110,6 +110,7 @@ it("an omitted footer does not stop a late independent rejection from withdrawin
     const p = JSON.parse(req.prompt);
     if (p.stage !== "narrow_meaning_review_v1") return strictAudit(req.prompt);
     return { claims: Object.fromEntries(p.claims.map((c: any, i: number) => [c.claim_id, {
+      finding: { category: "missing_qualification", claim_quote: c.text, source_id: c.originals[0].source_id, source_quote: c.originals[0].arabic.slice(0, 900) },
       verdict: p.claims.length > 3 && i === 0 ? "no" : "yes", explanation: p.claims.length > 3 && i === 0 ? "An original condition was lost." : "",
     }])) };
   };

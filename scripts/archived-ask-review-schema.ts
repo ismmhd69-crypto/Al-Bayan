@@ -1,4 +1,5 @@
 import type { JsonSchema } from "../lib/ai/types";
+import { findingSchema } from "../lib/ask/review-findings";
 
 /** Historical replay may accept only this deliberate contract upgrade. Never
  * mutate archived requests or relax source/coverage/other schema comparisons. */
@@ -14,5 +15,13 @@ export function archivedReviewSchemaMatches(current: JsonSchema, archived: JsonS
     || JSON.stringify(current.properties.attribution_checks) !== JSON.stringify(newAttribution)) return false;
   const comparison = structuredClone(current);
   comparison.properties.attribution_checks = oldAttribution;
+  // Versioned negative receipts are a deliberate upgrade, not evidence that an
+  // archived call used the new contract. Preserve all other exact comparisons.
+  const assessments = comparison.properties.claim_assessments;
+  if (assessments?.type === "array" && assessments.items.type === "object") {
+    if (JSON.stringify(assessments.items.properties.finding) !== JSON.stringify(findingSchema)) return false;
+    delete assessments.items.properties.finding;
+    assessments.items.required = assessments.items.required.filter(k => k !== "finding");
+  }
   return JSON.stringify(comparison) === JSON.stringify(archived);
 }

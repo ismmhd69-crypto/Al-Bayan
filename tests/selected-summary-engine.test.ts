@@ -96,7 +96,7 @@ it("still withdraws an earlier claim rejected by the independent final meaning c
     const p = JSON.parse(req.prompt);
     if (p.stage === "narrow_meaning_review_v1") {
       const final = p.claims.length > 3; finalMeaningSeen ||= final;
-      return { claims: Object.fromEntries(p.claims.map((c: any, i: number) => [c.claim_id, { verdict: final && i === 0 ? "no" : "yes", explanation: final && i === 0 ? "A material original restriction was missed." : "" }])) };
+      return { claims: Object.fromEntries(p.claims.map((c: any, i: number) => [c.claim_id, { finding: { category: "source_support", claim_quote: c.text, source_id: c.originals[0].source_id, source_quote: c.originals[0].arabic.slice(0, 900) }, verdict: final && i === 0 ? "no" : "yes", explanation: final && i === 0 ? "A material original restriction was missed." : "" }])) };
     }
     return review(req);
   };

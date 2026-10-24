@@ -28,7 +28,7 @@ it.each([false, true])("a text-only correction remains subject to its own indepe
     const input = JSON.parse(req.prompt);
     if (input.stage === "narrow_meaning_review_v1") return { claims: Object.fromEntries(input.claims.map((c: any) => {
       if (c.text === replacement) { reviewedReplacement = true; expect(c.originals.map((p: any) => p.source_id)).toEqual(["HE9001"]); }
-      return [c.claim_id, { verdict: drift && c.text === replacement ? "no" : "yes", explanation: drift && c.text === replacement ? "Its own original does not establish this asserted promise." : "" }];
+      return [c.claim_id, { finding: { category: "source_support", claim_quote: c.text, source_id: c.originals[0].source_id, source_quote: c.originals[0].arabic.slice(0, 900) }, verdict: drift && c.text === replacement ? "no" : "yes", explanation: drift && c.text === replacement ? "Its own original does not establish this asserted promise." : "" }];
     })) };
     // Deliberately overconfident primary review, like the recorded failure.
     return audit(req.prompt);

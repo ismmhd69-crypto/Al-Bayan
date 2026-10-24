@@ -62,7 +62,7 @@ it.each([false, true])("uses the experimental contract in the actual engine with
     expect(input.claims?.every((c: any) => !Object.hasOwn(c, "grounding"))).not.toBe(false);
     if (input.stage === "narrow_meaning_review_v1") return { claims: Object.fromEntries(input.claims.map((c: any) => {
       if (c.text.includes(unsafe)) independentlyReviewedUnsafe = true;
-      return [c.claim_id, { verdict: c.text.includes(unsafe) ? "no" : "yes", explanation: c.text.includes(unsafe) ? "The original does not establish this universal promise." : "" }];
+      return [c.claim_id, { finding: { category: "source_support", claim_quote: c.text, source_id: c.originals[0].source_id, source_quote: c.originals[0].arabic.slice(0, 900) }, verdict: c.text.includes(unsafe) ? "no" : "yes", explanation: c.text.includes(unsafe) ? "The original does not establish this universal promise." : "" }];
     })) };
     return audit(req.prompt);
   };

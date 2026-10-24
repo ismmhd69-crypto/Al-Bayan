@@ -801,6 +801,46 @@ On 22 October 2026:
 
 **Accepted:** my source-based review and more precise error categories, not external scholarly certification, release/Mo acceptance or goal completion. Current models retained. Next implementation should distinguish clear unsupported assertions, incomplete advice and interpretation/context needs while preserving relevant evidence and qualifications.
 
+## 68. Current-model meaning and answer-quality repair (24 October)
+
+**Implemented:** approved plan applied to the active rich writer/checker: shared meaning rules, exact negative-finding receipts, separate support/qualification/context/coverage/checker-failure outcomes, bounded correction feedback and retention of earlier checked sections without a grounded finding against them. Source-identified approved context is transported without admitting unnamed commentary or newly discovered pages. Technical interruptions have separate Arabic/English/German copy. A 21-case v3 Arabic component bank preserves historical labels and requests separately. [Implementation, limits and verification](ask-meaning-quality-repair-2026-10-24.md).
+
+**Offline verified:** 1,783 tests across 169 files passed; TypeScript passed. Coverage includes Arabic receipts, unrelated/invented source rejection, approved-context identity, malformed-checker preservation, real negative withdrawal, correction bounds, empty groups, single-group completion, stream order and translated presentation. Scripted positives/negatives verify behavior, not model judgment. Original bank and spending-journal hashes remain unchanged; preparation is reproducible with no paid calls.
+
+**Live verified:** not tested for this repair. No new model comparison, full visitor answer, measured accuracy gain, time saving or spend claim. Further paid tests require a fixed approved sample and limit. Current models, privacy, approved sources, patient-worker gates and unresolved spending reservation remain unchanged.
+
+**Accepted:** pending actual-answer source-faithfulness review and Mo's acceptance. No deployment, durable storage activation or goal completion. Context plumbing cannot supply an absent approved explanation, and receipt validation cannot prove semantic correctness.
+
+## 69. Approved fixed-sample online test; stop after the first source-review failure (24 October)
+
+**Implemented:** evaluation runner only, for the explicitly approved R03/F13 Arabic sample within the existing remaining allowance. Reserves each dispatch, checks live provider price ceilings, retains current models/privacy, verifies ledger ancestry, skips prepared reuse and requires manual review before F13. No answer-system edit during this evaluation. [Full result and limits](ask-meaning-quality-live-report-2026-10-24.md).
+
+**Offline verified:** runner dry-run made no model calls; TypeScript passed; 23 focused spending/meaning-contract tests passed before dispatch. Existing answer repair's 1,783-test full-suite result remains recorded separately.
+
+**Live verified:** R03 technically completed with Quran, scholarship and final summary. Hadith search failed. First checked output 82.177 seconds; total 123.674 seconds; 16 model dispatches, one configured backup, zero writer corrections; 213,431 input and 25,869 completion tokens. Actual cost $0.0936866; remaining allowance $0.1249730525. All charges settled and fifteen prior ledger hashes verified unchanged. F13 is **not tested**, stopped after review; the remaining funds also cannot cover the measured final-check reservation alone.
+
+**Accepted:** failed source-faithfulness acceptance. Nine displayed claims reviewed: five supported, two supported cores with practical qualification gaps, one Quran claim broader than its own citations and one obligation-strength wording not independently verified. The wider norm has scholarly support elsewhere; this is not a finding that it is false doctrine. Incorrect positive checking survived the new rejection-receipt safeguards. No general accuracy estimate, speed target, scholarly certification, release or Mo acceptance established. New ledger stopped; no automatic repeat or further paid calls.
+
+## 70. Offline source-boundary and explicit-condition repair (24 October)
+
+**Implemented:** after Mo approved the two offline fixes, source-writing input is limited to permitted originals with their exact attached context; unchecked sibling drafts and generated planning prose are removed. Narrow preflight checks flag recognisable unaccounted action conditions and uncited alternatives in conditional-refusal instructions before a positive model vote can approve them. Existing bounded, identity-locked corrections and full checking remain; no new retry loop, experimental feature activation or question/source-specific rule. [Repair evidence and limits](ask-source-boundary-offline-repair-2026-10-24.md).
+
+**Offline verified:** saved nine-claim R03 replay flags exactly the Quran scope expansion and the two missing financial-condition occurrences. Eleven faithful-labelled bank controls remain unflagged. Unfamiliar-topic and paraphrase controls, all-positive fake checkers, ignored corrections, successful single corrections and preservation of earlier checked sections are covered. All 1,804 tests across 170 files, TypeScript and whitespace checks passed. Saved Quran writer input goes from ten originals to seven permitted originals, retaining their exact context; characters 19,787 to 16,965, not a measured cost or speed result.
+
+**Live verified:** no new paid call or full live answer. The old failed attempt and stopped ledger remain unchanged; no retrospective acceptance from replay. Sixteen settled calls and $0.0936866 are the previous test's spending, not new spending. No deployment or storage change.
+
+**Accepted:** pending actual-answer source-faithfulness review and Mo's acceptance. These lexical/grammatical review gates are deliberately narrow, can miss other wording and can request correction for ambiguity. They are not general entailment proof; shared batch-source writing, semantic reliability, source retrieval failures and live timing remain open. No goal completion or release acceptance.
+
+## 71. One approved source-boundary live retest; wording variant still fails review (24 October)
+
+**Implemented:** evaluation runner only for one Arabic R03 retest, after Mo explicitly allowed at most $0.25 more. Old remainder, all charges and unresolved exposure retained. Same models/privacy and conservative reservations; live provider price ceilings checked. No answer-system edit during testing/review. [Full source-based result](ask-source-boundary-live-retest-2026-10-24.md).
+
+**Offline verified:** runner dry-run made no calls; TypeScript and 32 focused spending/boundary tests passed before dispatch. The actual new defective wording was replayed offline after completion and produced no boundary finding, confirming the narrow gate's miss. No wording-specific patch was added during evaluation.
+
+**Live verified:** technical full answer with Quran, scholarship and summary; hadith source search failed. First checked output 79.591 seconds, total 109.110 seconds. Sixteen dispatches, one configured backup, zero writer corrections; 182,652 input and 19,039 completion tokens. Cost $0.074958575; remaining evaluation allowance $0.3000144775. All charges settled; sixteen ledger ancestors verified unchanged. The Quran writer really received only five Quran originals. Descriptive time/cost reductions are not controlled accuracy or performance proof.
+
+**Accepted:** failed source-faithfulness acceptance. Seven displayed claims reviewed: five supported, one Quran claim broader than its own citations and one assistance qualification/strength concern. The final summary's wider norm has a scholarly citation; the Quran sentence does not. No finding that the wider norm is false doctrine. The old financial-need claim was not reproduced because that source was not selected, so its live repair remains unverified. The new wording bypassed the narrow guard and both checker stages. New ledger stopped; approved one-attempt scope finished. No release, certification, goal completion, automatic repeat or additional paid test.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

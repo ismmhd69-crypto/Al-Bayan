@@ -6,6 +6,9 @@ import { independentSourceWritingInput } from "./source-writing-input";
 import { parseDraft, sourceKindMismatch, hasRulingTerm, sourceCopyMatch, type Claim, type SourceText } from "./checks";
 import { parseClaimAudit } from "./checks";
 import { meaningReviewRequest, parseMeaningReview } from "./meaning-review";
+import { validNegativeFindings, reviewFailureCategory, MEANING_RULES } from "./review-findings";
+import { checkSourceBoundaries } from "./source-boundary-guards";
+import { sourceWritingBoundary } from "./source-writing-boundary";
 import { textOnlyPatchSchema, applyTextOnlyPatch, sourceSupportTextPatch, type TextOnlyPatch } from "./text-only-patch";
 import { richWritingClaimsSchema, richWritingOutputAllowance } from "./rich-writing-schema";
 import { richReviewRequest, normalizeRichReview } from "./rich-review-request";
@@ -144,7 +147,7 @@ export async function runRichAnswer(pack: EvidencePackage, language: Locale, dep
   const diagnostic = (stage: "draft" | "screening", code: string, extra?: object) => deps.onDiagnostic?.(stage, `rich_${code}`, Date.now() - started, extra);
   const callbacks: RichCallbacks = deps.rich ?? {};
   const emitted: RichSection[] = [];
-  const serialized = sealedPackageJson(pack, language, false, true); // originals always retained
+  const serialized = sealedPackageJson(pack, language, false, true, true); // originals always retained
   const scholarIdentities = pack.passages.flatMap(p => p.source.kind === "scholar"
     ? [{ id: p.id, scholarId: p.source.quote.scholarId, name: p.source.quote.scholarName[language] }] : []);
   // Display-only lookup runs alongside writing; candidates never enter sealed evidence.
@@ -169,6 +172,7 @@ export async function runRichAnswer(pack: EvidencePackage, language: Locale, dep
           ? { status: "not_checked" as const } : translations.get(p.id) ?? { status: "unavailable" as const } } : {}) })) };
   };
   const emit = (section: RichSection) => { signal.throwIfAborted(); if (!validRichSection(section, language)) throw new Error("invalid_rich_section"); emitted.push(section); callbacks.onSection?.(section); };
+  let failureKind: ReturnType<typeof reviewFailureCategory> = "question_coverage";
   const fail = (withdraw: boolean): RichTerminal => {
     if (withdraw) callbacks.onWithdraw?.();
     // Keep source failures distinct from an explanation that could not be checked. Summary is
@@ -176,7 +180,7 @@ export async function runRichAnswer(pack: EvidencePackage, language: Locale, dep
     else if (!signal.aborted) for (const group of ["quran", "hadith", "scholar"] as const) {
       if (emitted.length === RICH_ORDER.indexOf(group)) emit(wrap(group, [], pack.passages.some(p => p.source.kind === group) && !intentionalOmissions.has(group) ? "failed_check" : undefined));
     }
-    return { status: "incomplete", language, withdraw, sections: withdraw ? [] : emitted };
+    return { status: "incomplete", language, withdraw, sections: withdraw ? [] : emitted, failureKind };
   };
   const system = `You write short explanations for Bayan in ${names[language]}. Use only the sealed originals and supported points. Search plans are not evidence. Explain naturally in connected prose, one fact per cited sentence, without copying or quoting source wording. Do not infer causes, broaden audiences or discard conditions. Do not add universal or exclusive words such as always, every, only, all circumstances, دائمًا, جميع الأحوال, حصرا or تنحصر unless that exact scope follows from the cited originals. A source about a specific activity or audience can explain that example, not establish an unrestricted general rule. Each sentence needs text, source_ids and requirement_id. Put citations only in source_ids and the requirement only in requirement_id. Never append bracketed IDs, requirement labels or citation markup inside text. At most 300 characters per sentence, 8 sentences per source group and 4 in the final summary. Use only the length needed to answer the actual concern. Combine complementary sources for the same point in one supported sentence rather than repeating it. Use the selected sources needed to explain each concern and its qualifications. Selection does not require mentioning redundant sources. Preserve all explicitly necessary contribution units. Quran/hadith sections describe their texts without issuing independent rulings. Commands and prohibitions explicitly present in a text can be described with clear attribution such as The Quran states or The Prophet taught; preserve that text's audience and conditions. Explain each source's distinct contribution, not multiple synonyms of one point. Each source sentence should focus on its assigned concern. Do not repeat a limit, condition, or teaching in multiple sentences merely to attach different requirement IDs. One sentence can cover a point supported by complementary originals; another should add a genuinely different contribution. If two drafted sentences repeat the same rule, merge them without dropping a necessary condition. The summary gives one or two direct sentences connecting the evidence to the reader\u0027s actual concern; do not write one recap sentence per source or section. Reuse citations when needed, but do not repeat their explanations. Practical details require explicit support; never turn an illustration into a universal rule. General commands and prohibitions explicitly established by Quran or authentic hadith may be explained with their attribution and conditions. Never derive a new ruling or decide a personal case; disputed interpretations need named scholarly support. Attribute scholarly views by name. Preserve differences; never choose strongest by counting. The prompt specifies sections_to_write and citable_source_ids_by_section. Write only those sections. Evidence from other sections is context, not a requirement to rewrite or approve those other sections. A problem in an unrequested section is not grounds to decline your own supported explanation. A section with no selected sources must be an empty array. A source group may also be empty when it would add no useful supported explanation to the other drafted sections. Do not fill a source-group quota or repeat a teaching merely because sources were selected. Empty source groups cannot establish missing coverage; the final answer still needs every concern and necessary qualification. When status=no_answer, provide empty arrays for every requested section and no_answer_feedback identifying the affected sections, fixed reason codes and missing requirement IDs; never silently omit the arrays. When status=answer, no_answer_feedback must be empty. The final summary answers the actual question using all applicable conditions; do not introduce new claims. Cite only originals actually explained in source_explanations_already_drafted or your own source explanations in this response, never a selected source you skipped. Return status no_answer if a faithful explanation cannot be produced.`;
   const draftedSources: Partial<Record<RichGroup, Claim[]>> = {};
@@ -200,10 +204,12 @@ export async function runRichAnswer(pack: EvidencePackage, language: Locale, dep
     let raw: unknown;
     let writingRequest: JsonRequest | undefined;
     const prepareWriting = (request: JsonRequest) => {
+      request = { ...request, system: request.system + "\n" + MEANING_RULES + "\nWriter task: preserve necessary qualifications in the explanation. Review-output instructions above apply only to checking, not your JSON shape. Approved context is restrictive context, not a replacement citation. Cite a selected scholarly explanation explicitly when relying on its additional meaning; never present it as Quran or hadith wording. Missing interpretive context does not license an unqualified promise or new ruling." };
       const labels = scholarAttributionNames(scholarIdentities.filter(s => Object.values(allowedByGroup).some(ids => ids.includes(s.id))), language);
       const withNames = labels.length ? { ...request, prompt: JSON.stringify({ ...JSON.parse(request.prompt), scholar_attribution_names: labels }),
         system: request.system + "\nFor a scholar-source explanation, name each cited author using scholar_attribution_names in the answer language. Multiple excerpts by the same author do not establish multiple scholars or consensus. Names are source identity metadata, not support for a religious assertion. Preserve every original, condition and later check." } : request;
-      const input = deps.independentSourceWriting ? independentSourceWritingInput(withNames) : withNames;
+      const bounded = sourceWritingBoundary(withNames);
+      const input = deps.independentSourceWriting ? independentSourceWritingInput(bounded) : bounded;
       writingRequest = deps.groundedSourceWriting ? groundedWritingRequest(input) : input;
       return writingRequest;
     };
@@ -222,6 +228,7 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
         group: { type: "string", enum: groups }, reason: { type: "string", enum: ["missing_evidence", "cannot_paraphrase", "unsafe_context", "incomplete_conditions"] }, missing_requirement_ids: { type: "array", items: { type: "string", enum: pack.question.requirements.map(r => r.id) } },
       }, required: ["group", "reason", "missing_requirement_ids"] } } }, required: ["status", "no_answer_feedback", ...groups] } })), writeSignal);
     } catch {
+      failureKind = "checker_failure";
       const reason = writeSignal.aborted ? "writer_timeout" : "writer_failed";
       diagnostic("draft", reason);
       for (const group of groups) writerFailures.set(group, { reasons: [reason], draft: null });
@@ -442,10 +449,17 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
       else translations.set(t.source_id, { status: checks.length ? "rejected" : "not_checked" });
     }
     const audit = parseClaimAudit(raw, items, reason => diagnostic("screening", reason));
+    if (audit && !validNegativeFindings(r.claim_assessments, items, serialized)) {
+      diagnostic("screening", "negative_finding_invalid");
+      return { ok: false, withdraw: false, reasons: ["checker_failed", "negative_finding_invalid"], safeClaimIds: [] };
+    }
     // An invalid checker contract is neither approval of new drafts nor evidence
     // against an earlier independent check. Do not salvage any new claim or spend
     // a semantic correction on this transport/format failure.
     if (!audit) return { ok: false, withdraw: false, reasons: ["checker_failed", "audit_invalid"], safeClaimIds: [] };
+    if (attribution.some(a => a.verdict !== "yes" && !audit.failures.some(f => f.claim_id === a.claim_id))) {
+      return { ok: false, withdraw: false, reasons: ["checker_failed", "attribution_finding_invalid"], safeClaimIds: [] };
+    }
     const binding = checkCitationBindings(raw, items, pack.passages.map(sourceText));
     for (const reason of binding.reasons) diagnostic("screening", reason);
     const consequence = checkConsequences(raw, items, pack.passages.map(sourceText));
@@ -481,6 +495,9 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
       ...(!attributionOk ? ["source_attribution"] : []), ...(!coverage ? [...coverageReasons, "surviving_coverage_missing"] : []),
       ...(!nonrepetitive ? ["repetition"] : []), ...(!usefulness ? ["explanation_not_useful"] : []), ...(!guideOk ? ["guidance_unsafe_or_generic"] : []), ...(!personalOk ? ["personal_application_not_safe"] : []), ...(!summaryExplained ? ["summary_without_explanation"] : []), ...(!checklistOk ? ["question_checklist_incomplete"] : []), ...(["all_claims_consistent", ...(full ? ["complete_coverage", "listed_items_complete", "direct_summary", "earlier_section_safe"] : [])].filter(k => r?.[k] !== "yes"))])];
     reasons.push(...contributionReasons.filter(code => !reasons.includes(code)));
+    for (const row of r.claim_assessments as { claim_id: string; finding?: { category: string } }[]) {
+      if (audit.failures.some(f => f.claim_id === row.claim_id) && row.finding) reasons.push(row.finding.category);
+    }
     for (const code of reasons) diagnostic("screening", code);
     const summaryIds = full ? identified.slice(items.length - summaryCount).map(c => c.claim_id) : [];
     const contributionSafe = new Set(Array.isArray(r?.contribution_map) && !contributionReasons.includes("contribution_map_invalid")
@@ -490,18 +507,27 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
       !audit.failures.some(f => f.claim_id === c.claim_id) && attribution?.filter(a => a.claim_id === c.claim_id).length === 1
       && attribution.find(a => a.claim_id === c.claim_id)?.verdict === "yes").map(c => c.claim_id) : [];
     const feedback = correctionFeedback(raw, items, full ? summaryCount : 0);
+    for (const failure of feedback.support_failures) {
+      const row = (r.claim_assessments as { claim_id: string; finding?: unknown }[]).find(c => c.claim_id === failure.claim_id);
+      if (row?.finding) Object.assign(failure, { finding: row.finding });
+    }
     Object.assign(feedback, { citation_failures: binding.failures });
     feedback.support_failures.push(...binding.failures.map(f => ({ claim_id: f.claim_id, explanation: JSON.stringify(f) })));
     feedback.support_failures.push(...consequence.blocked.map(id => ({ claim_id: id, explanation: "The cited original does not explicitly establish the asserted legal-validity consequence. Remove that consequence; preserve only the supported meaning and its qualifications." })));
-    const mustWithdraw = (full || sourceStage) && (r.earlier_section_safe !== "yes" || !audit
-      || !contributionReasons.includes("contribution_map_invalid") && identified.slice(0, emitted.flatMap(s => s.claims).length).some(c => !contributionSafe.has(c.claim_id))
-      || [...binding.blocked, ...consequence.blocked, ...audit.failures.map(f => f.claim_id)].some(id => Number(id.slice(1)) <= emitted.flatMap(s => s.claims).length));
+    const earlierUnsafe = [...binding.blocked, ...consequence.blocked, ...audit.failures.map(f => f.claim_id)]
+      .some(id => Number(id.slice(1)) <= emitted.flatMap(s => s.claims).length);
+    // A blanket later verdict or editorial complaint is not new evidence that
+    // an independently checked earlier sentence has become unsafe.
+    if ((full || sourceStage) && r.earlier_section_safe !== "yes" && !earlierUnsafe) {
+      return { ok: false, withdraw: false, reasons: ["checker_failed", "earlier_safety_finding_invalid"], safeClaimIds: [] };
+    }
+    const mustWithdraw = (full || sourceStage) && earlierUnsafe;
     const meaningCandidates = identified.filter(c => supported || safeClaimIds.includes(c.claim_id));
     if (deps.meaningReview && meaningCandidates.length) {
       // Even when one claim fails the primary audit, every surviving claim that
       // might be displayed still needs the independent meaning check.
       const candidateItems = meaningCandidates.map(c => items[Number(c.claim_id.slice(1)) - 1]);
-      const local = parseMeaningReview(await abortable(deps.verifier.generateJson(meaningReviewRequest(candidateItems, serialized, signal)), signal), candidateItems);
+      const local = parseMeaningReview(await abortable(deps.verifier.generateJson(meaningReviewRequest(candidateItems, serialized, signal)), signal), candidateItems, serialized);
       const second = local && { safeIds: local.safeIds.map(id => meaningCandidates[Number(id.slice(1)) - 1].claim_id),
         failures: local.failures.map(f => ({ ...f, claim_id: meaningCandidates[Number(f.claim_id.slice(1)) - 1].claim_id })) };
       if (!second) return { ok: false, withdraw: mustWithdraw, reasons: ["checker_failed", "meaning_review_invalid"], safeClaimIds: [] };
@@ -509,7 +535,7 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
         diagnostic("screening", "meaning_review_rejected", { count: second.failures.length, claim_ids: second.failures.map(f => f.claim_id) });
         feedback.support_failures.push(...second.failures);
         const earlierIds = new Set(items.slice(0, emitted.flatMap(s => s.claims).length).map((_, i) => `C${i + 1}`));
-        return { ok: false, supported: false, nonrepetitive, reasons: ["unsupported_meaning"], feedback,
+        return { ok: false, supported: false, nonrepetitive, reasons: [...new Set(second.failures.map(f => f.category ?? "source_support"))], feedback,
           safeClaimIds: safeClaimIds.filter(id => second.safeIds.includes(id)),
           withdraw: mustWithdraw || (full || sourceStage) && second.failures.some(f => earlierIds.has(f.claim_id)) };
       }
@@ -519,7 +545,19 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
   };
   const verify = async (items: Claim[], full: boolean, summaryCount = 0, sourceStage = false) => {
     try {
+      // Cheap negative-only gates run before model dispatch. A positive model
+      // vote cannot override them. They never approve unaffected siblings.
+      const boundaries = checkSourceBoundaries(items, pack.passages.map(sourceText));
+      if (boundaries.blocked.length) {
+        failureKind = boundaries.reasons.includes("explicit_condition_unaccounted") ? "missing_qualification" : "source_support";
+        for (const code of boundaries.reasons) diagnostic("screening", code, { claim_ids: boundaries.blocked });
+        const feedback = correctionFeedback({}, items, full ? summaryCount : 0);
+        feedback.support_failures.push(...boundaries.failures);
+        return { ok: false, supported: false, withdraw: (full || sourceStage) && boundaries.blocked.some(id => Number(id.slice(1)) <= emitted.flatMap(s => s.claims).length),
+          reasons: boundaries.reasons, feedback, safeClaimIds: [] };
+      }
       const verdict = await verifyOnce(items, full, summaryCount, sourceStage);
+      if (!verdict.ok) { failureKind = reviewFailureCategory(verdict.reasons ?? []); diagnostic("screening", failureKind); }
       const referents = checkCaseReferents(items, pack.passages.map(sourceText));
       const named = checkScholarAttributions(items.slice(0, full ? items.length - summaryCount : items.length), scholarIdentities, language);
       const blocked = [...new Set([...referents.blocked, ...named.blocked])];
@@ -533,6 +571,7 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
         withdraw: verdict.withdraw || (full || sourceStage) && blocked.some(id => Number(id.slice(1)) <= emitted.flatMap(s => s.claims).length) };
     }
     catch {
+      failureKind = "checker_failure";
       diagnostic("screening", signal.aborted ? "checker_aborted" : "checker_failed");
       // A checker outage is not evidence against an earlier independently checked section.
       return { ok: false, withdraw: false, reasons: ["checker_failed"] };
@@ -763,7 +802,7 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
       // The displayed answer and the material sent to synthesis must agree.
       // A late negative finding cannot silently remove an already shown claim
       // from the final checker while leaving it visible in the answer.
-      if (!safe && emitted.some(s => s.group === group && s.claims.length)) return fail(true);
+      if (!safe && emitted.some(s => s.group === group && s.claims.length)) return fail(false);
       const surviving = safe ? claims : [];
       draftedSources[group] = surviving;
       checked.set(group, surviving);
@@ -787,7 +826,7 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
         const request = selectedSummaryRequest(summarySnapshot, selectionSignal, reasons);
         if (reasons.length && writerFailures.get("summary")?.reasons.includes("writer_response_unreadable")) request.malformedResponseRetry = true;
         const raw = await abortable(deps.writer.generateJson(request), selectionSignal);
-        const resolved = resolveSelectedSummary(raw, summarySnapshot, checkedItems, sealedPackageJson(pack, language, false, true));
+        const resolved = resolveSelectedSummary(raw, summarySnapshot, checkedItems, sealedPackageJson(pack, language, false, true, true));
         if (!resolved.claims) {
           summarySourceChanged = resolved.error === "summary_source_snapshot_changed";
           writerFailures.set("summary", { reasons: [raw == null ? "writer_response_unreadable" : resolved.error], draft: null });
@@ -828,6 +867,6 @@ When writing summary, next_step: {text, kind, refs} is OPTIONAL. Omit the proper
     emit(wrap("summary", synthesis.summary));
     const answer = { version: 4, language, review: "automatic", sections: emitted, complete: true, ...(guidance ? { guide: guidance } : {}) } as const;
     return validRichAnswer(answer) ? { status: "rich_answer", answer } : fail(true);
-  } catch { return fail(false); }
+  } catch { failureKind = "checker_failure"; return fail(false); }
   finally { pending.abort(); }
 }

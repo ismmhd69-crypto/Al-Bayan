@@ -394,6 +394,8 @@ export function rankCandidatesForQuestion(
 
 export type SourceContribution = { role: "direct" | "background" | "limited_example"; scope: "general" | "case_specific"; conditions: string[] };
 export type SelectedPassage = PassageForSelection & {
+  // Internal, explicit source links only; selection model output cannot populate this.
+  explanationSourceIds?: string[];
   requirementIds: string[]; // Direct contributions only; context never establishes coverage.
   explanationRequirementIds?: string[];
   facets: AnswerFacet[]; contribution?: SourceContribution;

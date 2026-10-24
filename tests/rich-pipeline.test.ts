@@ -126,8 +126,14 @@ describe("rich path through real framing, parallel retrieval and selection", () 
     deps.writer.generateJson = async req => {
       if (req.system.startsWith("You create a safe search plan")) return write(req);
       const input = JSON.parse(req.prompt), result = await write(req) as Record<string, unknown>;
-      expect(input.evidence_package.passages.map((p: { id: string }) => p.id)).toEqual(["Q2:183", "HE9001"]);
-      expect(input.evidence_package.contribution_plan).toMatchObject({ planning_only: true, cannot_establish_support: true });
+      if (input.sections_to_write.includes("summary")) {
+        expect(input.evidence_package.passages.map((p: { id: string }) => p.id)).toEqual(["Q2:183", "HE9001"]);
+        expect(input.evidence_package.contribution_plan).toMatchObject({ planning_only: true, cannot_establish_support: true });
+      } else {
+        const permitted = new Set(input.sections_to_write.flatMap((g: string) => input.citable_source_ids_by_section[g]));
+        expect(input.evidence_package.passages.map((p: { id: string }) => p.id)).toEqual(["Q2:183", "HE9001"].filter(id => permitted.has(id)));
+        expect(input.evidence_package).not.toHaveProperty("contribution_plan");
+      }
       if (input.sections_to_write.includes("scholar")) result.scholar = [];
       if (input.sections_to_write.includes("summary")) result.summary = [{ ...drafts.summary[0], source_ids: ["Q2:183", "HE9001"] }];
       return result;

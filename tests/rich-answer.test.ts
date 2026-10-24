@@ -145,7 +145,7 @@ describe("checked rich explanations", () => {
     expect((await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {})).status).toBe("rich_answer");
     expect(corrections).toBe(0);
   });
-  it("withholds a duplicated source section despite positive overall repetition and support flags", async () => {
+  it("refuses a duplicated final answer while retaining previously checked source sections", async () => {
     const deps = dependencies(), verify = deps.verifier.generateJson;
     deps.verifier.generateJson = async req => {
       const result = await verify(req) as ReturnType<typeof audit>;
@@ -157,7 +157,8 @@ describe("checked rich explanations", () => {
     };
     const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {});
     expect(result.status).toBe("incomplete");
-    expect(result).toMatchObject({ status: "incomplete", withdraw: true, sections: [] });
+    expect(result).toMatchObject({ status: "incomplete", withdraw: false });
+    if (result.status === "incomplete") expect(result.sections?.filter(s => s.claims.length)).toHaveLength(3);
   });
   it("repairs a failed first explanation and invalid scholar sibling together before synthesis", async () => {
     const deps = dependencies(), write = deps.writer.generateJson, verify = deps.verifier.generateJson;

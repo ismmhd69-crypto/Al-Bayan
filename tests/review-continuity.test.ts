@@ -21,12 +21,13 @@ it("names the exact unavailable verse in correction feedback without accepting t
   expect(result.status).toBe("rich_answer"); expect(repaired).toBe(true);
 });
 
-it("gives the later source writer actual first-section citations while first-section checking runs", async () => {
+it("starts the later source writer during first-section checking without leaking an unchecked sibling draft", async () => {
   const deps = dependencies(), writer = deps.writer.generateJson; let restStarted = false;
   deps.writer.generateJson = async req => {
     const input = JSON.parse(req.prompt);
     if (input.sections_to_write.includes("hadith")) {
-      expect(input.source_explanations_already_drafted.quran).toEqual([expect.objectContaining({ source_ids: ["Q2:183"] })]);
+      expect(input).not.toHaveProperty("source_explanations_already_drafted");
+      expect(input.evidence_package.passages.every((p: { type: string }) => p.type !== "quran")).toBe(true);
       restStarted = true;
     }
     return writer(req);

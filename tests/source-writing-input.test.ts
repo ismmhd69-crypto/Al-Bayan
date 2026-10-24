@@ -19,7 +19,7 @@ it("removes only sibling draft history and selector scope from source-writing in
   for (const groups of [["summary"], ["hadith", "summary"]]) expect(independentSourceWritingInput({ ...request, prompt: JSON.stringify({ ...input, sections_to_write: groups }) }).prompt).toBe(JSON.stringify({ ...input, sections_to_write: groups }));
 });
 
-it("uses input isolation in the real engine but retains originals, final audits and failure withdrawal", async () => {
+it("uses input isolation in the real engine but retains originals and final audits without withdrawing on an ungrounded blanket verdict", async () => {
   const deps = dependencies(), writer = deps.writer.generateJson; let sourceRequests = 0, finalRequests = 0;
   deps.independentSourceWriting = true;
   deps.writer.generateJson = async req => {
@@ -39,5 +39,5 @@ it("uses input isolation in the real engine but retains originals, final audits 
   };
   const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {});
   expect(sourceRequests).toBeGreaterThan(0); expect(finalRequests).toBeGreaterThan(0);
-  expect(result).toMatchObject({ status: "incomplete", withdraw: true });
+  expect(result).toMatchObject({ status: "incomplete", withdraw: false, failureKind: "checker_failure" });
 });
