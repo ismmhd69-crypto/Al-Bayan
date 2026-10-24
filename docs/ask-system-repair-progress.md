@@ -591,6 +591,18 @@ On 22 October 2026:
 
 **Accepted:** mechanical package evidence only, not useful complete-answer accuracy, religious certification, release, Mo acceptance or goal completion. Same normal full-verification budget barrier has persisted across the preceding three goal turns; every bounded component is now reviewed and no further paid run is queued. Completion audit identifies missing full source-faithful answer evidence. Current models/privacy/source boundaries unchanged; no deployment, storage activation, commit or push.
 
+## 50. Extra-quarter worship retest technically completes; meanings supported, answer still indirect and slow (24 October)
+
+**Implemented:** explicit new $0.25 authorization as a separate spending journal, retaining the exact prior journal/hash and all old exposure. One fresh current-model Arabic R01 attempt only. Its runner's missing parent-signal mismatch was found and fixed offline after the run, without repeating or relabelling the paid result. [Independent review, timings and method limits](ask-worship-full-retest-2026-10-24.md).
+
+**Offline verified:** 26 focused tests in four files and TypeScript passed for authorization, guards/storage and partial-query behaviour. Previous full-suite 1,611/153 remains separate. No model or safety/price/output limit changed.
+
+**Live verified:** final pipeline status rich_answer. Two distinct source explanations are supported in meaning by their own Arabic excerpts, but Arabic is weak, the main divine-self-sufficiency concern is only indirectly addressed, and the summary repeats both sentences. Some hadith source requests failed; surviving candidates were not selected. No browser/UI/persistence verification; the direct runner's missing signal limited exact website-equivalence. Case-reference regression was not exercised. One bounded source merge correction; all final checks ran. No accuracy/release acceptance inferred from complete status.
+
+**Performance/spending:** first checked 105.228 s, total 112.687 s; 74.96% slower than the original 60.145 s baseline, so 30% target missed. 19 logical requests / 21 settled generations, including two backup calls after truncated ranking outputs. 149,782 input plus 21,392 completion tokens. Cost $0.0676074625; remainder $0.24300384. Combined recorded exposure $2.1394399725. Six immutable campaign ancestors and the original unresolved reservation preserved, zero new uncertain charges, no process/lock or automatic repeat.
+
+**Accepted:** source-supported meanings in this one repeated case only. Review classification supported but incomplete: 1/1 technical completion, 0/1 useful complete answers; 49 other bank questions not tested in this retest. No clear verified full-answer reliability improvement, scholarly certification, release or Mo acceptance. Next priorities are direct concern coverage, bounded ranking output/truncation, source-failure handling and Arabic/summary quality. Current models/privacy/source boundaries unchanged; no deployment or storage activation.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
