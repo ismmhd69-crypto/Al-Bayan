@@ -1,5 +1,7 @@
 # Twelve Arabic source checks: neither checker earns activation or replacement
 
+**Subsequent source-context review:** [My full-source reassessment](ask-assistant-full-source-review-2026-10-24.md) distinguishes S03's literal text from its explanatory qualifications and S11's incomplete advice from a categorical false ruling. The original bank, decisions and costs below remain preserved. These counts are not certified religious accuracy. Clear primary false approvals and backup false rejections remain even without those nuanced cases.
+
 ## Plain-English result
 
 The current checker accepts faithful paraphrases but still lets several changed meanings through. Its configured backup blocks those statements, but also rejects faithful statements and sometimes gives reasons contradicted by the supplied source. Switching to the backup, or requiring both models to agree, is **not an accepted accuracy repair**.

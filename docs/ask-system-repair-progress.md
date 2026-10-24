@@ -789,6 +789,18 @@ On 22 October 2026:
 
 **Accepted:** completion remains unproved. Mark goal blocked pending direction on qualified source review or preparing a separate additional-checker proposal. Respect the current-model restriction; do not lower checks, hardcode questions or infer permission for further paid calls. No deployment, storage activation, silent pause or goal completion.
 
+## 67. Mo requests my own review; published sources refine both system and evaluator findings (24 October)
+
+**Implemented:** source-by-source assistant review, not outside-reviewer outreach or a model change. Reopened published Quran verses, the hadith page with its explanation, and official Ibn Baz pages. Reviewed all twelve statements and the previously disputed parents application. [Full findings and corrections to earlier framing](ask-assistant-full-source-review-2026-10-24.md).
+
+**Source verified:** clear conditional-scope, recipient and invented-cause/promise errors remain. Faithful provision/feeding and gratitude paraphrases were wrongly rejected. S03's literal narration needs explanatory context before treating it as an uncomplicated public-answer positive. S11 is incomplete practical advice, not automatically a false religious ruling. Official Ibn Baz explanations directly support the non-Muslim-parent application; newly found sources do not retroactively become the earlier answer's citations. Historical paid inputs, labels, outputs and journals remain unchanged with a linked reassessment.
+
+**Offline/live answer status:** no new model test, code acceptance or generated answer. No benchmark relabelling presented as a fresh accuracy gain. Existing full-suite evidence remains 1,767 tests; documentation review requires no extra test run. No website source import/approval or storage change.
+
+**Spending:** no new metered AI calls; evaluation journals and unresolved reservation unchanged. Only public source reading; no messages sent or paid comparison queued.
+
+**Accepted:** my source-based review and more precise error categories, not external scholarly certification, release/Mo acceptance or goal completion. Current models retained. Next implementation should distinguish clear unsupported assertions, incomplete advice and interpretation/context needs while preserving relevant evidence and qualifications.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
