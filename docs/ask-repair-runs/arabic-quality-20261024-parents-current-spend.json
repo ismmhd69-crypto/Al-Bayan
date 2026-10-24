@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "cap": 2.3824438125,
+  "priorExposure": 2.2161307724999997,
+  "originalLedgerHash": "fa92584ab52e6ec22a25d6a9c3c0c3412c5392cfbdefc747ebd5010ea85844b7",
+  "prices": {
+    "google/gemini-3.5-flash-lite": {
+      "prompt": 0.54,
+      "completion": 4.5,
+      "request": 0
+    },
+    "google/gemini-3.8-flash": {
+      "prompt": 1.35,
+      "completion": 6.75,
+      "request": 0
+    },
+    "google/gemini-3.1-flash-lite": {
+      "prompt": 0.44999999999999996,
+      "completion": 2.7,
+      "request": 0
+    },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "prompt": 0.09999999999999999,
+      "completion": 0.3,
+      "request": 0
+    }
+  },
+  "calls": [
+    {
+      "fingerprint": "22f722e911ca0e1c210c1519508d4c00d83ba26362594ef6175d441aff71b581",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0271386,
+      "at": "2026-10-24T11:44:44.778Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842285-vT03MJ197mb4lf7LZ9lA",
+      "promptTokens": 2781,
+      "completionTokens": 684,
+      "finishReason": "stop",
+      "cost": 0.0025443
+    },
+    {
+      "fingerprint": "5181d7b1843fe7e3dd7282951a92a46f6184f0ad78c5e1114b0b433b14b56cc7",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.046998,
+      "at": "2026-10-24T11:45:04.248Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842304-ffl7Faqj3JyKeEzcknqb",
+      "promptTokens": 10339,
+      "completionTokens": 1923,
+      "finishReason": "stop",
+      "cost": 0.00546925
+    },
+    {
+      "fingerprint": "dad60532890eb40c168849a28340b6880389325577f9fdc3fa47472eb2411862",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0470556,
+      "at": "2026-10-24T11:45:10.009Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842310-FQnXS4vQA31gZmcQ7c8E",
+      "promptTokens": 10351,
+      "completionTokens": 173,
+      "finishReason": "stop",
+      "cost": 0.00284725
+    },
+    {
+      "fingerprint": "150f292fe1cd5a065773f4c0982cb63703c7af410ce4398340d27c260570f3f2",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0573021,
+      "at": "2026-10-24T11:45:12.916Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842312-iF4sA5jdLIpNKnF0JJjF",
+      "promptTokens": 13058,
+      "completionTokens": 195,
+      "finishReason": "stop",
+      "cost": 0.003557
+    },
+    {
+      "fingerprint": "e558dc1a8ac1ab5c65500a443dc2a59b8367582ae69d6a105023d6f44f259e69",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0573597,
+      "at": "2026-10-24T11:45:14.291Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842314-MDJwLJtFXFDzE7V7JdrP",
+      "promptTokens": 13070,
+      "completionTokens": 1240,
+      "finishReason": "stop",
+      "cost": 0.0051275
+    },
+    {
+      "fingerprint": "a5c743b0b8316cfbafcd767c208d66ce6d3528f7f3d621cc7cd0375873bfcd93",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0802692,
+      "at": "2026-10-24T11:45:18.633Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842318-BxYeAcriNNDyBRtVlne3",
+      "promptTokens": 12029,
+      "completionTokens": 3317,
+      "finishReason": "stop",
+      "cost": 0.00798275
+    },
+    {
+      "fingerprint": "8812c0b531201a979df57a721bea71d2cd4e2aa77b3c418f14b997bb77c97d86",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.04927212,
+      "at": "2026-10-24T11:45:26.455Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842326-sn1xcvU025qbWfuiooM9",
+      "promptTokens": 5773,
+      "completionTokens": 218,
+      "finishReason": "stop",
+      "cost": 0.0022769
+    },
+    {
+      "fingerprint": "3dcd43747bc672be87eaa9abc35c54eb68f9850e4f28c39850b8a00e08061a60",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.05004216,
+      "at": "2026-10-24T11:45:28.187Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842328-cVbmoPz8Eax1yMmQlfiM",
+      "promptTokens": 6132,
+      "completionTokens": 312,
+      "finishReason": "stop",
+      "cost": 0.0026196
+    },
+    {
+      "fingerprint": "e4468900a9451f71e23b3150c0512d90cf38eef1dee4c2ecc78aba653a108961",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0592227,
+      "at": "2026-10-24T11:45:28.198Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842328-IVw2AtlLXspV7XBcdgi0",
+      "promptTokens": 11612,
+      "completionTokens": 1175,
+      "finishReason": "stop",
+      "cost": 0.0046655
+    },
+    {
+      "fingerprint": "d6d227225ea494e5320e4f3f3b61f4057b5d578ac71d32e7156619dad6bbcccb",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0262053,
+      "at": "2026-10-24T11:45:33.523Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842333-OTER7FxvviN4xoShp7Lp",
+      "promptTokens": 3085,
+      "completionTokens": 120,
+      "finishReason": "stop",
+      "cost": 0.00095125
+    },
+    {
+      "fingerprint": "b9f5fea29ecebc136967bf29b79614d7419a0c85fd3f6e98323c7a0118262076",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0954387,
+      "at": "2026-10-24T11:45:34.865Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842334-aSeGjERUShzhsGgKrdYQ",
+      "promptTokens": 15357,
+      "completionTokens": 2008,
+      "finishReason": "stop",
+      "cost": 0.00685125
+    },
+    {
+      "fingerprint": "2a4057c28ab3f66972682f9ca530861baa6db4739f4782100a12bbf205008ebb",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.033948,
+      "at": "2026-10-24T11:45:40.814Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842340-bj59U4xOWIiuJBWi9nXQ",
+      "promptTokens": 4435,
+      "completionTokens": 197,
+      "finishReason": "stop",
+      "cost": 0.00140425
+    },
+    {
+      "fingerprint": "647c2c454fb3c147aabacfab0e94b69fd31bb76396e50bd3cbac366d423fcc7d",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.0979074,
+      "at": "2026-10-24T11:45:42.200Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842342-cGA34hu0QPRef8bAD7Ko",
+      "promptTokens": 8096,
+      "completionTokens": 403,
+      "finishReason": "stop",
+      "cost": 0.0034363
+    },
+    {
+      "fingerprint": "bb0767f9a6c92274c850688434a1e099832407d1bdfe26d4503ef6092d5fdf77",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.0955827,
+      "at": "2026-10-24T11:45:44.271Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842344-rNXEPfLzTXoADmaQURN6",
+      "promptTokens": 15379,
+      "completionTokens": 3312,
+      "finishReason": "stop",
+      "cost": 0.00881275
+    },
+    {
+      "fingerprint": "703fcb337a4c2c072e8f733c1ae6d9071f30d7fcf190a37065319c53a4f79d07",
+      "model": "google/gemini-3.1-flash-lite",
+      "reserved": 0.034092,
+      "at": "2026-10-24T11:45:54.122Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842354-ktzEOz06YlhCfrydJoao",
+      "promptTokens": 4457,
+      "completionTokens": 146,
+      "finishReason": "stop",
+      "cost": 0.00133325
+    },
+    {
+      "fingerprint": "a77964f6a97f269c9d93a885a73a2cbf2d5315f2ab9e3cbe48482ab9fa89364c",
+      "model": "google/gemini-3.5-flash-lite",
+      "reserved": 0.09022428,
+      "at": "2026-10-24T11:45:55.708Z",
+      "httpStatus": 200,
+      "generationId": "gen-1792842355-kYOSpyrLnkxlcVRXkmAC",
+      "promptTokens": 6457,
+      "completionTokens": 306,
+      "finishReason": "stop",
+      "cost": 0.0027021
+    }
+  ],
+  "priorCampaign": {
+    "path": "C:\\Users\\wiseflow\\Bayan\\docs\\ask-repair-runs\\arabic-quality-20261024-copy-input-spend.json",
+    "hash": "21e9b668bb40ea904a16e7812895684499b2316a318d9d65ad44f8e0124fae22",
+    "exposure": 2.2161307724999997,
+    "authorization": "Mo's active repair/test loop: ONE full Arabic R03 parents regression from the fixed bank, on the current website rich pipeline with compact ranking. All failed experiments remain off. Same existing ceiling/remainder, no added budget, model/privacy/source change, automatic repeat or deployment. Independent source review required before further calls."
+  },
+  "reviewStops": [
+    {
+      "at": "2026-10-24T11:44:44.749Z",
+      "reason": "reviewed_continuation_prepared",
+      "authorization": "Continue Mo's active repair/test loop: ONE fresh full Arabic R03 parents regression from the fixed bank. Same existing ceiling and remainder, all prior exposure counted. Current models/privacy/source rules and full conservative reservations unchanged. Failed experiments off. No added budget, model comparison, automatic repeat or deployment."
+    }
+  ],
+  "evaluationCases": [
+    {
+      "id": "R03",
+      "requestId": "fadc13d1-9af2-402a-b490-4af97684233f",
+      "reportPath": "C:\\Users\\wiseflow\\Bayan\\work\\private-ask-evaluation\\parents-current-full-retest-20261024.json",
+      "revisionHash": "6068b780b42c78df6f8c19644febb5a05adaa1abd21ef6e4f081a3d887f68674",
+      "review": "failed"
+    }
+  ],
+  "stopped": "campaign_budget_cannot_cover_next_call"
+}

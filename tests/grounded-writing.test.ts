@@ -49,6 +49,11 @@ it.each([false, true])("uses the experimental contract in the actual engine with
     expect(req.system).toContain("Context clauses are generated wording, not evidence or approval");
     const result = withNotes(await writer(req), input);
     if (drift && Array.isArray(result.hadith)) result.hadith[0].text = unsafe;
+    // Keep the deliberately unsafe writer unsafe on identity-locked corrections
+    // too; a new patch shape must not accidentally turn this into a good rewrite.
+    else if (drift && result.hadith && typeof result.hadith === "object") {
+      for (const patch of Object.values(result.hadith) as { text: string }[]) patch.text = unsafe;
+    }
     return result;
   };
   deps.verifier.generateJson = async req => {

@@ -627,6 +627,40 @@ On 22 October 2026:
 
 **Accepted:** evidence narrowing the checker limitation only. No candidate/accuracy/release/Mo acceptance or goal completion. Current website models/privacy/source boundaries unchanged; no deployment or durable-storage activation.
 
+## 53. Copy-only source isolation reduces input; live wording still not acceptable (24 October)
+
+**Implemented:** owner-only transformation for identity-locked source copy patches. Only affected originals/full context retained; unrelated drafts removed. Semantic/merge/summary repairs and every later safety check remain intact. Active-engine import removed after failed live review. [Exact findings](ask-copy-input-control-2026-10-24.md).
+
+**Offline verified:** 26 focused tests in three files and TypeScript passed. Actual saved correction input reduced from 16,573 to 9,637 characters with own original/context intact. Real-engine owner-only wrapper test verifies replacement checking and later full-source review. No semantic proof inferred.
+
+**Live verified:** one current-writer correction passes copying and avoids the previous wisdom/pardon cause, but contains defective Arabic and adds a vague good outcome beyond the specific source statement. Not accepted as a complete faithful explanation; no checker, retrieval or full-answer proof. No activation or automatic repeat.
+
+**Spending:** one settled call cost $0.00155460; combined exposure $2.2161307725, remainder $0.16631304 before the separately recorded parents regression. Same ceiling, models/privacy and source boundaries; old unresolved reservation/ancestor journals preserved.
+
+**Accepted:** boundary mechanics and rejection evidence only. No religious-accuracy/release/Mo acceptance or goal completion. No deployment or storage activation.
+
+## 54. Parents regression finds useful sources but exposes correction scope drift; final audit budget-blocked (24 October)
+
+**Implemented:** one guarded current-model Arabic R03 full-pipeline regression, failed experiments off, live retrieval and no prepared reuse. Same remaining allowance; no added budget or deployment. [Independent review and next repair](ask-parents-current-retest-2026-10-24.md).
+
+**Offline verified:** full suite 1,668 tests in 158 files, zero failures/skips, and TypeScript passed before the result. Structural proof only.
+
+**Live verified:** four source claims appeared; final A17 audit was locally reservation-blocked. One Quran sentence correctly preserves kind companionship despite pressure toward shirk. Another adds general disobedience beyond its own cited verses. Scholar cores have useful support, but generic plural attribution does not name Ibn Baz and obligatory-obedience force needs caution. Hadith omission alone is not incompleteness. Two unshown summary claims were reviewed separately and receive no completion credit. The correction regenerated whole source sections and introduced extra wording; eligible semantic repairs should preserve untargeted sentences just as copy patches already do.
+
+**Spending:** 16 settled calls cost $0.06258120; combined exposure $2.2787119725, remaining $0.10373184. First checked 70.943 s, total 72.759 s; no cross-question speed comparison. 142,411 input and 15,729 completion tokens. Final request never dispatched, zero uncertain charge, old reservation/ancestors preserved. No automatic repeat.
+
+**Accepted:** useful retrieval and failure evidence only. Classification containing unsupported claim, useful complete answers 0/1. No religious-accuracy/release/Mo acceptance or goal completion. Current models/privacy/source boundaries unchanged; no storage activation.
+
+## 55. Eligible source-support corrections preserve untargeted sentences (24 October)
+
+**Implemented:** exact sentence/citation/requirement matching creates identity-locked text slots for support/citation failures. Untargeted source sentences stay unchanged; merge/contribution/layout and summary repairs retain their paths. Every reconstructed sentence still passes all ordinary checks and late withdrawal. No model/source/privacy/output-limit change. [Evidence and limitations](ask-semantic-repair-boundaries-2026-10-24.md).
+
+**Offline verified:** initial 53 focused tests in four files; subsequent 35 focused tests in four files and TypeScript passed after preserving the unsafe-writer fixture's negative case across patch/array shapes. Full suite then passed 1,679 tests in 159 files, zero failures/skips. Actual parents replay locks only the targeted scholar sentence and preserves its sibling. Both Quran sentences were flagged for overlap, so this repair does not claim to prevent that specific Quran regression. Ten immutable campaign ancestors and original spending hash unchanged; no active lock.
+
+**Live verified:** pending; no paid repair retest yet. Earlier parents and copy-isolation results are not relabelled. Last recorded remaining allowance $0.10373184, all older exposure/reservations retained.
+
+**Accepted:** correction-boundary mechanics only. Semantic false approvals, overlap-repair scope and named scholarly attribution remain unresolved. No complete-answer/religious-accuracy/release/Mo acceptance or goal completion. No deployment or storage activation.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

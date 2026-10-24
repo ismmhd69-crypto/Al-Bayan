@@ -6,7 +6,7 @@ import { independentSourceWritingInput } from "./source-writing-input";
 import { parseDraft, sourceKindMismatch, hasRulingTerm, sourceCopyMatch, type Claim, type SourceText } from "./checks";
 import { parseClaimAudit } from "./checks";
 import { meaningReviewRequest, parseMeaningReview } from "./meaning-review";
-import { textOnlyPatchSchema, applyTextOnlyPatch, type TextOnlyPatch } from "./text-only-patch";
+import { textOnlyPatchSchema, applyTextOnlyPatch, sourceSupportTextPatch, type TextOnlyPatch } from "./text-only-patch";
 import { richWritingClaimsSchema, richWritingOutputAllowance } from "./rich-writing-schema";
 import { richReviewRequest, normalizeRichReview } from "./rich-review-request";
 import { toEvidence, sealedPackageJson, type PipelineDeps } from "./core";
@@ -589,6 +589,18 @@ When writing summary also return next_step: {text, kind, refs}. Make it a specif
         copyPatches.delete(group);
         for (let i = sentencePatches.length - 1; i >= 0; i--) if ((sentencePatches[i] as { group: string }).group === group) sentencePatches.splice(i, 1);
       }
+    }
+    // A claim-level support finding must not regenerate other sentences merely
+    // because they share a source section. Keep merge/layout repair separate.
+    for (const group of groups) {
+      if (group === "summary" || copyPatches.has(group) || sourceMergePlan.some(p => p.group === group)
+        || writerFailures.has(group)) continue;
+      const original = extraDraft && typeof extraDraft === "object" ? (extraDraft as Record<string, unknown>)[group] : null;
+      const patch = sourceSupportTextPatch(original, reviewFeedback, pack.passages.filter(p => p.source.kind === group).map(p => p.id));
+      if (!patch) continue;
+      copyPatches.set(group, patch);
+      sentencePatches.push({ group, replace_indices: patch.indices, sentence_count: patch.original.length,
+        reason: "source_support", preserve_other_sentences: true });
     }
     if (groups.includes("summary") && groups.some(g => g !== "summary")) {
       // A sibling source repair can change which originals are explained. Do not
