@@ -673,6 +673,16 @@ On 22 October 2026:
 
 **Accepted:** general named-source boundary and useful live component correction only. No general religious-accuracy/complete-answer/release/Mo acceptance or goal completion. Models/privacy/source boundaries unchanged; no deployment or storage activation.
 
+## 57. Optional guidance no longer forced in ordinary synthesis; full retest still cannot fit (24 October)
+
+**Implemented:** ordinary rich summary may explicitly omit a useful-but-optional next-step footer. Any supplied footer still requires all shape/language/citation/safety checks; malformed or unsafe received content is not stripped. One existing correction may return a fresh valid object without it. Requested steps, conditions, support, meaning, coverage, final synthesis and late withdrawal remain mandatory. No experimental-summary activation. [Contract and sizing evidence](ask-optional-guidance-repair-2026-10-24.md).
+
+**Offline verified:** 68 focused tests in four files; subsequently 61 in three files and TypeScript passed. Full suite then passed 1,700 tests in 162 files, zero failures/skips. Tests cover actual writer/checker schemas, storage/hydration, required practical steps, supplied unsafe guidance and late withdrawal. The initial strict mock missed an existing no_answer_feedback field and was corrected without weakening production validation.
+
+**Live verified:** pending; zero new paid calls. Fake-transport replay reconstructs the exact blocked parents final request, preserves all body evidence/coverage and the 9,000-token allowance. Reservation falls only from $0.11642040 to $0.11580390, both above the $0.10206744 remainder. No full attempt queued, limit/output/headroom reduction or old request retry.
+
+**Accepted:** optional-absence mechanics and fiscal evidence only. Does not solve a model's misclassification of supplied advice or the parents Quran scope error. Original journal/reservation and all prior spending retained; no model/privacy/source change, deployment, storage activation or goal completion.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
