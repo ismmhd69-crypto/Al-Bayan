@@ -31,7 +31,9 @@ const GEMINI_DIRECT_VERIFIER_MODELS = ["gemini-3.1-flash-lite"];
 // cheap Lite mix; the second is the stronger fallback when the first is busy. The writer and checker
 // chains share no model. Without an OpenRouter key the older direct Gemini defaults above are used.
 const OPENROUTER_WRITER_MODELS = ["openrouter:google/gemini-3.5-flash-lite", "openrouter:google/gemini-3.8-flash"];
-const OPENROUTER_VERIFIER_MODELS = ["openrouter:google/gemini-3.1-flash-lite", "openrouter:mistralai/mistral-small-3.2-24b-instruct"];
+// Mo's decision (2026-10-25): try GPT-6 Luna as the first checker with medium reasoning. Keep the
+// Gemini writer and the separate Mistral fallback; this is a model change, not a source-accuracy claim.
+const OPENROUTER_VERIFIER_MODELS = ["openrouter:openai/gpt-6-luna", "openrouter:mistralai/mistral-small-3.2-24b-instruct"];
 const openRouterOn = () => !!process.env.OPENROUTER_API_KEY;
 const DEFAULT_WRITER_MODELS = () => (openRouterOn() ? OPENROUTER_WRITER_MODELS : GEMINI_DIRECT_WRITER_MODELS);
 const DEFAULT_VERIFIER_MODELS = () => (openRouterOn() ? OPENROUTER_VERIFIER_MODELS : GEMINI_DIRECT_VERIFIER_MODELS);

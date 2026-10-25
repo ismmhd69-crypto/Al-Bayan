@@ -40,6 +40,9 @@ export function providerPreferences(): Record<string, unknown> {
 // default sends nothing. "exclude" is always set so any reasoning text that is still produced never
 // ends up in the reply.
 export function reasoningOptions(model?: string): Record<string, unknown> {
+  // Use more deliberation for Bayan's GPT-6 Luna checker while leaving the
+  // existing global effort and all other models unchanged.
+  if (model === "openai/gpt-6-luna") return { reasoning: { effort: "medium", exclude: true } };
   // This pinned non-reasoning model's advertised parameters (including ZDR
   // endpoints) omit reasoning. require_parameters must remain enabled: do not
   // exclude every eligible endpoint by attaching an unsupported optional knob.

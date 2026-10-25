@@ -841,6 +841,16 @@ On 22 October 2026:
 
 **Accepted:** failed source-faithfulness acceptance. Seven displayed claims reviewed: five supported, one Quran claim broader than its own citations and one assistance qualification/strength concern. The final summary's wider norm has a scholarly citation; the Quran sentence does not. No finding that the wider norm is false doctrine. The old financial-need claim was not reproduced because that source was not selected, so its live repair remains unverified. The new wording bypassed the narrow guard and both checker stages. New ledger stopped; approved one-attempt scope finished. No release, certification, goal completion, automatic repeat or additional paid test.
 
+## 72. Mo selects GPT-6 Luna as the first checker (25 October)
+
+**Implemented:** OpenRouter's default checker chain now tries `openai/gpt-6-luna` at medium reasoning, then keeps the separate Mistral fallback. The Gemini writer stays separate. The existing OpenRouter ZDR and data-collection-denied request preferences are unchanged; if no eligible route accepts the Luna request, the existing chain handles provider unavailability.
+
+**Offline verified:** not yet. No new model call or answer-quality test was run with this selection.
+
+**Live verified:** not yet. Configured environments can override the default checker chain, so the active production model still needs a model-ID trace after deployment.
+
+**Accepted:** Mo requested the model selection. Religious source-faithfulness and answer-quality improvement remain unverified; this is not acceptance of the model's judgments or of the Ask system.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.
