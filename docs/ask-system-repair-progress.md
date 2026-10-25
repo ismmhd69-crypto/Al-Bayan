@@ -851,6 +851,16 @@ On 22 October 2026:
 
 **Accepted:** Mo requested the model selection. Religious source-faithfulness and answer-quality improvement remain unverified; this is not acceptance of the model's judgments or of the Ask system.
 
+## 73. Mo chooses GPT-6 Luna for both writer and checker passes (25 October)
+
+**Implemented:** the default OpenRouter writer and checker chains both start with `openai/gpt-6-luna` at medium reasoning. They remain separate calls with their existing distinct writer/checker instructions. Gemini 3.8 and Mistral remain respective fallbacks; the exact Luna overlap is the only shared model identity allowed. Existing ZDR and data-collection-denied preferences remain active.
+
+**Offline verified:** TypeScript and the production build passed. One existing build warning remains: the private corpus import pattern matches many local files. No test suite or model call was run.
+
+**Live verified:** not yet. No paid answer request was made. Configured environments may override model chains; active production model IDs still need confirmation from a real request trace.
+
+**Accepted:** Mo selected this cost-focused configuration. Because Luna writes and checks its own answer, the checker is not independent. Source-faithfulness and answer-quality improvement remain unverified; no religious accuracy claim is made.
+
 ## Remaining work and release boundaries
 
 - Review the drafted regression pairs and run the prepared actual-builder comparison after reconciling the spending reservation. No new paid calls were made during this work.

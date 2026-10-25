@@ -8,8 +8,9 @@ import { createOpenRouter } from "./openrouter";
 // Exact models pinned on purpose (never "latest"). Each role has an ordered chain: the first model is
 // tried, and when Google says "busy" or "slow down" (429/503) the next one is tried, and so on.
 // Gemini limits each model separately, so a chain absorbs a busy or exhausted model.
-// The writer chain and the verifier chain must never share a model, so the writer never screens its
-// own work, whichever model of the chain ends up answering. A chain entry is "model" (default
+// A different writer and verifier model provide an independent screen when configured. Mo may
+// explicitly choose a same-model second pass; that pass is useful review, but is not independent.
+// A chain entry is "model" (default
 // provider) or "provider:model", so a different company can sit at the end of a chain. The NVIDIA
 // models are the last resort when every Google model is busy (needs NVIDIA_API_KEY; without it those
 // steps are simply left out). Tested 2026-10-01: these three answered in about 3 s with valid JSON;
@@ -30,9 +31,9 @@ const GEMINI_DIRECT_VERIFIER_MODELS = ["gemini-3.1-flash-lite"];
 // 95th percentile 23.5 s, no timeouts, about $0.007 per question. The first model of each chain is the
 // cheap Lite mix; the second is the stronger fallback when the first is busy. The writer and checker
 // chains share no model. Without an OpenRouter key the older direct Gemini defaults above are used.
-const OPENROUTER_WRITER_MODELS = ["openrouter:google/gemini-3.5-flash-lite", "openrouter:google/gemini-3.8-flash"];
-// Mo's decision (2026-10-25): try GPT-6 Luna as the first checker with medium reasoning. Keep the
-// Gemini writer and the separate Mistral fallback; this is a model change, not a source-accuracy claim.
+// Mo's decision (2026-10-25): use GPT-6 Luna with medium reasoning for both separate writing and
+// checking passes. Gemini and Mistral remain fallbacks if the ZDR route or model is unavailable.
+const OPENROUTER_WRITER_MODELS = ["openrouter:openai/gpt-6-luna", "openrouter:google/gemini-3.8-flash"];
 const OPENROUTER_VERIFIER_MODELS = ["openrouter:openai/gpt-6-luna", "openrouter:mistralai/mistral-small-3.2-24b-instruct"];
 const openRouterOn = () => !!process.env.OPENROUTER_API_KEY;
 const DEFAULT_WRITER_MODELS = () => (openRouterOn() ? OPENROUTER_WRITER_MODELS : GEMINI_DIRECT_WRITER_MODELS);
@@ -182,6 +183,10 @@ export function getVerifier(): AIProvider {
   const verifier = verifierModels().map((entry) => parseEntry(entry, process.env.AI_VERIFIER_PROVIDER ?? defaultProvider()));
   const writerIds = new Set(writer.map(identity));
   const shared = verifier.map(identity).filter((id) => writerIds.has(id));
-  if (shared.length > 0) throw new Error(`The verifier must be a different model from the writer (shared: ${shared.join(", ")})`);
+  // Mo explicitly chose Luna for both roles on 2026-10-25. Permit that exact
+  // shared model only; accidental overlap for any other model remains an error.
+  const approvedSameModelSecondPass = new Set(["openrouter/openai/gpt-6-luna"]);
+  const unexpectedShared = shared.filter((id) => !approvedSameModelSecondPass.has(id));
+  if (unexpectedShared.length > 0) throw new Error(`The verifier must be a different model from the writer (shared: ${unexpectedShared.join(", ")})`);
   return build(verifier);
 }
