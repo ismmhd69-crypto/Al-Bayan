@@ -1197,6 +1197,7 @@ a.list-row:hover {
   margin-block-start: 1px;
 }
 .chat-log {
+  overflow-anchor: none;
   position: relative;
   flex: 1;
   min-block-size: 0;

@@ -10,6 +10,33 @@ import { emptyRichState } from "@/lib/ask/rich-answer";
 import { getDictionary } from "@/lib/i18n";
 import { sections, richAnswer } from "./fixtures/rich";
 import type { RichSection } from "@/lib/ask/rich-answer";
+import { streamedAnswerLanguage } from "@/lib/chat/answer-language";
+
+it("uses Arabic source labels while an Arabic answer streams on the English interface", () => {
+  const state = emptyRichState();
+  const question = "ما حكم صلاة الجماعة في المسجد للرجال؟";
+  expect(streamedAnswerLanguage(state, question, "en")).toBe("ar");
+  expect(streamedAnswerLanguage(state, "What does this Arabic word mean?", "en")).toBe("en");
+  const language = streamedAnswerLanguage(state, question, "en");
+  const html = renderToStaticMarkup(createElement(RichAnswerView, {
+    sections: [{ ...sections[2], presentation: "originals", claims: [] }],
+    language, text: getDictionary("en").ask,
+  }));
+  expect(html).not.toContain("No verified translation");
+  expect(html).toContain(sections[2].sources[0].evidence.arabic);
+  const english = renderToStaticMarkup(createElement(RichAnswerView, {
+    sections: [{ ...sections[2], presentation: "originals", claims: [] }],
+    language: "en", text: getDictionary("en").ask,
+  }));
+  expect(english).toContain("No verified translation");
+});
+
+it("uses the actual server answer language once it arrives", () => {
+  const state = { ...emptyRichState(), result: { status: "rich_answer" as const, answer: { ...richAnswer, language: "ar" as const } } };
+  expect(streamedAnswerLanguage(state, "Please explain", "en")).toBe("ar");
+  const english = { ...emptyRichState(), result: { status: "incomplete" as const, language: "en" as const, withdraw: false } };
+  expect(streamedAnswerLanguage(english, "سؤال عربي", "ar")).toBe("en");
+});
 import { richText } from "@/lib/ask/rich-text";
 
 it.each(["en", "ar"] as const)("reveals every source group strictly from top to bottom in %s", language => {

@@ -42,6 +42,7 @@ import { RichAnswerView } from "./RichAnswerView";
 import { StableAnswerView, type RevealMemory } from "./StableAnswerView";
 import type { PatientState } from "@/lib/ask/patient-protocol";
 import type { Locale } from "@/lib/i18n";
+import { streamedAnswerLanguage } from "@/lib/chat/answer-language";
 import { browserSupabase } from "@/lib/supabase-browser";
 import {
   researchClient,
@@ -249,23 +250,42 @@ export default function AskChat({
   }
 
   useEffect(() => {
-    if (messages.some(m => m.role === "bayan" && m.reply.kind === "stable")) return;
-    endRef.current?.scrollIntoView({
-      behavior: reducedMotion() ? "auto" : "smooth",
-      block: "end",
-    });
-  }, [messages, busy]);
-  useEffect(() => {
     const log = logRef.current; if (!log) return;
-    let frame = 0;
-    const stableReader = () => messagesRef.current.some(m => m.role === "bayan" && m.reply.kind === "stable");
-    const scroll = () => { if (!stableReader()) return; followingRef.current = log.scrollHeight - log.scrollTop - log.clientHeight < 96; setFollowing(followingRef.current); };
-    const follow = () => { if (!stableReader() || frame || !followingRef.current) return; frame = requestAnimationFrame(() => { frame = 0; if (followingRef.current) log.scrollTop = log.scrollHeight; }); };
+    let frame = 0, touchY = 0;
+    const pause = () => {
+      cancelAnimationFrame(frame); frame = 0;
+      followingRef.current = false; setFollowing(false);
+    };
+    const wheel = (event: WheelEvent) => { if (event.deltaY < 0) pause(); };
+    const touchStart = (event: TouchEvent) => { touchY = event.touches[0]?.clientY ?? 0; };
+    const touchMove = (event: TouchEvent) => {
+      const next = event.touches[0]?.clientY ?? touchY;
+      if (next > touchY) pause();
+      touchY = next;
+    };
+    const key = (event: globalThis.KeyboardEvent) => {
+      if (["ArrowUp", "PageUp", "Home"].includes(event.key) || event.key === " " && event.shiftKey) pause();
+    };
+    const scroll = () => {
+      followingRef.current = log.scrollHeight - log.scrollTop - log.clientHeight <= 4;
+      setFollowing(followingRef.current);
+    };
+    const follow = () => { if (frame || !followingRef.current) return; frame = requestAnimationFrame(() => { frame = 0; if (followingRef.current) log.scrollTop = log.scrollHeight; }); };
     const resize = new ResizeObserver(follow);
     const mutation = new MutationObserver(() => { Array.from(log.children).forEach(child => resize.observe(child)); follow(); });
     Array.from(log.children).forEach(child => resize.observe(child)); mutation.observe(log, { childList: true, subtree: true, characterData: true });
     log.addEventListener("scroll", scroll, { passive: true });
-    return () => { cancelAnimationFrame(frame); resize.disconnect(); mutation.disconnect(); log.removeEventListener("scroll", scroll); };
+    log.addEventListener("wheel", wheel, { passive: true });
+    log.addEventListener("touchstart", touchStart, { passive: true });
+    log.addEventListener("touchmove", touchMove, { passive: true });
+    log.addEventListener("keydown", key);
+    follow();
+    return () => {
+      cancelAnimationFrame(frame); resize.disconnect(); mutation.disconnect();
+      log.removeEventListener("scroll", scroll); log.removeEventListener("wheel", wheel);
+      log.removeEventListener("touchstart", touchStart); log.removeEventListener("touchmove", touchMove);
+      log.removeEventListener("keydown", key);
+    };
   }, []);
 
   // A question handed over from Home or a topic page is asked straight away.
@@ -755,7 +775,7 @@ export default function AskChat({
         setBusy(false);
         setContinuationTarget(null);
         setStreamState(null);
-        inputRef.current?.focus();
+        inputRef.current?.focus({ preventScroll: true });
       }
       if (resume && alive.current) void send(question, undefined, resume);
     }
@@ -854,7 +874,7 @@ export default function AskChat({
             <div key={m.id} className="msg msg-bayan">
               <span className="sr-only">{t.bayan}: </span>
               {m.reply.kind === "stable" ? <>
-                <StableAnswerView state={m.reply.state} language={lang as Locale} text={t} working={busy && stableMessage.current === m.id} reconnecting={busy && stableMessage.current === m.id && connection === "reconnecting"} memory={revealMemory.current} />
+                <StableAnswerView state={m.reply.state} language={streamedAnswerLanguage(m.reply.state, m.reply.question, lang as Locale)} text={t} working={busy && stableMessage.current === m.id} reconnecting={busy && stableMessage.current === m.id && connection === "reconnecting"} memory={revealMemory.current} />
                 {busy && stableMessage.current === m.id ? <button type="button" className="chip" onClick={() => void stop()}>{rt.stop}</button>
                   : m.reply.state.continuation?.available && !RICH_ORDER.some(g => m.reply.kind === "stable" && m.reply.state.publication?.groups[g].notices.length) ? <button type="button" className="btn btn-primary" onClick={() => { if (m.reply.kind === "stable" && m.reply.state.continuation) void send(m.reply.question, undefined, { token: m.reply.state.continuation.token, messageId: m.id }); }}>{rt.continueResearch}</button>
                     : m.reply.state.continuation && ["billing_uncertain", "busy", ""].includes(m.reply.state.continuation.reason ?? "") ? <button type="button" className="chip" onClick={() => { if (m.reply.kind === "stable" && m.reply.state.continuation) void checkReceipt(m.id, m.reply.state.continuation.token); }}>{rt.checkReceipt}</button> : null}
