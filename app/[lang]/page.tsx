@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, BookOpen, ChevronRight, Compass, Heart, Link2, ShieldCheck } from "lucide-react";
@@ -6,6 +7,13 @@ import { getPopularQuestions, getReviewDecisions, getScholarNames, getTopics } f
 import AskLauncher from "@/components/AskLauncher";
 import LangSwitch from "@/components/LangSwitch";
 import { Beacon } from "@/components/Logo";
+import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  if (!isLocale(lang)) return {};
+  return { alternates: { canonical: buildCanonicalUrl(lang), languages: buildLanguageAlternates() } };
+}
 
 export const revalidate = 3600;
 

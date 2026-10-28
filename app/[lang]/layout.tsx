@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Hanken_Grotesk, Newsreader, Noto_Naskh_Arabic, Reem_Kufi } from "next/font/google";
 import { dirOf, getDictionary, isLocale, locales } from "@/lib/i18n";
-import { getSiteUrl, buildCanonicalUrl, buildLanguageAlternates, buildWebSiteSchema } from "@/lib/seo";
+import { getSiteUrl, buildWebSiteSchema } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import Shell from "@/components/Shell";
 import "../globals.css";
@@ -28,10 +28,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     metadataBase: new URL(getSiteUrl()),
     title: { default: t.meta.title, template: `%s · Bayan` },
     description: t.meta.description,
-    alternates: {
-      canonical: buildCanonicalUrl(lang, "/"),
-      languages: buildLanguageAlternates("/"),
-    },
+    // Keep postponed German pages out of search without removing their content.
+    ...(lang === "de" ? { robots: { index: false, follow: true } } : {}),
   };
 }
 

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronRight, Hourglass } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getReviewDecisions, getTopic, getTopicVideos } from "@/lib/content";
-import { buildCanonicalUrl, buildLanguageAlternates, buildArticleSchema } from "@/lib/seo";
+import { buildCanonicalUrl, buildLanguageAlternates, buildArticleSchema, buildContentDescription } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import AskAboutButton from "@/components/AskAboutButton";
 import { AnswerV2View } from "@/components/AnswerV2View";
@@ -12,7 +12,7 @@ import { loadPrepared } from "@/lib/prepared";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import VideoCard from "@/components/VideoCard";
 import { attachScholarTranslations } from "@/lib/ask/display-translations";
-import { findHardQuestionArticle, showHardQuestionDrafts } from "@/lib/learning/hard-questions";
+import { findHardQuestionArticle, showHardQuestionDrafts, splitHardQuestion } from "@/lib/learning/hard-questions";
 import HardQuestionArticle from "@/components/learning/HardQuestionArticle";
 import "../../start/learning.css";
 import "../articles.css";
@@ -32,10 +32,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
   const article = showHardQuestionDrafts() && findHardQuestionArticle(id);
   if (isLocale(lang) && article) {
+    const description = buildContentDescription(splitHardQuestion(article.body[lang], lang).core);
     return {
       title: article.title[lang],
-      robots: { index: false, follow: false },
+      description,
       alternates,
+      openGraph: { title: article.title[lang], description, url: canonicalUrl, type: "article" },
     };
   }
   const topic = isLocale(lang) ? await getTopic(id, lang) : null;
@@ -57,7 +59,15 @@ export default async function TopicPage({ params }: { params: Params }) {
   const { lang, id } = await params;
   if (!isLocale(lang)) notFound();
   const article = showHardQuestionDrafts() && findHardQuestionArticle(id);
-  if (article) return <HardQuestionArticle article={article} lang={lang} />;
+  if (article) return <>
+    <JsonLd data={buildArticleSchema({
+      title: article.title[lang],
+      description: buildContentDescription(splitHardQuestion(article.body[lang], lang).core),
+      url: buildCanonicalUrl(lang, `/topics/${id}`),
+      lang,
+    })} />
+    <HardQuestionArticle article={article} lang={lang} />
+  </>;
   const topic = await getTopic(id, lang);
   if (!topic) notFound();
   const dict = getDictionary(lang);

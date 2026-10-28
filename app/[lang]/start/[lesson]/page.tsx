@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n";
-import { buildCanonicalUrl, buildLanguageAlternates, buildArticleSchema } from "@/lib/seo";
+import { buildCanonicalUrl, buildLanguageAlternates, buildArticleSchema, buildContentDescription } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import { findLearningLesson, learningLessons, lessonReferences, lessonSummary, splitLearningLesson } from "@/lib/learning/course";
 import { learningText } from "@/lib/learning/text";
@@ -24,11 +24,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     languages: buildLanguageAlternates(`/start/${id}`),
   };
   if (!isLocale(lang) || !lesson) return { alternates };
+  const description = buildContentDescription(splitLearningLesson(lesson.body[lang], lang).core);
   return {
     title: lesson.title[lang],
+    description,
     alternates,
     openGraph: {
       title: lesson.title[lang],
+      description,
       url: canonicalUrl,
       type: "article",
     },
@@ -46,6 +49,7 @@ export default async function LearningLessonPage({ params }: Params) {
 
   const articleSchema = buildArticleSchema({
     title: lesson.title[lang],
+    description: buildContentDescription(splitLearningLesson(body, lang).core),
     url: buildCanonicalUrl(lang, `/start/${id}`),
     lang,
   });

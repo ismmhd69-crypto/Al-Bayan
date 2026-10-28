@@ -3,6 +3,7 @@ import { getSiteUrl, LAUNCH_LOCALES, buildLanguageAlternates } from "@/lib/seo";
 import { TOPIC_ANSWERS } from "@/data/topic-answers";
 import { steps } from "@/data/steps";
 import { learningLessons } from "@/lib/learning/course";
+import { hardQuestionArticles, showHardQuestionDrafts } from "@/lib/learning/hard-questions";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getSiteUrl();
@@ -15,9 +16,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/support",
     "/privacy",
+    "/more",
   ];
 
-  const topicPaths = Object.keys(TOPIC_ANSWERS).map((id) => `/topics/${id}`);
+  const topicIds = showHardQuestionDrafts() ? hardQuestionArticles.map((article) => article.id) : Object.keys(TOPIC_ANSWERS);
+  const topicPaths = topicIds.map((id) => `/topics/${id}`);
   const answerPaths = steps
     .filter((s) => Boolean(s.answerId))
     .map((s) => `/answers/${s.answerId}`);

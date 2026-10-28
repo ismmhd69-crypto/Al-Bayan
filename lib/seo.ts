@@ -4,6 +4,19 @@
 export const LAUNCH_LOCALES = ["ar", "en"] as const;
 export type LaunchLocale = (typeof LAUNCH_LOCALES)[number];
 
+/** A short search description drawn from the visible introduction, without Markdown. */
+export function buildContentDescription(text: string): string {
+  const plain = text
+    .replace(/\[([^\]]+)\]\[[^\]]+\]/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/[*_`#]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const characters = Array.from(plain);
+  return characters.length <= 160 ? plain : `${characters.slice(0, 157).join("").trimEnd()}…`;
+}
+
 /**
  * Returns the reliable production site address.
  * Defaults strictly to https://askbayan.org so preview deployments or hosting branch

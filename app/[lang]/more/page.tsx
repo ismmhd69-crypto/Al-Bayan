@@ -8,10 +8,14 @@ import ThemeToggle from "@/components/ThemeToggle";
 import AccountRow from "@/components/AccountRow";
 import TeamReviewSection from "@/components/TeamReviewSection";
 import { authText } from "@/lib/auth-text";
+import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  return isLocale(lang) ? { title: getDictionary(lang).more.title } : {};
+  return isLocale(lang) ? {
+    title: getDictionary(lang).more.title,
+    alternates: { canonical: buildCanonicalUrl(lang, "/more"), languages: buildLanguageAlternates("/more") },
+  } : {};
 }
 
 type Row = { Icon: LucideIcon; title: string; note?: string; href?: string; custom?: React.ReactNode };
