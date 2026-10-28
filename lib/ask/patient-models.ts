@@ -63,6 +63,13 @@ export async function assessPatientEvidence(frame: QuestionFrame, candidates: Pa
     if (omitted.length) deps.onDiagnostic?.("retrieval", "selection_candidates_unassessed", Date.now() - started, { count: omitted.length });
     // A named verse or hadith must always be assessed: that uses the existing single reassessment.
     if (deps.namedEvidencePassages?.flat().some(id => omitted.includes(id))) return reject("named_passage_scope_unresolved");
+    // Every candidate skipped as unrelated means no relevant evidence, not a malformed reply
+    // (seen live: "What did the Prophet say about smartphones?"). It may earn the one recovery search.
+    if (deps.simpleResearch && items.length && omitted.length === items.length) {
+      onFailure?.("no_direct_evidence_with_requirements");
+      deps.onDiagnostic?.("retrieval", "patient_selection_nothing_relevant", Date.now() - started, { count: omitted.length });
+      return { pack: null, preview: null, rejection: "no_direct_evidence_with_requirements", missingRequirementIds: frame.requirements.map(r => r.id) };
+    }
   }
   let rejection: string | undefined;
   const parse = (value: unknown) => parseEvidencePackage(value, frame, items, { requireContributions: true, distinctSelection: deps.distinctSelection, partialPreview: partial, caps: RICH_CAPS, tierOrder: true, namedPassages: deps.namedEvidencePassages, preferredIds: new Set(deps.preferredEvidenceIds ?? []) },

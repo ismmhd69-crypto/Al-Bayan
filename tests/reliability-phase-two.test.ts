@@ -255,3 +255,16 @@ it("treats a 'complete' claim left without a direct source as a gap, not a broke
   expect(t.checkpoint.simple?.recoveryUsed).toBe(true);
   expect(result.failureKind).not.toBe("selection_failure");
 });
+it("reports nothing relevant honestly when the selector skips every candidate (live: smartphones control)", async () => {
+  const t = setup();
+  t.deps.verifier.generateJson = async r => {
+    const input = JSON.parse(r.prompt);
+    if (!input.candidates) return {};
+    return { selection_contract: "candidate_refs_v1", status: "insufficient", coverage: "incomplete", conflict_type: "none", assessments: [], missing_requirement_ids: ["R1"] };
+  };
+  const codes: string[] = []; t.deps.onDiagnostic = (_s, code) => { codes.push(code); };
+  const result: any = await runSimplePipeline("Explain care", frame, t.deps, signal(), hints);
+  expect(codes, codes.join(",")).toContain("patient_selection_nothing_relevant");
+  expect(codes).not.toContain("simple_selection_reassessment_started");
+  expect(result.failureKind).toBe("question_coverage");
+});
