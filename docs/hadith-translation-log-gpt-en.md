@@ -207,3 +207,79 @@ Published: false
 | 0094 | Sahih Muslim https://sunnah.com/muslim:1619c to https://sunnah.com/muslim:1625a | 30 | 30 | 0 | 731 | 37813 -> 37843 (+30) | 20791 -> 20821 (+30) | pass |
 
 | 0095 | Sahih Muslim https://sunnah.com/muslim:1625b to https://sunnah.com/muslim:1629 | 30 | 30 | 0 | 701 | 37862 -> 37892 (+30) | 20840 -> 20870 (+30) | pass |
+
+| 0096 | Sahih Muslim https://sunnah.com/muslim:1630 to https://sunnah.com/muslim:1644b | 30 | 30 | 0 | 671 | 37892 -> 37922 (+30) | 20870 -> 20900 (+30) | pass |
+
+| 0097 | Sahih Muslim https://sunnah.com/muslim:1645 to https://sunnah.com/muslim:1652b | 30 | 30 | 0 | 641 | 37952 -> 37982 (+30) | 20930 -> 20960 (+30) | pass |
+
+| 0098 | Sahih Muslim https://sunnah.com/muslim:1652c to https://sunnah.com/muslim:1659e | 30 | 30 | 0 | 611 | 37982 -> 38012 (+30) | 20960 -> 20990 (+30) | pass |
+
+| 0099 | Sahih Muslim https://sunnah.com/muslim:1660a to https://sunnah.com/muslim:1671b | 30 | 30 | 0 | 581 | 38012 -> 38042 (+30) | 20990 -> 21020 (+30) | pass |
+
+| 0100 | Sahih Muslim https://sunnah.com/muslim:1671c to https://sunnah.com/muslim:1679b | 30 | 30 | 0 | 551 | 38072 -> 38102 (+30) | 21050 -> 21080 (+30) | pass |
+
+| 0101 | Sahih Muslim https://sunnah.com/muslim:1679c to https://sunnah.com/muslim:1690a | 30 | 30 | 0 | 521 | 38132 -> 38162 (+30) | 21110 -> 21140 (+30) | pass |
+
+| 0102 | Sahih Muslim https://sunnah.com/muslim:1690b to https://sunnah.com/muslim:1702 | 30 | 30 | 0 | 491 | 38162 -> 38192 (+30) | 21140 -> 21170 (+30) | pass |
+
+| 0103 | Sahih Muslim https://sunnah.com/muslim:1703a to https://sunnah.com/muslim:1711a | 30 | 30 | 0 | 461 | 38222 -> 38252 (+30) | 21200 -> 21230 (+30) | pass |
+
+| 0104 | Sahih Muslim https://sunnah.com/muslim:1711b to https://sunnah.com/muslim:1722g | 30 | 30 | 0 | 431 | 38252 -> 38282 (+30) | 21230 -> 21260 (+30) | pass |
+
+| 0105 | Sahih Muslim https://sunnah.com/muslim:1723a to https://sunnah.com/muslim:1736b | 30 | 30 | 0 | 401 | 38312 -> 38342 (+30) | 21290 -> 21320 (+30) | pass |
+
+| 0106 | Sahih Muslim https://sunnah.com/muslim:1736c to https://sunnah.com/muslim:1749e | 30 | 30 | 0 | 371 | 38342 -> 38372 (+30) | 21320 -> 21350 (+30) | pass |
+
+| 0107 | Sahih Muslim https://sunnah.com/muslim:1750a to https://sunnah.com/muslim:1757b | 14 | 14 | 0 | 357 | 38402 -> 38416 (+14) | 21380 -> 21394 (+14) | pass |
+
+| 0108 | Sahih Muslim https://sunnah.com/muslim:1757c to https://sunnah.com/muslim:1757c | 1 | 1 | 0 | 356 | 38416 -> 38417 (+1) | 21394 -> 21395 (+1) | pass |
+
+| 0109 | Sahih Muslim https://sunnah.com/muslim:1757d to https://sunnah.com/muslim:1758 | 2 | 2 | 0 | 354 | 38417 -> 38419 (+2) | 21395 -> 21397 (+2) | pass |
+
+| 0110 | Sahih Muslim https://sunnah.com/muslim:1759a to https://sunnah.com/muslim:1759a | 1 | 1 | 0 | 353 | 38449 -> 38450 (+1) | 21427 -> 21428 (+1) | pass |
+
+| 0111 | Sahih Muslim https://sunnah.com/muslim:1759b to https://sunnah.com/muslim:1762b | 7 | 7 | 0 | 346 | 38450 -> 38457 (+7) | 21428 -> 21435 (+7) | pass |
+
+| 0112 | Sahih Muslim https://sunnah.com/muslim:1763 to https://sunnah.com/muslim:1763 | 1 | 1 | 0 | 345 | 38457 -> 38458 (+1) | 21435 -> 21436 (+1) | pass |
+
+| 0113 | Sahih Muslim https://sunnah.com/muslim:1764a to https://sunnah.com/muslim:1772c | 19 | 19 | 0 | 326 | 38458 -> 38477 (+19) | 21436 -> 21455 (+19) | pass |
+
+| 0114 | Sahih Muslim https://sunnah.com/muslim:1773a to https://sunnah.com/muslim:1773a | 1 | 1 | 0 | 325 | 38477 -> 38478 (+1) | 21455 -> 21456 (+1) | pass |
+
+| 0115 | Sahih Muslim https://sunnah.com/muslim:1773b to https://sunnah.com/muslim:1779 | 14 | 14 | 0 | 311 | 38508 -> 38522 (+14) | 21486 -> 21500 (+14) | pass |
+
+| 0116 | Sahih Muslim https://sunnah.com/muslim:1780a to https://sunnah.com/muslim:1780a | 1 | 1 | 0 | 310 | 38522 -> 38523 (+1) | 21500 -> 21501 (+1) | pass |
+
+| 0117 | Sahih Muslim https://sunnah.com/muslim:1780b to https://sunnah.com/muslim:1794d | 30 | 30 | 0 | 280 | 38553 -> 38583 (+30) | 21531 -> 21561 (+30) | pass |
+
+| 0118 | Sahih Muslim https://sunnah.com/muslim:1795 to https://sunnah.com/muslim:1806 | 24 | 24 | 0 | 256 | 38583 -> 38607 (+24) | 21561 -> 21585 (+24) | pass |
+
+| 0119 | Sahih Muslim https://sunnah.com/muslim:1807a to https://sunnah.com/muslim:1807a | 1 | 1 | 0 | 255 | 38637 -> 38638 (+1) | 21615 -> 21616 (+1) | pass |
+
+| 0120 | Sahih Muslim https://sunnah.com/muslim:1807b to https://sunnah.com/muslim:1821f | 30 | 30 | 0 | 225 | 38638 -> 38668 (+30) | 21616 -> 21646 (+30) | pass |
+
+| 0121 | Sahih Muslim https://sunnah.com/muslim:1822a to https://sunnah.com/muslim:1835d | 30 | 30 | 0 | 195 | 38668 -> 38698 (+30) | 21646 -> 21676 (+30) | pass |
+
+| 0122 | Sahih Muslim https://sunnah.com/muslim:1835e to https://sunnah.com/muslim:1847b | 30 | 30 | 0 | 165 | 38728 -> 38758 (+30) | 21706 -> 21736 (+30) | pass |
+
+| 0123 | Sahih Muslim https://sunnah.com/muslim:1848a to https://sunnah.com/muslim:1857a | 30 | 30 | 0 | 135 | 38788 -> 38818 (+30) | 21766 -> 21796 (+30) | pass |
+
+| 0124 | Sahih Muslim https://sunnah.com/muslim:1857b to https://sunnah.com/muslim:1872b | 30 | 30 | 0 | 105 | 38818 -> 38848 (+30) | 21796 -> 21826 (+30) | pass |
+
+| 0125 | Sahih Muslim https://sunnah.com/muslim:1873a to https://sunnah.com/muslim:1883b | 30 | 30 | 0 | 75 | 38870 -> 38900 (+30) | 21848 -> 21878 (+30) | pass |
+
+| 0126 | Sahih Muslim https://sunnah.com/muslim:1884 to https://sunnah.com/muslim:1897b | 30 | 30 | 0 | 45 | 38900 -> 38930 (+30) | 21878 -> 21908 (+30) | pass |
+
+| 0127 | Sahih Muslim https://sunnah.com/muslim:1897c to https://sunnah.com/muslim:1914 | 30 | 30 | 0 | 15 | 38930 -> 38960 (+30) | 21908 -> 21938 (+30) | pass |
+
+| 0128 | Sahih Muslim https://sunnah.com/muslim:1914b to https://sunnah.com/muslim:1921a | 15 | 15 | 0 | 0 | 38960 -> 38975 (+15) | 21938 -> 21953 (+15) | pass |
+
+## Completion audit — 2026-10-28
+
+Fresh live exporter checks after batch 0128:
+- Sahih al-Bukhari: 7,263 published assigned sources; 0 missing English; 0 selected.
+- Sahih Muslim through 1921a inclusive: 4,901 published assigned sources; 0 missing English; 0 selected.
+- Gemini-owned Sahih Muslim 1921b onward was outside the query boundary and was not modified.
+- GPT log totals: 2,586 attempted across batches; 2,466 inserted; 120 skipped after a live recheck found English already present; 132 batches; all recorded validations passed.
+- Needs Mo: 0 (needs-mo.json was not created).
+- Untranslated rows remaining in assigned range: 0.
