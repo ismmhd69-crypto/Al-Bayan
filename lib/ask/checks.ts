@@ -370,6 +370,20 @@ export function sourceKindMismatch(text: string, refs: string[]): boolean {
 // Headings and limit notes are not screened claim by claim, so they may not carry a ruling.
 const RULING_TERMS = /\b(halal|haram|forbidden|prohibited|obligat\w*|compulsory|permissible|permitted|allowed|lawful|unlawful|sinful|makruh|verboten|erlaubt|pflicht\w*|verpflichtend|zulässig|sünde)\b|حرام|حلال|واجب|محرم|يجوز|مباح|فرض|مكروه|يحرم|يجب/iu;
 
+/** A summary sentence that states a ruling or gives an instruction must say whose it is
+ * (the Quran, the Prophet, a hadith, a named scholar). Bayan never rules in its own voice.
+ * Narrow wording check only: it never approves meaning. */
+const RULING_EN = /\b(?:must|should|ought to|has to|have to|is (?:obligatory|required|forbidden|prohibited|permissible|not allowed|not permitted|haram|wajib)|are (?:obligatory|required|forbidden|prohibited|not allowed))\b/i;
+const IMPERATIVE_EN = /^(?:give|do|avoid|make|repent|seek|fulfil|fulfill|keep|return|pray|fast|pay|stop|ask|tell|never|always)\b/i;
+const RULING_AR = /(?:^|[^\p{L}])(?:و|ف)?(?:يجب|وجب|واجب|واجبة|يحرم|حرام|محرم|لا\s+يجوز|يجوز|يلزم|يلزمه|عليه\s+أن|عليها\s+أن|عليك\s+أن|فرض|مفروض)(?=$|[^\p{L}])/u;
+const SOURCE_EN = /\b(?:quran|qur'an|koran|verse|prophet|messenger|hadith|report|narrat\w*|sunnah|ibn \w+|al-\w+|shaykh|sheikh|committee|scholars?|god|allah)\b/i;
+const SOURCE_AR = /(?:القرآن|القران|الآية|آية|النبي|رسول\s+الله|ﷺ|الحديث|حديث|السنة|ابن\s+\p{L}+|الشيخ|اللجنة|الألباني|الالباني|الفوزان|البراك|عثمان\s+الخميس|العلماء|الله\s+تعالى|فرض\s+الله|أمر\s+الله|قال\s+الله|يقول\s+الله)/u;
+export function unattributedRuling(text: string): boolean {
+  const t = text.trim();
+  if (/\p{Script=Arabic}/u.test(t)) return RULING_AR.test(t) && !SOURCE_AR.test(t);
+  return (RULING_EN.test(t) || IMPERATIVE_EN.test(t)) && !SOURCE_EN.test(t);
+}
+
 export function hasRulingTerm(text: string): boolean {
   return RULING_TERMS.test(text);
 }

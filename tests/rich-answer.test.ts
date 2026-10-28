@@ -42,7 +42,7 @@ describe("checked rich explanations", () => {
     const local = structuredClone(pack), deps = dependencies(), write = deps.writer.generateJson;
     local.passages = local.passages.filter(p => p.source.kind === group);
     local.cards = group === "quran" ? local.cards : [];
-    deps.writer.generateJson = async req => ({ ...await write(req) as object, summary: [{ ...drafts.summary[0], source_ids: [local.passages[0].id] }] });
+    deps.writer.generateJson = async req => ({ ...await write(req) as object, summary: [{ ...drafts.summary[0], source_ids: [local.passages[0].id], ...(group === "scholar" ? { text: "Ibn Baz explains care as a thoughtful responsibility." } : {}) }] });
     const result = await runRichAnswer(local, "en", deps, new AbortController().signal, "Explain care", {});
     expect(result.status).toBe("rich_answer");
     if (result.status !== "rich_answer") throw Error("expected complete");

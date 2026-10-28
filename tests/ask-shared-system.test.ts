@@ -178,7 +178,7 @@ describe("first available source streaming and safe completion", () => {
     deps.writer.generateJson = async req => {
       const groups = JSON.parse(req.prompt).sections_to_write;
       if (groups.includes("summary")) await gate;
-      return { ...await write(req) as object, ...(groups.includes("summary") ? { summary: [{ ...drafts.summary[0], source_ids: [sourceId] }] } : {}) };
+      return { ...await write(req) as object, ...(groups.includes("summary") ? { summary: [{ ...drafts.summary[0], source_ids: [sourceId], ...(firstGroup === "scholar" ? { text: "Ibn Baz explains care as a thoughtful responsibility." } : {}) }] } : {}) };
     };
     const result = await runRichAnswer(local, "en", deps, new AbortController().signal, "Explain care", {});
     expect(result.status).toBe("rich_answer"); expect(seen).toEqual(["quran", "hadith", "scholar", "summary"]);

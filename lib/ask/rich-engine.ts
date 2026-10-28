@@ -3,7 +3,7 @@ import type { JsonRequest, JsonSchema } from "@/lib/ai/types";
 import { groundedWritingRequest, unwrapGroundedWriting } from "./grounded-writing";
 import { snapshotSummaryChoices, selectedSummaryRequest, resolveSelectedSummary } from "./selected-summary";
 import { independentSourceWritingInput } from "./source-writing-input";
-import { parseDraft, sourceKindMismatch, hasRulingTerm, sourceCopyMatch, type Claim, type SourceText } from "./checks";
+import { parseDraft, sourceKindMismatch, hasRulingTerm, sourceCopyMatch, unattributedRuling, type Claim, type SourceText } from "./checks";
 import { parseClaimAudit } from "./checks";
 import { previousReviewContext } from "./rich-review-request";
 import { meaningReviewRequest, parseMeaningReview } from "./meaning-review";
@@ -93,6 +93,8 @@ export function parseRichClaims(raw: unknown, group: RichGroup, pack: EvidencePa
   if (parsed.claims.some(c => sourceKindMismatch(c.text, c.refs)
     || (group !== "summary" && !c.refs.some(id => ids.includes(id))))) return fail("source_attribution");
   if (repeatedRichClaims(parsed.claims)) return fail("repetition");
+  // Bayan never rules in its own voice: a summary ruling or instruction must name its source.
+  if (group === "summary" && parsed.claims.some(c => unattributedRuling(c.text))) return fail("unattributed_ruling");
   // Scholars differ: code-owned checks. No view may be ranked, and every position must be cited.
   // Live Ask has no scholar-reviewed view decision, so no view may be put first (BAYAN_PLAN.md).
   if (group === "summary" && pack.scholarDifference) {
@@ -692,7 +694,7 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
       const verdict = await verifyOnce(items, full, summaryCount, sourceStage);
       if (!verdict.ok) { failureKind = reviewFailureCategory(verdict.reasons ?? []); diagnostic("screening", failureKind); }
       const referents = checkCaseReferents(items, pack.passages.map(sourceText));
-      const named = checkScholarAttributions(items.slice(0, full ? items.length - summaryCount : items.length), scholarIdentities, language);
+      const named = checkScholarAttributions(items, scholarIdentities, language);
       const blocked = [...new Set([...referents.blocked, ...named.blocked])];
       if (!blocked.length) return verdict;
       for (const check of [referents, named]) for (const code of check.reasons) diagnostic("screening", code, { claim_ids: check.blocked });
@@ -743,7 +745,7 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
     groups = groups.filter(g => !writerFailures.get(g)?.reasons.some(r => r === "writer_failed" || r === "writer_timeout"));
     const failures = groups.map(g => writerFailures.get(g)).filter(f => !!f);
     const conclusionRepair = !!patient?.committedSources && groups.length === 1 && groups[0] === "summary";
-    const editorial = failures.length > 0 && failures.every(f => f.reasons.length && f.reasons.every(r => ["copied_source", "quotation"].includes(r)));
+    const editorial = failures.length > 0 && failures.every(f => f.reasons.length && f.reasons.every(r => ["copied_source", "quotation", "unattributed_ruling"].includes(r)));
     // Simple flow: one meaning correction, plus one free wording-only fix (copy or quotation) that
     // happens before the second review and never earns another review or meaning correction.
     if ((!conclusionRepair && correctionUsed) || conclusionRepair && (deps.simpleResearch && (editorial ? conclusion.editorialUsed : (conclusion.meaningUsed || conclusion.editorialUsed || deps.progressiveCheckpoint?.simple?.correctionUsed))
@@ -1070,11 +1072,11 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
     if (summarySourceChanged) return fail(true);
     // A meaning correction may itself introduce editorial overlap. Its separate,
     // persisted allowance is not a new semantic retry and still needs full review.
-    if (patient?.committedSources && writerFailures.get("summary")?.reasons.every(r => ["copied_source", "quotation"].includes(r))) {
+    if (patient?.committedSources && writerFailures.get("summary")?.reasons.every(r => ["copied_source", "quotation", "unattributed_ruling"].includes(r))) {
       synthesis = await repair(["summary"], [], synthesis);
     }
     if (!synthesis?.summary?.length || writerFailures.has("summary")) {
-      if (writerFailures.get("summary")?.reasons.some(r => ["copied_source", "quotation"].includes(r))) failureKind = "wording_rejected";
+      if (writerFailures.get("summary")?.reasons.some(r => ["copied_source", "quotation", "unattributed_ruling"].includes(r))) failureKind = "wording_rejected";
       return fail(false);
     }
     let all = [...checkedItems, ...synthesis.summary];
@@ -1097,7 +1099,7 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
       const priorSummary = synthesis.summary;
       let corrected = useSelectedSummary ? await selectSummary(final.reasons ?? ["final_check_failed"])
         : await repair(["summary"], final.reasons ?? ["final_check_failed"], synthesis, "feedback" in final ? final.feedback : undefined);
-      if (patient?.committedSources && writerFailures.get("summary")?.reasons.every(r => ["copied_source", "quotation"].includes(r))) {
+      if (patient?.committedSources && writerFailures.get("summary")?.reasons.every(r => ["copied_source", "quotation", "unattributed_ruling"].includes(r))) {
         corrected = await repair(["summary"], [], corrected);
         if (!corrected) failureKind = "wording_rejected";
       }

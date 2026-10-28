@@ -238,3 +238,20 @@ it("reports 'no direct evidence' honestly instead of an invalid assessment", asy
   const result: any = await runSimplePipeline("Explain care", frame, t.deps, signal(), hints);
   expect(result.failureKind).toBe("question_coverage");
 });
+it("treats a 'complete' claim left without a direct source as a gap, not a broken selection (live round 4 L06)", async () => {
+  const t = setup(), verify = t.deps.verifier.generateJson;
+  t.deps.verifier.generateJson = async r => {
+    const input = JSON.parse(r.prompt), raw: any = await verify(r);
+    if (!input.candidates) return raw;
+    raw.status = "ready"; raw.coverage = "complete"; raw.missing_requirement_ids = [];
+    raw.assessments.forEach((a: any) => { a.relevance = "direct"; a.contribution = { role: "direct", scope: "case_specific", conditions: [] }; a.scope_matches_question = "yes"; });
+    return raw;
+  };
+  const codes: string[] = []; t.deps.onDiagnostic = (_s, code) => { codes.push(code); };
+  const planned = { ...frame, backupQueries: [{ requirementId: "R1", family: "hadith" as const, language: "en" as const, text: "backup new phrase" }] };
+  const result: any = await runSimplePipeline("Explain care", planned, t.deps, signal(), hints);
+  expect(codes, codes.join(",")).toContain("patient_selection_unsupported_coverage_treated_as_gap");
+  expect(codes).not.toContain("patient_selection_gap_map_unsubstantiated");
+  expect(t.checkpoint.simple?.recoveryUsed).toBe(true);
+  expect(result.failureKind).not.toBe("selection_failure");
+});

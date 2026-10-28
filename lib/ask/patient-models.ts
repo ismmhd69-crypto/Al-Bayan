@@ -97,9 +97,13 @@ export async function assessPatientEvidence(frame: QuestionFrame, candidates: Pa
       || (missing.length === 0) !== (envelope.coverage === "complete")
       || missing.length && envelope.status === "ready") return reject("gap_map_inconsistent");
     if (!selected && !patientSelectionNeedsEvidence(rejection)) return reject(rejection ?? "selection_invalid");
-    if (frame.requirements.some(r => !missing.includes(r.id) && !selected?.passages.some(p =>
-      p.contribution?.role === "direct" && p.requirementIds.includes(r.id)))) return reject("gap_map_unsubstantiated");
-    return { pack: selected, preview: selected, rejection: selected ? undefined : rejection, missingRequirementIds: missing };
+    // A concern claimed as covered without a selected direct source is treated as a gap (it then
+    // gets the single recovery search), never as covered. Seen live: a direct source became a
+    // limited example after the case-specific scope rule, and the whole selection was discarded.
+    const unsupported = frame.requirements.filter(r => !missing.includes(r.id) && !selected?.passages.some(p =>
+      p.contribution?.role === "direct" && p.requirementIds.includes(r.id))).map(r => r.id);
+    if (unsupported.length) deps.onDiagnostic?.("retrieval", "patient_selection_unsupported_coverage_treated_as_gap", Date.now() - started, { requirement_ids: unsupported });
+    return { pack: selected, preview: selected, rejection: selected ? undefined : rejection, missingRequirementIds: [...missing, ...unsupported] };
   }
   if (!selected && !patientSelectionNeedsEvidence(rejection)) return { pack: null, preview: null, rejection, missingRequirementIds: null };
   const missing = (raw as { missing_requirement_ids: string[] }).missing_requirement_ids;
