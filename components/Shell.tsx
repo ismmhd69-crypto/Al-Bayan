@@ -16,11 +16,17 @@ const items: { key: NavKey; path: string; Icon: LucideIcon; sidebarOnly?: boolea
   { key: "quran", path: "/quran", Icon: BookOpen },
   { key: "hadith", path: "/hadith", Icon: ScrollText },
   { key: "ask", path: "/ask", Icon: MessageCircle },
-  { key: "topics", path: "/topics", Icon: CircleHelp },
-  { key: "start", path: "/start", Icon: Compass },
+  { key: "topics", path: "/topics", Icon: CircleHelp, sidebarOnly: true },
+  { key: "start", path: "/start", Icon: Compass, sidebarOnly: true },
   { key: "support", path: "/support", Icon: HeartHandshake, sidebarOnly: true },
   { key: "more", path: "/more", Icon: Ellipsis },
 ];
+
+// Phone tab bar: five buttons with Ask raised in the middle. Everything else is on the More page.
+const PHONE_ORDER: NavKey[] = ["home", "quran", "ask", "hadith", "more"];
+const phoneItems = PHONE_ORDER.map((key) => items.find((item) => item.key === key)!);
+// The pages reached through More keep the More button lit.
+const MORE_PATHS = ["/more", "/topics", "/start", "/support"];
 
 export default function Shell({
   lang,
@@ -76,14 +82,13 @@ export default function Shell({
       </main>
 
       <nav aria-label={nav.label} className="tabbar">
-        {items
-          .filter((item) => !item.sidebarOnly)
-          .map(({ key, path, Icon }) => (
-            <Link key={key} href={`${base}${path}`} aria-current={isActive(path) ? "page" : undefined}>
-              <Icon aria-hidden="true" />
-              <span>{nav[key]}</span>
-            </Link>
-          ))}
+        {phoneItems.map(({ key, path, Icon }) => (
+          <Link key={key} href={`${base}${path}`} className={key === "ask" ? "tab-ask" : undefined}
+            aria-current={(key === "more" ? MORE_PATHS.some(isActive) : isActive(path)) ? "page" : undefined}>
+            {key === "ask" ? <span className="tab-ask-bubble"><Icon aria-hidden="true" /></span> : <Icon aria-hidden="true" />}
+            <span>{nav[key]}</span>
+          </Link>
+        ))}
       </nav>
     </div>
   );

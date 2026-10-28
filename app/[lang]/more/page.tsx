@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Bookmark, ChevronRight, Flag, HeartHandshake, Info, Lock, type LucideIcon } from "lucide-react";
+import { Bookmark, ChevronRight, CircleHelp, Compass, Flag, HeartHandshake, Info, Lock, type LucideIcon } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import LangSwitch from "@/components/LangSwitch";
 import ThemeToggle from "@/components/ThemeToggle";
@@ -27,6 +27,11 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
   const t = d.more;
 
   const rows: Row[][] = [
+    // Not in the phone tab bar, so they lead the More page.
+    [
+      { Icon: CircleHelp, title: d.nav.topics, href: `/${lang}/topics` },
+      { Icon: Compass, title: d.nav.start, href: `/${lang}/start` },
+    ],
     [
       {
         Icon: Bookmark,
@@ -49,6 +54,8 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
         <h1>{t.title}</h1>
       </header>
 
+      {rows.slice(0, 1).map((group, i) => <RowList key={`top-${i}`} group={group} />)}
+
       <section className="topic-group" aria-labelledby="theme-h">
         <h2 id="theme-h" className="eyebrow">
           {t.theme}
@@ -67,34 +74,38 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
 
       <TeamReviewSection lang={lang} />
 
-      {rows.map((group, i) => (
-        <ul key={i} className="list">
-          {group.map(({ Icon, title, note, href, custom }) => {
-            if (custom) return <li key={title}>{custom}</li>;
-            const inner = (
-              <>
-                <Icon aria-hidden="true" className="row-icon" />
-                <span>
-                  <span className="list-title">{title}</span>
-                  {note && <span className="list-sub">{note}</span>}
-                </span>
-                {href && <ChevronRight aria-hidden="true" className="flip-rtl" />}
-              </>
-            );
-            return (
-              <li key={title}>
-                {href ? (
-                  <Link href={href} className="list-row">
-                    {inner}
-                  </Link>
-                ) : (
-                  <div className="list-row list-row--muted">{inner}</div>
-                )}
-              </li>
-            );
-          })}
-        </ul>
-      ))}
+      {rows.slice(1).map((group, i) => <RowList key={i} group={group} />)}
     </div>
+  );
+}
+
+function RowList({ group }: { group: Row[] }): React.ReactElement {
+  return (
+    <ul className="list">
+      {group.map(({ Icon, title, note, href, custom }) => {
+        if (custom) return <li key={title}>{custom}</li>;
+        const inner = (
+          <>
+            <Icon aria-hidden="true" className="row-icon" />
+            <span>
+              <span className="list-title">{title}</span>
+              {note && <span className="list-sub">{note}</span>}
+            </span>
+            {href && <ChevronRight aria-hidden="true" className="flip-rtl" />}
+          </>
+        );
+        return (
+          <li key={title}>
+            {href ? (
+              <Link href={href} className="list-row">
+                {inner}
+              </Link>
+            ) : (
+              <div className="list-row list-row--muted">{inner}</div>
+            )}
+          </li>
+        );
+      })}
+    </ul>
   );
 }
