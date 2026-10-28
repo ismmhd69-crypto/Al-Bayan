@@ -57,3 +57,15 @@ it("prevents actual engine streaming of the recognised substitution despite a co
   expect(result.status).toBe("incomplete"); expect(codes).toContain("rich_case_referent_generalized");
   expect(delivered.flatMap(s => s.claims)).toEqual([]);
 });
+
+// Reliability plan: English summary sentences get the same narrow safety net (invented controls).
+it("blocks an English sentence that turns a specific person in the cited text into everyone", () => {
+  const original = { id: "S1", arabic: "سأل رجل عن هذا الرجل فقال: إن هذا الرجل عليه أن يقضي ما فاته" };
+  const general = checkCaseReferents([{ text: "A Muslim must make up what he missed.", refs: ["S1"] } as any], [original]);
+  expect(general.blocked).toEqual(["C1"]);
+  for (const text of ["This man must make up what he missed.", "In this case, the person who asked must make up what he missed.", "The man who asked must make up what he missed."]) {
+    expect(checkCaseReferents([{ text, refs: ["S1"] } as any], [original]).blocked).toEqual([]);
+  }
+  const broader = { id: "S2", arabic: "هذا الرجل وكل من كان مثله عليه أن يقضي ما فاته" };
+  expect(checkCaseReferents([{ text: "A Muslim must make up what he missed.", refs: ["S2"] } as any], [broader]).blocked).toEqual([]);
+});

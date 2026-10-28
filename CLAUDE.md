@@ -27,7 +27,7 @@ Islamic Q&A website (Sunni only, authentic sources). Launch languages: Arabic an
 - Secrets only in `.env` (git-ignored). Never ask Mo to paste a secret key into chat.
 - **Our API keys are for the website only.** Never use any key in `.env` (Gemini, YouTube, Quran Foundation, Sunnah.com, Supabase, OpenRouter, NVIDIA or any other) for anything except running the Al-Bayan website, unless Mo explicitly asks for that exact use. That includes videos, voiceovers, transcriptions, covers, tests of other tools and any other creation. (Mo, 2026-10-04.) Exception approved by Mo: the Gemini key may be used for video voiceovers only.
 - Supabase project for this app: ref `jnietkyxgnocyizvjiel` (Frankfurt). Never use any other project.
-- Content rules: Quran + hadith graded sahih/hasan only; the AI quotes approved scholars, never issues its own ruling; al-rajih first, other views only in a closed fold; every quote has a link.
+- Content rules: Quran + hadith graded sahih/hasan only; the AI quotes approved scholars, never issues its own ruling; only a documented, scholar-reviewed view decision may put one view first as al-rajih, with other views in a closed fold; without one, supported views are shown with equal weight and attributed to their scholars, never ranked by counting quotes (BAYAN_PLAN.md, aligned by Mo 2026-10-29); every quote has a link.
 - Ask Mo before commits, pushes, database changes or anything outward-facing.
 
 <!-- BEGIN:nextjs-agent-rules -->

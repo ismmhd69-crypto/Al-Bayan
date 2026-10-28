@@ -45,8 +45,9 @@ export function providerPreferences(): Record<string, unknown> {
 export function reasoningOptions(model?: string): Record<string, unknown> {
   // V4 Flash advertises high/xhigh, not the global low effort setting.
   if (model === "deepseek/deepseek-v4-flash") return { reasoning: { effort: "high", exclude: true } };
-  // Use more deliberation for Bayan's GPT-6 Luna checker while leaving the
-  // existing global effort and all other models unchanged.
+  // GPT-6 Luna (writer and checker) runs at low effort: on 2026-10-28 medium spent about
+  // 8,000 reasoning tokens per answer (110 s) versus 45 s at low, with checks still passing.
+  // Accuracy at low effort is being measured on the fixed question set; revisit if it slips.
   if (model === "openai/gpt-6-luna") return { reasoning: { effort: "low", exclude: true } };
   if (model === "anthropic/claude-haiku-5.5") return { reasoning: { effort: "medium", exclude: true } };
   // This pinned non-reasoning model's advertised parameters (including ZDR

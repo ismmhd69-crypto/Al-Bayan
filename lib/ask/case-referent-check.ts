@@ -6,23 +6,31 @@ const genericActor = /(?:^|[^\p{L}])(?:و|ف)?((?:الإنسان|الانسان|
 const humanRole = word("رجلا?|الرجل|امرأة|المرأة|شيخا?|الشيخ|طفلا?|الطفل|مريضا?|المريض|مسافرا?|المسافر|سائلا?|السائل");
 const pointedHuman = /(?:هذا|هذه|ذلك|تلك)\s+(?:الرجل|المرأة|الإنسان|الانسان|الطفل|الفتى|المريض|المسافر|السائل)(?=$|[^\p{L}])/u;
 const pointedSelf = /(?:هذا\s+نفسه|هذه\s+نفسها)(?=$|[^\p{L}])/u;
+// English summary sentences: unrestricted human audiences (reliability plan; the Arabic
+// sentence check alone left English answers to the model reviewer).
+const genericActorEn = /\b((?:a |every |any )?muslims?|(?:a |every |all )?believers?|everyone|everybody|anyone|anybody|whoever|people|a person|any person|every person|mankind|humans?|all (?:men|women))\b/giu;
 // When a cited text also states a broader proposition, this deliberately narrow
 // lexical check abstains. Independent semantic checking still decides support.
 const broaderAudience = word("من|كل|أحد|احد|أحدا|احدا|العباد|الناس|البشر|الإنسان|الانسان");
 
-/** Negative-only Arabic safety net for a recognised referent substitution.
+/** Negative-only safety net (Arabic and English sentences) for a recognised referent substitution.
  * It detects neither every generalisation nor truth. No source IDs/topics/rulings
  * are hardcoded. No positive conclusion follows from an empty failure list. */
 export function checkCaseReferents(items: Claim[], originals: { id: string; arabic: string }[]) {
   const failures: { claim_id: string; source_ids: string[]; code: "case_referent_generalized"; explanation: string }[] = [];
   for (const [index, c] of items.entries()) {
-    const text = normal(c.text), generic = [...text.matchAll(genericActor)].filter(m => {
+    const text = normal(c.text), arabic = /\p{Script=Arabic}/u.test(text);
+    const generic = arabic ? [...text.matchAll(genericActor)].filter(m => {
       const start = m.index! + m[0].indexOf(m[1]), before = text.slice(0, start), after = text.slice(start + m[1].length);
       // These directly bind the actor to the described person/condition; a generic
       // sentence with an appended example is not enough to bind its subject.
       return !/(?:هذا|هذه|ذلك|تلك)\s+$/u.test(before) && !/^\s+(?:الذي|التي|إذا|اذا|عندما|حين)(?=$|[^\p{L}])/u.test(after);
+    }) : [...text.matchAll(genericActorEn)].filter(m => {
+      const before = text.slice(0, m.index!), after = text.slice(m.index! + m[0].length);
+      return !/\b(?:this|that|the same)\s+$/iu.test(before) && !/^\s+(?:who|whom|in (?:this|that|such a) (?:case|situation))\b/iu.test(after);
     });
-    if (/(?:في|ضمن)\s+(?:هذه|تلك)\s+(?:الحالة|الواقعة|الحادثة)(?=$|[^\p{L}])/u.test(text)) continue;
+    if (arabic && /(?:في|ضمن)\s+(?:هذه|تلك)\s+(?:الحالة|الواقعة|الحادثة)(?=$|[^\p{L}])/u.test(text)) continue;
+    if (!arabic && /\bin (?:this|that|such a|a specific|one) (?:case|situation|incident)\b/iu.test(text)) continue;
     if (!generic.length || !c.refs.length) continue;
     const sources = c.refs.map(id => originals.find(p => p.id === id));
     if (sources.some(p => !p)) continue; // Identity failures belong to existing checks.
