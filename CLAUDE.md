@@ -6,7 +6,8 @@ Islamic Q&A website (Sunni only, authentic sources). Launch languages: Arabic an
 - Focus current development, content review and testing on English and Arabic.
 - German work is stopped until after launch. Do not start German translation jobs, paid API tests or dedicated German QA campaigns.
 - German completion, native-language review and three-language parity are not launch requirements. Older three-language instructions describe the longer-term plan and do not override this decision.
-- Preserve the existing German code and content for later. This decision does not itself delete German files or change the visible language switcher.
+- Preserve the existing German code and content for later.
+- Update (Mo, 2026-10-29): the website launches with Arabic and English only. German is removed from the language switcher, German pages and API requests are not served (`activeLocales` in `lib/i18n.ts`), and old `/de/...` links redirect to English. English AI translations of fatwas are published (labelled as AI translations); German translations stay unpublished.
 - Keep shared source-integrity and safety checks intact; failures affecting English or Arabic still need fixing.
 
 ## Ask research and reading flow (Mo, 2026-10-25)

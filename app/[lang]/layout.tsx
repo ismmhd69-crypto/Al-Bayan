@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Hanken_Grotesk, Newsreader, Noto_Naskh_Arabic, Reem_Kufi } from "next/font/google";
-import { dirOf, getDictionary, isLocale, locales } from "@/lib/i18n";
+import { activeLocales, dirOf, getDictionary, isLocale } from "@/lib/i18n";
 import { getSiteUrl, buildWebSiteSchema } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import Shell from "@/components/Shell";
@@ -17,7 +17,7 @@ const naskh = Noto_Naskh_Arabic({ subsets: ["arabic"], variable: "--font-ar-body
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return locales.map((lang) => ({ lang }));
+  return activeLocales.map((lang) => ({ lang }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

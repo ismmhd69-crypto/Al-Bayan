@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { defaultLocale, isLocale, locales, type Locale } from "@/lib/i18n";
+import { activeLocales, defaultLocale, isLocale, type Locale } from "@/lib/i18n";
 
 // Sends visitors without a language in the address to their language:
 // the one they picked before (cookie), else their browser's, else English.
@@ -21,7 +21,12 @@ function pickLocale(request: NextRequest): Locale {
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const hasLocale = locales.some((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`));
+  // German is not offered at launch: old /de links go to the same English page.
+  if (pathname === "/de" || pathname.startsWith("/de/")) {
+    request.nextUrl.pathname = `/en${pathname.slice(3)}`;
+    return NextResponse.redirect(request.nextUrl);
+  }
+  const hasLocale = activeLocales.some((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`));
   if (hasLocale) return;
 
   request.nextUrl.pathname = `/${pickLocale(request)}${pathname === "/" ? "" : pathname}`;

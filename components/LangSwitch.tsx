@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { localeNames, locales, type Locale } from "@/lib/i18n";
+import { activeLocales, localeNames, type Locale } from "@/lib/i18n";
 
 // Remembers the choice on this device for one year.
 function remember(locale: Locale) {
@@ -19,7 +19,7 @@ export default function LangSwitch({ lang, label }: { lang: Locale; label?: stri
   return (
     <>
       <nav className="lang-switch" aria-label={label ?? "Language"}>
-        {locales.map((l) => (
+        {activeLocales.map((l) => (
           <Link
             key={l}
             href={`/${l}${rest}`}
@@ -42,7 +42,7 @@ export default function LangSwitch({ lang, label }: { lang: Locale; label?: stri
           router.push(`/${next}${rest}`);
         }}
       >
-        {locales.map((l) => (
+        {activeLocales.map((l) => (
           <option key={l} value={l} lang={l}>
             {localeNames[l]}
           </option>

@@ -68,7 +68,7 @@ describe("rich evidence reading view", () => {
     expect(html).not.toContain(richText[lang].incomplete);
     expect(html).not.toContain(richText[lang].limited);
   });
-  it.each(["en", "ar", "de"] as const)("describes pending patient work without claiming completion in %s", lang => {
+  it.each(["en", "ar"] as const)("describes pending patient work without claiming completion in %s", lang => {
     const patient = emptyPatientState("00000000-0000-4000-8000-000000000001", lang);
     const html = renderToStaticMarkup(createElement(RichAnswerView, { language: lang, sections: [], text: getDictionary(lang).ask, patient }));
     expect(html).toContain(richText[lang].titles.quran);

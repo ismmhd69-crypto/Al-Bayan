@@ -18,7 +18,9 @@ export async function lookupDisplayTranslations(sources: RichSource[], language:
   if (!scholars.length) return result;
   if (scholars.length > 14 || new Set(scholars.map(s => s.id)).size !== scholars.length) return unavailable("lookup_failed");
   if (!url || !key) return unavailable("unavailable");
-  const bounded = askTimeout(signal, 1500, "display_translation_lookup");
+  // A cold database connection plus up to four lookups can exceed 1.5 s; 4 s keeps translations
+  // from disappearing at random on a fresh server (seen locally on 2026-10-29).
+  const bounded = askTimeout(signal, 4000, "display_translation_lookup");
   try {
     const canonical = (value: string) => new URL(value).href;
     const urlVariants = [...new Set(scholars.flatMap(s => [s.evidence.url, canonical(s.evidence.url), decodeURI(s.evidence.url), canonicalSourcePage(s.evidence.url)]))];
