@@ -205,3 +205,5 @@ Published: false
 | 0093 | Sahih Muslim https://sunnah.com/muslim:1608c to https://sunnah.com/muslim:1619b | 30 | 30 | 0 | 761 | 37753 -> 37783 (+30) | 20731 -> 20761 (+30) | pass |
 
 | 0094 | Sahih Muslim https://sunnah.com/muslim:1619c to https://sunnah.com/muslim:1625a | 30 | 30 | 0 | 731 | 37813 -> 37843 (+30) | 20791 -> 20821 (+30) | pass |
+
+| 0095 | Sahih Muslim https://sunnah.com/muslim:1625b to https://sunnah.com/muslim:1629 | 30 | 30 | 0 | 701 | 37862 -> 37892 (+30) | 20840 -> 20870 (+30) | pass |
