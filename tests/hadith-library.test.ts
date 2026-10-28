@@ -4,13 +4,15 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 vi.mock("server-only", () => ({}));
 
 let rpcResult: { data: unknown; error: { message: string } | null } = { data: [], error: null };
+let rpcQueue: (typeof rpcResult)[] = [];
 let rowsResult: { data: unknown; error: { message: string } | null } = { data: [], error: null };
 const calls = { rpc: 0, from: 0 };
 vi.mock("@supabase/supabase-js", () => ({
   createClient: () => ({
     rpc: () => {
       calls.rpc++;
-      const chain = { eq: () => chain, abortSignal: () => chain, then: (res: (v: unknown) => unknown) => res(rpcResult) };
+      const result = rpcQueue.shift() ?? rpcResult;
+      const chain = { eq: () => chain, abortSignal: () => chain, then: (res: (v: unknown) => unknown) => res(result) };
       return chain;
     },
     from: () => {
@@ -255,6 +257,13 @@ describe("library lookup", () => {
     rpcResult = { data: null, error: { message: "boom" } };
     await expect(searchLibraryHadith({ ar: ["فضل صلاة الجماعة في المسجد"] })).rejects.toThrow(/hadith search failed/);
     expect(fetcher).not.toHaveBeenCalled();
+  });
+  it("keeps the other queries' hits when one query times out, and fails only when all fail", async () => {
+    env();
+    rpcQueue = [{ data: null, error: { message: "canceling statement due to statement timeout" } }];
+    rpcResult = { data: [{ source_id: UUID }], error: null }; rowsResult = { data: [row()], error: null };
+    expect((await searchLibraryHadith({ ar: ["فضل صلاة الجماعة في المسجد"] })).map((h) => h.id)).toEqual([`SH${UUID}`]);
+    expect(rpcQueue).toEqual([]);
   });
   it("makes one search and one batched read, drops continuations and over-long texts", async () => {
     env();

@@ -4,7 +4,7 @@ import { useId } from "react";
 import type { Locale, Dictionary } from "@/lib/i18n";
 import type { RichSection, RichGuide, RichSource } from "@/lib/ask/rich-answer";
 import { richText } from "@/lib/ask/rich-text";
-import { RICH_ORDER } from "@/lib/ask/rich-answer";
+import { RICH_ORDER, hasDisplayTranslation } from "@/lib/ask/rich-answer";
 import type { PatientState } from "@/lib/ask/patient-protocol";
 import { ATTRIBUTION } from "@/lib/sources/quran-meta";
 import { hadithAttributionFor } from "@/lib/sources/hadith-rules";
@@ -97,18 +97,19 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
             <a href={e.url} target="_blank" rel="noopener noreferrer">{t.source} ↗</a></div>
           {e.kind === "scholar" && <p>{e.title || e.reference}</p>}
           {e.kind === "hadith" && <p lang="ar" dir="rtl">{e.gradeAr} · {e.attributionAr}</p>}
-          {e.kind === "scholar" && language !== "ar" && <small>{tr?.status === "ready"
+          {hasDisplayTranslation(source) && language !== "ar" && <small>{tr?.status === "ready"
             ? tr.origin === "ai" ? t.aiTranslation : tr.reviewer && tr.reviewedAt ? t.humanReviewedTranslation : t.humanTranslation
             : tr?.status === "lookup_failed" ? t.translationLookupFailed : tr?.status === "not_checked" ? t.translationNotChecked : tr?.status === "rejected" ? t.translationRejected : t.missing}</small>}
           {publication?.groups[section.group].notices.some(n => n.sourceIds.includes(id)) ? <p role="alert">{language === "ar" ? "تعذّر تأكيد هذا المصدر أثناء إعادة التحقق." : "This source could not be confirmed during rechecking."}</p> : <>
           {staged ? <>
             <p lang="ar" dir="rtl"><VerifiedText id={`${section.group}-original-${id}`}>{e.arabic}</VerifiedText></p>
-            {language !== "ar" && (e.kind === "scholar" ? tr?.status === "ready" ? tr.text : null : e.translation) && <p lang={language} dir="ltr"><VerifiedText id={`${section.group}-translation-${id}`}>{(e.kind === "scholar" ? tr?.status === "ready" ? tr.text : "" : e.translation) ?? ""}</VerifiedText></p>}
+            {language !== "ar" && ((e.kind === "scholar" || hasDisplayTranslation(source)) ? tr?.status === "ready" ? tr.text : null : e.translation) && <p lang={language} dir="ltr"><VerifiedText id={`${section.group}-translation-${id}`}>{((e.kind === "scholar" || hasDisplayTranslation(source)) ? tr?.status === "ready" ? tr.text : "" : e.translation) ?? ""}</VerifiedText></p>}
           </> : <p className={styles.preview} lang={previewLanguage(source, language)} dir="auto">
             {displayedSourceText(source, 230)}
           </p>}
           <details><summary>{t.original}</summary><blockquote lang="ar" dir="rtl">{e.arabic}</blockquote>
-            {e.kind !== "scholar" && (e.translation ? <><p lang={e.kind === "hadith" ? e.translationLanguage ?? undefined : language} dir="auto">{e.translation}</p><small>{e.kind === "quran" ? e.translationName : e.translationLanguage?.toUpperCase()}</small></> : language !== "ar" && <p>{t.missing}</p>)}
+            {e.kind === "hadith" && hasDisplayTranslation(source) && tr?.status === "ready" && <p lang={tr.language} dir="ltr">{tr.text}</p>}
+            {e.kind !== "scholar" && !hasDisplayTranslation(source) && (e.translation ? <><p lang={e.kind === "hadith" ? e.translationLanguage ?? undefined : language} dir="auto">{e.translation}</p><small>{e.kind === "quran" ? e.translationName : e.translationLanguage?.toUpperCase()}</small></> : language !== "ar" && <p>{t.missing}</p>)}
             {e.kind === "scholar" && <>{tr?.status === "ready" && <p lang={tr.language} dir="ltr">{tr.text}</p>}<small>{e.reference}</small></>}
           </details>
           </>}

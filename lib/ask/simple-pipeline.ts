@@ -130,7 +130,7 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
         if(translated.some(s=>JSON.stringify(current.get(s.id))!==JSON.stringify(s.displayTranslation))) {
           delete state.approved;checkpoint.integrityBlocked=true;
           for(const source of translated) if(JSON.stringify(current.get(source.id))!==JSON.stringify(source.displayTranslation))
-            deps.rich?.onIntegrity?.({group:"scholar",claimIndexes:[],sourceIds:[source.id],reason:"source_changed"});
+            deps.rich?.onIntegrity?.({group:source.evidence.kind==="hadith"?"hadith":"scholar",claimIndexes:[],sourceIds:[source.id],reason:"source_changed"});
           return incomplete("source_support",true);
         }
       }

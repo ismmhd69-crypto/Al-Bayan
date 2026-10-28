@@ -1,7 +1,7 @@
 import type { Locale } from "@/lib/i18n";
 import { toEvidence, type PipelineDeps } from "./core";
 import type { EvidencePackage } from "./retrieval";
-import { validRichSection, validDisplayTranslation, type RichSection } from "./rich-answer";
+import { validRichSection, validDisplayTranslation, hasDisplayTranslation, type RichSection } from "./rich-answer";
 import { displayAlignmentRequest, parseDisplayAlignment } from "./focused-checks";
 import { abortable } from "./abort";
 
@@ -15,8 +15,8 @@ export async function originalSection(group: "quran" | "hadith" | "scholar", pac
   }));
   const section: RichSection = { group, outcome: sources.length ? "ready" : "no_direct_evidence",
     ...(sources.length ? { presentation: "originals" as const } : {}), claims: [], sources };
-  if (group === "scholar" && language !== "ar" && checkedTranslations) {
-    for (const s of section.sources) s.displayTranslation = checkedTranslations.get(s.id) ?? { status: "unavailable" };
+  if (group !== "quran" && language !== "ar" && checkedTranslations) {
+    for (const s of section.sources) if (hasDisplayTranslation(s)) s.displayTranslation = checkedTranslations.get(s.id) ?? { status: "unavailable" };
   }
   if (group === "scholar" && language !== "ar" && deps.displayTranslationLookup && !checkedTranslations) {
     try {

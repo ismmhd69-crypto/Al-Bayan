@@ -263,7 +263,15 @@ const HADITH_UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{1
 // so the fatwa search's habit of stripping "ال" would miss most hadith. These queries keep each word as
 // the visitor wrote it, plus the same word with "ال" added or removed. Words of one phrase must all
 // appear (AND); any phrase may match (OR). Returned strict first, then looser (first two words).
-const HADITH_QUERY_STOP = new Set(["ما", "هل", "كيف", "في", "من", "على", "عن", "الى", "هو", "هي", "حكم", "الحكم", "لماذا", "ماذا", "هذا", "هذه", "ان", "او", "و", "عليه", "عليها", "عليهم", "له", "لها", "به", "الله", "وسلم", "صلي", "رسول", "النبي", "يجب", "يجوز", "تجب", "علي", "الي"]);
+const HADITH_QUERY_STOP = new Set(["ما", "هل", "كيف", "في", "من", "على", "عن", "الى", "هو", "هي", "حكم", "الحكم", "لماذا", "ماذا", "هذا", "هذه", "ان", "او", "و", "عليه", "عليها", "عليهم", "له", "لها", "به", "الله", "وسلم", "صلي", "رسول", "النبي", "يجب", "يجوز", "تجب", "علي", "الي",
+  // Common connecting words: as a topic word they match nearly every hadith and push the real topic out.
+  "بين", "مع", "عند", "بعد", "قبل", "غير", "كل", "بعض", "ذلك", "التي", "الذي", "اذا", "لا",
+  // Words that name the kind of text sought; a hadith never contains "hadith" or "evidence" about itself.
+  "حديث", "الحديث", "احاديث", "الاحاديث", "روايه", "روايات", "دليل", "الدليل", "ادله", "الادله", "نصوص"]);
+
+// "للمطر", "بالمسجد", "والصلاه" search as "المطر", "المسجد", "الصلاه": the attached word is part of the question's wording, not the topic.
+const ARABIC_CLITIC_ARTICLE = /^(?:لل|[وفبك]ال)(?=[ء-ي]{3,})/;
+const searchWord = (w: string) => w.replace(ARABIC_CLITIC_ARTICLE, "ال");
 
 export function hadithSearchQueries(phrases: string[]): string[] {
   const phraseWords = phraseWordLists(phrases);
@@ -275,17 +283,22 @@ export function hadithSearchQueries(phrases: string[]): string[] {
   const join = (parts: string[][]) => [...new Set(parts.flatMap(variants).filter((q) => q.length > 0))].slice(0, 8).join(" or ");
   // Query 1, one per phrase (its own result pool): every word of the phrase must appear.
   const perPhrase = phraseWords.slice(0, 3).map((words) => join([words]));
-  // Query 2: any one topic word, together with a narrator-chain word. Fatwas share the database
+  // Query 2: two topic words together, so a hadith that uses neither phrase's exact wording but holds
+  // the topic ("جمع" ... "مطر") still reaches a pool of its own. Same-word forms ("الجمع"/"جمع") are not paired.
+  const bare = (w: string) => (w.startsWith("ال") && w.length > 4 ? w.slice(2) : w);
+  const pairTopics = [...new Map(hadithTopicWords(phrases).map((w) => [bare(w), w])).values()].slice(0, 4);
+  const pairQuery = join(pairTopics.flatMap((a, i) => pairTopics.slice(i + 1).map((b) => [a, b])));
+  // Query 3: any one topic word, together with a narrator-chain word. Fatwas share the database
   // function's result pool and would fill all of it for a broad topic like divorce; nearly every
   // stored hadith has "حدثنا" in its chain, nearly no fatwa does. Words of the question's frame are dropped.
   const topicWords = hadithTopicWords(phrases);
   const anyTopic = [...new Set(topicWords.flatMap((w) => variants([w])))].slice(0, 8).map((w) => `${w} حدثنا`).join(" or ");
-  return [...new Set([...perPhrase, anyTopic].filter((q) => q.length > 0))];
+  return [...new Set([...perPhrase, ...(pairTopics.length >= 2 ? [pairQuery] : []), anyTopic].filter((q) => q.length > 0))];
 }
 
 function phraseWordLists(phrases: string[]): string[][] {
   return phrases
-    .map((p) => (normalizeArabic(p).match(/[ء-ي]+/g) ?? []).filter((w) => w.length >= 2 && !HADITH_QUERY_STOP.has(w)))
+    .map((p) => (normalizeArabic(p).match(/[ء-ي]+/g) ?? []).map(searchWord).filter((w) => w.length >= 2 && !HADITH_QUERY_STOP.has(w)))
     .filter((words) => words.length >= 1 && words.some((w) => w.length >= 3));
 }
 

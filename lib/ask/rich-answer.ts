@@ -4,6 +4,7 @@ import type { Claim } from "./checks";
 import { inLanguage, sourceKindMismatch, isSingleSentence } from "./checks";
 import { isRealVerse } from "@/lib/sources/quran-meta";
 import { hadithAllowed } from "@/lib/sources/hadith-rules";
+import { HADITH_LIBRARY_ID } from "./ids";
 import { scholarQuoteAllowed } from "@/lib/sources/scholar-rules";
 import { validRelatedVideos, type RelatedVideos } from "./related-videos";
 import { emptyPublication, reducePublication, publicationSections, type PublicationState, type PublicationEvent, type IntegrityNotice } from "./publication";
@@ -69,6 +70,10 @@ export function validRichGuidance(value: unknown, language: Locale, sourceIds: s
     && new Set(g.refs).size === g.refs.length && g.refs.every(id => sourceIds.includes(id))
     && (g.kind === "learning" ? g.refs.length === 0 : g.refs.length > 0);
 }
+/** Scholar quotes and stored Sunnah.com hadith carry a checked display translation; Quran and HadeethEnc bring their own. */
+export function hasDisplayTranslation(source: Pick<RichSource, "id" | "evidence">): boolean {
+  return source.evidence.kind === "scholar" || source.evidence.kind === "hadith" && HADITH_LIBRARY_ID.test(source.id);
+}
 export function validDisplayTranslation(t: DisplayTranslation, original: string, language?: Locale): boolean {
   if (t.status !== "ready") return ["unavailable", "lookup_failed", "not_checked", "rejected"].includes(t.status);
   return typeof t.text === "string" && t.text.trim().length > 0 && t.text.length <= 16000
@@ -95,7 +100,7 @@ export function validRichSection(value: unknown, language?: Locale): value is Ri
         || [...requirementIds, ...explanationRequirementIds].some(id => !/^R[1-4]$/.test(id))
         || new Set(requirementIds).size !== requirementIds.length || new Set(explanationRequirementIds).size !== explanationRequirementIds.length
         || (role === "direct" ? !requirementIds.length : requirementIds.length > 0 || !explanationRequirementIds.length))) return false;
-      if (displayTranslation && (e.kind !== "scholar" || !validDisplayTranslation(displayTranslation, e.arabic, language))) return false;
+      if (displayTranslation && (!hasDisplayTranslation({ id, evidence: e }) || !validDisplayTranslation(displayTranslation, e.arabic, language))) return false;
       if (e.kind === "quran") {
         if (id !== `Q${e.key}` || !/^\d{1,3}:\d{1,3}$/.test(e.key) || !isRealVerse(Number(e.key.split(":")[0]), Number(e.key.split(":")[1])) || e.url !== `https://quran.com/${e.key.replace(":", "/")}` || (e.translation !== null && typeof e.translation !== "string") || (e.translationName !== null && typeof e.translationName !== "string")) return false;
       } else if (e.kind === "hadith") {

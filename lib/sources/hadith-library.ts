@@ -43,7 +43,7 @@ export async function searchLibraryHadith(queries: Partial<Record<Locale, string
   // Every query is searched at the same time. Stopping at the first one with hits is not enough here:
   // fatwas and short "same chain" reports share the function's 50 results, so one query may hold no
   // usable hadith at all.
-  const levels = await Promise.all(hadithSearchQueries(phrases).map(async (query) => {
+  const settled = await Promise.allSettled(hadithSearchQueries(phrases).map(async (query) => {
     audit.queries++;
     const search = supabase.rpc("search_approved_source_candidates", {
       query_text: query,
@@ -58,6 +58,12 @@ export async function searchLibraryHadith(queries: Partial<Record<Locale, string
     if (result.length >= SEARCH_POOL) audit.ceilingHits++;
     return result;
   }));
+  // One slow broad query (a database statement timeout) must not discard the others' hits: every
+  // returned row is still read back and checked below. Only a search where every query failed fails.
+  options.signal?.throwIfAborted();
+  const failed = settled.filter((s): s is PromiseRejectedResult => s.status === "rejected");
+  if (failed.length === settled.length && failed.length) throw failed[0].reason;
+  const levels = settled.flatMap((s) => (s.status === "fulfilled" ? [s.value] : []));
   // Interleave by rank (best of each query first) so every phrase gets its share of the 8 places.
   const hits = Array.from({ length: Math.max(0, ...levels.map((l) => l.length)) }, (_, i) => levels.map((l) => l[i]))
     .flat().filter((h): h is { source_id: string } => !!h);

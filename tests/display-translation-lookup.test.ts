@@ -93,3 +93,29 @@ describe("exact excerpt display lookup, never generation or approval", () => {
     configure(); expect((await lookupDisplayTranslations([source], "ar", new AbortController().signal)).size).toBe(0); expect(database.calls).toEqual([]);
   });
 });
+
+describe("stored Sunnah.com hadith display translations", () => {
+  const hadithUuid = "55555555-5555-5555-5555-555555555555";
+  const hadith = { id: `SH${hadithUuid}`, evidence: { kind: "hadith", key: `SH${hadithUuid}`, collection: "muslim", numbers: { bukhari: null, muslim: 705 },
+    gradeAr: "صحيح", attributionAr: "رواه مسلم", arabic: "نص حديث تجريبي مخترع للاختبار فقط", translation: null, translationLanguage: null, url: "https://sunnah.com/muslim:705a" } } as never;
+  function configureHadith() {
+    vi.stubEnv("NEXT_PUBLIC_SUPABASE_URL", "https://example.test"); vi.stubEnv("SUPABASE_SECRET_KEY", "fake-unit-test-only");
+    database.originals = [{ id: hadithUuid, url: "https://sunnah.com/muslim:705a", text_original: "نص حديث تجريبي مخترع للاختبار فقط" }];
+    database.translations = [{ source_id: hadithUuid, lang: "en", origin: "ai", text: "Invented hadith translation fixture", published: true, version: 1 }];
+  }
+  it("attaches the published translation of the exact stored original", async () => {
+    configureHadith();
+    expect((await lookupDisplayTranslations([hadith], "en", new AbortController().signal)).get(`SH${hadithUuid}`)).toMatchObject({ status: "ready", origin: "ai", text: "Invented hadith translation fixture" });
+    expect(database.filters).toContainEqual(["sources", "in", "id", [hadithUuid]]);
+  });
+  it("refuses a translation when the stored text or link no longer matches", async () => {
+    configureHadith(); database.originals = [{ id: hadithUuid, url: "https://sunnah.com/muslim:705a", text_original: "نص آخر" }];
+    expect((await lookupDisplayTranslations([hadith], "en", new AbortController().signal)).get(`SH${hadithUuid}`)).toEqual({ status: "unavailable" });
+    configureHadith(); database.originals = [{ id: hadithUuid, url: "https://sunnah.com/muslim:706", text_original: "نص حديث تجريبي مخترع للاختبار فقط" }];
+    expect((await lookupDisplayTranslations([hadith], "en", new AbortController().signal)).get(`SH${hadithUuid}`)).toEqual({ status: "unavailable" });
+  });
+  it("does not show unpublished hadith translations", async () => {
+    configureHadith(); (database.translations[0] as { published: boolean }).published = false;
+    expect((await lookupDisplayTranslations([hadith], "en", new AbortController().signal)).get(`SH${hadithUuid}`)).toEqual({ status: "unavailable" });
+  });
+});

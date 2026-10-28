@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { RichAnswerView, richSourceCards } from "./RichAnswerView";
 import { RevealContext, graphemes, type TextSlice } from "./VerifiedReveal";
-import { RICH_ORDER, richFailureKind, type RichGroup, type RichStreamState } from "@/lib/ask/rich-answer";
+import { RICH_ORDER, richFailureKind, hasDisplayTranslation, type RichGroup, type RichStreamState } from "@/lib/ask/rich-answer";
 import { emptyPublication, presentationStage, publicationSections, type ResearchStage } from "@/lib/ask/publication";
 import { richText } from "@/lib/ask/rich-text";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -44,7 +44,7 @@ export function StableAnswerView({ state, language, text, working, reconnecting,
         if (owners.has(source.id)) continue;
         if (publication.groups[group].notices.some(n => n.sourceIds.includes(source.id))) continue;
         owners.add(source.id); add(group, `${group}-original-${source.id}`, source.evidence.arabic);
-        const translation = source.evidence.kind === "scholar" ? source.displayTranslation?.status === "ready" ? source.displayTranslation.text : null : source.evidence.translation;
+        const translation = source.evidence.kind === "scholar" || hasDisplayTranslation(source) ? source.displayTranslation?.status === "ready" ? source.displayTranslation.text : null : source.evidence.translation;
         if (language !== "ar" && translation) add(group, `${group}-translation-${source.id}`, translation);
       }
     }
