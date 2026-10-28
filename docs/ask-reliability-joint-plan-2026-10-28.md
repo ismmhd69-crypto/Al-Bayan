@@ -411,7 +411,27 @@ Honest limits:
 **English checks (deferred item from Phase 2), measured:**
 - Across 15 English answers in Phases 2b and 4, no dropped condition and no specific case generalised to everyone were found.
 - One different scope problem was found and fixed by fix 6 (round 2, L10).
-- English versions of the two Arabic code checks are therefore not added now.
+- English versions of the two Arabic code checks are therefore not added now. (Superseded 29 October: the specific-person check was extended to English after Mo asked to close every misleading path.)
+
+**Round 4 and the misleading-answer review (29 October).**
+
+The writer and checker now run at low reasoning effort (Mo's session, `lib/ai/openrouter.ts`). Round 4 ran on that setting:
+- 7 of the first 8 questions completed, with first sources in 10 to 38 seconds and totals of 17 to 47 seconds.
+- Every summary sentence was read against its cited originals. No false content was found.
+- Two wording problems were found: rulings stated without naming their source (L03 «وجب ردّ حقه», L02 "give up that conduct").
+- The follow-up checks added L09 (correct) and L06 (correct), at a total spend of $0.4087.
+
+Fixes, each with tests (commits 9731625 to d5727f8):
+1. **Better selection kept.** A recovery selection replaces the first only when it covers more of the question (live: travel prayer).
+2. **Specific cases kept as labelled limited examples** instead of being dropped (live: zakat conditions).
+3. **A lone surviving scholarly view stays marked as a difference.** It is never written as agreed or as the only view.
+4. **Unattributed rulings blocked.** A summary ruling or instruction without a named source gets a wording fix, and summary sentences citing only scholars must name them.
+5. **English case generalisation blocked.** The specific-person safety net now covers English sentences.
+6. **Unbacked coverage treated as a gap.** A "complete" claim without a direct source now gets the one recovery search instead of discarding the selection.
+7. **Nothing relevant reported honestly.** A selection that skips every candidate is reported as "nothing relevant" (live: smartphones control).
+8. **Al-rajih rule aligned.** CLAUDE.md, HANDOFF.md and the project memory now match BAYAN_PLAN.md: no view is named strongest without a scholar-reviewed decision.
+
+Still open: L02, L03 and L10 were not re-run on the final code because of the website's rate limit (8 questions per 10 minutes). The low-effort checker has passed every answer read so far, but that is still a small sample.
 
 - Before paid testing, agree the remaining allowance, reconcile prior spend, and keep unknown charges reserved.
 - Run all 10 fixed questions once each on the same code version. No retries to manufacture a pass rate.
