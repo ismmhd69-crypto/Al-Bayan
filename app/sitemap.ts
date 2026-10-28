@@ -11,6 +11,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
     "",
     "/quran",
+    "/hadith",
+    "/hadith/bukhari",
+    "/hadith/muslim",
     "/ask",
     "/topics",
     "/start",
