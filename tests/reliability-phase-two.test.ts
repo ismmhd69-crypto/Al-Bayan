@@ -185,3 +185,53 @@ it("accepts a source condition longer than 200 characters (live L03, L07)", asyn
   expect(codes, codes.join(",")).not.toContain("patient_selection_combined_selection_format_invalid");
   expect(codes).not.toContain("patient_selection_contribution_invalid");
 });
+it("keeps the earlier selection when the recovery selection downgrades its direct sources (live: travel prayer)", async () => {
+  const t = setup(), verify = t.deps.verifier.generateJson; let selections = 0;
+  t.deps.searchHadith = async q => q.en?.includes("backup new phrase")
+    ? [{ ...(pack.passages[1].source as any).hadith, id: "HE9002", url: "https://hadeethenc.com/en/browse/hadith/9002" }]
+    : [(pack.passages[1].source as any).hadith];
+  t.deps.verifier.generateJson = async r => {
+    const input = JSON.parse(r.prompt), raw: any = await verify(r);
+    if (!input.candidates) return raw;
+    raw.status = "insufficient"; raw.coverage = "incomplete"; raw.missing_requirement_ids = ["R1"];
+    if (++selections === 2) raw.assessments.forEach((a: any) => { a.relevance = "context"; a.supported_requirement_ids = []; a.related_requirement_ids = ["R1"];
+      a.contribution = { role: "background", scope: "general", conditions: [] }; });
+    return raw;
+  };
+  const codes: string[] = []; t.deps.onDiagnostic = (_s, code) => { codes.push(code); };
+  const planned = { ...frame, backupQueries: [{ requirementId: "R1", family: "hadith" as const, language: "en" as const, text: "backup new phrase" }] };
+  await runSimplePipeline("Explain care", planned, t.deps, signal(), hints);
+  expect(selections).toBe(2);
+  expect(codes, codes.join(",")).toContain("simple_recovery_selection_weaker_kept_previous");
+  const quran = t.checkpoint.simple?.frozen?.find(s => s.group === "quran");
+  expect(quran?.outcome).toBe("ready");
+});
+it("keeps relevant case-specific sources as limited examples for a general question (live: zakat conditions)", async () => {
+  const t = setup(), verify = t.deps.verifier.generateJson;
+  t.deps.verifier.generateJson = async r => {
+    const input = JSON.parse(r.prompt), raw: any = await verify(r);
+    if (!input.candidates) return raw;
+    raw.status = "insufficient"; raw.coverage = "incomplete"; raw.missing_requirement_ids = ["R1"];
+    raw.assessments.forEach((a: any) => { a.relevance = "partial"; a.contribution = { role: "direct", scope: "case_specific", conditions: [] }; a.scope_matches_question = "yes"; });
+    return raw;
+  };
+  const codes: string[] = []; t.deps.onDiagnostic = (_s, code) => { codes.push(code); };
+  const result: any = await runSimplePipeline("Explain care", frame, t.deps, signal(), hints);
+  expect(codes, codes.join(",")).toContain("patient_selection_case_specific_kept_as_limited_example");
+  const shown = (t.checkpoint.simple?.frozen ?? []).flatMap(s => s.sources);
+  expect(shown.length).toBeGreaterThan(0);
+  expect(shown.every(s => s.role !== "direct")).toBe(true);
+  expect(result.failureKind).not.toBe("selection_failure");
+});
+it("reports 'no direct evidence' honestly instead of an invalid assessment", async () => {
+  const t = setup(), verify = t.deps.verifier.generateJson;
+  t.deps.verifier.generateJson = async r => {
+    const input = JSON.parse(r.prompt), raw: any = await verify(r);
+    if (!input.candidates) return raw;
+    raw.status = "insufficient"; raw.coverage = "incomplete"; raw.missing_requirement_ids = ["R1"];
+    raw.assessments.forEach((a: any) => { a.relevance = "unrelated"; a.supported_requirement_ids = []; a.contribution = { role: "background", scope: "general", conditions: [] }; });
+    return raw;
+  };
+  const result: any = await runSimplePipeline("Explain care", frame, t.deps, signal(), hints);
+  expect(result.failureKind).toBe("question_coverage");
+});

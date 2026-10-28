@@ -247,13 +247,20 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
         if(!sameResearchCandidates(next,pool)) {
           const recovered=await selectWithRepair(next);
           state.candidates=structuredClone(next);pool=next;
-          // A failed recovery selection never discards an earlier valid selection.
-          if(recovered.pack || !assessment.pack) { assessment=recovered; state.gaps=assessment.missingRequirementIds ?? []; }
-          else deps.onDiagnostic?.("retrieval","simple_recovery_selection_failed_kept_previous",0,{reason:recovered.rejection});
+          // Recovery may only improve the selection. A failed recovery selection, or one that
+          // directly covers no more concerns with no more direct sources (seen live: a second
+          // assessment downgraded every source of a good first one), keeps the earlier selection.
+          const direct=(p:typeof assessment.pack)=>(p?.passages ?? []).filter(x=>x.requirementIds.length);
+          const covered=(p:typeof assessment.pack)=>new Set(direct(p).flatMap(x=>x.requirementIds)).size;
+          const better=!!recovered.pack && (!assessment.pack || covered(recovered.pack)>covered(assessment.pack)
+            || covered(recovered.pack)===covered(assessment.pack) && direct(recovered.pack).length>=direct(assessment.pack).length);
+          if(better) { assessment=recovered; state.gaps=assessment.missingRequirementIds ?? []; }
+          else deps.onDiagnostic?.("retrieval",recovered.pack?"simple_recovery_selection_weaker_kept_previous":"simple_recovery_selection_failed_kept_previous",0,{reason:recovered.rejection});
         }
         delete state.recoveryPending;
       }
-      if(!assessment.pack) return incomplete(assessment.rejection==="no_candidates"?"question_coverage":"selection_failure",true);
+      // "No direct evidence" is an honest coverage result, not an invalid assessment.
+      if(!assessment.pack) return incomplete(assessment.rejection==="no_candidates" || assessment.rejection?.startsWith("no_direct_evidence")?"question_coverage":"selection_failure",true);
       // Approved scholars differ: publish the checked sources and write an equal-weight summary.
       // Revelation conflicts and uncertain conflicts are refused earlier, by the selection parser.
       if(assessment.pack.scholarDifference) deps.onDiagnostic?.("retrieval","simple_scholar_difference_presented",0,{count:Object.keys(assessment.pack.scholarDifference.positions).length});

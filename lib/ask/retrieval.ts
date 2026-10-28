@@ -503,11 +503,16 @@ export function parseEvidencePackage(
       }
       // The question frame and evidence selector make separate scope decisions. A selector's
       // blanket "yes" cannot turn a narrow case into instructions for a general requested point.
+      let limitedExample = false;
       if (direct && c.scope === "case_specific" && requirementIds.some(id => requirementById.get(id)?.scope !== "case_specific")) {
         scopeCompatible = false;
         onFailure?.("source_scope_rejected");
+        // Never direct support for a general point, but a relevant, in-scope and context-safe case is
+        // kept as a labelled limited example (seen live: every zakat fatwa answered a specific case,
+        // so a general question lost all of them). The reviewer still checks it is not generalised.
+        if (options.partialPreview && assessment.scope_matches_question === "yes" && assessment.context_safe === "yes") limitedExample = true;
       }
-      const contribution = c as SourceContribution;
+      const contribution = (limitedExample ? { ...c, role: "limited_example" } : c) as SourceContribution;
       const previous = contributions.get(assessment.source_id);
       if (previous && JSON.stringify(previous) !== JSON.stringify(contribution)) return fail("contribution_conflict");
       contributions.set(assessment.source_id, contribution);
@@ -519,6 +524,9 @@ export function parseEvidencePackage(
         && Array.isArray(assessment.related_requirement_ids) && assessment.related_requirement_ids.length > 0
         && assessment.related_requirement_ids.every(id => typeof id === "string" && requirementById.has(id))) {
         supporting.set(assessment.source_id, [...new Set(assessment.related_requirement_ids as string[])]);
+      } else if (limitedExample) {
+        supporting.set(assessment.source_id, [...new Set(requirementIds)]);
+        onFailure?.("case_specific_kept_as_limited_example");
       } else supporting.delete(assessment.source_id);
     }
     if (!direct && requirementIds.length > 0) return fail("non_direct_requirement_assignment");
