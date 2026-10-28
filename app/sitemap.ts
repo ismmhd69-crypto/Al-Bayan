@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPaths = [
     "",
+    "/quran",
     "/ask",
     "/topics",
     "/start",
@@ -25,8 +26,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((s) => Boolean(s.answerId))
     .map((s) => `/answers/${s.answerId}`);
   const lessonPaths = learningLessons.map((lesson) => `/start/${lesson.id}`);
+  const quranPaths = Array.from({ length: 114 }, (_, i) => `/quran/${i + 1}`);
 
-  const allPaths = [...staticPaths, ...topicPaths, ...answerPaths, ...lessonPaths];
+  const allPaths = [...staticPaths, ...quranPaths, ...topicPaths, ...answerPaths, ...lessonPaths];
   const entries: MetadataRoute.Sitemap = [];
 
   for (const path of allPaths) {

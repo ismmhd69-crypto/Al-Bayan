@@ -2,17 +2,18 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { CircleHelp, Compass, Ellipsis, HeartHandshake, House, MessageCircle, type LucideIcon } from "lucide-react";
+import { BookOpen, CircleHelp, Compass, Ellipsis, HeartHandshake, House, MessageCircle, type LucideIcon } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import Logo from "./Logo";
 import LangSwitch from "./LangSwitch";
 import ThemeToggle from "./ThemeToggle";
 
-type NavKey = "home" | "ask" | "topics" | "start" | "more" | "support";
+type NavKey = "home" | "quran" | "ask" | "topics" | "start" | "more" | "support";
 
 // sidebarOnly: shown in the desktop sidebar, left out of the phone tab bar (reachable via More there).
 const items: { key: NavKey; path: string; Icon: LucideIcon; sidebarOnly?: boolean }[] = [
   { key: "home", path: "", Icon: House },
+  { key: "quran", path: "/quran", Icon: BookOpen },
   { key: "ask", path: "/ask", Icon: MessageCircle },
   { key: "topics", path: "/topics", Icon: CircleHelp },
   { key: "start", path: "/start", Icon: Compass },
