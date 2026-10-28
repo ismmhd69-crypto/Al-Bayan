@@ -7,7 +7,7 @@ import ReportProblemForm from "@/components/ReportProblemForm";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  return isLocale(lang) ? { title: getDictionary(lang).reportPage.title } : {};
+  return isLocale(lang) ? { title: getDictionary(lang).reportPage.title, robots: { index: false, follow: false } } : {};
 }
 
 export default async function ReportPage({

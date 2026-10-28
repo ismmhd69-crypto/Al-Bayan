@@ -3,12 +3,22 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
+import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
 import { Beacon } from "@/components/Logo";
 import { BUY_ME_A_COFFEE_URL } from "@/lib/support";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  return isLocale(lang) ? { title: getDictionary(lang).support.title } : {};
+  if (!isLocale(lang)) return {};
+  const t = getDictionary(lang).support;
+  return {
+    title: t.title,
+    description: t.intro,
+    alternates: {
+      canonical: buildCanonicalUrl(lang, "/support"),
+      languages: buildLanguageAlternates("/support"),
+    },
+  };
 }
 
 export default async function SupportPage({ params }: { params: Promise<{ lang: string }> }) {
@@ -36,15 +46,12 @@ export default async function SupportPage({ params }: { params: Promise<{ lang: 
           </li>
         ))}
       </ol>
-      {BUY_ME_A_COFFEE_URL ? (
-        <a className="btn btn-primary" href={BUY_ME_A_COFFEE_URL} target="_blank" rel="noopener noreferrer">
+      <div className="support-action">
+        <a href={BUY_ME_A_COFFEE_URL} target="_blank" rel="noopener noreferrer" className="support-button">
           {t.button}
-          <ExternalLink aria-hidden="true" />
-          <span className="sr-only">({t.newTab})</span>
+          <ExternalLink size={16} aria-hidden="true" />
         </a>
-      ) : (
-        <p className="card card-soft">{t.notReady}</p>
-      )}
+      </div>
     </article>
   );
 }

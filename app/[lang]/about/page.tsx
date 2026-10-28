@@ -3,10 +3,20 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
+import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  return isLocale(lang) ? { title: getDictionary(lang).about.title } : {};
+  if (!isLocale(lang)) return {};
+  const t = getDictionary(lang).about;
+  return {
+    title: t.title,
+    description: t.intro,
+    alternates: {
+      canonical: buildCanonicalUrl(lang, "/about"),
+      languages: buildLanguageAlternates("/about"),
+    },
+  };
 }
 
 export default async function AboutPage({ params }: { params: Promise<{ lang: string }> }) {

@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, Hourglass } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getReviewDecisions } from "@/lib/content";
+import { buildCanonicalUrl, buildLanguageAlternates, buildArticleSchema } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import { loadPrepared } from "@/lib/prepared";
 import { PREPARED_ANSWERS } from "@/data/prepared-answers";
 import { PREPARED_IDS_AWAITING_VIEW_DECISION } from "@/data/view-decisions";
@@ -24,7 +26,23 @@ const stepFor = (id: string) => steps.find((s) => s.answerId === id);
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { lang, id } = await params;
   const step = stepFor(id);
-  return isLocale(lang) && step ? { title: step.title[lang] } : {};
+  const canonicalUrl = buildCanonicalUrl(lang, `/answers/${id}`);
+  const alternates = {
+    canonical: canonicalUrl,
+    languages: buildLanguageAlternates(`/answers/${id}`),
+  };
+  if (!isLocale(lang) || !step) return { alternates };
+  return {
+    title: step.title[lang],
+    description: step.text[lang],
+    alternates,
+    openGraph: {
+      title: step.title[lang],
+      description: step.text[lang],
+      url: canonicalUrl,
+      type: "article",
+    },
+  };
 }
 
 export default async function AnswerPage({ params }: { params: Params }) {
@@ -44,8 +62,16 @@ export default async function AnswerPage({ params }: { params: Params }) {
       });
   const displayAnswer = answer?.v2 ? { ...answer, v2: await attachScholarTranslations(answer.v2) } : answer;
 
+  const articleSchema = buildArticleSchema({
+    title: step.title[lang],
+    description: step.text[lang],
+    url: buildCanonicalUrl(lang, `/answers/${id}`),
+    lang,
+  });
+
   return (
     <article className="page">
+      <JsonLd data={articleSchema} />
       <Link href={`/${lang}/start`} className="back-link">
         <ArrowLeft aria-hidden="true" className="flip-rtl" />
         {dict.start.title}

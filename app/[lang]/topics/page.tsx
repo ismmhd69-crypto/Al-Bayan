@@ -1,13 +1,23 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/lib/i18n";
+import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
 import { categoryOrder, getTopics } from "@/lib/content";
 import TopicBrowser from "@/components/TopicBrowser";
 import { hardQuestionArticles, hardQuestionText, showHardQuestionDrafts } from "@/lib/learning/hard-questions";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  return isLocale(lang) ? { title: getDictionary(lang).topics.title } : {};
+  if (!isLocale(lang)) return {};
+  const t = getDictionary(lang).topics;
+  return {
+    title: t.title,
+    description: t.intro,
+    alternates: {
+      canonical: buildCanonicalUrl(lang, "/topics"),
+      languages: buildLanguageAlternates("/topics"),
+    },
+  };
 }
 
 export const revalidate = 3600;

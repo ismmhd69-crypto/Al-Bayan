@@ -4,6 +4,7 @@ import HadithTester from "@/components/HadithTester";
 
 // Private test page for the hadith connector (Mo's local testing only). Hidden on the live site.
 export const dynamic = "force-dynamic";
+export const metadata = { robots: { index: false, follow: false } };
 
 export default async function HadithTestPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

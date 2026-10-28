@@ -3,10 +3,19 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Check } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
+import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  return isLocale(lang) ? { title: getDictionary(lang).privacy.title } : {};
+  if (!isLocale(lang)) return {};
+  const t = getDictionary(lang).privacy;
+  return {
+    title: t.title,
+    alternates: {
+      canonical: buildCanonicalUrl(lang, "/privacy"),
+      languages: buildLanguageAlternates("/privacy"),
+    },
+  };
 }
 
 export default async function PrivacyPage({ params }: { params: Promise<{ lang: string }> }) {

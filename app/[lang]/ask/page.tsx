@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/lib/i18n";
+import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
 import { getPopularQuestions } from "@/lib/content";
 import AskWorkspace from "@/components/AskWorkspace";
 import { chatText } from "@/lib/chat-text";
@@ -12,7 +13,16 @@ export async function generateMetadata({
   params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   const { lang } = await params;
-  return isLocale(lang) ? { title: getDictionary(lang).ask.title } : {};
+  if (!isLocale(lang)) return {};
+  const t = getDictionary(lang);
+  return {
+    title: t.ask.title,
+    description: t.meta.description,
+    alternates: {
+      canonical: buildCanonicalUrl(lang, "/ask"),
+      languages: buildLanguageAlternates("/ask"),
+    },
+  };
 }
 
 export const revalidate = 3600;

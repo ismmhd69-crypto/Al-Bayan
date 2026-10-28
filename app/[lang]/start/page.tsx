@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/lib/i18n";
+import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
 import { learningChapters, learningLessons, lessonSummary } from "@/lib/learning/course";
 import { learningText } from "@/lib/learning/text";
 import LearningJourney from "@/components/learning/LearningJourney";
@@ -8,7 +9,16 @@ import "./learning.css";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  return isLocale(lang) ? { title: getDictionary(lang).start.title } : {};
+  if (!isLocale(lang)) return {};
+  const t = getDictionary(lang).start;
+  return {
+    title: t.title,
+    description: t.intro,
+    alternates: {
+      canonical: buildCanonicalUrl(lang, "/start"),
+      languages: buildLanguageAlternates("/start"),
+    },
+  };
 }
 
 export default async function StartPage({ params }: { params: Promise<{ lang: string }> }) {

@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Hanken_Grotesk, Newsreader, Noto_Naskh_Arabic, Reem_Kufi } from "next/font/google";
 import { dirOf, getDictionary, isLocale, locales } from "@/lib/i18n";
+import { getSiteUrl, buildCanonicalUrl, buildLanguageAlternates, buildWebSiteSchema } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import Shell from "@/components/Shell";
 import "../globals.css";
 
@@ -23,17 +25,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   if (!isLocale(lang)) return {};
   const t = getDictionary(lang);
   return {
-    // The site's main address, needed for absolute link-preview images. SITE_URL wins (set it to
-    // https://askbayan.org); otherwise the host's own variable: Netlify sets URL, Vercel sets
-    // VERCEL_PROJECT_PRODUCTION_URL (host only, no https://).
-    metadataBase: new URL(
-      process.env.SITE_URL ??
-        process.env.URL ??
-        (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000"),
-    ),
+    metadataBase: new URL(getSiteUrl()),
     title: { default: t.meta.title, template: `%s · Bayan` },
     description: t.meta.description,
-    alternates: { languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])) },
+    alternates: {
+      canonical: buildCanonicalUrl(lang, "/"),
+      languages: buildLanguageAlternates("/"),
+    },
   };
 }
 
@@ -71,6 +69,7 @@ export default async function RootLayout({
         />
       </head>
       <body>
+        <JsonLd data={buildWebSiteSchema(lang, t.meta.description)} />
         <a className="skip-link" href="#main">
           {t.common.skip}
         </a>

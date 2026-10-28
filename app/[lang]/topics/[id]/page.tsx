@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronRight, Hourglass } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getReviewDecisions, getTopic, getTopicVideos } from "@/lib/content";
+import { buildCanonicalUrl, buildLanguageAlternates, buildArticleSchema } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import AskAboutButton from "@/components/AskAboutButton";
 import { AnswerV2View } from "@/components/AnswerV2View";
 import { loadPrepared } from "@/lib/prepared";
@@ -23,10 +25,32 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { lang, id } = await params;
+  const canonicalUrl = buildCanonicalUrl(lang, `/topics/${id}`);
+  const alternates = {
+    canonical: canonicalUrl,
+    languages: buildLanguageAlternates(`/topics/${id}`),
+  };
   const article = showHardQuestionDrafts() && findHardQuestionArticle(id);
-  if (isLocale(lang) && article) return { title: article.title[lang], robots: { index: false, follow: false } };
+  if (isLocale(lang) && article) {
+    return {
+      title: article.title[lang],
+      robots: { index: false, follow: false },
+      alternates,
+    };
+  }
   const topic = isLocale(lang) ? await getTopic(id, lang) : null;
-  return topic ? { title: topic.title } : {};
+  if (!topic) return { alternates };
+  return {
+    title: topic.title,
+    description: topic.question,
+    alternates,
+    openGraph: {
+      title: topic.title,
+      description: topic.question,
+      url: canonicalUrl,
+      type: "article",
+    },
+  };
 }
 
 export default async function TopicPage({ params }: { params: Params }) {
@@ -49,8 +73,16 @@ export default async function TopicPage({ params }: { params: Params }) {
   }) : null;
   const displayAnswer = answer?.v2 ? { ...answer, v2: await attachScholarTranslations(answer.v2) } : answer;
 
+  const articleSchema = buildArticleSchema({
+    title: topic.title,
+    description: topic.question,
+    url: buildCanonicalUrl(lang, `/topics/${id}`),
+    lang,
+  });
+
   return (
     <article className="page">
+      <JsonLd data={articleSchema} />
       <Link href={`/${lang}/topics`} className="back-link">
         <ArrowLeft aria-hidden="true" className="flip-rtl" />
         {t.backToList}
