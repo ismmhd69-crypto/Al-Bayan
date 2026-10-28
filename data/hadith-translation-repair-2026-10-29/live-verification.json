@@ -1,0 +1,20 @@
+{
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "current": {
+    "hadith_sources": 14629,
+    "published_english_hadith_rows": 14629,
+    "hadiths_without_exactly_one_published_english": 0,
+    "german_hadith_translation_rows": 9698,
+    "published_german_hadith_rows": 0,
+    "published_english_filler_rows": 0,
+    "published_repair_rows": 142,
+    "published_english_chain_candidates": 1620
+  },
+  "checks": {
+    "hadith_source_count_unchanged": true,
+    "one_published_english_per_hadith": true,
+    "no_published_english_filler": true,
+    "german_row_counts_unchanged": true,
+    "repair_row_count_matches": true
+  }
+}
