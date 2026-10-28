@@ -38,6 +38,41 @@ const seal = (raw: unknown, pool: PassageForSelection[], options = {}) => {
 };
 
 describe("purposeful evidence selection preview", () => {
+  it.each(["no", "unsure"])("excludes background with %s applicability while retaining other evidence", scope => {
+    const pool = [q(1), h(1), s(1)], raw = response(pool, []);
+    for (const [i, applicability] of [[1, scope], [2, "yes"]] as const) {
+      Object.assign(raw.assessments[i], { relevance: "context", supported_requirement_ids: [], related_requirement_ids: ["R1"],
+        scope_matches_question: applicability, contribution: { role: "background", scope: "general", conditions: [] } });
+    }
+    const reasons: string[] = [];
+    const result = parseEvidencePackage(raw, frame, pool, { requireContributions: true, partialPreview: true }, code => reasons.push(code));
+    expect(result?.passages.map(p => p.id)).toEqual([pool[0].id, pool[2].id]);
+    expect(result?.passages.find(p => p.id === pool[2].id)?.explanationRequirementIds).toEqual(["R1"]);
+    expect(reasons).toContain("source_scope_rejected");
+  });
+  it("excludes one scope-uncertain candidate without discarding independent checked contributions", () => {
+    const pool = [q(1), q(2)], raw = response(pool, []);
+    raw.assessments[0].scope_matches_question = "unsure";
+    const reasons: string[] = [];
+    const result = parseEvidencePackage(raw, frame, pool, { requireContributions: true, partialPreview: true }, code => reasons.push(code));
+    expect(result?.passages.map(p => p.id)).toEqual([pool[1].id]);
+    expect(reasons).toContain("source_scope_rejected");
+  });
+  it("does not manufacture evidence when every candidate is scope-uncertain", () => {
+    const pool = [q(1)], raw = response(pool, []); raw.assessments[0].scope_matches_question = "unsure";
+    expect(parseEvidencePackage(raw, frame, pool, { requireContributions: true, partialPreview: true })).toBeNull();
+  });
+  it("does not skip unknown identities or contradictory roles in an excluded candidate", () => {
+    const pool = [q(1), q(2)], raw = response(pool, []); raw.assessments[0].scope_matches_question = "unsure";
+    raw.assessments[0].source_id = "Q999:999";
+    expect(parseEvidencePackage(raw, frame, pool, { requireContributions: true, partialPreview: true })).toBeNull();
+    raw.assessments[0].source_id = pool[0].id; raw.assessments[0].contribution.role = "background";
+    expect(parseEvidencePackage(raw, frame, pool, { requireContributions: true, partialPreview: true })).toBeNull();
+  });
+  it("does not omit a visitor-named passage to make another candidate pass", () => {
+    const pool = [q(1), q(2)], raw = response(pool, []); raw.assessments[0].scope_matches_question = "unsure";
+    expect(parseEvidencePackage(raw, frame, pool, { requireContributions: true, partialPreview: true, namedPassages: [[pool[0].id]] })).toBeNull();
+  });
   it("does not fill spare slots with three restatements of the same principle", () => {
     const pool = [s(1), s(2), s(3)], raw = response(pool, [unit([pool[0].id], "The one supported principle")]);
     raw.assessments[1].distinct_contribution = "no"; raw.assessments[2].distinct_contribution = "no";

@@ -5,7 +5,7 @@ import { structuredOutputContract } from "@/lib/ai/structured-output";
 /** Uses the existing provider interface; callers must install experiment spending
  * guards before evaluating. No provider is instantiated and no calls run on import. */
 export function modelMeaningReranker(provider: AIProvider): MeaningReranker {
-  return async (concern, passages, signal) => {
+  const single: MeaningReranker = async (concern, passages, signal) => {
     signal.throwIfAborted();
     // Bind one numeric array position to each exact immutable candidate identity.
     const snapshot = passages.map(p => ({ ...p })), topic = { ...concern }, before = JSON.stringify({ concern, passages });
@@ -15,6 +15,20 @@ export function modelMeaningReranker(provider: AIProvider): MeaningReranker {
     if (JSON.stringify({ concern, passages }) !== before) throw new Error("invalid_reranker_result");
     return decodeMeaningScores(result, snapshot.map(p => p.id));
   };
+  single.batch = async (concerns, passages, signal) => {
+    signal.throwIfAborted();
+    if (!concerns.length || concerns.length > 4 || new Set(concerns.map(c => c.id)).size !== concerns.length || concerns.some(c => !/^R[1-4]$/.test(c.id))) throw Error("invalid_reranker_result");
+    const before = JSON.stringify({ concerns, passages });
+    const base = meaningRerankingRequest(concerns[0], passages, signal);
+    const schema: JsonRequest["schema"] = { type: "object", properties: Object.fromEntries(concerns.map(c => [c.id, scoreSchema(passages.length)])), required: concerns.map(c => c.id) };
+    const raw = await provider.generateJson({ ...base, schema,
+      system: base.system + "\nAssess each supplied concern separately against the same originals. Return one object per concern ID, each containing its complete scores array in the supplied passage order. Never merge concerns or let a strong score for one stand in for another. Scores remain discovery metadata, never evidence approval.",
+      prompt: JSON.stringify({ concerns, passages: passages.map((p, i) => ({ ...p, score_index: i })) }), maxOutputTokens: Math.min(8192, 128 + concerns.length * passages.length * 65) });
+    signal.throwIfAborted();
+    if (JSON.stringify({ concerns, passages }) !== before || structuredOutputContract(schema).parse(JSON.stringify(raw)) === null) throw Error("invalid_reranker_result");
+    return concerns.map(c => decodeMeaningScores((raw as Record<string, unknown>)[c.id], passages.map(p => p.id)));
+  };
+  return single;
 }
 
 export function decodeMeaningScores(raw: unknown, candidateIds: string[]) {

@@ -1,7 +1,7 @@
 import type { JsonSchema } from "@/lib/ai/types";
 import type { Claim } from "./checks";
 
-export type TextOnlyPatch = { original: unknown[]; indices: number[] };
+export type TextOnlyPatch = { original: unknown[]; indices: number[]; referenceChoices?: { reference: string; id: string }[] };
 
 /** Support corrections edit only explicitly identified sentences. Layout/merge
  * repairs keep their existing path. A stale or ambiguous snapshot cannot lock
@@ -27,11 +27,14 @@ export function sourceSupportTextPatch(original: unknown, feedback: unknown, all
   return { indices, original: original.map((c: Claim) => ({ text: c.text, source_ids: [...c.refs], ...(c.requirementId ? { requirement_id: c.requirementId } : {}) })) };
 }
 
-/** Generate only replacement text. Identity and untouched wording belong to the
- * sealed draft, never to a second model-generated copy of that draft. */
+/** Source repairs change text only. Original-mode summary repairs may also
+ * select code-owned published references; concern identity and untouched wording
+ * stay fixed. No patch operation establishes semantic support. */
 export function textOnlyPatchSchema(patch: TextOnlyPatch): JsonSchema {
   return { type: "object", properties: Object.fromEntries(patch.indices.map(i => [`P${i}`, {
-    type: "object", properties: { text: { type: "string", maxLength: 300 } }, required: ["text"],
+    type: "object", properties: { text: { type: "string", maxLength: 300 }, ...(patch.referenceChoices ? {
+      source_refs: { type: "array" as const, maxItems: 3, items: { type: "string" as const, enum: patch.referenceChoices.map(c => c.reference) } },
+    } : {}) }, required: patch.referenceChoices ? ["text", "source_refs"] : ["text"],
   }])), required: patch.indices.map(i => `P${i}`) };
 }
 
@@ -41,9 +44,15 @@ export function applyTextOnlyPatch(raw: unknown, patch: TextOnlyPatch): unknown[
   if (Object.keys(record).length !== keys.length || keys.some(k => !Object.hasOwn(record, k))) return null;
   for (const key of keys) {
     const row = record[key];
-    if (!row || typeof row !== "object" || Array.isArray(row) || Object.keys(row).length !== 1
+    if (!row || typeof row !== "object" || Array.isArray(row) || Object.keys(row).length !== (patch.referenceChoices ? 2 : 1)
       || typeof (row as { text?: unknown }).text !== "string" || Array.from((row as { text: string }).text).length > 300) return null;
+    if (patch.referenceChoices) {
+      const refs = (row as { source_refs?: unknown }).source_refs;
+      if (!Array.isArray(refs) || !refs.length || refs.length > 3 || new Set(refs).size !== refs.length
+        || refs.some(ref => !patch.referenceChoices!.some(c => c.reference === ref))) return null;
+    }
   }
   return patch.original.map((item, i) => patch.indices.includes(i)
-    ? { ...(item as object), text: (record[`P${i}`] as { text: string }).text } : structuredClone(item));
+    ? { ...(item as object), text: (record[`P${i}`] as { text: string }).text,
+      ...(patch.referenceChoices ? { source_ids: (record[`P${i}`] as { source_refs: string[] }).source_refs.map(ref => patch.referenceChoices!.find(c => c.reference === ref)!.id) } : {}) } : structuredClone(item));
 }

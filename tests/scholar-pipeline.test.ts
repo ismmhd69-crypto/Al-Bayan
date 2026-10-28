@@ -16,7 +16,7 @@ vi.mock("@/lib/sources/scholars-live", () => ({
 }));
 vi.mock("@/lib/sources/scholars", () => ({ searchScholarQuotes: mocks.searchScholarQuotes }));
 
-import { scholarQuotes } from "@/lib/ask/pipeline";
+import { scholarQuotes, progressiveScholarFreshness } from "@/lib/ask/pipeline";
 
 const quote = (id: string, url: string): ScholarQuote => ({
   id,
@@ -50,5 +50,19 @@ describe("scholar source merging", () => {
     mocks.searchScholarQuotes.mockResolvedValue([]);
     expect(await scholarQuotes(["عبارة بحث محددة"], [], { allVariants: true })).toEqual([]);
     expect(mocks.searchScholarsLive).not.toHaveBeenCalled();
+  });
+  it("reuses a stored explanation only while the approved reader returns its exact current source", async () => {
+    const stored = quote("S22222222-2222-2222-2222-222222222222", "https://binbaz.org.sa/fatwas/2/stored");
+    const candidate = { id: stored.id, source: { kind: "scholar" as const, quote: stored }, context: [] };
+    const read = () => progressiveScholarFreshness([candidate], [["عبارة بحث محددة"]], "ar", new AbortController().signal);
+    mocks.searchScholarQuotes.mockResolvedValue([stored]);
+    expect((await read()).has(stored.id)).toBe(true);
+    expect(mocks.searchScholarQuotes).toHaveBeenCalledWith(["عبارة بحث محددة"], 8, expect.objectContaining({ allVariants: true, signal: expect.any(AbortSignal) }));
+    mocks.searchScholarQuotes.mockResolvedValue([{ ...stored, arabic: stored.arabic + " تغير" }]);
+    expect((await read()).size).toBe(0);
+    mocks.searchScholarQuotes.mockResolvedValue([]); // Publication or permission withdrawn.
+    expect((await read()).size).toBe(0);
+    mocks.searchScholarQuotes.mockRejectedValue(new Error("approved reader unavailable"));
+    await expect(read()).rejects.toThrow("approved reader unavailable");
   });
 });

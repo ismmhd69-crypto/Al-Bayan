@@ -201,6 +201,10 @@ const en = {
   },
   more: {
     title: "More",
+    theme: "Theme",
+    themeLight: "Light",
+    themeDark: "Dark",
+    themeSystem: "System",
     language: "Language",
     account: "Sign in",
     accountNote: "Optional. Only to save your answers.",

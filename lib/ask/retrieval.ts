@@ -52,9 +52,11 @@ export type AnswerRequirement = {
   searchQueries?: Partial<Record<Locale, string[]>>;
   quranArabic?: string[];
   hadithArabic?: string[];
+  hadithSearchQueries?: Partial<Record<"en" | "ar", string[]>>;
 };
 
 export type QuestionFrame = {
+  backupQueries?: import("./search-engine/recovery").RecoveryQuery[];
   language: Locale;
   kind: "question" | "personal" | "greeting" | "off_topic" | "harmful";
   questionType: QuestionType;
@@ -72,7 +74,7 @@ export type QuestionFrame = {
 };
 
 export function requirementMeaning(requirements: AnswerRequirement[]): AnswerRequirement[] {
-  return requirements.map(({ searchQueries: _queries, quranArabic: _quran, hadithArabic: _hadith, ...meaning }) => meaning);
+  return requirements.map(({ searchQueries: _queries, quranArabic: _quran, hadithArabic: _hadith, hadithSearchQueries: _hadithQueries, ...meaning }) => meaning);
 }
 
 const LOCALES = ["ar", "en", "de"] as const;
@@ -98,7 +100,7 @@ function phrases(value: unknown, maxItems: number, maxWords: number): string[] {
   return [...new Set(
     value
       .filter(isString)
-      .map((item) => item.trim().replace(/\s+/g, " "))
+      .map((item) => item.trim().replace(/[’‘]/g, "'").replace(/[–—]/g, "-").replace(/\s+/g, " "))
       .filter((item) => SAFE_PHRASE.test(item) && !INSTRUCTION_WORDS.test(item) && item.split(" ").length <= maxWords),
   )].slice(0, maxItems);
 }
@@ -123,7 +125,10 @@ function requirements(value: unknown): AnswerRequirement[] | null {
     }
     if (point.essential_conditions !== undefined) {
       if (!Array.isArray(point.essential_conditions) || point.essential_conditions.length > 3) return null;
-      const conditions = phrases(point.essential_conditions, 3, 5);
+      // Conditions must retain the visitor's actual qualification. A five-word
+      // cap rejected ordinary constraints such as "the request conflicts with
+      // the visitor's religion", which then invalidated the entire question.
+      const conditions = phrases(point.essential_conditions, 3, 8);
       if (conditions.length !== point.essential_conditions.length) return null;
       extras.essentialConditions = conditions;
     }
@@ -139,6 +144,11 @@ function requirements(value: unknown): AnswerRequirement[] | null {
       if (!Object.values(extras.searchQueries).some((list) => list!.length > 0)) return null;
       extras.quranArabic = phrases(point.quran_ar, 2, 8).filter((q) => /\p{Script=Arabic}/u.test(q));
       extras.hadithArabic = phrases(point.hadith_ar, 2, 8).filter((q) => /\p{Script=Arabic}/u.test(q));
+    }
+    if (point.hadith_search_queries !== undefined) {
+      if (!point.hadith_search_queries || typeof point.hadith_search_queries !== "object" || Array.isArray(point.hadith_search_queries)) return null;
+      const q = point.hadith_search_queries as Record<string, unknown>;
+      extras.hadithSearchQueries = { en: phrases(q.en, 2, 6), ar: phrases(q.ar, 2, 6).filter(text => /\p{Script=Arabic}/u.test(text)) };
     }
     parsed.push({ text, facet: point.facet as AnswerFacet, ...extras });
   }
@@ -160,6 +170,9 @@ export function questionFrameRejection(raw: unknown): string {
       return "requested_point_text_must_be_short_plain_English";
     if (typeof p.facet === "string" && !(ANSWER_FACETS as readonly string[]).includes(p.facet)) return "requested_point_facet_not_in_allowed_enum";
   }
+  const record = raw as Record<string, unknown>;
+  if (["question", "personal"].includes(String(record.kind)) && phrases(record.subjects, 5, 4).length === 0)
+    return "subjects_must_be_short_English_labels_max_4_words_each";
   return "question_frame_contract_invalid";
 }
 
@@ -199,7 +212,20 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
   if (record.clarification_needed !== undefined && typeof record.clarification_needed !== "boolean") return null;
   if (record.checklist_status !== undefined && !["complete", "ambiguous", "too_complex"].includes(String(record.checklist_status))) return null;
 
+  let backupQueries: QuestionFrame["backupQueries"];
+  if (record.backup_queries !== undefined) {
+    if (!Array.isArray(record.backup_queries) || record.backup_queries.length > 6) return null;
+    backupQueries = [];
+    for (const q of record.backup_queries) {
+      if (!q || typeof q !== "object" || !answerRequirements.some(r => r.id === q.requirementId)
+        || !["quran", "hadith", "scholar"].includes(q.family) || !["en", "ar"].includes(q.language)
+        || typeof q.text !== "string" || !q.text.trim() || q.text.length > 120
+        || q.language === "ar" && !/\p{Script=Arabic}/u.test(q.text)) return null;
+      backupQueries.push({ requirementId: q.requirementId, family: q.family, language: q.language, text: q.text.trim() });
+    }
+  }
   return {
+    ...(backupQueries ? { backupQueries } : {}),
     language: record.language as Locale,
     kind,
     questionType: record.question_type as QuestionType,
@@ -445,6 +471,7 @@ export function parseEvidencePackage(
   const verdicts = new Map<string, { ok: boolean; requirementIds: string[]; position: string | null }>();
   const contributions = new Map<string, SourceContribution>();
   const supporting = new Map<string, string[]>();
+  const scopeExcluded = new Set<string>();
   for (const item of record.assessments) {
     if (!item || typeof item !== "object") return fail("assessment_not_object");
     const assessment = item as Record<string, unknown>;
@@ -463,9 +490,17 @@ export function parseEvidencePackage(
       const c = assessment.contribution as Record<string, unknown> | undefined;
       if (!c || !isString(c.role) || !["direct", "background", "limited_example"].includes(c.role)
         || !isString(c.scope) || !["general", "case_specific"].includes(c.scope) || !Array.isArray(c.conditions)
-        || c.conditions.length > 6 || !c.conditions.every(s => typeof s === "string" && s.length > 0 && s.length <= 200)
+        || c.conditions.length > 6 || !c.conditions.every(s => typeof s === "string" && s.length > 0 && s.length <= 400)
         || !isString(assessment.scope_matches_question) || !["yes", "no", "unsure"].includes(assessment.scope_matches_question)) return fail("contribution_invalid");
-      if (direct && (c.role !== "direct" || assessment.scope_matches_question !== "yes")) return fail("source_scope_mismatch");
+      if (direct && c.role !== "direct") return fail("source_scope_mismatch");
+      // An explicit no/unsure about one otherwise well-formed candidate does
+      // not invalidate independent evidence elsewhere in the pool. This source
+      // remains excluded; no relevance or coverage verdict is promoted.
+      if ((direct || ["context", "partial"].includes(assessment.relevance)) && assessment.scope_matches_question !== "yes") {
+        scopeCompatible = false;
+        scopeExcluded.add(assessment.source_id);
+        onFailure?.("source_scope_rejected");
+      }
       // The question frame and evidence selector make separate scope decisions. A selector's
       // blanket "yes" cannot turn a narrow case into instructions for a general requested point.
       if (direct && c.scope === "case_specific" && requirementIds.some(id => requirementById.get(id)?.scope !== "case_specific")) {
@@ -479,7 +514,7 @@ export function parseEvidencePackage(
       // Context must have an explicit question link and a distinct useful contribution. A
       // keyword match or a selector's contradictory duplicate verdict is never enough.
       if (!direct && ["context", "partial"].includes(assessment.relevance)
-        && c.role !== "direct" && assessment.context_safe === "yes"
+        && scopeCompatible && c.role !== "direct" && assessment.context_safe === "yes"
         && assessment.distinct_contribution === "yes"
         && Array.isArray(assessment.related_requirement_ids) && assessment.related_requirement_ids.length > 0
         && assessment.related_requirement_ids.every(id => typeof id === "string" && requirementById.has(id))) {
@@ -527,12 +562,15 @@ export function parseEvidencePackage(
       && (record.assessments as Record<string, unknown>[]).filter(a => a.source_id === candidate.id).length === 1)
     .map(candidate => ({ ...candidate, requirementIds: [], explanationRequirementIds: supporting.get(candidate.id)!,
       contribution: contributions.get(candidate.id)!, facets: [] })) : [];
+  if (options.namedPassages?.some(group => group.some(id => scopeExcluded.has(id)))) return fail("named_passage_scope_unresolved");
   if (direct.length === 0 && (!options.partialPreview || context.length === 0)) return fail(
     record.assessments.some((item) => item.relevance === "direct" && item.context_safe !== "yes")
       ? "no_direct_evidence_unsafe_context" : "no_direct_evidence_with_requirements",
   );
   if (options.requireContributions && !options.partialPreview && (record.status !== "ready" || record.coverage !== "complete")) return fail("direct_requirement_coverage_missing");
-  if (options.partialPreview && !["ready", "insufficient"].includes(String(record.status))) return fail("partial_status_unsafe");
+  // "conflicting" is acceptable only for a difference among approved scholars; revelation and
+  // uncertain conflicts were refused above. Each position is validated below.
+  if (options.partialPreview && !["ready", "insufficient", ...(conflictType === "scholar_difference" ? ["conflicting"] : [])].includes(String(record.status))) return fail("partial_status_unsafe");
 
   // The preview uses explicit contributions instead of filling spare source slots. The legacy
   // chooser remains available for unchanged clients while the new selection is being evaluated.
@@ -561,8 +599,13 @@ export function parseEvidencePackage(
       if (!position) return fail("sealed_scholar_position_missing");
       (positions[position] ??= []).push(passage.id);
     }
-    if (Object.keys(positions).length < 2) return fail("scholar_difference_positions_missing");
-    scholarDifference = { positions };
+    // Only one position survived scope and context checks among the usable quotes. In a preview
+    // selection the answer continues without a difference: every scholar sentence must still name
+    // its scholar (attribution check), so no view is presented as unattributed or agreed.
+    if (Object.keys(positions).length < 2) {
+      if (!options.partialPreview) return fail("scholar_difference_positions_missing");
+      onFailure?.("scholar_difference_single_position");
+    } else scholarDifference = { positions };
   }
   return {
     ...(options.partialPreview ? { partial: true as const } : {}),

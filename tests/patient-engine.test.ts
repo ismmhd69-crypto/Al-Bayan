@@ -22,6 +22,15 @@ function setup() {
   };
   return { deps, events };
 }
+it("stable patient publication refuses final source rewrites without withdrawing the original", async () => {
+  const { deps, events } = setup(); deps.stableCommits = true;
+  deps.finalReview = async () => ({ status: "complete", summary: currentSection("summary"), guide: { text: "Read the cited source.", kind: "learning", refs: [] },
+    sections: [{ ...currentSection("quran"), claims: [{ ...currentSection("quran").claims[0], text: "A different final draft." }] }] });
+  const result = await runPatientResearch({ jobId: id, language: "en" }, deps);
+  expect(result.state.status).toBe("paused"); expect(result.state.groups.quran.section).toEqual(currentSection("quran"));
+  expect(events.filter(e => e.type === "section" && e.section.group === "quran")).toHaveLength(1);
+  expect(events.some(e => e.type === "withdraw")).toBe(false);
+});
 
 describe("patient staged coordinator, invented sources only", () => {
   it("publishes Quran and Sunnah before a delayed scholar search resolves", async () => {

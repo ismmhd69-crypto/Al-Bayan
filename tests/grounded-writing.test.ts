@@ -10,6 +10,7 @@ import { parseDraft } from "@/lib/ask/checks";
 function withNotes(value: any, input: any) {
   const result = structuredClone(value); result.no_answer_feedback = [];
   if (!input.sections_to_write.includes("summary")) delete result.next_step;
+  else if (!Array.isArray(result.next_step)) result.next_step = result.next_step === undefined ? [] : [result.next_step];
   for (const group of input.sections_to_write) if (Array.isArray(result[group])) for (const claim of result[group]) claim.grounding = claim.source_ids.map((id: string) => ({
     source_id: id, anchor_id: input.source_grounding_choices.find((a: any) => a.source_id === id).anchor_id,
     treatment: "particular_event", context_clause: "a reported test circumstance",

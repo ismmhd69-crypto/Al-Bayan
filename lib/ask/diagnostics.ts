@@ -36,18 +36,36 @@ export function diagnosticLogger(enabled: boolean, context: DiagnosticContext, s
 }
 
 const containers = new Set(["requirements", "sources", "assessments", "claims", "checks", "coverage", "queries", "filters", "contribution", "evidence_plan"]);
-const numbers = new Set("english_query_count german_query_count arabic_query_count count question_chars history_count qualifier_count interpretation_count duration_ms deadline_ms remaining_ms quran hadith scholar videos before after dropped original_chars english_chars german_chars context_count prompt_chars schema_chars max_output_tokens attempt http_status prompt_tokens completion_tokens reasoning_tokens cost_usd simple_count list_count explanation_count note_count claim_chars unique_sources expected_count actual_count direct_count partial_count unsafe_count unassigned_count duplicate_count missing_count query_count hits ceiling_hits wrong_kind_or_unavailable missing_text length continuation title_or_topic authenticity eligible returned direct yes no unsure invalid missing covered".split(" "));
-const booleans = new Set("scholar_enabled live_scholar_enabled videos_enabled prepared_enabled approved_topics_enabled logging_truncated manual_reviewed enabled skipped source_known readable english_present german_present original_present valid supported whole_answer_ok complete expected allowed configuration_missing body_valid fallback json_mode correction has_arabic_queries".split(" "));
+const numbers = new Set("query_count actual_dispatches actual_usd round english_query_count german_query_count arabic_query_count count question_chars history_count qualifier_count interpretation_count duration_ms deadline_ms remaining_ms quran hadith scholar videos before after dropped original_chars english_chars german_chars context_count prompt_chars schema_chars max_output_tokens attempt http_status prompt_tokens completion_tokens reasoning_tokens cost_usd simple_count list_count explanation_count note_count claim_chars unique_sources expected_count actual_count direct_count partial_count unsafe_count unassigned_count duplicate_count missing_count query_count hits ceiling_hits wrong_kind_or_unavailable missing_text length continuation title_or_topic authenticity eligible returned direct yes no unsure invalid missing covered".split(" "));
+const booleans = new Set("receipt_pending reused_approval recovery_used correction_used scholar_enabled live_scholar_enabled videos_enabled prepared_enabled approved_topics_enabled logging_truncated manual_reviewed enabled skipped source_known readable english_present german_present original_present valid supported whole_answer_ok complete expected allowed configuration_missing body_valid fallback json_mode correction has_arabic_queries".split(" "));
 const ids = new Set(["id", "source_id", "claim_id", "requirement_id", "call_id"]);
 const lists = new Set(["source_ids", "claim_ids", "requirement_ids", "missing_requirement_ids", "related_requirement_ids", "unassessed_source_ids", "dropped_source_ids"]);
+// Code-owned evidence-selection rejection codes. A model can never place free text here:
+// any value outside this list is logged as "invalid".
+export const SELECTION_REJECTION_CODES = ["assessment_not_object", "assessments_invalid_or_empty", "assessments_missing", "candidate_reference_invalid",
+  "combined_selection_format_invalid", "conflict_invalid", "conflict_unsafe_or_uncertain", "context_decision_invalid", "context_decision_missing",
+  "contribution_conflict", "contribution_invalid", "coverage_invalid", "coverage_missing", "coverage_uncertain", "direct_requirement_coverage_missing",
+  "distinct_contribution_invalid", "evidence_plan_named_passage_incomplete", "evidence_plan_requires_contributions", "gap_map_inconsistent",
+  "gap_map_preview_invalid", "gap_map_unsubstantiated", "named_passage_scope_unresolved", "no_candidates", "no_direct_evidence_unsafe_context",
+  "no_direct_evidence_with_requirements", "no_ranked_candidates", "non_direct_requirement_assignment", "package_caps_prevent_coverage",
+  "partial_status_unsafe", "position_on_non_scholar", "relevance_invalid", "relevance_missing", "requirement_ids_invalid_or_unknown",
+  "requirement_ids_missing", "response_not_object", "scholar_difference_positions_missing", "scholar_position_missing",
+  "sealed_requirement_coverage_missing", "sealed_scholar_position_missing", "source_id_invalid_or_unknown", "source_id_missing",
+  "source_scope_mismatch", "status_invalid", "status_missing", "uncertain"];
 const enums: Record<string, string[]> = {
+  reason: SELECTION_REJECTION_CODES,
+  revalidation_reason: ["scholar_unconfirmed", "source_changed", "source_unavailable", "context_unavailable", "context_changed", "source_request_failed"],
+  group: ["quran", "hadith", "scholar", "summary"],
+  failure_kind: ["selection_failure", "source_revalidation_unavailable", "checker_failure", "source_support", "missing_qualification", "context_needed", "question_coverage", "summary_provider_rejection", "summary_timeout", "writer_failure", "checkpoint_incompatible", "wording_rejected", "spending_limit", "billing_uncertain", "cancelled", "connection_interrupted", "transport_failure", "research_running"],
+  receipt_state: ["reserved", "settled", "accounted", "unknown"],
   distinct_contribution: ["yes", "no", "unsure"],
   purpose: ["answer", "qualification", "background", "example", "corroboration", "difference"], necessary: ["yes", "no"],
   scope: ["general", "case_specific"], scope_matches_question: ["yes", "no", "unsure"],
   language: ["en", "de", "ar"], kind: ["quran", "hadith", "scholar", "question", "personal", "greeting", "off_topic", "harmful"],
-  role: ["writer", "checker", "direct", "background", "limited_example"], phase: ["frame", "selection", "draft", "screening", "source_support", "answer_quality", "display_alignment", "reranking", "recovery_planning", "videos", "prepared", "other"],
+  role: ["writer", "checker", "direct", "background", "limited_example"], phase: ["frame", "selection", "draft", "summary", "screening", "source_support", "answer_quality", "display_alignment", "reranking", "recovery_planning", "videos", "prepared", "other"],
   status: ["ready", "insufficient", "ambiguous", "conflicting", "answer", "rich_answer", "incomplete", "no_answer", "no_source", "no_summary", "ask_scholar", "out_of_scope", "clarify", "busy", "error", "not_ready", "rate_limited", "forbidden", "bad_request", "too_long"],
-  outcome: ["started", "finished", "failed", "timeout", "busy", "aborted", "other", "matched", "miss", "disabled", "skipped"],
+  outcome: ["started", "finished", "failed", "timeout", "busy", "aborted", "other", "matched", "miss", "disabled", "skipped",
+    "structured_grammar_too_large", "no_eligible_endpoint", "parameter_or_schema_rejected", "authorization_rejected", "provider_rejected"],
   coverage_decision: ["complete", "incomplete", "uncertain"], conflict: ["none", "revelation_conflict", "scholar_difference", "uncertain"],
   relevance: ["direct", "partial", "context", "mention_only", "unrelated"], context_safe: ["yes", "no", "unsure"],
   verdict: ["yes", "no", "unsure", "supported", "not_supported"], finish_reason: ["stop", "length", "content_filter", "tool_calls", "error"],

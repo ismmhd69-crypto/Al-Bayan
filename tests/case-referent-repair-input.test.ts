@@ -1,9 +1,10 @@
 import { expect, it, vi } from "vitest";
-import { existsSync } from "node:fs";
+import { privateFile, privateTrace } from "./helpers/private-fixtures";
 vi.mock("server-only", () => ({}));
 import { prepareCaseReferentRepair } from "../scripts/prepare-ask-case-referent-repair";
 
-it.skipIf(!existsSync("work/local-ask-traces/2c2b118f-d7be-459d-83ae-95a6adad2f98.jsonl"))("captures the local-recorded bounded source correction after the scope guard overrides scripted approvals", async () => {
+const trace = privateFile("work/local-ask-traces/2c2b118f-d7be-459d-83ae-95a6adad2f98.jsonl", "trace 2c2b118f-d7be-459d-83ae-95a6adad2f98");
+it.skipIf(!trace.available)(`captures the local-recorded bounded source correction after the scope guard overrides scripted approvals${trace.note}`, async () => {
   const c = await prepareCaseReferentRepair(), p = JSON.parse(c.request.prompt);
   expect(c.request.maxOutputTokens).toBe(2200);
   expect(p.sections_to_write).toEqual(["hadith"]);

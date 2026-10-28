@@ -10,7 +10,7 @@ import { explainTrace } from "@/scripts/read-ask-trace";
 
 const directories: string[] = [];
 function temporary() { const directory = mkdtempSync(join(tmpdir(), "bayan-local-trace-")); directories.push(directory); return directory; }
-function local() { vi.stubEnv("NODE_ENV", "development"); vi.stubEnv("VERCEL", ""); vi.stubEnv("ASK_LOCAL_TRACE", "true"); vi.stubEnv("ASK_LOCAL_UNHURRIED", "true"); }
+function local() { vi.stubEnv("NODE_ENV", "development"); vi.stubEnv("VERCEL", ""); vi.stubEnv("ASK_LOCAL_TRACE", "true"); vi.stubEnv("ASK_LOCAL_UNHURRIED", "true"); vi.stubEnv("ASK_LOCAL_TRACE_DIR", ""); }
 afterEach(() => {
   vi.useRealTimers(); vi.restoreAllMocks(); vi.unstubAllEnvs();
   for (const directory of directories.splice(0)) {

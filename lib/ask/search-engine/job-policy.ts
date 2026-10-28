@@ -12,6 +12,6 @@ const EMBEDDING_CONFIG = ["ASK_LOCAL_EMBEDDINGS", "ASK_LOCAL_EMBEDDING_CONFIG", 
 export function researchEngineRevision(env: Record<string, string | undefined> = process.env): string {
   const build = env.ASK_JOB_BUILD_REVISION ?? env.VERCEL_GIT_COMMIT_SHA;
   if (!build || !/^[a-f0-9]{40,64}$/.test(build)) throw new Error("research_build_revision_required");
-  return createHash("sha256").update(JSON.stringify({ contract: "research-job-1", build,
+  return createHash("sha256").update(JSON.stringify({ contract: "research-job-5-selection-refs-summary", build,
     config: CONFIG.map(name => [name, env[name] ?? null]), embeddings: EMBEDDING_CONFIG.map(name => [name, env[name] ? createHash("sha256").update(env[name]!).digest("hex") : null]), credentials: CREDENTIALS.map(name => [name, !!env[name]]) })).digest("hex");
 }

@@ -1,7 +1,8 @@
 "use client";
 
 import { useId, useState } from "react";
-import { ChevronDown, Flag } from "lucide-react";
+import { ChevronDown, Flag, Heart } from "lucide-react";
+import Link from "next/link";
 
 export type ReportLabels = {
   button: string; title: string; reason: string; comment: string; send: string; cancel: string; thanks: string; error: string;
@@ -13,8 +14,8 @@ const REASONS = ["wrong_source", "misquoted", "not_answering", "unclear", "offen
 // Lets a visitor flag an answer. Privacy (plan section 10): only the reason, the cited source ids and
 // an optional comment are sent, never the question or anything about the visitor.
 // A fold-out form under the answer (built by Codex, laid out by Claude).
-export function ReportProblem({ lang, sourceIds, labels, defaultReason = "wrong_source" }: {
-  lang: "ar" | "en" | "de"; sourceIds: string[]; labels: ReportLabels; defaultReason?: (typeof REASONS)[number];
+export function ReportProblem({ lang, sourceIds, labels, donateLabel, defaultReason = "wrong_source" }: {
+  lang: "ar" | "en" | "de"; sourceIds: string[]; labels: ReportLabels; donateLabel?: string; defaultReason?: (typeof REASONS)[number];
 }) {
   const [open, setOpen] = useState(false);
   const [reason, setReason] = useState<(typeof REASONS)[number]>(defaultReason);
@@ -37,21 +38,19 @@ export function ReportProblem({ lang, sourceIds, labels, defaultReason = "wrong_
     }
   }
 
-  if (state === "sent") {
-    return (
-      <p className="report-thanks" role="status">
-        {labels.thanks}
-      </p>
-    );
-  }
   return (
     <div className="report">
-      <button type="button" className="report-toggle" aria-expanded={open} aria-controls={formId} onClick={() => setOpen(!open)}>
+      <div className="answer-footer-actions">
+      {state === "sent" ? <p className="report-thanks" role="status">{labels.thanks}</p> : <button type="button" className="report-toggle" aria-expanded={open} aria-controls={formId} onClick={() => setOpen(!open)}>
         <Flag aria-hidden="true" />
         {labels.button}
         <ChevronDown aria-hidden="true" className="chev" />
-      </button>
-      {open && (
+      </button>}
+      {donateLabel && <Link className="report-toggle answer-donate" href={`/${lang}/support`}>
+        <Heart aria-hidden="true" />{donateLabel}
+      </Link>}
+      </div>
+      {open && state !== "sent" && (
         <form id={formId} className="report-form" onSubmit={submit}>
           <fieldset disabled={state === "sending"}>
             <legend>{labels.title}</legend>

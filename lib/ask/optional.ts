@@ -1,7 +1,13 @@
-// Optional related content must never prevent returning a fully checked answer.
+import { localAskUnhurried } from "./settings";
+import { abortable } from "./abort";
+// Optional related content must never invalidate a fully checked answer.
 export async function optionalWithin<T>(
   work: (signal: AbortSignal) => Promise<T>, timeoutMs: number, parent: AbortSignal, fallback: T,
 ): Promise<T> {
+  if (localAskUnhurried()) {
+    if (parent.aborted) return fallback;
+    return abortable(Promise.resolve().then(() => work(parent)), parent).catch(() => fallback);
+  }
   if (parent.aborted || timeoutMs <= 0) return fallback;
   const controller = new AbortController();
   let timer: ReturnType<typeof setTimeout> | undefined;

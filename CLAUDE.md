@@ -1,6 +1,21 @@
 # Al-Bayan
 
-Islamic Q&A website (Sunni only, authentic sources, Arabic/German/English). This folder is its own project. It has nothing to do with WiseFlow; never read from, write to or mention the WiseFlow repo or its Supabase project here.
+Islamic Q&A website (Sunni only, authentic sources). Launch languages: Arabic and English. German is postponed until after launch. This folder is its own project. It has nothing to do with WiseFlow; never read from, write to or mention the WiseFlow repo or its Supabase project here.
+
+## Launch language workflow (Mo, 2026-10-25)
+- Focus current development, content review and testing on English and Arabic.
+- German work is stopped until after launch. Do not start German translation jobs, paid API tests or dedicated German QA campaigns.
+- German completion, native-language review and three-language parity are not launch requirements. Older three-language instructions describe the longer-term plan and do not override this decision.
+- Preserve the existing German code and content for later. This decision does not itself delete German files or change the visible language switcher.
+- Keep shared source-integrity and safety checks intact; failures affecting English or Arabic still need fixing.
+
+## Ask research and reading flow (Mo, 2026-10-25)
+- Do not abandon religious research because an answer, search, source connection, model call or correction reached an application time target. Local testing uses `ASK_LOCAL_UNHURRIED=true` for all those stages.
+- Keep visitor cancellation, source/meaning checks and spending protections. No fabricated answer or unlimited paid retry is authorized by removing time cutoffs.
+- Show real progress while research is running. Do not start with an incomplete-answer notice, an unavailable summary, or a premature conclusion.
+- Reading order: Quran, Sunnah, approved scholars, then Bayan's conclusion. Keep unfinished later groups and the conclusion from appearing ahead of earlier research. Put genuine interruption details below the available answer after research stops.
+- A first search leaving evidence gaps should lead to a bounded new-query recovery round inside the same answer when spending and integrity gates allow it.
+- Hosted platform limits still require accepted background execution. Local unhurried behavior is not proof that a hosted request can run indefinitely.
 
 ## Read first, every session
 1. `HANDOFF.md`: full history, decisions, research, how to work with Mo.

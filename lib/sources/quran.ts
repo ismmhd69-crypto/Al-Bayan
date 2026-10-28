@@ -1,8 +1,10 @@
 import { runSourceRequest } from "@/lib/ask/timing";
+import { recordLocalAskEvent } from "@/lib/ask/local-trace";
 import "server-only";
 import { isRealVerse, TRANSLATIONS, type Verse } from "./quran-meta";
 import { quranSearchPath } from "./quran-search";
-import { isTimeoutFailure } from "@/lib/ask/abort";
+import { isTimeoutFailure, abortable } from "@/lib/ask/abort";
+import { currentResearchSignal, withResearchCancellation } from "@/lib/ask/research-runtime";
 export { ATTRIBUTION, TRANSLATIONS, type Verse } from "./quran-meta";
 
 // Quran Foundation Content and Search APIs (plan section 4).
@@ -164,52 +166,81 @@ function parseVerse(v: unknown): Verse {
 }
 
 // Shared in-flight requests, so simultaneous questions never fetch the same verse twice at once.
-const inFlight = new Map<string, Promise<Verse | undefined>>();
+// One shared request per verse. It belongs to no single visitor: it is cancelled only
+// when every waiting caller has cancelled, so one visitor's Stop never fails another's lookup.
+type Flight = { promise: Promise<Verse | undefined>; controller: AbortController; waiters: number; permanent: boolean };
+const inFlight = new Map<string, Flight>();
 let activeContentRequests = 0;
 const contentWaiters: (() => void)[] = [];
 
 // A finished request hands its slot straight to the next waiter, so the limit is never exceeded.
 async function withContentSlot<T>(call: () => Promise<T>): Promise<T> {
+  const enqueued = Date.now();
   if (activeContentRequests >= MAX_CONTENT_CONCURRENCY) {
     await new Promise<void>((resolve) => contentWaiters.push(resolve));
   } else {
     activeContentRequests++;
   }
+  const began = Date.now();
+  recordLocalAskEvent("source_queue_acquired", { source: "quran_content", queue_wait_ms: began - enqueued });
   try {
     return await call();
   } finally {
+    recordLocalAskEvent("source_connection_finished", { source: "quran_content", active_ms: Date.now() - began });
     const next = contentWaiters.shift();
     if (next) next();
     else activeContentRequests--;
   }
 }
 
-export function getVerse(key: string): Promise<Verse | undefined> {
+export function getVerse(key: string, fresh = false): Promise<Verse | undefined> {
+  const flightKey = `${fresh ? "fresh:" : ""}${key}`;
   if (!allowed(key)) return Promise.resolve(undefined);
-  let p = inFlight.get(key);
-  if (!p) {
-    p = withContentSlot(() => runSourceRequest(undefined, TIMEOUT_MS, "quran_content", async requestSignal => {
+  let flight = inFlight.get(flightKey);
+  if (!flight) {
+    const controller = new AbortController();
+    // Nested readers (such as authentication) follow the shared request, not the first caller.
+    const promise = withResearchCancellation(controller.signal, () => withContentSlot(() => runSourceRequest(controller.signal, TIMEOUT_MS, "quran_content", async requestSignal => {
       const url =
         `${env.api}/content/api/v4/verses/by_key/${key}` +
         `?fields=text_uthmani,text_imlaei_simple&translations=${TRANSLATIONS.en.id},${TRANSLATIONS.de.id}`;
       const res = await authedFetch(url, {
         signal: requestSignal,
-        next: { revalidate: CACHE_SECONDS },
+        ...(fresh ? { cache: "no-store" as const } : { next: { revalidate: CACHE_SECONDS } }),
       });
       if (res.status === 404) return undefined;
       if (!res.ok) throw new Error(`Quran verse request failed with status ${res.status}`);
       const data = (await res.json()) as { verse?: unknown };
       requestSignal.throwIfAborted();
       return parseVerse(data.verse);
-    })).finally(() => inFlight.delete(key));
-    inFlight.set(key, p);
+    }))).finally(() => inFlight.delete(flightKey));
+    promise.catch(() => { /* Each caller observes its own outcome. */ });
+    flight = { promise, controller, waiters: 0, permanent: false };
+    inFlight.set(flightKey, flight);
   }
-  return p;
+  const shared = flight, caller = currentResearchSignal();
+  shared.waiters++;
+  if (!caller) { shared.permanent = true; return shared.promise; }
+  const leave = () => { if (--shared.waiters <= 0 && !shared.permanent) shared.controller.abort(caller.reason); };
+  if (caller.aborted) { leave(); return Promise.reject(caller.reason); }
+  caller.addEventListener("abort", leave, { once: true });
+  return abortable(shared.promise, caller).finally(() => caller.removeEventListener("abort", leave));
 }
 
 // The verses just before and after, given to the AI as context only (never citable).
-export async function neighbours(key: string): Promise<Verse[]> {
+export async function neighbours(key: string, fresh = false): Promise<Verse[]> {
   const [c, n] = key.split(":").map(Number);
-  const around = await Promise.all([getVerse(`${c}:${n - 1}`), getVerse(`${c}:${n + 1}`)]);
+  // A neighbour is fetched on its own and retried once, so a single transient failure of a
+  // shared neighbour request does not drop this verse (or the neighbour selected in its own right).
+  // A neighbour that fails twice still rejects: Quran context is required, never guessed.
+  const once = async (k: string) => {
+    try { return await getVerse(k, fresh); }
+    catch (error) {
+      currentResearchSignal()?.throwIfAborted();
+      recordLocalAskEvent("quran_context_retry", { key: k, reason: error instanceof Error ? error.name : "unknown" });
+      return getVerse(k, fresh);
+    }
+  };
+  const around = await Promise.all([once(`${c}:${n - 1}`), once(`${c}:${n + 1}`)]);
   return around.filter((v): v is Verse => !!v);
 }

@@ -2,6 +2,14 @@ import { expect, it, vi } from "vitest";
 vi.mock("server-only", () => ({}));
 import { nextResearchProgress, validateResearchProgress } from "@/lib/ask/research-progress";
 import { pack } from "./fixtures/rich";
+it("persists conclusion allowances in the hashed worker checkpoint without resetting on recovery", () => {
+  const first = nextResearchProgress(undefined, { conclusion: { drafts: 2, meaningUsed: true, editorialUsed: false, raw: { summary: [] } } });
+  const next = nextResearchProgress(first, { recoveryRounds: [{ attempt: 1, round: 2 }] });
+  expect(next.conclusion).toEqual(first.conclusion);
+  expect(() => nextResearchProgress(next, { conclusion: { drafts: 4, meaningUsed: true, editorialUsed: true } })).toThrow("conclusion_allowance");
+  next.conclusion!.drafts = 0;
+  expect(() => validateResearchProgress(next)).toThrow("hash");
+});
 
 it("keeps immutable discovery revisions separate from approved evidence", () => {
   const candidates = structuredClone(pack.passages);

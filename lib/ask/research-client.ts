@@ -1,5 +1,6 @@
 import type { Locale } from "@/lib/i18n";
-import { emptyPatientState, reducePatientEvent, type PatientState, type PatientEvent } from "./patient-protocol";
+import { emptyPatientState, reducePatientEvent, patientPublication, type PatientState, type PatientEvent } from "./patient-protocol";
+import { publicationSections } from "./publication";
 import { RICH_ORDER } from "./rich-answer";
 import {
   emptyRichState,
@@ -68,6 +69,7 @@ export function researchClient(options: {
   fetch?: typeof fetch;
   onConnection?: (state: ResearchConnection) => void;
   onPatientState?: (state: PatientState | null) => void;
+  stablePublications?: boolean;
 }) {
   const network = options.fetch ?? fetch;
   let scope: string | null = null,
@@ -367,12 +369,18 @@ export function researchClient(options: {
             if (!patient && state.sequence) throw new ResearchClientError("invalid_response");
             patient ??= emptyPatientState(locator.id, options.language);
             try {
-              for (const event of value.events) patient = reducePatientEvent(patient, event as PatientEvent);
+              for (const event of value.events) {
+                patient = reducePatientEvent(patient, event as PatientEvent);
+                if (options.stablePublications) patient = { ...patient, publication: patientPublication(patient) };
+              }
             } catch { throw new ResearchClientError("invalid_response"); }
             state = { ...state, requestId: locator.id, sequence: patient.sequence,
+              ...(patient.publication ? { version: 3 as const, publication: patient.publication } : {}),
               sections: RICH_ORDER.flatMap(g => patient!.groups[g].section ? [patient!.groups[g].section!] : []),
               terminal: ["complete", "failed", "cancelled"].includes(patient.status),
               result: patient.status === "complete" ? patient.prepared ? { status: "answer", answer: patient.prepared } : { status: "rich_answer", answer: patient.answer } : patient.status === "failed" ? { status: "error" } : undefined };
+            if (patient.publication) state.sections = publicationSections(patient.publication);
+            if (patient.publication && RICH_ORDER.some(g => patient!.publication!.groups[g].notices.length)) state.result = { status: "incomplete", language: options.language, withdraw: false, sections: state.sections };
           } else {
             if (patient) throw new ResearchClientError("invalid_response");
             for (const event of value.events) state = reduceRichEvent(state, event as RichEvent);

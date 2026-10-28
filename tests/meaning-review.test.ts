@@ -11,6 +11,23 @@ it("keeps unrelated originals out of the narrow meaning check and refuses uncert
   expect(parseMeaningReview({ claims: {} }, items)).toBeNull();
   expect(parseMeaningReview({ claims: { C1: { verdict: "no", explanation: "" } } }, items)).toBeNull();
 });
+it("pairs English claims only with their cited original's source-provided translation", () => {
+  const items = [{ text: "A test claim.", refs: ["Q1", "HE1"] }];
+  const serialized = { question: { language: "en" }, passages: [
+    { id: "Q1", type: "quran", arabic: "untouched original", translation_en: "Source-provided wording", displayTranslation: { status: "ready", text: "AI display wording" } },
+    { id: "HE1", type: "hadith", arabic: "another original", displayTranslation: { status: "ready", text: "Unapproved display wording" } },
+    { id: "Q2", type: "quran", arabic: "unrelated", translation_en: "Unrelated source wording" },
+  ] };
+  const req = meaningReviewRequest(items, serialized, new AbortController().signal, true), input = JSON.parse(req.prompt);
+  expect(input.claims[0].originals[0]).toMatchObject({ arabic: "untouched original", source_translation: { text: "Source-provided wording", role: "reading_aid_only" } });
+  expect(input.claims[0].originals[1].source_translation).toBeUndefined();
+  expect(req.prompt).not.toContain("display wording"); expect(req.prompt).not.toContain("Unrelated source wording");
+  const arabic = JSON.parse(meaningReviewRequest(items, { ...serialized, question: { language: "ar" } }, new AbortController().signal).prompt);
+  expect(arabic.claims[0].originals.every((p: any) => p.source_translation === undefined)).toBe(true);
+  const invalid = { claims: { C1: { verdict: "no", explanation: "A translation-only finding is not grounded in Arabic.",
+    finding: { category: "source_support", claim_quote: "A test claim.", source_id: "Q1", source_quote: "Source-provided wording" } } } };
+  expect(parseMeaningReview(invalid, items.slice(0, 1), serialized)).toBeNull();
+});
 it("feeds a narrow scope rejection into the existing single correction without streaming it as checked", async () => {
   const deps = dependencies(); deps.meaningReview = true; let rejected = false, corrected = false;
   const writer = deps.writer.generateJson;
@@ -38,7 +55,7 @@ it("withdraws an earlier explanation when the later independent meaning check fi
   expect(await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {})).toMatchObject({ status: "incomplete", withdraw: true });
 });
 
-it("checks survivors even when another claim already failed, preserving original claim IDs in feedback", async () => {
+it("checks new survivors after a sibling fails without discarding an earlier exact approval", async () => {
   const deps = dependencies(); deps.meaningReview = true; let checkedSurvivors = false;
   deps.verifier.generateJson = async req => {
     const input = JSON.parse(req.prompt);
@@ -56,8 +73,12 @@ it("checks survivors even when another claim already failed, preserving original
   };
   const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {});
   expect(result.status).toBe("incomplete"); expect(checkedSurvivors).toBe(true);
-  // No unchecked survivor can become a ready section after another claim fails.
-  if (result.status === "incomplete") expect(result.sections?.some(s => s.outcome === "ready")).toBe(false);
+  // The Quran sentence passed its own meaning review before the sibling failure.
+  // Neither failed, newly reviewed sibling may become ready from that approval.
+  if (result.status === "incomplete") {
+    expect(result.sections?.find(s => s.group === "quran")).toMatchObject({ outcome: "ready", claims: [{ text: "The Quran connects care with daily responsibility." }] });
+    expect(result.sections?.filter(s => s.group !== "quran").every(s => s.outcome !== "ready" && !s.claims.length)).toBe(true);
+  }
 });
 
 it("leaves room for reasoning and visible findings in the recorded seven-claim truncation shape", () => {

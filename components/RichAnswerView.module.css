@@ -7,7 +7,8 @@
 .notice {
   font-size: 0.82rem;
   color: var(--ink-3);
-  margin: 0 0 1rem;
+  margin: 0;
+  line-height: 1.5;
 }
 
 .section {
@@ -38,7 +39,11 @@
   margin-inline-start: 0.3rem;
 }
 
-.refs a {
+.refs a,
+.preview a.refQuran,
+.preview a.refHadith,
+.preview a.refScholar,
+.preview a.refDefault {
   display: inline-flex;
   align-items: center;
   gap: 0.2rem;
@@ -47,44 +52,54 @@
   font-weight: 600;
   line-height: 1.2;
   text-decoration: none;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
 /* Color-Specific Citation Pills */
 .refQuran {
-  color: #14532d;
-  background: #f0fdf4;
-  border: 1px solid #bbf7d0;
+  color: var(--quran-accent);
+  background: var(--quran-bg);
+  border: 1px solid var(--quran-border);
+  text-decoration: none;
 }
 .refQuran:hover {
-  background: #dcfce7;
-  border-color: #86efac;
+  background: var(--quran-bg-hover);
+  border-color: var(--quran-accent);
+  text-decoration: none;
 }
 
 .refHadith {
-  color: #1e3a8a;
-  background: #eff6ff;
-  border: 1px solid #bfdbfe;
+  color: var(--sunnah-accent);
+  background: var(--sunnah-bg);
+  border: 1px solid var(--sunnah-border);
+  text-decoration: none;
 }
 .refHadith:hover {
-  background: #dbeafe;
-  border-color: #93c5fd;
+  background: var(--sunnah-bg-hover);
+  border-color: var(--sunnah-accent);
+  text-decoration: none;
 }
 
 .refScholar {
-  color: #334155;
-  background: #f8fafc;
-  border: 1px solid #cbd5e1;
+  color: var(--scholar-accent);
+  background: var(--scholar-bg);
+  border: 1px solid var(--scholar-border);
+  text-decoration: none;
 }
 .refScholar:hover {
-  background: #f1f5f9;
-  border-color: #94a3b8;
+  background: var(--scholar-bg-hover);
+  border-color: var(--scholar-accent);
+  text-decoration: none;
 }
 
 .refDefault {
   color: var(--gold-ink);
   background: var(--gold-soft);
   border: 1px solid var(--gold-line);
+  text-decoration: none;
+}
+.refDefault:hover {
+  text-decoration: none;
 }
 
 /* Sources & Passage Cards */
@@ -109,15 +124,15 @@
 
 /* Distinct Stripe per Section */
 .passageQuran {
-  border-inline-start: 3.5px solid #15803d;
+  border-inline-start: 4px solid var(--quran-accent);
 }
 
 .passageHadith {
-  border-inline-start: 3.5px solid #2563eb;
+  border-inline-start: 4px solid var(--sunnah-accent);
 }
 
 .passageScholar {
-  border-inline-start: 3.5px solid #64748b;
+  border-inline-start: 4px solid var(--scholar-accent);
 }
 
 .source {
@@ -186,27 +201,37 @@
   font-family: var(--f-ar-body);
 }
 
-.source small,
 .section > small {
   display: block;
   font-size: 0.75rem;
   color: var(--ink-3);
   margin-top: 0.35rem;
 }
+.section > small:last-of-type {
+  margin-bottom: 0.5rem;
+}
 .section > small a {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
+.answerFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+}
+
 .gap {
-  border-inline-start: 3px solid #64748b;
-  background: #f8fafc;
-  border-radius: 6px;
-  padding: 0.65rem 0.85rem;
-  color: var(--ink-2);
-  font-size: 0.88rem;
-  line-height: 1.5;
-  margin: 0.5rem 0 1rem;
+  color: var(--ink-3);
+  font-size: 0.8rem;
+  line-height: 1.45;
+  margin: 0;
+  border: none;
+  background: none;
+  padding: 0;
 }
 
 /* Citations Fold Drawer (Bayan Summary) */
@@ -234,12 +259,12 @@
   transition: background-color 0.15s ease;
 }
 .foldSummary:hover {
-  background: #f8fafc;
+  background: var(--bg-2);
   color: var(--ink);
 }
 .citationsFold[open] .foldSummary {
   border-bottom: 1px solid var(--line);
-  background: #f8fafc;
+  background: var(--surface-2);
 }
 
 .foldCount {
@@ -257,7 +282,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  background: #fdfdfd;
+  background: var(--surface-2);
 }
 
 .foldContent .preview {
@@ -266,6 +291,7 @@
   margin: 0;
   padding-bottom: 0.5rem;
   border-bottom: 1px dashed var(--line);
+  color: var(--ink-2);
 }
 .foldContent .preview:last-child {
   border-bottom: none;

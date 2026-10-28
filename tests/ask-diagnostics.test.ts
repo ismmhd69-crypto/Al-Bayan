@@ -96,5 +96,34 @@ describe("reason-only Ask diagnostics", () => {
     expect(sink).toHaveBeenCalledTimes(1);
     diagnosticLogger(true, { ...context, writerChain: "secret\nquestion text", revision: "source excerpt" }, sink)("screening", "assessments_missing", 2);
     expect(sink.mock.calls[1][0]).not.toMatch(/secret|source excerpt|question text/);
+    logger("retrieval", "stable_source_recheck_detail", 3, { source_id: "Q4:148", group: "quran", revalidation_reason: "context_unavailable", question: "Private visitor text", arabic: "Private original text" });
+    expect(sink.mock.calls[2][0]).toContain('"revalidation_reason":"context_unavailable"');
+    expect(sink.mock.calls[2][0]).not.toContain("Private");
+  });
+});
+
+describe("production failure explanations (reliability plan Phase 0)", () => {
+  const context = { requestId: "r-1", writerChain: "w", verifierChain: "v", claimAudit: false, tiered: false, lean: false };
+  it("logs the selection retry reason, recovery search count and per-answer accounting as fixed codes and numbers", () => {
+    const lines: string[] = [], log = diagnosticLogger(true, context, line => lines.push(line));
+    log("retrieval", "simple_selection_reassessment_started", 0, { reason: "candidate_reference_invalid" });
+    log("retrieval", "patient_selection_source_scope_mismatch", 5);
+    log("screening", "rich_unsupported_meaning", 7, { claim_id: "C1", source_ids: ["Q2:156"] });
+    log("retrieval", "simple_recovery_searches_started", 0, { query_count: 6, requirement_id: "R2" });
+    log("answer", "research_accounting", 90_000, { actual_dispatches: 6, actual_usd: 0.0114, receipt_pending: false, recovery_used: false,
+      correction_used: true, reused_approval: false, status: "incomplete", duration_ms: 90_000 });
+    const rows = lines.map(l => JSON.parse(l.replace(/^ask diagnostic: /, "")));
+    expect(rows[0].details).toEqual({ reason: "candidate_reference_invalid" });
+    expect(rows[1].code).toBe("patient_selection_source_scope_mismatch");
+    expect(rows[2].details).toEqual({ claim_id: "C1", source_ids: ["Q2:156"] });
+    expect(rows[3].details).toEqual({ query_count: 6, requirement_id: "R2" });
+    expect(rows[4].details).toEqual({ actual_dispatches: 6, actual_usd: 0.0114, receipt_pending: false, recovery_used: false,
+      correction_used: true, reused_approval: false, status: "incomplete", duration_ms: 90_000 });
+  });
+  it("never logs free text placed in a reason field", () => {
+    const lines: string[] = [], log = diagnosticLogger(true, context, line => lines.push(line));
+    log("retrieval", "simple_selection_reassessment_started", 0, { reason: "an invented private visitor question", question: "invented" });
+    expect(lines[0]).not.toContain("invented");
+    expect(JSON.parse(lines[0].replace(/^ask diagnostic: /, "")).details).toEqual({ reason: "invalid" });
   });
 });

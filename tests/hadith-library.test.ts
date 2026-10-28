@@ -8,11 +8,15 @@ let rowsResult: { data: unknown; error: { message: string } | null } = { data: [
 const calls = { rpc: 0, from: 0 };
 vi.mock("@supabase/supabase-js", () => ({
   createClient: () => ({
-    rpc: async () => { calls.rpc++; return rpcResult; },
+    rpc: () => {
+      calls.rpc++;
+      const chain = { eq: () => chain, abortSignal: () => chain, then: (res: (v: unknown) => unknown) => res(rpcResult) };
+      return chain;
+    },
     from: () => {
       calls.from++;
       const chain: Record<string, unknown> = {};
-      for (const m of ["select", "in", "eq"]) chain[m] = () => chain;
+      for (const m of ["select", "in", "eq", "like", "limit", "abortSignal"]) chain[m] = () => chain;
       chain.maybeSingle = async () => ({ data: (rowsResult.data as unknown[])?.[0] ?? null, error: rowsResult.error });
       chain.then = (res: (v: unknown) => unknown) => res(rowsResult);
       return chain;
@@ -25,7 +29,7 @@ import {
   MAX_LIBRARY_HADITH_CHARS, SUNNAH_ATTRIBUTION, type StoredHadithRow,
 } from "@/lib/sources/hadith-rules";
 import { hadithMode } from "@/lib/sources/hadith-mode";
-import { getLibraryHadith, searchLibraryHadith } from "@/lib/sources/hadith-library";
+import { findLibraryHadithByReference, getLibraryHadith, searchLibraryHadith } from "@/lib/sources/hadith-library";
 import { attachScholarTranslations } from "@/lib/ask/display-translations";
 import { validateAnswerV2, type AnswerV2 } from "@/lib/ask/answer-v2";
 import { hydrateAnswer } from "@/lib/chat/hydrate";
@@ -280,6 +284,37 @@ describe("library lookup", () => {
     rpcResult = { data: [{ source_id: UUID }], error: null }; rowsResult = { data: [row()], error: null };
     expect(await searchLibraryHadith({ ar: ["الصيام" ] })).toEqual([]);
     expect((await searchLibraryHadith({ ar: ["الصيام"] }, { meaningCandidates: true })).map(h => h.id)).toEqual([`SH${UUID}`]);
+  });
+});
+
+describe("stored bibliographic hints retain current eligibility", () => {
+  afterEach(() => { calls.rpc = 0; calls.from = 0; });
+  const env = () => { process.env.NEXT_PUBLIC_SUPABASE_URL = "http://x"; process.env.SUPABASE_SECRET_KEY = "k"; };
+  it("returns the stored original only after its ID passes the approved search RPC", async () => {
+    env(); rowsResult = { data: [row()], error: null }; rpcResult = { data: [{ source_id: UUID }], error: null };
+    const found = await findLibraryHadithByReference("bukhari", 2916);
+    expect(found.map(h => h.id)).toEqual([`SH${UUID}`]);
+    expect(found[0].arabic).toBe(row().text_original); expect(calls.rpc).toBe(1);
+  });
+  it("does not accept published or previously indexed material without current eligibility", async () => {
+    env(); rowsResult = { data: [row()], error: null }; rpcResult = { data: [], error: null };
+    expect(await findLibraryHadithByReference("bukhari", 2916)).toEqual([]);
+    rpcResult = { data: [{ source_id: "22222222-2222-4333-8444-555555555555" }], error: null };
+    expect(await findLibraryHadithByReference("bukhari", 2916)).toEqual([]);
+  });
+  it("does not turn a number prefix, another collection or an incomplete original into a match", async () => {
+    env(); rowsResult = { data: [row({ reference: "Sahih al-Bukhari, hadith 29160, book 56, باب", url: "https://sunnah.com/bukhari:29160" }),
+      row({ collection: "Sahih Muslim", reference: "Sahih Muslim, hadith 2916, book 56, باب", url: "https://sunnah.com/muslim:2916" }),
+      row({ text_original: "وحدثنا راو آخر بهذا الإسناد نحوه" })], error: null };
+    rpcResult = { data: [{ source_id: UUID }], error: null };
+    expect(await findLibraryHadithByReference("bukhari", 2916)).toEqual([]); expect(calls.rpc).toBe(0);
+  });
+  it("fails closed on a permission lookup error, invalid number or cancellation", async () => {
+    env(); rowsResult = { data: [row()], error: null }; rpcResult = { data: null, error: { message: "unavailable" } };
+    await expect(findLibraryHadithByReference("bukhari", 2916)).rejects.toThrow("eligibility lookup failed");
+    expect(await findLibraryHadithByReference("bukhari", -1)).toEqual([]);
+    const controller = new AbortController(); controller.abort();
+    await expect(findLibraryHadithByReference("bukhari", 2916, controller.signal)).rejects.toThrow();
   });
 });
 

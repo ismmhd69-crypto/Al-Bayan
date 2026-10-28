@@ -1,5 +1,7 @@
 # Bayan: plan for the real website
 
+**Launch scope update from Mo, 2026-10-25:** launch with English and Arabic as the active development and acceptance languages. German is stopped until after launch, including translation work, paid evaluations and dedicated QA. Preserve existing German work for later. Older references to three-language completion are the longer-term roadmap, not current launch gates. This planning decision does not itself remove German from the running interface.
+
 Version 3, 2026-09-27. Version 2 followed an outside review by GPT Codex. Mo then decided the site stays **AI first**: people ask anything and get an automatic answer. Codex's other fixes (privacy, security, source rights, honest labels, accessibility, testing) are kept. Section 13 lists what changed. Older versions are in git history.
 
 **Answer structure checkpoint, 2026-09-30:** Live and prepared answers now target one checked `AnswerV2` shape: simple cited answer, optional cited list, Quran, hadith, scholar quotes, optional folded detail, and videos that are never evidence. Empty sections stay hidden. Bare sources are never shown as an answer; failed summaries return the honest no-summary result. Unresolved scholar differences refuse safely instead of choosing a view by quote count. Prepared approvals are tied to the exact reviewed content hash. The final full evaluation and Mo's content acceptance are still required before launch.

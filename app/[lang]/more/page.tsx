@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Bookmark, ChevronRight, Flag, HeartHandshake, Info, Lock, type LucideIcon } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import LangSwitch from "@/components/LangSwitch";
+import ThemeToggle from "@/components/ThemeToggle";
 import AccountRow from "@/components/AccountRow";
 import TeamReviewSection from "@/components/TeamReviewSection";
 import { authText } from "@/lib/auth-text";
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 type Row = { Icon: LucideIcon; title: string; note?: string; href?: string; custom?: React.ReactNode };
 
-export default async function MorePage({ params }: { params: Promise<{ lang: string }> }) {
+export default async function MorePage({ params }: { params: Promise<{ lang: string }> }): Promise<React.ReactElement> {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const d = getDictionary(lang);
@@ -43,6 +44,15 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
       <header className="page-head">
         <h1>{t.title}</h1>
       </header>
+
+      <section className="topic-group" aria-labelledby="theme-h">
+        <h2 id="theme-h" className="eyebrow">
+          {t.theme}
+        </h2>
+        <div className="more-theme-row">
+          <ThemeToggle labels={{ light: t.themeLight, dark: t.themeDark }} />
+        </div>
+      </section>
 
       <section className="topic-group" aria-labelledby="lang-h">
         <h2 id="lang-h" className="eyebrow">

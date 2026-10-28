@@ -24,12 +24,26 @@ export function pipelineMeaningRanker(reranker: MeaningReranker, onAudit?: (audi
     const rankings: { id: string; score: number }[][] = [];
     const concerns = frame.requirements.map(r => ({ id: r.id, text: concernMeaning(frame, r) }));
     let ignoredUnknownCount = 0;
-    // Sequential and at most four calls. No unbounded per-passage paid fan-out.
-    for (const concern of concerns) {
+    // One bounded request can score all concerns without changing the fair merge.
+    // Existing custom/saved rerankers keep their sequential interface.
+    let batch: { id: string; score: number }[][] | undefined;
+    try {
+      batch = reranker.batch && concerns.length > 1 ? await abortable(reranker.batch(concerns, passages, signal), signal) : undefined;
+      if (batch && batch.length !== concerns.length) throw Error("invalid_reranker_result");
+    } catch (error) {
+      signal.throwIfAborted();
+      const reason = error instanceof Error ? error.message : "";
+      if (!options.retainCandidatesOnInvalidResult || !["invalid_reranker_result", "invalid_reranker_score", "unreadable_reranker_result"].includes(reason)) throw error;
+      const retained = researchCandidatePool(frame, candidates, limit).candidates;
+      onAudit?.({ concerns: concerns.length, before: candidates.length, after: retained.length, modelCalls: 1,
+        droppedIds: candidates.filter(c => !retained.some(p => p.id === c.id)).map(c => c.id), ignoredUnknownCount: 0, fallbackReason: reason });
+      return retained;
+    }
+    for (const [index, concern] of concerns.entries()) {
       signal.throwIfAborted();
       let checked: ReturnType<typeof checkedRerankerScores>;
       try {
-        const result = await abortable(reranker(concern, passages, signal), signal);
+        const result = batch ? batch[index] : await abortable(reranker(concern, passages, signal), signal);
         checked = checkedRerankerScores(result, candidates.map(c => c.id));
       } catch (error) {
         signal.throwIfAborted();
@@ -41,7 +55,7 @@ export function pipelineMeaningRanker(reranker: MeaningReranker, onAudit?: (audi
         if (!options.retainCandidatesOnInvalidResult || !["invalid_reranker_result", "invalid_reranker_score", "unreadable_reranker_result"].includes(reason)) throw error;
         const retained = researchCandidatePool(frame, candidates, limit).candidates;
         onAudit?.({ concerns: frame.requirements.length, before: candidates.length, after: retained.length,
-          modelCalls: rankings.length + 1, droppedIds: candidates.filter(c => !retained.some(p => p.id === c.id)).map(c => c.id), ignoredUnknownCount: 0, fallbackReason: reason });
+          modelCalls: batch ? 1 : rankings.length + 1, droppedIds: candidates.filter(c => !retained.some(p => p.id === c.id)).map(c => c.id), ignoredUnknownCount: 0, fallbackReason: reason });
         return retained;
       }
       ignoredUnknownCount += checked.ignoredUnknownCount;
@@ -57,7 +71,7 @@ export function pipelineMeaningRanker(reranker: MeaningReranker, onAudit?: (audi
       const item = ranking[rank]; if (item && chosen.size < limit) chosen.add(item.id);
     }
     const result = [...chosen].map(id => byId.get(id)!);
-    onAudit?.({ concerns: frame.requirements.length, before: candidates.length, after: result.length, modelCalls: rankings.length, droppedIds: candidates.filter(c => !chosen.has(c.id)).map(c => c.id), ignoredUnknownCount });
+    onAudit?.({ concerns: frame.requirements.length, before: candidates.length, after: result.length, modelCalls: batch ? 1 : rankings.length, droppedIds: candidates.filter(c => !chosen.has(c.id)).map(c => c.id), ignoredUnknownCount });
     return result;
   };
 }

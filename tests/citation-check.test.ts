@@ -9,6 +9,13 @@ const items = [{ text: "First supported idea. A second qualified idea.", refs: [
 const originals = [{ id: "Q1", arabic: "نص اختباري أول مستقل لا يستعمل كدليل ديني" }, { id: "Q2", arabic: "نص اختباري ثان مستقل لا يستعمل كدليل ديني" }];
 const clause = (text: string, i: number) => ({ text, supported: "yes", scope_preserved: "yes", qualifiers_preserved: "yes", evidence: [{ source_id: originals[i].id, original_excerpt: originals[i].arabic }] });
 const good = () => ({ citation_checks: [{ claim_id: "C1", clauses: [clause("First supported idea.", 0), clause("A second qualified idea.", 1)] }] });
+it("keeps answer polarity in the checked wording and never overrides a negative support verdict", () => {
+  const claim = { text: "No: the test protocol still requires the stated precaution.", refs: ["Q1"], requirementId: "R1" };
+  const checked = clause(claim.text, 0);
+  expect(checkCitationBindings({ citation_checks: [{ claim_id: "C1", clauses: [checked] }] }, [claim], originals).blocked).toEqual([]);
+  expect(checkCitationBindings({ citation_checks: [{ claim_id: "C1", clauses: [{ ...checked, supported: "no" }] }] }, [claim], originals).blocked).toEqual(["C1"]);
+  expect(checkCitationBindings({ citation_checks: [{ claim_id: "C1", clauses: [{ ...checked, text: claim.text.replace("No: ", "") }] }] }, [claim], originals).blocked).toEqual(["C1"]);
+});
 it("ignores sentence punctuation without dropping words, negations, qualifications or numeric punctuation", () => {
   const punctuation = good(); punctuation.citation_checks[0].clauses.forEach(c => { c.text = c.text.replace(/\./g, ""); });
   expect(checkCitationBindings(punctuation, items, originals).blocked).toEqual([]);

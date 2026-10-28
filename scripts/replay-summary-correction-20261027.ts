@@ -1,0 +1,21 @@
+// Read-only replay of a private local trace. Never prints question or source text.
+import { readFileSync } from "node:fs";
+import { strict as assert } from "node:assert";
+const path = "work/local-ask-traces/4b010cc8-aacd-42c0-9d18-27c0fb4c032a.jsonl";
+const rows = readFileSync(path, "utf8").trim().split(/\r?\n/u).map(line => JSON.parse(line));
+const event = (kind: string, id: string) => rows.find(r => r.event === kind && r.data?.call_id === id)?.data;
+const first = event("model_response", "A3").value.summary;
+const review1 = event("model_response", "A4").value.claim_assessments;
+const request = event("model_request", "A5").prompt;
+const patch = event("model_response", "A5").value.summary.P1;
+const review2 = event("model_response", "A6").value.claim_assessments;
+assert.equal(review1[0].direct_support, "yes");
+assert.equal(review1[1].finding.category, "missing_qualification");
+assert.deepEqual(request.correction.checker_findings.sentence_patches[0].replace_indices, [1]);
+assert.ok(patch.text && patch.source_refs.length);
+const secondRequest = event("model_request", "A6").prompt;
+assert.equal(secondRequest.claims[0].claim, first[0].text);
+assert.equal(secondRequest.claims[1].claim, patch.text);
+assert.equal(review2[0].direct_support, "no");
+assert.equal(review2[1].direct_support, "no");
+console.log("Saved correction replay: targeted replacement, unchanged sibling and conflicting later findings reproduced. No provider calls.");

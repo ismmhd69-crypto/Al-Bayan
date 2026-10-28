@@ -10,6 +10,7 @@ export type ResearchDiscoveryBatch = { attempt: number; requirementIds: string[]
 export type PatientResearchProgress = { version: 1; revision: number; previousHash: string | null; hash: string;
   candidates: PassageForSelection[]; working: PassageForSelection[] | null; queries: ResearchQueryRecord[];
   recoveryRounds: { attempt: number; round: number }[];
+  conclusion?: NonNullable<import("./progressive-checkpoint").ProgressiveCheckpoint["conclusion"]>;
   batches: Partial<Record<PatientSourceGroup, ResearchDiscoveryBatch>> };
 export type SaveResearchProgress = (progress: PatientResearchProgress) => Promise<void>;
 const sha = (value: unknown) => createHash("sha256").update(JSON.stringify(value)).digest("hex");
@@ -18,6 +19,8 @@ const families = ["quran", "hadith", "scholar"];
 /** Raw research is private discovery data, never a checked answer. Limits bound
  * stored work, not elapsed answer time. A rejected snapshot never replaces the old one. */
 export function validateResearchProgress(value: PatientResearchProgress, frame?: Pick<QuestionFrame, "requirements">): PatientResearchProgress {
+  if (value?.conclusion && (!Number.isSafeInteger(value.conclusion.drafts) || value.conclusion.drafts < 0 || value.conclusion.drafts > 3
+    || typeof value.conclusion.meaningUsed !== "boolean" || typeof value.conclusion.editorialUsed !== "boolean")) throw Error("invalid_conclusion_allowance");
   if (!value || value.version !== 1 || !Number.isSafeInteger(value.revision) || value.revision < 1 || value.revision > 512
     || !(value.previousHash === null || typeof value.previousHash === "string" && /^[a-f0-9]{64}$/.test(value.previousHash))
     || !Array.isArray(value.candidates) || value.candidates.length > 256 || !(value.working === null || Array.isArray(value.working) && value.working.length <= 120)
@@ -58,12 +61,13 @@ export function validateResearchProgress(value: PatientResearchProgress, frame?:
   return structuredClone(value);
 }
 
-export function nextResearchProgress(previous: PatientResearchProgress | undefined, changes: Partial<Pick<PatientResearchProgress, "candidates" | "working" | "queries" | "batches" | "recoveryRounds">>, frame?: Pick<QuestionFrame, "requirements">) {
+export function nextResearchProgress(previous: PatientResearchProgress | undefined, changes: Partial<Pick<PatientResearchProgress, "candidates" | "working" | "queries" | "batches" | "recoveryRounds" | "conclusion">>, frame?: Pick<QuestionFrame, "requirements">) {
   if (previous) validateResearchProgress(previous, frame);
   const body = { version: 1 as const, revision: (previous?.revision ?? 0) + 1, previousHash: previous?.hash ?? null,
     candidates: structuredClone(changes.candidates ?? previous?.candidates ?? []),
     working: structuredClone(changes.working === undefined ? previous?.working ?? null : changes.working),
     queries: structuredClone(changes.queries ?? previous?.queries ?? []), batches: structuredClone(changes.batches ?? previous?.batches ?? {}),
-    recoveryRounds: structuredClone(changes.recoveryRounds ?? previous?.recoveryRounds ?? []) };
+    recoveryRounds: structuredClone(changes.recoveryRounds ?? previous?.recoveryRounds ?? []),
+    ...((changes.conclusion ?? previous?.conclusion) ? { conclusion: structuredClone(changes.conclusion ?? previous!.conclusion!) } : {}) };
   return validateResearchProgress({ ...body, hash: sha(body) }, frame);
 }

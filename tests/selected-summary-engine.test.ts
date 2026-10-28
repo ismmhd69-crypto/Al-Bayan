@@ -65,6 +65,22 @@ it("cannot complete on selected IDs when final coverage fails, and spends at mos
   expect(result).toMatchObject({ status: "incomplete", withdraw: false }); expect(choices).toBe(2);
   if (result.status === "incomplete") expect(result.sections?.some(s => s.group === "summary")).toBe(false);
 });
+it("does not flag a committed source when a selected summary repeats its text but fails final review", async () => {
+  const first = await runRichAnswer(pack, "en", setup(), new AbortController().signal, "Explain care", {});
+  expect(first.status).toBe("rich_answer"); if (first.status !== "rich_answer") return;
+  const deps = setup(), notices = vi.fn(); deps.rich = { onIntegrity: notices };
+  deps.verifier.generateJson = async req => {
+    const input = JSON.parse(req.prompt), raw = strictAudit(req.prompt);
+    if (input.full_answer) {
+      const row = raw.claim_assessments.find((c: any) => c.claim_id === input.summary_claim_ids[0]);
+      Object.assign(row, { direct_support: "no", reason_codes: ["unsupported_meaning"], explanation: "Invented summary-only negative control." });
+    }
+    return raw;
+  };
+  const result = await runRichAnswer(pack, "en", deps, new AbortController().signal, "Explain care", {}, Infinity,
+    { checkedSections: first.answer.sections.filter(s => s.group !== "summary"), committedSources: true });
+  expect(result.status).toBe("incomplete"); expect(notices).not.toHaveBeenCalled();
+});
 
 it("rejects a generated-text response whole instead of falling back to prose synthesis", async () => {
   const deps = setup(), writer = deps.writer.generateJson; let choices = 0;

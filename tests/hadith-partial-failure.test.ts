@@ -28,3 +28,20 @@ it("preserves another language's results after a catalogue outage and records it
   expect((await searchHadithMulti({ ar: ["حقوق الناس"], de: ["حقوق الناس"] }, 4, failure)).map(h => h.id)).toEqual(["HE9876"]);
   expect(failure).toHaveBeenCalled();
 });
+
+it("does not make Arabic readers wait for unrelated translations and still rejects an ineligible original", async () => {
+  provider(); const { getHadith } = await import("@/lib/sources/hadith");
+  expect((await getHadith("9876", "ar"))?.translations).toEqual({ en: null, de: null });
+  expect(await getHadith("7777", "ar")).toBeNull();
+  expect(vi.mocked(fetch).mock.calls.every(([input]) => new URL(String(input)).searchParams.get("language") === "ar")).toBe(true);
+});
+
+it("retains German discovery for an English reader while loading only the Arabic original and English display", async () => {
+  provider(); const { searchHadithMulti } = await import("@/lib/sources/hadith");
+  const found = await searchHadithMulti({ de: ["حقوق الناس"] }, 4, undefined, "en");
+  expect(found.map(h => h.id)).toEqual(["HE9876"]);
+  expect(found[0].translations).toEqual({ en: "Invented display text", de: null });
+  const urls = vi.mocked(fetch).mock.calls.map(([input]) => new URL(String(input)));
+  expect(urls.some(url => url.pathname.endsWith("/hadeeths/list/") && url.searchParams.get("language") === "de")).toBe(true);
+  expect(urls.filter(url => url.pathname.endsWith("/hadeeths/one/")).every(url => url.searchParams.get("language") !== "de")).toBe(true);
+});

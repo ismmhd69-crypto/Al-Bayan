@@ -76,7 +76,9 @@ export function hybridSearch(index: SearchIndex, concern: SearchConcern, options
   return { hits: [...selected.values()].sort((a, b) => b.fusionScore - a.fusionScore || a.passage.id.localeCompare(b.passage.id)), audit };
 }
 
-export type MeaningReranker = (concern: { id: string; text: string }, passages: { id: string; original: string; before: string; after: string; title: string }[], signal: AbortSignal) => Promise<{ id: string; score: number }[]>;
+export type MeaningReranker = ((concern: { id: string; text: string }, passages: { id: string; original: string; before: string; after: string; title: string }[], signal: AbortSignal) => Promise<{ id: string; score: number }[]>) & {
+  batch?: (concerns: { id: string; text: string }[], passages: { id: string; original: string; before: string; after: string; title: string }[], signal: AbortSignal) => Promise<{ id: string; score: number }[][]>;
+};
 
 /** Ranking is not evidence approval. A missing/invalid ranking fails explicitly. */
 export async function rerankByMeaning(concern: SearchConcern, hits: SearchHit[], reranker: MeaningReranker, signal: AbortSignal, limit = 30): Promise<SearchHit[]> {

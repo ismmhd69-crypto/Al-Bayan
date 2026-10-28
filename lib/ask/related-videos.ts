@@ -16,7 +16,7 @@ export type VideoRefresh = (items: VideoSuggestion[], signal: AbortSignal) => Pr
 /** Optional attachments must never withdraw an otherwise checked written answer. */
 export async function refreshRelatedVideos(value: unknown, load?: VideoRefresh, signal?: AbortSignal): Promise<RelatedVideos | undefined> {
   if (!validRelatedVideos(value) || !load) return undefined;
-  const bounded = signal ? AbortSignal.any([signal, AbortSignal.timeout(2000)]) : AbortSignal.timeout(2000);
+  const bounded = signal ?? new AbortController().signal;
   try {
     const current = await abortable(load(value.items, bounded), bounded);
     const same = (a: VideoSuggestion, b: VideoSuggestion) => a.youtubeId === b.youtubeId && a.channelId === b.channelId

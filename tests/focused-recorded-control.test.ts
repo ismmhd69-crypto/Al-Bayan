@@ -1,10 +1,11 @@
 import { expect, it, vi } from "vitest";
-import { existsSync } from "node:fs";
+import { privateFile, privateTrace } from "./helpers/private-fixtures";
 vi.mock("server-only", () => ({}));
 import { recordedFocusedControl } from "../scripts/probe-ask-focused-recorded";
 import { sourceSupportRequest } from "../lib/ask/focused-checks";
 
-it.skipIf(!existsSync("work/local-ask-traces/2c2b118f-d7be-459d-83ae-95a6adad2f98.jsonl"))("uses the actual focused support builder and exact local saved claims, citations, originals and restrictions", () => {
+const trace = privateFile("work/local-ask-traces/2c2b118f-d7be-459d-83ae-95a6adad2f98.jsonl", "trace 2c2b118f-d7be-459d-83ae-95a6adad2f98");
+it.skipIf(!trace.available)(`uses the actual focused support builder and exact local saved claims, citations, originals and restrictions${trace.note}`, () => {
   const c = recordedFocusedControl(), input = JSON.parse(c.request.prompt);
   expect(c.request).toEqual(sourceSupportRequest(c.items, c.pack, "ar"));
   expect(input.claims).toHaveLength(4);

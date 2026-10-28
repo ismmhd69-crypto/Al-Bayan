@@ -17,3 +17,6 @@ supabase/.temp/
 /work/*-tests.json
 /work/*-results.json
 /docs/ask-repair-runs/*.pending*
+
+# Private local evaluation outputs and one-off scripts (never committed).
+/work/

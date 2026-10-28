@@ -1,4 +1,18 @@
+## Ask local preview, 2026-10-27: simplified research
+
+Manual test follow-up: trace `86c124b1-2033-4bab-9e84-2791df2a0e39` used four actual dispatches, $0.00769895, first checked source at 44.674 s, total 60.700 s, but remained incomplete. Its second condition comparison selected an E2 anchor belonging to the wrong source because condition and primary citation lists used different excerpt lengths with overlapping labels. Combined review v2 separates E citation, K condition and F negative-finding namespaces, with strict code-owned source/reference resolution. A private saved-response replay preserves the original rejection; no failed provider response is repaired into an approval and no paid retry was made. New live quality acceptance remains open.
+
+The approved simpler pipeline is implemented behind local-only `ASK_SIMPLE_PIPELINE`. Mo chose to do live testing himself; `.env.local` enables this preview and the running localhost:3000 route was verified with `X-Ask-Pipeline: simple-v1` using an empty validation request, without a model call. This is NOT live quality acceptance or deployment.
+
+Normal flow: one frame with backup queries, parallel source retrieval, one combined selection, originals-only source groups, one summary and one combined condition/coverage review. One recovery and one targeted summary correction; at most nine actual dispatches across fallbacks and Continue. Signed browser-session records can reuse exact approvals after source/context revalidation. No AI reranking or generated source-group explanations run on this path. Negative reviews cannot obtain fresh attempts through Continue or identical resubmission. Pending summary/correction requests resume exactly. Stop explicitly cancels the owned session. GPT-6 Luna, approved libraries, English/Arabic and existing safety/privacy/spending checks remain.
+
+Implementation, evidence, fixed EN/AR manual questions and rollback: `docs/ask-simple-pipeline-2026-10-27.md`. Set `ASK_SIMPLE_PIPELINE=false` to return to the retained old stable path. Live completion rate, real call counts/cost/timing and claim-by-claim review remain OPEN until Mo's tests are inspected. Do not claim fewer measured live calls from scripted tests. German, durable background activation, database changes and deployment remain outside scope.
+
 # Al-Bayan: full handoff
+
+## Current language decision, 2026-10-25
+
+Mo postponed German until after launch. Current launch work and acceptance focus on English and Arabic. Stop German translation work, paid German evaluations and dedicated German QA. Keep existing German code/content for later; no deletion or language-switcher change is implied. German readiness and three-language parity do not block launch. This decision supersedes older prelaunch three-language requirements below. See `CLAUDE.md` for the current workflow.
 
 ## 2026-09-30 answer-structure checkpoint
 

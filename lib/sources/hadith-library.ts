@@ -1,6 +1,7 @@
 import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Locale } from "@/lib/i18n";
+import { normalizeArabic } from "@/lib/ask/checks";
 import { emptySearchAudit, type SearchOptions } from "./search-audit";
 import {
   hadithSearchQueries,
@@ -105,4 +106,35 @@ export async function getLibraryHadith(uuid: string): Promise<Hadith | null> {
     .from("sources").select(COLUMNS).eq("id", uuid).eq("published", true).eq("kind", "hadith").maybeSingle();
   if (error || !data) return null;
   return mapStoredHadith(data as StoredHadithRow);
+}
+
+/** Resolve a bibliographic discovery hint, never an alias for a different source.
+ * Read the actual stored original and recheck current search/AI rights through
+ * the approved RPC. A published row or an old index approval alone is not enough.
+ * Every returned variant must still pass normal meaning/context selection. */
+export async function findLibraryHadithByReference(collection: "bukhari" | "muslim", number: number, signal?: AbortSignal): Promise<Hadith[]> {
+  if (!["bukhari", "muslim"].includes(collection) || !Number.isSafeInteger(number) || number < 1) return [];
+  const supabase = db();
+  if (!supabase) throw Error("hadith library is not configured");
+  signal?.throwIfAborted();
+  const query = supabase.from("sources").select(COLUMNS).eq("published", true).eq("kind", "hadith")
+    .like("url", `https://sunnah.com/${collection}:${number}%`).limit(50);
+  const { data, error } = await (signal ? query.abortSignal(signal) : query);
+  if (error) throw Error("hadith reference lookup failed");
+  const candidates = ((data as StoredHadithRow[] | null) ?? []).map(mapStoredHadith).filter((h): h is Hadith => !!h
+    && h.collection === collection && h.numbers[collection] === number && h.arabic.length <= MAX_LIBRARY_HADITH_CHARS).slice(0, MAX_RESULTS);
+  const approved = await Promise.all(candidates.map(async hadith => {
+    // Use original words only. No visitor text or title interpretation is sent.
+    // Matching the current original also refuses an index stale against that text.
+    const queryText = [...new Set(normalizeArabic(hadith.arabic).match(/[ء-ي]+/g) ?? [])].join(" ");
+    if (!queryText) return null;
+    const search = supabase.rpc("search_approved_source_candidates", {
+      query_text: queryText, answer_language: "ar", question_type: "general", required_facets: [], match_count: SEARCH_POOL,
+    }).eq("source_id", hadith.id.slice(2));
+    const result = await (signal ? search.abortSignal(signal) : search);
+    if (result.error) throw Error("hadith reference eligibility lookup failed");
+    return Array.isArray(result.data) && result.data.some((row: { source_id?: string }) => row.source_id === hadith.id.slice(2)) ? hadith : null;
+  }));
+  signal?.throwIfAborted();
+  return approved.filter((h): h is Hadith => h !== null);
 }

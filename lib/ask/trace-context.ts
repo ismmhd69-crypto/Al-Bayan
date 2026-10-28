@@ -13,6 +13,10 @@ export const errorCategory = (error: unknown) => error instanceof Error && error
   : error instanceof Error && error.name === "AbortError" ? "aborted"
   : error instanceof Error && error.constructor.name === "GoogleBusyError" ? "busy" : "other";
 export function requestPhase(request: JsonRequest) {
+  try {
+    const prompt = JSON.parse(request.prompt);
+    if (Array.isArray(prompt.sections_to_write) && prompt.sections_to_write.length === 1 && prompt.sections_to_write[0] === "summary") return "summary";
+  } catch { /* Non-JSON requests keep their existing classification. */ }
   return request.system.startsWith("You create a safe search plan") ? "frame"
     : request.system.startsWith("You check whether Bayan claims") ? "source_support"
     : request.system.startsWith("You check the usefulness") ? "answer_quality"

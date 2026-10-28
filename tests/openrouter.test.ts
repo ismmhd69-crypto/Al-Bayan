@@ -26,6 +26,59 @@ afterEach(() => {
 });
 
 describe("createOpenRouter", () => {
+  it.each([false, true])("partitions a wide Haiku audit without dropping fields or accepting partial checks (bad=%s)", async bad => {
+    const properties = Object.fromEntries(Array.from({ length: 12 }, (_, i) => [`check_${i}`, { type: "boolean" as const }]));
+    const requested: string[] = [];
+    const fetcher = vi.fn(async (_url: unknown, init?: RequestInit) => {
+      const body = JSON.parse(String(init?.body));
+      const names = Object.keys(body.response_format.json_schema.schema.properties);
+      expect(names.length).toBeLessThanOrEqual(4);
+      expect(body.provider).toMatchObject({ data_collection: "deny", zdr: true, require_parameters: true });
+      expect(body.messages[1].content).toBe("unchanged originals and context");
+      requested.push(...names);
+      return reply(JSON.stringify(Object.fromEntries(names.map(name => [name, bad && name === "check_4" ? "not a verdict" : true]))));
+    });
+    vi.stubGlobal("fetch", fetcher);
+    const result = await make("anthropic/claude-haiku-5.5").generateJson({ system: "full review rules", prompt: "unchanged originals and context", structuredOutput: true,
+      schema: { type: "object", properties, required: Object.keys(properties) } });
+    if (bad) { expect(result).toBeNull(); expect(fetcher).toHaveBeenCalledTimes(2); }
+    else { expect(result).toEqual(Object.fromEntries(Object.keys(properties).map(k => [k, true]))); expect(requested).toEqual(Object.keys(properties)); }
+  });
+  it.each(['{"checks":[]}', '{"checks":[{"anchor":"C1E1","quote":"oversized"}]}'])
+  ("uses Claude's supported schema shape but retains local evidence count and length limits: %s", async content => {
+    const fetcher = vi.fn(async (_url: unknown, init?: RequestInit) => {
+      const body = JSON.parse(String(init?.body));
+      expect(JSON.stringify(body.response_format.json_schema.schema)).not.toMatch(/maxItems|maxLength/);
+      expect(body.response_format.json_schema.schema.properties.checks.items.properties.anchor.enum).toEqual(["C1E1"]);
+      expect(body.provider).toMatchObject({ data_collection: "deny", zdr: true, require_parameters: true });
+      expect(body.messages[0].content).toContain('"maxItems":0');
+      return reply(content);
+    });
+    vi.stubGlobal("fetch", fetcher);
+    const result = await make("anthropic/claude-haiku-5.5").generateJson({ system: "s", prompt: "p", structuredOutput: true,
+      schema: { type: "object", properties: { checks: { type: "array", maxItems: 0, items: { type: "object",
+        properties: { anchor: { type: "string", enum: ["C1E1"] }, quote: { type: "string", maxLength: 3 } }, required: ["anchor", "quote"] } } }, required: ["checks"] } });
+    expect(result).toEqual(content === '{"checks":[]}' ? { checks: [] } : null);
+    expect(fetcher).toHaveBeenCalledOnce();
+  });
+  it.each([false, true])("routes Haiku with supported parameters and unchanged privacy (strict=%s)", async strict => {
+    const fetcher = vi.fn(async (_url: unknown, init?: RequestInit) => {
+      const body = JSON.parse(String(init?.body));
+      expect(body.model).toBe("anthropic/claude-haiku-5.5");
+      expect(body.reasoning).toEqual({ effort: "medium", exclude: true });
+      expect(body).not.toHaveProperty("temperature");
+      expect(body.provider).toMatchObject({ data_collection: "deny", zdr: true });
+      if (strict) {
+        expect(body.provider.require_parameters).toBe(true);
+        expect(body.response_format.type).toBe("json_schema");
+      }
+      return reply("{}");
+    });
+    delete process.env.OPENROUTER_PRIVACY;
+    vi.stubGlobal("fetch", fetcher);
+    expect(await make("anthropic/claude-haiku-5.5").generateJson({ system: "s", prompt: "p", schema, structuredOutput: strict })).toEqual({});
+    expect(fetcher).toHaveBeenCalledOnce();
+  });
   it("uses Google's bounded-output shape without accepting locally oversized results", async () => {
     const fetcher = vi.fn(async (_url: unknown, init?: RequestInit) => {
       const body = JSON.parse(String(init?.body));
@@ -133,6 +186,7 @@ describe("createOpenRouter", () => {
       // The old scripted fixture always adds guidance, including source-only jobs.
       // This strict-response fixture follows the actual requested contract instead.
       if (body.model === "scripted-writer" && !JSON.parse(user.content).sections_to_write.includes("summary")) delete (value as Record<string, unknown>).next_step;
+      else if (body.model === "scripted-writer") (value as Record<string, unknown>).next_step = [(value as Record<string, unknown>).next_step];
       return reply(JSON.stringify(value));
     }));
     deps.writer = make("scripted-writer"); deps.verifier = make("scripted-checker");
@@ -197,6 +251,17 @@ describe("createOpenRouter", () => {
     expect(body.temperature).toBe(0);
     expect((init.headers as Record<string, string>).Authorization).toBe(`Bearer ${KEY}`);
     expect(String(init.body)).not.toContain(KEY);
+  });
+
+  it("uses DeepSeek's supported reasoning effort without weakening strict output or privacy", async () => {
+    let sent: any;
+    vi.stubGlobal("fetch", vi.fn(async (_u: string, i: RequestInit) => { sent = JSON.parse(String(i.body)); return reply("{}"); }));
+    vi.stubEnv("OPENROUTER_PRIVACY", "zdr");
+    await createOpenRouter(KEY, "deepseek/deepseek-v4-flash", free()).generateJson({ system: "s", prompt: "p", schema, structuredOutput: true });
+    expect(sent.reasoning).toEqual({ effort: "high", exclude: true });
+    expect(sent.provider).toMatchObject({ data_collection: "deny", zdr: true, require_parameters: true });
+    expect(sent.response_format.type).toBe("json_schema");
+    expect(sent.response_format.json_schema.strict).toBe(true);
   });
 
   it("honours OPENROUTER_PRIVACY and OPENROUTER_REASONING", async () => {
@@ -355,7 +420,7 @@ describe("model chains with openrouter (lib/ai/index.ts)", () => {
   });
 });
 
-// The default model chains: OpenRouter Gemini Lite mix when the key exists, the old direct Gemini otherwise.
+// The owner's current Haiku defaults when the key exists, direct Gemini otherwise.
 describe("default model chains", () => {
   const chains = async () => {
     vi.resetModules();
@@ -367,14 +432,14 @@ describe("default model chains", () => {
     for (const k of ["AI_MODELS", "AI_VERIFIER_MODELS", "AI_MODEL", "AI_FALLBACK_MODEL", "AI_VERIFIER_MODEL", "AI_VERIFIER_FALLBACK_MODEL", "AI_PROVIDER", "VERTEX_API_KEY"]) delete process.env[k];
   };
 
-  it("uses OpenRouter Gemini Lite as the main mix when OPENROUTER_API_KEY is set", async () => {
+  it("uses the owner's restored Luna writer and checker choices when OPENROUTER_API_KEY is set", async () => {
     clear();
     process.env.OPENROUTER_API_KEY = KEY;
     process.env.GEMINI_API_KEY = "g";
     const { writer, checker } = await chains();
-    expect(writer.startsWith("openrouter/google/gemini-3.5-flash-lite")).toBe(true);
+    expect(writer.startsWith("openrouter/openai/gpt-6-luna")).toBe(true);
     expect(writer).toContain("openrouter/google/gemini-3.8-flash");
-    expect(checker.startsWith("openrouter/google/gemini-3.1-flash-lite")).toBe(true);
+    expect(checker.startsWith("openrouter/openai/gpt-6-luna")).toBe(true);
     expect(checker).toContain("openrouter/mistralai/mistral-small-3.2-24b-instruct");
   });
 

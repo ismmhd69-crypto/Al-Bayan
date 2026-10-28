@@ -10,6 +10,19 @@ export type RecoveryPlanInput = { frame: QuestionFrame; gaps: EvidenceGap[]; pre
 export type RecoveryPlanner = (input: RecoveryPlanInput, signal: AbortSignal) => Promise<RecoveryQuery[]>;
 export type RecoveryEvent = { code: "planned" | "no_new_queries" | "search_failed" | "no_new_sources" | "reselected" | "finished"; round: number; queries?: number; sources?: number; pool?: number; remainingGaps?: number };
 export const recoveryQueryKey = (q: RecoveryQuery) => `${q.family}:${q.language}:${searchTokens(q.text).join(" ")}`;
+export function novelRecoveryQueries(proposed: RecoveryQuery[], gaps: EvidenceGap[], previous: RecoveryQuery[]) {
+  if (!Array.isArray(proposed) || proposed.length > 6) throw new Error("invalid_recovery_plan");
+  const seen = new Set(previous.map(recoveryQueryKey)), queries: RecoveryQuery[] = [];
+  for (const q of proposed) {
+    if (!q || typeof q !== "object") throw new Error("invalid_recovery_plan");
+    const gap = gaps.find(g => g.requirementId === q.requirementId && g.families.includes(q.family));
+    if (!gap || !["ar", "en", "de"].includes(q.language) || typeof q.text !== "string" || !q.text.trim() || q.text.length > 120
+      || !searchTokens(q.text).length || q.family === "scholar" && q.language !== "ar" || q.language === "ar" && !/\p{Script=Arabic}/u.test(q.text)) throw new Error("invalid_recovery_plan");
+    const key = recoveryQueryKey(q); if (seen.has(key)) continue;
+    seen.add(key); queries.push(q);
+  }
+  return queries;
+}
 
 /** No religious decisions here. The caller's independent evidence selector
  * determines coverage after each genuinely novel retrieval round. */
@@ -35,9 +48,9 @@ export async function recoverEvidence<T>(options: {
     const gaps = options.gaps(value); if (!gaps.length) break;
     await options.onRoundStart?.(round);
     const proposed = await abortable(options.plan({ frame: options.frame, gaps, previousQueries: [...previousQueries], visitedSources: candidates.map(c => c.id), round }, options.signal), options.signal);
-    if (!Array.isArray(proposed) || proposed.length > 6) throw new Error("invalid_recovery_plan");
+    const checkedPlan = novelRecoveryQueries(proposed, gaps, previousQueries);
     const queries: RecoveryQuery[] = [];
-    for (const q of proposed) {
+    for (const q of checkedPlan) {
       if (!q || typeof q !== "object") throw new Error("invalid_recovery_plan");
       const gap = gaps.find(g => g.requirementId === q.requirementId && g.families.includes(q.family));
       if (!gap || !["ar", "en", "de"].includes(q.language) || typeof q.text !== "string" || !q.text.trim() || q.text.length > 120

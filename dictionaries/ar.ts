@@ -201,6 +201,10 @@ const ar: typeof en = {
   },
   more: {
     title: "المزيد",
+    theme: "المظهر",
+    themeLight: "فاتح",
+    themeDark: "داكن",
+    themeSystem: "تلقائي",
     language: "اللغة",
     account: "تسجيل الدخول",
     accountNote: "اختياري. فقط لحفظ أجوبتك.",

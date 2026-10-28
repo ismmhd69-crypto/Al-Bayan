@@ -1,11 +1,15 @@
-import { existsSync } from "node:fs";
+import { readFileSync } from "node:fs";
+import { privateFile, privateTrace } from "./helpers/private-fixtures";
 import { expect, it, vi } from "vitest";
 vi.mock("server-only", () => ({}));
 import { prepareSemanticRegressions } from "../scripts/prepare-ask-semantic-regressions";
 
-const available = existsSync("work/private-ask-evaluation/parents-attribution-full-retest-20261024.json")
-  && existsSync("work/private-ask-evaluation/source-scope-matched-20261024.json");
-it.skipIf(!available)("keeps fixed source-support labels outside every one-claim request and supplies only its own originals", () => {
+const inputs = [privateFile("work/private-ask-evaluation/parents-attribution-full-retest-20261024.json", "parents retest record"),
+  privateFile("work/private-ask-evaluation/source-scope-matched-20261024.json", "source scope record"),
+  privateFile("work/local-ask-traces/d9e9b89d-1e12-44d2-bb08-2749ea930946.jsonl", "trace d9e9b89d-1e12-44d2-bb08-2749ea930946")];
+if (inputs[0].available) inputs.push(privateFile(`work/local-ask-traces/${JSON.parse(readFileSync(inputs[0].path, "utf8")).requestId}.jsonl`, "parents retest trace"));
+const available = inputs.every(i => i.available), missing = inputs.map(i => i.note).join("");
+it.skipIf(!available)(`keeps fixed source-support labels outside every one-claim request and supplies only its own originals${missing}`, () => {
   const c = prepareSemanticRegressions();
   expect(c.cases).toHaveLength(12);
   expect(c.cases.filter(r => r.expected === "supported")).toHaveLength(6);
@@ -21,7 +25,7 @@ it.skipIf(!available)("keeps fixed source-support labels outside every one-claim
     expect(row.request.maxOutputTokens).toBe(2100);
   }
 });
-it.skipIf(!available)("records repeated same-model approvals of one exact error without calling them independent examples", () => {
+it.skipIf(!available)(`records repeated same-model approvals of one exact error without calling them independent examples${missing}`, () => {
   const c = prepareSemanticRegressions();
   expect(c.approvals).toHaveLength(8);
   expect(new Set(c.approvals.map(a => a.actualModel)).size).toBe(1);

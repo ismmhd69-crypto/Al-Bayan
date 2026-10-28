@@ -1,0 +1,15 @@
+.reader { min-width: 0; }
+.reservedText { display: grid; width: 100%; min-width: 0; }
+.textSizer, .textReveal { grid-area: 1 / 1; min-width: 0; overflow-wrap: anywhere; }
+.textSizer { visibility: hidden; }
+.gapLoader { display: flex; align-items: flex-start; gap: .8rem; padding: 1rem; margin-block: 1rem; border: 1px solid var(--line); border-inline-start: 4px solid var(--quran-accent); border-radius: var(--radius); background: var(--surface-2); color: var(--ink-2); }
+.gapLoader strong { display: block; color: var(--ink); font-size: .95rem; font-weight: 600; }
+.gapLoader p { margin: .35rem 0 0; font-size: .85rem; line-height: 1.65; }
+.quran { border-inline-start-color: var(--quran-accent); }
+.hadith { border-inline-start-color: var(--sunnah-accent); }
+.scholar { border-inline-start-color: var(--scholar-accent); }
+.summary { border-inline-start-color: var(--gold); }
+.spinner { flex: 0 0 1rem; height: 1rem; margin-block-start: .2rem; border: 2px solid var(--line-2); border-block-start-color: var(--accent); border-radius: 50%; animation: rotate 1.3s linear infinite; }
+.integrity { border-inline-start: 3px solid var(--gold); padding: .75rem; background: var(--gold-soft); color: var(--ink); }
+@keyframes rotate { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }

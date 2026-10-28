@@ -203,6 +203,10 @@ const de: typeof en = {
   },
   more: {
     title: "Mehr",
+    theme: "Erscheinungsbild",
+    themeLight: "Hell",
+    themeDark: "Dunkel",
+    themeSystem: "System",
     language: "Sprache",
     account: "Anmelden",
     accountNote: "Freiwillig. Nur um Antworten zu speichern.",

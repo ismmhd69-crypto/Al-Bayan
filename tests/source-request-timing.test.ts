@@ -22,20 +22,22 @@ afterEach(() => {
   vi.doUnmock("@/lib/ask/timing"); vi.restoreAllMocks(); vi.unstubAllGlobals(); vi.unstubAllEnvs(); vi.useRealTimers();
 });
 
-it("keeps an unhurried answer alive while bounding one source connection", async () => {
+it("keeps both an unhurried answer and its source connection alive until the visitor stops", async () => {
   const owner = new AbortController(), wholeAnswer = askTimeout(owner.signal, 5, "pipeline");
   const connection = sourceRequestTimeout(owner.signal, 10_000, "hadith_transport");
   expect(askDeadlineMs()).toBe(Infinity);
-  await vi.advanceTimersByTimeAsync(10_001);
-  expect(connection.aborted).toBe(true); expect(connection.reason.name).toBe("TimeoutError");
+  await vi.advanceTimersByTimeAsync(180_001);
+  expect(connection.aborted).toBe(false);
   expect(wholeAnswer.aborted).toBe(false); expect(owner.signal.aborted).toBe(false);
+  owner.abort(); expect(connection.aborted).toBe(true); expect(wholeAnswer.aborted).toBe(true);
 });
 
-it("does not turn an unlimited leased job into unlimited source connections", async () => {
+it("does not cut off source connections belonging to unlimited research", async () => {
   const owner = new AbortController();
   const request = withResearchRuntime(Infinity, () => sourceRequestTimeout(owner.signal, 10_000, "quran_transport"));
-  await vi.advanceTimersByTimeAsync(10_001);
-  expect(request.aborted).toBe(true); expect(owner.signal.aborted).toBe(false);
+  await vi.advanceTimersByTimeAsync(180_001);
+  expect(request.aborted).toBe(false); expect(owner.signal.aborted).toBe(false);
+  owner.abort(); expect(request.aborted).toBe(true);
   expect(withResearchRuntime(Infinity, () => askDeadlineMs())).toBe(Infinity);
 });
 
@@ -48,6 +50,7 @@ it("still observes a finite worker remainder and owner cancellation", async () =
 });
 
 it.each([true, false])("reproduces the hadith source wait and repairs its failure classification (legacy waiting: %s)", async legacy => {
+  if (!legacy) vi.stubEnv("ASK_LOCAL_UNHURRIED", "false");
   vi.doMock("@/lib/ask/timing", async importOriginal => {
     const actual = await importOriginal<typeof import("@/lib/ask/timing")>();
     return { ...actual, runSourceRequest: legacy
@@ -81,6 +84,7 @@ it.each([true, false])("reproduces the hadith source wait and repairs its failur
 });
 
 it.each(["headers", "body"])("bounds the actual hadith reader when %s consumption ignores cancellation", async stalledPart => {
+  vi.stubEnv("ASK_LOCAL_UNHURRIED", "false");
   vi.stubGlobal("fetch", vi.fn(async (url: string) => {
     const u = new URL(url);
     if (u.pathname.endsWith("/categories/roots/")) return Response.json([{ id: "1" }]);

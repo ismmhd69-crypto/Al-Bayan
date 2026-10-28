@@ -92,6 +92,8 @@ export type DraftPolicy = {
   requirements: AnswerRequirement[];
   sourceRequirements: Record<string, string[]>;
   requireNoAnswerFeedback?: boolean;
+  /** Private provisional review only. Never use to publish text. */
+  allowCopiedForReview?: boolean;
 };
 
 export function parseDraft(raw: unknown, citable: SourceText[], language: Locale, policy?: DraftPolicy, maxClaims = LIMITS.maxClaims): DraftResult {
@@ -120,7 +122,7 @@ export function parseDraft(raw: unknown, citable: SourceText[], language: Locale
     if (refs.length === 0 || refs.length > LIMITS.maxRefsPerClaim) return { ok: false, reason: "ref_count" };
     if (!refs.every((id) => byId.has(id))) return { ok: false, reason: "unknown_ref" };
     // Copying is checked against every source the AI was given, not only the ones it cited.
-    if (copiesSource(t, citable)) return { ok: false, reason: "copied_source" };
+    if (!policy?.allowCopiedForReview && copiesSource(t, citable)) return { ok: false, reason: "copied_source" };
     if (policy) {
       if (!isStr(requirement_id)) return { ok: false, reason: "requirement_count" };
       const requirement = policy.requirements.find((item) => item.id === requirement_id);

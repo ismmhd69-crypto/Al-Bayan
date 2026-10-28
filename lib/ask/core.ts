@@ -18,6 +18,7 @@ import type { Locale } from "@/lib/i18n";
 import type { AIProvider, JsonRequest, JsonSchema } from "@/lib/ai/types";
 import { discoverAdjacentQuranCandidates } from "./search-engine/adjacent-quran-discovery";
 import { uniqueResearchCandidates } from "./search-engine/candidate-identity";
+import { runProgressiveLanes } from "./progressive-lanes";
 import { recoverEvidence, type EvidenceGap, type RecoveryQuery, type RecoveryFamily } from "./search-engine/recovery";
 import { optionalWithin } from "./optional";
 import { abortable, isTimeoutFailure } from "./abort";
@@ -35,6 +36,8 @@ import { screeningSystem, claimAuditSchema } from "./claim-audit";
 import { ATTRIBUTION, TRANSLATIONS, isRealVerse, type Verse } from "@/lib/sources/quran-meta";
 import { scholarQuoteAllowed, type ScholarQuote } from "@/lib/sources/scholar-rules";
 import { matchingTopicHints } from "@/data/topic-source-hints";
+import { resolveHadithHints } from "./hadith-hints";
+import { richFrameOutputAllowance } from "./rich-writing-schema";
 import type { VideoSuggestion } from "@/lib/sources/youtube-rules";
 import { validateAnswerV2, isValidVideo, type AnswerV2 } from "./answer-v2";
 import { buildLiveAnswerV2 } from "./assemble";
@@ -172,6 +175,8 @@ export type PipelineDeps = {
   meaningReview?: boolean; // Narrow independent entailment; never replaces primary checks.
   focusedChecks?: boolean; // Independent preview; never inferred from rich presentation alone.
   distinctSelection?: boolean; // Independent preview: select useful contributions, not source quotas.
+  simpleResearch?: boolean;
+  fixedSelectionReferences?: boolean; // Model selects pool-local references; code owns source IDs.
   abortSignal?: AbortSignal;
   sourceAvailability?: { hadith: boolean; scholar: boolean };
   sourceProblems?: Partial<Record<"quran" | "hadith" | "scholar", "timeout" | "search_failed">>;
@@ -186,6 +191,7 @@ export type PipelineDeps = {
   // Optional third source: short quotes of approved scholars, searched with Arabic phrases.
   searchScholars?: (arabicPhrases: string[], mappedUrls?: string[]) => Promise<ScholarQuote[]>;
   getHadith?: (id: string) => Promise<Hadith | null>;
+  resolveHadithHint?: (id: string, signal?: AbortSignal) => Promise<Hadith[]>;
   // Optional: related videos from the approved YouTube channels, matched by title. Shown under a
   // finished answer only, never given to the models and never used as evidence.
   searchVideos?: (arabicPhrases: string[], signal?: AbortSignal) => Promise<VideoSuggestion[]>;
@@ -194,6 +200,7 @@ export type PipelineDeps = {
   claimAudit?: boolean; // Experimental; false leaves legacy screening untouched.
   groundedSourceWriting?: boolean; // Owner-only experiment; no website setting enables it.
   selectedSummary?: boolean; // Owner-only exact-sentence selection; final audits still mandatory.
+  saveConclusion?: () => Promise<void>; // Trusted worker checkpoint, before dispatch and after a draft settles.
   independentSourceWriting?: boolean; // Owner-only input isolation; all originals/checks retained.
   libraryFlow?: boolean; // Experimental per-point search and follow-ups; off until acceptance.
   previousUserMessages?: string[];
@@ -211,6 +218,13 @@ export type PipelineDeps = {
   onFrame?: (frame: QuestionFrame) => void; // local evaluation only; never logs visitor text
   displayTranslationLookup?: (sources: import("./rich-answer").RichSource[], language: Locale, signal: AbortSignal) => Promise<Map<string, import("./rich-answer").DisplayTranslation>>;
   disableReferenceHints?: boolean; // Evaluation control, never a visitor-controlled option.
+  namedEvidencePassages?: string[][]; // Complete visitor-named units, never split for streaming.
+  preferredEvidenceIds?: string[];
+  meaningApprovals?: Set<string>; // Request/checkpoint scoped, exact dependency fingerprints only.
+  deriveAuditReasons?: boolean; // Versioned wire contract; required verdicts remain unchanged.
+  progressiveCheckpoint?: import("./progressive-checkpoint").ProgressiveCheckpoint;
+  revalidateProgressive?: (candidates: PassageForSelection[], signal: AbortSignal) => Promise<boolean>;
+  revalidateStable?: (candidates: PassageForSelection[], signal: AbortSignal) => Promise<{ unavailable: boolean; rejectedIds: string[] }>;
   onRetrieved?: (result: { hintIds: string[]; quran: string[]; hadith: string[]; scholars: string[]; scholarEnabled: boolean; scholarProblem: string | null }) => void;
   onCandidates?: (candidates: PassageForSelection[]) => void;
   onSelection?: (raw: unknown) => void;
@@ -614,10 +628,10 @@ async function videoCandidates(
   if (!deps.searchVideos || arabicPhrases.length === 0) return { videos: [], problem: null };
   let timer: ReturnType<typeof setTimeout> | undefined;
   const timeout = new Promise<"timeout">((resolve) => {
-    timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
+    if (!localAskUnhurried()) timer = setTimeout(() => resolve("timeout"), deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
   });
   try {
-    const signal = parent ? AbortSignal.any([parent, AbortSignal.timeout(deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS)]) : AbortSignal.timeout(deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS);
+    const signal = askTimeout(parent, deps.hadithTimeoutMs ?? HADITH_TIMEOUT_MS, "video_search");
     const result = await Promise.race([abortable(deps.searchVideos(arabicPhrases, signal), signal), timeout]);
     if (result === "timeout") return { videos: [], problem: "video_search_timeout" };
     // Defence in depth: only the approved channels, whatever the search returned.
@@ -672,7 +686,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   // 50 s: the longest safe path (redraft, second screening or evidence audit) must fit on budget
   // models. The route allows 60 s, so the answer still returns before the server gives up.
   const signal = askTimeout(deps.abortSignal, Math.min(deps.deadlineMs ?? 50_000, 55_000), "pipeline");
-  deps.rich?.onProgress?.("understanding");
+  if (!deps.progressiveCheckpoint?.frame) deps.rich?.onProgress?.("understanding");
   const started = Date.now();
   const detail = (stage: DiagnosticStage, code: string, value: () => unknown) => {
     if (deps.onDiagnostic) try { deps.onDiagnostic(stage, code, Date.now() - started, value()); } catch { /* Diagnostics never alter acceptance. */ }
@@ -697,13 +711,13 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const understandOnce = (correction?: string, malformedResponseRetry = false) => deps.writer.generateJson({
       ...(deps.rich ? { structuredOutput: true } : {}),
       ...(malformedResponseRetry ? { malformedResponseRetry: true } : {}),
-      system: `${deps.rich ? SHARED_QUESTION_RULES : UNDERSTAND_SYSTEM}${tiered ? `\n${TIERED_UNDERSTAND_RULES}` : ""}${libraryFlow ? `\n${LIBRARY_PLAN_RULES}` : ""}`,
+      system: `${deps.rich ? SHARED_QUESTION_RULES : UNDERSTAND_SYSTEM}${tiered ? `\n${TIERED_UNDERSTAND_RULES}` : ""}${libraryFlow ? `\n${LIBRARY_PLAN_RULES}` : ""}${deps.simpleResearch ? "\nAlso plan up to six backup_queries in the same response. Use short English or Arabic source-search phrases for important potentially uncovered concerns, labelled with their R1, R2 etc concern identity and source family. These are alternatives, not additional concerns or answers. German searches must be empty for this flow." : ""}`,
       prompt: JSON.stringify({
         visitor_text: question,
         ...(libraryFlow && history.length ? { previous_user_messages: history } : {}),
         ...(correction ? { correction } : {}),
       }),
-      maxOutputTokens: deps.rich ? 1600 : 900,
+      maxOutputTokens: deps.rich ? richFrameOutputAllowance(deps.writer.id) : 900,
       signal,
       schema: {
         type: "object",
@@ -711,7 +725,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           language: { type: "string", enum: ["ar", "en", "de"] },
           kind: { type: "string", enum: ["question", "personal", "greeting", "off_topic", "harmful"] },
           question_type: { type: "string", enum: [...QUESTION_TYPES] },
-          subjects: words,
+          subjects: { ...words, description: "One to five short English topic labels, each one to four words. Split a longer topic into several labels; do not return a sentence." },
           requested_points: {
             type: "array",
             items: {
@@ -725,6 +739,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
               required: ["text", "facet", ...(libraryFlow ? Object.keys(POINT_PLAN_PROPERTIES) : []), ...(deps.rich ? ["scope"] : [])],
             },
           },
+          ...(deps.simpleResearch ? { backup_queries: { type: "array", maxItems: 6, items: { type: "object", properties: {
+            requirementId: { type: "string" }, family: { type: "string", enum: ["quran", "hadith", "scholar"] },
+            language: { type: "string", enum: ["en", "ar"] }, text: { type: "string", maxLength: 120 },
+          }, required: ["requirementId", "family", "language", "text"] } } as JsonSchema } : {}),
           qualifiers: words,
           search_queries_en: words,
           search_queries_de: words,
@@ -739,6 +757,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           "question_type",
           "subjects",
           "requested_points",
+          ...(deps.simpleResearch ? ["backup_queries"] : []),
           "qualifiers",
           "search_queries_en",
           "search_queries_de",
@@ -749,10 +768,11 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
         ],
       },
     });
-  const initialFrameResponse = await understandOnce();
-  let frame = parseQuestionFrame(initialFrameResponse);
+  const initialFrameResponse = deps.progressiveCheckpoint?.frame ? undefined : await understandOnce();
+  let frame = deps.progressiveCheckpoint?.frame ?? parseQuestionFrame(initialFrameResponse);
   const frameProblem = (candidate: typeof frame): string | null => {
     if (!candidate) return questionFrameRejection(initialFrameResponse);
+    if (deps.simpleResearch && !candidate.backupQueries) return "backup_queries_missing";
     if (deps.rich) return candidate.checklistStatus ? null : "question_checklist_missing";
     return (candidate.kind === "personal" && isGeneralGuidanceQuestion(question) ? "general_guidance_misclassified" : null)
       ?? questionFrameMismatch(question, candidate)
@@ -815,6 +835,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const mappedQuran = [...new Set(hints.flatMap((hint) => hint.quran))];
   const mappedHadith = [...new Set(hints.flatMap((hint) => hint.hadith))];
   const mappedFatwas = [...new Set(hints.flatMap((hint) => hint.fatwas))];
+  if (deps.rich?.progressive) {
+    return runProgressiveLanes(question, frame, { ...deps, namedEvidencePassages: namedPassageGroups(question), preferredEvidenceIds: direct.map(key => `Q${key}`) }, signal, (deps.deadlineMs ?? 50_000) - (Date.now() - started),
+      { quran: [...new Set([...direct, ...mappedQuran])], hadith: mappedHadith, scholars: mappedFatwas });
+  }
   if (queries.length === 0 && direct.length === 0 && mappedQuran.length === 0 && mappedHadith.length === 0 && mappedFatwas.length === 0) return refuse("query_plan_empty", language);
   // Quran and hadith are searched at the same time. Hadith use the English phrases (plus the
   // English subject names) on the English list and the Arabic phrases on the Arabic list.
@@ -825,6 +849,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const videoResultPromise = deps.rich && !deps.richVideos ? Promise.resolve({ videos: [], problem: null }) : videoCandidates(deps, frame.searchQueries.ar ?? [], signal);
   const pointPlans = libraryFlow ? pointSearchPlans(frame) : [];
   let quranProblem: GroupOutcome = "no_direct_evidence";
+  let quranFailureStage: import("./rich-answer").SourceFailureStage | undefined;
   const sourceOutcome = (kind: "hadith" | "scholar", problem: string | null): GroupOutcome => {
     if (deps.sourceAvailability?.[kind] === false || (!deps.retrieveCorpusCandidates && !(kind === "hadith" ? deps.searchHadith : deps.searchScholars))) return "unavailable";
     return problem?.endsWith("timeout") ? "timeout" : problem?.endsWith("failed") ? "search_failed" : deps.sourceProblems?.[kind] ?? "no_direct_evidence";
@@ -841,7 +866,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     // at eight seconds before that source can return successful partial-query results.
     const bounded = askTimeout(signal, 12_000, "quran_retrieval");
     try { return await abortable(deps.search(phrases, limit), bounded); }
-    catch (error) { signal.throwIfAborted(); quranProblem = bounded.aborted || isTimeoutFailure(error) ? "timeout" : "search_failed"; return []; }
+    catch (error) { signal.throwIfAborted(); quranProblem = bounded.aborted || isTimeoutFailure(error) ? "timeout" : "search_failed"; quranFailureStage = "source_search"; deps.onDiagnostic?.("retrieval", quranProblem === "timeout" ? "source_search_timeout" : "source_search_failed", Date.now() - started); return []; }
   };
   const pointResults = libraryFlow ? await Promise.all(pointPlans.map(async (plan, index) => {
     const [quran, hadith, scholars] = await Promise.all([
@@ -867,13 +892,10 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     if (!deps.rich) return deps.getVerse(k);
     const bounded = askTimeout(signal, 12_000, "quran_retrieval");
     try { const verse = await abortable(deps.getVerse(k), bounded); if (!verse) quranProblem = "search_failed"; return verse; }
-    catch (error) { signal.throwIfAborted(); quranProblem = bounded.aborted || isTimeoutFailure(error) ? "timeout" : "search_failed"; return undefined; }
+    catch (error) { signal.throwIfAborted(); quranProblem = bounded.aborted || isTimeoutFailure(error) ? "timeout" : "search_failed"; quranFailureStage = "verse_lookup"; deps.onDiagnostic?.("retrieval", quranProblem === "timeout" ? "verse_lookup_timeout" : "verse_lookup_failed", Date.now() - started); return undefined; }
   })))
     .filter((v): v is Verse => !!v);
-  const mappedHadithRecords = deps.getHadith
-    ? (await Promise.all(mappedHadith.slice(0, 3).map((id) => deps.getHadith!(id.replace(/^HE/, "")).catch(() => null))))
-      .filter((item): item is Hadith => !!item && hadithAllowed(item))
-    : [];
+  const mappedHadithRecords = await resolveHadithHints(deps, mappedHadith, signal);
   let hadith = [...new Map([...mappedHadithRecords, ...hadithResult.hadith].map((item) => [item.id, item])).values()]
     .slice(0, MAX_HADITH_SEARCH_CANDIDATES);
   let quotes = scholarResult.quotes.slice(0, MAX_SCHOLAR_SEARCH_CANDIDATES);
@@ -886,7 +908,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   if (deps.rich) richRefusal = () => {
     const gap = (outcome: GroupOutcome, found: number): GroupOutcome => outcome === "no_direct_evidence" && found > 0 ? "not_checked" : outcome;
     const sections: RichSection[] = [
-      { group: "quran", outcome: gap(quranProblem, verses.length), claims: [], sources: [] },
+      { group: "quran", outcome: gap(quranProblem, verses.length), claims: [], sources: [], ...(quranFailureStage ? { searchFailureStage: quranFailureStage } : {}) },
       { group: "hadith", outcome: gap(sourceOutcome("hadith", hadithResult.problem), hadith.length), claims: [], sources: [] },
       { group: "scholar", outcome: gap(sourceOutcome("scholar", scholarResult.problem), quotes.length), claims: [], sources: [] },
     ];
@@ -925,7 +947,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const coverageCounts = (items: PassageForSelection[]) => Object.fromEntries(frame.requirements.map((r) => [r.id, items.filter((c) => c.retrievedFor?.includes(r.id)).length]));
   const mappedIds = new Set([
     ...direct.map((key) => `Q${key}`), ...mappedQuran.map((key) => `Q${key}`),
-    ...mappedHadith, ...quotes.filter((quote) => mappedFatwas.includes(quote.url)).map((quote) => quote.id),
+    ...mappedHadithRecords.map(h => h.id), ...quotes.filter((quote) => mappedFatwas.includes(quote.url)).map((quote) => quote.id),
   ]);
   const defaultLimits = tiered
     ? { ...TIER_CANDIDATE_LIMITS }
@@ -947,8 +969,11 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     const key = candidate.source.verse.key;
     let lookup = contextLookups.get(key);
     if (!lookup) {
-      lookup = deps.neighbours(key).catch(() => {
+      lookup = deps.neighbours(key).catch((error) => {
         signal.throwIfAborted();
+        quranProblem = isTimeoutFailure(error) ? "timeout" : "search_failed";
+        quranFailureStage = "context_lookup";
+        deps.onDiagnostic?.("candidates", quranProblem === "timeout" ? "context_lookup_timeout" : "context_lookup_failed", Date.now() - started);
         detail("candidates", "context_lookup_failed", () => ({ source_id: candidate.id, outcome: "excluded" }));
         return null;
       });
@@ -1234,7 +1259,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   if (!deps.rich && !requiredSourceItemsPresent(question, evidencePackage.passages.map(p => asSource(p.source)))) return refuse("required_source_items_missing", language);
   if (deps.rich) {
     signal.throwIfAborted();
-    const written = await runRichAnswer(evidencePackage, language, deps, signal, question, { quran: quranProblem, hadith: sourceOutcome("hadith", hadithResult.problem), scholar: sourceOutcome("scholar", scholarResult.problem) }, (deps.deadlineMs ?? 50_000) - (Date.now() - started));
+    const written = await runRichAnswer(evidencePackage, language, deps, signal, question, { quran: quranProblem, quranFailureStage, hadith: sourceOutcome("hadith", hadithResult.problem), scholar: sourceOutcome("scholar", scholarResult.problem) }, (deps.deadlineMs ?? 50_000) - (Date.now() - started));
     // All checked prose has already streamed. Optional title relevance never changes its evidence.
     if (written.status === "rich_answer" && deps.richVideos && !signal.aborted) {
       deps.rich.onProgress?.("finding_videos");

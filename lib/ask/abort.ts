@@ -1,5 +1,7 @@
 /** Bound even dependencies that ignore AbortSignal. Their result can never start another stage. */
 export async function abortable<T>(job: Promise<T>, signal: AbortSignal): Promise<T> {
+  // A job abandoned by cancellation may still reject later; that outcome is deliberately unobserved.
+  Promise.resolve(job).catch(() => {});
   signal.throwIfAborted();
   let abort!: () => void;
   const stopped = new Promise<never>((_, reject) => { abort = () => reject(signal.reason ?? new Error("aborted")); signal.addEventListener("abort", abort, { once: true }); });

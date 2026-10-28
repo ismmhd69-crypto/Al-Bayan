@@ -79,7 +79,7 @@ function latinStem(word: string): string {
   return w;
 }
 
-function terms(text: string): Set<string> {
+export function hadithSearchTerms(text: string): Set<string> {
   const ar = (normalizeArabic(text).match(/[ء-ي]+/g) ?? []).filter((w) => w.length >= 3).map(arabicStem);
   const lat = (latinPlain(text).match(/[a-zß]+/g) ?? []).filter((w) => w.length >= 3).map(latinStem);
   return new Set([...ar, ...lat].filter((t) => !STOP.has(t)));
@@ -123,7 +123,7 @@ async function loadCatalogue(language: Locale): Promise<Entry[]> {
     if (!Array.isArray(list?.data)) throw new Error("HadeethEnc list was not understood");
     for (const h of list.data) {
       if (typeof h.id === "string" && typeof h.title === "string" && !byId.has(h.id)) {
-        byId.set(h.id, { id: h.id, title: h.title, terms: terms(h.title) });
+        byId.set(h.id, { id: h.id, title: h.title, terms: hadithSearchTerms(h.title) });
       }
     }
   }
@@ -154,11 +154,16 @@ export async function searchHadithIds(queries: string[], language: Locale, limit
   const entries = await catalogue(language);
   return rankHadithTitles(entries, queries, limit);
 }
+/** Read-only title snapshot for private, reproducible discovery evaluation.
+ * This contains no evidence approvals and never changes the publication library. */
+export async function readHadithTitleCatalogue(language: Locale): Promise<{ id: string; title: string }[]> {
+  return (await catalogue(language)).map(({ id, title }) => ({ id, title }));
+}
 
 /** Each phrase competes independently; unrelated words from different searches cannot combine
  * into a false match. Round-robin preserves a place for each requested concern. Pure for tests. */
 export function rankHadithTitles(entries: Entry[], queries: string[], limit: number): string[] {
-  const plans = queries.map(q => terms(q)).filter(q => q.size > 0);
+  const plans = queries.map(q => hadithSearchTerms(q)).filter(q => q.size > 0);
   const wanted = new Set(plans.flatMap(q => [...q]));
   // Rarer words count more (inverse document frequency).
   const weight = (w: string) => Math.log(1 + entries.length / (1 + entries.filter((e) => e.terms.has(w)).length));
@@ -181,25 +186,27 @@ export function rankHadithTitles(entries: Entry[], queries: string[], limit: num
 
 const inFlight = new Map<string, Promise<Hadith | null>>();
 
-/** One hadith with Arabic, English and German, or null if it is not from the Sahihayn or not sahih/hasan. */
-export function getHadith(id: string): Promise<Hadith | null> {
+/** Arabic/authenticity always required. A reading language loads only its optional
+ * display translation; omitted language retains the legacy three-language read. */
+export function getHadith(id: string, displayLanguage?: Locale, fresh = false): Promise<Hadith | null> {
   if (!/^\d+$/.test(id)) return Promise.resolve(null);
-  let p = inFlight.get(id);
+  const key = `${fresh ? "fresh:" : ""}${id}:${displayLanguage ?? "all"}`;
+  let p = inFlight.get(key);
   if (!p) {
     // Arabic is the base record; English and German are added only when they exist.
-    const optional = (language: Locale) => get(`/hadeeths/one/?language=${language}&id=${id}`).catch(() => null);
-    p = Promise.all([get(`/hadeeths/one/?language=ar&id=${id}`), optional("en"), optional("de")])
+    const optional = (language: Locale) => get(`/hadeeths/one/?language=${language}&id=${id}`, !fresh).catch(() => null);
+    p = Promise.all([get(`/hadeeths/one/?language=ar&id=${id}`, !fresh), !displayLanguage || displayLanguage === "en" ? optional("en") : null, !displayLanguage || displayLanguage === "de" ? optional("de") : null])
       .then(([ar, en, de]) => parseHadith(ar, en, de))
-      .finally(() => inFlight.delete(id));
-    inFlight.set(id, p);
+      .finally(() => inFlight.delete(key));
+    inFlight.set(key, p);
   }
   return p;
 }
 
 /** Search plus details: only Sahihayn hadith graded sahih or hasan come back. */
-export async function searchHadith(queries: string[], language: Locale, limit = 6, onFailure?: () => void): Promise<Hadith[]> {
+export async function searchHadith(queries: string[], language: Locale, limit = 6, onFailure?: () => void, displayLanguage?: Locale): Promise<Hadith[]> {
   const ids = await searchHadithIds(queries, language, limit * 3);
-  const settled = await Promise.allSettled(ids.map(getHadith));
+  const settled = await Promise.allSettled(ids.map(id => getHadith(id, displayLanguage)));
   const failures = settled.filter(r => r.status === "rejected");
   if (failures.length) onFailure?.();
   if (settled.length && failures.length === settled.length) throw (failures[0] as PromiseRejectedResult).reason;
@@ -231,11 +238,11 @@ export function warmHadithCatalogues(): void {
  * them without duplicates. German variants must not silently disappear before discovery.
  * Everything runs against the cached title lists on our server: no search phrase is sent out.
  */
-export async function searchHadithMulti(queries: Partial<Record<Locale, string[]>>, limit = 4, onFailure?: () => void): Promise<Hadith[]> {
+export async function searchHadithMulti(queries: Partial<Record<Locale, string[]>>, limit = 4, onFailure?: () => void, displayLanguage?: Locale): Promise<Hadith[]> {
   const settled = await Promise.allSettled(
     (["en", "ar", "de"] as const)
       .filter((language) => (queries[language]?.length ?? 0) > 0)
-      .map((language) => searchHadith(queries[language]!, language, limit, onFailure)),
+      .map((language) => searchHadith(queries[language]!, language, limit, onFailure, displayLanguage)),
   );
   const failures = settled.filter(r => r.status === "rejected");
   if (failures.length) onFailure?.();

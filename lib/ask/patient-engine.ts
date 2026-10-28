@@ -3,6 +3,7 @@ import type { SelectedPassage, QuestionFrame } from "./retrieval";
 import { RICH_ORDER, validRichSection, validRichGuidance, type RichGuidance, type RichSection } from "./rich-answer";
 import { emptyPatientState, reducePatientEvent, type PatientEvent, type PatientEventBody, type PatientReason, type PatientSourceGroup, type PatientState } from "./patient-protocol";
 import { validateResearchProgress, type PatientResearchProgress, type SaveResearchProgress } from "./research-progress";
+import type { IntegrityNotice } from "./publication";
 
 const groups: PatientSourceGroup[] = ["quran", "hadith", "scholar"];
 export type PatientResearchResult = { status: "ready"; passages: SelectedPassage[]; searchOutcome?: "search_failed" } | { status: "failed"; reason: PatientReason };
@@ -11,10 +12,11 @@ export type PatientSnapshot = { revision: number; passages: SelectedPassage[]; u
 export type PatientCheckpoint = { version: 2; engineRevision: string; state: PatientState; evidenceRevision: number; research: Partial<Record<PatientSourceGroup, PatientResearchResult>>;
   /** Unfinished recovery is separate from the last checked, still-eligible evidence. */
   retryGroups?: PatientSourceGroup[]; retryRequirementIds?: string[]; discovery?: PatientResearchProgress; frame?: QuestionFrame; attempt?: number };
-export type PatientFinalReview = { status: "complete"; summary: RichSection; guide: RichGuidance; sections?: RichSection[]; updatedEvidence?: SelectedPassage[] }
-  | { status: "needs_attention"; reason: PatientReason; requiredGroups: PatientSourceGroup[]; requiredRequirementIds?: string[]; withdrawGroups: PatientSourceGroup[] };
+export type PatientFinalReview = { status: "complete"; summary: RichSection; guide?: RichGuidance; sections?: RichSection[]; updatedEvidence?: SelectedPassage[] }
+  | { status: "needs_attention"; reason: PatientReason; requiredGroups: PatientSourceGroup[]; requiredRequirementIds?: string[]; withdrawGroups: PatientSourceGroup[]; integrityNotices?: IntegrityNotice[] };
 export type PatientEngineDeps = {
   engineRevision: string;
+  stableCommits?: boolean;
   research(group: PatientSourceGroup, signal: AbortSignal, requirementIds?: string[], saveResearch?: SaveResearchProgress): Promise<PatientResearchResult>;
   revalidate(passages: SelectedPassage[], signal: AbortSignal): Promise<boolean>;
   checkSection(group: PatientSourceGroup, snapshot: PatientSnapshot, signal: AbortSignal): Promise<RichSection>;
@@ -65,13 +67,17 @@ export async function runPatientResearch(input: { jobId: string; language: Local
   });
   const needsAttention = async (group: PatientSourceGroup, reason: PatientReason) => emit({ type: "state", group, state: "needs_attention", reason });
   if (checkpoint.state.status === "paused") await emit({ type: "resume" });
-  const retried = new Set(groups.filter(g => !checkpoint.research[g] || checkpoint.research[g]?.status === "failed" || checkpoint.retryGroups?.includes(g)));
+  const retried = new Set(groups.filter(g => !(deps.stableCommits && checkpoint.state.groups[g].section) && (!checkpoint.research[g] || checkpoint.research[g]?.status === "failed" || checkpoint.retryGroups?.includes(g))));
   const invalidated = new Set<PatientSourceGroup>();
   // Revalidation is required even when no new research will run for a completed group.
   for (const group of groups) {
     const previous = checkpoint.research[group];
     if (previous?.status === "ready" && !await deps.revalidate(previous.passages, deps.signal)) {
+      if (deps.stableCommits && checkpoint.state.groups[group].section) {
+        await needsAttention(group, "source_unavailable"); await emit({ type: "pause", reason: "source_unavailable" }); return checkpoint;
+      }
       if (checkpoint.state.groups[group].section) await emit({ type: "withdraw", group, revision: checkpoint.state.groups[group].revision + 1, reason: "evidence_changed" });
+      if (deps.stableCommits && checkpoint.state.groups[group].revision > 0) { await emit({ type: "pause", reason: "evidence_changed" }); return checkpoint; }
       checkpoint.research[group] = { status: "failed", reason: "source_unavailable" }; retried.add(group); invalidated.add(group);
     }
   }
@@ -124,6 +130,9 @@ export async function runPatientResearch(input: { jobId: string; language: Local
       await needsAttention(group, result?.reason ?? "source_failed"); continue;
     }
     if (!await deps.revalidate(result.passages, deps.signal)) {
+      if (deps.stableCommits && checkpoint.state.groups[group].section) {
+        await needsAttention(group, "source_unavailable"); await emit({ type: "pause", reason: "source_unavailable" }); return checkpoint;
+      }
       if (checkpoint.state.groups[group].section) await emit({ type: "withdraw", group, revision: checkpoint.state.groups[group].revision + 1, reason: "evidence_changed" });
       await needsAttention(group, "evidence_changed"); continue;
     }
@@ -161,11 +170,16 @@ export async function runPatientResearch(input: { jobId: string; language: Local
   if (review.status === "needs_attention") {
     if (review.requiredRequirementIds !== undefined && !validPatientRetryRequirements(review.requiredRequirementIds, checkpoint.frame)) throw Error("invalid_patient_retry_scope");
     if (review.requiredRequirementIds !== undefined) checkpoint.retryRequirementIds = [...review.requiredRequirementIds];
-    for (const group of review.withdrawGroups) if (checkpoint.state.groups[group].section) await emit({ type: "withdraw", group, revision: checkpoint.state.groups[group].revision + 1, reason: review.reason });
+    for (const group of review.withdrawGroups) if (checkpoint.state.groups[group].section) {
+      const notices = review.integrityNotices?.filter(n => n.group === group), integrity = notices?.length ? { group, reason: notices[0].reason,
+        claimIndexes: [...new Set(notices.flatMap(n => n.claimIndexes))], sourceIds: [...new Set(notices.flatMap(n => n.sourceIds))] } : undefined;
+      await emit({ type: "withdraw", group, revision: checkpoint.state.groups[group].revision + 1, reason: review.reason, ...(integrity ? { integrity } : {}) });
+    }
     for (const group of review.requiredGroups) {
       // Continue must retry an actual evidence gap, even if an earlier search
       // finished successfully but found nothing sufficient. Checked display
       // sections stay separate until the new revision is checked.
+      if (deps.stableCommits && checkpoint.state.groups[group].section) continue;
       if (review.reason !== "explanation_failed") checkpoint.retryGroups = [...new Set([...(checkpoint.retryGroups ?? []), group])];
       await needsAttention(group, review.reason);
     }
@@ -188,6 +202,7 @@ export async function runPatientResearch(input: { jobId: string; language: Local
     if (!finalSection) continue;
     if (!validRichSection(finalSection, input.language)) throw new Error("invalid_patient_final_section");
     const unchanged = JSON.stringify(finalSection) === JSON.stringify(checkpoint.state.groups[group].section);
+    if (deps.stableCommits && checkpoint.state.groups[group].section && !unchanged) { await emit({ type: "pause", reason: "explanation_failed" }); return checkpoint; }
     if (unchanged && checkpoint.state.groups[group].state === "ready") continue;
     if (!unchanged && checkpoint.state.groups[group].section) await emit({ type: "withdraw", group, revision: checkpoint.state.groups[group].revision + 1, reason: "evidence_changed" });
     if (finalSection.outcome === "ready") await emit({ type: "section", section: finalSection, revision: checkpoint.state.groups[group].revision + 1, evidence_revision: checkpoint.evidenceRevision });
@@ -199,7 +214,7 @@ export async function runPatientResearch(input: { jobId: string; language: Local
   if (groups.some(g => !["ready", "empty"].includes(checkpoint.state.groups[g].state))) {
     await emit({ type: "pause", reason: "insufficient_evidence" }); return checkpoint;
   }
-  if (!validRichGuidance(review.guide, input.language, snapshot().passages.map(p => p.id))) throw new Error("invalid_patient_guidance");
+  if (review.guide !== undefined && !validRichGuidance(review.guide, input.language, snapshot().passages.map(p => p.id))) throw new Error("invalid_patient_guidance");
   await emit({ type: "section", section: review.summary, revision: checkpoint.state.groups.summary.revision + 1, evidence_revision: checkpoint.evidenceRevision });
   const sections = RICH_ORDER.map(g => checkpoint.state.groups[g].section ?? review.sections?.find(s => s.group === g) ?? { group: g, outcome: "no_direct_evidence" as const, claims: [], sources: [] });
   checkpoint.retryGroups = [];

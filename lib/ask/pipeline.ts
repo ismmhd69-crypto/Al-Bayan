@@ -1,16 +1,19 @@
+import { askSimplePipeline } from "./settings";
 import "server-only";
+import { abortable } from "./abort";
 import { randomUUID } from "node:crypto";
 import type { Locale } from "@/lib/i18n";
 import { getProvider, getVerifier } from "@/lib/ai";
 import { getVerse, neighbours, searchQuran } from "@/lib/sources/quran";
 import { getHadith, searchHadithMulti, warmHadithCatalogues } from "@/lib/sources/hadith";
-import { getLibraryHadith, searchLibraryHadith } from "@/lib/sources/hadith-library";
+import { findLibraryHadithByReference, getLibraryHadith, searchLibraryHadith } from "@/lib/sources/hadith-library";
+import { resolveLibraryHadithHint } from "./hadith-hints";
 import { hadithMode } from "@/lib/sources/hadith-mode";
 import { searchScholarQuotes } from "@/lib/sources/scholars";
 import { getMappedScholarQuote, searchScholarsLive } from "@/lib/sources/scholars-live";
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 import { searchVideos } from "@/lib/sources/videos";
-import { runPipeline, type AskResult, type PipelineDeps } from "./core";
+import { runPipeline, toEvidence, type AskResult, type PipelineDeps } from "./core";
 import { askClaimAudit, askRichVideos, askCorpusRetrieval, askDeadlineMs, askLibraryFlow, askMaxVideos, askMeaningRanking, askResearchRecovery, askTiered, askVideoBudgetMs, LEAN_CANDIDATE_LIMITS } from "./settings";
 import { serverCorpusRetriever } from "./search-engine/server-corpus-router";
 import { pipelineMeaningRanker } from "./search-engine/pipeline-ranking";
@@ -28,7 +31,9 @@ import { currentAskRequestId, currentAskStarted, observedProvider, errorCategory
 import type { RichCallbacks } from "./rich-answer";
 import { lookupDisplayTranslations } from "./display-translation-lookup";
 import { recordLocalAskEvent } from "./local-trace";
+import { pointSearchPlans } from "./library-flow";
 import { localAskTraceEnabled, localAskUnhurried, askFocusedChecks, askDistinctSelection } from "./settings";
+import { remainingResearchMs } from "./research-runtime";
 
 // HADITH_SOURCE=library: stored Sahih al-Bukhari / Sahih Muslim hadith. =hadeethenc: the old live path.
 // Anything else: hadith off. Never both.
@@ -49,7 +54,7 @@ export async function scholarQuotes(phrases: string[], mappedUrls: string[] = []
   const live = LIVE_ON && !options.allVariants
     ? Promise.race([
         searchScholarsLive(phrases, options.signal).catch(() => { options.onFailure?.("search_failed"); return [] as ScholarQuote[]; }),
-        ...(localAskUnhurried() ? [] : [new Promise<ScholarQuote[]>((resolve) => setTimeout(() => resolve([]), LIVE_TIMEOUT_MS))]),
+        ...(localAskUnhurried() || remainingResearchMs() === Infinity ? [] : [new Promise<ScholarQuote[]>((resolve) => setTimeout(() => resolve([]), LIVE_TIMEOUT_MS))]),
       ])
     : Promise.resolve([] as ScholarQuote[]);
   const [direct, stored, fresh] = await Promise.all([
@@ -64,6 +69,15 @@ export async function scholarQuotes(phrases: string[], mappedUrls: string[] = []
       seen.add(quote.url);
       return true;
     }).slice(0, 8);
+}
+
+/** Re-read through the existing current publication/rights/AI-use gate. A missing
+ * or changed stored quote is never approved from its previous ID alone. */
+export async function progressiveScholarFreshness(candidates: import("./retrieval").PassageForSelection[], queries: string[][], language: Locale, signal: AbortSignal) {
+  const current = (await Promise.all(queries.map(phrases => searchScholarQuotes(phrases, 8, { allVariants: true, meaningCandidates: true, signal })))).flat();
+  signal.throwIfAborted();
+  return new Set(candidates.filter(p => p.source.kind === "scholar" && current.some(q => q.id === p.id
+    && JSON.stringify(toEvidence({ kind: "scholar", quote: q }, language)) === JSON.stringify(toEvidence(p.source, language)))).map(p => p.id));
 }
 
 // Related videos from the approved channels (same secret key); VIDEOS=off disables them.
@@ -90,7 +104,7 @@ export async function askPreparedOnly(question: string, observe?: (provider: Ret
   return answer ? { status: "answer", answer } : null;
 }
 
-export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection" | "onCoverage">, previousUserMessages: string[] = [], options?: { rich?: RichCallbacks; signal?: AbortSignal; disableReferenceHints?: boolean }): Promise<AskResult> {
+export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection" | "onCoverage">, previousUserMessages: string[] = [], options?: { rich?: RichCallbacks; signal?: AbortSignal; disableReferenceHints?: boolean; checkpoint?: import("./progressive-checkpoint").ProgressiveCheckpoint }): Promise<AskResult> {
   const requestStarted = currentAskStarted() ?? Date.now();
   const debug = process.env.ASK_DEBUG === "true" || localAskTraceEnabled();
   const libraryFlow = !!options?.rich || askLibraryFlow(), claimAudit = askClaimAudit(), tiered = !!options?.rich || askTiered();
@@ -117,7 +131,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
     } } : provider;
     return debug ? observedProvider(bounded, role, onDiagnostic, requestStarted, () => `A${++calls}`) : bounded;
   };
-  const skipPrepared = !!trace || !!(libraryFlow && previousUserMessages.length);
+  const skipPrepared = askSimplePipeline() || !!trace || !!options?.checkpoint?.frame || !!(libraryFlow && previousUserMessages.length);
   onDiagnostic("prepared", "reuse_started", Date.now() - requestStarted, { skipped: skipPrepared, prepared_enabled: process.env.PREPARED_PUBLISHING_ENABLED === "true" && process.env.PREPARED_ANSWERS !== "off", approved_topics_enabled: process.env.ASK_APPROVED_TOPICS !== "false" });
   const prepared = skipPrepared ? null : await askPreparedOnly(question, (provider) => observe(provider, "checker"));
   onDiagnostic("prepared", "reuse_finished", Date.now() - requestStarted, { outcome: skipPrepared ? "skipped" : prepared ? "matched" : "miss" });
@@ -134,21 +148,81 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
     ? "scholar_disabled" : "scholar_server_configuration_missing", Date.now() - requestStarted);
   try {
     const sourceProblems: PipelineDeps["sourceProblems"] = {};
+    const checkpoint = options?.checkpoint;
     const result = await runPipeline(question, uiLanguage, {
       ...trace,
+      ...(checkpoint ? {
+        progressiveCheckpoint: checkpoint,
+        meaningApprovals: checkpoint.meaningApprovals,
+        revalidateStable: async (candidates, signal) => {
+          const { serverJobFreshness } = await import("./search-engine/server-job-freshness");
+          const freshness = serverJobFreshness({ freshOriginals: askSimplePipeline() }), rejectedIds: string[] = [];
+          let unavailable = false;
+          const report = (p: import("./retrieval").PassageForSelection, reason: string) => onDiagnostic("retrieval", "stable_source_recheck_detail", Date.now() - requestStarted,
+            { source_id: p.id, group: p.source.kind, revalidation_reason: reason });
+          const scholars = candidates.filter(p => p.source.kind === "scholar");
+          const validScholars = scholars.length && checkpoint.frame ? await progressiveScholarFreshness(scholars,
+            pointSearchPlans(checkpoint.frame).map(plan => [...plan.scholar, ...(checkpoint.recoveryQueries ?? []).filter(q => q.family === "scholar").map(q => q.text)]), uiLanguage, signal) : new Set<string>();
+          await Promise.all(candidates.map(async p => {
+            if (p.source.kind === "scholar") { if (!validScholars.has(p.id)) { unavailable = true; report(p, "scholar_unconfirmed"); } return; }
+            try {
+              const status = await freshness.evidence({ id: p.id, evidence: toEvidence(p.source, uiLanguage) }, uiLanguage, signal);
+              if (status === "changed") { rejectedIds.push(p.id); report(p, "source_changed"); return; }
+              if (status === "unavailable") { unavailable = true; report(p, "source_unavailable"); return; }
+              if (p.source.kind === "quran") {
+                const key = p.source.verse.key, current = await abortable(neighbours(key, askSimplePipeline()), signal);
+                const ordered = (rows: typeof current) => JSON.stringify([...rows].sort((a, b) => a.key.localeCompare(b.key)));
+                const surrounding = current.filter(v => v.key !== key);
+                if (JSON.stringify(surrounding.map(v => v.key).sort()) !== JSON.stringify(p.context.map(v => v.key).sort())) { unavailable = true; report(p, "context_unavailable"); }
+                else if (ordered(surrounding) !== ordered(p.context)) { rejectedIds.push(p.id); report(p, "context_changed"); }
+              }
+            } catch { signal.throwIfAborted(); unavailable = true; report(p, "source_request_failed"); }
+          }));
+          return { unavailable, rejectedIds };
+        },
+        onFrame: (frame: import("./retrieval").QuestionFrame) => { checkpoint.frame = structuredClone(frame); trace?.onFrame?.(frame); },
+        revalidateProgressive: async (candidates: import("./retrieval").PassageForSelection[], signal: AbortSignal) => {
+          const { serverJobFreshness } = await import("./search-engine/server-job-freshness");
+          const freshness = serverJobFreshness();
+          // Ordinary stored-quote continuation uses the already deployed approved
+          // search gate. The separate persistent-index RPC is not a prerequisite.
+          const scholarCandidates = candidates.filter(p => p.source.kind === "scholar");
+          const currentScholars = scholarCandidates.length && checkpoint.frame ? await progressiveScholarFreshness(scholarCandidates,
+            pointSearchPlans(checkpoint.frame).map(plan => [...plan.scholar, ...(checkpoint.recoveryQueries ?? []).filter(q => q.family === "scholar").map(q => q.text)]), uiLanguage, signal) : new Set<string>();
+          const results = await Promise.all(candidates.map(async p => {
+            if (p.source.kind === "scholar") {
+              return currentScholars.has(p.id);
+            }
+            if (await freshness.evidence({ id: p.id, evidence: toEvidence(p.source, uiLanguage) }, uiLanguage, signal) !== "valid") return false;
+            if (p.source.kind !== "quran") return true;
+            const key = p.source.verse.key;
+            const current = await abortable(neighbours(key), signal);
+            const ordered = (rows: typeof current) => JSON.stringify([...rows].sort((a, b) => a.key.localeCompare(b.key)));
+            return ordered(current.filter(v => v.key !== key)) === ordered(p.context);
+          }));
+          return results.every(Boolean);
+        },
+      } : {}),
+      simpleResearch: !!options?.rich?.stable && uiLanguage !== "de" && askSimplePipeline(),
       meaningReview: !!options?.rich,
       focusedChecks: !!options?.rich && askFocusedChecks(),
       distinctSelection: !!options?.rich && askDistinctSelection(),
       ...(options?.rich ? { rich: {
+        progressive: options.rich.progressive,
+        stable: options.rich.stable,
+        onIntegrity: options.rich.onIntegrity,
+        onGroupStatus: options.rich.onGroupStatus,
+        onCard: card => { onDiagnostic("response", "checked_quran_card", Date.now() - requestStarted, { count: card.sources.length }); options.rich?.onCard?.(card); },
+        onCardWithdraw: id => options.rich?.onCardWithdraw?.(id),
         onProgress: stage => { onDiagnostic("response", `rich_${stage}`, Date.now() - requestStarted); options.rich?.onProgress?.(stage); },
-        onSection: section => { onDiagnostic("response", `checked_${section.group}_${section.outcome}`, Date.now() - requestStarted, { count: section.claims.length }); options.rich?.onSection?.(section); },
-        onWithdraw: () => { onDiagnostic("response", "rich_sections_withdrawn", Date.now() - requestStarted); options.rich?.onWithdraw?.(); },
+        onSection: (section, snapshot) => { onDiagnostic("response", `checked_${section.group}_${section.outcome}`, Date.now() - requestStarted, { count: section.presentation === "originals" ? section.sources.length : section.claims.length }); options.rich?.onSection?.(section, snapshot); },
+        onWithdraw: group => { onDiagnostic("response", "rich_sections_withdrawn", Date.now() - requestStarted); options.rich?.onWithdraw?.(group); },
       }, sourceProblems, sourceAvailability: { hadith: HADITH_ON || (HADITH_MODE === "library" && !!process.env.SUPABASE_SECRET_KEY), scholar: SCHOLARS_ON } } : {}),
       ...(options?.signal ? { abortSignal: options.signal } : {}),
       writer: observe(writer, "writer"),
       verifier: observe(verifier, "checker"),
       ...(options?.rich && askCorpusRetrieval() ? { retrieveCorpusCandidates: serverCorpusRetriever([...(HADITH_MODE !== "off" ? ["hadith" as const] : []), ...(SCHOLARS_ON ? ["scholar" as const] : [])]) } : {}),
-      ...(options?.rich && askResearchRecovery() ? { planEvidenceRecovery: modelRecoveryPlanner(observe(writer, "writer")) } : {}),
+      ...(options?.rich && (askResearchRecovery() || options.rich.progressive) ? { planEvidenceRecovery: modelRecoveryPlanner(observe(writer, "writer")) } : {}),
       ...(options?.rich && askMeaningRanking() ? { meaningRankCandidates: pipelineMeaningRanker(modelMeaningReranker(observe(verifier, "checker")), audit => {
         recordLocalAskEvent("meaning_ranking", audit);
         onDiagnostic("candidates", audit.fallbackReason ? "meaning_ranking_invalid_retained_candidates" : "meaning_ranking_finished", Date.now() - requestStarted, { before: audit.before, after: audit.after, dropped_source_ids: audit.droppedIds, ignored_unknown_count: audit.ignoredUnknownCount, ...(audit.fallbackReason ? { reason: audit.fallbackReason } : {}) });
@@ -173,7 +247,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       ...(HADITH_ON ? { searchHadith: (q) => searchHadithMulti(q, 8, () => {
         sourceProblems.hadith = "search_failed";
         onDiagnostic("retrieval", "hadith_partial_search_failed", Date.now() - requestStarted);
-      }), getHadith } : {}),
+      }, options?.rich?.progressive ? uiLanguage : undefined), getHadith: (id: string) => getHadith(id, options?.rich?.progressive ? uiLanguage : undefined) } : {}),
       // Stored hadith from our own library (Sunnah.com text). Needs the server's secret key.
       ...(HADITH_MODE === "library" ? { searchHadith: (queries) => searchLibraryHadith(queries, {
         meaningCandidates: !!options?.rich && askMeaningRanking(),
@@ -188,7 +262,9 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
           for (const [name, count] of Object.entries(audit)) if (typeof count === "number" && count > 0)
             onDiagnostic("retrieval", `hadith_${name.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`)}_${count}`, Date.now() - requestStarted);
         },
-      }), getHadith: getLibraryHadith } : {}),
+      }), getHadith: getLibraryHadith,
+        resolveHadithHint: (id, signal) => resolveLibraryHadithHint(id, hintId => getHadith(hintId, "ar"), findLibraryHadithByReference, signal),
+      } : {}),
       // Short quotes of approved scholars from our private library (rights: short quotes, permission pending).
       ...(SCHOLARS_ON ? { searchScholars: (phrases: string[], mappedUrls?: string[]) => scholarQuotes(phrases, mappedUrls, {
         allVariants: libraryFlow, meaningCandidates: !!options?.rich && askMeaningRanking(),

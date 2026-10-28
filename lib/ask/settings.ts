@@ -14,7 +14,9 @@ export const askCorpusRetrieval = () => process.env.ASK_CORPUS_RETRIEVAL === "tr
 export const askRichVideos = () => process.env.ASK_RICH_VIDEOS === "true" && process.env.VIDEOS !== "off";
 // Owner-only local development. Never relax a deployed function's execution budget.
 export const localAskRuntime = () => process.env.NODE_ENV === "development" && !process.env.VERCEL;
-export const localAskUnhurried = () => localAskRuntime() && process.env.ASK_LOCAL_UNHURRIED !== "false";
+// Hosted use needs a second, deliberate key (see docs/ask-hosted-execution-design-2026-10-28.md). Both default off.
+export const askSimplePipeline = () => process.env.ASK_SIMPLE_PIPELINE === "true" && (localAskRuntime() || process.env.ASK_SIMPLE_PIPELINE_HOSTED === "true");
+export const localAskUnhurried = () => localAskRuntime() && process.env.ASK_LOCAL_UNHURRIED === "true";
 export const localAskTraceEnabled = () => localAskRuntime() && process.env.ASK_LOCAL_TRACE !== "false";
 // Broader library/conversation flow is experimental until matched live acceptance passes.
 export function askLibraryFlow(value: string | undefined = process.env.ASK_LIBRARY_FLOW): boolean {

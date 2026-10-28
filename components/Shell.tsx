@@ -6,6 +6,7 @@ import { CircleHelp, Compass, Ellipsis, HeartHandshake, House, MessageCircle, ty
 import type { Dictionary, Locale } from "@/lib/i18n";
 import Logo from "./Logo";
 import LangSwitch from "./LangSwitch";
+import ThemeToggle from "./ThemeToggle";
 
 type NavKey = "home" | "ask" | "topics" | "start" | "more" | "support";
 
@@ -24,12 +25,14 @@ export default function Shell({
   nav,
   brandAr,
   langLabel,
+  themeLabels,
   children,
 }: {
   lang: Locale;
   nav: Dictionary["nav"];
   brandAr: string;
   langLabel: string;
+  themeLabels?: { light: string; dark: string };
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
@@ -54,6 +57,7 @@ export default function Shell({
           ))}
         </nav>
         <div className="sidebar-foot">
+          <ThemeToggle labels={themeLabels} />
           <LangSwitch lang={lang} label={langLabel} />
         </div>
       </aside>
@@ -62,6 +66,7 @@ export default function Shell({
         <Link href={base} aria-label="Bayan">
           <Logo brandAr={brandAr} />
         </Link>
+        <ThemeToggle labels={themeLabels} />
       </header>
 
       <main id="main" className="main" tabIndex={-1}>

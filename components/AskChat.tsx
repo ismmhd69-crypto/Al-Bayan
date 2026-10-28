@@ -1,6 +1,7 @@
 "use client";
 
-import { richFailureKind } from "@/lib/ask/rich-answer";
+import { richFailureKind, validResearchContinuation, mergeContinuationDisplay } from "@/lib/ask/rich-answer";
+import { automaticContinuation, isConnectionInterruption, isRecoverableInterruption, removeCardOnReply, stableResearchReply } from "@/lib/ask/auto-continuation";
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -38,6 +39,7 @@ import {
 } from "@/lib/ask/rich-answer";
 import { richText } from "@/lib/ask/rich-text";
 import { RichAnswerView } from "./RichAnswerView";
+import { StableAnswerView, type RevealMemory } from "./StableAnswerView";
 import type { PatientState } from "@/lib/ask/patient-protocol";
 import type { Locale } from "@/lib/i18n";
 import { browserSupabase } from "@/lib/supabase-browser";
@@ -59,8 +61,9 @@ type Reply =
   | { kind: "text"; text: string }
   | { kind: "answer"; answer: Answer }
   | { kind: "rich"; answer: RichAnswer }
+  | { kind: "stable"; state: RichStreamState; question: string; history?: string[] }
   | { kind: "patient"; state: PatientState }
-  | { kind: "partial"; state: RichStreamState };
+  | { kind: "partial"; state: RichStreamState; question?: string };
 export type NewMessage = (
   | { role: "user"; text: string }
   | { role: "bayan"; reply: Reply }
@@ -115,11 +118,13 @@ export default function AskChat({
   onCancelReady?: (cancel: () => void) => void;
   resumePending?: boolean;
 }) {
+  const stableEnabled = richEnabled && lang !== "de" && process.env.NEXT_PUBLIC_ASK_STABLE_STREAMING === "true";
   const [messages, setMessages] = useState<Message[]>(() =>
     (initialMessages ?? []).map((m, i) => ({ ...m, id: i + 1 })),
   );
   const [value, setValue] = useState("");
   const [busy, setBusy] = useState(false);
+  const [continuationTarget, setContinuationTarget] = useState<number | null>(null);
   const nextId = useRef((initialMessages?.length ?? 0) + 1);
   const endRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
@@ -127,6 +132,10 @@ export default function AskChat({
   const activeRequest = useRef<AbortController | null>(null);
   const sending = useRef(false);
   const [streamState, setStreamState] = useState<RichStreamState | null>(null);
+  const stableMessage = useRef<number | null>(null);
+  const revealMemory = useRef<RevealMemory>(new Map());
+  const logRef = useRef<HTMLDivElement>(null), followingRef = useRef(true);
+  const [following, setFollowing] = useState(true);
   const [patientState, setPatientState] = useState<PatientState | null>(null);
   const patientRef = useRef<PatientState | null>(null);
   const [initializing, setInitializing] = useState(
@@ -148,6 +157,7 @@ export default function AskChat({
   messagesRef.current = messages;
   if (durableEnabled && !researcher.current)
     researcher.current = researchClient({
+      stablePublications: stableEnabled,
       language: lang as Locale,
       onPatientState: state => { patientRef.current = state; if (alive.current) setPatientState(state); },
       getToken: async () => {
@@ -176,7 +186,12 @@ export default function AskChat({
 
   async function stop() {
     if (!durableEnabled) {
-      activeRequest.current?.abort();
+      const active = [...messagesRef.current].reverse().find(m => m.role === "bayan" && m.reply.kind === "stable" && !m.reply.state.terminal && m.reply.state.continuation);
+      if (active?.role === "bayan" && active.reply.kind === "stable" && active.reply.state.continuation) {
+        void fetch("/api/ask/stream", { method: "POST", keepalive: true, headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ lang, stream_version: 3, action: "stop", continue_token: active.reply.state.continuation.token }) }).catch(() => {});
+      }
+      activeRequest.current?.abort("answer_stopped");
       return;
     }
     try {
@@ -234,11 +249,24 @@ export default function AskChat({
   }
 
   useEffect(() => {
+    if (messages.some(m => m.role === "bayan" && m.reply.kind === "stable")) return;
     endRef.current?.scrollIntoView({
       behavior: reducedMotion() ? "auto" : "smooth",
       block: "end",
     });
   }, [messages, busy]);
+  useEffect(() => {
+    const log = logRef.current; if (!log) return;
+    let frame = 0;
+    const stableReader = () => messagesRef.current.some(m => m.role === "bayan" && m.reply.kind === "stable");
+    const scroll = () => { if (!stableReader()) return; followingRef.current = log.scrollHeight - log.scrollTop - log.clientHeight < 96; setFollowing(followingRef.current); };
+    const follow = () => { if (!stableReader() || frame || !followingRef.current) return; frame = requestAnimationFrame(() => { frame = 0; if (followingRef.current) log.scrollTop = log.scrollHeight; }); };
+    const resize = new ResizeObserver(follow);
+    const mutation = new MutationObserver(() => { Array.from(log.children).forEach(child => resize.observe(child)); follow(); });
+    Array.from(log.children).forEach(child => resize.observe(child)); mutation.observe(log, { childList: true, subtree: true, characterData: true });
+    log.addEventListener("scroll", scroll, { passive: true });
+    return () => { cancelAnimationFrame(frame); resize.disconnect(); mutation.disconnect(); log.removeEventListener("scroll", scroll); };
+  }, []);
 
   // A question handed over from Home or a topic page is asked straight away.
   useEffect(() => {
@@ -265,7 +293,30 @@ export default function AskChat({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  async function send(raw: string, restored?: ResearchPending) {
+  async function checkReceipt(messageId: number, token: string) {
+    if (sending.current) return;
+    sending.current = true; setBusy(true);
+    let reuse: { question: string; initialState: RichStreamState } | undefined;
+    try {
+      const owner = messagesRef.current.find(m => m.id === messageId);
+      const version = owner?.role === "bayan" && owner.reply.kind === "stable" ? 3 : 2;
+      const response = await fetch("/api/ask/stream", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ lang, stream_version: version, action: "status", continue_token: token }) });
+      const result = await response.json();
+      if (owner?.role === "bayan" && owner.reply.kind === "stable" && validResearchContinuation(result.continuation)
+        && result.continuation.token === token && result.continuation.approved) reuse = { question: owner.reply.question, initialState: owner.reply.state };
+      setMessages(previous => previous.map(m => m.id === messageId && m.role === "bayan" && (m.reply.kind === "partial" || m.reply.kind === "stable") ? { ...m, reply: { ...m.reply,
+        state: { ...m.reply.state, continuation: validResearchContinuation(result.continuation) ? result.continuation : m.reply.state.continuation
+          ? { ...m.reply.state.continuation, available: false, reason: "expired" } : undefined } } } : m));
+    } catch { push({ role: "bayan", reply: { kind: "text", text: rt.interrupted } }); }
+    finally { sending.current = false; setBusy(false); }
+    // The finished answer was approved: fetch it by asking the identical question again. The server
+    // rechecks every original first and refuses to start any new research for this request.
+    if (reuse && alive.current) void send(reuse.question, undefined, { token, messageId, initialState: reuse.initialState, automatic: true, reuse: true });
+  }
+
+  async function send(raw: string, restored?: ResearchPending, continuing?: { token: string; messageId: number; initialState?: RichStreamState; automatic?: boolean;
+    /** Ask the identical question again to reuse an approved answer; the server refuses anything else. */ reuse?: boolean }) {
     const question = raw.trim();
     if (!question || sending.current) return;
     if (question.length > MAX) {
@@ -291,7 +342,7 @@ export default function AskChat({
         ),
       );
     const userId = nextId.current;
-    if (!hasUser)
+    if (!hasUser && !continuing)
       push({
         role: "user",
         text: question,
@@ -299,6 +350,7 @@ export default function AskChat({
       });
     setValue("");
     setBusy(true);
+    setContinuationTarget(continuing?.messageId ?? null);
     patientRef.current = null; setPatientState(null);
     sending.current = true;
     const controller = new AbortController();
@@ -309,7 +361,50 @@ export default function AskChat({
     setConnection(
       durableEnabled ? (restored ? "reconnecting" : "submitting") : "working",
     );
-    let state = emptyRichState();
+    const stable = stableEnabled;
+    let state: RichStreamState = { ...emptyRichState(), ...(stable ? { version: 3 as const } : {}) };
+    const stableId = stable ? continuing?.messageId ?? nextId.current++ : null;
+    stableMessage.current = stableId;
+    let stableDisplay = continuing ? messagesRef.current.find(m => m.id === continuing.messageId) : undefined;
+    // The exact history of the original question. Reuse must match it, or the server would treat it as a new question.
+    const requestHistory = stableDisplay?.role === "bayan" && stableDisplay.reply.kind === "stable" && stableDisplay.reply.history
+      ? stableDisplay.reply.history : previousUserMessages(messages);
+    const updateStable = (next: RichStreamState) => {
+      if (stableId === null) return;
+      setMessages(previous => previous.map(m => m.id === stableId && m.role === "bayan" ? { ...m, reply: { kind: "stable", question, history: requestHistory, state: next } } : m));
+    };
+    if (stableId !== null && !continuing) setMessages(previous => [...previous, { id: stableId, role: "bayan", reply: { kind: "stable", question, history: requestHistory, state } }]);
+    let continuedState = continuing?.initialState ?? (stableDisplay?.role === "bayan" && (stableDisplay.reply.kind === "stable" || stableDisplay.reply.kind === "partial") ? stableDisplay.reply.state : state);
+    let autoResume: { token: string; messageId: number; initialState: RichStreamState; automatic: true; reuse?: boolean } | undefined;
+    const checkAutomaticResume = async () => {
+      const previous = continuedState.continuation;
+      if (stableId === null || durableEnabled || controller.signal.aborted || continuing?.automatic || !previous
+        || RICH_ORDER.some(group => (continuedState.publication?.groups[group].notices.length ?? 0) > 0)) return false;
+      setConnection("reconnecting");
+      try {
+        const response = await fetch("/api/ask/stream", { method: "POST", signal: controller.signal, headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ lang, stream_version: 3, action: "status", continue_token: previous.token }) });
+        const value = await response.json();
+        controller.signal.throwIfAborted();
+        const eligible = automaticContinuation(value?.continuation, previous.token);
+        if (validResearchContinuation(value?.continuation) && value.continuation.token === previous.token && value.continuation.approved) {
+          autoResume = { token: previous.token, messageId: stableId, initialState: { ...continuedState, continuation: value.continuation }, automatic: true, reuse: true };
+          return true;
+        }
+        if (eligible) {
+          autoResume = { token: eligible.token, messageId: stableId, initialState: { ...continuedState, continuation: eligible }, automatic: true };
+          return true;
+        }
+        if (validResearchContinuation(value?.continuation) && value.continuation.token === previous.token)
+          continuedState = { ...continuedState, continuation: value.continuation };
+        else continuedState = { ...continuedState, continuation: { ...previous, available: false,
+          ...(value?.status === "research_expired" ? { reason: "expired" as const } : { reason: undefined }) } };
+      } catch {
+        // A failed status check cannot establish that a paid retry is safe.
+        continuedState = { ...continuedState, continuation: { ...previous, available: false, reason: undefined } };
+      }
+      return false;
+    };
     let job: ResearchPending | undefined = restored;
     if (richEnabled) setStreamState(state);
     try {
@@ -339,28 +434,37 @@ export default function AskChat({
           job,
           (next) => {
             state = next;
+            if (stable && next.publication) { continuedState = next; updateStable(next); }
             if (alive.current) setStreamState(next);
           },
           controller.signal,
         );
         rawData = result.result;
         state = result.state;
+        if (stable && state.publication) { continuedState = state; updateStable(state); }
       } else {
         res = await fetch(richEnabled ? "/api/ask/stream" : "/api/ask", {
           method: "POST",
           signal: controller.signal,
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            question,
+            ...(continuing && !continuing.reuse ? { continue_token: continuing.token } : { question }),
+            ...(continuing?.reuse ? { reuse_only: true } : {}),
             lang,
-            previous_user_messages: previousUserMessages(messages),
+            previous_user_messages: requestHistory,
             supports_clarification: true,
+            // Keep the earlier answer flow until progressive delivery passes
+            // end-to-end acceptance. API review tools can exercise v2 separately.
+            ...(stable ? { stream_version: 3 } : richEnabled && process.env.NEXT_PUBLIC_ASK_PROGRESSIVE_STREAMING === "true" ? { stream_version: 2 } : {}),
           }),
         });
         if (res.headers.get("content-type")?.startsWith("text/event-stream")) {
           if (!res.body) throw new Error("missing_stream");
           await consumeRichStream(res.body, (event) => {
             state = reduceRichEvent(state, event);
+            if (stable) { continuedState = continuing ? mergeContinuationDisplay(continuedState, state, event) : state; updateStable(continuedState); }
+            if (continuing) setMessages(previous => previous.map(m => m.id === continuing.messageId && m.role === "bayan" && m.reply.kind === "partial"
+              ? { ...m, reply: { ...m.reply, state: mergeContinuationDisplay(m.reply.state, state, event) } } : m));
             setStreamState(state);
           });
           if (!state.terminal) throw new Error("interrupted_stream");
@@ -374,16 +478,33 @@ export default function AskChat({
         clarification?: { choices?: string[] };
         withdraw?: boolean;
         sections?: RichSection[];
+        continuation?: unknown;
+        failureKind?: string;
       };
+      if (validResearchContinuation(data.continuation)) state = { ...state, continuation: data.continuation };
+      if (data.status?.startsWith("research_")) {
+        const reason = data.status.slice(9);
+        if (stableId !== null) { updateStable(stableResearchReply(continuedState, reason, data, !!continuing, lang as Locale)); return; }
+        if (continuing) setMessages(previous => previous.map(m => m.id === continuing.messageId && m.role === "bayan" && m.reply.kind === "partial"
+          ? { ...m, reply: { ...m.reply, state: { ...m.reply.state, continuation: m.reply.state.continuation ? { ...m.reply.state.continuation, available: false,
+            reason: ["expired", "busy", "limit", "billing_uncertain", "cancelled"].includes(reason) ? reason as "expired" : "expired" } : undefined } } } : m));
+        push({ role: "bayan", reply: { kind: "text", text: reason in rt.continuationIssues ? rt.continuationIssues[reason as keyof typeof rt.continuationIssues] : rt.continuationIssues.expired } });
+        return;
+      }
       if (data.status === "patient_paused") {
         const current = patientRef.current as PatientState | null;
         if (!durableEnabled || !current || current.status !== "paused") throw new ResearchClientError("invalid_response");
+        if (stable) { updateStable({ ...continuedState, terminal: true, result: { status: "incomplete", language: lang, withdraw: false } }); setRecoverable(true); return; }
         push({ role: "bayan", reply: { kind: "patient", state: current }, exchangeId: job?.locator.id ?? undefined, researchKey: job?.locator.key });
         setRecoverable(true); return;
       }
       if (data.status === "rich_answer") {
-        if (!validRichAnswer(data.answer) || data.answer.language !== lang)
+        // The answer follows the question language, which can differ from the
+        // interface language. The answer validator checks its own language and sources.
+        if (!validRichAnswer(data.answer) || durableEnabled && data.answer.language !== lang)
           throw new Error("invalid_rich_answer");
+        if (stable) { updateStable({ ...continuedState, terminal: true, result: data }); await persist(question, { kind: "rich", answer: data.answer }, job); return; }
+        if (continuing) setMessages(previous => previous.filter(m => m.id !== continuing.messageId));
         push({
           role: "bayan",
           reply: { kind: "rich", answer: data.answer },
@@ -393,6 +514,11 @@ export default function AskChat({
         return;
       }
       if (data.status === "incomplete") {
+        if (stable) {
+          if (isRecoverableInterruption(data.failureKind) && await checkAutomaticResume()) return;
+          controller.signal.throwIfAborted();
+          updateStable({ ...continuedState, terminal: true, result: data }); return;
+        }
         if (
           data.sections &&
           !res?.headers.get("content-type")?.startsWith("text/event-stream")
@@ -402,17 +528,19 @@ export default function AskChat({
             data.sections.length > 4 ||
             !data.sections.every(
               (s, i) =>
-                s.group === RICH_ORDER[i] &&
+                (continuing || state.version === 2 || data.continuation ? RICH_ORDER.includes(s.group) : s.group === RICH_ORDER[i]) &&
                 validRichSection(s, lang as Locale),
             )
           )
             throw new Error("invalid_partial");
           state = { ...state, sections: data.sections };
         }
+        if (continuing) setMessages(previous => previous.filter(m => m.id !== continuing.messageId));
         push({
           role: "bayan",
           reply: {
             kind: "partial",
+            question,
             state: data.withdraw
               ? { ...state, sections: [], withdrawn: true }
               : {
@@ -467,6 +595,9 @@ export default function AskChat({
                           : data.status === "too_long"
                             ? { kind: "text", text: t.tooLong }
                             : { kind: "text", text: t.error };
+      // During Continue the card already holds checked sources: never remove it. Its saved
+      // Continue link stays usable, and the reply (for example "rate limited") is shown below it.
+      if (stableId !== null && removeCardOnReply(!!continuing)) setMessages(previous => previous.filter(m => m.id !== stableId));
       push({ role: "bayan", reply, exchangeId: job?.locator.id ?? undefined });
       if (data.status === "answer" && reply.kind === "answer")
         await persist(question, reply, job);
@@ -486,6 +617,11 @@ export default function AskChat({
       } else if (job) researcher.current?.acknowledge(job);
     } catch (error) {
       if (!alive.current) return;
+      if (stableId !== null) {
+        if (isConnectionInterruption(error) && await checkAutomaticResume()) return;
+        updateStable({ ...continuedState, terminal: true, result: { status: "incomplete", language: lang, withdraw: false, failureKind: controller.signal.reason === "answer_stopped" ? "cancelled" : "connection_interrupted" } });
+        return;
+      }
       if (durableEnabled) {
         const pendingKey =
           job?.locator.key ?? researcher.current?.current()?.key;
@@ -506,7 +642,7 @@ export default function AskChat({
             setMessages((previous) =>
               previous.map((m) =>
                 m.role === "bayan" && m.exchangeId === job!.locator.id
-                  ? { ...m, reply: { kind: "partial", state } }
+                  ? { ...m, reply: { kind: "partial", state, question } }
                   : m,
               ),
             );
@@ -541,12 +677,13 @@ export default function AskChat({
           });
           return;
         }
-        if (state.sections.length || state.withdrawn)
+        if (state.sections.length || state.cards?.length || state.withdrawn)
           push({
             role: "bayan",
             researchKey: pendingKey,
             reply: {
               kind: "partial",
+              question,
               state: {
                 ...state,
                 sections: state.sections.filter((s) => s.group !== "summary"),
@@ -580,11 +717,14 @@ export default function AskChat({
         return;
       }
       // An interrupted paid request is never automatically retried or saved.
-      if (richEnabled && (state.sections.length || state.withdrawn))
+      if (continuing) {
+        push({ role: "bayan", reply: { kind: "text", text: controller.signal.aborted ? rt.stopped : rt.interrupted } });
+      } else if (richEnabled && (state.sections.length || state.cards?.length || state.continuation || state.withdrawn))
         push({
           role: "bayan",
           reply: {
             kind: "partial",
+            question,
             state: {
               ...state,
               sections: state.sections.filter((s) => s.group !== "summary"),
@@ -607,14 +747,17 @@ export default function AskChat({
           },
         });
     } finally {
+      const resume = autoResume && !controller.signal.aborted ? autoResume : undefined;
       controller.abort();
       activeRequest.current = null;
       sending.current = false;
       if (alive.current) {
         setBusy(false);
+        setContinuationTarget(null);
         setStreamState(null);
         inputRef.current?.focus();
       }
+      if (resume && alive.current) void send(question, undefined, resume);
     }
   }
 
@@ -659,7 +802,7 @@ export default function AskChat({
   }
 
   return (
-    <div className="chat">
+    <div className="chat" data-ask-flow={stableEnabled ? "stable-v3" : "legacy"}>
       <header className="chat-top">
         <Link href={`/${lang}`} className="icon-btn" aria-label={backLabel}>
           <ArrowLeft aria-hidden="true" className="flip-rtl" />
@@ -669,7 +812,7 @@ export default function AskChat({
         {headerExtra}
       </header>
 
-      <div className="chat-log" aria-busy={busy && !richEnabled}>
+      <div ref={logRef} className="chat-log" aria-busy={busy && !richEnabled}>
         <p className="chat-notice">
           <ShieldCheck aria-hidden="true" />
           <span>
@@ -710,7 +853,12 @@ export default function AskChat({
           ) : (
             <div key={m.id} className="msg msg-bayan">
               <span className="sr-only">{t.bayan}: </span>
-              {m.reply.kind === "rich" ? (
+              {m.reply.kind === "stable" ? <>
+                <StableAnswerView state={m.reply.state} language={lang as Locale} text={t} working={busy && stableMessage.current === m.id} reconnecting={busy && stableMessage.current === m.id && connection === "reconnecting"} memory={revealMemory.current} />
+                {busy && stableMessage.current === m.id ? <button type="button" className="chip" onClick={() => void stop()}>{rt.stop}</button>
+                  : m.reply.state.continuation?.available && !RICH_ORDER.some(g => m.reply.kind === "stable" && m.reply.state.publication?.groups[g].notices.length) ? <button type="button" className="btn btn-primary" onClick={() => { if (m.reply.kind === "stable" && m.reply.state.continuation) void send(m.reply.question, undefined, { token: m.reply.state.continuation.token, messageId: m.id }); }}>{rt.continueResearch}</button>
+                    : m.reply.state.continuation && ["billing_uncertain", "busy", ""].includes(m.reply.state.continuation.reason ?? "") ? <button type="button" className="chip" onClick={() => { if (m.reply.kind === "stable" && m.reply.state.continuation) void checkReceipt(m.id, m.reply.state.continuation.token); }}>{rt.checkReceipt}</button> : null}
+              </> : m.reply.kind === "rich" ? (
                 <RichAnswerView
                   sections={m.reply.answer.sections}
                   language={m.reply.answer.language}
@@ -723,14 +871,29 @@ export default function AskChat({
                 <RichAnswerView sections={RICH_ORDER.flatMap(g => m.reply.kind === "patient" && m.reply.state.groups[g].section ? [m.reply.state.groups[g].section!] : [])}
                   language={lang as Locale} text={t} patient={m.reply.state} />
               ) : m.reply.kind === "partial" ? (
+                <>
                 <RichAnswerView
                   sections={m.reply.state.sections}
                   language={lang as Locale}
                   text={t}
-                  incomplete
+                  incomplete={continuationTarget !== m.id}
+                  working={busy && continuationTarget === m.id}
                   withdrawn={m.reply.state.withdrawn}
                   technicalFailure={richFailureKind(m.reply.state.result) === "checker_failure"}
+                  failureKind={richFailureKind(m.reply.state.result)}
+                  cards={m.reply.state.cards}
                 />
+                {m.reply.state.continuation && <div role="status">
+                  {m.reply.state.continuation.available && m.reply.state.continuation.remaining > 0 && m.reply.question
+                    ? <><p>{rt.continuationNotice}</p><button type="button" className="btn btn-primary" disabled={busy} onClick={() => {
+                      if (m.reply.kind === "partial" && m.reply.state.continuation && m.reply.question) void send(m.reply.question, undefined, { token: m.reply.state.continuation.token, messageId: m.id });
+                    }}>{rt.continueResearch}</button></>
+                    : <><p>{rt.continuationIssues[m.reply.state.continuation.reason ?? "limit"]}</p>
+                      {["billing_uncertain", "busy"].includes(m.reply.state.continuation.reason ?? "") && <button type="button" className="btn btn-ghost" disabled={busy} onClick={() => {
+                        if (m.reply.kind === "partial" && m.reply.state.continuation) void checkReceipt(m.id, m.reply.state.continuation.token);
+                      }}>{rt.checkReceipt}</button>}</>}
+                </div>}
+                </>
               ) : m.reply.kind === "text" ? (
                 <p role="status">{m.reply.text}</p>
               ) : m.reply.kind === "clarify" ? (
@@ -774,17 +937,8 @@ export default function AskChat({
           ),
         )}
 
-        {busy && streamState && (
+        {busy && streamState && streamState.version !== 3 && (
           <div className="msg msg-bayan">
-            {(patientState || streamState.sections.length > 0 || streamState.withdrawn) && (
-              <RichAnswerView
-                sections={streamState.sections}
-                language={lang as Locale}
-                text={t}
-                withdrawn={streamState.withdrawn}
-                patient={patientState ?? undefined}
-              />
-            )}
             <p role="status" aria-live="polite">
               {connection === "submitting"
                 ? rt.submitting
@@ -798,6 +952,17 @@ export default function AskChat({
                         ? rt.stopping
                         : rt.progress[streamState.progress]}
             </p>
+            {!continuationTarget && (patientState || streamState.sections.length > 0 || !!streamState.cards?.length || streamState.withdrawn) && (
+              <RichAnswerView
+                sections={streamState.sections}
+                language={lang as Locale}
+                text={t}
+                withdrawn={streamState.withdrawn}
+                cards={streamState.cards}
+                patient={patientState ?? undefined}
+                working
+              />
+            )}
             {cancelProblem && <p role="alert">{rt.cancelFailed}</p>}
             <button
               type="button"
@@ -842,6 +1007,7 @@ export default function AskChat({
         )}
         <div ref={endRef} />
       </div>
+      {!following && <button type="button" className="chip" onClick={() => { followingRef.current = true; setFollowing(true); logRef.current?.scrollTo({ top: logRef.current.scrollHeight, behavior: reducedMotion() ? "auto" : "smooth" }); }}>{lang === "ar" ? "انتقل إلى آخر الإجابة" : "Jump to latest"}</button>}
 
       <form
         className="composer"

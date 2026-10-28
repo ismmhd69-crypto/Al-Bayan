@@ -2,7 +2,15 @@ import type { Locale } from "@/lib/i18n";
 
 export const richText = {
   en: {
-    technicalFailure: "Research stopped because part of processing or checking failed. Any sections shown below passed their individual checks. No final answer was saved.",
+    checkReceipt: "Check again",
+    continuationNotice: "The answer is unfinished. Continue from the checked work above.",
+    continuationIssues: { expired: "This attempt can no longer continue. Any checked explanations remain above. You can start a new question.", busy: "This attempt is still running. Please wait.", limit: "This attempt could not finish. Any checked explanations remain above.", billing_uncertain: "This attempt paused before the answer was ready. Check whether it can continue.", cancelled: "This attempt was stopped." },
+    sourceCardNotice: "These passages passed relevance and context checks. They are source material, not a checked explanation of your question.",
+    sourceCardWorking: "Relevant Quran passages found. We’re preparing and checking their explanation…",
+    sourceRoles: { direct: "Direct evidence for a requested point", background: "Supporting context", limited_example: "A limited example; not a general rule" },
+    failures: { summary_provider_rejection: "The final summary could not be generated because the writing service rejected the request. Checked sections are kept above; no final answer was completed.", summary_timeout: "The final summary ran out of time. Checked sections are kept above; no final answer was completed.", writer_failure: "An explanation could not be generated. Any checked sections are kept above; no final answer was completed." },
+    sourceFailures: { source_revalidation: "The saved sources could not be rechecked for this continuation. A final answer has not been approved.", evidence_selection: "Evidence selection could not finish. No unchecked explanation is shown.", explanation_check: "The explanation could not finish its checks. Only earlier checked material is kept.", source_search: "Some source searches could not finish. The displayed evidence passed its checks; other relevant evidence may still be missing.", verse_lookup: "Some verse text could not be retrieved. Only available evidence that passed its checks is shown.", context_lookup: "Some surrounding verses could not be retrieved. Passages that needed that context were withheld." },
+    technicalFailure: "Research stopped because part of processing or checking failed. Any sections shown above passed their individual checks. No final answer was saved.",
     relatedVideoNotice: "Further learning matched by title from approved channels. The recording has not been checked as evidence for this answer.",
     checkingPending: "Checking for unfinished research…",
     submitting: "Sending your question…",
@@ -12,7 +20,7 @@ export const richText = {
     stopping: "Confirming that research has stopped…",
     saving: "Saving the checked answer…",
     resume: "Resume research",
-    continueResearch: "Continue research",
+    continueResearch: "Continue answer",
     patientNotice: "These explanations passed automatic checks. Research is continuing; the final answer is not ready yet.",
     patientPaused: "Research is paused. Your checked sections are kept. Continue research resumes the unfinished work in this same job.",
     patientSummaryWaiting: "The final summary will appear after the necessary research and checks are complete.",
@@ -52,7 +60,7 @@ export const richText = {
         "Read the cited steps and conditions together. Ask about any step that is unclear before trying to apply this general explanation to your circumstances.",
     },
     limited:
-      "Some source searches or explanations could not be completed. This answer is based only on the sources shown below; the missing sections have not been checked.",
+      "Some source searches or explanations could not be completed. This answer is based only on the sources shown above; the missing sections have not been checked.",
     stopped: "The answer was stopped. No automatic retry was made.",
     checkFailure:
       "The answer could not be displayed safely. No automatic retry was made.",
@@ -77,20 +85,23 @@ export const richText = {
         "A checked explanation could not be supplied. It has been withheld.",
     },
     progress: {
+      retrying_selection: "There was a problem selecting sources. We’re checking them again…",
+      correcting_summary: "Revising Bayan's conclusion...",
       understanding: "Understanding your question…",
-      searching: "Searching the sources…",
+      searching: "Looking for relevant passages in the Quran, Sunnah and approved scholars’ explanations…",
       checking_evidence: "Checking evidence and context…",
       writing_quran: "Preparing the explanations…",
       checking_quran: "Checking the Quran explanation…",
       checking_hadith: "Checking the Sunnah explanation…",
       checking_scholar: "Checking scholarly explanations…",
       finding_videos: "Checking optional learning videos…",
-      checking_remaining: "Checking the remaining explanations and summary…",
+      checking_remaining: "Bringing the checked explanations together…",
     },
     automatic:
       "Automatically checked answer. Independent scholarly review is still separate.",
+    researchDetails: "Research details",
     incomplete:
-      "This answer is incomplete. The sections below passed their individual checks, but no final conclusion was completed. It has not been saved.",
+      "This answer is incomplete. The sections above passed their individual checks, but no final conclusion was completed. It has not been saved.",
     withdrawn:
       "The earlier section was withdrawn because the full answer could not confirm it. Please do not rely on it.",
     interrupted:
@@ -105,7 +116,15 @@ export const richText = {
     next: "Ask a specific follow-up about the evidence or how it applies to your question. Personal circumstances may need a qualified scholar.",
   },
   ar: {
-    technicalFailure: "توقف البحث بسبب تعذر إتمام المعالجة أو التحقق. الأقسام المعروضة أدناه اجتازت التحقق الفردي. لم تُحفظ إجابة نهائية.",
+    checkReceipt: "التحقّق مجددًا",
+    continuationNotice: "لم تكتمل الإجابة. يمكنك متابعة العمل انطلاقًا مما اجتاز التحقق أعلاه.",
+    continuationIssues: { expired: "لم تعد متابعة هذه المحاولة متاحة. تبقى الشروح التي اجتازت التحقق أعلاه، ويمكنك بدء سؤال جديد.", busy: "ما زالت هذه المحاولة جارية. يُرجى الانتظار.", limit: "لم تتمكن هذه المحاولة من إكمال الإجابة. تبقى الشروح التي اجتازت التحقق أعلاه.", billing_uncertain: "توقفت هذه المحاولة قبل اكتمال الإجابة. تحقّق من إمكانية المتابعة.", cancelled: "أُوقفت هذه المحاولة." },
+    sourceCardNotice: "اجتازت هذه النصوص التحقق من الصلة والسياق. هي مصادر للاستدلال، وليست شرحًا لسؤالك اجتاز التحقق.",
+    sourceCardWorking: "وجدنا آيات مرتبطة بسؤالك، ونعمل على إعداد شرحها والتحقق منه…",
+    sourceRoles: { direct: "دليل مباشر على إحدى النقاط المطلوبة", background: "سياق مساعد", limited_example: "مثال محدود، وليس قاعدة عامة" },
+    failures: { summary_provider_rejection: "تعذّر إعداد الخلاصة لأن خدمة الكتابة رفضت الطلب. احتُفظ بالأقسام التي اجتازت التحقق أعلاه، ولم تكتمل إجابة نهائية.", summary_timeout: "انتهت المهلة قبل إعداد الخلاصة. احتُفظ بالأقسام التي اجتازت التحقق أعلاه، ولم تكتمل إجابة نهائية.", writer_failure: "تعذّر إعداد أحد الشروح. احتُفظ بالأقسام التي اجتازت التحقق أعلاه، ولم تكتمل إجابة نهائية." },
+    sourceFailures: { source_revalidation: "تعذّر إعادة التحقق من المصادر المحفوظة عند المتابعة. لم تُعتمد إجابة نهائية.", evidence_selection: "تعذّر إكمال اختيار الأدلة. لا يُعرض شرح لم يجتز التحقق.", explanation_check: "لم يكتمل التحقق من الشرح. لا يُحتفظ إلا بما اجتاز التحقق سابقًا.", source_search: "تعذّر إكمال بعض عمليات البحث. الأدلة المعروضة اجتازت التحقق، وقد تبقى أدلة ذات صلة لم تُسترجع.", verse_lookup: "تعذّر استرجاع نص بعض الآيات. لا تُعرض إلا الأدلة المتاحة التي اجتازت التحقق.", context_lookup: "تعذّر استرجاع بعض الآيات المحيطة. حُجبت المقاطع التي تحتاج إلى هذا السياق." },
+    technicalFailure: "توقف البحث بسبب تعذر إتمام المعالجة أو التحقق. الأقسام المعروضة أعلاه اجتازت التحقق الفردي. لم تُحفظ إجابة نهائية.",
     relatedVideoNotice: "للتعلّم الإضافي: مقاطع من قنوات معتمدة اختيرت بحسب العنوان. لم يُراجع التسجيل بوصفه دليلاً لهذا الجواب.",
     checkingPending: "جارٍ التحقق من وجود بحث لم يكتمل…",
     submitting: "جارٍ إرسال سؤالك…",
@@ -115,7 +134,7 @@ export const richText = {
     stopping: "جارٍ التأكد من توقف البحث…",
     saving: "جارٍ حفظ الإجابة التي اجتازت التحقق…",
     resume: "استئناف البحث",
-    continueResearch: "متابعة البحث",
+    continueResearch: "متابعة الإجابة",
     patientNotice: "اجتازت هذه الشروح التحقق الآلي. البحث مستمر، ولم تكتمل الإجابة النهائية بعد.",
     patientPaused: "توقف البحث مؤقتًا. احتُفظ بالأجزاء التي اجتازت التحقق. متابعة البحث تستأنف العمل غير المكتمل في المهمة نفسها.",
     patientSummaryWaiting: "سيظهر الملخص النهائي بعد اكتمال البحث الضروري والتحقق من الإجابة.",
@@ -151,7 +170,7 @@ export const richText = {
         "اقرأ الخطوات والشروط المذكورة معًا. واسأل عما لم يتضح منها قبل محاولة تطبيق هذا الشرح العام على ظروفك.",
     },
     limited:
-      "تعذّر إكمال بعض عمليات البحث أو الشروح. تستند هذه الإجابة إلى المصادر المعروضة أدناه فقط، ولم يتم التحقق من الأقسام المفقودة.",
+      "تعذّر إكمال بعض عمليات البحث أو الشروح. تستند هذه الإجابة إلى المصادر المعروضة أعلاه فقط، ولم يتم التحقق من الأقسام المفقودة.",
     stopped: "أُوقفت الإجابة، ولم تُعَد المحاولة تلقائيًا.",
     checkFailure: "تعذّر عرض الإجابة بشكل آمن، ولم تُعَد المحاولة تلقائيًا.",
     titles: {
@@ -173,20 +192,23 @@ export const richText = {
       failed_check: "تعذّر تقديم شرح اجتاز التحقق، ولذلك لم يُعرض.",
     },
     progress: {
+      retrying_selection: "حدثت مشكلة أثناء اختيار المصادر، نتحقق منها مرة أخرى…",
+      correcting_summary: "نراجع صياغة خلاصة بيان…",
       understanding: "نفهم سؤالك…",
-      searching: "نبحث في المصادر…",
+      searching: "نبحث عن النصوص المرتبطة بسؤالك في القرآن والسنة وشروح العلماء المعتمدين…",
       checking_evidence: "نتحقق من الأدلة وسياقها…",
       writing_quran: "نُعِدّ الشروح…",
       checking_quran: "نتحقق من شرح الآيات…",
       checking_hadith: "نتحقق من شرح السنة…",
       checking_scholar: "نتحقق من شرح العلماء…",
       finding_videos: "نتحقق من مقاطع إضافية للتعلّم…",
-      checking_remaining: "نتحقق من بقية الشروح والخلاصة…",
+      checking_remaining: "نجمع الشروح التي اجتازت التحقق في إجابة مترابطة…",
     },
     automatic:
       "إجابة خضعت للتحقق الآلي. المراجعة العلمية المستقلة مرحلة منفصلة.",
+    researchDetails: "تفاصيل البحث",
     incomplete:
-      "هذه الإجابة غير مكتملة. اجتازت الأقسام أدناه التحقق الفردي، لكن لم تكتمل الخلاصة النهائية. لم تُحفظ الإجابة.",
+      "هذه الإجابة غير مكتملة. اجتازت الأقسام أعلاه التحقق الفردي، لكن لم تكتمل الخلاصة النهائية. لم تُحفظ الإجابة.",
     withdrawn:
       "سُحب القسم السابق لأن التحقق من الإجابة كاملة لم يؤكده. يُرجى عدم الاعتماد عليه.",
     interrupted: "انقطع الاتصال قبل اكتمال الإجابة. لم يُرسَل طلب جديد.",
@@ -199,6 +221,13 @@ export const richText = {
     next: "اسأل سؤال متابعة محددًا عن الدليل أو صلته بسؤالك. وقد تحتاج ظروفك الشخصية إلى سؤال عالم مؤهل.",
   },
   de: {
+    checkReceipt: "Prüfen, ob die Recherche fortgesetzt werden kann",
+    continuationNotice: "Geprüfte Abschnitte bleiben erhalten. Fortsetzen bearbeitet offene Schritte mit begrenztem Budget. Diese Möglichkeit läuft nach 20 Minuten ab und kann entfallen, wenn die Verbindung nicht wiederhergestellt werden kann.",
+    continuationIssues: { expired: "Diese Recherche kann nicht mehr fortgesetzt werden. Geprüfte Abschnitte bleiben sichtbar. Du kannst eine neue Frage beginnen.", busy: "Diese Recherche läuft noch. Es wurde keine zusätzliche Arbeit gestartet.", limit: "Das Recherchelimit wurde erreicht. Geprüfte Abschnitte bleiben erhalten; es wurde keine weitere Arbeit gestartet.", billing_uncertain: "Die Recherche kann erst fortgesetzt werden, wenn eine frühere Serviceanfrage abgerechnet ist. Geprüfte Abschnitte bleiben erhalten; es wurde keine neue kostenpflichtige Anfrage gesendet.", cancelled: "Diese Recherche wurde gestoppt. Es wurde keine weitere Arbeit gestartet." },
+    sourceCardNotice: "Diese Quellentexte haben die Prüfung auf Relevanz und Kontext bestanden. Ihre Erklärung wird noch geprüft; die endgültige Antwort ist noch nicht fertig. Sie können nur einen Teil deiner Frage behandeln.",
+    sourceRoles: { direct: "Direkter Beleg für einen gefragten Punkt", background: "Ergänzender Kontext", limited_example: "Begrenztes Beispiel, keine allgemeine Regel" },
+    failures: { summary_provider_rejection: "Die Zusammenfassung konnte nicht erstellt werden, weil der Schreibdienst die Anfrage abgelehnt hat. Geprüfte Abschnitte bleiben unten erhalten; die endgültige Antwort wurde nicht fertiggestellt.", summary_timeout: "Die Zeit für die Zusammenfassung ist abgelaufen. Geprüfte Abschnitte bleiben unten erhalten; die endgültige Antwort wurde nicht fertiggestellt.", writer_failure: "Eine Erklärung konnte nicht erstellt werden. Geprüfte Abschnitte bleiben unten erhalten; die endgültige Antwort wurde nicht fertiggestellt." },
+    sourceFailures: { source_revalidation: "Die gespeicherten Quellen konnten beim Fortsetzen nicht erneut geprüft werden. Eine endgültige Antwort wurde nicht freigegeben.", evidence_selection: "Die Belegauswahl konnte nicht abgeschlossen werden. Ungeprüfte Erklärungen werden nicht angezeigt.", explanation_check: "Die Prüfung der Erklärung wurde nicht abgeschlossen. Nur zuvor geprüftes Material bleibt erhalten.", source_search: "Einige Quellensuchen konnten nicht abgeschlossen werden. Die angezeigten Belege wurden geprüft; weitere relevante Belege können fehlen.", verse_lookup: "Einige Verstexte konnten nicht abgerufen werden. Nur verfügbare und geprüfte Belege werden angezeigt.", context_lookup: "Einige umgebende Verse konnten nicht abgerufen werden. Passagen, die diesen Kontext benötigen, wurden zurückgehalten." },
     technicalFailure: "Die Recherche wurde wegen eines Verarbeitungs- oder Prüfungsfehlers beendet. Angezeigte Abschnitte haben ihre Einzelprüfungen bestanden. Es wurde keine endgültige Antwort gespeichert.",
     relatedVideoNotice: "Weiterführende Videos aus freigegebenen Kanälen, anhand des Titels ausgewählt. Die Aufnahme wurde nicht als Beleg für diese Antwort geprüft.",
     checkingPending: "Es wird nach einer noch offenen Recherche gesucht…",
@@ -276,6 +305,8 @@ export const richText = {
         "Eine geprüfte Erklärung konnte nicht bereitgestellt werden und wird daher zurückgehalten.",
     },
     progress: {
+      retrying_selection: "Die Quellen werden erneut geprüft…",
+      correcting_summary: "Die Zusammenfassung wird geprüft…",
       understanding: "Deine Frage wird eingeordnet…",
       searching: "Die Quellen werden durchsucht…",
       checking_evidence: "Belege und Zusammenhang werden geprüft…",

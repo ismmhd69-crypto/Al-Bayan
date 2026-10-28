@@ -60,13 +60,27 @@ export default async function RootLayout({
     <html
       lang={lang}
       dir={dirOf(lang)}
+      suppressHydrationWarning
       className={`${display.variable} ${body.variable} ${kufi.variable} ${naskh.variable}`}
     >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem("bayan_theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}else if(window.matchMedia("(prefers-color-scheme: dark)").matches){document.documentElement.setAttribute("data-theme","dark");}}catch(e){}})();`,
+          }}
+        />
+      </head>
       <body>
         <a className="skip-link" href="#main">
           {t.common.skip}
         </a>
-        <Shell lang={lang} nav={t.nav} brandAr={t.common.brandAr} langLabel={t.more.language}>
+        <Shell
+          lang={lang}
+          nav={t.nav}
+          brandAr={t.common.brandAr}
+          langLabel={t.more.language}
+          themeLabels={{ light: t.more.themeLight, dark: t.more.themeDark }}
+        >
           {children}
         </Shell>
       </body>

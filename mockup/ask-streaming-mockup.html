@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bayan (بيان) - Ask UI Streaming & Staged Research Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* ==========================================================================
+       BAYAN OFFICIAL DESIGN SYSTEM (Exact match to app/globals.css & RichAnswerView)
+       Quiet paper background, Manuscript Lapis, Illumination Gold, Noble Evergreen Quran,
+       Scholarly Sapphire Sunnah, Refined Slate Scholar
+       ========================================================================== */
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --bg-2: #eef1f5;
+      --surface: #ffffff;
+      --surface-2: #f8f9fb;
+      --line: #e3e7ed;
+      --line-2: #ced5df;
+      --ink: #141b26;
+      --ink-2: #465163;
+      --ink-3: #5b6475;
+      --accent: #27408b;
+      --accent-hover: #1e3270;
+      --accent-soft: #edf1fa;
+      --accent-line: #d3dcf0;
+      --on-accent: #ffffff;
+      --gold: #a77b2b;
+      --gold-soft: #f8f2e5;
+      --gold-line: #eadbb9;
+      --gold-ink: #7a5716;
+
+      /* 1. QURAN: Noble Evergreen (Divine Revelation) */
+      --quran-ink: #14532d;
+      --quran-text: #166534;
+      --quran-bg: #f0fdf4;
+      --quran-bg-hover: #dcfce7;
+      --quran-line: #bbf7d0;
+      --quran-border: #86efac;
+      --quran-accent: #15803d;
+
+      /* 2. SUNNAH: Scholarly Sapphire (Prophetic Tradition) */
+      --sunnah-ink: #1e3a8a;
+      --sunnah-text: #1d4ed8;
+      --sunnah-bg: #eff6ff;
+      --sunnah-bg-hover: #dbeafe;
+      --sunnah-line: #bfdbfe;
+      --sunnah-border: #93c5fd;
+      --sunnah-accent: #2563eb;
+
+      /* 3. SCHOLARS: Refined Slate & Cedar (Scholarly Commentary) */
+      --scholar-ink: #334155;
+      --scholar-text: #475569;
+      --scholar-bg: #f8fafc;
+      --scholar-bg-hover: #f1f5f9;
+      --scholar-line: #e2e8f0;
+      --scholar-border: #cbd5e1;
+      --scholar-accent: #64748b;
+
+      --shadow-sm: 0 1px 2px rgba(20, 27, 38, 0.05);
+      --shadow: 0 1px 2px rgba(20, 27, 38, 0.04), 0 10px 28px -14px rgba(20, 27, 38, 0.16);
+
+      --fs-xs: 0.75rem;
+      --fs-sm: 0.875rem;
+      --fs-md: 1rem;
+      --fs-lg: 1.125rem;
+      --fs-xl: 1.375rem;
+      --fs-2xl: clamp(1.75rem, 4vw, 2.25rem);
+
+      --radius: 12px;
+      --topbar: 56px;
+
+      --f-display: "Iowan Old Style", Georgia, "Times New Roman", serif;
+      --f-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --f-ar-body: "Amiri", "Geeza Pro", "Traditional Arabic", serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      block-size: 100%;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--f-body);
+      font-size: var(--fs-md);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top simulation control ribbon */
+    .demo-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #1e293b;
+      color: #f8fafc;
+      padding: 10px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.84rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+    }
+
+    .demo-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .demo-btn {
+      appearance: none;
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 6px;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      padding: 5px 12px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+    .demo-btn:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    .demo-btn.primary {
+      background: #d4a853;
+      color: #0b1019;
+      border-color: #d4a853;
+    }
+    .demo-btn.primary:hover {
+      background: #e2b968;
+    }
+
+    .demo-select {
+      background: #0f172a;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 6px;
+      padding: 4px 8px;
+      font-size: 0.8rem;
+      outline: none;
+    }
+
+    .demo-pills {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .demo-pill {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #cbd5e1;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.74rem;
+      cursor: pointer;
+    }
+    .demo-pill.active {
+      background: #d4a853;
+      color: #0f172a;
+      border-color: #d4a853;
+      font-weight: 700;
+    }
+
+    /* Bayan Workspace Layout */
+    .workspace {
+      display: flex;
+      justify-content: center;
+      min-block-size: calc(100dvh - 46px);
+      background: var(--bg);
+    }
+
+    .main {
+      flex: 1 1 auto;
+      min-inline-size: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* ---------- Exact Bayan Chat UI ---------- */
+    .chat {
+      display: flex;
+      flex-direction: column;
+      inline-size: 100%;
+      max-inline-size: 820px;
+      min-block-size: calc(100dvh - 46px);
+      margin-inline: auto;
+      background: var(--bg);
+    }
+
+    /* Top bar */
+    .chat-top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-inline: 16px 20px;
+      min-block-size: var(--topbar);
+      border-block-end: 1px solid var(--line);
+      background: var(--surface);
+      position: sticky;
+      top: 46px;
+      z-index: 10;
+    }
+
+    .icon-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      inline-size: 36px;
+      block-size: 36px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--ink-2);
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .icon-btn:hover {
+      background: var(--bg-2);
+      color: var(--accent);
+    }
+
+    .chat-top h1 {
+      font-family: var(--f-display);
+      font-size: var(--fs-lg);
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      flex: 1;
+    }
+
+    .actions {
+      margin-inline-start: auto;
+      display: flex;
+      gap: 8px;
+    }
+
+    .headBtn {
+      display: grid;
+      place-items: center;
+      inline-size: 36px;
+      block-size: 36px;
+      border: 1px solid var(--line-2);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--ink-2);
+      cursor: pointer;
+    }
+    .headBtn:hover {
+      border-color: var(--accent-line);
+      color: var(--accent);
+    }
+
+    /* Chat Log */
+    .chat-log {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 20px 16px;
+    }
+
+    .chat-notice {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin: 0;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: var(--accent-soft);
+      border: 1px solid var(--accent-line);
+      color: var(--accent-hover);
+      font-size: var(--fs-sm);
+      line-height: 1.5;
+    }
+    .chat-notice svg {
+      inline-size: 18px;
+      block-size: 18px;
+      margin-block-start: 2px;
+      flex-shrink: 0;
+    }
+
+    /* Messages */
+    .msg {
+      max-inline-size: min(94%, 720px);
+      padding: 14px 18px;
+      border-radius: 16px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .msg-user {
+      align-self: flex-end;
+      background: var(--accent);
+      color: var(--on-accent);
+      border-end-end-radius: 6px;
+      white-space: pre-wrap;
+      font-size: var(--fs-md);
+    }
+
+    .msg-bayan {
+      align-self: flex-start;
+      inline-size: 100%;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-end-start-radius: 6px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    @media (max-width: 640px) {
+      .msg-bayan {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        max-inline-size: 100%;
+      }
+    }
+
+    /* ==========================================================================
+       RichAnswerView STYLES (app/components/RichAnswerView.module.css)
+       ========================================================================== */
+    .answer {
+      line-height: 1.8;
+      overflow-wrap: anywhere;
+      min-width: 0;
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .section {
+      margin: 0 0 0.5rem;
+    }
+
+    .section h2 {
+      font-size: 1.2rem;
+      line-height: 1.4;
+      margin: 0 0 0.65rem;
+      font-family: var(--f-display);
+      font-weight: 600;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 1.6em;
+    }
+
+    .section-title-text {
+      display: inline-block;
+    }
+
+    .section-badge {
+      font-family: var(--f-body);
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 999px;
+      text-transform: none;
+      transition: all 0.2s ease;
+    }
+    .badge-quran {
+      background: var(--quran-bg);
+      color: var(--quran-ink);
+      border: 1px solid var(--quran-border);
+    }
+    .badge-sunnah {
+      background: var(--sunnah-bg);
+      color: var(--sunnah-ink);
+      border: 1px solid var(--sunnah-border);
+    }
+    .badge-scholar {
+      background: var(--scholar-bg);
+      color: var(--scholar-ink);
+      border: 1px solid var(--scholar-border);
+    }
+
+    .claim {
+      margin: 0.4rem 0 0.8rem;
+      font-size: 0.98rem;
+      line-height: 1.75;
+      color: var(--ink);
+    }
+
+    /* Reference Pills */
+    .refs {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      font-size: 0.75rem;
+      vertical-align: baseline;
+      margin-inline-start: 0.3rem;
+    }
+
+    .refs a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.2rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 0.35rem;
+      font-weight: 600;
+      line-height: 1.2;
+      text-decoration: none;
+    }
+
+    .refQuran {
+      color: #14532d;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+    }
+    .refHadith {
+      color: #1e3a8a;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+    }
+    .refScholar {
+      color: #334155;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+    }
+
+    /* Passage Card in RichAnswerView */
+    .sources {
+      display: grid;
+      gap: 0.75rem;
+      margin-top: 0.65rem;
+    }
+
+    .passage {
+      border: 1px solid var(--line);
+      border-radius: 0.65rem;
+      padding: 0.95rem 1.15rem;
+      min-width: 0;
+      background: var(--surface);
+      box-shadow: 0 1px 2px rgba(20, 27, 38, 0.03);
+    }
+
+    .passageQuran {
+      border-inline-start: 4px solid var(--quran-accent);
+      background: #fafdfa;
+    }
+
+    .passageHadith {
+      border-inline-start: 4px solid var(--sunnah-accent);
+      background: #fafcff;
+    }
+
+    .passageScholar {
+      border-inline-start: 4px solid var(--scholar-accent);
+      background: #fcfdfe;
+    }
+
+    .sourceHead {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.4rem 1rem;
+      font-size: 0.88rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .sourceHead a {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--ink-2);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .sourceHead a:hover {
+      color: var(--accent);
+    }
+
+    .sourceHadithGrade {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--sunnah-ink);
+      margin: 0.2rem 0 0.5rem;
+    }
+
+    .sourceScholarWork {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--scholar-ink);
+      margin: 0.2rem 0 0.5rem;
+    }
+
+    .source blockquote {
+      margin: 0.6rem 0;
+      line-height: 2.1;
+      font-size: 1.35rem;
+      font-family: var(--f-ar-body);
+      color: var(--ink);
+      text-align: right;
+      direction: rtl;
+    }
+
+    .stream-cursor {
+      display: inline-block;
+      width: 2px;
+      height: 1.1em;
+      vertical-align: middle;
+      background: var(--accent);
+      margin-left: 2px;
+      animation: blink 0.8s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    .preview {
+      color: var(--ink-2);
+      font-size: 0.94rem;
+      line-height: 1.65;
+      margin-top: 0.35rem;
+    }
+
+    .attribution-link {
+      display: inline-block;
+      font-size: 0.75rem;
+      color: var(--ink-3);
+      text-decoration: underline;
+      margin-top: 0.4rem;
+    }
+
+    /* Staged gap loaders for Quran, Sunnah, Scholars */
+    .gap-loader {
+      border-radius: 6px;
+      padding: 0.85rem 1rem;
+      font-size: 0.88rem;
+      line-height: 1.5;
+      margin: 0.6rem 0 0.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .gap-loader-quran {
+      border-inline-start: 3.5px solid var(--quran-accent);
+      background: var(--quran-bg);
+      color: var(--quran-ink);
+    }
+
+    .gap-loader-sunnah {
+      border-inline-start: 3.5px solid var(--sunnah-accent);
+      background: var(--sunnah-bg);
+      color: var(--sunnah-ink);
+    }
+
+    .gap-loader-scholar {
+      border-inline-start: 3.5px solid var(--scholar-accent);
+      background: var(--scholar-bg);
+      color: var(--scholar-ink);
+    }
+
+    .gap-loader-content {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pulse-spinner {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      flex-shrink: 0;
+    }
+    .pulse-spinner.quran {
+      border: 2px solid var(--quran-line);
+      border-top-color: var(--quran-accent);
+    }
+    .pulse-spinner.sunnah {
+      border: 2px solid var(--sunnah-line);
+      border-top-color: var(--sunnah-accent);
+    }
+    .pulse-spinner.scholar {
+      border: 2px solid var(--scholar-line);
+      border-top-color: var(--scholar-accent);
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .dots {
+      display: inline-flex;
+      gap: 4px;
+      vertical-align: middle;
+      margin-left: 4px;
+    }
+    .dots i {
+      inline-size: 5px;
+      block-size: 5px;
+      border-radius: 999px;
+      background: currentColor;
+      animation: blink 1.2s infinite ease-in-out;
+    }
+    .dots i:nth-child(2) { animation-delay: 0.2s; }
+    .dots i:nth-child(3) { animation-delay: 0.4s; }
+
+    /* Composer Input bar (exact Bayan styles) */
+    .composer {
+      display: flex;
+      align-items: flex-end;
+      gap: 8px;
+      margin: 0 12px;
+      margin-block-end: calc(12px + env(safe-area-inset-bottom, 0px));
+      padding: 6px;
+      padding-inline-start: 14px;
+      border-radius: 16px;
+      background: var(--surface);
+      border: 1px solid var(--line-2);
+      box-shadow: var(--shadow);
+    }
+    .composer textarea {
+      flex: 1;
+      min-inline-size: 0;
+      resize: none;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      padding-block: 10px;
+      font-size: var(--fs-md);
+      color: var(--ink);
+      line-height: 1.5;
+      font-family: inherit;
+    }
+    .send-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      inline-size: 44px;
+      block-size: 44px;
+      border-radius: 12px;
+      border: 0;
+      background: var(--accent);
+      color: var(--on-accent);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Controller Strip for Testing/Guiding Development -->
+  <div class="demo-bar">
+    <div class="demo-controls">
+      <strong style="color: #f1f5f9;">Bayan Streaming Engine:</strong>
+      <button class="demo-btn primary" id="btnPlay" onclick="togglePlay()">
+        <span id="playIcon">▶</span> <span id="playText">Replay Full Streaming Flow</span>
+      </button>
+      <button class="demo-btn" onclick="resetFlow()">↺ Reset</button>
+      <select class="demo-select" id="speedSelect" onchange="setSpeed(this.value)">
+        <option value="0.9" selected>Calm / 10% Slower (Recommended)</option>
+        <option value="1">Normal (1x)</option>
+        <option value="2">Fast Preview (2x)</option>
+      </select>
+    </div>
+
+    <!-- Step Jump Buttons (All Sections Together) -->
+    <div class="demo-pills">
+      <button class="demo-pill active" id="pill-1" onclick="jumpTo(1)">1. Search Quran</button>
+      <button class="demo-pill" id="pill-2" onclick="jumpTo(2)">2. Quran Stream</button>
+      <button class="demo-pill" id="pill-3" onclick="jumpTo(3)">3. Search Sunnah</button>
+      <button class="demo-pill" id="pill-4" onclick="jumpTo(4)">4. Sunnah Stream</button>
+      <button class="demo-pill" id="pill-5" onclick="jumpTo(5)">5. Search Scholars</button>
+      <button class="demo-pill" id="pill-6" onclick="jumpTo(6)">6. Scholars Stream</button>
+      <button class="demo-pill" id="pill-7" onclick="jumpTo(7)">7. Summary</button>
+    </div>
+  </div>
+
+  <!-- Bayan Workspace (Identical layout structure to AskWorkspace.tsx) -->
+  <div class="workspace">
+    <main class="main">
+      <div class="chat">
+        
+        <!-- Chat Header (Identical to AskChat.tsx line 702) -->
+        <header class="chat-top">
+          <a href="#" class="icon-btn" aria-label="Back">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+          </a>
+          
+          <!-- Bayan Beacon Star SVG -->
+          <svg width="24" height="24" viewBox="-88 -88 176 176" aria-hidden="true" focusable="false">
+            <path d="M0.00 -84.00 L32.14 -77.60 L59.40 -59.40 L77.60 -32.14 L84.00 -0.00 L77.60 32.14 L59.40 59.40 L32.14 77.60 L0.00 84.00 L-32.14 77.60 L-59.40 59.40 L-77.60 32.14 L-84.00 0.00 L-77.60 -32.14 L-59.40 -59.40 L-32.14 -77.60 Z M0.00 -71.00 L27.17 -65.59 L50.20 -50.20 L65.59 -27.17 L71.00 -0.00 L65.59 27.17 L50.20 50.20 L27.17 65.59 L0.00 71.00 L-27.17 65.59 L-50.20 50.20 L-65.59 27.17 L-71.00 0.00 L-65.59 -27.17 L-50.20 -50.20 L-27.17 -65.59 Z" fillRule="evenodd" fill="var(--accent)" />
+            <path d="M0.00 -27.50 L10.52 -25.40 L19.45 -19.45 L25.40 -10.52 L27.50 -0.00 L25.40 10.52 L19.45 19.45 L10.52 25.40 L0.00 27.50 L-10.52 25.40 L-19.45 19.45 L-25.40 10.52 L-27.50 0.00 L-25.40 -10.52 L-19.45 -19.45 L-10.52 -25.40 Z" fill="var(--gold)" />
+            <circle r="9.4" fill="var(--surface)" />
+            <circle r="4" fill="var(--gold)" />
+          </svg>
+
+          <h1>Ask</h1>
+
+          <div class="actions">
+            <button class="headBtn" title="New Chat">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <button class="headBtn" title="History">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+            </button>
+          </div>
+        </header>
+
+        <!-- Chat Log -->
+        <div class="chat-log" id="chatLog">
+          
+          <!-- Exact Notice banner from Bayan UI -->
+          <p class="chat-notice">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+            <span>This AI answers only from trusted sources (Quran, authentic hadith and approved scholars), not from its own knowledge. Every answer shows its sources.</span>
+          </p>
+
+          <!-- User question -->
+          <div class="msg msg-user">
+            What is the virtue and ruling of seeking forgiveness (Istighfar)?
+          </div>
+
+          <!-- Bayan Response Message (Wraps RichAnswerView) -->
+          <div class="msg msg-bayan">
+            <article class="answer" dir="ltr">
+              
+              <!-- GAP LOADER: SEARCHING QURAN (Shown first before anything else) -->
+              <div class="gap-loader gap-loader-quran" id="quranSearchingGap">
+                <div class="gap-loader-content">
+                  <div class="pulse-spinner quran"></div>
+                  <div>
+                    <strong>Searching the Holy Quran</strong>
+                    <div class="dots"><i></i><i></i><i></i></div>
+                    <div style="font-size: 0.78rem; color: var(--ink-3); margin-top: 2px;">
+                      Looking for relevant verses in the Quran and verifying revelation context...
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 1. FROM THE QURAN -->
+              <section class="section" id="sectionQuran" style="display: none;">
+                <h2>
+                  <span class="section-title-text" id="quranTitleText"></span>
+                  <span class="section-badge badge-quran" id="quranBadge" style="display: none;">Streaming...</span>
+                </h2>
+
+                <p class="claim" id="quranClaim" style="display: none;">
+                  <span id="quranClaimText"></span>
+                  <span class="refs" id="quranClaimRef" style="display: none;"><a href="#quran-src" class="refQuran"><bdi>Quran 71:10-12</bdi></a></span>
+                </p>
+
+                <div class="sources" id="quranSourcesWrap" style="display: none;">
+                  <div class="passage passageQuran" id="quran-src">
+                    <div class="source">
+                      <div class="sourceHead">
+                        <strong><bdi>Quran 71:10-12 (Surah Nūh)</bdi></strong>
+                        <a href="https://quran.com/71/10-12" target="_blank" rel="noopener noreferrer">Read source ↗</a>
+                      </div>
+                      
+                      <!-- Arabic text streaming letter by letter -->
+                      <blockquote lang="ar" dir="rtl" id="quranArabicBox"></blockquote>
+
+                      <!-- English translation streaming -->
+                      <p class="preview" id="quranTranslationBox" style="display: none;"></p>
+                    </div>
+                  </div>
+                </div>
+                <small id="quranAttribution" style="display: none;"><a href="https://quran.com" target="_blank" rel="noopener noreferrer" class="attribution-link">Quran text courtesy of Quran.com</a></small>
+              </section>
+
+              <!-- GAP LOADER: SEARCHING SUNNAH -->
+              <div class="gap-loader gap-loader-sunnah" id="sunnahSearchingGap" style="display: none;">
+                <div class="gap-loader-content">
+                  <div class="pulse-spinner sunnah"></div>
+                  <div>
+                    <strong>Checking the Sunnah explanation</strong>
+                    <div class="dots"><i></i><i></i><i></i></div>
+                    <div style="font-size: 0.78rem; color: var(--ink-3); margin-top: 2px;">
+                      Searching authentic hadith in Sahih al-Bukhari and Sahih Muslim...
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2. FROM THE SUNNAH -->
+              <section class="section" id="sectionHadith" style="display: none;">
+                <h2>
+                  <span class="section-title-text" id="hadithTitleText"></span>
+                  <span class="section-badge badge-sunnah" id="hadithBadge" style="display: none;">Streaming...</span>
+                </h2>
+
+                <p class="claim" id="hadithClaim" style="display: none;">
+                  <span id="hadithClaimText"></span>
+                  <span class="refs" id="hadithClaimRef" style="display: none;"><a href="#hadith-src" class="refHadith"><bdi>Bukhari 6307</bdi></a></span>
+                </p>
+
+                <div class="sources" id="hadithSourcesWrap" style="display: none;">
+                  <div class="passage passageHadith" id="hadith-src">
+                    <div class="source">
+                      <div class="sourceHead">
+                        <strong><bdi>Sahih al-Bukhari · 6307</bdi></strong>
+                        <a href="https://sunnah.com/bukhari:6307" target="_blank" rel="noopener noreferrer">Read source ↗</a>
+                      </div>
+                      <p class="sourceHadithGrade">صحيح البخاري · كتاب الدعوات (Sahih)</p>
+                      
+                      <!-- Hadith Arabic streaming -->
+                      <blockquote lang="ar" dir="rtl" id="hadithArabicBox"></blockquote>
+
+                      <!-- Hadith translation streaming -->
+                      <p class="preview" id="hadithTranslationBox" style="display: none;"></p>
+                    </div>
+                  </div>
+                </div>
+                <small id="hadithAttribution" style="display: none;"><a href="https://sunnah.com" target="_blank" rel="noopener noreferrer" class="attribution-link">Hadith text and numbers courtesy of Sunnah.com</a></small>
+              </section>
+
+              <!-- GAP LOADER: SEARCHING SCHOLARS -->
+              <div class="gap-loader gap-loader-scholar" id="scholarSearchingGap" style="display: none;">
+                <div class="gap-loader-content">
+                  <div class="pulse-spinner scholar"></div>
+                  <div>
+                    <strong>Checking classical scholars’ explanations</strong>
+                    <div class="dots"><i></i><i></i><i></i></div>
+                    <div style="font-size: 0.78rem; color: var(--ink-3); margin-top: 2px;">
+                      Consulting classical commentaries: Tafsir Ibn Kathir and Al-Hasan al-Basri...
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3. SCHOLARS' EXPLANATIONS -->
+              <section class="section" id="sectionScholar" style="display: none;">
+                <h2>
+                  <span class="section-title-text" id="scholarTitleText"></span>
+                  <span class="section-badge badge-scholar" id="scholarBadge" style="display: none;">Streaming...</span>
+                </h2>
+
+                <p class="claim" id="scholarClaim" style="display: none;">
+                  <span id="scholarClaimText"></span>
+                  <span class="refs" id="scholarClaimRef" style="display: none;"><a href="#scholar-src" class="refScholar"><bdi>Ibn Kathir · Tafsir</bdi></a></span>
+                </p>
+
+                <div class="sources" id="scholarSourcesWrap" style="display: none;">
+                  <div class="passage passageScholar" id="scholar-src">
+                    <div class="source">
+                      <div class="sourceHead">
+                        <strong><bdi>Ibn Kathir · Tafsir al-Qur'an al-'Azim</bdi></strong>
+                        <a href="https://tafsir.app/ibn-kathir/71/10" target="_blank" rel="noopener noreferrer">Read source ↗</a>
+                      </div>
+                      <p class="sourceScholarWork">تفسير القرآن العظيم · سورة نوح</p>
+                      
+                      <!-- Scholar Arabic quote streaming -->
+                      <blockquote lang="ar" dir="rtl" id="scholarArabicBox"></blockquote>
+
+                      <!-- Scholar explanation translation streaming -->
+                      <p class="preview" id="scholarTranslationBox" style="display: none;"></p>
+                    </div>
+                  </div>
+                </div>
+                <small id="scholarAttribution" style="display: none;"><a href="https://tafsir.app" target="_blank" rel="noopener noreferrer" class="attribution-link">Scholarly commentary verified from classical archives</a></small>
+              </section>
+
+              <!-- 4. BAYAN'S SUMMARY -->
+              <section class="section" id="sectionSummary" style="display: none;">
+                <h2>
+                  <span class="section-title-text" id="summaryTitleText"></span>
+                  <span class="section-badge badge-scholar" id="summaryBadge" style="display: none;">Checked</span>
+                </h2>
+                <p class="claim" id="summaryClaim" style="display: none;">
+                  <span id="summaryText"></span>
+                </p>
+                <div class="gap" id="summaryDisclaimer" style="display: none; border-inline-start-color: var(--accent); background: var(--accent-soft); font-size: 0.84rem; color: var(--ink-2); margin-top: 0.8rem;">
+                  Not a fatwa. For your personal situation, ask a qualified scholar you trust.
+                </div>
+              </section>
+
+            </article>
+          </div>
+
+        </div>
+
+        <!-- Composer Bar (Exact Bayan layout) -->
+        <div class="composer">
+          <textarea rows="1" readonly placeholder="Ask your question...">What is the virtue and ruling of seeking forgiveness (Istighfar)?</textarea>
+          <button class="send-btn" type="button" aria-label="Send">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script>
+    /* Content Data - Headers, Claims, Excerpts, Translations */
+    const CONTENT = {
+      titles: {
+        quran: "From the Quran",
+        hadith: "From the Sunnah",
+        scholar: "Scholars’ explanations",
+        summary: "Bayan’s summary"
+      },
+      claims: {
+        quran: "Seeking forgiveness regularly is a divine command that brings both spiritual pardon and worldly abundance in sustenance.",
+        hadith: "The Prophet ﷺ practiced Istighfar daily over seventy times as an act of devotion and guidance for the Ummah.",
+        scholar: "Classical mufassirun emphasize that Istighfar connects inner spiritual repentance with outer divine relief in worldly tribulations."
+      },
+      quranArabic: "فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا ۝ يُرْسِلِ السَّمَاءَ عَلَيْكُم مِّدْرَارًا ۝ وَيُمْدِدْكُم بِأَمْوَالٍ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّاتٍ وَيَجْعَل لَّكُمْ أَنْهَارًا",
+      quranTranslation: '"And I said, \'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver. He will send [rain from] the sky upon you in [continuing] showers and give you increase in wealth and children and provide for you gardens and provide for you rivers.\'" (71:10-12)',
+      
+      hadithArabic: "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «وَاللَّهِ إِنِّي لَأَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ فِي الْيَوْمِ أَكْثَرَ مِنْ سَبْعِينَ مَرَّةً».",
+      hadithTranslation: 'Narrated Abu Huraira: I heard Allah\'s Messenger (ﷺ) saying: "By Allah! I ask for forgiveness from Allah and turn to Him in repentance more than seventy times a day."',
+      
+      scholarArabic: "قَالَ ابْنُ كَثِيرٍ رَحِمَهُ اللَّهُ: «أَيْ إِذَا تُبْتُمْ إِلَى اللَّهِ وَاسْتَغْفَرْتُمُوهُ وَأَطَعْتُمُوهُ، كَثَّرَ الرِّزْقَ عَلَيْكُمْ، وَأَسْقَاكُمْ مِنْ بَرَكَاتِ السَّمَاءِ، وَأَنْبَتَ لَكُمْ مِنْ بَرَكَاتِ الْأَرْضِ». وَرُوِيَ عَنِ الْحَسَنِ الْبَصْرِيِّ أَنَّ رَجُلًا شَكَا إِلَيْهِ الْجَدْبَ فَقَالَ: اسْتَغْفِرِ اللَّهَ، وَشَكَا آخَرُ الْفَقْرَ فَقَالَ: اسْتَغْفِرِ اللَّهَ.",
+      scholarTranslation: 'Ibn Kathir commented: "Meaning: if you repent to Allah, seek His forgiveness, and obey Him, He will multiply your provision, water you from the blessings of the heavens, and cause the blessings of the earth to grow for you." It is famously reported from Al-Hasan al-Basri that men came to him complaining of drought, poverty, and barrenness, and to each he answered: "Seek forgiveness from Allah."',
+
+      summary: "Across the Quran, authentic Sunnah, and classical scholarly consensus, Istighfar is established not merely as a remedy after falling into error, but as an ongoing spiritual necessity and key to divine relief. The Quran links sincere repentance directly to eased distress and sustenance; the Sunnah establishes it as daily prophetic practice; and scholars like Ibn Kathir and Al-Hasan al-Basri affirm it as the primary means to attain both spiritual pardon and barakah in life."
+    };
+
+    // 10% slower base delay
+    let speed = 0.9;
+    let isPlaying = false;
+    let stepTimer = null;
+
+    function setSpeed(v) {
+      speed = parseFloat(v);
+    }
+
+    function setPill(num) {
+      for (let i = 1; i <= 7; i++) {
+        const p = document.getElementById(`pill-${i}`);
+        if (p) p.classList.toggle('active', i === num);
+      }
+    }
+
+    function resetFlow() {
+      clearTimeout(stepTimer);
+      isPlaying = false;
+      document.getElementById('playIcon').innerText = "▶";
+      document.getElementById('playText').innerText = "Replay Full Streaming Flow";
+
+      // Quran Searching Loader
+      document.getElementById('quranSearchingGap').style.display = 'flex';
+
+      // Quran Content
+      document.getElementById('sectionQuran').style.display = 'none';
+      document.getElementById('quranTitleText').innerHTML = '';
+      document.getElementById('quranBadge').style.display = 'none';
+      document.getElementById('quranBadge').innerText = "Streaming...";
+      document.getElementById('quranClaim').style.display = 'none';
+      document.getElementById('quranClaimText').innerHTML = '';
+      document.getElementById('quranClaimRef').style.display = 'none';
+      document.getElementById('quranSourcesWrap').style.display = 'none';
+      document.getElementById('quranArabicBox').innerHTML = '';
+      document.getElementById('quranTranslationBox').style.display = 'none';
+      document.getElementById('quranTranslationBox').innerHTML = '';
+      document.getElementById('quranAttribution').style.display = 'none';
+
+      // Sunnah Loader Gap
+      document.getElementById('sunnahSearchingGap').style.display = 'none';
+
+      // Hadith
+      document.getElementById('sectionHadith').style.display = 'none';
+      document.getElementById('hadithTitleText').innerHTML = '';
+      document.getElementById('hadithBadge').style.display = 'none';
+      document.getElementById('hadithBadge').innerText = "Streaming...";
+      document.getElementById('hadithClaim').style.display = 'none';
+      document.getElementById('hadithClaimText').innerHTML = '';
+      document.getElementById('hadithClaimRef').style.display = 'none';
+      document.getElementById('hadithSourcesWrap').style.display = 'none';
+      document.getElementById('hadithArabicBox').innerHTML = '';
+      document.getElementById('hadithTranslationBox').style.display = 'none';
+      document.getElementById('hadithTranslationBox').innerHTML = '';
+      document.getElementById('hadithAttribution').style.display = 'none';
+
+      // Scholar Loader Gap
+      document.getElementById('scholarSearchingGap').style.display = 'none';
+
+      // Scholar
+      document.getElementById('sectionScholar').style.display = 'none';
+      document.getElementById('scholarTitleText').innerHTML = '';
+      document.getElementById('scholarBadge').style.display = 'none';
+      document.getElementById('scholarBadge').innerText = "Streaming...";
+      document.getElementById('scholarClaim').style.display = 'none';
+      document.getElementById('scholarClaimText').innerHTML = '';
+      document.getElementById('scholarClaimRef').style.display = 'none';
+      document.getElementById('scholarSourcesWrap').style.display = 'none';
+      document.getElementById('scholarArabicBox').innerHTML = '';
+      document.getElementById('scholarTranslationBox').style.display = 'none';
+      document.getElementById('scholarTranslationBox').innerHTML = '';
+      document.getElementById('scholarAttribution').style.display = 'none';
+
+      // Summary
+      document.getElementById('sectionSummary').style.display = 'none';
+      document.getElementById('summaryTitleText').innerHTML = '';
+      document.getElementById('summaryBadge').style.display = 'none';
+      document.getElementById('summaryClaim').style.display = 'none';
+      document.getElementById('summaryText').innerHTML = '';
+      document.getElementById('summaryDisclaimer').style.display = 'none';
+
+      setPill(1);
+    }
+
+    function streamString(elem, text, onDone) {
+      let idx = 0;
+      elem.innerHTML = '<span class="stream-cursor"></span>';
+
+      function tick() {
+        if (!isPlaying) return;
+        if (idx < text.length) {
+          idx++;
+          elem.innerHTML = text.slice(0, idx) + '<span class="stream-cursor"></span>';
+          
+          const chatLog = document.getElementById('chatLog');
+          chatLog.scrollTop = chatLog.scrollHeight;
+          
+          stepTimer = setTimeout(tick, 20 / speed);
+        } else {
+          elem.innerHTML = text; // remove cursor
+          onDone();
+        }
+      }
+      tick();
+    }
+
+    function runFlow() {
+      // 1. STAGE 1: SEARCHING QURAN FIRST
+      setPill(1);
+      document.getElementById('quranSearchingGap').style.display = 'flex';
+      const chatLog = document.getElementById('chatLog');
+      chatLog.scrollTop = chatLog.scrollHeight;
+
+      // Realistic retrieval pause for Quran search
+      stepTimer = setTimeout(() => {
+        if (!isPlaying) return;
+
+        // Quran found! Hide Quran search loader, show Quran section
+        document.getElementById('quranSearchingGap').style.display = 'none';
+        document.getElementById('sectionQuran').style.display = 'block';
+
+        // 2. STAGE 2: STREAM QURAN HEADER & BODY
+        setPill(2);
+        streamString(document.getElementById('quranTitleText'), CONTENT.titles.quran, () => {
+          document.getElementById('quranBadge').style.display = 'inline-block';
+          
+          document.getElementById('quranClaim').style.display = 'block';
+          streamString(document.getElementById('quranClaimText'), CONTENT.claims.quran, () => {
+            document.getElementById('quranClaimRef').style.display = 'inline-flex';
+            document.getElementById('quranSourcesWrap').style.display = 'grid';
+            document.getElementById('quranAttribution').style.display = 'block';
+
+            streamString(document.getElementById('quranArabicBox'), CONTENT.quranArabic, () => {
+              document.getElementById('quranTranslationBox').style.display = 'block';
+              streamString(document.getElementById('quranTranslationBox'), CONTENT.quranTranslation, () => {
+                document.getElementById('quranBadge').innerText = "Ready";
+
+                // 3. STAGE 3: QURAN FINISHED -> SHOW SEARCHING SUNNAH
+                setPill(3);
+                document.getElementById('sunnahSearchingGap').style.display = 'flex';
+                chatLog.scrollTop = chatLog.scrollHeight;
+
+                stepTimer = setTimeout(() => {
+                  if (!isPlaying) return;
+
+                  // 4. STAGE 4: SUNNAH FOUND -> STREAM SUNNAH
+                  document.getElementById('sunnahSearchingGap').style.display = 'none';
+                  document.getElementById('sectionHadith').style.display = 'block';
+                  setPill(4);
+
+                  streamString(document.getElementById('hadithTitleText'), CONTENT.titles.hadith, () => {
+                    document.getElementById('hadithBadge').style.display = 'inline-block';
+                    document.getElementById('hadithClaim').style.display = 'block';
+
+                    streamString(document.getElementById('hadithClaimText'), CONTENT.claims.hadith, () => {
+                      document.getElementById('hadithClaimRef').style.display = 'inline-flex';
+                      document.getElementById('hadithSourcesWrap').style.display = 'grid';
+                      document.getElementById('hadithAttribution').style.display = 'block';
+
+                      streamString(document.getElementById('hadithArabicBox'), CONTENT.hadithArabic, () => {
+                        document.getElementById('hadithTranslationBox').style.display = 'block';
+                        streamString(document.getElementById('hadithTranslationBox'), CONTENT.hadithTranslation, () => {
+                          document.getElementById('hadithBadge').innerText = "Ready";
+
+                          // 5. STAGE 5: SUNNAH FINISHED -> SHOW SEARCHING SCHOLARS
+                          setPill(5);
+                          document.getElementById('scholarSearchingGap').style.display = 'flex';
+                          chatLog.scrollTop = chatLog.scrollHeight;
+
+                          stepTimer = setTimeout(() => {
+                            if (!isPlaying) return;
+
+                            // 6. STAGE 6: SCHOLARS FOUND -> STREAM SCHOLARS
+                            document.getElementById('scholarSearchingGap').style.display = 'none';
+                            document.getElementById('sectionScholar').style.display = 'block';
+                            setPill(6);
+
+                            streamString(document.getElementById('scholarTitleText'), CONTENT.titles.scholar, () => {
+                              document.getElementById('scholarBadge').style.display = 'inline-block';
+                              document.getElementById('scholarClaim').style.display = 'block';
+
+                              streamString(document.getElementById('scholarClaimText'), CONTENT.claims.scholar, () => {
+                                document.getElementById('scholarClaimRef').style.display = 'inline-flex';
+                                document.getElementById('scholarSourcesWrap').style.display = 'grid';
+                                document.getElementById('scholarAttribution').style.display = 'block';
+
+                                streamString(document.getElementById('scholarArabicBox'), CONTENT.scholarArabic, () => {
+                                  document.getElementById('scholarTranslationBox').style.display = 'block';
+                                  streamString(document.getElementById('scholarTranslationBox'), CONTENT.scholarTranslation, () => {
+                                    document.getElementById('scholarBadge').innerText = "Ready";
+
+                                    // 7. STAGE 7: COMPLETE SUMMARY
+                                    setPill(7);
+                                    document.getElementById('sectionSummary').style.display = 'block';
+
+                                    streamString(document.getElementById('summaryTitleText'), CONTENT.titles.summary, () => {
+                                      document.getElementById('summaryBadge').style.display = 'inline-block';
+                                      document.getElementById('summaryClaim').style.display = 'block';
+
+                                      streamString(document.getElementById('summaryText'), CONTENT.summary, () => {
+                                        document.getElementById('summaryDisclaimer').style.display = 'block';
+                                        isPlaying = false;
+                                        document.getElementById('playIcon').innerText = "▶";
+                                        document.getElementById('playText').innerText = "Replay Full Streaming Flow";
+                                      });
+                                    });
+                                  });
+                                });
+                              });
+                            });
+                          }, 2400 / speed);
+                        });
+                      });
+                    });
+                  });
+                }, 2400 / speed);
+              });
+            });
+          });
+        });
+      }, 2200 / speed);
+    }
+
+    function togglePlay() {
+      if (isPlaying) {
+        isPlaying = false;
+        clearTimeout(stepTimer);
+        document.getElementById('playIcon').innerText = "▶";
+        document.getElementById('playText').innerText = "Resume Flow";
+      } else {
+        isPlaying = true;
+        document.getElementById('playIcon').innerText = "⏸";
+        document.getElementById('playText').innerText = "Pause Flow";
+        runFlow();
+      }
+    }
+
+    function jumpTo(stage) {
+      clearTimeout(stepTimer);
+      isPlaying = false;
+      document.getElementById('playIcon').innerText = "▶";
+      document.getElementById('playText').innerText = "Resume Flow";
+      resetFlow();
+      setPill(stage);
+
+      if (stage === 1) {
+        document.getElementById('quranSearchingGap').style.display = 'flex';
+        return;
+      }
+
+      // If stage >= 2, Quran is found & displayed
+      document.getElementById('quranSearchingGap').style.display = 'none';
+      document.getElementById('sectionQuran').style.display = 'block';
+      document.getElementById('quranTitleText').innerText = CONTENT.titles.quran;
+      document.getElementById('quranBadge').style.display = 'inline-block';
+      document.getElementById('quranClaim').style.display = 'block';
+      document.getElementById('quranClaimText').innerText = CONTENT.claims.quran;
+      document.getElementById('quranClaimRef').style.display = 'inline-flex';
+      document.getElementById('quranSourcesWrap').style.display = 'grid';
+      document.getElementById('quranAttribution').style.display = 'block';
+      document.getElementById('quranArabicBox').innerText = CONTENT.quranArabic;
+      document.getElementById('quranTranslationBox').style.display = 'block';
+      document.getElementById('quranTranslationBox').innerText = CONTENT.quranTranslation;
+      document.getElementById('quranBadge').innerText = "Ready";
+
+      if (stage === 3) {
+        document.getElementById('sunnahSearchingGap').style.display = 'flex';
+        return;
+      }
+
+      if (stage >= 4) {
+        document.getElementById('sunnahSearchingGap').style.display = 'none';
+        document.getElementById('sectionHadith').style.display = 'block';
+        document.getElementById('hadithTitleText').innerText = CONTENT.titles.hadith;
+        document.getElementById('hadithBadge').style.display = 'inline-block';
+        document.getElementById('hadithClaim').style.display = 'block';
+        document.getElementById('hadithClaimText').innerText = CONTENT.claims.hadith;
+        document.getElementById('hadithClaimRef').style.display = 'inline-flex';
+        document.getElementById('hadithSourcesWrap').style.display = 'grid';
+        document.getElementById('hadithAttribution').style.display = 'block';
+        document.getElementById('hadithArabicBox').innerText = CONTENT.hadithArabic;
+        document.getElementById('hadithTranslationBox').style.display = 'block';
+        document.getElementById('hadithTranslationBox').innerText = CONTENT.hadithTranslation;
+        document.getElementById('hadithBadge').innerText = "Ready";
+      }
+
+      if (stage === 5) {
+        document.getElementById('scholarSearchingGap').style.display = 'flex';
+        return;
+      }
+
+      if (stage >= 6) {
+        document.getElementById('scholarSearchingGap').style.display = 'none';
+        document.getElementById('sectionScholar').style.display = 'block';
+        document.getElementById('scholarTitleText').innerText = CONTENT.titles.scholar;
+        document.getElementById('scholarBadge').style.display = 'inline-block';
+        document.getElementById('scholarClaim').style.display = 'block';
+        document.getElementById('scholarClaimText').innerText = CONTENT.claims.scholar;
+        document.getElementById('scholarClaimRef').style.display = 'inline-flex';
+        document.getElementById('scholarSourcesWrap').style.display = 'grid';
+        document.getElementById('scholarAttribution').style.display = 'block';
+        document.getElementById('scholarArabicBox').innerText = CONTENT.scholarArabic;
+        document.getElementById('scholarTranslationBox').style.display = 'block';
+        document.getElementById('scholarTranslationBox').innerText = CONTENT.scholarTranslation;
+        document.getElementById('scholarBadge').innerText = "Ready";
+      }
+
+      if (stage >= 7) {
+        document.getElementById('sectionSummary').style.display = 'block';
+        document.getElementById('summaryTitleText').innerText = CONTENT.titles.summary;
+        document.getElementById('summaryBadge').style.display = 'inline-block';
+        document.getElementById('summaryClaim').style.display = 'block';
+        document.getElementById('summaryText').innerText = CONTENT.summary;
+        document.getElementById('summaryDisclaimer').style.display = 'block';
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      togglePlay();
+    });
+  </script>
+
+</body>
+</html>

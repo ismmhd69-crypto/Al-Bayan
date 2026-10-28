@@ -33,6 +33,8 @@ const GEMINI_DIRECT_VERIFIER_MODELS = ["gemini-3.1-flash-lite"];
 // chains share no model. Without an OpenRouter key the older direct Gemini defaults above are used.
 // Mo's decision (2026-10-25): use GPT-6 Luna with medium reasoning for both separate writing and
 // checking passes. Gemini and Mistral remain fallbacks if the ZDR route or model is unavailable.
+// Mo's decision (2026-10-26): Claude Haiku 5.5 writes and checks in separate passes.
+// Mo's decision (2026-10-26): return to GPT-6 Luna for both separate passes.
 const OPENROUTER_WRITER_MODELS = ["openrouter:openai/gpt-6-luna", "openrouter:google/gemini-3.8-flash"];
 const OPENROUTER_VERIFIER_MODELS = ["openrouter:openai/gpt-6-luna", "openrouter:mistralai/mistral-small-3.2-24b-instruct"];
 const openRouterOn = () => !!process.env.OPENROUTER_API_KEY;
@@ -183,9 +185,8 @@ export function getVerifier(): AIProvider {
   const verifier = verifierModels().map((entry) => parseEntry(entry, process.env.AI_VERIFIER_PROVIDER ?? defaultProvider()));
   const writerIds = new Set(writer.map(identity));
   const shared = verifier.map(identity).filter((id) => writerIds.has(id));
-  // Mo explicitly chose Luna for both roles on 2026-10-25. Permit that exact
-  // shared model only; accidental overlap for any other model remains an error.
-  const approvedSameModelSecondPass = new Set(["openrouter/openai/gpt-6-luna"]);
+  // Only Mo's explicitly selected same-model second passes are permitted.
+  const approvedSameModelSecondPass = new Set(["openrouter/openai/gpt-6-luna", "openrouter/anthropic/claude-haiku-5.5", "openrouter/deepseek/deepseek-v4-flash"]);
   const unexpectedShared = shared.filter((id) => !approvedSameModelSecondPass.has(id));
   if (unexpectedShared.length > 0) throw new Error(`The verifier must be a different model from the writer (shared: ${unexpectedShared.join(", ")})`);
   return build(verifier);

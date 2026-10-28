@@ -6,6 +6,15 @@ const patch = { original: [
   { text: "An untouched explanation.", source_ids: ["Q1"], requirement_id: "R1" },
   { text: "An explanation needing different wording.", source_ids: ["H1"], requirement_id: "R2" },
 ], indices: [1] };
+it("allows only fixed published reference choices on a targeted summary repair", () => {
+  const bounded = { ...patch, referenceChoices: [{ reference: "E1", id: "Q1" }, { reference: "E2", id: "H1" }] };
+  const raw = { P1: { text: "The corrected sentence uses the suitable original.", source_refs: ["E1"] } };
+  expect(structuredOutputContract(textOnlyPatchSchema(bounded)).parse(JSON.stringify(raw))).not.toBeNull();
+  expect(applyTextOnlyPatch(raw, bounded)).toEqual([patch.original[0], { ...patch.original[1], text: raw.P1.text, source_ids: ["Q1"] }]);
+  for (const refs of [[], ["E9"], ["E1", "E1"], ["Q1"]]) expect(applyTextOnlyPatch({ P1: { text: "Replacement", source_refs: refs } }, bounded)).toBeNull();
+  expect(applyTextOnlyPatch({ P1: { text: "Replacement", source_refs: ["E1"], requirement_id: "R1" } }, bounded)).toBeNull();
+  expect(applyTextOnlyPatch(raw, patch)).toBeNull(); // Source/legacy repairs keep their text-only contract.
+});
 it("locks references, concern identity and sibling wording while changing only requested text", () => {
   const edited = "The same supported meaning expressed differently.";
   expect(applyTextOnlyPatch({ P1: { text: edited } }, patch)).toEqual([patch.original[0], { ...patch.original[1], text: edited }]);

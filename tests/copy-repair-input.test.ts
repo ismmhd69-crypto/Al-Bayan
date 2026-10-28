@@ -1,6 +1,7 @@
 import { expect, it, vi } from "vitest";
 vi.mock("server-only", () => ({}));
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync } from "node:fs";
+import { privateFile, privateTrace } from "./helpers/private-fixtures";
 import { isolateCopyRepair } from "../lib/ask/copy-repair-input";
 import type { JsonRequest } from "../lib/ai/types";
 import { runRichAnswer } from "../lib/ask/rich-engine";
@@ -46,8 +47,9 @@ it.each(["original", "source_id", "index"])("refuses inconsistent %s bindings", 
   if (field === "index") f.index = 1;
   request.prompt = JSON.stringify(p); expect(() => isolateCopyRepair(request)).toThrow();
 });
-it.skipIf(!existsSync("work/local-ask-traces/d9e9b89d-1e12-44d2-bb08-2749ea930946.jsonl"))("replays the actual failed correction with own original/restrictions intact", () => {
-  const events = readFileSync("work/local-ask-traces/d9e9b89d-1e12-44d2-bb08-2749ea930946.jsonl", "utf8").trim().split(/\r?\n/u).map(s => JSON.parse(s));
+const failedCorrection = privateTrace("d9e9b89d-1e12-44d2-bb08-2749ea930946");
+it.skipIf(!failedCorrection.available)(`replays the actual failed correction with own original/restrictions intact${failedCorrection.note}`, () => {
+  const events = readFileSync(failedCorrection.path, "utf8").trim().split(/\r?\n/u).map(s => JSON.parse(s));
   const saved = events.find((e: any) => e.event === "model_request" && e.data.call_id === "A14").data;
   const request: JsonRequest = { prompt: JSON.stringify(saved.prompt), system: saved.system, schema: saved.schema, maxOutputTokens: saved.max_output_tokens };
   const result = isolateCopyRepair(request), p = JSON.parse(result.prompt);
@@ -86,8 +88,9 @@ it("owner-only transformation isolates the real engine's copy patch while later 
   expect(result.status).toBe("rich_answer"); expect(correction).toBe(1); expect(finalChecks).toBeGreaterThan(0); expect(checkedReplacement).toBe(true);
 });
 
-it.skipIf(!existsSync("work/local-ask-traces/fadc13d1-9af2-402a-b490-4af97684233f.jsonl"))("locks the parents trace's untargeted scholar sentence without pretending to fix flagged Quran overlap", () => {
-  const events = readFileSync("work/local-ask-traces/fadc13d1-9af2-402a-b490-4af97684233f.jsonl", "utf8").trim().split(/\r?\n/u).map(s => JSON.parse(s));
+const parentsTrace = privateTrace("fadc13d1-9af2-402a-b490-4af97684233f");
+it.skipIf(!parentsTrace.available)(`locks the parents trace's untargeted scholar sentence without pretending to fix flagged Quran overlap${parentsTrace.note}`, () => {
+  const events = readFileSync(parentsTrace.path, "utf8").trim().split(/\r?\n/u).map(s => JSON.parse(s));
   const request = events.find((e: any) => e.event === "model_request" && e.data.call_id === "A13").data.prompt;
   const feedback = request.correction.checker_findings;
   const claims = (id: string) => events.find((e: any) => e.event === "model_response" && e.data.call_id === id).data.value;

@@ -7,6 +7,7 @@ import { scholarQuoteAllowed } from "@/lib/sources/scholar-rules";
 import { selectPatientEvidence, assessPatientEvidence, checkPatientSource, patientSelectionNeedsEvidence } from "./patient-models";
 import { runPatientResearch, validPatientRetryRequirements, type PatientCheckpoint, type PatientEngineDeps, type PatientResearchResult } from "./patient-engine";
 import type { PatientSourceGroup } from "./patient-protocol";
+import { originalSection } from "./original-sections";
 import { runRichAnswer } from "./rich-engine";
 import { recoverEvidence, recoveryQueryKey, type EvidenceGap, type RecoveryQuery } from "./search-engine/recovery";
 import { uniqueResearchCandidates } from "./search-engine/candidate-identity";
@@ -21,7 +22,8 @@ const groups: PatientSourceGroup[] = ["quran", "hadith", "scholar"];
 /** Real provider/search adapter. No provider is instantiated or invoked on import.
  * The caller supplies a validated, owner-bound question frame and journalled providers. */
 export async function runPatientPipeline(input: { jobId: string; question: string; language: Locale; frame: QuestionFrame; checkpoint?: PatientCheckpoint }, deps: PatientPipelineDeps, signal: AbortSignal) {
-  const frame = input.frame;
+  const frame = input.frame, stable = input.language !== "de" && process.env.NEXT_PUBLIC_ASK_STABLE_STREAMING === "true";
+  if (stable) deps = { ...deps, fixedSelectionReferences: true };
   if (frame.kind !== "question" || frame.clarificationNeeded || frame.checklistStatus && frame.checklistStatus !== "complete") throw new Error("patient_question_requires_clarification");
   if (input.checkpoint?.retryRequirementIds !== undefined && !validPatientRetryRequirements(input.checkpoint.retryRequirementIds, frame)) throw Error("patient_retry_scope_invalid");
   const plans = pointSearchPlans(frame), pools = new Map<PatientSourceGroup, PassageForSelection[]>();
@@ -128,7 +130,7 @@ export async function runPatientPipeline(input: { jobId: string; question: strin
     return usable;
   };
   return runPatientResearch(input, {
-    engineRevision: deps.engineRevision, signal, append: deps.append, revalidate: deps.revalidate,
+    engineRevision: deps.engineRevision, stableCommits: stable, signal, append: deps.append, revalidate: deps.revalidate,
     research: async (group, _signal, requirementIds, save): Promise<PatientResearchResult> => {
       if (group !== "quran" && deps.sourceAvailability?.[group] === false) return { status: "failed", reason: "source_unavailable" };
       const cached = await currentDiscovery(group, save), batch = discovery?.batches[group];
@@ -163,12 +165,31 @@ export async function runPatientPipeline(input: { jobId: string; question: strin
       // pending. The writer/checker must not decide the visitor's personal case;
       // required scholarly support still gates the combined final answer below.
       const selected = snapshot.passages.filter(p => p.source.kind === group);
-      const section = await checkPatientSource(group, { partial: true, question: frame, passages: snapshot.passages,
-        cards: selected.filter(p => p.source.kind === "quran").map(p => ({ id: `patient-${p.id}`, sourceIds: [p.id], named: false })) }, input.question, input.language, deps, signal);
+      const sourcePack = { partial: true as const, question: frame, passages: snapshot.passages,
+        cards: selected.filter(p => p.source.kind === "quran").map(p => ({ id: `patient-${p.id}`, sourceIds: [p.id], named: false })) };
+      const section = stable ? await originalSection(group, sourcePack, input.language, deps, signal)
+        : await checkPatientSource(group, sourcePack, input.question, input.language, deps, signal);
       const outcome = snapshot.outcomes?.[group];
       return section.outcome === "ready" && (outcome === "unavailable" || outcome === "search_failed") ? { ...section, searchOutcome: outcome } : section;
     },
     finalReview: async (snapshot, shown, _signal, save) => {
+      if (stable && shown.length) {
+        // Coverage can accept or refuse the frozen originals. It cannot reselect,
+        // recover or redraft a group that readers have already received.
+        const originals = snapshot.passages.filter(p => shown.some(s => s.sources.some(source => source.id === p.id)));
+        if (needsScholar(originals)) return { status: "needs_attention", reason: "insufficient_evidence",
+          requiredGroups: groups.filter(g => !shown.some(s => s.group === g)), withdrawGroups: [] };
+        const invalid = new Set<PatientSourceGroup>(), integrityNotices: import("./publication").IntegrityNotice[] = [];
+        const frozen = { question: frame, passages: originals, cards: originals.filter(p => p.source.kind === "quran").map(p => ({ id: `patient-${p.id}`, sourceIds: [p.id], named: false })) };
+        const conclusion = discovery?.conclusion ?? { drafts: 0, meaningUsed: false, editorialUsed: false };
+        const progressiveCheckpoint = { lanes: {}, meaningApprovals: new Set<string>(), retry: 0, conclusion };
+        const result = await runRichAnswer(frozen, input.language, { ...deps, progressiveCheckpoint,
+          saveConclusion: () => updateDiscovery({ conclusion: structuredClone(conclusion) }, save),
+          rich: { onIntegrity: notice => { if (notice.group !== "summary") { invalid.add(notice.group); integrityNotices.push(notice); } } } }, signal, input.question,
+          snapshot.outcomes ?? {}, Infinity, { checkedSections: shown, committedSources: true });
+        if (result.status !== "rich_answer") return { status: "needs_attention", reason: invalid.size ? "evidence_changed" : "explanation_failed", requiredGroups: [], withdrawGroups: [...invalid], integrityNotices };
+        return { status: "complete", summary: result.answer.sections.find(s => s.group === "summary")!, sections: result.answer.sections, guide: result.answer.guide as import("./rich-answer").RichGuidance };
+      }
       await Promise.all(groups.map(group => currentDiscovery(group, save)));
       const working = discovery?.working;
       let candidates = working ?? researchCandidatePool(frame, [...snapshot.passages, ...discovery?.candidates ?? [], ...[...pools.values()].flat()]).candidates;
@@ -205,7 +226,7 @@ export async function runPatientPipeline(input: { jobId: string; question: strin
           ...(["ar", "en", "de"] as const).flatMap(language => (p.hadith[language] ?? []).map(text => ({ requirementId: p.id, family: "hadith" as const, language, text }))),
         ])];
         const recovered = await recoverEvidence({ frame, initial: selection, candidates, previousQueries, gaps: gapState, plan: deps.planEvidenceRecovery, signal,
-          startingRound: discovery?.recoveryRounds.find(r => r.attempt === attempt)?.round ?? 0,
+          startingRound: Math.max(0, ...(discovery?.recoveryRounds ?? []).map(r => r.round)),
           onRoundStart: round => updateDiscovery({ recoveryRounds: [...(discovery?.recoveryRounds ?? []).filter(r => r.attempt !== attempt), { attempt, round }] }, save),
           search: query => search(query.family, query.text, query.requirementId),
           onPlanned: queries => updateDiscovery({ queries: [...(discovery?.queries ?? []), ...queries.map(query => ({ query, attempt, status: "planned" as const }))] }, save),

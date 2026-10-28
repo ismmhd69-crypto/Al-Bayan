@@ -25,7 +25,7 @@ import { canonicalSourcePage } from "./candidate-identity";
 import { currentVideos } from "@/lib/sources/videos";
 
 /** Per-read dependencies. No cross-request permission/approval cache and no paid AI calls. */
-export function serverJobFreshness(): JobFreshnessDeps {
+export function serverJobFreshness(options: { freshOriginals?: boolean } = {}): JobFreshnessDeps {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL,
     key = process.env.SUPABASE_SECRET_KEY;
   if (
@@ -107,7 +107,7 @@ export function serverJobFreshness(): JobFreshnessDeps {
   ): Promise<SourceFreshness> => {
     signal.throwIfAborted();
     if (e.kind === "quran") {
-      const fresh = await getVerse(e.key);
+      const fresh = await getVerse(e.key, options.freshOriginals);
       return !fresh
         ? "unavailable"
         : same(e, toEvidence({ kind: "quran", verse: fresh }, language))
@@ -135,7 +135,7 @@ export function serverJobFreshness(): JobFreshnessDeps {
       }
       const fresh = library
         ? await getLibraryHadith(e.key.slice(2))
-        : await getHadith(e.key.slice(2));
+        : await getHadith(e.key.slice(2), language, options.freshOriginals);
       if (!fresh) return "unavailable";
       return same(e, toEvidence({ kind: "hadith", hadith: fresh }, language))
         ? "valid"

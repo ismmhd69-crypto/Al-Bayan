@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
 import { abortable } from "../abort";
+import { sourceRequestTimeout } from "../timing";
 import { validVector, type VectorSpace } from "./contract";
 import type { SourceEmbedder } from "./index-store";
 import type { QueryEmbedder } from "./corpus-retrieval";
@@ -83,7 +84,7 @@ export function localTEIEmbeddings(input: LocalEmbeddingConfig, dispatch: Transp
     if (!Array.isArray(texts) || !texts.length || texts.length > 16 || texts.some(t => typeof t !== "string" || !t.trim() || t.length > 24000)) throw new Error("embedding_input_invalid");
     const body = JSON.stringify({ inputs: texts.map(t => prefix + t), truncate: false, normalize: true, prompt_name: null });
     if (Buffer.byteLength(body) > 512_000) throw new Error("embedding_input_too_large");
-    const signal = AbortSignal.any([parent, AbortSignal.timeout(30_000)]);
+    const signal = sourceRequestTimeout(parent, 30_000, "local_embeddings");
     const info = await request("/info", { method: "GET" }, signal, 32_000) as Record<string, any> | null;
     if (!info || info.model_id !== c.model || info.model_sha !== c.revision || info.model_dtype !== c.dtype
       || info.version !== c.serverVersion || info.sha !== c.serverSha || info.auto_truncate !== false

@@ -25,7 +25,7 @@ export const sections: RichSection[] = (["quran", "hadith", "scholar", "summary"
 export const richAnswer: RichAnswer = { version: 3, language: "en", review: "automatic", sections, complete: true, guide: "ask_specific_followup" };
 export function audit(prompt: string) {
   const request = JSON.parse(prompt);
-  return {
+  const result: any = {
     citation_checks: request.claims.map((c: { claim_id: string; claim: string; source_ids: string[] }) => ({ claim_id: c.claim_id,
       clauses: [{ text: c.claim, supported: "yes", scope_preserved: "yes", qualifiers_preserved: "yes",
         evidence: c.source_ids.map(id => ({ source_id: id, original_excerpt: request.claim_evidence.find((b: { claim_id: string }) => b.claim_id === c.claim_id).cited_originals.find((p: { id: string }) => p.id === id).arabic.slice(0, 600) })) }] })),
@@ -36,22 +36,30 @@ export function audit(prompt: string) {
     translation_checks: (request.display_translation_candidates ?? []).map((t: { source_id: string; original_hash: string }) => ({ source_id: t.source_id, original_hash: t.original_hash, faithful: "yes", complete: "yes", conditions_preserved: "yes" })),
     attribution_checks: request.claims.map((c: { claim_id: string }) => ({ claim_id: c.claim_id, verdict: "yes" })),
     requirement_coverage: request.full_answer ? request.evidence_package.question.requirements.map((r: { id: string }) => {
-      const matched = request.claims.filter((c: { claim_id: string; requirement_id: string; source_ids: string[] }) => c.requirement_id === r.id && !request.summary_claim_ids.includes(c.claim_id)
-        && c.source_ids.some(id => request.evidence_package.passages.some((p: { id: string; supported_requirement_ids: string[] }) => p.id === id && p.supported_requirement_ids.includes(r.id))));
+      const matched = request.claims.filter((c: { claim_id: string; requirement_id: string; source_ids: string[] }) => c.requirement_id === r.id && (request.publication_mode === "originals_then_summary" || !request.summary_claim_ids.includes(c.claim_id))
+        && c.source_ids.some(id => request.evidence_package.passages.some((p: { id: string; supported_requirement_ids: string[]; explanation_requirement_ids?: string[] }) => p.id === id && (p.supported_requirement_ids.includes(r.id) || request.publication_mode === "originals_then_summary" && p.explanation_requirement_ids?.includes(r.id)))));
       return { requirement_id: r.id, claim_ids: matched.map((c: { claim_id: string }) => c.claim_id), source_ids: [...new Set(matched.flatMap((c: { source_ids: string[] }) => c.source_ids))], fully_answered: "yes", conditions_preserved: "yes" };
     }) : [],
     claim_assessments: request.claims.map((c: { claim_id: string; source_ids: string[]; claim: string }) => ({ claim_id: c.claim_id, source_ids: c.source_ids,
       finding: { category: "source_support", claim_quote: c.claim, source_id: c.source_ids[0], source_quote: request.claim_evidence.find((r: any) => r.claim_id === c.claim_id).cited_originals.find((p: any) => p.id === c.source_ids[0]).arabic.slice(0, 900) },
     ...Object.fromEntries(CLAIM_AUDIT_FIELDS.map(f => [f, "yes"])), reason_codes: [], explanation: "" })),
     all_claims_consistent: "yes", complete_coverage: "yes", listed_items_complete: "yes", direct_summary: "yes", no_repetition: "yes", earlier_section_safe: "yes" };
+  if (request.review_contract === "field_verdicts_anchors_v3") {
+    result.audit_contract = request.review_contract;
+    result.claim_assessments = result.claim_assessments.map((row: any) => {
+      const { reason_codes: _reasons, ...fields } = row;
+      return { ...fields, finding: { category: "source_support", claim_quote: "", source_id: "", source_anchor_id: "" } };
+    });
+  }
+  return result;
 }
 export function dependencies(): PipelineDeps {
   return { writer: { id: "fake/writer", generateJson: async req => {
     const input = JSON.parse(req.prompt);
-    return { status: "answer", next_step: { text: "Read the cited explanation of care and ask which condition is unclear.", kind: "learning", refs: [] },
+    return { status: "answer", next_step: input.publication_mode === "originals_then_summary" ? [] : { text: "Read the cited explanation of care and ask which condition is unclear.", kind: "learning", refs: [] },
       ...Object.fromEntries(input.sections_to_write.map((g: keyof typeof drafts) => {
         const patch = input.correction?.checker_findings?.sentence_patches?.find((p: { group: string }) => p.group === g);
-        return [g, patch ? Object.fromEntries(patch.replace_indices.map((i: number) => [`P${i}`, { text: drafts[g][Math.min(i, drafts[g].length - 1)].text }])) : drafts[g]];
+        return [g, patch ? Object.fromEntries(patch.replace_indices.map((i: number) => [`P${i}`, { text: drafts[g][Math.min(i, drafts[g].length - 1)].text, ...(input.correction?.summary_citation_choices && g === "summary" ? { source_refs: drafts[g][Math.min(i, drafts[g].length - 1)].source_ids.map(id => input.correction.summary_citation_choices.find((choice: any) => choice.id === id).reference) } : {}) }])) : drafts[g]];
       })) };
   } }, verifier: { id: "fake/checker", generateJson: async req => audit(req.prompt) }, search: async () => [], getVerse: async () => undefined, neighbours: async () => [], rich: {} };
 }

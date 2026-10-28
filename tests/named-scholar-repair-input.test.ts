@@ -4,7 +4,9 @@ vi.mock("server-only", () => ({}));
 import { prepareNamedScholarRepair } from "../scripts/prepare-ask-named-scholar-repair";
 import { checkScholarAttributions } from "../lib/ask/scholar-attribution-check";
 import { structuredOutputContract } from "../lib/ai/structured-output";
-it.skipIf(!existsSync("work/private-ask-evaluation/parents-current-full-retest-20261024.json"))("the actual parents sentences fail the identity guard and produce one localized identity-locked correction", async () => {
+const report = "work/private-ask-evaluation/parents-current-full-retest-20261024.json";
+const available = existsSync(report) && existsSync(`work/local-ask-traces/${JSON.parse(readFileSync(report, "utf8")).requestId}.jsonl`);
+it.skipIf(!available)("the actual parents sentences fail the identity guard and produce one localized identity-locked correction", async () => {
   const c = await prepareNamedScholarRepair(), p = JSON.parse(c.request.prompt);
   expect(p.sections_to_write).toEqual(["scholar"]);
   expect(p.scholar_attribution_names.map((s: any) => s.short_name)).toEqual(["ابن باز", "ابن باز"]);

@@ -45,12 +45,15 @@ export function createPrivateTrace(directory: string, requestId: string, started
   writeFileSync(join(directory, "latest.json"), JSON.stringify({ request_id: requestId, file: `${requestId}.jsonl` }), { mode: 0o600 });
   return { record, file };
 }
+/** ASK_LOCAL_TRACE_DIR lets the test suite use a temporary folder, so test runs never
+ * rotate away the owner's real traces in work/local-ask-traces. */
+export const localAskTraceDirectory = () => process.env.ASK_LOCAL_TRACE_DIR || join(process.cwd(), "work", "local-ask-traces");
 export function withLocalAskTrace<T>(requestId: string, started: number, work: () => T): T {
   if (!localAskTraceEnabled() || context.getStore()) return work();
   let trace: ReturnType<typeof createPrivateTrace>;
-  try { trace = createPrivateTrace(join(process.cwd(), "work", "local-ask-traces"), requestId, started); }
+  try { trace = createPrivateTrace(localAskTraceDirectory(), requestId, started); }
   catch { return work(); }
-  console.info(`ask local trace: work/local-ask-traces/${requestId}.jsonl`);
+  console.info(`ask local trace: ${trace.file}`);
   return context.run(trace, () => {
     trace.record("request_started", { local_only: true, unhurried: localAskUnhurried(), retention_hours: 24 });
     return work();
@@ -62,7 +65,7 @@ export function recordLocalAskEvent(event: string, data: unknown) {
 export function observeSourceFunctions<T extends object>(deps: T): T {
   if (!localAskTraceEnabled()) return deps;
   const copy = { ...deps } as Record<string, unknown>;
-  for (const name of ["search", "getVerse", "neighbours", "searchHadith", "searchScholars", "searchScholarsLive", "displayTranslationLookup"]) {
+  for (const name of ["search", "getVerse", "neighbours", "searchHadith", "resolveHadithHint", "searchScholars", "searchScholarsLive", "displayTranslationLookup"]) {
     const fn = copy[name];
     if (typeof fn !== "function") continue;
     copy[name] = async (...args: unknown[]) => {

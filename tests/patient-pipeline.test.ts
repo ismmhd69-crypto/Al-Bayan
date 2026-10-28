@@ -1,11 +1,14 @@
-import { expect, it, vi } from "vitest";
+import { selectionReply } from "./fixtures/selection";
+import { afterEach, expect, it, vi } from "vitest";
 vi.mock("server-only", () => ({}));
 import { runPatientPipeline, type PatientPipelineDeps } from "@/lib/ask/patient-pipeline";
 import type { QuestionFrame } from "@/lib/ask/retrieval";
 import type { PatientEvent } from "@/lib/ask/patient-protocol";
 import { pack, dependencies, audit } from "./fixtures/rich";
 
-it("runs actual search/selection/writing/checking while the scholar service is still pending", async () => {
+afterEach(() => vi.unstubAllEnvs());
+it.each([false, true])("runs actual search/selection/writing/checking while scholars are pending, stable=%s", async stable => {
+  vi.stubEnv("NEXT_PUBLIC_ASK_STABLE_STREAMING", String(stable));
   const base = dependencies(), events: PatientEvent[] = [];
   let release!: () => void, scholarFinished = false;
   const delayed = new Promise<void>(resolve => { release = resolve; });
@@ -24,11 +27,11 @@ it("runs actual search/selection/writing/checking while the scholar service is s
   deps.verifier.generateJson = async req => {
     if (!req.system.startsWith("You select evidence")) return audit(req.prompt);
     const data = JSON.parse(req.prompt);
-    return { status: "ready", coverage: "complete", conflict_type: "none",
+    return selectionReply(data, { status: "ready", coverage: "complete", conflict_type: "none",
       ...(req.schema.type === "object" && "missing_requirement_ids" in req.schema.properties ? { missing_requirement_ids: [] } : {}), assessments: data.candidates.map((p: { source: { id: string } }) => ({
       source_id: p.source.id, relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes", position: "",
       contribution: { role: "direct", scope: "general", conditions: [] }, scope_matches_question: "yes", related_requirement_ids: [], distinct_contribution: "yes",
-    })) };
+    })) });
   };
   const result = await runPatientPipeline({ jobId: "00000000-0000-4000-8000-000000000021", question: "Explain care", language: "en", frame }, deps, new AbortController().signal);
   expect(result.state.status).toBe("complete");

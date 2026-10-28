@@ -71,6 +71,113 @@
   --f-ar-body: var(--font-ar-body), "Geeza Pro", "Segoe UI", sans-serif;
 }
 
+/* Dark mode theme tokens: manuscript night sky + radiant gold */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b0f17;
+  --bg-2: #111723;
+  --surface: #151d2d;
+  --surface-2: #1a2438;
+  --line: #222d42;
+  --line-2: #2e3c57;
+  --ink: #f0f4fc;
+  --ink-2: #a2b0c7;
+  --ink-3: #75839c;
+  --accent: #6b8fe6;
+  --accent-hover: #86a6f5;
+  --accent-soft: rgba(107, 143, 230, 0.14);
+  --accent-line: #2e4168;
+  --on-accent: #ffffff;
+  --gold: #d4a852;
+  --gold-soft: rgba(212, 168, 82, 0.12);
+  --gold-line: #524021;
+  --gold-ink: #f5d38a;
+
+  /* 1. QURAN: Sacred Manuscript Emerald (deep, dignified, high contrast) */
+  --quran-ink: #f0f4fc;
+  --quran-text: #c2d2cb;
+  --quran-bg: #131d27;
+  --quran-bg-hover: #182533;
+  --quran-line: #1e332f;
+  --quran-border: #294840;
+  --quran-accent: #34d399;
+
+  /* 2. SUNNAH: Scholarly Sapphire (deep night navy) */
+  --sunnah-ink: #f0f4fc;
+  --sunnah-text: #bccbe6;
+  --sunnah-bg: #141c2c;
+  --sunnah-bg-hover: #1a253a;
+  --sunnah-line: #23324d;
+  --sunnah-border: #2c4269;
+  --sunnah-accent: #60a5fa;
+
+  /* 3. SCHOLARS: Refined Slate & Cedar */
+  --scholar-ink: #f0f4fc;
+  --scholar-text: #c4cddb;
+  --scholar-bg: #151c27;
+  --scholar-bg-hover: #1c2534;
+  --scholar-line: #252f3e;
+  --scholar-border: #334155;
+  --scholar-accent: #94a3b8;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
+  --shadow: 0 4px 14px rgba(0, 0, 0, 0.4), 0 14px 32px -8px rgba(0, 0, 0, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0b0f17;
+    --bg-2: #111723;
+    --surface: #151d2d;
+    --surface-2: #1a2438;
+    --line: #222d42;
+    --line-2: #2e3c57;
+    --ink: #f0f4fc;
+    --ink-2: #a2b0c7;
+    --ink-3: #75839c;
+    --accent: #6b8fe6;
+    --accent-hover: #86a6f5;
+    --accent-soft: rgba(107, 143, 230, 0.14);
+    --accent-line: #2e4168;
+    --on-accent: #ffffff;
+    --gold: #d4a852;
+    --gold-soft: rgba(212, 168, 82, 0.12);
+    --gold-line: #524021;
+    --gold-ink: #f5d38a;
+
+    /* 1. QURAN: Sacred Manuscript Emerald */
+    --quran-ink: #f0f4fc;
+    --quran-text: #c2d2cb;
+    --quran-bg: #131d27;
+    --quran-bg-hover: #182533;
+    --quran-line: #1e332f;
+    --quran-border: #294840;
+    --quran-accent: #34d399;
+
+    /* 2. SUNNAH: Scholarly Sapphire */
+    --sunnah-ink: #f0f4fc;
+    --sunnah-text: #bccbe6;
+    --sunnah-bg: #141c2c;
+    --sunnah-bg-hover: #1a253a;
+    --sunnah-line: #23324d;
+    --sunnah-border: #2c4269;
+    --sunnah-accent: #60a5fa;
+
+    /* 3. SCHOLARS: Refined Slate & Cedar */
+    --scholar-ink: #f0f4fc;
+    --scholar-text: #c4cddb;
+    --scholar-bg: #151c27;
+    --scholar-bg-hover: #1c2534;
+    --scholar-line: #252f3e;
+    --scholar-border: #334155;
+    --scholar-accent: #94a3b8;
+
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
+    --shadow: 0 4px 14px rgba(0, 0, 0, 0.4), 0 14px 32px -8px rgba(0, 0, 0, 0.6);
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -80,7 +187,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   max-inline-size: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
@@ -92,7 +199,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   max-inline-size: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 h1,
@@ -246,7 +353,7 @@ svg {
   min-block-size: 100dvh;
   inline-size: 100%;
   max-inline-size: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .sidebar {
@@ -347,6 +454,12 @@ svg {
 }
 .shell--ask .main {
   padding-block-end: 0;
+  block-size: 100%;
+  min-block-size: 0;
+}
+.shell--ask {
+  block-size: 100dvh;
+  overflow: hidden;
 }
 
 /* ---------- shell: computer ---------- */
@@ -354,6 +467,8 @@ svg {
   .shell {
     display: grid;
     grid-template-columns: var(--sidebar) minmax(0, 1fr);
+    overflow-x: clip;
+    align-items: start;
   }
   .topbar,
   .tabbar,
@@ -363,6 +478,7 @@ svg {
   }
   .main {
     padding-block-end: 48px;
+    min-inline-size: 0;
   }
   .sidebar {
     position: sticky;
@@ -374,6 +490,8 @@ svg {
     padding: 24px 16px;
     background: var(--surface);
     border-inline-end: 1px solid var(--line);
+    overflow-y: auto;
+    z-index: 40;
   }
   .sidebar-brand {
     text-decoration: none;
@@ -409,10 +527,59 @@ svg {
   }
   .sidebar-foot {
     margin-block-start: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
   .sidebar-foot .lang-switch {
     display: grid;
   }
+}
+
+/* Theme toggle button styling */
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-block-size: 40px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.theme-toggle-btn:hover {
+  background: var(--bg-2);
+  border-color: var(--line-2);
+}
+.theme-toggle-icon {
+  inline-size: 18px;
+  block-size: 18px;
+  color: var(--gold);
+}
+.sidebar-foot .theme-toggle-btn {
+  inline-size: 100%;
+  justify-content: flex-start;
+}
+.topbar .theme-toggle-btn {
+  margin-inline-start: auto;
+  min-block-size: 36px;
+  padding: 6px 12px;
+}
+.topbar .theme-toggle-text {
+  display: none;
+}
+.more-theme-row {
+  display: flex;
+}
+.more-theme-row .theme-toggle-btn {
+  min-block-size: 44px;
+  padding: 10px 18px;
 }
 
 /* ---------- common building blocks ---------- */
@@ -980,12 +1147,14 @@ a.list-row:hover {
 
 /* ---------- Ask ---------- */
 .chat {
+  position: relative;
   display: flex;
   flex-direction: column;
   block-size: 100dvh;
   max-inline-size: 820px;
   margin-inline: auto;
   background: var(--bg);
+  overflow: hidden;
 }
 .chat-top {
   display: flex;
@@ -1028,8 +1197,11 @@ a.list-row:hover {
   margin-block-start: 1px;
 }
 .chat-log {
+  position: relative;
   flex: 1;
+  min-block-size: 0;
   overflow-y: auto;
+  overscroll-behavior-y: contain;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -1071,6 +1243,7 @@ a.list-row:hover {
 }
 .msg-bayan {
   align-self: flex-start;
+  inline-size: min(92%, 640px);
   background: var(--surface);
   border: 1px solid var(--line);
   border-end-start-radius: 6px;
@@ -1078,6 +1251,7 @@ a.list-row:hover {
 }
 @media (max-width: 640px) {
   .msg-bayan {
+    inline-size: 100%;
     background: transparent;
     border: none;
     box-shadow: none;
@@ -1447,21 +1621,22 @@ details[open] > summary .chev {
 .answer-source-card,
 .answer-v2-view {
   display: grid;
-  gap: 12px;
+  gap: 14px;
   min-inline-size: 0;
-  padding: 18px 20px;
+  padding: 20px 22px;
   border: 1px solid var(--line);
   border-radius: 14px;
   background: var(--surface);
+  box-shadow: var(--shadow-sm);
   transition: all 0.25s ease;
   overflow-wrap: anywhere;
 }
 @media (max-width: 640px) {
   .answer-source-card,
   .answer-v2-view {
-    padding: 14px;
-    gap: 10px;
-    border-radius: 10px;
+    padding: 16px 14px;
+    gap: 12px;
+    border-radius: 12px;
   }
 }
 
@@ -1484,7 +1659,7 @@ details[open] > summary .chev {
   margin: 0;
   color: var(--quran-ink);
   font-family: var(--f-body);
-  font-size: var(--fs-sm);
+  font-size: 0.95rem;
   font-weight: 700;
   text-wrap: balance;
 }
@@ -1495,11 +1670,12 @@ details[open] > summary .chev {
   border: 1px solid var(--sunnah-line);
   border-inline-start: 4px solid var(--sunnah-accent);
 }
-.answer-source-card--hadith > h4 {
+.answer-source-card--hadith > h4,
+.answer-source-card--hadith .source-card-head h4 {
   margin: 0;
   color: var(--sunnah-ink);
   font-family: var(--f-body);
-  font-size: var(--fs-sm);
+  font-size: 0.95rem;
   font-weight: 700;
   text-wrap: balance;
 }
@@ -1511,12 +1687,13 @@ details[open] > summary .chev {
   border-inline-start: 4px solid var(--scholar-accent);
 }
 .answer-source-card--scholar > h4,
+.answer-source-card--scholar .source-card-head h4,
 .answer-v2-view > h4,
 .answer-v2-more > h4 {
   margin: 0;
   color: var(--scholar-ink);
   font-family: var(--f-body);
-  font-size: var(--fs-sm);
+  font-size: 0.95rem;
   font-weight: 700;
   text-wrap: balance;
 }
@@ -1526,7 +1703,7 @@ details[open] > summary .chev {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #ffffff;
+  background: var(--surface);
   color: var(--quran-ink);
   border: 1px solid var(--quran-border);
   padding: 4px 10px 4px 8px;
@@ -1746,15 +1923,23 @@ details[open] > summary .chev {
   line-height: 2.1;
   color: var(--ink);
   text-align: right;
-  padding: 8px 12px;
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 14px 18px;
+  background: var(--surface-2);
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 .quran-verse .verse-ar {
-  color: var(--quran-ink);
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(134, 239, 172, 0.45);
+  color: var(--ink);
+  background: color-mix(in srgb, var(--surface) 70%, var(--bg) 30%);
+  border: 1px solid var(--quran-border);
+  border-inline-start: 3px solid var(--quran-accent);
+}
+[data-theme="dark"] .quran-verse .verse-ar {
+  color: #f7fafc;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  border-inline-start: 3px solid var(--quran-accent);
 }
 .verse-tr {
   display: grid;
@@ -1788,10 +1973,17 @@ details[open] > summary .chev {
   display: grid;
   gap: 4px;
   min-inline-size: 0;
-  padding: 10px 14px;
-  border-radius: 8px;
+  padding: 12px 16px;
+  border-radius: 10px;
   border-inline-start: 3px solid var(--sunnah-accent);
-  background: rgba(255, 255, 255, 0.65);
+  background: color-mix(in srgb, var(--surface) 70%, var(--bg) 30%);
+  border: 1px solid var(--sunnah-border);
+  border-inline-start-width: 3px;
+}
+[data-theme="dark"] .hadith-words {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(96, 165, 250, 0.2);
+  border-inline-start-color: var(--sunnah-accent);
 }
 .hadith-words-label {
   margin: 0;
@@ -1918,6 +2110,18 @@ details[open] > summary .chev {
 /* "Report a problem" under an answer: a quiet fold-out form. */
 .report {
   margin-block-start: 8px;
+}
+.answer-footer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 20px;
+}
+.answer-donate {
+  text-decoration: none;
+}
+.answer-donate:hover {
+  text-decoration: underline;
 }
 .report-toggle {
   display: inline-flex;
@@ -2125,12 +2329,13 @@ details[open] > summary .chev {
 }
 .home-gateway-card--new {
   border-color: var(--gold-line);
-  background: linear-gradient(180deg, var(--surface) 0%, var(--gold-soft) 100%);
+  background: var(--gold-soft);
 }
 .home-gateway-card--new:hover,
 .home-gateway-card--new:focus-visible {
   border-color: var(--gold);
   background: var(--gold-soft);
+  box-shadow: 0 0 0 1px var(--gold-line), var(--shadow-sm);
 }
 .home-gateway-header {
   display: flex;

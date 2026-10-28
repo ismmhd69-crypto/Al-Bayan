@@ -18,5 +18,5 @@
     "paths": { "@/*": ["./*"] }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/dev/types/**/*.ts"],
-  "exclude": ["node_modules", "mockup", "brand", "scripts/generate-batch-*.ts", "scripts/translate-codex-batch-*.ts", "scripts/build-codex-out-*.ts"]
+  "exclude": ["node_modules", "mockup", "brand", "work", "scripts/generate-batch-*.ts", "scripts/translate-codex-batch-*.ts", "scripts/build-codex-out-*.ts"]
 }

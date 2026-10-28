@@ -1,5 +1,5 @@
 import { expect, it, vi } from "vitest";
-import { existsSync } from "node:fs";
+import { privateFile, privateTrace } from "./helpers/private-fixtures";
 vi.mock("server-only", () => ({}));
 import { runRichAnswer } from "../lib/ask/rich-engine";
 import { dependencies, pack, strictAudit } from "./fixtures/rich";
@@ -15,10 +15,15 @@ function setup() {
     const raw = await writer(req) as any;
     if (JSON.parse(req.prompt).sections_to_write.includes("summary")) {
       raw.no_answer_feedback = [];
-      delete raw.next_step;
+      raw.next_step = [];
       expect(req.system).toContain("Every requested practical step still belongs in the supported answer");
       expect(req.schema.type).toBe("object");
-      if (req.schema.type === "object") expect(req.schema.required).not.toContain("next_step");
+      if (req.schema.type === "object") { expect(req.schema.required).toContain("next_step"); expect(req.schema.properties.next_step).toMatchObject({ type: "array", maxItems: 1 }); }
+      const fullyRequired = (node: typeof req.schema) => {
+        if (node.type === "object") { expect([...node.required].sort()).toEqual(Object.keys(node.properties).sort()); Object.values(node.properties).forEach(fullyRequired); }
+        else if (node.type === "array") fullyRequired(node.items);
+      };
+      fullyRequired(req.schema);
       expect(structuredOutputContract(req.schema).parse(JSON.stringify(raw))).not.toBeNull();
     }
     return raw;
@@ -74,7 +79,7 @@ it("permits one writer correction to explicitly omit a rejected optional footer 
     if (p.sections_to_write.includes("summary")) {
       summaryCalls++;
       if (!p.correction) raw.next_step = { text: "", kind: "learning", refs: [] };
-      else expect(p.correction.checker_findings.format_repair_rules.guidance_invalid).toContain("omitted entirely");
+      else expect(p.correction.checker_findings.format_repair_rules.guidance_invalid).toContain("[] for no footer");
     }
     return raw;
   };
@@ -136,7 +141,8 @@ it("absence also works in ordinary synthesis with staged focused checks without 
   expect(finalSeen).toBe(true); expect(deps.selectedSummary).not.toBe(true);
 });
 
-it.skipIf(!existsSync("work/local-ask-traces/fadc13d1-9af2-402a-b490-4af97684233f.jsonl"))("the actual blocked final request retains the exact same body evidence and output allowance without the optional footer", () => {
+const footerTrace = privateFile("work/local-ask-traces/fadc13d1-9af2-402a-b490-4af97684233f.jsonl", "trace fadc13d1-9af2-402a-b490-4af97684233f");
+it.skipIf(!footerTrace.available)(`the actual blocked final request retains the exact same body evidence and output allowance without the optional footer${footerTrace.note}`, () => {
   const r = optionalGuidanceSizeRequests(), before = JSON.parse(r.withGuidance.prompt), after = JSON.parse(r.withoutGuidance.prompt);
   expect(before.next_step).toBeTruthy(); delete before.next_step;
   expect(after).toEqual(before);

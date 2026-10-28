@@ -6,6 +6,41 @@ import type { QuestionFrame } from "@/lib/ask/retrieval";
 import { pack, dependencies, sections, audit } from "./fixtures/rich";
 
 describe("patient sections use real shared source checks", () => {
+  const selectionFrame: QuestionFrame = { ...pack.question, kind: "question", searchQueries: { en: ["care"] } };
+  const selected = () => ({ status: "ready", coverage: "complete", conflict_type: "none", assessments: pack.passages.slice(0, 1).map(p => ({
+    source_id: p.id, relevance: "direct", supported_requirement_ids: ["R1"], context_safe: "yes", position: "",
+    contribution: { role: "direct", scope: "general", conditions: [] }, scope_matches_question: "yes", related_requirement_ids: [], distinct_contribution: "yes" })) });
+  it("recognizes an empty ranked pool as discovery loss without paying for an empty selection", async () => {
+    const deps = dependencies(); deps.meaningRankCandidates = async () => [];
+    deps.verifier.generateJson = vi.fn();
+    const result = await assessPatientEvidence(selectionFrame, pack.passages, deps, new AbortController().signal, true);
+    expect(result.rejection).toBe("no_ranked_candidates"); expect(result.missingRequirementIds).toEqual(["R1"]);
+    expect(deps.verifier.generateJson).not.toHaveBeenCalled();
+  });
+  it("repairs an empty assessment once against the unchanged candidate pool", async () => {
+    const deps = dependencies(); const requests: any[] = [];
+    deps.verifier.generateJson = vi.fn(async request => { requests.push(JSON.parse(request.prompt));
+      return requests.length === 1 ? { status: "insufficient", coverage: "incomplete", conflict_type: "none", assessments: [] } : selected(); });
+    const result = await assessPatientEvidence(selectionFrame, pack.passages.slice(0, 1), deps, new AbortController().signal, true);
+    expect(result.pack?.passages.map(p => p.id)).toEqual([pack.passages[0].id]);
+    expect(requests).toHaveLength(2); expect(requests[1].question).toEqual(requests[0].question);
+    expect(requests[1].candidates).toEqual(requests[0].candidates); expect(requests[1].assessment_repair.reason).toBe("assessments_invalid_or_empty");
+  });
+  it("does not force a passing assessment or loop after the single correction", async () => {
+    const deps = dependencies(); deps.verifier.generateJson = vi.fn(async () => ({ status: "insufficient", coverage: "incomplete", conflict_type: "none", assessments: [] }));
+    const result = await assessPatientEvidence(selectionFrame, pack.passages, deps, new AbortController().signal, true);
+    expect(result.pack).toBeNull(); expect(result.rejection).toBe("assessments_invalid_or_empty");
+    expect(deps.verifier.generateJson).toHaveBeenCalledTimes(2);
+  });
+  it("never retries unknown source identities, transport failures or billing uncertainty", async () => {
+    const deps = dependencies(); const raw = selected(); raw.assessments[0].source_id = "invented";
+    deps.verifier.generateJson = vi.fn(async () => raw);
+    expect((await assessPatientEvidence(selectionFrame, pack.passages, deps, new AbortController().signal, true)).pack).toBeNull();
+    expect(deps.verifier.generateJson).toHaveBeenCalledOnce();
+    deps.verifier.generateJson = vi.fn(async () => { throw Error("billing_uncertain"); });
+    await expect(assessPatientEvidence(selectionFrame, pack.passages, deps, new AbortController().signal, true)).rejects.toThrow("billing_uncertain");
+    expect(deps.verifier.generateJson).toHaveBeenCalledOnce();
+  });
   it("keeps explicit unresolved concerns despite partial direct support and validates the other concern", async () => {
     const deps = dependencies(), frame: QuestionFrame = { ...pack.question, kind: "question", searchQueries: { en: ["care"] },
       requirements: [{ ...pack.question.requirements[0] }, { id: "R2", text: "Explain limits", facet: "conditions" }] };
