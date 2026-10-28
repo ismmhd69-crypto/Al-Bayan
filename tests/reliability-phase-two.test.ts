@@ -168,12 +168,15 @@ it("tells the second summary review which unchanged sentences and concerns the f
   const fresh = richReviewRequest({ items: [kept] as any, language: "en", full: true, question: "Explain care", serialized: { passages: [] }, guidance: null, translationCandidates: [], summaryCount: 1, earlierCount: 0 });
   expect(fresh.system).toContain("No previous checker verdicts are supplied");
 });
-it("continues with attributed sources when only one scholarly position survives (live L09)", async () => {
+it("continues, still marked as a difference, when only one scholarly position survives (live L09)", async () => {
   const { t, codes } = differingSetup(raw => { raw.assessments.forEach((a: any) => { if (a.position) a.position = "view-a"; }); });
   const result: any = await runSimplePipeline("Explain care", frame, t.deps, signal(), hints);
   expect(codes, codes.join(",")).toContain("patient_selection_scholar_difference_single_position");
   expect(result.failureKind).not.toBe("selection_failure");
-  expect(codes).not.toContain("simple_scholar_difference_presented");
+  // Still marked, so the one view is never written or approved as agreed or the only view.
+  expect(codes).toContain("simple_scholar_difference_presented");
+  const writer = t.requests.map(r => JSON.parse(r.prompt)).find(p => p.sections_to_write);
+  expect(writer?.evidence_package.scholar_difference.rule).toContain("never as the only view");
 });
 it("accepts a source condition longer than 200 characters (live L03, L07)", async () => {
   const t = setup(), verify = t.deps.verifier.generateJson, long = "A condition stated in the source ".repeat(9).trim();

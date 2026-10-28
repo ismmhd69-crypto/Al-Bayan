@@ -607,13 +607,15 @@ export function parseEvidencePackage(
       if (!position) return fail("sealed_scholar_position_missing");
       (positions[position] ??= []).push(passage.id);
     }
-    // Only one position survived scope and context checks among the usable quotes. In a preview
-    // selection the answer continues without a difference: every scholar sentence must still name
-    // its scholar (attribution check), so no view is presented as unattributed or agreed.
+    // Only one position may survive scope and context checks among the usable quotes. In a preview
+    // selection the answer continues, attributed to its named scholars.
     if (Object.keys(positions).length < 2) {
       if (!options.partialPreview) return fail("scholar_difference_positions_missing");
+      // Keep the difference marked even with one usable position, so that view is never
+      // written or approved as the only view or a consensus (ranking words stay blocked).
       onFailure?.("scholar_difference_single_position");
-    } else scholarDifference = { positions };
+    }
+    scholarDifference = { positions };
   }
   return {
     ...(options.partialPreview ? { partial: true as const } : {}),
