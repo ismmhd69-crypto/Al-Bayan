@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0557",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:05:09.752Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "60960e3f-cda1-416f-a1bb-eb611a8622c6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1255b",
+      "reference": "Sahih Muslim, hadith 1255 b, book 15, باب فَضْلِ الْعُمْرَةِ فِي رَمَضَانَ ‏",
+      "title": "باب فَضْلِ الْعُمْرَةِ فِي رَمَضَانَ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمِ بْنِ مَيْمُونٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ ابْنِ جُرَيْجٍ، قَالَ أَخْبَرَنِي عَطَاءٌ، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يُحَدِّثُنَا قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لاِمْرَأَةٍ مِنَ الأَنْصَارِ سَمَّاهَا ابْنُ عَبَّاسٍ فَنَسِيتُ اسْمَهَا ‏\"‏ مَا مَنَعَكِ أَنْ تَحُجِّي مَعَنَا ‏\"‏ ‏.‏ قَالَتْ لَمْ يَكُنْ لَنَا إِلاَّ نَاضِحَانِ فَحَجَّ أَبُو وَلَدِهَا وَابْنُهَا عَلَى نَاضِحٍ وَتَرَكَ لَنَا نَاضِحًا نَنْضِحُ عَلَيْهِ قَالَ ‏\"‏ فَإِذَا جَاءَ رَمَضَانُ فَاعْتَمِرِي فَإِنَّ عُمْرَةً فِيهِ تَعْدِلُ حَجَّةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8cb59dcbdc757963c6f0b32f22804a53aa0242ed518a05a3105b5c48046a580c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim ibn Maymun m’a rapporté : Yahya ibn Said nous a rapporté, d’après Ibn Jurayj : Ata m’a informé : j’ai entendu Ibn Abbas nous rapporter que le Messager d’Allah ﷺ demanda à une femme des Ansar — Ibn Abbas avait donné son nom, mais je l’ai oublié — ce qui l’avait empêchée d’accomplir le pèlerinage avec eux. Elle répondit qu’ils n’avaient que deux chameaux pour puiser l’eau. Le père de son enfant et son fils partirent accomplir le pèlerinage sur l’un, et lui laissèrent l’autre pour puiser l’eau. Le Prophète ﷺ lui dit : lorsque viendra Ramadan, accomplis la omra, car une omra durant ce mois équivaut à un pèlerinage.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1ab65388-9ec8-4cd1-8000-81bf3907d11a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1256",
+      "reference": "Sahih Muslim, hadith 1256, book 15, باب فَضْلِ الْعُمْرَةِ فِي رَمَضَانَ ‏",
+      "title": "باب فَضْلِ الْعُمْرَةِ فِي رَمَضَانَ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ الضَّبِّيُّ، حَدَّثَنَا يَزِيدُ، - يَعْنِي ابْنَ زُرَيْعٍ - حَدَّثَنَا حَبِيبٌ، الْمُعَلِّمُ عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ لاِمْرَأَةٍ مِنَ الأَنْصَارِ يُقَالُ لَهَا أُمُّ سِنَانٍ ‏\"‏ مَا مَنَعَكِ أَنْ تَكُونِي حَجَجْتِ مَعَنَا ‏\"‏ ‏.‏ قَالَتْ نَاضِحَانِ كَانَا لأَبِي فُلاَنٍ - زَوْجِهَا - حَجَّ هُوَ وَابْنُهُ عَلَى أَحَدِهِمَا وَكَانَ الآخَرُ يَسْقِي عَلَيْهِ غُلاَمُنَا ‏.‏ قَالَ ‏\"‏ فَعُمْرَةٌ فِي رَمَضَانَ تَقْضِي حَجَّةً ‏.‏ أَوْ حَجَّةً مَعِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b546d0d894966bbfbef595f9f35154568aadcad50f7bf6a65dc8553a231a23b6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Abdah al-Dabbi nous a rapporté : Yazid, c’est-à-dire Ibn Zuray, nous a rapporté : Habib al-Muallim nous a rapporté, d’après Ata, d’après Ibn Abbas, que le Prophète ﷺ dit à une femme des Ansar nommée Umm Sinan : qu’est-ce qui t’a empêchée d’accomplir le pèlerinage avec nous ? Elle répondit : nous avions deux chameaux pour puiser l’eau. Son mari et son fils partirent faire le pèlerinage sur l’un d’eux, tandis que notre serviteur utilisait l’autre pour apporter de l’eau. Le Prophète ﷺ dit : une omra durant Ramadan tient lieu d’un pèlerinage — ou d’un pèlerinage avec moi.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e1716166-f18e-4f63-aed6-1f3c591d54fd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1257a",
+      "reference": "Sahih Muslim, hadith 1257 a, book 15, باب اسْتِحْبَابِ دُخُولِ مَكَّةَ مِنَ الثَّنِيَّةِ الْعُلْيَا وَالْخُرُوجِ مِنْهَا مِنَ الثَّنِيَّةِ السُّفْلَى وَدُخُولِ بَلْدَةٍ مِنْ طَرِيقٍ غَيْرِ الَّتِي خَرَجَ مِنْهَا",
+      "title": "باب اسْتِحْبَابِ دُخُولِ مَكَّةَ مِنَ الثَّنِيَّةِ الْعُلْيَا وَالْخُرُوجِ مِنْهَا مِنَ الثَّنِيَّةِ السُّفْلَى وَدُخُولِ بَلْدَةٍ مِنْ طَرِيقٍ غَيْرِ الَّتِي خَرَجَ مِنْهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَخْرُجُ مِنْ طَرِيقِ الشَّجَرَةِ وَيَدْخُلُ مِنْ طَرِيقِ الْمُعَرَّسِ وَإِذَا دَخَلَ مَكَّةَ دَخَلَ مِنَ الثَّنِيَّةِ الْعُلْيَا وَيَخْرُجُ مِنَ الثَّنِيَّةِ السُّفْلَى ‏.‏",
+      "source_hash_sha256": "358f2691c1f9ba7309993ec38069440198bd546682ca39a016d2e6ad8f7ca71a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abu Shayba nous a rapporté : Abd Allah ibn Numayr nous a rapporté. Ibn Numayr nous a également rapporté : mon père nous a rapporté : Ubayd Allah nous a rapporté, d’après Nafi, d’après Ibn Umar, que le Messager d’Allah ﷺ sortait par la route d’al-Shajara et entrait par la route d’al-Muarras. Lorsqu’il entrait à La Mecque, il passait par le col supérieur et en sortait par le col inférieur.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "093a7867-00dd-4f7b-86f3-31b9c516cfe3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1257b",
+      "reference": "Sahih Muslim, hadith 1257 b, book 15, باب اسْتِحْبَابِ دُخُولِ مَكَّةَ مِنَ الثَّنِيَّةِ الْعُلْيَا وَالْخُرُوجِ مِنْهَا مِنَ الثَّنِيَّةِ السُّفْلَى وَدُخُولِ بَلْدَةٍ مِنْ طَرِيقٍ غَيْرِ الَّتِي خَرَجَ مِنْهَا",
+      "title": "باب اسْتِحْبَابِ دُخُولِ مَكَّةَ مِنَ الثَّنِيَّةِ الْعُلْيَا وَالْخُرُوجِ مِنْهَا مِنَ الثَّنِيَّةِ السُّفْلَى وَدُخُولِ بَلْدَةٍ مِنْ طَرِيقٍ غَيْرِ الَّتِي خَرَجَ مِنْهَا",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، بِهَذَا الإِسْنَادِ ‏.‏ وَقَالَ فِي رِوَايَةِ زُهَيْرٍ الْعُلْيَا الَّتِي بِالْبَطْحَاءِ ‏.‏",
+      "source_hash_sha256": "e1e18a869f368fc23eb69bb986ddae3c932d9b5573acfb1aebe40d6fd4e143c0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7e5514ab-54c1-4380-8271-8744dc06854d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1257c",
+      "reference": "Sahih Muslim, hadith 1257 c, book 15, باب التَّعْرِيسِ بِذِي الْحُلَيْفَةِ وَالصَّلاَةِ بِهَا إِذَا صَدَرَ مِنَ الْحَجِّ أَوِ الْعُمْرَةِ ‏‏",
+      "title": "باب التَّعْرِيسِ بِذِي الْحُلَيْفَةِ وَالصَّلاَةِ بِهَا إِذَا صَدَرَ مِنَ الْحَجِّ أَوِ الْعُمْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَنَاخَ بِالْبَطْحَاءِ الَّتِي بِذِي الْحُلَيْفَةِ فَصَلَّى بِهَا ‏.‏ وَكَانَ عَبْدُ اللَّهِ بْنُ عُمَرَ يَفْعَلُ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "a37741db4d50559caa0ffff15bfc213929c18b28f8f7ae45a07b7d4746babcbd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu devant Malik, d’après Nafi, d’après Abd Allah ibn Umar, que le Messager d’Allah ﷺ faisait halte à al-Batha, à Dhu al-Hulayfa, et y priait. Abd Allah ibn Umar faisait de même.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a10de15a-4794-4f9f-be6d-115371071906",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1257d",
+      "reference": "Sahih Muslim, hadith 1257 d, book 15, باب التَّعْرِيسِ بِذِي الْحُلَيْفَةِ وَالصَّلاَةِ بِهَا إِذَا صَدَرَ مِنَ الْحَجِّ أَوِ الْعُمْرَةِ ‏‏",
+      "title": "باب التَّعْرِيسِ بِذِي الْحُلَيْفَةِ وَالصَّلاَةِ بِهَا إِذَا صَدَرَ مِنَ الْحَجِّ أَوِ الْعُمْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رُمْحِ بْنِ الْمُهَاجِرِ الْمِصْرِيُّ، أَخْبَرَنَا اللَّيْثُ، ح وَحَدَّثَنَا قُتَيْبَةُ، - وَاللَّفْظُ لَهُ - قَالَ حَدَّثَنَا لَيْثٌ، عَنْ نَافِعٍ، قَالَ كَانَ ابْنُ عُمَرَ يُنِيخُ بِالْبَطْحَاءِ الَّتِي بِذِي الْحُلَيْفَةِ الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُنِيخُ بِهَا وَيُصَلِّي بِهَا ‏.‏",
+      "source_hash_sha256": "4f60de8b75f03802e4972ba72edb1c610a8bae719e740dde46d5ac4fd1cbe479",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rumh ibn al-Muhajir al-Misri nous a informés : al-Layth nous a rapporté. Qutayba nous a également rapporté — et cette version est la sienne — : Layth nous a rapporté, d’après Nafi, qui a dit : Ibn Umar faisait halte à al-Batha, à Dhu al-Hulayfa, où le Messager d’Allah ﷺ avait l’habitude de faire halte et de prier.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "093a7867-00dd-4f7b-86f3-31b9c516cfe3",
+      "reason": "La source ne donne que des détails supplémentaires sur une variante de transmission et ne reprend pas le récit complet. Garder toute la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    }
+  ]
+}

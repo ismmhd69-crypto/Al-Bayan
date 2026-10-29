@@ -9911,3 +9911,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0556 saves five private French drafts about the number of the Prophet’s Hajj campaigns and omras. Muslim 1253a only refers to a preceding report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1255b–1257d
+
+- FR-LIB-HAD-MUSLIM-0557 saves five private French drafts about umra in Ramadan and the Prophet’s routes into Mecca. Muslim 1257b contains only an additional route detail and remains blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
