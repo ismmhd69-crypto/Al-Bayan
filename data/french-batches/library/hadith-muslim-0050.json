@@ -1,0 +1,46 @@
+{
+  "batch_id": "HADITH-MUSLIM-0050",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:08:15.043Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7f6bfa9c-ec27-4e58-8c4e-a04ae203b2cf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:124b",
+      "reference": "Sahih Muslim, hadith 124 b, book 1, باب صِدْقِ الإِيمَانِ وَإِخْلاَصِهِ ‏‏",
+      "title": "باب صِدْقِ الإِيمَانِ وَإِخْلاَصِهِ ‏‏",
+      "source_published": true,
+      "text_original": "[quran sura=\"31\" aya_start=\"13\" aya_end=\"13\"]يَا بُنَىَّ لاَ تُشْرِكْ بِاللَّهِ إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ‏{‏ حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَلِيُّ بْنُ خَشْرَمٍ، قَالاَ أَخْبَرَنَا عِيسَى، - وَهُوَ ابْنُ يُونُسَ ح وَحَدَّثَنَا مِنْجَابُ بْنُ الْحَارِثِ التَّمِيمِيُّ، أَخْبَرَنَا ابْنُ مُسْهِرٍ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، أَخْبَرَنَا ابْنُ إِدْرِيسَ، كُلُّهُمْ عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ قَالَ أَبُو كُرَيْبٍ قَالَ ابْنُ إِدْرِيسَ حَدَّثَنِيهِ أَوَّلاً أَبِي، عَنْ أَبَانِ بْنِ تَغْلِبَ، عَنِ الأَعْمَشِ، ثُمَّ سَمِعْتُهُ مِنْهُ، ‏.‏",
+      "source_hash_sha256": "160eafd75e64397dacd4c7821f031f9cd1000a36b8a50e9730cf192a58495c40",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit commence par une citation directe du verset 31:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "7f6bfa9c-ec27-4e58-8c4e-a04ae203b2cf",
+      "reason": "Ce récit commence par une citation directe du verset 31:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
