@@ -1,0 +1,140 @@
+{
+  "batch_id": "HADITH-MUSLIM-0221",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:36:29.952Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1690a71c-291b-4383-b563-2458898abadc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:535a",
+      "reference": "Sahih Muslim, hadith 535 a, book 5, باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "title": "باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو كَامِلٍ الْجَحْدَرِيُّ - وَاللَّفْظُ لِقُتَيْبَةَ - قَالاَ حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي يَعْفُورٍ، عَنْ مُصْعَبِ بْنِ سَعْدٍ، قَالَ صَلَّيْتُ إِلَى جَنْبِ أَبِي قَالَ وَجَعَلْتُ يَدَىَّ بَيْنَ رُكْبَتَىَّ فَقَالَ لِي أَبِي اضْرِبْ بِكَفَّيْكَ عَلَى رُكْبَتَيْكَ ‏.‏ قَالَ ثُمَّ فَعَلْتُ ذَلِكَ مَرَّةً أُخْرَى فَضَرَبَ يَدَىَّ وَقَالَ إِنَّا نُهِينَا عَنْ هَذَا وَأُمِرْنَا أَنْ نَضْرِبَ بِالأَكُفِّ عَلَى الرُّكَبِ ‏.‏",
+      "source_hash_sha256": "4a406003c381c4436af7f343db11053278579ffe570d56db3ee274209836ce61",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id et Abu Kamil al-Jahdari nous ont rapporté — la formulation est celle de Qutayba. Ils dirent : Abu Awana nous a rapporté, d’après Abu Ya‘fur, d’après Mus‘ab ibn Sa‘d, qui dit : « Je priais à côté de mon père et plaçai mes mains entre mes genoux. Mon père me dit : “Pose tes paumes sur tes genoux.” » Il dit : « Je fis de nouveau cela. Il me frappa les mains et dit : “Cela nous a été interdit, et il nous a été ordonné de poser les paumes sur les genoux.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b0458630-bcd3-45fa-807f-972f6445b8ac",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:535b",
+      "reference": "Sahih Muslim, hadith 535 b, book 5, باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "title": "باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا خَلَفُ بْنُ هِشَامٍ، حَدَّثَنَا أَبُو الأَحْوَصِ، ح قَالَ وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، كِلاَهُمَا عَنْ أَبِي يَعْفُورٍ، بِهَذَا الإِسْنَادِ إِلَى قَوْلِهِ فَنُهِينَا عَنْهُ ‏.‏ وَلَمْ يَذْكُرَا مَا بَعْدَهُ ‏.‏",
+      "source_hash_sha256": "48a15beef834d4a2b2a6982eda754b7c962b95421554556da16847e1f9ed35a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "31006df7-4192-46d5-abd4-47bb8a9e6f1e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:535c",
+      "reference": "Sahih Muslim, hadith 535 c, book 5, باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "title": "باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، عَنِ الزُّبَيْرِ بْنِ عَدِيٍّ، عَنْ مُصْعَبِ بْنِ سَعْدٍ، قَالَ رَكَعْتُ فَقُلْتُ بِيَدَىَّ هَكَذَا - يَعْنِي طَبَّقَ بِهِمَا وَوَضَعَهُمَا بَيْنَ فَخِذَيْهِ - فَقَالَ أَبِي قَدْ كُنَّا نَفْعَلُ هَذَا ثُمَّ أُمِرْنَا بِالرُّكَبِ ‏.‏",
+      "source_hash_sha256": "bf4fec5d27055a0cb83d8dc06a778182f6a9fa0e1b9451467bad93a81d23df9a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Waki‘ nous a rapporté, d’après Isma‘il ibn Abi Khalid, d’après al-Zubayr ibn Adi, d’après Mus‘ab ibn Sa‘d, qui dit : « Je m’inclinai et plaçai mes mains ainsi — c’est-à-dire que je les joignis et les plaçai entre mes cuisses. » Mon père dit : « Nous faisions cela autrefois, puis il nous fut ordonné de poser les mains sur les genoux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2ed49a6b-9b9b-4c62-bd9b-2c7f02ecfc1b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:535d",
+      "reference": "Sahih Muslim, hadith 535 d, book 5, باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "title": "باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي الْحَكَمُ بْنُ مُوسَى، حَدَّثَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي خَالِدٍ، عَنِ الزُّبَيْرِ بْنِ عَدِيٍّ، عَنِ مُصْعَبِ بْنِ سَعْدِ بْنِ أَبِي وَقَّاصٍ، قَالَ صَلَّيْتُ إِلَى جَنْبِ أَبِي فَلَمَّا رَكَعْتُ شَبَّكْتُ أَصَابِعِي وَجَعَلْتُهُمَا بَيْنَ رُكْبَتَىَّ فَضَرَبَ يَدَىَّ فَلَمَّا صَلَّى قَالَ قَدْ كُنَّا نَفْعَلُ هَذَا ثُمَّ أُمِرْنَا أَنْ نَرْفَعَ إِلَى الرُّكَبِ ‏.‏",
+      "source_hash_sha256": "65547bd39fe5eff60deb5ba68342ac7a6ed62f11c763c0546e9d55d02ee1884d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Hakam ibn Musa m’a rapporté : Isa ibn Yunus nous a rapporté : Isma‘il ibn Abi Khalid nous a rapporté, d’après al-Zubayr ibn Adi, d’après Mus‘ab ibn Sa‘d ibn Abi Waqqas, qui dit : « Je priais à côté de mon père. Lorsque je m’inclinai, je joignis mes doigts et plaçai mes mains entre mes genoux. Il me frappa les mains. Après la prière, il dit : “Nous faisions cela autrefois, puis il nous fut ordonné de poser les mains sur les genoux.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1e74408c-083a-426f-9efe-da3f8a1eb13b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:536",
+      "reference": "Sahih Muslim, hadith 536, book 5, باب جَوَازِ الإِقْعَاءِ عَلَى الْعَقِبَيْنِ ‏",
+      "title": "باب جَوَازِ الإِقْعَاءِ عَلَى الْعَقِبَيْنِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا مُحَمَّدُ بْنُ بَكْرٍ، ح قَالَ وَحَدَّثَنَا حَسَنٌ الْحُلْوَانِيُّ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، - وَتَقَارَبَا فِي اللَّفْظِ - قَالاَ جَمِيعًا أَخْبَرَنَا ابْنُ جُرَيْجٍ أَخْبَرَنِي أَبُو الزُّبَيْرِ أَنَّهُ سَمِعَ طَاوُسًا يَقُولُ قُلْنَا لاِبْنِ عَبَّاسٍ فِي الإِقْعَاءِ عَلَى الْقَدَمَيْنِ فَقَالَ هِيَ السُّنَّةُ ‏.‏ فَقُلْنَا لَهُ إِنَّا لَنَرَاهُ جَفَاءً بِالرَّجُلِ ‏.‏ فَقَالَ ابْنُ عَبَّاسٍ بَلْ هِيَ سُنَّةُ نَبِيِّكَ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "cb8cef44ee974cbe4e8620d09e80c4c62d25e7aafedd2149c77c5063e5883222",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim nous a rapporté : Muhammad ibn Bakr nous a informés. Hasan al-Hulwani nous a également rapporté : Abd al-Razzaq nous a rapporté — leurs formulations étaient proches. Tous deux dirent : Ibn Jurayj nous a informés : Abu al-Zubayr m’a rapporté avoir entendu Tawus dire : « Nous demandâmes à Ibn Abbas au sujet de la position assise sur les talons. Il répondit : “C’est la Sunna.” Nous lui dîmes : “Nous la trouvons pénible pour les pieds.” Ibn Abbas répondit : “Au contraire, c’est la Sunna de ton Prophète ﷺ.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b0458630-bcd3-45fa-807f-972f6445b8ac",
+      "reason": "La source renvoie à l’isnad précédent et ne rapporte que la fin du récit (« nous en fûmes interdits »), sans préciser l’acte dans ce texte. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}

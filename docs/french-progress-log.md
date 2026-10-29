@@ -8226,3 +8226,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0220 saves three private French drafts about Uthman’s mosque rebuilding and Ibn Mas‘ud’s prayer. Muslim 533c, 533e and 534b contain only variant or cross-reference wording and remain blank under Needs Mo. The phrase about delaying prayer was checked against classical Muslim commentary; it describes delaying it beyond its preferred time and narrowing the period toward its end ([commentary](https://www.islamweb.net/ar/library/content/53/1446/%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%86%D8%AF%D8%A8-%D8%A5%D9%84%D9%89-%D9%88%D8%B6%D8%B9-%D8%A7%D9%84%D8%A3%D9%8A%D8%AF%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B1%D9%83%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D9%83%D9%88%D8%B9-%D9%88%D9%86%D8%B3%D8%AE-%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82)). The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 895 Muslim drafts, 7,231 total hadith drafts, 7,398 remaining, and 427 Needs Mo items.
+
+### 2026-10-29: Muslim 535a–536
+
+- FR-LIB-HAD-MUSLIM-0221 saves four private French drafts about hand placement while bowing and sitting on the heels. Muslim 535b contains only a chain and the end of a cross-referenced report, so it remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All five source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 899 Muslim drafts, 7,235 total hadith drafts, 7,394 remaining, and 428 Needs Mo items.
