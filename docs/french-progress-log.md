@@ -7387,3 +7387,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0056 saves 4 private French drafts. Hadiths 138a and 138c directly quote Quran 3:77, so both full translations remain blank and marked Needs Mo pending an approved, attributed French Quran translation with usage permission. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 257 of 7,366. Hadith Needs Mo: 192. Total local hadith rows not drafted: 8,036, including held records.
+
+### 2026-10-29: Muslim 140–142c
+
+- FR-LIB-HAD-MUSLIM-0057 saves 6 private French drafts on defending property and the duty not to betray people under one’s care. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 263 of 7,366. Hadith Needs Mo: 192. Total local hadith rows not drafted: 8,030, including held records.
