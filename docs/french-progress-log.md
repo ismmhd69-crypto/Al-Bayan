@@ -2721,3 +2721,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-561` saves six private French drafts about Ramadan generosity, prayer times, faith, angels, and images in the home.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,908 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 179. Total local hadith rows not drafted: 11,747, including held records.
+
+### 2026-10-29: Bukhari 3226–3231
+
+- `FR-LIB-HAD-BUKHARI-562` saves five private French drafts about angels, prayer, and the Prophet’s visit to at-Ta’if. Bukhari 3230 remains entirely blank because it directly quotes Quran 43:77; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,913 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 180. Total local hadith rows not drafted: 11,742, including held records.
