@@ -852,3 +852,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-168` saves six private French drafts for Bukhari 944–949. They preserve the two groups’ prayer and guard duties, the two versions of the Banu Qurayza instruction, and the reports about Khaybar, brocade and the Eid celebration.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 883 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 44. Total local hadith rows not drafted: 13,746, including held records.
+### 2026-10-29: Bukhari 951–956 source review
+
+- `FR-LIB-HAD-BUKHARI-169` saves six private French drafts for Bukhari 951–956. The translations preserve the Eid prayer and sacrifice order, the story about a special one-time exception for Abu Burda, and Abu Saïd’s account of the sermon being moved before prayer.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 889 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 44. Total local hadith rows not drafted: 13,740, including held records.
