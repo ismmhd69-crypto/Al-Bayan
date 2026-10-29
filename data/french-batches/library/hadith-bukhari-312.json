@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-312",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:57:18.992Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0441da8c-cb6e-4932-a6a2-8671e3b19051",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1810",
+      "reference": "Sahih al-Bukhari, hadith 1810, book 27, باب الإِحْصَارِ فِي الْحَجِّ",
+      "title": "باب الإِحْصَارِ فِي الْحَجِّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا يُونُسُ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي سَالِمٌ، قَالَ كَانَ ابْنُ عُمَرَ ـ رضى الله عنهما ـ يَقُولُ أَلَيْسَ حَسْبُكُمْ سُنَّةَ رَسُولِ اللَّهِ صلى الله عليه وسلم، إِنْ حُبِسَ أَحَدُكُمْ عَنِ الْحَجِّ طَافَ بِالْبَيْتِ وَبِالصَّفَا وَالْمَرْوَةِ، ثُمَّ حَلَّ مِنْ كُلِّ شَىْءٍ، حَتَّى يَحُجَّ عَامًا قَابِلاً، فَيُهْدِي أَوْ يَصُومُ، إِنْ لَمْ يَجِدْ هَدْيًا‏.‏ وَعَنْ عَبْدِ اللَّهِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي سَالِمٌ، عَنِ ابْنِ عُمَرَ، نَحْوَهُ‏.‏",
+      "source_hash_sha256": "93b06594fc882df465201cb63232e27f53d344df1786ae5438c354f12a39413d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sâlim rapporte qu’Ibn ‘Umar disait : « La pratique du Messager d’Allah ne vous suffit-elle pas ? Si l’un de vous est empêché d’accomplir le pèlerinage, qu’il fasse les circumambulations autour de la Maison, puis entre as-Safâ et al-Marwa ; ensuite, tout lui est permis, jusqu’à ce qu’il accomplisse le pèlerinage l’année suivante. Il offrira alors un sacrifice ou jeûnera s’il ne trouve pas d’offrande. » ‘Abd Allâh rapporte, d’après Ma‘mar et az-Zuhrî, que Sâlim lui a transmis d’après Ibn ‘Umar un récit similaire.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "46d7d802-8cde-4682-bfd1-5f6d507d362d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1811",
+      "reference": "Sahih al-Bukhari, hadith 1811, book 27, باب النَّحْرِ قَبْلَ الْحَلْقِ فِي الْحَصْرِ",
+      "title": "باب النَّحْرِ قَبْلَ الْحَلْقِ فِي الْحَصْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَحْمُودٌ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنِ الْمِسْوَرِ ـ رضى الله عنه ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَحَرَ قَبْلَ أَنْ يَحْلِقَ، وَأَمَرَ أَصْحَابَهُ بِذَلِكَ‏.‏",
+      "source_hash_sha256": "649212e85ab969549b14e700dd4677858af0c3a4f3d30a2efc8bda7841f45026",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Miswar rapporte que le Messager d’Allah a sacrifié son offrande avant de se raser la tête, puis qu’il a ordonné à ses compagnons d’en faire autant.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1a717995-9375-4645-8978-a65fb28f6cf7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1812",
+      "reference": "Sahih al-Bukhari, hadith 1812, book 27, باب النَّحْرِ قَبْلَ الْحَلْقِ فِي الْحَصْرِ",
+      "title": "باب النَّحْرِ قَبْلَ الْحَلْقِ فِي الْحَصْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، أَخْبَرَنَا أَبُو بَدْرٍ، شُجَاعُ بْنُ الْوَلِيدِ عَنْ عُمَرَ بْنِ مُحَمَّدٍ الْعُمَرِيِّ، قَالَ وَحَدَّثَ نَافِعٌ، أَنَّ عَبْدَ اللَّهِ، وَسَالِمًا، كَلَّمَا عَبْدَ اللَّهِ بْنَ عُمَرَ ـ رضى الله عنهما ـ فَقَالَ خَرَجْنَا مَعَ النَّبِيِّ صلى الله عليه وسلم مُعْتَمِرِينَ، فَحَالَ كُفَّارُ قُرَيْشٍ دُونَ الْبَيْتِ، فَنَحَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم بُدْنَهُ، وَحَلَقَ رَأْسَهُ‏.‏",
+      "source_hash_sha256": "aab112cd34de4e6109cd4df86971a598d731a97ba318a465dad7be12a2c83c43",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nâfi‘ rapporte que ‘Abd Allâh et Sâlim s’adressèrent à ‘Abd Allâh ibn ‘Umar, qui leur dit : « Nous sommes partis avec le Prophète pour accomplir la ‘umra, mais les Qurayshites mécréants nous ont empêchés d’accéder à la Maison. Le Messager d’Allah a sacrifié ses chamelles et s’est rasé la tête. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6f2a9b74-8877-4789-bea7-9547e0f1c2a6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1813",
+      "reference": "Sahih al-Bukhari, hadith 1813, book 27, باب مَنْ قَالَ لَيْسَ عَلَى الْمُحْصَرِ بَدَلٌ",
+      "title": "باب مَنْ قَالَ لَيْسَ عَلَى الْمُحْصَرِ بَدَلٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ نَافِعٍ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ ـ رضى الله عنهما ـ قَالَ حِينَ خَرَجَ إِلَى مَكَّةَ مُعْتَمِرًا فِي الْفِتْنَةِ إِنْ صُدِدْتُ عَنِ الْبَيْتِ صَنَعْنَا كَمَا صَنَعْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَأَهَلَّ بِعُمْرَةٍ، مِنْ أَجْلِ أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ أَهَلَّ بِعُمْرَةٍ عَامَ الْحُدَيْبِيَةِ، ثُمَّ إِنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ نَظَرَ فِي أَمْرِهِ فَقَالَ مَا أَمْرُهُمَا إِلاَّ وَاحِدٌ‏.‏ فَالْتَفَتَ إِلَى أَصْحَابِهِ فَقَالَ مَا أَمْرُهُمَا إِلاَّ وَاحِدٌ، أُشْهِدُكُمْ أَنِّي قَدْ أَوْجَبْتُ الْحَجَّ مَعَ الْعُمْرَةِ، ثُمَّ طَافَ لَهُمَا طَوَافًا وَاحِدًا، وَرَأَى أَنَّ ذَلِكَ مُجْزِيًا عَنْهُ، وَأَهْدَى‏.‏",
+      "source_hash_sha256": "b16ba500c55986c5f4ea244603ab8721eaac8e46428ec5a292b6aaf1e94831af",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nâfi‘ rapporte que ‘Abd Allâh ibn ‘Umar, lorsqu’il partit pour La Mecque afin d’accomplir la ‘umra pendant les troubles, dit : « Si l’on m’empêche d’accéder à la Maison, nous ferons comme nous l’avons fait avec le Messager d’Allah. » Il entra en état de consécration pour la ‘umra, car le Prophète était entré en état de consécration pour une ‘umra l’année d’al-Hudaybiya. Puis ‘Abd Allâh ibn ‘Umar examina sa situation et dit : « Leur statut est le même. » Il se tourna vers ses compagnons et dit : « Leur statut est le même. Je vous prends à témoin : je m’engage à accomplir le pèlerinage avec la ‘umra. » Il accomplit une seule circumambulation pour les deux, jugea que cela lui suffisait et fit une offrande.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ee9c318c-477c-4c83-958b-3932b814d94f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1814",
+      "reference": "Sahih al-Bukhari, hadith 1814, book 27, بَابُ قَوْلِ اللَّهِ تَعَالَى: {فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ بِهِ أَذًى مِنْ رَأْسِهِ فَفِدْيَةٌ مِنْ صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ بِهِ أَذًى مِنْ رَأْسِهِ فَفِدْيَةٌ مِنْ صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ حُمَيْدِ بْنِ قَيْسٍ، عَنْ مُجَاهِدٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، عَنْ كَعْبِ بْنِ عُجْرَةَ ـ رضى الله عنه ـ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ لَعَلَّكَ آذَاكَ هَوَامُّكَ ‏\"‏‏.‏ قَالَ نَعَمْ يَا رَسُولَ اللَّهِ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ احْلِقْ رَأْسَكَ وَصُمْ ثَلاَثَةَ أَيَّامٍ، أَوْ أَطْعِمْ سِتَّةَ مَسَاكِينَ، أَوِ انْسُكْ بِشَاةٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "8fdcc98f98d0ef8860bd766b244d360c238f9e3b481d2e03688aa3389fa47453",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ka‘b ibn ‘Ujra rapporte que le Messager d’Allah lui dit : « Peut-être que les parasites de ta tête te font souffrir ? » Il répondit : « Oui, Messager d’Allah. » Le Messager d’Allah lui dit alors : « Rase-toi la tête, jeûne trois jours, ou nourris six pauvres, ou offre une brebis en sacrifice. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c62a295f-4c56-4059-86f0-c686eeb290e2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1815",
+      "reference": "Sahih al-Bukhari, hadith 1815, book 27, بَابُ قَوْلِ اللَّهِ تَعَالَى: {أَوْ صَدَقَةٍ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {أَوْ صَدَقَةٍ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سَيْفٌ، قَالَ حَدَّثَنِي مُجَاهِدٌ، قَالَ سَمِعْتُ عَبْدَ الرَّحْمَنِ بْنَ أَبِي لَيْلَى، أَنَّ كَعْبَ بْنَ عُجْرَةَ، حَدَّثَهُ قَالَ وَقَفَ عَلَىَّ رَسُولُ اللَّهِ صلى الله عليه وسلم بِالْحُدَيْبِيَةِ، وَرَأْسِي يَتَهَافَتُ قَمْلاً فَقَالَ ‏\"‏ يُؤْذِيكَ هَوَامُّكَ ‏\"‏‏.‏ قُلْتُ نَعَمْ‏.‏ قَالَ ‏\"‏ فَاحْلِقْ رَأْسَكَ ـ أَوْ قَالَ ـ احْلِقْ ‏\"‏‏.‏ قَالَ فِيَّ نَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"2\" aya_start=\"196\" aya_end=\"196\"]{‏فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ بِهِ أَذًى مِنْ رَأْسِهِ‏}‏ إِلَى آخِرِهَا‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ صُمْ ثَلاَثَةَ أَيَّامٍ، أَوْ تَصَدَّقْ بِفَرَقٍ بَيْنَ سِتَّةٍ، أَوِ انْسُكْ بِمَا تَيَسَّرَ ‏\"‏‏.‏",
+      "source_hash_sha256": "aa7dea47287e1a8fb821c57dcebb599296afdc9a3eab8623db8c81cbfecf4e5b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c62a295f-4c56-4059-86f0-c686eeb290e2",
+      "reason": "This report directly quotes Quran 2:196. Keep it blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
