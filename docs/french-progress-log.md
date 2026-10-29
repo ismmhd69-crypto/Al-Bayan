@@ -3831,3 +3831,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-783` saves five private French drafts. Hadith 4314 remains blank because its wording conflicts on whether the hand injury occurred before or during Hunayn; the hold is recorded for Mo.
 - All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,811 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 315. Total local hadith rows not drafted: 10,846, including held records.
+
+### 2026-10-29: Bukhari 4321–4326
+
+- `FR-LIB-HAD-BUKHARI-784` saves four private French drafts. Hadith 4322 and 4324 remain blank because their source phrases are unclear; both holds are recorded for Mo.
+- All six records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,815 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 317. Total local hadith rows not drafted: 10,842, including held records.
