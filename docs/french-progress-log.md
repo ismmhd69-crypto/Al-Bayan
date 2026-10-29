@@ -10261,3 +10261,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0626 saves four private French drafts about reports of temporary marriage and its prohibition. Muslim 1406c and 1406e provide only cross-references and variant details, so they remain blank under Needs Mo. The reports’ own timing differences are preserved.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1406g–1406l
+
+- FR-LIB-HAD-MUSLIM-0627 saves six private French drafts about reports of temporary marriage and its prohibition. Each report’s date, wording, and narration details are retained in its own source record.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
