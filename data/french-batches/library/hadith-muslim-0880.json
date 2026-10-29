@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0880",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:12:14.894Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f6a2f9b0-cff9-45ea-9639-b634df42ab88",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1856h",
+      "reference": "Sahih Muslim, hadith 1856 h, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ، عُثْمَانُ حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، حَدَّثَنِي سَالِمُ بْنُ أَبِي الْجَعْدِ، قَالَ قُلْتُ لِجَابِرٍ كَمْ كُنْتُمْ يَوْمَئِذٍ قَالَ أَلْفًا وَأَرْبَعَمِائَةٍ ‏.‏",
+      "source_hash_sha256": "97003792edb8cc95213fc2910582da11fb7af6702eb419cde885b0ec9a8ef4d6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Uthmân ibn Abî Shayba et Ishâq ibn Ibrâhîm nous ont rapporté. Ishâq a dit : Jarîr nous a informés ; ‘Uthmân a dit : Jarîr nous a rapporté, d’après al-A‘mash. Sâlim ibn Abî al-Ja‘d m’a rapporté : J’ai demandé à Jâbir : « Combien étiez-vous ce jour-là ? » Il répondit : « Mille quatre cents. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6dd28d13-c30b-42c4-86ee-88c507afabbe",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1857a",
+      "reference": "Sahih Muslim, hadith 1857 a, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرٍو، - يَعْنِي ابْنَ مُرَّةَ - حَدَّثَنِي عَبْدُ اللَّهِ بْنُ أَبِي أَوْفَى، قَالَ كَانَ أَصْحَابُ الشَّجَرَةِ أَلْفًا وَثَلاَثَمِائَةٍ وَكَانَتْ أَسْلَمُ ثُمُنَ الْمُهَاجِرِينَ ‏.‏",
+      "source_hash_sha256": "df69b7e297cd28d0bd199ca2bd22c895db6ff80c109004e7cd09a76275299a6f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allâh ibn Mu‘âdh nous a rapporté : mon père nous a rapporté : Shu‘ba nous a rapporté, d’après ‘Amr — c’est-à-dire Ibn Murra. ‘Abd Allâh ibn Abî Awfâ m’a rapporté : Les Compagnons de l’arbre étaient mille trois cents, et Aslam représentait un huitième des émigrés.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cf84fb93-48ed-4840-9bf9-f1a11415cfd7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1857b",
+      "reference": "Sahih Muslim, hadith 1857 b, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا أَبُو دَاوُدَ، ح وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا النَّضْرُ بْنُ شُمَيْلٍ، جَمِيعًا عَنْ شُعْبَةَ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "193b6dd00b157bb081dc266138e7e74112f0fa29a23475a09099177922853332",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2ebebd48-d7c8-4679-8d2a-c11aad1c5388",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1858a",
+      "reference": "Sahih Muslim, hadith 1858 a, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا يَزِيدُ بْنُ زُرَيْعٍ، عَنْ خَالِدٍ، عَنِ الْحَكَمِ بْنِ عَبْدِ اللَّهِ، بْنِ الأَعْرَجِ عَنْ مَعْقِلِ بْنِ يَسَارٍ، قَالَ لَقَدْ رَأَيْتُنِي يَوْمَ الشَّجَرَةِ وَالنَّبِيُّ صلى الله عليه وسلم يُبَايِعُ النَّاسَ وَأَنَا رَافِعٌ غُصْنًا مِنْ أَغْصَانِهَا عَنْ رَأْسِهِ وَنَحْنُ أَرْبَعَ عَشْرَةَ مِائَةً قَالَ لَمْ نُبَايِعْهُ عَلَى الْمَوْتِ وَلَكِنْ بَايَعْنَاهُ عَلَى أَنْ لاَ نَفِرَّ ‏.‏",
+      "source_hash_sha256": "dc431bb38ea2aef023309673b284d24815fa64a6644ffb5d833b96c0548c323a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ nous a rapporté : Yazîd ibn Zuray‘ nous a informés, d’après Khâlid, d’après al-Hakam ibn ‘Abd Allâh ibn al-A‘raj, d’après Ma‘qil ibn Yasâr, qui a dit : Je me revois le jour de l’arbre, tandis que le Prophète prêtait allégeance aux gens et que je tenais au-dessus de sa tête une branche de cet arbre. Nous étions mille quatre cents. Il dit : Nous ne lui avons pas prêté allégeance en nous engageant à mourir, mais en nous engageant à ne pas fuir.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "625f93f8-532b-49d8-b6b2-05b3fb924bb7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1858b",
+      "reference": "Sahih Muslim, hadith 1858 b, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ يُونُسَ، بِهَذَا الإِسْنَادِ.",
+      "source_hash_sha256": "091a9eacb1c8296fc711acd32a2152c81ae6d403ea1ba9582f729ccaea2699e7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4086b89b-308f-4ed2-8fe7-95f4f1480de2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1859a",
+      "reference": "Sahih Muslim, hadith 1859 a, b, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ حَامِدُ بْنُ عُمَرَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ طَارِقٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، قَالَ كَانَ أَبِي مِمَّنْ بَايَعَ رَسُولَ اللَّهِ صلى الله عليه وسلم عِنْدَ الشَّجَرَةِ ‏.‏ قَالَ فَانْطَلَقْنَا فِي قَابِلٍ حَاجِّينَ فَخَفِيَ عَلَيْنَا مَكَانُهَا فَإِنْ كَانَتْ تَبَيَّنَتْ لَكُمْ فَأَنْتُمْ أَعْلَمُ ‏.‏ وَحَدَّثَنِيهِ مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا أَبُو أَحْمَدَ، قَالَ وَقَرَأْتُهُ عَلَى نَصْرِ بْنِ عَلِيٍّ عَنْ أَبِي أَحْمَدَ، حَدَّثَنَا سُفْيَانُ، عَنْ طَارِقِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِيهِ، أَنَّهُمْ كَانُوا عِنْدَ رَسُولِ اللَّهِ صلى الله عليه وسلم عَامَ الشَّجَرَةِ قَالَ فَنَسُوهَا مِنَ الْعَامِ الْمُقْبِلِ.",
+      "source_hash_sha256": "710a75d21a7f4a049acda4886af9782dd064ef29ebf1718b899184181661379a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hâmid ibn ‘Umar nous l’a rapporté : Abû ‘Awâna nous a rapporté, d’après Târiq, d’après Sa‘îd ibn al-Musayyib, qui a dit : Mon père faisait partie de ceux qui prêtèrent allégeance au Messager d’Allah auprès de l’arbre. Il dit : L’année suivante, nous partîmes accomplir le pèlerinage, mais nous ne parvînmes pas à retrouver l’endroit. Si vous l’avez repéré, vous le connaissez mieux. Muhammad ibn Râfi‘ me l’a également rapporté : Abû Ahmad nous a rapporté. Il dit : Je l’ai lu à Nadr ibn ‘Alî, d’après Abû Ahmad, qui nous a rapporté : Sufyân nous a rapporté, d’après Târiq ibn ‘Abd ar-Rahmân, d’après Sa‘îd ibn al-Musayyib, d’après son père, qui a dit : Nous étions auprès du Messager d’Allah l’année de l’arbre. L’année suivante, nous l’avions oublié.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "cf84fb93-48ed-4840-9bf9-f1a11415cfd7",
+      "url": "https://sunnah.com/muslim:1857b",
+      "reason": "Cette entrée fournit d’autres chaînes puis renvoie au rapport précédent sans reproduire de différence dans son contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "625f93f8-532b-49d8-b6b2-05b3fb924bb7",
+      "url": "https://sunnah.com/muslim:1858b",
+      "reason": "Cette entrée fournit uniquement une chaîne de transmission supplémentaire et renvoie au récit précédent, sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
