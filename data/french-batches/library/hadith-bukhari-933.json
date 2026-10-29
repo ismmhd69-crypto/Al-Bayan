@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-933",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:55:16.321Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "dbff1112-bbad-45f0-9510-e7e0a44a0c7e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5108",
+      "reference": "Sahih al-Bukhari, hadith 5108, book 67, باب لاَ تُنْكَحُ الْمَرْأَةُ عَلَى عَمَّتِهَا",
+      "title": "باب لاَ تُنْكَحُ الْمَرْأَةُ عَلَى عَمَّتِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا عَاصِمٌ، عَنِ الشَّعْبِيِّ، سَمِعَ جَابِرًا، رضى الله عنه قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تُنْكَحَ الْمَرْأَةُ عَلَى عَمَّتِهَا أَوْ خَالَتِهَا‏.‏ وَقَالَ دَاوُدُ وَابْنُ عَوْنٍ عَنِ الشَّعْبِيِّ عَنْ أَبِي هُرَيْرَةَ‏.‏",
+      "source_hash_sha256": "f8b524c505228a37755272bf611a4a1f83580b700db02cec8ab6755d02971b46",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte que le Messager d’Allah interdit d’épouser une femme en même temps que sa tante paternelle ou sa tante maternelle. Dâwûd et Ibn ʿAwn rapportent également cette parole d’après ash-Shaʿbî, qui la tient d’Abû Hurayra.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d6d4c316-0acb-41a8-bce4-93eb55befa97",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5109",
+      "reference": "Sahih al-Bukhari, hadith 5109, book 67, باب لاَ تُنْكَحُ الْمَرْأَةُ عَلَى عَمَّتِهَا",
+      "title": "باب لاَ تُنْكَحُ الْمَرْأَةُ عَلَى عَمَّتِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، رضى الله عنه أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يُجْمَعُ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا، وَلاَ بَيْنَ الْمَرْأَةِ وَخَالَتِهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "4782fb37df25eeaae0c59eed3990e7036659f1d88547b166636672daea193b3c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah (paix et bénédictions sur lui) a dit : « On ne réunit pas une femme et sa tante paternelle, ni une femme et sa tante maternelle, dans un mariage. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6d4aacb1-c444-4a1a-96dd-bfb6055d8b0a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5110",
+      "reference": "Sahih al-Bukhari, hadith 5110, 5111, book 67, باب لاَ تُنْكَحُ الْمَرْأَةُ عَلَى عَمَّتِهَا",
+      "title": "باب لاَ تُنْكَحُ الْمَرْأَةُ عَلَى عَمَّتِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، قَالَ أَخْبَرَنِي يُونُسُ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي قَبِيصَةُ بْنُ ذُؤَيْبٍ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ نَهَى النَّبِيُّ صلى الله عليه وسلم أَنْ تُنْكَحَ الْمَرْأَةُ عَلَى عَمَّتِهَا وَالْمَرْأَةُ وَخَالَتُهَا‏.‏ فَنُرَى خَالَةَ أَبِيهَا بِتِلْكَ الْمَنْزِلَةِ‏.‏ لأَنَّ عُرْوَةَ حَدَّثَنِي عَنْ عَائِشَةَ، قَالَتْ حَرِّمُوا مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ النَّسَبِ‏.‏",
+      "source_hash_sha256": "ee44235105d872f30a53a100f67afa7cd0efee253e7a13836b3e51439eec5e6c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Prophète interdit d’épouser une femme en même temps que sa tante paternelle ou maternelle. Nous considérons que la tante maternelle du père a le même statut. ʿUrwa m’a rapporté d’après ʿÂ’isha qu’elle disait : « Les liens de parenté établis par l’allaitement interdisent ce que ceux du sang interdisent. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e10ccdde-632d-4845-b566-1d2fa89aff81",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5112",
+      "reference": "Sahih al-Bukhari, hadith 5112, book 67, باب الشِّغَارِ",
+      "title": "باب الشِّغَارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الشِّغَارِ، وَالشِّغَارُ أَنْ يُزَوِّجَ الرَّجُلُ ابْنَتَهُ عَلَى أَنْ يُزَوِّجَهُ الآخَرُ ابْنَتَهُ، لَيْسَ بَيْنَهُمَا صَدَاقٌ‏.‏",
+      "source_hash_sha256": "414eebe34f3eff44a1e1c9f4ae6439d3413515246390f34aff865f45f99c91e6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿUmar rapporte que le Messager d’Allah interdit le mariage dit shighâr : un homme donne sa fille en mariage à un autre à condition que celui-ci lui donne sa propre fille en mariage, sans qu’aucune dot ne soit prévue entre eux.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8e3bdb08-30b0-4ddd-8d60-76cc813a79e3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5113",
+      "reference": "Sahih al-Bukhari, hadith 5113, book 67, باب هَلْ لِلْمَرْأَةِ أَنْ تَهَبَ نَفْسَهَا لأَحَدٍ",
+      "title": "باب هَلْ لِلْمَرْأَةِ أَنْ تَهَبَ نَفْسَهَا لأَحَدٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، حَدَّثَنَا ابْنُ فُضَيْلٍ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، قَالَ كَانَتْ خَوْلَةُ بِنْتُ حَكِيمٍ مِنَ اللاَّئِي وَهَبْنَ أَنْفُسَهُنَّ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَتْ عَائِشَةُ أَمَا تَسْتَحِي الْمَرْأَةُ أَنْ تَهَبَ نَفْسَهَا لِلرَّجُلِ فَلَمَّا نَزَلَتْ [quran sura=\"33\" aya_start=\"51\" aya_end=\"51\"]‏{‏تُرْجِئُ مَنْ تَشَاءُ مِنْهُنَّ‏}‏ قُلْتُ يَا رَسُولَ اللَّهِ مَا أَرَى رَبَّكَ إِلاَّ يُسَارِعُ فِي هَوَاكَ‏.‏ رَوَاهُ أَبُو سَعِيدٍ الْمُؤَدِّبُ وَمُحَمَّدُ بْنُ بِشْرٍ وَعَبْدَةُ عَنْ هِشَامٍ عَنْ أَبِيهِ عَنْ عَائِشَةَ يَزِيدُ بَعْضُهُمْ عَلَى بَعْضٍ‏.‏",
+      "source_hash_sha256": "7211b4c9ddef282ff0624a6516a90d3f9290916a6e1966eccfa97b38fe57c6cf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e43fbe8d-f731-463d-bcab-db9ab7daba5a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5114",
+      "reference": "Sahih al-Bukhari, hadith 5114, book 67, باب نِكَاحِ الْمُحْرِمِ",
+      "title": "باب نِكَاحِ الْمُحْرِمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَالِكُ بْنُ إِسْمَاعِيلَ، أَخْبَرَنَا ابْنُ عُيَيْنَةَ، أَخْبَرَنَا عَمْرٌو، حَدَّثَنَا جَابِرُ بْنُ زَيْدٍ، قَالَ أَنْبَأَنَا ابْنُ عَبَّاسٍ ـ رضى الله عنهما ـ تَزَوَّجَ النَّبِيُّ صلى الله عليه وسلم وَهْوَ مُحْرِمٌ‏.‏",
+      "source_hash_sha256": "ff739665b6833d87b410cb221e2f8a0a788aedffcfddc23876f51bac3983c585",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbâs rapporte que le Prophète se maria alors qu’il était en état de sacralisation.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "8e3bdb08-30b0-4ddd-8d60-76cc813a79e3",
+      "url": "https://sunnah.com/bukhari:5113",
+      "reason": "Le rapport cite directement Quran 33:51. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-933, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
