@@ -9036,3 +9036,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0381 saves four private French drafts about raising the hands in the rain prayer and a request for rain during Friday sermons. Muslim 896 and 897b are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1514 Muslim drafts, 7850 total hadith drafts, 6779 remaining, and 716 Needs Mo items.
+
+### 2026-10-29: Muslim 897c–899b
+
+- FR-LIB-HAD-MUSLIM-0382 saves two private French drafts about rain touching the Prophet’s garment and his response to rain clouds. Muslim 897c, 897d and 897e are incomplete variants; 899b quotes Quran directly. All four remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1516 Muslim drafts, 7852 total hadith drafts, 6777 remaining, and 720 Needs Mo items.
