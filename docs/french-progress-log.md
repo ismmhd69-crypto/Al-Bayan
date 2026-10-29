@@ -11434,3 +11434,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1833b-1835d
 
 - FR-LIB-HAD-MUSLIM-0868 saves two private French drafts about obedience to the Messenger and appointed officials, preserving a wording difference. The Quran-quoting report and three chain-only cross-references remain entirely blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1835e-1837b
+
+- FR-LIB-HAD-MUSLIM-0869 saves four private French drafts: the report’s “the emir” wording variant, guidance on obedience in varying circumstances, and two reports about the recommendation to listen and obey, including a distinct Abyssinian wording variant. Two chain-only references remain blank under Needs Mo with specific reasons. No database write or publication occurred.
