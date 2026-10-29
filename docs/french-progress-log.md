@@ -11766,3 +11766,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2013a-2016
 
 - FR-LIB-HAD-MUSLIM-0951 saves four complete private French drafts about keeping children and animals in at dusk, covering vessels, and extinguishing fires. Two reports that refer back to prior wording remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2017a-2019
+
+- FR-LIB-HAD-MUSLIM-0952 saves three complete private French drafts about beginning meals in Allah’s name, household entry, and eating with the right hand. Three entries that refer back to a prior report or give wording variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
