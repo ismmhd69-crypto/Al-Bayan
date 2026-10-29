@@ -10836,3 +10836,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0741 saves four private French drafts about exchanges of gold and silver and a gold necklace from the Khaybar spoils. Muslim 1590b and 1591c only refer to preceding reports and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1591e–1594b
+
+- FR-LIB-HAD-MUSLIM-0742 saves six private French drafts on exchanging precious metals and different grades of dates or grain. All six entries contain a complete report.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
