@@ -8066,3 +8066,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0188 saves two private French drafts: the report of Ibn Mas‘ud and the jinn, and his short statement wishing he had been present. Muslim 448b and 449 quote Quran passages and remain blank pending an approved, attributed French Quran translation with permitted use. Muslim 450b and 450c are incomplete variants and remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 765 Muslim drafts, 7,101 total hadith drafts, 7,528 remaining, and 370 Needs Mo items.
+
+### 2026-10-29: Muslim 450e–453
+
+- FR-LIB-HAD-MUSLIM-0189 saves six private French drafts covering who informed the Prophet ﷺ about the jinn, recitation in the noon and afternoon prayers, and Sa‘d’s response to the complaint about his prayer. All six sources include report wording and were translated in full.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 771 Muslim drafts, 7,107 total hadith drafts, 7,522 remaining, and 370 Needs Mo items.
