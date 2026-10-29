@@ -18594,6 +18594,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-863",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-863.json",
+      "sourceIds": [
+        "00cecac5-09dd-4ea1-894d-8e38037820f6",
+        "5a20da50-df46-428b-90e7-24461f88fc1a",
+        "9209a98f-dadf-4c37-b8ca-f891f1ad4aeb",
+        "1f230919-71ef-4c7f-b7b1-486c86e162f6",
+        "ba545320-c892-4724-bed7-be8e23f7f6be",
+        "5a2387a6-4c03-4d7d-91e2-e84cb255031e"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -20168,9 +20189,27 @@
       "scope": "Sahih al-Bukhari 4733: direct Quran quotation from 19:77-80",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 19:77-80. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-862, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4734-QURAN-19-77-80",
+      "scope": "Sahih al-Bukhari 4734: direct Quran quotation from 19:77-80",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 19:77-80. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-863, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4735-QURAN-19-77-80",
+      "scope": "Sahih al-Bukhari 4735: direct Quran quotation from 19:77-80",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 19:77-80. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-863, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4739-QURAN-21-92-21-19-21-80-21-13",
+      "scope": "Sahih al-Bukhari 4739: direct Quran quotation from 21:92, 21:19, 21:80, 21:13",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 21:92, 21:19, 21:80, 21:13. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-863, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4017,
-  "hadithLocalDrafted": 4017,
-  "hadithLocalRemaining": 10650
+  "hadithBukhariDrafted": 4020,
+  "hadithLocalDrafted": 4020,
+  "hadithLocalRemaining": 10647
 }
