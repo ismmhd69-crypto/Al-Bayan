@@ -20978,6 +20978,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-980",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-980.json",
+      "sourceIds": [
+        "f441fd73-021d-499e-afff-4b847ad36e4c",
+        "4a02251a-34a6-4593-aaab-e56cfc2a9c41",
+        "ff4c1d1a-370a-4a12-be24-cebf18879b63",
+        "2856a9a2-ab45-45ef-af9f-4042c782e05d",
+        "9e515e21-38ab-4f80-847a-099094548b3f",
+        "288deeb1-7342-48f2-8d43-54c40810e221"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -23970,7 +23991,7 @@
       "reason": "The report directly quotes Quran 59:6. Keep the complete translation blank pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 4406,
-  "hadithLocalDrafted": 4406,
-  "hadithLocalRemaining": 10261
+  "hadithBukhariDrafted": 4412,
+  "hadithLocalDrafted": 4412,
+  "hadithLocalRemaining": 10255
 }
