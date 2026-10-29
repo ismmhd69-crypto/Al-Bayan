@@ -35714,6 +35714,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0324",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0324.json",
+      "sourceIds": [
+        "0aa2560d-aa06-4ca8-92fa-9b9ead064ab2",
+        "8ab7277a-2f00-47c7-ab50-cd7cca3e3384",
+        "fcc2503a-d091-41d5-8f5c-b71dad20cc56",
+        "484a22f3-6615-4d24-a501-55774124f9e7",
+        "4c484768-ea2c-4043-a97b-80fb119910d7",
+        "c05254e9-acd5-41f8-8c3b-d38d3ce33b8e"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40021,8 +40042,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7625,
-  "hadithLocalRemaining": 7004,
+  "hadithLocalDrafted": 7629,
+  "hadithLocalRemaining": 7000,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42213,10 +42234,22 @@
       "scope": "Sahih Muslim 746d: summarized narrative variant",
       "status": "blocked",
       "reason": "La source résume le récit précédent et ajoute des précisions sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du récit intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0324-749E-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 749e: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent sans reprendre le contenu complet, puis donne uniquement une précision sur la suite du dialogue. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0324-749H-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 749h: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent et n’ajoute que quelques détails, sans reprendre son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1289,
+  "hadithMuslimDrafted": 1293,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 601
+  "hadithNeedsMo": 603
 }

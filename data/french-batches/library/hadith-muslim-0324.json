@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0324",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:18:24.530Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0aa2560d-aa06-4ca8-92fa-9b9ead064ab2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:749e",
+      "reference": "Sahih Muslim, hadith 749 e, book 6, باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "title": "باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو كَامِلٍ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا أَيُّوبُ، وَبُدَيْلٌ، وَعِمْرَانُ بْنُ حُدَيْرٍ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، عَنِ ابْنِ عُمَرَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدٍ الْغُبَرِيُّ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا أَيُّوبُ، وَالزُّبَيْرُ بْنُ الْخِرِّيتِ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، عَنِ ابْنِ عُمَرَ، قَالَ سَأَلَ رَجُلٌ النَّبِيَّ صلى الله عليه وسلم ‏.‏ فَذَكَرَا بِمِثْلِهِ وَلَيْسَ فِي حَدِيثِهِمَا ثُمَّ سَأَلَهُ رَجُلٌ عَلَى رَأْسِ الْحَوْلِ وَمَا بَعْدَهُ ‏.‏",
+      "source_hash_sha256": "5b03f6b32d4a989bd416496133a739b44a6af492d25ab4a4c02b0cc092ee94b7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8ab7277a-2f00-47c7-ab50-cd7cca3e3384",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:749f",
+      "reference": "Sahih Muslim, hadith 749 f, book 6, باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "title": "باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الْوَلِيدِ بْنِ كَثِيرٍ، قَالَ حَدَّثَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ ابْنَ عُمَرَ، حَدَّثَهُمْ أَنَّ رَجُلاً نَادَى رَسُولَ اللَّهِ صلى الله عليه وسلم وَهُوَ فِي الْمَسْجِدِ فَقَالَ يَا رَسُولَ اللَّهِ كَيْفَ أُوتِرُ صَلاَةَ اللَّيْلِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ صَلَّى فَلْيُصَلِّ مَثْنَى مَثْنَى فَإِنْ أَحَسَّ أَنْ يُصْبِحَ سَجَدَ سَجْدَةً فَأَوْتَرَتْ لَهُ مَا صَلَّى ‏\"‏ ‏.‏ قَالَ أَبُو كُرَيْبٍ عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ ‏.‏ وَلَمْ يَقُلِ ابْنِ عُمَرَ ‏.‏",
+      "source_hash_sha256": "956eab16c5972c512cb369ee235bf2bd2619b4e9509613be82556372a4a8bcc2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kurayb et Harun ibn ‘Abd Allah nous ont rapporté : Abu Usama nous a rapporté, d’après al-Walid ibn Kathir, qui dit : ‘Ubayd Allah ibn ‘Abd Allah ibn ‘Umar m’a rapporté qu’Ibn ‘Umar leur avait rapporté qu’un homme interpella le Messager d’Allah ﷺ alors qu’il se trouvait dans la mosquée et lui demanda : « Messager d’Allah, comment accomplir le witr de la prière nocturne ? » Le Messager d’Allah ﷺ répondit : « Que celui qui prie le fasse deux unités par deux. S’il sent que l’aube va paraître, qu’il accomplisse une unité, qui rendra impaires les prières qu’il a faites. » Abu Kurayb précisa : ‘Ubayd Allah ibn ‘Abd Allah — sans mentionner Ibn ‘Umar.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fcc2503a-d091-41d5-8f5c-b71dad20cc56",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:749g",
+      "reference": "Sahih Muslim, hadith 749 g, book 6, باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "title": "باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا خَلَفُ بْنُ هِشَامٍ، وَأَبُو كَامِلٍ قَالاَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَنَسِ بْنِ سِيرِينَ، قَالَ سَأَلْتُ ابْنَ عُمَرَ قُلْتُ أَرَأَيْتَ الرَّكْعَتَيْنِ قَبْلَ صَلاَةِ الْغَدَاةِ أَأُطِيلُ فِيهِمَا الْقِرَاءَةَ قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي مِنَ اللَّيْلِ مَثْنَى مَثْنَى وَيُوتِرُ بِرَكْعَةٍ - قَالَ - قُلْتُ إِنِّي لَسْتُ عَنْ هَذَا أَسْأَلُكَ ‏.‏ قَالَ إِنَّكَ لَضَخْمٌ أَلاَ تَدَعُنِي أَسْتَقْرِئُ لَكَ الْحَدِيثَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي مِنَ اللَّيْلِ مَثْنَى مَثْنَى وَيُوتِرُ بِرَكْعَةٍ وَيُصَلِّي رَكْعَتَيْنِ قَبْلَ الْغَدَاةِ كَأَنَّ الأَذَانَ بِأُذُنَيْهِ ‏.‏ قَالَ خَلَفٌ أَرَأَيْتَ الرَّكْعَتَيْنِ قَبْلَ الْغَدَاةِ وَلَمْ يَذْكُرْ صَلاَةِ ‏.‏",
+      "source_hash_sha256": "f0c637c801bbd1fb4e49ecc12b6c37aff968c9248f90b1ee9f82ec27d77f7d15",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Khalaf ibn Hisham et Abu Kamil nous ont rapporté : Hammad ibn Zayd nous a rapporté, d’après Anas ibn Sirin. Il dit : J’interrogeai Ibn ‘Umar : « Que penses-tu des deux unités avant la prière du matin ? Dois-je y prolonger la récitation ? » Il répondit : « Le Messager d’Allah ﷺ priait la nuit deux unités par deux et terminait par une unité de witr. » Je dis : « Ce n’est pas cela que je te demande. » Il répondit : « Tu es vraiment imposant ! Laisse-moi donc te rapporter le récit jusqu’au bout. Le Messager d’Allah ﷺ priait la nuit deux unités par deux, terminait par une unité de witr et accomplissait deux unités avant la prière du matin, comme si l’appel à la prière résonnait déjà à ses oreilles. » Khalaf précisa qu’il dit : « les deux unités avant la prière du matin », sans ajouter « prière ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "484a22f3-6615-4d24-a501-55774124f9e7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:749h",
+      "reference": "Sahih Muslim, hadith 749 h, book 6, باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "title": "باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ أَنَسِ بْنِ سِيرِينَ، قَالَ سَأَلْتُ ابْنَ عُمَرَ ‏.‏ بِمِثْلِهِ وَزَادَ وَيُوتِرُ بِرَكْعَةٍ مِنْ آخِرِ اللَّيْلِ ‏.‏ وَفِيهِ فَقَالَ بَهْ بَهْ إِنَّكَ لَضَخْمٌ ‏.‏",
+      "source_hash_sha256": "a6507533f33defb2717d31ebcf59d01fce5136481553b94b2e6eab555b2fa5ac",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4c484768-ea2c-4043-a97b-80fb119910d7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:749i",
+      "reference": "Sahih Muslim, hadith 749 i, book 6, باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "title": "باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ عُقْبَةَ بْنَ حُرَيْثٍ، قَالَ سَمِعْتُ ابْنَ عُمَرَ، يُحَدِّثُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى فَإِذَا رَأَيْتَ أَنَّ الصُّبْحَ يُدْرِكُكَ فَأَوْتِرْ بِوَاحِدَةٍ ‏\"‏ ‏.‏ فَقِيلَ لاِبْنِ عُمَرَ مَا مَثْنَى مَثْنَى قَالَ أَنْ يُسَلِّمَ فِي كُلِّ رَكْعَتَيْنِ ‏.‏",
+      "source_hash_sha256": "3c60ed2dfa149ffa6d1267a4fe276c8dbbe9472290165a274ad316cf30e53ab2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté. Il dit : J’ai entendu ‘Uqba ibn Hurayth dire : J’ai entendu Ibn ‘Umar rapporter que le Messager d’Allah ﷺ avait dit : « La prière nocturne s’accomplit deux unités par deux. Lorsque tu vois que l’aube va te rattraper, termine par une unité de witr. » On demanda à Ibn ‘Umar ce que signifiait « deux unités par deux ». Il répondit : « Prononcer la salutation finale toutes les deux unités. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c05254e9-acd5-41f8-8c3b-d38d3ce33b8e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:750",
+      "reference": "Sahih Muslim, hadith 750, book 6, باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "title": "باب صَلاَةُ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا هَارُونُ بْنُ مَعْرُوفٍ، وَسُرَيْجُ بْنُ يُونُسَ، وَأَبُو كُرَيْبٍ جَمِيعًا عَنِ ابْنِ أَبِي زَائِدَةَ، - قَالَ هَارُونُ حَدَّثَنَا ابْنُ أَبِي زَائِدَةَ، - أَخْبَرَنِي عَاصِمٌ الأَحْوَلُ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، عَنِ ابْنِ عُمَرَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ بَادِرُوا الصُّبْحَ بِالْوِتْرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "20c196b77bb6eb6ada89e93b289a11b71e7e5e8fc048974b9bf725f3c546ddbe",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Ma‘ruf, Surayj ibn Yunus et Abu Kurayb nous ont rapporté, tous d’après Ibn Abi Za’ida. Harun dit : Ibn Abi Za’ida nous a rapporté : ‘Asim al-Ahwal m’a informé, d’après ‘Abd Allah ibn Shaqiq, d’après Ibn ‘Umar, que le Prophète ﷺ avait dit : « Hâtez-vous d’accomplir le witr avant l’aube. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0aa2560d-aa06-4ca8-92fa-9b9ead064ab2",
+      "reason": "La source renvoie au récit précédent sans reprendre le contenu complet, puis donne uniquement une précision sur la suite du dialogue. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
+    },
+    {
+      "source_id": "484a22f3-6615-4d24-a501-55774124f9e7",
+      "reason": "La source renvoie au récit précédent et n’ajoute que quelques détails, sans reprendre son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
