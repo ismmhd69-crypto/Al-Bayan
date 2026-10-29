@@ -3216,3 +3216,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-660` saves six private French drafts about Sa‘d, Fâtima and Usâma.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,324 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 243. Total local hadith rows not drafted: 11,333, including held records.
+
+### 2026-10-29: Bukhari 3734–3741
+
+- `FR-LIB-HAD-BUKHARI-661` saves six private French drafts about Usâma, Ibn ‘Umar and their families. The local source for Bukhari 3737 was checked against the published Arabic report to clarify its final note.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,330 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 243. Total local hadith rows not drafted: 11,327, including held records.

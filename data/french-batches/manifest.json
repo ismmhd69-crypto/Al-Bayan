@@ -14609,6 +14609,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+{
+      "id": "FR-LIB-HAD-BUKHARI-661",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-661.json",
+      "sourceIds": [
+        "77b0d1aa-3fb1-4fab-a3b6-5ab47c254723",
+        "a23aeccf-df04-4adc-a385-6eee41f1da69",
+        "85a6b24b-4f4b-4942-bd5f-03779b59d829",
+        "f4e3c6d0-480a-43d5-be84-5ee2ff4fa896",
+        "8e3fe9a3-bad8-4055-b5be-67c289d5df20",
+        "4bc688b9-da43-47e0-a518-9a5209dbcea4"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -14721,7 +14742,7 @@
     "status": "blocked",
     "reason": "The local record appends this incomplete phrase after the report without enough context to establish its intended meaning or attribution. The full record remains blank in FR-LIB-HAD-BUKHARI-652 pending confirmation."
   }  ],
-  "hadithBukhariDrafted": 3324,
-  "hadithLocalDrafted": 3324,
-  "hadithLocalRemaining": 11333
+  "hadithBukhariDrafted": 3330,
+  "hadithLocalDrafted": 3330,
+  "hadithLocalRemaining": 11327
 }
