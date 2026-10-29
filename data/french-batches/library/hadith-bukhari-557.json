@@ -1,0 +1,68 @@
+{
+  "batch_id": "HADITH-BUKHARI-557",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:48:50.524Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "125591da-bfc5-4c6b-bca8-9179757de037",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3205",
+      "reference": "Sahih al-Bukhari, hadith 3205, book 59, باب مَا جَاءَ فِي قَوْلِهِ: {وَهْوَ الَّذِي أَرْسَلَ الرِّيَاحَ نُشُرًا بَيْنَ يَدَيْ رَحْمَتِهِ}",
+      "title": "باب مَا جَاءَ فِي قَوْلِهِ: {وَهْوَ الَّذِي أَرْسَلَ الرِّيَاحَ نُشُرًا بَيْنَ يَدَيْ رَحْمَتِهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، عَنِ الْحَكَمِ، عَنْ مُجَاهِدٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ نُصِرْتُ بِالصَّبَا، وَأُهْلِكَتْ عَادٌ بِالدَّبُورِ ‏\"‏‏.‏",
+      "source_hash_sha256": "b385b14840acf16d6f72f3565385905bcca5bbd5fdca65f5a50aac0a617dec6d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Âdam, Shu‘ba, al-Hakam, Mujâhid et Ibn ‘Abbâs. Le Prophète dit : « J’ai été secouru par le vent d’est, tandis que le peuple de ‘Âd fut détruit par le vent d’ouest. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "63a81e55-8b24-419a-998b-c18e948e11f7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3206",
+      "reference": "Sahih al-Bukhari, hadith 3206, book 59, باب مَا جَاءَ فِي قَوْلِهِ: {وَهْوَ الَّذِي أَرْسَلَ الرِّيَاحَ نُشُرًا بَيْنَ يَدَيْ رَحْمَتِهِ}",
+      "title": "باب مَا جَاءَ فِي قَوْلِهِ: {وَهْوَ الَّذِي أَرْسَلَ الرِّيَاحَ نُشُرًا بَيْنَ يَدَيْ رَحْمَتِهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَكِّيُّ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا ابْنُ جُرَيْجٍ، عَنْ عَطَاءٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ النَّبِيُّ صلى الله عليه وسلم إِذَا رَأَى مَخِيلَةً فِي السَّمَاءِ أَقْبَلَ وَأَدْبَرَ وَدَخَلَ وَخَرَجَ وَتَغَيَّرَ وَجْهُهُ، فَإِذَا أَمْطَرَتِ السَّمَاءُ سُرِّيَ عَنْهُ، فَعَرَّفَتْهُ عَائِشَةُ ذَلِكَ، فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَا أَدْرِي لَعَلَّهُ كَمَا قَالَ قَوْمٌ ‏[quran sura=\"46\" aya_start=\"24\" aya_end=\"24\"]{‏فَلَمَّا رَأَوْهُ عَارِضًا مُسْتَقْبِلَ أَوْدِيَتِهِمْ‏}‏ ‏\"‏‏.‏ الآيَةَ‏.‏",
+      "source_hash_sha256": "6a11375df88973b2666f22e18c104dd18bfaf8af12b5e3c2a9d365b546c0177e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "63a81e55-8b24-419a-998b-c18e948e11f7",
+      "reason": "This report quotes Quran 46:24 in the Prophet’s statement. Keep the full hadith blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
