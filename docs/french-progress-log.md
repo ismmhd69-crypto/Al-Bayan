@@ -9416,3 +9416,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0457 saves five private French drafts concerning the Khawarij and one report about charity. Muslim 1068b gives only a chain and a brief variant, so it remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1069b–1071b
+
+- FR-LIB-HAD-MUSLIM-0458 saves four private French drafts about avoiding charity and doubtful dates. Muslim 1069b and 1069c contain only wording variants cross-referenced to the preceding report and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
