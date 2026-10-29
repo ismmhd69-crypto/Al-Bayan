@@ -17850,6 +17850,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-825",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-825.json",
+      "sourceIds": [
+        "e70ba04d-8d2a-4b63-a525-b3e879106033",
+        "607d0d81-0845-490f-b02b-c0bb5829b192",
+        "54dc9b19-7e5e-47ea-a2fc-fddf87a2057b",
+        "6762cd35-d5c8-4b5a-a367-59614e2fe67d",
+        "cd86fc4a-b989-4210-a6ea-86ab8586ab83",
+        "a1e410fc-9f0a-429e-b5ab-eb9503afc6bc"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18710,9 +18731,27 @@
       "scope": "Sahih al-Bukhari 4559: direct Quran wording including Quran 3:128",
       "status": "blocked",
       "reason": "Le rapport inclut une citation directe partielle de Quran 3:128. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-824, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4560-QURAN-3-128",
+      "scope": "Sahih al-Bukhari 4560: direct Quranic wording from 3:128",
+      "status": "blocked",
+      "reason": "Le rapport cite directement une partie de Quran 3:128, en mentionnant aussi la révélation du verset. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-825, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4563-QURAN-3-173",
+      "scope": "Sahih al-Bukhari 4563: direct quotation of Quran 3:173",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:173. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-825, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4565-QURAN-3-180",
+      "scope": "Sahih al-Bukhari 4565: direct quotation of Quran 3:180",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:180. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-825, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3963,
-  "hadithLocalDrafted": 3963,
-  "hadithLocalRemaining": 10694
+  "hadithBukhariDrafted": 3966,
+  "hadithLocalDrafted": 3966,
+  "hadithLocalRemaining": 10691
 }
