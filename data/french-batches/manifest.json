@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:16:21.609Z",
+  "lastReconciled": "2026-10-29T14:16:43.361Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 314,
+    "hadithMuslimDrafted": 316,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6650,
-    "hadithDatabaseMissing": 7979,
-    "hadithLocalRemaining": 7979,
-    "hadithNeedsMo": 202,
+    "hadithLocalDrafted": 6652,
+    "hadithDatabaseMissing": 7977,
+    "hadithLocalRemaining": 7977,
+    "hadithNeedsMo": 206,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30507,6 +30507,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "blocked"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0069",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0069.json",
+      "sourceIds": [
+        "fff94414-24f0-46ff-986e-2d7e7ffed2e5",
+        "d86e50bf-b754-46c9-84ee-a09de6b27606",
+        "cfe4bf31-993f-4208-a1a2-434db7d199ed",
+        "c7b3397a-094b-4dcd-a33a-c90d3fb28463",
+        "d1c3a30d-d9f7-464a-be67-42028d406820",
+        "eff8558e-1794-4d9b-8e35-b5e936303dfc"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotations held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34577,11 +34598,35 @@
       "scope": "Sahih Muslim 160 a: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce long récit cite directement les versets 96:1–5 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-161A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 161a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 74:1–5 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-161B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 161b: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite une parole coranique, « Ô toi qui es enveloppé », et précise que « al-rujz » désigne les idoles. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-161C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 161c: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le passage 74:1–5 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-161D-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 161d: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 74:1–4 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6650,
-  "hadithLocalRemaining": 7979,
+  "hadithLocalDrafted": 6652,
+  "hadithLocalRemaining": 7977,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -35794,10 +35839,34 @@
       "scope": "Sahih Muslim 160 a: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce long récit cite directement les versets 96:1–5 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-161A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 161a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 74:1–5 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-161B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 161b: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite une parole coranique, « Ô toi qui es enveloppé », et précise que « al-rujz » désigne les idoles. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-161C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 161c: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le passage 74:1–5 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-161D-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 161d: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 74:1–4 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 314,
-  "hadithDatabaseMissing": 7979,
+  "hadithMuslimDrafted": 316,
+  "hadithDatabaseMissing": 7977,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 202
+  "hadithNeedsMo": 206
 }
