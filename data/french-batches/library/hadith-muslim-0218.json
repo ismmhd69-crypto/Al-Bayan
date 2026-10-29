@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0218",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:34:39.327Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "46a96a56-2153-461e-bff1-b01af4bcd4ca",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:526b",
+      "reference": "Sahih Muslim, hadith 526 b, book 5, باب تَحْوِيلِ الْقِبْلَةِ مِنَ الْقُدْسِ إِلَى الْكَعْبَةِ ‏",
+      "title": "باب تَحْوِيلِ الْقِبْلَةِ مِنَ الْقُدْسِ إِلَى الْكَعْبَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنِي حَفْصُ بْنُ مَيْسَرَةَ، عَنْ مُوسَى بْنِ عُقْبَةَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، وَعَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنِ ابْنِ عُمَرَ، قَالَ بَيْنَمَا النَّاسُ فِي صَلاَةِ الْغَدَاةِ إِذْ جَاءَهُمْ رَجُلٌ ‏.‏ بِمِثْلِ حَدِيثِ مَالِكٍ ‏.‏",
+      "source_hash_sha256": "056d1d6906e565b26d60f5e9feb38db84d5c175430f7717fd497953f6d5ad2ff",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "72f037ad-74fb-4c77-a5b1-ea8ef28953c0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:527",
+      "reference": "Sahih Muslim, hadith 527, book 5, باب تَحْوِيلِ الْقِبْلَةِ مِنَ الْقُدْسِ إِلَى الْكَعْبَةِ ‏",
+      "title": "باب تَحْوِيلِ الْقِبْلَةِ مِنَ الْقُدْسِ إِلَى الْكَعْبَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَفَّانُ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يُصَلِّي نَحْوَ بَيْتِ الْمَقْدِسِ فَنَزَلَتْ ‏[quran sura=\"2\" aya_start=\"144\" aya_end=\"144\"]{‏ قَدْ نَرَى تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ‏}‏ فَمَرَّ رَجُلٌ مِنْ بَنِي سَلِمَةَ وَهُمْ رُكُوعٌ فِي صَلاَةِ الْفَجْرِ وَقَدْ صَلَّوْا رَكْعَةً فَنَادَى أَلاَ إِنَّ الْقِبْلَةَ قَدْ حُوِّلَتْ ‏.‏ فَمَالُوا كَمَا هُمْ نَحْوَ الْقِبْلَةِ ‏.‏",
+      "source_hash_sha256": "c8af250b8158c6997cd17d6fc1ecce128fb96b25f577bf42952dd972ca9bd26b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "98c4f75d-680f-4dc0-b540-eede146dcb3d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:528a",
+      "reference": "Sahih Muslim, hadith 528 a, book 5, باب النَّهْيِ عَنْ بِنَاءِ الْمَسَاجِدِ عَلَى الْقُبُورِ وَاتِّخَاذِ الصُّوَرِ فِيهَا وَالنَّهْيِ عَنِ اتِّخَاذِ الْقُبُورِ مَسَاجِدَ",
+      "title": "باب النَّهْيِ عَنْ بِنَاءِ الْمَسَاجِدِ عَلَى الْقُبُورِ وَاتِّخَاذِ الصُّوَرِ فِيهَا وَالنَّهْيِ عَنِ اتِّخَاذِ الْقُبُورِ مَسَاجِدَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا هِشَامٌ، أَخْبَرَنِي أَبِي، عَنْ عَائِشَةَ، أَنَّ أُمَّ حَبِيبَةَ، وَأُمَّ سَلَمَةَ ذَكَرَتَا كَنِيسَةً رَأَيْنَهَا بِالْحَبَشَةِ - فِيهَا تَصَاوِيرُ - لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ أُولَئِكِ إِذَا كَانَ فِيهِمُ الرَّجُلُ الصَّالِحُ فَمَاتَ بَنَوْا عَلَى قَبْرِهِ مَسْجِدًا وَصَوَّرُوا فِيهِ تِلْكَ الصُّوَرَ أُولَئِكِ شِرَارُ الْخَلْقِ عِنْدَ اللَّهِ يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a7c8a89bd61e10b195f4947ad360830a995f5776ef597ad3253793b9b45fbc1a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : Yahya ibn Sa‘id nous a rapporté : Hisham nous a rapporté : mon père m’a informé, d’après Aïcha, qu’Umm Habiba et Umm Salama avaient parlé au Messager d’Allah ﷺ d’une église qu’elles avaient vue en Abyssinie et où se trouvaient des images. Le Messager d’Allah ﷺ dit : « Lorsqu’un homme pieux parmi eux meurt, ils bâtissent un lieu de prière sur sa tombe et y représentent ces images. Ceux-là sont les pires des créatures auprès d’Allah au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "60b76fbc-d682-422b-a14a-15d8c27e7070",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:528b",
+      "reference": "Sahih Muslim, hadith 528 b, book 5, باب النَّهْيِ عَنْ بِنَاءِ الْمَسَاجِدِ عَلَى الْقُبُورِ وَاتِّخَاذِ الصُّوَرِ فِيهَا وَالنَّهْيِ عَنِ اتِّخَاذِ الْقُبُورِ مَسَاجِدَ",
+      "title": "باب النَّهْيِ عَنْ بِنَاءِ الْمَسَاجِدِ عَلَى الْقُبُورِ وَاتِّخَاذِ الصُّوَرِ فِيهَا وَالنَّهْيِ عَنِ اتِّخَاذِ الْقُبُورِ مَسَاجِدَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، قَالاَ حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّهُمْ تَذَاكَرُوا عِنْدَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي مَرَضِهِ فَذَكَرَتْ أُمُّ سَلَمَةَ وَأُمُّ حَبِيبَةَ كَنِيسَةً ‏.‏ ثُمَّ ذَكَرَ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "05d6a0ad179a8a07bc6f4da468f7eedfa0f9a4161eddb3bebabc94afafbdf392",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "63494fa7-e200-42e7-9739-4e12d1adde73",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:528c",
+      "reference": "Sahih Muslim, hadith 528 c, book 5, باب النَّهْيِ عَنْ بِنَاءِ الْمَسَاجِدِ عَلَى الْقُبُورِ وَاتِّخَاذِ الصُّوَرِ فِيهَا وَالنَّهْيِ عَنِ اتِّخَاذِ الْقُبُورِ مَسَاجِدَ",
+      "title": "باب النَّهْيِ عَنْ بِنَاءِ الْمَسَاجِدِ عَلَى الْقُبُورِ وَاتِّخَاذِ الصُّوَرِ فِيهَا وَالنَّهْيِ عَنِ اتِّخَاذِ الْقُبُورِ مَسَاجِدَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ ذَكَرْنَ أَزْوَاجُ النَّبِيِّ صلى الله عليه وسلم كَنِيسَةً رَأَيْنَهَا بِأَرْضِ الْحَبَشَةِ يُقَالُ لَهَا مَارِيَةُ ‏.‏ بِمِثْلِ حَدِيثِهِمْ ‏.‏",
+      "source_hash_sha256": "43146d01aa9ec0a9d5d46c29c69f6ee6cec773b6a460008ea7607c2aa225fef4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b843626c-8b5f-4604-9170-883dce574158",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:529",
+      "reference": "Sahih Muslim, hadith 529, book 5, باب النَّهْيِ عَنْ بِنَاءِ الْمَسَاجِدِ عَلَى الْقُبُورِ وَاتِّخَاذِ الصُّوَرِ فِيهَا وَالنَّهْيِ عَنِ اتِّخَاذِ الْقُبُورِ مَسَاجِدَ",
+      "title": "باب النَّهْيِ عَنْ بِنَاءِ الْمَسَاجِدِ عَلَى الْقُبُورِ وَاتِّخَاذِ الصُّوَرِ فِيهَا وَالنَّهْيِ عَنِ اتِّخَاذِ الْقُبُورِ مَسَاجِدَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، قَالاَ حَدَّثَنَا هَاشِمُ بْنُ الْقَاسِمِ، حَدَّثَنَا شَيْبَانُ، عَنْ هِلاَلِ بْنِ أَبِي حُمَيْدٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي مَرَضِهِ الَّذِي لَمْ يَقُمْ مِنْهُ ‏\"‏ لَعَنَ اللَّهُ الْيَهُودَ وَالنَّصَارَى اتَّخَذُوا قُبُورَ أَنْبِيَائِهِمْ مَسَاجِدَ ‏\"‏ ‏.‏ قَالَتْ فَلَوْلاَ ذَاكَ أُبْرِزَ قَبْرُهُ غَيْرَ أَنَّهُ خُشِيَ أَنْ يُتَّخَذَ مَسْجِدًا ‏.‏ وَفِي رِوَايَةِ ابْنِ أَبِي شَيْبَةَ وَلَوْلاَ ذَاكَ لَمْ يَذْكُرْ قَالَتْ ‏.‏",
+      "source_hash_sha256": "16e391d130aacfeb3cd79cdb648c5b7782aafb2c33ac83fba0fe9995183962cb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Amr al-Naqid nous ont rapporté : Hashim ibn al-Qasim nous a rapporté : Shayban nous a rapporté, d’après Hilal ibn Abi Humayd, d’après Urwa ibn al-Zubayr, d’après Aïcha, qui dit que le Messager d’Allah ﷺ a dit, pendant la maladie dont il ne se releva pas : « Qu’Allah maudisse les juifs et les chrétiens : ils ont pris les tombes de leurs prophètes pour des lieux de prière. » Aïcha dit : « Sans cela, sa tombe aurait été rendue apparente ; mais on craignit qu’elle ne soit prise comme lieu de prière. » Dans la version d’Ibn Abi Shayba, la formulation s’arrête à « Sans cela » et ne mentionne pas « Aïcha dit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "46a96a56-2153-461e-bff1-b01af4bcd4ca",
+      "reason": "La source donne une chaîne de transmission et renvoie à la version de Malik sans reprendre le récit complet. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "72f037ad-74fb-4c77-a5b1-ea8ef28953c0",
+      "reason": "La source cite directement le verset 2:144 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "60b76fbc-d682-422b-a14a-15d8c27e7070",
+      "reason": "La source ne mentionne que l’église, puis renvoie au récit précédent sans en reprendre le texte. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "63494fa7-e200-42e7-9739-4e12d1adde73",
+      "reason": "La source ne reprend que le sujet du récit précédent et renvoie à sa formulation complète (« même hadith »), sans donner le texte. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
