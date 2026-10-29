@@ -621,3 +621,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-118` saved private French drafts for Bukhari 651, 652–654, 657, 658 and 659. The combined report retains all its distinct passages about removing a harmful branch, the five kinds of martyrdom, and the rewards of the call, first row, early arrival, and evening and dawn prayers.
 - The combined Bukhari 655/656 record remains blank and held under Needs Mo because it contains an explicit quotation of Quran 36:12. The project has no approved, attributed French Quran translation. No French Quran wording was created.
 - The six-record batch passed the focused validator, including Arabic hashes, rights metadata, private unpublished state and the reason-specific hold. Five local drafts were added; one additional hadith is held. No database writes or publication occurred. Bukhari local drafts: 610 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 14,019, including held records.
+
+### 2026-10-29: Bukhari 660–665 source review
+
+- `FR-LIB-HAD-BUKHARI-119` saved private French drafts for Bukhari 660–665. The long report 664 retains the separate narration paths, Aisha’s account of the Prophet’s illness and the prayer led by Abu Bakr, the clarification about the second supporting person, and the later narrator variants.
+- The batch passed the focused validator for all six records, including Arabic hashes, IDs, rights metadata, private unpublished state and complete report structure. No Needs Mo item was identified in this batch. No database writes or publication occurred.
+- Bukhari local drafts: 616 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 14,013, including held records.
