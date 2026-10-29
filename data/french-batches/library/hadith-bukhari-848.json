@@ -1,0 +1,45 @@
+{
+  "batch_id": "HADITH-BUKHARI-848",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:21:37.221Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "61d3927e-374e-4977-860c-9b07d18aeeb4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4678",
+      "reference": "Sahih al-Bukhari, hadith 4678, book 65, باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَكُونُوا مَعَ الصَّادِقِينَ‏} ‏",
+      "title": "باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَكُونُوا مَعَ الصَّادِقِينَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَبْدِ اللَّهِ بْنِ كَعْبِ بْنِ مَالِكٍ، أَنَّ عَبْدَ اللَّهِ بْنَ كَعْبِ بْنِ مَالِكٍ ـ وَكَانَ قَائِدَ كَعْبِ بْنِ مَالِكٍ ـ قَالَ سَمِعْتُ كَعْبَ بْنَ مَالِكٍ، يُحَدِّثُ حِينَ تَخَلَّفَ عَنْ قِصَّةِ، تَبُوكَ‏.‏ فَوَاللَّهِ مَا أَعْلَمُ أَحَدًا أَبْلاَهُ اللَّهُ فِي صِدْقِ الْحَدِيثِ أَحْسَنَ مِمَّا أَبْلاَنِي، مَا تَعَمَّدْتُ مُنْذُ ذَكَرْتُ ذَلِكَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم إِلَى يَوْمِي هَذَا كَذِبًا، وَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ عَلَى رَسُولِهِ صلى الله عليه وسلم ‏[quran sura=\"9\" aya_start=\"117\" aya_end=\"117\"]{‏لَقَدْ تَابَ اللَّهُ عَلَى النَّبِيِّ وَالْمُهَاجِرِينَ‏}‏ إِلَى قَوْلِهِ ‏[quran sura=\"9\" aya_start=\"119\" aya_end=\"119\"]{‏وَكُونُوا مَعَ الصَّادِقِينَ‏}‏",
+      "source_hash_sha256": "6f28a1ec978c435a65cd9529a990b7276414082a8c6490d2cb201e6faf8767a2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "61d3927e-374e-4977-860c-9b07d18aeeb4",
+      "url": "https://sunnah.com/bukhari:4678",
+      "reason": "Ce rapport cite directement plusieurs passages de Quran 9:117 à 119. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-848, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
