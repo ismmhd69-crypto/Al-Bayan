@@ -8410,7 +8410,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 612c–613b
 
 - FR-LIB-HAD-MUSLIM-0257 saves five private French drafts about the daily prayer-time ranges and the practical demonstrations of those times over two days. Muslim 612c gives only a transmission variant without the prayer-time report and remains blank under Needs Mo.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,026 Muslim drafts, 7,362 total hadith drafts, 7,267 remaining, and 492 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 1,026 Muslim drafts, 7,362 total hadith drafts, 7,267 remaining, and 492 Needs Mo items.
 
 ### 2026-10-29: Muslim 614a–615d
 
@@ -8961,3 +8961,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0366 saves four private French drafts about Friday and the weekly prayer. Muslim 855b and 856b only refer to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1456 Muslim drafts, 7792 total hadith drafts, 6837 remaining, and 684 Needs Mo items.
+
+### 2026-10-29: Muslim 857b–860b
+
+- FR-LIB-HAD-MUSLIM-0367 saves six private French drafts about the Friday sermon and the timing of Friday prayer. All six reports are complete and translated in full.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1462 Muslim drafts, 7798 total hadith drafts, 6831 remaining, and 684 Needs Mo items.
