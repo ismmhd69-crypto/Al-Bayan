@@ -3576,3 +3576,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-732` saves six private French drafts of reports about Saʿd ibn Abî Waqqâs at Uhud.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,595 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 286. Total local hadith rows not drafted: 11,068, including held records.
+
+### 2026-10-29: Bukhari 4060–4066
+
+- `FR-LIB-HAD-BUKHARI-733` saves six private French drafts, including reports about Talha and Abû Talha at Uhud and Ibn ʿUmar’s answers concerning ʿUthmân.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,601 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 286. Total local hadith rows not drafted: 11,062, including held records.

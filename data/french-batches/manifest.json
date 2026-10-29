@@ -15862,6 +15862,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-733",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-733.json",
+      "sourceIds": ["e722d441-386d-4d50-8429-4177e5e17a17", "67b97078-f4da-4645-a7af-3b9513cdc61d", "aa769191-9a68-4ead-877a-5b5493ecc91d", "d3c1911b-a08f-4afc-9b6c-0809513a9a05", "04f0faa4-e407-4828-9c6b-5c432ee857eb", "60a32dc0-fedc-4997-91b9-d00e4393c128"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -16158,7 +16173,7 @@
       "reason": "The report directly quotes Quran 3:122. It remains blank in FR-LIB-HAD-BUKHARI-731 until an approved, attributed French Quran translation is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 3543,
-  "hadithLocalDrafted": 3543,
-  "hadithLocalRemaining": 11114
+  "hadithBukhariDrafted": 3549,
+  "hadithLocalDrafted": 3549,
+  "hadithLocalRemaining": 11108
 }
