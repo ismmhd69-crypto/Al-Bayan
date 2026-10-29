@@ -984,3 +984,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-201` saves six private French drafts for Bukhari 1152–1159. They preserve the reminders about consistency in night prayer, balancing worship with personal and family needs, and the reports about waking to pray.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,070 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,559, including held records.
+### 2026-10-29: Bukhari 1160–1165 source review
+
+- `FR-LIB-HAD-BUKHARI-202` saves six private French drafts for Bukhari 1160–1165. They preserve the reports on lying down after the dawn prayer’s two units, maintaining them consistently, and keeping them brief.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,076 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,553, including held records.
