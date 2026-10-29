@@ -5706,3 +5706,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1112 holds the single report blank because it directly quotes Quran 91:1 and 87:1.
 - The focused validator passed the one-item private/held record. No database writes or publication occurred. Bukhari local drafts remain 5,107 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,522, including held records.
+
+### 2026-10-29: Bukhari 6107–6111
+
+- FR-LIB-HAD-BUKHARI-1113 saves five private French drafts about oaths, prayer, and respect. The longer lost-property report Bukhari 6112 was isolated for individual handling.
+- All five records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,112 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,517, including held records.
