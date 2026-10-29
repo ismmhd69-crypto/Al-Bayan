@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-BUKHARI-505",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:25:22.319Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ce0b1861-3ad6-4d77-b297-bb6d34c4b3e6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2937",
+      "reference": "Sahih al-Bukhari, hadith 2937, book 56, باب الدُّعَاءِ لِلْمُشْرِكِينَ بِالْهُدَى لِيَتَأَلَّفَهُمْ",
+      "title": "باب الدُّعَاءِ لِلْمُشْرِكِينَ بِالْهُدَى لِيَتَأَلَّفَهُمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، حَدَّثَنَا أَبُو الزِّنَادِ، أَنَّ عَبْدَ الرَّحْمَنِ، قَالَ قَالَ أَبُو هُرَيْرَةَ ـ رضى الله عنه قَدِمَ طُفَيْلُ بْنُ عَمْرٍو الدَّوْسِيُّ وَأَصْحَابُهُ عَلَى النَّبِيِّ صلى الله عليه وسلم فَقَالُوا يَا رَسُولَ اللَّهِ، إِنَّ دَوْسًا عَصَتْ وَأَبَتْ، فَادْعُ اللَّهَ عَلَيْهَا‏.‏ فَقِيلَ هَلَكَتْ دَوْسٌ‏.‏ قَالَ ‏\"‏ اللَّهُمَّ اهْدِ دَوْسًا وَائْتِ بِهِمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "a2dca54b8a2b78c9a0e1121dd23dc439d3ec0c1b77ad7b7529e40f8a19fe4abf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû al-Yamân, Shu‘ayb, Abû al-Zinâd et ‘Abd al-Rahmân.\n\nAbû Hurayra dit : « Tufayl ibn ‘Amr al-Dawsî et ses compagnons vinrent trouver le Prophète et dirent : “Ô Messager d’Allah, la tribu de Daws a désobéi et refusé d’écouter. Invoque Allah contre eux.” On leur dit : “La tribu de Daws est perdue.” Le Prophète répondit : “Ô Allah, guide les Daws et fais-les venir.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1928421e-2c56-4793-8504-a28a4ae9dc50",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2938",
+      "reference": "Sahih al-Bukhari, hadith 2938, book 56, باب دَعْوَةِ الْيَهُودِيِّ وَالنَّصْرَانِيِّ، وَعَلَى مَا يُقَاتَلُونَ عَلَيْهِ وَمَا كَتَبَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِلَى كِسْرَى وَقَيْصَرَ",
+      "title": "باب دَعْوَةِ الْيَهُودِيِّ وَالنَّصْرَانِيِّ، وَعَلَى مَا يُقَاتَلُونَ عَلَيْهِ وَمَا كَتَبَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِلَى كِسْرَى وَقَيْصَرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ الْجَعْدِ، أَخْبَرَنَا شُعْبَةُ، عَنْ قَتَادَةَ، قَالَ سَمِعْتُ أَنَسًا ـ رضى الله عنه ـ يَقُولُ لَمَّا أَرَادَ النَّبِيُّ صلى الله عليه وسلم أَنْ يَكْتُبَ إِلَى الرُّومِ، قِيلَ لَهُ إِنَّهُمْ لاَ يَقْرَءُونَ كِتَابًا إِلاَّ أَنْ يَكُونَ مَخْتُومًا‏.‏ فَاتَّخَذَ خَاتَمًا مِنْ فِضَّةٍ، فَكَأَنِّي أَنْظُرُ إِلَى بَيَاضِهِ فِي يَدِهِ، وَنَقَشَ فِيهِ مُحَمَّدٌ رَسُولُ اللَّهِ‏.‏",
+      "source_hash_sha256": "0d54828931d2765f3b5ae295bec9b1ff194ae3b907af1ade846801a0c5a4b7c5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Alî ibn al-Ja‘d, Shu‘ba, Qatâda et Anas.\n\nAnas dit : « Lorsque le Prophète voulut écrire aux Romains, on lui dit qu’ils ne lisaient que les lettres scellées. Il se fit donc faire une bague en argent. Je revois encore son éclat blanc à sa main. Il y fit graver : “Muhammad, Messager d’Allah.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "20b25b7a-651e-4bc9-9888-7105d1b775fb",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2939",
+      "reference": "Sahih al-Bukhari, hadith 2939, book 56, باب دَعْوَةِ الْيَهُودِيِّ وَالنَّصْرَانِيِّ، وَعَلَى مَا يُقَاتَلُونَ عَلَيْهِ وَمَا كَتَبَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِلَى كِسْرَى وَقَيْصَرَ",
+      "title": "باب دَعْوَةِ الْيَهُودِيِّ وَالنَّصْرَانِيِّ، وَعَلَى مَا يُقَاتَلُونَ عَلَيْهِ وَمَا كَتَبَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِلَى كِسْرَى وَقَيْصَرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا اللَّيْثُ، قَالَ حَدَّثَنِي عُقَيْلٌ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، أَنَّ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ، أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم بَعَثَ بِكِتَابِهِ إِلَى كِسْرَى، فَأَمَرَهُ أَنْ يَدْفَعَهُ إِلَى عَظِيمِ الْبَحْرَيْنِ، يَدْفَعُهُ عَظِيمُ الْبَحْرَيْنِ إِلَى كِسْرَى، فَلَمَّا قَرَأَهُ كِسْرَى خَرَّقَهُ، فَحَسِبْتُ أَنَّ سَعِيدَ بْنَ الْمُسَيَّبِ قَالَ فَدَعَا عَلَيْهِمُ النَّبِيُّ صلى الله عليه وسلم أَنْ يُمَزَّقُوا كُلَّ مُمَزَّقٍ‏.‏",
+      "source_hash_sha256": "8c715c31b364d38460f16249bd5177e2a79080faaf2b84adb6e4997f34e05bd6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Yûsuf, al-Layth, ‘Uqayl, Ibn Shihâb, ‘Ubayd Allâh ibn ‘Abd Allâh ibn ‘Utba et ‘Abd Allâh ibn ‘Abbâs.\n\nLe Messager d’Allah envoya sa lettre à Kisrâ et chargea le souverain de Bahreïn de la remettre à Kisrâ. Lorsque celui-ci la lut, il la déchira. Je crois que Sa‘îd ibn al-Musayyib a dit que le Prophète invoqua Allah pour qu’ils soient dispersés et déchirés de toutes parts.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
