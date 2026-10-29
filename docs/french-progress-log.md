@@ -7646,9 +7646,15 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 231a–233b
 
 - FR-LIB-HAD-MUSLIM-0107 saves six private French drafts on prayer and ablution. The alternate narrator chains, the uncertain identification of the prayer as ‘Asr, and the differing mention of obligatory prayers and major sins are preserved.
-- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 431 Muslim drafts, 6,767 total hadith drafts, 7,862 remaining, and 244 Needs Mo items.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 425 Muslim drafts, 6,761 total hadith drafts, 7,868 remaining, and 244 Needs Mo items.
 
 ### 2026-10-29: Muslim 233c–235c
 
 - FR-LIB-HAD-MUSLIM-0108 saves six private French drafts on expiation of sins, remembrance after ablution, and the Prophet’s ablution. Narrator chains and variant details are retained.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 431 Muslim drafts, 6,767 total hadith drafts, 7,862 remaining, and 244 Needs Mo items.
+
+### 2026-10-29: Muslim 235d–237d
+
+- FR-LIB-HAD-MUSLIM-0109 saves five private French drafts on ablution and nasal cleansing, preserving the detailed ablution variant and each report’s wording.
+- Muslim 237d contains only transmission chains and a reference to similar wording without the report text. It remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 436 Muslim drafts, 6,772 total hadith drafts, 7,857 remaining, and 245 Needs Mo items.
