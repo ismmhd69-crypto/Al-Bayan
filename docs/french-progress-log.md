@@ -11016,3 +11016,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0777 saves five private French drafts about Sulayman’s vow and Umar’s vow to perform a retreat in the Sacred Mosque. Muslim 1654c only points to a prior version and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1656b–1657a
+
+- FR-LIB-HAD-MUSLIM-0778 saves six private French drafts about the length of Umar’s vowed retreat, the release of a captive, and freeing an enslaved person as expiation. All six records contain report text or specific wording variants.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
