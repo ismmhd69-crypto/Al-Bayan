@@ -12951,3 +12951,10 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Five complete reports were translated and reread against the Arabic, including the full account of the angels at remembrance gatherings. One chain-only reference remains blank under Needs Mo.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Five private local drafts saved.
 - Reconciled local hadith progress: 6,336 Bukhari and 4,852 Muslim drafts (11,188 total); 2,754 held Needs Mo; 687 sources not yet exported. Local hadith records without French drafts: 3,441. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2693-2697b, batch 1237
+
+- Batch FR-LIB-HAD-MUSLIM-1237 covers six entries from Sahih Muslim 2693 through 2697b.
+- All six complete reports were translated and reread against the Arabic. The exporter deferred the long report with source ID 435610c6-b655-43ed-ae87-6ecee4e77145 so it can be handled as a one-record batch next.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Six private local drafts saved.
+- Reconciled local hadith progress: 6,336 Bukhari and 4,858 Muslim drafts (11,194 total); 2,754 held Needs Mo; 681 sources not yet exported. Local hadith records without French drafts: 3,435. All 14,629 remain missing from the live French table.
