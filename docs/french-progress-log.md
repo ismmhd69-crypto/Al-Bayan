@@ -1371,3 +1371,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-287` saves six private French drafts for Bukhari 1651–1656. They preserve the farewell-pilgrimage account, Umm Atiyya’s report with its wording variants, and the prayer reports from Mina. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,511 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 90. Total local hadith rows not drafted: 13,117, including held records.
+
+### 2026-10-29: Bukhari 1657–1662 source review
+
+- `FR-LIB-HAD-BUKHARI-288` saves six private French drafts for Bukhari 1657–1662. They preserve the prayer and Arafat reports, including differing reports about the Prophet’s fasting and the timing of the prayers. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,517 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 90. Total local hadith rows not drafted: 13,111, including held records.
