@@ -12,7 +12,7 @@ import styles from "./RichAnswerView.module.css";
 import { ReportProblem } from "./ReportProblem";
 import { consecutiveRuns } from "@/lib/ask/ids";
 import VideoCard from "./VideoCard";
-import VerseAudioButton from "./VerseAudioButton";
+import VerseAudioButton, { RecitedVerse } from "./VerseAudioButton";
 import { validRelatedVideos, type RelatedVideos } from "@/lib/ask/related-videos";
 import type { PublicationState } from "@/lib/ask/publication";
 import { VerifiedText, RevealBlock, AfterVerifiedText } from "./VerifiedReveal";
@@ -104,7 +104,9 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
             : tr?.status === "lookup_failed" ? t.translationLookupFailed : tr?.status === "not_checked" ? t.translationNotChecked : tr?.status === "rejected" ? t.translationRejected : t.missing}</small>}
           {publication?.groups[section.group].notices.some(n => n.sourceIds.includes(id)) ? <p role="alert">{language === "ar" ? "تعذّر تأكيد هذا المصدر أثناء إعادة التحقق." : language === "de" ? "Diese Quelle konnte bei der erneuten Prüfung nicht bestätigt werden." : "This source could not be confirmed during rechecking."}</p> : <>
           {staged ? <>
-            {!translationOnly(source, language) && <p lang="ar" dir="rtl"><VerifiedText id={`${section.group}-original-${id}`}>{e.arabic}</VerifiedText></p>}
+            {!translationOnly(source, language) && <p lang="ar" dir="rtl">{e.kind === "quran"
+              ? <RecitedVerse verseKey={e.key}><VerifiedText id={`${section.group}-original-${id}`}>{e.arabic}</VerifiedText></RecitedVerse>
+              : <VerifiedText id={`${section.group}-original-${id}`}>{e.arabic}</VerifiedText>}</p>}
             {language !== "ar" && ((e.kind === "scholar" || hasDisplayTranslation(source)) ? tr?.status === "ready" ? tr.text : null : e.translation) && <p lang={language} dir="ltr"><VerifiedText id={`${section.group}-translation-${id}`}>{((e.kind === "scholar" || hasDisplayTranslation(source)) ? tr?.status === "ready" ? tr.text : "" : e.translation) ?? ""}</VerifiedText></p>}
           </> : <p className={styles.preview} lang={previewLanguage(source, language)} dir="auto">
             {displayedSourceText(source, 230)}

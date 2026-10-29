@@ -321,3 +321,35 @@ export const getChapterVerses = cache(async function getChapterVerses(
   return parseVersesPayload(data, chapterId);
 });
 
+
+export interface VerseRecitation {
+  audioUrl: string;
+  /** Recited words in order (verse-end markers left out), with Quran Foundation's 1-based position. */
+  words: { position: number; text: string }[];
+  /** Word timings for the same recitation: [position, startMs, endMs]. */
+  segments: [number, number, number][];
+}
+
+/** One verse's Alafasy recitation with word timings, for highlighting each word as it is recited
+ * (Mo, 2026-10-29). Words come from the same response as the timings, so positions always match. */
+export const getVerseRecitation = cache(async function getVerseRecitation(verseKey: string): Promise<VerseRecitation | null> {
+  const match = /^(\d{1,3}):(\d{1,3})$/.exec(verseKey);
+  if (!match || !isChapterAllowed(Number(match[1]))) return null;
+  const env = getEnvConfig();
+  const url = `${env.api}/content/api/v4/verses/by_key/${verseKey}?words=true&word_fields=text_uthmani&audio=7`;
+  const res = await authedFetch(url, { next: { revalidate: CACHE_SECONDS } });
+  if (!res.ok) throw new Error(`Verse recitation request failed with status ${res.status}`);
+  const data = (await res.json()) as { verse?: { audio?: { url?: unknown; segments?: unknown }; words?: { position?: unknown; char_type_name?: unknown; text_uthmani?: unknown }[] } };
+  const raw = data.verse?.audio?.url;
+  if (typeof raw !== "string" || !/^[\w/.-]+\.mp3$/.test(raw.replace(/^https:\/\/verses\.quran\.foundation\//, ""))) return null;
+  const audioUrl = raw.startsWith("https://") ? raw : `https://verses.quran.foundation/${raw.replace(/^\/+/, "")}`;
+  const words = (data.verse?.words ?? []).flatMap((w) => w.char_type_name === "word" && typeof w.position === "number" && typeof w.text_uthmani === "string"
+    ? [{ position: w.position, text: w.text_uthmani }] : []);
+  // Segments arrive as [index, position, start, end] or [position, start, end].
+  const segments = (Array.isArray(data.verse?.audio?.segments) ? data.verse.audio.segments : []).flatMap((s): [number, number, number][] => {
+    if (!Array.isArray(s) || !s.every((n) => typeof n === "number")) return [];
+    const [position, start, end] = s.length >= 4 ? s.slice(1, 4) : s;
+    return Number.isFinite(position) && end > start ? [[position, start, end]] : [];
+  });
+  return { audioUrl, words, segments };
+});

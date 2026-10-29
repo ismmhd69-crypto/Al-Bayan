@@ -3843,3 +3843,15 @@ details[open] > summary .chev {
 .answer-verse-play .spin { animation: answer-verse-spin 0.9s linear infinite; }
 @keyframes answer-verse-spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .answer-verse-play .spin { animation: none; } }
+
+/* The word being recited is coloured, following Alafasy's recitation (Mo, 2026-10-29). */
+.recited-word {
+  border-radius: 6px;
+  padding-inline: 1px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.recited-word--now {
+  background: var(--tonal-bg);
+  color: var(--accent);
+  box-shadow: 0 0 0 2px var(--tonal-bg);
+}
