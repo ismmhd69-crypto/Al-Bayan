@@ -35924,6 +35924,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0334",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0334.json",
+      "sourceIds": [
+        "af0d2ba2-5054-4f75-a263-2de86047a50a",
+        "eb09d0dc-67fd-4ee9-b3bb-dc39cf7e613e",
+        "f8fc4a63-340d-4b0b-a3f4-c9137b9e7a15",
+        "9fb5fa5f-eff9-4188-9efe-a888a030f436",
+        "51f2e5c3-8904-42a3-9bbe-3bfa2bc06078",
+        "c5533962-0368-4b8d-a6f4-1513d8c2a626"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two direct Quran quotations and one cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40231,8 +40252,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7671,
-  "hadithLocalRemaining": 6958,
+  "hadithLocalDrafted": 7674,
+  "hadithLocalRemaining": 6955,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42501,10 +42522,28 @@
       "scope": "Sahih Muslim 769c: wording cross-reference without full text",
       "status": "blocked",
       "reason": "La source renvoie à la même supplication en précisant seulement que sa formulation est proche de celles des versions précédentes. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0334-771A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 771a: direct Quran quotations",
+      "status": "blocked",
+      "reason": "La source cite directement plusieurs passages du Coran (notamment sourates 6 et 23). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0334-771B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 771b: direct Quran fragments and cross-reference",
+      "status": "blocked",
+      "reason": "La source cite des fragments coraniques et renvoie également à la supplication précédente sans en reprendre l’intégralité. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0334-773B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 773b: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source ne reprend pas le récit complet et renvoie seulement à la version précédente. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1335,
+  "hadithMuslimDrafted": 1338,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 614
+  "hadithNeedsMo": 617
 }
