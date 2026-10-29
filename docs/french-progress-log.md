@@ -9606,3 +9606,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0495 saves four private French drafts about making up missed fasts and fasting on behalf of a deceased relative. Muslim 1146c and 1146d contain only variants tied to the prior report and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1148c–1149d
+
+- FR-LIB-HAD-MUSLIM-0496 saves two private French drafts about making up a deceased relative’s vows or missed fasts. Muslim 1148c and 1149b–1149d only refer to earlier reports and provide variant details, so they remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
