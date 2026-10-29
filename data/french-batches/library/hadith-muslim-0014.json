@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-MUSLIM-0014",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:51:20.747Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "723f1c1d-e156-4e11-b1a3-171ee0c94448",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:32",
+      "reference": "Sahih Muslim, hadith 32, book 1, باب مَنْ لَقِيَ اللَّهَ بِالإِيمَانِ وَهُوَ غَيْرُ شَاكٍّ فِيهِ دَخَلَ الْجَنَّةَ وَحَرُمَ عَلَى النَّارِ",
+      "title": "باب مَنْ لَقِيَ اللَّهَ بِالإِيمَانِ وَهُوَ غَيْرُ شَاكٍّ فِيهِ دَخَلَ الْجَنَّةَ وَحَرُمَ عَلَى النَّارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، قَالَ حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم وَمُعَاذُ بْنُ جَبَلٍ رَدِيفُهُ عَلَى الرَّحْلِ قَالَ ‏\"‏ يَا مُعَاذُ ‏\"‏ ‏.‏ قَالَ لَبَّيْكَ رَسُولَ اللَّهِ وَسَعْدَيْكَ ‏.‏ قَالَ ‏\"‏ يَا مُعَاذُ ‏\"‏ ‏.‏ قَالَ لَبَّيْكَ رَسُولَ اللَّهِ وَسَعْدَيْكَ ‏.‏ قَالَ ‏\"‏ يَا مُعَاذُ ‏\"‏ ‏.‏ قَالَ لَبَّيْكَ رَسُولَ اللَّهِ وَسَعْدَيْكَ ‏.‏ قَالَ ‏\"‏ مَا مِنْ عَبْدٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ إِلاَّ حَرَّمَهُ اللَّهُ عَلَى النَّارِ ‏\"‏ ‏.‏ قَالَ يَا رَسُولَ اللَّهِ أَفَلاَ أُخْبِرُ بِهَا النَّاسَ فَيَسْتَبْشِرُوا قَالَ ‏\"‏ إِذًا يَتَّكِلُوا ‏\"‏ فَأَخْبَرَ بِهَا مُعَاذٌ عِنْدَ مَوْتِهِ تَأَثُّمًا ‏.‏",
+      "source_hash_sha256": "2c315d7912181811c78aebd2bf13d3f1651d090b9cb82d595d237750c39bbfe1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Malik rapporte que le Prophète ﷺ et Muʿadh ibn Jabal étaient en croupe sur une monture. Le Prophète ﷺ appela : « Muʿadh ! » Il répondit : « Je réponds à ton appel, Messager d’Allah, et je suis à ton service. » Le Prophète ﷺ l’appela ainsi trois fois, et Muʿadh répondit chaque fois de la même manière. Il dit alors : « Tout serviteur qui atteste qu’il n’y a de divinité qu’Allah et que Muhammad est Son serviteur et Son Messager, Allah le préservera du Feu. » Muʿadh demanda : « Messager d’Allah, ne devrais-je pas en informer les gens afin qu’ils s’en réjouissent ? » Il répondit : « Alors ils pourraient s’en remettre à cela. » Muʿadh ne transmit cette parole qu’au moment de sa mort, par crainte d’en porter le péché s’il la gardait pour lui.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f192190e-51e6-4476-8c21-66d7eac5e710",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:33a",
+      "reference": "Sahih Muslim, hadith 33 a, book 1, باب مَنْ لَقِيَ اللَّهَ بِالإِيمَانِ وَهُوَ غَيْرُ شَاكٍّ فِيهِ دَخَلَ الْجَنَّةَ وَحَرُمَ عَلَى النَّارِ",
+      "title": "باب مَنْ لَقِيَ اللَّهَ بِالإِيمَانِ وَهُوَ غَيْرُ شَاكٍّ فِيهِ دَخَلَ الْجَنَّةَ وَحَرُمَ عَلَى النَّارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا سُلَيْمَانُ، - يَعْنِي ابْنَ الْمُغِيرَةِ - قَالَ حَدَّثَنَا ثَابِتٌ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ حَدَّثَنِي مَحْمُودُ بْنُ الرَّبِيعِ، عَنْ عِتْبَانَ بْنِ مَالِكٍ، قَالَ قَدِمْتُ الْمَدِينَةَ فَلَقِيتُ عِتْبَانَ فَقُلْتُ حَدِيثٌ بَلَغَنِي عَنْكَ قَالَ أَصَابَنِي فِي بَصَرِي بَعْضُ الشَّىْءِ فَبَعَثْتُ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم أَنِّي أُحِبُّ أَنْ تَأْتِيَنِي فَتُصَلِّيَ فِي مَنْزِلِي فَأَتَّخِذَهُ مُصَلًّى - قَالَ - فَأَتَى النَّبِيُّ صلى الله عليه وسلم وَمَنْ شَاءَ اللَّهُ مِنْ أَصْحَابِهِ فَدَخَلَ وَهُوَ يُصَلِّي فِي مَنْزِلِي وَأَصْحَابُهُ يَتَحَدَّثُونَ بَيْنَهُمْ ثُمَّ أَسْنَدُوا عُظْمَ ذَلِكَ وَكِبْرَهُ إِلَى مَالِكِ بْنِ دُخْشُمٍ قَالُوا وَدُّوا أَنَّهُ دَعَا عَلَيْهِ فَهَلَكَ وَوَدُّوا أَنَّهُ أَصَابَهُ شَرٌّ ‏.‏ فَقَضَى رَسُولُ اللَّهِ صلى الله عليه وسلم الصَّلاَةَ وَقَالَ ‏\"‏ أَلَيْسَ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ ‏\"‏ ‏.‏ قَالُوا إِنَّهُ يَقُولُ ذَلِكَ وَمَا هُوَ فِي قَلْبِهِ ‏.‏ قَالَ ‏\"‏ لاَ يَشْهَدُ أَحَدٌ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ فَيَدْخُلَ النَّارَ أَوْ تَطْعَمَهُ ‏\"‏ ‏.‏ قَالَ أَنَسٌ فَأَعْجَبَنِي هَذَا الْحَدِيثُ فَقُلْتُ لاِبْنِي اكْتُبْهُ فَكَتَبَهُ ‏.‏",
+      "source_hash_sha256": "fbdfa6767919dac15e82821dbe717978201ec5de0a3809444c23811a8baceb55",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿItban ibn Malik raconte qu’il vint à Médine et le rencontra. Je lui dis : « Une tradition me concernant est parvenue jusqu’à moi. » Il répondit : « Ma vue a été atteinte. J’envoyai donc quelqu’un au Messager d’Allah ﷺ pour lui demander de venir prier chez moi afin que je puisse en faire un lieu de prière. » Le Prophète ﷺ vint avec ceux de ses compagnons qu’Allah voulut. Il entra et pria chez moi tandis que ses compagnons conversaient. Puis leur conversation se concentra sur Malik ibn Dukhshum. Ils dirent : « Ils auraient souhaité qu’il invoque contre lui afin qu’il périsse, et qu’un malheur le frappe. » Lorsque le Messager d’Allah ﷺ eut terminé la prière, il demanda : « N’atteste-t-il pas qu’il n’y a de divinité qu’Allah et que je suis le Messager d’Allah ? » Ils répondirent : « Il le dit, mais cela n’est pas dans son cœur. » Il dit : « Nul ne témoigne qu’il n’y a de divinité qu’Allah et que je suis le Messager d’Allah pour ensuite entrer au Feu ou être consumé par lui. » Anas dit : « Cette tradition me plut beaucoup ; je dis à mon fils de l’écrire, et il l’écrivit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e993dd65-9a68-40b6-93b8-e7e743068f71",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:33b",
+      "reference": "Sahih Muslim, hadith 33 b, book 1, باب مَنْ لَقِيَ اللَّهَ بِالإِيمَانِ وَهُوَ غَيْرُ شَاكٍّ فِيهِ دَخَلَ الْجَنَّةَ وَحَرُمَ عَلَى النَّارِ",
+      "title": "باب مَنْ لَقِيَ اللَّهَ بِالإِيمَانِ وَهُوَ غَيْرُ شَاكٍّ فِيهِ دَخَلَ الْجَنَّةَ وَحَرُمَ عَلَى النَّارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو بَكْرِ بْنُ نَافِعٍ الْعَبْدِيُّ، حَدَّثَنَا بَهْزٌ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا ثَابِتٌ، عَنْ أَنَسٍ، قَالَ حَدَّثَنِي عِتْبَانُ بْنُ مَالِكٍ، أَنَّهُ عَمِيَ فَأَرْسَلَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ تَعَالَ فَخُطَّ لِي مَسْجِدًا ‏.‏ فَجَاءَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَجَاءَ قَوْمُهُ وَنُعِتَ رَجُلٌ مِنْهُمْ يُقَالُ لَهُ مَالِكُ بْنُ الدُّخْشُمِ ‏.‏ ثُمَّ ذَكَرَ نَحْوَ حَدِيثِ سُلَيْمَانَ بْنِ الْمُغِيرَةِ ‏.‏",
+      "source_hash_sha256": "8577bc1e93bd4d9d706fb1a371dc112a3eca90438a0c89ed2d4a52730010151a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿItban ibn Malik était devenu aveugle. Il envoya chercher le Messager d’Allah ﷺ et lui dit : « Viens tracer pour moi un lieu de prière. » Le Messager d’Allah ﷺ vint avec des membres de son peuple. On nomma parmi eux un homme appelé Malik ibn Dukhshum. Le rapporteur transmit ensuite une tradition semblable à celle de Sulayman ibn al-Mughira.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

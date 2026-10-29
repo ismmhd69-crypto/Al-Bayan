@@ -7172,3 +7172,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0013 saves one private French draft of Abu Hurayra’s account of the sandals and the glad tidings, preserving the full exchange with ʿUmar. No database writes or publication occurred.
 - Its source hash is retained and the one-record focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 52 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,241, including held records.
+
+### 2026-10-29: Muslim 32–33b
+
+- FR-LIB-HAD-MUSLIM-0014 saves 3 private French drafts preserving the variants of Muʿadh’s exchange and the report about ʿItban’s home prayer. No database writes or publication occurred.
+- All 3 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 55 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,238, including held records.
