@@ -828,3 +828,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-162` saves six private French drafts for Bukhari 908–913. The translations retain the instruction to come calmly when prayer begins, the prohibition on taking someone else’s place, and the historical notes about the Friday call to prayer.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 848 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,781, including held records.
+### 2026-10-29: Bukhari 914–919 source review
+
+- `FR-LIB-HAD-BUKHARI-163` saves six private French drafts for Bukhari 914–919. They preserve the witness to the muezzin’s call, the chronology of Friday calls, the construction and use of the minbar, and the trunk’s sound when the minbar was installed.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 854 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,775, including held records.
