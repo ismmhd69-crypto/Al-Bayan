@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 715,
+    "hadithMuslimDrafted": 719,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 7051,
+    "hadithLocalDrafted": 7055,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7578,
-    "hadithNeedsMo": 332,
+    "hadithLocalRemaining": 7574,
+    "hadithNeedsMo": 334,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43347,6 +43347,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0704",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0704.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete reports translated as private drafts; two cross-reference-only variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52331,6 +52344,16 @@
     {
       "source_id": "bbfce59e-9472-4f20-a860-7b18a7a465ea",
       "reason": "Cette entrée renvoie à la version précédente sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "3f275542-55ef-4c52-8cc0-7ac972201c81",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "4bfbf1e3-5d2e-4742-b9a3-cfa2c66d9fac",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],

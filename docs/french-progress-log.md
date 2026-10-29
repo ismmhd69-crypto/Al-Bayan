@@ -10646,3 +10646,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0703 saves six private French drafts about taking possession of purchased food and grain before resale, including a report about grain sale documents.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1529–1531c
+
+- FR-LIB-HAD-MUSLIM-0704 saves four private French drafts about taking possession of food, exchanging dates, and the buyer’s and seller’s choice to confirm or cancel a sale. Muslim 1530b and 1531b only refer to another report and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
