@@ -19747,6 +19747,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-920",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-920.json",
+      "sourceIds": [
+        "f27cdeab-aea9-46e0-ad8f-e2d2bee94114",
+        "7a6e1748-66df-4ac1-b485-e88eb1165f49",
+        "7dc09008-cc5b-46d1-a904-e0b6f68eb612",
+        "c593b369-e0c3-4b0a-b3c6-c63c1c9c0e21",
+        "5d1fef9f-da8c-4f93-bb75-ce2891d9c770",
+        "64f4a33f-95a7-46a0-b61e-646828a32267"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22457,6 +22478,12 @@
       "reason": "Le rapport cite directement Quran 112:1, 113:1 and 114:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-917, dans l’attente d’une traduction française approuvée et attribuée."
     },
     {
+      "id": "HADITH-BUKHARI-5032B-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5032b: excerpt contains only the transmission chain and a reference to the previous report",
+      "status": "blocked",
+      "reason": "The source excerpt only says that this is the same report as a previous narration and contains no report text. Keep it blank until a complete source is available."
+    },
+    {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
@@ -22505,7 +22532,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4114,
-  "hadithLocalDrafted": 4114,
-  "hadithLocalRemaining": 10553
+  "hadithBukhariDrafted": 4119,
+  "hadithLocalDrafted": 4119,
+  "hadithLocalRemaining": 10548
 }

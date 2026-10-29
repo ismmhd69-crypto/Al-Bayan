@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-920",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:49:26.790Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f27cdeab-aea9-46e0-ad8f-e2d2bee94114",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5032b",
+      "reference": "Sahih al-Bukhari, hadith 5032b, book 66, باب اسْتِذْكَارِ الْقُرْآنِ وَتَعَاهُدِهِ",
+      "title": "باب اسْتِذْكَارِ الْقُرْآنِ وَتَعَاهُدِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، مِثْلَهُ‏.‏ تَابَعَهُ بِشْرٌ عَنِ ابْنِ الْمُبَارَكِ، عَنْ شُعْبَةَ،‏.‏ وَتَابَعَهُ ابْنُ جُرَيْجٍ عَنْ عَبْدَةَ، عَنْ شَقِيقٍ، سَمِعْتُ عَبْدَ اللَّهِ، سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "0b0a5dc375c3c889c72bbe27a6ae46bb75114032fc33a4c5e84ead9df45059e2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7a6e1748-66df-4ac1-b485-e88eb1165f49",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5033",
+      "reference": "Sahih al-Bukhari, hadith 5033, book 66, باب اسْتِذْكَارِ الْقُرْآنِ وَتَعَاهُدِهِ",
+      "title": "باب اسْتِذْكَارِ الْقُرْآنِ وَتَعَاهُدِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ تَعَاهَدُوا الْقُرْآنَ فَوَالَّذِي نَفْسِي بِيَدِهِ لَهُوَ أَشَدُّ تَفَصِّيًا مِنَ الإِبِلِ فِي عُقُلِهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "95e8f950b11e69d42f8252b067d995138704a223a9b189fb246f4fc436f90196",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Mûsâ rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Entretenez régulièrement votre connaissance du Coran. Par Celui qui tient mon âme dans Sa main, il s’échappe plus vite que les chameaux de leurs liens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7dc09008-cc5b-46d1-a904-e0b6f68eb612",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5034",
+      "reference": "Sahih al-Bukhari, hadith 5034, book 66, باب الْقِرَاءَةِ عَلَى الدَّابَّةِ",
+      "title": "باب الْقِرَاءَةِ عَلَى الدَّابَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجُ بْنُ مِنْهَالٍ، حَدَّثَنَا شُعْبَةُ، قَالَ أَخْبَرَنِي أَبُو إِيَاسٍ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ مُغَفَّلٍ، قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَوْمَ فَتْحِ مَكَّةَ وَهْوَ يَقْرَأُ عَلَى رَاحِلَتِهِ سُورَةَ الْفَتْحِ‏.‏",
+      "source_hash_sha256": "76e84b0a469a5fb17e1c04320146c4e83901c066ef65d4f24f7767072a13216b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn Mughaffal rapporte : « Le jour de la conquête de La Mecque, j’ai vu le Messager d’Allah réciter la sourate al-Fath alors qu’il était sur sa monture. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c593b369-e0c3-4b0a-b3c6-c63c1c9c0e21",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5035",
+      "reference": "Sahih al-Bukhari, hadith 5035, book 66, باب تَعْلِيمِ الصِّبْيَانِ الْقُرْآنَ",
+      "title": "باب تَعْلِيمِ الصِّبْيَانِ الْقُرْآنَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، قَالَ إِنَّ الَّذِي تَدْعُونَهُ الْمُفَصَّلَ هُوَ الْمُحْكَمُ، قَالَ وَقَالَ ابْنُ عَبَّاسٍ تُوُفِّيَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَأَنَا ابْنُ عَشْرِ سِنِينَ وَقَدْ قَرَأْتُ الْمُحْكَمَ‏.‏",
+      "source_hash_sha256": "b2cba7edcb90e12c95d91014fe94471058115d07bddf9cda1afbd983d6132f5a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Saʿîd ibn Jubayr rapporte que ce que vous appelez les sourates détaillées est ce qui est clairement établi. Il rapporte aussi qu’Ibn ʿAbbâs dit : « Le Messager d’Allah mourut alors que j’avais dix ans, et j’avais déjà appris les sourates clairement établies. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5d1fef9f-da8c-4f93-bb75-ce2891d9c770",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5036",
+      "reference": "Sahih al-Bukhari, hadith 5036, book 66, باب تَعْلِيمِ الصِّبْيَانِ الْقُرْآنَ",
+      "title": "باب تَعْلِيمِ الصِّبْيَانِ الْقُرْآنَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هُشَيْمٌ، أَخْبَرَنَا أَبُو بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ جَمَعْتُ الْمُحْكَمَ فِي عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقُلْتُ لَهُ وَمَا الْمُحْكَمُ قَالَ الْمُفَصَّلُ‏.‏",
+      "source_hash_sha256": "8ccc6aff1bd64e07d80cc32a0a94e056687bc267d7c29f6de351ca72eef2944b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbâs rapporte : « J’avais appris les sourates clairement établies du vivant du Messager d’Allah. » On lui demanda : « Qu’appelles-tu les sourates clairement établies ? » Il répondit : « Les sourates détaillées. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "64f4a33f-95a7-46a0-b61e-646828a32267",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5037",
+      "reference": "Sahih al-Bukhari, hadith 5037, book 66, بَابُ نِسْيَانِ الْقُرْآنِ وَهَلْ يَقُولُ نَسِيتُ آيَةَ كَذَا وَكَذَا",
+      "title": "بَابُ نِسْيَانِ الْقُرْآنِ وَهَلْ يَقُولُ نَسِيتُ آيَةَ كَذَا وَكَذَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا رَبِيعُ بْنُ يَحْيَى، حَدَّثَنَا زَائِدَةُ، حَدَّثَنَا هِشَامٌ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ سَمِعَ النَّبِيُّ صلى الله عليه وسلم رَجُلاً يَقْرَأُ فِي الْمَسْجِدِ فَقَالَ ‏\"‏ يَرْحَمُهُ اللَّهُ لَقَدْ أَذْكَرَنِي كَذَا وَكَذَا آيَةً مِنْ سُورَةِ كَذَا ‏\"‏‏.‏",
+      "source_hash_sha256": "72b0b682e9b20a6d101f06c2d91ff45bc22eecc3c43f50ee46700c82d34b425b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte que le Prophète entendit un homme réciter dans la mosquée et dit : « Qu’Allah lui fasse miséricorde ! Il m’a rappelé tel et tel verset de telle sourate. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f27cdeab-aea9-46e0-ad8f-e2d2bee94114",
+      "url": "https://sunnah.com/bukhari:5032b",
+      "reason": "Le texte source ne contient qu’une chaîne de transmission et « la même chose » renvoyant à un rapport précédent ; le contenu du récit n’est pas présent. Le texte reste vide dans FR-LIB-HAD-BUKHARI-920 en attendant une source complète."
+    }
+  ]
+}
