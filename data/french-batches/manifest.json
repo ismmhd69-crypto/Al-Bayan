@@ -47624,6 +47624,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1049",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1049.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "four complete reports translated as private drafts; one Quran-quoting report and one transmission variant left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -51931,8 +51944,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9465,
-  "hadithLocalRemaining": 5061,
+  "hadithLocalDrafted": 9469,
+  "hadithLocalRemaining": 5057,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -57219,10 +57232,20 @@
       "source_id": "8435c050-078a-464e-8495-9bffaedbfbc1",
       "reason": "Cette entrée renvoie au récit précédent et ne le reproduit pas ; elle ne peut pas être traduite de façon autonome. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "a2304720-3390-4490-876a-ef80522ca120",
+      "reason": "Cette entrée ne reprend que des variantes de transmission et renvoie au récit précédent sans en donner le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "fd167f4a-efc9-4d95-b45b-49d188f5efd8",
+      "reason": "Cette entrée contient une citation du Coran ; garder la traduction entière vide conformément à la règle de conservation des citations coraniques.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3302,
+  "hadithMuslimDrafted": 3306,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1384
+  "hadithNeedsMo": 1386
 }
