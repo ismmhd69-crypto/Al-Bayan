@@ -2346,3 +2346,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-486` saves six private French drafts for Bukhari 2820–2825, covering generosity, prayers for protection, the Battle of Uhud and migration after the conquest of Mecca.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,531 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 164. Total local hadith rows not drafted: 12,131, including held records.
+
+### 2026-10-29: Bukhari 2826–2831 source review
+
+- `FR-LIB-HAD-BUKHARI-487` saves five private French drafts for Bukhari 2826–2830. Bukhari 2831 quotes Quran 4:95, so the full report remains blank pending an approved, attributed French Quran translation.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran quotation hold. No database writes or publication occurred. Bukhari local drafts: 2,547 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 165. Total local hadith rows not drafted: 12,108, including held records.
