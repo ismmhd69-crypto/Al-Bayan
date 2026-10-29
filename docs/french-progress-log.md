@@ -2956,3 +2956,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-608` saves six private French drafts about honesty, plague, fairness, and earlier prophets.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,105 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 221. Total local hadith rows not drafted: 11,552, including held records.
+
+### 2026-10-29: Bukhari 3478–3483
+
+- `FR-LIB-HAD-BUKHARI-609` saves six private French drafts about repentance, generosity, and kindness to animals.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,111 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 221. Total local hadith rows not drafted: 11,546, including held records.
