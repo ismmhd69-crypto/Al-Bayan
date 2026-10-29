@@ -9616,3 +9616,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0497 saves five private French drafts about making up a deceased person’s fasts and the conduct and reward of fasting. Muslim 1149e refers to an earlier report without reproducing its full text, so it remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1151e–1153b
+
+- FR-LIB-HAD-MUSLIM-0498 saves four private French drafts about the reward and virtues of fasting. Muslim 1151g gives only a wording variant, and 1153b only a transmission chain; both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
