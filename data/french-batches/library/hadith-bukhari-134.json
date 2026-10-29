@@ -1,0 +1,140 @@
+{
+  "batch_id": "HADITH-BUKHARI-134",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T03:24:00.045Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a51f0243-b62c-47e2-85f1-bd01107b14df",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:742",
+      "reference": "Sahih al-Bukhari, hadith 742, book 10, باب الْخُشُوعِ فِي الصَّلاَةِ",
+      "title": "باب الْخُشُوعِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا غُنْدَرٌ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ أَقِيمُوا الرُّكُوعَ وَالسُّجُودَ، فَوَاللَّهِ إِنِّي لأَرَاكُمْ مِنْ بَعْدِي ـ وَرُبَّمَا قَالَ مِنْ بَعْدِ ظَهْرِي ـ إِذَا رَكَعْتُمْ وَسَجَدْتُمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "fb82e746f32a16e3484c75d1bb31cd82f9bf987682477940a194f6a7d0fd86c1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshar nous a rapporté : Ghun dar nous a rapporté : Shu‘ba nous a rapporté : j’ai entendu Qatada, d’après Anas ibn Malik, qui rapporte que le Prophète ﷺ a dit : « Accomplissez correctement l’inclinaison et la prosternation. Par Allah, je vous vois même derrière moi — ou peut-être a-t-il dit : derrière mon dos — lorsque vous vous inclinez et vous prosternez. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dfff5dba-2566-469f-bd1d-0a44c4a73555",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:743",
+      "reference": "Sahih al-Bukhari, hadith 743, book 10, باب مَا يَقُولُ بَعْدَ التَّكْبِيرِ",
+      "title": "باب مَا يَقُولُ بَعْدَ التَّكْبِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم وَأَبَا بَكْرٍ وَعُمَرَ ـ رضى الله عنهما ـ كَانُوا يَفْتَتِحُونَ الصَّلاَةَ بِ ـ ‏[quran sura=\"1\" aya_start=\"2\" aya_end=\"2\"]{‏الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ‏}‏",
+      "source_hash_sha256": "faef84745bc610d661163e33d9ced7f25d538de615d992e9ded9fc0641abff4f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "366b0252-49fe-454a-9b20-cdde8c45e4c2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:744",
+      "reference": "Sahih al-Bukhari, hadith 744, book 10, باب مَا يَقُولُ بَعْدَ التَّكْبِيرِ",
+      "title": "باب مَا يَقُولُ بَعْدَ التَّكْبِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، قَالَ حَدَّثَنَا عُمَارَةُ بْنُ الْقَعْقَاعِ، قَالَ حَدَّثَنَا أَبُو زُرْعَةَ، قَالَ حَدَّثَنَا أَبُو هُرَيْرَةَ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَسْكُتُ بَيْنَ التَّكْبِيرِ وَبَيْنَ الْقِرَاءَةِ إِسْكَاتَةً ـ قَالَ أَحْسِبُهُ قَالَ هُنَيَّةً ـ فَقُلْتُ بِأَبِي وَأُمِّي يَا رَسُولَ اللَّهِ، إِسْكَاتُكَ بَيْنَ التَّكْبِيرِ وَالْقِرَاءَةِ مَا تَقُولُ قَالَ ‏\"‏ أَقُولُ اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَاىَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنَ الْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْ خَطَايَاىَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ ‏\"‏‏.‏",
+      "source_hash_sha256": "dd425ecd6870c24523d72d599bac6adad1dda9e7a705cf5d05f581f1716bd882",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Moussa ibn Ismaïl nous a rapporté : Abd al-Wahid ibn Ziyad nous a rapporté : Umara ibn al-Qa‘qa‘ nous a rapporté : Abu Zur‘a nous a rapporté : Abu Hurayra nous a rapporté que le Messager d’Allah ﷺ gardait un bref silence entre le takbir et la récitation — je crois qu’il a dit : un court instant. Je lui dis : « Que mon père et ma mère soient sacrifiés pour toi, ô Messager d’Allah ! Que dis-tu pendant ce silence entre le takbir et la récitation ? » Il répondit : « Je dis : Ô Allah, éloigne-moi de mes péchés comme Tu as éloigné l’Orient de l’Occident. Ô Allah, purifie-moi de mes péchés comme on purifie un vêtement blanc de la souillure. Ô Allah, lave mes péchés avec l’eau, la neige et la grêle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d0524b87-f487-40ce-b8dc-3399ec236756",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:746",
+      "reference": "Sahih al-Bukhari, hadith 746, book 10, باب رَفْعِ الْبَصَرِ إِلَى الإِمَامِ فِي الصَّلاَةِ",
+      "title": "باب رَفْعِ الْبَصَرِ إِلَى الإِمَامِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا عَبْدُ الْوَاحِدِ، قَالَ حَدَّثَنَا الأَعْمَشُ، عَنْ عُمَارَةَ بْنِ عُمَيْرٍ، عَنْ أَبِي مَعْمَرٍ، قَالَ قُلْنَا لِخَبَّابٍ أَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ فِي الظُّهْرِ وَالْعَصْرِ قَالَ نَعَمْ‏.‏ قُلْنَا بِمَ كُنْتُمْ تَعْرِفُونَ ذَاكَ قَالَ بِاضْطِرَابِ لِحْيَتِهِ‏.‏",
+      "source_hash_sha256": "144f016096ab45c2139e9952d3fef9e9c35c89dbbbf6233794470049861bf9e4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Moussa nous a rapporté : Abd al-Wahid nous a rapporté : al-A‘mash nous a rapporté, d’après Umara ibn Umayr, d’après Abu Ma‘mar, qui dit : « Nous demandâmes à Khabbab : “Le Messager d’Allah ﷺ récitait-il pendant les prières de dhuhr et d’asr ?” Il répondit : “Oui.” Nous demandâmes : “À quoi le reconnaissiez-vous ?” Il répondit : “Au mouvement de sa barbe.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ea649b3-4f10-420d-b5fc-c749780c9ca3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:747",
+      "reference": "Sahih al-Bukhari, hadith 747, book 10, باب رَفْعِ الْبَصَرِ إِلَى الإِمَامِ فِي الصَّلاَةِ",
+      "title": "باب رَفْعِ الْبَصَرِ إِلَى الإِمَامِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجٌ، حَدَّثَنَا شُعْبَةُ، قَالَ أَنْبَأَنَا أَبُو إِسْحَاقَ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ يَزِيدَ، يَخْطُبُ قَالَ حَدَّثَنَا الْبَرَاءُ، وَكَانَ، غَيْرَ كَذُوبٍ أَنَّهُمْ كَانُوا إِذَا صَلَّوْا مَعَ النَّبِيِّ صلى الله عليه وسلم فَرَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ قَامُوا قِيَامًا حَتَّى يَرَوْنَهُ قَدْ سَجَدَ‏.‏",
+      "source_hash_sha256": "a187c8dedb22de1a0d881fd498d612bca831ca49cab10b61cda60d2feb79866c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hajjaj nous a rapporté : Shu‘ba nous a rapporté : Abu Ishaq nous a informés : j’ai entendu Abd Allah ibn Yazid prononcer un sermon. Il nous a rapporté al-Bara, qui n’était pas un menteur : « Lorsque nous priions avec le Prophète ﷺ et qu’il relevait la tête après l’inclinaison, nous restions debout jusqu’à le voir se prosterner. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "dfff5dba-2566-469f-bd1d-0a44c4a73555",
+      "reason": "The report contains a Quran verse (Quran 1:2). The project has no approved, attributed French Quran translation; keep the entire report blank until that source is confirmed."
+    }
+  ]
+}

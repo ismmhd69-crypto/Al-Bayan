@@ -57,16 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 691,
+    "hadithBukhariDrafted": 696,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 691,
+    "hadithLocalDrafted": 696,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 13938,
-    "hadithNeedsMo": 32,
-    "hadithNeedsMo": 31,
+    "hadithLocalRemaining": 13933,
+    "hadithNeedsMo": 33,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -2459,6 +2458,34 @@
       "status": "six private local AI drafts"
     },
     {
+      "id": "FR-LIB-HAD-BUKHARI-134",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-134.json",
+      "sourceIds": ["a51f0243-b62c-47e2-85f1-bd01107b14df", "dfff5dba-2566-469f-bd1d-0a44c4a73555", "366b0252-49fe-454a-9b20-cdde8c45e4c2", "d0524b87-f487-40ce-b8dc-3399ec236756", "3ea649b3-4f10-420d-b5fc-c749780c9ca3"],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, rights, private unpublished state and Quran quote hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private local AI drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-134A",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-134a.json",
+      "sourceIds": ["90e83621-8a29-4a5a-a22f-f2fc9b87e47a"],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hash, ID, URL, rights, private unpublished state and single-item long-text rule passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "one private local AI draft"
+    },
+    {
       "id": "FR-LIB-HAD-BUKHARI-120",
       "contentType": "hadith",
       "language": "fr",
@@ -3007,7 +3034,7 @@
       "id": "QURAN-FR-EMBEDDED-QUOTES",
       "scope": "Hadith records containing Quran quotations",
       "status": "blocked",
-      "reason": "The current application Quran source configuration exposes English and German translations only. Hadiths containing Quran quotations are held until an approved, attributed French Quran translation is confirmed. Bukhari 610, 648, the combined 655/656 record, and 705 are recorded in batches FR-LIB-HAD-BUKHARI-111, FR-LIB-HAD-BUKHARI-117, FR-LIB-HAD-BUKHARI-118 and FR-LIB-HAD-BUKHARI-128. No French Quran text was generated or saved."
+      "reason": "The current application Quran source configuration exposes English and German translations only. Hadiths containing Quran quotations are held until an approved, attributed French Quran translation is confirmed. Bukhari 610, 648, the combined 655/656 record, 705 and 743 are recorded in batches FR-LIB-HAD-BUKHARI-111, FR-LIB-HAD-BUKHARI-117, FR-LIB-HAD-BUKHARI-118, FR-LIB-HAD-BUKHARI-128 and FR-LIB-HAD-BUKHARI-134. No French Quran text was generated or saved."
     },
     {
       "id": "ARABIC-HADITH-INCOMPLETE-MATN",
