@@ -7866,3 +7866,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0148 saves four private French drafts about reports superseding earlier reports and ritual washing when intercourse occurs without emission. Muslim 346b has an uncertain chain, and 347b gives only a transmission chain without the report text; both remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 617 Muslim drafts, 6,953 total hadith drafts, 7,676 remaining, and 292 Needs Mo items.
+
+### 2026-10-29: Muslim 348a–352
+
+- FR-LIB-HAD-MUSLIM-0149 saves five private French drafts about ritual washing after intercourse and ablution after cooked food. Muslim 348b gives only a variant wording and chain without the complete report, so it remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 622 Muslim drafts, 6,958 total hadith drafts, 7,671 remaining, and 293 Needs Mo items.
