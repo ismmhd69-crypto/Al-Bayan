@@ -2466,3 +2466,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-510` saves six private French drafts about the pledge at the Trench, migration and service, advice to a commander’s men, Jâbir’s camel, and the horse Mandûb. The long Jâbir report was translated in full.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,670 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 171. Total local hadith rows not drafted: 11,985, including held records.
+
+### 2026-10-29: Bukhari 2969–2974 source review
+
+- `FR-LIB-HAD-BUKHARI-511` saves six private French drafts on the horse Mandûb, the rule against taking back an alms, joining an expedition, a dispute over an injured tooth, and Qays ibn Sa‘d.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,676 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 171. Total local hadith rows not drafted: 11,979, including held records.
