@@ -11674,3 +11674,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1977f-1978b
 
 - FR-LIB-HAD-MUSLIM-0928 saves four private French drafts about the sacrifice rules during Dhû al-Hijja and four statements attributed to ‘Alî. Two chain-only entries remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1978c-1979b
+
+- FR-LIB-HAD-MUSLIM-0929 saves two private French drafts about sacrifices made for others and the incident at Badr involving ‘Alî and Hamza. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
