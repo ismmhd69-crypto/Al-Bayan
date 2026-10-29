@@ -13160,3 +13160,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Batch FR-LIB-HAD-MUSLIM-1268 contains one long report about the slander against ʿĀʾisha. It remains blank under Needs Mo because the report includes several Quran quotations and authorized French wording and attributions are not confirmed.
 - The focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0; French drafts saved: 0. No database writes or publication.
 - Recounted local hadith artifacts: 6,336 Bukhari and 4,959 Muslim drafts (11,295 total); 2,810 held Needs Mo; 14,093 sources represented; 536 not yet exported. Local hadith records without French drafts: 3,334. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2770b–2773b, batch 1269
+
+- Batch FR-LIB-HAD-MUSLIM-1269 covers six reports. Two complete reports are translated. Three entries that only summarize or vary prior reports and one report containing Quran quotations remain blank under Needs Mo.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Two private local drafts saved.
+- Recounted local hadith artifacts: 6,336 Bukhari and 4,961 Muslim drafts (11,297 total); 2,814 held Needs Mo; 14,099 sources represented; 530 not yet exported. Local hadith records without French drafts: 3,332. All 14,629 remain missing from the live French table.
