@@ -10756,3 +10756,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0725 saves four private French drafts about fruit sales and a debtor unable to repay. Muslim 1554b only points to a previous report, while the Arabic in 1554c appears damaged; both remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1556b–1559a
+
+- FR-LIB-HAD-MUSLIM-0726 saves four private French drafts about charitable planting, reducing a debt, and a creditor’s claim against an insolvent debtor. Muslim 1556b is only a transmission variant; 1558b refers to an earlier report and has a chain anomaly. Both remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
