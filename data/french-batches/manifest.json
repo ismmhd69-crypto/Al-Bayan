@@ -18783,6 +18783,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-873",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-873.json",
+      "sourceIds": [
+        "45f7b67e-783c-41ba-afea-2c28a9e9d4c5",
+        "23d67a60-5587-4896-a4a9-1fe4b3595c9c",
+        "cf91e2cf-2453-4bfc-b73e-386182f6db10",
+        "1a5958e1-16f8-4962-bca0-07435de95183",
+        "5085aa02-30f4-4f65-adac-aeb07efca742",
+        "82224a58-8d7e-4eb9-b711-2f0f81b6c70c"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 6,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -20513,6 +20534,42 @@
       "scope": "Sahih al-Bukhari 4772: direct Quran quotations and lexical commentary",
       "status": "blocked",
       "reason": "Hadith 4772 rapporte la mort d’Abû Tâlib et contient de nombreuses citations directes du Quran ainsi qu’un commentaire lexical sur plusieurs passages. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-872, dans l’attente de traductions françaises approuvées et attribuées."
+    },
+    {
+      "id": "HADITH-BUKHARI-4773-QURAN-28-85",
+      "scope": "Sahih al-Bukhari 4773: direct Quran quotations from 28:85",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 28:85. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-873, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4774-QURAN-38-86-44-10-44-16-30-1-2",
+      "scope": "Sahih al-Bukhari 4774: direct Quran quotations from 38:86, 44:10, 44:16, 30:1-2",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 38:86, 44:10, 44:16, 30:1-2. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-873, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4775-QURAN-30-30",
+      "scope": "Sahih al-Bukhari 4775: direct Quran quotations from 30:30",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 30:30. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-873, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4776-QURAN-6-82-31-13",
+      "scope": "Sahih al-Bukhari 4776: direct Quran quotations from 6:82, 31:13",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 6:82, 31:13. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-873, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4777-QURAN-31-34",
+      "scope": "Sahih al-Bukhari 4777: direct Quran quotations from 31:34",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 31:34. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-873, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4778-QURAN-31-34",
+      "scope": "Sahih al-Bukhari 4778: direct Quran quotations from 31:34",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 31:34. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-873, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4030,
