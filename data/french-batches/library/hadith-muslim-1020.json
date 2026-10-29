@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1020",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:51:48.670Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4706c1ef-fb39-42e0-882c-58808b26299c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2156a",
+      "reference": "Sahih Muslim, hadith 2156 a, book 38, باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "title": "باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَمُحَمَّدُ بْنُ رُمْحٍ، قَالاَ أَخْبَرَنَا اللَّيْثُ، - وَاللَّفْظُ لِيَحْيَى - ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنِ ابْنِ شِهَابٍ، أَنَّ سَهْلَ بْنَ سَعْدٍ السَّاعِدِيَّ، أَخْبَرَهُ أَنَّ رَجُلاً اطَّلَعَ فِي جُحْرٍ فِي بَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَمَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم مِدْرًى يَحُكُّ بِهِ رَأْسَهُ فَلَمَّا رَآهُ رَسُولُ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَوْ أَعْلَمُ أَنَّكَ تَنْظُرُنِي لَطَعَنْتُ بِهِ فِي عَيْنِكَ ‏\"‏ ‏.‏ وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّمَا جُعِلَ الإِذْنُ مِنْ أَجْلِ الْبَصَرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "45db5e8dab21761356551255e7b8a1ccc1fb42339228ae20f76ad1efae6e0348",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Un homme regarda à travers une ouverture de la porte du Messager d’Allah (ﷺ). Celui-ci tenait un peigne avec lequel il se grattait la tête. Lorsqu’il le vit, le Messager d’Allah (ﷺ) dit : « Si j’avais su que tu me regardais, je t’aurais percé l’œil avec. » Il ajouta : « La demande de permission a été instituée à cause du regard. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a8757c74-2053-41ed-8e8c-2980827640ec",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2156b",
+      "reference": "Sahih Muslim, hadith 2156 b, book 38, باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "title": "باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَنَّأَخْبَرَهُ أَنَّ رَجُلاً اطَّلَعَ مِنْ جُحْرٍ فِي بَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَمَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم مِدْرًى يُرَجِّلُ بِهِ رَأْسَهُ فَقَالَ لَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ أَعْلَمُ أَنَّكَ تَنْظُرُ طَعَنْتُ بِهِ فِي عَيْنِكَ إِنَّمَا جَعَلَ اللَّهُ الإِذْنَ مِنْ أَجْلِ الْبَصَرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ab38e81112969fa108c56380f013e7d8907321e7b7876f69b29d166ff07a1532",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "41c02796-5d72-4ee9-af36-90116aa5639a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2156c",
+      "reference": "Sahih Muslim, hadith 2156 c, book 38, باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "title": "باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، وَابْنُ أَبِي عُمَرَ، قَالُوا حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، ح وَحَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، حَدَّثَنَا مَعْمَرٌ، كِلاَهُمَا عَنِ الزُّهْرِيِّ، عَنْ سَهْلِ بْنِ سَعْدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَ حَدِيثِ اللَّيْثِ وَيُونُسَ ‏.‏",
+      "source_hash_sha256": "6aacc4d454daaea4b7870847c804de4f8c827a177880701971c3f95a659dea2b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "639e071c-2763-42ed-8c3d-c5b1464e3990",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2157",
+      "reference": "Sahih Muslim, hadith 2157, book 38, باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "title": "باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَأَبُو كَامِلٍ فُضَيْلُ بْنُ حُسَيْنٍ وَقُتَيْبَةُ بْنُ سَعِيدٍ - وَاللَّفْظُ لِيَحْيَى وَأَبِي كَامِلٍ - قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ عُبَيْدِ، اللَّهِ بْنِ أَبِي بَكْرٍ عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ رَجُلاً، اطَّلَعَ مِنْ بَعْضِ حُجَرِ النَّبِيِّ صلى الله عليه وسلم فَقَامَ إِلَيْهِ بِمِشْقَصٍ أَوْ مَشَاقِصَ فَكَأَنِّي أَنْظُرُ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم يَخْتِلُهُ لِيَطْعُنَهُ ‏.‏",
+      "source_hash_sha256": "e28a5099565b86dc8fed14b0e6f4a5be261a266c161b83a8d8554e5c54c706c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Un homme regarda par l’une des ouvertures des appartements du Prophète (ﷺ). Celui-ci se leva et s’avança vers lui avec un poinçon, ou plusieurs poinçons. J’ai l’impression de voir encore le Messager d’Allah (ﷺ) se dissimuler pour le surprendre et le percer.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "83dbee68-da9e-48df-b20e-65355bb6a2ff",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2158a",
+      "reference": "Sahih Muslim, hadith 2158 a, book 38, باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "title": "باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنِ اطَّلَعَ فِي بَيْتِ قَوْمٍ بِغَيْرِ إِذْنِهِمْ فَقَدْ حَلَّ لَهُمْ أَنْ يَفْقَئُوا عَيْنَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ef9510eca92192691e375ffd211032b88ad3da4f1eb08fbb481f6aabe3aa1b1c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète (ﷺ) a dit : « Celui qui regarde dans la maison de gens sans leur permission leur donne le droit de lui crever l’œil. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4991df30-48d8-44ff-ad46-f8f91e148ef8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2158b",
+      "reference": "Sahih Muslim, hadith 2158 b, book 38, باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "title": "باب تَحْرِيمِ النَّظَرِ فِي بَيْتِ غَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَوْ أَنَّ رَجُلاً اطَّلَعَ عَلَيْكَ بِغَيْرِ إِذْنٍ فَخَذَفْتَهُ بِحَصَاةٍ فَفَقَأْتَ عَيْنَهُ مَا كَانَ عَلَيْكَ مِنْ جُنَاحٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ebb08673b0e2b211b4de4d09c6864a076c6030a826e703b0c91713b2d21c8f0d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah (ﷺ) a dit : « Si un homme te regarde sans permission et que tu lui lances un caillou qui lui crève l’œil, tu n’encours aucun blâme. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a8757c74-2053-41ed-8e8c-2980827640ec",
+      "reason": "Le texte source présente une anomalie de transcription dans la phrase de transmission (« أنّأخبره »). Garder la traduction française vide jusqu’à validation de la source.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "41c02796-5d72-4ee9-af36-90116aa5639a",
+      "reason": "Cette entrée renvoie aux versions précédentes sans reproduire le récit complet ; elle ne fournit qu’une variante de transmission. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
