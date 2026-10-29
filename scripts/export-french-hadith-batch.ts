@@ -42,7 +42,7 @@ async function main() {
       const prior = JSON.parse(fs.readFileSync(path.join(directory, name), "utf8")) as { items?: Array<{ source_id?: string; url?: string; text_french?: string; draft_status?: string }>; needs_mo?: Array<{ source_id?: string; url?: string }> };
       const processed: Array<{ source_id?: string; url?: string }> = [];
       for (const item of prior.items ?? []) {
-        if (item.text_french?.trim() || item.draft_status === "needs_mo_approved_french_quran_translation") processed.push(item);
+        if (item.text_french?.trim() || item.draft_status?.startsWith("needs_mo_")) processed.push(item);
         else throw new Error("prior_source_batch_has_pending_translations");
       }
       processed.push(...(prior.needs_mo ?? []));
