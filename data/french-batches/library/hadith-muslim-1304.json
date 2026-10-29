@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1304",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:29:44.167Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "82ef8b8c-a85b-4f3e-a41e-ca236a65d10d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2877c",
+      "reference": "Sahih Muslim, hadith 2877 c, book 53, باب الأَمْرِ بِحُسْنِ الظَّنِّ بِاللَّهِ تَعَالَى عِنْدَ الْمَوْتِ",
+      "title": "باب الأَمْرِ بِحُسْنِ الظَّنِّ بِاللَّهِ تَعَالَى عِنْدَ الْمَوْتِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو دَاوُدَ، سُلَيْمَانُ بْنُ مَعْبَدٍ حَدَّثَنَا أَبُو النُّعْمَانِ، عَارِمٌ حَدَّثَنَا مَهْدِيُّ بْنُ، مَيْمُونٍ حَدَّثَنَا وَاصِلٌ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ الأَنْصَارِيِّ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم قَبْلَ مَوْتِهِ بِثَلاَثَةِ أَيَّامٍ يَقُولُ ‏\"‏ لاَ يَمُوتَنَّ أَحَدُكُمْ إِلاَّ وَهُوَ يُحْسِنُ الظَّنَّ بِاللَّهِ عَزَّ وَجَلَّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f9e785bc0e5a229ec254c001367fd6d50c6cb9c353054c1564b5950ab8228f62",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Dāwūd Sulaymān ibn Maʿbad m’a rapporté : Abū al-Nuʿmān ʿĀrim nous a rapporté : Mahdī ibn Maymūn nous a rapporté : Wāṣil nous a rapporté, d’après Abū al-Zubayr, d’après Jābir ibn ʿAbd Allāh al-Anṣārī, qui a dit : J’ai entendu le Messager d’Allah ﷺ dire trois jours avant sa mort : « Que nul d’entre vous ne meure sans avoir une bonne opinion d’Allah, Puissant et Majestueux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3e81c792-12bc-489e-b7d8-9bddbfbd1042",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2878a",
+      "reference": "Sahih Muslim, hadith 2878 a, book 53, باب الأَمْرِ بِحُسْنِ الظَّنِّ بِاللَّهِ تَعَالَى عِنْدَ الْمَوْتِ",
+      "title": "باب الأَمْرِ بِحُسْنِ الظَّنِّ بِاللَّهِ تَعَالَى عِنْدَ الْمَوْتِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَعُثْمَانُ بْنُ أَبِي شَيْبَةَ، قَالاَ حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي سُفْيَانَ، عَنْ جَابِرٍ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ يُبْعَثُ كُلُّ عَبْدٍ عَلَى مَا مَاتَ عَلَيْهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8028ff1f35a633e32484ac142ef89c87ca78565483223a44ba554c664b56789d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd et ʿUthmān ibn Abī Shayba nous ont rapporté : Jarīr nous a rapporté, d’après al-Aʿmash, d’après Abū Sufyān, d’après Jābir, qui a dit : J’ai entendu le Prophète ﷺ dire : « Chaque serviteur sera ressuscité dans l’état où il est mort. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5b91514c-3b0c-4e39-812e-940647378100",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2878b",
+      "reference": "Sahih Muslim, hadith 2878 b, book 53, باب الأَمْرِ بِحُسْنِ الظَّنِّ بِاللَّهِ تَعَالَى عِنْدَ الْمَوْتِ",
+      "title": "باب الأَمْرِ بِحُسْنِ الظَّنِّ بِاللَّهِ تَعَالَى عِنْدَ الْمَوْتِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ نَافِعٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ سُفْيَانَ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ وَقَالَ عَنِ النَّبِيِّ صلى الله عليه وسلم وَلَمْ يَقُلْ سَمِعْتُ ‏.‏",
+      "source_hash_sha256": "8da401ba99c16ac5d5a5eccd0ec2f57d645f49c6b753e68fde5a57abd5d92b52",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "01fe8852-9362-4a91-aa32-42197a95b869",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2879",
+      "reference": "Sahih Muslim, hadith 2879, book 53, باب الأَمْرِ بِحُسْنِ الظَّنِّ بِاللَّهِ تَعَالَى عِنْدَ الْمَوْتِ",
+      "title": "باب الأَمْرِ بِحُسْنِ الظَّنِّ بِاللَّهِ تَعَالَى عِنْدَ الْمَوْتِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى التُّجِيبِيُّ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ، شِهَابٍ أَخْبَرَنِي حَمْزَةُ بْنُ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِذَا أَرَادَ اللَّهُ بِقَوْمٍ عَذَابًا أَصَابَ الْعَذَابُ مَنْ كَانَ فِيهِمْ ثُمَّ بُعِثُوا عَلَى أَعْمَالِهِمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "edd0f1786cbba89e27a84108efbeb5c7fe112f56057ce3c9118581926910defd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ḥarmala ibn Yaḥyā al-Tujībī m’a rapporté : Ibn Wahb nous a informés : Yūnus m’a rapporté, d’après Ibn Shihāb : Ḥamza ibn ʿAbd Allāh ibn ʿUmar m’a rapporté qu’ʿAbd Allāh ibn ʿUmar avait dit : J’ai entendu le Messager d’Allah ﷺ dire : « Lorsqu’Allah veut infliger un châtiment à un peuple, le châtiment atteint ceux qui se trouvent parmi eux, puis ils sont ressuscités selon leurs œuvres. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4cf6a06d-047d-4b03-97e3-dd3fbcb6551a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2880a",
+      "reference": "Sahih Muslim, hadith 2880 a, book 54, باب اقْتِرَابِ الْفِتَنِ وَفَتْحِ رَدْمِ يَأْجُوجَ وَمَأْجُوجَ",
+      "title": "باب اقْتِرَابِ الْفِتَنِ وَفَتْحِ رَدْمِ يَأْجُوجَ وَمَأْجُوجَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ زَيْنَبَ، بِنْتِ أُمِّ سَلَمَةَ عَنْ أُمِّ حَبِيبَةَ، عَنْ زَيْنَبَ بِنْتِ جَحْشٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم اسْتَيْقَظَ مِنْ نَوْمِهِ وَهُوَ يَقُولُ ‏\"‏ لاَ إِلَهَ إِلاَّ اللَّهُ وَيْلٌ لِلْعَرَبِ مِنْ شَرٍّ قَدِ اقْتَرَبَ فُتِحَ الْيَوْمَ مِنْ رَدْمِ يَأْجُوجَ وَمَأْجُوجَ مِثْلُ هَذِهِ ‏\"‏ ‏.‏ وَعَقَدَ سُفْيَانُ بِيَدِهِ عَشَرَةً ‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ أَنَهْلِكُ وَفِينَا الصَّالِحُونَ قَالَ ‏\"‏ نَعَمْ إِذَا كَثُرَ الْخَبَثُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "31b1a619d98ef1c9dc3be152853eb3ed4bc97a743c5dcae39c12eea55ae4f3b3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAmr al-Nāqid nous a rapporté : Sufyān ibn ʿUyayna nous a rapporté, d’après al-Zuhrī, d’après ʿUrwa, d’après Zaynab bint Umm Salama, d’après Umm Ḥabība, d’après Zaynab bint Jaḥsh, que le Prophète ﷺ se réveilla et dit : « Il n’y a de dieu qu’Allah ! Malheur aux Arabes à cause d’un mal qui approche. Une ouverture de cette taille a été faite aujourd’hui dans la barrière de Yaʾjūj et Maʾjūj. » Sufyān fit un cercle de dix avec ses doigts. Je demandai : « Ô Messager d’Allah, périrons-nous alors qu’il y a parmi nous des gens vertueux ? » Il répondit : « Oui, lorsque le mal se répandra. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "72581997-ce3a-44a9-94fa-36251694d5e1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2880b",
+      "reference": "Sahih Muslim, hadith 2880 b, book 54, باب اقْتِرَابِ الْفِتَنِ وَفَتْحِ رَدْمِ يَأْجُوجَ وَمَأْجُوجَ",
+      "title": "باب اقْتِرَابِ الْفِتَنِ وَفَتْحِ رَدْمِ يَأْجُوجَ وَمَأْجُوجَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَسَعِيدُ بْنُ عَمْرٍو الأَشْعَثِيُّ، وَزُهَيْرُ بْنُ حَرْبٍ، وَابْنُ، أَبِي عُمَرَ قَالُوا حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ وَزَادُوا فِي الإِسْنَادِ عَنْ سُفْيَانَ، فَقَالُوا عَنْ زَيْنَبَ بِنْتِ أَبِي سَلَمَةَ، عَنْ حَبِيبَةَ، عَنْ أُمِّ حَبِيبَةَ، عَنْ زَيْنَبَ بِنْتِ جَحْشٍ، ‏.‏",
+      "source_hash_sha256": "5d2dda39f97310f4e4befda81bb4c2e4c6a2704f16086e89447d7dda0a813d95",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "5b91514c-3b0c-4e39-812e-940647378100",
+      "reason": "Cette entrée renvoie au récit précédent et ne précise qu’une variante dans la chaîne de transmission. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "72581997-ce3a-44a9-94fa-36251694d5e1",
+      "reason": "Cette entrée ne fournit que des variantes de chaînes de transmission et renvoie au récit précédent, sans en reproduire le texte. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
