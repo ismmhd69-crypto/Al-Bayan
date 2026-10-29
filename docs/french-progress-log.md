@@ -10591,3 +10591,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0692 saves four private French drafts about emancipation and Aisha’s purchase and emancipation of Barira. Muslim 1503f and 1504c only provide variants or additions to another report and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1504d–1504i
+
+- FR-LIB-HAD-MUSLIM-0693 saves four private French drafts about Barira’s emancipation, the right of affiliation, and gifts given to Aisha. Muslim 1504e and 1504i provide only variants or references to another report and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
