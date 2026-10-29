@@ -7010,3 +7010,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1364 saves 5 private French drafts. Hadith 7465 directly quotes Quran 18:54; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,267 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 147. Total local hadith rows not drafted: 8,362, including held records.
+
+### 2026-10-29: Bukhari 7471–7476
+
+- FR-LIB-HAD-BUKHARI-1365 saves 6 private French drafts. All six records are translated as private drafts; the variant report in 7472 and wording alternative in 7476 are retained. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,273 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 147. Total local hadith rows not drafted: 8,356, including held records.
