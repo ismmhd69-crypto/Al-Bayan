@@ -1084,3 +1084,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-226` saves six private French drafts for Bukhari 1301–1306. They preserve the account of Abu Talha’s family, reports about patience and grief, and the variant wording in Umm Atiyya’s report about the pledge.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,202 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 62. Total local hadith rows not drafted: 13,427, including held records.
+### 2026-10-29: Bukhari 1307–1313 source review
+
+- `FR-LIB-HAD-BUKHARI-227` saves six private French drafts for Bukhari 1307–1313, including the combined 1312/1313 record. They preserve the differing funeral-procession instructions and the report emphasizing that the deceased was a human soul.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,208 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 62. Total local hadith rows not drafted: 13,421, including held records.
