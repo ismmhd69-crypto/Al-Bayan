@@ -3676,3 +3676,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-752` saves six private French drafts covering al-Hudaybiya, the pledge under the tree and ʿUmar’s aid to a widow.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,681 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 298. Total local hadith rows not drafted: 10,976, including held records.
+
+### 2026-10-29: Bukhari 4162–4167
+
+- `FR-LIB-HAD-BUKHARI-753` saves six private French drafts, preserving the separate reports about identifying the pledge tree and the later return to it.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,687 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 298. Total local hadith rows not drafted: 10,970, including held records.
