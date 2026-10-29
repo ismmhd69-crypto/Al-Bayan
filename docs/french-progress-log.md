@@ -7901,3 +7901,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0155 saves five private French drafts about tayammum, returning greetings, and ritual purity. Muslim 368d gives only a transmission chain and additions to the previous report, without repeating its full text, so it remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 649 Muslim drafts, 6,985 total hadith drafts, 7,644 remaining, and 302 Needs Mo items.
+
+### 2026-10-29: Muslim 373–375a
+
+- FR-LIB-HAD-MUSLIM-0156 saves six private French drafts about remembering Allah, ablution after using the toilet, and the invocation when entering a toilet. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 655 Muslim drafts, 6,991 total hadith drafts, 7,638 remaining, and 302 Needs Mo items.
