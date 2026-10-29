@@ -18088,6 +18088,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-837",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-837.json",
+      "sourceIds": [
+        "70ab197f-e2bf-4272-8373-49269effe2c6",
+        "7d9d56da-19b0-44b6-9af8-a9cdbfd7e5b2",
+        "0f7c1036-38af-4b03-9cfe-c0a0a21b960c",
+        "524f58c0-739c-4d8d-9e8f-a0b7bc842e2b",
+        "1ce07059-83c0-48fb-9d21-0681c4caea63",
+        "90a8c0df-db48-458b-bbb1-99cc222d1055"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19188,9 +19209,27 @@
       "scope": "Sahih al-Bukhari 4615: direct quotation of Quran 5:87",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 5:87. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-836, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4620-QURAN-5-93",
+      "scope": "Sahih al-Bukhari 4620: direct quotation of Quran 5:93",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 5:93. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-837, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4621-QURAN-5-101",
+      "scope": "Sahih al-Bukhari 4621: direct quotation of Quran 5:101",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 5:101. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-837, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4622-QURAN-5-101",
+      "scope": "Sahih al-Bukhari 4622: direct quotation of Quran 5:101",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 5:101. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-837, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3980,
-  "hadithLocalDrafted": 3980,
-  "hadithLocalRemaining": 10677
+  "hadithBukhariDrafted": 3983,
+  "hadithLocalDrafted": 3983,
+  "hadithLocalRemaining": 10674
 }

@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-BUKHARI-837",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:16:35.399Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "70ab197f-e2bf-4272-8373-49269effe2c6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4618",
+      "reference": "Sahih al-Bukhari, hadith 4618, book 65, باب قَوْلِهِ ‏ {‏إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ وَالأَنْصَابُ وَالأَزْلاَمُ رِجْسٌ مِنْ عَمَلِ الشَّيْطَانِ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ وَالأَنْصَابُ وَالأَزْلاَمُ رِجْسٌ مِنْ عَمَلِ الشَّيْطَانِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا صَدَقَةُ بْنُ الْفَضْلِ، أَخْبَرَنَا ابْنُ عُيَيْنَةَ، عَنْ عَمْرٍو، عَنْ جَابِرٍ، قَالَ صَبَّحَ أُنَاسٌ غَدَاةَ أُحُدٍ الْخَمْرَ فَقُتِلُوا مِنْ يَوْمِهِمْ جَمِيعًا شُهَدَاءَ، وَذَلِكَ قَبْلَ تَحْرِيمِهَا‏.‏",
+      "source_hash_sha256": "ba1306ac6dd23e0600cd9e31f3b2bfffbdd44ad7d0319677e854a3b344d1f4f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte : « Des gens commencèrent la journée d’Uḥud en ayant bu du vin et furent tous tués ce jour-là comme martyrs. Cela se passa avant que le vin ne soit interdit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7d9d56da-19b0-44b6-9af8-a9cdbfd7e5b2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4619",
+      "reference": "Sahih al-Bukhari, hadith 4619, book 65, باب قَوْلِهِ ‏ {‏إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ وَالأَنْصَابُ وَالأَزْلاَمُ رِجْسٌ مِنْ عَمَلِ الشَّيْطَانِ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ وَالأَنْصَابُ وَالأَزْلاَمُ رِجْسٌ مِنْ عَمَلِ الشَّيْطَانِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، أَخْبَرَنَا عِيسَى، وَابْنُ، إِدْرِيسَ عَنْ أَبِي حَيَّانَ، عَنِ الشَّعْبِيِّ، عَنِ ابْنِ عُمَرَ، قَالَ سَمِعْتُ عُمَرَ ـ رضى الله عنه ـ عَلَى مِنْبَرِ النَّبِيِّ صلى الله عليه وسلم يَقُولُ أَمَّا بَعْدُ أَيُّهَا النَّاسُ إِنَّهُ نَزَلَ تَحْرِيمُ الْخَمْرِ وَهْىَ مِنْ خَمْسَةٍ، مِنَ الْعِنَبِ وَالتَّمْرِ وَالْعَسَلِ وَالْحِنْطَةِ وَالشَّعِيرِ، وَالْخَمْرُ مَا خَامَرَ الْعَقْلَ‏.‏",
+      "source_hash_sha256": "4b0b473c24f9d51cfd0cba2c13a7c092b32574db1688e2379dfe475c99bc230d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUmar (qu’Allah l’agrée), debout sur la chaire du Prophète (paix et bénédictions sur lui), dit : « Ensuite, ô gens, l’interdiction du vin a été révélée. Il peut être fait de cinq choses : raisin, dattes, miel, blé et orge. Le vin est toute boisson qui trouble la raison. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0f7c1036-38af-4b03-9cfe-c0a0a21b960c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4620",
+      "reference": "Sahih al-Bukhari, hadith 4620, book 65, باب ‏{‏لَيْسَ عَلَى الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ جُنَاحٌ فِيمَا طَعِمُوا‏}‏ إِلَى قَوْلِهِ ‏ {‏وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ‏} ‏",
+      "title": "باب ‏{‏لَيْسَ عَلَى الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ جُنَاحٌ فِيمَا طَعِمُوا‏}‏ إِلَى قَوْلِهِ ‏ {‏وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو النُّعْمَانِ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، حَدَّثَنَا ثَابِتٌ، عَنْ أَنَسٍ ـ رضى الله عنه ـ أَنَّ الْخَمْرَ، الَّتِي أُهْرِيقَتِ الْفَضِيخُ‏.‏ وَزَادَنِي مُحَمَّدٌ عَنْ أَبِي النُّعْمَانِ قَالَ كُنْتُ سَاقِيَ الْقَوْمِ فِي مَنْزِلِ أَبِي طَلْحَةَ فَنَزَلَ تَحْرِيمُ الْخَمْرِ، فَأَمَرَ مُنَادِيًا فَنَادَى‏.‏ فَقَالَ أَبُو طَلْحَةَ اخْرُجْ فَانْظُرْ مَا هَذَا الصَّوْتُ قَالَ فَخَرَجْتُ فَقُلْتُ هَذَا مُنَادٍ يُنَادِي أَلاَ إِنَّ الْخَمْرَ قَدْ حُرِّمَتْ‏.‏ فَقَالَ لِي اذْهَبْ فَأَهْرِقْهَا‏.‏ قَالَ فَجَرَتْ فِي سِكَكِ الْمَدِينَةِ‏.‏ قَالَ وَكَانَتْ خَمْرُهُمْ يَوْمَئِذٍ الْفَضِيخَ فَقَالَ بَعْضُ الْقَوْمِ قُتِلَ قَوْمٌ وَهْىَ فِي بُطُونِهِمْ قَالَ فَأَنْزَلَ اللَّهُ [quran sura=\"5\" aya_start=\"93\" aya_end=\"93\"]‏{‏لَيْسَ عَلَى الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ جُنَاحٌ فِيمَا طَعِمُوا‏}‏‏.‏",
+      "source_hash_sha256": "bec7568888610ac033a07f860d27489f90376c75f574afc2163881b0f5af3670",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "524f58c0-739c-4d8d-9e8f-a0b7bc842e2b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4621",
+      "reference": "Sahih al-Bukhari, hadith 4621, book 65, باب قَوْلِهِ ‏ {‏لاَ تَسْأَلُوا عَنْ أَشْيَاءَ، إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏لاَ تَسْأَلُوا عَنْ أَشْيَاءَ، إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُنْذِرُ بْنُ الْوَلِيدِ بْنِ عَبْدِ الرَّحْمَنِ الْجَارُودِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ مُوسَى بْنِ أَنَسٍ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ خَطَبَ رَسُولُ اللَّهِ صلى الله عليه وسلم خُطْبَةً مَا سَمِعْتُ مِثْلَهَا قَطُّ، قَالَ ‏\"‏ لَوْ تَعْلَمُونَ مَا أَعْلَمُ لَضَحِكْتُمْ قَلِيلاً وَلَبَكَيْتُمْ كَثِيرًا ‏\"‏‏.‏ قَالَ فَغَطَّى أَصْحَابُ رَسُولِ اللَّهِ صلى الله عليه وسلم وُجُوهَهُمْ لَهُمْ خَنِينٌ، فَقَالَ رَجُلٌ مَنْ أَبِي قَالَ فُلاَنٌ فَنَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"5\" aya_start=\"101\" aya_end=\"101\"]{‏لاَ تَسْأَلُوا عَنْ أَشْيَاءَ إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ‏}‏‏.‏ رَوَاهُ النَّضْرُ وَرَوْحُ بْنُ عُبَادَةَ عَنْ شُعْبَةَ‏.‏",
+      "source_hash_sha256": "2cc94cc5457079e3dacbdec0c589481a276164952be46a8cf65fda45d71e9fb9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1ce07059-83c0-48fb-9d21-0681c4caea63",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4622",
+      "reference": "Sahih al-Bukhari, hadith 4622, book 65, باب قَوْلِهِ ‏ {‏لاَ تَسْأَلُوا عَنْ أَشْيَاءَ، إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏لاَ تَسْأَلُوا عَنْ أَشْيَاءَ، إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْفَضْلُ بْنُ سَهْلٍ، حَدَّثَنَا أَبُو النَّضْرِ، حَدَّثَنَا أَبُو خَيْثَمَةَ، حَدَّثَنَا أَبُو الْجُوَيْرِيَةِ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ كَانَ قَوْمٌ يَسْأَلُونَ رَسُولَ اللَّهِ صلى الله عليه وسلم اسْتِهْزَاءً، فَيَقُولُ الرَّجُلُ مَنْ أَبِي وَيَقُولُ الرَّجُلُ تَضِلُّ نَاقَتُهُ أَيْنَ نَاقَتِي فَأَنْزَلَ اللَّهُ فِيهِمْ هَذِهِ الآيَةَ ‏[quran sura=\"5\" aya_start=\"101\" aya_end=\"101\"]{‏يَا أَيُّهَا الَّذِينَ آمَنُوا لاَ تَسْأَلُوا عَنْ أَشْيَاءَ إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ‏}‏ حَتَّى فَرَغَ مِنَ الآيَةِ كُلِّهَا‏.‏",
+      "source_hash_sha256": "c74130d0000020b9ca4dfa9c48f6501c9af8485ea0791995e71469e91e33c978",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90a8c0df-db48-458b-bbb1-99cc222d1055",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4623",
+      "reference": "Sahih al-Bukhari, hadith 4623, book 65, باب ‏ {‏مَا جَعَلَ اللَّهُ مِنْ بَحِيرَةٍ وَلاَ سَائِبَةٍ وَلاَ وَصِيلَةٍ وَلاَ حَامٍ‏} ‏",
+      "title": "باب ‏ {‏مَا جَعَلَ اللَّهُ مِنْ بَحِيرَةٍ وَلاَ سَائِبَةٍ وَلاَ وَصِيلَةٍ وَلاَ حَامٍ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ صَالِحِ بْنِ كَيْسَانَ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، قَالَ الْبَحِيرَةُ الَّتِي يُمْنَعُ دَرُّهَا لِلطَّوَاغِيتِ فَلاَ يَحْلُبُهَا أَحَدٌ مِنَ النَّاسِ‏.‏ وَالسَّائِبَةُ كَانُوا يُسَيِّبُونَهَا لآلِهَتِهِمْ لاَ يُحْمَلُ عَلَيْهَا شَىْءٌ‏.‏ قَالَ وَقَالَ أَبُو هُرَيْرَةَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ رَأَيْتُ عَمْرَو بْنَ عَامِرٍ الْخُزَاعِيَّ يَجُرُّ قُصْبَهُ فِي النَّارِ، كَانَ أَوَّلَ مَنْ سَيَّبَ السَّوَائِبَ ‏\"‏‏.‏ وَالْوَصِيلَةُ النَّاقَةُ الْبِكْرُ تُبَكِّرُ فِي أَوَّلِ نِتَاجِ الإِبِلِ، ثُمَّ تُثَنِّي بَعْدُ بِأُنْثَى‏.‏ وَكَانُوا يُسَيِّبُونَهُمْ لِطَوَاغِيتِهِمْ إِنْ وَصَلَتْ إِحْدَاهُمَا بِالأُخْرَى لَيْسَ بَيْنَهُمَا ذَكَرٌ‏.‏ وَالْحَامِ فَحْلُ الإِبِلِ يَضْرِبُ الضِّرَابَ الْمَعْدُودَ، فَإِذَا قَضَى ضِرَابَهُ وَدَعُوهُ لِلطَّوَاغِيتِ وَأَعْفَوْهُ مِنَ الْحَمْلِ فَلَمْ يُحْمَلْ عَلَيْهِ شَىْءٌ وَسَمَّوْهُ الْحَامِيَ‏.‏ وَقَالَ لي أَبُو الْيَمَانِ أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، سَمِعْتُ سَعِيدًا، قَالَ يُخْبِرُهُ بِهَذَا قَالَ وَقَالَ أَبُو هُرَيْرَةَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم نَحْوَهُ‏.‏ وَرَوَاهُ ابْنُ الْهَادِ عَنِ ابْنِ شِهَابٍ عَنْ سَعِيدٍ عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "771e6941d4c8ed7016434fb14cb8a23218ec11110c437fa3d8d013abf735a58f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Saʿîd ibn al-Musayyib explique : « La bahîra était une bête dont on réservait le lait aux fausses divinités et que personne ne trayait. La sâʾiba était une bête que les gens consacraient à leurs idoles et sur laquelle on ne chargeait rien. » Abû Hurayra rapporte que le Messager d’Allah (paix et bénédictions sur lui) a dit : « J’ai vu ʿAmr ibn ʿÂmir al-Khuzâʿî traîner ses entrailles dans le Feu. Il fut le premier à consacrer des bêtes en sâʾiba. » La waṣîla était une chamelle qui donnait d’abord naissance à une femelle, puis à une autre femelle. Si deux femelles se succédaient sans qu’un mâle naisse entre elles, les gens les consacraient à leurs fausses divinités. Le hâmi était un chameau reproducteur qui avait accompli le nombre de saillies fixé ; ils le libéraient alors au service de leurs fausses divinités et ne lui faisaient plus porter de charge. Ils l’appelaient hâmi. Abû al-Yamân rapporte également que Saʿîd transmit ce récit d’après az-Zuhrî. Abû Hurayra ajoutait : « J’ai entendu le Prophète rapporter quelque chose de semblable. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0f7c1036-38af-4b03-9cfe-c0a0a21b960c",
+      "url": "https://sunnah.com/bukhari:4620",
+      "reason": "Le rapport cite directement Quran 5:93. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-837, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "524f58c0-739c-4d8d-9e8f-a0b7bc842e2b",
+      "url": "https://sunnah.com/bukhari:4621",
+      "reason": "Le rapport cite directement Quran 5:101. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-837, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "1ce07059-83c0-48fb-9d21-0681c4caea63",
+      "url": "https://sunnah.com/bukhari:4622",
+      "reason": "Le rapport cite directement Quran 5:101. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-837, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
