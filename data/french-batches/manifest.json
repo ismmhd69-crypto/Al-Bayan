@@ -17710,6 +17710,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-818",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-818.json",
+      "sourceIds": [
+        "94ea425e-8bb3-449c-ae7a-c07d65aea607",
+        "d7d50f34-13b9-4f03-b80a-9f3b1158c982",
+        "36c556ee-a751-4e3b-9d9e-53d6a2e200f5",
+        "22f16577-6e7c-4dc3-9bb1-ea7186b165fe",
+        "102943cf-f0d5-4b61-a1e5-f84249405183",
+        "4fb45313-e1c8-4196-bf3f-000fbecfbe61"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 5,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18420,9 +18441,39 @@
       "scope": "Sahih al-Bukhari 4521: direct quotation of Quran 2:199",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:199. The complete record remains blank in FR-LIB-HAD-BUKHARI-817 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4522-QURAN-2-201",
+      "scope": "Sahih al-Bukhari 4522: direct quotation of Quran 2:201",
+      "status": "blocked",
+      "reason": "Le rapport cite directement la supplication de Quran 2:201. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4524-QURAN-12-110-2-214",
+      "scope": "Sahih al-Bukhari 4524: direct quotations of Quran 12:110 and 2:214",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 12:110 et Quran 2:214. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4526-QURAN-2-223",
+      "scope": "Sahih al-Bukhari 4526: direct quotation of Quran 2:223",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 2:223. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4528-QURAN-REFERENCE-MISMATCH",
+      "scope": "Sahih al-Bukhari 4528: direct Quranic wording with Quran reference mismatch (2:223 wording marked 2:221)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement un passage de Quran 2:223, mais le balisage de la source indique Quran 2:221. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française approuvée et d’une confirmation de la référence."
+    },
+    {
+      "id": "HADITH-BUKHARI-4529-QURAN-2-232",
+      "scope": "Sahih al-Bukhari 4529: direct quotation of Quran 2:232",
+      "status": "blocked",
+      "reason": "Le rapport cite directement une partie de Quran 2:232. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3953,
-  "hadithLocalDrafted": 3953,
-  "hadithLocalRemaining": 10704
+  "hadithBukhariDrafted": 3954,
+  "hadithLocalDrafted": 3954,
+  "hadithLocalRemaining": 10703
 }

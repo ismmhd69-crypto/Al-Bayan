@@ -1,0 +1,185 @@
+{
+  "batch_id": "HADITH-BUKHARI-818",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:07:45.63Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "94ea425e-8bb3-449c-ae7a-c07d65aea607",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4522",
+      "reference": "Sahih al-Bukhari, hadith 4522, book 65, باب ‏ {‏وَمِنْهُمْ مَنْ يَقُولُ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ‏} ‏",
+      "title": "باب ‏ {‏وَمِنْهُمْ مَنْ يَقُولُ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو مَعْمَرٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ، عَنْ عَبْدِ الْعَزِيزِ، عَنْ أَنَسٍ، قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم يَقُولُ ‏\"‏ اللَّهُمَّ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ‏\"‏‏.‏",
+      "source_hash_sha256": "88cd83ee31dbafa0092a813329381837150023da9293940b8418c8a620de9ccf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d7d50f34-13b9-4f03-b80a-9f3b1158c982",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4523",
+      "reference": "Sahih al-Bukhari, hadith 4523, book 65, باب ‏ {‏وَهُوَ أَلَدُّ الْخِصَامِ‏}‏",
+      "title": "باب ‏ {‏وَهُوَ أَلَدُّ الْخِصَامِ‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قَبِيصَةُ، حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ جُرَيْجٍ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنْ عَائِشَةَ، تَرْفَعُهُ قَالَ ‏\"‏ أَبْغَضُ الرِّجَالِ إِلَى اللَّهِ الأَلَدُّ الْخَصِمُ ‏\"‏‏.‏ وَقَالَ عَبْدُ اللَّهِ حَدَّثَنَا سُفْيَانُ، حَدَّثَنِي ابْنُ جُرَيْجٍ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "2a2778e264e78f7999843432d575d1ed60336662a652558f26223e256d8c4d13",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂʾisha (qu’Allah l’agrée) rapporte, en attribuant ces paroles au Prophète (paix et bénédictions sur lui) : « L’homme que Allah déteste le plus est l’adversaire acharné et querelleur. » Une autre chaîne de transmission rapporte la même parole d’après ʿÂʾisha et le Prophète.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "36c556ee-a751-4e3b-9d9e-53d6a2e200f5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4524",
+      "reference": "Sahih al-Bukhari, hadith 4524, 4525, book 65, باب ‏ {‏أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا الْجَنَّةَ وَلَمَّا يَأْتِكُمْ مَثَلُ الَّذِينَ خَلَوْا مِنْ قَبْلِكُمْ مَسَّتْهُمُ الْبَأْسَاءُ وَالضَّرَّاءُ‏} ‏ إِلَى ‏{‏قَرِيبٌ‏}‏",
+      "title": "باب ‏ {‏أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا الْجَنَّةَ وَلَمَّا يَأْتِكُمْ مَثَلُ الَّذِينَ خَلَوْا مِنْ قَبْلِكُمْ مَسَّتْهُمُ الْبَأْسَاءُ وَالضَّرَّاءُ‏} ‏ إِلَى ‏{‏قَرِيبٌ‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا هِشَامٌ، عَنِ ابْنِ جُرَيْجٍ، قَالَ سَمِعْتُ ابْنَ أَبِي مُلَيْكَةَ، يَقُولُ قَالَ ابْنُ عَبَّاسٍ ـ رضى الله عنهما ـ ‏[quran sura=\"12\" aya_start=\"110\" aya_end=\"110\"]{‏حَتَّى إِذَا اسْتَيْأَسَ الرُّسُلُ وَظَنُّوا أَنَّهُمْ قَدْ كُذِبُوا‏}‏ خَفِيفَةً، ذَهَبَ بِهَا هُنَاكَ، وَتَلاَ ‏[quran sura=\"2\" aya_start=\"214\" aya_end=\"214\"]{‏حَتَّى يَقُولَ الرَّسُولُ وَالَّذِينَ آمَنُوا مَعَهُ مَتَى نَصْرُ اللَّهِ أَلاَ إِنَّ نَصْرَ اللَّهِ قَرِيبٌ‏}‏ فَلَقِيتُ عُرْوَةَ بْنَ الزُّبَيْرِ فَذَكَرْتُ لَهُ ذَلِكَ فَقَالَ قَالَتْ عَائِشَةُ مَعَاذَ اللَّهِ، وَاللَّهِ مَا وَعَدَ اللَّهُ رَسُولَهُ مِنْ شَىْءٍ قَطُّ إِلاَّ عَلِمَ أَنَّهُ كَائِنٌ قَبْلَ أَنْ يَمُوتَ، وَلَكِنْ لَمْ يَزَلِ الْبَلاَءُ بِالرُّسُلِ حَتَّى خَافُوا أَنْ يَكُونَ مَنْ مَعَهُمْ يُكَذِّبُونَهُمْ، فَكَانَتْ تَقْرَؤُهَا ‏[quran sura=\"12\" aya_start=\"110\" aya_end=\"110\"]{‏وَظَنُّوا أَنَّهُمْ قَدْ كُذِّبُوا‏}‏ مُثَقَّلَةً‏.‏",
+      "source_hash_sha256": "a33dd1067627c14821f4df8cb8d65a077f5f0f5b3d3264e51ffeefee5e192f8e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "22f16577-6e7c-4dc3-9bb1-ea7186b165fe",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4526",
+      "reference": "Sahih al-Bukhari, hadith 4526, 4527, book 65, باب ‏ {‏نِسَاؤُكُمْ حَرْثٌ لَكُمْ فَأْتُوا حَرْثَكُمْ أَنَّى شِئْتُمْ وَقَدِّمُوا لأَنْفُسِكُمْ‏} ‏ الآيَةَ",
+      "title": "باب ‏ {‏نِسَاؤُكُمْ حَرْثٌ لَكُمْ فَأْتُوا حَرْثَكُمْ أَنَّى شِئْتُمْ وَقَدِّمُوا لأَنْفُسِكُمْ‏} ‏ الآيَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، أَخْبَرَنَا النَّضْرُ بْنُ شُمَيْلٍ، أَخْبَرَنَا ابْنُ عَوْنٍ، عَنْ نَافِعٍ، قَالَ كَانَ ابْنُ عُمَرَ ـ رضى الله عنهما ـ إِذَا قَرَأَ الْقُرْآنَ لَمْ يَتَكَلَّمْ حَتَّى يَفْرُغَ مِنْهُ، فَأَخَذْتُ عَلَيْهِ يَوْمًا، فَقَرَأَ سُورَةَ الْبَقَرَةِ حَتَّى انْتَهَى إِلَى مَكَانٍ قَالَ تَدْرِي فِيمَا أُنْزِلَتْ‏.‏ قُلْتُ لاَ‏.‏ قَالَ أُنْزِلَتْ فِي كَذَا وَكَذَا‏.‏ ثُمَّ مَضَى‏.‏ وَعَنْ عَبْدِ الصَّمَدِ، حَدَّثَنِي أَبِي، حَدَّثَنِي أَيُّوبُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، ‏[quran sura=\"2\" aya_start=\"223\" aya_end=\"223\"]{‏فَأْتُوا حَرْثَكُمْ أَنَّى شِئْتُمْ‏}‏ قَالَ يَأْتِيهَا فِي‏.‏ رَوَاهُ مُحَمَّدُ بْنُ يَحْيَى بْنِ سَعِيدٍ عَنْ أَبِيهِ عَنْ عُبَيْدِ اللَّهِ عَنْ نَافِعٍ عَنِ ابْنِ عُمَرَ‏.‏",
+      "source_hash_sha256": "1d93034dd474188fede530bd3a6ce85e47858038f883e78d6de8abdddb820d00",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "102943cf-f0d5-4b61-a1e5-f84249405183",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4528",
+      "reference": "Sahih al-Bukhari, hadith 4528, book 65, باب ‏ {‏نِسَاؤُكُمْ حَرْثٌ لَكُمْ فَأْتُوا حَرْثَكُمْ أَنَّى شِئْتُمْ وَقَدِّمُوا لأَنْفُسِكُمْ‏} ‏ الآيَةَ",
+      "title": "باب ‏ {‏نِسَاؤُكُمْ حَرْثٌ لَكُمْ فَأْتُوا حَرْثَكُمْ أَنَّى شِئْتُمْ وَقَدِّمُوا لأَنْفُسِكُمْ‏} ‏ الآيَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ الْمُنْكَدِرِ، سَمِعْتُ جَابِرًا ـ رضى الله عنه ـ قَالَ كَانَتِ الْيَهُودُ تَقُولُ إِذَا جَامَعَهَا مِنْ وَرَائِهَا جَاءَ الْوَلَدُ أَحْوَلَ‏.‏ فَنَزَلَتْ ‏[quran sura=\"2\" aya_start=\"221\" aya_end=\"221\"]{‏نِسَاؤُكُمْ حَرْثٌ لَكُمْ فَأْتُوا حَرْثَكُمْ أَنَّى شِئْتُمْ‏}‏",
+      "source_hash_sha256": "c022155a1d7ac3497f9554b6eeaa563207901a18cbf20fcbceb93eece0b6f88d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4fb45313-e1c8-4196-bf3f-000fbecfbe61",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4529",
+      "reference": "Sahih al-Bukhari, hadith 4529, book 65, باب ‏ {‏وَإِذَا طَلَّقْتُمُ النِّسَاءَ فَبَلَغْنَ أَجَلَهُنَّ فَلاَ تَعْضُلُوهُنَّ أَنْ يَنْكِحْنَ أَزْوَاجَهُنَّ‏} ‏",
+      "title": "باب ‏ {‏وَإِذَا طَلَّقْتُمُ النِّسَاءَ فَبَلَغْنَ أَجَلَهُنَّ فَلاَ تَعْضُلُوهُنَّ أَنْ يَنْكِحْنَ أَزْوَاجَهُنَّ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو عَامِرٍ الْعَقَدِيُّ، حَدَّثَنَا عَبَّادُ بْنُ رَاشِدٍ، حَدَّثَنَا الْحَسَنُ، قَالَ حَدَّثَنِي مَعْقِلُ بْنُ يَسَارٍ، قَالَ كَانَتْ لِي أُخْتٌ تُخْطَبُ إِلَىَّ‏.‏ وَقَالَ إِبْرَاهِيمُ عَنْ يُونُسَ، عَنِ الْحَسَنِ، حَدَّثَنِي مَعْقِلُ بْنُ يَسَارٍ،‏.‏ حَدَّثَنَا أَبُو مَعْمَرٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا يُونُسُ، عَنِ الْحَسَنِ، أَنَّ أُخْتَ، مَعْقِلِ بْنِ يَسَارٍ طَلَّقَهَا زَوْجُهَا، فَتَرَكَهَا حَتَّى انْقَضَتْ عِدَّتُهَا، فَخَطَبَهَا فَأَبَى مَعْقِلٌ، فَنَزَلَتْ ‏[quran sura=\"2\" aya_start=\"232\" aya_end=\"232\"]{‏فَلاَ تَعْضُلُوهُنَّ أَنْ يَنْكِحْنَ أَزْوَاجَهُنَّ‏}‏‏.‏",
+      "source_hash_sha256": "abdbe9f4d8c151cc817d0eac268ea0db83626a3811cbf505cbf3353a18128da5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "94ea425e-8bb3-449c-ae7a-c07d65aea607",
+      "url": "https://sunnah.com/bukhari:4522",
+      "reason": "Le rapport cite directement la supplication de Quran 2:201. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "source_id": "36c556ee-a751-4e3b-9d9e-53d6a2e200f5",
+      "url": "https://sunnah.com/bukhari:4524",
+      "reason": "Le rapport cite directement Quran 12:110 et Quran 2:214. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "source_id": "22f16577-6e7c-4dc3-9bb1-ea7186b165fe",
+      "url": "https://sunnah.com/bukhari:4526",
+      "reason": "Le rapport cite directement Quran 2:223. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "source_id": "102943cf-f0d5-4b61-a1e5-f84249405183",
+      "url": "https://sunnah.com/bukhari:4528",
+      "reason": "Le rapport cite directement un passage de Quran 2:223, mais le balisage de la source indique Quran 2:221. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française approuvée et d’une confirmation de la référence."
+    },
+    {
+      "source_id": "4fb45313-e1c8-4196-bf3f-000fbecfbe61",
+      "url": "https://sunnah.com/bukhari:4529",
+      "reason": "Le rapport cite directement une partie de Quran 2:232. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    }
+  ]
+}
