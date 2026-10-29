@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0132",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:50:54.444Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "155d1b25-6142-4660-b5d0-50f0483cdb14",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:301",
+      "reference": "Sahih Muslim, hadith 301, book 3, باب جَوَازِ غَسلِ الْحَائِضِ رَأْسَ زَوْجِهَا وَتَرْجِيلِهِ وَطَهَارَةِ سُؤْرِهَا وَالاِتِّكَاءِ فِي حِجْرِهَا وَقِرَاءَةِ الْقُرْآنِ فِيهِ",
+      "title": "باب جَوَازِ غَسلِ الْحَائِضِ رَأْسَ زَوْجِهَا وَتَرْجِيلِهِ وَطَهَارَةِ سُؤْرِهَا وَالاِتِّكَاءِ فِي حِجْرِهَا وَقِرَاءَةِ الْقُرْآنِ فِيهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا دَاوُدُ بْنُ عَبْدِ الرَّحْمَنِ الْمَكِّيُّ، عَنْ مَنْصُورٍ، عَنْ أُمِّهِ، عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَتَّكِئُ فِي حِجْرِي وَأَنَا حَائِضٌ فَيَقْرَأُ الْقُرْآنَ ‏.‏",
+      "source_hash_sha256": "b3783f0d9c5507aac17e408ca74ac445e57975ece1b978071cafabf9447b6f30",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Dawud ibn Abd al-Rahman al-Makki nous a informés, d'après Mansur, d'après sa mère, d'après Aïcha, qui a dit : « Le Messager d'Allah ﷺ s'appuyait sur mes genoux alors que j'avais mes menstrues et récitait le Coran. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1f530974-749f-4983-b0d2-1618f726aed3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:302",
+      "reference": "Sahih Muslim, hadith 302, book 3, باب جَوَازِ غَسلِ الْحَائِضِ رَأْسَ زَوْجِهَا وَتَرْجِيلِهِ وَطَهَارَةِ سُؤْرِهَا وَالاِتِّكَاءِ فِي حِجْرِهَا وَقِرَاءَةِ الْقُرْآنِ فِيهِ",
+      "title": "باب جَوَازِ غَسلِ الْحَائِضِ رَأْسَ زَوْجِهَا وَتَرْجِيلِهِ وَطَهَارَةِ سُؤْرِهَا وَالاِتِّكَاءِ فِي حِجْرِهَا وَقِرَاءَةِ الْقُرْآنِ فِيهِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، حَدَّثَنَا ثَابِتٌ، عَنْ أَنَسٍ، أَنَّ الْيَهُودَ، كَانُوا إِذَا حَاضَتِ الْمَرْأَةُ فِيهِمْ لَمْ يُؤَاكِلُوهَا وَلَمْ يُجَامِعُوهُنَّ فِي الْبُيُوتِ فَسَأَلَ أَصْحَابُ النَّبِيِّ صلى الله عليه وسلم النَّبِيَّ صلى الله عليه وسلم فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"2\" aya_start=\"222\" aya_end=\"222\"]{‏ وَيَسْأَلُونَكَ عَنِ الْمَحِيضِ قُلْ هُوَ أَذًى فَاعْتَزِلُوا النِّسَاءَ فِي الْمَحِيضِ‏}‏ إِلَى آخِرِ الآيَةِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اصْنَعُوا كُلَّ شَىْءٍ إِلاَّ النِّكَاحَ ‏\"‏ ‏.‏ فَبَلَغَ ذَلِكَ الْيَهُودَ فَقَالُوا مَا يُرِيدُ هَذَا الرَّجُلُ أَنْ يَدَعَ مِنْ أَمْرِنَا شَيْئًا إِلاَّ خَالَفَنَا فِيهِ فَجَاءَ أُسَيْدُ بْنُ حُضَيْرٍ وَعَبَّادُ بْنُ بِشْرٍ فَقَالاَ يَا رَسُولَ اللَّهِ إِنَّ الْيَهُودَ تَقُولُ كَذَا وَكَذَا ‏.‏ فَلاَ نُجَامِعُهُنَّ فَتَغَيَّرَ وَجْهُ رَسُولِ اللَّهِ صلى الله عليه وسلم حَتَّى ظَنَنَّا أَنْ قَدْ وَجَدَ عَلَيْهِمَا فَخَرَجَا فَاسْتَقْبَلَهُمَا هَدِيَّةٌ مِنْ لَبَنٍ إِلَى النَّبِيِّ صلى الله عليه وسلم فَأَرْسَلَ فِي آثَارِهِمَا فَسَقَاهُمَا فَعَرَفَا أَنْ لَمْ يَجِدْ عَلَيْهِمَا ‏.‏",
+      "source_hash_sha256": "5a24674c1392f7256dbd3e9f0a2dc3c951cf15513f5eca1ee6a4a4d25e8b82ed",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "83ea2ff2-7ab6-4d8c-b65a-f8cbce7e156d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:303a",
+      "reference": "Sahih Muslim, hadith 303 a, book 3, باب الْمَذْىِ ‏",
+      "title": "باب الْمَذْىِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، وَأَبُو مُعَاوِيَةَ وَهُشَيْمٌ عَنِ الأَعْمَشِ، عَنْ مُنْذِرِ بْنِ يَعْلَى، - وَيُكْنَى أَبَا يَعْلَى - عَنِ ابْنِ الْحَنَفِيَّةِ، عَنْ عَلِيٍّ، قَالَ كُنْتُ رَجُلاً مَذَّاءً وَكُنْتُ أَسْتَحْيِي أَنْ أَسْأَلَ النَّبِيَّ صلى الله عليه وسلم لِمَكَانِ ابْنَتِهِ فَأَمَرْتُ الْمِقْدَادَ بْنَ الأَسْوَدِ فَسَأَلَهُ فَقَالَ ‏\"‏ يَغْسِلُ ذَكَرَهُ وَيَتَوَضَّأُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "063f29070c698966ab5d036136e973f6c2bf498629d805ec9bf9992c61dc7d18",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Waki, Abu Muawiya et Hushaym nous ont rapporté, d'après al-A'mash, d'après Mundhir ibn Ya'la, surnommé Abu Ya'la, d'après Ibn al-Hanafiyya, d'après Ali, qui a dit : « Le madhy s'écoulait souvent de moi, et j'avais honte d'interroger le Prophète ﷺ en raison de sa fille. J'ai donc demandé à al-Miqdad ibn al-Aswad de l'interroger. Il répondit : “Il doit laver son sexe et faire les ablutions.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "93d645fa-1976-4de2-b590-8a307862b36b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:303b",
+      "reference": "Sahih Muslim, hadith 303 b, book 3, باب الْمَذْىِ ‏",
+      "title": "باب الْمَذْىِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ حَبِيبٍ الْحَارِثِيُّ، حَدَّثَنَا خَالِدٌ، - يَعْنِي ابْنَ الْحَارِثِ - حَدَّثَنَا شُعْبَةُ، أَخْبَرَنِي سُلَيْمَانُ، قَالَ سَمِعْتُ مُنْذِرًا، عَنْ مُحَمَّدِ بْنِ عَلِيٍّ، عَنْ عَلِيٍّ، أَنَّهُ قَالَ اسْتَحْيَيْتُ أَنْ أَسْأَلَ، النَّبِيَّ صلى الله عليه وسلم عَنِ الْمَذْىِ مِنْ أَجْلِ فَاطِمَةَ فَأَمَرْتُ الْمِقْدَادَ فَسَأَلَهُ فَقَالَ ‏\"‏ مِنْهُ الْوُضُوءُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "634682f5aa76d2867695cd734f0fd01254184d199885c718987c4c1056b23639",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Habib al-Harithi nous a rapporté : Khalid, c'est-à-dire Ibn al-Harith, nous a rapporté : Shu'ba nous a informés ; Sulayman a dit : J'ai entendu Mundhir, d'après Muhammad ibn Ali, d'après Ali, qui a dit : « J'avais honte d'interroger le Prophète ﷺ au sujet du madhy à cause de Fatima. J'ai donc demandé à al-Miqdad de l'interroger. Il répondit : “Il faut faire les ablutions à cause de cela.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "893090df-f187-4bd8-8804-d751af340a32",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:303c",
+      "reference": "Sahih Muslim, hadith 303 c, book 3, باب الْمَذْىِ ‏",
+      "title": "باب الْمَذْىِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، وَأَحْمَدُ بْنُ عِيسَى، قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مَخْرَمَةُ بْنُ بُكَيْرٍ، عَنْ أَبِيهِ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ عَلِيُّ بْنُ أَبِي طَالِبٍ أَرْسَلْنَا الْمِقْدَادَ بْنَ الأَسْوَدِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَسَأَلَهُ عَنِ الْمَذْىِ يَخْرُجُ مِنَ الإِنْسَانِ كَيْفَ يَفْعَلُ بِهِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تَوَضَّأْ وَانْضَحْ فَرْجَكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d283b49b6498e83a3a72beeeba6a46dd0894a3620f45302bcbc3e3e3953cb970",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Saïd al-Ayli et Ahmad ibn Isa nous ont rapporté : tous deux ont dit qu'Ibn Wahb nous avait rapporté ; Makhrama ibn Bukayr m'a informé, d'après son père, d'après Sulayman ibn Yasar, d'après Ibn Abbas, qui a dit : Ali ibn Abi Talib a dit : « Nous avons envoyé al-Miqdad ibn al-Aswad auprès du Messager d'Allah ﷺ pour l'interroger sur le madhy qui sort d'une personne et sur ce qu'elle doit faire. Le Messager d'Allah ﷺ répondit : “Fais les ablutions et asperge ton sexe d'eau.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "446ba80c-852c-40ed-bebd-5487a554786d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:304",
+      "reference": "Sahih Muslim, hadith 304, book 3, باب غَسْلِ الْوَجْهِ وَالْيَدَيْنِ إِذَا اسْتَيْقَظَ مِنَ النَّوْمِ ‏‏",
+      "title": "باب غَسْلِ الْوَجْهِ وَالْيَدَيْنِ إِذَا اسْتَيْقَظَ مِنَ النَّوْمِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ سَلَمَةَ بْنِ كُهَيْلٍ، عَنْ كُرَيْبٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَامَ مِنَ اللَّيْلِ فَقَضَى حَاجَتَهُ ثُمَّ غَسَلَ وَجْهَهُ وَيَدَيْهِ ثُمَّ نَامَ ‏.‏",
+      "source_hash_sha256": "b4357788921d645ee4c824eb97fdb5b423545ae4f35bd8407a5387e5dd118626",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Abu Kurayb nous ont rapporté : Waki nous a rapporté, d'après Sufyan, d'après Salama ibn Kuhayl, d'après Kurayb, d'après Ibn Abbas, qui a dit : « Le Prophète ﷺ se leva pendant la nuit, se soulagea, puis se lava le visage et les mains avant de se rendormir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1f530974-749f-4983-b0d2-1618f726aed3",
+      "reason": "Ce récit cite directement le verset 2:222 du Coran. Garder toute la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}

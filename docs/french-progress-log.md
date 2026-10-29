@@ -7781,3 +7781,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0131 saves six private French drafts about Aïcha washing and combing the Prophet’s hair, handing items to him from the mosque, and sharing a vessel and food while menstruating. The reports’ full narrator chains and wording differences are retained.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 544 Muslim drafts, 6,880 total hadith drafts, 7,749 remaining, and 269 Needs Mo items.
+
+### 2026-10-29: Muslim 301–304
+
+- FR-LIB-HAD-MUSLIM-0132 saves five private French drafts about reciting the Quran while menstruating, reports on madhy, and washing after waking. Muslim 302 quotes Quran 2:222, so its full French text remains blank under Needs Mo until an approved, attributed French Quran translation with permitted use is confirmed.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 549 Muslim drafts, 6,885 total hadith drafts, 7,744 remaining, and 270 Needs Mo items.
