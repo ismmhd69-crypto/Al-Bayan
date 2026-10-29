@@ -11458,3 +11458,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1844b-1846b
 
 - FR-LIB-HAD-MUSLIM-0874 saves four private French drafts about leadership, patience amid favoritism, and the duties of leaders and their subjects. Two incomplete cross-references remain blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1847a-1848d
+
+- FR-LIB-HAD-MUSLIM-0875 saves six private French drafts about social turmoil, allegiance, and the Muslim community. Full reports and distinct chain or wording variants are retained, including variants on whether the Prophet was explicitly named and on sparing believers. No Quran verse is quoted. No database write or publication occurred.
