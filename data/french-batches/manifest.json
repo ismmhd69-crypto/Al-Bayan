@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 784,
+    "hadithMuslimDrafted": 787,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 7120,
+    "hadithLocalDrafted": 7123,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7509,
-    "hadithNeedsMo": 359,
+    "hadithLocalRemaining": 7506,
+    "hadithNeedsMo": 362,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43555,6 +43555,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0720",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0720.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "three complete reports translated as private drafts; three incomplete variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52674,6 +52687,21 @@
     {
       "source_id": "c80d6a18-f2a3-4214-a230-320532fd9153",
       "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "6e5beb69-8680-4d02-8d2c-61a76ba23dee",
+      "reason": "Cette entrée renvoie au récit précédent et n’en reproduit pas le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1026f957-6cef-40b4-85a5-d360a9bd3f01",
+      "reason": "Cette entrée renvoie au récit précédent et n’en reproduit pas le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ee340286-3ddb-423e-baf9-3c842c5ccc17",
+      "reason": "Cette entrée renvoie au récit précédent et n’en reproduit pas le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],

@@ -10726,3 +10726,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0719 saves four private French drafts about the reports on land rental and Rafi ibn Khadij’s explanation. Muslim 1547g and 1547i only refer to the preceding report and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1547l–1548c
+
+- FR-LIB-HAD-MUSLIM-0720 saves three private French drafts explaining land-rental practices. Muslim 1547n and 1548b–c refer to another report without reproducing its content and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
