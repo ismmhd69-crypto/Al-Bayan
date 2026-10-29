@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0122",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:44:06.836Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6ce44450-a7ae-413d-b42e-dfc1e762df64",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:274j",
+      "reference": "Sahih Muslim, hadith 274j, book 2, باب الْمَسْحِ عَلَى النَّاصِيَةِ وَالْعِمَامَةِ ‏‏",
+      "title": "باب الْمَسْحِ عَلَى النَّاصِيَةِ وَالْعِمَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، حَدَّثَنَا الْمُعْتَمِرُ، عَنْ أَبِيهِ، عَنْ بَكْرٍ، عَنِ الْحَسَنِ، عَنِ ابْنِ الْمُغِيرَةِ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "e506f427aaddb9eba84f331bc492209822cd2527e1f840604a6cb2c3c8f5314f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne rapporte que la chaîne de transmission et renvoie au récit précédent avec une formulation semblable, sans reprendre son texte complet. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "source_id": "ce4037c5-6821-48eb-9144-46c8f9412c22",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:274k",
+      "reference": "Sahih Muslim, hadith 274k, book 2, باب الْمَسْحِ عَلَى النَّاصِيَةِ وَالْعِمَامَةِ ‏‏",
+      "title": "باب الْمَسْحِ عَلَى النَّاصِيَةِ وَالْعِمَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، وَمُحَمَّدُ بْنُ حَاتِمٍ، جَمِيعًا عَنْ يَحْيَى الْقَطَّانِ، قَالَ ابْنُ حَاتِمٍ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ التَّيْمِيِّ، عَنْ بَكْرِ بْنِ عَبْدِ اللَّهِ، عَنِ الْحَسَنِ، عَنِ ابْنِ الْمُغِيرَةِ بْنِ شُعْبَةَ، عَنْ أَبِيهِ، قَالَ بَكْرٌ وَقَدْ سَمِعْتُ مِنِ ابْنِ الْمُغِيرَةِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم تَوَضَّأَ فَمَسَحَ بِنَاصِيَتِهِ وَعَلَى الْعِمَامَةِ وَعَلَى الْخُفَّيْنِ ‏.‏",
+      "source_hash_sha256": "4b697a43e4f4962c78574df47ef3b3d2420d92ca31a7a45a69acb0e3cb90ae8f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshar et Muhammad ibn Hatim nous ont rapporté, tous deux d’après Yahya al-Qattan. Ibn Hatim dit : Yahya ibn Sa‘id nous a rapporté, d’après al-Taymi, d’après Bakr ibn ‘Abd Allah, d’après al-Hasan, d’après Ibn al-Mughira ibn Shu‘ba, d’après son père, qui a dit : Bakr dit : J’ai entendu Ibn al-Mughira rapporter que le Prophète ﷺ fit ses ablutions et passa ses mains mouillées sur le devant de sa tête, son turban et ses chaussures en cuir.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4c1c1bd0-41d7-45db-a08a-b6167cf0796e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:274l",
+      "reference": "Sahih Muslim, hadith 274 l, book 4, باب تَقْدِيمِ الْجَمَاعَةِ مَنْ يُصَلِّي بِهِمْ إِذَا تَأَخَّرَ الإِمَامُ وَلَمْ يَخَافُوا مَفْسَدَةً بِالتَّقْدِيمِ",
+      "title": "باب تَقْدِيمِ الْجَمَاعَةِ مَنْ يُصَلِّي بِهِمْ إِذَا تَأَخَّرَ الإِمَامُ وَلَمْ يَخَافُوا مَفْسَدَةً بِالتَّقْدِيمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، وَحَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، جَمِيعًا عَنْ عَبْدِ الرَّزَّاقِ، قَالَ ابْنُ رَافِعٍ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، حَدَّثَنِي ابْنُ شِهَابٍ، عَنْ حَدِيثِ، عَبَّادِ بْنِ زِيَادٍ أَنَّ عُرْوَةَ بْنَ الْمُغِيرَةِ بْنِ شُعْبَةَ، أَخْبَرَهُ أَنَّ الْمُغِيرَةَ بْنَ شُعْبَةَ أَخْبَرَهُ أَنَّهُ، غَزَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم تَبُوكَ - قَالَ الْمُغِيرَةُ - فَتَبَرَّزَ رَسُولُ اللَّهِ صلى الله عليه وسلم قِبَلَ الْغَائِطِ فَحَمَلْتُ مَعَهُ إِدَاوَةً قَبْلَ صَلاَةِ الْفَجْرِ فَلَمَّا رَجَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِلَىَّ أَخَذْتُ أُهَرِيقُ عَلَى يَدَيْهِ مِنَ الإِدَاوَةِ وَغَسَلَ يَدَيْهِ ثَلاَثَ مَرَّاتٍ ثُمَّ غَسَلَ وَجْهَهُ ثُمَّ ذَهَبَ يُخْرِجُ جُبَّتَهُ عَنْ ذِرَاعَيْهِ فَضَاقَ كُمَّا جُبَّتِهِ فَأَدْخَلَ يَدَيْهِ فِي الْجُبَّةِ حَتَّى أَخْرَجَ ذِرَاعَيْهِ مِنْ أَسْفَلِ الْجُبَّةِ ‏.‏ وَغَسَلَ ذِرَاعَيْهِ إِلَى الْمِرْفَقَيْنِ ثُمَّ تَوَضَّأَ عَلَى خُفَّيْهِ ثُمَّ أَقْبَلَ - قَالَ الْمُغِيرَةُ - فَأَقْبَلْتُ مَعَهُ حَتَّى نَجِدُ النَّاسَ قَدْ قَدَّمُوا عَبْدَ الرَّحْمَنِ بْنَ عَوْفٍ فَصَلَّى لَهُمْ فَأَدْرَكَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِحْدَى الرَّكْعَتَيْنِ فَصَلَّى مَعَ النَّاسِ الرَّكْعَةَ الآخِرَةَ فَلَمَّا سَلَّمَ عَبْدُ الرَّحْمَنِ بْنُ عَوْفٍ قَامَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُتِمُّ صَلاَتَهُ فَأَفْزَعَ ذَلِكَ الْمُسْلِمِينَ فَأَكْثَرُوا التَّسْبِيحَ فَلَمَّا قَضَى النَّبِيُّ صلى الله عليه وسلم صَلاَتَهُ أَقْبَلَ عَلَيْهِمْ ثُمَّ قَالَ ‏\"‏ أَحْسَنْتُمْ ‏\"‏ ‏.‏ أَوْ قَالَ ‏\"‏ قَدْ أَصَبْتُمْ ‏\"‏ ‏.‏ يَغْبِطُهُمْ أَنْ صَلَّوُا الصَّلاَةَ لِوَقْتِهَا ‏.‏",
+      "source_hash_sha256": "f2222bdb0d522118c7cb2f772d2db5a0edce0064124ab83aa7558883688e9b04",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi‘ et Hasan ibn ‘Ali al-Hulwani m’ont rapporté, tous deux d’après ‘Abd al-Razzaq. Ibn Rafi‘ dit : ‘Abd al-Razzaq nous a rapporté, d’après Ibn Jurayj, qui m’a rapporté, d’après Ibn Shihab, d’après le récit de ‘Abbad ibn Ziyad, selon lequel ‘Urwa ibn al-Mughira ibn Shu‘ba lui avait rapporté que son père, al-Mughira ibn Shu‘ba, lui avait rapporté qu’il avait participé avec le Messager de Dieu ﷺ à l’expédition de Tabuk. Al-Mughira dit : Avant la prière de l’aube, le Messager de Dieu ﷺ s’éloigna pour faire ses besoins. J’emportai avec lui une outre d’eau. À son retour, je commençai à verser l’eau sur ses mains ; il se lava les mains trois fois, puis le visage. Il voulut retrousser sa tunique sur ses avant-bras, mais ses manches étaient trop étroites. Il passa les mains à l’intérieur de la tunique et en sortit les avant-bras par le bas. Il se lava les avant-bras jusqu’aux coudes, fit ses ablutions et passa ses mains mouillées sur ses chaussures en cuir. Il revint ensuite. J’allai avec lui rejoindre les gens, qui avaient désigné ‘Abd al-Rahman ibn ‘Awf pour les diriger dans la prière. Le Messager de Dieu ﷺ les rejoignit pendant l’une des deux unités de prière et accomplit avec eux la dernière. Lorsque ‘Abd al-Rahman ibn ‘Awf termina par la salutation finale, le Messager de Dieu ﷺ se leva pour compléter sa prière. Cela alarma les musulmans, qui multiplièrent les formules de glorification de Dieu. Quand le Prophète ﷺ eut terminé sa prière, il se tourna vers eux et dit : « Vous avez bien fait » — ou : « Vous avez eu raison » —, se réjouissant qu’ils aient accompli la prière à l’heure.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a9afbf6d-01b9-46b3-8335-24fca8316c3a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:274m",
+      "reference": "Sahih Muslim, hadith 274 m, book 4, باب تَقْدِيمِ الْجَمَاعَةِ مَنْ يُصَلِّي بِهِمْ إِذَا تَأَخَّرَ الإِمَامُ وَلَمْ يَخَافُوا مَفْسَدَةً بِالتَّقْدِيمِ",
+      "title": "باب تَقْدِيمِ الْجَمَاعَةِ مَنْ يُصَلِّي بِهِمْ إِذَا تَأَخَّرَ الإِمَامُ وَلَمْ يَخَافُوا مَفْسَدَةً بِالتَّقْدِيمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، وَالْحُلْوَانِيُّ، قَالاَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنِ ابْنِ جُرَيْجٍ، حَدَّثَنِي ابْنُ شِهَابٍ، عَنْ إِسْمَاعِيلَ بْنِ مُحَمَّدِ بْنِ سَعْدٍ، عَنْ حَمْزَةَ بْنِ الْمُغِيرَةِ، نَحْوَ حَدِيثِ عَبَّادٍ قَالَ الْمُغِيرَةُ فَأَرَدْتُ تَأْخِيرَ عَبْدِ الرَّحْمَنِ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ دَعْهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8d3419a9e55edfe2c07729498c495131756de207a6497baec376f4dc57acac31",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne rapporte que la chaîne de transmission et renvoie au récit précédent avec une formulation semblable, sans reprendre son texte complet. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "source_id": "4dd469ba-b888-40b9-be96-40db1e277224",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:275",
+      "reference": "Sahih Muslim, hadith 275, book 2, باب الْمَسْحِ عَلَى النَّاصِيَةِ وَالْعِمَامَةِ ‏‏",
+      "title": "باب الْمَسْحِ عَلَى النَّاصِيَةِ وَالْعِمَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا إِسْحَاقُ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، كِلاَهُمَا عَنِ الأَعْمَشِ، عَنِ الْحَكَمِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، عَنْ كَعْبِ بْنِ عُجْرَةَ، عَنْ بِلاَلٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم مَسَحَ عَلَى الْخُفَّيْنِ وَالْخِمَارِ ‏.‏ وَفِي حَدِيثِ عِيسَى حَدَّثَنِي الْحَكَمُ حَدَّثَنِي بِلاَلٌ وَحَدَّثَنِيهِ سُوَيْدُ بْنُ سَعِيدٍ حَدَّثَنَا عَلِيٌّ - يَعْنِي ابْنَ مُسْهِرٍ - عَنِ الأَعْمَشِ بِهَذَا الإِسْنَادِ وَقَالَ فِي الْحَدِيثِ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "88578cb1935ad3067e2649d203c0b838b5de4ae12b6caf96cfadbaf20d0253a5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba et Muhammad ibn al-‘Ala nous ont rapporté, tous deux d’après Abû Mu‘awiya. H. Ishaq nous a rapporté, d’après ‘Isa ibn Yunus. Tous deux rapportent d’après al-A‘mash, d’après al-Hakam, d’après ‘Abd al-Rahman ibn Abî Layla, d’après Ka‘b ibn ‘Ujra, d’après Bilal, que le Messager de Dieu ﷺ passa ses mains mouillées sur ses chaussures en cuir et son couvre-chef. Dans la version de ‘Isa, il est dit : « Al-Hakam m’a rapporté, d’après Bilal, qui m’a rapporté. » Suwayd ibn Sa‘id m’a également rapporté, d’après ‘Ali — Ibn Mushir —, d’après al-A‘mash, avec cette même chaîne. Sa version dit : « J’ai vu le Messager de Dieu ﷺ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9ce3b91f-6cd0-42d4-a329-084d8d64626a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:276a",
+      "reference": "Sahih Muslim, hadith 276a, book 2, باب التَّوْقِيتِ فِي الْمَسْحِ عَلَى الْخُفَّيْنِ ‏‏",
+      "title": "باب التَّوْقِيتِ فِي الْمَسْحِ عَلَى الْخُفَّيْنِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا الثَّوْرِيُّ، عَنْ عَمْرِو بْنِ قَيْسٍ الْمُلاَئِيِّ، عَنِ الْحَكَمِ بْنِ عُتَيْبَةَ، عَنِ الْقَاسِمِ بْنِ مُخَيْمِرَةَ، عَنْ شُرَيْحِ بْنِ هَانِئٍ، قَالَ أَتَيْتُ عَائِشَةَ أَسْأَلُهَا عَنِ الْمَسْحِ، عَلَى الْخُفَّيْنِ فَقَالَتْ عَلَيْكَ بِابْنِ أَبِي طَالِبٍ فَسَلْهُ فَإِنَّهُ كَانَ يُسَافِرُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَسَأَلْنَاهُ فَقَالَ جَعَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم ثَلاَثَةَ أَيَّامٍ وَلَيَالِيَهُنَّ لِلْمُسَافِرِ وَيَوْمًا وَلَيْلَةً لِلْمُقِيمِ ‏.‏ قَالَ وَكَانَ سُفْيَانُ إِذَا ذَكَرَ عَمْرًا أَثْنَى عَلَيْهِ ‏.‏",
+      "source_hash_sha256": "de45aeb4ca170a005592ed0a7298e46ca6f16b30aa8e19b8105072a204c6da68",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim al-Hanzali nous a rapporté, d’après ‘Abd al-Razzaq, qui nous a rapporté, d’après al-Thawri, d’après ‘Amr ibn Qays al-Mula’i, d’après al-Hakam ibn ‘Utayba, d’après al-Qasim ibn Mukhaymira, d’après Shurayh ibn Hani’, qui a dit : Je me rendis auprès de ‘A’isha pour l’interroger sur le fait de passer les mains mouillées sur les chaussures en cuir. Elle me dit : « Va voir Ibn Abî Talib et interroge-le, car il voyageait avec le Messager de Dieu ﷺ. » Nous l’interrogeâmes. Il répondit : « Le Messager de Dieu ﷺ a fixé la durée à trois jours et trois nuits pour le voyageur, et à un jour et une nuit pour celui qui réside chez lui. » Lorsqu’il mentionnait ‘Amr, Sufyan faisait son éloge.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6ce44450-a7ae-413d-b42e-dfc1e762df64",
+      "reason": "La source arabe ne rapporte que la chaîne de transmission et renvoie au récit précédent avec une formulation semblable, sans reprendre son texte complet. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "source_id": "a9afbf6d-01b9-46b3-8335-24fca8316c3a",
+      "reason": "La source arabe ne rapporte que la chaîne de transmission et renvoie au récit précédent avec une formulation semblable, sans reprendre son texte complet. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    }
+  ]
+}
