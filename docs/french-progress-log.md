@@ -2986,3 +2986,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-614` saves six private French drafts about the eastern trials and several Arab tribes.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,137 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 11,520, including held records.
+
+### 2026-10-29: Bukhari 3517–3521
+
+- `FR-LIB-HAD-BUKHARI-615` saves five private French drafts about Qahtân, tribal partisanship, and pre-Islamic practices.
+- All five records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,142 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 11,515, including held records.
