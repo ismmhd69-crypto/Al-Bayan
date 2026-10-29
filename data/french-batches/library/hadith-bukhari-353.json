@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-353",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:17:08.142Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f329fd17-c5ab-4fd3-80e9-19166c41ee7d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2063",
+      "reference": "Sahih al-Bukhari, hadith 2063, book 34, باب التِّجَارَةِ فِي الْبَحْرِ",
+      "title": "باب التِّجَارَةِ فِي الْبَحْرِ",
+      "source_published": true,
+      "text_original": "وَقَالَ اللَّيْثُ حَدَّثَنِي جَعْفَرُ بْنُ رَبِيعَةَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ هُرْمُزَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ ذَكَرَ رَجُلاً مِنْ بَنِي إِسْرَائِيلَ، خَرَجَ فِي الْبَحْرِ فَقَضَى حَاجَتَهُ‏.‏ وَسَاقَ الْحَدِيثَ‏.‏ حَدَّثَنِي عَبْدُ اللَّهِ بْنُ صَالِحٍ قَالَ حَدَّثَنِي اللَّيْثُ بِهَذَا‏.‏",
+      "source_hash_sha256": "f9d6222d5ead194295ab67c8ce4177d340e893916fc114ceaa766c148ce67c3f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaînes de transmission : al-Layth, Ja‘far ibn Rabî‘a, ‘Abd ar-Rahmân ibn Hurmuz et Abû Hurayra ; et ‘Abd Allâh ibn Sâlih, qui rapporte ce même récit d’al-Layth.\n\nLe Messager d’Allah évoqua un homme parmi les enfants d’Israël qui partit en mer pour satisfaire un besoin. Le transmetteur rapporte ensuite le récit.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4c4f4086-2dc8-4504-b1d4-785a381dda71",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2064",
+      "reference": "Sahih al-Bukhari, hadith 2064, book 34, بَابُ: {وَإِذَا رَأَوْا تِجَارَةً أَوْ لَهْوًا انْفَضُّوا إِلَيْهَا} وَقَوْلُهُ جَلَّ ذِكْرُهُ: {رِجَالٌ لاَ تُلْهِيهِمْ تِجَارَةٌ وَلاَ بَيْعٌ عَنْ ذِكْرِ اللَّهِ}",
+      "title": "بَابُ: {وَإِذَا رَأَوْا تِجَارَةً أَوْ لَهْوًا انْفَضُّوا إِلَيْهَا} وَقَوْلُهُ جَلَّ ذِكْرُهُ: {رِجَالٌ لاَ تُلْهِيهِمْ تِجَارَةٌ وَلاَ بَيْعٌ عَنْ ذِكْرِ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدٌ، قَالَ حَدَّثَنِي مُحَمَّدُ بْنُ فُضَيْلٍ، عَنْ حُصَيْنٍ، عَنْ سَالِمِ بْنِ أَبِي الْجَعْدِ، عَنْ جَابِرٍ ـ رضى الله عنه ـ قَالَ أَقْبَلَتْ عِيرٌ، وَنَحْنُ نُصَلِّي مَعَ النَّبِيِّ صلى الله عليه وسلم الْجُمُعَةَ، فَانْفَضَّ النَّاسُ إِلاَّ اثْنَىْ عَشَرَ رَجُلاً، فَنَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"62\" aya_start=\"11\" aya_end=\"11\"] {‏وَإِذَا رَأَوْا تِجَارَةً أَوْ لَهْوًا انْفَضُّوا إِلَيْهَا وَتَرَكُوكَ قَائِمًا ‏} ‏",
+      "source_hash_sha256": "0389e69bfeb77268c977bcb2ff2402180dd078604523986d90bed42af2e2a3ad",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f4f2ab11-f421-4307-96e0-5ab4742b3784",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2065",
+      "reference": "Sahih al-Bukhari, hadith 2065, book 34, بَابُ قَوْلِ اللَّهِ تَعَالَى: {أَنْفِقُوا مِنْ طَيِّبَاتِ مَا كَسَبْتُمْ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {أَنْفِقُوا مِنْ طَيِّبَاتِ مَا كَسَبْتُمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ أَبِي وَائِلٍ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِذَا أَنْفَقَتِ الْمَرْأَةُ مِنْ طَعَامِ بَيْتِهَا، غَيْرَ مُفْسِدَةٍ، كَانَ لَهَا أَجْرُهَا بِمَا أَنْفَقَتْ، وَلِزَوْجِهَا بِمَا كَسَبَ، وَلِلْخَازِنِ مِثْلُ ذَلِكَ، لاَ يَنْقُصُ بَعْضُهُمْ أَجْرَ بَعْضٍ شَيْئًا ‏\"‏‏.‏",
+      "source_hash_sha256": "7855019b95855cf64b6be7e9e1c5734e9e5facf5143867d2f2f425470bda2ebb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Uthmân ibn Abî Shayba, Jarîr, Mansûr, Abû Wâ’il, Masrûq et ‘Â’isha.\n\nLe Prophète a dit : « Lorsqu’une femme dépense de la nourriture provenant du foyer sans la gaspiller, elle reçoit une récompense pour ce qu’elle a dépensé ; son mari reçoit la récompense de ce qu’il a gagné, et la personne chargée de garder les provisions en reçoit une semblable. La récompense de l’un ne diminue en rien celle des autres. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d80104f2-5927-4162-9da5-dd1e7d658a2d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2066",
+      "reference": "Sahih al-Bukhari, hadith 2066, book 34, بَابُ قَوْلِ اللَّهِ تَعَالَى: {أَنْفِقُوا مِنْ طَيِّبَاتِ مَا كَسَبْتُمْ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {أَنْفِقُوا مِنْ طَيِّبَاتِ مَا كَسَبْتُمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى بْنُ جَعْفَرٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنْ هَمَّامٍ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا أَنْفَقَتِ الْمَرْأَةُ مِنْ كَسْبِ زَوْجِهَا عَنْ غَيْرِ أَمْرِهِ، فَلَهُ نِصْفُ أَجْرِهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "7f0a0297636529f2984a524e9f7f38a731729c74df246ab92dc630e95377bb61",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Yahyâ ibn Ja‘far, ‘Abd ar-Razzâq, Ma‘mar, Hammâm et Abû Hurayra.\n\nLe Prophète a dit : « Si une femme dépense une partie des biens acquis par son mari sans son autorisation, celui-ci reçoit la moitié de la récompense. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4038854a-4671-408b-85cd-1d1b1b94cbad",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2067",
+      "reference": "Sahih al-Bukhari, hadith 2067, book 34, باب مَنْ أَحَبَّ الْبَسْطَ فِي الرِّزْقِ",
+      "title": "باب مَنْ أَحَبَّ الْبَسْطَ فِي الرِّزْقِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي يَعْقُوبَ الْكِرْمَانِيُّ، حَدَّثَنَا حَسَّانُ، حَدَّثَنَا يُونُسُ، حَدَّثَنَا مُحَمَّدٌ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ سَرَّهُ أَنْ يُبْسَطَ لَهُ رِزْقُهُ أَوْ يُنْسَأَ لَهُ فِي أَثَرِهِ فَلْيَصِلْ رَحِمَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "475fc3c00cbe78af8aee5e2146bf40c998ec862402ff07e7bd9043ceb883dfb1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Abî Ya‘qûb al-Kirmânî, Hassân, Yûnus, Muhammad et Anas ibn Mâlik.\n\nAnas rapporte avoir entendu le Messager d’Allah dire : « Que celui qui souhaite voir sa subsistance s’accroître et sa vie se prolonger entretienne les liens de parenté. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8e8be027-e723-4631-8e24-6fd01d26113f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2068",
+      "reference": "Sahih al-Bukhari, hadith 2068, book 34, باب شِرَاءِ النَّبِيِّ صلى الله عليه وسلم بِالنَّسِيئَةِ",
+      "title": "باب شِرَاءِ النَّبِيِّ صلى الله عليه وسلم بِالنَّسِيئَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُعَلَّى بْنُ أَسَدٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، حَدَّثَنَا الأَعْمَشُ، قَالَ ذَكَرْنَا عِنْدَ إِبْرَاهِيمَ الرَّهْنَ فِي السَّلَمِ فَقَالَ حَدَّثَنِي الأَسْوَدُ عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم اشْتَرَى طَعَامًا مِنْ يَهُودِيٍّ إِلَى أَجَلٍ، وَرَهَنَهُ دِرْعًا مِنْ حَدِيدٍ‏.‏",
+      "source_hash_sha256": "084492579c5370c2ce6c9aafd19f1064e29f9ce2979e6dba9fb07eb8999fa7b8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Mu‘allâ ibn Asad, ‘Abd al-Wâhid, al-A‘mash, Ibrâhîm, al-Aswad et ‘Â’isha.\n\nAl-A‘mash rapporte : Nous parlions devant Ibrâhîm du gage dans une vente à livraison différée. Il dit : « Al-Aswad m’a rapporté d’après ‘Â’isha que le Prophète acheta de la nourriture à un Juif, avec paiement différé, et lui remit en gage une cuirasse de fer. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4c4f4086-2dc8-4504-b1d4-785a381dda71",
+      "reason": "This report directly quotes Quran 62:11. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
