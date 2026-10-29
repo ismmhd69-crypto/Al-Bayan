@@ -3105,14 +3105,19 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 3623–3630
 
 - `FR-LIB-HAD-BUKHARI-638` saves five private French drafts about Fâtima, the Ansâr, al-Hasan and the deaths of Ja‘far and Zayd. Bukhari 3627 remains blank because it quotes Quran 110:1, and no approved, attributed French Quran translation is confirmed.
-- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,235 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 235. Total local hadith rows not drafted: 11,428, including held records.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,235 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 235. Total local hadith rows not drafted: 11,422, including held records.
 
 ### 2026-10-29: Bukhari 3631–3636
 
 - `FR-LIB-HAD-BUKHARI-639` saves six private French drafts about household furnishings, Sa‘d ibn Mu‘âdh, prophetic dreams, a Torah passage and the splitting of the moon.
-- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,241 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 235. Total local hadith rows not drafted: 11,422, including held records.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,241 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 235. Total local hadith rows not drafted: 11,416, including held records.
 
 ### 2026-10-29: Bukhari 3637–3643
 
 - `FR-LIB-HAD-BUKHARI-640` saves six private French drafts about the splitting of the moon, nighttime signs, steadfastness, and trade.
-- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,247 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 235. Total local hadith rows not drafted: 11,416, including held records.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,247 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 235. Total local hadith rows not drafted: 11,410, including held records.
+
+### 2026-10-29: Bukhari 3644–3649
+
+- `FR-LIB-HAD-BUKHARI-641` saves four private French drafts about horses and the companions. Bukhari 3646 remains blank because it quotes Quran 99:7–8; Bukhari 3647 remains blank because it quotes Quran 37:177. No approved, attributed French Quran translation is confirmed.
+- All six records passed the focused validator, including both Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,251 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 237. Total local hadith rows not drafted: 11,406, including held records.
