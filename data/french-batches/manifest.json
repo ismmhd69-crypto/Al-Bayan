@@ -7228,6 +7228,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1708 held for embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-297",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-297.json",
+      "sourceIds": [
+        "0fc76a51-a455-4d4b-919c-14fbb8e7db12",
+        "1e37402b-4d42-4a6d-9aff-1b1e82446763",
+        "0606f668-afe4-4db1-99ce-5fddf485bfbf",
+        "265c1f16-8e10-45e6-9d1b-d294c9096aa8",
+        "8871ec32-2168-4a56-ba88-e3781f3a8f51",
+        "42dc2cf8-98e4-4842-9e31-5037cbeb15e7"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [
