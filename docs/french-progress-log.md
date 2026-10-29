@@ -1171,3 +1171,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-247` saves six private French drafts for Bukhari 1417–1422. They preserve the charity guidance, Aïcha’s report about the two daughters, the story of the mistaken recipients, and Ma‘n ibn Yazid’s account. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,299 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 75. Total local hadith rows not drafted: 13,330, including held records.
+
+### 2026-10-29: Bukhari 1423–1429 source review
+
+- `FR-LIB-HAD-BUKHARI-248` saves six private French drafts for Bukhari 1423–1427 and 1429. They preserve the seven groups sheltered by Allah, the guidance on household spending and dependants, and the two transmission routes in Bukhari 1429. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,305 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 75. Total local hadith rows not drafted: 13,324, including held records.
