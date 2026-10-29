@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0747",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:09:03.387Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "38f50c3b-53c6-46cb-b242-e31e946d39f9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1604b",
+      "reference": "Sahih Muslim, hadith 1604 b, book 22, باب السَّلَمِ ‏‏",
+      "title": "باب السَّلَمِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا عَبْدُ الْوَارِثِ، عَنِ ابْنِ أَبِي نَجِيحٍ، حَدَّثَنِي عَبْدُ اللَّهِ، بْنُ كَثِيرٍ عَنْ أَبِي الْمِنْهَالِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَدِمَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَالنَّاسُ يُسْلِفُونَ فَقَالَ لَهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ أَسْلَفَ فَلاَ يُسْلِفْ إِلاَّ فِي كَيْلٍ مَعْلُومٍ وَوَزْنٍ مَعْلُومٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "454c296ac2d1b5dd76ec58df22c6bef464192da673970f7e63af849020c2c06c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shayban ibn Farrukh nous a rapporté : Abd al-Warith nous a rapporté, d’après Ibn Abi Najih. Abd Allah ibn Kathir m’a rapporté, d’après Abu al-Minhal, d’après Ibn Abbas, qui dit : « Le Messager d’Allah arriva alors que les gens payaient à l’avance. Il leur dit : “Que celui qui paie à l’avance ne le fasse que selon une mesure connue et un poids connu.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4a02c1b4-86f9-46c5-8d11-069e5bcc4c34",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1604c",
+      "reference": "Sahih Muslim, hadith 1604 c, book 22, باب السَّلَمِ ‏‏",
+      "title": "باب السَّلَمِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَإِسْمَاعِيلُ بْنُ سَالِمٍ جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، عَنِ ابْنِ أَبِي نَجِيحٍ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَ حَدِيثِ عَبْدِ الْوَارِثِ ‏.‏ وَلَمْ يَذْكُرْ ‏\"‏ إِلَى أَجَلٍ مَعْلُومٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "20bc397b606e7e101e4f5dd49a2904c08c883a81de5eeafcc123d06f6fc90bb1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f6a32d24-f2c2-483a-9b76-7095954d309b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1604d",
+      "reference": "Sahih Muslim, hadith 1604 d, book 22, باب السَّلَمِ ‏‏",
+      "title": "باب السَّلَمِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، وَابْنُ أَبِي عُمَرَ، قَالاَ حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، كِلاَهُمَا عَنْ سُفْيَانَ، عَنِ ابْنِ أَبِي نَجِيحٍ، بِإِسْنَادِهِمْ مِثْلَ حَدِيثِ ابْنِ عُيَيْنَةَ يَذْكُرُ فِيهِ ‏\"‏ إِلَى أَجَلٍ مَعْلُومٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9bc51576313772833e42c72d5c03fe4e41e79dba825b475dfd619de69158248a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d1490435-2f22-4042-b5f1-4a2c8c7d238a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1605a",
+      "reference": "Sahih Muslim, hadith 1605 a, book 22, باب تَحْرِيمِ الاِحْتِكَارِ فِي الأَقْوَاتِ ‏‏",
+      "title": "باب تَحْرِيمِ الاِحْتِكَارِ فِي الأَقْوَاتِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا سُلَيْمَانُ، - يَعْنِي ابْنَ بِلاَلٍ - عَنْ يَحْيَى، - وَهُوَ ابْنُ سَعِيدٍ - قَالَ كَانَ سَعِيدُ بْنُ الْمُسَيَّبِ يُحَدِّثُ أَنَّ مَعْمَرًا، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنِ احْتَكَرَ فَهُوَ خَاطِئٌ ‏\"‏ ‏.‏ فَقِيلَ لِسَعِيدٍ فَإِنَّكَ تَحْتَكِرُ قَالَ سَعِيدٌ إِنَّ مَعْمَرًا الَّذِي كَانَ يُحَدِّثُ هَذَا الْحَدِيثَ كَانَ يَحْتَكِرُ ‏.‏",
+      "source_hash_sha256": "f525a684989532af50da35500c2f454b745e25f13773a84e6245af536a63f212",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Maslama ibn Qa‘nab nous a rapporté : Sulayman — Ibn Bilal — nous a rapporté, d’après Yahya — Ibn Sa‘id —, qui dit : « Sa‘id ibn al-Musayyab rapportait que Ma‘mar avait dit : Le Messager d’Allah a dit : “Celui qui accapare des marchandises commet une faute.” » On demanda à Sa‘id : « Pourtant, tu accapares des marchandises ? » Sa‘id répondit : « Ma‘mar, qui rapportait ce hadith, accaparait lui-même des marchandises. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f137f803-5368-46bc-95ac-9b8ca1d7cafc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1605b",
+      "reference": "Sahih Muslim, hadith 1605 b, book 22, باب تَحْرِيمِ الاِحْتِكَارِ فِي الأَقْوَاتِ ‏‏",
+      "title": "باب تَحْرِيمِ الاِحْتِكَارِ فِي الأَقْوَاتِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ عَمْرٍو الأَشْعَثِيُّ، حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، عَنْ مُحَمَّدِ بْنِ عَجْلاَنَ، عَنْ مُحَمَّدِ بْنِ عَمْرِو بْنِ عَطَاءٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ مَعْمَرِ بْنِ عَبْدِ اللَّهِ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَحْتَكِرُ إِلاَّ خَاطِئٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8d297182e69710104cd1afb852dff8e811c9cbf56c97c1ea1c58f2ada482f9be",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘id ibn Amr al-Ash‘athi nous a rapporté : Hatim ibn Isma‘il nous a rapporté, d’après Muhammad ibn Ajlan, d’après Muhammad ibn Amr ibn Ata, d’après Sa‘id ibn al-Musayyab, d’après Ma‘mar ibn Abd Allah, d’après le Messager d’Allah, qui dit : « Seul celui qui commet une faute accapare des marchandises. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "94e9c308-97a7-4f28-8e16-102c937e76d4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1605c",
+      "reference": "Sahih Muslim, hadith 1605 c, book 22, باب تَحْرِيمِ الاِحْتِكَارِ فِي الأَقْوَاتِ ‏‏",
+      "title": "باب تَحْرِيمِ الاِحْتِكَارِ فِي الأَقْوَاتِ ‏‏",
+      "source_published": true,
+      "text_original": "قَالَ إِبْرَاهِيمُ قَالَ مُسْلِمٌ وَحَدَّثَنِي بَعْضُ، أَصْحَابِنَا عَنْ عَمْرِو بْنِ عَوْنٍ، أَخْبَرَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ عَمْرِو بْنِ يَحْيَى، عَنْ مُحَمَّدِ بْنِ عَمْرٍو، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ مَعْمَرِ، بْنِ أَبِي مَعْمَرٍ أَحَدِ بَنِي عَدِيِّ بْنِ كَعْبٍ قَالَ قَالَ رَسُولُ اللَّهِ ‏.‏ فَذَكَرَ بِمِثْلِ حَدِيثِ سُلَيْمَانَ بْنِ بِلاَلٍ عَنْ يَحْيَى ‏.‏",
+      "source_hash_sha256": "7c4a668df5bac600fef508bb9a94f91aa705aaefb640ceafef5940e9b7c69466",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4a02c1b4-86f9-46c5-8d11-069e5bcc4c34",
+      "reason": "Cette entrée renvoie au récit précédent et indique seulement l’absence d’une précision sur le délai ; elle ne reproduit pas son contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "f6a32d24-f2c2-483a-9b76-7095954d309b",
+      "reason": "Cette entrée renvoie au récit précédent et ne donne qu’une variante sur la mention du délai, sans reproduire le récit complet. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "94e9c308-97a7-4f28-8e16-102c937e76d4",
+      "reason": "Cette entrée donne une chaîne de transmission puis renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}

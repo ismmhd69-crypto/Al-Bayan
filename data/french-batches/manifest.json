@@ -43906,6 +43906,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0747",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0747.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "three complete reports translated as private drafts; three incomplete variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48213,8 +48226,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9134,
-  "hadithLocalRemaining": 5495,
+  "hadithLocalDrafted": 9137,
+  "hadithLocalRemaining": 5492,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -53226,10 +53239,25 @@
       "source_id": "8afbac68-781d-4efc-9b8e-c0c62394c7af",
       "reason": "Cette entrée renvoie au récit précédent et précise seulement une différence de formulation, sans reproduire le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "4a02c1b4-86f9-46c5-8d11-069e5bcc4c34",
+      "reason": "Cette entrée renvoie au récit précédent et indique seulement l’absence d’une précision sur le délai ; elle ne reproduit pas son contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f6a32d24-f2c2-483a-9b76-7095954d309b",
+      "reason": "Cette entrée renvoie au récit précédent et ne donne qu’une variante sur la mention du délai, sans reproduire le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "94e9c308-97a7-4f28-8e16-102c937e76d4",
+      "reason": "Cette entrée donne une chaîne de transmission puis renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2798,
+  "hadithMuslimDrafted": 2801,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1227
+  "hadithNeedsMo": 1230
 }

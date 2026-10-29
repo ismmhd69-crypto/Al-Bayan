@@ -10861,3 +10861,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0746 saves five private French drafts on a purchase secured by a pledge and advance payment for dates. Muslim 1603d only reports a wording difference from the preceding narration and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1604b–1605c
+
+- FR-LIB-HAD-MUSLIM-0747 saves three private French drafts about advance payment and hoarding goods. Muslim 1604c–d and 1605c only refer to earlier reports or note wording differences, so they remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
