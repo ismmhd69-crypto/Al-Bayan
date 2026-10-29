@@ -18067,6 +18067,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-836",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-836.json",
+      "sourceIds": [
+        "8f31b9a6-6ce9-48ab-b38d-07c4065321ab",
+        "c3a0507d-f262-4a0c-bb4f-3c2e137ce688",
+        "95feb85c-fc28-4eda-8d24-a2f970a9d29c",
+        "d1230027-6eb5-4a97-a605-311d5e77107b",
+        "25c5c5d3-cdd1-4314-ab71-0bce1d79171b",
+        "57d9b38c-3fe6-4703-8178-a6e63570d13f"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19149,9 +19170,27 @@
       "scope": "Sahih al-Bukhari 4609: direct quotation of Quran 5:24",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 5:24. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-835, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4612-QURAN-5-67",
+      "scope": "Sahih al-Bukhari 4612: direct quotation of Quran 5:67",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 5:67. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-836, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4613-QURAN-2-225",
+      "scope": "Sahih al-Bukhari 4613: direct quotation of Quran 2:225",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 2:225. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-836, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4615-QURAN-5-87",
+      "scope": "Sahih al-Bukhari 4615: direct quotation of Quran 5:87",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 5:87. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-836, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3977,
-  "hadithLocalDrafted": 3977,
-  "hadithLocalRemaining": 10680
+  "hadithBukhariDrafted": 3980,
+  "hadithLocalDrafted": 3980,
+  "hadithLocalRemaining": 10677
 }
