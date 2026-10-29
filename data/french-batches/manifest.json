@@ -15304,6 +15304,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-696",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-696.json",
+      "sourceIds": [
+        "16fc4f80-45a3-4f22-ad6a-ea13bc02ed64"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished single-item long-text Quran hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -15427,6 +15443,12 @@
       "scope": "Sahih al-Bukhari 3872: appended phrase بلاء عظيم",
       "status": "blocked",
       "reason": "The long local record includes Quranic wording in its appended commentary. The full record remains blank in FR-LIB-HAD-BUKHARI-687 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3906-QURAN-WORDING",
+      "scope": "Sahih al-Bukhari 3906: phrase المسجد الذي أسس على التقوى",
+      "status": "blocked",
+      "reason": "The long local report directly quotes Quran 9:108. It remains blank in FR-LIB-HAD-BUKHARI-696 until an approved, attributed French Quran translation is confirmed."
     }
   ],
   "hadithBukhariDrafted": 3478,
