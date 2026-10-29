@@ -1,0 +1,94 @@
+{
+  "batch_id": "HADITH-MUSLIM-0872",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:09:30.173Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "39cc74ea-42ab-4163-993e-4826de877426",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1842a",
+      "reference": "Sahih Muslim, hadith 1842 a, book 33, باب الْوَفَاءِ بِبَيْعَةِ الْخُلَفَاءِ الأَوَّلِ فَالأَوَّلِ ‏‏",
+      "title": "باب الْوَفَاءِ بِبَيْعَةِ الْخُلَفَاءِ الأَوَّلِ فَالأَوَّلِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ فُرَاتٍ الْقَزَّازِ، عَنْ أَبِي حَازِمٍ، قَالَ قَاعَدْتُ أَبَا هُرَيْرَةَ خَمْسَ سِنِينَ فَسَمِعْتُهُ يُحَدِّثُ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ كَانَتْ بَنُو إِسْرَائِيلَ تَسُوسُهُمُ الأَنْبِيَاءُ كُلَّمَا هَلَكَ نَبِيٌّ خَلَفَهُ نَبِيٌّ وَإِنَّهُ لاَ نَبِيَّ بَعْدِي وَسَتَكُونُ خُلَفَاءُ فَتَكْثُرُ ‏\"‏ ‏.‏ قَالُوا فَمَا تَأْمُرُنَا قَالَ ‏\"‏ فُوا بِبَيْعَةِ الأَوَّلِ فَالأَوَّلِ وَأَعْطُوهُمْ حَقَّهُمْ فَإِنَّ اللَّهَ سَائِلُهُمْ عَمَّا اسْتَرْعَاهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f74399f72df4072d7f3550a2f77466ac139d9e066b84dce5c5ef58429369a2ec",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshâr nous a rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Furât al-Qazzâz, d’après Abû Hâzim, qui a dit : J’ai fréquenté Abû Hurayra pendant cinq ans et je l’ai entendu rapporter ces paroles du Prophète : « Les enfants d’Israël étaient gouvernés par des prophètes. Chaque fois qu’un prophète mourait, un autre lui succédait. Or, il n’y aura pas de prophète après moi, et les califes seront nombreux. » Ils demandèrent : « Que nous ordonnes-tu ? » Il répondit : « Respectez l’allégeance au premier, puis à celui qui vient après, et accordez-leur leur dû. Allah leur demandera compte de ceux dont Il leur a confié la charge. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "97a483b9-40c0-46d6-a837-150d5d8c0afd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1842b",
+      "reference": "Sahih Muslim, hadith 1842 b, book 33, باب الْوَفَاءِ بِبَيْعَةِ الْخُلَفَاءِ الأَوَّلِ فَالأَوَّلِ ‏‏",
+      "title": "باب الْوَفَاءِ بِبَيْعَةِ الْخُلَفَاءِ الأَوَّلِ فَالأَوَّلِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَبْدُ اللَّهِ بْنُ بَرَّادٍ الأَشْعَرِيُّ، قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ، بْنُ إِدْرِيسَ عَنِ الْحَسَنِ بْنِ فُرَاتٍ، عَنْ أَبِيهِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "c337658cc86941a37c644703e2a42138d4e92e620f1d02fa82ad5aa77498f10e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "58f8d0d6-3857-4399-a732-110a83d603f4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1843",
+      "reference": "Sahih Muslim, hadith 1843, book 33, باب الْوَفَاءِ بِبَيْعَةِ الْخُلَفَاءِ الأَوَّلِ فَالأَوَّلِ ‏‏",
+      "title": "باب الْوَفَاءِ بِبَيْعَةِ الْخُلَفَاءِ الأَوَّلِ فَالأَوَّلِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو الأَحْوَصِ، وَوَكِيعٌ، ح وَحَدَّثَنِي أَبُو سَعِيدٍ، الأَشَجُّ حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَلِيُّ بْنُ خَشْرَمٍ، قَالاَ أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، كُلُّهُمْ عَنِ الأَعْمَشِ، ح وَحَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ زَيْدِ بْنِ، وَهْبٍ عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّهَا سَتَكُونُ بَعْدِي أَثَرَةٌ وَأُمُورٌ تُنْكِرُونَهَا ‏\"‏ ‏.‏ قَالُوا يَا رَسُولَ اللَّهِ كَيْفَ تَأْمُرُ مَنْ أَدْرَكَ مِنَّا ذَلِكَ قَالَ ‏\"‏ تُؤَدُّونَ الْحَقَّ الَّذِي عَلَيْكُمْ وَتَسْأَلُونَ اللَّهَ الَّذِي لَكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fb8905561484321e797ba92e8871db08091dc4e3225ce0ae59059de6855a316a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Abû al-Ahwâs et Wakî‘ nous ont rapporté. [H] Abû Sa‘îd al-Ashajj m’a rapporté : Wakî‘ nous a rapporté. [H] Abû Kurayb et Ibn Numayr nous ont rapporté : Abû Mu‘âwiya nous a rapporté. [H] Ishâq ibn Ibrâhîm et ‘Alî ibn Khashram nous ont rapporté : ‘Îsâ ibn Yûnus nous a informés. Tous rapportent d’après al-A‘mash. [H] ‘Uthmân ibn Abî Shayba — et c’est sa formulation — nous a rapporté : Jarîr nous a rapporté, d’après al-A‘mash, d’après Zayd ibn Wahb, d’après ‘Abd Allâh, qui a dit : Le Messager d’Allah a dit : « Après moi, il y aura du favoritisme et des choses que vous réprouverez. » Ils demandèrent : « Messager d’Allah, que commandes-tu à ceux d’entre nous qui vivront cela ? » Il répondit : « Acquittez-vous du droit qui vous incombe et demandez à Allah ce qui vous revient. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "97a483b9-40c0-46d6-a837-150d5d8c0afd",
+      "url": "https://sunnah.com/muslim:1842b",
+      "reason": "Cette entrée fournit une chaîne de transmission supplémentaire et renvoie au récit précédent sans reproduire son contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}

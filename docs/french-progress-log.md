@@ -11446,3 +11446,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1839a-1841
 
 - FR-LIB-HAD-MUSLIM-0871 saves three private French drafts about listening and obeying, the limits of obedience when ordered to sin, and the imam’s responsibility. One visibly damaged Arabic chain and two chain-only cross-references remain entirely blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1842a-1843
+
+- FR-LIB-HAD-MUSLIM-0872 saves two private French drafts about successive caliphs and events after the Prophet’s death, preserving the full transmission chains. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No database write or publication occurred.
