@@ -63,8 +63,8 @@
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
     "hadithLocalDrafted": 6457,
-    "hadithDatabaseMissing": null,
-    "hadithLocalRemaining": null,
+    "hadithDatabaseMissing": 8172,
+    "hadithLocalRemaining": 8172,
     "hadithNeedsMo": 177,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -33583,7 +33583,7 @@
   ],
   "hadithBukhariDrafted": 6336,
   "hadithLocalDrafted": 6457,
-  "hadithLocalRemaining": null,
+  "hadithLocalRemaining": 8172,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -34649,7 +34649,7 @@
     }
   ],
   "hadithMuslimDrafted": 121,
-  "hadithDatabaseMissing": null,
+  "hadithDatabaseMissing": 8172,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 177
 }
