@@ -2281,3 +2281,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-473` saves six private French drafts for Bukhari 2739–2744, covering the Prophet’s estate, wills, charity, and limits on bequests.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,472 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 151. Total local hadith rows not drafted: 12,175, including held records.
+
+### 2026-10-29: Bukhari 2745–2750 source review
+
+- `FR-LIB-HAD-BUKHARI-474` saves five private French drafts for Bukhari 2745–2746 and 2748–2750. Bukhari 2747 remains blank on hold because it directly quotes Quran 4:11; it needs an approved, attributed French Quran translation.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,477 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 152. Total local hadith rows not drafted: 12,171, including held records.
