@@ -16132,6 +16132,21 @@
       "published": 0,
       "status": "local draft with holds"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-751",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-751.json",
+      "sourceIds": ["51fcecfe-fd53-41e7-a83e-3a0579ede628", "e3fe1d62-844d-4803-8772-dbdae9a45180", "f867ca87-96fb-4616-a6c4-d99b4e7b4fe7", "42df54f5-5433-4554-b923-6509fbb17692", "ae9a558e-86a3-4659-ac8c-53faa1cda1f9", "5107836a-bd9e-4e27-9062-40a167c69941"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -16507,7 +16522,7 @@
       "reason": "The report directly quotes Quran 24:11. It remains blank in FR-LIB-HAD-BUKHARI-750 until an approved, attributed French Quran translation is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 3669,
-  "hadithLocalDrafted": 3669,
-  "hadithLocalRemaining": 10988
+  "hadithBukhariDrafted": 3675,
+  "hadithLocalDrafted": 3675,
+  "hadithLocalRemaining": 10982
 }

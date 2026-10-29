@@ -3666,3 +3666,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-750` saves two private French drafts. Hadith 4142 remains blank because its wording about ʿAlî is uncertain; hadiths 4143, 4144 and 4146 remain blank because they directly quote Quran 12:18, 24:15 and 24:11. All four holds are recorded for Mo.
 - All six records passed the focused validator, including the four private holds. No database writes or publication occurred. Bukhari local drafts: 3,669 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 298. Total local hadith rows not drafted: 10,988, including held records.
+
+### 2026-10-29: Bukhari 4148–4153
+
+- `FR-LIB-HAD-BUKHARI-751` saves six private French drafts about the ʿumra, al-Hudaybiya and the water from its well.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,675 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 298. Total local hadith rows not drafted: 10,982, including held records.
