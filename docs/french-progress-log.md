@@ -13076,3 +13076,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Batch FR-LIB-HAD-MUSLIM-1254 contains the complete report Sahih Muslim 2742. Its transmission chain, main wording, and Ibn Bashshar variant are translated and reread against Arabic.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. One private local draft saved.
 - Recounted all local hadith batch artifacts to correct stale manifest totals: 6,336 Bukhari and 4,917 Muslim drafts (11,253 total); 2,787 held Needs Mo; 14,040 sources represented; 589 not yet exported. Local hadith records without French drafts: 3,376. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2743a, long-source batch 1255
+
+- Batch FR-LIB-HAD-MUSLIM-1255 contains one long complete report from Sahih Muslim 2743a. The transmission chain, all three men’s accounts, the 100 dinars, and the farq measure are retained in French.
+- The source exceeds the multi-item size limit, so it remains a one-record batch. Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. One private local draft saved.
+- Recounted local hadith artifacts: 6,336 Bukhari and 4,918 Muslim drafts (11,254 total); 2,787 held Needs Mo; 14,041 sources represented; 588 not yet exported. Local hadith records without French drafts: 3,375. All 14,629 remain missing from the live French table.

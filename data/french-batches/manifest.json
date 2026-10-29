@@ -59,18 +59,18 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 4917,
+    "hadithMuslimDrafted": 4918,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11253,
+    "hadithLocalDrafted": 11254,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3376,
+    "hadithLocalRemaining": 3375,
     "hadithNeedsMo": 2787,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14040,
-    "hadithSourcesNotYetExported": 589
+    "hadithSourcesProcessed": 14041,
+    "hadithSourcesNotYetExported": 588
   },
   "batches": [
     {
@@ -50777,6 +50777,25 @@
       "failed": 0,
       "remaining": 3376,
       "validation": "One complete report translated and reread against Arabic; source hash and variant wording retained. Focused validator and git diff check passed. Private local draft only.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1255",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1255.json",
+      "sourceIds": [
+        "435610c6-b655-43ed-ae87-6ecee4e77145"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 0,
+      "failed": 0,
+      "remaining": 3375,
+      "validation": "Long report saved as a single-item batch. Full narration translated with its chain, three supplications, amounts, and measure retained. Focused validator and git diff check passed. Private local draft only.",
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
