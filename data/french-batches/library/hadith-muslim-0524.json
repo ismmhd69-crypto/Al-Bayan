@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0524",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:49:21.255Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1abef46e-27e7-43c4-894a-42bb7773d6c2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1196i",
+      "reference": "Sahih Muslim, hadith 1196 i, book 15, باب تَحْرِيمِ الصَّيْدِ لِلْمُحْرِمِ",
+      "title": "باب تَحْرِيمِ الصَّيْدِ لِلْمُحْرِمِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو الأَحْوَصِ، ح وَحَدَّثَنَا قُتَيْبَةُ، وَإِسْحَاقُ، عَنْ جَرِيرٍ، كِلاَهُمَا عَنْ عَبْدِ الْعَزِيزِ بْنِ رُفَيْعٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي قَتَادَةَ، قَالَ كَانَ أَبُو قَتَادَةَ فِي نَفَرٍ مُحْرِمِينَ وَأَبُو قَتَادَةَ مُحِلٌّ وَاقْتَصَّ الْحَدِيثَ وَفِيهِ قَالَ ‏\"‏ هَلْ أَشَارَ إِلَيْهِ إِنْسَانٌ مِنْكُمْ أَوْ أَمَرَهُ بِشَىْءٍ ‏\"‏ ‏.‏ قَالُوا لاَ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ فَكُلُوا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1684e1adae5653f009c062991fef64955721aba443045afb7eddb46ad5d02edb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed6f8603-1461-4879-9ac8-2a7479061fc0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1197",
+      "reference": "Sahih Muslim, hadith 1197, book 15, باب تَحْرِيمِ الصَّيْدِ لِلْمُحْرِمِ",
+      "title": "باب تَحْرِيمِ الصَّيْدِ لِلْمُحْرِمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي مُحَمَّدُ، بْنُ الْمُنْكَدِرِ عَنْ مُعَاذِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ عُثْمَانَ التَّيْمِيِّ، عَنْ أَبِيهِ، قَالَ كُنَّا مَعَ طَلْحَةَ بْنِ عُبَيْدِ اللَّهِ وَنَحْنُ حُرُمٌ فَأُهْدِيَ لَهُ طَيْرٌ وَطَلْحَةُ رَاقِدٌ فَمِنَّا مَنْ أَكَلَ وَمِنَّا مَنْ تَوَرَّعَ فَلَمَّا اسْتَيْقَظَ طَلْحَةُ وَفَّقَ مَنْ أَكَلَهُ وَقَالَ أَكَلْنَاهُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "eca85ee8abf5563e4f29369b5bbd92e746e739198cf3ff327d81fe18871ae287",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Yahya ibn Sa‘id nous a rapporté, d’après Ibn Jurayj, qui m’a informé : Muhammad ibn al-Munkadir m’a rapporté, d’après Mu‘adh ibn ‘Abd al-Rahman ibn ‘Uthman al-Taymi, d’après son père, qui a dit : alors que nous étions en état de sacralisation avec Talha ibn ‘Ubayd Allah, on lui offrit un oiseau pendant qu’il dormait. Certains d’entre nous en mangèrent et d’autres s’en abstinrent par précaution. Lorsque Talha se réveilla, il approuva ceux qui en avaient mangé et dit : « Nous en avons mangé avec le Messager d’Allah ﷺ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "74657e8e-56c9-48e4-b23b-33ab45b29683",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1198a",
+      "reference": "Sahih Muslim, hadith 1198 a, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، وَأَحْمَدُ بْنُ عِيسَى، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مَخْرَمَةُ بْنُ بُكَيْرٍ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ عُبَيْدَ اللَّهِ بْنَ مِقْسَمٍ، يَقُولُ سَمِعْتُ الْقَاسِمَ بْنَ مُحَمَّدٍ، يَقُولُ سَمِعْتُ عَائِشَةَ، زَوْجَ النَّبِيِّ صلى الله عليه وسلم تَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ أَرْبَعٌ كُلُّهُنَّ فَاسِقٌ يُقْتَلْنَ فِي الْحِلِّ وَالْحَرَمِ الْحِدَأَةُ وَالْغُرَابُ وَالْفَارَةُ وَالْكَلْبُ الْعَقُورُ ‏\"‏ ‏.‏ قَالَ فَقُلْتُ لِلْقَاسِمِ أَفَرَأَيْتَ الْحَيَّةَ قَالَ تُقْتَلُ بِصُغْرٍ لَهَا ‏.‏",
+      "source_hash_sha256": "9179d4e4c969176c5a1307fdc0b25c489f7b1571d4d2fc46c5515e2f04ee709b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli et Ahmad ibn ‘Isa nous ont rapporté : Ibn Wahb nous a informés : Makhrama ibn Bukayr m’a rapporté, d’après son père, qui a dit : j’ai entendu ‘Ubayd Allah ibn Miqsam dire : j’ai entendu al-Qasim ibn Muhammad rapporter d’après ‘A’isha, épouse du Prophète ﷺ, qu’Allah l’agrée : j’ai entendu le Messager d’Allah ﷺ dire : « Quatre animaux nuisibles peuvent être tués aussi bien hors de la zone sacrée que dans celle-ci : le milan, le corbeau, la souris et le chien mordant. » Je demandai à al-Qasim : « Et le serpent ? » Il répondit : « Qu’on le tue avec ignominie. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3bc5127e-b527-445c-a059-e850da249494",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1198b",
+      "reference": "Sahih Muslim, hadith 1198 b, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا غُنْدَرٌ، عَنْ شُعْبَةَ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ سَعِيدِ، بْنِ الْمُسَيَّبِ عَنْ عَائِشَةَ، - رضى الله عنها - عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ خَمْسٌ فَوَاسِقُ يُقْتَلْنَ فِي الْحِلِّ وَالْحَرَمِ الْحَيَّةُ وَالْغُرَابُ الأَبْقَعُ وَالْفَارَةُ وَالْكَلْبُ الْعَقُورُ وَالْحُدَيَّا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "15251432840380c393f477db9245ce44a22357593d6320e8ab9fad96771cd1a3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Ghundar nous a rapporté, d’après Shu‘ba. Ibn al-Muthanna et Ibn Bashshar nous ont aussi rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, qui a dit : j’ai entendu Qatada rapporter d’après Sa‘id ibn al-Musayyib, d’après ‘A’isha, qu’Allah l’agrée, qui rapporte que le Prophète ﷺ a dit : « Cinq animaux nuisibles peuvent être tués dans la zone sacrée et hors de celle-ci : le serpent, le corbeau bigarré, la souris, le chien mordant et le milan. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "47a2dc27-f708-4608-b370-8b25c3d4263e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1198c",
+      "reference": "Sahih Muslim, hadith 1198 c, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا حَمَّادٌ، - وَهُوَ ابْنُ زَيْدٍ - حَدَّثَنَا هِشَامُ بْنُ، عُرْوَةَ عَنْ أَبِيهِ، عَنْ عَائِشَةَ، - رضى الله عنها - قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَمْسٌ فَوَاسِقُ يُقْتَلْنَ فِي الْحَرَمِ الْعَقْرَبُ وَالْفَارَةُ وَالْحُدَيَّا وَالْغُرَابُ وَالْكَلْبُ الْعَقُورُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bb6ab5f1255afb9c47dec88d24cfd8d849d90bd548f00aa57368aabc84f293ee",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Zahrani nous a rapporté : Hammad — ibn Zayd — nous a rapporté : Hisham ibn ‘Urwa nous a rapporté, d’après son père, d’après ‘A’isha, qu’Allah l’agrée, qui a dit : le Messager d’Allah ﷺ a dit : « Cinq animaux nuisibles peuvent être tués dans le sanctuaire : le scorpion, la souris, le milan, le corbeau et le chien mordant. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "21095498-09ee-4d97-87e5-9cb4c087b5cd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1198d",
+      "reference": "Sahih Muslim, hadith 1198 d, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا هِشَامٌ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "3976e56b13549e0c03e3f914351590fe9efd1f99645880aeba12381883f10951",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1abef46e-27e7-43c4-894a-42bb7773d6c2",
+      "reason": "La source ne reprend que des variantes ou une chaîne de transmission d’un récit précédent, sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "21095498-09ee-4d97-87e5-9cb4c087b5cd",
+      "reason": "La source ne reprend que des variantes ou une chaîne de transmission d’un récit précédent, sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

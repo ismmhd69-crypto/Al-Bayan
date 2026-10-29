@@ -9746,3 +9746,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0523 saves three private French drafts about Abu Qatada’s hunt and the permissibility of his consecrated companions eating from it. Muslim 1196c, 1196f, and 1196h give only variants or additional details without reproducing the full reports; they remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1196i–1198d
+
+- FR-LIB-HAD-MUSLIM-0524 saves four private French drafts about game offered to a pilgrim and reports listing harmful animals. Muslim 1196i only adds a variant question to an earlier report, and 1198d provides only a transmission chain; both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
