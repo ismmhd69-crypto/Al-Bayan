@@ -34600,6 +34600,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0270",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0270.json",
+      "sourceIds": [
+        "97fa4dcb-58c4-45a2-8e1e-871f7354aaf5",
+        "d65fb002-f030-48df-94cb-30bbd06eab86",
+        "e3d1badc-a9f4-401e-bb8c-be8338d15ccf",
+        "3d8d8495-6549-4616-9e6c-587adf37e34b",
+        "213c4c14-12d6-4ed7-bf40-d50a221f3fa0",
+        "3f565d5f-e231-4ef8-a6aa-0028a08ce3a6"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -38907,8 +38928,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7411,
-  "hadithLocalRemaining": 7218,
+  "hadithLocalDrafted": 7417,
+  "hadithLocalRemaining": 7212,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40561,8 +40582,8 @@
       "reason": "Le texte arabe indique seulement que le récit est « semblable au récit de Ghundar », sans le reprendre. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1075,
-  "hadithDatabaseMissing": 7218,
+  "hadithMuslimDrafted": 1081,
+  "hadithDatabaseMissing": 7212,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 511
 }
