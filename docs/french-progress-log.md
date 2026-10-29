@@ -9886,3 +9886,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0551 saves four private French drafts about Asma’s account of the Hajj and Ibn Abbas’s ruling on tamattu. Muslim 1236b and 1238b are incomplete variants and remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1239b–1240e
+
+- FR-LIB-HAD-MUSLIM-0552 saves four private French drafts about the timing of umra and Hajj. Muslim 1239b and 1240c are incomplete variants and remain blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
