@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 5807,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 8822,
-    "hadithNeedsMo": 835,
+    "hadithNeedsMo": 836,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26723,6 +26723,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1264",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1264.json",
+      "sourceIds": [
+        "c68cdb34-77da-4e78-8123-a4cc6f48ab43"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One 4,780-character source isolated as a single-item batch; complete report held due to unclear legal procedure wording. Source hash retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: unclear legal procedure"
     }
   ],
   "blockers": [
@@ -30121,6 +30137,12 @@
       "scope": "Sahih al-Bukhari 6881: direct quotations of Quran 2:178",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:178 several times. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6899-UNCLEAR-QASAMA",
+      "scope": "Sahih al-Bukhari 6899: 4,780-character composite report on qasama with unclear procedural phrases in two case accounts",
+      "status": "blocked",
+      "reason": "This 4,780-character report combines several qasama (collective oath) cases. Some procedural wording in the Jewish-oath episode and the account of Hudhayl’s repudiated client is unclear and could change the legal meaning. Keep the complete translation blank pending reliable clarification."
     }
   ],
   "hadithBukhariDrafted": 5807,
@@ -30666,6 +30688,12 @@
       "scope": "Sahih al-Bukhari 6881: direct quotations of Quran 2:178",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:178 several times. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6899-UNCLEAR-QASAMA",
+      "scope": "Sahih al-Bukhari 6899: 4,780-character composite report on qasama with unclear procedural phrases in two case accounts",
+      "status": "blocked",
+      "reason": "This 4,780-character report combines several qasama (collective oath) cases. Some procedural wording in the Jewish-oath episode and the account of Hudhayl’s repudiated client is unclear and could change the legal meaning. Keep the complete translation blank pending reliable clarification."
     }
   ]
 }
