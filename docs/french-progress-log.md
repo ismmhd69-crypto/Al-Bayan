@@ -10876,3 +10876,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0749 saves four private French drafts about unjust land seizure. Muslim 1609b only refers to a previous report; 1610b has an apparent anomaly in its transmission chain. Both remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1612a–1615b
+
+- FR-LIB-HAD-MUSLIM-0750 saves five private French drafts about land disputes, public roads and inheritance. Muslim 1612b only refers to the preceding narration and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

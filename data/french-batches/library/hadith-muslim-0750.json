@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0750",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:09:52.270Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "16400538-4c5b-48bb-b820-17c312727456",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1612a",
+      "reference": "Sahih Muslim, hadith 1612 a, book 22, باب تَحْرِيمِ الظُّلْمِ وَغَصْبِ الأَرْضِ وَغَيْرِهَا ‏‏",
+      "title": "باب تَحْرِيمِ الظُّلْمِ وَغَصْبِ الأَرْضِ وَغَيْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ إِبْرَاهِيمَ الدَّوْرَقِيُّ، حَدَّثَنَا عَبْدُ الصَّمَدِ، - يَعْنِي ابْنَ عَبْدِ الْوَارِثِ - حَدَّثَنَا حَرْبٌ، - وَهُوَ ابْنُ شَدَّادٍ - حَدَّثَنَا يَحْيَى، - وَهُوَ ابْنُ أَبِي كَثِيرٍ - عَنْ مُحَمَّدِ بْنِ، إِبْرَاهِيمَ أَنَّ أَبَا سَلَمَةَ، حَدَّثَهُ وَكَانَ، بَيْنَهُ وَبَيْنَ قَوْمِهِ خُصُومَةٌ فِي أَرْضٍ وَأَنَّهُ دَخَلَ عَلَى عَائِشَةَ فَذَكَرَ ذَلِكَ لَهَا فَقَالَتْ يَا أَبَا سَلَمَةَ اجْتَنِبِ الأَرْضَ فَإِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ ظَلَمَ قِيدَ شِبْرٍ مِنَ الأَرْضِ طُوِّقَهُ مِنْ سَبْعِ أَرَضِينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "837fa59287d5dd6257f19aedf09abc88fc2fe855a52d5201a51d5f4b144a0b34",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Ibrahim al-Dawraqi nous a rapporté : Abd al-Samad — Ibn Abd al-Warith — nous a rapporté : Harb — Ibn Shaddad — nous a rapporté : Yahya — Ibn Abi Kathir — nous a rapporté, d’après Muhammad ibn Ibrahim, qu’Abu Salama lui avait raconté qu’il était en litige avec les siens au sujet d’une terre. Il entra chez Aïcha et lui en parla. Elle lui dit : « Abu Salama, tiens-toi à l’écart de cette terre, car le Messager d’Allah a dit : “Celui qui s’approprie injustement ne serait-ce qu’un empan de terre le portera autour de son cou à travers les sept terres.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c2363bb0-fade-456c-a529-b0620bece7f4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1612b",
+      "reference": "Sahih Muslim, hadith 1612 b, book 22, باب تَحْرِيمِ الظُّلْمِ وَغَصْبِ الأَرْضِ وَغَيْرِهَا ‏‏",
+      "title": "باب تَحْرِيمِ الظُّلْمِ وَغَصْبِ الأَرْضِ وَغَيْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا حَبَّانُ بْنُ هِلاَلٍ، أَخْبَرَنَا أَبَانٌ، حَدَّثَنَا يَحْيَى، أَنَّ مُحَمَّدَ بْنَ إِبْرَاهِيمَ، حَدَّثَهُ أَنَّ أَبَا سَلَمَةَ حَدَّثَهُ أَنَّهُ، دَخَلَ عَلَى عَائِشَةَ فَذَكَرَ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "98344f169dc19e7370bde9582a0836d51e9bfc977ef1375b7df3e56f6dbde53e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e1b065d3-627a-422a-8590-2c1ffeace688",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1613",
+      "reference": "Sahih Muslim, hadith 1613, book 22, باب قَدْرِ الطَّرِيقِ إِذَا اخْتَلَفُوا فِيهِ ‏‏",
+      "title": "باب قَدْرِ الطَّرِيقِ إِذَا اخْتَلَفُوا فِيهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو كَامِلٍ، فُضَيْلُ بْنُ حُسَيْنٍ الْجَحْدَرِيُّ حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ الْمُخْتَارِ، حَدَّثَنَا خَالِدٌ الْحَذَّاءُ، عَنْ يُوسُفَ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا اخْتَلَفْتُمْ فِي الطَّرِيقِ جُعِلَ عَرْضُهُ سَبْعَ أَذْرُعٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d1efb3e231aaa7dd41325089d7af73226bb4c7fcafe3386d38fa5ea78346e0aa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kamil Fudayl ibn Husayn al-Jahdari m’a rapporté : Abd al-Aziz ibn al-Mukhtar nous a rapporté : Khalid al-Hadhdha nous a rapporté, d’après Yusuf ibn Abd Allah, d’après son père, d’après Abu Hurayra, que le Prophète a dit : « Si vous êtes en désaccord au sujet d’une voie, sa largeur sera fixée à sept coudées. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dada390e-8d36-42b2-8e31-c0ce0a42cb8d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1614",
+      "reference": "Sahih Muslim, hadith 1614, book 23, كتاب الفرائض",
+      "title": "كتاب الفرائض",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ - وَاللَّفْظُ لِيَحْيَى - قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ عَلِيِّ بْنِ، حُسَيْنٍ عَنْ عَمْرِو بْنِ عُثْمَانَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَرِثُ الْمُسْلِمُ الْكَافِرَ وَلاَ يَرِثُ الْكَافِرُ الْمُسْلِمَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0659354c45bd89243135d7b39ce3e4f99d7fd7fdb7ac68148cdf96ba281d5d61",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya, Abu Bakr ibn Abi Shayba et Ishaq ibn Ibrahim nous ont rapporté — la formulation est celle de Yahya. Yahya dit : « Ibn Uyayna nous a informés » ; les deux autres dirent : « Ibn Uyayna nous a rapporté », d’après al-Zuhri, d’après Ali ibn Husayn, d’après Amr ibn Uthman, d’après Usama ibn Zayd, que le Prophète a dit : « Un musulman n’hérite pas d’un non-musulman, et un non-musulman n’hérite pas d’un musulman. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3d70545d-ae35-4afa-b601-0edc1fc6c605",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1615a",
+      "reference": "Sahih Muslim, hadith 1615 a, book 23, باب أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَلأَوْلَى رَجُلٍ ذَكَرٍ ‏‏",
+      "title": "باب أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَلأَوْلَى رَجُلٍ ذَكَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الأَعْلَى بْنُ حَمَّادٍ، - وَهُوَ النَّرْسِيُّ - حَدَّثَنَا وُهَيْبٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَهُوَ لأَوْلَى رَجُلٍ ذَكَرٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0125c8e20a32881a14b71a9eacc6b240c1bd1be1903cc1841b9f9598dde7d7e4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd al-A‘la ibn Hammad — al-Narsi — nous a rapporté : Wuhayb nous a rapporté, d’après Ibn Tawus, d’après son père, d’après Ibn Abbas, qui dit que le Messager d’Allah a dit : « Attribuez les parts successorales prescrites à leurs ayants droit. Ce qui reste revient au plus proche parent masculin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4b17938a-478a-422e-99b7-9b5b622526af",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1615b",
+      "reference": "Sahih Muslim, hadith 1615 b, book 23, باب أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَلأَوْلَى رَجُلٍ ذَكَرٍ ‏‏",
+      "title": "باب أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَلأَوْلَى رَجُلٍ ذَكَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أُمَيَّةُ بْنُ بِسْطَامَ الْعَيْشِيُّ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا رَوْحُ بْنُ الْقَاسِمِ، عَنْ عَبْدِ اللَّهِ بْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا تَرَكَتِ الْفَرَائِضُ فَلأَوْلَى رَجُلٍ ذَكَرٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fdcc6cf5f453280f0b3178b352d053fb25875f36c1de1866f851f2b24e4e75e8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Umayya ibn Bisṭam al-Ayshi nous a rapporté : Yazid ibn Zuray‘ nous a rapporté : Rawh ibn al-Qasim nous a rapporté, d’après Abd Allah ibn Tawus, d’après son père, d’après Ibn Abbas, d’après le Messager d’Allah, qui dit : « Attribuez les parts successorales prescrites à leurs ayants droit. Ce qui reste après ces parts revient au plus proche parent masculin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c2363bb0-fade-456c-a529-b0620bece7f4",
+      "reason": "Cette entrée donne une chaîne de transmission puis renvoie au récit précédent sans reproduire son contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
