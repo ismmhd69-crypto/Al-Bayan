@@ -8275,7 +8275,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 557a–560a
 
 - FR-LIB-HAD-MUSLIM-0230 saves four private French drafts about beginning a served meal before prayer and avoiding distraction from food or bodily needs during prayer. Muslim 558 and 559b contain only incomplete cross-references and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 931 Muslim drafts, 7,267 total hadith drafts, 7,362 remaining, and 445 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 931 Muslim drafts, 7,267 total hadith drafts, 7,362 remaining, and 445 Needs Mo items.
 
 ### 2026-10-29: Muslim 560b–562
 
@@ -8836,3 +8836,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0341 saves five private French drafts about recitation and the descent of serenity. Muslim 794c refers to the preceding report and adds a variant without reproducing it, so it remains blank under Needs Mo. A long source remains deferred and will be exported separately.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1372 Muslim drafts, 7708 total hadith drafts, 6921 remaining, and 625 Needs Mo items.
+
+### 2026-10-29: Muslim 795c–798b
+
+- FR-LIB-HAD-MUSLIM-0342 saves three private French drafts about night recitation and the virtues of reading the Quran. Muslim 795c, 797b and 798b only provide incomplete variants or cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1375 Muslim drafts, 7711 total hadith drafts, 6918 remaining, and 628 Needs Mo items.
