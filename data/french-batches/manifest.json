@@ -20082,6 +20082,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-936",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-936.json",
+      "sourceIds": [
+        "2a9eb73d-71b8-48a2-ba0d-2fdc6f931562"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -22892,6 +22908,12 @@
       "scope": "Sahih al-Bukhari 5124: unmarked direct Quran wording from 2:235",
       "status": "blocked",
       "reason": "The commentary contains direct wording from Quran 2:235 without Quran markers. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5127-LONG-SOURCE-REVIEW",
+      "scope": "Sahih al-Bukhari 5127: 2,032-character complex narrative",
+      "status": "blocked",
+      "reason": "The single-item source exceeds the multi-item batch threshold and needs a distinct completeness review before translation."
     },
     {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
