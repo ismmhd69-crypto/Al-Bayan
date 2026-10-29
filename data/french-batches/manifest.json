@@ -48001,6 +48001,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1078",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1078.json",
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "two complete reports translated as private drafts; one malformed source and three transmission variants left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52308,8 +52321,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9585,
-  "hadithLocalRemaining": 4941,
+  "hadithLocalDrafted": 9587,
+  "hadithLocalRemaining": 4939,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -57831,10 +57844,30 @@
       "source_id": "410fff93-71fd-4e05-9f05-0a61447d445b",
       "reason": "Cette entrée ne donne qu’une précision sur la distance ou renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "05494d61-a54e-4416-a03d-6e3351cbf7af",
+      "reason": "Cette entrée ne donne qu’une remarque de transmission ou une variante de formulation et ne reproduit pas le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "0d8bd6fa-c878-44ae-84fc-5f10c23890b9",
+      "reason": "Cette entrée ne donne qu’une remarque de transmission ou une variante de formulation et ne reproduit pas le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "598a89f7-65da-41cf-a0b1-7f90c71f1ca4",
+      "reason": "Le texte arabe contient une séquence de mots accolés qui semble malformée. Garder la traduction française vide jusqu’à vérification de la source.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c3c3f1cc-f212-4664-90a7-03a443adfde4",
+      "reason": "Cette entrée ne donne qu’une remarque de transmission ou une variante de formulation et ne reproduit pas le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3422,
+  "hadithMuslimDrafted": 3424,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1431
+  "hadithNeedsMo": 1435
 }
