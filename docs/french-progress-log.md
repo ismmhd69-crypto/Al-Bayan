@@ -484,3 +484,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-009` saved 18 French messages from `components/StableAnswerView.tsx` and `components/RichAnswerView.tsx`: source-search stages and details, retrying source selection, reconnecting, review notices, the incomplete-summary message, and the personal-ruling notice. Full source IDs and English text are retained in the batch artifact.
 - The batch passed source-file, unique-ID, nonempty French, and placeholder checks. It is displayed as a private draft only; the live Ask flow and API language checks were not changed.
 - Code-level visitor-copy coverage increased from 163 to 181 saved strings. Other hard-coded page, reader, and interactive learning text still needs an inventory and translation. Human review: 0; published: 0.
+
+### 2026-10-29: Hard Questions interface and section labels
+
+- `FR-UI-HC-010` saved 25 French page labels, review notices and source-description messages from `lib/learning/hard-questions.ts`. `FR-UI-HC-011` saved the final section label. The four French section labels match the headings used by the saved article drafts: `La réponse claire`, `Approfondissons`, `Questions complémentaires`, and `Pour continuer :`.
+- Both batches passed source-file, unique-ID, nonempty French, and placeholder checks. The saved translations remain draft-only and are shown in the private preview.
+- Code-level visitor-copy coverage increased from 181 to 207 saved strings. French page parsing remains private-preview-only; this work did not make `/fr` routes active. Other page and interactive visual text still needs review. Human review: 0; published: 0.

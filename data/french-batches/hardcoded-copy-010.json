@@ -1,0 +1,152 @@
+[
+  {
+    "id": "hardQuestion.back",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "All hard questions",
+    "french": "Toutes les questions difficiles"
+  },
+  {
+    "id": "hardQuestion.answer",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "The clear answer",
+    "french": "La réponse claire"
+  },
+  {
+    "id": "hardQuestion.deeper",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Let’s unpack it",
+    "french": "Approfondissons"
+  },
+  {
+    "id": "hardQuestion.followups",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Questions you may still have",
+    "french": "Questions complémentaires"
+  },
+  {
+    "id": "hardQuestion.sources",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Explore the evidence",
+    "french": "Découvrir les preuves"
+  },
+  {
+    "id": "hardQuestion.related",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Keep exploring",
+    "french": "Poursuivre l’exploration"
+  },
+  {
+    "id": "hardQuestion.previous",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Previous question",
+    "french": "Question précédente"
+  },
+  {
+    "id": "hardQuestion.next",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Next question",
+    "french": "Question suivante"
+  },
+  {
+    "id": "hardQuestion.navigate",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "In this answer",
+    "french": "Dans cette réponse"
+  },
+  {
+    "id": "hardQuestion.draft",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Editorial draft",
+    "french": "Brouillon éditorial"
+  },
+  {
+    "id": "hardQuestion.note",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "A prepared Bayan explanation with linked sources. Independent scholarly and language review remain open.",
+    "french": "Une explication préparée par Bayan avec des sources liées. La révision indépendante par des savants et la révision linguistique restent à faire."
+  },
+  {
+    "id": "hardQuestion.history",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Historical and documentary evidence",
+    "french": "Preuves historiques et documentaires"
+  },
+  {
+    "id": "hardQuestion.science",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Scientific evidence",
+    "french": "Preuves scientifiques"
+  },
+  {
+    "id": "hardQuestion.hadith",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Authentic hadith",
+    "french": "Hadith authentique"
+  },
+  {
+    "id": "hardQuestion.scholar",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Named scholarly explanations",
+    "french": "Explications attribuées à des savants"
+  },
+  {
+    "id": "hardQuestion.open",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Read the original source",
+    "french": "Lire la source originale"
+  },
+  {
+    "id": "hardQuestion.sourceNote",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Read the linked passage in context. Bayan’s explanation is a paraphrase, not a quotation.",
+    "french": "Lisez le passage lié dans son contexte. L’explication de Bayan est une paraphrase, pas une citation."
+  },
+  {
+    "id": "hardQuestion.researchNote",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "These sources support historical, scientific or documentary discussion. They are separate from religious teaching.",
+    "french": "Ces sources étayent une discussion historique, scientifique ou documentaire. Elles sont distinctes de l’enseignement religieux."
+  },
+  {
+    "id": "hardQuestion.ask",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Ask a follow-up",
+    "french": "Poser une question complémentaire"
+  },
+  {
+    "id": "hardQuestion.minute",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "About {n} minutes to read",
+    "french": "Environ {n} min de lecture"
+  },
+  {
+    "id": "hardQuestion.newIslam",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "New to Islam",
+    "french": "Découvrir l’islam"
+  },
+  {
+    "id": "hardQuestion.listNote",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Explore a question, read the explanation and inspect its sources. You can start anywhere.",
+    "french": "Choisissez une question, lisez l’explication et consultez ses sources. Vous pouvez commencer où vous voulez."
+  },
+  {
+    "id": "hardQuestion.section.clear",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "The clear answer",
+    "french": "La réponse claire"
+  },
+  {
+    "id": "hardQuestion.section.unpack",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Let’s unpack it",
+    "french": "Approfondissons"
+  },
+  {
+    "id": "hardQuestion.section.followups",
+    "source": "lib/learning/hard-questions.ts",
+    "english": "Follow-up answers",
+    "french": "Questions complémentaires"
+  }
+]
