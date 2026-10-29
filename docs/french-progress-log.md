@@ -1530,3 +1530,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-320` saves six private French drafts for Bukhari 1858–1863. They preserve the narrator chains, the alternate wording about Ibn ‘Abbâs’s dispatch in 1862, and the two alternate transmission paths in 1863. Its final chain has no accompanying hadith text in the source, so none was supplied.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,697 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 102. Total local hadith rows not drafted: 12,932, including held records.
+### 2026-10-29: Bukhari 1864–1869 source review
+
+- `FR-LIB-HAD-BUKHARI-321` saves six private French drafts for Bukhari 1864–1869. It preserves the narrator’s uncertainty in 1864, the wording about a vow to walk and permission to ride in 1865–1866, and the full reports about the sanctuaries and the mosque’s construction.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,703 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 102. Total local hadith rows not drafted: 12,926, including held records.
