@@ -2516,3 +2516,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-520` saves six private French drafts about Abû Râfi‘, avoiding a desired battle, the fall of Persian and Byzantine empires, and strategy in warfare. The long counsel report was translated in full.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,729 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,926, including held records.
+
+### 2026-10-29: Bukhari 3031–3037 source review
+
+- `FR-LIB-HAD-BUKHARI-521` saves six private French drafts about Ka‘b ibn al-Ashraf, Ibn Sayyâd, the trench, Jarîr and the treatment of the Prophet’s wound.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,735 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,920, including held records.
