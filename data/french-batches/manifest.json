@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:12:26.588Z",
+  "lastReconciled": "2026-10-29T14:13:25.691Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 287,
+    "hadithMuslimDrafted": 291,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6623,
-    "hadithDatabaseMissing": 8006,
-    "hadithLocalRemaining": 8006,
-    "hadithNeedsMo": 192,
+    "hadithLocalDrafted": 6627,
+    "hadithDatabaseMissing": 8002,
+    "hadithLocalRemaining": 8002,
+    "hadithNeedsMo": 194,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30365,6 +30365,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0062",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0062.json",
+      "sourceIds": [
+        "757accfd-ade1-48c9-9dd0-225c88e376c5",
+        "c31584f2-b4ef-44aa-ab67-dce2cf3e19c3",
+        "578d4793-2ca2-4a54-b364-545b9e951508",
+        "39cb476e-e043-4429-8cb5-a8e56ca58fa5",
+        "3817611d-e335-4e1a-b260-33907ae7f0a3",
+        "5c11090e-e7df-48fe-8048-d5ef7b9bc686"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotations held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34375,11 +34396,23 @@
       "scope": "Sahih Muslim 138 c: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 3:77 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-151A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 151 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 2:260 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-151C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 151 c: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 2:260 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6623,
-  "hadithLocalRemaining": 8006,
+  "hadithLocalDrafted": 6627,
+  "hadithLocalRemaining": 8002,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -35532,10 +35565,22 @@
       "scope": "Sahih Muslim 138 c: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 3:77 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-151A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 151 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 2:260 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-151C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 151 c: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 2:260 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 287,
-  "hadithDatabaseMissing": 8006,
+  "hadithMuslimDrafted": 291,
+  "hadithDatabaseMissing": 8002,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 192
+  "hadithNeedsMo": 194
 }
