@@ -9686,3 +9686,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0511 saves five private French drafts about the Prophet’s Ramadan retreat. Muslim 1173b gives only a summary cross-reference and transmission variants, so it remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1174–1177b
+
+- FR-LIB-HAD-MUSLIM-0512 saves six private French drafts about worship in the final ten nights and clothing for a pilgrim in consecrated state. All six sources provide complete report text.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
