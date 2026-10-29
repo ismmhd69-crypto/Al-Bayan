@@ -59,3 +59,4 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - Translated articles 1–9 in `hard-questions-001.json` through `hard-questions-003.json`. French drafts preserve the source link destinations, citation labels, headings, and paragraph structure; all three batches passed the focused validator. No source English or existing AR/DE text was changed.
 - Hard Questions progress: 9 of 21 articles drafted; 12 remain. Human review: 0; published: 0.
+- Hard Questions articles 10–12 (inheritance, people unreached by the message, and historical/legal claims about conquest) are drafted in `hard-questions-004.json` and passed reference and structure checks. Current progress: 12 of 21 articles; 9 remain.
