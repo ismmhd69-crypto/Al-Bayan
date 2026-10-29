@@ -8661,3 +8661,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0306 saves two private French drafts about Jabir’s camel and return from an expedition. Muslim 715n, 715p, 715q and 715s contain partial variant reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,220 Muslim drafts, 7,556 total hadith drafts, 7,073 remaining, and 575 Needs Mo items.
+
+### 2026-10-29: Muslim 715t–715y
+
+- FR-LIB-HAD-MUSLIM-0307 saves four private French drafts about the camel transaction and returning from travel. Muslim 715u and 715y only refer to another report and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1224 Muslim drafts, 7560 total hadith drafts, 7069 remaining, and 577 Needs Mo items.

@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0307",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:12:03.366Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "18e107d8-d484-4aa7-9ad6-f71a2ea47a66",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715t",
+      "reference": "Sahih Muslim, hadith 715 t, book 22, باب بَيْعِ الْبَعِيرِ وَاسْتِثْنَاءِ رُكُوبِهِ ‏‏",
+      "title": "باب بَيْعِ الْبَعِيرِ وَاسْتِثْنَاءِ رُكُوبِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ مُحَارِبٍ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ اشْتَرَى مِنِّي رَسُولُ اللَّهِ صلى الله عليه وسلم بَعِيرًا بِوُقِيَّتَيْنِ وَدِرْهَمٍ أَوْ دِرْهَمَيْنِ - قَاَلَ - فَلَمَّا قَدِمَ صِرَارًا أَمَرَ بِبَقَرَةٍ فَذُبِحَتْ فَأَكَلُوا مِنْهَا فَلَمَّا قَدِمَ الْمَدِينَةَ أَمَرَنِي أَنْ آتِيَ الْمَسْجِدَ فَأُصَلِّيَ رَكْعَتَيْنِ وَوَزَنَ لِي ثَمَنَ الْبَعِيرِ فَأَرْجَحَ لِي ‏.‏",
+      "source_hash_sha256": "df41526ede08519cc1141f0d2f7aa9aa83884b79189e73aaa405c08423547778",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allah ibn Mu‘adh al-‘Anbari nous a rapporté : mon père nous a rapporté : Shu‘ba nous a rapporté, d’après Muharib, qui a entendu Jabir ibn ‘Abd Allah dire : « Le Messager d’Allah ﷺ m’acheta un chameau pour deux onces et un dirham — ou deux dirhams. » À son arrivée à Sirar, il fit abattre une vache et ils en mangèrent. Lorsqu’il arriva à Médine, il me demanda de venir à la mosquée et d’y prier deux unités de prière. Il pesa pour moi le prix du chameau et me donna un peu plus que son dû.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "072bedb9-4074-4f7d-ab36-d59ed2b268b9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715u",
+      "reference": "Sahih Muslim, hadith 715 u, book 22, باب بَيْعِ الْبَعِيرِ وَاسْتِثْنَاءِ رُكُوبِهِ ‏‏",
+      "title": "باب بَيْعِ الْبَعِيرِ وَاسْتِثْنَاءِ رُكُوبِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى بْنُ حَبِيبٍ الْحَارِثِيُّ، حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، حَدَّثَنَا شُعْبَةُ، أَخْبَرَنَا مُحَارِبٌ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذِهِ الْقِصَّةِ غَيْرَ أَنَّهُ قَالَ فَاشْتَرَاهُ مِنِّي بِثَمَنٍ قَدْ سَمَّاهُ ‏.‏ وَلَمْ يَذْكُرِ الْوُقِيَّتَيْنِ وَالدِّرْهَمَ وَالدِّرْهَمَيْنِ ‏.‏ وَقَالَ أَمَرَ بِبَقَرَةٍ فَنُحِرَتْ ثُمَّ قَسَمَ لَحْمَهَا ‏.‏",
+      "source_hash_sha256": "93c3d6920d10a045ee906b92433ec31b0c3160884b2fac2f2caf2a005968410f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3f756e2a-f653-4ec4-929e-374ab8769560",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715v",
+      "reference": "Sahih Muslim, hadith 715 v, book 22, باب بَيْعِ الْبَعِيرِ وَاسْتِثْنَاءِ رُكُوبِهِ ‏‏",
+      "title": "باب بَيْعِ الْبَعِيرِ وَاسْتِثْنَاءِ رُكُوبِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ أَبِي زَائِدَةَ، عَنِ ابْنِ جُرَيْجٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ لَهُ ‏\"‏ قَدْ أَخَذْتُ جَمَلَكَ بِأَرْبَعَةِ دَنَانِيرَ وَلَكَ ظَهْرُهُ إِلَى الْمَدِينَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "62d0c7e61339f49c99e95a638569d33dd68d401727428588fb8f6b960a074c96",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Ibn Abi Za’ida nous a rapporté, d’après Ibn Jurayj, d’après ‘Ata’, d’après Jabir, que le Prophète ﷺ lui dit : « J’ai pris ton chameau pour quatre dinars, et tu pourras le monter jusqu’à Médine. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "01f94540-3f84-42ca-b6bb-17367f8d8261",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715w",
+      "reference": "Sahih Muslim, hadith 715 w, book 33, باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "title": "باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْمَاعِيلُ بْنُ سَالِمٍ، حَدَّثَنَا هُشَيْمٌ، أَخْبَرَنَا سَيَّارٌ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - حَدَّثَنَا هُشَيْمٌ، عَنْ سَيَّارٍ، عَنِ الشَّعْبِيِّ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ كُنَّا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي غَزَاةٍ فَلَمَّا قَدِمْنَا الْمَدِينَةَ ذَهَبْنَا لِنَدْخُلَ فَقَالَ ‏\"‏ أَمْهِلُوا حَتَّى نَدْخُلَ لَيْلاً - أَىْ عِشَاءً - كَىْ تَمْتَشِطَ الشَّعِثَةُ وَتَسْتَحِدَّ الْمُغِيبَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c076d5f904579e4af439a1db7118345a1d9e09343485bf9e46ca192eecd81444",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isma‘il ibn Salim nous a rapporté : Hushaym nous a rapporté ; et Yahya ibn Yahya nous a rapporté — la formulation est la sienne — : Hushaym nous a rapporté, d’après Sayyar, d’après al-Sha‘bi, d’après Jabir ibn ‘Abd Allah. Il dit : « Nous étions avec le Messager d’Allah ﷺ lors d’une expédition. À notre arrivée à Médine, nous voulions entrer. Il dit : “Attendez d’entrer la nuit, au début de la soirée, afin que la femme aux cheveux en désordre puisse se peigner et que celle dont le mari est absent puisse se préparer.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b83e9caa-f1a9-4e20-95d9-ad87997be7b9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715x",
+      "reference": "Sahih Muslim, hadith 715 x, book 33, باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "title": "باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنِي عَبْدُ الصَّمَدِ، حَدَّثَنَا شُعْبَةُ، عَنْ سَيَّارٍ، عَنْ عَامِرٍ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا قَدِمَ أَحَدُكُمْ لَيْلاً فَلاَ يَأْتِيَنَّ أَهْلَهُ طُرُوقًا حَتَّى تَسْتَحِدَّ الْمُغِيبَةُ وَتَمْتَشِطَ الشَّعِثَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e2a10ca7effea050804d322b57704c7e31ffd14bc144d6381b36362bf4068af0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : ‘Abd al-Samad m’a rapporté : Shu‘ba nous a rapporté, d’après Sayyar, d’après ‘Amir, d’après Jabir, qui dit : Le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous arrive de nuit, qu’il ne rejoigne pas sa famille à l’improviste avant que celle dont le mari était absent ait pu se préparer et que la femme aux cheveux en désordre ait pu se peigner. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dfb277b6-07fa-41d1-9a17-9124c9acfacd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715y",
+      "reference": "Sahih Muslim, hadith 715 y, book 33, باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "title": "باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا سَيَّارٌ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "93987bc19c1fb012cfa637caf6325c04a8916a04897546709a714f9e435995c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "072bedb9-4074-4f7d-ab36-d59ed2b268b9",
+      "reason": "La source renvoie à cette histoire et ne reprend que certains détails, sans donner le récit complet. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
+    },
+    {
+      "source_id": "dfb277b6-07fa-41d1-9a17-9124c9acfacd",
+      "reason": "La source indique seulement que le récit précédent est rapporté avec la même chaîne, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    }
+  ]
+}
