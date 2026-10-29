@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-923",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:50:33.055Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5e752952-ef6c-4c9d-a36f-1238b84b73b0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5049",
+      "reference": "Sahih al-Bukhari, hadith 5049, book 66, باب مَنْ أَحَبَّ أَنْ يَسْمَعَ الْقُرْآنَ مِنْ غَيْرِهِ",
+      "title": "باب مَنْ أَحَبَّ أَنْ يَسْمَعَ الْقُرْآنَ مِنْ غَيْرِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصِ بْنِ غِيَاثٍ، حَدَّثَنَا أَبِي، عَنِ الأَعْمَشِ، قَالَ حَدَّثَنِي إِبْرَاهِيمُ، عَنْ عَبِيدَةَ، عَنْ عَبْدِ اللَّهِ، رضى الله عنه قَالَ قَالَ لِي النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اقْرَأْ عَلَىَّ الْقُرْآنَ ‏\"‏‏.‏ قُلْتُ آقْرَأُ عَلَيْكَ وَعَلَيْكَ أُنْزِلَ قَالَ ‏\"‏ إِنِّي أُحِبُّ أَنْ أَسْمَعَهُ مِنْ غَيْرِي ‏\"‏‏.‏",
+      "source_hash_sha256": "a71cafbd6df3c47ab886197d9560308be17863a936636cb0870c1e97eb010302",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh rapporte que le Prophète lui dit : « Récite-moi le Coran. » Je répondis : « Le réciterais-je devant toi alors qu’il t’a été révélé ? » Il dit : « J’aime l’entendre récité par quelqu’un d’autre que moi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d98e04bf-e722-46ef-aeba-38f0c5db8de4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5050",
+      "reference": "Sahih al-Bukhari, hadith 5050, book 66, باب قَوْلِ الْمُقْرِئِ لِلْقَارِئِ حَسْبُكَ",
+      "title": "باب قَوْلِ الْمُقْرِئِ لِلْقَارِئِ حَسْبُكَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَبِيدَةَ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، قَالَ قَالَ لِي النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اقْرَأْ عَلَىَّ ‏\"‏‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ آقْرَأُ عَلَيْكَ وَعَلَيْكَ أُنْزِلَ قَالَ ‏\"‏ نَعَمْ ‏\"‏‏.‏ فَقَرَأْتُ سُورَةَ النِّسَاءِ حَتَّى أَتَيْتُ إِلَى هَذِهِ الآيَةِ ‏[quran sura=\"4\" aya_start=\"41\" aya_end=\"41\"]{‏فَكَيْفَ إِذَا جِئْنَا مِنْ كُلِّ أُمَّةٍ بِشَهِيدٍ وَجِئْنَا بِكَ عَلَى هَؤُلاَءِ شَهِيدًا‏}‏ قَالَ ‏\"‏ حَسْبُكَ الآنَ ‏\"‏‏.‏ فَالْتَفَتُّ إِلَيْهِ فَإِذَا عَيْنَاهُ تَذْرِفَانِ‏.‏",
+      "source_hash_sha256": "f1d31b7df9cc991ed3deb095673cc930af6296818b85637228b7edd2608d9655",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ae52e96c-1545-4124-8d65-48a515bdb836",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5051",
+      "reference": "Sahih al-Bukhari, hadith 5051, book 66, بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ",
+      "title": "بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيٌّ، حَدَّثَنَا سُفْيَانُ، قَالَ لِي ابْنُ شُبْرُمَةَ نَظَرْتُ كَمْ يَكْفِي الرَّجُلَ مِنَ الْقُرْآنِ فَلَمْ أَجِدْ سُورَةً أَقَلَّ مِنْ ثَلاَثِ آيَاتٍ، فَقُلْتُ لاَ يَنْبَغِي لأَحَدٍ أَنْ يَقْرَأَ أَقَلَّ مِنْ ثَلاَثِ آيَاتٍ‏.‏",
+      "source_hash_sha256": "48d956f1dcbffb285e48217bc6fab4cfbd1245289dd2269bd54d28fc01b76ce0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Shubrumah rapporte : « J’ai cherché quelle quantité du Coran suffisait à une personne et je n’ai trouvé aucune sourate de moins de trois versets. J’ai donc estimé que personne ne devrait réciter moins de trois versets. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a3c02202-1993-4950-aef6-d5ae8844f618",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5051b",
+      "reference": "Sahih al-Bukhari, hadith 5051b, book 66, بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ",
+      "title": "بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ",
+      "source_published": true,
+      "text_original": "قَالَ عَلِيٌّ قَالَ سُفْيَانُ أَخْبَرَنَا مَنْصُورٌ، عَنْ إِبْرَاهِيمَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ يَزِيدَ، أَخْبَرَهُ عَلْقَمَةُ، عَنْ أَبِي مَسْعُودٍ، وَلَقِيتُهُ، وَهْوَ يَطُوفُ بِالْبَيْتِ فَذَكَرَ قَوْلَ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ أَنَّ مَنْ قَرَأَ بِالآيَتَيْنِ مِنْ آخِرِ سُورَةِ الْبَقَرَةِ فِي لَيْلَةٍ كَفَتَاهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "6983577132445a9b03ffbed9d904431a64a498c75cb80e3622673ec642dc3b72",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Masʿûd rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Celui qui récite les deux derniers versets de la sourate al-Baqara pendant une nuit, ils lui suffisent. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dc5c0e45-f4f5-43af-b70c-65e1e530d7e8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5052",
+      "reference": "Sahih al-Bukhari, hadith 5052, book 66, بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ",
+      "title": "بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ مُغِيرَةَ، عَنْ مُجَاهِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ أَنْكَحَنِي أَبِي امْرَأَةً ذَاتَ حَسَبٍ فَكَانَ يَتَعَاهَدُ كَنَّتَهُ فَيَسْأَلُهَا عَنْ بَعْلِهَا فَتَقُولُ نِعْمَ الرَّجُلُ مِنْ رَجُلٍ لَمْ يَطَأْ لَنَا فِرَاشًا وَلَمْ يُفَتِّشْ لَنَا كَنَفًا مُذْ أَتَيْنَاهُ فَلَمَّا طَالَ ذَلِكَ عَلَيْهِ ذَكَرَ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ الْقَنِي بِهِ ‏\"‏‏.‏ فَلَقِيتُهُ بَعْدُ فَقَالَ ‏\"‏ كَيْفَ تَصُومُ ‏\"‏‏.‏ قَالَ كُلَّ يَوْمٍ‏.‏ قَالَ ‏\"‏ وَكَيْفَ تَخْتِمُ ‏\"‏‏.‏ قَالَ كُلَّ لَيْلَةً‏.‏ قَالَ ‏\"‏ صُمْ فِي كُلِّ شَهْرٍ ثَلاَثَةً وَاقْرَإِ الْقُرْآنَ فِي كُلِّ شَهْرٍ ‏\"‏‏.‏ قَالَ قُلْتُ أُطِيقُ أَكْثَرَ مِنْ ذَلِكَ‏.‏ قَالَ ‏\"‏ صُمْ ثَلاَثَةَ أَيَّامٍ فِي الْجُمُعَةِ ‏\"‏‏.‏ قُلْتُ أُطِيقُ أَكْثَرَ مِنْ ذَلِكَ‏.‏ قَالَ ‏\"‏ أَفْطِرْ يَوْمَيْنِ وَصُمْ يَوْمًا ‏\"‏‏.‏ قَالَ قُلْتُ أُطِيقُ أَكْثَرَ مِنْ ذَلِكَ‏.‏ قَالَ ‏\"‏ صُمْ أَفْضَلَ الصَّوْمِ صَوْمِ دَاوُدَ صِيَامَ يَوْمٍ وَإِفْطَارَ يَوْمٍ وَاقْرَأْ فِي كُلِّ سَبْعِ لَيَالٍ مَرَّةً ‏\"‏‏.‏ فَلَيْتَنِي قَبِلْتُ رُخْصَةَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَذَاكَ أَنِّي كَبِرْتُ وَضَعُفْتُ فَكَانَ يَقْرَأُ عَلَى بَعْضِ أَهْلِهِ السُّبْعَ مِنَ الْقُرْآنِ بِالنَّهَارِ وَالَّذِي يَقْرَؤُهُ يَعْرِضُهُ مِنَ النَّهَارِ لِيَكُونَ أَخَفَّ عَلَيْهِ بِاللَّيْلِ وَإِذَا أَرَادَ أَنْ يَتَقَوَّى أَفْطَرَ أَيَّامًا وَأَحْصَى وَصَامَ مِثْلَهُنَّ كَرَاهِيةَ أَنْ يَتْرُكَ شَيْئًا فَارَقَ النَّبِيَّ صلى الله عليه وسلم عَلَيْهِ‏.‏ قَالَ أَبُو عَبْدِ اللَّهِ وَقَالَ بَعْضُهُمْ فِي ثَلاَثٍ وَفِي خَمْسٍ وَأَكْثَرُهُمْ عَلَى سَبْعٍ‏.‏",
+      "source_hash_sha256": "78e2b4e71c97311d902fcdcf105e81701d034c6f0a70708252d52a7c4e319041",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn ʿAmr rapporte : « Mon père me maria à une femme d’une famille honorable. Il venait régulièrement voir sa belle-fille et lui demandait des nouvelles de son mari. Elle répondait : “Quel homme remarquable ! Depuis que je suis arrivée, il n’a pas partagé notre lit et ne s’est pas préoccupé de nous.” Comme cela durait, mon père en parla au Prophète, qui lui dit : “Fais-le venir.” Je le rencontrai ensuite et le Prophète me demanda : “Combien de jours jeûnes-tu ?” Je répondis : “Tous les jours.” Il demanda : “En combien de temps achèves-tu le Coran ?” Je répondis : “Chaque nuit.” Il dit : “Jeûne trois jours par mois et récite le Coran en un mois.” Je dis que je pouvais en faire davantage. Il me proposa de jeûner trois jours par semaine, puis de jeûner un jour et de rompre le jeûne deux jours. Comme je disais encore pouvoir en faire davantage, il me recommanda le meilleur jeûne : celui de Dâwûd, un jour de jeûne et un jour sans jeûne, et de réciter le Coran en sept nuits. J’aurais aimé accepter la facilité accordée par le Messager d’Allah, car j’ai vieilli et je me suis affaibli. Il récitait alors chaque jour devant l’un de ses proches un septième du Coran, qu’il avait révisé pendant la journée, afin que cela lui soit plus facile la nuit. Lorsqu’il voulait reprendre des forces, il interrompait son jeûne pendant quelques jours, puis jeûnait autant de jours, ne voulant pas abandonner une pratique qu’il avait suivie auprès du Prophète. » Abû ʿAbd Allâh ajouta : « Certains transmetteurs disent trois jours, d’autres cinq, mais la plupart disent sept. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "95c376d6-4aec-4026-ab3c-76ca94e019ed",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5053",
+      "reference": "Sahih al-Bukhari, hadith 5053, book 66, بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ",
+      "title": "بَابٌ في كَمْ يُقْرَأُ الْقُرْآنُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعْدُ بْنُ حَفْصٍ، حَدَّثَنَا شَيْبَانُ، عَنْ يَحْيَى، عَنْ مُحَمَّدِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي سَلَمَةَ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ لِي النَّبِيُّ صلى الله عليه وسلم ‏\"‏ فِي كَمْ تَقْرَأُ الْقُرْآنَ ‏\"‏‏.‏",
+      "source_hash_sha256": "f81a77c1619196270eb446a05f57654560635cd1a2d38cc0501d3732814d1df2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d98e04bf-e722-46ef-aeba-38f0c5db8de4",
+      "url": "https://sunnah.com/bukhari:5050",
+      "reason": "Le rapport cite directement Quran 4:41. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-923."
+    },
+    {
+      "source_id": "95c376d6-4aec-4026-ab3c-76ca94e019ed",
+      "url": "https://sunnah.com/bukhari:5053",
+      "reason": "Le texte fourni ne contient que la question « en combien de temps récites-tu le Coran ? » et s’interrompt avant la réponse ou la suite du récit. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-923."
+    }
+  ]
+}

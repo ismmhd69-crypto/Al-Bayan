@@ -19810,6 +19810,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-923",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-923.json",
+      "sourceIds": [
+        "5e752952-ef6c-4c9d-a36f-1238b84b73b0",
+        "d98e04bf-e722-46ef-aeba-38f0c5db8de4",
+        "ae52e96c-1545-4124-8d65-48a515bdb836",
+        "a3c02202-1993-4950-aef6-d5ae8844f618",
+        "dc5c0e45-f4f5-43af-b70c-65e1e530d7e8",
+        "95c376d6-4aec-4026-ab3c-76ca94e019ed"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22544,6 +22565,18 @@
       "reason": "Le rapport cite directement Bismillah ar-Rahman ar-Rahim. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-922, dans l’attente d’une traduction française approuvée et attribuée."
     },
     {
+      "id": "HADITH-BUKHARI-5050-QURAN-4-41",
+      "scope": "Sahih al-Bukhari 5050: direct Quran quotation from 4:41",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:41. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-923, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-5053-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5053: source excerpt ends after a question",
+      "status": "blocked",
+      "reason": "The source excerpt stops after the question about how long it takes to recite the Quran, without the answer or remaining report. Keep blank until a complete source is available."
+    },
+    {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
@@ -22592,7 +22625,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4128,
-  "hadithLocalDrafted": 4128,
-  "hadithLocalRemaining": 10539
+  "hadithBukhariDrafted": 4132,
+  "hadithLocalDrafted": 4132,
+  "hadithLocalRemaining": 10535
 }
