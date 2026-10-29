@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-fr-drafts; missing-only inserts authorized where existing schema and source rights permit; public activation forbidden",
-  "lastReconciled": "2026-10-29T22:26:09.983Z",
+  "lastReconciled": "2026-10-29T22:26:32.235Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -59,18 +59,18 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 5046,
+    "hadithMuslimDrafted": 5049,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11382,
+    "hadithLocalDrafted": 11385,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3247,
-    "hadithNeedsMo": 2872,
+    "hadithLocalRemaining": 3244,
+    "hadithNeedsMo": 2875,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14254,
-    "hadithSourcesNotYetExported": 375
+    "hadithSourcesProcessed": 14260,
+    "hadithSourcesNotYetExported": 369
   },
   "batches": [
     {
@@ -51714,6 +51714,30 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1295",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1295.json",
+      "sourceIds": [
+        "e45a9894-4470-486a-a292-e991b6dbb564",
+        "6361d568-0267-4e2c-9788-71cf6c36d11b",
+        "9227b236-e201-4f06-aadb-bbcb98d6be38",
+        "a1ea1c93-f884-410b-8460-27e5359ff606",
+        "2561a44a-3f04-4caa-a4f8-2f9a6cea0596",
+        "f30f26e1-f135-4024-a14a-325875d99911"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 3,
+      "failed": 0,
+      "remaining": 3244,
+      "validation": "Three complete reports translated. Two incomplete references and one report with a Quran quotation held blank with reasons. One long source was deferred by the exporter for single-item handling. Focused validator and git diff check passed. Private local drafts only.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -56021,8 +56045,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 11382,
-  "hadithLocalRemaining": 3247,
+  "hadithLocalDrafted": 11385,
+  "hadithLocalRemaining": 3244,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -62084,11 +62108,11 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 5046,
+  "hadithMuslimDrafted": 5049,
   "hadithDatabaseMissing": 14629,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 2872,
+  "hadithNeedsMo": 2875,
   "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
-  "hadithSourcesProcessed": 14254,
-  "hadithSourcesNotYetExported": 375
+  "hadithSourcesProcessed": 14260,
+  "hadithSourcesNotYetExported": 369
 }
