@@ -8136,3 +8136,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0202 saves five private French drafts about supplications in prostration and the merit of frequent prostration. Muslim 487b contains only chains and a cross-reference to the preceding report, so it remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 819 Muslim drafts, 7,155 total hadith drafts, 7,474 remaining, and 400 Needs Mo items.
+
+### 2026-10-29: Muslim 490a–491
+
+- FR-LIB-HAD-MUSLIM-0203 saves six private French drafts about the body parts used in prostration and keeping clothing or hair from being gathered during it. All six source reports include their wording.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 825 Muslim drafts, 7,161 total hadith drafts, 7,468 remaining, and 400 Needs Mo items.
