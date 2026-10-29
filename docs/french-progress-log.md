@@ -11350,3 +11350,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1783c-1785d
 
 - FR-LIB-HAD-MUSLIM-0847 saves six private French drafts about the al-Hudaybiya treaty and its later recollection at Siffîn. The treaty terms, dialogue, and transmission differences are preserved. No direct Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1786a-1790a
+
+- FR-LIB-HAD-MUSLIM-0848 saves four private French drafts: reports about honoring a pledge, the Battle of the Trench, and Uhud. The Quran-quoting report from al-Hudaybiya and a chain-only cross-reference remain blank under Needs Mo with specific reasons. No database write or publication occurred.

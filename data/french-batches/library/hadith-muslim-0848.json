@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0848",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:59:16.592Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "fe7453a8-fbba-4e14-a9ed-e7d61f8e5509",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1786a",
+      "reference": "Sahih Muslim, hadith 1786 a, book 32, باب صُلْحِ الْحُدَيْبِيَةِ فِي الْحُدَيْبِيَةِ ‏‏",
+      "title": "باب صُلْحِ الْحُدَيْبِيَةِ فِي الْحُدَيْبِيَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ الْجَهْضَمِيُّ، حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، حَدَّثَنَا سَعِيدُ بْنُ أَبِي، عَرُوبَةَ عَنْ قَتَادَةَ، أَنَّ أَنَسَ بْنَ مَالِكٍ، حَدَّثَهُمْ قَالَ لَمَّا نَزَلَتْ ‏[quran sura=\"48\" aya_start=\"1\" aya_end=\"1\"]{‏ إِنَّا فَتَحْنَا لَكَ فَتْحًا مُبِينًا * لِيَغْفِرَ لَكَ اللَّهُ‏}‏ إِلَى قَوْلِهِ [quran sura=\"48\" aya_start=\"5\" aya_end=\"5\"]‏{‏ فَوْزًا عَظِيمًا‏}‏ مَرْجِعَهُ مِنَ الْحُدَيْبِيَةِ وَهُمْ يُخَالِطُهُمُ الْحُزْنُ وَالْكَآبَةُ وَقَدْ نَحَرَ الْهَدْىَ بِالْحُدَيْبِيَةِ فَقَالَ ‏\"‏ لَقَدْ أُنْزِلَتْ عَلَىَّ آيَةٌ هِيَ أَحَبُّ إِلَىَّ مِنَ الدُّنْيَا جَمِيعًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fa6a65c0317d5be6914a54c4640968f88ee8d3809fe8068499506ffbf79884c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c954bdcb-2e79-4d45-8a26-3c57d7c66e24",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1786b",
+      "reference": "Sahih Muslim, hadith 1786 b, book 32, باب صُلْحِ الْحُدَيْبِيَةِ فِي الْحُدَيْبِيَةِ ‏‏",
+      "title": "باب صُلْحِ الْحُدَيْبِيَةِ فِي الْحُدَيْبِيَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَاصِمُ بْنُ النَّضْرِ التَّيْمِيُّ، حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ أَبِي، حَدَّثَنَا قَتَادَةُ، قَالَ سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا أَبُو دَاوُدَ، حَدَّثَنَا هَمَّامٌ، ح وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا يُونُسُ بْنُ مُحَمَّدٍ، حَدَّثَنَا شَيْبَانُ، جَمِيعًا عَنْ قَتَادَةَ، عَنْ أَنَسٍ، نَحْوَ حَدِيثِ ابْنِ أَبِي عَرُوبَةَ ‏.‏",
+      "source_hash_sha256": "2fe26aa4a17e76f589dc292c8842a7cf3d7e20faf713b802dcf2445008f0ba91",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0c553d56-0187-4f80-b4d7-41ab235cb80f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1787",
+      "reference": "Sahih Muslim, hadith 1787, book 32, باب الْوَفَاءِ بِالْعَهْدِ ‏‏",
+      "title": "باب الْوَفَاءِ بِالْعَهْدِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الْوَلِيدِ بْنِ جُمَيْعٍ، حَدَّثَنَا أَبُو الطُّفَيْلِ حَدَّثَنَا حُذَيْفَةُ بْنُ الْيَمَانِ، قَالَ مَا مَنَعَنِي أَنْ أَشْهَدَ، بَدْرًا إِلاَّ أَنِّي خَرَجْتُ أَنَا وَأَبِي - حُسَيْلٌ - قَالَ فَأَخَذَنَا كُفَّارُ قُرَيْشٍ قَالُوا إِنَّكُمْ تُرِيدُونَ مُحَمَّدًا فَقُلْنَا مَا نُرِيدُهُ مَا نُرِيدُ إِلاَّ الْمَدِينَةَ ‏.‏ فَأَخَذُوا مِنَّا عَهْدَ اللَّهِ وَمِيثَاقَهُ لَنَنْصَرِفَنَّ إِلَى الْمَدِينَةِ وَلاَ نُقَاتِلُ مَعَهُ فَأَتَيْنَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَأَخْبَرْنَاهُ الْخَبَرَ فَقَالَ ‏\"‏ انْصَرِفَا نَفِي لَهُمْ بِعَهْدِهِمْ وَنَسْتَعِينُ اللَّهَ عَلَيْهِمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c074d8855c08f5db72000a513abe862b234c0b8d8a327be8aa647c528ab5205c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Abû Usâma nous a rapporté, d’après al-Walîd ibn Jumay‘ : Abû al-Tufayl nous a rapporté : Hudhayfa ibn al-Yamân nous a rapporté : « Seule une circonstance m’empêcha d’assister à Badr : mon père Husayl et moi étions partis, mais les polythéistes de Quraysh nous capturèrent. Ils dirent : “Vous voulez rejoindre Muhammad.” Nous répondîmes : “Nous ne voulons pas le rejoindre ; nous voulons seulement aller à Médine.” Ils nous firent promettre devant Allah de retourner à Médine et de ne pas combattre à ses côtés. Nous rejoignîmes le Messager d’Allah et lui racontâmes ce qui s’était passé. Il dit : “Retournez donc. Nous respecterons leur engagement et demanderons à Allah de nous aider contre eux.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2e11bb3f-b8d1-46e1-9fc6-ffba55d54eb8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1788",
+      "reference": "Sahih Muslim, hadith 1788, book 32, باب غَزْوَةِ الأَحْزَابِ ‏‏",
+      "title": "باب غَزْوَةِ الأَحْزَابِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، جَمِيعًا عَنْ جَرِيرٍ، قَالَ زُهَيْرٌ حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، قَالَ كُنَّا عِنْدَ حُذَيْفَةَ فَقَالَ رَجُلٌ لَوْ أَدْرَكْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم قَاتَلْتُ مَعَهُ وَأَبْلَيْتُ فَقَالَ حُذَيْفَةُ أَنْتَ كُنْتَ تَفْعَلُ ذَلِكَ لَقَدْ رَأَيْتُنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم لَيْلَةَ الأَحْزَابِ وَأَخَذَتْنَا رِيحٌ شَدِيدَةٌ وَقُرٌّ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَلاَ رَجُلٌ يَأْتِينِي بِخَبَرِ الْقَوْمِ جَعَلَهُ اللَّهُ مَعِي يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏ فَسَكَتْنَا فَلَمْ يُجِبْهُ مِنَّا أَحَدٌ ثُمَّ قَالَ ‏\"‏ أَلاَ رَجُلٌ يَأْتِينَا بِخَبَرِ الْقَوْمِ جَعَلَهُ اللَّهُ مَعِي يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏ فَسَكَتْنَا فَلَمْ يُجِبْهُ مِنَّا أَحَدٌ ثُمَّ قَالَ ‏\"‏ أَلاَ رَجُلٌ يَأْتِينَا بِخَبَرِ الْقَوْمِ جَعَلَهُ اللَّهُ مَعِي يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏ فَسَكَتْنَا فَلَمْ يُجِبْهُ مِنَّا أَحَدٌ فَقَالَ ‏\"‏ قُمْ يَا حُذَيْفَةُ فَأْتِنَا بِخَبَرِ الْقَوْمِ ‏\"‏ ‏.‏ فَلَمْ أَجِدْ بُدًّا إِذْ دَعَانِي بِاسْمِي أَنْ أَقُومَ قَالَ ‏\"‏ اذْهَبْ فَأْتِنِي بِخَبَرِ الْقَوْمِ وَلاَ تَذْعَرْهُمْ عَلَىَّ ‏\"‏ ‏.‏ فَلَمَّا وَلَّيْتُ مِنْ عِنْدِهِ جَعَلْتُ كَأَنَّمَا أَمْشِي فِي حَمَّامٍ حَتَّى أَتَيْتُهُمْ فَرَأَيْتُ أَبَا سُفْيَانَ يَصْلِي ظَهْرَهُ بِالنَّارِ فَوَضَعْتُ سَهْمًا فِي كَبِدِ الْقَوْسِ فَأَرَدْتُ أَنْ أَرْمِيَهُ فَذَكَرْتُ قَوْلَ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَلاَ تَذْعَرْهُمْ عَلَىَّ ‏\"‏ ‏.‏ وَلَوْ رَمَيْتُهُ لأَصَبْتُهُ فَرَجَعْتُ وَأَنَا أَمْشِي فِي مِثْلِ الْحَمَّامِ فَلَمَّا أَتَيْتُهُ فَأَخْبَرْتُهُ بِخَبَرِ الْقَوْمِ وَفَرَغْتُ قُرِرْتُ فَأَلْبَسَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم مِنْ فَضْلِ عَبَاءَةٍ كَانَتْ عَلَيْهِ يُصَلِّي فِيهَا فَلَمْ أَزَلْ نَائِمًا حَتَّى أَصْبَحْتُ فَلَمَّا أَصْبَحْتُ قَالَ ‏\"‏ قُمْ يَا نَوْمَانُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7ef25329b50c5043eab94734d366b45bcb8ee2b85bf1fa6e04dba69083fd1512",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Ishâq ibn Ibrâhîm nous ont rapporté, tous deux d’après Jarîr. Zuhayr a dit : Jarîr nous a rapporté, d’après al-A‘mash, d’après Ibrâhîm al-Taymî, d’après son père, qui a dit : Nous étions auprès de Hudhayfa lorsqu’un homme dit : « Si j’avais vécu à l’époque du Messager d’Allah, j’aurais combattu à ses côtés et j’aurais fait mes preuves. » Hudhayfa répondit : « Tu aurais vraiment fait cela ? Nous étions avec le Messager d’Allah la nuit des Coalisés, alors qu’un vent violent et un froid intense nous frappaient. Le Messager d’Allah demanda : “Quelqu’un peut-il m’apporter des nouvelles de l’ennemi ? Allah le placera avec moi le Jour de la Résurrection.” Nous gardâmes le silence ; aucun de nous ne répondit. Il le demanda une deuxième fois, et nous gardâmes le silence. Il le demanda une troisième fois, et aucun de nous ne répondit. Il dit alors : “Lève-toi, Hudhayfa, et apporte-nous des nouvelles de l’ennemi.” Puisqu’il m’appelait par mon nom, je ne pouvais que me lever. Il dit : “Va m’apporter des nouvelles de l’ennemi et ne les alerte pas contre moi.” En m’éloignant de lui, j’eus l’impression de marcher dans un bain chaud, jusqu’à ce que j’arrive auprès d’eux. Je vis Abû Sufyân réchauffer son dos au feu. Je plaçai une flèche sur la corde de mon arc et voulus tirer sur lui, mais je me rappelai les paroles du Messager d’Allah : “Ne les alerte pas contre moi.” Si je l’avais tirée, je l’aurais atteint. Je revins, ayant de nouveau l’impression de marcher dans un bain chaud. Lorsque je lui rapportai les nouvelles de l’ennemi, mon compte rendu terminé, je me mis à grelotter. Le Messager d’Allah me couvrit alors avec le surplus d’un manteau qu’il portait pour prier. Je ne cessai de dormir jusqu’au matin. Au matin, il dit : “Lève-toi, toi qui dors tant !” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "50c10439-a2e0-4aa1-9440-bb759ffe63f6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1789",
+      "reference": "Sahih Muslim, hadith 1789, book 32, باب غَزْوَةِ أُحُدٍ ‏‏",
+      "title": "باب غَزْوَةِ أُحُدٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ الأَزْدِيُّ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ عَلِيِّ بْنِ زَيْدٍ، وَثَابِتٍ، الْبُنَانِيِّ عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أُفْرِدَ يَوْمَ أُحُدٍ فِي سَبْعَةٍ مِنَ الأَنْصَارِ وَرَجُلَيْنِ مِنْ قُرَيْشٍ فَلَمَّا رَهِقُوهُ قَالَ ‏\"‏ مَنْ يَرُدُّهُمْ عَنَّا وَلَهُ الْجَنَّةُ أَوْ هُوَ رَفِيقِي فِي الْجَنَّةِ ‏\"‏ ‏.‏ فَتَقَدَّمَ رَجُلٌ مِنَ الأَنْصَارِ فَقَاتَلَ حَتَّى قُتِلَ ثُمَّ رَهِقُوهُ أَيْضًا فَقَالَ ‏\"‏ مَنْ يَرُدُّهُمْ عَنَّا وَلَهُ الْجَنَّةُ أَوْ هُوَ رَفِيقِي فِي الْجَنَّةِ ‏\"‏ ‏.‏ فَتَقَدَّمَ رَجُلٌ مِنَ الأَنْصَارِ فَقَاتَلَ حَتَّى قُتِلَ فَلَمْ يَزَلْ كَذَلِكَ حَتَّى قُتِلَ السَّبْعَةُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِصَاحِبَيْهِ ‏\"‏ مَا أَنْصَفْنَا أَصْحَابَنَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e55e2f3e8371c3cb1fe23fd9f94af81d0094fa19889dc5e2a59ef8f32f318d10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Haddâb ibn Khâlid al-Azdî nous a rapporté : Hammâd ibn Salama nous a rapporté, d’après ‘Alî ibn Zayd et Thâbit al-Bunânî, d’après Anas ibn Mâlik : Le jour d’Uhud, le Messager d’Allah se retrouva isolé avec sept hommes des Ansâr et deux hommes de Quraysh. Lorsque les ennemis se rapprochèrent de lui, il dit : « Qui les repoussera loin de nous et aura le Paradis — ou sera mon compagnon au Paradis ? » Un homme des Ansâr s’avança et combattit jusqu’à être tué. Les ennemis se rapprochèrent de nouveau. Le Prophète répéta : « Qui les repoussera loin de nous et aura le Paradis — ou sera mon compagnon au Paradis ? » Un autre homme des Ansâr s’avança et combattit jusqu’à être tué. Cela continua ainsi jusqu’à ce que les sept hommes soient tués. Le Messager d’Allah dit alors à ses deux compagnons : « Nous n’avons pas rendu justice à nos compagnons. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "63d9a824-64b9-4cca-9ac8-976fabf56040",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1790a",
+      "reference": "Sahih Muslim, hadith 1790 a, book 32, باب غَزْوَةِ أُحُدٍ ‏‏",
+      "title": "باب غَزْوَةِ أُحُدٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، عَنْ أَبِيهِ، أَنَّهُ سَمِعَ سَهْلَ بْنَ سَعْدٍ، يُسْأَلُ عَنْ جُرْحِ، رَسُولِ اللَّهِ صلى الله عليه وسلم يَوْمَ أُحُدٍ فَقَالَ جُرِحَ وَجْهُ رَسُولِ اللَّهِ صلى الله عليه وسلم وَكُسِرَتْ رَبَاعِيَتُهُ وَهُشِمَتِ الْبَيْضَةُ عَلَى رَأْسِهِ فَكَانَتْ فَاطِمَةُ بِنْتُ رَسُولِ اللَّهِ صلى الله عليه وسلم تَغْسِلُ الدَّمَ وَكَانَ عَلِيُّ بْنُ أَبِي طَالِبٍ يَسْكُبُ عَلَيْهَا بِالْمِجَنِّ فَلَمَّا رَأَتْ فَاطِمَةُ أَنَّ الْمَاءَ لاَ يَزِيدُ الدَّمَ إِلاَّ كَثْرَةً أَخَذَتْ قِطْعَةَ حَصِيرٍ فَأَحْرَقَتْهُ حَتَّى صَارَ رَمَادًا ثُمَّ أَلْصَقَتْهُ بِالْجُرْحِ فَاسْتَمْسَكَ الدَّمُ ‏.‏",
+      "source_hash_sha256": "ba89aed70c78bef6cf25933446b0e5bc1169b06318bc5ea1cc8d17d5c8f70f5b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ al-Tamîmî nous a rapporté : ‘Abd al-‘Azîz ibn Abî Hâzim nous a rapporté, d’après son père, qui avait entendu Sahl ibn Sa‘d interrogé au sujet de la blessure du Messager d’Allah le jour d’Uhud. Il dit : Le visage du Messager d’Allah fut blessé, l’une de ses incisives fut brisée et son casque fut fracassé sur sa tête. Fâtima, fille du Messager d’Allah, lavait le sang, tandis que ‘Alî ibn Abî Tâlib versait de l’eau dessus à l’aide d’un bouclier. Lorsque Fâtima vit que l’eau ne faisait qu’augmenter le saignement, elle prit un morceau de natte, le brûla jusqu’à ce qu’il devienne cendre, puis appliqua la cendre sur la blessure. Le sang s’arrêta alors.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "fe7453a8-fbba-4e14-a9ed-e7d61f8e5509",
+      "reason": "Cette entrée contient des citations coraniques du début de la sourate 48 jusqu’à 48:5. Garder toute la traduction française vide jusqu’à validation d’une traduction française du Coran attribuée et autorisée.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c954bdcb-2e79-4d45-8a26-3c57d7c66e24",
+      "reason": "Cette entrée donne plusieurs chaînes de transmission puis renvoie au récit d’Ibn Abî ‘Arûba (« un récit semblable ») sans reproduire de contenu distinct. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    }
+  ]
+}
