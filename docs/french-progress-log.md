@@ -10671,3 +10671,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0708 saves five private French drafts about fruit and crop sales, including reports that explain the named sale practices. Muslim 1536d refers to a similar report without reproducing it and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1536j–1536n
+
+- FR-LIB-HAD-MUSLIM-0709 saves five private French drafts about land rental and sharing unused farmland. Muslim 1536i only gives a variation of the preceding report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
