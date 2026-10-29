@@ -11358,3 +11358,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1790b-1793
 
 - FR-LIB-HAD-MUSLIM-0849 saves five private French drafts about the Prophet’s injury at Uhud and related report variants. The report quoting Quran 3:128 remains entirely blank under Needs Mo pending an attributed and authorized French Quran translation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1794a-1796a
+
+- FR-LIB-HAD-MUSLIM-0850 saves six private French drafts about harm suffered by the Prophet and his responses. The report variants’ differing names and narrator uncertainty are preserved. No Quran quotation appears in these entries. No database write or publication occurred.
