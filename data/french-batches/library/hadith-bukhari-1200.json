@@ -1,0 +1,178 @@
+{
+  "batch_id": "HADITH-BUKHARI-1200",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:49:29.251Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "56bcfeae-86fb-45e5-839a-5b4ee486a222",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6531",
+      "reference": "Sahih al-Bukhari, hadith 6531, book 81, باب قَوْلِ اللَّهِ تَعَالَى: {أَلاَ يَظُنُّ أُولَئِكَ أَنَّهُمْ مَبْعُوثُونَ لِيَوْمٍ عَظِيمٍ يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى: {أَلاَ يَظُنُّ أُولَئِكَ أَنَّهُمْ مَبْعُوثُونَ لِيَوْمٍ عَظِيمٍ يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبَانَ، حَدَّثَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا ابْنُ عَوْنٍ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏ ‏[quran sura=\"83\" aya_start=\"6\" aya_end=\"6\"]{‏يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ‏}‏ قَالَ ‏\"‏ يَقُومُ أَحَدُهُمْ فِي رَشْحِهِ إِلَى أَنْصَافِ أُذُنَيْهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "dcf1fb983bcd499e9b1dbe2f65980e0e6682ea0c812143d0425bad7770babc90",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "8dbe1d69-5611-4068-a8ea-c6b63de32880",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6532",
+      "reference": "Sahih al-Bukhari, hadith 6532, book 81, باب قَوْلِ اللَّهِ تَعَالَى: {أَلاَ يَظُنُّ أُولَئِكَ أَنَّهُمْ مَبْعُوثُونَ لِيَوْمٍ عَظِيمٍ يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى: {أَلاَ يَظُنُّ أُولَئِكَ أَنَّهُمْ مَبْعُوثُونَ لِيَوْمٍ عَظِيمٍ يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي سُلَيْمَانُ، عَنْ ثَوْرِ بْنِ زَيْدٍ، عَنْ أَبِي الْغَيْثِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يَعْرَقُ النَّاسُ يَوْمَ الْقِيَامَةِ حَتَّى يَذْهَبَ عَرَقُهُمْ فِي الأَرْضِ سَبْعِينَ ذِرَاعًا، وَيُلْجِمُهُمْ حَتَّى يَبْلُغَ آذَانَهُمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "9d35a917a58c9a7bbdfb3f02d68e4657d2dfddea9f1a24e847a93b46289a7105",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd al-‘Azîz ibn ‘Abd Allah m’a rapporté : Sulaymân m’a rapporté, d’après Thawr ibn Zayd, d’après Abû al-Ghayth, d’après Abû Hurayra (qu’Allah l’agrée), que le Messager d’Allah ﷺ a dit : « Le Jour de la Résurrection, les gens transpireront jusqu’à ce que leur sueur s’enfonce de soixante-dix coudées dans la terre et les submerge jusqu’aux oreilles. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fe3d0efa-1eca-417a-8457-16ddbde2e23b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6533",
+      "reference": "Sahih al-Bukhari, hadith 6533, book 81, باب الْقِصَاصِ يَوْمَ الْقِيَامَةِ",
+      "title": "باب الْقِصَاصِ يَوْمَ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، حَدَّثَنِي شَقِيقٌ، سَمِعْتُ عَبْدَ اللَّهِ ـ رضى الله عنه ـ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ أَوَّلُ مَا يُقْضَى بَيْنَ النَّاسِ بِالدِّمَاءِ ‏\"‏‏.‏",
+      "source_hash_sha256": "91d9f6eb5b1142843fde06a8516945f469600ce33848cf551e605954362ceb26",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Umar ibn Hafs nous a rapporté : Mon père nous a rapporté : al-A‘mash nous a rapporté : Shaqîq m’a rapporté : J’ai entendu ‘Abd Allah (qu’Allah l’agrée) dire que le Prophète ﷺ a dit : « La première chose sur laquelle les gens seront jugés sera l’effusion de sang. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "19c726ec-f82b-4f5d-9241-6036c204a3e9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6534",
+      "reference": "Sahih al-Bukhari, hadith 6534, book 81, باب الْقِصَاصِ يَوْمَ الْقِيَامَةِ",
+      "title": "باب الْقِصَاصِ يَوْمَ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ سَعِيدٍ الْمَقْبُرِيِّ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ كَانَتْ عِنْدَهُ مَظْلَمَةٌ لأَخِيهِ فَلْيَتَحَلَّلْهُ مِنْهَا، فَإِنَّهُ لَيْسَ ثَمَّ دِينَارٌ وَلاَ دِرْهَمٌ مِنْ قَبْلِ أَنْ يُؤْخَذَ لأَخِيهِ مِنْ حَسَنَاتِهِ، فَإِنْ لَمْ يَكُنْ لَهُ حَسَنَاتٌ أُخِذَ مِنْ سَيِّئَاتِ أَخِيهِ، فَطُرِحَتْ عَلَيْهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "d66b045c5b76197412e07e39179c51507706825a0f550e4040be7a54607637f9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ismâ‘îl nous a rapporté : Mâlik m’a rapporté, d’après Sa‘îd al-Maqburî, d’après Abû Hurayra, que le Messager d’Allah ﷺ a dit : « Celui qui a lésé son frère, qu’il lui demande de lui pardonner avant qu’il n’y ait plus ni dinar ni dirham. On prendra alors de ses bonnes actions pour les remettre à son frère ; s’il n’a aucune bonne action, on prendra des mauvaises actions de son frère et on les mettra à sa charge. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "80333ef8-f126-4732-8954-994806217e12",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6535",
+      "reference": "Sahih al-Bukhari, hadith 6535, book 81, باب الْقِصَاصِ يَوْمَ الْقِيَامَةِ",
+      "title": "باب الْقِصَاصِ يَوْمَ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي الصَّلْتُ بْنُ مُحَمَّدٍ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، ‏[quran sura=\"7\" aya_start=\"42\" aya_end=\"42\"]{‏وَنَزَعْنَا مَا فِي صُدُورِهِمْ مِنْ غِلٍّ‏}‏ قَالَ حَدَّثَنَا سَعِيدٌ عَنْ قَتَادَةَ عَنْ أَبِي الْمُتَوَكِّلِ النَّاجِيِّ أَنَّ أَبَا سَعِيدٍ الْخُدْرِيَّ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَخْلُصُ الْمُؤْمِنُونَ مِنَ النَّارِ، فَيُحْبَسُونَ عَلَى قَنْطَرَةٍ بَيْنَ الْجَنَّةِ وَالنَّارِ، فَيُقَصُّ لِبَعْضِهِمْ مِنْ بَعْضٍ، مَظَالِمُ كَانَتْ بَيْنَهُمْ فِي الدُّنْيَا، حَتَّى إِذَا هُذِّبُوا وَنُقُّوا أُذِنَ لَهُمْ فِي دُخُولِ الْجَنَّةِ، فَوَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ لأَحَدُهُمْ أَهْدَى بِمَنْزِلِهِ فِي الْجَنَّةِ مِنْهُ بِمَنْزِلِهِ كَانَ فِي الدُّنْيَا ‏\"‏‏.‏",
+      "source_hash_sha256": "43bd3018eb971a44b9636ca1275100204df716c259bca1fce1c767ed33c7f192",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "5492020d-dbbc-48a7-83eb-e865758caeab",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6536",
+      "reference": "Sahih al-Bukhari, hadith 6536, book 81, باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "title": "باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ عُثْمَانَ بْنِ الأَسْوَدِ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ ‏\"‏‏.‏ قَالَتْ قُلْتُ أَلَيْسَ يَقُولُ اللَّهُ تَعَالَى ‏[quran sura=\"84\" aya_start=\"8\" aya_end=\"8\"]{‏فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا‏}‏‏.‏ قَالَ ‏\"‏ ذَلِكِ الْعَرْضُ ‏\"‏‏.‏ حَدَّثَنِي عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا يَحْيَى، عَنْ عُثْمَانَ بْنِ الأَسْوَدِ، سَمِعْتُ ابْنَ أَبِي مُلَيْكَةَ، قَالَ سَمِعْتُ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم مِثْلَهُ‏.‏ وَتَابَعَهُ ابْنُ جُرَيْجٍ وَمُحَمَّدُ بْنُ سُلَيْمٍ وَأَيُّوبُ وَصَالِحُ بْنُ رُسْتُمٍ عَنِ ابْنِ أَبِي مُلَيْكَةَ عَنْ عَائِشَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "11764a76a0249c62ed3c8e856e66d4bd2694a3d2cb674f9513d1f5f9937cccec",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "56bcfeae-86fb-45e5-839a-5b4ee486a222",
+      "url": "https://sunnah.com/bukhari:6531",
+      "reason": "Le récit cite directement le Coran 83:6. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    },
+    {
+      "source_id": "80333ef8-f126-4732-8954-994806217e12",
+      "url": "https://sunnah.com/bukhari:6535",
+      "reason": "Le récit cite directement le Coran 7:42. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    },
+    {
+      "source_id": "5492020d-dbbc-48a7-83eb-e865758caeab",
+      "url": "https://sunnah.com/bukhari:6536",
+      "reason": "Le récit cite directement le Coran 84:8. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}

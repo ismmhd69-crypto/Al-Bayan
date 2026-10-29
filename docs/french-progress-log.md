@@ -6112,3 +6112,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1199 saves four private French drafts. Bukhari 6526 remains blank because it quotes Quran 21:104 and 5:117. Bukhari 6530 remains blank because it quotes Quran 22:2. No database writes or publication occurred.
 - The four drafts passed the focused validator. Bukhari local drafts: 5,499 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 791. Total local hadith rows not drafted: 9,130, including held records.
+
+### 2026-10-29: Bukhari 6531–6536 — three held
+
+- FR-LIB-HAD-BUKHARI-1200 saves three private French drafts. Bukhari 6531, 6535, and 6536 remain blank because they directly quote Quran 83:6, 7:42, and 84:8. No database writes or publication occurred.
+- The three drafts passed the focused validator. Bukhari local drafts: 5,502 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 794. Total local hadith rows not drafted: 9,127, including held records.
