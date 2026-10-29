@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:22:26.675Z",
+  "lastReconciled": "2026-10-29T14:22:42.203Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 349,
+    "hadithMuslimDrafted": 351,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6685,
-    "hadithDatabaseMissing": 7944,
-    "hadithLocalRemaining": 7944,
+    "hadithLocalDrafted": 6687,
+    "hadithDatabaseMissing": 7942,
+    "hadithLocalRemaining": 7942,
     "hadithNeedsMo": 219,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -30784,6 +30784,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0084",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0084.json",
+      "sourceIds": [
+        "6f9d5601-d5f1-48c6-b892-eed036052a18",
+        "a6c47b0a-68b9-4029-982f-cbca6b33c21e"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34959,8 +34976,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6685,
-  "hadithLocalRemaining": 7944,
+  "hadithLocalDrafted": 6687,
+  "hadithLocalRemaining": 7942,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36277,8 +36294,8 @@
       "reason": "Ce récit cite directement le verset 10:26 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 349,
-  "hadithDatabaseMissing": 7944,
+  "hadithMuslimDrafted": 351,
+  "hadithDatabaseMissing": 7942,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 219
 }
