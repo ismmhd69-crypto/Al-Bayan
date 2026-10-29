@@ -2246,3 +2246,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-466` saves three private French drafts for Bukhari 2709–2710 and 2714. Bukhari 2708, 2711 and 2713 remain blank on hold because they directly quote Quran 4:65 and 60:10–12; each needs an approved, attributed French Quran translation. The source export contained no Bukhari 2712 record.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 2,447 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 148. Total local hadith rows not drafted: 12,197, including held records.
+
+### 2026-10-29: Bukhari 2715–2717 source review
+
+- `FR-LIB-HAD-BUKHARI-467` saves three private French drafts for Bukhari 2715–2717, covering the pledge to worship and counsel sincerely, the sale of pollinated date palms, and Barira’s emancipation contract.
+- The three-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,450 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 148. Total local hadith rows not drafted: 12,194, including held records.

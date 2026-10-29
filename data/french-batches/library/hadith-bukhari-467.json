@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-BUKHARI-467",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:10:08.781Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1a1fee05-2022-4fb1-9cdb-881ab4569487",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2715",
+      "reference": "Sahih al-Bukhari, hadith 2715, book 54, باب مَا يَجُوزُ مِنَ الشُّرُوطِ فِي الإِسْلاَمِ وَالأَحْكَامِ وَالْمُبَايَعَةِ",
+      "title": "باب مَا يَجُوزُ مِنَ الشُّرُوطِ فِي الإِسْلاَمِ وَالأَحْكَامِ وَالْمُبَايَعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ إِسْمَاعِيلَ، قَالَ حَدَّثَنِي قَيْسُ بْنُ أَبِي حَازِمٍ، عَنْ جَرِيرِ بْنِ عَبْدِ اللَّهِ ـ رضى الله عنه ـ قَالَ بَايَعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَلَى إِقَامِ الصَّلاَةِ وَإِيتَاءِ الزَّكَاةِ وَالنُّصْحِ لِكُلِّ مُسْلِمٍ‏.‏",
+      "source_hash_sha256": "45f545c9ea635b368a3106556ff44ae485415e36ece00924decaeb3f4581dd3a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Musaddad, Yahyâ, Ismâ‘îl, Qays ibn Abî Hâzim et Jarîr ibn ‘Abd Allâh.\n\nJarîr dit : « J’ai prêté serment d’allégeance au Messager d’Allah en m’engageant à accomplir la prière, à donner l’aumône obligatoire et à conseiller sincèrement chaque musulman. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bb452e17-1fdf-4be9-b654-16ce6e9d6fb7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2716",
+      "reference": "Sahih al-Bukhari, hadith 2716, book 54, باب إِذَا بَاعَ نَخْلاً قَدْ أُبِّرَتْ",
+      "title": "باب إِذَا بَاعَ نَخْلاً قَدْ أُبِّرَتْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ بَاعَ نَخْلاً قَدْ أُبِّرَتْ فَثَمَرَتُهَا لِلْبَائِعِ إِلاَّ أَنْ يَشْتَرِطَ الْمُبْتَاعُ ‏\"‏‏.‏",
+      "source_hash_sha256": "51d9389fa42cf4761a5ab4aca4253b37688c0a6bde293e2066f060eaa95b6b46",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Yûsuf, Mâlik, Nâfi‘ et ‘Abd Allâh ibn ‘Umar.\n\nLe Messager d’Allah a dit : « Celui qui vend des palmiers après leur pollinisation conserve leurs fruits, sauf si l’acheteur en a convenu autrement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1b24b286-7f79-4fe8-936c-4f914768aed2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2717",
+      "reference": "Sahih al-Bukhari, hadith 2717, book 54, باب الشُّرُوطِ فِي الْبَيْعِ",
+      "title": "باب الشُّرُوطِ فِي الْبَيْعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، أَنَّ عَائِشَةََ،ـ رضى الله عنها ـ أَخْبَرَتْهُ أَنَّ بَرِيرَةَ جَاءَتْ عَائِشَةَ تَسْتَعِينُهَا فِي كِتَابَتِهَا، وَلَمْ تَكُنْ قَضَتْ مِنْ كِتَابَتِهَا شَيْئًا، قَالَتْ لَهَا عَائِشَةُ ارْجِعِي إِلَى أَهْلِكِ، فَإِنْ أَحَبُّوا أَنْ أَقْضِيَ عَنْكِ كِتَابَتَكِ، وَيَكُونَ وَلاَؤُكِ لِي فَعَلْتُ‏.‏ فَذَكَرَتْ ذَلِكَ بَرِيرَةُ إِلَى أَهْلِهَا فَأَبَوْا وَقَالُوا إِنْ شَاءَتْ أَنْ تَحْتَسِبَ عَلَيْكِ فَلْتَفْعَلْ، وَيَكُونَ لَنَا وَلاَؤُكِ‏.‏ فَذَكَرَتْ ذَلِكَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ لَهَا ‏\"‏ ابْتَاعِي فَأَعْتِقِي، فَإِنَّمَا الْوَلاَءُ لِمَنْ أَعْتَقَ ‏\"‏‏.‏",
+      "source_hash_sha256": "b0d5723cdab7020ee7f71d3175dfe4869edf56560e32f0ee7d7c26a355e9db18",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Maslama, al-Layth, Ibn Shihâb et ‘Urwa, qui rapporte de ‘Â’isha.\n\nBurayra vint demander de l’aide à ‘Â’isha pour payer son contrat d’affranchissement, dont elle n’avait encore rien réglé. ‘Â’isha lui dit : « Retourne auprès de tes maîtres. S’ils le souhaitent, je paierai le montant de ton contrat pour toi et ton droit de patronage m’appartiendra. » Burayra rapporta cela à ses maîtres, qui refusèrent et dirent : « Si elle veut te faire cette faveur, qu’elle le fasse, mais ton droit de patronage nous reviendra. » Burayra en parla au Messager d’Allah, qui lui dit : « Achète-toi et affranchis-toi, car le droit de patronage appartient à celui qui affranchit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
