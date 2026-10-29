@@ -12390,3 +12390,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2380a
 
 - FR-LIB-HAD-MUSLIM-1107 preserves the long report with multiple embedded Quran passages as a blank French draft, with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-30: Muslim 2380b
+
+- FR-LIB-HAD-MUSLIM-1108 saves one complete report as a private French draft. No database write or publication occurred.
