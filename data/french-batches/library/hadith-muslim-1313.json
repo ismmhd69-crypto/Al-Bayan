@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-1313",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:33:15.553Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1e44bc19-8e73-43d9-93b1-1240fbbfe5ff",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2899b",
+      "reference": "Sahih Muslim, hadith 2899 b, book 54, باب إِقْبَالِ الرُّومِ فِي كَثْرَةِ الْقَتْلِ عِنْدَ خُرُوجِ الدَّجَّالِ",
+      "title": "باب إِقْبَالِ الرُّومِ فِي كَثْرَةِ الْقَتْلِ عِنْدَ خُرُوجِ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ عُبَيْدٍ الْغُبَرِيُّ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ حُمَيْدِ بْنِ، هِلاَلٍ عَنْ أَبِي قَتَادَةَ، عَنْ يُسَيْرِ بْنِ جَابِرٍ، قَالَ كُنْتُ عِنْدَ ابْنِ مَسْعُودٍ فَهَبَّتْ رِيحٌ حَمْرَاءُ ‏.‏ وَسَاقَ الْحَدِيثَ بِنَحْوِهِ ‏.‏ وَحَدِيثُ ابْنُ عُلَيَّةَ أَتَمُّ وَأَشْبَعُ ‏.‏",
+      "source_hash_sha256": "86fb54ef7c8873617d423c6e3bff7e6c07b880188a704adacced994b59b91510",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3bfa25d0-f726-467c-95ba-e5e3fdca14d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2899c",
+      "reference": "Sahih Muslim, hadith 2899 c, book 54, باب إِقْبَالِ الرُّومِ فِي كَثْرَةِ الْقَتْلِ عِنْدَ خُرُوجِ الدَّجَّالِ",
+      "title": "باب إِقْبَالِ الرُّومِ فِي كَثْرَةِ الْقَتْلِ عِنْدَ خُرُوجِ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا سُلَيْمَانُ، - يَعْنِي ابْنَ الْمُغِيرَةِ - حَدَّثَنَا حُمَيْدٌ، - يَعْنِي ابْنَ هِلاَلٍ - عَنْ أَبِي قَتَادَةَ، عَنْ أُسَيْرِ بْنِ جَابِرٍ، قَالَ كُنْتُ فِي بَيْتِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ وَالْبَيْتُ مَلآنُ - قَالَ - فَهَاجَتْ رِيحٌ حَمْرَاءُ بِالْكُوفَةِ ‏.‏ فَذَكَرَ نَحْوَ حَدِيثِ ابْنِ عُلَيَّةَ ‏.‏",
+      "source_hash_sha256": "a7140c4ccd8095e149dc23f18d5d8eac7560b287016f389a409714c7073e34e0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7d8c6690-05eb-43d9-870a-3dcffc7e2d5e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2900",
+      "reference": "Sahih Muslim, hadith 2900, book 54, باب مَا يَكُونُ مِنْ فُتُوحَاتِ الْمُسْلِمِينَ قَبْلَ الدَّجَّالِ",
+      "title": "باب مَا يَكُونُ مِنْ فُتُوحَاتِ الْمُسْلِمِينَ قَبْلَ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عَبْدِ الْمَلِكِ بْنِ عُمَيْرٍ، عَنْ جَابِرِ بْنِ سَمُرَةَ، عَنْ نَافِعِ بْنِ عُتْبَةَ، قَالَ كُنَّا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي غَزْوَةٍ - قَالَ - فَأَتَى النَّبِيَّ صلى الله عليه وسلم قَوْمٌ مِنْ قِبَلِ الْمَغْرِبِ عَلَيْهِمْ ثِيَابُ الصُّوفِ فَوَافَقُوهُ عِنْدَ أَكَمَةٍ فَإِنَّهُمْ لَقِيَامٌ وَرَسُولُ اللَّهِ صلى الله عليه وسلم قَاعِدٌ - قَالَ - فَقَالَتْ لِي نَفْسِي ائْتِهِمْ فَقُمْ بَيْنَهُمْ وَبَيْنَهُ لاَ يَغْتَالُونَهُ - قَالَ - ثُمَّ قُلْتُ لَعَلَّهُ نَجِيٌّ مَعَهُمْ ‏.‏ فَأَتَيْتُهُمْ فَقُمْتُ بَيْنَهُمْ وَبَيْنَهُ - قَالَ - فَحَفِظْتُ مِنْهُ أَرْبَعَ كَلِمَاتٍ أَعُدُّهُنَّ فِي يَدِي قَالَ ‏\"‏ تَغْزُونَ جَزِيرَةَ الْعَرَبِ فَيَفْتَحُهَا اللَّهُ ثُمَّ فَارِسَ فَيَفْتَحُهَا اللَّهُ ثُمَّ تَغْزُونَ الرُّومَ فَيَفْتَحُهَا اللَّهُ ثُمَّ تَغْزُونَ الدَّجَّالَ فَيَفْتَحُهُ اللَّهُ ‏\"‏ ‏.‏ قَالَ فَقَالَ نَافِعٌ يَا جَابِرُ لاَ نَرَى الدَّجَّالَ يَخْرُجُ حَتَّى تُفْتَحَ الرُّومُ ‏.‏",
+      "source_hash_sha256": "1a37efce02dfec0252211933e5712bc21f31eda99ae83b271567891f27dfe4a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : Jarīr nous a rapporté, d’après ʿAbd al-Malik ibn ʿUmayr, d’après Jābir ibn Samura, d’après Nāfiʿ ibn ʿUtba, qui a dit : Nous étions avec le Messager d’Allah ﷺ lors d’une expédition. Des gens venus de l’ouest, vêtus de laine, vinrent trouver le Prophète ﷺ près d’une colline. Ils se tenaient debout tandis qu’il était assis. Je me dis : « Va te placer entre eux et lui, de peur qu’ils ne l’attaquent par surprise. » Puis je pensai qu’il s’entretenait peut-être en privé avec eux. Je m’approchai et me plaçai entre eux et lui. Je retins alors quatre paroles de lui, que je compte sur mes doigts. Il dit : « Vous combattrez dans la péninsule Arabique et Allah vous en donnera la victoire ; puis en Perse et Allah vous en donnera la victoire ; puis contre les Romains et Allah vous en donnera la victoire ; puis contre le Dajjāl et Allah vous en donnera la victoire. » Nāfiʿ dit : « Jābir, nous pensons que le Dajjāl ne paraîtra pas avant la conquête des Romains. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fc9d3d5f-69a0-46ff-b716-00c6a17de0fe",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2901a",
+      "reference": "Sahih Muslim, hadith 2901 a, book 54, باب فِي الآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+      "title": "باب فِي الآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو خَيْثَمَةَ، زُهَيْرُ بْنُ حَرْبٍ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ وَابْنُ أَبِي عُمَرَ الْمَكِّيُّ - وَاللَّفْظُ لِزُهَيْرٍ - قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ فُرَاتٍ، الْقَزَّازِ عَنْ أَبِي الطُّفَيْلِ، عَنْ حُذَيْفَةَ بْنِ أَسِيدٍ الْغِفَارِيِّ، قَالَ اطَّلَعَ النَّبِيُّ صلى الله عليه وسلم عَلَيْنَا وَنَحْنُ نَتَذَاكَرُ فَقَالَ ‏\"‏ مَا تَذَاكَرُونَ ‏\"‏ ‏.‏ قَالُوا نَذْكُرُ السَّاعَةَ ‏.‏ قَالَ ‏\"‏ إِنَّهَا لَنْ تَقُومَ حَتَّى تَرَوْنَ قَبْلَهَا عَشْرَ آيَاتٍ ‏\"‏ ‏.‏ فَذَكَرَ الدُّخَانَ وَالدَّجَّالَ وَالدَّابَّةَ وَطُلُوعَ الشَّمْسِ مِنْ مَغْرِبِهَا وَنُزُولَ عِيسَى ابْنِ مَرْيَمَ صلى الله عليه وسلم وَيَأْجُوجَ وَمَأْجُوجَ وَثَلاَثَةَ خُسُوفٍ خَسْفٌ بِالْمَشْرِقِ وَخَسْفٌ بِالْمَغْرِبِ وَخَسْفٌ بِجَزِيرَةِ الْعَرَبِ وَآخِرُ ذَلِكَ نَارٌ تَخْرُجُ مِنَ الْيَمَنِ تَطْرُدُ النَّاسَ إِلَى مَحْشَرِهِمْ ‏.‏",
+      "source_hash_sha256": "58f0de7fa9e5db7308a66673cf63aec1d661e009735a18c80c1bf264b057809f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Khaythama Zuhayr ibn Ḥarb, Isḥāq ibn Ibrāhīm et Ibn Abī ʿUmar al-Makkī nous ont rapporté — la formulation est celle de Zuhayr. Isḥāq a dit : Sufyān ibn ʿUyayna nous a informés ; les deux autres ont dit : Sufyān nous a rapporté, d’après Furāt al-Qazzāz, d’après Abū al-Ṭufayl, d’après Ḥudhayfa ibn Asīd al-Ghifārī, qui a dit : Le Prophète ﷺ se pencha vers nous alors que nous parlions entre nous et demanda : « De quoi parlez-vous ? » Nous répondîmes : « De l’Heure. » Il dit : « Elle ne surviendra pas avant que vous n’ayez vu dix signes. » Il mentionna la fumée, le Dajjāl, la Bête, le lever du soleil à l’ouest, la descente de ʿĪsā ibn Maryam ﷺ, Yaʾjūj et Maʾjūj, trois effondrements — à l’est, à l’ouest et dans la péninsule Arabique —, puis un feu qui sortira du Yémen et poussera les gens vers leur lieu de rassemblement.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "66aa8ebb-2135-4d4f-b3df-29a346eca4e2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2901b",
+      "reference": "Sahih Muslim, hadith 2901 b, book 54, باب فِي الآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+      "title": "باب فِي الآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ فُرَاتٍ الْقَزَّازِ، عَنْ أَبِي الطُّفَيْلِ، عَنْ أَبِي سَرِيحَةَ، حُذَيْفَةَ بْنِ أَسِيدٍ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم فِي غُرْفَةٍ وَنَحْنُ أَسْفَلَ مِنْهُ فَاطَّلَعَ إِلَيْنَا فَقَالَ ‏\"‏ مَا تَذْكُرُونَ ‏\"‏ ‏.‏ قُلْنَا السَّاعَةَ ‏.‏ قَالَ ‏\"‏ إِنَّ السَّاعَةَ لاَ تَكُونُ حَتَّى تَكُونَ عَشْرُ آيَاتٍ خَسْفٌ بِالْمَشْرِقِ وَخَسْفٌ بِالْمَغْرِبِ وَخَسْفٌ فِي جَزِيرَةِ الْعَرَبِ وَالدُّخَانُ وَالدَّجَّالُ وَدَابَّةُ الأَرْضِ وَيَأْجُوجُ وَمَأْجُوجُ وَطُلُوعُ الشَّمْسِ مِنْ مَغْرِبِهَا وَنَارٌ تَخْرُجُ مِنْ قُعْرَةِ عَدَنٍ تَرْحَلُ النَّاسَ ‏\"‏ ‏.‏ قَالَ شُعْبَةُ وَحَدَّثَنِي عَبْدُ الْعَزِيزِ بْنُ رُفَيْعٍ عَنْ أَبِي الطُّفَيْلِ عَنْ أَبِي سَرِيحَةَ ‏.‏ مِثْلَ ذَلِكَ لاَ يَذْكُرُ النَّبِيَّ صلى الله عليه وسلم وَقَالَ أَحَدُهُمَا فِي الْعَاشِرَةِ نُزُولُ عِيسَى ابْنِ مَرْيَمَ صلى الله عليه وسلم ‏.‏ وَقَالَ الآخَرُ وَرِيحٌ تُلْقِي النَّاسَ فِي الْبَحْرِ ‏.‏",
+      "source_hash_sha256": "f832357e0d6498c6604879756dd57126f05eddecb266c0eac850b0b37636966a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUbayd Allāh ibn Muʿādh al-ʿAnbarī nous a rapporté : mon père nous a rapporté : Shuʿba nous a rapporté, d’après Furāt al-Qazzāz, d’après Abū al-Ṭufayl, d’après Abū Surayḥa Ḥudhayfa ibn Asīd, qui a dit : Le Prophète ﷺ se trouvait dans une pièce élevée, tandis que nous étions en dessous. Il se pencha vers nous et demanda : « De quoi parlez-vous ? » Nous répondîmes : « De l’Heure. » Il dit : « L’Heure ne surviendra pas avant l’apparition de dix signes : un effondrement à l’est, un à l’ouest et un dans la péninsule Arabique ; la fumée ; le Dajjāl ; la Bête de la terre ; Yaʾjūj et Maʾjūj ; le lever du soleil à l’ouest ; et un feu qui sortira des profondeurs d’Aden et fera partir les gens. » Shuʿba dit : ʿAbd al-ʿAzīz ibn Rufayʿ m’a également rapporté, d’après Abū al-Ṭufayl, d’après Abū Surayḥa, un récit semblable, sans l’attribuer au Prophète ﷺ. L’un des deux a indiqué que le dixième signe serait la descente de ʿĪsā ibn Maryam ﷺ ; l’autre a dit qu’il s’agirait d’un vent qui jetterait les gens dans la mer.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c1ea5e78-672b-4f2d-886c-892e7d755d91",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2901c",
+      "reference": "Sahih Muslim, hadith 2901 c, book 54, باب فِي الآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+      "title": "باب فِي الآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدٌ، - يَعْنِي ابْنَ جَعْفَرٍ - حَدَّثَنَا شُعْبَةُ، عَنْ فُرَاتٍ، قَالَ سَمِعْتُ أَبَا الطُّفَيْلِ، يُحَدِّثُ عَنْ أَبِي سَرِيحَةَ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي غُرْفَةٍ وَنَحْنُ تَحْتَهَا نَتَحَدَّثُ ‏.‏ وَسَاقَ الْحَدِيثَ بِمِثْلِهِ ‏.‏ قَالَ شُعْبَةُ وَأَحْسِبُهُ قَالَ تَنْزِلُ مَعَهُمْ إِذَا نَزَلُوا وَتَقِيلُ مَعَهُمْ حَيْثُ قَالُوا ‏.‏ قَالَ شُعْبَةُ وَحَدَّثَنِي رَجُلٌ هَذَا الْحَدِيثَ عَنْ أَبِي الطُّفَيْلِ عَنْ أَبِي سَرِيحَةَ وَلَمْ يَرْفَعْهُ قَالَ أَحَدُ هَذَيْنِ الرَّجُلَيْنِ نُزُولُ عِيسَى ابْنِ مَرْيَمَ وَقَالَ الآخَرُ رِيحٌ تُلْقِيهِمْ فِي الْبَحْرِ ‏.‏",
+      "source_hash_sha256": "a5604b22fc377147fb0b30d4a354d0d2b3f30381bd41b989d20e69b5536e2319",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1e44bc19-8e73-43d9-93b1-1240fbbfe5ff",
+      "reason": "Cette entrée renvoie au récit précédent et n’en donne qu’un résumé incomplet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "3bfa25d0-f726-467c-95ba-e5e3fdca14d9",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c1ea5e78-672b-4f2d-886c-892e7d755d91",
+      "reason": "Cette entrée renvoie au récit des dix signes et n’en rapporte que des variantes complémentaires. Garder la traduction française vide jusqu’à validation du texte complet.",
+      "status": "blocked"
+    }
+  ]
+}
