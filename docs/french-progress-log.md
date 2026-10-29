@@ -6206,3 +6206,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1215 saves six private French drafts, preserving the exchange with Ibn Sayyâd, the conditional plague-reward wording, and all counsel on oaths and authority. No database writes or publication occurred.
 - All six drafts passed the focused validator. Bukhari local drafts: 5,581 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 799. Total local hadith rows not drafted: 9,048, including held records.
+
+
+### 2026-10-29: Bukhari 6623–6628 — two held
+
+- FR-LIB-HAD-BUKHARI-1216 saves four private French drafts. Bukhari 6623 remains blank because the rare camel description غُرّ الذرى needs clarification. Bukhari 6626 remains blank because the shortened report’s phrase لِيَبَرَّ is unclear and may affect its legal meaning. No database writes or publication occurred.
+- The four drafts passed the focused validator. Bukhari local drafts: 5,585 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 801. Total local hadith rows not drafted: 9,044, including held records.
