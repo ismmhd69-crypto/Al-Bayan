@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0313",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:14:22.187Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "70443fb5-545d-419d-826b-eeaf26b763c4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:727b",
+      "reference": "Sahih Muslim, hadith 727 b, book 6, باب اسْتِحْبَابِ رَكْعَتَيْ سُنَّةِ الْفَجْرِ وَالْحَثِّ عَلَيْهِمَا وَتَخْفِيفِهِمَا وَالْمُحَافَظَةِ عَلَيْهِمَا وَبَيَانِ مَا يُسْتَحَبُّ أَنْ يُقْرَأَ فِيهِمَا",
+      "title": "باب اسْتِحْبَابِ رَكْعَتَيْ سُنَّةِ الْفَجْرِ وَالْحَثِّ عَلَيْهِمَا وَتَخْفِيفِهِمَا وَالْمُحَافَظَةِ عَلَيْهِمَا وَبَيَانِ مَا يُسْتَحَبُّ أَنْ يُقْرَأَ فِيهِمَا",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، عَنْ عُثْمَانَ بْنِ حَكِيمٍ، عَنْ سَعِيدِ بْنِ يَسَارٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ فِي رَكْعَتَىِ الْفَجْرِ ‏[quran sura=\"2\" aya_start=\"136\" aya_end=\"136\"]{‏ قُولُوا آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا‏}‏ وَالَّتِي فِي آلِ عِمْرَانَ ‏[quran sura=\"3\" aya_start=\"64\" aya_end=\"64\"]{‏ تَعَالَوْا إِلَى كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ‏}‏",
+      "source_hash_sha256": "5387b5c314f172ed40c9cd0b2dcf9c58b1df81966f79c71ade4ea075863ad7a3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90dc846d-513c-44cf-931e-5e0ceb39291a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:727c",
+      "reference": "Sahih Muslim, hadith 727 c, book 6, باب اسْتِحْبَابِ رَكْعَتَيْ سُنَّةِ الْفَجْرِ وَالْحَثِّ عَلَيْهِمَا وَتَخْفِيفِهِمَا وَالْمُحَافَظَةِ عَلَيْهِمَا وَبَيَانِ مَا يُسْتَحَبُّ أَنْ يُقْرَأَ فِيهِمَا",
+      "title": "باب اسْتِحْبَابِ رَكْعَتَيْ سُنَّةِ الْفَجْرِ وَالْحَثِّ عَلَيْهِمَا وَتَخْفِيفِهِمَا وَالْمُحَافَظَةِ عَلَيْهِمَا وَبَيَانِ مَا يُسْتَحَبُّ أَنْ يُقْرَأَ فِيهِمَا",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَلِيُّ بْنُ خَشْرَمٍ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، عَنْ عُثْمَانَ بْنِ حَكِيمٍ، فِي هَذَا الإِسْنَادِ ‏.‏ بِمِثْلِ حَدِيثِ مَرْوَانَ الْفَزَارِيِّ ‏.‏",
+      "source_hash_sha256": "f50eb5df9e2b5c7a4a7276ce0990ebc7b9e2bac28730654ab471f0168fee01db",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e171ea61-b1f0-4e92-bb16-1a2fde2fe28d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:728a",
+      "reference": "Sahih Muslim, hadith 728 a, book 6, باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "title": "باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبُو خَالِدٍ، - يَعْنِي سُلَيْمَانَ بْنَ حَيَّانَ - عَنْ دَاوُدَ بْنِ أَبِي هِنْدٍ، عَنِ النُّعْمَانِ بْنِ سَالِمٍ، عَنْ عَمْرِو بْنِ أَوْسٍ، قَالَ حَدَّثَنِي عَنْبَسَةُ بْنُ أَبِي سُفْيَانَ، فِي مَرَضِهِ الَّذِي مَاتَ فِيهِ بِحَدِيثٍ يُتَسَارُّ إِلَيْهِ قَالَ سَمِعْتُ أُمَّ حَبِيبَةَ تَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ صَلَّى اثْنَتَىْ عَشْرَةَ رَكْعَةً فِي يَوْمٍ وَلَيْلَةٍ بُنِيَ لَهُ بِهِنَّ بَيْتٌ فِي الْجَنَّةِ ‏\"‏ ‏.‏ قَالَتْ أُمُّ حَبِيبَةَ فَمَا تَرَكْتُهُنَّ مُنْذُ سَمِعْتُهُنَّ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ وَقَالَ عَنْبَسَةُ فَمَا تَرَكْتُهُنَّ مُنْذُ سَمِعْتُهُنَّ مِنْ أُمِّ حَبِيبَةَ ‏.‏ وَقَالَ عَمْرُو بْنُ أَوْسٍ مَا تَرَكْتُهُنَّ مُنْذُ سَمِعْتُهُنَّ مِنْ عَنْبَسَةَ ‏.‏ وَقَالَ النُّعْمَانُ بْنُ سَالِمٍ مَا تَرَكْتُهُنَّ مُنْذُ سَمِعْتُهُنَّ مِنْ عَمْرِو بْنِ أَوْسٍ ‏.‏",
+      "source_hash_sha256": "d8641f1caf92e650c86452e54cc2849e0905be9d7cab3372fe8e1899fa72ac14",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Abd Allah ibn Numayr nous a rapporté : Abu Khalid — c’est-à-dire Sulayman ibn Hayyan — nous a rapporté, d’après Dawud ibn Abi Hind, d’après al-Nu‘man ibn Salim, d’après ‘Amr ibn Aws. Il dit : ‘Anbasa ibn Abi Sufyan m’a rapporté, pendant la maladie dont il mourut, une confidence : « J’ai entendu Umm Habiba dire : “J’ai entendu le Messager d’Allah ﷺ dire : Celui qui accomplit douze unités de prière au cours du jour et de la nuit, une maison lui sera construite au Paradis.” » Umm Habiba dit : « Depuis que je les ai entendues du Messager d’Allah ﷺ, je ne les ai jamais délaissées. » ‘Anbasa dit : « Depuis que je les ai entendues d’Umm Habiba, je ne les ai jamais délaissées. » ‘Amr ibn Aws dit : « Depuis que je les ai entendues d’‘Anbasa, je ne les ai jamais délaissées. » Al-Nu‘man ibn Salim dit : « Depuis que je les ai entendues d’‘Amr ibn Aws, je ne les ai jamais délaissées. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fa0d08d6-dbed-48a9-9404-befe4ddaf14f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:728b",
+      "reference": "Sahih Muslim, hadith 728 b, book 6, باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "title": "باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، حَدَّثَنَا بِشْرُ بْنُ الْمُفَضَّلِ، حَدَّثَنَا دَاوُدُ، عَنِ النُّعْمَانِ بْنِ سَالِمٍ، بِهَذَا الإِسْنَادِ ‏\"‏ مَنْ صَلَّى فِي يَوْمٍ ثِنْتَىْ عَشْرَةَ سَجْدَةً تَطَوُّعًا بُنِيَ لَهُ بَيْتٌ فِي الْجَنَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "01c2c5c3007730ffd044bde3b178f89896af42c0ab4575274b9f55f606c36903",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Ghassan al-Misma‘i m’a rapporté : Bishr ibn al-Mufaddal nous a rapporté : Dawud nous a rapporté, d’après al-Nu‘man ibn Salim, selon cette chaîne : « Celui qui accomplit volontairement douze prosternations au cours d’une journée, une maison lui sera construite au Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fe195d73-053a-49fe-9db4-ce106a7b3e3a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:728c",
+      "reference": "Sahih Muslim, hadith 728 c, book 6, باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "title": "باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنِ النُّعْمَانِ بْنِ سَالِمٍ، عَنْ عَمْرِو بْنِ أَوْسٍ، عَنْ عَنْبَسَةَ بْنِ أَبِي سُفْيَانَ، عَنْ أُمِّ حَبِيبَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم أَنَّهَا قَالَتْ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَا مِنْ عَبْدٍ مُسْلِمٍ يُصَلِّي لِلَّهِ كُلَّ يَوْمٍ ثِنْتَىْ عَشْرَةَ رَكْعَةً تَطَوُّعًا غَيْرَ فَرِيضَةٍ إِلاَّ بَنَى اللَّهُ لَهُ بَيْتًا فِي الْجَنَّةِ أَوْ إِلاَّ بُنِيَ لَهُ بَيْتٌ فِي الْجَنَّةِ ‏\"‏ ‏.‏ قَالَتْ أُمُّ حَبِيبَةَ فَمَا بَرِحْتُ أُصَلِّيهِنَّ بَعْدُ ‏.‏ وَقَالَ عَمْرٌو مَا بَرِحْتُ أُصَلِّيهِنَّ بَعْدُ ‏.‏ وَقَالَ النُّعْمَانُ مِثْلَ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "6cbcbbd1f63588e7d0f4ee2747118219dfa87269a1d1d11ce04aeee00b00d1e9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshar nous a rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après al-Nu‘man ibn Salim, d’après ‘Amr ibn Aws, d’après ‘Anbasa ibn Abi Sufyan, d’après Umm Habiba, l’épouse du Prophète ﷺ. Elle dit : « J’ai entendu le Messager d’Allah ﷺ dire : “Tout serviteur musulman qui accomplit chaque jour pour Allah douze unités de prière surérogatoires, en dehors des prières obligatoires, Allah lui construira une maison au Paradis — ou : une maison lui sera construite au Paradis.” » Umm Habiba dit : « Depuis lors, je n’ai cessé de les accomplir. » ‘Amr dit : « Je n’ai cessé de les accomplir depuis lors. » Al-Nu‘man dit la même chose.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0a564cca-59d4-4fd0-9081-bbbb75946a90",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:728d",
+      "reference": "Sahih Muslim, hadith 728 d, book 6, باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "title": "باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَبْدُ الرَّحْمَنِ بْنُ بِشْرٍ، وَعَبْدُ اللَّهِ بْنُ هَاشِمٍ الْعَبْدِيُّ، قَالاَ حَدَّثَنَا بَهْزٌ، حَدَّثَنَا شُعْبَةُ، قَالَ النُّعْمَانُ بْنُ سَالِمٍ أَخْبَرَنِي قَالَ سَمِعْتُ عَمْرَو بْنَ أَوْسٍ، يُحَدِّثُ عَنْ عَنْبَسَةَ، عَنْ أُمِّ حَبِيبَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ عَبْدٍ مُسْلِمٍ تَوَضَّأَ فَأَسْبَغَ الْوُضُوءَ ثُمَّ صَلَّى لِلَّهِ كُلَّ يَوْمٍ ‏\"‏ ‏.‏ فَذَكَرَ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "9370216af78a2a0bce1c421676827b9f24d42f2965559b872c02d4f43e6d225d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "70443fb5-545d-419d-826b-eeaf26b763c4",
+      "reason": "La source cite directement deux passages du Coran (sourates 2 et 3). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "90dc846d-513c-44cf-931e-5e0ceb39291a",
+      "reason": "La source renvoie au même récit que la version précédente sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "source_id": "0a564cca-59d4-4fd0-9081-bbbb75946a90",
+      "reason": "La source ne rapporte que le début d’un récit et renvoie ensuite à une version précédente pour le contenu restant. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
+    }
+  ]
+}

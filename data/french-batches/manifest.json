@@ -35490,6 +35490,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0313",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0313.json",
+      "sourceIds": [
+        "70443fb5-545d-419d-826b-eeaf26b763c4",
+        "90dc846d-513c-44cf-931e-5e0ceb39291a",
+        "e171ea61-b1f0-4e92-bb16-1a2fde2fe28d",
+        "fa0d08d6-dbed-48a9-9404-befe4ddaf14f",
+        "fe195d73-053a-49fe-9db4-ce106a7b3e3a",
+        "0a564cca-59d4-4fd0-9081-bbbb75946a90"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one Quran quotation and two incomplete cross-references held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39797,8 +39818,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7581,
-  "hadithLocalRemaining": 7048,
+  "hadithLocalDrafted": 7584,
+  "hadithLocalRemaining": 7045,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41899,10 +41920,28 @@
       "scope": "Sahih Muslim 727a: direct Quran quotations from surahs 2 and 3",
       "status": "blocked",
       "reason": "La source cite directement deux passages du Coran (sourates 2 et 3). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0313-727B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 727b: direct Quran quotations from surahs 2 and 3",
+      "status": "blocked",
+      "reason": "La source cite directement deux passages du Coran (sourates 2 et 3). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0313-727C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 727c: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source renvoie au même récit que la version précédente sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0313-728D-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 728d: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source ne rapporte que le début d’un récit et renvoie ensuite à une version précédente pour le contenu restant. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1245,
+  "hadithMuslimDrafted": 1248,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 586
+  "hadithNeedsMo": 589
 }
