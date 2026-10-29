@@ -2061,3 +2061,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-429` saves six private French drafts for Bukhari 2487–2492, covering joint ownership and charity, emergency slaughter, etiquette for sharing dates, and partial emancipation.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,256 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 137. Total local hadith rows not drafted: 12,373, including held records.
+
+### 2026-10-29: Bukhari 2493–2499 source review
+
+- `FR-LIB-HAD-BUKHARI-430` saves five private French drafts for Bukhari 2493 and 2495–2497 and 2499. Bukhari 2494 directly quotes Quran 4:3 and 4:127; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,261 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 138. Total local hadith rows not drafted: 12,368, including held records.
