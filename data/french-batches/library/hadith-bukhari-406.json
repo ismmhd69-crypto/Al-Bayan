@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-BUKHARI-406",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:43:34.913Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4f2b8f8a-7959-4562-8795-02d1bb87a75a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2355",
+      "reference": "Sahih al-Bukhari, hadith 2355, book 42, باب مَنْ حَفَرَ بِئْرًا فِي مِلْكِهِ لَمْ يَضْمَنْ",
+      "title": "باب مَنْ حَفَرَ بِئْرًا فِي مِلْكِهِ لَمْ يَضْمَنْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَحْمُودٌ، أَخْبَرَنَا عُبَيْدُ اللَّهِ، عَنْ إِسْرَائِيلَ، عَنْ أَبِي حَصِينٍ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْمَعْدِنُ جُبَارٌ، وَالْبِئْرُ جُبَارٌ، وَالْعَجْمَاءُ جُبَارٌ، وَفِي الرِّكَازِ الْخُمُسُ ‏\"‏‏.‏",
+      "source_hash_sha256": "1e7780c759cede8dafe12ba3412817509c19b5eacad65144b164d7664c9349c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Mahmûd, ‘Ubayd Allâh, Isrâ’îl, Abû Hasîn, Abû Sâlih et Abû Hurayra.\n\nLe Messager d’Allah a dit : « Les dommages causés par les mines, les puits et les animaux sont sans indemnisation. Le cinquième est dû sur les trésors enfouis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "657f4ec7-610c-4116-8f30-91c2c626e862",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2356",
+      "reference": "Sahih al-Bukhari, hadith 2356, 2357, book 42, باب الْخُصُومَةِ فِي الْبِئْرِ وَالْقَضَاءِ فِيهَا",
+      "title": "باب الْخُصُومَةِ فِي الْبِئْرِ وَالْقَضَاءِ فِيهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، عَنْ أَبِي حَمْزَةَ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ حَلَفَ عَلَى يَمِينٍ يَقْتَطِعُ بِهَا مَالَ امْرِئٍ، هُوَ عَلَيْهَا فَاجِرٌ، لَقِيَ اللَّهَ وَهْوَ عَلَيْهِ غَضْبَانُ‏\"‏ فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"3\" aya_start=\"77\" aya_end=\"77\"]{‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً‏}‏ الآيَةَ‏.‏ فَجَاءَ الأَشْعَثُ فَقَالَ مَا حَدَّثَكُمْ أَبُو عَبْدِ الرَّحْمَنِ، فِيَّ أُنْزِلَتْ هَذِهِ الآيَةُ، كَانَتْ لِي بِئْرٌ فِي أَرْضِ ابْنِ عَمٍّ لِي فَقَالَ لِي ‏\"‏ شُهُودَكَ ‏\"‏‏.‏ قُلْتُ مَا لِي شُهُودٌ‏.‏ قَالَ ‏\"‏ فَيَمِينَهُ ‏\"‏‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ إِذًا يَحْلِفَ‏.‏ فَذَكَرَ النَّبِيُّ صلى الله عليه وسلم هَذَا الْحَدِيثَ، فَأَنْزَلَ اللَّهُ ذَلِكَ تَصْدِيقًا لَهُ‏.‏",
+      "source_hash_sha256": "c752c80bb7a737a6abefc24d011e697d4bfd0961dac46931c2e37a169f9b27c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ff0efa60-8405-42bb-8c8a-54b8291b2d16",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2358",
+      "reference": "Sahih al-Bukhari, hadith 2358, book 42, باب إِثْمِ مَنْ مَنَعَ ابْنَ السَّبِيلِ مِنَ الْمَاءِ",
+      "title": "باب إِثْمِ مَنْ مَنَعَ ابْنَ السَّبِيلِ مِنَ الْمَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، عَنِ الأَعْمَشِ، قَالَ سَمِعْتُ أَبَا صَالِحٍ، يَقُولُ سَمِعْتُ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ ثَلاَثَةٌ لاَ يَنْظُرُ اللَّهُ إِلَيْهِمْ يَوْمَ الْقِيَامَةِ، وَلاَ يُزَكِّيهِمْ، وَلَهُمْ عَذَابٌ أَلِيمٌ رَجُلٌ كَانَ لَهُ فَضْلُ مَاءٍ بِالطَّرِيقِ، فَمَنَعَهُ مِنِ ابْنِ السَّبِيلِ، وَرَجُلٌ بَايَعَ إِمَامًا لاَ يُبَايِعُهُ إِلاَّ لِدُنْيَا، فَإِنْ أَعْطَاهُ مِنْهَا رَضِيَ، وَإِنْ لَمْ يُعْطِهِ مِنْهَا سَخِطَ، وَرَجُلٌ أَقَامَ سِلْعَتَهُ بَعْدَ الْعَصْرِ، فَقَالَ وَاللَّهِ الَّذِي لاَ إِلَهَ غَيْرُهُ لَقَدْ أَعْطَيْتُ بِهَا كَذَا وَكَذَا، فَصَدَّقَهُ رَجُلٌ‏\"‏ ثُمَّ قَرَأَ هَذِهِ الآيَةَ ‏[quran sura=\"3\" aya_start=\"77\" aya_end=\"77\"]{‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً‏}‏",
+      "source_hash_sha256": "0f073f93de4c60143d055602e43c2768314c44e837edd85f9f9ff1c45654c512",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1b6039b3-b60b-469b-a811-e2bd09bcb03b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2359",
+      "reference": "Sahih al-Bukhari, hadith 2359, 2360, book 42, باب سَكْرِ الأَنْهَارِ",
+      "title": "باب سَكْرِ الأَنْهَارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا اللَّيْثُ، قَالَ حَدَّثَنِي ابْنُ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ ـ رضى الله عنهما ـ أَنَّهُ حَدَّثَهُ أَنَّ رَجُلاً مِنَ الأَنْصَارِ خَاصَمَ الزُّبَيْرَ عِنْدَ النَّبِيِّ صلى الله عليه وسلم فِي شِرَاجِ الْحَرَّةِ الَّتِي يَسْقُونَ بِهَا النَّخْلَ فَقَالَ الأَنْصَارِيُّ سَرِّحِ الْمَاءَ يَمُرُّ فَأَبَى عَلَيْهِ، فَاخْتَصَمَا عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِلزُّبَيْرِ ‏\"‏ اسْقِ يَا زُبَيْرُ، ثُمَّ أَرْسِلِ الْمَاء إِلَى جَارِكَ ‏\"‏‏.‏ فَغَضِبَ الأَنْصَارِيُّ، فَقَالَ أَنْ كَانَ ابْنَ عَمَّتِكَ‏.‏ فَتَلَوَّنَ وَجْهُ رَسُولِ اللَّهِ صلى الله عليه وسلم ثُمَّ قَالَ ‏\"‏ اسْقِ يَا زُبَيْرُ، ثُمَّ احْبِسِ الْمَاءَ، حَتَّى يَرْجِعَ إِلَى الْجَدْرِ ‏\"‏‏.‏ فَقَالَ الزُّبَيْرُ وَاللَّهِ إِنِّي لأَحْسِبُ هَذِهِ الآيَةَ نَزَلَتْ فِي ذَلِكَ ‏[quran sura=\"4\" aya_start=\"65\" aya_end=\"65\"]{‏فَلاَ وَرَبِّكَ لاَ يُؤْمِنُونَ حَتَّى يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ‏}‏‏.‏",
+      "source_hash_sha256": "b98c3555c46670c70196ee802182268974aac7da636710a1a7782c769729088b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fd83e518-518f-4ad0-9fb4-6e6bcb938d6b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2361",
+      "reference": "Sahih al-Bukhari, hadith 2361, book 42, باب شُرْبِ الأَعْلَى قَبْلَ الأَسْفَلِ",
+      "title": "باب شُرْبِ الأَعْلَى قَبْلَ الأَسْفَلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، قَالَ خَاصَمَ الزُّبَيْرَ رَجُلٌ مِنَ الأَنْصَارِ، فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ يَا زُبَيْرُ اسْقِ ثُمَّ أَرْسِلْ ‏\"‏‏.‏ فَقَالَ الأَنْصَارِيُّ إِنَّهُ ابْنُ عَمَّتِكَ‏.‏ فَقَالَ عَلَيْهِ السَّلاَمُ ‏\"‏ اسْقِ يَا زُبَيْرُ، ثُمَّ يَبْلُغُ الْمَاءُ الْجَدْرَ، ثُمَّ أَمْسِكْ ‏\"‏‏.‏ فَقَالَ الزُّبَيْرُ فَأَحْسِبُ هَذِهِ الآيَةَ نَزَلَتْ فِي ذَلِكَ ‏[quran sura=\"4\" aya_start=\"65\" aya_end=\"65\"]{‏َلاَ وَرَبِّكَ لاَ يُؤْمِنُونَ حَتَّى يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ‏}‏‏.‏ قَالَ مُحَمَّدُ بْنُ الْعَبَّاسِ قَالَ أَبُو عَبْدِ اللَّهِ لَيْسَ أَحَدٌ يَذْكُرُ عُرْوَةَ عَنْ عَبْدِ اللَّهِ، إِلاَّ اللَّيْثُ فَقَطْ‏.‏",
+      "source_hash_sha256": "c0332f74150923c8dd79216d1f4267d1d63c059329c3d57eeb00b0f75fbfe719",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "838ac948-f1f8-4418-8e69-c425eab101dc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2362",
+      "reference": "Sahih al-Bukhari, hadith 2362, book 42, باب شِرْبِ الأَعْلَى إِلَى الْكَعْبَيْنِ",
+      "title": "باب شِرْبِ الأَعْلَى إِلَى الْكَعْبَيْنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدٌ، أَخْبَرَنَا مَخْلَدٌ، قَالَ أَخْبَرَنِي ابْنُ جُرَيْجٍ، قَالَ حَدَّثَنِي ابْنُ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، أَنَّهُ حَدَّثَهُ أَنَّ رَجُلاً مِنَ الأَنْصَارِ خَاصَمَ الزُّبَيْرَ فِي شِرَاجٍ مِنَ الْحَرَّةِ يَسْقِي بِهَا النَّخْلَ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اسْقِ يَا زُبَيْرُ ـ فَأَمَرَهُ بِالْمَعْرُوفِ ـ ثُمَّ أَرْسِلْ إِلَى جَارِكَ ‏\"‏‏.‏ فَقَالَ الأَنْصَارِيُّ أَنْ كَانَ ابْنَ عَمَّتِكَ‏.‏ فَتَلَوَّنَ وَجْهُ رَسُولِ اللَّهِ صلى الله عليه وسلم ثُمَّ قَالَ ‏\"‏ اسْقِ ثُمَّ احْبِسْ حَتَّى يَرْجِعَ الْمَاءُ إِلَى الْجَدْرِ ‏\"‏‏.‏ وَاسْتَوْعَى لَهُ حَقَّهُ‏.‏ فَقَالَ الزُّبَيْرُ وَاللَّهِ إِنَّ هَذِهِ الآيَةَ أُنْزِلَتْ فِي ذَلِكَ ‏[quran sura=\"4\" aya_start=\"65\" aya_end=\"65\"]{‏َلاَ وَرَبِّكِ لاَ يُؤْمِنُونَ حَتَّى يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ‏}‏‏.‏ قَالَ لِي ابْنُ شِهَابٍ فَقَدَّرَتِ الأَنْصَارُ وَالنَّاسُ قَوْلَ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ اسْقِ ثُمَّ احْبِسْ حَتَّى يَرْجِعَ إِلَى الْجَدْرِ ‏\"‏‏.‏ وَكَانَ ذَلِكَ إِلَى الْكَعْبَيْنِ‏.‏",
+      "source_hash_sha256": "393927028d0715a1f2554a28c53e56f6570d4dec4eeee162e95c88829b56511f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "657f4ec7-610c-4116-8f30-91c2c626e862",
+      "reason": "This report directly quotes Quran 3:77. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "ff0efa60-8405-42bb-8c8a-54b8291b2d16",
+      "reason": "This report directly quotes Quran 3:77. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "1b6039b3-b60b-469b-a811-e2bd09bcb03b",
+      "reason": "This report directly quotes Quran 4:65. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "fd83e518-518f-4ad0-9fb4-6e6bcb938d6b",
+      "reason": "This report directly quotes Quran 4:65. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "838ac948-f1f8-4418-8e69-c425eab101dc",
+      "reason": "This report directly quotes Quran 4:65. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
