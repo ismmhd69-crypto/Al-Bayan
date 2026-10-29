@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5923,
+    "hadithBukhariDrafted": 5924,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5923,
+    "hadithLocalDrafted": 5924,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8706,
+    "hadithLocalRemaining": 8705,
     "hadithNeedsMo": 845,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -27209,6 +27209,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1288",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1288.json",
+      "sourceIds": [
+        "66e20b02-c6e5-468e-b2eb-a2da1a53d085"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One 5,686-character report translated in an isolated single-item batch; narrator qualifications, repeated scenes and interpretations retained. Source hash retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -30669,9 +30685,9 @@
       "reason": "The source ends after introducing Ibn ‘Abbâs’s answer about the dream reported from the Messenger of Allah; the report itself is absent. Keep this record blank rather than filling it from a neighboring source."
     }
   ],
-  "hadithBukhariDrafted": 5923,
-  "hadithLocalDrafted": 5923,
-  "hadithLocalRemaining": 8706,
+  "hadithBukhariDrafted": 5924,
+  "hadithLocalDrafted": 5924,
+  "hadithLocalRemaining": 8705,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
