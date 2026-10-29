@@ -2176,3 +2176,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-452` saves six private French drafts for Bukhari 2627–2632, covering borrowed property, lending clothing, gifts of livestock and fruit, good deeds, and land use.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,385 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,244, including held records.
+
+### 2026-10-29: Bukhari 2633–2638 source review
+
+- `FR-LIB-HAD-BUKHARI-453` saves six private French drafts for Bukhari 2633–2638, covering charitable care, land use, Hajar, donated property, the accusation against Aisha, and Ibn Sayyad.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,391 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,238, including held records.
