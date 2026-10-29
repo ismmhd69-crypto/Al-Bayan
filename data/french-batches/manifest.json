@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5772,
+    "hadithBukhariDrafted": 5777,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5772,
+    "hadithLocalDrafted": 5777,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8857,
-    "hadithNeedsMo": 832,
+    "hadithLocalRemaining": 8852,
+    "hadithNeedsMo": 833,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26580,6 +26580,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "four private drafts; two Needs Mo holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1257",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1257.json",
+      "sourceIds": [
+        "d3809345-c2db-4a85-940c-53212395c176",
+        "c8ef55fc-5472-4eca-9fe5-3e49048f485f",
+        "ef3aadc2-900e-4685-b55c-7eb6c0743c13",
+        "1208f016-6a3b-4dcf-a0f7-c824d1cfe9e1",
+        "2c271018-62f0-4ed6-8341-537b1c3d75ca",
+        "1fe652d9-62ba-40d9-828f-30d083050a81"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one report held in full for direct Quran 25:68 quotation. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -29960,11 +29981,17 @@
       "scope": "Sahih al-Bukhari 6857: wording about chaste, believing, heedless women directly echoes Quran 24:23",
       "status": "blocked",
       "reason": "The report uses Quranic wording about chaste, believing, heedless women (Quran 24:23). Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6861-QURAN-25-68",
+      "scope": "Sahih al-Bukhari 6861: direct quotation of Quran 25:68",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 25:68. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5772,
-  "hadithLocalDrafted": 5772,
-  "hadithLocalRemaining": 8857,
+  "hadithBukhariDrafted": 5777,
+  "hadithLocalDrafted": 5777,
+  "hadithLocalRemaining": 8852,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30487,6 +30514,12 @@
       "scope": "Sahih al-Bukhari 6857: wording about chaste, believing, heedless women directly echoes Quran 24:23",
       "status": "blocked",
       "reason": "The report uses Quranic wording about chaste, believing, heedless women (Quran 24:23). Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6861-QURAN-25-68",
+      "scope": "Sahih al-Bukhari 6861: direct quotation of Quran 25:68",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 25:68. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
