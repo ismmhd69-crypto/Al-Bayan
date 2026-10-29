@@ -3011,3 +3011,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-619` saves five private French drafts about the Prophet’s age, names, and seal of prophethood. Bukhari 3541 remains blank because its local Arabic phrase إن ابن أختي وقع is unclear and appears damaged.
 - All six records passed the focused validator, including the source-wording hold. No database writes or publication occurred. Bukhari local drafts: 3,157 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 11,500, including held records.
+
+### 2026-10-29: Bukhari 3542–3547
+
+- `FR-LIB-HAD-BUKHARI-620` saves six private French drafts describing the Prophet and al-Hasan.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,163 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 11,494, including held records.
