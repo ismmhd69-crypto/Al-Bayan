@@ -9771,3 +9771,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0528 saves four private French drafts about Ka‘b ibn ‘Ujra’s compensation and reports about cupping while in consecration. Muslim 1201g–h directly quote Quran 2:196; both remain fully blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1203–1206a
+
+- FR-LIB-HAD-MUSLIM-0529 saves five private French drafts about cupping, treatment for sore eyes, washing during pilgrimage, and a pilgrim who died en route. Muslim 1205b gives only additional detail to the preceding report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
