@@ -11658,3 +11658,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1968d-1970a
 
 - FR-LIB-HAD-MUSLIM-0924 saves five private French drafts about slaughter without knives and the former limit on keeping sacrificial meat. Variant wording and omissions are preserved. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1970b-1972c
+
+- FR-LIB-HAD-MUSLIM-0925 saves five private French drafts about the earlier restriction on eating sacrificial meat, its later relaxation, and the circumstances behind it. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
