@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0975",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:40:38.957Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "81c42d1a-d1bc-45ea-8c37-b3d4d3904fd5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2060a",
+      "reference": "Sahih Muslim, hadith 2060 a, book 36, باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "title": "باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالُوا أَخْبَرَنَا يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ الْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ وَالْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "86a1f27b5d1b6bc45e8a5ae5bc7b4d60837b39a32cccb1554755109444d509b5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète a dit : « Le mécréant mange avec sept intestins, tandis que le croyant mange avec un seul. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "93f6f802-0506-4237-8590-ad495a0c73d4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2060b",
+      "reference": "Sahih Muslim, hadith 2060 b, book 36, باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "title": "باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا عُبَيْدُ اللَّهِ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ، حُمَيْدٍ عَنْ عَبْدِ الرَّزَّاقِ، قَالَ أَخْبَرَنَا مَعْمَرٌ، عَنْ أَيُّوبَ، كِلاَهُمَا عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "30639096064e5903003d56703e3cf42786177a751d9ff00fae8266174daba341",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e3be65ef-af3a-4d1a-8c43-0ad028d0f363",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2060c",
+      "reference": "Sahih Muslim, hadith 2060 c, book 36, باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "title": "باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ خَلاَّدٍ الْبَاهِلِيُّ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ وَاقِدِ، بْنِ مُحَمَّدِ بْنِ زَيْدٍ أَنَّهُ سَمِعَ نَافِعًا، قَالَ رَأَى ابْنُ عُمَرَ مِسْكِينًا فَجَعَلَ يَضَعُ بَيْنَ يَدَيْهِ وَيَضَعُ بَيْنَ يَدَيْهِ - قَالَ - فَجَعَلَ يَأْكُلُ أَكْلاً كَثِيرًا - قَالَ - فَقَالَ لاَ يُدْخَلَنَّ هَذَا عَلَىَّ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ الْكَافِرَ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3572183b41fa96b3f5768f43cdae20666bb55081b27628ef372879ac8f1f2dd3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nâfi‘ rapporte qu’Ibn ‘Umar vit un pauvre homme. Il continua à déposer de la nourriture devant lui, et l’homme mangea beaucoup. Ibn ‘Umar dit : « Ne faites plus entrer cet homme chez moi, car j’ai entendu le Messager d’Allah dire : “Le mécréant mange avec sept intestins.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "79788784-3819-4677-848f-ea3d76fa276d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2061a",
+      "reference": "Sahih Muslim, hadith 2061 a, book 36, باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "title": "باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ سُفْيَانَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، وَابْنِ عُمَرَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "eefa9da11c0843fbdd1e3d2c8afb1ea2231a3c53adb129e91b20cea4d1853d1a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir et Ibn ‘Umar rapportent que le Messager d’Allah a dit : « Le croyant mange avec un seul intestin, tandis que le mécréant mange avec sept. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5eb7890e-ef25-4ec6-a505-10a33616fa4e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2061b",
+      "reference": "Sahih Muslim, hadith 2061 b, book 36, باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "title": "باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ وَلَمْ يَذْكَرِ ابْنَ عُمَرَ ‏.‏",
+      "source_hash_sha256": "a3b5296a6c2f665aa60ac121f6f1411a04c5daeed2d386cddfd51f14b3c771c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte que le Prophète a dit : « Le croyant mange avec un seul intestin, tandis que le mécréant mange avec sept. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2212ada2-7be8-4b7d-8399-3534763dc765",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2062a",
+      "reference": "Sahih Muslim, hadith 2062 a, book 36, باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "title": "باب الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا بُرَيْدٌ، عَنْ جَدِّهِ، عَنْ أَبِي مُوسَى، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ الْمُؤْمِنُ يَأْكُلُ فِي مِعًى وَاحِدٍ وَالْكَافِرُ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "40c7cb08235bdb838cdb525f18bf9982d617d2355da0213d6b166310b4b53797",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète a dit : « Le croyant mange avec un seul intestin, tandis que le mécréant mange avec sept. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "93f6f802-0506-4237-8590-ad495a0c73d4",
+      "reason": "Cette entrée ne donne que des chaînes de transmission et renvoie au récit précédent sans reprendre son contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
