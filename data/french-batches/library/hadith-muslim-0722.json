@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0722",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:01:48.947Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ef07b024-6a90-416f-9190-48cfdc67750f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1550b",
+      "reference": "Sahih Muslim, hadith 1550 b, book 21, باب الأَرْضِ تُمْنَحُ ‏‏",
+      "title": "باب الأَرْضِ تُمْنَحُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، وَابْنُ، طَاوُسٍ عَنْ طَاوُسٍ، أَنَّهُ كَانَ يُخَابِرُ قَالَ عَمْرٌو فَقُلْتُ لَهُ يَا أَبَا عَبْدِ الرَّحْمَنِ لَوْ تَرَكْتَ هَذِهِ الْمُخَابَرَةَ فَإِنَّهُمْ يَزْعُمُونَ أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى عَنِ الْمُخَابَرَةِ ‏.‏ فَقَالَ أَىْ عَمْرُو أَخْبَرَنِي أَعْلَمُهُمْ بِذَلِكَ يَعْنِي ابْنَ عَبَّاسٍ أَنَّ النَّبِيَّ صلى الله عليه وسلم لَمْ يَنْهَ عَنْهَا إِنَّمَا قَالَ ‏\"‏ يَمْنَحُ أَحَدُكُمْ أَخَاهُ خَيْرٌ لَهُ مِنْ أَنْ يَأْخُذَ عَلَيْهَا خَرْجًا مَعْلُومًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "70bfd78302c97c6865e184805d729c59805feb847817a4ce516c96c4fd0e48e7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abi Umar nous a rapporté : Sufyan nous a rapporté, d’après Amr, et Ibn Tawus, d’après son père Tawus, que celui-ci pratiquait le partage des récoltes. Amr dit : « Je lui dis : “Abu Abd al-Rahman, si tu cessais cette pratique ? Certains prétendent que le Prophète l’a interdite.” Il répondit : “Amr, celui qui m’en a informé le mieux — Ibn Abbas — m’a dit que le Prophète ne l’avait pas interdite. Il a seulement dit : ‘Que l’un de vous mette sa terre à la disposition de son frère vaut mieux que d’en recevoir un paiement fixe.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fb67600f-6e1e-45e2-9bfd-4fc7ce85906c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1550c",
+      "reference": "Sahih Muslim, hadith 1550 c, book 21, باب الأَرْضِ تُمْنَحُ ‏‏",
+      "title": "باب الأَرْضِ تُمْنَحُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا الثَّقَفِيُّ، عَنْ أَيُّوبَ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ جَمِيعًا عَنْ وَكِيعٍ، عَنْ سُفْيَانَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنِ ابْنِ جُرَيْجٍ، ح وَحَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ، حَدَّثَنَا الْفَضْلُ بْنُ مُوسَى، عَنْ شَرِيكٍ، عَنْ شُعْبَةَ، كُلُّهُمْ عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ نَحْوَ حَدِيثِهِمْ ‏.‏",
+      "source_hash_sha256": "97b099fbf9b3ff3b138d750a85a2d97cad71d83737a6f31ca08ad0cad1c6c680",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5b6c978-aee1-439e-a9d0-ce1c6722c5bd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1550d",
+      "reference": "Sahih Muslim, hadith 1550 d, book 21, باب الأَرْضِ تُمْنَحُ ‏‏",
+      "title": "باب الأَرْضِ تُمْنَحُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَبْدُ بْنُ حُمَيْدٍ، وَمُحَمَّدُ بْنُ رَافِعٍ، - قَالَ عَبْدٌ أَخْبَرَنَا وَقَالَ ابْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، - أَخْبَرَنَا مَعْمَرٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ لأَنْ يَمْنَحَ أَحَدُكُمْ أَخَاهُ أَرْضَهُ خَيْرٌ لَهُ مِنْ أَنْ يَأْخُذَ عَلَيْهَا كَذَا وَكَذَا ‏\"‏ ‏.‏ لِشَىْءٍ مَعْلُومٍ ‏.‏ قَالَ وَقَالَ ابْنُ عَبَّاسٍ هُوَ الْحَقْلُ وَهُوَ بِلِسَانِ الأَنْصَارِ الْمُحَاقَلَةُ.",
+      "source_hash_sha256": "c399dbec8ed9d7e9cd03a85a3bfa1211da6241acfb333b1b2efceb3ee36a051d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd ibn Humayd et Muhammad ibn Rafi nous ont rapporté — Abd dit : « Abd al-Razzaq nous a informés », et Ibn Rafi dit : « Abd al-Razzaq nous a rapporté » — d’après Ma‘mar, d’après Ibn Tawus, d’après son père, d’après Ibn Abbas, que le Prophète a dit : « Que l’un de vous mette sa terre à la disposition de son frère vaut mieux que d’en recevoir telle ou telle somme déterminée. » Ibn Abbas dit : « Il s’agit de la terre cultivée ; dans la langue des Ansar, cela s’appelle muhaqala. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c7c3673f-6455-4704-ac01-e9faaf2b0e50",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1550e",
+      "reference": "Sahih Muslim, hadith 1550 e, book 21, باب الأَرْضِ تُمْنَحُ ‏‏",
+      "title": "باب الأَرْضِ تُمْنَحُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ جَعْفَرٍ الرَّقِّيُّ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عَمْرٍو، عَنْ زَيْدِ بْنِ أَبِي أُنَيْسَةَ، عَنْ عَبْدِ الْمَلِكِ أَبِي زَيْدٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ، عَبَّاسٍ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ كَانَتْ لَهُ أَرْضٌ فَإِنَّهُ أَنْ يَمْنَحَهَا أَخَاهُ خَيْرٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b1c9305c5c690e84244d02e0c1b45905ebd4bda139e2a18f24702bc21c540e30",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Abd al-Rahman al-Darimi nous a rapporté : Abd Allah ibn Ja‘far al-Raqqi nous a rapporté : Ubayd Allah ibn Amr nous a rapporté, d’après Zayd ibn Abi Unaysa, d’après Abd al-Malik Abu Zayd, d’après Tawus, d’après Ibn Abbas, que le Prophète a dit : « Celui qui possède une terre ferait mieux de la mettre à la disposition de son frère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "afa23fb0-b0db-42ed-b26b-b5d29416ef10",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1551a",
+      "reference": "Sahih Muslim, hadith 1551 a, book 22, باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "title": "باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، وَزُهَيْرُ بْنُ حَرْبٍ، - وَاللَّفْظُ لِزُهَيْرٍ - قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم عَامَلَ أَهْلَ خَيْبَرَ بِشَطْرِ مَا يَخْرُجُ مِنْهَا مِنْ ثَمَرٍ أَوْ زَرْعٍ ‏.‏",
+      "source_hash_sha256": "af6bb99d21b4cc4cb8ffc3b63f8d5330f9666eb0f1418d2f0609164dbfe3ca18",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Hanbal et Zuhayr ibn Harb nous ont rapporté — la formulation est celle de Zuhayr — : Yahya, c’est-à-dire al-Qattan, nous a rapporté, d’après Ubayd Allah, qui m’a informé, d’après Nafi, d’après Ibn Umar, que le Messager d’Allah conclut avec les habitants de Khaybar un accord leur laissant la moitié de ce que produiraient leurs fruits ou leurs cultures.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4bd1cb39-d471-48d4-944c-95a7a34c6c01",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1551b",
+      "reference": "Sahih Muslim, hadith 1551 b, book 22, باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "title": "باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، حَدَّثَنَا عَلِيٌّ، - وَهُوَ ابْنُ مُسْهِرٍ - أَخْبَرَنَا عُبَيْدُ، اللَّهِ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ أَعْطَى رَسُولُ اللَّهِ صلى الله عليه وسلم خَيْبَرَ بِشَطْرِ مَا يَخْرُجُ مِنْ ثَمَرٍ أَوْ زَرْعٍ فَكَانَ يُعْطِي أَزْوَاجَهُ كَلَّ سَنَةٍ مِائَةَ وَسْقٍ ثَمَانِينَ وَسْقًا مِنْ تَمْرٍ وَعِشْرِينَ وَسْقًا مِنْ شَعِيرٍ فَلَمَّا وَلِيَ عُمَرُ قَسَمَ خَيْبَرَ خَيَّرَ أَزْوَاجَ النَّبِيِّ صلى الله عليه وسلم أَنْ يُقْطِعَ لَهُنَّ الأَرْضَ وَالْمَاءَ أَوْ يَضْمَنَ لَهُنَّ الأَوْسَاقَ كُلَّ عَامٍ فَاخْتَلَفْنَ فَمِنْهُنَّ مَنِ اخْتَارَ الأَرْضَ وَالْمَاءَ وَمِنْهُنَّ مَنِ اخْتَارَ الأَوْسَاقَ كُلَّ عَامٍ فَكَانَتْ عَائِشَةُ وَحَفْصَةُ مِمَّنِ اخْتَارَتَا الأَرْضَ وَالْمَاءَ ‏.‏",
+      "source_hash_sha256": "e26dea5e0147f496fac3ccee24e21e48dfc58ca16299bf13a88a26a117fcd90a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Hujr al-Sa‘di nous a rapporté : Ali, c’est-à-dire Ibn Mushir, nous a rapporté : Ubayd Allah nous a informés, d’après Nafi, d’après Ibn Umar, qui dit : « Le Messager d’Allah accorda Khaybar en échange de la moitié de ses récoltes de fruits ou de céréales. Chaque année, il donnait à ses épouses cent wasq : quatre-vingts wasq de dattes et vingt wasq d’orge. Lorsque Umar prit le pouvoir et partagea Khaybar, il proposa aux épouses du Prophète de leur attribuer les terres et l’eau, ou de leur garantir chaque année ces quantités. Elles ne furent pas toutes du même avis : certaines choisirent les terres et l’eau, d’autres les quantités annuelles. Aïcha et Hafsa furent parmi celles qui choisirent les terres et l’eau. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "fb67600f-6e1e-45e2-9bfd-4fc7ce85906c",
+      "reason": "Cette entrée renvoie seulement aux récits précédents sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
