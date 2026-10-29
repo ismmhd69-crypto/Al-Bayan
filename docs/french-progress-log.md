@@ -9031,3 +9031,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0380 saves six private French drafts about watching games on a festival day and the prayer for rain, preserving the reported differences between narrations.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1510 Muslim drafts, 7846 total hadith drafts, 6783 remaining, and 714 Needs Mo items.
+
+### 2026-10-29: Muslim 895a–897b
+
+- FR-LIB-HAD-MUSLIM-0381 saves four private French drafts about raising the hands in the rain prayer and a request for rain during Friday sermons. Muslim 896 and 897b are incomplete cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1514 Muslim drafts, 7850 total hadith drafts, 6779 remaining, and 716 Needs Mo items.
