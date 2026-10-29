@@ -11854,3 +11854,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2057a
 
 - FR-LIB-HAD-MUSLIM-0973 saves the complete long report about Abu Bakr and the People of the Bench as a private French draft. The narrator's stated uncertainty and the later meal for a group are preserved. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2057b-2059d
+
+- FR-LIB-HAD-MUSLIM-0974 saves five complete private French drafts about hospitality and sharing modest meals. One entry that only refers to a prior report remains blank with a specific Needs Mo reason. No database write or publication occurred.
