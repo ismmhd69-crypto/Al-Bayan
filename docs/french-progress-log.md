@@ -11870,3 +11870,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2065a-2066c
 
 - FR-LIB-HAD-MUSLIM-0977 saves three complete private French drafts about silver vessels and the seven instructions and prohibitions. Three entries that only refer to prior reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2066d-2067d
+
+- FR-LIB-HAD-MUSLIM-0978 saves the complete report about silver vessels and silk as a private French draft. Five entries that only refer to the full report or compare its transmission remain blank with specific Needs Mo reasons. No database write or publication occurred.
