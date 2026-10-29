@@ -45024,6 +45024,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0849",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0849.json",
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "five complete reports or distinctive variants translated as private drafts; report containing Quran 3:128 held entirely blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -49331,8 +49344,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9357,
-  "hadithLocalRemaining": 5169,
+  "hadithLocalDrafted": 9362,
+  "hadithLocalRemaining": 5164,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -54526,8 +54539,8 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3194,
+  "hadithMuslimDrafted": 3199,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1342
+  "hadithNeedsMo": 1343
 }

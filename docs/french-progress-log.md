@@ -11354,3 +11354,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1786a-1790a
 
 - FR-LIB-HAD-MUSLIM-0848 saves four private French drafts: reports about honoring a pledge, the Battle of the Trench, and Uhud. The Quran-quoting report from al-Hudaybiya and a chain-only cross-reference remain blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1790b-1793
+
+- FR-LIB-HAD-MUSLIM-0849 saves five private French drafts about the Prophet’s injury at Uhud and related report variants. The report quoting Quran 3:128 remains entirely blank under Needs Mo pending an attributed and authorized French Quran translation. No database write or publication occurred.
