@@ -3861,3 +3861,86 @@ details[open] > summary .chev {
   color: var(--ink);
   line-height: 2;
 }
+
+/* Quran page: play the whole surah (Mo, 2026-10-29). */
+.quran-surah-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-block-start: 16px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.quran-surah-play:hover { background: var(--accent-hover); }
+.quran-surah-play:active { transform: scale(0.97); }
+.quran-surah-play svg { inline-size: 18px; block-size: 18px; }
+.quran-surah-play-verse {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--on-accent) 18%, transparent);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.quran-surah-float {
+  position: fixed;
+  inset-inline: 0;
+  margin-inline: auto;
+  inset-block-end: calc(var(--tabbar) + 14px + env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  inline-size: min(360px, calc(100% - 32px));
+  padding: 8px 8px 8px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 12px 32px -12px rgba(0, 0, 0, 0.45);
+  animation: quran-float-in 0.22s ease-out;
+}
+@media (min-width: 960px) {
+  .quran-surah-float { inset-block-end: 24px; inset-inline-start: var(--sidebar); }
+}
+@keyframes quran-float-in { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .quran-surah-float { animation: none; } }
+.quran-surah-float-btn,
+.quran-surah-float-close {
+  display: grid;
+  place-items: center;
+  flex: none;
+  inline-size: 40px;
+  block-size: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.quran-surah-float-btn { background: var(--accent); color: var(--on-accent); }
+.quran-surah-float-close { background: none; color: var(--ink-3); }
+.quran-surah-float-close:hover { background: var(--tonal-bg); color: var(--tonal-ink); }
+.quran-surah-float svg { inline-size: 18px; block-size: 18px; }
+.quran-surah-float-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-inline-size: 0;
+  font-size: 0.85rem;
+  line-height: 1.25;
+}
+.quran-surah-float-text strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.quran-surah-float-text span { color: var(--ink-3); font-size: 0.78rem; }
+
+/* Long hints end with an ellipsis instead of being cut mid-word. */
+.hadith-search-form input::placeholder,
+.quran-search-input::placeholder {
+  text-overflow: ellipsis;
+}

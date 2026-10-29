@@ -353,3 +353,47 @@ export const getVerseRecitation = cache(async function getVerseRecitation(verseK
   });
   return { audioUrl, words, segments };
 });
+
+export interface SurahRecitation {
+  audioUrl: string;
+  verses: { verseNumber: number; from: number; to: number; segments: [number, number, number][]; words: { position: number; text: string }[] }[];
+}
+
+/** A whole surah as one continuous Alafasy recording, so playing it never pauses between verses
+ * (Mo, 2026-10-29). Verse and word times are in the same file's milliseconds. */
+export const getSurahRecitation = cache(async function getSurahRecitation(chapterId: number): Promise<SurahRecitation | null> {
+  if (!Number.isInteger(chapterId) || chapterId < 1 || chapterId > 114 || !isChapterAllowed(chapterId)) return null;
+  const env = getEnvConfig();
+  const res = await authedFetch(`${env.api}/content/api/v4/chapter_recitations/7/${chapterId}?segments=true`, { next: { revalidate: CACHE_SECONDS } });
+  if (!res.ok) throw new Error(`Surah recitation request failed with status ${res.status}`);
+  const data = (await res.json()) as { audio_file?: { audio_url?: unknown; timestamps?: { verse_key?: unknown; timestamp_from?: unknown; timestamp_to?: unknown; segments?: unknown }[] } };
+  const url = data.audio_file?.audio_url;
+  if (typeof url !== "string") return null;
+  try {
+    const parsed = new URL(url);
+    if (parsed.protocol !== "https:" || !["download.quranicaudio.com", "verses.quran.foundation"].includes(parsed.hostname) || !parsed.pathname.endsWith(".mp3")) return null;
+  } catch { return null; }
+
+  // Each verse's words, in the same positions as the word timings.
+  const words = new Map<number, { position: number; text: string }[]>();
+  for (let page = 1, last = 1; page <= last; page++) {
+    const r = await authedFetch(`${env.api}/content/api/v4/verses/by_chapter/${chapterId}?page=${page}&per_page=50&words=true&word_fields=text_uthmani`, { next: { revalidate: CACHE_SECONDS } });
+    if (!r.ok) throw new Error(`Surah words request failed with status ${r.status}`);
+    const body = (await r.json()) as { verses?: { verse_number?: unknown; words?: { position?: unknown; char_type_name?: unknown; text_uthmani?: unknown }[] }[]; pagination?: { total_pages?: unknown } };
+    if (typeof body.pagination?.total_pages === "number") last = Math.min(body.pagination.total_pages, 10);
+    for (const v of body.verses ?? []) if (typeof v.verse_number === "number") words.set(v.verse_number, (v.words ?? []).flatMap((w) =>
+      w.char_type_name === "word" && typeof w.position === "number" && typeof w.text_uthmani === "string" ? [{ position: w.position, text: w.text_uthmani }] : []));
+  }
+
+  const verses = (data.audio_file?.timestamps ?? []).flatMap((t) => {
+    const n = typeof t.verse_key === "string" ? Number(t.verse_key.split(":")[1]) : NaN;
+    if (!Number.isInteger(n) || typeof t.timestamp_from !== "number" || typeof t.timestamp_to !== "number") return [];
+    const segments = (Array.isArray(t.segments) ? t.segments : []).flatMap((s): [number, number, number][] => {
+      if (!Array.isArray(s) || !s.every((x) => typeof x === "number")) return [];
+      const [position, start, end] = s.length >= 4 ? s.slice(1, 4) : s;
+      return end > start ? [[position, start, end]] : [];
+    });
+    return [{ verseNumber: n, from: t.timestamp_from, to: t.timestamp_to, segments, words: words.get(n) ?? [] }];
+  });
+  return verses.length ? { audioUrl: url, verses } : null;
+});

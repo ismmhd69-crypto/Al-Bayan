@@ -2,11 +2,15 @@
 
 import { useCallback, useEffect, useState, useRef } from "react";
 import Link from "next/link";
-import { AlertCircle, ArrowLeft, ArrowRight, Check, ChevronLeft, ChevronRight, Copy, Loader2, Pause, Play, RotateCcw } from "lucide-react";
+import { AlertCircle, ArrowLeft, ArrowRight, Check, ChevronLeft, ChevronRight, Copy, Loader2, Pause, Play, RotateCcw, X } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { PaginatedVerses, SurahDetail, SurahSummary, Verse, VersePagination } from "@/lib/quran/types";
 import { FormattedTranslation } from "./FormattedTranslation";
-import { AudioPlaybackController, type ActivePlayback } from "@/lib/quran/playback";
+import type { ActivePlayback } from "@/lib/quran/playback";
+
+type Recitation = { audioUrl: string; words: { position: number; text: string }[]; segments: [number, number, number][] };
+type Playback = Omit<ActivePlayback, "status"> & { status: ActivePlayback["status"] | "paused" };
+type SurahRecitation = { audioUrl: string; verses: { verseNumber: number; from: number; to: number; segments: [number, number, number][]; words: Recitation["words"] }[] };
 
 interface SurahReaderProps {
   lang: Locale;
@@ -30,30 +34,34 @@ export function SurahReader({
   const [loadingMore, setLoadingMore] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [copiedAyah, setCopiedAyah] = useState<number | null>(null);
-  const [activePlayback, setActivePlayback] = useState<ActivePlayback | null>(null);
+  const [activePlayback, setActivePlayback] = useState<Playback | null>(null);
   const loadedPagesRef = useRef<Set<number>>(new Set([initialVerses.pagination.currentPage]));
-  const controllerRef = useRef<AudioPlaybackController | null>(null);
 
-  if (!controllerRef.current) {
-    controllerRef.current = new AudioPlaybackController();
-  }
+  // One player for single verses and the whole surah (Mo, 2026-10-29). Each verse's recitation comes
+  // with Quran Foundation's word timings, so the word being recited is highlighted. In surah mode the
+  // next verse starts when one ends, loading more verses and scrolling to it as needed.
+  const [surahMode, setSurahMode] = useState(false);
+  const [recited, setRecited] = useState<{ verse: number; words: Recitation["words"]; position: number | null } | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const sessionRef = useRef(0);
+  const modeRef = useRef<"verse" | "surah">("verse");
+  const currentRef = useRef<{ verse: number; recitation: Recitation } | null>(null);
+  const surahFileRef = useRef<Promise<SurahRecitation | null> | null>(null);
+  const surahTimesRef = useRef<SurahRecitation | null>(null);
+  const recitationsRef = useRef(new Map<number, Promise<Recitation | null>>());
+  const versesRef = useRef(verses);
+  versesRef.current = verses;
+  const frameRef = useRef(0);
+  const playVerseRef = useRef<(verse: number, mode: "verse" | "surah") => Promise<void>>(async () => {});
 
-  // Release audio resources when changing surah or unmounting
-  useEffect(() => {
-    return () => {
-      // Invalidate old callbacks and release old audio resources without updating state on unmount
-      controllerRef.current?.stopAndRelease();
-      controllerRef.current = new AudioPlaybackController();
-    };
+  const recitation = useCallback((verse: number) => {
+    let found = recitationsRef.current.get(verse);
+    if (!found) {
+      found = fetch(`/api/quran/recitation/${surah.id}:${verse}`).then((r) => (r.ok ? (r.json() as Promise<Recitation>) : null)).catch(() => null);
+      recitationsRef.current.set(verse, found);
+    }
+    return found;
   }, [surah.id]);
-
-  // Audio Play/Pause handler
-  const toggleAudio = useCallback((verse: Verse) => {
-    controllerRef.current?.toggleVerse(verse, {
-      onStatusChange: (playback) => setActivePlayback(playback),
-      onError: (err) => console.warn("Audio error:", err),
-    });
-  }, []);
 
   // Helper to merge and sort verses by verseNumber (avoiding duplicates)
   const mergeVerses = useCallback((incoming: Verse[]) => {
@@ -107,6 +115,149 @@ export function SurahReader({
     } finally {
       setLoadingMore(false);
     }
+  };
+
+  const stopTicking = () => { cancelAnimationFrame(frameRef.current); frameRef.current = 0; };
+  const tick = useCallback(() => {
+    const audio = audioRef.current, timed = surahTimesRef.current;
+    if (audio && timed && modeRef.current === "surah") {
+      // One continuous file: find the verse, then the word, at the current time.
+      const ms = audio.currentTime * 1000;
+      const v = timed.verses.find((x) => ms >= x.from && ms < x.to);
+      if (v) {
+        if (currentRef.current?.verse !== v.verseNumber) {
+          currentRef.current = { verse: v.verseNumber, recitation: { audioUrl: timed.audioUrl, words: v.words, segments: v.segments } };
+          setActivePlayback((p) => (p ? { ...p, verseNumber: v.verseNumber } : p));
+          setRecited(v.words.length ? { verse: v.verseNumber, words: v.words, position: null } : null);
+          showVerseRef.current(v.verseNumber);
+        }
+        const position = v.segments.find(([, start, end]) => ms >= start && ms < end)?.[0];
+        if (position !== undefined) setRecited((r) => (r && r.verse === v.verseNumber && r.position !== position ? { ...r, position } : r));
+      }
+      frameRef.current = requestAnimationFrame(tick);
+      return;
+    }
+    const current = currentRef.current;
+    if (!audio || !current) return;
+    const ms = audio.currentTime * 1000;
+    const position = current.recitation.segments.find(([, start, end]) => ms >= start && ms < end)?.[0];
+    if (position !== undefined) setRecited((r) => (r && r.verse === current.verse && r.position !== position ? { ...r, position } : r));
+    frameRef.current = requestAnimationFrame(tick);
+  }, []);
+
+  // Keep the recited verse on screen, loading its page first when needed.
+  const showVerseRef = useRef<(verse: number) => void>(() => {});
+  showVerseRef.current = (verse: number) => {
+    const scroll = () => {
+      const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      document.getElementById(`ayah-${verse}`)?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
+    };
+    if (versesRef.current.some((v) => v.verseNumber === verse)) requestAnimationFrame(scroll);
+    else void fetchPage(Math.ceil(verse / (pagination.perPage || 30))).then(() => setTimeout(scroll, 150), () => {});
+  };
+
+  // The whole surah as one file: no loading between verses (Mo, 2026-10-29).
+  const playSurah = useCallback(async () => {
+    const session = ++sessionRef.current;
+    modeRef.current = "surah";
+    setSurahMode(true);
+    stopTicking();
+    audioRef.current?.pause();
+    setActivePlayback({ verseNumber: 1, status: "loading" });
+    surahFileRef.current ??= fetch(`/api/quran/surah-recitation/${surah.id}`).then((r) => (r.ok ? (r.json() as Promise<SurahRecitation>) : null)).catch(() => null);
+    const file = await surahFileRef.current;
+    if (session !== sessionRef.current) return;
+    if (!file?.audioUrl) { surahFileRef.current = null; void playVerse(1, "surah"); return; }
+    surahTimesRef.current = file;
+    currentRef.current = null;
+    const audio = (audioRef.current ??= new Audio());
+    audio.src = file.audioUrl;
+    try { await audio.play(); } catch { if (session === sessionRef.current) setActivePlayback({ verseNumber: 1, status: "error" }); }
+  }, [surah.id]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const playVerse = useCallback(async (verse: number, mode: "verse" | "surah") => {
+    const session = ++sessionRef.current;
+    surahTimesRef.current = null;
+    modeRef.current = mode;
+    setSurahMode(mode === "surah");
+    stopTicking();
+    audioRef.current?.pause();
+    setActivePlayback({ verseNumber: verse, status: "loading" });
+    if (mode === "surah" && !versesRef.current.some((v) => v.verseNumber === verse)) {
+      try { await fetchPage(Math.ceil(verse / (pagination.perPage || 30))); } catch { /* Played without its card. */ }
+    }
+    const r = await recitation(verse);
+    if (session !== sessionRef.current) return;
+    if (!r?.audioUrl) { setActivePlayback({ verseNumber: verse, status: "error" }); return; }
+    currentRef.current = { verse, recitation: r };
+    const timed = r.words.length > 0 && r.segments.every(([p]) => r.words.some((w) => w.position === p));
+    setRecited(timed ? { verse, words: r.words, position: null } : null);
+    if (mode === "surah") {
+      if (verse < surah.versesCount) void recitation(verse + 1);
+      const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      requestAnimationFrame(() => document.getElementById(`ayah-${verse}`)?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }));
+    }
+    const audio = (audioRef.current ??= new Audio());
+    audio.src = r.audioUrl;
+    try { await audio.play(); } catch { if (session === sessionRef.current) setActivePlayback({ verseNumber: verse, status: "error" }); }
+  }, [fetchPage, pagination.perPage, recitation, surah.versesCount]);
+  playVerseRef.current = playVerse;
+
+  // Audio events, attached once. Ending a verse in surah mode starts the next one.
+  useEffect(() => {
+    const audio = (audioRef.current ??= new Audio());
+    const verse = () => currentRef.current?.verse ?? 0;
+    const onPlaying = () => { setActivePlayback((p) => ({ verseNumber: verse() || p?.verseNumber || 1, status: "playing" })); stopTicking(); frameRef.current = requestAnimationFrame(tick); };
+    const onPause = () => { stopTicking(); if (!audio.ended) setActivePlayback((p) => (p && p.status !== "loading" ? { ...p, status: "paused" } : p)); };
+    const onEnded = () => {
+      stopTicking();
+      const n = verse();
+      if (modeRef.current === "surah" && !surahTimesRef.current && n < surah.versesCount) { void playVerseRef.current(n + 1, "surah"); return; }
+      surahTimesRef.current = null;
+      setActivePlayback(null); setRecited(null); setSurahMode(false); currentRef.current = null;
+    };
+    const onError = () => { stopTicking(); if (audio.getAttribute("src")) setActivePlayback({ verseNumber: verse(), status: "error" }); };
+    audio.addEventListener("playing", onPlaying); audio.addEventListener("pause", onPause);
+    audio.addEventListener("ended", onEnded); audio.addEventListener("error", onError);
+    return () => {
+      audio.removeEventListener("playing", onPlaying); audio.removeEventListener("pause", onPause);
+      audio.removeEventListener("ended", onEnded); audio.removeEventListener("error", onError);
+    };
+  }, [surah.versesCount, tick]);
+
+  // Release audio when changing surah or leaving the page.
+  useEffect(() => () => {
+    sessionRef.current++; stopTicking();
+    audioRef.current?.pause(); audioRef.current?.removeAttribute("src");
+    currentRef.current = null; recitationsRef.current.clear(); surahFileRef.current = null; surahTimesRef.current = null;
+  }, [surah.id]);
+
+  const toggleAudio = useCallback((verse: Verse) => {
+    const audio = audioRef.current;
+    if (activePlayback?.verseNumber === verse.verseNumber && audio) {
+      if (activePlayback.status === "playing") { audio.pause(); return; }
+      if (activePlayback.status === "paused") { void audio.play(); return; }
+    }
+    void playVerse(verse.verseNumber, "verse");
+  }, [activePlayback, playVerse]);
+
+  const toggleSurah = () => {
+    const audio = audioRef.current;
+    if (surahMode && activePlayback && audio) {
+      if (activePlayback.status === "loading") { sessionRef.current++; setActivePlayback({ ...activePlayback, status: "paused" }); return; }
+      if (activePlayback.status === "playing") { audio.pause(); return; }
+      if (activePlayback.status === "paused") {
+        if (audio.getAttribute("src") && (surahTimesRef.current || currentRef.current?.verse === activePlayback.verseNumber)) void audio.play();
+        else void playSurah();
+        return;
+      }
+    }
+    void playSurah();
+  };
+  const surahStatus = surahMode ? activePlayback?.status ?? null : null;
+  const stopSurah = () => {
+    sessionRef.current++; stopTicking(); audioRef.current?.pause();
+    setActivePlayback(null); setRecited(null); setSurahMode(false); currentRef.current = null; surahTimesRef.current = null;
   };
 
   // Scroll to verse element smoothly
@@ -216,6 +367,13 @@ export function SurahReader({
           )}
         </div>
 
+        <button type="button" className={`quran-surah-play${surahStatus === "playing" ? " playing" : ""}`} onClick={toggleSurah}
+          aria-pressed={surahStatus === "playing"}>
+          {surahStatus === "loading" ? <Loader2 aria-hidden="true" className="quran-spin-icon" /> : surahStatus === "playing" ? <Pause aria-hidden="true" /> : <Play aria-hidden="true" />}
+          <span>{surahStatus === "playing" || surahStatus === "loading" ? dict.pauseSurah : surahStatus === "paused" ? dict.resumeSurah : dict.playSurah}</span>
+          {surahMode && activePlayback && <span className="quran-surah-play-verse">{dict.ayah} {activePlayback.verseNumber}</span>}
+        </button>
+
         {/* Bismillah: Shown according to source metadata (never before Surah 1 or 9) */}
         {surah.bismillahPre && (
           <div className="quran-bismillah-wrap" aria-label="Bismillah">
@@ -304,7 +462,9 @@ export function SurahReader({
               </div>
 
               <div className="quran-verse-ar" lang="ar" dir="rtl" translate="no">
-                {v.textUthmani}
+                {recited?.verse === v.verseNumber
+                  ? recited.words.map((w, i) => <span key={w.position}>{i > 0 && " "}<span className={`recited-word${w.position === recited.position ? " recited-word--now" : ""}`}>{w.text}</span></span>)
+                  : v.textUthmani}
               </div>
 
               {lang !== "ar" && (
@@ -320,6 +480,23 @@ export function SurahReader({
           );
         })}
       </section>
+
+      {/* While a surah plays the page scrolls with it, so its controls also float above the tab bar. */}
+      {surahMode && activePlayback && (
+        <div className="quran-surah-float" role="group" aria-label={surah.nameSimple}>
+          <button type="button" className="quran-surah-float-btn" onClick={toggleSurah}
+            aria-label={surahStatus === "playing" || surahStatus === "loading" ? dict.pauseSurah : dict.resumeSurah}>
+            {surahStatus === "loading" ? <Loader2 aria-hidden="true" className="quran-spin-icon" /> : surahStatus === "playing" ? <Pause aria-hidden="true" /> : <Play aria-hidden="true" />}
+          </button>
+          <span className="quran-surah-float-text">
+            <strong lang={lang === "ar" ? "ar" : undefined}>{lang === "ar" ? surah.nameArabic : surah.nameSimple}</strong>
+            <span>{dict.ayah} {activePlayback.verseNumber} / {surah.versesCount}</span>
+          </span>
+          <button type="button" className="quran-surah-float-close" onClick={stopSurah} aria-label={dict.stopSurah}>
+            <X aria-hidden="true" />
+          </button>
+        </div>
+      )}
 
       {/* Pagination / Load more control */}
       {pagination.nextPage && (
