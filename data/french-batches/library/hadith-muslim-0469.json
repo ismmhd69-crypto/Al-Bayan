@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0469",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:30:37.708Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "290720f9-6bf3-48c1-b513-b88567156e88",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1089a",
+      "reference": "Sahih Muslim, hadith 1089 a, book 13, باب بَيَانِ مَعْنَى قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ شَهْرَا عِيدٍ لَا يَنْقُصَانِ",
+      "title": "باب بَيَانِ مَعْنَى قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ شَهْرَا عِيدٍ لَا يَنْقُصَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ أَخْبَرَنَا يَزِيدُ بْنُ زُرَيْعٍ، عَنْ خَالِدٍ، عَنْ عَبْدِ الرَّحْمَنِ، بْنِ أَبِي بَكْرَةَ عَنْ أَبِيهِ، - رضى الله عنه - عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ شَهْرَا عِيدٍ لاَ يَنْقُصَانِ رَمَضَانُ وَذُو الْحِجَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a8ca65f1b9fff5d126d82db29c13e90848f96bcc228cf9a81a797ca08298011e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Yazid ibn Zuray‘ nous a informés, d’après Khalid, d’après ‘Abd al-Rahman ibn Abi Bakra, d’après son père, qu’Allah l’agrée, d’après le Prophète ﷺ, qui a dit : « Les deux mois des fêtes ne sont pas incomplets : Ramadan et Dhu al-Hijja. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eec46c19-338d-4ca9-b260-3be4fd1839e4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1089b",
+      "reference": "Sahih Muslim, hadith 1089 b, book 13, باب بَيَانِ مَعْنَى قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ شَهْرَا عِيدٍ لَا يَنْقُصَانِ",
+      "title": "باب بَيَانِ مَعْنَى قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ شَهْرَا عِيدٍ لَا يَنْقُصَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، قَالَ حَدَّثَنَا مُعْتَمِرُ بْنُ سُلَيْمَانَ، عَنْ إِسْحَاقَ بْنِ سُوَيْدٍ، وَخَالِدٍ عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرَةَ، عَنْ أَبِي بَكْرَةَ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ شَهْرَا عِيدٍ لاَ يَنْقُصَانِ ‏\"‏ ‏.‏ فِي حَدِيثِ خَالِدٍ ‏\"‏ شَهْرَا عِيدٍ رَمَضَانُ وَذُو الْحِجَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "51ff18c1d8129b18a83371d48c5d9d127efd46e365f82d2dabf585804375ede4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Mu‘tamir ibn Sulayman nous a rapporté, d’après Ishaq ibn Suwayd et Khalid, d’après ‘Abd al-Rahman ibn Abi Bakra, d’après Abu Bakra, que le Prophète d’Allah ﷺ a dit : « Les deux mois des fêtes ne sont pas incomplets. » Dans la version de Khalid, il est précisé : « Les deux mois des fêtes sont Ramadan et Dhu al-Hijja. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f634d832-cdd7-4f62-bc04-147aa6241a54",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1090",
+      "reference": "Sahih Muslim, hadith 1090, book 13, بَاب بَيَانِ أَنَّ الدُّخُولَ فِي الصَّوْمِ يَحْصُلُ بِطُلُوعِ الْفَجْرِ وَأَنَّ لَهُ الْأَكْلَ وَغَيْرَهُ حَتَّى يَطْلُعَ الْفَجْرُ وَبَيَانِ صِفَةِ الْفَجْرِ الَّذِي تَتَعَلَّقُ بِهِ الْأَحْكَامُ مِنْ الدُّخُولِ فِي الصَّوْمِ وَدُخُولِ وَقْتِ صَلَاةِ الصُّبْحِ وَغَيْرِ ذَلِكَ",
+      "title": "بَاب بَيَانِ أَنَّ الدُّخُولَ فِي الصَّوْمِ يَحْصُلُ بِطُلُوعِ الْفَجْرِ وَأَنَّ لَهُ الْأَكْلَ وَغَيْرَهُ حَتَّى يَطْلُعَ الْفَجْرُ وَبَيَانِ صِفَةِ الْفَجْرِ الَّذِي تَتَعَلَّقُ بِهِ الْأَحْكَامُ مِنْ الدُّخُولِ فِي الصَّوْمِ وَدُخُولِ وَقْتِ صَلَاةِ الصُّبْحِ وَغَيْرِ ذَلِكَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، عَنْ حُصَيْنٍ، عَنِ الشَّعْبِيِّ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، - رضى الله عنه - قَالَ لَمَّا نَزَلَتْ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"]{‏ حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ‏}‏ قَالَ لَهُ عَدِيُّ بْنُ حَاتِمٍ يَا رَسُولَ اللَّهِ إِنِّي أَجْعَلُ تَحْتَ وِسَادَتِي عِقَالَيْنِ عِقَالاً أَبْيَضَ وَعِقَالاً أَسْوَدَ أَعْرِفُ اللَّيْلَ مِنَ النَّهَارِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ وِسَادَتَكَ لَعَرِيضٌ إِنَّمَا هُوَ سَوَادُ اللَّيْلِ وَبَيَاضُ النَّهَارِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4c63457c453492f440965199e4f8b343b3b568729b4c48ca2ccb6768f4527168",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3c445a93-2e04-4816-b6b4-eb2657cc6b02",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1091a",
+      "reference": "Sahih Muslim, hadith 1091 a, book 13, بَاب بَيَانِ أَنَّ الدُّخُولَ فِي الصَّوْمِ يَحْصُلُ بِطُلُوعِ الْفَجْرِ وَأَنَّ لَهُ الْأَكْلَ وَغَيْرَهُ حَتَّى يَطْلُعَ الْفَجْرُ وَبَيَانِ صِفَةِ الْفَجْرِ الَّذِي تَتَعَلَّقُ بِهِ الْأَحْكَامُ مِنْ الدُّخُولِ فِي الصَّوْمِ وَدُخُولِ وَقْتِ صَلَاةِ الصُّبْحِ وَغَيْرِ ذَلِكَ",
+      "title": "بَاب بَيَانِ أَنَّ الدُّخُولَ فِي الصَّوْمِ يَحْصُلُ بِطُلُوعِ الْفَجْرِ وَأَنَّ لَهُ الْأَكْلَ وَغَيْرَهُ حَتَّى يَطْلُعَ الْفَجْرُ وَبَيَانِ صِفَةِ الْفَجْرِ الَّذِي تَتَعَلَّقُ بِهِ الْأَحْكَامُ مِنْ الدُّخُولِ فِي الصَّوْمِ وَدُخُولِ وَقْتِ صَلَاةِ الصُّبْحِ وَغَيْرِ ذَلِكَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ الْقَوَارِيرِيُّ، حَدَّثَنَا فُضَيْلُ بْنُ سُلَيْمَانَ، حَدَّثَنَا أَبُو حَازِمٍ، حَدَّثَنَا سَهْلُ بْنُ سَعْدٍ، قَالَ لَمَّا نَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"]{‏ وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ‏}‏ قَالَ كَانَ الرَّجُلُ يَأْخُذُ خَيْطًا أَبْيَضَ وَخَيْطًا أَسْوَدَ فَيَأْكُلُ حَتَّى يَسْتَبِينَهُمَا حَتَّى أَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"]{‏ مِنَ الْفَجْرِ‏}‏ فَبَيَّنَ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "4d86aa8d5bd34896063ce5985ec47dc73b63f48693ac50c93481e83758f95149",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f1d8a2bb-ee5a-46e4-9bc8-4a29be1a0a84",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1091b",
+      "reference": "Sahih Muslim, hadith 1091 b, book 13, بَاب بَيَانِ أَنَّ الدُّخُولَ فِي الصَّوْمِ يَحْصُلُ بِطُلُوعِ الْفَجْرِ وَأَنَّ لَهُ الْأَكْلَ وَغَيْرَهُ حَتَّى يَطْلُعَ الْفَجْرُ وَبَيَانِ صِفَةِ الْفَجْرِ الَّذِي تَتَعَلَّقُ بِهِ الْأَحْكَامُ مِنْ الدُّخُولِ فِي الصَّوْمِ وَدُخُولِ وَقْتِ صَلَاةِ الصُّبْحِ وَغَيْرِ ذَلِكَ",
+      "title": "بَاب بَيَانِ أَنَّ الدُّخُولَ فِي الصَّوْمِ يَحْصُلُ بِطُلُوعِ الْفَجْرِ وَأَنَّ لَهُ الْأَكْلَ وَغَيْرَهُ حَتَّى يَطْلُعَ الْفَجْرُ وَبَيَانِ صِفَةِ الْفَجْرِ الَّذِي تَتَعَلَّقُ بِهِ الْأَحْكَامُ مِنْ الدُّخُولِ فِي الصَّوْمِ وَدُخُولِ وَقْتِ صَلَاةِ الصُّبْحِ وَغَيْرِ ذَلِكَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ سَهْلٍ التَّمِيمِيُّ، وَأَبُو بَكْرِ بْنُ إِسْحَاقَ قَالاَ حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، أَخْبَرَنَا أَبُو غَسَّانَ، حَدَّثَنِي أَبُو حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ، - رضى الله عنه - قَالَ لَمَّا نَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"]{‏ وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ‏}‏ قَالَ فَكَانَ الرَّجُلُ إِذَا أَرَادَ الصَّوْمَ رَبَطَ أَحَدُهُمْ فِي رِجْلَيْهِ الْخَيْطَ الأَسْوَدَ وَالْخَيْطَ الأَبْيَضَ فَلاَ يَزَالُ يَأْكُلُ وَيَشْرَبُ حَتَّى يَتَبَيَّنَ لَهُ رِئْيُهُمَا فَأَنْزَلَ اللَّهُ بَعْدَ ذَلِكَ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"]{‏ مِنَ الْفَجْرِ‏}‏ فَعَلِمُوا أَنَّمَا يَعْنِي بِذَلِكَ اللَّيْلَ وَالنَّهَارَ ‏.‏",
+      "source_hash_sha256": "5b65b52ba295b90d6506bde1e449190e9dde104040bda62cb7e11c9677b0d613",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dc0c9b5a-7142-4d88-bf8a-c269b00f06ad",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1092a",
+      "reference": "Sahih Muslim, hadith 1092 a, book 13, بَاب بَيَانِ أَنَّ الدُّخُولَ فِي الصَّوْمِ يَحْصُلُ بِطُلُوعِ الْفَجْرِ وَأَنَّ لَهُ الْأَكْلَ وَغَيْرَهُ حَتَّى يَطْلُعَ الْفَجْرُ وَبَيَانِ صِفَةِ الْفَجْرِ الَّذِي تَتَعَلَّقُ بِهِ الْأَحْكَامُ مِنْ الدُّخُولِ فِي الصَّوْمِ وَدُخُولِ وَقْتِ صَلَاةِ الصُّبْحِ وَغَيْرِ ذَلِكَ",
+      "title": "بَاب بَيَانِ أَنَّ الدُّخُولَ فِي الصَّوْمِ يَحْصُلُ بِطُلُوعِ الْفَجْرِ وَأَنَّ لَهُ الْأَكْلَ وَغَيْرَهُ حَتَّى يَطْلُعَ الْفَجْرُ وَبَيَانِ صِفَةِ الْفَجْرِ الَّذِي تَتَعَلَّقُ بِهِ الْأَحْكَامُ مِنْ الدُّخُولِ فِي الصَّوْمِ وَدُخُولِ وَقْتِ صَلَاةِ الصُّبْحِ وَغَيْرِ ذَلِكَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَمُحَمَّدُ بْنُ رُمْحٍ، قَالاَ أَخْبَرَنَا اللَّيْثُ، ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ، سَعِيدٍ حَدَّثَنَا لَيْثٌ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، عَنْ عَبْدِ اللَّهِ، - رضى الله عنه - عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنَّ بِلاَلاً يُؤَذِّنُ بِلَيْلٍ فَكُلُوا وَاشْرَبُوا حَتَّى تَسْمَعُوا تَأْذِينَ ابْنِ أُمِّ مَكْتُومٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "91c102758e18e4392fe9844177071dc1e97fb2b979d3a7a986877db30f247182",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya et Muhammad ibn Rumh nous ont rapporté : al-Layth nous a informés. H. Qutayba ibn Sa‘id nous a rapporté : Layth nous a rapporté, d’après Ibn Shihab, d’après Salim ibn ‘Abd Allah, d’après ‘Abd Allah, qu’Allah l’agrée, d’après le Messager d’Allah ﷺ, qui a dit : « Bilal lance l’appel à la prière pendant la nuit. Mangez et buvez jusqu’à ce que vous entendiez l’appel d’Ibn Umm Maktum. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f634d832-cdd7-4f62-bc04-147aa6241a54",
+      "reason": "La source contient une citation directe du Coran (2:187). Garder l’intégralité du champ français vide conformément à la règle applicable aux citations coraniques."
+    },
+    {
+      "source_id": "3c445a93-2e04-4816-b6b4-eb2657cc6b02",
+      "reason": "La source contient une citation directe du Coran (2:187). Garder l’intégralité du champ français vide conformément à la règle applicable aux citations coraniques."
+    },
+    {
+      "source_id": "f1d8a2bb-ee5a-46e4-9bc8-4a29be1a0a84",
+      "reason": "La source contient une citation directe du Coran (2:187). Garder l’intégralité du champ français vide conformément à la règle applicable aux citations coraniques."
+    }
+  ]
+}
