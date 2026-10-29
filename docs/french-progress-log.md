@@ -8061,3 +8061,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0187 saves one private French draft containing Aïcha’s statement about women attending the mosque. Muslim 445b and 447b are incomplete cross-references and remain blank under Needs Mo. Muslim 446 and 447a quote Quran 17:110; Muslim 448a quotes Quran 75:16–19. Their full French texts remain blank pending approved, attributed French Quran translations with permitted use.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 763 Muslim drafts, 7,099 total hadith drafts, 7,530 remaining, and 366 Needs Mo items.
+
+### 2026-10-29: Muslim 448b–450d
+
+- FR-LIB-HAD-MUSLIM-0188 saves two private French drafts: the report of Ibn Mas‘ud and the jinn, and his short statement wishing he had been present. Muslim 448b and 449 quote Quran passages and remain blank pending an approved, attributed French Quran translation with permitted use. Muslim 450b and 450c are incomplete variants and remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 765 Muslim drafts, 7,101 total hadith drafts, 7,528 remaining, and 370 Needs Mo items.
