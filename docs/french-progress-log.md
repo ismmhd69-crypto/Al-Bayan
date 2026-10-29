@@ -10011,3 +10011,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0576 saves six private French drafts about shaving, sharing the hair, and the order of pilgrimage rites. The separate source versions and their differences are retained.
 - The exporter still reports long source 522deaf7-d1e2-48eb-8a7c-7e7e4e615ae3 for isolated handling. All six exported source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1306c–1306h
+
+- FR-LIB-HAD-MUSLIM-0577 saves three private French drafts about the order of the pilgrimage rites. Muslim 1306c, 1306e and 1306g refer to earlier reports without repeating their full contents; all three remain blank under Needs Mo.
+- The exporter still reports long source 522deaf7-d1e2-48eb-8a7c-7e7e4e615ae3 for isolated handling. All six exported source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

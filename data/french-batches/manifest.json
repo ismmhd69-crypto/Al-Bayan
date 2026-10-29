@@ -40934,6 +40934,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0577",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0577.json",
+      "sourceIds": [
+        "9062792f-e312-4f9f-8328-545539ee26eb",
+        "65d20d11-7f00-491a-91c2-b157efe2a02e",
+        "c510fe1d-9d5c-4c78-88f4-167b326a417f",
+        "e8e17a48-c207-4714-bd80-0f589cba2437",
+        "dd504749-9a68-407b-9f18-02b7958d6fde",
+        "f1cb9c57-4e1c-41c4-ae6d-941e99b138e9"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, three incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed. One long source remains deferred.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45241,8 +45262,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8629,
-  "hadithLocalRemaining": 6000,
+  "hadithLocalDrafted": 8632,
+  "hadithLocalRemaining": 5997,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48889,10 +48910,25 @@
       "source_id": "bb0d6669-580d-415d-b224-51795d3204e7",
       "reason": "La source renvoie uniquement au sens du récit d’Abu Zur’a d’après Abu Hurayra sans reproduire son contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "9062792f-e312-4f9f-8328-545539ee26eb",
+      "reason": "La source renvoie au récit précédent (« jusqu’à la fin ») sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c510fe1d-9d5c-4c78-88f4-167b326a417f",
+      "reason": "La source renvoie au récit précédent et ne donne que des variations de chaîne ou de détails, sans reprendre le contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "dd504749-9a68-407b-9f18-02b7958d6fde",
+      "reason": "La source indique seulement qu’un récit est transmis « dans le même sens » que le précédent, sans reprendre son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2293,
+  "hadithMuslimDrafted": 2296,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1022
+  "hadithNeedsMo": 1025
 }
