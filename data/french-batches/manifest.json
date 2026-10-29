@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4783,
+    "hadithBukhariDrafted": 4788,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4783,
+    "hadithLocalDrafted": 4788,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9846,
-    "hadithNeedsMo": 746,
+    "hadithLocalRemaining": 9841,
+    "hadithNeedsMo": 747,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -22305,6 +22305,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1044",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1044.json",
+      "sourceIds": [
+        "cb21442b-063c-4914-8b25-3a1e29128757",
+        "02eddeb0-6abe-4a4c-956d-30617b6ad189",
+        "21bbcd95-f5ec-4a9d-859b-d3928193e26b",
+        "fb973fd5-cc52-4371-8daa-76cf81a904bb",
+        "297dc011-ecf8-4895-887b-c9622831ad43",
+        "392b3f9a-32cb-460b-a625-31146ff2efce"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -25348,6 +25369,12 @@
       "scope": "Sahih al-Bukhari 5732: corrupted Arabic opening phrase",
       "status": "blocked",
       "reason": "The exported Arabic opening phrase is unclear (يحيى بما مات). Keep the complete item blank until the source wording is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-5749-QURAN-1-2",
+      "scope": "Sahih al-Bukhari 5749: direct quotation of Quran 1:2",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 1:2. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

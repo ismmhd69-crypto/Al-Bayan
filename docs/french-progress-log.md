@@ -5346,3 +5346,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1043 saves six private French drafts, preserving the alternate transmission of the healing supplication.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,783 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 746. Total local hadith rows not drafted: 9,846, including held records.
+
+
+### 2026-10-29: Bukhari 5748–5753
+
+- FR-LIB-HAD-BUKHARI-1044 saves five private French drafts. Hadith 5749 remains blank because it directly quotes Quran 1:2; it is flagged for Mo pending an approved attributed French Quran translation and permitted-use confirmation.
+- The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,788 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 747. Total local hadith rows not drafted: 9,841, including held records.
