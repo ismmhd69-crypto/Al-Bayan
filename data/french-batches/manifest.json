@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5287,
+    "hadithBukhariDrafted": 5291,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5287,
+    "hadithLocalDrafted": 5291,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9340,
-    "hadithNeedsMo": 773,
+    "hadithLocalRemaining": 9336,
+    "hadithNeedsMo": 775,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24594,6 +24594,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1160",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1160.json",
+      "sourceIds": [
+        "d51cba7c-6942-4a7d-99c9-cce42f87cbd9",
+        "1231c09b-7bef-4e26-9c7e-8edd1fd73154",
+        "3bb493ba-b1d4-4bcd-b4dd-0ae5e9dfb27a",
+        "eb7a2c36-5cf1-47a9-bec1-c753cc9953fb",
+        "a9d0bf49-d37b-408f-a95d-bd62d111c1a0",
+        "69121639-ffd4-4df8-a63d-e81762849e70"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four records passed the focused validator. Bukhari 6315 was held because it quotes a Quranic word in its commentary; 6316 was held because its text ends with an unfinished list. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -27835,6 +27856,18 @@
       "scope": "Sahih al-Bukhari 6278 direct quotation of Quran 92:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 92:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6315-QURAN-WORD",
+      "scope": "Sahih al-Bukhari 6315 commentary quotes Quranic word استرهبوهم",
+      "status": "blocked",
+      "reason": "The record includes a Quranic word and explanatory commentary. Keep the complete translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6316-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 6316 ends with unspecified two additional qualities",
+      "status": "blocked",
+      "reason": "The source ends with the unfinished phrase وذكر خصلتين without identifying the two qualities. Keep the whole item blank until a complete source is confirmed."
     }
   ]
 }
