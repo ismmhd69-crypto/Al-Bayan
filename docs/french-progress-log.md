@@ -11470,3 +11470,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1852a-1854b
 
 - FR-LIB-HAD-MUSLIM-0877 saves six private French drafts about community unity and disagreement with rulers. The different wording versions are retained, including “strike him” versus “kill him.” No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1854c-1856a
+
+- FR-LIB-HAD-MUSLIM-0878 saves five private French drafts about disagreement with rulers, prayer, and the pledge at al-Hudaybiya. Wording reversals and an omitted phrase are preserved. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No Quran verse is quoted. No database write or publication occurred.
