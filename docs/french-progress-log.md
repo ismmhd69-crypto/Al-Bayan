@@ -12551,3 +12551,6 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2484c
 
 - FR-LIB-HAD-MUSLIM-1152 saves the complete long report about Abdullah ibn Salam’s dream as a private French draft. No database write or publication occurred.
+### 2026-10-30: Muslim 2485a-2487a
+
+- FR-LIB-HAD-MUSLIM-1153 saves three complete reports as private French drafts. Three transmission-only variants remain blank with specific Needs Mo reasons. No database write or publication occurred.

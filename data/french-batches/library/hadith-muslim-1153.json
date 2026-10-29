@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-1153",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:26:51.740Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "aa60a77b-fc21-42db-bd8c-dd77e71d5981",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2485a",
+      "reference": "Sahih Muslim, hadith 2485 a, book 44, باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "title": "باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ أَبِي عُمَرَ، كُلُّهُمْ عَنْ سُفْيَانَ، قَالَ عَمْرٌو حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ عُمَرَ، مَرَّ بِحَسَّانَ وَهُوَ يُنْشِدُ الشِّعْرَ فِي الْمَسْجِدِ فَلَحَظَ إِلَيْهِ فَقَالَ قَدْ كُنْتُ أُنْشِدُ وَفِيهِ مَنْ هُوَ خَيْرٌ مِنْكَ ‏.‏ ثُمَّ الْتَفَتَ إِلَى أَبِي هُرَيْرَةَ فَقَالَ أَنْشُدُكَ اللَّهَ أَسَمِعْتَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ أَجِبْ عَنِّي اللَّهُمَّ أَيِّدْهُ بِرُوحِ الْقُدُسِ ‏\"‏ ‏.‏ قَالَ اللَّهُمَّ نَعَمْ ‏.‏",
+      "source_hash_sha256": "443ccbe575c6ab12fe61111e84fa0acd871f1bb8ddabdf50c379673f9ee14145",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte qu’Umar passa près de Hassan alors qu’il récitait des vers dans la mosquée. Umar le regarda d’un air désapprobateur. Hassan lui dit : « J’y récitais des vers alors qu’il s’y trouvait quelqu’un de meilleur que toi. » Puis il se tourna vers Abû Hurayra et lui dit : « Je t’adjure par Allah : as-tu entendu le Messager d’Allah ﷺ dire : “Réponds en mon nom. Ô Allah, soutiens-le par l’Esprit saint” ? » Abû Hurayra répondit : « Oui, par Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "81ed2f7e-807f-4b77-b2df-db0954c038d8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2485b",
+      "reference": "Sahih Muslim, hadith 2485 b, book 44, باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "title": "باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَمُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، عَنْ عَبْدِ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنِ ابْنِ الْمُسَيَّبِ، أَنَّ حَسَّانَ، قَالَ فِي حَلْقَةٍ فِيهِمْ أَبُو هُرَيْرَةَ أَنْشُدُكَ اللَّهَ يَا أَبَا هُرَيْرَةَ أَسَمِعْتَ رَسُولَ اللَّهِ صلى الله عليه وسلم ‏.‏ فَذَكَرَ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "9b8d730d191645eeda9a472be07fca93cd466ef6244295c816d479f248fdfa30",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dada3a3b-2fc4-4774-a09f-2e402e5f825a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2485c",
+      "reference": "Sahih Muslim, hadith 2485 c, book 44, باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "title": "باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، أَخْبَرَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، أَخْبَرَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّهُ سَمِعَ حَسَّانَ بْنَ ثَابِتٍ الأَنْصَارِيَّ، يَسْتَشْهِدُ أَبَا هُرَيْرَةَ أَنْشُدُكَ اللَّهَ هَلْ سَمِعْتَ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ يَا حَسَّانُ أَجِبْ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم اللَّهُمَّ أَيِّدْهُ بِرُوحِ الْقُدُسِ ‏\"‏ ‏.‏ قَالَ أَبُو هُرَيْرَةَ نَعَمْ ‏.‏",
+      "source_hash_sha256": "f759babbc6d130e999b9e0684886e510bf83a414ed8516c47bdde28c18e289ba",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7140f6bc-c854-4f31-be81-dfb141f930a8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2486a",
+      "reference": "Sahih Muslim, hadith 2486 a, book 44, باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "title": "باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ عَدِيٍّ، - وَهُوَ ابْنُ ثَابِتٍ - قَالَ سَمِعْتُ الْبَرَاءَ بْنَ عَازِبٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ لِحَسَّانَ بْنِ ثَابِتٍ ‏\"‏ اهْجُهُمْ أَوْ هَاجِهِمْ وَجِبْرِيلُ مَعَكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a1c2bd5b898f1645cebdc91662a3c4fa95ec100aa86f30f9f1015d7491354761",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Bara ibn Azib dit : « J’ai entendu le Messager d’Allah ﷺ dire à Hassan ibn Thabit : “Réponds à leurs attaques en vers — ou compose des vers contre eux — et Gabriel est avec toi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5a0a7d21-8167-459a-a04e-c7a4bfe34263",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2486b",
+      "reference": "Sahih Muslim, hadith 2486 b, book 44, باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "title": "باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، ح وَحَدَّثَنِي أَبُو بَكْرِ بْنُ نَافِعٍ، حَدَّثَنَا غُنْدَرٌ، ح وَحَدَّثَنَا ابْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، وَعَبْدُ الرَّحْمَنِ، كُلُّهُمْ عَنْ شُعْبَةَ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "e10222d7583cad21748998a534623ef606c9a888adf3033eb95010ae5ee41aae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eb1b2b05-8e7d-408d-8267-95058a7a609a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2487a",
+      "reference": "Sahih Muslim, hadith 2487 a, book 44, باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "title": "باب فَضَائِلِ حَسَّانَ بْنِ ثَابِتٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، أَنَّ حَسَّانَ بْنَ ثَابِتٍ، كَانَ مِمَّنْ كَثَّرَ عَلَى عَائِشَةَ فَسَبَبْتُهُ فَقَالَتْ يَا ابْنَ أُخْتِي دَعْهُ فَإِنَّهُ كَانَ يُنَافِحُ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "5510091c4ec907a3ead59e9a9bb92b76cb241e62ff78a7441a28f3d7a8d6a3ef",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha dit : « Hassan ibn Thabit faisait partie de ceux qui s’en étaient pris à moi. Je l’insultai, mais elle me dit : “Mon neveu, laisse-le : il défendait le Messager d’Allah ﷺ.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "81ed2f7e-807f-4b77-b2df-db0954c038d8",
+      "reason": "Cette entrée ne rapporte qu’une variante de transmission renvoyant au récit précédent, sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source entière."
+    },
+    {
+      "source_id": "dada3a3b-2fc4-4774-a09f-2e402e5f825a",
+      "reason": "Cette entrée ne rapporte qu’une variante de transmission renvoyant au récit précédent, sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source entière."
+    },
+    {
+      "source_id": "5a0a7d21-8167-459a-a04e-c7a4bfe34263",
+      "reason": "Cette entrée ne rapporte qu’une variante de transmission renvoyant au récit précédent, sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source entière."
+    }
+  ]
+}
