@@ -2401,3 +2401,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-497` saves six private French drafts about humble service, Uhud, Medina’s protected area, fasting during travel, everyday charity and guard duty.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,604 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 168. Total local hadith rows not drafted: 12,051, including held records.
+
+### 2026-10-29: Bukhari 2893–2899 source review
+
+- `FR-LIB-HAD-BUKHARI-498` saves six private French drafts about the journey to Khaybar, Umm Harâm, the value of the vulnerable, later generations, a battle report and archery.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,610 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 168. Total local hadith rows not drafted: 12,045, including held records.
