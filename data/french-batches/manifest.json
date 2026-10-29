@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:25:53.361Z",
+  "lastReconciled": "2026-10-29T14:26:22.645Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 372,
+    "hadithMuslimDrafted": 373,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6708,
-    "hadithDatabaseMissing": 7921,
-    "hadithLocalRemaining": 7921,
+    "hadithLocalDrafted": 6709,
+    "hadithDatabaseMissing": 7920,
+    "hadithLocalRemaining": 7920,
     "hadithNeedsMo": 225,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -30963,6 +30963,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0094",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0094.json",
+      "sourceIds": [
+        "a9ca482d-db7f-468c-96cf-2a546d635bb2"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; single-item long-text rule passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35174,8 +35190,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6708,
-  "hadithLocalRemaining": 7921,
+  "hadithLocalDrafted": 6709,
+  "hadithLocalRemaining": 7920,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36528,8 +36544,8 @@
       "reason": "Ce récit cite directement les versets 3:192 et 32:20 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 372,
-  "hadithDatabaseMissing": 7921,
+  "hadithMuslimDrafted": 373,
+  "hadithDatabaseMissing": 7920,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 225
 }

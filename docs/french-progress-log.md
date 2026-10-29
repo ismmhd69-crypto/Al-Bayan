@@ -7573,3 +7573,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0093 saves a complete private French draft of the 4,018-character intercession report. It preserves the narrator chain, three faith thresholds, the later meeting with al-Hasan, and the fourth request.
 - The source hash and focused validator are retained; the single-item long-text rule passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 368 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 7,922, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 194a
+
+- FR-LIB-HAD-MUSLIM-0094 saves one complete private French draft of the 4,340-character report, preserving the appeal sequence, each prophet’s reply, and the alternative measurements at the end.
+- The source hash and focused validator are retained; the single-item long-text rule passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 369 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 7,921, including held records. No database writes or publication occurred.
