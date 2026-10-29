@@ -5696,3 +5696,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1110 saves six private French drafts about honesty, conduct, and patience.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,102 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 764. Total local hadith rows not drafted: 9,527, including held records.
+
+### 2026-10-29: Bukhari 6101–6105
+
+- FR-LIB-HAD-BUKHARI-1111 saves five private French drafts about religious scruple, respect, and the seriousness of accusations. Bukhari 6106 was separated for a Quran-quotation hold.
+- All five records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,107 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 764. Total local hadith rows not drafted: 9,522, including held records.
