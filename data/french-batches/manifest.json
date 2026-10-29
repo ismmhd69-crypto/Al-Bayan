@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6149,
+    "hadithBukhariDrafted": 6154,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6149,
+    "hadithLocalDrafted": 6154,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8480,
-    "hadithNeedsMo": 118,
+    "hadithLocalRemaining": 8475,
+    "hadithNeedsMo": 119,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28167,6 +28167,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1335",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1335.json",
+      "sourceIds": [
+        "834513c1-b6c6-4f49-9f22-763685f15b5d",
+        "4d5dcebc-9613-4fd6-9def-24c2f28350fd",
+        "87dc5f5c-9e86-445a-9259-cbc467fa9567",
+        "c4131ef0-c6e6-439e-9fd4-42ccfc8f9802",
+        "3b57cb4c-2944-4329-983e-0e64ff08a4a6",
+        "4ebfa3b6-7bd6-4cab-b341-d681cc5b6157"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "five complete drafts and one Quran-quotation hold; source hashes retained; narrator sequence and stated qualifications preserved; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31733,11 +31754,17 @@
       "scope": "Sahih al-Bukhari 7305: long report with direct quotation of Quran 59:6",
       "status": "blocked",
       "reason": "The long report directly quotes Quran 59:6. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7313-QURAN-6-65",
+      "scope": "Sahih al-Bukhari 7313: direct quotations of Quran 6:65",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:65. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6149,
-  "hadithLocalDrafted": 6149,
-  "hadithLocalRemaining": 8480,
+  "hadithBukhariDrafted": 6154,
+  "hadithLocalDrafted": 6154,
+  "hadithLocalRemaining": 8475,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -32446,6 +32473,12 @@
       "scope": "Sahih al-Bukhari 7305: long report with direct quotation of Quran 59:6",
       "status": "blocked",
       "reason": "The long report directly quotes Quran 59:6. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7313-QURAN-6-65",
+      "scope": "Sahih al-Bukhari 7313: direct quotations of Quran 6:65",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:65. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
   "hadithMuslimDrafted": 0
