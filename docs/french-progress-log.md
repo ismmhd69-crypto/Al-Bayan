@@ -11798,3 +11798,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2033c-2035a
 
 - FR-LIB-HAD-MUSLIM-0959 saves three complete private French drafts about fallen food and the blessing in a meal. Three incomplete or referential variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2036a-2038a
+
+- FR-LIB-HAD-MUSLIM-0960 saves three complete private French drafts about meal invitations, an uninvited guest, and hospitality. Three entries that refer to earlier reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
