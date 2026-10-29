@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:10:07.188Z",
+  "lastReconciled": "2026-10-29T14:10:33.215Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 253,
+    "hadithMuslimDrafted": 257,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6589,
-    "hadithDatabaseMissing": 8040,
-    "hadithLocalRemaining": 8040,
-    "hadithNeedsMo": 190,
+    "hadithLocalDrafted": 6593,
+    "hadithDatabaseMissing": 8036,
+    "hadithLocalRemaining": 8036,
+    "hadithNeedsMo": 192,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30239,6 +30239,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0056",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0056.json",
+      "sourceIds": [
+        "eeeb1dfe-236b-4d4e-b323-fb6c189e856a",
+        "a8e98c45-1c98-4bdf-9e18-ce25223fadd1",
+        "56d67c3c-9779-4873-bfa8-429b82ae10c1",
+        "5a8b675e-41ae-48db-a573-1caf6ef3d0c6",
+        "f1ecf88b-f36b-47ea-b2d2-13a7b4b16084",
+        "df60b502-cce7-441f-af7a-8fff7dda401c"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotations retained in Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34237,11 +34258,23 @@
       "scope": "Sahih Muslim 126: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement plusieurs passages du Coran, notamment 2:284 et 2:286. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-138A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 138 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 3:77 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-138C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 138 c: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 3:77 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6589,
-  "hadithLocalRemaining": 8040,
+  "hadithLocalDrafted": 6593,
+  "hadithLocalRemaining": 8036,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -35382,10 +35415,22 @@
       "scope": "Sahih Muslim 126: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement plusieurs passages du Coran, notamment 2:284 et 2:286. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-138A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 138 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 3:77 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-138C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 138 c: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 3:77 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 253,
-  "hadithDatabaseMissing": 8040,
+  "hadithMuslimDrafted": 257,
+  "hadithDatabaseMissing": 8036,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 190
+  "hadithNeedsMo": 192
 }
