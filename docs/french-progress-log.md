@@ -7776,3 +7776,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0130 saves six private French drafts on marital intimacy during menstruation and acts during retreat in the mosque.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 538 Muslim drafts, 6,874 total hadith drafts, 7,755 remaining, and 269 Needs Mo items.
+
+### 2026-10-29: Muslim 297d–300
+
+- FR-LIB-HAD-MUSLIM-0131 saves six private French drafts about Aïcha washing and combing the Prophet’s hair, handing items to him from the mosque, and sharing a vessel and food while menstruating. The reports’ full narrator chains and wording differences are retained.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 544 Muslim drafts, 6,880 total hadith drafts, 7,749 remaining, and 269 Needs Mo items.
