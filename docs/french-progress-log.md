@@ -7558,3 +7558,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0090 saves 4 private French drafts. Hadith 191a has a source gap in its opening phrase, and 191e quotes Quran 3:192 and 32:20; both remain blank under Needs Mo.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 363 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 7,927, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 193a
+
+- FR-LIB-HAD-MUSLIM-0091 saves a complete private French draft of the 2,802-character intercession report, preserving the named prophets, repeated rounds of intercession, and the narrator’s uncertainty about which round is described.
+- The source hash and focused validator are retained; the single-item long-text rule passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 364 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 7,926, including held records. No database writes or publication occurred.
