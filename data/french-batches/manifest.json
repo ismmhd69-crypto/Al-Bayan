@@ -21265,6 +21265,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-994",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-994.json",
+      "sourceIds": [
+        "f968da1a-c4be-4501-8437-259f3d8120c0",
+        "8efb18e5-1eca-47cd-b760-479f4e74b649",
+        "063fe164-fe59-41f1-998e-3da6c4989b0c",
+        "cabf90e1-9e5d-4984-a3d9-3fc292b5c942",
+        "320761f8-facc-4f17-a624-2db67515015a",
+        "47780dc4-1d0f-44ca-9b99-d74fb10a9234"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -24263,7 +24284,7 @@
       "reason": "The excerpt records only the start of a journey and omits the report. Keep the translation blank until a complete source is available."
     }
   ],
-  "hadithBukhariDrafted": 4482,
-  "hadithLocalDrafted": 4482,
-  "hadithLocalRemaining": 10185
+  "hadithBukhariDrafted": 4488,
+  "hadithLocalDrafted": 4488,
+  "hadithLocalRemaining": 10179
 }
