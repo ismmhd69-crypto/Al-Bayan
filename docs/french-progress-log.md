@@ -844,3 +844,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-166` saves five private French drafts for Bukhari 932–935 and 937. Bukhari 936 remains blank under Needs Mo because it quotes Quran 62:11 and no approved, attributed French Quran translation is available.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 871 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 44. Total local hadith rows not drafted: 13,758, including held records.
+### 2026-10-29: Bukhari 938–943 source review
+
+- `FR-LIB-HAD-BUKHARI-167` saves six private French drafts for Bukhari 938–943. I checked the unusual location phrase in Bukhari 938 against the source page and translated it as the edges of streams in the woman’s farm. The remaining reports cover Friday meals and rest, the prayer in fear, and prayer on foot or while mounted.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 877 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 44. Total local hadith rows not drafted: 13,752, including held records.
