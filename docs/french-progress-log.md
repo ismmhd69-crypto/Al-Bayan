@@ -11746,3 +11746,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2004e-2006c
 
 - FR-LIB-HAD-MUSLIM-0946 saves six private French drafts about wine trade, preparing nabîdh, and serving it at a wedding meal. Serving times and container details are preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2007-2009b
+
+- FR-LIB-HAD-MUSLIM-0947 saves four private French drafts covering the account of the woman who sought protection, drinks served in the cup, and two migration reports. Distinct details are preserved. No database write or publication occurred.
