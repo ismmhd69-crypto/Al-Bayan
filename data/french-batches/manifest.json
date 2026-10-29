@@ -20323,6 +20323,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-948",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-948.json",
+      "sourceIds": [
+        "9bb317bb-8d68-41b7-befc-ea9914eb8999"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -23187,6 +23203,12 @@
       "scope": "Sahih al-Bukhari 5189: 3,243-character narrative with eleven poetic descriptions",
       "status": "blocked",
       "reason": "This unusually long, complex source needs a distinct completeness and meaning review before translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5190-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5190: excerpt explicitly omits the rest of the narration",
+      "status": "blocked",
+      "reason": "The source excerpt ends by referring to the rest of the report but does not include it. Keep blank until a complete source is available."
     },
     {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",

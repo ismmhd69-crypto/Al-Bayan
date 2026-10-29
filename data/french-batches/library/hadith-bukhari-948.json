@@ -1,0 +1,45 @@
+{
+  "batch_id": "HADITH-BUKHARI-948",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:00:41.378Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9bb317bb-8d68-41b7-befc-ea9914eb8999",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5190",
+      "reference": "Sahih al-Bukhari, hadith 5190, book 67, باب حُسْنِ الْمُعَاشَرَةِ مَعَ الأَهْلِ",
+      "title": "باب حُسْنِ الْمُعَاشَرَةِ مَعَ الأَهْلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا هِشَامٌ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتْ كَانَ الْحَبَشُ يَلْعَبُونَ بِحِرَابِهِمْ، فَسَتَرَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم وَأَنَا أَنْظُرُ، فَمَا زِلْتُ أَنْظُرُ حَتَّى كُنْتُ أَنَا أَنْصَرِفُ فَاقْدُرُوا قَدْرَ الْجَارِيَةِ الْحَدِيثَةِ السِّنِّ تَسْمَعُ اللَّهْوَ‏.‏",
+      "source_hash_sha256": "d6a0d812748aeec723d66a6123beb3b682b2262c7ce5d6aa33c7c8e84e4facc3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "9bb317bb-8d68-41b7-befc-ea9914eb8999",
+      "url": "https://sunnah.com/bukhari:5190",
+      "reason": "Le texte fourni se termine par « la suite du récit » et omet la suite du rapport. Il reste vide dans FR-LIB-HAD-BUKHARI-948 en attendant une source complète."
+    }
+  ]
+}
