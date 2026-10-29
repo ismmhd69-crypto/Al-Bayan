@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0430",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:10:19.450Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0dd56e84-9268-45a9-b459-3d9a9b6acafb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1001b",
+      "reference": "Sahih Muslim, hadith 1001 b, book 12, باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "title": "باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، ح وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، جَمِيعًا عَنْ هِشَامِ بْنِ عُرْوَةَ، فِي هَذَا الإِسْنَادِ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "6c02d055f921eb91302633602a66bad17db36483a3bfd6630ab4a43405b0871b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ffddbdb0-808c-43ff-ba6a-5c100ad44c5a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1002a",
+      "reference": "Sahih Muslim, hadith 1002 a, book 12, باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "title": "باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ عَدِيٍّ، - وَهُوَ ابْنُ ثَابِتٍ - عَنْ عَبْدِ اللَّهِ بْنِ يَزِيدَ، عَنْ أَبِي مَسْعُودٍ الْبَدْرِيِّ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الْمُسْلِمَ إِذَا أَنْفَقَ عَلَى أَهْلِهِ نَفَقَةً وَهُوَ يَحْتَسِبُهَا كَانَتْ لَهُ صَدَقَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "174c3412e335bd3ebf77d5c6a95b8c0056a79874d5b370bb42d07bd12a02e818",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allah ibn Mu‘adh al-‘Anbari nous a rapporté : Mon père nous a rapporté : Shu‘ba nous a rapporté, d’après ‘Adi — c’est Ibn Thabit —, d’après ‘Abd Allah ibn Yazid, d’après Abu Mas‘ud al-Badri, que le Prophète ﷺ a dit : « Lorsqu’un musulman dépense pour sa famille en espérant la récompense d’Allah, cette dépense lui compte comme une aumône. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "95661906-1a97-4936-bfae-d3efc7a6236e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1002b",
+      "reference": "Sahih Muslim, hadith 1002 b, book 12, باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "title": "باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ بَشَّارٍ، وَأَبُو بَكْرِ بْنُ نَافِعٍ كِلاَهُمَا عَنْ مُحَمَّدِ بْنِ جَعْفَرٍ، ح وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا وَكِيعٌ، جَمِيعًا عَنْ شُعْبَةَ، فِي هَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "d9908b8b6a9e36a15fe24abc9add1329aaa38827d08f773c5382a2397f419ed4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e6ed4a3c-339f-4744-891a-ba1c391c5691",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1003a",
+      "reference": "Sahih Muslim, hadith 1003 a, book 12, باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "title": "باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ أَسْمَاءَ، قَالَتْ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّ أُمِّي قَدِمَتْ عَلَىَّ وَهْىَ رَاغِبَةٌ - أَوْ رَاهِبَةٌ - أَفَأَصِلُهَا قَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b55d8ffd4c9896dcc201ca36746771af7b86d1ebd27af9b3a4ef3e16f9a6407f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : ‘Abd Allah ibn Idris nous a rapporté, d’après Hisham ibn ‘Urwa, d’après son père, d’après Asma’, qui a dit : Je demandai : « Ô Messager d’Allah, ma mère est venue me voir, désireuse de me rencontrer — ou bien dans l’espoir que je l’accueille —. Dois-je maintenir les liens avec elle ? » Il répondit : « Oui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "facbc351-77e9-42e2-85fa-1723d1271348",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1003b",
+      "reference": "Sahih Muslim, hadith 1003 b, book 12, باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "title": "باب فَضْلِ النَّفَقَةِ وَالصَّدَقَةِ عَلَى الْأَقْرَبِينَ وَالزَّوْجِ وَالْأَوْلَادِ وَالْوَالِدَيْنِ وَلَوْ كَانُوا مُشْرِكِينَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ، قَالَتْ قَدِمَتْ عَلَىَّ أُمِّي وَهِيَ مُشْرِكَةٌ فِي عَهْدِ قُرَيْشٍ إِذْ عَاهَدَهُمْ فَاسْتَفْتَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقُلْتُ يَا رَسُولَ اللَّهِ قَدِمَتْ عَلَىَّ أُمِّي وَهْىَ رَاغِبَةٌ أَفَأَصِلُ أُمِّي قَالَ ‏\"‏ نَعَمْ صِلِي أُمَّكِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f36bbb2763176e7ec4befebd3fd85f3674d20a2c1506415a6085d586dfa1eaad",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kurayb Muhammad ibn al-‘Ala’ nous a rapporté : Abu Usama nous a rapporté, d’après Hisham, d’après son père, d’après Asma’ bint Abi Bakr, qui a dit : Ma mère vint me voir alors qu’elle était polythéiste, à l’époque du pacte de Quraysh. Je demandai conseil au Messager d’Allah ﷺ : « Ô Messager d’Allah, ma mère est venue me voir et souhaite me rencontrer. Dois-je maintenir les liens avec elle ? » Il répondit : « Oui, maintiens les liens avec ta mère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fd623229-7b92-4ea1-b5f6-944bde22d33b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1004a",
+      "reference": "Sahih Muslim, hadith 1004 a, book 12, باب وُصُولِ ثَوَابِ الصَّدَقَةِ عَنِ الْمَيِّتِ، إِلَيْهِ ‏‏",
+      "title": "باب وُصُولِ ثَوَابِ الصَّدَقَةِ عَنِ الْمَيِّتِ، إِلَيْهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّ رَجُلاً، أَتَى النَّبِيَّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنَّ أُمِّيَ افْتُلِتَتْ نَفْسَهَا وَلَمْ تُوصِ وَأَظُنُّهَا لَوْ تَكَلَّمَتْ تَصَدَّقَتْ أَفَلَهَا أَجْرٌ إِنْ تَصَدَّقْتُ عَنْهَا قَالَ ‏\"‏ نَعَمْ ‏\"‏.‏",
+      "source_hash_sha256": "34cdd414a6972db2e6a4d4db8147573415d5584af5b833ef69906edfa5044f64",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Abd Allah ibn Numayr nous a rapporté : Muhammad ibn Bishr nous a rapporté : Hisham nous a rapporté, d’après son père, d’après ‘A’isha : Un homme vint trouver le Prophète ﷺ et dit : « Ô Messager d’Allah, ma mère est morte soudainement sans laisser de testament. Je pense que si elle avait pu parler, elle aurait fait une aumône. Aurait-elle une récompense si je faisais une aumône en son nom ? » Il répondit : « Oui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0dd56e84-9268-45a9-b459-3d9a9b6acafb",
+      "reason": "La source ne reprend que la chaîne de transmission et renvoie au récit précédent par « la même chose », sans en rapporter le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "95661906-1a97-4936-bfae-d3efc7a6236e",
+      "reason": "La source ne fournit que des chaînes alternatives, sans reprendre le contenu du récit auquel elle renvoie. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
+    }
+  ]
+}
