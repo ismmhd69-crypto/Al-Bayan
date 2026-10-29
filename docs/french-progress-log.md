@@ -9751,3 +9751,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0524 saves four private French drafts about game offered to a pilgrim and reports listing harmful animals. Muslim 1196i only adds a variant question to an earlier report, and 1198d provides only a transmission chain; both remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1198e–1199c
+
+- FR-LIB-HAD-MUSLIM-0525 saves five private French drafts listing animals permitted to be killed in the sanctuary or while in consecration. Muslim 1198f only refers to a previous report for its list and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
