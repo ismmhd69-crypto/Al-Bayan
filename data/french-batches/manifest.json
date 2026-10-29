@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5519,
+    "hadithBukhariDrafted": 5524,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5519,
+    "hadithLocalDrafted": 5524,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9110,
-    "hadithNeedsMo": 795,
+    "hadithLocalRemaining": 9105,
+    "hadithNeedsMo": 796,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25495,6 +25495,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1204",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1204.json",
+      "sourceIds": [
+        "332bac9f-45b4-4d1b-884a-f951d3174a0d",
+        "1b88ff0f-37d4-4298-9a3c-29da427955ed",
+        "4275a079-d440-4fe6-a930-665627bf6d6c",
+        "db17e922-b541-4648-8c8f-e131859b5abd",
+        "aba59a84-e19e-4585-8623-a10839f821bd",
+        "ca9a6dbd-76ac-4086-850f-7cc881b94a72"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one complete item held for unclear rare terms and aside. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -28653,11 +28674,17 @@
       "scope": "Sahih al-Bukhari 6537: direct quotation of Quran 84:7–8",
       "status": "blocked",
       "reason": "The report directly quotes Quran 84:7–8. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6558-UNCLEAR-RARE-TERMS",
+      "scope": "Sahih al-Bukhari 6558: rare plant terms and unclear aside وكان قد سقط فمه",
+      "status": "blocked",
+      "reason": "The report uses two rare plant terms (الثعارير and الضغابيس) and an aside (وكان قد سقط فمه) whose referent and meaning are unclear in this record. Keep the complete translation blank until the source wording is reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 5519,
-  "hadithLocalDrafted": 5519,
-  "hadithLocalRemaining": 9110,
+  "hadithBukhariDrafted": 5524,
+  "hadithLocalDrafted": 5524,
+  "hadithLocalRemaining": 9105,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28958,6 +28985,12 @@
       "scope": "Sahih al-Bukhari 6537: direct quotation of Quran 84:7–8",
       "status": "blocked",
       "reason": "The report directly quotes Quran 84:7–8. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6558-UNCLEAR-RARE-TERMS",
+      "scope": "Sahih al-Bukhari 6558: rare plant terms and unclear aside وكان قد سقط فمه",
+      "status": "blocked",
+      "reason": "The report uses two rare plant terms (الثعارير and الضغابيس) and an aside (وكان قد سقط فمه) whose referent and meaning are unclear in this record. Keep the complete translation blank until the source wording is reliably clarified."
     }
   ]
 }
