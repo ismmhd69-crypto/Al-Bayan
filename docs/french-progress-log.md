@@ -13049,3 +13049,10 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Four complete reports were translated and reread against the Arabic. Two shortened reports that refer to a previous invocation remain blank under Needs Mo.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Four private local drafts saved.
 - Reconciled local hadith progress: 6,336 Bukhari and 4,903 Muslim drafts (11,239 total); 2,780 held Needs Mo; 608 sources not yet exported. Local hadith records without French drafts: 3,391. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2732d-2735b, batch 1251
+
+- Batch FR-LIB-HAD-MUSLIM-1251 covers six entries from Sahih Muslim 2732d through 2735b.
+- Four complete reports were translated and reread against the Arabic. Two chain-only or wording-only variants remain blank under Needs Mo.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Four private local drafts saved.
+- Reconciled local hadith progress: 6,336 Bukhari and 4,907 Muslim drafts (11,243 total); 2,782 held Needs Mo; 602 sources not yet exported. Local hadith records without French drafts: 3,387. All 14,629 remain missing from the live French table.
