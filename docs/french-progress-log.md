@@ -11326,3 +11326,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1775b-1776d
 
 - FR-LIB-HAD-MUSLIM-0841 saves four private French drafts of distinctive reports about Hunayn. Two entries that only refer back to fuller accounts remain blank under Needs Mo with specific reasons. No Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1777-1779
+
+- FR-LIB-HAD-MUSLIM-0842 saves three private French drafts: two reports from Hunayn and one from Badr. The chains, dialogue, and event sequence are preserved. No Quran quotation appears in these entries. No database write or publication occurred.
