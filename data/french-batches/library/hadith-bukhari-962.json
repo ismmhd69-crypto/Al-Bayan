@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-BUKHARI-962",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:05:28.891Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3d36f671-fc82-4674-8b37-4800eec850d0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5265",
+      "reference": "Sahih al-Bukhari, hadith 5265, book 68, باب مَنْ قَالَ لاِمْرَأَتِهِ أَنْتِ عَلَىَّ حَرَامٌ",
+      "title": "باب مَنْ قَالَ لاِمْرَأَتِهِ أَنْتِ عَلَىَّ حَرَامٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدٌ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ طَلَّقَ رَجُلٌ امْرَأَتَهُ فَتَزَوَّجَتْ زَوْجًا غَيْرَهُ فَطَلَّقَهَا، وَكَانَتْ مَعَهُ مِثْلُ الْهُدْبَةِ فَلَمْ تَصِلْ مِنْهُ إِلَى شَىْءٍ تُرِيدُهُ، فَلَمْ يَلْبَثْ أَنْ طَلَّقَهَا فَأَتَتِ النَّبِيَّ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ زَوْجِي طَلَّقَنِي، وَإِنِّي تَزَوَّجْتُ زَوْجًا غَيْرَهُ فَدَخَلَ بِي، وَلَمْ يَكُنْ مَعَهُ إِلاَّ مِثْلُ الْهُدْبَةِ فَلَمْ يَقْرَبْنِي إِلاَّ هَنَةً وَاحِدَةً، لَمْ يَصِلْ مِنِّي إِلَى شَىْءٍ، فَأَحِلُّ لِزَوْجِي الأَوَّلِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تَحِلِّينَ لِزَوْجِكِ الأَوَّلِ حَتَّى يَذُوقَ الآخَرُ عُسَيْلَتَكِ، وَتَذُوقِي عُسَيْلَتَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "495f32ac332fee5f7ef94907b6c8fe4d0a9931d014c9efea1f22f842e483e6ac",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte qu’un homme divorça de sa femme. Elle épousa un autre homme, qui divorça d’elle. Elle dit que son second mari avait un sexe semblable à une frange et qu’elle n’avait rien obtenu de ce qu’elle souhaitait avec lui. Peu après, il divorça d’elle. Elle vint trouver le Prophète et dit : « Messager d’Allah, mon mari m’a divorcée. J’ai épousé un autre homme, qui a eu des rapports avec moi, mais son sexe n’était qu’une frange. Il n’a eu avec moi qu’un rapport, sans me satisfaire. Puis-je redevenir licite pour mon premier mari ? » Le Messager d’Allah répondit : « Tu ne redeviendras pas licite pour ton premier mari avant que le second ait goûté à ton intimité et que tu aies goûté à la sienne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bc8c3626-2cdc-4ff8-ad2d-1b1bae46d716",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5266",
+      "reference": "Sahih al-Bukhari, hadith 5266, book 68, باب ‏ {‏لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ‏} ‏",
+      "title": "باب ‏ {‏لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي الْحَسَنُ بْنُ صَبَّاحٍ، سَمِعَ الرَّبِيعَ بْنَ نَافِعٍ، حَدَّثَنَا مُعَاوِيَةُ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ يَعْلَى بْنِ حَكِيمٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، أَنَّهُ أَخْبَرَهُ أَنَّهُ، سَمِعَ ابْنَ عَبَّاسٍ، يَقُولُ إِذَا حَرَّمَ امْرَأَتَهُ لَيْسَ بِشَىْءٍ‏.‏ وَقَالَ ‏[quran sura=\"33\" aya_start=\"21\" aya_end=\"21\"]{‏لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ‏}‏",
+      "source_hash_sha256": "fb6fd747fa5c1df39b79f8d7a3162a5a984bb1225583f3288e4293e6a80c4806",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9a44c1e7-8a88-4956-8e99-b7290f9ab9d0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5267",
+      "reference": "Sahih al-Bukhari, hadith 5267, book 68, باب ‏ {‏لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ‏} ‏",
+      "title": "باب ‏ {‏لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي الْحَسَنُ بْنُ مُحَمَّدِ بْنِ صَبَّاحٍ، حَدَّثَنَا حَجَّاجٌ، عَنِ ابْنِ جُرَيْجٍ، قَالَ زَعَمَ عَطَاءٌ أَنَّهُ سَمِعَ عُبَيْدَ بْنَ عُمَيْرٍ، يَقُولُ سَمِعْتُ عَائِشَةَ ـ رضى الله عنها ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَمْكُثُ عِنْدَ زَيْنَبَ ابْنَةِ جَحْشٍ، وَيَشْرَبُ عِنْدَهَا عَسَلاً، فَتَوَاصَيْتُ أَنَا وَحَفْصَةُ أَنَّ أَيَّتَنَا دَخَلَ عَلَيْهَا النَّبِيُّ صلى الله عليه وسلم فَلْتَقُلْ إِنِّي أَجِدُ مِنْكَ رِيحَ مَغَافِيرَ، أَكَلْتَ مَغَافِيرَ فَدَخَلَ عَلَى إِحْدَاهُمَا فَقَالَتْ لَهُ ذَلِكَ، فَقَالَ ‏\"‏ لاَ بَلْ شَرِبْتُ عَسَلاً عِنْدَ زَيْنَبَ ابْنَةِ جَحْشٍ وَلَنْ أَعُودَ لَهُ ‏\"‏‏.‏ فَنَزَلَتْ ‏[quran sura=\"66\" aya_start=\"1\" aya_end=\"1\"]{‏يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ‏}‏ إِلَى ‏[quran sura=\"66\" aya_start=\"4\" aya_end=\"4\"]{‏إِنْ تَتُوبَا إِلَى اللَّهِ‏}‏ لِعَائِشَةَ وَحَفْصَةَ ‏[quran sura=\"66\" aya_start=\"3\" aya_end=\"3\"]{‏وَإِذْ أَسَرَّ النَّبِيُّ إِلَى بَعْضِ أَزْوَاجِهِ‏}‏ لِقَوْلِهِ ‏\"‏ بَلْ شَرِبْتُ عَسَلاً ‏\"‏‏.‏",
+      "source_hash_sha256": "4680b25c866684f976c31b41fb36e594dff04d020186313ddb1c8e60158cb5ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dba0d321-7486-4140-a221-b1edcd35db18",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5268",
+      "reference": "Sahih al-Bukhari, hadith 5268, book 68, باب ‏ {‏لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ‏} ‏",
+      "title": "باب ‏ {‏لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا فَرْوَةُ بْنُ أَبِي الْمَغْرَاءِ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُحِبُّ الْعَسَلَ وَالْحَلْوَاءَ، وَكَانَ إِذَا انْصَرَفَ مِنَ الْعَصْرِ دَخَلَ عَلَى نِسَائِهِ، فَيَدْنُو مِنْ إِحْدَاهُنَّ، فَدَخَلَ عَلَى حَفْصَةَ بِنْتِ عُمَرَ، فَاحْتَبَسَ أَكْثَرَ مَا كَانَ يَحْتَبِسُ، فَغِرْتُ فَسَأَلْتُ عَنْ ذَلِكَ فَقِيلَ لِي أَهْدَتْ لَهَا امْرَأَةٌ مِنْ قَوْمِهَا عُكَّةً مِنْ عَسَلٍ، فَسَقَتِ النَّبِيَّ صلى الله عليه وسلم مِنْهُ شَرْبَةً، فَقُلْتُ أَمَا وَاللَّهِ لَنَحْتَالَنَّ لَهُ‏.‏ فَقُلْتُ لِسَوْدَةَ بِنْتِ زَمْعَةَ إِنَّهُ سَيَدْنُو مِنْكِ، فَإِذَا دَنَا مِنْكِ فَقُولِي أَكَلْتَ مَغَافِيرَ فَإِنَّهُ سَيَقُولُ لَكِ لاَ‏.‏ فَقُولِي لَهُ مَا هَذِهِ الرِّيحُ الَّتِي أَجِدُ مِنْكَ فَإِنَّهُ سَيَقُولُ لَكِ سَقَتْنِي حَفْصَةُ شَرْبَةَ عَسَلٍ فَقُولِي لَهُ جَرَسَتْ نَحْلُهُ الْعُرْفُطَ‏.‏ وَسَأَقُولُ ذَلِكَ، وَقُولِي أَنْتِ يَا صَفِيَّةُ ذَاكِ‏.‏ قَالَتْ تَقُولُ سَوْدَةُ فَوَاللَّهِ مَا هُوَ إِلاَّ أَنْ قَامَ عَلَى الْبَابِ، فَأَرَدْتُ أَنْ أُبَادِيَهُ بِمَا أَمَرْتِنِي بِهِ فَرَقًا مِنْكِ، فَلَمَّا دَنَا مِنْهَا قَالَتْ لَهُ سَوْدَةُ يَا رَسُولَ اللَّهِ أَكَلْتَ مَغَافِيرَ قَالَ ‏\"‏ لاَ ‏\"‏‏.‏ قَالَتْ فَمَا هَذِهِ الرِّيحُ الَّتِي أَجِدُ مِنْكَ‏.‏ قَالَ ‏\"‏ سَقَتْنِي حَفْصَةُ شَرْبَةَ عَسَلٍ ‏\"‏‏.‏ فَقَالَتْ جَرَسَتْ نَحْلُهُ الْعُرْفُطَ فَلَمَّا دَارَ إِلَىَّ قُلْتُ لَهُ نَحْوَ ذَلِكَ، فَلَمَّا دَارَ إِلَى صَفِيَّةَ قَالَتْ لَهُ مِثْلَ ذَلِكَ فَلَمَّا دَارَ إِلَى حَفْصَةَ قَالَتْ يَا رَسُولَ اللَّهِ أَلاَ أَسْقِيكَ مِنْهُ‏.‏ قَالَ ‏\"‏ لاَ حَاجَةَ لِي فِيهِ ‏\"‏‏.‏ قَالَتْ تَقُولُ سَوْدَةُ وَاللَّهِ لَقَدْ حَرَمْنَاهُ‏.‏ قُلْتُ لَهَا اسْكُتِي‏.‏",
+      "source_hash_sha256": "67dc8d9c7a5a0fd61de9ce99a4d0baa484b9b67c93637ba71b82832f274bd461",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte que le Messager d’Allah aimait le miel et les douceurs. Lorsqu’il rentrait après la prière de l’après-midi, il allait voir ses épouses et s’approchait de l’une d’elles. Un jour, il entra chez Hafsa bint ʿUmar et s’y attarda plus longtemps qu’à l’ordinaire. J’en éprouvai de la jalousie et demandai pourquoi. On me dit qu’une femme de son clan lui avait offert une outre de miel et qu’elle en avait servi une gorgée au Prophète. Je dis : « Par Allah, nous allons lui jouer un tour. » Je dis à Sawda bint Zamʿa : « Il va venir près de toi. Quand il s’approchera, demande-lui s’il a mangé du maghâfîr. Il te répondra que non. Demande-lui alors quelle est cette odeur que tu sens. Il te dira que Hafsa lui a servi une gorgée de miel. Réponds-lui : “Les abeilles ont butiné l’arbuste ʿurfut.” Je lui dirai la même chose, et toi, Safiyya, fais de même. » Sawda dit : « Par Allah, dès qu’il s’arrêta à la porte, je voulus lui dire ce que tu m’avais demandé, tant je te craignais. Quand il s’approcha, je lui demandai : “Messager d’Allah, as-tu mangé du maghâfîr ?” Il répondit : “Non.” Je lui demandai : “Quelle est donc cette odeur que je sens ?” Il dit : “Hafsa m’a servi une gorgée de miel.” Je répondis : “Les abeilles ont butiné l’arbuste ʿurfut.” » Quand il vint auprès de moi, je lui dis la même chose, puis il se rendit chez Safiyya, qui lui dit pareil. Lorsqu’il retourna chez Hafsa, elle lui demanda : « Messager d’Allah, veux-tu que je t’en serve ? » Il répondit : « Je n’en ai pas besoin. » Sawda dit : « Par Allah, nous l’en avons privé ! » Je lui dis : « Tais-toi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "973850d7-9441-4b0e-9472-c9fc95255d2e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5269",
+      "reference": "Sahih al-Bukhari, hadith 5269, book 68, باب الطَّلاَقِ فِي الإِغْلاَقِ",
+      "title": "باب الطَّلاَقِ فِي الإِغْلاَقِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هِشَامٌ، حَدَّثَنَا قَتَادَةُ، عَنْ زُرَارَةَ بْنِ أَوْفَى، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ اللَّهَ تَجَاوَزَ عَنْ أُمَّتِي مَا حَدَّثَتْ بِهِ أَنْفُسَهَا، مَا لَمْ تَعْمَلْ أَوْ تَتَكَلَّمْ ‏\"‏‏.‏ قَالَ قَتَادَةُ إِذَا طَلَّقَ فِي نَفْسِهِ فَلَيْسَ بِشَىْءٍ‏.‏",
+      "source_hash_sha256": "24a9543e633dec0613c556c7684fd200f627ac3d0b87e6ee0b1ad4befaa2e08d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Prophète a dit : « Allah a pardonné à ma communauté les pensées qui leur viennent à l’esprit, tant qu’ils ne les mettent pas en acte et ne les prononcent pas. » Qatâda ajouta : « Si quelqu’un prononce un divorce seulement dans son for intérieur, cela ne compte pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a47c5f38-ab45-4a08-8197-87c7c26a1080",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5270",
+      "reference": "Sahih al-Bukhari, hadith 5270, book 68, باب الطَّلاَقِ فِي الإِغْلاَقِ",
+      "title": "باب الطَّلاَقِ فِي الإِغْلاَقِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَصْبَغُ، أَخْبَرَنَا ابْنُ وَهْبٍ، عَنْ يُونُسَ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي أَبُو سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَجُلاً، مِنْ أَسْلَمَ أَتَى النَّبِيَّ صلى الله عليه وسلم وَهْوَ فِي الْمَسْجِدِ فَقَالَ إِنَّهُ قَدْ زَنَى‏.‏ فَأَعْرَضَ عَنْهُ، فَتَنَحَّى لِشِقِّهِ الَّذِي أَعْرَضَ فَشَهِدَ عَلَى نَفْسِهِ أَرْبَعَ شَهَادَاتٍ، فَدَعَاهُ فَقَالَ ‏\"‏ هَلْ بِكَ جُنُونٌ هَلْ أُحْصِنْتَ ‏\"‏‏.‏ قَالَ نَعَمْ‏.‏ فَأَمَرَ بِهِ أَنْ يُرْجَمَ بِالْمُصَلَّى، فَلَمَّا أَذْلَقَتْهُ الْحِجَارَةُ جَمَزَ حَتَّى أُدْرِكَ بِالْحَرَّةِ فَقُتِلَ‏.‏",
+      "source_hash_sha256": "26d71ebee0987d65d6b26cc5caa4530d472d4933879168282729c658e6eda28b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte qu’un homme de la tribu d’Aslam vint trouver le Prophète alors qu’il était dans la mosquée et lui dit qu’il avait commis l’adultère. Le Prophète détourna le regard. L’homme se plaça du côté où le Prophète avait détourné le regard et témoigna quatre fois contre lui-même. Le Prophète le fit alors venir et lui demanda : « Es-tu fou ? Es-tu marié ? » L’homme répondit : « Oui. » Le Prophète ordonna qu’il soit lapidé au lieu de prière. Lorsque les pierres le blessèrent, il s’enfuit en courant et fut rattrapé dans le quartier rocheux d’al-Harra, où il fut tué.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "bc8c3626-2cdc-4ff8-ad2d-1b1bae46d716",
+      "reason": "This hadith directly quotes Quran 33:21; keep the French translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "source_id": "9a44c1e7-8a88-4956-8e99-b7290f9ab9d0",
+      "reason": "This hadith directly quotes Quran 66:1 and 66:3–4; keep the French translation blank pending an approved, attributed French Quran translation."
+    }
+  ]
+}
