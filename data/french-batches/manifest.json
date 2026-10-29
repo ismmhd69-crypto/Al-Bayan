@@ -17388,6 +17388,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-802",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-802.json",
+      "sourceIds": [
+        "94482603-830e-45a8-8fd6-e8f1354717cf",
+        "5d0e55e0-894d-4cbd-b478-edb7a74a7736",
+        "73ac290b-82b0-49b3-a397-0ab700e02a96",
+        "aad492ef-52a0-4401-a869-f2c0f3504ea5",
+        "b3fb091a-d379-422b-bf81-f71c146e5b8c",
+        "5a4d41f3-5165-4a76-b91f-ba977cf1d340"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17924,9 +17945,15 @@
       "scope": "Sahih al-Bukhari 4430: direct quotation of Quran 110:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 110:1. The complete record remains blank in FR-LIB-HAD-BUKHARI-801 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4435-QURAN-4-69",
+      "scope": "Sahih al-Bukhari 4435: direct quotation of Quran 4:69",
+      "status": "blocked",
+      "reason": "The report directly quotes part of Quran 4:69. The complete record remains blank in FR-LIB-HAD-BUKHARI-802 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3900,
-  "hadithLocalDrafted": 3900,
-  "hadithLocalRemaining": 10757
+  "hadithBukhariDrafted": 3905,
+  "hadithLocalDrafted": 3905,
+  "hadithLocalRemaining": 10752
 }
