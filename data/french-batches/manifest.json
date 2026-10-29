@@ -41971,6 +41971,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0628",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0628.json",
+      "sourceIds": [
+        "e36322e2-ab0e-4c95-aa2e-d43edf5cfb45",
+        "6dd325d2-5428-463b-adc0-556285341e60",
+        "3f409405-9dc4-4c74-a9fe-efea29f4afaf",
+        "3f71f39f-c0e8-4ea1-b0fd-a3d178940390",
+        "fe8c1998-7dd3-4356-a052-05de17f06d47",
+        "11fbe024-6324-425a-8877-8d37e71b6e83"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, five private unpublished drafts preserving the source’s report variants, one cross-reference-only source held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46278,8 +46299,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8832,
-  "hadithLocalRemaining": 5797,
+  "hadithLocalDrafted": 8837,
+  "hadithLocalRemaining": 5792,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50271,10 +50292,15 @@
       "source_id": "cb7eaba0-6ef1-49b1-9910-df5fa3273e24",
       "reason": "Cette entrée ne reproduit pas le récit complet et renvoie au précédent en ne donnant que des ajouts ou variantes. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "6dd325d2-5428-463b-adc0-556285341e60",
+      "reason": "Cette entrée ne reproduit pas le récit précédent et renvoie à celui-ci par une simple référence (« بِمِثْلِ حَدِيثِ يَحْيَى ... »), sans en donner le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2496,
+  "hadithMuslimDrafted": 2501,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1091
+  "hadithNeedsMo": 1092
 }

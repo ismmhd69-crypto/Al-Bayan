@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0628",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:32:33.174Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e36322e2-ab0e-4c95-aa2e-d43edf5cfb45",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1407a",
+      "reference": "Sahih Muslim, hadith 1407 a, book 16, باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "title": "باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عَبْدِ اللَّهِ، وَالْحَسَنِ، ابْنَىْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِمَا، عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْ مُتْعَةِ النِّسَاءِ يَوْمَ خَيْبَرَ وَعَنْ أَكْلِ لُحُومِ الْحُمُرِ الإِنْسِيَّةِ ‏.‏",
+      "source_hash_sha256": "69d8ffff3990114ac869d41e752c4c6909406bbb221fe7e09d58a138e1bc469c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Abi Talib rapporte que le Messager d’Allah ﷺ interdit le mariage temporaire le jour de Khaybar ainsi que la consommation de viande d’âne domestique.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6dd325d2-5428-463b-adc0-556285341e60",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1407b",
+      "reference": "Sahih Muslim, hadith 1407 b, book 16, باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "title": "باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ عَبْدُ اللَّهِ بْنُ مُحَمَّدِ بْنِ أَسْمَاءَ الضُّبَعِيُّ، حَدَّثَنَا جُوَيْرِيَةُ، عَنْ مَالِكٍ، بِهَذَا الإِسْنَادِ وَقَالَ سَمِعَ عَلِيَّ بْنَ أَبِي طَالِبٍ، يَقُولُ لِفُلاَنٍ إِنَّكَ رَجُلٌ تَائِهٌ نَهَانَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ بِمِثْلِ حَدِيثِ يَحْيَى بْنِ يَحْيَى عَنْ مَالِكٍ ‏.‏",
+      "source_hash_sha256": "d1699b94ccaa98fd4552735bcb67b47a19111bec1415735fb587d290ed081087",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3f409405-9dc4-4c74-a9fe-efea29f4afaf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1407c",
+      "reference": "Sahih Muslim, hadith 1407 c, book 16, باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "title": "باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ وَزُهَيْرُ بْنُ حَرْبٍ جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، - قَالَ زُهَيْرٌ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، - عَنِ الزُّهْرِيِّ، عَنِ الْحَسَنِ، وَعَبْدِ اللَّهِ، ابْنَىْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِمَا، عَنْ عَلِيٍّ، أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى عَنْ نِكَاحِ الْمُتْعَةِ يَوْمَ خَيْبَرَ وَعَنْ لُحُومِ الْحُمُرِ الأَهْلِيَّةِ ‏.‏",
+      "source_hash_sha256": "25c675f4ed98c40ecb708b2367d31914723dbf96361657f28f0abc7be8854a68",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali rapporte que le Prophète ﷺ interdit le mariage temporaire le jour de Khaybar ainsi que la consommation de viande d’âne domestique.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3f71f39f-c0e8-4ea1-b0fd-a3d178940390",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1407d",
+      "reference": "Sahih Muslim, hadith 1407 d, book 16, باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "title": "باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنِ ابْنِ شِهَابٍ، عَنِ الْحَسَنِ، وَعَبْدِ اللَّهِ، ابْنَىْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِمَا، عَنْ عَلِيٍّ، أَنَّهُ سَمِعَ ابْنَ عَبَّاسٍ، يُلَيِّنُ فِي مُتْعَةِ النِّسَاءِ فَقَالَ مَهْلاً يَا ابْنَ عَبَّاسٍ فَإِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْهَا يَوْمَ خَيْبَرَ وَعَنْ لُحُومِ الْحُمُرِ الإِنْسِيَّةِ ‏.‏",
+      "source_hash_sha256": "25a530141e2da89cfc5f10edba3ee5096d2c45806639e9fe9ba270dc6d6788ce",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Abi Talib rapporte qu’il entendit Ibn Abbas parler avec indulgence du mariage temporaire. Il lui dit : « Doucement, Ibn Abbas ! Le Messager d’Allah ﷺ l’a interdit le jour de Khaybar, ainsi que la consommation de viande d’âne domestique. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fe8c1998-7dd3-4356-a052-05de17f06d47",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1407e",
+      "reference": "Sahih Muslim, hadith 1407 e, book 16, باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "title": "باب نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ ثُمَّ أُبِيحَ ثُمَّ نُسِخَ وَاسْتَقَرَّ تَحْرِيمُهُ إِلَى يَوْمِ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ بْنُ يَحْيَى، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنِ الْحَسَنِ، وَعَبْدِ اللَّهِ، ابْنَىْ مُحَمَّدِ بْنِ عَلِيِّ بْنِ أَبِي طَالِبٍ عَنْ أَبِيهِمَا، أَنَّهُ سَمِعَ عَلِيَّ بْنَ أَبِي طَالِبٍ، يَقُولُ لاِبْنِ عَبَّاسٍ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْ مُتْعَةِ النِّسَاءِ يَوْمَ خَيْبَرَ وَعَنْ أَكْلِ لُحُومِ الْحُمُرِ الإِنْسِيَّةِ ‏.‏",
+      "source_hash_sha256": "d142ab68a710fe90f222661afc6fa1e2863d5310058c985782695d58db5591e6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Hasan et Abd Allah, fils de Muhammad ibn Ali ibn Abi Talib, rapportent qu’ils entendirent leur père Ali ibn Abi Talib dire à Ibn Abbas : « Le Messager d’Allah ﷺ a interdit le mariage temporaire le jour de Khaybar, ainsi que la consommation de viande d’âne domestique. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "11fbe024-6324-425a-8877-8d37e71b6e83",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1407f",
+      "reference": "Sahih Muslim, hadith 1407 f, book 34, باب تَحْرِيمِ أَكْلِ لَحْمِ الْحُمُرِ الإِنْسِيَّةِ ‏‏",
+      "title": "باب تَحْرِيمِ أَكْلِ لَحْمِ الْحُمُرِ الإِنْسِيَّةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكِ بْنِ أَنَسٍ عَنِ ابْنِ شِهَابٍ، عَنْ عَبْدِ، اللَّهِ وَالْحَسَنِ ابْنَىْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِمَا، عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْ مُتْعَةِ النِّسَاءِ يَوْمَ خَيْبَرَ وَعَنْ لُحُومِ الْحُمُرِ الإِنْسِيَّةِ ‏.‏",
+      "source_hash_sha256": "3e60f0619664bb996c31b3566007040907880fd4d2a352f7443afc0edaa017f2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Abi Talib rapporte que le Messager d’Allah ﷺ interdit le mariage temporaire le jour de Khaybar ainsi que la consommation de viande d’âne domestique.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6dd325d2-5428-463b-adc0-556285341e60",
+      "reason": "Cette entrée ne reproduit pas le récit précédent et renvoie à celui-ci par une simple référence (« بِمِثْلِ حَدِيثِ يَحْيَى ... »), sans en donner le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
