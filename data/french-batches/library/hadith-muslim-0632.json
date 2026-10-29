@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0632",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:33:34.568Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4f981f3e-9703-47d7-8c2c-86836c821038",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1411",
+      "reference": "Sahih Muslim, hadith 1411, book 16, باب تَحْرِيمِ نِكَاحِ الْمُحْرِمِ وَكَرَاهَةِ خِطْبَتِهِ ‏‏",
+      "title": "باب تَحْرِيمِ نِكَاحِ الْمُحْرِمِ وَكَرَاهَةِ خِطْبَتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا جَرِيرُ بْنُ حَازِمٍ، حَدَّثَنَا أَبُو فَزَارَةَ، عَنْ يَزِيدَ بْنِ الأَصَمِّ، حَدَّثَتْنِي مَيْمُونَةُ بِنْتُ الْحَارِثِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم تَزَوَّجَهَا وَهُوَ حَلاَلٌ قَالَ وَكَانَتْ خَالَتِي وَخَالَةَ ابْنِ عَبَّاسٍ ‏.‏",
+      "source_hash_sha256": "97f51a0508eb6d0270de7dafd61d56167da216acd96e13477485599e5a69b58a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Maymuna bint al-Harith rapporte que le Messager d’Allah ﷺ l’épousa alors qu’il n’était pas en état de sacralisation. Elle ajouta : « Elle était ma tante maternelle, ainsi que celle d’Ibn Abbas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "17e6a2ba-8533-4ef9-b661-124bcd8c18e8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1412a",
+      "reference": "Sahih Muslim, hadith 1412 a, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا ابْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ وَلاَ يَخْطُبْ بَعْضُكُمْ عَلَى خِطْبَةِ بَعْضٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "312c040ef237e2dd8c7b7db84b360a99b1062a155daaf25c0d85d1f088e9129b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Prophète ﷺ a dit : « Que certains d’entre vous ne surenchérissent pas sur la vente d’un autre, et qu’ils ne fassent pas une demande en mariage par-dessus celle d’un autre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "528c338a-f832-4a80-9bf4-3f41ee6888b7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1412b",
+      "reference": "Sahih Muslim, hadith 1412 b, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، جَمِيعًا عَنْ يَحْيَى الْقَطَّانِ، قَالَ زُهَيْرٌ حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَبِعِ الرَّجُلُ عَلَى بَيْعِ أَخِيهِ وَلاَ يَخْطُبْ عَلَى خِطْبَةِ أَخِيهِ إِلاَّ أَنْ يَأْذَنَ لَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e660a19010c3d65068f0eaccd8121d2b1afbf3548356a064fd8f265d60a4e73f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Prophète ﷺ a dit : « Qu’un homme ne surenchérisse pas sur la vente de son frère et ne fasse pas une demande en mariage par-dessus celle de son frère, sauf si celui-ci l’y autorise. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4dc5b1cd-4fc7-4aab-9c75-993efafda0ed",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1412c",
+      "reference": "Sahih Muslim, hadith 1412 c, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ عُبَيْدِ اللَّهِ، بِهَذَا الإِسْنَادِ.",
+      "source_hash_sha256": "64616485ce60f5b51417be002dd8add7e3b71a35ae88223788c9c77ebdd56235",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1d29e65a-5c7e-46a0-a2c0-8c03ab32e258",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1412d",
+      "reference": "Sahih Muslim, hadith 1412 d, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا أَيُّوبُ، عَنْ نَافِعٍ، بِهَذَا الإِسْنَادِ‏.‏",
+      "source_hash_sha256": "8fc388e146517bd59aaa99462ea665acbd42f6a42ff2333b34b0f6a83c0c6b4c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3f507a67-8d0e-434c-b044-133878271c57",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1412e",
+      "reference": "Sahih Muslim, hadith 1412 e, book 21, باب تَحْرِيمِ بَيْعِ الرَّجُلِ عَلَى بَيْعِ أَخِيهِ وَسَوْمِهِ عَلَى سَوْمِهِ وَتَحْرِيمِ النَّجْشِ وَتَحْرِيمِ التَّصْرِيَةِ",
+      "title": "باب تَحْرِيمِ بَيْعِ الرَّجُلِ عَلَى بَيْعِ أَخِيهِ وَسَوْمِهِ عَلَى سَوْمِهِ وَتَحْرِيمِ النَّجْشِ وَتَحْرِيمِ التَّصْرِيَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e6952ab8b2174eac790986ebe51f6b2d7fba4e9919383cbda39add998141cb2a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Messager d’Allah ﷺ a dit : « Que certains d’entre vous ne surenchérissent pas sur la vente d’un autre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4dc5b1cd-4fc7-4aab-9c75-993efafda0ed",
+      "reason": "Cette entrée ne fournit pas le texte du récit et ne conserve que la chaîne de transmission, par renvoi au rapport précédent. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "1d29e65a-5c7e-46a0-a2c0-8c03ab32e258",
+      "reason": "Cette entrée ne fournit pas le texte du récit et ne conserve que la chaîne de transmission, par renvoi au rapport précédent. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
