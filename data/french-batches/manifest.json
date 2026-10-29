@@ -15967,6 +15967,21 @@
       "published": 0,
       "status": "local draft with holds"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-740",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-740.json",
+      "sourceIds": ["ceda96de-2631-4262-a27a-57b86e405320"],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -16296,7 +16311,7 @@
       "reason": "The report includes wording of a passage described as Quran recitation, though its recitation was later abrogated. It remains blank in FR-LIB-HAD-BUKHARI-739 until an approved, attributed French Quran translation is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 3621,
-  "hadithLocalDrafted": 3621,
-  "hadithLocalRemaining": 11036
+  "hadithBukhariDrafted": 3622,
+  "hadithLocalDrafted": 3622,
+  "hadithLocalRemaining": 11035
 }
