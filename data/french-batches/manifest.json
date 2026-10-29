@@ -41992,6 +41992,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0629",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0629.json",
+      "sourceIds": [
+        "6067142f-4b2c-4776-b596-e58011e969e5",
+        "75649e71-f08f-4e98-b478-9769987952ca",
+        "34126db9-0ea6-474b-942e-a42c48efd714",
+        "1ce692e1-00ba-4305-99ca-056b716b1d88",
+        "f57e4039-c3d8-4fc0-a378-bdb96e56f7b0",
+        "a788b723-8c0d-4df7-8376-7a0102998a2e"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, five private unpublished drafts, one cross-reference-only variant held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46299,8 +46320,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8837,
-  "hadithLocalRemaining": 5792,
+  "hadithLocalDrafted": 8842,
+  "hadithLocalRemaining": 5787,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50297,10 +50318,15 @@
       "source_id": "6dd325d2-5428-463b-adc0-556285341e60",
       "reason": "Cette entrée ne reproduit pas le récit précédent et renvoie à celui-ci par une simple référence (« بِمِثْلِ حَدِيثِ يَحْيَى ... »), sans en donner le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "6067142f-4b2c-4776-b596-e58011e969e5",
+      "reason": "Cette entrée ne reproduit pas le récit complet et renvoie à une version précédente par « بِهَذَا الإِسْنَادِ », en n’ajoutant qu’une mention de la viande d’âne domestique. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2501,
+  "hadithMuslimDrafted": 2506,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1092
+  "hadithNeedsMo": 1093
 }

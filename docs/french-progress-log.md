@@ -10271,3 +10271,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0628 saves five private French drafts about the reports attributed to Ali concerning temporary marriage and domestic donkey meat at Khaybar. Their wording remains distinct across source records. Muslim 1407b contains only a cross-reference to a preceding report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1407g–1408e
+
+- FR-LIB-HAD-MUSLIM-0629 saves five private French drafts about the prohibition on marrying a woman and her aunt at the same time. Muslim 1407g only refers to a preceding report and adds one detail, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

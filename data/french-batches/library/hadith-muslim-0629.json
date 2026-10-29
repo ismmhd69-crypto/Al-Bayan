@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0629",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:32:45.642Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6067142f-4b2c-4776-b596-e58011e969e5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1407g",
+      "reference": "Sahih Muslim, hadith 1407 g, book 34, باب تَحْرِيمِ أَكْلِ لَحْمِ الْحُمُرِ الإِنْسِيَّةِ ‏‏",
+      "title": "باب تَحْرِيمِ أَكْلِ لَحْمِ الْحُمُرِ الإِنْسِيَّةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ وَزُهَيْرُ بْنُ حَرْبٍ قَالُوا حَدَّثَنَا سُفْيَانُ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، ح وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح وَحَدَّثَنَا إِسْحَاقُ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، كُلُّهُمْ عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ وَفِي حَدِيثِ يُونُسَ وَعَنْ أَكْلِ، لُحُومِ الْحُمُرِ الإِنْسِيَّةِ ‏.‏",
+      "source_hash_sha256": "b689d924d673a1144522cc88b2a1116a01194a82d9dce39f6202e1e693dcabc7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "75649e71-f08f-4e98-b478-9769987952ca",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1408a",
+      "reference": "Sahih Muslim, hadith 1408 a, book 16, باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "title": "باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ الْقَعْنَبِيُّ، حَدَّثَنَا مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ‏\"‏ لاَ يُجْمَعُ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا وَلاَ بَيْنَ الْمَرْأَةِ وَخَالَتِهَا‏\"‏ ‏.‏",
+      "source_hash_sha256": "f43e8c60bbb14c980a0f606814dcbf15864a57fe4f7c7cc2d1f4a0b9001571f2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Il n’est pas permis d’épouser en même temps une femme et sa tante paternelle, ni une femme et sa tante maternelle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "34126db9-0ea6-474b-942e-a42c48efd714",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1408b",
+      "reference": "Sahih Muslim, hadith 1408 b, book 16, باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "title": "باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحِ بْنِ الْمُهَاجِرِ، أَخْبَرَنَا اللَّيْثُ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ عِرَاكِ بْنِ مَالِكٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْ أَرْبَعِ نِسْوَةٍ أَنْ يُجْمَعَ بَيْنَهُنَّ الْمَرْأَةِ وَعَمَّتِهَا وَالْمَرْأَةِ وَخَالَتِهَا ‏.‏",
+      "source_hash_sha256": "0b5bf9fdbab98f7e87ef0135e7ede4c70db34c606ea040e8f45fabb66c3e1050",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ interdit de réunir sous un même mariage quatre femmes, notamment une femme et sa tante paternelle, ou une femme et sa tante maternelle.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1ce692e1-00ba-4305-99ca-056b716b1d88",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1408c",
+      "reference": "Sahih Muslim, hadith 1408 c, book 16, باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "title": "باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ عَبْدِ الْعَزِيزِ، - قَالَ ابْنُ مَسْلَمَةَ مَدَنِيٌّ مِنَ الأَنْصَارِ مِنْ وَلَدِ أَبِي أُمَامَةَ بْنِ سَهْلِ بْنِ حُنَيْفٍ - عَنِ ابْنِ شِهَابٍ، عَنْ قَبِيصَةَ بْنِ ذُؤَيْبٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ تُنْكَحُ الْعَمَّةُ عَلَى بِنْتِ الأَخِ وَلاَ ابْنَةُ الأُخْتِ عَلَى الْخَالَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "731a5d9ac99280609cfd29851bf25e021b16e5e502d027828d049681757d97bf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte avoir entendu le Messager d’Allah ﷺ dire : « On ne peut épouser la tante paternelle en même temps que la fille de son frère, ni la fille de sa sœur en même temps que la tante maternelle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f57e4039-c3d8-4fc0-a378-bdb96e56f7b0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1408d",
+      "reference": "Sahih Muslim, hadith 1408 d, book 16, باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "title": "باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي قَبِيصَةُ بْنُ ذُؤَيْبٍ الْكَعْبِيُّ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يَجْمَعَ الرَّجُلُ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا وَبَيْنَ الْمَرْأَةِ وَخَالَتِهَا ‏.‏ قَالَ ابْنُ شِهَابٍ فَنُرَى خَالَةَ أَبِيهَا وَعَمَّةَ أَبِيهَا بِتِلْكَ الْمَنْزِلَةِ ‏.‏",
+      "source_hash_sha256": "fc18d69f4eed2711b6cb32fad95b6dc86a579a36f51148362bdccfe03355d08f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ interdit à un homme de réunir sous un même mariage une femme et sa tante paternelle, ou une femme et sa tante maternelle. Ibn Shihab ajoute : « Nous considérons que la tante maternelle du père et sa tante paternelle sont soumises à la même règle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a788b723-8c0d-4df7-8376-7a0102998a2e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1408e",
+      "reference": "Sahih Muslim, hadith 1408 e, book 16, باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "title": "باب تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا فِي النِّكَاحِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو مَعْنٍ الرَّقَاشِيُّ، حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، حَدَّثَنَا هِشَامٌ، عَنْ يَحْيَى، أَنَّهُ كَتَبَ إِلَيْهِ عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تُنْكَحُ الْمَرْأَةُ عَلَى عَمَّتِهَا وَلاَ عَلَى خَالَتِهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "be5400ab1bf319dc3c789adcc81d4f6032b62ad05a0aa9a4038c8817fd1c47fd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Une femme ne peut être épousée en même temps que sa tante paternelle ni que sa tante maternelle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6067142f-4b2c-4776-b596-e58011e969e5",
+      "reason": "Cette entrée ne reproduit pas le récit complet et renvoie à une version précédente par « بِهَذَا الإِسْنَادِ », en n’ajoutant qu’une mention de la viande d’âne domestique. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
