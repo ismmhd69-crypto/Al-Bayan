@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0706",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:56:22.033Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f93d84eb-2525-47ab-8cf0-3ffd43dbfe0d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1534a",
+      "reference": "Sahih Muslim, hadith 1534 a, book 21, باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "title": "باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْ بَيْعِ الثَّمَرِ حَتَّى يَبْدُوَ صَلاَحُهَا نَهَى الْبَائِعَ وَالْمُبْتَاعَ.",
+      "source_hash_sha256": "cd235c027eb25505b30619e17ca079da1492d90a8a9ebb9c3549397b3eb39e3f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya dit : « J’ai lu devant Malik, d’après Nafi, d’après Ibn Umar, que le Messager d’Allah a interdit de vendre les fruits avant qu’ils ne soient mûrs et aptes à être récoltés. Il a interdit cette vente au vendeur comme à l’acheteur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e8e426b9-a165-4667-93e6-bb1124a32def",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1534b",
+      "reference": "Sahih Muslim, hadith 1534 b, book 21, باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "title": "باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "a9e260dae2588978b5c3655741f51d2bfd01d17d25cf8a9cd27d9d439d2d42d0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "26ede960-bc27-4f43-9d0c-e7e4e625ed85",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1534c",
+      "reference": "Sahih Muslim, hadith 1534 c, book 21, باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "title": "باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تَبْتَاعُوا الثَّمَرَ حَتَّى يَبْدُوَ صَلاَحُهُ وَتَذْهَبَ عَنْهُ الآفَةُ قَالَ يَبْدُوَ صَلاَحُهُ حُمْرَتُهُ وَصُفْرَتُهُ ‏.‏",
+      "source_hash_sha256": "ec08bea08a909aefb1077f8ffb5139118f7a20a0a9637ec3edc45a31df2f43cf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : Jarir nous a rapporté, d’après Yahya ibn Sa‘id, d’après Nafi, d’après Ibn Umar, qui dit que le Messager d’Allah a dit : « N’achetez pas les fruits avant qu’ils ne soient mûrs et que le risque de calamité ne soit écarté. » Il précisa : « Ils sont mûrs lorsque leur couleur rouge ou jaune apparaît. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c5e2f2df-9d0a-42f8-ae5b-877b3bf56711",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1534d",
+      "reference": "Sahih Muslim, hadith 1534 d, book 21, باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "title": "باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ أَبِي عُمَرَ، قَالاَ حَدَّثَنَا عَبْدُ الْوَهَّابِ، عَنْ يَحْيَى، بِهَذَا الإِسْنَادِ حَتَّى يَبْدُوَ صَلاَحُهُ لَمْ يَذْكُرْ مَا بَعْدَهُ",
+      "source_hash_sha256": "f26776c8393acf42fe762cb3b944621090ec9e8d33160f623db4545c5cd4fb91",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fc4cbd24-28df-4731-a19d-c28ff4e7a643",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1534e",
+      "reference": "Sahih Muslim, hadith 1534 e, book 21, باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "title": "باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ رَافِعٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، أَخْبَرَنَا الضَّحَّاكُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ حَدِيثِ عَبْدِ الْوَهَّابِ ‏.‏",
+      "source_hash_sha256": "59b3dd65443a77fee59c58088175129248532334c781bfb24dd279e395423444",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eca59808-457e-4af8-a325-1cf6bc243b90",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1534f",
+      "reference": "Sahih Muslim, hadith 1534 f, book 21, باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "title": "باب النَّهْىِ عَنْ بَيْعِ الثِّمَارِ، قَبْلَ بُدُوِّ صَلاَحِهَا بِغَيْرِ شَرْطِ الْقَطْعِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا حَفْصُ بْنُ مَيْسَرَةَ، حَدَّثَنِي مُوسَى بْنُ عُقْبَةَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ حَدِيثِ مَالِكٍ وَعُبَيْدِ اللَّهِ ‏.‏",
+      "source_hash_sha256": "0188b1a4a10942613c979ec489ff924aa63ed84f49bc84437fa04e356e43724c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e8e426b9-a165-4667-93e6-bb1124a32def",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "c5e2f2df-9d0a-42f8-ae5b-877b3bf56711",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "fc4cbd24-28df-4731-a19d-c28ff4e7a643",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "eca59808-457e-4af8-a325-1cf6bc243b90",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
