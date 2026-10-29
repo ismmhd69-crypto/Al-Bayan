@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4794,
+    "hadithBukhariDrafted": 4799,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4794,
+    "hadithLocalDrafted": 4799,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9835,
-    "hadithNeedsMo": 747,
+    "hadithLocalRemaining": 9830,
+    "hadithNeedsMo": 748,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -22347,6 +22347,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1046",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1046.json",
+      "sourceIds": [
+        "455d1a9e-fda1-4560-9de0-ad06085d9864",
+        "1579a958-f220-4570-b63e-23d1fb821c8b",
+        "1cf381fa-8d8c-4b1c-8bfd-44291b1996ce",
+        "e0fc0c49-fbf1-49ef-be37-0fc96e01fe1c",
+        "90ecba48-7dbd-4617-a116-44a245b2925f",
+        "f1b330be-d01f-4750-83e0-0462d8f40c04"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -25396,6 +25417,12 @@
       "scope": "Sahih al-Bukhari 5749: direct quotation of Quran 1:2",
       "status": "blocked",
       "reason": "The report directly quotes Quran 1:2. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-5765-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 5765: unclear phrase about undoing the spell",
+      "status": "blocked",
+      "reason": "The exported Arabic phrase is corrupted or unclear (أفلا أى تنشرت). Keep the complete item blank until its source wording is confirmed."
     }
   ]
 }
