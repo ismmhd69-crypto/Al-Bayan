@@ -9541,3 +9541,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0482 saves three private French drafts about fasting while traveling. Muslim 1114b, 1115b, and 1115c only supply additions or references to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1116a–1118a
+
+- FR-LIB-HAD-MUSLIM-0483 saves five private French drafts concerning fasting or breaking the fast while traveling. Muslim 1116b supplies only date variants and refers back to an earlier report, so it remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
