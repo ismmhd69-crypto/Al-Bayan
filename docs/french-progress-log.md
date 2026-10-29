@@ -1211,3 +1211,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-255` saves six private French drafts for Bukhari 1462–1467. They preserve the dialogue with Zaynab, the exemption for a Muslim’s horse and servant, the warning about wealth, and the two-reward explanation for supporting family. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,340 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 76. Total local hadith rows not drafted: 13,289, including held records.
+
+### 2026-10-29: Bukhari 1468–1473 source review
+
+- `FR-LIB-HAD-BUKHARI-256` saves six private French drafts for Bukhari 1468–1473. They preserve the reports on zakat refusal, self-reliance, and al-Hakim ibn Hizam’s repeated refusals of public allocations. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,346 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 76. Total local hadith rows not drafted: 13,283, including held records.
