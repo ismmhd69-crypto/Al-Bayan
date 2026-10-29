@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-0832",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:55:04.800Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d7fde9e0-608c-4a52-82f2-0807f4eec64c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1762b",
+      "reference": "Sahih Muslim, hadith 1762 b, book 32, باب كَيْفِيَّةِ قِسْمَةِ الْغَنِيمَةِ بَيْنَ الْحَاضِرِينَ ‏‏",
+      "title": "باب كَيْفِيَّةِ قِسْمَةِ الْغَنِيمَةِ بَيْنَ الْحَاضِرِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَاهُ ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، بِهَذَا الإِسْنَادِ مِثْلَهُ وَلَمْ يَذْكُرْ فِي النَّفَلِ ‏.‏",
+      "source_hash_sha256": "5dd908f8f38ac706d4030f4caac7c60122a0c928d41b4a0dc8d0e6422d4db9e0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Numayr nous a rapporté : mon père nous a rapporté : ‘Ubayd Allah nous a rapporté, par cette même chaîne, un récit semblable, sans mentionner la part supplémentaire (nafl).",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

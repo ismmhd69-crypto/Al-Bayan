@@ -11286,3 +11286,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0831 saves four private French drafts, including the full 1759c report and three shorter reports. The damaged 1759b source and chain-only 1760b cross-reference remain blank under Needs Mo with specific reasons.
 - The four translated source IDs and hashes are recorded in the artifact and manifest; two held IDs are recorded with their reasons. Focused validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1762b
+
+- FR-LIB-HAD-MUSLIM-0832 saves one private French draft of the short variant. It preserves the chain and explicitly records that this version omits the mention of nafl. Focused validation and diff checks are pending. No database write or publication occurred.
