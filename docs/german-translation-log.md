@@ -66,3 +66,6 @@ Published: `false`
 | muslim-005 | 30 | 30 | 0 | 18350 | 18380 | Stored cleanly as unpublished drafts |
 | muslim-007 | 30 | 30 | 0 | 18380 | 18410 | Stored cleanly as unpublished drafts |
 | muslim-006 | 30 | 30 | 0 | 18410 | 18440 | Stored cleanly as unpublished drafts |
+| muslim-008 | 30 | 30 | 0 | 18440 | 18470 | Stored cleanly as unpublished drafts |
+| muslim-010 | 30 | 30 | 0 | 18470 | 18500 | Stored cleanly as unpublished drafts |
+| muslim-009 | 30 | 30 | 0 | 18500 | 18530 | Stored cleanly as unpublished drafts |
