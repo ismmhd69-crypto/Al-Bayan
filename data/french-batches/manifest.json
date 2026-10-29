@@ -48456,6 +48456,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1113",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1113.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "three complete reports translated as private drafts; three transmission-only variants left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52763,8 +52776,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9714,
-  "hadithLocalRemaining": 4812,
+  "hadithLocalDrafted": 9717,
+  "hadithLocalRemaining": 4809,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -58551,10 +58564,25 @@
       "source_id": "008bb521-44d5-41ef-bf09-14c3b05f4182",
       "reason": "Cette entrée mentionne seulement une variante qui omet une partie du récit précédent et ne fournit pas un récit complet autonome. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "f64a35a4-feec-4d9d-8ecb-0aec8669b292",
+      "reason": "Cette entrée ne donne que des variantes de transmission ou des détails renvoyant au récit précédent, sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "212deaf4-33cd-45ea-a0a5-9a8ed7e99eba",
+      "reason": "Cette entrée ne donne que des variantes de transmission ou des détails renvoyant au récit précédent, sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "67956021-954a-4ec4-85ee-6bd306f5e579",
+      "reason": "Cette entrée ne donne que des variantes de transmission ou des détails renvoyant au récit précédent, sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3551,
+  "hadithMuslimDrafted": 3554,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1484
+  "hadithNeedsMo": 1487
 }

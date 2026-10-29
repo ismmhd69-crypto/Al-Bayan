@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-1113",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:14:59.773Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f64a35a4-feec-4d9d-8ecb-0aec8669b292",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2388c",
+      "reference": "Sahih Muslim, hadith 2388 c, book 44, باب مِنْ فَضَائِلِ أَبِي بَكْرٍ الصِّدِّيقِ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ أَبِي بَكْرٍ الصِّدِّيقِ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا أَبُو دَاوُدَ الْحَفَرِيُّ، عَنْ سُفْيَانَ، كِلاَهُمَا عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي، هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمَعْنَى حَدِيثِ يُونُسَ عَنِ الزُّهْرِيِّ وَفِي حَدِيثِهِمَا ذِكْرُ الْبَقَرَةِ وَالشَّاةِ مَعًا وَقَالاَ فِي حَدِيثِهِمَا ‏\"‏ فَإِنِّي أُومِنُ بِهِ أَنَا وَأَبُو بَكْرٍ وَعُمَرُ ‏\"‏ ‏.‏ وَمَا هُمَا ثَمَّ ‏.‏",
+      "source_hash_sha256": "73e369ef598e5706a2ee834d9159b4ee62b4fa2879ab91bda9680416647b52b8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "212deaf4-33cd-45ea-a0a5-9a8ed7e99eba",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2388d",
+      "reference": "Sahih Muslim, hadith 2388 d, book 44, باب مِنْ فَضَائِلِ أَبِي بَكْرٍ الصِّدِّيقِ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ أَبِي بَكْرٍ الصِّدِّيقِ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ مِسْعَرٍ، كِلاَهُمَا عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "c2c0651d85915d09d814d0f0e21b26149272139ab8dff8d877919e0ac66fedd2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "19675ea6-64b6-4adb-9c35-64ffa4c76fc0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2389a",
+      "reference": "Sahih Muslim, hadith 2389 a, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ عَمْرٍو الأَشْعَثِيُّ، وَأَبُو الرَّبِيعِ الْعَتَكِيُّ، وَأَبُو كُرَيْبٍ مُحَمَّدُ بْنُ الْعَلاَءِ - وَاللَّفْظُ لأَبِي كُرَيْبٍ - قَالَ أَبُو الرَّبِيعِ حَدَّثَنَا وَقَالَ الآخَرَانِ، أَخْبَرَنَا ابْنُ الْمُبَارَكِ، عَنْ عُمَرَ بْنِ سَعِيدِ بْنِ أَبِي حُسَيْنٍ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ وُضِعَ عُمَرُ بْنُ الْخَطَّابِ عَلَى سَرِيرِهِ فَتَكَنَّفَهُ النَّاسُ يَدْعُونَ وَيُثْنُونَ وَيُصَلُّونَ عَلَيْهِ قَبْلَ أَنْ يُرْفَعَ وَأَنَا فِيهِمْ - قَالَ - فَلَمْ يَرُعْنِي إِلاَّ بِرَجُلٍ قَدْ أَخَذَ بِمَنْكِبِي مِنْ وَرَائِي فَالْتَفَتُّ إِلَيْهِ فَإِذَا هُوَ عَلِيُّ فَتَرَحَّمَ عَلَى عُمَرَ وَقَالَ مَا خَلَّفْتَ أَحَدًا أَحَبَّ إِلَىَّ أَنْ أَلْقَى اللَّهَ بِمِثْلِ عَمَلِهِ مِنْكَ وَايْمُ اللَّهِ إِنْ كُنْتُ لأَظُنُّ أَنْ يَجْعَلَكَ اللَّهُ مَعَ صَاحِبَيْكَ وَذَاكَ أَنِّي كُنْتُ أُكَثِّرُ أَسْمَعُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ جِئْتُ أَنَا وَأَبُو بَكْرٍ وَعُمَرُ وَدَخَلْتُ أَنَا وَأَبُو بَكْرٍ وَعُمَرُ وَخَرَجْتُ أَنَا وَأَبُو بَكْرٍ وَعُمَرُ ‏\"‏ ‏.‏ فَإِنْ كُنْتُ لأَرْجُو أَوْ لأَظُنُّ أَنْ يَجْعَلَكَ اللَّهُ مَعَهُمَا ‏.‏",
+      "source_hash_sha256": "b2dafa648c94523faa254cf827b2e9d3c2d3298ac4a67ff1e4ef4b6d3fc67dcd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abbâs rapporte qu’Umar ibn al-Khattâb fut placé sur son lit funéraire. Les gens se rassemblèrent autour de lui, invoquant Allah, louant le défunt et priant sur lui avant que le corps ne soit emporté. J’étais parmi eux. Soudain, un homme me saisit par l’épaule derrière moi. Je me retournai : c’était Alî. Il invoqua la miséricorde d’Allah pour Umar et dit : « Tu ne laisses derrière toi personne dont les actes me plairaient davantage lorsque je rencontrerai Allah. Par Allah, je pensais qu’Allah te réunirait à tes deux compagnons. Je me souviens avoir souvent entendu le Messager d’Allah ﷺ dire : “Je suis venu avec Abû Bakr et Umar, je suis entré avec Abû Bakr et Umar, et je suis sorti avec Abû Bakr et Umar.” J’espérais — ou je pensais — qu’Allah te réunirait à eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "67956021-954a-4ec4-85ee-6bd306f5e579",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2389b",
+      "reference": "Sahih Muslim, hadith 2389 b, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، عَنْ عُمَرَ بْنِ سَعِيدٍ، فِي هَذَا الإِسْنَادِ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "6253942f11b894b0ae258a87bfe9c58bd153c6ae874f59c9e8390d81a1355c5e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cce5e9f6-f50c-4c21-a0d0-e251a4c800a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2390",
+      "reference": "Sahih Muslim, hadith 2390, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَنْصُورُ بْنُ أَبِي مُزَاحِمٍ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ صَالِحِ بْنِ كَيْسَانَ، ح وَحَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَالْحَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، - وَاللَّفْظُ لَهُمْ - قَالُوا حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، حَدَّثَنِي أَبُو أُمَامَةَ، بْنُ سَهْلٍ أَنَّهُ سَمِعَ أَبَا سَعِيدٍ الْخُدْرِيَّ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ بَيْنَا أَنَا نَائِمٌ رَأَيْتُ النَّاسَ يُعْرَضُونَ وَعَلَيْهِمْ قُمُصٌ مِنْهَا مَا يَبْلُغُ الثُّدِيَّ وَمِنْهَا مَا يَبْلُغُ دُونَ ذَلِكَ وَمَرَّ عُمَرُ بْنُ الْخَطَّابِ وَعَلَيْهِ قَمِيصٌ يَجُرُّهُ ‏\"‏ ‏.‏ قَالُوا مَاذَا أَوَّلْتَ ذَلِكَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ الدِّينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2591b0747a8ac63f08acf0fb61eefdf56e6b08c8d075a8d70178e93b029e4c10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Saîd al-Khudrî rapporte que le Messager d’Allah ﷺ dit : « Tandis que je dormais, je vis des gens à qui l’on présentait des chemises : certaines leur arrivaient à la poitrine, d’autres plus bas. Umar ibn al-Khattâb passa avec une chemise qui traînait par terre. » On demanda : « Comment interprètes-tu cela, Messager d’Allah ? » Il répondit : « C’est la religion. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "97f2beb1-6b94-4353-a141-f0be0234d9db",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2391a",
+      "reference": "Sahih Muslim, hadith 2391 a, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، أَنَّ ابْنَ شِهَابٍ، أَخْبَرَهُ عَنْ حَمْزَةَ بْنِ عَبْدِ اللَّهِ بْنِ عُمَرَ بْنِ الْخَطَّابِ، عَنْ أَبِيهِ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ بَيْنَا أَنَا نَائِمٌ إِذْ رَأَيْتُ قَدَحًا أُتِيتُ بِهِ فِيهِ لَبَنٌ فَشَرِبْتُ مِنْهُ حَتَّى إِنِّي لأَرَى الرِّيَّ يَجْرِي فِي أَظْفَارِي ثُمَّ أَعْطَيْتُ فَضْلِي عُمَرَ بْنَ الْخَطَّابِ ‏\"‏ ‏.‏ قَالُوا فَمَا أَوَّلْتَ ذَلِكَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ الْعِلْمَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ee9b61448954a6091cae6345480dd73da6ffb38bbcecb37f416f0f9cbbdf9319",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abdullâh ibn Umar rapporte que le Messager d’Allah ﷺ dit : « Tandis que je dormais, on m’apporta une coupe de lait. J’en bus jusqu’à voir la satiété couler jusque sous mes ongles. Puis je donnai le reste à Umar ibn al-Khattâb. » On demanda : « Comment interprètes-tu cela, Messager d’Allah ? » Il répondit : « C’est le savoir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f64a35a4-feec-4d9d-8ecb-0aec8669b292",
+      "reason": "Cette entrée ne donne que des variantes de transmission ou des détails renvoyant au récit précédent, sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "212deaf4-33cd-45ea-a0a5-9a8ed7e99eba",
+      "reason": "Cette entrée ne donne que des variantes de transmission ou des détails renvoyant au récit précédent, sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "67956021-954a-4ec4-85ee-6bd306f5e579",
+      "reason": "Cette entrée ne donne que des variantes de transmission ou des détails renvoyant au récit précédent, sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
