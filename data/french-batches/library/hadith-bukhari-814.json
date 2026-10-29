@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-814",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:06:02.033Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "dbb9b6a6-08c3-4588-850a-be482aaf4b30",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4501",
+      "reference": "Sahih al-Bukhari, hadith 4501, book 65, باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ‏} ‏",
+      "title": "باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ، قَالَ أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ كَانَ عَاشُورَاءُ يَصُومُهُ أَهْلُ الْجَاهِلِيَّةِ، فَلَمَّا نَزَلَ رَمَضَانُ قَالَ ‏\"‏ مَنْ شَاءَ صَامَهُ، وَمَنْ شَاءَ لَمْ يَصُمْهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "7f802af2ecba44f25d7ad61cc3d3cbb4e000ca78080e62ef1534ae154771c9f6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn ʿUmar (qu’Allah les agrée tous deux) rapporte : Les gens de l’époque préislamique jeûnaient le jour de ʿÂshûrâʾ. Lorsque le jeûne du Ramadan fut prescrit, le Prophète (paix et bénédictions sur lui) dit : « Que celui qui le souhaite jeûne ce jour-là, et que celui qui le souhaite ne le jeûne pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "79c7a8f6-d0a4-4844-9cc7-4af4fdc2d478",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4502",
+      "reference": "Sahih al-Bukhari, hadith 4502, book 65, باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ‏} ‏",
+      "title": "باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ كَانَ عَاشُورَاءُ يُصَامُ قَبْلَ رَمَضَانَ، فَلَمَّا نَزَلَ رَمَضَانُ قَالَ ‏\"‏ مَنْ شَاءَ صَامَ، وَمَنْ شَاءَ أَفْطَرَ ‏\"‏‏.‏",
+      "source_hash_sha256": "391bdb69c0f8eb4048c455642c7d227b15e2e955c85aaef88043fb3b3ad19e42",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂʾisha (qu’Allah l’agrée) rapporte : Avant la prescription du Ramadan, le jour de ʿÂshûrâʾ était jeûné. Lorsque le Ramadan fut prescrit, le Prophète (paix et bénédictions sur lui) dit : « Que celui qui le souhaite jeûne, et que celui qui le souhaite rompe son jeûne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2abb18f1-8f05-4ba9-bd5a-5406851fb69c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4503",
+      "reference": "Sahih al-Bukhari, hadith 4503, book 65, باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ‏} ‏",
+      "title": "باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مَحْمُودٌ، أَخْبَرَنَا عُبَيْدُ اللَّهِ، عَنْ إِسْرَائِيلَ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، عَنْ عَبْدِ اللَّهِ، قَالَ دَخَلَ عَلَيْهِ الأَشْعَثُ وَهْوَ يَطْعَمُ فَقَالَ الْيَوْمُ عَاشُورَاءُ‏.‏ فَقَالَ كَانَ يُصَامُ قَبْلَ أَنْ يَنْزِلَ رَمَضَانُ، فَلَمَّا نَزَلَ رَمَضَانُ تُرِكَ، فَادْنُ فَكُلْ‏.‏",
+      "source_hash_sha256": "c0f405b85c89c94f37dd1398b9faf213dee8fe6875637c303746abe8e70ccf2e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAlqama rapporte : Al-Ashʿath entra auprès de ʿAbd Allâh alors qu’il mangeait et lui dit : « Aujourd’hui, c’est le jour de ʿÂshûrâʾ. » Il répondit : « On jeûnait ce jour-là avant la prescription du Ramadan. Lorsque le Ramadan fut prescrit, on délaissa ce jeûne. Approche-toi et mange. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fb68c672-ad50-4506-b514-3fd2dda1ecfd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4504",
+      "reference": "Sahih al-Bukhari, hadith 4504, book 65, باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ‏} ‏",
+      "title": "باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى، حَدَّثَنَا هِشَامٌ، قَالَ أَخْبَرَنِي أَبِي، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ يَوْمُ عَاشُورَاءَ تَصُومُهُ قُرَيْشٌ فِي الْجَاهِلِيَّةِ، وَكَانَ النَّبِيُّ صلى الله عليه وسلم يَصُومُهُ، فَلَمَّا قَدِمَ الْمَدِينَةَ صَامَهُ وَأَمَرَ بِصِيَامِهِ، فَلَمَّا نَزَلَ رَمَضَانُ كَانَ رَمَضَانُ الْفَرِيضَةَ، وَتُرِكَ عَاشُورَاءُ، فَكَانَ مَنْ شَاءَ صَامَهُ، وَمَنْ شَاءَ لَمْ يَصُمْهُ‏.‏",
+      "source_hash_sha256": "af9b28fdbaf5e36b6c87c3e6b6bb12328fd1b34302f9528adce5d6aeb5d703e5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂʾisha (qu’Allah l’agrée) rapporte : À l’époque préislamique, les Quraychites jeûnaient le jour de ʿÂshûrâʾ, et le Prophète (paix et bénédictions sur lui) le jeûnait aussi. Lorsqu’il arriva à Médine, il le jeûna et ordonna aux gens de faire de même. Lorsque le Ramadan fut prescrit, son jeûne devint obligatoire et celui de ʿÂshûrâʾ fut délaissé. Dès lors, celui qui le souhaitait le jeûnait, et celui qui le souhaitait ne le jeûnait pas.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "03c35fed-5774-4b4b-ad04-cd93a18d9f9e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4505",
+      "reference": "Sahih al-Bukhari, hadith 4505, book 65, باب قَوْلِهِ ‏ {‏أَيَّامًا مَعْدُودَاتٍ فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ عَلَى سَفَرٍ فَعِدَّةٌ مِنْ أَيَّامٍ أُخَرَ وَعَلَى الَّذِينَ يُطِيقُونَهُ فِدْيَةٌ طَعَامُ مِسْكِينٍ فَمَنْ تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَهُ وَأَنْ تَصُومُوا خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏أَيَّامًا مَعْدُودَاتٍ فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ عَلَى سَفَرٍ فَعِدَّةٌ مِنْ أَيَّامٍ أُخَرَ وَعَلَى الَّذِينَ يُطِيقُونَهُ فِدْيَةٌ طَعَامُ مِسْكِينٍ فَمَنْ تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَهُ وَأَنْ تَصُومُوا خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ، أَخْبَرَنَا رَوْحٌ، حَدَّثَنَا زَكَرِيَّاءُ بْنُ إِسْحَاقَ، حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، عَنْ عَطَاءٍ، سَمِعَ ابْنَ عَبَّاسٍ، يَقْرَأُ ‏[quran sura=\"2\" aya_start=\"184\" aya_end=\"184\"]{‏وَعَلَى الَّذِينَ يُطَوَّقُونَهُ فِدْيَةٌ طَعَامُ مِسْكِينٍ ‏}‏‏.‏ قَالَ ابْنُ عَبَّاسٍ لَيْسَتْ بِمَنْسُوخَةٍ، هُوَ الشَّيْخُ الْكَبِيرُ وَالْمَرْأَةُ الْكَبِيرَةُ لاَ يَسْتَطِيعَانِ أَنْ يَصُومَا، فَلْيُطْعِمَانِ مَكَانَ كُلِّ يَوْمٍ مِسْكِينًا‏.‏",
+      "source_hash_sha256": "71c2d74738fa29cbc2851fec69a91ea1ee05ec9f6f12de769c4caf4e1d99b03c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "be904533-1370-4b04-831c-4b19d2198923",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4506",
+      "reference": "Sahih al-Bukhari, hadith 4506, book 65, باب ‏ {‏فَمَنْ شَهِدَ مِنْكُمُ الشَّهْرَ فَلْيَصُمْهُ‏} ‏",
+      "title": "باب ‏ {‏فَمَنْ شَهِدَ مِنْكُمُ الشَّهْرَ فَلْيَصُمْهُ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَيَّاشُ بْنُ الْوَلِيدِ، حَدَّثَنَا عَبْدُ الأَعْلَى، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ أَنَّهُ قَرَأَ [quran sura=\"2\" aya_start=\"184\" aya_end=\"184\"]‏{‏فِدْيَةٌ طَعَامُ مَسَاكِينَ‏}‏ قَالَ هِيَ مَنْسُوخَةٌ‏.‏",
+      "source_hash_sha256": "7a3ab2f8be857284eb2f35209404bc7baf93bf2551f61869120ecf0ab751a065",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "03c35fed-5774-4b4b-ad04-cd93a18d9f9e",
+      "url": "https://sunnah.com/bukhari:4505",
+      "reason": "The report directly quotes Quran 2:184. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    },
+    {
+      "source_id": "be904533-1370-4b04-831c-4b19d2198923",
+      "url": "https://sunnah.com/bukhari:4506",
+      "reason": "The report directly quotes part of Quran 2:184. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    }
+  ]
+}

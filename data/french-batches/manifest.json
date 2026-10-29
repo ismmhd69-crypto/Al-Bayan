@@ -17631,6 +17631,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-814",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-814.json",
+      "sourceIds": [
+        "dbb9b6a6-08c3-4588-850a-be482aaf4b30",
+        "79c7a8f6-d0a4-4844-9cc7-4af4fdc2d478",
+        "2abb18f1-8f05-4ba9-bd5a-5406851fb69c",
+        "fb68c672-ad50-4506-b514-3fd2dda1ecfd",
+        "03c35fed-5774-4b4b-ad04-cd93a18d9f9e",
+        "be904533-1370-4b04-831c-4b19d2198923"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18263,9 +18284,21 @@
       "scope": "Sahih al-Bukhari 4498: direct quotations of Quran 2:178",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:178. The complete record remains blank in FR-LIB-HAD-BUKHARI-813 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4505-QURAN-2-184",
+      "scope": "Sahih al-Bukhari 4505: direct quotation of Quran 2:184",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:184. The complete record remains blank in FR-LIB-HAD-BUKHARI-814 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4506-QURAN-2-184",
+      "scope": "Sahih al-Bukhari 4506: direct quotation of Quran 2:184",
+      "status": "blocked",
+      "reason": "The report directly quotes part of Quran 2:184. The complete record remains blank in FR-LIB-HAD-BUKHARI-814 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3947,
-  "hadithLocalDrafted": 3947,
-  "hadithLocalRemaining": 10710
+  "hadithBukhariDrafted": 3951,
+  "hadithLocalDrafted": 3951,
+  "hadithLocalRemaining": 10706
 }
