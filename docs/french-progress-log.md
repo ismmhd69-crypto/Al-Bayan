@@ -880,3 +880,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-175` saves six private French drafts for Bukhari 991–996. They preserve the nighttime prayer forms, the narrator’s explanation of a rapid pre-dawn prayer, and the reported range for performing the witr prayer.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 924 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 45. Total local hadith rows not drafted: 13,705, including held records.
+### 2026-10-29: Bukhari 997–1002 source review
+
+- `FR-LIB-HAD-BUKHARI-176` saves six private French drafts for Bukhari 997–1002. They preserve waking one’s spouse for witr, completing the night prayer with an odd number, the prayer while traveling, and the reports about qunut.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 930 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 45. Total local hadith rows not drafted: 13,699, including held records.
