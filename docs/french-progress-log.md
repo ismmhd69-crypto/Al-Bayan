@@ -1331,3 +1331,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-279` saves six private French drafts for Bukhari 1605–1610. They preserve Umar’s explanation for continuing the tawaf practice, the reports about touching the Kaaba’s corners, and the reported differences in practice. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,480 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 81. Total local hadith rows not drafted: 13,148, including held records.
+
+### 2026-10-29: Bukhari 1611–1617 source review
+
+- `FR-LIB-HAD-BUKHARI-280` saves six private French drafts for the available source records 1611–1614 and 1616–1617. No source record for 1615 was present in the exporter batch. They preserve the reports about touching the corners, the tawaf pace, and the Sa‘y. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,486 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 81. Total local hadith rows not drafted: 13,142, including held records.
