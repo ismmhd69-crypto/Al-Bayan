@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1370",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:37:07.852Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b6923672-d2a2-4d72-b08b-c9c48da012df",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7502",
+      "reference": "Sahih al-Bukhari, hadith 7502, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنِي سُلَيْمَانُ بْنُ بِلاَلٍ، عَنْ مُعَاوِيَةَ بْنِ أَبِي مُزَرِّدٍ، عَنْ سَعِيدِ بْنِ يَسَارٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ خَلَقَ اللَّهُ الْخَلْقَ فَلَمَّا فَرَغَ مِنْهُ قَامَتِ الرَّحِمُ فَقَالَ مَهْ‏.‏ قَالَتْ هَذَا مَقَامُ الْعَائِذِ بِكَ مِنَ الْقَطِيعَةِ‏.‏ فَقَالَ أَلاَ تَرْضَيْنَ أَنْ أَصِلَ مَنْ وَصَلَكِ، وَأَقْطَعَ مَنْ قَطَعَكِ قَالَتْ بَلَى يَا رَبِّ‏.‏ قَالَ فَذَلِكِ لَكِ ‏\"‏‏.‏ ثُمَّ قَالَ أَبُو هُرَيْرَةَ ‏[quran sura=\"47\" aya_start=\"22\" aya_end=\"22\"]{‏فَهَلْ عَسَيْتُمْ إِنْ تَوَلَّيْتُمْ أَنْ تُفْسِدُوا فِي الأَرْضِ وَتُقَطِّعُوا أَرْحَامَكُمْ‏}‏",
+      "source_hash_sha256": "fac08e0e571ec76f142a10493e8f6d9567d7d8ddc0296ba9df4af3ed0a281011",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "This report directly quotes Quran 47:22. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "source_id": "a4f80e73-b8b3-4101-a6fe-aafb92d4401c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7503",
+      "reference": "Sahih al-Bukhari, hadith 7503, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا سُفْيَانُ، عَنْ صَالِحٍ، عَنْ عُبَيْدِ اللَّهِ، عَنْ زَيْدِ بْنِ خَالِدٍ، قَالَ مُطِرَ النَّبِيُّ صلى الله عليه وسلم فَقَالَ ‏\"‏ قَالَ اللَّهُ أَصْبَحَ مِنْ عِبَادِي كَافِرٌ بِي وَمُؤْمِنٌ بِي ‏\"‏‏.‏",
+      "source_hash_sha256": "f4c1496475892a3cb0cf4e03f9bd3d1558ed368295625ecbda27e184ea5cb2ed",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Sufyân nous a rapporté, d’après Sâlih, d’après ‘Ubayd Allah, d’après Zayd ibn Khâlid, qui a dit : Le Prophète ﷺ fut surpris par la pluie et dit : « Allah dit : “Ce matin, parmi Mes serviteurs, il y a celui qui ne croit pas en Moi et celui qui croit en Moi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "699da686-9acf-4842-bab7-08ebf22b0646",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7504",
+      "reference": "Sahih al-Bukhari, hadith 7504, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، حَدَّثَنِي مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ اللَّهُ إِذَا أَحَبَّ عَبْدِي لِقَائِي أَحْبَبْتُ لِقَاءَهُ، وَإِذَا كَرِهَ لِقَائِي كَرِهْتُ لِقَاءَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "cca5da711164a1e594918741f6a2f22efe15c261dadab9c17077c5bb0be7a589",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ismâ‘îl m’a rapporté : Mâlik m’a rapporté, d’après Abû az-Zinâd, d’après al-A‘raj, d’après Abû Hurayra, que le Messager d’Allah ﷺ a dit : « Allah dit : “Lorsque Mon serviteur aime Me rencontrer, J’aime le rencontrer ; et lorsqu’il déteste Me rencontrer, Je déteste le rencontrer.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e9ab4ebf-f1c8-451e-a2f6-c22bd45015bf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7505",
+      "reference": "Sahih al-Bukhari, hadith 7505, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، حَدَّثَنَا أَبُو الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ اللَّهُ أَنَا عِنْدَ ظَنِّ عَبْدِي بِي ‏\"‏‏.‏",
+      "source_hash_sha256": "09a0f63b964f3e7737e331c1a18d380bbec4eb52cc220bb419d44c59b42a231d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Yamân nous a rapporté : Shu‘ayb nous a informés : Abû az-Zinâd nous a rapporté, d’après al-A‘raj, d’après Abû Hurayra, d’après le Messager d’Allah ﷺ, qui a dit : « Allah dit : “Je suis selon l’opinion que Mon serviteur se fait de Moi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "adced570-8e64-45c3-9cbd-80b236bf7b88",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7506",
+      "reference": "Sahih al-Bukhari, hadith 7506, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، حَدَّثَنِي مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ رَجُلٌ لَمْ يَعْمَلْ خَيْرًا قَطُّ، فَإِذَا مَاتَ فَحَرِّقُوهُ وَاذْرُوا نِصْفَهُ فِي الْبَرِّ وَنِصْفَهُ فِي الْبَحْرِ فَوَاللَّهِ لَئِنْ قَدَرَ اللَّهُ عَلَيْهِ لَيُعَذِّبَنَّهُ عَذَابًا لاَ يُعَذِّبُهُ أَحَدًا مِنَ الْعَالَمِينَ، فَأَمَرَ اللَّهُ الْبَحْرَ فَجَمَعَ مَا فِيهِ، وَأَمَرَ الْبَرَّ فَجَمَعَ مَا فِيهِ ثُمَّ قَالَ لِمَ فَعَلْتَ قَالَ مِنْ خَشْيَتِكَ، وَأَنْتَ أَعْلَمُ، فَغَفَرَ لَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "ca630844f62c725b498809f2ddac15816d1bdf20126212cbb36e4c012fcf3b5b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ismâ‘îl m’a rapporté : Mâlik m’a rapporté, d’après Abû az-Zinâd, d’après al-A‘raj, d’après Abû Hurayra, que le Messager d’Allah ﷺ a dit : « Un homme qui n’avait jamais accompli de bien dit : “Quand je mourrai, brûlez-moi, puis dispersez-en la moitié sur la terre et l’autre moitié dans la mer. Par Allah, si Allah parvient à disposer de moi, Il me châtiera comme jamais personne dans les mondes n’a été châtié.” Allah ordonna à la mer de rassembler ce qui s’y trouvait et à la terre de rassembler ce qui s’y trouvait. Puis Il lui demanda : “Pourquoi as-tu fait cela ?” L’homme répondit : “Par crainte de Toi, et Tu le sais mieux que moi.” Alors Allah lui pardonna. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e6d2f726-cb3f-4d63-a886-46fd14c92d25",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7507",
+      "reference": "Sahih al-Bukhari, hadith 7507, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ إِسْحَاقَ، حَدَّثَنَا عَمْرُو بْنُ عَاصِمٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا إِسْحَاقُ بْنُ عَبْدِ اللَّهِ، سَمِعْتُ عَبْدَ الرَّحْمَنِ بْنَ أَبِي عَمْرَةَ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ عَبْدًا أَصَابَ ذَنْبًا ـ وَرُبَّمَا قَالَ أَذْنَبَ ذَنْبًا ـ فَقَالَ رَبِّ أَذْنَبْتُ ـ وَرُبَّمَا قَالَ أَصَبْتُ ـ فَاغْفِرْ لِي فَقَالَ رَبُّهُ أَعَلِمَ عَبْدِي أَنَّ لَهُ رَبًّا يَغْفِرُ الذَّنْبَ وَيَأْخُذُ بِهِ غَفَرْتُ لِعَبْدِي‏.‏ ثُمَّ مَكَثَ مَا شَاءَ اللَّهُ، ثُمَّ أَصَابَ ذَنْبًا أَوْ أَذْنَبَ ذَنْبًا، فَقَالَ رَبِّ أَذْنَبْتُ ـ أَوْ أَصَبْتُ ـ آخَرَ فَاغْفِرْهُ‏.‏ فَقَالَ أَعَلِمَ عَبْدِي أَنَّ لَهُ رَبًّا يَغْفِرُ الذَّنْبَ وَيَأْخُذُ بِهِ غَفَرْتُ لِعَبْدِي، ثُمَّ مَكَثَ مَا شَاءَ اللَّهُ ثُمَّ أَذْنَبَ ذَنْبًا ـ وَرُبَّمَا قَالَ أَصَابَ ذَنْبًا ـ قَالَ قَالَ رَبِّ أَصَبْتُ ـ أَوْ أَذْنَبْتُ ـ آخَرَ فَاغْفِرْهُ لِي‏.‏ فَقَالَ أَعَلِمَ عَبْدِي أَنَّ لَهُ رَبًّا يَغْفِرُ الذَّنْبَ وَيَأْخُذُ بِهِ غَفَرْتُ لِعَبْدِي ـ ثَلاَثًا ـ فَلْيَعْمَلْ مَا شَاءَ ‏\"‏‏.‏",
+      "source_hash_sha256": "b226b27a12e76085ce90935c47b84d3235fcf0ce4bfe5f410a7bd3438dfd97e3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Ishâq nous a rapporté : ‘Amr ibn ‘Âsim nous a rapporté : Hammâm nous a rapporté : Ishâq ibn ‘Abd Allah nous a rapporté : J’ai entendu ‘Abd ar-Rahmân ibn Abî ‘Amra dire : J’ai entendu Abû Hurayra dire : J’ai entendu le Prophète ﷺ dire : « Un serviteur commit un péché — ou il dit : “avait péché” — puis dit : “Mon Seigneur, j’ai péché — ou : j’ai commis une faute —, pardonne-moi.” Son Seigneur dit : “Mon serviteur sait qu’il a un Seigneur qui pardonne le péché et en tient compte ? J’ai pardonné à Mon serviteur.” Puis il resta aussi longtemps qu’Allah le voulut, avant de commettre un autre péché — ou une autre faute — et de dire : “Mon Seigneur, j’ai commis un autre péché — ou une autre faute —, pardonne-le-moi.” Allah dit : “Mon serviteur sait qu’il a un Seigneur qui pardonne le péché et en tient compte ? J’ai pardonné à Mon serviteur.” Puis il resta aussi longtemps qu’Allah le voulut, avant de commettre un péché — ou, selon une autre formulation, une faute. Il dit : “Mon Seigneur, j’ai commis un autre péché — ou une autre faute —, pardonne-le-moi.” Allah dit : “Mon serviteur sait qu’il a un Seigneur qui pardonne le péché et en tient compte ? J’ai pardonné à Mon serviteur” — trois fois — “qu’il fasse donc ce qu’il veut.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b6923672-d2a2-4d72-b08b-c9c48da012df",
+      "reason": "This report directly quotes Quran 47:22. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    }
+  ]
+}

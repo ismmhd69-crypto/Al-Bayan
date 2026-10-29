@@ -7035,3 +7035,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1369 saves 5 private French drafts. Hadith 7500 directly quotes Quran 24:11 and reports the continuation through ten verses; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,292 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 152. Total local hadith rows not drafted: 8,337, including held records.
+
+### 2026-10-29: Bukhari 7502–7507
+
+- FR-LIB-HAD-BUKHARI-1370 saves 5 private French drafts. Hadith 7502 directly quotes Quran 47:22; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,297 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 153. Total local hadith rows not drafted: 8,332, including held records.
