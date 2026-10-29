@@ -11558,3 +11558,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1911b-1913a
 
 - FR-LIB-HAD-MUSLIM-0899 saves five private French drafts about reward for illness preventing a campaign, sea expeditions, and border guard duty. The separate accounts of Umm Harām’s voyage and death, and the “green sea” wording, are preserved. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1913b-1914e
+
+- FR-LIB-HAD-MUSLIM-0900 saves five private French drafts about border guard duty and removing hazards from a road. The five reported categories of martyrdom and the distinct branch-removal accounts are preserved. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
