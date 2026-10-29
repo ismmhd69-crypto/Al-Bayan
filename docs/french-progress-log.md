@@ -13196,3 +13196,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Batch FR-LIB-HAD-MUSLIM-1274 covers six reports. Four complete reports are translated. One incomplete variant and one entry containing a Quran quotation remain blank under Needs Mo.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Four private local drafts saved.
 - Recounted local hadith artifacts: 6,336 Bukhari and 4,974 Muslim drafts (11,310 total); 2,826 held Needs Mo; 14,129 sources represented; 500 not yet exported. Local hadith records without French drafts: 3,319. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2792–2795a, batch 1275
+
+- Batch FR-LIB-HAD-MUSLIM-1275 covers six reports. Two complete reports are translated. Four entries with Quran quotations or incomplete reference text remain blank under Needs Mo.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Two private local drafts saved.
+- Recounted local hadith artifacts: 6,336 Bukhari and 4,976 Muslim drafts (11,312 total); 2,830 held Needs Mo; 14,135 sources represented; 494 not yet exported. Local hadith records without French drafts: 3,317. All 14,629 remain missing from the live French table.
