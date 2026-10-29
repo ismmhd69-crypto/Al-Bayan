@@ -6097,3 +6097,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1196 saves six private French drafts about meeting Allah, the Prophet’s final days, and the approach of the Hour. No database writes or publication occurred.
 - All six drafts passed the focused validator. Bukhari local drafts: 5,483 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 789. Total local hadith rows not drafted: 9,146, including held records.
+
+### 2026-10-29: Bukhari 6513–6518
+
+- FR-LIB-HAD-BUKHARI-1197 saves six private French drafts about death, accountability, and the approach of the Hour. No database writes or publication occurred.
+- All six drafts passed the focused validator. Bukhari local drafts: 5,489 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 789. Total local hadith rows not drafted: 9,140, including held records.
