@@ -2631,3 +2631,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-543` saves the complete 4,405-character report about al-Zubayr’s debts, estate, and the repayment process. The exporter found one eligible record, and it passed the single-item long-source validator.
 - No database writes or publication occurred. Bukhari local drafts: 2,821 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,834, including held records.
+
+### 2026-10-29: Bukhari 3130–3136
+
+- `FR-LIB-HAD-BUKHARI-544` saves six private French drafts, including the combined 3131–3132 account of the Hawâzin delegation and the release of its captives.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,827 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,828, including held records.
