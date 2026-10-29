@@ -5815,3 +5815,8 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6167–6172
 
 - FR-LIB-HAD-BUKHARI-1134 saves six private French drafts about the Last Hour and loving the righteous. No database writes or publication occurred. Bukhari local drafts: 5,166 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,461, including held records.
+
+### 2026-10-29: Bukhari 6173
+
+- FR-LIB-HAD-BUKHARI-1135 saves one private French draft for the long report about Ibn Sayyad, including the source’s explanatory Arabic note. It was handled as a one-record batch.
+- The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,167 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,460, including held records.
