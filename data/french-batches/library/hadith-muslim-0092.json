@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-MUSLIM-0092",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:25:07.369Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b00d3b54-95d8-4edd-9816-78f195280e5e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:193b",
+      "reference": "Sahih Muslim, hadith 193 b, book 1, باب أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً فِيهَا ‏‏",
+      "title": "باب أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً فِيهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالاَ حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَجْتَمِعُ الْمُؤْمِنُونَ يَوْمَ الْقِيَامَةِ فَيَهْتَمُّونَ بِذَلِكَ أَوْ يُلْهَمُونَ ذَلِكَ ‏\"‏ ‏.‏ بِمِثْلِ حَدِيثِ أَبِي عَوَانَةَ وَقَالَ فِي الْحَدِيثِ ‏\"‏ ثُمَّ آتِيهِ الرَّابِعَةَ - أَوْ أَعُودُ الرَّابِعَةَ - فَأَقُولُ يَا رَبِّ مَا بَقِيَ إِلاَّ مَنْ حَبَسَهُ الْقُرْآنُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "af23af29e80b3838e64412697bb04b07b1151594ced3f64256756d4da77a86d3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Muhammad ibn Bashshar nous ont rapporté, d’après Ibn Abi ‘Adiyy, d’après Sa‘id, d’après Qatada, d’après Anas, que le Messager de Dieu ﷺ a dit : « Les croyants se rassembleront au Jour de la Résurrection et seront préoccupés par cela — ou inspirés à cette demande. » Le récit est semblable à celui d’Abu ‘Awana. Il précise : « Puis je reviendrai auprès de Lui une quatrième fois — ou : je reviendrai une quatrième fois — et je dirai : “Seigneur, il ne reste que ceux que le Coran a retenus.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0ec89744-14a9-46f5-93bf-b003fb2cddc7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:193c",
+      "reference": "Sahih Muslim, hadith 193 c, book 1, باب أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً فِيهَا ‏‏",
+      "title": "باب أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً فِيهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يَجْمَعُ اللَّهُ الْمُؤْمِنِينَ يَوْمَ الْقِيَامَةِ فَيُلْهَمُونَ لِذَلِكَ ‏\"‏ بِمِثْلِ حَدِيثِهِمَا وَذَكَرَ فِي الرَّابِعَةِ ‏\"‏ فَأَقُولُ يَا رَبِّ مَا بَقِيَ فِي النَّارِ إِلاَّ مَنْ حَبَسَهُ الْقُرْآنُ أَىْ وَجَبَ عَلَيْهِ الْخُلُودُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fe4698365a2cc725c80c70fc173768f4a94f04b40cb82e48378456dbf116ee31",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté, d’après Mu‘adh ibn Hisham, qui a dit : mon père m’a rapporté, d’après Qatada, d’après Anas ibn Malik, que le Prophète de Dieu ﷺ a dit : « Dieu rassemblera les croyants au Jour de la Résurrection et ils seront inspirés à cette demande. » Il rapporta un récit semblable aux deux précédents et mentionna, à propos de la quatrième fois : « Je dirai : “Seigneur, il ne reste dans l’Enfer que ceux que le Coran a retenus”, c’est-à-dire ceux pour qui l’éternité en Enfer est devenue obligatoire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "13fd9459-db55-40c7-a9ca-77fb52c7f22b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:193d",
+      "reference": "Sahih Muslim, hadith 193 d, book 1, باب أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً فِيهَا ‏‏",
+      "title": "باب أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً فِيهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ مِنْهَالٍ الضَّرِيرُ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا سَعِيدُ بْنُ أَبِي عَرُوبَةَ، وَهِشَامٌ، صَاحِبُ الدَّسْتَوَائِيِّ عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ح وَحَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا مُعَاذٌ، - وَهُوَ ابْنُ هِشَامٍ - قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ يَخْرُجُ مِنَ النَّارِ مَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ وَكَانَ فِي قَلْبِهِ مِنَ الْخَيْرِ مَا يَزِنُ شَعِيرَةً ثُمَّ يَخْرُجُ مِنَ النَّارِ مَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ وَكَانَ فِي قَلْبِهِ مِنَ الْخَيْرِ مَا يَزِنُ بُرَّةً ثُمَّ يَخْرُجُ مِنَ النَّارِ مَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ وَكَانَ فِي قَلْبِهِ مِنَ الْخَيْرِ مَا يَزِنُ ذَرَّةً ‏\"‏ ‏.‏ زَادَ ابْنُ مِنْهَالٍ فِي رِوَايَتِهِ قَالَ يَزِيدُ فَلَقِيتُ شُعْبَةَ فَحَدَّثْتُهُ بِالْحَدِيثِ فَقَالَ شُعْبَةُ حَدَّثَنَا بِهِ قَتَادَةُ عَنْ أَنَسِ بْنِ مَالِكٍ عَنِ النَّبِيِّ صلى الله عليه وسلم بِالْحَدِيثِ ‏.‏ إِلاَّ أَنَّ شُعْبَةَ جَعَلَ مَكَانَ الذَّرَّةِ ذُرَةً قَالَ يَزِيدُ صَحَّفَ فِيهَا أَبُو بِسْطَامٍ ‏.‏",
+      "source_hash_sha256": "f088690380e0dd1e944db2cbd9ca241f53147301fa06d5ef78a76e74a00e0e3b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Minhal al-Darir nous a rapporté, d’après Yazid ibn Zuray‘, d’après Sa‘id ibn Abi ‘Aruba et Hisham, compagnon d’al-Dastawa’i, d’après Qatada, d’après Anas ibn Malik, que le Messager de Dieu ﷺ a dit. Abu Ghassan al-Misma‘i et Muhammad ibn al-Muthanna nous ont également rapporté, d’après Mu‘adh — c’est-à-dire Ibn Hisham —, qui a dit : mon père m’a rapporté, d’après Qatada, qui a dit : Anas ibn Malik nous a rapporté que le Prophète ﷺ a dit : « Sortira de l’Enfer quiconque aura dit : “Il n’y a de divinité que Dieu”, et aura dans son cœur une bonté du poids d’un grain d’orge. Puis sortira de l’Enfer quiconque aura dit : “Il n’y a de divinité que Dieu”, et aura dans son cœur une bonté du poids d’un grain de blé. Puis sortira de l’Enfer quiconque aura dit : “Il n’y a de divinité que Dieu”, et aura dans son cœur une bonté du poids d’un atome. » Dans sa version, Ibn Minhal ajoute que Yazid dit : « J’ai rencontré Shu‘ba et lui ai rapporté ce hadith. Shu‘ba dit : “Qatada nous l’a rapporté, d’après Anas ibn Malik, d’après le Prophète ﷺ”, avec cette différence qu’à la place de “atome”, Shu‘ba a dit “maïs”. » Yazid dit : « Abu Bistam s’est trompé sur ce mot. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

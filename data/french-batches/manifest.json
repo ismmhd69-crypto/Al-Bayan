@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:25:05.742Z",
+  "lastReconciled": "2026-10-29T14:25:26.487Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 368,
+    "hadithMuslimDrafted": 371,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6704,
-    "hadithDatabaseMissing": 7925,
-    "hadithLocalRemaining": 7925,
+    "hadithLocalDrafted": 6707,
+    "hadithDatabaseMissing": 7922,
+    "hadithLocalRemaining": 7922,
     "hadithNeedsMo": 225,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -30929,6 +30929,24 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0092",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0092.json",
+      "sourceIds": [
+        "b00d3b54-95d8-4edd-9816-78f195280e5e",
+        "0ec89744-14a9-46f5-93bf-b003fb2cddc7",
+        "13fd9459-db55-40c7-a9ca-77fb52c7f22b"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; variant wording and grain quantities retained",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35140,8 +35158,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6704,
-  "hadithLocalRemaining": 7925,
+  "hadithLocalDrafted": 6707,
+  "hadithLocalRemaining": 7922,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36494,8 +36512,8 @@
       "reason": "Ce récit cite directement les versets 3:192 et 32:20 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 368,
-  "hadithDatabaseMissing": 7925,
+  "hadithMuslimDrafted": 371,
+  "hadithDatabaseMissing": 7922,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 225
 }
