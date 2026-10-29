@@ -6087,3 +6087,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1194 saves six private French drafts about protecting one’s faith, trust, and the rights owed to Allah. No database writes or publication occurred.
 - All six drafts passed the focused validator. Bukhari local drafts: 5,472 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 788. Total local hadith rows not drafted: 9,157, including held records.
+
+### 2026-10-29: Bukhari 6501–6506 — one held
+
+- FR-LIB-HAD-BUKHARI-1195 saves five private French drafts. Bukhari 6506 remains blank because it directly quotes Quran 6:158. No database writes or publication occurred.
+- The five drafts passed the focused validator. Bukhari local drafts: 5,477 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 789. Total local hadith rows not drafted: 9,152, including held records.

@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5472,
+    "hadithBukhariDrafted": 5477,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5472,
+    "hadithLocalDrafted": 5477,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9157,
-    "hadithNeedsMo": 788,
+    "hadithLocalRemaining": 9152,
+    "hadithNeedsMo": 789,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25306,6 +25306,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1195",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1195.json",
+      "sourceIds": [
+        "83052ba8-eddd-4c03-86df-c78c733051ba",
+        "2ebe53e2-5a11-43ad-bd7e-7aa484cc6882",
+        "73e8aaa1-e361-4df7-ad59-20efd9dc4402",
+        "3f042f2d-cf8a-48bf-ad84-8f90c4ad4c84",
+        "b8cd8f96-3eca-4718-be13-91748e649c9d",
+        "1241a5b3-a43a-4370-afe3-9c101d5ef31c"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6506 remains blank because it directly quotes Quran 6:158. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -28422,11 +28443,17 @@
       "scope": "Sahih al-Bukhari 6481: direct quotation of the Quranic word كن attributed to Allah",
       "status": "blocked",
       "reason": "The report quotes the Quranic word كن attributed to Allah. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6506-QURAN-6-158",
+      "scope": "Sahih al-Bukhari 6506: direct quotation of Quran 6:158",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:158. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5472,
-  "hadithLocalDrafted": 5472,
-  "hadithLocalRemaining": 9157,
+  "hadithBukhariDrafted": 5477,
+  "hadithLocalDrafted": 5477,
+  "hadithLocalRemaining": 9152,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28685,6 +28712,12 @@
       "scope": "Sahih al-Bukhari 6481: direct quotation of the Quranic word كن attributed to Allah",
       "status": "blocked",
       "reason": "The report quotes the Quranic word كن attributed to Allah. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6506-QURAN-6-158",
+      "scope": "Sahih al-Bukhari 6506: direct quotation of Quran 6:158",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:158. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1195",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:46:22.302Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "83052ba8-eddd-4c03-86df-c78c733051ba",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6501",
+      "reference": "Sahih al-Bukhari, hadith 6501, book 81, باب التَّوَاضُعِ",
+      "title": "باب التَّوَاضُعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَالِكُ بْنُ إِسْمَاعِيلَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا حُمَيْدٌ، عَنْ أَنَسٍ ـ رضى الله عنه ـ كَانَ لِلنَّبِيِّ صلى الله عليه وسلم نَاقَةٌ‏.‏ قَالَ وَحَدَّثَنِي مُحَمَّدٌ أَخْبَرَنَا الْفَزَارِيُّ وَأَبُو خَالِدٍ الأَحْمَرُ عَنْ حُمَيْدٍ الطَّوِيلِ عَنْ أَنَسٍ قَالَ كَانَتْ نَاقَةٌ لِرَسُولِ اللَّهِ صلى الله عليه وسلم تُسَمَّى الْعَضْبَاءَ، وَكَانَتْ لاَ تُسْبَقُ، فَجَاءَ أَعْرَابِيٌّ عَلَى قَعُودٍ لَهُ فَسَبَقَهَا، فَاشْتَدَّ ذَلِكَ عَلَى الْمُسْلِمِينَ وَقَالُوا سُبِقَتِ الْعَضْبَاءُ، فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ حَقًّا عَلَى اللَّهِ أَنْ لاَ يَرْفَعَ شَيْئًا مِنَ الدُّنْيَا إِلاَّ وَضَعَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "178a45356ad5ab84b79393deeaa980ebcc97f010c5a4785756c9331bbdfa3464",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Mâlik ibn Ismâ‘îl nous a rapporté : Zuhayr nous a rapporté : Humayd nous a rapporté, d’après Anas (qu’Allah l’agrée), qui a dit : Le Prophète ﷺ avait une chamelle. Muhammad nous a aussi rapporté : al-Fazârî et Abû Khâlid al-Ahmar nous ont rapporté, d’après Humayd al-Tawîl, d’après Anas, qui a dit : Le Messager d’Allah ﷺ avait une chamelle appelée al-‘Adbâ’, que rien ne dépassait jamais à la course. Un Bédouin arriva sur un jeune chameau et la dépassa. Cela attrista les musulmans, qui dirent : « Al-‘Adbâ’ a été dépassée ! » Le Messager d’Allah ﷺ dit : « Il est dans l’ordre voulu par Allah que rien ne s’élève en ce monde sans être ensuite abaissé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2ebe53e2-5a11-43ad-bd7e-7aa484cc6882",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6502",
+      "reference": "Sahih al-Bukhari, hadith 6502, book 81, باب التَّوَاضُعِ",
+      "title": "باب التَّوَاضُعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ عُثْمَانَ، حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، حَدَّثَنَا سُلَيْمَانُ بْنُ بِلاَلٍ، حَدَّثَنِي شَرِيكُ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي نَمِرٍ، عَنْ عَطَاءٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ قَالَ مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ، وَمَا تَقَرَّبَ إِلَىَّ عَبْدِي بِشَىْءٍ أَحَبَّ إِلَىَّ مِمَّا افْتَرَضْتُ عَلَيْهِ، وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَىَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ، فَإِذَا أَحْبَبْتُهُ كُنْتُ سَمْعَهُ الَّذِي يَسْمَعُ بِهِ، وَبَصَرَهُ الَّذِي يُبْصِرُ بِهِ، وَيَدَهُ الَّتِي يَبْطُشُ بِهَا وَرِجْلَهُ الَّتِي يَمْشِي بِهَا، وَإِنْ سَأَلَنِي لأُعْطِيَنَّهُ، وَلَئِنِ اسْتَعَاذَنِي لأُعِيذَنَّهُ، وَمَا تَرَدَّدْتُ عَنْ شَىْءٍ أَنَا فَاعِلُهُ تَرَدُّدِي عَنْ نَفْسِ الْمُؤْمِنِ، يَكْرَهُ الْمَوْتَ وَأَنَا أَكْرَهُ مَسَاءَتَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "47c027f433809c468b62a2d9dd676f35bd44513c01c4e602f4fab4c71efcccc7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Uthmân m’a rapporté : Khâlid ibn Makhlad nous a rapporté : Sulaymân ibn Bilâl nous a rapporté : Sharîk ibn ‘Abd Allah ibn Abî Namir m’a rapporté, d’après ‘Atâ’, d’après Abû Hurayra, qui a dit : Le Messager d’Allah ﷺ a dit : « Allah dit : Celui qui prend l’un de Mes proches serviteurs pour ennemi, Je lui déclare la guerre. Mon serviteur ne se rapproche de Moi par aucune œuvre qui M’est plus aimée que ce que Je lui ai rendu obligatoire. Mon serviteur ne cesse de se rapprocher de Moi par les œuvres surérogatoires jusqu’à ce que Je l’aime. Lorsque Je l’aime, Je suis l’ouïe par laquelle il entend, la vue par laquelle il voit, la main avec laquelle il saisit et le pied avec lequel il marche. S’il Me demande, Je lui donnerai ; s’il cherche refuge auprès de Moi, Je le protégerai. Je n’hésite sur aucune chose que Je fais comme J’hésite à reprendre l’âme du croyant : il déteste la mort, et Je déteste lui faire du mal. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "73e8aaa1-e361-4df7-ad59-20efd9dc4402",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6503",
+      "reference": "Sahih al-Bukhari, hadith 6503, book 81, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم: «بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ»",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم: «بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، حَدَّثَنَا أَبُو غَسَّانَ، حَدَّثَنَا أَبُو حَازِمٍ، عَنْ سَهْلٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ بُعِثْتُ أَنَا وَالسَّاعَةَ هَكَذَا ‏\"‏‏.‏ وَيُشِيرُ بِإِصْبَعَيْهِ فَيَمُدُّ بِهِمَا‏.‏",
+      "source_hash_sha256": "0cc1ecfdb11d5d5d2995fbad4904e1feba84d2142c594b67beb49c825c477e11",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘îd ibn Abî Maryam nous a rapporté : Abû Ghassân nous a rapporté : Abû Hâzim nous a rapporté, d’après Sahl, qui a dit : Le Messager d’Allah ﷺ a dit : « J’ai été envoyé, moi, et l’Heure est comme ces deux doigts. » Il les montra en les tendant côte à côte.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3f042f2d-cf8a-48bf-ad84-8f90c4ad4c84",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6504",
+      "reference": "Sahih al-Bukhari, hadith 6504, book 81, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم: «بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ»",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم: «بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ ـ هُوَ الْجُعْفِيُّ ـ حَدَّثَنَا وَهْبُ بْنُ جَرِيرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، وَأَبِي التَّيَّاحِ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ ‏\"‏‏.‏",
+      "source_hash_sha256": "f7fa342f0e6db52a6a74d6e9a2c5224500e854d905a760363d3f21d034d5621c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Muhammad — al-Ju‘fî — m’a rapporté : Wahb ibn Jarîr nous a rapporté : Shu‘ba nous a rapporté, d’après Qatâda et Abû al-Tayyâh, d’après Anas, que le Prophète ﷺ a dit : « J’ai été envoyé, moi, et l’Heure comme ces deux doigts. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b8cd8f96-3eca-4718-be13-91748e649c9d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6505",
+      "reference": "Sahih al-Bukhari, hadith 6505, book 81, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم: «بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ»",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم: «بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى بْنُ يُوسُفَ، أَخْبَرَنَا أَبُو بَكْرٍ، عَنْ أَبِي حَصِينٍ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ ‏\"‏‏.‏ يَعْنِي إِصْبَعَيْنِ‏.‏ تَابَعَهُ إِسْرَائِيلُ عَنْ أَبِي حَصِينٍ‏.‏",
+      "source_hash_sha256": "e2e4374eb0e33c363d66a7729644beb719b6af36de698a58a7a7d24d5869d940",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yûsuf m’a rapporté : Abû Bakr nous a informés, d’après Abû Hasîn, d’après Abû Sâlih, d’après Abû Hurayra, d’après le Prophète ﷺ, qui a dit : « J’ai été envoyé, moi, et l’Heure comme ces deux doigts. » Il voulait dire ses deux doigts. Isrâ’îl a également rapporté cette version d’après Abû Hasîn.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1241a5b3-a43a-4370-afe3-9c101d5ef31c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6506",
+      "reference": "Sahih al-Bukhari, hadith 6506, book 81, كتاب الرقاق",
+      "title": "كتاب الرقاق",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، حَدَّثَنَا أَبُو الزِّنَادِ، عَنْ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، رضى الله عنه أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَقُومُ السَّاعَةُ حَتَّى تَطْلُعَ الشَّمْسُ مِنْ مَغْرِبِهَا، فَإِذَا طَلَعَتْ فَرَآهَا النَّاسُ آمَنُوا أَجْمَعُونَ، فَذَلِكَ حِينَ لاَ يَنْفَعُ نَفْسًا إِيمَانُهَا، لَمْ تَكُنْ آمَنَتْ مِنْ قَبْلُ، أَوْ كَسَبَتْ فِي إِيمَانِهَا خَيْرًا، وَلَتَقُومَنَّ السَّاعَةُ وَقَدْ نَشَرَ الرَّجُلاَنِ ثَوْبَهُمَا بَيْنَهُمَا فَلاَ يَتَبَايَعَانِهِ وَلاَ يَطْوِيَانِهِ، وَلَتَقُومَنَّ السَّاعَةُ وَقَدِ انْصَرَفَ الرَّجُلُ بِلَبَنِ لِقْحَتِهِ فَلاَ يَطْعَمُهُ، وَلَتَقُومَنَّ السَّاعَةُ وَهْوَ يَلِيطُ حَوْضَهُ فَلاَ يَسْقِي فِيهِ، وَلَتَقُومَنَّ السَّاعَةُ وَقَدْ رَفَعَ أُكْلَتَهُ إِلَى فِيهِ فَلاَ يَطْعَمُهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "7a5607a50d0fd6c0e809d5e5e08809aa6cac979ff709e3ecb4a2bdfe5d53b2f0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1241a5b3-a43a-4370-afe3-9c101d5ef31c",
+      "url": "https://sunnah.com/bukhari:6506",
+      "reason": "Le récit cite directement le Coran 6:158. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}
