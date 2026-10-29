@@ -18214,6 +18214,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-843",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-843.json",
+      "sourceIds": [
+        "59623d75-8e9a-4353-9063-c61e57f28868",
+        "c1534185-fc9f-4ded-bc83-493db4b16ec0",
+        "2d902c0f-1c69-4e4e-82a5-2be6196588c3",
+        "4699d765-e4ce-4528-9790-3f3ae900ceb5",
+        "2e9b6f2a-8d92-4e63-aabf-adc546ff83ae",
+        "774c1209-78ce-4e93-a38a-eb99dba40b4f"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with hold"
     }
   ],
   "blockers": [
@@ -19464,9 +19485,15 @@
       "scope": "Sahih al-Bukhari 4653: direct Quran quotations from 8:65–66",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 8:65–66. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-842, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4654-QURAN-4-176",
+      "scope": "Sahih al-Bukhari 4654: direct quotation of Quran 4:176",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:176. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-843, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3991,
-  "hadithLocalDrafted": 3991,
-  "hadithLocalRemaining": 10671
+  "hadithBukhariDrafted": 3996,
+  "hadithLocalDrafted": 3996,
+  "hadithLocalRemaining": 10666
 }
