@@ -6536,3 +6536,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1271 saves five private French drafts. Report 6948 remains blank and is logged under Needs Mo because it directly quotes Quran 4:19. No database writes or publication occurred. The exporter deferred a separate long source for an isolated batch.
 - All six source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,841 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 839. Total local hadith rows not drafted: 8,788, including held records.
+
+### 2026-10-29: Bukhari 6953–6957 and 6959
+
+- FR-LIB-HAD-BUKHARI-1272 saves six private French drafts, including the source’s appended zakat rulings and variant wording. No database writes or publication occurred. The exporter deferred a separate long source for an isolated batch.
+- All six source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,847 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 839. Total local hadith rows not drafted: 8,782, including held records.
