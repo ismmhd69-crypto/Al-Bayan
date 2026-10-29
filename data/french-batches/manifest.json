@@ -66,11 +66,11 @@
     "hadithLocalDrafted": 11312,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 3317,
-    "hadithNeedsMo": 2830,
+    "hadithNeedsMo": 2834,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14135,
-    "hadithSourcesNotYetExported": 494
+    "hadithSourcesProcessed": 14139,
+    "hadithSourcesNotYetExported": 490
   },
   "batches": [
     {
@@ -51265,6 +51265,28 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1276",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1276.json",
+      "sourceIds": [
+        "1e2a224b-b82c-4849-bdc9-1087b5ba59ff",
+        "6c074f4d-8a0b-4ef2-8d10-22bd890cdfc2",
+        "f7f65668-7762-4dab-8a61-a80896df9d20",
+        "c6aaf57a-6649-4278-997d-e0a3e635b88b"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 4,
+      "failed": 0,
+      "remaining": 3317,
+      "validation": "All four entries remain blank: three contain Quran quotations and one is an incomplete variant. Focused validator and git diff check passed. No database writes or publication.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: source review"
     }
   ],
   "blockers": [
