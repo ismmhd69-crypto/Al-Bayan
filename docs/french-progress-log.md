@@ -6963,3 +6963,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - All five source hashes are retained and the focused validator passed.
 
 - Current totals: Bukhari local drafts 6,243 of 7,263; Muslim local drafts 0 of 7,366; Hadith Needs Mo 138; total local hadith rows not drafted 8,386, including held records.
+
+### 2026-10-29: Bukhari 7437–7438
+
+- FR-LIB-HAD-BUKHARI-1356 saves one private French draft for the long combined report. The narrator’s uncertainty, both descriptions of the community that remains, the bridge and hooks, the final person’s repeated requests and promises, and the disagreement about the final reward are retained. No database writes or publication occurred.
+- The source hash is retained and the one-record focused validator passed. Bukhari local drafts: 6,244 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 138. Total local hadith rows not drafted: 8,385, including held records.

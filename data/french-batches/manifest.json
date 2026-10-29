@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:29:32.212Z",
+  "lastReconciled": "2026-10-29T13:30:27.980Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6243,
+    "hadithBukhariDrafted": 6244,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6243,
-    "hadithDatabaseMissing": 8386,
-    "hadithLocalRemaining": 8386,
+    "hadithLocalDrafted": 6244,
+    "hadithDatabaseMissing": 8385,
+    "hadithLocalRemaining": 8385,
     "hadithNeedsMo": 138,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -28596,6 +28596,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1356",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1356.json",
+      "sourceIds": [
+        "b95801d6-6ed1-41bf-ac67-9e64c4654e53"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "one complete long private draft; source hash retained; chain, narrator doubt, full sequence, and final narrator disagreement preserved; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32284,9 +32300,9 @@
       "reason": "This report directly quotes Quran 36:38. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6243,
-  "hadithLocalDrafted": 6243,
-  "hadithLocalRemaining": 8386,
+  "hadithBukhariDrafted": 6244,
+  "hadithLocalDrafted": 6244,
+  "hadithLocalRemaining": 8385,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
