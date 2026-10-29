@@ -35574,6 +35574,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0317",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0317.json",
+      "sourceIds": [
+        "5d7cc438-7eb1-4e72-89f3-0d39810caf4f",
+        "01c9ace8-cf4e-4b4a-8262-b91c03b329af",
+        "855548bf-1413-4ebb-a239-7129f7f23e1d",
+        "762474b8-1184-4647-b557-411a6ee29c75",
+        "c9d588ee-3139-461e-a89e-39137eeee8de",
+        "84ede768-c59d-4db0-b123-8ce50f855d40"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two chain-only variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39881,8 +39902,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7598,
-  "hadithLocalRemaining": 7031,
+  "hadithLocalDrafted": 7602,
+  "hadithLocalRemaining": 7027,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42025,10 +42046,22 @@
       "scope": "Sahih Muslim 733b: incomplete variant cross-reference",
       "status": "blocked",
       "reason": "La source ne rapporte que des variantes de chaîne et indique que le récit précédent est transmis avec une différence, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0317-735B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 735b: chain-only cross-reference",
+      "status": "blocked",
+      "reason": "La source ne rapporte que des chaînes de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0317-737B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 737b: chain-only cross-reference",
+      "status": "blocked",
+      "reason": "La source ne rapporte que des chaînes de transmission et indique qu’il s’agit du même récit, sans en reproduire le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1262,
+  "hadithMuslimDrafted": 1266,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 593
+  "hadithNeedsMo": 595
 }

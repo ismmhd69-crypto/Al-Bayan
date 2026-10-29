@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0317",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:15:54.808Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5d7cc438-7eb1-4e72-89f3-0d39810caf4f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:735b",
+      "reference": "Sahih Muslim, hadith 735 b, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ جَمِيعًا عَنْ مُحَمَّدِ بْنِ جَعْفَرٍ، عَنْ شُعْبَةَ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا سُفْيَانُ، كِلاَهُمَا عَنْ مَنْصُورٍ، بِهَذَا الإِسْنَادِ وَفِي رِوَايَةِ شُعْبَةَ عَنْ أَبِي يَحْيَى الأَعْرَجِ، ‏.‏",
+      "source_hash_sha256": "adf40a07ccbae0e0e92c0d8b0b0f03981167be84f4e7deed27d6bbbed70a27a2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "01c9ace8-cf4e-4b4a-8262-b91c03b329af",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:736a",
+      "reference": "Sahih Muslim, hadith 736 a, book 6, باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "title": "باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يُصَلِّي بِاللَّيْلِ إِحْدَى عَشْرَةَ رَكْعَةً يُوتِرُ مِنْهَا بِوَاحِدَةٍ فَإِذَا فَرَغَ مِنْهَا اضْطَجَعَ عَلَى شِقِّهِ الأَيْمَنِ حَتَّى يَأْتِيَهُ الْمُؤَذِّنُ فَيُصَلِّي رَكْعَتَيْنِ خَفِيفَتَيْنِ ‏.‏",
+      "source_hash_sha256": "84aac20a5405376dc69ac7b0bb8819af4de874234db7df8d86cb0c9a704a94e6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : il dit : « J’ai lu devant Malik », d’après Ibn Shihab, d’après ‘Urwa, d’après ‘A’isha : Le Messager d’Allah ﷺ accomplissait onze unités de prière la nuit, dont une unité de witr. Lorsqu’il avait terminé, il s’allongeait sur le côté droit jusqu’à l’arrivée du muezzin, puis accomplissait deux unités légères.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "855548bf-1413-4ebb-a239-7129f7f23e1d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:736b",
+      "reference": "Sahih Muslim, hadith 736 b-c, book 6, باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "title": "باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي فِيمَا بَيْنَ أَنْ يَفْرُغَ مِنْ صَلاَةِ الْعِشَاءِ - وَهِيَ الَّتِي يَدْعُو النَّاسُ الْعَتَمَةَ - إِلَى الْفَجْرِ إِحْدَى عَشْرَةَ رَكْعَةً يُسَلِّمُ بَيْنَ كُلِّ رَكْعَتَيْنِ وَيُوتِرُ بِوَاحِدَةٍ فَإِذَا سَكَتَ الْمُؤَذِّنُ مِنْ صَلاَةِ الْفَجْرِ وَتَبَيَّنَ لَهُ الْفَجْرُ وَجَاءَهُ الْمُؤَذِّنُ قَامَ فَرَكَعَ رَكْعَتَيْنِ خَفِيفَتَيْنِ ثُمَّ اضْطَجَعَ عَلَى شِقِّهِ الأَيْمَنِ حَتَّى يَأْتِيَهُ الْمُؤَذِّنُ لِلإِقَامَةِ ‏.‏ وَحَدَّثَنِيهِ حَرْمَلَةُ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، بِهَذَا الإِسْنَادِ ‏.‏ وَسَاقَ حَرْمَلَةُ الْحَدِيثَ بِمِثْلِهِ غَيْرَ أَنَّهُ لَمْ يَذْكُرْ وَتَبَيَّنَ لَهُ الْفَجْرُ وَجَاءَهُ الْمُؤَذِّنُ ‏.‏ وَلَمْ يَذْكُرِ الإِقَامَةَ ‏.‏ وَسَائِرُ الْحَدِيثِ بِمِثْلِ حَدِيثِ عَمْرٍو سَوَاءً ‏.‏",
+      "source_hash_sha256": "9d9cdcc92ead7bd86f4bf81a2d938cb416aa8c8388de89e938992f8322bfc74f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya m’a rapporté : Ibn Wahb nous a rapporté : ‘Amr ibn al-Harith m’a informé, d’après Ibn Shihab, d’après ‘Urwa ibn al-Zubayr, d’après ‘A’isha, l’épouse du Prophète ﷺ. Elle dit : « Entre la fin de la prière de la nuit — celle que les gens appellent al-‘atama — et l’aube, le Messager d’Allah ﷺ accomplissait onze unités de prière. Il prononçait la salutation finale toutes les deux unités et terminait par une unité de witr. Lorsque le muezzin avait terminé l’appel à la prière de l’aube, que l’aube était apparue et que le muezzin était venu auprès de lui, il se levait et accomplissait deux unités légères. Puis il s’allongeait sur le côté droit jusqu’à ce que le muezzin vienne annoncer le début de la prière obligatoire. » Harmala m’a également rapporté ce récit par une autre chaîne. Sa version est semblable, mais ne mentionne ni l’apparition de l’aube ni la venue du muezzin, et ne mentionne pas l’annonce du début de la prière ; le reste est identique à la version de ‘Amr.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "762474b8-1184-4647-b557-411a6ee29c75",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:737a",
+      "reference": "Sahih Muslim, hadith 737 a, book 6, باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "title": "باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي مِنَ اللَّيْلِ ثَلاَثَ عَشْرَةَ رَكْعَةً يُوتِرُ مِنْ ذَلِكَ بِخَمْسٍ لاَ يَجْلِسُ فِي شَىْءٍ إِلاَّ فِي آخِرِهَا ‏.‏",
+      "source_hash_sha256": "4ccc59f2e84c273b687b7edafa31df52dfb6a4d3fb530bd41365befa4148b74c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Abu Kurayb nous ont rapporté : ‘Abd Allah ibn Numayr nous a rapporté. Ibn Numayr nous a rapporté : mon père nous a rapporté : Hisham nous a rapporté, d’après son père, d’après ‘A’isha. Elle dit : « Le Messager d’Allah ﷺ accomplissait treize unités de prière la nuit, dont cinq unités de witr. Il ne s’asseyait qu’à la dernière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c9d588ee-3139-461e-a89e-39137eeee8de",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:737b",
+      "reference": "Sahih Muslim, hadith 737 b, book 6, باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "title": "باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، ح وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا وَكِيعٌ، وَأَبُو أُسَامَةَ كُلُّهُمْ عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "6f096792b591fad4229ca2a6b824fe94ce43a345625598007a91220164441851",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "84ede768-c59d-4db0-b123-8ce50f855d40",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:737c",
+      "reference": "Sahih Muslim, hadith 737 c, book 6, باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "title": "باب صَلاَةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ وَأَنَّ الْوِتْرَ رَكْعَةٌ وَأَنَّ الرَّكْعَةَ صَلاَةٌ صَحِيحَةٌ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ عِرَاكِ بْنِ مَالِكٍ، عَنْ عُرْوَةَ، أَنَّ عَائِشَةَ، أَخْبَرَتْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يُصَلِّي ثَلاَثَ عَشْرَةَ رَكْعَةً بِرَكْعَتَىِ الْفَجْرِ ‏.‏",
+      "source_hash_sha256": "7847cbb6f163da0f1797b4c4bea3c093b41bd4d5b5ee7968300e918caecb8edf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Layth nous a rapporté, d’après Yazid ibn Abi Habib, d’après ‘Irak ibn Malik, d’après ‘Urwa, que ‘A’isha lui avait rapporté : Le Messager d’Allah ﷺ accomplissait treize unités de prière, en comptant les deux unités du fajr.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "5d7cc438-7eb1-4e72-89f3-0d39810caf4f",
+      "reason": "La source ne rapporte que des chaînes de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "source_id": "c9d588ee-3139-461e-a89e-39137eeee8de",
+      "reason": "La source ne rapporte que des chaînes de transmission et indique qu’il s’agit du même récit, sans en reproduire le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    }
+  ]
+}
