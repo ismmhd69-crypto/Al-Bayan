@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5535,
+    "hadithBukhariDrafted": 5536,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5535,
+    "hadithLocalDrafted": 5536,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9094,
+    "hadithLocalRemaining": 9093,
     "hadithNeedsMo": 796,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -25557,6 +25557,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1207",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1207.json",
+      "sourceIds": [
+        "9cbb5e23-b8fe-49f1-a4a4-0cd684071c67"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One long source kept as a single-item batch; focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -28723,9 +28739,9 @@
       "reason": "The report uses two rare plant terms (الثعارير and الضغابيس) and an aside (وكان قد سقط فمه) whose referent and meaning are unclear in this record. Keep the complete translation blank until the source wording is reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 5535,
-  "hadithLocalDrafted": 5535,
-  "hadithLocalRemaining": 9094,
+  "hadithBukhariDrafted": 5536,
+  "hadithLocalDrafted": 5536,
+  "hadithLocalRemaining": 9093,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
