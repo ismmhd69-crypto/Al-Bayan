@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6137,
+    "hadithBukhariDrafted": 6141,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6137,
+    "hadithLocalDrafted": 6141,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8510,
-    "hadithNeedsMo": 860,
+    "hadithLocalRemaining": 8488,
+    "hadithNeedsMo": 117,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28092,6 +28092,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1331",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1331.json",
+      "sourceIds": [
+        "32f6631c-ba14-41ba-b117-c80d39903d1b",
+        "14efaef2-f19e-454d-b9dc-c6c3aa065985",
+        "afef923d-d7ed-4f71-90ef-d33d5a718b5c",
+        "6811029f-0ab0-4fe3-9670-7b56429dbec7",
+        "79ac1949-974b-428c-97f8-7c34cddce196",
+        "a1f3f275-bcbf-4b9f-b73e-05b8a4f7d71a"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete drafts and two Quran-quotation holds; source hashes retained; chain, quoted wording, and legal terms preserved; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31640,11 +31661,23 @@
       "scope": "Sahih al-Bukhari 7295: direct quotation of Quran 5:101",
       "status": "blocked",
       "reason": "The report directly quotes Quran 5:101. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7297-QURAN-17-85",
+      "scope": "Sahih al-Bukhari 7297: direct quotation of Quran 17 : 85",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 17:85. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7302-QURAN-49-2",
+      "scope": "Sahih al-Bukhari 7302: direct quotation of Quran 49 : 2",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 49:2. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6137,
-  "hadithLocalDrafted": 6137,
-  "hadithLocalRemaining": 8510,
+  "hadithBukhariDrafted": 6141,
+  "hadithLocalDrafted": 6141,
+  "hadithLocalRemaining": 8488,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -32335,6 +32368,19 @@
       "scope": "Sahih al-Bukhari 7295: direct quotation of Quran 5:101",
       "status": "blocked",
       "reason": "The report directly quotes Quran 5:101. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7297-QURAN-17-85",
+      "scope": "Sahih al-Bukhari 7297: direct quotation of Quran 17 : 85",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 17:85. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7302-QURAN-49-2",
+      "scope": "Sahih al-Bukhari 7302: direct quotation of Quran 49 : 2",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 49:2. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
-  ]
+  ],
+  "hadithMuslimDrafted": 0
 }
