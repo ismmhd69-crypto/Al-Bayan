@@ -7886,3 +7886,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0152 saves five private French drafts about ablution after eating camel or sheep meat, certainty during prayer, and using the skin of a dead animal. Muslim 360b contains a transmission chain and refers to the previous report without repeating it, so it remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 636 Muslim drafts, 6,972 total hadith drafts, 7,657 remaining, and 297 Needs Mo items.
+
+### 2026-10-29: Muslim 363c–366b
+
+- FR-LIB-HAD-MUSLIM-0153 saves four private French drafts about tanning and using animal hides. Muslim 363c and 366b only refer to earlier reports without repeating their full wording, so they remain blank under Needs Mo. A separate long source was deferred by the exporter for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 640 Muslim drafts, 6,976 total hadith drafts, 7,653 remaining, and 299 Needs Mo items.
