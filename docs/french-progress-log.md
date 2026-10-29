@@ -11186,3 +11186,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0811 saves five private French drafts, including the testamentary property question, testimony before being asked, the dispute over a child, the buried-gold account, and the lost-property guidance. Muslim 1720b only gives alternate chains for the preceding report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1722b-1722g
+
+- FR-LIB-HAD-MUSLIM-0812 saves six private French drafts on found property. The translations preserve the distinct guidance about announcing and identifying found items, lost sheep and camels, and the specific additions in each transmission.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
