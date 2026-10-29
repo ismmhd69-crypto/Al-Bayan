@@ -7816,3 +7816,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0138 saves four private French drafts about ritual washing and the amount of water used. Muslim 317b contains only variant details without the full report; 318 has unclear wording in the Arabic source, so both remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 568 Muslim drafts, 6,904 total hadith drafts, 7,725 remaining, and 281 Needs Mo items.
+
+### 2026-10-29: Muslim 321a–323
+
+- FR-LIB-HAD-MUSLIM-0139 saves six private French drafts about bathing together and the water used for ritual washing. The three reports on the measure of water and the variants in chain wording are preserved.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 574 Muslim drafts, 6,910 total hadith drafts, 7,719 remaining, and 281 Needs Mo items.
