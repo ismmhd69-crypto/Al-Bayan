@@ -2646,3 +2646,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-546` saves six private French drafts about accepting wealth without greed, freeing captives, and the distribution after Hunayn.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,839 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,816, including held records.
+
+### 2026-10-29: Bukhari 3149–3154
+
+- `FR-LIB-HAD-BUKHARI-547` saves six private French drafts about gifts, allocations at Hunayn, a land grant, and food found during expeditions.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,845 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,810, including held records.
