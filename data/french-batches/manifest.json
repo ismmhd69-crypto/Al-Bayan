@@ -17568,6 +17568,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-811",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-811.json",
+      "sourceIds": [
+        "787d7c52-5e6c-4841-b334-be9fe088af84",
+        "7bd4b8f0-4080-4931-96dd-736d486cf67b",
+        "668e380f-a90f-4fd1-9a3e-e35dcf7e40ba",
+        "33194fcb-46e8-426e-953f-3c41b154fe77",
+        "bbc5e507-0178-4e45-8f6a-57ced4baf486",
+        "1d965ef7-497e-4e14-881a-10ca715bee6a"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18158,9 +18179,33 @@
       "scope": "Sahih al-Bukhari 4481: direct quotation of Quran 2:106",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:106. The complete record remains blank in FR-LIB-HAD-BUKHARI-810 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4483-QURAN-2-125-66-5",
+      "scope": "Sahih al-Bukhari 4483: direct Quran quotations from 2:125 and 66:5",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:125 wording and Quran 66:5. The complete record remains blank in FR-LIB-HAD-BUKHARI-811 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4485-QURAN-2-136",
+      "scope": "Sahih al-Bukhari 4485: direct quotation of Quran 2:136",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:136. The complete record remains blank in FR-LIB-HAD-BUKHARI-811 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4486-QURAN-2-143",
+      "scope": "Sahih al-Bukhari 4486: direct quotation of Quran 2:143",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:143. The complete record remains blank in FR-LIB-HAD-BUKHARI-811 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4487-QURAN-2-143",
+      "scope": "Sahih al-Bukhari 4487: direct quotations of Quran 2:143",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:143 twice. The complete record remains blank in FR-LIB-HAD-BUKHARI-811 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3936,
-  "hadithLocalDrafted": 3936,
-  "hadithLocalRemaining": 10721
+  "hadithBukhariDrafted": 3938,
+  "hadithLocalDrafted": 3938,
+  "hadithLocalRemaining": 10719
 }
