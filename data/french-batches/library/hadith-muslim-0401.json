@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0401",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:56:55.470Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "db288308-ed4f-459c-ba78-164186631ff9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939d",
+      "reference": "Sahih Muslim, hadith 939 d, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَمَّادٌ، عَنْ أَيُّوبَ، عَنْ حَفْصَةَ، عَنْ أُمِّ عَطِيَّةَ، ‏.‏ بِنَحْوِهِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ ثَلاَثًا أَوْ خَمْسًا أَوْ سَبْعًا أَوْ أَكْثَرَ مِنْ ذَلِكِ إِنْ رَأَيْتُنَّ ذَلِكِ ‏\"‏ ‏.‏ فَقَالَتْ حَفْصَةُ عَنْ أُمِّ عَطِيَّةَ وَجَعَلْنَا رَأْسَهَا ثَلاَثَةَ قُرُونٍ ‏.‏",
+      "source_hash_sha256": "1a8e39bd4315ef06bedfddf34a5fdf51786bdb1e9f5c0520446bd04a9a07082c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dd658693-f7cb-4a5c-8bb5-11404b899215",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939e",
+      "reference": "Sahih Muslim, hadith 939 e, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، حَدَّثَنَا ابْنُ عُلَيَّةَ، وَأَخْبَرَنَا أَيُّوبُ، قَالَ وَقَالَتْ حَفْصَةُ عَنْ أُمِّ عَطِيَّةَ، قَالَتِ اغْسِلْنَهَا وِتْرًا ثَلاَثًا أَوْ خَمْسًا أَوْ سَبْعًا قَالَ وَقَالَتْ أُمُّ عَطِيَّةَ مَشَطْنَاهَا ثَلاَثَةَ قُرُونٍ ‏.‏",
+      "source_hash_sha256": "5dbe1fc34ff7e18c62b47bc0fd4c80cbb3c66ebaf2f028b69baefbc422a6944f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Ayyub nous a rapporté : Ibn ‘Ulayya nous a rapporté, et Ayyub nous a informés : Hafsa rapporte d’après Umm ‘Atiyya, qui a dit : « Lavez-la un nombre impair de fois : trois, cinq ou sept. » Umm ‘Atiyya ajouta : « Nous avons peigné ses cheveux et les avons tressés en trois nattes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b4817eee-cb40-4b69-b5bd-2c147099c7ef",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939f",
+      "reference": "Sahih Muslim, hadith 939 f, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، جَمِيعًا عَنْ أَبِي مُعَاوِيَةَ، - قَالَ عَمْرٌو حَدَّثَنَا مُحَمَّدُ بْنُ خَازِمٍ أَبُو مُعَاوِيَةَ، - حَدَّثَنَا عَاصِمٌ الأَحْوَلُ، عَنْ حَفْصَةَ بِنْتِ سِيرِينَ، عَنْ أُمِّ عَطِيَّةَ، قَالَتْ لَمَّا مَاتَتْ زَيْنَبُ بِنْتُ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ لَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اغْسِلْنَهَا وِتْرًا ثَلاَثًا أَوْ خَمْسًا وَاجْعَلْنَ فِي الْخَامِسَةِ كَافُورًا أَوْ شَيْئًا مِنْ كَافُورٍ فَإِذَا غَسَلْتُنَّهَا فَأَعْلِمْنَنِي ‏\"‏ ‏.‏ قَالَتْ فَأَعْلَمْنَاهُ ‏.‏ فَأَعْطَانَا حِقْوَهُ وَقَالَ ‏\"‏ أَشْعِرْنَهَا إِيَّاهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d69dc3654c4496a2f192734f3c5722514482fa4f2bc9407fcea8cf55589115eb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et ‘Amr al-Naqid nous ont rapporté, tous deux d’après Abu Mu‘awiya. ‘Amr a dit : Muhammad ibn Khazim Abu Mu‘awiya nous a rapporté : ‘Asim al-Ahwal nous a rapporté, d’après Hafsa bint Sirin, d’après Umm ‘Atiyya : lorsque Zaynab, fille du Messager d’Allah ﷺ, mourut, le Messager d’Allah ﷺ nous dit : « Lavez-la un nombre impair de fois : trois ou cinq. Mettez du camphre — ou un peu de camphre — dans le cinquième lavage. Lorsque vous l’aurez lavée, informez-moi. » Elle dit : « Nous l’en informâmes. Il nous donna son izar et dit : “Enveloppez-la avec.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3b5f6609-1a90-436c-83d7-d84f3bbcbfbd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939g",
+      "reference": "Sahih Muslim, hadith 939 g, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا هِشَامُ بْنُ حَسَّانَ، عَنْ حَفْصَةَ، بِنْتِ سِيرِينَ عَنْ أُمِّ عَطِيَّةَ، قَالَتْ أَتَانَا رَسُولُ اللَّهِ صلى الله عليه وسلم وَنَحْنُ نَغْسِلُ إِحْدَى بَنَاتِهِ فَقَالَ ‏\"‏ اغْسِلْنَهَا وِتْرًا خَمْسًا أَوْ أَكْثَرَ مِنْ ذَلِكِ ‏\"‏ ‏.‏ بِنَحْوِ حَدِيثِ أَيُّوبَ وَعَاصِمٍ وَقَالَ فِي الْحَدِيثِ قَالَتْ فَضَفَرْنَا شَعْرَهَا ثَلاَثَةَ أَثْلاَثٍ قَرْنَيْهَا وَنَاصِيَتَهَا ‏.‏",
+      "source_hash_sha256": "aa31a2fc64cb29ea3ee4d79371c7beb463b65f4e4148ff1dcafc279facdb2b57",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1628c92d-ace4-49d0-9b10-666af253b0df",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939h",
+      "reference": "Sahih Muslim, hadith 939 h, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ خَالِدٍ، عَنْ حَفْصَةَ بِنْتِ سِيرِينَ، عَنْ أُمِّ عَطِيَّةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حَيْثُ أَمَرَهَا أَنْ تَغْسِلَ ابْنَتَهُ قَالَ لَهَا ‏\"‏ ابْدَأْنَ بِمَيَامِنِهَا وَمَوَاضِعِ الْوُضُوءِ مِنْهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c4a55046b532441db8353a81fe6d3d57be70ad212ab72ac2efbe3bfd3eb5ff33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Hushaim nous a informés, d’après Khalid, d’après Hafsa bint Sirin, d’après Umm ‘Atiyya : lorsque le Messager d’Allah ﷺ lui ordonna de laver sa fille, il lui dit : « Commencez par son côté droit et par les parties du corps lavées lors des ablutions. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d2d5d309-c872-4d1e-b593-31dc817a99ba",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939i",
+      "reference": "Sahih Muslim, hadith 939 i, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَعَمْرٌو النَّاقِدُ كُلُّهُمْ عَنِ ابْنِ عُلَيَّةَ، - قَالَ أَبُو بَكْرٍ حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، - عَنْ خَالِدٍ، عَنْ حَفْصَةَ، عَنْ أُمِّ عَطِيَّةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ لَهُنَّ فِي غَسْلِ ابْنَتِهِ ‏\"‏ ابْدَأْنَ بِمَيَامِنِهَا وَمَوَاضِعِ الْوُضُوءِ مِنْهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b326ea4a1b5d4faeda90d4da2581810809d3618f059a1043972b30894c2244f3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Ayyub, Abu Bakr ibn Abi Shayba et ‘Amr al-Naqid nous ont rapporté, tous d’après Ibn ‘Ulayya. Abu Bakr a dit : Isma‘il ibn ‘Ulayya nous a rapporté, d’après Khalid, d’après Hafsa, d’après Umm ‘Atiyya : le Messager d’Allah ﷺ leur dit, au sujet du lavage de sa fille : « Commencez par son côté droit et par les parties du corps lavées lors des ablutions. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "db288308-ed4f-459c-ba78-164186631ff9",
+      "reason": "La source renvoie au récit complet précédent et n’en donne qu’une variante sur le nombre de lavages et les tresses. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "3b5f6609-1a90-436c-83d7-d84f3bbcbfbd",
+      "reason": "La source résume un récit précédent et ne rapporte que des éléments supplémentaires sur le lavage et les tresses. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
