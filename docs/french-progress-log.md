@@ -6931,3 +6931,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1349 saves 4 private French drafts. Hadith 7406 directly quotes passages of Quran 6:65; its entire French translation remains blank under Needs Mo pending an approved, attributed French Quran translation and confirmation of permitted use. No database writes or publication occurred.
 - All 5 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,224 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 132. Total local hadith rows not drafted: 8,405, including held records.
+
+### 2026-10-29: Bukhari 7410
+
+- FR-LIB-HAD-BUKHARI-1350 saves one private French draft for the long report. The full intercession sequence, all three return-and-intercession cycles, the narrator chain, and the three weighed-grain examples are retained. No database writes or publication occurred.
+- The source hash is retained and the focused batch validator passed. Bukhari local drafts: 6,225 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 132. Total local hadith rows not drafted: 8,404, including held records.
