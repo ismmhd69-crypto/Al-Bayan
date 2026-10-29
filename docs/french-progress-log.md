@@ -12486,3 +12486,4 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2438a-2440b
 
 - FR-LIB-HAD-MUSLIM-1130 saves three complete reports as private French drafts. Three transmission-only variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+\n### 2026-10-30: Muslim 2441\n\n- FR-LIB-HAD-MUSLIM-1131 saves one complete report as a private French draft. No database write or publication occurred.
