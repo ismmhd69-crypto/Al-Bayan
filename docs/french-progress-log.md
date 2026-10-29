@@ -1931,3 +1931,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-403` saves six private French drafts for Bukhari 2334–2339, retaining the land and crop terms and the location variants in 2336–2338.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,125 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 123. Total local hadith rows not drafted: 12,504, including held records.
+
+### 2026-10-29: Bukhari 2340–2348 source review
+
+- `FR-LIB-HAD-BUKHARI-404` saves six private French drafts for Bukhari 2340–2348, preserving the differing reports about land rentals and the story of the man in Paradise who wished to farm.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,131 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 123. Total local hadith rows not drafted: 12,498, including held records.
