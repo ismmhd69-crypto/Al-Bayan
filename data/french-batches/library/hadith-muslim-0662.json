@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0662",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:42:25.418Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d6177764-1320-44b5-ab76-17a20ed5454a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1463a",
+      "reference": "Sahih Muslim, hadith 1463 a, book 17, باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "title": "باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ مَا رَأَيْتُ امْرَأَةً أَحَبَّ إِلَىَّ أَنْ أَكُونَ فِي مِسْلاَخِهَا مِنْ سَوْدَةَ بِنْتِ زَمْعَةَ مِنِ امْرَأَةٍ فِيهَا حِدَّةٌ قَالَتْ فَلَمَّا كَبِرَتْ جَعَلَتْ يَوْمَهَا مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم لِعَائِشَةَ قَالَتْ يَا رَسُولَ اللَّهِ قَدْ جَعَلْتُ يَوْمِي مِنْكَ لِعَائِشَةَ ‏.‏ فَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْسِمُ لِعَائِشَةَ يَوْمَيْنِ يَوْمَهَا وَيَوْمَ سَوْدَةَ ‏.‏",
+      "source_hash_sha256": "990a20d171fb887742a674c2c08840a4ac7aeb89a5f7467cb006ba79ee65ff00",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte : « Je n’ai jamais souhaité être dans la peau d’une femme autant que dans celle de Sawda bint Zam‘a, qui avait un tempérament vif. Lorsqu’elle prit de l’âge, elle céda à Aïcha le jour qui lui revenait auprès du Messager d’Allah. Elle dit : “Ô Messager d’Allah, je te cède mon jour au profit d’Aïcha.” Le Messager d’Allah accordait alors à Aïcha deux jours : le sien et celui de Sawda. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c0f7dd72-3a63-4249-8f44-97c1ce9341fd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1463b",
+      "reference": "Sahih Muslim, hadith 1463 b, book 17, باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "title": "باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عُقْبَةُ بْنُ خَالِدٍ، ح وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا الأَسْوَدُ بْنُ عَامِرٍ، حَدَّثَنَا زُهَيْرٌ، ح وَحَدَّثَنَا مُجَاهِدُ بْنُ مُوسَى، حَدَّثَنَا يُونُسُ بْنُ مُحَمَّدٍ، حَدَّثَنَا شَرِيكٌ، كُلُّهُمْ عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ أَنَّ سَوْدَةَ، لَمَّا كَبِرَتْ ‏.‏ بِمَعْنَى حَدِيثِ جَرِيرٍ وَزَادَ فِي حَدِيثِ شَرِيكٍ قَالَتْ وَكَانَتْ أَوَّلَ امْرَأَةٍ تَزَوَّجَهَا بَعْدِي ‏.‏",
+      "source_hash_sha256": "2497078b796ca6d789b6eaea187a21bd2552a604628b87239a7676cba735edf3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c21eb2f-83ff-40d8-beea-a31a6f5aa985",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1464a",
+      "reference": "Sahih Muslim, hadith 1464 a, book 17, باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "title": "باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كُنْتُ أَغَارُ عَلَى اللاَّتِي وَهَبْنَ أَنْفُسَهُنَّ لِرَسُولِ اللَّهِ صلى الله عليه وسلم وَأَقُولُ وَتَهَبُ الْمَرْأَةُ نَفْسَهَا فَلَمَّا أَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"33\" aya_start=\"51\" aya_end=\"51\"]{‏ تُرْجِي مَنْ تَشَاءُ مِنْهُنَّ وَتُؤْوِي إِلَيْكَ مَنْ تَشَاءُ وَمَنِ ابْتَغَيْتَ مِمَّنْ عَزَلْتَ‏}‏ قَالَتْ قُلْتُ وَاللَّهِ مَا أَرَى رَبَّكَ إِلاَّ يُسَارِعُ لَكَ فِي هَوَاكَ.",
+      "source_hash_sha256": "34f36b90f0fad54d046979f3806ad1c0afa1e138d39ffb80b7cf214a68060da4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "59408cd1-fd18-43dc-a36d-99b5c29260f3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1464b",
+      "reference": "Sahih Muslim, hadith 1464 b, book 17, باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "title": "باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّهَا كَانَتْ تَقُولُ أَمَا تَسْتَحْيِي امْرَأَةٌ تَهَبُ نَفْسَهَا لِرَجُلٍ حَتَّى أَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"33\" aya_start=\"51\" aya_end=\"51\"]{‏ تُرْجِي مَنْ تَشَاءُ مِنْهُنَّ وَتُؤْوِي إِلَيْكَ مَنْ تَشَاءُ‏}‏ فَقُلْتُ إِنَّ رَبَّكَ لَيُسَارِعُ لَكَ فِي هَوَاكَ.‏",
+      "source_hash_sha256": "0aad58216c043e8753599b7ff4e9a36fd1b0deba0635fd2a112197555774df63",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "94824067-6e41-413f-b236-b28cc2b826aa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1465a",
+      "reference": "Sahih Muslim, hadith 1465 a, book 17, باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "title": "باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَمُحَمَّدُ بْنُ حَاتِمٍ، قَالَ مُحَمَّدُ بْنُ حَاتِمٍ حَدَّثَنَا مُحَمَّدُ، بْنُ بَكْرٍ أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي عَطَاءٌ، قَالَ حَضَرْنَا مَعَ ابْنِ عَبَّاسٍ جَنَازَةَ مَيْمُونَةَ زَوْجِ النَّبِيِّ صلى الله عليه وسلم بِسَرِفَ فَقَالَ ابْنُ عَبَّاسٍ هَذِهِ زَوْجُ النَّبِيِّ صلى الله عليه وسلم فَإِذَا رَفَعْتُمْ نَعْشَهَا فَلاَ تُزَعْزِعُوا وَلاَ تُزَلْزِلُوا وَارْفُقُوا فَإِنَّهُ كَانَ عِنْدَ رَسُولِ اللَّهِ صلى الله عليه وسلم تِسْعٌ فَكَانَ يَقْسِمُ لِثَمَانٍ وَلاَ يَقْسِمُ لِوَاحِدَةٍ ‏.‏ قَالَ عَطَاءٌ الَّتِي لاَ يَقْسِمُ لَهَا صَفِيَّةُ بِنْتُ حُيَىِّ بْنِ أَخْطَبَ ‏.‏",
+      "source_hash_sha256": "d5fa628ae2187465a7f495e0f4bf87635c9cb3d7d0a9b2d2a022e63984de9151",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ata rapporte : « Nous assistâmes avec Ibn Abbas aux funérailles de Maymuna, épouse du Prophète, à Sarif. Ibn Abbas dit : “Voici l’épouse du Prophète d’Allah. Lorsque vous soulèverez son brancard, ne le secouez pas et ne le faites pas vaciller ; agissez avec douceur. Le Messager d’Allah avait neuf épouses ; il répartissait les nuits entre huit et ne les répartissait pas avec une seule.” » Ata précise que celle auprès de qui il ne répartissait pas les nuits était Safiyya bint Huyayy ibn Akhtab.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "98f6699b-46f0-424a-a878-4f79413746a3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1465b",
+      "reference": "Sahih Muslim, hadith 1465 b, book 17, باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "title": "باب جَوَازِ هِبَتِهَا نَوْبَتَهَا لِضَرَّتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، جَمِيعًا عَنْ عَبْدِ الرَّزَّاقِ، عَنِ ابْنِ جُرَيْجٍ، بِهَذَا الإِسْنَادِ وَزَادَ قَالَ عَطَاءٌ كَانَتْ آخِرَهُنَّ مَوْتًا مَاتَتْ بِالْمَدِينَةِ ‏.‏",
+      "source_hash_sha256": "6ca78b25415b3462918b6213246e7233cd06e582fdce429f087d1b8bf284cc16",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c0f7dd72-3a63-4249-8f44-97c1ce9341fd",
+      "reason": "Cette entrée renvoie au récit précédent et ne donne qu’une indication sur l’âge de Sawda ainsi qu’une variante d’ajout. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "7c21eb2f-83ff-40d8-beea-a31a6f5aa985",
+      "reason": "Cette source cite le verset 33:51 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits."
+    },
+    {
+      "source_id": "59408cd1-fd18-43dc-a36d-99b5c29260f3",
+      "reason": "Cette source cite le verset 33:51 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits."
+    },
+    {
+      "source_id": "98f6699b-46f0-424a-a878-4f79413746a3",
+      "reason": "Cette entrée renvoie au récit précédent et n’ajoute qu’une information sur l’ordre du décès, sans reprendre le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}

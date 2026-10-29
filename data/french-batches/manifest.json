@@ -42677,6 +42677,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0662",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0662.json",
+      "sourceIds": [
+        "d6177764-1320-44b5-ab76-17a20ed5454a",
+        "c0f7dd72-3a63-4249-8f44-97c1ce9341fd",
+        "7c21eb2f-83ff-40d8-beea-a31a6f5aa985",
+        "59408cd1-fd18-43dc-a36d-99b5c29260f3",
+        "94824067-6e41-413f-b236-b28cc2b826aa",
+        "98f6699b-46f0-424a-a878-4f79413746a3"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, two private unpublished drafts, two Quran-quoted reports and two incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46984,8 +47005,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8965,
-  "hadithLocalRemaining": 5664,
+  "hadithLocalDrafted": 8967,
+  "hadithLocalRemaining": 5662,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51292,10 +51313,30 @@
       "source_id": "7de1c8ca-cd81-444c-acea-5ccfdd769d74",
       "reason": "Cette entrée renvoie au récit précédent en n’en donnant que des éléments (« وذكر أشياء هذا فيه ») et une variante de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "c0f7dd72-3a63-4249-8f44-97c1ce9341fd",
+      "reason": "Cette entrée renvoie au récit précédent et ne donne qu’une indication sur l’âge de Sawda ainsi qu’une variante d’ajout. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7c21eb2f-83ff-40d8-beea-a31a6f5aa985",
+      "reason": "Cette source cite le verset 33:51 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "59408cd1-fd18-43dc-a36d-99b5c29260f3",
+      "reason": "Cette source cite le verset 33:51 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "98f6699b-46f0-424a-a878-4f79413746a3",
+      "reason": "Cette entrée renvoie au récit précédent et n’ajoute qu’une information sur l’ordre du décès, sans reprendre le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2629,
+  "hadithMuslimDrafted": 2631,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1154
+  "hadithNeedsMo": 1158
 }
