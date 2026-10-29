@@ -9786,3 +9786,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0531 saves five private French drafts about funeral rites for a pilgrim who died during Hajj and a sick woman’s conditional Hajj intention. Muslim 1207c only refers to the preceding report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1208a–1211a
+
+- FR-LIB-HAD-MUSLIM-0532 saves six private French drafts about Duba’a’s conditional Hajj and Asma bint Umays entering ihram after childbirth, followed by Safiyya’s farewell circumambulation.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
