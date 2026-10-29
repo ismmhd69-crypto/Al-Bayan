@@ -10491,3 +10491,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0672 isolates this 5,194-character report in a single-item batch. It contains multiple Quran quotations, so the full French text remains blank under Needs Mo until an approved French Quran translation and its rights are confirmed.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1479b (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0673 saves a private French draft of the 3,819-character report in its own single-item batch. The report refers to a verse without quoting Quran text.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
