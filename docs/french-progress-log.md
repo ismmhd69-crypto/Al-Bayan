@@ -6666,3 +6666,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1297 saves six private French drafts, preserving the reported admonition, the circumstances at the Battle of the Camel, and separate accounts of the discussion in Kûfa. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 5,975 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 848. Total local hadith rows not drafted: 8,654, including held records.
+
+### 2026-10-29: Bukhari 7108–7113
+
+- FR-LIB-HAD-BUKHARI-1298 saves six private French drafts, preserving the reports about accountability, reconciliation, restraint during conflict and the narrator’s direct condemnation. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 5,981 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 848. Total local hadith rows not drafted: 8,648, including held records.
