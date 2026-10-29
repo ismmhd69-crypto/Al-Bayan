@@ -11682,3 +11682,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1979c
 
 - FR-LIB-HAD-MUSLIM-0930 saves the deferred long French draft about ‘Alî, his wedding preparations, and the incident involving Hamza at Badr. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1979d-1980e
+
+- FR-LIB-HAD-MUSLIM-0931 saves three private French drafts about the announcement banning intoxicating drinks and the drink made from dates. One report quoting Quran 5:93, one chain-only entry, and one referential entry remain blank under Needs Mo. No database write or publication occurred.
