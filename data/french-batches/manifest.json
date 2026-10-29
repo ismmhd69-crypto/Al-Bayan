@@ -19852,6 +19852,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-925",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-925.json",
+      "sourceIds": [
+        "32d3b769-00fc-4406-b330-d6af5185275c",
+        "78e01fa0-eb5e-4bf0-8470-bd63e61da7d2",
+        "7abfed31-f644-4333-85b4-7a18d0fa5984",
+        "81991cda-d89d-49d5-8ed0-73904b139b3b",
+        "53b635ad-8c57-4add-9822-4cdcc1fe65a8",
+        "b76dcfd1-9818-405f-a3b2-1beddb3136d9"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22604,6 +22625,18 @@
       "reason": "Le récit cite directement Quran 4:41. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-924, dans l’attente d’une traduction française approuvée et attribuée."
     },
     {
+      "id": "HADITH-BUKHARI-5063-QURAN-48-2-UNMARKED",
+      "scope": "Sahih al-Bukhari 5063: unmarked direct Quran wording from 48:2",
+      "status": "blocked",
+      "reason": "The narration includes wording from Quran 48:2 without a Quran marker. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5064-QURAN-4-3",
+      "scope": "Sahih al-Bukhari 5064: direct Quran quotation from 4:3",
+      "status": "blocked",
+      "reason": "The narration quotes Quran 4:3 directly. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
@@ -22652,7 +22685,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4137,
-  "hadithLocalDrafted": 4137,
-  "hadithLocalRemaining": 10530
+  "hadithBukhariDrafted": 4141,
+  "hadithLocalDrafted": 4141,
+  "hadithLocalRemaining": 10526
 }
