@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0236",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:43:02.143Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "fb3b27d4-2c05-4e12-93d5-d88a3a75bdda",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:570a",
+      "reference": "Sahih Muslim, hadith 570 a, book 5, باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "title": "باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عَبْدِ الرَّحْمَنِ الأَعْرَجِ، عَنْ عَبْدِ اللَّهِ ابْنِ بُحَيْنَةَ، قَالَ صَلَّى لَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم رَكْعَتَيْنِ مِنْ بَعْضِ الصَّلَوَاتِ ثُمَّ قَامَ فَلَمْ يَجْلِسْ فَقَامَ النَّاسُ مَعَهُ فَلَمَّا قَضَى صَلاَتَهُ وَنَظَرْنَا تَسْلِيمَهُ كَبَّرَ فَسَجَدَ سَجْدَتَيْنِ وَهُوَ جَالِسٌ قَبْلَ التَّسْلِيمِ ثُمَّ سَلَّمَ ‏.‏",
+      "source_hash_sha256": "a7ff0fbd428f4e7c9d5259ea7e13053ea7fd4590f8c7d320d52c25adbb790040",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu à Malik, d’après Ibn Shihab, d’après Abd al-Rahman al-A‘raj, d’après Abdullah ibn Buhayna, qui dit : « Le Messager d’Allah ﷺ dirigea pour nous l’une des prières et accomplit deux unités. Puis il se leva sans s’asseoir, et les gens se levèrent avec lui. Lorsqu’il eut achevé sa prière et que nous nous attendions à ce qu’il prononce le salut final, il prononça le takbir et se prosterna deux fois en position assise, avant le salut final. Puis il prononça le salut. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5463d30a-43e1-4c83-8121-7b03a9a5db63",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:570b",
+      "reference": "Sahih Muslim, hadith 570 b, book 5, باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "title": "باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح قَالَ وَحَدَّثَنَا ابْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنِ الأَعْرَجِ، عَنْ عَبْدِ اللَّهِ ابْنِ بُحَيْنَةَ الأَسْدِيِّ، حَلِيفِ بَنِي عَبْدِ الْمُطَّلِبِ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَامَ فِي صَلاَةِ الظُّهْرِ وَعَلَيْهِ جُلُوسٌ فَلَمَّا أَتَمَّ صَلاَتَهُ سَجَدَ سَجْدَتَيْنِ يُكَبِّرُ فِي كُلِّ سَجْدَةٍ وَهُوَ جَالِسٌ قَبْلَ أَنْ يُسَلِّمَ وَسَجَدَهُمَا النَّاسُ مَعَهُ مَكَانَ مَا نَسِيَ مِنَ الْجُلُوسِ ‏.‏",
+      "source_hash_sha256": "bd6a45a484af2ae354cbc4927cadb6d6518e68610e3e102654dd2c5bef17c58e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Layth nous a rapporté. (H) Ibn Rumh nous a rapporté : al-Layth nous a informés, d’après Ibn Shihab, d’après al-A‘raj, d’après Abdullah ibn Buhayna al-Asadi, allié des Banu Abd al-Muttalib, que le Messager d’Allah ﷺ se leva au cours de la prière de midi alors qu’il aurait dû s’asseoir. Lorsqu’il eut terminé sa prière, il se prosterna deux fois, en prononçant le takbir à chaque prosternation, alors qu’il était assis et avant le salut final. Les gens se prosternèrent avec lui pour compenser l’oubli de la position assise.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a18c802b-978a-4513-9a35-7f89706ad580",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:570c",
+      "reference": "Sahih Muslim, hadith 570 c, book 5, باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "title": "باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عَبْدِ الرَّحْمَنِ الأَعْرَجِ، عَنْ عَبْدِ اللَّهِ بْنِ مَالِكٍ ابْنِ بُحَيْنَةَ الأَزْدِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَامَ فِي الشَّفْعِ الَّذِي يُرِيدُ أَنْ يَجْلِسَ فِي صَلاَتِهِ فَمَضَى فِي صَلاَتِهِ فَلَمَّا كَانَ فِي آخِرِ الصَّلاَةِ سَجَدَ قَبْلَ أَنْ يُسَلِّمَ ثُمَّ سَلَّمَ ‏.‏",
+      "source_hash_sha256": "ccedd7e875771547d42c5e86aea9744f1e4deff5a212f9bf57d0bbfda437eca9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Zahrani nous a rapporté : Hammad nous a rapporté : Yahya ibn Sa‘id nous a rapporté, d’après Abd al-Rahman al-A‘raj, d’après Abdullah ibn Malik ibn Buhayna al-Azdi, que le Messager d’Allah ﷺ se leva au moment d’une unité paire de sa prière, où il devait s’asseoir. Il poursuivit sa prière et, vers la fin, se prosterna avant le salut final, puis le prononça.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ad9ebeaa-d4b5-4a4b-a2bf-f84a692ec87c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:571a",
+      "reference": "Sahih Muslim, hadith 571 a, book 5, باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "title": "باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ أَحْمَدَ بْنِ أَبِي خَلَفٍ، حَدَّثَنَا مُوسَى بْنُ دَاوُدَ، حَدَّثَنَا سُلَيْمَانُ بْنُ بِلاَلٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا شَكَّ أَحَدُكُمْ فِي صَلاَتِهِ فَلَمْ يَدْرِ كَمْ صَلَّى ثَلاَثًا أَمْ أَرْبَعًا فَلْيَطْرَحِ الشَّكَّ وَلْيَبْنِ عَلَى مَا اسْتَيْقَنَ ثُمَّ يَسْجُدُ سَجْدَتَيْنِ قَبْلَ أَنْ يُسَلِّمَ فَإِنْ كَانَ صَلَّى خَمْسًا شَفَعْنَ لَهُ صَلاَتَهُ وَإِنْ كَانَ صَلَّى إِتْمَامًا لأَرْبَعٍ كَانَتَا تَرْغِيمًا لِلشَّيْطَانِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "21693838ed6f2707262b4418db469629bb00775f70f1e930e669d46ccfefcbe3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Ahmad ibn Abi Khalaf nous a rapporté : Musa ibn Dawud nous a rapporté : Sulayman ibn Bilal nous a rapporté, d’après Zayd ibn Aslam, d’après Ata ibn Yasar, d’après Abu Sa‘id al-Khudri, qui dit : Le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous doute au cours de sa prière et ne sait pas s’il en a accompli trois ou quatre unités, qu’il écarte son doute et s’en tienne à ce dont il est certain. Puis qu’il se prosterne deux fois avant le salut final. S’il en a accompli cinq, ces deux prosternations rendront sa prière paire ; s’il a bien complété quatre unités, elles seront une humiliation pour Satan. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7f02d1f0-0c61-4ecb-824b-ac9472268bf0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:571b",
+      "reference": "Sahih Muslim, hadith 571 b, book 5, باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "title": "باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَحْمَدُ بْنُ عَبْدِ الرَّحْمَنِ بْنِ وَهْبٍ، حَدَّثَنِي عَمِّي عَبْدُ اللَّهِ، حَدَّثَنِي دَاوُدُ بْنُ قَيْسٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، بِهَذَا الإِسْنَادِ وَفِي مَعْنَاهُ قَالَ ‏\"‏ يَسْجُدُ سَجْدَتَيْنِ قَبْلَ السَّلاَمِ ‏\"‏ ‏.‏ كَمَا قَالَ سُلَيْمَانُ بْنُ بِلاَلٍ ‏.‏",
+      "source_hash_sha256": "d699ce674e2f3587ce8dc81a5b8292a1b1798059a0c11a07a15fcf0f4aea74ab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "72e792c1-b49a-45b7-9d05-82bceaf79f88",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:572a",
+      "reference": "Sahih Muslim, hadith 572 a, book 5, باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "title": "باب السَّهْوِ فِي الصَّلاَةِ وَالسُّجُودِ لَهُ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عُثْمَانُ، وَأَبُو بَكْرٍ ابْنَا أَبِي شَيْبَةَ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ جَمِيعًا عَنْ جَرِيرٍ، - قَالَ عُثْمَانُ حَدَّثَنَا جَرِيرٌ، - عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، قَالَ قَالَ عَبْدُ اللَّهِ صَلَّى رَسُولُ اللَّهِ صلى الله عليه وسلم - قَالَ إِبْرَاهِيمُ زَادَ أَوْ نَقَصَ - فَلَمَّا سَلَّمَ قِيلَ لَهُ يَا رَسُولَ اللَّهِ أَحَدَثَ فِي الصَّلاَةِ شَىْءٌ قَالَ ‏\"‏ وَمَا ذَاكَ ‏\"‏ ‏.‏ قَالُوا صَلَّيْتَ كَذَا وَكَذَا - قَالَ - فَثَنَى رِجْلَيْهِ وَاسْتَقْبَلَ الْقِبْلَةَ فَسَجَدَ سَجْدَتَيْنِ ثُمَّ سَلَّمَ ثُمَّ أَقْبَلَ عَلَيْنَا بِوَجْهِهِ فَقَالَ ‏\"‏ إِنَّهُ لَوْ حَدَثَ فِي الصَّلاَةِ شَىْءٌ أَنْبَأْتُكُمْ بِهِ وَلَكِنْ إِنَّمَا أَنَا بَشَرٌ أَنْسَى كَمَا تَنْسَوْنَ فَإِذَا نَسِيتُ فَذَكِّرُونِي وَإِذَا شَكَّ أَحَدُكُمْ فِي صَلاَتِهِ فَلْيَتَحَرَّ الصَّوَابَ فَلْيُتِمَّ عَلَيْهِ ثُمَّ لْيَسْجُدْ سَجْدَتَيْنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "663c5fb6f85e628b582ac7f6f22b51c7097098df91c804bba4b8403bee584122",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Uthman et Abu Bakr, les fils d’Abu Shayba, ainsi qu’Ishaq ibn Ibrahim nous ont rapporté, tous d’après Jarir. Uthman dit : Jarir nous a rapporté, d’après Mansur, d’après Ibrahim, d’après Alqama, qui dit : Abdullah dit : « Le Messager d’Allah ﷺ pria… » Ibrahim précise : « Il ajouta ou retrancha une unité. » Lorsqu’il prononça le salut final, on lui demanda : « Messager d’Allah, quelque chose a-t-il changé dans la prière ? » Il demanda : « Qu’en est-il ? » Ils répondirent : « Tu as prié de telle et telle manière. » Il replia alors ses jambes, se tourna vers la qibla et se prosterna deux fois. Puis il prononça le salut, se tourna vers nous et dit : « S’il s’était produit quelque chose de nouveau dans la prière, je vous l’aurais annoncé. Mais je ne suis qu’un être humain : j’oublie comme vous oubliez. Lorsque j’oublie, rappelez-le-moi. Et lorsque l’un de vous doute pendant sa prière, qu’il recherche ce qui est juste et poursuive sa prière sur cette base, puis qu’il se prosterne deux fois. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "7f02d1f0-0c61-4ecb-824b-ac9472268bf0",
+      "reason": "La source ne reprend que la chaîne de transmission et un bref renvoi au sens de la version précédente, sans donner le texte complet. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ]
+}

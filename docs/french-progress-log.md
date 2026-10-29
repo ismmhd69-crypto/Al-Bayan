@@ -8301,3 +8301,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0235 saves three private French drafts about announcing a lost item or camel in the mosque. Muslim 567b, 568b and 569c contain only incomplete cross-reference or variant text and remain blank under Needs Mo. The earlier long report was handled alone in batch 0234.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 945 Muslim drafts, 7,281 total hadith drafts, 7,348 remaining, and 449 Needs Mo items.
+
+### 2026-10-29: Muslim 570a–572a
+
+- FR-LIB-HAD-MUSLIM-0236 saves five private French drafts about the prostrations performed to make up for forgetfulness or uncertainty in prayer. Muslim 571b gives only a short cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 950 Muslim drafts, 7,286 total hadith drafts, 7,343 remaining, and 450 Needs Mo items.
