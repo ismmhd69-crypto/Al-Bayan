@@ -11534,3 +11534,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1891a-1893b
 
 - FR-LIB-HAD-MUSLIM-0893 saves four private French drafts about righteousness, charity in Allah’s cause, and helping a traveler. The stated number of 700 camels and the phrase “then remained upright” are preserved. Two chain-only cross-references remain blank under Needs Mo with specific reasons. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1894-1896d
+
+- FR-LIB-HAD-MUSLIM-0894 saves five private French drafts about equipping a fighter and caring for a fighter’s family. The specific reward phrases and shared-reward conditions are preserved. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
