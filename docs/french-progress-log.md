@@ -11156,3 +11156,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0805 saves four private French drafts, including the full account involving al-Walid and Uthman, Ali's report, the ten-strike limit report, and the pledge report. Muslim 1707c is chain-only, and 1709b contains a Quran quotation; both remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1709c-1709h
+
+- FR-LIB-HAD-MUSLIM-0806 saves four private French drafts covering the pledge reports in 1709c, 1709d, 1709e and 1709h. The two intervening entries only provide transmission chains and refer to the earlier report, so they remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
