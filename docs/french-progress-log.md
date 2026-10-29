@@ -10986,3 +10986,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0771 saves five private French drafts about oaths and atonement. All five source reports include translatable text, including the reported wording variations.
 - All five source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1649b
+
+- FR-LIB-HAD-MUSLIM-0772 saves one complete private French draft about Abu Musa and the mounts provided for his companions. The 2,139-character source is kept as a single-record batch; its Arabic text and hash are unchanged.
+- The focused validator and diff checks passed. No database write or publication occurred.
