@@ -11201,3 +11201,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0814 saves six private French drafts about livestock permission, hospitality and sharing supplies, along with the opening account from the Book of Jihad. Alternate chains, wording, and the uncertain or confirmed naming of Juwayriya are retained.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1731a
+
+- FR-LIB-HAD-MUSLIM-0815 saves the deferred long private French draft. It preserves the three transmission routes, the complete instructions, and the closing attribution variant.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
