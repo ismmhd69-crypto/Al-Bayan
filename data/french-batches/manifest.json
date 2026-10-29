@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:26:22.645Z",
+  "lastReconciled": "2026-10-29T14:26:48.921Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 373,
+    "hadithMuslimDrafted": 378,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6709,
-    "hadithDatabaseMissing": 7920,
-    "hadithLocalRemaining": 7920,
-    "hadithNeedsMo": 225,
+    "hadithLocalDrafted": 6714,
+    "hadithDatabaseMissing": 7915,
+    "hadithLocalRemaining": 7915,
+    "hadithNeedsMo": 226,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30979,6 +30979,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0095",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0095.json",
+      "sourceIds": [
+        "80e8b7b4-28c6-4287-b04c-a53a24d60e2f",
+        "f76db723-3786-4eec-a631-6feb9d977134",
+        "bfd2e6a4-0d07-4f21-89e0-72e8a8cd0816",
+        "6bc8dc2e-fbc9-4d14-8cd9-14105682906a",
+        "a00cb591-1ab8-48b4-8097-e60e640be549",
+        "3989b693-4916-43e9-8bc1-68d79bed6cd4"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotations held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35187,11 +35208,17 @@
       "scope": "Sahih Muslim 191e: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement les versets 3:192 et 32:20 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-194B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 194 b: direct Quran quotations",
+      "status": "blocked",
+      "reason": "Ce récit reprend directement plusieurs paroles coraniques, notamment « Ceci est mon Seigneur », « C’est le plus grand d’entre eux qui l’a fait » et « Je suis malade ». Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6709,
-  "hadithLocalRemaining": 7920,
+  "hadithLocalDrafted": 6714,
+  "hadithLocalRemaining": 7915,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36542,10 +36569,16 @@
       "scope": "Sahih Muslim 191e: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement les versets 3:192 et 32:20 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-194B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 194 b: direct Quran quotations",
+      "status": "blocked",
+      "reason": "Ce récit reprend directement plusieurs paroles coraniques, notamment « Ceci est mon Seigneur », « C’est le plus grand d’entre eux qui l’a fait » et « Je suis malade ». Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 373,
-  "hadithDatabaseMissing": 7920,
+  "hadithMuslimDrafted": 378,
+  "hadithDatabaseMissing": 7915,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 225
+  "hadithNeedsMo": 226
 }
