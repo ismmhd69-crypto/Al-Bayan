@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:45:36.404Z",
+  "lastReconciled": "2026-10-29T13:46:06.084Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 1,
+    "hadithMuslimDrafted": 5,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6337,
-    "hadithDatabaseMissing": 8292,
-    "hadithLocalRemaining": 8292,
-    "hadithNeedsMo": 170,
+    "hadithLocalDrafted": 6341,
+    "hadithDatabaseMissing": 8288,
+    "hadithLocalRemaining": 8288,
+    "hadithNeedsMo": 172,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -29157,6 +29157,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0002",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0002.json",
+      "sourceIds": [
+        "b1668cda-8623-4505-820f-8975612c4805",
+        "5aa354ac-f43e-449c-84f4-989f28b2980b",
+        "af2c523d-5884-46c1-b9e8-7a70a0a7cf33",
+        "9a51a6c9-7e3e-44ea-993c-f4bf92c461da",
+        "81ef6145-ecc3-4f98-8556-aa19e13ec3a7",
+        "ec65fda7-31af-4d15-b941-c5e03c6ccfd2"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "4 complete private drafts and 2 records held under Needs Mo; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -33035,11 +33056,23 @@
       "scope": "Sahih al-Bukhari 7552: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement des paroles coraniques. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-8E-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 8 e: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit reproduit directement le Coran 31:34. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-10-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 10: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit reproduit directement le Coran 31:34. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6337,
-  "hadithLocalRemaining": 8292,
+  "hadithLocalDrafted": 6341,
+  "hadithLocalRemaining": 8288,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -34060,7 +34093,19 @@
       "scope": "Sahih al-Bukhari 7552: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement des paroles coraniques. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-8E-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 8 e: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit reproduit directement le Coran 31:34. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-10-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 10: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit reproduit directement le Coran 31:34. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 1
+  "hadithMuslimDrafted": 5
 }

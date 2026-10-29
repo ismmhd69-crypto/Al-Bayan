@@ -7112,3 +7112,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0001 saves the long Hadith of Gabriel as one private French draft, retaining the preceding exchange about belief in divine decree and the complete questions on Islam, faith, excellence, the Hour, and its signs. No database writes or publication occurred.
 - Its source hash is retained and the one-record focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 1 of 7,366. Hadith Needs Mo: 170. Total local hadith rows not drafted: 8,292, including held records.
+
+### 2026-10-29: Muslim 8b–10
+
+- FR-LIB-HAD-MUSLIM-0002 saves 4 private French drafts. Hadith 8e and hadith 10 quote Quran 31:34; both complete translations remain blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 5 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,288, including held records.
