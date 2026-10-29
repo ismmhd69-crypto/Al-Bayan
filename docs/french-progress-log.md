@@ -11081,3 +11081,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0790 saves six private French drafts on unjust killing, judgment over bloodshed, and the sanctity of life, property, and honor. The short wording variants are translated as variants without filling gaps from adjacent reports.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1679c–1681b
+
+- FR-LIB-HAD-MUSLIM-0791 saves six private French drafts on the Farewell Address, a homicide confession, and compensation for a lost fetus. Short source variants are translated only for their own reported additions or wording.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
