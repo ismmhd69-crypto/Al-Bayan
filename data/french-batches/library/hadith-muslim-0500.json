@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0500",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:40:29.716Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7920b279-cff3-4e6a-9d33-ce3de079474a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1156c",
+      "reference": "Sahih Muslim, hadith 1156 c, book 13, بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "title": "بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا حَمَّادٌ، عَنْ أَيُّوبَ، وَهِشَامٍ، عَنْ مُحَمَّدٍ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، - قَالَ حَمَّادٌ وَأَظُنُّ أَيُّوبَ قَدْ سَمِعَهُ مِنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، - قَالَ سَأَلْتُ عَائِشَةَ - رضى الله عنها - عَنْ صَوْمِ النَّبِيِّ صلى الله عليه وسلم فَقَالَتْ كَانَ يَصُومُ حَتَّى نَقُولَ قَدْ صَامَ قَدْ صَامَ ‏.‏ وَيُفْطِرُ حَتَّى نَقُولَ قَدْ أَفْطَرَ قَدْ أَفْطَرَ - قَالَتْ - وَمَا رَأَيْتُهُ صَامَ شَهْرًا كَامِلاً مُنْذُ قَدِمَ الْمَدِينَةَ إِلاَّ أَنْ يَكُونَ رَمَضَانَ ‏.‏",
+      "source_hash_sha256": "21805ceabb4e9fee10cff12c3bd515988ae222381cde34c8758d7cda76f44235",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Zahrani m’a rapporté : Hammad nous a rapporté, d’après Ayyub et Hisham, d’après Muhammad, d’après ‘Abd Allah ibn Shaqiq. Hammad dit : je pense qu’Ayyub l’a entendu de ‘Abd Allah ibn Shaqiq. Celui-ci dit : j’ai interrogé ‘A’isha, qu’Allah l’agrée, au sujet du jeûne du Prophète ﷺ. Elle répondit : « Il jeûnait au point que nous disions : “Il jeûne, il jeûne”, puis il ne jeûnait pas au point que nous disions : “Il ne jeûne pas, il ne jeûne pas.” Depuis son arrivée à Médine, je ne l’ai jamais vu jeûner un mois entier, sauf s’il s’agissait du Ramadan. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e0acdae1-4018-4c70-95c4-f9eea2430bdf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1156d",
+      "reference": "Sahih Muslim, hadith 1156 d, book 13, بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "title": "بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَمَّادٌ، عَنْ أَيُّوبَ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، قَالَ سَأَلْتُ عَائِشَةَ - رضى الله عنها - بِمِثْلِهِ وَلَمْ يَذْكُرْ فِي الإِسْنَادِ هِشَامًا وَلاَ مُحَمَّدًا ‏.‏",
+      "source_hash_sha256": "2340ddaa848894eccb7b5dd423f5c248e1bb9a705539cc7583d624c2c40fe09e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3810c5e7-6760-48fb-ad31-9f531304b3a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1156e",
+      "reference": "Sahih Muslim, hadith 1156 e, book 13, بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "title": "بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ أَبِي النَّضْرِ، مَوْلَى عُمَرَ بْنِ عُبَيْدِ اللَّهِ عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ، - رضى الله عنها - أَنَّهَا قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَصُومُ حَتَّى نَقُولَ لاَ يُفْطِرُ ‏.‏ وَيُفْطِرُ حَتَّى نَقُولَ لاَ يَصُومُ ‏.‏ وَمَا رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم اسْتَكْمَلَ صِيَامَ شَهْرٍ قَطُّ إِلاَّ رَمَضَانَ وَمَا رَأَيْتُهُ فِي شَهْرٍ أَكْثَرَ مِنْهُ صِيَامًا فِي شَعْبَانَ ‏.‏",
+      "source_hash_sha256": "037e851941599c8b1ae0ab28d33e8cece23554475bbbafeb1c53dd05b7d4ce44",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu devant Malik, d’après Abu al-Nadr, l’affranchi de ‘Umar ibn ‘Ubayd Allah, d’après Abu Salama ibn ‘Abd al-Rahman, d’après ‘A’isha, Mère des croyants, qu’Allah l’agrée, qui a dit : « Le Messager d’Allah ﷺ jeûnait au point que nous disions : “Il ne va pas interrompre son jeûne”, puis il ne jeûnait pas au point que nous disions : “Il ne va pas jeûner.” Je n’ai jamais vu le Messager d’Allah ﷺ jeûner un mois entier, hormis le Ramadan, et je ne l’ai jamais vu jeûner davantage au cours d’un mois que pendant Sha‘ban. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f69ab062-c809-40ad-bfe3-d5c78e88ed62",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1156f",
+      "reference": "Sahih Muslim, hadith 1156 f, book 13, بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "title": "بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، - قَالَ أَبُو بَكْرٍ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، - عَنِ ابْنِ أَبِي لَبِيدٍ، عَنْ أَبِي سَلَمَةَ، قَالَ سَأَلْتُ عَائِشَةَ - رضى الله عنها - عَنْ صِيَامِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ كَانَ يَصُومُ حَتَّى نَقُولَ قَدْ صَامَ ‏.‏ وَيُفْطِرُ حَتَّى نَقُولَ قَدْ أَفْطَرَ ‏.‏ وَلَمْ أَرَهُ صَائِمًا مِنْ شَهْرٍ قَطُّ أَكْثَرَ مِنْ صِيَامِهِ مِنْ شَعْبَانَ كَانَ يَصُومُ شَعْبَانَ كُلَّهُ كَانَ يَصُومُ شَعْبَانَ إِلاَّ قَلِيلاً ‏.‏",
+      "source_hash_sha256": "f5f47ace9f4df2ffae1b968235c4d218357265b3a77f8ef856f85559eec68f0e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et ‘Amr al-Naqid nous ont rapporté, tous deux d’après Ibn ‘Uyayna. Abu Bakr dit : Sufyan ibn ‘Uyayna nous a rapporté, d’après Ibn Abi Labid, d’après Abu Salama, qui a dit : j’ai interrogé ‘A’isha, qu’Allah l’agrée, au sujet du jeûne du Messager d’Allah ﷺ. Elle répondit : « Il jeûnait au point que nous disions : “Il a jeûné”, puis il ne jeûnait pas au point que nous disions : “Il a interrompu son jeûne.” Je ne l’ai jamais vu jeûner autant pendant un mois que pendant Sha‘ban. Il jeûnait tout Sha‘ban — ou en jeûnait presque tout. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "14614567-4140-4995-901c-1c03fb2132d7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1157a",
+      "reference": "Sahih Muslim, hadith 1157 a, book 13, بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "title": "بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، - رضى الله عنهما - قَالَ مَا صَامَ رَسُولُ اللَّهِ صلى الله عليه وسلم شَهْرًا كَامِلاً قَطُّ غَيْرَ رَمَضَانَ ‏.‏ وَكَانَ يَصُومُ إِذَا صَامَ حَتَّى يَقُولَ الْقَائِلُ لاَ وَاللَّهِ لاَ يُفْطِرُ ‏.‏ وَيُفْطِرُ إِذَا أَفْطَرَ حَتَّى يَقُولَ الْقَائِلُ لاَ وَاللَّهِ لاَ يَصُومُ ‏.‏",
+      "source_hash_sha256": "251ae6f470f76c74408aa3a0e5f4e872396f11c2bc0a7b3e83cfde294c3e62e6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Zahrani nous a rapporté : Abu ‘Awana nous a rapporté, d’après Abu Bishr, d’après Sa‘id ibn Jubayr, d’après Ibn ‘Abbas, qu’Allah les agrée tous deux, qui a dit : « En dehors du Ramadan, le Messager d’Allah ﷺ n’a jamais jeûné un mois entier. Lorsqu’il jeûnait, il jeûnait au point que l’on disait : “Par Allah, il ne va pas interrompre son jeûne.” Et lorsqu’il ne jeûnait pas, il s’en abstenait au point que l’on disait : “Par Allah, il ne va pas jeûner.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "262b17c9-1ee0-4531-b012-f47e09480421",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1157b",
+      "reference": "Sahih Muslim, hadith 1157 b, book 13, بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "title": "بَاب صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ وَاسْتِحْبَابِ أَنْ لَا يُخْلِيَ شَهْرًا عَنْ صَوْمٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ وَأَبُو بَكْرِ بْنُ نَافِعٍ عَنْ غُنْدَرٍ عَنْ شُعْبَةَ عَنْ أَبِي بِشْرٍ بِهَذَا الْإِسْنَادِ وَقَالَ شَهْرًا مُتَتَابِعًا مُنْذُ قَدِمَ الْمَدِينَةَ",
+      "source_hash_sha256": "b0d4d8e96a562ef333baea49e0610c155f829495d3ff82eacde9fe973b6491d4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e0acdae1-4018-4c70-95c4-f9eea2430bdf",
+      "reason": "La source renvoie au récit précédent (« de la même manière ») sans en reprendre le texte. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    },
+    {
+      "source_id": "262b17c9-1ee0-4531-b012-f47e09480421",
+      "reason": "La source ne rapporte qu’une variante de chaîne et une précision (« un mois consécutif ») sans reproduire le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

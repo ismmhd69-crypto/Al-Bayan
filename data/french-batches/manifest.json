@@ -39342,6 +39342,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0500",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0500.json",
+      "sourceIds": [
+        "7920b279-cff3-4e6a-9d33-ce3de079474a",
+        "e0acdae1-4018-4c70-95c4-f9eea2430bdf",
+        "3810c5e7-6760-48fb-ad31-9f531304b3a7",
+        "f69ab062-c809-40ad-bfe3-d5c78e88ed62",
+        "14614567-4140-4995-901c-1c03fb2132d7",
+        "262b17c9-1ee0-4531-b012-f47e09480421"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six records passed focused validation; Arabic originals and hashes, IDs, private unpublished AI-draft state, rights flags, and single-item long-text rule passed; Muslim 1156d and 1157b held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -43649,8 +43670,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8298,
-  "hadithLocalRemaining": 6331,
+  "hadithLocalDrafted": 8302,
+  "hadithLocalRemaining": 6327,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -46762,10 +46783,20 @@
       "source_id": "7765ebc8-e15f-48a4-a341-a9981a95fedf",
       "reason": "La source ne rapporte que la chaîne de transmission et renvoie au récit précédent (« par cette même chaîne »), sans en reproduire le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "e0acdae1-4018-4c70-95c4-f9eea2430bdf",
+      "reason": "La source renvoie au récit précédent (« de la même manière ») sans en reprendre le texte. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "262b17c9-1ee0-4531-b012-f47e09480421",
+      "reason": "La source ne rapporte qu’une variante de chaîne et une précision (« un mois consécutif ») sans reproduire le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1962,
+  "hadithMuslimDrafted": 1966,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 915
+  "hadithNeedsMo": 917
 }
