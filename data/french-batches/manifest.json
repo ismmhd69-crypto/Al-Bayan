@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6141,
+    "hadithBukhariDrafted": 6143,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6141,
+    "hadithLocalDrafted": 6143,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8488,
+    "hadithLocalRemaining": 8486,
     "hadithNeedsMo": 117,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -28113,6 +28113,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1332",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1332.json",
+      "sourceIds": [
+        "d0dce318-ee57-49e9-8e70-0086f33e1e93",
+        "2b6a3da5-6f06-43d7-a0bd-be81f4fec79e"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "two complete drafts; source hashes retained; the final-illness instructions and legal sequence preserved; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31675,9 +31692,9 @@
       "reason": "The report directly quotes Quran 49:2. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6141,
-  "hadithLocalDrafted": 6141,
-  "hadithLocalRemaining": 8488,
+  "hadithBukhariDrafted": 6143,
+  "hadithLocalDrafted": 6143,
+  "hadithLocalRemaining": 8486,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
