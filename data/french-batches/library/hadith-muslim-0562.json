@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0562",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:07:53.027Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4825afde-12dc-49e4-9c02-2857d64c5a8a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1268b",
+      "reference": "Sahih Muslim, hadith 1268 b, book 15, باب اسْتِحْبَابِ اسْتِلاَمِ الرُّكْنَيْنِ الْيَمَانِيَيْنِ فِي الطَّوَافِ دُونَ الرُّكْنَيْنِ الآخَرَيْن",
+      "title": "باب اسْتِحْبَابِ اسْتِلاَمِ الرُّكْنَيْنِ الْيَمَانِيَيْنِ فِي الطَّوَافِ دُونَ الرُّكْنَيْنِ الآخَرَيْن",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ جَمِيعًا عَنْ أَبِي خَالِدٍ، - قَالَ أَبُو بَكْرٍ حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، - عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، قَالَ رَأَيْتُ ابْنَ عُمَرَ يَسْتَلِمُ الْحَجَرَ بِيَدِهِ ثُمَّ قَبَّلَ يَدَهُ وَقَالَ مَا تَرَكْتُهُ مُنْذُ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَفْعَلُهُ ‏.‏",
+      "source_hash_sha256": "d61cabd03469184a827e4e214f3854df269aa787cec5bd388c9c6d1964d17fe5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Ibn Numayr nous ont rapporté, tous deux d'après Abu Khalid — Abu Bakr a dit : Abu Khalid al-Ahmar nous a rapporté —, d'après Ubayd Allah, d'après Nafi, qui a dit : J'ai vu Ibn Umar toucher la Pierre de sa main, puis embrasser sa main. Il disait : « Je n'ai cessé de le faire depuis que j'ai vu le Messager d'Allah ﷺ le faire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e13fdd02-f4b2-45fe-9a99-0374d577643a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1269",
+      "reference": "Sahih Muslim, hadith 1269, book 15, باب اسْتِحْبَابِ اسْتِلاَمِ الرُّكْنَيْنِ الْيَمَانِيَيْنِ فِي الطَّوَافِ دُونَ الرُّكْنَيْنِ الآخَرَيْن",
+      "title": "باب اسْتِحْبَابِ اسْتِلاَمِ الرُّكْنَيْنِ الْيَمَانِيَيْنِ فِي الطَّوَافِ دُونَ الرُّكْنَيْنِ الآخَرَيْن",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنَا عَمْرُو بْنُ الْحَارِثِ، أَنَّ قَتَادَةَ بْنَ، دِعَامَةَ حَدَّثَهُ أَنَّ أَبَا الطُّفَيْلِ الْبَكْرِيَّ حَدَّثَهُ أَنَّهُ، سَمِعَ ابْنَ عَبَّاسٍ، يَقُولُ لَمْ أَرَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَسْتَلِمُ غَيْرَ الرُّكْنَيْنِ الْيَمَانِيَيْنِ ‏.‏",
+      "source_hash_sha256": "387fc1ecc084e088734395c68b1013faae853a4c0c91bd488a6c16198919be84",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir m'a rapporté : Ibn Wahb nous a informés ; Amr ibn al-Harith nous a informés que Qatada ibn Diama lui avait rapporté qu'Abu al-Tufayl al-Bakri lui avait rapporté avoir entendu Ibn Abbas dire : Je n'ai pas vu le Messager d'Allah ﷺ toucher autre chose que les deux angles yéménites.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b51aef26-e23c-41df-9e0c-c57dc9d19a7e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1270a",
+      "reference": "Sahih Muslim, hadith 1270 a, book 15, باب اسْتِحْبَابِ تَقْبِيلِ الْحَجَرِ الأَسْوَدِ فِي الطَّوَافِ ‏",
+      "title": "باب اسْتِحْبَابِ تَقْبِيلِ الْحَجَرِ الأَسْوَدِ فِي الطَّوَافِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، وَعَمْرٌو، ح وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنِي ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمٍ، أَنَّحَدَّثَهُ قَالَ قَبَّلَ عُمَرُ بْنُ الْخَطَّابِ الْحَجَرَ ثُمَّ قَالَ أَمَ وَاللَّهِ لَقَدْ عَلِمْتُ أَنَّكَ حَجَرٌ وَلَوْلاَ أَنِّي رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يُقَبِّلُكَ مَا قَبَّلْتُكَ ‏.‏ زَادَ هَارُونُ فِي رِوَايَتِهِ قَالَ عَمْرٌو وَحَدَّثَنِي بِمِثْلِهَا زَيْدُ بْنُ أَسْلَمَ عَنْ أَبِيهِ أَسْلَمَ ‏.‏",
+      "source_hash_sha256": "e2346e174e6b3c967acc23c1c0f3ef80aae80e630d50a14e9baab3a67b69f87b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "Le texte arabe de Muslim 1270a comporte une formule de transmission endommagée ou contradictoire après « d’après Salim » (« أنحدّثه »). Laisser toute la traduction française vide jusqu’à vérification du texte source."
+    },
+    {
+      "source_id": "7a1f5698-fe55-435d-9038-e38bb41d5cfd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1270b",
+      "reference": "Sahih Muslim, hadith 1270 b, book 15, باب اسْتِحْبَابِ تَقْبِيلِ الْحَجَرِ الأَسْوَدِ فِي الطَّوَافِ ‏",
+      "title": "باب اسْتِحْبَابِ تَقْبِيلِ الْحَجَرِ الأَسْوَدِ فِي الطَّوَافِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ أَبِي بَكْرٍ الْمُقَدَّمِيُّ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ عُمَرَ، قَبَّلَ الْحَجَرَ وَقَالَ إِنِّي لأُقَبِّلُكَ وَإِنِّي لأَعْلَمُ أَنَّكَ حَجَرٌ وَلَكِنِّي رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يُقَبِّلُكَ ‏.‏",
+      "source_hash_sha256": "5e3f171defa66665849b4d397cb77761c705bb529e74e36da53786160c940c14",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abi Bakr al-Muqaddami nous a rapporté : Hammad ibn Zayd nous a rapporté, d'après Ayyub, d'après Nafi, d'après Ibn Umar, selon lequel Umar embrassa la Pierre et dit : « Je l'embrasse, et je sais que tu es une pierre. Mais j'ai vu le Messager d'Allah ﷺ t'embrasser. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "beec7d5b-ce44-47df-920f-4fd7bb63a482",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1270c",
+      "reference": "Sahih Muslim, hadith 1270 c, book 15, باب اسْتِحْبَابِ تَقْبِيلِ الْحَجَرِ الأَسْوَدِ فِي الطَّوَافِ ‏",
+      "title": "باب اسْتِحْبَابِ تَقْبِيلِ الْحَجَرِ الأَسْوَدِ فِي الطَّوَافِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا خَلَفُ بْنُ هِشَامٍ، وَالْمُقَدَّمِيُّ، وَأَبُو كَامِلٍ وَقُتَيْبَةُ بْنُ سَعِيدٍ كُلُّهُمْ عَنْ حَمَّادٍ، - قَالَ خَلَفٌ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، - عَنْ عَاصِمٍ الأَحْوَلِ، عَنْ عَبْدِ اللَّهِ بْنِ سَرْجِسَ، قَالَ رَأَيْتُ الأَصْلَعَ - يَعْنِي عُمَرَ بْنَ الْخَطَّابِ - يُقَبِّلُ الْحَجَرَ وَيَقُولُ وَاللَّهِ إِنِّي لأُقَبِّلُكَ وَإِنِّي أَعْلَمُ أَنَّكَ حَجَرٌ وَأَنَّكَ لاَ تَضُرُّ وَلاَ تَنْفَعُ وَلَوْلاَ أَنِّي رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم قَبَّلَكَ مَا قَبَّلْتُكَ ‏.‏ وَفِي رِوَايَةِ الْمُقَدَّمِيِّ وَأَبِي كَامِلٍ رَأَيْتُ الأُصَيْلِعَ ‏.‏",
+      "source_hash_sha256": "0b1ca3d8db8e5c5362602c9f9d426bc00dfe36af0ab2b3533a9359c4ce9b548e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Khalaf ibn Hisham, al-Muqaddami, Abu Kamil et Qutayba ibn Said nous ont rapporté, tous d'après Hammad — Khalaf a dit : Hammad ibn Zayd nous a rapporté —, d'après Asim al-Ahwal, d'après Abdullah ibn Sarjis, qui a dit : J'ai vu l'homme chauve — c'est-à-dire Umar ibn al-Khattab — embrasser la Pierre et dire : « Par Allah, je t'embrasse, tout en sachant que tu es une pierre et que tu ne peux ni nuire ni profiter. Si je n'avais pas vu le Messager d'Allah ﷺ t'embrasser, je ne t'aurais pas embrassée. » Dans la version d'al-Muqaddami et d'Abu Kamil, il est dit : « J'ai vu al-Usayli. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1ba67672-4563-44ff-952b-e390276b1faf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1270d",
+      "reference": "Sahih Muslim, hadith 1270 d, book 15, باب اسْتِحْبَابِ تَقْبِيلِ الْحَجَرِ الأَسْوَدِ فِي الطَّوَافِ ‏",
+      "title": "باب اسْتِحْبَابِ تَقْبِيلِ الْحَجَرِ الأَسْوَدِ فِي الطَّوَافِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَزُهَيْرُ بْنُ حَرْبٍ وَابْنُ نُمَيْرٍ جَمِيعًا عَنْ أَبِي مُعَاوِيَةَ، - قَالَ يَحْيَى أَخْبَرَنَا أَبُو مُعَاوِيَةَ، - عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَابِسِ، بْنِ رَبِيعَةَ قَالَ رَأَيْتُ عُمَرَ يُقَبِّلُ الْحَجَرَ وَيَقُولُ إِنِّي لأُقَبِّلُكَ وَأَعْلَمُ أَنَّكَ حَجَرٌ وَلَوْلاَ أَنِّي رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يُقَبِّلُكَ لَمْ أُقَبِّلْكَ ‏.‏",
+      "source_hash_sha256": "9f9fc04586114fd9c8227b638ea2a7e0188af3cb8d875e517969409d9b328886",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya, Abu Bakr ibn Abi Shayba, Zuhayr ibn Harb et Ibn Numayr nous ont rapporté, tous d'après Abu Muawiya — Yahya a dit : Abu Muawiya nous a informés —, d'après al-Amash, d'après Ibrahim, d'après Abis ibn Rabi'a, qui a dit : J'ai vu Umar embrasser la Pierre et dire : « Je t'embrasse, tout en sachant que tu es une pierre. Si je n'avais pas vu le Messager d'Allah ﷺ t'embrasser, je ne t'aurais pas embrassée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b51aef26-e23c-41df-9e0c-c57dc9d19a7e",
+      "reason": "Le texte arabe de Muslim 1270a comporte une formule de transmission endommagée ou contradictoire après « d’après Salim » (« أنحدّثه »). Laisser toute la traduction française vide jusqu’à vérification du texte source."
+    }
+  ]
+}

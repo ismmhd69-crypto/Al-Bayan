@@ -9936,3 +9936,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0561 saves six private French drafts covering the reports about brisk walking during tawaf and touching the two Yemeni corners. All six source reports are complete; no direct Quran quotation or incomplete variant was found.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1268b–1270d
+
+- FR-LIB-HAD-MUSLIM-0562 saves five private French drafts about touching and kissing the Black Stone. Muslim 1270a (source ID b51aef26-e23c-41df-9e0c-c57dc9d19a7e) has a damaged or contradictory narrator-chain phrase after “from Salim”; its French text remains entirely blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
