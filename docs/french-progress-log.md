@@ -12881,3 +12881,10 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - All six complete reports were translated and reread against the Arabic. The Quran verse in 2665 was translated directly from its supplied Arabic text.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Six private local drafts saved.
 - Reconciled local hadith progress: 6,336 Bukhari and 4,815 Muslim drafts (11,151 total); 2,731 held Needs Mo; 747 sources not yet exported. Local hadith records without French drafts: 3,478. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2667c-2670, batch 1227
+
+- Batch FR-LIB-HAD-MUSLIM-1227 covers six entries, 2667c through 2670.
+- Three complete reports were translated and reread against the Arabic. Three entries that only repeat a fragment or refer to a prior full report remain blank under Needs Mo.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Three private local drafts saved.
+- Reconciled local hadith progress: 6,336 Bukhari and 4,818 Muslim drafts (11,154 total); 2,734 held Needs Mo; 741 sources not yet exported. Local hadith records without French drafts: 3,475. All 14,629 remain missing from the live French table.

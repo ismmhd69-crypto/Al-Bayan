@@ -1,0 +1,163 @@
+{
+  "batch_id": "HADITH-MUSLIM-1227",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:59:52.876Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "600c89e3-84e5-4470-b484-e404c2614e38",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2667c",
+      "reference": "Sahih Muslim, hadith 2667 c, book 47, بَاب النَّهْيِ عَنْ اتِّبَاعِ مُتَشَابِهِ الْقُرْآنِ وَالتَّحْذِيرِ مِنْ مُتَّبِعِيهِ وَالنَّهْيِ عَنْ الِاخْتِلَافِ فِي الْقُرْآنِ",
+      "title": "بَاب النَّهْيِ عَنْ اتِّبَاعِ مُتَشَابِهِ الْقُرْآنِ وَالتَّحْذِيرِ مِنْ مُتَّبِعِيهِ وَالنَّهْيِ عَنْ الِاخْتِلَافِ فِي الْقُرْآنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَحْمَدُ بْنُ سَعِيدِ بْنِ صَخْرٍ الدَّارِمِيُّ، حَدَّثَنَا حَبَّانُ، حَدَّثَنَا أَبَانُ، حَدَّثَنَا أَبُو عِمْرَانَ قَالَ قَالَ لَنَا جُنْدَبٌ وَنَحْنُ غِلْمَانٌ بِالْكُوفَةِ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اقْرَءُوا الْقُرْآنَ ‏\"‏ ‏.‏ بِمِثْلِ حَدِيثِهِمَا ‏.‏",
+      "source_hash_sha256": "acd6e9e1a18332aa5219eb9e1502070e24fa9986dbbbfb72c332cb88d96031c4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7b51bfcb-36ad-4319-a10a-33a91ce92edc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2668",
+      "reference": "Sahih Muslim, hadith 2668, book 47, باب فِي الأَلَدِّ الْخَصِمِ",
+      "title": "باب فِي الأَلَدِّ الْخَصِمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنِ ابْنِ جُرَيْجٍ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنْ عَائِشَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ أَبْغَضَ الرِّجَالِ إِلَى اللَّهِ الأَلَدُّ الْخَصِمُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "abaada697b5b32a2579b85a2c7402cce44bb3bae7c5843c713a948c4edd26f22",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba nous a rapporté : Wakīʿ nous a rapporté, d’après Ibn Jurayj, d’après Ibn Abī Mulayka, d’après ʿĀʾisha, qui a dit que le Messager d’Allah ﷺ a dit : « L’homme le plus détesté d’Allah est le querelleur obstiné. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7177bbcb-9790-494e-a12a-8a3689a2c9ec",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2669a",
+      "reference": "Sahih Muslim, hadith 2669 a, book 47, باب اتِّبَاعِ سُنَنِ الْيَهُودِ وَالنَّصَارَى",
+      "title": "باب اتِّبَاعِ سُنَنِ الْيَهُودِ وَالنَّصَارَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا حَفْصُ بْنُ مَيْسَرَةَ، حَدَّثَنِي زَيْدُ بْنُ أَسْلَمَ، عَنْ عَطَاءِ، بْنِ يَسَارٍ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَتَتَّبِعُنَّ سَنَنَ الَّذِينَ مِنْ قَبْلِكُمْ شِبْرًا بِشِبْرٍ وَذِرَاعًا بِذِرَاعٍ حَتَّى لَوْ دَخَلُوا فِي جُحْرِ ضَبٍّ لاَتَّبَعْتُمُوهُمْ ‏\"‏ ‏.‏ قُلْنَا يَا رَسُولَ اللَّهِ آلْيَهُودَ وَالنَّصَارَى قَالَ ‏\"‏ فَمَنْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d2e48c6f168646ddd1d008724ddaa94f992368ffd258a99411476defa9d97e40",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Suwayd ibn Saʿīd m’a rapporté : Ḥafṣ ibn Maysara nous a rapporté : Zayd ibn Aslam m’a rapporté, d’après ʿAṭāʾ ibn Yasār, d’après Abū Saʿīd al-Khudrī, qui a dit que le Messager d’Allah ﷺ a dit : « Vous suivrez certainement les voies de ceux qui vous ont précédés, empan après empan et coudée après coudée, au point que s’ils entraient dans le trou d’un lézard, vous les suivriez. » Nous demandâmes : « Messager d’Allah, les juifs et les chrétiens ? » Il répondit : « Qui donc, sinon eux ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "22acd891-3aec-4bff-81e4-c4c546caae6a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2669b",
+      "reference": "Sahih Muslim, hadith 2669 b, book 47, باب اتِّبَاعِ سُنَنِ الْيَهُودِ وَالنَّصَارَى",
+      "title": "باب اتِّبَاعِ سُنَنِ الْيَهُودِ وَالنَّصَارَى",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عِدَّةٌ، مِنْ أَصْحَابِنَا عَنْ سَعِيدِ بْنِ أَبِي مَرْيَمَ، أَخْبَرَنَا أَبُو غَسَّانَ، - وَهُوَ مُحَمَّدُ بْنُ مُطَرِّفٍ - عَنْ زَيْدِ بْنِ أَسْلَمَ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "53fe0fe8c3daeaf3e34ddec1ed17fc921af50a2ca4d14b7d600b93f08f49bb74",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f1c9f619-89ab-4a47-b016-f3e48390393a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2669c",
+      "reference": "Sahih Muslim, hadith 2669 c, book 47, باب اتِّبَاعِ سُنَنِ الْيَهُودِ وَالنَّصَارَى",
+      "title": "باب اتِّبَاعِ سُنَنِ الْيَهُودِ وَالنَّصَارَى",
+      "source_published": true,
+      "text_original": "قَالَ أَبُو إِسْحَاقَ إِبْرَاهِيمُ بْنُ مُحَمَّدٍ حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، حَدَّثَنَا أَبُو غَسَّانَ، حَدَّثَنَا زَيْدُ بْنُ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، ‏.‏ وَذَكَرَ الْحَدِيثَ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "2990f4fdb5c3b2a987f9bfed8378b73c365abaf46027dafd22984c35f74c3030",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8f472c0a-fa61-461d-9a96-814059876adb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2670",
+      "reference": "Sahih Muslim, hadith 2670, book 47, باب هَلَكَ الْمُتَنَطِّعُونَ",
+      "title": "باب هَلَكَ الْمُتَنَطِّعُونَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، وَيَحْيَى بْنُ سَعِيدٍ، عَنِ ابْنِ، جُرَيْجٍ عَنْ سُلَيْمَانَ بْنِ عَتِيقٍ، عَنْ طَلْقِ بْنِ حَبِيبٍ، عَنِ الأَحْنَفِ بْنِ قَيْسٍ، عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ هَلَكَ الْمُتَنَطِّعُونَ ‏\"‏ ‏.‏ قَالَهَا ثَلاَثًا ‏.‏",
+      "source_hash_sha256": "e5b5af28039db1436f45861e27c237176b02c6f9706b8cc773e1f415efa6f9d4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba nous a rapporté : Ḥafṣ ibn Ghiyāth et Yaḥyā ibn Saʿīd nous ont rapporté, d’après Ibn Jurayj, d’après Sulaymān ibn ʿAtīq, d’après Ṭalq ibn Ḥabīb, d’après al-Aḥnaf ibn Qays, d’après ʿAbd Allāh, qui a dit que le Messager d’Allah ﷺ a dit : « Ceux qui exagèrent et s’encombrent de subtilités sont perdus. » Il le répéta trois fois.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "600c89e3-84e5-4470-b484-e404c2614e38", "reason": "Cette entrée ne donne qu’un fragment du début et renvoie au contenu de deux versions précédentes sans le reproduire. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "22acd891-3aec-4bff-81e4-c4c546caae6a", "reason": "Cette entrée ne donne qu’une chaîne et renvoie au récit précédent sans en reprendre le texte. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "f1c9f619-89ab-4a47-b016-f3e48390393a", "reason": "Cette entrée ne donne qu’une chaîne et indique que le récit est similaire à une version précédente, sans le reproduire. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}
