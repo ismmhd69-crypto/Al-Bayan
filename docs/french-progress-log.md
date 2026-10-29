@@ -2136,3 +2136,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-444` saves one full private French draft for Bukhari 2581, covering reports on the timing of gifts and the exchange among the Prophet’s wives. The source is over 2,000 characters and remains a single-record batch.
 - The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and long-source handling. No database writes or publication occurred. Bukhari local drafts: 2,337 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,292, including held records.
+
+### 2026-10-29: Bukhari 2582–2588 source review
+
+- `FR-LIB-HAD-BUKHARI-445` saves six private French drafts for Bukhari 2582–2583 and 2585–2588, covering perfume, the Hawazin delegation, gifts, fairness among children, and the Prophet’s illness.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,343 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,286, including held records.
