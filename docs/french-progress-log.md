@@ -1136,3 +1136,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-239` saves six private French drafts for Bukhari 1375–1380. They preserve the reports about seeking protection from the grave’s punishment, the graveside report about urine and tale-bearing, and the deceased’s words as the bier is carried.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,262 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 70. Total local hadith rows not drafted: 13,367, including held records.
+### 2026-10-29: Bukhari 1381–1385 source review
+
+- `FR-LIB-HAD-BUKHARI-240` saves five private French drafts for Bukhari 1381–1385. They preserve the reports about Muslim children, Ibrahim’s nurse in Paradise, and the differing narrations concerning children of polytheists.
+- The five-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,267 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 70. Total local hadith rows not drafted: 13,362, including held records.
