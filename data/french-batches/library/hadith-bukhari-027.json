@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-027",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T01:57:13.508Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "93352a7d-913d-4342-80ec-b652071b2083",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:135",
+      "reference": "Sahih al-Bukhari, hadith 135, book 4, باب لاَ تُقْبَلُ صَلاَةٌ بِغَيْرِ طُهُورٍ",
+      "title": "باب لاَ تُقْبَلُ صَلاَةٌ بِغَيْرِ طُهُورٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، قَالَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تُقْبَلُ صَلاَةُ مَنْ أَحْدَثَ حَتَّى يَتَوَضَّأَ ‏\"‏‏.‏ قَالَ رَجُلٌ مِنْ حَضْرَمَوْتَ مَا الْحَدَثُ يَا أَبَا هُرَيْرَةَ قَالَ فُسَاءٌ أَوْ ضُرَاطٌ‏.‏",
+      "source_hash_sha256": "bb962377bbd77ede7b0608bcca479345f7ffd1f4962273ce929ab951607e1342",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥâq ibn Ibrâhîm al-Hanzalî nous a rapporté ; il a dit : ʿAbd al-Razzâq nous a informés ; il a dit : Maʿmar nous a informés, d’après Hammâm ibn Munabbih, qui avait entendu Abû Hurayra dire : Le Messager d’Allah (paix et bénédictions sur lui) a dit : « La prière de celui qui a perdu ses ablutions n’est pas acceptée tant qu’il n’a pas fait ses ablutions. » Un homme de Hadramaout demanda : « Qu’est-ce que la perte des ablutions, ô Abû Hurayra ? » Il répondit : « Un pet ou un bruit de ventre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e9515105-16f8-4a5a-8c3f-939e08a0f418",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:136",
+      "reference": "Sahih al-Bukhari, hadith 136, book 4, باب فَضْلِ الْوُضُوءِ، وَالْغُرُّ الْمُحَجَّلُونَ مِنْ آثَارِ الْوُضُوءِ",
+      "title": "باب فَضْلِ الْوُضُوءِ، وَالْغُرُّ الْمُحَجَّلُونَ مِنْ آثَارِ الْوُضُوءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ خَالِدٍ، عَنْ سَعِيدِ بْنِ أَبِي هِلاَلٍ، عَنْ نُعَيْمٍ الْمُجْمِرِ، قَالَ رَقِيتُ مَعَ أَبِي هُرَيْرَةَ عَلَى ظَهْرِ الْمَسْجِدِ، فَتَوَضَّأَ فَقَالَ إِنِّي سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ أُمَّتِي يُدْعَوْنَ يَوْمَ الْقِيَامَةِ غُرًّا مُحَجَّلِينَ مِنْ آثَارِ الْوُضُوءِ، فَمَنِ اسْتَطَاعَ مِنْكُمْ أَنْ يُطِيلَ غُرَّتَهُ فَلْيَفْعَلْ ‏\"‏‏.‏",
+      "source_hash_sha256": "a6e106627769f7c23746e811c3e8159feefa25ad9d0895cc76f94e33a284b546",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yaḥyâ ibn Bukayr nous a rapporté ; al-Layth nous a rapporté, d’après Khâlid, d’après Saʿîd ibn Abî Hilâl, d’après Nuʿaym al-Mujmir, qui a dit : Je montai avec Abû Hurayra sur le toit de la mosquée. Il fit ses ablutions puis dit : J’ai entendu le Prophète (paix et bénédictions sur lui) dire : « Le Jour de la Résurrection, les membres de ma communauté seront appelés avec des visages et des membres lumineux, traces de leurs ablutions. Que celui d’entre vous qui peut étendre l’éclat de son visage le fasse. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b5139370-6e96-4e2f-bb48-527bb79aa289",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:137",
+      "reference": "Sahih al-Bukhari, hadith 137, book 4, باب لاَ يَتَوَضَّأُ مِنَ الشَّكِّ حَتَّى يَسْتَيْقِنَ",
+      "title": "باب لاَ يَتَوَضَّأُ مِنَ الشَّكِّ حَتَّى يَسْتَيْقِنَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيٌّ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنَا الزُّهْرِيُّ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، وَعَنْ عَبَّادِ بْنِ تَمِيمٍ، عَنْ عَمِّهِ، أَنَّهُ شَكَا إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم الرَّجُلُ الَّذِي يُخَيَّلُ إِلَيْهِ أَنَّهُ يَجِدُ الشَّىْءَ فِي الصَّلاَةِ‏.‏ فَقَالَ ‏\"‏ لاَ يَنْفَتِلْ ـ أَوْ لاَ يَنْصَرِفْ ـ حَتَّى يَسْمَعَ صَوْتًا أَوْ يَجِدَ رِيحًا ‏\"‏‏.‏",
+      "source_hash_sha256": "19c45dd2f08c3e8cc34eae47f10075e7e753c964f4481cdb339464d4b8279d4e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAlî nous a rapporté ; Sufyân nous a rapporté ; al-Zuhrî nous a rapporté, d’après Saʿîd ibn al-Musayyib et ʿAbbâd ibn Tamîm, d’après son oncle, qui se plaignit auprès du Messager d’Allah (paix et bénédictions sur lui) de l’homme qui croyait percevoir quelque chose pendant la prière. Il répondit : « Qu’il ne parte pas — ou qu’il ne se détourne pas — avant d’entendre un bruit ou de sentir une odeur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f9b5502d-5511-47a2-bb76-49ca03f853cf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:138",
+      "reference": "Sahih al-Bukhari, hadith 138, book 4, باب التَّخْفِيفِ فِي الْوُضُوءِ",
+      "title": "باب التَّخْفِيفِ فِي الْوُضُوءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، قَالَ أَخْبَرَنِي كُرَيْبٌ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم نَامَ حَتَّى نَفَخَ ثُمَّ صَلَّى ـ وَرُبَّمَا قَالَ اضْطَجَعَ حَتَّى نَفَخَ ـ ثُمَّ قَامَ فَصَلَّى‏.‏ ثُمَّ حَدَّثَنَا بِهِ سُفْيَانُ مَرَّةً بَعْدَ مَرَّةٍ عَنْ عَمْرٍو عَنْ كُرَيْبٍ عَنِ ابْنِ عَبَّاسٍ قَالَ بِتُّ عِنْدَ خَالَتِي مَيْمُونَةَ لَيْلَةً، فَقَامَ النَّبِيُّ صلى الله عليه وسلم مِنَ اللَّيْلِ، فَلَمَّا كَانَ فِي بَعْضِ اللَّيْلِ قَامَ النَّبِيُّ صلى الله عليه وسلم فَتَوَضَّأَ مِنْ شَنٍّ مُعَلَّقٍ وُضُوءًا خَفِيفًا ـ يُخَفِّفُهُ عَمْرٌو وَيُقَلِّلُهُ ـ وَقَامَ يُصَلِّي فَتَوَضَّأْتُ نَحْوًا مِمَّا تَوَضَّأَ، ثُمَّ جِئْتُ فَقُمْتُ عَنْ يَسَارِهِ ـ وَرُبَّمَا قَالَ سُفْيَانُ عَنْ شِمَالِهِ ـ فَحَوَّلَنِي فَجَعَلَنِي عَنْ يَمِينِهِ، ثُمَّ صَلَّى مَا شَاءَ اللَّهُ، ثُمَّ اضْطَجَعَ، فَنَامَ حَتَّى نَفَخَ، ثُمَّ أَتَاهُ الْمُنَادِي فَآذَنَهُ بِالصَّلاَةِ، فَقَامَ مَعَهُ إِلَى الصَّلاَةِ، فَصَلَّى وَلَمْ يَتَوَضَّأْ‏.‏ قُلْنَا لِعَمْرٍو إِنَّ نَاسًا يَقُولُونَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم تَنَامُ عَيْنُهُ وَلاَ يَنَامُ قَلْبُهُ‏.‏ قَالَ عَمْرٌو سَمِعْتُ عُبَيْدَ بْنَ عُمَيْرٍ يَقُولُ رُؤْيَا الأَنْبِيَاءِ وَحْىٌ، ثُمَّ قَرَأَ ‏[quran sura=\"37\" aya_start=\"102\" aya_end=\"102\"]{‏إِنِّي أَرَى فِي الْمَنَامِ أَنِّي أَذْبَحُكَ‏}‏‏.‏",
+      "source_hash_sha256": "88a3c63804cccc41c5f8e5f6dbe8e96b80d407a8ef310f61e649f11d71a9520a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_approved_french_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f7c4e217-a4d0-4b56-b2fb-9a5638ee88d2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:139",
+      "reference": "Sahih al-Bukhari, hadith 139, book 4, باب إِسْبَاغِ الْوُضُوءِ",
+      "title": "باب إِسْبَاغِ الْوُضُوءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ مُوسَى بْنِ عُقْبَةَ، عَنْ كُرَيْبٍ، مَوْلَى ابْنِ عَبَّاسٍ عَنْ أُسَامَةَ بْنِ زَيْدٍ، أَنَّهُ سَمِعَهُ يَقُولُ دَفَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنْ عَرَفَةَ حَتَّى إِذَا كَانَ بِالشِّعْبِ نَزَلَ فَبَالَ، ثُمَّ تَوَضَّأَ وَلَمْ يُسْبِغِ الْوُضُوءَ‏.‏ فَقُلْتُ الصَّلاَةَ يَا رَسُولَ اللَّهِ‏.‏ فَقَالَ ‏\"‏ الصَّلاَةُ أَمَامَكَ ‏\"‏‏.‏ فَرَكِبَ، فَلَمَّا جَاءَ الْمُزْدَلِفَةَ نَزَلَ فَتَوَضَّأَ، فَأَسْبَغَ الْوُضُوءَ، ثُمَّ أُقِيمَتِ الصَّلاَةُ فَصَلَّى الْمَغْرِبَ، ثُمَّ أَنَاخَ كُلُّ إِنْسَانٍ بَعِيرَهُ فِي مَنْزِلِهِ، ثُمَّ أُقِيمَتِ الْعِشَاءُ فَصَلَّى وَلَمْ يُصَلِّ بَيْنَهُمَا‏.‏",
+      "source_hash_sha256": "896cf21455d61837784c12d9a6cacb42e21275d62dd5c18568c286b9ed47b7f3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn Maslama nous a rapporté, d’après Mâlik, d’après Mûsâ ibn ʿUqba, d’après Kurayb, affranchi d’Ibn ʿAbbâs, d’après Usâma ibn Zayd, qui l’a entendu dire : Le Messager d’Allah (paix et bénédictions sur lui) quitta ʿArafât. Arrivé au ravin, il s’arrêta et urina, puis fit ses ablutions sans les accomplir complètement. Je lui dis : « La prière, ô Messager d’Allah ! » Il répondit : « La prière est devant toi. » Il remonta, puis, arrivé à Muzdalifa, il descendit et fit ses ablutions en les accomplissant complètement. La prière fut alors annoncée et il pria le maghrib. Chacun fit ensuite agenouiller son chameau à son emplacement, puis la prière du ʿichâ fut annoncée et il pria, sans prier entre les deux.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aee91d73-033c-4cfe-b19f-34dee701397d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:140",
+      "reference": "Sahih al-Bukhari, hadith 140, book 4, باب غَسْلِ الْوَجْهِ بِالْيَدَيْنِ مِنْ غَرْفَةٍ وَاحِدَةٍ",
+      "title": "باب غَسْلِ الْوَجْهِ بِالْيَدَيْنِ مِنْ غَرْفَةٍ وَاحِدَةٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ أَخْبَرَنَا أَبُو سَلَمَةَ الْخُزَاعِيُّ، مَنْصُورُ بْنُ سَلَمَةَ قَالَ أَخْبَرَنَا ابْنُ بِلاَلٍ ـ يَعْنِي سُلَيْمَانَ ـ عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّهُ تَوَضَّأَ فَغَسَلَ وَجْهَهُ، ثُمَّ أَخَذَ غَرْفَةً مِنْ مَاءٍ، فَمَضْمَضَ بِهَا وَاسْتَنْشَقَ، ثُمَّ أَخَذَ غَرْفَةً مِنْ مَاءٍ، فَجَعَلَ بِهَا هَكَذَا، أَضَافَهَا إِلَى يَدِهِ الأُخْرَى، فَغَسَلَ بِهِمَا وَجْهَهُ، ثُمَّ أَخَذَ غَرْفَةً مِنْ مَاءٍ، فَغَسَلَ بِهَا يَدَهُ الْيُمْنَى، ثُمَّ أَخَذَ غَرْفَةً مِنْ مَاءٍ، فَغَسَلَ بِهَا يَدَهُ الْيُسْرَى، ثُمَّ مَسَحَ بِرَأْسِهِ، ثُمَّ أَخَذَ غَرْفَةً مِنْ مَاءٍ فَرَشَّ عَلَى رِجْلِهِ الْيُمْنَى حَتَّى غَسَلَهَا، ثُمَّ أَخَذَ غَرْفَةً أُخْرَى، فَغَسَلَ بِهَا رِجْلَهُ ـ يَعْنِي الْيُسْرَى ـ ثُمَّ قَالَ هَكَذَا رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَتَوَضَّأُ‏.‏",
+      "source_hash_sha256": "8428112053a34cb60bc861419e0278e05eda6432c95455110ed666658376e8a1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn ʿAbd al-Raḥîm nous a rapporté ; Abû Salama al-Khuzâʿî — Manṣûr ibn Salama — a dit : Ibn Bilâl, c’est-à-dire Sulaymân, nous a rapporté, d’après Zayd ibn Aslam, d’après ʿAṭâʾ ibn Yasâr, d’après Ibn ʿAbbâs : Il fit ses ablutions : il se lava le visage, puis prit une poignée d’eau, se rinça la bouche et aspira de l’eau par le nez. Il prit ensuite une autre poignée d’eau et la joignit à l’autre main, puis se lava le visage avec les deux mains. Il prit une poignée d’eau et se lava la main droite, puis en prit une autre et se lava la main gauche. Il passa ensuite les mains mouillées sur sa tête, prit une poignée d’eau et en aspergea son pied droit jusqu’à le laver, puis prit une autre poignée et lava son pied — c’est-à-dire le gauche. Puis il dit : « C’est ainsi que j’ai vu le Messager d’Allah (paix et bénédictions sur lui) faire ses ablutions. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f9b5502d-5511-47a2-bb76-49ca03f853cf",
+      "url": "https://sunnah.com/bukhari:138",
+      "reason": "Contains a quotation of Quran 37:102; the current approved Quran configuration has no French translation. Keep the hadith on hold until Mo confirms an approved French Quran translation."
+    }
+  ]
+}
