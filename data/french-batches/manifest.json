@@ -7291,6 +7291,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "six private local AI drafts"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-300",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-300.json",
+      "sourceIds": [
+        "7df2ef2d-85bb-44d4-87a0-3fa6179bc353",
+        "81675cf7-e950-4459-b08f-efd19436752d",
+        "28dd735f-32cd-4a6d-b61c-2bace2f43ede",
+        "cad83b55-2aa2-4455-8d4e-8e72688117a3",
+        "69aef8d9-8bd4-4c08-a0b6-4312a9a6e59d",
+        "e46157ee-2756-4d3d-8a3a-bf59dfe025b5"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [
