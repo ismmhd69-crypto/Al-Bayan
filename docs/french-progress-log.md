@@ -2786,3 +2786,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-574` saves five private French drafts about faith, animals, and household practices. Bukhari 3305 remains entirely blank because its exported Arabic ends mid-sentence and omits the rest of the report.
 - All six records passed the focused validator, including the incomplete-source hold. No database writes or publication occurred. Bukhari local drafts: 2,975 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 190. Total local hadith rows not drafted: 11,680, including held records.
+
+### 2026-10-29: Bukhari 3307–3314
+
+- `FR-LIB-HAD-BUKHARI-575` saves six private French drafts about geckos, snakes, and other animals.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,981 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 190. Total local hadith rows not drafted: 11,674, including held records.
