@@ -3191,3 +3191,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-655` keeps the long account of ‘Umar’s final days and the succession discussion blank because it contains Quran 59:9 wording. The local record does not tag that phrase, but the wording matches the verse. No approved, attributed French Quran translation is confirmed.
 - The record passed the focused validator with its Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,294 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 243. Total local hadith rows not drafted: 11,363, including held records.
+
+### 2026-10-29: Bukhari 3701–3706
+
+- `FR-LIB-HAD-BUKHARI-656` saves six private French drafts about ‘Alî, Khaybar and the companions.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,300 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 243. Total local hadith rows not drafted: 11,357, including held records.
