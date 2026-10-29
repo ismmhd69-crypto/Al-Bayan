@@ -1494,3 +1494,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-312` saves five private French drafts for Bukhari 1810–1814. Bukhari 1815 remains blank and is recorded under Needs Mo because it directly quotes Quran 2:196; no approved, attributed French Quran translation is configured. The reports preserve the distinct instructions, steps and numbers.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,653 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 98. Total local hadith rows not drafted: 12,975, including held records.
+### 2026-10-29: Bukhari 1816–1821 source review
+
+- `FR-LIB-HAD-BUKHARI-313` saves six private French drafts for Bukhari 1816–1821. They preserve the compensation options and quantities, the similar short report in 1818, both wordings of the Hajj narration, and the full travel and hunting account in 1821. No direct Quran quotation required a hold.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,659 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 98. Total local hadith rows not drafted: 12,969, including held records.
