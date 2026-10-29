@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:21:08.915Z",
+  "lastReconciled": "2026-10-29T14:21:34.491Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 340,
+    "hadithMuslimDrafted": 344,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6676,
-    "hadithDatabaseMissing": 7953,
-    "hadithLocalRemaining": 7953,
-    "hadithNeedsMo": 216,
+    "hadithLocalDrafted": 6680,
+    "hadithDatabaseMissing": 7949,
+    "hadithLocalRemaining": 7949,
+    "hadithNeedsMo": 218,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30727,6 +30727,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "blocked"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0081",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0081.json",
+      "sourceIds": [
+        "0052d616-6521-453c-956b-82a7c0f1b1f0",
+        "77da9cfa-2271-4515-aa23-d91bef13daf0",
+        "cd0ade72-72c5-4442-a6a4-9c220a69c1a4",
+        "453be241-3fb5-473f-b2ba-040ec5a40445",
+        "38b62a4b-feb6-440f-8f11-8f92b0d20840",
+        "18892590-6257-4eb5-ab96-6ad7bfdaf136"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotations held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34881,11 +34902,23 @@
       "scope": "Sahih Muslim 177 a: multiple direct Quran quotations",
       "status": "blocked",
       "reason": "Ce récit de 2 089 caractères cite directement plusieurs versets du Coran, notamment 81:23, 53:13, 6:103, 42:51, 5:67 et 27:65. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-177B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 177b: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 33:37 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-177D-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 177d: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 53:8–10 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6676,
-  "hadithLocalRemaining": 7953,
+  "hadithLocalDrafted": 6680,
+  "hadithLocalRemaining": 7949,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36182,10 +36215,22 @@
       "scope": "Sahih Muslim 177 a: multiple direct Quran quotations",
       "status": "blocked",
       "reason": "Ce récit de 2 089 caractères cite directement plusieurs versets du Coran, notamment 81:23, 53:13, 6:103, 42:51, 5:67 et 27:65. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-177B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 177b: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 33:37 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-177D-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 177d: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 53:8–10 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 340,
-  "hadithDatabaseMissing": 7953,
+  "hadithMuslimDrafted": 344,
+  "hadithDatabaseMissing": 7949,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 216
+  "hadithNeedsMo": 218
 }
