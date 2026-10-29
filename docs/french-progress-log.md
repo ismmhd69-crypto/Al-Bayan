@@ -7487,3 +7487,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0076 saves 6 private French drafts covering the descriptions of prophets and the Dajjal.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 333 of 7,366. Hadith Needs Mo: 207. Total local hadith rows not drafted: 7,960, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 169c–172
+
+- FR-LIB-HAD-MUSLIM-0077 saves 6 private French drafts on reports about the Dajjal and the night journey, retaining the variant wording and narrator chains.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 339 of 7,366. Hadith Needs Mo: 207. Total local hadith rows not drafted: 7,954, including held records. No database writes or publication occurred.
