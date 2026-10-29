@@ -18297,6 +18297,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-847",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-847.json",
+      "sourceIds": [
+        "abfceaff-1b91-4beb-98ea-c052b15a7d3b"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -19607,6 +19623,12 @@
       "scope": "Sahih al-Bukhari 4676: direct quotation of Quran 9:118",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 9:118. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-846, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4677-QURAN-9-94-LONG",
+      "scope": "Sahih al-Bukhari 4677: unusually long report with direct quotation of Quran 9:94",
+      "status": "blocked",
+      "reason": "Ce rapport très long cite directement Quran 9:94. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-847, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4004,
