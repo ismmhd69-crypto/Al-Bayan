@@ -3561,3 +3561,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-729` saves one private French draft of another transmission of ʿAbd Allâh ibn ʿAtîk’s account, retaining the details specific to this narration.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,580 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,077, including held records.
+
+### 2026-10-29: Bukhari 4041–4047
+
+- `FR-LIB-HAD-BUKHARI-730` saves six private French drafts covering reports from Uhud, including the transmission variants in the account of the archers and the burial of Musʿab ibn ʿUmayr.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,586 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,072, including held records.
