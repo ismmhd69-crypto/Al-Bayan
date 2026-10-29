@@ -17610,6 +17610,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-813",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-813.json",
+      "sourceIds": [
+        "4de86117-3e3b-4475-8b1c-1d1c078d3d65",
+        "5ed02ecb-2ec6-4a9c-8d68-d9b03cc7f87f",
+        "ba11f171-d4ab-4527-9038-fe40ce76a994",
+        "a00c163b-df56-447a-a1c4-b0d04a1481d1",
+        "2b45f3e1-5e14-428d-9996-abf79b78e307",
+        "fa4eb1d2-2830-4d71-8998-cab45e76a3ee"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18224,9 +18245,27 @@
       "scope": "Sahih al-Bukhari 4487: direct quotations of Quran 2:143",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:143 twice. The complete record remains blank in FR-LIB-HAD-BUKHARI-811 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4495-QURAN-2-158",
+      "scope": "Sahih al-Bukhari 4495: direct quotations of Quran 2:158",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:158. The complete record remains blank in FR-LIB-HAD-BUKHARI-813 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4496-QURAN-2-158",
+      "scope": "Sahih al-Bukhari 4496: direct quotations of Quran 2:158",
+      "status": "blocked",
+      "reason": "The report directly quotes portions of Quran 2:158. The complete record remains blank in FR-LIB-HAD-BUKHARI-813 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4498-QURAN-2-178",
+      "scope": "Sahih al-Bukhari 4498: direct quotations of Quran 2:178",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:178. The complete record remains blank in FR-LIB-HAD-BUKHARI-813 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3944,
-  "hadithLocalDrafted": 3944,
-  "hadithLocalRemaining": 10713
+  "hadithBukhariDrafted": 3947,
+  "hadithLocalDrafted": 3947,
+  "hadithLocalRemaining": 10710
 }

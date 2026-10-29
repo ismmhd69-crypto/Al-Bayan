@@ -3976,3 +3976,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-812` saves six private French drafts about the change in prayer direction.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,944 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 341. Total local hadith rows not drafted: 10,713, including held records.
+
+### 2026-10-29: Bukhari 4495–4500
+
+- `FR-LIB-HAD-BUKHARI-813` saves three private French drafts. Hadith 4495, 4496, and 4498 remain blank because they directly quote Quran 2:158 or 2:178; all holds are recorded for Mo.
+- All six records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,947 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 344. Total local hadith rows not drafted: 10,710, including held records.
