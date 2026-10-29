@@ -100,8 +100,8 @@
         "translation_index_allowed": false,
         "expires_at": null
       },
-      "text_french": "Jâbir ibn ‘Abd Allâh rapporte qu’Abû Humayd as-Sâ‘idî lui dit qu’il avait apporté au Prophète une coupe de lait. Le récit est semblable. Le narrateur précise que Zakariyyâ n’a pas rapporté les paroles d’Abû Humayd au sujet de la nuit.",
-      "draft_status": "private_local_ai_draft",
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
       "database_inserted": false,
       "translation_published": false,
       "human_reviewed": false
@@ -164,6 +164,11 @@
     {
       "source_id": "bd0ea373-32a5-4952-9e9f-87752dcda31c",
       "reason": "Cette entrée dit seulement que le récit est semblable au précédent et signale l’omission d’une précision sur la nuit. Elle ne reproduit pas le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "696228e2-a5c6-4840-b7d9-e4c59c3f1287",
+      "reason": "Cette entrée renvoie au récit précédent en disant seulement qu’il est semblable, puis relève l’omission d’une précision sur la nuit. Elle ne reproduit pas le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ]
