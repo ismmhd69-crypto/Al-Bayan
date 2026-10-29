@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1369",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:36:41.080Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "582439c0-b2ab-41a0-9655-8b8e25429a1f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7495",
+      "reference": "Sahih al-Bukhari, hadith 7495, 7496, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، حَدَّثَنَا أَبُو الزِّنَادِ، أَنَّ الأَعْرَجَ، حَدَّثَهُ أَنَّهُ، سَمِعَ أَبَا هُرَيْرَةَ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ نَحْنُ الآخِرُونَ السَّابِقُونَ يَوْمَ الْقِيَامَةِ ‏\"‏‏.‏ وَبِهَذَا الإِسْنَادِ ‏\"‏ قَالَ اللَّهُ أَنْفِقْ أُنْفِقْ عَلَيْكَ ‏\"‏‏.‏",
+      "source_hash_sha256": "2cf51876af9e65d71aa7ac5d3f6eb2717c0eb77e68736442ee07c72ba5acfe52",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Yamân nous a rapporté : Shu‘ayb nous a informés : Abû az-Zinâd nous a rapporté qu’al-A‘raj lui avait rapporté avoir entendu Abû Hurayra, qui avait entendu le Messager d’Allah ﷺ dire : « Nous sommes les derniers [dans le temps] et les premiers le Jour de la Résurrection. » Avec la même chaîne, il est rapporté : « Allah dit : “Dépense, et Je dépenserai pour toi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bc6ee30b-f993-42cb-a613-436295e036cc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7497",
+      "reference": "Sahih al-Bukhari, hadith 7497, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا ابْنُ فُضَيْلٍ، عَنْ عُمَارَةَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، فَقَالَ ‏\"‏ هَذِهِ خَدِيجَةُ أَتَتْكَ بِإِنَاءٍ فِيهِ طَعَامٌ أَوْ إِنَاءٍ فِيهِ شَرَابٌ فَأَقْرِئْهَا مِنْ رَبِّهَا السَّلاَمَ وَبَشِّرْهَا بِبَيْتٍ مِنْ قَصَبٍ لاَ صَخَبَ فِيهِ وَلاَ نَصَبَ ‏\"‏‏.‏",
+      "source_hash_sha256": "0cc5bfd1e616218031ff2417a903c98500c993e1b7215f2510ccf4c96a046c8b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Ibn Fudayl nous a rapporté, d’après ‘Umâra, d’après Abû Zur‘a, d’après Abû Hurayra, qui a dit : Le Messager d’Allah ﷺ dit : « Voici Khadîja qui vient à toi avec un récipient contenant de la nourriture — ou un récipient contenant une boisson. Transmets-lui le salut de son Seigneur et annonce-lui la bonne nouvelle d’une demeure au Paradis faite de roseaux, où il n’y aura ni bruit ni fatigue. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2aa464c7-6687-4bcf-bc75-49b74006c1a8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7498",
+      "reference": "Sahih al-Bukhari, hadith 7498, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُعَاذُ بْنُ أَسَدٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ اللَّهُ أَعْدَدْتُ لِعِبَادِي الصَّالِحِينَ مَا لاَ عَيْنٌ رَأَتْ، وَلاَ أُذُنٌ سَمِعَتْ، وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "e46d45d610215e1d86285f725f73c8c6625a43a29badb78c14a6e87673391dbf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Mu‘âdh ibn Asad nous a rapporté : ‘Abd Allah nous a rapporté : Ma‘mar nous a rapporté, d’après Hammâm ibn Munabbih, d’après Abû Hurayra — qu’Allah l’agrée —, d’après le Prophète ﷺ, qui a dit : « Allah dit : “J’ai préparé pour Mes serviteurs vertueux ce qu’aucun œil n’a vu, ce qu’aucune oreille n’a entendu et ce qui n’a jamais traversé le cœur d’un être humain.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "05a029df-bbab-4054-a224-e2fac2a6ccf2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7499",
+      "reference": "Sahih al-Bukhari, hadith 7499, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَحْمُودٌ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي سُلَيْمَانُ الأَحْوَلُ، أَنَّ طَاوُسًا، أَخْبَرَهُ أَنَّهُ، سَمِعَ ابْنَ عَبَّاسٍ، يَقُولُ كَانَ النَّبِيُّ صلى الله عليه وسلم إِذَا تَهَجَّدَ مِنَ اللَّيْلِ قَالَ ‏\"‏ اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ نُورُ السَّمَوَاتِ وَالأَرْضِ، وَلَكَ الْحَمْدُ أَنْتَ قَيِّمُ السَّمَوَاتِ وَالأَرْضِ، وَلَكَ الْحَمْدُ أَنْتَ رَبُّ السَّمَوَاتِ وَالأَرْضِ، وَمَنْ فِيهِنَّ أَنْتَ الْحَقُّ، وَوَعْدُكَ الْحَقُّ وَقَوْلُكَ الْحَقُّ، وَلِقَاؤُكَ الْحَقُّ، وَالْجَنَّةُ حَقٌّ، وَالنَّارُ حَقٌّ، وَالنَّبِيُّونَ حَقٌّ، وَالسَّاعَةُ حَقٌّ، اللَّهُمَّ لَكَ أَسْلَمْتُ، وَبِكَ آمَنْتُ، وَعَلَيْكَ تَوَكَّلْتُ، وَإِلَيْكَ أَنَبْتُ، وَبِكَ خَاصَمْتُ، وَإِلَيْكَ حَاكَمْتُ، فَاغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ، وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ، أَنْتَ إِلَهِي، لاَ إِلَهَ إِلاَّ أَنْتَ ‏\"‏‏.‏",
+      "source_hash_sha256": "2f48d848092f71ef3b574fa30bc8f57f5a3eaa74280b2327923b936765a704b2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Mahmûd nous a rapporté : ‘Abd ar-Razzâq nous a rapporté : Ibn Jurayj nous a informés : Sulaymân al-Ahwal m’a informé que Tâwûs lui avait rapporté avoir entendu Ibn ‘Abbâs dire : Lorsque le Prophète ﷺ accomplissait la prière nocturne, il disait : « Ô Allah, à Toi la louange. Tu es la lumière des cieux et de la terre. À Toi la louange. Tu maintiens les cieux et la terre. À Toi la louange. Tu es le Seigneur des cieux, de la terre et de ceux qui s’y trouvent. Tu es la Vérité ; Ta promesse est vérité, Ta parole est vérité, la rencontre avec Toi est vérité, le Paradis est vérité, le Feu est vérité, les prophètes sont vérité et l’Heure est vérité. Ô Allah, je me soumets à Toi, je crois en Toi, je m’en remets à Toi, je reviens à Toi, je plaide par Ton appui et je soumets mes litiges à Ton jugement. Pardonne-moi ce que j’ai fait auparavant et ce que j’ai fait ensuite, ce que j’ai gardé secret et ce que j’ai rendu public. Tu es mon Dieu ; il n’y a de divinité que Toi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d1515a5b-1c38-4fb3-a286-f10b4d40a9f4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7500",
+      "reference": "Sahih al-Bukhari, hadith 7500, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجُ بْنُ مِنْهَالٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عُمَرَ النُّمَيْرِيُّ، حَدَّثَنَا يُونُسُ بْنُ يَزِيدَ الأَيْلِيُّ، قَالَ سَمِعْتُ الزُّهْرِيَّ، قَالَ سَمِعْتُ عُرْوَةَ بْنَ الزُّبَيْرِ، وَسَعِيدَ بْنَ الْمُسَيَّبِ، وَعَلْقَمَةَ بْنَ وَقَّاصٍ، وَعُبَيْدَ اللَّهِ بْنَ عَبْدِ اللَّهِ، عَنْ حَدِيثِ، عَائِشَةَ زَوْجِ النَّبِيِّ صلى الله عليه وسلم حِينَ قَالَ لَهَا أَهْلُ الإِفْكِ مَا قَالُوا فَبَرَّأَهَا اللَّهُ مِمَّا قَالُوا ـ وَكُلٌّ حَدَّثَنِي طَائِفَةً مِنَ الْحَدِيثِ الَّذِي حَدَّثَنِي ـ عَنْ عَائِشَةَ قَالَتْ وَلَكِنْ وَاللَّهِ مَا كُنْتُ أَظُنُّ أَنَّ اللَّهَ يُنْزِلُ فِي بَرَاءَتِي وَحْيًا يُتْلَى، وَلَشَأْنِي فِي نَفْسِي كَانَ أَحْقَرَ مِنْ أَنْ يَتَكَلَّمَ اللَّهُ فِيَّ بِأَمْرٍ يُتْلَى، وَلَكِنِّي كُنْتُ أَرْجُو أَنْ يَرَى رَسُولُ اللَّهِ صلى الله عليه وسلم فِي النَّوْمِ رُؤْيَا يُبَرِّئُنِي اللَّهُ بِهَا فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"24\" aya_start=\"11\" aya_end=\"11\"]{‏إِنَّ الَّذِينَ جَاءُوا بِالإِفْكِ‏}‏ الْعَشْرَ الآيَاتِ‏.‏",
+      "source_hash_sha256": "342e33349f544a7823c0d06656690ade3c069e403ec75e6e8439313e2dbae487",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "This report directly quotes Quran 24:11 and says the passage continues through ten verses. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "source_id": "8ca1c589-eae9-4c43-9d65-18fa8083d408",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7501",
+      "reference": "Sahih al-Bukhari, hadith 7501, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏يُرِيدُونَ أَنْ يُبَدِّلُوا كَلاَمَ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا الْمُغِيرَةُ بْنُ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يَقُولُ اللَّهُ إِذَا أَرَادَ عَبْدِي أَنْ يَعْمَلَ سَيِّئَةً فَلاَ تَكْتُبُوهَا عَلَيْهِ حَتَّى يَعْمَلَهَا، فَإِنْ عَمِلَهَا فَاكْتُبُوهَا بِمِثْلِهَا وَإِنْ تَرَكَهَا مِنْ أَجْلِي فَاكْتُبُوهَا لَهُ حَسَنَةً وَإِذَا أَرَادَ أَنْ يَعْمَلَ حَسَنَةً فَلَمْ يَعْمَلْهَا فَاكْتُبُوهَا لَهُ حَسَنَةً، فَإِنْ عَمِلَهَا فَاكْتُبُوهَا لَهُ بِعَشْرِ أَمْثَالِهَا إِلَى سَبْعِمِائَةٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "ac528b941954203879a2dfa8006c067836cf31d57b4de877e97df4733451582d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : al-Mughîra ibn ‘Abd ar-Rahmân nous a rapporté, d’après Abû az-Zinâd, d’après al-A‘raj, d’après Abû Hurayra, que le Messager d’Allah ﷺ a dit : « Allah dit : “Lorsque Mon serviteur envisage de commettre une mauvaise action, ne l’inscrivez pas contre lui avant qu’il ne l’accomplisse. S’il l’accomplit, inscrivez-la comme une seule mauvaise action. S’il y renonce pour Moi, inscrivez à son compte une bonne action. Lorsqu’il envisage d’accomplir une bonne action et ne l’accomplit pas, inscrivez à son compte une bonne action. S’il l’accomplit, inscrivez-la à son compte comme dix bonnes actions, jusqu’à sept cents.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d1515a5b-1c38-4fb3-a286-f10b4d40a9f4",
+      "reason": "This report directly quotes Quran 24:11 and says the passage continues through ten verses. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    }
+  ]
+}
