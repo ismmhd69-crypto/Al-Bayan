@@ -948,3 +948,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-192` saves five private French drafts for Bukhari 1098–1100 and 1102–1103. Bukhari 1101 remains blank under Needs Mo because it quotes Quran 33:21 and no approved, attributed French Quran translation is available. The exporter continues to flag a later overlong record for its own artifact.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 1,018 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 53. Total local hadith rows not drafted: 13,611, including held records.
+### 2026-10-29: Bukhari 1104–1109 source review
+
+- `FR-LIB-HAD-BUKHARI-193` saves six private French drafts for Bukhari 1104–1109. They preserve the travel prayers on a mount and the reports about combining Maghrib and Isha while traveling. The exporter still flags a later overlong source for its own single-record artifact.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,024 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 53. Total local hadith rows not drafted: 13,605, including held records.
