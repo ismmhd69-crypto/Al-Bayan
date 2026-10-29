@@ -11091,3 +11091,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0792 saves five private French drafts about compensation for a fetus and a woman’s death. Muslim 1682c only gives chains and says it is similar in meaning, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1683–1684e
+
+- FR-LIB-HAD-MUSLIM-0793 saves five private French drafts about fetal compensation and the reported threshold for theft. Muslim 1684b only lists chains and refers to the same report, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
