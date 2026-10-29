@@ -11758,3 +11758,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2009d-2012a
 
 - FR-LIB-HAD-MUSLIM-0949 saves three complete private French drafts about the Hijra account and covering vessels. Three entries that refer back to prior wording without reproducing the full account remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2012b-2012g
+
+- FR-LIB-HAD-MUSLIM-0950 saves one complete private French draft about evening precautions. Five entries that only refer to the prior full report or give wording variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
