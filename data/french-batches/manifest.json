@@ -35882,6 +35882,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0332",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0332.json",
+      "sourceIds": [
+        "04f9be21-8d70-40f6-88f4-1282659ee570",
+        "2eb99de7-0d60-46fb-9e76-57c88e4a00ae",
+        "63b81ad0-1d99-4310-a760-7af36aa4683b",
+        "60da14a1-42df-47a0-b2fe-55df5758b7ac",
+        "4c95b1ce-5181-48b0-83dd-9198a65e7525",
+        "5f322e77-4a44-49c6-9135-1eca04deef0c"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one direct Quran quotation and one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40189,8 +40210,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7663,
-  "hadithLocalRemaining": 6966,
+  "hadithLocalDrafted": 7667,
+  "hadithLocalRemaining": 6962,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42435,10 +42456,22 @@
       "scope": "Sahih Muslim 763k: summarized cross-reference",
       "status": "blocked",
       "reason": "La source renvoie au récit précédent et ne reprend que son début ainsi qu’une brève variante. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0332-763L-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 763l: direct Quran quotation from surah 3",
+      "status": "blocked",
+      "reason": "La source cite directement un passage du Coran (sourate 3) et rapporte ensuite plusieurs versets de cette sourate. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0332-763O-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 763o: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source ne reprend pas le récit complet et renvoie aux versions précédentes, sans donner que quelques détails complémentaires. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1327,
+  "hadithMuslimDrafted": 1331,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 610
+  "hadithNeedsMo": 612
 }
