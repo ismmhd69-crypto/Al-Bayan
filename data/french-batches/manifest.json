@@ -56,15 +56,15 @@
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
     "hardcodedVisitorCopyDrafted": 24,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 378,
+    "hadithBukhariDrafted": 383,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 378,
+    "hadithLocalDrafted": 383,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 14251,
-    "hadithNeedsMo": 19,
+    "hadithLocalRemaining": 14246,
+    "hadithNeedsMo": 20,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -1783,7 +1783,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local AI drafts; two Quran quote holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-075",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-075.json",
+      "sourceIds": ["4e84ad79-c62c-46e2-b211-ccbcd08dcefd", "b6f040c7-3be5-44d7-9464-049771c5daeb", "84db0ccb-4c10-48d5-bf7c-550fc754f62d", "7eff2a70-b9ee-48c7-8bd5-9ccf2e753ca4", "03942509-fbbf-48f4-99ec-13dbb307e769", "7d9bfb06-14f9-4232-9711-ae247358de69"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hashes, IDs, URLs, references, rights, and five complete translations passed; Bukhari 402b lacks the referenced wording and remains blank on hold",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local AI drafts; one source hold"
     }
+
 
 
 
@@ -1842,7 +1857,7 @@
       "id": "ARABIC-HADITH-INCOMPLETE-MATN",
       "scope": "Hadith records whose exported Arabic contains no hadith text",
       "status": "blocked",
-      "reason": "Bukhari 221 and 342 currently contain no hadith wording to translate: Bukhari 221 has only a narrator chain ending 'from the Prophet', while Bukhari 342 has only a narrator chain and the phrase 'he narrated the hadith'. Keep both records on hold until their complete source wording is confirmed."
+      "reason": "Bukhari 221, 342, and 402b currently lack complete hadith wording: 221 has only a chain ending 'from the Prophet'; 342 has only a chain and the phrase 'he narrated the hadith'; 402b has only a chain ending 'I heard Anas, with this'. Keep all three on hold until their complete source wording is confirmed."
     }
 
   ]
