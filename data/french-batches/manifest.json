@@ -16681,6 +16681,28 @@
   "published": 0,
   "status": "local draft with holds"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-779",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-779.json",
+  "sourceIds": [
+    "2dbcaccd-fd76-4a3a-8bba-4b4e01453f24",
+    "b03d1389-6f6d-4989-8cd8-e30e38a78fab",
+    "8d52ab0f-0682-4e65-bc99-aeee66b084bb",
+    "be733394-0000-4e27-ac00-1c2d23c186d4",
+    "e0ffab31-c377-417e-981c-ed3086348a64",
+    "72801ab8-3e8f-4284-b3f0-197a238dc4b3"
+  ],
+  "translated": 6,
+  "inserted": 0,
+  "preserved": 0,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft"
+}
   ],
   "blockers": [
     {
@@ -17165,7 +17187,7 @@
   "reason": "The report directly quotes Quran 17:81 in the wording جاء الحق وزهق الباطل. The complete hadith remains blank in FR-LIB-HAD-BUKHARI-778 until an approved, attributed French Quran translation is confirmed."
 }
   ],
-  "hadithBukhariDrafted": 3783,
-  "hadithLocalDrafted": 3783,
-  "hadithLocalRemaining": 10874
+  "hadithBukhariDrafted": 3789,
+  "hadithLocalDrafted": 3789,
+  "hadithLocalRemaining": 10868
 }

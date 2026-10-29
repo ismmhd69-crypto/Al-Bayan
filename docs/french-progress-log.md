@@ -3806,3 +3806,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-778` saves five private French drafts. Hadith 4287 remains blank because it directly quotes Quran 17:81; the hold is recorded for Mo.
 - All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,783 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 313. Total local hadith rows not drafted: 10,874, including held records.
+
+### 2026-10-29: Bukhari 4288–4293
+
+- `FR-LIB-HAD-BUKHARI-779` saves six private French drafts about entering the Kaʿba and the conquest of Mecca.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,789 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 313. Total local hadith rows not drafted: 10,868, including held records.
