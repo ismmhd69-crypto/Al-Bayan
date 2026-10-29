@@ -8761,3 +8761,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0326 saves six private French drafts about the witr prayer and standing at length during prayer.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1305 Muslim drafts, 7641 total hadith drafts, 6988 remaining, and 603 Needs Mo items.
+
+### 2026-10-29: Muslim 757a–758d
+
+- FR-LIB-HAD-MUSLIM-0327 saves six private French drafts about supplication during the night.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1311 Muslim drafts, 7647 total hadith drafts, 6982 remaining, and 603 Needs Mo items.
