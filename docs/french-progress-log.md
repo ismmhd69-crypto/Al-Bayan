@@ -10101,3 +10101,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0594 saves five private French drafts on following the Prophet’s commands and restrictions, and travel by women with a mahram. The distinct three-day and three-night wordings are retained. Muslim 1337c contains only a cross-reference to the preceding report and remains blank under Needs Mo. The oversized source remains queued for isolated handling.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1339a–1340b
+
+- FR-LIB-HAD-MUSLIM-0595 saves five private French drafts on travel by women with a mahram. The distinct durations in the source reports (one night, one day, a day and a night, three days, and three days or more) are preserved. Muslim 1340b contains only a cross-reference to the preceding report and remains blank under Needs Mo. The oversized source remains queued for isolated handling.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
