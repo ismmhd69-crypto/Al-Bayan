@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:22:42.203Z",
+  "lastReconciled": "2026-10-29T14:22:57.845Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6687,
     "hadithDatabaseMissing": 7942,
     "hadithLocalRemaining": 7942,
-    "hadithNeedsMo": 219,
+    "hadithNeedsMo": 220,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30801,6 +30801,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0085",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0085.json",
+      "sourceIds": [
+        "f4e5284b-ea85-40b8-b3b0-b0fa9444db7d"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; long hadith held blank because it directly quotes Quran 4:40",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked"
     }
   ],
   "blockers": [
@@ -34973,6 +34989,12 @@
       "scope": "Sahih Muslim 181 b: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 10:26 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-183A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 183 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit de 6 178 caractères cite directement le verset 4:40 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
@@ -36292,10 +36314,16 @@
       "scope": "Sahih Muslim 181 b: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 10:26 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-183A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 183 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit de 6 178 caractères cite directement le verset 4:40 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithMuslimDrafted": 351,
   "hadithDatabaseMissing": 7942,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 219
+  "hadithNeedsMo": 220
 }
