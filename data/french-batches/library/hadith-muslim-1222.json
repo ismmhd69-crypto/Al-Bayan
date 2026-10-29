@@ -1,0 +1,161 @@
+{
+  "batch_id": "HADITH-MUSLIM-1222",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:57:56.634Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a5c891cf-2457-4ab2-a872-e357df7d867b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2653b",
+      "reference": "Sahih Muslim, hadith 2653 b, book 46, باب حِجَاجِ آدَمَ وَمُوسَى عَلَيْهِمَا السَّلاَمُ ‏ ‏",
+      "title": "باب حِجَاجِ آدَمَ وَمُوسَى عَلَيْهِمَا السَّلاَمُ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَحْمَدُ بْنُ عَمْرِو بْنِ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ سَرْحٍ حَدَّثَنَا ابْنُ، وَهْبٍ أَخْبَرَنِي أَبُو هَانِئٍ الْخَوْلاَنِيُّ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ الْحُبُلِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو، بْنِ الْعَاصِ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ كَتَبَ اللَّهُ مَقَادِيرَ الْخَلاَئِقِ قَبْلَ أَنْ يَخْلُقَ السَّمَوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ - قَالَ - وَعَرْشُهُ عَلَى الْمَاءِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "81b57fbb5042d0e21e2f4d4830e6560e303e154b16bd8d705743966101d68ab8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū al-Ṭāhir Aḥmad ibn ʿAmr ibn ʿAbd Allāh ibn ʿAmr ibn Sarḥ m’a rapporté : Ibn Wahb nous a rapporté : Abū Hāniʾ al-Khawlānī m’a informé, d’après Abū ʿAbd al-Raḥmān al-Ḥublī, d’après ʿAbd Allāh ibn ʿAmr ibn al-ʿĀṣ, qui a dit : J’ai entendu le Messager d’Allah ﷺ dire : « Allah a écrit les destinées des créatures cinquante mille ans avant de créer les cieux et la terre. » Il a dit : « Et Son Trône était sur l’eau. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "799ac8d4-22a6-4391-a967-4c0c69854b51",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2654",
+      "reference": "Sahih Muslim, hadith 2654, book 46, باب حِجَاجِ آدَمَ وَمُوسَى عَلَيْهِمَا السَّلاَمُ ‏ ‏",
+      "title": "باب حِجَاجِ آدَمَ وَمُوسَى عَلَيْهِمَا السَّلاَمُ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا الْمُقْرِئُ، حَدَّثَنَا حَيْوَةُ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ سَهْلٍ التَّمِيمِيُّ، حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، أَخْبَرَنَا نَافِعٌ، - يَعْنِي ابْنَ يَزِيدَ - كِلاَهُمَا عَنْ أَبِي هَانِئٍ، ‏.‏ بِهَذَا الإِسْنَادِ مِثْلَهُ غَيْرَ أَنَّهُمَا لَمْ يَذْكُرَا وَعَرْشُهُ عَلَى الْمَاءِ ‏.‏",
+      "source_hash_sha256": "28916bcf0efe578fbca3ba194b3ff0c07fe8563b018c58f871cf7b11e5fe4cd5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4eaf2211-ee57-4c96-9f71-739873f3d2e7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2655",
+      "reference": "Sahih Muslim, hadith 2655, book 46, باب تَصْرِيفِ اللَّهِ تَعَالَى الْقُلُوبَ كَيْفَ شَاءَ ‏ ‏",
+      "title": "باب تَصْرِيفِ اللَّهِ تَعَالَى الْقُلُوبَ كَيْفَ شَاءَ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَابْنُ، نُمَيْرٍ كِلاَهُمَا عَنِ الْمُقْرِئِ، قَالَ زُهَيْرٌ حَدَّثَنَا عَبْدُ، اللَّهِ بْنُ يَزِيدَ الْمُقْرِئُ قَالَ حَدَّثَنَا حَيْوَةُ، أَخْبَرَنِي أَبُو هَانِئٍ، أَنَّهُ سَمِعَ أَبَا عَبْدِ الرَّحْمَنِ الْحُبُلِيَّ، أَنَّهُ سَمِعَ عَبْدَ اللَّهِ بْنَ عَمْرِو بْنِ الْعَاصِ، يَقُولُ أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ قُلُوبَ بَنِي آدَمَ كُلَّهَا بَيْنَ إِصْبَعَيْنِ مِنْ أَصَابِعِ الرَّحْمَنِ كَقَلْبٍ وَاحِدٍ يُصَرِّفُهُ حَيْثُ يَشَاءُ ‏\"‏ ‏.‏ ثُمَّ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اللَّهُمَّ مُصَرِّفَ الْقُلُوبِ صَرِّفْ قُلُوبَنَا عَلَى طَاعَتِكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "63dbbc3d5a9592dabaf8e417005aba0809ce7f598fedf3980511df7bb156c096",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Ḥarb et Ibn Numayr m’ont rapporté, tous deux d’après al-Muqriʾ. Zuhayr a dit : ʿAbd Allāh ibn Yazīd al-Muqriʾ nous a rapporté : Ḥaywa nous a rapporté : Abū Hāniʾ m’a informé avoir entendu Abū ʿAbd al-Raḥmān al-Ḥublī, qui avait entendu ʿAbd Allāh ibn ʿAmr ibn al-ʿĀṣ dire qu’il avait entendu le Messager d’Allah ﷺ dire : « Tous les cœurs des descendants d’Adam se trouvent entre deux doigts du Tout-Miséricordieux, comme un seul cœur; Il les oriente comme Il veut. » Puis le Messager d’Allah ﷺ dit : « Ô Toi qui orientes les cœurs, oriente nos cœurs vers Ton obéissance. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "86f9ecc3-464f-466b-b4ed-ceb5b7c311fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2656",
+      "reference": "Sahih Muslim, hadith 2656, book 46, باب كُلُّ شَىْءٍ بِقَدَرٍ ‏ ‏",
+      "title": "باب كُلُّ شَىْءٍ بِقَدَرٍ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ الأَعْلَى بْنُ حَمَّادٍ، قَالَ قَرَأْتُ عَلَى مَالِكِ بْنِ أَنَسٍ ح وَحَدَّثَنَا قُتَيْبَةُ، بْنُ سَعِيدٍ عَنْ مَالِكٍ، فِيمَا قُرِئَ عَلَيْهِ عَنْ زِيَادِ بْنِ سَعْدٍ، عَنْ عَمْرِو بْنِ مُسْلِمٍ، عَنْ طَاوُسٍ، أَنَّهُ قَالَ أَدْرَكْتُ نَاسًا مِنْ أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم يَقُولُونَ كُلُّ شَىْءٍ بِقَدَرٍ ‏.‏ قَالَ وَسَمِعْتُ عَبْدَ اللَّهِ بْنَ عُمَرَ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ كُلُّ شَىْءٍ بِقَدَرٍ حَتَّى الْعَجْزُ وَالْكَيْسُ أَوِ الْكَيْسُ وَالْعَجْزُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ca5c51722b0b483ad545dce0cdfbfbaeab4c63815d8eea5c455784591fa7574d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd al-Aʿlā ibn Ḥammād a dit : J’ai lu devant Mālik ibn Anas. Qutayba ibn Saʿīd nous a également rapporté, d’après Mālik, selon ce qui lui avait été lu, d’après Ziyād ibn Saʿd, d’après ʿAmr ibn Muslim, d’après Ṭāwūs, qui a dit : J’ai connu des gens parmi les compagnons du Messager d’Allah ﷺ qui disaient : « Toute chose relève du décret. » Il a dit : J’ai entendu ʿAbd Allāh ibn ʿUmar dire que le Messager d’Allah ﷺ a dit : « Toute chose relève du décret, même l’incapacité et l’habileté — ou l’habileté et l’incapacité. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8a641822-2063-4c8c-96f2-358153c65cc5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2657a",
+      "reference": "Sahih Muslim, hadith 2657 a, book 46, باب كُلُّ شَىْءٍ بِقَدَرٍ ‏ ‏",
+      "title": "باب كُلُّ شَىْءٍ بِقَدَرٍ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ زِيَادِ، بْنِ إِسْمَاعِيلَ عَنْ مُحَمَّدِ بْنِ عَبَّادِ بْنِ جَعْفَرٍ الْمَخْزُومِيِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ جَاءَ مُشْرِكُو قُرَيْشٍ يُخَاصِمُونَ رَسُولَ اللَّهِ صلى الله عليه وسلم فِي الْقَدَرِ فَنَزَلَتْ ‏[quran sura=\"54\" aya_start=\"48\" aya_end=\"49\"]‏{‏ يَوْمَ يُسْحَبُونَ فِي النَّارِ عَلَى وُجُوهِهِمْ ذُوقُوا مَسَّ سَقَرَ* إِنَّا كُلَّ شَىْءٍ خَلَقْنَاهُ بِقَدَرٍ‏}‏",
+      "source_hash_sha256": "e973b0d25cc8c54cd0bd1b5043674008e690b88f107bc19bc3cc2876aa4c99e6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba et Abū Kurayb nous ont rapporté : Wakīʿ nous a rapporté, d’après Sufyān, d’après Ziyād ibn Ismāʿīl, d’après Muḥammad ibn ʿAbbād ibn Jaʿfar al-Makhzūmī, d’après Abū Hurayra, qui a dit : Les associateurs de Quraysh vinrent contester le décret au Messager d’Allah ﷺ. Alors furent révélés ces versets : « Le jour où ils seront traînés sur leurs visages dans le Feu : “Goûtez le contact du Feu ardent !” Nous avons créé toute chose selon une mesure. » (Coran, 54:48-49)",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c7ad6e64-09e7-4416-8c57-0b03358ff9ea",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2657b",
+      "reference": "Sahih Muslim, hadith 2657 b, book 46, باب قُدِّرَ عَلَى ابْنِ آدَمَ حَظُّهُ مِنَ الزِّنَى وَغَيْرِهِ ‏ ‏",
+      "title": "باب قُدِّرَ عَلَى ابْنِ آدَمَ حَظُّهُ مِنَ الزِّنَى وَغَيْرِهِ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، - وَاللَّفْظُ لإِسْحَاقَ - قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ مَا رَأَيْتُ شَيْئًا أَشْبَهَ بِاللَّمَمِ مِمَّا قَالَ أَبُو هُرَيْرَةَ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ اللَّهَ كَتَبَ عَلَى ابْنِ آدَمَ حَظَّهُ مِنَ الزِّنَى أَدْرَكَ ذَلِكَ لاَ مَحَالَةَ فَزِنَى الْعَيْنَيْنِ النَّظَرُ وَزِنَى اللِّسَانِ النُّطْقُ وَالنَّفْسُ تَمَنَّى وَتَشْتَهِي وَالْفَرْجُ يُصَدِّقُ ذَلِكَ أَوْ يُكَذِّبُهُ ‏\"‏ ‏.‏ قَالَ عَبْدٌ فِي رِوَايَتِهِ ابْنِ طَاوُسٍ عَنْ أَبِيهِ سَمِعْتُ ابْنَ عَبَّاسٍ ‏.‏",
+      "source_hash_sha256": "e16304056dbc747d47b383de7c1867e82a283a5e4fc87f1e4a171657c782c6a1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥāq ibn Ibrāhīm et ʿAbd ibn Ḥumayd nous ont rapporté — le libellé est celui d’Isḥāq. Ils ont dit : ʿAbd al-Razzāq nous a informés : Maʿmar nous a rapporté, d’après Ibn Ṭāwūs, d’après son père, d’après Ibn ʿAbbās, qui a dit : Je n’ai rien vu qui ressemble davantage aux petites fautes que ce qu’Abū Hurayra a rapporté du Prophète ﷺ : « Allah a prescrit à chaque fils d’Adam sa part de fornication, à laquelle il sera inévitablement exposé. La fornication des yeux est le regard; celle de la langue est la parole. L’âme désire et convoite, puis le sexe confirme cela ou le dément. » Dans sa version, ʿAbd précise : Ibn Ṭāwūs, d’après son père, a dit : « J’ai entendu Ibn ʿAbbās. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "799ac8d4-22a6-4391-a967-4c0c69854b51", "reason": "Cette variante reprend la chaîne du récit précédent et précise seulement qu’une phrase finale y est omise; elle ne reproduit pas le récit complet. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}

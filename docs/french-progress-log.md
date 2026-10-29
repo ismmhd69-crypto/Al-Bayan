@@ -12846,3 +12846,10 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Three complete reports about Adam and Moses were translated against the Arabic, preserving the dialogue and Quran quotation. One truncated source and two entries that refer to earlier reports remain blank under Needs Mo.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Three private local drafts saved.
 - Reconciled local hadith progress: 6,336 Bukhari and 4,791 Muslim drafts (11,127 total); 2,725 held Needs Mo; 777 sources not yet exported. Local hadith records without French drafts: 3,502. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2653b-2657b, batch 1222
+
+- Batch FR-LIB-HAD-MUSLIM-1222 covers six Sahih Muslim entries from 2653b through 2657b.
+- Five complete reports were translated and reread against the Arabic, preserving the chains and the quoted Quran verses. One variant that only notes an omission from the preceding report remains blank under Needs Mo.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Five private local drafts saved.
+- Reconciled local hadith progress: 6,336 Bukhari and 4,796 Muslim drafts (11,132 total); 2,726 held Needs Mo; 771 sources not yet exported. Local hadith records without French drafts: 3,497. All 14,629 remain missing from the live French table.
