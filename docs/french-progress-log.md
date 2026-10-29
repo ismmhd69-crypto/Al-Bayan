@@ -11226,3 +11226,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0819 saves six private French drafts: four distinct reports about the banner of a traitor, two reports stating that war is a stratagem, and the instruction not to wish for an encounter with the enemy and to remain patient if one occurs. Distinctive wording, chains, names, and narrator qualifications are preserved.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1742a-1744a
+
+- FR-LIB-HAD-MUSLIM-0820 saves six private French drafts: the report on patience and the invocation at Uhud, three distinct invocations against the Confederates and their wording variants, the brief supplication on the day of Uhud, and the report disapproving the killing of women and children. Chains, names, conditions, and variant omissions/additions are retained.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
