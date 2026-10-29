@@ -37652,6 +37652,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0418",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0418.json",
+      "sourceIds": [
+        "1caa59cd-bc1c-4c51-b668-de169d3f4d1b",
+        "13ef7b61-52f0-4780-9258-56afa691d91f",
+        "be1a3a82-9d43-48df-80ae-c2429e24b965",
+        "f6a4608f-afb4-4253-ba54-8a3831a2e366",
+        "d0fcafa4-0d96-452d-a4be-7150909f8809",
+        "d6b411c1-c592-46f3-b74d-8353311f5552"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete cross-references held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -41959,8 +41980,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7980,
-  "hadithLocalRemaining": 6649,
+  "hadithLocalDrafted": 7984,
+  "hadithLocalRemaining": 6645,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -44767,10 +44788,20 @@
       "source_id": "b0b30e60-b3c0-44b8-9f6b-cafa50fd156e",
       "reason": "La source ne fournit qu’une chaîne et renvoie à une version précédente sans reprendre son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "f6a4608f-afb4-4253-ba54-8a3831a2e366",
+      "reason": "La source ne reprend que la chaîne de transmission et renvoie à la version d’Ibn Mahdi sans en reproduire le récit. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d0fcafa4-0d96-452d-a4be-7150909f8809",
+      "reason": "La source renvoie à des versions précédentes sans reprendre le récit complet et ne précise qu’une variante de terme. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1644,
+  "hadithMuslimDrafted": 1648,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 773
+  "hadithNeedsMo": 775
 }

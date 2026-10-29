@@ -9216,3 +9216,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0417 saves four private French drafts on intoxicating drinks, funeral prayer, and zakat thresholds. Muslim 979b and 979c are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1644 Muslim drafts, 7980 total hadith drafts, 6649 remaining, and 773 Needs Mo items.
+
+### 2026-10-29: Muslim 979d–980
+
+- FR-LIB-HAD-MUSLIM-0418 saves four private French drafts on zakat thresholds for crops, livestock, and silver. Muslim 979g and 979h are incomplete cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1648 Muslim drafts, 7984 total hadith drafts, 6645 remaining, and 775 Needs Mo items.
