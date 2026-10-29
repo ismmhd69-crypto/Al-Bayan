@@ -6320,3 +6320,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1234 records one 2,827-character source as a single-item batch. It remains blank because it directly quotes Quran 59:6. No database writes or publication occurred.
 - The held batch passed the focused validator. Bukhari local drafts: 5,666 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 816. Total local hadith rows not drafted: 8,963, including held records.
+
+
+### 2026-10-29: Bukhari 6729–6734
+
+- FR-LIB-HAD-BUKHARI-1235 saves six private French drafts, preserving inheritance details and the complete counsel to Sa‘d ibn Abî Waqqâs in 6733. No database writes or publication occurred.
+- All six drafts passed the focused validator. Bukhari local drafts: 5,672 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 816. Total local hadith rows not drafted: 8,957, including held records.
