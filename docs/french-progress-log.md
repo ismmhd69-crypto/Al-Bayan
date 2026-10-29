@@ -13208,3 +13208,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Batch FR-LIB-HAD-MUSLIM-1276 contains four reports. Three contain Quran quotations and one is an incomplete variant; all four remain blank under Needs Mo.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0; French drafts saved: 0. No database writes or publication.
 - Recounted local hadith artifacts: 6,336 Bukhari and 4,976 Muslim drafts (11,312 total); 2,834 held Needs Mo; 14,139 sources represented; 490 not yet exported. Local hadith records without French drafts: 3,317. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2798b, long-source batch 1277
+
+- Batch FR-LIB-HAD-MUSLIM-1277 contains one long report about the sign of the smoke. It remains blank under Needs Mo because it contains several Quran quotations and authorized French wording and attributions are not confirmed.
+- The focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0; French drafts saved: 0. No database writes or publication. The exporter reported no further deferred long source.
+- Recounted local hadith artifacts: 6,336 Bukhari and 4,976 Muslim drafts (11,312 total); 2,835 held Needs Mo; 14,140 sources represented; 489 not yet exported. Local hadith records without French drafts: 3,317. All 14,629 remain missing from the live French table.
