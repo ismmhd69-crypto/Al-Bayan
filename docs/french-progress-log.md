@@ -1060,3 +1060,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-220` saves five private French drafts for Bukhari 1267–1268 and 1270–1272. Bukhari 1269 remains blank and is recorded under Needs Mo because it directly quotes Quran 9:80 and 9:84; no approved, attributed French Quran translation is configured.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,172 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 61. Total local hadith rows not drafted: 13,457, including held records.
+### 2026-10-29: Bukhari 1273–1278 source review
+
+- `FR-LIB-HAD-BUKHARI-221` saves six private French drafts for Bukhari 1273–1278. They preserve the shroud reports about Mus'ab ibn Umayr, the woven burda later used as a shroud, and the report about women following funeral processions.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,178 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 61. Total local hadith rows not drafted: 13,451, including held records.
