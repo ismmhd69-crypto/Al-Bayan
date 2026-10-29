@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5359,
+    "hadithBukhariDrafted": 5360,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5359,
+    "hadithLocalDrafted": 5360,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9268,
+    "hadithLocalRemaining": 9267,
     "hadithNeedsMo": 778,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -24875,10 +24875,10 @@
       "sourceIds": [
         "5530e37d-c585-4d6c-a81d-c6b906bc739f"
       ],
-      "translated": 0,
+      "translated": 1,
       "inserted": 0,
       "preserved": 0,
-      "validation": "Long sensitive report isolated for individual drafting and review. No database writes.",
+      "validation": "The one long report passed the focused validator. No database writes.",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"

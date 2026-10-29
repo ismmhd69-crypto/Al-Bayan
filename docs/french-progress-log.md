@@ -5978,3 +5978,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1172 saves four private French drafts. Bukhari 6389 remains blank because it directly quotes Quran 2:201. The long report 6391 is isolated in FR-LIB-HAD-BUKHARI-1173 for individual drafting.
 - The four drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,359 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 778. Total local hadith rows not drafted: 9,268, including held records.
+
+### 2026-10-29: Bukhari 6391
+
+- FR-LIB-HAD-BUKHARI-1173 saves one private French draft for the long report about the Prophet’s illness. The report was kept as a one-record batch. No database writes or publication occurred. Bukhari local drafts: 5,360 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 778. Total local hadith rows not drafted: 9,267, including held records.
