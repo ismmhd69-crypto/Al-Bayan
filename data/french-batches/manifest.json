@@ -18767,6 +18767,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-872",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-872.json",
+      "sourceIds": [
+        "a2bcdc3d-4b69-4e5a-b7b2-7f7386340862"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -20491,6 +20507,12 @@
       "scope": "Sahih al-Bukhari 4771: direct Quran quotations from 26:214",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 26:214. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-871, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4772-QURAN-MULTIPLE-LEXICAL",
+      "scope": "Sahih al-Bukhari 4772: direct Quran quotations and lexical commentary",
+      "status": "blocked",
+      "reason": "Hadith 4772 rapporte la mort d’Abû Tâlib et contient de nombreuses citations directes du Quran ainsi qu’un commentaire lexical sur plusieurs passages. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-872, dans l’attente de traductions françaises approuvées et attribuées."
     }
   ],
   "hadithBukhariDrafted": 4030,
