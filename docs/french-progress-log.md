@@ -9446,3 +9446,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0463 saves four private French drafts about Ramadan and sighting the crescent. Muslim 1079c and 1080c provide only wording variants tied to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1080d–1080i
+
+- FR-LIB-HAD-MUSLIM-0464 saves six private French drafts on determining the Ramadan month from the crescent. All six reports provide complete wording.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
