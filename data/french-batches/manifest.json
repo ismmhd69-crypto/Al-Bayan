@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:41:29.066Z",
+  "lastReconciled": "2026-10-29T13:42:01.405Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6305,
+    "hadithBukhariDrafted": 6309,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6305,
-    "hadithDatabaseMissing": 8324,
-    "hadithLocalRemaining": 8324,
-    "hadithNeedsMo": 155,
+    "hadithLocalDrafted": 6309,
+    "hadithDatabaseMissing": 8320,
+    "hadithLocalRemaining": 8320,
+    "hadithNeedsMo": 157,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28975,6 +28975,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1376",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1376.json",
+      "sourceIds": [
+        "95bcfac5-1999-4ad1-9e04-e4c8f927fec1",
+        "17595389-771f-4ba1-8d23-b1005929cc62",
+        "35065c77-d9f8-432c-9f7e-215e14a3881a",
+        "15f6848a-2742-4145-a28a-f9c4e3bd9a23",
+        "83841693-5175-47da-a227-b793393b05f7",
+        "916017d7-3cdb-4924-b43d-fc61d734a8aa"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "4 complete private drafts and 2 records held under Needs Mo; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32763,11 +32784,23 @@
       "scope": "Sahih al-Bukhari 7513: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le Coran 6:91. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-BUKHARI-7521-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7521: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le Coran 41:22. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-BUKHARI-7522-SOURCE-INCOMPLETE",
+      "scope": "Sahih al-Bukhari 7522: incomplete Arabic source",
+      "status": "blocked",
+      "reason": "La source arabe exportée s’interrompt au milieu d’une phrase (« مَحْضًا لَمْ يُشَبْ »). Garder la traduction complète en attente jusqu’à ce qu’une version intégrale et vérifiée de la source soit disponible."
     }
   ],
-  "hadithBukhariDrafted": 6305,
-  "hadithLocalDrafted": 6305,
-  "hadithLocalRemaining": 8324,
+  "hadithBukhariDrafted": 6309,
+  "hadithLocalDrafted": 6309,
+  "hadithLocalRemaining": 8320,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -33698,6 +33731,18 @@
       "scope": "Sahih al-Bukhari 7513: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le Coran 6:91. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-BUKHARI-7521-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7521: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le Coran 41:22. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-BUKHARI-7522-SOURCE-INCOMPLETE",
+      "scope": "Sahih al-Bukhari 7522: incomplete Arabic source",
+      "status": "blocked",
+      "reason": "La source arabe exportée s’interrompt au milieu d’une phrase (« مَحْضًا لَمْ يُشَبْ »). Garder la traduction complète en attente jusqu’à ce qu’une version intégrale et vérifiée de la source soit disponible."
     }
   ],
   "hadithMuslimDrafted": 0
