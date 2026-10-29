@@ -1,0 +1,127 @@
+{
+  "batch_id": "HADITH-MUSLIM-0851",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:00:33.584Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cde1dcd3-37db-46d5-8bf1-d27383ba84e8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1796b",
+      "reference": "Sahih Muslim, hadith 1796 b, book 32, باب مَا لَقِيَ النَّبِيُّ صلى الله عليه وسلم مِنْ أَذَى الْمُشْرِكِينَ وَالْمُنَافِقِينَ ‏‏",
+      "title": "باب مَا لَقِيَ النَّبِيُّ صلى الله عليه وسلم مِنْ أَذَى الْمُشْرِكِينَ وَالْمُنَافِقِينَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، عَنِ الأَسْوَدِ بْنِ قَيْسٍ، بِهَذَا الإِسْنَادِ وَقَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي غَارٍ فَنُكِبَتْ إِصْبَعُهُ ‏.‏",
+      "source_hash_sha256": "d677d86cd6af1986501eecae90d8173f3f9c99ec813fda3473eb084b4ebcaba7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba et Ishâq ibn Ibrâhîm nous ont rapporté, tous deux d’après Ibn ‘Uyayna, d’après al-Aswad ibn Qays, par cette même chaîne. Ils ajoutèrent que le Messager d’Allah se trouvait dans une grotte lorsqu’il se blessa au doigt.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "66a907f1-9d16-487c-9806-a6c3bd08f621",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1797a",
+      "reference": "Sahih Muslim, hadith 1797 a, book 32, باب مَا لَقِيَ النَّبِيُّ صلى الله عليه وسلم مِنْ أَذَى الْمُشْرِكِينَ وَالْمُنَافِقِينَ ‏‏",
+      "title": "باب مَا لَقِيَ النَّبِيُّ صلى الله عليه وسلم مِنْ أَذَى الْمُشْرِكِينَ وَالْمُنَافِقِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا سُفْيَانُ، عَنِ الأَسْوَدِ بْنِ قَيْسٍ، أَنَّهُ سَمِعَ جُنْدُبًا، يَقُولُ أَبْطَأَ جِبْرِيلُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ الْمُشْرِكُونَ قَدْ وُدِّعَ مُحَمَّدٌ فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"93\" aya_start=\"1\" aya_end=\"3\"]{‏ وَالضُّحَى * وَاللَّيْلِ إِذَا سَجَى * مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى‏}‏",
+      "source_hash_sha256": "9f0f400af96614a1976acd531636a2a5aa7f99f67b209938b3fbbca961245500",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "19826d9a-e131-42e9-b242-84aa0a020275",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1797b",
+      "reference": "Sahih Muslim, hadith 1797 b, book 32, باب مَا لَقِيَ النَّبِيُّ صلى الله عليه وسلم مِنْ أَذَى الْمُشْرِكِينَ وَالْمُنَافِقِينَ ‏‏",
+      "title": "باب مَا لَقِيَ النَّبِيُّ صلى الله عليه وسلم مِنْ أَذَى الْمُشْرِكِينَ وَالْمُنَافِقِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَمُحَمَّدُ بْنُ رَافِعٍ، - وَاللَّفْظُ لاِبْنِ رَافِعٍ - قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ ابْنُ رَافِعٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا زُهَيْرٌ، عَنِ الأَسْوَدِ بْنِ قَيْسٍ، قَالَ سَمِعْتُ جُنْدُبَ بْنَ سُفْيَانَ، يَقُولُ اشْتَكَى رَسُولُ اللَّهِ صلى الله عليه وسلم فَلَمْ يَقُمْ لَيْلَتَيْنِ أَوْ ثَلاَثًا فَجَاءَتْهُ امْرَأَةٌ فَقَالَتْ يَا مُحَمَّدُ إِنِّي لأَرْجُو أَنْ يَكُونَ شَيْطَانُكَ قَدْ تَرَكَكَ لَمْ أَرَهُ قَرِبَكَ مُنْذُ لَيْلَتَيْنِ أَوْ ثَلاَثٍ قَالَ فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"93\" aya_start=\"1\" aya_end=\"3\"]{‏ وَالضُّحَى * وَاللَّيْلِ إِذَا سَجَى * مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى‏}‏",
+      "source_hash_sha256": "6fc221c30f04fe1296e9d3590fb532ad9d154e215d9c70002be11e4c4be86450",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d0d15589-b20b-4d3b-85bc-7b8e054b298d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1797c",
+      "reference": "Sahih Muslim, hadith 1797 c, book 32, باب مَا لَقِيَ النَّبِيُّ صلى الله عليه وسلم مِنْ أَذَى الْمُشْرِكِينَ وَالْمُنَافِقِينَ ‏‏",
+      "title": "باب مَا لَقِيَ النَّبِيُّ صلى الله عليه وسلم مِنْ أَذَى الْمُشْرِكِينَ وَالْمُنَافِقِينَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالُوا حَدَّثَنَا مُحَمَّدُ، بْنُ جَعْفَرٍ عَنْ شُعْبَةَ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا الْمُلاَئِيُّ، حَدَّثَنَا سُفْيَانُ، كِلاَهُمَا عَنِ الأَسْوَدِ بْنِ قَيْسٍ، بِهَذَا الإِسْنَادِ نَحْوَ حَدِيثِهِمَا ‏.‏",
+      "source_hash_sha256": "2b57efd561e5cb03a1382d96e8a0565edf9141104fef0af0e273079b945d3049",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "66a907f1-9d16-487c-9806-a6c3bd08f621",
+      "reason": "Cette entrée cite le début de la sourate 93 (93:1-3). Garder toute la traduction française vide jusqu’à validation d’une traduction française du Coran attribuée et autorisée.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "19826d9a-e131-42e9-b242-84aa0a020275",
+      "reason": "Cette entrée cite le début de la sourate 93 (93:1-3). Garder toute la traduction française vide jusqu’à validation d’une traduction française du Coran attribuée et autorisée.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d0d15589-b20b-4d3b-85bc-7b8e054b298d",
+      "reason": "Cette entrée donne uniquement plusieurs chaînes de transmission et renvoie aux deux versions précédentes sans reproduire le récit ni une différence distincte. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    }
+  ]
+}

@@ -11362,3 +11362,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1794a-1796a
 
 - FR-LIB-HAD-MUSLIM-0850 saves six private French drafts about harm suffered by the Prophet and his responses. The report variants’ differing names and narrator uncertainty are preserved. No Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1796b-1797c
+
+- FR-LIB-HAD-MUSLIM-0851 saves one private French draft of a distinctive report detail. Two entries quoting Quran 93:1–3 and one chain-only cross-reference remain blank under Needs Mo with specific reasons. No database write or publication occurred.
