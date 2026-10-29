@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-MUSLIM-1161",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:29:01.279Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4723e9ac-ef88-4829-8c91-0f3205e539f5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2499",
+      "reference": "Sahih Muslim, hadith 2499, book 44, باب مِنْ فَضَائِلِ الأَشْعَرِيِّينَ رضى الله عنهم ‏‏",
+      "title": "باب مِنْ فَضَائِلِ الأَشْعَرِيِّينَ رضى الله عنهم ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا بُرَيْدٌ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنِّي لأَعْرِفُ أَصْوَاتَ رُفْقَةِ الأَشْعَرِيِّينَ بِالْقُرْآنِ حِينَ يَدْخُلُونَ بِاللَّيْلِ وَأَعْرِفُ مَنَازِلَهُمْ مِنْ أَصْوَاتِهِمْ بِالْقُرْآنِ بِاللَّيْلِ وَإِنْ كُنْتُ لَمْ أَرَ مَنَازِلَهُمْ حِينَ نَزَلُوا بِالنَّهَارِ وَمِنْهُمْ حَكِيمٌ إِذَا لَقِيَ الْخَيْلَ - أَوْ قَالَ الْعَدُوَّ - قَالَ لَهُمْ إِنَّ أَصْحَابِي يَأْمُرُونَكُمْ أَنْ تَنْظُرُوهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "75d6960aa8c85d6688c8adb54de5a07aee9a16858a83f15577b8db9cbcf63393",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Je reconnais, lorsqu’ils arrivent de nuit, les voix des compagnons ash‘arites récitant le Coran. Je reconnais aussi, à leurs récitations nocturnes, l’emplacement de leurs demeures, même si je ne les ai pas vues lorsqu’ils s’y sont installés pendant le jour. Parmi eux se trouve Hakim : lorsqu’il rencontre une troupe de cavaliers — ou l’ennemi —, il leur dit : “Mes compagnons vous demandent de les attendre.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "753d4190-24e8-4cc0-af69-02c8ecac3cee",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2500",
+      "reference": "Sahih Muslim, hadith 2500, book 44, باب مِنْ فَضَائِلِ الأَشْعَرِيِّينَ رضى الله عنهم ‏‏",
+      "title": "باب مِنْ فَضَائِلِ الأَشْعَرِيِّينَ رضى الله عنهم ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو عَامِرٍ الأَشْعَرِيُّ، وَأَبُو كُرَيْبٍ جَمِيعًا عَنْ أَبِي أُسَامَةَ، قَالَ أَبُو عَامِرٍ حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنِي بُرَيْدُ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي بُرْدَةَ، عَنْ جَدِّهِ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ الأَشْعَرِيِّينَ إِذَا أَرْمَلُوا فِي الْغَزْوِ أَوْ قَلَّ طَعَامُ عِيَالِهِمْ بِالْمَدِينَةِ جَمَعُوا مَا كَانَ عِنْدَهُمْ فِي ثَوْبٍ وَاحِدٍ ثُمَّ اقْتَسَمُوهُ بَيْنَهُمْ فِي إِنَاءٍ وَاحِدٍ بِالسَّوِيَّةِ فَهُمْ مِنِّي وَأَنَا مِنْهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7851ef93ffce17db54e259a3a0e8fdf26e582f2f3bd5b8c379b534f9de59eb3d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Lorsque les Ash‘arites manquent de provisions pendant une expédition ou que les vivres de leurs familles à Médine viennent à manquer, ils rassemblent tout ce qu’ils possèdent dans un même tissu, puis se le partagent équitablement dans un seul récipient. Ils sont des miens et je suis des leurs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9e227a8f-32ac-4525-8adb-8d4a1980957a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2501",
+      "reference": "Sahih Muslim, hadith 2501, book 44, باب مِنْ فَضَائِلِ أَبِي سُفْيَانَ بْنِ حَرْبٍ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ أَبِي سُفْيَانَ بْنِ حَرْبٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبَّاسُ بْنُ عَبْدِ الْعَظِيمِ الْعَنْبَرِيُّ، وَأَحْمَدُ بْنُ جَعْفَرٍ الْمَعْقِرِيُّ، قَالاَ حَدَّثَنَا النَّضْرُ، - وَهُوَ ابْنُ مُحَمَّدٍ الْيَمَامِيُّ - حَدَّثَنَا عِكْرِمَةُ، حَدَّثَنَا أَبُو زُمَيْلٍ، حَدَّثَنِي ابْنُ عَبَّاسٍ، قَالَ كَانَ الْمُسْلِمُونَ لاَ يَنْظُرُونَ إِلَى أَبِي سُفْيَانَ وَلاَ يُقَاعِدُونَهُ فَقَالَ لِلنَّبِيِّ صلى الله عليه وسلم يَا نَبِيَّ اللَّهِ ثَلاَثٌ أَعْطِنِيهِنَّ قَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏ قَالَ عِنْدِي أَحْسَنُ الْعَرَبِ وَأَجْمَلُهُ أُمُّ حَبِيبَةَ بِنْتُ أَبِي سُفْيَانَ أُزَوِّجُكَهَا قَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏ قَالَ وَمُعَاوِيَةُ تَجْعَلُهُ كَاتِبًا بَيْنَ يَدَيْكَ ‏.‏ قَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏ قَالَ وَتُؤَمِّرُنِي حَتَّى أُقَاتِلَ الْكُفَّارَ كَمَا كُنْتُ أُقَاتِلُ الْمُسْلِمِينَ ‏.‏ قَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏ قَالَ أَبُو زُمَيْلٍ وَلَوْلاَ أَنَّهُ طَلَبَ ذَلِكَ مِنَ النَّبِيِّ صلى الله عليه وسلم مَا أَعْطَاهُ ذَلِكَ لأَنَّهُ لَمْ يَكُنْ يُسْئَلُ شَيْئًا إِلاَّ قَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2e8302b860355057fda4c5a64f4e5e3368aaf15fed376970ca793575c25e4ec2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abbas dit : « Les musulmans évitaient Abû Sufyan et ne s’asseyaient pas avec lui. Il dit au Prophète ﷺ : “Prophète d’Allah, accorde-moi trois choses.” Le Prophète ﷺ répondit : “Oui.” Abû Sufyan dit : “J’ai auprès de moi la plus belle femme des Arabes, Umm Habiba, fille d’Abû Sufyan ; je te la donne en mariage.” Le Prophète ﷺ répondit : “Oui.” Abû Sufyan dit : “Et Muawiya : fais-en ton secrétaire.” Il répondit : “Oui.” Abû Sufyan dit : “Nomme-moi commandant afin que je combatte les mécréants comme je combattais auparavant les musulmans.” Il répondit : “Oui.” Abû Zumayl ajouta : “S’il ne l’avait pas demandé au Prophète ﷺ, celui-ci ne le lui aurait pas accordé, car il ne lui était demandé aucune chose à laquelle il ne répondait : ‘Oui.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

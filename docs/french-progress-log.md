@@ -12575,3 +12575,6 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2498
 
 - FR-LIB-HAD-MUSLIM-1160 saves the complete report about Abû Amir and Abû Musa after Hunayn as a private French draft. No database write or publication occurred.
+### 2026-10-30: Muslim 2499-2501
+
+- FR-LIB-HAD-MUSLIM-1161 saves three complete reports as private French drafts. No database write or publication occurred.
