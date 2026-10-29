@@ -5631,3 +5631,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1097 saves five private French drafts. Bukhari 6051 is held blank because the prayer account ends mid-sequence.
 - Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 5,061 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 761. Total local hadith rows not drafted: 9,568, including held records.
+
+### 2026-10-29: Bukhari 6054–6059
+
+- FR-LIB-HAD-BUKHARI-1098 saves six private French drafts about harmful speech, tale-bearing, fasting, and fair speech.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,067 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 761. Total local hadith rows not drafted: 9,562, including held records.
