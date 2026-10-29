@@ -9691,3 +9691,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0512 saves six private French drafts about worship in the final ten nights and clothing for a pilgrim in consecrated state. All six sources provide complete report text.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1177c–1180a
+
+- FR-LIB-HAD-MUSLIM-0513 saves four private French drafts about pilgrimage garments and ‘umra. Muslim 1178b–c provide only abbreviated cross-references or transmission details without the report text, so both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
