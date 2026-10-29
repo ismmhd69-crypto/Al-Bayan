@@ -11041,3 +11041,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0782 saves five private French drafts on sharing food and the reward for faithful service. Muslim 1664b only gives chains and refers to Malik’s report, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1666b–1669a
+
+- FR-LIB-HAD-MUSLIM-0783 saves four private French drafts on the merit of faithful service, freeing six enslaved people by lot, and the killing of Abd Allah ibn Sahl at Khaybar. Muslim 1666b and 1668c contain only chains/cross-references and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
