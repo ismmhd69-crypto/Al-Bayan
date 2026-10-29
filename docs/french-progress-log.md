@@ -10111,3 +10111,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0596 saves two private French drafts about a husband accompanying his wife on pilgrimage and a travel supplication. Muslim 1341b, 1341c, and 1343b contain only cross-references with variant details and remain blank under Needs Mo. Muslim 1342 includes a Quranic quotation; its full French text remains blank under Needs Mo until the approved French Quran translation and rights are confirmed. The oversized source remains queued for isolated handling.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1344a–1346b
+
+- FR-LIB-HAD-MUSLIM-0597 saves four private French drafts about the return from journeys and the Prophet’s stop at Dhu al-Hulayfa. Muslim 1344b and 1345b only refer back to preceding reports and remain blank under Needs Mo. The oversized source remains queued for isolated handling.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

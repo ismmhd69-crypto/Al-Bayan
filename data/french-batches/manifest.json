@@ -41344,6 +41344,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0597",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0597.json",
+      "sourceIds": [
+        "f7cfd4c2-ae57-4729-96d1-ce603c02a026",
+        "9ff0f00e-a188-41b5-83f9-867d2215f19f",
+        "c5ab0e3b-4a6e-48f7-bb50-d365ce38d418",
+        "51c76c01-7ffd-44b9-b7cb-d09b44389cdc",
+        "bc16516d-a813-49c8-9e27-b3cea0fde610",
+        "0a823b72-deff-4ce9-a04e-a31d101b1c03"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two abbreviated cross-reference variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45651,8 +45672,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8716,
-  "hadithLocalRemaining": 5913,
+  "hadithLocalDrafted": 8720,
+  "hadithLocalRemaining": 5909,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49414,10 +49435,20 @@
       "source_id": "932daee3-f649-4956-9c4a-62c5fe7a73ac",
       "reason": "Cette narration contient une citation coranique en arabe. Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
+    },
+    {
+      "source_id": "9ff0f00e-a188-41b5-83f9-867d2215f19f",
+      "reason": "Cette entrée ne reproduit pas le récit et se limite à une référence au rapport précédent (« بِمِثْلِهِ »), avec une variation de détail. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "51c76c01-7ffd-44b9-b7cb-d09b44389cdc",
+      "reason": "Cette entrée ne reproduit pas le récit et se limite à une référence au rapport précédent (« بِمِثْلِهِ »), avec une variation de détail. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2380,
+  "hadithMuslimDrafted": 2384,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1045
+  "hadithNeedsMo": 1047
 }
