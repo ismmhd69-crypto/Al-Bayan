@@ -19098,6 +19098,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-888",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-888.json",
+      "sourceIds": [
+        "217ed07f-da01-4cb2-93b5-3b937ae35cfe",
+        "fd119f30-e9f7-428f-8d6e-2738209c802f",
+        "1293a1a1-2637-4f82-89c3-a9eb78ed06d5",
+        "322c532d-bf3a-4cab-8de9-5b3dac232015",
+        "968f6efb-1942-4865-9512-03f93184b82d",
+        "40bed370-04fc-4eba-957f-0902df98a04b"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 6,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -21230,6 +21251,42 @@
       "scope": "Sahih al-Bukhari 4861: direct Quran quotation from 2:158",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 2:158. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-887, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4864-QURAN-54-1-UNMARKED",
+      "scope": "Sahih al-Bukhari 4864: direct Quranic wording from 54:1 (formule coranique directe « انشق القمر »)",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement Quran 54:1 (formule coranique directe « انشق القمر »). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-888, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4865-QURAN-54-1-UNMARKED",
+      "scope": "Sahih al-Bukhari 4865: direct Quranic wording from 54:1 (formule coranique directe « انشق القمر »)",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement Quran 54:1 (formule coranique directe « انشق القمر »). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-888, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4866-QURAN-54-1-UNMARKED",
+      "scope": "Sahih al-Bukhari 4866: direct Quranic wording from 54:1 (formule coranique directe « انشق القمر »)",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement Quran 54:1 (formule coranique directe « انشق القمر »). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-888, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4867-QURAN-54-1-UNMARKED",
+      "scope": "Sahih al-Bukhari 4867: direct Quranic wording from 54:1 (formule coranique directe « انشق القمر »)",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement Quran 54:1 (formule coranique directe « انشق القمر »). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-888, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4868-QURAN-54-1-UNMARKED",
+      "scope": "Sahih al-Bukhari 4868: direct Quranic wording from 54:1 (formule coranique directe « انشق القمر »)",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement Quran 54:1 (formule coranique directe « انشق القمر »). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-888, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4869-QURAN-54-15",
+      "scope": "Sahih al-Bukhari 4869: direct Quranic wording from 54:15",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement Quran 54:15. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-888, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4054,

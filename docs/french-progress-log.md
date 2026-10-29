@@ -4403,3 +4403,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-887 saves three private French drafts. Hadith 4858, 4859 and 4861 remain blank because they directly quote Quranic wording; all three holds are recorded for Mo.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,054 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 590. Total local hadith rows not drafted: 10,613, including held records.
+
+
+### 2026-10-29: Bukhari 4864–4869
+
+- FR-LIB-HAD-BUKHARI-888 preserves all six records as blank private holds because each contains Quranic wording about the splitting of the moon or directly quotes Quran 54:15; all six holds are recorded for Mo.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,054 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 596. Total local hadith rows not drafted: 10,613, including held records.
