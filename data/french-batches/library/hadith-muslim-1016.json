@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1016",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:50:49.226Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "c28a6bc1-977b-448a-820d-08f5f1e21766",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2144e",
+      "reference": "Sahih Muslim, hadith 2144 e, book 44, باب مِنْ فَضَائِلِ أَبِي طَلْحَةَ الأَنْصَارِيِّ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ أَبِي طَلْحَةَ الأَنْصَارِيِّ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ الْحَسَنِ بْنِ خِرَاشٍ، حَدَّثَنَا عَمْرُو بْنُ عَاصِمٍ، حَدَّثَنَا سُلَيْمَانُ بْنُ، الْمُغِيرَةِ حَدَّثَنَا ثَابِتٌ، حَدَّثَنِي أَنَسُ بْنُ مَالِكٍ، قَالَ مَاتَ ابْنٌ لأَبِي طَلْحَةَ ‏.‏ وَاقْتَصَّ الْحَدِيثَ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "41f4c9d1b52f0b7c4e80280ce7657414018fe8aabece7ec9e2d1023e94eee295",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eb613eb3-e20c-495f-8706-d82b0f7492c2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2145",
+      "reference": "Sahih Muslim, hadith 2145, book 38, بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "title": "بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَبْدُ اللَّهِ بْنُ بَرَّادٍ الأَشْعَرِيُّ، وَأَبُو كُرَيْبٍ قَالُوا حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ وُلِدَ لِي غُلاَمٌ فَأَتَيْتُ بِهِ النَّبِيَّ صلى الله عليه وسلم فَسَمَّاهُ إِبْرَاهِيمَ وَحَنَّكَهُ بِتَمْرَةٍ ‏.‏",
+      "source_hash_sha256": "ceaddb72e26618b7fd427277cb2c5dad7002f583bd5ecbd1d4c104d51ef53ff7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Un garçon m’est né. Je l’emmenai auprès du Prophète (ﷺ), qui le nomma Ibrâhîm et lui fit le tahnîk avec une datte.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a9c156c2-61e4-48d7-9921-93cc27a6785b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2146a",
+      "reference": "Sahih Muslim, hadith 2146 a, book 38, بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "title": "بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحَكَمُ بْنُ مُوسَى أَبُو صَالِحٍ، حَدَّثَنَا شُعَيْبٌ، - يَعْنِي ابْنَ إِسْحَاقَ - أَخْبَرَنِي هِشَامُ بْنُ عُرْوَةَ، حَدَّثَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، وَفَاطِمَةُ بِنْتُ الْمُنْذِرِ بْنِ الزُّبَيْرِ، أَنَّهُمَا قَالاَ خَرَجَتْ أَسْمَاءُ بِنْتُ أَبِي بَكْرٍ حِينَ هَاجَرَتْ وَهِيَ حُبْلَى بِعَبْدِ اللَّهِ بْنِ الزُّبَيْرِ فَقَدِمَتْ قُبَاءً فَنُفِسَتْ بِعَبْدِ اللَّهِ بِقُبَاءٍ ثُمَّ خَرَجَتْ حِينَ نُفِسَتْ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم لِيُحَنِّكَهُ فَأَخَذَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنْهَا فَوَضَعَهُ فِي حَجْرِهِ ثُمَّ دَعَا بِتَمْرَةٍ قَالَ قَالَتْ عَائِشَةُ فَمَكَثْنَا سَاعَةً نَلْتَمِسُهَا قَبْلَ أَنْ نَجِدَهَا فَمَضَغَهَا ثُمَّ بَصَقَهَا فِي فِيهِ فَإِنَّ أَوَّلَ شَىْءٍ دَخَلَ بَطْنَهُ لَرِيقُ رَسُولِ اللَّهِ صلى الله عليه وسلم ثُمَّ قَالَتْ أَسْمَاءُ ثُمَّ مَسَحَهُ وَصَلَّى عَلَيْهِ وَسَمَّاهُ عَبْدَ اللَّهِ ثُمَّ جَاءَ وَهُوَ ابْنُ سَبْعِ سِنِينَ أَوْ ثَمَانٍ لِيُبَايِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم وَأَمَرَهُ بِذَلِكَ الزُّبَيْرُ فَتَبَسَّمَ رَسُولُ اللَّهِ صلى الله عليه وسلم حِينَ رَآهُ مُقْبِلاً إِلَيْهِ ثُمَّ بَايَعَهُ ‏.‏",
+      "source_hash_sha256": "895b620a0d8dccd2696c3952bded0496e8f129d6870669e7ba60681565438b9a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Lorsqu’Asmâ bint Abî Bakr émigra, elle était enceinte de ‘Abd Allah ibn az-Zubayr. Elle arriva à Qubâ et y accoucha de ‘Abd Allah. Après sa naissance, elle l’emmena auprès du Messager d’Allah (ﷺ) afin qu’il lui fasse le tahnîk. Le Messager d’Allah (ﷺ) le prit, le posa sur ses genoux et demanda une datte. Aïcha dit : « Nous la cherchâmes un moment avant d’en trouver une. » Il la mâcha puis la plaça dans la bouche du bébé. La première chose qui entra dans son ventre fut ainsi la salive du Messager d’Allah (ﷺ). Asmâ dit : « Il l’essuya, invoqua la bénédiction sur lui et le nomma ‘Abd Allah. » Lorsqu’il eut sept ou huit ans, il vint prêter serment d’allégeance au Messager d’Allah (ﷺ), sur l’ordre d’az-Zubayr. Le Messager d’Allah (ﷺ) sourit en le voyant venir, puis il reçut son allégeance.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b41fd8c0-3a67-44cc-b816-9fdce217c5f5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2146b",
+      "reference": "Sahih Muslim, hadith 2146 b, book 38, بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "title": "بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ أَسْمَاءَ، أَنَّهَا حَمَلَتْ بِعَبْدِ اللَّهِ بْنِ الزُّبَيْرِ بِمَكَّةَ قَالَتْ فَخَرَجْتُ وَأَنَا مُتِمٌّ، فَأَتَيْتُ الْمَدِينَةَ فَنَزَلْتُ بِقُبَاءٍ فَوَلَدْتُهُ بِقُبَاءٍ ثُمَّ أَتَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فَوَضَعَهُ فِي حَجْرِهِ ثُمَّ دَعَا بِتَمْرَةٍ فَمَضَغَهَا ثُمَّ تَفَلَ فِي فِيهِ فَكَانَ أَوَّلَ شَىْءٍ دَخَلَ جَوْفَهُ رِيقُ رَسُولِ اللَّهِ صلى الله عليه وسلم ثُمَّ حَنَّكَهُ بِالتَّمْرَةِ ثُمَّ دَعَا لَهُ وَبَرَّكَ عَلَيْهِ وَكَانَ أَوَّلَ مَوْلُودٍ وُلِدَ فِي الإِسْلاَمِ ‏.‏",
+      "source_hash_sha256": "ceee877f1c2a201f0890ee4da5f2ad4f66cf11b7839288b6feac978e8197cb46",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Asmâ était enceinte de ‘Abd Allah ibn az-Zubayr à La Mecque. Elle dit : « Je partis alors que ma grossesse était arrivée à terme et me rendis à Médine. Je m’installai à Qubâ et y accouchai. J’emmenai ensuite le bébé auprès du Messager d’Allah (ﷺ). Il le posa sur ses genoux, demanda une datte, la mâcha et la plaça dans la bouche du bébé. La première chose qui entra dans son corps fut la salive du Messager d’Allah (ﷺ). Puis il lui fit le tahnîk avec la datte, invoqua pour lui et le bénit. Il fut le premier enfant né en islam. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ec47fb41-af7b-42fa-b54d-5fbf208c850a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2146c",
+      "reference": "Sahih Muslim, hadith 2146 c, book 38, بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "title": "بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، عَنْ عَلِيِّ بْنِ مُسْهِرٍ، عَنْ هِشَامِ، بْنِ عُرْوَةَ عَنْ أَبِيهِ، عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ، أَنَّهَا هَاجَرَتْ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم وَهِيَ حُبْلَى بِعَبْدِ اللَّهِ بْنِ الزُّبَيْرِ ‏.‏ فَذَكَرَ نَحْوَ حَدِيثِ أَبِي أُسَامَةَ ‏.‏",
+      "source_hash_sha256": "ac2b66a3d148450c9c4490d4375c1d6f8060d20aa2297a4928e93aee56096991",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "98b5b226-17e3-4344-82cb-17f3218cad0b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2147",
+      "reference": "Sahih Muslim, hadith 2147, book 38, بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "title": "بَاب اسْتِحْبَابِ تَحْنِيكِ الْمَوْلُودِ عِنْدَ وِلَادَتِهِ وَحَمْلِهِ إِلَى صَالِحٍ يُحَنِّكُهُ وَجَوَازِ تَسْمِيَتِهِ يَوْمَ وِلَادَتِهِ وَاسْتِحْبَابِ التَّسْمِيَةِ بِعَبْدِ اللَّهِ وَإِبْرَاهِيمَ وَسَائِرِ أَسْمَاءِ الْأَنْبِيَاءِ عَلَيْهِمْ السَّلَام",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، حَدَّثَنَا هِشَامٌ، - يَعْنِي ابْنَ عُرْوَةَ - عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يُؤْتَى بِالصِّبْيَانِ فَيُبَرِّكُ عَلَيْهِمْ وَيُحَنِّكُهُمْ ‏.‏",
+      "source_hash_sha256": "7f1abd2c1ef4b4c1fe459c532827a0016c2d50376d371943eb1fdf03ca2be5d8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "On apportait des enfants au Messager d’Allah (ﷺ). Il invoquait la bénédiction sur eux et leur faisait le tahnîk.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c28a6bc1-977b-448a-820d-08f5f1e21766",
+      "reason": "Cette entrée indique seulement que le récit précédent a été rapporté dans une autre version, sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ec47fb41-af7b-42fa-b54d-5fbf208c850a",
+      "reason": "Cette entrée mentionne seulement qu’Asmâ émigra enceinte et renvoie à l’histoire précédente sans la reproduire. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
