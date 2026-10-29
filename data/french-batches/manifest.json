@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5738,
+    "hadithBukhariDrafted": 5743,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5738,
+    "hadithLocalDrafted": 5743,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8891,
-    "hadithNeedsMo": 828,
+    "hadithLocalRemaining": 8886,
+    "hadithNeedsMo": 829,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26422,6 +26422,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1249",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1249.json",
+      "sourceIds": [
+        "aba3f0f4-5b6c-4616-96b3-45aa892825bf",
+        "bb438138-4138-4ec5-8cfb-d0d399ba260b",
+        "ad321f15-83c6-4870-a266-49ffa55c9351",
+        "53248d4d-c2ef-4483-ae71-cceefbc30fbb",
+        "5c0a3097-d3f0-42c9-9b96-de905eba3a76",
+        "90901c92-391f-4ce8-996f-d8b31336040f"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one report held for two unclear legal/customary terms. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -29778,11 +29799,17 @@
       "scope": "Sahih al-Bukhari 6801: direct quotations of Quran 60:12 in the pledge wording",
       "status": "blocked",
       "reason": "The pledge wording directly quotes several phrases from Quran 60:12. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6819-UNCLEAR-TERM",
+      "scope": "Sahih al-Bukhari 6819: obscure legal/customary terms تحميم الوجه and التجبية",
+      "status": "blocked",
+      "reason": "The report’s terms تحميم الوجه and التجبية describe a practice attributed to the rabbis, but their precise meaning cannot be established safely from this excerpt. Keep the complete translation blank until clarified."
     }
   ],
-  "hadithBukhariDrafted": 5738,
-  "hadithLocalDrafted": 5738,
-  "hadithLocalRemaining": 8891,
+  "hadithBukhariDrafted": 5743,
+  "hadithLocalDrafted": 5743,
+  "hadithLocalRemaining": 8886,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30281,6 +30308,12 @@
       "scope": "Sahih al-Bukhari 6801: direct quotations of Quran 60:12 in the pledge wording",
       "status": "blocked",
       "reason": "The pledge wording directly quotes several phrases from Quran 60:12. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6819-UNCLEAR-TERM",
+      "scope": "Sahih al-Bukhari 6819: obscure legal/customary terms تحميم الوجه and التجبية",
+      "status": "blocked",
+      "reason": "The report’s terms تحميم الوجه and التجبية describe a practice attributed to the rabbis, but their precise meaning cannot be established safely from this excerpt. Keep the complete translation blank until clarified."
     }
   ]
 }
