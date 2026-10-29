@@ -9916,3 +9916,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0557 saves five private French drafts about umra in Ramadan and the Prophet’s routes into Mecca. Muslim 1257b contains only an additional route detail and remains blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1257e–1259c
+
+- FR-LIB-HAD-MUSLIM-0558 saves six private French drafts about the routes into Mecca and the Prophet’s overnight stay at Dhu Tuwa. All six source texts are complete.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
