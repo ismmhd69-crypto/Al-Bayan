@@ -18256,6 +18256,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-845",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-845.json",
+      "sourceIds": [
+        "ac3efab6-7921-4827-808c-f876cb837ff6",
+        "48ed61af-0706-4500-b20e-e719ecd23f9d",
+        "60dc0dc2-81f3-4dac-9ff7-c92dc82f652e",
+        "7814f126-b698-4300-abd4-c211f149d388",
+        "1c2c31c7-1299-41d9-ad56-82ac03131e79",
+        "e2463712-ed8f-4d05-b585-8bc9f6e7502d"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19524,9 +19545,27 @@
       "scope": "Sahih al-Bukhari 4663: direct Quranic phrase from 9:40",
       "status": "blocked",
       "reason": "La parole « Allah est le troisième de deux » reprend directement le sens et la formule de Quran 9:40. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-844, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4668-QURAN-9-79",
+      "scope": "Sahih al-Bukhari 4668: direct quotation of Quran 9:79",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 9:79. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-845, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4670-QURAN-9-80-84",
+      "scope": "Sahih al-Bukhari 4670: direct quotations of Quran 9:80 and 9:84",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 9:80 et 9:84. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-845, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4671-QURAN-9-84",
+      "scope": "Sahih al-Bukhari 4671: repeated direct quotations of Quran 9:84",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 9:84 à plusieurs reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-845, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4000,
-  "hadithLocalDrafted": 4000,
-  "hadithLocalRemaining": 10667
+  "hadithBukhariDrafted": 4003,
+  "hadithLocalDrafted": 4003,
+  "hadithLocalRemaining": 10664
 }
