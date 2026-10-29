@@ -639,3 +639,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-121` saved private French drafts for Bukhari 672–677. These include the instruction to finish a served meal before prayer, the related narrator variants, the report of the Prophet setting down his knife when called to prayer, his service to his family, and Malik ibn al-Huwayrith demonstrating how the Prophet prayed.
 - The six-record batch passed the focused validator for source hashes, rights metadata, private unpublished state and report structure. No Needs Mo item was identified in this batch. No database writes or publication occurred.
 - Bukhari local drafts: 628 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 14,001, including held records.
+
+### 2026-10-29: Bukhari 678–683 source review
+
+- `FR-LIB-HAD-BUKHARI-122` saved private French drafts for Bukhari 678–683. The reports preserve the repeated requests for Abu Bakr to lead prayer, Aisha’s and Hafsa’s exchanges, the Monday account of the Prophet appearing from his room, and the additional narration paths and variants.
+- The batch passed the focused validator for all Arabic hashes, IDs, rights metadata, private unpublished state and narration structure. No Needs Mo item was identified in this batch. No database writes or publication occurred.
+- Bukhari local drafts: 634 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,995, including held records.
