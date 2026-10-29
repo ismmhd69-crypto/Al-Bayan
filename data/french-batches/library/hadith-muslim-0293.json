@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0293",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:06:17.268Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "357f3fdb-8460-4367-a61b-2abf4679684d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:694e",
+      "reference": "Sahih Muslim, hadith 694 e, book 6, باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "title": "باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ خُبَيْبِ بْنِ عَبْدِ الرَّحْمَنِ، سَمِعَ حَفْصَ بْنَ عَاصِمٍ، عَنِ ابْنِ عُمَرَ، قَالَ صَلَّى النَّبِيُّ صلى الله عليه وسلم بِمِنًى صَلاَةَ الْمُسَافِرِ وَأَبُو بَكْرٍ وَعُمَرُ وَعُثْمَانُ ثَمَانِيَ سِنِينَ أَوْ قَالَ سِتَّ سِنِينَ ‏.‏ قَالَ حَفْصٌ وَكَانَ ابْنُ عُمَرَ يُصَلِّي بِمِنًى رَكْعَتَيْنِ ثُمَّ يَأْتِي فِرَاشَهُ ‏.‏ فَقُلْتُ أَىْ عَمِّ لَوْ صَلَّيْتَ بَعْدَهَا رَكْعَتَيْنِ ‏.‏ قَالَ لَوْ فَعَلْتُ لأَتْمَمْتُ الصَّلاَةَ ‏.‏",
+      "source_hash_sha256": "e258db299bd72fde2a72973ca4bfe4d60fa8ca50ffe65dfde7924f40f8c2b9c4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allah ibn Mu‘adh nous a rapporté : mon père nous a rapporté : Shu‘ba nous a rapporté, d’après Khubayb ibn ‘Abd al-Rahman, qui a entendu Hafs ibn ‘Asim, d’après Ibn ‘Umar. Il dit : « Le Prophète ﷺ accomplissait à Mina la prière du voyageur, en deux unités. Abu Bakr, ‘Umar et ‘Uthman firent de même pendant huit ans — ou six ans, selon une autre formulation. » Hafs dit : « Ibn ‘Umar accomplissait deux unités à Mina, puis rentrait se coucher. Je lui dis : “Mon oncle, si seulement tu accomplissais ensuite deux unités supplémentaires.” Il répondit : “Si je le faisais, je devrais compléter la prière.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ae3a3334-71d2-4b97-a570-4f769da6d5d4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:694f",
+      "reference": "Sahih Muslim, hadith 694 f, book 6, باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "title": "باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا خَالِدٌ يَعْنِي ابْنَ الْحَارِثِ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، قَالَ حَدَّثَنِي عَبْدُ الصَّمَدِ، قَالاَ حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ وَلَمْ يَقُولاَ فِي الْحَدِيثِ بِمِنًى ‏.‏ وَلَكِنْ قَالاَ صَلَّى فِي السَّفَرِ ‏.‏",
+      "source_hash_sha256": "55c305da25b88da20fa2f8a7aff6915ac3252aa6a49a878c805e2bee84811fe7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cd0767b2-2e4e-4217-8d97-7be312cbd450",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:695a",
+      "reference": "Sahih Muslim, hadith 695 a, book 6, باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "title": "باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، عَنِ الأَعْمَشِ، حَدَّثَنَا إِبْرَاهِيمُ، قَالَ سَمِعْتُ عَبْدَ الرَّحْمَنِ بْنَ يَزِيدَ، يَقُولُ صَلَّى بِنَا عُثْمَانُ بِمِنًى أَرْبَعَ رَكَعَاتٍ فَقِيلَ ذَلِكَ لِعَبْدِ اللَّهِ بْنِ مَسْعُودٍ فَاسْتَرْجَعَ ثُمَّ قَالَ صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم بِمِنًى رَكْعَتَيْنِ وَصَلَّيْتُ مَعَ أَبِي بَكْرٍ الصِّدِّيقِ بِمِنًى رَكْعَتَيْنِ وَصَلَّيْتُ مَعَ عُمَرَ بْنِ الْخَطَّابِ بِمِنًى رَكْعَتَيْنِ فَلَيْتَ حَظِّي مِنْ أَرْبَعِ رَكَعَاتٍ رَكْعَتَانِ مُتَقَبَّلَتَانِ ‏.‏",
+      "source_hash_sha256": "fe414df94f9a3a495119c71353d61a603358a4482ea8c4b8a245452edb0b105d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : ‘Abd al-Wahid nous a rapporté, d’après al-A‘mash. Ibrahim nous a rapporté : J’ai entendu ‘Abd al-Rahman ibn Yazid dire : « ‘Uthman nous dirigea à Mina en accomplissant quatre unités. On le rapporta à ‘Abd Allah ibn Mas‘ud. Il prononça la formule de retour à Allah, puis dit : “J’ai accompli deux unités à Mina avec le Messager d’Allah ﷺ, deux unités avec Abu Bakr le Véridique, et deux unités avec ‘Umar ibn al-Khattab. Si seulement ma part des quatre unités était de deux unités acceptées !” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bdcbba03-13db-4310-8bed-a351150eadcd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:695b",
+      "reference": "Sahih Muslim, hadith 695 b, book 6, باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "title": "باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، قَالَ حَدَّثَنَا جَرِيرٌ، ح وَحَدَّثَنَا إِسْحَاقُ، وَابْنُ، خَشْرَمٍ قَالاَ أَخْبَرَنَا عِيسَى، كُلُّهُمْ عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "f497f0d11018898eab8288cfbbd254cd8d3d6546128e5e9dcb7a2832ffb559fb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e4cb04df-0e8d-4fd0-8734-09fa4dbd60a0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:696a",
+      "reference": "Sahih Muslim, hadith 696 a, book 6, باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "title": "باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَقُتَيْبَةُ، قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ، قُتَيْبَةُ حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ أَبِي إِسْحَاقَ، عَنْ حَارِثَةَ بْنِ وَهْبٍ، قَالَ صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم بِمِنًى - آمَنَ مَا كَانَ النَّاسُ وَأَكْثَرَهُ - رَكْعَتَيْنِ ‏.‏",
+      "source_hash_sha256": "52a1f81c96eafd2028c8b4897549e9735fe9e0c36dd7706aaf4340069d8be765",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya et Qutayba nous ont rapporté. Yahya dit : Abu al-Ahwas nous a informés ; Qutayba dit : Abu al-Ahwas nous a rapporté, d’après Abu Ishaq, d’après Haritha ibn Wahb. Il dit : « J’ai accompli avec le Messager d’Allah ﷺ deux unités à Mina, alors que les gens étaient aussi nombreux et aussi en sécurité qu’ils pouvaient l’être. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "85ccb193-7a68-4372-b539-6b39abc0ed41",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:696b",
+      "reference": "Sahih Muslim, hadith 696 b, book 6, باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "title": "باب قَصْرِ الصَّلاَةِ بِمِنًى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدِ اللَّهِ بْنِ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا أَبُو إِسْحَاقَ، حَدَّثَنِي حَارِثَةُ بْنُ وَهْبٍ الْخُزَاعِيُّ، قَالَ صَلَّيْتُ خَلْفَ رَسُولِ اللَّهِ صلى الله عليه وسلم بِمِنًى وَالنَّاسُ أَكْثَرُ مَا كَانُوا فَصَلَّى رَكْعَتَيْنِ فِي حَجَّةِ الْوَدَاعِ ‏.‏ قَالَ مُسْلِمٌ حَارِثَةُ بْنُ وَهْبٍ الْخُزَاعِيُّ هُوَ أَخُو عُبَيْدِ اللَّهِ بْنِ عُمَرَ بْنِ الْخَطَّابِ لأُمِّهِ ‏.‏",
+      "source_hash_sha256": "9b3a9fefdaf601da96a9141f36ba3a9395617e6d2a7f98a1f0e8597d08d2fb21",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn ‘Abd Allah ibn Yunus nous a rapporté : Zuhayr nous a rapporté : Abu Ishaq nous a rapporté : Haritha ibn Wahb al-Khuza‘i m’a rapporté. Il dit : « J’ai prié derrière le Messager d’Allah ﷺ à Mina, alors que les gens étaient aussi nombreux qu’ils pouvaient l’être. Il accomplit deux unités pendant le pèlerinage d’adieu. » Muslim précise : « Haritha ibn Wahb al-Khuza‘i était le frère utérin de ‘Ubayd Allah ibn ‘Umar ibn al-Khattab. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ae3a3334-71d2-4b97-a570-4f769da6d5d4",
+      "reason": "La source arabe ne reprend pas le texte du récit et renvoie à une version précédente, avec une différence de formulation seulement. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "source_id": "bdcbba03-13db-4310-8bed-a351150eadcd",
+      "reason": "La source arabe ne reprend pas le texte du récit et renvoie à une version précédente, avec une différence de formulation seulement. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    }
+  ]
+}

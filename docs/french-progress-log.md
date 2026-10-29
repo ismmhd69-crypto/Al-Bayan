@@ -8591,3 +8591,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,159 Muslim drafts, 7,495 total hadith drafts, 7,134 remaining, and 552 Needs Mo items.
 
 - Correction to FR-LIB-HAD-MUSLIM-0292: only 694a and 694c have complete report text suitable for translation. The batch has two translations; 693c, 693d, 694b and 694d remain blank under Needs Mo. Counts updated accordingly.
+
+### 2026-10-29: Muslim 694e–696b
+
+- FR-LIB-HAD-MUSLIM-0293 saves four private French drafts about shortened prayer at Mina. Muslim 694f and 695b are incomplete variant reports and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,162 Muslim drafts, 7,498 total hadith drafts, 7,131 remaining, and 555 Needs Mo items.
