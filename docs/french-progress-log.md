@@ -11694,3 +11694,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1985a-1986c
 
 - FR-LIB-HAD-MUSLIM-0933 saves six private French drafts about fruit sources for intoxicating drinks and the prohibition against mixing particular fruits to ferment them. The versions’ wording differences are preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1986d-1987e
+
+- FR-LIB-HAD-MUSLIM-0934 saves five private French drafts about mixing and drinking fermented fruit beverages. The distinct mixtures named in each report are preserved. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
