@@ -11418,3 +11418,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1822a-1826
 
 - FR-LIB-HAD-MUSLIM-0864 saves five private French drafts: one report combining several sayings, two accounts about appointing a successor, and two accounts concerning Abu Dharr and public office. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1827-1829d
+
+- FR-LIB-HAD-MUSLIM-0865 saves four private French drafts about equitable leadership, gentleness toward the community, and responsibility. Two chain-only cross-references remain blank under Needs Mo with specific reasons. No database write or publication occurred.
