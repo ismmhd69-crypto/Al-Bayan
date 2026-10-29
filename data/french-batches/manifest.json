@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5680,
+    "hadithBukhariDrafted": 5685,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5680,
+    "hadithLocalDrafted": 5685,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8949,
-    "hadithNeedsMo": 820,
+    "hadithLocalRemaining": 8944,
+    "hadithNeedsMo": 821,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26191,6 +26191,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "four private drafts; two Needs Mo holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1238",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1238.json",
+      "sourceIds": [
+        "77be343e-ef04-428d-a8a7-23e65d6a584d",
+        "9185e65e-5a80-4c21-8bcc-b03f0e491ebf",
+        "50a0fc02-d342-448c-bac6-6d3019ed751a",
+        "046641ee-a25d-4fed-997b-88366186ce3f",
+        "557c9366-b686-4d41-a41b-68592bc272a8",
+        "2e26f508-8f30-4f4b-ae92-67a65dd69790"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one report held in full for direct quotations of Quran 4:33. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -29499,11 +29520,17 @@
       "scope": "Sahih al-Bukhari 6745: unclear wording كلاً أو ضياعًا and attached variant note لكل: العيال",
       "status": "blocked",
       "reason": "The wording كلاً أو ضياعًا and attached variant note لكل: العيال do not establish the complete passage’s meaning with sufficient certainty. Keep the whole report blank until reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6747-QURAN-4-33",
+      "scope": "Sahih al-Bukhari 6747: direct quotations of Quran 4:33",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:33 several times. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5680,
-  "hadithLocalDrafted": 5680,
-  "hadithLocalRemaining": 8949,
+  "hadithBukhariDrafted": 5685,
+  "hadithLocalDrafted": 5685,
+  "hadithLocalRemaining": 8944,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29954,6 +29981,12 @@
       "scope": "Sahih al-Bukhari 6745: unclear wording كلاً أو ضياعًا and attached variant note لكل: العيال",
       "status": "blocked",
       "reason": "The wording كلاً أو ضياعًا and attached variant note لكل: العيال do not establish the complete passage’s meaning with sufficient certainty. Keep the whole report blank until reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6747-QURAN-4-33",
+      "scope": "Sahih al-Bukhari 6747: direct quotations of Quran 4:33",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:33 several times. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

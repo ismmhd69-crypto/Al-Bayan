@@ -1,0 +1,167 @@
+{
+  "batch_id": "HADITH-BUKHARI-1238",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:10:11.679Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "77be343e-ef04-428d-a8a7-23e65d6a584d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6747",
+      "reference": "Sahih al-Bukhari, hadith 6747, book 85, باب ذَوِي الأَرْحَامِ",
+      "title": "باب ذَوِي الأَرْحَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ قُلْتُ لأَبِي أُسَامَةَ حَدَّثَكُمْ إِدْرِيسُ، حَدَّثَنَا طَلْحَةُ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، ‏[quran sura=\"4\" aya_start=\"33\" aya_end=\"33\"]{‏وَلِكُلٍّ جَعَلْنَا مَوَالِيَ‏}‏ [quran sura=\"4\" aya_start=\"33\" aya_end=\"33\"]‏{‏وَالَّذِينَ عَقَدَتْ أَيْمَانُكُمْ‏}‏ قَالَ كَانَ الْمُهَاجِرُونَ حِينَ قَدِمُوا الْمَدِينَةَ يَرِثُ الأَنْصَارِيُّ الْمُهَاجِرِيَّ دُونَ ذَوِي رَحِمِهِ لِلأُخُوَّةِ الَّتِي آخَى النَّبِيُّ صلى الله عليه وسلم بَيْنَهُمْ فَلَمَّا نَزَلَتْ [quran sura=\"4\" aya_start=\"33\" aya_end=\"33\"]‏{‏جَعَلْنَا مَوَالِيَ‏}‏ قَالَ نَسَخَتْهَا [quran sura=\"4\" aya_start=\"33\" aya_end=\"33\"]‏{‏وَالَّذِينَ عَقَدَتْ أَيْمَانُكُمْ‏}‏",
+      "source_hash_sha256": "c8027da05880096fef6aa5b3a2cd0d9dc5dd14a52caf5d29c3ee98b93dea4243",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le Coran 4:33 à plusieurs reprises. Garder toute sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    },
+    {
+      "source_id": "9185e65e-5a80-4c21-8bcc-b03f0e491ebf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6748",
+      "reference": "Sahih al-Bukhari, hadith 6748, book 85, باب مِيرَاثِ الْمُلاَعَنَةِ",
+      "title": "باب مِيرَاثِ الْمُلاَعَنَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى بْنُ قَزَعَةَ، حَدَّثَنَا مَالِكٌ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما أَنَّ رَجُلاً، لاَعَنَ امْرَأَتَهُ فِي زَمَنِ النَّبِيِّ صلى الله عليه وسلم وَانْتَفَى مِنْ وَلَدِهَا فَفَرَّقَ النَّبِيُّ صلى الله عليه وسلم بَيْنَهُمَا، وَأَلْحَقَ الْوَلَدَ بِالْمَرْأَةِ‏.‏",
+      "source_hash_sha256": "b32942c829f380d16c1f348c01ccb0e37a0b1c63f28651f2e4b00f35eee64ccf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Qaza‘a m’a rapporté : Mâlik nous a rapporté, d’après Nâfi‘, d’après Ibn ‘Umar — qu’Allah les agrée tous deux — : Un homme prononça contre sa femme l’imprécation réciproque (li‘ân) à l’époque du Prophète ﷺ et désavoua son enfant. Le Prophète ﷺ les sépara et attribua l’enfant à la femme.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "50a0fc02-d342-448c-bac6-6d3019ed751a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6749",
+      "reference": "Sahih al-Bukhari, hadith 6749, book 85, باب الْوَلَدُ لِلْفِرَاشِ حُرَّةً كَانَتْ أَوْ أَمَةً",
+      "title": "باب الْوَلَدُ لِلْفِرَاشِ حُرَّةً كَانَتْ أَوْ أَمَةً",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ عُتْبَةُ عَهِدَ إِلَى أَخِيهِ سَعْدٍ أَنَّ ابْنَ وَلِيدَةِ زَمْعَةَ مِنِّي، فَاقْبِضْهُ إِلَيْكَ‏.‏ فَلَمَّا كَانَ عَامَ الْفَتْحِ أَخَذَهُ سَعْدٌ فَقَالَ ابْنُ أَخِي عَهِدَ إِلَىَّ فِيهِ‏.‏ فَقَامَ عَبْدُ بْنُ زَمْعَةَ فَقَالَ أَخِي وَابْنُ وَلِيدَةِ أَبِي، وُلِدَ عَلَى فِرَاشِهِ‏.‏ فَتَسَاوَقَا إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ سَعْدٌ يَا رَسُولَ اللَّهِ ابْنُ أَخِي قَدْ كَانَ عَهِدَ إِلَىَّ فِيهِ‏.‏ فَقَالَ عَبْدُ بْنُ زَمْعَةَ أَخِي وَابْنُ وَلِيدَةِ أَبِي، وُلِدَ عَلَى فِرَاشِهِ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ هُوَ لَكَ يَا عَبْدُ بْنَ زَمْعَةَ، الْوَلَدُ لِلْفِرَاشِ وَلِلْعَاهِرِ الْحَجَرُ ‏\"‏‏.‏ ثُمَّ قَالَ لِسَوْدَةَ بِنْتِ زَمْعَةَ ‏\"‏ احْتَجِبِي مِنْهُ ‏\"‏‏.‏ لِمَا رَأَى مِنْ شَبَهِهِ بِعُتْبَةَ، فَمَا رَآهَا حَتَّى لَقِيَ اللَّهَ‏.‏",
+      "source_hash_sha256": "550bb5544c6a88d7f5b56a9dfabbd0dcb2e94cd7b0f93418f2f085c03e959cdc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Yûsuf nous a rapporté : Mâlik nous a informés, d’après Ibn Shihâb, d’après ‘Urwa, d’après ‘Â’isha — qu’Allah l’agrée —, qui a dit : « ‘Utba avait confié à son frère Sa‘d : “Le fils de la femme esclave de Zam‘a est de moi ; prends-le avec toi.” Lors de l’année de la Conquête, Sa‘d le prit et dit : “C’est le fils de mon frère, qui me l’avait confié.” ‘Abd ibn Zam‘a se leva et dit : “C’est mon frère, le fils de la femme esclave de mon père ; il est né sur son lit.” Ils se présentèrent ensemble devant le Prophète ﷺ. Sa‘d dit : “Messager d’Allah, le fils de mon frère m’avait été confié.” ‘Abd ibn Zam‘a dit : “C’est mon frère, le fils de la femme esclave de mon père ; il est né sur son lit.” Le Prophète ﷺ dit : “Il est à toi, ‘Abd ibn Zam‘a. L’enfant appartient au lit conjugal et l’adultère n’a droit qu’à la pierre.” Puis il dit à Sawda bint Zam‘a : “Voile-toi devant lui”, en raison de sa ressemblance avec ‘Utba. Il ne la revit plus jusqu’à sa mort.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "046641ee-a25d-4fed-997b-88366186ce3f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6750",
+      "reference": "Sahih al-Bukhari, hadith 6750, book 85, باب الْوَلَدُ لِلْفِرَاشِ حُرَّةً كَانَتْ أَوْ أَمَةً",
+      "title": "باب الْوَلَدُ لِلْفِرَاشِ حُرَّةً كَانَتْ أَوْ أَمَةً",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، عَنْ يَحْيَى، عَنْ شُعْبَةَ، عَنْ مُحَمَّدِ بْنِ زِيَادٍ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ الْوَلَدُ لِصَاحِبِ الْفِرَاشِ ‏\"‏‏.‏",
+      "source_hash_sha256": "25c21d59622cec769fec4149e7ade8338a91e51d63363d440958dc039945d7ee",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté, d’après Yahyâ, d’après Shu‘ba, d’après Muhammad ibn Ziyâd, qui a entendu Abû Hurayra rapporter du Prophète ﷺ ces paroles : « L’enfant appartient à celui qui détient le lit conjugal. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "557c9366-b686-4d41-a41b-68592bc272a8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6751",
+      "reference": "Sahih al-Bukhari, hadith 6751, book 85, باب الْوَلاَءُ لِمَنْ أَعْتَقَ، وَمِيرَاثُ اللَّقِيطِ",
+      "title": "باب الْوَلاَءُ لِمَنْ أَعْتَقَ، وَمِيرَاثُ اللَّقِيطِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنِ الْحَكَمِ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، قَالَتِ اشْتَرَيْتُ بَرِيرَةَ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اشْتَرِيهَا، فَإِنَّ الْوَلاَءَ لِمَنْ أَعْتَقَ ‏\"‏‏.‏ وَأُهْدِيَ لَهَا شَاةٌ فَقَالَ ‏\"‏ هُوَ لَهَا صَدَقَةٌ، وَلَنَا هَدِيَّةٌ ‏\"‏‏.‏ قَالَ الْحَكَمُ وَكَانَ زَوْجُهَا حُرًّا، وَقَوْلُ الْحَكَمِ مُرْسَلٌ‏.‏ وَقَالَ ابْنُ عَبَّاسٍ رَأَيْتُهُ عَبْدًا‏.‏",
+      "source_hash_sha256": "03d442cb5ec5f0fe2c615d983443bcb4d53da3b7b249d59eb128de6ac0ffb0e3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hafs ibn ‘Umar nous a rapporté : Shu‘ba nous a rapporté, d’après al-Hakam, d’après Ibrâhîm, d’après al-Aswad, d’après ‘Â’isha, qui a dit : « J’ai acheté Barîra. Le Prophète ﷺ dit : “Achète-la, car le droit d’affranchissement revient à celui qui affranchit.” On lui offrit ensuite un mouton ; il dit : “Pour elle, c’est une aumône ; pour nous, c’est un cadeau.” » Al-Hakam a dit que son mari était un homme libre, mais la transmission d’al-Hakam est mursal (sans compagnon cité dans la chaîne). Ibn ‘Abbâs a dit : « Je l’ai vu esclave. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2e26f508-8f30-4f4b-ae92-67a65dd69790",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6752",
+      "reference": "Sahih al-Bukhari, hadith 6752, book 85, باب الْوَلاَءُ لِمَنْ أَعْتَقَ، وَمِيرَاثُ اللَّقِيطِ",
+      "title": "باب الْوَلاَءُ لِمَنْ أَعْتَقَ، وَمِيرَاثُ اللَّقِيطِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّمَا الْوَلاَءُ لِمَنْ أَعْتَقَ ‏\"‏‏.‏",
+      "source_hash_sha256": "7b34b0eda6b6cd5083343cba92d100adbb8b162f105a6ee88a0a9c99e8861cff",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ismâ‘îl ibn ‘Abd Allah nous a rapporté : Mâlik m’a rapporté, d’après Nâfi‘, d’après Ibn ‘Umar, d’après le Prophète ﷺ, qui a dit : « Le droit d’affranchissement revient uniquement à celui qui affranchit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "77be343e-ef04-428d-a8a7-23e65d6a584d",
+      "url": "https://sunnah.com/bukhari:6747",
+      "reason": "Ce récit cite directement le Coran 4:33 à plusieurs reprises. Garder toute sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    }
+  ]
+}
