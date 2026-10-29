@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1189",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:37:22.547Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9f569bf9-8398-4af0-b758-8fc4fc81cabf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2566",
+      "reference": "Sahih Muslim, hadith 2566, book 45, باب فِي فَضْلِ الْحُبِّ فِي اللَّهِ ‏‏",
+      "title": "باب فِي فَضْلِ الْحُبِّ فِي اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، فِيمَا قُرِئَ عَلَيْهِ عَنْ عَبْدِ اللَّهِ بْنِ عَبْدِ، الرَّحْمَنِ بْنِ مَعْمَرٍ عَنْ أَبِي الْحُبَابِ، سَعِيدِ بْنِ يَسَارٍ عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ يَقُولُ يَوْمَ الْقِيَامَةِ أَيْنَ الْمُتَحَابُّونَ بِجَلاَلِي الْيَوْمَ أُظِلُّهُمْ فِي ظِلِّي يَوْمَ لاَ ظِلَّ إِلاَّ ظِلِّي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6a709194018ea7efdfd37e1af597c67defaa8d147d6e86c916cc4b15f3e94e46",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Au Jour de la Résurrection, Allah dira : “Où sont ceux qui s’aimaient pour Ma majesté ? Aujourd’hui, Je les abriterai sous Mon ombre, le jour où il n’y aura d’autre ombre que la Mienne.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "35908023-d919-4fc2-ad0d-7c843d565f03",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2567a",
+      "reference": "Sahih Muslim, hadith 2567 a, book 45, باب فِي فَضْلِ الْحُبِّ فِي اللَّهِ ‏‏",
+      "title": "باب فِي فَضْلِ الْحُبِّ فِي اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ الأَعْلَى بْنُ حَمَّادٍ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَبِي رَافِعٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ أَنَّ رَجُلاً زَارَ أَخًا لَهُ فِي قَرْيَةٍ أُخْرَى فَأَرْصَدَ اللَّهُ لَهُ عَلَى مَدْرَجَتِهِ مَلَكًا فَلَمَّا أَتَى عَلَيْهِ قَالَ أَيْنَ تُرِيدُ قَالَ أُرِيدُ أَخًا لِي فِي هَذِهِ الْقَرْيَةِ ‏.‏ قَالَ هَلْ لَكَ عَلَيْهِ مِنْ نِعْمَةٍ تَرُبُّهَا قَالَ لاَ غَيْرَ أَنِّي أَحْبَبْتُهُ فِي اللَّهِ عَزَّ وَجَلَّ ‏.‏ قَالَ فَإِنِّي رَسُولُ اللَّهِ إِلَيْكَ بِأَنَّ اللَّهَ قَدْ أَحَبَّكَ كَمَا أَحْبَبْتَهُ فِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e0d477f8d703a3d418a1b76f76aa48e94e8cc1b0d472aa5b05171fc585f02e37",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Prophète ﷺ a dit : « Un homme se rendit dans un autre village pour visiter un frère. Allah plaça un ange sur son chemin. Lorsque l’homme arriva auprès de lui, l’ange lui demanda : “Où vas-tu ?” Il répondit : “Je vais voir un frère à moi dans ce village.” L’ange demanda : “As-tu fait quelque chose pour lui dont tu attends un bénéfice ?” Il répondit : “Non, si ce n’est que je l’aime pour Allah, le Puissant et Majestueux.” L’ange lui dit : “Je suis le messager d’Allah auprès de toi : Allah t’aime comme tu l’aimes pour Lui.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "83dfb7e4-89bc-433b-a8a8-31c5ce133378",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2567b",
+      "reference": "Sahih Muslim, hadith 2567 b, book 45, باب فِي فَضْلِ الْحُبِّ فِي اللَّهِ ‏‏",
+      "title": "باب فِي فَضْلِ الْحُبِّ فِي اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "قَالَ الشَّيْخُ أَبُو أَحْمَدَ أَخْبَرَنِي أَبُو بَكْرٍ، مُحَمَّدُ بْنُ زَنْجُويَهْ الْقُشَيْرِيُّ حَدَّثَنَا عَبْدُ، الأَعْلَى بْنُ حَمَّادٍ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "30680a07da35495674cea4286cb9c58f8860b7ce3d65ebf9b14eb142a46358bc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c7a81c1b-ffb8-4f5b-9c5a-08e9ecacaa27",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2568a",
+      "reference": "Sahih Muslim, hadith 2568 a, book 45, باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "title": "باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَأَبُو الرَّبِيعِ الزَّهْرَانِيُّ، قَالاَ حَدَّثَنَا حَمَّادٌ، - يَعْنِيَانِ ابْنَ زَيْدٍ - عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَبِي أَسْمَاءَ، عَنْ ثَوْبَانَ، قَالَ أَبُو الرَّبِيعِ رَفَعَهُ إِلَى النَّبِيِّ صلى الله عليه وسلم وَفِي حَدِيثِ سَعِيدٍ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ عَائِدُ الْمَرِيضِ فِي مَخْرَفَةِ الْجَنَّةِ حَتَّى يَرْجِعَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b55f8024826b213d3957db688a67289a59cbd9d386e9f0198c36a16466311572",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Thawbān rapporte que le Messager d’Allah ﷺ a dit : « Celui qui rend visite à un malade demeure dans les jardins du Paradis jusqu’à son retour. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "16dae563-1346-45c6-9dd0-f2015202945c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2568b",
+      "reference": "Sahih Muslim, hadith 2568 b, book 45, باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "title": "باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، أَخْبَرَنَا هُشَيْمٌ، عَنْ خَالِدٍ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَبِي، أَسْمَاءَ عَنْ ثَوْبَانَ، مَوْلَى رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ عَادَ مَرِيضًا لَمْ يَزَلْ فِي خُرْفَةِ الْجَنَّةِ حَتَّى يَرْجِعَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f47cfc07c5d81670d458df2a430f47b77f539d251e32832fcf73c7a7a3a0594f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Thawbān, affranchi du Messager d’Allah ﷺ, rapporte que le Messager d’Allah ﷺ a dit : « Celui qui rend visite à un malade demeure dans les jardins du Paradis jusqu’à son retour. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5bf124aa-4d26-42ce-b5d5-a04f700584d7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2568c",
+      "reference": "Sahih Muslim, hadith 2568 c, book 45, باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "title": "باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ حَبِيبٍ الْحَارِثِيُّ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا خَالِدٌ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَبِي أَسْمَاءَ الرَّحَبِيِّ، عَنْ ثَوْبَانَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الْمُسْلِمَ إِذَا عَادَ أَخَاهُ الْمُسْلِمَ لَمْ يَزَلْ فِي خُرْفَةِ الْجَنَّةِ حَتَّى يَرْجِعَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "83780212c33f3af3b5cb066901b53247c128552268ca516dced98ccdd389c044",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Thawbān rapporte que le Prophète ﷺ a dit : « Lorsqu’un musulman rend visite à son frère musulman malade, il demeure dans les jardins du Paradis jusqu’à son retour. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "83dfb7e4-89bc-433b-a8a8-31c5ce133378",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit précédent (« dans le même sens ») sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
