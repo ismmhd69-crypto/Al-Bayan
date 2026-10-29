@@ -17100,6 +17100,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-788",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-788.json",
+      "sourceIds": [
+        "80e40c2f-1f22-4f4c-b90a-9186fa169593",
+        "b9544781-225e-4ca4-a844-0f6ca545ce07",
+        "9324c976-b45b-411c-aaef-aaa65d7604c0",
+        "139928ed-5892-4238-abf3-423e0e09d43b",
+        "e9359739-2aa4-412d-935a-bf2be749dcb7",
+        "5eb68563-da57-40d7-9e03-0fe67b8d8f07"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17570,9 +17591,21 @@
       "scope": "Sahih al-Bukhari 4324: unclear description تُقْبِلُ بِأَرْبَعٍ وَتُدْبِرُ بِثَمَانٍ",
       "status": "blocked",
       "reason": "The phrase تُقْبِلُ بِأَرْبَعٍ وَتُدْبِرُ بِثَمَانٍ has an unclear physical description. The complete report remains blank in FR-LIB-HAD-BUKHARI-784 pending clarification of its exact meaning."
+    },
+    {
+      "id": "HADITH-BUKHARI-4348-QURAN-4-125",
+      "scope": "Sahih al-Bukhari 4348: direct quotation of Quran 4:125",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:125. The complete record remains blank in FR-LIB-HAD-BUKHARI-788 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4353-SOURCE-TEXT-ANOMALY",
+      "scope": "Sahih al-Bukhari 4353: source phrase فَإِنَّ مَعَنَا أَهْلَكَ",
+      "status": "blocked",
+      "reason": "The source phrase appears anomalous and differs from the parallel wording in Bukhari 4352. The complete report remains blank in FR-LIB-HAD-BUKHARI-788 pending source-text confirmation."
     }
   ],
-  "hadithBukhariDrafted": 3833,
-  "hadithLocalDrafted": 3833,
-  "hadithLocalRemaining": 10824
+  "hadithBukhariDrafted": 3837,
+  "hadithLocalDrafted": 3837,
+  "hadithLocalRemaining": 10820
 }

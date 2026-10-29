@@ -3851,3 +3851,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-787` saves six private French drafts about obedience, Muʿâdh and Abû Mûsâ in Yemen, and pilgrimage.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,833 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 317. Total local hadith rows not drafted: 10,824, including held records.
+
+### 2026-10-29: Bukhari 4348–4353
+
+- `FR-LIB-HAD-BUKHARI-788` saves four private French drafts. Hadith 4348 remains blank because it directly quotes Quran 4:125; hadith 4353 remains blank because one source phrase appears anomalous against the parallel report. Both holds are recorded for Mo.
+- All six records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,837 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 319. Total local hadith rows not drafted: 10,820, including held records.
