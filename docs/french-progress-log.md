@@ -11176,3 +11176,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0809 saves five private French drafts: the account of Hind and Abu Sufyan, its two distinct variants, and reports on Allah's approval and disapproval. Muslim 1714b only supplies alternate chains and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1716a-1718a
+
+- FR-LIB-HAD-MUSLIM-0810 saves four private French drafts on judicial reasoning, judging while angry, and rejected innovations. The additional attribution note in 1716b is retained. Muslim 1716c and 1717b only refer to earlier reports and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
