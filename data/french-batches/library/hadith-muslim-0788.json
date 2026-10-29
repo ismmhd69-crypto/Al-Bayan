@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0788",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:28:03.529Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "78af383e-7efc-4459-8528-e642ae241952",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1673b",
+      "reference": "Sahih Muslim, hadith 1673 b, book 28, باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "title": "باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ عَطَاءٍ، عَنِ ابْنِ يَعْلَى، عَنْ يَعْلَى، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "fdd081f426fcd434b4539ed79a99ff2b544d2dec66b70d09f808f2603889ba22",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c658d5a1-86c9-4540-8f09-52ea48198c70",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1673c",
+      "reference": "Sahih Muslim, hadith 1673 c, book 28, باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "title": "باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، حَدَّثَنَا مُعَاذٌ، - يَعْنِي ابْنَ هِشَامٍ - حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ زُرَارَةَ بْنِ أَوْفَى، عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، أَنَّ رَجُلاً، عَضَّ ذِرَاعَ رَجُلٍ فَجَذَبَهُ فَسَقَطَتْ ثَنِيَّتُهُ فَرُفِعَ إِلَى النَّبِيِّ صلى الله عليه وسلم فَأَبْطَلَهُ وَقَالَ ‏\"‏ أَرَدْتَ أَنْ تَأْكُلَ لَحْمَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "74f278c1a400a5b2973581203aea13c09106578a3cc5ea4b978a24fd768bca5a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Ghassan al-Misma‘i m’a rapporté : Mu‘adh — c’est-à-dire Ibn Hisham — nous a rapporté : mon père m’a rapporté, d’après Qatada, d’après Zurara ibn Awfa, d’après Imran ibn Husayn, qu’un homme mordit le bras d’un autre. Celui-ci le tira, lui faisant tomber une incisive. L’affaire fut portée devant le Prophète ﷺ, qui le débouta et dit : « Tu voulais manger sa chair ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d1e28c81-b6a5-404f-a301-58b1f399eb49",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1673d",
+      "reference": "Sahih Muslim, hadith 1673 d, book 28, باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "title": "باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ عُثْمَانَ النَّوْفَلِيُّ، حَدَّثَنَا قُرَيْشُ بْنُ أَنَسٍ، عَنِ ابْنِ عَوْنٍ، عَنْ مُحَمَّدِ، بْنِ سِيرِينَ عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، أَنَّ رَجُلاً، عَضَّ يَدَ رَجُلٍ فَانْتَزَعَ يَدَهُ فَسَقَطَتْ ثَنِيَّتُهُ أَوْ ثَنَايَاهُ فَاسْتَعْدَى رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا تَأْمُرُنِي تَأْمُرُنِي أَنْ آمُرَهُ أَنْ يَدَعَ يَدَهُ فِي فِيكَ تَقْضَمُهَا كَمَا يَقْضَمُ الْفَحْلُ ادْفَعْ يَدَكَ حَتَّى يَعَضَّهَا ثُمَّ انْتَزِعْهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b78c9e71e52ffd58035b8614d950e548d755db438d4ab68786d7b2eedf9326eb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Uthman al-Nawfali nous a rapporté : Quraysh ibn Anas nous a rapporté, d’après Ibn Awn, d’après Muhammad ibn Sirin, d’après Imran ibn Husayn, qu’un homme mordit la main d’un autre. Celui-ci retira sa main et une ou plusieurs de ses incisives tombèrent. Il se plaignit auprès du Messager d’Allah ﷺ. Le Messager d’Allah ﷺ dit : « Que veux-tu que je fasse ? Que je lui ordonne de laisser sa main dans ta bouche pendant que tu la ronges comme un étalon ? Tends-lui ta main pour qu’il la morde, puis retire-la. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "76894f93-6eb1-4e71-9833-e12cff7ad322",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1674a",
+      "reference": "Sahih Muslim, hadith 1674 a, book 28, باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "title": "باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ بُدَيْلٍ، عَنْ عَطَاءِ بْنِ أَبِي رَبَاحٍ، عَنْ صَفْوَانَ بْنِ يَعْلَى، أَنَّ أَجِيرًا، لِيَعْلَى ابْنِ مُنْيَةَ عَضَّ رَجُلٌ ذِرَاعَهُ فَجَذَبَهَا فَسَقَطَتْ ثَنِيَّتُهُ فَرُفِعَ إِلَى النَّبِيِّ صلى الله عليه وسلم فَأَبْطَلَهَا وَقَالَ ‏\" أَرَدْتَ أَنْ تَقْضَمَهَا كَمَا يَقْضَمُ الْفَحْلُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "47fd4aeaf45550b15627749bc15e4fcd9d5aca78f0f1913f351db59b05f9254b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Ghassan al-Misma‘i nous a rapporté : Mu‘adh ibn Hisham nous a rapporté : mon père m’a rapporté, d’après Qatada, d’après Budayl, d’après Ata ibn Abi Rabah, d’après Safwan ibn Ya‘la, qu’un homme mordit le bras d’un travailleur de Ya‘la ibn Munya. Celui-ci tira son bras et l’incisive de l’autre tomba. L’affaire fut portée devant le Prophète ﷺ, qui le débouta et dit : « Tu voulais la mâcher comme un étalon mâche ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bd528779-9958-4051-b0bd-7fbf881720de",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1674b",
+      "reference": "Sahih Muslim, hadith 1674 b, book 28, باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "title": "باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا عَطَاءٌ، عَنْ صَفْوَانَ بْنِ يَعْلَى ابْنِ، مُنْيَةَ عَنْ أَبِيهِ، قَالَ أَتَى النَّبِيَّ صلى الله عليه وسلم رَجُلٌ وَقَدْ عَضَّ يَدَ رَجُلٍ فَانْتَزَعَ يَدَهُ فَسَقَطَتْ ثَنِيَّتَاهُ - يَعْنِي الَّذِي عَضَّهُ - قَالَ فَأَبْطَلَهَا النَّبِيُّ صلى الله عليه وسلم وَقَالَ ‏\"‏ أَرَدْتَ أَنْ تَقْضَمَهُ كَمَا يَقْضَمُ الْفَحْلُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "66b5002a88747f50f828c9a0686d795f911326a4bf99b28ff83db616dd94ce33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shayban ibn Farrukh nous a rapporté : Hammam nous a rapporté : Ata nous a rapporté, d’après Safwan ibn Ya‘la ibn Munya, d’après son père, qu’un homme vint auprès du Prophète ﷺ après avoir mordu la main d’un autre. Celui-ci retira sa main ; les deux incisives de l’homme qui avait mordu tombèrent. Le Prophète ﷺ ne lui accorda aucune réparation et dit : « Tu voulais le mâcher comme un étalon mâche ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4d4f5947-c04c-4a21-87e4-aa06f7360be2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1674c",
+      "reference": "Sahih Muslim, hadith 1674 c, book 28, باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "title": "باب الصَّائِلُ عَلَى نَفْسِ الإِنْسَانِ أَوْ عُضْوِهِ إِذَا دَفَعَهُ الْمَصُولُ عَلَيْهِ فَأَتْلَفَ نَفْسَهُ أَوْ عُضْوَهَ لاَ ضَمَانَ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي عَطَاءٌ، أَخْبَرَنِي صَفْوَانُ بْنُ يَعْلَى بْنِ أُمَيَّةَ، عَنْ أَبِيهِ، قَالَ غَزَوْتُ مَعَ النَّبِيِّ صلى الله عليه وسلم غَزْوَةَ تَبُوكَ - قَالَ وَكَانَ يَعْلَى يَقُولُ تِلْكَ الْغَزْوَةُ أَوْثَقُ عَمَلِي عِنْدِي - فَقَالَ عَطَاءٌ قَالَ صَفْوَانُ قَالَ يَعْلَى كَانَ لِي أَجِيرٌ فَقَاتَلَ إِنْسَانًا فَعَضَّ أَحَدُهُمَا يَدَ الآخَرِ - قَالَ لَقَدْ أَخْبَرَنِي صَفْوَانُ أَيُّهُمَا عَضَّ الآخَرَ - فَانْتَزَعَ الْمَعْضُوضُ يَدَهُ مِنْ فِي الْعَاضِّ فَانْتَزَعَ إِحْدَى ثَنِيَّتَيْهِ فَأَتَيَا النَّبِيَّ صلى الله عليه وسلم فَأَهْدَرَ ثَنِيَّتَهُ ‏.‏",
+      "source_hash_sha256": "79b4b398e77a8bb1a98b0b927e94b71ef4fe184737ccc3c8e1ab001fc66e86b2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Abu Usama nous a rapporté : Ibn Jurayj nous a informés : Ata m’a rapporté : Safwan ibn Ya‘la ibn Umayya m’a rapporté, d’après son père : « J’ai participé à l’expédition de Tabuk avec le Prophète ﷺ. Ya‘la disait : “À mes yeux, cette expédition est l’œuvre dont je suis le plus sûr.” » Ata a dit : « Safwan a rapporté que Ya‘la disait : “J’avais un travailleur. Il se battit avec un homme et l’un mordit la main de l’autre.” » Safwan m’a précisé lequel avait mordu l’autre. Celui qui avait été mordu retira sa main de la bouche de celui qui mordait et lui arracha une incisive. Tous deux vinrent auprès du Prophète ﷺ, qui déclara qu’aucune réparation n’était due pour la dent.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "78af383e-7efc-4459-8528-e642ae241952",
+      "reason": "Cette entrée ne donne que la chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
