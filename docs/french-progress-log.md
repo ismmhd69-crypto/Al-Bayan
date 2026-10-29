@@ -10116,3 +10116,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0597 saves four private French drafts about the return from journeys and the Prophet’s stop at Dhu al-Hulayfa. Muslim 1344b and 1345b only refer back to preceding reports and remain blank under Needs Mo. The oversized source remains queued for isolated handling.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1347–1350b
+
+- FR-LIB-HAD-MUSLIM-0598 saves four private French drafts about the pilgrimage announcement before the Farewell Pilgrimage, the merits of the Day of Arafat, and the reward of Hajj and Umrah. Muslim 1349b and 1350b provide only references or partial wording variants and remain blank under Needs Mo. The oversized source remains queued for isolated handling.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
