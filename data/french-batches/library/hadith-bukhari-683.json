@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-BUKHARI-683",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:51:27.659Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0ba9ee0c-eb77-46d0-bc83-42efe6b56123",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3858",
+      "reference": "Sahih al-Bukhari, hadith 3858, book 63, بَاب إِسْلَامُ سَعْدِ بْنِ أَبِي وَقَّاصٍ رَضِيَ اللَّهُ عَنْهُ",
+      "title": "بَاب إِسْلَامُ سَعْدِ بْنِ أَبِي وَقَّاصٍ رَضِيَ اللَّهُ عَنْهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ، أَخْبَرَنَا أَبُو أُسَامَةَ، حَدَّثَنَا هَاشِمٌ، قَالَ سَمِعْتُ سَعِيدَ بْنَ الْمُسَيَّبِ، قَالَ سَمِعْتُ أَبَا إِسْحَاقَ، سَعْدَ بْنَ أَبِي وَقَّاصٍ يَقُولُ مَا أَسْلَمَ أَحَدٌ إِلاَّ فِي الْيَوْمِ الَّذِي أَسْلَمْتُ فِيهِ، وَلَقَدْ مَكَثْتُ سَبْعَةَ أَيَّامٍ وَإِنِّي لَثُلُثُ الإِسْلاَمِ",
+      "source_hash_sha256": "bd9e4c3f1b6cc754390a87d6fb53345310de8d44d93f4b85ab183acfa8434ac8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘d ibn Abî Waqqâs rapporte : « Le jour où j’ai embrassé l’islam, personne d’autre ne l’embrassa ce jour-là. J’ai vécu sept jours en étant le tiers de l’islam. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4ab0b457-70dc-468f-9b36-379e54855580",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3859",
+      "reference": "Sahih al-Bukhari, hadith 3859, book 63, بَابُ ذِكْرُ الْجِنِّ",
+      "title": "بَابُ ذِكْرُ الْجِنِّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا مِسْعَرٌ، عَنْ مَعْنِ بْنِ عَبْدِ الرَّحْمَنِ، قَالَ سَمِعْتُ أَبِي قَالَ، سَأَلْتُ مَسْرُوقًا مَنْ آذَنَ النَّبِيَّ صلى الله عليه وسلم بِالْجِنِّ لَيْلَةَ اسْتَمَعُوا الْقُرْآنَ‏.‏ فَقَالَ حَدَّثَنِي أَبُوكَ ـ يَعْنِي عَبْدَ اللَّهِ ـ أَنَّهُ آذَنَتْ بِهِمْ شَجَرَةٌ‏.‏",
+      "source_hash_sha256": "2c944dcebd4720b209e78039484cb5a9c7c4b3b364254c31f13d43e2c5e738ef",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Masrûq fut interrogé : « Qui informa le Prophète au sujet des djinns, la nuit où ils vinrent écouter le Coran ? » Il répondit : « Ton père — c’est-à-dire ‘Abd Allâh — m’a raconté qu’un arbre l’en informa. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "88ccfc06-be69-450d-93e4-a47612938b60",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3860",
+      "reference": "Sahih al-Bukhari, hadith 3860, book 63, بَابُ ذِكْرُ الْجِنِّ",
+      "title": "بَابُ ذِكْرُ الْجِنِّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا عَمْرُو بْنُ يَحْيَى بْنِ سَعِيدٍ، قَالَ أَخْبَرَنِي جَدِّي، عَنْ أَبِي هُرَيْرَةَ، رضى الله عنه أَنَّهُ كَانَ يَحْمِلُ مَعَ النَّبِيِّ صلى الله عليه وسلم إِدَاوَةً لِوَضُوئِهِ وَحَاجَتِهِ، فَبَيْنَمَا هُوَ يَتْبَعُهُ بِهَا فَقَالَ ‏\"‏ مَنْ هَذَا ‏\"‏‏.‏ فَقَالَ أَنَا أَبُو هُرَيْرَةَ‏.‏ فَقَالَ ‏\"‏ ابْغِنِي أَحْجَارًا أَسْتَنْفِضْ بِهَا، وَلاَ تَأْتِنِي بِعَظْمٍ وَلاَ بِرَوْثَةٍ ‏\"‏‏.‏ فَأَتَيْتُهُ بِأَحْجَارٍ أَحْمِلُهَا فِي طَرَفِ ثَوْبِي حَتَّى وَضَعْتُ إِلَى جَنْبِهِ ثُمَّ انْصَرَفْتُ، حَتَّى إِذَا فَرَغَ مَشَيْتُ، فَقُلْتُ مَا بَالُ الْعَظْمِ وَالرَّوْثَةِ قَالَ ‏\"‏ هُمَا مِنْ طَعَامِ الْجِنِّ، وَإِنَّهُ أَتَانِي وَفْدُ جِنِّ نَصِيبِينَ وَنِعْمَ الْجِنُّ، فَسَأَلُونِي الزَّادَ، فَدَعَوْتُ اللَّهَ لَهُمْ أَنْ لاَ يَمُرُّوا بِعَظْمٍ وَلاَ بِرَوْثَةٍ إِلاَّ وَجَدُوا عَلَيْهَا طَعَامًا ‏\"‏‏.‏",
+      "source_hash_sha256": "d4cc319399c2cb32457efc12e003b4d556ce245c7f6ff4fe5515b4c2c8ed9989",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte qu’il portait pour le Prophète une outre d’eau destinée à ses ablutions et à ses besoins. Un jour, le Prophète lui demanda : « Qui est là ? » Il répondit : « C’est moi, Abû Hurayra. » Le Prophète dit : « Apporte-moi des pierres pour me nettoyer après avoir fait mes besoins, mais n’apporte ni os ni crottin. » Je lui apportai des pierres dans le pan de mon vêtement et les déposai près de lui. Puis je m’éloignai. Quand il eut terminé, je lui demandai : « Pourquoi ne veux-tu ni os ni crottin ? » Il répondit : « Ce sont de la nourriture pour les djinns. Une délégation de djinns de Nasîbîn est venue me voir ; ce sont de bons djinns. Ils m’ont demandé de la nourriture. J’ai invoqué Dieu afin que, chaque fois qu’ils passent près d’un os ou d’un crottin, ils y trouvent de la nourriture. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
