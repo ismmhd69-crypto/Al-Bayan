@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 628,
+    "hadithMuslimDrafted": 629,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6964,
+    "hadithLocalDrafted": 6965,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7665,
+    "hadithLocalRemaining": 7664,
     "hadithNeedsMo": 293,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -43048,6 +43048,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0681",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0681.json",
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "single-item isolated 2,204-character complete source; no Quran quotation; private local draft; source ID and hash preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [

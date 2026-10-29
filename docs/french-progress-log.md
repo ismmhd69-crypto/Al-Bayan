@@ -10531,3 +10531,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0680 saves three private French drafts about a divorced woman harvesting dates and the waiting period for a pregnant widow. Muslim 1485b only gives a variant of a preceding report and remains blank under Needs Mo.
 - All four source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1486a (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0681 saves one private French draft of the complete report about mourning and the waiting period. The 2,204-character source is isolated in a single-item batch; it contains no Quran quotation.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
