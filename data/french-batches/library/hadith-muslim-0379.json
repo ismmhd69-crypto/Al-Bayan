@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0379",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:45:31.662Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "850d07e9-bcc9-4f5c-b485-ae1e8ce88a9b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:892b",
+      "reference": "Sahih Muslim, hadith 892 b, book 8, باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "title": "باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ يَحْيَى، وَأَبُو كُرَيْبٍ جَمِيعًا عَنْ أَبِي مُعَاوِيَةَ، عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ ‏.‏ وَفِيهِ جَارِيَتَانِ تَلْعَبَانِ بِدُفٍّ ‏.‏",
+      "source_hash_sha256": "eecea5c1700b6cfae974a9dda0c29d8b3ebec8213624a96575c0baf5e5010db8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "138e3149-920f-4348-bf87-d5c9f7f091ca",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:892c",
+      "reference": "Sahih Muslim, hadith 892 c, book 8, باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "title": "باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، أَنَّ ابْنَ شِهَابٍ، حَدَّثَهُ عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ أَبَا بَكْرٍ، دَخَلَ عَلَيْهَا وَعِنْدَهَا جَارِيَتَانِ فِي أَيَّامِ مِنًى تُغَنِّيَانِ وَتَضْرِبَانِ وَرَسُولُ اللَّهِ صلى الله عليه وسلم مُسَجًّى بِثَوْبِهِ فَانْتَهَرَهُمَا أَبُو بَكْرٍ فَكَشَفَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْهُ وَقَالَ ‏\"‏ دَعْهُمَا يَا أَبَا بَكْرٍ فَإِنَّهَا أَيَّامُ عِيدٍ ‏\"‏ ‏.‏ وَقَالَتْ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَسْتُرُنِي بِرِدَائِهِ وَأَنَا أَنْظُرُ إِلَى الْحَبَشَةِ وَهُمْ يَلْعَبُونَ وَأَنَا جَارِيَةٌ فَاقْدِرُوا قَدْرَ الْجَارِيَةِ الْعَرِبَةِ الْحَدِيثَةِ السِّنِّ ‏.‏",
+      "source_hash_sha256": "e9a041f690db07207d4b6e058bde4b1a6bea13dfcbd5951d047e880b56e1df0b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli nous a rapporté : Ibn Wahb nous a rapporté : ‘Amr m’a informé qu’Ibn Shihab lui avait rapporté, d’après ‘Urwa, d’après ‘A’isha : Abu Bakr entra chez elle pendant les jours de Mina. Deux jeunes filles chantaient et jouaient, tandis que le Messager d’Allah ﷺ était couvert de son manteau. Abu Bakr les réprimanda. Le Messager d’Allah ﷺ découvrit son visage et dit : « Laisse-les, Abu Bakr, car ce sont des jours de fête. » ‘A’isha dit : « J’ai vu le Messager d’Allah ﷺ me couvrir de son manteau tandis que je regardais les Abyssins jouer. J’étais alors une jeune fille. Estimez ce qu’une jeune fille arabe, encore jeune, peut désirer. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b385277d-5119-4c21-885c-c114d25d67dc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:892d",
+      "reference": "Sahih Muslim, hadith 892 d, book 8, باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "title": "باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنِي ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، بْنِ الزُّبَيْرِ قَالَ قَالَتْ عَائِشَةُ وَاللَّهِ لَقَدْ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُومُ عَلَى بَابِ حُجْرَتِي - وَالْحَبَشَةُ يَلْعَبُونَ بِحِرَابِهِمْ فِي مَسْجِدِ رَسُولِ اللَّهِ صلى الله عليه وسلم - يَسْتُرُنِي بِرِدَائِهِ لِكَىْ أَنْظُرَ إِلَى لَعِبِهِمْ ثُمَّ يَقُومُ مِنْ أَجْلِي حَتَّى أَكُونَ أَنَا الَّتِي أَنْصَرِفُ ‏.‏ فَاقْدُرُوا قَدْرَ الْجَارِيَةِ الْحَدِيثَةِ السِّنِّ حَرِيصَةً عَلَى اللَّهْوِ ‏.‏",
+      "source_hash_sha256": "5c1491c889dcc6bae23e87f5f9bc2c008ae98d66041c314f6d678767d22c6d5f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir nous a rapporté : Ibn Wahb m’a informé : Yunus m’a informé, d’après Ibn Shihab, d’après ‘Urwa ibn al-Zubayr, qui a dit : ‘A’isha dit : « Par Allah, j’ai vu le Messager d’Allah ﷺ se tenir à la porte de ma chambre tandis que des Abyssins jouaient avec leurs lances dans la mosquée du Messager d’Allah ﷺ. Il me couvrait de son manteau afin que je puisse regarder leur jeu. Il restait là pour moi jusqu’à ce que je sois moi-même prête à partir. Estimez ce qu’une jeune fille encore jeune peut apprécier comme divertissement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cd5de71b-e8db-4392-a2d5-a8ffcf36c9ed",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:892e",
+      "reference": "Sahih Muslim, hadith 892 e, book 8, باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "title": "باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، وَيُونُسُ بْنُ عَبْدِ الأَعْلَى، - وَاللَّفْظُ لِهَارُونَ - قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنَا عَمْرٌو، أَنَّ مُحَمَّدَ بْنَ عَبْدِ الرَّحْمَنِ، حَدَّثَهُ عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتْ دَخَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَعِنْدِي جَارِيَتَانِ تُغَنِّيَانِ بِغِنَاءِ بُعَاثٍ فَاضْطَجَعَ عَلَى الْفِرَاشِ وَحَوَّلَ وَجْهَهُ فَدَخَلَ أَبُو بَكْرٍ فَانْتَهَرَنِي وَقَالَ مِزْمَارُ الشَّيْطَانِ عِنْدَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَأَقْبَلَ عَلَيْهِ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ دَعْهُمَا ‏\"‏ فَلَمَّا غَفَلَ غَمَزْتُهُمَا فَخَرَجَتَا وَكَانَ يَوْمَ عِيدٍ يَلْعَبُ السُّودَانُ بِالدَّرَقِ وَالْحِرَابِ فَإِمَّا سَأَلْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم وَإِمَّا قَالَ ‏\"‏ تَشْتَهِينَ تَنْظُرِينَ ‏\"‏ ‏.‏ فَقُلْتُ نَعَمْ فَأَقَامَنِي وَرَاءَهُ خَدِّي عَلَى خَدِّهِ وَهُوَ يَقُولُ ‏\"‏ دُونَكُمْ يَا بَنِي أَرْفَدَةَ ‏\"‏ ‏.‏ حَتَّى إِذَا مَلِلْتُ قَالَ ‏\"‏ حَسْبُكِ ‏\"‏ ‏.‏ قُلْتُ نَعَمْ ‏.‏ قَالَ ‏\"‏ فَاذْهَبِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2940b2b25049083f676dbdf0b4f400f335f83f01ec0e48654f75cdd30e07306a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli et Yunus ibn ‘Abd al-A‘la nous ont rapporté — la formulation est celle de Harun — : Ibn Wahb nous a rapporté : ‘Amr nous a informés que Muhammad ibn ‘Abd al-Rahman lui avait rapporté, d’après ‘Urwa, d’après ‘A’isha, qui a dit : « Le Messager d’Allah ﷺ entra alors que deux jeunes filles chantaient chez moi les chants de Bu‘ath. Il s’allongea sur le lit et détourna son visage. Abu Bakr entra, me réprimanda et dit : “Les flûtes de Satan auprès du Messager d’Allah ﷺ ?” Le Messager d’Allah ﷺ se tourna vers lui et dit : “Laisse-les.” Lorsqu’il fut inattentif, je leur fis signe et elles sortirent. C’était un jour de fête, et les Abyssins jouaient avec des boucliers et des lances. Soit je demandai au Messager d’Allah ﷺ, soit il me dit : “As-tu envie de regarder ?” Je répondis : “Oui.” Il me plaça derrière lui, ma joue contre la sienne, et il disait : “À vous, fils d’Arfida !” Lorsqu’il vit que je me lassais, il dit : “Cela suffit ?” Je répondis : “Oui.” Il dit : “Alors, va.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a59a4798-8553-4db6-9233-fcd11a101a77",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:892f",
+      "reference": "Sahih Muslim, hadith 892 f, book 8, باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "title": "باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ جَاءَ حَبَشٌ يَزْفِنُونَ فِي يَوْمِ عِيدٍ فِي الْمَسْجِدِ فَدَعَانِي النَّبِيُّ صلى الله عليه وسلم فَوَضَعْتُ رَأْسِي عَلَى مَنْكِبِهِ فَجَعَلْتُ أَنْظُرُ إِلَى لَعِبِهِمْ حَتَّى كُنْتُ أَنَا الَّتِي أَنْصَرِفُ عَنِ النَّظَرِ إِلَيْهِمْ.",
+      "source_hash_sha256": "b4c470224cec5fd116e5ee412d748516b3a0e6e02ceb4396e340da2303f8523f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Jarir nous a rapporté, d’après Hisham, d’après son père, d’après ‘A’isha, qui a dit : « Des Abyssins vinrent danser dans la mosquée un jour de fête. Le Prophète ﷺ m’appela. Je posai ma tête sur son épaule et regardai leur jeu jusqu’à ce que je décide moi-même de détourner mon regard. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "df2ef50e-fb9d-491e-a778-250ba9b08ff3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:892g",
+      "reference": "Sahih Muslim, hadith 892 g, book 8, باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "title": "باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا يَحْيَى بْنُ زَكَرِيَّاءَ بْنِ أَبِي زَائِدَةَ، ح وَحَدَّثَنَا ابْنُ، نُمَيْرٍ حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، كِلاَهُمَا عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرَا فِي الْمَسْجِدِ ‏.‏",
+      "source_hash_sha256": "53119207dff14d98d4f7725d6d7bc24c77ba013184962bcfd2cc50665fdc05b6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "850d07e9-bcc9-4f5c-b485-ae1e8ce88a9b",
+      "reason": "La source ne donne qu’une variante de la chaîne et un détail supplémentaire, sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "df2ef50e-fb9d-491e-a778-250ba9b08ff3",
+      "reason": "La source renvoie à une chaîne précédente et indique une omission, sans rapporter à nouveau le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

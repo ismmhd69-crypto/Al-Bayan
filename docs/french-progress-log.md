@@ -9021,3 +9021,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0378 saves four private French drafts about women attending Eid prayers and Eid celebrations. Muslim 891a and 891b quote Quran directly and remain blank under Needs Mo.
 - All five exported source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1500 Muslim drafts, 7836 total hadith drafts, 6793 remaining, and 712 Needs Mo items.
+
+### 2026-10-29: Muslim 892b–892g
+
+- FR-LIB-HAD-MUSLIM-0379 saves four private French drafts about Eid songs and watching the Abyssinians play. Muslim 892b and 892g are incomplete variants and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1504 Muslim drafts, 7840 total hadith drafts, 6789 remaining, and 714 Needs Mo items.
