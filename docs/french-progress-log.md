@@ -1116,3 +1116,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-234` saves one private French draft for Bukhari 1353, preserving the report’s order for the Uhud martyrs’ burial and the instruction not to wash them.
 - The one-record batch passed the focused validator for Arabic hash, ID, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,244 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 63. Total local hadith rows not drafted: 13,385, including held records.
+### 2026-10-29: Bukhari 1354–1355 source review
+
+- `FR-LIB-HAD-BUKHARI-235` saves one private French draft for the combined Bukhari 1354/1355 report. The long report was handled alone and preserves the dialogue with Ibn Sayyad, the Prophet’s concealed word, and the transmitted variants at the end.
+- The one-record batch passed the focused validator for Arabic hash, ID, rights metadata, private unpublished state and long-text handling. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,245 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 63. Total local hadith rows not drafted: 13,384, including held records.

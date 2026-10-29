@@ -2780,6 +2780,20 @@
       "status": "one private local AI draft"
     },
     {
+      "id": "FR-LIB-HAD-BUKHARI-235",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-235.json",
+      "sourceIds": ["8e36e337-de03-4c2e-a0d9-50f3e3815c0f"],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hash, ID, URL, reference, rights, complete chain and single-item long-text rule passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "one private local AI draft"
+    },
+    {
       "id": "FR-LIB-HAD-BUKHARI-203",
       "contentType": "hadith",
       "language": "fr",
