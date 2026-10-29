@@ -7996,3 +7996,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0174 saves two private French drafts about following an imam who prays sitting. Muslim 411c–e and 412b contain only cross-referenced wording variants or summaries, so they remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 713 Muslim drafts, 7,049 total hadith drafts, 7,580 remaining, and 343 Needs Mo items.
+
+### 2026-10-29: Muslim 413b–417
+
+- FR-LIB-HAD-MUSLIM-0175 saves three private French drafts about following the imam in prayer. Muslim 413b is an incomplete cross-reference. Muslim 415a–b quote a fragment of Quran 1:7, so both full French texts remain blank pending an approved, attributed French Quran translation with permitted use. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 716 Muslim drafts, 7,052 total hadith drafts, 7,577 remaining, and 346 Needs Mo items.
