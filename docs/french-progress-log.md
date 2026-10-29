@@ -8246,3 +8246,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0224 saves three private French drafts about speaking during prayer and returning greetings while praying. Muslim 539a remains blank because it contains a direct Quran quotation; 539b and 540d contain only an incomplete cross-reference or variant and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 905 Muslim drafts, 7,241 total hadith drafts, 7,388 remaining, and 435 Needs Mo items.
+
+### 2026-10-29: Muslim 541a–543c
+
+- FR-LIB-HAD-MUSLIM-0225 saves four private French drafts about seeking refuge from Iblis during prayer and the Prophet ﷺ carrying Umama while praying. Muslim 541a remains blank because it quotes a Quranic supplication; 541b contains only a variant note and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 909 Muslim drafts, 7,245 total hadith drafts, 7,384 remaining, and 437 Needs Mo items.
