@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0477",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:32:42.477Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "843ad5f7-ad58-4e31-8189-94f7f88d9127",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1106g",
+      "reference": "Sahih Muslim, hadith 1106 g, book 13, باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "title": "باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا أَبُو عَاصِمٍ، قَالَ سَمِعْتُ ابْنَ عَوْنٍ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، قَالَ انْطَلَقْتُ أَنَا وَمَسْرُوقٌ، إِلَى عَائِشَةَ - رضى الله عنها - فَقُلْنَا لَهَا أَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُبَاشِرُ وَهُوَ صَائِمٌ قَالَتْ نَعَمْ وَلَكِنَّهُ كَانَ أَمْلَكَكُمْ لإِرْبِهِ أَوْ مِنْ أَمْلَكِكُمْ لإِرْبِهِ ‏.‏ شَكَّ أَبُو عَاصِمٍ ‏.‏",
+      "source_hash_sha256": "afebbf66def1bda6a4ca49681f9d5972d3fcc69db7265f7a4f113c86f73ab659",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Abu ‘Asim nous a rapporté : j’ai entendu Ibn ‘Awn rapporter, d’après Ibrahim, d’après al-Aswad, qui a dit : Masruq et moi allâmes chez ‘Aisha, qu’Allah l’agrée, et lui demandâmes : « Le Messager d’Allah ﷺ avait-il des contacts intimes alors qu’il jeûnait ? » Elle répondit : « Oui, mais il maîtrisait ses désirs mieux que vous » — ou : « parmi vous, il était l’un de ceux qui maîtrisaient le mieux leurs désirs. » Abu ‘Asim hésita sur cette formulation.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed641cf5-9442-4201-9af4-762bd210b3ec",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1106h",
+      "reference": "Sahih Muslim, hadith 1106 h, book 13, باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "title": "باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ يَعْقُوبُ الدَّوْرَقِيُّ، حَدَّثَنَا إِسْمَاعِيلُ، عَنِ ابْنِ عَوْنٍ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، وَمَسْرُوقٍ أَنَّهُمَا دَخَلاَ عَلَى أُمِّ الْمُؤْمِنِينَ يَسْأَلاَنِهَا ‏.‏ فَذَكَرَ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "b134cf8087c59382eefcd2919b05893d2e2ab2eca7090342ad603680e183950f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4aa4ec72-ec8f-47c9-81a9-470a242a3bac",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1106i",
+      "reference": "Sahih Muslim, hadith 1106 i, book 13, باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "title": "باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا الْحَسَنُ بْنُ مُوسَى، حَدَّثَنَا شَيْبَانُ، عَنْ يَحْيَى، بْنِ أَبِي كَثِيرٍ عَنْ أَبِي سَلَمَةَ، أَنَّ عُمَرَ بْنَ عَبْدِ الْعَزِيزِ، أَخْبَرَهُ أَنَّ عُرْوَةَ بْنَ الزُّبَيْرِ أَخْبَرَهُ أَنَّ عَائِشَةَ أُمَّ الْمُؤْمِنِينَ - رضى الله عنها - أَخْبَرَتْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يُقَبِّلُهَا وَهُوَ صَائِمٌ ‏.‏",
+      "source_hash_sha256": "13c92d8f6cf146a4b315f552151b77c8144ae18cbb5619651949014ea901651b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : al-Hasan ibn Musa nous a rapporté : Shayban nous a rapporté, d’après Yahya ibn Abi Kathir, d’après Abu Salama : ‘Umar ibn ‘Abd al-‘Aziz lui rapporta qu’‘Urwa ibn al-Zubayr lui avait rapporté que ‘Aisha, mère des croyants, qu’Allah l’agrée, lui avait dit : le Messager d’Allah ﷺ m’embrassait alors qu’il jeûnait.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "823ac360-de7c-446e-8f22-21c0bf30ce8b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1106j",
+      "reference": "Sahih Muslim, hadith 1106 j, book 13, باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "title": "باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ بِشْرٍ الْحَرِيرِيُّ، حَدَّثَنَا مُعَاوِيَةُ، - يَعْنِي ابْنَ سَلاَّمٍ - عَنْ يَحْيَى، بْنِ أَبِي كَثِيرٍ بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "9bdacb467fdfa0323799f09eb0be1d4f4e6143c3f0dc98b893263c6176417eaf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "783dbe54-4276-42c0-8282-7338f000977b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1106k",
+      "reference": "Sahih Muslim, hadith 1106 k, book 13, باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "title": "باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ زِيَادِ بْنِ عِلاَقَةَ، عَنْ عَمْرِو بْنِ مَيْمُونٍ، عَنْ عَائِشَةَ، - رضى الله عنها - قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُقَبِّلُ فِي شَهْرِ الصَّوْمِ ‏.‏",
+      "source_hash_sha256": "4e06db6ff743b38dc6229e5b1f088572f5d6d8f4b473d78153c0d80cbfd1353b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya, Qutayba ibn Sa‘id et Abu Bakr ibn Abi Shayba nous ont rapporté. Yahya a dit : Abu al-Ahwas nous a informés ; les deux autres ont dit : Abu al-Ahwas nous a rapporté, d’après Ziyad ibn ‘Ilaqa, d’après ‘Amr ibn Maymun, d’après ‘Aisha, qu’Allah l’agrée, qui a dit : le Messager d’Allah ﷺ embrassait pendant le mois de jeûne.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "437bafa5-b2ac-4bef-966b-d6740313cee8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1106l",
+      "reference": "Sahih Muslim, hadith 1106 l, book 13, باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "title": "باب بَيَانِ أَنَّ الْقُبْلَةَ فِي الصَّوْمِ لَيْسَتْ مُحَرَّمَةً عَلَى مَنْ لَمْ تُحَرِّكْ شَهْوَتَهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا بَهْزُ بْنُ أَسَدٍ، حَدَّثَنَا أَبُو بَكْرٍ النَّهْشَلِيُّ، حَدَّثَنَا زِيَادُ، بْنُ عِلاَقَةَ عَنْ عَمْرِو بْنِ مَيْمُونٍ، عَنْ عَائِشَةَ، رضى الله عنها قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُقَبِّلُ فِي رَمَضَانَ وَهُوَ صَائِمٌ ‏.‏",
+      "source_hash_sha256": "442c5f06b5b48dfa91f782946473d4c8fc4e45d0278976d080521461d793cf6b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim m’a rapporté : Bahz ibn Asad nous a rapporté : Abu Bakr al-Nahshali nous a rapporté : Ziyad ibn ‘Ilaqa nous a rapporté, d’après ‘Amr ibn Maymun, d’après ‘Aisha, qu’Allah l’agrée, qui a dit : le Messager d’Allah ﷺ m’embrassait pendant le Ramadan alors qu’il jeûnait.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ed641cf5-9442-4201-9af4-762bd210b3ec",
+      "reason": "La source renvoie au rapport précédent et ne reproduit que son contenu de manière sommaire. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    },
+    {
+      "source_id": "823ac360-de7c-446e-8f22-21c0bf30ce8b",
+      "reason": "La source renvoie au rapport précédent et ne reproduit que son contenu de manière sommaire. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    }
+  ]
+}
