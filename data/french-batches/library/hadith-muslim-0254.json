@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0254",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:50:04.348Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "15d96221-079f-450f-86ee-ab2b5d57da9e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:605c",
+      "reference": "Sahih Muslim, hadith 605 c, book 5, باب مَتَى يَقُومُ النَّاسُ لِلصَّلاَةِ ‏",
+      "title": "باب مَتَى يَقُومُ النَّاسُ لِلصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، عَنِ الأَوْزَاعِيِّ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ الصَّلاَةَ، كَانَتْ تُقَامُ لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَيَأْخُذُ النَّاسُ مَصَافَّهُمْ قَبْلَ أَنْ يَقُومَ النَّبِيُّ صلى الله عليه وسلم مَقَامَهُ ‏.‏",
+      "source_hash_sha256": "5d63dbbe322f2e11ec908969a33404ce048f9ee8311866c7bba19f8e494738bd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibrahim ibn Musa nous a rapporté : al-Walid ibn Muslim nous a informés, d’après al-Awza‘i, d’après al-Zuhri, qui dit : Abu Salama m’a rapporté, d’après Abu Hurayra, que l’appel à la prière était lancé pour le Messager d’Allah ﷺ. Les gens prenaient alors place dans leurs rangs avant même que le Prophète ﷺ ne se tienne à sa place.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "afa1a856-c0a0-4205-875d-e82c0d681624",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:606",
+      "reference": "Sahih Muslim, hadith 606, book 5, باب مَتَى يَقُومُ النَّاسُ لِلصَّلاَةِ ‏",
+      "title": "باب مَتَى يَقُومُ النَّاسُ لِلصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا الْحَسَنُ بْنُ أَعْيَنَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا سِمَاكُ بْنُ حَرْبٍ، عَنْ جَابِرِ بْنِ سَمُرَةَ، قَالَ كَانَ بِلاَلٌ يُؤَذِّنُ إِذَا دَحَضَتْ فَلاَ يُقِيمُ حَتَّى يَخْرُجَ النَّبِيُّ صلى الله عليه وسلم فَإِذَا خَرَجَ أَقَامَ الصَّلاَةَ حِينَ يَرَاهُ ‏.‏",
+      "source_hash_sha256": "a7adad4dd39cddb8de4bb1b5388e2846079d5c1d0efb0b3921f5807e2a23d8ee",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Salama ibn Shabib nous a rapporté : al-Hasan ibn A‘yan nous a rapporté : Zuhayr nous a rapporté : Simak ibn Harb nous a rapporté, d’après Jabir ibn Samura, qui dit : « Bilal lançait l’appel à la prière lorsque le soleil avait décliné. Il n’en faisait pas le second appel avant que le Prophète ﷺ ne sorte. Lorsqu’il le voyait, il lançait le second appel. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "818d076d-0882-4a01-b2ec-ab8d1d3f34bf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:607a",
+      "reference": "Sahih Muslim, hadith 607 a, book 5, باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ تِلْكَ الصَّلاَةَ ‏",
+      "title": "باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ تِلْكَ الصَّلاَةَ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ الصَّلاَةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3c4f1670886e0fcf3b3898be46bbfc6c6bbf4c3e7086cac876fe82e9441fb225",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu à Malik, d’après Ibn Shihab, d’après Abu Salama ibn Abd al-Rahman, d’après Abu Hurayra, que le Prophète ﷺ a dit : « Celui qui accomplit une unité de prière a accompli la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5eda1b7c-3500-4614-8eb4-5e336bf03e77",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:607b",
+      "reference": "Sahih Muslim, hadith 607 b, book 5, باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ تِلْكَ الصَّلاَةَ ‏",
+      "title": "باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ تِلْكَ الصَّلاَةَ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ مَعَ الإِمَامِ فَقَدْ أَدْرَكَ الصَّلاَةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f21a65dc783cf36cf165b6e4d228258fb06ab5bda57c2a34f1fd9e93449f27c6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya nous a rapporté : Ibn Wahb nous a informés : Yunus m’a rapporté, d’après Ibn Shihab, d’après Abu Salama ibn Abd al-Rahman, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Celui qui accomplit une unité de prière avec l’imam a accompli la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e9c03039-f201-4ae9-8962-b48b04a4ef6f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:607c",
+      "reference": "Sahih Muslim, hadith 607 c, book 5, باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ تِلْكَ الصَّلاَةَ ‏",
+      "title": "باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ تِلْكَ الصَّلاَةَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالُوا حَدَّثَنَا ابْنُ عُيَيْنَةَ، ح قَالَ وَحَدَّثَنَا أَبُو كُرَيْبٍ، أَخْبَرَنَا ابْنُ الْمُبَارَكِ، عَنْ مَعْمَرٍ، وَالأَوْزَاعِيِّ، وَمَالِكِ بْنِ أَنَسٍ، وَيُونُسَ، ح قَالَ وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي ح، قَالَ وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الْوَهَّابِ، جَمِيعًا عَنْ عُبَيْدِ اللَّهِ، كُلُّ هَؤُلاَءِ عَنِ الزُّهْرِيِّ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ حَدِيثِ يَحْيَى عَنْ مَالِكٍ وَلَيْسَ فِي حَدِيثِ أَحَدٍ مِنْهُمْ ‏\"‏ مَعَ الإِمَامِ ‏\"‏ ‏.‏ وَفِي حَدِيثِ عُبَيْدِ اللَّهِ قَالَ ‏\"‏ فَقَدْ أَدْرَكَ الصَّلاَةَ كُلَّهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c3f48f79bf610d2896c00c81aacf866805c9d00b983b7f54bed3b6de2e35f282",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c074e788-9df0-4f05-bb5c-0f99ffe5c905",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:608a",
+      "reference": "Sahih Muslim, hadith 608 a, book 5, باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ تِلْكَ الصَّلاَةَ ‏",
+      "title": "باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الصَّلاَةِ فَقَدْ أَدْرَكَ تِلْكَ الصَّلاَةَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، وَعَنْ بُسْرِ بْنِ سَعِيدٍ، وَعَنِ الأَعْرَجِ، حَدَّثُوهُ عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ أَدْرَكَ رَكْعَةً مِنَ الصُّبْحِ قَبْلَ أَنْ تَطْلُعَ الشَّمْسُ فَقَدْ أَدْرَكَ الصُّبْحَ وَمَنْ أَدْرَكَ رَكْعَةً مِنَ الْعَصْرِ قَبْلَ أَنْ تَغْرُبَ الشَّمْسُ فَقَدْ أَدْرَكَ الْعَصْرَ ‏\"‏ ‏.",
+      "source_hash_sha256": "41ea2edca275887bb9a18dd5812221a51b37d4c557e5f5f0a3f21b36292dfa45",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu à Malik, d’après Zayd ibn Aslam, d’après Ata ibn Yasar et Busri ibn Sa‘id, ainsi que d’après al-A‘raj, qui rapportèrent tous d’après Abu Hurayra que le Messager d’Allah ﷺ a dit : « Celui qui accomplit une unité de la prière du matin avant le lever du soleil a accompli la prière du matin. Et celui qui accomplit une unité de la prière de l’asr avant le coucher du soleil a accompli la prière de l’asr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e9c03039-f201-4ae9-8962-b48b04a4ef6f",
+      "reason": "La source ne répète pas le texte du hadith et renvoie à la version de Yahya d’après Malik, en signalant seulement des variantes de formulation. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ]
+}
