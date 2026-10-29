@@ -9056,3 +9056,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0385 saves five private French drafts about the eclipse prayer and the remembrance of the trial of the grave. Muslim 902b is an incomplete cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1525 Muslim drafts, 7861 total hadith drafts, 6768 remaining, and 723 Needs Mo items.
+
+### 2026-10-29: Muslim 903b–904a
+
+- FR-LIB-HAD-MUSLIM-0386 saves one private French draft about the eclipse prayer and what the Prophet ﷺ was shown. Muslim 903b only summarizes a previous report and remains blank under Needs Mo.
+- Both source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1526 Muslim drafts, 7862 total hadith drafts, 6767 remaining, and 724 Needs Mo items.
