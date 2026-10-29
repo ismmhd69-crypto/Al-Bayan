@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-BUKHARI-617",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:19:07.583Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f307d88c-2962-4e1a-be1e-2ed9d2eb9410",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3523",
+      "reference": "Sahih al-Bukhari, hadith 3523, book 61, باب قِصَّةِ زَمْزَمَ",
+      "title": "باب قِصَّةِ زَمْزَمَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادٌ، عَنْ أَيُّوبَ، عَنْ مُحَمَّدٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ أَسْلَمُ وَغِفَارُ وَشَىْءٌ مِنْ مُزَيْنَةَ وَجُهَيْنَةَ ـ أَوْ قَالَ شَىْءٌ مِنْ جُهَيْنَةَ أَوْ مُزَيْنَةَ ـ خَيْرٌ عِنْدَ اللَّهِ ـ أَوْ قَالَ ـ يَوْمَ الْقِيَامَةِ مِنْ أَسَدٍ وَتَمِيمٍ وَهَوَازِنَ وَغَطَفَانَ‏.‏",
+      "source_hash_sha256": "db09fd6d36d7f8a920243f8d4f9fba0c90a10abdad87a0d355b8a72e6e8ac184",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte qu’il fut dit : « Aslam, Ghifâr et une partie de Muzayna et de Juhayna — ou, selon une autre version, une partie de Juhayna ou de Muzayna — sont meilleurs auprès de Dieu, ou meilleurs au Jour de la Résurrection, que Asad, Tamîm, Hawâzin et Ghatafân. » Le narrateur hésitait sur la formulation.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "020f6e45-de8a-4c94-b9a4-b8daef2bde27",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3524",
+      "reference": "Sahih al-Bukhari, hadith 3524, book 61, باب قِصَّةِ زَمْزَمَ وَجَهْلِ الْعَرَبِ",
+      "title": "باب قِصَّةِ زَمْزَمَ وَجَهْلِ الْعَرَبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو النُّعْمَانِ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ إِذَا سَرَّكَ أَنْ تَعْلَمَ جَهْلَ الْعَرَبِ فَاقْرَأْ مَا فَوْقَ الثَّلاَثِينَ وَمِائَةٍ فِي سُورَةِ الأَنْعَامِ ‏[quran sura=\"6\" aya_start=\"140\" aya_end=\"140\"]{‏قَدْ خَسِرَ الَّذِينَ قَتَلُوا أَوْلاَدَهُمْ سَفَهًا بِغَيْرِ عِلْمٍ‏}‏ إِلَى قَوْلِهِ ‏[quran sura=\"6\" aya_start=\"140\" aya_end=\"140\"]{‏قَدْ ضَلُّوا وَمَا كَانُوا مُهْتَدِينَ‏}‏‏.‏",
+      "source_hash_sha256": "f045d101d010220fc1e9535bdd5f2ba08c05fa62d17b1837b8793b6ff9dbdc21",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c392fc9-ae3a-4a97-910f-db8c85d9e804",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3525",
+      "reference": "Sahih al-Bukhari, hadith 3525, book 61, باب مَنِ انْتَسَبَ إِلَى آبَائِهِ فِي الإِسْلاَمِ وَالْجَاهِلِيَّةِ‏",
+      "title": "باب مَنِ انْتَسَبَ إِلَى آبَائِهِ فِي الإِسْلاَمِ وَالْجَاهِلِيَّةِ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، حَدَّثَنَا عَمْرُو بْنُ مُرَّةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ لَمَّا نَزَلَتْ ‏[quran sura=\"26\" aya_start=\"214\" aya_end=\"214\"]{‏وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ‏}‏ جَعَلَ النَّبِيُّ صلى الله عليه وسلم يُنَادِي ‏\"‏ يَا بَنِي فِهْرٍ، يَا بَنِي عَدِيٍّ لِبُطُونِ قُرَيْشٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "ff841eaac38a826e5bd415a8280d7591de76422748b4ca35a4e967f9bc726da3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "68368da9-6100-43f2-a70c-c953c5e8cf68",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3526",
+      "reference": "Sahih al-Bukhari, hadith 3526, book 61, باب مَنِ انْتَسَبَ إِلَى آبَائِهِ فِي الإِسْلاَمِ وَالْجَاهِلِيَّةِ‏",
+      "title": "باب مَنِ انْتَسَبَ إِلَى آبَائِهِ فِي الإِسْلاَمِ وَالْجَاهِلِيَّةِ‏",
+      "source_published": true,
+      "text_original": "وَقَالَ لَنَا قَبِيصَةُ أَخْبَرَنَا سُفْيَانُ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ لَمَّا نَزَلَتْ ‏[quran sura=\"26\" aya_start=\"214\" aya_end=\"214\"]{‏وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ‏}‏ جَعَلَ النَّبِيُّ صلى الله عليه وسلم يَدْعُوهُمْ قَبَائِلَ قَبَائِلَ‏.‏",
+      "source_hash_sha256": "6c2cf8ccdfe5b9d08ec2fddeda6efee1863a2dec4990b7c0a0b5e34e07fd98d6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "991b532d-c147-42b1-8442-1fff0859a279",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3527",
+      "reference": "Sahih al-Bukhari, hadith 3527, book 61, باب مَنِ انْتَسَبَ إِلَى آبَائِهِ فِي الإِسْلاَمِ وَالْجَاهِلِيَّةِ‏",
+      "title": "باب مَنِ انْتَسَبَ إِلَى آبَائِهِ فِي الإِسْلاَمِ وَالْجَاهِلِيَّةِ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، أَخْبَرَنَا أَبُو الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ يَا بَنِي عَبْدِ مَنَافٍ، اشْتَرُوا أَنْفُسَكُمْ مِنَ اللَّهِ، يَا بَنِي عَبْدِ الْمُطَّلِبِ اشْتَرُوا أَنْفُسَكُمْ مِنَ اللَّهِ، يَا أُمَّ الزُّبَيْرِ بْنِ الْعَوَّامِ عَمَّةَ رَسُولِ اللَّهِ، يَا فَاطِمَةُ بِنْتَ مُحَمَّدٍ، اشْتَرِيَا أَنْفُسَكُمَا مِنَ اللَّهِ، لاَ أَمْلِكُ لَكُمَا مِنَ اللَّهِ شَيْئًا، سَلاَنِي مِنْ مَالِي مَا شِئْتُمَا ‏\"‏‏.‏",
+      "source_hash_sha256": "c000a242e87edbda204f4fb142a32b8e50a2330425334f9c350ec1cd14a49e47",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète a dit : « Ô Banû ‘Abd Manâf, cherchez à vous racheter auprès de Dieu ! Ô Banû ‘Abd al-Muttalib, cherchez à vous racheter auprès de Dieu ! Ô Umm al-Zubayr ibn al-‘Awwâm, tante du Messager de Dieu, et toi, Fâtima, fille de Muhammad, cherchez à vous racheter auprès de Dieu ! Je ne peux rien pour vous auprès de Dieu. Demandez-moi ce que vous voulez de mes biens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "df225f42-d273-48bd-8680-ef55d92a0ec3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3528",
+      "reference": "Sahih al-Bukhari, hadith 3528, book 61, باب ابْنُ أُخْتِ الْقَوْمِ وَمَوْلَى الْقَوْمِ مِنْهُمْ",
+      "title": "باب ابْنُ أُخْتِ الْقَوْمِ وَمَوْلَى الْقَوْمِ مِنْهُمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ دَعَا النَّبِيُّ صلى الله عليه وسلم الأَنْصَارَ فَقَالَ ‏\"‏ هَلْ فِيكُمْ أَحَدٌ مِنْ غَيْرِكُمْ ‏\"‏‏.‏ قَالُوا لاَ، إِلاَّ ابْنُ أُخْتٍ لَنَا‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ ابْنُ أُخْتِ الْقَوْمِ مِنْهُمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "5f81af9b561a301e046323b55f717b0f045468715a4e40264f372ab3be493c3f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète appela les Ansâr et leur demanda : « Y a-t-il parmi vous quelqu’un qui ne soit pas des vôtres ? » Ils répondirent : « Non, sauf le fils de notre sœur. » Le Messager de Dieu dit : « Le fils de la sœur d’un peuple fait partie de ce peuple. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "020f6e45-de8a-4c94-b9a4-b8daef2bde27",
+      "reference": "Sahih al-Bukhari, hadith 3524",
+      "reason": "This report directly quotes Quran 6:140. Keep the entire French text blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "7c392fc9-ae3a-4a97-910f-db8c85d9e804",
+      "reference": "Sahih al-Bukhari, hadith 3525",
+      "reason": "This report directly quotes Quran 26:214. Keep the entire French text blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "68368da9-6100-43f2-a70c-c953c5e8cf68",
+      "reference": "Sahih al-Bukhari, hadith 3526",
+      "reason": "This report directly quotes Quran 26:214. Keep the entire French text blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}

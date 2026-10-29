@@ -2996,3 +2996,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-616` saves one private French draft with the full account of Abû Dharr’s conversion.
 - The long-source record passed the focused single-item validator for Arabic hashes, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,143 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 11,514, including held records.
+
+### 2026-10-29: Bukhari 3523–3528
+
+- `FR-LIB-HAD-BUKHARI-617` saves three private French drafts about tribal affiliation and responsibility. Bukhari 3524, 3525, and 3526 remain entirely blank because they directly quote Quran 6:140 and 26:214; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the three Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,146 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 228. Total local hadith rows not drafted: 11,511, including held records.
