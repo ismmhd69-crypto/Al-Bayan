@@ -36323,6 +36323,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0353",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0353.json",
+      "sourceIds": [
+        "22a702dd-c4f2-4c68-8021-c857e101e837",
+        "f6547dc4-fb76-4f29-a01f-f754b6cc8e69",
+        "879816a3-5b57-40d6-8e2f-81406dbb63bd",
+        "226c090d-5856-4928-a361-c59a17af06d9",
+        "e66cba57-7cf4-4b0c-ae42-eb42ab4b093b",
+        "d92886c6-3e28-4f6b-8ffc-3263eeeeaca6"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40630,8 +40651,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7735,
-  "hadithLocalRemaining": 6894,
+  "hadithLocalDrafted": 7740,
+  "hadithLocalRemaining": 6889,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43200,10 +43221,16 @@
       "scope": "Sahih Muslim 824D: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source renvoie au récit antérieur sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0353-826B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 826b: incomplete variant-only report",
+      "status": "blocked",
+      "reason": "La source donne seulement une variante de chaîne et une précision sur le moment où le soleil se lève, sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1399,
+  "hadithMuslimDrafted": 1404,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 664
+  "hadithNeedsMo": 665
 }

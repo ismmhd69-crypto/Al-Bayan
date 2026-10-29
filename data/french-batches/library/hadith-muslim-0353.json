@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0353",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:32:37.309Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "22a702dd-c4f2-4c68-8021-c857e101e837",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:826a",
+      "reference": "Sahih Muslim, hadith 826 a, book 6, باب الأَوْقَاتِ الَّتِي نُهِيَ عَنِ الصَّلاَةِ، فِيهَا ‏.‏",
+      "title": "باب الأَوْقَاتِ الَّتِي نُهِيَ عَنِ الصَّلاَةِ، فِيهَا ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا دَاوُدُ بْنُ رُشَيْدٍ، وَإِسْمَاعِيلُ بْنُ سَالِمٍ، جَمِيعًا عَنْ هُشَيْمٍ، - قَالَ دَاوُدُ حَدَّثَنَا هُشَيْمٌ، - أَخْبَرَنَا مَنْصُورٌ، عَنْ قَتَادَةَ، قَالَ أَخْبَرَنَا أَبُو الْعَالِيَةِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ سَمِعْتُ غَيْرَ، وَاحِدٍ، مِنْ أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم مِنْهُمْ عُمَرُ بْنُ الْخَطَّابِ وَكَانَ أَحَبَّهُمْ إِلَىَّ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الصَّلاَةِ بَعْدَ الْفَجْرِ حَتَّى تَطْلُعَ الشَّمْسُ وَبَعْدَ الْعَصْرِ حَتَّى تَغْرُبَ الشَّمْسُ ‏.‏",
+      "source_hash_sha256": "9d10f0aaacc9ad56b84e80d847b194e2cc4c9feafc9d089ed66c366a5e30d86a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Dawud ibn Rushayd et Isma‘il ibn Salim nous ont rapporté, tous deux d’après Hushaym. Dawud a dit : Hushaym nous a rapporté : Mansur nous a informé, d’après Qatada, qui dit : Abu al-‘Aliya nous a rapporté, d’après Ibn ‘Abbas. Il dit : J’ai entendu plusieurs Compagnons du Messager d’Allah ﷺ, parmi lesquels ‘Umar ibn al-Khattab, qui m’était le plus cher, rapporter que le Messager d’Allah ﷺ avait interdit la prière après l’aube jusqu’au lever du soleil et après la prière de l’après-midi jusqu’au coucher du soleil.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f6547dc4-fb76-4f29-a01f-f754b6cc8e69",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:826b",
+      "reference": "Sahih Muslim, hadith 826 b, book 6, باب الأَوْقَاتِ الَّتِي نُهِيَ عَنِ الصَّلاَةِ، فِيهَا ‏.‏",
+      "title": "باب الأَوْقَاتِ الَّتِي نُهِيَ عَنِ الصَّلاَةِ، فِيهَا ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ شُعْبَةَ، ح وَحَدَّثَنِي أَبُو غَسَّانَ، الْمِسْمَعِيُّ حَدَّثَنَا عَبْدُ الأَعْلَى، حَدَّثَنَا سَعِيدٌ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا مُعَاذُ، بْنُ هِشَامٍ حَدَّثَنِي أَبِي كُلُّهُمْ، عَنْ قَتَادَةَ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّ فِي، حَدِيثِ سَعِيدٍ وَهِشَامٍ بَعْدَ الصُّبْحِ حَتَّى تَشْرُقَ الشَّمْسُ ‏.‏",
+      "source_hash_sha256": "ddc282ec7513dc350d2f73bb0602a272d2e927ca23869e7f28082c6ef9b4c162",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "879816a3-5b57-40d6-8e2f-81406dbb63bd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:827",
+      "reference": "Sahih Muslim, hadith 827, book 6, باب الأَوْقَاتِ الَّتِي نُهِيَ عَنِ الصَّلاَةِ، فِيهَا ‏.‏",
+      "title": "باب الأَوْقَاتِ الَّتِي نُهِيَ عَنِ الصَّلاَةِ، فِيهَا ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، أَنَّ ابْنَ شِهَابٍ، أَخْبَرَهُ قَالَ أَخْبَرَنِي عَطَاءُ بْنُ يَزِيدَ اللَّيْثِيُّ، أَنَّهُ سَمِعَ أَبَا سَعِيدٍ الْخُدْرِيَّ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ صَلاَةَ بَعْدَ صَلاَةِ الْعَصْرِ حَتَّى تَغْرُبَ الشَّمْسُ وَلاَ صَلاَةَ بَعْدَ صَلاَةِ الْفَجْرِ حَتَّى تَطْلُعَ الشَّمْسُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0f9a115638d6ff3634a602e49704aba73628d9c143afc38e41491da5842b3453",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya nous a rapporté : Ibn Wahb nous a informé : Yunus m’a informé qu’Ibn Shihab l’avait informé. Il dit : ‘Ata ibn Yazid al-Laythi m’a informé qu’il avait entendu Abu Sa‘id al-Khudri dire que le Messager d’Allah ﷺ a dit : « Il n’y a pas de prière après la prière de l’après-midi jusqu’au coucher du soleil, ni après la prière de l’aube jusqu’au lever du soleil. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "226c090d-5856-4928-a361-c59a17af06d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:827b",
+      "reference": "Sahih Muslim, hadith 827 b, book 13, باب النَّهْىِ عَنْ صَوْمِ، يَوْمِ الْفِطْرِ وَيَوْمِ الأَضْحَى ‏‏",
+      "title": "باب النَّهْىِ عَنْ صَوْمِ، يَوْمِ الْفِطْرِ وَيَوْمِ الأَضْحَى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عَبْدِ الْمَلِكِ، - وَهُوَ ابْنُ عُمَيْرٍ - عَنْ قَزَعَةَ، عَنْ أَبِي سَعِيدٍ، - رضى الله عنه - قَالَ سَمِعْتُ مِنْهُ، حَدِيثًا فَأَعْجَبَنِي فَقُلْتُ لَهُ آنْتَ سَمِعْتَ هَذَا، مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ فَأَقُولُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مَا لَمْ أَسْمَعْ قَالَ سَمِعْتُهُ يَقُولُ ‏\"‏ لاَ يَصْلُحُ الصِّيَامُ فِي يَوْمَيْنِ يَوْمِ الأَضْحَى وَيَوْمِ الْفِطْرِ مِنْ رَمَضَانَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "75bd30a585c5abb677d20388a62bb68eb64b019f34fface2a67883bc2d3b6293",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Jarir nous a rapporté, d’après ‘Abd al-Malik — c’est-à-dire Ibn ‘Umayr —, d’après Qaza‘a, d’après Abu Sa‘id — qu’Allah l’agrée. Il dit : J’ai entendu un récit de lui qui m’a plu. Je lui demandai : « L’as-tu entendu du Messager d’Allah ﷺ ? » Il répondit : « Irais-je attribuer au Messager d’Allah ﷺ des paroles que je n’ai pas entendues ? » Il dit : Je l’ai entendu dire : « Le jeûne n’est pas valable lors de deux jours : le jour du sacrifice et le jour de la rupture du jeûne de Ramadan. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e66cba57-7cf4-4b0c-ae42-eb42ab4b093b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:827c",
+      "reference": "Sahih Muslim, hadith 827 c, book 13, باب النَّهْىِ عَنْ صَوْمِ، يَوْمِ الْفِطْرِ وَيَوْمِ الأَضْحَى ‏‏",
+      "title": "باب النَّهْىِ عَنْ صَوْمِ، يَوْمِ الْفِطْرِ وَيَوْمِ الأَضْحَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ الْمُخْتَارِ، حَدَّثَنَا عَمْرُو بْنُ يَحْيَى، عَنْ أَبِيهِ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، - رضى الله عنه - أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْ صِيَامِ يَوْمَيْنِ يَوْمِ الْفِطْرِ وَيَوْمِ النَّحْرِ ‏.‏",
+      "source_hash_sha256": "7e8f6812e60285d29fc1ed3b11164b4a492f98259125becb49e2ed572f084584",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kamil al-Jahdari nous a rapporté : ‘Abd al-‘Aziz ibn al-Mukhtar nous a rapporté : ‘Amr ibn Yahya nous a rapporté, d’après son père, d’après Abu Sa‘id al-Khudri — qu’Allah l’agrée —, que le Messager d’Allah ﷺ a interdit de jeûner deux jours : le jour de la rupture du jeûne et le jour du sacrifice.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d92886c6-3e28-4f6b-8ffc-3263eeeeaca6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:827d",
+      "reference": "Sahih Muslim, hadith 827 d, book 15, باب سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى حَجٍّ وَغَيْرِهِ ‏‏",
+      "title": "باب سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى حَجٍّ وَغَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَعُثْمَانُ بْنُ أَبِي شَيْبَةَ، جَمِيعًا عَنْ جَرِيرٍ، - قَالَ قُتَيْبَةُ حَدَّثَنَا جَرِيرٌ، عَنْ عَبْدِ الْمَلِكِ، - وَهُوَ ابْنُ عُمَيْرٍ - عَنْ قَزَعَةَ، عَنْ أَبِي سَعِيدٍ، قَالَ سَمِعْتُ مِنْهُ، حَدِيثًا فَأَعْجَبَنِي فَقُلْتُ لَهُ أَنْتَ سَمِعْتَ هَذَا، مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ فَأَقُولُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مَا لَمْ أَسْمَعْ قَالَ سَمِعْتُهُ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تَشُدُّوا الرِّحَالَ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ مَسْجِدِي هَذَا وَالْمَسْجِدِ الْحَرَامِ وَالْمَسْجِدِ الأَقْصَى ‏\"‏ ‏.‏ وَسَمِعْتُهُ يَقُولُ ‏\"‏ لاَ تُسَافِرِ الْمَرْأَةُ يَوْمَيْنِ مِنَ الدَّهْرِ إِلاَّ وَمَعَهَا ذُو مَحْرَمٍ مِنْهَا أَوْ زَوْجُهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "238af3814ab2c1c15ea4ef3689229949c5d3a610383bfe927ad3780488703070",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id et ‘Uthman ibn Abi Shayba nous ont rapporté, tous deux d’après Jarir. Qutayba a dit : Jarir nous a rapporté, d’après ‘Abd al-Malik — c’est-à-dire Ibn ‘Umayr —, d’après Qaza‘a, d’après Abu Sa‘id. Il dit : J’ai entendu un récit de lui qui m’a plu. Je lui demandai : « L’as-tu entendu du Messager d’Allah ﷺ ? » Il répondit : « Irais-je attribuer au Messager d’Allah ﷺ des paroles que je n’ai pas entendues ? » Il dit : Je l’ai entendu dire : « On ne se met en voyage rituel que vers trois mosquées : ma mosquée-ci, la Mosquée sacrée et la mosquée al-Aqsa. » Je l’ai aussi entendu dire : « Une femme ne voyage pas deux jours durant sans être accompagnée de son mari ou d’un proche parent avec lequel le mariage lui est interdit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f6547dc4-fb76-4f29-a01f-f754b6cc8e69",
+      "reason": "La source donne seulement une variante de chaîne et une précision sur le moment où le soleil se lève, sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
