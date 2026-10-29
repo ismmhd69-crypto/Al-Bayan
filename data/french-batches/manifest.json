@@ -14430,6 +14430,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+{
+      "id": "FR-LIB-HAD-BUKHARI-652",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-652.json",
+      "sourceIds": [
+        "23f32634-f5fd-4033-95cd-a4cd4afc889d",
+        "4f3e5401-b560-4136-82b6-868fc3f5d061",
+        "0756bfe5-a940-40ad-b3e5-fcfd9a095ffe",
+        "2cc58193-2de8-400e-b7d4-3d4597fb8b2e",
+        "d41fe9e5-2218-4cfc-8363-33936802be7d",
+        "cc448db7-ae7b-4a8d-a27c-d2b9f2f2ef34"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata, five private drafts and one source-wording hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -14535,8 +14556,14 @@
       "scope": "Sahih al-Bukhari 3600: term رُعَامَهَا",
       "status": "blocked",
       "reason": "The exact referent of رُعَامَهَا is not confirmed from the local Arabic record. The full report remains blank in FR-LIB-HAD-BUKHARI-632 until the term can be checked."
-    }  ],
-  "hadithBukhariDrafted": 3282,
-  "hadithLocalDrafted": 3282,
-  "hadithLocalRemaining": 11375
+    },
+{
+    "id": "HADITH-BUKHARI-3689-SOURCE-WORDING",
+    "scope": "Sahih al-Bukhari 3689: appended phrase من نبي ولا محدث",
+    "status": "blocked",
+    "reason": "The local record appends this incomplete phrase after the report without enough context to establish its intended meaning or attribution. The full record remains blank in FR-LIB-HAD-BUKHARI-652 pending confirmation."
+  }  ],
+  "hadithBukhariDrafted": 3287,
+  "hadithLocalDrafted": 3287,
+  "hadithLocalRemaining": 11370
 }
