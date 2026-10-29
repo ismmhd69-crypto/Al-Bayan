@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-BUKHARI-709",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:07:38.012Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a94a25f6-82f2-4541-9e43-ad3bafae7eae",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3963",
+      "reference": "Sahih al-Bukhari, hadith 3963, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ سُلَيْمَانَ التَّيْمِيِّ، عَنْ أَنَسٍ، رضى الله عنه قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم يَوْمَ بَدْرٍ ‏\"‏ مَنْ يَنْظُرُ مَا فَعَلَ أَبُو جَهْلٍ ‏\"‏‏.‏ فَانْطَلَقَ ابْنُ مَسْعُودٍ، فَوَجَدَهُ قَدْ ضَرَبَهُ ابْنَا عَفْرَاءَ حَتَّى بَرَدَ، فَأَخَذَ بِلِحْيَتِهِ فَقَالَ أَنْتَ أَبَا جَهْلٍ قَالَ وَهَلْ فَوْقَ رَجُلٍ قَتَلَهُ قَوْمُهُ أَوْ قَالَ قَتَلْتُمُوهُ‏.",
+      "source_hash_sha256": "70d4200a91d0dc96eb1d7c9737f92e4f63b1a9a885de0797c2bf237ab47b9af1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Prophète dit le jour de Badr : « Qui ira voir ce qu’est devenu Abû Jahl ? » Ibn Masʿûd partit et le trouva, frappé mortellement par les deux fils de ʿAfrâ’. Il le saisit par la barbe et lui demanda : « Es-tu Abû Jahl ? » Il répondit : « Quel homme pourrait être plus important qu’un homme tué par les siens — ou, dit-il, que vous avez tué ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5c074a64-9b35-4a8b-ad6e-77761aa4176f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3963b",
+      "reference": "Sahih al-Bukhari, hadith 3963b, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي ابْنُ الْمُثَنَّى، أَخْبَرَنَا مُعَاذُ بْنُ مُعَاذٍ، حَدَّثَنَا سُلَيْمَانُ، أَخْبَرَنَا أَنَسُ بْنُ مَالِكٍ، نَحْوَهُ‏.‏",
+      "source_hash_sha256": "61bf01793ac5250940c15ecb6f7fbbc5a8c7c6cd5883dfee6cd1403e48bb2cf5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn al-Muthannâ rapporte d’après Anas ibn Mâlik, dans une version semblable.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b6b52094-acca-4ff3-a744-00de9843e523",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3964",
+      "reference": "Sahih al-Bukhari, hadith 3964, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ كَتَبْتُ عَنْ يُوسُفَ بْنِ الْمَاجِشُونِ، عَنْ صَالِحِ بْنِ إِبْرَاهِيمَ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، فِي بَدْرٍ‏.‏ يَعْنِي حَدِيثَ ابْنَىْ عَفْرَاءَ‏.‏",
+      "source_hash_sha256": "b912c8a0bf604fce6a4e47e31430910427f7ea5579dcd52228dc1ae707950188",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAlî ibn ʿAbd Allâh rapporte : « J’ai consigné le récit de Yûsuf ibn al-Mâjishûn, d’après Sâlih ibn Ibrâhîm, d’après son père, d’après son grand-père, au sujet de Badr » — c’est-à-dire le récit des deux fils de ʿAfrâ’.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9ae2abea-66d1-47c8-9f41-25cd0d5dfdc2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3965",
+      "reference": "Sahih al-Bukhari, hadith 3965, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ اللَّهِ الرَّقَاشِيُّ، حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ أَبِي يَقُولُ، حَدَّثَنَا أَبُو مِجْلَزٍ، عَنْ قَيْسِ بْنِ عُبَادٍ، عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ ـ رضى الله عنه ـ أَنَّهُ قَالَ أَنَا أَوَّلُ، مَنْ يَجْثُو بَيْنَ يَدَىِ الرَّحْمَنِ لِلْخُصُومَةِ يَوْمَ الْقِيَامَةِ‏.‏ وَقَالَ قَيْسُ بْنُ عُبَادٍ وَفِيهِمْ أُنْزِلَتْ ‏[quran sura=\"22\" aya_start=\"19\" aya_end=\"19\"]{‏هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ‏}‏ قَالَ هُمُ الَّذِينَ تَبَارَزُوا يَوْمَ بَدْرٍ حَمْزَةُ وَعَلِيٌّ وَعُبَيْدَةُ أَوْ أَبُو عُبَيْدَةَ بْنُ الْحَارِثِ وَشَيْبَةُ بْنُ رَبِيعَةَ وَعُتْبَةُ وَالْوَلِيدُ بْنُ عُتْبَةَ‏.‏",
+      "source_hash_sha256": "dedd63e36474183e3aae065308708c246640591ef4173d86b41958f5ce8e84c2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "91634d73-640c-4361-9f2f-573260c47e9c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3966",
+      "reference": "Sahih al-Bukhari, hadith 3966, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قَبِيصَةُ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي هَاشِمٍ، عَنْ أَبِي مِجْلَزٍ، عَنْ قَيْسِ بْنِ عُبَادٍ، عَنْ أَبِي ذَرٍّ ـ رضى الله عنه ـ قَالَ نَزَلَتْ ‏[quran sura=\"22\" aya_start=\"19\" aya_end=\"19\"]{‏هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ‏}‏ فِي سِتَّةٍ مِنْ قُرَيْشٍ عَلِيٍّ وَحَمْزَةَ وَعُبَيْدَةَ بْنِ الْحَارِثِ وَشَيْبَةَ بْنِ رَبِيعَةَ وَعُتْبَةَ بْنِ رَبِيعَةَ وَالْوَلِيدِ بْنِ عُتْبَةَ‏.‏",
+      "source_hash_sha256": "3b2657f984eb54580cc1ec1a7901013e2550b594223cca7da7801208d378d492",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2a49e868-c5a8-47c6-8383-b9ba7bfb0e26",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3967",
+      "reference": "Sahih al-Bukhari, hadith 3967, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الصَّوَّافُ، حَدَّثَنَا يُوسُفُ بْنُ يَعْقُوبَ ـ كَانَ يَنْزِلُ فِي بَنِي ضُبَيْعَةَ وَهْوَ مَوْلًى لِبَنِي سَدُوسَ ـ حَدَّثَنَا سُلَيْمَانُ التَّيْمِيُّ، عَنْ أَبِي مِجْلَزٍ، عَنْ قَيْسِ بْنِ عُبَادٍ، قَالَ قَالَ عَلِيٌّ ـ رضى الله عنه فِينَا نَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"22\" aya_start=\"19\" aya_end=\"19\"]{‏هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ ‏}‏",
+      "source_hash_sha256": "b73b3b27b4e3f53ea1a93845b6a9e9d2a584e6352dbe9e0a54cf025905b4c8b1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "url": "https://sunnah.com/bukhari:3965",
+      "reason": "The report directly quotes Quran 22:19. No approved, attributed French Quran translation has been confirmed. The complete record remains blank rather than creating unapproved French Quran wording.",
+      "source_id": "9ae2abea-66d1-47c8-9f41-25cd0d5dfdc2"
+    },
+    {
+      "url": "https://sunnah.com/bukhari:3966",
+      "reason": "The report directly quotes Quran 22:19. No approved, attributed French Quran translation has been confirmed. The complete record remains blank rather than creating unapproved French Quran wording.",
+      "source_id": "91634d73-640c-4361-9f2f-573260c47e9c"
+    },
+    {
+      "url": "https://sunnah.com/bukhari:3967",
+      "reason": "The report directly quotes Quran 22:19. No approved, attributed French Quran translation has been confirmed. The complete record remains blank rather than creating unapproved French Quran wording.",
+      "source_id": "2a49e868-c5a8-47c6-8383-b9ba7bfb0e26"
+    }
+  ]
+}

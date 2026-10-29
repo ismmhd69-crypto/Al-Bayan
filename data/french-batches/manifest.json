@@ -15502,6 +15502,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-709",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-709.json",
+      "sourceIds": ["a94a25f6-82f2-4541-9e43-ad3bafae7eae", "5c074a64-9b35-4a8b-ad6e-77761aa4176f", "b6b52094-acca-4ff3-a744-00de9843e523", "9ae2abea-66d1-47c8-9f41-25cd0d5dfdc2", "91634d73-640c-4361-9f2f-573260c47e9c", "2a49e868-c5a8-47c6-8383-b9ba7bfb0e26"],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Three Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; three Quran-quote records remain blank pending approved attributed French Quran translations",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15667,8 +15682,27 @@
       "scope": "Sahih al-Bukhari 3954: direct quotation of Quran 4:95",
       "status": "blocked",
       "reason": "The report directly quotes Quran 4:95. It remains blank in FR-LIB-HAD-BUKHARI-707 until an approved, attributed French Quran translation is confirmed."
-    }  ],
-  "hadithBukhariDrafted": 3521,
-  "hadithLocalDrafted": 3521,
-  "hadithLocalRemaining": 11136
+    },
+    {
+      "id": "HADITH-BUKHARI-3965-QURAN-22-19",
+      "scope": "Sahih al-Bukhari 3965: direct quotation of Quran 22:19",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 22:19. It remains blank in FR-LIB-HAD-BUKHARI-709 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3966-QURAN-22-19",
+      "scope": "Sahih al-Bukhari 3966: direct quotation of Quran 22:19",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 22:19. It remains blank in FR-LIB-HAD-BUKHARI-709 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3967-QURAN-22-19",
+      "scope": "Sahih al-Bukhari 3967: direct quotation of Quran 22:19",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 22:19. It remains blank in FR-LIB-HAD-BUKHARI-709 until an approved, attributed French Quran translation is confirmed."
+    }
+  ],
+  "hadithBukhariDrafted": 3524,
+  "hadithLocalDrafted": 3524,
+  "hadithLocalRemaining": 11133
 }
