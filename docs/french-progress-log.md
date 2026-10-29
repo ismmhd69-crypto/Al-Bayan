@@ -5840,3 +5840,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6200–6205
 
 - FR-LIB-HAD-BUKHARI-1140 saves six private French drafts about prayer, family, and names. No database writes or publication occurred. Bukhari local drafts: 5,197 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,430, including held records.
+
+### 2026-10-29: Bukhari 6206
+
+- FR-LIB-HAD-BUKHARI-1141 saves one private French draft about the name “King of kings,” including the source’s explanation of the Persian wording. No database writes or publication occurred. Bukhari local drafts: 5,198 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,429, including held records.
