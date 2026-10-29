@@ -39566,6 +39566,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0511",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0511.json",
+      "sourceIds": [
+        "8d6746bd-2b23-4816-b1ed-86b328a084e6",
+        "85e07749-4ce0-4631-8d79-a5959b0dc8bb",
+        "fcddd29c-b53e-4eb1-866a-4c7ccb394b3f",
+        "822fa2bc-b352-468a-a598-c0651ab29736",
+        "9d2bf45c-0d9c-4d86-b624-7a67c73be05f",
+        "01ca23d4-e4e3-47aa-ba8a-e89c9e4711f6"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six records passed focused validation; Arabic originals and hashes, IDs, private unpublished AI-draft state, rights flags, and single-item long-text rule passed; Muslim 1173b held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -43873,8 +43894,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8343,
-  "hadithLocalRemaining": 6286,
+  "hadithLocalDrafted": 8348,
+  "hadithLocalRemaining": 6281,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -47056,10 +47077,15 @@
       "source_id": "f93f510f-b47c-433c-9bd7-1af66ed6d5f2",
       "reason": "La source renvoie au récit précédent et n’en donne qu’un détail supplémentaire, sans reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "01ca23d4-e4e3-47aa-ba8a-e89c9e4711f6",
+      "reason": "La source renvoie au récit précédent (« même sens ») et n’en donne que des variantes de transmission ou de personnes, sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2007,
+  "hadithMuslimDrafted": 2012,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 929
+  "hadithNeedsMo": 930
 }
