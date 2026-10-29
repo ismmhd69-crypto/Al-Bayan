@@ -18972,6 +18972,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-882",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-882.json",
+      "sourceIds": [
+        "95ef503a-76fc-4fe3-86fb-a675e1927a92",
+        "82201866-7b3a-4497-8275-8349bc6e280e",
+        "c9782f96-83bc-42e2-b99b-24125cf48899",
+        "ee61cb19-f1b1-4baf-8e8d-77c7aa2c0505",
+        "e7a46fd3-2e14-44a3-9daf-993f51a33db3",
+        "a8ebfd37-3750-4548-90a7-607c0549f0ed"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 6,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -20936,6 +20957,42 @@
       "scope": "Sahih al-Bukhari 4824: direct Quran quotations from 38:86, 44:10",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 38:86, 44:10. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-881, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4827-QURAN-46-17",
+      "scope": "Sahih al-Bukhari 4827: direct Quran quotation from 46:17",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 46:17. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-882, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4828-QURAN-46-24",
+      "scope": "Sahih al-Bukhari 4828: direct Quran quotation from 46:24",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 46:24. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-882, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4830-QURAN-47-22",
+      "scope": "Sahih al-Bukhari 4830: direct Quran quotation from 47:22",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 47:22. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-882, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4831-QURAN-47-22",
+      "scope": "Sahih al-Bukhari 4831: direct Quran quotation from 47:22",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 47:22. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-882, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4832-QURAN-47-22",
+      "scope": "Sahih al-Bukhari 4832: direct Quran quotation from 47:22",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 47:22. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-882, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4833-QURAN-48-1",
+      "scope": "Sahih al-Bukhari 4833: direct Quran quotation from 48:1",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 48:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-882, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4045,
