@@ -11486,3 +11486,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1859c-1863a
 
 - FR-LIB-HAD-MUSLIM-0881 saves five private French drafts about the pledge, life in the desert, and migration. The report describing a pledge “on death” is preserved as written. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1863b-1866a
+
+- FR-LIB-HAD-MUSLIM-0882 saves five private French drafts about pledges after the conquest, migration, and charity on camels. The report quoting Quran 60:12 remains entirely blank under Needs Mo until an authorized attributed French Quran translation is available. No database write or publication occurred.
