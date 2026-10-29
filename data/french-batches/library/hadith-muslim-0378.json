@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0378",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:45:04.425Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cfcab2d2-b993-4d11-9e48-4af68aeb8458",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:890a",
+      "reference": "Sahih Muslim, hadith 890 a, book 8, باب ذِكْرِ إِبَاحَةِ خُرُوجِ النِّسَاءِ فِي الْعِيدَيْنِ إِلَى الْمُصَلَّى وَشُهُودِ الْخُطْبَةِ مُفَارِقَاتٌ لِلرِّجَالِ",
+      "title": "باب ذِكْرِ إِبَاحَةِ خُرُوجِ النِّسَاءِ فِي الْعِيدَيْنِ إِلَى الْمُصَلَّى وَشُهُودِ الْخُطْبَةِ مُفَارِقَاتٌ لِلرِّجَالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا أَيُّوبُ، عَنْ مُحَمَّدٍ، عَنْ أُمِّ عَطِيَّةَ، قَالَتْ أَمَرَنَا - تَعْنِي النَّبِيَّ صلى الله عليه وسلم - أَنْ نُخْرِجَ فِي الْعِيدَيْنِ الْعَوَاتِقَ وَذَوَاتِ الْخُدُورِ وَأَمَرَ الْحُيَّضَ أَنْ يَعْتَزِلْنَ مُصَلَّى الْمُسْلِمِينَ ‏.‏",
+      "source_hash_sha256": "a5e98e573a6caf4544987906430b709879c4efe4336a0ce480d8519a85f632fd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Zahrani nous a rapporté : Hammad nous a rapporté : Ayyub nous a rapporté, d’après Muhammad, d’après Umm ‘Atiyya, qui a dit : « Le Prophète ﷺ nous ordonna de faire sortir, pour les deux prières de l’Aïd, les jeunes femmes et celles qui se tenaient habituellement à l’écart. Il ordonna aux femmes ayant leurs règles de s’éloigner du lieu de prière des musulmans. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f0a8e523-271b-4fab-9fdf-df194c6ee1fb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:890b",
+      "reference": "Sahih Muslim, hadith 890 b, book 8, باب ذِكْرِ إِبَاحَةِ خُرُوجِ النِّسَاءِ فِي الْعِيدَيْنِ إِلَى الْمُصَلَّى وَشُهُودِ الْخُطْبَةِ مُفَارِقَاتٌ لِلرِّجَالِ",
+      "title": "باب ذِكْرِ إِبَاحَةِ خُرُوجِ النِّسَاءِ فِي الْعِيدَيْنِ إِلَى الْمُصَلَّى وَشُهُودِ الْخُطْبَةِ مُفَارِقَاتٌ لِلرِّجَالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو خَيْثَمَةَ، عَنْ عَاصِمٍ الأَحْوَلِ، عَنْ حَفْصَةَ بِنْتِ، سِيرِينَ عَنْ أُمِّ عَطِيَّةَ، قَالَتْ كُنَّا نُؤْمَرُ بِالْخُرُوجِ فِي الْعِيدَيْنِ وَالْمُخَبَّأَةُ وَالْبِكْرُ قَالَتِ الْحُيَّضُ يَخْرُجْنَ فَيَكُنَّ خَلْفَ النَّاسِ يُكَبِّرْنَ مَعَ النَّاسِ ‏.‏",
+      "source_hash_sha256": "41a0177025cd7903888dbe68bb725e8b8ebba4d3371fabe83c2be842e74e439b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Abu Khaythama nous a informés, d’après ‘Asim al-Ahwal, d’après Hafsa bint Sirin, d’après Umm ‘Atiyya, qui a dit : « On nous ordonnait de sortir pour les deux prières de l’Aïd, y compris les femmes qui se tenaient à l’écart et les jeunes filles vierges. » Elle dit : « Les femmes ayant leurs règles sortaient et se tenaient derrière les gens, proclamant la grandeur d’Allah avec eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "05726a55-fb28-4a96-8094-4907d266bb1c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:890c",
+      "reference": "Sahih Muslim, hadith 890 c, book 8, باب ذِكْرِ إِبَاحَةِ خُرُوجِ النِّسَاءِ فِي الْعِيدَيْنِ إِلَى الْمُصَلَّى وَشُهُودِ الْخُطْبَةِ مُفَارِقَاتٌ لِلرِّجَالِ",
+      "title": "باب ذِكْرِ إِبَاحَةِ خُرُوجِ النِّسَاءِ فِي الْعِيدَيْنِ إِلَى الْمُصَلَّى وَشُهُودِ الْخُطْبَةِ مُفَارِقَاتٌ لِلرِّجَالِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا هِشَامٌ، عَنْ حَفْصَةَ بِنْتِ، سِيرِينَ عَنْ أُمِّ عَطِيَّةَ، قَالَتْ أَمَرَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ نُخْرِجَهُنَّ فِي الْفِطْرِ وَالأَضْحَى الْعَوَاتِقَ وَالْحُيَّضَ وَذَوَاتِ الْخُدُورِ فَأَمَّا الْحُيَّضُ فَيَعْتَزِلْنَ الصَّلاَةَ وَيَشْهَدْنَ الْخَيْرَ وَدَعْوَةَ الْمُسْلِمِينَ ‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ إِحْدَانَا لاَ يَكُونُ لَهَا جِلْبَابٌ قَالَ ‏\"‏ لِتُلْبِسْهَا أُخْتُهَا مِنْ جِلْبَابِهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1c0e3061093a2e98d069311d8f4daa5bef3cda98175756616378b2c961269fa9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Amr al-Naqid nous a rapporté : ‘Isa ibn Yunus nous a rapporté : Hisham nous a rapporté, d’après Hafsa bint Sirin, d’après Umm ‘Atiyya, qui a dit : « Le Messager d’Allah ﷺ nous ordonna de faire sortir, pour l’Aïd al-Fitr et l’Aïd al-Adha, les jeunes femmes, celles qui ont leurs règles et celles qui se tiennent habituellement à l’écart. Les femmes ayant leurs règles s’abstenaient de prier, mais assistaient au bien et aux invocations des musulmans. » Je demandai : « Messager d’Allah, si l’une de nous n’a pas de vêtement extérieur ample ? » Il répondit : « Que sa sœur lui prête l’un de ses vêtements. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c17f9e5-55dc-4d6f-be6a-94d39327dd85",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:891a",
+      "reference": "Sahih Muslim, hadith 891 a, book 8, باب مَا يُقْرَأُ بِهِ فِي صَلاَةِ الْعِيدَيْنِ ‏",
+      "title": "باب مَا يُقْرَأُ بِهِ فِي صَلاَةِ الْعِيدَيْنِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ ضَمْرَةَ بْنِ سَعِيدٍ الْمَازِنِيِّ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، أَنَّ عُمَرَ بْنَ الْخَطَّابِ، سَأَلَ أَبَا وَاقِدٍ اللَّيْثِيَّ مَا كَانَ يَقْرَأُ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي الأَضْحَى وَالْفِطْرِ فَقَالَ كَانَ يَقْرَأُ فِيهِمَا بِـ ‏[quran sura=\"50\" aya_start=\"1\" aya_end=\"1\"]{‏ ق وَالْقُرْآنِ الْمَجِيدِ‏}‏ وَ ‏[quran sura=\"54\" aya_start=\"1\" aya_end=\"1\"]{‏ اقْتَرَبَتِ السَّاعَةُ وَانْشَقَّ الْقَمَرُ‏}‏",
+      "source_hash_sha256": "0b8856e33633808e94e228fd6034815cbc2ff2515e371266b490be1fb6b41b92",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4f6c962e-7a20-4529-9673-caeca8774395",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:891b",
+      "reference": "Sahih Muslim, hadith 891 b, book 8, باب مَا يُقْرَأُ بِهِ فِي صَلاَةِ الْعِيدَيْنِ ‏",
+      "title": "باب مَا يُقْرَأُ بِهِ فِي صَلاَةِ الْعِيدَيْنِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا أَبُو عَامِرٍ الْعَقَدِيُّ، حَدَّثَنَا فُلَيْحٌ، عَنْ ضَمْرَةَ، بْنِ سَعِيدٍ عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنْ أَبِي وَاقِدٍ اللَّيْثِيِّ، قَالَ سَأَلَنِي عُمَرُ بْنُ الْخَطَّابِ عَمَّا قَرَأَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي يَوْمِ الْعِيدِ فَقُلْتُ بِـ ‏[quran sura=\"54\" aya_start=\"1\" aya_end=\"1\"]{‏ اقْتَرَبَتِ السَّاعَةُ‏}‏ وَ ‏[quran sura=\"50\" aya_start=\"1\" aya_end=\"1\"]{‏ ق وَالْقُرْآنِ الْمَجِيدِ‏}‏",
+      "source_hash_sha256": "79b7953c6af5ec5ee0f5275d618f7c50239b89d7aa08ff96c809db13446d4521",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f3f12b4c-0417-4a14-99f8-6cdb8bd2e09f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:892a",
+      "reference": "Sahih Muslim, hadith 892 a, book 8, باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "title": "باب الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لاَ مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ دَخَلَ عَلَىَّ أَبُو بَكْرٍ وَعِنْدِي جَارِيَتَانِ مِنْ جَوَارِي الأَنْصَارِ تُغَنِّيَانِ بِمَا تَقَاوَلَتْ بِهِ الأَنْصَارُ يَوْمَ بُعَاثٍ قَالَتْ وَلَيْسَتَا بِمُغَنِّيَتَيْنِ ‏.‏ فَقَالَ أَبُو بَكْرٍ أَبِمُزْمُورِ الشَّيْطَانِ فِي بَيْتِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَذَلِكَ فِي يَوْمِ عِيدٍ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَا أَبَا بَكْرٍ إِنَّ لِكُلِّ قَوْمٍ عِيدًا وَهَذَا عِيدُنَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9159107c584ece840325af5b6ed0a4c0b7451176545172c1852e3fc850930c70",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Abu Usama nous a rapporté, d’après Hisham, d’après son père, d’après ‘A’isha, qui a dit : « Abu Bakr entra chez moi alors que deux jeunes filles parmi les Ansar chantaient les vers que les Ansar s’étaient récités le jour de Bu‘ath. Elles n’étaient pas des chanteuses professionnelles. Abu Bakr dit : “Les flûtes de Satan dans la maison du Messager d’Allah ﷺ, et cela un jour de fête ?” Le Messager d’Allah ﷺ répondit : “Abu Bakr, chaque peuple a sa fête, et ceci est notre fête.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "7c17f9e5-55dc-4d6f-be6a-94d39327dd85",
+      "reason": "La source cite directement des passages des sourates 50 et 54. Garder toute la traduction française vide jusqu’à approbation de traductions coraniques françaises attribuées et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "4f6c962e-7a20-4529-9673-caeca8774395",
+      "reason": "La source cite directement des passages des sourates 54 et 50. Garder toute la traduction française vide jusqu’à approbation de traductions coraniques françaises attribuées et confirmation des droits d’utilisation."
+    }
+  ]
+}
