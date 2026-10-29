@@ -18151,6 +18151,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-840",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-840.json",
+      "sourceIds": [
+        "d9ec209e-8e10-419c-890e-e16479b223f5",
+        "e3ce031c-bea1-4654-a813-0d5f9ce562a3",
+        "c6bbe079-5517-4eeb-ab1d-22e673a62610",
+        "f250d26d-54e7-45a8-8cb6-46b72550d78a",
+        "b79392ef-0855-401d-a029-50c502f9fd47",
+        "fde1546a-f45e-4f3d-b118-019340a2cf17"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19317,9 +19338,33 @@
       "scope": "Sahih al-Bukhari 4635: direct Quranic wording from 6:158",
       "status": "blocked",
       "reason": "Le rapport reprend directement une partie de Quran 6:158. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-839, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4636-QURAN-6-158",
+      "scope": "Sahih al-Bukhari 4636: direct Quranic wording from 6:158",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement la formule coranique « لا ينفع نفسا إيمانها ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-840, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4637-QURAN-7-33",
+      "scope": "Sahih al-Bukhari 4637: direct Quranic phrase from 7:33",
+      "status": "blocked",
+      "reason": "Le rapport cite directement la formule de Quran 7:33 « ما ظهر منها وما بطن ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-840, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4640-QURAN-7-158",
+      "scope": "Sahih al-Bukhari 4640: direct Quranic phrase from 7:158",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement la formule coranique « إني رسول الله إليكم جميعا ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-840, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4641-QURAN-2-58",
+      "scope": "Sahih al-Bukhari 4641: direct quotation of Quran 2:58",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 2:58. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-840, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3987,
-  "hadithLocalDrafted": 3987,
-  "hadithLocalRemaining": 10676
+  "hadithBukhariDrafted": 3989,
+  "hadithLocalDrafted": 3989,
+  "hadithLocalRemaining": 10674
 }
