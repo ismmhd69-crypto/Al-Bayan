@@ -17813,6 +17813,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-823",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-823.json",
+      "sourceIds": [
+        "7610123e-9326-4be3-ac65-987825f2ed81"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -18637,6 +18653,12 @@
       "scope": "Sahih al-Bukhari 4552: direct Quran wording from 3:77",
       "status": "blocked",
       "reason": "Le rapport cite directement du Quran (référence 4552). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4553-QURAN-3-64-LONG",
+      "scope": "Sahih al-Bukhari 4553: unusually long report with direct Quranic wording including Quran 3:64",
+      "status": "blocked",
+      "reason": "Ce rapport très long contient plusieurs citations directes du Quran, dont une partie du verset 3:64. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-823, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 3962,
