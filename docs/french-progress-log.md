@@ -11141,3 +11141,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0802 saves five private French drafts, preserving the distinct narrator chains, the short opening variant, the omission in 1700b, and the wording difference in 1701b. Muslim 1700a contains Quran quotations and remains entirely blank until an attributed, authorized French Quran translation is available.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1703a-1705a
+
+- FR-LIB-HAD-MUSLIM-0803 saves five private French drafts, including the multi-chain variants about the sale of an enslaved woman and the report about delaying punishment after childbirth. Muslim 1704a only refers back to an earlier report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
