@@ -2626,6 +2626,20 @@
       "status": "one Needs Mo hold for embedded Quran quotation"
     },
     {
+      "id": "FR-LIB-HAD-BUKHARI-224",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-224.json",
+      "sourceIds": ["c973b7d7-4866-4687-b2b7-4f0293b2011e", "54ecaf2e-e358-470d-8dc9-b463c18b4acd", "5b1fab42-18e5-4a9a-8ac6-0cb4d1f97b6d", "e8a90cd6-e427-4186-8a85-d50421c32efd", "8718aeaa-2475-4a03-89aa-ac2eb26f19c8", "bbb5ca89-e673-4b51-879f-488952769942"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights, complete chains and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
+    },
+    {
       "id": "FR-LIB-HAD-BUKHARI-203",
       "contentType": "hadith",
       "language": "fr",
