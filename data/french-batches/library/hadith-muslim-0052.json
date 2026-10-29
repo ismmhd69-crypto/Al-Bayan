@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0052",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:08:49.351Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cdc705a6-1ce8-4968-ae73-32d3ae209b9c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:126",
+      "reference": "Sahih Muslim, hadith 126, book 1, باب بَيَانِ أَنَّهُ سُبْحَانَهُ وَتَعَالَى لَمْ يُكَلِّفْ إِلَّا مَا يُطَاقُ",
+      "title": "باب بَيَانِ أَنَّهُ سُبْحَانَهُ وَتَعَالَى لَمْ يُكَلِّفْ إِلَّا مَا يُطَاقُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ - وَاللَّفْظُ لأَبِي بَكْرٍ قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا - وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ آدَمَ بْنِ سُلَيْمَانَ، مَوْلَى خَالِدٍ قَالَ سَمِعْتُ سَعِيدَ بْنَ جُبَيْرٍ، يُحَدِّثُ عَنِ ابْنِ عَبَّاسٍ، قَالَ لَمَّا نَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"2\" aya_start=\"284\" aya_end=\"284\"]{‏ وَإِنْ تُبْدُوا مَا فِي أَنْفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُمْ بِهِ اللَّهُ‏}‏ قَالَ دَخَلَ قُلُوبَهُمْ مِنْهَا شَىْءٌ لَمْ يَدْخُلْ قُلُوبَهُمْ مِنْ شَىْءٍ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ قُولُوا سَمِعْنَا وَأَطَعْنَا وَسَلَّمْنَا ‏\"‏ ‏.‏ قَالَ فَأَلْقَى اللَّهُ الإِيمَانَ فِي قُلُوبِهِمْ فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"2\" aya_start=\"286\" aya_end=\"286\"]{‏ لاَ يُكَلِّفُ اللَّهُ نَفْسًا إِلاَّ وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ رَبَّنَا لاَ تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا‏}‏ قَالَ قَدْ فَعَلْتُ ‏[quran sura=\"2\" aya_start=\"286\" aya_end=\"286\"]{‏ رَبَّنَا وَلاَ تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا‏}‏ - قَالَ قَدْ فَعَلْتُ ‏[quran sura=\"2\" aya_start=\"286\" aya_end=\"286\"]{‏ وَاغْفِرْ لَنَا وَارْحَمْنَا أَنْتَ مَوْلاَنَا‏}‏ قَالَ قَدْ فَعَلْتُ ‏.‏",
+      "source_hash_sha256": "3b140f1e5760bd1908b0d782f17d6ca3dc0eb921b888d099ba9bce6328425676",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement plusieurs passages du Coran, notamment 2:284 et 2:286. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "caf2ad83-9333-4d10-9345-066762873e9b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:127a",
+      "reference": "Sahih Muslim, hadith 127 a, book 1, باب تَجَاوُزِ اللَّهِ عَنْ حَدِيثِ النَّفْسِ، وَالْخَوَاطِرِ، بِالْقَلْبِ إِذَا لَمْ تَسْتَقِرَّ ‏‏",
+      "title": "باب تَجَاوُزِ اللَّهِ عَنْ حَدِيثِ النَّفْسِ، وَالْخَوَاطِرِ، بِالْقَلْبِ إِذَا لَمْ تَسْتَقِرَّ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَمُحَمَّدُ بْنُ عُبَيْدٍ الْغُبَرِيُّ، - وَاللَّفْظُ لِسَعِيدٍ - قَالُوا حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ قَتَادَةَ، عَنْ زُرَارَةَ بْنِ أَوْفَى، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ تَجَاوَزَ لأُمَّتِي مَا حَدَّثَتْ بِهِ أَنْفُسَهَا مَا لَمْ يَتَكَلَّمُوا أَوْ يَعْمَلُوا بِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1ae464c55388f1631792d3077f80214ec6e5ef8f6549cecc92c8bb89c93064f2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager de Dieu a dit : « Dieu a pardonné à ma communauté les pensées qui lui traversent l’esprit, tant qu’elle ne les exprime pas ou ne les met pas en pratique. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8490471c-70ac-49e1-9ab2-6160ba6d2a07",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:127b",
+      "reference": "Sahih Muslim, hadith 127 b, book 1, باب تَجَاوُزِ اللَّهِ عَنْ حَدِيثِ النَّفْسِ، وَالْخَوَاطِرِ، بِالْقَلْبِ إِذَا لَمْ تَسْتَقِرَّ ‏‏",
+      "title": "باب تَجَاوُزِ اللَّهِ عَنْ حَدِيثِ النَّفْسِ، وَالْخَوَاطِرِ، بِالْقَلْبِ إِذَا لَمْ تَسْتَقِرَّ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، وَعَبْدَةُ بْنُ سُلَيْمَانَ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، كُلُّهُمْ عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، عَنْ قَتَادَةَ، عَنْ زُرَارَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ عَزَّ وَجَلَّ تَجَاوَزَ لأُمَّتِي عَمَّا حَدَّثَتْ بِهِ أَنْفُسَهَا مَا لَمْ تَعْمَلْ أَوْ تَكَلَّمْ بِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2087a3f5fc5023dc07c54403387d1573c66d8d7cd7b177247e703a1ffee3d3f0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager de Dieu a dit : « Dieu, exalté et glorifié soit-Il, a pardonné à ma communauté les pensées qui lui traversent l’esprit tant qu’elle ne les met pas en pratique ou ne les exprime pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "23bd0e81-0b17-4657-83ad-0643cbd5fbc8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:127c",
+      "reference": "Sahih Muslim, hadith 127 c, book 1, باب تَجَاوُزِ اللَّهِ عَنْ حَدِيثِ النَّفْسِ، وَالْخَوَاطِرِ، بِالْقَلْبِ إِذَا لَمْ تَسْتَقِرَّ ‏‏",
+      "title": "باب تَجَاوُزِ اللَّهِ عَنْ حَدِيثِ النَّفْسِ، وَالْخَوَاطِرِ، بِالْقَلْبِ إِذَا لَمْ تَسْتَقِرَّ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا مِسْعَرٌ، وَهِشَامٌ، ح وَحَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا الْحُسَيْنُ بْنُ عَلِيٍّ، عَنْ زَائِدَةَ، عَنْ شَيْبَانَ، جَمِيعًا عَنْ قَتَادَةَ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "02dd8c01cb8d0d29f65b0f315c5694ed95a17f84e87e8219e0cd757329a34b70",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Il rapporta un hadith semblable, transmis par la même chaîne.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "585c5a08-87cf-48c0-bb7f-f4d529f70069",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:128a",
+      "reference": "Sahih Muslim, hadith 128 a, book 1, باب إِذَا هَمَّ الْعَبْدُ بِحَسَنَةٍ كُتِبَتْ وَإِذَا هَمَّ بِسَيِّئَةٍ لَمْ تُكْتَبْ ‏‏",
+      "title": "باب إِذَا هَمَّ الْعَبْدُ بِحَسَنَةٍ كُتِبَتْ وَإِذَا هَمَّ بِسَيِّئَةٍ لَمْ تُكْتَبْ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، - وَاللَّفْظُ لأَبِي بَكْرٍ قَالَ إِسْحَاقُ أَخْبَرَنَا سُفْيَانُ، وَقَالَ الآخَرَانِ، حَدَّثَنَا - ابْنُ عُيَيْنَةَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ قَالَ اللَّهُ عَزَّ وَجَلَّ إِذَا هَمَّ عَبْدِي بِسَيِّئَةٍ فَلاَ تَكْتُبُوهَا عَلَيْهِ فَإِنْ عَمِلَهَا فَاكْتُبُوهَا سَيِّئَةً وَإِذَا هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا فَاكْتُبُوهَا حَسَنَةً فَإِنْ عَمِلَهَا فَاكْتُبُوهَا عَشْرًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "36aac84ad8311833499b8f94c2af2cdb320d441281e4875c3f8a48ee3ce78980",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Dieu, exalté et glorifié soit-Il, a dit : « Lorsque Mon serviteur envisage de commettre une mauvaise action, ne la consignez pas contre lui. S’il la commet, consignez une mauvaise action. S’il envisage une bonne action sans l’accomplir, consignez une bonne action ; s’il l’accomplit, consignez-en dix. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "81bd8c79-f6af-4342-8bac-121f7eee7b36",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:128b",
+      "reference": "Sahih Muslim, hadith 128 b, book 1, باب إِذَا هَمَّ الْعَبْدُ بِحَسَنَةٍ كُتِبَتْ وَإِذَا هَمَّ بِسَيِّئَةٍ لَمْ تُكْتَبْ ‏‏",
+      "title": "باب إِذَا هَمَّ الْعَبْدُ بِحَسَنَةٍ كُتِبَتْ وَإِذَا هَمَّ بِسَيِّئَةٍ لَمْ تُكْتَبْ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - وَهُوَ ابْنُ جَعْفَرٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ اللَّهُ عَزَّ وَجَلَّ إِذَا هَمَّ عَبْدِي بِحَسَنَةٍ وَلَمْ يَعْمَلْهَا كَتَبْتُهَا لَهُ حَسَنَةً فَإِنْ عَمِلَهَا كَتَبْتُهَا عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ وَإِذَا هَمَّ بِسَيِّئَةٍ وَلَمْ يَعْمَلْهَا لَمْ أَكْتُبْهَا عَلَيْهِ فَإِنْ عَمِلَهَا كَتَبْتُهَا سَيِّئَةً وَاحِدَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fe1f1cc98f7fd1def742a80133eaf7883e5161af022995385d1a61906795a362",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Dieu, exalté et glorifié soit-Il, a dit : « Lorsque Mon serviteur envisage une bonne action sans l’accomplir, Je la lui inscris comme une bonne action. S’il l’accomplit, Je la lui inscris de dix à sept cents fois sa valeur. Lorsqu’il envisage une mauvaise action sans l’accomplir, Je ne l’inscris pas contre lui ; s’il la commet, Je n’inscris qu’une seule mauvaise action. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "cdc705a6-1ce8-4968-ae73-32d3ae209b9c",
+      "reason": "Ce récit cite directement plusieurs passages du Coran, notamment 2:284 et 2:286. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
