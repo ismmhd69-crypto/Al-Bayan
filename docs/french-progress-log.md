@@ -6052,3 +6052,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1187 saves five private French drafts. Bukhari 6453 remains blank because the phrase ما له خلط is unclear in context. No database writes or publication occurred.
 - The five drafts passed the focused validator. Bukhari local drafts: 5,434 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 783. Total local hadith rows not drafted: 9,195, including held records.
+
+### 2026-10-29: Bukhari 6459–6464
+
+- FR-LIB-HAD-BUKHARI-1188 saves six private French drafts about food, regular worship, and keeping to a balanced pace. No database writes or publication occurred.
+- All six drafts passed the focused validator. Bukhari local drafts: 5,440 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 783. Total local hadith rows not drafted: 9,189, including held records.

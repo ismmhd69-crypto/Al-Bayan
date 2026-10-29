@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5434,
+    "hadithBukhariDrafted": 5440,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5434,
+    "hadithLocalDrafted": 5440,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9195,
+    "hadithLocalRemaining": 9189,
     "hadithNeedsMo": 783,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -25159,6 +25159,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1188",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1188.json",
+      "sourceIds": [
+        "d34c9d3d-a631-43c3-a22c-a60d95b30039",
+        "9678eaa8-2ef3-4410-a1d7-5a03379e5ce4",
+        "419b9453-f6e7-4ecc-b135-5ccc6bdb40a9",
+        "eb31cefe-ce5e-476f-8c7d-098eb9f87900",
+        "24694f45-2bd7-47ea-b6a0-82a93104eb77",
+        "494aab45-805b-495d-b8b6-d057f8cc5f76"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Six records passed the focused validator. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -28253,9 +28274,9 @@
       "reason": "The phrase ما له خلط is unclear in this context. Keep the complete French translation blank until its meaning is reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 5434,
-  "hadithLocalDrafted": 5434,
-  "hadithLocalRemaining": 9195,
+  "hadithBukhariDrafted": 5440,
+  "hadithLocalDrafted": 5440,
+  "hadithLocalRemaining": 9189,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
