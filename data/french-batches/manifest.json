@@ -18004,6 +18004,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-833",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-833.json",
+      "sourceIds": [
+        "a3812513-40a1-419a-a6f0-04618504cae8",
+        "a96d7117-863c-4ba6-ab63-a8b039a1e564",
+        "9032a73f-0769-40b6-a3cb-eae1c62ebe75",
+        "c2b987c8-b537-412d-a36d-0d5fccca1727",
+        "0bf46ac8-4957-4853-930e-a3e1a82691f0",
+        "cd666586-0b6a-438b-9fa2-0eceab6a91de"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 6,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local holds"
     }
   ],
   "blockers": [
@@ -19008,6 +19029,42 @@
       "scope": "Sahih al-Bukhari 4593: repeated direct quotations of Quran 4:95",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 4:95 à deux reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-832, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4594-QURAN-4-95",
+      "scope": "Sahih al-Bukhari 4594: repeated direct quotations of Quran 4:95",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:95 à plusieurs reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-833, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4595-QURAN-4-95",
+      "scope": "Sahih al-Bukhari 4595: direct quotation of Quran 4:95",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:95. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-833, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4596-QURAN-4-45",
+      "scope": "Sahih al-Bukhari 4596: direct quotation of Quran 4:45",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:45. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-833, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4597-QURAN-PHRASE",
+      "scope": "Sahih al-Bukhari 4597: direct Quranic phrase إلا المستضعفين",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement la formule coranique « إلا المستضعفين ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-833, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4598-QURAN-PHRASE",
+      "scope": "Sahih al-Bukhari 4598: supplication repeats Quranic phrase المستضعفين من المؤمنين",
+      "status": "blocked",
+      "reason": "La supplication contient la formule coranique « المستضعفين من المؤمنين ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-833, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4599-QURAN-4-45",
+      "scope": "Sahih al-Bukhari 4599: direct quotation of Quran 4:45",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:45. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-833, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 3972,
