@@ -1786,3 +1786,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-374` saves six private French drafts for Bukhari 2195–2200, including the source commentary on fruit maturity and the loan-and-pledge report.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,004 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,625, including held records.
+
+### 2026-10-29: Bukhari 2201–2207 source review
+
+- `FR-LIB-HAD-BUKHARI-375` saves six private French drafts for Bukhari 2201 and 2203–2207. It preserves the report’s examples of muzâbana and the pollination condition for date palms.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,010 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,619, including held records.
