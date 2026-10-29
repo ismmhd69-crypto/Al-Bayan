@@ -17929,6 +17929,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-829",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-829.json",
+      "sourceIds": [
+        "78cba446-607a-472a-8afd-b2912c4a98d5",
+        "c46830ff-54f6-4e14-8d34-0c5dd7c322f6"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local holds"
     }
   ],
   "blockers": [
@@ -18861,6 +18878,18 @@
       "scope": "Sahih al-Bukhari 4577: direct quotation of Quran 4:11",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 4:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-828, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4579-QURAN-4-19",
+      "scope": "Sahih al-Bukhari 4579: direct quotation of Quran 4:19",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:19. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-829, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4580-QURAN-4-33",
+      "scope": "Sahih al-Bukhari 4580: repeated direct quotations of Quran 4:33",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:33 à plusieurs reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-829, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 3970,
