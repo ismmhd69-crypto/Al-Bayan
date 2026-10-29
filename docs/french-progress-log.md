@@ -8056,3 +8056,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0186 saves five private French drafts about women attending the mosque at night and avoiding perfume there. Muslim 442f contains only chains and a cross-reference, so it remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 762 Muslim drafts, 7,098 total hadith drafts, 7,531 remaining, and 361 Needs Mo items.
+
+### 2026-10-29: Muslim 445a–448a
+
+- FR-LIB-HAD-MUSLIM-0187 saves one private French draft containing Aïcha’s statement about women attending the mosque. Muslim 445b and 447b are incomplete cross-references and remain blank under Needs Mo. Muslim 446 and 447a quote Quran 17:110; Muslim 448a quotes Quran 75:16–19. Their full French texts remain blank pending approved, attributed French Quran translations with permitted use.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 763 Muslim drafts, 7,099 total hadith drafts, 7,530 remaining, and 366 Needs Mo items.
