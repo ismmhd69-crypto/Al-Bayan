@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0555",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:04:26.094Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "579e1c69-35ce-4691-acef-a3ed99a4ddd1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1250a",
+      "reference": "Sahih Muslim, hadith 1250 a, book 15, باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "title": "باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا ابْنُ مَهْدِيٍّ، حَدَّثَنِي سَلِيمُ بْنُ حَيَّانَ، عَنْ مَرْوَانَ الأَصْفَرِ، عَنْ أَنَسٍ، - رضى الله عنه - أَنَّ عَلِيًّا، قَدِمَ مِنَ الْيَمَنِ فَقَالَ لَهُ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ بِمَ أَهْلَلْتَ ‏\"‏ ‏.‏ فَقَالَ أَهْلَلْتُ بِإِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ قَالَ ‏\"‏ لَوْلاَ أَنَّ مَعِيَ الْهَدْىَ لأَحْلَلْتُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "344ef4ca08f2fb39c3daf6cfc62827fc6bcf1845d7d68a5a205c7727ca7ca667",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim nous a rapporté : Ibn Mahdi nous a rapporté : Salim ibn Hayyan nous a rapporté, d’après Marwan al-Asfar, d’après Anas, qu’Allah l’agrée : Ali revint du Yémen. Le Prophète ﷺ lui demanda pour quel rite il était entré en état de sacralisation. Il répondit : pour le même que le Prophète ﷺ. Le Prophète ﷺ dit : si je n’avais pas mon offrande avec moi, je sortirais de l’état de sacralisation.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fd5bbbe5-8da8-4b46-89ce-83b8568cf3cc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1250b",
+      "reference": "Sahih Muslim, hadith 1250 b, book 15, باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "title": "باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنَا عَبْدُ الصَّمَدِ، ح وَحَدَّثَنِي عَبْدُ اللَّهِ بْنُ هَاشِمٍ، حَدَّثَنَا بَهْزٌ، قَالاَ حَدَّثَنَا سَلِيمُ بْنُ حَيَّانَ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ غَيْرَ أَنَّ فِي رِوَايَةِ بَهْزٍ ‏\"‏ لَحَلَلْتُ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6674bf33ca21366f8c8aa2d0134548f7074c45e0027b869a2167874e1f0f6720",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "63d1ff59-623c-4e35-94c6-24124edd15dd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1251a",
+      "reference": "Sahih Muslim, hadith 1251 a,b, book 15, باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "title": "باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ يَحْيَى بْنِ أَبِي إِسْحَاقَ، وَعَبْدِ الْعَزِيزِ، بْنِ صُهَيْبٍ وَحُمَيْدٍ أَنَّهُمْ سَمِعُوا أَنَسًا، - رضى الله عنه - قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم أَهَلَّ بِهِمَا جَمِيعًا ‏\"‏ لَبَّيْكَ عُمْرَةً وَحَجًّا لَبَّيْكَ عُمْرَةً وَحَجًّا ‏\"‏ ‏.‏ وَحَدَّثَنِيهِ عَلِيُّ بْنُ حُجْرٍ، أَخْبَرَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، عَنْ يَحْيَى بْنِ أَبِي إِسْحَاقَ، وَحُمَيْدٍ الطَّوِيلِ قَالَ يَحْيَى سَمِعْتُ أَنَسًا، يَقُولُ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لَبَّيْكَ عُمْرَةً وَحَجًّا ‏\"‏ ‏.‏ وَقَالَ حُمَيْدٌ قَالَ أَنَسٌ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ لَبَّيْكَ بِعُمْرَةٍ وَحَجٍّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bdf609ece74bc19580e688b3ffa7f347f50a90fd672e635b8bd273ade53a5535",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Hushaim nous a informés, d’après Yahya ibn Abu Ishaq, Abd al-Aziz ibn Suhayb et Humayd, qui avaient tous entendu Anas, qu’Allah l’agrée, dire : j’ai entendu le Messager d’Allah ﷺ entrer en état de sacralisation pour les deux rites ensemble en disant : me voici pour une omra et un pèlerinage, me voici pour une omra et un pèlerinage. Ali ibn Hujr m’a également rapporté : Ismail ibn Ibrahim nous a informés, d’après Yahya ibn Abu Ishaq et Humayd al-Tawil. Yahya dit : j’ai entendu Anas dire qu’il avait entendu le Prophète ﷺ dire : me voici pour une omra et un pèlerinage. Humayd rapporte qu’Anas disait avoir entendu le Messager d’Allah ﷺ dire : me voici pour une omra et un pèlerinage.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b5949a90-d899-450d-9150-b5c3683ce4be",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1252a",
+      "reference": "Sahih Muslim, hadith 1252 a, book 15, باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "title": "باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَعَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، - قَالَ سَعِيدٌ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، - حَدَّثَنِي الزُّهْرِيُّ، عَنْ حَنْظَلَةَ الأَسْلَمِيِّ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، - رضى الله عنه - يُحَدِّثُ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ وَالَّذِي نَفْسِي بِيَدِهِ لَيُهِلَّنَّ ابْنُ مَرْيَمَ بِفَجِّ الرَّوْحَاءِ حَاجًّا أَوْ مُعْتَمِرًا أَوْ لَيَثْنِيَنَّهُمَا ‏\"‏ ‏.‏ وَحَدَّثَنَاهُ قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنِ ابْنِ شِهَابٍ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ قَالَ ‏\"‏ وَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "48ad6045779f34ccc8b2adc5b5a8ffb94455faddfef6d6e0a14193bdb6aa6805",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Said ibn Mansur, Amr al-Naqid et Zuhayr ibn Harb nous ont rapporté, tous d’après Ibn Uyayna. Said dit : Sufyan ibn Uyayna nous a rapporté : al-Zuhri m’a rapporté, d’après Hanzala al-Aslami, qui a dit : j’ai entendu Abu Hurayra, qu’Allah l’agrée, rapporter que le Prophète ﷺ a dit : par Celui qui tient mon âme en Sa main, le fils de Maryam entrera en état de sacralisation dans la vallée de al-Rawha, pour le pèlerinage, la omra, ou les deux ensemble. Qutayba ibn Said nous l’a également rapporté : Layth nous a rapporté, d’après Ibn Shihab, avec la même chaîne et le même récit. Il ajoute : par Celui qui tient l’âme de Muhammad en Sa main.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b941ba38-5e6d-42b2-a0d8-1f876b5d8349",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1252b",
+      "reference": "Sahih Muslim, hadith 1252 b, book 15, باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "title": "باب إِهْلاَلِ النَّبِيِّ صلى الله عليه وسلم وَهَدْيِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ حَنْظَلَةَ بْنِ عَلِيٍّ الأَسْلَمِيِّ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، - رضى الله عنه - يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَالَّذِي نَفْسِي بِيَدِهِ ‏\"‏ ‏.‏ بِمِثْلِ حَدِيثِهِمَا ‏.‏",
+      "source_hash_sha256": "d195d874fc32fdd9ea927144483ca3bacfb432ed0070cda2597d78b63de4ef58",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "52c40c03-d993-49fb-96d2-c11a2449e8dd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1252c",
+      "reference": "Sahih Muslim, hadith 1252 c, book 15, باب بَيَانِ عَدَدِ عُمَرِ النَّبِيِّ صلى الله عليه وسلم وَزَمَانِهِنَّ ‏",
+      "title": "باب بَيَانِ عَدَدِ عُمَرِ النَّبِيِّ صلى الله عليه وسلم وَزَمَانِهِنَّ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، أَنَّ أَنَسًا، - رضى الله عنه - أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم اعْتَمَرَ أَرْبَعَ عُمَرٍ كُلُّهُنَّ فِي ذِي الْقَعْدَةِ إِلاَّ الَّتِي مَعَ حَجَّتِهِ عُمْرَةً مِنَ الْحُدَيْبِيَةِ أَوْ زَمَنَ الْحُدَيْبِيَةِ فِي ذِي الْقَعْدَةِ وَعُمْرَةً مِنَ الْعَامِ الْمُقْبِلِ فِي ذِي الْقَعْدَةِ وَعُمْرَةً مِنْ جِعْرَانَةَ حَيْثُ قَسَمَ غَنَائِمَ حُنَيْنٍ فِي ذِي الْقَعْدَةِ وَعُمْرَةً مَعَ حَجَّتِهِ‏.‏",
+      "source_hash_sha256": "98c2df6b82b4a4ba6659527ff2e6381ec22b8cad6c0afe25c4b3dd9dc15a02f5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Haddab ibn Khalid nous a rapporté : Hammam nous a rapporté : Qatada nous a rapporté qu’Anas, qu’Allah l’agrée, lui avait rapporté que le Messager d’Allah ﷺ accomplit quatre omras, toutes au mois de Dhu al-Qada, à l’exception de celle associée à son pèlerinage. Il accomplit une omra à al-Hudaybiya, ou à l’époque d’al-Hudaybiya, au mois de Dhu al-Qada ; une omra l’année suivante, au mois de Dhu al-Qada ; une omra depuis Ji‘rana, où il distribua le butin de Hunayn, au mois de Dhu al-Qada ; et une omra avec son pèlerinage.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "fd5bbbe5-8da8-4b46-89ce-83b8568cf3cc",
+      "reason": "La source donne uniquement une chaîne de transmission et une variante de formulation d’un récit précédent sans en reproduire le texte complet. Garder toute la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    },
+    {
+      "source_id": "b941ba38-5e6d-42b2-a0d8-1f876b5d8349",
+      "reason": "La source donne uniquement une chaîne de transmission et une variante de formulation d’un récit précédent sans en reproduire le texte complet. Garder toute la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    }
+  ]
+}
