@@ -2601,3 +2601,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-537` saves six private French drafts about the ‘Abd al-Qays delegation, the Prophet’s estate, and his final illness.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,792 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,863, including held records.
+
+### 2026-10-29: Bukhari 3101–3106
+
+- `FR-LIB-HAD-BUKHARI-538` saves six private French drafts about Safiyya’s visit during retreat, the Prophet’s homes, and his seal.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,798 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,857, including held records.
