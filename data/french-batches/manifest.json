@@ -41641,6 +41641,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0612",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0612.json",
+      "sourceIds": [
+        "eed8a948-1553-4a53-ad3b-ceab3cfdfdc2",
+        "5595009d-711b-4a0d-9f9c-70bb7b1278bd",
+        "d07aa9dd-542a-448a-83e1-a19d359a0f49",
+        "b8014083-2830-484b-bd99-944a82ad0040",
+        "024b216c-fc1f-4093-95fc-699b2a846881",
+        "e69d05cb-729e-47a8-8682-b5be960bbdaf"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two cross-reference-only variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45948,8 +45969,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8768,
-  "hadithLocalRemaining": 5861,
+  "hadithLocalDrafted": 8772,
+  "hadithLocalRemaining": 5857,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49811,10 +49832,20 @@
       "source_id": "47701ccd-836d-4bfe-a9c7-cd73009c7447",
       "reason": "Cette entrée ne reproduit pas le récit et se limite à une référence au précédent (« بِهَذَا الإِسْنَادِ مِثْلَهُ »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "eed8a948-1553-4a53-ad3b-ceab3cfdfdc2",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement au rapport précédent (« نَحْوَهُ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "e69d05cb-729e-47a8-8682-b5be960bbdaf",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement au rapport précédent (« نَحْوَهُ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2432,
+  "hadithMuslimDrafted": 2436,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1065
+  "hadithNeedsMo": 1067
 }

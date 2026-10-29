@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0612",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:28:38.473Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "eed8a948-1553-4a53-ad3b-ceab3cfdfdc2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1376b",
+      "reference": "Sahih Muslim, hadith 1376 b, book 15, باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "title": "باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، وَابْنُ، نُمَيْرٍ عَنْ هِشَامِ بْنِ عُرْوَةَ، بِهَذَا الإِسْنَادِ ‏.‏ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "2fed4b2796874af6d64fe354063b8af26c4383b3b63a739edd96adceefdc3166",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5595009d-711b-4a0d-9f9c-70bb7b1278bd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1377a",
+      "reference": "Sahih Muslim, hadith 1377 a, book 15, باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "title": "باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عُثْمَانُ بْنُ عُمَرَ، أَخْبَرَنَا عِيسَى بْنُ حَفْصِ بْنِ عَاصِمٍ، حَدَّثَنَا نَافِعٌ، عَنِ ابْنِ عُمَرَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ صَبَرَ عَلَى لأْوَائِهَا كُنْتُ لَهُ شَفِيعًا أَوْ شَهِيدًا يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6ecd88fe3bd3fa3ae83d7d6d930e98bdb9076ea192357c1f4cf5a171dcf2e4f5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte avoir entendu le Messager d’Allah ﷺ dire : « Quiconque endure les difficultés de Médine, je serai son intercesseur ou son témoin au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d07aa9dd-542a-448a-83e1-a19d359a0f49",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1377b",
+      "reference": "Sahih Muslim, hadith 1377 b, book 15, باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "title": "باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ قَطَنِ بْنِ وَهْبِ بْنِ عُوَيْمِرِ بْنِ، الأَجْدَعِ عَنْ يُحَنِّسَ، مَوْلَى الزُّبَيْرِ أَخْبَرَهُ أَنَّهُ، كَانَ جَالِسًا عِنْدَ عَبْدِ اللَّهِ بْنِ عُمَرَ فِي الْفِتْنَةِ فَأَتَتْهُ مَوْلاَةٌ لَهُ تُسَلِّمُ عَلَيْهِ فَقَالَتْ إِنِّي أَرَدْتُ الْخُرُوجَ يَا أَبَا عَبْدِ الرَّحْمَنِ اشْتَدَّ عَلَيْنَا الزَّمَانُ ‏.‏ فَقَالَ لَهَا عَبْدُ اللَّهِ اقْعُدِي لَكَاعِ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ يَصْبِرُ عَلَى لأْوَائِهَا وَشِدَّتِهَا أَحَدٌ إِلاَّ كُنْتُ لَهُ شَهِيدًا أَوْ شَفِيعًا يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a64ab8793ad3feee28d2e4859027333046fab06238166d99c319c1910d0b11c5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahnis, l’affranchi d’al-Zubayr, rapporte qu’il était assis auprès d’Abd Allah ibn Umar pendant les troubles lorsqu’une femme liée à sa maison vint le saluer. Elle dit : « Abu Abd al-Rahman, je voudrais partir ; les temps sont devenus très difficiles pour nous. » Abd Allah lui répondit : « Reste assise, femme. J’ai entendu le Messager d’Allah ﷺ dire : “Nul n’endure les difficultés et la rudesse de Médine sans que je sois son témoin ou son intercesseur au Jour de la Résurrection.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b8014083-2830-484b-bd99-944a82ad0040",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1377c",
+      "reference": "Sahih Muslim, hadith 1377 c, book 15, باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "title": "باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ رَافِعٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، أَخْبَرَنَا الضَّحَّاكُ، عَنْ قَطَنٍ الْخُزَاعِيِّ، عَنْ يُحَنِّسَ، مَوْلَى مُصْعَبٍ عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ صَبَرَ عَلَى لأْوَائِهَا وَشِدَّتِهَا كُنْتُ لَهُ شَهِيدًا أَوْ شَفِيعًا يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏ يَعْنِي الْمَدِينَةَ ‏.‏",
+      "source_hash_sha256": "182b19692c910810c7df62e99f43ef237cbc0eb2d9b1b615002113b5d8c9a476",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Umar rapporte avoir entendu le Messager d’Allah ﷺ dire : « Quiconque endure les difficultés et la rudesse de Médine, je serai son témoin ou son intercesseur au Jour de la Résurrection. » Le narrateur précise qu’il s’agit de Médine.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "024b216c-fc1f-4093-95fc-699b2a846881",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1378a",
+      "reference": "Sahih Muslim, hadith 1378 a, book 15, باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "title": "باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ جَمِيعًا عَنْ إِسْمَاعِيلَ بْنِ جَعْفَرٍ، عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَصْبِرُ عَلَى لأْوَاءِ الْمَدِينَةِ وَشِدَّتِهَا أَحَدٌ مِنْ أُمَّتِي إِلاَّ كُنْتُ لَهُ شَفِيعًا يَوْمَ الْقِيَامَةِ أَوْ شَهِيدًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5d507d17b2f05320f9ba54a8082f7c662ceb2c2d8793b76d971290ff17ba95f8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Nul membre de ma communauté n’endure les difficultés et la rudesse de Médine sans que je sois son intercesseur ou son témoin au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e69d05cb-729e-47a8-8682-b5be960bbdaf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1378b",
+      "reference": "Sahih Muslim, hadith 1378 b, book 15, باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "title": "باب التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى لأْوَائِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي هَارُونَ، مُوسَى بْنِ أَبِي عِيسَى أَنَّهُ سَمِعَ أَبَا عَبْدِ اللَّهِ الْقَرَّاظَ، يَقُولُ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "b37e21158dbc98e926e285a2d96cb708509f1d4264810706c9eb4a4f3b72f072",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "eed8a948-1553-4a53-ad3b-ceab3cfdfdc2",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement au rapport précédent (« نَحْوَهُ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "e69d05cb-729e-47a8-8682-b5be960bbdaf",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement au rapport précédent (« نَحْوَهُ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
