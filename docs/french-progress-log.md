@@ -7227,3 +7227,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0024 saves 6 private French drafts on mutual love, sincere counsel, and pledges to advise fellow Muslims. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 110 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,183, including held records.
+
+### 2026-10-29: Muslim 56b–57d
+
+- FR-LIB-HAD-MUSLIM-0025 saves 5 private French drafts. Hadith 57d contains transmission chains but no text of the report; it remains blank under Needs Mo until a complete source is available. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 115 of 7,366. Hadith Needs Mo: 177. Total local hadith rows not drafted: 8,178, including held records.
