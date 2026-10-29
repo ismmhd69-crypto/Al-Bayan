@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0220",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:35:33.943Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b2995f81-3b35-4efb-a370-4c41a7d84d1f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:533c",
+      "reference": "Sahih Muslim, hadith 533 c, book 55, باب فَضْلِ بِنَاءِ الْمَسَاجِدِ",
+      "title": "باب فَضْلِ بِنَاءِ الْمَسَاجِدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، وَأَحْمَدُ بْنُ عِيسَى، قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، - وَهُوَ ابْنُ الْحَارِثِ - أَنَّ بُكَيْرًا، حَدَّثَهُ أَنَّ عَاصِمَ بْنَ عُمَرَ بْنِ قَتَادَةَ حَدَّثَهُ أَنَّهُ، سَمِعَ عُبَيْدَ اللَّهِ الْخَوْلاَنِيَّ، يَذْكُرُ أَنَّهُ سَمِعَ عُثْمَانَ بْنَ عَفَّانَ، عِنْدَ قَوْلِ النَّاسِ فِيهِ حِينَ بَنَى مَسْجِدَ رَسُولِ اللَّهِ صلى الله عليه وسلم إِنَّكُمْ قَدْ أَكْثَرْتُمْ وَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ بَنَى مَسْجِدًا - قَالَ بُكَيْرٌ حَسِبْتُ أَنَّهُ قَالَ - يَبْتَغِي بِهِ وَجْهَ اللَّهِ بَنَى اللَّهُ لَهُ مِثْلَهُ فِي الْجَنَّةِ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ هَارُونَ ‏\"‏ بَنَى اللَّهُ لَهُ بَيْتًا فِي الْجَنَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "35d7ed450caeec238620b818a4f1c93681afdd0e887c3360abd7d68f3c9df64c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "690b3089-84cb-42fd-8058-725f7fb410b0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:533d",
+      "reference": "Sahih Muslim, hadith 533 d, book 55, باب فَضْلِ بِنَاءِ الْمَسَاجِدِ",
+      "title": "باب فَضْلِ بِنَاءِ الْمَسَاجِدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، كِلاَهُمَا عَنِ الضَّحَّاكِ، - قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا الضَّحَّاكُ بْنُ مَخْلَدٍ، - أَخْبَرَنَا عَبْدُ الْحَمِيدِ بْنُ جَعْفَرٍ، حَدَّثَنِي أَبِي، عَنْ مَحْمُودِ بْنِ لَبِيدٍ، أَنَّ عُثْمَانَ بْنَ عَفَّانَ، أَرَادَ بِنَاءَ الْمَسْجِدِ فَكَرِهَ النَّاسُ ذَلِكَ وَأَحَبُّوا أَنْ يَدَعَهُ عَلَى هَيْئَتِهِ فَقَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ بَنَى مَسْجِدًا لِلَّهِ بَنَى اللَّهُ لَهُ فِي الْجَنَّةِ مِثْلَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "edb28ed139319415aca7664846136602a3184b209f30d4b2e4ce80615b493ac5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Muhammad ibn al-Muthanna nous ont rapporté, tous deux d’après al-Dahhak — Ibn al-Muthanna précisa : al-Dahhak ibn Makhlad nous a rapporté —, qui nous a informés : Abd al-Hamid ibn Ja‘far nous a rapporté : mon père m’a rapporté, d’après Mahmud ibn Labid, qu’Uthman ibn Affan voulut reconstruire la mosquée. Les gens désapprouvèrent et souhaitèrent la laisser telle quelle. Uthman dit : « J’ai entendu le Messager d’Allah ﷺ dire : “Quiconque bâtit une mosquée pour Allah, Allah lui en bâtira une semblable au Paradis.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "71277385-0eb5-400b-ba48-6f33e459e7dd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:533e",
+      "reference": "Sahih Muslim, hadith 533 e, book 55, باب فَضْلِ بِنَاءِ الْمَسَاجِدِ",
+      "title": "باب فَضْلِ بِنَاءِ الْمَسَاجِدِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، حَدَّثَنَا أَبُو بَكْرٍ الْحَنَفِيُّ، وَعَبْدُ الْمَلِكِ بْنُ، الصَّبَّاحِ كِلاَهُمَا عَنْ عَبْدِ الْحَمِيدِ بْنِ جَعْفَرٍ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّ فِي، حَدِيثِهِمَا ‏\"‏ بَنَى اللَّهُ لَهُ بَيْتًا فِي الْجَنَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a2cbaf5165b4e46182b35ac86224848a10fbb07173fb66cdd92f10b4b6161f6e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b141884f-050c-4ee7-a930-54e05504d572",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:534a",
+      "reference": "Sahih Muslim, hadith 534 a, book 5, باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "title": "باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ الْهَمْدَانِيُّ أَبُو كُرَيْبٍ، قَالَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، وَعَلْقَمَةَ، قَالاَ أَتَيْنَا عَبْدَ اللَّهِ بْنَ مَسْعُودٍ فِي دَارِهِ فَقَالَ أَصَلَّى هَؤُلاَءِ خَلْفَكُمْ فَقُلْنَا لاَ ‏.‏ قَالَ فَقُومُوا فَصَلُّوا ‏.‏ فَلَمْ يَأْمُرْنَا بِأَذَانٍ وَلاَ إِقَامَةٍ - قَالَ - وَذَهَبْنَا لِنَقُومَ خَلْفَهُ فَأَخَذَ بِأَيْدِينَا فَجَعَلَ أَحَدَنَا عَنْ يَمِينِهِ وَالآخَرَ عَنْ شِمَالِهِ - قَالَ - فَلَمَّا رَكَعَ وَضَعْنَا أَيْدِيَنَا عَلَى رُكَبِنَا - قَالَ - فَضَرَبَ أَيْدِيَنَا وَطَبَّقَ بَيْنَ كَفَّيْهِ ثُمَّ أَدْخَلَهُمَا بَيْنَ فَخِذَيْهِ - قَالَ - فَلَمَّا صَلَّى قَالَ إِنَّهُ سَتَكُونُ عَلَيْكُمْ أُمَرَاءُ يُؤَخِّرُونَ الصَّلاَةَ عَنْ مِيقَاتِهَا وَيَخْنُقُونَهَا إِلَى شَرَقِ الْمَوْتَى فَإِذَا رَأَيْتُمُوهُمْ قَدْ فَعَلُوا ذَلِكَ فَصَلُّوا الصَّلاَةَ لِمِيقَاتِهَا وَاجْعَلُوا صَلاَتَكُمْ مَعَهُمْ سُبْحَةً وَإِذَا كُنْتُمْ ثَلاَثَةً فَصَلُّوا جَمِيعًا وَإِذَا كُنْتُمْ أَكْثَرَ مِنْ ذَلِكَ فَلْيَؤُمَّكُمْ أَحَدُكُمْ وَإِذَا رَكَعَ أَحَدُكُمْ فَلْيَفْرِشْ ذِرَاعَيْهِ عَلَى فَخِذَيْهِ وَلْيَجْنَأْ وَلْيُطَبِّقْ بَيْنَ كَفَّيْهِ فَلَكَأَنِّي أَنْظُرُ إِلَى اخْتِلاَفِ أَصَابِعِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَأَرَاهُمْ ‏.‏",
+      "source_hash_sha256": "2c45e5d9153177bcbadb28c71e2f79704f9bc783c995feff5b6a91294afd275f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kurayb — Muhammad ibn al-Ala al-Hamdani — nous a rapporté : Abu Mu‘awiya nous a rapporté, d’après al-A‘mash, d’après Ibrahim, d’après al-Aswad et Alqama, qui dirent : « Nous nous rendîmes chez Abdullah ibn Mas‘ud. Il demanda : “Ceux qui sont derrière vous ont-ils prié ?” Nous répondîmes : “Non.” Il dit : “Alors levez-vous et priez.” Il ne nous demanda ni appel à la prière ni appel annonçant son commencement. » Il dit : « Nous allions nous placer derrière lui, mais il nous prit par les mains et plaça l’un à sa droite et l’autre à sa gauche. Lorsqu’il s’inclina, nous posâmes les mains sur nos genoux. Il frappa nos mains, joignit ses paumes, puis les plaça entre ses cuisses. » Après la prière, il dit : « Des gouverneurs viendront à vous ; ils retarderont la prière après le début de son temps prescrit et en resserreront l’accomplissement jusqu’à la fin de sa période. Lorsque vous les verrez agir ainsi, accomplissez la prière à son heure et faites avec eux une prière surérogatoire. Si vous êtes trois, priez ensemble ; si vous êtes plus nombreux, que l’un de vous dirige la prière. Lorsque l’un de vous s’incline, qu’il pose ses avant-bras sur ses cuisses, qu’il se penche et joigne ses paumes. Je crois encore voir les doigts du Messager d’Allah ﷺ écartés ainsi ; il les leur montra. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "02f92efe-8b82-4e21-9542-a424567ab0e7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:534b",
+      "reference": "Sahih Muslim, hadith 534 b, book 5, باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "title": "باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مِنْجَابُ بْنُ الْحَارِثِ التَّمِيمِيُّ، أَخْبَرَنَا ابْنُ مُسْهِرٍ، ح قَالَ وَحَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا جَرِيرٌ، ح قَالَ وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا مُفَضَّلٌ، كُلُّهُمْ عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، وَالأَسْوَدِ، أَنَّهُمَا دَخَلاَ عَلَى عَبْدِ اللَّهِ ‏.‏ بِمَعْنَى حَدِيثِ أَبِي مُعَاوِيَةَ ‏.‏ وَفِي حَدِيثِ ابْنِ مُسْهِرٍ وَجَرِيرٍ فَلَكَأَنِّي أَنْظُرُ إِلَى اخْتِلاَفِ أَصَابِعِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ رَاكِعٌ ‏.‏",
+      "source_hash_sha256": "5cd5d0bb60e746aa201e364e9b8e2aacb1be929c52a8d104939a0a57cf3b0d9a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fa17c686-da99-4f6f-be74-7ce68b0ee76e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:534c",
+      "reference": "Sahih Muslim, hadith 534 c, book 5, باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "title": "باب النَّدْبِ إِلَى وَضْعِ الأَيْدِي عَلَى الرُّكَبِ فِي الرُّكُوعِ وَنَسْخِ التَّطْبِيقِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ إِسْرَائِيلَ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، وَالأَسْوَدِ، أَنَّهُمَا دَخَلاَ عَلَى عَبْدِ اللَّهِ فَقَالَ أَصَلَّى مَنْ خَلْفَكُمْ قَالاَ نَعَمْ ‏.‏ فَقَامَ بَيْنَهُمَا وَجَعَلَ أَحَدَهُمَا عَنْ يَمِينِهِ وَالآخَرَ عَنْ شِمَالِهِ ثُمَّ رَكَعْنَا فَوَضَعْنَا أَيْدِيَنَا عَلَى رُكَبِنَا فَضَرَبَ أَيْدِيَنَا ثُمَّ طَبَّقَ بَيْنَ يَدَيْهِ ثُمَّ جَعَلَهُمَا بَيْنَ فَخِذَيْهِ فَلَمَّا صَلَّى قَالَ هَكَذَا فَعَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "1906e2b47422c12ba0bb4577cc6b23ebb49cb5094583b76da0027b1baf577350",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abdullah ibn Abd al-Rahman al-Darimi nous a rapporté : Ubayd Allah ibn Musa nous a informés, d’après Isra’il, d’après Mansur, d’après Ibrahim, d’après Alqama et al-Aswad, qui dirent : « Nous nous rendîmes chez Abdullah. Il demanda : “Ceux qui sont derrière vous ont-ils prié ?” Ils répondirent : “Oui.” Il se leva entre eux et plaça l’un à sa droite et l’autre à sa gauche. Nous nous inclinâmes et posâmes les mains sur nos genoux. Il frappa nos mains, joignit ses paumes, puis les plaça entre ses cuisses. Après la prière, il dit : “C’est ainsi que faisait le Messager d’Allah ﷺ.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b2995f81-3b35-4efb-a370-4c41a7d84d1f",
+      "reason": "La source ne donne que les chaînes de transmission et une variante de formulation sur la récompense, sans reprendre le récit complet. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "71277385-0eb5-400b-ba48-6f33e459e7dd",
+      "reason": "La source renvoie au même isnad et ne rapporte qu’une variante du texte sur la récompense (« une maison au Paradis »), sans reprendre le récit complet. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "02f92efe-8b82-4e21-9542-a424567ab0e7",
+      "reason": "La source ne reprend pas le récit complet ; elle renvoie au hadith d’Abu Mu‘awiya et ne donne qu’un ajout sur la position des doigts. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
