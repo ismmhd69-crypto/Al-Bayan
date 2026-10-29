@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1073",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:05:29.768Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "64bdff37-c6dd-43be-b9ac-cc75d895583f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2286a",
+      "reference": "Sahih Muslim, hadith 2286 a, book 43, باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "title": "باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ مُحَمَّدٍ النَّاقِدُ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَثَلِي وَمَثَلُ الأَنْبِيَاءِ كَمَثَلِ رَجُلٍ بَنَى بُنْيَانًا فَأَحْسَنَهُ وَأَجْمَلَهُ فَجَعَلَ النَّاسُ يُطِيفُونَ بِهِ يَقُولُونَ مَا رَأَيْنَا بُنْيَانًا أَحْسَنَ مِنْ هَذَا إِلاَّ هَذِهِ اللَّبِنَةَ ‏.‏ فَكُنْتُ أَنَا تِلْكَ اللَّبِنَةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9aab9cdbbffdba22c67a9103dffc6032424202865e85fa22776e57c4734e1453",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète ﷺ a dit : « Ma situation et celle des prophètes ressemblent à celle d’un homme qui construisit une maison et la rendit belle et parfaite. Les gens en faisaient le tour et disaient : “Nous n’avons jamais vu de construction plus belle que celle-ci, à l’exception de cette brique manquante.” Je suis cette brique. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "093102e2-3268-4a24-bcb8-0f55553aaf72",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2286b",
+      "reference": "Sahih Muslim, hadith 2286 b, book 43, باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "title": "باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ أَبُو الْقَاسِمِ صلى الله عليه وسلم ‏\"‏ مَثَلِي وَمَثَلُ الأَنْبِيَاءِ مِنْ قَبْلِي كَمَثَلِ رَجُلٍ ابْتَنَى بُيُوتًا فَأَحْسَنَهَا وَأَجْمَلَهَا وَأَكْمَلَهَا إِلاَّ مَوْضِعَ لَبِنَةٍ مِنْ زَاوِيَةٍ مِنْ زَوَايَاهَا فَجَعَلَ النَّاسُ يَطُوفُونَ وَيُعْجِبُهُمُ الْبُنْيَانُ فَيَقُولُونَ أَلاَّ وَضَعْتَ هَا هُنَا لَبِنَةً فَيَتِمَّ بُنْيَانُكَ ‏\"‏ ‏.‏ فَقَالَ مُحَمَّدٌ صلى الله عليه وسلم ‏\"‏ فَكُنْتُ أَنَا اللَّبِنَةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "56a498c02444b930ac2487372299529e57528ca625ee1a65663692a45e447e27",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ a dit : « Ma situation et celle des prophètes qui m’ont précédé ressemblent à celle d’un homme qui bâtit de belles et parfaites maisons, à l’exception de l’emplacement d’une brique dans l’un des angles. Les gens faisaient le tour de la construction et l’admiraient, puis disaient : “Si seulement tu mettais ici une brique, ta construction serait achevée.” » Muhammad ﷺ ajouta : « Je suis cette brique. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a29d61bc-f68b-40f4-8f77-5afeab031011",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2286c",
+      "reference": "Sahih Muslim, hadith 2286 c, book 43, باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "title": "باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنُونَ ابْنَ جَعْفَرٍ - عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ أَبِي صَالِحٍ السَّمَّانِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَثَلِي وَمَثَلُ الأَنْبِيَاءِ مِنْ قَبْلِي كَمَثَلِ رَجُلٍ بَنَى بُنْيَانًا فَأَحْسَنَهُ وَأَجْمَلَهُ إِلاَّ مَوْضِعَ لَبِنَةٍ مِنْ زَاوِيَةٍ مِنْ زَوَايَاهُ فَجَعَلَ النَّاسُ يَطُوفُونَ بِهِ وَيَعْجَبُونَ لَهُ وَيَقُولُونَ هَلاَّ وُضِعَتْ هَذِهِ اللَّبِنَةُ - قَالَ - فَأَنَا اللَّبِنَةُ وَأَنَا خَاتَمُ النَّبِيِّينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "07ee55a0cc3b8f88e01cdce8d32030c5f30fdbf06faabb7e1bd327bb36bb6723",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ a dit : « Ma situation et celle des prophètes qui m’ont précédé ressemblent à celle d’un homme qui construisit une maison et la rendit belle, à l’exception de l’emplacement d’une brique dans l’un de ses angles. Les gens en faisaient le tour, l’admiraient et disaient : “Pourquoi cette brique n’a-t-elle pas été posée ?” Il dit : “Je suis cette brique, et je suis le sceau des prophètes.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "659b055e-a9d0-4b59-b070-37bafeec9f4b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2286d",
+      "reference": "Sahih Muslim, hadith 2286 d, book 43, باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "title": "باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي سَعِيدٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَثَلِي وَمَثَلُ النَّبِيِّينَ ‏\"‏ ‏.‏ فَذَكَرَ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "37dfae011e29f7e180e4fa154d59324baf6103d4d48a38d5a97c24406b075749",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6b8801ab-875d-469c-bfeb-443302ff73f3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2287a",
+      "reference": "Sahih Muslim, hadith 2287 a, book 43, باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "title": "باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَفَّانُ، حَدَّثَنَا سَلِيمُ بْنُ حَيَّانَ، حَدَّثَنَا سَعِيدُ، بْنُ مِينَاءَ عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَثَلِي وَمَثَلُ الأَنْبِيَاءِ كَمَثَلِ رَجُلٍ بَنَى دَارًا فَأَتَمَّهَا وَأَكْمَلَهَا إِلاَّ مَوْضِعَ لَبِنَةٍ فَجَعَلَ النَّاسُ يَدْخُلُونَهَا وَيَتَعَجَّبُونَ مِنْهَا وَيَقُولُونَ لَوْلاَ مَوْضِعُ اللَّبِنَةِ ‏\"‏ ‏.‏ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ فَأَنَا مَوْضِعُ اللَّبِنَةِ جِئْتُ فَخَتَمْتُ الأَنْبِيَاءَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "74747616d2ad3a178d5cd80cd8b783fc28113864fa85df5796b34970b4780dc3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte que le Prophète ﷺ a dit : « Ma situation et celle des prophètes ressemblent à celle d’un homme qui bâtit une maison et l’achève, la rendant parfaite, à l’exception de l’emplacement d’une brique. Les gens y entraient, s’émerveillaient et disaient : “Si seulement il n’y avait pas cet emplacement de brique !” » Le Messager d’Allah ﷺ ajouta : « Je suis cet emplacement de brique : je suis venu et j’ai scellé la succession des prophètes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e4d75785-a457-4442-9a57-419d7f5cd16d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2287b",
+      "reference": "Sahih Muslim, hadith 2287 b, book 43, باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "title": "باب ذِكْرِ كَوْنِهِ صلى الله عليه وسلم خَاتَمَ النَّبِيِّينَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا ابْنُ مَهْدِيٍّ، حَدَّثَنَا سَلِيمٌ، بِهَذَا الإِسْنَادِ مِثْلَهُ وَقَالَ بَدَلَ أَتَمَّهَا أَحْسَنَهَا ‏.‏",
+      "source_hash_sha256": "1569e4f664bdfcb58041717f235f3eb83ae7580c3f6145b21224a0db8022f6fd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "659b055e-a9d0-4b59-b070-37bafeec9f4b",
+      "reason": "Cette entrée ne fait que renvoyer à la version précédente et n’en reproduit pas le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "e4d75785-a457-4442-9a57-419d7f5cd16d",
+      "reason": "Cette entrée ne fait que renvoyer à la version précédente et n’en reproduit pas le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
