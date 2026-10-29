@@ -56,14 +56,14 @@
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
     "hardcodedVisitorCopyDrafted": 24,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 222,
+    "hadithBukhariDrafted": 228,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 222,
+    "hadithLocalDrafted": 228,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 14407,
+    "hadithLocalRemaining": 14401,
     "hadithNeedsMo": 14,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -1349,7 +1349,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local AI drafts"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-044",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-044.json",
+      "sourceIds": ["dee2bd0c-6318-4292-97b6-7fe04c0bac88", "2d7ecb6e-eaf1-4798-b95d-dd5b4118c0bb", "97fae600-ba6b-46af-a3a3-074a1304c2c8", "47045c92-7278-47d8-9649-558e2b5a6f03", "1be0de4b-a948-47bf-882a-6a7d48d1e662", "d5cae8bf-fd0a-4448-8b95-9e45763418c6"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hashes, IDs, URLs, references, rights, private status, and all six complete translations passed; named persons and source variant preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local AI drafts"
     }
+
 
 
 
