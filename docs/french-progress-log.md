@@ -1396,3 +1396,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-292` saves six private French drafts for the available source records 1682–1686 and 1688. No source record for 1687 was present in this exporter batch. They preserve the reports on prayer timing in Muzdalifa and the talbiya through the Jamra, including variants. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,540 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 91. Total local hadith rows not drafted: 13,088, including held records.
+
+### 2026-10-29: Bukhari 1689–1694 source review
+
+- `FR-LIB-HAD-BUKHARI-293` saves five private French drafts for Bukhari 1689–1692 and 1694. Bukhari 1693 remains blank and is recorded under Needs Mo because it directly quotes Quran 33:21; no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,545 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 92. Total local hadith rows not drafted: 13,083, including held records.
