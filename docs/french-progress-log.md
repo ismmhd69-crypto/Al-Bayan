@@ -5862,3 +5862,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6220–6225
 
 - FR-LIB-HAD-BUKHARI-1145 saves six private French drafts about manners, sneezing, and the prohibited pebble game. No database writes or publication occurred. Bukhari local drafts: 5,214 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 768. Total local hadith rows not drafted: 9,413, including held records.
+
+### 2026-10-29: Bukhari 6226–6231
+
+- FR-LIB-HAD-BUKHARI-1146 saves six private French drafts about manners, pilgrimage, and prayer. No database writes or publication occurred. Bukhari local drafts: 5,220 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 768. Total local hadith rows not drafted: 9,407, including held records.
