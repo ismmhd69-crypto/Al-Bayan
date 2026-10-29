@@ -47832,6 +47832,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1065",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1065.json",
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "two complete reports translated as private drafts; four transmission variants left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52139,8 +52152,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9537,
-  "hadithLocalRemaining": 4989,
+  "hadithLocalDrafted": 9539,
+  "hadithLocalRemaining": 4987,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -57547,10 +57560,30 @@
       "source_id": "d5d55c1c-aeca-4e04-b873-c7e8c4d32bfb",
       "reason": "Cette entrée rapporte seulement une chaîne de transmission ou des différences par rapport au récit précédent, sans texte complet autonome. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "42248aa1-7f4f-4afd-abf4-36dee1e322e8",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission ou renvoie à un récit antérieur sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ff5e3b1e-c162-44f5-b0d4-24c4aafad0ee",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission ou renvoie à un récit antérieur sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ab065e52-d7c7-4fa2-9f9e-ba5cc0246dbe",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission ou renvoie à un récit antérieur sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "37095f41-ee5b-4868-a686-c7209639583e",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission ou renvoie à un récit antérieur sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3374,
+  "hadithMuslimDrafted": 3376,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1408
+  "hadithNeedsMo": 1412
 }
