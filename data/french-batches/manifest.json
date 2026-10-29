@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-fr-drafts; missing-only inserts authorized where existing schema and source rights permit; public activation forbidden",
-  "lastReconciled": "2026-10-29T22:39:43.817Z",
+  "lastReconciled": "2026-10-29T22:39:59.195Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -66,11 +66,11 @@
     "hadithLocalDrafted": 11510,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 3119,
-    "hadithNeedsMo": 2932,
+    "hadithNeedsMo": 2933,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14442,
-    "hadithSourcesNotYetExported": 187
+    "hadithSourcesProcessed": 14443,
+    "hadithSourcesNotYetExported": 186
   },
   "batches": [
     {
@@ -52550,6 +52550,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1331",
+      "contentType": "hadith-library",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1331.json",
+      "sourceIds": [
+        "f7b31503-12b8-4291-8431-67f2f76daac6"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 1,
+      "failed": 0,
+      "remaining": 3119,
+      "validation": "Focused French hadith validator passed; full report is held because it includes Quran quotations pending authorized French wording and attribution.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -62923,9 +62942,9 @@
   "hadithMuslimDrafted": 5174,
   "hadithDatabaseMissing": 14629,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 2932,
+  "hadithNeedsMo": 2933,
   "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
-  "hadithSourcesProcessed": 14442,
-  "hadithSourcesNotYetExported": 187,
+  "hadithSourcesProcessed": 14443,
+  "hadithSourcesNotYetExported": 186,
   "hadithPublished": 0
 }
