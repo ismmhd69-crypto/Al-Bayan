@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1081",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:07:19.090Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "eaf25c95-ffd5-4e1b-8a87-341ca1614313",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2309a",
+      "reference": "Sahih Muslim, hadith 2309 a, book 43, باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "title": "باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَأَبُو الرَّبِيعِ، قَالاَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ ثَابِتٍ الْبُنَانِيِّ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ خَدَمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَشْرَ سِنِينَ وَاللَّهِ مَا قَالَ لِي أُفًّا ‏.‏ قَطُّ وَلاَ قَالَ لِي لِشَىْءٍ لِمَ فَعَلْتَ كَذَا وَهَلاَّ فَعَلْتَ كَذَا زَادَ أَبُو الرَّبِيعِ لَيْسَ مِمَّا يَصْنَعُهُ الْخَادِمُ ‏.‏ وَلَمْ يَذْكُرْ قَوْلَهُ وَاللَّهِ ‏.‏",
+      "source_hash_sha256": "6c12fd7e4e39921f183108b274d77b8bf0f7475ee2c9d07811cdcf3c7ce3381c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte : « J’ai servi le Messager d’Allah ﷺ pendant dix ans. Par Allah, jamais il ne m’a dit “ouf”, pas même une fois. Il ne m’a jamais dit à propos de quelque chose : “Pourquoi as-tu fait cela ?” ni “Tu aurais dû faire cela.” » Abû al-Rabîʿ ajoute : « même pour une chose qu’un serviteur accomplit habituellement ». Cette version ne rapporte pas le serment « Par Allah ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2fe06d39-8f2b-4cc8-a5f2-50d14a558cbe",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2309b",
+      "reference": "Sahih Muslim, hadith 2309 b, book 43, باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "title": "باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا سَلاَّمُ بْنُ مِسْكِينٍ، حَدَّثَنَا ثَابِتٌ الْبُنَانِيُّ، عَنْ أَنَسٍ، بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "c5b3b20d0a6b3e99ef694a4d01c6652c0f427310f5760b6400ddd4cc24f4d95b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "09c0b4cd-15f7-49b1-89c3-43ec1eea7680",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2309c",
+      "reference": "Sahih Muslim, hadith 2309 c, book 43, باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "title": "باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَحْمَدُ بْنُ حَنْبَلٍ، وَزُهَيْرُ بْنُ حَرْبٍ، جَمِيعًا عَنْ إِسْمَاعِيلَ، - وَاللَّفْظُ لأَحْمَدَ - قَالاَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، عَنْ أَنَسٍ، قَالَ لَمَّا قَدِمَ رَسُولُ اللَّهِ صلى الله عليه وسلم الْمَدِينَةَ أَخَذَ أَبُو طَلْحَةَ بِيَدِي فَانْطَلَقَ بِي إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنَّ أَنَسًا غُلاَمٌ كَيِّسٌ فَلْيَخْدُمْكَ ‏.‏ قَالَ فَخَدَمْتُهُ فِي السَّفَرِ وَالْحَضَرِ وَاللَّهِ مَا قَالَ لِي لِشَىْءٍ صَنَعْتُهُ لِمَ صَنَعْتَ هَذَا هَكَذَا وَلاَ لِشَىْءٍ لَمْ أَصْنَعْهُ لِمَ لَمْ تَصْنَعْ هَذَا هَكَذَا",
+      "source_hash_sha256": "fbc25e9af01b09419b7216fffc3f2623022fb0d3da08c630ffb9febc09d62702",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte : « Lorsque le Messager d’Allah ﷺ arriva à Médine, Abû Talha me prit par la main et m’emmena auprès de lui. Il dit : “Messager d’Allah, Anas est un garçon intelligent ; qu’il te serve.” Je le servis en voyage comme à la maison. Par Allah, jamais il ne me dit, à propos de quoi que ce soit que j’avais fait : “Pourquoi as-tu fait cela ainsi ?” ni, à propos de quelque chose que je n’avais pas fait : “Pourquoi ne l’as-tu pas fait ainsi ?” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f2c98faa-c5d0-4337-a314-adee5ae084fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2309d",
+      "reference": "Sahih Muslim, hadith 2309 d, book 43, باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "title": "باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، حَدَّثَنَا زَكَرِيَّاءُ، حَدَّثَنِي سَعِيدٌ، - وَهُوَ ابْنُ أَبِي بُرْدَةَ - عَنْ أَنَسٍ، قَالَ خَدَمْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم تِسْعَ سِنِينَ فَمَا أَعْلَمُهُ قَالَ لِي قَطُّ لِمَ فَعَلْتَ كَذَا وَكَذَا وَلاَ عَابَ عَلَىَّ شَيْئًا قَطُّ ‏.‏",
+      "source_hash_sha256": "e1e389cf0ade7b8f6b43ce341dafe34439daee07adaa6d7cb415dd458fdad35b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte : « J’ai servi le Messager d’Allah ﷺ pendant neuf ans. À ma connaissance, il ne m’a jamais dit : “Pourquoi as-tu fait telle ou telle chose ?” et ne m’a jamais reproché quoi que ce soit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6fca1bf2-b876-4a3b-ab3e-a360a43a17d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2310a",
+      "reference": "Sahih Muslim, hadith 2310 a, 2309 e, book 43, باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "title": "باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو مَعْنٍ الرَّقَاشِيُّ، زَيْدُ بْنُ يَزِيدَ أَخْبَرَنَا عُمَرُ بْنُ يُونُسَ، حَدَّثَنَا عِكْرِمَةُ، - وَهُوَ ابْنُ عَمَّارٍ - قَالَ قَالَ إِسْحَاقُ قَالَ أَنَسٌ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنْ أَحْسَنِ النَّاسِ خُلُقًا فَأَرْسَلَنِي يَوْمًا لِحَاجَةٍ فَقُلْتُ وَاللَّهِ لاَ أَذْهَبُ ‏.‏ وَفِي نَفْسِي أَنْ أَذْهَبَ لِمَا أَمَرَنِي بِهِ نَبِيُّ اللَّهِ صلى الله عليه وسلم فَخَرَجْتُ حَتَّى أَمُرَّ عَلَى صِبْيَانٍ وَهُمْ يَلْعَبُونَ فِي السُّوقِ فَإِذَا رَسُولُ اللَّهِ صلى الله عليه وسلم قَدْ قَبَضَ بِقَفَاىَ مِنْ وَرَائِي - قَالَ - فَنَظَرْتُ إِلَيْهِ وَهُوَ يَضْحَكُ فَقَالَ ‏\"‏ يَا أُنَيْسُ أَذَهَبْتَ حَيْثُ أَمَرْتُكَ ‏\"‏ ‏.‏ قَالَ قُلْتُ نَعَمْ أَنَا أَذْهَبُ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ أَنَسٌ وَاللَّهِ لَقَدْ خَدَمْتُهُ تِسْعَ سِنِينَ مَا عَلِمْتُهُ قَالَ لِشَىْءٍ صَنَعْتُهُ لِمَ فَعَلْتَ كَذَا وَكَذَا أَوْ لِشَىْءٍ تَرَكْتُهُ هَلاَّ فَعَلْتَ كَذَا وَكَذَا ‏.‏",
+      "source_hash_sha256": "6a2b48915a8daed1db5c509c6b861439762d84e758c17f705a156e0ea3f19948",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Messager d’Allah ﷺ avait le meilleur comportement. Un jour, il m’envoya faire une course. Je dis : « Par Allah, je n’irai pas », tout en ayant l’intention intérieure d’obéir au Prophète d’Allah ﷺ. Je sortis et passai devant des enfants qui jouaient au marché. Le Messager d’Allah ﷺ me saisit alors par la nuque, par-derrière. Je me retournai et le vis rire. Il me dit : « Anasounet, es-tu allé là où je t’avais envoyé ? » Je répondis : « Oui, Messager d’Allah, j’y vais. » Anas ajoute : « Par Allah, je l’ai servi pendant neuf ans et je ne l’ai jamais entendu me dire au sujet de quelque chose que j’avais fait : “Pourquoi as-tu fait cela ?” ni au sujet de quelque chose que j’avais omis : “Tu aurais dû faire cela.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "03c3e90f-1ae7-40d8-a5ed-d164e2566136",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2310b",
+      "reference": "Sahih Muslim, hadith 2310 b, book 43, باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "title": "باب كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، وَأَبُو الرَّبِيعِ، قَالاَ حَدَّثَنَا عَبْدُ الْوَارِثِ، عَنْ أَبِي التَّيَّاحِ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَحْسَنَ النَّاسِ خُلُقًا ‏.‏",
+      "source_hash_sha256": "5dbbc05e9b2197695b652de49012d3f71ab9527548ee731fa4b2e50db6f39f2e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte que le Messager d’Allah ﷺ avait le meilleur comportement parmi les gens.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "2fe06d39-8f2b-4cc8-a5f2-50d14a558cbe",
+      "reason": "Cette entrée ne fait que renvoyer au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
