@@ -13,7 +13,7 @@ import { hadithMode } from "@/lib/sources/hadith-mode";
 import { scholarQuoteAllowed } from "@/lib/sources/scholar-rules";
 import { resolveHadithHints } from "./hadith-hints";
 import { originalSection } from "./original-sections";
-import { simpleSelection } from "./simple-selection";
+import { simpleSelection, checkSelectedTranslations } from "./simple-selection";
 import { runRichAnswer } from "./rich-engine";
 import { abortable } from "./abort";
 import { researchFailure } from "./research-failure";
@@ -272,8 +272,9 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
       // prove every actual summary concern against these exact frozen originals.
       const {partial:_partial,...selected}=assessment.pack;
       state.pack=structuredClone(selected);
+      const translations=await checkSelectedTranslations(state.pack.passages.filter(p=>p.source.kind!=="quran"),frame.language,deps,signal);
       const sections=await Promise.all(groups.map(async group=>{
-        const section=await originalSection(group,state.pack!,frame.language,deps,signal,assessment.translations);
+        const section=await originalSection(group,state.pack!,frame.language,deps,signal,translations);
         if(!section.sources.length && group!=="quran" && deps.sourceAvailability?.[group]===false) section.outcome="unavailable";
         else if(problems.has(group) || deps.sourceProblems?.[group]) {
           if(section.sources.length) section.searchOutcome="search_failed";else section.outcome="search_failed";
@@ -289,6 +290,30 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
       onSection:(section)=>{if(section.group==="summary" && section.outcome==="ready") emit(section);},
       onWithdraw:()=>{},onIntegrity:notice=>{checkpoint.integrityBlocked=true;deps.rich?.onIntegrity?.(notice);}}},signal,question,{},Infinity,
       {checkedSections:state.frozen.filter(s=>s.outcome==="ready"),committedSources:true});
+    if(result.status!=="rich_answer" && ["question_coverage","source_support","missing_qualification"].includes(result.failureKind ?? "") && frame.interpretations?.length===2) {
+      // Seen live 2026-10-29: a well-supported first meaning was lost because the planner's second
+      // meaning could not be covered. Keep the meaning with more direct sources; name the other.
+      const direct=(id:string)=>state.pack!.passages.filter(p=>p.requirementIds.some(r=>frame.requirements.find(q=>q.id===r)?.interpretationId===id)).length;
+      const [keep,other]=[...frame.interpretations].sort((a,b)=>direct(b.id)-direct(a.id));
+      const requirements=frame.requirements.filter(r=>r.interpretationId!==other.id).map(({interpretationId:_i,...r})=>r);
+      if(requirements.length && requirements.length<frame.requirements.length && direct(keep.id)>0) {
+        deps.onDiagnostic?.("answer","simple_narrowed_to_interpretation",0,{count:requirements.length});
+        const uncovered=other.label.slice(0,80);
+        const narrowed=await runRichAnswer({...state.pack!,question:{...state.pack!.question,interpretations:[],requirements}},frame.language,{...deps,rich:{...deps.rich,
+          onSection:(section)=>{if(section.group==="summary" && section.outcome==="ready") emit({...section,uncovered});},
+          onWithdraw:()=>{},onIntegrity:notice=>{checkpoint.integrityBlocked=true;deps.rich?.onIntegrity?.(notice);}}},signal,question,{},Infinity,
+          {checkedSections:state.frozen!.filter(s=>s.outcome==="ready"),committedSources:true});
+        if(narrowed.status==="rich_answer") {
+          const summary={...narrowed.answer.sections.find(s=>s.group==="summary")!,uncovered};
+          const answer={...narrowed.answer,sections:[...state.frozen!,summary]};
+          if(validRichAnswer(answer)) {
+            state.summaryState="approved";state.gaps=[];delete state.lastFailure;
+            state.approved={answer:structuredClone(answer),fingerprint:fingerprint(answer)};
+            return {status:"rich_answer",answer};
+          }
+        }
+      }
+    }
     if(result.status!=="rich_answer") {
       const kind=result.failureKind ?? "checker_failure";
       const resumable=["transport_failure","connection_interrupted","cancelled","billing_uncertain","spending_limit","source_revalidation_unavailable","summary_provider_rejection"].includes(kind);

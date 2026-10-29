@@ -113,6 +113,7 @@ export const richText = {
     missing:
       "No verified translation is available here. The Arabic original is shown here.",
     guidance: "Your next step",
+    uncovered: "The sources found could not fully answer “{label}”. If that is what you meant, ask about it on its own.",
     next: "Ask a specific follow-up about the evidence or how it applies to your question. Personal circumstances may need a qualified scholar.",
   },
   ar: {
@@ -218,6 +219,7 @@ export const richText = {
     citedExcerpts: "مراجعة نصوص المصادر المستشهد بها",
     missing: "لا تتوفر هنا ترجمة موثقة. النص العربي الأصلي معروض هنا.",
     guidance: "خطوتك التالية",
+    uncovered: "لم تكفِ المصادر التي وُجدت للإجابة الكاملة عن «{label}». إن كان هذا ما تقصده، فاسأل عنه وحده.",
     next: "اسأل سؤال متابعة محددًا عن الدليل أو صلته بسؤالك. وقد تحتاج ظروفك الشخصية إلى سؤال عالم مؤهل.",
   },
   de: {
@@ -333,6 +335,7 @@ export const richText = {
     missing:
       "Hier ist keine geprüfte Übersetzung verfügbar. Der arabische Originaltext steht hier.",
     guidance: "Dein nächster Schritt",
+    uncovered: "Die gefundenen Quellen konnten „{label}“ nicht vollständig beantworten. Wenn du das gemeint hast, frage bitte gesondert danach.",
     next: "Stelle eine konkrete Nachfrage zum Beleg oder dazu, wie er deine Frage betrifft. Persönliche Umstände können den Rat eines qualifizierten Gelehrten erfordern.",
   },
 } satisfies Record<Locale, unknown>;

@@ -93,6 +93,7 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
             target?.focus();
           }}><bdi>{refLabel(section, ref)}</bdi></a>)}</span></AfterVerifiedText>
         </p></RevealBlock>)}
+        {section.group === "summary" && section.uncovered && <p className={styles.gap} role="note">{t.uncovered.replace("{label}", section.uncovered)}</p>}
         <div className={styles.sources}>{richSourceCards({ ...section, sources: section.sources.filter(s => owners.get(s.id) === section.group) }).map(card => <RevealBlock id={`${section.group}-original-${card[0].id}`} key={card.map(s => s.id).join("-")}><div className={cardClass(section.group)}>{card.map(source => { const { id, evidence: e, displayTranslation: tr } = source; return <RevealBlock key={id} id={`${section.group}-original-${id}`}><div id={`${prefix}-${section.group}-${id}`} tabIndex={-1} className={styles.source}>
           <div className={styles.sourceHead}><strong><bdi>{refLabel(section, id)}</bdi></strong>
             <span className={styles.sourceTools}>{e.kind === "quran" && <VerseAudioButton verseKey={e.key} language={language} />}

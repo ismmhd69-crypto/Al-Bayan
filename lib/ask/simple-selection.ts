@@ -8,22 +8,28 @@ import { displayAlignmentRequest, parseDisplayAlignment } from "./focused-checks
 import { assessPatientEvidence } from "./patient-models";
 import { abortable } from "./abort";
 
-/** Available translations join the existing selection task, never a fifth AI call. */
+/** Stored translations of the selected sources only, checked against their exact originals in one small
+ * call after selection (Mo, 2026-10-29). Checking every candidate's translation inside the selection
+ * call made it write about 40% more and took 10-15 s per selection. Unchecked ones stay hidden. */
+export async function checkSelectedTranslations(passages: { id: string; source: PassageForSelection["source"] }[], language: QuestionFrame["language"], deps: PipelineDeps, signal: AbortSignal) {
+  const checked = new Map<string, DisplayTranslation>();
+  const sources: RichSource[] = passages.map(p => ({ id: p.id,
+    evidence: toEvidence(p.source, language), role: "background" as const, requirementIds: [], explanationRequirementIds: [] })).filter(hasDisplayTranslation);
+  if (language === "ar" || !deps.displayTranslationLookup || !sources.length) return checked;
+  try {
+    const available = await abortable(deps.displayTranslationLookup(sources, language, signal), signal);
+    const ready = sources.flatMap(s => { const v = available.get(s.id); return v?.status === "ready" && validDisplayTranslation(v, s.evidence.arabic, language) ? [[s.id, v] as const] : []; });
+    const candidates = ready.flatMap(([source_id, t]) => t.status === "ready" ? [{ source_id, original: t.original, original_hash: t.originalHash, text: t.text, language: t.language }] : []);
+    if (!candidates.length) return checked;
+    const result = parseDisplayAlignment(await abortable(deps.verifier.generateJson(displayAlignmentRequest(candidates, signal)), signal), candidates);
+    for (const [id, t] of ready) if (result.acceptedIds.includes(id)) checked.set(id, t);
+  } catch { signal.throwIfAborted(); }
+  return checked;
+}
+
 export async function simpleSelection(frame: QuestionFrame, pool: PassageForSelection[], deps: PipelineDeps, signal: AbortSignal, repairReason?: string) {
   const translations = new Map<string, DisplayTranslation>();
-  const sources: RichSource[] = pool.map(p => ({ id: p.id,
-    evidence: toEvidence(p.source, frame.language), role: "background" as const, requirementIds: [], explanationRequirementIds: [] })).filter(hasDisplayTranslation);
-  if (frame.language !== "ar" && deps.displayTranslationLookup && sources.length) {
-    try {
-      const available = await abortable(deps.displayTranslationLookup(sources, frame.language, signal), signal);
-      for (const source of sources) {
-        const value = available.get(source.id);
-        if (value?.status === "ready" && validDisplayTranslation(value, source.evidence.arabic, frame.language)) translations.set(source.id, value);
-      }
-    } catch { signal.throwIfAborted(); }
-  }
-  const candidates = [...translations].flatMap(([source_id, t]) => t.status === "ready" ? [{ source_id, original: t.original,
-    original_hash: t.originalHash, text: t.text, language: t.language }] : []);
+  const candidates: { source_id: string; original: string; original_hash: string; text: string; language: "en" | "de" }[] = [];
   let accepted: string[] = [];
   const verifier: PipelineDeps["verifier"] = { id: deps.verifier.id, generateJson: async request => {
     // Speed (reliability plan Phase 3): an unassessed candidate is never selected, so writing a

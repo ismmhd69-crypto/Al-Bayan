@@ -35,7 +35,9 @@ export function validVerifiedQuranCard(value: unknown): value is VerifiedQuranCa
   } catch { return false; }
 }
 export type SourceFailureStage = "source_search" | "verse_lookup" | "context_lookup" | "evidence_selection" | "explanation_check" | "source_revalidation";
-export type RichSection = { group: RichGroup; outcome: GroupOutcome; presentation?: "originals"; omitted?: true; claims: Claim[]; sources: RichSource[]; searchOutcome?: "unavailable" | "timeout" | "search_failed"; searchFailureStage?: SourceFailureStage };
+export type RichSection = { group: RichGroup; outcome: GroupOutcome; presentation?: "originals"; omitted?: true; claims: Claim[]; sources: RichSource[]; searchOutcome?: "unavailable" | "timeout" | "search_failed"; searchFailureStage?: SourceFailureStage;
+  /** Summary only: the label of a planned second meaning the sources could not fully answer. */
+  uncovered?: string };
 export type RichGuidance = { text: string; refs: string[]; kind: "learning" | "sourced_instruction" };
 export type RichGuide = "ask_specific_followup" | "clarify_application" | "study_evidence" | "learn_steps" | RichGuidance;
 type RichBase = { language: Locale; review: "automatic"; sections: RichSection[]; complete: true };
@@ -93,6 +95,7 @@ export function validRichSection(value: unknown, language?: Locale): value is Ri
     if (!s || !RICH_ORDER.includes(s.group) || !outcomes.includes(s.outcome) || !Array.isArray(s.claims) || !Array.isArray(s.sources) || s.sources.length > 20 || s.claims.length > (s.group === "summary" ? 4 : 8)) return false;
     if (s.omitted !== undefined && (s.omitted !== true || s.group === "summary" || s.outcome !== "not_checked" || s.claims.length || s.sources.length)) return false;
     if (s.searchOutcome !== undefined && !["unavailable", "timeout", "search_failed"].includes(s.searchOutcome)) return false;
+    if (s.uncovered !== undefined && (s.group !== "summary" || typeof s.uncovered !== "string" || !s.uncovered.trim() || s.uncovered.length > 80)) return false;
     if (s.searchFailureStage !== undefined && !["source_search", "verse_lookup", "context_lookup", "evidence_selection", "explanation_check", "source_revalidation"].includes(s.searchFailureStage)) return false;
     if (s.outcome !== "ready") return s.claims.length === 0 && s.sources.length === 0 && s.group !== "summary";
     if (s.presentation !== undefined && (s.presentation !== "originals" || s.group === "summary" || s.claims.length > 0)) return false;

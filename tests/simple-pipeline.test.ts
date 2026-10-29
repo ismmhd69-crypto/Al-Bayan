@@ -436,24 +436,46 @@ it("drops a summary sentence that fails again after correction when the rest pas
   if(result.status==="rich_answer") expect(result.answer.sections.find(s=>s.group==="summary")?.claims.map(c=>c.text)).toEqual([first]);
 });
 
-it.each([true,false])("checks available scholar translation in the selection call: aligned=%s",async aligned=>{
+it("answers the better-supported meaning and names the other when two meanings cannot both be covered",async()=>{
+  const t=setup(["quran"]);
+  const twoMeanings:QuestionFrame={...frame,interpretations:[{id:"I1",label:"Daily care"},{id:"I2",label:"Formal duty"}],
+    requirements:[{id:"R1",text:"Explain care",facet:"general",interpretationId:"I1"},{id:"R2",text:"Explain duty",facet:"general",interpretationId:"I2"}]};
+  // Like the live checker: the second meaning has no supporting sentence, so it is not answered.
+  const verify=t.deps.verifier.generateJson;
+  t.deps.verifier.generateJson=async r=>{const raw:any=await verify(r);
+    for(const c of raw?.requirement_coverage ?? []) if(!c.claim_ids.length) Object.assign(c,{fully_answered:"no",conditions_preserved:"no"});
+    if(raw?.requirement_coverage?.some((c:any)=>c.fully_answered==="no")) raw.complete_coverage="no";
+    return raw;};
+  const result=await runSimplePipeline("Explain care",twoMeanings,t.deps,signal(),hints);
+  expect(result.status).toBe("rich_answer");
+  if(result.status==="rich_answer"){
+    const summary=result.answer.sections.find(s=>s.group==="summary")!;
+    expect(summary.uncovered).toBe("Formal duty");
+    expect(summary.claims.every(c=>c.requirementId==="R1")).toBe(true);
+  }
+});
+
+it.each([true,false])("checks the selected scholar's translation in a small step after selection: aligned=%s",async aligned=>{
   const t=setup(),verify=t.deps.verifier.generateJson;
   const p=pack.passages[2];if(p.source.kind!=="scholar")throw Error("fixture");
   const original=p.source.quote.arabic,originalHash=createHash("sha256").update(original).digest("hex");
   const translation={status:"ready" as const,origin:"human" as const,language:"en" as const,original,originalHash,text:"Invented translated text for this fixture only."};
   t.deps.displayTranslationLookup=async()=>new Map([[p.id,translation]]);
+  let alignments=0,selectionSawTranslations=false;
   t.deps.verifier.generateJson=async r=>{
-    const raw:any=await verify(r),input=JSON.parse(r.prompt);
-    if(input.candidates) raw.translations=(input.display_translation_candidates ?? []).map((v:any)=>({source_id:v.source_id,original_hash:v.original_hash,faithful:aligned?"yes":"no",complete:"yes",conditions_preserved:"yes"}));
-    return raw;
+    const input=JSON.parse(r.prompt);
+    if(input.stage==="display_alignment_v1"){alignments++;t.requests.push(r);
+      return {translations:input.candidates.map((v:any)=>({source_id:v.source_id,original_hash:v.original_hash,faithful:aligned?"yes":"no",complete:"yes",conditions_preserved:"yes"}))};}
+    if(input.candidates && input.display_translation_candidates) selectionSawTranslations=true;
+    return verify(r);
   };
   const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
-  expect(result.status).toBe("rich_answer");expect(t.requests).toHaveLength(3);
+  expect(result.status).toBe("rich_answer");expect(alignments).toBe(1);expect(selectionSawTranslations).toBe(false);expect(t.requests).toHaveLength(4);
   if(result.status==="rich_answer") expect(result.answer.sections[2].sources[0].displayTranslation?.status).toBe(aligned?"ready":"unavailable");
   if(aligned) {
     t.deps.displayTranslationLookup=async()=>new Map([[p.id,{...translation,text:"Different translation"}]]);
     expect(await runSimplePipeline("Explain care",frame,t.deps,signal(),hints)).toMatchObject({status:"incomplete",failureKind:"source_support"});
-    expect(t.requests).toHaveLength(3);
+    expect(t.requests).toHaveLength(4);
   }
 });
 it("redistributes unused candidate places without displacing named units",()=>{
