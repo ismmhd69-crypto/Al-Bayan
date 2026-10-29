@@ -34873,6 +34873,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0283",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0283.json",
+      "sourceIds": [
+        "b5e80a79-3234-47a0-bee4-bc70fa7dea2d",
+        "a9602b2d-7ae9-47b1-8d97-4e377e64ee58",
+        "69400ad4-66e8-4e35-b0b9-fcfa6d4a211c",
+        "1d4faeb2-bd45-4e0e-81aa-d749da22a3df",
+        "211bbff1-fd9a-48d2-b967-fb33986cccd0",
+        "a54a56d5-8866-446c-b06b-93645b862eff"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete cross-references held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39180,8 +39201,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7466,
-  "hadithLocalRemaining": 7163,
+  "hadithLocalDrafted": 7470,
+  "hadithLocalRemaining": 7159,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40970,10 +40991,22 @@
       "scope": "Sahih Muslim 677a: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit inclut une citation directe d’un passage coranique révélé au sujet des martyrs de Bi’r Ma‘una. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-0283-677G-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 677g: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source arabe ne reprend pas le texte du récit et renvoie au hadith précédent en indiquant seulement qu’il est semblable ou que certaines versions ajoutent des détails. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0283-677I-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 677i: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source arabe ne reprend pas le texte du récit et renvoie au hadith précédent en indiquant seulement qu’il est semblable ou que certaines versions ajoutent des détails. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1130,
-  "hadithDatabaseMissing": 7163,
+  "hadithMuslimDrafted": 1134,
+  "hadithDatabaseMissing": 7159,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 534
+  "hadithNeedsMo": 536
 }
