@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0252",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:49:15.246Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "eeb5cacf-a891-4d02-ae79-b8981fab2456",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:599",
+      "reference": "Sahih Muslim, hadith 599, book 5, باب مَا يُقَالُ بَيْنَ تَكْبِيرَةِ الإِحْرَامِ وَالْقِرَاءَةِ",
+      "title": "باب مَا يُقَالُ بَيْنَ تَكْبِيرَةِ الإِحْرَامِ وَالْقِرَاءَةِ",
+      "source_published": true,
+      "text_original": "قَالَ مُسْلِمٌ وَحُدِّثْتُ عَنْ يَحْيَى بْنِ حَسَّانَ، وَيُونُسَ الْمُؤَدِّبِ، و غَيْرِهِمَا قَالُوا حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، قَالَ حَدَّثَنِي عُمَارَةُ بْنُ الْقَعْقَاعِ، حَدَّثَنَا أَبُو زُرْعَةَ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا نَهَضَ مِنَ الرَّكْعَةِ الثَّانِيَةِ اسْتَفْتَحَ الْقِرَاءَةَ بِـ ‏[quran sura=\"1\" aya_start=\"2\" aya_end=\"2\"]{‏ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ‏}‏ وَلَمْ يَسْكُتْ ‏.‏",
+      "source_hash_sha256": "0a453c6a214fbe7143f5001cf133ce683f9b8b0b27c2ffcfce59e654575f43d0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ad868b16-147a-4b81-86ab-7df34cbd00c9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:600",
+      "reference": "Sahih Muslim, hadith 600, book 5, باب مَا يُقَالُ بَيْنَ تَكْبِيرَةِ الإِحْرَامِ وَالْقِرَاءَةِ",
+      "title": "باب مَا يُقَالُ بَيْنَ تَكْبِيرَةِ الإِحْرَامِ وَالْقِرَاءَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَفَّانُ، حَدَّثَنَا حَمَّادٌ، أَخْبَرَنَا قَتَادَةُ، وَثَابِتٌ، وَحُمَيْدٌ، عَنْ أَنَسٍ، أَنَّ رَجُلاً، جَاءَ فَدَخَلَ الصَّفَّ وَقَدْ حَفَزَهُ النَّفَسُ فَقَالَ الْحَمْدُ لِلَّهِ حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ ‏.‏ فَلَمَّا قَضَى رَسُولُ اللَّهِ صلى الله عليه وسلم صَلاَتَهُ قَالَ ‏\"‏ أَيُّكُمُ الْمُتَكَلِّمُ بِالْكَلِمَاتِ ‏\"‏ ‏.‏ فَأَرَمَّ الْقَوْمُ فَقَالَ ‏\"‏ أَيُّكُمُ الْمُتَكَلِّمُ بِهَا فَإِنَّهُ لَمْ يَقُلْ بَأْسًا ‏\"‏ ‏.‏ فَقَالَ رَجُلٌ جِئْتُ وَقَدْ حَفَزَنِي النَّفَسُ فَقُلْتُهَا ‏.‏ فَقَالَ ‏\"‏ لَقَدْ رَأَيْتُ اثْنَىْ عَشَرَ مَلَكًا يَبْتَدِرُونَهَا أَيُّهُمْ يَرْفَعُهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5bfcc4d6e24f24e5203878dc5dbbd57b221abc61b48c6e937393548421d774c4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Affan nous a rapporté : Hammad nous a rapporté : Qatada, Thabit et Humayd nous ont rapporté, d’après Anas, qu’un homme arriva et prit place dans le rang, à bout de souffle. Il dit : « Louange à Allah, une louange abondante, bonne et bénie. » Lorsque le Messager d’Allah ﷺ eut terminé sa prière, il demanda : « Qui a prononcé ces paroles ? » Les gens gardèrent le silence. Il répéta : « Qui les a prononcées ? Il n’a rien dit de mal. » Un homme répondit : « Je suis arrivé essoufflé et je les ai dites. » Le Messager d’Allah ﷺ dit : « J’ai vu douze anges se précipiter pour les élever, chacun voulant être le premier. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e804b745-7b53-4eae-a3fc-b480aee7ed47",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:601",
+      "reference": "Sahih Muslim, hadith 601, book 5, باب مَا يُقَالُ بَيْنَ تَكْبِيرَةِ الإِحْرَامِ وَالْقِرَاءَةِ",
+      "title": "باب مَا يُقَالُ بَيْنَ تَكْبِيرَةِ الإِحْرَامِ وَالْقِرَاءَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، أَخْبَرَنِي الْحَجَّاجُ بْنُ أَبِي عُثْمَانَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ عَوْنِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنِ ابْنِ عُمَرَ، قَالَ بَيْنَمَا نَحْنُ نُصَلِّي مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم إِذْ قَالَ رَجُلٌ مِنَ الْقَوْمِ اللَّهُ أَكْبَرُ كَبِيرًا وَالْحَمْدُ لِلَّهِ كَثِيرًا وَسُبْحَانَ اللَّهِ بُكْرَةً وَأَصِيلاً ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنِ الْقَائِلُ كَلِمَةَ كَذَا وَكَذَا ‏\"‏ ‏.‏ قَالَ رَجُلٌ مِنَ الْقَوْمِ أَنَا يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ عَجِبْتُ لَهَا فُتِحَتْ لَهَا أَبْوَابُ السَّمَاءِ ‏\"‏ ‏.‏ قَالَ ابْنُ عُمَرَ فَمَا تَرَكْتُهُنَّ مُنْذُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ذَلِكَ ‏.",
+      "source_hash_sha256": "544024e5145d491242c097b35693e2e4e84a2cc64a6d6a463e6900e86de6483a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "416a4533-c51f-4ded-bf00-aba5319a02d4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:602a",
+      "reference": "Sahih Muslim, hadith 602 a, book 5, باب اسْتِحْبَابِ إِتْيَانِ الصَّلاَةِ بِوَقَارٍ وَسَكِينَةٍ وَالنَّهْىِ عَنْ إِتْيَانِهَا سَعْيًا ‏‏",
+      "title": "باب اسْتِحْبَابِ إِتْيَانِ الصَّلاَةِ بِوَقَارٍ وَسَكِينَةٍ وَالنَّهْىِ عَنْ إِتْيَانِهَا سَعْيًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالُوا حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ح قَالَ وَحَدَّثَنِي مُحَمَّدُ بْنُ جَعْفَرِ بْنِ زِيَادٍ، أَخْبَرَنَا إِبْرَاهِيمُ، - يَعْنِي ابْنَ سَعْدٍ - عَنِ الزُّهْرِيِّ، عَنْ سَعِيدٍ، وَأَبِي، سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ح قَالَ وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِذَا أُقِيمَتِ الصَّلاَةُ فَلاَ تَأْتُوهَا تَسْعَوْنَ وَأْتُوهَا تَمْشُونَ وَعَلَيْكُمُ السَّكِينَةُ فَمَا أَدْرَكْتُمْ فَصَلُّوا وَمَا فَاتَكُمْ فَأَتِمُّوا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "db685863f891eecfd756d66697ad6e2c4dbcef3ffbb40c6e68dd752365ea7647",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba, Amr al-Naqid et Zuhayr ibn Harb nous ont rapporté : Sufyan ibn Uyayna nous a rapporté, d’après al-Zuhri, d’après Sa‘id, d’après Abu Hurayra, d’après le Prophète ﷺ. (H) Muhammad ibn Ja‘far ibn Ziyad m’a rapporté : Ibrahim — c’est-à-dire Ibn Sa‘d — nous a rapporté, d’après al-Zuhri, d’après Sa‘id et Abu Salama, d’après Abu Hurayra, d’après le Prophète ﷺ. (H) Harmala ibn Yahya m’a rapporté — la formulation est la sienne. Il dit : Ibn Wahb nous a informés : Yunus m’a rapporté, d’après Ibn Shihab, qui dit : Abu Salama ibn Abd al-Rahman m’a rapporté qu’Abu Hurayra dit : « J’ai entendu le Messager d’Allah ﷺ dire : “Lorsque l’appel à la prière est lancé, ne vous y rendez pas en courant. Allez-y en marchant et gardez votre calme. Accomplissez ce que vous rejoignez de la prière et complétez ce que vous avez manqué.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0e7784a9-821e-450a-bd45-e06844ae0f9a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:602b",
+      "reference": "Sahih Muslim, hadith 602 b, book 5, باب اسْتِحْبَابِ إِتْيَانِ الصَّلاَةِ بِوَقَارٍ وَسَكِينَةٍ وَالنَّهْىِ عَنْ إِتْيَانِهَا سَعْيًا ‏‏",
+      "title": "باب اسْتِحْبَابِ إِتْيَانِ الصَّلاَةِ بِوَقَارٍ وَسَكِينَةٍ وَالنَّهْىِ عَنْ إِتْيَانِهَا سَعْيًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَابْنُ، حُجْرٍ عَنْ إِسْمَاعِيلَ بْنِ جَعْفَرٍ، - قَالَ ابْنُ أَيُّوبَ حَدَّثَنَا إِسْمَاعِيلُ، - أَخْبَرَنِي الْعَلاَءُ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا ثُوِّبَ لِلصَّلاَةِ فَلاَ تَأْتُوهَا وَأَنْتُمْ تَسْعَوْنَ وَأْتُوهَا وَعَلَيْكُمُ السَّكِينَةُ فَمَا أَدْرَكْتُمْ فَصَلُّوا وَمَا فَاتَكُمْ فَأَتِمُّوا فَإِنَّ أَحَدَكُمْ إِذَا كَانَ يَعْمِدُ إِلَى الصَّلاَةِ فَهُوَ فِي صَلاَةٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "356b33790e954cc68777a6a50cc7e4bea87805b03787c12b1fa98f78f7c215e2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Ayyub, Qutayba ibn Sa‘id et Ibn Hujr nous ont rapporté, d’après Isma‘il ibn Ja‘far. Ibn Ayyub dit : Isma‘il nous a rapporté : al-Ala m’a rapporté, d’après son père, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Lorsque l’appel à la prière est lancé, ne vous y rendez pas en courant. Allez-y avec calme et dignité. Accomplissez ce que vous rejoignez de la prière et complétez ce que vous avez manqué, car lorsqu’un homme se dirige vers la prière, il est déjà en prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dd180388-459b-4205-bd97-c20936453118",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:602c",
+      "reference": "Sahih Muslim, hadith 602 c, book 5, باب اسْتِحْبَابِ إِتْيَانِ الصَّلاَةِ بِوَقَارٍ وَسَكِينَةٍ وَالنَّهْىِ عَنْ إِتْيَانِهَا سَعْيًا ‏‏",
+      "title": "باب اسْتِحْبَابِ إِتْيَانِ الصَّلاَةِ بِوَقَارٍ وَسَكِينَةٍ وَالنَّهْىِ عَنْ إِتْيَانِهَا سَعْيًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا نُودِيَ بِالصَّلاَةِ فَأْتُوهَا وَأَنْتُمْ تَمْشُونَ وَعَلَيْكُمُ السَّكِينَةُ فَمَا أَدْرَكْتُمْ فَصَلُّوا وَمَا فَاتَكُمْ فَأَتِمُّوا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b1995314e8922d6976f405dd3291cc7318b5a829c8971c15da4b628b5bfc2d73",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi‘ nous a rapporté : Abd al-Razzaq nous a rapporté : Ma‘mar nous a rapporté, d’après Hammam ibn Munabbih, qui dit : « Voici ce qu’Abu Hurayra nous a rapporté d’après le Messager d’Allah ﷺ. » Il mentionna plusieurs hadiths, dont celui-ci : le Messager d’Allah ﷺ a dit : « Lorsque l’appel à la prière est lancé, rendez-vous-y en marchant et gardez votre calme. Accomplissez ce que vous rejoignez de la prière et complétez ce que vous avez manqué. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "eeb5cacf-a891-4d02-ae79-b8981fab2456",
+      "reason": "Le texte cite directement le Coran (1:2). Conformément à la règle du projet, garder toute la traduction en attente jusqu’à validation d’une traduction française autorisée du verset."
+    },
+    {
+      "source_id": "e804b745-7b53-4eae-a3fc-b480aee7ed47",
+      "reason": "Le texte comprend une formule avec le fragment coranique « بكرة وأصيلا ». Conformément à la règle du projet, garder toute la traduction en attente d’une traduction française autorisée de ce fragment."
+    }
+  ]
+}

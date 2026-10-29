@@ -8381,3 +8381,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0251 saves four private French drafts about remembrances after prayer and the opening supplication before Quran recitation. Muslim 595b and 597b provide only incomplete variants or cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 997 Muslim drafts, 7,333 total hadith drafts, 7,296 remaining, and 485 Needs Mo items.
+
+### 2026-10-29: Muslim 599–602c
+
+- FR-LIB-HAD-MUSLIM-0252 saves four private French drafts about a praise spoken in prayer and arriving calmly when the call to prayer has begun. Muslim 599 quotes Quran 1:2, and 601 contains the Quranic fragment « بكرة وأصيلا »; both remain blank under Needs Mo pending authorized French wording.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,001 Muslim drafts, 7,337 total hadith drafts, 7,292 remaining, and 487 Needs Mo items.
