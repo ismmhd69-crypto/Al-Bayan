@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5601,
+    "hadithBukhariDrafted": 5605,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5601,
+    "hadithLocalDrafted": 5605,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9028,
-    "hadithNeedsMo": 803,
+    "hadithLocalRemaining": 9024,
+    "hadithNeedsMo": 805,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25825,6 +25825,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "four private drafts; two Needs Mo holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1220",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1220.json",
+      "sourceIds": [
+        "004526e2-a4b3-4f47-94cc-1de45f5bfab8",
+        "4096cde4-6b92-4fed-b30c-daff801ce874",
+        "f1ec43e6-ca15-4eb0-b19a-8a47afba6346",
+        "23d4a67c-a107-4092-92a1-eb021df003cd",
+        "161307cb-8cc5-4a0b-94d2-1373355d36f4",
+        "7c99f446-858a-485d-846d-79455dfd6700"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four complete French drafts; two complete reports held for unclear source wording and incomplete source. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private drafts; two Needs Mo holds"
     }
   ],
   "blockers": [
@@ -29031,11 +29052,23 @@
       "scope": "Sahih al-Bukhari 6647: direct quotation of Quran 46:4",
       "status": "blocked",
       "reason": "The report directly quotes Quran 46:4. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6649-UNCLEAR-CAMEL-DESCRIPTION",
+      "scope": "Sahih al-Bukhari 6649: rare camel description غُرّ الذرى",
+      "status": "blocked",
+      "reason": "The report repeats the rare phrase غُرّ الذرى and its precise meaning remains unconfirmed. Keep the whole translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6653-INCOMPLETE-REPORT",
+      "scope": "Sahih al-Bukhari 6653: source ends with “then he mentioned the hadith” and omits the report",
+      "status": "blocked",
+      "reason": "The exported Arabic ends with فذكر الحديث (“then he mentioned the hadith”) and omits the rest. Keep it blank until a complete source is available."
     }
   ],
-  "hadithBukhariDrafted": 5601,
-  "hadithLocalDrafted": 5601,
-  "hadithLocalRemaining": 9028,
+  "hadithBukhariDrafted": 5605,
+  "hadithLocalDrafted": 5605,
+  "hadithLocalRemaining": 9024,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29384,6 +29417,18 @@
       "scope": "Sahih al-Bukhari 6647: direct quotation of Quran 46:4",
       "status": "blocked",
       "reason": "The report directly quotes Quran 46:4. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6649-UNCLEAR-CAMEL-DESCRIPTION",
+      "scope": "Sahih al-Bukhari 6649: rare camel description غُرّ الذرى",
+      "status": "blocked",
+      "reason": "The report repeats the rare phrase غُرّ الذرى and its precise meaning remains unconfirmed. Keep the whole translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6653-INCOMPLETE-REPORT",
+      "scope": "Sahih al-Bukhari 6653: source ends with “then he mentioned the hadith” and omits the report",
+      "status": "blocked",
+      "reason": "The exported Arabic ends with فذكر الحديث (“then he mentioned the hadith”) and omits the rest. Keep it blank until a complete source is available."
     }
   ]
 }
