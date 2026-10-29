@@ -5601,3 +5601,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1091 saves six private French drafts about compassion, helping neighbors, and shared care.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,027 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 759. Total local hadith rows not drafted: 9,602, including held records.
+
+### 2026-10-29: Bukhari 6017–6022
+
+- FR-LIB-HAD-BUKHARI-1092 saves six private French drafts about neighborly care and everyday charity.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,033 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 759. Total local hadith rows not drafted: 9,596, including held records.
