@@ -11575,3 +11575,6 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0903 saves six private French drafts about the community remaining firm upon the truth and guidance for traveling with camels. Distinct report wordings are preserved. No Quran verse is quoted. No database write or publication occurred.
 
+### 2026-10-29: Muslim 1927-1929c
+
+- FR-LIB-HAD-MUSLIM-0904 saves six private French drafts about returning from travel, visiting family, and hunting with trained dogs or a hunting shaft. The distinct “did not enter” wording and the hunting rulings are preserved. No Quran verse is quoted. No database write or publication occurred.
