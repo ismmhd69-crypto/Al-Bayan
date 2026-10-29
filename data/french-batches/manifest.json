@@ -66,11 +66,11 @@
     "hadithLocalDrafted": 11295,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 3334,
-    "hadithNeedsMo": 2806,
+    "hadithNeedsMo": 2807,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14101,
-    "hadithSourcesNotYetExported": 528
+    "hadithSourcesProcessed": 14090,
+    "hadithSourcesNotYetExported": 539
   },
   "batches": [
     {
@@ -51039,6 +51039,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1266",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1266.json",
+      "sourceIds": [
+        "7fa3822a-ac01-4466-b655-52cdea2df89a"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 1,
+      "failed": 0,
+      "remaining": 3334,
+      "validation": "Single-item long report correctly held blank because it contains multiple Quran quotations requiring authorized French wording. Focused validator and git diff check passed. No database writes or publication.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: Quran quotation"
     }
   ],
   "blockers": [
