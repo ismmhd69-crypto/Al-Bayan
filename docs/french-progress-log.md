@@ -11794,3 +11794,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2032a-2033b
 
 - FR-LIB-HAD-MUSLIM-0958 saves five complete private French drafts about licking the fingers and recovering a fallen bite. One report with a fused or unclear Arabic transmission phrase remains blank pending source confirmation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2033c-2035a
+
+- FR-LIB-HAD-MUSLIM-0959 saves three complete private French drafts about fallen food and the blessing in a meal. Three incomplete or referential variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
