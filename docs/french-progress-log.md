@@ -11882,3 +11882,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2068d-2069a
 
 - FR-LIB-HAD-MUSLIM-0980 saves three complete private French drafts about brocade garments, their sale or use, and garment decoration. Three entries that refer back to full reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2069b-2069g
+
+- FR-LIB-HAD-MUSLIM-0981 saves four complete private French drafts about silk and the permitted narrow decorative border. Two entries that only refer to a prior report remain blank with specific Needs Mo reasons. No database write or publication occurred.
