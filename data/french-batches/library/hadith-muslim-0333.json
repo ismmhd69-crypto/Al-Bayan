@@ -28,8 +28,8 @@
         "translation_index_allowed": false,
         "expires_at": null
       },
-      "text_french": "",
-      "draft_status": "needs_mo_source_integrity",
+      "text_french": "Hajjaj ibn al-Sha‘ir m’a rapporté : Muhammad ibn Ja‘far al-Mada’ini — Abu Ja‘far — m’a rapporté : Warqa’ nous a rapporté, d’après Muhammad ibn al-Munkadir, d’après Jabir ibn ‘Abd Allah. Il dit : J’étais avec le Messager d’Allah ﷺ en voyage. Nous arrivâmes à un point d’eau. Il dit : « Ne descends-tu pas à l’eau, Jabir ? » Je répondis : « Si. » Le Messager d’Allah ﷺ descendit et je le rejoignis. Il s’éloigna pour satisfaire un besoin et je lui préparai l’eau pour ses ablutions. À son retour, il fit ses ablutions, puis se leva pour prier avec un seul vêtement dont il avait croisé les pans. Je me plaçai derrière lui ; il me prit par l’oreille et me plaça à sa droite.",
+      "draft_status": "private_local_ai_draft",
       "database_inserted": false,
       "translation_published": false,
       "human_reviewed": false
@@ -52,8 +52,8 @@
         "translation_index_allowed": false,
         "expires_at": null
       },
-      "text_french": "",
-      "draft_status": "needs_mo_source_integrity",
+      "text_french": "Yahya ibn Yahya et Abu Bakr ibn Abi Shayba nous ont rapporté, tous deux d’après Hushaym — Abu Bakr dit : Hushaym nous a rapporté —, qui nous a informés d’après Abu Hurra, d’après al-Hasan, d’après Sa‘d ibn Hisham, d’après ‘A’isha. Elle dit : « Lorsque le Messager d’Allah ﷺ se levait la nuit pour prier, il commençait sa prière par deux unités légères. »",
+      "draft_status": "private_local_ai_draft",
       "database_inserted": false,
       "translation_published": false,
       "human_reviewed": false
@@ -76,8 +76,8 @@
         "translation_index_allowed": false,
         "expires_at": null
       },
-      "text_french": "",
-      "draft_status": "needs_mo_source_integrity",
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Abu Usama nous a rapporté, d’après Hisham, d’après Muhammad, d’après son père, d’après Abu Hurayra, d’après le Prophète ﷺ, qui a dit : « Lorsque l’un de vous se lève la nuit, qu’il commence sa prière par deux unités légères. »",
+      "draft_status": "private_local_ai_draft",
       "database_inserted": false,
       "translation_published": false,
       "human_reviewed": false
@@ -100,8 +100,8 @@
         "translation_index_allowed": false,
         "expires_at": null
       },
-      "text_french": "",
-      "draft_status": "needs_mo_source_integrity",
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté, d’après Malik ibn Anas, d’après Abu al-Zubayr, d’après Tawus, d’après Ibn ‘Abbas : Lorsque le Messager d’Allah ﷺ se levait au milieu de la nuit pour prier, il disait : « Ô Allah, à Toi la louange. Tu es la lumière des cieux et de la terre, et à Toi la louange. Tu es Celui qui fait subsister les cieux et la terre, et à Toi la louange. Tu es le Seigneur des cieux et de la terre et de tout ce qui s’y trouve. Tu es la Vérité, Ta promesse est vérité, Ta parole est vérité, Ta rencontre est vérité, le Paradis est vérité, l’Enfer est vérité et l’Heure est vérité. Ô Allah, je me soumets à Toi, je crois en Toi, je place ma confiance en Toi, je reviens à Toi, je défends ma cause par Toi et je Te confie mon jugement. Pardonne-moi ce que j’ai fait auparavant et ce que j’ai fait ensuite, ce que j’ai caché et ce que j’ai montré. Tu es mon Dieu ; il n’y a de dieu que Toi. »",
+      "draft_status": "private_local_ai_draft",
       "database_inserted": false,
       "translation_published": false,
       "human_reviewed": false
@@ -157,12 +157,12 @@
   ],
   "needs_mo": [
     {
-      "source_id": "04f9be21-8d70-40f6-88f4-1282659ee570",
-      "reason": "La source cite directement un passage du Coran (sourate 3) et rapporte ensuite plusieurs versets de cette sourate. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+      "source_id": "5a3f84da-b2c5-4f8a-be85-ea9996a813da",
+      "reason": "La source ne reproduit pas la supplication complète, mais rapporte seulement des différences entre plusieurs chaînes et formulations. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
     },
     {
-      "source_id": "60da14a1-42df-47a0-b2fe-55df5758b7ac",
-      "reason": "La source ne reprend pas le récit complet et renvoie aux versions précédentes, sans donner que quelques détails complémentaires. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+      "source_id": "eca24ad8-21fc-45d8-b9b2-3fe70c351b60",
+      "reason": "La source renvoie à la même supplication en précisant seulement que sa formulation est proche de celles des versions précédentes. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
     }
   ]
 }

@@ -35920,7 +35920,7 @@
       "translated": 4,
       "inserted": 0,
       "preserved": 0,
-      "validation": "pending focused batch validation; one direct Quran quotation and one incomplete variant held blank under Needs Mo",
+      "validation": "pending focused batch validation; two supplication variants with no complete text held blank under Needs Mo",
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
@@ -42491,16 +42491,16 @@
       "reason": "La source ne reprend pas le récit complet et renvoie aux versions précédentes, sans donner que quelques détails complémentaires. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     },
     {
-      "id": "HADITH-MUSLIM-0333-763L-QURAN-QUOTATION",
-      "scope": "Sahih Muslim 763l: direct Quran quotation from surah 3",
+      "id": "HADITH-MUSLIM-0333-769B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 769b: variant-only report of wording differences",
       "status": "blocked",
-      "reason": "La source cite directement un passage du Coran (sourate 3) et rapporte ensuite plusieurs versets de cette sourate. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+      "reason": "La source ne reproduit pas la supplication complète, mais rapporte seulement des différences entre plusieurs chaînes et formulations. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
     },
     {
-      "id": "HADITH-MUSLIM-0333-763O-SOURCE-INTEGRITY",
-      "scope": "Sahih Muslim 763o: incomplete cross-reference variant",
+      "id": "HADITH-MUSLIM-0333-769C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 769c: wording cross-reference without full text",
       "status": "blocked",
-      "reason": "La source ne reprend pas le récit complet et renvoie aux versions précédentes, sans donner que quelques détails complémentaires. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+      "reason": "La source renvoie à la même supplication en précisant seulement que sa formulation est proche de celles des versions précédentes. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
     }
   ],
   "hadithMuslimDrafted": 1335,
