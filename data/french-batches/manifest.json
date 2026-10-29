@@ -15135,6 +15135,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-687",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-687.json",
+      "sourceIds": [
+        "4cf4100b-7170-45d9-9aee-a8dc15701d23"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished single-item long-text Quran hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -15252,6 +15268,12 @@
       "scope": "Sahih al-Bukhari 3866: pre-Islamic rhyming passage attributed to a jinni",
       "status": "blocked",
       "reason": "The local Arabic passage contains obscure rhymed wording whose exact sense is not confirmed. The full report remains blank in FR-LIB-HAD-BUKHARI-685 pending clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-3872-QURAN-WORDING",
+      "scope": "Sahih al-Bukhari 3872: appended phrase بلاء عظيم",
+      "status": "blocked",
+      "reason": "The long local record includes Quranic wording in its appended commentary. The full record remains blank in FR-LIB-HAD-BUKHARI-687 until an approved, attributed French Quran translation is confirmed."
     }
   ],
   "hadithBukhariDrafted": 3448,
