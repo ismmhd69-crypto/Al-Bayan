@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 294,
+    "hadithNeedsMo": 298,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -16117,6 +16117,21 @@
       "published": 0,
       "status": "held"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-750",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-750.json",
+      "sourceIds": ["2aabff04-c6ed-4b70-b10c-cac31360434e", "2ae0fc02-8e1d-48b2-83fc-5fc1646b1150", "47d6b1a2-6f49-4f15-9943-6c3dde7ca6be", "5578319f-ea8a-4939-8001-55e0e9b146c3", "f975a20e-3976-459a-8b9a-7d85ec9098de", "258172cf-b6ed-4d82-a217-1200e0e2d3d4"],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
+    }
   ],
   "blockers": [
     {
@@ -16466,8 +16481,33 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 12:18 and Quran 24:11–22, including Quran 24:22. It remains blank in FR-LIB-HAD-BUKHARI-749 until an approved, attributed French Quran translation is confirmed."
     }
+,
+    {
+      "id": "HADITH-BUKHARI-4142-UNCLEAR-WORDING",
+      "scope": "Sahih al-Bukhari 4142: disputed unclear wording about ʿAlî and Aisha",
+      "status": "blocked",
+      "reason": "The local source marks the wording as uncertain. The full record remains blank in FR-LIB-HAD-BUKHARI-750 pending clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-4143-QURAN-12-18",
+      "scope": "Sahih al-Bukhari 4143: direct quotation of Quran 12:18 wording",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 12:18 wording. It remains blank in FR-LIB-HAD-BUKHARI-750 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-4144-QURAN-24-15",
+      "scope": "Sahih al-Bukhari 4144: direct quotation of Quran 24:15",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 24:15. It remains blank in FR-LIB-HAD-BUKHARI-750 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-4146-QURAN-24-11",
+      "scope": "Sahih al-Bukhari 4146: direct quotation of Quran 24:11",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 24:11. It remains blank in FR-LIB-HAD-BUKHARI-750 until an approved, attributed French Quran translation is confirmed."
+    }
   ],
-  "hadithBukhariDrafted": 3667,
-  "hadithLocalDrafted": 3667,
-  "hadithLocalRemaining": 10990
+  "hadithBukhariDrafted": 3669,
+  "hadithLocalDrafted": 3669,
+  "hadithLocalRemaining": 10988
 }
