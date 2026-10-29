@@ -6584,6 +6584,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1523 held for embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-266",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-266.json",
+      "sourceIds": [
+        "a1f2f83b-85eb-44a9-af34-6e4a5b226b93",
+        "2247087c-554d-4341-b4bd-f59ea9dea7ad",
+        "5d9d12e6-fb57-4fc4-a562-9e0a098c8424",
+        "c839e66a-3640-4b26-ab8c-e2bb8b8cc0de",
+        "306c0dc6-f32d-4bde-953a-719d3073567d",
+        "55e3242e-cf43-499c-abd0-09836ba88d22"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [
