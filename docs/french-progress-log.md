@@ -8286,3 +8286,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0232 saves six private French drafts about garlic, onions and leeks, their effect on mosque attendance, and the clarification that the restriction concerns their odor rather than declaring them unlawful. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 942 Muslim drafts, 7,278 total hadith drafts, 7,351 remaining, and 446 Needs Mo items.
+
+### 2026-10-29: Muslim 566
+
+- FR-LIB-HAD-MUSLIM-0233 saves one private French draft about the Prophet ﷺ waiting for those who had eaten onions until their odor had dissipated. The exporter returned one eligible record immediately before the deferred long source.
+- The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 943 Muslim drafts, 7,279 total hadith drafts, 7,350 remaining, and 446 Needs Mo items.
