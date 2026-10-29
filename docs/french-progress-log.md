@@ -2871,3 +2871,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-591` saves three private French drafts about prayer leadership and supplication. Bukhari 3387, 3388 and 3389 remain entirely blank because they directly quote Quranic wording; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the three Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,036 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 209. Total local hadith rows not drafted: 11,619, including held records.
+
+### 2026-10-29: Bukhari 3390–3396
+
+- `FR-LIB-HAD-BUKHARI-592` saves six private French drafts about Job, Waraqa ibn Nawfal, and the Night Journey.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,042 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 209. Total local hadith rows not drafted: 11,613, including held records.
