@@ -2738,6 +2738,20 @@
       "status": "six private local AI drafts"
     },
     {
+      "id": "FR-LIB-HAD-BUKHARI-232",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-232.json",
+      "sourceIds": ["35630efb-5901-4588-90af-c594447e83ac", "37c26ca9-1621-40eb-b07d-d4c33af0b1af", "ed222996-f66d-42de-a96c-54bd32b033c7", "dbc2d730-9fbf-45e2-857d-f3b78d578fe7", "7c498eba-8023-4e81-9d13-73d281abed7e", "11524e4a-6c64-4136-a9e6-7527b71b3ddb"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights, private unpublished state and reason-specific Quran hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; Bukhari 1342 held for embedded Quran quotation"
+    },
+    {
       "id": "FR-LIB-HAD-BUKHARI-203",
       "contentType": "hadith",
       "language": "fr",
@@ -4392,7 +4406,7 @@
       "id": "QURAN-FR-EMBEDDED-QUOTES",
       "scope": "Hadith records containing Quran quotations",
       "status": "blocked",
-      "reason": "The current application Quran source configuration exposes English and German translations only. Hadiths containing Quran quotations are held until an approved, attributed French Quran translation is confirmed. Bukhari 610, 648, the combined 655/656 record, 705, 743, 763, 766, 768, 769, 773, 774, 774b, 782, 859, 891, 936, 979, 1007, 1020, 1068, 1072, 1073, 1074, 1078, 1101, 1125, 1127, 1200, 1210, the combined 1241/1242 record, 1251, 1269, and the combined 1286/1287/1288 report are recorded in batches FR-LIB-HAD-BUKHARI-111, FR-LIB-HAD-BUKHARI-117, FR-LIB-HAD-BUKHARI-118, FR-LIB-HAD-BUKHARI-128, FR-LIB-HAD-BUKHARI-134, FR-LIB-HAD-BUKHARI-137, FR-LIB-HAD-BUKHARI-138, FR-LIB-HAD-BUKHARI-139, FR-LIB-HAD-BUKHARI-140, FR-LIB-HAD-BUKHARI-154, FR-LIB-HAD-BUKHARI-159, FR-LIB-HAD-BUKHARI-166, FR-LIB-HAD-BUKHARI-173, FR-LIB-HAD-BUKHARI-177, FR-LIB-HAD-BUKHARI-179, FR-LIB-HAD-BUKHARI-187, FR-LIB-HAD-BUKHARI-188, FR-LIB-HAD-BUKHARI-192, FR-LIB-HAD-BUKHARI-196, FR-LIB-HAD-BUKHARI-209, FR-LIB-HAD-BUKHARI-210, FR-LIB-HAD-BUKHARI-216, FR-LIB-HAD-BUKHARI-217, FR-LIB-HAD-BUKHARI-220 and FR-LIB-HAD-BUKHARI-223. No French Quran text was generated or saved."
+      "reason": "The current application Quran source configuration exposes English and German translations only. Hadiths containing Quran quotations are held until an approved, attributed French Quran translation is confirmed. Bukhari 610, 648, the combined 655/656 record, 705, 743, 763, 766, 768, 769, 773, 774, 774b, 782, 859, 891, 936, 979, 1007, 1020, 1068, 1072, 1073, 1074, 1078, 1101, 1125, 1127, 1200, 1210, the combined 1241/1242 record, 1251, 1269, and the combined 1286/1287/1288 report and Bukhari 1342 are recorded in batches FR-LIB-HAD-BUKHARI-111, FR-LIB-HAD-BUKHARI-117, FR-LIB-HAD-BUKHARI-118, FR-LIB-HAD-BUKHARI-128, FR-LIB-HAD-BUKHARI-134, FR-LIB-HAD-BUKHARI-137, FR-LIB-HAD-BUKHARI-138, FR-LIB-HAD-BUKHARI-139, FR-LIB-HAD-BUKHARI-140, FR-LIB-HAD-BUKHARI-154, FR-LIB-HAD-BUKHARI-159, FR-LIB-HAD-BUKHARI-166, FR-LIB-HAD-BUKHARI-173, FR-LIB-HAD-BUKHARI-177, FR-LIB-HAD-BUKHARI-179, FR-LIB-HAD-BUKHARI-187, FR-LIB-HAD-BUKHARI-188, FR-LIB-HAD-BUKHARI-192, FR-LIB-HAD-BUKHARI-196, FR-LIB-HAD-BUKHARI-209, FR-LIB-HAD-BUKHARI-210, FR-LIB-HAD-BUKHARI-216, FR-LIB-HAD-BUKHARI-217, FR-LIB-HAD-BUKHARI-220, FR-LIB-HAD-BUKHARI-223 and FR-LIB-HAD-BUKHARI-232. No French Quran text was generated or saved."
     },
     {
       "id": "ARABIC-HADITH-INCOMPLETE-MATN",
