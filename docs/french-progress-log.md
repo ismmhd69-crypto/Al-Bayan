@@ -12825,3 +12825,10 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - The full report and narrator chain were translated against the Arabic, preserving the 42-night timing, body development details, questions, written decisions, and final description of the scroll.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. One private local draft saved.
 - Reconciled local hadith progress: 6,336 Bukhari and 4,780 Muslim drafts (11,116 total); 2,718 held Needs Mo; 795 sources not yet exported. Local hadith records without French drafts: 3,513. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2646-2648a, batch 1219
+
+- Batch FR-LIB-HAD-MUSLIM-1219 covers Sahih Muslim 2646, 2647a-2647d, and 2648a.
+- Four complete reports were translated against the Arabic, preserving narrator chains, differences in wording, and the meaning of the quoted Quranic passages. Two short entries that refer to another report without reproducing its full wording remain blank under Needs Mo.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Four private local drafts saved.
+- Reconciled local hadith progress: 6,336 Bukhari and 4,784 Muslim drafts (11,120 total); 2,720 held Needs Mo; 789 sources not yet exported. Local hadith records without French drafts: 3,509. All 14,629 remain missing from the live French table.
