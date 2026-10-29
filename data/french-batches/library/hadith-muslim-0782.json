@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0782",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:23:05.549Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "65e9e3da-961f-49e5-8133-c4540c78ea03",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1663",
+      "reference": "Sahih Muslim, hadith 1663, book 27, باب إِطْعَامِ الْمَمْلُوكِ مِمَّا يَأْكُلُ وَإِلْبَاسِهِ مَمَّا يَلْبَسُ وَلاَ يُكَلِّفُهُ مَا يَغْلِبُهُ",
+      "title": "باب إِطْعَامِ الْمَمْلُوكِ مِمَّا يَأْكُلُ وَإِلْبَاسِهِ مَمَّا يَلْبَسُ وَلاَ يُكَلِّفُهُ مَا يَغْلِبُهُ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا الْقَعْنَبِيُّ، حَدَّثَنَا دَاوُدُ بْنُ قَيْسٍ، عَنْ مُوسَى بْنِ يَسَارٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا صَنَعَ لأَحَدِكُمْ خَادِمُهُ طَعَامَهُ ثُمَّ جَاءَهُ بِهِ وَقَدْ وَلِيَ حَرَّهُ وَدُخَانَهُ فَلْيُقْعِدْهُ مَعَهُ فَلْيَأْكُلْ فَإِنْ كَانَ الطَّعَامُ مَشْفُوهًا قَلِيلاً فَلْيَضَعْ فِي يَدِهِ مِنْهُ أُكْلَةً أَوْ أُكْلَتَيْنِ ‏\"‏ ‏.‏ قَالَ دَاوُدُ يَعْنِي لُقْمَةً أَوْ لُقْمَتَيْنِ ‏.‏",
+      "source_hash_sha256": "7e552724431e0f038a784d69d8831b646cf13c52eb0376604441cadd88855f03",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Qa‘nabi nous a rapporté : Dawud ibn Qays nous a rapporté, d’après Musa ibn Yasar, d’après Abu Hurayra, qui a dit : le Messager d’Allah ﷺ a dit : « Lorsque le serviteur de l’un de vous lui prépare son repas et le lui apporte après en avoir supporté la chaleur et la fumée, qu’il le fasse asseoir avec lui afin qu’il mange. Si le repas est peu abondant, qu’il lui en mette une ou deux bouchées dans la main. » Dawud a précisé : « C’est-à-dire une ou deux bouchées. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "748e2ac8-b242-4112-be7c-dcc3c018574e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1664a",
+      "reference": "Sahih Muslim, hadith 1664 a, book 27, باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "title": "باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الْعَبْدَ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ فَلَهُ أَجْرُهُ مَرَّتَيْنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d09226e5baf2856ec6f64266ccb2cb9b4e34935b6e1dc258c9dfae9da5712d8c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu à Malik, d’après Nafi‘, d’après Ibn Umar, que le Messager d’Allah ﷺ a dit : « Lorsque l’esclave sert loyalement son maître et accomplit bien le culte d’Allah, il reçoit une double récompense. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4a61d082-17e9-4b27-8366-7f84dc0827be",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1664b",
+      "reference": "Sahih Muslim, hadith 1664 b, book 27, باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "title": "باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا يَحْيَى، وَهْوَ الْقَطَّانُ ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ نُمَيْرٍ، وَأَبُو أُسَامَةَ كُلُّهُمْ عَنْ عُبَيْدِ اللَّهِ، ح وَحَدَّثَنَا هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، حَدَّثَنِي أُسَامَةُ، جَمِيعًا عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ حَدِيثِ مَالِكٍ ‏.‏",
+      "source_hash_sha256": "018ceb33debcafa368e8c8f6c418070bf93da4ec740ee13c096f04f2b857de98",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cd263154-6849-4965-9a76-2351e29a1f9e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1665a",
+      "reference": "Sahih Muslim, hadith 1665 a, book 27, باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "title": "باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ بْنُ يَحْيَى، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ سَمِعْتُ سَعِيدَ بْنَ الْمُسَيَّبِ، يَقُولُ قَالَ أَبُو هُرَيْرَةَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لِلْعَبْدِ الْمَمْلُوكِ الْمُصْلِحِ أَجْرَانِ ‏\"‏ ‏.‏ وَالَّذِي نَفْسُ أَبِي هُرَيْرَةَ بِيَدِهِ لَوْلاَ الْجِهَادُ فِي سَبِيلِ اللَّهِ وَالْحَجُّ وَبِرُّ أُمِّي لأَحْبَبْتُ أَنْ أَمُوتَ وَأَنَا مَمْلُوكٌ ‏.‏ قَالَ وَبَلَغَنَا أَنَّ أَبَا هُرَيْرَةَ لَمْ يَكُنْ يَحُجُّ حَتَّى مَاتَتْ أُمُّهُ لِصُحْبَتِهَا ‏.‏ قَالَ أَبُو الطَّاهِرِ فِي حَدِيثِهِ ‏\"‏ لِلْعَبْدِ الْمُصْلِحِ ‏\"‏ ‏.‏ وَلَمْ يَذْكُرِ الْمَمْلُوكَ ‏.‏",
+      "source_hash_sha256": "66baa1fecf5277b2dca2f1b967534f91c8d1db55931d01ee3a5621e50570162f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir et Harmala ibn Yahya m’ont rapporté : Ibn Wahb nous a informés : Yunus m’a informé, d’après Ibn Shihab, qui a dit : « J’ai entendu Sa‘id ibn al-Musayyab dire qu’Abu Hurayra a dit : le Messager d’Allah ﷺ a dit : “L’esclave vertueux reçoit une double récompense.” Par Celui qui tient l’âme d’Abu Hurayra dans Sa main, s’il n’y avait pas le combat dans la voie d’Allah, le pèlerinage et la piété envers ma mère, j’aurais aimé mourir alors que j’étais esclave. » Le narrateur dit : « On nous a rapporté qu’Abu Hurayra n’accomplissait pas le pèlerinage tant que sa mère était en vie, afin de rester auprès d’elle. » Abu al-Tahir précise dans sa version : « Le serviteur vertueux » ; il ne mentionne pas qu’il s’agissait d’un esclave.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "20f2368f-d4a8-49c8-a40a-b745c424e733",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1665b",
+      "reference": "Sahih Muslim, hadith 1665 b, book 27, باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "title": "باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا أَبُو صَفْوَانَ الأُمَوِيُّ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ بَلَغَنَا وَمَا بَعْدَهُ ‏.‏",
+      "source_hash_sha256": "d787720e52c2fab1df140641642550dc1efec0330ace8633273263739eb13387",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : Abu Safwan al-Umawi nous a rapporté : Yunus m’a informé, d’après Ibn Shihab, avec cette même chaîne de transmission. Il n’a pas mentionné les mots : « On nous a rapporté », ni ce qui suit.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "27ed5aaa-f265-44c9-adbc-bfb4468d0053",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1666a",
+      "reference": "Sahih Muslim, hadith 1666 a, book 27, باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "title": "باب ثَوَابِ الْعَبْدِ وَأَجْرِهِ إِذَا نَصَحَ لِسَيِّدِهِ وَأَحْسَنَ عِبَادَةَ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا أَدَّى الْعَبْدُ حَقَّ اللَّهِ وَحَقَّ مَوَالِيهِ كَانَ لَهُ أَجْرَانِ ‏\"‏ ‏.‏ قَالَ فَحَدَّثْتُهَا كَعْبًا فَقَالَ كَعْبٌ لَيْسَ عَلَيْهِ حِسَابٌ وَلاَ عَلَى مُؤْمِنٍ مُزْهِدٍ ‏.‏",
+      "source_hash_sha256": "ce631b9457687aa58704aa10efdbfb5d483cacb89e1a4a71fb01a8cb064d3290",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Abu Kurayb nous ont rapporté : Abu Mu‘awiya nous a rapporté, d’après al-A‘mash, d’après Abu Salih, d’après Abu Hurayra, qui a dit : le Messager d’Allah ﷺ a dit : « Lorsque l’esclave s’acquitte du droit d’Allah et du droit de ses maîtres, il reçoit une double récompense. » Abu Hurayra dit : « Je rapportai cela à Ka‘b. Ka‘b dit alors : “Il n’aura pas de compte à rendre ; il en va de même du croyant détaché des biens de ce monde.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4a61d082-17e9-4b27-8366-7f84dc0827be",
+      "reason": "Cette entrée ne donne que des chaînes de transmission et indique que le récit est semblable à celui de Malik, sans en reproduire le contenu ou une variante distincte. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
