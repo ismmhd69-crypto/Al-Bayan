@@ -6278,3 +6278,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1227 saves six private French drafts, preserving the narrator’s uncertainty about the number of generations in 6695 and the vow’s pre-Islamic context in 6697. No database writes or publication occurred.
 - All six drafts passed the focused validator. Bukhari local drafts: 5,639 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 813. Total local hadith rows not drafted: 8,990, including held records.
+
+
+### 2026-10-29: Bukhari 6698–6703
+
+- FR-LIB-HAD-BUKHARI-1228 saves six private French drafts, preserving the reported vow rulings, the variant chain in 6701, and both distinct reports about pulling people by a tether at the Kaaba. No database writes or publication occurred.
+- All six drafts passed the focused validator. Bukhari local drafts: 5,645 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 813. Total local hadith rows not drafted: 8,984, including held records.
