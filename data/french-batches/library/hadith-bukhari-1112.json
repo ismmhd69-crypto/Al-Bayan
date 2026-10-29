@@ -1,0 +1,47 @@
+{
+  "batch_id": "HADITH-BUKHARI-1112",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:06:25.659Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "38d40899-8ce2-4ee1-a164-ffe8bfaa09e5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6106",
+      "reference": "Sahih al-Bukhari, hadith 6106, book 78, باب مَنْ لَمْ يَرَ إِكْفَارَ مَنْ قَالَ ذَلِكَ مُتَأَوِّلاً أَوْ جَاهِلاً",
+      "title": "باب مَنْ لَمْ يَرَ إِكْفَارَ مَنْ قَالَ ذَلِكَ مُتَأَوِّلاً أَوْ جَاهِلاً",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبَادَةَ، أَخْبَرَنَا يَزِيدُ، أَخْبَرَنَا سَلِيمٌ، حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، حَدَّثَنَا جَابِرُ بْنُ عَبْدِ اللَّهِ، أَنَّ مُعَاذَ بْنَ جَبَلٍ ـ رضى الله عنه ـ كَانَ يُصَلِّي مَعَ النَّبِيِّ صلى الله عليه وسلم ثُمَّ يَأْتِي قَوْمَهُ فَيُصَلِّي بِهِمُ الصَّلاَةَ، فَقَرَأَ بِهِمُ الْبَقَرَةَ ـ قَالَ ـ فَتَجَوَّزَ رَجُلٌ فَصَلَّى صَلاَةً خَفِيفَةً، فَبَلَغَ ذَلِكَ مُعَاذًا فَقَالَ إِنَّهُ مُنَافِقٌ‏.‏ فَبَلَغَ ذَلِكَ الرَّجُلَ، فَأَتَى النَّبِيَّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنَّا قَوْمٌ نَعْمَلُ بِأَيْدِينَا، وَنَسْقِي بِنَوَاضِحِنَا، وَإِنَّ مُعَاذًا صَلَّى بِنَا الْبَارِحَةَ، فَقَرَأَ الْبَقَرَةَ فَتَجَوَّزْتُ، فَزَعَمَ أَنِّي مُنَافِقٌ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ يَا مُعَاذُ أَفَتَّانٌ أَنْتَ ـ ثَلاَثًا ـ اقْرَأْ ‏[quran sura=\"91\" aya_start=\"1\" aya_end=\"1\"]{‏وَالشَّمْسِ وَضُحَاهَا‏}‏ وَ‏[quran sura=\"87\" aya_start=\"1\" aya_end=\"1\"]{‏سَبِّحِ اسْمَ رَبِّكَ الأَعْلَى‏}‏ وَنَحْوَهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "63512d645a8133a647e7bc600a0824eacde53ff96d9a35ddf095855accbf44fd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Le rapport cite directement le Coran 91:1 et 87:1. Garder le texte entier en attente d’une traduction française approuvée, attribuée et autorisée."
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "38d40899-8ce2-4ee1-a164-ffe8bfaa09e5",
+      "url": "https://sunnah.com/bukhari:6106",
+      "reason": "Le rapport cite directement le Coran 91:1 et 87:1. Garder le texte entier en attente d’une traduction française approuvée, attribuée et autorisée."
+    }
+  ]
+}
