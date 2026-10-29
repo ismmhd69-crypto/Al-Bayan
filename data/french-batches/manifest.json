@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5072,
+    "hadithBukhariDrafted": 5077,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5072,
+    "hadithLocalDrafted": 5077,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9557,
-    "hadithNeedsMo": 762,
+    "hadithLocalRemaining": 9552,
+    "hadithNeedsMo": 763,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23486,6 +23486,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1102",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1102.json",
+      "sourceIds": [
+        "d728549c-b3ce-47e2-8cf5-7043510dfb78",
+        "c0858880-857a-4ea0-afb9-ad39226a4540",
+        "4f1f809e-5376-4737-a8f4-640a8e8f1ae3",
+        "51e0e432-a88c-4c37-833f-d2cc4e7d52e8",
+        "a69d3729-499f-4ecf-ab60-1aac05a564b1",
+        "eaea426b-bcf5-477f-abab-a3849ccf5ff8"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; Bukhari 6068 held blank because the variant does not include a complete chain. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26530,6 +26551,12 @@
       "scope": "Sahih al-Bukhari 6063: long report with uncertain technical wording",
       "status": "blocked",
       "reason": "The report is unusually long and includes uncertain technical terms, including الرفوفة and تنشرت. Keep the entire item blank in FR-LIB-HAD-BUKHARI-1100 rather than infer their meaning."
+    },
+    {
+      "id": "HADITH-BUKHARI-6068-INCOMPLETE-CHAIN",
+      "scope": "Sahih al-Bukhari 6068: variant begins with shorthand بهذا",
+      "status": "blocked",
+      "reason": "The exported variant refers back with بهذا and does not provide its full chain in this record. Keep the item blank in FR-LIB-HAD-BUKHARI-1102 rather than copying a neighboring chain."
     }
   ],
   "hadithBukhariDrafted": 4523,
@@ -26643,6 +26670,12 @@
       "scope": "Sahih al-Bukhari 6063: long report with uncertain technical wording",
       "status": "blocked",
       "reason": "The report is unusually long and includes uncertain technical terms, including الرفوفة and تنشرت. Keep the entire item blank in FR-LIB-HAD-BUKHARI-1100 rather than infer their meaning."
+    },
+    {
+      "id": "HADITH-BUKHARI-6068-INCOMPLETE-CHAIN",
+      "scope": "Sahih al-Bukhari 6068: variant begins with shorthand بهذا",
+      "status": "blocked",
+      "reason": "The exported variant refers back with بهذا and does not provide its full chain in this record. Keep the item blank in FR-LIB-HAD-BUKHARI-1102 rather than copying a neighboring chain."
     }
   ]
 }

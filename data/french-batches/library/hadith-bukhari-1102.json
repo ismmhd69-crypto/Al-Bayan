@@ -1,0 +1,167 @@
+{
+  "batch_id": "HADITH-BUKHARI-1102",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:02:15.823Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d728549c-b3ce-47e2-8cf5-7043510dfb78",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6066",
+      "reference": "Sahih al-Bukhari, hadith 6066, book 78, باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ وَلاَ تَجَسَّسُوا‏} ‏",
+      "title": "باب ‏ {‏يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ وَلاَ تَجَسَّسُوا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِيَّاكُمْ وَالظَّنَّ، فَإِنَّ الظَّنَّ أَكْذَبُ الْحَدِيثِ، وَلاَ تَحَسَّسُوا، وَلاَ تَجَسَّسُوا، وَلاَ تَنَاجَشُوا، وَلاَ تَحَاسَدُوا، وَلاَ تَبَاغَضُوا، وَلاَ تَدَابَرُوا، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا ‏\"‏‏.‏",
+      "source_hash_sha256": "6d80760cd20ad423ccc6ec8198be66fb74304565423d8424f028f55f0ff2603f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn Yûsuf nous a rapporté : Mâlik nous a informés, d’après Abû az-Zinâd, d’après al-A‘raj, d’après Abû Hurayra (qu’Allah l’agrée), que le Messager d’Allah ﷺ a dit : « Gardez-vous des conjectures, car la conjecture est le discours le plus mensonger. Ne cherchez pas à découvrir les affaires des autres et ne les espionnez pas. Ne pratiquez pas la surenchère trompeuse. Ne vous enviez pas, ne vous haïssez pas, ne vous détournez pas les uns des autres. Soyez, serviteurs d’Allah, des frères. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c0858880-857a-4ea0-afb9-ad39226a4540",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6067",
+      "reference": "Sahih al-Bukhari, hadith 6067, book 78, باب مَا يَكُونُ مِنَ الظَّنِّ",
+      "title": "باب مَا يَكُونُ مِنَ الظَّنِّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتْ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَا أَظُنُّ فُلاَنًا وَفُلاَنًا يَعْرِفَانِ مِنْ دِينِنَا شَيْئًا ‏\"‏‏.‏ قَالَ اللَّيْثُ كَانَا رَجُلَيْنِ مِنَ الْمُنَافِقِينَ‏.‏",
+      "source_hash_sha256": "e92d281365fe4f3ec7c11a19fb1c2893364051510b0a0eb39a212744bbc71638",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘îd ibn ‘Ufayr nous a rapporté : al-Layth nous a rapporté, d’après ‘Uqayl, d’après Ibn Shihâb, d’après ‘Urwa, d’après ‘Â’isha, qui a dit : Le Prophète ﷺ a dit : « Je ne pense pas qu’untel et untel connaissent quoi que ce soit de notre religion. » Al-Layth a dit : « C’étaient deux hommes parmi les hypocrites. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4f1f809e-5376-4737-a8f4-640a8e8f1ae3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6068",
+      "reference": "Sahih al-Bukhari, hadith 6068, book 78, باب مَا يَكُونُ مِنَ الظَّنِّ",
+      "title": "باب مَا يَكُونُ مِنَ الظَّنِّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، بِهَذَا وَقَالَتْ دَخَلَ عَلَىَّ النَّبِيُّ صلى الله عليه وسلم يَوْمًا وَقَالَ ‏\"‏ يَا عَائِشَةُ مَا أَظُنُّ فُلاَنًا وَفُلاَنًا يَعْرِفَانِ دِينَنَا الَّذِي نَحْنُ عَلَيْهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "62d4f19d2c164a77b73e35111b3766effd9900f530a1d3f4730460fe6d5529ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Le texte commence par « بهذا » (avec ceci/cette transmission) et ne fournit pas la chaîne complète de cette variante. Ne pas compléter depuis l’enregistrement voisin."
+    },
+    {
+      "source_id": "51e0e432-a88c-4c37-833f-d2cc4e7d52e8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6069",
+      "reference": "Sahih al-Bukhari, hadith 6069, book 78, باب سَتْرِ الْمُؤْمِنِ عَلَى نَفْسِهِ",
+      "title": "باب سَتْرِ الْمُؤْمِنِ عَلَى نَفْسِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنِ ابْنِ أَخِي ابْنِ شِهَابٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ كُلُّ أُمَّتِي مُعَافًى إِلاَّ الْمُجَاهِرِينَ، وَإِنَّ مِنَ الْمَجَانَةِ أَنْ يَعْمَلَ الرَّجُلُ بِاللَّيْلِ عَمَلاً، ثُمَّ يُصْبِحَ وَقَدْ سَتَرَهُ اللَّهُ، فَيَقُولَ يَا فُلاَنُ عَمِلْتُ الْبَارِحَةَ كَذَا وَكَذَا، وَقَدْ بَاتَ يَسْتُرُهُ رَبُّهُ وَيُصْبِحُ يَكْشِفُ سِتْرَ اللَّهِ عَنْهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "b9e5e0dc4e4c1b229b0f76edf5a292d8921e51818a8e6c49235edee6ebe6d784",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd al-‘Azîz ibn ‘Abd Allâh nous a rapporté : Ibrâhîm ibn Sa‘d nous a rapporté, d’après le neveu d’Ibn Shihâb, d’après Ibn Shihâb, d’après Sâlim ibn ‘Abd Allâh, qui a dit : J’ai entendu Abû Hurayra dire : J’ai entendu le Messager d’Allah ﷺ dire : « Tous les membres de ma communauté seront pardonnés, sauf ceux qui divulguent ouvertement leurs péchés. C’est une marque d’impudence qu’un homme commette une faute pendant la nuit, puis se réveille alors qu’Allah l’a tenue secrète, et qu’il dise : “Untel, j’ai fait telle et telle chose la nuit dernière”, alors que son Seigneur avait passé la nuit à la couvrir et que, le matin venu, il dévoile ce qu’Allah avait caché à son sujet. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a69d3729-499f-4ecf-ab60-1aac05a564b1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6070",
+      "reference": "Sahih al-Bukhari, hadith 6070, book 78, باب سَتْرِ الْمُؤْمِنِ عَلَى نَفْسِهِ",
+      "title": "باب سَتْرِ الْمُؤْمِنِ عَلَى نَفْسِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ قَتَادَةَ، عَنْ صَفْوَانَ بْنِ مُحْرِزٍ، أَنَّ رَجُلاً، سَأَلَ ابْنَ عُمَرَ كَيْفَ سَمِعْتَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ فِي النَّجْوَى قَالَ ‏\"‏ يَدْنُو أَحَدُكُمْ مِنْ رَبِّهِ حَتَّى يَضَعَ كَنَفَهُ عَلَيْهِ فَيَقُولُ عَمِلْتَ كَذَا وَكَذَا‏.‏ فَيَقُولُ نَعَمْ‏.‏ وَيَقُولُ عَمِلْتَ كَذَا وَكَذَا‏.‏ فَيَقُولُ نَعَمْ‏.‏ فَيُقَرِّرُهُ ثُمَّ يَقُولُ إِنِّي سَتَرْتُ عَلَيْكَ فِي الدُّنْيَا، فَأَنَا أَغْفِرُهَا لَكَ الْيَوْمَ ‏\"‏‏.‏",
+      "source_hash_sha256": "5f812b0bd30f3a07646536781c9a3e83161ce01c7925b1a02d42fa7bb458c068",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Abû ‘Awâna nous a rapporté, d’après Qatâda, d’après Safwân ibn Muhraz, qu’un homme demanda à Ibn ‘Umar : « Comment as-tu entendu le Messager d’Allah ﷺ parler de l’entretien confidentiel ? » Il répondit : « L’un de vous s’approchera de son Seigneur jusqu’à ce qu’Il le couvre de Son voile. Il lui dira : “Tu as fait telle et telle chose.” L’homme répondra : “Oui.” Il lui dira encore : “Tu as fait telle et telle chose.” Il répondra : “Oui.” Il lui fera reconnaître ses actes, puis dira : “Je les ai tenus secrets pour toi dans la vie d’ici-bas ; aujourd’hui, Je te les pardonne.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eaea426b-bcf5-477f-abab-a3849ccf5ff8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6071",
+      "reference": "Sahih al-Bukhari, hadith 6071, book 78, باب الْكِبْرِ",
+      "title": "باب الْكِبْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، حَدَّثَنَا مَعْبَدُ بْنُ خَالِدٍ الْقَيْسِيُّ، عَنْ حَارِثَةَ بْنِ وَهْبٍ الْخُزَاعِيِّ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ أَلاَ أُخْبِرُكُمْ بِأَهْلِ الْجَنَّةِ، كُلُّ ضَعِيفٍ مُتَضَاعِفٍ، لَوْ أَقْسَمَ عَلَى اللَّهِ لأَبَرَّهُ، أَلاَ أُخْبِرُكُمْ بِأَهْلِ النَّارِ كُلُّ عُتُلٍّ جَوَّاظٍ مُسْتَكْبِرٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "674805e0f4448c6657716fac30874708b457e1c388b8060658e46bca0188d90d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Kathîr nous a rapporté : Sufyân nous a informés : Ma‘bad ibn Khâlid al-Qaysî nous a rapporté, d’après Hâritha ibn Wahb al-Khuzâ‘î, d’après le Prophète ﷺ, qui a dit : « Voulez-vous que je vous indique les gens du Paradis ? Toute personne faible et humble qui, si elle jurait par Allah, verrait son serment accompli. Voulez-vous que je vous indique les gens du Feu ? Tout homme brutal, grossier et orgueilleux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4f1f809e-5376-4737-a8f4-640a8e8f1ae3",
+      "url": "https://sunnah.com/bukhari:6068",
+      "reason": "Le texte commence par « بهذا » (avec ceci/cette transmission) et ne fournit pas la chaîne complète de cette variante. Ne pas compléter depuis l’enregistrement voisin."
+    }
+  ]
+}
