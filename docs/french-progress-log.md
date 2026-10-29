@@ -1206,3 +1206,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-254` saves five private French drafts for Bukhari 1455, 1456 and 1458–1460. Bukhari 1461 remains blank and is recorded under Needs Mo because it quotes Quran 3:92 twice; no approved, attributed French Quran translation is configured.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,334 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 76. Total local hadith rows not drafted: 13,295, including held records.
+
+### 2026-10-29: Bukhari 1462–1467 source review
+
+- `FR-LIB-HAD-BUKHARI-255` saves six private French drafts for Bukhari 1462–1467. They preserve the dialogue with Zaynab, the exemption for a Muslim’s horse and servant, the warning about wealth, and the two-reward explanation for supporting family. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,340 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 76. Total local hadith rows not drafted: 13,289, including held records.

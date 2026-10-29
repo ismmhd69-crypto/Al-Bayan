@@ -6358,6 +6358,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1461 held for embedded Quran quotations"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-255",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-255.json",
+      "sourceIds": [
+        "ae71cd4e-e095-48d9-b97d-fb0efe96b3fc",
+        "fc5ee11d-6f68-4bb2-a6ad-b9cf2686f113",
+        "409a7d20-1f9e-4a59-b95a-362e7f23cc80",
+        "6702f9a1-088f-412c-8498-be7a54a4b77c",
+        "259fcc9c-7323-4d60-a1ab-c7ea878f3770",
+        "97732d18-1ca5-4432-a3c7-ce16655cb50e"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [
