@@ -2111,3 +2111,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-439` saves six private French drafts for Bukhari 2552–2555 and 2557–2558, covering respectful forms of address, emancipation, responsibility, and sharing food with a household servant.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,314 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,315, including held records.
+
+### 2026-10-29: Bukhari 2559–2564 source review
+
+- `FR-LIB-HAD-BUKHARI-440` saves six private French drafts for Bukhari 2559–2564, covering the prohibition on striking the face and several reports about Barira’s emancipation contract and the associated clientage right.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,320 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,309, including held records.
