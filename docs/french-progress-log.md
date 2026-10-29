@@ -2776,3 +2776,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-572` saves six private French drafts about devils, dreams, and remembrance of Allah.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,965 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 188. Total local hadith rows not drafted: 11,690, including held records.
+
+### 2026-10-29: Bukhari 3294–3300
+
+- `FR-LIB-HAD-BUKHARI-573` saves five private French drafts about anger, the call to prayer, and animals. Bukhari 3299 remains entirely blank because the export contains only an incomplete chain fragment, without the report text.
+- All six records passed the focused validator, including the incomplete-source hold. No database writes or publication occurred. Bukhari local drafts: 2,970 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 189. Total local hadith rows not drafted: 11,685, including held records.
