@@ -10781,3 +10781,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0730 saves five private French drafts about access to water and prohibited earnings. Muslim 1567b only records transmission differences and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1568b–1570b
+
+- FR-LIB-HAD-MUSLIM-0731 saves four private French drafts about prohibited earnings and dogs. Muslim 1568c–d only point to the preceding report and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
