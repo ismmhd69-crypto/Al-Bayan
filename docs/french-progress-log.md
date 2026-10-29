@@ -2816,3 +2816,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-580` contains no French drafts. Bukhari 3339 and 3341 remain blank because they directly quote Quran 2:143 and 54:15. Bukhari 3340 remains blank because the Arabic source explicitly says the narrator did not retain the rest of the report.
 - All three records passed the focused validator with their holds. No database writes or publication occurred. Bukhari local drafts: 3,004 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 194. Total local hadith rows not drafted: 11,651, including held records.
+
+### 2026-10-29: Bukhari 3342 long-source review
+
+- `FR-LIB-HAD-BUKHARI-581` contains the long report about the Night Journey and the reduction of the prayers. It remains entirely blank because it includes Quran 50:29 wording; an approved attributed French Quran translation is unavailable.
+- The record passed the focused single-item long-source validator with its Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,004 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 195. Total local hadith rows not drafted: 11,651, including held records.
