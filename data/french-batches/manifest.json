@@ -16725,6 +16725,28 @@
   "published": 0,
   "status": "local draft with holds"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-781",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-781.json",
+  "sourceIds": [
+    "e72e2d9d-5e41-428a-860c-3a34dd3e5271",
+    "af805032-6f7e-4800-94dd-ff24c9b89885",
+    "5a42bfd1-a291-4471-b5fc-bd40095453e3",
+    "cb829b25-8a40-45bb-8953-13543ff95100",
+    "c86f8294-c283-40a3-be90-c42bdd8b9b25",
+    "42f0f8f0-59a1-4e0a-9059-317b9d221296"
+  ],
+  "translated": 6,
+  "inserted": 0,
+  "preserved": 0,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft"
+}
   ],
   "blockers": [
     {
@@ -17217,7 +17239,7 @@
   "reason": "The report directly quotes Quran 110:1–3. The complete hadith remains blank in FR-LIB-HAD-BUKHARI-780 until an approved, attributed French Quran translation is confirmed."
 }
   ],
-  "hadithBukhariDrafted": 3794,
-  "hadithLocalDrafted": 3794,
-  "hadithLocalRemaining": 10863
+  "hadithBukhariDrafted": 3800,
+  "hadithLocalDrafted": 3800,
+  "hadithLocalRemaining": 10857
 }

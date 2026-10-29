@@ -3816,3 +3816,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-780` saves five private French drafts. Hadith 4294 remains blank because it directly quotes Quran 110:1–3; the hold is recorded for Mo.
 - All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,794 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 314. Total local hadith rows not drafted: 10,863, including held records.
+
+### 2026-10-29: Bukhari 4300–4305
+
+- `FR-LIB-HAD-BUKHARI-781` saves six private French drafts about the conquest, an early prayer leader, a disputed parentage case, and the return of a stolen item case.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,800 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 314. Total local hadith rows not drafted: 10,857, including held records.
