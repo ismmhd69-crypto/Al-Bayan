@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5712,
+    "hadithBukhariDrafted": 5717,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5712,
+    "hadithLocalDrafted": 5717,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8917,
-    "hadithNeedsMo": 824,
+    "hadithLocalRemaining": 8912,
+    "hadithNeedsMo": 825,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26317,6 +26317,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1244",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1244.json",
+      "sourceIds": [
+        "cee47431-1618-4d7d-abdb-558d2e5b7128",
+        "d148a80b-ba83-4130-a4c4-138d29a7740c",
+        "03af24f1-9eb5-4e10-a297-f55f1f093821",
+        "67b9ae1d-c9e6-4f82-ae56-d8acdab18cfd",
+        "3310a8f5-ec9c-4f28-a35e-384f52f2e0c6",
+        "980b41bc-b056-4ba3-a77f-edf7c6126ef4"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one report held in full for a direct Quran 60:12 quotation. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -29649,11 +29670,17 @@
       "scope": "Sahih al-Bukhari 6778: unclear legal wording concerning death during enforcement of a penalty and blood-money liability",
       "status": "blocked",
       "reason": "The report’s wording about liability if the person died during enforcement and the Prophet’s not having “set it” is legally significant but unclear in this brief excerpt. Keep the complete translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6784-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 6784: direct quotation of Quran 60:12 in the pledge wording",
+      "status": "blocked",
+      "reason": "The pledge wording directly quotes part of Quran 60:12. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5712,
-  "hadithLocalDrafted": 5712,
-  "hadithLocalRemaining": 8917,
+  "hadithBukhariDrafted": 5717,
+  "hadithLocalDrafted": 5717,
+  "hadithLocalRemaining": 8912,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30128,6 +30155,12 @@
       "scope": "Sahih al-Bukhari 6778: unclear legal wording concerning death during enforcement of a penalty and blood-money liability",
       "status": "blocked",
       "reason": "The report’s wording about liability if the person died during enforcement and the Prophet’s not having “set it” is legally significant but unclear in this brief excerpt. Keep the complete translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6784-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 6784: direct quotation of Quran 60:12 in the pledge wording",
+      "status": "blocked",
+      "reason": "The pledge wording directly quotes part of Quran 60:12. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

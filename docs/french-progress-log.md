@@ -6374,3 +6374,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1243 saves five private French drafts. Bukhari 6778 remains blank because its legal wording about liability and the Prophet’s not having “set” the penalty is unclear in the excerpt. No database writes or publication occurred.
 - All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,712 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 824. Total local hadith rows not drafted: 8,917, including held records.
+
+
+### 2026-10-29: Bukhari 6784–6789 — one held
+
+- FR-LIB-HAD-BUKHARI-1244 saves five private French drafts. Bukhari 6784 remains blank because its pledge wording directly quotes Quran 60:12. No database writes or publication occurred.
+- All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,717 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 825. Total local hadith rows not drafted: 8,912, including held records.
