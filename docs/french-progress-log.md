@@ -8281,3 +8281,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0231 saves five private French drafts about prayer and the odors of garlic, and the prohibition of domestic donkey meat at Khaybar. Muslim 560b is only a cross-reference that omits the earlier story and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 936 Muslim drafts, 7,272 total hadith drafts, 7,357 remaining, and 446 Needs Mo items.
+
+### 2026-10-29: Muslim 563–565
+
+- FR-LIB-HAD-MUSLIM-0232 saves six private French drafts about garlic, onions and leeks, their effect on mosque attendance, and the clarification that the restriction concerns their odor rather than declaring them unlawful. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 942 Muslim drafts, 7,278 total hadith drafts, 7,351 remaining, and 446 Needs Mo items.
