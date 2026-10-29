@@ -1,0 +1,190 @@
+{
+  "batch_id": "HADITH-BUKHARI-1380",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:43:30.755Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "348358ee-444c-46f4-a5b5-26ba4da9771c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7542",
+      "reference": "Sahih al-Bukhari, hadith 7542, book 97, باب مَا يَجُوزُ مِنْ تَفْسِيرِ التَّوْرَاةِ وَغَيْرِهَا مِنْ كُتُبِ اللَّهِ بِالْعَرَبِيَّةِ وَغَيْرِهَا",
+      "title": "باب مَا يَجُوزُ مِنْ تَفْسِيرِ التَّوْرَاةِ وَغَيْرِهَا مِنْ كُتُبِ اللَّهِ بِالْعَرَبِيَّةِ وَغَيْرِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا عُثْمَانُ بْنُ عُمَرَ، أَخْبَرَنَا عَلِيُّ بْنُ الْمُبَارَكِ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ كَانَ أَهْلُ الْكِتَابِ يَقْرَءُونَ التَّوْرَاةَ بِالْعِبْرَانِيَّةِ، وَيُفَسِّرُونَهَا بِالْعَرَبِيَّةِ لأَهْلِ الإِسْلاَمِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تُصَدِّقُوا أَهْلَ الْكِتَابِ، وَلاَ تُكَذِّبُوهُمْ وَ‏[quran sura=\"2\" aya_start=\"136\" aya_end=\"136\"]{‏قُولُوا آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ‏}‏ الآيَةَ ‏\"‏‏.‏",
+      "source_hash_sha256": "2260da24ffafd1b234d301e49fbcd5af31e385ee054543042df16a905e6a7a05",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "4c24eb8e-25b8-4034-8999-d1b137ab3017",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7543",
+      "reference": "Sahih al-Bukhari, hadith 7543, book 97, باب مَا يَجُوزُ مِنْ تَفْسِيرِ التَّوْرَاةِ وَغَيْرِهَا مِنْ كُتُبِ اللَّهِ بِالْعَرَبِيَّةِ وَغَيْرِهَا",
+      "title": "باب مَا يَجُوزُ مِنْ تَفْسِيرِ التَّوْرَاةِ وَغَيْرِهَا مِنْ كُتُبِ اللَّهِ بِالْعَرَبِيَّةِ وَغَيْرِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا إِسْمَاعِيلُ، عَنْ أَيُّوبَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ أُتِيَ النَّبِيُّ صلى الله عليه وسلم بِرَجُلٍ وَامْرَأَةٍ مِنَ الْيَهُودِ قَدْ زَنَيَا فَقَالَ لِلْيَهُودِ ‏\"‏ مَا تَصْنَعُونَ بِهِمَا ‏\"‏‏.‏ قَالُوا نُسَخِّمُ وُجُوهَهُمَا وَنُخْزِيهِمَا‏.‏ قَالَ ‏\"‏ ‏[quran sura=\"3\" aya_start=\"93\" aya_end=\"93\"]{‏فَأْتُوا بِالتَّوْرَاةِ فَاتْلُوهَا إِنْ كُنْتُمْ صَادِقِينَ‏}‏ ‏\"‏‏.‏ فَجَاءُوا فَقَالُوا لِرَجُلٍ مِمَّنْ يَرْضَوْنَ يَا أَعْوَرُ اقْرَأْ‏.‏ فَقَرَأَ حَتَّى انْتَهَى عَلَى مَوْضِعٍ مِنْهَا فَوَضَعَ يَدَهُ عَلَيْهِ‏.‏ قَالَ ‏\"‏ ارْفَعْ يَدَكَ ‏\"‏‏.‏ فَرَفَعَ يَدَهُ فَإِذَا فِيهِ آيَةُ الرَّجْمِ تَلُوحُ فَقَالَ يَا مُحَمَّدُ إِنَّ عَلَيْهِمَا الرَّجْمَ‏.‏ وَلَكِنَّا نُكَاتِمُهُ بَيْنَنَا‏.‏ فَأَمَرَ بِهِمَا فَرُجِمَا، فَرَأَيْتُهُ يُجَانِئُ عَلَيْهَا الْحِجَارَةَ‏.‏",
+      "source_hash_sha256": "9776b39c7020b30a4bb2bf7a407ce8d9d4dde1067f736284d9a81b178b7ebb52",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "cefeb4c2-0788-4814-b4b9-60db1e7d8849",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7544",
+      "reference": "Sahih al-Bukhari, hadith 7544, book 97, بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْمَاهِرُ بِالْقُرْآنِ مَعَ الْكِرَامِ الْبَرَرَةِ»",
+      "title": "بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْمَاهِرُ بِالْقُرْآنِ مَعَ الْكِرَامِ الْبَرَرَةِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِبْرَاهِيمُ بْنُ حَمْزَةَ، حَدَّثَنِي ابْنُ أَبِي حَازِمٍ، عَنْ يَزِيدَ، عَنْ مُحَمَّدِ بْنِ إِبْرَاهِيمَ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ سَمِعَ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَا أَذِنَ اللَّهُ لِشَىْءٍ مَا أَذِنَ لِنَبِيٍّ حَسَنِ الصَّوْتِ بِالْقُرْآنِ يَجْهَرُ بِهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "8ab23cf6b33589875ffe31559d4a7cbf82a739f453caad9524bae4c71c62208b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Allah n’écoute aucune chose avec autant d’attention qu’un prophète à la belle voix qui récite le Coran à haute voix.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7e725162-0da6-4bea-a077-b0cc0b4e20f2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7545",
+      "reference": "Sahih al-Bukhari, hadith 7545, book 97, بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْمَاهِرُ بِالْقُرْآنِ مَعَ الْكِرَامِ الْبَرَرَةِ»",
+      "title": "بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْمَاهِرُ بِالْقُرْآنِ مَعَ الْكِرَامِ الْبَرَرَةِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ يُونُسَ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، وَسَعِيدُ بْنُ الْمُسَيَّبِ، وَعَلْقَمَةُ بْنُ وَقَّاصٍ، وَعُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ، عَنْ حَدِيثِ، عَائِشَةَ حِينَ قَالَ لَهَا أَهْلُ الإِفْكِ مَا قَالُوا ـ وَكُلٌّ حَدَّثَنِي طَائِفَةً مِنَ الْحَدِيثِ ـ قَالَتْ فَاضْطَجَعْتُ عَلَى فِرَاشِي، وَأَنَا حِينَئِذٍ أَعْلَمُ أَنِّي بَرِيئَةٌ وَأَنَّ اللَّهَ يُبَرِّئُنِي، وَلَكِنْ وَاللَّهِ مَا كُنْتُ أَظُنُّ أَنَّ اللَّهَ يُنْزِلُ فِي شَأْنِي وَحْيًا يُتْلَى، وَلَشَأْنِي فِي نَفْسِي كَانَ أَحْقَرَ مِنْ أَنْ يَتَكَلَّمَ اللَّهُ فِيَّ بِأَمْرٍ يُتْلَى، وَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"24\" aya_start=\"11\" aya_end=\"11\"]{‏إِنَّ الَّذِينَ جَاءُوا بِالإِفْكِ‏}‏ الْعَشْرَ الآيَاتِ كُلَّهَا‏.‏",
+      "source_hash_sha256": "eac8a90a22fac9912bdf82d130b5834259850b47e050efee0f6c01a75306ec16",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "6a41d5c5-c255-4168-b303-7ade13d43afc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7546",
+      "reference": "Sahih al-Bukhari, hadith 7546, book 97, بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْمَاهِرُ بِالْقُرْآنِ مَعَ الْكِرَامِ الْبَرَرَةِ»",
+      "title": "بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْمَاهِرُ بِالْقُرْآنِ مَعَ الْكِرَامِ الْبَرَرَةِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا مِسْعَرٌ، عَنْ عَدِيِّ بْنِ ثَابِتٍ، أُرَاهُ عَنِ الْبَرَاءِ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ فِي الْعِشَاءِ [quran sura=\"95\" aya_start=\"1\" aya_end=\"1\"]‏{‏وَالتِّينِ وَالزَّيْتُونِ‏}‏ فَمَا سَمِعْتُ أَحَدًا أَحْسَنَ صَوْتًا أَوْ قِرَاءَةً مِنْهُ‏.‏",
+      "source_hash_sha256": "6bcee100d4677a042f6bdb84709ed71a6669ade2f5426cbbb59ebc5f44b30f36",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "256ac269-cd6e-4d0e-a9a9-c2d7d4f3ddd1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7547",
+      "reference": "Sahih al-Bukhari, hadith 7547, book 97, بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْمَاهِرُ بِالْقُرْآنِ مَعَ الْكِرَامِ الْبَرَرَةِ»",
+      "title": "بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الْمَاهِرُ بِالْقُرْآنِ مَعَ الْكِرَامِ الْبَرَرَةِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجُ بْنُ مِنْهَالٍ، حَدَّثَنَا هُشَيْمٌ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم مُتَوَارِيًا بِمَكَّةَ، وَكَانَ يَرْفَعُ صَوْتَهُ، فَإِذَا سَمِعَ الْمُشْرِكُونَ سَبُّوا الْقُرْآنَ وَمَنْ جَاءَ بِهِ، فَقَالَ اللَّهُ عَزَّ وَجَلَّ لِنَبِيِّهِ صلى الله عليه وسلم ‏[quran sura=\"17\" aya_start=\"110\" aya_end=\"110\"]{‏وَلاَ تَجْهَرْ بِصَلاَتِكَ وَلاَ تُخَافِتْ بِهَا‏}‏",
+      "source_hash_sha256": "7b534f440cc8fedd4bd7be9259f8dede3578e07f77d2f17dfd6c02b473ab7d97",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "348358ee-444c-46f4-a5b5-26ba4da9771c",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "4c24eb8e-25b8-4034-8999-d1b137ab3017",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "7e725162-0da6-4bea-a077-b0cc0b4e20f2",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "6a41d5c5-c255-4168-b303-7ade13d43afc",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "256ac269-cd6e-4d0e-a9a9-c2d7d4f3ddd1",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
