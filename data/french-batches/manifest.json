@@ -59,18 +59,18 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 4944,
+    "hadithMuslimDrafted": 4949,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11280,
+    "hadithLocalDrafted": 11285,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3349,
-    "hadithNeedsMo": 2797,
+    "hadithLocalRemaining": 3344,
+    "hadithNeedsMo": 2798,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14077,
-    "hadithSourcesNotYetExported": 552
+    "hadithSourcesProcessed": 14083,
+    "hadithSourcesNotYetExported": 546
   },
   "batches": [
     {
@@ -50940,6 +50940,30 @@
       "failed": 0,
       "remaining": 3349,
       "validation": "Three complete reports translated. Three variant-only or partial reports held blank with reasons. Focused validator and git diff check passed. Private local drafts only.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1262",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1262.json",
+      "sourceIds": [
+        "0a8cbb40-1724-415a-9bb7-658ec0d049b2",
+        "b781a5ba-12fe-458f-ad0e-ee2201f3e3a0",
+        "41eaa61d-b975-4c66-85bd-3e4e577574de",
+        "2cb6fcca-1c54-438f-80e3-2e1e2576c102",
+        "4ab66535-9738-4053-94d0-7eeab8705ce3",
+        "5f57ad74-ebf5-4c29-9c60-dc7b3b3569b8"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 1,
+      "failed": 0,
+      "remaining": 3344,
+      "validation": "Five complete reports translated. One cross-reference-only variant held blank with a reason. Focused validator and git diff check passed. Private local drafts only.",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
