@@ -7991,3 +7991,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0173 saves three private French drafts about saying “Amine” in prayer and following the imam. Muslim 410e and 411b are incomplete cross-references and remain blank under Needs Mo. Muslim 410f directly quotes a fragment of Quran 1:7, so its full French text remains blank pending an approved, attributed French Quran translation with permitted use. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 711 Muslim drafts, 7,047 total hadith drafts, 7,582 remaining, and 339 Needs Mo items.
+
+### 2026-10-29: Muslim 411c–413a
+
+- FR-LIB-HAD-MUSLIM-0174 saves two private French drafts about following an imam who prays sitting. Muslim 411c–e and 412b contain only cross-referenced wording variants or summaries, so they remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 713 Muslim drafts, 7,049 total hadith drafts, 7,580 remaining, and 343 Needs Mo items.
