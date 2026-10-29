@@ -16214,6 +16214,28 @@
   "published": 0,
   "status": "local draft with holds"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-756",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-756.json",
+  "sourceIds": [
+    "3b799193-0de0-457d-87f7-a16024842573",
+    "fa2f2f95-ce59-43d7-b071-be13eaf34d57",
+    "3d856281-248c-420f-a746-ce43628f2701",
+    "2e8e2637-289c-4259-8480-7b7031808577",
+    "11214ce0-5204-40a4-a154-11c646c16b2e",
+    "0185ce66-0031-41c9-ad3a-cfe426132f30"
+  ],
+  "translated": 4,
+  "inserted": 0,
+  "preserved": 2,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -16603,8 +16625,22 @@
   "status": "blocked",
   "reason": "The report directly quotes Quran 48:1. It remains blank in FR-LIB-HAD-BUKHARI-755 until an approved, attributed French Quran translation is confirmed."
 }
+
+,
+    {
+  "reason": "The report directly quotes Quran 60:12. It remains blank in FR-LIB-HAD-BUKHARI-756 until an approved, attributed French Quran translation is confirmed.",
+  "status": "blocked",
+  "id": "HADITH-BUKHARI-4182-QURAN-60-12",
+  "scope": "Sahih al-Bukhari 4182: direct quotation of Quran 60:12"
+},
+    {
+  "reason": "The report directly quotes Quran 33:21. It remains blank in FR-LIB-HAD-BUKHARI-756 until an approved, attributed French Quran translation is confirmed.",
+  "status": "blocked",
+  "id": "HADITH-BUKHARI-4184-QURAN-33-21",
+  "scope": "Sahih al-Bukhari 4184: direct quotation of Quran 33:21"
+}
   ],
-  "hadithBukhariDrafted": 3697,
-  "hadithLocalDrafted": 3697,
-  "hadithLocalRemaining": 10960
+  "hadithBukhariDrafted": 3701,
+  "hadithLocalDrafted": 3701,
+  "hadithLocalRemaining": 10956
 }
