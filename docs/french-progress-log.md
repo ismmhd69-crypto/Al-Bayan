@@ -8331,3 +8331,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0241 holds all six items blank under Needs Mo: four reports contain direct Quran quotations (84:1 and/or 96:1), and two contain only incomplete cross-references.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Draft totals remain 962 Muslim and 7,298 overall, with 7,331 remaining and 466 Needs Mo items.
+
+### 2026-10-29: Muslim 578g–580b
+
+- FR-LIB-HAD-MUSLIM-0242 saves four private French drafts describing how the Prophet ﷺ sat and gestured during prayer. Muslim 578h contains a direct Quran quotation and remains blank under Needs Mo; 578g is an incomplete cross-reference variant and also remains blank.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 966 Muslim drafts, 7,302 total hadith drafts, 7,327 remaining, and 468 Needs Mo items.
