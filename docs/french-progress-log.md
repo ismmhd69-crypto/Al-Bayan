@@ -7624,3 +7624,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0103 saves one private French draft for the long report in Muslim 220a. The full transmission narrative and the later description of the seventy thousand are retained. The Arabic original is 2,074 characters, so it is isolated as a single-item batch.
 - The focused validator passed, including the source hash and private, unpublished draft flags. No database write or publication occurred.
 - Count reconciliation: the manifest at this checkpoint listed 403 Muslim drafts (6,739 total; 7,890 remaining), while the previous progress-log entry reported 396 (6,732 total; 7,897 remaining). This batch advances the manifest count to 404 Muslim drafts, 6,740 total, and 7,889 remaining. The earlier seven-record difference remains unexplained and is flagged for final source recount; no prior log entry was rewritten.
+
+### 2026-10-29: Muslim 220b–222b
+
+- FR-LIB-HAD-MUSLIM-0104 saves five private French drafts across Muslim 220b–222b, preserving the shortened wording in 220b and the variants and narrator chains in 221a–c and 222b.
+- Muslim 222a directly repeats Quranic wording about the Day of Judgment. Its full translation remains blank under Needs Mo pending confirmation of an approved French Quran translation and usage rights.
+- All six Arabic source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 409 Muslim drafts, 6,745 total hadith drafts, 7,884 remaining, and 242 Needs Mo items.
