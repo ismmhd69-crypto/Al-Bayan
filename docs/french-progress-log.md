@@ -2146,3 +2146,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-446` saves six private French drafts for Bukhari 2589–2594, covering the retraction of gifts, charitable spending, emancipation, and the sharing of time among the Prophet’s wives.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,349 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,280, including held records.
+
+### 2026-10-29: Bukhari 2595–2600 source review
+
+- `FR-LIB-HAD-BUKHARI-447` saves six private French drafts for Bukhari 2595–2600, covering neighborly gifts, gifts during pilgrimage, public trust, promised payments, clothing gifts, and expiation for intercourse during Ramadan.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,355 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,274, including held records.
