@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0133",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:51:33.314Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f2c30670-e4e0-4316-8273-9fc700af98e5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:305a",
+      "reference": "Sahih Muslim, hadith 305 a, book 3, باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "title": "باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، وَمُحَمَّدُ بْنُ رُمْحٍ، قَالاَ أَخْبَرَنَا اللَّيْثُ، ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ عَائِشَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ إِذَا أَرَادَ أَنْ يَنَامَ وَهُوَ جُنُبٌ تَوَضَّأَ وُضُوءَهُ لِلصَّلاَةِ قَبْلَ أَنْ يَنَامَ ‏.‏",
+      "source_hash_sha256": "2cb1e6b5be874ab84e70f0a0043f1a06008cf0c6d9db300f3d1a69572d6c82bf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya al-Tamimi et Muhammad ibn Rumh nous ont rapporté : tous deux ont dit qu'al-Layth nous avait informés. Qutayba ibn Saïd nous a rapporté : Layth nous a rapporté, d'après Ibn Shihab, d'après Abu Salama ibn Abd al-Rahman, d'après Aïcha, que le Messager d'Allah ﷺ, lorsqu'il voulait dormir alors qu'il était en état d'impureté majeure, faisait les ablutions comme pour la prière avant de dormir.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d527c448-2b26-426f-8b72-666b7f71e5cc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:305b",
+      "reference": "Sahih Muslim, hadith 305 b, book 3, باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "title": "باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ عُلَيَّةَ، وَوَكِيعٌ، وَغُنْدَرٌ، عَنْ شُعْبَةَ، عَنِ الْحَكَمِ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا كَانَ جُنُبًا فَأَرَادَ أَنْ يَأْكُلَ أَوْ يَنَامَ تَوَضَّأَ وُضُوءَهُ لِلصَّلاَةِ ‏.‏",
+      "source_hash_sha256": "254e67ac118de3563661f1e669ef4affec408d9b6d05aa7ab066091c90df36ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Ibn Ulayya, Waki et Ghundar nous ont rapporté, d'après Shu'ba, d'après al-Hakam, d'après Ibrahim, d'après al-Aswad, d'après Aïcha, qui a dit : « Lorsque le Messager d'Allah ﷺ était en état d'impureté majeure et voulait manger ou dormir, il faisait les ablutions comme pour la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed38cc36-ac1c-4133-8b22-d251a3c78f4c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:305c",
+      "reference": "Sahih Muslim, hadith 305 c, book 3, باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "title": "باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، ح وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ قَالَ ابْنُ الْمُثَنَّى فِي حَدِيثِهِ حَدَّثَنَا الْحَكَمُ، سَمِعْتُ إِبْرَاهِيمَ، يُحَدِّثُ ‏.‏",
+      "source_hash_sha256": "57f13fa664334f4d380b9dda00c2b9ae08550ce4d9ad42d2d6fb250ed7de7d9c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6f2e05ae-ef89-40fc-80fa-f361c436e7cb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:306a",
+      "reference": "Sahih Muslim, hadith 306 a, book 3, باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "title": "باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ أَبِي بَكْرٍ الْمُقَدَّمِيُّ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ ابْنُ سَعِيدٍ - عَنْ عُبَيْدِ اللَّهِ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ - وَاللَّفْظُ لَهُمَا - قَالَ ابْنُ نُمَيْرٍ حَدَّثَنَا أَبِي وَقَالَ أَبُو بَكْرٍ، حَدَّثَنَا أَبُو أُسَامَةَ، - قَالاَ حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ عُمَرَ، قَالَ يَا رَسُولَ اللَّهِ أَيَرْقُدُ أَحَدُنَا وَهُوَ جُنُبٌ قَالَ ‏\"‏ نَعَمْ إِذَا تَوَضَّأَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "34b7a4ec7da1bd0bb5ff36d3a8918e478ba2c89d69f3f557a4d04c0f07f6ee85",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abi Bakr al-Muqaddami et Zuhayr ibn Harb nous ont rapporté : tous deux ont dit que Yahya, c'est-à-dire Ibn Saïd, nous avait rapporté, d'après Ubaydullah. Abu Bakr ibn Abi Shayba et Ibn Numayr nous ont rapporté ce récit, avec cette formulation. Ibn Numayr a dit : mon père nous a rapporté ; Abu Bakr a dit : Abu Usama nous a rapporté. Tous deux ont dit : Ubaydullah nous a rapporté, d'après Nafi, d'après Ibn Umar, qu'Umar a dit : « Ô Messager d'Allah, l'un de nous peut-il dormir alors qu'il est en état d'impureté majeure ? » Il répondit : « Oui, s'il fait les ablutions. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4c2e6590-2c20-4bdb-89b7-3f298845e025",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:306b",
+      "reference": "Sahih Muslim, hadith 306 b, book 3, باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "title": "باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، أَنَّ عُمَرَ، اسْتَفْتَى النَّبِيَّ صلى الله عليه وسلم فَقَالَ هَلْ يَنَامُ أَحَدُنَا وَهُوَ جُنُبٌ قَالَ ‏\"‏ نَعَمْ لِيَتَوَضَّأْ ثُمَّ لْيَنَمْ حَتَّى يَغْتَسِلَ إِذَا شَاءَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e52ec9bf0a09d496e06da6eba44da2935de991fc38bfdab7cbabf8027fed1872",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi nous a rapporté : Abd al-Razzaq nous a rapporté, d'après Ibn Jurayj. Nafi m'a informé, d'après Ibn Umar, qu'Umar avait demandé au Prophète ﷺ : « L'un de nous peut-il dormir alors qu'il est en état d'impureté majeure ? » Il répondit : « Oui. Qu'il fasse les ablutions, puis qu'il dorme jusqu'à ce qu'il se lave rituellement quand il le voudra. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a40830a8-bc2e-4881-a74b-77d3880446b7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:306c",
+      "reference": "Sahih Muslim, hadith 306 c, book 3, باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "title": "باب جَوَازِ نَوْمِ الْجُنُبِ وَاسْتِحْبَابِ الْوُضُوءِ لَهُ وَغَسْلِ الْفَرْجِ إِذَا أَرَادَ أَنْ يَأْكُلَ أَوْ يَشْرَبَ أَوْ يَنَامَ أَوْ يُجَامِعَل",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنِ ابْنِ عُمَرَ، قَالَ ذَكَرَ عُمَرُ بْنُ الْخَطَّابِ لِرَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ تُصِيبُهُ جَنَابَةٌ مِنَ اللَّيْلِ فَقَالَ لَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تَوَضَّأْ وَاغْسِلْ ذَكَرَكَ ثُمَّ نَمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "89a8c8e298869e7fee1108a4996739c2b2f5ffa59e12945a2d84725209a4f477",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : il a dit : J'ai lu à Malik, d'après Abdullah ibn Dinar, d'après Ibn Umar, qui a dit : Umar ibn al-Khattab mentionna au Messager d'Allah ﷺ qu'il lui arrivait d'être en état d'impureté majeure pendant la nuit. Le Messager d'Allah ﷺ lui dit : « Fais les ablutions, lave ton sexe, puis dors. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ed38cc36-ac1c-4133-8b22-d251a3c78f4c",
+      "reason": "La source arabe ne rapporte que les chaînes de transmission et renvoie au contenu d’un récit précédent, sans reproduire le texte complet. Garder la traduction en attente d’un texte complet vérifié plutôt que de compléter à partir du récit voisin."
+    }
+  ]
+}

@@ -7786,3 +7786,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0132 saves five private French drafts about reciting the Quran while menstruating, reports on madhy, and washing after waking. Muslim 302 quotes Quran 2:222, so its full French text remains blank under Needs Mo until an approved, attributed French Quran translation with permitted use is confirmed.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 549 Muslim drafts, 6,885 total hadith drafts, 7,744 remaining, and 270 Needs Mo items.
+
+### 2026-10-29: Muslim 305a–306c
+
+- FR-LIB-HAD-MUSLIM-0133 saves five private French drafts about the purification practices of a person in a state of major ritual impurity. Muslim 305c contains only transmission chains and a cross-reference without the report text, so it remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 554 Muslim drafts, 6,890 total hadith drafts, 7,739 remaining, and 271 Needs Mo items.
