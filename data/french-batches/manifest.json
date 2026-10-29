@@ -37973,6 +37973,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0434",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0434.json",
+      "sourceIds": [
+        "471cc2a3-362c-4be8-8231-b7be870aa0b1",
+        "233fbfcb-8c7a-4769-9a16-30e1e7c274a0",
+        "64eb11cc-c194-4c84-998a-4153d2c57b0b",
+        "335fa93c-1af8-4e62-adf7-b8320fe59de8",
+        "c2932824-a25e-428f-8d0f-e980bfcfb8f9",
+        "356cbb0c-f51a-405a-85ff-e12c53ec413b"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete cross-references and one direct Quran quotation held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42280,8 +42301,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8036,
-  "hadithLocalRemaining": 6593,
+  "hadithLocalDrafted": 8039,
+  "hadithLocalRemaining": 6590,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -45213,10 +45234,25 @@
       "source_id": "8d88dc2b-b2a0-4975-a175-2ec31deefc21",
       "reason": "La source ne fournit que la chaîne de transmission, sans reprendre le récit précédent. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "471cc2a3-362c-4be8-8231-b7be870aa0b1",
+      "reason": "La source ne reprend que les chaînes et des variantes de formulation du récit précédent, sans en redonner l’intégralité. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "233fbfcb-8c7a-4769-9a16-30e1e7c274a0",
+      "reason": "La source renvoie au récit de Ya‘qub sans en reprendre le contenu intégral. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "64eb11cc-c194-4c84-998a-4153d2c57b0b",
+      "reason": "La source contient des citations directes du Coran (sourate 23, verset 51 et sourate 2, verset 172). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1700,
+  "hadithMuslimDrafted": 1703,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 798
+  "hadithNeedsMo": 801
 }
