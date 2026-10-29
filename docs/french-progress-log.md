@@ -3396,3 +3396,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-696` holds the long report blank because it directly quotes Quran 9:108 and no approved, attributed French Quran translation is confirmed. It remains a single-item batch because of its length.
 - The record passed the focused validator, including its Arabic hash, ID, reference, rights metadata and private unpublished long-text hold. No database writes or publication occurred. Bukhari local drafts: 3,478 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 260. Total local hadith rows not drafted: 11,179, including held records.
+
+### 2026-10-29: Bukhari 3907–3910
+
+- `FR-LIB-HAD-BUKHARI-697` saves four private French drafts about Asmâ’, Surâqa and the emigration to Medina.
+- All four records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,482 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 260. Total local hadith rows not drafted: 11,175, including held records.
