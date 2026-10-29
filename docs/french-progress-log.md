@@ -10381,3 +10381,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0650 saves five private French drafts about coitus interruptus and the report of the pregnant woman. Muslim 1439c only refers to the previous report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1441b–1444a
+
+- FR-LIB-HAD-MUSLIM-0651 saves three private French drafts on ghila, coitus interruptus, and milk kinship. Muslim 1441b contains only chains, 1442b quotes Quran 81:8, and 1442c only refers to a prior report; these remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

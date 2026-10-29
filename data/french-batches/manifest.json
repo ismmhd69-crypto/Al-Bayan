@@ -42446,6 +42446,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0651",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0651.json",
+      "sourceIds": [
+        "25d8ec78-871d-4f89-8a78-d07130131dcf",
+        "fab5735d-a895-41ec-8b77-d7669fd0b232",
+        "02428b70-aa24-46e5-ac1a-fc0fa8fa5c3b",
+        "42c67c7d-69a6-463a-a088-be3a0f0cf834",
+        "c21bc646-3e1d-48b2-bc72-cd08c53b3ee4",
+        "92d5a660-aaa9-4e28-81c7-e8ae0278787e"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, one Quran-quoted report and two incomplete chain or variant-only reports held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46753,8 +46774,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8926,
-  "hadithLocalRemaining": 5703,
+  "hadithLocalDrafted": 8929,
+  "hadithLocalRemaining": 5700,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50926,10 +50947,25 @@
       "source_id": "18828a64-34b0-4711-ba26-790360858034",
       "reason": "Cette entrée indique uniquement qu’un homme vint trouver le Prophète et renvoie au sens du rapport de Sufyan, sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "25d8ec78-871d-4f89-8a78-d07130131dcf",
+      "reason": "Cette entrée ne fournit que des chaînes de transmission en renvoyant au même récit précédent. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "02428b70-aa24-46e5-ac1a-fc0fa8fa5c3b",
+      "reason": "Cette source contient une citation du verset 81:8 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "42c67c7d-69a6-463a-a088-be3a0f0cf834",
+      "reason": "Cette entrée renvoie au récit précédent sur la ghila et le coït interrompu et ne fournit qu’une variante de terme. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2590,
+  "hadithMuslimDrafted": 2593,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1127
+  "hadithNeedsMo": 1130
 }
