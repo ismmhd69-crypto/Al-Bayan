@@ -7966,3 +7966,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0168 saves two private French drafts about raising the hands in prayer and the tashahhud. Muslim 402b–e give only wording details or cross-references without repeating the full formula, so they remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 701 Muslim drafts, 7,037 total hadith drafts, 7,592 remaining, and 328 Needs Mo items.
+
+### 2026-10-29: Muslim 403a–403b
+
+- FR-LIB-HAD-MUSLIM-0169 saves one private French draft of the tashahhud. Muslim 403b says that the Prophet taught the tashahhud but does not give its wording, so it remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- Both source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 702 Muslim drafts, 7,038 total hadith drafts, 7,591 remaining, and 329 Needs Mo items.

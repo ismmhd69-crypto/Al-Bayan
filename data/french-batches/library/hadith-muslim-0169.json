@@ -1,0 +1,68 @@
+{
+  "batch_id": "HADITH-MUSLIM-0169",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:12:12.573Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "acc8b234-6bad-4207-b5ad-81b5f3e3e3de",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:403a",
+      "reference": "Sahih Muslim, hadith 403 a, book 4, باب التَّشَهُّدِ فِي الصَّلاَةِ ‏",
+      "title": "باب التَّشَهُّدِ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحِ بْنِ الْمُهَاجِرِ، أَخْبَرَنَا اللَّيْثُ، عَنْ أَبِي الزُّبَيْرِ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، وَعَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّهُ قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُعَلِّمُنَا التَّشَهُّدَ كَمَا يُعَلِّمُنَا السُّورَةَ مِنَ الْقُرْآنِ فَكَانَ يَقُولُ ‏\"‏ التَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ لِلَّهِ السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ ابْنِ رُمْحٍ كَمَا يُعَلِّمُنَا الْقُرْآنَ ‏.‏",
+      "source_hash_sha256": "fa02b885c2bec9a8e52c9eab1937e7393682b814d0deb0396e373e71d7db5e1b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Layth nous a rapporté. Muhammad ibn Rumh ibn al-Muhajir nous a informés : al-Layth nous a rapporté, d’après Abu al-Zubayr, d’après Sa‘id ibn Jubayr et Tawus, d’après Ibn Abbas, qui a dit : le Messager d’Allah ﷺ nous enseignait le tashahhud comme il nous enseignait une sourate du Coran. Il disait : « Les salutations bénies, les prières et les bonnes paroles appartiennent à Allah. Que la paix soit sur toi, ô Prophète, ainsi que la miséricorde d’Allah et Ses bénédictions. Que la paix soit sur nous et sur les serviteurs vertueux d’Allah. J’atteste qu’il n’y a aucune divinité digne d’adoration en dehors d’Allah, et j’atteste que Muhammad est le Messager d’Allah. » Dans la version d’Ibn Rumh, il est dit : « comme il nous enseignait le Coran. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d27dc667-2f34-411f-a4e2-bb32a756201c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:403b",
+      "reference": "Sahih Muslim, hadith 403 b, book 4, باب التَّشَهُّدِ فِي الصَّلاَةِ ‏",
+      "title": "باب التَّشَهُّدِ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ حُمَيْدٍ، حَدَّثَنِي أَبُو الزُّبَيْرِ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُعَلِّمُنَا التَّشَهُّدَ كَمَا يُعَلِّمُنَا السُّورَةَ مِنَ الْقُرْآنِ ‏.‏",
+      "source_hash_sha256": "5c264f2c14dfc0e90db08a52e054aa892f13a2a3d8440cae9f9919eb09cf060f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d27dc667-2f34-411f-a4e2-bb32a756201c",
+      "reason": "La source arabe indique seulement que le Prophète enseignait le tashahhud comme une sourate du Coran, sans rapporter la formule elle-même. Garder la traduction en attente plutôt que de compléter à partir du récit précédent."
+    }
+  ]
+}
