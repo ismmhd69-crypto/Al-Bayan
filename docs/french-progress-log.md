@@ -8548,3 +8548,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0284 saves six private French drafts about the qunut supplication and the companions sent to teach Quran and Sunna.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,140 Muslim drafts, 7,476 total hadith drafts, 7,153 remaining, and 536 Needs Mo items.
+
+### 2026-10-29: Muslim 679c–680b
+
+- FR-LIB-HAD-MUSLIM-0285 saves one private French draft about making up the dawn prayer after sleep. Muslim 679c is an incomplete variant and 680a quotes Quran 20:14; both remain blank under Needs Mo.
+- All three source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,141 Muslim drafts, 7,477 total hadith drafts, 7,152 remaining, and 538 Needs Mo items.

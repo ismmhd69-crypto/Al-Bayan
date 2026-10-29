@@ -34915,6 +34915,24 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0285",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0285.json",
+      "sourceIds": [
+        "af410a5c-6fe1-4d7a-b94b-566dd88c6f60",
+        "ddfc228e-90dc-4614-9bfb-97302192dc5d",
+        "942b9470-ba57-4f95-ac06-bba67555672f"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete variant and one Quran quotation held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39222,8 +39240,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7476,
-  "hadithLocalRemaining": 7153,
+  "hadithLocalDrafted": 7477,
+  "hadithLocalRemaining": 7152,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41024,10 +41042,22 @@
       "scope": "Sahih Muslim 677i: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source arabe ne reprend pas le texte du récit et renvoie au hadith précédent en indiquant seulement qu’il est semblable ou que certaines versions ajoutent des détails. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0285-679C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 679c: incomplete variant",
+      "status": "blocked",
+      "reason": "La source ne reprend que la chaîne de transmission et renvoie à une version précédente par « de même », en signalant une omission, sans donner le texte du récit. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0285-680A-QURAN-20-14",
+      "scope": "Sahih Muslim 680a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 20:14 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 1140,
-  "hadithDatabaseMissing": 7153,
+  "hadithMuslimDrafted": 1141,
+  "hadithDatabaseMissing": 7152,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 536
+  "hadithNeedsMo": 538
 }
