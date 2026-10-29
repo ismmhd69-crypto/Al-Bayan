@@ -1068,3 +1068,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-222` saves six private French drafts for Bukhari 1279–1285, including the combined 1281/1282 record. They preserve the mourning-period reports, the counsel on patience at the first shock, the Prophet’s tears for a dying child, and the burial account.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,184 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 61. Total local hadith rows not drafted: 13,445, including held records.
+### 2026-10-29: Bukhari 1286–1288 source review
+
+- `FR-LIB-HAD-BUKHARI-223` leaves the combined Bukhari 1286–1288 report blank and records it under Needs Mo because it directly quotes Quran 6:164 and no approved, attributed French Quran translation is configured.
+- The one-record batch passed the focused validator for Arabic hash, ID, rights metadata, private unpublished hold and long-text handling. No database writes or publication occurred. Bukhari local drafts: 1,184 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 62. Total local hadith rows not drafted: 13,445, including held records.
