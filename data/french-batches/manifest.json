@@ -17079,6 +17079,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-787",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-787.json",
+      "sourceIds": [
+        "9167ce5a-af8c-4301-a724-c6a24df72d9a",
+        "2eab0388-b9dc-4ce3-8a2b-9b235bbc40a2",
+        "704f4f8c-c07e-4fe4-92cb-e3f64f1369fc",
+        "7c244d96-ab48-45f1-8d65-0acff753b814",
+        "3dfaee9e-a217-4054-9fda-415d128fae8b",
+        "7f22c760-efdf-4da7-9432-121ac52ad27a"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -17551,7 +17572,7 @@
       "reason": "The phrase تُقْبِلُ بِأَرْبَعٍ وَتُدْبِرُ بِثَمَانٍ has an unclear physical description. The complete report remains blank in FR-LIB-HAD-BUKHARI-784 pending clarification of its exact meaning."
     }
   ],
-  "hadithBukhariDrafted": 3827,
-  "hadithLocalDrafted": 3827,
-  "hadithLocalRemaining": 10830
+  "hadithBukhariDrafted": 3833,
+  "hadithLocalDrafted": 3833,
+  "hadithLocalRemaining": 10824
 }
