@@ -66,11 +66,11 @@
     "hadithLocalDrafted": 11297,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 3332,
-    "hadithNeedsMo": 2814,
+    "hadithNeedsMo": 2820,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14099,
-    "hadithSourcesNotYetExported": 530
+    "hadithSourcesProcessed": 14105,
+    "hadithSourcesNotYetExported": 524
   },
   "batches": [
     {
@@ -51121,6 +51121,30 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1270",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1270.json",
+      "sourceIds": [
+        "d64cdb2b-44f1-484e-b5f0-1690ad8ac0be",
+        "ac965629-e57b-4d86-8bfb-42219460ff91",
+        "c19114a7-cba3-4e6f-bc9f-64efc5273cf6",
+        "d6f5e1b1-65c9-4849-86c7-ac466e704496",
+        "f8314eae-e1b9-45b1-b5de-86e9333678c0",
+        "1e107cad-c915-4b41-83e4-4424e3c2f206"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 6,
+      "failed": 0,
+      "remaining": 3334,
+      "validation": "All six entries remain blank: three contain Quran quotations and three are incomplete variants or cross-references. Focused validator and git diff check passed. No database writes or publication.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: source review"
     }
   ],
   "blockers": [
