@@ -10806,3 +10806,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0735 saves five private French drafts about dogs and payment for cupping. Muslim 1576b only refers to the preceding report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1578–1581a
+
+- FR-LIB-HAD-MUSLIM-0736 saves five private French drafts about the prohibition on wine and its sale. Muslim 1579b only points back to the preceding report and remains blank under Needs Mo. References to Quran verses are described in the hadith; no Quran text has been added.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
