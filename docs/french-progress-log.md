@@ -9776,3 +9776,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0529 saves five private French drafts about cupping, treatment for sore eyes, washing during pilgrimage, and a pilgrim who died en route. Muslim 1205b gives only additional detail to the preceding report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1206b–1206h
+
+- FR-LIB-HAD-MUSLIM-0530 saves five private French drafts about the funeral rites for a pilgrim who dies while consecrated. Muslim 1206d provides only a transmission-chain cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
