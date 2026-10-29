@@ -42912,6 +42912,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0674",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0674.json",
+      "sourceIds": [
+        "557327f9-46f4-490a-a3c9-870138a71527",
+        "eff1d940-2438-49fa-8afd-41e80f01b61e"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: two records; Arabic originals and hashes, IDs, one private unpublished draft, one incomplete variant that omits the full report held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47219,8 +47236,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8996,
-  "hadithLocalRemaining": 5633,
+  "hadithLocalDrafted": 8997,
+  "hadithLocalRemaining": 5632,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51647,10 +51664,15 @@
       "source_id": "d08d8050-7b57-4e91-b636-d08728a8400c",
       "reason": "Cette source isolée de 5 194 caractères contient plusieurs citations coraniques, notamment des sourates 66:4–5 et 4:83. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
+    },
+    {
+      "source_id": "557327f9-46f4-490a-a3c9-870138a71527",
+      "reason": "Cette entrée renvoie au récit précédent et indique que celui-ci est rapporté dans son intégralité, avec quelques ajouts sur les pleurs dans les maisons et le retour du Prophète après vingt-neuf jours. Elle ne fournit pas le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2660,
+  "hadithMuslimDrafted": 2661,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1178
+  "hadithNeedsMo": 1179
 }

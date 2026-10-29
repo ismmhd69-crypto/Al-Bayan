@@ -10496,3 +10496,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0673 saves a private French draft of the 3,819-character report in its own single-item batch. The report refers to a verse without quoting Quran text.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1479c–1479d
+
+- FR-LIB-HAD-MUSLIM-0674 saves one private French draft about Ibn Abbas asking Umar which two wives had opposed the Prophet. Muslim 1479c only adds details to an earlier report while referring to its full text, so it remains blank under Needs Mo.
+- Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
