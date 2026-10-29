@@ -7553,3 +7553,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0089 saves 3 private French drafts. Hadith 189a and 190b contain only transmission chains without the report text, so they remain blank under Needs Mo; 189b directly quotes Quran 32:17 and also remains blank pending an approved, attributed French Quran translation with usage permission.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 359 of 7,366. Hadith Needs Mo: 223. Total local hadith rows not drafted: 7,931, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 191a–192
+
+- FR-LIB-HAD-MUSLIM-0090 saves 4 private French drafts. Hadith 191a has a source gap in its opening phrase, and 191e quotes Quran 3:192 and 32:20; both remain blank under Needs Mo.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 363 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 7,927, including held records. No database writes or publication occurred.
