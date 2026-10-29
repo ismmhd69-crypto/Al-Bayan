@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0715",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:59:07.164Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d42ecc1f-2bf5-40b0-90e2-281977934689",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1541",
+      "reference": "Sahih Muslim, hadith 1541, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا مَالِكٌ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - قَالَ قُلْتُ لِمَالِكٍ حَدَّثَكَ دَاوُدُ بْنُ الْحُصَيْنِ، عَنْ أَبِي سُفْيَانَ، - مَوْلَى ابْنِ أَبِي أَحْمَدَ - عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم رَخَّصَ فِي بَيْعِ الْعَرَايَا بِخَرْصِهَا فِيمَا دُونَ خَمْسَةِ أَوْسُقٍ أَوْ فِي خَمْسَةِ - يَشُكُّ دَاوُدُ قَالَ خَمْسَةٌ أَوْ دُونَ خَمْسَةٍ - قَالَ نَعَمْ ‏.‏",
+      "source_hash_sha256": "d9fa64d2d6bfa064a4f7e5bb75c7a15aeb535fe34719761842dfa54b15fcbf9b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Maslama ibn Qa‘nab nous a rapporté : Malik nous a rapporté. Yahya ibn Yahya nous a également rapporté — la formulation est la sienne — : « Je demandai à Malik : “Dawud ibn al-Husayn t’a-t-il rapporté, d’après Abu Sufyan, affranchi d’Ibn Abi Ahmad, d’après Abu Hurayra, que le Messager d’Allah a accordé une dérogation pour vendre les araya contre leur valeur estimée, pour une quantité inférieure à cinq awsuq — ou de cinq, Dawud en doutait — ?” Il répondit : “Oui.” »»",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "778e58e8-364c-45e7-abd0-ead614c8ef82",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1542a",
+      "reference": "Sahih Muslim, hadith 1542 a, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الْمُزَابَنَةِ وَالْمُزَابَنَةُ بَيْعُ الثَّمَرِ بِالتَّمْرِ كَيْلاً وَبَيْعُ الْكَرْمِ بِالزَّبِيبِ كَيْلاً ‏.‏",
+      "source_hash_sha256": "1f8c58875f1a693fa53410ccb6a169a32caced123626a959e615e785e326f33d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya al-Tamimi dit : « J’ai lu devant Malik, d’après Nafi, d’après Ibn Umar, que le Messager d’Allah a interdit la muzabana. La muzabana consiste à échanger des fruits contre des dattes sèches en les mesurant, ou du raisin sur pied contre des raisins secs, également mesurés. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d46cbbf3-dcb0-42c6-b1f6-e6e856072143",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1542b",
+      "reference": "Sahih Muslim, hadith 1542 b, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ، بِشْرٍ حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، أَنَّ عَبْدَ اللَّهِ، أَخْبَرَهُ أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى عَنِ الْمُزَابَنَةِ بَيْعِ ثَمَرِ النَّخْلِ بِالتَّمْرِ كَيْلاً وَبَيْعِ الْعِنَبِ بِالزَّبِيبِ كَيْلاً وَبَيْعِ الزَّرْعِ بِالْحِنْطَةِ كَيْلاً ‏.‏",
+      "source_hash_sha256": "767952fd69087a7a36d9554264b5a3e56fb36baa96622504faae60aea416b56c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Muhammad ibn Abd Allah ibn Numayr nous ont rapporté : Muhammad ibn Bishr nous a rapporté : Ubayd Allah nous a rapporté, d’après Nafi, qui avait été informé par Abd Allah que le Prophète avait interdit la muzabana : vendre les fruits des palmiers contre des dattes sèches mesurées, le raisin contre des raisins secs mesurés, et les cultures contre du blé mesuré.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c3ad21dc-748a-4c0d-8713-6e27207934a4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1542c",
+      "reference": "Sahih Muslim, hadith 1542 c, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ أَبِي زَائِدَةَ، عَنْ عُبَيْدِ اللَّهِ، بِهَذَا الإِسْنَادِ مِثْلَهُ.",
+      "source_hash_sha256": "e92071524fe731dc15bd8b05d2b5278616fc9a2e7524ae0a8fea0d8abdb417f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b44179f1-3f91-4d78-9bb4-4f744a529aa5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1542d",
+      "reference": "Sahih Muslim, hadith 1542 d, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى بْنُ مَعِينٍ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، وَحُسَيْنُ بْنُ عِيسَى، قَالُوا حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الْمُزَابَنَةِ وَالْمُزَابَنَةُ بَيْعُ ثَمَرِ النَّخْلِ بِالتَّمْرِ كَيْلاً وَبَيْعُ الزَّبِيبِ بِالْعِنَبِ كَيْلاً وَعَنْ كُلِّ ثَمَرٍ بِخَرْصِهِ ‏.‏",
+      "source_hash_sha256": "6bb9bc3e4ae98b2b35a8f04e3fe8948bb9bd54ce5f11bb3c79ec4a8c8a5ef22d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Ma‘in, Harun ibn Abd Allah et Husayn ibn Isa m’ont rapporté : Abu Usama nous a rapporté : Ubayd Allah nous a rapporté, d’après Nafi, d’après Ibn Umar, qui dit : « Le Messager d’Allah a interdit la muzabana. Celle-ci consiste à vendre les fruits des palmiers contre des dattes sèches mesurées, les raisins secs contre du raisin frais mesuré, ou tout fruit contre une quantité estimée de fruits. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "753b25ea-a833-45b6-a35e-e4a7c01e0498",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1542e",
+      "reference": "Sahih Muslim, hadith 1542 e, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا إِسْمَاعِيلُ، - وَهُوَ ابْنُ إِبْرَاهِيمَ - عَنْ أَيُّوبَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الْمُزَابَنَةِ وَالْمُزَابَنَةُ أَنْ يُبَاعَ مَا فِي رُءُوسِ النَّخْلِ بِتَمْرٍ بِكَيْلٍ مُسَمًّى إِنْ زَادَ فَلِي وَإِنْ نَقَصَ فَعَلَىَّ ‏.‏",
+      "source_hash_sha256": "66f3e948dea461f8681e11f91d3923ffcc949ed62e728b2235119cf41b4208c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Hujr al-Sa‘di et Zuhayr ibn Harb m’ont rapporté : Isma‘il — Ibn Ibrahim — nous a rapporté, d’après Ayyub, d’après Nafi, d’après Ibn Umar, que le Messager d’Allah a interdit la muzabana. Celle-ci consiste à vendre les fruits encore sur les palmiers contre une quantité déterminée de dattes mesurées, avec cette condition : « S’il y en a davantage, c’est pour moi ; s’il en manque, c’est à ma charge. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c3ad21dc-748a-4c0d-8713-6e27207934a4",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}

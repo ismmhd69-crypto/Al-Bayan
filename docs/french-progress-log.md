@@ -10701,3 +10701,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0714 saves four private French drafts about the limited exception for araya sales. Muslim 1540c–d only refer back to a preceding report and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1541–1542e
+
+- FR-LIB-HAD-MUSLIM-0715 saves five private French drafts about the araya exception and exchanges of produce measured against other produce. Muslim 1542c only refers to the preceding report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
