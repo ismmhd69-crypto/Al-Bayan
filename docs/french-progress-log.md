@@ -9621,3 +9621,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0498 saves four private French drafts about the reward and virtues of fasting. Muslim 1151g gives only a wording variant, and 1153b only a transmission chain; both remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1153c–1156b
+
+- FR-LIB-HAD-MUSLIM-0499 saves six private French drafts about fasting in Allah’s path, voluntary fasting, and the Prophet’s fasting habits. All six sources include complete report text.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
