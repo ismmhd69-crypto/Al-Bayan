@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-118",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T03:15:06.186Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9b05704b-99a7-4dec-99d5-4e0ad2ad7372",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:651",
+      "reference": "Sahih al-Bukhari, hadith 651, book 10, باب فَضْلِ صَلاَةِ الْفَجْرِ فِي جَمَاعَةٍ",
+      "title": "باب فَضْلِ صَلاَةِ الْفَجْرِ فِي جَمَاعَةٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، قَالَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ أَعْظَمُ النَّاسِ أَجْرًا فِي الصَّلاَةِ أَبْعَدُهُمْ فَأَبْعَدُهُمْ مَمْشًى، وَالَّذِي يَنْتَظِرُ الصَّلاَةَ حَتَّى يُصَلِّيَهَا مَعَ الإِمَامِ أَعْظَمُ أَجْرًا مِنَ الَّذِي يُصَلِّي ثُمَّ يَنَامُ ‏\"‏‏.‏",
+      "source_hash_sha256": "8ada79991af2abade6a9c82b62274f2df37c60a142ff61bdc4c148054fb04a8f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Ala nous a rapporté : Abou Usama nous a rapporté, d’après Burayd ibn Abd Allah, d’après Abou Burda, d’après Abou Musa, qui dit que le Prophète ﷺ a dit : « Celui qui parcourt la plus grande distance à pied pour se rendre à la prière reçoit la plus grande récompense. Celui qui attend la prière afin de l’accomplir avec l’imam reçoit une récompense plus grande que celui qui prie puis s’endort. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e62078af-c3a4-4276-9aa2-8707276e7fca",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:652",
+      "reference": "Sahih al-Bukhari, hadith 652, 653, 654, book 10, باب فَضْلِ التَّهْجِيرِ إِلَى الظُّهْرِ",
+      "title": "باب فَضْلِ التَّهْجِيرِ إِلَى الظُّهْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، عَنْ مَالِكٍ، عَنْ سُمَىٍّ، مَوْلَى أَبِي بَكْرٍ عَنْ أَبِي صَالِحٍ السَّمَّانِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ بَيْنَمَا رَجُلٌ يَمْشِي بِطَرِيقٍ وَجَدَ غُصْنَ شَوْكٍ عَلَى الطَّرِيقِ فَأَخَّرَهُ، فَشَكَرَ اللَّهُ لَهُ، فَغَفَرَ لَهُ ‏\"‏‏.‏ ثُمَّ قَالَ ‏\"‏ الشُّهَدَاءُ خَمْسَةٌ الْمَطْعُونُ، وَالْمَبْطُونُ، وَالْغَرِيقُ، وَصَاحِبُ الْهَدْمِ، وَالشَّهِيدُ فِي سَبِيلِ اللَّهِ ‏\"‏‏.‏ وَقَالَ ‏\"‏ لَوْ يَعْلَمُ النَّاسُ مَا فِي النِّدَاءِ وَالصَّفِّ الأَوَّلِ ثُمَّ لَمْ يَجِدُوا إِلاَّ أَنْ يَسْتَهِمُوا لاَسْتَهَمُوا عَلَيْهِ ‏\"‏‏.‏ ‏\"‏ وَلَوْ يَعْلَمُونَ مَا فِي التَّهْجِيرِ لاَسْتَبَقُوا إِلَيْهِ، وَلَوْ يَعْلَمُونَ مَا فِي الْعَتَمَةِ وَالصُّبْحِ لأَتَوْهُمَا وَلَوْ حَبْوًا ‏\"‏‏.‏",
+      "source_hash_sha256": "8ad7b044b11551c6cb5f80b23670a2b3785af5ad427383581bf291b13aa1d759",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba nous a rapporté, d’après Malik, d’après Sumayy, l’affranchi d’Abou Bakr, d’après Abou Salih al-Samman, d’après Abou Hourayra, que le Messager d’Allah ﷺ a dit : « Un homme marchait sur une route et trouva une branche épineuse sur son chemin. Il l’écarta. Allah lui en sut gré et lui pardonna. » Puis il dit : « Les martyrs sont au nombre de cinq : celui qui meurt de la peste, celui qui meurt d’une maladie abdominale, celui qui se noie, celui qui meurt sous un éboulement, et celui qui tombe martyr dans la voie d’Allah. » Puis il dit : « Si les gens savaient quelle récompense se trouve dans l’appel à la prière et le premier rang, et ne trouvaient aucun autre moyen que de tirer au sort pour les obtenir, ils tireraient au sort. S’ils savaient quelle récompense se trouve dans le fait de se rendre tôt à la prière, ils s’y hâteraient. Et s’ils savaient quelle récompense se trouve dans les prières du soir et de l’aube, ils s’y rendraient même en rampant. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed9561c6-e23d-4d50-bdf3-4416129e52af",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:655",
+      "reference": "Sahih al-Bukhari, hadith 655, 656, book 10, باب احْتِسَابِ الآثَارِ",
+      "title": "باب احْتِسَابِ الآثَارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ حَوْشَبٍ، قَالَ حَدَّثَنَا عَبْدُ الْوَهَّابِ، قَالَ حَدَّثَنَا حُمَيْدٌ، عَنْ أَنَسٍ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ يَا بَنِي سَلِمَةَ أَلاَ تَحْتَسِبُونَ آثَارَكُمْ ‏\"‏‏.‏ وَقَالَ مُجَاهِدٌ فِي قَوْلِهِ ‏[quran sura=\"36\" aya_start=\"12\" aya_end=\"12\"]{‏وَنَكْتُبُ مَا قَدَّمُوا وَآثَارَهُمْ‏}‏ قَالَ خُطَاهُمْ‏.‏ وَقَالَ ابْنُ أَبِي مَرْيَمَ أَخْبَرَنَا يَحْيَى بْنُ أَيُّوبَ، حَدَّثَنِي حُمَيْدٌ، حَدَّثَنِي أَنَسٌ، أَنَّ بَنِي سَلِمَةَ، أَرَادُوا أَنْ يَتَحَوَّلُوا، عَنْ مَنَازِلِهِمْ، فَيَنْزِلُوا قَرِيبًا مِنَ النَّبِيِّ صلى الله عليه وسلم قَالَ فَكَرِهَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يُعْرُوا ‏{‏الْمَدِينَةَ‏}‏ فَقَالَ ‏\"‏ أَلاَ تَحْتَسِبُونَ آثَارَكُمْ ‏\"‏‏.‏ قَالَ مُجَاهِدٌ خُطَاهُمْ آثَارُهُمْ أَنْ يُمْشَى فِي الأَرْضِ بِأَرْجُلِهِمْ‏.‏",
+      "source_hash_sha256": "8a01e2c838c66749c9376e6449451d58718e3b2a9c2c08c654a549f6707a6201",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c3e32f33-85a0-4a6f-ba2c-588ca65e3ee0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:657",
+      "reference": "Sahih al-Bukhari, hadith 657, book 10, باب فَضْلِ الْعِشَاءِ فِي الْجَمَاعَةِ",
+      "title": "باب فَضْلِ الْعِشَاءِ فِي الْجَمَاعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا الأَعْمَشُ، قَالَ حَدَّثَنِي أَبُو صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لَيْسَ صَلاَةٌ أَثْقَلَ عَلَى الْمُنَافِقِينَ مِنَ الْفَجْرِ وَالْعِشَاءِ، وَلَوْ يَعْلَمُونَ مَا فِيهِمَا لأَتَوْهُمَا وَلَوْ حَبْوًا، لَقَدْ هَمَمْتُ أَنْ آمُرَ الْمُؤَذِّنَ فَيُقِيمَ، ثُمَّ آمُرَ رَجُلاً يَؤُمُّ النَّاسَ، ثُمَّ آخُذَ شُعَلاً مِنْ نَارٍ فَأُحَرِّقَ عَلَى مَنْ لاَ يَخْرُجُ إِلَى الصَّلاَةِ بَعْدُ ‏\"‏‏.‏",
+      "source_hash_sha256": "35f62f1aa7ecb007e1e567dd2b94a640cfe64ac01eae3376da4ac252688b09a4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Umar ibn Hafs nous a rapporté : mon père nous a rapporté : al-A‘mash nous a rapporté : Abou Salih m’a rapporté, d’après Abou Hourayra, qui dit que le Prophète ﷺ a dit : « Aucune prière n’est plus pénible pour les hypocrites que celle de l’aube et celle du soir. S’ils savaient quelle récompense elles contiennent, ils s’y rendraient même en rampant. J’ai songé à ordonner au muezzin de prononcer l’iqama, puis à ordonner à un homme de diriger les gens en prière, puis à prendre des torches de feu et à incendier les maisons de ceux qui ne seraient pas encore sortis pour la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "33c49f23-6203-4645-90f6-591e4345e925",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:658",
+      "reference": "Sahih al-Bukhari, hadith 658, book 10, باب اثْنَانِ فَمَا فَوْقَهُمَا جَمَاعَةٌ",
+      "title": "باب اثْنَانِ فَمَا فَوْقَهُمَا جَمَاعَةٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، قَالَ حَدَّثَنَا خَالِدٌ، عَنْ أَبِي قِلاَبَةَ، عَنْ مَالِكِ بْنِ الْحُوَيْرِثِ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا حَضَرَتِ الصَّلاَةُ فَأَذِّنَا وَأَقِيمَا، ثُمَّ لِيَؤُمَّكُمَا أَكْبَرُكُمَا ‏\"‏‏.‏",
+      "source_hash_sha256": "9a8a02bc2425c67c3075ef1cb18a2bf2bd90949082f187cb08beb0bfc939188c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Yazid ibn Zuray nous a rapporté : Khalid nous a rapporté, d’après Abou Qilaba, d’après Malik ibn al-Huwayrith, d’après le Prophète ﷺ, qui a dit : « Lorsque l’heure de la prière arrive, lancez tous les deux l’appel et prononcez l’iqama. Puis que le plus âgé de vous deux dirige la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0be73e1c-45b9-43fd-862e-45b3bb407262",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:659",
+      "reference": "Sahih al-Bukhari, hadith 659, book 10, باب مَنْ جَلَسَ فِي الْمَسْجِدِ يَنْتَظِرُ الصَّلاَةَ، وَفَضْلِ الْمَسَاجِدِ",
+      "title": "باب مَنْ جَلَسَ فِي الْمَسْجِدِ يَنْتَظِرُ الصَّلاَةَ، وَفَضْلِ الْمَسَاجِدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الْمَلاَئِكَةُ تُصَلِّي عَلَى أَحَدِكُمْ مَا دَامَ فِي مُصَلاَّهُ مَا لَمْ يُحْدِثْ اللَّهُمَّ اغْفِرْ لَهُ، اللَّهُمَّ ارْحَمْهُ‏.‏ لاَ يَزَالُ أَحَدُكُمْ فِي صَلاَةٍ مَا دَامَتِ الصَّلاَةُ تَحْبِسُهُ، لاَ يَمْنَعُهُ أَنْ يَنْقَلِبَ إِلَى أَهْلِهِ إِلاَّ الصَّلاَةُ ‏\"‏‏.‏",
+      "source_hash_sha256": "e0c6887fb1f05ad24e125d3d0c1a9e715e3f148d280b49a3b7a77b230af43211",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Maslama nous a rapporté, d’après Malik, d’après Abou al-Zinad, d’après al-A‘raj, d’après Abou Hourayra, que le Messager d’Allah ﷺ a dit : « Les anges invoquent la bénédiction sur l’un de vous tant qu’il reste à son emplacement de prière et n’a pas perdu ses ablutions : “Ô Allah, pardonne-lui. Ô Allah, accorde-lui Ta miséricorde.” Chacun de vous reste en prière tant que la prière le retient et que rien ne l’empêche de retourner auprès des siens, si ce n’est la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ed9561c6-e23d-4d50-bdf3-4416129e52af",
+      "url": "https://sunnah.com/bukhari:655",
+      "reason": "The combined report includes an explicit quotation of Quran 36:12. No approved, attributed French Quran translation is available in the project configuration. The complete record is held blank rather than generating French Quran wording."
+    }
+  ]
+}
