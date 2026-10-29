@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T15:18:26.055Z",
+  "lastReconciled": "2026-10-29T15:18:47.076Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -32821,6 +32821,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0184",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0184.json",
+      "sourceIds": [
+        "20cf0b82-7ee5-47bd-95e2-fa1d7585945e",
+        "1423ae57-38a2-4436-8dfe-1a5020816a3b",
+        "42ad30cd-be96-4a38-bcf6-7ba6ef82b227",
+        "b6d8bca5-5a7a-4f2c-ae9b-94e2453e97fe",
+        "cf480de7-81ae-41fd-af1b-b5d4bff356d6",
+        "b579a66d-ab23-4dd3-ac9a-e27ea7334adf"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; Muslim 438b and 440b held as incomplete cross-references",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -37128,7 +37149,7 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7083,
+  "hadithLocalDrafted": 7087,
   "hadithLocalRemaining": 7755,
   "needsMo": [
     {
@@ -38746,8 +38767,8 @@
       "reason": "La source arabe ne donne que la chaîne de transmission et une variante de formulation (« ne se nettoyait pas soigneusement de l’urine »), sans reprendre le texte complet du récit. Garder la traduction en attente d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 747,
-  "hadithDatabaseMissing": 7546,
+  "hadithMuslimDrafted": 751,
+  "hadithDatabaseMissing": 7542,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 358
+  "hadithNeedsMo": 360
 }
