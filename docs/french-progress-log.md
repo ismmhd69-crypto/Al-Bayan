@@ -10476,3 +10476,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0669 saves two private French drafts about the Prophet’s offer of choice to his wives. Muslim 1474c and 1476b are incomplete variants; 1475 and 1476a quote Quranic passages. These four remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1477c–1477f
+
+- FR-LIB-HAD-MUSLIM-0670 saves three private French drafts preserving variants of the report about the Prophet’s offer of choice to his wives. Muslim 1477f only refers to the previous report and remains blank under Needs Mo. The next export is expected to isolate the deferred long source.
+- All four source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

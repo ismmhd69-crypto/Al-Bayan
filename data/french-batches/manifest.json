@@ -42845,6 +42845,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0670",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0670.json",
+      "sourceIds": [
+        "b56b101e-dce4-416b-a1ea-f8f143007f16",
+        "ead948ef-1bd0-4ee8-8dc6-1713b599b0e6",
+        "64d5c271-cacd-4655-9825-4145b2e39667",
+        "826732dd-1117-484b-90cc-b137330e1245"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: four records; Arabic originals and hashes, IDs, three private unpublished drafts, one cross-reference-only report held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47152,8 +47171,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8992,
-  "hadithLocalRemaining": 5637,
+  "hadithLocalDrafted": 8995,
+  "hadithLocalRemaining": 5634,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51565,10 +51584,15 @@
       "source_id": "25d93fce-6583-4c7d-9d54-79c0e3385602",
       "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« نحوه »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "826732dd-1117-484b-90cc-b137330e1245",
+      "reason": "Cette entrée renvoie seulement au récit précédent (« بمثله ») et ne le reproduit pas. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2656,
+  "hadithMuslimDrafted": 2659,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1175
+  "hadithNeedsMo": 1176
 }
