@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4976,
+    "hadithBukhariDrafted": 4981,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4976,
+    "hadithLocalDrafted": 4981,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9653,
-    "hadithNeedsMo": 752,
+    "hadithLocalRemaining": 9648,
+    "hadithNeedsMo": 753,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23044,6 +23044,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1080",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1080.json",
+      "sourceIds": [
+        "70678a75-2823-45c9-ad60-eb050fc517d1",
+        "d3456a1b-0dad-4d96-af59-edb4d1dc2866",
+        "c84444ec-17ad-46ce-b265-bed25e43092c",
+        "5f5249ac-e481-4452-9228-cb5950e220a4",
+        "6beb0ba0-d066-45ab-90fb-ae94a5594c9c",
+        "93a41366-e57a-4696-8cab-c9243cadb0a7"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; one incomplete source held blank. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26123,6 +26144,12 @@
       "scope": "Sahih al-Bukhari 5939 direct quotation of Quran 59:7",
       "status": "blocked",
       "reason": "The report directly quotes Quran 59:7. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-5956-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5956: excerpt begins with a continuation and omits its narrator and context",
+      "status": "blocked",
+      "reason": "The exported source is only a continuation fragment. Keep the item blank until the complete report is confirmed."
     }
   ]
 }

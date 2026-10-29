@@ -5541,3 +5541,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1079 saves six private French drafts about hair practices and images, preserving the source’s chain variants.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,970 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 752. Total local hadith rows not drafted: 9,659, including held records.
+
+### 2026-10-29: Bukhari 5953–5958
+
+- FR-LIB-HAD-BUKHARI-1080 saves five private French drafts about images. Bukhari 5956 is held blank because the exported text is only a continuation fragment without its narrator or context.
+- Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 4,975 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 753. Total local hadith rows not drafted: 9,654, including held records.

@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-1080",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:52:21.537Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "70678a75-2823-45c9-ad60-eb050fc517d1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5953",
+      "reference": "Sahih al-Bukhari, hadith 5953, book 77, باب نَقْضِ الصُّوَرِ",
+      "title": "باب نَقْضِ الصُّوَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى، حَدَّثَنَا عَبْدُ الْوَاحِدِ، حَدَّثَنَا عُمَارَةُ، حَدَّثَنَا أَبُو زُرْعَةَ، قَالَ دَخَلْتُ مَعَ أَبِي هُرَيْرَةَ دَارًا بِالْمَدِينَةِ فَرَأَى أَعْلاَهَا مُصَوِّرًا يُصَوِّرُ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ وَمَنْ أَظْلَمُ مِمَّنْ ذَهَبَ يَخْلُقُ كَخَلْقِي، فَلْيَخْلُقُوا حَبَّةً، وَلْيَخْلُقُوا ذَرَّةً ‏\"‏‏.‏ ثُمَّ دَعَا بِتَوْرٍ مِنْ مَاءٍ فَغَسَلَ يَدَيْهِ حَتَّى بَلَغَ إِبْطَهُ فَقُلْتُ يَا أَبَا هُرَيْرَةَ أَشَىْءٌ سَمِعْتَهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ مُنْتَهَى الْحِلْيَةِ‏.‏",
+      "source_hash_sha256": "967e269b4a5bd6cd50467724c45fba9bf4ab6fe0843651b000ad092fd98b09f6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Mûsâ nous a rapporté : ‘Abd al-Wâhid nous a rapporté : ‘Umâra nous a rapporté : Abû Zur‘a nous a rapporté et dit : « J’entrai avec Abû Hurayra dans une maison de Médine. Il vit au-dessus un peintre qui peignait et dit : “J’ai entendu le Messager d’Allah ﷺ dire : Qui est plus injuste que celui qui entreprend de créer comme Ma création ? Qu’ils créent donc un grain, qu’ils créent donc un atome !” » Puis il demanda un récipient d’eau et se lava les mains jusqu’aux aisselles. Je lui demandai : « Abû Hurayra, est-ce quelque chose que tu as entendu du Messager d’Allah ﷺ ? » Il répondit : « C’est la limite de la parure. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d3456a1b-0dad-4d96-af59-edb4d1dc2866",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5954",
+      "reference": "Sahih al-Bukhari, hadith 5954, book 77, باب مَا وُطِئَ مِنَ التَّصَاوِيرِ",
+      "title": "باب مَا وُطِئَ مِنَ التَّصَاوِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ سَمِعْتُ عَبْدَ الرَّحْمَنِ بْنَ الْقَاسِمِ ـ وَمَا بِالْمَدِينَةِ يَوْمَئِذٍ أَفْضَلُ مِنْهُ ـ قَالَ سَمِعْتُ أَبِي قَالَ سَمِعْتُ عَائِشَةَ ـ رضى الله عنها ـ قَدِمَ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنْ سَفَرٍ وَقَدْ سَتَرْتُ بِقِرَامٍ لِي عَلَى سَهْوَةٍ لِي فِيهَا تَمَاثِيلُ، فَلَمَّا رَآهُ رَسُولُ اللَّهِ صلى الله عليه وسلم هَتَكَهُ وَقَالَ ‏\"‏ أَشَدُّ النَّاسِ عَذَابًا يَوْمَ الْقِيَامَةِ الَّذِينَ يُضَاهُونَ بِخَلْقِ اللَّهِ ‏\"‏‏.‏ قَالَتْ فَجَعَلْنَاهُ وِسَادَةً أَوْ وِسَادَتَيْنِ‏.‏",
+      "source_hash_sha256": "3f508d07c975ba1dcf8970a44c1a58e7ab553986d2d9f55175e1853cd2d7b6a6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Alî ibn ‘Abd Allâh nous a rapporté : Sufyân nous a rapporté et dit : « J’ai entendu ‘Abd ar-Rahmân ibn al-Qâsim — il n’y avait alors personne de meilleur que lui à Médine — dire : J’ai entendu mon père dire : J’ai entendu ‘Â’isha (qu’Allah l’agrée) dire : Le Messager d’Allah ﷺ revint d’un voyage. J’avais tendu un rideau à motifs sur une alcôve où se trouvaient des images. Quand le Messager d’Allah ﷺ le vit, il le déchira et dit : “Ceux qui imitent la création d’Allah seront les plus sévèrement châtiés le Jour de la Résurrection.” » ‘Â’isha dit : « Nous en avons fait un ou deux coussins. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c84444ec-17ad-46ce-b265-bed25e43092c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5955",
+      "reference": "Sahih al-Bukhari, hadith 5955, book 77, باب مَا وُطِئَ مِنَ التَّصَاوِيرِ",
+      "title": "باب مَا وُطِئَ مِنَ التَّصَاوِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ دَاوُدَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ قَدِمَ النَّبِيُّ صلى الله عليه وسلم مِنْ سَفَرٍ، وَعَلَّقْتُ دُرْنُوكًا فِيهِ تَمَاثِيلُ، فَأَمَرَنِي أَنْ أَنْزِعَهُ، فَنَزَعْتُهُ‏.‏",
+      "source_hash_sha256": "c4a6b4c3e0db20e4b1215654b7bd21f686d4c7c3c755a3b94e52abfda440b7dd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : ‘Abd Allâh ibn Dâwûd nous a rapporté, d’après Hishâm, d’après son père, d’après ‘Â’isha, qui dit : « Le Prophète ﷺ revint d’un voyage. J’avais suspendu une tenture ornée d’images ; il m’ordonna de l’enlever, et je l’enlevai. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5f5249ac-e481-4452-9228-cb5950e220a4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5956",
+      "reference": "Sahih al-Bukhari, hadith 5956, book 77, باب مَا وُطِئَ مِنَ التَّصَاوِيرِ",
+      "title": "باب مَا وُطِئَ مِنَ التَّصَاوِيرِ",
+      "source_published": true,
+      "text_original": "وَكُنْتُ أَغْتَسِلُ أَنَا وَالنَّبِيُّ، صلى الله عليه وسلم مِنْ إِنَاءٍ وَاحِدٍ‏.‏",
+      "source_hash_sha256": "b9fd7cbb6c7fde9460bc7c0675180a8f931b2195eddb9ae92b49055737e35ef0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "6beb0ba0-d066-45ab-90fb-ae94a5594c9c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5957",
+      "reference": "Sahih al-Bukhari, hadith 5957, book 77, باب مَنْ كَرِهَ الْقُعُودَ عَلَى الصُّورَةِ",
+      "title": "باب مَنْ كَرِهَ الْقُعُودَ عَلَى الصُّورَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجُ بْنُ مِنْهَالٍ، حَدَّثَنَا جُوَيْرِيَةُ، عَنْ نَافِعٍ، عَنِ الْقَاسِمِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّهَا اشْتَرَتْ نُمْرُقَةً فِيهَا تَصَاوِيرُ، فَقَامَ النَّبِيُّ صلى الله عليه وسلم بِالْبَابِ فَلَمْ يَدْخُلْ‏.‏ فَقُلْتُ أَتُوبُ إِلَى اللَّهِ مِمَّا أَذْنَبْتُ‏.‏ قَالَ ‏\"‏ مَا هَذِهِ النُّمْرُقَةُ ‏\"‏‏.‏ قُلْتُ لِتَجْلِسَ عَلَيْهَا وَتَوَسَّدَهَا‏.‏ قَالَ ‏\"‏ إِنَّ أَصْحَابَ هَذِهِ الصُّوَرِ يُعَذَّبُونَ يَوْمَ الْقِيَامَةِ، يُقَالُ لَهُمْ أَحْيُوا مَا خَلَقْتُمْ‏.‏ وَإِنَّ الْمَلاَئِكَةَ لاَ تَدْخُلُ بَيْتًا فِيهِ الصُّورَةُ ‏\"‏‏.‏",
+      "source_hash_sha256": "7a93144a6fb97ba59079963a698870674665903a5f0992931f8239e730781fe1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hajjâj ibn Minhâl nous a rapporté : Juwayriya nous a rapporté, d’après Nâfi‘, d’après al-Qâsim, d’après ‘Â’isha (qu’Allah l’agrée), qui dit : « J’achetai un coussin orné d’images. Le Prophète ﷺ se tint à la porte et n’entra pas. Je dis : “Je me repens auprès d’Allah de ce que j’ai fait.” Il demanda : “Qu’est-ce que ce coussin ?” Je répondis : “Pour que tu t’y asseyes et que tu t’y appuies.” Il dit : “Ceux qui ont fait ces images seront châtiés le Jour de la Résurrection. On leur dira : ‘Donnez vie à ce que vous avez créé.’ Les anges n’entrent pas dans une maison où se trouve une image.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "93a41366-e57a-4696-8cab-c9243cadb0a7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5958",
+      "reference": "Sahih al-Bukhari, hadith 5958, book 77, باب مَنْ كَرِهَ الْقُعُودَ عَلَى الصُّورَةِ",
+      "title": "باب مَنْ كَرِهَ الْقُعُودَ عَلَى الصُّورَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنْ بُكَيْرٍ، عَنْ بُسْرِ بْنِ سَعِيدٍ، عَنْ زَيْدِ بْنِ خَالِدٍ، عَنْ أَبِي طَلْحَةَ، صَاحِبِ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الْمَلاَئِكَةَ لاَ تَدْخُلُ بَيْتًا فِيهِ الصُّورَةُ ‏\"‏‏.‏ قَالَ بُسْرٌ ثُمَّ اشْتَكَى زَيْدٌ فَعُدْنَاهُ، فَإِذَا عَلَى بَابِهِ سِتْرٌ فِيهِ صُورَةٌ فَقُلْتُ لِعُبَيْدِ اللَّهِ رَبِيبِ مَيْمُونَةَ زَوْجِ النَّبِيِّ صلى الله عليه وسلم أَلَمْ يُخْبِرْنَا زَيْدٌ عَنِ الصُّوَرِ يَوْمَ الأَوَّلِ‏.‏ فَقَالَ عُبَيْدُ اللَّهِ أَلَمْ تَسْمَعْهُ حِينَ قَالَ إِلاَّ رَقْمًا فِي ثَوْبٍ‏.‏ وَقَالَ ابْنُ وَهْبٍ أَخْبَرَنَا عَمْرٌو ـ هُوَ ابْنُ الْحَارِثِ ـ حَدَّثَهُ بُكَيْرٌ، حَدَّثَهُ بُسْرٌ، حَدَّثَهُ زَيْدٌ، حَدَّثَهُ أَبُو طَلْحَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "c4307ab23ab6ac1f763fa0eea992d7906be4b290438a3f8c3a19d5338f326df9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba nous a rapporté : al-Layth nous a rapporté, d’après Bukayr, d’après Busr ibn Sa‘îd, d’après Zayd ibn Khâlid, d’après Abû Talha, compagnon du Messager d’Allah ﷺ, qui dit que le Messager d’Allah ﷺ a dit : « Les anges n’entrent pas dans une maison où se trouve une image. » Busr dit : « Zayd tomba ensuite malade et nous lui rendîmes visite. Nous vîmes alors, à sa porte, un rideau portant une image. Je demandai à ‘Ubayd Allâh, le beau-fils de Maymûna, épouse du Prophète ﷺ : “Zayd ne nous a-t-il pas rapporté, dès le premier jour, ce qu’il en est des images ?” ‘Ubayd Allâh répondit : “Ne l’as-tu pas entendu dire : ‘à l’exception d’un motif sur un vêtement’ ?” » Ibn Wahb a dit : ‘Amr — c’est-à-dire Ibn al-Hârith — nous a informés : Bukayr lui a rapporté, Busr lui a rapporté, Zayd lui a rapporté, et Abû Talha lui a rapporté du Prophète ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "5f5249ac-e481-4452-9228-cb5950e220a4",
+      "reason": "The exported text is only a continuation beginning “And I used to bathe,” with no narrator or preceding context. Keep it blank until the complete source is confirmed."
+    }
+  ]
+}
