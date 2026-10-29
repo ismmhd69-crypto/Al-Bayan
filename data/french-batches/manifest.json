@@ -12525,6 +12525,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-566",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-566.json",
+      "sourceIds": [
+        "15388f82-32bf-4432-a3f3-5a06102fa7f9",
+        "49023523-8ceb-4fa7-980b-4eae53647fc8",
+        "20407cdc-38cd-402e-b873-9b8c63e3afbe",
+        "ca7d2ae3-b442-4e29-860e-e4ee6cd777dd",
+        "9fabb957-adf6-48a5-bd68-ba8e24aba289",
+        "f621e525-9516-4257-88f3-d166f10c8015"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed; combined Bukhari 3252–3253 held blank for embedded Quran 56:30 quotation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -12544,7 +12565,7 @@
       "id": "QURAN-FR-EMBEDDED-QUOTES",
       "scope": "Hadith records containing Quran quotations",
       "status": "blocked",
-      "reason": "The current application Quran source configuration exposes English and German translations only. Hadiths containing Quran quotations are held until an approved, attributed French Quran translation is confirmed. Bukhari 610, 648, the combined 655/656 record, 705, 743, 763, 766, 768, 769, 773, 774, 774b, 782, 859, 891, 936, 979, 1007, 1020, 1068, 1072, 1073, 1074, 1078, 1101, 1125, 1127, 1200, 1210, the combined 1241/1242 record, 1251, 1269, and the combined 1286/1287/1288 report and Bukhari 1342, 1358, 1359, 1360, 1362, 1366, 1369, 1371, 1394, 1403, 1404, 1406, 1415, 1461, 1478 and 1523 are recorded in batches FR-LIB-HAD-BUKHARI-111, FR-LIB-HAD-BUKHARI-117, FR-LIB-HAD-BUKHARI-118, FR-LIB-HAD-BUKHARI-128, FR-LIB-HAD-BUKHARI-134, FR-LIB-HAD-BUKHARI-137, FR-LIB-HAD-BUKHARI-138, FR-LIB-HAD-BUKHARI-139, FR-LIB-HAD-BUKHARI-140, FR-LIB-HAD-BUKHARI-154, FR-LIB-HAD-BUKHARI-159, FR-LIB-HAD-BUKHARI-166, FR-LIB-HAD-BUKHARI-173, FR-LIB-HAD-BUKHARI-177, FR-LIB-HAD-BUKHARI-179, FR-LIB-HAD-BUKHARI-187, FR-LIB-HAD-BUKHARI-188, FR-LIB-HAD-BUKHARI-192, FR-LIB-HAD-BUKHARI-196, FR-LIB-HAD-BUKHARI-209, FR-LIB-HAD-BUKHARI-210, FR-LIB-HAD-BUKHARI-216, FR-LIB-HAD-BUKHARI-217, FR-LIB-HAD-BUKHARI-220, FR-LIB-HAD-BUKHARI-223, FR-LIB-HAD-BUKHARI-232, FR-LIB-HAD-BUKHARI-236, FR-LIB-HAD-BUKHARI-237, FR-LIB-HAD-BUKHARI-238, FR-LIB-HAD-BUKHARI-243, FR-LIB-HAD-BUKHARI-244, FR-LIB-HAD-BUKHARI-245 and FR-LIB-HAD-BUKHARI-246 and FR-LIB-HAD-BUKHARI-254 and FR-LIB-HAD-BUKHARI-257 and FR-LIB-HAD-BUKHARI-265, FR-LIB-HAD-BUKHARI-271 and FR-LIB-HAD-BUKHARI-273 and FR-LIB-HAD-BUKHARI-276 and FR-LIB-HAD-BUKHARI-281 and FR-LIB-HAD-BUKHARI-282 and FR-LIB-HAD-BUKHARI-283 and FR-LIB-HAD-BUKHARI-284 and FR-LIB-HAD-BUKHARI-285 and FR-LIB-HAD-BUKHARI-286 and FR-LIB-HAD-BUKHARI-289 and FR-LIB-HAD-BUKHARI-293 and FR-LIB-HAD-BUKHARI-296 and FR-LIB-HAD-BUKHARI-306 and FR-LIB-HAD-BUKHARI-309 and FR-LIB-HAD-BUKHARI-310. No French Quran text was generated or saved. Bukhari 2991 is also held blank in FR-LIB-HAD-BUKHARI-514 because its text quotes Quran 37:177. Bukhari 3064 is held blank in FR-LIB-HAD-BUKHARI-528 because it quotes a recited Quranic passage later abrogated. Bukhari 3081 is held blank in FR-LIB-HAD-BUKHARI-531 because it quotes Quran 41:40. Bukhari 3199 is held blank in FR-LIB-HAD-BUKHARI-556 because it quotes Quran 36:38. Bukhari 3206 is held blank in FR-LIB-HAD-BUKHARI-557 because it quotes Quran 46:24. Bukhari 3094 is held blank in FR-LIB-HAD-BUKHARI-536 because it quotes Quran 59:6. Bukhari 3218 is held blank in FR-LIB-HAD-BUKHARI-560 because it quotes Quran 19:64. Bukhari 3230 is held blank in FR-LIB-HAD-BUKHARI-562 because it quotes Quran 43:77. Bukhari 3232 is held blank in FR-LIB-HAD-BUKHARI-563 because it quotes Quran 53:9–10. Bukhari 3233 is held blank in FR-LIB-HAD-BUKHARI-563 because it quotes Quran 53:18. Bukhari 3235 is held blank in FR-LIB-HAD-BUKHARI-563 because it quotes Quran 53:8–9. Bukhari 3238 is held blank in FR-LIB-HAD-BUKHARI-564 because it quotes Quran 74:1–5. Bukhari 3244 is held blank in FR-LIB-HAD-BUKHARI-565 because it quotes Quran 32:17."
+      "reason": "The current application Quran source configuration exposes English and German translations only. Hadiths containing Quran quotations are held until an approved, attributed French Quran translation is confirmed. Bukhari 610, 648, the combined 655/656 record, 705, 743, 763, 766, 768, 769, 773, 774, 774b, 782, 859, 891, 936, 979, 1007, 1020, 1068, 1072, 1073, 1074, 1078, 1101, 1125, 1127, 1200, 1210, the combined 1241/1242 record, 1251, 1269, and the combined 1286/1287/1288 report and Bukhari 1342, 1358, 1359, 1360, 1362, 1366, 1369, 1371, 1394, 1403, 1404, 1406, 1415, 1461, 1478 and 1523 are recorded in batches FR-LIB-HAD-BUKHARI-111, FR-LIB-HAD-BUKHARI-117, FR-LIB-HAD-BUKHARI-118, FR-LIB-HAD-BUKHARI-128, FR-LIB-HAD-BUKHARI-134, FR-LIB-HAD-BUKHARI-137, FR-LIB-HAD-BUKHARI-138, FR-LIB-HAD-BUKHARI-139, FR-LIB-HAD-BUKHARI-140, FR-LIB-HAD-BUKHARI-154, FR-LIB-HAD-BUKHARI-159, FR-LIB-HAD-BUKHARI-166, FR-LIB-HAD-BUKHARI-173, FR-LIB-HAD-BUKHARI-177, FR-LIB-HAD-BUKHARI-179, FR-LIB-HAD-BUKHARI-187, FR-LIB-HAD-BUKHARI-188, FR-LIB-HAD-BUKHARI-192, FR-LIB-HAD-BUKHARI-196, FR-LIB-HAD-BUKHARI-209, FR-LIB-HAD-BUKHARI-210, FR-LIB-HAD-BUKHARI-216, FR-LIB-HAD-BUKHARI-217, FR-LIB-HAD-BUKHARI-220, FR-LIB-HAD-BUKHARI-223, FR-LIB-HAD-BUKHARI-232, FR-LIB-HAD-BUKHARI-236, FR-LIB-HAD-BUKHARI-237, FR-LIB-HAD-BUKHARI-238, FR-LIB-HAD-BUKHARI-243, FR-LIB-HAD-BUKHARI-244, FR-LIB-HAD-BUKHARI-245 and FR-LIB-HAD-BUKHARI-246 and FR-LIB-HAD-BUKHARI-254 and FR-LIB-HAD-BUKHARI-257 and FR-LIB-HAD-BUKHARI-265, FR-LIB-HAD-BUKHARI-271 and FR-LIB-HAD-BUKHARI-273 and FR-LIB-HAD-BUKHARI-276 and FR-LIB-HAD-BUKHARI-281 and FR-LIB-HAD-BUKHARI-282 and FR-LIB-HAD-BUKHARI-283 and FR-LIB-HAD-BUKHARI-284 and FR-LIB-HAD-BUKHARI-285 and FR-LIB-HAD-BUKHARI-286 and FR-LIB-HAD-BUKHARI-289 and FR-LIB-HAD-BUKHARI-293 and FR-LIB-HAD-BUKHARI-296 and FR-LIB-HAD-BUKHARI-306 and FR-LIB-HAD-BUKHARI-309 and FR-LIB-HAD-BUKHARI-310. No French Quran text was generated or saved. Bukhari 2991 is also held blank in FR-LIB-HAD-BUKHARI-514 because its text quotes Quran 37:177. Bukhari 3064 is held blank in FR-LIB-HAD-BUKHARI-528 because it quotes a recited Quranic passage later abrogated. Bukhari 3081 is held blank in FR-LIB-HAD-BUKHARI-531 because it quotes Quran 41:40. Bukhari 3199 is held blank in FR-LIB-HAD-BUKHARI-556 because it quotes Quran 36:38. Bukhari 3206 is held blank in FR-LIB-HAD-BUKHARI-557 because it quotes Quran 46:24. Bukhari 3094 is held blank in FR-LIB-HAD-BUKHARI-536 because it quotes Quran 59:6. Bukhari 3218 is held blank in FR-LIB-HAD-BUKHARI-560 because it quotes Quran 19:64. Bukhari 3230 is held blank in FR-LIB-HAD-BUKHARI-562 because it quotes Quran 43:77. Bukhari 3232 is held blank in FR-LIB-HAD-BUKHARI-563 because it quotes Quran 53:9–10. Bukhari 3233 is held blank in FR-LIB-HAD-BUKHARI-563 because it quotes Quran 53:18. Bukhari 3235 is held blank in FR-LIB-HAD-BUKHARI-563 because it quotes Quran 53:8–9. Bukhari 3238 is held blank in FR-LIB-HAD-BUKHARI-564 because it quotes Quran 74:1–5. Bukhari 3244 is held blank in FR-LIB-HAD-BUKHARI-565 because it quotes Quran 32:17. The combined Bukhari 3252–3253 report is held blank in FR-LIB-HAD-BUKHARI-566 because it quotes Quran 56:30."
     },
     {
       "id": "ARABIC-HADITH-INCOMPLETE-MATN",
@@ -12601,7 +12622,7 @@
       "reason": "No approved, attributed French Quran translation has been confirmed in the current application configuration. The seven French verse meanings were not generated; only practice-tool controls have private French drafts."
     }
   ],
-  "hadithBukhariDrafted": 2926,
-  "hadithLocalDrafted": 2926,
-  "hadithLocalRemaining": 11729
+  "hadithBukhariDrafted": 2931,
+  "hadithLocalDrafted": 2931,
+  "hadithLocalRemaining": 11724
 }
