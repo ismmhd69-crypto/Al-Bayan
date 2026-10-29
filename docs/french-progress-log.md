@@ -3291,3 +3291,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-675` saves six private French drafts about Khadîja, Jarîr ibn ‘Abd Allâh, Hudhayfa and Hind bint ‘Utba.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,408 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 249. Total local hadith rows not drafted: 11,249, including held records.
+
+### 2026-10-29: Bukhari 3826–3831
+
+- `FR-LIB-HAD-BUKHARI-676` saves six private French drafts about Zayd ibn ‘Amr, the building of the Ka‘ba and the fast of ‘Âshûrâ’.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,414 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 249. Total local hadith rows not drafted: 11,243, including held records.
