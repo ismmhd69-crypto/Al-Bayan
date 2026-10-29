@@ -1096,3 +1096,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-229` saves six private French drafts for Bukhari 1320–1326, including the combined 1323/1324 report. They preserve the funeral prayer accounts, reward described in qirats, and the reports about children joining funeral prayers.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,220 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 62. Total local hadith rows not drafted: 13,409, including held records.
+### 2026-10-29: Bukhari 1327–1333 source review
+
+- `FR-LIB-HAD-BUKHARI-230` saves six private French drafts for Bukhari 1327–1333, including the combined 1327/1328 report. They preserve the Negus funeral reports, the two postpartum funeral reports, and the four takbirs.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,226 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 62. Total local hadith rows not drafted: 13,403, including held records.
