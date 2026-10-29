@@ -9,7 +9,7 @@ const errors: string[] = [];
 if (!entries.length || entries.length > 5) errors.push(`batch_size:${entries.length}`);
 if (new Set(entries.map((entry) => entry.id)).size !== entries.length) errors.push("duplicate_ids");
 const linkedTokens = (text: string) => [...text.matchAll(/\[[^\]]+\]\(([^\)]+)\)|\[[^\]]+\]\[([^\]]+)\]/gu)].map((match) => match[1] ? `url:${match[1]}` : `ref:${match[2]}`);
-const inlineSources = (text: string) => [...text.matchAll(/\[(?:Quran|Coran|Bukhari|Muslim|Ibn Baz|Abu Dawud|Q\d|\d{1,3}:\d{1,3}|\d{1,3}[a-z]?|[A-Z]{1,3}\s?\d)[^\]]*\]/giu)].map((match) => match[0].replace(/^\[(?:Quran|Coran)/iu, "[Quran"));
+const inlineSources = (text: string) => [...text.matchAll(/\[(?:Quran|Coran|Bukhari|Muslim|Ibn Baz|Abu Dawud)[^\]]*\]/giu)].map((match) => match[0].replace(/^\[(?:Quran|Coran)/iu, "[Quran"));
 for (const entry of entries) {
   const original = sourceById.get(entry.id);
   if (!original) { errors.push(`unknown_id:${entry.id}`); continue; }

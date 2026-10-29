@@ -49,3 +49,5 @@ Scope: private local preparation only. French remains absent from public locale 
 - Translated lessons 1–14 into local French draft batches `new-to-islam-001.json` through `new-to-islam-005.json`. Original English/Arabic/German source records were not modified.
 - Each batch was checked against the source lesson IDs, all link destinations and citation reference IDs, source citation labels, section heading counts, and paragraph structure. Batch size is at most five lessons; these batches contain 3, 3, 3, 3, and 2 lessons.
 - French drafts remain unpublished and are not connected to public locale routing. New to Islam lessons remaining: 18 of 32. No human review is claimed.
+- Continued with lessons 15–18 in local batches `new-to-islam-006.json` and `new-to-islam-007.json`. The detailed prayer walkthrough preserves its Arabic text, transliterations, sequence, qualifications, and source links. All seven lesson batches were revalidated after tightening the citation check to track source IDs while allowing French display labels.
+- New to Islam progress: 18 of 32 lessons drafted and structurally checked; 14 remain. Human review: 0; published: 0.
