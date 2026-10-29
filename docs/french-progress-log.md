@@ -7608,3 +7608,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0100 saves 6 private French drafts, preserving the variant narrations and measures about the least punishment in the Fire.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 388 of 7,366. Hadith Needs Mo: 239. Total local hadith rows not drafted: 7,905, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 213b–216c
+
+- FR-LIB-HAD-MUSLIM-0101 saves 4 private French drafts. Hadith 214 directly quotes Quran 26:82, and 216b only supplies a chain referring to another report; both remain blank under Needs Mo.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 392 of 7,366. Hadith Needs Mo: 241. Total local hadith rows not drafted: 7,901, including held records. No database writes or publication occurred.

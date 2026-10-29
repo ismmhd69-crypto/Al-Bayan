@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:28:55.684Z",
+  "lastReconciled": "2026-10-29T14:29:21.243Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 395,
+    "hadithMuslimDrafted": 399,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6731,
-    "hadithDatabaseMissing": 7898,
-    "hadithLocalRemaining": 7898,
-    "hadithNeedsMo": 239,
+    "hadithLocalDrafted": 6735,
+    "hadithDatabaseMissing": 7894,
+    "hadithLocalRemaining": 7894,
+    "hadithNeedsMo": 241,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31105,6 +31105,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0101",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0101.json",
+      "sourceIds": [
+        "e0c8cf51-c1eb-40af-8902-8734adf32d1d",
+        "15ebd205-f043-431b-a5de-9acd9a890300",
+        "e4f74639-d9e9-4cab-b1a3-3d0a5e1b4961",
+        "72ee02a9-fe9a-489b-a5fe-8f4c2e75f616",
+        "5b92bece-e739-4a2e-ab8b-63ebed2abee0",
+        "40f30a87-5306-449b-a8e9-ae3be21ffd6a"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; Quran quotation and incomplete source variant held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35397,11 +35418,23 @@
       "scope": "Sahih Muslim 208b: direct Quran quotation",
       "status": "blocked",
       "reason": "Cette variante cite directement le verset 26:214 du Coran et ne donne pas le texte complet du récit. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-214-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 214: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement la parole coranique « Seigneur, pardonne-moi au Jour du Jugement » (Coran 26:82). Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-216B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 216b: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe ne contient que la chaîne de transmission et renvoie au hadith d’al-Rabi‘ sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6731,
-  "hadithLocalRemaining": 7898,
+  "hadithLocalDrafted": 6735,
+  "hadithLocalRemaining": 7894,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36836,10 +36869,22 @@
       "scope": "Sahih Muslim 208b: direct Quran quotation",
       "status": "blocked",
       "reason": "Cette variante cite directement le verset 26:214 du Coran et ne donne pas le texte complet du récit. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-214-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 214: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement la parole coranique « Seigneur, pardonne-moi au Jour du Jugement » (Coran 26:82). Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-216B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 216b: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe ne contient que la chaîne de transmission et renvoie au hadith d’al-Rabi‘ sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
     }
   ],
-  "hadithMuslimDrafted": 395,
-  "hadithDatabaseMissing": 7898,
+  "hadithMuslimDrafted": 399,
+  "hadithDatabaseMissing": 7894,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 239
+  "hadithNeedsMo": 241
 }

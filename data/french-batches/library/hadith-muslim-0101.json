@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0101",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:28:57.471Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e0c8cf51-c1eb-40af-8902-8734adf32d1d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:213b",
+      "reference": "Sahih Muslim, hadith 213 b, book 1, باب أَهْوَنِ أَهْلِ النَّارِ عَذَابًا ‏‏",
+      "title": "باب أَهْوَنِ أَهْلِ النَّارِ عَذَابًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي إِسْحَاقَ، عَنِ النُّعْمَانِ بْنِ بَشِيرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ أَهْوَنَ أَهْلِ النَّارِ عَذَابًا مَنْ لَهُ نَعْلاَنِ وَشِرَاكَانِ مِنْ نَارٍ يَغْلِي مِنْهُمَا دِمَاغُهُ كَمَا يَغْلِي الْمِرْجَلُ مَا يَرَى أَنَّ أَحَدًا أَشَدُّ مِنْهُ عَذَابًا وَإِنَّهُ لأَهْوَنُهُمْ عَذَابًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f09702720f42620ec922ee62ece9eda787dccd77a428932f9972c336da1317a3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté, d’après Abu Usama, d’après al-A‘mash, d’après Abu Ishaq, d’après al-Nu‘man ibn Bashir, qui a dit : le Messager de Dieu ﷺ a dit : « Le moins puni parmi les gens de l’Enfer portera deux chaussures avec leurs lanières en feu. Leur chaleur fera bouillir son cerveau comme une marmite. Il pensera que personne ne subit un châtiment plus sévère que lui, alors qu’il sera le moins puni d’entre eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "15ebd205-f043-431b-a5de-9acd9a890300",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:214",
+      "reference": "Sahih Muslim, hadith 214, book 1, باب الدَّلِيلِ علَى أَنَّ مَنْ مَاتَ عَلَى الْكُفْرِ لاَ يَنْفَعُهُ عَمَلٌ ‏‏",
+      "title": "باب الدَّلِيلِ علَى أَنَّ مَنْ مَاتَ عَلَى الْكُفْرِ لاَ يَنْفَعُهُ عَمَلٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، عَنْ دَاوُدَ، عَنِ الشَّعْبِيِّ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ قُلْتُ يَا رَسُولَ اللَّهِ ابْنُ جُدْعَانَ كَانَ فِي الْجَاهِلِيَّةِ يَصِلُ الرَّحِمَ وَيُطْعِمُ الْمِسْكِينَ فَهَلْ ذَاكَ نَافِعُهُ قَالَ ‏\"‏ لاَ يَنْفَعُهُ إِنَّهُ لَمْ يَقُلْ يَوْمًا رَبِّ اغْفِرْ لِي خَطِيئَتِي يَوْمَ الدِّينِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "da82099744c44fd65822db4b766bbdbc459aa5da5a994ef36b832093a964a28c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement la parole coranique « Seigneur, pardonne-moi au Jour du Jugement » (Coran 26:82). Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "e4f74639-d9e9-4cab-b1a3-3d0a5e1b4961",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:215",
+      "reference": "Sahih Muslim, hadith 215, book 1, باب مُوَالاَةِ الْمُؤْمِنِينَ وَمُقَاطَعَةِ غَيْرِهِمْ وَالْبَرَاءَةِ مِنْهُمْ ‏‏",
+      "title": "باب مُوَالاَةِ الْمُؤْمِنِينَ وَمُقَاطَعَةِ غَيْرِهِمْ وَالْبَرَاءَةِ مِنْهُمْ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، عَنْ قَيْسٍ، عَنْ عَمْرِو بْنِ الْعَاصِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم جِهَارًا غَيْرَ سِرٍّ يَقُولُ ‏\"‏ أَلاَ إِنَّ آلَ أَبِي - يَعْنِي فُلاَنًا - لَيْسُوا لِي بِأَوْلِيَاءَ إِنَّمَا وَلِيِّيَ اللَّهُ وَصَالِحُ الْمُؤْمِنِينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "73bd003451ca12e0aadca328e6a2a08c758a51f81f2bfc7bc97460d3d21a66d4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Hanbal nous a rapporté, d’après Muhammad ibn Ja‘far, d’après Shu‘ba, d’après Isma‘il ibn Abi Khalid, d’après Qays, d’après ‘Amr ibn al-‘As, qui a dit : J’ai entendu clairement le Messager de Dieu ﷺ dire, sans parler en secret : « Sachez que les proches d’Abu — c’est-à-dire d’Untel — ne sont pas mes alliés. Mon seul allié est Dieu et les croyants vertueux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "72ee02a9-fe9a-489b-a5fe-8f4c2e75f616",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:216a",
+      "reference": "Sahih Muslim, hadith 216 a, book 1, باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ سَلاَّمِ بْنِ عُبَيْدِ اللَّهِ الْجُمَحِيُّ، حَدَّثَنَا الرَّبِيعُ، - يَعْنِي ابْنَ مُسْلِمٍ - عَنْ مُحَمَّدِ بْنِ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ يَدْخُلُ مِنْ أُمَّتِي الْجَنَّةَ سَبْعُونَ أَلْفًا بِغَيْرِ حِسَابٍ ‏\"‏ ‏.‏ فَقَالَ رَجُلٌ يَا رَسُولَ اللَّهِ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ ‏.‏ قَالَ ‏\"‏ اللَّهُمَّ اجْعَلْهُ مِنْهُمْ ‏\"‏ ‏.‏ ثُمَّ قَامَ آخَرُ فَقَالَ يَا رَسُولَ اللَّهِ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ ‏.‏ قَالَ ‏\"‏ سَبَقَكَ بِهَا عُكَّاشَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bc42fb3b148d0c34d67fd940b19beabb2883d0ba17b7c6717751c5d15566ff92",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd al-Rahman ibn Sallam ibn ‘Ubayd Allah al-Jumahi nous a rapporté, d’après al-Rabi‘ — c’est-à-dire Ibn Muslim —, d’après Muhammad ibn Ziyad, d’après Abu Hurayra, que le Prophète ﷺ a dit : « Soixante-dix mille personnes de ma communauté entreront au Paradis sans rendre de comptes. » Un homme dit : « Messager de Dieu, demande à Dieu de faire que je sois parmi eux. » Il répondit : « Seigneur, fais qu’il soit parmi eux. » Un autre homme se leva et dit : « Messager de Dieu, demande à Dieu de faire que je sois parmi eux. » Il répondit : « ‘Ukkasha t’a devancé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5b92bece-e739-4a2e-ab8b-63ebed2abee0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:216b",
+      "reference": "Sahih Muslim, hadith 216 b, book 1, باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ مُحَمَّدَ بْنَ زِيَادٍ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏.‏ بِمِثْلِ حَدِيثِ الرَّبِيعِ ‏.‏",
+      "source_hash_sha256": "10b077393527fda764ae616ccfa11e9048b324c3eeb25212e4eaa67a8a589dd4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe ne contient que la chaîne de transmission et renvoie au hadith d’al-Rabi‘ sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "40f30a87-5306-449b-a8e9-ae3be21ffd6a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:216c",
+      "reference": "Sahih Muslim, hadith 216 c, book 1, باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، قَالَ أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ حَدَّثَنِي سَعِيدُ بْنُ الْمُسَيَّبِ، أَنَّ أَبَا هُرَيْرَةَ، حَدَّثَهُ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ يَدْخُلُ مِنْ أُمَّتِي زُمْرَةٌ هُمْ سَبْعُونَ أَلْفًا تُضِيءُ وُجُوهُهُمْ إِضَاءَةَ الْقَمَرِ لَيْلَةَ الْبَدْرِ ‏\"‏ ‏.‏ قَالَ أَبُو هُرَيْرَةَ فَقَامَ عُكَّاشَةُ بْنُ مِحْصَنٍ الأَسَدِيُّ يَرْفَعُ نَمِرَةً عَلَيْهِ فَقَالَ يَا رَسُولَ اللَّهِ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اللَّهُمَّ اجْعَلْهُ مِنْهُمْ ‏\"‏ ثُمَّ قَامَ رَجُلٌ مِنَ الأَنْصَارِ فَقَالَ يَا رَسُولَ اللَّهِ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ سَبَقَكَ بِهَا عُكَّاشَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6302e42881bffa29b0889a7b9d4f454a0a9414f491e93aa6ce1f230b4e8aba69",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya nous a rapporté, d’après Ibn Wahb, qui a dit : Yunus m’a rapporté, d’après Ibn Shihab, qui a dit : Sa‘id ibn al-Musayyab m’a rapporté qu’Abu Hurayra lui avait dit : J’ai entendu le Messager de Dieu ﷺ dire : « Un groupe de ma communauté, composé de soixante-dix mille personnes, entrera au Paradis ; leurs visages brilleront comme la lune la nuit de pleine lune. » Abu Hurayra dit : ‘Ukkasha ibn Mihsan al-Asadi se leva, soulevant le manteau rayé qu’il portait, et dit : « Messager de Dieu, demande à Dieu de faire que je sois parmi eux. » Le Messager de Dieu ﷺ répondit : « Seigneur, fais qu’il soit parmi eux. » Puis un homme des Ansar se leva et dit : « Messager de Dieu, demande à Dieu de faire que je sois parmi eux. » Le Messager de Dieu ﷺ répondit : « ‘Ukkasha t’a devancé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "15ebd205-f043-431b-a5de-9acd9a890300",
+      "reason": "Ce récit cite directement la parole coranique « Seigneur, pardonne-moi au Jour du Jugement » (Coran 26:82). Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "5b92bece-e739-4a2e-ab8b-63ebed2abee0",
+      "reason": "La source arabe ne contient que la chaîne de transmission et renvoie au hadith d’al-Rabi‘ sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    }
+  ]
+}
