@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5762,
+    "hadithBukhariDrafted": 5768,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5762,
+    "hadithLocalDrafted": 5768,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8867,
+    "hadithLocalRemaining": 8861,
     "hadithNeedsMo": 830,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -26538,6 +26538,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1255",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1255.json",
+      "sourceIds": [
+        "31f8185d-c9f9-4108-80d1-255d7f9371af",
+        "4602222b-f891-43bb-bb94-21de5655c771",
+        "d5353aba-e7c6-4836-a167-4f805dbee206",
+        "1ded0282-a39d-495d-b89d-f91daac0a866",
+        "fe17d11b-88cf-430b-8499-b1907c35f610",
+        "60f03087-23b0-466b-b4db-c3fedf470cce"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Six complete French drafts, preserving the reported wording variants and narrator comments. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -29908,9 +29929,9 @@
       "reason": "This report presents wording as an “ayah of stoning” and includes another passage it says was recited from the Book of Allah. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5762,
-  "hadithLocalDrafted": 5762,
-  "hadithLocalRemaining": 8867,
+  "hadithBukhariDrafted": 5768,
+  "hadithLocalDrafted": 5768,
+  "hadithLocalRemaining": 8861,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",

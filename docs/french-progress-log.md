@@ -6440,3 +6440,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1254 saves six private French drafts, preserving the report variants and narrator notes. The Torah citation is translated as reported speech; no Quran wording is present. No database writes or publication occurred.
 - All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,762 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 829. Total local hadith rows not drafted: 8,867, including held records.
+
+
+### 2026-10-29: Bukhari 6847–6852
+
+- FR-LIB-HAD-BUKHARI-1255 saves six private French drafts, preserving their reported wording and variants. No database writes or publication occurred.
+- All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,768 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 829. Total local hadith rows not drafted: 8,861, including held records.
