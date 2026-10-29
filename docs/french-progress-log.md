@@ -13088,3 +13088,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Batch FR-LIB-HAD-MUSLIM-1256 covers six entries. Two complete repentance reports are translated. Four incomplete or reference-only variants remain blank under Needs Mo.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Two private local drafts saved.
 - Recounted local hadith artifacts: 6,336 Bukhari and 4,920 Muslim drafts (11,256 total); 2,791 held Needs Mo; 14,047 sources represented; 582 not yet exported. Local hadith records without French drafts: 3,373. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2746–2749, batch 1257
+
+- Batch FR-LIB-HAD-MUSLIM-1257 contains six complete reports about repentance and forgiveness. All six are translated, including the quoted correction caused by the man’s intense joy.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Six private local drafts saved.
+- Recounted local hadith artifacts: 6,336 Bukhari and 4,926 Muslim drafts (11,262 total); 2,791 held Needs Mo; 14,053 sources represented; 576 not yet exported. Local hadith records without French drafts: 3,367. All 14,629 remain missing from the live French table.
