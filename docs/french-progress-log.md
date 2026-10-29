@@ -10041,3 +10041,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0582 saves six private French drafts about shared sacrificial animals and the method of sacrifice. All six source reports are complete.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1321a–1321f
+
+- FR-LIB-HAD-MUSLIM-0583 saves five private French drafts about preparing the garlands for sacrificial animals sent from Medina. Muslim 1321b only refers to the previous report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
