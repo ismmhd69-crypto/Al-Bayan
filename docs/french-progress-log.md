@@ -1246,3 +1246,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-262` saves six private French drafts for Bukhari 1501–1506. They preserve the full account concerning the Urayna group, the marking of zakat camels, and the stated amounts and forms of zakat al-fitr. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,376 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,253, including held records.
+
+### 2026-10-29: Bukhari 1507–1512 source review
+
+- `FR-LIB-HAD-BUKHARI-263` saves six private French drafts for Bukhari 1507–1512. They preserve the reported sa‘ measures, the wheat equivalence attributed to Mu‘awiya, and the timing and recipients of zakat al-fitr. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,382 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,247, including held records.
