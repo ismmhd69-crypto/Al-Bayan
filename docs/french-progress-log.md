@@ -6671,3 +6671,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1298 saves six private French drafts, preserving the reports about accountability, reconciliation, restraint during conflict and the narrator’s direct condemnation. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 5,981 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 848. Total local hadith rows not drafted: 8,648, including held records.
+
+### 2026-10-29: Bukhari 7114–7119
+
+- FR-LIB-HAD-BUKHARI-1299 saves six private French drafts, preserving the distinctions in the source routes, the named idol and its context, and both versions about the Euphrates. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 5,987 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 848. Total local hadith rows not drafted: 8,642, including held records.

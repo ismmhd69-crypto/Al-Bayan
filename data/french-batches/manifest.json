@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5981,
+    "hadithBukhariDrafted": 5987,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5981,
+    "hadithLocalDrafted": 5987,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8648,
+    "hadithLocalRemaining": 8642,
     "hadithNeedsMo": 848,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -27438,6 +27438,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1299",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1299.json",
+      "sourceIds": [
+        "3021b63d-b0d6-421e-ab82-64f6d905cc49",
+        "6111d958-2ddd-441b-9570-4e3ccbdb77e6",
+        "70ac3843-547f-44cd-b2ee-7c54169ec171",
+        "227b026c-4307-4630-887b-d09f0a9a2ef7",
+        "c5feab94-b567-4252-b721-5ff8e1892a79",
+        "0f01616c-dc91-4759-9c98-11f4244a1fcf"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six complete drafts; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -30916,9 +30937,9 @@
       "reason": "The report directly quotes Quran 2:193. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5981,
-  "hadithLocalDrafted": 5981,
-  "hadithLocalRemaining": 8648,
+  "hadithBukhariDrafted": 5987,
+  "hadithLocalDrafted": 5987,
+  "hadithLocalRemaining": 8642,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
