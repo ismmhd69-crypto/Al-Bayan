@@ -20838,6 +20838,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-973",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-973.json",
+      "sourceIds": [
+        "20b7c107-28bf-4037-9734-7c11c0a52075",
+        "0ef2ef77-1c48-4595-8f6b-93fa19e47f20",
+        "3d13898f-8adb-4a4b-b871-8caa3d520d36",
+        "b9c6290d-6d0c-4cea-80ec-4fb85ef43c1f",
+        "91d4c060-64c0-4ca0-96b8-3444baebad98",
+        "b021afaa-8bc9-40dd-b6f8-591c6032a8f1"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -23812,7 +23833,7 @@
       "reason": "The report directly quotes Quran 2:232. Keep the complete translation blank pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 4373,
-  "hadithLocalDrafted": 4373,
-  "hadithLocalRemaining": 10294
+  "hadithBukhariDrafted": 4379,
+  "hadithLocalDrafted": 4379,
+  "hadithLocalRemaining": 10288
 }
