@@ -15367,6 +15367,20 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-700",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-700.json",
+      "sourceIds": ["4da235f6-103f-4bbd-9455-daa197be825e", "55a649f2-3e29-40ea-aa7a-496f04837891", "077f58d4-d660-4dc1-8740-33649a10350d", "707465ab-67e8-42dc-89c5-c14701aa49ce", "8bb74131-7acd-4933-b9e1-0898c1381345", "607eb332-9c4b-4c92-b19d-4530375363c2"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; one unclear poem remains blank with a reason-specific Needs Mo hold",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -15496,9 +15510,15 @@
       "scope": "Sahih al-Bukhari 3906: phrase المسجد الذي أسس على التقوى",
       "status": "blocked",
       "reason": "The long local report directly quotes Quran 9:108. It remains blank in FR-LIB-HAD-BUKHARI-696 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3921-UNCLEAR-POEM",
+      "scope": "Sahih al-Bukhari 3921: elegiac poem about those killed at Badr and the afterlife",
+      "status": "blocked",
+      "reason": "The local Arabic passage contains dense poetic expressions whose exact sense is not confirmed. The full report remains blank in FR-LIB-HAD-BUKHARI-700 pending clarification."
     }
   ],
-  "hadithBukhariDrafted": 3489,
-  "hadithLocalDrafted": 3489,
-  "hadithLocalRemaining": 11168
+  "hadithBukhariDrafted": 3494,
+  "hadithLocalDrafted": 3494,
+  "hadithLocalRemaining": 11163
 }
