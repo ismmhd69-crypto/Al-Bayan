@@ -5883,3 +5883,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6250–6255
 
 - FR-LIB-HAD-BUKHARI-1150 saves six private French drafts about prayer, greetings, and the Tabûk account. No database writes or publication occurred. Bukhari local drafts: 5,243 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 769. Total local hadith rows not drafted: 9,384, including held records.
+
+### 2026-10-29: Bukhari 6256–6261
+
+- FR-LIB-HAD-BUKHARI-1151 saves six private French drafts about greetings, Hâtib’s letter, and a letter hidden in wood. No database writes or publication occurred. Bukhari local drafts: 5,249 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 769. Total local hadith rows not drafted: 9,378, including held records.
