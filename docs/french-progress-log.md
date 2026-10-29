@@ -8255,7 +8255,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 543d–546b
 
 - FR-LIB-HAD-MUSLIM-0226 saves four private French drafts about the Prophet’s ﷺ minbar, prayer posture, and smoothing the ground before prostration. Muslim 543d and 544b contain only incomplete cross-references and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 913 Muslim drafts, 7,249 total hadith drafts, 7,380 remaining, and 439 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 913 Muslim drafts, 7,249 total hadith drafts, 7,380 remaining, and 439 Needs Mo items.
 
 ### 2026-10-29: Muslim 547a–550a
 
@@ -8816,3 +8816,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0337 saves five private French drafts about consistent worship, prayer during fatigue, and fasting in Sha‘ban. Muslim 784b only points to a preceding report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1353 Muslim drafts, 7689 total hadith drafts, 6940 remaining, and 620 Needs Mo items.
+
+### 2026-10-29: Muslim 785b–789a
+
+- FR-LIB-HAD-MUSLIM-0338 saves six private French drafts about night worship, recitation, and keeping the Quran memorized. All reports are complete and translated in full.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1359 Muslim drafts, 7695 total hadith drafts, 6934 remaining, and 620 Needs Mo items.
