@@ -19537,6 +19537,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-910",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-910.json",
+      "sourceIds": [
+        "4eac9014-58ee-493a-ae53-e376db9e2587",
+        "bc9c8fb9-923c-4754-92c4-ad2d5ba53dc5",
+        "3cbff81a-b7b5-483a-9937-b02545ca2e4e",
+        "06b07c34-0b7d-4ae2-bd4e-4021674e86fa",
+        "b4cc9efd-7875-4aa0-8f85-9d692ba5b653",
+        "f5b014ba-68af-4f95-a04b-2d9fc76cb9b6"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22179,9 +22200,33 @@
       "scope": "Sahih al-Bukhari 4971: direct Quran quotation from 26:214, 111:1",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 26:214, 111:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-909, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4972-QURAN-111-1",
+      "scope": "Sahih al-Bukhari 4972: direct Quran wording from 111:1",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 111:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-910, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4973-QURAN-111-1",
+      "scope": "Sahih al-Bukhari 4973: direct Quran wording from 111:1",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 111:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-910, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4974-QURAN-112-1-4-UNMARKED",
+      "scope": "Sahih al-Bukhari 4974: direct Quran wording from 112:1-4 (citation directe sans marqueur)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 112:1-4 (citation directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-910, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4975-QURAN-112-3-4",
+      "scope": "Sahih al-Bukhari 4975: direct Quran wording from 112:3-4",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 112:3-4. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-910, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4078,
-  "hadithLocalDrafted": 4078,
-  "hadithLocalRemaining": 10589
+  "hadithBukhariDrafted": 4080,
+  "hadithLocalDrafted": 4080,
+  "hadithLocalRemaining": 10587
 }

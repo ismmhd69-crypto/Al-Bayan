@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-BUKHARI-910",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:44:18.288Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4eac9014-58ee-493a-ae53-e376db9e2587",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4972",
+      "reference": "Sahih al-Bukhari, hadith 4972, book 65, باب قَوْلِهِ ‏ {‏وَتَبَّ * مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏وَتَبَّ * مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا الأَعْمَشُ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم خَرَجَ إِلَى الْبَطْحَاءِ فَصَعِدَ إِلَى الْجَبَلِ فَنَادَى ‏\"‏ يَا صَبَاحَاهْ ‏\"‏‏.‏ فَاجْتَمَعَتْ إِلَيْهِ قُرَيْشٌ فَقَالَ ‏\"‏ أَرَأَيْتُمْ إِنْ حَدَّثْتُكُمْ أَنَّ الْعَدُوَّ مُصَبِّحُكُمْ أَوْ مُمَسِّيكُمْ، أَكُنْتُمْ تُصَدِّقُونِي ‏\"‏‏.‏ قَالُوا نَعَمْ‏.‏ قَالَ ‏\"‏ فَإِنِّي نَذِيرٌ لَكُمْ بَيْنَ يَدَىْ عَذَابٍ شَدِيدٍ ‏\"‏‏.‏ فَقَالَ أَبُو لَهَبٍ أَلِهَذَا جَمَعْتَنَا تَبًّا لَكَ‏.‏ فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"111\" aya_start=\"1\" aya_end=\"1\"]{‏تَبَّتْ يَدَا أَبِي لَهَبٍ‏}‏ إِلَى آخِرِهَا‏.‏",
+      "source_hash_sha256": "1a970ed72572d35df78eb8c4c710eccc0dbe665e3b978de6514a5b24f6bb6df5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bc9c8fb9-923c-4754-92c4-ad2d5ba53dc5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4973",
+      "reference": "Sahih al-Bukhari, hadith 4973, book 65, باب قَوْلِهِ ‏ {‏سَيَصْلَى نَارًا ذَاتَ لَهَبٍ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏سَيَصْلَى نَارًا ذَاتَ لَهَبٍ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، حَدَّثَنِي عَمْرُو بْنُ مُرَّةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ أَبُو لَهَبٍ تَبًّا لَكَ أَلِهَذَا جَمَعْتَنَا فَنَزَلَتْ ‏[quran sura=\"111\" aya_start=\"1\" aya_end=\"1\"]{‏تَبَّتْ يَدَا أَبِي لَهَبٍ‏}‏‏.‏",
+      "source_hash_sha256": "6f0b992a1fd659c1ee8436451eb0eb11a30f420a7c36ba00ae8a44da82d70cf8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3cbff81a-b7b5-483a-9937-b02545ca2e4e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4974",
+      "reference": "Sahih al-Bukhari, hadith 4974, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، حَدَّثَنَا شُعَيْبٌ، حَدَّثَنَا أَبُو الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ اللَّهُ كَذَّبَنِي ابْنُ آدَمَ وَلَمْ يَكُنْ لَهُ ذَلِكَ، وَشَتَمَنِي وَلَمْ يَكُنْ لَهُ ذَلِكَ، فَأَمَّا تَكْذِيبُهُ إِيَّاىَ فَقَوْلُهُ لَنْ يُعِيدَنِي كَمَا بَدَأَنِي، وَلَيْسَ أَوَّلُ الْخَلْقِ بِأَهْوَنَ عَلَىَّ مِنْ إِعَادَتِهِ، وَأَمَّا شَتْمُهُ إِيَّاىَ فَقَوْلُهُ اتَّخَذَ اللَّهُ وَلَدًا، وَأَنَا الأَحَدُ الصَّمَدُ لَمْ أَلِدْ وَلَمْ أُولَدْ وَلَمْ يَكُنْ لِي كُفْأً أَحَدٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "7e4e3587ea370194c91b6cd701a5f85f17ce599a72d78e1effbdf880ba8134e9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "06b07c34-0b7d-4ae2-bd4e-4021674e86fa",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4975",
+      "reference": "Sahih al-Bukhari, hadith 4975, book 65, باب قَوْلِهِ ‏ {‏اللَّهُ الصَّمَدُ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏اللَّهُ الصَّمَدُ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، قَالَ وَحَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ قَالَ اللَّهُ كَذَّبَنِي ابْنُ آدَمَ وَلَمْ يَكُنْ لَهُ ذَلِكَ، وَشَتَمَنِي وَلَمْ يَكُنْ لَهُ ذَلِكَ، أَمَّا تَكْذِيبُهُ إِيَّاىَ أَنْ يَقُولَ إِنِّي لَنْ أُعِيدَهُ كَمَا بَدَأْتُهُ، وَأَمَّا شَتْمُهُ إِيَّاىَ أَنْ يَقُولَ اتَّخَذَ اللَّهُ وَلَدًا، وَأَنَا الصَّمَدُ الَّذِي لَمْ أَلِدْ وَلَمْ أُولَدْ وَلَمْ يَكُنْ لِي كُفُؤًا أَحَدٌ ‏\"‏‏.‏ [quran sura=\"112\" aya_start=\"3\" aya_end=\"4\"]‏{‏لَمْ يَلِدْ وَلَمْ يُولَدْ * وَلَمْ يَكُنْ لَهُ كُفُؤًا أَحَدٌ‏}‏ كُفُؤًا وَكَفِيئًا وَكِفَاءً وَاحِدٌ‏.‏",
+      "source_hash_sha256": "51fde69e10e09fe447d9048ba55960f63e91b184114336a3cc98eede96f42fab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b4cc9efd-7875-4aa0-8f85-9d692ba5b653",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4976",
+      "reference": "Sahih al-Bukhari, hadith 4976, book 65, سورة ‏ {‏قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ‏} ‏",
+      "title": "سورة ‏ {‏قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَاصِمٍ، وَعَبْدَةَ، عَنْ زِرِّ بْنِ حُبَيْشٍ، قَالَ سَأَلْتُ أُبَىَّ بْنَ كَعْبٍ عَنِ الْمُعَوِّذَتَيْنِ، فَقَالَ سَأَلْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ قِيلَ لِي فَقُلْتُ فَنَحْنُ نَقُولُ كَمَا قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "f9d5b0450b75284a89d4601607d240c21a98cff254a93dfa90ce42b5c81eb29d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zirr ibn Ḥubaysh rapporte qu’il demanda à Ubayy ibn Kaʿb au sujet des deux sourates protectrices. Ubayy répondit : « J’ai interrogé le Messager d’Allah (paix et bénédictions sur lui), et il m’a dit : “Il m’a été ordonné de les réciter.” Nous disons donc comme le Messager d’Allah l’a dit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f5b014ba-68af-4f95-a04b-2d9fc76cb9b6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4977",
+      "reference": "Sahih al-Bukhari, hadith 4977, book 65, سورة {قُلْ أَعُوذُ بِرَبِّ النَّاسِ}",
+      "title": "سورة {قُلْ أَعُوذُ بِرَبِّ النَّاسِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا عَبْدَةُ بْنُ أَبِي لُبَابَةَ، عَنْ زِرِّ بْنِ حُبَيْشٍ، وَحَدَّثَنَا عَاصِمٌ، عَنْ زِرٍّ، قَالَ سَأَلْتُ أُبَىَّ بْنَ كَعْبٍ قُلْتُ يَا أَبَا الْمُنْذِرِ إِنَّ أَخَاكَ ابْنَ مَسْعُودٍ يَقُولُ كَذَا وَكَذَا‏.‏ فَقَالَ أُبَىٌّ سَأَلْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ لِي قِيلَ لِي‏.‏ فَقُلْتُ، قَالَ فَنَحْنُ نَقُولُ كَمَا قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "e4f562dfce9a63dc9cdfb71f5197769fed45a3775750f2d3d94d0ea6e57bb4a0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zirr rapporte qu’il demanda à Ubayy ibn Kaʿb : « Abû al-Mundhir, ton frère Ibn Masʿûd dit telle et telle chose. » Ubayy répondit : « J’ai interrogé le Messager d’Allah (paix et bénédictions sur lui), et il m’a dit : “Il m’a été ordonné de les réciter.” Nous disons donc comme le Messager d’Allah l’a dit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4eac9014-58ee-493a-ae53-e376db9e2587",
+      "url": "https://sunnah.com/bukhari:4972",
+      "reason": "Le rapport cite directement Quran 111:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-910, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "bc9c8fb9-923c-4754-92c4-ad2d5ba53dc5",
+      "url": "https://sunnah.com/bukhari:4973",
+      "reason": "Le rapport cite directement Quran 111:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-910, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "3cbff81a-b7b5-483a-9937-b02545ca2e4e",
+      "url": "https://sunnah.com/bukhari:4974",
+      "reason": "Le rapport cite directement Quran 112:1-4 (citation directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-910, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "06b07c34-0b7d-4ae2-bd4e-4021674e86fa",
+      "url": "https://sunnah.com/bukhari:4975",
+      "reason": "Le rapport cite directement Quran 112:3-4. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-910, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
