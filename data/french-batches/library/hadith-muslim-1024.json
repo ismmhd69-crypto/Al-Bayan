@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-1024",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:52:39.841Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "528174c1-cc31-4514-acef-50cb7c568c7a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2168b",
+      "reference": "Sahih Muslim, hadith 2168 b, book 39, باب اسْتِحْبَابِ السَّلاَمِ عَلَى الصِّبْيَانِ ‏‏",
+      "title": "باب اسْتِحْبَابِ السَّلاَمِ عَلَى الصِّبْيَانِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ إِسْمَاعِيلُ بْنُ سَالِمٍ، أَخْبَرَنَا هُشَيْمٌ، أَخْبَرَنَا سَيَّارٌ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "f002056ba6a0f50631b1596314ae8366ccdcda6fba7052098b0444ce9d215ac2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c2e7053e-1c26-4a86-858b-31c08ae1f14e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2168c",
+      "reference": "Sahih Muslim, hadith 2168 c, book 39, باب اسْتِحْبَابِ السَّلاَمِ عَلَى الصِّبْيَانِ ‏‏",
+      "title": "باب اسْتِحْبَابِ السَّلاَمِ عَلَى الصِّبْيَانِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَمْرُو بْنُ عَلِيٍّ، وَمُحَمَّدُ بْنُ الْوَلِيدِ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سَيَّارٍ، قَالَ كُنْتُ أَمْشِي مَعَ ثَابِتٍ الْبُنَانِيِّ فَمَرَّ بِصِبْيَانٍ فَسَلَّمَ عَلَيْهِمْ ‏.‏ وَحَدَّثَ ثَابِتٌ أَنَّهُ كَانَ يَمْشِي مَعَ أَنَسٍ فَمَرَّ بِصِبْيَانٍ فَسَلَّمَ عَلَيْهِمْ ‏.‏ وَحَدَّثَ أَنَسٌ أَنَّهُ كَانَ يَمْشِي مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَمَرَّ بِصِبْيَانٍ فَسَلَّمَ عَلَيْهِمْ ‏.‏",
+      "source_hash_sha256": "87f955b5ef900b6b6ba99c2e8e2c54fa210c0694bd0e06139114d44b40ff767e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Je marchais avec Thâbit al-Bunânî lorsqu’il passa près de jeunes garçons et les salua. Thâbit rapporta qu’il marchait un jour avec Anas, qui passa près de jeunes garçons et les salua. Anas raconta qu’il marchait avec le Messager d’Allah (ﷺ) lorsque celui-ci passa près de jeunes garçons et les salua.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a5465c60-6fd5-4439-a5b1-ff0e38f71c38",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2169a",
+      "reference": "Sahih Muslim, hadith 2169 a, book 39, باب جَوَازِ جَعْلِ الإِذْنِ رَفْعَ حِجَابٍ أَوْ نَحْوَهُ مِنَ الْعَلاَمَاتِ ‏‏",
+      "title": "باب جَوَازِ جَعْلِ الإِذْنِ رَفْعَ حِجَابٍ أَوْ نَحْوَهُ مِنَ الْعَلاَمَاتِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، كِلاَهُمَا عَنْ عَبْدِ الْوَاحِدِ، - وَاللَّفْظُ لِقُتَيْبَةَ - حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، حَدَّثَنَا الْحَسَنُ بْنُ عُبَيْدِ اللَّهِ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سُوَيْدٍ، قَالَ سَمِعْتُ عَبْدَ الرَّحْمَنِ بْنَ يَزِيدَ، قَالَ سَمِعْتُ ابْنَ مَسْعُودٍ، يَقُولُ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذْنُكَ عَلَىَّ أَنْ يُرْفَعَ الْحِجَابُ وَأَنْ تَسْتَمِعَ سِوَادِي حَتَّى أَنْهَاكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0ed73abd4d4ad476e2adc3ff4dea23150091cf31929b0bfba7c33e03931bc478",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah (ﷺ) m’a accordé la permission de lever le rideau lorsque je viens le voir et d’écouter ses conversations privées, jusqu’à ce qu’il me l’interdise.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "44b0564b-0a8a-4fad-9acb-fb868522370e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2169b",
+      "reference": "Sahih Muslim, hadith 2169 b, book 39, باب جَوَازِ جَعْلِ الإِذْنِ رَفْعَ حِجَابٍ أَوْ نَحْوَهُ مِنَ الْعَلاَمَاتِ ‏‏",
+      "title": "باب جَوَازِ جَعْلِ الإِذْنِ رَفْعَ حِجَابٍ أَوْ نَحْوَهُ مِنَ الْعَلاَمَاتِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، عَنِ الْحَسَنِ بْنِ عُبَيْدِ اللَّهِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "0ec91e5105ba561c683e388ce597d1089fc887ae68f6a8ef31dd4b9b48bc69a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6b9f67b8-7be6-4a51-8aae-acd32a607f56",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2170a",
+      "reference": "Sahih Muslim, hadith 2170 a, book 39, باب إِبَاحَةُ الْخُرُوجِ لِلنِّسَاءِ لِقَضَاءِ حَاجَةِ الإِنْسَانِ ‏‏",
+      "title": "باب إِبَاحَةُ الْخُرُوجِ لِلنِّسَاءِ لِقَضَاءِ حَاجَةِ الإِنْسَانِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ خَرَجَتْ سَوْدَةُ بَعْدَ مَا ضُرِبَ عَلَيْهَا الْحِجَابُ لِتَقْضِيَ حَاجَتَهَا وَكَانَتِ امْرَأَةً جَسِيمَةً تَفْرَعُ النِّسَاءَ جِسْمًا لاَ تَخْفَى عَلَى مَنْ يَعْرِفُهَا فَرَآهَا عُمَرُ بْنُ الْخَطَّابِ فَقَالَ يَا سَوْدَةُ وَاللَّهِ مَا تَخْفَيْنَ عَلَيْنَا فَانْظُرِي كَيْفَ تَخْرُجِينَ ‏.‏ قَالَتْ فَانْكَفَأَتْ رَاجِعَةً وَرَسُولُ اللَّهِ صلى الله عليه وسلم فِي بَيْتِي وَإِنَّهُ لَيَتَعَشَّى وَفِي يَدِهِ عَرْقٌ فَدَخَلَتْ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنِّي خَرَجْتُ فَقَالَ لِي عُمَرُ كَذَا وَكَذَا ‏.‏ قَالَتْ فَأُوحِيَ إِلَيْهِ ثُمَّ رُفِعَ عَنْهُ وَإِنَّ الْعَرْقَ فِي يَدِهِ مَا وَضَعَهُ فَقَالَ ‏\"‏ إِنَّهُ قَدْ أُذِنَ لَكُنَّ أَنْ تَخْرُجْنَ لِحَاجَتِكُنَّ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ أَبِي بَكْرٍ يَفْرَعُ النِّسَاءَ جِسْمُهَا ‏.‏ زَادَ أَبُو بَكْرٍ فِي حَدِيثِهِ فَقَالَ هِشَامٌ يَعْنِي الْبَرَازَ ‏.‏",
+      "source_hash_sha256": "42927103a679849122c673215a853b7e6ebf401de9d909e8d6e325aaaf7b7ade",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte que Sawda sortit après que le voile eut été prescrit afin de satisfaire un besoin. Elle était corpulente et plus grande que les autres femmes, de sorte qu’elle ne pouvait échapper à la reconnaissance de ceux qui la connaissaient. ‘Umar ibn al-Khattâb la vit et lui dit : « Sawda, par Allah, tu ne nous échappes pas. Fais donc attention à la façon dont tu sors. » Elle fit demi-tour et rentra. Le Messager d’Allah (ﷺ) était chez moi en train de dîner, un os de viande à la main. Elle entra et dit : « Ô Messager d’Allah, je suis sortie et ‘Umar m’a dit ceci et cela. » Une révélation lui fut alors communiquée, puis elle prit fin, tandis que l’os restait dans sa main et qu’il ne l’avait pas posé. Il dit : « Il vous est désormais permis de sortir pour répondre à vos besoins. » Une version précise que le besoin était de se rendre aux toilettes.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "acaefa5a-13d3-4ce3-8d3b-272fb5629517",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2170b",
+      "reference": "Sahih Muslim, hadith 2170 b, c, book 39, باب إِبَاحَةُ الْخُرُوجِ لِلنِّسَاءِ لِقَضَاءِ حَاجَةِ الإِنْسَانِ ‏‏",
+      "title": "باب إِبَاحَةُ الْخُرُوجِ لِلنِّسَاءِ لِقَضَاءِ حَاجَةِ الإِنْسَانِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا هِشَامٌ، بِهَذَا الإِسْنَادِ وَقَالَ وَكَانَتِ امْرَأَةً يَفْرَعُ النَّاسَ جِسْمُهَا ‏.‏ قَالَ وَإِنَّهُ لَيَتَعَشَّى ‏.‏ وَحَدَّثَنِيهِ سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "9a9d6c57c53cba7c7338bc8d93fe9540568aaac87ae88ab41ff3944d00df3705",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "528174c1-cc31-4514-acef-50cb7c568c7a",
+      "reason": "Cette entrée donne uniquement une chaîne de transmission et renvoie au récit précédent sur le salut adressé aux enfants. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "44b0564b-0a8a-4fad-9acb-fb868522370e",
+      "reason": "Cette entrée renvoie au récit précédent sans le reproduire et ne donne qu’une chaîne de transmission alternative. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "acaefa5a-13d3-4ce3-8d3b-272fb5629517",
+      "reason": "Cette entrée ne reproduit pas le récit complet ; elle indique seulement quelques différences de formulation entre des versions précédentes. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
