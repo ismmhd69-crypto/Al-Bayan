@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0151",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:02:58.518Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a80962c0-2b61-4166-ab7c-7e2a93829a2b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:356b",
+      "reference": "Sahih Muslim, hadith 356 b, book 3, باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "title": "باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "source_published": true,
+      "text_original": "قَالَ عَمْرٌو حَدَّثَنِي جَعْفَرُ بْنُ رَبِيعَةَ، عَنْ يَعْقُوبَ بْنِ الأَشَجِّ، عَنْ كُرَيْبٍ، مَوْلَى ابْنِ عَبَّاسٍ عَنْ مَيْمُونَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم بِذَلِكَ ‏.‏",
+      "source_hash_sha256": "98eb7aabee4235885a770e15461bfa575bdb8b7711dba7bab0d6b43c762a09c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "da618e3a-e280-400e-b020-41a274ed8cfa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:357",
+      "reference": "Sahih Muslim, hadith 357, book 3, باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "title": "باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "source_published": true,
+      "text_original": "قَالَ عَمْرٌو حَدَّثَنِي سَعِيدُ بْنُ أَبِي هِلاَلٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُبَيْدِ اللَّهِ بْنِ أَبِي رَافِعٍ، عَنْ أَبِي غَطَفَانَ، عَنْ أَبِي رَافِعٍ، قَالَ أَشْهَدُ لَكُنْتُ أَشْوِي لِرَسُولِ اللَّهِ صلى الله عليه وسلم بَطْنَ الشَّاةِ ثُمَّ صَلَّى وَلَمْ يَتَوَضَّأْ ‏.‏",
+      "source_hash_sha256": "853f03d251c2a79baf1d16cfe00842488d6ee72d7a0be81fec62880bcff6bc5b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amr a dit : Saïd ibn Abi Hilal m’a rapporté, d’après Abdullah ibn Ubaydullah ibn Abi Rafi, d’après Abu Ghatafan, d’après Abu Rafi, qui a dit : « J’atteste que je faisais griller la panse d’un mouton pour le Messager d’Allah ﷺ. Il pria ensuite sans faire les ablutions. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2a1a8a1d-c374-4c44-bbbc-4ab87714eb2c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:358a",
+      "reference": "Sahih Muslim, hadith 358 a, book 3, باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "title": "باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ عُقَيْلٍ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم شَرِبَ لَبَنًا ثُمَّ دَعَا بِمَاءٍ فَتَمَضْمَضَ وَقَالَ ‏\"‏ إِنَّ لَهُ دَسَمًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "aa9b060128062725d23169a988b992f95a22a7b53efb3053a33515e8a68cc04a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saïd nous a rapporté : Layth nous a rapporté, d’après Uqayl, d’après al-Zuhri, d’après Ubaydullah ibn Abdullah, d’après Ibn Abbas, que le Prophète ﷺ but du lait, demanda de l’eau, se rinça la bouche et dit : « Il contient du gras. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5ba315c-402b-44ec-9f97-e1c0e6205f15",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:358b",
+      "reference": "Sahih Muslim, hadith 358 b, book 3, باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "title": "باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَحْمَدُ بْنُ عِيسَى، حَدَّثَنَا ابْنُ وَهْبٍ، وَأَخْبَرَنِي عَمْرٌو، ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ الأَوْزَاعِيِّ، ح وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، حَدَّثَنِي يُونُسُ، كُلُّهُمْ عَنِ ابْنِ شِهَابٍ، بِإِسْنَادِ عُقَيْلٍ عَنِ الزُّهْرِيِّ، مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "07d0e2f92b20ca5298e4c176a1f8327394f6c644e018a32fb1d8abb9a0ad6a1a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4a2e2a71-e344-4e62-8356-f466a264967b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:359a",
+      "reference": "Sahih Muslim, hadith 359 a, book 3, باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "title": "باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، حَدَّثَنَا مُحَمَّدُ بْنُ عَمْرِو بْنِ حَلْحَلَةَ، عَنْ مُحَمَّدِ بْنِ عَمْرِو بْنِ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم جَمَعَ عَلَيْهِ ثِيَابَهُ ثُمَّ خَرَجَ إِلَى الصَّلاَةِ فَأُتِيَ بِهَدِيَّةٍ خُبْزٍ وَلَحْمٍ فَأَكَلَ ثَلاَثَ لُقَمٍ ثُمَّ صَلَّى بِالنَّاسِ وَمَا مَسَّ مَاءً ‏.‏",
+      "source_hash_sha256": "62e8be331aa55457485359ae788712613eef8b87ee74badba0f76472c90715c2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Hujr nous a rapporté : Ismaïl ibn Ja‘far nous a rapporté : Muhammad ibn Amr ibn Halhala nous a rapporté, d’après Muhammad ibn Amr ibn Ata, d’après Ibn Abbas, que le Messager d’Allah ﷺ remit ses vêtements, puis sortit pour la prière. On lui apporta en cadeau du pain et de la viande. Il en mangea trois bouchées, puis dirigea la prière des gens sans toucher à l’eau.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aedb8aad-b4bc-4e3c-ab02-475465a9458f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:359b",
+      "reference": "Sahih Muslim, hadith 359 b, book 3, باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "title": "باب نَسْخِ ‏\"‏ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ ‏\"‏ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الْوَلِيدِ بْنِ كَثِيرٍ، حَدَّثَنَا مُحَمَّدُ بْنُ عَمْرِو بْنِ عَطَاءٍ، قَالَ كُنْتُ مَعَ ابْنِ عَبَّاسٍ ‏.‏ وَسَاقَ الْحَدِيثَ بِمَعْنَى حَدِيثِ ابْنِ حَلْحَلَةَ وَفِيهِ أَنَّ ابْنَ عَبَّاسٍ، شَهِدَ ذَلِكَ مِنَ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَقَالَ صَلَّى وَلَمَ يَقُلْ بِالنَّاسِ ‏.‏",
+      "source_hash_sha256": "28e0337d3c43d89d0ef423dab89a15255a8807e91537569ba158e92b2ec6b2c4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a80962c0-2b61-4166-ab7c-7e2a93829a2b",
+      "reason": "La source arabe ne donne que la chaîne et renvoie au récit précédent, sans en reprendre le texte complet. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "e5ba315c-402b-44ec-9f97-e1c0e6205f15",
+      "reason": "La source arabe ne rapporte que des chaînes de transmission et renvoie au récit précédent sans reprendre son texte. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "aedb8aad-b4bc-4e3c-ab02-475465a9458f",
+      "reason": "La source arabe renvoie au récit précédent et ne donne que des différences concernant le témoin et la formulation finale. Garder la traduction en attente plutôt que de compléter à partir du récit voisin."
+    }
+  ]
+}

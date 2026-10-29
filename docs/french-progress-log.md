@@ -7876,3 +7876,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0150 saves six private French drafts about ablution after food touched by fire. The repeated narrator paths and the report that the Prophet ﷺ prayed after eating without performing ablutions are retained.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 628 Muslim drafts, 6,964 total hadith drafts, 7,665 remaining, and 293 Needs Mo items.
+
+### 2026-10-29: Muslim 356b–359b
+
+- FR-LIB-HAD-MUSLIM-0151 saves three private French drafts about ablution after eating. Muslim 356b, 358b, and 359b contain only a chain, a cross-reference, or wording variants without the complete report, so they remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 631 Muslim drafts, 6967 total hadith drafts, 7662 remaining, and 296 Needs Mo items.
