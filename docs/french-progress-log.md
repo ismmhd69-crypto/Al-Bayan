@@ -11814,3 +11814,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2040b-2040g
 
 - FR-LIB-HAD-MUSLIM-0963 contains six versions of the meal report already told in full. These entries only summarize or refer to that report and add selected variants, so they remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2040h-2042a
+
+- FR-LIB-HAD-MUSLIM-0964 saves three complete private French drafts about the tailor's meal, courgette, and a host's supplication. Three entries that summarize or refer to earlier reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
