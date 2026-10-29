@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1297",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:26:57.541Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "c1a4bac2-2c34-4d5d-bca5-95ef6561338e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2853a",
+      "reference": "Sahih Muslim, hadith 2853 a, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، حَدَّثَنِي مَعْبَدُ بْنُ خَالِدٍ، أَنَّهُ سَمِعَ حَارِثَةَ بْنَ وَهْبٍ، أَنَّهُ سَمِعَ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ أَلاَ أُخْبِرُكُمْ بِأَهْلِ الْجَنَّةِ ‏\"‏ ‏.‏ قَالُوا بَلَى ‏.‏ قَالَ صلى الله عليه وسلم ‏\"‏ كُلُّ ضَعِيفٍ مُتَضَعَّفٍ لَوْ أَقْسَمَ عَلَى اللَّهِ لأَبَرَّهُ ‏\"‏ ‏.‏ ثُمَّ قَالَ ‏\"‏ أَلاَ أُخْبِرُكُمْ بِأَهْلِ النَّارِ ‏\"‏ ‏.‏ قَالُوا بَلَى ‏.‏ قَالَ ‏\"‏ كُلُّ عُتُلٍّ جَوَّاظٍ مُسْتَكْبِرٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3218b5cd0cd8c9b3a134e63aaa50693f0cfce4d68e1de58548cfdd37f86e602a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUbayd Allāh ibn Muʿādh al-ʿAnbarī nous a rapporté : mon père nous a rapporté : Shuʿba m’a rapporté : Maʿbad ibn Khālid m’a rapporté qu’il avait entendu Ḥāritha ibn Wahb entendre le Prophète ﷺ dire : « Voulez-vous que je vous parle des habitants du Paradis ? Tout faible que l’on méprise, mais qui, s’il jurait par Allah, verrait Allah exaucer son serment. » Puis il dit : « Voulez-vous que je vous parle des habitants de l’Enfer ? Tout homme brutal, grossier et orgueilleux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ab2ee67a-f8c4-4ca6-b434-f24bf065f50b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2853b",
+      "reference": "Sahih Muslim, hadith 2853 b, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ بِمِثْلِهِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ أَلاَ أَدُلُّكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "84b61e80f5ac3b9bcd1677d83462895863ed044b0797aec9a2f32ead5ae3f260",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9e0db1c9-6c86-4860-8356-f7a09c6be8c5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2853c",
+      "reference": "Sahih Muslim, hadith 2853 c, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا سُفْيَانُ، عَنْ مَعْبَدِ بْنِ خَالِدٍ، قَالَ سَمِعْتُ حَارِثَةَ بْنَ وَهْبٍ الْخُزَاعِيَّ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَلاَ أُخْبِرُكُمْ بِأَهْلِ الْجَنَّةِ كُلُّ ضَعِيفٍ مُتَضَعَّفٍ لَوْ أَقْسَمَ عَلَى اللَّهِ لأَبَرَّهُ أَلاَ أُخْبِرُكُمْ بِأَهْلِ النَّارِ كُلُّ جَوَّاظٍ زَنِيمٍ مُتَكَبِّرٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "acc70b5483601a69762661e00ec77b1f9d3d1f237ab9eaa460535256d00fa406",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn ʿAbd Allāh ibn Numayr nous a rapporté : Wakīʿ nous a rapporté : Sufyān nous a rapporté, d’après Maʿbad ibn Khālid, qui a dit : J’ai entendu Ḥāritha ibn Wahb al-Khuzāʿī dire : Le Messager d’Allah ﷺ a dit : « Voulez-vous que je vous parle des habitants du Paradis ? Tout faible que l’on méprise, mais qui, s’il jurait par Allah, verrait Allah exaucer son serment. Voulez-vous que je vous parle des habitants de l’Enfer ? Tout homme brutal, vil et orgueilleux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c0b8fdf-031e-4f1c-8a37-5356adb3bf4a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2855",
+      "reference": "Sahih Muslim, hadith 2855, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا ابْنُ نُمَيْرٍ، عَنْ هِشَامِ بْنِ، عُرْوَةَ عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ زَمْعَةَ، قَالَ خَطَبَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَذَكَرَ النَّاقَةَ وَذَكَرَ الَّذِي عَقَرَهَا فَقَالَ ‏\"‏ إِذِ انْبَعَثَ أَشْقَاهَا انْبَعَثَ بِهَا رَجُلٌ عَزِيزٌ عَارِمٌ مَنِيعٌ فِي رَهْطِهِ مِثْلُ أَبِي زَمْعَةَ ‏\"‏ ‏.‏ ثُمَّ ذَكَرَ النِّسَاءَ فَوَعَظَ فِيهِنَّ ثُمَّ قَالَ ‏\"‏ إِلاَمَ يَجْلِدُ أَحَدُكُمُ امْرَأَتَهُ ‏\"‏ ‏.‏ فِي رِوَايَةِ أَبِي بَكْرٍ ‏\"‏ جَلْدَ الأَمَةِ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ أَبِي كُرَيْبٍ ‏\"‏ جَلْدَ الْعَبْدِ وَلَعَلَّهُ يُضَاجِعُهَا مِنْ آخِرِ يَوْمِهِ ‏\"‏ ‏.‏ ثُمَّ وَعَظَهُمْ فِي ضَحِكِهِمْ مِنَ الضَّرْطَةِ فَقَالَ ‏\"‏ إِلاَمَ يَضْحَكُ أَحَدُكُمْ مِمَّا يَفْعَلُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5fab36e6ca04e89594d76af7a0e79d1b9fd9a87e87302171c6ad3822e1eef16e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba et Abū Kurayb nous ont rapporté : Ibn Numayr nous a rapporté, d’après Hishām ibn ʿUrwa, d’après son père, d’après ʿAbd Allāh ibn Zamʿa, qui a dit : Le Messager d’Allah ﷺ prononça un sermon. Il évoqua la chamelle et celui qui l’avait mutilée, puis dit : « Lorsque le plus misérable d’entre eux se leva pour l’abattre, c’était un homme puissant, violent et respecté dans son clan, comme Abū Zamʿa. » Il évoqua ensuite les femmes et les exhorta à leur égard, puis dit : « Comment l’un de vous peut-il fouetter sa femme ? » Dans la version d’Abū Bakr : « comme on fouette une esclave ». Dans celle d’Abū Kurayb : « comme on fouette un serviteur, alors qu’il est possible qu’il partage sa couche avec elle à la fin de la journée ». Il les réprimanda ensuite pour leur rire lorsqu’ils entendent un pet et dit : « Pourquoi l’un de vous rit-il de ce qu’il fait lui-même ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "65042f74-ca16-48e9-a81d-72a47f367ce0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2856a",
+      "reference": "Sahih Muslim, hadith 2856 a, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ رَأَيْتُ عَمْرَو بْنَ لُحَىِّ بْنِ قَمَعَةَ بْنِ خِنْدِفَ أَبَا بَنِي كَعْبٍ هَؤُلاَءِ يَجُرُّ قُصْبَهُ فِي النَّارِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "040a6e2f6573e1eacfcdbccd85bca3706db436b9818f876f1872c9296c3b2eb7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Ḥarb m’a rapporté : Jarīr nous a rapporté, d’après Suhayl, d’après son père, d’après Abū Hurayra, qui a dit : Le Messager d’Allah ﷺ a dit : « J’ai vu ʿAmr ibn Luḥayy ibn Qamʿa ibn Khindif, l’ancêtre de ces Banū Kaʿb, traîner ses entrailles dans le Feu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "410f2575-8833-4ad8-afde-372782d9e9df",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2856b",
+      "reference": "Sahih Muslim, hadith 2856 b, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرٌو النَّاقِدُ، وَحَسَنٌ الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالَ عَبْدٌ أَخْبَرَنِي وَقَالَ، الآخَرَانِ حَدَّثَنَا يَعْقُوبُ، - وَهُوَ ابْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ - حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ، شِهَابٍ قَالَ سَمِعْتُ سَعِيدَ بْنَ الْمُسَيَّبِ، يَقُولُ إِنَّ الْبَحِيرَةَ الَّتِي يُمْنَعُ دَرُّهَا لِلطَّوَاغِيتِ فَلاَ يَحْلُبُهَا أَحَدٌ مِنَ النَّاسِ وَأَمَّا السَّائِبَةُ الَّتِي كَانُوا يُسَيِّبُونَهَا لآلِهَتِهِمْ فَلاَ يُحْمَلُ عَلَيْهَا شَىْءٌ ‏.‏ وَقَالَ ابْنُ الْمُسَيَّبِ قَالَ أَبُو هُرَيْرَةَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ رَأَيْتُ عَمْرَو بْنَ عَامِرٍ الْخُزَاعِيَّ يَجُرُّ قُصْبَهُ فِي النَّارِ وَكَانَ أَوَّلَ مَنْ سَيَّبَ السُّيُوبَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fbae3580557aecd61ca53b1b954193d67aeb08dbabad93626f179987e2dd0d24",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAmr al-Nāqid, al-Ḥasan al-Ḥulwānī et ʿAbd ibn Ḥumayd m’ont rapporté. ʿAbd a dit : Yaʿqūb m’a informé ; les deux autres ont dit : Yaʿqūb, fils d’Ibrāhīm ibn Saʿd, nous a rapporté : mon père nous a rapporté, d’après Ṣāliḥ, d’après Ibn Shihāb, qui a dit : J’ai entendu Saʿīd ibn al-Musayyab dire : « La baḥīra était une chamelle dont le lait était réservé aux idoles ; personne ne la trayait. Quant à la sāʾiba, c’était une bête que les gens laissaient libre pour leurs divinités et qu’ils n’utilisaient pas comme monture. » Ibn al-Musayyab dit qu’Abū Hurayra a rapporté que le Messager d’Allah ﷺ a dit : « J’ai vu ʿAmr ibn ʿĀmir al-Khuzāʿī traîner ses entrailles dans le Feu. Il fut le premier à consacrer les sāʾiba. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ab2ee67a-f8c4-4ca6-b434-f24bf065f50b",
+      "reason": "Cette entrée renvoie au récit précédent et ne donne qu’une variante introductive, sans reproduire son texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
