@@ -2356,3 +2356,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-488` saves five private French drafts for Bukhari 2833–2837. Bukhari 2832 quotes Quran 4:95, so the full report remains blank pending an approved, attributed French Quran translation.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran quotation hold. No database writes or publication occurred. Bukhari local drafts: 2,552 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 166. Total local hadith rows not drafted: 12,103, including held records.
+
+### 2026-10-29: Bukhari 2838–2843 source review
+
+- `FR-LIB-HAD-BUKHARI-489` saves six private French drafts covering the return from Tabûk, those prevented from joining an expedition, fasting in Allah’s path, spending, wealth and equipping a traveler. One longer source was deferred for separate review.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,558 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 166. Total local hadith rows not drafted: 12,097, including held records.
