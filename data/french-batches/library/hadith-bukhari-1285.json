@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1285",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:41:08.353Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "901d406b-1198-4ab0-bbb1-32cd594f960b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7027",
+      "reference": "Sahih al-Bukhari, hadith 7027, book 91, باب إِذَا أَعْطَى فَضْلَهُ غَيْرَهُ فِي النَّوْمِ",
+      "title": "باب إِذَا أَعْطَى فَضْلَهُ غَيْرَهُ فِي النَّوْمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي حَمْزَةُ بْنُ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ بَيْنَا أَنَا نَائِمٌ أُتِيتُ بِقَدَحِ لَبَنٍ فَشَرِبْتُ مِنْهُ، حَتَّى إِنِّي لأَرَى الرِّيَّ يَجْرِي، ثُمَّ أَعْطَيْتُ فَضْلَهُ عُمَرَ ‏\"‏‏.‏ قَالُوا فَمَا أَوَّلْتَهُ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ الْعِلْمُ ‏\"‏‏.‏",
+      "source_hash_sha256": "73d4b5988248a3fc6d83c41330866776f75158881f856c6378adf854c66c8984",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Bukayr nous a rapporté : al-Layth nous a rapporté, d’après ‘Uqayl, d’après Ibn Shihâb. Hamza ibn ‘Abd Allah ibn ‘Umar m’a rapporté que ‘Abd Allah ibn ‘Umar avait dit : J’ai entendu le Messager d’Allah ﷺ dire : « Pendant que je dormais, on m’apporta une coupe de lait. J’en bus jusqu’à sentir la satiété me gagner. Puis je donnai ce qu’il en restait à ‘Umar. » Ils demandèrent : « Comment l’as-tu interprété, Messager d’Allah ? » Il répondit : « Par le savoir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6c168c4d-d2f8-4285-84f4-4566f41e1eaf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7028",
+      "reference": "Sahih al-Bukhari, hadith 7028, 7029, book 91, باب الأَمْنِ وَذَهَابِ الرَّوْعِ فِي الْمَنَامِ",
+      "title": "باب الأَمْنِ وَذَهَابِ الرَّوْعِ فِي الْمَنَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، حَدَّثَنَا عَفَّانُ بْنُ مُسْلِمٍ، حَدَّثَنَا صَخْرُ بْنُ جُوَيْرِيَةَ، حَدَّثَنَا نَافِعٌ، أَنَّ ابْنَ عُمَرَ، قَالَ إِنَّ رِجَالاً مِنْ أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم كَانُوا يَرَوْنَ الرُّؤْيَا عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَيَقُصُّونَهَا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَيَقُولُ فِيهَا رَسُولُ اللَّهِ صلى الله عليه وسلم مَا شَاءَ اللَّهُ، وَأَنَا غُلاَمٌ حَدِيثُ السِّنِّ وَبَيْتِي الْمَسْجِدُ قَبْلَ أَنْ أَنْكِحَ، فَقُلْتُ فِي نَفْسِي لَوْ كَانَ فِيكَ خَيْرٌ لَرَأَيْتَ مِثْلَ مَا يَرَى هَؤُلاَءِ‏.‏ فَلَمَّا اضْطَجَعْتُ لَيْلَةً قُلْتُ اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ فِيَّ خَيْرًا فَأَرِنِي رُؤْيَا‏.‏ فَبَيْنَمَا أَنَا كَذَلِكَ إِذْ جَاءَنِي مَلَكَانِ فِي يَدِ كُلِّ وَاحِدٍ مِنْهُمَا مَقْمَعَةٌ مِنْ حَدِيدٍ، يُقْبِلاَ بِي إِلَى جَهَنَّمَ، وَأَنَا بَيْنَهُمَا أَدْعُو اللَّهَ اللَّهُمَّ أَعُوذُ بِكَ مِنْ جَهَنَّمَ‏.‏ ثُمَّ أُرَانِي لَقِيَنِي مَلَكٌ فِي يَدِهِ مِقْمَعَةٌ مِنْ حَدِيدٍ فَقَالَ لَنْ تُرَاعَ، نِعْمَ الرَّجُلُ أَنْتَ لَوْ تُكْثِرُ الصَّلاَةَ‏.‏ فَانْطَلَقُوا بِي حَتَّى وَقَفُوا بِي عَلَى شَفِيرِ جَهَنَّمَ فَإِذَا هِيَ مَطْوِيَّةٌ كَطَىِّ الْبِئْرِ، لَهُ قُرُونٌ كَقَرْنِ الْبِئْرِ، بَيْنَ كُلِّ قَرْنَيْنِ مَلَكٌ بِيَدِهِ مِقْمَعَةٌ مِنْ حَدِيدٍ، وَأَرَى فِيهَا رِجَالاً مُعَلَّقِينَ بِالسَّلاَسِلِ، رُءُوسُهُمْ أَسْفَلَهُمْ، عَرَفْتُ فِيهَا رِجَالاً مِنْ قُرَيْشٍ، فَانْصَرَفُوا بِي عَنْ ذَاتِ الْيَمِينِ‏.‏ فَقَصَصْتُهَا عَلَى حَفْصَةَ فَقَصَّتْهَا حَفْصَةُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ عَبْدَ اللَّهِ رَجُلٌ صَالِحٌ ‏\"‏‏.‏ فَقَالَ نَافِعٌ لَمْ يَزَلْ بَعْدَ ذَلِكَ يُكْثِرُ الصَّلاَةَ‏.‏",
+      "source_hash_sha256": "e0a451774cbcbd35f5e2354b606bd4b1e082f7c7bf70f3a1e82f8dca36921239",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allah ibn Sa‘îd m’a rapporté : ‘Affân ibn Muslim nous a rapporté : Sakhr ibn Juwayriya nous a rapporté : Nâfi‘ nous a rapporté qu’Ibn ‘Umar avait dit : À l’époque du Messager d’Allah ﷺ, des hommes parmi ses Compagnons faisaient des rêves et les lui racontaient ; il les interprétait comme Allah le voulait. J’étais un jeune garçon, et ma maison était la mosquée, avant que je me marie. Je me disais : « S’il y avait du bien en toi, tu verrais des rêves comme ces hommes. » Lorsque je me couchai une nuit, je dis : « Ô Allah, si Tu sais qu’il y a du bien en moi, montre-moi un rêve. » Tandis que j’étais ainsi, deux anges vinrent à moi, chacun tenant une massue de fer. Ils m’emmenaient vers l’Enfer, et je me trouvais entre eux, invoquant Allah : « Ô Allah, je cherche refuge auprès de Toi contre l’Enfer. » Puis un ange portant une massue de fer vint à ma rencontre et dit : « N’aie pas peur. Tu es un homme pieux ; si seulement tu priais davantage. » Ils m’emmenèrent jusqu’au bord de l’Enfer. Il était replié comme un puits, avec des montants semblables à ceux d’un puits. Entre chaque paire de montants se tenait un ange, une massue de fer à la main. J’y vis des hommes suspendus à des chaînes, la tête en bas. Je reconnus parmi eux des hommes de Quraysh. Puis ils m’emmenèrent vers la droite. Je racontai ce rêve à Hafsa, qui le rapporta au Messager d’Allah ﷺ. Il dit : « ‘Abd Allah est un homme pieux. » Nâfi‘ ajouta qu’après cela, ‘Abd Allah priait davantage.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b7ccd035-ad51-452a-b216-3bd209e9c9ee",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7030",
+      "reference": "Sahih al-Bukhari, hadith 7030, 7031, book 91, باب الأَخْذِ عَلَى الْيَمِينِ فِي النَّوْمِ",
+      "title": "باب الأَخْذِ عَلَى الْيَمِينِ فِي النَّوْمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا هِشَامُ بْنُ يُوسُفَ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنِ ابْنِ عُمَرَ، قَالَ كُنْتُ غُلاَمًا شَابًّا عَزَبًا فِي عَهْدِ النَّبِيِّ صلى الله عليه وسلم وَكُنْتُ أَبِيتُ فِي الْمَسْجِدِ، وَكَانَ مَنْ رَأَى مَنَامًا قَصَّهُ عَلَى النَّبِيِّ صلى الله عليه وسلم فَقُلْتُ اللَّهُمَّ إِنْ كَانَ لِي عِنْدَكَ خَيْرٌ فَأَرِنِي مَنَامًا يُعَبِّرُهُ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم، فَنِمْتُ فَرَأَيْتُ مَلَكَيْنِ أَتَيَانِي فَانْطَلَقَا بِي، فَلَقِيَهُمَا مَلَكٌ آخَرُ فَقَالَ لِي لَنْ تُرَاعَ، إِنَّكَ رَجُلٌ صَالِحٌ، فَانْطَلَقَا بِي إِلَى النَّارِ، فَإِذَا هِيَ مَطْوِيَّةٌ كَطَىِّ الْبِئْرِ، وَإِذَا فِيهَا نَاسٌ قَدْ عَرَفْتُ بَعْضَهُمْ، فَأَخَذَا بِي ذَاتَ الْيَمِينِ، فَلَمَّا أَصْبَحْتُ ذَكَرْتُ ذَلِكَ لِحَفْصَةَ‏.‏ فَزَعَمَتْ حَفْصَةُ أَنَّهَا قَصَّتْهَا عَلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ إِنَّ عَبْدَ اللَّهِ رَجُلٌ صَالِحٌ لَوْ كَانَ يُكْثِرُ الصَّلاَةَ مِنَ اللَّيْلِ ‏\"‏‏.‏ قَالَ الزُّهْرِيُّ وَكَانَ عَبْدُ اللَّهِ بَعْدَ ذَلِكَ يُكْثِرُ الصَّلاَةَ مِنَ اللَّيْلِ‏.‏",
+      "source_hash_sha256": "43108d05a2ffa6263832014f82138e6849876ebb4ec6199447959abe6f465eaf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Muhammad m’a rapporté : Hishâm ibn Yûsuf nous a rapporté : Ma‘mar nous a informés, d’après al-Zuhrî, d’après Sâlim, d’après Ibn ‘Umar, qui a dit : À l’époque du Prophète ﷺ, j’étais un jeune célibataire et je passais la nuit dans la mosquée. Ceux qui faisaient un rêve le racontaient au Prophète ﷺ. Je dis : « Ô Allah, si Tu me réserves du bien auprès de Toi, fais-moi voir un rêve que le Messager d’Allah ﷺ interprétera pour moi. » Je m’endormis et vis deux anges venir à moi et m’emmener. Un autre ange les rencontra et me dit : « N’aie pas peur ; tu es un homme pieux. » Ils m’emmenèrent vers le Feu. Il était replié comme un puits, et je vis des gens dont je reconnus certains. Ils me prirent vers la droite. Au matin, je racontai cela à Hafsa. Hafsa dit qu’elle le rapporta au Prophète ﷺ, qui dit : « ‘Abd Allah est un homme pieux ; s’il priait davantage la nuit ! » Al-Zuhrî ajouta qu’après cela, ‘Abd Allah priait davantage la nuit.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9598f4c1-e348-4280-934b-43facd080041",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7032",
+      "reference": "Sahih al-Bukhari, hadith 7032, book 91, باب الْقَدَحِ فِي النَّوْمِ",
+      "title": "باب الْقَدَحِ فِي النَّوْمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ حَمْزَةَ بْنِ عَبْدِ اللَّهِ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ بَيْنَا أَنَا نَائِمٌ أُتِيتُ بِقَدَحِ لَبَنٍ فَشَرِبْتُ مِنْهُ، ثُمَّ أَعْطَيْتُ فَضْلِي عُمَرَ بْنَ الْخَطَّابِ ‏\"‏‏.‏ قَالُوا فَمَا أَوَّلْتَهُ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ الْعِلْمَ ‏\"‏‏.‏",
+      "source_hash_sha256": "05eb8708febe259b4ec771cea3dfe5b56c91756cee3b9bfa157c50302a8693c1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : al-Layth nous a rapporté, d’après ‘Uqayl, d’après Ibn Shihâb, d’après Hamza ibn ‘Abd Allah, d’après ‘Abd Allah ibn ‘Umar — qu’Allah les agrée tous deux —, qui a dit : J’ai entendu le Messager d’Allah ﷺ dire : « Pendant que je dormais, on m’apporta une coupe de lait. J’en bus, puis je donnai ce qui en restait à ‘Umar ibn al-Khattâb. » Ils demandèrent : « Comment l’as-tu interprété, Messager d’Allah ? » Il répondit : « Par le savoir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f5473ccd-ddb8-4c3b-8b98-15d0a6d61c78",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7033",
+      "reference": "Sahih al-Bukhari, hadith 7033, book 91, باب إِذَا طَارَ الشَّىْءُ فِي الْمَنَامِ",
+      "title": "باب إِذَا طَارَ الشَّىْءُ فِي الْمَنَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سَعِيدُ بْنُ مُحَمَّدٍ، حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ عُبَيْدَةَ بْنِ نَشِيطٍ، قَالَ قَالَ عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ سَأَلْتُ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ ـ رضى الله عنهما ـ عَنْ رُؤْيَا، رَسُولِ اللَّهِ صلى الله عليه وسلم الَّتِي ذَكَرَ‏.‏",
+      "source_hash_sha256": "2243826bda5d825da5ccf7fe662b2c1bdfa257cd95a24ed1abdcb0b27fc00b3c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "The source ends after introducing Ibn ‘Abbâs’s answer about the dream reported from the Messenger of Allah; the report itself is absent. Keep this record blank rather than filling it from a neighboring source."
+    },
+    {
+      "source_id": "bf451465-6f56-4e18-9c71-254d12750819",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7034",
+      "reference": "Sahih al-Bukhari, hadith 7034, book 91, باب إِذَا طَارَ الشَّىْءُ فِي الْمَنَامِ",
+      "title": "باب إِذَا طَارَ الشَّىْءُ فِي الْمَنَامِ",
+      "source_published": true,
+      "text_original": "فَقَالَ ابْنُ عَبَّاسٍ ذُكِرَ لِي أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ بَيْنَا أَنَا نَائِمٌ رَأَيْتُ أَنَّهُ وُضِعَ فِي يَدَىَّ سِوَارَانِ مِنْ ذَهَبٍ، فَفُظِعْتُهُمَا وَكَرِهْتُهُمَا، فَأُذِنَ لِي، فَنَفَخْتُهُمَا فَطَارَا، فَأَوَّلْتُهُمَا كَذَّابَيْنِ يَخْرُجَانِ ‏\"‏‏.‏ فَقَالَ عُبَيْدُ اللَّهِ أَحَدُهُمَا الْعَنْسِيُّ الَّذِي قَتَلَهُ فَيْرُوزٌ بِالْيَمَنِ، وَالآخَرُ مُسَيْلِمَةُ‏.‏",
+      "source_hash_sha256": "00a09f3ae0640587476af96a1eb928e8604f80d1a1166dc018c6df5284e13d53",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ‘Abbâs dit : On m’a rapporté que le Messager d’Allah ﷺ avait dit : « Pendant que je dormais, je vis qu’on avait placé deux bracelets d’or dans mes mains. Cela me causa de l’effroi et je les détestai. On m’autorisa à souffler dessus ; je soufflai et ils s’envolèrent. J’interprétai ces deux bracelets comme deux imposteurs qui allaient apparaître. » ‘Ubayd Allah dit : « L’un d’eux était al-‘Ansî, que Fayrûz tua au Yémen ; l’autre était Musaylima. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f5473ccd-ddb8-4c3b-8b98-15d0a6d61c78",
+      "reason": "The source ends after introducing Ibn ‘Abbâs’s answer about the dream reported from the Messenger of Allah; the report itself is absent. Keep this record blank rather than filling it from a neighboring source."
+    }
+  ]
+}

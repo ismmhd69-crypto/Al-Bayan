@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5907,
+    "hadithBukhariDrafted": 5912,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5907,
+    "hadithLocalDrafted": 5912,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8722,
-    "hadithNeedsMo": 844,
+    "hadithLocalRemaining": 8717,
+    "hadithNeedsMo": 845,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -27147,6 +27147,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1285",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1285.json",
+      "sourceIds": [
+        "901d406b-1198-4ab0-bbb1-32cd594f960b",
+        "6c168c4d-d2f8-4285-84f4-4566f41e1eaf",
+        "b7ccd035-ad51-452a-b216-3bd209e9c9ee",
+        "9598f4c1-e348-4280-934b-43facd080041",
+        "f5473ccd-ddb8-4c3b-8b98-15d0a6d61c78",
+        "bf451465-6f56-4e18-9c71-254d12750819"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one fragment held blank rather than filled from the adjacent report. All source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -30599,11 +30620,17 @@
       "scope": "Sahih al-Bukhari 6982: 3,392-character report with direct quotations of Quran 96:1–3 and 6:96",
       "status": "blocked",
       "reason": "This 3,392-character report directly quotes Quran 96:1–3 and 6:96. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7033-INCOMPLETE-REPORT",
+      "scope": "Sahih al-Bukhari 7033: source introduces Ibn Abbas’s answer about a dream but contains no answer or dream report",
+      "status": "blocked",
+      "reason": "The source ends after introducing Ibn ‘Abbâs’s answer about the dream reported from the Messenger of Allah; the report itself is absent. Keep this record blank rather than filling it from a neighboring source."
     }
   ],
-  "hadithBukhariDrafted": 5907,
-  "hadithLocalDrafted": 5907,
-  "hadithLocalRemaining": 8722,
+  "hadithBukhariDrafted": 5912,
+  "hadithLocalDrafted": 5912,
+  "hadithLocalRemaining": 8717,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -31198,6 +31225,12 @@
       "scope": "Sahih al-Bukhari 6982: 3,392-character report with direct quotations of Quran 96:1–3 and 6:96",
       "status": "blocked",
       "reason": "This 3,392-character report directly quotes Quran 96:1–3 and 6:96. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7033-INCOMPLETE-REPORT",
+      "scope": "Sahih al-Bukhari 7033: source introduces Ibn Abbas’s answer about a dream but contains no answer or dream report",
+      "status": "blocked",
+      "reason": "The source ends after introducing Ibn ‘Abbâs’s answer about the dream reported from the Messenger of Allah; the report itself is absent. Keep this record blank rather than filling it from a neighboring source."
     }
   ]
 }
