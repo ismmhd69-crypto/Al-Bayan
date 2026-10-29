@@ -1876,3 +1876,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-392` saves the full private French draft for Bukhari 2291, a source too long for a multi-item export. It preserves the loan, the borrower’s deposit in the wooden log, and the lender’s response.
 - The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,083 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 120. Total local hadith rows not drafted: 12,546, including held records.
+
+### 2026-10-29: Bukhari 2292–2296 source review
+
+- `FR-LIB-HAD-BUKHARI-393` saves four private French drafts for Bukhari 2293–2296. Bukhari 2292 directly quotes Quran 4:33; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
+- The five-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,087 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 121. Total local hadith rows not drafted: 12,542, including held records.
