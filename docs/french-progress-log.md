@@ -2761,3 +2761,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-569` saves six private French drafts about sleep, prayer, and protection from Satan. The report mentioning the Verse of the Throne does not reproduce Quran wording.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,948 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 187. Total local hadith rows not drafted: 11,707, including held records.
+
+### 2026-10-29: Bukhari 3276–3281
+
+- `FR-LIB-HAD-BUKHARI-570` saves five private French drafts about Satan and household practices. Bukhari 3278 remains entirely blank because it directly quotes Quran 18:62–63; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,953 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 188. Total local hadith rows not drafted: 11,702, including held records.
