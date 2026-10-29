@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 5070,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 9559,
-    "hadithNeedsMo": 761,
+    "hadithNeedsMo": 762,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23453,6 +23453,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1100",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1100.json",
+      "sourceIds": [
+        "09c19a9b-c78f-4438-b2ee-0f24f369fd57"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "The single long, complex source was held blank for review due uncertain technical wording; no database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -26491,6 +26507,12 @@
       "scope": "Sahih al-Bukhari 6051: prayer narrative ends mid-sequence",
       "status": "blocked",
       "reason": "The exported text ends after the Prophet ﷺ rises from the second prostration, without completing the report. Keep the entire item blank in FR-LIB-HAD-BUKHARI-1097 until a complete source is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6063-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 6063: long report with uncertain technical wording",
+      "status": "blocked",
+      "reason": "The report is unusually long and includes uncertain technical terms, including الرفوفة and تنشرت. Keep the entire item blank in FR-LIB-HAD-BUKHARI-1100 rather than infer their meaning."
     }
   ],
   "hadithBukhariDrafted": 4523,
@@ -26598,6 +26620,12 @@
       "scope": "Sahih al-Bukhari 6051: prayer narrative ends mid-sequence",
       "status": "blocked",
       "reason": "The exported text ends after the Prophet ﷺ rises from the second prostration, without completing the report. Keep the entire item blank in FR-LIB-HAD-BUKHARI-1097 until a complete source is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6063-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 6063: long report with uncertain technical wording",
+      "status": "blocked",
+      "reason": "The report is unusually long and includes uncertain technical terms, including الرفوفة and تنشرت. Keep the entire item blank in FR-LIB-HAD-BUKHARI-1100 rather than infer their meaning."
     }
   ]
 }

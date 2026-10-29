@@ -5641,3 +5641,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1099 saves three private French drafts about praise and the izâr. Complex Bukhari 6063 was separated for individual handling.
 - All three records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,070 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 761. Total local hadith rows not drafted: 9,559, including held records.
+
+### 2026-10-29: Bukhari 6063
+
+- FR-LIB-HAD-BUKHARI-1100 holds the long report blank because technical terms in the Arabic source are uncertain. It was handled as a one-record batch.
+- The focused validator passed the one-item private/held record. No database writes or publication occurred. Bukhari local drafts remain 5,070 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 762. Total local hadith rows not drafted: 9,559, including held records.
