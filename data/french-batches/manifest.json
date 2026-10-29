@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5429,
+    "hadithBukhariDrafted": 5434,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5429,
+    "hadithLocalDrafted": 5434,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9200,
-    "hadithNeedsMo": 782,
+    "hadithLocalRemaining": 9195,
+    "hadithNeedsMo": 783,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25138,6 +25138,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1187",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1187.json",
+      "sourceIds": [
+        "559aa531-5650-4e7e-9cd6-7c9f133031c6",
+        "9f450bc0-712e-41f4-ace2-d7d3d6ebc091",
+        "1f9a50a7-b1e5-426f-8db7-eb96c1a33258",
+        "f9cafe26-9680-42fc-bf9e-bdb47d636354",
+        "8502ca36-d62f-4b7a-8260-359a60ab8492",
+        "bc0a3a7b-c9a4-474f-bc05-540e772340f6"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6453 remains blank because the phrase ما له خلط is unclear. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -28224,11 +28245,17 @@
       "scope": "Sahih al-Bukhari 6440: direct quotation of Quran 102:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 102:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6453-UNCLEAR-PHRASE",
+      "scope": "Sahih al-Bukhari 6453: unclear phrase ما له خلط in the description of the stool",
+      "status": "blocked",
+      "reason": "The phrase ما له خلط is unclear in this context. Keep the complete French translation blank until its meaning is reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 5429,
-  "hadithLocalDrafted": 5429,
-  "hadithLocalRemaining": 9200,
+  "hadithBukhariDrafted": 5434,
+  "hadithLocalDrafted": 5434,
+  "hadithLocalRemaining": 9195,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28457,6 +28484,12 @@
       "scope": "Sahih al-Bukhari 6440: direct quotation of Quran 102:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 102:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6453-UNCLEAR-PHRASE",
+      "scope": "Sahih al-Bukhari 6453: unclear phrase ما له خلط in the description of the stool",
+      "status": "blocked",
+      "reason": "The phrase ما له خلط is unclear in this context. Keep the complete French translation blank until its meaning is reliably clarified."
     }
   ]
 }

@@ -6047,3 +6047,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1186 saves one long private French draft, kept by itself because its Arabic source exceeds 2,000 characters. The report mentions an unspecified Quran verse without quoting it. No database writes or publication occurred.
 - The one-record batch passed the focused validator. Bukhari local drafts: 5,429 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 782. Total local hadith rows not drafted: 9,200, including held records.
+
+### 2026-10-29: Bukhari 6453–6458 — one held
+
+- FR-LIB-HAD-BUKHARI-1187 saves five private French drafts. Bukhari 6453 remains blank because the phrase ما له خلط is unclear in context. No database writes or publication occurred.
+- The five drafts passed the focused validator. Bukhari local drafts: 5,434 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 783. Total local hadith rows not drafted: 9,195, including held records.
