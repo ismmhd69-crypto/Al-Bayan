@@ -9106,3 +9106,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0395 saves three private French drafts recounting reports about lamentation during ‘Umar’s final illness.
 - All three source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1560 Muslim drafts, 7896 total hadith drafts, 6733 remaining, and 736 Needs Mo items.
+
+### 2026-10-29: Muslim 928a (isolated long source; Quran quotation held)
+
+- FR-LIB-HAD-MUSLIM-0396 holds the full French text blank because the source directly quotes Quran passages. Its Arabic source is 2297 characters, so it was kept alone in the batch.
+- The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts remain at 1560 Muslim drafts and 7896 total hadith drafts; 6733 remain and 737 items are held for Mo.

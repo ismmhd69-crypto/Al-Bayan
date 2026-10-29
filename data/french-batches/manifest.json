@@ -37201,6 +37201,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0396",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0396.json",
+      "sourceIds": [
+        "ecd5def9-67f5-48b9-bbdd-c3b4c754d7e8"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; direct Quran quotations held blank; source exceeds 2000 Arabic characters and is isolated",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44311,5 +44327,5 @@
   "hadithMuslimDrafted": 1560,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 736
+  "hadithNeedsMo": 737
 }
