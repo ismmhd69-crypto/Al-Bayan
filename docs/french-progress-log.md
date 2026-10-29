@@ -7931,3 +7931,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0161 saves four private French drafts about the call to prayer and distraction during prayer. Muslim 389e gives only an ending variant, and 389g gives only a chain and cross-reference; both remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 679 Muslim drafts, 7,015 total hadith drafts, 7,614 remaining, and 308 Needs Mo items.
+
+### 2026-10-29: Muslim 389h–391a
+
+- FR-LIB-HAD-MUSLIM-0162 saves five private French drafts about distraction during prayer and raising the hands in prayer. Muslim 389i repeats only part of the previous report and adds wording without reproducing the full text, so it remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 684 Muslim drafts, 7,020 total hadith drafts, 7,609 remaining, and 309 Needs Mo items.
