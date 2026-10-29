@@ -41803,6 +41803,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0620",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0620.json",
+      "sourceIds": [
+        "11fc26e2-20b2-4bb5-a329-fcc2459300a6",
+        "e3d9b39b-a2ec-4049-8d4c-9840b90a0cdf",
+        "a08c1e84-c4a6-4b8a-8eed-a37e0cc02f97",
+        "0510334e-3e83-4b3f-a8ca-650378c8ce52",
+        "f192a876-cc5f-4e7c-a966-29a0591c47e1",
+        "d7d0a0ae-bc05-4ec6-be6f-12cc7b6c1659"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, two incomplete variants and one Quran quotation held fully blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46110,8 +46131,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8798,
-  "hadithLocalRemaining": 5831,
+  "hadithLocalDrafted": 8801,
+  "hadithLocalRemaining": 5828,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50033,10 +50054,25 @@
       "source_id": "8543d664-fb05-4987-8d08-b2fd7ad9481d",
       "reason": "Cette entrée ne reproduit pas le récit et ne fournit que la chaîne de transmission ou un renvoi au précédent (« بِهَذَا الإِسْنَادِ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "a08c1e84-c4a6-4b8a-8eed-a37e0cc02f97",
+      "reason": "Cette entrée ne reproduit pas le récit complet et ne donne qu’une variante de formulation ou renvoie à la version précédente. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f192a876-cc5f-4e7c-a966-29a0591c47e1",
+      "reason": "Cette source contient une citation coranique (« الْمَسْجِدِ الَّذِي أُسِّسَ عَلَى التَّقْوَى »). Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d7d0a0ae-bc05-4ec6-be6f-12cc7b6c1659",
+      "reason": "Cette entrée ne reproduit pas le récit complet et ne donne qu’une variante de formulation ou renvoie à la version précédente. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2462,
+  "hadithMuslimDrafted": 2465,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1077
+  "hadithNeedsMo": 1080
 }

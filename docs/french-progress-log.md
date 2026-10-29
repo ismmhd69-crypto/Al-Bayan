@@ -10226,3 +10226,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0619 saves two private French drafts about the merit of prayer in the Prophet’s mosque. Muslim 1394e and 1395b–d contain only a chain or references to prior wording and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1396–1398b
+
+- FR-LIB-HAD-MUSLIM-0620 saves three private French drafts about prayer at the Prophet’s mosque and the three mosques to which journeys are directed. Muslim 1397b and 1398b provide only variant wording or a cross-reference and remain blank under Needs Mo. Muslim 1398a contains a Quranic phrase and remains entirely blank until an approved French Quran translation and rights are confirmed.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0620",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:30:29.043Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "11fc26e2-20b2-4bb5-a329-fcc2459300a6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1396",
+      "reference": "Sahih Muslim, hadith 1396, book 15, باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "title": "باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَمُحَمَّدُ بْنُ رُمْحٍ، جَمِيعًا عَنِ اللَّيْثِ بْنِ سَعْدٍ، - قَالَ قُتَيْبَةُ حَدَّثَنَا لَيْثٌ، - عَنْ نَافِعٍ، عَنْ إِبْرَاهِيمَ بْنِ عَبْدِ اللَّهِ بْنِ مَعْبَدٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّهُ قَالَ إِنَّ امْرَأَةً اشْتَكَتْ شَكْوَى فَقَالَتْ إِنْ شَفَانِي اللَّهُ لأَخْرُجَنَّ فَلأُصَلِّيَنَّ فِي بَيْتِ الْمَقْدِسِ ‏.‏ فَبَرَأَتْ ثُمَّ تَجَهَّزَتْ تُرِيدُ الْخُرُوجَ فَجَاءَتْ مَيْمُونَةَ زَوْجَ النَّبِيِّ صلى الله عليه وسلم تُسَلِّمُ عَلَيْهَا فَأَخْبَرَتْهَا ذَلِكَ فَقَالَتِ اجْلِسِي فَكُلِي مَا صَنَعْتِ وَصَلِّي فِي مَسْجِدِ الرَّسُولِ صلى الله عليه وسلم فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ صَلاَةٌ فِيهِ أَفْضَلُ مِنْ أَلْفِ صَلاَةٍ فِيمَا سِوَاهُ مِنَ الْمَسَاجِدِ إِلاَّ مَسْجِدَ الْكَعْبَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "60419f7024b07c7ae26bd0e9cd994bf2e21fd5a147c6bfb67afb837fc0b2fe3e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abbas rapporte qu’une femme tomba malade et dit : « Si Allah me guérit, je partirai prier à Jérusalem. » Elle guérit, puis se prépara à partir. Elle vint saluer Maymuna, l’épouse du Prophète ﷺ, et lui raconta son projet. Maymuna lui dit : « Assieds-toi, mange ce que tu as préparé et prie dans la mosquée du Messager d’Allah ﷺ. J’ai entendu le Messager d’Allah ﷺ dire : “Une prière dans cette mosquée vaut mieux que mille prières dans toute autre mosquée, à l’exception de la Mosquée de la Kaaba.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e3d9b39b-a2ec-4049-8d4c-9840b90a0cdf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1397a",
+      "reference": "Sahih Muslim, hadith 1397 a, book 15, باب لاَ تُشَدُّ الرِّحَالُ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ ‏‏",
+      "title": "باب لاَ تُشَدُّ الرِّحَالُ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، - قَالَ عَمْرٌو حَدَّثَنَا سُفْيَانُ، - عَنِ الزُّهْرِيِّ، عَنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، يَبْلُغُ بِهِ النَّبِيَّ صلى الله عليه وسلم ‏\"‏ لاَ تُشَدُّ الرِّحَالُ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ مَسْجِدِي هَذَا وَمَسْجِدِ الْحَرَامِ وَمَسْجِدِ الأَقْصَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c530e1138b7450b324e73aeb4850536a91b5dd715a28e49acad45030af18b129",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Prophète ﷺ a dit : « On ne prépare un voyage qu’en direction de trois mosquées : cette mosquée qui est la mienne, la Mosquée sacrée et la mosquée al-Aqsa. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a08c1e84-c4a6-4b8a-8eed-a37e0cc02f97",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1397b",
+      "reference": "Sahih Muslim, hadith 1397 b, book 15, باب لاَ تُشَدُّ الرِّحَالُ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ ‏‏",
+      "title": "باب لاَ تُشَدُّ الرِّحَالُ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الأَعْلَى، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ تُشَدُّ الرِّحَالُ إِلَى ثَلاَثَةِ مَسَاجِدَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7e96a48f98d75d7c4c2c7c875776e656a3a6872eb3eb7134066ba4ae9765ba9f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0510334e-3e83-4b3f-a8ca-650378c8ce52",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1397c",
+      "reference": "Sahih Muslim, hadith 1397 c, book 15, باب لاَ تُشَدُّ الرِّحَالُ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ ‏‏",
+      "title": "باب لاَ تُشَدُّ الرِّحَالُ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، حَدَّثَنِي عَبْدُ الْحَمِيدِ بْنُ جَعْفَرٍ، أَنَّ عِمْرَانَ بْنَ أَبِي أَنَسٍ، حَدَّثَهُ أَنَّ سَلْمَانَ الأَغَرَّ حَدَّثَهُ أَنَّهُ، سَمِعَ أَبَا هُرَيْرَةَ، يُخْبِرُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّمَا يُسَافَرُ إِلَى ثَلاَثَةِ مَسَاجِدَ مَسْجِدِ الْكَعْبَةِ وَمَسْجِدِي وَمَسْجِدِ إِيلِيَاءَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "05e74fe8c0290b3a39c1d6db11778767b6195e89b07af36ade824fb56d61f120",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Le voyage ne se fait qu’en direction de trois mosquées : la Mosquée de la Kaaba, ma mosquée et la mosquée d’Iliya. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f192a876-cc5f-4e7c-a966-29a0591c47e1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1398a",
+      "reference": "Sahih Muslim, hadith 1398 a, book 15, باب بَيَانِ أَنَّ الْمَسْجِدَ الَّذِي أُسِّسَ عَلَى التَّقْوَى هُوَ مَسْجِدُ النَّبِيِّ صلى الله عليه وسلم بِالْمَدِينَةِ",
+      "title": "باب بَيَانِ أَنَّ الْمَسْجِدَ الَّذِي أُسِّسَ عَلَى التَّقْوَى هُوَ مَسْجِدُ النَّبِيِّ صلى الله عليه وسلم بِالْمَدِينَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ حُمَيْدٍ الْخَرَّاطِ، قَالَ سَمِعْتُ أَبَا سَلَمَةَ بْنَ عَبْدِ الرَّحْمَنِ، قَالَ مَرَّ بِي عَبْدُ الرَّحْمَنِ بْنُ أَبِي سَعِيدٍ الْخُدْرِيِّ قَالَ قُلْتُ لَهُ كَيْفَ سَمِعْتَ أَبَاكَ يَذْكُرُ فِي الْمَسْجِدِ الَّذِي أُسِّسَ عَلَى التَّقْوَى قَالَ قَالَ أَبِي دَخَلْتُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فِي بَيْتِ بَعْضِ نِسَائِهِ فَقُلْتُ يَا رَسُولَ اللَّهِ أَىُّ الْمَسْجِدَيْنِ الَّذِي أُسِّسَ عَلَى التَّقْوَى قَالَ فَأَخَذَ كَفًّا مِنْ حَصْبَاءَ فَضَرَبَ بِهِ الأَرْضَ ثُمَّ قَالَ ‏\"‏ هُوَ مَسْجِدُكُمْ هَذَا ‏\"‏ ‏.‏ - لِمَسْجِدِ الْمَدِينَةِ - قَالَ فَقُلْتُ أَشْهَدُ أَنِّي سَمِعْتُ أَبَاكَ هَكَذَا يَذْكُرُهُ ‏.",
+      "source_hash_sha256": "0a1986af85260564f771e7a8e08718b3e4a251c3e8596c9b4a7d347962205435",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d7d0a0ae-bc05-4ec6-be6f-12cc7b6c1659",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1398b",
+      "reference": "Sahih Muslim, hadith 1398 b, book 15, باب بَيَانِ أَنَّ الْمَسْجِدَ الَّذِي أُسِّسَ عَلَى التَّقْوَى هُوَ مَسْجِدُ النَّبِيِّ صلى الله عليه وسلم بِالْمَدِينَةِ",
+      "title": "باب بَيَانِ أَنَّ الْمَسْجِدَ الَّذِي أُسِّسَ عَلَى التَّقْوَى هُوَ مَسْجِدُ النَّبِيِّ صلى الله عليه وسلم بِالْمَدِينَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَسَعِيدُ بْنُ عَمْرٍو الأَشْعَثِيُّ، قَالَ سَعِيدٌ أَخْبَرَنَا وَقَالَ أَبُو بَكْرٍ، حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، عَنْ حُمَيْدٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي سَعِيدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ وَلَمْ يَذْكُرْ عَبْدَ الرَّحْمَنِ بْنَ أَبِي سَعِيدٍ فِي الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "b4781547312942dd936484feb8005b41af6fd0d09540bc85be34e638a5a39e42",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a08c1e84-c4a6-4b8a-8eed-a37e0cc02f97",
+      "reason": "Cette entrée ne reproduit pas le récit complet et ne donne qu’une variante de formulation ou renvoie à la version précédente. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "f192a876-cc5f-4e7c-a966-29a0591c47e1",
+      "reason": "Cette source contient une citation coranique (« الْمَسْجِدِ الَّذِي أُسِّسَ عَلَى التَّقْوَى »). Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits."
+    },
+    {
+      "source_id": "d7d0a0ae-bc05-4ec6-be6f-12cc7b6c1659",
+      "reason": "Cette entrée ne reproduit pas le récit complet et ne donne qu’une variante de formulation ou renvoie à la version précédente. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
