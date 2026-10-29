@@ -1226,3 +1226,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-258` saves one private French draft for Bukhari 1481. The long report was handled alone and preserves the full harvest-estimation account, the storm warning, the travel details, and the variants concerning Uhud, Medina, and the Ansar districts. No Needs Mo item was identified.
 - The single-record batch passed the focused validator for the Arabic hash, ID, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,352 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,277, including held records.
+
+### 2026-10-29: Bukhari 1483–1488 source review
+
+- `FR-LIB-HAD-BUKHARI-259` saves six private French drafts for Bukhari 1483–1488. They preserve the irrigation-based rates and Bukhari’s note on clarified transmissions, the prohibition on sale of unripe fruit, and the report that the Prophet’s family did not eat charity. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,358 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,271, including held records.
