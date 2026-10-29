@@ -720,3 +720,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-135` saves six private French drafts for Bukhari 748–753. The translations retain the eclipse vision, the repeated warning against looking upward during prayer, the explanation of turning one's head, the distinction between a patterned garment and a plain one, and the later transmission note.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 702 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 33. Total local hadith rows not drafted: 13,927, including held records.
+### 2026-10-29: Bukhari 754–759 source review
+
+- `FR-LIB-HAD-BUKHARI-136` saves six private French drafts for Bukhari 754–759. They retain the account of the Prophet ﷺ signaling the congregation to finish prayer, the full sequence of the inquiry into Sa‘d’s leadership and the accusation against him, and the prayer instructions in the report about the man told to repeat his prayer.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 708 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 33. Total local hadith rows not drafted: 13,921, including held records.
