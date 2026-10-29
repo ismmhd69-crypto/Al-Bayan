@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-BUKHARI-1199",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:48:51.747Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "bfa58d7d-3164-4235-bbfe-62f29aadb35c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6525",
+      "reference": "Sahih al-Bukhari, hadith 6525, book 81, باب كَيْفَ الْحَشْرُ",
+      "title": "باب كَيْفَ الْحَشْرُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَخْطُبُ عَلَى الْمِنْبَرِ يَقُولُ ‏\"‏ إِنَّكُمْ مُلاَقُو اللَّهِ حُفَاةً عُرَاةً غُرْلاً ‏\"‏‏.‏",
+      "source_hash_sha256": "dc4c159dce77f39380adba48256e320fea1d89326d070da4b0e18c3cdf604054",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : Sufyân nous a rapporté, d’après ‘Amr, d’après Sa‘îd ibn Jubayr, d’après Ibn ‘Abbâs (qu’Allah les agrée tous deux), qui a dit : J’ai entendu le Messager d’Allah ﷺ prêcher depuis le minbar et dire : « Vous rencontrerez Allah pieds nus, nus et non circoncis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1df7ca5e-9e33-4f1e-a6ab-22265a020f2b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6526",
+      "reference": "Sahih al-Bukhari, hadith 6526, book 81, باب كَيْفَ الْحَشْرُ",
+      "title": "باب كَيْفَ الْحَشْرُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنِ الْمُغِيرَةِ بْنِ النُّعْمَانِ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَامَ فِينَا النَّبِيُّ صلى الله عليه وسلم يَخْطُبُ فَقَالَ ‏\"‏ إِنَّكُمْ مَحْشُورُونَ حُفَاةً عُرَاةً ‏[quran sura=\"21\" aya_start=\"104\" aya_end=\"104\"]{‏كَمَا بَدَأْنَا أَوَّلَ خَلْقٍ نُعِيدُهُ‏}‏ الآيَةَ، وَإِنَّ أَوَّلَ الْخَلاَئِقِ يُكْسَى يَوْمَ الْقِيَامَةِ إِبْرَاهِيمُ، وَإِنَّهُ سَيُجَاءُ بِرِجَالٍ مِنْ أُمَّتِي، فَيُؤْخَذُ بِهِمْ ذَاتَ الشِّمَالِ‏.‏ فَأَقُولُ يَا رَبِّ أُصَيْحَابِي‏.‏ فَيَقُولُ إِنَّكَ لاَ تَدْرِي مَا أَحْدَثُوا بَعْدَكَ‏.‏ فَأَقُولُ كَمَا قَالَ الْعَبْدُ الصَّالِحُ ‏[quran sura=\"5\" aya_start=\"117\" aya_end=\"117\"]{‏وَكُنْتُ عَلَيْهِمْ شَهِيدًا مَا دُمْتُ فِيهِمْ‏}‏ إِلَى قَوْلِهِ ‏{‏الْحَكِيمُ‏}‏ قَالَ فَيُقَالُ إِنَّهُمْ لَمْ يَزَالُوا مُرْتَدِّينَ عَلَى أَعْقَابِهِمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "962062654d1ce3b4b018297196f52de3b6802a73c9d022015745315d06bdc937",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "ed733015-6801-42b3-aa71-8f062f4077f6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6527",
+      "reference": "Sahih al-Bukhari, hadith 6527, book 81, باب كَيْفَ الْحَشْرُ",
+      "title": "باب كَيْفَ الْحَشْرُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قَيْسُ بْنُ حَفْصٍ، حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، حَدَّثَنَا حَاتِمُ بْنُ أَبِي صَغِيرَةَ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي مُلَيْكَةَ، قَالَ حَدَّثَنِي الْقَاسِمُ بْنُ مُحَمَّدِ بْنِ أَبِي بَكْرٍ، أَنَّ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تُحْشَرُونَ حُفَاةً عُرَاةً غُرْلاً ‏\"‏ قَالَتْ عَائِشَةُ فَقُلْتُ يَا رَسُولَ اللَّهِ الرِّجَالُ وَالنِّسَاءُ يَنْظُرُ بَعْضُهُمْ إِلَى بَعْضٍ‏.‏ فَقَالَ ‏\"‏ الأَمْرُ أَشَدُّ مِنْ أَنْ يُهِمَّهُمْ ذَاكِ ‏\"‏‏.‏",
+      "source_hash_sha256": "96071ed0900073991ba3c6e5099666827ae55f5914eed1514f14ecd184c2e8a6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qays ibn Hafs nous a rapporté : Khâlid ibn al-Hârith nous a rapporté : Hâtim ibn Abî Saghîra nous a rapporté, d’après ‘Abd Allah ibn Abî Mulayka, qui a dit : Al-Qâsim ibn Muhammad ibn Abî Bakr m’a rapporté que ‘Â’isha (qu’Allah l’agrée) avait dit : Le Messager d’Allah ﷺ a dit : « Vous serez rassemblés pieds nus, nus et non circoncis. » ‘Â’isha demanda : « Ô Messager d’Allah, les hommes et les femmes se verront-ils les uns les autres ? » Il répondit : « La situation sera trop grave pour qu’ils se préoccupent de cela. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1104791c-cdb2-4447-88af-152196e18a5d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6528",
+      "reference": "Sahih al-Bukhari, hadith 6528, book 81, باب كَيْفَ الْحَشْرُ",
+      "title": "باب كَيْفَ الْحَشْرُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، عَنْ عَمْرِو بْنِ مَيْمُونٍ، عَنْ عَبْدِ اللَّهِ، قَالَ كُنَّا مَعَ النَّبِيِّ صلى الله عليه وسلم فِي قُبَّةٍ فَقَالَ ‏\"‏ أَتَرْضَوْنَ أَنْ تَكُونُوا رُبُعَ أَهْلِ الْجَنَّةِ ‏\"‏‏.‏ قُلْنَا نَعَمْ‏.‏ قَالَ ‏\"‏ تَرْضَوْنَ أَنْ تَكُونُوا ثُلُثَ أَهْلِ الْجَنَّةِ ‏\"‏‏.‏ قُلْنَا نَعَمْ‏.‏ قَالَ ‏\"‏ أَتَرْضَوْنَ أَنْ تَكُونُوا شَطْرَ أَهْلِ الْجَنَّةِ ‏\"‏‏.‏ قُلْنَا نَعَمْ‏.‏ قَالَ ‏\"‏ وَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ إِنِّي لأَرْجُو أَنْ تَكُونُوا نِصْفَ أَهْلِ الْجَنَّةِ، وَذَلِكَ أَنَّ الْجَنَّةَ لاَ يَدْخُلُهَا إِلاَّ نَفْسٌ مُسْلِمَةٌ، وَمَا أَنْتُمْ فِي أَهْلِ الشِّرْكِ إِلاَّ كَالشَّعْرَةِ الْبَيْضَاءِ فِي جِلْدِ الثَّوْرِ الأَسْوَدِ أَوْ كَالشَّعْرَةِ السَّوْدَاءِ فِي جِلْدِ الثَّوْرِ الأَحْمَرِ ‏\"‏‏.‏",
+      "source_hash_sha256": "e61c1c9847f3ea4fb7f9cf2d9fa1e90ebe93e96df4d84031c7d01969ba704851",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshâr nous a rapporté : Ghundar nous a rapporté : Shu‘ba nous a rapporté, d’après Abû Ishâq, d’après ‘Amr ibn Maymûn, d’après ‘Abd Allah, qui a dit : Nous étions avec le Prophète ﷺ sous une tente. Il demanda : « Accepteriez-vous d’être le quart des habitants du Paradis ? » Nous répondîmes : « Oui. » Il demanda : « Accepteriez-vous d’en être le tiers ? » Nous répondîmes : « Oui. » Il demanda : « Accepteriez-vous d’en être la moitié ? » Nous répondîmes : « Oui. » Il dit : « Par Celui qui tient l’âme de Muhammad dans Sa main, j’espère que vous serez la moitié des habitants du Paradis. Cela tient au fait que le Paradis ne sera habité que par des personnes soumises à Allah. Parmi les peuples associateurs, vous êtes comme un poil blanc sur la peau d’un taureau noir, ou comme un poil noir sur la peau d’un taureau roux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "62fc5774-f76a-49d2-b73c-a491273c606d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6529",
+      "reference": "Sahih al-Bukhari, hadith 6529, book 81, باب كَيْفَ الْحَشْرُ",
+      "title": "باب كَيْفَ الْحَشْرُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، حَدَّثَنِي أَخِي، عَنْ سُلَيْمَانَ، عَنْ ثَوْرٍ، عَنْ أَبِي الْغَيْثِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ أَوَّلُ مَنْ يُدْعَى يَوْمَ الْقِيَامَةِ آدَمُ، فَتَرَاءَى ذُرِّيَّتُهُ فَيُقَالُ هَذَا أَبُوكُمْ آدَمُ‏.‏ فَيَقُولُ لَبَّيْكَ وَسَعْدَيْكَ‏.‏ فَيَقُولُ أَخْرِجْ بَعْثَ جَهَنَّمَ مِنْ ذُرِّيَّتِكَ‏.‏ فَيَقُولُ يَا رَبِّ كَمْ أُخْرِجُ فَيَقُولُ أَخْرِجْ مِنْ كُلِّ مِائَةٍ تِسْعَةً وَتِسْعِينَ ‏\"‏‏.‏ فَقَالُوا يَا رَسُولَ اللَّهِ إِذَا أُخِذَ مِنَّا مِنْ كُلِّ مِائَةٍ تِسْعَةٌ وَتِسْعُونَ، فَمَاذَا يَبْقَى مِنَّا قَالَ ‏\"‏ إِنَّ أُمَّتِي فِي الأُمَمِ كَالشَّعَرَةِ الْبَيْضَاءِ فِي الثَّوْرِ الأَسْوَدِ ‏\"‏‏.‏",
+      "source_hash_sha256": "6865d2d0e565b93d9970d8f8e09afe27fe9480b5bccd346994f1a88a75c1d66b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ismâ‘îl nous a rapporté : Mon frère m’a rapporté, d’après Sulaymân, d’après Thawr, d’après Abû al-Ghayth, d’après Abû Hurayra, que le Prophète ﷺ a dit : « Le premier qui sera appelé le Jour de la Résurrection sera Adam. Sa descendance apparaîtra devant lui et l’on dira : “Voici votre père Adam.” Il répondra : “Me voici, à Ton service, et le bien est entre Tes mains.” Il lui sera dit : “Fais sortir de ta descendance le contingent destiné à l’Enfer.” Il demandera : “Seigneur, combien dois-je en faire sortir ?” Il sera répondu : “Quatre-vingt-dix-neuf sur cent.” » Les gens demandèrent : « Ô Messager d’Allah, s’il en est ainsi, que restera-t-il parmi nous ? » Il répondit : « Ma communauté, parmi les autres peuples, est comme un poil blanc sur un taureau noir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bfe8016f-fc13-4f6e-ab99-701e7ba67ee6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6530",
+      "reference": "Sahih al-Bukhari, hadith 6530, book 81, باب قَوْلُهُ عَزَّ وَجَلَّ: {إِنَّ زَلْزَلَةَ السَّاعَةِ شَيْءٌ عَظِيمٌ}",
+      "title": "باب قَوْلُهُ عَزَّ وَجَلَّ: {إِنَّ زَلْزَلَةَ السَّاعَةِ شَيْءٌ عَظِيمٌ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يُوسُفُ بْنُ مُوسَى، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي سَعِيدٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَقُولُ اللَّهُ يَا آدَمُ‏.‏ فَيَقُولُ لَبَّيْكَ وَسَعْدَيْكَ وَالْخَيْرُ فِي يَدَيْكَ‏.‏ قَالَ يَقُولُ أَخْرِجْ بَعْثَ النَّارِ‏.‏ قَالَ وَمَا بَعْثُ النَّارِ قَالَ مِنْ كُلِّ أَلْفٍ تِسْعَمِائَةٍ وَتِسْعَةً وَتِسْعِينَ‏.‏ فَذَاكَ حِينَ يَشِيبُ الصَّغِيرُ، وَتَضَعُ كُلُّ ذَاتِ حَمْلٍ حَمْلَهَا، وَتَرَى النَّاسَ سَكْرَى وَمَا هُمْ بِسَكْرَى وَلَكِنَّ عَذَابَ اللَّهِ شَدِيدٌ ‏\"‏‏.‏ فَاشْتَدَّ ذَلِكَ عَلَيْهِمْ فَقَالُوا يَا رَسُولُ اللَّهِ أَيُّنَا الرَّجُلُ قَالَ ‏\"‏ أَبْشِرُوا، فَإِنَّ مِنْ يَأْجُوجَ وَمَأْجُوجَ أَلْفٌ وَمِنْكُمْ رَجُلٌ ـ ثُمَّ قَالَ ـ وَالَّذِي نَفْسِي فِي يَدِهِ إِنِّي لأَطْمَعُ أَنْ تَكُونُوا ثُلُثَ أَهْلِ الْجَنَّةِ ‏\"‏‏.‏ قَالَ فَحَمِدْنَا اللَّهَ وَكَبَّرْنَا، ثُمَّ قَالَ ‏\"‏ وَالَّذِي نَفْسِي فِي يَدِهِ إِنِّي لأَطْمَعُ أَنْ تَكُونُوا شَطْرَ أَهْلِ الْجَنَّةِ، إِنَّ مَثَلَكُمْ فِي الأُمَمِ كَمَثَلِ الشَّعَرَةِ الْبَيْضَاءِ فِي جِلْدِ الثَّوْرِ الأَسْوَدِ أَوِ الرَّقْمَةِ فِي ذِرَاعِ الْحِمَارِ ‏\"‏‏.‏",
+      "source_hash_sha256": "c3c85157164e9334eb2ef451ca07a564c3faff32e6a18791c79b2d526a964e8d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1df7ca5e-9e33-4f1e-a6ab-22265a020f2b",
+      "url": "https://sunnah.com/bukhari:6526",
+      "reason": "Le récit cite directement le Coran 21:104 et 5:117. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    },
+    {
+      "source_id": "bfe8016f-fc13-4f6e-ab99-701e7ba67ee6",
+      "url": "https://sunnah.com/bukhari:6530",
+      "reason": "Le récit cite directement le Coran 22:2. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}

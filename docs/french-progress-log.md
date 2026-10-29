@@ -6107,3 +6107,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1198 saves six private French drafts about the Day of Resurrection and the final gathering. No database writes or publication occurred.
 - All six drafts passed the focused validator. Bukhari local drafts: 5,495 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 789. Total local hadith rows not drafted: 9,134, including held records.
+
+### 2026-10-29: Bukhari 6525–6530 — two held
+
+- FR-LIB-HAD-BUKHARI-1199 saves four private French drafts. Bukhari 6526 remains blank because it quotes Quran 21:104 and 5:117. Bukhari 6530 remains blank because it quotes Quran 22:2. No database writes or publication occurred.
+- The four drafts passed the focused validator. Bukhari local drafts: 5,499 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 791. Total local hadith rows not drafted: 9,130, including held records.
