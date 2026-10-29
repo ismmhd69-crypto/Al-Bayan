@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0888",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:14:56.190Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d7713e39-cb7e-4c18-8051-50742d16d5d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1876g",
+      "reference": "Sahih Muslim, hadith 1876 g, book 33, باب فَضْلِ الْجِهَادِ وَالْخُرُوجِ فِي سَبِيلِ اللَّهِ ‏‏",
+      "title": "باب فَضْلِ الْجِهَادِ وَالْخُرُوجِ فِي سَبِيلِ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الْوَهَّابِ يَعْنِي الثَّقَفِيَّ، ح وَحَدَّثَنَا أَبُو بَكْرِ، بْنُ أَبِي شَيْبَةَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا مَرْوَانُ بْنُ مُعَاوِيَةَ، كُلُّهُمْ عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْلاَ أَنْ أَشُقَّ عَلَى أُمَّتِي لأَحْبَبْتُ أَنْ لاَ أَتَخَلَّفَ خَلْفَ سَرِيَّةٍ ‏\"‏ ‏.‏ نَحْوَ حَدِيثِهِمْ ‏.‏",
+      "source_hash_sha256": "fb43286534d78738401c85f8601c1fc184938c0ecd767db10e3e554c55a022eb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthannâ nous a rapporté : ‘Abd al-Wahhâb — c’est-à-dire ath-Thaqafî — nous a rapporté. [H] Abû Bakr ibn Abî Shayba nous a rapporté : Abû Mu‘âwiya nous a rapporté. [H] Ibn Abî ‘Umar nous a rapporté : Marwân ibn Mu‘âwiya nous a rapporté. Tous rapportent d’après Yahyâ ibn Sa‘îd, d’après Abû Sâlih, d’après Abû Hurayra, qui a dit : Le Messager d’Allah a dit : « Si je ne craignais pas d’imposer une difficulté à ma communauté, j’aimerais ne jamais rester en arrière d’une expédition. » Ce récit est rapporté dans le même sens que le leur.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "94785435-7aa9-4ee1-8910-60ce261f415c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1876h",
+      "reference": "Sahih Muslim, hadith 1876 h, book 33, باب فَضْلِ الْجِهَادِ وَالْخُرُوجِ فِي سَبِيلِ اللَّهِ ‏‏",
+      "title": "باب فَضْلِ الْجِهَادِ وَالْخُرُوجِ فِي سَبِيلِ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تَضَمَّنَ اللَّهُ لِمَنْ خَرَجَ فِي سَبِيلِهِ - إِلَى قَوْلِهِ - مَا تَخَلَّفْتُ خِلاَفَ سَرِيَّةٍ تَغْزُو فِي سَبِيلِ اللَّهِ تَعَالَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0acceaf55eabfe62a83f4632cc65ffbb8d813a6a0ae4a7d01f810575a26bbf18",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : Jarîr nous a rapporté, d’après Suhayl, d’après son père, d’après Abû Hurayra, qui a dit : Le Messager d’Allah a dit : « Allah s’est porté garant pour celui qui part dans Sa voie — jusqu’à ces paroles — : “Je ne serais pas resté en arrière d’une expédition partant combattre dans la voie d’Allah, le Très-Haut.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ad624f8a-395a-4008-a08f-91465429dfa8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1877a",
+      "reference": "Sahih Muslim, hadith 1877 a, book 33, باب فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، عَنْ شُعْبَةَ، عَنْ قَتَادَةَ، وَحُمَيْدٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَا مِنْ نَفْسٍ تَمُوتُ لَهَا عِنْدَ اللَّهِ خَيْرٌ يَسُرُّهَا أَنَّهَا تَرْجِعُ إِلَى الدُّنْيَا وَلاَ أَنَّ لَهَا الدُّنْيَا وَمَا فِيهَا إِلاَّ الشَّهِيدُ فَإِنَّهُ يَتَمَنَّى أَنْ يَرْجِعَ فَيُقْتَلَ فِي الدُّنْيَا لِمَا يَرَى مِنْ فَضْلِ الشَّهَادَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f255122c07608376ef1060e04a31cbef2964136f4b427becf4ede7c41ec789e4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Abû Khâlid al-Ahmar nous a rapporté, d’après Shu‘ba, d’après Qatâda et Humayd, d’après Anas ibn Mâlik, d’après le Prophète, qui a dit : « Toute âme qui meurt après avoir reçu d’Allah un bien qui la réjouit ne souhaiterait pas revenir dans ce monde, même si elle devait posséder le monde et tout ce qu’il contient, sauf le martyr. Il souhaiterait revenir afin d’être tué dans ce monde, en raison de ce qu’il voit du mérite du martyre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "716a9a8c-14f1-4969-a9da-4f13d963d7d0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1877b",
+      "reference": "Sahih Muslim, hadith 1877 b, book 33, باب فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، قَالَ سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، يُحَدِّثُ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَا مِنْ أَحَدٍ يَدْخُلُ الْجَنَّةَ يُحِبُّ أَنْ يَرْجِعَ إِلَى الدُّنْيَا وَأَنَّ لَهُ مَا عَلَى الأَرْضِ مِنْ شَىْءٍ غَيْرُ الشَّهِيدِ فَإِنَّهُ يَتَمَنَّى أَنْ يَرْجِعَ فَيُقْتَلَ عَشْرَ مَرَّاتٍ لِمَا يَرَى مِنَ الْكَرَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d6b65992bfde9da17a871753aad94f2232991d3398a3cf7a3520bb5523830fba",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthannâ et Ibn Bashshâr nous ont rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté. Il a dit : J’ai entendu Anas ibn Mâlik rapporter du Prophète, qui a dit : « Nul de ceux qui entrent au Paradis ne souhaiterait revenir dans ce monde et posséder tout ce qui se trouve sur terre, à l’exception du martyr. Il souhaiterait revenir et être tué dix fois, en raison de l’honneur qu’il voit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6fbf6c46-c2e0-4717-9de2-99ee8e3e5354",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1878a",
+      "reference": "Sahih Muslim, hadith 1878 a, book 33, باب فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، حَدَّثَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ الْوَاسِطِيُّ، عَنْ سُهَيْلِ بْنِ أَبِي، صَالِحٍ عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قِيلَ لِلنَّبِيِّ صلى الله عليه وسلم مَا يَعْدِلُ الْجِهَادَ فِي سَبِيلِ اللَّهِ عَزَّ وَجَلَّ قَالَ ‏\"‏ لاَ تَسْتَطِيعُونَهُ ‏\"‏ ‏.‏ قَالَ فَأَعَادُوا عَلَيْهِ مَرَّتَيْنِ أَوْ ثَلاَثًا كُلُّ ذَلِكَ يَقُولُ ‏\"‏ لاَ تَسْتَطِيعُونَهُ ‏\"‏ ‏.‏ وَقَالَ فِي الثَّالِثَةِ ‏\"‏ مَثَلُ الْمُجَاهِدِ فِي سَبِيلِ اللَّهِ كَمَثَلِ الصَّائِمِ الْقَائِمِ الْقَانِتِ بِآيَاتِ اللَّهِ لاَ يَفْتُرُ مِنْ صِيَامٍ وَلاَ صَلاَةٍ حَتَّى يَرْجِعَ الْمُجَاهِدُ فِي سَبِيلِ اللَّهِ تَعَالَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "14e8d930a563aacfb00d5cee13db6a41bd8c645b91e9de05ca3f385584b801d4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘îd ibn Mansûr nous a rapporté : Khâlid ibn ‘Abd Allâh al-Wâsitî nous a rapporté, d’après Suhayl ibn Abî Sâlih, d’après son père, d’après Abû Hurayra, qui a dit : On demanda au Prophète : « Qu’est-ce qui équivaut au combat dans la voie d’Allah, Puissant et Majestueux ? » Il répondit : « Vous ne pouvez pas l’accomplir. » On le lui demanda encore deux ou trois fois, et chaque fois il répondit : « Vous ne pouvez pas l’accomplir. » À la troisième fois, il dit : « Le combattant dans la voie d’Allah ressemble à celui qui jeûne, se tient debout en prière et récite avec dévotion les signes d’Allah, sans se lasser du jeûne ni de la prière, jusqu’à ce que le combattant dans la voie d’Allah, le Très-Haut, revienne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ebac754b-6001-4a15-ba17-6bf8ad64a961",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1878b",
+      "reference": "Sahih Muslim, hadith 1878 b, book 33, باب فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو عَوَانَةَ، ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، كُلُّهُمْ عَنْ سُهَيْلٍ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "58fbdffabd6eb33407e11df3367d39bec4939076075b9059897ed1e8e0c60e6e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ebac754b-6001-4a15-ba17-6bf8ad64a961",
+      "url": "https://sunnah.com/muslim:1878b",
+      "reason": "Cette entrée fournit seulement plusieurs chaînes supplémentaires et renvoie à un récit semblable au précédent sans en reproduire le contenu ni signaler de variante de formulation. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
