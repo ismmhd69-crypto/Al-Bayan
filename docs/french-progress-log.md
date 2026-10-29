@@ -2716,3 +2716,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-560` saves five private French drafts about the angels and revelation. Bukhari 3218 remains entirely blank because it directly quotes Quran 19:64; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,902 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 179. Total local hadith rows not drafted: 11,753, including held records.
+
+### 2026-10-29: Bukhari 3220–3225
+
+- `FR-LIB-HAD-BUKHARI-561` saves six private French drafts about Ramadan generosity, prayer times, faith, angels, and images in the home.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,908 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 179. Total local hadith rows not drafted: 11,747, including held records.
