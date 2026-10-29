@@ -8206,3 +8206,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0216 saves four private French drafts about the privileges given to the Prophet ﷺ. Muslim 523c and 523d contain only transmission chains and cross-references, so they remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 880 Muslim drafts, 7,216 total hadith drafts, 7,413 remaining, and 418 Needs Mo items.
+
+### 2026-10-29: Muslim 524a–526a
+
+- FR-LIB-HAD-MUSLIM-0217 saves four private French drafts about the Prophet’s arrival in Medina, prayer in sheep enclosures and the change of prayer direction. Muslim 525a quotes Quran 2:144 and remains blank pending an approved, attributed French Quran translation with permitted use. Muslim 524c is a chain-only cross-reference and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 884 Muslim drafts, 7,220 total hadith drafts, 7,409 remaining, and 420 Needs Mo items.
