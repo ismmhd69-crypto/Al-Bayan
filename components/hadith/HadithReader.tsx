@@ -5,14 +5,16 @@ import Link from "next/link";
 import { ArrowLeft, Check, ChevronLeft, ChevronRight, Copy, ExternalLink, ShieldCheck } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { HadithCollectionSummary, HadithDetail } from "@/lib/hadith/types";
+import { HadithDisplayText } from "./HadithDisplayText";
 
 interface HadithReaderProps {
   lang: Locale;
   dict: Dictionary["hadith"];
   collection: HadithCollectionSummary;
   hadith: HadithDetail;
-  prevRef: string | null;
-  nextRef: string | null;
+  prevRef?: string | null;
+  nextRef?: string | null;
+  paginationSlot?: React.ReactNode;
 }
 
 export function HadithReader({
@@ -22,6 +24,7 @@ export function HadithReader({
   hadith,
   prevRef,
   nextRef,
+  paginationSlot,
 }: HadithReaderProps) {
   const [copied, setCopied] = useState(false);
 
@@ -123,12 +126,12 @@ export function HadithReader({
           >
             {(hadith.bookNameEnglish || hadith.bookNameArabic) && (
               <div style={{ fontWeight: 600, color: "var(--ink)", marginBlockEnd: "4px" }}>
-                {dict.book} {hadith.bookNumber}: {lang === "ar" ? hadith.bookNameArabic || hadith.bookNameEnglish : hadith.bookNameEnglish || hadith.bookNameArabic}
+                {dict.book} {hadith.bookNumber}: <HadithDisplayText text={lang === "ar" ? hadith.bookNameArabic || hadith.bookNameEnglish || "" : hadith.bookNameEnglish || hadith.bookNameArabic || ""} />
               </div>
             )}
             {(hadith.chapterTitleArabic || hadith.chapterTitleEnglish) && (
               <div style={{ fontStyle: "italic", fontSize: "var(--fs-xs)" }}>
-                {dict.chapter}: {lang === "ar" ? hadith.chapterTitleArabic || hadith.chapterTitleEnglish : hadith.chapterTitleEnglish || hadith.chapterTitleArabic}
+                {dict.chapter}: <HadithDisplayText text={lang === "ar" ? hadith.chapterTitleArabic || hadith.chapterTitleEnglish || "" : hadith.chapterTitleEnglish || hadith.chapterTitleArabic || ""} />
               </div>
             )}
           </div>
@@ -142,7 +145,7 @@ export function HadithReader({
           translate="no"
           style={{ fontSize: "1.35rem", padding: "16px 20px" }}
         >
-          {hadith.arabicText}
+          <HadithDisplayText text={hadith.arabicText} />
         </div>
 
         {/* Translation block for non-Arabic interfaces */}
@@ -150,7 +153,7 @@ export function HadithReader({
           <div className="hadith-text-en" lang="en" dir="ltr" style={{ marginBlockStart: "20px" }}>
             {lang === "en" && hadith.englishText ? (
               <p style={{ margin: 0, whiteSpace: "pre-line", fontSize: "1.0625rem", lineHeight: "1.75" }}>
-                {hadith.englishText}
+                <HadithDisplayText text={hadith.englishText} />
               </p>
             ) : (
               <span className="hadith-text-unavailable">
@@ -162,40 +165,44 @@ export function HadithReader({
       </article>
 
       {/* Prev / Next Hadith Navigation */}
-      <nav className="hadith-pagination" aria-label="Hadith navigation">
-        {prevRef ? (
-          <Link
-            href={`/${lang}/hadith/${collection.id}/${prevRef}`}
-            className="hadith-page-btn"
-            aria-label={`${dict.previousHadith} (${prevRef})`}
-          >
-            <ChevronLeft className="flip-rtl" aria-hidden="true" />
-            <span>{`${dict.previousHadith} (#${prevRef})`}</span>
-          </Link>
-        ) : (
-          <div />
-        )}
+      {paginationSlot ? (
+        paginationSlot
+      ) : (
+        <nav className="hadith-pagination" aria-label="Hadith navigation">
+          {prevRef ? (
+            <Link
+              href={`/${lang}/hadith/${collection.id}/${prevRef}`}
+              className="hadith-page-btn"
+              aria-label={`${dict.previousHadith} (${prevRef})`}
+            >
+              <ChevronLeft className="flip-rtl" aria-hidden="true" />
+              <span>{`${dict.previousHadith} (#${prevRef})`}</span>
+            </Link>
+          ) : (
+            <div />
+          )}
 
-        <Link
-          href={`/${lang}/hadith/${collection.id}/book/${hadith.bookNumber}`}
-          className="hadith-page-btn"
-        >
-          <span>{dict.backToBook.replace("{book}", hadith.bookNumber)}</span>
-        </Link>
-
-        {nextRef ? (
           <Link
-            href={`/${lang}/hadith/${collection.id}/${nextRef}`}
+            href={`/${lang}/hadith/${collection.id}/book/${hadith.bookNumber}`}
             className="hadith-page-btn"
-            aria-label={`${dict.nextHadith} (${nextRef})`}
           >
-            <span>{`${dict.nextHadith} (#${nextRef})`}</span>
-            <ChevronRight className="flip-rtl" aria-hidden="true" />
+            <span>{dict.backToBook.replace("{book}", hadith.bookNumber)}</span>
           </Link>
-        ) : (
-          <div />
-        )}
-      </nav>
+
+          {nextRef ? (
+            <Link
+              href={`/${lang}/hadith/${collection.id}/${nextRef}`}
+              className="hadith-page-btn"
+              aria-label={`${dict.nextHadith} (${nextRef})`}
+            >
+              <span>{`${dict.nextHadith} (#${nextRef})`}</span>
+              <ChevronRight className="flip-rtl" aria-hidden="true" />
+            </Link>
+          ) : (
+            <div />
+          )}
+        </nav>
+      )}
 
       {/* Attribution Footer */}
       <footer className="hadith-attribution">

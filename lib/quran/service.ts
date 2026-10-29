@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import { TRANSLATIONS } from "@/lib/sources/quran-meta";
 import type { PaginatedVerses, RevelationPlace, SurahDetail, SurahSummary, Verse, VersePagination } from "./types";
 
@@ -163,7 +164,7 @@ export function mapChapter(c: ApiChapter): SurahDetail {
 
 // ---------------- Public API ----------------
 
-export async function getChapters(language: "en" | "ar" = "en"): Promise<SurahSummary[]> {
+export const getChapters = cache(async function getChapters(language: "en" | "ar" = "en"): Promise<SurahSummary[]> {
   const env = getEnvConfig();
   const langParam = language === "ar" ? "ar" : "en";
   const url = `${env.api}/content/api/v4/chapters?language=${langParam}`;
@@ -182,9 +183,9 @@ export async function getChapters(language: "en" | "ar" = "en"): Promise<SurahSu
   }
 
   return data.chapters.map(mapChapter);
-}
+});
 
-export async function getChapter(id: number, language: "en" | "ar" = "en"): Promise<SurahDetail | null> {
+export const getChapter = cache(async function getChapter(id: number, language: "en" | "ar" = "en"): Promise<SurahDetail | null> {
   if (id < 1 || id > 114) return null;
 
   const chapters = await getChapters(language);
@@ -195,7 +196,7 @@ export async function getChapter(id: number, language: "en" | "ar" = "en"): Prom
     ...found,
     pages: (found as SurahDetail).pages ?? [1, 1],
   };
-}
+});
 
 // ---------------- Verses Mapping ----------------
 
@@ -287,7 +288,7 @@ export function parseVersesPayload(data: ApiVerseResponse, chapterId: number): P
   return { verses, pagination };
 }
 
-export async function getChapterVerses(
+export const getChapterVerses = cache(async function getChapterVerses(
   chapterId: number,
   options?: { page?: number; perPage?: number },
 ): Promise<PaginatedVerses> {
@@ -318,5 +319,5 @@ export async function getChapterVerses(
 
   const data = (await res.json()) as ApiVerseResponse;
   return parseVersesPayload(data, chapterId);
-}
+});
 

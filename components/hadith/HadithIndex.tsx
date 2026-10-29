@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowRight, BookOpen, Search, ShieldCheck } from "lucide-react";
+import { ArrowRight, BookOpen, Compass, Search, ShieldCheck, X } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { HadithCollectionSummary } from "@/lib/hadith/types";
+import { searchHadith, type HadithSearchResult } from "@/lib/hadith/search";
 
 interface HadithIndexProps {
   lang: Locale;
@@ -15,15 +16,76 @@ interface HadithIndexProps {
 
 export function HadithIndex({ lang, dict, collections }: HadithIndexProps) {
   const router = useRouter();
-  const [targetCollection, setTargetCollection] = useState<"bukhari" | "muslim">("bukhari");
-  const [referenceQuery, setReferenceQuery] = useState("");
+  const searchInputId = useId();
+  const resultsListId = useId();
 
+  const [query, setQuery] = useState("");
+  const [activeIndex, setActiveIndex] = useState<number>(-1);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const isComposingRef = useRef(false);
+
+  // Search calculation
+  const searchResults = useMemo(() => {
+    return searchHadith(query, lang);
+  }, [lang, query]);
+
+  const directMatches = useMemo(() => {
+    return searchResults.filter((r) => !r.isTypoSuggestion);
+  }, [searchResults]);
+
+  const typoSuggestions = useMemo(() => {
+    return searchResults.filter((r) => r.isTypoSuggestion);
+  }, [searchResults]);
+
+  const collectionsMap = useMemo(() => {
+    const map = new Map<string, HadithCollectionSummary>();
+    for (const c of collections) map.set(c.id, c);
+    return map;
+  }, [collections]);
+
+  const isSearching = query.trim().length > 0;
+  const isChoiceState = directMatches.length > 0 && directMatches.every((r) => r.type === "choice");
+
+  // Form submit handler
   const handleLookup = (e: React.FormEvent) => {
     e.preventDefault();
-    const cleaned = referenceQuery.trim().replace(/\s+/g, "");
-    if (!cleaned) return;
-    router.push(`/${lang}/hadith/${targetCollection}/${encodeURIComponent(cleaned)}`);
+    if (isComposingRef.current) return;
+    if (activeIndex >= 0 && activeIndex < directMatches.length) {
+      router.push(directMatches[activeIndex].targetHref);
+    } else if (directMatches.length === 1) {
+      router.push(directMatches[0].targetHref);
+    }
   };
+
+  // Keyboard navigation handler
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.nativeEvent.isComposing || isComposingRef.current || e.keyCode === 229) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      if (directMatches.length === 0) return;
+      setActiveIndex((prev) => (prev + 1) % directMatches.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      if (directMatches.length === 0) return;
+      setActiveIndex((prev) => (prev <= 0 ? directMatches.length - 1 : prev - 1));
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      setQuery("");
+      setActiveIndex(-1);
+    }
+  };
+
+  const handleApplySuggestion = (suggested: string) => {
+    setQuery(suggested);
+    setActiveIndex(-1);
+    inputRef.current?.focus();
+  };
+
+  const activeResultId =
+    activeIndex >= 0 && activeIndex < directMatches.length
+      ? directMatches[activeIndex].id
+      : undefined;
 
   return (
     <div className="hadith-page">
@@ -32,79 +94,227 @@ export function HadithIndex({ lang, dict, collections }: HadithIndexProps) {
         <p className="hadith-intro">{dict.intro}</p>
       </header>
 
-      {/* Quick Lookup Form */}
+      {/* Forgiving Search Bar */}
       <div className="hadith-search-wrapper">
         <form onSubmit={handleLookup} className="hadith-search-form" role="search">
           <Search className="hadith-search-icon" aria-hidden="true" />
           <input
-            type="text"
+            ref={inputRef}
+            id={searchInputId}
+            type="search"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-expanded={isSearching && directMatches.length > 0}
+            aria-controls={resultsListId}
+            aria-activedescendant={activeResultId}
             className="hadith-search-input"
-            value={referenceQuery}
-            onChange={(e) => setReferenceQuery(e.target.value)}
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setActiveIndex(-1);
+            }}
+            onKeyDown={handleKeyDown}
+            onCompositionStart={() => {
+              isComposingRef.current = true;
+            }}
+            onCompositionEnd={() => {
+              isComposingRef.current = false;
+            }}
             placeholder={dict.searchPlaceholder}
             aria-label={dict.searchPlaceholder}
+            autoComplete="off"
+            spellCheck="false"
           />
+          {query && (
+            <button
+              type="button"
+              className="hadith-search-clear"
+              onClick={() => {
+                setQuery("");
+                setActiveIndex(-1);
+                inputRef.current?.focus();
+              }}
+              aria-label={dict.clearSearch}
+            >
+              <X aria-hidden="true" />
+            </button>
+          )}
           <button type="submit" className="hadith-search-btn">
             {dict.searchBtn}
           </button>
         </form>
       </div>
 
-      {/* Collections Grid */}
-      <section aria-label={dict.allCollections} className="hadith-collections-grid">
-        {collections.map((c) => {
-          const title = c.id === "bukhari" ? dict.bukhari : dict.muslim;
-          const desc = c.id === "bukhari" ? dict.bukhariDesc : dict.muslimDesc;
-          const booksText =
-            typeof c.totalBooks === "number" && c.totalBooks > 0
-              ? dict.booksCount.replace("{count}", String(c.totalBooks))
-              : null;
-          const hadithCountVal = c.totalAvailableHadith ?? c.totalHadith;
-          const hadithsText =
-            typeof hadithCountVal === "number" && hadithCountVal > 0
-              ? dict.hadithsCount.replace("{count}", String(hadithCountVal))
-              : null;
+      {/* Typo Suggestion Banner ("Did you mean ...?") */}
+      {isSearching && typoSuggestions.length > 0 && directMatches.length === 0 && (
+        <div className="hadith-suggestion-banner" role="status">
+          <Compass className="w-4 h-4 text-accent" aria-hidden="true" />
+          <span>
+            {dict.didYouMean.replace("{suggestion}", "")}{" "}
+            {typoSuggestions.map((suggestion, idx) => (
+              <span key={suggestion.id}>
+                {idx > 0 && ", "}
+                <button
+                  type="button"
+                  className="hadith-suggestion-link"
+                  onClick={() => handleApplySuggestion(suggestion.suggestedQuery || suggestion.title)}
+                >
+                  {suggestion.title}
+                </button>
+              </span>
+            ))}
+          </span>
+        </div>
+      )}
 
-          return (
-            <Link
-              key={c.id}
-              href={`/${lang}/hadith/${c.id}`}
-              className="hadith-collection-card"
-            >
-              <div className="hadith-collection-header">
-                <div>
-                  <h2 className="hadith-collection-title-en">{title}</h2>
-                  <div className="hadith-collection-title-ar" lang="ar" dir="rtl">
-                    {c.nameArabic}
+      {/* Display: Collections Grid, Search Results, or Empty State */}
+      {!isSearching ? (
+        // Standard Collections Grid
+        <section aria-label={dict.allCollections} className="hadith-collections-grid">
+          {collections.map((c) => {
+            const title = c.id === "bukhari" ? dict.bukhari : dict.muslim;
+            const desc = c.id === "bukhari" ? dict.bukhariDesc : dict.muslimDesc;
+            const booksText =
+              typeof c.totalBooks === "number" && c.totalBooks > 0
+                ? dict.booksCount.replace("{count}", String(c.totalBooks))
+                : null;
+            const hadithCountVal = c.totalAvailableHadith ?? c.totalHadith;
+            const hadithsText =
+              typeof hadithCountVal === "number" && hadithCountVal > 0
+                ? dict.hadithsCount.replace("{count}", String(hadithCountVal))
+                : null;
+
+            return (
+              <Link
+                key={c.id}
+                href={`/${lang}/hadith/${c.id}`}
+                className="hadith-collection-card"
+              >
+                <div className="hadith-collection-header">
+                  <div>
+                    <h2 className="hadith-collection-title-en">{title}</h2>
+                    <div className="hadith-collection-title-ar" lang="ar" dir="rtl">
+                      {c.nameArabic}
+                    </div>
+                  </div>
+                  <div className="hadith-collection-arrow" aria-hidden="true">
+                    <ArrowRight className="flip-rtl" />
                   </div>
                 </div>
-                <div className="hadith-collection-arrow" aria-hidden="true">
-                  <ArrowRight className="flip-rtl" />
-                </div>
-              </div>
 
-              <p className="hadith-collection-desc">{desc}</p>
+                <p className="hadith-collection-desc">{desc}</p>
 
-              {(booksText || hadithsText) && (
-                <div className="hadith-collection-stats">
-                  {booksText && (
-                    <span className="hadith-stat-badge">
-                      <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
-                      {booksText}
-                    </span>
-                  )}
-                  {hadithsText && (
-                    <span className="hadith-stat-badge">
-                      <ShieldCheck className="w-3.5 h-3.5 text-accent" aria-hidden="true" />
-                      {hadithsText}
-                    </span>
-                  )}
-                </div>
-              )}
-            </Link>
-          );
-        })}
-      </section>
+                {(booksText || hadithsText) && (
+                  <div className="hadith-collection-stats">
+                    {booksText && (
+                      <span className="hadith-stat-badge">
+                        <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
+                        {booksText}
+                      </span>
+                    )}
+                    {hadithsText && (
+                      <span className="hadith-stat-badge">
+                        <ShieldCheck className="w-3.5 h-3.5 text-accent" aria-hidden="true" />
+                        {hadithsText}
+                      </span>
+                    )}
+                  </div>
+                )}
+              </Link>
+            );
+          })}
+        </section>
+      ) : directMatches.length === 0 ? (
+        // Empty State
+        <div className="hadith-empty-state" role="status">
+          <p>{dict.noMatches}</p>
+          <button
+            type="button"
+            className="hadith-btn hadith-btn--secondary"
+            onClick={() => {
+              setQuery("");
+              setActiveIndex(-1);
+              inputRef.current?.focus();
+            }}
+          >
+            {dict.clearSearch}
+          </button>
+        </div>
+      ) : (
+        // Search Results List (including Clear Choice for standalone numbers)
+        <div id={resultsListId} role="listbox" aria-label={dict.title}>
+          {isChoiceState && (
+            <div className="hadith-choices-header">
+              {dict.chooseCollection.replace("{number}", directMatches[0].reference || query.trim())}
+            </div>
+          )}
+
+          <div className="hadith-collections-grid">
+            {directMatches.map((match, mIdx) => {
+              const isActive = activeIndex === mIdx;
+
+              // Check if matching full collection
+              if (match.type === "collection" && match.collectionId) {
+                const c = collectionsMap.get(match.collectionId);
+                const title = match.title;
+                const desc = match.subtitle || (match.collectionId === "bukhari" ? dict.bukhariDesc : dict.muslimDesc);
+
+                return (
+                  <Link
+                    key={match.id}
+                    id={match.id}
+                    role="option"
+                    aria-selected={isActive}
+                    href={match.targetHref}
+                    className={`hadith-collection-card ${isActive ? "hadith-card--active" : ""}`}
+                  >
+                    <div className="hadith-collection-header">
+                      <div>
+                        <h2 className="hadith-collection-title-en">{title}</h2>
+                        {c?.nameArabic && (
+                          <div className="hadith-collection-title-ar" lang="ar" dir="rtl">
+                            {c.nameArabic}
+                          </div>
+                        )}
+                      </div>
+                      <div className="hadith-collection-arrow" aria-hidden="true">
+                        <ArrowRight className="flip-rtl" />
+                      </div>
+                    </div>
+                    <p className="hadith-collection-desc">{desc}</p>
+                  </Link>
+                );
+              }
+
+              // Hadith reference or standalone number choice
+              return (
+                <Link
+                  key={match.id}
+                  id={match.id}
+                  role="option"
+                  aria-selected={isActive}
+                  href={match.targetHref}
+                  className={`hadith-collection-card ${isActive ? "hadith-card--active" : ""}`}
+                >
+                  <div className="hadith-collection-header">
+                    <div>
+                      <h2 className="hadith-collection-title-en">{match.title}</h2>
+                      {match.subtitle && (
+                        <div style={{ fontSize: "var(--fs-sm)", color: "var(--ink-2)", marginBlockStart: "4px" }}>
+                          {match.subtitle}
+                        </div>
+                      )}
+                    </div>
+                    <div className="hadith-collection-arrow" aria-hidden="true">
+                      <ArrowRight className="flip-rtl" />
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       <footer className="hadith-attribution">
         <p>
@@ -121,4 +331,3 @@ export function HadithIndex({ lang, dict, collections }: HadithIndexProps) {
     </div>
   );
 }
-

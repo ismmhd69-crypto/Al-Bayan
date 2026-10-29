@@ -13,6 +13,19 @@ interface HadithErrorStateProps {
   errorMessage?: string;
 }
 
+function sanitizeErrorMessage(msg?: string): string | undefined {
+  if (!msg) return undefined;
+  // Never expose internal Next.js error codes or framework fallbacks to visitors
+  if (
+    msg.includes("NEXT_") ||
+    msg.includes("NEXT_HTTP_ERROR_FALLBACK") ||
+    msg.includes("digest:")
+  ) {
+    return undefined;
+  }
+  return msg;
+}
+
 export function HadithErrorState({
   lang,
   dict,
@@ -31,6 +44,7 @@ export function HadithErrorState({
 
   const returnHref = backHref ?? `/${lang}/hadith`;
   const returnLabel = backLabel ?? dict.backToHadith;
+  const safeMessage = sanitizeErrorMessage(errorMessage);
 
   return (
     <div className="hadith-page">
@@ -44,9 +58,9 @@ export function HadithErrorState({
       <div className="hadith-empty-state" role="alert">
         <CircleAlert aria-hidden="true" className="w-12 h-12 text-accent" />
         <h1>{dict.errorLoading}</h1>
-        {errorMessage && (
+        {safeMessage && (
           <p style={{ fontSize: "var(--fs-sm)", color: "var(--ink-3)" }}>
-            {errorMessage}
+            {safeMessage}
           </p>
         )}
         <div style={{ display: "flex", gap: "12px", marginBlockStart: "8px" }}>
@@ -66,4 +80,3 @@ export function HadithErrorState({
     </div>
   );
 }
-

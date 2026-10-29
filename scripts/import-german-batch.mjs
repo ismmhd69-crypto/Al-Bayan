@@ -103,10 +103,11 @@ export async function importGermanBatch({
   // Update markdown log
   const logHeader = `# German Translation Log\n\nTranslator: \`gemini-ide\`\nOrigin: \`ai\`\nPublished: \`false\`\n\n## Needs Mo\n\n- \`e942fb99-5c68-4433-a192-d89779835490\`: Reversed statements in Arabic source (Ibn Uthaymeen).\n- \`4e6fee0f-2262-47a9-be75-292508b59dc9\`: Truncated opening formula ending with '..جنهم وإنسهم..', no ruling.\n- \`a219b561-748f-4387-af4d-a17968a16a52\`: Question title and transition only, no answer body.\n- \`48777cd6-f614-44ad-9381-0d49c0790450\`: Greeting and question restatement only, no answer.\n- \`68de1710-d5e9-4cdc-8884-e874eefb55d8\`: Truncated conditional ending with 'أما الكافر أو المنافق فإذا قيل له: من ربك؟'.\n- \`f4f2f06c-8437-4d92-9a06-53ebdf80da8f\`: Truncated conditional ending with 'أما إذا كانت لم تقصر.'.\n\n## Batch History\n\n| Batch | Items Attempted | Inserted | Skipped (Existed) | DB Before | DB After | Notes |\n|---|---:|---:|---:|---:|---:|---|\n`;
 
-  let currentLog = fs.existsSync(logFile) ? fs.readFileSync(logFile, "utf-8") : logHeader;
+  if (!fs.existsSync(logFile)) {
+    fs.writeFileSync(logFile, logHeader, "utf-8");
+  }
   const newRow = `| ${batchName} | ${items.length} | ${toInsert.length} | ${existingSet.size} | ${beforeCount} | ${afterCount} | Stored cleanly as unpublished drafts |\n`;
-  currentLog = currentLog.trimEnd() + "\n" + newRow;
-  fs.writeFileSync(logFile, currentLog, "utf-8");
+  fs.appendFileSync(logFile, newRow, "utf-8");
   console.log(`Logged to ${logFile}`);
 
   return { inserted: toInsert.length, skipped: existingSet.size, attempted: items.length };

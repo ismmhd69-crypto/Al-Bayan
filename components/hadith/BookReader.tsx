@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, Check, ChevronLeft, ChevronRight, Copy, ExternalLink, ShieldCheck } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { HadithBookSummary, HadithCollectionSummary, PaginatedHadiths } from "@/lib/hadith/types";
+import { HadithDisplayText } from "./HadithDisplayText";
+import { hadithTextForAttribute } from "@/lib/hadith/display";
 
 interface BookReaderProps {
   lang: Locale;
@@ -58,7 +60,7 @@ export function BookReader({
         </Link>
         <span className="hadith-nav-sep" aria-hidden="true">/</span>
         <span className="hadith-nav-current">
-          {dict.book} {book.bookNumber}: {mainBookTitle}
+          {dict.book} {book.bookNumber}: <HadithDisplayText text={mainBookTitle} />
         </span>
       </nav>
 
@@ -68,7 +70,7 @@ export function BookReader({
           {dict.book} {book.bookNumber}
         </div>
         <h1 className="hadith-title" lang={isRtl ? "ar" : undefined} dir={isRtl ? "rtl" : undefined}>
-          {mainBookTitle}
+          <HadithDisplayText text={mainBookTitle} />
         </h1>
         {subBookTitle && (
           <div
@@ -77,7 +79,7 @@ export function BookReader({
             dir={isRtl ? "ltr" : "rtl"}
             style={{ marginBlockStart: "6px", fontSize: "1.15rem" }}
           >
-            {subBookTitle}
+            <HadithDisplayText text={subBookTitle} />
           </div>
         )}
         <p className="hadith-intro">
@@ -120,11 +122,11 @@ export function BookReader({
                   {(h.chapterTitleEnglish || h.chapterTitleArabic) && (
                     <span
                       className="hadith-chapter-title"
-                      title={h.chapterTitleEnglish || h.chapterTitleArabic}
+                      title={hadithTextForAttribute(h.chapterTitleEnglish || h.chapterTitleArabic || "")}
                     >
                       {lang === "ar"
-                        ? h.chapterTitleArabic || h.chapterTitleEnglish
-                        : h.chapterTitleEnglish || h.chapterTitleArabic}
+                        ? <HadithDisplayText text={h.chapterTitleArabic || h.chapterTitleEnglish || ""} />
+                        : <HadithDisplayText text={h.chapterTitleEnglish || h.chapterTitleArabic || ""} />}
                     </span>
                   )}
                 </div>
@@ -157,14 +159,14 @@ export function BookReader({
 
               {/* Arabic text */}
               <div className="hadith-text-ar" lang="ar" dir="rtl" translate="no">
-                {h.arabicText}
+                <HadithDisplayText text={h.arabicText} />
               </div>
 
               {/* Translation block for non-Arabic interfaces */}
               {lang !== "ar" && (
                 <div className="hadith-text-en" lang="en" dir="ltr">
                   {lang === "en" && h.englishText ? (
-                    <p style={{ margin: 0, whiteSpace: "pre-line" }}>{h.englishText}</p>
+                    <p style={{ margin: 0, whiteSpace: "pre-line" }}><HadithDisplayText text={h.englishText} /></p>
                   ) : (
                     <span className="hadith-text-unavailable">
                       {dict.translationUnavailable}

@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import type {
   HadithBookSummary,
   HadithCollectionId,
@@ -7,7 +8,7 @@ import type {
   HadithGradeInfo,
   PaginatedHadiths,
 } from "./types";
-import { cleanHadithMarkup } from "@/lib/sources/hadith-markup";
+import { cleanHadithDisplayText, cleanHadithTitle } from "@/lib/hadith/display";
 import { acceptableGrade } from "@/lib/sources/hadith-rules";
 
 const API_BASE = "https://api.sunnah.com/v1";
@@ -115,7 +116,7 @@ interface ApiCollectionResponse {
   }>;
 }
 
-export async function getHadithCollections(): Promise<HadithCollectionSummary[]> {
+export const getHadithCollections = cache(async function getHadithCollections(): Promise<HadithCollectionSummary[]> {
   const collections: HadithCollectionId[] = ["bukhari", "muslim"];
   const summaries: HadithCollectionSummary[] = [];
 
@@ -125,9 +126,9 @@ export async function getHadithCollections(): Promise<HadithCollectionSummary[]>
   }
 
   return summaries;
-}
+});
 
-export async function getCollection(id: string): Promise<HadithCollectionSummary | null> {
+export const getCollection = cache(async function getCollection(id: string): Promise<HadithCollectionSummary | null> {
   const norm = id.toLowerCase().trim();
   if (norm !== "bukhari" && norm !== "muslim") {
     return null;
@@ -156,14 +157,14 @@ export async function getCollection(id: string): Promise<HadithCollectionSummary
   return {
     id: colId,
     name: colId,
-    nameEnglish: enInfo?.title ?? (colId === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim"),
-    nameArabic: arInfo?.title ?? (colId === "bukhari" ? "صحيح البخاري" : "صحيح مسلم"),
-    shortIntro: enInfo?.shortIntro ?? "",
+    nameEnglish: cleanHadithTitle(enInfo?.title ?? (colId === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim")),
+    nameArabic: cleanHadithTitle(arInfo?.title ?? (colId === "bukhari" ? "صحيح البخاري" : "صحيح مسلم")),
+    shortIntro: cleanHadithTitle(enInfo?.shortIntro ?? ""),
     totalBooks,
     totalHadith: typeof data.totalHadith === "number" ? data.totalHadith : null,
     totalAvailableHadith: typeof data.totalAvailableHadith === "number" ? data.totalAvailableHadith : null,
   };
-}
+});
 
 // ---------------- Books ----------------
 
@@ -188,7 +189,7 @@ interface ApiBooksResponse {
   previous?: number | null;
 }
 
-export async function getCollectionBooks(collection: HadithCollectionId): Promise<HadithBookSummary[]> {
+export const getCollectionBooks = cache(async function getCollectionBooks(collection: HadithCollectionId): Promise<HadithBookSummary[]> {
   if (collection !== "bukhari" && collection !== "muslim") {
     return [];
   }
@@ -266,8 +267,8 @@ export async function getCollectionBooks(collection: HadithCollectionId): Promis
       const bookNum = String(b.bookNumber).trim();
       return {
         bookNumber: bookNum,
-        nameEnglish: en.trim(),
-        nameArabic: ar.trim(),
+        nameEnglish: cleanHadithTitle(en.trim()),
+        nameArabic: cleanHadithTitle(ar.trim()),
         hadithStartNumber: typeof b.hadithStartNumber === "number" ? b.hadithStartNumber : null,
         hadithEndNumber: typeof b.hadithEndNumber === "number" ? b.hadithEndNumber : null,
         numberOfHadith: typeof b.numberOfHadith === "number" ? b.numberOfHadith : null,
@@ -288,9 +289,9 @@ export async function getCollectionBooks(collection: HadithCollectionId): Promis
       if (Number.isInteger(na) && Number.isInteger(nb)) return na - nb;
       return a.bookNumber.localeCompare(b.bookNumber);
     });
-}
+});
 
-export async function getBook(
+export const getBook = cache(async function getBook(
   collection: HadithCollectionId,
   bookNumber: string
 ): Promise<HadithBookSummary | null> {
@@ -298,7 +299,7 @@ export async function getBook(
   const norm = bookNumber.toLowerCase().trim();
   const found = books.find((b) => b.bookNumber.toLowerCase() === norm);
   return found ?? null;
-}
+});
 
 // ---------------- Hadiths ----------------
 
@@ -327,15 +328,6 @@ interface ApiHadithsListResponse {
   limit?: number;
   previous?: number | null;
   next?: number | null;
-}
-
-function cleanHtmlText(html: string): string {
-  const text = html
-    .replace(/<\/?p[^>]*>/gi, "\n")
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/\n\s*\n/g, "\n\n")
-    .trim();
-  return cleanHadithMarkup(text);
 }
 
 /** Validates verified provider grade labels using exact supported rules. */
@@ -405,7 +397,7 @@ export function isEligibleHadith(item: ApiHadithItem, collection: HadithCollecti
   // Bukhari chapter headings (tarjamah al-bab) that lack musnad narration are excluded
   // Evidence-backed check: rejects headings starting with باب or chapter without arbitrary length cutoffs
   if (collection === "bukhari") {
-    const cleanAr = cleanHtmlText(arabicBody).trim();
+    const cleanAr = cleanHadithDisplayText(arabicBody).trim();
     if (/^(?:باب(?:\s|:|$)|chapter\b)/i.test(cleanAr)) {
       return false;
     }
@@ -464,9 +456,9 @@ export function parseRawHadithItem(
   const rawArabic = arEntry?.body?.trim();
   if (!rawArabic) return null;
 
-  const arabicText = cleanHtmlText(rawArabic);
+  const arabicText = cleanHadithDisplayText(rawArabic);
   const rawEnglish = enEntry?.body?.trim();
-  const englishText = rawEnglish ? cleanHtmlText(rawEnglish) : null;
+  const englishText = rawEnglish ? cleanHadithDisplayText(rawEnglish) : null;
 
   const displayNum = formatDisplayReference(rawNum);
   const bookNum = String(item.bookNumber ?? "1").trim();
@@ -498,14 +490,14 @@ export function parseRawHadithItem(
     displayNumber: displayNum,
     arabicText,
     englishText,
-    chapterTitleEnglish: enEntry?.chapterTitle?.trim() || undefined,
-    chapterTitleArabic: arEntry?.chapterTitle?.trim() || undefined,
+    chapterTitleEnglish: enEntry?.chapterTitle ? cleanHadithDisplayText(enEntry.chapterTitle).trim() || undefined : undefined,
+    chapterTitleArabic: arEntry?.chapterTitle ? cleanHadithDisplayText(arEntry.chapterTitle).trim() || undefined : undefined,
     grades,
     url: `https://sunnah.com/${collection}:${displayNum}`,
   };
 }
 
-export async function getBookHadiths(
+export const getBookHadiths = cache(async function getBookHadiths(
   collection: HadithCollectionId,
   bookNumber: string,
   options?: { page?: number; limit?: number }
@@ -568,9 +560,9 @@ export async function getBookHadiths(
     nextPage: hasNext ? page + 1 : null,
     prevPage: hasPrev ? page - 1 : null,
   };
-}
+});
 
-export async function getHadithByReference(
+export const getHadithByReference = cache(async function getHadithByReference(
   collection: HadithCollectionId,
   reference: string
 ): Promise<HadithDetail | null> {
@@ -618,7 +610,7 @@ export async function getHadithByReference(
   }
 
   return detail;
-}
+});
 
 // ---------------- Navigation using Verified Ordering ----------------
 
@@ -631,7 +623,7 @@ interface BookHadithsPageResult {
 }
 
 /** Bounded helper to fetch verified, eligible references for a specific book page. */
-async function fetchBookHadithsPage(
+const fetchBookHadithsPage = cache(async function fetchBookHadithsPage(
   collection: HadithCollectionId,
   bookNumber: string,
   page: number,
@@ -664,8 +656,8 @@ async function fetchBookHadithsPage(
     typeof json.limit === "number" && json.limit > 0
       ? json.limit
       : rawCount > 0 && json.next != null
-      ? rawCount
-      : limit;
+        ? rawCount
+        : limit;
 
   const total = typeof json.total === "number" ? json.total : eligibleRefs.length;
   const totalPages = Math.ceil(total / effectiveLimit) || 1;
@@ -678,7 +670,7 @@ async function fetchBookHadithsPage(
     hasNext,
     effectiveLimit,
   };
-}
+});
 
 export async function getAdjacentHadiths(
   collection: HadithCollectionId,

@@ -8,6 +8,14 @@ import { CollectionBooks } from "@/components/hadith/CollectionBooks";
 import { HadithErrorState } from "@/components/hadith/HadithErrorState";
 import "@/app/[lang]/hadith/hadith.css";
 
+function isNextInternalError(err: unknown): boolean {
+  if (typeof err === "object" && err !== null && "digest" in err) {
+    const digest = String((err as { digest?: unknown }).digest);
+    return digest.startsWith("NEXT_");
+  }
+  return false;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -51,10 +59,25 @@ export default async function CollectionPage({
 
   const dict = getDictionary(lang);
 
+  let col;
   try {
-    const col = await getCollection(collection);
-    if (!col) notFound();
+    col = await getCollection(collection);
+  } catch (err: unknown) {
+    if (isNextInternalError(err)) throw err;
+    return (
+      <HadithErrorState
+        lang={lang as Locale}
+        dict={dict.hadith}
+        errorMessage={err instanceof Error ? err.message : undefined}
+      />
+    );
+  }
 
+  if (!col) {
+    notFound();
+  }
+
+  try {
     const books = await getCollectionBooks(col.id as HadithCollectionId);
 
     return (
@@ -66,6 +89,7 @@ export default async function CollectionPage({
       />
     );
   } catch (err: unknown) {
+    if (isNextInternalError(err)) throw err;
     return (
       <HadithErrorState
         lang={lang as Locale}
@@ -75,4 +99,3 @@ export default async function CollectionPage({
     );
   }
 }
-

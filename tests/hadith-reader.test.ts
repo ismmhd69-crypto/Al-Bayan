@@ -1,14 +1,18 @@
 import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
 import React from "react";
 import { renderToString } from "react-dom/server";
+import { readFileSync } from "node:fs";
 import {
   compareHadithReferences,
   formatDisplayReference,
   isEligibleGrade,
   isEligibleHadith,
+  parseRawHadithItem,
   normalizeReferenceForLookup,
   validateReferenceInput,
 } from "@/lib/hadith/service";
+import { cleanHadithDisplayText } from "@/lib/hadith/display";
+import { HadithDisplayText } from "@/components/hadith/HadithDisplayText";
 import { HadithIndex } from "@/components/hadith/HadithIndex";
 import { CollectionBooks } from "@/components/hadith/CollectionBooks";
 import { BookReader } from "@/components/hadith/BookReader";
@@ -42,6 +46,109 @@ describe("Hadith Reader Service and Components (Codex Source Review Repairs)", (
   afterEach(() => {
     globalThis.fetch = originalFetch;
     process.env = { ...originalEnv };
+  });
+
+  describe("safe display cleanup for saved Sunnah content", () => {
+    const collection: HadithCollectionSummary = {
+      id: "muslim",
+      name: "muslim",
+      nameArabic: "صحيح مسلم",
+      nameEnglish: "Sahih Muslim",
+      shortIntro: "",
+      totalBooks: 1,
+      totalHadith: 1,
+      totalAvailableHadith: 1,
+    };
+
+    function savedMuslimEightA(): HadithDetail {
+      const snapshot = JSON.parse(readFileSync(new URL("../data/sunnah/muslim-1-1.json", import.meta.url), "utf8")) as {
+        data: Record<string, unknown>[];
+      };
+      const item = snapshot.data.find((row) => row.hadithNumber === "8 a");
+      if (!item) throw new Error("Saved Sunnah snapshot is missing Sahih Muslim 8a");
+      const hadith = parseRawHadithItem(item, "muslim", "8a");
+      if (!hadith) throw new Error("Saved Sahih Muslim 8a did not parse");
+      return hadith;
+    }
+
+    it("renders the confirmed Muslim 8a wording and its emphasis without literal tags", () => {
+      const hadith = {
+        ...savedMuslimEightA(),
+        chapterTitleEnglish: "The <i>Faith</i> chapter",
+        bookNameEnglish: "Book of <strong>Faith</strong>",
+      };
+      const html = renderToString(
+        React.createElement(HadithReader, {
+          lang: "en",
+          dict: getDictionary("en").hadith,
+          collection,
+          hadith,
+          prevRef: null,
+          nextRef: null,
+        }),
+      );
+
+      expect(hadith.englishText).toContain("<i>taqdir</i> (Divine Decree)");
+      expect(html).toContain("<em>taqdir</em> (Divine Decree)");
+      expect(html).toContain("<em>Faith</em> chapter");
+      expect(html).toContain("<strong>Faith</strong>");
+      expect(html).not.toContain("&lt;i&gt;taqdir&lt;/i&gt;");
+    });
+
+    it("renders book titles, chapter headings, paragraph breaks, and entity text safely", () => {
+      const hadith = {
+        ...savedMuslimEightA(),
+        chapterTitleEnglish: "Chapter <i>Faith</i>",
+        englishText: "first paragraph\n\nsecond &amp; final",
+      };
+      const data: PaginatedHadiths = {
+        hadiths: [hadith],
+        total: 1,
+        page: 1,
+        limit: 20,
+        totalPages: 1,
+        hasNext: false,
+        hasPrev: false,
+        nextPage: null,
+        prevPage: null,
+      };
+      const html = renderToString(
+        React.createElement(BookReader, {
+          lang: "en",
+          dict: getDictionary("en").hadith,
+          collection,
+          book: {
+            bookNumber: "1",
+            nameEnglish: "Book of <i>Faith</i>",
+            nameArabic: "كتاب الإيمان",
+          },
+          initialData: data,
+        }),
+      );
+
+      expect(html).toContain("<em>Faith</em>");
+      expect(html).toContain("first paragraph\n\nsecond &amp; final");
+      expect(html).not.toContain("&amp;amp;");
+      expect(html).not.toContain("&lt;i&gt;");
+    });
+
+    it("converts confirmed escaped break markup while leaving text as safe React text", () => {
+      const text = cleanHadithDisplayText("first line&gt;br&gt;second line");
+      const html = renderToString(React.createElement(HadithDisplayText, { text }));
+
+      expect(text).toBe("first line\nsecond line");
+      expect(html).toContain("first line\nsecond line");
+    });
+
+    it("keeps paragraph spacing and linked reference wording without exposing known wrappers", () => {
+      const paragraphs = cleanHadithDisplayText("<p>First paragraph.</p><p>Second paragraph.</p>");
+      const reference = cleanHadithDisplayText(
+        'See <a href="https://sunnah.com/bukhari:1">Hadith 1</a> and <span style="text-align: center;">this phrase</span>.',
+      );
+
+      expect(paragraphs).toBe("First paragraph.\n\nSecond paragraph.");
+      expect(reference).toBe("See Hadith 1 and this phrase.");
+    });
   });
 
   // -------------------------------------------------------------
