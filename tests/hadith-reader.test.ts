@@ -61,7 +61,7 @@ describe("Hadith Reader Service and Components (Codex Source Review Repairs)", (
     };
 
     function savedMuslimEightA(): HadithDetail {
-      const snapshot = JSON.parse(readFileSync(new URL("../data/sunnah/muslim-1-1.json", import.meta.url), "utf8")) as {
+      const snapshot = JSON.parse(readFileSync(new URL("./fixtures/sunnah-muslim-8a.json", import.meta.url), "utf8")) as {
         data: Record<string, unknown>[];
       };
       const item = snapshot.data.find((row) => row.hadithNumber === "8 a");
