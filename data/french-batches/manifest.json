@@ -20098,6 +20098,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-937",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-937.json",
+      "sourceIds": [
+        "c43bf979-b1f7-4e85-936a-8e4198ad2ca9",
+        "6f8f5430-6ac0-4d60-b07c-5050be3571cd",
+        "d673277e-e8e7-453f-a1b5-c6726d72e90a",
+        "74be3365-c9db-45f5-8949-51ee054bbb65",
+        "51bae682-85d4-4d98-a472-ed0b69edf50a",
+        "8ae75c1b-6040-4c75-a61b-d848e5f3fa52"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22916,6 +22937,30 @@
       "reason": "The single-item source exceeds the multi-item batch threshold and needs a distinct completeness review before translation."
     },
     {
+      "id": "HADITH-BUKHARI-5128-QURAN-4-127",
+      "scope": "Sahih al-Bukhari 5128: direct Quran quotation from 4:127",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:127. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5129-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5129: source ends before the report is complete",
+      "status": "blocked",
+      "reason": "The exported excerpt stops during the exchange about Hafsa and does not include the rest of the report. Keep blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-5130-QURAN-2-232-UNMARKED",
+      "scope": "Sahih al-Bukhari 5130: unmarked direct Quran wording from 2:232",
+      "status": "blocked",
+      "reason": "The report contains direct Quran wording from 2:232 without Quran markers. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5131-QURAN-4-127",
+      "scope": "Sahih al-Bukhari 5131: direct Quran quotation from 4:127",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:127. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
@@ -22964,7 +23009,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4190,
-  "hadithLocalDrafted": 4190,
-  "hadithLocalRemaining": 10477
+  "hadithBukhariDrafted": 4192,
+  "hadithLocalDrafted": 4192,
+  "hadithLocalRemaining": 10475
 }
