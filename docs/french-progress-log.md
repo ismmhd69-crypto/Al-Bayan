@@ -3321,3 +3321,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-681` saves six private French drafts about Bu‘âth, pilgrimage customs, pre-Islamic practices and the beginning of the Prophet’s mission.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,431 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 252. Total local hadith rows not drafted: 11,226, including held records.
+
+### 2026-10-29: Bukhari 3852–3857
+
+- `FR-LIB-HAD-BUKHARI-682` saves four private French drafts about persecution in Mecca and the early Muslims. Bukhari 3855 and 3856 remain blank because they quote Quran 6:151, 4:93, 25:70 and 40:28; no approved, attributed French Quran translation is confirmed.
+- All six records passed the focused validator, including both Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,435 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 254. Total local hadith rows not drafted: 11,222, including held records.
