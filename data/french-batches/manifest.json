@@ -21349,6 +21349,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-998",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-998.json",
+      "sourceIds": [
+        "f4fa5a6a-c46d-40f1-917a-31b0df6a315a",
+        "c582374d-1e6f-4ea6-895a-d431f95ce057",
+        "b1cf1602-e6fd-4247-a537-952389544eb4",
+        "c7ea2511-a144-491c-a0a2-b9e28308d0a1",
+        "5dc06e81-5548-4045-8c87-4e71e23eb417",
+        "c39b22ae-870c-4521-8dbc-c8f7d34e39d0"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -24345,9 +24366,15 @@
       "scope": "Sahih al-Bukhari 5406: excerpt only says the group set out toward Mecca",
       "status": "blocked",
       "reason": "The excerpt records only the start of a journey and omits the report. Keep the translation blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-5470B-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5470b: source only says the previous hadith was continued",
+      "status": "blocked",
+      "reason": "The excerpt omits the actual report and only notes that the previous hadith was carried forward. Keep the translation blank until a complete source is available."
     }
   ],
-  "hadithBukhariDrafted": 4506,
-  "hadithLocalDrafted": 4506,
-  "hadithLocalRemaining": 10161
+  "hadithBukhariDrafted": 4511,
+  "hadithLocalDrafted": 4511,
+  "hadithLocalRemaining": 10156
 }
