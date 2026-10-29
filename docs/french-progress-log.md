@@ -7906,3 +7906,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0156 saves six private French drafts about remembering Allah, ablution after using the toilet, and the invocation when entering a toilet. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 655 Muslim drafts, 6,991 total hadith drafts, 7,638 remaining, and 302 Needs Mo items.
+
+### 2026-10-29: Muslim 375b–377
+
+- FR-LIB-HAD-MUSLIM-0157 saves six private French drafts about the invocation for entering the toilet, conversations before prayer, and the beginning of the call to prayer. The alternate invocation wording and narrator paths are retained. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 661 Muslim drafts, 6,997 total hadith drafts, 7,632 remaining, and 302 Needs Mo items.
