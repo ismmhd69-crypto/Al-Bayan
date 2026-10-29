@@ -1024,3 +1024,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-211` saves six private French drafts for Bukhari 1211–1216. They preserve the reports about prayer while managing a mount, the eclipse prayer, the prayer’s etiquette, and the narrated greetings and movement during prayer.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,122 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 57. Total local hadith rows not drafted: 13,507, including held records.
+### 2026-10-29: Bukhari 1217–1222 source review
+
+- `FR-LIB-HAD-BUKHARI-212` saves six private French drafts for Bukhari 1217–1222. They preserve Jabir’s concern about the Prophet’s silence, the complete prayer leadership account, the hand-on-hips reports, and the reports about remembered gold and prayer distraction.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,128 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 57. Total local hadith rows not drafted: 13,501, including held records.
