@@ -10301,3 +10301,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0634 saves five private French drafts about not undercutting another believer and the prohibition of shighar, a reciprocal marriage arrangement without a dowry. Muslim 1415b contains only a cross-reference and a follow-up question, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1416b–1420
+
+- FR-LIB-HAD-MUSLIM-0635 saves four private French drafts about the shighar marriage prohibition, fulfilling marriage conditions, and the requirement to seek a woman’s consent. Muslim 1416b and 1419b only give a chain or a reference to prior wording and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
