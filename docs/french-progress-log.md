@@ -6428,3 +6428,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1252 isolates one 7,498-character report. It remains blank because it identifies wording as an “ayah of stoning” and includes another passage said to be recited from the Book of Allah. No database writes or publication occurred.
 - The source hash is retained and the focused batch validator passed. Bukhari local drafts remain 5,750 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 829. Total local hadith rows not drafted: 8,879, including held records.
+
+
+### 2026-10-29: Bukhari 6831–6839 (six exported records)
+
+- FR-LIB-HAD-BUKHARI-1253 saves six private French drafts, preserving the legal conditions, chains and stated uncertainty. The exporter returned six eligible records: 6831, 6833–6835, 6837 and 6839. No database writes or publication occurred.
+- All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,756 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 829. Total local hadith rows not drafted: 8,873, including held records.
