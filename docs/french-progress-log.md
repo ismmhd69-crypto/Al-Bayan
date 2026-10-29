@@ -1201,3 +1201,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-253` saves one private French draft for Bukhari 1454. This long report was handled alone and preserves the full camel, sheep and silver zakat schedule, every threshold and the voluntary exceptions. No Needs Mo item was identified.
 - The single-record batch passed the focused validator for the Arabic hash, ID, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,330 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 75. Total local hadith rows not drafted: 13,299, including held records.
+
+### 2026-10-29: Bukhari 1455–1461 source review
+
+- `FR-LIB-HAD-BUKHARI-254` saves five private French drafts for Bukhari 1455, 1456 and 1458–1460. Bukhari 1461 remains blank and is recorded under Needs Mo because it quotes Quran 3:92 twice; no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,334 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 76. Total local hadith rows not drafted: 13,295, including held records.
