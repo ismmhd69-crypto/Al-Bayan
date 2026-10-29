@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0064",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:14:28.435Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b2c33c13-5119-4c09-8a90-365efc552797",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:155b",
+      "reference": "Sahih Muslim, hadith 155 b, book 1, باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "title": "باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ عَبْدُ الأَعْلَى بْنُ حَمَّادٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَزُهَيْرُ بْنُ حَرْبٍ قَالُوا حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، ح وَحَدَّثَنِيهِ حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، قَالَ حَدَّثَنِي يُونُسُ، ح وَحَدَّثَنَا حَسَنٌ الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، عَنْ يَعْقُوبَ بْنِ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، كُلُّهُمْ عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ وَفِي رِوَايَةِ ابْنِ عُيَيْنَةَ ‏\"‏ إِمَامًا مُقْسِطًا وَحَكَمًا عَدْلاً ‏\"‏ ‏.‏ وَفِي رِوَايَةِ يُونُسَ ‏\"‏ حَكَمًا عَادِلاً ‏\"‏ ‏.‏ وَلَمْ يَذْكُرْ ‏\"‏ إِمَامًا مُقْسِطًا ‏\"‏ ‏.‏ وَفِي حَدِيثِ صَالِحٍ ‏\"‏ حَكَمًا مُقْسِطًا ‏\"‏ كَمَا قَالَ اللَّيْثُ ‏.‏ وَفِي حَدِيثِهِ مِنَ الزِّيَادَةِ ‏\"‏ وَحَتَّى تَكُونَ السَّجْدَةُ الْوَاحِدَةُ خَيْرًا مِنَ الدُّنْيَا وَمَا فِيهَا ‏\"‏ ‏.‏ ثُمَّ يَقُولُ أَبُو هُرَيْرَةَ اقْرَءُوا إِنْ شِئْتُمْ ‏[quran sura=\"4\" aya_start=\"159\" aya_end=\"159\"]{‏ وَإِنْ مِنْ أَهْلِ الْكِتَابِ إِلاَّ لَيُؤْمِنَنَّ بِهِ قَبْلَ مَوْتِهِ‏}‏ الآيَةَ ‏.‏",
+      "source_hash_sha256": "8a0ce9028e6872ff97f2adf2b1c16e6964dee7c0fbaacd9fb2218326883f02a5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 4:159 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "08df2d3c-1381-46ca-98b9-cdf498708af2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:155c",
+      "reference": "Sahih Muslim, hadith 155 c, book 1, باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "title": "باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ سَعِيدِ بْنِ أَبِي سَعِيدٍ، عَنْ عَطَاءِ بْنِ مِينَاءَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَاللَّهِ لَيَنْزِلَنَّ ابْنُ مَرْيَمَ حَكَمًا عَادِلاً فَلَيَكْسِرَنَّ الصَّلِيبَ وَلَيَقْتُلَنَّ الْخِنْزِيرَ وَلَيَضَعَنَّ الْجِزْيَةَ وَلَتُتْرَكَنَّ الْقِلاَصُ فَلاَ يُسْعَى عَلَيْهَا وَلَتَذْهَبَنَّ الشَّحْنَاءُ وَالتَّبَاغُضُ وَالتَّحَاسُدُ وَلَيَدْعُوَنَّ إِلَى الْمَالِ فَلاَ يَقْبَلُهُ أَحَدٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "aefbad5fbe49d5aac7d57e84ada32c25661e7a844f090642e6348404adc707fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté, d’après al-Layth, d’après Sa‘id ibn Abi Sa‘id, d’après ‘Ata ibn Mina, d’après Abu Hurayra, que le Messager de Dieu ﷺ a dit : « Par Dieu, le fils de Maryam descendra assurément comme juge équitable. Il brisera la croix, tuera le porc, abolira la jizya ; les jeunes chamelles seront laissées à l’abandon et personne ne cherchera à les monter ; l’hostilité, la haine et l’envie disparaîtront. Il appellera les gens à prendre des richesses, mais personne ne les acceptera. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5596a57-f3d1-4743-b3fb-db1d8f0e13f4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:155d",
+      "reference": "Sahih Muslim, hadith 155 d, book 1, باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "title": "باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي نَافِعٌ، مَوْلَى أَبِي قَتَادَةَ الأَنْصَارِيِّ أَنَّ أَبَا هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ كَيْفَ أَنْتُمْ إِذَا نَزَلَ ابْنُ مَرْيَمَ فِيكُمْ وَإِمَامُكُمْ مِنْكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c63a79120942cf5d57be1b8b280996b413a5b21e810d372efdc897c825a9059b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya nous a rapporté, d’après Ibn Wahb, d’après Yunus, d’après Ibn Shihab, qui a dit : Nafi‘, l’affranchi d’Abu Qatada al-Ansari, m’a rapporté qu’Abu Hurayra a dit que le Messager de Dieu ﷺ a dit : « Que ferez-vous lorsque le fils de Maryam descendra parmi vous, tandis que votre imam sera l’un des vôtres ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a5f22c71-5867-40f8-b55d-cf9d72215785",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:155e",
+      "reference": "Sahih Muslim, hadith 155 e, book 1, باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "title": "باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا ابْنُ أَخِي ابْنِ شِهَابٍ، عَنْ عَمِّهِ، قَالَ أَخْبَرَنِي نَافِعٌ، مَوْلَى أَبِي قَتَادَةَ الأَنْصَارِيِّ أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ كَيْفَ أَنْتُمْ إِذَا نَزَلَ ابْنُ مَرْيَمَ فِيكُمْ وَأَمَّكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "caf0bf26065966af39cc7d8b4c0054f89c0776f24a872855ed6d343bbd33b516",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim nous a rapporté, d’après Ya‘qub ibn Ibrahim, d’après le neveu d’Ibn Shihab, d’après son oncle, qui a dit : Nafi‘, l’affranchi d’Abu Qatada al-Ansari, m’a rapporté avoir entendu Abu Hurayra dire que le Messager de Dieu ﷺ a dit : « Que ferez-vous lorsque le fils de Maryam descendra parmi vous et dirigera votre prière ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5aeda94e-1f4e-47a8-be22-378c3b0594da",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:155f",
+      "reference": "Sahih Muslim, hadith 155 f, book 1, باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "title": "باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنِي الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ، عَنِ ابْنِ شِهَابٍ، عَنْ نَافِعٍ، مَوْلَى أَبِي قَتَادَةَ عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ كَيْفَ أَنْتُمْ إِذَا نَزَلَ فِيكُمُ ابْنُ مَرْيَمَ فَأَمَّكُمْ مِنْكُمْ ‏\"‏ ‏.‏ فَقُلْتُ لاِبْنِ أَبِي ذِئْبٍ إِنَّ الأَوْزَاعِيَّ حَدَّثَنَا عَنِ الزُّهْرِيِّ عَنْ نَافِعٍ عَنْ أَبِي هُرَيْرَةَ ‏\"‏ وَإِمَامُكُمْ مِنْكُمْ ‏\"‏ ‏.‏ قَالَ ابْنُ أَبِي ذِئْبٍ تَدْرِي مَا أَمَّكُمْ مِنْكُمْ قُلْتُ تُخْبِرُنِي ‏.‏ قَالَ فَأَمَّكُمْ بِكِتَابِ رَبِّكُمْ تَبَارَكَ وَتَعَالَى وَسُنَّةِ نَبِيِّكُمْ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "ded8196dd43341fe22ddc89277cb35e4b6792c8566f02b8f6fe69ab44e7d7609",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté, d’après al-Walid ibn Muslim, d’après Ibn Abi Dhi’b, d’après Ibn Shihab, d’après Nafi‘, l’affranchi d’Abu Qatada, d’après Abu Hurayra, que le Messager de Dieu ﷺ a dit : « Que ferez-vous lorsque le fils de Maryam descendra parmi vous et dirigera votre prière, étant l’un des vôtres ? » Je dis à Ibn Abi Dhi’b : « Al-Awza‘i nous a rapporté, d’après al-Zuhri, d’après Nafi‘, d’après Abu Hurayra : “et votre imam sera l’un des vôtres.” » Ibn Abi Dhi’b dit : « Sais-tu ce que signifie “il dirigera votre prière, étant l’un des vôtres” ? » Je répondis : « Explique-le-moi. » Il dit : « Il vous dirigera selon le Livre de votre Seigneur, béni et exalté soit-Il, et la Sunna de votre Prophète ﷺ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ad9366cc-5b68-4b1e-b8c3-a83055292bcc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:156",
+      "reference": "Sahih Muslim, hadith 156, book 1, باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "title": "باب نُزُولِ عِيسَى ابْنِ مَرْيَمَ حَاكِمًا بِشَرِيعَةِ نَبِيِّنَا مُحَمَّدٍ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْوَلِيدُ بْنُ شُجَاعٍ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، وَحَجَّاجُ بْنُ الشَّاعِرِ، قَالُوا حَدَّثَنَا حَجَّاجٌ، - وَهُوَ ابْنُ مُحَمَّدٍ - عَنِ ابْنِ جُرَيْجٍ، قَالَ أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي يُقَاتِلُونَ عَلَى الْحَقِّ ظَاهِرِينَ إِلَى يَوْمِ الْقِيَامَةِ - قَالَ - فَيَنْزِلُ عِيسَى ابْنُ مَرْيَمَ صلى الله عليه وسلم فَيَقُولُ أَمِيرُهُمْ تَعَالَ صَلِّ لَنَا ‏.‏ فَيَقُولُ لاَ ‏.‏ إِنَّ بَعْضَكُمْ عَلَى بَعْضٍ أُمَرَاءُ ‏.‏ تَكْرِمَةَ اللَّهِ هَذِهِ الأُمَّةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2c6c65ff17a736aeaabf44520790b30cf7bd60e05ec6026fbb8737b0e2b61766",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Walid ibn Shuja‘, Harun ibn ‘Abd Allah et Hajjaj ibn al-Sha‘ir nous ont rapporté, d’après Hajjaj — c’est-à-dire Ibn Muhammad —, d’après Ibn Jurayj, qui a dit : Abu al-Zubayr m’a rapporté avoir entendu Jabir ibn ‘Abd Allah dire : « J’ai entendu le Prophète ﷺ dire : “Un groupe de ma communauté ne cessera de combattre pour la vérité et de prévaloir jusqu’au Jour de la Résurrection.” » Il ajouta : « Alors Jésus, fils de Maryam, descendra. Leur chef lui dira : “Viens diriger notre prière.” Il répondra : “Non. Certains d’entre vous sont les dirigeants des autres, en hommage de Dieu à cette communauté.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b2c33c13-5119-4c09-8a90-365efc552797",
+      "reason": "Ce récit cite directement le verset 4:159 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
