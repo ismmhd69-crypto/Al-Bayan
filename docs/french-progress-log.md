@@ -872,3 +872,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-173` saves five private French drafts for Bukhari 978 and 980–983. Bukhari 979 remains blank under Needs Mo because it quotes Quran 60:12 and no approved, attributed French Quran translation is available.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 912 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 45. Total local hadith rows not drafted: 13,717, including held records.
+### 2026-10-29: Bukhari 984–990 source review
+
+- `FR-LIB-HAD-BUKHARI-174` saves six private French drafts for Bukhari 984–990. They preserve the one-time allowance in the sacrifice report, the alternate route after Eid, the celebration reports, and the night prayer description.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 918 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 45. Total local hadith rows not drafted: 13,711, including held records.
