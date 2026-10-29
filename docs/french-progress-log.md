@@ -7658,3 +7658,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0109 saves five private French drafts on ablution and nasal cleansing, preserving the detailed ablution variant and each report’s wording.
 - Muslim 237d contains only transmission chains and a reference to similar wording without the report text. It remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 436 Muslim drafts, 6,772 total hadith drafts, 7,857 remaining, and 245 Needs Mo items.
+
+### 2026-10-29: Muslim 238–240d
+
+- FR-LIB-HAD-MUSLIM-0110 saves three private French drafts on nasal cleansing and complete foot washing.
+- Muslim 240b, 240c and 240d contain only transmission chains and references to the previous report’s wording. All three remain blank under Needs Mo rather than borrowing text from 240a.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 439 Muslim drafts, 6,775 total hadith drafts, 7,854 remaining, and 248 Needs Mo items.
