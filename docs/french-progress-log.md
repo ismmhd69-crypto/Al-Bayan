@@ -1721,3 +1721,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-361` saves six private French drafts for Bukhari 2111–2116, retaining the alternative sale terms and the account of Ibn ‘Umar’s exchange with ‘Uthmân. The exporter also identified a longer source for a following single-item export.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,923 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 116. Total local hadith rows not drafted: 12,706, including held records.
+
+### 2026-10-29: Bukhari 2117–2122 source review
+
+- `FR-LIB-HAD-BUKHARI-362` saves six private French drafts for Bukhari 2117–2122, including the sale condition and the account involving the Prophet’s grandson.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,929 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 116. Total local hadith rows not drafted: 12,700, including held records.
