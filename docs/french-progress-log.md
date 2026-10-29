@@ -5969,3 +5969,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6372–6377
 
 - FR-LIB-HAD-BUKHARI-1170 saves six private French drafts about supplication, illness, and seeking refuge. No database writes or publication occurred. Bukhari local drafts: 5,349 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 777. Total local hadith rows not drafted: 9,278, including held records.
+
+### 2026-10-29: Bukhari 6378–6385
+
+- FR-LIB-HAD-BUKHARI-1171 saves six private French drafts about prayer and supplication. No database writes or publication occurred. Bukhari local drafts: 5,355 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 777. Total local hadith rows not drafted: 9,272, including held records.
