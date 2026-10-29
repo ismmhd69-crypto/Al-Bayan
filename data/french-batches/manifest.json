@@ -19056,6 +19056,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-886",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-886.json",
+      "sourceIds": [
+        "ba73484f-d535-4a27-b6de-56187db80f9d",
+        "c706ac84-a2ae-497f-9465-024e962c6ec1",
+        "43d4af6d-cbe8-4f9e-8eb4-cbd90779d0dd",
+        "035b3a65-5fac-4fcc-b104-4c6a8d408fed",
+        "c02e04fd-c73c-4365-8d58-e117bfa0b592",
+        "82da2fba-100b-4541-9c8c-743c79361dba"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 6,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -21134,6 +21155,42 @@
       "scope": "Sahih al-Bukhari 4851: direct Quran wording from 50:39",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 50:39. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-885, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4852-QURAN-50-40",
+      "scope": "Sahih al-Bukhari 4852: direct Quran quotation from 50:40",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 50:40. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-886, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4853-QURAN-52-1-2-UNMARKED",
+      "scope": "Sahih al-Bukhari 4853: direct Quran quotation from 52:1-2 (citation directe sans marqueur de balisage)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 52:1-2 (citation directe sans marqueur de balisage). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-886, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4854-QURAN-52-35-37",
+      "scope": "Sahih al-Bukhari 4854: direct Quran quotation from 52:35-37",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 52:35-37. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-886, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4855-QURAN-6-102-42-51-31-34-5-67",
+      "scope": "Sahih al-Bukhari 4855: direct Quran quotation from 6:102, 42:51, 31:34, 5:67",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 6:102, 42:51, 31:34, 5:67. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-886, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4856-QURAN-53-9-10",
+      "scope": "Sahih al-Bukhari 4856: direct Quran quotation from 53:9-10",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 53:9-10. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-886, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4857-QURAN-53-9-10",
+      "scope": "Sahih al-Bukhari 4857: direct Quran quotation from 53:9-10",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 53:9-10. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-886, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4051,
