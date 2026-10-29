@@ -9701,3 +9701,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0514 saves six private French drafts about an ‘umra traveler wearing scented clothing and the pilgrimage entry points. All six reports provide complete source text.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1182a–1183b
+
+- FR-LIB-HAD-MUSLIM-0515 saves five private French drafts about the pilgrimage entry points (miqat) for residents and travelers. Muslim 1183a begins a report but stops before giving the actual response and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.

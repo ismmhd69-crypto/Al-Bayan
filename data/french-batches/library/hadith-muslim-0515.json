@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0515",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:46:07.681Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d25deb51-f6e5-46f5-8d22-a6ff365b7e76",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1182a",
+      "reference": "Sahih Muslim, hadith 1182 a, book 15, باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "title": "باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، - رضى الله عنهما - أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يُهِلُّ أَهْلُ الْمَدِينَةِ مِنْ ذِي الْحُلَيْفَةِ وَأَهْلُ الشَّامِ مِنَ الْجُحْفَةِ وَأَهْلُ نَجْدٍ مِنْ قَرْنٍ ‏\"‏ ‏.‏ قَالَ عَبْدُ اللَّهِ وَبَلَغَنِي أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ وَيُهِلُّ أَهْلُ الْيَمَنِ مِنْ يَلَمْلَمَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "45e47b73896be77ca16519ae6327da225f414a7b2705da5b96894711969e1d90",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu devant Malik, d’après Nafi‘, d’après Ibn ‘Umar, qu’Allah les agrée tous deux : le Messager d’Allah ﷺ a dit : « Les habitants de Médine entrent en état de sacralisation depuis Dhul Hulayfa, les habitants du Levant depuis al-Juhfa, et les habitants du Najd depuis Qarn. » ‘Abd Allah dit : il m’est parvenu que le Messager d’Allah ﷺ a également dit : « Les habitants du Yémen entrent en état de sacralisation depuis Yalamlam. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "48b23b19-5559-4685-8383-d019c5ea0c4c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1182b",
+      "reference": "Sahih Muslim, hadith 1182 b, book 15, باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "title": "باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَابْنُ أَبِي عُمَرَ، قَالَ ابْنُ أَبِي عُمَرَ حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، - رضى الله عنه - أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يُهِلُّ أَهْلُ الْمَدِينَةِ مِنْ ذِي الْحُلَيْفَةِ وَيُهِلُّ أَهْلُ الشَّامِ مِنَ الْجُحْفَةِ وَيُهِلُّ أَهْلُ نَجْدٍ مِنْ قَرْنٍ ‏\"‏ ‏.‏ قَالَ ابْنُ عُمَرَ - رضى الله عنهما - وَذُكِرَ لِي - وَلَمْ أَسْمَعْ - أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ وَيُهِلُّ أَهْلُ الْيَمَنِ مِنْ يَلَمْلَمَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b5bfcbe495def5eb7a30399625963a83c37796372277fd0b554574b719001806",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Ibn Abi ‘Umar m’ont rapporté. Ibn Abi ‘Umar dit : Sufyan nous a rapporté, d’après al-Zuhri, d’après Salim, d’après son père, qu’Allah l’agrée : le Messager d’Allah ﷺ a dit : « Les habitants de Médine entrent en état de sacralisation depuis Dhul Hulayfa, les habitants du Levant depuis al-Juhfa, et les habitants du Najd depuis Qarn. » Ibn ‘Umar, qu’Allah les agrée tous deux, dit : « Il m’a été rapporté — mais je ne l’ai pas entendu moi-même — que le Messager d’Allah ﷺ avait aussi dit : “Les habitants du Yémen entrent en état de sacralisation depuis Yalamlam.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "42d0a2de-3d5c-4b0a-b224-95aac07407a1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1182c",
+      "reference": "Sahih Muslim, hadith 1182 c, book 15, باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "title": "باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ بْنِ عُمَرَ بْنِ الْخَطَّابِ، - رضى الله عنه - عَنْ أَبِيهِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مُهَلُّ أَهْلِ الْمَدِينَةِ ذُو الْحُلَيْفَةِ وَمُهَلُّ أَهْلِ الشَّامِ مَهْيَعَةُ وَهِيَ الْجُحْفَةُ وَمُهَلُّ أَهْلِ نَجْدٍ قَرْنٌ ‏\"‏ ‏.‏ قَالَ عَبْدُ اللَّهِ بْنُ عُمَرَ - رضى الله عنهما - وَزَعَمُوا أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم - وَلَمْ أَسْمَعْ ذَلِكَ مِنْهُ - قَالَ ‏\"‏ وَمُهَلُّ أَهْلِ الْيَمَنِ يَلَمْلَمُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b2326b3b2e6dd38faf7b3480370f09f990b8ef63464a1b5a7fe5ab74d08538f8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya m’a rapporté : Ibn Wahb nous a informés : Yunus m’a rapporté, d’après Ibn Shihab, d’après Salim ibn ‘Abd Allah ibn ‘Umar ibn al-Khattab, qu’Allah l’agrée, d’après son père, qui a dit : j’ai entendu le Messager d’Allah ﷺ dire : « Le point d’entrée en état de sacralisation des habitants de Médine est Dhul Hulayfa ; celui des habitants du Levant est Mahya‘a, qui est al-Juhfa ; et celui des habitants du Najd est Qarn. » ‘Abd Allah ibn ‘Umar, qu’Allah les agrée tous deux, ajouta : « Ils rapportent que le Messager d’Allah ﷺ — mais je ne l’ai pas entendu de lui — a dit : “Le point d’entrée en état de sacralisation des habitants du Yémen est Yalamlam.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "53ae763d-aa83-4337-a628-a5174eb44d68",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1182d",
+      "reference": "Sahih Muslim, hadith 1182 d, book 15, باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "title": "باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَيَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَعَلِيُّ بْنُ حُجْرٍ، قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرُونَ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، أَنَّهُ سَمِعَ ابْنَ عُمَرَ، - رضى الله عنهما - قَالَ أَمَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَهْلَ الْمَدِينَةِ أَنْ يُهِلُّوا مِنْ ذِي الْحُلَيْفَةِ وَأَهْلَ الشَّامِ مِنَ الْجُحْفَةِ وَأَهْلَ نَجْدٍ مِنْ قَرْنٍ ‏.‏ وَقَالَ عَبْدُ اللَّهِ بْنُ عُمَرَ - رضى الله عنهما - وَأُخْبِرْتُ أَنَّهُ قَالَ ‏\"‏ وَيُهِلُّ أَهْلُ الْيَمَنِ مِنْ يَلَمْلَمَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ed079b1bf8e21842f160d9cca42ca9c9257013c4bc5ac4a3525b1ae2051703eb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya, Yahya ibn Ayyub, Qutayba ibn Sa‘id et ‘Ali ibn Hujr nous ont rapporté. Yahya dit : Isma‘il ibn Ja‘far nous a informés. Les autres disent : Isma‘il nous a rapporté, d’après ‘Abd Allah ibn Dinar, qui avait entendu Ibn ‘Umar, qu’Allah les agrée tous deux, dire : le Messager d’Allah ﷺ ordonna aux habitants de Médine d’entrer en état de sacralisation depuis Dhul Hulayfa, aux habitants du Levant depuis al-Juhfa et aux habitants du Najd depuis Qarn. ‘Abd Allah ibn ‘Umar, qu’Allah les agrée tous deux, dit : « On m’a rapporté qu’il avait dit aussi : “Les habitants du Yémen entrent en état de sacralisation depuis Yalamlam.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c903214d-65c8-4ec2-a290-e9ca7e6b9032",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1183a",
+      "reference": "Sahih Muslim, hadith 1183 a, book 15, باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "title": "باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، - رضى الله عنهما - يُسْأَلُ عَنِ الْمُهَلِّ، فَقَالَ سَمِعْتُ - ثُمَّ، انْتَهَى فَقَالَ أُرَاهُ يَعْنِي - النَّبِيَّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "8b7043467888d989e732dceb6480576e8ff18e1b7b7f5553ced34b0f287f1142",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "08976f21-8092-477f-9ba6-6ad96de08bf1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1183b",
+      "reference": "Sahih Muslim, hadith 1183 b, book 15, باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "title": "باب مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، وَعَبْدُ بْنُ حُمَيْدٍ، كِلاَهُمَا عَنْ مُحَمَّدِ بْنِ بَكْرٍ، - قَالَ عَبْدٌ أَخْبَرَنَا مُحَمَّدٌ، - أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، - رضى الله عنهما - يُسْأَلُ عَنِ الْمُهَلِّ، فَقَالَ سَمِعْتُ - أَحْسِبُهُ، رَفَعَ إِلَى النَّبِيِّ صلى الله عليه وسلم - فَقَالَ ‏\"‏ مُهَلُّ أَهْلِ الْمَدِينَةِ مِنْ ذِي الْحُلَيْفَةِ وَالطَّرِيقُ الآخَرُ الْجُحْفَةُ وَمُهَلُّ أَهْلِ الْعِرَاقِ مِنْ ذَاتِ عِرْقٍ وَمُهَلُّ أَهْلِ نَجْدٍ مِنْ قَرْنٍ وَمُهَلُّ أَهْلِ الْيَمَنِ مِنْ يَلَمْلَمَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e5fad43c2e7c0a085e9f126bc91e77796914f98c4a6f967f2c233f382f3dfa61",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim et ‘Abd ibn Humayd m’ont rapporté, tous deux d’après Muhammad ibn Bakr. ‘Abd dit : Muhammad nous a informés : Ibn Jurayj nous a informés : Abu al-Zubayr m’a rapporté qu’il avait entendu Jabir ibn ‘Abd Allah, qu’Allah les agrée tous deux, interrogé au sujet des points d’entrée en état de sacralisation. Il répondit : « J’ai entendu » — je pense qu’il attribuait ces paroles au Prophète ﷺ — « le point d’entrée des habitants de Médine est Dhul Hulayfa ; l’autre route est al-Juhfa ; celui des habitants de l’Iraq est Dhat ‘Irq ; celui des habitants du Najd est Qarn ; et celui des habitants du Yémen est Yalamlam. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c903214d-65c8-4ec2-a290-e9ca7e6b9032",
+      "reason": "La source ne rapporte que le début d’une réponse puis s’interrompt, sans donner le texte complet sur les points d’entrée. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    }
+  ]
+}
