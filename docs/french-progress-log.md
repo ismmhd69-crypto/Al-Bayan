@@ -1891,3 +1891,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-395` saves six private French drafts for Bukhari 2298–2304, including the combined 2302–2303 report and the shepherd’s ruling in 2304.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,094 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 121. Total local hadith rows not drafted: 12,535, including held records.
+
+### 2026-10-29: Bukhari 2305–2310 source review
+
+- `FR-LIB-HAD-BUKHARI-396` saves five private French drafts for Bukhari 2305, 2306, combined 2307–2308, 2309 and 2310, retaining the complete journey account and its added qîrât.
+- The five-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,099 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 121. Total local hadith rows not drafted: 12,530, including held records.
