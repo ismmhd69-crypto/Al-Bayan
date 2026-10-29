@@ -7846,3 +7846,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0144 saves six private French drafts about irregular bleeding, prayer during menstruation, and covering during a ritual bath. Narrator chains and the distinction between make-up fasting and prayer are retained.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 597 Muslim drafts, 6,933 total hadith drafts, 7,696 remaining, and 288 Needs Mo items.
+
+### 2026-10-29: Muslim 336b–g
+
+- FR-LIB-HAD-MUSLIM-0145 saves six private French drafts about the conquest of Mecca, ritual covering, and the forenoon prayer. The source’s distinction between eight prayer units and eight prostrations is preserved.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 603 Muslim drafts, 6,939 total hadith drafts, 7,690 remaining, and 288 Needs Mo items.
