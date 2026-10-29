@@ -7674,3 +7674,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0112 saves six private French drafts on ablution and its expiation of sins, including the imagery of luminous marks from ablution.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 451 Muslim drafts, 6,787 total hadith drafts, 7,842 remaining, and 248 Needs Mo items.
+
+### 2026-10-29: Muslim 247b–251a
+
+- FR-LIB-HAD-MUSLIM-0113 saves five private French drafts about ablution’s signs, the Prophet’s Basin, and completing ablution despite difficulty.
+- Muslim 249b gives the beginning of a report, then refers to another version for the rest while recording one wording difference. It remains blank under Needs Mo rather than being completed from the neighboring report.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 456 Muslim drafts, 6,792 total hadith drafts, 7,837 remaining, and 249 Needs Mo items.
