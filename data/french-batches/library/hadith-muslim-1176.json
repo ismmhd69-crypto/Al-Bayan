@@ -1,0 +1,116 @@
+{
+  "batch_id": "HADITH-MUSLIM-1176",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:34:18.319Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4fc1d6fe-faa6-4d4a-90a2-4a45ddcfb0d7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2541a",
+      "reference": "Sahih Muslim, hadith 2541 a, book 44, باب تَحْرِيمِ سَبِّ الصَّحَابَةِ رضى الله عنهم ‏‏",
+      "title": "باب تَحْرِيمِ سَبِّ الصَّحَابَةِ رضى الله عنهم ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي، سَعِيدٍ قَالَ كَانَ بَيْنَ خَالِدِ بْنِ الْوَلِيدِ وَبَيْنَ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ شَىْءٌ فَسَبَّهُ خَالِدٌ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تَسُبُّوا أَحَدًا مِنْ أَصْحَابِي فَإِنَّ أَحَدَكُمْ لَوْ أَنْفَقَ مِثْلَ أُحُدٍ ذَهَبًا مَا أَدْرَكَ مُدَّ أَحَدِهِمْ وَلاَ نَصِيفَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8579ec5a1b4cfbd809f704770e9b1bb6e87d10875423996c57cafab6dc7a3922",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Saʿīd rapporte qu’un différend opposa Khālid ibn al-Walīd à ʿAbd al-Raḥmān ibn ʿAwf, et que Khālid l’insulta. Le Messager d’Allah ﷺ dit alors : « N’insultez aucun de mes compagnons. Si l’un de vous dépensait en or l’équivalent du mont Uḥud, il n’atteindrait pas la valeur d’un mudd de l’un d’eux, ni même sa moitié. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6b8bf20f-b0bb-4c4f-a653-c34a93f8a5ff",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2541b",
+      "reference": "Sahih Muslim, hadith 2541 b, book 44, باب تَحْرِيمِ سَبِّ الصَّحَابَةِ رضى الله عنهم ‏‏",
+      "title": "باب تَحْرِيمِ سَبِّ الصَّحَابَةِ رضى الله عنهم ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو سَعِيدٍ الأَشَجُّ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا وَكِيعٌ، عَنِ الأَعْمَشِ، ح وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، جَمِيعًا عَنْ شُعْبَةَ، عَنِ الأَعْمَشِ، بِإِسْنَادِ جَرِيرٍ وَأَبِي مُعَاوِيَةَ ‏.‏ بِمِثْلِ حَدِيثِهِمَا وَلَيْسَ فِي حَدِيثِ شُعْبَةَ وَوَكِيعٍ ذِكْرُ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَخَالِدِ بْنِ الْوَلِيدِ ‏.‏",
+      "source_hash_sha256": "ae9985a49d198ba3089b0e1aeaaf5c1524ec096172792d90bf38d61e82bcf28e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4dae401a-cea0-4611-bfe8-7cb238ac5fdc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2542a",
+      "reference": "Sahih Muslim, hadith 2542 a, book 44, باب مِنْ فَضَائِلِ أُوَيْسٍ الْقَرَنِيِّ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ أُوَيْسٍ الْقَرَنِيِّ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا هَاشِمُ بْنُ الْقَاسِمِ، حَدَّثَنَا سُلَيْمَانُ بْنُ الْمُغِيرَةِ، حَدَّثَنِي سَعِيدٌ الْجُرَيْرِيُّ، عَنْ أَبِي نَضْرَةَ، عَنْ أُسَيْرِ بْنِ جَابِرٍ، أَنَّ أَهْلَ الْكُوفَةِ، وَفَدُوا، إِلَى عُمَرَ وَفِيهِمْ رَجُلٌ مِمَّنْ كَانَ يَسْخَرُ بِأُوَيْسٍ فَقَالَ عُمَرُ هَلْ هَا هُنَا أَحَدٌ مِنَ الْقَرَنِيِّينَ فَجَاءَ ذَلِكَ الرَّجُلُ فَقَالَ عُمَرُ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ قَالَ ‏\"‏ إِنَّ رَجُلاً يَأْتِيكُمْ مِنَ الْيَمَنِ يُقَالُ لَهُ أُوَيْسٌ لاَ يَدَعُ بِالْيَمَنِ غَيْرَ أُمٍّ لَهُ قَدْ كَانَ بِهِ بَيَاضٌ فَدَعَا اللَّهَ فَأَذْهَبَهُ عَنْهُ إِلاَّ مَوْضِعَ الدِّينَارِ أَوِ الدِّرْهَمِ فَمَنْ لَقِيَهُ مِنْكُمْ فَلْيَسْتَغْفِرْ لَكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "22717deb0689ce13bd47e716b26f1d851b0777a041963aaaf262db75f9d053fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Usayr ibn Jābir rapporte que les habitants de Kūfa vinrent auprès de ʿUmar. Parmi eux se trouvait un homme qui se moquait d’Uways. ʿUmar demanda : « Y a-t-il ici quelqu’un de la tribu des Qaran ? » Cet homme s’avança. ʿUmar lui dit : « Le Messager d’Allah ﷺ nous a dit : “Un homme du Yémen, nommé Uways, viendra à vous. Il ne laissera au Yémen que sa mère. Il souffrait de taches blanches sur la peau et invoqua Allah, qui les fit disparaître, sauf l’équivalent d’une pièce d’or ou d’argent. Celui d’entre vous qui le rencontrera, qu’il lui demande d’implorer le pardon pour vous.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "778aafb1-1f56-4712-bfb7-cc9e25717fe0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2542b",
+      "reference": "Sahih Muslim, hadith 2542 b, book 44, باب مِنْ فَضَائِلِ أُوَيْسٍ الْقَرَنِيِّ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ أُوَيْسٍ الْقَرَنِيِّ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا عَفَّانُ بْنُ مُسْلِمٍ، حَدَّثَنَا حَمَّادٌ، - وَهُوَ ابْنُ سَلَمَةَ - عَنْ سَعِيدٍ الْجُرَيْرِيِّ، بِهَذَا الإِسْنَادِ عَنْ عُمَرَ بْنِ الْخَطَّابِ، قَالَ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ خَيْرَ التَّابِعِينَ رَجُلٌ يُقَالُ لَهُ أُوَيْسٌ وَلَهُ وَالِدَةٌ وَكَانَ بِهِ بَيَاضٌ فَمُرُوهُ فَلْيَسْتَغْفِرْ لَكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d439dcaf054a92bb7d89183201334b975a6860df4af8d0fcd23dd5aafa31c0a6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUmar ibn al-Khaṭṭāb rapporte : « J’ai entendu le Messager d’Allah ﷺ dire : “Le meilleur des Successeurs est un homme nommé Uways. Il a une mère et souffrait de taches blanches sur la peau. Demandez-lui d’implorer le pardon pour vous.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6b8bf20f-b0bb-4c4f-a653-c34a93f8a5ff",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit précédent ; elle indique seulement l’omission de deux noms dans une variante. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
