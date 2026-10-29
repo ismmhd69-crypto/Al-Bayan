@@ -40172,6 +40172,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0540",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0540.json",
+      "sourceIds": [
+        "44fb9889-6553-4ff3-ac07-debf782f570a"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: one 10,012-character source isolated alone; source hash and ID preserved; direct Quran quotations require the entire French field blank under Needs Mo; rights flags passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47857,10 +47873,15 @@
       "source_id": "d21a37b6-7f18-4cd9-8f53-e226c3695bbc",
       "reason": "La source reprend seulement une chaîne de transmission et une variante de formulation d’un récit précédent, sans en rapporter le texte intégral. Garder toute la traduction française vide jusqu’à disponibilité du contenu complet correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "44fb9889-6553-4ff3-ac07-debf782f570a",
+      "reason": "La source contient des citations directes du Coran (2:125, 112:1, 109:1 et 2:158). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 2140,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 968
+  "hadithNeedsMo": 969
 }

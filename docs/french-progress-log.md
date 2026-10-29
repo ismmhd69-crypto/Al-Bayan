@@ -9826,3 +9826,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0539 saves one private French draft. Muslim 1217a directly quotes Quran 2:196 and 1217b is an abbreviated variant; both remain blank under Needs Mo.
 - All three source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1218a (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0540 isolates the 10,012-character report in its own batch. It contains direct quotations of Quran 2:125, 112:1, 109:1, and 2:158, so the full French field remains blank under Needs Mo.
+- The source hash is retained. Focused batch validation passed. No database write or publication occurred.
