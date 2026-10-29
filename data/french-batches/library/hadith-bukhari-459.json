@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-459",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:07:20.008Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "aaa63cb2-ad4b-4417-8fe7-b2b4e136ccaf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2662",
+      "reference": "Sahih al-Bukhari, hadith 2662, book 52, بَابُ إِذَا زَكَّى رَجُلٌ رَجُلاً كَفَاهُ",
+      "title": "بَابُ إِذَا زَكَّى رَجُلٌ رَجُلاً كَفَاهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلَامٍ أَخْبَرَنَا عَبْدُ الْوَهَّابِ حَدَّثَنَا خَالِدٌ الْحَذَّاءُ عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرَةَ عَنْ أَبِيهِ قَالَ أَثْنَى رَجُلٌ عَلَى رَجُلٍ عِنْدَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَ وَيْلَكَ قَطَعْتَ عُنُقَ صَاحِبِكَ قَطَعْتَ عُنُقَ صَاحِبِكَ مِرَارًا ثُمَّ قَالَ مَنْ كَانَ مِنْكُمْ مَادِحًا أَخَاهُ لَا مَحَالَةَ فَلْيَقُلْ أَحْسِبُ فُلَانًا وَاللَّهُ حَسِيبُهُ وَلَا أُزَكِّي عَلَى اللَّهِ أَحَدًا أَحْسِبُهُ كَذَا وَكَذَا إِنْ كَانَ يَعْلَمُ ذَلِكَ مِنْهُ",
+      "source_hash_sha256": "e4ab3765f899a30fbb3062bf9ea5ef4cb9da09658ca11151897656ef9e5e3441",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Sallâm, ‘Abd al-Wahhâb, Khâlid al-Hadhdhâ’, ‘Abd al-Rahmân ibn Abî Bakra et son père.\n\nUn homme fit l’éloge d’un autre en présence du Prophète. Celui-ci dit : « Malheur à toi ! Tu as brisé la nuque de ton compagnon ! Tu as brisé sa nuque ! » Il répéta cela plusieurs fois, puis ajouta : « Si l’un de vous tient absolument à faire l’éloge de son frère, qu’il dise : “Je pense qu’untel est ainsi, et Allah le jugera. Je ne déclare personne pur devant Allah. Je le pense ainsi et ainsi”, à condition de savoir cela de lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8a8a7e88-6c1c-4d37-a079-3ebf234aee2f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2663",
+      "reference": "Sahih al-Bukhari, hadith 2663, book 52, باب مَا يُكْرَهُ مِنَ الإِطْنَابِ فِي الْمَدْحِ وَلْيَقُلْ مَا يَعْلَمُ",
+      "title": "باب مَا يُكْرَهُ مِنَ الإِطْنَابِ فِي الْمَدْحِ وَلْيَقُلْ مَا يَعْلَمُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ صَبَّاحٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ زَكَرِيَّاءَ، حَدَّثَنَا بُرَيْدُ بْنُ عَبْدِ اللَّهِ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى ـ رضى الله عنه ـ قَالَ سَمِعَ النَّبِيُّ صلى الله عليه وسلم رَجُلاً يُثْنِي عَلَى رَجُلٍ، وَيُطْرِيهِ فِي مَدْحِهِ فَقَالَ ‏\"‏ أَهْلَكْتُمْ ـ أَوْ قَطَعْتُمْ ـ ظَهْرَ الرَّجُلِ ‏\"‏‏.‏",
+      "source_hash_sha256": "871042d0a63625ab4414e77483c6a90a59909ab1f4489234d2d5e3d838544201",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Sabbâh, Ismâ‘îl ibn Zakariyyâ, Burayd ibn ‘Abd Allâh, Abû Burda et Abû Mûsâ.\n\nLe Prophète entendit un homme faire l’éloge d’un autre et exagérer ses louanges. Il dit : « Vous avez détruit cet homme — ou vous lui avez brisé le dos. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e784ad69-77b0-4ef4-a115-cc936a4a1ffd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2664",
+      "reference": "Sahih al-Bukhari, hadith 2664, book 52, باب بُلُوغِ الصِّبْيَانِ وَشَهَادَتِهِمْ",
+      "title": "باب بُلُوغِ الصِّبْيَانِ وَشَهَادَتِهِمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو أُسَامَةَ، قَالَ حَدَّثَنِي عُبَيْدُ اللَّهِ، قَالَ حَدَّثَنِي نَافِعٌ، قَالَ حَدَّثَنِي ابْنُ عُمَرَ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم عَرَضَهُ يَوْمَ أُحُدٍ وَهْوَ ابْنُ أَرْبَعَ عَشْرَةَ سَنَةً، فَلَمْ يُجِزْنِي، ثُمَّ عَرَضَنِي يَوْمَ الْخَنْدَقِ وَأَنَا ابْنُ خَمْسَ عَشْرَةَ فَأَجَازَنِي‏.‏ قَالَ نَافِعٌ فَقَدِمْتُ عَلَى عُمَرَ بْنِ عَبْدِ الْعَزِيزِ وَهْوَ خَلِيفَةٌ، فَحَدَّثْتُهُ هَذَا الْحَدِيثَ، فَقَالَ إِنَّ هَذَا لَحَدٌّ بَيْنَ الصَّغِيرِ وَالْكَبِيرِ‏.‏ وَكَتَبَ إِلَى عُمَّالِهِ أَنْ يَفْرِضُوا لِمَنْ بَلَغَ خَمْسَ عَشْرَةَ‏.‏",
+      "source_hash_sha256": "256faeee170c55b76f87f718d38896646cc69c0415df4dd967341e3d3f0ec64c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Ubayd Allâh ibn Sa‘îd, Abû Usâma, ‘Ubayd Allâh, Nâfi‘ et Ibn ‘Umar.\n\nLe Messager d’Allah me présenta à l’armée le jour d’Uhud alors que j’avais quatorze ans, mais ne m’accepta pas. Il me présenta de nouveau le jour de la bataille du Fossé, alors que j’avais quinze ans, et m’accepta. Nâfi‘ dit : « Je vins trouver ‘Umar ibn ‘Abd al-‘Azîz alors qu’il était calife et lui rapportai ce récit. Il dit : “C’est là la limite entre l’enfance et l’âge adulte.” Il écrivit alors à ses gouverneurs d’accorder une solde à ceux qui avaient atteint quinze ans. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c54320f7-a5e6-49e4-b28d-330081027247",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2665",
+      "reference": "Sahih al-Bukhari, hadith 2665, book 52, باب بُلُوغِ الصِّبْيَانِ وَشَهَادَتِهِمْ",
+      "title": "باب بُلُوغِ الصِّبْيَانِ وَشَهَادَتِهِمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا صَفْوَانُ بْنُ سُلَيْمٍ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ ـ رضى الله عنه ـ يَبْلُغُ بِهِ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ غُسْلُ يَوْمِ الْجُمُعَةِ وَاجِبٌ عَلَى كُلِّ مُحْتَلِمٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "6528b5a51f3c6d57fb7916a9386dcca807c80d054339642df0bc2738291c7121",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Alî ibn ‘Abd Allâh, Sufyân, Safwân ibn Sulaym, ‘Atâ’ ibn Yasâr et Abû Sa‘îd al-Khudrî, qui rapporte ces paroles du Prophète.\n\nLe Prophète a dit : « Le grand lavage rituel du vendredi est obligatoire pour toute personne pubère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d114638b-461b-4a26-bc4c-765043effa9e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2666",
+      "reference": "Sahih al-Bukhari, hadith 2666, 2667, book 52, باب سُؤَالِ الْحَاكِمِ الْمُدَّعِيَ هَلْ لَكَ بَيِّنَةٌ قَبْلَ الْيَمِينِ",
+      "title": "باب سُؤَالِ الْحَاكِمِ الْمُدَّعِيَ هَلْ لَكَ بَيِّنَةٌ قَبْلَ الْيَمِينِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدٌ، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ حَلَفَ عَلَى يَمِينٍ وَهْوَ فِيهَا فَاجِرٌ، لِيَقْتَطِعَ بِهَا مَالَ امْرِئٍ مُسْلِمٍ، لَقِيَ اللَّهَ وَهْوَ عَلَيْهِ غَضْبَانُ ‏\"‏‏.‏ قَالَ فَقَالَ الأَشْعَثُ بْنُ قَيْسٍ فِيَّ وَاللَّهِ كَانَ ذَلِكَ، كَانَ بَيْنِي وَبَيْنَ رَجُلٍ مِنَ الْيَهُودِ أَرْضٌ فَجَحَدَنِي، فَقَدَّمْتُهُ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَلَكَ بَيِّنَةٌ ‏\"‏‏.‏ قَالَ قُلْتُ لاَ‏.‏ قَالَ فَقَالَ لِلْيَهُودِيِّ ‏\"‏ احْلِفْ ‏\"‏‏.‏ قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِذًا يَحْلِفَ وَيَذْهَبَ بِمَالِي‏.‏ قَالَ فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"3\" aya_start=\"77\" aya_end=\"77\"]{‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً‏}‏ إِلَى آخِرِ الآيَةِ‏.‏",
+      "source_hash_sha256": "6c8ad7746b3ada4299eff52b130dc0b7a9e32628d56f8060acad5efc0e5c31a5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c1e5378f-c4e0-4b28-a83b-bec5695f875d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2668",
+      "reference": "Sahih al-Bukhari, hadith 2668, book 52, بَابُ الْيَمِينُ عَلَى الْمُدَّعَى عَلَيْهِ، فِي الأَمْوَالِ وَالْحُدُودِ",
+      "title": "بَابُ الْيَمِينُ عَلَى الْمُدَّعَى عَلَيْهِ، فِي الأَمْوَالِ وَالْحُدُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا نَافِعُ بْنُ عُمَرَ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، قَالَ كَتَبَ ابْنُ عَبَّاسٍ ـ رضى الله عنهما ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْيَمِينِ عَلَى الْمُدَّعَى عَلَيْهِ‏.‏",
+      "source_hash_sha256": "7b9f771929e7c036e86cb7fe62c902d9097e216b71c8893fd762713782c482a7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû Nu‘aym, Nâfi‘ ibn ‘Umar, Ibn Abî Mulayka et Ibn ‘Abbâs.\n\nLe Prophète jugea que le serment incombe à la personne contre laquelle la réclamation est formulée.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d114638b-461b-4a26-bc4c-765043effa9e",
+      "reason": "This report directly quotes Quran 3:77. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
