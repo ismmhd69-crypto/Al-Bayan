@@ -11281,3 +11281,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0830 saves the deferred long report as one private French draft. It preserves the full chain, the property claims and responses, the account of Ali’s later pledge, and the report’s sequence. No Quran quotation appears in this source entry.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1759b-1762a
+
+- FR-LIB-HAD-MUSLIM-0831 saves four private French drafts, including the full 1759c report and three shorter reports. The damaged 1759b source and chain-only 1760b cross-reference remain blank under Needs Mo with specific reasons.
+- The four translated source IDs and hashes are recorded in the artifact and manifest; two held IDs are recorded with their reasons. Focused validation and diff checks are pending. No database write or publication occurred.
