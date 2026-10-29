@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0148",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:01:09.280Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ede45a7a-804b-4df1-b186-29c159581b41",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:344",
+      "reference": "Sahih Muslim, hadith 344, book 3, باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "title": "باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا الْمُعْتَمِرُ، حَدَّثَنَا أَبِي، حَدَّثَنَا أَبُو الْعَلاَءِ بْنُ الشِّخِّيرِ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَنْسَخُ حَدِيثُهُ بَعْضُهُ بَعْضًا كَمَا يَنْسَخُ الْقُرْآنُ بَعْضُهُ بَعْضًا ‏.‏",
+      "source_hash_sha256": "b76114734382b0dd9298865b955385094ce3b7fb85b81947f469443219d65b7c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ubaydullah ibn Muadh al-Anbari nous a rapporté : al-Mu‘tamir nous a rapporté : mon père nous a rapporté : Abu al-Ala ibn al-Shikhkhir a dit : « Les hadiths du Messager d’Allah ﷺ s’abrogeaient les uns les autres, comme certaines parties du Coran en abrogeaient d’autres. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4c50ac33-7bc0-435a-b2da-52f5cec58863",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:345",
+      "reference": "Sahih Muslim, hadith 345, book 3, باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "title": "باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا غُنْدَرٌ، عَنْ شُعْبَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنِ الْحَكَمِ، عَنْ ذَكْوَانَ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم مَرَّ عَلَى رَجُلٍ مِنَ الأَنْصَارِ فَأَرْسَلَ إِلَيْهِ فَخَرَجَ وَرَأْسُهُ يَقْطُرُ فَقَالَ ‏\"‏ لَعَلَّنَا أَعْجَلْنَاكَ ‏\"‏ ‏.‏ قَالَ نَعَمْ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ إِذَا أُعْجِلْتَ أَوْ أَقْحَطْتَ فَلاَ غُسْلَ عَلَيْكَ وَعَلَيْكَ الْوُضُوءُ ‏\"‏ ‏.‏ وَقَالَ ابْنُ بَشَّارٍ ‏\"‏ إِذَا أُعْجِلْتَ أَوْ أُقْحِطْتَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6539877a2717f1e527d8a29f3c9ac72a68411bb7fbee3cd20162da7567f9e020",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Ghundar nous a rapporté, d’après Shu‘ba. Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après al-Hakam, d’après Dhakwan, d’après Abu Saïd al-Khudri, que le Messager d’Allah ﷺ passa près d’un homme des Ansar et le fit appeler. Il sortit, la tête dégoulinante d’eau. Le Messager d’Allah ﷺ dit : « Nous t’avons peut-être fait presser. » Il répondit : « Oui, ô Messager d’Allah. » Il dit : « Si tu as été pressé ou si tu n’as pas émis de sperme, tu n’as pas à faire le bain rituel ; tu dois seulement faire les ablutions. » Ibn Bashshar a rapporté la formulation : « Si tu as été pressé ou si tu n’as pas émis de sperme. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "09d34e57-3058-4efd-b5fd-1dbeee14747a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:346a",
+      "reference": "Sahih Muslim, hadith 346 a, book 3, باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "title": "باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ - وَاللَّفْظُ لَهُ - حَدَّثَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ أَبِي أَيُّوبَ، عَنْ أُبَىِّ بْنِ كَعْبٍ، قَالَ سَأَلْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَنِ الرَّجُلِ يُصِيبُ مِنَ الْمَرْأَةِ ثُمَّ يُكْسِلُ فَقَالَ ‏\"‏ يَغْسِلُ مَا أَصَابَهُ مِنَ الْمَرْأَةِ ثُمَّ يَتَوَضَّأُ وَيُصَلِّي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6664d3d42f659f473be65d87e15e5513f19fb77eb8affd7a11ec3c66329a48d0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Zahrani nous a rapporté : Hammad nous a rapporté : Hisham ibn Urwa nous a rapporté. Abu Kurayb, Muhammad ibn al-Ala — à qui appartient cette formulation — nous a rapporté : Abu Muawiya nous a rapporté : Hisham nous a rapporté, d’après son père, d’après Abu Ayyub, d’après Ubayy ibn Ka‘b, qui a dit : J’ai interrogé le Messager d’Allah ﷺ au sujet de l’homme qui a un rapport avec une femme puis se retire sans émettre de sperme. Il répondit : « Qu’il lave ce qui l’a touché de la femme, puis fasse les ablutions et prie. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "abf31774-7de7-49f5-8564-da6707f7030c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:346b",
+      "reference": "Sahih Muslim, hadith 346 b, book 3, باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "title": "باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ هِشَامِ بْنِ عُرْوَةَ، حَدَّثَنِي أَبِي، عَنِ الْمَلِيِّ، عَنِ الْمَلِيِّ، - يَعْنِي بِقَوْلِهِ الْمَلِيِّ عَنِ الْمَلِيِّ أَبُو أَيُّوبَ، - عَنْ أُبَىِّ بْنِ كَعْبٍ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ فِي الرَّجُلِ يَأْتِي أَهْلَهُ ثُمَّ لاَ يُنْزِلُ قَالَ ‏\"‏ يَغْسِلُ ذَكَرَهُ وَيَتَوَضَّأُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c9c3ac50d952b0dc4c83dd8a0bda2b5c844be2737f1ca974385ab690ae5d6a23",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c2dc2583-9a98-4407-9ef0-91a162a3940c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:347a",
+      "reference": "Sahih Muslim, hadith 347 a, book 3, باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "title": "باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ حَدَّثَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، ح وَحَدَّثَنَا عَبْدُ الْوَارِثِ بْنُ عَبْدِ الصَّمَدِ، - وَاللَّفْظُ لَهُ - حَدَّثَنِي أَبِي، عَنْ جَدِّي، عَنِ الْحُسَيْنِ بْنِ ذَكْوَانَ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، أَخْبَرَنِي أَبُو سَلَمَةَ، أَنَّ عَطَاءَ بْنَ يَسَارٍ، أَخْبَرَهُ أَنَّ زَيْدَ بْنَ خَالِدٍ الْجُهَنِيَّ أَخْبَرَهُ أَنَّهُ، سَأَلَ عُثْمَانَ بْنَ عَفَّانَ قَالَ قُلْتُ أَرَأَيْتَ إِذَا جَامَعَ الرَّجُلُ امْرَأَتَهُ وَلَمْ يُمْنِ قَالَ عُثْمَانُ ‏\"‏ يَتَوَضَّأُ كَمَا يَتَوَضَّأُ لِلصَّلاَةِ وَيَغْسِلُ ذَكَرَهُ ‏\"‏ ‏.‏ قَالَ عُثْمَانُ سَمِعْتُهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "6becc47a3e8ff0c504c6c48634816a41107c2b7c642671bbc77020148e966f85",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Abd ibn Humayd m’ont rapporté : Abd al-Samad ibn Abd al-Warith nous a rapporté. Abd al-Warith ibn Abd al-Samad nous a rapporté — cette formulation est la sienne : mon père m’a rapporté, d’après mon grand-père, d’après al-Husayn ibn Dhakwan, d’après Yahya ibn Abi Kathir. Abu Salama m’a informé qu’Ata ibn Yasar lui avait rapporté que Zayd ibn Khalid al-Juhani l’avait informé avoir demandé à Uthman ibn Affan : « Qu’en est-il lorsqu’un homme a un rapport avec son épouse sans émettre de sperme ? » Uthman répondit : « Il fait les ablutions comme pour la prière et lave son sexe. » Uthman ajouta : « Je l’ai entendu du Messager d’Allah ﷺ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7cb8a23b-d823-41c7-91a6-58180d1842be",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:347b",
+      "reference": "Sahih Muslim, hadith 347 b, book 3, باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "title": "باب إِنَّمَا الْمَاءُ مِنَ الْمَاءِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ الْوَارِثِ بْنُ عَبْدِ الصَّمَدِ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، عَنِ الْحُسَيْنِ، قَالَ يَحْيَى وَأَخْبَرَنِي أَبُو سَلَمَةَ، أَنَّ عُرْوَةَ بْنَ الزُّبَيْرِ، أَخْبَرَهُ أَنَّ أَبَا أَيُّوبَ أَخْبَرَهُ أَنَّهُ، سَمِعَ ذَلِكَ، مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "870c1821f362f0ea8b6bf43538f7db30af0b979f0bf16367e889ab09d6d12603",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "abf31774-7de7-49f5-8564-da6707f7030c",
+      "reason": "La chaîne arabe présente une répétition et une formulation incertaine autour de « الملي عن الملي », sans lecture sûre. Garder la traduction en attente d’une source arabe vérifiée plutôt que de corriger silencieusement la chaîne."
+    },
+    {
+      "source_id": "7cb8a23b-d823-41c7-91a6-58180d1842be",
+      "reason": "La source arabe ne donne que la chaîne de transmission et indique que le rapport vient du Messager d’Allah, sans en reprendre le texte complet. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ]
+}

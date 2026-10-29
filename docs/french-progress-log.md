@@ -7861,3 +7861,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0147 saves six private French drafts about covering oneself, privacy when relieving oneself, and the wording “the water comes from water.” Differences in the garment placement and report chains are retained.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 613 Muslim drafts, 6,949 total hadith drafts, 7,680 remaining, and 290 Needs Mo items.
+
+### 2026-10-29: Muslim 344–347b
+
+- FR-LIB-HAD-MUSLIM-0148 saves four private French drafts about reports superseding earlier reports and ritual washing when intercourse occurs without emission. Muslim 346b has an uncertain chain, and 347b gives only a transmission chain without the report text; both remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 617 Muslim drafts, 6,953 total hadith drafts, 7,676 remaining, and 292 Needs Mo items.
