@@ -9421,3 +9421,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0458 saves four private French drafts about avoiding charity and doubtful dates. Muslim 1069b and 1069c contain only wording variants cross-referenced to the preceding report and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1071c
+
+- FR-LIB-HAD-MUSLIM-0459 saves one private French draft about a date found by the Prophet ﷺ.
+- The source hash is retained. Focused validation is pending. No database write or publication occurred.

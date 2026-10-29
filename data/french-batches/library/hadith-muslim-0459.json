@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-0459",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:28:02.455Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5747b3b4-610b-4369-8297-9fa2a60d301e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1071c",
+      "reference": "Sahih Muslim, hadith 1071 c, book 12, باب تَحْرِيمِ الزَّكَاةِ عَلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَعَلَى آلِهِ وَهُمْ بَنُو هَاشِمٍ وَبَنُو الْمُطَّلِبِ دُونَ غَيْرِهِمْ",
+      "title": "باب تَحْرِيمِ الزَّكَاةِ عَلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَعَلَى آلِهِ وَهُمْ بَنُو هَاشِمٍ وَبَنُو الْمُطَّلِبِ دُونَ غَيْرِهِمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم وَجَدَ تَمْرَةً فَقَالَ ‏\"‏ لَوْلاَ أَنْ تَكُونَ صَدَقَةً لأَكَلْتُهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "03eb36ae231b6709d75bd2f28f96177034cbfd14a0acb78ce75289fefbda370f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté : Mu‘adh ibn Hisham nous a rapporté : mon père m’a rapporté, d’après Qatada, d’après Anas, que le Prophète ﷺ trouva une datte et dit : « Si je ne craignais pas qu’elle soit une aumône obligatoire, je la mangerais. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
