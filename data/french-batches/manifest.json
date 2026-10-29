@@ -35427,6 +35427,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0310",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0310.json",
+      "sourceIds": [
+        "6e1241a2-9fa4-4cde-a9dd-ae8d2b244448",
+        "cc297b1b-307a-43f0-9310-6eb0568e1f59",
+        "1f213648-dd82-41cc-8b6d-8f41d0262353",
+        "78d7f29d-3ec7-4e81-8fca-cb660796441e",
+        "00450099-b55d-4842-989f-457a2b8446ae",
+        "96337770-e2bd-4e1a-af7e-1713ba8b9989"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; three cross-reference variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39734,8 +39755,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7569,
-  "hadithLocalRemaining": 7060,
+  "hadithLocalDrafted": 7572,
+  "hadithLocalRemaining": 7057,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41800,10 +41821,28 @@
       "scope": "Sahih Muslim 721b: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source indique seulement qu’elle rapporte la même chose que le récit précédent, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0310-721C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 721c: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source indique que le récit rapporté est semblable à une version précédente, sans reprendre les trois recommandations. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0310-723B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 723b: chain-only cross-reference",
+      "status": "blocked",
+      "reason": "La source ne donne que des variantes de chaîne de transmission et renvoie au même récit sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0310-723D-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 723d: chain-only cross-reference",
+      "status": "blocked",
+      "reason": "La source indique seulement que le récit précédent est rapporté par cette chaîne, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1233,
+  "hadithMuslimDrafted": 1236,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 580
+  "hadithNeedsMo": 583
 }
