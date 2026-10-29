@@ -11718,3 +11718,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1996a-1997b
 
 - FR-LIB-HAD-MUSLIM-0939 saves five private French drafts about drinking vessels and the categories of jars the reports name. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1997c-1997h
+
+- FR-LIB-HAD-MUSLIM-0940 saves six private French drafts about the prohibition on fermenting drinks in jars and calabashes. The report distinguishing what Ibn ‘Umar heard and what others claimed is preserved. No Quran verse is quoted. No database write or publication occurred.
