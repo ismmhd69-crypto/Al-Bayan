@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0633",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:33:46.965Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7450a651-0781-44f5-9b2f-b4aab0ddeacc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1412f",
+      "reference": "Sahih Muslim, hadith 1412 f, book 21, باب تَحْرِيمِ بَيْعِ الرَّجُلِ عَلَى بَيْعِ أَخِيهِ وَسَوْمِهِ عَلَى سَوْمِهِ وَتَحْرِيمِ النَّجْشِ وَتَحْرِيمِ التَّصْرِيَةِ",
+      "title": "باب تَحْرِيمِ بَيْعِ الرَّجُلِ عَلَى بَيْعِ أَخِيهِ وَسَوْمِهِ عَلَى سَوْمِهِ وَتَحْرِيمِ النَّجْشِ وَتَحْرِيمِ التَّصْرِيَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، - وَاللَّفْظُ لِزُهَيْرٍ - قَالاَ حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَبِعِ الرَّجُلُ عَلَى بَيْعِ أَخِيهِ وَلاَ يَخْطُبْ عَلَى خِطْبَةِ أَخِيهِ إِلاَّ أَنْ يَأْذَنَ لَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cebd50092620a51add16f205e0ed3a0d61a917a615bcc2d70b572cacf3ac75d3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Prophète ﷺ a dit : « Qu’un homme ne surenchérisse pas sur la vente de son frère et ne fasse pas une demande en mariage par-dessus celle de son frère, sauf si celui-ci l’y autorise. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e563d420-a4c0-4848-a00b-7cfebfffa08d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1413a",
+      "reference": "Sahih Muslim, hadith 1413 a, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، وَابْنُ أَبِي عُمَرَ، قَالَ زُهَيْرٌ حَدَّثَنَا سُفْيَانُ، بْنُ عُيَيْنَةَ عَنِ الزُّهْرِيِّ، عَنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم نَهَى أَنْ يَبِيعَ حَاضِرٌ لِبَادٍ أَوْ يَتَنَاجَشُوا أَوْ يَخْطُبَ الرَّجُلُ عَلَى خِطْبَةِ أَخِيهِ أَوْ يَبِيعَ عَلَى بَيْعِ أَخِيهِ وَلاَ تَسْأَلِ الْمَرْأَةُ طَلاَقَ أُخْتِهَا لِتَكْتَفِئَ مَا فِي إِنَائِهَا أَوْ مَا فِي صَحْفَتِهَا ‏.‏ زَادَ عَمْرٌو فِي رِوَايَتِهِ وَلاَ يَسُمِ الرَّجُلُ عَلَى سَوْمِ أَخِيهِ ‏.‏",
+      "source_hash_sha256": "2f6f81be701598fb3c92d7cfdb252941c411a6f7ea53e919152185cd3b7a9ec4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Prophète ﷺ interdit qu’un citadin vende pour le compte d’un Bédouin, les enchères fictives, qu’un homme fasse une demande en mariage par-dessus celle de son frère ou surenchérisse sur sa vente, et qu’une femme demande le divorce de sa sœur afin de récupérer à elle seule ce qui se trouve dans son récipient ou son assiette. Amr ajoute dans sa version : « Qu’un homme ne fasse pas d’offre supérieure à celle de son frère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "466f0ed4-e8f3-4c75-9272-047a8d77517f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1413b",
+      "reference": "Sahih Muslim, hadith 1413 b, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، حَدَّثَنِي سَعِيدُ بْنُ الْمُسَيَّبِ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تَنَاجَشُوا وَلاَ يَبِعِ الْمَرْءُ عَلَى بَيْعِ أَخِيهِ وَلاَ يَبِعْ حَاضِرٌ لِبَادٍ وَلاَ يَخْطُبِ الْمَرْءُ عَلَى خِطْبَةِ أَخِيهِ وَلاَ تَسْأَلِ الْمَرْأَةُ طَلاَقَ الأُخْرَى لِتَكْتَفِئَ مَا فِي إِنَائِهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d91ecc92e89e705126466ecbffdd396ff6b7fab838b844d60a295b646b7a5583",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Ne pratiquez pas les enchères fictives. Qu’un homme ne surenchérisse pas sur la vente de son frère, qu’un citadin ne vende pas pour le compte d’un Bédouin, qu’un homme ne fasse pas une demande en mariage par-dessus celle de son frère et qu’une femme ne demande pas le divorce d’une autre afin de récupérer à elle seule ce qui se trouve dans son récipient. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "50f2099e-43d4-4b4c-acee-46b24af40779",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1413c",
+      "reference": "Sahih Muslim, hadith 1413 c, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الأَعْلَى، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، جَمِيعًا عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ غَيْرَ أَنَّ فِي حَدِيثِ مَعْمَرٍ ‏\"‏ وَلاَ يَزِدِ الرَّجُلُ عَلَى بَيْعِ أَخِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "53370d2db91436f5c8d006ed320d52c19ad0e189356c9a156de7eea6c6f15315",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8aa9b4a9-ed5a-4421-b357-ac022277606d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1413d",
+      "reference": "Sahih Muslim, hadith 1413 d, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ جَمِيعًا عَنْ إِسْمَاعِيلَ بْنِ جَعْفَرٍ، - قَالَ ابْنُ أَيُّوبَ حَدَّثَنَا إِسْمَاعِيلُ، - أَخْبَرَنِي الْعَلاَءُ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَسُمِ الْمُسْلِمُ عَلَى سَوْمِ أَخِيهِ وَلاَ يَخْطُبْ عَلَى خِطْبَتِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8001550b2f4a07236bb64d945c7947ed18b5286edbc7d36488156c2438a0b208",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Qu’un musulman ne fasse pas d’offre supérieure à celle de son frère et ne fasse pas une demande en mariage par-dessus celle de son frère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e3432ef9-698d-4d63-af4d-a1117daf34ce",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1413e",
+      "reference": "Sahih Muslim, hadith 1413 e, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَحْمَدُ بْنُ إِبْرَاهِيمَ الدَّوْرَقِيُّ، حَدَّثَنَا عَبْدُ الصَّمَدِ، حَدَّثَنَا شُعْبَةُ، عَنِ الْعَلاَءِ، وَسُهَيْلٍ عَنْ أَبِيهِمَا، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ح وَحَدَّثَنَاهُ مُحَمَّدُ، بْنُ الْمُثَنَّى حَدَّثَنَا عَبْدُ الصَّمَدِ، حَدَّثَنَا شُعْبَةُ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم إِلاَّ أَنَّهُمْ قَالُوا ‏\"‏ عَلَى سَوْمِ أَخِيهِ وَخِطْبَةِ أَخِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "dda2b127fa4110504ca31446cb776c14897531903cd7a7eb3bd868eaacf9706e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Prophète ﷺ a dit, selon deux chaînes : « Qu’un homme ne fasse pas d’offre supérieure à celle de son frère et ne fasse pas une demande en mariage par-dessus celle de son frère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "50f2099e-43d4-4b4c-acee-46b24af40779",
+      "reason": "Cette entrée ne reprend pas le récit et renvoie au précédent (« بِهَذَا الإِسْنَادِ مِثْلَهُ »), avec une seule variante de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
