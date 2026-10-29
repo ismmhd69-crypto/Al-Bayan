@@ -12659,3 +12659,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2551a-2552c
 
 - FR-LIB-HAD-MUSLIM-1183 saves five complete reports as private French drafts. One reference-only variant remains blank with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-30: Muslim 2553a-2556b
+
+- FR-LIB-HAD-MUSLIM-1184 saves five complete reports as private French drafts. One report containing a Quran quotation remains blank with a specific Needs Mo reason. No database write or publication occurred.
