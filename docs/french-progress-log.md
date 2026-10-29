@@ -5571,3 +5571,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1085 saves five private French drafts about parents and family ties. Bukhari 5978 is held blank because it directly quotes Quran 60:8.
 - Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 4,996 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 754. Total local hadith rows not drafted: 9,633, including held records.
+
+### 2026-10-29: Bukhari 5981–5986
+
+- FR-LIB-HAD-BUKHARI-1086 saves five private French drafts about family ties. Bukhari 5982 is held blank because the source stops after a question and omits the answer.
+- Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 5,001 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 755. Total local hadith rows not drafted: 9,628, including held records.

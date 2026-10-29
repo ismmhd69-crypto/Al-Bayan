@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5002,
+    "hadithBukhariDrafted": 5007,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5002,
+    "hadithLocalDrafted": 5007,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9627,
-    "hadithNeedsMo": 754,
+    "hadithLocalRemaining": 9622,
+    "hadithNeedsMo": 755,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23162,6 +23162,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1086",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1086.json",
+      "sourceIds": [
+        "e3beb864-fba2-42ae-8f7d-b568a1fd1b0b",
+        "41dc855f-0c03-47cc-8cd0-5ae46219e937",
+        "e8ed2acf-1243-4585-bd79-2760efb874cc",
+        "2fc2917d-2358-4a02-9461-acc5a15dc69c",
+        "a5cc527d-f661-4ae2-83d5-288ed56b53c7",
+        "7d499a80-90e7-4493-b55f-a995c28a6f5d"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; one incomplete source held blank. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26253,6 +26274,12 @@
       "scope": "Sahih al-Bukhari 5978 direct quotation of Quran 60:8",
       "status": "blocked",
       "reason": "The report directly quotes Quran 60:8. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-5982-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5982: excerpt contains the question but omits the answer and remainder",
+      "status": "blocked",
+      "reason": "The exported text is an incomplete excerpt. Keep the item blank until the complete report is confirmed."
     }
   ]
 }
