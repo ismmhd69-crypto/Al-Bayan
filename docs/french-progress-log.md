@@ -9811,3 +9811,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0536 saves four private French drafts about Aisha’s rites during the Farewell Pilgrimage and her guidance for Hajj and omra. Muslim 1211u and 1211w are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1211z–1213d
+
+- FR-LIB-HAD-MUSLIM-0537 saves four private French drafts about the completion of Aisha’s omra and the Hajj rites. Muslim 1213b–c refer back to a longer report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
