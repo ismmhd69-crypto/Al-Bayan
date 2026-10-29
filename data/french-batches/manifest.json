@@ -39279,6 +39279,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0497",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0497.json",
+      "sourceIds": [
+        "50dedc84-262b-4bf8-9eb3-c4bf34e38e43",
+        "63d27bf3-1f29-4ad7-80a2-bdd730266f2d",
+        "5408e454-b612-40fd-ac9b-2b4073555df0",
+        "53022db5-7039-4b0b-a76d-4eb2928cc548",
+        "9bdcf449-88cc-4323-aa34-521a8d7318a0",
+        "d5eaad70-51db-48b0-8f88-f7c9ba594935"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six records passed focused validation; Arabic originals and hashes, IDs, private unpublished AI-draft state, rights flags, and single-item long-text rule passed; Muslim 1149e held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -43586,8 +43607,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8283,
-  "hadithLocalRemaining": 6346,
+  "hadithLocalDrafted": 8288,
+  "hadithLocalRemaining": 6341,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -46684,10 +46705,15 @@
       "source_id": "e254687c-6c5e-4d05-afb6-a6d4e02489a8",
       "reason": "La source rapporte un récit abrégé et renvoie aux versions de Qatada, Abu al-Tayyah et Hisham ibn Zayd pour la suite, sans en reproduire l’intégralité. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "50dedc84-262b-4bf8-9eb3-c4bf34e38e43",
+      "reason": "La source renvoie au récit précédent (« de la même manière ») et ne reproduit pas son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1947,
+  "hadithMuslimDrafted": 1952,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 912
-}
+  "hadithNeedsMo": 913
+}\n
