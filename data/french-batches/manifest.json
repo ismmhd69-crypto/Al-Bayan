@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5383,
+    "hadithBukhariDrafted": 5388,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5383,
+    "hadithLocalDrafted": 5388,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9246,
-    "hadithNeedsMo": 779,
+    "hadithLocalRemaining": 9241,
+    "hadithNeedsMo": 780,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24924,6 +24924,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1176",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1176.json",
+      "sourceIds": [
+        "3dda6f95-a741-41ba-a809-3139d5f81635",
+        "caa83c76-e263-4399-9ba5-66e98370026a",
+        "8c45294f-6efe-4098-ac8a-6164e1cc89e4",
+        "92056781-9ff9-4ac4-91bc-d8fa39d8848f",
+        "50439a82-cdcb-4510-b126-cd4d155a4a7c",
+        "5a8df301-646a-4b96-b8b0-60b1d8698272"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6404 remains blank because the source omits what is said ten times. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -27992,11 +28013,17 @@
       "scope": "Sahih al-Bukhari 6403: direct quotation of Quran 64:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 64:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6404-UNCLEAR-REFERENT",
+      "scope": "Sahih al-Bukhari 6404: phrase من قال عشرا does not identify what is said ten times",
+      "status": "blocked",
+      "reason": "The text says “whoever says [it] ten times” without identifying what is said. Keep the complete French translation blank until a complete wording or confirmed context is available."
     }
   ],
-  "hadithBukhariDrafted": 5383,
-  "hadithLocalDrafted": 5383,
-  "hadithLocalRemaining": 9246,
+  "hadithBukhariDrafted": 5388,
+  "hadithLocalDrafted": 5388,
+  "hadithLocalRemaining": 9241,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28207,6 +28234,12 @@
       "scope": "Sahih al-Bukhari 6403: direct quotation of Quran 64:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 64:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6404-UNCLEAR-REFERENT",
+      "scope": "Sahih al-Bukhari 6404: phrase من قال عشرا does not identify what is said ten times",
+      "status": "blocked",
+      "reason": "The text says “whoever says [it] ten times” without identifying what is said. Keep the complete French translation blank until a complete wording or confirmed context is available."
     }
   ]
 }
