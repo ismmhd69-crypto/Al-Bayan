@@ -11866,3 +11866,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2062b-2064d
 
 - FR-LIB-HAD-MUSLIM-0976 saves three complete private French drafts about drinking and food manners. Three entries that refer back to earlier reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2065a-2066c
+
+- FR-LIB-HAD-MUSLIM-0977 saves three complete private French drafts about silver vessels and the seven instructions and prohibitions. Three entries that only refer to prior reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
