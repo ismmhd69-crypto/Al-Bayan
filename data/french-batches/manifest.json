@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 5750,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 8879,
-    "hadithNeedsMo": 829,
+    "hadithNeedsMo": 830,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26480,6 +26480,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1252",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1252.json",
+      "sourceIds": [
+        "6d6510ce-d9a5-4333-bfcb-2650c371cf3b"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One 7,498-character source isolated as a single-item batch; complete report held because it presents wording as Quranic quotations. Source hash retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: Quran quotations"
     }
   ],
   "blockers": [
@@ -29842,6 +29858,12 @@
       "scope": "Sahih al-Bukhari 6819: obscure legal/customary terms تحميم الوجه and التجبية",
       "status": "blocked",
       "reason": "The report’s terms تحميم الوجه and التجبية describe a practice attributed to the rabbis, but their precise meaning cannot be established safely from this excerpt. Keep the complete translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6830-QURAN-QUOTATIONS",
+      "scope": "Sahih al-Bukhari 6830: 7,498-character report identifying quoted wording as an ayah and as recitation from the Book of Allah",
+      "status": "blocked",
+      "reason": "This report presents wording as an “ayah of stoning” and includes another passage it says was recited from the Book of Allah. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
   "hadithBukhariDrafted": 5750,
@@ -30351,6 +30373,12 @@
       "scope": "Sahih al-Bukhari 6819: obscure legal/customary terms تحميم الوجه and التجبية",
       "status": "blocked",
       "reason": "The report’s terms تحميم الوجه and التجبية describe a practice attributed to the rabbis, but their precise meaning cannot be established safely from this excerpt. Keep the complete translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6830-QURAN-QUOTATIONS",
+      "scope": "Sahih al-Bukhari 6830: 7,498-character report identifying quoted wording as an ayah and as recitation from the Book of Allah",
+      "status": "blocked",
+      "reason": "This report presents wording as an “ayah of stoning” and includes another passage it says was recited from the Book of Allah. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
