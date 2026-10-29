@@ -752,3 +752,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-143` saves six private French drafts for Bukhari 795–800. They preserve the remembered supplications and takbir sequence, the qunut report, the extra praise spoken behind the Prophet ﷺ and the length of his standing after bowing.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 742 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,887, including held records.
+### 2026-10-29: Bukhari 801–805 source review
+
+- `FR-LIB-HAD-BUKHARI-144` saves five private French drafts for Bukhari 801–805. It preserves the similar durations of prayer positions, Malik ibn al-Huwayrith’s demonstration, Abu Hurayra’s takbir sequence, the named supplication and the narrator variants about the Prophet’s injury.
+- The five-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 747 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,882, including held records.
