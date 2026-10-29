@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0775",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:19:35.936Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5507f7a2-a855-4ba5-97f3-e7ee39007f02",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1651c",
+      "reference": "Sahih Muslim, hadith 1651 c, book 27, باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "title": "باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، وَمُحَمَّدُ بْنُ طَرِيفٍ الْبَجَلِيُّ، - وَاللَّفْظُ لاِبْنِ طَرِيفٍ - قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ فُضَيْلٍ، عَنِ الأَعْمَشِ، عَنْ عَبْدِ الْعَزِيزِ بْنِ رُفَيْعٍ، عَنْ تَمِيمٍ الطَّائِيِّ، عَنْ عَدِيٍّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا حَلَفَ أَحَدُكُمْ عَلَى الْيَمِينِ فَرَأَى خَيْرًا مِنْهَا فَلْيُكَفِّرْهَا وَلْيَأْتِ الَّذِي هُوَ خَيْرٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1db7694dac1b6b36a9fabfeb49e43fce82f905cbbb973944f718ee678cbe974b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abd Allah ibn Numayr et Muhammad ibn Tarif al-Bajali m’ont rapporté — la formulation est celle d’Ibn Tarif — : Muhammad ibn Fudayl nous a rapporté, d’après al-A‘mash, d’après Abd al-Aziz ibn Rufay‘, d’après Tamim al-Ta’i, d’après Adi, qui a dit : le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous fait un serment puis voit qu’une autre chose est meilleure, qu’il expie son serment et fasse ce qui est meilleur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b016fecc-eb87-4b60-87f7-b4ddaf686508",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1651d",
+      "reference": "Sahih Muslim, hadith 1651 d, book 27, باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "title": "باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ طَرِيفٍ، حَدَّثَنَا مُحَمَّدُ بْنُ فُضَيْلٍ، عَنِ الشَّيْبَانِيِّ، عَنْ عَبْدِ الْعَزِيزِ، بْنِ رُفَيْعٍ عَنْ تَمِيمٍ الطَّائِيِّ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، أَنَّهُ سَمِعَ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "bb57909637d06f37c5dd42d740a0da65eaba2be26be03684798c4b16b88cb5f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "013fa04e-ef91-4006-94e8-e77e831e5cfb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1651e",
+      "reference": "Sahih Muslim, hadith 1651 e, book 27, باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "title": "باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سِمَاكِ بْنِ حَرْبٍ، عَنْ تَمِيمِ بْنِ طَرَفَةَ، قَالَ سَمِعْتُ عَدِيَّ بْنَ حَاتِمٍ، وَأَتَاهُ، رَجُلٌ يَسْأَلُهُ مِائَةَ دِرْهَمٍ ‏.‏ فَقَالَ تَسْأَلُنِي مِائَةَ دِرْهَمٍ وَأَنَا ابْنُ حَاتِمٍ وَاللَّهِ لاَ أُعْطِيكَ ‏.‏ ثُمَّ قَالَ لَوْلاَ أَنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ حَلَفَ عَلَى يَمِينٍ ثُمَّ رَأَى خَيْرًا مِنْهَا فَلْيَأْتِ الَّذِي هُوَ خَيْرٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "89ea0d53cf8805e49d210deda62bf7e2670b9596bc489ee793657e7c31225fd3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "17225e9b-ca4a-444f-bf5b-912afc7dfd42",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1651f",
+      "reference": "Sahih Muslim, hadith 1651 f, book 27, باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "title": "باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا بَهْزٌ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا سِمَاكُ بْنُ حَرْبٍ، قَالَ سَمِعْتُ تَمِيمَ بْنَ طَرَفَةَ، قَالَ سَمِعْتُ عَدِيَّ بْنَ حَاتِمٍ، أَنَّ رَجُلاً، سَأَلَهُ فَذَكَرَ مِثْلَهُ وَزَادَ وَلَكَ أَرْبَعُمِائَةٍ فِي عَطَائِي ‏.‏",
+      "source_hash_sha256": "dc2f0a6e5543da6e738f25996c259a2eeb7236dbf00ea64c88bc7cd688f1b658",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim m’a rapporté : Bahz nous a rapporté : Shu‘ba nous a rapporté : Simak ibn Harb nous a rapporté. Il a dit : « J’ai entendu Tamim ibn Tarafa dire : “J’ai entendu Adi ibn Hatim.” Un homme lui demanda quelque chose et Adi rapporta un récit semblable, en ajoutant : “Et tu recevras quatre cents de mon allocation.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a8f05ed3-f9c5-4ea3-a3ba-fc1f324fc8a1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1652a",
+      "reference": "Sahih Muslim, hadith 1652 a, book 27, باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "title": "باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا جَرِيرُ بْنُ حَازِمٍ، حَدَّثَنَا الْحَسَنُ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، بْنُ سَمُرَةَ قَالَ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَا عَبْدَ الرَّحْمَنِ بْنَ سَمُرَةَ لاَ تَسْأَلِ الإِمَارَةَ فَإِنَّكَ إِنْ أُعْطِيتَهَا عَنْ مَسْأَلَةٍ وُكِلْتَ إِلَيْهَا وَإِنْ أُعْطِيتَهَا عَنْ غَيْرِ مَسْأَلَةٍ أُعِنْتَ عَلَيْهَا وَإِذَا حَلَفْتَ عَلَى يَمِينٍ فَرَأَيْتَ غَيْرَهَا خَيْرًا مِنْهَا فَكَفِّرْ عَنْ يَمِينِكَ وَائْتِ الَّذِي هُوَ خَيْرٌ ‏\"‏ ‏.‏ قَالَ أَبُو أَحْمَدَ الْجُلُودِيُّ حَدَّثَنَا أَبُو الْعَبَّاسِ الْمَاسَرْجَسِيُّ، حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، ‏.‏ بِهَذَا الْحَدِيثِ ‏.‏",
+      "source_hash_sha256": "b3689618e0294148a6f758bb26becc19388e201cb242da7eb74d9f19ca55f6c9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shayban ibn Farrukh nous a rapporté : Jarir ibn Hazim nous a rapporté : al-Hasan nous a rapporté : Abd al-Rahman ibn Samura nous a rapporté. Il a dit : le Messager d’Allah ﷺ m’a dit : « Abd al-Rahman ibn Samura, ne demande pas une fonction d’autorité. Si elle t’est confiée à ta demande, tu seras laissé à toi-même face à elle ; si elle t’est confiée sans que tu l’aies demandée, tu seras aidé à l’exercer. Et si tu fais un serment puis vois qu’une autre chose est meilleure, expie ton serment et fais ce qui est meilleur. » Abu Ahmad al-Juludi a dit : Abu al-Abbas al-Masarjisi nous a rapporté : Shayban ibn Farrukh nous a rapporté ce même hadith.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9c8035b5-c0bf-452f-8884-db0e3c0d150c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1652b",
+      "reference": "Sahih Muslim, hadith 1652 b, book 27, باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "title": "باب نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا مِنْهَا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ وَيُكَفِّرَ عَنْ يَمِينِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، حَدَّثَنَا هُشَيْمٌ، عَنْ يُونُسَ، وَمَنْصُورٍ، وَحُمَيْدٍ، ح وَحَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ سِمَاكِ بْنِ عَطِيَّةَ، وَيُونُسَ بْنِ عُبَيْدٍ، وَهِشَامِ، بْنِ حَسَّانَ فِي آخَرِينَ ح وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا الْمُعْتَمِرُ، عَنْ أَبِيهِ، ح وَحَدَّثَنَا عُقْبَةُ بْنُ مُكْرَمٍ الْعَمِّيُّ، حَدَّثَنَا سَعِيدُ بْنُ عَامِرٍ، عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، كُلُّهُمْ عَنِ الْحَسَنِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ سَمُرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِهَذَا الْحَدِيثِ وَلَيْسَ فِي حَدِيثِ الْمُعْتَمِرِ عَنْ أَبِيهِ ذِكْرُ الإِمَارَةِ ‏.‏",
+      "source_hash_sha256": "9b6a723352e08069162348f180f7812cc4d1c7fc3b76d53abd3b96af8a15fef4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Hujr al-Sa‘di nous a rapporté : Hushaym nous a rapporté, d’après Yunus, Mansur et Humayd. H. Abu Kamil al-Jahdari nous a rapporté : Hammad ibn Zayd nous a rapporté, d’après Simak ibn Atiyya, Yunus ibn Ubayd, Hisham ibn Hassan et d’autres. H. Ubayd Allah ibn Muadh nous a rapporté : al-Mu‘tamir nous a rapporté, d’après son père. H. Uqba ibn Makram al-Ammi nous a rapporté : Sa‘id ibn Amir nous a rapporté, d’après Sa‘id, d’après Qatada. Tous l’ont rapporté d’après al-Hasan, d’après Abd al-Rahman ibn Samura, d’après le Prophète ﷺ, avec ce même hadith. Toutefois, dans le récit d’al-Mu‘tamir, d’après son père, la fonction d’autorité n’est pas mentionnée.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b016fecc-eb87-4b60-87f7-b4ddaf686508",
+      "reason": "Cette entrée ne rapporte que la chaîne de transmission et indique qu’Adi a entendu le Prophète prononcer le récit précédent, sans reproduire ses paroles. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "013fa04e-ef91-4006-94e8-e77e831e5cfb",
+      "reason": "Le récit s’interrompt après une proposition conditionnelle introduite par « si je n’avais pas entendu… », sans en donner la suite. Ne pas compléter à partir d’un récit voisin ; garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}

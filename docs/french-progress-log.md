@@ -11001,3 +11001,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0774 saves six private French drafts on breaking an oath for a better course. All six records contain complete report text.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1651c–1652b
+
+- FR-LIB-HAD-MUSLIM-0775 saves four private French drafts on keeping or releasing an oath and seeking authority. Muslim 1651d only points to the preceding words, while 1651e ends in an unresolved conditional. Both remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
