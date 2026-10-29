@@ -11338,3 +11338,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1780b
 
 - FR-LIB-HAD-MUSLIM-0844 saves one private French draft of the distinctive additions to the conquest-of-Mecca report, including the gesture, added command, and wording of the Prophet’s response. No Quran quotation appears in this variant. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1780c
+
+- FR-LIB-HAD-MUSLIM-0845 saves one private French draft of the report about the conquest of Mecca. It preserves the chain, the deployment details, all three safe-conduct conditions, and the Ansâr’s exchange with the Prophet. No Quran quotation appears in this entry. No database write or publication occurred.
