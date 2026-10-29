@@ -1,0 +1,131 @@
+import fs from 'fs';
+import { validateGerman } from './validate-german-text.mjs';
+
+const inputPath = 'data/german-batches/hadith-inputs/bukhari-batch-038.json';
+const outputPath = 'data/german-batches/hadith-outputs/bukhari-batch-038.json';
+
+const inputs = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
+
+const translations = [
+  // 0: 5d4b2cca-96b2-477d-a75b-3e554e484bfa
+  "Qutaybah ibn Sa‘id berichtete uns: Abu ‘Awanah berichtete uns von Musa ibn Abi ‘A’ischah, von Sa‘id ibn Jubayr, von Ibn ‘Abbas über die Worte des Erhabenen: „Bewege deine Zunge nicht damit...“ (Sure 75, Vers 16 bis 16). Er sagte: Der Prophet (Friede sei auf ihm) empfand bei der Offenbarung große Anstrengung und pflegte seine Lippen zu bewegen. Ibn ‘Abbas sagte zu mir: „Ich bewege sie vor dir, wie der Gesandte Allahs (Friede sei auf ihm) sie zu bewegen pflegte.“ Und Sa‘id sagte: „Ich bewege sie, wie Ibn ‘Abbas sie zu bewegen pflegte“, und er bewegte seine Lippen. Da sandte Allah, mächtig und majestätisch ist Er, herab: „Bewege deine Zunge nicht damit, um sie zu übereilen. Gewiss obliegt Uns seine Zusammenfügung und seine Rezitation“ (Sure 75, Vers 16 bis 17). Er sagte: Seine Zusammenfügung in deiner Brust, und dass du ihn danach rezitierst. „Und wenn Wir ihn rezitiert haben, so folge seiner Rezitation“ (Sure 75, Vers 18 bis 18). Er sagte: Höre ihm zu und lausche schweigend; danach obliegt es Uns, dass du ihn vorträgst. Wenn Gabriel (Friede sei auf ihm) zu ihm kam, hörte der Gesandte Allahs (Friede sei auf ihm) zu; und wenn Gabriel ging, rezitierte der Prophet (Friede sei auf ihm) ihn genauso, wie Gabriel ihn ihm vorgetragen hatte.",
+
+  // 1: 6f7a9efb-1413-4410-a6e2-06ddfa6f5fcf
+  "‘Amr ibn Zurarah berichtete mir, von Huschaym: Abu Bischr teilte uns mit, von Sa‘id ibn Jubayr, von Ibn ‘Abbas (möge Allah mit beiden zufrieden sein) über die Worte des Erhabenen: „Und sprich dein Gebet weder zu laut noch flüstere es zu leise“ (Sure 17, Vers 110 bis 110). Er sagte: Dies wurde herabgesandt, als der Gesandte Allahs (Friede sei auf ihm) sich in Mekka verbarg. Wenn er mit seinen Gefährten betete, erhob er seine Stimme mit dem Koran. Wenn die Götzendiener ihn hörten, schmähten sie den Koran, Den, Der ihn herabgesandt hat, und den, der ihn gebracht hat. Da sprach Allah zu Seinem Propheten (Friede sei auf ihm): „Und sprich dein Gebet weder zu laut...“ (Sure 17, Vers 110 bis 110) – das heißt deine Rezitation, damit die Götzendiener es nicht hören und den Koran schmähen – „...noch flüstere es zu leise“ (Sure 17, Vers 110 bis 110) vor deinen Gefährten, dass sie es nicht hören können, „sondern suche einen Weg dazwischen“ (Sure 17, Vers 110 bis 110).",
+
+  // 2: 3234d407-322d-41ad-8b8e-8656c16ea0d5
+  "‘Ubayd ibn Isma‘il berichtete uns: Abu Usamah berichtete uns von Hischam, von seinem Vater, von ‘A’ischah (möge Allah mit ihr zufrieden sein), die sagte: Dieser Vers: „Und sprich dein Gebet weder zu laut noch flüstere es zu leise“ (Sure 17, Vers 110 bis 110) wurde bezüglich des Bittgebets herabgesandt.",
+
+  // 3: 5caf6f40-2932-42cf-8480-cc55e4de702e
+  "Ishaq berichtete uns: Abu ‘Asim berichtete uns: Ibn Jurayj teilte uns mit: Ibn Schihab teilte uns mit, von Abu Salamah, von Abu Hurayrah, der sagte: Der Gesandte Allahs (Friede sei auf ihm) sagte: „Wer den Koran nicht wohlklingend vorträgt, gehört nicht zu uns.“ Und ein anderer Überlieferer fügte hinzu: „und ihn laut vorträgt.“",
+
+  // 4: 8e6bcfb3-0161-4cfc-8943-a58f3a440e6a
+  "Qutaybah berichtete uns: Jarir berichtete uns vom al-A‘masch, von Abu Salih, von Abu Hurayrah, der sagte: Der Gesandte Allahs (Friede sei auf ihm) sagte: „Kein Neid ist erlaubt außer in zwei Fällen: Ein Mann, dem Allah den Koran gegeben hat und der ihn zu den Stunden der Nacht und den Stunden des Tages rezitiert, sodass jemand sagt: ‚Wäre mir doch das Gleiche gegeben worden wie diesem, dann würde ich tun, was er tut!‘; und ein Mann, dem Allah Vermögen gegeben hat und der es für das Recht ausgibt, sodass jemand sagt: ‚Wäre mir doch das Gleiche gegeben worden wie diesem, dann würde ich damit handeln, wie er handelt!‘“",
+
+  // 5: 9e41ba30-bab4-47bc-bfe9-6888356e0c9e
+  "‘Ali ibn ‘Abdullah berichtete uns: Sufyan berichtete uns: az-Zuhri sagte, von Salim, von seinem Vater, vom Propheten (Friede sei auf ihm), der sagte: „Kein Neid ist erlaubt außer in zwei Fällen: Ein Mann, dem Allah den Koran gegeben hat und der ihn zu den Stunden der Nacht und des Tages rezitiert; und ein Mann, dem Allah Vermögen gegeben hat und der es zu den Stunden der Nacht und des Tages spendet.“ Ich hörte Sufyan dies mehrmals sagen; ich hörte ihn die Überlieferungsformel nicht erwähnen, doch es gehört zu seinen authentischen Überlieferungen.",
+
+  // 6: 50df2dd5-8c46-49c0-8c23-eab18d75e8ad
+  "Al-Fadl ibn Ya‘qub berichtete uns: ‘Abdullah ibn Ja‘far ar-Raqqi berichtete uns: al-Mu‘tamir ibn Sulayman berichtete uns: Sa‘id ibn ‘Ubaydullah ath-Thaqafi berichtete uns: Bakr ibn ‘Abdullah al-Muzani und Ziyad ibn Jubayr ibn Hayyah berichteten uns von Jubayr ibn Hayyah, der sagte: Al-Mughirah sagte: „Unser Prophet (Friede sei auf ihm) teilte uns von der Botschaft unseres Herrn mit: ‚Wer von uns getötet wird, der gelangt ins Paradies.‘“",
+
+  // 7: fbb98dc7-9a04-4607-87d5-ea2e5e4f32e7
+  "Muhammad ibn Yusuf berichtete uns: Sufyan berichtete uns von Isma‘il, vom asch-Scha‘bi, von Masruq, von ‘A’ischah (möge Allah mit ihr zufrieden sein), die sagte: „Wer dir erzählt, dass Muhammad (Friede sei auf ihm) etwas verschwiegen hat...“ Und Muhammad sagte: Abu ‘Amir al-‘Aqadi berichtete uns: Schu‘bah berichtete uns von Isma‘il ibn Abi Khalid, vom asch-Scha‘bi, von Masruq, von ‘A’ischah, die sagte: „Wer dir erzählt, dass der Prophet (Friede sei auf ihm) etwas von der Offenbarung verschwiegen hat, dem schenke keinen Glauben! Gewiss spricht Allah der Erhabene: ‚O du Gesandter, übermittle, was zu dir von deinem Herrn herabgesandt worden ist; und wenn du es nicht tust, so hast du Seine Botschaft nicht übermittelt...‘ (Sure 5, Vers 67 bis 67).“",
+
+  // 8: e43698bd-0098-4af6-9820-e64a457607bd
+  "Qutaybah ibn Sa‘id berichtete uns: Jarir berichtete uns vom al-A‘masch, von Abu Wa’il, von ‘Amr ibn Schurahbil, der sagte: ‘Abdullah sagte: Ein Mann fragte: „O Gesandter Allahs, welche Sünde ist die schwerste bei Allah?“ Er sprach: „Dass du Allah einen Teilhaber beigesellst, während Er dich erschaffen hat.“ Er fragte: „Welche dann?“ Er sprach: „Dass du dein Kind aus Furcht davor tötest, dass es mit dir isst.“ Er fragte: „Welche dann?“ Er sprach: „Dass du Ehebruch mit der Ehefrau deines Nachbarn treibst.“ Daraufhin sandte Allah zur Bestätigung herab: „Und diejenigen, die neben Allah keinen anderen Gott anrufen und nicht die Seele töten, die Allah für unantastbar erklärt hat, außer nach Recht, und keine Unzucht treiben...“ bis zum Ende des Verses (Sure 25, Vers 68 bis 68).",
+
+  // 9: b42bbc40-4b0f-42a2-badd-e3d5c49a2602
+  "‘Abdan teilte uns mit: ‘Abdullah teilte uns mit: Yunus teilte uns mit, vom az-Zuhri: Salim teilte mir mit, von Ibn ‘Umar, dass der Gesandte Allahs (Friede sei auf ihm) sagte: „Euer Verweilen im Vergleich zu den Gemeinschaften vor euch ist nur wie die Zeit zwischen dem ‘Asr-Gebet und dem Sonnenuntergang. Den Leuten der Thora wurde die Thora gegeben, und sie handelten danach bis zur Mitte des Tages; dann wurden sie kraftlos, und ihnen wurde jeweils ein Qirat gegeben. Danach wurde den Leuten des Evangeliums das Evangelium gegeben, und sie handelten danach bis zum Verrichten des ‘Asr-Gebets; dann wurden sie kraftlos, und ihnen wurde jeweils ein Qirat gegeben. Daraufhin wurde euch der Koran gegeben, und ihr handeltet danach bis zum Untergang der Sonne, und euch wurden jeweils zwei Qirat gegeben. Da sprachen die Leute der Schrift: ‚Diese haben weniger gearbeitet als wir und mehr Lohn erhalten!‘ Da sprach Allah: ‚Habe Ich euch denn um irgendetwas von eurem Recht geschmälert?‘ Sie antworteten: ‚Nein.‘ Da sprach Er: ‚Das ist Meine Huld; Ich gebe sie, wem Ich will.‘“",
+
+  // 10: 74d9b3c7-cf5c-4ef9-9c11-2d00e34b6ed2
+  "Sulayman berichtete mir: Schu‘bah berichtete uns von al-Walid. Und ‘Abbad ibn Ya‘qub al-Asadi berichtete mir: ‘Abbad ibn al-‘Awwam teilte uns mit, vom asch-Schaybani, von al-Walid ibn al-‘Ayzār, von Abu ‘Amr asch-Schaybani, von Ibn Mas‘ud (möge Allah mit ihm zufrieden sein), dass ein Mann den Propheten (Friede sei auf ihm) fragte: „Welche Taten sind die besten?“ Er sprach: „Das Gebet zu seiner rechten Zeit, die Güte gegenüber den Eltern, danach der Einsatz auf dem Weg Allahs.“",
+
+  // 11: dbf314b4-2123-4815-9b5b-598683351b15
+  "Abu n-Nu‘man berichtete uns: Jarir ibn Hazim berichtete uns vom al-Hasan: ‘Amr ibn Taghlib berichtete uns, der sagte: Dem Propheten (Friede sei auf ihm) wurde Vermögen gebracht; da gab er einigen Leuten davon und enthielt es anderen vor. Ihm kam zu Ohren, dass jene grollten, woraufhin er sprach: „Wahrlich, ich gebe einem Mann und übergehe einen anderen, und derjenige, den ich übergehe, ist mir lieber als der, dem ich gebe. Ich gebe manchen Leuten wegen der Unruhe und Furchtsamkeit in ihren Herzen; und ich vertraue andere Leute dem an, was Allah an Reichtum und Gutem in ihre Herzen gelegt hat, und unter ihnen ist ‘Amr ibn Taghlib.“ Da sagte ‘Amr: „Ich möchte das Wort des Gesandten Allahs (Friede sei auf ihm) nicht einmal gegen die edelsten roten Kamele eintauschen.“",
+
+  // 12: 3ad9cb06-adfe-4ed2-9055-31f047ad208f
+  "Muhammad ibn ‘Abd ar-Rahim berichtete mir: Abu Zayd Sa‘id ibn ar-Rabi‘ al-Harawi berichtete uns: Schu‘bah berichtete uns von Qatadah, von Anas (möge Allah mit ihm zufrieden sein), vom Propheten (Friede sei auf ihm), der von seinem Herrn überlieferte; Er sprach: „Wenn der Diener sich Mir um eine Handspanne nähert, nähere Ich Mich ihm um eine Elle; wenn er sich Mir um eine Elle nähert, nähere Ich Mich ihm um eine Klafter; und wenn er gehend zu Mir kommt, komme Ich eilend zu ihm.“",
+
+  // 13: a99ff84f-99db-47d6-bf18-84c42015a438
+  "Musaddad berichtete uns, von Yahya, vom at-Taymi, von Anas ibn Malik, von Abu Hurayrah, der sagte – zuweilen erwähnte er den Propheten (Friede sei auf ihm) –: Er sprach: „Wenn der Diener sich Mir um eine Handspanne nähert, nähere Ich Mich ihm um eine Elle; und wenn er sich Mir um eine Elle nähert, nähere Ich Mich ihm um eine Klafter oder Spanne.“ Und Mu‘tamir sagte: Ich hörte meinen Vater sagen: Ich hörte Anas von Abu Hurayrah überliefern, vom Propheten (Friede sei auf ihm), der von seinem Herrn, mächtig und majestätisch ist Er, berichtete.",
+
+  // 14: c7a177df-5a8b-4f4b-ac9a-6980ea90af86
+  "Adam berichtete uns: Schu‘bah berichtete uns: Muhammad ibn Ziyad berichtete uns: Ich hörte Abu Hurayrah vom Propheten (Friede sei auf ihm) überliefern, der von eurem Herrn berichtete; Er sprach: „Für jede Tat gibt es eine Sühne, und das Fasten ist für Mich, und Ich vergelte es; und fürwahr, der Mundgeruch des Fastenden ist bei Allah wohlriechender als der Duft von Moschus.“",
+
+  // 15: 1b557659-2f38-4672-9093-9e3289286cc5
+  "Hafs ibn ‘Umar berichtete uns: Schu‘bah berichtete uns von Qatadah. Und Khalifah sagte zu mir: Yazid ibn Zuray‘ berichtete uns von Sa‘id, von Qatadah, von Abu l-‘Aliyah, von Ibn ‘Abbas (möge Allah mit beiden zufrieden sein), vom Propheten (Friede sei auf ihm), in dem, was er von seinem Herrn berichtete; Er sprach: „Es ziemt sich nicht für einen Diener zu sagen, dass er besser sei als Jonas, der Sohn des Matta (Yunus ibn Matta).“ Und er führte seine Abstammung auf seinen Vater zurück.",
+
+  // 16: a7c93c7e-634e-4d1a-b1b3-a414fb3fe274
+  "Ahmad ibn Abi Surayj berichtete uns: Schababah teilte uns mit: Schu‘bah berichtete uns von Mu‘awiyah ibn Qurrah, von ‘Abdullah ibn Mughaffal al-Muzani, der sagte: Ich sah den Gesandten Allahs (Friede sei auf ihm) am Tag der Eroberung Mekkas auf seiner Kamelstute reiten, während er die Sure al-Fath – oder aus der Sure al-Fath – rezitierte. Er sagte: Er ließ dabei seine Stimme kunstvoll vibrieren (Tarji‘). Er sagte: Dann rezitierte Mu‘awiyah und ahmte die Rezitation von Ibn Mughaffal nach und sagte: „Hätte ich nicht gefürchtet, dass sich die Leute um euch versammeln, hätte ich meine Stimme ebenso vibrieren lassen wie Ibn Mughaffal.“ Er ahmte den Propheten (Friede sei auf ihm) nach. Da fragte ich Mu‘awiyah: „Wie klang seine Stimmvibration?“ Er antwortete: „A-a-a“, dreimal.",
+
+  // 17: 7bcb395c-e43d-409d-aa2c-921f1b89f962
+  "Ibn ‘Abbas sagte: Abu Sufyan ibn Harb teilte mir mit, dass Herakleios nach seinem Dolmetscher rief, dann das Schreiben des Propheten (Friede sei auf ihm) herbeibringen ließ und es las: „Im Namen Allahs, des Allerbarmers, des Barmherzigen. Von Muhammad, dem Diener Allahs und Seinem Gesandten, an Herakleios: ‚O Leute der Schrift, kommt herbei zu einem gemeinsamen Wort zwischen uns und euch...‘“, den Vers.",
+
+  // 18: 348358ee-444c-46f4-a5b5-26ba4da9771c
+  "Muhammad ibn Baschchar berichtete uns: ‘Uthman ibn ‘Umar berichtete uns: ‘Ali ibn al-Mubarak teilte uns mit, von Yahya ibn Abi Kathir, von Abu Salamah, von Abu Hurayrah, der sagte: Die Leute der Schrift pflegten die Thora auf Hebräisch zu lesen und sie den Muslimen auf Arabisch auszulegen. Da sprach der Gesandte Allahs (Friede sei auf ihm): „Erklärt die Leute der Schrift weder für wahrhaftig noch bezichtigt sie der Lüge, sondern sprecht: ‚Wir glauben an Allah und an das, was herabgesandt worden ist...‘“ (Sure 2, Vers 136 bis 136), den Vers.",
+
+  // 19: 4c24eb8e-25b8-4034-8999-d1b137ab3017
+  "Musaddad berichtete uns: Isma‘il berichtete uns von Ayyub, von Nafi‘, von Ibn ‘Umar (möge Allah mit beiden zufrieden sein), der sagte: Ein Mann und eine Frau von den Juden, die Ehebruch begangen hatten, wurden zum Propheten (Friede sei auf ihm) gebracht. Da fragte er die Juden: „Was tut ihr mit den beiden?“ Sie sagten: „Wir schwärzen ihre Gesichter und stellen sie bloß.“ Er sprach: „‚So bringt die Thora herbei und verlest sie, wenn ihr wahrhaftig seid‘“ (Sure 3, Vers 93 bis 93). Da kamen sie und sagten zu einem Mann unter ihnen, mit dem sie zufrieden waren: „O Einäugiger, lies!“ Er las, bis er an eine bestimmte Stelle gelangte, auf die er seine Hand legte. Der Prophet sagte: „Hebe deine Hand!“ Da hob er seine Hand, und siehe da, der Vers der Steinigung trat deutlich hervor! Da sagte jener: „O Muhammad, wahrlich, auf beiden steht die Steinigung, doch wir pflegten dies untereinander zu verschweigen.“ Da befahl er bezüglich der beiden die Steinigung, und sie wurden gesteinigt. Und ich sah den Mann, wie er sich über sie beugte, um sie vor den Steinen zu schützen.",
+
+  // 20: cefeb4c2-0788-4814-b4b9-60db1e7d8849
+  "Ibrahim ibn Hamzah berichtete mir: Ibn Abi Hazim berichtete mir von Yazid, von Muhammad ibn Ibrahim, von Abu Salamah, von Abu Hurayrah, dass er den Propheten (Friede sei auf ihm) sagen hörte: „Allah hat auf nichts so gelauscht, wie Er auf einen Propheten mit wohlklingender Stimme lauscht, der den Koran mit lauter Stimme vorträgt.“",
+
+  // 21: 7e725162-0da6-4bea-a077-b0cc0b4e20f2
+  "Yahya ibn Bukayr berichtete uns: al-Layth berichtete uns von Yunus, von Ibn Schihab: ‘Urwah ibn az-Zubayr, Sa‘id ibn al-Musayyab, ‘Alqamah ibn Waqqas und ‘Ubaydullah ibn ‘Abdullah berichteten mir vom Bericht über ‘A’ischah, als die Urheber der Verleumdung über sie sagten, was sie sagten – und jeder von ihnen berichtete mir einen Teil des Berichts –: Sie sagte: So legte ich mich auf mein Bett; und ich wusste zu jener Zeit, dass ich unschuldig war und dass Allah meine Unschuld erweisen würde. Doch bei Allah, ich hätte niemals gedacht, dass Allah meinetwegen eine Offenbarung herabsenden würde, die rezitiert wird! Denn mein Stellenwert bei mir selbst war viel zu gering, als dass Allah meinetwegen Worte sprechen würde, die man rezitiert. Und Allah, mächtig und majestätisch ist Er, sandte herab: „Gewiss, diejenigen, die die Verleumdung vorgebracht haben...“ (Sure 24, Vers 11 bis 11), alle zehn Verse in ihrer Gesamtheit.",
+
+  // 22: 6a41d5c5-c255-4168-b303-7ade13d43afc
+  "Abu Nu‘aym berichtete uns: Mis‘ar berichtete uns von ‘Adi ibn Thabit – ich meine, von al-Bara’ –, der sagte: Ich hörte den Propheten (Friede sei auf ihm) im Nachtgebet (‘Ischa’) rezitieren: „Beim Feigenbaum und beim Ölbaum...“ (Sure 95, Vers 1 bis 1). Und ich habe niemanden gehört, der eine schönere Stimme oder schönere Rezitation hatte als er.",
+
+  // 23: 256ac269-cd6e-4d0e-a9a9-c2d7d4f3ddd1
+  "Hajjaj ibn Minhal berichtete uns: Huschaym berichtete uns von Abu Bischr, von Sa‘id ibn Jubayr, von Ibn ‘Abbas (möge Allah mit beiden zufrieden sein), der sagte: Der Prophet (Friede sei auf ihm) verbarg sich in Mekka und pflegte seine Stimme zu erheben. Wenn die Götzendiener ihn hörten, schmähten sie den Koran und den, der ihn gebracht hat. Da sprach Allah, mächtig und majestätisch ist Er, zu Seinem Propheten (Friede sei auf ihm): „Und sprich dein Gebet weder zu laut noch flüstere es zu leise“ (Sure 17, Vers 110 bis 110).",
+
+  // 24: a86f9dcd-13dd-4ece-abf2-2cce362b7367
+  "Isma‘il berichtete uns: Malik berichtete mir von ‘Abd ar-Rahman ibn ‘Abdullah ibn ‘Abd ar-Rahman ibn Abi Sa‘sa‘ah, von seinem Vater, dass dieser ihm berichtete, dass Abu Sa‘id al-Khudri (möge Allah mit ihm zufrieden sein) zu ihm sagte: „Wahrlich, ich sehe, dass du Schafe und die Wüste liebst. Wenn du also bei deinen Schafen oder in deiner Wüste bist und zum Gebet rufst, so erhebe deine Stimme beim Gebetsruf; denn niemand hört die Reichweite der Stimme des Gebetsrufers, sei es ein Dschinn, ein Mensch oder irgendein Geschöpf, ohne dass es am Tag der Auferstehung für ihn zeugt.“ Abu Sa‘id sagte: Ich hörte dies vom Gesandten Allahs (Friede sei auf ihm).",
+
+  // 25: cfc5552e-599b-4dde-b60d-5683e4ebba7d
+  "Qabisah berichtete uns: Sufyan berichtete uns von Mansur, von seiner Mutter, von ‘A’ischah, die sagte: Der Prophet (Friede sei auf ihm) pflegte den Koran zu rezitieren, während sein Kopf in meinem Schoß lag und ich meine Menstruation hatte.",
+
+  // 26: ce327c5f-e627-42c8-bf97-9b8cca179577
+  "Yahya ibn Bukayr berichtete uns: al-Layth berichtete uns von ‘Uqayl, von Ibn Schihab: ‘Urwah berichtete mir, dass al-Miswar ibn Makhramah und ‘Abd ar-Rahman ibn ‘Abd al-Qari ihm berichteten, dass sie beide ‘Umar ibn al-Khattab sagen hörten: Ich hörte Hischam ibn Hakim zu Lebzeiten des Gesandten Allahs (Friede sei auf ihm) die Sure al-Furqan rezitieren. Ich lauschte seiner Rezitation und bemerkte, dass er sie auf mancherlei Lesearten rezitierte, die der Gesandte Allahs (Friede sei auf ihm) mich nicht gelehrt hatte. Fast wäre ich im Gebet über ihn hergefallen, doch ich bezähmte mich mit Geduld, bis er den Friedensgruß sprach. Da packte ich ihn am Kragen seines Gewandes und sagte: „Wer hat dich diese Sure gelehrt, die ich dich rezitieren hörte?“ Er sagte: „Der Gesandte Allahs (Friede sei auf ihm) lehrte sie mich.“ Da sagte ich: „Du lügst! Er lehrte sie mich ganz anders, als du sie rezitiert hast!“ So führte ich ihn ab zum Gesandten Allahs (Friede sei auf ihm) und sagte: „Ich hörte diesen die Sure al-Furqan auf Lesearten rezitieren, die du mich nicht gelehrt hast!“ Da sprach er: „Lass ihn los! Lies, o Hischam!“ Da trug jener jene Rezitation vor, die ich von ihm gehört hatte. Der Gesandte Allahs (Friede sei auf ihm) sprach: „So wurde sie herabgesandt.“ Dann sprach der Gesandte Allahs (Friede sei auf ihm): „Lies, o ‘Umar!“ Da trug ich das vor, was er mich gelehrt hatte. Da sprach er: „So wurde sie herabgesandt. Wahrlich, dieser Koran wurde auf sieben Lesearten herabgesandt; so rezitiert daraus, was euch leichtfällt.“",
+
+  // 27: 89c085c4-3520-4ffd-8de0-4f55e3cdb055
+  "Abu Ma‘mar berichtete uns: ‘Abd al-Warith berichtete uns: Yazid sagte: Mutarrif ibn ‘Abdullah berichtete mir von ‘Imran, der sagte: Ich fragte: „O Gesandter Allahs, wofür strengen sich denn die Handelnden an?“ Er sprach: „Jedem wird das erleichtert, wofür er erschaffen wurde.“",
+
+  // 28: a4e40d3b-f175-4eb6-8ad7-09079ca3cbd4
+  "Muhammad ibn Baschchar berichtete mir: Ghundar berichtete uns: Schu‘bah berichtete uns von Mansur und al-A‘masch, die Sa‘d ibn ‘Ubaydah hörten, von Abu ‘Abd ar-Rahman, von ‘Ali (möge Allah mit ihm zufrieden sein), vom Propheten (Friede sei auf ihm), dass er bei einem Begräbnis war, ein Stöckchen nahm und damit auf dem Boden scharrte. Da sprach er: „Es gibt keinen einzigen unter euch, dessen Platz im Feuer oder im Paradies nicht bereits vorgeschrieben ist.“ Sie fragten: „Sollen wir uns denn nicht darauf verlassen?“ Er sprach: „Handelt! Denn jedem wird das erleichtert, wofür er erschaffen wurde“, und dann rezitierte er: „Was nun den angeht, der gibt und gottesfürchtig ist...“ (Sure 92, Vers 5 bis 5), den Vers.",
+
+  // 29: c28ebe65-f24c-4e47-80d8-afdcc3111040
+  "Khalifah ibn Khayyat sagte zu mir: Mu‘tamir berichtete uns: Ich hörte meinen Vater von Qatadah, von Abu Rafi‘, von Abu Hurayrah, vom Propheten (Friede sei auf ihm), der sagte: „Als Allah die Schöpfung vollendet hatte, schrieb Er in ein Buch bei Sich: ‚Meine Barmherzigkeit besiegt‘ – oder er sagte: ‚eilt voraus‘ – ‚Meinem Zorn.‘ Und es befindet sich bei Ihm über dem Thron.“"
+];
+
+if (inputs.length !== translations.length) {
+  console.error(`Count mismatch: ${inputs.length} inputs vs ${translations.length} translations`);
+  process.exit(1);
+}
+
+const outputs = [];
+let hasErrors = false;
+
+for (let i = 0; i < inputs.length; i++) {
+  const item = inputs[i];
+  const deText = translations[i];
+  const errs = validateGerman(item, deText);
+
+  if (errs.length > 0) {
+    console.error(`[Error] Item ${i} (${item.id}):`, errs);
+    hasErrors = true;
+  }
+
+  outputs.push({
+    id: item.id,
+    de: deText
+  });
+}
+
+if (hasErrors) {
+  console.error('Validation failed. Aborting output writing.');
+  process.exit(1);
+}
+
+fs.writeFileSync(outputPath, JSON.stringify(outputs, null, 2), 'utf8');
+console.log(`Successfully generated and validated ${outputs.length} translations -> ${outputPath}`);

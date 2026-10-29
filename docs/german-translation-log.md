@@ -55,3 +55,5 @@ Published: `false`
 | bukhari-035 | 30 | 30 | 0 | 18070 | 18100 | Stored cleanly as unpublished drafts |
 | bukhari-036 | 30 | 30 | 0 | 18100 | 18130 | Stored cleanly as unpublished drafts |
 | bukhari-037 | 30 | 30 | 0 | 18130 | 18160 | Stored cleanly as unpublished drafts |
+| bukhari-038 | 30 | 30 | 0 | 18160 | 18190 | Stored cleanly as unpublished drafts |
+| bukhari-039 | 10 | 10 | 0 | 18190 | 18200 | Stored cleanly as unpublished drafts |
