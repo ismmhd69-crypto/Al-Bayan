@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5417,
+    "hadithBukhariDrafted": 5419,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5417,
+    "hadithLocalDrafted": 5419,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9212,
-    "hadithNeedsMo": 781,
+    "hadithLocalRemaining": 9210,
+    "hadithNeedsMo": 782,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25050,6 +25050,24 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1182",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1182.json",
+      "sourceIds": [
+        "53be1e76-f0e9-45e5-b146-d8fa421b2d26",
+        "5ee087e8-0e38-4c53-b3b3-85d0ada19f68",
+        "f59e46d7-49e2-4345-9edf-803399fe6b84"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Two records passed the focused validator. Bukhari 6440 remains blank because it directly quotes Quran 102:1. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -28130,11 +28148,17 @@
       "scope": "Sahih al-Bukhari 6437: narrator is unsure whether the quoted wording is from the Quran",
       "status": "blocked",
       "reason": "The narrator explicitly says he does not know whether the wording is from the Quran. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use, or reliable clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-6440-QURAN-102-1",
+      "scope": "Sahih al-Bukhari 6440: direct quotation of Quran 102:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 102:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5417,
-  "hadithLocalDrafted": 5417,
-  "hadithLocalRemaining": 9212,
+  "hadithBukhariDrafted": 5419,
+  "hadithLocalDrafted": 5419,
+  "hadithLocalRemaining": 9210,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28357,6 +28381,12 @@
       "scope": "Sahih al-Bukhari 6437: narrator is unsure whether the quoted wording is from the Quran",
       "status": "blocked",
       "reason": "The narrator explicitly says he does not know whether the wording is from the Quran. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use, or reliable clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-6440-QURAN-102-1",
+      "scope": "Sahih al-Bukhari 6440: direct quotation of Quran 102:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 102:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

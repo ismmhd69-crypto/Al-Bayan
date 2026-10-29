@@ -1,0 +1,94 @@
+{
+  "batch_id": "HADITH-BUKHARI-1182",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:37:16.096Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "53be1e76-f0e9-45e5-b146-d8fa421b2d26",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6440",
+      "reference": "Sahih al-Bukhari, hadith 6440, book 81, باب مَا يُتَّقَى مِنْ فِتْنَةِ الْمَالِ‏",
+      "title": "باب مَا يُتَّقَى مِنْ فِتْنَةِ الْمَالِ‏",
+      "source_published": true,
+      "text_original": "وَقَالَ لَنَا أَبُو الْوَلِيدِ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، عَنْ أُبَىٍّ، قَالَ كُنَّا نَرَى هَذَا مِنَ الْقُرْآنِ حَتَّى نَزَلَتْ ‏{‏أَلْهَاكُمُ التَّكَاثُرُ‏}‏",
+      "source_hash_sha256": "494a0ece64ed47a1f256e68d2f2441a784e93b7577eaa6cc89909f06bb8c0477",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "5ee087e8-0e38-4c53-b3b3-85d0ada19f68",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6441",
+      "reference": "Sahih al-Bukhari, hadith 6441, book 81, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم: «هَذَا الْمَالُ خَضِرَةٌ حُلْوَةٌ»",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم: «هَذَا الْمَالُ خَضِرَةٌ حُلْوَةٌ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ سَمِعْتُ الزُّهْرِيَّ، يَقُولُ أَخْبَرَنِي عُرْوَةُ، وَسَعِيدُ بْنُ الْمُسَيَّبِ، عَنْ حَكِيمِ بْنِ حِزَامٍ، قَالَ سَأَلْتُ النَّبِيَّ صلى الله عليه وسلم فَأَعْطَانِي، ثُمَّ سَأَلْتُهُ فَأَعْطَانِي، ثُمَّ سَأَلْتُهُ فَأَعْطَانِي، ثُمَّ قَالَ ‏\"‏ هَذَا الْمَالُ ـ وَرُبَّمَا قَالَ سُفْيَانُ قَالَ لِي يَا حَكِيمُ ـ إِنَّ هَذَا الْمَالَ خَضِرَةٌ حُلْوَةٌ، فَمَنْ أَخَذَهُ بِطِيبِ نَفْسٍ بُورِكَ لَهُ فِيهِ، وَمَنْ أَخَذَهُ بِإِشْرَافِ نَفْسٍ لَمْ يُبَارَكْ لَهُ فِيهِ، وَكَانَ كَالَّذِي يَأْكُلُ وَلاَ يَشْبَعُ، وَالْيَدُ الْعُلْيَا خَيْرٌ مِنَ الْيَدِ السُّفْلَى ‏\"‏‏.‏",
+      "source_hash_sha256": "578048756fd6e37d6bbb116f434c3f5371c6fa73197e17985235ebeba5deb715",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Alî ibn ‘Abd Allah nous a rapporté : Sufyân nous a rapporté : J’ai entendu al-Zuhrî dire : ‘Urwa et Sa‘îd ibn al-Musayyib m’ont informé, d’après Hakîm ibn Hizâm, qui a dit : J’ai demandé au Prophète ﷺ, et il m’a donné. Je lui ai demandé encore, et il m’a donné. Je lui ai demandé une troisième fois, et il m’a donné. Puis il a dit — Sufyân rapporte qu’il a peut-être dit : « Ô Hakîm » — : « Ces biens sont verdoyants et doux. Celui qui les reçoit sans convoitise en sera béni ; celui qui les prend avec avidité n’en sera pas béni et sera comme celui qui mange sans jamais être rassasié. La main qui donne est meilleure que celle qui reçoit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f59e46d7-49e2-4345-9edf-803399fe6b84",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6442",
+      "reference": "Sahih al-Bukhari, hadith 6442, book 81, باب مَا قَدَّمَ مِنْ مَالِهِ فَهْوَ لَهُ",
+      "title": "باب مَا قَدَّمَ مِنْ مَالِهِ فَهْوَ لَهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عُمَرُ بْنُ حَفْصٍ، حَدَّثَنِي أَبِي، حَدَّثَنَا الأَعْمَشُ، قَالَ حَدَّثَنِي إِبْرَاهِيمُ التَّيْمِيُّ، عَنِ الْحَارِثِ بْنِ سُوَيْدٍ، قَالَ عَبْدُ اللَّهِ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ أَيُّكُمْ مَالُ وَارِثِهِ أَحَبُّ إِلَيْهِ مِنْ مَالِهِ ‏\"‏‏.‏ قَالُوا يَا رَسُولَ اللَّهِ مَا مِنَّا أَحَدٌ إِلاَّ مَالُهُ أَحَبُّ إِلَيْهِ‏.‏ قَالَ ‏\"‏ فَإِنَّ مَالَهُ مَا قَدَّمَ، وَمَالُ وَارِثِهِ مَا أَخَّرَ ‏\"‏‏.‏",
+      "source_hash_sha256": "12b2361750529e9f1395d21ab79ecedb353ee2262fd548cf159e703be327282e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Umar ibn Hafs m’a rapporté : Mon père m’a rapporté : al-A‘mash nous a rapporté : Ibrâhîm al-Taymî m’a rapporté, d’après al-Hârith ibn Suwayd, qui a dit : ‘Abd Allah a dit que le Prophète ﷺ avait demandé : « Lequel de vous préfère les biens de son héritier à ses propres biens ? » Ils répondirent : « Ô Messager d’Allah, il n’y en a aucun parmi nous qui ne préfère ses propres biens. » Il dit : « Ses biens sont ce qu’il a envoyé devant lui ; les biens de son héritier sont ce qu’il a laissé derrière lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "53be1e76-f0e9-45e5-b146-d8fa421b2d26",
+      "url": "https://sunnah.com/bukhari:6440",
+      "reason": "Le récit cite directement le Coran 102:1. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}
