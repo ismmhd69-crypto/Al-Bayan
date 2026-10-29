@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, ChevronRight, CircleHelp, Compass, Ellipsis, Globe, HeartHandshake, House, MessageCircle, ScrollText, type LucideIcon } from "lucide-react";
+import { BookOpen, ChevronRight, CircleHelp, Compass, Ellipsis, Globe, HeartHandshake, House, MessageCircle, ScrollText, X, type LucideIcon } from "lucide-react";
 import { localeNames, type Dictionary, type Locale } from "@/lib/i18n";
 import Logo from "./Logo";
 import LangSwitch from "./LangSwitch";
@@ -28,6 +28,9 @@ const PHONE_ORDER: NavKey[] = ["home", "quran", "ask", "hadith", "more"];
 const phoneItems = PHONE_ORDER.map((key) => items.find((item) => item.key === key)!);
 // The pages reached through More keep the More button lit.
 const MORE_PATHS = ["/more", "/topics", "/start", "/support"];
+const CLOSE_LABEL: Record<Locale, string> = { ar: "إغلاق", en: "Close", de: "Schließen" };
+// Dragging the sheet's top area down by this much (or flicking it down) closes it.
+const DRAG_CLOSE_PX = 80;
 
 export default function Shell({
   lang,
@@ -60,7 +63,31 @@ export default function Shell({
     if (!dialog) return;
     if (sheetOpen && !dialog.open) dialog.showModal();
     if (!sheetOpen && dialog.open) dialog.close();
+    dialog.style.transform = "";
   }, [sheetOpen]);
+  // Drag down to close, from the handle and title row. The sheet follows the finger, then
+  // either closes or springs back.
+  const drag = useRef<{ y: number; t: number; dy: number } | null>(null);
+  const onDragStart = (e: React.PointerEvent<HTMLDivElement>) => {
+    if ((e.target as HTMLElement).closest("button")) return;
+    drag.current = { y: e.clientY, t: e.timeStamp, dy: 0 };
+    e.currentTarget.setPointerCapture(e.pointerId);
+    sheet.current?.classList.add("more-sheet--dragging");
+  };
+  const onDragMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!drag.current || !sheet.current) return;
+    drag.current.dy = Math.max(0, e.clientY - drag.current.y);
+    sheet.current.style.transform = `translateY(${drag.current.dy}px)`;
+  };
+  const onDragEnd = (e: React.PointerEvent<HTMLDivElement>) => {
+    const d = drag.current;
+    drag.current = null;
+    if (!d || !sheet.current) return;
+    sheet.current.classList.remove("more-sheet--dragging");
+    const flick = d.dy > 24 && d.dy / Math.max(1, e.timeStamp - d.t) > 0.5;
+    if (d.dy > DRAG_CLOSE_PX || flick) setSheetOpen(false);
+    else sheet.current.style.transform = "";
+  };
   const sheetRows: { href: string; label: string; Icon: LucideIcon; note?: string }[] = [
     { href: `${base}/topics`, label: nav.topics, Icon: CircleHelp },
     { href: `${base}/start`, label: nav.start, Icon: Compass },
@@ -117,8 +144,15 @@ export default function Shell({
 
       <dialog ref={sheet} className="more-sheet" aria-labelledby="more-sheet-title"
         onClose={() => setSheetOpen(false)} onClick={(e) => { if (e.target === e.currentTarget) setSheetOpen(false); }}>
-        <div className="more-sheet-grab" aria-hidden="true" />
-        <h2 id="more-sheet-title">{moreLabels.title}</h2>
+        <div className="more-sheet-head" onPointerDown={onDragStart} onPointerMove={onDragMove} onPointerUp={onDragEnd} onPointerCancel={onDragEnd}>
+          <div className="more-sheet-grab" aria-hidden="true" />
+          <div className="more-sheet-title">
+            <h2 id="more-sheet-title">{moreLabels.title}</h2>
+            <button type="button" className="more-sheet-close" aria-label={CLOSE_LABEL[lang]} onClick={() => setSheetOpen(false)}>
+              <X aria-hidden="true" />
+            </button>
+          </div>
+        </div>
         <ul>
           {sheetRows.map(({ href, label, Icon, note }) => (
             <li key={href}>

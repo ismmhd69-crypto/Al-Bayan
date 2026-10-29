@@ -2814,15 +2814,48 @@ details[open] > summary .chev {
 @media (prefers-reduced-motion: reduce) {
   .more-sheet[open] { animation: none; }
 }
+.more-sheet {
+  transition: transform 0.2s ease-out;
+}
+.more-sheet--dragging {
+  transition: none;
+}
+.more-sheet-head {
+  margin: -10px -16px 0;
+  padding: 10px 16px 0;
+  touch-action: none;
+  cursor: grab;
+}
+.more-sheet-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.more-sheet-close {
+  display: grid;
+  place-items: center;
+  inline-size: 36px;
+  block-size: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--line);
+  color: var(--ink);
+  cursor: pointer;
+}
+.more-sheet-close svg {
+  inline-size: 18px;
+  block-size: 18px;
+}
 .more-sheet-grab {
   inline-size: 40px;
-  block-size: 4px;
-  margin: 0 auto 12px;
+  block-size: 5px;
+  margin: 0 auto 10px;
   border-radius: 4px;
   background: var(--line);
 }
 .more-sheet h2 {
-  margin: 0 0 6px;
+  margin: 0;
   font-size: var(--fs-md);
 }
 .more-sheet ul {
