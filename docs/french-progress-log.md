@@ -7841,3 +7841,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0143 saves three private French drafts about continuous bleeding and prayer. Muslim 333b, 334c and 334d provide incomplete variants or cross-references without complete report text, so they remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 591 Muslim drafts, 6,927 total hadith drafts, 7,702 remaining, and 288 Needs Mo items.
+
+### 2026-10-29: Muslim 334e–336a
+
+- FR-LIB-HAD-MUSLIM-0144 saves six private French drafts about irregular bleeding, prayer during menstruation, and covering during a ritual bath. Narrator chains and the distinction between make-up fasting and prayer are retained.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 597 Muslim drafts, 6,933 total hadith drafts, 7,696 remaining, and 288 Needs Mo items.
