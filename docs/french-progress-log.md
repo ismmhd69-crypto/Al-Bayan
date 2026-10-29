@@ -11302,3 +11302,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1764b-1767b
 
 - FR-LIB-HAD-MUSLIM-0835 saves three private French drafts: the distinct wording in 1764b, the complete report in 1765, and the complete report in 1767a. The damaged 1766a source and the two chain or cross-reference-only entries remain blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1768a-1769d
+
+- FR-LIB-HAD-MUSLIM-0836 saves six private French drafts. The reports preserve their chains, wording differences about Sa‘d’s judgment, accounts of Sa‘d’s injury and death, and the poem added in 1769d. No Quran quotation appears in these entries. No database write or publication occurred.
