@@ -8326,3 +8326,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0240 saves four private French drafts about correcting a shortened prayer and prostration during Quran recitation. Muslim 576 and 577 contain direct Quran quotations (53:1) and remain blank under Needs Mo until an authorized French rendering is approved.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 962 Muslim drafts, 7,298 total hadith drafts, 7,331 remaining, and 462 Needs Mo items.
+
+### 2026-10-29: Muslim 578a–578f
+
+- FR-LIB-HAD-MUSLIM-0241 holds all six items blank under Needs Mo: four reports contain direct Quran quotations (84:1 and/or 96:1), and two contain only incomplete cross-references.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Draft totals remain 962 Muslim and 7,298 overall, with 7,331 remaining and 466 Needs Mo items.
