@@ -11598,3 +11598,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1935b-1935g
 
 - FR-LIB-HAD-MUSLIM-0909 saves five private French drafts about the “army of leaves” expedition and the sea creature they ate. Different details and durations, including eighteen nights in one account, are preserved. One referential entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1936-1938c
+
+- FR-LIB-HAD-MUSLIM-0910 saves six private French drafts about domestic donkeys and the Khaybar reports. The question of whether the prohibition was absolute or related to the fifth share remains accurately presented as differing reports. No Quran verse is quoted. No database write or publication occurred.
