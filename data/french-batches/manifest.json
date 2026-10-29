@@ -56,15 +56,15 @@
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
     "hardcodedVisitorCopyDrafted": 24,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 37,
+    "hadithBukhariDrafted": 42,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 37,
+    "hadithLocalDrafted": 42,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 14592,
-    "hadithNeedsMo": 6,
+    "hadithLocalRemaining": 14587,
+    "hadithNeedsMo": 7,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -887,6 +887,20 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-011",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-011.json",
+      "sourceIds": ["bb8539fb-88a9-40eb-a6b2-57e1be658f67", "cf458329-1c3b-4d58-88ce-fb4c4cf2455f", "1f5a0221-da4a-4396-bb70-3c3c0ffd8b3b", "fc3261cb-22d1-428b-9621-2a3eb9c0863b", "b7e7951d-5ae1-4256-8445-b5a7c7682fe9", "0bce5aa8-52d6-4562-93af-86bc6ff8351d"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hashes, IDs, URLs, references, rights, private status, and five complete translations passed; Bukhari 45 held for Quran 5:3",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo"
     }
   ],
   "blockers": [
@@ -906,7 +920,7 @@
       "id": "QURAN-FR-EMBEDDED-QUOTES",
       "scope": "Hadith records containing Quran quotations",
       "status": "blocked",
-      "reason": "The current application Quran source configuration exposes English and German translations only. Six hadiths are held until an approved, attributed French Quran translation is confirmed. No French Quran text was generated or saved."
+      "reason": "The current application Quran source configuration exposes English and German translations only. Seven hadiths are held until an approved, attributed French Quran translation is confirmed. No French Quran text was generated or saved."
     }
   ]
 }

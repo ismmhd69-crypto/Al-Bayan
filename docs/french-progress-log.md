@@ -119,3 +119,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - Correction: batch 009 did not contain a long Bukhari 38 report. The exporter deferred a different later long record; Bukhari 38 was included normally in batch 010.
 - Updated hadith progress: 37 private local French drafts of 14,629; 6 items remain on hold for approved French Quran quotations; 14,592 have no local French draft; database insertions remain 0 and all 14,629 remain absent from the live French table.
+
+| FR-LIB-HAD-BUKHARI-011 | `bb8539fb-88a9-40eb-a6b2-57e1be658f67` (Bukhari 44), `cf458329-1c3b-4d58-88ce-fb4c4cf2455f` (Bukhari 45), `1f5a0221-da4a-4396-bb70-3c3c0ffd8b3b` (Bukhari 46), `fc3261cb-22d1-428b-9621-2a3eb9c0863b` (Bukhari 47), `b7e7951d-5ae1-4256-8445-b5a7c7682fe9` (Bukhari 48), `0bce5aa8-52d6-4562-93af-86bc6ff8351d` (Bukhari 49) | 5 | 0 | 0 | Arabic hashes, IDs, URLs, references, rights, private status, and five complete translations passed; Bukhari 45 held because it quotes Quran 5:3 | 14,587 | Five private local AI drafts; one Needs Mo |
+
+- Updated hadith progress: 42 private local French drafts of 14,629; 7 items remain on hold for approved French Quran quotations; 14,587 have no local French draft; database insertions remain 0 and all 14,629 remain absent from the live French table.
