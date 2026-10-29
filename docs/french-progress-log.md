@@ -8341,3 +8341,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0243 saves four private French drafts about pointing with the index during prayer, the closing salutation, and recognizing the end of prayer. Muslim 580d and 581b do not provide the complete report and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 970 Muslim drafts, 7,306 total hadith drafts, 7,323 remaining, and 470 Needs Mo items.
+
+### 2026-10-29: Muslim 583b–586b
+
+- FR-LIB-HAD-MUSLIM-0244 saves five private French drafts about remembrance after obligatory prayer and seeking protection from punishment in the grave. Muslim 586b contains only a cross-reference and a variant ending, so it remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 975 Muslim drafts, 7,311 total hadith drafts, 7,318 remaining, and 471 Needs Mo items.
