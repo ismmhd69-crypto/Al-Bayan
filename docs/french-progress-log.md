@@ -2736,3 +2736,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-564` saves five private French drafts about the Night Journey and descriptions of the afterlife. Bukhari 3238 remains entirely blank because it directly quotes Quran 74:1–5; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,921 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 184. Total local hadith rows not drafted: 11,734, including held records.
+
+### 2026-10-29: Bukhari 3244–3249
+
+- `FR-LIB-HAD-BUKHARI-565` saves five private French drafts describing Paradise. Bukhari 3244 remains entirely blank because it directly quotes Quran 32:17; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,926 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 185. Total local hadith rows not drafted: 11,729, including held records.
