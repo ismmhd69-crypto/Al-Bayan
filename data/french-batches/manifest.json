@@ -19312,6 +19312,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-899",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-899.json",
+      "sourceIds": [
+        "0b07d0e8-8c36-4e14-8391-0de10f44ac16",
+        "85dd6896-8964-45f9-aff1-98f6fe740e46",
+        "88ae94cc-b2ca-4032-b4d7-7a350b70c93a",
+        "633e449c-26b2-4e90-8b3e-34571c04c022",
+        "438184ad-4f3c-4e05-97b6-cd81a5179cd6",
+        "a391054a-fbce-4158-98fa-d97b01b75b94"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -21684,9 +21705,27 @@
       "scope": "Sahih al-Bukhari 4913: unusually long multi-scene report requiring a separate completeness review",
       "status": "blocked",
       "reason": "Hadith 4913 est un récit exceptionnellement long (3 759 caractères arabes) comprenant plusieurs chaînes et longues scènes rapportées au discours indirect. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-898 en attente d’une révision distincte de la source et de sa couverture."
+    },
+    {
+      "id": "HADITH-BUKHARI-4917-QURAN-68-13",
+      "scope": "Sahih al-Bukhari 4917: direct Quran wording from 68:13",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 68:13. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-899, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4916-QURAN-4916-UNMARKED",
+      "scope": "Sahih al-Bukhari 4916: direct Quran wording from 66:5 (citation directe sans marqueur)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 66:5 (citation directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-899, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4919-QURAN-4919-UNMARKED",
+      "scope": "Sahih al-Bukhari 4919: direct Quran wording from 68:42 (formule directe sans marqueur)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 68:42 (formule directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-899, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4063,
-  "hadithLocalDrafted": 4063,
-  "hadithLocalRemaining": 10604
+  "hadithBukhariDrafted": 4066,
+  "hadithLocalDrafted": 4066,
+  "hadithLocalRemaining": 10601
 }
