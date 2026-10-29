@@ -1926,3 +1926,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-402` saves the full private French draft for Bukhari 2333, a source too long for a multi-item export. It preserves all three men’s accounts and their prayers.
 - The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,119 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 123. Total local hadith rows not drafted: 12,510, including held records.
+
+### 2026-10-29: Bukhari 2334–2339 source review
+
+- `FR-LIB-HAD-BUKHARI-403` saves six private French drafts for Bukhari 2334–2339, retaining the land and crop terms and the location variants in 2336–2338.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,125 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 123. Total local hadith rows not drafted: 12,504, including held records.
