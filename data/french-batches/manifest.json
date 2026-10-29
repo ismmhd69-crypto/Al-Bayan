@@ -54,7 +54,7 @@
     "preparedAnswersRemaining": 0,
     "preparedAnswersDraftFiles": "data/french-batches/prepared-answers-*.json",
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
-    "hardcodedVisitorCopyDrafted": 24,
+    "hardcodedVisitorCopyDrafted": 54,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 561,
     "hadithMuslimDrafted": 0,
@@ -2259,54 +2259,33 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private local drafts; one Needs Mo for approved Quran translation"
+    },
+    {
+      "id": "FR-UI-HC-002",
+      "contentType": "website-hardcoded-visitor-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/hardcoded-copy-002.json",
+      "translated": 25,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Source files, unique IDs, nonempty French, and placeholder parity passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-UI-HC-003",
+      "contentType": "website-hardcoded-visitor-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/hardcoded-copy-003.json",
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Source files, unique IDs, nonempty French, and placeholder parity passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ],
   "blockers": [
     {

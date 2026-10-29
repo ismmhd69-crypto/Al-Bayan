@@ -1,0 +1,152 @@
+[
+  {
+    "id": "chat.recent",
+    "source": "lib/chat-text.ts",
+    "english": "Recent chats",
+    "french": "Conversations récentes"
+  },
+  {
+    "id": "chat.new",
+    "source": "lib/chat-text.ts",
+    "english": "New chat",
+    "french": "Nouvelle conversation"
+  },
+  {
+    "id": "chat.openRecent",
+    "source": "lib/chat-text.ts",
+    "english": "Recent chats",
+    "french": "Conversations récentes"
+  },
+  {
+    "id": "chat.close",
+    "source": "lib/chat-text.ts",
+    "english": "Close",
+    "french": "Fermer"
+  },
+  {
+    "id": "chat.today",
+    "source": "lib/chat-text.ts",
+    "english": "Today",
+    "french": "Aujourd’hui"
+  },
+  {
+    "id": "chat.yesterday",
+    "source": "lib/chat-text.ts",
+    "english": "Yesterday",
+    "french": "Hier"
+  },
+  {
+    "id": "chat.earlier",
+    "source": "lib/chat-text.ts",
+    "english": "Earlier",
+    "french": "Plus tôt"
+  },
+  {
+    "id": "chat.oneQuestion",
+    "source": "lib/chat-text.ts",
+    "english": "1 question",
+    "french": "1 question"
+  },
+  {
+    "id": "chat.manyQuestions",
+    "source": "lib/chat-text.ts",
+    "english": "{n} questions",
+    "french": "{n} questions"
+  },
+  {
+    "id": "chat.deleteChat",
+    "source": "lib/chat-text.ts",
+    "english": "Delete this chat",
+    "french": "Supprimer cette conversation"
+  },
+  {
+    "id": "chat.deleteAsk",
+    "source": "lib/chat-text.ts",
+    "english": "Delete this chat?",
+    "french": "Supprimer cette conversation ?"
+  },
+  {
+    "id": "chat.deleteYes",
+    "source": "lib/chat-text.ts",
+    "english": "Delete",
+    "french": "Supprimer"
+  },
+  {
+    "id": "chat.deleteNo",
+    "source": "lib/chat-text.ts",
+    "english": "Keep",
+    "french": "Garder"
+  },
+  {
+    "id": "chat.deleteAll",
+    "source": "lib/chat-text.ts",
+    "english": "Delete all",
+    "french": "Tout supprimer"
+  },
+  {
+    "id": "chat.deleteAllAsk",
+    "source": "lib/chat-text.ts",
+    "english": "Delete all your saved chats?",
+    "french": "Supprimer toutes vos conversations enregistrées ?"
+  },
+  {
+    "id": "chat.savedInAccount",
+    "source": "lib/chat-text.ts",
+    "english": "Saved in your account.",
+    "french": "Enregistrée dans votre compte."
+  },
+  {
+    "id": "chat.nothingSaved",
+    "source": "lib/chat-text.ts",
+    "english": "Nothing from this chat is saved.",
+    "french": "Rien de cette conversation n’est enregistré."
+  },
+  {
+    "id": "chat.keepTitle",
+    "source": "lib/chat-text.ts",
+    "english": "Keep your chats",
+    "french": "Conservez vos conversations"
+  },
+  {
+    "id": "chat.keepText",
+    "source": "lib/chat-text.ts",
+    "english": "Bayan works without an account, but chats are not saved. Sign in to keep a list of your recent chats on every device.",
+    "french": "Bayan fonctionne sans compte, mais les conversations ne sont pas enregistrées. Connectez-vous pour retrouver vos conversations récentes sur chaque appareil."
+  },
+  {
+    "id": "chat.signInButton",
+    "source": "lib/chat-text.ts",
+    "english": "Sign in or create account",
+    "french": "Se connecter ou créer un compte"
+  },
+  {
+    "id": "chat.loading",
+    "source": "lib/chat-text.ts",
+    "english": "Loading your chats...",
+    "french": "Chargement de vos conversations…"
+  },
+  {
+    "id": "chat.empty",
+    "source": "lib/chat-text.ts",
+    "english": "No saved chats yet. Ask a question and it appears here.",
+    "french": "Aucune conversation enregistrée pour le moment. Posez une question pour la retrouver ici."
+  },
+  {
+    "id": "chat.loadError",
+    "source": "lib/chat-text.ts",
+    "english": "Your chats could not be loaded.",
+    "french": "Impossible de charger vos conversations."
+  },
+  {
+    "id": "chat.retry",
+    "source": "lib/chat-text.ts",
+    "english": "Try again",
+    "french": "Réessayer"
+  },
+  {
+    "id": "chat.openError",
+    "source": "lib/chat-text.ts",
+    "english": "This chat could not be opened. Please try again.",
+    "french": "Impossible d’ouvrir cette conversation. Veuillez réessayer."
+  }
+]

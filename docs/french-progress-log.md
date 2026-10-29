@@ -458,3 +458,10 @@ Scope: private local preparation only. French remains absent from public locale 
 | FR-LIB-HAD-BUKHARI-108 | 3ab76c1b-4c64-4360-bcf0-9b6cf6738098 (Bukhari 596), d71afbda-638d-40d2-a263-95f7cb7555da (Bukhari 597), aa14eb23-529a-4443-a30b-baaa6deee0fa (Bukhari 598), e5bc3c1a-daa7-4d12-ba83-82710f596be0 (Bukhari 599), e3d4356d-c94c-4e2a-a778-b2fa9df76401 (Bukhari 600), 009a9330-cb26-4eed-a5db-71ea9392d95f (Bukhari 601) | 5 | 0 | 0 | Arabic hashes, IDs, URLs, references, rights, and private status passed; five complete translations validated; Bukhari 597 remains blank on hold for embedded Quran 20:14 | 14,068 | Five private local AI drafts; unpublished; no human review; one Quran quote hold |
 
 - Updated hadith progress: 561 private local French drafts of 14,629; 23 Quran-quote holds and three incomplete-source holds; 14,068 have no local French draft; database insertions remain 0 and all 14,629 remain absent from the live French table.
+
+### 2026-10-29: saved chat interface copy
+
+- `FR-UI-HC-002` saved 25 French labels and messages from `lib/chat-text.ts`: `recent`, `newChat`, `openRecent`, `close`, `today`, `yesterday`, `earlier`, `oneQuestion`, `manyQuestions`, `deleteChat`, `deleteAsk`, `deleteYes`, `deleteNo`, `deleteAll`, `deleteAllAsk`, `savedInAccount`, `nothingSaved`, `keepTitle`, `keepText`, `signInButton`, `loading`, `empty`, `loadError`, `retry`, and `openError`.
+- `FR-UI-HC-003` saved the remaining 5: `saveError`, `unavailable`, `opened`, `started`, and `deleted`.
+- Both batches passed source-file, unique-ID, nonempty French, and placeholder checks. The guarded local preview loads these draft batches. No locale route, public API, or Ask submission behavior changed.
+- Code-level visitor-copy coverage increased from 24 to 54 saved strings. The full copy audit remains incomplete; account and other page-specific/control text still need review. Neither batch is human-reviewed or published.

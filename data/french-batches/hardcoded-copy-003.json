@@ -1,0 +1,32 @@
+[
+  {
+    "id": "chat.saveError",
+    "source": "lib/chat-text.ts",
+    "english": "The last question could not be saved to your account.",
+    "french": "Impossible d’enregistrer la dernière question dans votre compte."
+  },
+  {
+    "id": "chat.unavailable",
+    "source": "lib/chat-text.ts",
+    "english": "This saved answer could not be loaded right now. Please try again later.",
+    "french": "Impossible de charger cette réponse enregistrée pour le moment. Veuillez réessayer plus tard."
+  },
+  {
+    "id": "chat.opened",
+    "source": "lib/chat-text.ts",
+    "english": "Chat opened.",
+    "french": "Conversation ouverte."
+  },
+  {
+    "id": "chat.started",
+    "source": "lib/chat-text.ts",
+    "english": "New chat started.",
+    "french": "Nouvelle conversation commencée."
+  },
+  {
+    "id": "chat.deleted",
+    "source": "lib/chat-text.ts",
+    "english": "Chat deleted.",
+    "french": "Conversation supprimée."
+  }
+]
