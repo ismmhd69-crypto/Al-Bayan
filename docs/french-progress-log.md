@@ -1534,3 +1534,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-321` saves six private French drafts for Bukhari 1864–1869. It preserves the narrator’s uncertainty in 1864, the wording about a vow to walk and permission to ride in 1865–1866, and the full reports about the sanctuaries and the mosque’s construction.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,703 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 102. Total local hadith rows not drafted: 12,926, including held records.
+### 2026-10-29: Bukhari 1870–1875 source review
+
+- `FR-LIB-HAD-BUKHARI-322` saves four private French drafts for Bukhari 1871–1874. Bukhari 1870 remains blank because its boundary is unspecified and its closing affiliation clause is unclear. Bukhari 1875 remains blank because its verb يبُسّون is unclear in the source excerpt. Both are recorded under Needs Mo; no wording was borrowed from elsewhere.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and reason-specific holds. No database writes or publication occurred. Bukhari local drafts: 1,711 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 104. Total local hadith rows not drafted: 12,918, including held records.
