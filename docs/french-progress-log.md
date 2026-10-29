@@ -11271,3 +11271,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0828 records the deferred long report. It contains an Arabic Quran quotation from 59:7, so the entire French entry remains blank under Needs Mo until an approved attributed French Quran translation is confirmed. No translation, database write, or publication occurred.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending.
+
+### 2026-10-29: Muslim 1757d-1758
+
+- FR-LIB-HAD-MUSLIM-0829 saves two private French drafts: the distinct annual-maintenance wording in the Banu an-Nadir property report, and ‘A’isha’s account of the Prophet’s wives considering a request for inheritance. The reported wording and narrator chains are preserved.
+- Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
