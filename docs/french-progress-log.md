@@ -1558,3 +1558,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-327` saves six private French drafts for Bukhari 1900–1905. It preserves the alternate chain concerning the Ramadan crescent in 1900, the complete report about the Night of the Destining in 1902, and the narrated variants in 1904–1905.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,736 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 105. Total local hadith rows not drafted: 12,893, including held records.
+### 2026-10-29: Bukhari 1906–1911 source review
+
+- `FR-LIB-HAD-BUKHARI-328` saves six private French drafts for Bukhari 1906–1911. It retains the different wording on sighting the crescent, the thumb gesture and the report’s morning-or-evening uncertainty in 1910, along with the twenty-nine-night details.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,742 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 105. Total local hadith rows not drafted: 12,887, including held records.
