@@ -1866,3 +1866,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-390` saves six private French drafts for Bukhari 2279–2284, retaining the reports on cupping fees, slave earnings and the stud fee.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,077 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 120. Total local hadith rows not drafted: 12,552, including held records.
+
+### 2026-10-29: Bukhari 2285–2290 source review
+
+- `FR-LIB-HAD-BUKHARI-391` saves five private French drafts for the combined 2285–2286 report and Bukhari 2287–2290, retaining the debt-transfer, funeral-prayer and guarantor variants.
+- The five-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,082 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 120. Total local hadith rows not drafted: 12,547, including held records.
