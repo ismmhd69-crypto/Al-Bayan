@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0714",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:58:50.030Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ceb10062-6f63-478b-bc9a-5a0f03875dbe",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1539j",
+      "reference": "Sahih Muslim, hadith 1539 j, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو الرَّبِيعِ، وَأَبُو كَامِلٍ قَالاَ حَدَّثَنَا حَمَّادٌ، ح وَحَدَّثَنِيهِ عَلِيُّ بْنُ حُجْرٍ، حَدَّثَنَا إِسْمَاعِيلُ، كِلاَهُمَا عَنْ أَيُّوبَ، عَنْ نَافِعٍ، بِهَذَا الإِسْنَادِ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم رَخَّصَ فِي بَيْعِ الْعَرَايَا بِخَرْصِهَا ‏.‏",
+      "source_hash_sha256": "0fa3ede2081f7a5377190560a0295061f22ea04ae99c7a06b3b7cd5e9e8b67ed",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi et Abu Kamil nous ont rapporté : Hammad nous a rapporté. Ali ibn Hujr m’a également rapporté : Isma‘il nous a rapporté. Tous deux transmettent, d’après Ayyub, d’après Nafi, avec cette chaîne, que le Messager d’Allah avait accordé une dérogation pour vendre les araya contre leur valeur estimée.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bb9d3ee0-4ce4-44ab-9afa-8f3a81833690",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1540a",
+      "reference": "Sahih Muslim, hadith 1540 a, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ الْقَعْنَبِيُّ، حَدَّثَنَا سُلَيْمَانُ، - يَعْنِي ابْنَ بِلاَلٍ - عَنْ يَحْيَى، - وَهُوَ ابْنُ سَعِيدٍ - عَنْ بُشَيْرِ بْنِ يَسَارٍ، عَنْ بَعْضِ، أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم مِنْ أَهْلِ دَارِهِمْ مِنْهُمْ سَهْلُ بْنُ أَبِي حَثْمَةَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْ بَيْعِ الثَّمَرِ بِالتَّمْرِ وَقَالَ ‏\"‏ ذَلِكَ الرِّبَا تِلْكَ الْمُزَابَنَةُ ‏\"‏ ‏.‏ إِلاَّ أَنَّهُ رَخَّصَ فِي بَيْعِ الْعَرِيَّةِ النَّخْلَةِ وَالنَّخْلَتَيْنِ يَأْخُذُهَا أَهْلُ الْبَيْتِ بِخَرْصِهَا تَمْرًا يَأْكُلُونَهَا رُطَبًا ‏.‏",
+      "source_hash_sha256": "7575651441fc69db10e3b300b7d3b60235a15bbc8be3e41f57b4b872b428b2df",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Maslama al-Qa‘nabi nous a rapporté : Sulayman — Ibn Bilal — nous a rapporté, d’après Yahya — Ibn Sa‘id —, d’après Bashir ibn Yasar, d’après certains compagnons du Messager d’Allah de leur localité, parmi lesquels Sahl ibn Abi Hathma, que le Messager d’Allah a interdit d’échanger des fruits contre des dattes et a dit : « C’est de l’usure, c’est la muzabana. » Il accorda toutefois une dérogation pour la vente des araya : un ou deux palmiers dont la famille recevait la quantité de dattes sèches estimée en échange, afin de manger les fruits frais.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ecb06dea-57af-4514-87ad-e34305e2fc32",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1540b",
+      "reference": "Sahih Muslim, hadith 1540 b, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا ابْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ يَحْيَى، بْنِ سَعِيدٍ عَنْ بُشَيْرِ بْنِ يَسَارٍ، عَنْ أَصْحَابِ، رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُمْ قَالُوا رَخَّصَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي بَيْعِ الْعَرِيَّةِ بِخَرْصِهَا تَمْرًا ‏.‏",
+      "source_hash_sha256": "15f8bf6b48d8e2e1600d1464354457e625c3e2e4b12972a1f600d11b4325d1c9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Layth nous a rapporté. Ibn Rumh nous a également rapporté : al-Layth nous a informés, d’après Yahya ibn Sa‘id, d’après Bashir ibn Yasar, d’après des compagnons du Messager d’Allah, qui dirent : « Le Messager d’Allah a accordé une dérogation pour vendre les araya contre leur valeur estimée en dattes sèches. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d38b1501-9e20-4f39-a5b9-2468c0388f54",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1540c",
+      "reference": "Sahih Muslim, hadith 1540 c, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ أَبِي عُمَرَ، جَمِيعًا عَنِ الثَّقَفِيِّ، قَالَ سَمِعْتُ يَحْيَى بْنَ سَعِيدٍ، يَقُولُ أَخْبَرَنِي بُشَيْرُ بْنُ يَسَارٍ، عَنْ بَعْضِ، أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم مِنْ أَهْلِ دَارِهِ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى ‏.‏ فَذَكَرَ بِمِثْلِ حَدِيثِ سُلَيْمَانَ بْنِ بِلاَلٍ عَنْ يَحْيَى غَيْرَ أَنَّ إِسْحَاقَ وَابْنَ الْمُثَنَّى جَعَلاَ مَكَانَ الرِّبَا الزَّبْنَ وَقَالَ ابْنُ أَبِي عُمَرَ الرِّبَا ‏.‏",
+      "source_hash_sha256": "637c1c070f4cedf48c4cba8e5bfea7fa3f5a93f9433c4bec04ce4ebc59bca915",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e0fb3c65-de72-4605-b497-47947325fc68",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1540d",
+      "reference": "Sahih Muslim, hadith 1540 d, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ عَمْرٌو النَّاقِدُ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ يَحْيَى بْنِ، سَعِيدٍ عَنْ بُشَيْرِ بْنِ يَسَارٍ، عَنْ سَهْلِ بْنِ أَبِي حَثْمَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَ حَدِيثِهِمْ ‏.‏",
+      "source_hash_sha256": "2196600107a38056bd29e2ef4dab46954f2871a6a253f360f3336c40dc6595fd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "18a42664-d4fa-4de0-a4a0-0b8664e16b3f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1540e",
+      "reference": "Sahih Muslim, hadith 1540 e, book 21, باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الرُّطَبِ بِالتَّمْرِ إِلاَّ فِي الْعَرَايَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَحَسَنٌ الْحُلْوَانِيُّ، قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الْوَلِيدِ، بْنِ كَثِيرٍ حَدَّثَنِي بُشَيْرُ بْنُ يَسَارٍ، مَوْلَى بَنِي حَارِثَةَ أَنَّ رَافِعَ بْنَ خَدِيجٍ، وَسَهْلَ بْنَ أَبِي حَثْمَةَ، حَدَّثَاهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الْمُزَابَنَةِ الثَّمَرِ بِالتَّمْرِ إِلاَّ أَصْحَابَ الْعَرَايَا فَإِنَّهُ قَدْ أَذِنَ لَهُمْ ‏.‏",
+      "source_hash_sha256": "e08ccd90d26d39527c16fbd39bbf86d8ae469bdc19fb3d0dc706fbacf425421d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Hasan al-Hulwani nous ont rapporté : Abu Usama nous a rapporté, d’après al-Walid ibn Kathir, qui m’a rapporté : Bashir ibn Yasar, affranchi des Banu Haritha, lui avait rapporté que Rafi ibn Khadij et Sahl ibn Abi Hathma lui avaient dit que le Messager d’Allah avait interdit la muzabana — échanger les fruits contre des dattes — sauf pour les propriétaires d’araya, auxquels il en avait donné la permission.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d38b1501-9e20-4f39-a5b9-2468c0388f54",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu et ne donne que des variantes de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "e0fb3c65-de72-4605-b497-47947325fc68",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu et ne donne que des variantes de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
