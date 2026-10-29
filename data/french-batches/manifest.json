@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 647,
+    "hadithMuslimDrafted": 649,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6983,
+    "hadithLocalDrafted": 6985,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7646,
-    "hadithNeedsMo": 308,
+    "hadithLocalRemaining": 7644,
+    "hadithNeedsMo": 313,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43152,6 +43152,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0689",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0689.json",
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "two complete reports translated as private drafts; four incomplete or damaged variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52016,6 +52029,31 @@
     {
       "source_id": "15984bfa-4e85-4938-b54a-9db9773a764f",
       "reason": "Cette source contient une citation coranique explicite sur les actes immoraux apparents et cachés. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "a43a5d72-5c47-458d-b32c-ca33ab7408e5",
+      "reason": "Cette entrée ne donne qu’une variante ou renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d4f2c9e4-761f-49a6-b900-928f2852924a",
+      "reason": "Cette entrée ne donne qu’une variante ou renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "012f1ad3-e573-4323-b87a-3bf4c192d4cf",
+      "reason": "Cette source est endommagée : le début du récit est manquant ou corrompu, ce qui empêche d’établir le texte complet avec sûreté. Garder toute la traduction française vide jusqu’à validation de la source.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c6597b11-e862-4c2f-bf4a-ac7713fdb7bd",
+      "reason": "Cette entrée ne donne qu’une variante ou renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "fd0500e3-62ff-479c-86db-7b806c41162a",
+      "reason": "Cette entrée ne donne qu’une variante ou renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],
