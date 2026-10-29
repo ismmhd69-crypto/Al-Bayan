@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-273",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:43:21.358Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "69b489a8-cf3b-44bc-80da-7a74d1041d99",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1569",
+      "reference": "Sahih al-Bukhari, hadith 1569, book 25, باب التَّمَتُّعِ وَالإِقْرَانِ وَالإِفْرَادِ بِالْحَجِّ وَفَسْخِ الْحَجِّ لِمَنْ لَمْ يَكُنْ مَعَهُ هَدْى",
+      "title": "باب التَّمَتُّعِ وَالإِقْرَانِ وَالإِفْرَادِ بِالْحَجِّ وَفَسْخِ الْحَجِّ لِمَنْ لَمْ يَكُنْ مَعَهُ هَدْى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ الأَعْوَرُ، عَنْ شُعْبَةَ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، قَالَ اخْتَلَفَ عَلِيٌّ وَعُثْمَانُ ـ رضى الله عنهما ـ وَهُمَا بِعُسْفَانَ فِي الْمُتْعَةِ، فَقَالَ عَلِيٌّ مَا تُرِيدُ إِلاَّ أَنْ تَنْهَى عَنْ أَمْرٍ فَعَلَهُ النَّبِيُّ صلى الله عليه وسلم‏.‏ فَلَمَّا رَأَى ذَلِكَ عَلِيٌّ أَهَلَّ بِهِمَا جَمِيعًا‏.‏",
+      "source_hash_sha256": "744dc6e2cfcaf0e9d2a5122622fdb3798b60521c7b2c5a558e31a7183d5714c3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Hajjaj ibn Muhammad al-A‘war nous a rapporté, d’après Shu‘ba, d’après Amr ibn Murra, d’après Sa‘id ibn al-Musayyib, qui dit : « Ali et Uthman, qu’Allah les agrée, eurent un désaccord à Usfan au sujet du tamattu‘. Ali dit : “Tu ne cherches qu’à interdire une chose que le Prophète ﷺ a faite.” Lorsqu’Ali vit cela, il entra en état de sacralisation pour les deux rites réunis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b5381746-a699-42de-bbd6-508564be8b61",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1570",
+      "reference": "Sahih al-Bukhari, hadith 1570, book 25, باب مَنْ لَبَّى بِالْحَجِّ وَسَمَّاهُ",
+      "title": "باب مَنْ لَبَّى بِالْحَجِّ وَسَمَّاهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، قَالَ سَمِعْتُ مُجَاهِدًا، يَقُولُ حَدَّثَنَا جَابِرُ بْنُ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ قَدِمْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَنَحْنُ نَقُولُ لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ بِالْحَجِّ‏.‏ فَأَمَرَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَجَعَلْنَاهَا عُمْرَةً‏.‏",
+      "source_hash_sha256": "a05d2e312a6050452583bd66b3c9bf947c9f77920fb6ccdba8690a328aa1edda",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Hammad ibn Zayd nous a rapporté, d’après Ayyub, qui dit : J’ai entendu Mujahid dire : « Jabir ibn Abd Allah, qu’Allah les agrée, nous a rapporté : Nous arrivâmes avec le Messager d’Allah ﷺ en disant : “Me voici, ô Allah, me voici pour le Hajj.” Le Messager d’Allah ﷺ nous ordonna alors d’en faire une ‘umra. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d3d6529b-b565-4150-9002-c6865f790e61",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1571",
+      "reference": "Sahih al-Bukhari, hadith 1571, book 25, باب التَّمَتُّعِ عَلَى عَهْدِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+      "title": "باب التَّمَتُّعِ عَلَى عَهْدِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، قَالَ حَدَّثَنِي مُطَرِّفٌ، عَنْ عِمْرَانَ ـ رضى الله عنه ـ قَالَ تَمَتَّعْنَا عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَنَزَلَ الْقُرْآنُ قَالَ رَجُلٌ بِرَأْيِهِ مَا شَاءَ‏.‏",
+      "source_hash_sha256": "aca007424fc5ad376cc4851d4aa2ff2fdc3c27dce427f458fee3f1fbac14cfdb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musa ibn Isma‘il nous a rapporté : Hammam nous a rapporté, d’après Qatada, qui dit : Mutarrif m’a rapporté, d’après Imran, qu’Allah l’agrée : « Nous accomplissions le tamattu‘ du vivant du Messager d’Allah ﷺ, puis le Coran fut révélé. Ensuite, un homme exprima l’opinion qu’il voulut. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "995a596e-3e47-423a-a439-079170297818",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1572",
+      "reference": "Sahih al-Bukhari, hadith 1572, book 25, بَابُ قَوْلِ اللَّهِ تَعَالَى: {ذَلِكَ لِمَنْ لَمْ يَكُنْ أَهْلُهُ حَاضِرِي الْمَسْجِدِ الْحَرَامِ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {ذَلِكَ لِمَنْ لَمْ يَكُنْ أَهْلُهُ حَاضِرِي الْمَسْجِدِ الْحَرَامِ}",
+      "source_published": true,
+      "text_original": "وَقَالَ أَبُو كَامِلٍ فُضَيْلُ بْنُ حُسَيْنٍ الْبَصْرِيُّ حَدَّثَنَا أَبُو مَعْشَرٍ، حَدَّثَنَا عُثْمَانُ بْنُ غِيَاثٍ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ أَنَّهُ سُئِلَ عَنْ مُتْعَةِ الْحَجِّ، فَقَالَ أَهَلَّ الْمُهَاجِرُونَ وَالأَنْصَارُ وَأَزْوَاجُ النَّبِيِّ صلى الله عليه وسلم فِي حَجَّةِ الْوَدَاعِ وَأَهْلَلْنَا، فَلَمَّا قَدِمْنَا مَكَّةَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اجْعَلُوا إِهْلاَلَكُمْ بِالْحَجِّ عُمْرَةً إِلاَّ مَنْ قَلَّدَ الْهَدْىَ ‏\"‏‏.‏ فَطُفْنَا بِالْبَيْتِ وَبِالصَّفَا وَالْمَرْوَةِ وَأَتَيْنَا النِّسَاءَ، وَلَبِسْنَا الثِّيَابَ وَقَالَ ‏\"‏ مَنْ قَلَّدَ الْهَدْىَ فَإِنَّهُ لاَ يَحِلُّ لَهُ حَتَّى يَبْلُغَ الْهَدْىُ مَحِلَّهُ ‏\"‏‏.‏ ثُمَّ أَمَرَنَا عَشِيَّةَ التَّرْوِيَةِ أَنْ نُهِلَّ بِالْحَجِّ، فَإِذَا فَرَغْنَا مِنَ الْمَنَاسِكِ جِئْنَا فَطُفْنَا بِالْبَيْتِ وَبِالصَّفَا وَالْمَرْوَةِ فَقَدْ تَمَّ حَجُّنَا، وَعَلَيْنَا الْهَدْىُ كَمَا قَالَ اللَّهُ تَعَالَى ‏{‏فَمَا اسْتَيْسَرَ مِنَ الْهَدْىِ فَمَنْ لَمْ يَجِدْ فَصِيَامُ ثَلاَثَةِ أَيَّامٍ فِي الْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ‏}‏ إِلَى أَمْصَارِكُمْ‏.‏ الشَّاةُ تَجْزِي، فَجَمَعُوا نُسُكَيْنِ فِي عَامٍ بَيْنَ الْحَجِّ وَالْعُمْرَةِ، فَإِنَّ اللَّهَ تَعَالَى أَنْزَلَهُ فِي كِتَابِهِ وَسَنَّهُ نَبِيُّهُ صلى الله عليه وسلم وَأَبَاحَهُ لِلنَّاسِ غَيْرَ أَهْلِ مَكَّةَ، قَالَ اللَّهُ ‏ {‏ذَلِكَ لِمَنْ لَمْ يَكُنْ أَهْلُهُ حَاضِرِي الْمَسْجِدِ الْحَرَامِ‏} ‏ وَأَشْهُرُ الْحَجِّ الَّتِي ذَكَرَ اللَّهُ تَعَالَى شَوَّالٌ وَذُو الْقَعْدَةِ وَذُو الْحَجَّةِ، فَمَنْ تَمَتَّعَ فِي هَذِهِ الأَشْهُرِ فَعَلَيْهِ دَمٌ أَوْ صَوْمٌ، وَالرَّفَثُ الْجِمَاعُ، وَالْفُسُوقُ الْمَعَاصِي، وَالْجِدَالُ الْمِرَاءُ‏.‏",
+      "source_hash_sha256": "bfa270dd5f1c968b41b5ecec7a8dc9d1d13e2f0923b82940167b1360995ec16b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "53150a30-c23b-4943-8c8f-749a682c4015",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1573",
+      "reference": "Sahih al-Bukhari, hadith 1573, book 25, باب الاِغْتِسَالِ عِنْدَ دُخُولِ مَكَّةَ",
+      "title": "باب الاِغْتِسَالِ عِنْدَ دُخُولِ مَكَّةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا ابْنُ عُلَيَّةَ، أَخْبَرَنَا أَيُّوبُ، عَنْ نَافِعٍ، قَالَ كَانَ ابْنُ عُمَرَ ـ رضى الله عنهما ـ إِذَا دَخَلَ أَدْنَى الْحَرَمِ أَمْسَكَ عَنِ التَّلْبِيَةِ، ثُمَّ يَبِيتُ بِذِي طُوًى، ثُمَّ يُصَلِّي بِهِ الصُّبْحَ وَيَغْتَسِلُ، وَيُحَدِّثُ أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم كَانَ يَفْعَلُ ذَلِكَ‏.‏",
+      "source_hash_sha256": "3b3cba105484ef3f5729673952822258d1ca357c435f7d7a02ef6cd0bb4f946f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ya‘qub ibn Ibrahim m’a rapporté : Ibn Ulayya nous a rapporté : Ayyub nous a informés, d’après Nafi‘ : « Quand Ibn Umar, qu’Allah les agrée, arrivait à la limite la plus proche du sanctuaire, il interrompait la talbiya. Il passait ensuite la nuit à Dhu Tuwa, y accomplissait la prière de l’aube et prenait un bain rituel. Il rapportait que le Prophète d’Allah ﷺ faisait ainsi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dcf378e0-3232-4a01-940b-8f85054fbf57",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1574",
+      "reference": "Sahih al-Bukhari, hadith 1574, book 25, باب دُخُولِ مَكَّةَ نَهَارًا أَوْ لَيْلاً",
+      "title": "باب دُخُولِ مَكَّةَ نَهَارًا أَوْ لَيْلاً",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ، قَالَ حَدَّثَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ بَاتَ النَّبِيُّ صلى الله عليه وسلم بِذِي طُوًى حَتَّى أَصْبَحَ ثُمَّ دَخَلَ مَكَّةَ‏.‏ وَكَانَ ابْنُ عُمَرَ ـ رضى الله عنهما ـ يَفْعَلُهُ‏.‏",
+      "source_hash_sha256": "2308dc4495ab661e3ced352669fbc75a2f5cf6f0dbeb24d4c0a684e795c23a42",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Yahya nous a rapporté, d’après Ubayd Allah, qui dit : Nafi‘ m’a rapporté, d’après Ibn Umar, qu’Allah les agrée : « Le Prophète ﷺ passa la nuit à Dhu Tuwa jusqu’au matin, puis entra à La Mecque. » Ibn Umar, qu’Allah les agrée, faisait de même.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "995a596e-3e47-423a-a439-079170297818",
+      "reason": "This report directly quotes Quran 2:196 and 2:196 (ending phrase) and Quran 2:197. Keep it blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
