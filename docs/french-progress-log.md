@@ -2606,3 +2606,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-538` saves six private French drafts about Safiyya’s visit during retreat, the Prophet’s homes, and his seal.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,798 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,857, including held records.
+
+### 2026-10-29: Bukhari 3107–3112
+
+- `FR-LIB-HAD-BUKHARI-539` saves six private French drafts about the Prophet’s sandals, garments, drinking cup and sword, and the administration of his charitable property.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,804 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,851, including held records.
