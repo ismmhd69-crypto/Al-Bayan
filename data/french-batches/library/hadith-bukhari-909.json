@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-BUKHARI-909",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:43:55.400Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ffc08215-1d35-404a-b775-22263207c618",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4966",
+      "reference": "Sahih al-Bukhari, hadith 4966, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هُشَيْمٌ، حَدَّثَنَا أَبُو بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ أَنَّهُ قَالَ فِي الْكَوْثَرِ هُوَ الْخَيْرُ الَّذِي أَعْطَاهُ اللَّهُ إِيَّاهُ‏.‏ قَالَ أَبُو بِشْرٍ قُلْتُ لِسَعِيدِ بْنِ جُبَيْرٍ فَإِنَّ النَّاسَ يَزْعُمُونَ أَنَّهُ نَهَرٌ فِي الْجَنَّةِ‏.‏ فَقَالَ سَعِيدٌ النَّهَرُ الَّذِي فِي الْجَنَّةِ مِنَ الْخَيْرِ الَّذِي أَعْطَاهُ اللَّهُ إِيَّاهُ‏.‏",
+      "source_hash_sha256": "7f2707c3fe1ecfbf70cd9c73b4f6b5cd54aa68a4c967aa9e11a501e07c26bd3a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbâs (qu’Allah les agrée tous deux) dit au sujet d’al-Kawthar : « C’est le bien qu’Allah lui a accordé. » Abû Bishr dit : « Je demandai à Saʿîd ibn Jubayr : “Les gens prétendent qu’il s’agit d’un fleuve au Paradis.” Saʿîd répondit : “Le fleuve qui se trouve au Paradis fait partie du bien qu’Allah lui a accordé.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6ba9e2f9-2d53-4a6a-b5f1-d95988b6992d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4967",
+      "reference": "Sahih al-Bukhari, hadith 4967, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحَسَنُ بْنُ الرَّبِيعِ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنِ الأَعْمَشِ، عَنْ أَبِي الضُّحَى، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ مَا صَلَّى النَّبِيُّ صلى الله عليه وسلم صَلاَةً بَعْدَ أَنْ نَزَلَتْ عَلَيْهِ ‏[quran sura=\"110\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ‏}‏ إِلاَّ يَقُولُ فِيهَا ‏\"‏ سُبْحَانَكَ رَبَّنَا وَبِحَمْدِكَ، اللَّهُمَّ اغْفِرْ لِي ‏\"‏‏.‏",
+      "source_hash_sha256": "2318c290456c1b592c71fc5659c9781addaccf84f80375d20175da37df5e1638",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e395cfae-af6c-4cee-bfbc-bd432ac467ad",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4968",
+      "reference": "Sahih al-Bukhari, hadith 4968, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ أَبِي الضُّحَى، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُكْثِرُ أَنْ يَقُولَ فِي رُكُوعِهِ وَسُجُودِهِ ‏\"‏ سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللَّهُمَّ اغْفِرْ لِي ‏\"‏‏.‏ يَتَأَوَّلُ الْقُرْآنَ‏.‏",
+      "source_hash_sha256": "1182a17f48373c104b51c07b09d632531a81d59554367043e241d93634c77943",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂʾisha (qu’Allah l’agrée) rapporte que le Messager d’Allah (paix et bénédictions sur lui) répétait souvent dans son inclinaison et sa prosternation : « Gloire à Toi, ô Allah notre Seigneur, et louange à Toi. Ô Allah, pardonne-moi. » Il agissait ainsi en mettant en pratique le Quran.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d6e5eb62-aee7-48c6-b889-e8511d17d066",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4969",
+      "reference": "Sahih al-Bukhari, hadith 4969, book 65, باب ‏ {‏وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا‏} ‏",
+      "title": "باب ‏ {‏وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ سُفْيَانَ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ عُمَرَ ـ رضى الله عنه ـ سَأَلَهُمْ عَنْ قَوْلِهِ تَعَالَى ‏[quran sura=\"110\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ‏}‏ قَالُوا فَتْحُ الْمَدَائِنِ وَالْقُصُورِ قَالَ مَا تَقُولُ يَا ابْنَ عَبَّاسٍ قَالَ أَجَلٌ أَوْ مَثَلٌ ضُرِبَ لِمُحَمَّدٍ صلى الله عليه وسلم نُعِيَتْ لَهُ نَفْسُهُ‏.‏",
+      "source_hash_sha256": "44ff13817d632f9a3baafa303c63981819cf3f45d00b00a35bcd8ca648e65f44",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eb052179-0771-44df-8ca8-d415f62793e9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4970",
+      "reference": "Sahih al-Bukhari, hadith 4970, book 65, باب ‏ {‏فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا‏} ‏",
+      "title": "باب ‏ {‏فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ عُمَرُ يُدْخِلُنِي مَعَ أَشْيَاخِ بَدْرٍ، فَكَأَنَّ بَعْضَهُمْ وَجَدَ فِي نَفْسِهِ فَقَالَ لِمَ تُدْخِلُ هَذَا مَعَنَا وَلَنَا أَبْنَاءٌ مِثْلُهُ فَقَالَ عُمَرُ إِنَّهُ مِنْ حَيْثُ عَلِمْتُمْ‏.‏ فَدَعَا ذَاتَ يَوْمٍ ـ فَأَدْخَلَهُ مَعَهُمْ ـ فَمَا رُئِيتُ أَنَّهُ دَعَانِي يَوْمَئِذٍ إِلاَّ لِيُرِيَهُمْ‏.‏ قَالَ مَا تَقُولُونَ فِي قَوْلِ اللَّهِ تَعَالَى ‏[quran sura=\"110\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ‏}‏ فَقَالَ بَعْضُهُمْ أُمِرْنَا نَحْمَدُ اللَّهَ وَنَسْتَغْفِرُهُ، إِذَا نُصِرْنَا وَفُتِحَ عَلَيْنَا‏.‏ وَسَكَتَ بَعْضُهُمْ فَلَمْ يَقُلْ شَيْئًا فَقَالَ لِي أَكَذَاكَ تَقُولُ يَا ابْنَ عَبَّاسٍ فَقُلْتُ لاَ‏.‏ قَالَ فَمَا تَقُولُ قُلْتُ هُوَ أَجَلُ رَسُولِ اللَّهِ صلى الله عليه وسلم أَعْلَمَهُ لَهُ، قَالَ ‏[quran sura=\"110\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ‏}‏ وَذَلِكَ عَلاَمَةُ أَجَلِكَ ‏[quran sura=\"110\" aya_start=\"3\" aya_end=\"3\"]{‏فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا‏}‏‏.‏ فَقَالَ عُمَرُ مَا أَعْلَمُ مِنْهَا إِلاَّ مَا تَقُولُ‏.‏",
+      "source_hash_sha256": "3107cc4191ac4c6aaefb4100f8e25148c21bd27d6b70196e2b13e12b189b6748",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b8b713a1-5fde-4300-b068-729e741610dd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4971",
+      "reference": "Sahih al-Bukhari, hadith 4971, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يُوسُفُ بْنُ مُوسَى، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا الأَعْمَشُ، حَدَّثَنَا عَمْرُو بْنُ مُرَّةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ لَمَّا نَزَلَتْ ‏[quran sura=\"26\" aya_start=\"214\" aya_end=\"214\"]{‏وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ‏}‏ وَرَهْطَكَ مِنْهُمُ الْمُخْلَصِينَ، خَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَتَّى صَعِدَ الصَّفَا فَهَتَفَ ‏\"‏ يَا صَبَاحَاهْ ‏\"‏‏.‏ فَقَالُوا مَنْ هَذَا، فَاجْتَمَعُوا إِلَيْهِ‏.‏ فَقَالَ ‏\"‏ أَرَأَيْتُمْ إِنْ أَخْبَرْتُكُمْ أَنَّ خَيْلاً تَخْرُجُ مِنْ سَفْحِ هَذَا الْجَبَلِ أَكُنْتُمْ مُصَدِّقِيَّ ‏\"‏‏.‏ قَالُوا مَا جَرَّبْنَا عَلَيْكَ كَذِبًا‏.‏ قَالَ ‏\"‏ فَإِنِّي نَذِيرٌ لَكُمْ بَيْنَ يَدَىْ عَذَابٍ شَدِيدٍ ‏\"‏‏.‏ قَالَ أَبُو لَهَبٍ تَبًّا لَكَ مَا جَمَعْتَنَا إِلاَّ لِهَذَا ثُمَّ قَامَ فَنَزَلَتْ ‏[quran sura=\"111\" aya_start=\"1\" aya_end=\"1\"]{‏تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ‏}‏ وَقَدْ تَبَّ هَكَذَا قَرَأَهَا الأَعْمَشُ يَوْمَئِذٍ‏.‏",
+      "source_hash_sha256": "21c2d2113ddcd784ded04947ff72caf4016a8a604ca54569d6e4323de5e77640",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6ba9e2f9-2d53-4a6a-b5f1-d95988b6992d",
+      "url": "https://sunnah.com/bukhari:4967",
+      "reason": "Le rapport cite directement Quran 110:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-909, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "d6e5eb62-aee7-48c6-b889-e8511d17d066",
+      "url": "https://sunnah.com/bukhari:4969",
+      "reason": "Le rapport cite directement Quran 110:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-909, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "eb052179-0771-44df-8ca8-d415f62793e9",
+      "url": "https://sunnah.com/bukhari:4970",
+      "reason": "Le rapport cite directement Quran 110:1, 110:3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-909, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "b8b713a1-5fde-4300-b068-729e741610dd",
+      "url": "https://sunnah.com/bukhari:4971",
+      "reason": "Le rapport cite directement Quran 26:214, 111:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-909, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
