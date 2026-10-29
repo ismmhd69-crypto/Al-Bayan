@@ -32,3 +32,4 @@ export function validateGerman(source, deText) {
   }
   return errs;
 }
+

@@ -21,3 +21,4 @@ Published: `false`
 | fatwas-002 | 24 | 24 | 0 | 17056 | 17080 | Stored cleanly as unpublished drafts |
 | bukhari-002 | 30 | 30 | 0 | 17080 | 17110 | Stored cleanly as unpublished drafts |
 | bukhari-003 | 30 | 30 | 0 | 17110 | 17140 | Stored cleanly as unpublished drafts |
+| bukhari-004 | 30 | 30 | 0 | 17140 | 17170 | Stored cleanly as unpublished drafts |
