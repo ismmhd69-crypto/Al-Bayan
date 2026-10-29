@@ -1,0 +1,162 @@
+{
+  "batch_id": "HADITH-MUSLIM-1253",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:09:16.678Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6c7b5181-8046-4660-9da0-16c4f3e13219",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2738a",
+      "reference": "Sahih Muslim, hadith 2738 a, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي التَّيَّاحِ، قَالَ كَانَ لِمُطَرِّفِ بْنِ عَبْدِ اللَّهِ امْرَأَتَانِ فَجَاءَ مِنْ عِنْدِ إِحْدَاهُمَا فَقَالَتِ الأُخْرَى جِئْتَ مِنْ عِنْدِ فُلاَنَةَ فَقَالَ جِئْتُ مِنْ عِنْدِ عِمْرَانَ بْنِ حُصَيْنٍ فَحَدَّثَنَا أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ أَقَلَّ سَاكِنِي الْجَنَّةِ النِّسَاءُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d81b5f976e3e1383946c9d8ac319a0c00684b635f1c32411102959d695e1af29",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUbayd Allāh ibn Muʿādh nous a rapporté : mon père nous a rapporté : Shuʿba nous a rapporté, d’après Abū al-Tayyāḥ, qui a dit : Muṭarrif ibn ʿAbd Allāh avait deux épouses. Il revint de chez l’une d’elles, et l’autre lui dit : « Tu viens de chez untelle. » Il répondit : « Je viens d’apprendre auprès d’ʿImrān ibn Ḥuṣayn, qui nous a rapporté que le Messager d’Allah ﷺ a dit : “Les femmes sont les moins nombreuses parmi les habitants du Paradis.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d123e0f3-6262-49bb-aa58-7d3f96cf4e95",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2738b",
+      "reference": "Sahih Muslim, hadith 2738 b, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْوَلِيدِ بْنِ عَبْدِ الْحَمِيدِ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي التَّيَّاحِ، قَالَ سَمِعْتُ مُطَرِّفًا، يُحَدِّثُ أَنَّهُ كَانَتْ لَهُ امْرَأَتَانِ بِمَعْنَى حَدِيثِ مُعَاذٍ ‏.‏",
+      "source_hash_sha256": "76950181ff052f7f5aa6c1331d52522f50c3e4b384a56ee37b620914b7b6ea29",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f8204d79-f9f5-4cb7-8df4-d303aee7e067",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2739",
+      "reference": "Sahih Muslim, hadith 2739, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عَبْدِ الْكَرِيمِ أَبُو زُرْعَةَ، حَدَّثَنَا ابْنُ بُكَيْرٍ، حَدَّثَنِي يَعْقُوبُ بْنُ، عَبْدِ الرَّحْمَنِ عَنْ مُوسَى بْنِ عُقْبَةَ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، قَالَ كَانَ مِنْ دُعَاءِ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏\"‏ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ زَوَالِ نِعْمَتِكَ وَتَحَوُّلِ عَافِيَتِكَ وَفُجَاءَةِ نِقْمَتِكَ وَجَمِيعِ سَخَطِكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c4fc26161ed2ff03c4223bc65cfd6d66e4e62989ae5a7205e980443d0508ce13",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUbayd Allāh ibn ʿAbd al-Karīm Abū Zurʿa nous a rapporté : Ibn Bukayr nous a rapporté : Yaʿqūb ibn ʿAbd al-Raḥmān m’a rapporté, d’après Mūsā ibn ʿUqba, d’après ʿAbd Allāh ibn Dīnār, d’après ʿAbd Allāh ibn ʿUmar, qui a dit : Parmi les invocations du Messager d’Allah ﷺ figurait : « Ô Allah, je cherche refuge auprès de Toi contre la disparition de Tes bienfaits, le changement de la santé et de la préservation que Tu m’accordes, l’arrivée soudaine de Ton châtiment et toute forme de Ton courroux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cf34a3a6-7742-4641-a087-6c96e4998619",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2740",
+      "reference": "Sahih Muslim, hadith 2740, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، حَدَّثَنَا سُفْيَانُ، وَمُعْتَمِرُ بْنُ سُلَيْمَانَ، عَنْ سُلَيْمَانَ التَّيْمِيِّ، عَنْ أَبِي عُثْمَانَ النَّهْدِيِّ، عَنْ أُسَامَةَ بْنِ زَيْدٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا تَرَكْتُ بَعْدِي فِتْنَةً هِيَ أَضَرُّ عَلَى الرِّجَالِ مِنَ النِّسَاءِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cb99d916c911c786e3f25d11bf737490427ef9fd319d211ff0719a8d7b0da59a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Saʿīd ibn Manṣūr nous a rapporté : Sufyān et Muʿtamir ibn Sulaymān nous ont rapporté, d’après Sulaymān al-Taymī, d’après Abū ʿUthmān al-Nahdī, d’après Usāma ibn Zayd, qui a dit que le Messager d’Allah ﷺ a dit : « Après moi, je n’ai laissé aucune épreuve plus nuisible aux hommes que les femmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8401dc4a-e5f1-4a22-954e-1896af2059f5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2741a",
+      "reference": "Sahih Muslim, hadith 2741 a, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، وَسُوَيْدُ بْنُ سَعِيدٍ، وَمُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، جَمِيعًا عَنِ الْمُعْتَمِرِ، قَالَ ابْنُ مُعَاذٍ حَدَّثَنَا الْمُعْتَمِرُ بْنُ سُلَيْمَانَ، قَالَ قَالَ أَبِي حَدَّثَنَا أَبُو عُثْمَانَ، عَنْ أُسَامَةَ بْنِ زَيْدِ بْنِ حَارِثَةَ، وَسَعِيدِ بْنِ زَيْدِ بْنِ عَمْرِو بْنِ نُفَيْلٍ، أَنَّهُمَا حَدَّثَا عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ مَا تَرَكْتُ بَعْدِي فِي النَّاسِ فِتْنَةً أَضَرَّ عَلَى الرِّجَالِ مِنَ النِّسَاءِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bb0268ea1b95b435b4565cf64a2e5988bb5ef978d9beed4e67c54a0feec434bd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUbayd Allāh ibn Muʿādh al-ʿAnbarī, Suwayd ibn Saʿīd et Muḥammad ibn ʿAbd al-Aʿlā nous ont rapporté, tous d’après al-Muʿtamir. Ibn Muʿādh a dit : al-Muʿtamir ibn Sulaymān nous a rapporté : mon père nous a rapporté : Abū ʿUthmān nous a rapporté, d’après Usāma ibn Zayd ibn Ḥāritha et Saʿīd ibn Zayd ibn ʿAmr ibn Nufayl, qui ont rapporté du Messager d’Allah ﷺ qu’il a dit : « Après moi, je n’ai laissé parmi les gens aucune épreuve plus nuisible aux hommes que les femmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f1614d09-cb5f-4963-9f8b-ba3d70030e91",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2741b",
+      "reference": "Sahih Muslim, hadith 2741 b, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا جَرِيرٌ، كُلُّهُمْ عَنْ سُلَيْمَانَ التَّيْمِيِّ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "df744c7adab2340e57d8e1f0b59362a9cda9f9c0091076a01e6d483b8c0b62f7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "d123e0f3-6262-49bb-aa58-7d3f96cf4e95", "reason": "Cette entrée ne donne qu’une variante de transmission et renvoie au récit précédent sans en reproduire le texte. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "f1614d09-cb5f-4963-9f8b-ba3d70030e91", "reason": "Cette entrée donne seulement des chaînes et renvoie au texte précédent sans le reproduire. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}
