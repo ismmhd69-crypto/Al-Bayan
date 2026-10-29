@@ -9146,3 +9146,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0403 saves four private French drafts about the shroud, burial at night and funeral processions. Muslim 942b and 944b only provide transmission variants and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1585 Muslim drafts, 7921 total hadith drafts, 6708 remaining, and 754 Needs Mo items.
+
+### 2026-10-29: Muslim 945a–945f
+
+- FR-LIB-HAD-MUSLIM-0404 saves four private French drafts about the reward for attending funeral prayers and following the procession. Muslim 945b and 945c are incomplete variants and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1589 Muslim drafts, 7925 total hadith drafts, 6704 remaining, and 756 Needs Mo items.
