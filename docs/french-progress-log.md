@@ -11802,3 +11802,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2036a-2038a
 
 - FR-LIB-HAD-MUSLIM-0960 saves three complete private French drafts about meal invitations, an uninvited guest, and hospitality. Three entries that refer to earlier reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2038b-2039
+
+- FR-LIB-HAD-MUSLIM-0961 saves the complete long report of Jâbir's meal during the trench as a private French draft. One entry that summarizes a prior report without reproducing it remains blank with a specific Needs Mo reason. No database write or publication occurred.
