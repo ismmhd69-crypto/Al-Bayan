@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1192",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:38:05.709Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "213475a9-2d55-4c18-9236-ef93627a095a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2572f",
+      "reference": "Sahih Muslim, hadith 2572 f, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مَالِكُ بْنُ أَنَسٍ، عَنْ يَزِيدَ بْنِ خُصَيْفَةَ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يُصِيبُ الْمُؤْمِنَ مِنْ مُصِيبَةٍ حَتَّى الشَّوْكَةِ إِلاَّ قُصَّ بِهَا مِنْ خَطَايَاهُ أَوْ كُفِّرَ بِهَا مِنْ خَطَايَاهُ ‏\"‏ ‏.‏ لاَ يَدْرِي يَزِيدُ أَيَّتُهُمَا قَالَ عُرْوَةُ ‏.‏",
+      "source_hash_sha256": "90a32194e4639fbb6a1504fa4957653bc58eb8159e96cd3d370875294ed92fe5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿĀʾisha, l’épouse du Prophète ﷺ, rapporte que le Messager d’Allah ﷺ a dit : « Aucune épreuve n’atteint un croyant, même une épine, sans qu’une part de ses péchés ne lui soit retranchée ou expiée par cette épreuve. » ʿUrwa ne savait pas lequel des deux termes Yazīd avait employé.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3002e0ee-0490-40ed-a677-bdde2ce5c4f4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2572g",
+      "reference": "Sahih Muslim, hadith 2572 g, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنَا حَيْوَةُ، حَدَّثَنَا ابْنُ الْهَادِ، عَنْ أَبِي بَكْرِ بْنِ حَزْمٍ، عَنْ عَمْرَةَ، عَنْ عَائِشَةَ، قَالَتْ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَا مِنْ شَىْءٍ يُصِيبُ الْمُؤْمِنَ حَتَّى الشَّوْكَةِ تُصِيبُهُ إِلاَّ كَتَبَ اللَّهُ لَهُ بِهَا حَسَنَةً أَوْ حُطَّتْ عَنْهُ بِهَا خَطِيئَةٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a717ca37d9cbae0850343e1b91667599e0d72265aed19f3be29329043abbb230",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿĀʾisha rapporte : « J’ai entendu le Messager d’Allah ﷺ dire : “Rien n’atteint le croyant, même une épine, sans qu’Allah ne lui inscrive grâce à cela une bonne action ou ne lui efface un péché.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a1340b05-4086-45f3-adac-ed02b3a44dc4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2573",
+      "reference": "Sahih Muslim, hadith 2573, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الْوَلِيدِ بْنِ، كَثِيرٍ عَنْ مُحَمَّدِ بْنِ عَمْرِو بْنِ عَطَاءٍ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ، وَأَبِي، هُرَيْرَةَ أَنَّهُمَا سَمِعَا رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَا يُصِيبُ الْمُؤْمِنَ مِنْ وَصَبٍ وَلاَ نَصَبٍ وَلاَ سَقَمٍ وَلاَ حَزَنٍ حَتَّى الْهَمِّ يُهَمُّهُ إِلاَّ كُفِّرَ بِهِ مِنْ سَيِّئَاتِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1a165e3b6a3a4c0eddc04d6dc384d4f62e4544144689d577e205e30e0dbe350a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Saʿīd et Abū Hurayra rapportent avoir entendu le Messager d’Allah ﷺ dire : « Aucune douleur, fatigue, maladie, tristesse ni même inquiétude n’atteint le croyant sans qu’une partie de ses péchés ne lui soit expiée par cette épreuve. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eb99be22-86fb-4be7-bec4-80f305e4ed77",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2574",
+      "reference": "Sahih Muslim, hadith 2574, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ كِلاَهُمَا عَنِ ابْنِ عُيَيْنَةَ، - وَاللَّفْظُ لِقُتَيْبَةَ - حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ مُحَيْصِنٍ، شَيْخٍ مِنْ قُرَيْشٍ سَمِعَ مُحَمَّدَ بْنَ قَيْسِ بْنِ مَخْرَمَةَ، يُحَدِّثُ عَنْ أَبِي هُرَيْرَةَ، قَالَ لَمَّا نَزَلَتْ [quran sura=\"4\" aya_start=\"123\" aya_end=\"123\"]‏{‏ مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ‏}‏ بَلَغَتْ مِنَ الْمُسْلِمِينَ مَبْلَغًا شَدِيدًا فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ قَارِبُوا وَسَدِّدُوا فَفِي كُلِّ مَا يُصَابُ بِهِ الْمُسْلِمُ كَفَّارَةٌ حَتَّى النَّكْبَةِ يُنْكَبُهَا أَوِ الشَّوْكَةِ يُشَاكُهَا ‏\"‏ ‏.‏ قَالَ مُسْلِمٌ هُوَ عُمَرُ بْنُ عَبْدِ الرَّحْمَنِ بْنِ مُحَيْصِنٍ مِنْ أَهْلِ مَكَّةَ ‏.‏",
+      "source_hash_sha256": "73210711abe968e278847dbdd38d454638cc98a540c50d683ceaf1523fbae4d7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c2c4a217-fb0a-4715-9aeb-0044b1778811",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2575",
+      "reference": "Sahih Muslim, hadith 2575, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عُبَيْدُ اللَّهِ بْنُ عُمَرَ الْقَوَارِيرِيُّ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا الْحَجَّاجُ الصَّوَّافُ، حَدَّثَنِي أَبُو الزُّبَيْرِ، حَدَّثَنَا جَابِرُ بْنُ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم دَخَلَ عَلَى أُمِّ السَّائِبِ أَوْ أُمِّ الْمُسَيَّبِ فَقَالَ ‏\"‏ مَا لَكِ يَا أُمَّ السَّائِبِ أَوْ يَا أُمَّ الْمُسَيَّبِ تُزَفْزِفِينَ ‏\"‏ ‏.‏ قَالَتِ الْحُمَّى لاَ بَارَكَ اللَّهُ فِيهَا ‏.‏ فَقَالَ ‏\"‏ لاَ تَسُبِّي الْحُمَّى فَإِنَّهَا تُذْهِبُ خَطَايَا بَنِي آدَمَ كَمَا يُذْهِبُ الْكِيرُ خَبَثَ الْحَدِيدِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5642b98e51f295c04bda46f7fe0e1dfe2f84100a79052764c1dec31a756dd162",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jābir ibn ʿAbd Allāh rapporte que le Messager d’Allah ﷺ entra chez Umm al-Sāʾib — ou Umm al-Musayyib — et lui demanda : « Qu’as-tu, Umm al-Sāʾib — ou Umm al-Musayyib — à trembler ainsi ? » Elle répondit : « La fièvre. Qu’Allah ne la bénisse pas ! » Il dit : « N’insulte pas la fièvre, car elle emporte les péchés des fils d’Adam comme le soufflet débarrasse le fer de ses impuretés. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9bc7a763-b82d-41bf-9fe3-7ad0797e1404",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2576",
+      "reference": "Sahih Muslim, hadith 2576, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ الْقَوَارِيرِيُّ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، وَبِشْرُ بْنُ الْمُفَضَّلِ، قَالاَ حَدَّثَنَا عِمْرَانُ أَبُو بَكْرٍ، حَدَّثَنِي عَطَاءُ بْنُ أَبِي رَبَاحٍ، قَالَ قَالَ لِي ابْنُ عَبَّاسٍ أَلاَ أُرِيكَ امْرَأَةً مِنْ أَهْلِ الْجَنَّةِ قُلْتُ بَلَى ‏.‏ قَالَ هَذِهِ الْمَرْأَةُ السَّوْدَاءُ أَتَتِ النَّبِيَّ صلى الله عليه وسلم قَالَتْ إِنِّي أُصْرَعُ وَإِنِّي أَتَكَشَّفُ فَادْعُ اللَّهَ لِي ‏.‏ قَالَ ‏\"‏ إِنْ شِئْتِ صَبَرْتِ وَلَكِ الْجَنَّةُ وَإِنْ شِئْتِ دَعَوْتُ اللَّهَ أَنْ يُعَافِيَكِ ‏.‏ قَالَتْ أَصْبِرُ ‏.‏ قَالَتْ فَإِنِّي أَتَكَشَّفُ فَادْعُ اللَّهَ أَنْ لاَ أَتَكَشَّفَ ‏.‏ فَدَعَا لَهَا ‏.‏",
+      "source_hash_sha256": "1c1000870ea975c67617d87d61541facd28e9b295990171cc806276bc427baf8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAṭāʾ ibn Abī Rabāḥ rapporte qu’Ibn ʿAbbās lui dit : « Veux-tu que je te montre une femme du Paradis ? » — « Oui. » Il dit : « Cette femme noire vint trouver le Prophète ﷺ et lui dit : “Je suis sujette à des crises et je me découvre. Invoque Allah pour moi.” Il répondit : “Si tu le souhaites, patiente et tu auras le Paradis ; si tu le souhaites, j’invoquerai Allah afin qu’Il te guérisse.” Elle dit : “Je patienterai.” Puis elle ajouta : “Je me découvre ; invoque Allah pour que cela ne m’arrive plus.” Il invoqua alors Allah pour elle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "eb99be22-86fb-4be7-bec4-80f305e4ed77",
+      "reason": "Ce récit reprend une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution."
+    }
+  ]
+}
