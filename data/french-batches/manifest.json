@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6047,
+    "hadithBukhariDrafted": 6053,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6047,
+    "hadithLocalDrafted": 6053,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8582,
+    "hadithLocalRemaining": 8576,
     "hadithNeedsMo": 851,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -27705,6 +27705,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local drafts with one held item"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1312",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1312.json",
+      "sourceIds": [
+        "7fe15a5f-18e9-4e0c-a33f-4bf26209e6d2",
+        "09029ada-9a3f-4ca3-bd3c-5fa4cf3aa8fe",
+        "1bc03522-c2ef-4559-a05e-7bf99d888163",
+        "808b7ff0-d019-40cf-91c0-c84b26ea7719",
+        "e8f3ef8e-c577-4f5d-b41e-42ee7c6ed157",
+        "16cbe9f7-5cea-4f68-9750-495413577a32"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six complete drafts; source hashes retained; difficult narrative term retained in transliteration; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31201,9 +31222,9 @@
       "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6047,
-  "hadithLocalDrafted": 6047,
-  "hadithLocalRemaining": 8582,
+  "hadithBukhariDrafted": 6053,
+  "hadithLocalDrafted": 6053,
+  "hadithLocalRemaining": 8576,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
