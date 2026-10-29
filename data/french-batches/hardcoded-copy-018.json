@@ -1,0 +1,61 @@
+[
+  {
+    "id": "prayerTimes.maghrib.sign",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Full disappearance of the sun disk below the western horizon.",
+    "arabic_source": "سقوط قرص الشمس كاملًا وتواري ضوئها في الأفق الغربي.",
+    "french": "La disparition complète du disque solaire sous l’horizon occidental.",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.isha.name",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Isha",
+    "arabic_source": "العشاء",
+    "french": "Isha",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.isha.units",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "4 Units",
+    "arabic_source": "4 ركعات",
+    "french": "4 unités",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.isha.window",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Twilight fade until the middle of the night",
+    "arabic_source": "مغيب الشفق الأحمر حتى منتصف الليل",
+    "french": "De la disparition du crépuscule rouge jusqu’au milieu de la nuit",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e",
+      "Ibn Baz 3961",
+      "Ibn Baz 9516",
+      "Ibn Baz 17595"
+    ]
+  },
+  {
+    "id": "prayerTimes.isha.sign",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Complete disappearance of redness from the sky; night sets in.",
+    "arabic_source": "غياب الحمرة تمامًا من السماء ودخول ظلمة الليل.",
+    "french": "La rougeur disparaît complètement du ciel et la nuit s’installe.",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e",
+      "Ibn Baz 3961",
+      "Ibn Baz 9516",
+      "Ibn Baz 17595"
+    ]
+  }
+]

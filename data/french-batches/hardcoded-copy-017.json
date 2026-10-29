@@ -1,0 +1,252 @@
+[
+  {
+    "id": "prayerTimes.heading",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "The 24-Hour Prayer Cycle & Celestial Signs",
+    "arabic_source": "دورة الصلوات الخمس وعلاماتها الكونية",
+    "french": "Le cycle des cinq prières et leurs signes célestes"
+  },
+  {
+    "id": "prayerTimes.subtitle",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Each prayer is defined by observable signs in the sky rather than fixed clock hours.",
+    "arabic_source": "ترتبط مواقيت الصلوات بعلامات مشاهدة في حركة الشمس والسماء.",
+    "french": "Les horaires des prières sont liés aux signes observables dans les mouvements du soleil et du ciel, plutôt qu’à des heures fixes."
+  },
+  {
+    "id": "prayerTimes.label.units",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Obligatory Units",
+    "arabic_source": "عدد الركعات المفروضة",
+    "french": "Nombre d’unités obligatoires",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.label.window",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Daily Planning Window",
+    "arabic_source": "وقت الصلاة للتخطيط اليومي",
+    "french": "Période de prière pour planifier la journée"
+  },
+  {
+    "id": "prayerTimes.label.sign",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Astronomical Sign",
+    "arabic_source": "العلامة الكونية المشاهدة",
+    "french": "Signe céleste observable"
+  },
+  {
+    "id": "prayerTimes.label.timeline",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Day & Night Sky Continuum",
+    "arabic_source": "تتابع مسار السماء ليلًا ونهارًا",
+    "french": "Le ciel au fil du jour et de la nuit"
+  },
+  {
+    "id": "prayerTimes.fajr.name",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Fajr",
+    "arabic_source": "الفجر",
+    "french": "Fajr",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.fajr.units",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "2 Units",
+    "arabic_source": "ركعتان",
+    "french": "2 unités",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.fajr.window",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "True dawn until sunrise",
+    "arabic_source": "من طلوع الفجر الصادق إلى طلوع الشمس",
+    "french": "De l’aube véritable jusqu’au lever du soleil",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.fajr.sign",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Horizontal white light appearing along the eastern horizon.",
+    "arabic_source": "بياض معترض يمتد في الأفق الشرقي.",
+    "french": "Une lumière blanche horizontale qui s’étend sur l’horizon oriental.",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.sunrise.name",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Sunrise",
+    "arabic_source": "الشروق",
+    "french": "Lever du soleil",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.sunrise.units",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "End of Fajr",
+    "arabic_source": "نهاية الفجر",
+    "french": "Fin du fajr",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.sunrise.window",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Sun disk crests horizon (not a prayer)",
+    "arabic_source": "ظهور حاجب الشمس (ليس وقت صلاة)",
+    "french": "Apparition du bord supérieur du disque solaire (ce n’est pas une période de prière)",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.sunrise.sign",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "The upper edge of the sun rises above the horizon.",
+    "arabic_source": "طلوع قرص الشمس في الأفق.",
+    "french": "Le disque solaire apparaît au-dessus de l’horizon.",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.dhuhr.name",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Dhuhr",
+    "arabic_source": "الظهر",
+    "french": "Dhuhr",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.dhuhr.units",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "4 Units",
+    "arabic_source": "4 ركعات",
+    "french": "4 unités",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.dhuhr.window",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Sun passes zenith until Asr begins",
+    "arabic_source": "زوال الشمس عن كبد السماء حتى يبدأ العصر",
+    "french": "Du passage du soleil après son zénith jusqu’au début d’Asr",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.dhuhr.sign",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "The sun declines westward past its highest midday meridian.",
+    "arabic_source": "ميل الشمس غربًا بعد وصولها إلى أعلى نقطة في السماء.",
+    "french": "Le soleil décline vers l’ouest après avoir atteint son point le plus haut dans le ciel.",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  },
+  {
+    "id": "prayerTimes.asr.name",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Asr",
+    "arabic_source": "العصر",
+    "french": "Asr",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.asr.units",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "4 Units",
+    "arabic_source": "4 ركعات",
+    "french": "4 unités",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.asr.window",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Shadow = height + noon shadow until yellowing",
+    "arabic_source": "مصير ظل الشيء مثله بعد الزوال حتى اصفرار الشمس",
+    "french": "L’ombre atteint la hauteur de l’objet, en plus de l’ombre de midi, jusqu’à ce que le soleil jaunisse.",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e",
+      "Ibn Baz 3961",
+      "Ibn Baz 9516"
+    ]
+  },
+  {
+    "id": "prayerTimes.asr.sign",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "An object's shadow extends beyond noon length by its own height.",
+    "arabic_source": "زيادة ظل الشيء بمقدار طوله عن ظله عند الزوال.",
+    "french": "L’ombre d’un objet dépasse sa longueur à midi d’une longueur égale à celle de l’objet.",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e",
+      "Ibn Baz 3961",
+      "Ibn Baz 9516"
+    ]
+  },
+  {
+    "id": "prayerTimes.maghrib.name",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Maghrib",
+    "arabic_source": "المغرب",
+    "french": "Maghrib",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.maghrib.units",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "3 Units",
+    "arabic_source": "3 ركعات",
+    "french": "3 unités",
+    "source_refs": [
+      "Ibn Baz 17464"
+    ]
+  },
+  {
+    "id": "prayerTimes.maghrib.window",
+    "source": "components/learning/PrayerTimesVisual.tsx",
+    "english": "Sunset until red twilight disappears",
+    "arabic_source": "غروب كامل قرص الشمس حتى مغيب الشفق الأحمر",
+    "french": "Du coucher complet du soleil jusqu’à la disparition du crépuscule rouge",
+    "source_refs": [
+      "Muslim 612d",
+      "Muslim 612e"
+    ]
+  }
+]

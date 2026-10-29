@@ -518,3 +518,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-016` saved 17 French headings, times and explanations from `components/learning/RamadanTimelineVisual.tsx`, using the Arabic wording in that component as the source. The batch validator checked IDs, file presence, nonempty French and placeholders; the Arabic/French pairs were compared during drafting.
 - The visual also contains a purported Prophetic supplication at iftar, but its code has no source ID, link or rights record. The French quote meaning and its Prophet-attribution label remain blank and are recorded under Needs Mo until the exact source and an approved, permitted French version are confirmed.
 - Code-level visitor-copy coverage increased from 237 to 254 saved strings. Website Needs Mo: 1 item. No Quran meaning was generated; no live code, locale route or database was changed.
+
+### 2026-10-29: daily prayer-times visual
+
+- FR-UI-HC-017 saved 25 French labels and descriptions from components/learning/PrayerTimesVisual.tsx; FR-UI-HC-018 saved the final 5. Each draft keeps the exact Arabic wording and the lesson’s mapped source references.
+- The batches passed source-file, unique-ID, nonempty French, and placeholder checks. Mapped references were preserved: resident prayer counts to Ibn Baz 17464; time signs to Muslim 612d/612e; the Asr shadow boundary to Ibn Baz 3961/9516; and the night boundary to Ibn Baz 17595.
+- Code-level visitor-copy coverage increased from 254 to 284 saved strings. All remain private AI drafts, with no human review or publication.
