@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0545",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:00:27.822Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "692047e5-bfe2-43b9-846c-0fbbae96e219",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1226d",
+      "reference": "Sahih Muslim, hadith 1226 d, book 15, باب جَوَازِ التَّمَتُّعِ",
+      "title": "باب جَوَازِ التَّمَتُّعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، قَالَ سَمِعْتُ مُطَرِّفًا، قَالَ قَالَ لِي عِمْرَانُ بْنُ حُصَيْنٍ ‏.‏ بِمِثْلِ حَدِيثِ مُعَاذٍ ‏.‏",
+      "source_hash_sha256": "435f980a82f821d0b9ccaf91c2ba94bcfa5675728c7d60e7a3bd6c2d9c6ea74a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7851d2a3-6119-4a27-9fe8-fdc0c5dd16ba",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1226e",
+      "reference": "Sahih Muslim, hadith 1226 e, book 15, باب جَوَازِ التَّمَتُّعِ",
+      "title": "باب جَوَازِ التَّمَتُّعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، عَنْ شُعْبَةَ، عَنْ قَتَادَةَ، عَنْ مُطَرِّفٍ، قَالَ بَعَثَ إِلَىَّ عِمْرَانُ بْنُ حُصَيْنٍ فِي مَرَضِهِ الَّذِي تُوُفِّيَ فِيهِ فَقَالَ إِنِّي كُنْتُ مُحَدِّثَكَ بِأَحَادِيثَ لَعَلَّ اللَّهَ أَنْ يَنْفَعَكَ بِهَا بَعْدِي فَإِنْ عِشْتُ فَاكْتُمْ عَنِّي وَإِنْ مُتُّ فَحَدِّثْ بِهَا إِنْ شِئْتَ إِنَّهُ قَدْ سُلِّمَ عَلَىَّ وَاعْلَمْ أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَدْ جَمَعَ بَيْنَ حَجٍّ وَعُمْرَةٍ ثُمَّ لَمْ يَنْزِلْ فِيهَا كِتَابُ اللَّهِ وَلَمْ يَنْهَ عَنْهَا نَبِيُّ اللَّهِ صلى الله عليه وسلم ‏.‏ قَالَ رَجُلٌ فِيهَا بِرَأْيِهِ مَا شَاءَ ‏.‏",
+      "source_hash_sha256": "e17c640446deb551be3aa4026372b38337286cd7f2f8910fdd8e4df1a20ce2ae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté. Ibn al-Muthanna dit : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Qatada, d’après Mutarrif, qui a dit : Imran ibn Husayn m’envoya un message durant la maladie dont il mourut. Il me dit : je t’ai rapporté des hadiths dont Allah te fera peut-être bénéficier après moi. Si je vis, garde-les pour toi ; si je meurs, rapporte-les si tu le souhaites. On me rendait visite. Sache que le Prophète d’Allah ﷺ a associé le pèlerinage et la omra ; aucun texte du Livre d’Allah ne fut révélé à ce sujet, et le Prophète d’Allah ﷺ ne l’a pas interdit. Un homme a ensuite exprimé son opinion à ce sujet.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8bfd78e9-5dfc-4061-bda3-af68fb141370",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1226f",
+      "reference": "Sahih Muslim, hadith 1226 f, book 15, باب جَوَازِ التَّمَتُّعِ",
+      "title": "باب جَوَازِ التَّمَتُّعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا سَعِيدُ بْنُ أَبِي عَرُوبَةَ، عَنْ قَتَادَةَ، عَنْ مُطَرِّفِ بْنِ عَبْدِ اللَّهِ بْنِ الشِّخِّيرِ، عَنْ عِمْرَانَ بْنِ الْحُصَيْنِ، - رضى الله عنه - قَالَ اعْلَمْ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم جَمَعَ بَيْنَ حَجٍّ وَعُمْرَةٍ ثُمَّ لَمْ يَنْزِلْ فِيهَا كِتَابٌ وَلَمْ يَنْهَنَا عَنْهُمَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ قَالَ فِيهَا رَجُلٌ بِرَأْيِهِ مَا شَاءَ‏.‏",
+      "source_hash_sha256": "7e5b71eb758b3051c1b7c0258619b4d69ccd034e9b2267a01b0c606df53a70a4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim nous a rapporté : Isa ibn Yunus nous a rapporté : Said ibn Abu Aruba nous a rapporté, d’après Qatada, d’après Mutarrif ibn Abd Allah ibn al-Shikhkhir, d’après Imran ibn Husayn, qu’Allah l’agrée, qui a dit : sachez que le Messager d’Allah ﷺ a associé le pèlerinage et la omra. Aucun texte ne fut révélé à leur sujet et le Messager d’Allah ﷺ ne nous les a pas interdits. Un homme a ensuite exprimé son opinion à leur sujet.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b5d3f23f-bcba-42cf-9ea0-c94a65f9ea0a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1226g",
+      "reference": "Sahih Muslim, hadith 1226 g,h, book 15, باب جَوَازِ التَّمَتُّعِ",
+      "title": "باب جَوَازِ التَّمَتُّعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنِي عَبْدُ الصَّمَدِ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، عَنْ مُطَرِّفٍ، عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، - رضى الله عنه - قَالَ تَمَتَّعْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَلَمْ يَنْزِلْ فِيهِ الْقُرْآنُ ‏.‏ قَالَ رَجُلٌ بِرَأْيِهِ مَا شَاءَ ‏.‏ وَحَدَّثَنِيهِ حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عَبْدِ الْمَجِيدِ، حَدَّثَنَا إِسْمَاعِيلُ، بْنُ مُسْلِمٍ حَدَّثَنِي مُحَمَّدُ بْنُ وَاسِعٍ، عَنْ مُطَرِّفِ بْنِ عَبْدِ اللَّهِ بْنِ الشِّخِّيرِ، عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، - رضى الله عنه - بِهَذَا الْحَدِيثِ قَالَ تَمَتَّعَ نَبِيُّ اللَّهِ صلى الله عليه وسلم وَتَمَتَّعْنَا مَعَهُ ‏.‏",
+      "source_hash_sha256": "44d9dbdd1985d8598dfdb1ae46ce9f552b4b49ff0da1a97348a1d4feecad7c11",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Abd al-Samad m’a rapporté : Hammam nous a rapporté : Qatada nous a rapporté, d’après Mutarrif, d’après Imran ibn Husayn, qu’Allah l’agrée, qui a dit : nous avons pratiqué le tamattu avec le Messager d’Allah ﷺ, et aucun texte coranique n’a été révélé à ce sujet. Un homme a ensuite exprimé son opinion. Hajjaj ibn al-Shair nous a également rapporté : Ubayd Allah ibn Abd al-Majid nous a rapporté : Ismail ibn Muslim nous a rapporté : Muhammad ibn Wasi m’a rapporté, d’après Mutarrif ibn Abd Allah ibn al-Shikhkhir, d’après Imran ibn Husayn, qu’Allah l’agrée, cette version du hadith, qui dit : le Prophète d’Allah ﷺ pratiqua le tamattu, et nous le pratiquâmes avec lui.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "73ae4e21-7d23-4e96-ac7a-10399f8bfe43",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1226i",
+      "reference": "Sahih Muslim, hadith 1226 i, book 15, باب جَوَازِ التَّمَتُّعِ",
+      "title": "باب جَوَازِ التَّمَتُّعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَامِدُ بْنُ عُمَرَ الْبَكْرَاوِيُّ، وَمُحَمَّدُ بْنُ أَبِي بَكْرٍ الْمُقَدَّمِيُّ، قَالاَ حَدَّثَنَا بِشْرُ، بْنُ الْمُفَضَّلِ حَدَّثَنَا عِمْرَانُ بْنُ مُسْلِمٍ، عَنْ أَبِي رَجَاءٍ، قَالَ قَالَ عِمْرَانُ بْنُ حُصَيْنٍ نَزَلَتْ آيَةُ الْمُتْعَةِ فِي كِتَابِ اللَّهِ - يَعْنِي مُتْعَةَ الْحَجِّ - وَأَمَرَنَا بِهَا رَسُولُ اللَّهِ صلى الله عليه وسلم ثُمَّ لَمْ تَنْزِلْ آيَةٌ تَنْسَخُ آيَةَ مُتْعَةِ الْحَجِّ وَلَمْ يَنْهَ عَنْهَا رَسُولُ اللَّهِ صلى الله عليه وسلم حَتَّى مَاتَ ‏.‏ قَالَ رَجُلٌ بِرَأْيِهِ بَعْدُ مَا شَاءَ ‏.‏",
+      "source_hash_sha256": "16a0b957e49291923c2ebf490e5e7fe0163ffec4f7c00684c8a591fea0c96bda",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hamid ibn Umar al-Bakrawi et Muhammad ibn Abu Bakr al-Muqaddami nous ont rapporté : Bishr ibn al-Mufaddal nous a rapporté : Imran ibn Muslim nous a rapporté, d’après Abu Raja, qui a dit : Imran ibn Husayn dit : le verset relatif au tamattu fut révélé dans le Livre d’Allah — c’est-à-dire le tamattu du pèlerinage — et le Messager d’Allah ﷺ nous l’ordonna. Aucun verset ne fut ensuite révélé pour abroger celui relatif au tamattu du pèlerinage, et le Messager d’Allah ﷺ ne l’interdit pas jusqu’à sa mort. Un homme exprima ensuite l’opinion qu’il souhaitait.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dc2fa51b-6dd8-4449-83fe-28deb45f7961",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1226j",
+      "reference": "Sahih Muslim, hadith 1226 j, book 15, باب جَوَازِ التَّمَتُّعِ",
+      "title": "باب جَوَازِ التَّمَتُّعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عِمْرَانَ الْقَصِيرِ، حَدَّثَنَا أَبُو رَجَاءٍ عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، ‏.‏ بِمِثْلِهِ غَيْرَ أَنَّهُ قَالَ وَفَعَلْنَاهَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَلَمْ يَقُلْ وَأَمَرَنَا بِهَا ‏.‏",
+      "source_hash_sha256": "3b7e820b057d06546d2f865d15ceae8a8d33b28ed6bc6e76bc57927a49386688",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "692047e5-bfe2-43b9-846c-0fbbae96e219",
+      "reason": "La source ne reproduit que la chaîne ou une variante additionnelle du récit précédent, sans reprendre son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "dc2fa51b-6dd8-4449-83fe-28deb45f7961",
+      "reason": "La source ne reproduit que la chaîne ou une variante additionnelle du récit précédent, sans reprendre son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

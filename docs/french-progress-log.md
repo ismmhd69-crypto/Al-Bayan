@@ -9851,3 +9851,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0544 saves three private French drafts about the tamattu rites. Muslim 1225b–c and 1226b are abbreviated variants without the full report; all three remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1226d–1226j
+
+- FR-LIB-HAD-MUSLIM-0545 saves four private French drafts about the tamattu reports from Imran ibn Husayn. Muslim 1226d and 1226j are abbreviated variants and remain blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
