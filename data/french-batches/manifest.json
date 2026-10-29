@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:03:10.596Z",
+  "lastReconciled": "2026-10-29T14:03:33.053Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 184,
+    "hadithMuslimDrafted": 185,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6520,
-    "hadithDatabaseMissing": 8109,
-    "hadithLocalRemaining": 8109,
-    "hadithNeedsMo": 180,
+    "hadithLocalDrafted": 6521,
+    "hadithDatabaseMissing": 8108,
+    "hadithLocalRemaining": 8108,
+    "hadithNeedsMo": 181,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -29890,6 +29890,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0038",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0038.json",
+      "sourceIds": [
+        "b3fe243f-cb32-4f8a-8d15-87a11d4f9186",
+        "e8db4754-d89e-43ed-bc39-ec7f2c850843"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotation retained in Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -33828,11 +33845,17 @@
       "scope": "Sahih Muslim 86b: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 25:68 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-96A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 96a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 8:39 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6520,
-  "hadithLocalRemaining": 8109,
+  "hadithLocalDrafted": 6521,
+  "hadithLocalRemaining": 8108,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -34913,10 +34936,16 @@
       "scope": "Sahih Muslim 86b: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 25:68 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-96A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 96a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 8:39 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 184,
-  "hadithDatabaseMissing": 8109,
+  "hadithMuslimDrafted": 185,
+  "hadithDatabaseMissing": 8108,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 180
+  "hadithNeedsMo": 181
 }

@@ -1,0 +1,70 @@
+{
+  "batch_id": "HADITH-MUSLIM-0038",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:03:15.010Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b3fe243f-cb32-4f8a-8d15-87a11d4f9186",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:96a",
+      "reference": "Sahih Muslim, hadith 96 a, book 1, باب تَحْرِيمِ قَتْلِ الْكَافِرِ بَعْدَ أَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ ‏‏",
+      "title": "باب تَحْرِيمِ قَتْلِ الْكَافِرِ بَعْدَ أَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، عَنْ أَبِي مُعَاوِيَةَ، كِلاَهُمَا عَنِ الأَعْمَشِ، عَنْ أَبِي ظِبْيَانَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ، وَهَذَا، حَدِيثُ ابْنِ أَبِي شَيْبَةَ قَالَ بَعَثَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم فِي سَرِيَّةٍ فَصَبَّحْنَا الْحُرَقَاتِ مِنْ جُهَيْنَةَ فَأَدْرَكْتُ رَجُلاً فَقَالَ لاَ إِلَهَ إِلاَّ اللَّهُ ‏.‏ فَطَعَنْتُهُ فَوَقَعَ فِي نَفْسِي مِنْ ذَلِكَ فَذَكَرْتُهُ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَقَالَ لاَ إِلَهَ إِلاَّ اللَّهُ وَقَتَلْتَهُ ‏\"‏ ‏.‏ قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّمَا قَالَهَا خَوْفًا مِنَ السِّلاَحِ ‏.‏ قَالَ ‏\"‏ أَفَلاَ شَقَقْتَ عَنْ قَلْبِهِ حَتَّى تَعْلَمَ أَقَالَهَا أَمْ لاَ ‏\"‏ ‏.‏ فَمَازَالَ يُكَرِّرُهَا عَلَىَّ حَتَّى تَمَنَّيْتُ أَنِّي أَسْلَمْتُ يَوْمَئِذٍ ‏.‏ قَالَ فَقَالَ سَعْدٌ وَأَنَا وَاللَّهِ لاَ أَقْتُلُ مُسْلِمًا حَتَّى يَقْتُلَهُ ذُو الْبُطَيْنِ ‏.‏ يَعْنِي أُسَامَةَ قَالَ قَالَ رَجُلٌ أَلَمْ يَقُلِ اللَّهُ ‏[quran sura=\"8\" aya_start=\"39\" aya_end=\"39\"]{‏ وَقَاتِلُوهُمْ حَتَّى لاَ تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ كُلُّهُ لِلَّهِ‏}‏ فَقَالَ سَعْدٌ قَدْ قَاتَلْنَا حَتَّى لاَ تَكُونَ فِتْنَةٌ وَأَنْتَ وَأَصْحَابُكَ تُرِيدُونَ أَنْ تُقَاتِلُوا حَتَّى تَكُونَ فِتْنَةٌ ‏.‏",
+      "source_hash_sha256": "1b5ac63b533d58b5da335da938eeb796a7341b497aeaba20f10c6fc1e6c1f6a0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 8:39 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "e8db4754-d89e-43ed-bc39-ec7f2c850843",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:96b",
+      "reference": "Sahih Muslim, hadith 96 b, book 1, باب تَحْرِيمِ قَتْلِ الْكَافِرِ بَعْدَ أَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ ‏‏",
+      "title": "باب تَحْرِيمِ قَتْلِ الْكَافِرِ بَعْدَ أَنْ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَعْقُوبُ الدَّوْرَقِيُّ، حَدَّثَنَا هُشَيْمٌ، أَخْبَرَنَا حُصَيْنٌ، حَدَّثَنَا أَبُو ظِبْيَانَ، قَالَ سَمِعْتُ أُسَامَةَ بْنَ زَيْدِ بْنِ حَارِثَةَ، يُحَدِّثُ قَالَ بَعَثَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم إِلَى الْحُرَقَةِ مِنْ جُهَيْنَةَ فَصَبَّحْنَا الْقَوْمَ فَهَزَمْنَاهُمْ وَلَحِقْتُ أَنَا وَرَجُلٌ مِنَ الأَنْصَارِ رَجُلاً مِنْهُمْ فَلَمَّا غَشَيْنَاهُ قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ ‏.‏ فَكَفَّ عَنْهُ الأَنْصَارِيُّ وَطَعَنْتُهُ بِرُمْحِي حَتَّى قَتَلْتُهُ ‏.‏ قَالَ فَلَمَّا قَدِمْنَا بَلَغَ ذَلِكَ النَّبِيَّ صلى الله عليه وسلم فَقَالَ لِي ‏\"‏ يَا أُسَامَةُ أَقَتَلْتَهُ بَعْدَ مَا قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ ‏\"‏ ‏.‏ قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّمَا كَانَ مُتَعَوِّذًا ‏.‏ قَالَ فَقَالَ ‏\"‏ أَقَتَلْتَهُ بَعْدَ مَا قَالَ لاَ إِلَهَ إِلاَّ اللَّهُ ‏\"‏ ‏.‏ قَالَ فَمَازَالَ يُكَرِّرُهَا عَلَىَّ حَتَّى تَمَنَّيْتُ أَنِّي لَمْ أَكُنْ أَسْلَمْتُ قَبْلَ ذَلِكَ الْيَوْمِ ‏.‏",
+      "source_hash_sha256": "53b8d7df98485bad731d9de2f177178b4584765d3ff72ddf7565a07824682c3a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager de Dieu nous envoya vers les Huraka, de la tribu de Juhayna. Nous attaquâmes les gens à l’aube et les vainquîmes. Un homme des Ansar et moi poursuivîmes l’un d’eux. Quand nous l’eûmes rejoint, il prononça : « Il n’y a de divinité que Dieu. » L’Ansari s’arrêta, mais je le frappai de ma lance et le tuai. À notre retour, le Prophète en fut informé et me dit : « Ô Usama, l’as-tu tué après qu’il a prononcé : “Il n’y a de divinité que Dieu” ? » Je répondis : « Messager de Dieu, il ne cherchait qu’à se protéger. » Il répéta : « L’as-tu tué après qu’il a prononcé : “Il n’y a de divinité que Dieu” ? » Il ne cessa de répéter ces paroles, si bien que je souhaitai ne m’être converti qu’à partir de ce jour.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b3fe243f-cb32-4f8a-8d15-87a11d4f9186",
+      "reason": "Ce récit cite directement le verset 8:39 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}

@@ -7292,3 +7292,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0037 saves 6 private French drafts on Abu Dharr, charity, and the prohibition against killing a person after they profess submission to God. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 184 of 7,366. Hadith Needs Mo: 180. Total local hadith rows not drafted: 8,109, including held records.
+
+### 2026-10-29: Muslim 96a–96b
+
+- FR-LIB-HAD-MUSLIM-0038 saves 1 private French draft. Hadith 96a directly quotes Quran 8:39, so its full translation remains blank and marked Needs Mo pending an approved, attributed French Quran translation with usage permission. No database writes or publication occurred.
+- Both source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 185 of 7,366. Hadith Needs Mo: 181. Total local hadith rows not drafted: 8,108, including held records.
