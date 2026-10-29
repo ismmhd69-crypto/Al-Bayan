@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-476",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:13:12.558Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "c56a6428-5daf-4e3b-ad85-cd952703202f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2757",
+      "reference": "Sahih al-Bukhari, hadith 2757, book 55, باب إِذَا تَصَدَّقَ أَوْ أَوْقَفَ بَعْضَ مَالِهِ أَوْ بَعْضَ رَقِيقِهِ أَوْ دَوَابِّهِ، فَهُوَ جَائِزٌ",
+      "title": "باب إِذَا تَصَدَّقَ أَوْ أَوْقَفَ بَعْضَ مَالِهِ أَوْ بَعْضَ رَقِيقِهِ أَوْ دَوَابِّهِ، فَهُوَ جَائِزٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عَبْدُ الرَّحْمَنِ بْنُ عَبْدِ اللَّهِ بْنِ كَعْبٍ، أَنَّ عَبْدَ اللَّهِ بْنَ كَعْبٍ، قَالَ سَمِعْتُ كَعْبَ بْنَ مَالِكٍ ـ رضى الله عنه‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ، إِنَّ مِنْ تَوْبَتِي أَنْ أَنْخَلِعَ مِنْ مَالِي صَدَقَةً إِلَى اللَّهِ وَإِلَى رَسُولِهِ صلى الله عليه وسلم‏.‏ قَالَ ‏\"‏ أَمْسِكْ عَلَيْكَ بَعْضَ مَالِكَ فَهُوَ خَيْرٌ لَكَ ‏\"‏‏.‏ قُلْتُ فَإِنِّي أُمْسِكُ سَهْمِي الَّذِي بِخَيْبَرَ‏.‏",
+      "source_hash_sha256": "602d1af198bfe97ddc67242c003861a670a527c75bf7ae2e7d5a6fb895875ad8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Yahyâ ibn Bukayr, al-Layth, ‘Uqayl, Ibn Shihâb, ‘Abd al-Rahmân ibn ‘Abd Allâh ibn Ka‘b et ‘Abd Allâh ibn Ka‘b.\n\nKa‘b ibn Mâlik dit : « Je demandai : “Ô Messager d’Allah, dans le cadre de mon repentir, puis-je me dépouiller d’une partie de mes biens pour en faire une aumône à Allah et à Son Messager ?” Il répondit : “Garde une partie de tes biens, ce sera mieux pour toi.” Je dis : “Je garderai donc ma part de Khaybar.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e8b67b20-f0d9-40e9-b0c4-93a2b6f886b9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2758",
+      "reference": "Sahih al-Bukhari, hadith 2758, book 55, باب مَنْ تَصَدَّقَ إِلَى وَكِيلِهِ ثُمَّ رَدَّ الْوَكِيلُ إِلَيْهِ",
+      "title": "باب مَنْ تَصَدَّقَ إِلَى وَكِيلِهِ ثُمَّ رَدَّ الْوَكِيلُ إِلَيْهِ",
+      "source_published": true,
+      "text_original": "وَقَالَ إِسْمَاعِيلُ أَخْبَرَنِي عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي سَلَمَةَ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ،، لاَ أَعْلَمُهُ إِلاَّ عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ لَمَّا نَزَلَتْ ‏ {‏لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ‏} ‏ جَاءَ أَبُو طَلْحَةَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ يَقُولُ اللَّهُ تَبَارَكَ وَتَعَالَى فِي كِتَابِهِ ‏ {‏لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ‏} ‏ وَإِنَّ أَحَبَّ أَمْوَالِي إِلَىَّ بِيرُحَاءَ ـ قَالَ وَكَانَتْ حَدِيقَةً كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدْخُلُهَا وَيَسْتَظِلُّ بِهَا وَيَشْرَبُ مِنْ مَائِهَا ـ فَهِيَ إِلَى اللَّهِ عَزَّ وَجَلَّ وَإِلَى رَسُولِهِ صلى الله عليه وسلم أَرْجُو بِرَّهُ وَذُخْرَهُ، فَضَعْهَا أَىْ رَسُولَ اللَّهِ حَيْثُ أَرَاكَ اللَّهُ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ بَخْ يَا أَبَا طَلْحَةَ، ذَلِكَ مَالٌ رَابِحٌ، قَبِلْنَاهُ مِنْكَ وَرَدَدْنَاهُ عَلَيْكَ، فَاجْعَلْهُ فِي الأَقْرَبِينَ ‏\"‏‏.‏ فَتَصَدَّقَ بِهِ أَبُو طَلْحَةَ عَلَى ذَوِي رَحِمِهِ، قَالَ وَكَانَ مِنْهُمْ أُبَىٌّ وَحَسَّانُ، قَالَ وَبَاعَ حَسَّانُ حِصَّتَهُ مِنْهُ مِنْ مُعَاوِيَةَ، فَقِيلَ لَهُ تَبِيعُ صَدَقَةَ أَبِي طَلْحَةَ فَقَالَ أَلاَ أَبِيعُ صَاعًا مِنْ تَمْرٍ بِصَاعٍ مِنْ دَرَاهِمَ قَالَ وَكَانَتْ تِلْكَ الْحَدِيقَةُ فِي مَوْضِعِ قَصْرِ بَنِي حُدَيْلَةَ الَّذِي بَنَاهُ مُعَاوِيَةُ‏.‏",
+      "source_hash_sha256": "816be3b54273220af40c999c13730013ab1e15f1412f87f253c01ab1890257e5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "824088a4-e8c5-486e-bd49-c06ff06776c1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2759",
+      "reference": "Sahih al-Bukhari, hadith 2759, book 55, بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَإِذَا حَضَرَ الْقِسْمَةَ أُولُو الْقُرْبَى وَالْيَتَامَى وَالْمَسَاكِينُ فَارْزُقُوهُمْ مِنْهُ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَإِذَا حَضَرَ الْقِسْمَةَ أُولُو الْقُرْبَى وَالْيَتَامَى وَالْمَسَاكِينُ فَارْزُقُوهُمْ مِنْهُ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْفَضْلِ أَبُو النُّعْمَانِ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ إِنَّ نَاسًا يَزْعُمُونَ أَنَّ هَذِهِ الآيَةَ نُسِخَتْ، وَلاَ وَاللَّهِ مَا نُسِخَتْ، وَلَكِنَّهَا مِمَّا تَهَاوَنَ النَّاسُ، هُمَا وَالِيَانِ وَالٍ يَرِثُ، وَذَاكَ الَّذِي يَرْزُقُ، وَوَالٍ لاَ يَرِثُ، فَذَاكَ الَّذِي يَقُولُ بِالْمَعْرُوفِ، يَقُولُ لاَ أَمْلِكُ لَكَ أَنْ أُعْطِيَكَ‏.‏",
+      "source_hash_sha256": "657e62ce207b893e84542caf2d0767d53ffbe113933b34710757c72575d8b698",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn al-Fadl Abû al-Nu‘mân, Abû ‘Awâna, Abû Bishr, Sa‘îd ibn Jubayr et Ibn ‘Abbâs.\n\nIbn ‘Abbâs dit : « Certains prétendent que ce verset a été abrogé. Non, par Allah, il ne l’a pas été. Les gens l’ont simplement négligé. Il existe deux sortes de tuteurs : l’un hérite de la personne dont il a la charge et peut subvenir à ses besoins ; l’autre n’hérite pas d’elle. Celui-là doit lui parler avec bonté et dire : “Je n’ai pas le droit de te donner de ses biens.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b9afb34d-a3f8-419e-89fb-225d508042da",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2760",
+      "reference": "Sahih al-Bukhari, hadith 2760, book 55, بَابُ مَا يُسْتَحَبُّ لِمَنْ يُتَوَفَّى فَجْأَةً أَنْ يَتَصَدَّقُوا عَنْهُ، وَقَضَاءِ النُّذُورِ عَنِ الْمَيِّتِ",
+      "title": "بَابُ مَا يُسْتَحَبُّ لِمَنْ يُتَوَفَّى فَجْأَةً أَنْ يَتَصَدَّقُوا عَنْهُ، وَقَضَاءِ النُّذُورِ عَنِ الْمَيِّتِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، رضى الله عنها أَنَّ رَجُلاً، قَالَ لِلنَّبِيِّ صلى الله عليه وسلم إِنَّ أُمِّي افْتُلِتَتْ نَفْسَهَا، وَأُرَاهَا لَوْ تَكَلَّمَتْ تَصَدَّقَتْ، أَفَأَتَصَدَّقُ عَنْهَا قَالَ ‏\"‏ نَعَمْ، تَصَدَّقْ عَنْهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "54e9f38cfde793db1183f69d22c96fb0adb17fc438bed1fd4cf512ade2cff390",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ismâ‘îl, Mâlik, Hishâm, son père et ‘Â’isha.\n\nUn homme dit au Prophète : « Ma mère est morte subitement. Je pense que, si elle avait pu parler, elle aurait fait l’aumône. Puis-je faire une aumône en son nom ? » Il répondit : « Oui, fais une aumône en son nom. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4e93ff9c-0571-4c7c-80a5-16257367c4a7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2761",
+      "reference": "Sahih al-Bukhari, hadith 2761, book 55, بَابُ مَا يُسْتَحَبُّ لِمَنْ يُتَوَفَّى فَجْأَةً أَنْ يَتَصَدَّقُوا عَنْهُ، وَقَضَاءِ النُّذُورِ عَنِ الْمَيِّتِ",
+      "title": "بَابُ مَا يُسْتَحَبُّ لِمَنْ يُتَوَفَّى فَجْأَةً أَنْ يَتَصَدَّقُوا عَنْهُ، وَقَضَاءِ النُّذُورِ عَنِ الْمَيِّتِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ أَنَّ سَعْدَ بْنَ عُبَادَةَ ـ رضى الله عنه ـ اسْتَفْتَى رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ إِنَّ أُمِّي مَاتَتْ وَعَلَيْهَا نَذْرٌ‏.‏ فَقَالَ ‏\"‏ اقْضِهِ عَنْهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "725389fa7c2b42e105c8ed131d51a09940ea00e143ac34662df4f86224a10f8b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Yûsuf, Mâlik, Ibn Shihâb, ‘Ubayd Allâh ibn ‘Abd Allâh et Ibn ‘Abbâs.\n\nSa‘d ibn ‘Ubâda demanda conseil au Messager d’Allah et dit : « Ma mère est morte alors qu’elle avait fait un vœu. » Il répondit : « Acquitte-toi de ce vœu en son nom. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e166d1f9-9362-40ee-becc-33bf6a7e5e88",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2762",
+      "reference": "Sahih al-Bukhari, hadith 2762, book 55, باب الإِشْهَادِ فِي الْوَقْفِ وَالصَّدَقَةِ",
+      "title": "باب الإِشْهَادِ فِي الْوَقْفِ وَالصَّدَقَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا هِشَامُ بْنُ يُوسُفَ، أَنَّ ابْنَ جُرَيْجٍ، أَخْبَرَهُمْ قَالَ أَخْبَرَنِي يَعْلَى، أَنَّهُ سَمِعَ عِكْرِمَةَ، مَوْلَى ابْنِ عَبَّاسٍ يَقُولُ أَنْبَأَنَا ابْنُ عَبَّاسٍ، أَنَّ سَعْدَ بْنَ عُبَادَةَ ـ رضى الله عنهم ـ أَخَا بَنِي سَاعِدَةَ تُوُفِّيَتْ أُمُّهُ وَهْوَ غَائِبٌ، فَأَتَى النَّبِيَّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنَّ أُمِّي تُوُفِّيَتْ وَأَنَا غَائِبٌ عَنْهَا، فَهَلْ يَنْفَعُهَا شَىْءٌ إِنْ تَصَدَّقْتُ بِهِ عَنْهَا قَالَ ‏\"‏ نَعَمْ ‏\"‏‏.‏ قَالَ فَإِنِّي أُشْهِدُكَ أَنَّ حَائِطِي الْمِخْرَافَ صَدَقَةٌ عَلَيْهَا‏.‏",
+      "source_hash_sha256": "81894fbea39ea67ffefb870d0f938820a54429688fa21d19ee147cd74eeb732d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ibrâhîm ibn Mûsâ, Hishâm ibn Yûsuf, Ibn Jurayj, Ya‘la, ‘Ikrima, l’affranchi d’Ibn ‘Abbâs, et Ibn ‘Abbâs.\n\nLa mère de Sa‘d ibn ‘Ubâda, frère des Banû Sâ‘ida, mourut pendant son absence. Il vint trouver le Prophète et dit : « Ô Messager d’Allah, ma mère est morte pendant mon absence. Lui sera-t-il utile que je fasse une aumône en son nom ? » Il répondit : « Oui. » Sa‘d dit : « Je te prends à témoin que mon jardin d’al-Mikhrâf est une aumône en son nom. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e8b67b20-f0d9-40e9-b0c4-93a2b6f886b9",
+      "reason": "This report directly quotes Quran 3:92. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
