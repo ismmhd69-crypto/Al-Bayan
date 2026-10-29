@@ -36652,6 +36652,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0369",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0369.json",
+      "sourceIds": [
+        "1a578d4e-772c-469d-9ac4-299653e79d87",
+        "c77644d2-f32f-44e0-a055-bcb6898a8b9e",
+        "21d94aa2-1b79-4f74-826f-f2514a7f6b6c",
+        "5c9bf8d6-9c2e-4862-aec6-716774dd15ec",
+        "6faf2009-4c1b-4099-8b10-e99c1de40aef",
+        "98116995-9fb6-43df-b3d9-96128aa1228d"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two direct Quran quotations held entirely blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40959,8 +40980,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7801,
-  "hadithLocalRemaining": 6828,
+  "hadithLocalDrafted": 7805,
+  "hadithLocalRemaining": 6824,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43667,10 +43688,22 @@
       "scope": "Sahih Muslim 863C: direct Quran quotation",
       "status": "blocked",
       "reason": "La source cite directement un verset du Coran (sourate 62, verset 11). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0369-863D-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 863D: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un verset du Coran (sourate 62, verset 11). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0369-864-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 864: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un verset du Coran (sourate 62, verset 11). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
     }
   ],
-  "hadithMuslimDrafted": 1465,
+  "hadithMuslimDrafted": 1469,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 687
+  "hadithNeedsMo": 689
 }
