@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5332,
+    "hadithBukhariDrafted": 5337,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5332,
+    "hadithLocalDrafted": 5337,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9295,
-    "hadithNeedsMo": 776,
+    "hadithLocalRemaining": 9290,
+    "hadithNeedsMo": 777,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24762,6 +24762,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1168",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1168.json",
+      "sourceIds": [
+        "43288e7b-9bdb-4abf-aaae-e25cca41149b",
+        "5f76c8d4-310c-45b2-b797-c4064402e4f6",
+        "81bb2c38-9ce3-43a1-944e-4d4919a0c28d",
+        "310c1ddb-55a4-464c-a6a4-3114edbb4ff5",
+        "721ffe37-4a1a-4c0d-8467-4cb25726f8ed",
+        "7b80c277-d4af-46b7-906d-f1df3a12aba2"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6362 was held blank because it directly quotes Quran 5:101. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -28021,6 +28042,12 @@
       "scope": "Sahih al-Bukhari 6327 direct quotation of Quran 17:110",
       "status": "blocked",
       "reason": "The report directly quotes Quran 17:110. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6362-QURAN-5-101",
+      "scope": "Sahih al-Bukhari 6362 direct quotation of Quran 5:101",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 5:101. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
