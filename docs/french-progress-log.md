@@ -8141,3 +8141,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0203 saves six private French drafts about the body parts used in prostration and keeping clothing or hair from being gathered during it. All six source reports include their wording.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 825 Muslim drafts, 7,161 total hadith drafts, 7,468 remaining, and 400 Needs Mo items.
+
+### 2026-10-29: Muslim 492–495b
+
+- FR-LIB-HAD-MUSLIM-0204 saves four private French drafts about hair tied during prayer and the positioning of the arms in prostration. Muslim 493b and 495b give variant-only wording without the complete report and remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 829 Muslim drafts, 7,165 total hadith drafts, 7,464 remaining, and 402 Needs Mo items.

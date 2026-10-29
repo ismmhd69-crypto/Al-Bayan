@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0204",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:28:53.495Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "da647dc5-b9b6-496d-9b07-3708e80db8bf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:492",
+      "reference": "Sahih Muslim, hadith 492, book 4, باب أَعْضَاءِ السُّجُودِ وَالنَّهْىِ عَنْ كَفِّ الشَّعْرِ، وَالثَّوْبِ، وَعَقْصِ الرَّأْسِ، فِي الصَّلاَة",
+      "title": "باب أَعْضَاءِ السُّجُودِ وَالنَّهْىِ عَنْ كَفِّ الشَّعْرِ، وَالثَّوْبِ، وَعَقْصِ الرَّأْسِ، فِي الصَّلاَة",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ سَوَّادٍ الْعَامِرِيُّ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنَا عَمْرُو بْنُ الْحَارِثِ، أَنَّ بُكَيْرًا، حَدَّثَهُ أَنَّ كُرَيْبًا مَوْلَى ابْنِ عَبَّاسٍ حَدَّثَهُ عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ، أَنَّهُ رَأَى عَبْدَ اللَّهِ بْنَ الْحَارِثِ يُصَلِّي وَرَأْسُهُ مَعْقُوصٌ مِنْ وَرَائِهِ فَقَامَ فَجَعَلَ يَحُلُّهُ فَلَمَّا انْصَرَفَ أَقْبَلَ إِلَى ابْنِ عَبَّاسٍ فَقَالَ مَا لَكَ وَرَأْسِي فَقَالَ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّمَا مَثَلُ هَذَا مَثَلُ الَّذِي يُصَلِّي وَهُوَ مَكْتُوفٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8b78e27f581aeef2ef2bd44612da34fdc4137adafccc0bc88d370c5036e3e86b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amr ibn Sawwad al-Amiri nous a rapporté : Abdullah ibn Wahb nous a informés : Amr ibn al-Harith nous a informés que Bukayr lui avait rapporté que Kurayb, l’affranchi d’Ibn Abbas, lui avait rapporté d’après Abdullah ibn Abbas : « Il vit Abdullah ibn al-Harith prier alors que ses cheveux étaient noués derrière la tête. Il se leva et défit ce nœud. Lorsqu’Abdullah eut terminé, il alla trouver Ibn Abbas et lui dit : “Qu’as-tu fait à ma tête ?” Ibn Abbas répondit : “J’ai entendu le Messager d’Allah ﷺ dire : ‘Celui qui prie ainsi est comme celui qui prie avec les mains liées.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cd69775c-bbe8-41ce-858b-094c9a1e0b2e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:493a",
+      "reference": "Sahih Muslim, hadith 493 a, book 4, باب الاِعْتِدَالِ فِي السُّجُودِ وَوَضْعِ الْكَفَّيْنِ عَلَى الأَرْضِ وَرَفْعِ الْمِرْفَقَيْنِ عَنِ الْجَنْبَيْنِ وَرَفْعِ الْبَطْنِ عَنِ الْفَخِذَيْنِ فِي السُّجُودِ",
+      "title": "باب الاِعْتِدَالِ فِي السُّجُودِ وَوَضْعِ الْكَفَّيْنِ عَلَى الأَرْضِ وَرَفْعِ الْمِرْفَقَيْنِ عَنِ الْجَنْبَيْنِ وَرَفْعِ الْبَطْنِ عَنِ الْفَخِذَيْنِ فِي السُّجُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ شُعْبَةَ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اعْتَدِلُوا فِي السُّجُودِ وَلاَ يَبْسُطْ أَحَدُكُمْ ذِرَاعَيْهِ انْبِسَاطَ الْكَلْبِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c8b8d4759df6bfd0aaa542dbf0b4d46c8a2f696166a79695149521de1a0d0064",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Waki‘ nous a rapporté, d’après Shu‘ba, d’après Qatada, d’après Anas, qui dit que le Messager d’Allah ﷺ a dit : « Tenez-vous correctement en prosternation et qu’aucun de vous n’étende ses avant-bras comme un chien. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4202417f-a489-42e5-8614-779a2d588103",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:493b",
+      "reference": "Sahih Muslim, hadith 493 b, book 4, باب الاِعْتِدَالِ فِي السُّجُودِ وَوَضْعِ الْكَفَّيْنِ عَلَى الأَرْضِ وَرَفْعِ الْمِرْفَقَيْنِ عَنِ الْجَنْبَيْنِ وَرَفْعِ الْبَطْنِ عَنِ الْفَخِذَيْنِ فِي السُّجُودِ",
+      "title": "باب الاِعْتِدَالِ فِي السُّجُودِ وَوَضْعِ الْكَفَّيْنِ عَلَى الأَرْضِ وَرَفْعِ الْمِرْفَقَيْنِ عَنِ الْجَنْبَيْنِ وَرَفْعِ الْبَطْنِ عَنِ الْفَخِذَيْنِ فِي السُّجُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، ح قَالَ وَحَدَّثَنِيهِ يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا خَالِدٌ، - يَعْنِي ابْنَ الْحَارِثِ - قَالاَ حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ وَفِي حَدِيثِ ابْنِ جَعْفَرٍ ‏\"‏ وَلاَ يَتَبَسَّطْ أَحَدُكُمْ ذِرَاعَيْهِ انْبِسَاطَ الْكَلْبِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b7a30a88f236a43a2863d3e9076acb097a0a779eb15aeca00f47b36781d62fed",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "73ae6281-4f04-4b96-b9e4-948101502116",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:494",
+      "reference": "Sahih Muslim, hadith 494, book 4, باب الاِعْتِدَالِ فِي السُّجُودِ وَوَضْعِ الْكَفَّيْنِ عَلَى الأَرْضِ وَرَفْعِ الْمِرْفَقَيْنِ عَنِ الْجَنْبَيْنِ وَرَفْعِ الْبَطْنِ عَنِ الْفَخِذَيْنِ فِي السُّجُودِ",
+      "title": "باب الاِعْتِدَالِ فِي السُّجُودِ وَوَضْعِ الْكَفَّيْنِ عَلَى الأَرْضِ وَرَفْعِ الْمِرْفَقَيْنِ عَنِ الْجَنْبَيْنِ وَرَفْعِ الْبَطْنِ عَنِ الْفَخِذَيْنِ فِي السُّجُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ إِيَادٍ، عَنْ إِيَادٍ، عَنِ الْبَرَاءِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا سَجَدْتَ فَضَعْ كَفَّيْكَ وَارْفَعْ مِرْفَقَيْكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ab91ad3b188e83d95b56fb29bf5f0200b7719ce486fb50d960bfc6b22fc36555",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Ubayd Allah ibn Iyad nous a informés, d’après Iyad, d’après al-Bara, qui dit que le Messager d’Allah ﷺ a dit : « Lorsque tu te prosternes, pose tes paumes au sol et relève tes coudes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f8556fa2-81f8-4b0c-ade7-09fdd6cc960b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:495a",
+      "reference": "Sahih Muslim, hadith 495 a, book 4, باب مَا يَجْمَعُ صِفَةَ الصَّلاَةِ وَمَا يُفْتَتَحُ بِهِ وَيُخْتَمُ بِهِ وَصِفَةَ الرُّكُوعِ وَالاِعْتِدَالِ مِنْهُ وَالسُّجُودِ وَالاِعْتِدَالِ مِنْهُ وَالتَّشَهُّدِ بَعْدَ كُلِّ رَكْعَتَيْنِ مِنَ الرُّبَاعِيَّةِ وَصِفَةَ الْجُلُوسِ بَيْنَ السَّجْدَتَيْنِ وَفِي التَّشَهُّدِ الأَوَّلِ",
+      "title": "باب مَا يَجْمَعُ صِفَةَ الصَّلاَةِ وَمَا يُفْتَتَحُ بِهِ وَيُخْتَمُ بِهِ وَصِفَةَ الرُّكُوعِ وَالاِعْتِدَالِ مِنْهُ وَالسُّجُودِ وَالاِعْتِدَالِ مِنْهُ وَالتَّشَهُّدِ بَعْدَ كُلِّ رَكْعَتَيْنِ مِنَ الرُّبَاعِيَّةِ وَصِفَةَ الْجُلُوسِ بَيْنَ السَّجْدَتَيْنِ وَفِي التَّشَهُّدِ الأَوَّلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا بَكْرٌ، - وَهُوَ ابْنُ مُضَرَ - عَنْ جَعْفَرِ بْنِ رَبِيعَةَ، عَنِ الأَعْرَجِ، عَنْ عَبْدِ اللَّهِ بْنِ مَالِكٍ ابْنِ بُحَيْنَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ إِذَا صَلَّى فَرَّجَ بَيْنَ يَدَيْهِ حَتَّى يَبْدُوَ بَيَاضُ إِبْطَيْهِ ‏.‏",
+      "source_hash_sha256": "a54e2df97ee2823f74f419a6d1771dd20809886e8ae21cf324a90c6cd4e1ed73",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Bakr — Ibn Mudar — nous a rapporté, d’après Ja‘far ibn Rabi‘a, d’après al-A‘raj, d’après Abdullah ibn Malik ibn Buhayna, que lorsque le Messager d’Allah ﷺ priait, il écartait ses bras jusqu’à ce que la blancheur de ses aisselles apparaisse.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6a9aedfd-d138-4443-ae7b-a361eb3a2ea0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:495b",
+      "reference": "Sahih Muslim, hadith 495 b, book 4, باب مَا يَجْمَعُ صِفَةَ الصَّلاَةِ وَمَا يُفْتَتَحُ بِهِ وَيُخْتَمُ بِهِ وَصِفَةَ الرُّكُوعِ وَالاِعْتِدَالِ مِنْهُ وَالسُّجُودِ وَالاِعْتِدَالِ مِنْهُ وَالتَّشَهُّدِ بَعْدَ كُلِّ رَكْعَتَيْنِ مِنَ الرُّبَاعِيَّةِ وَصِفَةَ الْجُلُوسِ بَيْنَ السَّجْدَتَيْنِ وَفِي التَّشَهُّدِ الأَوَّلِ",
+      "title": "باب مَا يَجْمَعُ صِفَةَ الصَّلاَةِ وَمَا يُفْتَتَحُ بِهِ وَيُخْتَمُ بِهِ وَصِفَةَ الرُّكُوعِ وَالاِعْتِدَالِ مِنْهُ وَالسُّجُودِ وَالاِعْتِدَالِ مِنْهُ وَالتَّشَهُّدِ بَعْدَ كُلِّ رَكْعَتَيْنِ مِنَ الرُّبَاعِيَّةِ وَصِفَةَ الْجُلُوسِ بَيْنَ السَّجْدَتَيْنِ وَفِي التَّشَهُّدِ الأَوَّلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ سَوَّادٍ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنَا عَمْرُو بْنُ الْحَارِثِ، وَاللَّيْثُ بْنُ سَعْدٍ، كِلاَهُمَا عَنْ جَعْفَرِ بْنِ رَبِيعَةَ، بِهَذَا الإِسْنَادِ ‏.‏ وَفِي رِوَايَةِ عَمْرِو بْنِ الْحَارِثِ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا سَجَدَ يُجَنِّحُ فِي سُجُودِهِ حَتَّى يُرَى وَضَحُ إِبْطَيْهِ ‏.‏ وَفِي رِوَايَةِ اللَّيْثِ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ إِذَا سَجَدَ فَرَّجَ يَدَيْهِ عَنْ إِبْطَيْهِ حَتَّى إِنِّي لأَرَى بَيَاضَ إِبْطَيْهِ ‏.‏",
+      "source_hash_sha256": "606aedaf7229548cea42c066389d02b1f91662cf50c19675acf006a6921cace6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4202417f-a489-42e5-8614-779a2d588103",
+      "reason": "La source donne seulement une variante de formulation du hadith précédent sans reprendre le récit complet. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "6a9aedfd-d138-4443-ae7b-a361eb3a2ea0",
+      "reason": "La source renvoie à l’isnad précédent et ne rapporte que deux variantes de formulation sur la posture en prosternation, sans reprendre le récit complet. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
