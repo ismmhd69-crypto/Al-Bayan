@@ -8101,3 +8101,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0195 saves five private French drafts about keeping congregational prayer manageable and Anas’s description of the Prophet’s prayer. Muslim 467d is an incomplete variant-only cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 787 Muslim drafts, 7,123 total hadith drafts, 7,510 remaining, and 390 Needs Mo items.
+
+### 2026-10-29: Muslim 469b–471b
+
+- FR-LIB-HAD-MUSLIM-0196 saves six private French drafts about prayer duration, responding to a child’s crying, and the proportions of the Prophet’s prayer. All six source entries include report wording.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 793 Muslim drafts, 7,129 total hadith drafts, 7,500 remaining, and 390 Needs Mo items.
