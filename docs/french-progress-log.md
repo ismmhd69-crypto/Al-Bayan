@@ -10061,3 +10061,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0586 saves four private French drafts about using sacrificial animals as mounts and handling an immobilized camel. Muslim 1323c and 1325b are incomplete variants; both remain blank under Needs Mo. The latter reports eighteen animals, while the related complete account says sixteen; this difference is preserved as a source-integrity question, not reconciled by inference.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1326–1329b
+
+- FR-LIB-HAD-MUSLIM-0587 saves five private French drafts about a damaged sacrificial camel, the final visit to the Kaaba, and entering the Kaaba. Muslim 1327 ends with a truncated wording note; its French text remains entirely blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

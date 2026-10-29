@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0587",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:20:17.908Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9b194fd6-2485-46f1-ab2a-033ab391bf96",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1326",
+      "reference": "Sahih Muslim, hadith 1326, book 15, باب مَا يُفْعَلُ بِالْهَدْىِ إِذَا عَطِبَ فِي الطَّرِيقِ ‏‏",
+      "title": "باب مَا يُفْعَلُ بِالْهَدْىِ إِذَا عَطِبَ فِي الطَّرِيقِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، حَدَّثَنَا عَبْدُ الأَعْلَى، حَدَّثَنَا سَعِيدٌ، عَنْ قَتَادَةَ، عَنْ سِنَانِ بْنِ سَلَمَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ ذُؤَيْبًا أَبَا قَبِيصَةَ، حَدَّثَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَبْعَثُ مَعَهُ بِالْبُدْنِ ثُمَّ يَقُولُ ‏\"‏ إِنْ عَطِبَ مِنْهَا شَىْءٌ فَخَشِيتَ عَلَيْهِ مَوْتًا فَانْحَرْهَا ثُمَّ اغْمِسْ نَعْلَهَا فِي دَمِهَا ثُمَّ اضْرِبْ بِهِ صَفْحَتَهَا وَلاَ تَطْعَمْهَا أَنْتَ وَلاَ أَحَدٌ مِنْ أَهْلِ رُفْقَتِكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bd971fe1a70830024fd97212c0975c37af0353c71b59bfeebd7d593e2723715c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Ghassan al-Mismai m'a rapporté : Abd al-Ala nous a rapporté : Said nous a rapporté, d'après Qatada, d'après Sinan ibn Salama, d'après Ibn Abbas, selon lequel Dhuwayb Abu Qabisa lui avait rapporté que le Messager d'Allah ﷺ lui confiait des chameaux sacrificiels et lui disait : « Si l'un d'eux est blessé et que tu crains qu'il ne meure, immole-le, trempe sa sandale dans son sang, puis frappe son flanc avec cette sandale. Toi-même et aucun membre de ton groupe n'en mangerez. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "85e9ce75-f664-405f-ac55-cc2abb5b3811",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1327",
+      "reference": "Sahih Muslim, hadith 1327, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا سُفْيَانُ، عَنْ سُلَيْمَانَ الأَحْوَلِ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ النَّاسُ يَنْصَرِفُونَ فِي كُلِّ وَجْهٍ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَنْفِرَنَّ أَحَدٌ حَتَّى يَكُونَ آخِرُ عَهْدِهِ بِالْبَيْتِ ‏\"‏ ‏.‏ قَالَ زُهَيْرٌ يَنْصَرِفُونَ كُلَّ وَجْهٍ ‏.‏ وَلَمْ يَقُلْ فِي ‏.‏",
+      "source_hash_sha256": "067099dc6684bc30a3e03691a69a2477dc8f73e5321f5ca5810c21dfc6a25285",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source de Muslim 1327 se termine par une note de variante tronquée (« ولم يقل في ») au milieu d’une phrase. Laisser toute la traduction française vide jusqu’à vérification du texte source complet."
+    },
+    {
+      "source_id": "353d4ca5-c85f-4ab4-b962-f0cf484cca48",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1328a",
+      "reference": "Sahih Muslim, hadith 1328 a, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ - وَاللَّفْظُ لِسَعِيدٍ - قَالاَ حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ أُمِرَ النَّاسُ أَنْ يَكُونَ، آخِرُ عَهْدِهِمْ بِالْبَيْتِ إِلاَّ أَنَّهُ خُفِّفَ عَنِ الْمَرْأَةِ الْحَائِضِ ‏.‏",
+      "source_hash_sha256": "e9e28009865f91dbcea8e215e748704e63b7ce1c7dfc4dcc4274aaa831d1ec9d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Said ibn Mansur et Zuhayr ibn Harb nous ont rapporté : tous deux ont dit que Sufyan nous avait rapporté, d'après Sulayman al-Ahwal, d'après Tawus, d'après Ibn Abbas, qui a dit : Les gens partaient dans toutes les directions. Le Messager d'Allah ﷺ dit alors : « Que personne ne parte avant que son dernier engagement ne soit à la Maison. » Zuhayr a dit : « Ils partaient dans toutes les directions. » Il n'a pas mentionné le mot « fi ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "abc8958b-dc5b-4e30-a5d9-a6c8a8310556",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1328b",
+      "reference": "Sahih Muslim, hadith 1328 b, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي الْحَسَنُ، بْنُ مُسْلِمٍ عَنْ طَاوُسٍ، قَالَ كُنْتُ مَعَ ابْنِ عَبَّاسٍ إِذْ قَالَ زَيْدُ بْنُ ثَابِتٍ تُفْتِي أَنْ تَصْدُرَ الْحَائِضُ، قَبْلَ أَنْ يَكُونَ آخِرُ عَهْدِهَا بِالْبَيْتِ ‏.‏ فَقَالَ لَهُ ابْنُ عَبَّاسٍ إِمَّا لاَ فَسَلْ فُلاَنَةَ الأَنْصَارِيَّةَ هَلْ أَمَرَهَا بِذَلِكَ رَسُولُ اللَّهِ صلى الله عليه وسلم قَالَ فَرَجَعَ زَيْدُ بْنُ ثَابِتٍ إِلَى ابْنِ عَبَّاسٍ يَضْحَكُ وَهُوَ يَقُولُ مَا أَرَاكَ إِلاَّ قَدْ صَدَقْتَ ‏.‏",
+      "source_hash_sha256": "863cd88d6025cbe2b36d395800d96cc8505ac89d30eed1b5babd2dc89b1e05d2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim m'a rapporté : Yahya ibn Said nous a rapporté, d'après Ibn Jurayj. al-Hasan ibn Muslim m'a informé, d'après Tawus, qui a dit : J'étais avec Ibn Abbas lorsque Zayd ibn Thabit dit : « Tu donnes comme avis que la femme menstruée peut partir avant que son dernier engagement ne soit à la Maison. » Ibn Abbas lui dit : « Si c'est bien le cas, demande à cette femme ansarite si le Messager d'Allah ﷺ le lui a ordonné. » Zayd ibn Thabit revint vers Ibn Abbas en riant et dit : « Je vois que tu as dit vrai. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "de4cf467-464b-405d-b7ac-d6ad1eb4c98f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1329a",
+      "reference": "Sahih Muslim, hadith 1329 a, book 15, باب اسْتِحْبَابِ دُخُولِ الْكَعْبَةِ لِلْحَاجِّ وَغَيْرِهِ وَالصَّلاَةِ فِيهَا وَالدُّعَاءِ فِي نَوَاحِيهَا كُلِّهَا",
+      "title": "باب اسْتِحْبَابِ دُخُولِ الْكَعْبَةِ لِلْحَاجِّ وَغَيْرِهِ وَالصَّلاَةِ فِيهَا وَالدُّعَاءِ فِي نَوَاحِيهَا كُلِّهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم دَخَلَ الْكَعْبَةَ هُوَ وَأُسَامَةُ وَبِلاَلٌ وَعُثْمَانُ بْنُ طَلْحَةَ الْحَجَبِيُّ فَأَغْلَقَهَا عَلَيْهِ ثُمَّ مَكَثَ فِيهَا ‏.‏ قَالَ ابْنُ عُمَرَ فَسَأَلْتُ بِلاَلاً حِينَ خَرَجَ مَا صَنَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم قَالَ جَعَلَ عَمُودَيْنِ عَنْ يَسَارِهِ وَعَمُودًا عَنْ يَمِينِهِ وَثَلاَثَةَ أَعْمِدَةٍ وَرَاءَهُ - وَكَانَ الْبَيْتُ يَوْمَئِذٍ عَلَى سِتَّةِ أَعْمِدَةٍ - ثُمَّ صَلَّى ‏.‏",
+      "source_hash_sha256": "2fcb20a7ce5a0ab91740fd5a89b14675d7498e0c145b7766f4c0d76456697aac",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya al-Tamimi nous a rapporté : J'ai lu devant Malik, d'après Nafi, d'après Ibn Umar, selon lequel le Messager d'Allah ﷺ entra dans la Kaaba avec Usama, Bilal et Uthman ibn Talha al-Hajabi. Il fit fermer la porte derrière eux et resta à l'intérieur. Ibn Umar dit : À sa sortie, je demandai à Bilal ce qu'avait fait le Messager d'Allah ﷺ. Il répondit : « Il plaça deux colonnes à sa gauche, une à sa droite et trois derrière lui — la Maison comptait alors six colonnes —, puis il pria. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1328bcde-10f8-40a1-a510-c1049a05ebc9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1329b",
+      "reference": "Sahih Muslim, hadith 1329 b, book 15, باب اسْتِحْبَابِ دُخُولِ الْكَعْبَةِ لِلْحَاجِّ وَغَيْرِهِ وَالصَّلاَةِ فِيهَا وَالدُّعَاءِ فِي نَوَاحِيهَا كُلِّهَا",
+      "title": "باب اسْتِحْبَابِ دُخُولِ الْكَعْبَةِ لِلْحَاجِّ وَغَيْرِهِ وَالصَّلاَةِ فِيهَا وَالدُّعَاءِ فِي نَوَاحِيهَا كُلِّهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو كَامِلٍ الْجَحْدَرِيُّ كُلُّهُمْ عَنْ حَمَّادِ بْنِ زَيْدٍ، - قَالَ أَبُو كَامِلٍ - حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا أَيُّوبُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ قَدِمَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَوْمَ الْفَتْحِ فَنَزَلَ بِفِنَاءِ الْكَعْبَةِ وَأَرْسَلَ إِلَى عُثْمَانَ بْنِ طَلْحَةَ فَجَاءَ بِالْمِفْتَحِ فَفَتَحَ الْبَابَ - قَالَ - ثُمَّ دَخَلَ النَّبِيُّ صلى الله عليه وسلم وَبِلاَلٌ وَأُسَامَةُ بْنُ زَيْدٍ وَعُثْمَانُ بْنُ طَلْحَةَ وَأَمَرَ بِالْبَابِ فَأُغْلِقَ فَلَبِثُوا فِيهِ مَلِيًّا ثُمَّ فَتَحَ الْبَابَ ‏.‏ فَقَالَ عَبْدُ اللَّهِ فَبَادَرْتُ النَّاسَ فَتَلَقَّيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم خَارِجًا وَبِلاَلٌ عَلَى إِثْرِهِ فَقُلْتُ لِبِلاَلٍ هَلْ صَلَّى فِيهِ رَسُولُ اللَّهِ صلى الله عليه وسلم قَالَ نَعَمْ ‏.‏ قُلْتُ أَيْنَ قَالَ بَيْنَ الْعَمُودَيْنِ تِلْقَاءَ وَجْهِهِ ‏.‏ قَالَ وَنَسِيتُ أَنْ أَسْأَلَهُ كَمْ صَلَّى.",
+      "source_hash_sha256": "967495f552c2698527cb235ee1b8ca2c50137819d5d7a3be907213754ed23726",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi al-Zahrani, Qutayba ibn Said et Abu Kamil al-Jahdari nous ont rapporté, tous d'après Hammad ibn Zayd — Abu Kamil a dit : Hammad nous a rapporté — : Ayyub nous a rapporté, d'après Nafi, d'après Ibn Umar, qui a dit : Le jour de la conquête, le Messager d'Allah ﷺ arriva et s'installa dans la cour de la Kaaba. Il envoya chercher Uthman ibn Talha, qui vint avec la clé et ouvrit la porte. Le Prophète ﷺ, Bilal, Usama ibn Zayd et Uthman ibn Talha entrèrent. Il ordonna que la porte soit fermée et ils y restèrent un bon moment ; puis la porte fut ouverte. Abdullah a dit : Je devançai les gens et rencontrai le Messager d'Allah ﷺ à sa sortie, Bilal juste derrière lui. Je demandai à Bilal : « Le Messager d'Allah ﷺ a-t-il prié à l'intérieur ? » Il répondit : « Oui. » Je demandai : « Où ? » Il répondit : « Entre les deux colonnes, en face de lui. » J'oubliai de lui demander combien d'unités il avait accomplies.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "85e9ce75-f664-405f-ac55-cc2abb5b3811",
+      "reason": "La source de Muslim 1327 se termine par une note de variante tronquée (« ولم يقل في ») au milieu d’une phrase. Laisser toute la traduction française vide jusqu’à vérification du texte source complet."
+    }
+  ]
+}

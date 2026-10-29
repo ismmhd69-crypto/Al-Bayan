@@ -41144,6 +41144,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0587",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0587.json",
+      "sourceIds": [
+        "9b194fd6-2485-46f1-ab2a-033ab391bf96",
+        "85e9ce75-f664-405f-ac55-cc2abb5b3811",
+        "353d4ca5-c85f-4ab4-b962-f0cf484cca48",
+        "abc8958b-dc5b-4e30-a5d9-a6c8a8310556",
+        "de4cf467-464b-405d-b7ac-d6ad1eb4c98f",
+        "1328bcde-10f8-40a1-a510-c1049a05ebc9"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, five private unpublished drafts, one truncated source held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45451,8 +45472,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8676,
-  "hadithLocalRemaining": 5953,
+  "hadithLocalDrafted": 8681,
+  "hadithLocalRemaining": 5948,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49164,10 +49185,15 @@
       "source_id": "e7e3af23-1657-45bd-85e1-259ca41ae9fc",
       "reason": "La source précise que le récit est rapporté « dans le même sens » que la version précédente, tout en omettant son début. Elle ne fournit donc pas le récit complet. Garder toute la traduction française vide ; noter qu’elle donne le nombre de dix-huit bêtes sacrificielles, à vérifier avec le texte intégral.",
       "status": "blocked"
+    },
+    {
+      "source_id": "85e9ce75-f664-405f-ac55-cc2abb5b3811",
+      "reason": "La source de Muslim 1327 se termine par une note de variante tronquée (« ولم يقل في ») au milieu d’une phrase. Laisser toute la traduction française vide jusqu’à vérification du texte source complet.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2340,
+  "hadithMuslimDrafted": 2345,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1035
+  "hadithNeedsMo": 1036
 }
