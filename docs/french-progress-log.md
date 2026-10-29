@@ -11670,3 +11670,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1976-1977e
 
 - FR-LIB-HAD-MUSLIM-0927 saves five private French drafts about the older sacrifice customs, revisiting graves, keeping sacrifice meat, and the first ten days of Dhû al-Hijja. One entry that only refers to another report remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1977f-1978b
+
+- FR-LIB-HAD-MUSLIM-0928 saves four private French drafts about the sacrifice rules during Dhû al-Hijja and four statements attributed to ‘Alî. Two chain-only entries remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
