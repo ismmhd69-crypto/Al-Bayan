@@ -10021,3 +10021,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0578 saves six private French drafts about the sequence of pilgrimage rites, prayer locations, and the stop at al-Abtah. All six source reports are complete.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1311b–1314b
+
+- FR-LIB-HAD-MUSLIM-0579 saves five private French drafts about the stop at al-Abtah and the events at Khayf Banu Kinana. Muslim 1311b only refers to the previous report without repeating it and remains blank under Needs Mo.
+- The exporter still reports long source 522deaf7-d1e2-48eb-8a7c-7e7e4e615ae3 for isolated handling. All six exported source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

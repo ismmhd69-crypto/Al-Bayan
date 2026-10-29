@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0579",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:16:52.336Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a7e11a8c-9081-4b46-9360-95ebb8f218c2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1311b",
+      "reference": "Sahih Muslim, hadith 1311 b, book 15, باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "title": "باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، ح وَحَدَّثَنِيهِ أَبُو الرَّبِيعِ، الزَّهْرَانِيُّ حَدَّثَنَا حَمَّادٌ يَعْنِي ابْنَ زَيْدٍ، ح وَحَدَّثَنَاهُ أَبُو كَامِلٍ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا حَبِيبٌ الْمُعَلِّمُ، كُلُّهُمْ عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "f6f6746cbe9232e4e05c73c57da4dfe9a7da0464f1dc5954ee81504a225e2bd9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source ne reprend que la chaîne du récit précédent et dit « semblable », sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "ffb0740b-fd58-445d-b677-30a21063c3a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1311c",
+      "reference": "Sahih Muslim, hadith 1311 c, book 15, باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "title": "باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، أَنَّ أَبَا بَكْرٍ، وَعُمَرَ، وَابْنَ، عُمَرَ كَانُوا يَنْزِلُونَ الأَبْطَحَ ‏.‏ قَالَ الزُّهْرِيُّ وَأَخْبَرَنِي عُرْوَةُ، عَنْ عَائِشَةَ، أَنَّهَا لَمْ تَكُنْ تَفْعَلُ ذَلِكَ وَقَالَتْ إِنَّمَا نَزَلَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم لأَنَّهُ كَانَ مَنْزِلاً أَسْمَحَ لِخُرُوجِهِ ‏.‏",
+      "source_hash_sha256": "a33a567c64f2b3b90830905b47e67bb3d5ce104870830f2352c83e66175e49ab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd ibn Humayd nous a rapporté : Abd al-Razzaq nous a informés : Mamar nous a informés, d'après al-Zuhri, d'après Salim, selon lequel Abu Bakr, Umar et Ibn Umar avaient l'habitude de séjourner à al-Abtah. Al-Zuhri a dit : Urwa m'a également informé, d'après Aisha, qu'elle ne faisait pas cela. Elle disait : « Le Messager d'Allah ﷺ ne s'y arrêta que parce que c'était un lieu plus commode pour son départ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e95fc549-78d0-4164-8c2e-708b7e3f36a4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1312",
+      "reference": "Sahih Muslim, hadith 1312, book 15, باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "title": "باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ أَبِي عُمَرَ، وَأَحْمَدُ بْنُ، عَبْدَةَ - وَاللَّفْظُ لأَبِي بَكْرٍ - حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عَمْرٍو، عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ لَيْسَ التَّحْصِيبُ بِشَىْءٍ إِنَّمَا هُوَ مَنْزِلٌ نَزَلَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "9f1ca734503c97ea009f28f73102474c7b38e180bf69872bcdd03507d15c2a23",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba, Ishaq ibn Ibrahim, Ibn Abi Umar et Ahmad ibn Abdah nous ont rapporté — la formulation est celle d'Abu Bakr — : Sufyan ibn Uyayna nous a rapporté, d'après Amr, d'après Ata, d'après Ibn Abbas, qui a dit : Le séjour à al-Muhassab n'est rien d'autre qu'un lieu où le Messager d'Allah ﷺ s'est arrêté.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2e98dc74-f09c-4586-8990-80551f1fe922",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1313",
+      "reference": "Sahih Muslim, hadith 1313, book 15, باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "title": "باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَزُهَيْرُ بْنُ حَرْبٍ جَمِيعًا عَنِ ابْنِ، عُيَيْنَةَ قَالَ زُهَيْرٌ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ صَالِحِ بْنِ كَيْسَانَ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، قَالَ قَالَ أَبُو رَافِعٍ لَمْ يَأْمُرْنِي رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ أَنْزِلَ الأَبْطَحَ حِينَ خَرَجَ مِنْ مِنًى وَلَكِنِّي جِئْتُ فَضَرَبْتُ فِيهِ قُبَّتَهُ فَجَاءَ فَنَزَلَ ‏.‏ قَالَ أَبُو بَكْرٍ فِي رِوَايَةِ صَالِحٍ قَالَ سَمِعْتُ سُلَيْمَانَ بْنَ يَسَارٍ ‏.‏ وَفِي رِوَايَةِ قُتَيْبَةَ قَالَ عَنْ أَبِي رَافِعٍ وَكَانَ عَلَى ثَقَلِ النَّبِيِّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "0efb9d60b3a187e1ec4b63f6d1164154f66e6babebb5f9ea8fb6f9801e62e906",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Said, Abu Bakr ibn Abi Shayba et Zuhayr ibn Harb nous ont rapporté, tous d'après Ibn Uyayna — Zuhayr a dit : Sufyan ibn Uyayna nous a rapporté —, d'après Salih ibn Kaysan, d'après Sulayman ibn Yasar, qui a dit : Abu Rafi a dit : Le Messager d'Allah ﷺ ne m'a pas ordonné de séjourner à al-Abtah lorsqu'il quitta Mina. J'y suis venu et j'y ai dressé sa tente ; il vint ensuite s'y installer. Abu Bakr a dit : Dans la version de Salih, il est dit : « J'ai entendu Sulayman ibn Yasar. » Dans la version de Qutayba, il est dit : « D'après Abu Rafi, qui était chargé des bagages du Prophète ﷺ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e12106f1-714b-4adc-a8c9-a159fb8bc8ea",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1314a",
+      "reference": "Sahih Muslim, hadith 1314 a, book 15, باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "title": "باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ نَنْزِلُ غَدًا إِنْ شَاءَ اللَّهُ بِخَيْفِ بَنِي كِنَانَةَ حَيْثُ تَقَاسَمُوا عَلَى الْكُفْرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5bee00968a34453388896ba421c1a9e4a87efbab90a59a0b74882a0232613cc7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya m'a rapporté : Ibn Wahb nous a informés : Yunus m'a informé, d'après Ibn Shihab, d'après Abu Salama ibn Abd al-Rahman ibn Awf, d'après Abu Hurayra, d'après le Messager d'Allah ﷺ, qui a dit : « Demain, si Allah le veut, nous nous installerons à Khayf des Banu Kinana, là où ils se sont juré de rester dans la mécréance. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c830fe6a-1a22-4da7-ac16-e9058714a594",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1314b",
+      "reference": "Sahih Muslim, hadith 1314 b, book 15, باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "title": "باب اسْتِحْبَابِ النُّزُولِ بِالْمُحَصَّبِ يَوْمَ النَّفْرِ وَالصَّلاَةِ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنِي الأَوْزَاعِيُّ، حَدَّثَنِي الزُّهْرِيُّ، حَدَّثَنِي أَبُو سَلَمَةَ، حَدَّثَنَا أَبُو هُرَيْرَةَ، قَالَ قَالَ لَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم وَنَحْنُ بِمِنًى ‏\"‏ نَحْنُ نَازِلُونَ غَدًا بِخَيْفِ بَنِي كِنَانَةَ حَيْثُ تَقَاسَمُوا عَلَى الْكُفْرِ ‏\"‏ ‏.‏ وَذَلِكَ إِنَّ قُرَيْشًا وَبَنِي كِنَانَةَ تَحَالَفَتْ عَلَى بَنِي هَاشِمٍ وَبَنِي الْمُطَّلِبِ أَنْ لاَ يُنَاكِحُوهُمْ وَلاَ يُبَايِعُوهُمْ حَتَّى يُسْلِمُوا إِلَيْهِمْ رَسُولَ اللَّهِ صلى الله عليه وسلم يَعْنِي بِذَلِكَ الْمُحَصَّبَ ‏.‏",
+      "source_hash_sha256": "685b9f4afcf56ef33441df5197d6c6fe62f10167253cde77d1ddacd0396dfae1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m'a rapporté : al-Walid ibn Muslim nous a rapporté : al-Awzai m'a rapporté : al-Zuhri m'a rapporté : Abu Salama m'a rapporté : Abu Hurayra a dit : Alors que nous étions à Mina, le Messager d'Allah ﷺ nous dit : « Demain, nous nous installerons à Khayf des Banu Kinana, là où ils se sont juré de rester dans la mécréance. » Quraysh et les Banu Kinana avaient conclu une alliance contre les Banu Hashim et les Banu al-Muttalib : ils ne se marieraient pas avec eux et ne feraient pas de transactions avec eux tant qu'ils ne leur auraient pas livré le Messager d'Allah ﷺ. Il s'agit du lieu d'al-Muhassab.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a7e11a8c-9081-4b46-9360-95ebb8f218c2",
+      "reason": "La source ne reprend que la chaîne du récit précédent et dit « semblable », sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
