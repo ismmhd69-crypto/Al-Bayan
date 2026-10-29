@@ -8646,3 +8646,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0303 saves two private French drafts about the two-unit greeting prayer upon entering a mosque. Muslim 713b and the three 715a variant records do not include a full report, so they remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,207 Muslim drafts, 7,543 total hadith drafts, 7,086 remaining, and 570 Needs Mo items.
+
+### 2026-10-29: Muslim 715b–715g
+
+- FR-LIB-HAD-MUSLIM-0304 saves five private French drafts about two units of prayer on entering a mosque and Jabir’s marriage. Muslim 715g omits the end of the report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,212 Muslim drafts, 7,548 total hadith drafts, 7,081 remaining, and 571 Needs Mo items.
