@@ -10501,3 +10501,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0674 saves one private French draft about Ibn Abbas asking Umar which two wives had opposed the Prophet. Muslim 1479c only adds details to an earlier report while referring to its full text, so it remains blank under Needs Mo.
 - Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1479e (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0675 isolates the 6,843-character report in a single-item batch. It includes Quran quotations, so the complete French translation remains blank under Needs Mo until an approved French Quran translation and its rights are confirmed.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

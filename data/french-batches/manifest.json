@@ -42929,6 +42929,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0675",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0675.json",
+      "sourceIds": [
+        "35261248-6d01-4d59-a012-6326b5bf7264"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: one 6,843-character source isolated in a single-item batch; Arabic original and hash, ID, blank French text for a report with Quran quotations held under Needs Mo, rights flags, and private unpublished state passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -51669,10 +51685,15 @@
       "source_id": "557327f9-46f4-490a-a3c9-870138a71527",
       "reason": "Cette entrée renvoie au récit précédent et indique que celui-ci est rapporté dans son intégralité, avec quelques ajouts sur les pleurs dans les maisons et le retour du Prophète après vingt-neuf jours. Elle ne fournit pas le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "35261248-6d01-4d59-a012-6326b5bf7264",
+      "reason": "Cette source isolée de 6 843 caractères contient des citations coraniques explicites de la sourate 66, verset 4 et de la sourate 33, versets 28–29, ainsi que des citations coraniques rapportées indirectement. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 2661,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1179
+  "hadithNeedsMo": 1180
 }
