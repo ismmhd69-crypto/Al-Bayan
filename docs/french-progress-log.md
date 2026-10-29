@@ -8553,3 +8553,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0285 saves one private French draft about making up the dawn prayer after sleep. Muslim 679c is an incomplete variant and 680a quotes Quran 20:14; both remain blank under Needs Mo.
 - All three source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,141 Muslim drafts, 7,477 total hadith drafts, 7,152 remaining, and 538 Needs Mo items.
+
+### 2026-10-29: Muslim 681
+
+- FR-LIB-HAD-MUSLIM-0286 records one long source (4,657 Arabic characters), isolated under the batch size rule. It directly quotes Quran 20:14, so the French text remains blank under Needs Mo.
+- The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,141 Muslim drafts, 7,477 total hadith drafts, 7,152 remaining, and 539 Needs Mo items.

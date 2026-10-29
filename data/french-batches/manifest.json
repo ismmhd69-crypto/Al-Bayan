@@ -34933,6 +34933,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0286",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0286.json",
+      "sourceIds": [
+        "63d1e8c5-d148-4ce6-8218-894289588c73"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; long report with Quran 20:14 quotation held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -41054,10 +41070,16 @@
       "scope": "Sahih Muslim 680a: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 20:14 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-0286-681-QURAN-20-14",
+      "scope": "Sahih Muslim 681: long report with direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce long récit (4 657 caractères) cite directement le verset 20:14 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithMuslimDrafted": 1141,
   "hadithDatabaseMissing": 7152,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 538
+  "hadithNeedsMo": 539
 }
