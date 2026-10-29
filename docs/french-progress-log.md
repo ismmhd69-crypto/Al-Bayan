@@ -3121,3 +3121,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-641` saves four private French drafts about horses and the companions. Bukhari 3646 remains blank because it quotes Quran 99:7–8; Bukhari 3647 remains blank because it quotes Quran 37:177. No approved, attributed French Quran translation is confirmed.
 - All six records passed the focused validator, including both Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,251 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 237. Total local hadith rows not drafted: 11,406, including held records.
+
+### 2026-10-29: Bukhari 3650–3651
+
+- `FR-LIB-HAD-BUKHARI-642` saves two private French drafts about the early generations and later witnesses.
+- Both records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,253 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 237. Total local hadith rows not drafted: 11,404, including held records.

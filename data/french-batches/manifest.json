@@ -14245,6 +14245,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+{
+      "id": "FR-LIB-HAD-BUKHARI-642",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-642.json",
+      "sourceIds": [
+        "a97280f2-9645-4bf5-9964-5b563adfe20b",
+        "e6a7fa24-315a-40f1-adcd-43c759acb69d"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -14351,7 +14368,7 @@
       "status": "blocked",
       "reason": "The exact referent of رُعَامَهَا is not confirmed from the local Arabic record. The full report remains blank in FR-LIB-HAD-BUKHARI-632 until the term can be checked."
     }  ],
-  "hadithBukhariDrafted": 3251,
-  "hadithLocalDrafted": 3251,
-  "hadithLocalRemaining": 11406
+  "hadithBukhariDrafted": 3253,
+  "hadithLocalDrafted": 3253,
+  "hadithLocalRemaining": 11404
 }

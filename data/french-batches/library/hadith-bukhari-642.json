@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-642",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:31:29.372Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a97280f2-9645-4bf5-9964-5b563adfe20b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3650",
+      "reference": "Sahih al-Bukhari, hadith 3650, book 62, باب فَضَائِلِ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب فَضَائِلِ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ، حَدَّثَنَا النَّضْرُ، أَخْبَرَنَا شُعْبَةُ، عَنْ أَبِي جَمْرَةَ، سَمِعْتُ زَهْدَمَ بْنَ مُضَرِّبٍ، سَمِعْتُ عِمْرَانَ بْنَ حُصَيْنٍ ـ رضى الله عنهما ـ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَيْرُ أُمَّتِي قَرْنِي ثُمَّ الَّذِينَ يَلُونَهُمْ ثُمَّ الَّذِينَ يَلُونَهُمْ ‏\"‏‏.‏ قَالَ عِمْرَانُ فَلاَ أَدْرِي أَذَكَرَ بَعْدَ قَرْنِهِ قَرْنَيْنِ أَوْ ثَلاَثًا ‏\"‏ ثُمَّ إِنَّ بَعْدَكُمْ قَوْمًا يَشْهَدُونَ وَلاَ يُسْتَشْهَدُونَ، وَيَخُونُونَ وَلاَ يُؤْتَمَنُونَ، وَيَنْذُرُونَ وَلاَ يَفُونَ، وَيَظْهَرُ فِيهِمُ السِّمَنُ ‏\"‏‏.‏",
+      "source_hash_sha256": "2d31d71d404bae02501e0cf0991448ba19467bc48435fadf606d8e9ec4350804",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Imrân ibn Husayn rapporte que le Messager de Dieu a dit : « Les meilleurs de ma communauté sont ceux de ma génération, puis ceux qui les suivent, puis ceux qui les suivent. » ‘Imrân dit : « Je ne sais pas s’il mentionna, après sa génération, deux ou trois générations. » Puis il dit : « Après vous viendront des gens qui témoigneront sans qu’on leur demande de témoigner, qui trahiront la confiance qu’on leur accorde, qui feront des vœux sans les tenir, et chez qui l’embonpoint se répandra. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e6a7fa24-315a-40f1-adcd-43c759acb69d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3651",
+      "reference": "Sahih al-Bukhari, hadith 3651, book 62, باب فَضَائِلِ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب فَضَائِلِ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ عَبِيدَةَ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ خَيْرُ النَّاسِ قَرْنِي، ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ الَّذِينَ يَلُونَهُمْ، ثُمَّ يَجِيءُ قَوْمٌ تَسْبِقُ شَهَادَةُ أَحَدِهِمْ يَمِينَهُ وَيَمِينُهُ شَهَادَتَهُ ‏\"‏‏.‏ قَالَ إِبْرَاهِيمُ وَكَانُوا يَضْرِبُونَا عَلَى الشَّهَادَةِ وَالْعَهْدِ وَنَحْنُ صِغَارٌ‏.‏",
+      "source_hash_sha256": "ad24a4320a60708e4663dd184ebb244a3fe5d5a6e11d056c28081e7ca3a0fe27",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh rapporte que le Prophète a dit : « Les meilleurs des gens sont ceux de ma génération, puis ceux qui les suivent, puis ceux qui les suivent. Ensuite viendront des gens dont le témoignage devancera leur serment et dont le serment devancera le témoignage. » Ibrâhîm ajouta : « Lorsque nous étions enfants, on nous corrigeait au sujet du témoignage et de l’engagement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
