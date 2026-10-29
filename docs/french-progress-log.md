@@ -8518,3 +8518,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0278 saves six private French drafts about walking to the mosque and the five daily prayers.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,117 Muslim drafts, 7,453 total hadith drafts, 7,176 remaining, and 523 Needs Mo items.
+
+### 2026-10-29: Muslim 669–672a
+
+- FR-LIB-HAD-MUSLIM-0279 saves five private French drafts about attending the mosque, remaining after dawn prayer, and appointing an imam. Muslim 670c contains only an incomplete variant note and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,122 Muslim drafts, 7,458 total hadith drafts, 7,171 remaining, and 524 Needs Mo items.
