@@ -10121,3 +10121,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0598 saves four private French drafts about the pilgrimage announcement before the Farewell Pilgrimage, the merits of the Day of Arafat, and the reward of Hajj and Umrah. Muslim 1349b and 1350b provide only references or partial wording variants and remain blank under Needs Mo. The oversized source remains queued for isolated handling.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1350c–1352b
+
+- FR-LIB-HAD-MUSLIM-0599 saves five private French drafts about the Prophet’s lodging in Mecca and the permitted stay after pilgrimage. Muslim 1350c contains only a cross-reference and remains blank under Needs Mo. The oversized source remains queued for isolated handling.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
