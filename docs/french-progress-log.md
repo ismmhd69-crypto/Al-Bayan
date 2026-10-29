@@ -9426,3 +9426,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0459 saves one private French draft about a date found by the Prophet ﷺ.
 - The source hash is retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1072a
+
+- FR-LIB-HAD-MUSLIM-0460 contains one isolated 2,428-character Arabic report, translated in full as a private French draft.
+- The source hash is retained. Focused single-item validation is pending. No database write or publication occurred.
