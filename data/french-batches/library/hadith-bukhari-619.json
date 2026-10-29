@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-619",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:19:56.901Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "940e8399-96d8-487f-9aec-10e57f4540fa",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3536",
+      "reference": "Sahih al-Bukhari, hadith 3536, book 61, باب وَفَاةِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب وَفَاةِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ ـ رضى الله عنها أَنَّ النَّبِيَّ صلى الله عليه وسلم تُوُفِّيَ وَهْوَ ابْنُ ثَلاَثٍ وَسِتِّينَ‏.‏ وَقَالَ ابْنُ شِهَابٍ وَأَخْبَرَنِي سَعِيدُ بْنُ الْمُسَيَّبِ مِثْلَهُ‏.‏",
+      "source_hash_sha256": "d7944b83eca86104b4a76b2f652024f4481b8af9174e941f63b41452ceb3a788",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Â’isha rapporte que le Prophète mourut à l’âge de soixante-trois ans. Ibn Shihâb précise que Sa‘îd ibn al-Musayyab lui a rapporté la même chose.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a7384094-b976-4bbc-803f-34823c55a6d3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3537",
+      "reference": "Sahih al-Bukhari, hadith 3537, book 61, باب كُنْيَةِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب كُنْيَةِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ حُمَيْدٍ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم فِي السُّوقِ فَقَالَ رَجُلٌ يَا أَبَا الْقَاسِمِ‏.‏ فَالْتَفَتَ النَّبِيُّ صلى الله عليه وسلم فَقَالَ ‏\"‏ سَمُّوا بِاسْمِي، وَلاَ تَكْتَنُوا بِكُنْيَتِي ‏\"‏‏.‏",
+      "source_hash_sha256": "07c4341f98055d42c8c9da8b069f1e9baaab566896cc7eb8fce0ac386b90ff59",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Prophète se trouvait au marché lorsqu’un homme l’appela : « Abû al-Qâsim ! » Le Prophète se retourna. L’homme dit : « Donnez à vos enfants mon nom, mais ne leur donnez pas ma kunya. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d4becfd2-e8fc-4dbf-a543-90bc38f3fb5b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3538",
+      "reference": "Sahih al-Bukhari, hadith 3538, book 61, باب كُنْيَةِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب كُنْيَةِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا شُعْبَةُ، عَنْ مَنْصُورٍ، عَنْ سَالِمٍ، عَنْ جَابِرٍ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ تَسَمَّوْا بِاسْمِي، وَلاَ تَكْتَنُوا بِكُنْيَتِي ‏\"‏",
+      "source_hash_sha256": "7111a9add8952e2b702838f1bbfea389a94b2f38b9e501f397806107bbcf774d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète a dit : « Donnez à vos enfants mon nom, mais ne leur donnez pas ma kunya. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "99231579-34f6-4f02-9426-1231557064e9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3539",
+      "reference": "Sahih al-Bukhari, hadith 3539, book 61, باب كُنْيَةِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب كُنْيَةِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، عَنْ أَيُّوبَ، عَنِ ابْنِ سِيرِينَ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ أَبُو الْقَاسِمِ صلى الله عليه وسلم ‏\"‏ سَمُّوا بِاسْمِي، وَلاَ تَكْتَنُوا بِكُنْيَتِي ‏\"‏",
+      "source_hash_sha256": "5748aa109b7b26c32ef529bba56f8b40878a049e5ca7efaf7ea25ec754c309ac",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Ju‘ayd ibn ‘Abd al-Rahmân rapporte : « J’ai vu al-Sâ’ib ibn Yazîd, âgé de quatre-vingt-quatorze ans, de constitution équilibrée. Il disait : “Je sais que je dois l’ouïe et la vue dont Dieu m’a gratifié à l’invocation du Messager de Dieu. Ma tante m’emmena auprès de lui et dit : ‘Messager de Dieu, le fils de ma sœur est souffrant. Invoque Dieu pour lui.’ Il invoqua Dieu en ma faveur.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bb687994-ddd6-4567-b0c2-f909b2c883be",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3540",
+      "reference": "Sahih al-Bukhari, hadith 3540, book 61, كتاب المناقب",
+      "title": "كتاب المناقب",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ، أَخْبَرَنَا الْفَضْلُ بْنُ مُوسَى، عَنِ الْجُعَيْدِ بْنِ عَبْدِ الرَّحْمَنِ، رَأَيْتُ السَّائِبَ بْنَ يَزِيدَ ابْنَ أَرْبَعٍ وَتِسْعِينَ جَلْدًا مُعْتَدِلاً فَقَالَ قَدْ عَلِمْتُ مَا مُتِّعْتُ بِهِ سَمْعِي وَبَصَرِي إِلاَّ بِدُعَاءِ رَسُولِ اللَّهِ صلى الله عليه وسلم، إِنَّ خَالَتِي ذَهَبَتْ بِي إِلَيْهِ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ ابْنَ أُخْتِي شَاكٍ فَادْعُ اللَّهَ‏.‏ قَالَ فَدَعَا لِي‏.‏",
+      "source_hash_sha256": "b1e5d6f7a5751c0c08ae21ed73c0027e3793e4b4b263f575f60b7c8be6bf1804",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Sâ’ib ibn Yazîd rapporte : « J’ai vu al-Sâ’ib ibn Yazîd, âgé de quatre-vingt-quatorze ans, de constitution équilibrée. Il disait : “Je sais que je dois l’ouïe et la vue dont Dieu m’a gratifié à l’invocation du Messager de Dieu. Ma tante m’emmena auprès de lui et dit : ‘Messager de Dieu, le fils de ma sœur est souffrant. Invoque Dieu pour lui.’ Il invoqua Dieu en ma faveur.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bcf6d0a3-d4ef-431f-8563-47469dedf469",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3541",
+      "reference": "Sahih al-Bukhari, hadith 3541, book 61, باب خَاتِمِ النُّبُوَّةِ",
+      "title": "باب خَاتِمِ النُّبُوَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدِ اللَّهِ، حَدَّثَنَا حَاتِمٌ، عَنِ الْجُعَيْدِ بْنِ عَبْدِ الرَّحْمَنِ، قَالَ سَمِعْتُ السَّائِبَ بْنَ يَزِيدَ، قَالَ ذَهَبَتْ بِي خَالَتِي إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ ابْنَ أُخْتِي‏.‏ وَقَعَ فَمَسَحَ رَأْسِي وَدَعَا لِي بِالْبَرَكَةِ، وَتَوَضَّأَ فَشَرِبْتُ مِنْ وَضُوئِهِ، ثُمَّ قُمْتُ خَلْفَ ظَهْرِهِ فَنَظَرْتُ إِلَى خَاتَمٍ بَيْنَ كَتِفَيْهِ‏.‏ قَالَ ابْنُ عُبَيْدِ اللَّهِ الْحُجْلَةُ مِنْ حُجَلِ الْفَرَسِ الَّذِي بَيْنَ عَيْنَيْهِ‏.‏ قَالَ إِبْرَاهِيمُ بْنُ حَمْزَةَ مِثْلَ زِرِّ الْحَجَلَةِ",
+      "source_hash_sha256": "abcb8b7eeac3439fbf4c36b7c372af94741243e2154cf529eba52caaf1fc690b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_uncertain_source_wording",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "bcf6d0a3-d4ef-431f-8563-47469dedf469",
+      "reference": "Sahih al-Bukhari, hadith 3541",
+      "reason": "The local Arabic phrase إن ابن أختي وقع is ambiguous and appears damaged. Keep the entire French text blank until the exact wording is confirmed."
+    }
+  ]
+}

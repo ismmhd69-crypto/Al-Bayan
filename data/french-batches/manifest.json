@@ -13792,6 +13792,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-619",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-619.json",
+      "sourceIds": [
+        "940e8399-96d8-487f-9aec-10e57f4540fa",
+        "a7384094-b976-4bbc-803f-34823c55a6d3",
+        "d4becfd2-e8fc-4dbf-a543-90bc38f3fb5b",
+        "99231579-34f6-4f02-9426-1231557064e9",
+        "bb687994-ddd6-4567-b0c2-f909b2c883be",
+        "bcf6d0a3-d4ef-431f-8563-47469dedf469"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -13873,8 +13894,14 @@
       "scope": "Sahih al-Bukhari 3498–3499: الفدادين",
       "status": "blocked",
       "reason": "The exact referent of الفدادين is not confirmed from the local Arabic records. The full reports remain blank in private batches FR-LIB-HAD-BUKHARI-611 and FR-LIB-HAD-BUKHARI-612 until the term can be checked."
+    },
+    {
+      "id": "HADITH-BUKHARI-3541-SOURCE-WORDING",
+      "scope": "Sahih al-Bukhari 3541: phrase إن ابن أختي وقع",
+      "status": "blocked",
+      "reason": "The local Arabic phrase is ambiguous and appears damaged. The full report remains blank in FR-LIB-HAD-BUKHARI-619 until the exact wording is confirmed."
     }  ],
-  "hadithBukhariDrafted": 3152,
-  "hadithLocalDrafted": 3152,
-  "hadithLocalRemaining": 11505
+  "hadithBukhariDrafted": 3157,
+  "hadithLocalDrafted": 3157,
+  "hadithLocalRemaining": 11500
 }
