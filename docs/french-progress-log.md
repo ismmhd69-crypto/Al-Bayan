@@ -1776,3 +1776,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-372` saves six private French drafts for Bukhari 2182–2188, retaining the stated ‘arâyâ exception and the definitions supplied for the named sale forms.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,992 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,637, including held records.
+
+### 2026-10-29: Bukhari 2189–2194 source review
+
+- `FR-LIB-HAD-BUKHARI-373` saves six private French drafts for Bukhari 2189–2194, preserving the full commentary and variants about fruit sales and the ‘arâyâ exception.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,998 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,631, including held records.
