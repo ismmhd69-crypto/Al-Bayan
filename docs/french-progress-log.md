@@ -9456,3 +9456,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0465 saves five private French drafts about the lunar month and its length. Muslim 1080o gives only a chain and a brief variant, so it remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1080p–1082a
+
+- FR-LIB-HAD-MUSLIM-0466 saves six private French drafts about determining the month from the crescent and not starting the Ramadan fast early. Each source gives a complete report.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
