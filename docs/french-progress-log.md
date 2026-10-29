@@ -8021,3 +8021,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0179 saves two private French drafts about Abu Bakr stepping aside during prayer and the guidance on signaling during prayer. Muslim 421b–c and 422b–c contain only cross-referenced additions or wording variants, so they remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 728 Muslim drafts, 7,064 total hadith drafts, 7,565 remaining, and 353 Needs Mo items.
+
+### 2026-10-29: Muslim 423–426b
+
+- FR-LIB-HAD-MUSLIM-0180 saves five private French drafts about the imam’s movements and completing the bowing and prostration. Muslim 426b gives only a cross-reference and one wording difference, so it remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 733 Muslim drafts, 7,069 total hadith drafts, 7,560 remaining, and 354 Needs Mo items.

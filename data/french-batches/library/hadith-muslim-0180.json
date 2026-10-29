@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0180",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:17:09.325Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a756d51c-96ef-4991-a86a-e5ee9043fa87",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:423",
+      "reference": "Sahih Muslim, hadith 423, book 4, باب الأَمْرِ بِتَحْسِينِ الصَّلاَةِ وَإِتْمَامِهَا وَالْخُشُوعِ فِيهَا ‏",
+      "title": "باب الأَمْرِ بِتَحْسِينِ الصَّلاَةِ وَإِتْمَامِهَا وَالْخُشُوعِ فِيهَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ الْهَمْدَانِيُّ حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الْوَلِيدِ، - يَعْنِي ابْنَ كَثِيرٍ - حَدَّثَنِي سَعِيدُ بْنُ أَبِي سَعِيدٍ الْمَقْبُرِيُّ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ صَلَّى بِنَا رَسُولُ اللَّهِ صلى الله عليه وسلم يَوْمًا ثُمَّ انْصَرَفَ فَقَالَ ‏\"‏ يَا فُلاَنُ أَلاَ تُحْسِنُ صَلاَتَكَ أَلاَ يَنْظُرُ الْمُصَلِّي إِذَا صَلَّى كَيْفَ يُصَلِّي فَإِنَّمَا يُصَلِّي لِنَفْسِهِ إِنِّي وَاللَّهِ لأُبْصِرُ مَنْ وَرَائِي كَمَا أُبْصِرُ مَنْ بَيْنَ يَدَىَّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fb144a6db0b3dd21dd3d13f55c79647ddbdd0b8a7a9fab0849fea88f89e3a94a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kurayb, Muhammad ibn al-Ala al-Hamdani, nous a rapporté : Abu Usama nous a rapporté, d’après al-Walid — Ibn Kathir —, qui m’a rapporté : Sa‘id ibn Abi Sa‘id al-Maqburi nous a rapporté, d’après son père, d’après Abu Hurayra, qui a dit : le Messager d’Allah ﷺ dirigea notre prière un jour. Lorsqu’il eut terminé, il se tourna vers nous et dit : « Untel, ne pourrais-tu pas mieux prier ? Celui qui prie ne devrait-il pas regarder comment il prie ? Il ne prie que pour lui-même. Par Allah, je vois ceux qui sont derrière moi comme je vois ceux qui sont devant moi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5d073f02-d9c7-4c05-9839-707e041b487c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:424",
+      "reference": "Sahih Muslim, hadith 424, book 4, باب الأَمْرِ بِتَحْسِينِ الصَّلاَةِ وَإِتْمَامِهَا وَالْخُشُوعِ فِيهَا ‏",
+      "title": "باب الأَمْرِ بِتَحْسِينِ الصَّلاَةِ وَإِتْمَامِهَا وَالْخُشُوعِ فِيهَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ هَلْ تَرَوْنَ قِبْلَتِي هَا هُنَا فَوَاللَّهِ مَا يَخْفَى عَلَىَّ رُكُوعُكُمْ وَلاَ سُجُودُكُمْ إِنِّي لأَرَاكُمْ وَرَاءَ ظَهْرِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0c02b0a93b013589bb0a4cfe8de9b806191b39fac4bacf99b76e200b5bdd34e9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté, d’après Malik ibn Anas, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra : le Messager d’Allah ﷺ a dit : « Voyez-vous ma direction de prière ici ? Par Allah, rien ne m’échappe de vos inclinaisons ni de vos prosternations. Je vous vois derrière mon dos. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "287c38f0-f957-4616-9949-c8b9be61fa23",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:425a",
+      "reference": "Sahih Muslim, hadith 425 a, book 4, باب الأَمْرِ بِتَحْسِينِ الصَّلاَةِ وَإِتْمَامِهَا وَالْخُشُوعِ فِيهَا ‏",
+      "title": "باب الأَمْرِ بِتَحْسِينِ الصَّلاَةِ وَإِتْمَامِهَا وَالْخُشُوعِ فِيهَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَنَسِ بْنِ مَالِكٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ أَقِيمُوا الرُّكُوعَ وَالسُّجُودَ فَوَاللَّهِ إِنِّي لأَرَاكُمْ مِنْ بَعْدِي - وَرُبَّمَا قَالَ مِنْ بَعْدِ ظَهْرِي - إِذَا رَكَعْتُمْ وَسَجَدْتُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "99d3d581727c0f150e15e3bfd3e0594e776ccc6136e05cb8cca3400e93af2e0f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté. Il a dit : j’ai entendu Qatada rapporter d’après Anas ibn Malik, d’après le Prophète ﷺ, qui a dit : « Accomplissez correctement l’inclinaison et la prosternation. Par Allah, je vous vois derrière moi lorsque vous vous inclinez et vous prosternez. » — Il est aussi rapporté : « derrière mon dos ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e88e24b9-91a6-4ddb-b495-a46784b90754",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:425b",
+      "reference": "Sahih Muslim, hadith 425 b, book 4, باب الأَمْرِ بِتَحْسِينِ الصَّلاَةِ وَإِتْمَامِهَا وَالْخُشُوعِ فِيهَا ‏",
+      "title": "باب الأَمْرِ بِتَحْسِينِ الصَّلاَةِ وَإِتْمَامِهَا وَالْخُشُوعِ فِيهَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، حَدَّثَنَا مُعَاذٌ، - يَعْنِي ابْنَ هِشَامٍ - حَدَّثَنِي أَبِي ح، وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ سَعِيدٍ، كِلاَهُمَا عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ أَتِمُّوا الرُّكُوعَ وَالسُّجُودَ فَوَاللَّهِ إِنِّي لأَرَاكُمْ مِنْ بَعْدِ ظَهْرِي إِذَا مَا رَكَعْتُمْ وَإِذَا مَا سَجَدْتُمْ ‏\"‏ ‏.‏ وَفِي حَدِيثِ سَعِيدٍ ‏\"‏ إِذَا رَكَعْتُمْ وَإِذَا سَجَدْتُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8ae023b7426e2dfa7753461c9906c9cb3f81de48168ebf2bf57f7e4ab3bf4262",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Ghassan al-Misma‘i m’a rapporté : Muadh — Ibn Hisham — nous a rapporté : mon père m’a rapporté. Muhammad ibn al-Muthanna nous a rapporté : Ibn Abi Adi nous a rapporté, d’après Sa‘id. Tous deux rapportent d’après Qatada, d’après Anas, que le Prophète d’Allah ﷺ a dit : « Accomplissez complètement l’inclinaison et la prosternation. Par Allah, je vous vois derrière mon dos lorsque vous vous inclinez et vous prosternez. » Dans la version de Sa‘id, il est dit : « lorsque vous vous inclinez et lorsque vous vous prosternez. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed7ff7ee-2629-4bb6-acc5-156bb41e8809",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:426a",
+      "reference": "Sahih Muslim, hadith 426 a, book 4, باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "title": "باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَلِيُّ بْنُ حُجْرٍ، وَاللَّفْظُ، لأَبِي بَكْرٍ قَالَ ابْنُ حُجْرٍ أَخْبَرَنَا وَقَالَ أَبُو بَكْرٍ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الْمُخْتَارِ بْنِ فُلْفُلٍ، عَنْ أَنَسٍ، قَالَ صَلَّى بِنَا رَسُولُ اللَّهِ صلى الله عليه وسلم ذَاتَ يَوْمٍ فَلَمَّا قَضَى الصَّلاَةَ أَقْبَلَ عَلَيْنَا بِوَجْهِهِ فَقَالَ ‏\"‏ أَيُّهَا النَّاسُ إِنِّي إِمَامُكُمْ فَلاَ تَسْبِقُونِي بِالرُّكُوعِ وَلاَ بِالسُّجُودِ وَلاَ بِالْقِيَامِ وَلاَ بِالاِنْصِرَافِ فَإِنِّي أَرَاكُمْ أَمَامِي وَمِنْ خَلْفِي - ثُمَّ قَالَ - وَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ لَوْ رَأَيْتُمْ مَا رَأَيْتُ لَضَحِكْتُمْ قَلِيلاً وَلَبَكَيْتُمْ كَثِيرًا ‏\"‏ ‏.‏ قَالُوا وَمَا رَأَيْتَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ رَأَيْتُ الْجَنَّةَ وَالنَّارَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9657d2f2ea402d4f7773183589902129525c0a03e254999b93683e10b06204e3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Ali ibn Hujr nous ont rapporté — la formulation est celle d’Abu Bakr. Ibn Hujr a dit : il nous a informés ; Abu Bakr a dit : Ali ibn Mushir nous a rapporté, d’après al-Mukhtar ibn Fulful, d’après Anas, qui a dit : le Messager d’Allah ﷺ dirigea notre prière un jour. Lorsqu’il eut terminé, il se tourna vers nous et dit : « Ô gens, je suis votre imam. Ne me devancez ni dans l’inclinaison, ni dans la prosternation, ni en vous relevant, ni dans le salut final, car je vous vois devant moi et derrière moi. Par Celui qui tient l’âme de Muhammad dans Sa main, si vous voyiez ce que je vois, vous ririez peu et pleureriez beaucoup. » Ils demandèrent : « Qu’as-tu vu, Messager d’Allah ? » Il répondit : « J’ai vu le Paradis et le Feu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cb815232-deaf-4b93-bf79-61f773b0fea5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:426b",
+      "reference": "Sahih Muslim, hadith 426 b, book 4, باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "title": "باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، عَنِ ابْنِ فُضَيْلٍ، جَمِيعًا عَنِ الْمُخْتَارِ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا الْحَدِيثِ وَلَيْسَ فِي حَدِيثِ جَرِيرٍ ‏\"‏ وَلاَ بِالاِنْصِرَافِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b8dbb412ea3bec9da103a1901b85dc8ee0b2b0e5251819cd96e51c58ccef5e71",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "cb815232-deaf-4b93-bf79-61f773b0fea5",
+      "reason": "La source arabe renvoie au récit complet précédent et ne donne qu’une précision sur une partie omise. Garder la traduction en attente plutôt que de recopier le hadith précédent."
+    }
+  ]
+}
