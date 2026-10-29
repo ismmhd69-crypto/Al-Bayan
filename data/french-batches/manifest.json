@@ -17547,6 +17547,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-810",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-810.json",
+      "sourceIds": [
+        "e2c9b470-9469-4900-91f4-a72ffbe0a35b",
+        "535c8df3-5ec2-4e68-bd48-ec01c08d465d",
+        "5a61a983-6b66-4283-aded-c10bb359cbba",
+        "bf9fa4e3-050c-481d-b68c-96d946825768",
+        "90db8919-eedd-43d4-9a7a-6e388916c011",
+        "8667b98c-ee7b-479d-b197-4d3ebe625fc0"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18119,9 +18140,27 @@
       "scope": "Sahih al-Bukhari 4476: direct Quranic wording in the unusually long report",
       "status": "blocked",
       "reason": "The report directly includes Quran 48:2 wording and the Quranic phrase خالدين فيها. The complete record remains blank in FR-LIB-HAD-BUKHARI-809 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4479-QURAN-2-58",
+      "scope": "Sahih al-Bukhari 4479: direct quotation of Quran 2:58",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:58. The complete record remains blank in FR-LIB-HAD-BUKHARI-810 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4480-QURAN-2-97",
+      "scope": "Sahih al-Bukhari 4480: direct quotation of Quran 2:97",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:97. The complete record remains blank in FR-LIB-HAD-BUKHARI-810 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4481-QURAN-2-106",
+      "scope": "Sahih al-Bukhari 4481: direct quotation of Quran 2:106",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:106. The complete record remains blank in FR-LIB-HAD-BUKHARI-810 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3933,
-  "hadithLocalDrafted": 3933,
-  "hadithLocalRemaining": 10724
+  "hadithBukhariDrafted": 3936,
+  "hadithLocalDrafted": 3936,
+  "hadithLocalRemaining": 10721
 }
