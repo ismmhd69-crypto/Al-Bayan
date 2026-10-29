@@ -7052,3 +7052,13 @@ Scope: private local preparation only. French remains absent from public locale 
 - Its source hash is retained and the one-record focused validator passed.
 
 - Current totals: Bukhari local drafts 6,299 of 7,263; Muslim local drafts 0 of 7,366; Hadith Needs Mo 153; total local hadith rows not drafted 8,330, including held records.
+
+### 2026-10-29: Bukhari 7510
+
+- FR-LIB-HAD-BUKHARI-1373 saves no translated draft. Hadith 7510 quotes Quran 21:37 without an embedded source tag in the narrator’s closing comment; its complete translation remains blank under Needs Mo pending quotation confirmation and approved Quran translation permissions. No database writes or publication occurred.
+- All 1 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,299 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 154. Total local hadith rows not drafted: 8,330, including held records.
+
+### 2026-10-29: Bukhari 7511–7516
+
+- FR-LIB-HAD-BUKHARI-1374 saves 5 private French drafts. Hadith 7513 directly quotes Quran 6:91; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,304 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 155. Total local hadith rows not drafted: 8,325, including held records.
