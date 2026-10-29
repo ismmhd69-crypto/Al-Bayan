@@ -23,3 +23,4 @@ Published: `false`
 | bukhari-003 | 30 | 30 | 0 | 17110 | 17140 | Stored cleanly as unpublished drafts |
 | bukhari-004 | 30 | 30 | 0 | 17140 | 17170 | Stored cleanly as unpublished drafts |
 | bukhari-006 | 30 | 30 | 0 | 17170 | 17200 | Stored cleanly as unpublished drafts |
+| bukhari-005 | 30 | 30 | 0 | 17200 | 17230 | Stored cleanly as unpublished drafts |
