@@ -42509,6 +42509,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0654",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0654.json",
+      "sourceIds": [
+        "fb5e5da8-7e13-4a80-8288-0ee517cc7250",
+        "76a726ea-367c-4792-81d1-d3151e3b704b",
+        "b080230b-be91-4555-afdb-8b2f8890b1a7",
+        "1334618c-1b50-4a81-9727-7fe8532c8e65",
+        "dcd365b2-8a4e-4aad-aec4-bbe42f3ef553",
+        "644b4107-8ab5-45a1-b620-79e40b823a4f"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two referential variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46816,8 +46837,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8936,
-  "hadithLocalRemaining": 5693,
+  "hadithLocalDrafted": 8940,
+  "hadithLocalRemaining": 5689,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51029,10 +51050,20 @@
       "source_id": "268b0583-503d-4bef-96ed-62973f25e460",
       "reason": "Cette entrée renvoie seulement au récit précédent (« نحوه ») et ne fournit qu’une variation du nom. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "76a726ea-367c-4792-81d1-d3151e3b704b",
+      "reason": "Cette entrée renvoie uniquement au rapport précédent (« مثله ») et ne fournit pas de récit autonome. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1334618c-1b50-4a81-9727-7fe8532c8e65",
+      "reason": "Cette entrée renvoie au récit d’Hammam et ne donne que des variantes de transmission et de formulation, sans reproduire l’ensemble du contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2600,
+  "hadithMuslimDrafted": 2604,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1135
+  "hadithNeedsMo": 1137
 }

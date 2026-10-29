@@ -10396,3 +10396,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0653 saves four private French drafts about Aisha’s uncle through breastfeeding and the resulting rules of milk kinship. Muslim 1445f and 1445g only refer to prior reports and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1446a–1449a
+
+- FR-LIB-HAD-MUSLIM-0654 saves four private French drafts about milk kinship and prohibited marriage relationships. Muslim 1446b and 1447b only provide referential variants and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

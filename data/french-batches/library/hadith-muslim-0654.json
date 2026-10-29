@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0654",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:39:55.427Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "fb5e5da8-7e13-4a80-8288-0ee517cc7250",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1446a",
+      "reference": "Sahih Muslim, hadith 1446 a, book 17, باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "title": "باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، - وَاللَّفْظُ لأَبِي بَكْرٍ - قَالُوا حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ، عَنْ عَلِيٍّ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ مَا لَكَ تَنَوَّقُ فِي قُرَيْشٍ وَتَدَعُنَا فَقَالَ ‏\"‏ وَعِنْدَكُمْ شَىْءٌ ‏\"‏ ‏.‏ قُلْتُ نَعَمْ بِنْتُ حَمْزَةَ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّهَا لاَ تَحِلُّ لِي إِنَّهَا ابْنَةُ أَخِي مِنَ الرَّضَاعَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ca52afa07144ae9b1051fb77413db24709d7e8afbf6505543170f86929f4a0b2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali rapporte : « Je demandai : “Ô Messager d’Allah, pourquoi recherches-tu des épouses parmi les Quraysh et nous délaisses-tu ?” Il demanda : “Avez-vous quelqu’un à me proposer ?” Je répondis : “La fille de Hamza.” Le Messager d’Allah dit : “Elle ne m’est pas licite, car elle est la fille de mon frère de lait.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "76a726ea-367c-4792-81d1-d3151e3b704b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1446b",
+      "reference": "Sahih Muslim, hadith 1446 b, book 17, باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "title": "باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، عَنْ جَرِيرٍ، ح وَحَدَّثَنَا ابْنُ، نُمَيْرٍ حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا مُحَمَّدُ بْنُ أَبِي بَكْرٍ الْمُقَدَّمِيُّ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ سُفْيَانَ، كُلُّهُمْ عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "1658bee5ebaacd40d6823809eae66d37396e95e746aec106c5e03b80aecd4c33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b080230b-be91-4555-afdb-8b2f8890b1a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1447a",
+      "reference": "Sahih Muslim, hadith 1447 a, book 17, باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "title": "باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، عَنْ جَابِرِ بْنِ زَيْدٍ، عَنِ ابْنِ، عَبَّاسٍ أَنَّ النَّبِيَّ صلى الله عليه وسلم أُرِيدَ عَلَى ابْنَةِ حَمْزَةَ فَقَالَ ‏\"‏ إِنَّهَا لاَ تَحِلُّ لِي إِنَّهَا ابْنَةُ أَخِي مِنَ الرَّضَاعَةِ وَيَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ الرَّحِمِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6e8927e6c23981f02f60f5b97eb73b56ef94b95d6ac7a58ed70362290860ac60",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abbas rapporte qu’on proposa au Prophète d’épouser la fille de Hamza. Il dit : « Elle ne m’est pas licite, car elle est la fille de mon frère de lait. Les interdictions créées par l’allaitement sont les mêmes que celles créées par les liens du sang. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1334618c-1b50-4a81-9727-7fe8532c8e65",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1447b",
+      "reference": "Sahih Muslim, hadith 1447 b, book 17, باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "title": "باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى، وَهُوَ الْقَطَّانُ ح وَحَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، بْنِ مِهْرَانَ الْقُطَعِيُّ حَدَّثَنَا بِشْرُ بْنُ عُمَرَ، جَمِيعًا عَنْ شُعْبَةَ، ح وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، كِلاَهُمَا عَنْ قَتَادَةَ، بِإِسْنَادِ هَمَّامٍ سَوَاءً غَيْرَ أَنَّ حَدِيثَ شُعْبَةَ انْتَهَى عِنْدَ قَوْلِهِ ‏\"‏ ابْنَةُ أَخِي مِنَ الرَّضَاعَةِ ‏\"‏ ‏.‏ وَفِي حَدِيثِ سَعِيدٍ ‏\"‏ وَإِنَّهُ يَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ النَّسَبِ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ بِشْرِ بْنِ عُمَرَ سَمِعْتُ جَابِرَ بْنَ زَيْدٍ ‏.‏",
+      "source_hash_sha256": "cc0fef80ba0b014e010ba3c43128c480986aef37305becff9509de33f3718584",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dcd365b2-8a4e-4aad-aec4-bbe42f3ef553",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1448",
+      "reference": "Sahih Muslim, hadith 1448, book 17, باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "title": "باب تَحْرِيمِ ابْنَةِ الأَخِ مِنَ الرَّضَاعَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، وَأَحْمَدُ بْنُ عِيسَى، قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مَخْرَمَةُ بْنُ بُكَيْرٍ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ مُسْلِمٍ، يَقُولُ سَمِعْتُ مُحَمَّدَ بْنَ مُسْلِمٍ، يَقُولُ سَمِعْتُ حُمَيْدَ بْنَ عَبْدِ الرَّحْمَنِ، يَقُولُ سَمِعْتُ أُمَّ سَلَمَةَ، زَوْجَ النَّبِيِّ صلى الله عليه وسلم تَقُولُ قِيلَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم أَيْنَ أَنْتَ يَا رَسُولَ اللَّهِ عَنِ ابْنَةِ حَمْزَةَ ‏.‏ أَوْ قِيلَ أَلاَ تَخْطُبُ بِنْتَ حَمْزَةَ بْنِ عَبْدِ الْمُطَّلِبِ قَالَ ‏\"‏ إِنَّ حَمْزَةَ أَخِي مِنَ الرَّضَاعَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "973a7dba2965baaf6580203ae3fb3bfd14a1d0faa81f10d4ec0978c6e4748c73",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Umm Salama, épouse du Prophète, rapporte qu’on demanda au Messager d’Allah : « Pourquoi ne prends-tu pas la fille de Hamza pour épouse ? » ou : « Ne demanderais-tu pas la fille de Hamza ibn Abd al-Muttalib en mariage ? » Il répondit : « Hamza est mon frère de lait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "644b4107-8ab5-45a1-b620-79e40b823a4f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1449a",
+      "reference": "Sahih Muslim, hadith 1449 a, book 17, باب تَحْرِيمِ الرَّبِيبَةِ وَأُخْتِ الْمَرْأَةِ ‏",
+      "title": "باب تَحْرِيمِ الرَّبِيبَةِ وَأُخْتِ الْمَرْأَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، أَخْبَرَنَا هِشَامٌ، أَخْبَرَنَا أَبِي، عَنْ زَيْنَبَ بِنْتِ أُمِّ سَلَمَةَ، عَنْ أُمِّ حَبِيبَةَ بِنْتِ أَبِي سُفْيَانَ، قَالَتْ دَخَلَ عَلَىَّ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقُلْتُ لَهُ هَلْ لَكَ فِي أُخْتِي بِنْتِ أَبِي سُفْيَانَ فَقَالَ ‏\"‏ أَفْعَلُ مَاذَا ‏\"‏ ‏.‏ قُلْتُ تَنْكِحُهَا ‏.‏ قَالَ ‏\"‏ أَوَتُحِبِّينَ ذَلِكَ ‏\"‏ ‏.‏ قُلْتُ لَسْتُ لَكَ بِمُخْلِيَةٍ وَأَحَبُّ مَنْ شَرِكَنِي فِي الْخَيْرِ أُخْتِي ‏.‏ قَالَ ‏\"‏ فَإِنَّهَا لاَ تَحِلُّ لِي ‏\"‏ ‏.‏ قُلْتُ فَإِنِّي أُخْبِرْتُ أَنَّكَ تَخْطُبُ دُرَّةَ بِنْتَ أَبِي سَلَمَةَ ‏.‏ قَالَ ‏\"‏ بِنْتَ أُمِّ سَلَمَةَ ‏\"‏ ‏.‏ قُلْتُ نَعَمْ ‏.‏ قَالَ ‏\"‏ لَوْ أَنَّهَا لَمْ تَكُنْ رَبِيبَتِي فِي حَجْرِي مَا حَلَّتْ لِي إِنَّهَا ابْنَةُ أَخِي مِنَ الرَّضَاعَةِ أَرْضَعَتْنِي وَأَبَاهَا ثُوَيْبَةُ فَلاَ تَعْرِضْنَ عَلَىَّ بَنَاتِكُنَّ وَلاَ أَخَوَاتِكُنَّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "dfc8a72e00a8251570719caab257b62b874d9fee75d38218022220b523c3deb6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Umm Habiba rapporte que le Messager d’Allah entra chez elle. Elle lui dit : « Que penses-tu d’épouser ma sœur, la fille d’Abu Sufyan ? » Il demanda : « Que ferais-je ? » Elle répondit : « Tu pourrais l’épouser. » Il demanda : « Aimerais-tu cela ? » Elle dit : « Je ne suis pas la seule épouse que tu as, et parmi celles qui partagent le bien avec moi, ma sœur est celle que j’aime le plus. » Il répondit : « Elle ne m’est pas licite. » Elle dit : « On m’a informée que tu demandais Durra, la fille d’Abu Salama, en mariage. » Il demanda : « La fille d’Umm Salama ? » Elle répondit : « Oui. » Il dit : « Même si elle n’avait pas été ma belle-fille élevée dans mon foyer, elle ne m’aurait pas été licite, car elle est la fille de mon frère de lait. Thuwayba m’a allaité, ainsi que son père. Ne me proposez donc ni vos filles ni vos sœurs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "76a726ea-367c-4792-81d1-d3151e3b704b",
+      "reason": "Cette entrée renvoie uniquement au rapport précédent (« مثله ») et ne fournit pas de récit autonome. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "1334618c-1b50-4a81-9727-7fe8532c8e65",
+      "reason": "Cette entrée renvoie au récit d’Hammam et ne donne que des variantes de transmission et de formulation, sans reproduire l’ensemble du contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
