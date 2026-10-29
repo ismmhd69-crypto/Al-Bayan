@@ -11502,3 +11502,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1872a-1873d
 
 - FR-LIB-HAD-MUSLIM-0885 saves five private French drafts about the merit of horses, preserving a narrator-name variant and a version that omits “reward and booty.” One chain-only cross-reference remains blank under Needs Mo with a specific reason. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1873e-1875c
+
+- FR-LIB-HAD-MUSLIM-0886 saves four private French drafts about horses, including a variant that omits “reward and booty” and a description of the shikāl marking. Two chain-only records remain blank under Needs Mo with specific reasons. No Quran verse is quoted. No database write or publication occurred.
