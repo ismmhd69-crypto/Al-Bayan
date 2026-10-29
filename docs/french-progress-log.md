@@ -9571,3 +9571,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0488 saves four private French drafts about ‘Ashura. Muslim 1126e and 1127b only refer back to preceding reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1127d–1130a
+
+- FR-LIB-HAD-MUSLIM-0489 saves four private French drafts about ‘Ashura. Muslim 1129b and 1129c only provide abbreviated variants tied to earlier reports and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
