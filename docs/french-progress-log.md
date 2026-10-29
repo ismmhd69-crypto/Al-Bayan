@@ -12536,3 +12536,6 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2474
 
 - FR-LIB-HAD-MUSLIM-1147 saves the complete long report about Abu Dharr’s arrival in Mecca and his first public declaration of Islam as a private French draft. No database write or publication occurred.
+### 2026-10-30: Muslim 2475a-2477
+
+- FR-LIB-HAD-MUSLIM-1148 saves four complete reports as private French drafts. One transmission-only variant and one malformed source remain blank with specific Needs Mo reasons. No database write or publication occurred.
