@@ -3616,3 +3616,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-740` saves one private French draft recounting the migration to the cave of Thawr and the news of the deaths at Biʾr Maʿûna.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,622 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 291. Total local hadith rows not drafted: 11,035, including held records.
+
+### 2026-10-29: Bukhari 4094–4099
+
+- `FR-LIB-HAD-BUKHARI-741` saves five private French drafts. Hadith 4095 remains blank because it includes wording described as Quran recitation, later abrogated; the hold is recorded for Mo.
+- All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,627 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 292. Total local hadith rows not drafted: 11,030, including held records.

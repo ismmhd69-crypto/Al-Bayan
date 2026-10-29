@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-741",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:24:23.714Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ce434d41-fbd0-4ef5-8996-545e0553c457",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4094",
+      "reference": "Sahih al-Bukhari, hadith 4094, book 64, باب غَزْوَةُ الرَّجِيعِ وَرِعْلٍ وَذَكْوَانَ وَبِئْرِ مَعُونَةَ",
+      "title": "باب غَزْوَةُ الرَّجِيعِ وَرِعْلٍ وَذَكْوَانَ وَبِئْرِ مَعُونَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدٌ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا سُلَيْمَانُ التَّيْمِيُّ، عَنْ أَبِي مِجْلَزٍ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ قَنَتَ النَّبِيُّ صلى الله عليه وسلم بَعْدَ الرُّكُوعِ شَهْرًا يَدْعُو عَلَى رِعْلٍ وَذَكْوَانَ وَيَقُولُ ‏\"‏ عُصَيَّةُ عَصَتِ اللَّهَ وَرَسُولَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "cec8792df6bb3bbdaff3f670af48bbec5a328ba0178ee45a62bd0b0010980ac8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Prophète pratiqua le qunût pendant un mois après l’inclinaison, invoquant contre Riʿl et Dhakwân. Il disait : « ʿUsayya a désobéi à Dieu et à Son Messager. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e345c075-c41b-4eed-94a7-55696edc270e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4095",
+      "reference": "Sahih al-Bukhari, hadith 4095, book 64, باب غَزْوَةُ الرَّجِيعِ وَرِعْلٍ وَذَكْوَانَ وَبِئْرِ مَعُونَةَ",
+      "title": "باب غَزْوَةُ الرَّجِيعِ وَرِعْلٍ وَذَكْوَانَ وَبِئْرِ مَعُونَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا مَالِكٌ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ دَعَا النَّبِيُّ صلى الله عليه وسلم عَلَى الَّذِينَ قَتَلُوا ـ يَعْنِي ـ أَصْحَابَهُ بِبِئْرِ مَعُونَةَ ثَلاَثِينَ صَبَاحًا حِينَ يَدْعُو عَلَى رِعْلٍ وَلِحْيَانَ وَعُصَيَّةَ عَصَتِ اللَّهَ وَرَسُولَهُ صلى الله عليه وسلم‏.‏ قَالَ أَنَسٌ فَأَنْزَلَ اللَّهُ تَعَالَى لِنَبِيِّهِ صلى الله عليه وسلم فِي الَّذِينَ قُتِلُوا أَصْحَابِ بِئْرِ مَعُونَةَ قُرْآنًا قَرَأْنَاهُ حَتَّى نُسِخَ بَعْدُ بَلِّغُوا قَوْمَنَا فَقَدْ لَقِينَا رَبَّنَا فَرَضِيَ عَنَّا وَرَضِينَا عَنْهُ‏.‏",
+      "source_hash_sha256": "b1390cef199f20f5b05f7dad4b139e369f8a7e05238718f40093bbc1f576a9a6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c33ea9f4-99b1-4177-821e-50b7a243c27a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4096",
+      "reference": "Sahih al-Bukhari, hadith 4096, book 64, باب غَزْوَةُ الرَّجِيعِ وَرِعْلٍ وَذَكْوَانَ وَبِئْرِ مَعُونَةَ",
+      "title": "باب غَزْوَةُ الرَّجِيعِ وَرِعْلٍ وَذَكْوَانَ وَبِئْرِ مَعُونَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، حَدَّثَنَا عَاصِمٌ الأَحْوَلُ، قَالَ سَأَلْتُ أَنَسَ بْنَ مَالِكٍ ـ رضى الله عنه ـ عَنِ الْقُنُوتِ، فِي الصَّلاَةِ فَقَالَ نَعَمْ‏.‏ فَقُلْتُ كَانَ قَبْلَ الرُّكُوعِ أَوْ بَعْدَهُ قَالَ قَبْلَهُ‏.‏ قُلْتُ فَإِنَّ فُلاَنًا أَخْبَرَنِي عَنْكَ أَنَّكَ قُلْتَ بَعْدَهُ، قَالَ كَذَبَ إِنَّمَا قَنَتَ رَسُولُ اللَّهِ صلى الله عليه وسلم بَعْدَ الرُّكُوعِ شَهْرًا، أَنَّهُ كَانَ بَعَثَ نَاسًا يُقَالُ لَهُمُ الْقُرَّاءُ، وَهُمْ سَبْعُونَ رَجُلاً إِلَى نَاسٍ مِنَ الْمُشْرِكِينَ، وَبَيْنَهُمْ وَبَيْنَ رَسُولِ اللَّهِ صلى الله عليه وسلم عَهْدٌ قِبَلَهُمْ، فَظَهَرَ هَؤُلاَءِ الَّذِينَ كَانَ بَيْنَهُمْ وَبَيْنَ رَسُولِ اللَّهِ صلى الله عليه وسلم عَهْدٌ، فَقَنَتَ رَسُولُ اللَّهِ صلى الله عليه وسلم بَعْدَ الرُّكُوعِ شَهْرًا يَدْعُو عَلَيْهِمْ‏.‏",
+      "source_hash_sha256": "e1dfd447c98bc0c9191f3f50f7cefbb0a0ddb6bec55f66ff7856f5f463a022cf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte que le Prophète invoqua pendant trente matins contre ceux qui avaient tué ses compagnons à Biʾr Maʿûna, en invoquant contre Riʿl, Lihyân et ʿUsayya, qui avaient désobéi à Dieu et à Son Messager. Anas dit : « Dieu révéla à Son Prophète, au sujet des hommes tués parmi les compagnons de Biʾr Maʿûna, un passage du Coran que nous récitions, puis dont la récitation fut abrogée. Il disait : “Informez notre peuple que nous avons rencontré notre Seigneur ; Il est satisfait de nous et nous sommes satisfaits de Lui.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "944878ba-a12d-4118-99f7-40bc8bed5fe6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4097",
+      "reference": "Sahih al-Bukhari, hadith 4097, book 64, باب غَزْوَةُ الْخَنْدَقِ وَهْىَ الأَحْزَابُ",
+      "title": "باب غَزْوَةُ الْخَنْدَقِ وَهْىَ الأَحْزَابُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عُبَيْدِ اللَّهِ، قَالَ أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما أَنَّ النَّبِيَّ صلى الله عليه وسلم عَرَضَهُ يَوْمَ أُحُدٍ وَهْوَ ابْنُ أَرْبَعَ عَشْرَةَ فَلَمْ يُجِزْهُ، وَعَرَضَهُ يَوْمَ الْخَنْدَقِ وَهْوَ ابْنُ خَمْسَ عَشْرَةَ فَأَجَازَهُ‏.‏",
+      "source_hash_sha256": "3ee2f31a7688a3b9602f43b53f11781ea0a7909dc78041be7b9bdc7fe1ccc03e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂsim al-Ahwal demanda à Anas ibn Mâlik au sujet du qunût dans la prière. Anas répondit : « Oui. » ʿÂsim demanda : « Était-ce avant ou après l’inclinaison ? » Il répondit : « Avant. » ʿÂsim dit : « Untel m’a pourtant rapporté que tu avais dit : après. » Anas répondit : « Il ment. Le Messager de Dieu ne pratiqua le qunût après l’inclinaison que pendant un mois, après avoir envoyé soixante-dix hommes, appelés les lecteurs du Coran, auprès d’un groupe d’associateurs avec lesquels il avait conclu un pacte. Ceux-ci prirent le dessus sur les hommes liés par le pacte au Messager de Dieu ; le Messager de Dieu pratiqua alors le qunût après l’inclinaison pendant un mois, invoquant contre eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b9c642c8-fb05-4281-9cd4-53d99cd16d3d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4098",
+      "reference": "Sahih al-Bukhari, hadith 4098, book 64, باب غَزْوَةُ الْخَنْدَقِ وَهْىَ الأَحْزَابُ",
+      "title": "باب غَزْوَةُ الْخَنْدَقِ وَهْىَ الأَحْزَابُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي قُتَيْبَةُ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، عَنْ أَبِي حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ ـ رضى الله عنه ـ قَالَ كُنَّا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي الْخَنْدَقِ، وَهُمْ يَحْفِرُونَ، وَنَحْنُ نَنْقُلُ التُّرَابَ عَلَى أَكْتَادِنَا، فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اللَّهُمَّ لاَ عَيْشَ إِلاَّ عَيْشُ الآخِرَهْ، فَاغْفِرْ لِلْمُهَاجِرِينَ وَالأَنْصَارِ ‏\"‏‏.‏",
+      "source_hash_sha256": "5aa7144d40c3000fc73bff02be546f1c57d53a46947b05de445adf38720ef9f2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn ʿUmar rapporte que le Prophète l’examina le jour d’Uhud, alors qu’il avait quatorze ans, et ne l’autorisa pas à participer. Il l’examina le jour du Fossé, alors qu’il avait quinze ans, et l’autorisa à participer.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "72a75b46-cce2-43cc-8c03-ffa482cb01c1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4099",
+      "reference": "Sahih al-Bukhari, hadith 4099, book 64, باب غَزْوَةُ الْخَنْدَقِ وَهْىَ الأَحْزَابُ",
+      "title": "باب غَزْوَةُ الْخَنْدَقِ وَهْىَ الأَحْزَابُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا مُعَاوِيَةُ بْنُ عَمْرٍو، حَدَّثَنَا أَبُو إِسْحَاقَ، عَنْ حُمَيْدٍ، سَمِعْتُ أَنَسًا ـ رضى الله عنه ـ يَقُولُ خَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِلَى الْخَنْدَقِ، فَإِذَا الْمُهَاجِرُونَ وَالأَنْصَارُ يَحْفِرُونَ فِي غَدَاةٍ بَارِدَةٍ، فَلَمْ يَكُنْ لَهُمْ عَبِيدٌ يَعْمَلُونَ ذَلِكَ لَهُمْ، فَلَمَّا رَأَى مَا بِهِمْ مِنَ النَّصَبِ وَالْجُوعِ قَالَ ‏\"‏ اللَّهُمَّ إِنَّ الْعَيْشَ عَيْشُ الآخِرَهْ فَاغْفِرْ لِلأَنْصَارِ وَالْمُهَاجِرَهْ ‏\"‏ فَقَالُوا مُجِيبِينَ لَهُ نَحْنُ الَّذِينَ بَايَعُوا مُحَمَّدَا عَلَى الْجِهَادِ مَا بَقِينَا أَبَدَا",
+      "source_hash_sha256": "a66400ac0fec5d7fe1f27f3395bb15af2fba211fa1c10eb33ad85f31ebf7a2f9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sahl ibn Saʿd rapporte : « Nous étions avec le Messager de Dieu dans le Fossé. Les gens creusaient et nous transportions la terre sur nos épaules. Le Messager de Dieu dit : “Ô Dieu, la vraie vie est celle de l’au-delà. Pardonne aux émigrés et aux Ansâr.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "url": "https://sunnah.com/bukhari:4095",
+      "source_id": "e345c075-c41b-4eed-94a7-55696edc270e",
+      "reason": "The report includes the wording of a passage described as Quran recitation, though its recitation was later abrogated. No approved, attributed French Quran translation has been confirmed. The complete record remains blank rather than creating unapproved French Quran wording."
+    }
+  ]
+}

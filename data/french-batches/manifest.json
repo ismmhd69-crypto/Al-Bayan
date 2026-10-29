@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 291,
+    "hadithNeedsMo": 292,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -15982,6 +15982,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-741",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-741.json",
+      "sourceIds": ["ce434d41-fbd0-4ef5-8996-545e0553c457", "e345c075-c41b-4eed-94a7-55696edc270e", "c33ea9f4-99b1-4177-821e-50b7a243c27a", "944878ba-a12d-4118-99f7-40bc8bed5fe6", "b9c642c8-fb05-4281-9cd4-53d99cd16d3d", "72a75b46-cce2-43cc-8c03-ffa482cb01c1"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
+    }
   ],
   "blockers": [
     {
@@ -16310,8 +16325,15 @@
       "status": "blocked",
       "reason": "The report includes wording of a passage described as Quran recitation, though its recitation was later abrogated. It remains blank in FR-LIB-HAD-BUKHARI-739 until an approved, attributed French Quran translation is confirmed."
     }
+,
+    {
+      "id": "HADITH-BUKHARI-4095-ABROGATED-QURAN-RECITATION",
+      "scope": "Sahih al-Bukhari 4095: wording of a passage described as Quran recitation, later abrogated",
+      "status": "blocked",
+      "reason": "The report includes wording of a passage described as Quran recitation, though its recitation was later abrogated. It remains blank in FR-LIB-HAD-BUKHARI-741 until an approved, attributed French Quran translation is confirmed."
+    }
   ],
-  "hadithBukhariDrafted": 3622,
-  "hadithLocalDrafted": 3622,
-  "hadithLocalRemaining": 11035
+  "hadithBukhariDrafted": 3627,
+  "hadithLocalDrafted": 3627,
+  "hadithLocalRemaining": 11030
 }
