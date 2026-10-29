@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-794",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:56:42.341Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "02b91e2b-8e6c-4164-9d50-80142a0f286a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4388",
+      "reference": "Sahih al-Bukhari, hadith 4388, book 64, باب قُدُومُ الأَشْعَرِيِّينَ وَأَهْلِ الْيَمَنِ",
+      "title": "باب قُدُومُ الأَشْعَرِيِّينَ وَأَهْلِ الْيَمَنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ شُعْبَةَ، عَنْ سُلَيْمَانَ، عَنْ ذَكْوَانَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ أَتَاكُمْ أَهْلُ الْيَمَنِ، هُمْ أَرَقُّ أَفْئِدَةً وَأَلْيَنُ قُلُوبًا، الإِيمَانُ يَمَانٍ وَالْحِكْمَةُ يَمَانِيَةٌ، وَالْفَخْرُ وَالْخُيَلاَءُ فِي أَصْحَابِ الإِبِلِ، وَالسَّكِينَةُ وَالْوَقَارُ فِي أَهْلِ الْغَنَمِ ‏\"‏‏.‏ وَقَالَ غُنْدَرٌ عَنْ شُعْبَةَ، عَنْ سُلَيْمَانَ، سَمِعْتُ ذَكْوَانَ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "c278fd5b93534606f7c9f50c3163d8e847d804a37544ce6e47ea944304da7435",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Les gens du Yémen sont venus à vous. Ils ont le cœur plus sensible et plus doux. La foi est yéménite, et la sagesse est yéménite. L’orgueil et la suffisance se trouvent chez les éleveurs de chameaux, tandis que la sérénité et la dignité se trouvent chez les éleveurs de moutons. » Gundar rapporte également cette tradition d’après Shuʿba, Sulaymân, Dhakwân et Abû Hurayra, qui l’attribue au Prophète.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "af079f7a-e139-42fa-92c6-41cfd2a41908",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4389",
+      "reference": "Sahih al-Bukhari, hadith 4389, book 64, باب قُدُومُ الأَشْعَرِيِّينَ وَأَهْلِ الْيَمَنِ",
+      "title": "باب قُدُومُ الأَشْعَرِيِّينَ وَأَهْلِ الْيَمَنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي أَخِي، عَنْ سُلَيْمَانَ، عَنْ ثَوْرِ بْنِ زَيْدٍ، عَنْ أَبِي الْغَيْثِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ الإِيمَانُ يَمَانٍ، وَالْفِتْنَةُ هَا هُنَا، هَا هُنَا يَطْلُعُ قَرْنُ الشَّيْطَانِ ‏\"‏‏.‏",
+      "source_hash_sha256": "26f8d98fac48c9a2d0bfe305bfb1a9e4ba9f2f85e186bd665d398a9d7bb95c45",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Prophète (paix et bénédictions sur lui) a dit : « La foi est yéménite ; la discorde est ici, ici, là où apparaît la corne du diable. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4145c028-612c-44d6-90f9-8c4d425b8f59",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4390",
+      "reference": "Sahih al-Bukhari, hadith 4390, book 64, باب قُدُومُ الأَشْعَرِيِّينَ وَأَهْلِ الْيَمَنِ",
+      "title": "باب قُدُومُ الأَشْعَرِيِّينَ وَأَهْلِ الْيَمَنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، حَدَّثَنَا أَبُو الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ أَتَاكُمْ أَهْلُ الْيَمَنِ، أَضْعَفُ قُلُوبًا وَأَرَقُّ أَفْئِدَةً، الْفِقْهُ يَمَانٍ، وَالْحِكْمَةُ يَمَانِيَةٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "ae75f8bf36e91a11ea87f349823ca05f42a7cc8d7d3a2ce1ccd78ac7dd22e941",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Les gens du Yémen sont venus à vous. Ils ont le cœur plus tendre et plus sensible. La compréhension de la religion est yéménite, et la sagesse est yéménite. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8f4fe426-3880-4808-bc35-210389ddd282",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4391",
+      "reference": "Sahih al-Bukhari, hadith 4391, book 64, باب قُدُومُ الأَشْعَرِيِّينَ وَأَهْلِ الْيَمَنِ",
+      "title": "باب قُدُومُ الأَشْعَرِيِّينَ وَأَهْلِ الْيَمَنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، عَنْ أَبِي حَمْزَةَ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، قَالَ كُنَّا جُلُوسًا مَعَ ابْنِ مَسْعُودٍ، فَجَاءَ خَبَّابٌ فَقَالَ يَا أَبَا عَبْدِ الرَّحْمَنِ، أَيَسْتَطِيعُ هَؤُلاَءِ الشَّبَابُ أَنْ يَقْرَءُوا كَمَا تَقْرَأُ قَالَ أَمَا إِنَّكَ لَوْ شِئْتَ أَمَرْتُ بَعْضَهُمْ يَقْرَأُ عَلَيْكَ قَالَ أَجَلْ‏.‏ قَالَ اقْرَأْ يَا عَلْقَمَةُ‏.‏ فَقَالَ زَيْدُ بْنُ حُدَيْرٍ أَخُو زِيَادِ بْنِ حُدَيْرٍ أَتَأْمُرُ عَلْقَمَةَ أَنْ يَقْرَأَ وَلَيْسَ بِأَقْرَئِنَا قَالَ أَمَا إِنَّكَ إِنْ شِئْتَ أَخْبَرْتُكَ بِمَا قَالَ النَّبِيُّ صلى الله عليه وسلم فِي قَوْمِكَ وَقَوْمِهِ‏.‏ فَقَرَأْتُ خَمْسِينَ آيَةً مِنْ سُورَةِ مَرْيَمَ، فَقَالَ عَبْدُ اللَّهِ كَيْفَ تَرَى قَالَ قَدْ أَحْسَنَ‏.‏ قَالَ عَبْدُ اللَّهِ مَا أَقْرَأُ شَيْئًا إِلاَّ وَهُوَ يَقْرَؤُهُ، ثُمَّ الْتَفَتَ إِلَى خَبَّابٍ وَعَلَيْهِ خَاتَمٌ مِنْ ذَهَبٍ فَقَالَ أَلَمْ يَأْنِ لِهَذَا الْخَاتَمِ أَنْ يُلْقَى قَالَ أَمَا إِنَّكَ لَنْ تَرَاهُ عَلَىَّ بَعْدَ الْيَوْمِ، فَأَلْقَاهُ‏.‏ رَوَاهُ غُنْدَرٌ عَنْ شُعْبَةَ‏.‏",
+      "source_hash_sha256": "66133f38ebed7dc10837d0216121d884f4668c989026fb29dce7606bd334d2e1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAlqama rapporte : Nous étions assis avec Ibn Masʿûd quand Khabbâb vint lui demander : « Abû ʿAbd al-Raḥmân, ces jeunes gens peuvent-ils réciter comme toi ? » Il répondit : « Si tu le souhaites, je peux demander à l’un d’eux de te réciter quelque chose. » Khabbâb dit : « Oui. » Ibn Masʿûd dit : « Récite, ʿAlqama. » Zayd ibn Ḥudayr, le frère de Ziyâd ibn Ḥudayr, demanda : « Tu demandes à ʿAlqama de réciter alors qu’il n’est pas celui d’entre nous qui récite le mieux ? » Ibn Masʿûd répondit : « Si tu le souhaites, je peux te dire ce que le Prophète (paix et bénédictions sur lui) a dit au sujet de ton peuple et du sien. » Je récitai cinquante versets de la sourate Maryam. ʿAbd Allâh demanda : « Qu’en penses-tu ? » Il répondit : « Il a bien récité. » ʿAbd Allâh dit : « Je ne récite rien qu’il ne sache lui aussi réciter. » Puis il se tourna vers Khabbâb, qui portait une bague en or, et lui demanda : « N’est-il pas temps que cette bague soit retirée ? » Khabbâb répondit : « Tu ne la verras plus sur moi après aujourd’hui. » Il la retira. Gundar a également rapporté cette tradition d’après Shuʿba.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f6de5c8e-e18c-4718-8aba-a0db0178324a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4392",
+      "reference": "Sahih al-Bukhari, hadith 4392, book 64, باب قِصَّةُ دَوْسٍ وَالطُّفَيْلِ بْنِ عَمْرٍو الدَّوْسِيِّ",
+      "title": "باب قِصَّةُ دَوْسٍ وَالطُّفَيْلِ بْنِ عَمْرٍو الدَّوْسِيِّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ ذَكْوَانَ، عَنْ عَبْدِ الرَّحْمَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ جَاءَ الطُّفَيْلُ بْنُ عَمْرٍو إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ إِنَّ دَوْسًا قَدْ هَلَكَتْ، عَصَتْ وَأَبَتْ، فَادْعُ اللَّهَ عَلَيْهِمْ‏.‏ فَقَالَ ‏\"‏ اللَّهُمَّ اهْدِ دَوْسًا وَأْتِ بِهِمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "6a94cc03f9d6057640ebee0d746127be044a5930bbd5f346b25afa2819205523",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte : Ṭufayl ibn ʿAmr vint auprès du Prophète (paix et bénédictions sur lui) et lui dit : « Les Daws sont perdus : ils ont désobéi et refusé. Invoque Allah contre eux. » Le Prophète dit : « Ô Allah, guide les Daws et amène-les à moi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f7b9371a-6a4e-425c-9487-1fe4eaccb8e4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4393",
+      "reference": "Sahih al-Bukhari, hadith 4393, book 64, باب قِصَّةُ دَوْسٍ وَالطُّفَيْلِ بْنِ عَمْرٍو الدَّوْسِيِّ",
+      "title": "باب قِصَّةُ دَوْسٍ وَالطُّفَيْلِ بْنِ عَمْرٍو الدَّوْسِيِّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْعَلاَءِ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا إِسْمَاعِيلُ، عَنْ قَيْسٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ لَمَّا قَدِمْتُ عَلَى النَّبِيِّ صلى الله عليه وسلم قُلْتُ فِي الطَّرِيقِ: يَا لَيْلَةً مِنْ طُولِهَا وَعَنَائِهَا عَلَى أَنَّهَا مِنْ دَارَةِ الْكُفْرِ نَجَّتِ",
+      "source_hash_sha256": "5fec99cc6061438757ab4410bdd667aa84b007dc08f9f07e64986b6d4833199a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_truncated_source_text",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f7b9371a-6a4e-425c-9487-1fe4eaccb8e4",
+      "url": "https://sunnah.com/bukhari:4393",
+      "reason": "The source record ends in the middle of a poetic line, at نَجَّتِ, without the rest of the wording. The complete hadith remains blank pending confirmation of the full source text."
+    }
+  ]
+}

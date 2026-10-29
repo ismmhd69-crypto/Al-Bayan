@@ -17226,6 +17226,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-794",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-794.json",
+      "sourceIds": [
+        "02b91e2b-8e6c-4164-9d50-80142a0f286a",
+        "af079f7a-e139-42fa-92c6-41cfd2a41908",
+        "4145c028-612c-44d6-90f9-8c4d425b8f59",
+        "8f4fe426-3880-4808-bc35-210389ddd282",
+        "f6de5c8e-e18c-4718-8aba-a0db0178324a",
+        "f7b9371a-6a4e-425c-9487-1fe4eaccb8e4"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17720,9 +17741,15 @@
       "scope": "Sahih al-Bukhari 4367: direct quotation of Quran 49:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 49:1. The complete record remains blank in FR-LIB-HAD-BUKHARI-791 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4393-TRUNCATED-POETRY",
+      "scope": "Sahih al-Bukhari 4393: source ends mid-poetic line",
+      "status": "blocked",
+      "reason": "The source ends in the middle of a poetic line, at نجت, without the rest of the wording. The complete report remains blank in FR-LIB-HAD-BUKHARI-794 pending confirmation of the full source text."
     }
   ],
-  "hadithBukhariDrafted": 3865,
-  "hadithLocalDrafted": 3865,
-  "hadithLocalRemaining": 10792
+  "hadithBukhariDrafted": 3870,
+  "hadithLocalDrafted": 3870,
+  "hadithLocalRemaining": 10787
 }

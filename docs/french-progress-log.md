@@ -3881,3 +3881,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-793` saves six private French drafts about Abû ʿUbayda, Jâbir’s promised payment, and reports from Yemen.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,865 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 321. Total local hadith rows not drafted: 10,792, including held records.
+
+### 2026-10-29: Bukhari 4388–4393
+
+- `FR-LIB-HAD-BUKHARI-794` saves five private French drafts. Hadith 4393 remains blank because the source ends in the middle of a poetic line; the hold is recorded for Mo.
+- All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,870 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 322. Total local hadith rows not drafted: 10,787, including held records.
