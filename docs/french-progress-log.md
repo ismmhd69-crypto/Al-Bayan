@@ -11630,3 +11630,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1954d-1956b
 
 - FR-LIB-HAD-MUSLIM-0917 saves three private French drafts about the warning against flicking stones, kindness in slaughter, and restraining animals. Three entries with no distinct report wording remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1957a-1960a
+
+- FR-LIB-HAD-MUSLIM-0918 saves five private French drafts about not using living creatures as targets and the Eid sacrifice. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
