@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0443",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:21:43.472Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9b624044-f1f9-4b3a-b4d6-d290c377f7fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1038a",
+      "reference": "Sahih Muslim, hadith 1038 a, book 12, باب النَّهْىِ عَنِ الْمَسْأَلَةِ ‏",
+      "title": "باب النَّهْىِ عَنِ الْمَسْأَلَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ وَهْبِ بْنِ مُنَبِّهٍ، عَنْ أَخِيهِ، هَمَّامٍ عَنْ مُعَاوِيَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تُلْحِفُوا فِي الْمَسْأَلَةِ فَوَاللَّهِ لاَ يَسْأَلُنِي أَحَدٌ مِنْكُمْ شَيْئًا فَتُخْرِجَ لَهُ مَسْأَلَتُهُ مِنِّي شَيْئًا وَأَنَا لَهُ كَارِهٌ فَيُبَارَكَ لَهُ فِيمَا أَعْطَيْتُهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a2b27c9ee7d81e1a18fed8e215764b593728386da1aa65d189e6952bdc0803c3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Abd Allah ibn Numayr nous a rapporté : Sufyan nous a rapporté, d’après ‘Amr, d’après Wahb ibn Munabbih, d’après son frère Hammam, d’après Mu‘awiya, qui a dit que le Messager d’Allah ﷺ a dit : « N’insistez pas pour demander. Par Allah, si l’un de vous me demande quelque chose et obtient de moi, malgré moi, ce qu’il demande, cela ne sera pas béni pour lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dc902565-7937-463c-8364-3e9109bae3a9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1038b",
+      "reference": "Sahih Muslim, hadith 1038 b, book 12, باب النَّهْىِ عَنِ الْمَسْأَلَةِ ‏",
+      "title": "باب النَّهْىِ عَنِ الْمَسْأَلَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ الْمَكِّيُّ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرِو بْنِ دِينَارٍ، حَدَّثَنِي وَهْبُ بْنُ، مُنَبِّهٍ - وَدَخَلْتُ عَلَيْهِ فِي دَارِهِ بِصَنْعَاءَ فَأَطْعَمَنِي مِنْ جَوْزَةٍ فِي دَارِهِ - عَنْ أَخِيهِ قَالَ سَمِعْتُ مُعَاوِيَةَ بْنَ أَبِي سُفْيَانَ يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏.‏ فَذَكَرَ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "4cb250c58f88b09baf1738e85378f94133e0f53090ab96cb572bf2bface5fc5a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e01adf30-a27a-4d36-85d4-7f543cea4146",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1039a",
+      "reference": "Sahih Muslim, hadith 1039 a, book 12, باب الْمِسْكِينِ الَّذِي لاَ يَجِدُ غِنًى وَلاَ يُفْطَنُ لَهُ فَيُتَصَدَّقَ عَلَيْهِ ‏",
+      "title": "باب الْمِسْكِينِ الَّذِي لاَ يَجِدُ غِنًى وَلاَ يُفْطَنُ لَهُ فَيُتَصَدَّقَ عَلَيْهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا الْمُغِيرَةُ، - يَعْنِي الْحِزَامِيَّ - عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَيْسَ الْمِسْكِينُ بِهَذَا الطَّوَّافِ الَّذِي يَطُوفُ عَلَى النَّاسِ فَتَرُدُّهُ اللُّقْمَةُ وَاللُّقْمَتَانِ وَالتَّمْرَةُ وَالتَّمْرَتَانِ ‏\"‏ ‏.‏ قَالُوا فَمَا الْمِسْكِينُ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ الَّذِي لاَ يَجِدُ غِنًى يُغْنِيهِ وَلاَ يُفْطَنُ لَهُ فَيُتَصَدَّقَ عَلَيْهِ وَلاَ يَسْأَلُ النَّاسَ شَيْئًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3076812c3dc765f52ced786faeb671f9df3a595ee877fcd1b2219a5267fcddde",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Mughira — al-Hizami — nous a rapporté, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Le nécessiteux n’est pas celui qui fait le tour des gens et que l’on renvoie avec une bouchée ou deux, une datte ou deux. » On demanda : « Qui est alors le nécessiteux, ô Messager d’Allah ? » Il répondit : « Celui qui ne dispose pas de quoi se suffire, que les gens ne remarquent pas et à qui l’on ne fait pas spontanément l’aumône, et qui ne demande rien aux gens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7ffb252c-82a3-42ec-9c12-d39a847c0a51",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1039b",
+      "reference": "Sahih Muslim, hadith 1039 b, book 12, باب الْمِسْكِينِ الَّذِي لاَ يَجِدُ غِنًى وَلاَ يُفْطَنُ لَهُ فَيُتَصَدَّقَ عَلَيْهِ ‏",
+      "title": "باب الْمِسْكِينِ الَّذِي لاَ يَجِدُ غِنًى وَلاَ يُفْطَنُ لَهُ فَيُتَصَدَّقَ عَلَيْهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ ابْنُ أَيُّوبَ حَدَّثَنَا إِسْمَاعِيلُ، - وَهُوَ ابْنُ جَعْفَرٍ - أَخْبَرَنِي شَرِيكٌ، عَنْ عَطَاءِ بْنِ يَسَارٍ، مَوْلَى مَيْمُونَةَ عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَيْسَ الْمِسْكِينُ بِالَّذِي تَرُدُّهُ التَّمْرَةُ وَالتَّمْرَتَانِ وَلاَ اللُّقْمَةُ وَاللُّقْمَتَانِ إِنَّمَا الْمِسْكِينُ الْمُتَعَفِّفُ اقْرَءُوا إِنْ شِئْتُمْ ‏{‏ لاَ يَسْأَلُونَ النَّاسَ إِلْحَافًا‏}‏ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6a956ab3e813fd287a38fcfcd723b160235c9e68c040c4e67d6f1f0b7cf44651",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3dff9041-ee9a-4ff9-a031-5eacb4b0ff27",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1039c",
+      "reference": "Sahih Muslim, hadith 1039 c, book 12, باب الْمِسْكِينِ الَّذِي لاَ يَجِدُ غِنًى وَلاَ يُفْطَنُ لَهُ فَيُتَصَدَّقَ عَلَيْهِ ‏",
+      "title": "باب الْمِسْكِينِ الَّذِي لاَ يَجِدُ غِنًى وَلاَ يُفْطَنُ لَهُ فَيُتَصَدَّقَ عَلَيْهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ أَبُو بَكْرِ بْنُ إِسْحَاقَ، حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، أَخْبَرَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، أَخْبَرَنِي شَرِيكٌ، أَخْبَرَنِي عَطَاءُ بْنُ يَسَارٍ، وَعَبْدُ الرَّحْمَنِ بْنُ أَبِي عَمْرَةَ، أَنَّهُمَا سَمِعَا أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ بِمِثْلِ حَدِيثِ إِسْمَاعِيلَ ‏.‏",
+      "source_hash_sha256": "b9e9bb09aaab7c92a2af4d177eec3ac7995ead4dff332e99d6cd8e9951149fe0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "68cbdcf6-ad7e-439a-a6dc-451f505b1881",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1040a",
+      "reference": "Sahih Muslim, hadith 1040 a, book 12, باب كَرَاهَةِ الْمَسْأَلَةِ لِلنَّاسِ ‏",
+      "title": "باب كَرَاهَةِ الْمَسْأَلَةِ لِلنَّاسِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الأَعْلَى بْنُ عَبْدِ الأَعْلَى، عَنْ مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ بْنِ مُسْلِمٍ، أَخِي الزُّهْرِيِّ عَنْ حَمْزَةَ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَزَالُ الْمَسْأَلَةُ بِأَحَدِكُمْ حَتَّى يَلْقَى اللَّهَ وَلَيْسَ فِي وَجْهِهِ مُزْعَةُ لَحْمٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1ef4d25d247f008cfd41e45fd0f96923e6215bec11c2b39c72e1db06f15b8c4b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : ‘Abd al-A‘la ibn ‘Abd al-A‘la nous a rapporté, d’après Ma‘mar, d’après ‘Abd Allah ibn Muslim, le frère d’al-Zuhri, d’après Hamza ibn ‘Abd Allah, d’après son père, que le Prophète ﷺ a dit : « L’un de vous ne cessera de mendier jusqu’à ce qu’il rencontre Allah sans le moindre morceau de chair sur son visage. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "dc902565-7937-463c-8364-3e9109bae3a9",
+      "reason": "La source ne reprend que la chaîne du récit précédent et indique « le même récit », sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "7ffb252c-82a3-42ec-9c12-d39a847c0a51",
+      "reason": "La source cite directement une expression coranique (sourate 2, verset 273). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "3dff9041-ee9a-4ff9-a031-5eacb4b0ff27",
+      "reason": "La source ne reprend que les chaînes de transmission et renvoie au récit précédent sans en rapporter le texte. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    }
+  ]
+}

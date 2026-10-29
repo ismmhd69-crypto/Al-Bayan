@@ -38162,6 +38162,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0443",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0443.json",
+      "sourceIds": [
+        "9b624044-f1f9-4b3a-b4d6-d290c377f7fa",
+        "dc902565-7937-463c-8364-3e9109bae3a9",
+        "e01adf30-a27a-4d36-85d4-7f543cea4146",
+        "7ffb252c-82a3-42ec-9c12-d39a847c0a51",
+        "3dff9041-ee9a-4ff9-a031-5eacb4b0ff27",
+        "68cbdcf6-ad7e-439a-a6dc-451f505b1881"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one Quran quotation and two incomplete cross-references held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42469,8 +42490,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8072,
-  "hadithLocalRemaining": 6557,
+  "hadithLocalDrafted": 8075,
+  "hadithLocalRemaining": 6554,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -45492,10 +45513,25 @@
       "source_id": "af016538-8eb0-464a-a90c-2de96f9da614",
       "reason": "La source ne fournit que la chaîne et une variante de formulation, en renvoyant au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral.",
       "status": "blocked"
+    },
+    {
+      "source_id": "dc902565-7937-463c-8364-3e9109bae3a9",
+      "reason": "La source ne reprend que la chaîne du récit précédent et indique « le même récit », sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7ffb252c-82a3-42ec-9c12-d39a847c0a51",
+      "reason": "La source cite directement une expression coranique (sourate 2, verset 273). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "3dff9041-ee9a-4ff9-a031-5eacb4b0ff27",
+      "reason": "La source ne reprend que les chaînes de transmission et renvoie au récit précédent sans en rapporter le texte. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1736,
+  "hadithMuslimDrafted": 1739,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 816
+  "hadithNeedsMo": 819
 }

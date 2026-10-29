@@ -9341,3 +9341,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0442 saves six private French drafts on contentment, giving, and religious knowledge.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1736 Muslim drafts, 8072 total hadith drafts, 6557 remaining, and 816 Needs Mo items.
+
+### 2026-10-29: Muslim 1038a–1040a
+
+- FR-LIB-HAD-MUSLIM-0443 saves three private French drafts on generosity and the situation of people in need. Muslim 1038b and 1039c are incomplete cross-references; 1039b quotes Quran 2:273. All three remain blank under Needs Mo.
+- All five source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1739 Muslim drafts, 8075 total hadith drafts, 6554 remaining, and 819 Needs Mo items.
