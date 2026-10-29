@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-922",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:50:12.807Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5ddb21c8-1ee9-4f86-a2a4-267e9af456b5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5043",
+      "reference": "Sahih al-Bukhari, hadith 5043, book 66, باب التَّرْتِيلِ فِي الْقِرَاءَةِ",
+      "title": "باب التَّرْتِيلِ فِي الْقِرَاءَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو النُّعْمَانِ، حَدَّثَنَا مَهْدِيُّ بْنُ مَيْمُونٍ، حَدَّثَنَا وَاصِلٌ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ، قَالَ غَدَوْنَا عَلَى عَبْدِ اللَّهِ فَقَالَ رَجُلٌ قَرَأْتُ الْمُفَصَّلَ الْبَارِحَةَ‏.‏ فَقَالَ هَذًّا كَهَذِّ الشِّعْرِ، إِنَّا قَدْ سَمِعْنَا الْقِرَاءَةَ وَإِنِّي لأَحْفَظُ الْقُرَنَاءَ الَّتِي كَانَ يَقْرَأُ بِهِنَّ النَّبِيُّ صلى الله عليه وسلم ثَمَانِيَ عَشْرَةَ سُورَةً مِنَ الْمُفَصَّلِ وَسُورَتَيْنِ مِنْ آلِ حم‏.‏",
+      "source_hash_sha256": "ff3c53205165d5a1852c78295e1b5802b073cf05b8b8e0ba2dc16a56ae5ed64b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh rapporte : « Nous sommes allés voir ʿAbd Allâh tôt le matin. Un homme dit : “J’ai récité les sourates détaillées la nuit dernière.” Il répondit : “Tu les as récitées trop vite, comme on récite de la poésie. Nous avons entendu la récitation du Prophète et je me rappelle les sourates qu’il récitait : dix-huit des sourates détaillées et deux sourates commençant par Hâ-Mîm.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d93cc55f-1b04-4bc2-a77f-773656c9d37a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5044",
+      "reference": "Sahih al-Bukhari, hadith 5044, book 66, باب التَّرْتِيلِ فِي الْقِرَاءَةِ",
+      "title": "باب التَّرْتِيلِ فِي الْقِرَاءَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنْ مُوسَى بْنِ أَبِي عَائِشَةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ فِي قَوْلِهِ ‏[quran sura=\"75\" aya_start=\"16\" aya_end=\"16\"]{‏لاَ تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ‏}‏ قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا نَزَلَ جِبْرِيلُ بِالْوَحْىِ وَكَانَ مِمَّا يُحَرِّكُ بِهِ لِسَانَهُ وَشَفَتَيْهِ فَيَشْتَدُّ عَلَيْهِ وَكَانَ يُعْرَفُ مِنْهُ، فَأَنْزَلَ اللَّهُ الآيَةَ الَّتِي فِي ‏[quran sura=\"75\" aya_start=\"1\" aya_end=\"1\"]{‏لاَ أُقْسِمُ بِيَوْمِ الْقِيَامَةِ‏}‏ ‏[quran sura=\"75\" aya_start=\"16\" aya_end=\"18\"]{‏لاَ تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ * إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ * فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ‏}‏ فَإِذَا أَنْزَلْنَاهُ فَاسْتَمِعْ ‏[quran sura=\"75\" aya_start=\"19\" aya_end=\"19\"]{‏ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ‏}‏ قَالَ إِنَّ عَلَيْنَا أَنْ نُبَيِّنَهُ بِلِسَانِكَ‏.‏ قَالَ وَكَانَ إِذَا أَتَاهُ جِبْرِيلُ أَطْرَقَ، فَإِذَا ذَهَبَ قَرَأَهُ كَمَا وَعَدَهُ اللَّهُ‏.‏",
+      "source_hash_sha256": "70c24b724b5547f0e66659b7451e0900bcf84cef335bd3a77f3084d0fa505b73",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "758f017e-f58b-4f18-9d24-1c16dc6f1ee9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5045",
+      "reference": "Sahih al-Bukhari, hadith 5045, book 66, باب مَدِّ الْقِرَاءَةِ",
+      "title": "باب مَدِّ الْقِرَاءَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا جَرِيرُ بْنُ حَازِمٍ الأَزْدِيُّ، حَدَّثَنَا قَتَادَةُ، قَالَ سَأَلْتُ أَنَسَ بْنَ مَالِكٍ عَنْ قِرَاءَةِ النَّبِيِّ، صلى الله عليه وسلم فَقَالَ كَانَ يَمُدُّ مَدًّا‏.‏",
+      "source_hash_sha256": "b3fd39a6af624b35ee000c8c344ec1168b39d58ac421b7841054a8881bf65243",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qatâda rapporte qu’il demanda à Anas comment le Prophète récitait. Anas répondit : « Il allongeait les sons. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f61dc11c-bc32-4d91-8421-7eceb3249ff7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5046",
+      "reference": "Sahih al-Bukhari, hadith 5046, book 66, باب مَدِّ الْقِرَاءَةِ",
+      "title": "باب مَدِّ الْقِرَاءَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَاصِمٍ، حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، قَالَ سُئِلَ أَنَسٌ كَيْفَ كَانَتْ قِرَاءَةُ النَّبِيِّ صلى الله عليه وسلم‏.‏ فَقَالَ كَانَتْ مَدًّا‏.‏ ثُمَّ قَرَأَ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ، يَمُدُّ بِبِسْمِ اللَّهِ، وَيَمُدُّ بِالرَّحْمَنِ، وَيَمُدُّ بِالرَّحِيمِ‏.‏",
+      "source_hash_sha256": "7dd930369a6d09434985ff77c701b9035b7a019ac094f00449afd847c30ccd3f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3d3132fc-ae3d-4798-a869-64054db0ae29",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5047",
+      "reference": "Sahih al-Bukhari, hadith 5047, book 66, باب التَّرْجِيعِ",
+      "title": "باب التَّرْجِيعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا أَبُو إِيَاسٍ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ مُغَفَّلٍ، قَالَ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ وَهْوَ عَلَى نَاقَتِهِ ـ أَوْ جَمَلِهِ ـ وَهْىَ تَسِيرُ بِهِ وَهْوَ يَقْرَأُ سُورَةَ الْفَتْحِ أَوْ مِنْ سُورَةِ الْفَتْحِ قِرَاءَةً لَيِّنَةً يَقْرَأُ وَهْوَ يُرَجِّعُ‏.‏",
+      "source_hash_sha256": "05024516b18b264b2b0ccad7cb55a80f7417b9799027289623444bfef5db3377",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn Mughaffal rapporte : « J’ai vu le Prophète réciter la sourate al-Fath, ou une partie de cette sourate, sur sa chamelle — ou son chameau — alors qu’elle avançait. Il récitait doucement avec une modulation. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b8f77a5d-6b37-43cf-8a15-ec3d18834501",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5048",
+      "reference": "Sahih al-Bukhari, hadith 5048, book 66, باب حُسْنِ الصَّوْتِ بِالْقِرَاءَةِ لِلْقُرْآنِ",
+      "title": "باب حُسْنِ الصَّوْتِ بِالْقِرَاءَةِ لِلْقُرْآنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ خَلَفٍ أَبُو بَكْرٍ، حَدَّثَنَا أَبُو يَحْيَى الْحِمَّانِيُّ، حَدَّثَنَا بُرَيْدُ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي بُرْدَةَ، عَنْ جَدِّهِ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ لَهُ ‏\"‏ يَا أَبَا مُوسَى لَقَدْ أُوتِيتَ مِزْمَارًا مِنْ مَزَامِيرِ آلِ دَاوُدَ ‏\"‏‏.‏",
+      "source_hash_sha256": "470e4177493e7652c5b2abd24f75539e161285d6169619c83bc0d1662bd75465",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Mûsâ rapporte que le Prophète (paix et bénédictions sur lui) lui dit : « Ô Abû Mûsâ, tu as reçu une voix semblable aux instruments mélodieux de la famille de Dâwûd. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d93cc55f-1b04-4bc2-a77f-773656c9d37a",
+      "url": "https://sunnah.com/bukhari:5044",
+      "reason": "Le rapport cite directement Quran 75:1, 16–19. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-922, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "f61dc11c-bc32-4d91-8421-7eceb3249ff7",
+      "url": "https://sunnah.com/bukhari:5046",
+      "reason": "Le rapport cite directement la formule coranique Bismillah ar-Rahman ar-Rahim. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-922, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
