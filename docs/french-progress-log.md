@@ -11430,3 +11430,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1830-1833a
 
 - FR-LIB-HAD-MUSLIM-0867 saves six private French drafts about fair leadership and prohibiting gifts to officials. The reports preserve the source chains and distinct wordings. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1833b-1835d
+
+- FR-LIB-HAD-MUSLIM-0868 saves two private French drafts about obedience to the Messenger and appointed officials, preserving a wording difference. The Quran-quoting report and three chain-only cross-references remain entirely blank under Needs Mo with specific reasons. No database write or publication occurred.
