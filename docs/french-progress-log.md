@@ -585,3 +585,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-112` saved private French drafts for Bukhari 614–619. The translations retain the narrator chains, the full post-adhan supplication and its promised intercession, the report’s distinction between the two calls at night, and the instruction to pray in dwellings on a muddy day.
 - The batch passed the focused validator for all six records, including Arabic hashes, IDs, rights, private unpublished state and the one-item limit for long reports. No Needs Mo item was identified in this batch. No database writes or publication occurred.
 - Bukhari local drafts: 577 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 28. Total local hadith rows not drafted: 14,052, including held records.
+
+### 2026-10-29: Bukhari 620–626 source review
+
+- `FR-LIB-HAD-BUKHARI-113` saved private French drafts for Bukhari 620, 621, 622, 624, 625 and 626. The wording preserves the early-night call and suhur instruction, the dawn explanation and hand gesture, both chains in the combined 622/623 record, the optional prayer between calls, and both timing variants in the report about two units before Maghrib.
+- The batch passed the focused validator for all six records, including Arabic hashes, rights metadata, private unpublished state and the long-record rule. No Needs Mo item was identified in this batch. No database writes or publication occurred.
+- Bukhari local drafts: 583 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 28. Total local hadith rows not drafted: 14,046, including held records.
