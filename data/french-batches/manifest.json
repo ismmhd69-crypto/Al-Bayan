@@ -20920,6 +20920,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-977",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-977.json",
+      "sourceIds": [
+        "b60f4b3f-36f8-4098-acca-d0d2c02b11e5"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -23898,6 +23914,18 @@
       "scope": "Sahih al-Bukhari 5344: direct Quran quotations from 2:234 and 2:240",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:234 and 2:240. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5358-LONG-SOURCE-REVIEW",
+      "scope": "Sahih al-Bukhari 5358: 4,004-character complex narration",
+      "status": "blocked",
+      "reason": "This unusually long, complex report needs completeness and meaning review before translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5358-QURAN-59-6",
+      "scope": "Sahih al-Bukhari 5358: direct Quran quotation from 59:6",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 59:6. Keep the complete translation blank pending an approved, attributed French Quran translation."
     }
   ],
   "hadithBukhariDrafted": 4394,
