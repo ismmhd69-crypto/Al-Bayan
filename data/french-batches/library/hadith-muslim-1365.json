@@ -1,0 +1,141 @@
+{
+  "batch_id": "HADITH-MUSLIM-1365",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:53:13.689Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "dc344274-69c9-4e52-8ebb-d0182b28bcad",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1211a",
+      "reference": "Sahih Muslim, hadith 1211 ah, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَأَبُو كُرَيْبٍ عَنْ أَبِي مُعَاوِيَةَ، عَنِ الأَعْمَشِ، ح وَحَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، جَمِيعًا عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ نَحْوَ حَدِيثِ الْحَكَمِ غَيْرَ أَنَّهُمَا لاَ يَذْكُرَانِ كَئِيبَةً حَزِينَةً ‏.‏",
+      "source_hash_sha256": "631ec990d5df13b74cc2c4a5749335bab1bc5e044ccd77d1aaa2f2eff384955d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f2b37912-cf1e-4607-95b3-b8261bbc3cd6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1211a",
+      "reference": "Sahih Muslim, hadith 1211 a, book 15, باب بَيَانِ وُجُوهِ الإِحْرَامِ وَأَنَّهُ يَجُوزُ إِفْرَادُ الْحَجِّ وَالتَّمَتُّعِ وَالْقِرَانِ وَجَوَازِ إِدْخَالِ الْحَجِّ عَلَى الْعُمْرَةِ وَمَتَى يَحِلُّ الْقَارِنُ مِنْ نُسُكِهِ",
+      "title": "باب بَيَانِ وُجُوهِ الإِحْرَامِ وَأَنَّهُ يَجُوزُ إِفْرَادُ الْحَجِّ وَالتَّمَتُّعِ وَالْقِرَانِ وَجَوَازِ إِدْخَالِ الْحَجِّ عَلَى الْعُمْرَةِ وَمَتَى يَحِلُّ الْقَارِنُ مِنْ نُسُكِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، - رضى الله عنها - أَنَّهَا قَالَتْ خَرَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم عَامَ حَجَّةِ الْوَدَاعِ فَأَهْلَلْنَا بِعُمْرَةٍ ثُمَّ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ كَانَ مَعَهُ هَدْىٌ فَلْيُهِلَّ بِالْحَجِّ مَعَ الْعُمْرَةِ ثُمَّ لاَ يَحِلُّ حَتَّى يَحِلَّ مِنْهُمَا جَمِيعًا ‏\"‏ ‏.‏ قَالَتْ فَقَدِمْتُ مَكَّةَ وَأَنَا حَائِضٌ لَمْ أَطُفْ بِالْبَيْتِ وَلاَ بَيْنَ الصَّفَا وَالْمَرْوَةِ فَشَكَوْتُ ذَلِكَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ انْقُضِي رَأْسَكِ وَامْتَشِطِي وَأَهِلِّي بِالْحَجِّ وَدَعِي الْعُمْرَةَ ‏\"‏ ‏.‏ قَالَتْ فَفَعَلْتُ فَلَمَّا قَضَيْنَا الْحَجَّ أَرْسَلَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم مَعَ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرٍ إِلَى التَّنْعِيمِ فَاعْتَمَرْتُ فَقَالَ ‏\"‏ هَذِهِ مَكَانَ عُمْرَتِكِ ‏\"‏ ‏.‏ فَطَافَ الَّذِينَ أَهَلُّوا بِالْعُمْرَةِ بِالْبَيْتِ وَبِالصَّفَا وَالْمَرْوَةِ ثُمَّ حَلُّوا ثُمَّ طَافُوا طَوَافًا آخَرَ بَعْدَ أَنْ رَجَعُوا مِنْ مِنًى لِحَجِّهِمْ وَأَمَّا الَّذِينَ كَانُوا جَمَعُوا الْحَجَّ وَالْعُمْرَةَ فَإِنَّمَا طَافُوا طَوَافًا وَاحِدًا ‏.‏",
+      "source_hash_sha256": "4857e172c0676955d3069e94c1e5ff018dfef672b8cd40eb66aacb2a916b66f9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte : Nous sommes partis avec le Messager d’Allah ﷺ pour le pèlerinage d’Adieu et avons prononcé la formule d’entrée en état de sacralisation pour la ʿumra. Le Messager d’Allah ﷺ dit : « Que celui qui a avec lui une offrande prononce aussi la formule pour le hajj avec la ʿumra, puis qu’il ne sorte pas de l’état de sacralisation avant d’avoir accompli les deux. » J’arrivai à La Mecque alors que j’avais mes menstrues ; je n’avais pas accompli la circumambulation autour de la Maison ni entre al-Safâ et al-Marwa. Je m’en plaignis au Messager d’Allah ﷺ. Il me dit : « Défait tes cheveux, peigne-toi, entre en état de sacralisation pour le hajj et laisse la ʿumra. » Je fis ce qu’il me demanda. Après le pèlerinage, le Messager d’Allah ﷺ m’envoya avec ʿAbd al-Rahmân ibn Abî Bakr à al-Tanʿîm, où j’accomplis une ʿumra. Il me dit : « Celle-ci remplace ta ʿumra. » Ceux qui avaient entrepris la ʿumra firent la circumambulation autour de la Maison et entre al-Safâ et al-Marwa, puis sortirent de l’état de sacralisation. Après leur retour de Minâ, ils accomplirent une autre circumambulation pour le hajj. Quant à ceux qui avaient associé le hajj et la ʿumra, ils n’accomplirent qu’une seule circumambulation.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1f78fd7a-c1c0-4394-aa5e-73248035867d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:157L",
+      "reference": "Sahih Muslim, hadith 157 L, book 54, بَاب لَا تَقُومُ السَّاعَةُ حَتَّى يَمُرَّ الرَّجُلُ بِقَبْرِ الرَّجُلِ فَيَتَمَنَّى أَنْ يَكُونَ مَكَانَ الْمَيِّتِ مِنْ الْبَلَاءِ",
+      "title": "بَاب لَا تَقُومُ السَّاعَةُ حَتَّى يَمُرَّ الرَّجُلُ بِقَبْرِ الرَّجُلِ فَيَتَمَنَّى أَنْ يَكُونَ مَكَانَ الْمَيِّتِ مِنْ الْبَلَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عُمَرَ بْنِ مُحَمَّدِ بْنِ أَبَانَ بْنِ صَالِحٍ، وَمُحَمَّدُ بْنُ يَزِيدَ الرِّفَاعِيُّ، - وَاللَّفْظُ لاِبْنِ أَبَانَ - قَالاَ حَدَّثَنَا ابْنُ فُضَيْلٍ، عَنْ أَبِي إِسْمَاعِيلَ، عَنْ أَبِي حَازِمٍ، عَنْ أَبِي، هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَالَّذِي نَفْسِي بِيَدِهِ لاَ تَذْهَبُ الدُّنْيَا حَتَّى يَمُرَّ الرَّجُلُ عَلَى الْقَبْرِ فَيَتَمَرَّغُ عَلَيْهِ وَيَقُولُ يَا لَيْتَنِي كُنْتُ مَكَانَ صَاحِبِ هَذَا الْقَبْرِ وَلَيْسَ بِهِ الدِّينُ إِلاَّ الْبَلاَءُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e773f92b6e17013f44fa1266a057dffa04a7be2df7f368d34bcc1840f413a760",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Par Celui qui tient mon âme en Sa main, le monde ne prendra pas fin avant qu’un homme ne passe près d’une tombe, se roule dessus et dise : “Si seulement j’étais à la place de l’occupant de cette tombe !” Ce ne sera pas à cause de la religion, mais à cause des épreuves. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bcf05952-f790-4b6b-9b31-80daffdff77e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715a",
+      "reference": "Sahih Muslim, hadith 715 a, book 6, باب اسْتِحْبَابِ تَحِيَّةِ الْمَسْجِدِ بِرَكْعَتَيْنِ وَكَرَاهَةِ الْجُلُوسِ قَبْلَ صَلاَتِهِمَا وَأَنَّهَا مَشْرُوعَةٌ فِي جَمِيعِ الأَوْقَاتِ",
+      "title": "باب اسْتِحْبَابِ تَحِيَّةِ الْمَسْجِدِ بِرَكْعَتَيْنِ وَكَرَاهَةِ الْجُلُوسِ قَبْلَ صَلاَتِهِمَا وَأَنَّهَا مَشْرُوعَةٌ فِي جَمِيعِ الأَوْقَاتِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ جَوَّاسٍ الْحَنَفِيُّ أَبُو عَاصِمٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ الأَشْجَعِيُّ، عَنْ سُفْيَانَ، عَنْ مُحَارِبِ بْنِ دِثَارٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ كَانَ لِي عَلَى النَّبِيِّ صلى الله عليه وسلم دَيْنٌ فَقَضَانِي وَزَادَنِي وَدَخَلْتُ عَلَيْهِ الْمَسْجِدَ فَقَالَ لِي ‏\"‏ صَلِّ رَكْعَتَيْنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "de5edc9b52018a5c9424d57f2a473c4c1daeeea5696a1c2e664918ffd27536f3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir ibn ʿAbd Allâh rapporte : J’avais une dette envers le Prophète ﷺ. Il me remboursa et ajouta quelque chose. J’entrai ensuite dans la mosquée et il me dit : « Prie deux unités de prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fdb55992-cf16-45fa-b772-6aa4c78beb72",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715a",
+      "reference": "Sahih Muslim, hadith 715 ab, book 33, باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "title": "باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ مُحَارِبٍ، عَنْ جَابِرٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يَطْرُقَ الرَّجُلُ أَهْلَهُ لَيْلاً يَتَخَوَّنُهُمْ أَوْ يَلْتَمِسُ عَثَرَاتِهِمْ ‏.‏",
+      "source_hash_sha256": "c241bcd74dd9f0cec4364d888958424006ea2d0a5218e4c2f03f88be57b6d9e7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte que le Messager d’Allah ﷺ a interdit à un homme de surprendre sa famille en arrivant de nuit, en suspectant qu’elle lui cache quelque chose ou en cherchant à découvrir ses défauts.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "dc344274-69c9-4e52-8ebb-d0182b28bcad",
+      "status": "blocked",
+      "reason": "Cette entrée indique seulement que deux voies de transmission donnent un récit semblable à une version précédente, avec une omission; elle ne reproduit pas le récit complet. Traduction en attente du texte intégral."
+    }
+  ]
+}
