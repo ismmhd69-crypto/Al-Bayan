@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0440",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:20:38.849Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f783e86a-f9f9-4f6f-9c5f-36b6e70e4c58",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1029a",
+      "reference": "Sahih Muslim, hadith 1029 a, book 12, باب الْحَثِّ فِي الإِنْفَاقِ وَكَرَاهَةِ الإِحْصَاءِ ‏‏",
+      "title": "باب الْحَثِّ فِي الإِنْفَاقِ وَكَرَاهَةِ الإِحْصَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصٌ، - يَعْنِي ابْنَ غِيَاثٍ - عَنْ هِشَامٍ، عَنْ فَاطِمَةَ بِنْتِ الْمُنْذِرِ، عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ، - رضى الله عنها - قَالَتْ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَنْفِقِي - أَوِ انْضَحِي أَوِ انْفَحِي - وَلاَ تُحْصِي فَيُحْصِيَ اللَّهُ عَلَيْكِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ff884b0626d01b3e63184ca293e64f5d368063e24aed0cf7e6ba583c0fc0b2c5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Hafs — Ibn Ghiyath — nous a rapporté, d’après Hisham, d’après Fatima bint al-Mundhir, d’après Asma’ bint Abi Bakr, qu’Allah l’agrée, qui a dit : Le Messager d’Allah ﷺ m’a dit : « Dépense — ou donne généreusement — sans compter, de peur qu’Allah ne compte contre toi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b0ab5ac7-1486-4650-91f6-751b2c070486",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1029b",
+      "reference": "Sahih Muslim, hadith 1029 b, book 12, باب الْحَثِّ فِي الإِنْفَاقِ وَكَرَاهَةِ الإِحْصَاءِ ‏‏",
+      "title": "باب الْحَثِّ فِي الإِنْفَاقِ وَكَرَاهَةِ الإِحْصَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، جَمِيعًا عَنْ أَبِي، مُعَاوِيَةَ - قَالَ زُهَيْرٌ حَدَّثَنَا مُحَمَّدُ بْنُ خَازِمٍ، - حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ عَبَّادِ بْنِ حَمْزَةَ، وَعَنْ فَاطِمَةَ بِنْتِ الْمُنْذِرِ، عَنْ أَسْمَاءَ، قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ انْفَحِي - أَوِ انْضَحِي أَوْ أَنْفِقِي - وَلاَ تُحْصِي فَيُحْصِيَ اللَّهُ عَلَيْكِ وَلاَ تُوعِي فَيُوعِيَ اللَّهُ عَلَيْكِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "af3293a63cc95cfcbaf43b2d0ce2a046cfaf56fa72fc2e03b07face8201a83e1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Amr al-Naqid, Zuhayr ibn Harb et Ishaq ibn Ibrahim nous ont rapporté, tous d’après Abu Mu‘awiya. Zuhayr dit : Muhammad ibn Khazim nous a rapporté : Hisham ibn ‘Urwa nous a rapporté, d’après ‘Abbad ibn Hamza et Fatima bint al-Mundhir, d’après Asma’, qui a dit que le Messager d’Allah ﷺ a dit : « Donne généreusement — ou dépense — sans compter, de peur qu’Allah ne compte contre toi ; ne garde pas tout pour toi, de peur qu’Allah ne retienne Ses dons à ton égard. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b03dca4c-43e2-48c4-a271-669630865955",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1029c",
+      "reference": "Sahih Muslim, hadith 1029 c, book 12, باب الْحَثِّ فِي الإِنْفَاقِ وَكَرَاهَةِ الإِحْصَاءِ ‏‏",
+      "title": "باب الْحَثِّ فِي الإِنْفَاقِ وَكَرَاهَةِ الإِحْصَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، حَدَّثَنَا هِشَامٌ، عَنْ عَبَّادِ بْنِ حَمْزَةَ، عَنْ أَسْمَاءَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ لَهَا نَحْوَ حَدِيثِهِمْ ‏.‏",
+      "source_hash_sha256": "f6fd08c0f122b88a5d67fab8642210134abe2b7bc3ee850d40b2df030ad08776",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90a9e9c9-4a44-41fe-b34b-fd959349e5d4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1029d",
+      "reference": "Sahih Muslim, hadith 1029 d, book 12, باب الْحَثِّ فِي الإِنْفَاقِ وَكَرَاهَةِ الإِحْصَاءِ ‏‏",
+      "title": "باب الْحَثِّ فِي الإِنْفَاقِ وَكَرَاهَةِ الإِحْصَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، قَالاَ حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، قَالَ قَالَ ابْنُ جُرَيْجٍ أَخْبَرَنِي ابْنُ أَبِي مُلَيْكَةَ، أَنَّ عَبَّادَ بْنَ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، أَخْبَرَهُ عَنْ أَسْمَاءَ، بِنْتِ أَبِي بَكْرٍ أَنَّهَا جَاءَتِ النَّبِيَّ صلى الله عليه وسلم فَقَالَتْ يَا نَبِيَّ اللَّهِ لَيْسَ لِي شَىْءٌ إِلاَّ مَا أَدْخَلَ عَلَىَّ الزُّبَيْرُ فَهَلْ عَلَىَّ جُنَاحٌ أَنْ أَرْضَخَ مِمَّا يُدْخِلُ عَلَىَّ فَقَالَ ‏\"‏ ارْضَخِي مَا اسْتَطَعْتِ وَلاَ تُوعِي فَيُوعِيَ اللَّهُ عَلَيْكِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c7841a08d140abf62b3f1b2067539637cc76c2a40a42e515d7a2066009aa5f44",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim et Harun ibn ‘Abd Allah m’ont rapporté : Hajjaj ibn Muhammad nous a rapporté : Ibn Jurayj a dit : Ibn Abi Mulayka m’a informé qu’‘Abbad ibn ‘Abd Allah ibn al-Zubayr lui avait rapporté, d’après Asma’ bint Abi Bakr : Elle vint trouver le Prophète ﷺ et dit : « Ô Prophète d’Allah, je ne possède rien d’autre que ce que al-Zubayr m’apporte. Est-ce un péché si je donne une petite part de ce qu’il m’apporte ? » Il répondit : « Donne ce que tu peux, sans tout garder, de peur qu’Allah ne retienne Ses dons à ton égard. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b42b2e49-4d98-4d88-952e-846d11e96bf5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1030",
+      "reference": "Sahih Muslim, hadith 1030, book 12, باب الْحَثِّ عَلَى الصَّدَقَةِ وَلَوْ بِالْقَلِيلِ وَلاَ تُمْتَنَعُ مِنَ الْقَلِيلِ لاِحْتِقَارِهِ ‏",
+      "title": "باب الْحَثِّ عَلَى الصَّدَقَةِ وَلَوْ بِالْقَلِيلِ وَلاَ تُمْتَنَعُ مِنَ الْقَلِيلِ لاِحْتِقَارِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا اللَّيْثُ بْنُ سَعْدٍ، ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا اللَّيْثُ، عَنْ سَعِيدِ بْنِ أَبِي سَعِيدٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَقُولُ ‏\"‏ يَا نِسَاءَ الْمُسْلِمَاتِ لاَ تَحْقِرَنَّ جَارَةٌ لِجَارَتِهَا وَلَوْ فِرْسِنَ شَاةٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cf2c0c14abfc26a586b7c8c0fd8211cd177c548710acf1265a0cd65f9da870c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a informés : al-Layth ibn Sa‘d nous a rapporté. Qutayba ibn Sa‘id nous a également rapporté : al-Layth nous a rapporté, d’après Sa‘id ibn Abi Sa‘id, d’après son père, d’après Abu Hurayra, que le Messager d’Allah ﷺ disait : « Ô femmes musulmanes, qu’aucune voisine ne méprise le cadeau qu’une autre voisine lui offre, même s’il ne s’agit que d’un pied de mouton. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "99e2efa2-43f4-4bc6-acd8-08f1be6e1b15",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1031a",
+      "reference": "Sahih Muslim, hadith 1031 a, book 12, باب فَضْلِ إِخْفَاءِ الصَّدَقَةِ ‏",
+      "title": "باب فَضْلِ إِخْفَاءِ الصَّدَقَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، جَمِيعًا عَنْ يَحْيَى الْقَطَّانِ، - قَالَ زُهَيْرٌ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، - عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي خُبَيْبُ بْنُ عَبْدِ الرَّحْمَنِ، عَنْ حَفْصِ بْنِ عَاصِمٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ سَبْعَةٌ يُظِلُّهُمُ اللَّهُ فِي ظِلِّهِ يَوْمَ لاَ ظِلَّ إِلاَّ ظِلُّهُ الإِمَامُ الْعَادِلُ وَشَابٌّ نَشَأَ بِعِبَادَةِ اللَّهِ وَرَجُلٌ قَلْبُهُ مُعَلَّقٌ فِي الْمَسَاجِدِ وَرَجُلاَنِ تَحَابَّا فِي اللَّهِ اجْتَمَعَا عَلَيْهِ وَتَفَرَّقَا عَلَيْهِ وَرَجُلٌ دَعَتْهُ امْرَأَةٌ ذَاتُ مَنْصِبٍ وَجَمَالٍ فَقَالَ إِنِّي أَخَافُ اللَّهَ ‏.‏ وَرَجُلٌ تَصَدَّقَ بِصَدَقَةٍ فَأَخْفَاهَا حَتَّى لاَ تَعْلَمَ يَمِينُهُ مَا تُنْفِقُ شِمَالُهُ وَرَجُلٌ ذَكَرَ اللَّهَ خَالِيًا فَفَاضَتْ عَيْنَاهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1b80fd0ce58a7cc1063fdf9a1280d4fd34dfeab9b81439a7183a1a84fb9ccb33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Muhammad ibn al-Muthanna m’ont rapporté, tous deux d’après Yahya al-Qattan. Zuhayr dit : Yahya ibn Sa‘id nous a rapporté, d’après ‘Ubayd Allah, qui m’a informé, d’après Khubayb ibn ‘Abd al-Rahman, d’après Hafs ibn ‘Asim, d’après Abu Hurayra, d’après le Prophète ﷺ, qui a dit : « Sept personnes seront abritées sous l’ombre d’Allah, le jour où il n’y aura d’autre ombre que la Sienne : un dirigeant juste ; un jeune qui a grandi dans l’adoration d’Allah ; un homme dont le cœur est attaché aux mosquées ; deux hommes qui s’aiment pour Allah, se réunissent pour Lui et se séparent pour Lui ; un homme sollicité par une femme de haut rang et de grande beauté, à qui il répond : “Je crains Allah” ; un homme qui fait une aumône en la dissimulant au point que sa main droite ignore ce que sa main gauche dépense ; et un homme qui évoque Allah seul et dont les yeux débordent de larmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b03dca4c-43e2-48c4-a271-669630865955",
+      "reason": "La source ne rapporte que la chaîne de transmission et renvoie aux versions précédentes par « dans le même sens », sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral."
+    }
+  ]
+}
