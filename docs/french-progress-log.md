@@ -11774,3 +11774,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2020a-2022b
 
 - FR-LIB-HAD-MUSLIM-0953 saves five complete private French drafts about eating and drinking with the right hand and table manners. One chain-only entry remains blank with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2023a-2024c
+
+- FR-LIB-HAD-MUSLIM-0954 saves four complete private French drafts about drinking from waterskins and while standing. Two entries that refer back to prior reports remain blank with specific Needs Mo reasons. No database write or publication occurred.

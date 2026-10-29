@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0954",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:36:02.819Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "324077ba-14da-4c6b-985d-7c0470a8b58c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2023a",
+      "reference": "Sahih Muslim, hadith 2023 a, book 36, باب آدَابِ الطَّعَامِ وَالشَّرَابِ وَأَحْكَامِهِمَا ‏‏",
+      "title": "باب آدَابِ الطَّعَامِ وَالشَّرَابِ وَأَحْكَامِهِمَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ اللَّهِ، عَنْ أَبِي سَعِيدٍ، قَالَ نَهَى النَّبِيُّ صلى الله عليه وسلم عَنِ اخْتِنَاثِ الأَسْقِيَةِ ‏.‏",
+      "source_hash_sha256": "318861daa922a2bd4ba6e0752e0f2ad9a629a0b20984d753978659be8c42c42e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète a interdit de plier l’ouverture des outres pour boire directement à leur embouchure.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "71e67a08-4cd8-47fc-870a-d86f3add5b14",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2023b",
+      "reference": "Sahih Muslim, hadith 2023 b, book 36, باب آدَابِ الطَّعَامِ وَالشَّرَابِ وَأَحْكَامِهِمَا ‏‏",
+      "title": "باب آدَابِ الطَّعَامِ وَالشَّرَابِ وَأَحْكَامِهِمَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّهُ قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ اخْتِنَاثِ الأَسْقِيَةِ أَنْ يُشْرَبَ مِنْ أَفْوَاهِهَا ‏.‏",
+      "source_hash_sha256": "b4c72596864475ff69f211b28e901b6fe0504778f6e3b5fe8d5be572b7bb2247",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Sa‘îd al-Khudrî rapporte que le Messager d’Allah a interdit de plier l’ouverture des outres afin de boire directement à leur embouchure.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8f585ca4-a2d1-4b0f-bd54-c3c78301d048",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2023c",
+      "reference": "Sahih Muslim, hadith 2023 c, book 36, باب آدَابِ الطَّعَامِ وَالشَّرَابِ وَأَحْكَامِهِمَا ‏‏",
+      "title": "باب آدَابِ الطَّعَامِ وَالشَّرَابِ وَأَحْكَامِهِمَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ غَيْرَ أَنَّهُ قَالَ وَاخْتِنَاثُهَا أَنْ يُقْلَبَ رَأْسُهَا ثُمَّ يُشْرَبَ مِنْهُ ‏.‏",
+      "source_hash_sha256": "1888a20fb3cee6336a5ba449e9a0bca2c432ffdf35ef5dcc1346db432673da6c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "446fd435-2bcf-483b-a8df-42c78aef4589",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2024a",
+      "reference": "Sahih Muslim, hadith 2024 a, book 36, باب كَرَاهِيَةِ الشُّرْبِ قَائِمًا ‏‏",
+      "title": "باب كَرَاهِيَةِ الشُّرْبِ قَائِمًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم زَجَرَ عَنِ الشُّرْبِ قَائِمًا ‏.‏",
+      "source_hash_sha256": "0c8b3992c32d58e080c450cae4994b51295a7bb0d90657cfd1cb6960705441fd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Prophète a réprimandé ceux qui buvaient debout.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eff3dbb8-6c30-4516-a9c8-81e2121bcd0e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2024b",
+      "reference": "Sahih Muslim, hadith 2024 b, book 36, باب كَرَاهِيَةِ الشُّرْبِ قَائِمًا ‏‏",
+      "title": "باب كَرَاهِيَةِ الشُّرْبِ قَائِمًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الأَعْلَى، حَدَّثَنَا سَعِيدٌ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ نَهَى أَنْ يَشْرَبَ الرَّجُلُ قَائِمًا ‏.‏ قَالَ قَتَادَةُ فَقُلْنَا فَالأَكْلُ فَقَالَ ذَاكَ أَشَرُّ أَوْ أَخْبَثُ ‏.‏",
+      "source_hash_sha256": "e86bde3ca164e36549e7a3485639739c22b6b43471d5e0d6982f35cea9aa5914",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Prophète a interdit à un homme de boire debout. Qatâda dit : Nous demandâmes : « Et manger debout ? » Il répondit : « C’est encore pire, ou plus détestable. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1a7c25e8-9546-45f8-bc43-161992b30a61",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2024c",
+      "reference": "Sahih Muslim, hadith 2024 c, book 36, باب كَرَاهِيَةِ الشُّرْبِ قَائِمًا ‏‏",
+      "title": "باب كَرَاهِيَةِ الشُّرْبِ قَائِمًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ قُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ قَالاَ حَدَّثَنَا وَكِيعٌ، عَنْ هِشَامٍ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ وَلَمْ يَذْكُرْ قَوْلَ قَتَادَةَ ‏.‏",
+      "source_hash_sha256": "b94e3391dfee2d95a4d5aa25ddfc950e62231fc23af92e6877b31f22ebebdb23",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "8f585ca4-a2d1-4b0f-bd54-c3c78301d048",
+      "reason": "Cette entrée renvoie au récit précédent et précise seulement ce que signifie retourner l’ouverture de l’outre. Elle ne reprend pas le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1a7c25e8-9546-45f8-bc43-161992b30a61",
+      "reason": "Cette entrée renvoie au récit précédent sans en reprendre le contenu et indique seulement qu’une remarque du transmetteur n’a pas été rapportée. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
