@@ -10131,3 +10131,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0600 saves four private French drafts about the permitted stay in Mecca after pilgrimage and the sanctity of Mecca. Muslim 1352e and 1353b only refer to earlier reports and give variant details, so they remain blank under Needs Mo. The oversized source remains queued for isolated handling.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1353d–1357
+
+- FR-LIB-HAD-MUSLIM-0601 saves five private French drafts about the sanctity of Mecca, its conquest, and rules on weapons and lost property. Muslim 1353d contains only a cross-reference to an earlier report and remains blank under Needs Mo. The oversized source remains queued for isolated handling.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

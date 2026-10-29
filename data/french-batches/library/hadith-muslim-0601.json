@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0601",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:25:27.701Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ec7065e2-d5f7-4406-87f2-40a20dd78055",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1353d",
+      "reference": "Sahih Muslim, hadith 1353 d, book 33, باب الْمُبَايَعَةِ بَعْدَ فَتْحِ مَكَّةَ عَلَى الإِسْلاَمِ وَالْجِهَادِ وَالْخَيْرِ وَبَيَانِ مَعْنَى: «لاَ هِجْرَةَ بَعْدَ الْفَتْحِ»",
+      "title": "باب الْمُبَايَعَةِ بَعْدَ فَتْحِ مَكَّةَ عَلَى الإِسْلاَمِ وَالْجِهَادِ وَالْخَيْرِ وَبَيَانِ مَعْنَى: «لاَ هِجْرَةَ بَعْدَ الْفَتْحِ»",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، وَابْنُ، رَافِعٍ عَنْ يَحْيَى بْنِ آدَمَ، حَدَّثَنَا مُفَضَّلٌ، - يَعْنِي ابْنَ مُهَلْهِلٍ - ح وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ إِسْرَائِيلَ، كُلُّهُمْ عَنْ مَنْصُورٍ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "896707b4ee7b62a9c0dddf6cd9e5a0d527ba5ae18cf654253f9b9d1660ec7932",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "21d208ee-a438-4667-bbaa-1e8f477b7069",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1354",
+      "reference": "Sahih Muslim, hadith 1354, book 15, باب تَحْرِيمِ مَكَّةَ وَصَيْدِهَا وَخَلاَهَا وَشَجَرِهَا وَلُقَطَتِهَا إِلاَّ لِمُنْشِدٍ عَلَى الدَّوَام",
+      "title": "باب تَحْرِيمِ مَكَّةَ وَصَيْدِهَا وَخَلاَهَا وَشَجَرِهَا وَلُقَطَتِهَا إِلاَّ لِمُنْشِدٍ عَلَى الدَّوَام",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ سَعِيدِ بْنِ أَبِي سَعِيدٍ، عَنْ أَبِي شُرَيْحٍ الْعَدَوِيِّ، أَنَّهُ قَالَ لِعَمْرِو بْنِ سَعِيدٍ وَهُوَ يَبْعَثُ الْبُعُوثَ إِلَى مَكَّةَ ائْذَنْ لِي أَيُّهَا الأَمِيرُ أُحَدِّثْكَ قَوْلاً قَامَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم الْغَدَ مِنْ يَوْمِ الْفَتْحِ سَمِعَتْهُ أُذُنَاىَ وَوَعَاهُ قَلْبِي وَأَبْصَرَتْهُ عَيْنَاىَ حِينَ تَكَلَّمَ بِهِ أَنَّهُ حَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ ثُمَّ قَالَ ‏\"‏ إِنَّ مَكَّةَ حَرَّمَهَا اللَّهُ وَلَمْ يُحَرِّمْهَا النَّاسُ فَلاَ يَحِلُّ لاِمْرِئٍ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ أَنْ يَسْفِكَ بِهَا دَمًا وَلاَ يَعْضِدَ بِهَا شَجَرَةً فَإِنْ أَحَدٌ تَرَخَّصَ بِقِتَالِ رَسُولِ اللَّهِ صلى الله عليه وسلم فِيهَا فَقُولُوا لَهُ إِنَّ اللَّهَ أَذِنَ لِرَسُولِهِ وَلَمْ يَأْذَنْ لَكُمْ وَإِنَّمَا أَذِنَ لِي فِيهَا سَاعَةً مِنْ نَهَارٍ وَقَدْ عَادَتْ حُرْمَتُهَا الْيَوْمَ كَحُرْمَتِهَا بِالأَمْسِ وَلْيُبَلِّغِ الشَّاهِدُ الْغَائِبَ ‏\"‏ ‏.‏ فَقِيلَ لأَبِي شُرَيْحٍ مَا قَالَ لَكَ عَمْرٌو قَالَ أَنَا أَعْلَمُ بِذَلِكَ مِنْكَ يَا أَبَا شُرَيْحٍ إِنَّ الْحَرَمَ لاَ يُعِيذُ عَاصِيًا وَلاَ فَارًّا بِدَمٍ وَلاَ فَارًّا بِخَرْبَةٍ ‏.‏",
+      "source_hash_sha256": "8d8fd88ac624535db99ec18bc0ab571d5deba0b45adf36f52243cc48f5af0e79",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Shurayh al-Adawi dit à Amr ibn Sa‘id, alors que celui-ci envoyait des troupes à La Mecque : « Permets-moi, ô émir, de te rapporter une parole que le Messager d’Allah ﷺ prononça le lendemain de la conquête. Mes oreilles l’ont entendue, mon cœur l’a retenue et mes yeux l’ont vu lorsqu’il l’a prononcée. Il loua Allah et fit Son éloge, puis dit : “Allah a rendu La Mecque sacrée ; les gens ne l’ont pas rendue sacrée. Il n’est donc permis à personne qui croit en Allah et au Jour dernier d’y verser le sang ni d’y couper un arbre. Si quelqu’un invoque comme permission le fait que le Messager d’Allah ﷺ y a combattu, dites-lui : Allah l’a autorisé à Son Messager, mais ne vous l’a pas autorisé. Il ne me l’a permise qu’une heure durant un jour, puis sa sacralité est redevenue aujourd’hui ce qu’elle était hier. Que ceux qui sont présents transmettent à ceux qui sont absents.” » On demanda à Abu Shurayh ce qu’Amr lui avait répondu. Il dit : « Il m’a dit : “Je le sais mieux que toi, Abu Shurayh. Le sanctuaire ne protège ni le désobéissant, ni celui qui fuit après avoir versé du sang, ni celui qui fuit après avoir commis un crime.””",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3f973564-a0c8-4288-b704-ee9f5c937bd8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1355a",
+      "reference": "Sahih Muslim, hadith 1355 a, book 15, باب تَحْرِيمِ مَكَّةَ وَصَيْدِهَا وَخَلاَهَا وَشَجَرِهَا وَلُقَطَتِهَا إِلاَّ لِمُنْشِدٍ عَلَى الدَّوَام",
+      "title": "باب تَحْرِيمِ مَكَّةَ وَصَيْدِهَا وَخَلاَهَا وَشَجَرِهَا وَلُقَطَتِهَا إِلاَّ لِمُنْشِدٍ عَلَى الدَّوَام",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، جَمِيعًا عَنِ الْوَلِيدِ، - قَالَ زُهَيْرٌ حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، - حَدَّثَنَا الأَوْزَاعِيُّ، حَدَّثَنِي يَحْيَى بْنُ أَبِي كَثِيرٍ، حَدَّثَنِي أَبُو سَلَمَةَ، - هُوَ ابْنُ عَبْدِ الرَّحْمَنِ - حَدَّثَنِي أَبُو هُرَيْرَةَ، قَالَ لَمَّا فَتَحَ اللَّهُ عَزَّ وَجَلَّ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مَكَّةَ قَامَ فِي النَّاسِ فَحَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ ثُمَّ قَالَ ‏\"‏ إِنَّ اللَّهَ حَبَسَ عَنْ مَكَّةَ الْفِيلَ وَسَلَّطَ عَلَيْهَا رَسُولَهُ وَالْمُؤْمِنِينَ وَإِنَّهَا لَنْ تَحِلَّ لأَحَدٍ كَانَ قَبْلِي وَإِنَّهَا أُحِلَّتْ لِي سَاعَةً مِنْ نَهَارٍ وَإِنَّهَا لَنْ تَحِلَّ لأَحَدٍ بَعْدِي فَلاَ يُنَفَّرُ صَيْدُهَا وَلاَ يُخْتَلَى شَوْكُهَا وَلاَ تَحِلُّ سَاقِطَتُهَا إِلاَّ لِمُنْشِدٍ وَمَنْ قُتِلَ لَهُ قَتِيلٌ فَهُوَ بِخَيْرِ النَّظَرَيْنِ إِمَّا أَنْ يُفْدَى وَإِمَّا أَنْ يُقْتَلَ ‏\"‏ ‏.‏ فَقَالَ الْعَبَّاسُ إِلاَّ الإِذْخِرَ يَا رَسُولَ اللَّهِ فَإِنَّا نَجْعَلُهُ فِي قُبُورِنَا وَبُيُوتِنَا ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِلاَّ الإِذْخِرَ ‏\"‏ ‏.‏ فَقَامَ أَبُو شَاهٍ رَجُلٌ مِنْ أَهْلِ الْيَمَنِ فَقَالَ اكْتُبُوا لِي يَا رَسُولَ اللَّهِ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اكْتُبُوا لأَبِي شَاهٍ ‏\"‏ ‏.‏ قَالَ الْوَلِيدُ فَقُلْتُ لِلأَوْزَاعِيِّ مَا قَوْلُهُ اكْتُبُوا لِي يَا رَسُولَ اللَّهِ قَالَ هَذِهِ الْخُطْبَةَ الَّتِي سَمِعَهَا مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "b911fb2b8a95c7eaabe8c18ce97ea9ba25478157348424df440bbc3a0e465a1a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que, lorsque Allah accorda au Messager d’Allah ﷺ la conquête de La Mecque, celui-ci se leva parmi les gens, loua Allah et fit Son éloge, puis dit : « Allah a écarté l’éléphant de La Mecque et y a donné pouvoir à Son Messager et aux croyants. Elle n’a été rendue licite à personne avant moi ; elle ne m’a été rendue licite qu’une heure durant un jour et ne le sera à personne après moi. On n’effarouche pas son gibier, on ne coupe pas ses plantes épineuses, et on ne ramasse pas ce qui y est perdu, sauf pour le faire connaître. Celui dont un proche a été tué a le choix entre deux solutions : accepter une compensation ou demander que le meurtrier soit exécuté. » Al-Abbas dit : « Ô Messager d’Allah, sauf l’idhkhir, que nous utilisons dans nos tombes et nos maisons. » Le Messager d’Allah ﷺ répondit : « Sauf l’idhkhir. » Abu Shah, un homme du Yémen, se leva et dit : « Ô Messager d’Allah, fais-moi écrire cela. » Le Messager d’Allah ﷺ dit : « Écrivez-le pour Abu Shah. » Al-Walid rapporte qu’il demanda à al-Awza‘i ce que signifiait cette demande. Il répondit : « Il demandait qu’on lui écrive ce sermon qu’il avait entendu du Messager d’Allah ﷺ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "71899630-2852-47b8-921c-a385577aae4b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1355b",
+      "reference": "Sahih Muslim, hadith 1355 b, book 15, باب تَحْرِيمِ مَكَّةَ وَصَيْدِهَا وَخَلاَهَا وَشَجَرِهَا وَلُقَطَتِهَا إِلاَّ لِمُنْشِدٍ عَلَى الدَّوَام",
+      "title": "باب تَحْرِيمِ مَكَّةَ وَصَيْدِهَا وَخَلاَهَا وَشَجَرِهَا وَلُقَطَتِهَا إِلاَّ لِمُنْشِدٍ عَلَى الدَّوَام",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ شَيْبَانَ، عَنْ يَحْيَى، أَخْبَرَنِي أَبُو سَلَمَةَ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ إِنَّ خُزَاعَةَ قَتَلُوا رَجُلاً مِنْ بَنِي لَيْثٍ عَامَ فَتْحِ مَكَّةَ بِقَتِيلٍ مِنْهُمْ قَتَلُوهُ فَأُخْبِرَ بِذَلِكَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَرَكِبَ رَاحِلَتَهُ فَخَطَبَ فَقَالَ ‏\"‏ إِنَّ اللَّهَ عَزَّ وَجَلَّ حَبَسَ عَنْ مَكَّةَ الْفِيلَ وَسَلَّطَ عَلَيْهَا رَسُولَهُ وَالْمُؤْمِنِينَ أَلاَ وَإِنَّهَا لَمْ تَحِلَّ لأَحَدٍ قَبْلِي وَلَنْ تَحِلَّ لأَحَدٍ بَعْدِي أَلاَ وَإِنَّهَا أُحِلَّتْ لِي سَاعَةً مِنَ النَّهَارِ أَلاَ وَإِنَّهَا سَاعَتِي هَذِهِ حَرَامٌ لاَ يُخْبَطُ شَوْكُهَا وَلاَ يُعْضَدُ شَجَرُهَا وَلاَ يَلْتَقِطُ سَاقِطَتَهَا إِلاَّ مُنْشِدٌ وَمَنْ قُتِلَ لَهُ قَتِيلٌ فَهُوَ بِخَيْرِ النَّظَرَيْنِ إِمَّا أَنْ يُعْطَى - يَعْنِي الدِّيَةَ - وَإِمَّا أَنْ يُقَادَ أَهْلُ الْقَتِيلِ ‏\"‏ ‏.‏ قَالَ فَجَاءَ رَجُلٌ مِنْ أَهْلِ الْيَمَنِ يُقَالُ لَهُ أَبُو شَاهٍ فَقَالَ اكْتُبْ لِي يَا رَسُولَ اللَّهِ ‏.‏ فَقَالَ ‏\"‏ اكْتُبُوا لأَبِي شَاهٍ ‏\"‏ ‏.‏ فَقَالَ رَجُلٌ مِنْ قُرَيْشٍ إِلاَّ الإِذْخِرَ فَإِنَّا نَجْعَلُهُ فِي بُيُوتِنَا وَقُبُورِنَا ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِلاَّ الإِذْخِرَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e8fec3362320fdfb3eb667d49fd042b9773eec673d4d2ea4c7ebe59c8ea64d73",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que, l’année de la conquête de La Mecque, les Khuza‘a tuèrent un homme des Banu Layth en représailles au meurtre de l’un des leurs. Le Messager d’Allah ﷺ en fut informé ; il monta sur sa monture et prononça un sermon : « Allah a écarté l’éléphant de La Mecque et y a donné pouvoir à Son Messager et aux croyants. Elle n’a été rendue licite à personne avant moi et ne le sera à personne après moi. Elle ne m’a été rendue licite qu’une heure durant le jour ; à présent, elle est redevenue sacrée. On ne frappe pas ses épines pour les faire tomber, on ne coupe pas ses arbres et on ne ramasse pas ce qui y est perdu, sauf pour le faire connaître. Celui dont un proche a été tué a le choix entre deux solutions : recevoir la compensation — c’est-à-dire le prix du sang — ou laisser la famille de la victime réclamer l’exécution du meurtrier. » Un homme du Yémen nommé Abu Shah vint alors et dit : « Ô Messager d’Allah, fais-moi écrire cela. » Il répondit : « Écrivez-le pour Abu Shah. » Un homme de Quraysh dit : « Sauf l’idhkhir, car nous l’utilisons dans nos maisons et nos tombes. » Le Messager d’Allah ﷺ répondit : « Sauf l’idhkhir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "86fc5848-2d3b-47b8-a69d-ef9ccd56d6a6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1356",
+      "reference": "Sahih Muslim, hadith 1356, book 15, باب النَّهْىِ عَنْ حَمْلِ السِّلاَحِ، بِمَكَّةَ بِلاَ حَاجَةٍ ‏‏",
+      "title": "باب النَّهْىِ عَنْ حَمْلِ السِّلاَحِ، بِمَكَّةَ بِلاَ حَاجَةٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا ابْنُ أَعْيَنَ، حَدَّثَنَا مَعْقِلٌ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ يَحِلُّ لأَحَدِكُمْ أَنْ يَحْمِلَ بِمَكَّةَ السِّلاَحَ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2ea5da1abdc8bb43516304ac2620f4226868713d030e220c6e7ed098b47ed061",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jabir rapporte avoir entendu le Prophète ﷺ dire : « Il n’est permis à aucun d’entre vous de porter une arme à La Mecque. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "96588121-ed68-45a8-a38f-5fafb0c9b92d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1357",
+      "reference": "Sahih Muslim, hadith 1357, book 15, باب جَوَازِ دُخُولِ مَكَّةَ بِغَيْرِ إِحْرَامٍ ‏‏",
+      "title": "باب جَوَازِ دُخُولِ مَكَّةَ بِغَيْرِ إِحْرَامٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ الْقَعْنَبِيُّ، وَيَحْيَى بْنُ يَحْيَى، وَقُتَيْبَةُ بْنُ سَعِيدٍ، أَمَّا الْقَعْنَبِيُّ فَقَالَ قَرَأْتُ عَلَى مَالِكِ بْنِ أَنَسٍ وَأَمَّا قُتَيْبَةُ فَقَالَ حَدَّثَنَا مَالِكٌ وَقَالَ يَحْيَى - وَاللَّفْظُ لَهُ - قُلْتُ لِمَالِكٍ أَحَدَّثَكَ ابْنُ شِهَابٍ عَنْ أَنَسِ بْنِ مَالِكٍ أَنَّ النَّبِيَّ صلى الله عليه وسلم دَخَلَ مَكَّةَ عَامَ الْفَتْحِ وَعَلَى رَأْسِهِ مِغْفَرٌ فَلَمَّا نَزَعَهُ جَاءَهُ رَجُلٌ فَقَالَ ابْنُ خَطَلٍ مُتَعَلِّقٌ بِأَسْتَارِ الْكَعْبَةِ ‏.‏ فَقَالَ ‏\"‏ اقْتُلُوهُ ‏\"‏ ‏.‏ فَقَالَ مَالِكٌ نَعَمْ ‏.‏",
+      "source_hash_sha256": "e8126ea88167ff72025bccb8699d39d808630ab2ef48338855a216783fdfbd08",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Malik rapporte que, l’année de la conquête, le Prophète ﷺ entra à La Mecque en portant un casque. Lorsqu’il l’enleva, un homme vint lui dire : « Ibn Khatal est accroché aux tentures de la Kaaba. » Il répondit : « Tuez-le. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ec7065e2-d5f7-4406-87f2-40a20dd78055",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement au rapport précédent (« مِثْلَهُ »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
