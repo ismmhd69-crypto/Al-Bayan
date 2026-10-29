@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0594",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:23:45.072Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1021cef6-d9b5-4480-81af-64dc70477961",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1337b",
+      "reference": "Sahih Muslim, hadith 1337 b, book 43, باب تَوْقِيرِهِ صلى الله عليه وسلم وَتَرْكِ إِكْثَارِ سُؤَالِهِ عَمَّا لاَ ضَرُورَةَ إِلَيْهِ أَوْ لاَ يَت",
+      "title": "باب تَوْقِيرِهِ صلى الله عليه وسلم وَتَرْكِ إِكْثَارِ سُؤَالِهِ عَمَّا لاَ ضَرُورَةَ إِلَيْهِ أَوْ لاَ يَت",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى التُّجِيبِيُّ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، وَسَعِيدُ بْنُ الْمُسَيَّبِ، قَالاَ كَانَ أَبُو هُرَيْرَةَ يُحَدِّثُ أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَا نَهَيْتُكُمْ عَنْهُ فَاجْتَنِبُوهُ وَمَا أَمَرْتُكُمْ بِهِ فَافْعَلُوا مِنْهُ مَا اسْتَطَعْتُمْ فَإِنَّمَا أَهْلَكَ الَّذِينَ مِنْ قَبْلِكُمْ كَثْرَةُ مَسَائِلِهِمْ وَاخْتِلاَفُهُمْ عَلَى أَنْبِيَائِهِمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "697160558a1759acba74c67497f2a9396169f616e0871cb99c1d70dd005bdc2f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapportait qu’il avait entendu le Messager d’Allah ﷺ dire : « Abstenez-vous de ce que je vous interdis et accomplissez de mes ordres ce que vous pouvez. Ceux qui vous ont précédés n’ont péri qu’à cause de leurs questions trop nombreuses et de leurs désaccords avec leurs prophètes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "854e7157-b785-4d43-96e4-8b184fdc5113",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1337c",
+      "reference": "Sahih Muslim, hadith 1337 c, book 43, باب تَوْقِيرِهِ صلى الله عليه وسلم وَتَرْكِ إِكْثَارِ سُؤَالِهِ عَمَّا لاَ ضَرُورَةَ إِلَيْهِ أَوْ لاَ يَت",
+      "title": "باب تَوْقِيرِهِ صلى الله عليه وسلم وَتَرْكِ إِكْثَارِ سُؤَالِهِ عَمَّا لاَ ضَرُورَةَ إِلَيْهِ أَوْ لاَ يَت",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ أَحْمَدَ بْنِ أَبِي خَلَفٍ، حَدَّثَنَا أَبُو سَلَمَةَ، - وَهُوَ مَنْصُورُ بْنُ سَلَمَةَ الْخُزَاعِيُّ - أَخْبَرَنَا لَيْثٌ، عَنْ يَزِيدَ بْنِ الْهَادِ، عَنِ ابْنِ شِهَابٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ سَوَاءً ‏.‏",
+      "source_hash_sha256": "f07bfe3853103e0d7ae53ed34ff9ce1a6f3ed2c7a38c1af8171bd23ccfda6b06",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "65e144ad-67e2-4787-8f10-3c56e32a2e04",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1337d",
+      "reference": "Sahih Muslim, hadith 1337 d, book 43, باب تَوْقِيرِهِ صلى الله عليه وسلم وَتَرْكِ إِكْثَارِ سُؤَالِهِ عَمَّا لاَ ضَرُورَةَ إِلَيْهِ أَوْ لاَ يَت",
+      "title": "باب تَوْقِيرِهِ صلى الله عليه وسلم وَتَرْكِ إِكْثَارِ سُؤَالِهِ عَمَّا لاَ ضَرُورَةَ إِلَيْهِ أَوْ لاَ يَت",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا ابْنُ، نُمَيْرٍ حَدَّثَنَا أَبِي كِلاَهُمَا، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا الْمُغِيرَةُ يَعْنِي الْحِزَامِيَّ، ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، كِلاَهُمَا عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، ح وَحَدَّثَنَاهُ عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ مُحَمَّدِ بْنِ زِيَادٍ، سَمِعَ أَبَا هُرَيْرَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، عَنْ أَبِي هُرَيْرَةَ، كُلُّهُمْ قَالَ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ ذَرُونِي مَا تَرَكْتُكُمْ ‏\"‏ ‏.‏ وَفِي حَدِيثِ هَمَّامٍ ‏\"‏ مَا تُرِكْتُمْ فَإِنَّمَا هَلَكَ مَنْ كَانَ قَبْلَكُمْ ‏\"‏ ‏.‏ ثُمَّ ذَكَرُوا نَحْوَ حَدِيثِ الزُّهْرِيِّ عَنْ سَعِيدٍ وَأَبِي سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ ‏.‏",
+      "source_hash_sha256": "0ed120b4e5adebdd4f497421246daae5aa428bdb9bf30fa98a4be024c66a22aa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Prophète ﷺ a dit, selon plusieurs chaînes : « Laissez-moi tant que je vous laisse. » Dans la version de Hammam, il est dit : « tant que vous êtes laissés », puis : « Ceux qui vous ont précédés ont péri. » Les rapporteurs mentionnèrent ensuite un récit semblable à celui transmis par al-Zuhri, d’après Sa‘id et Abu Salama, d’après Abu Hurayra.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "610c0cba-c3b6-4ede-98b4-1b5fe675b397",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1338a",
+      "reference": "Sahih Muslim, hadith 1338 a, book 15, باب سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى حَجٍّ وَغَيْرِهِ ‏‏",
+      "title": "باب سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى حَجٍّ وَغَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تُسَافِرِ الْمَرْأَةُ ثَلاَثًا إِلاَّ وَمَعَهَا ذُو مَحْرَمٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "94dfe8a9fcaf976ec87e585ab6da2ad2f22c6f80cc949598205db23a53146ba4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Messager d’Allah ﷺ a dit : « Qu’une femme ne voyage pas pendant trois jours sans être accompagnée d’un mahram. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "24b28725-ddda-465f-a2b9-282dddda1521",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1338b",
+      "reference": "Sahih Muslim, hadith 1338 b, book 15, باب سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى حَجٍّ وَغَيْرِهِ ‏‏",
+      "title": "باب سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى حَجٍّ وَغَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، وَأَبُو أُسَامَةَ ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي جَمِيعًا، عَنْ عُبَيْدِ اللَّهِ، بِهَذَا الإِسْنَادِ ‏.‏ فِي رِوَايَةِ أَبِي بَكْرٍ فَوْقَ ثَلاَثٍ ‏.‏ وَقَالَ ابْنُ نُمَيْرٍ فِي رِوَايَتِهِ عَنْ أَبِيهِ، ‏\"‏ ثَلاَثَةً إِلاَّ وَمَعَهَا ذُو مَحْرَمٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "aa99f145cc494f5413bb9bdbef1c388123dada2c35003080fbec244a1bf8884f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Selon la transmission d’Abu Bakr, le Prophète ﷺ a dit : « au-delà de trois jours ». Dans la transmission d’Ibn Numayr, d’après son père, il est dit : « trois jours sans qu’elle soit accompagnée d’un mahram. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "08c6e769-7a2c-4195-8db6-74addf1bb2fb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1338c",
+      "reference": "Sahih Muslim, hadith 1338 c, book 15, باب سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى حَجٍّ وَغَيْرِهِ ‏‏",
+      "title": "باب سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى حَجٍّ وَغَيْرِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، أَخْبَرَنَا الضَّحَّاكُ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَحِلُّ لاِمْرَأَةٍ تُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ تُسَافِرُ مَسِيرَةَ ثَلاَثِ لَيَالٍ إِلاَّ وَمَعَهَا ذُو مَحْرَمٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b7c0ddd3c3bfddfb5a769835fc65899545cb347a8878605a09b7792741f77b0a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Prophète ﷺ a dit : « Il n’est pas permis à une femme qui croit en Allah et au Jour dernier de voyager pendant trois nuits sans être accompagnée d’un mahram. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "854e7157-b785-4d43-96e4-8b184fdc5113",
+      "reason": "Cette entrée ne reproduit pas le récit et indique seulement qu’il est identique au précédent (« بِهَذَا الإِسْنَادِ مِثْلَهُ سَوَاءً »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}

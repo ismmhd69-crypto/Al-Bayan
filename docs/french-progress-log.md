@@ -10096,3 +10096,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0593 saves five private French drafts about pilgrimage on behalf of an elderly parent, pilgrimage for a child, and the obligation of Hajj. Muslim 1336d only points back to the preceding report and remains blank under Needs Mo. The next oversized source remains queued for isolated handling.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1337b–1338c
+
+- FR-LIB-HAD-MUSLIM-0594 saves five private French drafts on following the Prophet’s commands and restrictions, and travel by women with a mahram. The distinct three-day and three-night wordings are retained. Muslim 1337c contains only a cross-reference to the preceding report and remains blank under Needs Mo. The oversized source remains queued for isolated handling.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
