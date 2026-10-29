@@ -40787,6 +40787,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0570",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0570.json",
+      "sourceIds": [
+        "16b23940-f7df-4cb1-a4ea-1f539c03235a",
+        "f51c0fef-a83b-40ab-b374-e17130fe8cbb",
+        "9236f63d-40b1-467d-937a-429b922dd3d7",
+        "da530784-d972-424a-9f63-44f7388fd87c",
+        "e0b7054f-6a9d-43f6-b8ff-dce40e9728a4",
+        "b3c7173f-39ac-43de-998a-9562dfeb4e6e"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished AI drafts, three incomplete or uncertain sources held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45094,8 +45115,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8595,
-  "hadithLocalRemaining": 6034,
+  "hadithLocalDrafted": 8598,
+  "hadithLocalRemaining": 6031,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48702,10 +48723,25 @@
       "source_id": "c48bfa65-92b8-45ae-9f94-d9b623bca529",
       "reason": "La source renvoie à la chaîne précédente (« avec cette même chaîne ») et n’ajoute qu’une précision sur un seul appel à la prière, sans reprendre le récit complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "f51c0fef-a83b-40ab-b374-e17130fe8cbb",
+      "reason": "La source renvoie à la chaîne précédente et n’ajoute qu’une précision sur l’heure, sans reprendre le contenu du récit. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "9236f63d-40b1-467d-937a-429b922dd3d7",
+      "reason": "La fin du texte arabe de Muslim 1290a contient l’expression obscure « مفرح به », dont le sens ne peut être établi avec certitude dans ce passage. Laisser toute la traduction française vide jusqu’à vérification de la source.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "b3c7173f-39ac-43de-998a-9562dfeb4e6e",
+      "reason": "La source renvoie au récit précédent (« à peu près le même ») sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2259,
+  "hadithMuslimDrafted": 2262,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1014
+  "hadithNeedsMo": 1017
 }

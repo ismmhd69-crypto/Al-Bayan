@@ -9976,3 +9976,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0569 saves four private French drafts about the prayers at Muzdalifa. Muslim 1288a has a damaged narrator-chain phrase, and 1288c gives only a cross-reference and one added detail; both remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1289a–1290d
+
+- FR-LIB-HAD-MUSLIM-0570 saves three private French drafts about the prayer times at Muzdalifa and Sawda’s early departure. Muslim 1289b and 1290d are cross-reference-only variants; Muslim 1290a ends with an unclear phrase. All three remain entirely blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
