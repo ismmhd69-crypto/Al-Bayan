@@ -2431,3 +2431,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-503` saves six private French drafts covering end-times reports and al-Barâ’s account of Hunayn. The reports remain attributed to their narrators and translated closely to the Arabic wording.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,639 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 169. Total local hadith rows not drafted: 12,016, including held records.
+
+### 2026-10-29: Bukhari 2931–2936 source review
+
+- `FR-LIB-HAD-BUKHARI-504` saves six private French drafts about prayer during the Coalisés, supplications, the incident at the Ka‘ba, a response to a hostile greeting and the letter to César.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,645 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 169. Total local hadith rows not drafted: 12,010, including held records.
