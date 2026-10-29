@@ -3246,3 +3246,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-666` saves six private French drafts about Mu‘âwiya, Fâtima and ‘Â’isha.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,357 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 246. Total local hadith rows not drafted: 11,300, including held records.
+
+### 2026-10-29: Bukhari 3772–3777
+
+- `FR-LIB-HAD-BUKHARI-667` saves six private French drafts about ‘Â’isha and the Ansâr.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,363 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 246. Total local hadith rows not drafted: 11,294, including held records.
