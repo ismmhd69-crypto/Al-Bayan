@@ -9301,3 +9301,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0434 saves three private French drafts about charity and protection from the Fire. Muslim 1014c and 1014d are incomplete cross-references; 1015 directly quotes Quran 23:51 and 2:172. All three remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1703 Muslim drafts, 8039 total hadith drafts, 6590 remaining, and 801 Needs Mo items.
+
+### 2026-10-29: Muslim 1016d–1017e
+
+- FR-LIB-HAD-MUSLIM-0435 saves two private French drafts on charity and good practices. Muslim 1017a and 1017c contain direct Quran quotations; 1017b and 1017d are incomplete references. All four remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1705 Muslim drafts, 8041 total hadith drafts, 6588 remaining, and 805 Needs Mo items.
