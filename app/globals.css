@@ -2731,7 +2731,8 @@ details[open] > summary .chev {
 .tabbar a.tab-ask::before {
   display: none;
 }
-.tab-ask-bubble {
+/* Specific enough to beat ".tabbar a span", which would otherwise make the bubble a text box. */
+.tabbar a .tab-ask-bubble {
   display: grid;
   place-items: center;
   inline-size: 46px;
@@ -2749,4 +2750,119 @@ details[open] > summary .chev {
 }
 .tabbar a.tab-ask[aria-current="page"] .tab-ask-bubble {
   background: var(--accent-hover, var(--accent));
+}
+
+/* The More tab is a button that opens the sheet; it looks like the other tabs. */
+.tabbar .tab-more {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-inline-size: 0;
+  padding: 0 2px;
+  border: 0;
+  background: none;
+  color: var(--ink-3);
+  font: inherit;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.tabbar .tab-more[aria-current="page"],
+.tabbar .tab-more[aria-expanded="true"] {
+  color: var(--accent);
+}
+.tabbar .tab-more[aria-current="page"]::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inline-size: 28px;
+  block-size: 3px;
+  border-radius: 0 0 3px 3px;
+  background: var(--gold);
+}
+
+/* More sheet (phone): slides up from the bottom over a dimmed page. */
+.more-sheet {
+  position: fixed;
+  inset: auto 0 0 0;
+  margin: 0;
+  inline-size: 100%;
+  max-inline-size: none;
+  max-block-size: 85dvh;
+  padding: 10px 16px calc(20px + env(safe-area-inset-bottom, 0px));
+  border: 0;
+  border-block-start: 1px solid var(--line);
+  border-radius: 20px 20px 0 0;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 -16px 40px -20px rgba(0, 0, 0, 0.5);
+}
+.more-sheet[open] {
+  animation: more-sheet-up 0.22s ease-out;
+}
+.more-sheet::backdrop {
+  background: rgba(5, 8, 14, 0.5);
+}
+@keyframes more-sheet-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .more-sheet[open] { animation: none; }
+}
+.more-sheet-grab {
+  inline-size: 40px;
+  block-size: 4px;
+  margin: 0 auto 12px;
+  border-radius: 4px;
+  background: var(--line);
+}
+.more-sheet h2 {
+  margin: 0 0 6px;
+  font-size: var(--fs-md);
+}
+.more-sheet ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.more-sheet li + li {
+  border-block-start: 1px solid var(--line);
+}
+.more-sheet a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-block-size: 52px;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: var(--fs-md);
+}
+.more-sheet a[aria-current="page"] {
+  color: var(--accent);
+}
+.more-sheet a > svg:first-child {
+  inline-size: 22px;
+  block-size: 22px;
+  color: var(--accent);
+  flex: none;
+}
+.more-sheet a > span {
+  flex: 1;
+}
+.more-sheet a small {
+  color: var(--ink-3);
+  font-size: var(--fs-sm);
+}
+.more-sheet a > svg:last-child:not(:first-child) {
+  inline-size: 18px;
+  block-size: 18px;
+  color: var(--ink-3);
+}
+@media (min-width: 960px) {
+  .more-sheet { display: none; }
 }

@@ -77,6 +77,7 @@ export default async function RootLayout({
           brandAr={t.common.brandAr}
           langLabel={t.more.language}
           themeLabels={{ light: t.more.themeLight, dark: t.more.themeDark }}
+          moreLabels={{ title: t.more.title, settings: `${t.more.language} · ${t.more.theme}` }}
         >
           {children}
         </Shell>
