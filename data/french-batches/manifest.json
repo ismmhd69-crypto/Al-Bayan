@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 5198,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 9429,
-    "hadithNeedsMo": 765,
+    "hadithNeedsMo": 766,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24221,6 +24221,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1142",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1142.json",
+      "sourceIds": [
+        "212813d0-b5d7-4021-a3c2-fd729b8b6c8e"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "The single source was held blank because it directly quotes Quran 3:186 and 2:109. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -27414,6 +27430,12 @@
       "scope": "Sahih al-Bukhari 6106: direct quotations of Quran 91:1 and 87:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 91:1 and 87:1. Keep the entire French translation blank until an approved attributed French Quran translation and permitted use are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6207-QURAN-3-186-2-109",
+      "scope": "Sahih al-Bukhari 6207 direct quotations of Quran 3:186 and 2:109",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:186 and 2:109. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
