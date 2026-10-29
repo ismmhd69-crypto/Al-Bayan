@@ -7896,3 +7896,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0154 saves four private French drafts about tanned hides and the lost necklace that led to tayammum. Muslim 368a directly quotes Quran 5:6, so its full French text remains blank pending an approved, attributed French Quran translation with permitted use. Muslim 368b gives only a summary and wording variant, so it also remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 644 Muslim drafts, 6,980 total hadith drafts, 7,649 remaining, and 301 Needs Mo items.
+
+### 2026-10-29: Muslim 368c–372
+
+- FR-LIB-HAD-MUSLIM-0155 saves five private French drafts about tayammum, returning greetings, and ritual purity. Muslim 368d gives only a transmission chain and additions to the previous report, without repeating its full text, so it remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 649 Muslim drafts, 6,985 total hadith drafts, 7,644 remaining, and 302 Needs Mo items.
