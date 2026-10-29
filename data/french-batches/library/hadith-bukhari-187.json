@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-BUKHARI-187",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T03:48:12.120Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "86ffbc49-a83f-4c5c-9a3c-ed086569ab05",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1067",
+      "reference": "Sahih al-Bukhari, hadith 1067, book 17, باب مَا جَاءَ فِي سُجُودِ الْقُرْآنِ وَسُنَّتِهَا",
+      "title": "باب مَا جَاءَ فِي سُجُودِ الْقُرْآنِ وَسُنَّتِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا غُنْدَرٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، قَالَ سَمِعْتُ الأَسْوَدَ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ قَالَ قَرَأَ النَّبِيُّ صلى الله عليه وسلم النَّجْمَ بِمَكَّةَ فَسَجَدَ فِيهَا، وَسَجَدَ مَنْ مَعَهُ، غَيْرَ شَيْخٍ أَخَذَ كَفًّا مِنْ حَصًى أَوْ تُرَابٍ فَرَفَعَهُ إِلَى جَبْهَتِهِ وَقَالَ يَكْفِينِي هَذَا‏.‏ فَرَأَيْتُهُ بَعْدَ ذَلِكَ قُتِلَ كَافِرًا‏.‏",
+      "source_hash_sha256": "8b0b8a8b1d59a05adc3ed4fd67ca5d37d6446f00e5e8ac8eaf1f98ca0bb3baa5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshar nous a rapporté : Ghundar nous a rapporté : Shu‘ba nous a rapporté, d’après Abu Ishaq, qui dit : « J’ai entendu al-Aswad rapporter, d’après Abd Allah, qu’Allah l’agrée : “Le Prophète ﷺ récita la sourate An-Najm à La Mecque et se prosterna. Tous ceux qui étaient avec lui se prosternèrent, sauf un vieil homme qui prit une poignée de petits cailloux — ou de terre —, la porta à son front et dit : ‘Cela me suffit.’ Je le vis plus tard tué alors qu’il était mécréant.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8e4f942d-6951-4362-9987-afe84b1c8b7e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1068",
+      "reference": "Sahih al-Bukhari, hadith 1068, book 17, باب سَجْدَةِ تَنْزِيلُ السَّجْدَةُ",
+      "title": "باب سَجْدَةِ تَنْزِيلُ السَّجْدَةُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، عَنْ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم يَقْرَأُ فِي الْجُمُعَةِ فِي صَلاَةِ الْفَجْرِ ‏[quran sura=\"32\" aya_start=\"1\" aya_end=\"2\"]{‏الم * تَنْزِيلُ‏}‏ السَّجْدَةَ وَ‏[quran sura=\"76\" aya_start=\"1\" aya_end=\"1\"]{‏هَلْ أَتَى عَلَى الإِنْسَانِ‏}‏",
+      "source_hash_sha256": "27ccca4033a8771b5631ff661e2ae2ed4952ea2cdc20fd4f2c0bf12cd0957eea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6c364dee-8d3e-4ad0-91a4-09b98355dbbf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1069",
+      "reference": "Sahih al-Bukhari, hadith 1069, book 17, بَابُ سَجْدَةِ {ص}",
+      "title": "بَابُ سَجْدَةِ {ص}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، وَأَبُو النُّعْمَانِ، قَالاَ حَدَّثَنَا حَمَّادٌ، عَنْ أَيُّوبَ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ ‏{‏ص‏}‏ لَيْسَ مِنْ عَزَائِمِ السُّجُودِ، وَقَدْ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يَسْجُدُ فِيهَا‏.‏",
+      "source_hash_sha256": "41c85f198dbc4e44e23c72e80454c43726c47955230729988dd0cfa1cee9adb1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sulayman ibn Harb et Abu al-Numan nous ont rapporté : Hammad nous a rapporté, d’après Ayyub, d’après Ikrima, d’après Ibn Abbas, qu’Allah les agrée tous deux, qui dit au sujet de la sourate Sad : « Ce n’est pas l’une des prosternations obligatoires. J’ai pourtant vu le Prophète ﷺ s’y prosterner. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "772e7fa7-adba-464c-842b-d4dc01b8156d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1070",
+      "reference": "Sahih al-Bukhari, hadith 1070, book 17, باب سَجْدَةِ النَّجْمِ",
+      "title": "باب سَجْدَةِ النَّجْمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، عَنِ الأَسْوَدِ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَرَأَ سُورَةَ النَّجْمِ فَسَجَدَ بِهَا، فَمَا بَقِيَ أَحَدٌ مِنَ الْقَوْمِ إِلاَّ سَجَدَ، فَأَخَذَ رَجُلٌ مِنَ الْقَوْمِ كَفًّا مِنْ حَصًى أَوْ تُرَابٍ، فَرَفَعَهُ إِلَى وَجْهِهِ وَقَالَ يَكْفِينِي هَذَا، فَلَقَدْ رَأَيْتُهُ بَعْدُ قُتِلَ كَافِرًا‏.‏",
+      "source_hash_sha256": "b58ddde90505c44cfd120881ea6594fea397c8bf74c918c901a266b3ada3c610",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hafs ibn Umar nous a rapporté : Shu‘ba nous a rapporté, d’après Abu Ishaq, d’après al-Aswad, d’après Abd Allah, qu’Allah l’agrée, que le Prophète ﷺ récita la sourate An-Najm et se prosterna à sa lecture. Aucun des gens présents ne resta sans se prosterner, sauf un homme qui prit une poignée de petits cailloux — ou de terre —, la porta à son visage et dit : « Cela me suffit. » Je le vis plus tard tué alors qu’il était mécréant.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cb3c981a-6e9a-4698-bfde-7685264b71cb",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1071",
+      "reference": "Sahih al-Bukhari, hadith 1071, book 17, باب سُجُودِ الْمُسْلِمِينَ مَعَ الْمُشْرِكِينَ. وَالْمُشْرِكُ نَجَسٌ لَيْسَ لَهُ وُضُوءٌ.",
+      "title": "باب سُجُودِ الْمُسْلِمِينَ مَعَ الْمُشْرِكِينَ. وَالْمُشْرِكُ نَجَسٌ لَيْسَ لَهُ وُضُوءٌ.",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا عَبْدُ الْوَارِثِ، قَالَ حَدَّثَنَا أَيُّوبُ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما أَنَّ النَّبِيَّ صلى الله عليه وسلم سَجَدَ بِالنَّجْمِ وَسَجَدَ مَعَهُ الْمُسْلِمُونَ وَالْمُشْرِكُونَ وَالْجِنُّ وَالإِنْسُ‏.‏ وَرَوَاهُ ابْنُ طَهْمَانَ عَنْ أَيُّوبَ‏.‏",
+      "source_hash_sha256": "e70b309dc3dc356fe3888bee755cda11200a9b088a558d54c30321674d667377",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Abd al-Warith nous a rapporté : Ayyub nous a rapporté, d’après Ikrima, d’après Ibn Abbas, qu’Allah les agrée tous deux, que le Prophète ﷺ se prosterna en récitant la sourate An-Najm, et que les musulmans, les polythéistes, les djinns et les humains se prosternèrent avec lui. Ibn Tahman rapporte également cette tradition d’après Ayyub.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "975c52e9-0ebf-47ec-bed6-40a0e2babf17",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1072",
+      "reference": "Sahih al-Bukhari, hadith 1072, book 17, باب مَنْ قَرَأَ السَّجْدَةَ وَلَمْ يَسْجُدْ",
+      "title": "باب مَنْ قَرَأَ السَّجْدَةَ وَلَمْ يَسْجُدْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ أَبُو الرَّبِيعِ، قَالَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، قَالَ أَخْبَرَنَا يَزِيدُ بْنُ خُصَيْفَةَ، عَنِ ابْنِ قُسَيْطٍ، عَنْ عَطَاءِ بْنِ يَسَارٍ، أَنَّهُ أَخْبَرَهُ، أَنَّهُ، سَأَلَ زَيْدَ بْنَ ثَابِتٍ ـ رضى الله عنه ـ فَزَعَمَ أَنَّهُ قَرَأَ عَلَى النَّبِيِّ صلى الله عليه وسلم ‏{‏وَالنَّجْمِ‏}‏ فَلَمْ يَسْجُدْ فِيهَا‏.‏",
+      "source_hash_sha256": "961898fb6441268c2b920c3d9a686ab7bc7f9755c9ceba9e9c6ff7ad98c6a7c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "8e4f942d-6951-4362-9987-afe84b1c8b7e",
+      "reason": "This report directly quotes Quran 32:1–2 and 76:1. Keep the entire report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "975c52e9-0ebf-47ec-bed6-40a0e2babf17",
+      "reason": "This report directly quotes Quran 53:1. Keep the entire report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
