@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:48:06.525Z",
+  "lastReconciled": "2026-10-29T13:48:37.086Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 27,
+    "hadithMuslimDrafted": 28,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6363,
-    "hadithDatabaseMissing": 8266,
-    "hadithLocalRemaining": 8266,
+    "hadithLocalDrafted": 6364,
+    "hadithDatabaseMissing": 8265,
+    "hadithLocalRemaining": 8265,
     "hadithNeedsMo": 172,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -29260,6 +29260,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0007",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0007.json",
+      "sourceIds": [
+        "4cdf6f22-a233-417e-a1e6-c760c0c7cf5d"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "1 complete private draft; source hash retained; one-record long-text validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -33153,8 +33169,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6363,
-  "hadithLocalRemaining": 8266,
+  "hadithLocalDrafted": 6364,
+  "hadithLocalRemaining": 8265,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -34189,5 +34205,5 @@
       "reason": "Ce récit reproduit directement le Coran 31:34. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 27
+  "hadithMuslimDrafted": 28
 }
