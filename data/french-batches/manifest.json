@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5112,
+    "hadithBukhariDrafted": 5113,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5112,
+    "hadithLocalDrafted": 5113,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9517,
+    "hadithLocalRemaining": 9516,
     "hadithNeedsMo": 765,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -23706,6 +23706,22 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "Five records passed the focused validator; the longer lost-property report Bukhari 6112 was isolated in a one-record batch. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1114",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1114.json",
+      "sourceIds": [
+        "3c3e0807-f581-40b0-a7ff-8d3bf3f4f861"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "The lost-property report was handled as a one-record batch; Arabic original and hash, ID, reference, rights and private unpublished state passed",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
