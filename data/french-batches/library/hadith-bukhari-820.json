@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-BUKHARI-820",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:10:04.153Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f4428ead-d327-46ce-abb4-5b0f694bae8f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4536",
+      "reference": "Sahih al-Bukhari, hadith 4536, book 65, باب ‏ {‏وَالَّذِينَ يُتَوَفَّوْنَ مِنْكُمْ وَيَذَرُونَ أَزْوَاجًا‏} ‏",
+      "title": "باب ‏ {‏وَالَّذِينَ يُتَوَفَّوْنَ مِنْكُمْ وَيَذَرُونَ أَزْوَاجًا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ أَبِي الأَسْوَدِ، حَدَّثَنَا حُمَيْدُ بْنُ الأَسْوَدِ، وَيَزِيدُ بْنُ زُرَيْعٍ، قَالاَ حَدَّثَنَا حَبِيبُ بْنُ الشَّهِيدِ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، قَالَ قَالَ ابْنُ الزُّبَيْرِ قُلْتُ لِعُثْمَانَ هَذِهِ الآيَةُ الَّتِي فِي الْبَقَرَةِ ‏[quran sura=\"2\" aya_start=\"234\" aya_end=\"234\"]{‏وَالَّذِينَ يُتَوَفَّوْنَ مِنْكُمْ وَيَذَرُونَ أَزْوَاجًا‏}‏ إِلَى قَوْلِهِ ‏[quran sura=\"2\" aya_start=\"240\" aya_end=\"240\"]{‏غَيْرَ إِخْرَاجٍ‏}‏ قَدْ نَسَخَتْهَا الأُخْرَى، فَلِمَ تَكْتُبُهَا قَالَ تَدَعُهَا‏.‏ يَا ابْنَ أَخِي لاَ أُغَيِّرُ شَيْئًا مِنْهُ مِنْ مَكَانِهِ‏.‏ قَالَ حُمَيْدٌ أَوْ نَحْوَ هَذَا‏.‏",
+      "source_hash_sha256": "f4b1608c87860144af0a862d07c3138d1409ca31f5e145529f2ccca67881ea6e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f2bdb955-1ec7-4641-b23e-92380e44d728",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4537",
+      "reference": "Sahih al-Bukhari, hadith 4537, book 65, باب ‏ {‏وَإِذْ قَالَ إِبْرَاهِيمُ رَبِّ أَرِنِي كَيْفَ تُحْيِي الْمَوْتَى‏} ‏",
+      "title": "باب ‏ {‏وَإِذْ قَالَ إِبْرَاهِيمُ رَبِّ أَرِنِي كَيْفَ تُحْيِي الْمَوْتَى‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، وَسَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ نَحْنُ أَحَقُّ بِالشَّكِّ مِنْ إِبْرَاهِيمَ إِذْ قَالَ ‏[quran sura=\"2\" aya_start=\"260\" aya_end=\"260\"]‏{‏رَبِّ أَرِنِي كَيْفَ تُحْيِي الْمَوْتَى قَالَ أَوَلَمْ تُؤْمِنْ قَالَ بَلَى وَلَكِنْ لِيَطْمَئِنَّ قَلْبِي‏}‏‏\"‏",
+      "source_hash_sha256": "2f3d1f917772edf76a4a03a9426a8e3b2f14baf702ffad4d35add630cac8ef7a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a8875389-4dd4-4ffc-84b8-0da85742e5c5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4538",
+      "reference": "Sahih al-Bukhari, hadith 4538, book 65, باب قَوْلِهِ ‏ {‏أَيَوَدُّ أَحَدُكُمْ أَنْ تَكُونَ لَهُ جَنَّةٌ‏} ‏ إِلَى قَوْلِهِ ‏{‏تَتَفَكَّرُونَ‏}‏",
+      "title": "باب قَوْلِهِ ‏ {‏أَيَوَدُّ أَحَدُكُمْ أَنْ تَكُونَ لَهُ جَنَّةٌ‏} ‏ إِلَى قَوْلِهِ ‏{‏تَتَفَكَّرُونَ‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ، أَخْبَرَنَا هِشَامٌ، عَنِ ابْنِ جُرَيْجٍ، سَمِعْتُ عَبْدَ اللَّهِ بْنَ أَبِي مُلَيْكَةَ، يُحَدِّثُ عَنِ ابْنِ عَبَّاسٍ،‏.‏ قَالَ وَسَمِعْتُ أَخَاهُ أَبَا بَكْرِ بْنَ أَبِي مُلَيْكَةَ، يُحَدِّثُ عَنْ عُبَيْدِ بْنِ عُمَيْرٍ، قَالَ قَالَ عُمَرُ ـ رضى الله عنه ـ يَوْمًا لأَصْحَابِ النَّبِيِّ صلى الله عليه وسلم فِيمَ تَرَوْنَ هَذِهِ الآيَةَ نَزَلَتْ ‏[quran sura=\"2\" aya_start=\"266\" aya_end=\"266\"]{‏أَيَوَدُّ أَحَدُكُمْ أَنْ تَكُونَ لَهُ جَنَّةٌ‏}‏ قَالُوا اللَّهُ أَعْلَمُ‏.‏ فَغَضِبَ عُمَرُ فَقَالَ قُولُوا نَعْلَمُ أَوْ لاَ نَعْلَمُ‏.‏ فَقَالَ ابْنُ عَبَّاسٍ فِي نَفْسِي مِنْهَا شَىْءٌ يَا أَمِيرَ الْمُؤْمِنِينَ‏.‏ قَالَ عُمَرُ يَا ابْنَ أَخِي قُلْ وَلاَ تَحْقِرْ نَفْسَكَ‏.‏ قَالَ ابْنُ عَبَّاسٍ ضُرِبَتْ مَثَلاً لِعَمَلٍ‏.‏ قَالَ عُمَرُ أَىُّ عَمَلٍ قَالَ ابْنُ عَبَّاسٍ لِعَمَلٍ‏.‏ قَالَ عُمَرُ لِرَجُلٍ غَنِيٍّ يَعْمَلُ بِطَاعَةِ اللَّهِ عَزَّ وَجَلَّ، ثُمَّ بَعَثَ اللَّهُ لَهُ الشَّيْطَانَ فَعَمِلَ بِالْمَعَاصِي حَتَّى أَغْرَقَ أَعْمَالَهُ‏.‏ ‏{‏فَصُرْهُنَّ‏}‏ قَطِّعْهُنَّ‏.‏",
+      "source_hash_sha256": "7ffb70a6b9533b3b9a65b7eab4c469b403e1dadf8e71fe3db44dcfde309ef860",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "568d7bef-9b26-44fa-9bb0-f24ae2afc02c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4539",
+      "reference": "Sahih al-Bukhari, hadith 4539, book 65, باب ‏ {‏لاَ يَسْأَلُونَ النَّاسَ إِلْحَافًا‏} ‏",
+      "title": "باب ‏ {‏لاَ يَسْأَلُونَ النَّاسَ إِلْحَافًا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، قَالَ حَدَّثَنِي شَرِيكُ بْنُ أَبِي نَمِرٍ، أَنَّ عَطَاءَ بْنَ يَسَارٍ، وَعَبْدَ الرَّحْمَنِ بْنَ أَبِي عَمْرَةَ الأَنْصَارِيَّ، قَالاَ سَمِعْنَا أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ يَقُولُ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لَيْسَ الْمِسْكِينُ الَّذِي تَرُدُّهُ التَّمْرَةُ وَالتَّمْرَتَانِ وَلاَ اللُّقْمَةُ وَلاَ اللُّقْمَتَانِ‏.‏ إِنَّمَا الْمِسْكِينُ الَّذِي يَتَعَفَّفُ وَاقْرَءُوا إِنْ شِئْتُمْ يَعْنِي قَوْلَهُ ‏[quran sura=\"2\" aya_start=\"273\" aya_end=\"273\"]{‏لاَ يَسْأَلُونَ النَّاسَ إِلْحَافًا‏}‏‏\"‏",
+      "source_hash_sha256": "80b4b14e26299ffdfc8f2d38d0b6fb43871e741024b03e6bd6d0cabe2a21ac0c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4f2994ed-34fa-4262-ba44-42d820378e62",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4540",
+      "reference": "Sahih al-Bukhari, hadith 4540, book 65, باب ‏ {‏وَأَحَلَّ اللَّهُ الْبَيْعَ وَحَرَّمَ الرِّبَا‏} ‏",
+      "title": "باب ‏ {‏وَأَحَلَّ اللَّهُ الْبَيْعَ وَحَرَّمَ الرِّبَا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصِ بْنِ غِيَاثٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، حَدَّثَنَا مُسْلِمٌ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ لَمَّا نَزَلَتِ الآيَاتُ مِنْ آخِرِ سُورَةِ الْبَقَرَةِ فِي الرِّبَا قَرَأَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم عَلَى النَّاسِ، ثُمَّ حَرَّمَ التِّجَارَةَ فِي الْخَمْرِ‏.‏",
+      "source_hash_sha256": "de79774493f91706644cc87779463cef36b6f08976b3891c9e90ec45ac82e4f3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂʾisha (qu’Allah l’agrée) rapporte : « Lorsque les versets de la fin de la sourate Al-Baqara au sujet de l’usure furent révélés, le Messager d’Allah (paix et bénédictions sur lui) les récita aux gens, puis il interdit le commerce du vin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "622d2a0d-2323-4d3a-a140-7c36e46c2c3a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4541",
+      "reference": "Sahih al-Bukhari, hadith 4541, book 65, باب ‏ {‏يَمْحَقُ اللَّهُ الرِّبَا‏} ‏ يُذْهِبُهُ",
+      "title": "باب ‏ {‏يَمْحَقُ اللَّهُ الرِّبَا‏} ‏ يُذْهِبُهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا بِشْرُ بْنُ خَالِدٍ، أَخْبَرَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، عَنْ شُعْبَةَ، عَنْ سُلَيْمَانَ، سَمِعْتُ أَبَا الضُّحَى، يُحَدِّثُ عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ لَمَّا أُنْزِلَتِ الآيَاتُ الأَوَاخِرُ مِنْ سُورَةِ الْبَقَرَةِ خَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَتَلاَهُنَّ فِي الْمَسْجِدِ، فَحَرَّمَ التِّجَارَةَ فِي الْخَمْرِ‏.‏",
+      "source_hash_sha256": "106cec7241d63008da7a763db3aaee28f876a5fcaa91f8d6112ab89958f22226",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂʾisha (qu’Allah l’agrée) rapporte : « Lorsque les derniers versets de la sourate Al-Baqara furent révélés, le Messager d’Allah (paix et bénédictions sur lui) sortit et les récita dans la mosquée. Il interdit alors le commerce du vin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f4428ead-d327-46ce-abb4-5b0f694bae8f",
+      "url": "https://sunnah.com/bukhari:4536",
+      "reason": "Le rapport cite directement Quran 2:234 et 2:240. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-820, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "f2bdb955-1ec7-4641-b23e-92380e44d728",
+      "url": "https://sunnah.com/bukhari:4537",
+      "reason": "Le rapport cite directement Quran 2:260. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-820, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "a8875389-4dd4-4ffc-84b8-0da85742e5c5",
+      "url": "https://sunnah.com/bukhari:4538",
+      "reason": "Le rapport cite directement Quran 2:266 et inclut aussi une citation lexicale coranique. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-820, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "568d7bef-9b26-44fa-9bb0-f24ae2afc02c",
+      "url": "https://sunnah.com/bukhari:4539",
+      "reason": "Le rapport cite directement Quran 2:273. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-820, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
