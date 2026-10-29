@@ -8176,3 +8176,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0210 saves five private French drafts about passing in front of someone praying, prayer space and prayer screens. Muslim 507b gives only the general meaning of the previous report and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 853 Muslim drafts, 7,189 total hadith drafts, 7,440 remaining, and 409 Needs Mo items.
+
+### 2026-10-29: Muslim 510b–512d
+
+- FR-LIB-HAD-MUSLIM-0211 saves five private French drafts about objects used before prayer and Aïcha’s accounts of praying while she was in front of the Prophet ﷺ. Muslim 510b contains chains and a cross-reference only, so it remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 858 Muslim drafts, 7,194 total hadith drafts, 7,435 remaining, and 410 Needs Mo items.
