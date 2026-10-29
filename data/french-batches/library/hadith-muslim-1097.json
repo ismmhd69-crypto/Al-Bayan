@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1097",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:11:38.189Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "28f33de4-5bbc-4aae-b826-843de793f671",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2355",
+      "reference": "Sahih Muslim, hadith 2355, book 43, باب فِي أَسْمَائِهِ صلى الله عليه وسلم ‏.‏",
+      "title": "باب فِي أَسْمَائِهِ صلى الله عليه وسلم ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، أَخْبَرَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ عَمْرِو، بْنِ مُرَّةَ عَنْ أَبِي عُبَيْدَةَ، عَنْ أَبِي مُوسَى الأَشْعَرِيِّ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُسَمِّي لَنَا نَفْسَهُ أَسْمَاءً فَقَالَ ‏\"‏ أَنَا مُحَمَّدٌ وَأَحْمَدُ وَالْمُقَفِّي وَالْحَاشِرُ وَنَبِيُّ التَّوْبَةِ وَنَبِيُّ الرَّحْمَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f8e3b6fa7aee7b06888e0ac29e8ab6b878d0756510f21545472ece9eeccec893",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Mûsâ al-Ash’arî rapporte : « Le Messager d’Allah ﷺ nous indiquait plusieurs de ses noms. Il dit : “Je suis Muhammad, Ahmad, al-Muqaffî — celui qui vient à la suite des prophètes —, al-Hâshir, le Prophète du repentir et le Prophète de la miséricorde.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "76be7a34-ef61-42b0-adf1-d9d1959747bf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2356a",
+      "reference": "Sahih Muslim, hadith 2356 a, book 43, باب عِلْمِهِ صلى الله عليه وسلم بِاللَّهِ تَعَالَى وَشِدَّةِ خَشْيَتِهِ ‏.‏",
+      "title": "باب عِلْمِهِ صلى الله عليه وسلم بِاللَّهِ تَعَالَى وَشِدَّةِ خَشْيَتِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي الضُّحَى، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ صَنَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَمْرًا فَتَرَخَّصَ فِيهِ فَبَلَغَ ذَلِكَ نَاسًا مِنْ أَصْحَابِهِ فَكَأَنَّهُمْ كَرِهُوهُ وَتَنَزَّهُوا عَنْهُ فَبَلَغَهُ ذَلِكَ فَقَامَ خَطِيبًا فَقَالَ ‏\"‏ مَا بَالُ رِجَالٍ بَلَغَهُمْ عَنِّي أَمْرٌ تَرَخَّصْتُ فِيهِ فَكَرِهُوهُ وَتَنَزَّهُوا عَنْهُ فَوَاللَّهِ لأَنَا أَعْلَمُهُمْ بِاللَّهِ وَأَشَدُّهُمْ لَهُ خَشْيَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f146da925c10f2751972273c3f27c1add22b61b0ba82c8c8f31d8a46212ef38c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte que le Messager d’Allah ﷺ accomplit un acte en s’accordant une permission. Certains de ses compagnons l’apprirent, semblèrent le désapprouver et s’en abstinrent par scrupule. Cela lui parvint. Il se leva alors pour prononcer un sermon et dit : « Qu’ont donc ces hommes à qui l’on a rapporté que je m’étais accordé une permission, qu’ils ont désapprouvée et dont ils se sont écartés ? Par Allah, je suis celui d’entre eux qui connaît le mieux Allah et qui Le craint le plus. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4ae59557-e778-4027-8459-805ba9ef5839",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2356b",
+      "reference": "Sahih Muslim, hadith 2356 b, book 43, باب عِلْمِهِ صلى الله عليه وسلم بِاللَّهِ تَعَالَى وَشِدَّةِ خَشْيَتِهِ ‏.‏",
+      "title": "باب عِلْمِهِ صلى الله عليه وسلم بِاللَّهِ تَعَالَى وَشِدَّةِ خَشْيَتِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو سَعِيدٍ الأَشَجُّ، حَدَّثَنَا حَفْصٌ يَعْنِي ابْنَ غِيَاثٍ، ح وَحَدَّثَنَاهُ إِسْحَاقُ، بْنُ إِبْرَاهِيمَ وَعَلِيُّ بْنُ خَشْرَمٍ قَالاَ أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، كِلاَهُمَا عَنِ الأَعْمَشِ، بِإِسْنَادِ جَرِيرٍ نَحْوَ حَدِيثِهِ ‏.‏",
+      "source_hash_sha256": "aa72e6525b6dc713f02d952e0a4c99f5696c3d849efb6071fc2e1d6c4aa03b74",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2754d10c-ec2e-42ef-8a4c-91dd40b20462",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2356c",
+      "reference": "Sahih Muslim, hadith 2356 c, book 43, باب عِلْمِهِ صلى الله عليه وسلم بِاللَّهِ تَعَالَى وَشِدَّةِ خَشْيَتِهِ ‏.‏",
+      "title": "باب عِلْمِهِ صلى الله عليه وسلم بِاللَّهِ تَعَالَى وَشِدَّةِ خَشْيَتِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ مُسْلِمٍ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ رَخَّصَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي أَمْرٍ فَتَنَزَّهَ عَنْهُ نَاسٌ مِنَ النَّاسِ فَبَلَغَ ذَلِكَ النَّبِيَّ صلى الله عليه وسلم فَغَضِبَ حَتَّى بَانَ الْغَضَبُ فِي وَجْهِهِ ثُمَّ قَالَ ‏\"‏ مَا بَالُ أَقْوَامٍ يَرْغَبُونَ عَمَّا رُخِّصَ لِي فِيهِ فَوَاللَّهِ لأَنَا أَعْلَمُهُمْ بِاللَّهِ وَأَشَدُّهُمْ لَهُ خَشْيَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "222346441052c735c7101fa3eb56552b66aa496068eb3b8898c9ef44a1da058d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte que le Messager d’Allah ﷺ s’était accordé une permission, mais que certaines personnes s’en abstinrent par scrupule. Cela parvint au Prophète ﷺ et il se mit en colère, au point que sa colère se vit sur son visage. Il dit ensuite : « Qu’ont donc ces gens à se détourner de ce qui m’a été permis ? Par Allah, je suis celui d’entre eux qui connaît le mieux Allah et qui Le craint le plus. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "67cbc8ad-fc5b-45ee-82ff-c5f2a607c362",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2357",
+      "reference": "Sahih Muslim, hadith 2357, book 43, باب وُجُوبِ اتِّبَاعِهِ صلى الله عليه وسلم ‏.‏",
+      "title": "باب وُجُوبِ اتِّبَاعِهِ صلى الله عليه وسلم ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، أَنَّ عَبْدَ اللَّهِ بْنَ الزُّبَيْرِ، حَدَّثَهُ أَنَّ رَجُلاً مِنَ الأَنْصَارِ خَاصَمَ الزُّبَيْرَ عِنْدَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي شِرَاجِ الْحَرَّةِ الَّتِي يَسْقُونَ بِهَا النَّخْلَ فَقَالَ الأَنْصَارِيُّ سَرِّحِ الْمَاءَ ‏.‏ يَمُرُّ فَأَبَى عَلَيْهِمْ فَاخْتَصَمُوا عِنْدَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِلزُّبَيْرِ ‏\"‏ اسْقِ يَا زُبَيْرُ ثُمَّ أَرْسِلِ الْمَاءَ إِلَى جَارِكَ ‏\"‏ ‏.‏ فَغَضِبَ الأَنْصَارِيُّ فَقَالَ يَا رَسُولَ اللَّهِ أَنْ كَانَ ابْنَ عَمَّتِكَ فَتَلَوَّنَ وَجْهُ نَبِيِّ اللَّهِ صلى الله عليه وسلم ثُمَّ قَالَ ‏\"‏ يَا زُبَيْرُ اسْقِ ثُمَّ احْبِسِ الْمَاءَ حَتَّى يَرْجِعَ إِلَى الْجَدْرِ ‏\"‏ ‏.‏ فَقَالَ الزُّبَيْرُ وَاللَّهِ إِنِّي لأَحْسِبُ هَذِهِ الآيَةَ نَزَلَتْ فِي ذَلِكَ ‏[quran sura=\"4\" aya_start=\"65\" aya_end=\"65\"]{‏ فَلاَ وَرَبِّكَ لاَ يُؤْمِنُونَ حَتَّى يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لاَ يَجِدُوا فِي أَنْفُسِهِمْ حَرَجًا‏}‏",
+      "source_hash_sha256": "bdca64b7b5ef255a249e67cedd7c4329aa849d5665c9eb026c2402e29a74e04e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ad84a071-28a1-4860-8f60-d0acbdef233c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2358a",
+      "reference": "Sahih Muslim, hadith 2358 a, book 43, باب تَوْقِيرِهِ صلى الله عليه وسلم وَتَرْكِ إِكْثَارِ سُؤَالِهِ عَمَّا لاَ ضَرُورَةَ إِلَيْهِ أَوْ لاَ يَت",
+      "title": "باب تَوْقِيرِهِ صلى الله عليه وسلم وَتَرْكِ إِكْثَارِ سُؤَالِهِ عَمَّا لاَ ضَرُورَةَ إِلَيْهِ أَوْ لاَ يَت",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عَامِرِ بْنِ، سَعْدٍ عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ أَعْظَمَ الْمُسْلِمِينَ فِي الْمُسْلِمِينَ جُرْمًا مَنْ سَأَلَ عَنْ شَىْءٍ لَمْ يُحَرَّمْ عَلَى الْمُسْلِمِينَ فَحُرِّمَ عَلَيْهِمْ مِنْ أَجْلِ مَسْأَلَتِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d5baf532a0d63726c80ed8c4b9a472f8f4484f13a2714c40a69adc7bf62e58ba",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa’d ibn Abî Waqqâs rapporte que le Messager d’Allah ﷺ dit : « Le plus grand pécheur parmi les musulmans est celui qui pose une question sur une chose qui n’était pas interdite aux musulmans, puis qui devient interdite à cause de sa question. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4ae59557-e778-4027-8459-805ba9ef5839",
+      "reason": "Cette entrée ne fournit que la chaîne de transmission et renvoie au récit précédent sans en reprendre le texte. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "67cbc8ad-fc5b-45ee-82ff-c5f2a607c362",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    }
+  ]
+}
