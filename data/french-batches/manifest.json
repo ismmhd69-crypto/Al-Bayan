@@ -13651,6 +13651,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-612",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-612.json",
+      "sourceIds": [
+        "4b7e4b93-92eb-4692-b912-cf6486e97ac7",
+        "9a584f29-059f-4eee-86a6-7504cd2220e1",
+        "d72d98de-78b1-4a58-9114-7b74abc0b8a6",
+        "8d3166b7-75ef-441d-a374-7daab937defc",
+        "c955dbf8-122a-4c1b-b564-5cdf707c4021",
+        "1ea0c90b-ec90-4d29-aae1-8550521c869e"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -13729,11 +13750,11 @@
 ,
     {
       "id": "HADITH-BUKHARI-3498-FADDADIN",
-      "scope": "Sahih al-Bukhari 3498: الفدادين",
+      "scope": "Sahih al-Bukhari 3498–3499: الفدادين",
       "status": "blocked",
-      "reason": "The exact referent of الفدادين is not confirmed from the local Arabic record. The full report remains blank in FR-LIB-HAD-BUKHARI-611 until the term can be checked."
+      "reason": "The exact referent of الفدادين is not confirmed from the local Arabic records. The full reports remain blank in private batches FR-LIB-HAD-BUKHARI-611 and FR-LIB-HAD-BUKHARI-612 until the term can be checked."
     }  ],
-  "hadithBukhariDrafted": 3120,
-  "hadithLocalDrafted": 3120,
-  "hadithLocalRemaining": 11537
+  "hadithBukhariDrafted": 3125,
+  "hadithLocalDrafted": 3125,
+  "hadithLocalRemaining": 11532
 }
