@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:42:23.455Z",
+  "lastReconciled": "2026-10-29T13:42:48.605Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6312,
+    "hadithBukhariDrafted": 6316,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6312,
-    "hadithDatabaseMissing": 8317,
-    "hadithLocalRemaining": 8317,
-    "hadithNeedsMo": 160,
+    "hadithLocalDrafted": 6316,
+    "hadithDatabaseMissing": 8313,
+    "hadithLocalRemaining": 8313,
+    "hadithNeedsMo": 162,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -29017,6 +29017,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1378",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1378.json",
+      "sourceIds": [
+        "50df2dd5-8c46-49c0-8c23-eab18d75e8ad",
+        "fbb98dc7-9a04-4607-87d5-ea2e5e4f32e7",
+        "e43698bd-0098-4af6-9820-e64a457607bd",
+        "b42bbc40-4b0f-42a2-badd-e3d5c49a2602",
+        "74d9b3c7-cf5c-4ef9-9c11-2d00e34b6ed2",
+        "dbf314b4-2123-4815-9b5b-598683351b15"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "4 complete private drafts and 2 item held under Needs Mo; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32835,11 +32856,23 @@
       "scope": "Sahih al-Bukhari 7526: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-BUKHARI-7531-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7531: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le Coran 5:67. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-BUKHARI-7532-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7532: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le Coran 25:68. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithBukhariDrafted": 6312,
-  "hadithLocalDrafted": 6312,
-  "hadithLocalRemaining": 8317,
+  "hadithBukhariDrafted": 6316,
+  "hadithLocalDrafted": 6316,
+  "hadithLocalRemaining": 8313,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -33800,6 +33833,18 @@
       "scope": "Sahih al-Bukhari 7526: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-BUKHARI-7531-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7531: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le Coran 5:67. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-BUKHARI-7532-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7532: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le Coran 25:68. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithMuslimDrafted": 0
