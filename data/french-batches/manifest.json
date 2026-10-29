@@ -34537,6 +34537,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0267",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0267.json",
+      "sourceIds": [
+        "a511f125-0e36-4922-ad59-035a4c512c4e",
+        "96cf9e0a-49f8-4069-b9ca-be26e4f56283",
+        "4b16027d-5ae7-43d4-a40a-089af7f3ec9e",
+        "6720e806-d943-45ca-a3d1-fcc4db0f9c81",
+        "59c181f7-3eba-4841-917e-f194994c6860",
+        "0338f0d5-23f6-4f38-8a0f-a3bedbfcccee"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -38844,8 +38865,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7395,
-  "hadithLocalRemaining": 7234,
+  "hadithLocalDrafted": 7400,
+  "hadithLocalRemaining": 7229,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40484,10 +40505,16 @@
       "scope": "Sahih Muslim 638b: incomplete variant text",
       "status": "blocked",
       "reason": "La source arabe renvoie au récit précédent par « de même » et omet plusieurs éléments de celui-ci. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0267-640C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 640c: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe ne reprend que la chaîne de transmission et indique une différence par rapport au récit précédent, sans en donner le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1059,
-  "hadithDatabaseMissing": 7234,
+  "hadithMuslimDrafted": 1064,
+  "hadithDatabaseMissing": 7229,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 509
+  "hadithNeedsMo": 510
 }
