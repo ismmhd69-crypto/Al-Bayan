@@ -2221,3 +2221,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-461` saves five private French drafts for Bukhari 2678–2682. Bukhari 2676 remains blank on hold because it directly quotes Quran 3:77; it needs an approved, attributed French Quran translation. The source export contained no Bukhari 2677 record.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,427 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 144. Total local hadith rows not drafted: 12,207, including held records.
+
+### 2026-10-29: Bukhari 2683–2688 source review
+
+- `FR-LIB-HAD-BUKHARI-462` saves six private French drafts for Bukhari 2683–2688, covering a promised payment, the term completed by Moses, questions to the People of the Book, collective responsibility, testimony about the deceased, and the sharing of time among the Prophet’s wives.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,428 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 143. Total local hadith rows not drafted: 12,205, including held records.
