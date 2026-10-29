@@ -6801,3 +6801,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1324 saves six private French drafts, preserving the alternate route, the narrator’s uncertainty about remembered instructions, the dawn demonstration, and the correction to the prayer. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,106 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 855. Total local hadith rows not drafted: 8,521, including held records.
+
+### 2026-10-29: Bukhari 7251–7256
+
+- FR-LIB-HAD-BUKHARI-1325 saves five private French drafts. Hadith 7252 directly quotes Quran 2:144; its complete translation remains blank under Needs Mo pending an approved, attributed French Quran translation and confirmation of permitted use. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,111 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 856. Total local hadith rows not drafted: 8,520, including held records.

@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1325",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:02:22.642Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "48de286c-59f0-40b3-ba57-83451c589df8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7251",
+      "reference": "Sahih al-Bukhari, hadith 7251, book 95, بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "title": "بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، حَدَّثَنِي مَالِكٌ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، قَالَ بَيْنَا النَّاسُ بِقُبَاءٍ فِي صَلاَةِ الصُّبْحِ إِذْ جَاءَهُمْ آتٍ فَقَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ أُنْزِلَ عَلَيْهِ اللَّيْلَةَ قُرْآنٌ، وَقَدْ أُمِرَ أَنْ يَسْتَقْبِلَ الْكَعْبَةَ فَاسْتَقْبِلُوهَا‏.‏ وَكَانَتْ وُجُوهُهُمْ إِلَى الشَّأْمِ فَاسْتَدَارُوا إِلَى الْكَعْبَةِ‏.‏",
+      "source_hash_sha256": "01b7f2569b87dcf3a245073acb7ed73dd5e44a56c3c1636cceea6b4c06f6f922",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ismâ‘îl nous a rapporté : Mâlik m’a rapporté, d’après ‘Abd Allah ibn Dînâr, d’après ‘Abd Allah ibn ‘Umar, qui a dit : Alors que les gens priaient la prière de l’aube à Qubâ’, quelqu’un vint leur dire : « Le Messager d’Allah ﷺ a reçu cette nuit une révélation du Coran. Il lui a été ordonné de s’orienter vers la Ka‘ba. Tournez-vous donc vers elle. » Ils étaient tournés vers la Syrie et se retournèrent alors vers la Ka‘ba.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3c37d5e0-d036-40ba-b9bd-d07eefbb53ec",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7252",
+      "reference": "Sahih al-Bukhari, hadith 7252, book 95, بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "title": "بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى، حَدَّثَنَا وَكِيعٌ، عَنْ إِسْرَائِيلَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ، قَالَ لَمَّا قَدِمَ رَسُولُ اللَّهِ صلى الله عليه وسلم الْمَدِينَةَ صَلَّى نَحْوَ بَيْتِ الْمَقْدِسِ سِتَّةَ عَشَرَ، أَوْ سَبْعَةَ عَشَرَ شَهْرًا، وَكَانَ يُحِبُّ أَنْ يُوَجَّهَ إِلَى الْكَعْبَةِ فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"2\" aya_start=\"144\" aya_end=\"144\"]{‏قَدْ نَرَى تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا‏}‏ فَوُجِّهَ نَحْوَ الْكَعْبَةِ، وَصَلَّى مَعَهُ رَجُلٌ الْعَصْرَ، ثُمَّ خَرَجَ فَمَرَّ عَلَى قَوْمٍ مِنَ الأَنْصَارِ فَقَالَ هُوَ يَشْهَدُ أَنَّهُ صَلَّى مَعَ النَّبِيِّ صلى الله عليه وسلم وَأَنَّهُ قَدْ وُجِّهَ إِلَى الْكَعْبَةِ‏.‏ فَانْحَرَفُوا وَهُمْ رُكُوعٌ فِي صَلاَةِ الْعَصْرِ‏.‏",
+      "source_hash_sha256": "6031f2a7b035e22f509582a0ec4cd5a6e03db37a098ac31c3afd7d07850f8167",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "needs_mo": true,
+      "needs_mo_reason": "Le rapport cite directement le Coran 2:144. Garder l’intégralité de la traduction vierge jusqu’à confirmation d’une traduction française du Coran approuvée, attribuée et autorisée.",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "25eacb39-c097-4a12-bc7c-5ddb8b8b8162",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7253",
+      "reference": "Sahih al-Bukhari, hadith 7253, book 95, بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "title": "بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى بْنُ قَزَعَةَ، حَدَّثَنِي مَالِكٌ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ قَالَ كُنْتُ أَسْقِي أَبَا طَلْحَةَ الأَنْصَارِيَّ وَأَبَا عُبَيْدَةَ بْنَ الْجَرَّاحِ وَأُبَىَّ بْنَ كَعْبٍ شَرَابًا مِنْ فَضِيخٍ وَهْوَ تَمْرٌ فَجَاءَهُمْ آتٍ فَقَالَ إِنَّ الْخَمْرَ قَدْ حُرِّمَتْ‏.‏ فَقَالَ أَبُو طَلْحَةَ يَا أَنَسُ قُمْ إِلَى هَذِهِ الْجِرَارِ فَاكْسِرْهَا، قَالَ أَنَسٌ فَقُمْتُ إِلَى مِهْرَاسٍ لَنَا فَضَرَبْتُهَا بِأَسْفَلِهِ حَتَّى انْكَسَرَتْ‏.‏",
+      "source_hash_sha256": "c3fb714135f9b5567f0676d78539aceb2106ec2da75ec8cf116b2906c9a87f47",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Qaza‘a m’a rapporté : Mâlik m’a rapporté, d’après Ishâq ibn ‘Abd Allah ibn Abî Talha, d’après Anas ibn Mâlik (qu’Allah l’agrée), qui a dit : Je servais une boisson appelée fadîkh — préparée à partir de dattes — à Abû Talha al-Ansârî, Abû ‘Ubayda ibn al-Jarrâh et Ubayy ibn Ka‘b. Quelqu’un vint leur annoncer : « Les boissons enivrantes ont été interdites. » Abû Talha dit : « Anas, lève-toi et brise ces jarres. » Je me levai et les frappai avec la base de notre mortier de pierre jusqu’à ce qu’elles se brisent.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "761af88b-defc-49d8-82c4-c1e8ad7ec4ae",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7254",
+      "reference": "Sahih al-Bukhari, hadith 7254, book 95, بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "title": "بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، عَنْ صِلَةَ، عَنْ حُذَيْفَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ لأَهْلِ نَجْرَانَ ‏\"‏ لأَبْعَثَنَّ إِلَيْكُمْ رَجُلاً أَمِينًا حَقَّ أَمِينٍ ‏\"‏‏.‏ فَاسْتَشْرَفَ لَهَا أَصْحَابُ النَّبِيِّ صلى الله عليه وسلم فَبَعَثَ أَبَا عُبَيْدَةَ‏.‏",
+      "source_hash_sha256": "94e2ce09a09f67025f3bb4ce1eb2154f6a85a562057ac186d559d50dbbe1be04",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sulaymân ibn Harb nous a rapporté : Shu‘ba nous a rapporté, d’après Abû Ishâq, d’après Sila, d’après Hudhayfa, que le Prophète ﷺ a dit aux gens de Najrân : « Je vous enverrai un homme digne de confiance, véritablement digne de confiance. » Les Compagnons du Prophète ﷺ se montrèrent empressés d’obtenir cette distinction, et il envoya Abû ‘Ubayda.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b02ed86a-21c4-4b64-b2c4-968579b56ed2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7255",
+      "reference": "Sahih al-Bukhari, hadith 7255, book 95, بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "title": "بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا شُعْبَةُ، عَنْ خَالِدٍ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لِكُلِّ أُمَّةٍ أَمِينٌ، وَأَمِينُ هَذِهِ الأُمَّةِ أَبُو عُبَيْدَةَ ‏\"‏‏.‏",
+      "source_hash_sha256": "7c3a93be615355f1f877f6c89b7c7260406e9f4a73d35b9cf423b99fb9ec7189",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sulaymân ibn Harb nous a rapporté : Shu‘ba nous a rapporté, d’après Khâlid, d’après Abû Qilâba, d’après Anas (qu’Allah l’agrée), qui a dit : Le Prophète ﷺ a dit : « Chaque communauté a son homme digne de confiance, et l’homme digne de confiance de cette communauté est Abû ‘Ubayda. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bef0e5c8-631d-446e-843e-0d5ee6dcdae7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7256",
+      "reference": "Sahih al-Bukhari, hadith 7256, book 95, بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "title": "بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ فِي الأَذَانِ وَالصَّلاَةِ وَالصَّوْمِ وَالْفَرَائِضِ وَالأَحْكَامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ عُبَيْدِ بْنِ حُنَيْنٍ، عَنِ ابْنِ عَبَّاسٍ، عَنْ عُمَرَ ـ رضى الله عنهم ـ قَالَ وَكَانَ رَجُلٌ مِنَ الأَنْصَارِ إِذَا غَابَ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم وَشَهِدْتُهُ أَتَيْتُهُ بِمَا يَكُونُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم وَإِذَا غِبْتُ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم وَشَهِدَ أَتَانِي بِمَا يَكُونُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "012420cf4406ffcef0cf87d726ce985059b4b456d87cf7678b291544253ea195",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sulaymân ibn Harb nous a rapporté : Hammâd ibn Zayd nous a rapporté, d’après Yahyâ ibn Sa‘îd, d’après ‘Ubayd ibn Hunayn, d’après Ibn ‘Abbâs, d’après ‘Umar (qu’Allah les agrée), qui a dit : Il y avait un homme des Ansâr qui, lorsque je m’absentais auprès du Messager d’Allah ﷺ et qu’il était présent, venait me rapporter ce qui s’était passé auprès du Messager d’Allah ﷺ. Et lorsque je m’absentais auprès du Messager d’Allah ﷺ et qu’il était présent, je venais le trouver et il me rapportait ce qui s’était passé auprès du Messager d’Allah ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "3c37d5e0-d036-40ba-b9bd-d07eefbb53ec",
+      "reason": "Direct quotation of Quran 2:144; keep the entire French translation blank pending confirmation of an approved, attributed and permitted Quran translation."
+    }
+  ]
+}
