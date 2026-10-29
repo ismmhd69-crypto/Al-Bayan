@@ -1064,3 +1064,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-221` saves six private French drafts for Bukhari 1273–1278. They preserve the shroud reports about Mus'ab ibn Umayr, the woven burda later used as a shroud, and the report about women following funeral processions.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,178 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 61. Total local hadith rows not drafted: 13,451, including held records.
+### 2026-10-29: Bukhari 1279–1285 source review
+
+- `FR-LIB-HAD-BUKHARI-222` saves six private French drafts for Bukhari 1279–1285, including the combined 1281/1282 record. They preserve the mourning-period reports, the counsel on patience at the first shock, the Prophet’s tears for a dying child, and the burial account.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,184 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 61. Total local hadith rows not drafted: 13,445, including held records.
