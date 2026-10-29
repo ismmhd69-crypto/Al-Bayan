@@ -44881,6 +44881,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0838",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0838.json",
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "complete long report contains a Quran quotation at 3:64 in the letter to Heraclius; entire French entry held blank pending an attributed authorized French Quran translation; source ID and hash preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked"
     }
   ],
   "blockers": [
@@ -54386,5 +54399,5 @@
   "hadithMuslimDrafted": 3166,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1334
+  "hadithNeedsMo": 1335
 }

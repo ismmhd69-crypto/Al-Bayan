@@ -11310,3 +11310,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1770-1772c
 
 - FR-LIB-HAD-MUSLIM-0837 saves six private French drafts: the prayer at Banû Qurayza, two accounts about the Ansâr’s gifts and Umm Ayman, and three versions of the report about an item found at Khaybar. The difference between “food and fat” and “fat” alone is retained. No Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1773a
+
+- FR-LIB-HAD-MUSLIM-0838 records the long report about the letter to Heraclius as a Needs Mo hold because the letter contains a Quran quotation from 3:64. The entire French entry remains blank pending an attributed and authorized French Quran translation. No database write or publication occurred.
