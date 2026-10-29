@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-210",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:01:46.734Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4c881b4c-700b-47e0-8bc1-1b045db986f4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1205",
+      "reference": "Sahih al-Bukhari, hadith 1205, book 21, باب مَنْ رَجَعَ الْقَهْقَرَى فِي صَلاَتِهِ، أَوْ تَقَدَّمَ بِأَمْرٍ يَنْزِلُ بِهِ",
+      "title": "باب مَنْ رَجَعَ الْقَهْقَرَى فِي صَلاَتِهِ، أَوْ تَقَدَّمَ بِأَمْرٍ يَنْزِلُ بِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا بِشْرُ بْنُ مُحَمَّدٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، قَالَ يُونُسُ قَالَ الزُّهْرِيُّ أَخْبَرَنِي أَنَسُ بْنُ مَالِكٍ، أَنَّ الْمُسْلِمِينَ، بَيْنَا هُمْ فِي الْفَجْرِ يَوْمَ الاِثْنَيْنِ، وَأَبُو بَكْرٍ ـ رضى الله عنه ـ يُصَلِّي بِهِمْ فَفَجَأَهُمُ النَّبِيُّ صلى الله عليه وسلم قَدْ كَشَفَ سِتْرَ حُجْرَةِ عَائِشَةَ ـ رضى الله عنها ـ فَنَظَرَ إِلَيْهِمْ، وَهُمْ صُفُوفٌ، فَتَبَسَّمَ يَضْحَكُ، فَنَكَصَ أَبُو بَكْرٍ ـ رضى الله عنه ـ عَلَى عَقِبَيْهِ، وَظَنَّ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم يُرِيدُ أَنْ يَخْرُجَ إِلَى الصَّلاَةِ، وَهَمَّ الْمُسْلِمُونَ أَنْ يَفْتَتِنُوا فِي صَلاَتِهِمْ فَرَحًا بِالنَّبِيِّ صلى الله عليه وسلم حِينَ رَأَوْهُ، فَأَشَارَ بِيَدِهِ أَنْ أَتِمُّوا، ثُمَّ دَخَلَ الْحُجْرَةَ وَأَرْخَى السِّتْرَ، وَتُوُفِّيَ ذَلِكَ الْيَوْمَ‏.‏",
+      "source_hash_sha256": "3fd83877dc7e6eee6c34ded6fcfcee32f75506adb36310ef271fef3389fc9d24",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Bishr ibn Muhammad nous a rapporté : Abd Allah nous a informés. Yunus rapporte qu’al-Zuhri lui a dit : Anas ibn Malik m’a informé que, alors que les musulmans accomplissaient la prière de l’aube un lundi et qu’Abu Bakr, qu’Allah l’agrée, la dirigeait, le Prophète ﷺ apparut soudain. Il avait soulevé le rideau de la chambre d’Aïcha, qu’Allah l’agrée, et les regardait alors qu’ils étaient en rangs. Il sourit et rit. Abu Bakr, qu’Allah l’agrée, recula sur ses talons, pensant que le Messager d’Allah ﷺ voulait sortir pour prier. Les musulmans furent sur le point de perdre leur concentration dans la prière, tant ils étaient heureux de voir le Prophète ﷺ. Il leur fit signe de la main de terminer leur prière, puis rentra dans la chambre et laissa retomber le rideau. Il mourut ce jour-là.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bcbfd49a-8c1c-4584-a7d1-aa0325f1a48c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1206",
+      "reference": "Sahih al-Bukhari, hadith 1206, book 21, باب إِذَا دَعَتِ الأُمُّ وَلَدَهَا فِي الصَّلاَةِ",
+      "title": "باب إِذَا دَعَتِ الأُمُّ وَلَدَهَا فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "وَقَالَ اللَّيْثُ حَدَّثَنِي جَعْفَرٌ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ هُرْمُزَ، قَالَ قَالَ أَبُو هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ نَادَتِ امْرَأَةٌ ابْنَهَا، وَهْوَ فِي صَوْمَعَةٍ قَالَتْ يَا جُرَيْجُ‏.‏ قَالَ اللَّهُمَّ أُمِّي وَصَلاَتِي‏.‏ قَالَتْ يَا جُرَيْجُ‏.‏ قَالَ اللَّهُمَّ أُمِّي وَصَلاَتِي‏.‏ قَالَتْ يَا جُرَيْجُ‏.‏ قَالَ اللَّهُمَّ أُمِّي وَصَلاَتِي‏.‏ قَالَتِ اللَّهُمَّ لاَ يَمُوتُ جُرَيْجٌ حَتَّى يَنْظُرَ فِي وَجْهِ الْمَيَامِيسِ‏.‏ وَكَانَتْ تَأْوِي إِلَى صَوْمَعَتِهِ رَاعِيَةٌ تَرْعَى الْغَنَمَ فَوَلَدَتْ فَقِيلَ لَهَا مِمَّنْ هَذَا الْوَلَدُ قَالَتْ مِنْ جُرَيْجٍ نَزَلَ مِنْ صَوْمَعَتِهِ‏.‏ قَالَ جُرَيْجٌ أَيْنَ هَذِهِ الَّتِي تَزْعُمُ أَنَّ وَلَدَهَا لِي قَالَ يَا بَابُوسُ مَنْ أَبُوكَ قَالَ رَاعِي الْغَنَمِ ‏\"‏‏.‏",
+      "source_hash_sha256": "9c641f3339f0f18d7e306a28b215aed61ace7fee9818960f49a4eafcd96c079a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Layth a dit : Ja‘far m’a rapporté, d’après Abd al-Rahman ibn Hurmuz, qui dit : Abu Hurayra, qu’Allah l’agrée, a dit : Le Messager d’Allah ﷺ a dit : « Une femme appela son fils alors qu’il se trouvait dans son ermitage et dit : “Ô Jurayj !” Il répondit : “Ô Allah, ma mère et ma prière !” Elle l’appela de nouveau : “Ô Jurayj !” Il répondit encore : “Ô Allah, ma mère et ma prière !” Elle l’appela une troisième fois : “Ô Jurayj !” Il répondit encore : “Ô Allah, ma mère et ma prière !” Elle dit : “Ô Allah, ne laisse pas Jurayj mourir avant qu’il n’ait vu les visages de prostituées.” Une bergère qui faisait paître des moutons avait l’habitude de se rendre à son ermitage. Elle eut un enfant. On lui demanda : “De qui est cet enfant ?” Elle répondit : “De Jurayj ; il est descendu de son ermitage.” Jurayj demanda : “Où est cette femme qui prétend que son enfant est de moi ?” Il demanda à l’enfant : “Ô petit garçon, qui est ton père ?” L’enfant répondit : “Le berger des moutons.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7ed6e45e-3031-4cd5-b03a-c5c80485ac3e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1207",
+      "reference": "Sahih al-Bukhari, hadith 1207, book 21, باب مَسْحِ الْحَصَى فِي الصَّلاَةِ",
+      "title": "باب مَسْحِ الْحَصَى فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا شَيْبَانُ، عَنْ يَحْيَى، عَنْ أَبِي سَلَمَةَ، قَالَ حَدَّثَنِي مُعَيْقِيبٌ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ فِي الرَّجُلِ يُسَوِّي التُّرَابَ حَيْثُ يَسْجُدُ قَالَ ‏\"‏ إِنْ كُنْتَ فَاعِلاً فَوَاحِدَةً ‏\"‏‏.‏",
+      "source_hash_sha256": "827a54a506ad46dbfb3e5420d17c13584cc212ecdcbb78f7cdb4d409160808b6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Nuaym nous a rapporté : Shayban nous a rapporté, d’après Yahya, d’après Abu Salama, qui dit : Muayqib m’a rapporté que le Prophète ﷺ, au sujet de l’homme qui égalise la terre à l’endroit où il se prosterne, a dit : « Si tu dois le faire, fais-le une seule fois. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c64d5600-f793-45dd-8763-03b3a2c4bb2d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1208",
+      "reference": "Sahih al-Bukhari, hadith 1208, book 21, باب بَسْطِ الثَّوْبِ فِي الصَّلاَةِ لِلسُّجُودِ",
+      "title": "باب بَسْطِ الثَّوْبِ فِي الصَّلاَةِ لِلسُّجُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا بِشْرٌ، حَدَّثَنَا غَالِبٌ، عَنْ بَكْرِ بْنِ عَبْدِ اللَّهِ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ قَالَ كُنَّا نُصَلِّي مَعَ النَّبِيِّ صلى الله عليه وسلم فِي شِدَّةِ الْحَرِّ، فَإِذَا لَمْ يَسْتَطِعْ أَحَدُنَا أَنْ يُمَكِّنَ وَجْهَهُ مِنَ الأَرْضِ بَسَطَ ثَوْبَهُ فَسَجَدَ عَلَيْهِ‏.‏",
+      "source_hash_sha256": "eaad902b3b152c4306cadfecd5613d996e81e7c35533c2b5c04f6e15eb30c9fe",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Bishr nous a rapporté : Ghalib nous a rapporté, d’après Bakr ibn Abd Allah, d’après Anas ibn Malik, qu’Allah l’agrée, qui dit : « Nous priions avec le Prophète ﷺ alors qu’il faisait très chaud. Lorsque l’un de nous ne pouvait pas poser fermement son visage au sol, il étendait son vêtement et se prosternait dessus. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "efc345c1-bb9e-47b4-bbd4-37b360a94b23",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1209",
+      "reference": "Sahih al-Bukhari, hadith 1209, book 21, باب مَا يَجُوزُ مِنَ الْعَمَلِ فِي الصَّلاَةِ",
+      "title": "باب مَا يَجُوزُ مِنَ الْعَمَلِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، حَدَّثَنَا مَالِكٌ، عَنْ أَبِي النَّضْرِ، عَنْ أَبِي سَلَمَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كُنْتُ أَمُدُّ رِجْلِي فِي قِبْلَةِ النَّبِيِّ صلى الله عليه وسلم وَهُوَ يُصَلِّي، فَإِذَا سَجَدَ غَمَزَنِي فَرَفَعْتُهَا، فَإِذَا قَامَ مَدَدْتُهَا‏.‏",
+      "source_hash_sha256": "0824b2049d6dbe8523b2de3aefaa902fa96f9295f5f9a2ecb12406b0512c8cc8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Maslama nous a rapporté : Malik nous a rapporté, d’après Abu al-Nadr, d’après Abu Salama, d’après Aïcha, qu’Allah l’agrée, qui dit : « J’étendais mes jambes devant le Prophète ﷺ, dans la direction de la qibla, alors qu’il priait. Lorsqu’il se prosternait, il me donnait un léger coup, et je les retirais. Lorsqu’il se relevait, je les étendais de nouveau. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a78703d6-5836-48c6-bc31-b730bd1f9ed8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1210",
+      "reference": "Sahih al-Bukhari, hadith 1210, book 21, باب مَا يَجُوزُ مِنَ الْعَمَلِ فِي الصَّلاَةِ",
+      "title": "باب مَا يَجُوزُ مِنَ الْعَمَلِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَحْمُودٌ، حَدَّثَنَا شَبَابَةُ، حَدَّثَنَا شُعْبَةُ، عَنْ مُحَمَّدِ بْنِ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ صَلَّى صَلاَةً قَالَ ‏\"‏ إِنَّ الشَّيْطَانَ عَرَضَ لِي، فَشَدَّ عَلَىَّ لِيَقْطَعَ الصَّلاَةَ عَلَىَّ، فَأَمْكَنَنِي اللَّهُ مِنْهُ، فَذَعَتُّهُ، وَلَقَدْ هَمَمْتُ أَنْ أُوثِقَهُ إِلَى سَارِيَةٍ حَتَّى تُصْبِحُوا فَتَنْظُرُوا إِلَيْهِ فَذَكَرْتُ قَوْلَ سُلَيْمَانَ ـ عَلَيْهِ السَّلاَمُ ـ رَبِّ هَبْ لِي مُلْكًا لاَ يَنْبَغِي لأَحَدٍ مِنْ بَعْدِي‏.‏ فَرَدَّهُ اللَّهُ خَاسِيًا ‏\"‏‏.‏ ثُمَّ قَالَ النَّضْرُ بْنُ شُمَيْلٍ فَذَعَتُّهُ بِالذَّالِ أَىْ خَنَقْتُهُ وَفَدَعَّتُّهُ مِنْ قَوْلِ اللَّهِ ‏[quran sura=\"52\" aya_start=\"13\" aya_end=\"13\"]{‏يَوْمَ يُدَعُّونَ‏}‏ أَىْ يُدْفَعُونَ وَالصَّوَابُ، فَدَعَتُّهُ إِلاَّ أَنَّهُ كَذَا قَالَ بِتَشْدِيدِ الْعَيْنِ وَالتَّاءِ‏.‏",
+      "source_hash_sha256": "0d71c955a644acc91f2d9f737c7506e8f05bd278b359f20c334e438a32047f19",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a78703d6-5836-48c6-bc31-b730bd1f9ed8",
+      "reason": "This report directly quotes Quran 38:35 and Quran 52:13. Keep the entire report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
