@@ -1,0 +1,127 @@
+{
+  "batch_id": "HADITH-MUSLIM-1363",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:51:38.447Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "096b95fe-0019-4594-8bc8-775e58f770c2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3032b",
+      "reference": "Sahih Muslim, hadith 3032 b, book 56, باب فِي نُزُولِ تَحْرِيمِ الْخَمْرِ",
+      "title": "باب فِي نُزُولِ تَحْرِيمِ الْخَمْرِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، أَخْبَرَنَا ابْنُ إِدْرِيسَ، حَدَّثَنَا أَبُو حَيَّانَ، عَنِ الشَّعْبِيِّ، عَنِ ابْنِ، عُمَرَ قَالَ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ، عَلَى مِنْبَرِ رَسُولِ اللَّهِ صلى الله عليه وسلم يَقُولُ أَمَّا بَعْدُ أَيُّهَا النَّاسُ فَإِنَّهُ نَزَلَ تَحْرِيمُ الْخَمْرِ وَهْىَ مِنْ خَمْسَةٍ مِنَ الْعِنَبِ وَالتَّمْرِ وَالْعَسَلِ وَالْحِنْطَةِ وَالشَّعِيرِ وَالْخَمْرُ مَا خَامَرَ الْعَقْلَ وَثَلاَثٌ أَيُّهَا النَّاسُ وَدِدْتُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ عَهِدَ إِلَيْنَا فِيهِنَّ عَهْدًا نَنْتَهِي إِلَيْهِ الْجَدُّ وَالْكَلاَلَةُ وَأَبْوَابٌ مِنْ أَبْوَابِ الرِّبَا ‏.‏",
+      "source_hash_sha256": "00455f4f3136aa55471072e527d051e75644db3d9caf70205d326fe29cc8c0ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn ʿUmar rapporte avoir entendu ʿUmar ibn al-Khattâb dire sur la chaire du Messager d’Allah ﷺ : « Ensuite, ô gens, l’interdiction du vin a été révélée alors qu’il était préparé à partir de cinq choses : le raisin, les dattes, le miel, le blé et l’orge. Le vin est ce qui trouble la raison. Ô gens, il y a trois questions sur lesquelles j’aurais souhaité que le Messager d’Allah ﷺ nous laisse des instructions claires, afin que nous puissions nous y conformer : la part du grand-père, le cas de la succession sans ascendants ni descendants directs, et certains aspects de l’usure. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "27b2751a-ede7-432e-b887-ce9b0a155e21",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3032c",
+      "reference": "Sahih Muslim, hadith 3032 c, book 56, باب فِي نُزُولِ تَحْرِيمِ الْخَمْرِ",
+      "title": "باب فِي نُزُولِ تَحْرِيمِ الْخَمْرِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، ح وَحَدَّثَنَا إِسْحَاقُ، بْنُ إِبْرَاهِيمَ أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، كِلاَهُمَا عَنْ أَبِي حَيَّانَ، بِهَذَا الإِسْنَادِ ‏.‏ بِمِثْلِ حَدِيثِهِمَا غَيْرَ أَنَّ ابْنَ عُلَيَّةَ فِي حَدِيثِهِ الْعِنَبِ ‏.‏ كَمَا قَالَ ابْنُ إِدْرِيسَ وَفِي حَدِيثِ عِيسَى الزَّبِيبِ ‏.‏ كَمَا قَالَ ابْنُ مُسْهِرٍ ‏.‏",
+      "source_hash_sha256": "301e7d3cabe66b1e21621b445dcdab7a49d0869fb4e6c0151be9684200c32558",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "40d1720d-78ef-4c78-8ae3-2dae018bbc80",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3033a",
+      "reference": "Sahih Muslim, hadith 3033 a, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ زُرَارَةَ، حَدَّثَنَا هُشَيْمٌ، عَنْ أَبِي هَاشِمٍ، عَنْ أَبِي مِجْلَزٍ، عَنْ قَيْسِ، بْنِ عُبَادٍ قَالَ سَمِعْتُ أَبَا ذَرٍّ، يُقْسِمُ قَسَمًا إِنَّ ‏[quran sura=\"22\" aya_start=\"19\" aya_end=\"19\"]{‏ هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ‏}‏ إِنَّهَا نَزَلَتْ فِي الَّذِينَ بَرَزُوا يَوْمَ بَدْرٍ حَمْزَةُ وَعَلِيٌّ وَعُبَيْدَةُ بْنُ الْحَارِثِ وَعُتْبَةُ وَشَيْبَةُ ابْنَا رَبِيعَةَ وَالْوَلِيدُ بْنُ عُتْبَةَ ‏.‏",
+      "source_hash_sha256": "6edcd2a7e9e8e2a1676eb351c5d13980bef6e68ab98c38eb4982966d6d1a160f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "babfb7dd-d35b-4bc6-be93-5dbbc17d617a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3033b",
+      "reference": "Sahih Muslim, hadith 3033 b, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، جَمِيعًا عَنْ سُفْيَانَ، عَنْ أَبِي هَاشِمٍ، عَنْ أَبِي مِجْلَزٍ، عَنْ قَيْسِ بْنِ عُبَادٍ، قَالَ سَمِعْتُ أَبَا ذَرٍّ، يُقْسِمُ لَنَزَلَتْ ‏{‏ هَذَانِ خَصْمَانِ‏}‏ بِمِثْلِ حَدِيثِ هُشَيْمٍ ‏.‏",
+      "source_hash_sha256": "f5eba73b57e04045cbce598d3748ddbc47d96fc9122db419fe95004e971154a5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "27b2751a-ede7-432e-b887-ce9b0a155e21",
+      "status": "blocked",
+      "reason": "Cette entrée ne reproduit pas le récit complet et se limite à signaler une différence entre des variantes concernant le fruit utilisé. La traduction française reste en attente du texte intégral."
+    },
+    {
+      "source_id": "40d1720d-78ef-4c78-8ae3-2dae018bbc80",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 22:19 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "babfb7dd-d35b-4bc6-be93-5dbbc17d617a",
+      "status": "blocked",
+      "reason": "Cette entrée cite une partie d’un verset coranique (« ces deux adversaires ») et renvoie à un récit précédent sans en reproduire le texte. La formulation française autorisée et le texte complet doivent être confirmés."
+    }
+  ]
+}
