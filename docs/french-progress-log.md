@@ -6696,3 +6696,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1303 saves six private French drafts, preserving the responsibility wording, attribution and variants, and counsel about the community and its leader. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,010 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 849. Total local hadith rows not drafted: 8,619, including held records.
+
+### 2026-10-29: Bukhari 7144–7149
+
+- FR-LIB-HAD-BUKHARI-1304 saves six private French drafts, preserving the limit on obedience, the distinction around leadership sought or received, and the alternate attribution of the final report. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,016 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 849. Total local hadith rows not drafted: 8,613, including held records.
