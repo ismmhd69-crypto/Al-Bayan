@@ -59,18 +59,18 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 4926,
+    "hadithMuslimDrafted": 4931,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11262,
+    "hadithLocalDrafted": 11267,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3367,
-    "hadithNeedsMo": 2791,
+    "hadithLocalRemaining": 3362,
+    "hadithNeedsMo": 2792,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14053,
-    "hadithSourcesNotYetExported": 576
+    "hadithSourcesProcessed": 14059,
+    "hadithSourcesNotYetExported": 570
   },
   "batches": [
     {
@@ -50847,6 +50847,30 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1258",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1258.json",
+      "sourceIds": [
+        "2dca51c5-d720-4fcb-bcd3-3ccb7be803cf",
+        "d8ad080f-4dc7-4231-a61e-4aed94eabd4b",
+        "3d8396f5-f4db-4411-83a6-79e9ca2354e9",
+        "5ab2bb85-167b-4e72-8968-739bbb9fe418",
+        "eae39da4-6514-4ae2-be62-882126f55de4",
+        "baafa588-0e5a-4892-a437-a4b26f9f179a"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 1,
+      "failed": 0,
+      "remaining": 3362,
+      "validation": "Five complete reports translated. One cross-reference-only variant held blank with a reason. Focused validator and git diff check passed. Private local drafts only.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
