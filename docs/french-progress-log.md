@@ -8636,3 +8636,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0301 saves six private French drafts about turning after prayer and the rule when the congregational prayer is about to begin.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,201 Muslim drafts, 7,537 total hadith drafts, 7,092 remaining, and 564 Needs Mo items.
+
+### 2026-10-29: Muslim 710c–713a
+
+- FR-LIB-HAD-MUSLIM-0302 saves four private French drafts about avoiding a second voluntary prayer once the obligatory prayer has begun, and the supplication on entering or leaving a mosque. Muslim 710c and 710d are incomplete cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,205 Muslim drafts, 7,541 total hadith drafts, 7,088 remaining, and 566 Needs Mo items.
