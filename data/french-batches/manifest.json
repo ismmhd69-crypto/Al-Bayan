@@ -7018,6 +7018,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "three private drafts; Bukhari 1645, 1647 and 1648 held for embedded Quran quotations"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-287",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-287.json",
+      "sourceIds": [
+        "9671206a-f611-45fc-b3cd-33cdaf6f40e6",
+        "65b9ddf4-e378-41ac-863f-73fff6677a7a",
+        "59f8d554-c7d9-4dcf-868a-cf0f98994bc5",
+        "a0428e33-f8f4-42b8-8445-38dbec5a16b1",
+        "c82e44cf-b18f-4b03-9729-4b231aabd5a4",
+        "d68012c8-96e1-4422-98d3-fe5fb863279b"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [
