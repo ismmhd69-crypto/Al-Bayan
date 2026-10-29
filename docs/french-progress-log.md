@@ -11011,3 +11011,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0776 saves five private French drafts about leadership, oaths, and Sulayman’s vow. Muslim 1652d only points to another report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1654c–1656a
+
+- FR-LIB-HAD-MUSLIM-0777 saves five private French drafts about Sulayman’s vow and Umar’s vow to perform a retreat in the Sacred Mosque. Muslim 1654c only points to a prior version and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
