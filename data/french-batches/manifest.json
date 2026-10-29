@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 7138,
     "hadithDatabaseMissing": 7665,
     "hadithLocalRemaining": 7491,
-    "hadithNeedsMo": 368,
+    "hadithNeedsMo": 369,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -45333,6 +45333,19 @@
       "inserted": 0,
       "preserved": 1,
       "validation": "two complete reports translated as private drafts; one chain-only cross-reference held entirely blank with a specific Needs Mo reason; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0873",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0873.json",
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "the complete long report held entirely blank because it quotes Quran 4:29 and no authorized attributed French Quran translation is available; source ID and hash preserved",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"

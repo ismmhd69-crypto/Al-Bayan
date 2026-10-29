@@ -11450,3 +11450,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1842a-1843
 
 - FR-LIB-HAD-MUSLIM-0872 saves two private French drafts about successive caliphs and events after the Prophet’s death, preserving the full transmission chains. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1844a
+
+- FR-LIB-HAD-MUSLIM-0873 leaves the complete long report blank under Needs Mo because it quotes Quran 4:29 and no authorized, attributed French Quran translation is available. The source ID and hash are preserved. No draft count increased; no database write or publication occurred.
