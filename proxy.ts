@@ -21,6 +21,13 @@ function pickLocale(request: NextRequest): Locale {
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const previewPath = pathname.replace(/\/$/u, "");
+  const hostname = request.nextUrl.hostname.toLowerCase().replace(/^\[|\]$/gu, "");
+  const localFrenchPreviewHost = ["localhost", "127.0.0.1", "::1"].includes(hostname);
+  if (previewPath === "/dev/french-preview") {
+    if (process.env.NODE_ENV !== "development" || !localFrenchPreviewHost) return new NextResponse(null, { status: 404 });
+    return NextResponse.next();
+  }
   // German is not offered at launch: old /de links go to the same English page.
   if (pathname === "/de" || pathname.startsWith("/de/")) {
     request.nextUrl.pathname = `/en${pathname.slice(3)}`;

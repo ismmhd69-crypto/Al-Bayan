@@ -33,8 +33,12 @@
     "dictionaryDraft": "dictionaries/fr.ts",
     "dictionaryIntegrated": false,
     "hardcodedVisitorCopyAudit": "incomplete",
-    "privatePreview": "not yet implemented",
+    "privatePreview": "app/dev/french-preview/page.tsx; development-only and loopback-host guarded; Ask submission disabled",
+    "privatePreviewLiveVerified": false,
     "activeLocalesChanged": false,
+    "askStatusStringsTotal": 93,
+    "askStatusStringsDrafted": 0,
+    "askStatusStringsRemaining": 93,
     "newToIslamLessonsRemaining": 32,
     "hardQuestionsArticlesRemaining": 21,
     "preparedAnswersRemaining": 44
