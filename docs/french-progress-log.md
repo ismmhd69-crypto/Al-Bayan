@@ -1956,3 +1956,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-408` saves five private French drafts for Bukhari 2369–2370 and 2372–2374. Bukhari 2371 directly quotes Quran 99:6–7; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,148 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 129. Total local hadith rows not drafted: 12,481, including held records.
+
+### 2026-10-29: Bukhari 2375–2380 source review
+
+- `FR-LIB-HAD-BUKHARI-409` saves six private French drafts for Bukhari 2375–2380, covering the account of ‘Alî’s camels, the Bahrain allocations, camel milking at the watering place, palm fruit and property sold with an enslaved person, and ‘arâyâ sales.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,154 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 129. Total local hadith rows not drafted: 12,475, including held records.
