@@ -54,3 +54,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - Lessons 19–21 (repentance, non-Muslim family, and community support) are drafted in `new-to-islam-008.json` and passed the same structural and citation checks. Current progress: 21 of 32 lessons; 11 remain.
 - Lessons 22–24 (food and drink, modesty, and work and money) are drafted in `new-to-islam-009.json` and passed citation and structure checks. Current New to Islam progress: 24 of 32 lessons; 8 remain.
 - Lessons 25–32 (Ramadan, zakat, Hajj, good character, difficult thoughts, scholarly differences, reliable answers, and next steps) are drafted in `new-to-islam-010.json` through `new-to-islam-012.json`. All 32 New to Islam lessons now have French local drafts and pass structural and reference checks. Human review: 0; published: 0.
+
+### Phase 3: Hard Questions articles (in progress)
+
+- Translated articles 1–9 in `hard-questions-001.json` through `hard-questions-003.json`. French drafts preserve the source link destinations, citation labels, headings, and paragraph structure; all three batches passed the focused validator. No source English or existing AR/DE text was changed.
+- Hard Questions progress: 9 of 21 articles drafted; 12 remain. Human review: 0; published: 0.
