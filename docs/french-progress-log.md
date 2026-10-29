@@ -800,3 +800,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-155` saves six private French drafts for Bukhari 865–870. The reports preserve the request about women attending the mosque, the two transmission forms concerning women’s departure, and the instruction to shorten prayer when a child cries.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 807 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 42. Total local hadith rows not drafted: 13,822, including held records.
+### 2026-10-29: Bukhari 871–876 source review
+
+- `FR-LIB-HAD-BUKHARI-156` saves six private French drafts for Bukhari 871–876. The translations preserve the prayer arrangement in Umm Sulaym’s home, dawn-time darkness, the instruction about mosque attendance and the report about the day appointed for earlier communities.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 813 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 42. Total local hadith rows not drafted: 13,816, including held records.
