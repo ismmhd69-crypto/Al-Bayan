@@ -15457,6 +15457,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-706",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-706.json",
+      "sourceIds": ["7b4527db-5f7a-40c4-8049-0df78b05e4cf"],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished single-item long-text draft passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15605,7 +15620,7 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 15:91. It remains blank in FR-LIB-HAD-BUKHARI-704 until an approved, attributed French Quran translation is confirmed."
     }  ],
-  "hadithBukhariDrafted": 3517,
-  "hadithLocalDrafted": 3517,
-  "hadithLocalRemaining": 11140
+  "hadithBukhariDrafted": 3518,
+  "hadithLocalDrafted": 3518,
+  "hadithLocalRemaining": 11139
 }
