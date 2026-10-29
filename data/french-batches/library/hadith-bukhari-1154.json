@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-BUKHARI-1154",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:21:53.579Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8d7c71e1-7f0d-479e-ba61-d9bfa775f8a9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6274",
+      "reference": "Sahih al-Bukhari, hadith 6274, book 79, باب مَنِ اتَّكَأَ بَيْنَ يَدَىْ أَصْحَابِهِ",
+      "title": "باب مَنِ اتَّكَأَ بَيْنَ يَدَىْ أَصْحَابِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا بِشْرٌ، مِثْلَهُ، وَكَانَ مُتَّكِئًا فَجَلَسَ فَقَالَ ‏\"‏ أَلاَ وَقَوْلُ الزُّورِ ‏\"‏‏.‏ فَمَا زَالَ يُكَرِّرُهَا حَتَّى قُلْنَا لَيْتَهُ سَكَتَ‏.‏",
+      "source_hash_sha256": "28059cef36bbdbc5c705d4fd826c741e454d085d3b16000fd0d554ccc974570c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "d398a647-8814-454e-8eba-1bfabd3ced15",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6275",
+      "reference": "Sahih al-Bukhari, hadith 6275, book 79, باب مَنْ أَسْرَعَ فِي مَشْيِهِ لِحَاجَةٍ أَوْ قَصْدٍ",
+      "title": "باب مَنْ أَسْرَعَ فِي مَشْيِهِ لِحَاجَةٍ أَوْ قَصْدٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو عَاصِمٍ، عَنْ عُمَرَ بْنِ سَعِيدٍ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، أَنَّ عُقْبَةَ بْنَ الْحَارِثِ، حَدَّثَهُ قَالَ صَلَّى النَّبِيُّ صلى الله عليه وسلم الْعَصْرَ، فَأَسْرَعَ، ثُمَّ دَخَلَ الْبَيْتَ‏.‏",
+      "source_hash_sha256": "376d0e04a0e849bda8183d723b07169646f3780d6909163658dd701d849d3ee7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû ‘Âsim a rapporté, d’après ‘Umar ibn Sa‘îd, d’après Ibn Abî Mulayka, qu’‘Uqba ibn al-Hârith lui avait raconté : Le Prophète ﷺ pria la prière de l’après-midi, puis se hâta et entra dans sa maison.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7d2debde-db28-4f1e-a8c6-382911aa4c8a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6276",
+      "reference": "Sahih al-Bukhari, hadith 6276, book 79, باب السَّرِيرِ",
+      "title": "باب السَّرِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي الضُّحَى، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي وَسْطَ السَّرِيرِ، وَأَنَا مُضْطَجِعَةٌ بَيْنَهُ وَبَيْنَ الْقِبْلَةِ تَكُونُ لِيَ الْحَاجَةُ، فَأَكْرَهُ أَنْ أَقُومَ فَأَسْتَقْبِلَهُ فَأَنْسَلُّ انْسِلاَلاً‏.‏",
+      "source_hash_sha256": "a567f26e543f2a273c538f63de01ad0be27056b938da47301d69ad1974b33f11",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba nous a rapporté : Jarîr nous a rapporté, d’après al-A‘mash, d’après Abû ad-Duhâ, d’après Masrûq, d’après ‘Â’isha (qu’Allah l’agrée), qui a dit : Le Messager d’Allah ﷺ priait au milieu du lit, tandis que j’étais allongée entre lui et la qibla. Lorsque j’avais besoin de me lever, je n’aimais pas me redresser devant lui ; je me glissais alors discrètement.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "267718ad-a01b-4f1d-a0e6-8e84d7201441",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6277",
+      "reference": "Sahih al-Bukhari, hadith 6277, book 79, باب مَنْ أُلْقِيَ لَهُ وِسَادَةٌ",
+      "title": "باب مَنْ أُلْقِيَ لَهُ وِسَادَةٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، حَدَّثَنَا خَالِدٌ،‏.‏ وَحَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا عَمْرُو بْنُ عَوْنٍ، حَدَّثَنَا خَالِدٌ، عَنْ خَالِدٍ، عَنْ أَبِي قِلاَبَةَ، قَالَ أَخْبَرَنِي أَبُو الْمَلِيحِ، قَالَ دَخَلْتُ مَعَ أَبِيكَ زَيْدٍ عَلَى عَبْدِ اللَّهِ بْنِ عَمْرٍو فَحَدَّثَنَا أَنَّ النَّبِيَّ صلى الله عليه وسلم ذُكِرَ لَهُ صَوْمِي، فَدَخَلَ عَلَىَّ، فَأَلْقَيْتُ لَهُ وِسَادَةً مِنْ أَدَمٍ حَشْوُهَا لِيفٌ، فَجَلَسَ عَلَى الأَرْضِ، وَصَارَتِ الْوِسَادَةُ بَيْنِي وَبَيْنَهُ، فَقَالَ لِي ‏\"‏ أَمَا يَكْفِيكَ مِنْ كُلِّ شَهْرٍ ثَلاَثَةُ أَيَّامٍ ‏\"‏‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ‏.‏ قَالَ ‏\"‏ خَمْسًا ‏\"‏‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ‏.‏ قَالَ ‏\"‏ سَبْعًا ‏\"‏‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ‏.‏ قَالَ ‏\"‏ تِسْعًا ‏\"‏‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ‏.‏ قَالَ ‏\"‏ إِحْدَى عَشْرَةَ ‏\"‏‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ‏.‏ قَالَ ‏\"‏ لاَ صَوْمَ فَوْقَ صَوْمِ دَاوُدَ، شَطْرَ الدَّهْرِ، صِيَامُ يَوْمٍ، وَإِفْطَارُ يَوْمٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "6e158df15ba15900ca5f241c527db31bd2324b0ed37fd27eed47fbd1c50dbcfd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq nous a rapporté : Khâlid nous a rapporté. ‘Abd Allâh ibn Muhammad m’a rapporté : ‘Amr ibn ‘Awn nous a rapporté : Khâlid nous a rapporté, d’après Khâlid, d’après Abû Qilâba, qui a dit : Abû al-Malîh m’a rapporté : J’entrai avec ton père Zayd chez ‘Abd Allâh ibn ‘Amr. Il nous raconta que le Prophète ﷺ avait été informé de mon jeûne et était venu me voir. Je lui présentai un coussin de cuir bourré de fibres de palmier ; il s’assit par terre, le coussin se trouvant entre nous. Il me dit : « Trois jours de jeûne par mois ne te suffisent-ils pas ? » Je répondis : « Ô Messager d’Allah… » Il dit : « Cinq. » Je répondis : « Ô Messager d’Allah… » Il dit : « Sept. » Je répondis : « Ô Messager d’Allah… » Il dit : « Neuf. » Je répondis : « Ô Messager d’Allah… » Il dit : « Onze. Il n’y a pas de jeûne meilleur que celui de David : la moitié du temps, un jour de jeûne et un jour sans jeûne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fae340a1-b338-42b0-9f0e-828423c36340",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6278",
+      "reference": "Sahih al-Bukhari, hadith 6278, book 79, باب مَنْ أُلْقِيَ لَهُ وِسَادَةٌ",
+      "title": "باب مَنْ أُلْقِيَ لَهُ وِسَادَةٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ جَعْفَرٍ، حَدَّثَنَا يَزِيدُ، عَنْ شُعْبَةَ، عَنْ مُغِيرَةَ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، أَنَّهُ قَدِمَ الشَّأْمَ‏.‏ وَحَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، عَنْ مُغِيرَةَ، عَنْ إِبْرَاهِيمَ، قَالَ ذَهَبَ عَلْقَمَةُ إِلَى الشَّأْمِ، فَأَتَى الْمَسْجِدَ فَصَلَّى رَكْعَتَيْنِ فَقَالَ اللَّهُمَّ ارْزُقْنِي جَلِيسًا‏.‏ فَقَعَدَ إِلَى أَبِي الدَّرْدَاءِ فَقَالَ مِمَّنْ أَنْتَ قَالَ مِنْ أَهْلِ الْكُوفَةِ‏.‏ قَالَ أَلَيْسَ فِيكُمْ صَاحِبُ السِّرِّ الَّذِي كَانَ لاَ يَعْلَمُهُ غَيْرُهُ ـ يَعْنِي حُذَيْفَةَ ـ أَلَيْسَ فِيكُمْ ـ أَوْ كَانَ فِيكُمُ ـ الَّذِي أَجَارَهُ اللَّهُ عَلَى لِسَانِ رَسُولِهِ صلى الله عليه وسلم مِنَ الشَّيْطَانِ ـ يَعْنِي عَمَّارًا ـ أَوَلَيْسَ فِيكُمْ صَاحِبُ السِّوَاكِ وَالْوِسَادِ ـ يَعْنِي ابْنَ مَسْعُودٍ ـ كَيْفَ كَانَ عَبْدُ اللَّهِ يَقْرَأُ ‏[quran sura=\"92\" aya_start=\"1\" aya_end=\"1\"]{‏وَاللَّيْلِ إِذَا يَغْشَى‏}‏‏.‏ قَالَ ‏{‏وَالذَّكَرِ وَالأُنْثَى‏}‏‏.‏ فَقَالَ مَا زَالَ هَؤُلاَءِ حَتَّى كَادُوا يُشَكِّكُونِي، وَقَدْ سَمِعْتُهَا مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "fa078a20e81f4e33c3d78d624cf0dacf86b50d0ce620f7177ad134b879790b55",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "0dd908bf-ce91-4814-a9d2-73ab9d918667",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6279",
+      "reference": "Sahih al-Bukhari, hadith 6279, book 79, باب الْقَائِلَةِ بَعْدَ الْجُمُعَةَ",
+      "title": "باب الْقَائِلَةِ بَعْدَ الْجُمُعَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ، قَالَ كُنَّا نَقِيلُ وَنَتَغَدَّى بَعْدَ الْجُمُعَةِ‏.‏",
+      "source_hash_sha256": "8133d354a9acbc5d57b133b484ece73e972b0dac7a78e92fc6e77f2c12cde9e9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Kathîr nous a rapporté : Sufyân nous a rapporté, d’après Abû Hâzim, d’après Sahl ibn Sa‘d, qui a dit : Nous faisions la sieste et prenions le repas de midi après la prière du vendredi.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "8d7c71e1-7f0d-479e-ba61-d9bfa775f8a9",
+      "url": "https://sunnah.com/bukhari:6274",
+      "reason": "Le texte commence par مثله (« le même récit ») sans reprendre son contenu ni sa chaîne complète. Garder l’extrait entier en attente d’une version complète du récit."
+    },
+    {
+      "source_id": "fae340a1-b338-42b0-9f0e-828423c36340",
+      "url": "https://sunnah.com/bukhari:6278",
+      "reason": "Le récit cite directement le Coran 92:1. Garder le texte entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}

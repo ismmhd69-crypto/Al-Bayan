@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5253,
+    "hadithBukhariDrafted": 5257,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5253,
+    "hadithLocalDrafted": 5257,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9374,
-    "hadithNeedsMo": 771,
+    "hadithLocalRemaining": 9370,
+    "hadithNeedsMo": 773,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24468,6 +24468,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1154",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1154.json",
+      "sourceIds": [
+        "8d7c71e1-7f0d-479e-ba61-d9bfa775f8a9",
+        "d398a647-8814-454e-8eba-1bfabd3ced15",
+        "7d2debde-db28-4f1e-a8c6-382911aa4c8a",
+        "267718ad-a01b-4f1d-a0e6-8e84d7201441",
+        "fae340a1-b338-42b0-9f0e-828423c36340",
+        "0dd908bf-ce91-4814-a9d2-73ab9d918667"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four records passed the focused validator. Bukhari 6274 was held because it is an incomplete continuation; 6278 was held because it directly quotes Quran 92:1. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -27697,6 +27718,18 @@
       "scope": "Sahih al-Bukhari 6271 direct quotations of Quran 33:53 and 33:11",
       "status": "blocked",
       "reason": "The report directly quotes Quran 33:53 and 33:11. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6274-INCOMPLETE-CONTINUATION",
+      "scope": "Sahih al-Bukhari 6274 begins with shorthand مثله and omits its full context",
+      "status": "blocked",
+      "reason": "The item begins by referring to another report and does not provide its own full text or chain. Keep it blank until the complete source is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6278-QURAN-92-1",
+      "scope": "Sahih al-Bukhari 6278 direct quotation of Quran 92:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 92:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
