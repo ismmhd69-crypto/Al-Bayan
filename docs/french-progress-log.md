@@ -11374,3 +11374,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1798b-1800b
 
 - FR-LIB-HAD-MUSLIM-0853 saves three private French drafts: one addition to the pre-Badr report and two accounts of Abû Jahl’s death. The report quoting Quran 49:9 remains entirely blank under Needs Mo pending an attributed and authorized French Quran translation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1801
+
+- FR-LIB-HAD-MUSLIM-0854 saves one private French draft of the complete report about Ka‘b ibn al-Ashraf. It preserves the chain, dialogue, sequence, and reported plan. No Quran quotation appears in this entry. No database write or publication occurred.
