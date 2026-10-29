@@ -35819,6 +35819,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0329",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0329.json",
+      "sourceIds": [
+        "6bfa25bb-a506-4886-a942-9df692ea5354",
+        "322c66a3-1b9b-4b3f-9fd0-5a639293160e",
+        "0bf49828-8207-4447-b463-1246bcc06e2d",
+        "37035c51-16c8-411e-b965-5f3680f92c73",
+        "920add90-9925-4a7a-8f6d-e9dbcf78fd14",
+        "cf8d7545-6637-4ef1-9fd4-dd6b14d6e264"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40126,8 +40147,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7652,
-  "hadithLocalRemaining": 6977,
+  "hadithLocalDrafted": 7656,
+  "hadithLocalRemaining": 6973,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42336,10 +42357,16 @@
       "scope": "Sahih Muslim 758f: partial chain-only variant",
       "status": "blocked",
       "reason": "La source ne contient qu’une variante de chaîne et précise que le récit de Mansur est plus complet, sans reproduire ce récit. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0329-762C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 762c: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source renvoie au même récit par une autre chaîne et résume son contenu sans le reprendre. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1316,
+  "hadithMuslimDrafted": 1320,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 604
+  "hadithNeedsMo": 605
 }

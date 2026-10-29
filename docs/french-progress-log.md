@@ -8771,3 +8771,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0328 saves five private French drafts about night supplication, Ramadan prayer and the Night of Decree. Muslim 758f only refers to a fuller prior report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1316 Muslim drafts, 7652 total hadith drafts, 6977 remaining, and 604 Needs Mo items.
+
+### 2026-10-29: Muslim 761a–762d
+
+- FR-LIB-HAD-MUSLIM-0329 saves four private French drafts about Ramadan prayer and the Night of Decree. Muslim 762c only refers to the preceding report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1320 Muslim drafts, 7656 total hadith drafts, 6973 remaining, and 605 Needs Mo items.
