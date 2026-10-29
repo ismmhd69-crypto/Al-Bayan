@@ -3946,3 +3946,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-806` saves six private French drafts about the Prophet’s legacy, final illness, and death.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,927 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 331. Total local hadith rows not drafted: 10,730, including held records.
+
+### 2026-10-29: Bukhari 4468–4473
+
+- `FR-LIB-HAD-BUKHARI-807` saves six private French drafts about Usâma’s appointment, the Night of Decree, and campaign counts.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,933 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 331. Total local hadith rows not drafted: 10,724, including held records.
