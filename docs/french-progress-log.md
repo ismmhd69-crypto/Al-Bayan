@@ -7147,3 +7147,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0008 saves 6 private French drafts, including the remaining ʿAbd al-Qays vessel variants, three versions of Muʿadh’s instructions, and Abu Bakr’s response on zakat. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 34 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,259, including held records.
+
+### 2026-10-29: Muslim 21a–23b
+
+- FR-LIB-HAD-MUSLIM-0009 saves 5 private French drafts. Hadith 21c ends with a direct Quran quotation; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 39 of 7,366. Hadith Needs Mo: 173. Total local hadith rows not drafted: 8,254, including held records.
