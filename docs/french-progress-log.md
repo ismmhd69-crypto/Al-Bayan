@@ -7518,3 +7518,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0082 saves 4 private French drafts. Hadith 181b directly quotes Quran 10:26 and remains blank under Needs Mo pending an approved, attributed French Quran translation with usage permission.
 - All 5 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 344 of 7,366. Hadith Needs Mo: 219. Total local hadith rows not drafted: 7,949, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 182a
+
+- FR-LIB-HAD-MUSLIM-0083 saves one complete private French draft of the 5,116-character report, including the bridge, rescue from the Fire, and the final exchange about the last person to enter Paradise.
+- The source hash and focused validator are retained; the single-item long-text rule passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 345 of 7,366. Hadith Needs Mo: 219. Total local hadith rows not drafted: 7,948, including held records. No database writes or publication occurred.
