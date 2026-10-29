@@ -2251,3 +2251,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-467` saves three private French drafts for Bukhari 2715–2717, covering the pledge to worship and counsel sincerely, the sale of pollinated date palms, and Barira’s emancipation contract.
 - The three-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,450 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 148. Total local hadith rows not drafted: 12,194, including held records.
+
+### 2026-10-29: Bukhari 2718 long-source review
+
+- `FR-LIB-HAD-BUKHARI-468` saves one full private French draft for Bukhari 2718, including the report’s alternate narrations of the sale price and the condition to ride the camel.
+- The single-record long-source batch passed the focused validator for Arabic hash, ID, reference, rights metadata, private unpublished state and long-text handling. No database writes or publication occurred. Bukhari local drafts: 2,451 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 148. Total local hadith rows not drafted: 12,193, including held records.
