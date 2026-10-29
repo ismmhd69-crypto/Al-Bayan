@@ -18450,6 +18450,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-855",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-855.json",
+      "sourceIds": [
+        "6475adf3-2618-4342-b7a7-eae3b359ba80",
+        "0050f948-e0fb-4fb9-8b1a-57c138810555"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -19918,7 +19935,7 @@
       "reason": "Le rapport reprend le fragment coranique « فسينغضون » de Quran 17:51. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-854, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4011,
-  "hadithLocalDrafted": 4011,
-  "hadithLocalRemaining": 10656
+  "hadithBukhariDrafted": 4013,
+  "hadithLocalDrafted": 4013,
+  "hadithLocalRemaining": 10654
 }
