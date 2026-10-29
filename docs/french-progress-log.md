@@ -10181,3 +10181,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0610 isolates the 2,070-character report and saves one private French draft about hardship in Medina and the city’s protected status. The narrator’s stated uncertainty about several phrases is retained.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1374b–1376a
+
+- FR-LIB-HAD-MUSLIM-0611 saves five private French drafts about blessings for Medina, enduring hardship there, and the Prophet’s prayer for its people. Muslim 1374c only refers back to the preceding report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
