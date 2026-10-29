@@ -17731,6 +17731,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-819",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-819.json",
+      "sourceIds": [
+        "c0c59daf-ea7a-406d-b027-72caaa940d51",
+        "36c0160f-04e5-4ef9-9daa-9c465c4a1c94",
+        "70da1fa0-2052-4af9-800d-b1dc4dda1370",
+        "fff44978-df69-4265-9895-8ec87aa447cd",
+        "b49a8817-7043-467a-b379-46d470792b4b",
+        "981e551e-2b3a-49c4-88d9-9e0ad61030e4"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18471,9 +18492,27 @@
       "scope": "Sahih al-Bukhari 4529: direct quotation of Quran 2:232",
       "status": "blocked",
       "reason": "Le rapport cite directement une partie de Quran 2:232. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-818, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4530-QURAN-2-234",
+      "scope": "Sahih al-Bukhari 4530: direct quotation of Quran 2:234",
+      "status": "blocked",
+      "reason": "Le rapport cite directement la supplication de Quran 2:234. Le texte français complet reste vide, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4531-QURAN-2-234-240",
+      "scope": "Sahih al-Bukhari 4531: repeated direct quotations of Quran 2:234 and 2:240",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 2:234 et 2:240 à plusieurs reprises. Le texte français complet reste vide, dans l’attente d’une traduction française du Quran approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4534-QURAN-2-238",
+      "scope": "Sahih al-Bukhari 4534: direct quotation of Quran 2:238",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 2:238. Le texte français complet reste vide, dans l’attente d’une traduction française du Quran approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3954,
-  "hadithLocalDrafted": 3954,
-  "hadithLocalRemaining": 10703
+  "hadithBukhariDrafted": 3957,
+  "hadithLocalDrafted": 3957,
+  "hadithLocalRemaining": 10700
 }
