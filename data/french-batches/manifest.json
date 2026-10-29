@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4766,
+    "hadithBukhariDrafted": 4771,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4766,
+    "hadithLocalDrafted": 4771,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9863,
-    "hadithNeedsMo": 745,
+    "hadithLocalRemaining": 9858,
+    "hadithNeedsMo": 746,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -22242,6 +22242,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1041",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1041.json",
+      "sourceIds": [
+        "0200853c-7c5a-497f-b08a-cc99ceca5dd8",
+        "de480255-979b-48e8-a7de-5f90353acc33",
+        "42352edf-af35-4c3a-a299-e2195a78b04c",
+        "985315dd-2e99-42b2-bb85-b124646806ed",
+        "76eab8e5-3ba7-4ab2-834b-9e495c908c73",
+        "ab83f24a-0d7b-4ef6-8d46-fbb19bbf8da9"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -25279,6 +25300,12 @@
       "scope": "Sahih al-Bukhari 5657: additional report about Abû Tâlib is truncated",
       "status": "blocked",
       "reason": "The exported Arabic stops before the report contents. Keep the item blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-5732-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 5732: corrupted Arabic opening phrase",
+      "status": "blocked",
+      "reason": "The exported Arabic opening phrase is unclear (يحيى بما مات). Keep the complete item blank until the source wording is confirmed."
     }
   ]
 }
