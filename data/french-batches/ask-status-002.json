@@ -1,0 +1,127 @@
+[
+  {
+    "key": "queued",
+    "source": "Your question is waiting for research to begin…",
+    "fr": "Votre question attend le début de la recherche…"
+  },
+  {
+    "key": "reconnecting",
+    "source": "Reconnecting to the same research job…",
+    "fr": "Reconnexion à la même recherche…"
+  },
+  {
+    "key": "refreshing",
+    "source": "Rechecking the original sources…",
+    "fr": "Nouvelle vérification des sources d’origine…"
+  },
+  {
+    "key": "stopping",
+    "source": "Confirming that research has stopped…",
+    "fr": "Confirmation de l’arrêt de la recherche…"
+  },
+  {
+    "key": "saving",
+    "source": "Saving the checked answer…",
+    "fr": "Enregistrement de la réponse vérifiée…"
+  },
+  {
+    "key": "resume",
+    "source": "Resume research",
+    "fr": "Reprendre la recherche"
+  },
+  {
+    "key": "continueResearch",
+    "source": "Continue answer",
+    "fr": "Continuer la réponse"
+  },
+  {
+    "key": "patientNotice",
+    "source": "These explanations passed automatic checks. Research is continuing; the final answer is not ready yet.",
+    "fr": "Ces commentaires ont passé les vérifications automatiques. La recherche continue ; la réponse finale n’est pas encore prête."
+  },
+  {
+    "key": "patientPaused",
+    "source": "Research is paused. Your checked sections are kept. Continue research resumes the unfinished work in this same job.",
+    "fr": "La recherche est en pause. Vos sections vérifiées sont conservées. Reprendre la recherche poursuit le travail inachevé dans cette même tâche."
+  },
+  {
+    "key": "patientSummaryWaiting",
+    "source": "The final summary will appear after the necessary research and checks are complete.",
+    "fr": "Le résumé final apparaîtra une fois les recherches et vérifications nécessaires terminées."
+  },
+  {
+    "key": "patientStates.searching",
+    "source": "Searching this source group…",
+    "fr": "Recherche dans ce groupe de sources…"
+  },
+  {
+    "key": "patientStates.checking",
+    "source": "Checking this explanation…",
+    "fr": "Vérification de ce commentaire…"
+  },
+  {
+    "key": "patientStates.ready",
+    "source": "Checked explanation ready.",
+    "fr": "Le commentaire vérifié est prêt."
+  },
+  {
+    "key": "patientStates.empty",
+    "source": "No directly relevant evidence was selected from this group.",
+    "fr": "Aucune preuve directement pertinente n’a été retenue dans ce groupe."
+  },
+  {
+    "key": "patientStates.needs_attention",
+    "source": "This step needs attention before the final answer can be completed.",
+    "fr": "Cette étape doit être examinée avant de pouvoir terminer la réponse finale."
+  },
+  {
+    "key": "reconnectFailed",
+    "source": "The connection was interrupted. Resume checks the same research job without sending a new question.",
+    "fr": "La connexion a été interrompue. Reprendre vérifie la même recherche sans envoyer de nouvelle question."
+  },
+  {
+    "key": "cancelFailed",
+    "source": "Stop could not be confirmed. Please try Stop again; the research may still be running.",
+    "fr": "L’arrêt n’a pas pu être confirmé. Réessayez d’appuyer sur Arrêter ; la recherche est peut-être toujours en cours."
+  },
+  {
+    "key": "notRunning",
+    "source": "Research is no longer running. No new request was made.",
+    "fr": "La recherche n’est plus en cours. Aucune nouvelle demande n’a été envoyée."
+  },
+  {
+    "key": "changed",
+    "source": "This answer could not be revalidated. Its earlier sections have been hidden. No new question was sent.",
+    "fr": "Cette réponse n’a pas pu être vérifiée à nouveau. Ses sections précédentes ont été masquées. Aucune nouvelle question n’a été envoyée."
+  },
+  {
+    "key": "chatFull",
+    "source": "Start a new chat to continue. This chat has reached its history limit.",
+    "fr": "Commencez une nouvelle discussion pour continuer. Cette discussion a atteint sa limite d’historique."
+  },
+  {
+    "key": "saveFailed",
+    "source": "The answer is ready, but saving the chat failed. Resume can retry saving without generating another answer.",
+    "fr": "La réponse est prête, mais l’enregistrement de la discussion a échoué. Reprendre peut réessayer sans générer une autre réponse."
+  },
+  {
+    "key": "scopeNotice",
+    "source": "General information from the sources shown. Individual circumstances may need separate advice.",
+    "fr": "Informations générales tirées des sources affichées. Une situation personnelle peut nécessiter un conseil distinct."
+  },
+  {
+    "key": "aiTranslation",
+    "source": "AI display translation, automatically checked against this excerpt",
+    "fr": "Traduction automatique à l’écran, vérifiée automatiquement par rapport à cet extrait"
+  },
+  {
+    "key": "humanTranslation",
+    "source": "Human translation, automatically checked against this excerpt",
+    "fr": "Traduction humaine, vérifiée automatiquement par rapport à cet extrait"
+  },
+  {
+    "key": "humanReviewedTranslation",
+    "source": "Human-reviewed translation",
+    "fr": "Traduction révisée par une personne"
+  }
+]

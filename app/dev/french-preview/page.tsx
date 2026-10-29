@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import fr from "@/dictionaries/fr";
+import { richTextFr } from "@/lib/ask/rich-text-fr";
 
 export const dynamic = "force-dynamic";
 
@@ -52,6 +53,16 @@ export default async function FrenchPreviewPage() {
         <p role="status">{t.ask.notReady}</p>
         <p>{t.ask.parts.short} · {t.ask.parts.evidence} · {t.ask.parts.scholars}</p>
         <p>{t.ask.thinking} · {t.ask.busy}</p>
+      </section>
+
+      <section className="fr-preview-card" aria-labelledby="fr-preview-status-title">
+        <h2 id="fr-preview-status-title">États et messages de recherche</h2>
+        <p>{richTextFr.submitting} {richTextFr.queued}</p>
+        <p>{richTextFr.reconnecting} {richTextFr.refreshing}</p>
+        <p role="status">{richTextFr.patientNotice}</p>
+        <p role="alert">{richTextFr.incomplete}</p>
+        <p>{richTextFr.translationNotChecked}</p>
+        <p>{richTextFr.outcomes.no_direct_evidence}</p>
       </section>
 
       <section className="fr-preview-card" id="topics" aria-labelledby="fr-preview-topics-title">

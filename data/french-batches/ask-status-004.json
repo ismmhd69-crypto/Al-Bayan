@@ -1,0 +1,92 @@
+[
+  {
+    "key": "progress.writing_quran",
+    "source": "Preparing the explanations…",
+    "fr": "Préparation des explications…"
+  },
+  {
+    "key": "progress.checking_quran",
+    "source": "Checking the Quran explanation…",
+    "fr": "Vérification de l’explication du Coran…"
+  },
+  {
+    "key": "progress.checking_hadith",
+    "source": "Checking the Sunnah explanation…",
+    "fr": "Vérification de l’explication de la Sunna…"
+  },
+  {
+    "key": "progress.checking_scholar",
+    "source": "Checking scholarly explanations…",
+    "fr": "Vérification des explications savantes…"
+  },
+  {
+    "key": "progress.finding_videos",
+    "source": "Checking optional learning videos…",
+    "fr": "Vérification de vidéos facultatives pour approfondir…"
+  },
+  {
+    "key": "progress.checking_remaining",
+    "source": "Bringing the checked explanations together…",
+    "fr": "Mise en cohérence des explications vérifiées…"
+  },
+  {
+    "key": "automatic",
+    "source": "Automatically checked answer. Independent scholarly review is still separate.",
+    "fr": "Réponse vérifiée automatiquement. Une révision savante indépendante reste une étape distincte."
+  },
+  {
+    "key": "researchDetails",
+    "source": "Research details",
+    "fr": "Détails de la recherche"
+  },
+  {
+    "key": "incomplete",
+    "source": "This answer is incomplete. The sections above passed their individual checks, but no final conclusion was completed. It has not been saved.",
+    "fr": "Cette réponse est incomplète. Les sections ci-dessus ont passé leurs contrôles individuels, mais aucune conclusion finale n’a été achevée. Elle n’a pas été enregistrée."
+  },
+  {
+    "key": "withdrawn",
+    "source": "The earlier section was withdrawn because the full answer could not confirm it. Please do not rely on it.",
+    "fr": "La section précédente a été retirée car la réponse complète n’a pas permis de la confirmer. Veuillez ne pas vous y fier."
+  },
+  {
+    "key": "interrupted",
+    "source": "The connection ended before the answer was complete. No new request has been made.",
+    "fr": "La connexion a été interrompue avant la fin de la réponse. Aucune nouvelle demande n’a été envoyée."
+  },
+  {
+    "key": "stop",
+    "source": "Stop answer",
+    "fr": "Arrêter la réponse"
+  },
+  {
+    "key": "source",
+    "source": "Read source",
+    "fr": "Lire la source"
+  },
+  {
+    "key": "original",
+    "source": "Original passage and translation",
+    "fr": "Passage original et traduction"
+  },
+  {
+    "key": "citedExcerpts",
+    "source": "Review cited source excerpts",
+    "fr": "Consulter les extraits des sources citées"
+  },
+  {
+    "key": "missing",
+    "source": "No verified translation is available here. The Arabic original is shown here.",
+    "fr": "Aucune traduction vérifiée n’est disponible ici. Le texte arabe original est affiché."
+  },
+  {
+    "key": "guidance",
+    "source": "Your next step",
+    "fr": "Votre prochaine étape"
+  },
+  {
+    "key": "next",
+    "source": "Ask a specific follow-up about the evidence or how it applies to your question. Personal circumstances may need a qualified scholar.",
+    "fr": "Posez une question précise sur les preuves ou leur lien avec votre question. Une situation personnelle peut nécessiter l’avis d’un savant qualifié."
+  }
+]

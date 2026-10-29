@@ -14,11 +14,11 @@ Scope: private local preparation only. French remains absent from public locale 
 - Existing German exporters are not reused: they hard-code `de`, export into `data/german-batches`, and the hadith exporter omits source publication state and source hashes. Existing insert tooling writes English and German rows, so it is not safe for a French batch.
 - Database blocker: the live `public.source_translations.lang` constraint only accepts `ar`, `en`, and `de`. The task forbids schema changes. Therefore French drafts cannot currently be inserted into Supabase. No database write was attempted. Local website work may continue; library database drafting remains blocked unless the schema constraint is separately changed later.
 - French batch manifest: `data/french-batches/manifest.json`.
-- The 324 leaf strings in the current English interface dictionary have now been translated into 13 private French batches and assembled into `dictionaries/fr.ts`. Each batch passed exact key/source, nonempty-text, and placeholder checks. This is only a dictionary draft: it is not connected to locale routing, public navigation, APIs, or a private preview yet.
+- The 324 leaf strings in the current English interface dictionary have now been translated into 13 private French batches and assembled into `dictionaries/fr.ts`. Each batch passed exact key/source, nonempty-text, and placeholder checks. This dictionary is used only by the guarded local preview; it is not connected to locale routing, public navigation, or APIs.
 - The code-level scan found additional visible hard-coded copy in pages, reader controls, and Ask/error/reconnect flows. Those locations are not included in the 324 dictionary strings and are still being inventoried.
 - A local preview route now exists at `/dev/french-preview`. Proxy and page guards allow it only in development on a loopback host, and the Ask submission is disabled. It is a copy preview, not a connected French Ask experience. The route has not been opened in a browser.
 - A project-wide TypeScript check was attempted after adding the preview route. It stopped on four TS7053 errors in the pre-existing uncommitted German helper `scripts/check-local-german.ts`; it reported no errors in the new French files. The German helper remains untouched.
-- Additional Ask status, reconnect, cancellation, evidence, unavailable-translation, and incomplete-answer copy: 93 strings in `lib/ask/rich-text.ts`. Translation batches have not started yet.
+- Additional Ask status, reconnect, cancellation, evidence, unavailable-translation, and incomplete-answer copy: all 93 strings in `lib/ask/rich-text.ts` are translated in four local batches and assembled to `lib/ask/rich-text-fr.ts`. Key/source parity, placeholder parity, nonempty text, no duplicate/missing keys, and the 25-entry batch limit passed. This French copy appears only in the loopback-only development preview; the live Ask flow and API locale guard are unchanged. Human review: 0; published: 0.
 
 ### Batch ledger
 
@@ -42,3 +42,4 @@ Scope: private local preparation only. French remains absent from public locale 
 ### Needs Mo
 
 - `DB-FR-LANG-CHECK`: database French drafts are blocked by the existing language check constraint. No schema change is authorized.
+- Ask/reconnect/cancellation/evidence and incomplete-answer status copy: all 93 leaf strings in `lib/ask/rich-text.ts` are translated in four local batches and assembled to `lib/ask/rich-text-fr.ts`. Key/source parity, placeholder parity, nonempty text, no duplicate/missing keys, and the 25-entry batch limit passed. The French Ask copy appears only in the loopback-only development preview; the live Ask flow and API locale guard are unchanged. Human review: 0; published: 0.

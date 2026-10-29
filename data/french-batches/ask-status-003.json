@@ -1,0 +1,127 @@
+[
+  {
+    "key": "translationLookupFailed",
+    "source": "The translation could not be loaded. The Arabic original remains available.",
+    "fr": "La traduction n’a pas pu être chargée. Le texte arabe original reste disponible."
+  },
+  {
+    "key": "translationNotChecked",
+    "source": "No translation checked against this exact excerpt is available.",
+    "fr": "Aucune traduction vérifiée par rapport à cet extrait précis n’est disponible."
+  },
+  {
+    "key": "translationRejected",
+    "source": "A translation was withheld because its alignment with this excerpt could not be confirmed.",
+    "fr": "Une traduction a été masquée car sa correspondance avec cet extrait n’a pas pu être confirmée."
+  },
+  {
+    "key": "noCheckedSections",
+    "source": "This attempt could not produce a checked answer. Nothing has been saved.",
+    "fr": "Cette tentative n’a pas permis de produire une réponse vérifiée. Rien n’a été enregistré."
+  },
+  {
+    "key": "nextByGuide.clarify_application",
+    "source": "Which condition in the cited explanation would you like to understand better? For advice about a particular situation, ask a qualified scholar without sharing names or private details here.",
+    "fr": "Quelle condition de l’explication citée souhaitez-vous mieux comprendre ? Pour un conseil sur une situation précise, consultez un savant qualifié sans partager ici de noms ni de détails personnels."
+  },
+  {
+    "key": "nextByGuide.study_evidence",
+    "source": "Open a cited passage and read its context. You can ask how that particular passage supports the answer or what its limits are.",
+    "fr": "Ouvrez un passage cité et lisez son contexte. Vous pouvez demander en quoi ce passage étaye la réponse ou quelles en sont les limites."
+  },
+  {
+    "key": "nextByGuide.learn_steps",
+    "source": "Read the cited steps and conditions together. Ask about any step that is unclear before trying to apply this general explanation to your circumstances.",
+    "fr": "Lisez ensemble les étapes et conditions citées. Demandez des précisions sur toute étape qui n’est pas claire avant d’appliquer cette explication générale à votre situation."
+  },
+  {
+    "key": "limited",
+    "source": "Some source searches or explanations could not be completed. This answer is based only on the sources shown above; the missing sections have not been checked.",
+    "fr": "Certaines recherches de sources ou explications n’ont pas pu être terminées. Cette réponse repose uniquement sur les sources affichées ci-dessus ; les sections manquantes n’ont pas été vérifiées."
+  },
+  {
+    "key": "stopped",
+    "source": "The answer was stopped. No automatic retry was made.",
+    "fr": "La réponse a été arrêtée. Aucune nouvelle tentative automatique n’a été lancée."
+  },
+  {
+    "key": "checkFailure",
+    "source": "The answer could not be displayed safely. No automatic retry was made.",
+    "fr": "La réponse n’a pas pu être affichée en toute sécurité. Aucune nouvelle tentative automatique n’a été lancée."
+  },
+  {
+    "key": "titles.quran",
+    "source": "From the Quran",
+    "fr": "Extrait du Coran"
+  },
+  {
+    "key": "titles.hadith",
+    "source": "From the Sunnah",
+    "fr": "Extrait de la Sunna"
+  },
+  {
+    "key": "titles.scholar",
+    "source": "Scholars’ explanations",
+    "fr": "Explications des savants"
+  },
+  {
+    "key": "titles.summary",
+    "source": "Bayan’s summary",
+    "fr": "Résumé de Bayan"
+  },
+  {
+    "key": "outcomes.not_checked",
+    "source": "This group was withheld because a complete, supported answer could not be established.",
+    "fr": "Ce groupe a été masqué car il n’a pas été possible d’établir une réponse complète et étayée."
+  },
+  {
+    "key": "outcomes.no_direct_evidence",
+    "source": "No directly relevant evidence was selected from this source group. This does not mean that none exists.",
+    "fr": "Aucune preuve directement pertinente n’a été retenue dans ce groupe de sources. Cela ne signifie pas qu’il n’en existe aucune."
+  },
+  {
+    "key": "outcomes.unavailable",
+    "source": "This source search is unavailable. This section could not be checked.",
+    "fr": "La recherche dans cette source est indisponible. Cette section n’a pas pu être vérifiée."
+  },
+  {
+    "key": "outcomes.timeout",
+    "source": "This source search ran out of time. This does not establish that no relevant evidence exists.",
+    "fr": "Le délai de recherche dans cette source a expiré. Cela ne prouve pas qu’aucune preuve pertinente n’existe."
+  },
+  {
+    "key": "outcomes.search_failed",
+    "source": "This source search failed. Its evidence could not be checked.",
+    "fr": "La recherche dans cette source a échoué. Ses éléments n’ont pas pu être vérifiés."
+  },
+  {
+    "key": "outcomes.failed_check",
+    "source": "A checked explanation could not be supplied. It has been withheld.",
+    "fr": "Aucune explication vérifiée n’a pu être fournie. Elle a été masquée."
+  },
+  {
+    "key": "progress.retrying_selection",
+    "source": "There was a problem selecting sources. We’re checking them again…",
+    "fr": "Un problème est survenu lors de la sélection des sources. Nouvelle vérification en cours…"
+  },
+  {
+    "key": "progress.correcting_summary",
+    "source": "Revising Bayan's conclusion...",
+    "fr": "Révision de la conclusion de Bayan…"
+  },
+  {
+    "key": "progress.understanding",
+    "source": "Understanding your question…",
+    "fr": "Compréhension de votre question…"
+  },
+  {
+    "key": "progress.searching",
+    "source": "Looking for relevant passages in the Quran, Sunnah and approved scholars’ explanations…",
+    "fr": "Recherche de passages pertinents dans le Coran, la Sunna et les explications de savants approuvés…"
+  },
+  {
+    "key": "progress.checking_evidence",
+    "source": "Checking evidence and context…",
+    "fr": "Vérification des preuves et du contexte…"
+  }
+]

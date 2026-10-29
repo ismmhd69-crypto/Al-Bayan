@@ -37,11 +37,13 @@
     "privatePreviewLiveVerified": false,
     "activeLocalesChanged": false,
     "askStatusStringsTotal": 93,
-    "askStatusStringsDrafted": 0,
-    "askStatusStringsRemaining": 93,
+    "askStatusStringsDrafted": 93,
+    "askStatusStringsRemaining": 0,
     "newToIslamLessonsRemaining": 32,
     "hardQuestionsArticlesRemaining": 21,
-    "preparedAnswersRemaining": 44
+    "preparedAnswersRemaining": 44,
+    "askStatusCopyDraft": "lib/ask/rich-text-fr.ts",
+    "askStatusIntegrated": "private preview only; live Ask flow unchanged"
   },
   "batches": [
     {
@@ -209,6 +211,58 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "key/source parity, nonempty text, and exact placeholder parity passed; unavailable French translation stated explicitly",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-ASK-001",
+      "contentType": "website-ask-status-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/ask-status-001.json",
+      "translated": 25,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "key/source parity, nonempty text, and placeholder parity passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-ASK-002",
+      "contentType": "website-ask-status-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/ask-status-002.json",
+      "translated": 25,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "key/source parity, nonempty text, and placeholder parity passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-ASK-003",
+      "contentType": "website-ask-status-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/ask-status-003.json",
+      "translated": 25,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "key/source parity, nonempty text, and placeholder parity passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-ASK-004",
+      "contentType": "website-ask-status-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/ask-status-004.json",
+      "translated": 18,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "key/source parity, nonempty text, and placeholder parity passed",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
