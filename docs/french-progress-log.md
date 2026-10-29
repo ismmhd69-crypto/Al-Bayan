@@ -669,3 +669,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-126` saved private French drafts for Bukhari 693–698. They preserve the exact chain attribution for the two instructions about leadership, the separate note attributed to al-Zuhri, the night-prayer report’s totals and sound variants, and the thirteen-unit report with its follow-up transmission.
 - The six-record batch passed the focused validator for Arabic hashes, rights metadata, private unpublished state and source structure. No Needs Mo item was identified. No database writes or publication occurred.
 - Bukhari local drafts: 650 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,979, including held records.
+
+### 2026-10-29: Bukhari 699–704 source review
+
+- `FR-LIB-HAD-BUKHARI-127` saved private French drafts for Bukhari 699–704. These preserve Ibn Abbas’s movement to the Prophet’s right, Muadh leading his people after praying with the Prophet, the report that he recited al-Baqara without translating or reproducing its verses, and the repeated instructions for an imam to keep the prayer manageable for those following him.
+- The six-record batch passed the focused validator for Arabic hashes, rights metadata, private unpublished state and report structure. No Needs Mo item was identified. No database writes or publication occurred.
+- Bukhari local drafts: 656 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,973, including held records.
