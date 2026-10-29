@@ -6272,3 +6272,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1226 saves four private French drafts. Bukhari 6690 remains blank because it directly quotes Quran 9:118. Bukhari 6691 remains blank because it directly quotes Quran 66:1, 66:4, and 66:3. No database writes or publication occurred.
 - The four drafts passed the focused validator. Bukhari local drafts: 5,633 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 813. Total local hadith rows not drafted: 8,996, including held records.
+
+
+### 2026-10-29: Bukhari 6692–6697
+
+- FR-LIB-HAD-BUKHARI-1227 saves six private French drafts, preserving the narrator’s uncertainty about the number of generations in 6695 and the vow’s pre-Islamic context in 6697. No database writes or publication occurred.
+- All six drafts passed the focused validator. Bukhari local drafts: 5,639 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 813. Total local hadith rows not drafted: 8,990, including held records.
