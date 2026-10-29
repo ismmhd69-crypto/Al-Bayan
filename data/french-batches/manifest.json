@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5570,
+    "hadithBukhariDrafted": 5575,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5570,
+    "hadithLocalDrafted": 5575,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9059,
-    "hadithNeedsMo": 798,
+    "hadithLocalRemaining": 9054,
+    "hadithNeedsMo": 799,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25699,6 +25699,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1214",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1214.json",
+      "sourceIds": [
+        "7146fcff-8813-46e0-be00-988e817fd072",
+        "80450025-4bc5-41e9-875b-e14c08b46433",
+        "0eaf0cf5-9d06-4446-9895-26c5e26bbf2d",
+        "f7bd58e3-4d58-4605-a557-7888750b19bc",
+        "6c1ac783-57f0-4168-8d89-d627a5e98a96",
+        "1ac61a59-39fc-421f-b4eb-969b396e744b"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one complete report held for direct Quran quotations. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -28875,11 +28896,17 @@
       "scope": "Sahih al-Bukhari 6605: direct quotation of Quran 92:5",
       "status": "blocked",
       "reason": "The report directly quotes Quran 92:5. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6613-QURAN-17-60",
+      "scope": "Sahih al-Bukhari 6613: direct quotations of Quran 17:60",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 17:60 twice. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5570,
-  "hadithLocalDrafted": 5570,
-  "hadithLocalRemaining": 9059,
+  "hadithBukhariDrafted": 5575,
+  "hadithLocalDrafted": 5575,
+  "hadithLocalRemaining": 9054,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29198,6 +29225,12 @@
       "scope": "Sahih al-Bukhari 6605: direct quotation of Quran 92:5",
       "status": "blocked",
       "reason": "The report directly quotes Quran 92:5. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6613-QURAN-17-60",
+      "scope": "Sahih al-Bukhari 6613: direct quotations of Quran 17:60",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 17:60 twice. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
