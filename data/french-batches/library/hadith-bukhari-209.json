@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-209",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:00:19.593Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "32364f6a-3bce-4e15-89b3-0f04e7f219eb",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1199b",
+      "reference": "Sahih al-Bukhari, hadith 1199b, book 21, باب مَا يُنْهَى عَنْهُ مِنَ الْكَلاَمِ فِي الصَّلاَةِ",
+      "title": "باب مَا يُنْهَى عَنْهُ مِنَ الْكَلاَمِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، حَدَّثَنَا هُرَيْمُ بْنُ سُفْيَانَ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ‏.‏",
+      "source_hash_sha256": "79ad97368522fcc6f462fdd7771b7609c2fe8ec47c089939aef688bfa3c1a421",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Numayr nous a rapporté : Ishaq ibn Mansur nous a rapporté : Huraym ibn Sufyan nous a rapporté, d’après al-A‘mash, d’après Ibrahim, d’après Alqama, d’après Abd Allah, qu’Allah l’agrée, d’après le Prophète ﷺ, un récit semblable à celui-ci.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d4e76cbb-d028-4c9f-bc43-d183fd464c72",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1200",
+      "reference": "Sahih al-Bukhari, hadith 1200, book 21, باب مَا يُنْهَى عَنْهُ مِنَ الْكَلاَمِ فِي الصَّلاَةِ",
+      "title": "باب مَا يُنْهَى عَنْهُ مِنَ الْكَلاَمِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا عِيسَى ـ هُوَ ابْنُ يُونُسَ ـ عَنْ إِسْمَاعِيلَ، عَنِ الْحَارِثِ بْنِ شُبَيْلٍ، عَنْ أَبِي عَمْرٍو الشَّيْبَانِيِّ، قَالَ قَالَ لِي زَيْدُ بْنُ أَرْقَمَ إِنْ كُنَّا لَنَتَكَلَّمُ فِي الصَّلاَةِ عَلَى عَهْدِ النَّبِيِّ صلى الله عليه وسلم، يُكَلِّمُ أَحَدُنَا صَاحِبَهُ بِحَاجَتِهِ حَتَّى نَزَلَتْ ‏[quran sura=\"2\" aya_start=\"238\" aya_end=\"238\"]{‏حَافِظُوا عَلَى الصَّلَوَاتِ‏}‏ الآيَةَ، فَأُمِرْنَا بِالسُّكُوتِ‏.‏",
+      "source_hash_sha256": "0ac623c9b55ea8c826deb2dfbd67c9947a7f952366a705bce16f800afdfd818b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a779e77a-7a98-492b-8b5e-3528839b7766",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1201",
+      "reference": "Sahih al-Bukhari, hadith 1201, book 21, باب مَا يَجُوزُ مِنَ التَّسْبِيحِ وَالْحَمْدِ فِي الصَّلاَةِ لِلرِّجَالِ",
+      "title": "باب مَا يَجُوزُ مِنَ التَّسْبِيحِ وَالْحَمْدِ فِي الصَّلاَةِ لِلرِّجَالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، عَنْ أَبِيهِ، عَنْ سَهْلٍ ـ رضى الله عنه ـ قَالَ خَرَجَ النَّبِيُّ صلى الله عليه وسلم يُصْلِحُ بَيْنَ بَنِي عَمْرِو بْنِ عَوْفٍ، وَحَانَتِ الصَّلاَةُ، فَجَاءَ بِلاَلٌ أَبَا بَكْرٍ ـ رضى الله عنهما ـ فَقَالَ حُبِسَ النَّبِيُّ صلى الله عليه وسلم فَتَؤُمُّ النَّاسَ قَالَ نَعَمْ إِنْ شِئْتُمْ‏.‏ فَأَقَامَ بِلاَلٌ الصَّلاَةَ، فَتَقَدَّمَ أَبُو بَكْرٍ ـ رضى الله عنه ـ فَصَلَّى، فَجَاءَ النَّبِيُّ صلى الله عليه وسلم يَمْشِي فِي الصُّفُوفِ يَشُقُّهَا شَقًّا حَتَّى قَامَ فِي الصَّفِّ الأَوَّلِ، فَأَخَذَ النَّاسُ بِالتَّصْفِيحِ‏.‏ قَالَ سَهْلٌ هَلْ تَدْرُونَ مَا التَّصْفِيحُ هُوَ التَّصْفِيقُ‏.‏ وَكَانَ أَبُو بَكْرٍ ـ رضى الله عنه ـ لاَ يَلْتَفِتُ فِي صَلاَتِهِ، فَلَمَّا أَكْثَرُوا الْتَفَتَ فَإِذَا النَّبِيُّ صلى الله عليه وسلم فِي الصَّفِّ، فَأَشَارَ إِلَيْهِ مَكَانَكَ‏.‏ فَرَفَعَ أَبُو بَكْرٍ يَدَيْهِ، فَحَمِدَ اللَّهَ، ثُمَّ رَجَعَ الْقَهْقَرَى وَرَاءَهُ وَتَقَدَّمَ النَّبِيُّ صلى الله عليه وسلم فَصَلَّى‏.‏",
+      "source_hash_sha256": "b87658d6134f99714a0f9a253db3982bc94836f007a70f3b0d82604154e10ce6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Maslama nous a rapporté : Abd al-Aziz ibn Abi Hazim nous a rapporté, d’après son père, d’après Sahl, qu’Allah l’agrée, qui dit : « Le Prophète ﷺ sortit pour réconcilier les Banu Amr ibn Awf. L’heure de la prière arriva. Bilal vint trouver Abu Bakr, qu’Allah les agrée, et lui dit : “Le Prophète ﷺ est retenu. Veux-tu diriger la prière des gens ?” Il répondit : “Oui, si vous le souhaitez.” Bilal prononça l’iqama et Abu Bakr s’avança pour diriger la prière. Le Prophète ﷺ arriva en marchant entre les rangs et les traversa jusqu’à se tenir au premier rang. Les gens se mirent alors à frapper des mains. » Sahl dit : « Savez-vous ce que signifie “frapper des mains” ici ? Cela signifie applaudir. » Abu Bakr, qu’Allah l’agrée, ne se retournait pas pendant sa prière. Mais, lorsqu’ils applaudirent avec insistance, il se retourna et vit le Prophète ﷺ dans le rang. Celui-ci lui fit signe de rester à sa place. Abu Bakr leva les mains, loua Allah, recula à petits pas, puis le Prophète ﷺ s’avança et dirigea la prière.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8c67fe6b-8e0e-498a-86cd-9baae115df1d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1202",
+      "reference": "Sahih al-Bukhari, hadith 1202, book 21, باب مَنْ سَمَّى قَوْمًا أَوْ سَلَّمَ فِي الصَّلاَةِ عَلَى غَيْرِهِ مُوَاجَهَةً وَهُوَ لاَ يَعْلَمُ",
+      "title": "باب مَنْ سَمَّى قَوْمًا أَوْ سَلَّمَ فِي الصَّلاَةِ عَلَى غَيْرِهِ مُوَاجَهَةً وَهُوَ لاَ يَعْلَمُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عِيسَى، حَدَّثَنَا أَبُو عَبْدِ الصَّمَدِ عَبْدُ الْعَزِيزِ بْنُ عَبْدِ الصَّمَدِ، حَدَّثَنَا حُصَيْنُ بْنُ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ ـ رضى الله عنه ـ قَالَ كُنَّا نَقُولُ التَّحِيَّةُ فِي الصَّلاَةِ وَنُسَمِّي، وَيُسَلِّمُ بَعْضُنَا عَلَى بَعْضٍ، فَسَمِعَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ قُولُوا التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، فَإِنَّكُمْ إِذَا فَعَلْتُمْ ذَلِكَ فَقَدْ سَلَّمْتُمْ عَلَى كُلِّ عَبْدٍ لِلَّهِ صَالِحٍ فِي السَّمَاءِ وَالأَرْضِ ‏\"‏‏.‏",
+      "source_hash_sha256": "07852ed69e30ca00bca11297679f3d8a3d4d9105de3ba42585bfacaba8c4c8f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amr ibn Isa nous a rapporté : Abu Abd al-Samad Abd al-Aziz ibn Abd al-Samad nous a rapporté : Husayn ibn Abd al-Rahman nous a rapporté, d’après Abu Wa’il, d’après Abd Allah ibn Mas‘ud, qu’Allah l’agrée, qui dit : « Nous prononcions les salutations pendant la prière en nommant les uns et les autres, et certains d’entre nous saluaient les autres. Le Messager d’Allah ﷺ nous entendit et dit : “Dites : ‘Les salutations, les prières et les bonnes paroles appartiennent à Allah. Que la paix soit sur toi, ô Prophète, ainsi que la miséricorde d’Allah et Ses bénédictions. Que la paix soit sur nous et sur les serviteurs vertueux d’Allah. J’atteste qu’il n’est de divinité qu’Allah, et j’atteste que Muhammad est Son serviteur et Son Messager.’ Lorsque vous dites cela, vous avez adressé vos salutations à tout serviteur vertueux d’Allah, dans les cieux et sur la terre.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f81aed6e-1f44-4e6c-9879-bb4c038abf8c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1203",
+      "reference": "Sahih al-Bukhari, hadith 1203, book 21, باب التَّصْفِيقُ لِلنِّسَاءِ",
+      "title": "باب التَّصْفِيقُ لِلنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا الزُّهْرِيُّ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ التَّسْبِيحُ لِلرِّجَالِ وَالتَّصْفِيقُ لِلنِّسَاءِ ‏\"‏‏.‏",
+      "source_hash_sha256": "833368bfc0475917aa83ec1c249138efed3e41a399680e297df884ab97f938ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Abd Allah nous a rapporté : Sufyan nous a rapporté : al-Zuhri nous a rapporté, d’après Abu Salama, d’après Abu Hurayra, qu’Allah l’agrée, d’après le Prophète ﷺ, qui a dit : « La glorification par le tasbih est pour les hommes, et le claquement des mains est pour les femmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9ece76cf-d46c-4aba-9fec-f40da9fc3819",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1204",
+      "reference": "Sahih al-Bukhari, hadith 1204, book 21, باب التَّصْفِيقُ لِلنِّسَاءِ",
+      "title": "باب التَّصْفِيقُ لِلنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى، أَخْبَرَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ أَبِي حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ ـ رضى الله عنه ـ قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ التَّسْبِيحُ لِلرِّجَالِ وَالتَّصْفِيحُ لِلنِّسَاءِ ‏\"‏‏.‏",
+      "source_hash_sha256": "56b8752751cd337e2922a2e42bd6b687c8d3c179d03bb537c47b865673e1b94d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya nous a rapporté : Waki nous a informés, d’après Sufyan, d’après Abu Hazim, d’après Sahl ibn Sa‘d, qu’Allah l’agrée, qui dit : Le Prophète ﷺ a dit : « La glorification par le tasbih est pour les hommes, et le claquement des mains est pour les femmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d4e76cbb-d028-4c9f-bc43-d183fd464c72",
+      "reason": "This report directly quotes part of Quran 2:238. Keep the entire report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}

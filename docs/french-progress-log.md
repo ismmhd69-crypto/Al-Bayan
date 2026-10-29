@@ -1012,3 +1012,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-208` saves six private French drafts for Bukhari 1194–1199. They preserve the Quba visits, the two reports about the garden between the Prophet’s home and minbar, all four items in the Abu Saïd report, the full night-prayer sequence, and the report about returning greetings during prayer.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,106 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,523, including held records.
+### 2026-10-29: Bukhari 1199b–1204 source review
+
+- `FR-LIB-HAD-BUKHARI-209` saves five private French drafts for Bukhari 1199b and 1201–1204. Bukhari 1200 remains blank and is recorded under Needs Mo because its source directly quotes Quran 2:238 and no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,111 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 56. Total local hadith rows not drafted: 13,518, including held records.
