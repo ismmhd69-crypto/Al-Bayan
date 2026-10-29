@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0419",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:05:15.816Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b698bdf0-3ed7-4f86-a136-ebf40162d0e8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:981",
+      "reference": "Sahih Muslim, hadith 981, book 12, باب مَا فِيهِ الْعُشْرُ أَوْ نِصْفُ الْعُشْرِ ‏‏",
+      "title": "باب مَا فِيهِ الْعُشْرُ أَوْ نِصْفُ الْعُشْرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَحْمَدُ بْنُ عَمْرِو بْنِ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ سَرْحٍ وَهَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ وَعَمْرُو بْنُ سَوَّادٍ وَالْوَلِيدُ بْنُ شُجَاعٍ كُلُّهُمْ عَنِ ابْنِ وَهْبٍ، قَالَ أَبُو الطَّاهِرِ أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، عَنْ عَمْرِو بْنِ الْحَارِثِ، أَنَّ أَبَا الزُّبَيْرِ، حَدَّثَهُ أَنَّهُ، سَمِعَ جَابِرَ بْنَ، عَبْدِ اللَّهِ يَذْكُرُ أَنَّهُ سَمِعَ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ فِيمَا سَقَتِ الأَنْهَارُ وَالْغَيْمُ الْعُشُورُ وَفِيمَا سُقِيَ بِالسَّانِيَةِ نِصْفُ الْعُشْرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c9209abfbb9649dc810c73377d3a159b0eccd818e0fa667d6ac6d228e1236721",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir Ahmad ibn ‘Amr ibn ‘Abd Allah ibn ‘Amr ibn Sarh, Harun ibn Sa‘id al-Ayli, ‘Amr ibn Sawwad et al-Walid ibn Shuja‘ m’ont rapporté, tous d’après Ibn Wahb. Abu al-Tahir a dit : ‘Abd Allah ibn Wahb nous a informés, d’après ‘Amr ibn al-Harith, qu’Abu al-Zubayr lui avait rapporté avoir entendu Jabir ibn ‘Abd Allah mentionner qu’il avait entendu le Prophète ﷺ dire : « Pour ce que les fleuves et la pluie irriguent, le dixième est dû ; pour ce qui est irrigué au moyen d’un dispositif d’élévation d’eau, la moitié du dixième est due. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "911fb9cd-0919-4b17-9917-dc0e5aa1f3e1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:982a",
+      "reference": "Sahih Muslim, hadith 982 a, book 12, باب لاَ زَكَاةَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَفَرَسِهِ ‏‏",
+      "title": "باب لاَ زَكَاةَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَفَرَسِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنْ عِرَاكِ بْنِ مَالِكٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَيْسَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَلاَ فَرَسِهِ صَدَقَةٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "92a5bfaf8501eecd4472621ce66c369ad25594a24ea1adf6f7f5b96b6c276b85",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya al-Tamimi nous a rapporté : J’ai récité devant Malik, d’après ‘Abd Allah ibn Dinar, d’après Sulayman ibn Yasar, d’après ‘Irak ibn Malik, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Le musulman n’a pas d’aumône obligatoire à acquitter pour son esclave ni pour son cheval. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "04d1a347-df8b-4fcb-bb3b-2dc177f0b98c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:982b",
+      "reference": "Sahih Muslim, hadith 982 b, book 12, باب لاَ زَكَاةَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَفَرَسِهِ ‏‏",
+      "title": "باب لاَ زَكَاةَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَفَرَسِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، حَدَّثَنَا أَيُّوبُ، بْنُ مُوسَى عَنْ مَكْحُولٍ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنْ عِرَاكِ بْنِ مَالِكٍ، عَنْ أَبِي هُرَيْرَةَ، - قَالَ عَمْرٌو - عَنِ النَّبِيِّ صلى الله عليه وسلم وَقَالَ زُهَيْرٌ يَبْلُغُ بِهِ ‏\"‏ لَيْسَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَلاَ فَرَسِهِ صَدَقَةٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f3fd83f45fceeb21c391d6e882cea6ccccac2250ad6d6ee7f77aff22dad1aff9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Amr al-Naqid et Zuhayr ibn Harb nous ont rapporté : Sufyan ibn ‘Uyayna nous a rapporté : Ayyub ibn Musa nous a rapporté, d’après Makhul, d’après Sulayman ibn Yasar, d’après ‘Irak ibn Malik, d’après Abu Hurayra — ‘Amr précise : du Prophète ﷺ ; Zuhayr rapporte que la chaîne remonte jusqu’à lui — : « Le musulman n’a pas d’aumône obligatoire à acquitter pour son esclave ni pour son cheval. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "15104999-cd11-4788-9118-4818b13b1b93",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:982c",
+      "reference": "Sahih Muslim, hadith 982 c, book 12, باب لاَ زَكَاةَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَفَرَسِهِ ‏‏",
+      "title": "باب لاَ زَكَاةَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَفَرَسِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا سُلَيْمَانُ بْنُ بِلاَلٍ، ح وَحَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا حَمَّادُ، بْنُ زَيْدٍ ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، كُلُّهُمْ عَنْ خُثَيْمِ بْنِ، عِرَاكِ بْنِ مَالِكٍ عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "257c520b48cc8ac4d6fff51a4cc03c30dbe827eddf073f27c5f5ea544c5fef8c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "17737e2e-4d51-4f29-8b1f-680fa20a9203",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:982d",
+      "reference": "Sahih Muslim, hadith 982 d, book 12, باب لاَ زَكَاةَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَفَرَسِهِ ‏‏",
+      "title": "باب لاَ زَكَاةَ عَلَى الْمُسْلِمِ فِي عَبْدِهِ وَفَرَسِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَهَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، وَأَحْمَدُ بْنُ عِيسَى، قَالُوا حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مَخْرَمَةُ، عَنْ أَبِيهِ، عَنْ عِرَاكِ بْنِ مَالِكٍ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يُحَدِّثُ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَيْسَ فِي الْعَبْدِ صَدَقَةٌ إِلاَّ صَدَقَةُ الْفِطْرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "27eecf929dbbd31833544f30a971b332e598ca344dac7363c30e253d74b29364",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir, Harun ibn Sa‘id al-Ayli et Ahmad ibn ‘Isa nous ont rapporté : Ibn Wahb nous a rapporté : Makhrama m’a informé, d’après son père, d’après ‘Irak ibn Malik, qui a dit : J’ai entendu Abu Hurayra rapporter du Messager d’Allah ﷺ qu’il a dit : « Il n’y a pas d’aumône obligatoire sur l’esclave, à l’exception de l’aumône de la rupture du jeûne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6f8e1386-3e81-45a6-a224-7a4d78f1c88f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:983",
+      "reference": "Sahih Muslim, hadith 983, book 12, باب فِي تَقْدِيمِ الزَّكَاةِ وَمَنْعِهَا ‏‏",
+      "title": "باب فِي تَقْدِيمِ الزَّكَاةِ وَمَنْعِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَلِيُّ بْنُ حَفْصٍ، حَدَّثَنَا وَرْقَاءُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ بَعَثَ رَسُولُ اللَّهِ صلى الله عليه وسلم عُمَرَ عَلَى الصَّدَقَةِ فَقِيلَ مَنَعَ ابْنُ جَمِيلٍ وَخَالِدُ بْنُ الْوَلِيدِ وَالْعَبَّاسُ عَمُّ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا يَنْقِمُ ابْنُ جَمِيلٍ إِلاَّ أَنَّهُ كَانَ فَقِيرًا فَأَغْنَاهُ اللَّهُ وَأَمَّا خَالِدٌ فَإِنَّكُمْ تَظْلِمُونَ خَالِدًا قَدِ احْتَبَسَ أَدْرَاعَهُ وَأَعْتَادَهُ فِي سَبِيلِ اللَّهِ وَأَمَّا الْعَبَّاسُ فَهِيَ عَلَىَّ وَمِثْلُهَا مَعَهَا ‏\"‏ ‏.‏ ثُمَّ قَالَ ‏\"‏ يَا عُمَرُ أَمَا شَعَرْتَ أَنَّ عَمَّ الرَّجُلِ صِنْوُ أَبِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a099d8145f9cabd3ef4af068d602a381cd8ae3e0601866816e1c9d9228827d2d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : ‘Ali ibn Hafs nous a rapporté : Warqa’ nous a rapporté, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra, qui a dit : Le Messager d’Allah ﷺ chargea ‘Umar de collecter l’aumône obligatoire. On lui dit : « Ibn Jamil, Khalid ibn al-Walid et al-‘Abbas, l’oncle du Messager d’Allah ﷺ, ont refusé de la verser. » Le Messager d’Allah ﷺ dit : « Qu’a donc à reprocher Ibn Jamil, sinon qu’il était pauvre et qu’Allah l’a enrichi ? Quant à Khalid, vous lui faites tort : il a consacré ses cuirasses et son équipement au service d’Allah. Quant à al-‘Abbas, je prends en charge son obligation et autant encore. » Puis il dit : « Ô ‘Umar, ne sais-tu pas que l’oncle d’un homme est le frère de son père ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "15104999-cd11-4788-9118-4818b13b1b93",
+      "reason": "La source ne reprend que la chaîne et indique « de la même manière », en renvoyant au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
