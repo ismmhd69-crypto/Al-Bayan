@@ -9231,3 +9231,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0420 saves five private French drafts on zakat al-fitr. Muslim 984b is truncated mid-sentence and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1658 Muslim drafts, 7994 total hadith drafts, 6635 remaining, and 777 Needs Mo items.
+
+### 2026-10-29: Muslim 985b–986b
+
+- FR-LIB-HAD-MUSLIM-0421 saves six private French drafts on zakat al-fitr, including the prescribed foods, amounts, and timing.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1664 Muslim drafts, 8000 total hadith drafts, 6629 remaining, and 777 Needs Mo items.
