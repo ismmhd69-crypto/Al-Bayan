@@ -5491,3 +5491,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1069 saves six private French drafts on conduct and personal grooming. The explanatory note attached to 5887 is kept with the report.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,912 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 750. Total local hadith rows not drafted: 9,717, including held records.
+
+### 2026-10-29: Bukhari 5892–5897
+
+- FR-LIB-HAD-BUKHARI-1070 saves six private French drafts about grooming and gray hair, preserving the narrator’s qualification and the reported detail about the Prophet’s hair.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,918 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 750. Total local hadith rows not drafted: 9,711, including held records.
