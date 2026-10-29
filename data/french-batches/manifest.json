@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:34:16.183Z",
+  "lastReconciled": "2026-10-29T14:34:59.102Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 419,
+    "hadithMuslimDrafted": 425,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6755,
-    "hadithDatabaseMissing": 7874,
-    "hadithLocalRemaining": 7874,
+    "hadithLocalDrafted": 6761,
+    "hadithDatabaseMissing": 7868,
+    "hadithLocalRemaining": 7868,
     "hadithNeedsMo": 244,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -31224,6 +31224,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0107",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0107.json",
+      "sourceIds": [
+        "f0197b09-21d8-49ae-ab97-f1644dc683f2",
+        "f26b18b0-637c-46b6-8823-90f73a1a113d",
+        "c18798c0-31bc-4bb0-ae40-4e5a418863bb",
+        "20baadcc-8ed4-4d72-9a77-bd9a468b205e",
+        "b96e7195-9e54-4550-882e-b71bb3f041dd",
+        "f2dc7e3b-eb70-4a67-b499-1bc8faa58a13"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; variant chains, prayer condition and wording differences retained",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35531,8 +35552,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6755,
-  "hadithLocalRemaining": 7874,
+  "hadithLocalDrafted": 6761,
+  "hadithLocalRemaining": 7868,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36999,8 +37020,8 @@
       "reason": "Ce récit cite directement le verset 2:159 du Coran, de « Ceux qui cachent les preuves claires et la guidance que Nous avons fait descendre » jusqu’à « les maudisseurs ». Garder toute la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 419,
-  "hadithDatabaseMissing": 7874,
+  "hadithMuslimDrafted": 425,
+  "hadithDatabaseMissing": 7868,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 244
 }

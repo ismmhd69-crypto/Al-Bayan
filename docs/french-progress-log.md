@@ -7642,3 +7642,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0106 saves five private French drafts on prayer and ablution. The narrator chains, conditions, and variant wording are retained.
 - Muslim 227c directly quotes Quran 2:159. Its full translation remains blank under Needs Mo pending confirmation of an approved French Quran translation and usage rights.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 419 Muslim drafts, 6,755 total hadith drafts, 7,874 remaining, and 244 Needs Mo items.
+
+### 2026-10-29: Muslim 231a–233b
+
+- FR-LIB-HAD-MUSLIM-0107 saves six private French drafts on prayer and ablution. The alternate narrator chains, the uncertain identification of the prayer as ‘Asr, and the differing mention of obligatory prayers and major sins are preserved.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 431 Muslim drafts, 6,767 total hadith drafts, 7,862 remaining, and 244 Needs Mo items.
