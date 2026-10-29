@@ -2911,3 +2911,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-599` saves three private French drafts about the Night Journey and Maryam, Khadîja, and Âsiya. Bukhari 3428, 3429, and 3431 remain entirely blank because they directly quote Quran 6:82/31:13 and 3:36; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the three Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,068 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 218. Total local hadith rows not drafted: 11,589, including held records.
+
+### 2026-10-29: Bukhari 3434–3440
+
+- `FR-LIB-HAD-BUKHARI-600` saves five private French drafts about Maryam, the Night Journey, and the Dajjâl. Bukhari 3435 remains entirely blank because it directly quotes Quran 4:171; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,073 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 219. Total local hadith rows not drafted: 11,584, including held records.
