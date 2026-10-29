@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:51:48.225Z",
+  "lastReconciled": "2026-10-29T13:52:12.316Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 55,
+    "hadithMuslimDrafted": 56,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6391,
-    "hadithDatabaseMissing": 8238,
-    "hadithLocalRemaining": 8238,
+    "hadithLocalDrafted": 6392,
+    "hadithDatabaseMissing": 8237,
+    "hadithLocalRemaining": 8237,
     "hadithNeedsMo": 176,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -29412,6 +29412,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0015",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0015.json",
+      "sourceIds": [
+        "28be2e7a-8972-424e-8233-d406d5d4e7f1"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "1 complete private draft; source hash retained; focused long-record validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -33329,8 +33345,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6391,
-  "hadithLocalRemaining": 8238,
+  "hadithLocalDrafted": 6392,
+  "hadithLocalRemaining": 8237,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -34389,5 +34405,5 @@
       "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 55
+  "hadithMuslimDrafted": 56
 }
