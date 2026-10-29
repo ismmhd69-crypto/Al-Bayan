@@ -1,0 +1,163 @@
+{
+  "batch_id": "HADITH-MUSLIM-1252",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:08:56.113Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "18bfe081-18fd-4240-8643-e9a1ac76652b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2735c",
+      "reference": "Sahih Muslim, hadith 2735 c, book 48, باب بَيَانِ أَنَّهُ يُسْتَجَابُ لِلدَّاعِي مَا لَمْ يَعْجَلْ فَيَقُولُ دَعَوْتُ فَلَمْ يُسْتَجَبْ لِي ‏‏",
+      "title": "باب بَيَانِ أَنَّهُ يُسْتَجَابُ لِلدَّاعِي مَا لَمْ يَعْجَلْ فَيَقُولُ دَعَوْتُ فَلَمْ يُسْتَجَبْ لِي ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مُعَاوِيَةُ، - وَهُوَ ابْنُ صَالِحٍ - عَنْ رَبِيعَةَ بْنِ يَزِيدَ، عَنْ أَبِي إِدْرِيسَ الْخَوْلاَنِيِّ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ لاَ يَزَالُ يُسْتَجَابُ لِلْعَبْدِ مَا لَمْ يَدْعُ بِإِثْمٍ أَوْ قَطِيعَةِ رَحِمٍ مَا لَمْ يَسْتَعْجِلْ ‏\"‏ ‏.‏ قِيلَ يَا رَسُولَ اللَّهِ مَا الاِسْتِعْجَالُ قَالَ ‏\"‏ يَقُولُ قَدْ دَعَوْتُ وَقَدْ دَعَوْتُ فَلَمْ أَرَ يَسْتَجِيبُ لِي فَيَسْتَحْسِرُ عِنْدَ ذَلِكَ وَيَدَعُ الدُّعَاءَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cf343097780885e548cf5d601994b20892bcb428270d143b74d17647903668c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū al-Ṭāhir nous a rapporté : Ibn Wahb nous a informés : Muʿāwiya — ibn Ṣāliḥ — m’a informé, d’après Rabīʿa ibn Yazīd, d’après Abū Idrīs al-Khawlānī, d’après Abū Hurayra, d’après le Prophète ﷺ, qui a dit : « L’invocation du serviteur continue d’être exaucée tant qu’il ne demande pas un péché ni la rupture des liens de parenté et qu’il ne se montre pas impatient. » On demanda : « Messager d’Allah, qu’est-ce que l’impatience ? » Il répondit : « Il dit : “J’ai invoqué et j’ai invoqué, mais je ne vois pas de réponse.” Alors il se décourage et cesse d’invoquer. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ea42f8f-6e55-45d5-9ac1-aff55ea29dec",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2736",
+      "reference": "Sahih Muslim, hadith 2736, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا مُعَاذُ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، حَدَّثَنَا الْمُعْتَمِرُ، ح وَحَدَّثَنَا إِسْحَاقُ، بْنُ إِبْرَاهِيمَ أَخْبَرَنَا جَرِيرٌ، كُلُّهُمْ عَنْ سُلَيْمَانَ التَّيْمِيِّ، ح وَحَدَّثَنَا أَبُو كَامِلٍ، فُضَيْلُ بْنُ حُسَيْنٍ - وَاللَّفْظُ لَهُ - حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا التَّيْمِيُّ، عَنْ أَبِي عُثْمَانَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ قُمْتُ عَلَى بَابِ الْجَنَّةِ فَإِذَا عَامَّةُ مَنْ دَخَلَهَا الْمَسَاكِينُ وَإِذَا أَصْحَابُ الْجَدِّ مَحْبُوسُونَ إِلاَّ أَصْحَابَ النَّارِ فَقَدْ أُمِرَ بِهِمْ إِلَى النَّارِ وَقُمْتُ عَلَى بَابِ النَّارِ فَإِذَا عَامَّةُ مَنْ دَخَلَهَا النِّسَاءُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fc4d2bd1718908692fa12ba90cd4e417652c57e114b96244338773a25f159b61",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Haddāb ibn Khālid nous a rapporté : Ḥammād ibn Salama nous a rapporté. Zuhayr ibn Ḥarb nous a également rapporté : Muʿādh ibn Muʿādh al-ʿAnbarī nous a rapporté. Muḥammad ibn ʿAbd al-Aʿlā nous a également rapporté : al-Muʿtamir nous a rapporté. Isḥāq ibn Ibrāhīm nous a également rapporté : Jarīr nous a informés. Tous le tiennent de Sulaymān al-Taymī. Abū Kāmil Fuḍayl ibn Ḥusayn nous a également rapporté — le libellé est le sien : Yazīd ibn Zurayʿ nous a rapporté : al-Taymī nous a rapporté, d’après Abū ʿUthmān, d’après Usāma ibn Zayd, qui a dit que le Messager d’Allah ﷺ a dit : « Je me suis tenu à la porte du Paradis. La plupart de ceux qui y entraient étaient des pauvres; les gens aisés étaient retenus, à l’exception de ceux qui étaient destinés au Feu, car l’ordre avait déjà été donné de les y conduire. Je me suis tenu à la porte du Feu et la plupart de ceux qui y entraient étaient des femmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "585feb6e-0e4a-47fa-8cb3-f40ac6ca13ca",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2737a",
+      "reference": "Sahih Muslim, hadith 2737 a, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، عَنْ أَيُّوبَ، عَنْ أَبِي رَجَاءٍ، الْعُطَارِدِيِّ قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ قَالَ مُحَمَّدٌ صلى الله عليه وسلم ‏\"‏ اطَّلَعْتُ فِي الْجَنَّةِ فَرَأَيْتُ أَكْثَرَ أَهْلِهَا الْفُقَرَاءَ وَاطَّلَعْتُ فِي النَّارِ فَرَأَيْتُ أَكْثَرَ أَهْلِهَا النِّسَاءَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c12c89913ec762517b40bc270fd0f23ff945f7788c753b828152709e716a3431",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Ḥarb nous a rapporté : Ismāʿīl ibn Ibrāhīm nous a rapporté, d’après Ayyūb, d’après Abū Rajāʾ al-ʿUṭāridī, qui a dit : J’ai entendu Ibn ʿAbbās dire que Muḥammad ﷺ a dit : « J’ai regardé dans le Paradis et j’ai vu que la plupart de ses habitants étaient des pauvres. J’ai regardé dans le Feu et j’ai vu que la plupart de ses habitants étaient des femmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d73a7de9-0251-4791-ae8f-95e6180281ad",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2737b",
+      "reference": "Sahih Muslim, hadith 2737 b, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا الثَّقَفِيُّ، أَخْبَرَنَا أَيُّوبُ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "220577edc0af089f818075f1adc8ffb0dedca457bfe95f99c91c923e6b5a1e65",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "717c44f0-0ad9-493e-9a18-e22b25d12f21",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2737c",
+      "reference": "Sahih Muslim, hadith 2737 c, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا أَبُو الأَشْهَبِ، حَدَّثَنَا أَبُو رَجَاءٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم اطَّلَعَ فِي النَّارِ ‏.‏ فَذَكَرَ بِمِثْلِ حَدِيثِ أَيُّوبَ ‏.‏",
+      "source_hash_sha256": "3b855dd0f5e412c1448119c0db047af56b96eb192d177b23fa443152253aa2d3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5ee647f4-5edc-46f3-87d5-5dcc5427dd37",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2737d",
+      "reference": "Sahih Muslim, hadith 2737 d, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، سَمِعَ أَبَا رَجَاءٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَذَكَرَ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "4be0a2155a3d00ab2f858770db4db0433251a206fb49b725ca27947882758e12",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "d73a7de9-0251-4791-ae8f-95e6180281ad", "reason": "Cette entrée ne donne qu’une chaîne et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "717c44f0-0ad9-493e-9a18-e22b25d12f21", "reason": "Cette entrée indique seulement que le récit suit une version précédente, sans en reproduire le texte. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "5ee647f4-5edc-46f3-87d5-5dcc5427dd37", "reason": "Cette entrée ne donne qu’une chaîne et renvoie au récit précédent sans le reproduire. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}
