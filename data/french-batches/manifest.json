@@ -36757,6 +36757,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0374",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0374.json",
+      "sourceIds": [
+        "350992d8-e212-40a4-bd97-56ba60bfd4cc",
+        "2fe5cc92-e720-4fbe-a4e4-e7c64e9a2c3a",
+        "caa83e12-5c88-4a7f-a799-1ff74e20174e",
+        "36751d05-f137-420c-9189-283ff24f63c0",
+        "cab12c22-6cf9-4ee1-aa75-7278b63365c8",
+        "c422675f-d8ae-429d-8a2e-cd09fe78ee30"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; four direct Quran quotations and two incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -43867,5 +43888,5 @@
   "hadithMuslimDrafted": 1480,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 702
+  "hadithNeedsMo": 708
 }
