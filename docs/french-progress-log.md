@@ -11021,3 +11021,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0778 saves six private French drafts about the length of Umar’s vowed retreat, the release of a captive, and freeing an enslaved person as expiation. All six records contain report text or specific wording variants.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1657b–1658d
+
+- FR-LIB-HAD-MUSLIM-0779 saves six private French drafts about freeing an enslaved person after a slap and variants on the same event. All six reports contain text or distinct wording/context details.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
