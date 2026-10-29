@@ -1711,3 +1711,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-359` saves six private French drafts for Bukhari 2099–2104, including reports on trade, companionship and cupping.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,911 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 116. Total local hadith rows not drafted: 12,718, including held records.
+
+### 2026-10-29: Bukhari 2105–2110 source review
+
+- `FR-LIB-HAD-BUKHARI-360` saves six private French drafts for Bukhari 2105–2110, including the variant conditions for canceling a sale.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,917 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 116. Total local hadith rows not drafted: 12,712, including held records.
