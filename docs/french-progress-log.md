@@ -2891,3 +2891,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-595` saves four private French drafts about al-Khidr, Mûsâ, and shepherding. Bukhari 3403 and 3404 remain entirely blank because they directly quote Quran 2:58 and 33:69; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the two Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,049 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 213. Total local hadith rows not drafted: 11,606, including held records.
+
+### 2026-10-29: Bukhari 3408–3413
+
+- `FR-LIB-HAD-BUKHARI-596` saves six private French drafts about Mûsâ, Âsiya, and Yûnus.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,055 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 213. Total local hadith rows not drafted: 11,600, including held records.
