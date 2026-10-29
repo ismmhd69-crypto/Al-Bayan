@@ -2101,3 +2101,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-437` saves six private French drafts for Bukhari 2539 and 2541–2545, covering the Hawazin delegation, Banu al-Mustaliq, charity, emancipation, and fair treatment of servants.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,302 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,327, including held records.
+
+### 2026-10-29: Bukhari 2546–2551 source review
+
+- `FR-LIB-HAD-BUKHARI-438` saves six private French drafts for Bukhari 2546–2551, preserving the repeated reports about servants’ conduct, worship, and double reward.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,308 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,321, including held records.
