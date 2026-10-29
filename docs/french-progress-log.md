@@ -8631,3 +8631,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0300 saves five private French drafts about combining prayers during the Tabuk expedition and turning after prayer. Muslim 707b is an incomplete cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,195 Muslim drafts, 7,531 total hadith drafts, 7,098 remaining, and 564 Needs Mo items.
+
+### 2026-10-29: Muslim 708a–710b
+
+- FR-LIB-HAD-MUSLIM-0301 saves six private French drafts about turning after prayer and the rule when the congregational prayer is about to begin.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,201 Muslim drafts, 7,537 total hadith drafts, 7,092 remaining, and 564 Needs Mo items.
