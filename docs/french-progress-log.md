@@ -10886,3 +10886,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0751 saves two private French drafts about inheritance shares and a visit to Jabir. Muslim 1615d only refers to earlier reports. Muslim 1616a, 1616b and 1616d contain Quran quotations, so their entire French entries remain blank pending an approved, attributed translation and rights.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1616e–1618c
+
+- FR-LIB-HAD-MUSLIM-0752 saves three private French drafts on the inheritance question of kalala. Muslim 1616e and 1617b only refer to previous reports. Muslim 1618a contains a Quran quotation and remains entirely blank pending an approved, attributed translation and rights.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
