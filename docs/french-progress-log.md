@@ -9311,3 +9311,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0436 saves one private French draft on sharing a milch animal. Muslim 1017f, 1017g, 1017h, and 1018b are incomplete cross-references; 1018a directly quotes Quran 9:79. All five remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1706 Muslim drafts, 8042 total hadith drafts, 6587 remaining, and 810 Needs Mo items.
+
+### 2026-10-29: Muslim 1020–1023
+
+- FR-LIB-HAD-MUSLIM-0437 saves six private French drafts about generosity, charity, and entrusted funds.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1712 Muslim drafts, 8048 total hadith drafts, 6581 remaining, and 810 Needs Mo items.
