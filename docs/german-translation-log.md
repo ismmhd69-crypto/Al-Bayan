@@ -110,3 +110,5 @@ Published: `false`
 | muslim-batch-049 | 30 | 30 | 0 | 19670 | 19700 | Stored cleanly as unpublished drafts |
 | muslim-batch-051 | 30 | 30 | 0 | 19700 | 19730 | Stored cleanly as unpublished drafts |
 | muslim-050 | 30 | 30 | 0 | 19730 | 19760 | Stored cleanly as unpublished drafts |
+| muslim-batch-052 | 30 | 30 | 0 | 19760 | 19790 | Stored cleanly as unpublished drafts |
+| muslim-053 | 30 | 30 | 0 | 19790 | 19820 | Stored cleanly as unpublished drafts |
