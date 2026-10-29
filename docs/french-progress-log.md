@@ -11770,3 +11770,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2017a-2019
 
 - FR-LIB-HAD-MUSLIM-0952 saves three complete private French drafts about beginning meals in Allah’s name, household entry, and eating with the right hand. Three entries that refer back to a prior report or give wording variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2020a-2022b
+
+- FR-LIB-HAD-MUSLIM-0953 saves five complete private French drafts about eating and drinking with the right hand and table manners. One chain-only entry remains blank with a specific Needs Mo reason. No database write or publication occurred.
