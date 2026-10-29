@@ -11076,3 +11076,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0789 saves three private French drafts about compensation for injury and the stated exceptions concerning a Muslim’s life. Muslim 1674d, 1676b and 1676d contain only cross-references or a wording omission, so they remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1677a–1679b
+
+- FR-LIB-HAD-MUSLIM-0790 saves six private French drafts on unjust killing, judgment over bloodshed, and the sanctity of life, property, and honor. The short wording variants are translated as variants without filling gaps from adjacent reports.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
