@@ -11251,3 +11251,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0824 saves four private French drafts: the distinctive details in the report about Sa‘d, and three reports on extra shares of camel booty. Muslim 1749d contains only another chain for the preceding report and remains blank under Needs Mo. Muslim 1749e is damaged by an embedded stray “4661 -” and unclear chain continuation; it also remains blank pending source repair.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1750a-1751c
+
+- FR-LIB-HAD-MUSLIM-0825 saves four private French drafts about extra shares of the khums and the combatant’s right to the belongings of a person he killed, including the full report from Hunayn and its wording variant. Muslim 1751a and 1751b provide only transmission chains and cross-references to the following report; both remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.

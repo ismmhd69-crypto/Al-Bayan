@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0825",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:49:55.295Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "39c12c0a-ad3f-4f64-8305-9faa8066c482",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1750a",
+      "reference": "Sahih Muslim, hadith 1750 a, book 32, باب الأَنْفَالِ ‏‏",
+      "title": "باب الأَنْفَالِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا سُرَيْجُ بْنُ يُونُسَ، وَعَمْرٌو النَّاقِدُ، - وَاللَّفْظُ لِسُرَيْجٍ - قَالاَ حَدَّثَنَا عَبْدُ، اللَّهِ بْنُ رَجَاءٍ عَنْ يُونُسَ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، قَالَ نَفَّلَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم نَفَلاً سِوَى نَصِيبِنَا مِنَ الْخُمْسِ فَأَصَابَنِي شَارِفٌ وَالشَّارِفُ الْمُسِنُّ الْكَبِيرُ ‏.",
+      "source_hash_sha256": "9a6ecdcae32d4dc52e169160dba609ae8c35bf8ea6d15ecf23148c2b3264ad92",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Surayj ibn Yûnus et ‘Amr an-Nâqid nous ont rapporté — et la formulation est celle de Surayj — : ‘Abd Allâh ibn Rajâ’ nous a rapporté, d’après Yûnus, d’après az-Zuhrî, d’après Sâlim, d’après son père, qui a dit : « Le Messager d’Allah nous accorda une part supplémentaire, en plus de notre part du cinquième (al-khums). Je reçus une vieille chamelle ; une “shârif” est une grande chamelle âgée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "99576b5e-6990-450d-b69d-d6ae5d9cc3a5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1750b",
+      "reference": "Sahih Muslim, hadith 1750 b, book 32, باب الأَنْفَالِ ‏‏",
+      "title": "باب الأَنْفَالِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا هَنَّادُ بْنُ السَّرِيِّ، حَدَّثَنَا ابْنُ الْمُبَارَكِ، ح وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، كِلاَهُمَا عَنْ يُونُسَ، عَنِ ابْنِ شِهَابٍ، قَالَ بَلَغَنِي عَنِ ابْنِ عُمَرَ، قَالَ نَفَّلَ رَسُولُ اللَّهِ صلى الله عليه وسلم سَرِيَّةً بِنَحْوِ حَدِيثِ ابْنِ رَجَاءٍ ‏.‏",
+      "source_hash_sha256": "330ba9e5eba235e6cf090f28307df333933be38d76cfd356ec253b33b25c2e9b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hannâd ibn as-Sarî nous a rapporté : Ibn al-Mubârak nous a rapporté. (H) Harmala ibn Yahyâ m’a rapporté : Ibn Wahb nous a informés ; tous deux d’après Yûnus, d’après Ibn Shihâb, qui a dit : « Il m’est parvenu d’après Ibn ‘Umar que le Messager d’Allah attribua une part supplémentaire à un détachement, selon une transmission semblable au hadith rapporté par Ibn Rajâ’. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3500f81d-d58d-4c7d-8527-1f4bb6e2a746",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1750c",
+      "reference": "Sahih Muslim, hadith 1750 c, book 32, باب الأَنْفَالِ ‏‏",
+      "title": "باب الأَنْفَالِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، قَالَ حَدَّثَنِي عُقَيْلُ، بْنُ خَالِدٍ عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمٍ، عَنْ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ كَانَ يُنَفِّلُ بَعْضَ مَنْ يَبْعَثُ مِنَ السَّرَايَا لأَنْفُسِهِمْ خَاصَّةً سِوَى قَسْمِ عَامَّةِ الْجَيْشِ وَالْخُمْسُ فِي ذَلِكَ وَاجِبٌ كُلِّهِ ‏.‏",
+      "source_hash_sha256": "c584a4bcae226658a559e7bf2bc342b81b52f1b175d0f4f1b069dc13f4b04a68",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd al-Malik ibn Shu‘ayb ibn al-Layth m’a rapporté : mon père m’a rapporté, d’après mon grand-père, qui a dit : ‘Uqayl ibn Khâlid m’a rapporté, d’après Ibn Shihâb, d’après Sâlim, d’après ‘Abd Allâh, que le Messager d’Allah accordait à certains hommes envoyés dans des détachements une part supplémentaire qui leur était réservée, en plus de la répartition générale destinée à l’ensemble de l’armée ; le cinquième (al-khums) s’applique obligatoirement à l’ensemble.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4a0ab730-ba5f-49df-8b09-ad116df28d4b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1751a",
+      "reference": "Sahih Muslim, hadith 1751 a, book 32, باب اسْتِحْقَاقِ الْقَاتِلِ سَلَبَ الْقَتِيلِ ‏‏",
+      "title": "باب اسْتِحْقَاقِ الْقَاتِلِ سَلَبَ الْقَتِيلِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، أَخْبَرَنَا هُشَيْمٌ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ عُمَرَ بْنِ، كَثِيرِ بْنِ أَفْلَحَ عَنْ أَبِي مُحَمَّدٍ الأَنْصَارِيِّ، وَكَانَ، جَلِيسًا لأَبِي قَتَادَةَ قَالَ قَالَ أَبُو قَتَادَةَ ‏.‏ وَاقْتَصَّ الْحَدِيثَ ‏.‏",
+      "source_hash_sha256": "602e1d9cc02640421da2aab36ffce6a273f6fde756964eb247fa8487c9d8c895",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a565a995-18f8-472c-aa52-c0b4f177881a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1751b",
+      "reference": "Sahih Muslim, hadith 1751 b, book 32, باب اسْتِحْقَاقِ الْقَاتِلِ سَلَبَ الْقَتِيلِ ‏‏",
+      "title": "باب اسْتِحْقَاقِ الْقَاتِلِ سَلَبَ الْقَتِيلِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ عُمَرَ بْنِ كَثِيرٍ، عَنْ أَبِي مُحَمَّدٍ، مَوْلَى أَبِي قَتَادَةَ أَنَّ أَبَا قَتَادَةَ، قَالَ ‏.‏ وَسَاقَ الْحَدِيثَ ‏.‏",
+      "source_hash_sha256": "8c0586826204fcc090cc53bedfe13b1eaf8001483639adb960633be0a934b0d5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed06346d-948c-4a42-835b-c3436b35de1b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1751c",
+      "reference": "Sahih Muslim, hadith 1751 c, book 32, باب اسْتِحْقَاقِ الْقَاتِلِ سَلَبَ الْقَتِيلِ ‏‏",
+      "title": "باب اسْتِحْقَاقِ الْقَاتِلِ سَلَبَ الْقَتِيلِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، - وَاللَّفْظُ لَهُ - أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، قَالَ سَمِعْتُ مَالِكَ بْنَ أَنَسٍ، يَقُولُ حَدَّثَنِي يَحْيَى بْنُ سَعِيدٍ، عَنْ عُمَرَ بْنِ كَثِيرِ بْنِ أَفْلَحَ، عَنْ أَبِي مُحَمَّدٍ، مَوْلَى أَبِي قَتَادَةَ عَنْ أَبِي قَتَادَةَ، قَالَ خَرَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم عَامَ حُنَيْنٍ فَلَمَّا الْتَقَيْنَا كَانَتْ لِلْمُسْلِمِينَ جَوْلَةٌ ‏.‏ قَالَ فَرَأَيْتُ رَجُلاً مِنَ الْمُشْرِكِينَ قَدْ عَلاَ رَجُلاً مِنَ الْمُسْلِمِينَ فَاسْتَدَرْتُ إِلَيْهِ حَتَّى أَتَيْتُهُ مِنْ وَرَائِهِ فَضَرَبْتُهُ عَلَى حَبْلِ عَاتِقِهِ وَأَقْبَلَ عَلَىَّ فَضَمَّنِي ضَمَّةً وَجَدْتُ مِنْهَا رِيحَ الْمَوْتِ ثُمَّ أَدْرَكَهُ الْمَوْتُ فَأَرْسَلَنِي فَلَحِقْتُ عُمَرَ بْنَ الْخَطَّابِ فَقَالَ مَا لِلنَّاسِ فَقُلْتُ أَمْرُ اللَّهِ ‏.‏ ثُمَّ إِنَّ النَّاسَ رَجَعُوا وَجَلَسَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ فَقَالَ ‏\"‏ مَنْ قَتَلَ قَتِيلاً لَهُ عَلَيْهِ بَيِّنَةٌ فَلَهُ سَلَبُهُ ‏\"‏ ‏.‏ قَالَ فَقُمْتُ فَقُلْتُ مَنْ يَشْهَدُ لِي ثُمَّ جَلَسْتُ ثُمَّ قَالَ مِثْلَ ذَلِكَ فَقَالَ فَقُمْتُ فَقُلْتُ مَنْ يَشْهَدُ لِي ثُمَّ جَلَسْتُ ثُمَّ قَالَ ذَلِكَ الثَّالِثَةَ فَقُمْتُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا لَكَ يَا أَبَا قَتَادَةَ ‏\"‏ ‏.‏ فَقَصَصْتُ عَلَيْهِ الْقِصَّةَ فَقَالَ رَجُلٌ مِنَ الْقَوْمِ صَدَقَ يَا رَسُولَ اللَّهِ سَلَبُ ذَلِكَ الْقَتِيلِ عِنْدِي فَأَرْضِهِ مِنْ حَقِّهِ ‏.‏ وَقَالَ أَبُو بَكْرٍ الصِّدِّيقُ لاَهَا اللَّهِ إِذًا لاَ يَعْمِدُ إِلَى أَسَدٍ مِنْ أُسُدِ اللَّهِ يُقَاتِلُ عَنِ اللَّهِ وَعَنْ رَسُولِهِ فَيُعْطِيكَ سَلَبَهُ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ صَدَقَ فَأَعْطِهِ إِيَّاهُ ‏\"‏ ‏.‏ فَأَعْطَانِي قَالَ فَبِعْتُ الدِّرْعَ فَابْتَعْتُ بِهِ مَخْرَفًا فِي بَنِي سَلِمَةَ فَإِنَّهُ لأَوَّلُ مَالٍ تَأَثَّلْتُهُ فِي الإِسْلاَمِ ‏.‏ وَفِي حَدِيثِ اللَّيْثِ فَقَالَ أَبُو بَكْرٍ كَلاَّ لاَ يُعْطِيهِ أُضَيْبِعَ مِنْ قُرَيْشٍ وَيَدَعُ أَسَدًا مِنْ أُسُدِ اللَّهِ ‏.‏ وَفِي حَدِيثِ اللَّيْثِ لأَوَّلُ مَالٍ تَأَثَّلْتُهُ ‏.‏",
+      "source_hash_sha256": "d08fbfcf077e987b3acbb32ee9dc467c42879607b319d60eaba92c8c0ee3bd97",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû at-Tâhir et Harmala nous ont rapporté — et la formulation est celle de Harmala — : ‘Abd Allâh ibn Wahb nous a informés. Il a dit : « J’ai entendu Mâlik ibn Anas dire : Yahyâ ibn Sa‘îd m’a rapporté, d’après ‘Umar ibn Kathîr ibn Aflah, d’après Abû Muhammad, affranchi d’Abû Qatâda, d’après Abû Qatâda, qui a dit : “Nous partîmes avec le Messager d’Allah l’année de Hunayn. Lorsque nous rencontrâmes l’ennemi, les musulmans connurent un mouvement de recul. Je vis un homme parmi les associateurs qui avait pris le dessus sur un musulman. Je fis un détour et arrivai derrière lui ; je le frappai au tendon de l’épaule. Il se tourna vers moi et me serra si fort que je crus sentir la mort. Puis la mort le saisit et il me relâcha. Je rejoignis ‘Umar ibn al-Khattâb, qui demanda : ‘Que se passe-t-il avec les gens ?’ Je répondis : ‘C’est l’ordre d’Allah.’ Puis les gens revinrent et le Messager d’Allah s’assit. Il dit : ‘Celui qui tue un homme et en apporte la preuve aura ses effets personnels.’ Je me levai et demandai : ‘Qui témoignera en ma faveur ?’, puis je me rassis. Il répéta la même chose ; je me levai et demandai : ‘Qui témoignera en ma faveur ?’, puis je me rassis. Il le dit une troisième fois et je me levai. Le Messager d’Allah dit alors : ‘Qu’as-tu, Abû Qatâda ?’ Je lui racontai l’affaire. Un homme parmi les gens dit : ‘Il dit vrai, ô Messager d’Allah. Les effets de cet homme tué sont auprès de moi ; donne-lui de quoi satisfaire son droit.’ Abû Bakr as-Siddîq dit : ‘Non, par Allah ! Il ne prendra pas les effets d’un lion parmi les lions d’Allah, qui combat pour Allah et Son Messager, pour te les donner.’ Le Messager d’Allah dit : ‘Il dit vrai ; donne-les-lui.’ L’homme me les remit. Je vendis la cuirasse et achetai avec son prix un verger chez les Banû Salima. Ce fut le premier bien dont je pris possession en islam.” Dans la transmission de Layth, Abû Bakr dit : “Non, jamais ! Il ne les donnera pas à une petite hyène de Quraysh en laissant un lion parmi les lions d’Allah.” La transmission de Layth conclut également par ces mots : “Ce fut le premier bien dont je pris possession.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4a0ab730-ba5f-49df-8b09-ad116df28d4b",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission puis indique que le récit suivant est rapporté intégralement, sans reproduire son contenu ni apporter de variante distincte. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "a565a995-18f8-472c-aa52-c0b4f177881a",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission puis renvoie au récit suivant, sans reproduire son contenu ni apporter de variante distincte. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
