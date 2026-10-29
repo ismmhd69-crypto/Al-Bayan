@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1062",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:02:49.623Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e6320e51-f515-49c4-b85b-575cb4cf2baf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2258",
+      "reference": "Sahih Muslim, hadith 2258, book 41, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ يُونُسَ بْنِ جُبَيْرٍ، عَنْ مُحَمَّدِ بْنِ سَعْدٍ، عَنْ سَعْدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لأَنْ يَمْتَلِئَ جَوْفُ أَحَدِكُمْ قَيْحًا يَرِيهِ خَيْرٌ مِنْ أَنْ يَمْتَلِئَ شِعْرًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "84ad3d767c2443c35911cec37170590e07a3db7414ad61f35e687b1dcbc8d3d5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète ﷺ a dit : « Mieux vaut que l’intérieur de l’un de vous soit rempli de pus qui le ronge plutôt que de poésie. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ee07a23-2087-4479-9971-d126bedb21c7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2259",
+      "reference": "Sahih Muslim, hadith 2259, book 41, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ الثَّقَفِيُّ، حَدَّثَنَا لَيْثٌ، عَنِ ابْنِ الْهَادِ، عَنْ يُحَنِّسَ، مَوْلَى مُصْعَبِ بْنِ الزُّبَيْرِ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ بَيْنَا نَحْنُ نَسِيرُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم بِالْعَرْجِ إِذْ عَرَضَ شَاعِرٌ يُنْشِدُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خُذُوا الشَّيْطَانَ أَوْ أَمْسِكُوا الشَّيْطَانَ لأَنْ يَمْتَلِئَ جَوْفُ رَجُلٍ قَيْحًا خَيْرٌ لَهُ مِنْ أَنْ يَمْتَلِئَ شِعْرًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0dd56c5547317b755d465cab4ee5992e1b85057431f27cf73ab14c00c00d3ce3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Saʿîd al-Khudrî rapporte : « Alors que nous marchions avec le Messager d’Allah ﷺ à al-ʿArj, un poète se présenta et récita des vers. Le Messager d’Allah ﷺ dit : “Tenez ce diable, ou retenez-le ! Mieux vaut que l’intérieur d’un homme soit rempli de pus plutôt que de poésie.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6772c3e0-815b-4976-b61b-8ea626281809",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2260",
+      "reference": "Sahih Muslim, hadith 2260, book 41, باب تَحْرِيمِ اللَّعِبِ بِالنَّرْدَشِيرِ ‏‏",
+      "title": "باب تَحْرِيمِ اللَّعِبِ بِالنَّرْدَشِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ سُفْيَانَ، عَنْ عَلْقَمَةَ بْنِ، مَرْثَدٍ عَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ لَعِبَ بِالنَّرْدَشِيرِ فَكَأَنَّمَا صَبَغَ يَدَهُ فِي لَحْمِ خِنْزِيرٍ وَدَمِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5294df2a1e41ee7e249b22c334e1d89cc06fa22a500cc5d3e34b9cec9f30fb59",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète ﷺ a dit : « Celui qui joue au nard (trictrac) est comme celui qui trempe sa main dans la chair et le sang d’un porc. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "14dac81f-b014-4ba0-8fbd-0e790d049985",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2261a",
+      "reference": "Sahih Muslim, hadith 2261 a, book 42, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ أَبِي عُمَرَ، جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، - وَاللَّفْظُ لاِبْنِ أَبِي عُمَرَ - حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ أَبِي سَلَمَةَ، قَالَ كُنْتُ أَرَى الرُّؤْيَا أُعْرَى مِنْهَا غَيْرَ أَنِّي لاَ أُزَمَّلُ حَتَّى لَقِيتُ أَبَا قَتَادَةَ فَذَكَرْتُ ذَلِكَ لَهُ فَقَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ الرُّؤْيَا مِنَ اللَّهِ وَالْحُلْمُ مِنَ الشَّيْطَانِ فَإِذَا حَلَمَ أَحَدُكُمْ حُلْمًا يَكْرَهُهُ فَلْيَنْفُثْ عَنْ يَسَارِهِ ثَلاَثًا وَلْيَتَعَوَّذْ بِاللَّهِ مِنْ شَرِّهَا فَإِنَّهَا لَنْ تَضُرَّهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "25a6e4cf182e5cd27aba012da5caffd486e557d029ab7e1371e458318125f452",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Salama rapporte : « Je faisais des rêves qui m’effrayaient, mais je ne m’enveloppais pas. Puis je rencontrai Abû Qatâda et lui en parlai. Il me dit : “J’ai entendu le Messager d’Allah ﷺ dire : ‘La bonne vision vient d’Allah et le cauchemar vient de Satan. Si l’un de vous voit un rêve qui lui déplaît, qu’il souffle légèrement trois fois à sa gauche et demande à Allah de le protéger de son mal ; il ne lui nuira pas.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ddaa760a-8738-480b-85de-9ed5e27bcce3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2261b",
+      "reference": "Sahih Muslim, hadith 2261 b, book 42, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الرَّحْمَنِ، مَوْلَى آلِ طَلْحَةَ وَعَبْدِ رَبِّهِ وَيَحْيَى ابْنَىْ سَعِيدٍ وَمُحَمَّدِ بْنِ عَمْرِو بْنِ عَلْقَمَةَ عَنْ أَبِي سَلَمَةَ عَنْ أَبِي قَتَادَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ مِثْلَهُ وَلَمْ يَذْكُرْ فِي حَدِيثِهِمْ قَوْلَ أَبِي سَلَمَةَ كُنْتُ أَرَى الرُّؤْيَا أُعْرَى مِنْهَا غَيْرَ أَنِّي لاَ أُزَمَّلُ ‏.‏",
+      "source_hash_sha256": "ba9e6bee5d4dad3e129af915cd2802813c880abf9cee6f83d1d162ef8c1946a0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "04e4f404-36c7-4237-8111-77fcf6b184c7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2261c",
+      "reference": "Sahih Muslim, hadith 2261 c, book 42, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح وَحَدَّثَنَا إِسْحَاقُ، بْنُ إِبْرَاهِيمَ وَعَبْدُ بْنُ حُمَيْدٍ قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، كِلاَهُمَا عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ وَلَيْسَ فِي حَدِيثِهِمَا أُعْرَى مِنْهَا ‏.‏ وَزَادَ فِي حَدِيثِ يُونُسَ ‏\"‏ فَلْيَبْصُقْ عَلَى يَسَارِهِ حِينَ يَهُبُّ مِنْ نَوْمِهِ ثَلاَثَ مَرَّاتٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9cf13be4e4645d67784b634f1ee47a4770ca5ad88fa7ae50bacb6821ce85c092",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ddaa760a-8738-480b-85de-9ed5e27bcce3",
+      "reason": "Cette entrée reprend seulement une chaîne de transmission et des différences par rapport au récit précédent. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "04e4f404-36c7-4237-8111-77fcf6b184c7",
+      "reason": "Cette entrée reprend seulement une chaîne de transmission et des différences par rapport au récit précédent. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
