@@ -42782,6 +42782,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0667",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0667.json",
+      "sourceIds": [
+        "b53f312c-5d2b-4052-9879-c2298218edcc",
+        "7e2c8428-a37a-4778-badd-846eb2755b6b",
+        "222e7e05-9ca7-48a9-aec5-ec77bcbc4e18",
+        "2c2fe39f-7c91-42f2-8399-4e032738bcb3",
+        "6852f552-3683-4f87-b669-55ae0d74db31",
+        "dc6ed24d-30b3-4466-944a-dbe4af3769f3"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, two private unpublished drafts, one Quran-quoted report and three incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47089,8 +47110,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8985,
-  "hadithLocalRemaining": 5644,
+  "hadithLocalDrafted": 8987,
+  "hadithLocalRemaining": 5642,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51447,10 +51468,30 @@
       "source_id": "e27bdafd-87ef-4e9f-88a7-23014fb4c36c",
       "reason": "Cette entrée renvoie à la version précédente et ne donne qu’une variation du contenu de la réponse. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "b53f312c-5d2b-4052-9879-c2298218edcc",
+      "reason": "Cette entrée ne reproduit pas le récit et ne donne que des variations de formulation sur le retour auprès de l’épouse. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "222e7e05-9ca7-48a9-aec5-ec77bcbc4e18",
+      "reason": "Cette source cite un passage coranique de la sourate 65, verset 1. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "2c2fe39f-7c91-42f2-8399-4e032738bcb3",
+      "reason": "Cette entrée indique seulement qu’il s’agit d’un récit semblable au précédent, sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "6852f552-3683-4f87-b669-55ae0d74db31",
+      "reason": "Cette entrée renvoie au récit de Hajjaj et ne donne que des variations et une correction de nom, sans reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2649,
+  "hadithMuslimDrafted": 2651,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1164
+  "hadithNeedsMo": 1168
 }
