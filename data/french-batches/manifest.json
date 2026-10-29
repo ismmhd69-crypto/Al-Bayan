@@ -18467,6 +18467,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-856",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-856.json",
+      "sourceIds": [
+        "6c422d03-0803-4478-893c-12dbe9cda3e1"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -19933,6 +19949,12 @@
       "scope": "Sahih al-Bukhari 4708: direct Quranic fragment from 17:51",
       "status": "blocked",
       "reason": "Le rapport reprend le fragment coranique « فسينغضون » de Quran 17:51. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-854, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4712-QURAN-PHRASES-LONG",
+      "scope": "Sahih al-Bukhari 4712: unusually long report with direct Quranic phrases from 15:29, 19:29, and 48:2",
+      "status": "blocked",
+      "reason": "Ce rapport très long contient plusieurs formules directement tirées du Quran, notamment « نفخ فيك من روحه », « كلمت الناس في المهد صبيا » et « ما تقدم من ذنبك وما تأخر ». Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-856, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4013,
