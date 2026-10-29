@@ -17531,6 +17531,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-809",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-809.json",
+      "sourceIds": [
+        "1886530c-a0a2-4f31-83b1-70c09cffb8a5"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with hold"
     }
   ],
   "blockers": [
@@ -18097,6 +18113,12 @@
       "scope": "Sahih al-Bukhari 4475: direct quotation of Quran 1:7",
       "status": "blocked",
       "reason": "The report directly quotes Quran 1:7. The complete record remains blank in FR-LIB-HAD-BUKHARI-808 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4476-QURAN-48-2",
+      "scope": "Sahih al-Bukhari 4476: direct Quranic wording in the unusually long report",
+      "status": "blocked",
+      "reason": "The report directly includes Quran 48:2 wording and the Quranic phrase خالدين فيها. The complete record remains blank in FR-LIB-HAD-BUKHARI-809 pending an approved, attributed French Quran translation."
     }
   ],
   "hadithBukhariDrafted": 3933,
