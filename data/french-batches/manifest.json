@@ -38330,6 +38330,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0451",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0451.json",
+      "sourceIds": [
+        "3f7da7cc-9603-41da-8cde-ad63c718037c",
+        "beb42bb0-5ebb-4c26-8ced-a1de7d4cfb82",
+        "8d1fc78b-52b8-4230-a918-6ab8dac13461",
+        "e254687c-6c5e-4d05-afb6-a6d4e02489a8",
+        "a8a2c0bc-1308-4b1e-a064-e0e4cecb046f",
+        "0eee4e18-6058-4c96-9868-8f1b64d34fac"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one partial recension held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42637,8 +42658,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8106,
-  "hadithLocalRemaining": 6523,
+  "hadithLocalDrafted": 8111,
+  "hadithLocalRemaining": 6518,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -45730,10 +45751,15 @@
       "source_id": "c2ca3d63-40c1-4ec7-83be-c5bb3cd5fe0b",
       "reason": "La source ne rapporte que la chaîne et renvoie au récit précédent, avec une brève variante de formulation. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "e254687c-6c5e-4d05-afb6-a6d4e02489a8",
+      "reason": "La source rapporte un récit abrégé et renvoie aux versions de Qatada, Abu al-Tayyah et Hisham ibn Zayd pour la suite, sans en reproduire l’intégralité. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1770,
+  "hadithMuslimDrafted": 1775,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 830
+  "hadithNeedsMo": 831
 }
