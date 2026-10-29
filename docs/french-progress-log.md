@@ -10091,3 +10091,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0592 saves five private French drafts about the Kaaba’s construction and pilgrimage on behalf of an elderly parent. Muslim 1333h contains only a chain and cross-reference to the previous report, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1335–1337
+
+- FR-LIB-HAD-MUSLIM-0593 saves five private French drafts about pilgrimage on behalf of an elderly parent, pilgrimage for a child, and the obligation of Hajj. Muslim 1336d only points back to the preceding report and remains blank under Needs Mo. The next oversized source remains queued for isolated handling.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
