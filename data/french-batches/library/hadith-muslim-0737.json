@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0737",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:06:03.792Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "56e0b129-a730-492f-baa6-63120cf311dd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1581b",
+      "reference": "Sahih Muslim, hadith 1581 b, book 22, باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ عَبْدِ الْحَمِيدِ، بْنِ جَعْفَرٍ عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَامَ الْفَتْحِ ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى حَدَّثَنَا الضَّحَّاكُ - يَعْنِي أَبَا عَاصِمٍ - عَنْ عَبْدِ الْحَمِيدِ حَدَّثَنِي يَزِيدُ بْنُ أَبِي حَبِيبٍ قَالَ كَتَبَ إِلَىَّ عَطَاءٌ أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَامَ الْفَتْحِ بِمِثْلِ حَدِيثِ اللَّيْثِ ‏.‏",
+      "source_hash_sha256": "f7c52694f63a1aaf71cf3fec307032045bbddd9ae2f6aca3f79b53ce1cd9980b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a28d8fd0-f106-4ad1-a71a-5383bb63746d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1582a",
+      "reference": "Sahih Muslim, hadith 1582 a, book 22, باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، - وَاللَّفْظُ لأَبِي بَكْرٍ - قَالُوا حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ بَلَغَ عُمَرَ أَنَّ سَمُرَةَ، بَاعَ خَمْرًا فَقَالَ قَاتَلَ اللَّهُ سَمُرَةَ أَلَمْ يَعْلَمْ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَعَنَ اللَّهُ الْيَهُودَ حُرِّمَتْ عَلَيْهِمُ الشُّحُومُ فَجَمَلُوهَا فَبَاعُوهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2a6e7ce73cfbf290fddf22cab6e70b5fbe3e7047e47f69fc75e9deedc4ca6e10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba, Zuhayr ibn Harb et Ishaq ibn Ibrahim nous ont rapporté — la formulation est celle d’Abu Bakr — : Sufyan ibn Uyayna nous a rapporté, d’après Amr, d’après Tawus, d’après Ibn Abbas, qui dit : « Umar apprit que Samura avait vendu du vin. Il dit : “Qu’Allah condamne Samura ! Ne savait-il pas que le Messager d’Allah a dit : ‘Qu’Allah maudisse les Juifs ! La graisse leur fut interdite, alors ils la firent fondre et la vendirent.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c7f4a407-c617-4244-a488-027de39d91f3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1582b",
+      "reference": "Sahih Muslim, hadith 1582 b, book 22, باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أُمَيَّةُ بْنُ بِسْطَامَ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا رَوْحٌ، - يَعْنِي ابْنَ الْقَاسِمِ - عَنْ عَمْرِو بْنِ دِينَارٍ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "acb5ec46c90c1c05e1d0a97e318272b899426bfe96dc72211a23f27fa0f6ffd4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "acb40e4f-827c-4450-abbc-f60bda530843",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1583a",
+      "reference": "Sahih Muslim, hadith 1583 a, book 22, باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، أَخْبَرَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي ابْنُ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، أَنَّهُ حَدَّثَهُ عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ قَاتَلَ اللَّهُ الْيَهُودَ حَرَّمَ اللَّهُ عَلَيْهِمُ الشُّحُومَ فَبَاعُوهَا وَأَكَلُوا أَثْمَانَهَا‏\"‏ ‏.‏",
+      "source_hash_sha256": "16438c68c8a04af0b8851d71f16f5bca824b4d305203cee1833be33fc54db1b6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim al-Hanzali nous a rapporté : Rawh ibn Ubada nous a informés : Ibn Jurayj nous a rapporté : Ibn Shihab m’a informé, d’après Sa‘id ibn al-Musayyab, qui lui avait rapporté, d’après Abu Hurayra, d’après le Messager d’Allah, qui dit : « Qu’Allah condamne les Juifs ! Allah leur a interdit les graisses, mais ils les ont vendues et en ont consommé le prix. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "83b3048a-c008-457b-ac88-579da51f1db4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1583b",
+      "reference": "Sahih Muslim, hadith 1583 b, book 22, باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ قَاتَلَ اللَّهُ الْيَهُودَ حُرِّمَ عَلَيْهِمُ الشَّحْمُ فَبَاعُوهُ وَأَكَلُوا ثَمَنَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6a946ae11e43a93a1bcd8f9725673ed5a2baf130384ab189164e6d896eed8463",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya m’a rapporté : Ibn Wahb nous a informés : Yunus m’a rapporté, d’après Ibn Shihab, d’après Sa‘id ibn al-Musayyab, d’après Abu Hurayra, qui dit que le Messager d’Allah a dit : « Qu’Allah condamne les Juifs ! La graisse leur a été interdite, mais ils l’ont vendue et en ont consommé le prix. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f5eeb95e-bb4e-493d-8d5a-868f6510c39a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1584a",
+      "reference": "Sahih Muslim, hadith 1584 a, book 22, باب الرِّبَا ‏‏",
+      "title": "باب الرِّبَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَبِيعُوا الذَّهَبَ بِالذَّهَبِ إِلاَّ مِثْلاً بِمِثْلٍ وَلاَ تُشِفُّوا بَعْضَهَا عَلَى بَعْضٍ وَلاَ تَبِيعُوا الْوَرِقَ بِالْوَرِقِ إِلاَّ مِثْلاً بِمِثْلٍ وَلاَ تُشِفُّوا بَعْضَهَا عَلَى بَعْضٍ وَلاَ تَبِيعُوا مِنْهَا غَائِبًا بِنَاجِزٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ba7166cd0222fd8a773d12f39c7e1c4ea25470617aacb9252538e1254831c545",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya dit : « J’ai récité devant Malik », d’après Nafi, d’après Abu Sa‘id al-Khudri, que le Messager d’Allah a dit : « Ne vendez pas de l’or contre de l’or, sauf à quantité égale ; n’en donnez pas davantage d’un côté. Ne vendez pas non plus de l’argent contre de l’argent, sauf à quantité égale ; n’en donnez pas davantage d’un côté. Et ne vendez pas une marchandise absente contre un paiement immédiat. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "56e0b129-a730-492f-baa6-63120cf311dd",
+      "reason": "Cette entrée ne reproduit pas le récit complet et renvoie à une version précédente. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "c7f4a407-c617-4244-a488-027de39d91f3",
+      "reason": "Cette entrée ne reproduit pas le récit complet et renvoie à une version précédente. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
