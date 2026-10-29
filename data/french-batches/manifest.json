@@ -19458,6 +19458,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-906",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-906.json",
+      "sourceIds": [
+        "47085c62-5d55-45fb-9511-3d08f925ba79"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -22016,6 +22032,12 @@
       "scope": "Sahih al-Bukhari 4952: direct Quran wording from 95:4 (terme coranique dans une note lexicale)",
       "status": "blocked",
       "reason": "Le rapport ou sa note lexicale reprend directement Quran 95:4 (terme coranique dans une note lexicale). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-905, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4953-QURAN-96-1-5-LONG",
+      "scope": "Sahih al-Bukhari 4953: long report with direct Quran 96:1-5 quotation",
+      "status": "blocked",
+      "reason": "Hadith 4953 est un long récit sur le début de la révélation qui cite directement Quran 96:1-5. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-906, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4073,
