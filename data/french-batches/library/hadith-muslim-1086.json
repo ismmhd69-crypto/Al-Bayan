@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1086",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:08:35.406Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "da89da30-8897-4403-9b94-83f6b9126a3e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2324",
+      "reference": "Sahih Muslim, hadith 2324, book 43, باب قُرْبِ النَّبِيِّ عَلَيْهِ السَّلاَمُ مِنَ النَّاسِ وَتَبَرُّكِهِمْ بِهِ ‏.‏",
+      "title": "باب قُرْبِ النَّبِيِّ عَلَيْهِ السَّلاَمُ مِنَ النَّاسِ وَتَبَرُّكِهِمْ بِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُجَاهِدُ بْنُ مُوسَى، وَأَبُو بَكْرِ بْنُ النَّضْرِ بْنِ أَبِي النَّضْرِ وَهَارُونُ بْنُ عَبْدِ اللَّهِ جَمِيعًا عَنْ أَبِي النَّضْرِ، قَالَ أَبُو بَكْرٍ حَدَّثَنَا أَبُو النَّضْرِ، - يَعْنِي هَاشِمَ بْنَ الْقَاسِمِ - حَدَّثَنَا سُلَيْمَانُ بْنُ الْمُغِيرَةِ، عَنْ ثَابِتٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا صَلَّى الْغَدَاةَ جَاءَ خَدَمُ الْمَدِينَةِ بِآنِيَتِهِمْ فِيهَا الْمَاءُ فَمَا يُؤْتَى بِإِنَاءٍ إِلاَّ غَمَسَ يَدَهُ فِيهَا فَرُبَّمَا جَاءُوهُ فِي الْغَدَاةِ الْبَارِدَةِ فَيَغْمِسُ يَدَهُ فِيهَا ‏.‏",
+      "source_hash_sha256": "20f67e33e34015f219014ea630cee09bf7f1d86c726b5b257649defea180ad3a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Après avoir accompli la prière de l’aube, le Messager d’Allah ﷺ recevait les récipients d’eau apportés par les serviteurs de Médine. On ne lui présentait aucun récipient sans qu’il y plonge la main. Il arrivait qu’on les lui apporte par un matin froid et qu’il y plonge tout de même la main.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3640ec65-97c2-46d1-b802-51f78eb919d1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2325",
+      "reference": "Sahih Muslim, hadith 2325, book 43, باب قُرْبِ النَّبِيِّ عَلَيْهِ السَّلاَمُ مِنَ النَّاسِ وَتَبَرُّكِهِمْ بِهِ ‏.‏",
+      "title": "باب قُرْبِ النَّبِيِّ عَلَيْهِ السَّلاَمُ مِنَ النَّاسِ وَتَبَرُّكِهِمْ بِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا أَبُو النَّضْرِ، حَدَّثَنَا سُلَيْمَانُ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، قَالَ لَقَدْ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم وَالْحَلاَّقُ يَحْلِقُهُ وَأَطَافَ بِهِ أَصْحَابُهُ فَمَا يُرِيدُونَ أَنْ تَقَعَ شَعْرَةٌ إِلاَّ فِي يَدِ رَجُلٍ ‏.‏",
+      "source_hash_sha256": "a4cc750f9cbec5e5820675b9e8d6081fef9273f91148ffe59239bd34990827f6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte : « J’ai vu le Messager d’Allah ﷺ tandis que le barbier lui rasait la tête. Ses compagnons l’entouraient et chacun souhaitait qu’un cheveu tombe dans sa main. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d81ef5e2-f776-4e0b-850c-e24c03ee9ebf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2326",
+      "reference": "Sahih Muslim, hadith 2326, book 43, باب قُرْبِ النَّبِيِّ عَلَيْهِ السَّلاَمُ مِنَ النَّاسِ وَتَبَرُّكِهِمْ بِهِ ‏.‏",
+      "title": "باب قُرْبِ النَّبِيِّ عَلَيْهِ السَّلاَمُ مِنَ النَّاسِ وَتَبَرُّكِهِمْ بِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ حَمَّادِ بْنِ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، أَنَّ امْرَأَةً، كَانَ فِي عَقْلِهَا شَىْءٌ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ لِي إِلَيْكَ حَاجَةً فَقَالَ ‏\"‏ يَا أُمَّ فُلاَنٍ انْظُرِي أَىَّ السِّكَكِ شِئْتِ حَتَّى أَقْضِيَ لَكِ حَاجَتَكِ ‏\"‏ ‏.‏ فَخَلاَ مَعَهَا فِي بَعْضِ الطُّرُقِ حَتَّى فَرَغَتْ مِنْ حَاجَتِهَا ‏.‏",
+      "source_hash_sha256": "24807208283b5c4be9f6438a3145c8e1012a39fa171cb8963fe5108023fb76dc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte qu’une femme qui souffrait d’un trouble mental dit : « Messager d’Allah, j’ai besoin de vous. » Il lui répondit : « Mère d’Untel, choisis la rue où tu veux que je t’accompagne afin que je réponde à ton besoin. » Il s’écarta avec elle sur l’une des routes jusqu’à ce qu’elle ait pu lui exposer son besoin.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "50916961-d7c1-4120-bbe9-554f8da91cd2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2327a",
+      "reference": "Sahih Muslim, hadith 2327 a, book 43, باب مُبَاعَدَتِهِ صلى الله عليه وسلم لِلآثَامِ وَاخْتِيَارِهِ مِنَ الْمُبَاحِ أَسْهَلَهُ وَانْتِقَامِهِ ل",
+      "title": "باب مُبَاعَدَتِهِ صلى الله عليه وسلم لِلآثَامِ وَاخْتِيَارِهِ مِنَ الْمُبَاحِ أَسْهَلَهُ وَانْتِقَامِهِ ل",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، فِيمَا قُرِئَ عَلَيْهِ ح وَحَدَّثَنَا يَحْيَى بْنُ، يَحْيَى قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم أَنَّهَا قَالَتْ مَا خُيِّرَ رَسُولُ اللَّهِ صلى الله عليه وسلم بَيْنَ أَمْرَيْنِ إِلاَّ أَخَذَ أَيْسَرَهُمَا مَا لَمْ يَكُنْ إِثْمًا فَإِنْ كَانَ إِثْمًا كَانَ أَبْعَدَ النَّاسِ مِنْهُ وَمَا انْتَقَمَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِنَفْسِهِ إِلاَّ أَنْ تُنْتَهَكَ حُرْمَةُ اللَّهِ عَزَّ وَجَلَّ ‏.‏",
+      "source_hash_sha256": "7747b8bed5f24d69427168112f7182fe9f9afb08ae501bb46c480e9493177c3c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha, l’épouse du Prophète ﷺ, rapporte : « Jamais le Messager d’Allah ﷺ n’a eu à choisir entre deux choses sans choisir la plus facile, tant qu’elle ne constituait pas un péché. Si elle en constituait un, il était alors celui qui s’en tenait le plus éloigné. Le Messager d’Allah ﷺ ne s’est jamais vengé pour lui-même, sauf lorsqu’une des limites sacrées d’Allah, exalté soit-Il, était transgressée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "99673caa-eb7f-478e-abc9-e78fc600132d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2327b",
+      "reference": "Sahih Muslim, hadith 2327 b, book 43, باب مُبَاعَدَتِهِ صلى الله عليه وسلم لِلآثَامِ وَاخْتِيَارِهِ مِنَ الْمُبَاحِ أَسْهَلَهُ وَانْتِقَامِهِ ل",
+      "title": "باب مُبَاعَدَتِهِ صلى الله عليه وسلم لِلآثَامِ وَاخْتِيَارِهِ مِنَ الْمُبَاحِ أَسْهَلَهُ وَانْتِقَامِهِ ل",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، جَمِيعًا عَنْ جَرِيرٍ، ح وَحَدَّثَنَا أَحْمَدُ، بْنُ عَبْدَةَ حَدَّثَنَا فُضَيْلُ بْنُ عِيَاضٍ، كِلاَهُمَا عَنْ مَنْصُورٍ، عَنْ مُحَمَّدٍ، فِي رِوَايَةِ فُضَيْلِ بْنِ شِهَابٍ وَفِي رِوَايَةِ جَرِيرٍ مُحَمَّدٍ الزُّهْرِيِّ عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، ‏.‏",
+      "source_hash_sha256": "02639ce542fa1b0dab7d61b1ec67f2d2f3bf72919f561f02167db2f34c8b5782",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a539fb6f-8691-4144-9cc2-b758dfa3fc78",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2327c",
+      "reference": "Sahih Muslim, hadith 2327 c, book 43, باب مُبَاعَدَتِهِ صلى الله عليه وسلم لِلآثَامِ وَاخْتِيَارِهِ مِنَ الْمُبَاحِ أَسْهَلَهُ وَانْتِقَامِهِ ل",
+      "title": "باب مُبَاعَدَتِهِ صلى الله عليه وسلم لِلآثَامِ وَاخْتِيَارِهِ مِنَ الْمُبَاحِ أَسْهَلَهُ وَانْتِقَامِهِ ل",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، بِهَذَا الإِسْنَادِ ‏.‏ نَحْوَ حَدِيثِ مَالِكٍ ‏.‏",
+      "source_hash_sha256": "c084a861515f2f6eefef5938ce0adf88ac59387f44900a3d81ebd69bd519e438",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "99673caa-eb7f-478e-abc9-e78fc600132d",
+      "reason": "Cette entrée ne donne que des variantes de chaîne de transmission ou renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "a539fb6f-8691-4144-9cc2-b758dfa3fc78",
+      "reason": "Cette entrée ne donne que des variantes de chaîne de transmission ou renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
