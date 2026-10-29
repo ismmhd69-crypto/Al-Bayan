@@ -36442,6 +36442,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0359",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0359.json",
+      "sourceIds": [
+        "8f1e8ca0-a054-4f78-b424-c336c8d3366b",
+        "abf49012-b975-408e-b441-c0a910062d89",
+        "5ffa4522-7bea-42d4-8126-cbce43b39e9a",
+        "d5335861-7411-4c74-a6fa-6a1ba4ae6dd1",
+        "298fac1e-2b03-492b-9ec6-0b59979a46d6",
+        "6e49bfd1-157b-4554-ae4c-11378e67cc42"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; one incomplete cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40749,8 +40770,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7759,
-  "hadithLocalRemaining": 6870,
+  "hadithLocalDrafted": 7764,
+  "hadithLocalRemaining": 6865,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43349,10 +43370,16 @@
       "scope": "Sahih Muslim 838b: incomplete wording variant",
       "status": "blocked",
       "reason": "La source renvoie au récit précédent et ne précise qu’à quelle répétition s’applique la formule « pour celui qui le souhaite », sans reprendre le hadith complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0359-839B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 839b: abbreviated cross-reference",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent sur la prière en situation de peur et ne donne qu’une formule sommaire sans reproduire son contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1423,
+  "hadithMuslimDrafted": 1428,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 669
+  "hadithNeedsMo": 670
 }
