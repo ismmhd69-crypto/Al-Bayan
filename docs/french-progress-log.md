@@ -8285,7 +8285,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 563–565
 
 - FR-LIB-HAD-MUSLIM-0232 saves six private French drafts about garlic, onions and leeks, their effect on mosque attendance, and the clarification that the restriction concerns their odor rather than declaring them unlawful. The exporter continues to defer a later long source for its solo batch.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 942 Muslim drafts, 7,278 total hadith drafts, 7,351 remaining, and 446 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 942 Muslim drafts, 7,278 total hadith drafts, 7,351 remaining, and 446 Needs Mo items.
 
 ### 2026-10-29: Muslim 566
 
@@ -8846,3 +8846,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0343 saves two private French drafts about the Prophet ﷺ reciting the Quran to Ubayy ibn Ka‘b. Muslim 799b and 799e quote Quran directly; 799c and 799f are abbreviated cross-references. All four remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1377 Muslim drafts, 7713 total hadith drafts, 6916 remaining, and 632 Needs Mo items.
+
+### 2026-10-29: Muslim 800a–802
+
+- FR-LIB-HAD-MUSLIM-0344 saves two private French drafts about listening to Quran recitation and reciting verses in prayer. Muslim 800a and 800c quote Quran directly; 800b and 801b contain incomplete variants. All four remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1379 Muslim drafts, 7715 total hadith drafts, 6914 remaining, and 636 Needs Mo items.

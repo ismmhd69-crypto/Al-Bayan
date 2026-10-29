@@ -36134,6 +36134,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0344",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0344.json",
+      "sourceIds": [
+        "8fffbf45-2d77-47a1-963d-bbf1d703b991",
+        "48fa5292-e22f-412d-abb6-b22ae77f8439",
+        "d961c1c2-b674-47b5-b339-0e9506a0cc18",
+        "e5b17abd-8b62-4c4a-b285-012048bf06dd",
+        "74df2c88-aa77-4253-a5d9-81c4d0ef08b0",
+        "989c5af1-9f88-4a6f-b35a-a975fa2a67f4"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two direct Quran quotations and two incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40441,8 +40462,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7713,
-  "hadithLocalRemaining": 6916,
+  "hadithLocalDrafted": 7715,
+  "hadithLocalRemaining": 6914,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42819,10 +42840,34 @@
       "scope": "Sahih Muslim 799F: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source indique seulement que le récit précédent est rapporté dans une version semblable, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0344-800A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 800A: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage du Coran (sourate 4, verset 41). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0344-800B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 800B: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source ne reprend pas le récit complet et ajoute seulement une précision de contexte et de formulation à la version précédente. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0344-800C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 800C: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage du Coran (sourate 4, verset 41). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0344-801B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 801B: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source ne rapporte qu’une différence concernant une phrase du récit précédent, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1377,
+  "hadithMuslimDrafted": 1379,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 632
+  "hadithNeedsMo": 636
 }
