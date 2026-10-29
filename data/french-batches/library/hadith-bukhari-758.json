@@ -1,0 +1,69 @@
+{
+  "batch_id": "HADITH-BUKHARI-758",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:35:08.461Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "71535b21-4b36-4125-9d94-6f3aa2a09571",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4194",
+      "reference": "Sahih al-Bukhari, hadith 4194, book 64, باب غَزْوَةُ ذَاتِ الْقَرَدِ",
+      "title": "باب غَزْوَةُ ذَاتِ الْقَرَدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَاتِمٌ، عَنْ يَزِيدَ بْنِ أَبِي عُبَيْدٍ، قَالَ سَمِعْتُ سَلَمَةَ بْنَ الأَكْوَعِ، يَقُولُ خَرَجْتُ قَبْلَ أَنْ يُؤَذَّنَ، بِالأُولَى، وَكَانَتْ لِقَاحُ رَسُولِ اللَّهِ صلى الله عليه وسلم تَرْعَى بِذِي قَرَدٍ ـ قَالَ ـ فَلَقِيَنِي غُلاَمٌ لِعَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ فَقَالَ أُخِذَتْ لِقَاحُ رَسُولِ اللَّهِ صلى الله عليه وسلم قُلْتُ مَنْ أَخَذَهَا قَالَ غَطَفَانُ‏.‏ قَالَ فَصَرَخْتُ ثَلاَثَ صَرَخَاتٍ ـ يَا صَبَاحَاهْ ـ قَالَ فَأَسْمَعْتُ مَا بَيْنَ لاَبَتَىِ الْمَدِينَةِ، ثُمَّ انْدَفَعْتُ عَلَى وَجْهِي حَتَّى أَدْرَكْتُهُمْ وَقَدْ أَخَذُوا يَسْتَقُونَ مِنَ الْمَاءِ، فَجَعَلْتُ أَرْمِيهِمْ بِنَبْلِي، وَكُنْتُ رَامِيًا، وَأَقُولُ أَنَا ابْنُ الأَكْوَعْ، الْيَوْمُ يَوْمُ الرُّضَّعْ‏.‏ وَأَرْتَجِزُ حَتَّى اسْتَنْقَذْتُ اللِّقَاحَ مِنْهُمْ، وَاسْتَلَبْتُ مِنْهُمْ ثَلاَثِينَ بُرْدَةً، قَالَ وَجَاءَ النَّبِيُّ صلى الله عليه وسلم وَالنَّاسُ فَقُلْتُ يَا نَبِيَّ اللَّهِ قَدْ حَمَيْتُ الْقَوْمَ الْمَاءَ وَهُمْ عِطَاشٌ، فَابْعَثْ إِلَيْهِمُ السَّاعَةَ‏.‏ فَقَالَ ‏\"‏ يَا ابْنَ الأَكْوَعِ، مَلَكْتَ فَأَسْجِحْ ‏\"‏‏.‏ قَالَ ثُمَّ رَجَعْنَا وَيُرْدِفُنِي رَسُولُ اللَّهِ صلى الله عليه وسلم عَلَى نَاقَتِهِ حَتَّى دَخَلْنَا الْمَدِينَةَ‏.‏",
+      "source_hash_sha256": "1cd055e078e7ee646c9a14d0409feaacf9a26865f788696f6e8b799b042eb9e2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_unclear_poetic_wording",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e0f07faa-774a-47b7-93a0-c95712c005d1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4195",
+      "reference": "Sahih al-Bukhari, hadith 4195, book 64, باب غَزْوَةُ خَيْبَرَ",
+      "title": "باب غَزْوَةُ خَيْبَرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ بُشَيْرِ بْنِ يَسَارٍ، أَنَّ سُوَيْدَ بْنَ النُّعْمَانِ، أَخْبَرَهُ أَنَّهُ، خَرَجَ مَعَ النَّبِيِّ صلى الله عليه وسلم عَامَ خَيْبَرَ، حَتَّى إِذَا كُنَّا بِالصَّهْبَاءِ ـ وَهْىَ مِنْ أَدْنَى خَيْبَرَ ـ صَلَّى الْعَصْرَ، ثُمَّ دَعَا بِالأَزْوَادِ فَلَمْ يُؤْتَ إِلاَّ بِالسَّوِيقِ، فَأَمَرَ بِهِ فَثُرِّيَ، فَأَكَلَ وَأَكَلْنَا، ثُمَّ قَامَ إِلَى الْمَغْرِبِ، فَمَضْمَضَ وَمَضْمَضْنَا، ثُمَّ صَلَّى وَلَمْ يَتَوَضَّأْ‏.‏",
+      "source_hash_sha256": "2084c17d41585eac23cfe7a72f1dfcc0a7167871033f8362b63c73540e020477",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Suwayd ibn al-Nuʿmân rapporte qu’il partit avec le Prophète l’année de Khaybar. Lorsqu’ils arrivèrent à as-Sahbâʾ, près de Khaybar, le Prophète accomplit la prière de l’après-midi, puis demanda les provisions. On ne lui apporta que du sawîq, une préparation de farine grillée. Il demanda qu’on y ajoute de l’eau pour l’humidifier ; il en mangea, et nous en mangeâmes. Puis il se leva pour la prière du coucher du soleil. Il se rinça la bouche, et nous fîmes de même, puis il pria sans refaire ses ablutions.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "71535b21-4b36-4125-9d94-6f3aa2a09571",
+      "reason": "The report includes a battle chant whose exact meaning is unclear (اليوم يوم الرضع). The complete hadith remains blank pending clarification.",
+      "url": "https://sunnah.com/bukhari:4194"
+    }
+  ]
+}

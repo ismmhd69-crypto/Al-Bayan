@@ -16258,6 +16258,24 @@
   "published": 0,
   "status": "local draft with holds"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-758",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-758.json",
+  "sourceIds": [
+    "71535b21-4b36-4125-9d94-6f3aa2a09571",
+    "e0f07faa-774a-47b7-93a0-c95712c005d1"
+  ],
+  "translated": 1,
+  "inserted": 0,
+  "preserved": 1,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -16669,8 +16687,16 @@
   "status": "blocked",
   "reason": "The report directly quotes Quran 2:196. It remains blank in FR-LIB-HAD-BUKHARI-757 until an approved, attributed French Quran translation is confirmed."
 }
+
+,
+    {
+  "id": "HADITH-BUKHARI-4194-UNCLEAR-POETRY",
+  "scope": "Sahih al-Bukhari 4194: unclear battle chant wording",
+  "status": "blocked",
+  "reason": "The battle chant includes اليوم يوم الرضع, whose exact meaning is unclear. The complete report remains blank in FR-LIB-HAD-BUKHARI-758 pending clarification."
+}
   ],
-  "hadithBukhariDrafted": 3706,
-  "hadithLocalDrafted": 3706,
-  "hadithLocalRemaining": 10951
+  "hadithBukhariDrafted": 3707,
+  "hadithLocalDrafted": 3707,
+  "hadithLocalRemaining": 10950
 }
