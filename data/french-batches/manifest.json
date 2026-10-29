@@ -35532,6 +35532,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0315",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0315.json",
+      "sourceIds": [
+        "152bf21b-8335-4e44-81cd-faa4375048af",
+        "0f02102a-f157-492c-87fb-f3428d8c49ba",
+        "e4604a35-b804-415f-9c2b-9762d8b65daa",
+        "6f0e0ce2-0d88-42d6-b454-196fd7b21c40",
+        "38284435-0b3f-4246-9473-c81e90afdb04",
+        "f9fbc794-0f21-45f4-87f4-293b9cb66d47"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39839,8 +39860,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7589,
-  "hadithLocalRemaining": 7040,
+  "hadithLocalDrafted": 7594,
+  "hadithLocalRemaining": 7035,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41965,10 +41986,16 @@
       "scope": "Sahih Muslim 730c: truncated report",
       "status": "blocked",
       "reason": "La source ne donne que le début du récit de ‘A’isha puis indique que la suite de la narration a été rapportée, sans la reproduire. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0315-732B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 732b: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source indique seulement que le récit précédent est rapporté dans une autre chaîne, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1253,
+  "hadithMuslimDrafted": 1258,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 590
+  "hadithNeedsMo": 591
 }
