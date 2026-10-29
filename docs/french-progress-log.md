@@ -633,3 +633,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-120` saved private French drafts for Bukhari 666–671. The translations preserve the specific bad-weather instructions, Itban’s request to pray in his house, both explanations given by Ibn Abbas about avoiding the journey through mud, the report of prostration in water and mud, and the two-unit prayer at the invitation of a large man.
 - The six-record batch passed the focused validator for all Arabic hashes, rights metadata, private unpublished state and source structure. No Needs Mo item was identified in this batch. No database writes or publication occurred.
 - Bukhari local drafts: 622 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 14,007, including held records.
+
+### 2026-10-29: Bukhari 672–677 source review
+
+- `FR-LIB-HAD-BUKHARI-121` saved private French drafts for Bukhari 672–677. These include the instruction to finish a served meal before prayer, the related narrator variants, the report of the Prophet setting down his knife when called to prayer, his service to his family, and Malik ibn al-Huwayrith demonstrating how the Prophet prayed.
+- The six-record batch passed the focused validator for source hashes, rights metadata, private unpublished state and report structure. No Needs Mo item was identified in this batch. No database writes or publication occurred.
+- Bukhari local drafts: 628 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 14,001, including held records.
