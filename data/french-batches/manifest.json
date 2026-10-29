@@ -35028,6 +35028,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0291",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0291.json",
+      "sourceIds": [
+        "dd876c50-bbf1-411c-8a28-de360b33fed5",
+        "08fc3ae9-75da-4b39-9f80-490623f62811",
+        "74fc3309-02c4-4dd1-9858-0dcbb47a7724",
+        "2c2607c7-5535-4e0e-8c85-2de2b6ebca2f",
+        "2c8eb437-d19c-4d45-a174-137d0a97952b",
+        "9f10c710-3328-4194-8709-4beb99310f48"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39335,8 +39356,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7488,
-  "hadithLocalRemaining": 7141,
+  "hadithLocalDrafted": 7492,
+  "hadithLocalRemaining": 7137,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41203,10 +41224,22 @@
       "scope": "Sahih Muslim 689b: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 33:21 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-0291-692B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 692b: incomplete variant report",
+      "status": "blocked",
+      "reason": "La source arabe ne rapporte que des précisions de variante et renvoie au récit précédent sans en reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0291-693B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 693b: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source arabe ne rapporte que des précisions de variante et renvoie au récit précédent sans en reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1152,
-  "hadithDatabaseMissing": 7141,
+  "hadithMuslimDrafted": 1156,
+  "hadithDatabaseMissing": 7137,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 547
+  "hadithNeedsMo": 549
 }
