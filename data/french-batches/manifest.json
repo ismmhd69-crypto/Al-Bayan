@@ -36239,6 +36239,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0349",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0349.json",
+      "sourceIds": [
+        "e8620de1-0408-453a-95a4-644e1ee150ca",
+        "718b27c3-7680-4bd5-9600-89c39efaaa0f",
+        "192d892a-2c2b-4801-a061-e2ded626246e",
+        "95665828-a8eb-425e-88b7-2e6a4b126ddc",
+        "33cc47f3-88d9-4c5e-8831-c220045af9cc",
+        "a478ac03-c9a1-4e28-86b3-77d873df9c80"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; three incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40546,8 +40567,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7726,
-  "hadithLocalRemaining": 6903,
+  "hadithLocalDrafted": 7729,
+  "hadithLocalRemaining": 6900,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43026,10 +43047,28 @@
       "scope": "Sahih Muslim 814C: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source renvoie à la version précédente comme ayant la même formulation et ne donne que des variantes de chaîne, sans reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0349-817B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 817B: incomplete cross-reference or chain-only variant",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent et n’en fournit qu’un résumé d’introduction, sans reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0349-818B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 818B: incomplete cross-reference or chain-only variant",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent comme ayant la même trame et ne donne que quelques ajouts, sans reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité du récit intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0349-818C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 818C: incomplete cross-reference or chain-only variant",
+      "status": "blocked",
+      "reason": "La source ne contient que la chaîne de transmission d’un récit antérieur, sans son contenu. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1390,
+  "hadithMuslimDrafted": 1393,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 649
+  "hadithNeedsMo": 652
 }
