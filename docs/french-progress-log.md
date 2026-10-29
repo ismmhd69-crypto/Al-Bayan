@@ -7513,3 +7513,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0081 saves 4 private French drafts. Hadiths 177b and 177d directly quote Quran 33:37 and 53:8–10, so the complete translations remain blank under Needs Mo pending an approved, attributed French Quran translation with usage permission.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 344 of 7,366. Hadith Needs Mo: 218. Total local hadith rows not drafted: 7,949, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 179b–181b
+
+- FR-LIB-HAD-MUSLIM-0082 saves 4 private French drafts. Hadith 181b directly quotes Quran 10:26 and remains blank under Needs Mo pending an approved, attributed French Quran translation with usage permission.
+- All 5 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 344 of 7,366. Hadith Needs Mo: 219. Total local hadith rows not drafted: 7,949, including held records. No database writes or publication occurred.
