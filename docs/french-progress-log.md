@@ -6796,3 +6796,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1323 saves six private French drafts, preserving the prayer-time variants, abstention conditions, and two alternative routes in the final report. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,100 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 855. Total local hadith rows not drafted: 8,527, including held records.
+
+### 2026-10-29: Bukhari 7245–7250
+
+- FR-LIB-HAD-BUKHARI-1324 saves six private French drafts, preserving the alternate route, the narrator’s uncertainty about remembered instructions, the dawn demonstration, and the correction to the prayer. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,106 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 855. Total local hadith rows not drafted: 8,521, including held records.
