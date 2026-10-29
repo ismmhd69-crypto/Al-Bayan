@@ -681,3 +681,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-128` saved private French drafts for Bukhari 706–710. The translations preserve the reports about keeping prayer complete but manageable and shortening it when a child cries, including the narrator variants.
 - Bukhari 705 remains blank and held under Needs Mo because the report includes Arabic Quran opening phrases for three surahs. The project has no approved, attributed French Quran translation, so no French Quran wording was created.
 - The batch passed the focused validator for all six records, including Arabic hashes, rights metadata, private unpublished state and the reason-specific hold. Five local drafts were added; one additional hadith is held. No database writes or publication occurred. Bukhari local drafts: 661 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 32. Total local hadith rows not drafted: 13,968, including held records.
+
+### 2026-10-29: Bukhari 711–716 source review
+
+- `FR-LIB-HAD-BUKHARI-129` saved private French drafts for Bukhari 711–716. The reports retain the separate accounts of Abu Bakr leading prayer during the Prophet’s illness, the different instructions in each narration, the delayed completion of a two-unit prayer, and the audible takbir.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and narration structure. No Needs Mo item was identified. No database writes or publication occurred.
+- Bukhari local drafts: 667 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 32. Total local hadith rows not drafted: 13,962, including held records.
