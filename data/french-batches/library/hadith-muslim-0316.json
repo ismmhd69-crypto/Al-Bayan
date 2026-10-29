@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0316",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:15:34.942Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "caf644f9-8eee-4a8e-b04c-7b5539ef48c7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:732c",
+      "reference": "Sahih Muslim, hadith 732 c, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، قَالاَ حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، قَالَ قَالَ ابْنُ جُرَيْجٍ أَخْبَرَنِي عُثْمَانُ بْنُ أَبِي سُلَيْمَانَ، أَنَّ أَبَا سَلَمَةَ بْنَ عَبْدِ الرَّحْمَنِ، أَخْبَرَهُ أَنَّ عَائِشَةَ أَخْبَرَتْهُ أَنَّ النَّبِيَّ صلى الله عليه وسلم لَمْ يَمُتْ حَتَّى كَانَ كَثِيرٌ مِنْ صَلاَتِهِ وَهُوَ جَالِسٌ ‏.‏",
+      "source_hash_sha256": "076a34dac94edb049851976c94c021be0d00f1bfdf2639dff4b9d5e4e3a9dc6e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim et Harun ibn ‘Abd Allah m’ont rapporté : Hajjaj ibn Muhammad nous a rapporté. Il dit : Ibn Jurayj a dit : ‘Uthman ibn Abi Sulayman m’a informé qu’Abu Salama ibn ‘Abd al-Rahman lui avait rapporté que ‘A’isha l’avait informé : Le Prophète ﷺ ne mourut qu’après avoir accompli une grande partie de ses prières assis.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "74b4a943-41f8-4029-b05b-7c36577aa200",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:732d",
+      "reference": "Sahih Muslim, hadith 732 d, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، وَحَسَنٌ الْحُلْوَانِيُّ، كِلاَهُمَا عَنْ زَيْدٍ، قَالَ حَسَنٌ حَدَّثَنَا زَيْدُ بْنُ الْحُبَابِ، حَدَّثَنِي الضَّحَّاكُ بْنُ عُثْمَانَ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ لَمَّا بَدَّنَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَثَقُلَ كَانَ أَكْثَرُ صَلاَتِهِ جَالِسًا ‏.‏",
+      "source_hash_sha256": "f82b7dc3a104dadb5efb6b312b979a272d020ee890236d4f9ca5cacef9ec3c6a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim et Hasan al-Hulwani m’ont rapporté, d’après Zayd. Hasan dit : Zayd ibn al-Hubab nous a rapporté : al-Dahhak ibn ‘Uthman m’a rapporté : ‘Abd Allah ibn ‘Urwa m’a rapporté, d’après son père, d’après ‘A’isha. Elle dit : « Lorsque le Messager d’Allah ﷺ prit de l’âge et devint plus lourd, il accomplissait la plupart de ses prières assis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fd0d8758-9d2a-4e2f-b12d-a9fddc91b29d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:733a",
+      "reference": "Sahih Muslim, hadith 733 a, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنِ السَّائِبِ بْنِ يَزِيدَ، عَنِ الْمُطَّلِبِ بْنِ أَبِي وَدَاعَةَ السَّهْمِيِّ، عَنْ حَفْصَةَ، أَنَّهَا قَالَتْ مَا رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم صَلَّى فِي سُبْحَتِهِ قَاعِدًا حَتَّى كَانَ قَبْلَ وَفَاتِهِ بِعَامٍ فَكَانَ يُصَلِّي فِي سُبْحَتِهِ قَاعِدًا وَكَانَ يَقْرَأُ بِالسُّورَةِ فَيُرَتِّلُهَا حَتَّى تَكُونَ أَطْوَلَ مِنْ أَطْوَلَ مِنْهَا ‏.‏",
+      "source_hash_sha256": "5d0f798b01574d186d8f44209a0ebc06298731c79907ad72cfbc10b700906cd0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aaa83f82-8075-40ab-92eb-4b4258e67aed",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:733b",
+      "reference": "Sahih Muslim, hadith 733 b, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، جَمِيعًا عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ غَيْرَ أَنَّهُمَا قَالاَ بِعَامٍ وَاحِدٍ أَوِ اثْنَيْنِ ‏.‏",
+      "source_hash_sha256": "286551f49ea417e552df78f8262b1f6c7c00ceee4164d1dcdfafca5ad104990f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "031f6eb3-5e8e-408b-83f8-9d44767fced7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:734",
+      "reference": "Sahih Muslim, hadith 734, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ حَسَنِ بْنِ صَالِحٍ، عَنْ سِمَاكٍ، قَالَ أَخْبَرَنِي جَابِرُ بْنُ سَمُرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم لَمْ يَمُتْ حَتَّى صَلَّى قَاعِدًا ‏.‏",
+      "source_hash_sha256": "de038fa88c08c9a0524c5f1de73936e6797167a4d1bd765c02fcb06a8a6a404c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : ‘Ubayd Allah ibn Musa nous a rapporté, d’après Hasan ibn Salih, d’après Simak, qui dit : Jabir ibn Samura m’a informé que le Prophète ﷺ ne mourut qu’après avoir prié assis.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "df30893b-b2bf-414b-9be1-707e173fb832",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:735a",
+      "reference": "Sahih Muslim, hadith 735 a, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ هِلاَلِ بْنِ يَسَافٍ، عَنْ أَبِي يَحْيَى، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ حُدِّثْتُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ صَلاَةُ الرَّجُلِ قَاعِدًا نِصْفُ الصَّلاَةِ ‏\"‏ ‏.‏ قَالَ فَأَتَيْتُهُ فَوَجَدْتُهُ يُصَلِّي جَالِسًا فَوَضَعْتُ يَدِي عَلَى رَأْسِهِ فَقَالَ مَا لَكَ يَا عَبْدَ اللَّهِ بْنَ عَمْرٍو قُلْتُ حُدِّثْتُ يَا رَسُولَ اللَّهِ أَنَّكَ قُلْتَ ‏\"‏ صَلاَةُ الرَّجُلِ قَاعِدًا عَلَى نِصْفِ الصَّلاَةِ ‏\"‏ ‏.‏ وَأَنْتَ تُصَلِّي قَاعِدًا قَالَ ‏\"‏ أَجَلْ وَلَكِنِّي لَسْتُ كَأَحَدٍ مِنْكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "365641589a915d4516e6c5d1c065bb02a0d62227ab88040026bb5ffe5306c4af",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : Jarir nous a rapporté, d’après Mansur, d’après Hilal ibn Yasaf, d’après Abu Yahya, d’après ‘Abd Allah ibn ‘Amr. Il dit : « On m’a rapporté que le Messager d’Allah ﷺ avait dit : “La prière d’une personne assise vaut la moitié de la prière.” Je vins le trouver alors qu’il priait assis et posai ma main sur sa tête. Il dit : “Qu’as-tu, ‘Abd Allah ibn ‘Amr ?” Je répondis : “Messager d’Allah, on m’a rapporté que tu avais dit : ‘La prière d’une personne assise vaut la moitié de la prière’, alors que tu pries assis.” Il répondit : “Oui, mais je ne suis pas comme l’un d’entre vous.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "fd0d8758-9d2a-4e2f-b12d-a9fddc91b29d",
+      "reason": "La formulation arabe relative à la récitation est répétitive et ambiguë (« حتى تكون أطول من أطول منها »). Garder toute la traduction française vide jusqu’à vérification du texte source."
+    },
+    {
+      "source_id": "aaa83f82-8075-40ab-92eb-4b4258e67aed",
+      "reason": "La source ne rapporte que des variantes de chaîne et indique que le récit précédent est transmis avec une différence, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    }
+  ]
+}

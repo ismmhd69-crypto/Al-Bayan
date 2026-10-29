@@ -8706,3 +8706,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0315 saves five private French drafts about praying while seated or standing. Muslim 732b only refers to the previous report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1258 Muslim drafts, 7594 total hadith drafts, 7035 remaining, and 591 Needs Mo items.
+
+### 2026-10-29: Muslim 732c–735a
+
+- FR-LIB-HAD-MUSLIM-0316 saves four private French drafts about voluntary prayer while seated and the value of praying seated. Muslim 733a has unclear repeated wording and 733b is only a partial variant; both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1262 Muslim drafts, 7598 total hadith drafts, 7031 remaining, and 593 Needs Mo items.

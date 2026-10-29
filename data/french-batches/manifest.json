@@ -35553,6 +35553,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0316",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0316.json",
+      "sourceIds": [
+        "caf644f9-8eee-4a8e-b04c-7b5539ef48c7",
+        "74b4a943-41f8-4029-b05b-7c36577aa200",
+        "fd0d8758-9d2a-4e2f-b12d-a9fddc91b29d",
+        "aaa83f82-8075-40ab-92eb-4b4258e67aed",
+        "031f6eb3-5e8e-408b-83f8-9d44767fced7",
+        "df30893b-b2bf-414b-9be1-707e173fb832"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one unclear source and one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39860,8 +39881,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7594,
-  "hadithLocalRemaining": 7035,
+  "hadithLocalDrafted": 7598,
+  "hadithLocalRemaining": 7031,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41992,10 +42013,22 @@
       "scope": "Sahih Muslim 732b: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source indique seulement que le récit précédent est rapporté dans une autre chaîne, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0316-733A-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 733a: unclear repeated wording",
+      "status": "blocked",
+      "reason": "La formulation arabe relative à la récitation est répétitive et ambiguë (« حتى تكون أطول من أطول منها »). Garder toute la traduction française vide jusqu’à vérification du texte source."
+    },
+    {
+      "id": "HADITH-MUSLIM-0316-733B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 733b: incomplete variant cross-reference",
+      "status": "blocked",
+      "reason": "La source ne rapporte que des variantes de chaîne et indique que le récit précédent est transmis avec une différence, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1258,
+  "hadithMuslimDrafted": 1262,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 591
+  "hadithNeedsMo": 593
 }
