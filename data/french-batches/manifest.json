@@ -26,7 +26,42 @@
     "published": "The translation is explicitly published. French publication is out of scope.",
     "blocked": "Cannot safely proceed under current constraints; reason is recorded in the progress log."
   },
-  "batches": [],
+  "websiteProgress": {
+    "uiStringsTotal": 324,
+    "uiStringsDrafted": 50,
+    "uiStringsRemaining": 274,
+    "newToIslamLessonsRemaining": 32,
+    "hardQuestionsArticlesRemaining": 21,
+    "preparedAnswersRemaining": 44
+  },
+  "batches": [
+    {
+      "id": "FR-UI-001",
+      "contentType": "website-interface",
+      "language": "fr",
+      "artifact": "data/french-batches/ui-strings-001.json",
+      "translated": 25,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "key/source parity, nonempty text, and placeholder parity passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-UI-002",
+      "contentType": "website-interface",
+      "language": "fr",
+      "artifact": "data/french-batches/ui-strings-002.json",
+      "translated": 25,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "key/source parity, nonempty text, and placeholder parity passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
+  ],
   "blockers": [
     {
       "id": "DB-FR-LANG-CHECK",
