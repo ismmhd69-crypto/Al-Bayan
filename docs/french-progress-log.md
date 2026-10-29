@@ -2121,3 +2121,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-441` saves six private French drafts for Bukhari 2565–2570, covering Barira’s emancipation, gifts between neighbors, the Prophet’s household, a carpenter’s pulpit, and Abû Qatâda’s hunting account during pilgrimage travel.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,326 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,303, including held records.
+
+### 2026-10-29: Bukhari 2571–2576 source review
+
+- `FR-LIB-HAD-BUKHARI-442` saves six private French drafts for Bukhari 2571–2576, covering serving a drink from the right, hunting a rabbit and gifts offered during pilgrimage, household gifts, and charity versus gifts.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,332 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,297, including held records.
