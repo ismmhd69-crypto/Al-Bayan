@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1012",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:49:53.358Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3f687ad8-6b89-4928-98b8-f80147b4ee24",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2136b",
+      "reference": "Sahih Muslim, hadith 2136 b, book 38, باب كَرَاهَةِ التَّسْمِيَةِ بِالأَسْمَاءِ الْقَبِيحَةِ وَبِنَافِعٍ وَنَحْوِهِ ‏.‏",
+      "title": "باب كَرَاهَةِ التَّسْمِيَةِ بِالأَسْمَاءِ الْقَبِيحَةِ وَبِنَافِعٍ وَنَحْوِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنِ الرُّكَيْنِ بْنِ الرَّبِيعِ، عَنْ أَبِيهِ، عَنْ سَمُرَةَ، بْنِ جُنْدَبٍ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تُسَمِّ غُلاَمَكَ رَبَاحًا وَلاَ يَسَارًا وَلاَ أَفْلَحَ وَلاَ نَافِعًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "18a2b7f5b77e8479461ec7fa290e6aca22036ebc8e348b4882247f5be1bff41e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah (ﷺ) a dit : « Ne donne pas à ton garçon les noms Rabâh, Yasâr, Aflah ou Nâfi‘. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8aa7644e-844d-4a56-b9ae-cb7d1b3f46b9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2137a",
+      "reference": "Sahih Muslim, hadith 2137 a, book 38, باب كَرَاهَةِ التَّسْمِيَةِ بِالأَسْمَاءِ الْقَبِيحَةِ وَبِنَافِعٍ وَنَحْوِهِ ‏.‏",
+      "title": "باب كَرَاهَةِ التَّسْمِيَةِ بِالأَسْمَاءِ الْقَبِيحَةِ وَبِنَافِعٍ وَنَحْوِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدِ اللَّهِ بْنِ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا مَنْصُورٌ، عَنِ هِلاَلِ بْنِ يَسَافٍ، عَنْ رَبِيعِ بْنِ عُمَيْلَةَ، عَنْ سَمُرَةَ بْنِ جُنْدَبٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"أَحَبُّ الْكَلاَمِ إِلَى اللَّهِ أَرْبَعٌ سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ‏.‏ لاَ يَضُرُّكَ بَأَيِّهِنَّ بَدَأْتَ.‏ وَلاَ تُسَمِّيَنَّ غُلاَمَكَ يَسَارًا وَلاَ رَبَاحًا وَلاَ نَجِيحًا وَلاَ أَفْلَحَ فَإِنَّكَ تَقُولُ أَثَمَّ هُوَ فَلاَ يَكُونُ فَيَقُولُ لاَ‏.\"‏‏ إِنَّمَا هُنَّ أَرْبَعٌ فَلاَ تَزِيدُنَّ عَلَىَّ ‏.‏",
+      "source_hash_sha256": "770a36bea130a150f23025973a617cbf3794043b3f659dc851e8b1a46b4c0020",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Les paroles qu’Allah préfère sont au nombre de quatre : « Gloire à Allah », « Louange à Allah », « Il n’y a pas de divinité en dehors d’Allah » et « Allah est le plus grand ». Peu importe par laquelle tu commences. Et ne donne pas à ton garçon les noms Yasâr, Rabâh, Najîh ou Aflah : si tu demandes « Est-il là ? » et qu’il n’y est pas, on te répondra « non ». Ils sont seulement quatre ; n’en ajoute pas d’autres à ma liste.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "932b3cbd-d93d-400f-9ec8-54ffb6d212d6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2137b",
+      "reference": "Sahih Muslim, hadith 2137 b, book 38, باب كَرَاهَةِ التَّسْمِيَةِ بِالأَسْمَاءِ الْقَبِيحَةِ وَبِنَافِعٍ وَنَحْوِهِ ‏.‏",
+      "title": "باب كَرَاهَةِ التَّسْمِيَةِ بِالأَسْمَاءِ الْقَبِيحَةِ وَبِنَافِعٍ وَنَحْوِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنِي جَرِيرٌ، ح وَحَدَّثَنِي أُمَيَّةُ بْنُ بِسْطَامٍ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا رَوْحٌ، - وَهْوَ ابْنُ الْقَاسِمِ - ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، كُلُّهُمْ عَنْ مَنْصُورٍ، بِإِسْنَادِ زُهَيْرٍ ‏.‏ فَأَمَّا حَدِيثُ جَرِيرٍ وَرَوْحٍ فَكَمِثْلِ حَدِيثِ زُهَيْرٍ بِقِصَّتِهِ ‏.‏ وَأَمَّا حَدِيثُ شُعْبَةَ فَلَيْسَ فِيهِ إِلاَّ ذِكْرُ تَسْمِيَةِ الْغُلاَمِ وَلَمْ يَذْكُرِ الْكَلاَمَ الأَرْبَعَ ‏.‏",
+      "source_hash_sha256": "44dca44f1ff28627bd7591cc07a52afd3db67008efd96081541cc1d7bfd571a7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6c6b3b64-52b7-45e1-bea4-99a1a786e57a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2138",
+      "reference": "Sahih Muslim, hadith 2138, book 38, باب كَرَاهَةِ التَّسْمِيَةِ بِالأَسْمَاءِ الْقَبِيحَةِ وَبِنَافِعٍ وَنَحْوِهِ ‏.‏",
+      "title": "باب كَرَاهَةِ التَّسْمِيَةِ بِالأَسْمَاءِ الْقَبِيحَةِ وَبِنَافِعٍ وَنَحْوِهِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ أَحْمَدَ بْنِ أَبِي خَلَفٍ، حَدَّثَنَا رَوْحٌ، حَدَّثَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ أَرَادَ النَّبِيُّ صلى الله عليه وسلم أَنْ يَنْهَى عَنْ أَنْ يُسَمَّى بِيَعْلَى وَبِبَرَكَةَ وَبِأَفْلَحَ وَبِيَسَارٍ وَبِنَافِعٍ وَبِنَحْوِ ذَلِكَ ثُمَّ رَأَيْتُهُ سَكَتَ بَعْدُ عَنْهَا فَلَمْ يَقُلْ شَيْئًا ثُمَّ قُبِضَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَلَمْ يَنْهَ عَنْ ذَلِكَ ثُمَّ أَرَادَ عُمَرُ أَنْ يَنْهَى عَنْ ذَلِكَ ثُمَّ تَرَكَهُ ‏.‏",
+      "source_hash_sha256": "37bbf95082cd006eaebc3de7efeb5a06d0b732732ad328a908a7c3a0c2d7490c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète (ﷺ) envisagea d’interdire les noms Ya‘lâ, Baraka, Aflah, Yasâr, Nâfi‘ et d’autres noms semblables. Puis je le vis garder le silence à leur sujet et ne rien dire. Le Messager d’Allah (ﷺ) mourut sans les avoir interdits. ‘Umar envisagea ensuite de les interdire, puis y renonça.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "70f8a448-eb9e-4dd2-a5dd-1333c2a4eb88",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2139a",
+      "reference": "Sahih Muslim, hadith 2139 a, book 38, بَاب اسْتِحْبَابِ تَغْيِيرِ الِاسْمِ الْقَبِيحِ إِلَى حَسَنٍ وَتَغْيِيرِ اسْمِ بَرَّةَ إِلَى زَيْنَبَ وَجُوَيْرِيَةَ وَنَحْوِهِمَا",
+      "title": "بَاب اسْتِحْبَابِ تَغْيِيرِ الِاسْمِ الْقَبِيحِ إِلَى حَسَنٍ وَتَغْيِيرِ اسْمِ بَرَّةَ إِلَى زَيْنَبَ وَجُوَيْرِيَةَ وَنَحْوِهِمَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، وَزُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، وَمُحَمَّدُ بْنُ بَشَّارٍ قَالُوا حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم غَيَّرَ اسْمَ عَاصِيَةَ وَقَالَ ‏\"‏ أَنْتِ جَمِيلَةُ ‏\"‏ ‏.‏ قَالَ أَحْمَدُ مَكَانَ أَخْبَرَنِي عَنْ ‏.‏",
+      "source_hash_sha256": "7fe433e5f39d3cd199791703ea6e5b2b869ad4ecd67029c3ecd2b5ff64ae238e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah (ﷺ) changea le nom de ‘Âsiya et lui dit : « Tu es Jamîla. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "06d60344-db40-469d-867b-85ab89e04383",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2139b",
+      "reference": "Sahih Muslim, hadith 2139 b, book 38, بَاب اسْتِحْبَابِ تَغْيِيرِ الِاسْمِ الْقَبِيحِ إِلَى حَسَنٍ وَتَغْيِيرِ اسْمِ بَرَّةَ إِلَى زَيْنَبَ وَجُوَيْرِيَةَ وَنَحْوِهِمَا",
+      "title": "بَاب اسْتِحْبَابِ تَغْيِيرِ الِاسْمِ الْقَبِيحِ إِلَى حَسَنٍ وَتَغْيِيرِ اسْمِ بَرَّةَ إِلَى زَيْنَبَ وَجُوَيْرِيَةَ وَنَحْوِهِمَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا الْحَسَنُ بْنُ مُوسَى، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ ابْنَةً لِعُمَرَ، كَانَتْ يُقَالُ لَهَا عَاصِيَةُ فَسَمَّاهَا رَسُولُ اللَّهِ صلى الله عليه وسلم جَمِيلَةَ ‏.‏",
+      "source_hash_sha256": "27065addfe7315b36c7efd0b71d1183f5ace580e117301235a9b3d8056a33d01",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "La fille de ‘Umar s’appelait ‘Âsiya. Le Messager d’Allah (ﷺ) la renomma Jamîla.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "932b3cbd-d93d-400f-9ec8-54ffb6d212d6",
+      "reason": "Cette entrée compare plusieurs chaînes de transmission et renvoie au récit précédent, sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
