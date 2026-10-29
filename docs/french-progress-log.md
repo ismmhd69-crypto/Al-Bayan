@@ -7796,3 +7796,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0134 saves five private French drafts on sleeping in a state of major ritual impurity, returning to one’s spouse, and ritual washing. Muslim 307b contains only transmission chains and a cross-reference without the report text, so it remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 559 Muslim drafts, 6,895 total hadith drafts, 7,734 remaining, and 272 Needs Mo items.
+
+### 2026-10-29: Muslim 312–314b
+
+- FR-LIB-HAD-MUSLIM-0135 saves two private French drafts about ritual washing after a dream. Muslim 313b and 314a refer back to earlier reports without reproducing the complete wording, so both remain blank under Needs Mo. Muslim 314b remains blank because one source phrase is uncertain in context.
+- All five source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 561 Muslim drafts, 6,897 total hadith drafts, 7,732 remaining, and 275 Needs Mo items.

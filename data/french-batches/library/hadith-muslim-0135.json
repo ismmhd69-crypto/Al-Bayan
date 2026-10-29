@@ -1,0 +1,148 @@
+{
+  "batch_id": "HADITH-MUSLIM-0135",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:52:37.267Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0cd2a346-8a93-43f3-b6cd-6631a416c0d3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:312",
+      "reference": "Sahih Muslim, hadith 312, book 3, باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "title": "باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا دَاوُدُ بْنُ رُشَيْدٍ، حَدَّثَنَا صَالِحُ بْنُ عُمَرَ، حَدَّثَنَا أَبُو مَالِكٍ الأَشْجَعِيُّ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ سَأَلَتِ امْرَأَةٌ رَسُولَ اللَّهِ صلى الله عليه وسلم عَنِ الْمَرْأَةِ تَرَى فِي مَنَامِهَا مَا يَرَى الرَّجُلُ فِي مَنَامِهِ فَقَالَ ‏\"‏ إِذَا كَانَ مِنْهَا مَا يَكُونُ مِنَ الرَّجُلِ فَلْتَغْتَسِلْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "743ab74a64f52eb1b1aef3d209bf94d175cd87000e2df46e17338160d7d59957",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Dawud ibn Rushayd nous a rapporté : Salih ibn Umar nous a rapporté : Abu Malik al-Ashja'i nous a rapporté, d'après Anas ibn Malik, qui a dit : Une femme interrogea le Messager d'Allah ﷺ au sujet d'une femme qui voit en rêve ce qu'un homme voit en rêve. Il répondit : « Si elle éprouve ce qu'éprouve un homme, qu'elle fasse le bain rituel. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8fda26bc-353c-4380-a51d-7d10158f0c0d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:313a",
+      "reference": "Sahih Muslim, hadith 313 a, book 3, باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "title": "باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ زَيْنَبَ بِنْتِ أَبِي سَلَمَةَ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ جَاءَتْ أُمُّ سُلَيْمٍ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ اللَّهَ لاَ يَسْتَحْيِي مِنَ الْحَقِّ فَهَلْ عَلَى الْمَرْأَةِ مِنْ غُسْلٍ إِذَا احْتَلَمَتْ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ نَعَمْ إِذَا رَأَتِ الْمَاءَ ‏\"‏ ‏.‏ فَقَالَتْ أُمُّ سَلَمَةَ يَا رَسُولَ اللَّهِ وَتَحْتَلِمُ الْمَرْأَةُ فَقَالَ ‏\"‏ تَرِبَتْ يَدَاكِ فَبِمَ يُشْبِهُهَا وَلَدُهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1b4cc3baf1c7a5c81de18589741a3e004859ec3d56b38389a3fb065d8a05f501",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya al-Tamimi nous a rapporté : Abu Muawiya nous a informés, d'après Hisham ibn Urwa, d'après son père, d'après Zaynab bint Abi Salama, d'après Umm Salama, qui a dit : Umm Sulaym vint trouver le Prophète ﷺ et lui dit : « Ô Messager d'Allah, Allah n'a pas honte de la vérité. La femme doit-elle faire le bain rituel si elle a un rêve érotique ? » Le Messager d'Allah ﷺ répondit : « Oui, si elle voit le liquide. » Umm Salama dit : « Ô Messager d'Allah, une femme peut-elle avoir un rêve érotique ? » Il répondit : « Que tes mains se couvrent de poussière ! Comment son enfant pourrait-il lui ressembler autrement ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "301f6678-754d-44be-bf35-0f4eb934db69",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:313b",
+      "reference": "Sahih Muslim, hadith 313 b, book 3, باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "title": "باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، جَمِيعًا عَنْ هِشَامِ بْنِ عُرْوَةَ، بِهَذَا الإِسْنَادِ مِثْلَ مَعْنَاهُ وَزَادَ قَالَتْ قُلْتُ فَضَحْتِ النِّسَاءَ ‏.‏",
+      "source_hash_sha256": "4391d81992570b57fae7c3b551437cb310bdef82d0c54d3033c61315ec37b671",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c5c39949-31a6-4bac-be67-504074e64654",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:314a",
+      "reference": "Sahih Muslim, hadith 314 a, book 3, باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "title": "باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، حَدَّثَنِي عُقَيْلُ بْنُ خَالِدٍ، عَنِ ابْنِ شِهَابٍ، أَنَّهُ قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ عَائِشَةَ، زَوْجَ النَّبِيِّ صلى الله عليه وسلم أَخْبَرَتْهُ أَنَّ أُمَّ سُلَيْمٍ أُمَّ بَنِي أَبِي طَلْحَةَ دَخَلَتْ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ بِمَعْنَى حَدِيثِ هِشَامٍ غَيْرَ أَنَّ فِيهِ قَالَ قَالَتْ عَائِشَةُ فَقُلْتُ لَهَا أُفٍّ لَكِ أَتَرَى الْمَرْأَةُ ذَلِكِ",
+      "source_hash_sha256": "e055226c220dc81c71bd48b60e0e22045a6dc6add71cc9f81595f585dddc00d8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8201c817-90d3-4826-b11b-8e5ad445749e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:314b",
+      "reference": "Sahih Muslim, hadith 314 b, book 3, باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "title": "باب وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى الرَّازِيُّ، وَسَهْلُ بْنُ عُثْمَانَ، وَأَبُو كُرَيْبٍ - وَاللَّفْظُ لأَبِي كُرَيْبٍ - قَالَ سَهْلٌ حَدَّثَنَا وَقَالَ الآخَرَانِ، أَخْبَرَنَا ابْنُ أَبِي زَائِدَةَ، عَنْ أَبِيهِ، عَنْ مُصْعَبِ بْنِ شَيْبَةَ، عَنْ مُسَافِعِ بْنِ عَبْدِ اللَّهِ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، أَنَّ امْرَأَةً، قَالَتْ لِرَسُولِ اللَّهِ صلى الله عليه وسلم هَلْ تَغْتَسِلُ الْمَرْأَةُ إِذَا احْتَلَمَتْ وَأَبْصَرَتِ الْمَاءَ فَقَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏ فَقَالَتْ لَهَا عَائِشَةُ تَرِبَتْ يَدَاكِ وَأُلَّتْ ‏.‏ قَالَتْ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ دَعِيهَا وَهَلْ يَكُونُ الشَّبَهُ إِلاَّ مِنْ قِبَلِ ذَلِكِ إِذَا عَلاَ مَاؤُهَا مَاءَ الرَّجُلِ أَشْبَهَ الْوَلَدُ أَخْوَالَهُ وَإِذَا عَلاَ مَاءُ الرَّجُلِ مَاءَهَا أَشْبَهَ أَعْمَامَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fa6bfea8f4fbb0a0c81ee6025c4340cda169b05eb5f485385e30c6399b385e06",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_translation_uncertainty",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "301f6678-754d-44be-bf35-0f4eb934db69",
+      "reason": "La source arabe renvoie au récit précédent et n’en donne que la chaîne de transmission ainsi qu’une remarque ajoutée, sans reprendre le texte complet. Garder la traduction en attente d’un texte vérifié plutôt que de compléter à partir du récit voisin."
+    },
+    {
+      "source_id": "c5c39949-31a6-4bac-be67-504074e64654",
+      "reason": "La source arabe renvoie au récit précédent et ne reproduit qu’une remarque attribuée à Aïcha, sans reprendre le texte complet. Garder la traduction en attente d’un texte complet vérifié plutôt que de compléter à partir du récit voisin."
+    },
+    {
+      "source_id": "8201c817-90d3-4826-b11b-8e5ad445749e",
+      "reason": "Le récit est complet, mais une expression de reproche dans la source arabe (« وَأُلَّت ») reste incertaine dans ce contexte. Garder la traduction en attente plutôt que de choisir une formulation française non vérifiée."
+    }
+  ]
+}

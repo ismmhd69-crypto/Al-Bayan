@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:52:33.529Z",
+  "lastReconciled": "2026-10-29T14:53:21.909Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 559,
+    "hadithMuslimDrafted": 561,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6895,
-    "hadithDatabaseMissing": 7734,
-    "hadithLocalRemaining": 7734,
-    "hadithNeedsMo": 272,
+    "hadithLocalDrafted": 6897,
+    "hadithDatabaseMissing": 7732,
+    "hadithLocalRemaining": 7732,
+    "hadithNeedsMo": 275,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31812,6 +31812,26 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0135",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0135.json",
+      "sourceIds": [
+        "0cd2a346-8a93-43f3-b6cd-6631a416c0d3",
+        "8fda26bc-353c-4380-a51d-7d10158f0c0d",
+        "301f6678-754d-44be-bf35-0f4eb934db69",
+        "c5c39949-31a6-4bac-be67-504074e64654",
+        "8201c817-90d3-4826-b11b-8e5ad445749e"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; Muslim 313b and 314a held for incomplete source text, and 314b held over an uncertain phrase",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -36119,7 +36139,7 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6895,
+  "hadithLocalDrafted": 6897,
   "hadithLocalRemaining": 7755,
   "needsMo": [
     {
@@ -37737,8 +37757,8 @@
       "reason": "La source arabe ne donne que la chaîne de transmission et une variante de formulation (« ne se nettoyait pas soigneusement de l’urine »), sans reprendre le texte complet du récit. Garder la traduction en attente d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 559,
-  "hadithDatabaseMissing": 7734,
+  "hadithMuslimDrafted": 561,
+  "hadithDatabaseMissing": 7732,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 272
+  "hadithNeedsMo": 275
 }
