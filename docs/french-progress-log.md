@@ -465,3 +465,10 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-003` saved the remaining 5: `saveError`, `unavailable`, `opened`, `started`, and `deleted`.
 - Both batches passed source-file, unique-ID, nonempty French, and placeholder checks. The guarded local preview loads these draft batches. No locale route, public API, or Ask submission behavior changed.
 - Code-level visitor-copy coverage increased from 24 to 54 saved strings. The full copy audit remains incomplete; account and other page-specific/control text still need review. Neither batch is human-reviewed or published.
+
+### 2026-10-29: account and privacy interface copy
+
+- `FR-UI-HC-004` saved 25 French account labels: `title`, `intro`, `signInTitle`, `signUpTitle`, `forgotTitle`, `resetTitle`, `email`, `password`, `newPassword`, `passwordHint`, `show`, `hide`, `consent`, `privacyLink`, `signIn`, `createAccount`, `sendReset`, `saveNewPassword`, `signOut`, `resend`, `noAccount`, `haveAccount`, `forgot`, `back`, and `working`.
+- `FR-UI-HC-005` saved the remaining 24 account and data-control messages: `checkEmail`, `resetSent`, `passwordChanged`, `wrongLogin`, `notConfirmed`, `confirmationResent`, `weakPassword`, `invalidEmail`, `consentRequired`, `error`, `tooMany`, `signedInAs`, `saved`, `yourData`, `exportData`, `researchPrivacy`, `deleteChats`, `deleteChatsAsk`, `deleteAccount`, `deleteAccountAsk`, `deleteYes`, `deleteNo`, `chatsDeleted`, and `accountDeleted`.
+- Both batches passed source-file, unique-ID, nonempty French, and placeholder checks. The consent, deletion and privacy messages remain drafts and are not integrated into account flows.
+- Code-level visitor-copy coverage increased from 54 to 103 saved strings. The full audit remains incomplete; page-specific copy, learning visual labels, and other controls still need review. Human review: 0; published: 0.

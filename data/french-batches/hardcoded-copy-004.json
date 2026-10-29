@@ -1,0 +1,152 @@
+[
+  {
+    "id": "auth.title",
+    "source": "lib/auth-text.ts",
+    "english": "Your account",
+    "french": "Votre compte"
+  },
+  {
+    "id": "auth.intro",
+    "source": "lib/auth-text.ts",
+    "english": "Optional. Bayan works fully without an account. Sign in only if you want your questions, answers and progress saved.",
+    "french": "C’est facultatif. Bayan fonctionne pleinement sans compte. Connectez-vous uniquement si vous souhaitez enregistrer vos questions, vos réponses et votre progression."
+  },
+  {
+    "id": "auth.signInTitle",
+    "source": "lib/auth-text.ts",
+    "english": "Sign in",
+    "french": "Se connecter"
+  },
+  {
+    "id": "auth.signUpTitle",
+    "source": "lib/auth-text.ts",
+    "english": "Create an account",
+    "french": "Créer un compte"
+  },
+  {
+    "id": "auth.forgotTitle",
+    "source": "lib/auth-text.ts",
+    "english": "Forgot your password?",
+    "french": "Mot de passe oublié ?"
+  },
+  {
+    "id": "auth.resetTitle",
+    "source": "lib/auth-text.ts",
+    "english": "Choose a new password",
+    "french": "Choisir un nouveau mot de passe"
+  },
+  {
+    "id": "auth.email",
+    "source": "lib/auth-text.ts",
+    "english": "Email",
+    "french": "Adresse e-mail"
+  },
+  {
+    "id": "auth.password",
+    "source": "lib/auth-text.ts",
+    "english": "Password",
+    "french": "Mot de passe"
+  },
+  {
+    "id": "auth.newPassword",
+    "source": "lib/auth-text.ts",
+    "english": "New password",
+    "french": "Nouveau mot de passe"
+  },
+  {
+    "id": "auth.passwordHint",
+    "source": "lib/auth-text.ts",
+    "english": "At least 8 characters.",
+    "french": "8 caractères minimum."
+  },
+  {
+    "id": "auth.show",
+    "source": "lib/auth-text.ts",
+    "english": "Show password",
+    "french": "Afficher le mot de passe"
+  },
+  {
+    "id": "auth.hide",
+    "source": "lib/auth-text.ts",
+    "english": "Hide password",
+    "french": "Masquer le mot de passe"
+  },
+  {
+    "id": "auth.consent",
+    "source": "lib/auth-text.ts",
+    "english": "I agree that Bayan saves my questions, answers and progress in my account. I can export or delete everything at any time.",
+    "french": "J’accepte que Bayan enregistre mes questions, mes réponses et ma progression dans mon compte. Je peux tout exporter ou supprimer à tout moment."
+  },
+  {
+    "id": "auth.privacyLink",
+    "source": "lib/auth-text.ts",
+    "english": "Read the privacy page",
+    "french": "Lire la page de confidentialité"
+  },
+  {
+    "id": "auth.signIn",
+    "source": "lib/auth-text.ts",
+    "english": "Sign in",
+    "french": "Se connecter"
+  },
+  {
+    "id": "auth.createAccount",
+    "source": "lib/auth-text.ts",
+    "english": "Create account",
+    "french": "Créer un compte"
+  },
+  {
+    "id": "auth.sendReset",
+    "source": "lib/auth-text.ts",
+    "english": "Send reset link",
+    "french": "Envoyer le lien de réinitialisation"
+  },
+  {
+    "id": "auth.saveNewPassword",
+    "source": "lib/auth-text.ts",
+    "english": "Save new password",
+    "french": "Enregistrer le nouveau mot de passe"
+  },
+  {
+    "id": "auth.signOut",
+    "source": "lib/auth-text.ts",
+    "english": "Sign out",
+    "french": "Se déconnecter"
+  },
+  {
+    "id": "auth.resend",
+    "source": "lib/auth-text.ts",
+    "english": "Send the confirmation email again",
+    "french": "Renvoyer l’e-mail de confirmation"
+  },
+  {
+    "id": "auth.noAccount",
+    "source": "lib/auth-text.ts",
+    "english": "No account yet? Create one",
+    "french": "Vous n’avez pas encore de compte ? Créez-en un."
+  },
+  {
+    "id": "auth.haveAccount",
+    "source": "lib/auth-text.ts",
+    "english": "Already have an account? Sign in",
+    "french": "Vous avez déjà un compte ? Connectez-vous."
+  },
+  {
+    "id": "auth.forgot",
+    "source": "lib/auth-text.ts",
+    "english": "Forgot your password?",
+    "french": "Mot de passe oublié ?"
+  },
+  {
+    "id": "auth.back",
+    "source": "lib/auth-text.ts",
+    "english": "Back to sign in",
+    "french": "Retour à la connexion"
+  },
+  {
+    "id": "auth.working",
+    "source": "lib/auth-text.ts",
+    "english": "One moment...",
+    "french": "Un instant…"
+  }
+]

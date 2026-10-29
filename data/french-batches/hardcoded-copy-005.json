@@ -1,0 +1,146 @@
+[
+  {
+    "id": "auth.checkEmail",
+    "source": "lib/auth-text.ts",
+    "english": "Almost done. We sent you an email: open it and confirm your address, then sign in.",
+    "french": "Presque terminé. Nous vous avons envoyé un e-mail : ouvrez-le et confirmez votre adresse, puis connectez-vous."
+  },
+  {
+    "id": "auth.resetSent",
+    "source": "lib/auth-text.ts",
+    "english": "If an account exists for this email, we sent a link to choose a new password.",
+    "french": "Si un compte associé à cette adresse e-mail existe, nous avons envoyé un lien pour choisir un nouveau mot de passe."
+  },
+  {
+    "id": "auth.passwordChanged",
+    "source": "lib/auth-text.ts",
+    "english": "Your password was changed. You are signed in.",
+    "french": "Votre mot de passe a été modifié. Vous êtes connecté."
+  },
+  {
+    "id": "auth.wrongLogin",
+    "source": "lib/auth-text.ts",
+    "english": "The email or password is wrong.",
+    "french": "L’adresse e-mail ou le mot de passe est incorrect."
+  },
+  {
+    "id": "auth.notConfirmed",
+    "source": "lib/auth-text.ts",
+    "english": "Please confirm your email first. Check your inbox.",
+    "french": "Veuillez d’abord confirmer votre adresse e-mail. Consultez votre boîte de réception."
+  },
+  {
+    "id": "auth.confirmationResent",
+    "source": "lib/auth-text.ts",
+    "english": "We sent the confirmation email again.",
+    "french": "L’e-mail de confirmation a été renvoyé."
+  },
+  {
+    "id": "auth.weakPassword",
+    "source": "lib/auth-text.ts",
+    "english": "Please choose a password with at least 8 characters.",
+    "french": "Veuillez choisir un mot de passe d’au moins 8 caractères."
+  },
+  {
+    "id": "auth.invalidEmail",
+    "source": "lib/auth-text.ts",
+    "english": "Please enter a valid email address.",
+    "french": "Veuillez saisir une adresse e-mail valide."
+  },
+  {
+    "id": "auth.consentRequired",
+    "source": "lib/auth-text.ts",
+    "english": "Please tick the box to create an account.",
+    "french": "Veuillez cocher la case pour créer un compte."
+  },
+  {
+    "id": "auth.error",
+    "source": "lib/auth-text.ts",
+    "english": "Something went wrong. Please try again.",
+    "french": "Une erreur s’est produite. Veuillez réessayer."
+  },
+  {
+    "id": "auth.tooMany",
+    "source": "lib/auth-text.ts",
+    "english": "Too many emails were sent. Please wait about an hour and try again.",
+    "french": "Trop d’e-mails ont été envoyés. Veuillez patienter environ une heure avant de réessayer."
+  },
+  {
+    "id": "auth.signedInAs",
+    "source": "lib/auth-text.ts",
+    "english": "Signed in as",
+    "french": "Connecté en tant que"
+  },
+  {
+    "id": "auth.saved",
+    "source": "lib/auth-text.ts",
+    "english": "Your Ask chats are saved in your account. Saving answers and progress comes next.",
+    "french": "Vos conversations dans Ask sont enregistrées dans votre compte. L’enregistrement des réponses et de la progression sera ajouté plus tard."
+  },
+  {
+    "id": "auth.yourData",
+    "source": "lib/auth-text.ts",
+    "english": "Your data",
+    "french": "Vos données"
+  },
+  {
+    "id": "auth.exportData",
+    "source": "lib/auth-text.ts",
+    "english": "Export my data",
+    "french": "Exporter mes données"
+  },
+  {
+    "id": "auth.researchPrivacy",
+    "source": "lib/auth-text.ts",
+    "english": "Deleting your account stops its unfinished research and removes the questions and drafts. Text-free records of Bayan's AI costs may remain until a billing check is finished.",
+    "french": "La suppression de votre compte arrête les recherches en cours et supprime les questions et les brouillons. Des relevés sans contenu textuel des coûts d’IA de Bayan peuvent être conservés jusqu’à la fin d’une vérification de facturation."
+  },
+  {
+    "id": "auth.deleteChats",
+    "source": "lib/auth-text.ts",
+    "english": "Delete all my chats",
+    "french": "Supprimer toutes mes conversations"
+  },
+  {
+    "id": "auth.deleteChatsAsk",
+    "source": "lib/auth-text.ts",
+    "english": "Delete all your saved chats? This cannot be undone.",
+    "french": "Supprimer toutes vos conversations enregistrées ? Cette action est irréversible."
+  },
+  {
+    "id": "auth.deleteAccount",
+    "source": "lib/auth-text.ts",
+    "english": "Delete my account",
+    "french": "Supprimer mon compte"
+  },
+  {
+    "id": "auth.deleteAccountAsk",
+    "source": "lib/auth-text.ts",
+    "english": "Delete your account and everything saved in it? This cannot be undone.",
+    "french": "Supprimer votre compte et tout ce qu’il contient ? Cette action est irréversible."
+  },
+  {
+    "id": "auth.deleteYes",
+    "source": "lib/auth-text.ts",
+    "english": "Yes, delete",
+    "french": "Oui, supprimer"
+  },
+  {
+    "id": "auth.deleteNo",
+    "source": "lib/auth-text.ts",
+    "english": "Keep",
+    "french": "Garder"
+  },
+  {
+    "id": "auth.chatsDeleted",
+    "source": "lib/auth-text.ts",
+    "english": "All your saved chats were deleted.",
+    "french": "Toutes vos conversations enregistrées ont été supprimées."
+  },
+  {
+    "id": "auth.accountDeleted",
+    "source": "lib/auth-text.ts",
+    "english": "Your account and everything saved in it were deleted.",
+    "french": "Votre compte et tout ce qu’il contient ont été supprimés."
+  }
+]
