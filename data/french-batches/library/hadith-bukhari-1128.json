@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-1128",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:11:26.987Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "11bc64ec-8398-4a21-a3b3-b73dd57c1994",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6151",
+      "reference": "Sahih al-Bukhari, hadith 6151, book 78, باب هِجَاءِ الْمُشْرِكِينَ",
+      "title": "باب هِجَاءِ الْمُشْرِكِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَصْبَغُ، قَالَ أَخْبَرَنِي عَبْدُ اللَّهِ بْنُ وَهْبٍ، قَالَ أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَنَّ الْهَيْثَمَ بْنَ أَبِي سِنَانٍ، أَخْبَرَهُ أَنَّهُ، سَمِعَ أَبَا هُرَيْرَةَ، فِي قَصَصِهِ يَذْكُرُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ أَخًا لَكُمْ لاَ يَقُولُ الرَّفَثَ ‏\"‏‏.‏ يَعْنِي بِذَاكَ ابْنَ رَوَاحَةَ قَالَ فِينَا رَسُولُ اللَّهِ يَتْلُو كِتَابَهُ إِذَا انْشَقَّ مَعْرُوفٌ مِنَ الْفَجْرِ سَاطِعُ أَرَانَا الْهُدَى بَعْدَ الْعَمَى فَقُلُوبُنَا بِهِ مُوقِنَاتٌ أَنَّ مَا قَالَ وَاقِعُ يَبِيتُ يُجَافِي جَنْبَهُ عَنْ فِرَاشِهِ إِذَا اسْتَثْقَلَتْ بِالْكَافِرِينَ الْمَضَاجِعُ تَابَعَهُ عُقَيْلٌ عَنِ الزُّهْرِيِّ‏.‏ وَقَالَ الزُّبَيْدِيُّ عَنِ الزُّهْرِيِّ عَنْ سَعِيدٍ وَالأَعْرَجِ عَنْ أَبِي هُرَيْرَةَ‏.‏",
+      "source_hash_sha256": "34f3c83c82d1ec177da1972dc55595c6747dce6db5a83833c42696b103f9aaea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "text_french": "Asbagh nous a rapporté : ‘Abd Allâh ibn Wahb m’a informé : Yûnus m’a informé, d’après Ibn Shihâb, que al-Haytham ibn Abî Sinân lui avait rapporté avoir entendu Abû Hurayra, dans l’un de ses récits, mentionner le Prophète ﷺ disant : « Un frère à vous ne tient pas de propos indécents. » Il s’agissait d’Ibn Rawâha, qui a dit :\n\n« Parmi nous se trouve le Messager d’Allah, qui récite Son Livre,\nquand la clarté éclatante de l’aube se lève.\nIl nous a montré la voie après l’aveuglement,\net nos cœurs sont certains que ce qu’il annonce se réalisera.\nIl passe la nuit en éloignant son flanc de sa couche,\nalors que les lits des mécréants s’alourdissent de sommeil. »\n\n‘Uqayl a transmis la même version d’après az-Zuhrî. Az-Zubaydî a rapporté d’après az-Zuhrî, d’après Sa‘îd et al-A‘raj, d’après Abû Hurayra."
+    }
+  ],
+  "needs_mo": []
+}
