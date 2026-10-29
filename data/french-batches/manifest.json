@@ -42880,6 +42880,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0672",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0672.json",
+      "sourceIds": [
+        "d08d8050-7b57-4e91-b636-d08728a8400c"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: one 5,194-character source isolated in a single-item batch; Arabic original and hash, ID, blank French text for a report with Quran quotations held under Needs Mo, rights flags, and private unpublished state passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -51610,10 +51626,15 @@
       "source_id": "a26ce862-0841-4768-8a7e-cf2dc79bbc4a",
       "reason": "Cette source isolée de 2 006 caractères contient une citation coranique explicite de la sourate 33, versets 28–29. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
+    },
+    {
+      "source_id": "d08d8050-7b57-4e91-b636-d08728a8400c",
+      "reason": "Cette source isolée de 5 194 caractères contient plusieurs citations coraniques, notamment des sourates 66:4–5 et 4:83. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 2659,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1177
+  "hadithNeedsMo": 1178
 }
