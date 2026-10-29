@@ -2856,3 +2856,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-588` saves six private French drafts about the sacred mosques, the Kaaba, and prayers for the Prophet.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,024 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 203. Total local hadith rows not drafted: 11,631, including held records.
+
+### 2026-10-29: Bukhari 3372–3377
+
+- `FR-LIB-HAD-BUKHARI-589` saves three private French drafts about Ismâ‘îl and the Arab lineages. Bukhari 3372, 3375 and 3376 remain entirely blank because they directly quote or reproduce Quranic wording; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the three Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,027 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 206. Total local hadith rows not drafted: 11,628, including held records.
