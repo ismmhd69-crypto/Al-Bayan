@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0181",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:17:34.338Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e2b4afd5-005d-42e1-8231-6e98c55a7d51",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:427a",
+      "reference": "Sahih Muslim, hadith 427 a, book 4, باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "title": "باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا خَلَفُ بْنُ هِشَامٍ، وَأَبُو الرَّبِيعِ الزَّهْرَانِيُّ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، كُلُّهُمْ عَنْ حَمَّادٍ، - قَالَ خَلَفٌ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، - عَنْ مُحَمَّدِ بْنِ زِيَادٍ، حَدَّثَنَا أَبُو هُرَيْرَةَ، قَالَ قَالَ مُحَمَّدٌ صلى الله عليه وسلم ‏\"‏ أَمَا يَخْشَى الَّذِي يَرْفَعُ رَأْسَهُ قَبْلَ الإِمَامِ أَنْ يُحَوِّلَ اللَّهُ رَأْسَهُ رَأْسَ حِمَارٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8d5788a07576edc39d7b0af0535d9f69f109490509480a1e92d928ff996a5b3b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Khalaf ibn Hisham, Abu al-Rabi‘ al-Zahrani et Qutayba ibn Sa‘id nous ont rapporté, tous d’après Hammad. Khalaf a dit : Hammad ibn Zayd nous a rapporté, d’après Muhammad ibn Ziyad, qui nous a rapporté d’après Abu Hurayra : Muhammad ﷺ a dit : « Celui qui relève la tête avant l’imam ne craint-il pas qu’Allah transforme sa tête en tête d’âne ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e05da246-a7b2-49b9-8837-c0f80971d45f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:427b",
+      "reference": "Sahih Muslim, hadith 427 b, book 4, باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "title": "باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، عَنْ يُونُسَ، عَنْ مُحَمَّدِ بْنِ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا يَأْمَنُ الَّذِي يَرْفَعُ رَأْسَهُ فِي صَلاَتِهِ قَبْلَ الإِمَامِ أَنْ يُحَوِّلَ اللَّهُ صُورَتَهُ فِي صُورَةِ حِمَارٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ea3788c070a70e97410bb3306739d871d446e03ac75998dbec58e6d5f623fbf7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amr al-Naqid et Zuhayr ibn Harb nous ont rapporté : Isma‘il ibn Ibrahim nous a rapporté, d’après Yunus, d’après Muhammad ibn Ziyad, d’après Abu Hurayra, qui a dit : le Messager d’Allah ﷺ a dit : « Celui qui relève la tête avant l’imam pendant la prière ne craint-il pas qu’Allah transforme son apparence en celle d’un âne ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b88dee8a-652d-40e0-a660-b958149a04d0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:427c",
+      "reference": "Sahih Muslim, hadith 427 c, book 4, باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "title": "باب النَّهْىِ عَنْ سَبْقِ الإِمَامِ، بِرُكُوعٍ أَوْ سُجُودٍ وَنَحْوِهِمَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ سَلاَّمٍ الْجُمَحِيُّ، وَعَبْدُ الرَّحْمَنِ بْنُ الرَّبِيعِ بْنِ مُسْلِمٍ، جَمِيعًا عَنِ الرَّبِيعِ بْنِ مُسْلِمٍ، ح وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ حَمَّادِ بْنِ سَلَمَةَ، كُلُّهُمْ عَنْ مُحَمَّدِ بْنِ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا غَيْرَ أَنَّ فِي حَدِيثِ الرَّبِيعِ بْنِ مُسْلِمٍ ‏\"‏ أَنْ يَجْعَلَ اللَّهُ وَجْهَهُ وَجْهَ حِمَارٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "76c5422a119040b8fa5f546f9e1c89cd1b2194e5040ad99106833ed74539311c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "657cf0fc-ae3b-4118-a884-a320cdb5e087",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:428",
+      "reference": "Sahih Muslim, hadith 428, book 4, باب النَّهْىِ عَنْ رَفْعِ الْبَصَرِ، إِلَى السَّمَاءِ فِي الصَّلاَةِ ‏",
+      "title": "باب النَّهْىِ عَنْ رَفْعِ الْبَصَرِ، إِلَى السَّمَاءِ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنِ الْمُسَيَّبِ، عَنْ تَمِيمِ بْنِ طَرَفَةَ، عَنْ جَابِرِ بْنِ سَمُرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَيَنْتَهِيَنَّ أَقْوَامٌ يَرْفَعُونَ أَبْصَارَهُمْ إِلَى السَّمَاءِ فِي الصَّلاَةِ أَوْ لاَ تَرْجِعُ إِلَيْهِمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "24f8ab1ad099a881ba6f50137f10ee25924924b841cc756a443cb2a17ec3a834",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Abu Kurayb nous ont rapporté : Abu Muawiya nous a rapporté, d’après al-A‘mash, d’après al-Musayyib, d’après Tamim ibn Tarafa, d’après Jabir ibn Samura, qui a dit : le Messager d’Allah ﷺ a dit : « Que les gens cessent de lever les yeux vers le ciel pendant la prière, ou ils ne les récupéreront pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "410f643a-cd5c-4cc6-972a-a9eca741964e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:429",
+      "reference": "Sahih Muslim, hadith 429, book 4, باب النَّهْىِ عَنْ رَفْعِ الْبَصَرِ، إِلَى السَّمَاءِ فِي الصَّلاَةِ ‏",
+      "title": "باب النَّهْىِ عَنْ رَفْعِ الْبَصَرِ، إِلَى السَّمَاءِ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، وَعَمْرُو بْنُ سَوَّادٍ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، حَدَّثَنِي اللَّيْثُ بْنُ سَعْدٍ، عَنْ جَعْفَرِ بْنِ رَبِيعَةَ، عَنْ عَبْدِ الرَّحْمَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَيَنْتَهِيَنَّ أَقْوَامٌ عَنْ رَفْعِهِمْ أَبْصَارَهُمْ عِنْدَ الدُّعَاءِ فِي الصَّلاَةِ إِلَى السَّمَاءِ أَوْ لَتُخْطَفَنَّ أَبْصَارُهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9918e204f43f47bb9c04ab53df8e1d10592f5e80d4a6ab62ed839ce482d85384",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Tahir et Amr ibn Sawwad m’ont rapporté : Ibn Wahb nous a informés : al-Layth ibn Sa‘d m’a rapporté, d’après Ja‘far ibn Rabi‘a, d’après Abd al-Rahman al-A‘raj, d’après Abu Hurayra : le Messager d’Allah ﷺ a dit : « Que les gens cessent de lever les yeux vers le ciel lorsqu’ils invoquent Allah pendant la prière, ou leur vue leur sera arrachée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed7e8bec-7171-4716-9bd0-7980256aca8a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:430a",
+      "reference": "Sahih Muslim, hadith 430 a, book 4, باب الأَمْرِ بَالسُّكُونِ فِي الصَّلاَةِ وَالنَّهْيِ عَنِ الإِشَارَةِ بِالْيَدِ وَرَفْعِهَا عِنْدَ السَّلاَمِ وَإِتْمَامِ الصُّفُوفِ الأُوَلِ وَالتَّرَاصِّ فِيهَا وَالأَمْرِ بِالاِجْتِمَاعِ",
+      "title": "باب الأَمْرِ بَالسُّكُونِ فِي الصَّلاَةِ وَالنَّهْيِ عَنِ الإِشَارَةِ بِالْيَدِ وَرَفْعِهَا عِنْدَ السَّلاَمِ وَإِتْمَامِ الصُّفُوفِ الأُوَلِ وَالتَّرَاصِّ فِيهَا وَالأَمْرِ بِالاِجْتِمَاعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنِ الْمُسَيَّبِ بْنِ رَافِعٍ، عَنْ تَمِيمِ بْنِ طَرَفَةَ، عَنْ جَابِرِ بْنِ سَمُرَةَ، قَالَ خَرَجَ عَلَيْنَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ مَا لِي أَرَاكُمْ رَافِعِي أَيْدِيكُمْ كَأَنَّهَا أَذْنَابُ خَيْلٍ شُمْسٍ اسْكُنُوا فِي الصَّلاَةِ ‏\"‏ ‏.‏ قَالَ ثُمَّ خَرَجَ عَلَيْنَا فَرَآنَا حَلَقًا فَقَالَ ‏\"‏ مَا لِي أَرَاكُمْ عِزِينَ ‏\"‏ ‏.‏ قَالَ ثُمَّ خَرَجَ عَلَيْنَا فَقَالَ ‏\"‏ أَلاَ تَصُفُّونَ كَمَا تَصُفُّ الْمَلاَئِكَةُ عِنْدَ رَبِّهَا ‏\"‏ ‏.‏ فَقُلْنَا يَا رَسُولَ اللَّهِ وَكَيْفَ تَصُفُّ الْمَلاَئِكَةُ عِنْدَ رَبِّهَا قَالَ ‏\"‏ يُتِمُّونَ الصُّفُوفَ الأُوَلَ وَيَتَرَاصُّونَ فِي الصَّفِّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "363020441157e3582f8f83dfa68c47f5d74326f6b056f654b35c2b8b661ffc1f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Abu Kurayb nous ont rapporté : Abu Muawiya nous a rapporté, d’après al-A‘mash, d’après al-Musayyib ibn Rafi‘, d’après Tamim ibn Tarafa, d’après Jabir ibn Samura, qui a dit : le Messager d’Allah ﷺ sortit vers nous et dit : « Pourquoi vous vois-je lever les mains comme les queues de chevaux rétifs ? Restez tranquilles pendant la prière. » Puis il sortit vers nous et nous vit en petits groupes. Il dit : « Pourquoi vous vois-je dispersés ? » Puis il sortit vers nous et dit : « Ne vous alignez-vous pas comme les anges s’alignent devant leur Seigneur ? » Nous demandâmes : « Messager d’Allah, comment les anges s’alignent-ils devant leur Seigneur ? » Il répondit : « Ils complètent les premiers rangs et se serrent les uns contre les autres dans le rang. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b88dee8a-652d-40e0-a660-b958149a04d0",
+      "reason": "La source arabe rapporte une variante de formulation par rapport au récit complet précédent, sans répéter son texte. Garder la traduction en attente plutôt que de reconstruire le hadith."
+    }
+  ]
+}
