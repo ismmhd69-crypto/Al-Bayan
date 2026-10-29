@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5954,
+    "hadithBukhariDrafted": 5959,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5954,
+    "hadithLocalDrafted": 5959,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8675,
-    "hadithNeedsMo": 845,
+    "hadithLocalRemaining": 8670,
+    "hadithNeedsMo": 846,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -27330,6 +27330,28 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1294",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1294.json",
+      "sourceIds": [
+        "78a17127-21da-4195-914e-175d38ec3a39",
+        "77107798-fae3-4204-a51c-c9e452f444a9",
+        "6a5d64c0-ec6c-4455-b91a-e9e197d84f33",
+        "e7a254ac-fe9c-4c59-81d9-3edc6fc27e46",
+        "5809bac2-295d-4209-b575-7698761c9b32",
+        "d218019e-f416-4c6a-9763-52bec2344b2f"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "needsMo": 1,
+      "validation": "five complete drafts; source hashes retained; direct Quran 4:97 report left wholly blank under Needs Mo; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local drafts with one held item"
     }
   ],
   "blockers": [
@@ -30788,11 +30810,17 @@
       "scope": "Sahih al-Bukhari 7033: source introduces Ibn Abbas’s answer about a dream but contains no answer or dream report",
       "status": "blocked",
       "reason": "The source ends after introducing Ibn ‘Abbâs’s answer about the dream reported from the Messenger of Allah; the report itself is absent. Keep this record blank rather than filling it from a neighboring source."
+    },
+    {
+      "id": "HADITH-BUKHARI-7085-QURAN-4-97",
+      "scope": "Sahih al-Bukhari 7085: direct quotation of Quran 4:97",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:97. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5924,
-  "hadithLocalDrafted": 5924,
-  "hadithLocalRemaining": 8705,
+  "hadithBukhariDrafted": 5959,
+  "hadithLocalDrafted": 5959,
+  "hadithLocalRemaining": 8670,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -31393,6 +31421,12 @@
       "scope": "Sahih al-Bukhari 7033: source introduces Ibn Abbas’s answer about a dream but contains no answer or dream report",
       "status": "blocked",
       "reason": "The source ends after introducing Ibn ‘Abbâs’s answer about the dream reported from the Messenger of Allah; the report itself is absent. Keep this record blank rather than filling it from a neighboring source."
+    },
+    {
+      "id": "HADITH-BUKHARI-7085-QURAN-4-97",
+      "scope": "Sahih al-Bukhari 7085: direct quotation of Quran 4:97",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:97. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ]
 }
