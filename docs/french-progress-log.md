@@ -9121,3 +9121,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0398 saves four private French drafts about reports on mourning and grief. Muslim 933b and 933c only point back to an earlier report and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1566 Muslim drafts, 7902 total hadith drafts, 6727 remaining, and 743 Needs Mo items.
+
+### 2026-10-29: Muslim 935b–938b
+
+- FR-LIB-HAD-MUSLIM-0399 saves four private French drafts about mourning and funeral practices. Muslim 935b is an incomplete cross-reference; 937 quotes Quran directly. Both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1570 Muslim drafts, 7906 total hadith drafts, 6723 remaining, and 745 Needs Mo items.
