@@ -16236,6 +16236,28 @@
   "published": 0,
   "status": "local draft with holds"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-757",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-757.json",
+  "sourceIds": [
+    "9a41b15e-4c1c-4a7d-b6cf-9ba3d45fb1b9",
+    "5add014a-dd7b-4fae-bcd7-24ad63973ab4",
+    "0ef9ef18-48ed-42f2-9fe2-1e791dea5796",
+    "7f4d1938-9330-4ae3-936e-53ce13491a19",
+    "537f522d-666b-4597-8b15-a12f59373f2c",
+    "be37d4e4-9efc-4640-9328-d83c44fbcde3"
+  ],
+  "translated": 5,
+  "inserted": 0,
+  "preserved": 1,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -16639,8 +16661,16 @@
   "id": "HADITH-BUKHARI-4184-QURAN-33-21",
   "scope": "Sahih al-Bukhari 4184: direct quotation of Quran 33:21"
 }
+
+,
+    {
+  "id": "HADITH-BUKHARI-4191-QURAN-2-196",
+  "scope": "Sahih al-Bukhari 4191: direct quotation of Quran 2:196",
+  "status": "blocked",
+  "reason": "The report directly quotes Quran 2:196. It remains blank in FR-LIB-HAD-BUKHARI-757 until an approved, attributed French Quran translation is confirmed."
+}
   ],
-  "hadithBukhariDrafted": 3701,
-  "hadithLocalDrafted": 3701,
-  "hadithLocalRemaining": 10956
+  "hadithBukhariDrafted": 3706,
+  "hadithLocalDrafted": 3706,
+  "hadithLocalRemaining": 10951
 }
