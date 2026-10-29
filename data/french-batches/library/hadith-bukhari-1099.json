@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-BUKHARI-1099",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:01:57.384Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2cad76f3-6595-417e-8755-c755c315d8d2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6060",
+      "reference": "Sahih al-Bukhari, hadith 6060, book 78, باب مَا يُكْرَهُ مِنَ التَّمَادُحِ",
+      "title": "باب مَا يُكْرَهُ مِنَ التَّمَادُحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ صَبَّاحٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ زَكَرِيَّاءَ، حَدَّثَنَا بُرَيْدُ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي بُرْدَةَ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ سَمِعَ النَّبِيُّ صلى الله عليه وسلم رَجُلاً يُثْنِي عَلَى رَجُلٍ وَيُطْرِيهِ فِي الْمِدْحَةِ فَقَالَ ‏\"‏ أَهْلَكْتُمْ ـ أَوْ قَطَعْتُمْ ـ ظَهْرَ الرَّجُلِ ‏\"‏‏.‏",
+      "source_hash_sha256": "fd23329dc4e5255f6351c05040b755307ffeeb7fd999383051d3cc99a3b3ae48",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Sabbâh nous a rapporté : Ismâ‘îl ibn Zakariyyâ nous a rapporté : Burayd ibn ‘Abd Allâh ibn Abî Burda nous a rapporté, d’après Abû Burda, d’après Abû Mûsâ, qui a dit : « Le Prophète ﷺ entendit un homme faire l’éloge d’un autre et le louer avec insistance. Il dit : “Vous avez perdu cet homme — ou vous lui avez brisé le dos.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b6f15df5-1ee7-4914-9b1d-6abe1b542d0e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6061",
+      "reference": "Sahih al-Bukhari, hadith 6061, book 78, باب مَا يُكْرَهُ مِنَ التَّمَادُحِ",
+      "title": "باب مَا يُكْرَهُ مِنَ التَّمَادُحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، عَنْ خَالِدٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرَةَ، عَنْ أَبِيهِ، أَنَّ رَجُلاً، ذُكِرَ عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَأَثْنَى عَلَيْهِ رَجُلٌ خَيْرًا، فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ وَيْحَكَ قَطَعْتَ عُنُقَ صَاحِبِكَ ـ يَقُولُهُ مِرَارًا ـ إِنْ كَانَ أَحَدُكُمْ مَادِحًا لاَ مَحَالَةَ فَلْيَقُلْ أَحْسِبُ كَذَا وَكَذَا‏.‏ إِنْ كَانَ يُرَى أَنَّهُ كَذَلِكَ، وَحَسِيبُهُ اللَّهُ، وَلاَ يُزَكِّي عَلَى اللَّهِ أَحَدًا ‏\"‏‏.‏ قَالَ وُهَيْبٌ عَنْ خَالِدٍ ‏\"‏ وَيْلَكَ ‏\"‏‏.‏",
+      "source_hash_sha256": "318eda10a34cffa7a86023e15bc2382034df7a26637de3e90ffa1731762c2d2a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Âdam nous a rapporté : Shu‘ba nous a rapporté, d’après Khâlid, d’après ‘Abd ar-Rahmân ibn Abî Bakra, d’après son père, qu’un homme fut mentionné devant le Prophète ﷺ et qu’un autre en fit l’éloge. Le Prophète ﷺ dit : « Malheur à toi ! Tu as tranché le cou de ton compagnon ! » Il le répéta plusieurs fois, puis dit : « Si l’un de vous tient absolument à faire l’éloge de quelqu’un, qu’il dise : “Je pense qu’il est ainsi et ainsi”, s’il estime qu’il en est ainsi. Allah en est le garant, et nul ne doit déclarer quelqu’un pur devant Allah. » Wuhayb a transmis de Khâlid la variante : « Malheur à toi ! »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "79c3e0ea-7283-4a52-a166-0dba3033a3a7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6062",
+      "reference": "Sahih al-Bukhari, hadith 6062, book 78, باب مَنْ أَثْنَى عَلَى أَخِيهِ بِمَا يَعْلَمُ",
+      "title": "باب مَنْ أَثْنَى عَلَى أَخِيهِ بِمَا يَعْلَمُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا مُوسَى بْنُ عُقْبَةَ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حِينَ ذَكَرَ فِي الإِزَارِ مَا ذَكَرَ، قَالَ أَبُو بَكْرٍ يَا رَسُولَ اللَّهِ إِنَّ إِزَارِي يَسْقُطُ مِنْ أَحَدِ شِقَّيْهِ‏.‏ قَالَ ‏\"‏ إِنَّكَ لَسْتَ مِنْهُمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "08a6ed8b7c5977bb75daeb11d614a531158712519d6a800a75473cc2bed91e86",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Alî ibn ‘Abd Allâh nous a rapporté : Sufyân nous a rapporté : Mûsâ ibn ‘Uqba nous a rapporté, d’après Sâlim, d’après son père, que lorsque le Messager d’Allah ﷺ mentionna ce qu’il dit au sujet de l’izâr, Abû Bakr dit : « Ô Messager d’Allah, mon izâr glisse d’un côté. » Il répondit : « Tu ne fais pas partie d’eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

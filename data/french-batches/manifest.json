@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5067,
+    "hadithBukhariDrafted": 5070,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5067,
+    "hadithLocalDrafted": 5070,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9562,
+    "hadithLocalRemaining": 9559,
     "hadithNeedsMo": 761,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -23432,6 +23432,24 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1099",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1099.json",
+      "sourceIds": [
+        "2cad76f3-6595-417e-8755-c755c315d8d2",
+        "b6f15df5-1ee7-4914-9b1d-6abe1b542d0e",
+        "79c3e0ea-7283-4a52-a166-0dba3033a3a7"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Three records passed the focused validator; complex Bukhari 6063 split into its own one-record batch. No database writes.",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
