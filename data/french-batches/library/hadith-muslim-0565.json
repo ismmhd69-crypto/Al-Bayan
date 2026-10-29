@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-0565",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:09:14.656Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3dfb128d-3576-452b-8f98-6cdb84d9d35a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1277e",
+      "reference": "Sahih Muslim, hadith 1277 e, book 15, باب بَيَانِ أَنَّ السَّعْىَ بَيْنَ الصَّفَا وَالْمَرْوَةِ رُكْنٌ لاَ يَصِحُّ الْحَجُّ إِلاَّ بِهِ ‏",
+      "title": "باب بَيَانِ أَنَّ السَّعْىَ بَيْنَ الصَّفَا وَالْمَرْوَةِ رُكْنٌ لاَ يَصِحُّ الْحَجُّ إِلاَّ بِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، أَنَّ عَائِشَةَ، أَخْبَرَتْهُ أَنَّ الأَنْصَارَ كَانُوا قَبْلَ أَنْ يُسْلِمُوا هُمْ وَغَسَّانُ يُهِلُّونَ لِمَنَاةَ فَتَحَرَّجُوا أَنْ يَطُوفُوا بَيْنَ الصَّفَا وَالْمَرْوَةِ وَكَانَ ذَلِكَ سُنَّةً فِي آبَائِهِمْ مَنْ أَحْرَمَ لِمَنَاةَ لَمْ يَطُفْ بَيْنَ الصَّفَا وَالْمَرْوَةِ وَإِنَّهُمْ سَأَلُوا رَسُولَ اللَّهِ صلى الله عليه وسلم عَنْ ذَلِكَ حِينَ أَسْلَمُوا فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ فِي ذَلِكَ ‏[quran sura=\"2\" aya_start=\"158\" aya_end=\"158\"]{‏ إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلاَ جُنَاحَ عَلَيْهِ أَنْ يَطَّوَّفَ بِهِمَا وَمَنْ تَطَوَّعَ خَيْرًا فَإِنَّ اللَّهَ شَاكِرٌ عَلِيمٌ‏}‏",
+      "source_hash_sha256": "240fc44155f400aba9f27d42b4ab395da81a1e6f7cb46313a521c1693f621a9d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "af289f83-461b-4215-8185-a71ec8581be7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1278",
+      "reference": "Sahih Muslim, hadith 1278, book 15, باب بَيَانِ أَنَّ السَّعْىَ بَيْنَ الصَّفَا وَالْمَرْوَةِ رُكْنٌ لاَ يَصِحُّ الْحَجُّ إِلاَّ بِهِ ‏",
+      "title": "باب بَيَانِ أَنَّ السَّعْىَ بَيْنَ الصَّفَا وَالْمَرْوَةِ رُكْنٌ لاَ يَصِحُّ الْحَجُّ إِلاَّ بِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنْ عَاصِمٍ، عَنْ أَنَسٍ، قَالَ كَانَتِ الأَنْصَارُ يَكْرَهُونَ أَنْ يَطُوفُوا بَيْنَ الصَّفَا وَالْمَرْوَةِ حَتَّى نَزَلَتْ ‏[quran sura=\"2\" aya_start=\"158\" aya_end=\"158\"]{‏ إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلاَ جُنَاحَ عَلَيْهِ أَنْ يَطَّوَّفَ بِهِمَا‏}‏",
+      "source_hash_sha256": "25cadb9266f392659ba9c393bdea5ce06487160edf749b1cb21e2fdc1f05220f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "1430151c-cb96-4242-840a-993ff2c9df55",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1279a",
+      "reference": "Sahih Muslim, hadith 1279 a, book 15, باب بَيَانِ أَنَّ السَّعْىَ لاَ يُكَرَّرُ ‏",
+      "title": "باب بَيَانِ أَنَّ السَّعْىَ لاَ يُكَرَّرُ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ لَمْ يَطُفِ النَّبِيُّ صلى الله عليه وسلم وَلاَ أَصْحَابُهُ بَيْنَ الصَّفَا وَالْمَرْوَةِ إِلاَّ طَوَافًا وَاحِدًا ‏.‏",
+      "source_hash_sha256": "4104d7e9e6b59326c724662d68c5208e125b3e9cff5f6beacfc6478d1fb49321",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim m'a rapporté : Yahya ibn Said nous a rapporté, d'après Ibn Jurayj. Abu al-Zubayr m'a informé avoir entendu Jabir ibn Abdullah dire : Le Prophète ﷺ et ses compagnons n'accomplirent le parcours entre Safa et Marwa qu'une seule fois.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "395fda50-48ba-4cb6-8679-79db754e71c4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1279b",
+      "reference": "Sahih Muslim, hadith 1279 b, book 15, باب بَيَانِ أَنَّ السَّعْىَ لاَ يُكَرَّرُ ‏",
+      "title": "باب بَيَانِ أَنَّ السَّعْىَ لاَ يُكَرَّرُ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ وَقَالَ إِلاَّ طَوَافًا وَاحِدًا طَوَافَهُ الأَوَّلَ ‏.‏",
+      "source_hash_sha256": "741c195a2c7f52771171e092d02f676ee5eae8b5d4a3554fd3fa4e2c5c3ee329",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source ne donne qu’une chaîne de transmission et renvoie au récit précédent (« semblable à celui-ci »), avec une précision sur la première circumambulation sans reprendre le récit complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "0decdc89-82f2-4dbe-9a69-2cc91507ea8f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1280",
+      "reference": "Sahih Muslim, hadith 1280, 1281a, book 15, باب اسْتِحْبَابِ إِدَامَةِ الْحَاجِّ التَّلْبِيَةَ حَتَّى يَشْرَعَ فِي رَمْىِ جَمْرَةِ الْعَقَبَةِ يَوْمَ النَّحْرِ",
+      "title": "باب اسْتِحْبَابِ إِدَامَةِ الْحَاجِّ التَّلْبِيَةَ حَتَّى يَشْرَعَ فِي رَمْىِ جَمْرَةِ الْعَقَبَةِ يَوْمَ النَّحْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، ح. وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - قَالَ أَخْبَرَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، عَنْ مُحَمَّدِ بْنِ، أَبِي حَرْمَلَةَ عَنْ كُرَيْبٍ، مَوْلَى ابْنِ عَبَّاسٍ عَنْ أُسَامَةَ بْنِ زَيْدٍ، قَالَ رَدِفْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم مِنْ عَرَفَاتٍ فَلَمَّا بَلَغَ رَسُولُ اللَّهِ صلى الله عليه وسلم الشِّعْبَ الأَيْسَرَ الَّذِي دُونَ الْمُزْدَلِفَةِ أَنَاخَ فَبَالَ ثُمَّ جَاءَ فَصَبَبْتُ عَلَيْهِ الْوَضُوءَ فَتَوَضَّأَ وُضُوءًا خَفِيفًا ثُمَّ قُلْتُ الصَّلاَةَ يَا رَسُولَ اللَّهِ ‏.‏ فَقَالَ ‏\"‏ الصَّلاَةُ أَمَامَكَ ‏\"‏ ‏.‏ فَرَكِبَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَتَّى أَتَى الْمُزْدَلِفَةَ فَصَلَّى ثُمَّ رَدِفَ الْفَضْلُ رَسُولَ اللَّهِ صلى الله عليه وسلم غَدَاةَ جَمْعٍ. قَالَ كُرَيْبٌ فَأَخْبَرَنِي عَبْدُ اللَّهِ بْنُ عَبَّاسٍ، عَنِ الْفَضْلِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم لَمْ يَزَلْ يُلَبِّي حَتَّى بَلَغَ الْجَمْرَةَ ‏.‏",
+      "source_hash_sha256": "d4cf4da8c432120966a76f786586c6c11b07428225747c9f1f0eaaafdbbe4d77",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Ayyub, Qutayba ibn Said et Ibn Hujr nous ont rapporté : ils ont dit qu'Ismail nous avait rapporté. Et Yahya ibn Yahya nous a rapporté — la formulation est la sienne — : Ismail ibn Jafar nous a informés, d'après Muhammad ibn Abi Harmala, d'après Kurayb, l'affranchi d'Ibn Abbas, d'après Usama ibn Zayd, qui a dit : Je montai derrière le Messager d'Allah ﷺ depuis Arafat. Lorsque le Messager d'Allah ﷺ atteignit le ravin situé avant Muzdalifa, il s'arrêta et urina. Puis il revint et je versai de l'eau pour ses ablutions ; il fit des ablutions légères. Je lui dis : « La prière, ô Messager d'Allah ! » Il répondit : « La prière est devant toi. » Le Messager d'Allah ﷺ remonta alors et poursuivit jusqu'à Muzdalifa, où il pria. Au matin de Jam, al-Fadl monta derrière le Messager d'Allah ﷺ. Kurayb a dit : Abdullah ibn Abbas m'a rapporté, d'après al-Fadl, que le Messager d'Allah ﷺ ne cessa de réciter la talbiya jusqu'à atteindre la stèle.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fb553889-4378-40b2-9392-3a596d54364d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1280b",
+      "reference": "Sahih Muslim, hadith 1280 b, book 15, باب الإِفَاضَةِ مِنْ عَرَفَاتٍ إِلَى الْمُزْدَلِفَةِ وَاسْتِحْبَابِ صَلاَتَىِ الْمَغْرِبِ وَالْعِشَاءِ جَمْعًا بِالْمُزْدَلِفَةِ فِي هَذِهِ اللَّيْلَةِ",
+      "title": "باب الإِفَاضَةِ مِنْ عَرَفَاتٍ إِلَى الْمُزْدَلِفَةِ وَاسْتِحْبَابِ صَلاَتَىِ الْمَغْرِبِ وَالْعِشَاءِ جَمْعًا بِالْمُزْدَلِفَةِ فِي هَذِهِ اللَّيْلَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ مُوسَى بْنِ عُقْبَةَ، عَنْ كُرَيْبٍ، مَوْلَى ابْنِ عَبَّاسٍ عَنْ أُسَامَةَ بْنِ زَيْدٍ، أَنَّهُ سَمِعَهُ يَقُولُ دَفَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنْ عَرَفَةَ حَتَّى إِذَا كَانَ بِالشِّعْبِ نَزَلَ فَبَالَ ثُمَّ تَوَضَّأَ وَلَمْ يُسْبِغِ الْوُضُوءَ فَقُلْتُ لَهُ الصَّلاَةَ ‏.‏ قَالَ ‏\"‏ الصَّلاَةُ أَمَامَكَ ‏\"‏ ‏.‏ فَرَكِبَ فَلَمَّا جَاءَ الْمُزْدَلِفَةَ نَزَلَ فَتَوَضَّأَ فَأَسْبَغَ الْوُضُوءَ ثُمَّ أُقِيمَتِ الصَّلاَةُ فَصَلَّى الْمَغْرِبَ ثُمَّ أَنَاخَ كُلُّ إِنْسَانٍ بَعِيرَهُ فِي مَنْزِلِهِ ثُمَّ أُقِيمَتِ الْعِشَاءُ فَصَلاَّهَا وَلَمْ يُصَلِّ بَيْنَهُمَا شَيْئًا.",
+      "source_hash_sha256": "a4dd98b18eabb6c3c2cfec148c51ee36cc18bd9f6a9577bb2a78a4376c1db49d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : J'ai lu devant Malik, d'après Musa ibn Uqba, d'après Kurayb, l'affranchi d'Ibn Abbas, d'après Usama ibn Zayd, qui l'a entendu dire : Le Messager d'Allah ﷺ quitta Arafat. Arrivé au ravin, il descendit, urina puis fit ses ablutions sans les accomplir complètement. Je lui dis : « La prière ! » Il répondit : « La prière est devant toi. » Il remonta. Lorsqu'il arriva à Muzdalifa, il descendit et fit ses ablutions complètement. Puis l'appel à la prière fut prononcé et il accomplit la prière du maghrib. Chacun fit ensuite agenouiller son chameau à son emplacement. Puis l'appel à la prière de isha fut prononcé et il l'accomplit. Il ne fit aucune prière entre les deux.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "3dfb128d-3576-452b-8f98-6cdb84d9d35a",
+      "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "af289f83-461b-4215-8185-a71ec8581be7",
+      "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "395fda50-48ba-4cb6-8679-79db754e71c4",
+      "reason": "La source ne donne qu’une chaîne de transmission et renvoie au récit précédent (« semblable à celui-ci »), avec une précision sur la première circumambulation sans reprendre le récit complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

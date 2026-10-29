@@ -9951,3 +9951,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0564 saves one private French draft for Muslim 1275. Muslim 1276 quotes Quran 52:1–2, and Muslim 1277a–d quote Quran 2:158; those five records remain entirely blank under Needs Mo until an approved attributed French Quran translation and usage permission are confirmed.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1277e–1280b
+
+- FR-LIB-HAD-MUSLIM-0565 saves three private French drafts about the Sa‘i and the Prophet’s journey from Arafat to Muzdalifa. Muslim 1277e and 1278 quote Quran 2:158; 1279b is an incomplete variant. Those three remain entirely blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

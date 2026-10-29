@@ -40682,6 +40682,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0565",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0565.json",
+      "sourceIds": [
+        "3dfb128d-3576-452b-8f98-6cdb84d9d35a",
+        "af289f83-461b-4215-8185-a71ec8581be7",
+        "1430151c-cb96-4242-840a-993ff2c9df55",
+        "395fda50-48ba-4cb6-8679-79db754e71c4",
+        "0decdc89-82f2-4dbe-9a69-2cc91507ea8f",
+        "fb553889-4378-40b2-9392-3a596d54364d"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished AI drafts, two Quran quotations and one incomplete variant held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44989,8 +45010,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8571,
-  "hadithLocalRemaining": 6058,
+  "hadithLocalDrafted": 8574,
+  "hadithLocalRemaining": 6055,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48567,10 +48588,25 @@
       "source_id": "570c352a-498e-4216-a65d-f266a33ea7fd",
       "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
       "status": "blocked"
+    },
+    {
+      "source_id": "3dfb128d-3576-452b-8f98-6cdb84d9d35a",
+      "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "af289f83-461b-4215-8185-a71ec8581be7",
+      "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "395fda50-48ba-4cb6-8679-79db754e71c4",
+      "reason": "La source ne donne qu’une chaîne de transmission et renvoie au récit précédent (« semblable à celui-ci »), avec une précision sur la première circumambulation sans reprendre le récit complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2235,
+  "hadithMuslimDrafted": 2238,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1008
+  "hadithNeedsMo": 1011
 }
