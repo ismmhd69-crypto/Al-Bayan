@@ -9906,3 +9906,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0555 saves four private French drafts about the Prophet’s pilgrimage rites and the number and timing of his omras. Muslim 1250b and 1252b are incomplete variants and remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1253a–1255a
+
+- FR-LIB-HAD-MUSLIM-0556 saves five private French drafts about the number of the Prophet’s Hajj campaigns and omras. Muslim 1253a only refers to a preceding report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
