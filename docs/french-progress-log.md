@@ -5858,3 +5858,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1144 saves four private French drafts. Bukhari 6215 and 6217 remain blank because they directly quote Quran 3:190 and 92:5; both await approved, attributed French Quran wording and permission to use it.
 - The four drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,208 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 768. Total local hadith rows not drafted: 9,419, including held records.
+
+### 2026-10-29: Bukhari 6220–6225
+
+- FR-LIB-HAD-BUKHARI-1145 saves six private French drafts about manners, sneezing, and the prohibited pebble game. No database writes or publication occurred. Bukhari local drafts: 5,214 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 768. Total local hadith rows not drafted: 9,413, including held records.
