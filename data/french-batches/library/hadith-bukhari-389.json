@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-BUKHARI-389",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:36:35.056Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d770c126-a7a6-41b5-801d-851be1930ff6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2273",
+      "reference": "Sahih al-Bukhari, hadith 2273, book 37, باب مَنْ آجَرَ نَفْسَهُ لِيَحْمِلَ عَلَى ظَهْرِهِ. ثُمَّ تَصَدَّقَ بِهِ وَأُجْرَةِ الْحَمَّالِ",
+      "title": "باب مَنْ آجَرَ نَفْسَهُ لِيَحْمِلَ عَلَى ظَهْرِهِ. ثُمَّ تَصَدَّقَ بِهِ وَأُجْرَةِ الْحَمَّالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ يَحْيَى بْنِ سَعِيدٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، عَنْ شَقِيقٍ، عَنْ أَبِي مَسْعُودٍ الأَنْصَارِيِّ ـ رضى الله عنه ـ قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا أَمَرَ بِالصَّدَقَةِ انْطَلَقَ أَحَدُنَا إِلَى السُّوقِ فَيُحَامِلُ فَيُصِيبُ الْمُدَّ، وَإِنَّ لِبَعْضِهِمْ لَمِائَةَ أَلْفٍ، قَالَ مَا نُرَاهُ إِلاَّ نَفْسَهُ‏.‏",
+      "source_hash_sha256": "7636c76c413966ad71c3004468f4397509769d7b3c80e881de0a482d160edbd2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Sa‘îd ibn Yahyâ ibn Sa‘îd, son père, al-A‘mash, Shaqîq et Abû Mas‘ûd al-Ansârî.\n\nAbû Mas‘ûd rapporte : Lorsque le Messager d’Allah ordonnait de faire l’aumône, l’un de nous partait au marché, portait des charges et obtenait ainsi un mudd. Pourtant, certains possédaient cent mille. Il voulait parler de lui-même.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d86d5e2b-296a-4453-8d2e-5a0c6c3e836b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2274",
+      "reference": "Sahih al-Bukhari, hadith 2274, book 37, باب أَجْرِ السَّمْسَرَةِ",
+      "title": "باب أَجْرِ السَّمْسَرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، حَدَّثَنَا مَعْمَرٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يُتَلَقَّى الرُّكْبَانُ، وَلاَ يَبِيعَ حَاضِرٌ لِبَادٍ‏.‏ قُلْتُ يَا ابْنَ عَبَّاسٍ مَا قَوْلُهُ لاَ يَبِيعُ حَاضِرٌ لِبَادٍ قَالَ لاَ يَكُونُ لَهُ سِمْسَارًا‏.‏",
+      "source_hash_sha256": "52a9db6caa8c4a09e5de57f5e3007b55eb529de7a9a6546d01481cbad94d9e6d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Musaddad, ‘Abd al-Wâhid, Ma‘mar, Ibn Tâwûs, son père et Ibn ‘Abbâs.\n\nLe Messager d’Allah a interdit d’aller à la rencontre des caravanes avant qu’elles n’arrivent au marché, ainsi que pour un citadin de vendre pour le compte d’un bédouin. Je demandai à Ibn ‘Abbâs : « Que signifie : “Un citadin ne vend pas pour un bédouin” ? » Il répondit : « Il ne doit pas agir comme son courtier. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b1717b26-3c70-40fe-92fd-0343da4271c4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2275",
+      "reference": "Sahih al-Bukhari, hadith 2275, book 37, باب هَلْ يُؤَاجِرُ الرَّجُلُ نَفْسَهُ مِنْ مُشْرِكٍ فِي أَرْضِ الْحَرْبِ",
+      "title": "باب هَلْ يُؤَاجِرُ الرَّجُلُ نَفْسَهُ مِنْ مُشْرِكٍ فِي أَرْضِ الْحَرْبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، عَنْ مُسْلِمٍ، عَنْ مَسْرُوقٍ، حَدَّثَنَا خَبَّابٌ، قَالَ كُنْتُ رَجُلاً قَيْنًا فَعَمِلْتُ لِلْعَاصِ بْنِ وَائِلٍ فَاجْتَمَعَ لِي عِنْدَهُ فَأَتَيْتُهُ أَتَقَاضَاهُ فَقَالَ لاَ وَاللَّهِ لاَ أَقْضِيكَ حَتَّى تَكْفُرَ بِمُحَمَّدٍ‏.‏ فَقُلْتُ أَمَا وَاللَّهِ حَتَّى تَمُوتَ ثُمَّ تُبْعَثَ فَلاَ‏.‏ قَالَ وَإِنِّي لَمَيِّتٌ ثُمَّ مَبْعُوثٌ قُلْتُ نَعَمْ‏.‏ قَالَ فَإِنَّهُ سَيَكُونُ لِي ثَمَّ مَالٌ وَوَلَدٌ فَأَقْضِيكَ‏.‏ فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"19\" aya_start=\"77\" aya_end=\"80\"]{‏أَفَرَأَيْتَ الَّذِي كَفَرَ بِآيَاتِنَا وَقَالَ لأُوتَيَنَّ مَالاً وَوَلَدًا‏}‏",
+      "source_hash_sha256": "85d3c02fd0e1b6798fbb95799e873b4250a4d35374f284aabd615e93d09bbc65",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9cc17f13-da6e-4c83-a46c-689a889620ef",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2276",
+      "reference": "Sahih al-Bukhari, hadith 2276, book 37, باب مَا يُعْطَى فِي الرُّقْيَةِ عَلَى أَحْيَاءِ الْعَرَبِ بِفَاتِحَةِ الْكِتَابِ",
+      "title": "باب مَا يُعْطَى فِي الرُّقْيَةِ عَلَى أَحْيَاءِ الْعَرَبِ بِفَاتِحَةِ الْكِتَابِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو النُّعْمَانِ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ أَبِي الْمُتَوَكِّلِ، عَنْ أَبِي سَعِيدٍ ـ رضى الله عنه ـ قَالَ انْطَلَقَ نَفَرٌ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم فِي سَفْرَةٍ سَافَرُوهَا حَتَّى نَزَلُوا عَلَى حَىٍّ مِنْ أَحْيَاءِ الْعَرَبِ فَاسْتَضَافُوهُمْ، فَأَبَوْا أَنْ يُضَيِّفُوهُمْ، فَلُدِغَ سَيِّدُ ذَلِكَ الْحَىِّ، فَسَعَوْا لَهُ بِكُلِّ شَىْءٍ لاَ يَنْفَعُهُ شَىْءٌ، فَقَالَ بَعْضُهُمْ لَوْ أَتَيْتُمْ هَؤُلاَءِ الرَّهْطَ الَّذِينَ نَزَلُوا لَعَلَّهُ أَنْ يَكُونَ عِنْدَ بَعْضِهِمْ شَىْءٌ، فَأَتَوْهُمْ، فَقَالُوا يَا أَيُّهَا الرَّهْطُ، إِنَّ سَيِّدَنَا لُدِغَ، وَسَعَيْنَا لَهُ بِكُلِّ شَىْءٍ لاَ يَنْفَعُهُ، فَهَلْ عِنْدَ أَحَدٍ مِنْكُمْ مِنْ شَىْءٍ فَقَالَ بَعْضُهُمْ نَعَمْ وَاللَّهِ إِنِّي لأَرْقِي، وَلَكِنْ وَاللَّهِ لَقَدِ اسْتَضَفْنَاكُمْ فَلَمْ تُضِيِّفُونَا، فَمَا أَنَا بِرَاقٍ لَكُمْ حَتَّى تَجْعَلُوا لَنَا جُعْلاً‏.‏ فَصَالَحُوهُمْ عَلَى قَطِيعٍ مِنَ الْغَنَمِ، فَانْطَلَقَ يَتْفِلُ عَلَيْهِ وَيَقْرَأُ ‏[quran sura=\"1\" aya_start=\"2\" aya_end=\"2\"]{‏الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ‏}‏ فَكَأَنَّمَا نُشِطَ مِنْ عِقَالٍ، فَانْطَلَقَ يَمْشِي وَمَا بِهِ قَلَبَةٌ، قَالَ فَأَوْفَوْهُمْ جُعْلَهُمُ الَّذِي صَالَحُوهُمْ عَلَيْهِ، فَقَالَ بَعْضُهُمُ اقْسِمُوا‏.‏ فَقَالَ الَّذِي رَقَى لاَ تَفْعَلُوا، حَتَّى نَأْتِيَ النَّبِيَّ صلى الله عليه وسلم فَنَذْكُرَ لَهُ الَّذِي كَانَ، فَنَنْظُرَ مَا يَأْمُرُنَا‏.‏ فَقَدِمُوا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرُوا لَهُ، فَقَالَ ‏\"‏ وَمَا يُدْرِيكَ أَنَّهَا رُقْيَةٌ ـ ثُمَّ قَالَ ـ قَدْ أَصَبْتُمُ اقْسِمُوا وَاضْرِبُوا لِي مَعَكُمْ سَهْمًا ‏\"‏‏.‏ فَضَحِكَ رَسُولُ اللَّهِ صلى الله عليه وسلم‏.‏ وَقَالَ شُعْبَةُ حَدَّثَنَا أَبُو بِشْرٍ سَمِعْتُ أَبَا الْمُتَوَكِّلِ بِهَذَا‏.‏",
+      "source_hash_sha256": "fb75ed0e54d5deede743a802ed429d73f51a277a9c714d671e636f26f8f66189",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9f85623f-b03a-4067-a7b3-9c275bfd94ca",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2277",
+      "reference": "Sahih al-Bukhari, hadith 2277, book 37, باب ضَرِيبَةِ الْعَبْدِ، وَتَعَاهُدِ ضَرَائِبِ الإِمَاءِ",
+      "title": "باب ضَرِيبَةِ الْعَبْدِ، وَتَعَاهُدِ ضَرَائِبِ الإِمَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ حُمَيْدٍ الطَّوِيلِ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ قَالَ حَجَمَ أَبُو طَيْبَةَ النَّبِيَّ صلى الله عليه وسلم، فَأَمَرَ لَهُ بِصَاعٍ أَوْ صَاعَيْنِ مِنْ طَعَامٍ، وَكَلَّمَ مَوَالِيَهُ فَخَفَّفَ عَنْ غَلَّتِهِ أَوْ ضَرِيبَتِهِ‏.‏",
+      "source_hash_sha256": "cf065e35cbd9823afcc8d4872b173e390ce199b5e91246f3de3e6ef9ce613a69",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Yûsuf, Sufyân, Humayd al-Tawîl et Anas ibn Mâlik.\n\nAnas rapporte : Abû Tayba fit une saignée au Prophète. Celui-ci lui fit donner un ou deux sâ‘ de nourriture et parla à ses maîtres pour alléger le montant de son prélèvement ou de sa redevance.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f796fd03-fe71-497b-8131-bcb6619a3879",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2278",
+      "reference": "Sahih al-Bukhari, hadith 2278, book 37, باب خَرَاجِ الْحَجَّامِ",
+      "title": "باب خَرَاجِ الْحَجَّامِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا ابْنُ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ احْتَجَمَ النَّبِيُّ صلى الله عليه وسلم، وَأَعْطَى الْحَجَّامَ أَجْرَهُ‏.‏",
+      "source_hash_sha256": "30bc58d4bdb11d4052411886d813a21689a8eec3b7244d0b89feefa60ece4848",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Mûsâ ibn Ismâ‘îl, Wuhayb, Ibn Tâwûs, son père et Ibn ‘Abbâs.\n\nIbn ‘Abbâs rapporte : Le Prophète se fit faire une saignée et en paya l’opérateur.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b1717b26-3c70-40fe-92fd-0343da4271c4",
+      "reason": "This report directly quotes Quran 19:77–80. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "9cc17f13-da6e-4c83-a46c-689a889620ef",
+      "reason": "This report directly quotes Quran 1:2. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
