@@ -9881,3 +9881,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0550 isolates the 2,322-character report in its own batch and saves one private French draft on whether a pilgrim may leave ihram after tawaf. No direct Quran quotation was found.
 - The source hash is retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1236a–1239a
+
+- FR-LIB-HAD-MUSLIM-0551 saves four private French drafts about Asma’s account of the Hajj and Ibn Abbas’s ruling on tamattu. Muslim 1236b and 1238b are incomplete variants and remain blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.

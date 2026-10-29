@@ -40388,6 +40388,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0551",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0551.json",
+      "sourceIds": [
+        "11162bb7-6636-419b-9587-892460af5221",
+        "82c98af9-7bae-48e3-8ef4-faf1f39f4c2a",
+        "d40dd05f-0904-45e1-9685-f060f20a9060",
+        "966ead11-6dd9-4a23-8e19-4af8dc62376a",
+        "419df6c6-f48f-482a-b950-14993d39e6ad",
+        "9774acd5-99e6-4553-acfb-a81f098fed2f"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; source hashes and IDs preserved; four private unpublished drafts; two incomplete variants held blank under Needs Mo; rights flags and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44695,8 +44716,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8504,
-  "hadithLocalRemaining": 6125,
+  "hadithLocalDrafted": 8508,
+  "hadithLocalRemaining": 6121,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48188,10 +48209,20 @@
       "source_id": "cd5a01c6-de60-4016-a959-5efe15c86aba",
       "reason": "La source ne reprend que la chaîne de transmission et renvoie au récit d’Ibn Uyayna sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "82c98af9-7bae-48e3-8ef4-faf1f39f4c2a",
+      "reason": "La source renvoie au récit précédent ou ne donne que des variantes d’isnad et de formulation, sans reprendre un récit complet. Garder toute la traduction française vide jusqu’à disponibilité du contenu intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "419df6c6-f48f-482a-b950-14993d39e6ad",
+      "reason": "La source renvoie au récit précédent ou ne donne que des variantes d’isnad et de formulation, sans reprendre un récit complet. Garder toute la traduction française vide jusqu’à disponibilité du contenu intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2168,
+  "hadithMuslimDrafted": 2172,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 991
+  "hadithNeedsMo": 993
 }
