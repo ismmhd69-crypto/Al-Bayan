@@ -37805,6 +37805,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0426",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0426.json",
+      "sourceIds": [
+        "287ee860-1b3c-4d0b-9a6f-34ff9948e5e0",
+        "a0e3fa04-084e-4661-893c-c3d21908744d",
+        "6050c449-bc3f-4a43-a0ea-ba2745571c89",
+        "8d4e3913-a390-49cf-a104-c17eb84160ad",
+        "f5b744c8-1f17-40df-8a90-3de6adc96a2b",
+        "86c76e51-9f61-4ad4-9efd-d85496a1a0b3"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete cross-references held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42112,8 +42133,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8003,
-  "hadithLocalRemaining": 6626,
+  "hadithLocalDrafted": 8007,
+  "hadithLocalRemaining": 6622,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -44970,10 +44991,20 @@
       "source_id": "9458df7f-56be-4075-930d-e2b2b3e6a198",
       "reason": "La source ne fournit que des chaînes alternatives et renvoie au récit précédent sans en reprendre le texte intégral. Garder la traduction française vide jusqu’à disponibilité du texte complet.",
       "status": "blocked"
+    },
+    {
+      "source_id": "6050c449-bc3f-4a43-a0ea-ba2745571c89",
+      "reason": "La source renvoie au récit de Waki‘ sans en reprendre le texte intégral et ajoute seulement une variante de formulation. Garder la traduction française vide jusqu’à disponibilité du récit complet correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f5b744c8-1f17-40df-8a90-3de6adc96a2b",
+      "reason": "La source ne reprend que la chaîne de transmission et renvoie au récit précédent par « la même chose », sans en rapporter le contenu. Garder la traduction française vide jusqu’à disponibilité du texte complet.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1667,
+  "hadithMuslimDrafted": 1671,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 783
+  "hadithNeedsMo": 785
 }
