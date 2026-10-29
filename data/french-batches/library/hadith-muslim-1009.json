@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1009",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:49:14.303Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f2ec909b-d637-433e-bc15-0b11c865cb9a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2128b",
+      "reference": "Sahih Muslim, hadith 2128 b, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ صِنْفَانِ مِنْ أَهْلِ النَّارِ لَمْ أَرَهُمَا قَوْمٌ مَعَهُمْ سِيَاطٌ كَأَذْنَابِ الْبَقَرِ يَضْرِبُونَ بِهَا النَّاسَ وَنِسَاءٌ كَاسِيَاتٌ عَارِيَاتٌ مُمِيلاَتٌ مَائِلاَتٌ رُءُوسُهُنَّ كَأَسْنِمَةِ الْبُخْتِ الْمَائِلَةِ لاَ يَدْخُلْنَ الْجَنَّةَ وَلاَ يَجِدْنَ رِيحَهَا وَإِنَّ رِيحَهَا لَتُوجَدُ مِنْ مَسِيرَةِ كَذَا وَكَذَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9d23e908f0df5e48eb04fe18932b5dac9c9d1c5436ce43e4195cc2cd387e0500",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah (ﷺ) a dit : « Il y a deux catégories des gens de l’Enfer que je n’ai pas encore vues : des gens qui portent des fouets semblables à des queues de vaches et frappent les gens avec ; et des femmes vêtues mais dénudées, qui inclinent les autres et s’inclinent elles-mêmes, dont les têtes ressemblent aux bosses penchées de chameaux à deux bosses. Elles n’entreront pas au Paradis et n’en sentiront pas l’odeur, alors que son odeur se perçoit à une telle distance. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8d305dac-330a-4c5f-aa64-66df51be6502",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2129",
+      "reference": "Sahih Muslim, hadith 2129, book 37, باب النَّهْىِ عَنِ التَّزْوِيرِ، فِي اللِّبَاسِ وَغَيْرِهِ وَالتَّشَبُّعِ بِمَا لَمْ يُعْطَ ‏.‏",
+      "title": "باب النَّهْىِ عَنِ التَّزْوِيرِ، فِي اللِّبَاسِ وَغَيْرِهِ وَالتَّشَبُّعِ بِمَا لَمْ يُعْطَ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا وَكِيعٌ، وَعَبْدَةُ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّ امْرَأَةً، قَالَتْ يَا رَسُولَ اللَّهِ أَقُولُ إِنَّ زَوْجِي أَعْطَانِي مَا لَمْ يُعْطِنِي فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْمُتَشَبِّعُ بِمَا لَمْ يُعْطَ كَلاَبِسِ ثَوْبَىْ زُورٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0ca7a740f3382e1d0512b50d7e231d6d5596d7528894b2914b453480d4f04f42",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Une femme dit : « Ô Messager d’Allah, puis-je prétendre que mon mari m’a donné ce qu’il ne m’a pas donné ? » Le Messager d’Allah (ﷺ) répondit : « Celui qui prétend avoir reçu ce qu’il n’a pas reçu est comme quelqu’un qui porte deux vêtements de mensonge. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e364a090-413c-464b-bad2-c190a3503467",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2130a",
+      "reference": "Sahih Muslim, hadith 2130 a, book 37, باب النَّهْىِ عَنِ التَّزْوِيرِ، فِي اللِّبَاسِ وَغَيْرِهِ وَالتَّشَبُّعِ بِمَا لَمْ يُعْطَ ‏.‏",
+      "title": "باب النَّهْىِ عَنِ التَّزْوِيرِ، فِي اللِّبَاسِ وَغَيْرِهِ وَالتَّشَبُّعِ بِمَا لَمْ يُعْطَ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا عَبْدَةُ، حَدَّثَنَا هِشَامٌ، عَنْ فَاطِمَةَ، عَنْ أَسْمَاءَ، جَاءَتِ امْرَأَةٌ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَتْ إِنَّ لِي ضَرَّةً فَهَلْ عَلَىَّ جُنَاحٌ أَنْ أَتَشَبَّعَ مِنْ مَالِ زَوْجِي بِمَا لَمْ يُعْطِنِي فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْمُتَشَبِّعُ بِمَا لَمْ يُعْطَ كَلاَبِسِ ثَوْبَىْ زُورٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "96f881a63f8c8a4ad9ea5b95cf829e80fa7cb27fbcd118966e8ea781d60b3e8c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Une femme vint voir le Prophète (ﷺ) et lui dit : « J’ai une coépouse. Y a-t-il un mal à prétendre que mon mari m’a donné de ses biens ce qu’il ne m’a pas donné ? » Le Messager d’Allah (ﷺ) répondit : « Celui qui prétend avoir reçu ce qu’il n’a pas reçu est comme quelqu’un qui porte deux vêtements de mensonge. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c2a59e8c-5276-42b5-bdfd-e01a723fce60",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2130b",
+      "reference": "Sahih Muslim, hadith 2130 b, book 37, باب النَّهْىِ عَنِ التَّزْوِيرِ، فِي اللِّبَاسِ وَغَيْرِهِ وَالتَّشَبُّعِ بِمَا لَمْ يُعْطَ ‏.‏",
+      "title": "باب النَّهْىِ عَنِ التَّزْوِيرِ، فِي اللِّبَاسِ وَغَيْرِهِ وَالتَّشَبُّعِ بِمَا لَمْ يُعْطَ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، كِلاَهُمَا عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "b212762867c97a6a4c3ced5e910cc9eca397e9f073f50c0a561fb08791e4f4d9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "966ff620-5f65-423e-ac03-580d8f6871d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2131",
+      "reference": "Sahih Muslim, hadith 2131, book 38, باب النَّهْىِ عَنِ التَّكَنِّي، بِأَبِي الْقَاسِمِ وَبَيَانِ مَا يُسْتَحَبُّ مِنَ الأَسْمَاءِ ‏.‏",
+      "title": "باب النَّهْىِ عَنِ التَّكَنِّي، بِأَبِي الْقَاسِمِ وَبَيَانِ مَا يُسْتَحَبُّ مِنَ الأَسْمَاءِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ وَابْنُ أَبِي عُمَرَ - قَالَ أَبُو كُرَيْبٍ أَخْبَرَنَا وَقَالَ، ابْنُ أَبِي عُمَرَ حَدَّثَنَا وَاللَّفْظُ، لَهُ - قَالاَ حَدَّثَنَا مَرْوَانُ، - يَعْنِيَانِ الْفَزَارِيَّ - عَنْ حُمَيْدٍ، عَنْ أَنَسٍ، قَالَ نَادَى رَجُلٌ رَجُلاً بِالْبَقِيعِ يَا أَبَا الْقَاسِمِ ‏.‏ فَالْتَفَتَ إِلَيْهِ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ فَقَالَ يَا رَسُولَ اللَّهِ إِنِّي لَمْ أَعْنِكَ إِنَّمَا دَعَوْتُ فُلاَنًا ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تَسَمَّوْا بِاسْمِي وَلاَ تَكَنَّوْا بِكُنْيَتِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2db84e43fa5a62c9cb8eb843d7071b4e86f50defb46210da2e9bbefb58fa79e0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Un homme appela un autre homme au Baqî‘ : « Ô Abou al-Qâsim ! » Le Messager d’Allah (ﷺ) se retourna. L’homme lui dit : « Ô Messager d’Allah, je ne vous appelais pas ; j’appelais untel. » Le Messager d’Allah (ﷺ) dit : « Donnez à vos enfants mon nom, mais ne leur donnez pas ma kunya. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "17c502da-b11d-4593-9525-937d19df44cb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2132",
+      "reference": "Sahih Muslim, hadith 2132, book 38, باب النَّهْىِ عَنِ التَّكَنِّي، بِأَبِي الْقَاسِمِ وَبَيَانِ مَا يُسْتَحَبُّ مِنَ الأَسْمَاءِ ‏.‏",
+      "title": "باب النَّهْىِ عَنِ التَّكَنِّي، بِأَبِي الْقَاسِمِ وَبَيَانِ مَا يُسْتَحَبُّ مِنَ الأَسْمَاءِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِبْرَاهِيمُ بْنُ زِيَادٍ، - وَهُوَ الْمُلَقَّبُ بِسَبَلاَنَ - أَخْبَرَنَا عَبَّادُ بْنُ عَبَّادٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، وَأَخِيهِ عَبْدِ اللَّهِ، سَمِعَهُ مِنْهُمَا، سَنَةَ أَرْبَعٍ وَأَرْبَعِينَ وَمِائَةٍ يُحَدِّثَانِ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ أَحَبَّ أَسْمَائِكُمْ إِلَى اللَّهِ عَبْدُ اللَّهِ وَعَبْدُ الرَّحْمَنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5a0dfdbfb38ffce5ac720fb00d2ea5bc7624b1e855de0c211711b406cd121145",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah (ﷺ) a dit : « Les noms que Allah préfère parmi les vôtres sont ‘Abd Allah et ‘Abd ar-Rahmân. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c2a59e8c-5276-42b5-bdfd-e01a723fce60",
+      "reason": "Cette entrée donne uniquement des chaînes de transmission et renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
