@@ -2551,3 +2551,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-527` saves six private French drafts, including the combined 3056–3057 report, about protection of non-Muslim allies, the Prophet’s final recommendations, Ibn Sayyâd, and the lodging place during pilgrimage.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,755 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,902, including held records.
+
+### 2026-10-29: Bukhari 3059–3064
+
+- `FR-LIB-HAD-BUKHARI-528` saves five private French drafts on the protected pasture, the Muslim census, pilgrimage, and battles. Bukhari 3064 remains entirely blank because it quotes a Quranic passage said to have been recited and later abrogated; no approved attributed French Quran translation is available.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,760 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 173. Total local hadith rows not drafted: 11,897, including held records.

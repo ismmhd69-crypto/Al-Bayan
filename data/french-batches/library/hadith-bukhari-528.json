@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-528",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:36:18.011Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3804143f-bb7b-4a4c-8d6e-e132cee65a28",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3059",
+      "reference": "Sahih al-Bukhari, hadith 3059, book 56, باب إِذَا أَسْلَمَ قَوْمٌ فِي دَارِ الْحَرْبِ، وَلَهُمْ مَالٌ وَأَرَضُونَ، فَهْىَ لَهُمْ",
+      "title": "باب إِذَا أَسْلَمَ قَوْمٌ فِي دَارِ الْحَرْبِ، وَلَهُمْ مَالٌ وَأَرَضُونَ، فَهْىَ لَهُمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ أَبِيهِ، أَنَّ عُمَرَ بْنَ الْخَطَّابِ ـ رضى الله عنه ـ اسْتَعْمَلَ مَوْلًى لَهُ يُدْعَى هُنَيًّا عَلَى الْحِمَى فَقَالَ يَا هُنَىُّ، اضْمُمْ جَنَاحَكَ عَنِ الْمُسْلِمِينَ، وَاتَّقِ دَعْوَةَ الْمَظْلُومِ، فَإِنَّ دَعْوَةَ الْمَظْلُومِ مُسْتَجَابَةٌ، وَأَدْخِلْ رَبَّ الصُّرَيْمَةِ وَرَبَّ الْغُنَيْمَةِ، وَإِيَّاىَ وَنَعَمَ ابْنِ عَوْفٍ، وَنَعَمَ ابْنِ عَفَّانَ، فَإِنَّهُمَا إِنْ تَهْلِكْ مَاشِيَتُهُمَا يَرْجِعَا إِلَى نَخْلٍ وَزَرْعٍ، وَإِنَّ رَبَّ الصُّرَيْمَةِ وَرَبَّ الْغُنَيْمَةِ إِنْ تَهْلِكْ مَاشِيَتُهُمَا يَأْتِنِي بِبَنِيهِ فَيَقُولُ يَا أَمِيرَ الْمُؤْمِنِينَ‏.‏ أَفَتَارِكُهُمْ أَنَا لاَ أَبَا لَكَ فَالْمَاءُ وَالْكَلأُ أَيْسَرُ عَلَىَّ مِنَ الذَّهَبِ وَالْوَرِقِ، وَايْمُ اللَّهِ، إِنَّهُمْ لَيَرَوْنَ أَنِّي قَدْ ظَلَمْتُهُمْ، إِنَّهَا لَبِلاَدُهُمْ فَقَاتَلُوا عَلَيْهَا فِي الْجَاهِلِيَّةِ، وَأَسْلَمُوا عَلَيْهَا فِي الإِسْلاَمِ، وَالَّذِي نَفْسِي بِيَدِهِ لَوْلاَ الْمَالُ الَّذِي أَحْمِلُ عَلَيْهِ فِي سَبِيلِ اللَّهِ مَا حَمَيْتُ عَلَيْهِمْ مِنْ بِلاَدِهِمْ شِبْرًا‏.‏",
+      "source_hash_sha256": "4ad9d2478e17a9edcc2aa77414992ff64c5a2b9174fe92062dfee96e75fd67f9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ismâ‘îl, Mâlik, Zayd ibn Aslam et son père. ‘Umar ibn al-Khattâb avait nommé un affranchi, Hunayy, responsable du pâturage protégé. Il lui dit : « Hunayy, traite les musulmans avec douceur et prends garde à l’invocation de celui qui subit une injustice, car elle est exaucée. Laisse entrer le propriétaire d’un petit troupeau et celui d’un petit cheptel. Mais ne laisse pas paître ici les bêtes d’Ibn ‘Awf ni celles d’Ibn ‘Affân : si leurs troupeaux périssent, ils pourront retourner à leurs palmeraies et à leurs cultures. Si le troupeau du pauvre propriétaire périt, il viendra avec ses enfants me dire : “Ô Commandeur des croyants !” Vais-je donc les abandonner ? Que l’accès à l’eau et aux pâturages m’est plus facile que l’or et l’argent ! Par Allah, ils pensent que je leur ai fait tort. C’est leur terre : ils y ont combattu avant l’islam et l’ont occupée après avoir embrassé l’islam. Par Celui qui tient mon âme en Sa main, si ce n’était les biens que je mobilise pour la cause d’Allah, je ne leur aurais pas interdit le moindre empan de leur terre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f6701a99-ed44-425a-9acb-54212dbd5f1c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3060",
+      "reference": "Sahih al-Bukhari, hadith 3060, book 56, باب كِتَابَةِ الإِمَامِ النَّاسَ",
+      "title": "باب كِتَابَةِ الإِمَامِ النَّاسَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ أَبِي وَائِلٍ، عَنْ حُذَيْفَةَ ـ رضى الله عنه ـ قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اكْتُبُوا لِي مَنْ تَلَفَّظَ بِالإِسْلاَمِ مِنَ النَّاسِ ‏\"‏‏.‏ فَكَتَبْنَا لَهُ أَلْفًا وَخَمْسَمِائَةِ رَجُلٍ، فَقُلْنَا نَخَافُ وَنَحْنُ أَلْفٌ وَخَمْسُمِائَةٍ فَلَقَدْ رَأَيْتُنَا ابْتُلِينَا حَتَّى إِنَّ الرَّجُلَ لَيُصَلِّي وَحْدَهُ وَهْوَ خَائِفٌ‏.‏ حَدَّثَنَا عَبْدَانُ، عَنْ أَبِي حَمْزَةَ، عَنِ الأَعْمَشِ، فَوَجَدْنَاهُمْ خَمْسَمِائَةٍ‏.‏ قَالَ أَبُو مُعَاوِيَةَ مَا بَيْنَ سِتِّمِائَةٍ إِلَى سَبْعِمِائَةٍ‏.‏",
+      "source_hash_sha256": "cc403ccd9b24a9e95773457efa21c0ca9673442ee53261329e2c1b29ed14295b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Yûsuf, Sufyân, al-A‘mash, Abû Wâ’il et Hudhayfa. Le Prophète dit : « Inscrivez pour moi les gens qui ont professé l’islam. » Nous en recensâmes mille cinq cents. Nous disions : « Devons-nous avoir peur alors que nous sommes mille cinq cents ? » Pourtant, nous fûmes éprouvés au point qu’un homme priait seul, par crainte. ‘Abdân rapporte, d’après Abû Hamza et al-A‘mash, qu’ils en trouvèrent cinq cents. Abû Mu‘âwiya rapporte qu’ils étaient entre six cents et sept cents.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a77e485c-8031-4645-8263-023b68bf9409",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3061",
+      "reference": "Sahih al-Bukhari, hadith 3061, book 56, باب كِتَابَةِ الإِمَامِ النَّاسَ",
+      "title": "باب كِتَابَةِ الإِمَامِ النَّاسَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ جُرَيْجٍ، عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ أَبِي مَعْبَدٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ جَاءَ رَجُلٌ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ، إِنِّي كُتِبْتُ فِي غَزْوَةِ كَذَا وَكَذَا، وَامْرَأَتِي حَاجَّةٌ‏.‏ قَالَ ‏\"‏ ارْجِعْ فَحُجَّ مَعَ امْرَأَتِكَ ‏\"‏‏.‏",
+      "source_hash_sha256": "edf5bc60a79d4a5b7bc4c65dc18305a80d86bce892cf7c90e643a839966bd22f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû Nu‘aym, Sufyân, Ibn Jurayj, ‘Amr ibn Dînâr, Abû Ma‘bad et Ibn ‘Abbâs. Un homme vint trouver le Prophète et lui dit : « Ô Messager d’Allah, je suis inscrit pour telle expédition, mais ma femme part au pèlerinage. » Il répondit : « Retourne et accomplis le pèlerinage avec ta femme. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1b3e952a-391b-44ab-875b-2fbcea588f4d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3062",
+      "reference": "Sahih al-Bukhari, hadith 3062, book 56, باب إِنَّ اللَّهَ يُؤَيِّدُ الدِّينَ بِالرَّجُلِ الْفَاجِرِ",
+      "title": "باب إِنَّ اللَّهَ يُؤَيِّدُ الدِّينَ بِالرَّجُلِ الْفَاجِرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، ح وَحَدَّثَنِي مَحْمُودُ بْنُ غَيْلاَنَ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنِ ابْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ شَهِدْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ لِرَجُلٍ مِمَّنْ يَدَّعِي الإِسْلاَمَ ‏\"‏ هَذَا مِنْ أَهْلِ النَّارِ ‏\"‏‏.‏ فَلَمَّا حَضَرَ الْقِتَالُ قَاتَلَ الرَّجُلُ قِتَالاً شَدِيدًا، فَأَصَابَتْهُ جِرَاحَةٌ فَقِيلَ يَا رَسُولَ اللَّهِ، الَّذِي قُلْتَ إِنَّهُ مِنْ أَهْلِ النَّارِ فَإِنَّهُ قَدْ قَاتَلَ الْيَوْمَ قِتَالاً شَدِيدًا وَقَدْ مَاتَ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِلَى النَّارِ ‏\"‏‏.‏ قَالَ فَكَادَ بَعْضُ النَّاسِ أَنْ يَرْتَابَ، فَبَيْنَمَا هُمْ عَلَى ذَلِكَ إِذْ قِيلَ إِنَّهُ لَمْ يَمُتْ، وَلَكِنَّ بِهِ جِرَاحًا شَدِيدًا‏.‏ فَلَمَّا كَانَ مِنَ اللَّيْلِ لَمْ يَصْبِرْ عَلَى الْجِرَاحِ، فَقَتَلَ نَفْسَهُ، فَأُخْبِرَ النَّبِيُّ صلى الله عليه وسلم بِذَلِكَ فَقَالَ ‏\"‏ اللَّهُ أَكْبَرُ، أَشْهَدُ أَنِّي عَبْدُ اللَّهِ وَرَسُولُهُ ‏\"‏‏.‏ ثُمَّ أَمَرَ بِلاَلاً فَنَادَى بِالنَّاسِ ‏\"‏ إِنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ، وَإِنَّ اللَّهَ لَيُؤَيِّدُ هَذَا الدِّينَ بِالرَّجُلِ الْفَاجِرِ ‏\"‏‏.‏",
+      "source_hash_sha256": "f0581dacc4f302ff9310b916286cd146c94dbc92bf8ee50eeb07475f57c2efb5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû al-Yamân, Shu‘ayb, al-Zuhrî, Ibn al-Musayyib et Abû Hurayra. Nous étions avec le Messager d’Allah lorsqu’il dit au sujet d’un homme qui prétendait être musulman : « Celui-ci fait partie des gens du Feu. » Lorsque le combat eut lieu, cet homme combattit avec acharnement et fut grièvement blessé. On dit : « Ô Messager d’Allah, l’homme dont tu as dit qu’il était des gens du Feu a combattu aujourd’hui avec acharnement et il est mort. » Le Prophète répondit : « Au Feu. » Certains commencèrent presque à douter. Puis on annonça qu’il n’était pas mort, mais gravement blessé. Au cours de la nuit, il ne supporta pas ses blessures et se donna la mort. On en informa le Prophète, qui dit : « Allah est le plus grand. J’atteste que je suis le serviteur d’Allah et Son Messager. » Il ordonna ensuite à Bilâl d’appeler les gens : « N’entrera au Paradis qu’une âme musulmane. Allah peut soutenir cette religion par un homme pervers. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1d90bf9f-91b2-4941-a6d1-14dd4ed1dbea",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3063",
+      "reference": "Sahih al-Bukhari, hadith 3063, book 56, باب مَنْ تَأَمَّرَ فِي الْحَرْبِ مِنْ غَيْرِ إِمْرَةٍ إِذَا خَافَ الْعَدُوَّ",
+      "title": "باب مَنْ تَأَمَّرَ فِي الْحَرْبِ مِنْ غَيْرِ إِمْرَةٍ إِذَا خَافَ الْعَدُوَّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا ابْنُ عُلَيَّةَ، عَنْ أَيُّوبَ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ قَالَ خَطَبَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ أَخَذَ الرَّايَةَ زَيْدٌ فَأُصِيبَ، ثُمَّ أَخَذَهَا جَعْفَرٌ فَأُصِيبَ، ثُمَّ أَخَذَهَا عَبْدُ اللَّهِ بْنُ رَوَاحَةَ فَأُصِيبَ، ثُمَّ أَخَذَهَا خَالِدُ بْنُ الْوَلِيدِ عَنْ غَيْرِ إِمْرَةٍ فَفُتِحَ عَلَيْهِ، وَمَا يَسُرُّنِي ـ أَوْ قَالَ مَا يَسُرُّهُمْ ـ أَنَّهُمْ عِنْدَنَا ‏\"‏‏.‏ وَقَالَ وَإِنَّ عَيْنَيْهِ لَتَذْرِفَانِ‏.‏",
+      "source_hash_sha256": "97ce20e30af85f48db3cc9a3410350e17c289d321d4353e0fb05454d7450d9f6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ya‘qûb ibn Ibrâhîm, Ibn ‘Ulayya, Ayyûb, Humayd ibn Hilâl et Anas ibn Mâlik. Le Messager d’Allah s’adressa aux gens et dit : « Zayd prit l’étendard et fut tué. Puis Ja‘far le prit et fut tué. Puis ‘Abd Allah ibn Rawâha le prit et fut tué. Ensuite Khâlid ibn al-Walîd prit l’étendard sans avoir été nommé commandant, et la victoire lui fut accordée. » Il ajouta : « Cela ne me réjouit pas — ou, selon une variante : ne les réjouit pas — qu’ils soient auprès de nous. » Ses yeux étaient en larmes.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c4aa63ee-51fa-4b03-a85a-9feda1d74359",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3064",
+      "reference": "Sahih al-Bukhari, hadith 3064, book 56, باب الْعَوْنِ بِالْمَدَدِ",
+      "title": "باب الْعَوْنِ بِالْمَدَدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، وَسَهْلُ بْنُ يُوسُفَ، عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ ـ رضى الله عنه أَنَّ النَّبِيَّ صلى الله عليه وسلم أَتَاهُ رِعْلٌ وَذَكْوَانُ وَعُصَيَّةُ وَبَنُو لِحْيَانَ، فَزَعَمُوا أَنَّهُمْ قَدْ أَسْلَمُوا، وَاسْتَمَدُّوهُ عَلَى قَوْمِهِمْ، فَأَمَدَّهُمُ النَّبِيُّ صلى الله عليه وسلم بِسَبْعِينَ مِنَ الأَنْصَارِ قَالَ أَنَسٌ كُنَّا نُسَمِّيهِمُ الْقُرَّاءَ، يَحْطِبُونَ بِالنَّهَارِ وَيُصَلُّونَ بِاللَّيْلِ، فَانْطَلَقُوا بِهِمْ حَتَّى بَلَغُوا بِئْرَ مَعُونَةَ غَدَرُوا بِهِمْ وَقَتَلُوهُمْ، فَقَنَتَ شَهْرًا يَدْعُو عَلَى رِعْلٍ وَذَكْوَانَ وَبَنِي لِحْيَانَ‏.‏ قَالَ قَتَادَةُ وَحَدَّثَنَا أَنَسٌ أَنَّهُمْ قَرَءُوا بِهِمْ قُرْآنًا أَلاَ بَلِّغُوا عَنَّا قَوْمَنَا بِأَنَّا قَدْ لَقِينَا رَبَّنَا فَرَضِيَ عَنَّا وَأَرْضَانَا‏.‏ ثُمَّ رُفِعَ ذَلِكَ بَعْدُ‏.‏",
+      "source_hash_sha256": "1fa88d25fc1989ed23c047fe330c6fdbb82bf6788a74a7b30e0781e8f4afbf4a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c4aa63ee-51fa-4b03-a85a-9feda1d74359",
+      "reason": "This report quotes a Quranic passage said to have been recited by the martyrs and later abrogated. Keep the full hadith blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
