@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-604",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:13:07.025Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5791e449-f795-40ff-8738-f6dd938a957a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3462",
+      "reference": "Sahih al-Bukhari, hadith 3462, book 60, باب مَا ذُكِرَ عَنْ بَنِي إِسْرَائِيلَ",
+      "title": "باب مَا ذُكِرَ عَنْ بَنِي إِسْرَائِيلَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، قَالَ قَالَ أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ إِنَّ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الْيَهُودَ وَالنَّصَارَى لاَ يَصْبُغُونَ، فَخَالِفُوهُمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "3b91c061fc16714057bf9f702632ae695cc36ef27b09a4a4df7e813c12f558fc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager de Dieu a dit : « Les juifs et les chrétiens ne se teignent pas les cheveux ; faites donc le contraire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "247b183d-40a5-425b-bc1e-ed4529bb6bc1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3463",
+      "reference": "Sahih al-Bukhari, hadith 3463, book 60, باب مَا ذُكِرَ عَنْ بَنِي إِسْرَائِيلَ",
+      "title": "باب مَا ذُكِرَ عَنْ بَنِي إِسْرَائِيلَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدٌ، قَالَ حَدَّثَنِي حَجَّاجٌ، حَدَّثَنَا جَرِيرٌ، عَنِ الْحَسَنِ، حَدَّثَنَا جُنْدُبُ بْنُ عَبْدِ اللَّهِ، فِي هَذَا الْمَسْجِدِ، وَمَا نَسِينَا مُنْذُ حَدَّثَنَا، وَمَا نَخْشَى أَنْ يَكُونَ جُنْدُبٌ كَذَبَ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ كَانَ فِيمَنْ كَانَ قَبْلَكُمْ رَجُلٌ بِهِ جُرْحٌ، فَجَزِعَ فَأَخَذَ سِكِّينًا فَحَزَّ بِهَا يَدَهُ، فَمَا رَقَأَ الدَّمُ حَتَّى مَاتَ، قَالَ اللَّهُ تَعَالَى بَادَرَنِي عَبْدِي بِنَفْسِهِ، حَرَّمْتُ عَلَيْهِ الْجَنَّةَ ‏\"‏‏.‏",
+      "source_hash_sha256": "27557a6591a8985a3631a48dd3ba40d76be524c12230625b9db66deab79cee33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jundub ibn ‘Abd Allah rapporte que le Messager de Dieu a dit : « Parmi ceux qui vous ont précédés, un homme avait une blessure. Pris de désespoir, il prit un couteau et se trancha la main. Le sang ne cessa de couler qu’à sa mort. Dieu dit alors : “Mon serviteur a devancé Mon décret en mettant fin à ses jours ; Je lui interdis le Paradis.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
