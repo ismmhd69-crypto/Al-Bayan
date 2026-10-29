@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1203",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:40:56.365Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1553c949-021b-410c-862d-ee74297db57a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2606",
+      "reference": "Sahih Muslim, hadith 2606, book 45, باب تَحْرِيمِ النَّمِيمَةِ ‏‏",
+      "title": "باب تَحْرِيمِ النَّمِيمَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، سَمِعْتُ أَبَا إِسْحَاقَ، يُحَدِّثُ عَنْ أَبِي الأَحْوَصِ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، قَالَ إِنَّ مُحَمَّدًا صلى الله عليه وسلم قَالَ ‏\"‏ أَلاَ أُنَبِّئُكُمْ مَا الْعَضْهُ هِيَ النَّمِيمَةُ الْقَالَةُ بَيْنَ النَّاسِ ‏\"‏ ‏.‏ وَإِنَّ مُحَمَّدًا صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الرَّجُلَ يَصْدُقُ حَتَّى يُكْتَبَ صِدِّيقًا وَيَكْذِبُ حَتَّى يُكْتَبَ كَذَّابًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "86d6e5814aa5c55091a0c64c6001050fd36491ee34c93e1df27f676c787f3c29",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh ibn Masʿūd rapporte que Muḥammad ﷺ a dit : « Voulez-vous que je vous dise ce qu’est la médisance calomnieuse ? C’est le fait de rapporter les paroles des gens pour semer la discorde. » Muḥammad ﷺ a également dit : « L’homme persévère dans la vérité jusqu’à être inscrit parmi les véridiques, et il persévère dans le mensonge jusqu’à être inscrit parmi les menteurs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6bc0500a-acc7-4f69-af33-3208d4253aa5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2607a",
+      "reference": "Sahih Muslim, hadith 2607 a, book 45, باب قُبْحِ الْكَذِبِ وَحُسْنِ الصِّدْقِ وَفَضْلِهِ ‏‏",
+      "title": "باب قُبْحِ الْكَذِبِ وَحُسْنِ الصِّدْقِ وَفَضْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَعُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ وَإِنَّ الرَّجُلَ لَيَصْدُقُ حَتَّى يُكْتَبَ صِدِّيقًا وَإِنَّ الْكَذِبَ يَهْدِي إِلَى الْفُجُورِ وَإِنَّ الْفُجُورَ يَهْدِي إِلَى النَّارِ وَإِنَّ الرَّجُلَ لَيَكْذِبُ حَتَّى يُكْتَبَ كَذَّابًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e024832516542af34ab8e12f3bd598085c680417148aaadbfb233f68861a8bff",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh rapporte que le Messager d’Allah ﷺ a dit : « La vérité mène à la bonté, et la bonté mène au Paradis. L’homme persévère dans la vérité jusqu’à être inscrit parmi les véridiques. Le mensonge mène à la perversité, et la perversité mène au Feu. L’homme persévère dans le mensonge jusqu’à être inscrit parmi les menteurs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4e1290d6-fb2f-4106-8130-561853ebcb71",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2607b",
+      "reference": "Sahih Muslim, hadith 2607 b, book 45, باب قُبْحِ الْكَذِبِ وَحُسْنِ الصِّدْقِ وَفَضْلِهِ ‏‏",
+      "title": "باب قُبْحِ الْكَذِبِ وَحُسْنِ الصِّدْقِ وَفَضْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَهَنَّادُ بْنُ السَّرِيِّ، قَالاَ حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ مَنْصُورٍ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ الصِّدْقَ بِرٌّ وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ وَإِنَّ الْعَبْدَ لَيَتَحَرَّى الصِّدْقَ حَتَّى يُكْتَبَ عِنْدَ اللَّهِ صِدِّيقًا وَإِنَّ الْكَذِبَ فُجُورٌ وَإِنَّ الْفُجُورَ يَهْدِي إِلَى النَّارِ وَإِنَّ الْعَبْدَ لَيَتَحَرَّى الْكَذِبَ حَتَّى يُكْتَبَ كَذَّابًا ‏\"‏ ‏.‏ قَالَ ابْنُ أَبِي شَيْبَةَ فِي رِوَايَتِهِ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "cdfbc558f8cfb2a24f609a8f35f482f7d9d4fd0983054794deb59022bc855e85",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh ibn Masʿūd rapporte que le Messager d’Allah ﷺ a dit : « La vérité est bonté, et la bonté mène au Paradis. Le serviteur recherche constamment la vérité jusqu’à être inscrit auprès d’Allah parmi les véridiques. Le mensonge est perversité, et la perversité mène au Feu. Le serviteur recherche constamment le mensonge jusqu’à être inscrit comme menteur. » Ibn Abī Shayba précise dans sa version que ces paroles sont celles du Prophète ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c17b149e-32db-46c9-9cd2-f0a63ec4eda4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2607c",
+      "reference": "Sahih Muslim, hadith 2607 c, book 45, باب قُبْحِ الْكَذِبِ وَحُسْنِ الصِّدْقِ وَفَضْلِهِ ‏‏",
+      "title": "باب قُبْحِ الْكَذِبِ وَحُسْنِ الصِّدْقِ وَفَضْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، وَوَكِيعٌ، قَالاَ حَدَّثَنَا الأَعْمَشُ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا الأَعْمَشُ، عَنْ شَقِيقٍ، عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ عَلَيْكُمْ بِالصِّدْقِ فَإِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ وَمَا يَزَالُ الرَّجُلُ يَصْدُقُ وَيَتَحَرَّى الصِّدْقَ حَتَّى يُكْتَبَ عِنْدَ اللَّهِ صِدِّيقًا وَإِيَّاكُمْ وَالْكَذِبَ فَإِنَّ الْكَذِبَ يَهْدِي إِلَى الْفُجُورِ وَإِنَّ الْفُجُورَ يَهْدِي إِلَى النَّارِ وَمَا يَزَالُ الرَّجُلُ يَكْذِبُ وَيَتَحَرَّى الْكَذِبَ حَتَّى يُكْتَبَ عِنْدَ اللَّهِ كَذَّابًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bfde37332ff96eb49c80dfdc609fbda945b21ad269713d805f4bfbaa67b7ab24",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh rapporte que le Messager d’Allah ﷺ a dit : « Attachez-vous à la vérité, car la vérité mène à la bonté et la bonté mène au Paradis. L’homme persévère dans la vérité et la recherche jusqu’à être inscrit auprès d’Allah parmi les véridiques. Gardez-vous du mensonge, car le mensonge mène à la perversité et la perversité mène au Feu. L’homme persévère dans le mensonge et sa recherche jusqu’à être inscrit auprès d’Allah parmi les menteurs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8339dfda-72f6-4e35-b52d-256ad1a6727e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2607d",
+      "reference": "Sahih Muslim, hadith 2607 d, book 45, باب قُبْحِ الْكَذِبِ وَحُسْنِ الصِّدْقِ وَفَضْلِهِ ‏‏",
+      "title": "باب قُبْحِ الْكَذِبِ وَحُسْنِ الصِّدْقِ وَفَضْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مِنْجَابُ بْنُ الْحَارِثِ التَّمِيمِيُّ، أَخْبَرَنَا ابْنُ مُسْهِرٍ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ، إِبْرَاهِيمَ الْحَنْظَلِيُّ أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، كِلاَهُمَا عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ ‏.‏ وَلَمْ يَذْكُرْ فِي حَدِيثِ عِيسَى ‏\"‏ وَيَتَحَرَّى الصِّدْقَ وَيَتَحَرَّى الْكَذِبَ ‏\"‏ ‏.‏ وَفِي حَدِيثِ ابْنِ مُسْهِرٍ ‏\"‏ حَتَّى يَكْتُبَهُ اللَّهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "efddd1e74873c0df524cd8e2ebed559353b185819fb0f32cdb788c96200932d7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "42595b58-fad1-4ff6-8210-7fc0d4999ee6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2608a",
+      "reference": "Sahih Muslim, hadith 2608 a, book 45, باب فَضْلِ مَنْ يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ وَبِأَىِّ شَىْءٍ يَذْهَبُ الْغَضَبُ ‏‏",
+      "title": "باب فَضْلِ مَنْ يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ وَبِأَىِّ شَىْءٍ يَذْهَبُ الْغَضَبُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَعُثْمَانُ بْنُ أَبِي شَيْبَةَ، - وَاللَّفْظُ لِقُتَيْبَةَ - قَالاَ حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنِ الْحَارِثِ بْنِ سُوَيْدٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا تَعُدُّونَ الرَّقُوبَ فِيكُمْ ‏\"‏ ‏.‏ قَالَ قُلْنَا الَّذِي لاَ يُولَدُ لَهُ ‏.‏ قَالَ ‏\"‏ لَيْسَ ذَاكَ بِالرَّقُوبِ وَلَكِنَّهُ الرَّجُلُ الَّذِي لَمْ يُقَدِّمْ مِنْ وَلَدِهِ شَيْئًا ‏\"‏ ‏.‏ قَالَ ‏\"‏ فَمَا تَعُدُّونَ الصُّرَعَةَ فِيكُمْ ‏\"‏ ‏.‏ قَالَ قُلْنَا الَّذِي لاَ يَصْرَعُهُ الرِّجَالُ ‏.‏ قَالَ ‏\"‏ لَيْسَ بِذَلِكَ وَلَكِنَّهُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5f46aed3ad6a316722435460cb20dcf436089fd05cf4acea1844557e7de62ce6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh ibn Masʿūd rapporte que le Messager d’Allah ﷺ demanda : « Qui considérez-vous comme privé de descendance parmi vous ? » Nous répondîmes : « Celui qui n’a pas d’enfant. » Il dit : « Ce n’est pas cela. C’est celui qui n’a rien envoyé avant lui parmi ses enfants. » Il demanda ensuite : « Qui considérez-vous comme le plus fort à la lutte ? » Nous répondîmes : « Celui que les hommes ne parviennent pas à vaincre. » Il dit : « Ce n’est pas cela. C’est celui qui se maîtrise lorsqu’il est en colère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "8339dfda-72f6-4e35-b52d-256ad1a6727e",
+      "reason": "Cette entrée ne reproduit que des variantes de transmission et de formulation du récit précédent, sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
