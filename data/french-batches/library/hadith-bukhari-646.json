@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-646",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:33:10.546Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "bd289e29-25ac-41c9-8391-d8e9866a5a28",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3665",
+      "reference": "Sahih al-Bukhari, hadith 3665, book 62, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لَوْ كُنْتُ مُتَّخِذًا خَلِيلاً ‏\"‏ قَالَهُ أَبُو سَعِيدٍ",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لَوْ كُنْتُ مُتَّخِذًا خَلِيلاً ‏\"‏ قَالَهُ أَبُو سَعِيدٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا مُوسَى بْنُ عُقْبَةَ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ جَرَّ ثَوْبَهُ خُيَلاَءَ لَمْ يَنْظُرِ اللَّهُ إِلَيْهِ يَوْمَ الْقِيَامَةِ ‏\"‏‏.‏ فَقَالَ أَبُو بَكْرٍ إِنَّ أَحَدَ شِقَّىْ ثَوْبِي يَسْتَرْخِي إِلاَّ أَنْ أَتَعَاهَدَ ذَلِكَ مِنْهُ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّكَ لَسْتَ تَصْنَعُ ذَلِكَ خُيَلاَءَ ‏\"‏ قَالَ مُوسَى فَقُلْتُ لِسَالِمٍ أَذَكَرَ عَبْدُ اللَّهِ مَنْ جَرَّ إِزَارَهُ قَالَ لَمْ أَسْمَعْهُ ذَكَرَ إِلاَّ ثَوْبَهُ‏.‏",
+      "source_hash_sha256": "cadef7302475e7f32d871d21ef6156ccf6619d76f6beaade44b09925e3af23fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn ‘Umar rapporte que le Messager de Dieu a dit : « Celui qui traîne son vêtement par orgueil, Dieu ne le regardera pas au Jour de la Résurrection. » Abû Bakr dit : « Un côté de mon vêtement tombe parfois, à moins que je ne veille constamment à le relever. » Le Messager de Dieu lui répondit : « Tu ne fais pas cela par orgueil. » Mûsâ dit : « Je demandai à Sâlim si ‘Abd Allâh avait parlé de celui qui traîne son pagne. Il répondit : “Je ne l’ai entendu parler que de son vêtement.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7651d924-da68-4ed3-a33d-a646ac0fac09",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3666",
+      "reference": "Sahih al-Bukhari, hadith 3666, book 62, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لَوْ كُنْتُ مُتَّخِذًا خَلِيلاً ‏\"‏ قَالَهُ أَبُو سَعِيدٍ",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لَوْ كُنْتُ مُتَّخِذًا خَلِيلاً ‏\"‏ قَالَهُ أَبُو سَعِيدٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، حَدَّثَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي حُمَيْدُ بْنُ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ أَنْفَقَ زَوْجَيْنِ مِنْ شَىْءٍ مِنَ الأَشْيَاءِ فِي سَبِيلِ اللَّهِ دُعِيَ مِنْ أَبْوَابِ ـ يَعْنِي الْجَنَّةَ ـ يَا عَبْدَ اللَّهِ هَذَا خَيْرٌ، فَمَنْ كَانَ مِنْ أَهْلِ الصَّلاَةِ دُعِيَ مِنْ باب الصَّلاَةِ، وَمَنْ كَانَ مِنْ أَهْلِ الْجِهَادِ دُعِيَ مِنْ باب الْجِهَادِ، وَمَنْ كَانَ مِنْ أَهْلِ الصَّدَقَةِ دُعِيَ مِنْ باب الصَّدَقَةِ، وَمَنْ كَانَ مِنْ أَهْلِ الصِّيَامِ دُعِيَ مِنْ باب الصِّيَامِ، وَبَابِ الرَّيَّانِ ‏\"‏‏.‏ فَقَالَ أَبُو بَكْرٍ مَا عَلَى هَذَا الَّذِي يُدْعَى مِنْ تِلْكَ الأَبْوَابِ مِنْ ضَرُورَةٍ، وَقَالَ هَلْ يُدْعَى مِنْهَا كُلِّهَا أَحَدٌ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ نَعَمْ، وَأَرْجُو أَنْ تَكُونَ مِنْهُمْ يَا أَبَا بَكْرٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "b8322e6d9f19aaaa06d5cbb050256e1c39ffb2b11f326804cd33d1034751d2c1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte avoir entendu le Messager de Dieu dire : « Celui qui dépense deux choses de quelque nature que ce soit dans la voie de Dieu sera appelé depuis l’une des portes — c’est-à-dire les portes du Paradis : “Serviteur de Dieu, voici le bien !” Celui qui appartient aux gens de la prière sera appelé depuis la porte de la prière ; celui qui appartient aux gens du combat, depuis la porte du combat ; celui qui appartient aux gens de l’aumône, depuis la porte de l’aumône ; et celui qui appartient aux gens du jeûne sera appelé depuis la porte du jeûne et la porte d’Ar-Rayyân. » Abû Bakr demanda : « Celui qui sera appelé depuis l’une de ces portes n’aura aucun besoin de passer par les autres. Mais y aura-t-il quelqu’un qui sera appelé depuis toutes ces portes, Messager de Dieu ? » Il répondit : « Oui, et j’espère que tu seras l’un d’eux, Abû Bakr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

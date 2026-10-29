@@ -3141,3 +3141,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-645` saves six private French drafts about Abû Bakr and the companions.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,265 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 238. Total local hadith rows not drafted: 11,392, including held records.
+
+### 2026-10-29: Bukhari 3665–3666
+
+- `FR-LIB-HAD-BUKHARI-646` saves two private French drafts about Abû Bakr and charitable giving.
+- Both records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,267 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 238. Total local hadith rows not drafted: 11,390, including held records.
