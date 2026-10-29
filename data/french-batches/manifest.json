@@ -12309,6 +12309,20 @@
       "published": 0,
       "status": "one Needs Mo hold for incomplete source text"
     },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-553",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-553.json",
+      "sourceIds": ["63cb64fd-6385-4153-bf45-7edcf4408113", "45a8b7a6-e400-4b94-9938-05b2a642bb75", "e9a95849-bc23-4a14-a984-55f5409cbc4f", "f7f77d02-0150-4521-950c-19e3cd54ee03", "be46a27a-f408-480d-b3c3-fbe807c771d3", "76191c6b-42f8-485b-b7b4-19d4b6716db2"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
   ],
   "blockers": [
     {
@@ -12384,7 +12398,7 @@
       "reason": "No approved, attributed French Quran translation has been confirmed in the current application configuration. The seven French verse meanings were not generated; only practice-tool controls have private French drafts."
     }
   ],
-  "hadithBukhariDrafted": 2866,
-  "hadithLocalDrafted": 2866,
-  "hadithLocalRemaining": 11789
+  "hadithBukhariDrafted": 2872,
+  "hadithLocalDrafted": 2872,
+  "hadithLocalRemaining": 11783
 }

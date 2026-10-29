@@ -2676,3 +2676,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-552` saves five private French drafts about the Prophet’s final illness, a poisoned sheep at Khaybar, a treaty violation, the pilgrimage announcement, and the Medina charter. Bukhari 3174 remains blank because the exported Arabic stops at the opening clause about Heraclius summoning Abû Sufyân and contains no further report wording.
 - All six records passed the focused validator, including the incomplete-source hold. No database writes or publication occurred. Bukhari local drafts: 2,866 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 11,789, including held records.
+
+### 2026-10-29: Bukhari 3180–3185
+
+- `FR-LIB-HAD-BUKHARI-553` saves six private French drafts about treaty protection, the truce at al-Hudaybiya, the permission granted to Asmâ’s mother, and the attack on the Prophet at prayer.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,872 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 11,783, including held records.
