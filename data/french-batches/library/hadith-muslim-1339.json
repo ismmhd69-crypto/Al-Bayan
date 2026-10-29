@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-1339",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:42:27.604Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6480862d-1122-49c0-8a4b-6ab71f96cce1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2956",
+      "reference": "Sahih Muslim, hadith 2956, book 55, كتاب الزهد والرقائق",
+      "title": "كتاب الزهد والرقائق",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي الدَّرَاوَرْدِيَّ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9b3c3857c8576f432e56172a906bc1332abd71e45f8e5a820f9dcefe58c8da9a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Ce monde est une prison pour le croyant et un paradis pour le mécréant. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1a5745e9-0b70-4626-88e3-bf6b2b1a6fb6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2957a",
+      "reference": "Sahih Muslim, hadith 2957 a, book 55, كتاب الزهد والرقائق",
+      "title": "كتاب الزهد والرقائق",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا سُلَيْمَانُ، - يَعْنِي ابْنَ بِلاَلٍ - عَنْ جَعْفَرٍ، عَنْ أَبِيهِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم مَرَّ بِالسُّوقِ دَاخِلاً مِنْ بَعْضِ الْعَالِيَةِ وَالنَّاسُ كَنَفَتَهُ فَمَرَّ بِجَدْىٍ أَسَكَّ مَيِّتٍ فَتَنَاوَلَهُ فَأَخَذَ بِأُذُنِهِ ثُمَّ قَالَ ‏\"‏ أَيُّكُمْ يُحِبُّ أَنَّ هَذَا لَهُ بِدِرْهَمٍ ‏\"‏ ‏.‏ فَقَالُوا مَا نُحِبُّ أَنَّهُ لَنَا بِشَىْءٍ وَمَا نَصْنَعُ بِهِ قَالَ ‏\"‏ أَتُحِبُّونَ أَنَّهُ لَكُمْ ‏\"‏ ‏.‏ قَالُوا وَاللَّهِ لَوْ كَانَ حَيًّا كَانَ عَيْبًا فِيهِ لأَنَّهُ أَسَكُّ فَكَيْفَ وَهُوَ مَيِّتٌ فَقَالَ ‏\"‏ فَوَاللَّهِ لَلدُّنْيَا أَهْوَنُ عَلَى اللَّهِ مِنْ هَذَا عَلَيْكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "594dd45e1e315b5511b14424180c2dc42f49990d03e58cf1fe095c9920e75ff4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ traversa le marché en venant d’un quartier des hauteurs, tandis que les gens l’entouraient. Il passa près d’un chevreau mort aux oreilles coupées, le prit par l’oreille et demanda : « Qui d’entre vous voudrait l’avoir pour un dirham ? » Ils répondirent : « Nous n’en voudrions à aucun prix. Qu’en ferions-nous ? » Il demanda : « En voudriez-vous ? » Ils répondirent : « Par Allah, même vivant, ses oreilles courtes seraient un défaut ; alors, mort ! » Le Messager d’Allah ﷺ dit : « Par Allah, ce monde est plus insignifiant aux yeux d’Allah que ce chevreau ne l’est à vos yeux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3e2fa04c-a215-466c-a06c-56e8985f3696",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2957b",
+      "reference": "Sahih Muslim, hadith 2957 b, book 55, كتاب الزهد والرقائق",
+      "title": "كتاب الزهد والرقائق",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى الْعَنَزِيُّ، وَإِبْرَاهِيمُ بْنُ مُحَمَّدِ بْنِ عَرْعَرَةَ السَّامِيُّ، قَالاَ حَدَّثَنَا عَبْدُ الْوَهَّابِ، - يَعْنِيَانِ الثَّقَفِيَّ - عَنْ جَعْفَرٍ، عَنْ أَبِيهِ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ غَيْرَ أَنَّ فِي حَدِيثِ الثَّقَفِيِّ فَلَوْ كَانَ حَيًّا كَانَ هَذَا السَّكَكُ بِهِ عَيْبًا ‏.‏",
+      "source_hash_sha256": "3f43d5f49175f6725191fbecc4cafd72a63837193bace5fef36c747d2d3320d6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ebdb0108-9b00-45b7-a95a-17ea7f4a0281",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2958a",
+      "reference": "Sahih Muslim, hadith 2958 a, book 55, كتاب الزهد والرقائق",
+      "title": "كتاب الزهد والرقائق",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، عَنْ مُطَرِّفٍ، عَنْ أَبِيهِ، قَالَ أَتَيْتُ النَّبِيَّ صلى الله عليه وسلم وَهُوَ يَقْرَأُ ‏{‏ أَلْهَاكُمُ التَّكَاثُرُ‏}‏ قَالَ ‏\"‏ يَقُولُ ابْنُ آدَمَ مَالِي مَالِي - قَالَ - وَهَلْ لَكَ يَا ابْنَ آدَمَ مِنْ مَالِكَ إِلاَّ مَا أَكَلْتَ فَأَفْنَيْتَ أَوْ لَبِسْتَ فَأَبْلَيْتَ أَوْ تَصَدَّقْتَ فَأَمْضَيْتَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "02a85a70d9336100628a17d42842c8da6bd8a533609de9035c5606f37b362513",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "89a791c6-170b-4235-93b4-db69d8eb6f7f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2958b",
+      "reference": "Sahih Muslim, hadith 2958 b, book 55, كتاب الزهد والرقائق",
+      "title": "كتاب الزهد والرقائق",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، وَقَالاَ، جَمِيعًا حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ سَعِيدٍ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنَا أَبِي كُلُّهُمْ، عَنْ قَتَادَةَ، عَنْ مُطَرِّفٍ، عَنْ أَبِيهِ، قَالَ انْتَهَيْتُ إِلَى النَّبِيِّ صلى الله عليه وسلم ‏.‏ فَذَكَرَ بِمِثْلِ حَدِيثِ هَمَّامٍ ‏.‏",
+      "source_hash_sha256": "3a41d751518a6794707f787c416512ec89be5026dc99a63f85f54149671127c6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c0fd90a6-d5b8-4b36-a53f-e90b07018c77",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2959a",
+      "reference": "Sahih Muslim, hadith 2959 a, book 55, كتاب الزهد والرقائق",
+      "title": "كتاب الزهد والرقائق",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا حَفْصُ بْنُ مَيْسَرَةَ، عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي، هُرَيْرَةَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يَقُولُ الْعَبْدُ مَالِي مَالِي إِنَّمَا لَهُ مِنْ مَالِهِ ثَلاَثٌ مَا أَكَلَ فَأَفْنَى أَوْ لَبِسَ فَأَبْلَى أَوْ أَعْطَى فَاقْتَنَى وَمَا سِوَى ذَلِكَ فَهُوَ ذَاهِبٌ وَتَارِكُهُ لِلنَّاسِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "acf0a17ae7d491601190fca76df9e1c69cfcf33ac8c2d3a034dcea36a5aa08bc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Le serviteur dit : “Mes biens, mes biens !” Or, de ses biens, il ne possède réellement que trois choses : ce qu’il a mangé et consommé, ce qu’il a porté et usé, ou ce qu’il a donné et mis de côté pour l’au-delà. Tout le reste s’en va, et il le laisse aux gens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "3e2fa04c-a215-466c-a06c-56e8985f3696",
+      "status": "blocked",
+      "reason": "Cette entrée ne reproduit qu’une variante de la formulation et renvoie au récit précédent, sans donner le texte complet. Garder la traduction française vide jusqu’à validation du récit entier."
+    },
+    {
+      "source_id": "ebdb0108-9b00-45b7-a95a-17ea7f4a0281",
+      "status": "blocked",
+      "reason": "Le récit contient une citation coranique intégrée (sourate 102, al-Takathur). Garder toute la traduction française vide jusqu’à confirmation de la formulation française autorisée et de son attribution."
+    },
+    {
+      "source_id": "89a791c6-170b-4235-93b4-db69d8eb6f7f",
+      "status": "blocked",
+      "reason": "Cette entrée indique seulement qu’elle transmet une version semblable au récit précédent, sans en reproduire le texte. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
