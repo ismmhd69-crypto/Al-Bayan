@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-BUKHARI-834",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:15:18.72Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "60cb4996-ce05-40d7-b273-df5fd3347143",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4600",
+      "reference": "Sahih al-Bukhari, hadith 4600, book 65, باب قَوْلِهِ ‏ {‏وَيَسْتَفْتُونَكَ فِي النِّسَاءِ قُلِ اللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَى عَلَيْكُمْ فِي الْكِتَابِ فِي يَتَامَى النِّسَاءِ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏وَيَسْتَفْتُونَكَ فِي النِّسَاءِ قُلِ اللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَى عَلَيْكُمْ فِي الْكِتَابِ فِي يَتَامَى النِّسَاءِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو أُسَامَةَ، قَالَ : حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ ‏[quran sura=\"4\" aya_start=\"127\" aya_end=\"127\"]{‏وَيَسْتَفْتُونَكَ فِي النِّسَاءِ قُلِ اللَّهُ يُفْتِيكُمْ فِيهِنَّ‏}‏ إِلَى قَوْلِهِ ‏[quran sura=\"4\" aya_start=\"127\" aya_end=\"127\"]{‏وَتَرْغَبُونَ أَنْ تَنْكِحُوهُنَّ‏}‏‏.‏ قَالَتْ هُوَ الرَّجُلُ تَكُونُ عِنْدَهُ الْيَتِيمَةُ، هُوَ وَلِيُّهَا وَوَارِثُهَا، فَأَشْرَكَتْهُ فِي مَالِهِ حَتَّى فِي الْعِذْقِ، فَيَرْغَبُ أَنْ يَنْكِحَهَا، وَيَكْرَهُ أَنْ يُزَوِّجَهَا رَجُلاً، فَيَشْرَكُهُ فِي مَالِهِ بِمَا شَرِكَتْهُ فَيَعْضُلَهَا فَنَزَلَتْ هَذِهِ الآيَةُ‏.‏",
+      "source_hash_sha256": "0b57ba02faaf3b39a8258a208d90d419a7bd15ca824b7f6d9be07b7bff545ce8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9854b644-7ee3-44f3-9b41-900938af99ae",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4601",
+      "reference": "Sahih al-Bukhari, hadith 4601, book 65, باب ‏ {‏وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا‏} ‏",
+      "title": "باب ‏ {‏وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ ‏[quran sura=\"4\" aya_start=\"128\" aya_end=\"128\"]{‏وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا‏}‏‏.‏ قَالَتِ الرَّجُلُ تَكُونُ عِنْدَهُ الْمَرْأَةُ لَيْسَ بِمُسْتَكْثِرٍ مِنْهَا يُرِيدُ أَنْ يُفَارِقَهَا فَتَقُولُ أَجْعَلُكَ مِنْ شَأْنِي فِي حِلٍّ‏.‏ فَنَزَلَتْ هَذِهِ الآيَةُ فِي ذَلِكَ‏.‏",
+      "source_hash_sha256": "2441df97b2be61a13e0a58d68eb61175155ca73a831ff0490380e8822deeb2b3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5d82ca1-c023-430a-9767-6a7a66fafdff",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4602",
+      "reference": "Sahih al-Bukhari, hadith 4602, book 65, باب ‏ {‏إِنَّ الْمُنَافِقِينَ فِي الدَّرَكِ الأَسْفَلِ‏} ‏",
+      "title": "باب ‏ {‏إِنَّ الْمُنَافِقِينَ فِي الدَّرَكِ الأَسْفَلِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، قَالَ حَدَّثَنِي إِبْرَاهِيمُ، عَنِ الأَسْوَدِ، قَالَ كُنَّا فِي حَلْقَةِ عَبْدِ اللَّهِ فَجَاءَ حُذَيْفَةُ حَتَّى قَامَ عَلَيْنَا، فَسَلَّمَ ثُمَّ قَالَ لَقَدْ أُنْزِلَ النِّفَاقُ عَلَى قَوْمٍ خَيْرٍ مِنْكُمْ‏.‏ قَالَ الأَسْوَدُ سُبْحَانَ اللَّهِ، إِنَّ اللَّهَ يَقُولُ ‏[quran sura=\"4\" aya_start=\"145\" aya_end=\"145\"]{‏إِنَّ الْمُنَافِقِينَ فِي الدَّرَكِ الأَسْفَلِ مِنَ النَّارِ‏}‏ فَتَبَسَّمَ عَبْدُ اللَّهِ، وَجَلَسَ حُذَيْفَةُ فِي نَاحِيَةِ الْمَسْجِدِ، فَقَامَ عَبْدُ اللَّهِ فَتَفَرَّقَ أَصْحَابُهُ، فَرَمَانِي بِالْحَصَا، فَأَتَيْتُهُ فَقَالَ حُذَيْفَةُ عَجِبْتُ مِنْ ضَحِكِهِ، وَقَدْ عَرَفَ مَا قُلْتُ، لَقَدْ أُنْزِلَ النِّفَاقُ عَلَى قَوْمٍ كَانُوا خَيْرًا مِنْكُمْ، ثُمَّ تَابُوا فَتَابَ اللَّهُ عَلَيْهِمْ‏.‏",
+      "source_hash_sha256": "612b568b5bf3672c93e3883b6527f9108000aa0605a74300f76a79cd2dc76e29",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "45d1b24c-3e3d-44a7-b9a9-b7e4e142fe89",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4603",
+      "reference": "Sahih al-Bukhari, hadith 4603, book 65, باب قَوْلِهِ ‏{‏إِنَّا أَوْحَيْنَا إِلَيْكَ‏}‏ إِلَى قَوْلِهِ ‏ {‏وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ‏} ‏",
+      "title": "باب قَوْلِهِ ‏{‏إِنَّا أَوْحَيْنَا إِلَيْكَ‏}‏ إِلَى قَوْلِهِ ‏ {‏وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ سُفْيَانَ، قَالَ حَدَّثَنِي الأَعْمَشُ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَا يَنْبَغِي لأَحَدٍ أَنْ يَقُولَ أَنَا خَيْرٌ مِنْ يُونُسَ بْنِ مَتَّى ‏\"‏‏.‏",
+      "source_hash_sha256": "a07fc712efe4d6400bba630eff1751e31b290a74145d7299f755e85b684ef58f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Il ne convient à personne de dire : “Je suis meilleur que Yûnus ibn Mattâ.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5ac202b2-77b1-4a8a-8b42-3678da87787c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4604",
+      "reference": "Sahih al-Bukhari, hadith 4604, book 65, باب قَوْلِهِ ‏{‏إِنَّا أَوْحَيْنَا إِلَيْكَ‏}‏ إِلَى قَوْلِهِ ‏ {‏وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ‏} ‏",
+      "title": "باب قَوْلِهِ ‏{‏إِنَّا أَوْحَيْنَا إِلَيْكَ‏}‏ إِلَى قَوْلِهِ ‏ {‏وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ سِنَانٍ، حَدَّثَنَا فُلَيْحٌ، حَدَّثَنَا هِلاَلٌ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ قَالَ أَنَا خَيْرٌ مِنْ يُونُسَ بْنِ مَتَّى فَقَدْ كَذَبَ ‏\"‏‏.‏",
+      "source_hash_sha256": "748e9950932a72e7e26753f351d1f1387d22c89c0d02e7f16e88adb08c0a16a7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Celui qui dit : “Je suis meilleur que Yûnus ibn Mattâ” a menti. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "099c205e-4001-4955-a665-6bab77b46abe",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4605",
+      "reference": "Sahih al-Bukhari, hadith 4605, book 65, باب {‏يَسْتَفْتُونَكَ قُلِ اللَّهُ يُفْتِيكُمْ فِي الْكَلاَلَةِ إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ وَهُوَ يَرِثُهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ‏}",
+      "title": "باب {‏يَسْتَفْتُونَكَ قُلِ اللَّهُ يُفْتِيكُمْ فِي الْكَلاَلَةِ إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ وَهُوَ يَرِثُهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ‏}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، سَمِعْتُ الْبَرَاءَ ـ رضى الله عنه ـ قَالَ آخِرُ سُورَةٍ نَزَلَتْ بَرَاءَةَ، وَآخِرُ آيَةٍ نَزَلَتْ ‏{‏يَسْتَفْتُونَكَ ‏}‏",
+      "source_hash_sha256": "673e807fffe64138b838cfa91d924b0e0b4c2f2f30df55d21608b4f711a06cb5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "60cb4996-ce05-40d7-b273-df5fd3347143",
+      "url": "https://sunnah.com/bukhari:4600",
+      "reason": "Le rapport cite directement Quran 4:127. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "9854b644-7ee3-44f3-9b41-900938af99ae",
+      "url": "https://sunnah.com/bukhari:4601",
+      "reason": "Le rapport cite directement Quran 4:128. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "e5d82ca1-c023-430a-9767-6a7a66fafdff",
+      "url": "https://sunnah.com/bukhari:4602",
+      "reason": "Le rapport cite directement Quran 4:145. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "099c205e-4001-4955-a665-6bab77b46abe",
+      "url": "https://sunnah.com/bukhari:4605",
+      "reason": "Le rapport comprend le début coranique « يستفتونك ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}

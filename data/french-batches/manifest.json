@@ -18025,6 +18025,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-834",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-834.json",
+      "sourceIds": [
+        "60cb4996-ce05-40d7-b273-df5fd3347143",
+        "9854b644-7ee3-44f3-9b41-900938af99ae",
+        "e5d82ca1-c023-430a-9767-6a7a66fafdff",
+        "45d1b24c-3e3d-44a7-b9a9-b7e4e142fe89",
+        "5ac202b2-77b1-4a8a-8b42-3678da87787c",
+        "099c205e-4001-4955-a665-6bab77b46abe"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19065,9 +19086,33 @@
       "scope": "Sahih al-Bukhari 4599: direct quotation of Quran 4:45",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 4:45. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-833, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4600-QURAN-4-127",
+      "scope": "Sahih al-Bukhari 4600: direct quotations from Quran 4:127",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:127. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4601-QURAN-4-128",
+      "scope": "Sahih al-Bukhari 4601: direct quotation of Quran 4:128",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:128. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4602-QURAN-4-145",
+      "scope": "Sahih al-Bukhari 4602: direct quotation of Quran 4:145",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:145. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4605-QURAN-SNIPPET",
+      "scope": "Sahih al-Bukhari 4605: direct Quranic phrase يستفتونك",
+      "status": "blocked",
+      "reason": "Le rapport comprend le début coranique « يستفتونك ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3972,
-  "hadithLocalDrafted": 3972,
-  "hadithLocalRemaining": 10685
+  "hadithBukhariDrafted": 3974,
+  "hadithLocalDrafted": 3974,
+  "hadithLocalRemaining": 10683
 }
