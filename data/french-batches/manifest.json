@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:37:24.458Z",
+  "lastReconciled": "2026-10-29T14:37:54.658Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 439,
+    "hadithMuslimDrafted": 445,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6775,
-    "hadithDatabaseMissing": 7854,
-    "hadithLocalRemaining": 7854,
+    "hadithLocalDrafted": 6781,
+    "hadithDatabaseMissing": 7848,
+    "hadithLocalRemaining": 7848,
     "hadithNeedsMo": 248,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -31308,6 +31308,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0111",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0111.json",
+      "sourceIds": [
+        "f07bdfb9-aba4-42c1-b7db-4aefa87656c1",
+        "b655059d-e0cd-44a2-b399-ff94b8bda769",
+        "f9ddb053-99c5-4172-84e6-5a32355828b2",
+        "f08c30c5-4f30-4bdd-ae0b-edc3f3942e9c",
+        "d3343c3a-927c-4c3b-9ddb-d303dd71af6d",
+        "2b7009f2-1d91-4e96-9c2a-d9527db36605"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; warning, commands and variant wording retained",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35615,8 +35636,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6775,
-  "hadithLocalRemaining": 7854,
+  "hadithLocalDrafted": 6781,
+  "hadithLocalRemaining": 7848,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -37107,8 +37128,8 @@
       "reason": "La source arabe donne une chaîne de transmission puis renvoie au récit précédent avec une formulation semblable, sans reprendre le texte du hadith. Garder la traduction en attente jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 439,
-  "hadithDatabaseMissing": 7854,
+  "hadithMuslimDrafted": 445,
+  "hadithDatabaseMissing": 7848,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 248
 }

@@ -7664,3 +7664,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0110 saves three private French drafts on nasal cleansing and complete foot washing.
 - Muslim 240b, 240c and 240d contain only transmission chains and references to the previous report’s wording. All three remain blank under Needs Mo rather than borrowing text from 240a.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 439 Muslim drafts, 6,775 total hadith drafts, 7,854 remaining, and 248 Needs Mo items.
+
+### 2026-10-29: Muslim 241a–242c
+
+- FR-LIB-HAD-MUSLIM-0111 saves six private French drafts on washing the feet completely during ablution. The narration chains, report variants and warning about unwashed heels are preserved.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 445 Muslim drafts, 6,781 total hadith drafts, 7,848 remaining, and 248 Needs Mo items.
