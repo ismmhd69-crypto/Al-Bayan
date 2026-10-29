@@ -2706,3 +2706,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-558` saves the complete 4,422-character report of the Night Journey, the encounters in the heavens, and the reduction of the daily prayers. The exporter found one eligible record, and it passed the single-item long-source validator.
 - No database writes or publication occurred. Bukhari local drafts: 2,891 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 178. Total local hadith rows not drafted: 11,764, including held records.
+
+### 2026-10-29: Bukhari 3208–3213
+
+- `FR-LIB-HAD-BUKHARI-559` saves six private French drafts about the creation of the human being, angels, and Hassân’s poetry.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,897 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 178. Total local hadith rows not drafted: 11,758, including held records.
