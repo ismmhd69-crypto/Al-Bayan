@@ -9876,3 +9876,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0549 contains one item: Muslim 1234b gives only a chain and a cross-reference to the preceding report, so it remains blank under Needs Mo.
 - The source hash is retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1235 (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0550 isolates the 2,322-character report in its own batch and saves one private French draft on whether a pilgrim may leave ihram after tawaf. No direct Quran quotation was found.
+- The source hash is retained. Focused batch validation passed. No database write or publication occurred.
