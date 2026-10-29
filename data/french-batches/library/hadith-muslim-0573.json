@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0573",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:13:45.639Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "c835658f-30a4-408c-8727-9efdc8c3301e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1296d",
+      "reference": "Sahih Muslim, hadith 1296 d, book 15, باب رَمْىِ جَمْرَةِ الْعَقَبَةِ مِنْ بَطْنِ الْوَادِي وَتَكُونُ مَكَّةُ عَنْ يَسَارِهِ وَيُكَبِّرُ مَعَ كُلِّ حَصَاةٍ",
+      "title": "باب رَمْىِ جَمْرَةِ الْعَقَبَةِ مِنْ بَطْنِ الْوَادِي وَتَكُونُ مَكَّةُ عَنْ يَسَارِهِ وَيُكَبِّرُ مَعَ كُلِّ حَصَاةٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا غُنْدَرٌ، عَنْ شُعْبَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنِ الْحَكَمِ، عَنْ إِبْرَاهِيمَ، عَنْ عَبْدِ الرَّحْمَنِ، بْنِ يَزِيدَ أَنَّهُ حَجَّ مَعَ عَبْدِ اللَّهِ قَالَ فَرَمَى الْجَمْرَةَ بِسَبْعِ حَصَيَاتٍ وَجَعَلَ الْبَيْتَ عَنْ يَسَارِهِ وَمِنًى عَنْ يَمِينِهِ وَقَالَ هَذَا مَقَامُ الَّذِي أُنْزِلَتْ عَلَيْهِ سُورَةُ الْبَقَرَةِ ‏.‏",
+      "source_hash_sha256": "383b1665811ec905b5ebb072d65464c3af6df9ac759749c7ca1ca2c148003251",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Ghundar nous a rapporté, d'après Shu'ba. Et Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté : Muhammad ibn Jafar nous a rapporté : Shu'ba nous a rapporté, d'après al-Hakam, d'après Ibrahim, d'après Abd al-Rahman ibn Yazid, qui accomplit le pèlerinage avec Abdullah. Il dit : Abdullah lapida la stèle avec sept petits cailloux, plaça la Maison à sa gauche et Mina à sa droite, puis dit : « Voici le lieu de station de celui à qui la sourate al-Baqara fut révélée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "042c7f4a-8ec5-4b0d-9f28-629cbdfb1b73",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1296e",
+      "reference": "Sahih Muslim, hadith 1296 e, book 15, باب رَمْىِ جَمْرَةِ الْعَقَبَةِ مِنْ بَطْنِ الْوَادِي وَتَكُونُ مَكَّةُ عَنْ يَسَارِهِ وَيُكَبِّرُ مَعَ كُلِّ حَصَاةٍ",
+      "title": "باب رَمْىِ جَمْرَةِ الْعَقَبَةِ مِنْ بَطْنِ الْوَادِي وَتَكُونُ مَكَّةُ عَنْ يَسَارِهِ وَيُكَبِّرُ مَعَ كُلِّ حَصَاةٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّهُ قَالَ فَلَمَّا أَتَى جَمْرَةَ الْعَقَبَةِ ‏.‏",
+      "source_hash_sha256": "4f99ec2c222ed4104e882b78f2815a35e6ef90752f7238a79e4a71bbf7840139",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source ne reprend que la chaîne du récit précédent et une précision de formulation (« lorsqu’il arriva à la stèle d’al-Aqaba »), sans reproduire son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "a88c9b50-a7e3-4797-9a19-cce36b8e611c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1296f",
+      "reference": "Sahih Muslim, hadith 1296 f, book 15, باب رَمْىِ جَمْرَةِ الْعَقَبَةِ مِنْ بَطْنِ الْوَادِي وَتَكُونُ مَكَّةُ عَنْ يَسَارِهِ وَيُكَبِّرُ مَعَ كُلِّ حَصَاةٍ",
+      "title": "باب رَمْىِ جَمْرَةِ الْعَقَبَةِ مِنْ بَطْنِ الْوَادِي وَتَكُونُ مَكَّةُ عَنْ يَسَارِهِ وَيُكَبِّرُ مَعَ كُلِّ حَصَاةٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو الْمُحَيَّاةِ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - أَخْبَرَنَا يَحْيَى بْنُ يَعْلَى أَبُو الْمُحَيَّاةِ، عَنْ سَلَمَةَ بْنِ كُهَيْلٍ، عَنْ عَبْدِ الرَّحْمَنِ، بْنِ يَزِيدَ قَالَ قِيلَ لِعَبْدِ اللَّهِ إِنَّ نَاسًا يَرْمُونَ الْجَمْرَةَ مِنْ فَوْقِ الْعَقَبَةِ - قَالَ - فَرَمَاهَا عَبْدُ اللَّهِ مِنْ بَطْنِ الْوَادِي ثُمَّ قَالَ مِنْ هَا هُنَا وَالَّذِي لاَ إِلَهَ غَيْرُهُ رَمَاهَا الَّذِي أُنْزِلَتْ عَلَيْهِ سُورَةُ الْبَقَرَةِ ‏.‏",
+      "source_hash_sha256": "9b6664552067a905d1a4be6a502844301d636e616b4542df9e834168a7eb6da7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Abu al-Muhayyat nous a rapporté. Et Yahya ibn Yahya nous a rapporté — la formulation est la sienne — : Yahya ibn Yala, Abu al-Muhayyat, nous a informés, d'après Salama ibn Kuhayl, d'après Abd al-Rahman ibn Yazid, qui a dit : On dit à Abdullah : « Des gens lapident la stèle depuis le haut du col. » Abdullah la lapida depuis le fond de la vallée, puis dit : « Par Celui en dehors duquel il n'y a aucune divinité, c'est d'ici que l'a lapidée celui à qui la sourate al-Baqara fut révélée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ea5ec626-7f96-4654-82c2-a36ef2a78974",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1297",
+      "reference": "Sahih Muslim, hadith 1297, book 15, باب اسْتِحْبَابِ رَمْىِ جَمْرَةِ الْعَقَبَةِ يَوْمَ النَّحْرِ رَاكِبًا وَبَيَانِ قَوْلِهِ صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ: «لِتَأْخُذُوا مَنَاسِكَكُمْ»",
+      "title": "باب اسْتِحْبَابِ رَمْىِ جَمْرَةِ الْعَقَبَةِ يَوْمَ النَّحْرِ رَاكِبًا وَبَيَانِ قَوْلِهِ صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ: «لِتَأْخُذُوا مَنَاسِكَكُمْ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَلِيُّ بْنُ خَشْرَمٍ، جَمِيعًا عَنْ عِيسَى بْنِ يُونُسَ، - قَالَ ابْنُ خَشْرَمٍ أَخْبَرَنَا عِيسَى، - عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرًا، يَقُولُ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يَرْمِي عَلَى رَاحِلَتِهِ يَوْمَ النَّحْرِ وَيَقُولُ ‏\"‏ لِتَأْخُذُوا مَنَاسِكَكُمْ فَإِنِّي لاَ أَدْرِي لَعَلِّي لاَ أَحُجُّ بَعْدَ حَجَّتِي هَذِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "23eb0490e3a1113686929e9dcab2be78a060506e6ffee7ee2056591b3d035015",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim et Ali ibn Khashram nous ont rapporté, tous deux d'après Isa ibn Yunus — Ibn Khashram a dit : Isa nous a informés —, d'après Ibn Jurayj. Abu al-Zubayr m'a informé avoir entendu Jabir dire : J'ai vu le Prophète ﷺ lapider depuis sa monture, le jour du Sacrifice. Il disait : « Apprenez de moi vos rites, car je ne sais pas, peut-être ne ferai-je plus le pèlerinage après celui-ci. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a4787f79-9bf6-4718-a477-f2a5a254bea2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1298a",
+      "reference": "Sahih Muslim, hadith 1298 a, book 15, باب اسْتِحْبَابِ رَمْىِ جَمْرَةِ الْعَقَبَةِ يَوْمَ النَّحْرِ رَاكِبًا وَبَيَانِ قَوْلِهِ صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ: «لِتَأْخُذُوا مَنَاسِكَكُمْ»",
+      "title": "باب اسْتِحْبَابِ رَمْىِ جَمْرَةِ الْعَقَبَةِ يَوْمَ النَّحْرِ رَاكِبًا وَبَيَانِ قَوْلِهِ صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ: «لِتَأْخُذُوا مَنَاسِكَكُمْ»",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا الْحَسَنُ بْنُ أَعْيَنَ، حَدَّثَنَا مَعْقِلٌ، عَنْ زَيْدِ بْنِ أَبِي، أُنَيْسَةَ عَنْ يَحْيَى بْنِ حُصَيْنٍ، عَنْ جَدَّتِهِ أُمِّ الْحُصَيْنِ، قَالَ سَمِعْتُهَا تَقُولُ، حَجَجْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم حَجَّةَ الْوَدَاعِ فَرَأَيْتُهُ حِينَ رَمَى جَمْرَةَ الْعَقَبَةِ وَانْصَرَفَ وَهُوَ عَلَى رَاحِلَتِهِ وَمَعَهُ بِلاَلٌ وَأُسَامَةُ أَحَدُهُمَا يَقُودُ بِهِ رَاحِلَتَهُ وَالآخَرُ رَافِعٌ ثَوْبَهُ عَلَى رَأْسِ رَسُولِ اللَّهِ صلى الله عليه وسلم مِنَ الشَّمْسِ - قَالَتْ - فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم قَوْلاً كَثِيرًا ثُمَّ سَمِعْتُهُ يَقُولُ ‏\"‏ إِنْ أُمِّرَ عَلَيْكُمْ عَبْدٌ مُجَدَّعٌ - حَسِبْتُهَا قَالَتْ - أَسْوَدُ يَقُودُكُمْ بِكِتَابِ اللَّهِ تَعَالَى فَاسْمَعُوا لَهُ وَأَطِيعُوا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c3b65ea92b955af842056953e718b59309a1cabc4db78eacca86ca13ec9e1ff6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Salama ibn Shabib m'a rapporté : al-Hasan ibn Ayan nous a rapporté : Maqil nous a rapporté, d'après Zayd ibn Abi Unaysa, d'après Yahya ibn Husayn, d'après sa grand-mère Umm al-Husayn, qui a dit : Je l'ai entendue dire : J'ai accompli le pèlerinage d'adieu avec le Messager d'Allah ﷺ. Je l'ai vu lapider la stèle d'al-Aqaba puis repartir sur sa monture. Bilal et Usama étaient avec lui : l'un tenait sa monture par la bride, tandis que l'autre tenait son vêtement au-dessus de sa tête pour protéger le Messager d'Allah ﷺ du soleil. Elle dit : Le Messager d'Allah ﷺ prononça ensuite de nombreuses paroles, puis je l'entendis dire : « Même si un esclave mutilé — je crois qu'elle a dit : noir — est placé à votre tête et vous guide selon le Livre d'Allah, écoutez-le et obéissez-lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "470f15ba-c274-4dda-b4dc-f012d52764e1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1298b",
+      "reference": "Sahih Muslim, hadith 1298 b, book 15, باب اسْتِحْبَابِ رَمْىِ جَمْرَةِ الْعَقَبَةِ يَوْمَ النَّحْرِ رَاكِبًا وَبَيَانِ قَوْلِهِ صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ: «لِتَأْخُذُوا مَنَاسِكَكُمْ»",
+      "title": "باب اسْتِحْبَابِ رَمْىِ جَمْرَةِ الْعَقَبَةِ يَوْمَ النَّحْرِ رَاكِبًا وَبَيَانِ قَوْلِهِ صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَسَلَّمَ: «لِتَأْخُذُوا مَنَاسِكَكُمْ»",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا مُحَمَّدُ بْنُ سَلَمَةَ، عَنْ أَبِي عَبْدِ الرَّحِيمِ، عَنْ زَيْدِ، بْنِ أَبِي أُنَيْسَةَ عَنْ يَحْيَى بْنِ الْحُصَيْنِ، عَنْ أُمِّ الْحُصَيْنِ، جَدَّتِهِ قَالَتْ حَجَجْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم حَجَّةَ الْوَدَاعِ فَرَأَيْتُ أُسَامَةَ وَبِلاَلاً وَأَحَدُهُمَا آخِذٌ بِخِطَامِ نَاقَةِ النَّبِيِّ صلى الله عليه وسلم وَالآخَرُ رَافِعٌ ثَوْبَهُ يَسْتُرُهُ مِنَ الْحَرِّ حَتَّى رَمَى جَمْرَةَ الْعَقَبَةِ ‏.‏ قَالَ مُسْلِمٌ وَاسْمُ أَبِي عَبْدِ الرَّحِيمِ خَالِدُ بْنُ أَبِي يَزِيدَ وَهُوَ خَالُ مُحَمَّدِ بْنِ سَلَمَةَ رَوَى عَنْهُ وَكِيعٌ وَحَجَّاجٌ الأَعْوَرُ ‏.‏",
+      "source_hash_sha256": "d0293423026e1152d3feaa2a6e896ba1945618d8988cead42dffaebec2c73e0b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Hanbal m'a rapporté : Muhammad ibn Salama nous a rapporté, d'après Abu Abd al-Rahim, d'après Zayd ibn Abi Unaysa, d'après Yahya ibn al-Husayn, d'après sa grand-mère Umm al-Husayn, qui a dit : J'ai accompli le pèlerinage d'adieu avec le Messager d'Allah ﷺ. J'ai vu Usama et Bilal ; l'un tenait la bride de la chamelle du Prophète ﷺ et l'autre levait son vêtement pour le protéger de la chaleur, jusqu'à ce qu'il lapide la stèle d'al-Aqaba. Muslim dit : Abu Abd al-Rahim s'appelait Khalid ibn Abi Yazid. Il était l'oncle maternel de Muhammad ibn Salama et Waki ainsi qu'al-Hajjaj al-Awar ont rapporté de lui.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "042c7f4a-8ec5-4b0d-9f28-629cbdfb1b73",
+      "reason": "La source ne reprend que la chaîne du récit précédent et une précision de formulation (« lorsqu’il arriva à la stèle d’al-Aqaba »), sans reproduire son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

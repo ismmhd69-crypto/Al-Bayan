@@ -40850,6 +40850,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0573",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0573.json",
+      "sourceIds": [
+        "c835658f-30a4-408c-8727-9efdc8c3301e",
+        "042c7f4a-8ec5-4b0d-9f28-629cbdfb1b73",
+        "a88c9b50-a7e3-4797-9a19-cce36b8e611c",
+        "ea5ec626-7f96-4654-82c2-a36ef2a78974",
+        "a4787f79-9bf6-4718-a477-f2a5a254bea2",
+        "470f15ba-c274-4dda-b4dc-f012d52764e1"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, five private unpublished AI drafts, one incomplete variant held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45157,8 +45178,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8609,
-  "hadithLocalRemaining": 6020,
+  "hadithLocalDrafted": 8614,
+  "hadithLocalRemaining": 6015,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48785,10 +48806,15 @@
       "source_id": "f1408243-6df4-4567-90af-59a387729291",
       "reason": "La source renvoie au récit précédent (« avec la même chaîne ») sans en reprendre le contenu intégral ; elle n’ajoute qu’une correction de formulation. Garder toute la traduction française vide jusqu’à disponibilité du texte complet.",
       "status": "blocked"
+    },
+    {
+      "source_id": "042c7f4a-8ec5-4b0d-9f28-629cbdfb1b73",
+      "reason": "La source ne reprend que la chaîne du récit précédent et une précision de formulation (« lorsqu’il arriva à la stèle d’al-Aqaba »), sans reproduire son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2273,
+  "hadithMuslimDrafted": 2278,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1018
+  "hadithNeedsMo": 1019
 }

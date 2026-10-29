@@ -9991,3 +9991,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0572 saves five private French drafts about the early departure of vulnerable pilgrims and the stoning of the Jamrah. Muslim 1296c only refers to the preceding report with a wording correction and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1296d–1298b
+
+- FR-LIB-HAD-MUSLIM-0573 saves five private French drafts about the stoning rites and the Prophet’s farewell pilgrimage. Muslim 1296e only gives a chain cross-reference and a location detail, without the report itself; it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
