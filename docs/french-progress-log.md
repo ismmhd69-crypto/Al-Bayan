@@ -9481,3 +9481,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0470 saves three private French drafts about the pre-dawn call to prayer and meal. Muslim 1092d, 1092e, and 1093b refer to earlier reports without reproducing them and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1093c–1094e
+
+- FR-LIB-HAD-MUSLIM-0471 saves four private French drafts about identifying dawn and the pre-dawn meal. Muslim 1093c and 1094e give only report fragments or refer to a prior report and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
