@@ -7713,3 +7713,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0119 saves six private French drafts on right-side practice, public sanitation, washing with water, and wiping over leather footwear.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 488 Muslim drafts, 6,824 total hadith drafts, 7,805 remaining, and 253 Needs Mo items.
+
+### 2026-10-29: Muslim 272b–274c
+
+- FR-LIB-HAD-MUSLIM-0120 saves five private French drafts about wiping over leather footwear.
+- Muslim 272b contains only a chain and a reference to an earlier report with a variant note; it remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 493 Muslim drafts, 6,829 total hadith drafts, 7,800 remaining, and 254 Needs Mo items.
