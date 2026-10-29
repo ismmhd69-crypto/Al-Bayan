@@ -1,0 +1,69 @@
+{
+  "batch_id": "HADITH-MUSLIM-0827",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:51:58.974Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0307605f-0f03-49b8-89bd-c971da087b30",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1757a",
+      "reference": "Sahih Muslim, hadith 1757 a, book 32, باب حُكْمِ الْفَىْءِ ‏‏",
+      "title": "باب حُكْمِ الْفَىْءِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَمُحَمَّدُ بْنُ عَبَّادٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ - وَاللَّفْظُ لاِبْنِ أَبِي شَيْبَةَ - قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرُونَ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنِ الزُّهْرِيِّ، عَنْ مَالِكِ بْنِ أَوْسٍ، عَنْ عُمَرَ، قَالَ كَانَتْ أَمْوَالُ بَنِي النَّضِيرِ مِمَّا أَفَاءَ اللَّهُ عَلَى رَسُولِهِ مِمَّا لَمْ يُوجِفْ عَلَيْهِ الْمُسْلِمُونَ بِخَيْلٍ وَلاَ رِكَابٍ فَكَانَتْ لِلنَّبِيِّ صلى الله عليه وسلم خَاصَّةً فَكَانَ يُنْفِقُ عَلَى أَهْلِهِ نَفَقَةَ سَنَةٍ وَمَا بَقِيَ يَجْعَلُهُ فِي الْكُرَاعِ وَالسِّلاَحِ عُدَّةً فِي سَبِيلِ اللَّهِ ‏.‏",
+      "source_hash_sha256": "48ed04eb921fe953b8c493ab27a0e05d6e1a0efe8541718138d681378695428e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd, Muhammad ibn ‘Abbâd, Abû Bakr ibn Abî Shayba et Is’hâq ibn Ibrâhîm nous ont rapporté — la formulation est celle d’Abû Bakr ibn Abî Shayba. Is’hâq dit : « Il nous a informés », tandis que les autres disent : « Il nous a rapporté » — : Sufyân nous a rapporté, d’après ‘Amr, d’après az-Zuhrî, d’après Mâlik ibn Aws, d’après ‘Umar, qui a dit : « Les biens des Banû an-Nadîr faisaient partie de ce qu’Allah accorda à Son Messager, sans que les musulmans aient engagé contre eux de chevaux ni de montures. Ils furent réservés au Prophète en particulier. Il en tirait de quoi assurer les dépenses de sa famille pour une année ; ce qui restait, il le consacrait aux chevaux et aux armes, en équipement pour la voie d’Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ff1bbe54-316c-4309-ae26-f35cdb146fdc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1757b",
+      "reference": "Sahih Muslim, hadith 1757 b, book 32, باب حُكْمِ الْفَىْءِ ‏‏",
+      "title": "باب حُكْمِ الْفَىْءِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ أَخْبَرَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "f09788119654569082af572f8a34008ba5aaa84855bb7add3b593f774b5b9256",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ff1bbe54-316c-4309-ae26-f35cdb146fdc",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission pour le récit précédent, sans en reproduire le contenu ni apporter de variante précise. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}

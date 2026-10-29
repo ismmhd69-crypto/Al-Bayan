@@ -11261,3 +11261,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0826 saves six private French drafts: the account of the two young Ansar who killed Abu Jahl, the report about Khalid and a combatant’s spoils, its distinct Mu’ta wording, two detailed campaign reports, and the ruling on shares from a locality. Narrator chains, repeated questions, quantities, and wording variants are preserved.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1757a-1757b
+
+- FR-LIB-HAD-MUSLIM-0827 saves a private French draft on the Banu an-Nadir property and its use for the Prophet’s household and equipment. Muslim 1757b gives only another chain for the same report, so its French entry remains blank under Needs Mo.
+- Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
