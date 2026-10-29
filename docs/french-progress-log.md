@@ -10276,3 +10276,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0629 saves five private French drafts about the prohibition on marrying a woman and her aunt at the same time. Muslim 1407g only refers to a preceding report and adds one detail, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1408f–1409a
+
+- FR-LIB-HAD-MUSLIM-0630 saves four private French drafts about marriage proposals, marriage to an aunt and niece together, and marriage contracts during pilgrimage consecration. Muslim 1408f and 1408j only refer to previous reports and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
