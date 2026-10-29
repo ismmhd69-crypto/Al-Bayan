@@ -42740,6 +42740,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0665",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0665.json",
+      "sourceIds": [
+        "c7931f30-01c4-4601-9374-25154c8179fa",
+        "0bb4a432-6f62-4e40-96a9-68c1e30f378d",
+        "7254da21-6235-4372-8734-c14e97a1f2e8",
+        "7f43f6e9-a5c6-436b-8fd1-1b149abc55e7",
+        "e0ad27da-1df6-4c76-b983-8a5cf4803131",
+        "84f46aae-6623-4665-b2e5-77de1999cd6e"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, five private unpublished drafts, one incomplete wording variant held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47047,8 +47068,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8976,
-  "hadithLocalRemaining": 5653,
+  "hadithLocalDrafted": 8981,
+  "hadithLocalRemaining": 5648,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51390,10 +51411,15 @@
       "source_id": "5d4b46f2-0b24-4266-bdeb-a93a0e0fc0f8",
       "reason": "Cette entrée renvoie au récit précédent (« نحوه ») et ne donne que des variantes de formulation et une omission. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "7254da21-6235-4372-8734-c14e97a1f2e8",
+      "reason": "Cette entrée ne reproduit pas le récit complet et ne donne qu’une variante sur le fait qu’Ibn Umar ait repris son épouse et compté la répudiation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2640,
+  "hadithMuslimDrafted": 2645,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1161
+  "hadithNeedsMo": 1162
 }
