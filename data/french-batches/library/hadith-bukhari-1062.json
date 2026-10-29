@@ -148,12 +148,18 @@
         "translation_index_allowed": false,
         "expires_at": null
       },
-      "text_french": "Qabîsa nous a rapporté : Sufyân nous a rapporté, d’après Ash‘ath, d’après Mu‘âwiya ibn Suwayd ibn Muqarrin, d’après al-Barâ’ (qu’Allah l’agrée), qui dit : « Le Prophète ﷺ nous ordonna sept choses : rendre visite au malade, suivre les funérailles et invoquer la miséricorde pour celui qui éternue. Il nous interdit de porter la soie, le brocart, les étoffes qassî, le brocart épais et les coussins de selle rouges. »",
-      "draft_status": "private_local_ai_draft",
+      "text_french": "",
+      "draft_status": "needs_mo_unclear_source",
       "database_inserted": false,
       "translation_published": false,
-      "human_reviewed": false
+      "human_reviewed": false,
+      "needs_mo": true
     }
   ],
-  "needs_mo": []
+  "needs_mo": [
+    {
+      "source_id": "424126be-8271-41da-94c6-1917156fe3c9",
+      "reason": "The Arabic says the Prophet ordered seven things but the excerpt names only three before moving to prohibitions. Keep the entire report blank until the source wording is clarified."
+    }
+  ]
 }

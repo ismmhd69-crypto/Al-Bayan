@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4883,
+    "hadithBukhariDrafted": 4882,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4883,
+    "hadithLocalDrafted": 4882,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9746,
-    "hadithNeedsMo": 749,
+    "hadithLocalRemaining": 9747,
+    "hadithNeedsMo": 750,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -22680,10 +22680,10 @@
         "dcfc5ed0-22c5-4a6c-bed0-76fedf64b670",
         "424126be-8271-41da-94c6-1917156fe3c9"
       ],
-      "translated": 6,
+      "translated": 5,
       "inserted": 0,
       "preserved": 0,
-      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "validation": "Five records passed the focused validator; one source held for clarification. No database writes.",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
@@ -25769,6 +25769,12 @@
       "scope": "Sahih al-Bukhari 5796: direct Quran quotations from 9:80 and 9:84",
       "status": "blocked",
       "reason": "The report directly quotes Quran 9:80 and 9:84. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-5849-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 5849: report says seven commands but the excerpt lists only three before prohibitions",
+      "status": "blocked",
+      "reason": "The exported Arabic wording appears incomplete or unclear. Keep the entire report blank until the source wording is clarified."
     }
   ]
 }

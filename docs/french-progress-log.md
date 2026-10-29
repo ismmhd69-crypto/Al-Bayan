@@ -5454,8 +5454,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 ### 2026-10-29: Bukhari 5844–5849
 
-- FR-LIB-HAD-BUKHARI-1062 saves six private French drafts about clothing, retaining the source’s descriptions and explanatory note on the Abyssinian word sana.
-- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,877 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,752, including held records.
+- FR-LIB-HAD-BUKHARI-1062 saves five private French drafts about clothing, retaining the source’s descriptions and explanatory note on the Abyssinian word sana. Bukhari 5849 is held because the Arabic says seven commands but names only three before listing prohibitions.
+- Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 4,876 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 750. Total local hadith rows not drafted: 9,753, including held records.
 
 ### 2026-10-29: Bukhari 5850–5855
 
