@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0729",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:03:51.493Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "fb9c0e06-1945-40f9-85ed-1a91ada7bd31",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1563a",
+      "reference": "Sahih Muslim, hadith 1563 a, book 22, باب فَضْلِ إِنْظَارِ الْمُعْسِرِ ‏‏",
+      "title": "باب فَضْلِ إِنْظَارِ الْمُعْسِرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْهَيْثَمِ، خَالِدُ بْنُ خِدَاشِ بْنِ عَجْلاَنَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي قَتَادَةَ، أَنَّ أَبَا قَتَادَةَ، طَلَبَ غَرِيمًا لَهُ فَتَوَارَى عَنْهُ ثُمَّ وَجَدَهُ فَقَالَ إِنِّي مُعْسِرٌ ‏.‏ فَقَالَ آللَّهِ قَالَ آللَّهِ ‏.‏ قَالَ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ سَرَّهُ أَنْ يُنْجِيَهُ اللَّهُ مِنْ كُرَبِ يَوْمِ الْقِيَامَةِ فَلْيُنَفِّسْ عَنْ مُعْسِرٍ أَوْ يَضَعْ عَنْهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0eed89dbc7c9d400873541ee4f61eba1c87756844ef7ffc17eb5f8dd164a8f28",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Haytham Khalid ibn Khidash ibn Ajlan nous a rapporté : Hammad ibn Zayd nous a rapporté, d’après Ayyub, d’après Yahya ibn Abi Kathir, d’après Abd Allah ibn Abi Qatada, qu’Abu Qatada réclama une dette à l’un de ses débiteurs. Celui-ci se déroba, puis Abu Qatada le retrouva. L’homme dit : « Je suis dans la gêne. » Abu Qatada demanda : « Le jures-tu par Allah ? » Il répondit : « Oui, par Allah. » Abu Qatada dit : « J’ai entendu le Messager d’Allah dire : “Que celui qui souhaite qu’Allah le délivre des angoisses du Jour de la Résurrection accorde un délai à une personne dans la gêne ou lui remette sa dette.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "119501e7-f08b-4d4a-9e5e-5f6bc3f486d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1563b",
+      "reference": "Sahih Muslim, hadith 1563 b, book 22, باب فَضْلِ إِنْظَارِ الْمُعْسِرِ ‏‏",
+      "title": "باب فَضْلِ إِنْظَارِ الْمُعْسِرِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي جَرِيرُ بْنُ حَازِمٍ، عَنْ أَيُّوبَ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "58f81dbfcc4f525956be2e3e4d7e6a83b55123cbd9b6867e07d1dd5d4ddb4763",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4a5522e3-8d6c-4a68-acd6-49bf936c7676",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1564a",
+      "reference": "Sahih Muslim, hadith 1564 a, book 22, بَاب تَحْرِيمِ مَطْلِ الْغَنِيِّ وَصِحَّةِ الْحَوَالَةِ وَاسْتِحْبَابِ قَبُولِهَا إِذَا أُحِيلَ عَلَى مَلِيٍّ",
+      "title": "بَاب تَحْرِيمِ مَطْلِ الْغَنِيِّ وَصِحَّةِ الْحَوَالَةِ وَاسْتِحْبَابِ قَبُولِهَا إِذَا أُحِيلَ عَلَى مَلِيٍّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، ‏.‏ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَطْلُ الْغَنِيِّ ظُلْمٌ وَإِذَا أُتْبِعَ أَحَدُكُمْ عَلَى مَلِيءٍ فَلْيَتْبَعْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ea5a805a1ef1668b6f8785f999c00c31bfdcaf58e9b2c58a23e3146cb0ff62d5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya dit : « J’ai récité devant Malik », d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra, que le Messager d’Allah a dit : « Le retard de paiement d’une personne aisée est une injustice. Si l’un de vous est renvoyé vers un débiteur solvable, qu’il accepte ce renvoi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a2e9c8e0-1e3f-404f-8ee9-6b93447aa166",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1564b",
+      "reference": "Sahih Muslim, hadith 1564 b, book 22, بَاب تَحْرِيمِ مَطْلِ الْغَنِيِّ وَصِحَّةِ الْحَوَالَةِ وَاسْتِحْبَابِ قَبُولِهَا إِذَا أُحِيلَ عَلَى مَلِيٍّ",
+      "title": "بَاب تَحْرِيمِ مَطْلِ الْغَنِيِّ وَصِحَّةِ الْحَوَالَةِ وَاسْتِحْبَابِ قَبُولِهَا إِذَا أُحِيلَ عَلَى مَلِيٍّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، قَالاَ جَمِيعًا حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "6401fae7baaf0daee1513560db2fc4543a72f6cbffc649ac091bc6c08a353c3f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "62f2bf61-3e57-4f7c-ab7f-5fed2b96e4df",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1565a",
+      "reference": "Sahih Muslim, hadith 1565 a, book 22, بَاب تَحْرِيمِ بَيْعِ فَضْلِ الْمَاءِ الَّذِي يَكُونُ بِالْفَلَاةِ وَيُحْتَاجُ إِلَيْهِ لِرَعْيِ الْكَلَأِ وَتَحْرِيمِ مَنْعِ بَذْلِهِ وَتَحْرِيمِ بَيْعِ ضِرَابِ الْفَحْلِ",
+      "title": "بَاب تَحْرِيمِ بَيْعِ فَضْلِ الْمَاءِ الَّذِي يَكُونُ بِالْفَلَاةِ وَيُحْتَاجُ إِلَيْهِ لِرَعْيِ الْكَلَأِ وَتَحْرِيمِ مَنْعِ بَذْلِهِ وَتَحْرِيمِ بَيْعِ ضِرَابِ الْفَحْلِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، أَخْبَرَنَا وَكِيعٌ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، جَمِيعًا عَنِ ابْنِ جُرَيْجٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْ بَيْعِ فَضْلِ الْمَاءِ ‏.‏",
+      "source_hash_sha256": "4825cf5555ebf0816d877ff80b478782c808c23734904ec6d3560d5caf16188f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Waki‘ nous a informés. Muhammad ibn Hatim m’a également rapporté : Yahya ibn Sa‘id nous a rapporté. Tous deux d’après Ibn Jurayj, d’après Abu al-Zubayr, d’après Jabir ibn Abd Allah, qui dit : « Le Messager d’Allah a interdit de vendre le surplus d’eau. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7ea3e721-0b0b-43c3-b438-d1a306c6614d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1565b",
+      "reference": "Sahih Muslim, hadith 1565 b, book 22, بَاب تَحْرِيمِ بَيْعِ فَضْلِ الْمَاءِ الَّذِي يَكُونُ بِالْفَلَاةِ وَيُحْتَاجُ إِلَيْهِ لِرَعْيِ الْكَلَأِ وَتَحْرِيمِ مَنْعِ بَذْلِهِ وَتَحْرِيمِ بَيْعِ ضِرَابِ الْفَحْلِ",
+      "title": "بَاب تَحْرِيمِ بَيْعِ فَضْلِ الْمَاءِ الَّذِي يَكُونُ بِالْفَلَاةِ وَيُحْتَاجُ إِلَيْهِ لِرَعْيِ الْكَلَأِ وَتَحْرِيمِ مَنْعِ بَذْلِهِ وَتَحْرِيمِ بَيْعِ ضِرَابِ الْفَحْلِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْ بَيْعِ ضِرَابِ الْجَمَلِ وَعَنْ بَيْعِ الْمَاءِ وَالأَرْضِ لِتُحْرَثَ ‏.‏ فَعَنْ ذَلِكَ نَهَى النَّبِيُّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "27212bf231999205ddca6b1420c14dff4e499ba8d7467c86b6c7e6de0a657111",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim nous a rapporté : Rawh ibn Ubada nous a rapporté : Ibn Jurayj nous a rapporté : Abu al-Zubayr m’a informé avoir entendu Jabir ibn Abd Allah dire : « Le Messager d’Allah a interdit de vendre la saillie du chameau ainsi que l’eau et la terre destinées à être cultivées. C’est cela que le Prophète a interdit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "119501e7-f08b-4d4a-9e5e-5f6bc3f486d9",
+      "reason": "Cette entrée donne seulement une chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "a2e9c8e0-1e3f-404f-8ee9-6b93447aa166",
+      "reason": "Cette entrée donne une chaîne de transmission puis renvoie au récit précédent sans en reprendre le texte. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
