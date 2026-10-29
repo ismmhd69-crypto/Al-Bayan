@@ -1148,3 +1148,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-242` saves six private French drafts for Bukhari 1387–1390c. They preserve the reports about Abu Bakr’s shroud and death, sudden death and charity, the Prophet’s burial in Aisha’s home, and the later notes about the grave’s shape and the wall repairs.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,274 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 70. Total local hadith rows not drafted: 13,355, including held records.
+### 2026-10-29: Bukhari 1391–1396 source review
+
+- `FR-LIB-HAD-BUKHARI-243` saves five private French drafts for Bukhari 1391–1393 and 1395–1396. Bukhari 1394 remains blank and is recorded under Needs Mo because it directly quotes Quran 111:1; no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,279 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 71. Total local hadith rows not drafted: 13,350, including held records.
