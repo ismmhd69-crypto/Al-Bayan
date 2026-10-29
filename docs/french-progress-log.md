@@ -10356,3 +10356,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0645 saves three private French drafts preserving the report variants about Rifa‘a’s former wife. Muslim 1433c, 1433e, and 1433g are incomplete cross-references or chain-only records and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1434a–1436a
+
+- FR-LIB-HAD-MUSLIM-0646 saves two private French drafts: the supplication before marital relations and the report about a wife leaving her husband’s bed. Muslim 1434b and 1435c give only variants by reference; 1435a and 1435b quote Quran 2:223. All four remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

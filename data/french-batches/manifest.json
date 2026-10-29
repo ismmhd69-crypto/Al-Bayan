@@ -42341,6 +42341,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0646",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0646.json",
+      "sourceIds": [
+        "fdc33ef6-c196-4f7f-8ab0-d6ef1a3d80c6",
+        "fd932e46-6283-4122-87c2-b09658a92479",
+        "1b44052f-f020-4baf-80ac-30b7faed6603",
+        "9b67a75c-4be6-4b74-9375-093fe26436fb",
+        "844582ec-7953-48b0-98f2-6d17fb5bc96f",
+        "a6216d49-5db7-4fb7-b5cd-eeb7652dc54c"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, two private unpublished drafts, two Quran-quoted reports and two incomplete variant-only records held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46648,8 +46669,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8907,
-  "hadithLocalRemaining": 5722,
+  "hadithLocalDrafted": 8909,
+  "hadithLocalRemaining": 5720,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50766,10 +50787,30 @@
       "source_id": "0b219a41-a530-4da7-aa9b-7103661f9708",
       "reason": "Cette entrée renvoie uniquement au récit précédent (« مِثْلَهُ ») et précise une variation de chaîne. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "fd932e46-6283-4122-87c2-b09658a92479",
+      "reason": "Cette entrée renvoie au sens du récit précédent et ne donne que des variantes concernant la mention « Au nom d’Allah », sans reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1b44052f-f020-4baf-80ac-30b7faed6603",
+      "reason": "Cette source cite le verset 2:223 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "9b67a75c-4be6-4b74-9375-093fe26436fb",
+      "reason": "Cette source cite le verset 2:223 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "844582ec-7953-48b0-98f2-6d17fb5bc96f",
+      "reason": "Cette entrée renvoie au récit précédent (« بهذا الحديث ») et n’ajoute que des variantes, dont une précision sur la manière de s’approcher. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2571,
+  "hadithMuslimDrafted": 2573,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1116
+  "hadithNeedsMo": 1120
 }
