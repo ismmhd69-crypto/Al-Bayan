@@ -44062,6 +44062,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0759",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0759.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete reports translated as private drafts; two transmission-only variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48369,8 +48382,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9180,
-  "hadithLocalRemaining": 5449,
+  "hadithLocalDrafted": 9184,
+  "hadithLocalRemaining": 5445,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -53512,10 +53525,20 @@
       "source_id": "d96aeb6a-8699-473d-987c-7f66a373d658",
       "reason": "Cette entrée décrit seulement des variantes de transmission et de formulation du récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "555d7a10-bee3-4671-b3fd-f7a750a5bdf6",
+      "reason": "Cette entrée ne fait que renvoyer au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "73767d52-2c37-4728-bbd9-0f98f80330d0",
+      "reason": "Cette entrée ne contient qu’une chaîne de transmission et renvoie à un récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2844,
+  "hadithMuslimDrafted": 2848,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1253
+  "hadithNeedsMo": 1255
 }

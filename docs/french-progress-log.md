@@ -10921,3 +10921,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0758 saves six private French drafts about equal treatment of children and lifetime gifts. All six entries contain full reports.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1625d–1625i
+
+- FR-LIB-HAD-MUSLIM-0759 saves four private French drafts on lifetime gifts. Muslim 1625g–h only refer to prior reports and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
