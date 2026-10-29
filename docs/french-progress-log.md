@@ -7765,3 +7765,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0128 saves three private French drafts about cleaning semen from clothing.
 - Muslim 288c, 288d and 289b contain only chains and variant references without the full report wording. They remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 528 Muslim drafts, 6,864 total hadith drafts, 7,765 remaining, and 267 Needs Mo items.
+
+### 2026-10-29: Muslim 291a–293b
+
+- FR-LIB-HAD-MUSLIM-0129 saves four private French drafts on menstrual blood, urine and intimacy during menstruation.
+- Muslim 291b and 292b contain transmission chains and variant wording without the complete reports. Both remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 532 Muslim drafts, 6,868 total hadith drafts, 7,761 remaining, and 269 Needs Mo items.

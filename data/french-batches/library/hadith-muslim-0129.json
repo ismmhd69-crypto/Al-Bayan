@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0129",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:48:25.884Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "602a0358-8b21-4c69-952d-c5b320caf3c8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:291a",
+      "reference": "Sahih Muslim, hadith 291a, book 2, باب نَجَاسَةِ الدَّمِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "title": "باب نَجَاسَةِ الدَّمِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، قَالَ حَدَّثَتْنِي فَاطِمَةُ، عَنْ أَسْمَاءَ، قَالَتْ جَاءَتِ امْرَأَةٌ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَتْ إِحْدَانَا يُصِيبُ ثَوْبَهَا مِنْ دَمِ الْحَيْضَةِ كَيْفَ تَصْنَعُ بِهِ قَالَ ‏\"‏ تَحُتُّهُ ثُمَّ تَقْرُصُهُ بِالْمَاءِ ثُمَّ تَنْضَحُهُ ثُمَّ تُصَلِّي فِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "beb1dbebd254eda3bf8ec647e2392e13deee5b445a88b50b8c92fcf70a7fd937",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté, d’après Waki‘, d’après Hisham ibn ‘Urwa. H. Muhammad ibn Hatim m’a rapporté — la formulation est la sienne — : Yahya ibn Sa‘id nous a rapporté, d’après Hisham ibn ‘Urwa, qui a dit : Fatima m’a rapporté, d’après Asma’, qui a dit : Une femme vint trouver le Prophète ﷺ et lui demanda : « Si le sang des règles atteint le vêtement de l’une d’entre nous, que doit-elle faire ? » Il répondit : « Elle le gratte, le frotte avec de l’eau, l’asperge, puis prie avec ce vêtement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8b243e30-c789-48dc-b9af-c91f9a42a3be",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:291b",
+      "reference": "Sahih Muslim, hadith 291b, book 2, باب نَجَاسَةِ الدَّمِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "title": "باب نَجَاسَةِ الدَّمِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا ابْنُ نُمَيْرٍ، ح وَحَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنِي ابْنُ وَهْبٍ، أَخْبَرَنِي يَحْيَى بْنُ عَبْدِ اللَّهِ بْنِ سَالِمٍ، وَمَالِكُ بْنُ أَنَسٍ، وَعَمْرُو بْنُ الْحَارِثِ، كُلُّهُمْ عَنْ هِشَامِ بْنِ عُرْوَةَ، بِهَذَا الإِسْنَادِ مِثْلَ حَدِيثِ يَحْيَى بْنِ سَعِيدٍ ‏.‏",
+      "source_hash_sha256": "e48ed9d2ff33c75b92ffec95f7ce67d94702e1007bbaf3a574083fc1319fe80f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne donne que la chaîne de transmission et renvoie à la formulation précédente, sans reprendre le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "d557e9dd-8310-4dc6-81a4-a6e96baf44b5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:292a",
+      "reference": "Sahih Muslim, hadith 292a, book 2, باب الدَّلِيلِ عَلَى نَجَاسَةِ الْبَوْلِ وَوُجُوبِ الاِسْتِبْرَاءِ مِنْهُ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى نَجَاسَةِ الْبَوْلِ وَوُجُوبِ الاِسْتِبْرَاءِ مِنْهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو سَعِيدٍ الأَشَجُّ، وَأَبُو كُرَيْبٍ مُحَمَّدُ بْنُ الْعَلاَءِ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا الأَعْمَشُ، قَالَ سَمِعْتُ مُجَاهِدًا، يُحَدِّثُ عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ مَرَّ رَسُولُ اللَّهِ صلى الله عليه وسلم عَلَى قَبْرَيْنِ فَقَالَ ‏\"‏ أَمَا إِنَّهُمَا لَيُعَذَّبَانِ وَمَا يُعَذَّبَانِ فِي كَبِيرٍ أَمَّا أَحَدُهُمَا فَكَانَ يَمْشِي بِالنَّمِيمَةِ وَأَمَّا الآخَرُ فَكَانَ لاَ يَسْتَتِرُ مِنْ بَوْلِهِ ‏\"‏ ‏.‏ قَالَ فَدَعَا بِعَسِيبٍ رَطْبٍ فَشَقَّهُ بِاثْنَيْنِ ثُمَّ غَرَسَ عَلَى هَذَا وَاحِدًا وَعَلَى هَذَا وَاحِدًا ثُمَّ قَالَ ‏\"‏ لَعَلَّهُ أَنْ يُخَفَّفَ عَنْهُمَا مَا لَمْ يَيْبَسَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3879eb39aece662da759a8f46c33c1f6d6f9ebd196d35532d876ad416b759047",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Sa‘id al-Ashajj, Abû Kurayb Muhammad ibn al-‘Ala et Ishaq ibn Ibrahim nous ont rapporté. Ishaq dit : Il nous a informés ; les deux autres dirent : Waki‘ nous a rapporté, d’après al-A‘mash, qui a dit : J’ai entendu Mujahid rapporter, d’après Tawus, d’après Ibn ‘Abbas : Le Messager de Dieu ﷺ passa près de deux tombes et dit : « Ces deux personnes sont bien en train de subir un châtiment, mais ce n’est pas pour une chose que les gens considèrent comme grave. L’une colportait des propos malveillants ; l’autre ne se protégeait pas de son urine. » Il demanda alors une branche fraîche de palmier, la fendit en deux, puis en planta une moitié sur chaque tombe. Il dit : « Peut-être leur châtiment sera-t-il allégé tant que ces branches ne seront pas sèches. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7467155a-7549-4bec-8627-4146b7bc277a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:292b",
+      "reference": "Sahih Muslim, hadith 292b, book 2, باب الدَّلِيلِ عَلَى نَجَاسَةِ الْبَوْلِ وَوُجُوبِ الاِسْتِبْرَاءِ مِنْهُ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى نَجَاسَةِ الْبَوْلِ وَوُجُوبِ الاِسْتِبْرَاءِ مِنْهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِيهِ أَحْمَدُ بْنُ يُوسُفَ الأَزْدِيُّ، حَدَّثَنَا مُعَلَّى بْنُ أَسَدٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، عَنْ سُلَيْمَانَ الأَعْمَشِ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ وَكَانَ الآخَرُ لاَ يَسْتَنْزِهُ عَنِ الْبَوْلِ أَوْ مِنَ الْبَوْلِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5a111ee1404bcf02c4abc21e2afe034aa99d433ec155d54acd2f5c890534265c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne donne que la chaîne de transmission et une variante de formulation (« ne se nettoyait pas soigneusement de l’urine »), sans reprendre le texte complet du récit. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "c875b3a5-7a5f-4e99-8327-e80035202a2e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:293a",
+      "reference": "Sahih Muslim, hadith 293 a, book 3, باب مُبَاشَرَةِ الْحَائِضِ فَوْقَ الإِزَارِ ‏‏",
+      "title": "باب مُبَاشَرَةِ الْحَائِضِ فَوْقَ الإِزَارِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ إِحْدَانَا إِذَا كَانَتْ حَائِضًا أَمَرَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَتَأْتَزِرُ بِإِزَارٍ ثُمَّ يُبَاشِرُهَا ‏.‏",
+      "source_hash_sha256": "c20bc0786a9fcae7eb783f020b25a995c11efdfe9c5504abbaabfd38365b3a61",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba, Zuhayr ibn Harb et Ishaq ibn Ibrahim nous ont rapporté. Ishaq dit : Il nous a informés ; les deux autres dirent : Jarir nous a rapporté, d’après Mansur, d’après Ibrahim, d’après al-Aswad, d’après ‘A’isha, qui a dit : Lorsque l’une d’entre nous avait ses règles, le Messager de Dieu ﷺ lui ordonnait de nouer un pagne autour de sa taille, puis avait des contacts intimes avec elle.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b2528705-af33-49d0-903f-c4a53b6f8d35",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:293b",
+      "reference": "Sahih Muslim, hadith 293 b, book 3, باب مُبَاشَرَةِ الْحَائِضِ فَوْقَ الإِزَارِ ‏‏",
+      "title": "باب مُبَاشَرَةِ الْحَائِضِ فَوْقَ الإِزَارِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الشَّيْبَانِيِّ، ح وَحَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، - وَاللَّفْظُ لَهُ - أَخْبَرَنَا عَلِيُّ بْنُ مُسْهِرٍ، أَخْبَرَنَا أَبُو إِسْحَاقَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الأَسْوَدِ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ إِحْدَانَا إِذَا كَانَتْ حَائِضًا أَمَرَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تَأْتَزِرَ فِي فَوْرِ حَيْضَتِهَا ثُمَّ يُبَاشِرُهَا ‏.‏ قَالَتْ وَأَيُّكُمْ يَمْلِكُ إِرْبَهُ كَمَا كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَمْلِكُ إِرْبَهُ ‏.‏",
+      "source_hash_sha256": "4810341bfe7246d1377ab096131b1574f9a402f4d616221991054b81c9ef9068",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté, d’après ‘Ali ibn Mushir, d’après al-Shaybani. H. ‘Ali ibn Hujr al-Sa‘di m’a rapporté — la formulation est la sienne — : ‘Ali ibn Mushir nous a informés, d’après Abû Ishaq, d’après ‘Abd al-Rahman ibn al-Aswad, d’après son père, d’après ‘A’isha, qui a dit : Lorsque l’une d’entre nous avait ses règles, le Messager de Dieu ﷺ lui ordonnait de nouer un pagne autour de sa taille pendant le début de ses règles, puis avait des contacts intimes avec elle. Elle ajouta : « Lequel d’entre vous maîtrise son désir aussi bien que le Messager de Dieu ﷺ maîtrisait le sien ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "8b243e30-c789-48dc-b9af-c91f9a42a3be",
+      "reason": "La source arabe ne donne que la chaîne de transmission et renvoie à la formulation précédente, sans reprendre le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "7467155a-7549-4bec-8627-4146b7bc277a",
+      "reason": "La source arabe ne donne que la chaîne de transmission et une variante de formulation (« ne se nettoyait pas soigneusement de l’urine »), sans reprendre le texte complet du récit. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ]
+}
