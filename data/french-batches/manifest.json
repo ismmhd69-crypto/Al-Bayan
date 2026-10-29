@@ -42966,6 +42966,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0677",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0677.json",
+      "sourceIds": [
+        "7c6bad70-9384-4f22-b2ed-05b97125c9ac",
+        "a54c149c-6310-424f-80c8-358815cab5d2",
+        "f2c43167-3086-4e92-b04d-77b33b8e0bbd",
+        "8b14854c-e98a-41cc-aec8-9fcc8e1ab265",
+        "df273da6-91ec-4347-98d6-42c452ffbf2e",
+        "a1306bce-18cd-4b00-8fc6-b0768f6f3e6f"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, one Quran-quoted report and two incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47273,8 +47294,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9002,
-  "hadithLocalRemaining": 5627,
+  "hadithLocalDrafted": 9005,
+  "hadithLocalRemaining": 5624,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51716,10 +51737,25 @@
       "source_id": "726b3890-f51f-4e5f-b36a-d98cc1c8ab60",
       "reason": "Cette entrée commence un récit puis renvoie à la version de Yahya ibn Abi Kathir (« واقتصوا الحديث بمعنى حديث ... »), en ne donnant qu’une variante de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "7c6bad70-9384-4f22-b2ed-05b97125c9ac",
+      "reason": "Cette entrée renvoie au récit précédent (« مثله ») et ajoute seulement qu’Aïcha désapprouvait le rapport de Fatima. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "a54c149c-6310-424f-80c8-358815cab5d2",
+      "reason": "Cette source cite le verset 65:1 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "8b14854c-e98a-41cc-aec8-9fcc8e1ab265",
+      "reason": "Cette entrée renvoie uniquement au récit de Zuhayr (« بمثل حديثه ») et n’en reproduit pas le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2666,
+  "hadithMuslimDrafted": 2669,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1181
+  "hadithNeedsMo": 1184
 }
