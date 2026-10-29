@@ -572,3 +572,10 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-110` saved French drafts for Bukhari 603, 604, 605, 606 and 607. The short variants, narrator chains and the wording “sauf l’iqama” were retained without filling in additional text from another report.
 - Both batches passed the focused validator, including Arabic source-hash checks, IDs, rights metadata, unpublished/private state and the single-record handling for Bukhari 602. Five local drafts were added; one source remains held. No database writes, publication, human review or public route changes occurred.
 - Bukhari local drafts: 566 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 27. Total local hadith rows not drafted: 14,063, including all held records.
+
+### 2026-10-29: Bukhari 608–613 source review
+
+- `FR-LIB-HAD-BUKHARI-111` saved private French drafts for Bukhari 608, 609, 611, 612 and 613, preserving narrator chains, the two-report structure in 612, and the unspecified identity of the narrator in 613.
+- Bukhari 610 remains blank and held under Needs Mo because its closing Arabic phrase is a Quran quotation and no approved, attributed French Quran translation is configured. No French Quran wording was created.
+- The focused validator passed all six records, including original Arabic hashes, rights metadata, private unpublished state and the reason-specific hold. Five local drafts were added; one additional hadith is held. No database writes or publication occurred.
+- Bukhari local drafts: 571 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 28. Total local hadith rows not drafted: 14,058, including held records.
