@@ -11974,3 +11974,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2113a-2116b
 
 - FR-LIB-HAD-MUSLIM-1003 saves four complete private French drafts about bells, travel, and marking the face. Two transmission-only variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2117-2119e
+
+- FR-LIB-HAD-MUSLIM-1004 saves six complete private French drafts about animal marking. No database write or publication occurred.
