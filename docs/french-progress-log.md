@@ -705,3 +705,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-132` saved private French drafts for Bukhari 730–735. The translations preserve the uncertainty about the Ramadan prayer room’s material, the sitting prayer after an injury, and the distinct instructions to follow the imam’s movements.
 - The six-record batch passed the focused validator for Arabic hashes, rights metadata, private unpublished state and narration variants. No Needs Mo item was identified. No database writes or publication occurred.
 - Bukhari local drafts: 685 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 32. Total local hadith rows not drafted: 13,944, including held records.
+
+### 2026-10-29: Bukhari 736–741 source review
+
+- `FR-LIB-HAD-BUKHARI-133` saved private French drafts for Bukhari 736–741. The wording preserves the shoulder-height hand movements and the source’s correction about how an attribution was phrased in narration.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and narrator notes. No Needs Mo item was identified. No database writes or publication occurred.
+- Bukhari local drafts: 691 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 32. Total local hadith rows not drafted: 13,938, including held records.
