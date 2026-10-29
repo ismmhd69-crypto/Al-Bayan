@@ -10246,3 +10246,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0623 saves four private French drafts about the Prophet’s example of balanced worship and his refusal of monastic celibacy. Muslim 1400d and 1400e only refer to the earlier report with partial additions or omissions and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1403a–1404c
+
+- FR-LIB-HAD-MUSLIM-0624 saves two private French drafts on redirecting attraction toward one’s spouse. Muslim 1403b, 1404b, and 1404c contain only cross-references or partial variants and remain blank under Needs Mo. Muslim 1404a includes a Quranic quotation and remains entirely blank until an approved French Quran translation and rights are confirmed.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
