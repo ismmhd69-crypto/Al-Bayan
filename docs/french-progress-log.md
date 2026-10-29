@@ -2446,3 +2446,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-506` records the 6,735-character report of the letter to Heraclius as a single-item review. The report directly quotes Quran 3:64, so its entire French translation remains blank pending an approved, attributed French Quran translation.
 - The record passed the focused validator for its Arabic hash, ID, reference, rights metadata, private unpublished state, Quran hold and single-item long-source rule. No database writes or publication occurred. Bukhari local drafts: 2,648 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 170. Total local hadith rows not drafted: 12,007, including held records.
+
+### 2026-10-29: Bukhari 2942–2947 source review
+
+- `FR-LIB-HAD-BUKHARI-507` saves four private French drafts about Khaybar, the call to prayer before an attack, a legal maxim, and concealing an expedition’s destination. Bukhari 2944 remains blank because the exported Arabic is only a fragment. Bukhari 2945 remains blank because it quotes Quran 37:177.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and both holds. No database writes or publication occurred. Bukhari local drafts: 2,652 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 171. Total local hadith rows not drafted: 12,003, including held records.

@@ -11549,6 +11549,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "one Needs Mo hold for embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-507",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-507.json",
+      "sourceIds": [
+        "ee8b0901-fae8-4963-8235-ca3a80ede4a8",
+        "cd0ea34b-94d1-49a2-a1a6-ab2766c02a9f",
+        "aa7d9da0-2f85-450e-b24e-e417ba13e9b9",
+        "442f734c-eff0-48f4-a2ab-41004f13fb83",
+        "93ed26fe-f1b0-4f5c-9c1d-9f0b6c85dea6",
+        "eda865b3-e6c9-4c4b-a6a8-2459c8c9f10b"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata, private unpublished state, incomplete-source hold and embedded Quran hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "two Needs Mo holds: incomplete source and embedded Quran quotation"
     }
   ],
   "blockers": [
@@ -11574,7 +11595,7 @@
       "id": "ARABIC-HADITH-INCOMPLETE-MATN",
       "scope": "Hadith records whose exported Arabic contains no hadith text",
       "status": "blocked",
-      "reason": "Bukhari 221, 342, and 402b currently lack complete hadith wording: 221 has only a chain ending 'from the Prophet'; 342 has only a chain and the phrase 'he narrated the hadith'; 402b has only a chain ending 'I heard Anas, with this'. Keep all three on hold until their complete source wording is confirmed."
+      "reason": "Bukhari 221, 342, and 402b currently lack complete hadith wording: 221 has only a chain ending 'from the Prophet'; 342 has only a chain and the phrase 'he narrated the hadith'; 402b has only a chain ending 'I heard Anas, with this'. Keep all three on hold until their complete source wording is confirmed. Bukhari 2944 is also held in FR-LIB-HAD-BUKHARI-507 because its exported Arabic has only the report’s opening clause and omits the hadith wording."
     },
     {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
@@ -11625,7 +11646,7 @@
       "reason": "No approved, attributed French Quran translation has been confirmed in the current application configuration. The seven French verse meanings were not generated; only practice-tool controls have private French drafts."
     }
   ],
-  "hadithBukhariDrafted": 2648,
-  "hadithLocalDrafted": 2648,
-  "hadithLocalRemaining": 12007
+  "hadithBukhariDrafted": 2652,
+  "hadithLocalDrafted": 2652,
+  "hadithLocalRemaining": 12003
 }
