@@ -10711,3 +10711,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0716 saves four private French drafts about exchanges of produce and ownership of dates on palm trees sold after pollination. Muslim 1542f and 1542h refer back to an earlier report without reproducing it and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1543d–1545
+
+- FR-LIB-HAD-MUSLIM-0717 saves three private French drafts about the fruit and belongings included in a sale, sharing unused farmland, and two prohibited crop-sale practices. Muslim 1543d, 1543f, and 1543g only repeat variants of the preceding report and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
