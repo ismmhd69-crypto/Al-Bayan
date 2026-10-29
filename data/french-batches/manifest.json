@@ -43997,6 +43997,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0754",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0754.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "three complete reports translated as private drafts; three incomplete variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48304,8 +48317,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9158,
-  "hadithLocalRemaining": 5471,
+  "hadithLocalDrafted": 9161,
+  "hadithLocalRemaining": 5468,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -53407,10 +53420,25 @@
       "source_id": "cfa6b9a3-62f5-4565-9390-8387b26aba4a",
       "reason": "Cette entrée donne une chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "049949a5-144d-4973-9aa4-afd52a8a1bc7",
+      "reason": "Cette entrée donne seulement une variante de formulation du récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d0cadaef-3dae-41d4-a468-489946ffa48e",
+      "reason": "Cette entrée indique seulement une précision ajoutée au récit précédent et ne le reproduit pas. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "0e958773-c424-443f-9274-9287abadec64",
+      "reason": "Cette entrée donne uniquement une chaîne de transmission et compare les versions précédentes sans reproduire leur contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2822,
+  "hadithMuslimDrafted": 2825,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1245
+  "hadithNeedsMo": 1248
 }

@@ -10896,3 +10896,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0753 saves two private French drafts about responsibility for believers’ debts and dependents. Muslim 1618d and 1619b are cross-reference variants; 1618e and 1619a contain Quran quotations and remain entirely blank pending an approved, attributed translation and rights.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1619e–1620d
+
+- FR-LIB-HAD-MUSLIM-0754 saves three private French drafts on responsibility for dependents and reclaiming donated property. Muslim 1619f, 1620b and 1620d only give variants or transmission details and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
