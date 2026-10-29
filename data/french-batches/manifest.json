@@ -19495,6 +19495,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-908",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-908.json",
+      "sourceIds": [
+        "87b618ca-9906-46b9-9731-76b347fa0c3e",
+        "b52cc22d-12a4-410f-85bc-7b68c16e8b57",
+        "7c5b804e-4e64-415c-8ff6-5062a76ea8ec",
+        "c5d56f36-eb60-4a03-b819-e6b039809ee8",
+        "78ac83a9-138b-4c4b-bc0a-61446ba0aa42",
+        "3b9e0623-5439-4512-ae97-6a06f9394ef1"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22089,9 +22110,33 @@
       "scope": "Sahih al-Bukhari 4959: direct Quran quotation",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 98:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-907, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4960-QURAN-98-1",
+      "scope": "Sahih al-Bukhari 4960: direct Quran quotation from 98:1",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 98:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-908, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4962-QURAN-99-7",
+      "scope": "Sahih al-Bukhari 4962: direct Quran quotation from 99:7",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 99:7. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-908, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4963-QURAN-99-7-8",
+      "scope": "Sahih al-Bukhari 4963: direct Quran quotation from 99:7-8",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 99:7-8. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-908, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4965-QURAN-108-1",
+      "scope": "Sahih al-Bukhari 4965: direct Quran quotation from 108:1",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 108:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-908, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4074,
-  "hadithLocalDrafted": 4074,
-  "hadithLocalRemaining": 10593
+  "hadithBukhariDrafted": 4076,
+  "hadithLocalDrafted": 4076,
+  "hadithLocalRemaining": 10591
 }
