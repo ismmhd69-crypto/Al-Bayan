@@ -7267,3 +7267,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0032 saves 5 private French drafts. Hadith 80a ends at a transmission marker without the report text; it remains blank and marked Needs Mo pending a complete verified Arabic source. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 155 of 7,366. Hadith Needs Mo: 179. Total local hadith rows not drafted: 8,138, including held records.
+
+### 2026-10-29: Muslim 83–85c
+
+- FR-LIB-HAD-MUSLIM-0033 saves 6 private French drafts on the best deeds and worship. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 161 of 7,366. Hadith Needs Mo: 179. Total local hadith rows not drafted: 8,132, including held records.
