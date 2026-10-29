@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5987,
+    "hadithBukhariDrafted": 5992,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5987,
+    "hadithLocalDrafted": 5992,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8642,
-    "hadithNeedsMo": 848,
+    "hadithLocalRemaining": 8637,
+    "hadithNeedsMo": 849,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -27459,6 +27459,28 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1300",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1300.json",
+      "sourceIds": [
+        "548d0a32-5acb-4599-b433-989af3f35e6b",
+        "21b15018-3d35-4153-a488-98a917631aec",
+        "e981d3e5-12ec-4a62-8fea-75bb707539a5",
+        "58b4a225-d44c-4928-9d47-1a978056243e",
+        "43841db2-12ee-4139-83a6-5627c5b6be76",
+        "a6fade1f-a75b-43fc-9803-9ba56c3dedb5"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "needsMo": 1,
+      "validation": "five complete drafts; source hashes retained; direct Quran 6:158 report left wholly blank under Needs Mo; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local drafts with one held item"
     }
   ],
   "blockers": [
@@ -30935,11 +30957,17 @@
       "scope": "Sahih al-Bukhari 7095: direct quotation of Quran 2:193",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:193. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7121-QURAN-6-158",
+      "scope": "Sahih al-Bukhari 7121: direct quotation of Quran 6:158",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:158. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5987,
-  "hadithLocalDrafted": 5987,
-  "hadithLocalRemaining": 8642,
+  "hadithBukhariDrafted": 5992,
+  "hadithLocalDrafted": 5992,
+  "hadithLocalRemaining": 8637,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -31558,6 +31586,12 @@
       "scope": "Sahih al-Bukhari 7095: direct quotation of Quran 2:193",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:193. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7121-QURAN-6-158",
+      "scope": "Sahih al-Bukhari 7121: direct quotation of Quran 6:158",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:158. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ]
 }
