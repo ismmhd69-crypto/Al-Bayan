@@ -19642,6 +19642,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-915",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-915.json",
+      "sourceIds": [
+        "f0b12364-6fb6-4816-9ddc-f0d45bbbc6e5",
+        "d669a728-b92d-426a-b58c-e1528ec1d6b1",
+        "2ced6e54-c73b-4303-9d11-02f06f3ac3ec",
+        "de861649-f8f8-4f82-b73b-74f6e4344f1b",
+        "cd7bc19b-869e-4b4e-867e-130f21761cd3",
+        "9a0734ee-c11b-4512-a1bb-49c3863fb4f1"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22304,6 +22325,24 @@
       "reason": "Le rapport cite directement Quran 87:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-913, dans l’attente d’une traduction française approuvée et attribuée."
     },
     {
+      "id": "HADITH-BUKHARI-5005-QURAN-2-106",
+      "scope": "Sahih al-Bukhari 5005: direct Quran quotation from 2:106",
+      "status": "blocked",
+      "reason": "Le rapport fourni est directement Quran 2:106. Le texte reste vide dans FR-LIB-HAD-BUKHARI-915 et doit être revu avant traduction."
+    },
+    {
+      "id": "HADITH-BUKHARI-5006-QURAN-8-24-1-2",
+      "scope": "Sahih al-Bukhari 5006: direct Quran quotations from 8:24 and 1:2",
+      "status": "blocked",
+      "reason": "Le rapport fourni est directement Quran 8:24 et 1:2. Le texte reste vide dans FR-LIB-HAD-BUKHARI-915 et doit être revu avant traduction."
+    },
+    {
+      "id": "HADITH-BUKHARI-5008-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5008: incomplete source excerpt",
+      "status": "blocked",
+      "reason": "Le rapport fourni est incomplet et s’interrompt par des points de suspension. Le texte reste vide dans FR-LIB-HAD-BUKHARI-915 et doit être revu avant traduction."
+    },
+    {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
@@ -22352,7 +22391,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4092,
-  "hadithLocalDrafted": 4092,
-  "hadithLocalRemaining": 10575
+  "hadithBukhariDrafted": 4095,
+  "hadithLocalDrafted": 4095,
+  "hadithLocalRemaining": 10572
 }
