@@ -3231,3 +3231,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-663` saves six private French drafts about al-Hasan and al-Husayn and their virtues.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,340 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 245. Total local hadith rows not drafted: 11,317, including held records.
+
+### 2026-10-29: Bukhari 3754–3758
+
+- `FR-LIB-HAD-BUKHARI-664` saves six private French drafts about Bilâl, Ibn ‘Abbâs, Khâlid ibn al-Walîd and the recitation of the Quran.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,346 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 245. Total local hadith rows not drafted: 11,311, including held records.
