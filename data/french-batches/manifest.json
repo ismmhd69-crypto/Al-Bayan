@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5158,
+    "hadithBukhariDrafted": 5159,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5158,
+    "hadithLocalDrafted": 5159,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9469,
+    "hadithLocalRemaining": 9468,
     "hadithNeedsMo": 765,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -24028,6 +24028,22 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "Four records passed the focused validator; the long Khawârij report 6163 and Ramadan expiation report 6164 were isolated in one-record batches. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1132",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1132.json",
+      "sourceIds": [
+        "45ec0447-340e-4c6f-90b1-75d30b37b2fe"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One long report passed the focused validator; kept as a single-record batch. No database writes.",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
