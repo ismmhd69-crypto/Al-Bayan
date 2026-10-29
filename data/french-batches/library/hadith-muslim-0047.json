@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-0047",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:07:17.459Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cdfd4aa6-02e2-4c98-b574-e5e4d380f179",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:120c",
+      "reference": "Sahih Muslim, hadith 120 c, book 1, باب هَلْ يُؤَاخَذُ بِأَعْمَالِ الْجَاهِلِيَّةِ",
+      "title": "باب هَلْ يُؤَاخَذُ بِأَعْمَالِ الْجَاهِلِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مِنْجَابُ بْنُ الْحَارِثِ التَّمِيمِيُّ، أَخْبَرَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "079cfdefa3552656ae44745705f2f2eaf9c202a8ced527da63692196fb4b5c4c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Il rapporta un hadith semblable, transmis par la même chaîne.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
