@@ -8356,3 +8356,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0246 saves four private French drafts of supplications for protection from the grave, the Fire, the Dajjal, debt and other trials. Muslim 588f and 589c contain only incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 984 Muslim drafts, 7,320 total hadith drafts, 7,309 remaining, and 474 Needs Mo items.
+
+### 2026-10-29: Muslim 591–593b
+
+- FR-LIB-HAD-MUSLIM-0247 saves three private French drafts of remembrances and supplications after prayer. Muslim 592b, 592c and 593b contain only incomplete cross-reference or variant text and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 987 Muslim drafts, 7,323 total hadith drafts, 7,306 remaining, and 477 Needs Mo items.

@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0247",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:47:12.898Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0082bc3d-50e1-435a-9915-1def8a223ff8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:591",
+      "reference": "Sahih Muslim, hadith 591, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا دَاوُدُ بْنُ رُشَيْدٍ، حَدَّثَنَا الْوَلِيدُ، عَنِ الأَوْزَاعِيِّ، عَنْ أَبِي عَمَّارٍ، - اسْمُهُ شَدَّادُ بْنُ عَبْدِ اللَّهِ - عَنْ أَبِي أَسْمَاءَ، عَنْ ثَوْبَانَ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا انْصَرَفَ مِنْ صَلاَتِهِ اسْتَغْفَرَ ثَلاَثًا وَقَالَ ‏\"‏ اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ تَبَارَكْتَ ذَا الْجَلاَلِ وَالإِكْرَامِ ‏\"‏ ‏.‏ قَالَ الْوَلِيدُ فَقُلْتُ لِلأَوْزَاعِيِّ كَيْفَ الاِسْتِغْفَارُ قَالَ تَقُولُ أَسْتَغْفِرُ اللَّهَ أَسْتَغْفِرُ اللَّهَ ‏.‏",
+      "source_hash_sha256": "919ff122e986905288b407e43f0a9015b865d74893763983cf78dc76757b9a20",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Dawud ibn Rushayd nous a rapporté : al-Walid nous a rapporté, d’après al-Awza‘i, d’après Abu Ammar — qui s’appelait Shaddad ibn Abdullah —, d’après Abu Asma, d’après Thawban, qui dit : « Lorsque le Messager d’Allah ﷺ terminait sa prière, il demandait pardon trois fois, puis disait : “Ô Allah, Tu es la Paix, et de Toi vient la paix. Béni sois-Tu, Toi qui détiens la majesté et la générosité.” » Al-Walid dit : « Je demandai à al-Awza‘i : “Comment demande-t-on pardon ?” » Il répondit : « Tu dis : “Je demande pardon à Allah”, “Je demande pardon à Allah”. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "12638de3-bf5f-4f0c-929d-4f81a93763c4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:592a",
+      "reference": "Sahih Muslim, hadith 592 a, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنْ عَاصِمٍ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَارِثِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ النَّبِيُّ صلى الله عليه وسلم إِذَا سَلَّمَ لَمْ يَقْعُدْ إِلاَّ مِقْدَارَ مَا يَقُولُ ‏\"‏ اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ تَبَارَكْتَ ذَا الْجَلاَلِ وَالإِكْرَامِ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ ابْنِ نُمَيْرٍ ‏\"‏ يَا ذَا الْجَلاَلِ وَالإِكْرَامِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0c195c37419dd93b942a838c13cafa319e309d1ee64ab4756d8a306646a2363d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Ibn Numayr nous ont rapporté : Abu Muawiya nous a rapporté, d’après Asim, d’après Abdullah ibn al-Harith, d’après Aïcha, qui dit : « Après avoir prononcé le salut final, le Prophète ﷺ ne restait assis que le temps de dire : “Ô Allah, Tu es la Paix, et de Toi vient la paix. Béni sois-Tu, Toi qui détiens la majesté et la générosité.” » Dans la version d’Ibn Numayr, il disait : « Ô Toi qui détiens la majesté et la générosité. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b1fcd1b7-2c78-4b7f-a241-7be1eb8504d3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:592b",
+      "reference": "Sahih Muslim, hadith 592 b, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبُو خَالِدٍ، - يَعْنِي الأَحْمَرَ - عَنْ عَاصِمٍ، بِهَذَا الإِسْنَادِ وَقَالَ ‏\"‏ يَا ذَا الْجَلاَلِ وَالإِكْرَامِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bb6e1845aa68ce8f46c6231fc8c4f9c1790a4ade33f1f747a62a8454d6819464",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3c5ca8ff-6262-4f58-9109-df652d7ab0a8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:592c",
+      "reference": "Sahih Muslim, hadith 592 c, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ الْوَارِثِ بْنُ عَبْدِ الصَّمَدِ، حَدَّثَنِي أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ عَاصِمٍ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَارِثِ، وَخَالِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَارِثِ، كِلاَهُمَا عَنْ عَائِشَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏.‏ بِمِثْلِهِ غَيْرَ أَنَّهُ كَانَ يَقُولُ ‏\"‏ يَا ذَا الْجَلاَلِ وَالإِكْرَامِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ff756633957e71d43d7be8821c4726a984a41a1a7c5d8c95c069e14eb341d2bc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9662d7c2-af90-4d4c-ae85-59d84d0b5e61",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:593a",
+      "reference": "Sahih Muslim, hadith 593 a, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنِ الْمُسَيَّبِ بْنِ رَافِعٍ، عَنْ وَرَّادٍ، مَوْلَى الْمُغِيرَةِ بْنِ شُعْبَةَ قَالَ كَتَبَ الْمُغِيرَةُ بْنُ شُعْبَةَ إِلَى مُعَاوِيَةَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ إِذَا فَرَغَ مِنَ الصَّلاَةِ وَسَلَّمَ قَالَ ‏\"‏ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ وَلاَ مُعْطِيَ لِمَا مَنَعْتَ وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2ec4e3ccd1eb0d1ca107ceb53a55d7461cf65349a08fb94c93933b2c0820ef10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim nous a rapporté : Jarir nous a informés, d’après Mansur, d’après al-Musayyib ibn Rafi‘, d’après Warrad, affranchi d’al-Mughira ibn Shu‘ba, qui dit : « Al-Mughira ibn Shu‘ba écrivit à Muawiya que lorsque le Messager d’Allah ﷺ terminait sa prière et prononçait le salut final, il disait : “Il n’y a de divinité qu’Allah, Seul, sans associé. À Lui appartiennent la royauté et la louange, et Il est capable de toute chose. Ô Allah, nul ne peut retenir ce que Tu donnes, ni donner ce que Tu retiens, et la fortune du fortuné ne lui servira à rien auprès de Toi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "31e43ff9-bafa-4a50-8f15-4ad6f8ecf88d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:593b",
+      "reference": "Sahih Muslim, hadith 593 b, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ وَأَحْمَدُ بْنُ سِنَانٍ قَالُوا حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنِ الْمُسَيَّبِ بْنِ رَافِعٍ، عَنْ وَرَّادٍ، مَوْلَى الْمُغِيرَةِ بْنِ شُعْبَةَ عَنِ الْمُغِيرَةِ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ مِثْلَهُ قَالَ أَبُو بَكْرٍ وَأَبُو كُرَيْبٍ فِي رِوَايَتِهِمَا قَالَ فَأَمْلاَهَا عَلَىَّ الْمُغِيرَةُ وَكَتَبْتُ بِهَا إِلَى مُعَاوِيَةَ ‏.‏",
+      "source_hash_sha256": "331b08dd4940ea3de80057b953d818ae68893b38baa3226dfc572cccd5a5be8e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b1fcd1b7-2c78-4b7f-a241-7be1eb8504d3",
+      "reason": "La source ne reprend pas l’invocation complète du récit précédent ; elle se limite à la chaîne de transmission et à une variante de formulation. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "3c5ca8ff-6262-4f58-9109-df652d7ab0a8",
+      "reason": "La source ne reprend pas l’invocation complète du récit précédent ; elle se limite à la chaîne de transmission et à une variante de formulation. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "31e43ff9-bafa-4a50-8f15-4ad6f8ecf88d",
+      "reason": "La source ne reprend pas l’invocation complète du récit précédent ; elle se limite à la chaîne de transmission et à une variante de formulation. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ]
+}
