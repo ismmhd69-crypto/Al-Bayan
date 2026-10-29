@@ -7277,3 +7277,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0034 saves 5 private French drafts. Hadith 86b directly quotes Quran 25:68, so the full translation remains blank and marked Needs Mo pending an approved, attributed French Quran translation with usage permission. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 166 of 7,366. Hadith Needs Mo: 180. Total local hadith rows not drafted: 8,127, including held records.
+
+### 2026-10-29: Muslim 88b–91b
+
+- FR-LIB-HAD-MUSLIM-0035 saves 6 private French drafts on major sins and pride. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 172 of 7,366. Hadith Needs Mo: 180. Total local hadith rows not drafted: 8,121, including held records.
