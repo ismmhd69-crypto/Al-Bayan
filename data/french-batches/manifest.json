@@ -18429,6 +18429,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-854",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-854.json",
+      "sourceIds": [
+        "352a041b-27b4-4844-a72b-0732d84d40f5",
+        "7c40ed96-c304-44de-9750-6296fce5b215",
+        "c2e60c2a-dedd-4f3e-a981-68a0da057089",
+        "533a58b4-c81d-48a6-8bdb-c2f9a11cc4fd",
+        "4f1f7d39-039a-40b5-9ef5-8bb4e6294744",
+        "fdaf24bf-19ad-45a1-baa4-a68c9d3a569a"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19871,9 +19892,33 @@
       "scope": "Sahih al-Bukhari 4703: direct quotations of Quran 8:24 and 1:2",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 8:24 et 1:2. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-853, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4704-QURAN-15-87",
+      "scope": "Sahih al-Bukhari 4704: direct Quranic phrase associated with 15:87",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement la formule coranique « السبع المثاني والقرآن العظيم » associée à Quran 15:87. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-854, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4705-QURAN-15-91",
+      "scope": "Sahih al-Bukhari 4705: direct quotation of Quran 15:91",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 15:91. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-854, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4706-QURAN-15-90",
+      "scope": "Sahih al-Bukhari 4706: direct quotation of Quran 15:90",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 15:90. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-854, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4708-QURAN-17-51",
+      "scope": "Sahih al-Bukhari 4708: direct Quranic fragment from 17:51",
+      "status": "blocked",
+      "reason": "Le rapport reprend le fragment coranique « فسينغضون » de Quran 17:51. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-854, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4009,
-  "hadithLocalDrafted": 4009,
-  "hadithLocalRemaining": 10658
+  "hadithBukhariDrafted": 4011,
+  "hadithLocalDrafted": 4011,
+  "hadithLocalRemaining": 10656
 }
