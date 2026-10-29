@@ -18366,6 +18366,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-851",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-851.json",
+      "sourceIds": [
+        "f9c9e6fa-5aed-4c5d-9317-e13efbac6992",
+        "a0f5a7d4-143b-4315-bcda-bd545bae8f29",
+        "f49590fd-f60d-49d5-9ef6-830bc564d38f",
+        "6a8d7785-594a-46b8-9531-88950cf20e57",
+        "218253e7-bd68-40a0-b98c-285c74996451",
+        "d6caf09a-c4ab-41d7-8629-c9cf1161d799"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19718,9 +19739,33 @@
       "scope": "Sahih al-Bukhari 4684: direct Quran quotations from 11:56 and 11:73",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 11:56 et 11:73. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-850, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4686-QURAN-11-102",
+      "scope": "Sahih al-Bukhari 4686: direct quotation of Quran 11:102",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 11:102. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-851, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4687-QURAN-11-114",
+      "scope": "Sahih al-Bukhari 4687: direct quotation of Quran 11:114",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 11:114. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-851, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4690-QURAN-12-18-24-11",
+      "scope": "Sahih al-Bukhari 4690: direct Quran quotations from 12:18 and 24:11",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 12:18 et 24:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-851, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4691-QURAN-12-18",
+      "scope": "Sahih al-Bukhari 4691: direct Quranic phrase from 12:18",
+      "status": "blocked",
+      "reason": "La parole « والله المستعان على ما تصفون » reprend directement une formule de Quran 12:18. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-851, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4006,
-  "hadithLocalDrafted": 4006,
-  "hadithLocalRemaining": 10661
+  "hadithBukhariDrafted": 4008,
+  "hadithLocalDrafted": 4008,
+  "hadithLocalRemaining": 10659
 }
