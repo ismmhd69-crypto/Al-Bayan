@@ -9111,3 +9111,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0396 holds the full French text blank because the source directly quotes Quran passages. Its Arabic source is 2297 characters, so it was kept alone in the batch.
 - The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts remain at 1560 Muslim drafts and 7896 total hadith drafts; 6733 remain and 737 items are held for Mo.
+
+### 2026-10-29: Muslim 928b–932b
+
+- FR-LIB-HAD-MUSLIM-0397 saves two private French drafts about reports concerning mourning. Muslim 928b and 932a quote Quran directly; 929c and 932b are incomplete variants. All four remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1562 Muslim drafts, 7898 total hadith drafts, 6731 remaining, and 741 Needs Mo items.
