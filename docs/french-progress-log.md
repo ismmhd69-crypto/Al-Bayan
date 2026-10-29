@@ -11382,3 +11382,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1802a
 
 - FR-LIB-HAD-MUSLIM-0855 saves one private French draft of the complete report about the expedition to Khaybar and ‘Âmir ibn al-Akwa‘. It preserves the chain, the poem, the battle narrative, and the narrator’s note about wording differences. No Quran quotation appears in this entry. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1802b-1804
+
+- FR-LIB-HAD-MUSLIM-0856 saves five private French drafts about Khaybar and the Battle of the Trench. One chain-only cross-reference remains blank under Needs Mo with a specific reason. The source poem and its variant wording are preserved. No database write or publication occurred.
