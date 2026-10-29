@@ -478,3 +478,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-006` saved 25 French learning labels and messages (`title` through `sources`); `FR-UI-HC-007` saved the next 25 (`quran` through `guideStatus`); `FR-UI-HC-008` saved the final 10 (`noPersonal`, `expand`, `collapse`, and the five prayer names). All entries come from `lib/learning/text.ts` and the artifacts hold each source string and French draft.
 - The three batches passed source-file, unique-ID, nonempty French, and placeholder checks. The prayer names retain the forms already used in French lesson drafts.
 - Code-level visitor-copy coverage increased from 103 to 163 saved strings. The private preview reads these saved artifacts; the full source-code audit remains incomplete, including the interactive learning visuals and other reader and Ask controls. No live locale or route was changed. Human review: 0; published: 0.
+
+### 2026-10-29: Ask research progress and review messages
+
+- `FR-UI-HC-009` saved 18 French messages from `components/StableAnswerView.tsx` and `components/RichAnswerView.tsx`: source-search stages and details, retrying source selection, reconnecting, review notices, the incomplete-summary message, and the personal-ruling notice. Full source IDs and English text are retained in the batch artifact.
+- The batch passed source-file, unique-ID, nonempty French, and placeholder checks. It is displayed as a private draft only; the live Ask flow and API language checks were not changed.
+- Code-level visitor-copy coverage increased from 163 to 181 saved strings. Other hard-coded page, reader, and interactive learning text still needs an inventory and translation. Human review: 0; published: 0.

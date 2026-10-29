@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ask.stage.quran",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Searching the Holy Quran…",
+    "french": "Recherche dans le Noble Coran…"
+  },
+  {
+    "id": "ask.stage.hadith",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Checking Sunnah sources…",
+    "french": "Vérification des sources de la Sunna…"
+  },
+  {
+    "id": "ask.stage.scholar",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Checking approved scholars’ sources…",
+    "french": "Vérification des sources des savants agréés…"
+  },
+  {
+    "id": "ask.stage.summary",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Preparing Bayan’s conclusion…",
+    "french": "Préparation de la conclusion de Bayan…"
+  },
+  {
+    "id": "ask.detail.quran",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Looking for relevant verses and checking their original text and surrounding context.",
+    "french": "Recherche des versets pertinents et vérification de leur texte original et de leur contexte."
+  },
+  {
+    "id": "ask.detail.hadith",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Searching authentic hadith and checking their wording and attribution.",
+    "french": "Recherche de hadiths authentiques et vérification de leur formulation et de leur attribution."
+  },
+  {
+    "id": "ask.detail.scholar",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Consulting the original texts available from approved scholarly sources.",
+    "french": "Consultation des textes originaux disponibles auprès des sources de savants agréés."
+  },
+  {
+    "id": "ask.detail.summary",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Preparing one summary from the selected sources, preserving their conditions and limits.",
+    "french": "Préparation d’un résumé à partir des sources sélectionnées, en préservant leurs conditions et leurs limites."
+  },
+  {
+    "id": "ask.showFullText",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Show full text",
+    "french": "Afficher le texte complet"
+  },
+  {
+    "id": "ask.invalidLaterCheck",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "A later check found a problem. The source cards are kept; affected content is hidden pending review.",
+    "french": "Une vérification ultérieure a relevé un problème. Les fiches des sources sont conservées ; le contenu concerné est masqué en attendant sa vérification."
+  },
+  {
+    "id": "ask.retrySourceSelection",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "There was a problem selecting sources. We’re checking them again…",
+    "french": "Un problème est survenu lors du choix des sources. Nous vérifions à nouveau…"
+  },
+  {
+    "id": "ask.checkingQuran",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Checking the Quran sources and context…",
+    "french": "Vérification des sources et du contexte du Coran…"
+  },
+  {
+    "id": "ask.reconnecting",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "The connection was interrupted. Checking whether research can continue safely…",
+    "french": "La connexion a été interrompue. Nous vérifions si la recherche peut reprendre en toute sécurité…"
+  },
+  {
+    "id": "ask.sectionNeedsReview",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "This section needs review. Affected content is hidden; available source cards are kept.",
+    "french": "Cette section doit être vérifiée. Le contenu concerné est masqué ; les fiches des sources disponibles sont conservées."
+  },
+  {
+    "id": "ask.sourceCouldNotBeConfirmed",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "This source could not be confirmed during rechecking.",
+    "french": "Impossible de confirmer cette source lors d’une nouvelle vérification."
+  },
+  {
+    "id": "ask.answerNeedsReview",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "This answer needs review. Source cards are kept and affected content is hidden.",
+    "french": "Cette réponse doit être vérifiée. Les fiches des sources sont conservées et le contenu concerné est masqué."
+  },
+  {
+    "id": "ask.summaryCouldNotComplete",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "The selected sources remain above, but Bayan’s summary could not be completed.",
+    "french": "Les sources sélectionnées figurent ci-dessus, mais le résumé de Bayan n’a pas pu être terminé."
+  },
+  {
+    "id": "ask.notFatwa",
+    "source": "components/StableAnswerView.tsx; components/RichAnswerView.tsx",
+    "english": "Not a fatwa. For your personal situation, ask a qualified scholar you trust.",
+    "french": "Ce n’est pas une fatwa. Pour votre situation personnelle, consultez un savant qualifié en qui vous avez confiance."
+  }
+]
