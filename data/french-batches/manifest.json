@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5231,
+    "hadithBukhariDrafted": 5237,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5231,
+    "hadithLocalDrafted": 5237,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9396,
+    "hadithLocalRemaining": 9390,
     "hadithNeedsMo": 769,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -24363,6 +24363,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1149",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1149.json",
+      "sourceIds": [
+        "9783ee09-87d5-48da-bd35-9030366dffff",
+        "e33a78ab-b146-4baa-a418-f6c59fc9a178",
+        "45f46c22-be71-4855-b67c-c8a5c943ff62",
+        "241236b8-1fd9-4eb7-b784-92612851a958",
+        "fe5ec52a-e4a1-4cdf-af5d-cc87370a7998",
+        "1d8e2607-f90d-42a8-9420-fc31dfa09029"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Six records passed the focused validator. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
