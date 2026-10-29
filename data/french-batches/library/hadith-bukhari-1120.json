@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-1120",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:09:15.013Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4b2618e5-ea41-453e-9640-041527ff6cb2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6137",
+      "reference": "Sahih al-Bukhari, hadith 6137, book 78, بَابُ إِكْرَامِ الضَّيْفِ وَخِدْمَتِهِ إِيَّاهُ بِنَفْسِهِ",
+      "title": "بَابُ إِكْرَامِ الضَّيْفِ وَخِدْمَتِهِ إِيَّاهُ بِنَفْسِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ أَبِي الْخَيْرِ، عَنْ عُقْبَةَ بْنِ عَامِرٍ ـ رضى الله عنه ـ أَنَّهُ قَالَ قُلْنَا يَا رَسُولَ اللَّهِ إِنَّكَ تَبْعَثُنَا فَنَنْزِلُ بِقَوْمٍ فَلاَ يَقْرُونَنَا فَمَا تَرَى، فَقَالَ لَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنْ نَزَلْتُمْ بِقَوْمٍ فَأَمَرُوا لَكُمْ بِمَا يَنْبَغِي لِلضَّيْفِ فَاقْبَلُوا، فَإِنْ لَمْ يَفْعَلُوا فَخُذُوا مِنْهُمْ حَقَّ الضَّيْفِ الَّذِي يَنْبَغِي لَهُمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "636c9f0a67b741e6f07c0e2aabe1e897f3e5847a8409157f65f7efdedddcc3ce",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba nous a rapporté : al-Layth nous a rapporté, d’après Yazîd ibn Abî Habîb, d’après Abû al-Khayr, d’après ‘Uqba ibn ‘Âmir (qu’Allah l’agrée), qui a dit : « Nous dîmes : “Ô Messager d’Allah, tu nous envoies en mission et nous descendons chez des gens qui ne nous accueillent pas. Qu’en penses-tu ?” Le Messager d’Allah ﷺ nous répondit : “Si vous séjournez chez des gens qui vous offrent ce qui est dû à l’invité, acceptez-le. S’ils ne le font pas, prenez d’eux ce qui est dû à l’invité et qu’ils doivent fournir.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "908cd0ca-8af6-46e5-ab9f-b867eab78390",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6138",
+      "reference": "Sahih al-Bukhari, hadith 6138, book 78, بَابُ إِكْرَامِ الضَّيْفِ وَخِدْمَتِهِ إِيَّاهُ بِنَفْسِهِ",
+      "title": "بَابُ إِكْرَامِ الضَّيْفِ وَخِدْمَتِهِ إِيَّاهُ بِنَفْسِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا هِشَامٌ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَصِلْ رَحِمَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ ‏\"‏‏.‏",
+      "source_hash_sha256": "2548b4fbcfa352ba1986be74f4419f4862dca266171ff200a421fdb2cb240974",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn Muhammad nous a rapporté : Hishâm nous a rapporté : Ma‘mar nous a informés, d’après az-Zuhrî, d’après Abû Salama, d’après Abû Hurayra (qu’Allah l’agrée), d’après le Prophète ﷺ, qui a dit : « Que celui qui croit en Allah et au Jour dernier honore son invité ; que celui qui croit en Allah et au Jour dernier entretienne ses liens de parenté ; et que celui qui croit en Allah et au Jour dernier dise du bien ou garde le silence. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
