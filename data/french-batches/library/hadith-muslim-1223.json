@@ -1,0 +1,162 @@
+{
+  "batch_id": "HADITH-MUSLIM-1223",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:58:18.256Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9bb785db-3bb9-4951-add9-d9710624a63b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2658a",
+      "reference": "Sahih Muslim, hadith 2658 a, book 46, باب قُدِّرَ عَلَى ابْنِ آدَمَ حَظُّهُ مِنَ الزِّنَى وَغَيْرِهِ ‏ ‏",
+      "title": "باب قُدِّرَ عَلَى ابْنِ آدَمَ حَظُّهُ مِنَ الزِّنَى وَغَيْرِهِ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا أَبُو هِشَامٍ الْمَخْزُومِيُّ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا سُهَيْلُ بْنُ أَبِي صَالِحٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ كُتِبَ عَلَى ابْنِ آدَمَ نَصِيبُهُ مِنَ الزِّنَى مُدْرِكٌ ذَلِكَ لاَ مَحَالَةَ فَالْعَيْنَانِ زِنَاهُمَا النَّظَرُ وَالأُذُنَانِ زِنَاهُمَا الاِسْتِمَاعُ وَاللِّسَانُ زِنَاهُ الْكَلاَمُ وَالْيَدُ زِنَاهَا الْبَطْشُ وَالرِّجْلُ زِنَاهَا الْخُطَا وَالْقَلْبُ يَهْوَى وَيَتَمَنَّى وَيُصَدِّقُ ذَلِكَ الْفَرْجُ وَيُكَذِّبُهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f96d821e2ceb1cfa8e90781632ea8381a5bca4806a7cd04f9da365c35aa8046d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥāq ibn Manṣūr nous a informés : Abū Hishām al-Makhzūmī nous a rapporté : Wuhayb nous a rapporté : Suhayl ibn Abī Ṣāliḥ nous a rapporté, d’après son père, d’après Abū Hurayra, d’après le Prophète ﷺ, qui a dit : « Il a été prescrit au fils d’Adam une part de fornication qu’il rencontrera inévitablement. La fornication des yeux est le regard, celle des oreilles est l’écoute, celle de la langue est la parole, celle de la main est la saisie, et celle du pied est la marche. Le cœur désire et souhaite; puis le sexe confirme cela ou le dément. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3d314266-1cd8-46a3-804f-5c6ba4028f3c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2658b",
+      "reference": "Sahih Muslim, hadith 2658 b, book 46, بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "title": "بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَاجِبُ بْنُ الْوَلِيدِ، حَدَّثَنَا مُحَمَّدُ بْنُ حَرْبٍ، عَنِ الزُّبَيْدِيِّ، عَنِ الزُّهْرِيِّ، أَخْبَرَنِي سَعِيدُ بْنُ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ كَانَ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ مَوْلُودٍ إِلاَّ يُولَدُ عَلَى الْفِطْرَةِ فَأَبَوَاهُ يُهَوِّدَانِهِ وَيُنَصِّرَانِهِ وَيُمَجِّسَانِهِ كَمَا تُنْتَجُ الْبَهِيمَةُ بَهِيمَةً جَمْعَاءَ هَلْ تُحِسُّونَ فِيهَا مِنْ جَدْعَاءَ ‏\"‏ ‏.‏ ثُمَّ يَقُولُ أَبُو هُرَيْرَةَ وَاقْرَءُوا إِنْ شِئْتُمْ ‏[quran sura=\"30\" aya_start=\"30\" aya_end=\"30\"]{‏ فِطْرَةَ اللَّهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا لاَ تَبْدِيلَ لِخَلْقِ اللَّهِ‏}‏ الآيَةَ ‏.‏",
+      "source_hash_sha256": "191cfb8aef0f1df7f09c4db6faca9f511af0706bcfa7ee7d33018b59aebb7128",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ḥājib ibn al-Walīd nous a rapporté : Muḥammad ibn Ḥarb nous a rapporté, d’après al-Zubaydī, d’après al-Zuhrī : Saʿīd ibn al-Musayyib m’a informé, d’après Abū Hurayra, qui disait que le Messager d’Allah ﷺ a dit : « Tout nouveau-né vient au monde selon la disposition originelle; ce sont ses parents qui en font un juif, un chrétien ou un mazdéen. Il en va comme d’un animal qui met au monde un petit intact : y voyez-vous une quelconque mutilation ? » Abū Hurayra ajoutait : « Récitez, si vous le voulez : “La disposition qu’Allah a donnée aux gens, selon laquelle Il les a créés. Il n’y a pas de changement dans la création d’Allah.” » (Coran, 30:30, début du verset)",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "358c9804-0d81-4364-9ff3-5e5b9bdfba3e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2658c",
+      "reference": "Sahih Muslim, hadith 2658 c, book 46, بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "title": "بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الأَعْلَى، ح وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، كِلاَهُمَا عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ وَقَالَ ‏\"‏ كَمَا تُنْتَجُ الْبَهِيمَةُ بَهِيمَةً ‏\"‏ ‏.‏ وَلَمْ يَذْكُرْ جَمْعَاءَ ‏.‏",
+      "source_hash_sha256": "4cd75d1fd5ba895f322418615754acf192c2ca4c657979e49c24b8798d53ea02",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_wording_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3f741fa9-0a38-404d-a3b7-fb31af8b3259",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2658d",
+      "reference": "Sahih Muslim, hadith 2658 d, book 46, بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "title": "بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، وَأَحْمَدُ بْنُ عِيسَى، قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ بْنُ، يَزِيِدَ عَنِ ابْنِ شِهَابٍ، أَنَّ أَبَا سَلَمَةَ بْنَ عَبْدِ الرَّحْمَنِ، أَخْبَرَهُ أَنَّ أَبَا هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ مَوْلُودٍ إِلاَّ يُولَدُ عَلَى الْفِطْرَةِ ‏\"‏ ‏.‏ ثُمَّ يَقُولُ اقْرَءُوا ‏[quran sura=\"30\" aya_start=\"30\" aya_end=\"30\"]{‏ فِطْرَةَ اللَّهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا لاَ تَبْدِيلَ لِخَلْقِ اللَّهِ ذَلِكَ الدِّينُ الْقَيِّمُ‏}‏",
+      "source_hash_sha256": "2372e0dab9cdd3a1abacdc2b745b360cc6737094729c32e48da1bc43229573e5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū al-Ṭāhir et Aḥmad ibn ʿĪsā nous ont rapporté : Ibn Wahb nous a rapporté : Yūnus ibn Yazīd m’a informé, d’après Ibn Shihāb, qu’Abū Salama ibn ʿAbd al-Raḥmān lui avait rapporté qu’Abū Hurayra disait que le Messager d’Allah ﷺ a dit : « Tout nouveau-né vient au monde selon la disposition originelle. » Puis il récita : « La disposition qu’Allah a donnée aux gens, selon laquelle Il les a créés. Il n’y a pas de changement dans la création d’Allah. Voilà la religion droite. » (Coran, 30:30)",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "83954733-7648-44ff-b7ce-0f7208fabdd7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2658e",
+      "reference": "Sahih Muslim, hadith 2658 e, book 46, بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "title": "بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ مَوْلُودٍ إِلاَّ يُلِدَ عَلَى الْفِطْرَةِ فَأَبَوَاهُ يُهَوِّدَانِهِ وَيُنَصِّرَانِهِ وَيُشَرِّكَانِهِ ‏\"‏ ‏.‏ فَقَالَ رَجُلٌ يَا رَسُولَ اللَّهِ أَرَأَيْتَ لَوْ مَاتَ قَبْلَ ذَلِكَ قَالَ ‏\"‏ اللَّهُ أَعْلَمُ بِمَا كَانُوا عَامِلِينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9849bc1b4f3b33202488186eeaa1808c9edd68334190586d8b3c45d375e91290",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Ḥarb nous a rapporté : Jarīr nous a rapporté, d’après al-Aʿmash, d’après Abū Ṣāliḥ, d’après Abū Hurayra, qui a dit que le Messager d’Allah ﷺ a dit : « Tout nouveau-né vient au monde selon la disposition originelle; ce sont ses parents qui en font un juif, un chrétien ou un associateur. » Un homme demanda : « Messager d’Allah, qu’en est-il s’il meurt avant cela ? » Il répondit : « Allah sait mieux ce qu’ils auraient fait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "57164392-ced3-498e-8032-3843ab0072ab",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2658f",
+      "reference": "Sahih Muslim, hadith 2658 f, book 46, بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "title": "بَاب مَعْنَى كُلِّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ وَحُكْمِ مَوْتِ أَطْفَالِ الْكُفَّارِ وَأَطْفَالِ الْمُسْلِمِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا ابْنُ، نُمَيْرٍ حَدَّثَنَا أَبِي كِلاَهُمَا، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ ‏.‏ فِي حَدِيثِ ابْنِ نُمَيْرٍ ‏\"‏ مَا مِنْ مَوْلُودٍ يُولَدُ إِلاَّ وَهُوَ عَلَى الْمِلَّةِ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ أَبِي بَكْرٍ عَنْ أَبِي مُعَاوِيَةَ ‏\"‏ إِلاَّ عَلَى هَذِهِ الْمِلَّةِ حَتَّى يُبَيِّنَ عَنْهُ لِسَانُهُ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ أَبِي كُرَيْبٍ عَنْ أَبِي مُعَاوِيَةَ ‏\"‏ لَيْسَ مِنْ مَوْلُودٍ يُولَدُ إِلاَّ عَلَى هَذِهِ الْفِطْرَةِ حَتَّى يُعَبِّرَ عَنْهُ لِسَانُهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "dbcbb8a1ea023c5c2077c53b8ed45c8dec2b416c604796ae159a041c5518f06e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_wording_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "358c9804-0d81-4364-9ff3-5e5b9bdfba3e", "reason": "Cette entrée ne donne qu’une variante de quelques mots et précise qu’un terme de la version complète est absent. Garder la traduction française vide sans le récit entier.", "status": "blocked" },
+    { "source_id": "57164392-ced3-498e-8032-3843ab0072ab", "reason": "Cette entrée ne contient que trois formulations variantes du récit précédent, sans son texte complet. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}
