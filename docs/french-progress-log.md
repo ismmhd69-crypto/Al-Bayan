@@ -9961,3 +9961,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0566 saves six private French drafts about the journey from Arafat to Muzdalifa, including the reports’ differences about ablution water, completeness of ablution, and prayer sequence. All six source texts are complete.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1282a–1284a
+
+- FR-LIB-HAD-MUSLIM-0567 saves six private French drafts about the journey through Muzdalifa and the talbiya and takbir recited during the pilgrimage. The reports’ distinct wording and transmission notes are retained.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
