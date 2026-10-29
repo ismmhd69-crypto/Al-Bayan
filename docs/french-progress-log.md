@@ -663,3 +663,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-125` saved private French drafts for Bukhari 688–692, including the sitting-prayer instructions, the report’s explicit note about an earlier and later practice, the timing of prostration behind the imam, the warning against moving ahead of the imam, and Salim’s leadership among the first emigrants at Quba.
 - The six-record batch passed the focused validator for source hashes, IDs, rights metadata, private unpublished state and narration variants. No Needs Mo item was identified. No database writes or publication occurred.
 - Bukhari local drafts: 644 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,985, including held records.
+
+### 2026-10-29: Bukhari 693–698 source review
+
+- `FR-LIB-HAD-BUKHARI-126` saved private French drafts for Bukhari 693–698. They preserve the exact chain attribution for the two instructions about leadership, the separate note attributed to al-Zuhri, the night-prayer report’s totals and sound variants, and the thirteen-unit report with its follow-up transmission.
+- The six-record batch passed the focused validator for Arabic hashes, rights metadata, private unpublished state and source structure. No Needs Mo item was identified. No database writes or publication occurred.
+- Bukhari local drafts: 650 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,979, including held records.
