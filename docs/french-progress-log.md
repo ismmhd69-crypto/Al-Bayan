@@ -11111,3 +11111,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0796 saves four private French drafts on reported penalties and a confession. Muslim 1690b and 1691b only provide chains and cross-references, so they remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1691d–1692c
+
+- FR-LIB-HAD-MUSLIM-0797 saves four private French drafts about a reported execution and a later confession. Muslim 1691e and 1691f only supply chains for existing reports, so they remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
