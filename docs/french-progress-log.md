@@ -8296,3 +8296,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0234 saves one private French draft of Umar’s Friday sermon about the succession, the question of kalala, provincial governors, and garlic and onions in the mosque. It was processed alone because its Arabic source exceeds 2,000 characters. The technical term “kalala” is retained without adding an interpretation.
 - The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 944 Muslim drafts, 7,280 total hadith drafts, 7,349 remaining, and 446 Needs Mo items.
+
+### 2026-10-29: Muslim 567b–569c
+
+- FR-LIB-HAD-MUSLIM-0235 saves three private French drafts about announcing a lost item or camel in the mosque. Muslim 567b, 568b and 569c contain only incomplete cross-reference or variant text and remain blank under Needs Mo. The earlier long report was handled alone in batch 0234.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 945 Muslim drafts, 7,281 total hadith drafts, 7,348 remaining, and 449 Needs Mo items.

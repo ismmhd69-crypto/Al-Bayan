@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0235",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:42:41.721Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "76a7375f-c621-4d57-9221-21427625ae57",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:567b",
+      "reference": "Sahih Muslim, hadith 567 b, book 5, باب نَهْىِ مَنْ أَكَلَ ثُومًا أَوْ بَصَلاً أَوْ كُرَّاثًا أَوْ نَحْوَهَا عَنْ حُضُورِ الْمَسْجِدِ ‏‏",
+      "title": "باب نَهْىِ مَنْ أَكَلَ ثُومًا أَوْ بَصَلاً أَوْ كُرَّاثًا أَوْ نَحْوَهَا عَنْ حُضُورِ الْمَسْجِدِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، ح قَالَ وَحَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، كِلاَهُمَا عَنْ شَبَابَةَ بْنِ سَوَّارٍ، قَالَ حَدَّثَنَا شُعْبَةُ، جَمِيعًا عَنْ قَتَادَةَ، فِي هَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "30ebf20a5ab59c16d9a4e1cce0c09be728d8ab7627761b61a7e75c290926710e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ec2ca39-105e-41f1-83ac-00a5b967352d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:568a",
+      "reference": "Sahih Muslim, hadith 568 a, book 5, باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "title": "باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الطَّاهِرِ، أَحْمَدُ بْنُ عَمْرٍو حَدَّثَنَا ابْنُ وَهْبٍ، عَنْ حَيْوَةَ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي عَبْدِ اللَّهِ، مَوْلَى شَدَّادِ بْنِ الْهَادِ أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ سَمِعَ رَجُلاً يَنْشُدُ ضَالَّةً فِي الْمَسْجِدِ فَلْيَقُلْ لاَ رَدَّهَا اللَّهُ عَلَيْكَ فَإِنَّ الْمَسَاجِدَ لَمْ تُبْنَ لِهَذَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6595a0f25fc0844186448232bc542102044ad73c2ad4487ae05306c65281364f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir Ahmad ibn Amr nous a rapporté : Ibn Wahb nous a rapporté, d’après Haywa, d’après Muhammad ibn Abd al-Rahman, d’après Abu Abdullah, affranchi de Shaddad ibn al-Had, qui dit avoir entendu Abu Hurayra dire : Le Messager d’Allah ﷺ a dit : « Que celui qui entend un homme réclamer dans la mosquée un objet perdu lui dise : “Qu’Allah ne te le rende pas !” Car les mosquées n’ont pas été construites pour cela. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "462a4bcc-4b54-4cdc-b1bb-c6985ce95867",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:568b",
+      "reference": "Sahih Muslim, hadith 568 b, book 5, باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "title": "باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا الْمُقْرِئُ، حَدَّثَنَا حَيْوَةُ، قَالَ سَمِعْتُ أَبَا الأَسْوَدِ، يَقُولُ حَدَّثَنِي أَبُو عَبْدِ اللَّهِ، مَوْلَى شَدَّادٍ أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏.‏ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "516a0883c4af3741ee42353e3482fcc89f63b8a6a022cd0d73eb26beb6c67fc9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e42fbf97-f268-4871-a62d-df90b8d61e52",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:569a",
+      "reference": "Sahih Muslim, hadith 569 a, book 5, باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "title": "باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا الثَّوْرِيُّ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، أَنَّ رَجُلاً، نَشَدَ فِي الْمَسْجِدِ فَقَالَ مَنْ دَعَا إِلَى الْجَمَلِ الأَحْمَرِ ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لاَ وَجَدْتَ ‏.‏ إِنَّمَا بُنِيَتِ الْمَسَاجِدُ لِمَا بُنِيَتْ لَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7f9a26acff55d14bad1edf565c0d8e408b0a98e0d91936d7bcac3045a7bb1964",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hajjaj ibn al-Sha‘ir nous a rapporté : Abd al-Razzaq nous a rapporté : al-Thawri nous a informés, d’après Alqama ibn Marthad, d’après Sulayman ibn Burayda, d’après son père, qu’un homme réclama dans la mosquée son chameau rouge en disant : « Qui a vu le chameau rouge ? » Le Prophète ﷺ lui dit : « Que tu ne le retrouves pas ! Les mosquées ont été construites pour ce à quoi elles sont destinées. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "262a2966-9718-4bac-b085-46166766dbe5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:569b",
+      "reference": "Sahih Muslim, hadith 569 b, book 5, باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "title": "باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ أَبِي سِنَانٍ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم لَمَّا صَلَّى قَامَ رَجُلٌ فَقَالَ مَنْ دَعَا إِلَى الْجَمَلِ الأَحْمَرِ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لاَ وَجَدْتَ إِنَّمَا بُنِيَتِ الْمَسَاجِدُ لِمَا بُنِيَتْ لَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ca50dc5bda0bad7dbc33848e44738fe4b6b14390a122107a9fcac156e67c752b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Waki‘ nous a rapporté, d’après Abu Sinan, d’après Alqama ibn Marthad, d’après Sulayman ibn Burayda, d’après son père, qu’après la prière le Prophète ﷺ se leva. Un homme dit : « Qui a vu le chameau rouge ? » Le Prophète ﷺ répondit : « Que tu ne le retrouves pas ! Les mosquées ont été construites pour ce à quoi elles sont destinées. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6fc46af8-5bff-438f-b7c0-18761bf60e78",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:569c",
+      "reference": "Sahih Muslim, hadith 569 c, book 5, باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "title": "باب النَّهْىِ عَنْ نَشْدِ الضَّالَّةِ، فِي الْمَسْجدِ وَمَا يَقُولُهُ مَنْ سَمِعَ النَّاشِدَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنْ مُحَمَّدِ بْنِ شَيْبَةَ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنِ ابْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ جَاءَ أَعْرَابِيٌّ بَعْدَ مَا صَلَّى النَّبِيُّ صلى الله عليه وسلم صَلاَةَ الْفَجْرِ ‏.‏ فَأَدْخَلَ رَأْسَهُ مِنْ بَابِ الْمَسْجِدِ فَذَكَرَ ‏.‏ بِمِثْلِ حَدِيثِهِمَا ‏.‏ قَالَ مُسْلِمٌ هُوَ شَيْبَةُ بْنُ نَعَامَةَ أَبُو نَعَامَةَ رَوَى عَنْهُ مِسْعَرٌ وَهُشَيْمٌ وَجَرِيرٌ وَغَيْرُهُمْ مِنَ الْكُوفِيِّينَ ‏.‏",
+      "source_hash_sha256": "626d1fdc23582b6aa80af860f3a1f71f28e586851c4f1ae3647b605e3e686ec2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "76a7375f-c621-4d57-9221-21427625ae57",
+      "reason": "La source ne donne que la chaîne de transmission et indique que le récit est semblable à la version précédente, sans reprendre son texte. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "462a4bcc-4b54-4cdc-b1bb-c6985ce95867",
+      "reason": "La source ne reprend pas les paroles du récit et renvoie seulement à la version précédente. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "6fc46af8-5bff-438f-b7c0-18761bf60e78",
+      "reason": "La source évoque brièvement un homme qui se présente à l’entrée de la mosquée, puis renvoie au récit précédent ; le contenu complet n’est pas repris. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ]
+}
