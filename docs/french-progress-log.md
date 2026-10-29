@@ -11926,3 +11926,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2088b-2089b
 
 - FR-LIB-HAD-MUSLIM-0991 saves two complete private French drafts about walking proudly and the gold ring. Four incomplete or referential variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2090-2091e
+
+- FR-LIB-HAD-MUSLIM-0992 saves four complete private French drafts about gold and silver rings. Two transmission-only variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
