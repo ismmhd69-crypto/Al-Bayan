@@ -7317,3 +7317,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0042 saves 6 private French drafts on tale-bearing, withholding charity, false oaths, and breaking pledges. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 204 of 7,366. Hadith Needs Mo: 181. Total local hadith rows not drafted: 8,089, including held records.
+
+### 2026-10-29: Muslim 108b–110b
+
+- FR-LIB-HAD-MUSLIM-0043 saves 5 private French drafts on keeping pledges and self-harm. Hadith 110b ends mid-phrase on a false oath; it remains blank and marked Needs Mo pending a complete verified Arabic source. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 209 of 7,366. Hadith Needs Mo: 182. Total local hadith rows not drafted: 8,084, including held records.
