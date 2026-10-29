@@ -36631,6 +36631,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0368",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0368.json",
+      "sourceIds": [
+        "1c733e15-d92b-4a17-bdbd-c039c8b8afc1",
+        "437dc5ac-f70c-484f-a6a2-2f302df28a78",
+        "2e032323-2393-4342-9398-564f8301a792",
+        "1775c0c4-3297-41f6-8231-481db8701740",
+        "20215efb-5d8c-4a5c-bb49-37e901e7dd3a",
+        "457ee175-4f67-4ccb-b0f3-28281f1188b9"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two direct Quran quotations and one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40938,8 +40959,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7798,
-  "hadithLocalRemaining": 6831,
+  "hadithLocalDrafted": 7801,
+  "hadithLocalRemaining": 6828,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43628,10 +43649,28 @@
       "scope": "Sahih Muslim 856B: incomplete cross-reference variant",
       "status": "blocked",
       "reason": "La source renvoie à un récit antérieur comme ayant la même formulation ou le même sens, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0368-863A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 863A: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un verset du Coran (sourate 62, verset 11). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0368-863B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 863B: incomplete variant",
+      "status": "blocked",
+      "reason": "La source ne rapporte qu’une différence concernant la mention du sermon debout dans le récit précédent, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0368-863C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 863C: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un verset du Coran (sourate 62, verset 11). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
     }
   ],
-  "hadithMuslimDrafted": 1462,
+  "hadithMuslimDrafted": 1465,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 684
+  "hadithNeedsMo": 687
 }
