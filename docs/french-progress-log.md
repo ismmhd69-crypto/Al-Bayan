@@ -2161,3 +2161,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-449` saves six private French drafts for Bukhari 2607 and 2609–2613, covering the return of Hawazin captives, fair repayment, a gifted camel, a clothing gift, and a household curtain. The source export contained no Bukhari 2608 record.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,367 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,262, including held records.
+
+### 2026-10-29: Bukhari 2614–2615 and 2617–2620 source review
+
+- `FR-LIB-HAD-BUKHARI-450` saves six private French drafts for Bukhari 2614–2615 and 2617–2620, covering gifted clothing, a poisoned sheep, shared food, clothing gifts, and kindness to a non-Muslim parent. The source export contained no Bukhari 2616 record.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,373 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,256, including held records.
