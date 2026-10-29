@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0365",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:38:34.009Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "132d266f-feb4-4a21-87c6-7c33e9404c35",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:852e",
+      "reference": "Sahih Muslim, hadith 852 e, book 7, باب فِي السَّاعَةِ الَّتِي فِي يَوْمِ الْجُمُعَةِ ‏",
+      "title": "باب فِي السَّاعَةِ الَّتِي فِي يَوْمِ الْجُمُعَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ سَلاَّمٍ الْجُمَحِيُّ، حَدَّثَنَا الرَّبِيعُ، - يَعْنِي ابْنَ مُسْلِمٍ - عَنْ مُحَمَّدِ بْنِ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنَّ فِي الْجُمُعَةِ لَسَاعَةً لا يُوَافِقُهَا مُسْلِمٌ يَسْأَلُ اللَّهَ فِيهَا خَيْرًا إِلاَّ أَعْطَاهُ إِيَّاهُ ‏\"‏ ‏.‏ قَالَ وَهِيَ سَاعَةٌ خَفِيفَةٌ",
+      "source_hash_sha256": "ef1c3dd7b436d4ef8396bc1b8a41ca4adac81d38ed6d156528fd70e5f60b4f10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd al-Rahman ibn Sallam al-Jumahi nous a rapporté : al-Rabi‘ — c’est-à-dire Ibn Muslim — nous a rapporté, d’après Muhammad ibn Ziyad, d’après Abu Hurayra, d’après le Prophète ﷺ, qui a dit : « Le vendredi comporte un moment où aucun musulman ne demande à Allah un bien sans qu’Il le lui accorde. » Il ajouta : « C’est un moment bref. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b2c4d8b2-232e-4b48-8c17-17bf3380751b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:852f",
+      "reference": "Sahih Muslim, hadith 852 f, book 7, باب فِي السَّاعَةِ الَّتِي فِي يَوْمِ الْجُمُعَةِ ‏",
+      "title": "باب فِي السَّاعَةِ الَّتِي فِي يَوْمِ الْجُمُعَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَلَمْ يَقُلْ وَهِيَ سَاعَةٌ خَفِيفَةٌ ‏.‏",
+      "source_hash_sha256": "d44d52da779a8d84d5f2fc1c26a9ee86b7d007065fd35f2a9d7ebfa5f2b2bf83",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "61c7a3c3-8542-48a4-b0ce-70a4c3ee0cd5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:853",
+      "reference": "Sahih Muslim, hadith 853, book 7, باب فِي السَّاعَةِ الَّتِي فِي يَوْمِ الْجُمُعَةِ ‏",
+      "title": "باب فِي السَّاعَةِ الَّتِي فِي يَوْمِ الْجُمُعَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَعَلِيُّ بْنُ خَشْرَمٍ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، عَنْ مَخْرَمَةَ بْنِ، بُكَيْرٍ ح وَحَدَّثَنَا هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، وَأَحْمَدُ بْنُ عِيسَى، قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنَا مَخْرَمَةُ، عَنْ أَبِيهِ، عَنْ أَبِي بُرْدَةَ بْنِ أَبِي مُوسَى الأَشْعَرِيِّ، قَالَ قَالَ لِي عَبْدُ اللَّهِ بْنُ عُمَرَ أَسَمِعْتَ أَبَاكَ يُحَدِّثُ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي شَأْنِ سَاعَةِ الْجُمُعَةِ قَالَ: قُلْتُ نَعَمْ سَمِعْتُهُ يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «هِيَ مَا بَيْنَ أَنْ يَجْلِسَ الإِمَامُ إِلَى أَنْ تُقْضَى الصَّلاَةُ».",
+      "source_hash_sha256": "39dc52321cf5484fb47d35031f47d3559cd7456858253550f19e959c1ce34117",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir et ‘Ali ibn Khashram nous ont rapporté. Tous deux ont dit : Ibn Wahb nous a informé, d’après Makhrama ibn Bukayr. (H) Harun ibn Sa‘id al-Ayli et Ahmad ibn ‘Isa nous ont rapporté. Tous deux ont dit : Ibn Wahb nous a rapporté : Makhrama nous a informé, d’après son père, d’après Abu Burda ibn Abi Musa al-Ash‘ari. Il dit : ‘Abd Allah ibn ‘Umar me demanda : « As-tu entendu ton père rapporter du Messager d’Allah ﷺ quelque chose au sujet du moment particulier du vendredi ? » Je répondis : « Oui, je l’ai entendu dire : “J’ai entendu le Messager d’Allah ﷺ dire : ‘Ce moment se situe entre l’instant où l’imam s’assied et la fin de la prière.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "006ec263-2451-4844-a988-5ab9d2e05746",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:854a",
+      "reference": "Sahih Muslim, hadith 854 a, book 7, باب فَضْلِ يَوْمِ الْجُمُعَةِ",
+      "title": "باب فَضْلِ يَوْمِ الْجُمُعَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي عَبْدُ الرَّحْمَنِ الأَعْرَجُ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَيْرُ يَوْمٍ طَلَعَتْ عَلَيْهِ الشَّمْسُ يَوْمُ الْجُمُعَةِ فِيهِ خُلِقَ آدَمُ وَفِيهِ أُدْخِلَ الْجَنَّةَ وَفِيهِ أُخْرِجَ مِنْهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3cf6e34e391624dfcd3a8237187b7f1532ca73c83b8038937faa9636eeb3e55f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya nous a rapporté : Ibn Wahb nous a informé : Yunus m’a informé, d’après Ibn Shihab. ‘Abd al-Rahman al-A‘raj m’a informé qu’il avait entendu Abu Hurayra dire que le Messager d’Allah ﷺ a dit : « Le meilleur jour sur lequel le soleil se lève est le vendredi : Adam y fut créé, il entra au Paradis ce jour-là et en fut sorti ce jour-là. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "936e18dc-d777-4fff-96b7-0fe6f7328b52",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:854b",
+      "reference": "Sahih Muslim, hadith 854 b, book 7, باب فَضْلِ يَوْمِ الْجُمُعَةِ",
+      "title": "باب فَضْلِ يَوْمِ الْجُمُعَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا الْمُغِيرَةُ، - يَعْنِي الْحِزَامِيَّ - عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ خَيْرُ يَوْمٍ طَلَعَتْ عَلَيْهِ الشَّمْسُ يَوْمُ الْجُمُعَةِ فِيهِ خُلِقَ آدَمُ وَفِيهِ أُدْخِلَ الْجَنَّةَ وَفِيهِ أُخْرِجَ مِنْهَا وَلاَ تَقُومُ السَّاعَةُ إِلاَّ فِي يَوْمِ الْجُمُعَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b13aa2cf1a193b4db243fb98e53ab7222c400d7171be789b6053ae9dfb920e40",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Mughira — c’est-à-dire al-Hizami — nous a rapporté, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra, que le Prophète ﷺ a dit : « Le meilleur jour sur lequel le soleil se lève est le vendredi. Adam y fut créé, il entra au Paradis ce jour-là et en fut sorti ce jour-là. Et l’Heure ne surviendra qu’un vendredi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "353193b1-2c1c-41b3-8f39-3b4eedae3954",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:855a",
+      "reference": "Sahih Muslim, hadith 855 a, book 7, باب هِدَايَةِ هَذِهِ الأُمَّةِ لِيَوْمِ الْجُمُعَةِ ‏",
+      "title": "باب هِدَايَةِ هَذِهِ الأُمَّةِ لِيَوْمِ الْجُمُعَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ نَحْنُ الآخِرُونَ وَنَحْنُ السَّابِقُونَ يَوْمَ الْقِيَامَةِ بَيْدَ أَنَّ كُلَّ أُمَّةٍ أُوتِيَتِ الْكِتَابَ مِنْ قَبْلِنَا وَأُوتِينَاهُ مِنْ بَعْدِهِمْ ثُمَّ هَذَا الْيَوْمُ الَّذِي كَتَبَهُ اللَّهُ عَلَيْنَا هَدَانَا اللَّهُ لَهُ فَالنَّاسُ لَنَا فِيهِ تَبَعٌ الْيَهُودُ غَدًا وَالنَّصَارَى بَعْدَ غَدٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "78117bdfc80e0902335cdcaf4c207cc3ef6c6c29b2b5bf53ceecab13dd1aa0e4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Amr al-Naqid nous a rapporté : Sufyan ibn ‘Uyayna nous a rapporté, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra. Il dit que le Messager d’Allah ﷺ a dit : « Nous sommes les derniers et nous serons les premiers au Jour de la Résurrection. Toutes les communautés ont reçu le Livre avant nous, tandis que nous l’avons reçu après elles. Puis voici le jour qu’Allah nous a prescrit et vers lequel Il nous a guidés. Les gens nous suivent à son sujet : les juifs célèbrent le lendemain et les chrétiens le jour d’après. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b2c4d8b2-232e-4b48-8c17-17bf3380751b",
+      "reason": "La source ne rapporte pas le texte du récit précédent et se limite à noter l’absence d’une phrase dans cette version. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
