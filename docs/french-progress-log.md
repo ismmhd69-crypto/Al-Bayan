@@ -1570,3 +1570,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-330` saves six private French drafts for the available source records 1918 and 1920–1924. The batch preserves the two transmission paths in 1918 and the stated timing, number and alternative wording in the remaining reports. No source record for 1919 was present in this exporter batch.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,751 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 108. Total local hadith rows not drafted: 12,878, including held records.
+### 2026-10-29: Bukhari 1925 and 1927–1931 source review
+
+- `FR-LIB-HAD-BUKHARI-331` saves five private French drafts for Bukhari 1925 and 1928–1931. Bukhari 1927 remains blank under Needs Mo because it directly quotes Quran 24:31; no approved, attributed French Quran translation is configured. The differing reports and chain details in 1925 remain intact.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,750 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 109. Total local hadith rows not drafted: 12,879, including held records.
