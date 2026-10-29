@@ -5412,3 +5412,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1054 saves the deferred long migration report as one private French draft, retaining the full preparation, cave stay and support details.
 - The draft passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,836 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,793, including held records.
+
+
+### 2026-10-29: Bukhari 5808–5813
+
+- FR-LIB-HAD-BUKHARI-1055 saves six private French drafts about clothing and gifts. Repeated reports about the preferred hibara garment are preserved.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,842 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,787, including held records.
