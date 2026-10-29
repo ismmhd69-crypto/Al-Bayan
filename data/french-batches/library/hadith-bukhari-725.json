@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-725",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:16:17.244Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "69f71e55-04f5-45c8-8ed3-da14800cd5bb",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4035",
+      "reference": "Sahih al-Bukhari, hadith 4035, 4036, book 64, باب حَدِيثِ بَنِي النَّضِيرِ",
+      "title": "باب حَدِيثِ بَنِي النَّضِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا هِشَامٌ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ فَاطِمَةَ ـ عَلَيْهَا السَّلاَمُ ـ وَالْعَبَّاسَ أَتَيَا أَبَا بَكْرٍ يَلْتَمِسَانِ مِيرَاثَهُمَا، أَرْضَهُ مِنْ فَدَكٍ، وَسَهْمَهُ مِنْ خَيْبَرَ‏.‏ فَقَالَ أَبُو بَكْرٍ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ نُورَثُ، مَا تَرَكْنَا صَدَقَةٌ، إِنَّمَا يَأْكُلُ آلُ مُحَمَّدٍ فِي هَذَا الْمَالِ ‏\"‏‏.‏ وَاللَّهِ لَقَرَابَةُ رَسُولِ اللَّهِ صلى الله عليه وسلم أَحَبُّ إِلَىَّ أَنْ أَصِلَ مِنْ قَرَابَتِي‏.‏",
+      "source_hash_sha256": "df5e78fa5f54bdde9531fce57c3443a1daa9429ea62052a3c8c42b48ffebc25e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte que Fâtima, qu’Allah la salue, et al-ʿAbbâs se rendirent auprès d’Abû Bakr pour réclamer leur héritage : la terre de Fadak et leur part de Khaybar. Abû Bakr dit : « J’ai entendu le Prophète dire : “Nous ne laissons pas d’héritage ; ce que nous laissons est une aumône. La famille de Muhammad ne vit que de ces biens.” Par Dieu, les proches du Messager de Dieu me sont plus chers à soutenir que mes propres proches. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

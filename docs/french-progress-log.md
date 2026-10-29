@@ -3536,3 +3536,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-724` holds the full report blank because it directly quotes Quran 59:6 and no approved, attributed French Quran translation is confirmed.
 - The record passed the focused validator with its Arabic original and hash, ID, reference, rights metadata and private unpublished hold. No database writes or publication occurred. Bukhari local drafts: 3,575 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,082, including held records.
+
+### 2026-10-29: Bukhari 4035
+
+- `FR-LIB-HAD-BUKHARI-725` saves one private French draft about the claims to the properties at Fadak and Khaybar.
+- The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,576 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,081, including held records.
