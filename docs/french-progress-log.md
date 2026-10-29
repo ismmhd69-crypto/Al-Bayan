@@ -1550,3 +1550,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-325` saves six private French drafts for Bukhari 1888–1893. It retains the full poetic report in 1889, the alternate transmission chains in 1890, and the stated conditions and optional wording in the remaining reports.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,724 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 105. Total local hadith rows not drafted: 12,905, including held records.
+### 2026-10-29: Bukhari 1894–1899 source review
+
+- `FR-LIB-HAD-BUKHARI-326` saves six private French drafts for Bukhari 1894–1899. It preserves the full dialogue and gate descriptions in 1895 and 1897, along with the exact counts and closing wordings in the other reports.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,730 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 105. Total local hadith rows not drafted: 12,899, including held records.
