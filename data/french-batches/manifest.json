@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6117,
+    "hadithBukhariDrafted": 6122,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6117,
+    "hadithLocalDrafted": 6122,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8514,
-    "hadithNeedsMo": 856,
+    "hadithLocalRemaining": 8513,
+    "hadithNeedsMo": 857,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28008,6 +28008,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1327",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1327.json",
+      "sourceIds": [
+        "b402e570-92fa-428e-971d-8c8afa1455d4",
+        "c52730ba-0c40-4195-8ee2-17e048cabf5c",
+        "3ecf6eda-5a18-4404-8521-edc890bde4f1",
+        "f397fe6f-d21a-498d-a60e-27acbc92c6ca",
+        "b9dceeb7-f779-424e-92a3-ecbfc9e32b7f",
+        "d5b5b106-eb27-46f2-bea4-d8bcc53daa84"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "five complete drafts and one unclear-wording hold; source hashes retained; narrator doubts, variants, quantities, and report endings preserved; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31532,11 +31553,17 @@
       "scope": "Sahih al-Bukhari 7252: direct quotation of Quran 2:144",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:144. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7273-UNCLEAR-ENDING",
+      "scope": "Sahih al-Bukhari 7273: unclear final wording تلغثونها أو ترغثونها",
+      "status": "blocked",
+      "reason": "The final phrase uses the unclear words تلغثونها أو ترغثونها, and the excerpt itself says the narrator may have used a similar word. Keep the full translation blank until this wording is reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 6117,
-  "hadithLocalDrafted": 6117,
-  "hadithLocalRemaining": 8514,
+  "hadithBukhariDrafted": 6122,
+  "hadithLocalDrafted": 6122,
+  "hadithLocalRemaining": 8513,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -32203,6 +32230,12 @@
       "scope": "Sahih al-Bukhari 7252: direct quotation of Quran 2:144",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:144. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7273-UNCLEAR-ENDING",
+      "scope": "Sahih al-Bukhari 7273: unclear final wording تلغثونها أو ترغثونها",
+      "status": "blocked",
+      "reason": "The final phrase uses the unclear words تلغثونها أو ترغثونها, and the excerpt itself says the narrator may have used a similar word. Keep the full translation blank until this wording is reliably clarified."
     }
   ]
 }
