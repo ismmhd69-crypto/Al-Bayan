@@ -11554,3 +11554,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1907a-1911a
 
 - FR-LIB-HAD-MUSLIM-0898 saves six private French drafts about intentions, seeking martyrdom, and illness preventing a campaign. The variants concerning the word “sincerely” and hearing ‘Umar on the minbar are preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1911b-1913a
+
+- FR-LIB-HAD-MUSLIM-0899 saves five private French drafts about reward for illness preventing a campaign, sea expeditions, and border guard duty. The separate accounts of Umm Harām’s voyage and death, and the “green sea” wording, are preserved. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
