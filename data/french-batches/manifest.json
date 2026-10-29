@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5077,
+    "hadithBukhariDrafted": 5078,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5077,
+    "hadithLocalDrafted": 5078,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9552,
+    "hadithLocalRemaining": 9551,
     "hadithNeedsMo": 763,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -23504,6 +23504,22 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "Five records passed the focused validator; Bukhari 6068 held blank because the variant does not include a complete chain. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1103",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1103.json",
+      "sourceIds": [
+        "68883092-4bf3-4beb-b40c-20dfa8fd0925"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"

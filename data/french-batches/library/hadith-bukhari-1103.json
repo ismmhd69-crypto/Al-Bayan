@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-1103",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:02:52.210Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "68883092-4bf3-4beb-b40c-20dfa8fd0925",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6072",
+      "reference": "Sahih al-Bukhari, hadith 6072, book 78, باب الْكِبْرِ",
+      "title": "باب الْكِبْرِ",
+      "source_published": true,
+      "text_original": "وَقَالَ مُحَمَّدُ بْنُ عِيسَى حَدَّثَنَا هُشَيْمٌ، أَخْبَرَنَا حُمَيْدٌ الطَّوِيلُ، حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ، قَالَ كَانَتِ الأَمَةُ مِنْ إِمَاءِ أَهْلِ الْمَدِينَةِ لَتَأْخُذُ بِيَدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَتَنْطَلِقُ بِهِ حَيْثُ شَاءَتْ‏.‏",
+      "source_hash_sha256": "86b49423c81156989865539e3de8f3f5e026bbc6f88b9e9c6087c5b196e01bf9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Îsâ a dit : Hushaim nous a rapporté : Humayd at-Tawîl nous a informés : Anas ibn Mâlik nous a rapporté et a dit : « Une jeune esclave parmi les esclaves des habitants de Médine prenait la main du Messager d’Allah ﷺ et l’emmenait où elle voulait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
