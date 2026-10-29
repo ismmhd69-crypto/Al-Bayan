@@ -18277,6 +18277,26 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-846",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-846.json",
+      "sourceIds": [
+        "8141bde3-956c-441a-8447-5e966c47813b",
+        "5c635748-95ee-4fb1-8cf2-5adaf993442f",
+        "97f8dcfc-b24a-4b96-8089-1fbb93b7a9c3",
+        "bdf1558d-2f04-4572-978a-d31dd8141548",
+        "e429317b-7a2a-4e20-908c-9691ccfc0969"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19563,9 +19583,33 @@
       "scope": "Sahih al-Bukhari 4671: repeated direct quotations of Quran 9:84",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 9:84 à plusieurs reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-845, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4672-QURAN-9-80-84",
+      "scope": "Sahih al-Bukhari 4672: direct quotations of Quran 9:80 and 9:84",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 9:80 et 9:84. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-846, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4673-QURAN-9-95",
+      "scope": "Sahih al-Bukhari 4673: direct quotation of Quran 9:95",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 9:95. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-846, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4675-QURAN-9-113",
+      "scope": "Sahih al-Bukhari 4675: direct quotation of Quran 9:113",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 9:113. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-846, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4676-QURAN-9-118",
+      "scope": "Sahih al-Bukhari 4676: direct quotation of Quran 9:118",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 9:118. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-846, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4003,
-  "hadithLocalDrafted": 4003,
-  "hadithLocalRemaining": 10664
+  "hadithBukhariDrafted": 4004,
+  "hadithLocalDrafted": 4004,
+  "hadithLocalRemaining": 10663
 }
