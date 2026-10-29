@@ -3721,3 +3721,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-761` saves six private French drafts covering reports from Khaybar, ʿAbdallâh ibn Qays and the wounded combatant.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,717 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 307. Total local hadith rows not drafted: 10,940, including held records.
+
+### 2026-10-29: Bukhari 4209–4214
+
+- `FR-LIB-HAD-BUKHARI-762` saves six private French drafts covering the banner at Khaybar, Safiyya, and a report about a bag of fat during the siege.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,723 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 307. Total local hadith rows not drafted: 10,934, including held records.
