@@ -5003,3 +5003,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-987 saves five private French drafts. Hadith 5406 remains blank because the excerpt contains only the start of a journey and omits the report; this is recorded for Mo.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,446 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 724. Total local hadith rows not drafted: 10,227, including held records.
+
+
+### 2026-10-29: Bukhari 5412–5417
+
+- FR-LIB-HAD-BUKHARI-988 saves six private French drafts.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,452 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 724. Total local hadith rows not drafted: 10,221, including held records.
