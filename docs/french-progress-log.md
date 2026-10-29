@@ -11754,3 +11754,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2009c
 
 - FR-LIB-HAD-MUSLIM-0948 saves the complete long migration report as a private French draft, including the stop at the rock, milk, renewed journey, pursuit, and pledge. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2009d-2012a
+
+- FR-LIB-HAD-MUSLIM-0949 saves four complete private French drafts about the Hijra account, covering milk, and covering vessels. Two entries that refer back to prior wording without reproducing the full account remain blank with specific Needs Mo reasons. No database write or publication occurred.
