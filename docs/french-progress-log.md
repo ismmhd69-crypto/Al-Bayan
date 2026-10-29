@@ -11131,3 +11131,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0800 saves the complete long French draft as a single private item, preserving its chain, the reported events involving Ma‘iz and the woman of Ghamid, and the closing speech.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1696a–1699b
+
+- FR-LIB-HAD-MUSLIM-0801 saves four private French drafts about a pregnancy report, a dispute resolved under the Book of Allah, and two Jewish adultery reports. Muslim 1696b and the second 1697 entry only cross-reference earlier text, so they remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
