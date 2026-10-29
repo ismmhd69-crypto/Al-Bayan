@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-801",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:59:53.535Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5bdd0033-18ba-464e-ac62-28419bc73ce7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4425",
+      "reference": "Sahih al-Bukhari, hadith 4425, book 64, باب كِتَابِ النَّبِيِّ صلى الله عليه وسلم إِلَى كِسْرَى وَقَيْصَرَ",
+      "title": "باب كِتَابِ النَّبِيِّ صلى الله عليه وسلم إِلَى كِسْرَى وَقَيْصَرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ بْنُ الْهَيْثَمِ، حَدَّثَنَا عَوْفٌ، عَنِ الْحَسَنِ، عَنْ أَبِي بَكْرَةَ، قَالَ لَقَدْ نَفَعَنِي اللَّهُ بِكَلِمَةٍ سَمِعْتُهَا مِنْ، رَسُولِ اللَّهِ صلى الله عليه وسلم أَيَّامَ الْجَمَلِ، بَعْدَ مَا كِدْتُ أَنْ أَلْحَقَ بِأَصْحَابِ الْجَمَلِ فَأُقَاتِلَ مَعَهُمْ قَالَ لَمَّا بَلَغَ رَسُولَ اللَّهِ صلى الله عليه وسلم أَنَّ أَهْلَ فَارِسَ قَدْ مَلَّكُوا عَلَيْهِمْ بِنْتَ كِسْرَى قَالَ ‏\"‏ لَنْ يُفْلِحَ قَوْمٌ وَلَّوْا أَمْرَهُمُ امْرَأَةً ‏\"‏‏.‏",
+      "source_hash_sha256": "5614ebf5b11568843581d442eff06bbb47248772bd6a470e1c38aa754d3a9069",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakra rapporte : Le jour de la bataille du Chameau, Allah m’a fait profiter d’une parole que j’avais entendue du Messager d’Allah (paix et bénédictions sur lui). J’avais presque rejoint les partisans du Chameau pour combattre à leurs côtés. Lorsque le Messager d’Allah apprit que les Perses avaient confié leur pouvoir à la fille de Kisrâ, il dit : « Un peuple qui confie ses affaires à une femme ne réussira pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "991e2f64-0aee-492c-966a-73d7bf328f7d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4426",
+      "reference": "Sahih al-Bukhari, hadith 4426, book 64, باب كِتَابِ النَّبِيِّ صلى الله عليه وسلم إِلَى كِسْرَى وَقَيْصَرَ",
+      "title": "باب كِتَابِ النَّبِيِّ صلى الله عليه وسلم إِلَى كِسْرَى وَقَيْصَرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ سَمِعْتُ الزُّهْرِيَّ، عَنِ السَّائِبِ بْنِ يَزِيدَ، يَقُولُ أَذْكُرُ أَنِّي خَرَجْتُ مَعَ الْغِلْمَانِ إِلَى ثَنِيَّةِ الْوَدَاعِ نَتَلَقَّى رَسُولَ اللَّهِ صلى الله عليه وسلم‏.‏ وَقَالَ سُفْيَانُ مَرَّةً مَعَ الصِّبْيَانِ‏.‏",
+      "source_hash_sha256": "a6863138e56bae274c25406fb4ae7f28d64272faaa272dd391a988431f23ab72",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Sâʾib ibn Yazîd rapporte : Je me souviens être sorti avec les jeunes garçons jusqu’au col d’al-Wadâʿ pour accueillir le Messager d’Allah (paix et bénédictions sur lui). Sufyân rapporta aussi une version disant : « avec les enfants ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "23de1d10-d657-4e93-8991-9eef8ad64b6b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4427",
+      "reference": "Sahih al-Bukhari, hadith 4427, book 64, باب كِتَابِ النَّبِيِّ صلى الله عليه وسلم إِلَى كِسْرَى وَقَيْصَرَ",
+      "title": "باب كِتَابِ النَّبِيِّ صلى الله عليه وسلم إِلَى كِسْرَى وَقَيْصَرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنِ السَّائِبِ، أَذْكُرُ أَنِّي خَرَجْتُ مَعَ الصِّبْيَانِ نَتَلَقَّى النَّبِيَّ صلى الله عليه وسلم إِلَى ثَنِيَّةِ الْوَدَاعِ مَقْدَمَهُ مِنْ غَزْوَةِ تَبُوكَ‏.‏",
+      "source_hash_sha256": "8e82027ea8557b9807435ffd3eb3516c6d8bf301887d7ee4fc2f0de881e27116",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Sâʾib rapporte : Je me souviens être sorti avec les enfants jusqu’au col d’al-Wadâʿ pour accueillir le Prophète (paix et bénédictions sur lui), à son retour de l’expédition de Tabûk.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "798c084d-2c19-45ef-9784-6eafb4c2c1db",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4428",
+      "reference": "Sahih al-Bukhari, hadith 4428, book 64, بَابُ مَرَضِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَوَفَاتِهِ",
+      "title": "بَابُ مَرَضِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَوَفَاتِهِ",
+      "source_published": true,
+      "text_original": "وَقَالَ يُونُسُ عَنِ الزُّهْرِيِّ، قَالَ عُرْوَةُ قَالَتْ عَائِشَةُ ـ رضى الله عنها ـ كَانَ النَّبِيُّ صلى الله عليه وسلم يَقُولُ فِي مَرَضِهِ الَّذِي مَاتَ فِيهِ ‏\"‏ يَا عَائِشَةُ مَا أَزَالُ أَجِدُ أَلَمَ الطَّعَامِ الَّذِي أَكَلْتُ بِخَيْبَرَ، فَهَذَا أَوَانُ وَجَدْتُ انْقِطَاعَ أَبْهَرِي مِنْ ذَلِكَ السَّمِّ ‏\"‏‏.‏",
+      "source_hash_sha256": "0b9b8b4552d6a67aed62e9a1fbfcbd6415690bfef3d98ff9f0d4154fb37439fb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂʾisha (qu’Allah l’agrée) rapporte que, pendant la maladie dont il mourut, le Prophète (paix et bénédictions sur lui) lui disait : « ʿÂʾisha, je ressens encore la douleur causée par la nourriture que j’ai mangée à Khaybar. À présent, je sens que mon aorte se rompt à cause de ce poison. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7d870559-ed6f-4d73-b312-5ad80b5d162e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4429",
+      "reference": "Sahih al-Bukhari, hadith 4429, book 64, بَابُ مَرَضِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَوَفَاتِهِ",
+      "title": "بَابُ مَرَضِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَوَفَاتِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ ـ رضى الله عنهما ـ عَنْ أُمِّ الْفَضْلِ بِنْتِ الْحَارِثِ، قَالَتْ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ فِي الْمَغْرِبِ بِ ـ ‏[quran sura=\"77\" aya_start=\"1\" aya_end=\"1\"]{‏الْمُرْسَلاَتِ عُرْفًا‏}‏ ثُمَّ مَا صَلَّى لَنَا بَعْدَهَا حَتَّى قَبَضَهُ اللَّهُ‏.‏",
+      "source_hash_sha256": "18499ca20e63caeb87bd2140bef6b8868bf3e006ff010368cb70a2f6cd5fc680",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2c41b48e-ff1a-42e8-a1c2-0ae628d60e06",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4430",
+      "reference": "Sahih al-Bukhari, hadith 4430, book 64, بَابُ مَرَضِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَوَفَاتِهِ",
+      "title": "بَابُ مَرَضِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَوَفَاتِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَرْعَرَةَ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ عُمَرُ بْنُ الْخَطَّابِ ـ رضى الله عنه ـ يُدْنِي ابْنَ عَبَّاسٍ فَقَالَ لَهُ عَبْدُ الرَّحْمَنِ بْنُ عَوْفٍ إِنَّ لَنَا أَبْنَاءً مِثْلَهُ‏.‏ فَقَالَ إِنَّهُ مِنْ حَيْثُ تَعْلَمُ‏.‏ فَسَأَلَ عُمَرُ ابْنَ عَبَّاسٍ عَنْ هَذِهِ الآيَةِ ‏[quran sura=\"110\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ‏}‏ فَقَالَ أَجَلُ رَسُولِ اللَّهِ صلى الله عليه وسلم أَعْلَمَهُ إِيَّاهُ، فَقَالَ مَا أَعْلَمُ مِنْهَا إِلاَّ مَا تَعْلَمُ‏.‏",
+      "source_hash_sha256": "3479e7c248f4672e95190efb51bb7119de2ac90664d160a12d1c14ffa7123a5f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "7d870559-ed6f-4d73-b312-5ad80b5d162e",
+      "url": "https://sunnah.com/bukhari:4429",
+      "reason": "The report directly quotes the opening of Quran 77:1. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    },
+    {
+      "source_id": "2c41b48e-ff1a-42e8-a1c2-0ae628d60e06",
+      "url": "https://sunnah.com/bukhari:4430",
+      "reason": "The report directly quotes Quran 110:1. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    }
+  ]
+}

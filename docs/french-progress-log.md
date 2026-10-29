@@ -3916,3 +3916,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-800` saves six private French drafts about al-Ḥijr, the return from Tabûk, and Kisrâ’s letter.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,896 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 326. Total local hadith rows not drafted: 10,761, including held records.
+
+### 2026-10-29: Bukhari 4425–4430
+
+- `FR-LIB-HAD-BUKHARI-801` saves four private French drafts. Hadith 4429 and 4430 remain blank because they directly quote Quran 77:1 and 110:1; both holds are recorded for Mo.
+- All six records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,900 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 328. Total local hadith rows not drafted: 10,757, including held records.

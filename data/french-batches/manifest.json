@@ -17367,6 +17367,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-801",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-801.json",
+      "sourceIds": [
+        "5bdd0033-18ba-464e-ac62-28419bc73ce7",
+        "991e2f64-0aee-492c-966a-73d7bf328f7d",
+        "23de1d10-d657-4e93-8991-9eef8ad64b6b",
+        "798c084d-2c19-45ef-9784-6eafb4c2c1db",
+        "7d870559-ed6f-4d73-b312-5ad80b5d162e",
+        "2c41b48e-ff1a-42e8-a1c2-0ae628d60e06"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17891,9 +17912,21 @@
       "scope": "Sahih al-Bukhari 4418: direct quotations of Quran 9:117–119 and 9:95–96",
       "status": "blocked",
       "reason": "The report directly quotes these Quran passages. The complete unusually long record remains blank in FR-LIB-HAD-BUKHARI-799 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4429-QURAN-77-1",
+      "scope": "Sahih al-Bukhari 4429: direct quotation of Quran 77:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 77:1. The complete record remains blank in FR-LIB-HAD-BUKHARI-801 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4430-QURAN-110-1",
+      "scope": "Sahih al-Bukhari 4430: direct quotation of Quran 110:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 110:1. The complete record remains blank in FR-LIB-HAD-BUKHARI-801 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3896,
-  "hadithLocalDrafted": 3896,
-  "hadithLocalRemaining": 10761
+  "hadithBukhariDrafted": 3900,
+  "hadithLocalDrafted": 3900,
+  "hadithLocalRemaining": 10757
 }
