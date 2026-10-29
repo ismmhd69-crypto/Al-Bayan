@@ -11586,3 +11586,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1929j-1931b
 
 - FR-LIB-HAD-MUSLIM-0906 saves six private French drafts about hunting with dogs and arrows, vessels, and delayed recovery of game. The omission of bow hunting in one version is preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1931c-1933a
+
+- FR-LIB-HAD-MUSLIM-0907 saves five private French drafts about hunting rules and the prohibition on eating predatory animals with fangs. One visibly damaged Arabic source remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
