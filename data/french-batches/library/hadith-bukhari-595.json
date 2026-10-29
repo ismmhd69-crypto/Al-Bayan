@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-595",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:07:17.523Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2370059e-820f-4f6d-8892-93a24a39fade",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3402",
+      "reference": "Sahih al-Bukhari, hadith 3402, book 60, باب حَدِيثِ الْخَضِرِ مَعَ مُوسَى ـ عَلَيْهِمَا السَّلاَمُ",
+      "title": "باب حَدِيثِ الْخَضِرِ مَعَ مُوسَى ـ عَلَيْهِمَا السَّلاَمُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ سَعِيدٍ الأَصْبَهَانِيُّ، أَخْبَرَنَا ابْنُ الْمُبَارَكِ، عَنْ مَعْمَرٍ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّمَا سُمِّيَ الْخَضِرُ أَنَّهُ جَلَسَ عَلَى فَرْوَةٍ بَيْضَاءَ فَإِذَا هِيَ تَهْتَزُّ مِنْ خَلْفِهِ خَضْرَاءَ ‏\"‏‏.‏",
+      "source_hash_sha256": "7ae52de2639997713dcb62a9303b9357184b20448f30267d9d4ce3bf8b3ba729",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte que le Prophète (ﷺ) a dit : « On appela al-Khidr ainsi parce qu’il s’assit sur une terre blanche, qui se mit à verdir derrière lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "952ae943-1239-4955-8929-ebdd9e474672",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3403",
+      "reference": "Sahih al-Bukhari, hadith 3403, book 60, كتاب أحاديث الأنبياء",
+      "title": "كتاب أحاديث الأنبياء",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ نَصْرٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ قِيلَ لِبَنِي إِسْرَائِيلَ ادْخُلُوا الْبَابَ سُجَّدًا وَقُولُوا حِطَّةٌ‏.‏ فَبَدَّلُوا فَدَخَلُوا يَزْحَفُونَ عَلَى أَسْتَاهِهِمْ، وَقَالُوا حَبَّةٌ فِي شَعْرَةٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "1d1cc45aa95c757c45417a5c04abbaa36fdbfc731192263f8cf8bf7d550468ce",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "56e18f0f-951d-4919-b02b-cfd9ed80fa72",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3404",
+      "reference": "Sahih al-Bukhari, hadith 3404, book 60, كتاب أحاديث الأنبياء",
+      "title": "كتاب أحاديث الأنبياء",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا عَوْفٌ، عَنِ الْحَسَنِ، وَمُحَمَّدٍ، وَخِلاَسٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ مُوسَى كَانَ رَجُلاً حَيِيًّا سِتِّيرًا، لاَ يُرَى مِنْ جِلْدِهِ شَىْءٌ، اسْتِحْيَاءً مِنْهُ، فَآذَاهُ مَنْ آذَاهُ مِنْ بَنِي إِسْرَائِيلَ، فَقَالُوا مَا يَسْتَتِرُ هَذَا التَّسَتُّرَ إِلاَّ مِنْ عَيْبٍ بِجِلْدِهِ، إِمَّا بَرَصٌ وَإِمَّا أُدْرَةٌ وَإِمَّا آفَةٌ‏.‏ وَإِنَّ اللَّهَ أَرَادَ أَنْ يُبَرِّئَهُ مِمَّا قَالُوا لِمُوسَى فَخَلاَ يَوْمًا وَحْدَهُ فَوَضَعَ ثِيَابَهُ عَلَى الْحَجَرِ ثُمَّ اغْتَسَلَ، فَلَمَّا فَرَغَ أَقْبَلَ إِلَى ثِيَابِهِ لِيَأْخُذَهَا، وَإِنَّ الْحَجَرَ عَدَا بِثَوْبِهِ، فَأَخَذَ مُوسَى عَصَاهُ وَطَلَبَ الْحَجَرَ، فَجَعَلَ يَقُولُ ثَوْبِي حَجَرُ، ثَوْبِي حَجَرُ، حَتَّى انْتَهَى إِلَى مَلإٍ مِنْ بَنِي إِسْرَائِيلَ، فَرَأَوْهُ عُرْيَانًا أَحْسَنَ مَا خَلَقَ اللَّهُ، وَأَبْرَأَهُ مِمَّا يَقُولُونَ، وَقَامَ الْحَجَرُ فَأَخَذَ ثَوْبَهُ فَلَبِسَهُ، وَطَفِقَ بِالْحَجَرِ ضَرْبًا بِعَصَاهُ، فَوَاللَّهِ إِنَّ بِالْحَجَرِ لَنَدَبًا مِنْ أَثَرِ ضَرْبِهِ ثَلاَثًا أَوْ أَرْبَعًا أَوْ خَمْسًا، فَذَلِكَ قَوْلُهُ ‏[quran sura=\"33\" aya_start=\"69\" aya_end=\"69\"]{‏يَا أَيُّهَا الَّذِينَ آمَنُوا لاَ تَكُونُوا كَالَّذِينَ آذَوْا مُوسَى فَبَرَّأَهُ اللَّهُ مِمَّا قَالُوا وَكَانَ عِنْدَ اللَّهِ وَجِيهًا‏}‏‏.‏‏\"‏",
+      "source_hash_sha256": "74ae7cb203c77575e4ede32312ec961b8b86dc5d265a115ae5ed970e7f4f1756",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6be46506-5c7b-4b85-a3f9-c233ee6adfdd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3405",
+      "reference": "Sahih al-Bukhari, hadith 3405, book 60, كتاب أحاديث الأنبياء",
+      "title": "كتاب أحاديث الأنبياء",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، عَنِ الأَعْمَشِ، قَالَ سَمِعْتُ أَبَا وَائِلٍ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ ـ رضى الله عنه ـ قَالَ قَسَمَ النَّبِيُّ صلى الله عليه وسلم قَسْمًا، فَقَالَ رَجُلٌ إِنَّ هَذِهِ لَقِسْمَةٌ مَا أُرِيدَ بِهَا وَجْهُ اللَّهِ‏.‏ فَأَتَيْتُ النَّبِيَّ صلى الله عليه وسلم فَأَخْبَرْتُهُ، فَغَضِبَ حَتَّى رَأَيْتُ الْغَضَبَ فِي وَجْهِهِ، ثُمَّ قَالَ ‏\"‏ يَرْحَمُ اللَّهُ مُوسَى قَدْ أُوذِيَ بِأَكْثَرَ مِنْ هَذَا فَصَبَرَ ‏\"‏‏.‏",
+      "source_hash_sha256": "f6af127cb32e036833aca6f27b33cefe0787a32f51333a1e4d914e4bf45f7fd2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah (qu’Allah l’agrée) rapporte : « Le Prophète (ﷺ) fit une répartition. Un homme dit : “Cette répartition n’a pas été faite pour plaire à Allah.” J’allai le voir et l’en informai. Il se mit en colère, au point que je vis la colère sur son visage, puis dit : “Qu’Allah fasse miséricorde à Mûsâ ! Il a subi pire que cela et a fait preuve de patience.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "67226a71-0ac0-40c2-8e9b-7bdad07bac0e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3406",
+      "reference": "Sahih al-Bukhari, hadith 3406, book 60, بَابُ: {يَعْكِفُونَ عَلَى أَصْنَامٍ لَهُمْ}",
+      "title": "بَابُ: {يَعْكِفُونَ عَلَى أَصْنَامٍ لَهُمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ يُونُسَ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، أَنَّ جَابِرَ بْنَ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ قَالَ كُنَّا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم نَجْنِي الْكَبَاثَ، وَإِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ عَلَيْكُمْ بِالأَسْوَدِ مِنْهُ، فَإِنَّهُ أَطْيَبُهُ ‏\"‏‏.‏ قَالُوا أَكُنْتَ تَرْعَى الْغَنَمَ قَالَ ‏\"‏ وَهَلْ مِنْ نَبِيٍّ إِلاَّ وَقَدْ رَعَاهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "b76d52ebe0ff34b87db4ccb7514789ac7afaae218f0a0ab1f615e9f850c88680",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir ibn ‘Abd Allah (qu’Allah les agrée tous deux) rapporte : « Nous cueillions les fruits du caprier avec le Messager d’Allah (ﷺ). Il dit : “Prenez les plus noirs, car ils sont les meilleurs.” On demanda : “As-tu gardé des moutons ?” Il répondit : “Y a-t-il un prophète qui n’en ait pas gardé ?” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3af141c2-b787-4ca6-9545-06d4ea46242e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3407",
+      "reference": "Sahih al-Bukhari, hadith 3407, book 60, باب وَفَاةِ مُوسَى، وَذِكْرُهُ بَعْدُ",
+      "title": "باب وَفَاةِ مُوسَى، وَذِكْرُهُ بَعْدُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ أُرْسِلَ مَلَكُ الْمَوْتِ إِلَى مُوسَى ـ عَلَيْهِمَا السَّلاَمُ ـ فَلَمَّا جَاءَهُ صَكَّهُ، فَرَجَعَ إِلَى رَبِّهِ، فَقَالَ أَرْسَلْتَنِي إِلَى عَبْدٍ لاَ يُرِيدُ الْمَوْتَ‏.‏ قَالَ ارْجِعْ إِلَيْهِ، فَقُلْ لَهُ يَضَعُ يَدَهُ عَلَى مَتْنِ ثَوْرٍ، فَلَهُ بِمَا غَطَّتْ يَدُهُ بِكُلِّ شَعَرَةٍ سَنَةٌ‏.‏ قَالَ أَىْ رَبِّ، ثُمَّ مَاذَا قَالَ ثُمَّ الْمَوْتُ‏.‏ قَالَ فَالآنَ‏.‏ قَالَ فَسَأَلَ اللَّهَ أَنْ يُدْنِيَهُ مِنَ الأَرْضِ الْمُقَدَّسَةِ رَمْيَةً بِحَجَرٍ‏.‏ قَالَ أَبُو هُرَيْرَةَ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ كُنْتُ ثَمَّ لأَرَيْتُكُمْ قَبْرَهُ إِلَى جَانِبِ الطَّرِيقِ تَحْتَ الْكَثِيبِ الأَحْمَرِ ‏\"‏‏.‏ قَالَ وَأَخْبَرَنَا مَعْمَرٌ عَنْ هَمَّامٍ حَدَّثَنَا أَبُو هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ‏.‏",
+      "source_hash_sha256": "dc0b9d355be98b60b6b032c876b56afbc099101235a4e871100984d10d8c9e4a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte : « L’ange de la mort fut envoyé à Mûsâ (paix sur lui). Lorsqu’il vint à lui, Mûsâ le frappa. L’ange retourna auprès de son Seigneur et dit : “Tu m’as envoyé à un serviteur qui ne veut pas mourir.” Allah lui dit : “Retourne le voir et dis-lui de poser sa main sur le dos d’un taureau ; pour chaque poil recouvert par sa main, il aura une année supplémentaire.” Mûsâ demanda : “Et ensuite, Seigneur ?” Il répondit : “Ensuite, la mort.” Mûsâ dit : “Alors, maintenant.” Il demanda ensuite à Allah de le rapprocher de la Terre sainte à la distance d’un jet de pierre. » Abû Hurayra ajouta que le Messager d’Allah (ﷺ) avait dit : « Si j’étais là-bas, je vous montrerais sa tombe, au bord du chemin, sous la dune rouge. » Ma‘mar rapporte également cette tradition d’après Hammâm, d’après Abû Hurayra, du Prophète (ﷺ).",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "952ae943-1239-4955-8929-ebdd9e474672",
+      "reference": "Sahih al-Bukhari, hadith 3403",
+      "reason": "This report directly quotes Quran 2:58. Keep the full French translation blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "56e18f0f-951d-4919-b02b-cfd9ed80fa72",
+      "reference": "Sahih al-Bukhari, hadith 3404",
+      "reason": "This report directly quotes Quran 33:69. Keep the full French translation blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
