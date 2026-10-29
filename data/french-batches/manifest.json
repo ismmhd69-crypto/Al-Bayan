@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5426,
+    "hadithBukhariDrafted": 5428,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5426,
+    "hadithLocalDrafted": 5428,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9203,
+    "hadithLocalRemaining": 9201,
     "hadithNeedsMo": 782,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -25105,6 +25105,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1185",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1185.json",
+      "sourceIds": [
+        "be0ee341-c3ee-490e-a46e-887d97be5421",
+        "1044da63-f820-4391-ac8f-f6bf5cdae65c"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Two records passed the focused validator. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -28193,9 +28210,9 @@
       "reason": "The report directly quotes Quran 102:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5426,
-  "hadithLocalDrafted": 5426,
-  "hadithLocalRemaining": 9203,
+  "hadithBukhariDrafted": 5428,
+  "hadithLocalDrafted": 5428,
+  "hadithLocalRemaining": 9201,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",

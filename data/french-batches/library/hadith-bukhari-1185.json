@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-1185",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:39:17.412Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "be0ee341-c3ee-490e-a46e-887d97be5421",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6450",
+      "reference": "Sahih al-Bukhari, hadith 6450, book 81, باب فَضْلِ الْفَقْرِ",
+      "title": "باب فَضْلِ الْفَقْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو مَعْمَرٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا سَعِيدُ بْنُ أَبِي عَرُوبَةَ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ لَمْ يَأْكُلِ النَّبِيُّ صلى الله عليه وسلم عَلَى خِوَانٍ حَتَّى مَاتَ، وَمَا أَكَلَ خُبْزًا مُرَقَّقًا حَتَّى مَاتَ‏.‏",
+      "source_hash_sha256": "4bea856ec795a925e05726ffa98b41ede39b562fd5b7f68701a9098c69f2c732",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Ma‘mar nous a rapporté : ‘Abd al-Wârith nous a rapporté : Sa‘îd ibn Abî ‘Arûba nous a rapporté, d’après Qatâda, d’après Anas (qu’Allah l’agrée), qui a dit : Jusqu’à sa mort, le Prophète ﷺ n’a jamais mangé sur une table et n’a jamais mangé de pain fin.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1044da63-f820-4391-ac8f-f6bf5cdae65c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6451",
+      "reference": "Sahih al-Bukhari, hadith 6451, book 81, باب فَضْلِ الْفَقْرِ",
+      "title": "باب فَضْلِ الْفَقْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ لَقَدْ تُوُفِّيَ النَّبِيُّ صلى الله عليه وسلم وَمَا فِي رَفِّي مِنْ شَىْءٍ يَأْكُلُهُ ذُو كَبِدٍ، إِلاَّ شَطْرُ شَعِيرٍ فِي رَفٍّ لِي، فَأَكَلْتُ مِنْهُ حَتَّى طَالَ عَلَىَّ، فَكِلْتُهُ، فَفَنِيَ‏.‏",
+      "source_hash_sha256": "a890261bf659deccda7bf9af80f62d75413f0bcea39290b0f192e85193a20837",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Abî Shayba nous a rapporté : Abû Usâma nous a rapporté : Hishâm nous a rapporté, d’après son père, d’après ‘Â’isha (qu’Allah l’agrée), qui a dit : Le Prophète ﷺ est mort alors qu’il n’y avait sur mon étagère rien qu’un être vivant puisse manger, à part une demi-mesure d’orge. J’en ai mangé pendant longtemps, puis je l’ai mesurée et elle s’est épuisée.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
