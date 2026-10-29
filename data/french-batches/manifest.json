@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:47:04.699Z",
+  "lastReconciled": "2026-10-29T14:47:50.593Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 521,
+    "hadithMuslimDrafted": 525,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6857,
-    "hadithDatabaseMissing": 7772,
-    "hadithLocalRemaining": 7772,
-    "hadithNeedsMo": 262,
+    "hadithLocalDrafted": 6861,
+    "hadithDatabaseMissing": 7768,
+    "hadithLocalRemaining": 7768,
+    "hadithNeedsMo": 264,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31644,6 +31644,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0127",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0127.json",
+      "sourceIds": [
+        "505addd5-8ca3-4f38-8f61-9ca4c54943a5",
+        "72e30a15-1c08-4fde-bbd2-0a827b48f5b7",
+        "814bd581-ef8b-438c-95f3-c63d7d8606ee",
+        "7eebaa1c-6401-4d82-b21a-8e6ca36f997c",
+        "8b48e134-6943-4b1e-9c82-61ddc5a06033",
+        "713e3e23-8c30-4774-983a-c8d9e6b57c59"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; two cross-reference-only variants held blank for source integrity",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35951,8 +35972,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6857,
-  "hadithLocalRemaining": 7772,
+  "hadithLocalDrafted": 6861,
+  "hadithLocalRemaining": 7768,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -37525,10 +37546,22 @@
       "scope": "Sahih Muslim 280b: variant-only report",
       "status": "blocked",
       "reason": "La source arabe ne reprend que la chaîne de transmission et indique que le récit est semblable, avec une variante concernant le chien utilisé pour les cultures, sans répéter le texte complet. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-286C-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 286C: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe ne fournit que la chaîne de transmission et renvoie à la version d’Ibn Numayr sans en répéter le texte complet. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-287B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 287B: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe donne seulement une chaîne de transmission et une différence de formulation (« il demanda de l’eau et l’aspergea »), sans reprendre le texte complet du récit. Garder la traduction en attente d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 521,
-  "hadithDatabaseMissing": 7772,
+  "hadithMuslimDrafted": 525,
+  "hadithDatabaseMissing": 7768,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 262
+  "hadithNeedsMo": 264
 }

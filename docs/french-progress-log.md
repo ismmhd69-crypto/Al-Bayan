@@ -7753,3 +7753,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0126 saves six private French drafts on stagnant water, cleaning the mosque after urine, and cleaning infant urine.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 521 Muslim drafts, 6,857 total hadith drafts, 7,772 remaining, and 262 Needs Mo items.
+
+### 2026-10-29: Muslim 286c–288a
+
+- FR-LIB-HAD-MUSLIM-0127 saves four private French drafts on infant urine and garment cleaning, including the report about Indian costus.
+- Muslim 286c and 287b contain only transmission chains and variant references without the complete report text. Both remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 525 Muslim drafts, 6,861 total hadith drafts, 7,768 remaining, and 264 Needs Mo items.

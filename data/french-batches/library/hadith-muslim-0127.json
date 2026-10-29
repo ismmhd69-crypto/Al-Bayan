@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0127",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:47:11.646Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "505addd5-8ca3-4f38-8f61-9ca4c54943a5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:286c",
+      "reference": "Sahih Muslim, hadith 286c, book 2, باب حُكْمِ بَوْلِ الطِّفْلِ الرَّضِيعِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "title": "باب حُكْمِ بَوْلِ الطِّفْلِ الرَّضِيعِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عِيسَى، حَدَّثَنَا هِشَامٌ، بِهَذَا الإِسْنَادِ مِثْلَ حَدِيثِ ابْنِ نُمَيْرٍ ‏.‏",
+      "source_hash_sha256": "483e2dc85596b007041db0f0bcdb3b8cace5b1c6b4e852f37cf27be3f1d97337",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne fournit que la chaîne de transmission et renvoie à la version d’Ibn Numayr sans en répéter le texte complet. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "72e30a15-1c08-4fde-bbd2-0a827b48f5b7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:287a",
+      "reference": "Sahih Muslim, hadith 287a, book 2, باب حُكْمِ بَوْلِ الطِّفْلِ الرَّضِيعِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "title": "باب حُكْمِ بَوْلِ الطِّفْلِ الرَّضِيعِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحِ بْنِ الْمُهَاجِرِ، أَخْبَرَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنْ أُمِّ قَيْسٍ بِنْتِ مِحْصَنٍ، أَنَّهَا أَتَتْ رَسُولَ اللَّهِ صلى الله عليه وسلم بِابْنٍ لَهَا لَمْ يَأْكُلِ الطَّعَامَ فَوَضَعَتْهُ فِي حِجْرِهِ فَبَالَ - قَالَ - فَلَمْ يَزِدْ عَلَى أَنْ نَضَحَ بِالْمَاءِ ‏.‏",
+      "source_hash_sha256": "beedc36316d3e7160293dab32da6e3099e5000d6d54ea129919d93f6eb6f9b68",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rumh ibn al-Muhajir nous a rapporté, d’après al-Layth, d’après Ibn Shihab, d’après ‘Ubayd Allah ibn ‘Abd Allah, d’après Umm Qays bint Mihsan, qui rapporta qu’elle apporta au Messager de Dieu ﷺ son fils, qui ne mangeait pas encore d’aliments solides. Elle le posa sur ses genoux et il urina. Le Messager de Dieu ﷺ ne fit alors que répandre de l’eau sur l’urine.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "814bd581-ef8b-438c-95f3-c63d7d8606ee",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:287b",
+      "reference": "Sahih Muslim, hadith 287b, book 2, باب حُكْمِ بَوْلِ الطِّفْلِ الرَّضِيعِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "title": "باب حُكْمِ بَوْلِ الطِّفْلِ الرَّضِيعِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ يَحْيَى، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَعَمْرٌو النَّاقِدُ وَزُهَيْرُ بْنُ حَرْبٍ جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ وَقَالَ فَدَعَا بِمَاءٍ فَرَشَّهُ ‏.‏",
+      "source_hash_sha256": "a7f745b52a78336e48b247a6418add6229cf93c2b08805aa570d6858b6f9f146",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe donne seulement une chaîne de transmission et une différence de formulation (« il demanda de l’eau et l’aspergea »), sans reprendre le texte complet du récit. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "7eebaa1c-6401-4d82-b21a-8e6ca36f997c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:287c",
+      "reference": "Sahih Muslim, hadith 287c, book 2, باب حُكْمِ بَوْلِ الطِّفْلِ الرَّضِيعِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "title": "باب حُكْمِ بَوْلِ الطِّفْلِ الرَّضِيعِ وَكَيْفِيَّةِ غَسْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ بْنُ يَزِيدَ، أَنَّ ابْنَ شِهَابٍ، أَخْبَرَهُ قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُودٍ، أَنَّ أَمَّ قَيْسٍ بِنْتَ مِحْصَنٍ، - وَكَانَتْ مِنَ الْمُهَاجِرَاتِ الأُوَلِ اللاَّتِي بَايَعْنَ رَسُولَ اللَّهِ صلى الله عليه وسلم وَهِيَ أُخْتُ عُكَّاشَةَ بْنِ مِحْصَنٍ أَحَدُ بَنِي أَسَدِ بْنِ خُزَيْمَةَ - قَالَ أَخْبَرَتْنِي أَنَّهَا أَتَتْ رَسُولَ اللَّهِ صلى الله عليه وسلم بِابْنٍ لَهَا لَمْ يَبْلُغْ أَنْ يَأْكُلَ الطَّعَامَ - قَالَ عُبَيْدُ اللَّهِ - أَخْبَرَتْنِي أَنَّ ابْنَهَا ذَاكَ بَالَ فِي حِجْرِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَدَعَا رَسُولُ اللَّهِ صلى الله عليه وسلم بِمَاءٍ فَنَضَحَهُ عَلَى ثَوْبِهِ وَلَمْ يَغْسِلْهُ غَسْلاً ‏.‏",
+      "source_hash_sha256": "5cb5afc766a73e7b8a0774c547e2f6292942b43440c9a8040dcd826d75f6135b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya m’a rapporté, d’après Ibn Wahb, qui m’a informé, d’après Yunus ibn Yazid, qui rapporta qu’Ibn Shihab l’avait informé. ‘Ubayd Allah ibn ‘Abd Allah ibn ‘Utba ibn Mas‘ud m’a informé qu’Umm Qays bint Mihsan — l’une des premières femmes émigrées à avoir prêté serment d’allégeance au Messager de Dieu ﷺ, et sœur de ‘Ukkasha ibn Mihsan, de la tribu des Banu Asad ibn Khuzayma — lui avait rapporté qu’elle avait apporté au Messager de Dieu ﷺ son fils, qui n’était pas encore en âge de manger des aliments solides. ‘Ubayd Allah dit : Elle m’a rapporté que son fils avait uriné sur les genoux du Messager de Dieu ﷺ. Celui-ci demanda de l’eau et la répandit sur son vêtement, sans le laver.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8b48e134-6943-4b1e-9c82-61ddc5a06033",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:287d",
+      "reference": "Sahih Muslim, hadith 287 d, 2214 a, book 39, باب التَّدَاوِي بِالْعُودِ الْهِنْدِيِّ وَهُوَ الْكُسْتُ ‏‏",
+      "title": "باب التَّدَاوِي بِالْعُودِ الْهِنْدِيِّ وَهُوَ الْكُسْتُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَعَمْرٌو النَّاقِدُ وَزُهَيْرُ بْنُ حَرْبٍ وَابْنُ أَبِي عُمَرَ - وَاللَّفْظُ لِزُهَيْرٍ - قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرُونَ، حَدَّثَنَا سُفْيَانُ، بْنُ عُيَيْنَةَ عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنْ أُمِّ قَيْسٍ بِنْتِ مِحْصَنٍ، أُخْتِ عُكَّاشَةَ بْنِ مِحْصَنٍ قَالَتْ دَخَلْتُ بِابْنٍ لِي عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم لَمْ يَأْكُلِ الطَّعَامَ فَبَالَ عَلَيْهِ فَدَعَا بِمَاءٍ فَرَشَّهُ ‏.‏ قَالَتْ وَدَخَلْتُ عَلَيْهِ بِابْنٍ لِي قَدْ أَعْلَقْتُ عَلَيْهِ مِنَ الْعُذْرَةِ فَقَالَ ‏\"‏ عَلاَمَهْ تَدْغَرْنَ أَوْلاَدَكُنَّ بِهَذَا الْعِلاَقِ عَلَيْكُنَّ بِهَذَا الْعُودِ الْهِنْدِيِّ فَإِنَّ فِيهِ سَبْعَةَ أَشْفِيَةٍ مِنْهَا ذَاتُ الْجَنْبِ يُسْعَطُ مِنَ الْعُذْرَةِ وَيُلَدُّ مِنْ ذَاتِ الْجَنْبِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "be285db26efb26d8d319a567e2fc6a6100358521bdc41addde16902ccdce709c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya al-Tamimi, Abû Bakr ibn Abî Shayba, ‘Amr al-Naqid, Zuhayr ibn Harb et Ibn Abî ‘Umar nous ont rapporté — la formulation est celle de Zuhayr. Yahya dit : Il nous a informés ; les autres dirent : Sufyan ibn ‘Uyayna nous a rapporté, d’après al-Zuhri, d’après ‘Ubayd Allah ibn ‘Abd Allah, d’après Umm Qays bint Mihsan, sœur de ‘Ukkasha ibn Mihsan, qui a dit : J’entrai auprès du Messager de Dieu ﷺ avec mon fils, qui ne mangeait pas encore d’aliments solides ; il urina sur lui. Le Prophète ﷺ demanda de l’eau et la répandit sur lui. Elle dit ensuite : J’entrai auprès de lui avec un autre de mes fils, auquel j’avais appliqué le remède appelé al-‘ilaq contre al-‘udhra. Il dit : « Pourquoi appliquez-vous ce traitement à vos enfants ? Utilisez plutôt le bois indien de costus : il contient sept remèdes, dont un contre la pleurésie. Il s’administre par le nez contre al-‘udhra et par voie orale contre la pleurésie. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "713e3e23-8c30-4774-983a-c8d9e6b57c59",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:288a",
+      "reference": "Sahih Muslim, hadith 288a, book 2, باب حكْمِ الْمَنِيِّ ‏",
+      "title": "باب حكْمِ الْمَنِيِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ خَالِدٍ، عَنْ أَبِي مَعْشَرٍ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، وَالأَسْوَدِ، أَنَّ رَجُلاً، نَزَلَ بِعَائِشَةَ فَأَصْبَحَ يَغْسِلُ ثَوْبَهُ فَقَالَتْ عَائِشَةُ إِنَّمَا كَانَ يُجْزِئُكَ إِنْ رَأَيْتَهُ أَنْ تَغْسِلَ مَكَانَهُ فَإِنْ لَمْ تَرَ نَضَحْتَ حَوْلَهُ وَلَقَدْ رَأَيْتُنِي أَفْرُكُهُ مِنْ ثَوْبِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَرْكًا فَيُصَلِّي فِيهِ ‏.‏",
+      "source_hash_sha256": "3345f01a951b135f8d99286b8a537dd698400d2971a5b8dd14cf41658671d55b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté, d’après Khalid ibn ‘Abd Allah, d’après Khalid, d’après Abû Ma‘shar, d’après Ibrahim, d’après ‘Alqama et al-Aswad, qui rapportèrent qu’un homme logea chez ‘A’isha. Au matin, il se mit à laver son vêtement. ‘A’isha lui dit : « Il t’aurait suffi, si tu l’avais vu, de laver l’endroit concerné ; si tu ne l’avais pas vu, tu aurais pu asperger autour. Je me souviens d’avoir gratté le vêtement du Messager de Dieu ﷺ pour en retirer cela, après quoi il priait avec ce vêtement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "505addd5-8ca3-4f38-8f61-9ca4c54943a5",
+      "reason": "La source arabe ne fournit que la chaîne de transmission et renvoie à la version d’Ibn Numayr sans en répéter le texte complet. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "source_id": "814bd581-ef8b-438c-95f3-c63d7d8606ee",
+      "reason": "La source arabe donne seulement une chaîne de transmission et une différence de formulation (« il demanda de l’eau et l’aspergea »), sans reprendre le texte complet du récit. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ]
+}
