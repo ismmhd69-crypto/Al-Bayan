@@ -10791,3 +10791,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0732 saves five private French drafts about dogs used for protection, work and hunting. Muslim 1573b only describes transmission variants and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1574b–1574g
+
+- FR-LIB-HAD-MUSLIM-0733 saves six private French drafts with variants about keeping dogs for hunting, herding and crops. All six source entries contain a report suitable for translation.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
