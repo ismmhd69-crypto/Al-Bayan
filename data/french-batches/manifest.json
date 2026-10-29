@@ -19235,6 +19235,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-895",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-895.json",
+      "sourceIds": [
+        "19186ba2-1fb2-46a8-9573-e379e9327575",
+        "deefa040-29c3-4436-8262-22d8748b8483",
+        "27b49fe5-5e55-4995-8fcb-995c7b21c394",
+        "19b74630-989c-4aab-9e04-38b00c5b22ef",
+        "f6d52097-65d6-4401-ac4c-2c27919b6d1f",
+        "516393f4-f20c-4ef3-bdda-5f9f61391c3e"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 6,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -21523,6 +21544,42 @@
       "scope": "Sahih al-Bukhari 4895: direct Quran wording from 60:12",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 60:12. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-894, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4897-QURAN-62-3",
+      "scope": "Sahih al-Bukhari 4897: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 62:3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4898-INCOMPLETE-SOURCE-FRAGMENT",
+      "scope": "Sahih al-Bukhari 4898: incomplete source fragment",
+      "status": "blocked",
+      "reason": "Le texte source de Sahih al-Bukhari 4898 ne contient qu’un fragment de phrase : « Des hommes parmi ceux-ci l’atteindront. » Le contexte manque. La traduction complète reste vide dans FR-LIB-HAD-BUKHARI-895 jusqu’à clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-4899-QURAN-62-11",
+      "scope": "Sahih al-Bukhari 4899: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 62:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4900-QURAN-63-1",
+      "scope": "Sahih al-Bukhari 4900: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 63:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4901-QURAN-63-1-63-7-8-63-8",
+      "scope": "Sahih al-Bukhari 4901: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 63:1, 63:7-8, 63:8. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4902-QURAN-63-7",
+      "scope": "Sahih al-Bukhari 4902: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 63:7. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4060,

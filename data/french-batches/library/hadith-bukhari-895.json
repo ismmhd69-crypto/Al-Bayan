@@ -1,0 +1,190 @@
+{
+  "batch_id": "HADITH-BUKHARI-895",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:38:38.431Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "19186ba2-1fb2-46a8-9573-e379e9327575",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4897",
+      "reference": "Sahih al-Bukhari, hadith 4897, book 65, باب قَوْلُهُ ‏ {‏وَآخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا بِهِمْ‏} ‏‏.‏ وَقَرَأَ عُمَرُ فَامْضُوا إِلَى ذِكْرِ اللَّهِ",
+      "title": "باب قَوْلُهُ ‏ {‏وَآخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا بِهِمْ‏} ‏‏.‏ وَقَرَأَ عُمَرُ فَامْضُوا إِلَى ذِكْرِ اللَّهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي سُلَيْمَانُ بْنُ بِلاَلٍ، عَنْ ثَوْرٍ، عَنْ أَبِي الْغَيْثِ، عَنْ أَبِي هُرَيْرَةَ، رضى الله عنه قَالَ كُنَّا جُلُوسًا عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَأُنْزِلَتْ عَلَيْهِ سُورَةُ الْجُمُعَةِ ‏[quran sura=\"62\" aya_start=\"3\" aya_end=\"3\"]{‏وَآخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا بِهِمْ‏}‏ قَالَ قُلْتُ مَنْ هُمْ يَا رَسُولَ اللَّهِ فَلَمْ يُرَاجِعْهُ حَتَّى سَأَلَ ثَلاَثًا، وَفِينَا سَلْمَانُ الْفَارِسِيُّ، وَضَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدَهُ عَلَى سَلْمَانَ ثُمَّ قَالَ ‏\"‏ لَوْ كَانَ الإِيمَانُ عِنْدَ الثُّرَيَّا لَنَالَهُ رِجَالٌ ـ أَوْ رَجُلٌ ـ مِنْ هَؤُلاَءِ ‏\"‏‏.‏",
+      "source_hash_sha256": "4fa25b22aebf0a1b5ec11288000eecee11a2b10f353bf71e771cf1edb7dd51c0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "deefa040-29c3-4436-8262-22d8748b8483",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4898",
+      "reference": "Sahih al-Bukhari, hadith 4898, book 65, باب قَوْلُهُ ‏ {‏وَآخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا بِهِمْ‏} ‏‏.‏ وَقَرَأَ عُمَرُ فَامْضُوا إِلَى ذِكْرِ اللَّهِ",
+      "title": "باب قَوْلُهُ ‏ {‏وَآخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا بِهِمْ‏} ‏‏.‏ وَقَرَأَ عُمَرُ فَامْضُوا إِلَى ذِكْرِ اللَّهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الْوَهَّابِ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، أَخْبَرَنِي ثَوْرٌ، عَنْ أَبِي الْغَيْثِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لَنَالَهُ رِجَالٌ مِنْ هَؤُلاَءِ ‏\"‏‏.‏",
+      "source_hash_sha256": "927ece3ec4b3646089fb9b68a328d006acfbfabfd4738f33d35cb40cf330463f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "27b49fe5-5e55-4995-8fcb-995c7b21c394",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4899",
+      "reference": "Sahih al-Bukhari, hadith 4899, book 65, باب ‏ {‏وَإِذَا رَأَوْا تِجَارَةً‏} ‏",
+      "title": "باب ‏ {‏وَإِذَا رَأَوْا تِجَارَةً‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا حُصَيْنٌ، عَنْ سَالِمِ بْنِ أَبِي الْجَعْدِ، وَعَنْ أَبِي سُفْيَانَ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ قَالَ أَقْبَلَتْ عِيرٌ يَوْمَ الْجُمُعَةِ وَنَحْنُ مَعَ النَّبِيِّ صلى الله عليه وسلم فَثَارَ النَّاسُ إِلاَّ اثْنَا عَشَرَ رَجُلاً فَأَنْزَلَ اللَّهُ ‏[quran sura=\"62\" aya_start=\"11\" aya_end=\"11\"]{‏وَإِذَا رَأَوْا تِجَارَةً أَوْ لَهْوًا انْفَضُّوا إِلَيْهَا‏}‏",
+      "source_hash_sha256": "c965145b91507ab1d7d51e4810d64a5b75b546544dfeedb479a5874258089e95",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "19b74630-989c-4aab-9e04-38b00c5b22ef",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4900",
+      "reference": "Sahih al-Bukhari, hadith 4900, book 65, باب قَوْلِهِ ‏ {‏إِذَا جَاءَكَ الْمُنَافِقُونَ قَالُوا نَشْهَدُ إِنَّكَ لَرَسُولُ اللَّهِ‏} ‏ إِلَى ‏{‏لَكَاذِبُونَ‏}‏‏.‏",
+      "title": "باب قَوْلِهِ ‏ {‏إِذَا جَاءَكَ الْمُنَافِقُونَ قَالُوا نَشْهَدُ إِنَّكَ لَرَسُولُ اللَّهِ‏} ‏ إِلَى ‏{‏لَكَاذِبُونَ‏}‏‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ رَجَاءٍ، حَدَّثَنَا إِسْرَائِيلُ، عَنْ أَبِي إِسْحَاقَ، عَنْ زَيْدِ بْنِ أَرْقَمَ، قَالَ كُنْتُ فِي غَزَاةٍ فَسَمِعْتُ عَبْدَ اللَّهِ بْنَ أُبَىٍّ، يَقُولُ لاَ تُنْفِقُوا عَلَى مَنْ عِنْدَ رَسُولِ اللَّهِ حَتَّى يَنْفَضُّوا مِنْ حَوْلِهِ وَلَوْ رَجَعْنَا مِنْ عِنْدِهِ لَيُخْرِجَنَّ الأَعَزُّ مِنْهَا‏.‏ الأَذَلَّ فَذَكَرْتُ ذَلِكَ لِعَمِّي أَوْ لِعُمَرَ فَذَكَرَهُ لِلنَّبِيِّ صلى الله عليه وسلم فَدَعَانِي فَحَدَّثْتُهُ فَأَرْسَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِلَى عَبْدِ اللَّهِ بْنِ أُبَىٍّ وَأَصْحَابِهِ فَحَلَفُوا مَا قَالُوا فَكَذَّبَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم وَصَدَّقَهُ فَأَصَابَنِي هَمٌّ لَمْ يُصِبْنِي مِثْلُهُ قَطُّ، فَجَلَسْتُ فِي الْبَيْتِ فَقَالَ لِي عَمِّي مَا أَرَدْتَ إِلَى أَنْ كَذَّبَكَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَمَقَتَكَ‏.‏ فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"63\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا جَاءَكَ الْمُنَافِقُونَ‏}‏ فَبَعَثَ إِلَىَّ النَّبِيُّ صلى الله عليه وسلم فَقَرَأَ فَقَالَ ‏\"‏ إِنَّ اللَّهَ قَدْ صَدَّقَكَ يَا زَيْدُ ‏\"‏‏.‏",
+      "source_hash_sha256": "fc02ae5dd4aa25fb272c49ebeae2d3fd857991904c5481310d7326d52a32ab9a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f6d52097-65d6-4401-ac4c-2c27919b6d1f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4901",
+      "reference": "Sahih al-Bukhari, hadith 4901, book 65, باب ‏ {‏اتَّخَذُوا أَيْمَانَهُمْ جُنَّةً‏} ‏ يَجْتَنُّونَ بِهَا",
+      "title": "باب ‏ {‏اتَّخَذُوا أَيْمَانَهُمْ جُنَّةً‏} ‏ يَجْتَنُّونَ بِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، حَدَّثَنَا إِسْرَائِيلُ، عَنْ أَبِي إِسْحَاقَ، عَنْ زَيْدِ بْنِ أَرْقَمَ ـ رضى الله عنه ـ قَالَ كُنْتُ مَعَ عَمِّي فَسَمِعْتُ عَبْدَ اللَّهِ بْنَ أُبَىٍّ ابْنَ سَلُولَ يَقُولُ لاَ تُنْفِقُوا عَلَى مَنْ عِنْدَ رَسُولِ اللَّهِ حَتَّى يَنْفَضُّوا‏.‏ وَقَالَ أَيْضًا لَئِنْ رَجَعْنَا إِلَى الْمَدِينَةِ لَيُخْرِجَنَّ الأَعَزُّ مِنْهَا الأَذَلَّ‏.‏ فَذَكَرْتُ ذَلِكَ لِعَمِّي فَذَكَرَ عَمِّي لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَأَرْسَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِلَى عَبْدِ اللَّهِ بْنِ أُبَىٍّ وَأَصْحَابِهِ، فَحَلَفُوا مَا قَالُوا، فَصَدَّقَهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم وَكَذَّبَنِي، فَأَصَابَنِي هَمٌّ لَمْ يُصِبْنِي مِثْلُهُ، فَجَلَسْتُ فِي بَيْتِي، فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"63\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا جَاءَكَ الْمُنَافِقُونَ‏}‏ إِلَى قَوْلِهِ ‏[quran sura=\"63\" aya_start=\"7\" aya_end=\"8\"]{‏هُمُ الَّذِينَ يَقُولُونَ لاَ تُنْفِقُوا عَلَى مَنْ عِنْدَ رَسُولِ اللَّهِ‏}‏ إِلَى قَوْلِهِ ‏[quran sura=\"63\" aya_start=\"8\" aya_end=\"8\"]{‏لَيُخْرِجَنَّ الأَعَزُّ مِنْهَا الأَذَلَّ‏}‏ فَأَرْسَلَ إِلَىَّ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَرَأَهَا عَلَىَّ ثُمَّ قَالَ ‏\"‏ إِنَّ اللَّهَ قَدْ صَدَّقَكَ ‏\"‏‏.‏",
+      "source_hash_sha256": "18c0b7dc365007c4b1c89f95dca8ac852db8782fcd2146705202a974b0e4af09",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "516393f4-f20c-4ef3-bdda-5f9f61391c3e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4902",
+      "reference": "Sahih al-Bukhari, hadith 4902, book 65, باب قَوْلِهِ ‏ {‏ذَلِكَ بِأَنَّهُمْ آمَنُوا ثُمَّ كَفَرُوا فَطُبِعَ عَلَى قُلُوبِهِمْ فَهُمْ لاَ يَفْقَهُونَ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏ذَلِكَ بِأَنَّهُمْ آمَنُوا ثُمَّ كَفَرُوا فَطُبِعَ عَلَى قُلُوبِهِمْ فَهُمْ لاَ يَفْقَهُونَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، عَنِ الْحَكَمِ، قَالَ سَمِعْتُ مُحَمَّدَ بْنَ كَعْبٍ الْقُرَظِيَّ، قَالَ سَمِعْتُ زَيْدَ بْنَ أَرْقَمَ ـ رضى الله عنه ـ قَالَ لَمَّا قَالَ عَبْدُ اللَّهِ بْنُ أُبَىٍّ لاَ تُنْفِقُوا عَلَى مَنْ عِنْدَ رَسُولِ اللَّهِ‏.‏ وَقَالَ أَيْضًا لَئِنْ رَجَعْنَا إِلَى الْمَدِينَةِ‏.‏ أَخْبَرْتُ بِهِ النَّبِيَّ صلى الله عليه وسلم فَلاَمَنِي الأَنْصَارُ، وَحَلَفَ عَبْدُ اللَّهِ بْنُ أُبَىٍّ مَا قَالَ ذَلِكَ، فَرَجَعْتُ إِلَى الْمَنْزِلِ فَنِمْتُ فَدَعَانِي رَسُولُ اللَّهِ صلى الله عليه وسلم فَأَتَيْتُهُ فَقَالَ ‏\"‏ إِنَّ اللَّهَ قَدْ صَدَّقَكَ ‏\"‏‏.‏ وَنَزَلَ ‏[quran sura=\"63\" aya_start=\"7\" aya_end=\"7\"]{‏هُمُ الَّذِينَ يَقُولُونَ لاَ تُنْفِقُوا‏}‏ الآيَةَ‏.‏ وَقَالَ ابْنُ أَبِي زَائِدَةَ عَنِ الأَعْمَشِ عَنْ عَمْرٍو عَنِ ابْنِ أَبِي لَيْلَى عَنْ زَيْدٍ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "c116c0d683f33acaf9325973518ba58c948cf17ffa6110c48694f6d90dab0454",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "19186ba2-1fb2-46a8-9573-e379e9327575",
+      "url": "https://sunnah.com/bukhari:4897",
+      "reason": "Le rapport cite directement Quran 62:3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "deefa040-29c3-4436-8262-22d8748b8483",
+      "url": "https://sunnah.com/bukhari:4898",
+      "reason": "Le texte source de Sahih al-Bukhari 4898 ne contient qu’un fragment de phrase : « Des hommes parmi ceux-ci l’atteindront. » Le contexte manque. La traduction complète reste vide dans FR-LIB-HAD-BUKHARI-895 jusqu’à clarification."
+    },
+    {
+      "source_id": "27b49fe5-5e55-4995-8fcb-995c7b21c394",
+      "url": "https://sunnah.com/bukhari:4899",
+      "reason": "Le rapport cite directement Quran 62:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "19b74630-989c-4aab-9e04-38b00c5b22ef",
+      "url": "https://sunnah.com/bukhari:4900",
+      "reason": "Le rapport cite directement Quran 63:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "f6d52097-65d6-4401-ac4c-2c27919b6d1f",
+      "url": "https://sunnah.com/bukhari:4901",
+      "reason": "Le rapport cite directement Quran 63:1, 63:7-8, 63:8. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "516393f4-f20c-4ef3-bdda-5f9f61391c3e",
+      "url": "https://sunnah.com/bukhari:4902",
+      "reason": "Le rapport cite directement Quran 63:7. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-895, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
