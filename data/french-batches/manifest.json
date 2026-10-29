@@ -18750,6 +18750,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-871",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-871.json",
+      "sourceIds": [
+        "479c0703-f1e1-4c12-a310-b54f9038f8a9",
+        "11a527e5-1fc7-4de3-a179-1d0876e41e56"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -20462,6 +20479,18 @@
       "scope": "Sahih al-Bukhari 4767: direct Quran quotations from 25:77",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 25:77. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-870, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4770-QURAN-26-214-111-1-2",
+      "scope": "Sahih al-Bukhari 4770: direct Quran quotations from 26:214, 111:1-2",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 26:214, 111:1-2. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-871, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4771-QURAN-26-214",
+      "scope": "Sahih al-Bukhari 4771: direct Quran quotations from 26:214",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 26:214. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-871, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4030,
