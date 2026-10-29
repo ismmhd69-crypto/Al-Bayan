@@ -9441,3 +9441,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0462 saves three private French drafts about charity and the Prophet’s supplication for those who gave it. Muslim 1075c, 1075d, and 1078b only refer back to prior reports for a wording variant, so they remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1079a–1080c
+
+- FR-LIB-HAD-MUSLIM-0463 saves four private French drafts about Ramadan and sighting the crescent. Muslim 1079c and 1080c provide only wording variants tied to earlier reports and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
