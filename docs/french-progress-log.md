@@ -2236,3 +2236,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-464` saves six private French drafts for Bukhari 2695 and 2697–2701, covering a legal judgment, rejected religious innovations, the Hudaybiyya agreement and the custody of Hamza’s daughter. The source export contained no Bukhari 2696 record.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,438 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 145. Total local hadith rows not drafted: 12,197, including held records.
+
+### 2026-10-29: Bukhari 2702–2707 source review
+
+- `FR-LIB-HAD-BUKHARI-465` saves six private French drafts for Bukhari 2702–2707, covering a dispute at Khaybar, legal redress, Hasan and Mu‘awiya’s peace agreement, debt settlement and charity.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,444 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 145. Total local hadith rows not drafted: 12,191, including held records.
