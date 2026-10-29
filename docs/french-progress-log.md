@@ -11146,3 +11146,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0803 saves five private French drafts, including the multi-chain variants about the sale of an enslaved woman and the report about delaying punishment after childbirth. Muslim 1704a only refers back to an earlier report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1705b-1706e
+
+- FR-LIB-HAD-MUSLIM-0804 saves three private French drafts about a postpartum variant and reports on the punishment for drinking wine. The two cross-reference-only variants remain blank under Needs Mo. Muslim 1706e also remains blank because its Arabic source contains a fused phrase that prevents reliable reading.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
