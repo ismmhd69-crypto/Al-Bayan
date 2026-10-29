@@ -4,7 +4,7 @@ import { useId } from "react";
 import type { Locale, Dictionary } from "@/lib/i18n";
 import type { RichSection, RichGuide, RichSource } from "@/lib/ask/rich-answer";
 import { richText } from "@/lib/ask/rich-text";
-import { RICH_ORDER, hasDisplayTranslation } from "@/lib/ask/rich-answer";
+import { RICH_ORDER, hasDisplayTranslation, translationOnly } from "@/lib/ask/rich-answer";
 import type { PatientState } from "@/lib/ask/patient-protocol";
 import { ATTRIBUTION } from "@/lib/sources/quran-meta";
 import { hadithAttributionFor } from "@/lib/sources/hadith-rules";
@@ -83,7 +83,7 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
     </section>}
     {!withdrawn && displayed.map(section => <section className={styles.section} key={section.group} aria-labelledby={`${prefix}-${section.group}`}>
       <h2 id={`${prefix}-${section.group}`}><VerifiedText id={`${section.group}-title`}>{t.titles[section.group]}</VerifiedText></h2>
-      {!!publication?.groups[section.group].notices.length && <p role="alert" className={styles.gap}>{language === "ar" ? "هذا القسم يحتاج إلى مراجعة. حُجب النص المتأثر، واحتُفظ بالمصادر المتاحة." : "This section needs review. Affected content is hidden; available source cards are kept."}</p>}
+      {!!publication?.groups[section.group].notices.length && <p role="alert" className={styles.gap}>{language === "ar" ? "هذا القسم يحتاج إلى مراجعة. حُجب النص المتأثر، واحتُفظ بالمصادر المتاحة." : language === "de" ? "Dieser Abschnitt muss überprüft werden. Betroffene Inhalte sind ausgeblendet, die verfügbaren Quellenkarten bleiben erhalten." : "This section needs review. Affected content is hidden; available source cards are kept."}</p>}
       {patient && !patient.groups[section.group].section ? <p className={styles.gap} role="status" aria-live="polite">{patient.groups[section.group].reason === "evidence_changed" ? t.withdrawn : section.group === "summary" ? t.patientSummaryWaiting : t.patientStates[patient.groups[section.group].state]}</p> : <>
       {section.outcome !== "ready" ? <p className={styles.gap} role="status" aria-live="polite">{t.progress[section.group === "quran" ? "checking_quran" : section.group === "hadith" ? "checking_hadith" : "checking_scholar"]}</p> : <>
         {section.claims.map((claim, i) => publication?.groups[section.group].notices.some(n => n.claimIndexes.includes(i) || n.sourceIds.some(id => claim.refs.includes(id))) ? null : <RevealBlock id={`${section.group}-claim-${i}`} key={i}><p className={styles.claim} dir="auto"><VerifiedText id={`${section.group}-claim-${i}`}>{claim.text}</VerifiedText>{" "}
@@ -100,9 +100,9 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
           {hasDisplayTranslation(source) && language !== "ar" && <small>{tr?.status === "ready"
             ? tr.origin === "ai" ? t.aiTranslation : tr.reviewer && tr.reviewedAt ? t.humanReviewedTranslation : t.humanTranslation
             : tr?.status === "lookup_failed" ? t.translationLookupFailed : tr?.status === "not_checked" ? t.translationNotChecked : tr?.status === "rejected" ? t.translationRejected : t.missing}</small>}
-          {publication?.groups[section.group].notices.some(n => n.sourceIds.includes(id)) ? <p role="alert">{language === "ar" ? "تعذّر تأكيد هذا المصدر أثناء إعادة التحقق." : "This source could not be confirmed during rechecking."}</p> : <>
+          {publication?.groups[section.group].notices.some(n => n.sourceIds.includes(id)) ? <p role="alert">{language === "ar" ? "تعذّر تأكيد هذا المصدر أثناء إعادة التحقق." : language === "de" ? "Diese Quelle konnte bei der erneuten Prüfung nicht bestätigt werden." : "This source could not be confirmed during rechecking."}</p> : <>
           {staged ? <>
-            <p lang="ar" dir="rtl"><VerifiedText id={`${section.group}-original-${id}`}>{e.arabic}</VerifiedText></p>
+            {!translationOnly(source, language) && <p lang="ar" dir="rtl"><VerifiedText id={`${section.group}-original-${id}`}>{e.arabic}</VerifiedText></p>}
             {language !== "ar" && ((e.kind === "scholar" || hasDisplayTranslation(source)) ? tr?.status === "ready" ? tr.text : null : e.translation) && <p lang={language} dir="ltr"><VerifiedText id={`${section.group}-translation-${id}`}>{((e.kind === "scholar" || hasDisplayTranslation(source)) ? tr?.status === "ready" ? tr.text : "" : e.translation) ?? ""}</VerifiedText></p>}
           </> : <p className={styles.preview} lang={previewLanguage(source, language)} dir="auto">
             {displayedSourceText(source, 230)}
@@ -151,8 +151,8 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
     </details>}
     {!researching && (
       <footer className={styles.answerFooter}>
-        {complete && language !== "de" && <p className={styles.gap}>{language === "ar" ? "ليست هذه فتوى. لحالتك الخاصة، اسأل عالمًا مؤهلًا تثق به." : "Not a fatwa. For your personal situation, ask a qualified scholar you trust."}</p>}
-        <p className={styles.notice} role={patient ? "status" : undefined}>{staged && publication && RICH_ORDER.some(g => publication.groups[g].notices.length) ? language === "ar" ? "تحتاج هذه الإجابة إلى مراجعة. احتُفظ بالمصادر، وحُجب النص المتأثر." : "This answer needs review. Source cards are kept and affected content is hidden." : patient ? patient.status === "paused" ? t.patientPaused : t.patientNotice : withdrawn ? t.withdrawn : incomplete && researchFailureText(language, failureKind) ? researchFailureText(language, failureKind) : incomplete && failureKind && failureKind in t.failures ? t.failures[failureKind as keyof typeof t.failures] : incomplete && technicalFailure ? t.technicalFailure : incomplete ? sections.some(s => s.outcome === "ready" && s.presentation === "originals") ? language === "ar" ? "المصادر المختارة متاحة أعلاه، لكن لم تكتمل خلاصة بيان." : "The selected sources remain above, but Bayan’s summary could not be completed." : sections.some(s => s.outcome === "ready" && s.claims.length) ? t.incomplete : t.noCheckedSections : text.v2.review.automatic}</p>
+        {complete && <p className={styles.gap}>{language === "ar" ? "ليست هذه فتوى. لحالتك الخاصة، اسأل عالمًا مؤهلًا تثق به." : language === "de" ? "Keine Fatwa. Für deine persönliche Situation frage einen qualifizierten Gelehrten, dem du vertraust." : "Not a fatwa. For your personal situation, ask a qualified scholar you trust."}</p>}
+        <p className={styles.notice} role={patient ? "status" : undefined}>{staged && publication && RICH_ORDER.some(g => publication.groups[g].notices.length) ? language === "ar" ? "تحتاج هذه الإجابة إلى مراجعة. احتُفظ بالمصادر، وحُجب النص المتأثر." : language === "de" ? "Diese Antwort muss überprüft werden. Die Quellenkarten bleiben erhalten, betroffene Inhalte sind ausgeblendet." : "This answer needs review. Source cards are kept and affected content is hidden." : patient ? patient.status === "paused" ? t.patientPaused : t.patientNotice : withdrawn ? t.withdrawn : incomplete && researchFailureText(language, failureKind) ? researchFailureText(language, failureKind) : incomplete && failureKind && failureKind in t.failures ? t.failures[failureKind as keyof typeof t.failures] : incomplete && technicalFailure ? t.technicalFailure : incomplete ? sections.some(s => s.outcome === "ready" && s.presentation === "originals") ? language === "ar" ? "المصادر المختارة متاحة أعلاه، لكن لم تكتمل خلاصة بيان." : language === "de" ? "Die ausgewählten Quellen stehen oben, aber Bayans Zusammenfassung konnte nicht fertiggestellt werden." : "The selected sources remain above, but Bayan’s summary could not be completed." : sections.some(s => s.outcome === "ready" && s.claims.length) ? t.incomplete : t.noCheckedSections : text.v2.review.automatic}</p>
         {problems.length > 0 && <details className={styles.citationsFold}>
           <summary>{"researchDetails" in t ? t.researchDetails : t.limited}</summary>
           {problems.map(section => <p className={styles.gap} key={section.group}><strong>{t.titles[section.group]}: </strong>{section.searchFailureStage ? t.sourceFailures[section.searchFailureStage] : section.outcome !== "ready" ? t.outcomes[section.outcome] : section.searchOutcome ? t.outcomes[section.searchOutcome] : ""}</p>)}
@@ -160,7 +160,7 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
         {complete && sections.some(s => !!s.searchOutcome || !s.omitted && ["timeout", "search_failed", "unavailable", "failed_check", "not_checked"].includes(s.outcome)) && <p className={styles.gap} role="note">{t.limited}</p>}
         <p className={styles.notice}>{t.scopeNotice}</p>
         {(complete || incomplete) && <ReportProblem lang={language} sourceIds={withdrawn ? [] : [...new Set(sections.flatMap(s => s.sources.map(source => source.id)))]} labels={text.report}
-          donateLabel={language === "ar" ? "ساهم في تكاليف الذكاء الاصطناعي لبيان" : language === "en" ? "Help cover Bayan’s AI costs" : undefined} />}
+          donateLabel={language === "ar" ? "ساهم في تكاليف الذكاء الاصطناعي لبيان" : language === "de" ? "Hilf mit, Bayans KI-Kosten zu decken" : "Help cover Bayan’s AI costs"} />}
       </footer>
     )}
   </article>;

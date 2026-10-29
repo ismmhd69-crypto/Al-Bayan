@@ -46,7 +46,7 @@ export async function POST(request: Request) {
   const stable = body.stream_version === 3;
   const progressive = stable || body.stream_version === 2;
   const identity = privateResearchOwner(request.headers.get("cookie"));
-  const simple = stable && body.lang !== "de" && askSimplePipeline();
+  const simple = stable && askSimplePipeline();
   if (simple) headers["X-Ask-Pipeline"] = "simple-v1";
   if (simple) headers["Set-Cookie"] = identity.cookie + (new URL(request.url).protocol === "https:" ? "; Secure" : "");
   let session: ContinuationSession | undefined, token: string | undefined;

@@ -47,11 +47,11 @@ describe("Ask conversation request contract", () => {
     expect((await POST(request({ question: "Question", lang: "en", previous_user_messages: history }))).status).toBe(400);
     expect(mock.ask).not.toHaveBeenCalled();
   });
-  it("refuses German requests: the site launches with Arabic and English only", async () => {
-    const response = await POST(request({ question: "Question", lang: "de", supports_clarification: true }));
+  it("refuses a language the site does not serve", async () => {
+    const response = await POST(request({ question: "Question", lang: "fr", supports_clarification: true }));
     expect(response.status).toBe(400);
   });
-  it.each(["en", "ar"] as const)("returns localized clarification for %s", async (lang) => {
+  it.each(["en", "ar", "de"] as const)("returns localized clarification for %s", async (lang) => {
     mock.ask.mockResolvedValue({ status: "clarify", language: lang, clarification: { choices: ["topic A", "topic B"] } });
     const response = await POST(request({ question: "Question", lang, supports_clarification: true }));
     expect(await response.json()).toMatchObject({ status: "clarify", clarification: { prompt: getDictionary(lang).ask.clarify, choices: ["topic A", "topic B"] } });

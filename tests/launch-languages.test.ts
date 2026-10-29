@@ -3,17 +3,19 @@ import { NextRequest } from "next/server";
 import { proxy } from "@/proxy";
 import { activeLocales, isLocale } from "@/lib/i18n";
 
-// Mo (2026-10-29): launch with Arabic and English only; German is kept in code but not served.
-it("serves Arabic and English only", () => {
-  expect([...activeLocales]).toEqual(["ar", "en"]);
-  expect(isLocale("ar")).toBe(true); expect(isLocale("en")).toBe(true); expect(isLocale("de")).toBe(false);
+// Mo (2026-10-29): German is translated and served again, next to Arabic and English.
+it("serves Arabic, English and German", () => {
+  expect([...activeLocales]).toEqual(["ar", "en", "de"]);
+  for (const l of ["ar", "en", "de"]) expect(isLocale(l)).toBe(true);
+  expect(isLocale("fr")).toBe(false);
 });
-it("sends old German links to the same English page", () => {
-  const response = proxy(new NextRequest("https://askbayan.org/de/ask?x=1"));
-  expect(response?.headers.get("location")).toBe("https://askbayan.org/en/ask?x=1");
-  expect(proxy(new NextRequest("https://askbayan.org/de"))?.headers.get("location")).toBe("https://askbayan.org/en");
+it("serves German links directly", () => {
+  expect(proxy(new NextRequest("https://askbayan.org/de/ask?x=1"))).toBeUndefined();
+  expect(proxy(new NextRequest("https://askbayan.org/de"))).toBeUndefined();
 });
-it("never picks German from a saved cookie or the browser language", () => {
-  const request = new NextRequest("https://askbayan.org/ask", { headers: { "accept-language": "de-DE,de;q=0.9", cookie: "lang=de" } });
-  expect(proxy(request)?.headers.get("location")).toBe("https://askbayan.org/en/ask");
+it("picks German from a saved cookie or the browser language", () => {
+  const request = new NextRequest("https://askbayan.org/ask", { headers: { "accept-language": "de-DE,de;q=0.9" } });
+  expect(proxy(request)?.headers.get("location")).toBe("https://askbayan.org/de/ask");
+  const saved = new NextRequest("https://askbayan.org/ask", { headers: { cookie: "lang=de" } });
+  expect(proxy(saved)?.headers.get("location")).toBe("https://askbayan.org/de/ask");
 });

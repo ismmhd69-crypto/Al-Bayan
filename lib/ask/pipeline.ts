@@ -203,7 +203,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
           return results.every(Boolean);
         },
       } : {}),
-      simpleResearch: !!options?.rich?.stable && uiLanguage !== "de" && askSimplePipeline(),
+      simpleResearch: !!options?.rich?.stable && askSimplePipeline(),
       meaningReview: !!options?.rich,
       focusedChecks: !!options?.rich && askFocusedChecks(),
       distinctSelection: !!options?.rich && askDistinctSelection(),

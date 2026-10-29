@@ -119,7 +119,7 @@ export default function AskChat({
   onCancelReady?: (cancel: () => void) => void;
   resumePending?: boolean;
 }) {
-  const stableEnabled = richEnabled && lang !== "de" && process.env.NEXT_PUBLIC_ASK_STABLE_STREAMING === "true";
+  const stableEnabled = richEnabled && process.env.NEXT_PUBLIC_ASK_STABLE_STREAMING === "true";
   const [messages, setMessages] = useState<Message[]>(() =>
     (initialMessages ?? []).map((m, i) => ({ ...m, id: i + 1 })),
   );

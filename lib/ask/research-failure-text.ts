@@ -25,8 +25,20 @@ const messages = {
     transport_failure: "تعذّر الاتصال بإحدى خدمات البحث. احتُفظ بالأقسام التي اجتازت التحقق، ولم تكتمل الإجابة النهائية.",
     research_running: "يجري البحث في هذا السؤال بالفعل في نافذة أو طلب آخر، ولم يبدأ بحث ثانٍ. استخدم زر التحقق من الحالة لمعرفة متى ينتهي.",
   },
+  de: {
+    selection_failure: "Die Quellenauswahl lieferte eine ungültige oder widersprüchliche Bewertung. Die verfügbaren Quellenabschnitte bleiben erhalten, die Zusammenfassung konnte nicht weitergehen.",
+    source_revalidation_unavailable: "Eine gespeicherte Quelle oder ihr Zusammenhang konnte nicht erneut geprüft werden. Die verfügbaren Quellen bleiben oben erhalten, die Zusammenfassung pausiert, bis diese Prüfung gelingt.",
+    checkpoint_incompatible: "Diese gespeicherte Recherche kann nicht fortgesetzt werden, weil sie abgelaufen ist oder sich die Einstellungen geändert haben. Geprüfte Abschnitte bleiben erhalten. Es wurde keine neue Recherche gestartet.",
+    connection_interrupted: "Die Verbindung wurde unterbrochen, bevor die Recherche fertig war. Geprüfte Abschnitte bleiben erhalten. Setze die verfügbare Arbeit fort, wenn möglich.",
+    cancelled: "Du hast diese Antwort gestoppt. Geprüfte Abschnitte bleiben erhalten.",
+    wording_rejected: "Das Fazit hat seine Formulierungsprüfungen nicht bestanden. Die geprüften Quellenerklärungen bleiben oben erhalten.",
+    spending_limit: "Die Recherche hat ihr Kosten- oder Anfragelimit erreicht. Geprüfte Abschnitte bleiben erhalten, es wurde kein abschließendes Fazit freigegeben.",
+    billing_uncertain: "Die Recherche wartet auf die Bestätigung der Kosten einer früheren Anfrage. Geprüfte Abschnitte bleiben erhalten, es wurde keine neue bezahlte Anfrage gestellt.",
+    transport_failure: "Die Verbindung zu einem Recherchedienst ist fehlgeschlagen. Geprüfte Abschnitte bleiben erhalten, die endgültige Antwort wurde nicht fertiggestellt.",
+    research_running: "Diese Frage wird bereits in einem anderen Fenster oder einer anderen Anfrage recherchiert. Es wurde keine zweite Recherche gestartet. Nutze „Status prüfen“, um zu sehen, wann sie fertig ist.",
+  },
 };
 export function researchFailureText(language: Locale, kind?: RichFailureKind | null): string | null {
-  if (language === "de" || !kind) return null;
+  if (!kind) return null;
   return messages[language][kind as keyof typeof messages.en] ?? null;
 }

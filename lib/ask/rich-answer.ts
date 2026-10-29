@@ -74,6 +74,11 @@ export function validRichGuidance(value: unknown, language: Locale, sourceIds: s
 export function hasDisplayTranslation(source: Pick<RichSource, "id" | "evidence">): boolean {
   return source.evidence.kind === "scholar" || source.evidence.kind === "hadith" && HADITH_LIBRARY_ID.test(source.id);
 }
+/** Scholar cards for non-Arabic readers show only the checked translation; the Arabic stays in the
+ * "original passage" fold. Quran and hadith always keep their Arabic visible. */
+export function translationOnly(source: Pick<RichSource, "evidence" | "displayTranslation">, language: Locale): boolean {
+  return language !== "ar" && source.evidence.kind === "scholar" && source.displayTranslation?.status === "ready";
+}
 export function validDisplayTranslation(t: DisplayTranslation, original: string, language?: Locale): boolean {
   if (t.status !== "ready") return ["unavailable", "lookup_failed", "not_checked", "rejected"].includes(t.status);
   return typeof t.text === "string" && t.text.trim().length > 0 && t.text.length <= 16000

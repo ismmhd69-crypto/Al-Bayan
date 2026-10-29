@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { RichAnswerView, richSourceCards } from "./RichAnswerView";
 import { RevealContext, graphemes, type TextSlice } from "./VerifiedReveal";
-import { RICH_ORDER, richFailureKind, hasDisplayTranslation, type RichGroup, type RichStreamState } from "@/lib/ask/rich-answer";
+import { RICH_ORDER, richFailureKind, hasDisplayTranslation, translationOnly, type RichGroup, type RichStreamState } from "@/lib/ask/rich-answer";
 import { emptyPublication, presentationStage, publicationSections, type ResearchStage } from "@/lib/ask/publication";
 import { richText } from "@/lib/ask/rich-text";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -16,6 +16,10 @@ export function StableAnswerView({ state, language, text, working, reconnecting,
     quran: "نبحث في القرآن الكريم…", hadith: "نتحقق من مصادر السنة…", scholar: "نراجع نصوص العلماء المعتمدين…", summary: "نُعِدّ خلاصة بيان…",
     quranDetail: "نبحث عن الآيات المرتبطة بسؤالك ونتحقق من نصوصها وسياقها.", hadithDetail: "نبحث في الأحاديث الصحيحة ونتحقق من ألفاظها وتخريجها.", scholarDetail: "نراجع النصوص الأصلية المتاحة في مصادر العلماء المعتمدين.", summaryDetail: "نُعِدّ خلاصة من المصادر المختارة، مع مراعاة شروطها وحدودها.",
     show: "إظهار النص كاملًا", invalid: "ظهر إشكال أثناء التحقق. احتُفظ بالمصادر، وحُجب النص المتأثر إلى حين مراجعته.",
+  } : language === "de" ? {
+    quran: "Wir durchsuchen den Heiligen Koran…", hadith: "Wir prüfen Quellen der Sunna…", scholar: "Wir prüfen Quellen anerkannter Gelehrter…", summary: "Bayans Fazit wird vorbereitet…",
+    quranDetail: "Wir suchen passende Verse und prüfen ihren Originaltext und Zusammenhang.", hadithDetail: "Wir durchsuchen authentische Hadithe und prüfen ihren Wortlaut und ihre Quelle.", scholarDetail: "Wir lesen die Originaltexte, die aus anerkannten Gelehrtenquellen vorliegen.", summaryDetail: "Wir fassen die ausgewählten Quellen zusammen und bewahren ihre Bedingungen und Grenzen.",
+    show: "Ganzen Text zeigen", invalid: "Eine spätere Prüfung hat ein Problem gefunden. Die Quellenkarten bleiben erhalten, betroffene Inhalte sind bis zur Überprüfung ausgeblendet.",
   } : {
     quran: "Searching the Holy Quran…", hadith: "Checking Sunnah sources…", scholar: "Checking approved scholars’ sources…", summary: "Preparing Bayan’s conclusion…",
     quranDetail: "Looking for relevant verses and checking their original text and surrounding context.", hadithDetail: "Searching authentic hadith and checking their wording and attribution.", scholarDetail: "Consulting the original texts available from approved scholarly sources.", summaryDetail: "Preparing one summary from the selected sources, preserving their conditions and limits.",
@@ -43,7 +47,7 @@ export function StableAnswerView({ state, language, text, working, reconnecting,
       for (const source of richSourceCards(section).flat()) {
         if (owners.has(source.id)) continue;
         if (publication.groups[group].notices.some(n => n.sourceIds.includes(source.id))) continue;
-        owners.add(source.id); add(group, `${group}-original-${source.id}`, source.evidence.arabic);
+        owners.add(source.id); if (!translationOnly(source, language)) add(group, `${group}-original-${source.id}`, source.evidence.arabic);
         const translation = source.evidence.kind === "scholar" || hasDisplayTranslation(source) ? source.displayTranslation?.status === "ready" ? source.displayTranslation.text : null : source.evidence.translation;
         if (language !== "ar" && translation) add(group, `${group}-translation-${source.id}`, translation);
       }
@@ -82,14 +86,14 @@ export function StableAnswerView({ state, language, text, working, reconnecting,
   const settled = !working && state.terminal && (stage === "complete" || !complete);
   const waiting = !publication.groups[current].commitId && working;
   const checking = publication.groups[current].status === "checking";
-  const loaderTitle = state.progress === "retrying_selection" ? language === "ar" ? "حدثت مشكلة أثناء اختيار المصادر، نتحقق منها مرة أخرى…" : "There was a problem selecting sources. We’re checking them again…" : current === "summary" && state.progress === "correcting_summary" ? copy.progress.correcting_summary
-    : checking && current === "quran" ? language === "ar" ? "نتحقق من آيات القرآن وسياقها…" : "Checking the Quran sources and context…" : ui[current];
+  const loaderTitle = state.progress === "retrying_selection" ? language === "ar" ? "حدثت مشكلة أثناء اختيار المصادر، نتحقق منها مرة أخرى…" : language === "de" ? "Bei der Auswahl der Quellen gab es ein Problem. Wir prüfen sie erneut…" : "There was a problem selecting sources. We’re checking them again…" : current === "summary" && state.progress === "correcting_summary" ? copy.progress.correcting_summary
+    : checking && current === "quran" ? language === "ar" ? "نتحقق من آيات القرآن وسياقها…" : language === "de" ? "Wir prüfen die Koranverse und ihren Zusammenhang…" : "Checking the Quran sources and context…" : ui[current];
   return <div data-research-stage={stage} className={styles.reader}>
     <RevealContext.Provider value={{ texts, counts }}>
       <RichAnswerView sections={visible} language={language} text={text} complete={complete} working={!settled} staged guide={complete ? (state.result as { answer?: { guide?: import("@/lib/ask/rich-answer").RichGuide } }).answer?.guide ?? null : null}
         incomplete={settled && !complete} failureKind={richFailureKind(state.result)} publication={publication} />
     </RevealContext.Provider>
-    {reconnecting && <p role="status" aria-live="polite">{language === "ar" ? "انقطع الاتصال. نتحقق مما إذا كان يمكن متابعة البحث بأمان…" : "The connection was interrupted. Checking whether research can continue safely…"}</p>}
+    {reconnecting && <p role="status" aria-live="polite">{language === "ar" ? "انقطع الاتصال. نتحقق مما إذا كان يمكن متابعة البحث بأمان…" : language === "de" ? "Die Verbindung wurde unterbrochen. Wir prüfen, ob die Recherche sicher fortgesetzt werden kann…" : "The connection was interrupted. Checking whether research can continue safely…"}</p>}
     {waiting && <div className={`${styles.gapLoader} ${styles[current]}`} role="status" aria-live="polite">
       <span className={styles.spinner} aria-hidden="true" /><div><strong>{loaderTitle}</strong><p>{ui[`${current}Detail` as keyof typeof ui]}</p></div>
     </div>}

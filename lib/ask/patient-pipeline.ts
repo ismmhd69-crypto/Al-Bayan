@@ -22,7 +22,7 @@ const groups: PatientSourceGroup[] = ["quran", "hadith", "scholar"];
 /** Real provider/search adapter. No provider is instantiated or invoked on import.
  * The caller supplies a validated, owner-bound question frame and journalled providers. */
 export async function runPatientPipeline(input: { jobId: string; question: string; language: Locale; frame: QuestionFrame; checkpoint?: PatientCheckpoint }, deps: PatientPipelineDeps, signal: AbortSignal) {
-  const frame = input.frame, stable = input.language !== "de" && process.env.NEXT_PUBLIC_ASK_STABLE_STREAMING === "true";
+  const frame = input.frame, stable = process.env.NEXT_PUBLIC_ASK_STABLE_STREAMING === "true";
   if (stable) deps = { ...deps, fixedSelectionReferences: true };
   if (frame.kind !== "question" || frame.clarificationNeeded || frame.checklistStatus && frame.checklistStatus !== "complete") throw new Error("patient_question_requires_clarification");
   if (input.checkpoint?.retryRequirementIds !== undefined && !validPatientRetryRequirements(input.checkpoint.retryRequirementIds, frame)) throw Error("patient_retry_scope_invalid");

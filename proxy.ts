@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { activeLocales, defaultLocale, isLocale, type Locale } from "@/lib/i18n";
+import { activeLocales, defaultLocale, isLocale, locales, type Locale } from "@/lib/i18n";
 
 // Sends visitors without a language in the address to their language:
 // the one they picked before (cookie), else their browser's, else English.
@@ -28,9 +28,10 @@ export function proxy(request: NextRequest) {
     if (process.env.NODE_ENV !== "development" || !localFrenchPreviewHost) return new NextResponse(null, { status: 404 });
     return NextResponse.next();
   }
-  // German is not offered at launch: old /de links go to the same English page.
-  if (pathname === "/de" || pathname.startsWith("/de/")) {
-    request.nextUrl.pathname = `/en${pathname.slice(3)}`;
+  // A language that is built but not served sends its links to the same English page.
+  const paused = locales.find((l) => !(activeLocales as readonly string[]).includes(l) && (pathname === `/${l}` || pathname.startsWith(`/${l}/`)));
+  if (paused) {
+    request.nextUrl.pathname = `/en${pathname.slice(paused.length + 1)}`;
     return NextResponse.redirect(request.nextUrl);
   }
   const hasLocale = activeLocales.some((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`));
