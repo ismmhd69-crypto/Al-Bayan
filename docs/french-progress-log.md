@@ -11678,3 +11678,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1978c-1979b
 
 - FR-LIB-HAD-MUSLIM-0929 saves two private French drafts about sacrifices made for others and the incident at Badr involving ‘Alî and Hamza. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1979c
+
+- FR-LIB-HAD-MUSLIM-0930 saves the deferred long French draft about ‘Alî, his wedding preparations, and the incident involving Hamza at Badr. No Quran verse is quoted. No database write or publication occurred.
