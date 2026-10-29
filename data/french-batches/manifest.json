@@ -43984,6 +43984,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0753",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0753.json",
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "two complete reports without Quran quotations translated as private drafts; two cross-reference variants and two Quran-quotation items held entirely blank; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48291,8 +48304,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9156,
-  "hadithLocalRemaining": 5473,
+  "hadithLocalDrafted": 9158,
+  "hadithLocalRemaining": 5471,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -53374,10 +53387,30 @@
       "source_id": "adfa06d7-f95c-488e-9993-09d21f84b730",
       "reason": "Le texte source contient une citation coranique. Garder toute la traduction française de cette entrée vide jusqu’à validation d’une traduction coranique française attribuée et autorisée.",
       "status": "blocked"
+    },
+    {
+      "source_id": "8173dda7-8a3d-4521-b904-1cbadfb8a479",
+      "reason": "Cette entrée renvoie au récit précédent et précise seulement une différence de formulation ; elle ne reproduit pas son contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "724f0386-e733-40b4-979f-f6219a22b075",
+      "reason": "Cette entrée cite un fragment du Coran. Garder toute la traduction française de cette entrée vide jusqu’à validation d’une traduction coranique française attribuée et autorisée.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "30732982-b316-4681-9ed2-b0a5ed91dcde",
+      "reason": "Cette entrée reprend une formulation coranique sur le lien du Prophète avec les croyants. Garder toute la traduction française de cette entrée vide jusqu’à validation d’une traduction coranique française attribuée et autorisée.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "cfa6b9a3-62f5-4565-9390-8387b26aba4a",
+      "reason": "Cette entrée donne une chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2820,
+  "hadithMuslimDrafted": 2822,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1241
+  "hadithNeedsMo": 1245
 }

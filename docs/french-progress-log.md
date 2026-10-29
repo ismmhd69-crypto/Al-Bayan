@@ -10891,3 +10891,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0752 saves three private French drafts on the inheritance question of kalala. Muslim 1616e and 1617b only refer to previous reports. Muslim 1618a contains a Quran quotation and remains entirely blank pending an approved, attributed translation and rights.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1618d–1619d
+
+- FR-LIB-HAD-MUSLIM-0753 saves two private French drafts about responsibility for believers’ debts and dependents. Muslim 1618d and 1619b are cross-reference variants; 1618e and 1619a contain Quran quotations and remain entirely blank pending an approved, attributed translation and rights.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
