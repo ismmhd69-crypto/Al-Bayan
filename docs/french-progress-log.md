@@ -9731,3 +9731,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0520 saves four private French drafts about perfume’s remaining visible traces after the Prophet entered consecration. Muslim 1190d only refers to a previous report, and 1190i provides only its chain of transmission; both remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1191–1193b
+
+- FR-LIB-HAD-MUSLIM-0521 saves five private French drafts about perfume before pilgrimage consecration and a declined wild-ass gift. Muslim 1193b gives only transmission and wording variants to the previous report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
