@@ -11161,3 +11161,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0806 saves four private French drafts covering the pledge reports in 1709c, 1709d, 1709e and 1709h. The two intervening entries only provide transmission chains and refer to the earlier report, so they remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1710a-1711a
+
+- FR-LIB-HAD-MUSLIM-0807 saves three private French drafts: two complete reports concerning liability for injuries and buried treasure, and the opening report in the Book of Judicial Decisions. Three intervening entries only refer to earlier text and remain blank under Needs Mo.
+- All five source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

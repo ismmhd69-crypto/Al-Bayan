@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-0807",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:40:13.844Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f3fea0ab-da6d-4562-8f1f-adbc66b8faae",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1710a",
+      "reference": "Sahih Muslim, hadith 1710 a, book 29, باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "title": "باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَمُحَمَّدُ بْنُ رُمْحٍ، قَالاَ أَخْبَرَنَا اللَّيْثُ، ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ، سَعِيدٍ حَدَّثَنَا لَيْثٌ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، وَأَبِي، سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ الْعَجْمَاءُ جَرْحُهَا جُبَارٌ وَالْبِئْرُ جُبَارٌ وَالْمَعْدِنُ جُبَارٌ وَفِي الرِّكَازِ الْخُمْسُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "dd3528afcbe45b7fc313ca05bf77aa4bd48af88120736f99183e3f2f249ab763",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya et Muhammad ibn Rumh nous ont rapporté : al-Layth nous a informés. [Une autre chaîne :] Qutayba ibn Sa'id nous a rapporté : al-Layth nous a rapporté, d'après Ibn Shihab, d'après Sa'id ibn al-Musayyab et Abu Salama, d'après Abu Hurayra, d'après le Messager d'Allah ﷺ, qui a dit : « Les blessures causées par un animal sans maître, par un puits ou par une mine ne donnent pas lieu à indemnisation ; le cinquième revient pour le trésor enfoui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b9e52152-4c4d-4b40-be26-cea36f7399fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1710b",
+      "reference": "Sahih Muslim, hadith 1710 b, book 29, باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "title": "باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَزُهَيْرُ بْنُ حَرْبٍ وَعَبْدُ الأَعْلَى بْنُ حَمَّادٍ كُلُّهُمْ عَنِ ابْنِ عُيَيْنَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا إِسْحَاقُ، - يَعْنِي ابْنَ عِيسَى - حَدَّثَنَا مَالِكٌ، كِلاَهُمَا عَنِ الزُّهْرِيِّ، بِإِسْنَادِ اللَّيْثِ ‏.‏ مِثْلَ حَدِيثِهِ ‏.‏",
+      "source_hash_sha256": "2b5a794026eeb45dcf32ace85aa54687e3aa80ec8c69dcbafcd212a732c0f96f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "93847f22-45ed-4274-8d7b-37543979d572",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1710c",
+      "reference": "Sahih Muslim, hadith 1710 c, book 29, باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "title": "باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ، شِهَابٍ عَنِ ابْنِ الْمُسَيَّبِ، وَعُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "186d7e0daa825cece2cc6600a769aa692f944919b3a976d4c7f86dba14f5df4f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f3fa58f8-917d-477c-aeec-b7f37eb75436",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1710d",
+      "reference": "Sahih Muslim, hadith 1710 d, book 29, باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "title": "باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحِ بْنِ الْمُهَاجِرِ، أَخْبَرَنَا اللَّيْثُ، عَنْ أَيُّوبَ بْنِ مُوسَى، عَنِ الأَسْوَدِ، بْنِ الْعَلاَءِ عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ الْبِئْرُ جَرْحُهَا جُبَارٌ وَالْمَعْدِنُ جَرْحُهُ جُبَارٌ وَالْعَجْمَاءُ جَرْحُهَا جُبَارٌ وَفِي الرِّكَازِ الْخُمْسُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cb3b4e555f41bebd9fb9c4e5e0c7f0d87452a1cd74add4edfbe8457ab19d382c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rumh ibn al-Muhajir nous a informés : al-Layth nous a informés, d'après Ayyub ibn Musa, d'après al-Aswad ibn al-Ala, d'après Abu Salama ibn Abd ar-Rahman, d'après Abu Hurayra, d'après le Messager d'Allah ﷺ, qui a dit : « La blessure causée par un puits ne donne pas lieu à indemnisation, pas plus que celle causée par une mine ou par un animal sans maître ; le cinquième revient pour le trésor enfoui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "256bfb11-6b05-4b54-ad16-105e5a597cbd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1710e",
+      "reference": "Sahih Muslim, hadith 1710 e, book 29, باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "title": "باب جَرْحُ الْعَجْمَاءِ وَالْمَعْدِنِ وَالْبِئْرِ جُبَارٌ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ سَلاَّمٍ الْجُمَحِيُّ، حَدَّثَنَا الرَّبِيعُ يَعْنِي ابْنَ مُسْلِمٍ، ح وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا ابْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، قَالاَ حَدَّثَنَا شُعْبَةُ، كِلاَهُمَا عَنْ مُحَمَّدِ بْنِ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "93386901d1d36227620abda938974483d5380ee740a26f94d1765609f8b9d3ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a5e92b29-9d1e-4486-b7b9-420ab21d7b89",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1711a",
+      "reference": "Sahih Muslim, hadith 1711 a, book 30, باب الْيَمِينُ عَلَى الْمُدَّعَى عَلَيْهِ ‏‏",
+      "title": "باب الْيَمِينُ عَلَى الْمُدَّعَى عَلَيْهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَحْمَدُ بْنُ عَمْرِو بْنِ سَرْحٍ أَخْبَرَنَا ابْنُ وَهْبٍ، عَنِ ابْنِ جُرَيْجٍ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ لاَدَّعَى نَاسٌ دِمَاءَ رِجَالٍ وَأَمْوَالَهُمْ وَلَكِنَّ الْيَمِينَ عَلَى الْمُدَّعَى عَلَيْهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "068195e10a54fc0326caaac1a3c2664bb17e9be6ee93aec71351960b323968a5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu at-Tahir Ahmad ibn Amr ibn Sarh m'a rapporté : Ibn Wahb nous a informés, d'après Ibn Jurayj, d'après Ibn Abi Mulayka, d'après Ibn Abbas, selon lequel le Prophète ﷺ a dit : « Si les gens obtenaient gain de cause sur la seule base de leurs prétentions, certains réclameraient le sang d'autres hommes et leurs biens. Mais le serment incombe au défendeur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b9e52152-4c4d-4b40-be26-cea36f7399fa",
+      "reason": "Cette entrée donne uniquement une ou plusieurs chaînes de transmission puis renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu'à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "93847f22-45ed-4274-8d7b-37543979d572",
+      "reason": "Cette entrée donne uniquement une ou plusieurs chaînes de transmission puis renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu'à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "256bfb11-6b05-4b54-ad16-105e5a597cbd",
+      "reason": "Cette entrée donne uniquement une ou plusieurs chaînes de transmission puis renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu'à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
