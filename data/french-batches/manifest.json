@@ -14045,6 +14045,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-632",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-632.json",
+      "sourceIds": [
+        "337107dc-4bf3-4654-8db8-08f44278cefd",
+        "2ac3617d-39fd-455d-9842-16d8fd1702dc",
+        "3c7c197c-42fb-4e7b-aad1-12acfe31dbf5",
+        "f47d06c8-1898-4da3-91c9-311c66edeae2",
+        "dadb4fd2-ec6a-49a6-8b88-7a6f26d9230a",
+        "d69cfecc-10db-4ea1-a552-c65f16e5446c"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -14070,7 +14091,7 @@
       "id": "ARABIC-HADITH-INCOMPLETE-MATN",
       "scope": "Hadith records whose exported Arabic contains no hadith text",
       "status": "blocked",
-      "reason": "Bukhari 221, 342, and 402b currently lack complete hadith wording: 221 has only a chain ending 'from the Prophet'; 342 has only a chain and the phrase 'he narrated the hadith'; 402b has only a chain ending 'I heard Anas, with this'. Keep all three on hold until their complete source wording is confirmed. Bukhari 2944 is also held in FR-LIB-HAD-BUKHARI-507 because its exported Arabic has only the report’s opening clause and omits the hadith wording. Bukhari 3174 is held in FR-LIB-HAD-BUKHARI-552 because its Arabic ends after the opening clause about Heraclius summoning Abû Sufyân."
+      "reason": "Bukhari 221, 342, and 402b currently lack complete hadith wording: 221 has only a chain ending 'from the Prophet'; 342 has only a chain and the phrase 'he narrated the hadith'; 402b has only a chain ending 'I heard Anas, with this'. Keep all three on hold until their complete source wording is confirmed. Bukhari 2944 is also held in FR-LIB-HAD-BUKHARI-507 because its exported Arabic has only the report’s opening clause and omits the hadith wording. Bukhari 3174 is held in FR-LIB-HAD-BUKHARI-552 because its Arabic ends after the opening clause about Heraclius summoning Abû Sufyân. Bukhari 3595b is held blank in FR-LIB-HAD-BUKHARI-632 because its local Arabic ends after the opening chain fragment and omits the report."
     },
     {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
@@ -14144,8 +14165,14 @@
       "scope": "Sahih al-Bukhari 3591: phrase وهو هذا البارز / وهم أهل البازر",
       "status": "blocked",
       "reason": "The local source contains two unclear readings for the final term. The full report remains blank in FR-LIB-HAD-BUKHARI-631 until its wording and referent are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3600-RUAM",
+      "scope": "Sahih al-Bukhari 3600: term رُعَامَهَا",
+      "status": "blocked",
+      "reason": "The exact referent of رُعَامَهَا is not confirmed from the local Arabic record. The full report remains blank in FR-LIB-HAD-BUKHARI-632 until the term can be checked."
     }  ],
-  "hadithBukhariDrafted": 3207,
-  "hadithLocalDrafted": 3207,
-  "hadithLocalRemaining": 11450
+  "hadithBukhariDrafted": 3211,
+  "hadithLocalDrafted": 3211,
+  "hadithLocalRemaining": 11446
 }
