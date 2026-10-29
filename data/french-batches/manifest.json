@@ -59,18 +59,18 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 4984,
+    "hadithMuslimDrafted": 4989,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11320,
+    "hadithLocalDrafted": 11325,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3309,
-    "hadithNeedsMo": 2838,
+    "hadithLocalRemaining": 3304,
+    "hadithNeedsMo": 2839,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14152,
-    "hadithSourcesNotYetExported": 477
+    "hadithSourcesProcessed": 14158,
+    "hadithSourcesNotYetExported": 471
   },
   "batches": [
     {
@@ -51351,6 +51351,30 @@
       "failed": 0,
       "remaining": 3309,
       "validation": "Four complete reports translated. Two reference-only variants held blank with reasons. Focused validator and git diff check passed. Private local drafts only.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1280",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1280.json",
+      "sourceIds": [
+        "ef4695b9-6e7f-45d1-a9b6-e733a4a1bfec",
+        "2ca2aec9-212b-4ae4-9d4b-79244c7ec8d3",
+        "600eaa98-ed37-449b-a4a3-cb06aaf2bc48",
+        "8fc105e6-6967-40d8-b491-ae3b63a3a6bb",
+        "c4e26a21-914c-4871-b55f-e8761ab0c85b",
+        "58a703ea-a859-4089-b32a-d23959fb60ff"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 1,
+      "failed": 0,
+      "remaining": 3304,
+      "validation": "Five complete reports translated. One chain-only variant held blank with a reason. Focused validator and git diff check passed. Private local drafts only.",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
