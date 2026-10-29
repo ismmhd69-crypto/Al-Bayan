@@ -9736,3 +9736,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0521 saves five private French drafts about perfume before pilgrimage consecration and a declined wild-ass gift. Muslim 1193b gives only transmission and wording variants to the previous report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1193c–1196b
+
+- FR-LIB-HAD-MUSLIM-0522 saves four private French drafts about game offered to a pilgrim in consecrated state and hunting by someone outside that state. Muslim 1193c and 1194b provide only variants to preceding reports and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
