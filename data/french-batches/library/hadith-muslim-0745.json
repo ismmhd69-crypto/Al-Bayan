@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0745",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:08:24.285Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "23bc78da-b99c-44ca-843b-499bc1f17dbf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1599d",
+      "reference": "Sahih Muslim, hadith 1599 d, book 22, باب أَخْذِ الْحَلاَلِ وَتَرْكِ الشُّبُهَاتِ ‏‏",
+      "title": "باب أَخْذِ الْحَلاَلِ وَتَرْكِ الشُّبُهَاتِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ بْنِ سَعْدٍ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، حَدَّثَنِي خَالِدُ، بْنُ يَزِيدَ حَدَّثَنِي سَعِيدُ بْنُ أَبِي هِلاَلٍ، عَنْ عَوْنِ بْنِ عَبْدِ اللَّهِ، عَنْ عَامِرٍ الشَّعْبِيِّ، أَنَّهُ سَمِعَ نُعْمَانَ بْنَ بَشِيرِ بْنِ سَعْدٍ، صَاحِبَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ يَخْطُبُ النَّاسَ بِحِمْصَ وَهُوَ يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ الْحَلاَلُ بَيِّنٌ وَالْحَرَامُ بَيِّنٌ ‏\"‏ ‏.‏ فَذَكَرَ بِمِثْلِ حَدِيثِ زَكَرِيَّاءَ عَنِ الشَّعْبِيِّ إِلَى قَوْلِهِ ‏\"‏ يُوشِكُ أَنْ يَقَعَ فِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "97de710a8f9354b4f10a7d1825eb692f5ff6db6dc323b659ad6cb3688545d15a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "80eea540-fb7c-4a60-af0e-0da9af64fd67",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1600a",
+      "reference": "Sahih Muslim, hadith 1600 a, book 22, باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "title": "باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الطَّاهِرِ، أَحْمَدُ بْنُ عَمْرِو بْنِ سَرْحٍ أَخْبَرَنَا ابْنُ وَهْبٍ، عَنْ مَالِكِ بْنِ، أَنَسٍ عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي رَافِعٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم اسْتَسْلَفَ مِنْ رَجُلٍ بَكْرًا فَقَدِمَتْ عَلَيْهِ إِبِلٌ مِنْ إِبِلِ الصَّدَقَةِ فَأَمَرَ أَبَا رَافِعٍ أَنْ يَقْضِيَ الرَّجُلَ بَكْرَهُ فَرَجَعَ إِلَيْهِ أَبُو رَافِعٍ فَقَالَ لَمْ أَجِدْ فِيهَا إِلاَّ خِيَارًا رَبَاعِيًا ‏.‏ فَقَالَ ‏\"‏ أَعْطِهِ إِيَّاهُ إِنَّ خِيَارَ النَّاسِ أَحْسَنُهُمْ قَضَاءً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0bfef0793ba93cc3f7c57c4c2bb3747b3a5f226dfa8d80b11d7d047eb6d04665",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir Ahmad ibn Amr ibn Sarh nous a rapporté : Ibn Wahb nous a informés, d’après Malik ibn Anas, d’après Zayd ibn Aslam, d’après Ata ibn Yasar, d’après Abu Rafi‘, qui rapporte que le Messager d’Allah emprunta à un homme un jeune chameau. Des chameaux issus de l’aumône obligatoire lui parvinrent. Il demanda à Abu Rafi‘ de rendre à l’homme son jeune chameau. Abu Rafi‘ revint et dit : « Je n’ai trouvé qu’un chameau de meilleure qualité, âgé de six ans. » Le Prophète dit : « Donne-le-lui. Les meilleurs parmi les gens sont ceux qui remboursent le mieux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "75b77cca-09f3-462d-b37c-33bec6e7fb36",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1600b",
+      "reference": "Sahih Muslim, hadith 1600 b, book 22, باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "title": "باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، عَنْ مُحَمَّدِ بْنِ جَعْفَرٍ، سَمِعْتُ زَيْدَ بْنَ أَسْلَمَ، أَخْبَرَنَا عَطَاءُ بْنُ يَسَارٍ، عَنْ أَبِي رَافِعٍ، مَوْلَى رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ اسْتَسْلَفَ رَسُولُ اللَّهِ صلى الله عليه وسلم بَكْرًا ‏.‏ بِمِثْلِهِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ فَإِنَّ خَيْرَ عِبَادِ اللَّهِ أَحْسَنُهُمْ قَضَاءً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4a2bc4c127e5dc5c8de8759f4a3e09a6a4a6124cb5041e67d0457c38113317e6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kurayb nous a rapporté : Khalid ibn Makhlad nous a rapporté, d’après Muhammad ibn Ja‘far, qui dit : « J’ai entendu Zayd ibn Aslam nous informer », d’après Ata ibn Yasar, d’après Abu Rafi‘, affranchi du Messager d’Allah, qui dit que le Messager d’Allah emprunta un jeune chameau. Le récit est semblable, sauf qu’il dit : « Les meilleurs serviteurs d’Allah sont ceux qui remboursent le mieux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "40857464-b4ab-4c83-a755-a773c4365693",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1601a",
+      "reference": "Sahih Muslim, hadith 1601 a, book 22, باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "title": "باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارِ بْنِ عُثْمَانَ الْعَبْدِيُّ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سَلَمَةَ بْنِ كُهَيْلٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ كَانَ لِرَجُلٍ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم حَقٌّ فَأَغْلَظَ لَهُ فَهَمَّ بِهِ أَصْحَابُ النَّبِيِّ صلى الله عليه وسلم فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنَّ لِصَاحِبِ الْحَقِّ مَقَالاً - فَقَالَ لَهُمُ - اشْتَرُوا لَهُ سِنًّا فَأَعْطُوهُ إِيَّاهُ ‏\"‏ ‏.‏ فَقَالُوا إِنَّا لاَ نَجِدُ إِلاَّ سِنًّا هُوَ خَيْرٌ مِنْ سِنِّهِ ‏.‏ قَالَ ‏\"‏ فَاشْتَرُوهُ فَأَعْطُوهُ إِيَّاهُ فَإِنَّ مِنْ خَيْرِكُمْ - أَوْ خَيْرَكُمْ - أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "875432c5a18806d4c90e996fab28f6144ce7d530dd2e5c34a5bd0ca937aa27c0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshar ibn Uthman al-Abdi nous a rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Salama ibn Kuhayl, d’après Abu Salama, d’après Abu Hurayra, qui dit : « Un homme avait une créance sur le Messager d’Allah et lui parla durement. Les compagnons du Prophète s’emportèrent contre lui, mais le Prophète dit : “Celui qui a un droit peut parler.” Puis il leur dit : “Achetez-lui un chameau du même âge et remettez-le-lui.” Ils répondirent : “Nous n’en trouvons qu’un d’un âge supérieur au sien.” Il dit : “Achetez-le et remettez-le-lui, car les meilleurs d’entre vous — ou vos meilleurs — sont ceux qui remboursent le mieux.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c2b56479-7f31-42fa-8214-e705f5b78d19",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1601b",
+      "reference": "Sahih Muslim, hadith 1601 b, book 22, باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "title": "باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا وَكِيعٌ، عَنْ عَلِيِّ بْنِ صَالِحٍ، عَنْ سَلَمَةَ بْنِ كُهَيْلٍ، عَنْ أَبِي، سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ، قَالَ اسْتَقْرَضَ رَسُولُ اللَّهِ صلى الله عليه وسلم سِنًّا فَأَعْطَى سِنًّا فَوْقَهُ وَقَالَ ‏\"‏ خِيَارُكُمْ مَحَاسِنُكُمْ قَضَاءً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "32db35d8fe6ce73ff8bd3586304ca20d381d3732568983829114d9f3133666ec",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kurayb nous a rapporté : Waki‘ nous a rapporté, d’après Ali ibn Salih, d’après Salama ibn Kuhayl, d’après Abu Salama, d’après Abu Hurayra, qui dit : « Le Messager d’Allah emprunta un chameau d’un certain âge, puis en rendit un d’un âge supérieur. Il dit : “Les meilleurs d’entre vous sont ceux qui remboursent le mieux.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2da8834c-9dd5-463c-a603-c8f2f3a7ebed",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1601c",
+      "reference": "Sahih Muslim, hadith 1601 c, book 22, باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "title": "باب مَنِ اسْتَسْلَفَ شَيْئًا فَقَضَى خَيْرًا مِنْهُ وَ ‏\"‏ خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا سُفْيَانُ، عَنْ سَلَمَةَ بْنِ كُهَيْلٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ جَاءَ رَجُلٌ يَتَقَاضَى رَسُولَ اللَّهِ صلى الله عليه وسلم بَعِيرًا فَقَالَ ‏\"‏ أَعْطُوهُ سِنًّا فَوْقَ سِنِّهِ - وَقَالَ - خَيْرُكُمْ أَحْسَنُكُمْ قَضَاءً ‏\"‏ ‏.",
+      "source_hash_sha256": "b1ebccc38f034b20e9c38a1e6e4f3cc9ad6333721e6fce6b8a79cb0fbc81893a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abd Allah ibn Numayr nous a rapporté : mon père nous a rapporté : Sufyan nous a rapporté, d’après Salama ibn Kuhayl, d’après Abu Salama, d’après Abu Hurayra, qui dit : « Un homme vint réclamer au Messager d’Allah un chameau. Il dit : “Donnez-lui un chameau d’un âge supérieur au sien.” » Puis il ajouta : « Les meilleurs d’entre vous sont ceux qui remboursent le mieux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "23bc78da-b99c-44ca-843b-499bc1f17dbf",
+      "reason": "Cette entrée ne donne qu’une partie du récit précédent et s’interrompt avant sa fin. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
