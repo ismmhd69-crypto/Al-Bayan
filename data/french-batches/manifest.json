@@ -42698,6 +42698,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0663",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0663.json",
+      "sourceIds": [
+        "1c89be6b-eb38-425e-88ec-fe0674d60279",
+        "f88538a8-3229-4bcd-a215-1a38daf5b190",
+        "fe647666-19a4-46a7-971e-7bd561c0a8db",
+        "b00e0143-640b-4286-88a3-3dabec77a692",
+        "8f369392-9385-48dc-a3d4-71ca3f026363",
+        "8640f0c2-0c82-406c-9d67-108aea34b347"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two cross-reference-only variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47005,8 +47026,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8967,
-  "hadithLocalRemaining": 5662,
+  "hadithLocalDrafted": 8971,
+  "hadithLocalRemaining": 5658,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51333,10 +51354,20 @@
       "source_id": "98f6699b-46f0-424a-a878-4f79413746a3",
       "reason": "Cette entrée renvoie au récit précédent et n’ajoute qu’une information sur l’ordre du décès, sans reprendre le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "f88538a8-3229-4bcd-a215-1a38daf5b190",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« مثله سواء »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "8640f0c2-0c82-406c-9d67-108aea34b347",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« بمثله »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2631,
+  "hadithMuslimDrafted": 2635,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1158
+  "hadithNeedsMo": 1160
 }

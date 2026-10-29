@@ -10441,3 +10441,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0662 saves two private French drafts about Sawda ceding her day and Maymuna’s funeral. Muslim 1463b and 1465b are incomplete report variants; 1464a–b quote Quran 33:51. These four remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1466–1469
+
+- FR-LIB-HAD-MUSLIM-0663 saves four private French drafts about choosing a spouse and good treatment of women, preserving the reports’ own wording. Muslim 1467a and 1469 only refer to prior reports and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0663",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:42:46.383Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1c89be6b-eb38-425e-88ec-fe0674d60279",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1466",
+      "reference": "Sahih Muslim, hadith 1466, book 17, باب اسْتِحْبَابِ نِكَاحِ ذَاتِ الدِّينِ ‏‏",
+      "title": "باب اسْتِحْبَابِ نِكَاحِ ذَاتِ الدِّينِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالُوا حَدَّثَنَا يَحْيَى، بْنُ سَعِيدٍ عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي سَعِيدُ بْنُ أَبِي سَعِيدٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ تُنْكَحُ الْمَرْأَةُ لأَرْبَعٍ لِمَالِهَا وَلِحَسَبِهَا وَلِجَمَالِهَا وَلِدِينِهَا فَاظْفَرْ بِذَاتِ الدِّينِ تَرِبَتْ يَدَاكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "581ce5b939faba9bc52f41ba961b13bc5d1619d5090e3832ebe5aa053872db67",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Hurayra rapporte que le Prophète a dit : « Une femme est épousée pour quatre raisons : sa richesse, sa noblesse, sa beauté et sa religion. Choisis celle qui a la religion, tu y gagneras. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f88538a8-3229-4bcd-a215-1a38daf5b190",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1467a",
+      "reference": "Sahih Muslim, hadith 1467 a, book 17, باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "title": "باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، وَعَبْدُ بْنُ حُمَيْدٍ، كِلاَهُمَا عَنْ يَعْقُوبَ بْنِ إِبْرَاهِيمَ بْنِ سَعْدٍ، عَنِ ابْنِ أَخِي الزُّهْرِيِّ، عَنْ عَمِّهِ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ سَوَاءً ‏.‏",
+      "source_hash_sha256": "d8de8c846ef98fe434dc012caf103d1d17ffef51457233c750216fbabc83cc44",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fe647666-19a4-46a7-971e-7bd561c0a8db",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1467b",
+      "reference": "Sahih Muslim, hadith 1467 b, book 17, باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "title": "باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، وَابْنُ أَبِي عُمَرَ، - وَاللَّفْظُ لاِبْنِ أَبِي عُمَرَ - قَالاَ حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ الْمَرْأَةَ خُلِقَتْ مِنْ ضِلَعٍ لَنْ تَسْتَقِيمَ لَكَ عَلَى طَرِيقَةٍ فَإِنِ اسْتَمْتَعْتَ بِهَا اسْتَمْتَعْتَ بِهَا وَبِهَا عِوَجٌ وَإِنْ ذَهَبْتَ تُقِيمُهَا كَسَرْتَهَا وَكَسْرُهَا طَلاَقُهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c7289ef10a39c5ea33b4aa72c70d16affd0a105b713a610aa53a28cda435cedb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Hurayra rapporte que le Messager d’Allah a dit : « La femme a été créée d’une côte et ne se conformera pas entièrement à ta manière. Si tu jouis de sa compagnie, tu le fais avec ce qu’il y a de courbe en elle. Si tu cherches à la redresser, tu la briseras ; la briser, c’est la répudier. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b00e0143-640b-4286-88a3-3dabec77a692",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1468a",
+      "reference": "Sahih Muslim, hadith 1468 a, book 17, باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "title": "باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ، عَنْ زَائِدَةَ، عَنْ مَيْسَرَةَ، عَنْ أَبِي حَازِمٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَإِذَا شَهِدَ أَمْرًا فَلْيَتَكَلَّمْ بِخَيْرٍ أَوْ لِيَسْكُتْ وَاسْتَوْصُوا بِالنِّسَاءِ فَإِنَّ الْمَرْأَةَ خُلِقَتْ مِنْ ضِلَعٍ وَإِنَّ أَعْوَجَ شَىْءٍ فِي الضِّلَعِ أَعْلاَهُ إِنْ ذَهَبْتَ تُقِيمُهُ كَسَرْتَهُ وَإِنْ تَرَكْتَهُ لَمْ يَزَلْ أَعْوَجَ اسْتَوْصُوا بِالنِّسَاءِ خَيْرًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e432bddcbfc5ef507712d4d139ee0b68ab050c0cd51a3ed8e4444bc5dab042e1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Hurayra rapporte que le Prophète a dit : « Que celui qui croit en Allah et au Jour dernier dise du bien ou garde le silence lorsqu’il assiste à une situation. Soyez bienveillants envers les femmes : la femme a été créée d’une côte, et la partie la plus courbe de la côte en est le sommet. Si tu cherches à le redresser, tu le briseras ; si tu le laisses, il restera courbe. Soyez donc bienveillants envers les femmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8f369392-9385-48dc-a3d4-71ca3f026363",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1468b",
+      "reference": "Sahih Muslim, hadith 1468 b, book 17, باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "title": "باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي إِبْرَاهِيمُ بْنُ مُوسَى الرَّازِيُّ، حَدَّثَنَا عِيسَى، - يَعْنِي ابْنَ يُونُسَ - حَدَّثَنَا عَبْدُ الْحَمِيدِ بْنُ جَعْفَرٍ، عَنْ عِمْرَانَ بْنِ أَبِي أَنَسٍ، عَنْ عُمَرَ بْنِ الْحَكَمِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَفْرَكْ مُؤْمِنٌ مُؤْمِنَةً إِنْ كَرِهَ مِنْهَا خُلُقًا رَضِيَ مِنْهَا آخَرَ ‏\"‏ ‏.‏ أَوْ قَالَ ‏\"‏ غَيْرَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9597ee72ac3af80e3fdf32c675a1380217165037524f467880ff317eb24fdcfc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Hurayra rapporte que le Messager d’Allah a dit : « Qu’un croyant ne déteste pas une croyante : s’il n’aime pas un de ses traits de caractère, il en appréciera un autre. » Le transmetteur précise que la formulation peut aussi être : « un autre trait ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8640f0c2-0c82-406c-9d67-108aea34b347",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1469",
+      "reference": "Sahih Muslim, hadith 1469, book 17, باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "title": "باب الْوَصِيَّةِ بِالنِّسَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا أَبُو عَاصِمٍ، حَدَّثَنَا عَبْدُ الْحَمِيدِ بْنُ جَعْفَرٍ، حَدَّثَنَا عِمْرَانُ بْنُ أَبِي أَنَسٍ، عَنْ عُمَرَ بْنِ الْحَكَمِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "a8d6c6df7823f4f0bf4c66ad2ad96c18171950bef6f519de01942315a2381d9d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f88538a8-3229-4bcd-a215-1a38daf5b190",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« مثله سواء »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "8640f0c2-0c82-406c-9d67-108aea34b347",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« بمثله »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
