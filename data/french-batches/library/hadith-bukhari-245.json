@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-BUKHARI-245",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:26:21.773Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "932c405a-df55-46a1-9f72-290530ba397c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1404",
+      "reference": "Sahih al-Bukhari, hadith 1404, book 24, باب مَا أُدِّيَ زَكَاتُهُ فَلَيْسَ بِكَنْزٍ",
+      "title": "باب مَا أُدِّيَ زَكَاتُهُ فَلَيْسَ بِكَنْزٍ",
+      "source_published": true,
+      "text_original": "وَقَالَ أَحْمَدُ بْنُ شَبِيبِ بْنِ سَعِيدٍ حَدَّثَنَا أَبِي، عَنْ يُونُسَ، عَنِ ابْنِ شِهَابٍ، عَنْ خَالِدِ بْنِ أَسْلَمَ، قَالَ خَرَجْنَا مَعَ عَبْدِ اللَّهِ بْنِ عُمَرَ ـ رضى الله عنهما ـ فَقَالَ أَعْرَابِيٌّ أَخْبِرْنِي قَوْلَ اللَّهِ، ‏[quran sura=\"9\" aya_start=\"34\" aya_end=\"34\"]{‏وَالَّذِينَ يَكْنِزُونَ الذَّهَبَ وَالْفِضَّةَ وَلاَ يُنْفِقُونَهَا فِي سَبِيلِ اللَّهِ‏}‏ قَالَ ابْنُ عُمَرَ ـ رضى الله عنهما ـ مَنْ كَنَزَهَا فَلَمْ يُؤَدِّ زَكَاتَهَا فَوَيْلٌ لَهُ، إِنَّمَا كَانَ هَذَا قَبْلَ أَنْ تُنْزَلَ الزَّكَاةُ فَلَمَّا أُنْزِلَتْ جَعَلَهَا اللَّهُ طُهْرًا لِلأَمْوَالِ‏.‏",
+      "source_hash_sha256": "2fee716a689b357d0624ad2f30c9d1638fd9175ed044efb240a31a5066ac1194",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "55264d80-8958-4434-86cc-a37e6d7a7f70",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1405",
+      "reference": "Sahih al-Bukhari, hadith 1405, book 24, باب مَا أُدِّيَ زَكَاتُهُ فَلَيْسَ بِكَنْزٍ",
+      "title": "باب مَا أُدِّيَ زَكَاتُهُ فَلَيْسَ بِكَنْزٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ يَزِيدَ، أَخْبَرَنَا شُعَيْبُ بْنُ إِسْحَاقَ، قَالَ الأَوْزَاعِيُّ أَخْبَرَنِي يَحْيَى بْنُ أَبِي كَثِيرٍ، أَنَّ عَمْرَو بْنَ يَحْيَى بْنِ عُمَارَةَ، أَخْبَرَهُ عَنْ أَبِيهِ، يَحْيَى بْنِ عُمَارَةَ بْنِ أَبِي الْحَسَنِ أَنَّهُ سَمِعَ أَبَا سَعِيدٍ ـ رضى الله عنه ـ يَقُولُ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لَيْسَ فِيمَا دُونَ خَمْسِ أَوَاقٍ صَدَقَةٌ، وَلَيْسَ فِيمَا دُونَ خَمْسِ ذَوْدٍ صَدَقَةٌ، وَلَيْسَ فِيمَا دُونَ خَمْسِ أَوْسُقٍ صَدَقَةٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "9c9685736e6fc76ba2d0fa5385e94044bc5d764bb2558d0e328f0f3e6b307956",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Yazid nous a rapporté : Shu‘ayb ibn Ishaq nous a informés : Al-Awza‘i a dit : Yahya ibn Abi Kathir m’a informé, d’après Amr ibn Yahya ibn Umara, qui le tenait de son père Yahya ibn Umara ibn Abi al-Hasan. Celui-ci avait entendu Abu Sa‘id, qu’Allah l’agrée, dire que le Prophète ﷺ a dit : « Il n’y a pas d’aumône légale à acquitter pour moins de cinq awaq d’argent, ni pour moins de cinq chameaux, ni pour moins de cinq awsuq [de récolte]. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "287e2f30-7e48-4d63-b835-fc0712209b89",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1406",
+      "reference": "Sahih al-Bukhari, hadith 1406, book 24, باب مَا أُدِّيَ زَكَاتُهُ فَلَيْسَ بِكَنْزٍ",
+      "title": "باب مَا أُدِّيَ زَكَاتُهُ فَلَيْسَ بِكَنْزٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيٌّ، سَمِعَ هُشَيْمًا، أَخْبَرَنَا حُصَيْنٌ، عَنْ زَيْدِ بْنِ وَهْبٍ، قَالَ مَرَرْتُ بِالرَّبَذَةِ فَإِذَا أَنَا بِأَبِي، ذَرٍّ ـ رضى الله عنه ـ فَقُلْتُ لَهُ مَا أَنْزَلَكَ مَنْزِلَكَ هَذَا قَالَ كُنْتُ بِالشَّأْمِ، فَاخْتَلَفْتُ أَنَا وَمُعَاوِيَةُ فِي الَّذِينَ يَكْنِزُونَ الذَّهَبَ وَالْفِضَّةَ وَلاَ يُنْفِقُونَهَا فِي سَبِيلِ اللَّهِ‏.‏ قَالَ مُعَاوِيَةُ نَزَلَتْ فِي أَهْلِ الْكِتَابِ‏.‏ فَقُلْتُ نَزَلَتْ فِينَا وَفِيهِمْ‏.‏ فَكَانَ بَيْنِي وَبَيْنَهُ فِي ذَاكَ، وَكَتَبَ إِلَى عُثْمَانَ ـ رضى الله عنه ـ يَشْكُونِي، فَكَتَبَ إِلَىَّ عُثْمَانُ أَنِ اقْدَمِ الْمَدِينَةَ‏.‏ فَقَدِمْتُهَا فَكَثُرَ عَلَىَّ النَّاسُ حَتَّى كَأَنَّهُمْ لَمْ يَرَوْنِي قَبْلَ ذَلِكَ، فَذَكَرْتُ ذَاكَ لِعُثْمَانَ فَقَالَ لِي إِنْ شِئْتَ تَنَحَّيْتَ فَكُنْتَ قَرِيبًا‏.‏ فَذَاكَ الَّذِي أَنْزَلَنِي هَذَا الْمَنْزِلَ، وَلَوْ أَمَّرُوا عَلَىَّ حَبَشِيًّا لَسَمِعْتُ وَأَطَعْتُ‏.‏",
+      "source_hash_sha256": "43aba36d7f88974f2f811987920178885cb5d9c0609846b976658adab0e49aa6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3eab5107-20ca-4882-a1ee-1517abae5e08",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1407",
+      "reference": "Sahih al-Bukhari, hadith 1407, 1408, book 24, باب مَا أُدِّيَ زَكَاتُهُ فَلَيْسَ بِكَنْزٍ",
+      "title": "باب مَا أُدِّيَ زَكَاتُهُ فَلَيْسَ بِكَنْزٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَيَّاشٌ، حَدَّثَنَا عَبْدُ الأَعْلَى، حَدَّثَنَا الْجُرَيْرِيُّ، عَنْ أَبِي الْعَلاَءِ، عَنِ الأَحْنَفِ بْنِ قَيْسٍ، قَالَ جَلَسْتُ‏.‏ وَحَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا عَبْدُ الصَّمَدِ، قَالَ حَدَّثَنِي أَبِي، حَدَّثَنَا الْجُرَيْرِيُّ، حَدَّثَنَا أَبُو الْعَلاَءِ بْنُ الشِّخِّيرِ، أَنَّ الأَحْنَفَ بْنَ قَيْسٍ، حَدَّثَهُمْ قَالَ جَلَسْتُ إِلَى مَلإٍ مِنْ قُرَيْشٍ، فَجَاءَ رَجُلٌ خَشِنُ الشَّعَرِ وَالثِّيَابِ وَالْهَيْئَةِ حَتَّى قَامَ عَلَيْهِمْ فَسَلَّمَ ثُمَّ قَالَ بَشِّرِ الْكَانِزِينَ بِرَضْفٍ يُحْمَى عَلَيْهِ فِي نَارِ جَهَنَّمَ، ثُمَّ يُوضَعُ عَلَى حَلَمَةِ ثَدْىِ أَحَدِهِمْ حَتَّى يَخْرُجَ مِنْ نُغْضِ كَتِفِهِ، وَيُوضَعُ عَلَى نُغْضِ كَتِفِهِ حَتَّى يَخْرُجَ مِنْ حَلَمَةِ ثَدْيِهِ يَتَزَلْزَلُ، ثُمَّ وَلَّى فَجَلَسَ إِلَى سَارِيَةٍ، وَتَبِعْتُهُ وَجَلَسْتُ إِلَيْهِ، وَأَنَا لاَ أَدْرِي مَنْ هُوَ فَقُلْتُ لَهُ لاَ أُرَى الْقَوْمَ إِلاَّ قَدْ كَرِهُوا الَّذِي قُلْتَ‏.‏ قَالَ إِنَّهُمْ لاَ يَعْقِلُونَ شَيْئًا‏.‏ قَالَ لِي خَلِيلِي ـ قَالَ قُلْتُ مَنْ خَلِيلُكَ قَالَ النَّبِيُّ صلى الله عليه وسلم ـ ‏\"‏ يَا أَبَا ذَرٍّ أَتُبْصِرُ أُحُدًا ‏\"‏‏.‏ قَالَ فَنَظَرْتُ إِلَى الشَّمْسِ مَا بَقِيَ مِنَ النَّهَارِ وَأَنَا أُرَى أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم يُرْسِلُنِي فِي حَاجَةٍ لَهُ، قُلْتُ نَعَمْ‏.‏ قَالَ ‏\"‏ مَا أُحِبُّ أَنَّ لِي مِثْلَ أُحُدٍ ذَهَبًا أُنْفِقُهُ كُلَّهُ إِلاَّ ثَلاَثَةَ دَنَانِيرَ ‏\"‏‏.‏ وَإِنَّ هَؤُلاَءِ لاَ يَعْقِلُونَ، إِنَّمَا يَجْمَعُونَ الدُّنْيَا‏.‏ لاَ وَاللَّهِ لاَ أَسْأَلُهُمْ دُنْيَا، وَلاَ أَسْتَفْتِيهِمْ عَنْ دِينٍ حَتَّى أَلْقَى اللَّهَ‏.‏",
+      "source_hash_sha256": "fa8fdfde7f94a5524d82842c9c677c11bc5a356b4b14f226da988e9c44ee59ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ayyash nous a rapporté : Abd al-A‘la nous a rapporté : al-Jurayri nous a rapporté, d’après Abu al-A‘la, d’après al-Ahnaf ibn Qays, qui dit : « J’étais assis parmi un groupe de notables de Quraysh lorsqu’un homme aux cheveux, aux vêtements et à l’allure rudes s’approcha d’eux, les salua et dit : “Annoncez aux thésauriseurs une pierre chauffée au feu de la Géhenne, qui sera posée sur le mamelon de l’un d’eux jusqu’à ressortir par l’os de son épaule, puis sur l’os de son épaule jusqu’à ressortir par son mamelon, en roulant.” Il s’éloigna ensuite et s’assit près d’une colonne. Je le suivis et m’assis auprès de lui, sans savoir qui il était. Je lui dis : “Je crois que les gens ont désapprouvé ce que tu as dit.” Il répondit : “Ils ne comprennent rien.” Il me dit : “Mon compagnon…” Je lui demandai : “Qui est ton compagnon ?” Il répondit : “Le Prophète ﷺ m’a dit : ‘Ô Abu Dharr, vois-tu Uhud ?’” Je regardai le soleil et le temps qu’il restait dans la journée, pensant que le Messager d’Allah ﷺ allait m’envoyer accomplir une tâche. Je répondis : “Oui.” Il dit : “Je ne souhaiterais pas posséder l’équivalent du mont Uhud en or et le dépenser entièrement, à l’exception de trois dinars.” Ces gens ne comprennent rien ; ils ne font qu’amasser les biens de ce monde. Par Allah, je ne leur demanderai rien de ce monde et ne leur demanderai aucun avis religieux jusqu’à ce que je rencontre Allah. » Ishaq ibn Mansur nous a rapporté, d’après Abd al-Samad, qui dit : mon père m’a rapporté : al-Jurayri nous a rapporté cette même transmission d’après Abu al-A‘la ibn al-Shikhkhir, qui rapporte qu’al-Ahnaf ibn Qays leur a dit : « Je me suis assis auprès d’un groupe de notables de Quraysh… »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "443ed0f0-c6e5-401f-b011-4f0005db7211",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1409",
+      "reference": "Sahih al-Bukhari, hadith 1409, book 24, باب إِنْفَاقِ الْمَالِ فِي حَقِّهِ",
+      "title": "باب إِنْفَاقِ الْمَالِ فِي حَقِّهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى، عَنْ إِسْمَاعِيلَ، قَالَ حَدَّثَنِي قَيْسٌ، عَنِ ابْنِ مَسْعُودٍ ـ رضى الله عنه ـ قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ حَسَدَ إِلاَّ فِي اثْنَتَيْنِ رَجُلٌ آتَاهُ اللَّهُ مَالاً فَسَلَّطَهُ عَلَى هَلَكَتِهِ فِي الْحَقِّ، وَرَجُلٌ آتَاهُ اللَّهُ حِكْمَةً فَهْوَ يَقْضِي بِهَا وَيُعَلِّمُهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "b08a4e38c4b3c326de6449653a238eff9ef2de01cc19ca487ed53cde91d1bd1c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Yahya nous a rapporté, d’après Isma‘il, qui dit : Qays m’a rapporté, d’après Ibn Mas‘ud, qu’Allah l’agrée : J’ai entendu le Prophète ﷺ dire : « Il n’y a d’envie légitime que dans deux cas : un homme auquel Allah a accordé des biens et qu’Il met en mesure de les dépenser justement, et un homme auquel Allah a accordé la sagesse, qui juge selon celle-ci et l’enseigne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4224fa0b-756f-49b2-88e1-163c95bd37de",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1410",
+      "reference": "Sahih al-Bukhari, hadith 1410, book 24, باب الصَّدَقَةِ مِنْ كَسْبٍ طَيِّبٍ",
+      "title": "باب الصَّدَقَةِ مِنْ كَسْبٍ طَيِّبٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُنِيرٍ، سَمِعَ أَبَا النَّضْرِ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ ـ هُوَ ابْنُ عَبْدِ اللَّهِ بْنِ دِينَارٍ ـ عَنْ أَبِيهِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ تَصَدَّقَ بِعَدْلِ تَمْرَةٍ مِنْ كَسْبٍ طَيِّبٍ ـ وَلاَ يَقْبَلُ اللَّهُ إِلاَّ الطَّيِّبَ ـ وَإِنَّ اللَّهَ يَتَقَبَّلُهَا بِيَمِينِهِ، ثُمَّ يُرَبِّيهَا لِصَاحِبِهِ كَمَا يُرَبِّي أَحَدُكُمْ فَلُوَّهُ حَتَّى تَكُونَ مِثْلَ الْجَبَلِ ‏\"‏‏.‏ تَابَعَهُ سُلَيْمَانُ عَنِ ابْنِ دِينَارٍ‏.‏ وَقَالَ وَرْقَاءُ عَنِ ابْنِ دِينَارٍ، عَنْ سَعِيدِ بْنِ يَسَارٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏ وَرَوَاهُ مُسْلِمُ بْنُ أَبِي مَرْيَمَ وَزَيْدُ بْنُ أَسْلَمَ وَسُهَيْلٌ عَنْ أَبِي صَالِحٍ عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "53f0c5da4d8a880564e48a58dbb3fe79d63595d1d4e5a3a45d98b499a09fafdf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Munir nous a rapporté : il a entendu Abu al-Nadr : Abd al-Rahman — c’est-à-dire Ibn Abd Allah ibn Dinar — nous a rapporté, d’après son père, d’après Abu Salih, d’après Abu Hurayra, qu’Allah l’agrée, que le Messager d’Allah ﷺ a dit : « Celui qui donne en aumône l’équivalent d’une datte provenant d’un gain licite — car Allah n’accepte que ce qui est bon —, Allah l’accueille de Sa main droite, puis la fait croître pour son donateur, comme l’un de vous élève son jeune poulain, jusqu’à ce qu’elle devienne aussi grande qu’une montagne. » Sulayman rapporte également ce récit d’après Ibn Dinar. Warqa rapporte d’après Ibn Dinar, d’après Sa‘id ibn Yasar, d’après Abu Hurayra, d’après le Prophète ﷺ. Muslim ibn Abi Maryam, Zayd ibn Aslam et Suhayl le rapportent aussi d’après Abu Salih, d’après Abu Hurayra, d’après le Prophète ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "932c405a-df55-46a1-9f72-290530ba397c",
+      "reason": "This report directly quotes Quran 9:34. Keep it blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "287e2f30-7e48-4d63-b835-fc0712209b89",
+      "reason": "This report repeats wording from Quran 9:34 without an explicit source marker. Keep it blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
