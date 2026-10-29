@@ -8036,3 +8036,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0182 saves four private French drafts about the closing salutation and arranging the prayer rows. Muslim 430b and 432b contain only cross-references to earlier reports, so both remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 742 Muslim drafts, 7,078 total hadith drafts, 7,551 remaining, and 357 Needs Mo items.
+
+### 2026-10-29: Muslim 433–436c
+
+- FR-LIB-HAD-MUSLIM-0183 saves five private French drafts about completing and straightening prayer rows. Muslim 436c gives only transmission chains and a cross-reference to the previous report, so it remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 747 Muslim drafts, 7,083 total hadith drafts, 7,546 remaining, and 358 Needs Mo items.
