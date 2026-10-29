@@ -4061,3 +4061,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-830` saves one private French draft of the report about seeing the Lord on the Day of Resurrection. No direct Quran quotation occurs in the Arabic text. No database writes or publication occurred.
 - The record passed the focused validator. Bukhari local drafts: 3,971 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 396. Total local hadith rows not drafted: 10,686, including held records.
+
+
+### 2026-10-29: Bukhari 4582–4587
+
+- `FR-LIB-HAD-BUKHARI-831` saves two private French drafts. Hadith 4582 and 4584–4586 remain blank because they directly quote Quranic wording; all four holds are recorded for Mo.
+- All six records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,972 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 400. Total local hadith rows not drafted: 10,685, including held records.
