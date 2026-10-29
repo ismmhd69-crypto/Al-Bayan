@@ -34,7 +34,7 @@
     "dictionaryIntegrated": false,
     "hardcodedVisitorCopyAudit": "incomplete",
     "privatePreview": "app/dev/french-preview/page.tsx; development-only and loopback-host guarded; Ask submission disabled",
-    "privatePreviewLiveVerified": false,
+    "privatePreviewLiveVerified": true,
     "activeLocalesChanged": false,
     "askStatusStringsTotal": 93,
     "askStatusStringsDrafted": 93,
@@ -52,7 +52,8 @@
     "preparedAnswersTotal": 44,
     "preparedAnswersDrafted": 44,
     "preparedAnswersRemaining": 0,
-    "preparedAnswersDraftFiles": "data/french-batches/prepared-answers-*.json"
+    "preparedAnswersDraftFiles": "data/french-batches/prepared-answers-*.json",
+    "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only"
   },
   "batches": [
     {
