@@ -3176,3 +3176,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-652` saves five private French drafts about ‘Umar. Bukhari 3689 remains blank because the local source appends an incomplete phrase with unclear meaning and attribution.
 - All six records passed the focused validator, including the source-wording hold. No database writes or publication occurred. Bukhari local drafts: 3,287 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 242. Total local hadith rows not drafted: 11,370, including held records.
+
+### 2026-10-29: Bukhari 3693–3698
+
+- `FR-LIB-HAD-BUKHARI-653` saves six private French drafts about Abû Bakr, ‘Umar and ‘Uthmân.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,293 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 242. Total local hadith rows not drafted: 11,364, including held records.
