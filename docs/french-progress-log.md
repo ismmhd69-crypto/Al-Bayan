@@ -7397,3 +7397,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0058 saves 6 private French drafts on honest public service and the declining observance of trust. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 269 of 7,366. Hadith Needs Mo: 192. Total local hadith rows not drafted: 8,024, including held records.
+
+### 2026-10-29: Muslim 143b–144e
+
+- FR-LIB-HAD-MUSLIM-0059 saves 6 private French drafts on trials, moral responsibility, and the loss of trust. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 275 of 7,366. Hadith Needs Mo: 192. Total local hadith rows not drafted: 8,018, including held records.
