@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0300",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:08:57.338Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e20e611d-4adc-43fe-85ae-9e19a9ea2f00",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:705h",
+      "reference": "Sahih Muslim, hadith 705 h, book 6, باب الْجَمْعِ بَيْنَ الصَّلاَتَيْنِ فِي الْحَضَرِ ‏",
+      "title": "باب الْجَمْعِ بَيْنَ الصَّلاَتَيْنِ فِي الْحَضَرِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا عِمْرَانُ بْنُ حُدَيْرٍ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ الْعُقَيْلِيِّ، قَالَ قَالَ رَجُلٌ لاِبْنِ عَبَّاسٍ الصَّلاَةَ فَسَكَتَ ‏.‏ ثُمَّ قَالَ الصَّلاَةَ ‏.‏ فَسَكَتَ ثُمَّ قَالَ الصَّلاَةَ فَسَكَتَ ‏.‏ ثُمَّ قَالَ لاَ أُمَّ لَكَ أَتُعَلِّمُنَا بِالصَّلاَةِ وَكُنَّا نَجْمَعُ بَيْنَ الصَّلاَتَيْنِ عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "2cf714c29c4f88fe5f66edabaeea08d385e417c8c70dee810b012d8e8a1d3677",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abi ‘Umar nous a rapporté : Waki‘ nous a rapporté : ‘Imran ibn Hudayr nous a rapporté, d’après ‘Abd Allah ibn Shaqiq al-‘Uqayli. Il dit : « Un homme dit à Ibn ‘Abbas : “La prière !” Il garda le silence. L’homme répéta : “La prière !” Il garda le silence, puis l’homme le répéta une troisième fois. Ibn ‘Abbas dit alors : “Tu prétends nous enseigner la prière ? Nous regroupions deux prières à l’époque du Messager d’Allah ﷺ.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "12a0511c-cd30-418d-8c97-c0e5674dd2f3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:706a",
+      "reference": "Sahih Muslim, hadith 706 a, book 6, باب الْجَمْعِ بَيْنَ الصَّلاَتَيْنِ فِي الْحَضَرِ ‏",
+      "title": "باب الْجَمْعِ بَيْنَ الصَّلاَتَيْنِ فِي الْحَضَرِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدِ اللَّهِ بْنِ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا أَبُو الزُّبَيْرِ، عَنْ أَبِي الطُّفَيْلِ، عَامِرٍ عَنْ مُعَاذٍ، قَالَ خَرَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي غَزْوَةِ تَبُوكَ فَكَانَ يُصَلِّي الظُّهْرَ وَالْعَصْرَ جَمِيعًا وَالْمَغْرِبَ وَالْعِشَاءَ جَمِيعًا ‏.‏",
+      "source_hash_sha256": "dd8795f7d67ad7a0b31bf9c50ef7399ffce53ae0c805a2902151f5f8c9a7acaf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn ‘Abd Allah ibn Yunus nous a rapporté : Zuhayr nous a rapporté : Abu al-Zubayr nous a rapporté, d’après Abu al-Tufayl ‘Amir, d’après Mu‘adh. Il dit : « Nous partîmes avec le Messager d’Allah ﷺ pour l’expédition de Tabuk. Il regroupait les prières de midi et de l’après-midi, ainsi que celles du maghrib et du soir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "35701eaa-92b8-41ab-9061-74508584da33",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:706b",
+      "reference": "Sahih Muslim, hadith 706 b, book 6, باب الْجَمْعِ بَيْنَ الصَّلاَتَيْنِ فِي الْحَضَرِ ‏",
+      "title": "باب الْجَمْعِ بَيْنَ الصَّلاَتَيْنِ فِي الْحَضَرِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا خَالِدٌ، - يَعْنِي ابْنَ الْحَارِثِ - حَدَّثَنَا قُرَّةُ بْنُ خَالِدٍ، حَدَّثَنَا أَبُو الزُّبَيْرِ، حَدَّثَنَا عَامِرُ بْنُ وَاثِلَةَ أَبُو الطُّفَيْلِ، حَدَّثَنَا مُعَاذُ بْنُ جَبَلٍ، قَالَ جَمَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي غَزْوَةِ تَبُوكَ بَيْنَ الظُّهْرِ وَالْعَصْرِ وَبَيْنَ الْمَغْرِبِ وَالْعِشَاءِ ‏.‏ قَالَ فَقُلْتُ مَا حَمَلَهُ عَلَى ذَلِكَ قَالَ فَقَالَ أَرَادَ أَنْ لاَ يُحْرِجَ أُمَّتَهُ ‏.‏",
+      "source_hash_sha256": "8ab0c5c8b47cbf863f4b643f91073e0b0fcea2b922df2373ab396fd4ad7d511f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Habib nous a rapporté : Khalid — c’est-à-dire Ibn al-Harith — nous a rapporté : Qurra ibn Khalid nous a rapporté : Abu al-Zubayr nous a rapporté : Abu al-Tufayl ‘Amir ibn Wathila nous a rapporté : Mu‘adh ibn Jabal nous a rapporté. Il dit : « Lors de l’expédition de Tabuk, le Messager d’Allah ﷺ regroupa les prières de midi et de l’après-midi, puis celles du maghrib et du soir. Je demandai : “Qu’est-ce qui l’a amené à faire cela ?” Il répondit : “Il voulait éviter de mettre sa communauté en difficulté.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "94dc5a26-48d6-4906-9876-e06c42636139",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:706c",
+      "reference": "Sahih Muslim, hadith 706 c, book 43, باب فِي مُعْجِزَاتِ النَّبِيِّ صلى الله عليه وسلم ‏‏",
+      "title": "باب فِي مُعْجِزَاتِ النَّبِيِّ صلى الله عليه وسلم ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، حَدَّثَنَا أَبُو عَلِيٍّ الْحَنَفِيُّ، حَدَّثَنَا مَالِكٌ، - وَهُوَ ابْنُ أَنَسٍ - عَنْ أَبِي الزُّبَيْرِ الْمَكِّيِّ، أَنَّ أَبَا الطُّفَيْلِ، عَامِرَ بْنَ وَاثِلَةَ أَخْبَرَهُ أَنَّ مُعَاذَ بْنَ جَبَلٍ أَخْبَرَهُ قَالَ خَرَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم عَامَ غَزْوَةِ تَبُوكَ فَكَانَ يَجْمَعُ الصَّلاَةَ فَصَلَّى الظُّهْرَ وَالْعَصْرَ جَمِيعًا وَالْمَغْرِبَ وَالْعِشَاءَ جَمِيعًا حَتَّى إِذَا كَانَ يَوْمًا أَخَّرَ الصَّلاَةَ ثُمَّ خَرَجَ فَصَلَّى الظُّهْرَ وَالْعَصْرَ جَمِيعًا ثُمَّ دَخَلَ ثُمَّ خَرَجَ بَعْدَ ذَلِكَ فَصَلَّى الْمَغْرِبَ وَالْعِشَاءَ جَمِيعًا ثُمَّ قَالَ ‏\"‏ إِنَّكُمْ سَتَأْتُونَ غَدًا إِنْ شَاءَ اللَّهُ عَيْنَ تَبُوكَ وَإِنَّكُمْ لَنْ تَأْتُوهَا حَتَّى يُضْحِيَ النَّهَارُ فَمَنْ جَاءَهَا مِنْكُمْ فَلاَ يَمَسَّ مِنْ مَائِهَا شَيْئًا حَتَّى آتِيَ ‏\"‏ ‏.‏ فَجِئْنَاهَا وَقَدْ سَبَقَنَا إِلَيْهَا رَجُلاَنِ وَالْعَيْنُ مِثْلُ الشِّرَاكِ تَبِضُّ بِشَىْءٍ مِنْ مَاءٍ - قَالَ - فَسَأَلَهُمَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ هَلْ مَسَسْتُمَا مِنْ مَائِهَا شَيْئًا ‏\"‏ ‏.‏ قَالاَ نَعَمْ ‏.‏ فَسَبَّهُمَا النَّبِيُّ صلى الله عليه وسلم وَقَالَ لَهُمَا مَا شَاءَ اللَّهُ أَنْ يَقُولَ - قَالَ - ثُمَّ غَرَفُوا بِأَيْدِيهِمْ مِنَ الْعَيْنِ قَلِيلاً قَلِيلاً حَتَّى اجْتَمَعَ فِي شَىْءٍ - قَالَ - وَغَسَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِيهِ يَدَيْهِ وَوَجْهَهُ ثُمَّ أَعَادَهُ فِيهَا فَجَرَتِ الْعَيْنُ بِمَاءٍ مُنْهَمِرٍ أَوْ قَالَ غَزِيرٍ - شَكَّ أَبُو عَلِيٍّ أَيُّهُمَا قَالَ - حَتَّى اسْتَقَى النَّاسُ ثُمَّ قَالَ ‏\"‏ يُوشِكُ يَا مُعَاذُ إِنْ طَالَتْ بِكَ حَيَاةٌ أَنْ تَرَى مَا هَا هُنَا قَدْ مُلِئَ جِنَانًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f869f868bcd50c221dadd768b0b7d782fde61d252802f916a3d6ed6c6371d29c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn ‘Abd al-Rahman al-Darimi nous a rapporté : Abu ‘Ali al-Hanafi nous a rapporté : Malik — c’est-à-dire Ibn Anas — nous a rapporté, d’après Abu al-Zubayr al-Makki, qu’Abu al-Tufayl ‘Amir ibn Wathila lui avait rapporté que Mu‘adh ibn Jabal lui avait dit : « Nous partîmes avec le Messager d’Allah ﷺ l’année de l’expédition de Tabuk. Il regroupait les prières : il accomplissait ensemble celles de midi et de l’après-midi, puis celles du maghrib et du soir. Un jour, il retarda la prière, puis sortit et accomplit ensemble celles de midi et de l’après-midi. Il rentra, puis ressortit ensuite et accomplit ensemble celles du maghrib et du soir. Il dit alors : “Demain, si Allah le veut, vous arriverez à la source de Tabuk. Vous n’y arriverez qu’en plein jour. Que celui d’entre vous qui y parvient ne touche pas à son eau avant que j’arrive.” Lorsque nous y arrivâmes, deux hommes nous avaient devancés. La source, large comme une lanière, laissait couler un peu d’eau. Le Messager d’Allah ﷺ leur demanda : “Avez-vous touché à son eau ?” Ils répondirent : “Oui.” Le Prophète ﷺ les réprimanda et leur dit ce qu’Allah voulut qu’il leur dise. Puis les gens puisèrent peu à peu l’eau avec leurs mains jusqu’à en recueillir un peu. Le Messager d’Allah ﷺ s’en lava les mains et le visage, puis reversa cette eau dans la source. Celle-ci se mit à couler abondamment — Abu ‘Ali doutait entre ces deux termes — jusqu’à ce que les gens puissent puiser. Il dit ensuite : “Mu‘adh, si ta vie se prolonge, tu verras cet endroit rempli de jardins.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dbfb64d6-9bcf-46bc-a2e7-79cddf494c94",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:707a",
+      "reference": "Sahih Muslim, hadith 707 a, book 6, باب جَوَاز الاِنْصِرَافِ مِنَ الصَّلاَةِ عَنِ الْيَمِينِ، وَالشِّمَالِ‏",
+      "title": "باب جَوَاز الاِنْصِرَافِ مِنَ الصَّلاَةِ عَنِ الْيَمِينِ، وَالشِّمَالِ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، وَوَكِيعٌ، عَنِ الأَعْمَشِ، عَنْ عُمَارَةَ، عَنِ الأَسْوَدِ، عَنْ عَبْدِ اللَّهِ، قَالَ لاَ يَجْعَلَنَّ أَحَدُكُمْ لِلشَّيْطَانِ مِنْ نَفْسِهِ جُزْءًا لاَ يَرَى إِلاَّ أَنَّ حَقًّا عَلَيْهِ أَنْ لاَ يَنْصَرِفَ إِلاَّ عَنْ يَمِينِهِ أَكْثَرُ مَا رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَنْصَرِفُ عَنْ شِمَالِهِ ‏.‏",
+      "source_hash_sha256": "f05d936fe0dfe6d037049e376d4e3485136c132c3e7b168bec814325c0cbf9d9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Abu Mu‘awiya et Waki‘ nous ont rapporté, d’après al-A‘mash, d’après ‘Umara, d’après al-Aswad, d’après ‘Abd Allah. Il dit : « Que personne ne laisse Satan prendre sa part de lui, en pensant qu’il lui est obligatoire de ne se tourner qu’à droite après la prière. J’ai le plus souvent vu le Messager d’Allah ﷺ se tourner vers la gauche. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a30b10c5-8c55-4ca2-9ef6-8728c17f7d47",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:707b",
+      "reference": "Sahih Muslim, hadith 707 b, book 6, باب جَوَاز الاِنْصِرَافِ مِنَ الصَّلاَةِ عَنِ الْيَمِينِ، وَالشِّمَالِ‏",
+      "title": "باب جَوَاز الاِنْصِرَافِ مِنَ الصَّلاَةِ عَنِ الْيَمِينِ، وَالشِّمَالِ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا جَرِيرٌ، وَعِيسَى بْنُ يُونُسَ، ح وَحَدَّثَنَاهُ عَلِيُّ بْنُ خَشْرَمٍ، أَخْبَرَنَا عِيسَى، جَمِيعًا عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "19768d40d3945ed1a9fd8f0b40ce4dcd400df4f0d4912b63de51724af4adb98f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a30b10c5-8c55-4ca2-9ef6-8728c17f7d47",
+      "reason": "La source arabe ne rapporte que la chaîne de transmission et renvoie au récit précédent (« avec la même formulation »), sans en reproduire le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    }
+  ]
+}

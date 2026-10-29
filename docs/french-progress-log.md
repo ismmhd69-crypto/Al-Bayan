@@ -8626,3 +8626,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0299 saves six private French drafts about combining prayers in Medina and on journeys, including the stated aim of avoiding hardship.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,190 Muslim drafts, 7,526 total hadith drafts, 7,103 remaining, and 563 Needs Mo items.
+
+### 2026-10-29: Muslim 705h–707b
+
+- FR-LIB-HAD-MUSLIM-0300 saves five private French drafts about combining prayers during the Tabuk expedition and turning after prayer. Muslim 707b is an incomplete cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,195 Muslim drafts, 7,531 total hadith drafts, 7,098 remaining, and 564 Needs Mo items.
