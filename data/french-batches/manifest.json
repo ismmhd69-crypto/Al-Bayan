@@ -56,14 +56,14 @@
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
     "hardcodedVisitorCopyDrafted": 24,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 288,
+    "hadithBukhariDrafted": 294,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 288,
+    "hadithLocalDrafted": 294,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 14341,
+    "hadithLocalRemaining": 14335,
     "hadithNeedsMo": 14,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -1503,7 +1503,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local AI drafts"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-055",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-055.json",
+      "sourceIds": ["00c402bb-b637-4ae8-bbf9-208b33ad5330", "09d51584-4948-4198-8045-50c41af81f96", "d9d849b3-2e3e-4d14-a41e-90135bcd15ca", "6e34384f-8324-4a26-85c3-bd55ac2c2240", "e5fee632-abc3-4a34-946f-0640324fcade", "faa8a028-59b4-4c00-98ef-7c35455176d9"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hashes, IDs, URLs, references, rights, private status, and all six complete translations passed; separate menstrual and continuous bleeding terms preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local AI drafts"
     }
+
 
 
 
