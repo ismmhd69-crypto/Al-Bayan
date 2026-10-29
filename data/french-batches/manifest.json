@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:53:21.909Z",
+  "lastReconciled": "2026-10-29T14:53:50.438Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6897,
     "hadithDatabaseMissing": 7732,
     "hadithLocalRemaining": 7732,
-    "hadithNeedsMo": 275,
+    "hadithNeedsMo": 276,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31832,6 +31832,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0136",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0136.json",
+      "sourceIds": [
+        "2c67752b-8bab-4e3e-86e2-923afbc3e309"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "single-item long-source batch validated; Muslim 315a held blank because it directly quotes Quran 14:48 pending an approved attributed French Quran translation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked: needs Mo"
     }
   ],
   "blockers": [
@@ -37760,5 +37776,5 @@
   "hadithMuslimDrafted": 561,
   "hadithDatabaseMissing": 7732,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 275
+  "hadithNeedsMo": 276
 }
