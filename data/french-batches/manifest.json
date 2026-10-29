@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 115,
+    "hadithNeedsMo": 116,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -15907,6 +15907,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-736",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-736.json",
+      "sourceIds": ["eb792c58-6ef1-4c2b-b887-f8e54e4d5784", "96622a4f-deaa-4135-ac28-d16a5a922cae", "7bc99146-6366-45e9-a27a-8e9bad531768", "3acb5cf4-9f98-4cdb-a1b8-872fdd8909f3", "1b5336ee-c9ca-4dca-96d2-502974caf7b0", "7b782370-14a3-4860-a60a-8e899bbd742a"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
+    }
   ],
   "blockers": [
     {
@@ -16215,8 +16230,15 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:128. It remains blank in FR-LIB-HAD-BUKHARI-734 until an approved, attributed French Quran translation is confirmed."
     }
+,
+    {
+      "id": "HADITH-BUKHARI-4077-QURAN-3-172",
+      "scope": "Sahih al-Bukhari 4077: direct quotation of Quran 3:172",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:172. It remains blank in FR-LIB-HAD-BUKHARI-736 until an approved, attributed French Quran translation is confirmed."
+    }
   ],
-  "hadithBukhariDrafted": 3553,
-  "hadithLocalDrafted": 3553,
-  "hadithLocalRemaining": 11104
+  "hadithBukhariDrafted": 3558,
+  "hadithLocalDrafted": 3558,
+  "hadithLocalRemaining": 11099
 }
