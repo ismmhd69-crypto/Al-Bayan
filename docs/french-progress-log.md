@@ -11690,3 +11690,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1980f-1984
 
 - FR-LIB-HAD-MUSLIM-0932 saves six private French drafts about the date-based drinks that were in use when intoxicants were prohibited, and related rulings on vinegar and medicinal use. The differing companions and reports are preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1985a-1986c
+
+- FR-LIB-HAD-MUSLIM-0933 saves six private French drafts about fruit sources for intoxicating drinks and the prohibition against mixing particular fruits to ferment them. The versions’ wording differences are preserved. No Quran verse is quoted. No database write or publication occurred.
