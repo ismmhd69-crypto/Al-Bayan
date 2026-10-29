@@ -17310,6 +17310,26 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-798",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-798.json",
+      "sourceIds": [
+        "bb36008c-5b3e-4286-8a01-c9337f23e859",
+        "59ba1acf-ccd1-4689-8b84-5b5d67801595",
+        "f65f4fbb-72ea-48d8-9958-9f609dc0b5f3",
+        "b3fcf38b-b8ce-4d5b-b50f-d5c68a94bafd",
+        "79caa2f3-5bc5-4b14-9981-e8db0eb0b725"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -17830,7 +17850,7 @@
       "reason": "The report directly quotes Quran 5:3. The complete record remains blank in FR-LIB-HAD-BUKHARI-797 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3885,
-  "hadithLocalDrafted": 3885,
-  "hadithLocalRemaining": 10772
+  "hadithBukhariDrafted": 3890,
+  "hadithLocalDrafted": 3890,
+  "hadithLocalRemaining": 10767
 }
