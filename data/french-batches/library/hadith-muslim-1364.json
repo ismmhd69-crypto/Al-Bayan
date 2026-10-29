@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1364",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:53:13.688Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "04d5fbf1-bff3-41d8-870a-e73de81534e8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1211a",
+      "reference": "Sahih Muslim, hadith 1211 ab, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ بْنُ يَحْيَى، وَأَحْمَدُ بْنُ عِيسَى، قَالَ أَحْمَدُ حَدَّثَنَا وَقَالَ، الآخَرَانِ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، بِهَذَا الإِسْنَادِ قَالَتْ طَمِثَتْ صَفِيَّةُ بِنْتُ حُيَىٍّ زَوْجُ النَّبِيِّ صلى الله عليه وسلم فِي حَجَّةِ الْوَدَاعِ بَعْدَ مَا أَفَاضَتْ طَاهِرًا بِمِثْلِ حَدِيثِ اللَّيْثِ ‏.‏",
+      "source_hash_sha256": "c0ad3a3b8925515803371e4868baea1f968a457f76d42b05b5c891904c742b78",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "45c9fef8-b348-4070-8450-40d7d98e71d1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1211a",
+      "reference": "Sahih Muslim, hadith 1211 af, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي الْحَكَمُ بْنُ مُوسَى، حَدَّثَنِي يَحْيَى بْنُ حَمْزَةَ، عَنِ الأَوْزَاعِيِّ، - لَعَلَّهُ قَالَ - عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ مُحَمَّدِ بْنِ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِي سَلَمَةَ، عَنْ عَائِشَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَرَادَ مِنْ صَفِيَّةَ بَعْضَ مَا يُرِيدُ الرَّجُلُ مِنْ أَهْلِهِ ‏.‏ فَقَالُوا إِنَّهَا حَائِضٌ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ وَإِنَّهَا لَحَابِسَتُنَا ‏\"‏ ‏.‏ فَقَالُوا يَا رَسُولَ اللَّهِ إِنَّهَا قَدْ زَارَتْ يَوْمَ النَّحْرِ ‏.‏ قَالَ ‏\"‏ فَلْتَنْفِرْ مَعَكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9ef15ddba54dfa53a8fb45dccc4b31d3b556adff949846679173fc9246abc7d8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte que le Messager d’Allah ﷺ souhaita avoir avec Safiyya l’intimité qu’un homme recherche auprès de son épouse. On lui dit : « Ô Messager d’Allah, elle a ses menstrues. » Il demanda : « Elle va donc nous retenir ? » On lui répondit : « Ô Messager d’Allah, elle a pourtant accompli la circumambulation le jour du Sacrifice. » Il dit : « Qu’elle parte donc avec vous. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "521270a6-b055-49ce-884b-43664e0cb403",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1211a",
+      "reference": "Sahih Muslim, hadith 1211 ae, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنْ أَبِيهِ، عَنْ عَمْرَةَ بِنْتِ عَبْدِ الرَّحْمَنِ، عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ لِرَسُولِ اللَّهِ صلى الله عليه وسلم يَا رَسُولَ اللَّهِ إِنَّ صَفِيَّةَ بِنْتَ حُيَىٍّ قَدْ حَاضَتْ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَعَلَّهَا تَحْبِسُنَا أَلَمْ تَكُنْ قَدْ طَافَتْ مَعَكُنَّ بِالْبَيْتِ ‏\"‏ ‏.‏ قَالُوا بَلَى ‏.‏ قَالَ ‏\"‏ فَاخْرُجْنَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "abb3f350939ac7ab0b1337688a7e86c06ccc298036c14171cfd840b5b6b5207f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha dit au Messager d’Allah ﷺ : « Ô Messager d’Allah, Safiyya bint Huyayy a ses menstrues. » Il répondit : « Va-t-elle nous retenir ? N’a-t-elle pas déjà accompli la circumambulation avec vous autour de la Maison ? » Elles répondirent : « Si. » Il dit : « Alors partez. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "83b80608-3e86-4b64-90b7-f39689dbd36a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1211a",
+      "reference": "Sahih Muslim, hadith 1211 aa, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، وَعُرْوَةَ، أَنَّ عَائِشَةَ، قَالَتْ حَاضَتْ صَفِيَّةُ بِنْتُ حُيَىٍّ بَعْدَ مَا أَفَاضَتْ - قَالَتْ عَائِشَةُ - فَذَكَرْتُ حِيضَتَهَا لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَحَابِسَتُنَا هِيَ ‏\"‏ ‏.‏ قَالَتْ فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّهَا قَدْ كَانَتْ أَفَاضَتْ وَطَافَتْ بِالْبَيْتِ ثُمَّ حَاضَتْ بَعْدَ الإِفَاضَةِ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ فَلْتَنْفِرْ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b14d96daf7216adccf8e0a74c9ce01a25d2d389de5f5c8e27508b92311b10259",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte que Safiyya bint Huyayy eut ses menstrues après avoir accompli la circumambulation finale. J’en informai le Messager d’Allah ﷺ. Il demanda : « Va-t-elle nous retenir ? » Je répondis : « Ô Messager d’Allah, elle a déjà accompli la circumambulation finale et celle de la Maison, puis ses menstrues ont commencé après. » Le Messager d’Allah ﷺ dit : « Qu’elle parte donc. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c0345bd7-9494-44fe-a25d-7c671923ea5c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1211a",
+      "reference": "Sahih Muslim, hadith 1211 ac, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ، - يَعْنِي ابْنَ سَعِيدٍ - حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا سُفْيَانُ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الْوَهَّابِ، حَدَّثَنَا أَيُّوبُ، كُلُّهُمْ عَنْ عَبْدِ الرَّحْمَنِ، بْنِ الْقَاسِمِ عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّهَا ذَكَرَتْ لِرَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّ صَفِيَّةَ قَدْ حَاضَتْ ‏.‏ بِمَعْنَى حَدِيثِ الزُّهْرِيِّ ‏.‏",
+      "source_hash_sha256": "a3788070364c93ff7e195f6d051caea8268d46d4d6376ebbf158dc2872c85a66",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cf520bb7-0212-4b4e-b5d7-8c3c46747d6f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1211a",
+      "reference": "Sahih Muslim, hadith 1211 ad, book 15, باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "title": "باب وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا أَفْلَحُ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، عَنْ عَائِشَةَ، قَالَتْ كُنَّا نَتَخَوَّفُ أَنْ تَحِيضَ، صَفِيَّةُ قَبْلَ أَنْ تُفِيضَ - قَالَتْ - فَجَاءَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ أَحَابِسَتُنَا صَفِيَّةُ ‏\"‏ ‏.‏ قُلْنَا قَدْ أَفَاضَتْ ‏.‏ قَالَ ‏\"‏ فَلاَ إِذًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "72d81e22ca09ddb3562d52acbee0bae47479275ff7bab6a8ffc41b37aaa6e31a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte : Nous craignions que Safiyya n’ait ses menstrues avant d’avoir accompli la circumambulation finale. Le Messager d’Allah ﷺ vint et demanda : « Safiyya va-t-elle nous retenir ? » Nous répondîmes : « Elle l’a déjà accomplie. » Il dit : « Alors il n’y a plus de raison d’attendre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "04d5fbf1-bff3-41d8-870a-e73de81534e8",
+      "status": "blocked",
+      "reason": "Cette entrée indique seulement que Safiyya eut ses menstrues après avoir accompli la circumambulation finale, puis renvoie à une autre version sans en reproduire le texte complet. Traduction en attente du texte intégral."
+    },
+    {
+      "source_id": "c0345bd7-9494-44fe-a25d-7c671923ea5c",
+      "status": "blocked",
+      "reason": "Cette entrée ne reproduit pas le récit complet et renvoie seulement à une version précédente. Traduction en attente du texte intégral."
+    }
+  ]
+}

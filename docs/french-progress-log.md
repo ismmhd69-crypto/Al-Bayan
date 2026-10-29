@@ -13748,3 +13748,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Two complete reports are translated into private French drafts.
 - Focused French hadith validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Two private local drafts saved.
 - Reconciled saved records: 6347 Bukhari and 5263 Muslim drafts (11610 total); 3009 held Needs Mo; 14629 sources represented; 0 not yet exported. Local records without French drafts: 3019. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 1211a variants, batch 1364
+
+- Six records about Safiyya’s departure after the pilgrimage are included. Four complete reports are translated. Two incomplete variants that refer to other reports remain blank under Needs Mo pending the complete wording.
+- Focused French hadith validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Four private local drafts saved.
+- Reconciled saved records: 6347 Bukhari and 5267 Muslim drafts (11614 total); 3011 held Needs Mo; 14629 sources represented; 0 not yet exported. Local records without French drafts: 3015. All 14,629 remain missing from the live French table.
