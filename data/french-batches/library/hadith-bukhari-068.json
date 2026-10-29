@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-BUKHARI-068",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T02:18:35.839Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "92ecf68a-cc0a-49e3-a0e3-acd3a2d0eedd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:368",
+      "reference": "Sahih al-Bukhari, hadith 368, book 8, باب مَا يَسْتُرُ مِنَ الْعَوْرَةِ",
+      "title": "باب مَا يَسْتُرُ مِنَ الْعَوْرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قَبِيصَةُ بْنُ عُقْبَةَ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ نَهَى النَّبِيُّ صلى الله عليه وسلم عَنْ بَيْعَتَيْنِ عَنِ اللِّمَاسِ وَالنِّبَاذِ، وَأَنْ يَشْتَمِلَ الصَّمَّاءَ، وَأَنْ يَحْتَبِيَ الرَّجُلُ فِي ثَوْبٍ وَاحِدٍ‏.‏",
+      "source_hash_sha256": "10d3091ab93a09e7432c9f5995d798f3bca9798d83edf8c4b6d934de6071aa68",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qabîṣa ibn ʿUqba nous a rapporté ; Sufyân nous a rapporté, d’après Abû al-Zinâd, d’après al-Aʿraj, d’après Abû Hurayra, qui a dit : Le Prophète (paix et bénédictions sur lui) a interdit deux types de ventes, la vente par simple toucher et la vente par jet, ainsi que de s’envelopper hermétiquement dans un seul vêtement et de s’asseoir en repliant les jambes contre soi sous un seul vêtement.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "77100e8d-6c7a-4270-b98c-95edfc0cb143",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:369",
+      "reference": "Sahih al-Bukhari, hadith 369, book 8, باب مَا يَسْتُرُ مِنَ الْعَوْرَةِ",
+      "title": "باب مَا يَسْتُرُ مِنَ الْعَوْرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، قَالَ حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا ابْنُ أَخِي ابْنِ شِهَابٍ، عَنْ عَمِّهِ، قَالَ أَخْبَرَنِي حُمَيْدُ بْنُ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ بَعَثَنِي أَبُو بَكْرٍ فِي تِلْكَ الْحَجَّةِ فِي مُؤَذِّنِينَ يَوْمَ النَّحْرِ نُؤَذِّنُ بِمِنًى أَنْ لاَ يَحُجَّ بَعْدَ الْعَامِ مُشْرِكٌ، وَلاَ يَطُوفَ بِالْبَيْتِ عُرْيَانٌ‏.‏ قَالَ حُمَيْدُ بْنُ عَبْدِ الرَّحْمَنِ ثُمَّ أَرْدَفَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَلِيًّا، فَأَمَرَهُ أَنْ يُؤَذِّنَ بِبَرَاءَةَ قَالَ أَبُو هُرَيْرَةَ فَأَذَّنَ مَعَنَا عَلِيٌّ فِي أَهْلِ مِنًى يَوْمَ النَّحْرِ لاَ يَحُجُّ بَعْدَ الْعَامِ مُشْرِكٌ، وَلاَ يَطُوفُ بِالْبَيْتِ عُرْيَانٌ‏.‏",
+      "source_hash_sha256": "2e470a7a171fd95687532b6797264cc120c6b64baaba1f8fadf1d83e8a25b68a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥâq nous a rapporté ; Yaʿqûb ibn Ibrâhîm nous a rapporté ; le neveu d’Ibn Shihâb nous a rapporté, d’après son oncle, qui a dit : Ḥumayd ibn ʿAbd al-Raḥmân ibn ʿAwf m’a informé qu’Abû Hurayra avait dit : Abû Bakr m’envoya avec des crieurs lors de ce pèlerinage, le jour du sacrifice, afin que nous proclamions à Minâ : « Après cette année, aucun polythéiste ne fera le pèlerinage et personne ne fera le tour de la Maison en étant nu. » Ḥumayd ibn ʿAbd al-Raḥmân ajouta : Le Messager d’Allah (paix et bénédictions sur lui) fit ensuite monter ʿAlî derrière lui et lui ordonna de proclamer la sourate al-Barâʾa. Abû Hurayra dit : Le jour du sacrifice, ʿAlî proclama avec nous parmi les gens de Minâ : « Après cette année, aucun polythéiste ne fera le pèlerinage et personne ne fera le tour de la Maison en étant nu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f21f175e-095b-44d8-8c84-829916c4ac30",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:370",
+      "reference": "Sahih al-Bukhari, hadith 370, book 8, باب الصَّلاَةِ بِغَيْرِ رِدَاءٍ",
+      "title": "باب الصَّلاَةِ بِغَيْرِ رِدَاءٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي ابْنُ أَبِي الْمَوَالِي، عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، قَالَ دَخَلْتُ عَلَى جَابِرِ بْنِ عَبْدِ اللَّهِ وَهُوَ يُصَلِّي فِي ثَوْبٍ مُلْتَحِفًا بِهِ وَرِدَاؤُهُ مَوْضُوعٌ، فَلَمَّا انْصَرَفَ قُلْنَا يَا أَبَا عَبْدِ اللَّهِ تُصَلِّي وَرِدَاؤُكَ مَوْضُوعٌ قَالَ نَعَمْ، أَحْبَبْتُ أَنْ يَرَانِي الْجُهَّالُ مِثْلُكُمْ، رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يُصَلِّي هَكَذَا‏.‏",
+      "source_hash_sha256": "9f948ccf47c4b47dcd475b5c6a70789d781bbcf4b1fb785672f573389e342e93",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd al-ʿAzîz ibn ʿAbd Allâh nous a rapporté ; Ibn Abî al-Mawâlî m’a rapporté, d’après Muḥammad ibn al-Munkadir, qui a dit : J’entrai chez Jâbir ibn ʿAbd Allâh alors qu’il priait, enveloppé dans un vêtement, son manteau posé à côté de lui. Quand il eut terminé, nous lui dîmes : « Abû ʿAbd Allâh, tu pries alors que ton manteau est posé là ? » Il répondit : « Oui. Je voulais que des ignorants comme vous me voient. J’ai vu le Prophète (paix et bénédictions sur lui) prier ainsi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
