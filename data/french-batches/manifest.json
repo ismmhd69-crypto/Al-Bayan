@@ -35672,6 +35672,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0322",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0322.json",
+      "sourceIds": [
+        "1bd365cd-bc52-4919-aec3-c9c9547b3ce5",
+        "f9bff754-9ecb-40d5-9395-45b574704445",
+        "3f10dda2-bc33-4bb4-a44f-a67dbb54637c",
+        "d67200c7-dd31-46b8-8176-bae469d3838a",
+        "f475a5b6-491e-480e-99bd-2ea768246554",
+        "17512691-3c08-4433-bf3f-efebab4b6b15"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; three incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39979,8 +40000,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7616,
-  "hadithLocalRemaining": 7013,
+  "hadithLocalDrafted": 7619,
+  "hadithLocalRemaining": 7010,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42153,10 +42174,28 @@
       "scope": "Sahih Muslim 746a: long report with direct Quran quotation from surah 73",
       "status": "blocked",
       "reason": "La source cite directement le Coran (sourate 73) et dépasse 2 000 caractères. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0322-746B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 746b: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0322-746C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 746c: partial narrative variant",
+      "status": "blocked",
+      "reason": "La source indique que le récit précédent est rapporté avec son histoire, mais ne reprend que certains détails. Garder la traduction française vide jusqu’à disponibilité du récit complet correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0322-746D-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 746d: summarized narrative variant",
+      "status": "blocked",
+      "reason": "La source résume le récit précédent et ajoute des précisions sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du récit intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1280,
+  "hadithMuslimDrafted": 1283,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 598
+  "hadithNeedsMo": 601
 }

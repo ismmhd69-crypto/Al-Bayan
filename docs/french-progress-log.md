@@ -8736,3 +8736,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0321 records the single long report alone. It contains a direct quotation from Quran 73, so the full French text remains blank under Needs Mo.
 - The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts remain 1280 Muslim drafts, 7616 total hadith drafts, 7013 remaining; Needs Mo is now 598.
+
+### 2026-10-29: Muslim 746b–747
+
+- FR-LIB-HAD-MUSLIM-0322 saves three private French drafts about making up missed night prayers and missed recitation. Muslim 746b–746d are incomplete references to the preceding long report and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1283 Muslim drafts, 7619 total hadith drafts, 7010 remaining, and 601 Needs Mo items.
