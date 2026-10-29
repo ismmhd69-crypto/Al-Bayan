@@ -11702,3 +11702,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1988a-1988f
 
 - FR-LIB-HAD-MUSLIM-0935 saves three private French drafts about keeping date mixtures separate when preparing nabîdh. Three entries that only provide chains or a minor order variation remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1989a-1991b
+
+- FR-LIB-HAD-MUSLIM-0936 saves five private French drafts about preparing fermented date and raisin drinks, including the written warning sent to Jurash. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
