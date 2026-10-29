@@ -10716,3 +10716,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0717 saves three private French drafts about the fruit and belongings included in a sale, sharing unused farmland, and two prohibited crop-sale practices. Muslim 1543d, 1543f, and 1543g only repeat variants of the preceding report and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1546–1547e
+
+- FR-LIB-HAD-MUSLIM-0718 saves four private French drafts about crop-sharing and the reports about Rafi ibn Khadij’s position on land rental. Muslim 1547b and 1547e only give variants of the preceding report and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
