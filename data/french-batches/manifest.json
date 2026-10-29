@@ -35469,6 +35469,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0312",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0312.json",
+      "sourceIds": [
+        "38de6d32-1007-4464-a10b-5587e95b544e",
+        "41d4dfa5-8f66-4b8a-ae96-beb09437652e",
+        "fb0afb0b-954e-4e9a-b740-a1ef9039413a",
+        "59d95147-9112-4893-b343-70c81f6e8c08",
+        "f56736da-c0f5-48fc-9d55-0b8faa9296fc",
+        "75b39b66-d67d-4236-9d24-2e9a53934b5e"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two direct Quran quotations held entirely blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39776,8 +39797,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7577,
-  "hadithLocalRemaining": 7052,
+  "hadithLocalDrafted": 7581,
+  "hadithLocalRemaining": 7048,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41866,10 +41887,22 @@
       "scope": "Sahih Muslim 724b: chain-only cross-reference variant",
       "status": "blocked",
       "reason": "La source ne reprend pas le récit et ne fournit que des chaînes de transmission renvoyant au même texte, avec une précision sur l’heure. Garder la traduction française vide jusqu’à disponibilité du récit complet correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0312-726-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 726: direct Quran quotations from surahs 109 and 112",
+      "status": "blocked",
+      "reason": "La source cite directement deux passages du Coran (sourates 109 et 112). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0312-727A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 727a: direct Quran quotations from surahs 2 and 3",
+      "status": "blocked",
+      "reason": "La source cite directement deux passages du Coran (sourates 2 et 3). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
     }
   ],
-  "hadithMuslimDrafted": 1241,
+  "hadithMuslimDrafted": 1245,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 584
+  "hadithNeedsMo": 586
 }

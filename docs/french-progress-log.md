@@ -8686,3 +8686,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0311 saves five private French drafts about the two light dawn-prayer units. Muslim 724b contains only chain variants referring to the same report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1241 Muslim drafts, 7577 total hadith drafts, 7052 remaining, and 584 Needs Mo items.
+
+### 2026-10-29: Muslim 724f–727a
+
+- FR-LIB-HAD-MUSLIM-0312 saves four private French drafts about the two dawn-prayer units. Muslim 726 and 727a quote Quran passages directly and remain entirely blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1245 Muslim drafts, 7581 total hadith drafts, 7048 remaining, and 586 Needs Mo items.
