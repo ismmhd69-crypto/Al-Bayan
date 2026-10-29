@@ -10581,3 +10581,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0690 saves four private French drafts about emancipation of a jointly owned enslaved person. Muslim 1501b refers to the preceding report, and 1501f lists transmission variants without reproducing the report; both remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1501h–1503c
+
+- FR-LIB-HAD-MUSLIM-0691 saves four private French drafts about emancipation of a jointly owned enslaved person and the financial terms. Muslim 1503b–c only add variants to the previous report without reproducing it, so both remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
