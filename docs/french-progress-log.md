@@ -7730,3 +7730,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0122 saves four private French drafts on wiping over the head covering and leather footwear, including the detailed report of the congregational prayer at Tabuk.
 - Muslim 274j and 274m give only chains and refer to another version without repeating the full text. Both remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 503 Muslim drafts, 6,839 total hadith drafts, 7,790 remaining, and 256 Needs Mo items.
+
+### 2026-10-29: Muslim 276b–278c
+
+- FR-LIB-HAD-MUSLIM-0123 saves three private French drafts on wiping over leather footwear, prayer with one ablution, and washing a hand after waking.
+- Muslim 276b, 278b and 278c provide chains and cross-references without repeating the report wording. All three remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 506 Muslim drafts, 6,842 total hadith drafts, 7,787 remaining, and 259 Needs Mo items.
