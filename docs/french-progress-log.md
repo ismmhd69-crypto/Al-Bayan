@@ -9136,3 +9136,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0401 saves four private French drafts about washing the deceased. Muslim 939d and 939g only provide fragments or additions to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1577 Muslim drafts, 7913 total hadith drafts, 6716 remaining, and 750 Needs Mo items.
+
+### 2026-10-29: Muslim 940a–941d
+
+- FR-LIB-HAD-MUSLIM-0402 saves four private French drafts about the burial shroud and the Companions’ emigration. Muslim 940b and 941c contain only cross-references or transmission variants and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1581 Muslim drafts, 7917 total hadith drafts, 6712 remaining, and 752 Needs Mo items.
