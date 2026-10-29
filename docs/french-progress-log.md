@@ -8461,3 +8461,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0267 saves five private French drafts about the night prayer. Muslim 640c gives only an incomplete variant note and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,064 Muslim drafts, 7,400 total hadith drafts, 7,229 remaining, and 510 Needs Mo items.
+
+### 2026-10-29: Muslim 643b–645c
+
+- FR-LIB-HAD-MUSLIM-0268 saves six private French drafts about the night prayer and the early dawn prayer.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,070 Muslim drafts, 7,406 total hadith drafts, 7,223 remaining, and 510 Needs Mo items.
