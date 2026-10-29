@@ -11698,3 +11698,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1986d-1987e
 
 - FR-LIB-HAD-MUSLIM-0934 saves five private French drafts about mixing and drinking fermented fruit beverages. The distinct mixtures named in each report are preserved. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1988a-1988f
+
+- FR-LIB-HAD-MUSLIM-0935 saves three private French drafts about keeping date mixtures separate when preparing nabîdh. Three entries that only provide chains or a minor order variation remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
