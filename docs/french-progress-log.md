@@ -5526,3 +5526,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1076 saves five private French drafts about perfume and hair additions. Bukhari 5931 is held blank because it directly quotes Quran 59:7.
 - Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 4,953 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 751. Total local hadith rows not drafted: 9,676, including held records.
+
+### 2026-10-29: Bukhari 5936–5941
+
+- FR-LIB-HAD-BUKHARI-1077 saves five private French drafts about hair additions and tattooing. Bukhari 5939 is held blank because it directly quotes Quran 59:7.
+- Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 4,958 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 752. Total local hadith rows not drafted: 9,671, including held records.

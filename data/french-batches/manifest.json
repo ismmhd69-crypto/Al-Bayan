@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4959,
+    "hadithBukhariDrafted": 4964,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4959,
+    "hadithLocalDrafted": 4964,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9670,
-    "hadithNeedsMo": 751,
+    "hadithLocalRemaining": 9665,
+    "hadithNeedsMo": 752,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -22981,6 +22981,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1077",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1077.json",
+      "sourceIds": [
+        "768a8039-9a0c-4279-b4ab-21815ff1bf01",
+        "ef57ece9-eab9-45f0-95a5-ef4291700f88",
+        "7984a784-bac7-4d20-89d6-dfd4a2ee9668",
+        "3daf4bc8-9e7f-4c1a-b935-efc1ae5160e6",
+        "711fc6b2-f89c-4198-9ea1-e6e780a6cc13",
+        "07c9c77b-c9cf-4f47-8ded-00445bc862de"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; one direct Quran quotation held blank. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26052,6 +26073,12 @@
     {
       "id": "HADITH-BUKHARI-5931-QURAN-59-7",
       "scope": "Sahih al-Bukhari 5931 direct quotation of Quran 59:7",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 59:7. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-5939-QURAN-59-7",
+      "scope": "Sahih al-Bukhari 5939 direct quotation of Quran 59:7",
       "status": "blocked",
       "reason": "The report directly quotes Quran 59:7. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
     }
