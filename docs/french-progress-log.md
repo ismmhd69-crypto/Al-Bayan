@@ -5561,3 +5561,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1083 saves three private French drafts about kindness to parents and their rights.
 - All three records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,990 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 753. Total local hadith rows not drafted: 9,639, including held records.
+
+### 2026-10-29: Bukhari 5974
+
+- FR-LIB-HAD-BUKHARI-1084 saves the deferred long report as one private French draft, retaining all three men’s accounts and the events in the cave.
+- The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,991 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 753. Total local hadith rows not drafted: 9,638, including held records.
