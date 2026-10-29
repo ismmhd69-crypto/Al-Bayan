@@ -35840,6 +35840,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0330",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0330.json",
+      "sourceIds": [
+        "ede0b1b6-77e5-4742-b23e-7de69797a022",
+        "79bd4ba8-7a69-4ced-93b6-3d258007367d",
+        "f65bad64-fc38-419d-ab14-7066203c208f",
+        "4eff0351-e1f5-4dba-8158-44d8cf15c53f",
+        "d3fb6d22-6a7a-464d-97d2-5212d03534d5",
+        "4aefde46-13eb-42a5-90d1-dfffa4b1cf1c"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one unclear source and one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40147,8 +40168,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7656,
-  "hadithLocalRemaining": 6973,
+  "hadithLocalDrafted": 7660,
+  "hadithLocalRemaining": 6969,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42363,10 +42384,22 @@
       "scope": "Sahih Muslim 762c: incomplete cross-reference variant",
       "status": "blocked",
       "reason": "La source renvoie au même récit par une autre chaîne et résume son contenu sans le reprendre. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0330-763A-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 763a: unclear source ending",
+      "status": "blocked",
+      "reason": "La fin de la source contient une formulation arabe incertaine (« وسبعا في التابوت ») et rapporte ensuite des éléments supplémentaires sans tous les préciser. Garder toute la traduction française vide jusqu’à vérification du texte."
+    },
+    {
+      "id": "HADITH-MUSLIM-0330-763C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 763c: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source ne reprend que quelques ajouts au récit précédent et renvoie au reste comme étant semblable à sa version, sans le reproduire. Garder la traduction française vide jusqu’à disponibilité du récit complet correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1320,
+  "hadithMuslimDrafted": 1324,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 605
+  "hadithNeedsMo": 607
 }
