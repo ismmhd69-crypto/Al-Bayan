@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-244",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:25:44.693Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "46633c28-683f-462e-ab76-7dcec911f7f0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1397",
+      "reference": "Sahih al-Bukhari, hadith 1397, book 24, باب وُجُوبِ الزَّكَاةِ",
+      "title": "باب وُجُوبِ الزَّكَاةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، حَدَّثَنَا عَفَّانُ بْنُ مُسْلِمٍ، حَدَّثَنَا وُهَيْبٌ، عَنْ يَحْيَى بْنِ سَعِيدِ بْنِ حَيَّانَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ أَعْرَابِيًّا، أَتَى النَّبِيَّ صلى الله عليه وسلم فَقَالَ دُلَّنِي عَلَى عَمَلٍ إِذَا عَمِلْتُهُ دَخَلْتُ الْجَنَّةَ‏.‏ قَالَ ‏\"‏ تَعْبُدُ اللَّهَ لاَ تُشْرِكُ بِهِ شَيْئًا، وَتُقِيمُ الصَّلاَةَ الْمَكْتُوبَةَ، وَتُؤَدِّي الزَّكَاةَ الْمَفْرُوضَةَ، وَتَصُومُ رَمَضَانَ ‏\"‏‏.‏ قَالَ وَالَّذِي نَفْسِي بِيَدِهِ لاَ أَزِيدُ عَلَى هَذَا‏.‏ فَلَمَّا وَلَّى قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَنْ سَرَّهُ أَنْ يَنْظُرَ إِلَى رَجُلٍ مِنْ أَهْلِ الْجَنَّةِ فَلْيَنْظُرْ إِلَى هَذَا ‏\"‏‏.‏ حَدَّثَنَا مُسَدَّدٌ، عَنْ يَحْيَى، عَنْ أَبِي حَيَّانَ، قَالَ أَخْبَرَنِي أَبُو زُرْعَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا‏.‏",
+      "source_hash_sha256": "dcef1129c1dae76c49e94a9a6d6f80d7df47101275787547de05eed71f28fdae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abd al-Rahim nous a rapporté : Affan ibn Muslim nous a rapporté : Wuhayb nous a rapporté, d’après Yahya ibn Saïd ibn Hayyan, d’après Abu Zur‘a, d’après Abu Hurayra, qu’Allah l’agrée : « Un Bédouin vint trouver le Prophète ﷺ et lui demanda : “Indique-moi une œuvre qui, si je l’accomplis, me fera entrer au Paradis.” Il répondit : “Adore Allah sans rien Lui associer, accomplis les prières prescrites, verse la zakat obligatoire et jeûne le Ramadan.” L’homme dit : “Par Celui qui tient mon âme dans Sa main, je n’ajouterai rien à cela.” Lorsqu’il s’en alla, le Prophète ﷺ dit : “Celui qui souhaite voir un homme parmi les gens du Paradis, qu’il regarde cet homme.” » Musaddad rapporte de Yahya, d’après Abu Hayyan, qui dit : Abu Zur‘a m’a rapporté la même chose d’après le Prophète ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4841e5fe-bd0b-48be-b206-0060cf5104b1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1398",
+      "reference": "Sahih al-Bukhari, hadith 1398, book 24, باب وُجُوبِ الزَّكَاةِ",
+      "title": "باب وُجُوبِ الزَّكَاةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجٌ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، حَدَّثَنَا أَبُو جَمْرَةَ، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ ـ رضى الله عنهما ـ يَقُولُ قَدِمَ وَفْدُ عَبْدِ الْقَيْسِ عَلَى النَّبِيِّ صلى الله عليه وسلم فَقَالُوا يَا رَسُولَ اللَّهِ إِنَّ هَذَا الْحَىَّ مِنْ رَبِيعَةَ قَدْ حَالَتْ بَيْنَنَا وَبَيْنَكَ كُفَّارُ مُضَرَ، وَلَسْنَا نَخْلُصُ إِلَيْكَ إِلاَّ فِي الشَّهْرِ الْحَرَامِ، فَمُرْنَا بِشَىْءٍ نَأْخُذُهُ عَنْكَ، وَنَدْعُو إِلَيْهِ مَنْ وَرَاءَنَا‏.‏ قَالَ ‏\"‏ آمُرُكُمْ بِأَرْبَعٍ، وَأَنْهَاكُمْ عَنْ أَرْبَعٍ الإِيمَانِ بِاللَّهِ وَشَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ ـ وَعَقَدَ بِيَدِهِ هَكَذَا ـ وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَأَنْ تُؤَدُّوا خُمُسَ مَا غَنِمْتُمْ، وَأَنْهَاكُمْ عَنِ الدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَالْمُزَفَّتِ ‏\"‏‏.‏ وَقَالَ سُلَيْمَانُ وَأَبُو النُّعْمَانِ عَنْ حَمَّادٍ ‏\"‏ الإِيمَانِ بِاللَّهِ شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "2243e4a8d27c0d063960f3b6275f6ab3d5a1e07350e0352206c9b7b1d3bbf9d3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hajjaj nous a rapporté : Hammad ibn Zayd nous a rapporté : Abu Jamra nous a rapporté. Il dit avoir entendu Ibn Abbas, qu’Allah les agrée tous deux, dire : « La délégation d’Abd al-Qays vint trouver le Prophète ﷺ et dit : “Ô Messager d’Allah, les mécréants de Mudar nous séparent de toi ; nous ne pouvons venir jusqu’à toi que pendant les mois sacrés. Ordonne-nous quelque chose que nous pourrons apprendre de toi et enseigner à ceux qui sont restés derrière nous.” Il dit : “Je vous ordonne quatre choses et vous en interdis quatre : croire en Allah — et il replia ses doigts de cette manière —, attester qu’il n’y a de divinité qu’Allah, accomplir la prière, verser la zakat et donner le cinquième du butin. Je vous interdis les récipients appelés dubba, hantam, naqir et muzaffat.” » Sulayman et Abu al-Nu‘man rapportent de Hammad la formulation : « croire en Allah et attester qu’il n’y a de divinité qu’Allah ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f4469b45-9333-4b86-a580-d747868d55a7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1399",
+      "reference": "Sahih al-Bukhari, hadith 1399, 1400, book 24, باب وُجُوبِ الزَّكَاةِ",
+      "title": "باب وُجُوبِ الزَّكَاةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ، أَخْبَرَنَا شُعَيْبُ بْنُ أَبِي حَمْزَةَ، عَنِ الزُّهْرِيِّ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُودٍ، أَنَّ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ لَمَّا تُوُفِّيَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَكَانَ أَبُو بَكْرٍ ـ رضى الله عنه ـ وَكَفَرَ مَنْ كَفَرَ مِنَ الْعَرَبِ فَقَالَ عُمَرُ ـ رضى الله عنه كَيْفَ تُقَاتِلُ النَّاسَ، وَقَدْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَقُولُوا لاَ إِلَهَ إِلاَّ اللَّهُ‏.‏ فَمَنْ قَالَهَا فَقَدْ عَصَمَ مِنِّي مَالَهُ وَنَفْسَهُ إِلاَّ بِحَقِّهِ، وَحِسَابُهُ عَلَى اللَّهِ ‏\"‏‏.‏ فَقَالَ وَاللَّهِ لأُقَاتِلَنَّ مَنْ فَرَّقَ بَيْنَ الصَّلاَةِ وَالزَّكَاةِ، فَإِنَّ الزَّكَاةَ حَقُّ الْمَالِ، وَاللَّهِ لَوْ مَنَعُونِي عَنَاقًا كَانُوا يُؤَدُّونَهَا إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم لَقَاتَلْتُهُمْ عَلَى مَنْعِهَا‏.‏ قَالَ عُمَرُ ـ رضى الله عنه ـ فَوَاللَّهِ مَا هُوَ إِلاَّ أَنْ قَدْ شَرَحَ اللَّهُ صَدْرَ أَبِي بَكْرٍ ـ رضى الله عنه ـ فَعَرَفْتُ أَنَّهُ الْحَقُّ‏.‏",
+      "source_hash_sha256": "dd7215138543d92f19faa424947b85e3297959d65e84e70569ee0f89f10d9d55",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Yaman al-Hakam ibn Nafi nous a rapporté : Shu‘ayb ibn Abi Hamza nous a informés, d’après al-Zuhri. Ubayd Allah ibn Abd Allah ibn Utba ibn Masud nous a rapporté qu’Abu Hurayra, qu’Allah l’agrée, disait : « Lorsque le Messager d’Allah ﷺ mourut, Abu Bakr, qu’Allah l’agrée, devint calife et certains Arabes renièrent l’islam, Umar, qu’Allah l’agrée, lui dit : “Comment peux-tu combattre ces gens alors que le Messager d’Allah ﷺ a dit : ‘J’ai reçu l’ordre de combattre les gens jusqu’à ce qu’ils disent : Il n’y a de divinité qu’Allah. Celui qui le dit met ses biens et sa personne à l’abri de moi, sauf en vertu d’un droit, et son compte relève d’Allah’ ?” Abu Bakr répondit : “Par Allah, je combattrai quiconque sépare la prière de la zakat, car la zakat est un droit dû sur les biens. Par Allah, s’ils me refusaient même un chevreau qu’ils versaient auparavant au Messager d’Allah ﷺ, je les combattrais pour ce refus.” Umar dit : “Par Allah, ce n’est que lorsqu’Allah eut ouvert le cœur d’Abu Bakr que je compris qu’il avait raison.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8ea41a57-8272-4fce-b09f-9fe8440a5107",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1401",
+      "reference": "Sahih al-Bukhari, hadith 1401, book 24, باب الْبَيْعَةِ عَلَى إِيتَاءِ الزَّكَاةِ",
+      "title": "باب الْبَيْعَةِ عَلَى إِيتَاءِ الزَّكَاةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ نُمَيْرٍ، قَالَ حَدَّثَنِي أَبِي، حَدَّثَنَا إِسْمَاعِيلُ، عَنْ قَيْسٍ، قَالَ قَالَ جَرِيرُ بْنُ عَبْدِ اللَّهِ بَايَعْتُ النَّبِيَّ صلى الله عليه وسلم عَلَى إِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَالنُّصْحِ لِكُلِّ مُسْلِمٍ‏.‏",
+      "source_hash_sha256": "ba5ebe2cfdd3c531c8dd7e0e63bcf114a7baf3e0afe8691051b1ed04d267ad1e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Numayr nous a rapporté : mon père m’a rapporté : Ismail nous a rapporté, d’après Qays, qui dit : Jarir ibn Abd Allah a dit : « J’ai prêté allégeance au Prophète ﷺ en m’engageant à accomplir la prière, à verser la zakat et à conseiller sincèrement chaque musulman. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c0e9749-80a7-4a1d-8f4a-bcd618884c28",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1402",
+      "reference": "Sahih al-Bukhari, hadith 1402, book 24, باب إِثْمِ مَانِعِ الزَّكَاةِ",
+      "title": "باب إِثْمِ مَانِعِ الزَّكَاةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحَكَمُ بْنُ نَافِعٍ، أَخْبَرَنَا شُعَيْبٌ، حَدَّثَنَا أَبُو الزِّنَادِ، أَنَّ عَبْدَ الرَّحْمَنِ بْنَ هُرْمُزَ الأَعْرَجَ، حَدَّثَهُ أَنَّهُ، سَمِعَ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ يَقُولُ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ تَأْتِي الإِبِلُ عَلَى صَاحِبِهَا، عَلَى خَيْرِ مَا كَانَتْ، إِذَا هُوَ لَمْ يُعْطِ فِيهَا حَقَّهَا، تَطَؤُهُ بِأَخْفَافِهَا، وَتَأْتِي الْغَنَمُ عَلَى صَاحِبِهَا عَلَى خَيْرِ مَا كَانَتْ، إِذَا لَمْ يُعْطِ فِيهَا حَقَّهَا، تَطَؤُهُ بِأَظْلاَفِهَا، وَتَنْطَحُهُ بِقُرُونِهَا ‏\"‏‏.‏ وَقَالَ ‏\"‏ وَمِنْ حَقِّهَا أَنْ تُحْلَبَ عَلَى الْمَاءِ ‏\"‏‏.‏ قَالَ ‏\"‏ وَلاَ يَأْتِي أَحَدُكُمْ يَوْمَ الْقِيَامَةِ بِشَاةٍ يَحْمِلُهَا عَلَى رَقَبَتِهِ لَهَا يُعَارٌ، فَيَقُولُ يَا مُحَمَّدُ‏.‏ فَأَقُولُ لاَ أَمْلِكُ لَكَ شَيْئًا قَدْ بَلَّغْتُ‏.‏ وَلاَ يَأْتِي بِبَعِيرٍ، يَحْمِلُهُ عَلَى رَقَبَتِهِ لَهُ رُغَاءٌ، فَيَقُولُ يَا مُحَمَّدُ‏.‏ فَأَقُولُ لاَ أَمْلِكُ لَكَ شَيْئًا قَدْ بَلَّغْتُ ‏\"‏‏.‏",
+      "source_hash_sha256": "c5da1ca282d0c15471d5a4675125c4687f1889f6d1350dc3ca4d6f534657b8c3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Hakam ibn Nafi nous a rapporté : Shu‘ayb nous a informés : Abu al-Zinad nous a rapporté qu’Abd al-Rahman ibn Hurmuz al-A‘raj lui avait rapporté avoir entendu Abu Hurayra, qu’Allah l’agrée, dire que le Prophète ﷺ avait dit : « Les chameaux de celui qui ne s’acquitte pas de ce qui leur est dû viendront à lui dans leur meilleur état et le piétineront de leurs sabots. Les moutons de celui qui ne s’acquitte pas de ce qui leur est dû viendront à lui dans leur meilleur état, le piétineront de leurs sabots et le frapperont de leurs cornes. » Il ajouta : « L’un de leurs droits est qu’on les trait à l’abreuvoir. » Puis il dit : « Qu’aucun de vous ne vienne au Jour de la Résurrection en portant sur son cou un mouton qui bêle et ne dise : “Ô Muhammad !” Je ne pourrai rien pour lui ; j’ai transmis le message. Qu’il ne vienne pas non plus en portant un chameau qui blatère et ne dise : “Ô Muhammad !” Je ne pourrai rien pour lui ; j’ai transmis le message. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90c03752-29b4-4462-99e1-1cee6d23931a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1403",
+      "reference": "Sahih al-Bukhari, hadith 1403, book 24, باب إِثْمِ مَانِعِ الزَّكَاةِ",
+      "title": "باب إِثْمِ مَانِعِ الزَّكَاةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا هَاشِمُ بْنُ الْقَاسِمِ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ أَبِيهِ، عَنْ أَبِي صَالِحٍ السَّمَّانِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ آتَاهُ اللَّهُ مَالاً، فَلَمْ يُؤَدِّ زَكَاتَهُ مُثِّلَ لَهُ يَوْمَ الْقِيَامَةِ شُجَاعًا أَقْرَعَ، لَهُ زَبِيبَتَانِ، يُطَوَّقُهُ يَوْمَ الْقِيَامَةِ، ثُمَّ يَأْخُذُ بِلِهْزِمَتَيْهِ ـ يَعْنِي شِدْقَيْهِ ـ ثُمَّ يَقُولُ أَنَا مَالُكَ، أَنَا كَنْزُكَ ‏\"‏ ثُمَّ تَلاَ ‏[quran sura=\"3\" aya_start=\"180\" aya_end=\"180\"]{‏لاَ يَحْسِبَنَّ الَّذِينَ يَبْخَلُونَ‏}‏ الآيَةَ‏.‏",
+      "source_hash_sha256": "909f584a98b4b14d5643a20d4673b6875cb7ed56ada9d925d3045a49a3038570",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "90c03752-29b4-4462-99e1-1cee6d23931a",
+      "reason": "This report directly quotes Quran 3:180. Keep it blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
