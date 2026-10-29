@@ -6995,3 +6995,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - All five source hashes are retained and the focused validator passed.
 
 - Current totals: Bukhari local drafts 6,253 of 7,263; Muslim local drafts 0 of 7,366; Hadith Needs Mo 143; total local hadith rows not drafted 8,376, including held records.
+
+### 2026-10-29: Bukhari 7453–7458
+
+- FR-LIB-HAD-BUKHARI-1362 saves 4 private French drafts. Hadiths 7455 and 7456 directly quote Quran 19:64 and 17:85; both complete translations remain blank under Needs Mo pending confirmation of approved, attributed French Quran translations and permitted use. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,257 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 145. Total local hadith rows not drafted: 8,372, including held records.
