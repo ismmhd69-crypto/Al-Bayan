@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5565,
+    "hadithBukhariDrafted": 5570,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5565,
+    "hadithLocalDrafted": 5570,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9064,
-    "hadithNeedsMo": 797,
+    "hadithLocalRemaining": 9059,
+    "hadithNeedsMo": 798,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25678,6 +25678,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1213",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1213.json",
+      "sourceIds": [
+        "120fc40c-d1aa-4723-9857-e5fa3cb62b9d",
+        "25877fb0-9e1d-4b3b-9fe8-8ef614e41dbf",
+        "1a6edb7d-b332-469c-8801-739db26a6e61",
+        "4df2d8e4-729f-4ce7-92d0-aa15c3115bdf",
+        "09a0495b-f11b-4d9b-97f0-d29ab07a5799",
+        "41a781e8-121f-4f4a-b17a-87be560dc0e7"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one complete report held for direct Quran quotation. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -28848,11 +28869,17 @@
       "scope": "Sahih al-Bukhari 6593: direct quotation of Quran 23:66 and an explanation of the Quranic phrase",
       "status": "blocked",
       "reason": "The report directly quotes Quran 23:66. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6605-QURAN-92-5",
+      "scope": "Sahih al-Bukhari 6605: direct quotation of Quran 92:5",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 92:5. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5565,
-  "hadithLocalDrafted": 5565,
-  "hadithLocalRemaining": 9064,
+  "hadithBukhariDrafted": 5570,
+  "hadithLocalDrafted": 5570,
+  "hadithLocalRemaining": 9059,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29165,6 +29192,12 @@
       "scope": "Sahih al-Bukhari 6593: direct quotation of Quran 23:66 and an explanation of the Quranic phrase",
       "status": "blocked",
       "reason": "The report directly quotes Quran 23:66. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6605-QURAN-92-5",
+      "scope": "Sahih al-Bukhari 6605: direct quotation of Quran 92:5",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 92:5. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
