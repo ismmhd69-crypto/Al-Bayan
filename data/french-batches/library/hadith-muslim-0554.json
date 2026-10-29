@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0554",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:04:05.243Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "40c088b4-1a76-484a-9ce6-28fd2483cf0c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1245",
+      "reference": "Sahih Muslim, hadith 1245, book 15, باب تَقْلِيدِ الْهَدْىِ وَإِشْعَارِهِ عِنْدَ الإِحْرَامِ ‏",
+      "title": "باب تَقْلِيدِ الْهَدْىِ وَإِشْعَارِهِ عِنْدَ الإِحْرَامِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي عَطَاءٌ، قَالَ كَانَ ابْنُ عَبَّاسٍ يَقُولُ لاَ يَطُوفُ بِالْبَيْتِ حَاجٌّ وَلاَ غَيْرُ حَاجٍّ إِلاَّ حَلَّ ‏.‏ قُلْتُ لِعَطَاءٍ مِنْ أَيْنَ يَقُولُ ذَلِكَ قَالَ مِنْ قَوْلِ اللَّهِ تَعَالَى ‏[quran sura=\"22\" aya_start=\"33\" aya_end=\"33\"]{‏ ثُمَّ مَحِلُّهَا إِلَى الْبَيْتِ الْعَتِيقِ‏}‏ قَالَ قُلْتُ فَإِنَّ ذَلِكَ بَعْدَ الْمُعَرَّفِ ‏.‏ فَقَالَ كَانَ ابْنُ عَبَّاسٍ يَقُولُ هُوَ بَعْدَ الْمُعَرَّفِ وَقَبْلَهُ ‏.‏ وَكَانَ يَأْخُذُ ذَلِكَ مِنْ أَمْرِ النَّبِيِّ صلى الله عليه وسلم حِينَ أَمَرَهُمْ أَنْ يَحِلُّوا فِي حَجَّةِ الْوَدَاعِ ‏.‏",
+      "source_hash_sha256": "9efc98b5d764a4c45e1910df06563776e67347fe91da76828ed516ec70523e67",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "29126483-a2d9-43e9-ae6c-1c5633684baa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1246a",
+      "reference": "Sahih Muslim, hadith 1246 a, book 15, باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "title": "باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ هِشَامِ بْنِ حُجَيْرٍ، عَنْ طَاوُسٍ، قَالَ قَالَ ابْنُ عَبَّاسٍ قَالَ لِي مُعَاوِيَةُ أَعَلِمْتَ أَنِّي قَصَّرْتُ مِنْ رَأْسِ رَسُولِ اللَّهِ صلى الله عليه وسلم عِنْدَ الْمَرْوَةِ بِمِشْقَصٍ فَقُلْتُ لَهُ لاَ أَعْلَمُ هَذَا إِلاَّ حُجَّةً عَلَيْكَ ‏.‏",
+      "source_hash_sha256": "3bf42c3f03c0401f3bf7e78d41dfcfde9a665c45db5a28d1ae99c7b6d283d5f5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amr al-Naqid nous a rapporté : Sufyan ibn Uyayna nous a rapporté, d’après Hisham ibn Hujayr, d’après Tawus, qui a dit : Ibn Abbas me dit : Muawiya m’a demandé si je savais qu’il avait raccourci les cheveux du Messager d’Allah ﷺ à al-Marwa avec une lame de rasoir. Je lui répondis que je ne connaissais cela que comme un argument contre lui.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "05876189-65ff-4d3a-9f7d-98f7d2b92824",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1246b",
+      "reference": "Sahih Muslim, hadith 1246 b, book 15, باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "title": "باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ ابْنِ جُرَيْجٍ، حَدَّثَنِي الْحَسَنُ، بْنُ مُسْلِمٍ عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ مُعَاوِيَةَ بْنَ أَبِي سُفْيَانَ، أَخْبَرَهُ قَالَ قَصَّرْتُ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم بِمِشْقَصٍ وَهُوَ عَلَى الْمَرْوَةِ أَوْ رَأَيْتُهُ يُقَصَّرُ عَنْهُ بِمِشْقَصٍ وَهُوَ عَلَى الْمَرْوَةِ ‏.‏",
+      "source_hash_sha256": "fc9feb2441b0c8290017ad773aec719263d0076f4dafe40ce55a2e4d4d5a2bed",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim nous a rapporté : Yahya ibn Said nous a rapporté, d’après Ibn Jurayj : al-Hasan ibn Muslim m’a rapporté, d’après Tawus, d’après Ibn Abbas, que Muawiya ibn Abu Sufyan lui avait rapporté : j’ai raccourci les cheveux du Messager d’Allah ﷺ avec une lame de rasoir alors qu’il se trouvait à al-Marwa, ou bien je l’ai vu faire raccourcir ses cheveux ainsi à cet endroit.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2bc45054-7911-481c-a43a-cebcb4c46cae",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1247",
+      "reference": "Sahih Muslim, hadith 1247, book 15, باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "title": "باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عُبَيْدُ اللَّهِ بْنُ عُمَرَ الْقَوَارِيرِيُّ، حَدَّثَنَا عَبْدُ الأَعْلَى بْنُ عَبْدِ الأَعْلَى، حَدَّثَنَا دَاوُدُ، عَنْ أَبِي نَضْرَةَ، عَنْ أَبِي سَعِيدٍ، قَالَ خَرَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم نَصْرُخُ بِالْحَجِّ صُرَاخًا فَلَمَّا قَدِمْنَا مَكَّةَ أَمَرَنَا أَنْ نَجْعَلَهَا عُمْرَةً إِلاَّ مَنْ سَاقَ الْهَدْىَ فَلَمَّا كَانَ يَوْمُ التَّرْوِيَةِ وَرُحْنَا إِلَى مِنًى أَهْلَلْنَا بِالْحَجِّ ‏.‏",
+      "source_hash_sha256": "813088da57ba799a7095f7a6daf309ba31622d538e3c6ae0b473852c233e2c56",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ubayd Allah ibn Umar al-Qawariri m’a rapporté : Abd al-Ala ibn Abd al-Ala nous a rapporté : Dawud nous a rapporté, d’après Abu Nadr, d’après Abu Said, qui a dit : nous partîmes avec le Messager d’Allah ﷺ en répondant à l’appel pour le pèlerinage à pleine voix. À notre arrivée à La Mecque, il nous ordonna de transformer ce rite en omra, sauf à ceux qui avaient amené une offrande. Lorsque vint le jour de Tarwiya et que nous partîmes pour Mina, nous entrâmes en état de sacralisation pour le pèlerinage.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1f2f5c80-a5de-4c81-a7ed-c64b3debe8f4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1248",
+      "reference": "Sahih Muslim, hadith 1248, book 15, باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "title": "باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنَا مُعَلَّى بْنُ أَسَدٍ، حَدَّثَنَا وُهَيْبُ بْنُ خَالِدٍ، عَنْ دَاوُدَ، عَنْ أَبِي نَضْرَةَ، عَنْ جَابِرٍ، وَعَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، - رضى الله عنهما - قَالاَ قَدِمْنَا مَعَ النَّبِيِّ صلى الله عليه وسلم وَنَحْنُ نَصْرُخُ بِالْحَجِّ صُرَاخًا ‏.‏",
+      "source_hash_sha256": "fc5f1f30727902380c833daa8ddbdd45e7218f916b5c5e6dcc2ba02e10fe3375",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hajjaj ibn al-Shair nous a rapporté : Mualla ibn Asad nous a rapporté : Wuhaib ibn Khalid nous a rapporté, d’après Dawud, d’après Abu Nadr, d’après Jabir et Abu Said al-Khudri, qu’Allah les agrée tous deux, qui ont dit : nous arrivâmes avec le Prophète ﷺ en répondant à l’appel pour le pèlerinage à pleine voix.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bfb000a8-aca0-4fc1-bb55-b84cb2e10b73",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1249",
+      "reference": "Sahih Muslim, hadith 1249, book 15, باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "title": "باب التَّقْصِيرِ فِي الْعُمْرَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَامِدُ بْنُ عُمَرَ الْبَكْرَاوِيُّ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، عَنْ عَاصِمٍ، عَنْ أَبِي نَضْرَةَ، قَالَ كُنْتُ عِنْدَ جَابِرِ بْنِ عَبْدِ اللَّهِ فَأَتَاهُ آتٍ فَقَالَ إِنَّ ابْنَ عَبَّاسٍ وَابْنَ الزُّبَيْرِ اخْتَلَفَا فِي الْمُتْعَتَيْنِ فَقَالَ جَابِرٌ فَعَلْنَاهُمَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم ثُمَّ نَهَانَا عَنْهُمَا عُمَرُ فَلَمْ نَعُدْ لَهُمَا ‏.",
+      "source_hash_sha256": "f5e0221825e74e1913c1a4a271dbeed1f7864497d465188f76a7eb90920cc8c5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hamid ibn Umar al-Bakrawi nous a rapporté : Abd al-Wahid nous a rapporté, d’après Asim, d’après Abu Nadr, qui a dit : j’étais auprès de Jabir ibn Abd Allah lorsqu’un homme vint le voir et lui dit qu’Ibn Abbas et Ibn al-Zubayr avaient divergé au sujet des deux formes de jouissance. Jabir répondit : nous les avons toutes deux pratiquées avec le Messager d’Allah ﷺ. Puis Umar nous les a interdites et nous ne les avons plus pratiquées.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "40c088b4-1a76-484a-9ce6-28fd2483cf0c",
+      "reason": "La source cite directement le Coran 2:196. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    }
+  ]
+}

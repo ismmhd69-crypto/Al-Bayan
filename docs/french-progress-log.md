@@ -9896,3 +9896,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0553 saves five private French drafts about umra during the Hajj months and the sacrifice marking at Dhu al-Hulayfa. Muslim 1243b is an incomplete variant and remains blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1245–1249
+
+- FR-LIB-HAD-MUSLIM-0554 saves five private French drafts about shortening hair during umra and performing tamattu. Muslim 1245 directly quotes Quran 2:196 and remains blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
