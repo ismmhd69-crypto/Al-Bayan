@@ -1351,3 +1351,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-283` saves five private French drafts for Bukhari 1632 and 1634–1637. Bukhari 1633 remains blank and is recorded under Needs Mo because it directly quotes Quran 52:1–2; no approved, attributed French Quran translation is configured. No source record for 1631 was present in this exporter batch.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,500 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 85. Total local hadith rows not drafted: 13,128, including held records.
+
+### 2026-10-29: Bukhari 1638–1641 source review
+
+- `FR-LIB-HAD-BUKHARI-284` saves two private French drafts for Bukhari 1638 and 1641. Bukhari 1639 and 1640 remain blank and are recorded under Needs Mo because they directly quote Quran 33:21; no approved, attributed French Quran translation is configured. The exporter provided four eligible source records in this batch.
+- The four-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran holds. No database writes or publication occurred. Bukhari local drafts: 1,502 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 87. Total local hadith rows not drafted: 13,126, including held records.
