@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0741",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:07:10.828Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e025cb25-d6c3-411d-8dd2-6e4856f5c28d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1590a",
+      "reference": "Sahih Muslim, hadith 1590 a, book 22, باب النَّهْىِ عَنْ بَيْعِ الْوَرِقِ، بِالذَّهَبِ دَيْنًا ‏‏",
+      "title": "باب النَّهْىِ عَنْ بَيْعِ الْوَرِقِ، بِالذَّهَبِ دَيْنًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الرَّبِيعِ الْعَتَكِيُّ، حَدَّثَنَا عَبَّادُ بْنُ الْعَوَّامِ، أَخْبَرَنَا يَحْيَى بْنُ أَبِي إِسْحَاقَ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرَةَ، عَنْ أَبِيهِ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الْفِضَّةِ بِالْفِضَّةِ وَالذَّهَبِ بِالذَّهَبِ إِلاَّ سَوَاءً بِسَوَاءٍ وَأَمَرَنَا أَنْ نَشْتَرِيَ الْفِضَّةَ بِالذَّهَبِ كَيْفَ شِئْنَا وَنَشْتَرِيَ الذَّهَبَ بِالْفِضَّةِ كَيْفَ شِئْنَا ‏.‏ قَالَ فَسَأَلَهُ رَجُلٌ فَقَالَ يَدًا بِيَدٍ فَقَالَ هَكَذَا سَمِعْتُ ‏.‏",
+      "source_hash_sha256": "d8afa4c7673a2fdd1434be241e065312bd4c4b2d770d3d4f14b2e8a2461336ec",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Ataki nous a rapporté : Abbad ibn al-Awwam nous a rapporté : Yahya ibn Abi Ishaq nous a informés : Abd al-Rahman ibn Abi Bakra nous a rapporté, d’après son père, qui dit : « Le Messager d’Allah a interdit l’échange d’argent contre de l’argent et d’or contre de l’or, sauf à quantité égale. Il nous a autorisés à acheter de l’argent contre de l’or comme nous le souhaitions, et de l’or contre de l’argent comme nous le souhaitions. » Un homme lui demanda : « À condition que l’échange se fasse de la main à la main ? » Il répondit : « C’est ainsi que je l’ai entendu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f9050a1a-8474-4923-94b1-8f0d3f42c342",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1590b",
+      "reference": "Sahih Muslim, hadith 1590 b, book 22, باب النَّهْىِ عَنْ بَيْعِ الْوَرِقِ، بِالذَّهَبِ دَيْنًا ‏‏",
+      "title": "باب النَّهْىِ عَنْ بَيْعِ الْوَرِقِ، بِالذَّهَبِ دَيْنًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا يَحْيَى بْنُ صَالِحٍ، حَدَّثَنَا مُعَاوِيَةُ، عَنْ يَحْيَى، - وَهُوَ ابْنُ أَبِي كَثِيرٍ - عَنْ يَحْيَى بْنِ أَبِي إِسْحَاقَ، أَنَّ عَبْدَ الرَّحْمَنِ بْنَ أَبِي بَكْرَةَ، أَخْبَرَهُ أَنَّ أَبَا بَكْرَةَ قَالَ نَهَانَا رَسُولُ اللَّهِ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "3af1c4794157a6573f46f61345a790e0fb0b4bde826d7ecc2d6f8701016322f1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9b3e842b-0a95-4be2-8abb-2bb9b86ff28f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1591a",
+      "reference": "Sahih Muslim, hadith 1591 a, book 22, باب بَيْعِ الْقِلاَدَةِ فِيهَا خَرَزٌ وَذَهَبٌ ‏‏",
+      "title": "باب بَيْعِ الْقِلاَدَةِ فِيهَا خَرَزٌ وَذَهَبٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَحْمَدُ بْنُ عَمْرِو بْنِ سَرْحٍ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي أَبُو هَانِئٍ الْخَوْلاَنِيُّ أَنَّهُ سَمِعَ عُلَىَّ بْنَ رَبَاحٍ اللَّخْمِيَّ، يَقُولُ سَمِعْتُ فَضَالَةَ بْنَ عُبَيْدٍ الأَنْصَارِيَّ، يَقُولُ أُتِيَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَهُوَ بِخَيْبَرَ بِقِلاَدَةٍ فِيهَا خَرَزٌ وَذَهَبٌ وَهِيَ مِنَ الْمَغَانِمِ تُبَاعُ فَأَمَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم بِالذَّهَبِ الَّذِي فِي الْقِلاَدَةِ فَنُزِعَ وَحْدَهُ ثُمَّ قَالَ لَهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الذَّهَبُ بِالذَّهَبِ وَزْنًا بِوَزْنٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ca243dbdaeaceaef0b3d7a2a258de54fac857161227cadc4d1ed293402390807",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir Ahmad ibn Amr ibn Sarh m’a rapporté : Ibn Wahb nous a informés : Abu Hani al-Khawlani m’a rapporté avoir entendu Ulayy ibn Rabah al-Lakhmi dire : « J’ai entendu Fadala ibn Ubayd al-Ansari dire : On apporta au Messager d’Allah, alors qu’il se trouvait à Khaybar, un collier composé de perles et d’or, provenant du butin et destiné à la vente. Le Messager d’Allah ordonna que l’or du collier en soit retiré séparément, puis dit : “L’or contre l’or doit être échangé au même poids.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eb96fcba-7217-4e86-b53f-35e34c0293d6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1591b",
+      "reference": "Sahih Muslim, hadith 1591 b, book 22, باب بَيْعِ الْقِلاَدَةِ فِيهَا خَرَزٌ وَذَهَبٌ ‏‏",
+      "title": "باب بَيْعِ الْقِلاَدَةِ فِيهَا خَرَزٌ وَذَهَبٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ أَبِي شُجَاعٍ، سَعِيدِ بْنِ يَزِيدَ عَنْ خَالِدِ بْنِ، أَبِي عِمْرَانَ عَنْ حَنَشٍ الصَّنْعَانِيِّ، عَنْ فَضَالَةَ بْنِ عُبَيْدٍ، قَالَ اشْتَرَيْتُ يَوْمَ خَيْبَرَ قِلاَدَةً بِاثْنَىْ عَشَرَ دِينَارًا فِيهَا ذَهَبٌ وَخَرَزٌ فَفَصَّلْتُهَا فَوَجَدْتُ فِيهَا أَكْثَرَ مِنِ اثْنَىْ عَشَرَ دِينَارًا فَذَكَرْتُ ذَلِكَ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ لاَ تُبَاعُ حَتَّى تُفَصَّلَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5f85abfce384c48de400acd6a4d3c493696824f3332ea0a9f0094d34bf4f5666",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Layth nous a rapporté, d’après Abu Shuja‘ Sa‘id ibn Yazid, d’après Khalid ibn Abi Imran, d’après Hanash al-San‘ani, d’après Fadala ibn Ubayd, qui dit : « Le jour de Khaybar, j’achetai un collier pour douze dinars. Il contenait de l’or et des perles. Je le démontai et constatai qu’il contenait plus de douze dinars d’or. J’en parlai au Prophète, qui dit : “Ne le vendez pas avant de l’avoir démonté.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6ea87113-077a-419e-9c57-2d9ea36ad051",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1591c",
+      "reference": "Sahih Muslim, hadith 1591 c, book 22, باب بَيْعِ الْقِلاَدَةِ فِيهَا خَرَزٌ وَذَهَبٌ ‏‏",
+      "title": "باب بَيْعِ الْقِلاَدَةِ فِيهَا خَرَزٌ وَذَهَبٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا ابْنُ مُبَارَكٍ، عَنْ سَعِيدِ بْنِ، يَزِيدَ بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "4b0a60782997d8cb829f1984552a57f5be82cd2ab0fd6b51efee20a2fd184a4e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eb1ec6b1-cae6-43c7-af2e-22d1bd2a2413",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1591d",
+      "reference": "Sahih Muslim, hadith 1591 d, book 22, باب بَيْعِ الْقِلاَدَةِ فِيهَا خَرَزٌ وَذَهَبٌ ‏‏",
+      "title": "باب بَيْعِ الْقِلاَدَةِ فِيهَا خَرَزٌ وَذَهَبٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنِ ابْنِ أَبِي جَعْفَرٍ، عَنِ الْجُلاَحِ أَبِي كَثِيرٍ، حَدَّثَنِي حَنَشٌ الصَّنْعَانِيُّ، عَنْ فَضَالَةَ بْنِ عُبَيْدٍ، قَالَ كُنَّا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم يَوْمَ خَيْبَرَ نُبَايِعُ الْيَهُودَ الْوُقِيَّةَ الذَّهَبَ بِالدِّينَارَيْنِ وَالثَّلاَثَةِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تَبِيعُوا الذَّهَبَ بِالذَّهَبِ إِلاَّ وَزْنًا بِوَزْنٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3b234b98c9e600600cc75a21052b62c90ddf29ac9a4521e179ca4a1eb81dd233",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Layth nous a rapporté, d’après Ibn Abi Ja‘far, d’après al-Jullah Abu Kathir, qui m’a rapporté, d’après Hanash al-San‘ani, d’après Fadala ibn Ubayd, qui dit : « Le jour de Khaybar, nous étions avec le Messager d’Allah et échangions avec les Juifs une once d’or contre deux ou trois dinars. Le Messager d’Allah dit alors : “N’échangez pas de l’or contre de l’or, sauf au même poids.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f9050a1a-8474-4923-94b1-8f0d3f42c342",
+      "reason": "Cette entrée donne seulement une chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "6ea87113-077a-419e-9c57-2d9ea36ad051",
+      "reason": "Cette entrée donne seulement une chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
