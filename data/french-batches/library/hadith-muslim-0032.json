@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0032",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:00:55.046Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "07440bbd-6e98-45d8-9f12-cddc1b525f69",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:80a",
+      "reference": "Sahih Muslim, hadith 80 a, book 1, باب بَيَانِ نُقْصَانِ الإِيمَانِ بِنَقْصِ الطَّاعَاتِ وَبَيَانِ إِطْلاَقِ لَفْظِ الْكُفْرِ عَلَى غَيْرِ الْكُفْرِ بِاللَّهِ كَكُفْرِ النِّعْمَةِ وَالْحُقُوقِ",
+      "title": "باب بَيَانِ نُقْصَانِ الإِيمَانِ بِنَقْصِ الطَّاعَاتِ وَبَيَانِ إِطْلاَقِ لَفْظِ الْكُفْرِ عَلَى غَيْرِ الْكُفْرِ بِاللَّهِ كَكُفْرِ النِّعْمَةِ وَالْحُقُوقِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي الْحَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، وَأَبُو بَكْرِ بْنُ إِسْحَاقَ قَالاَ حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، أَخْبَرَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، قَالَ أَخْبَرَنِي زَيْدُ بْنُ أَسْلَمَ، عَنْ عِيَاضِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، عَنِ النَّبِيِّ صلى الله عليه وسلم ح",
+      "source_hash_sha256": "08a87f1d10e7fde1b0afddf8d18f13f1aa2bcd9e688172dbb07283ecdb602084",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe de ce récit s’interrompt au milieu de la chaîne de transmission, avant le texte du hadith. Garder la traduction française en attente jusqu’à ce qu’une source complète et vérifiée soit disponible."
+    },
+    {
+      "source_id": "15a92349-4073-46ba-a251-0545bcb20a16",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:80b",
+      "reference": "Sahih Muslim, hadith 80 b, book 1, باب بَيَانِ نُقْصَانِ الإِيمَانِ بِنَقْصِ الطَّاعَاتِ وَبَيَانِ إِطْلاَقِ لَفْظِ الْكُفْرِ عَلَى غَيْرِ الْكُفْرِ بِاللَّهِ كَكُفْرِ النِّعْمَةِ وَالْحُقُوقِ",
+      "title": "باب بَيَانِ نُقْصَانِ الإِيمَانِ بِنَقْصِ الطَّاعَاتِ وَبَيَانِ إِطْلاَقِ لَفْظِ الْكُفْرِ عَلَى غَيْرِ الْكُفْرِ بِاللَّهِ كَكُفْرِ النِّعْمَةِ وَالْحُقُوقِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - وَهُوَ ابْنُ جَعْفَرٍ - عَنْ عَمْرِو بْنِ أَبِي عَمْرٍو، عَنِ الْمَقْبُرِيِّ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ مَعْنَى حَدِيثِ ابْنِ عُمَرَ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "18b0dd74287b2079aadde1da4540818afdb4bfc4019fdcf3fd2c17ac5938011d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Il rapporta un hadith de sens semblable à celui d’Ibn ‘Umar, transmis du Prophète.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4ec852b3-b3cb-4327-ba7d-5814d47fd134",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:81a",
+      "reference": "Sahih Muslim, hadith 81 a, book 1, باب بَيَانِ إِطْلاَقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلاَةَ ‏‏",
+      "title": "باب بَيَانِ إِطْلاَقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلاَةَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا قَرَأَ ابْنُ آدَمَ السَّجْدَةَ فَسَجَدَ اعْتَزَلَ الشَّيْطَانُ يَبْكِي يَقُولُ يَا وَيْلَهُ - وَفِي رِوَايَةِ أَبِي كُرَيْبٍ يَا وَيْلِي - أُمِرَ ابْنُ آدَمَ بِالسُّجُودِ فَسَجَدَ فَلَهُ الْجَنَّةُ وَأُمِرْتُ بِالسُّجُودِ فَأَبَيْتُ فَلِيَ النَّارُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "41c4a238bee5c0787079e992d322018f17302f6fe2cad8ce9faa9ca28904f187",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Lorsque le fils d’Adam récite un verset de prosternation et se prosterne, Satan s’éloigne en pleurant et dit : « Malheur à lui ! » — ou, selon la version d’Abu Kurayb : « Malheur à moi ! » — « Le fils d’Adam a reçu l’ordre de se prosterner et il l’a fait : le Paradis lui revient. J’ai reçu l’ordre de me prosterner, mais j’ai refusé : le Feu m’est destiné. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ff0f1f36-9749-4555-bed3-9f39bac0ef85",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:81b",
+      "reference": "Sahih Muslim, hadith 81 b, book 1, باب بَيَانِ إِطْلاَقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلاَةَ ‏‏",
+      "title": "باب بَيَانِ إِطْلاَقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلاَةَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا الأَعْمَشُ، بِهَذَا الإِسْنَادِ مِثْلَهُ غَيْرَ أَنَّهُ قَالَ ‏\"‏ فَعَصَيْتُ فَلِيَ النَّارُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b39f22006eb8ee6c25e558f65907fc0ce606b96401f29d7a1e1e7a7bfd668b5c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Il rapporta le même hadith avec la même chaîne, mais dit : « J’ai désobéi, le Feu m’est destiné. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90c74e4a-2229-4316-9d78-b15988f089d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:82a",
+      "reference": "Sahih Muslim, hadith 82 a, book 1, باب بَيَانِ إِطْلاَقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلاَةَ ‏‏",
+      "title": "باب بَيَانِ إِطْلاَقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلاَةَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، وَعُثْمَانُ بْنُ أَبِي شَيْبَةَ، كِلاَهُمَا عَنْ جَرِيرٍ، قَالَ يَحْيَى أَخْبَرَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي سُفْيَانَ، قَالَ سَمِعْتُ جَابِرًا، يَقُولُ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ بَيْنَ الرَّجُلِ وَبَيْنَ الشِّرْكِ وَالْكُفْرِ تَرْكَ الصَّلاَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "077b1de25119fce937fda43b3e78ce0f95d958f9bda634e313e049edc7a4bbf6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "J’ai entendu Jabir dire qu’il avait entendu le Prophète déclarer : « Entre l’homme, d’une part, et l’associationnisme et la mécréance, d’autre part, se trouve l’abandon de la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "686b8293-6f58-4419-8ae8-e53860121e40",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:82b",
+      "reference": "Sahih Muslim, hadith 82 b, book 1, باب بَيَانِ إِطْلاَقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلاَةَ ‏‏",
+      "title": "باب بَيَانِ إِطْلاَقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلاَةَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو غَسَّانَ الْمِسْمَعِيُّ، حَدَّثَنَا الضَّحَّاكُ بْنُ مَخْلَدٍ، عَنِ ابْنِ جُرَيْجٍ، قَالَ أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ بَيْنَ الرَّجُلِ وَبَيْنَ الشِّرْكِ وَالْكُفْرِ تَرْكُ الصَّلاَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "207765e4dd4957ab14468be9cdc69bdbaf1325feee13b90220a83aa0c5991238",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jabir ibn ‘Abd Allah a dit avoir entendu le Messager de Dieu déclarer : « Entre l’homme et l’associationnisme et la mécréance se trouve l’abandon de la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "07440bbd-6e98-45d8-9f12-cddc1b525f69",
+      "reason": "La source arabe de ce récit s’interrompt au milieu de la chaîne de transmission, avant le texte du hadith. Garder la traduction française en attente jusqu’à ce qu’une source complète et vérifiée soit disponible."
+    }
+  ]
+}
