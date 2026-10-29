@@ -8276,3 +8276,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0230 saves four private French drafts about beginning a served meal before prayer and avoiding distraction from food or bodily needs during prayer. Muslim 558 and 559b contain only incomplete cross-references and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 931 Muslim drafts, 7,267 total hadith drafts, 7,362 remaining, and 445 Needs Mo items.
+
+### 2026-10-29: Muslim 560b–562
+
+- FR-LIB-HAD-MUSLIM-0231 saves five private French drafts about prayer and the odors of garlic, and the prohibition of domestic donkey meat at Khaybar. Muslim 560b is only a cross-reference that omits the earlier story and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 936 Muslim drafts, 7,272 total hadith drafts, 7,357 remaining, and 446 Needs Mo items.
