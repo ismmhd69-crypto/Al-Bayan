@@ -17673,6 +17673,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-816",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-816.json",
+      "sourceIds": [
+        "1bdd4e26-7487-4be9-b756-eb8f7849e30f"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with hold"
     }
   ],
   "blockers": [
@@ -18353,6 +18369,12 @@
       "scope": "Sahih al-Bukhari 4512: direct or partial Quran quotation",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:189. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4513-QURAN-2-193-49-9",
+      "scope": "Sahih al-Bukhari 4513: direct Quran quotations in the unusually long report",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:193 and 49:9. The complete record remains blank in FR-LIB-HAD-BUKHARI-816 pending an approved, attributed French Quran translation."
     }
   ],
   "hadithBukhariDrafted": 3951,
