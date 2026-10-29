@@ -5268,3 +5268,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1030 saves six private French drafts, preserving the parallel transmission chains and the narration about the writing requested near the Prophet’s final illness.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,710 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,919, including held records.
+
+
+### 2026-10-29: Bukhari 5671–5676
+
+- FR-LIB-HAD-BUKHARI-1031 saves six private French drafts, including the parallel wordings of the sick-visit supplication.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,716 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,913, including held records.
