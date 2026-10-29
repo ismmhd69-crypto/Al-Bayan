@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-100",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T02:37:34.742Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2f81890a-b970-4f6c-ae7f-4aa24114c936",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:552",
+      "reference": "Sahih al-Bukhari, hadith 552, book 9, باب إِثْمِ مَنْ فَاتَتْهُ الْعَصْرُ",
+      "title": "باب إِثْمِ مَنْ فَاتَتْهُ الْعَصْرُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ أَخْبَرَنَا مَالِكٌ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الَّذِي تَفُوتُهُ صَلاَةُ الْعَصْرِ كَأَنَّمَا وُتِرَ أَهْلَهُ وَمَالَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "f14bb21b09d7b8d4355bc2f14f6ebee55b424f10afd5f8c4d2715056c80f908c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Yusuf nous a rapporté, en disant : Malik nous a informés, d’après Nafi, d’après Ibn Umar, que le Messager d’Allah, qu’Allah le bénisse et lui accorde la paix, a dit : « Celui qui manque la prière de l’après-midi, c’est comme s’il avait perdu sa famille et ses biens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c4306883-411b-4d15-a886-bc4d4a6c4d6c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:553",
+      "reference": "Sahih al-Bukhari, hadith 553, book 9, باب مَنْ تَرَكَ الْعَصْرَ",
+      "title": "باب مَنْ تَرَكَ الْعَصْرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا هِشَامٌ، قَالَ حَدَّثَنَا يَحْيَى بْنُ أَبِي كَثِيرٍ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَبِي الْمَلِيحِ، قَالَ كُنَّا مَعَ بُرَيْدَةَ فِي غَزْوَةٍ فِي يَوْمٍ ذِي غَيْمٍ فَقَالَ بَكِّرُوا بِصَلاَةِ الْعَصْرِ فَإِنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ تَرَكَ صَلاَةَ الْعَصْرِ فَقَدْ حَبِطَ عَمَلُهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "d044c6a2c5471e2f52d8bdf896152830634e2ec47347dd543ad2dd2c050e81e2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muslim ibn Ibrahim nous a rapporté, en disant : Hisham nous a rapporté, en disant : Yahya ibn Abi Kathir nous a rapporté, d’après Abou Qilaba, d’après Abou al-Malih, qui a dit : « Par un jour nuageux, nous étions en expédition avec Burayda. Il dit : “Accomplissez la prière de l’après-midi de bonne heure, car le Prophète, qu’Allah le bénisse et lui accorde la paix, a dit : ‘Celui qui abandonne la prière de l’après-midi voit ses œuvres réduites à néant.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "39c1bf9b-3087-4a51-afe8-0c4b4400d4c7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:554",
+      "reference": "Sahih al-Bukhari, hadith 554, book 9, باب فَضْلِ صَلاَةِ الْعَصْرِ",
+      "title": "باب فَضْلِ صَلاَةِ الْعَصْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحُمَيْدِيُّ، قَالَ حَدَّثَنَا مَرْوَانُ بْنُ مُعَاوِيَةَ، قَالَ حَدَّثَنَا إِسْمَاعِيلُ، عَنْ قَيْسٍ، عَنْ جَرِيرٍ، قَالَ كُنَّا عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَنَظَرَ إِلَى الْقَمَرِ لَيْلَةً ـ يَعْنِي الْبَدْرَ ـ فَقَالَ ‏\"‏ إِنَّكُمْ سَتَرَوْنَ رَبَّكُمْ كَمَا تَرَوْنَ هَذَا الْقَمَرَ لاَ تُضَامُّونَ فِي رُؤْيَتِهِ، فَإِنِ اسْتَطَعْتُمْ أَنْ لاَ تُغْلَبُوا عَلَى صَلاَةٍ قَبْلَ طُلُوعِ الشَّمْسِ وَقَبْلَ غُرُوبِهَا فَافْعَلُوا ‏\"‏‏.‏ ثُمَّ قَرَأَ ‏[quran sura=\"50\" aya_start=\"39\" aya_end=\"39\"]{‏وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ الشَّمْسِ وَقَبْلَ الْغُرُوبِ‏}‏‏.‏ قَالَ إِسْمَاعِيلُ افْعَلُوا لاَ تَفُوتَنَّكُمْ‏.‏",
+      "source_hash_sha256": "5181ac3a043ca56f2a3cd89f9076719d2017064915c0fe85f6a78649c52b3429",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_approved_french_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0ee6be22-311e-4ded-8db2-8e9ffe6acf33",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:555",
+      "reference": "Sahih al-Bukhari, hadith 555, book 9, باب فَضْلِ صَلاَةِ الْعَصْرِ",
+      "title": "باب فَضْلِ صَلاَةِ الْعَصْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يَتَعَاقَبُونَ فِيكُمْ مَلاَئِكَةٌ بِاللَّيْلِ وَمَلاَئِكَةٌ بِالنَّهَارِ، وَيَجْتَمِعُونَ فِي صَلاَةِ الْفَجْرِ وَصَلاَةِ الْعَصْرِ، ثُمَّ يَعْرُجُ الَّذِينَ بَاتُوا فِيكُمْ، فَيَسْأَلُهُمْ وَهْوَ أَعْلَمُ بِهِمْ كَيْفَ تَرَكْتُمْ عِبَادِي فَيَقُولُونَ تَرَكْنَاهُمْ وَهُمْ يُصَلُّونَ، وَأَتَيْنَاهُمْ وَهُمْ يُصَلُّونَ ‏\"‏‏.‏",
+      "source_hash_sha256": "ed4c76a73b097dabf49d2eff822cfc10f8a74adf86e2489064073d9864a855c1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Yusuf nous a rapporté, en disant : Malik nous a rapporté, d’après Abou az-Zinad, d’après Al-A‘raj, d’après Abou Hurayra, que le Messager d’Allah, qu’Allah le bénisse et lui accorde la paix, a dit : « Des anges se succèdent auprès de vous, la nuit et le jour, et se réunissent lors de la prière de l’aube et de celle de l’après-midi. Puis ceux qui ont passé la nuit auprès de vous montent. Il leur demande — bien qu’Il les connaisse parfaitement — : “Comment avez-vous laissé Mes serviteurs ?” Ils répondent : “Nous les avons laissés alors qu’ils priaient, et nous sommes venus à eux alors qu’ils priaient.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2a7f4aff-1f5f-4a03-80ce-15a27bdc0915",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:556",
+      "reference": "Sahih al-Bukhari, hadith 556, book 9, باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الْعَصْرِ قَبْلَ الْغُرُوبِ",
+      "title": "باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الْعَصْرِ قَبْلَ الْغُرُوبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا شَيْبَانُ، عَنْ يَحْيَى، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا أَدْرَكَ أَحَدُكُمْ سَجْدَةً مِنْ صَلاَةِ الْعَصْرِ قَبْلَ أَنْ تَغْرُبَ الشَّمْسُ فَلْيُتِمَّ صَلاَتَهُ، وَإِذَا أَدْرَكَ سَجْدَةً مِنْ صَلاَةِ الصُّبْحِ قَبْلَ أَنْ تَطْلُعَ الشَّمْسُ فَلْيُتِمَّ صَلاَتَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "84639db66529957d3b10fb8e41a60b0d01395d2747a90db87093d8f36dd23e04",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Nu‘aym nous a rapporté, en disant : Shayban nous a rapporté, d’après Yahya, d’après Abou Salama, d’après Abou Hurayra, qui a dit : le Messager d’Allah, qu’Allah le bénisse et lui accorde la paix, a dit : « Si l’un de vous rattrape une prosternation de la prière de l’après-midi avant le coucher du soleil, qu’il achève sa prière. Et s’il rattrape une prosternation de la prière de l’aube avant le lever du soleil, qu’il achève sa prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "15237036-389b-451f-bd4e-ce4830f7df06",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:557",
+      "reference": "Sahih al-Bukhari, hadith 557, book 9, باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الْعَصْرِ قَبْلَ الْغُرُوبِ",
+      "title": "باب مَنْ أَدْرَكَ رَكْعَةً مِنَ الْعَصْرِ قَبْلَ الْغُرُوبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي إِبْرَاهِيمُ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، أَنَّهُ أَخْبَرَهُ أَنَّهُ، سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّمَا بَقَاؤُكُمْ فِيمَا سَلَفَ قَبْلَكُمْ مِنَ الأُمَمِ كَمَا بَيْنَ صَلاَةِ الْعَصْرِ إِلَى غُرُوبِ الشَّمْسِ، أُوتِيَ أَهْلُ التَّوْرَاةِ التَّوْرَاةَ فَعَمِلُوا حَتَّى إِذَا انْتَصَفَ النَّهَارُ عَجَزُوا، فَأُعْطُوا قِيرَاطًا قِيرَاطًا، ثُمَّ أُوتِيَ أَهْلُ الإِنْجِيلِ الإِنْجِيلَ فَعَمِلُوا إِلَى صَلاَةِ الْعَصْرِ، ثُمَّ عَجَزُوا، فَأُعْطُوا قِيرَاطًا قِيرَاطًا، ثُمَّ أُوتِينَا الْقُرْآنَ فَعَمِلْنَا إِلَى غُرُوبِ الشَّمْسِ، فَأُعْطِينَا قِيرَاطَيْنِ قِيرَاطَيْنِ، فَقَالَ أَهْلُ الْكِتَابَيْنِ أَىْ رَبَّنَا أَعْطَيْتَ هَؤُلاَءِ قِيرَاطَيْنِ قِيرَاطَيْنِ، وَأَعْطَيْتَنَا قِيرَاطًا قِيرَاطًا، وَنَحْنُ كُنَّا أَكْثَرَ عَمَلاً، قَالَ قَالَ اللَّهُ عَزَّ وَجَلَّ هَلْ ظَلَمْتُكُمْ مِنْ أَجْرِكُمْ مِنْ شَىْءٍ قَالُوا لاَ، قَالَ فَهْوَ فَضْلِي أُوتِيهِ مَنْ أَشَاءُ ‏\"‏‏.‏",
+      "source_hash_sha256": "50e5684d2b4e723bac90409517e81d2a1b9ace6489d7114f022d45d9f21a4bab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd al-Aziz ibn Abd Allah nous a rapporté, en disant : Ibrahim m’a rapporté, d’après Ibn Shihab, d’après Salim ibn Abd Allah, d’après son père, qui l’informa avoir entendu le Messager d’Allah, qu’Allah le bénisse et lui accorde la paix, dire : « Le temps qui vous reste, comparé à celui des nations qui vous ont précédés, est comme l’intervalle entre la prière de l’après-midi et le coucher du soleil. Les gens de la Torah reçurent la Torah et la mirent en pratique jusqu’au milieu de la journée, puis s’en trouvèrent incapables ; ils reçurent alors chacun un qirat. Les gens de l’Évangile reçurent ensuite l’Évangile et le mirent en pratique jusqu’à la prière de l’après-midi, puis s’en trouvèrent incapables ; ils reçurent alors chacun un qirat. Puis nous reçûmes le Coran et le mîmes en pratique jusqu’au coucher du soleil ; nous reçûmes alors deux qirats chacun. » Les gens des deux Écritures dirent : « Notre Seigneur, Tu leur as donné deux qirats chacun et Tu nous as donné un qirat chacun, alors que nous avons accompli davantage d’œuvres. » Allah, Puissant et Majestueux, dit : « Vous ai-Je lésés dans la récompense qui vous revient ? » Ils répondirent : « Non. » Il dit : « C’est là Ma faveur ; Je l’accorde à qui Je veux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "39c1bf9b-3087-4a51-afe8-0c4b4400d4c7",
+      "url": "https://sunnah.com/bukhari:554",
+      "reason": "Hadith embeds Quran 50:39. The current Quran translation configuration exposes English and German only. Do not generate or permanently store a French Quran translation."
+    }
+  ]
+}
