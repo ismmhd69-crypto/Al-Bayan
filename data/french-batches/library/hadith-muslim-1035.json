@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1035",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:55:33.831Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6727542d-daba-40bb-be71-41924d011fbf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2199e",
+      "reference": "Sahih Muslim, hadith 2199 e, book 39, باب اسْتِحْبَابِ الرُّقْيَةِ مِنَ الْعَيْنِ وَالنَّمْلَةِ وَالْحُمَةِ وَالنَّظْرَةِ ‏‏",
+      "title": "باب اسْتِحْبَابِ الرُّقْيَةِ مِنَ الْعَيْنِ وَالنَّمْلَةِ وَالْحُمَةِ وَالنَّظْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا الأَعْمَشُ، عَنْ أَبِي سُفْيَانَ، عَنْ جَابِرٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الرُّقَى فَجَاءَ آلُ عَمْرِو بْنِ حَزْمٍ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالُوا يَا رَسُولَ اللَّهِ إِنَّهُ كَانَتْ عِنْدَنَا رُقْيَةٌ نَرْقِي بِهَا مِنَ الْعَقْرَبِ وَإِنَّكَ نَهَيْتَ عَنِ الرُّقَى ‏.‏ قَالَ فَعَرَضُوهَا عَلَيْهِ ‏.‏ فَقَالَ ‏\"‏ مَا أَرَى بَأْسًا مَنِ اسْتَطَاعَ مِنْكُمْ أَنْ يَنْفَعَ أَخَاهُ فَلْيَنْفَعْهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "79b7ca1b371b624eeb78ffb7e6b82ce912b6532a9205a10a2df5079e9613ca5e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah (ﷺ) avait interdit les invocations de guérison. Les Banû ‘Amr ibn Hazm vinrent le voir et dirent : « Ô Messager d’Allah, nous avions une invocation que nous utilisions contre les piqûres de scorpion, mais tu as interdit les invocations de guérison. » Ils la lui présentèrent. Il répondit : « Je n’y vois aucun mal. Que celui d’entre vous qui peut être utile à son frère le fasse. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "40cb013b-6c58-4ead-a627-cf2c0be69a48",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2200",
+      "reference": "Sahih Muslim, hadith 2200, book 39, باب لاَ بَأْسَ بِالرُّقَى مَا لَمْ يَكُنْ فِيهِ شِرْكٌ ‏‏",
+      "title": "باب لاَ بَأْسَ بِالرُّقَى مَا لَمْ يَكُنْ فِيهِ شِرْكٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مُعَاوِيَةُ بْنُ صَالِحٍ، عَنْ عَبْدِ الرَّحْمَنِ، بْنِ جُبَيْرٍ عَنْ أَبِيهِ، عَنْ عَوْفِ بْنِ مَالِكٍ الأَشْجَعِيِّ، قَالَ كُنَّا نَرْقِي فِي الْجَاهِلِيَّةِ فَقُلْنَا يَا رَسُولَ اللَّهِ كَيْفَ تَرَى فِي ذَلِكَ فَقَالَ ‏\"‏ اعْرِضُوا عَلَىَّ رُقَاكُمْ لاَ بَأْسَ بِالرُّقَى مَا لَمْ يَكُنْ فِيهِ شِرْكٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4314f65df8b7a0a5ef94d501ccebedd552a62f005cecee11e97a912296cb250a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Awf ibn Mâlik al-Ashja‘î rapporte : « À l’époque préislamique, nous récitions des invocations de guérison. Nous demandâmes : “Ô Messager d’Allah, qu’en penses-tu ?” Il répondit : “Présentez-moi vos invocations. Il n’y a pas de mal à réciter des invocations de guérison tant qu’elles ne contiennent pas d’association à Allah.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b6a2477d-14e7-4ec4-ab48-f087a38dff32",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2201a",
+      "reference": "Sahih Muslim, hadith 2201 a, book 39, باب جَوَازِ أَخْذِ الأُجْرَةِ عَلَى الرُّقْيَةِ بِالْقُرْآنِ وَالأَذْكَارِ ‏‏",
+      "title": "باب جَوَازِ أَخْذِ الأُجْرَةِ عَلَى الرُّقْيَةِ بِالْقُرْآنِ وَالأَذْكَارِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، أَخْبَرَنَا هُشَيْمٌ، عَنْ أَبِي بِشْرٍ، عَنْ أَبِي الْمُتَوَكِّلِ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ نَاسًا، مِنْ أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم كَانُوا فى سَفَرٍ فَمَرُّوا بِحَىٍّ مِنْ أَحْيَاءِ الْعَرَبِ فَاسْتَضَافُوهُمْ فَلَمْ يُضِيفُوهُمْ ‏.‏ فَقَالُوا لَهُمْ هَلْ فِيكُمْ رَاقٍ فَإِنَّ سَيِّدَ الْحَىِّ لَدِيغٌ أَوْ مُصَابٌ ‏.‏ فَقَالَ رَجُلٌ مِنْهُمْ نَعَمْ فَأَتَاهُ فَرَقَاهُ بِفَاتِحَةِ الْكِتَابِ فَبَرَأَ الرَّجُلُ فَأُعْطِيَ قَطِيعًا مِنْ غَنَمٍ فَأَبَى أَنْ يَقْبَلَهَا ‏.‏ وَقَالَ حَتَّى أَذْكُرَ ذَلِكَ لِلنَّبِيِّ صلى الله عليه وسلم ‏.‏ فَأَتَى النَّبِيَّ صلى الله عليه وسلم فَذَكَرَ ذَلِكَ لَهُ ‏.‏ فَقَالَ يَا رَسُولَ اللَّهِ وَاللَّهِ مَا رَقَيْتُ إِلاَّ بِفَاتِحَةِ الْكِتَابِ ‏.‏ فَتَبَسَّمَ وَقَالَ ‏\"‏ وَمَا أَدْرَاكَ أَنَّهَا رُقْيَةٌ ‏\"‏ ‏.‏ ثُمَّ قَالَ ‏\"‏ خُذُوا مِنْهُمْ وَاضْرِبُوا لِي بِسَهْمٍ مَعَكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "540b35d320e6141127fe0009664ecd18215d61213959195d5c00d37fc71c78d3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Un groupe de compagnons du Messager d’Allah (ﷺ) voyageait et passa près d’un clan arabe. Ils leur demandèrent l’hospitalité, mais ceux-ci refusèrent de les accueillir. Les gens du clan demandèrent alors : « Y a-t-il parmi vous quelqu’un qui récite des invocations de guérison ? Le chef du clan a été piqué — ou souffre d’un mal. » Un compagnon répondit oui et alla auprès de lui. Il récita sur lui la sourate al-Fâtiha, et l’homme guérit. On lui offrit un troupeau de moutons, mais il refusa de l’accepter avant d’en parler au Prophète (ﷺ). Il vint donc lui raconter ce qui s’était passé et dit : « Par Allah, je n’ai récité que la sourate al-Fâtiha. » Le Prophète (ﷺ) sourit et demanda : « Comment savais-tu qu’elle pouvait servir d’invocation de guérison ? » Puis il dit : « Prenez ces moutons et réservez-m’en une part avec vous. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "80b191e3-feb9-4206-a237-7b045386d5ce",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2201b",
+      "reference": "Sahih Muslim, hadith 2201 b, book 39, باب جَوَازِ أَخْذِ الأُجْرَةِ عَلَى الرُّقْيَةِ بِالْقُرْآنِ وَالأَذْكَارِ ‏‏",
+      "title": "باب جَوَازِ أَخْذِ الأُجْرَةِ عَلَى الرُّقْيَةِ بِالْقُرْآنِ وَالأَذْكَارِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، وَأَبُو بَكْرِ بْنُ نَافِعٍ كِلاَهُمَا عَنْ غُنْدَرٍ، مُحَمَّدِ بْنِ جَعْفَرٍ عَنْ شُعْبَةَ، عَنْ أَبِي بِشْرٍ، بِهَذَا الإِسْنَادِ وَقَالَ فِي الْحَدِيثِ فَجَعَلَ يَقْرَأُ أُمَّ الْقُرْآنِ وَيَجْمَعُ بُزَاقَهُ وَيَتْفُلُ فَبَرَأَ الرَّجُلُ ‏.‏",
+      "source_hash_sha256": "d67678e4c91b2ba00d340e2225b7c404c0b6c5c51e370b5e8927859fc10ffce1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "591c4364-699f-4ba0-a86d-cba9d82bb866",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2201c",
+      "reference": "Sahih Muslim, hadith 2201 c, book 39, باب جَوَازِ أَخْذِ الأُجْرَةِ عَلَى الرُّقْيَةِ بِالْقُرْآنِ وَالأَذْكَارِ ‏‏",
+      "title": "باب جَوَازِ أَخْذِ الأُجْرَةِ عَلَى الرُّقْيَةِ بِالْقُرْآنِ وَالأَذْكَارِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا هِشَامُ بْنُ حَسَّانَ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، عَنْ أَخِيهِ، مَعْبَدِ بْنِ سِيرِينَ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ نَزَلْنَا مَنْزِلاً فَأَتَتْنَا امْرَأَةٌ فَقَالَتْ إِنَّ سَيِّدَ الْحَىِّ سَلِيمٌ لُدِغَ فَهَلْ فِيكُمْ مِنْ رَاقٍ فَقَامَ مَعَهَا رَجُلٌ مِنَّا مَا كُنَّا نَظُنُّهُ يُحْسِنُ رُقْيَةً فَرَقَاهُ بِفَاتِحَةِ الْكِتَابِ فَبَرَأَ فَأَعْطَوْهُ غَنَمًا وَسَقَوْنَا لَبَنًا فَقُلْنَا أَكُنْتَ تُحْسِنُ رُقْيَةً فَقَالَ مَا رَقَيْتُهُ إِلاَّ بِفَاتِحَةِ الْكِتَابِ ‏.‏ قَالَ فَقُلْتُ لاَ تُحَرِّكُوهَا حَتَّى نَأْتِيَ النَّبِيَّ صلى الله عليه وسلم ‏.‏ فَأَتَيْنَا النَّبِيَّ صلى الله عليه وسلم فَذَكَرْنَا ذَلِكَ لَهُ ‏.‏ فَقَالَ ‏\"‏ مَا كَانَ يُدْرِيهِ أَنَّهَا رُقْيَةٌ اقْسِمُوا وَاضْرِبُوا لِي بِسَهْمٍ مَعَكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6ca8c2a90bdf1b720cac5ec7aeaed4eac7d3757855fcea021e519b72b8a39729",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nous nous arrêtâmes en chemin et une femme vint nous dire : « Le chef du clan est sain, mais il a été piqué. Y a-t-il parmi vous quelqu’un qui récite des invocations de guérison ? » Un homme parmi nous l’accompagna ; nous ne pensions pas qu’il s’y connaissait. Il récita sur le chef la sourate al-Fâtiha et celui-ci guérit. On lui donna des moutons et on nous fit boire du lait. Nous lui demandâmes : « Savais-tu réciter des invocations de guérison ? » Il répondit : « Je n’ai récité que la sourate al-Fâtiha. » Je dis : « Ne touchez pas à ces moutons avant que nous allions voir le Prophète (ﷺ). » Nous vînmes donc lui raconter l’histoire. Il dit : « Comment savait-il qu’elle pouvait servir d’invocation de guérison ? Répartissez les moutons et réservez-m’en une part avec vous. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5e6f5d1c-f66f-4903-8f27-44ef78e6394e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2201d",
+      "reference": "Sahih Muslim, hadith 2201 d, book 39, باب جَوَازِ أَخْذِ الأُجْرَةِ عَلَى الرُّقْيَةِ بِالْقُرْآنِ وَالأَذْكَارِ ‏‏",
+      "title": "باب جَوَازِ أَخْذِ الأُجْرَةِ عَلَى الرُّقْيَةِ بِالْقُرْآنِ وَالأَذْكَارِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا وَهْبُ بْنُ جَرِيرٍ، حَدَّثَنَا هِشَامٌ، بِهَذَا الإِسْنَادِ ‏.‏ نَحْوَهُ غَيْرَ أَنَّهُ قَالَ فَقَامَ مَعَهَا رَجُلٌ مِنَّا مَا كُنَّا نَأْبِنُهُ بِرُقْيَةٍ ‏.‏",
+      "source_hash_sha256": "e8d41616518e239b93e28168874fbc8c05d253aa02f303e55da2ed52cc9d3202",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "80b191e3-feb9-4206-a237-7b045386d5ce",
+      "reason": "Cette entrée ne reproduit qu’un détail de la manière dont le récit précédent fut récité et renvoie au reste du récit. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "5e6f5d1c-f66f-4903-8f27-44ef78e6394e",
+      "reason": "Cette entrée renvoie au récit précédent et ne donne qu’une variante de formulation, sans reproduire son contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
