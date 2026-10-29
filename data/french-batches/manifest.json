@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5016,
+    "hadithBukhariDrafted": 5021,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5016,
+    "hadithLocalDrafted": 5021,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9613,
-    "hadithNeedsMo": 758,
+    "hadithLocalRemaining": 9608,
+    "hadithNeedsMo": 759,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23225,6 +23225,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1089",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1089.json",
+      "sourceIds": [
+        "8c73e049-7e19-4343-8432-65a4d361e9e7",
+        "cc87f552-c305-4b2a-8722-d0296f5f46e4",
+        "2db5f03c-a245-44d5-8385-7d28fab07d1c",
+        "87915af5-d513-4e0f-89e9-4fac4403cd6d",
+        "62182ec9-8903-4812-9f84-cd877b855c92",
+        "725a96c7-ab99-4185-b21a-d9d2b1c3b94c"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; one direct Quran quotation held blank. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26340,6 +26361,12 @@
       "scope": "Sahih al-Bukhari 5993: closing phrase about how long the shirt remained is unclear",
       "status": "blocked",
       "reason": "The exported wording is incomplete or unclear. Keep the entire item blank until the source is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6001-QURAN-25-68",
+      "scope": "Sahih al-Bukhari 6001 direct quotation of Quran 25:68",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 25:68. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
