@@ -6380,3 +6380,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1244 saves five private French drafts. Bukhari 6784 remains blank because its pledge wording directly quotes Quran 60:12. No database writes or publication occurred.
 - All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,717 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 825. Total local hadith rows not drafted: 8,912, including held records.
+
+
+### 2026-10-29: Bukhari 6790–6795 — one held
+
+- FR-LIB-HAD-BUKHARI-1245 saves five private French drafts. Bukhari 6795 remains blank because its source ends mid-variant note. No database writes or publication occurred.
+- All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,722 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 825. Total local hadith rows not drafted: 8,907, including held records.
