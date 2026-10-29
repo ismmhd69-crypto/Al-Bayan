@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-BUKHARI-1342",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:18:13.172Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "21036c74-bb59-4da5-b7a0-4113ad5e35d2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7362",
+      "reference": "Sahih al-Bukhari, hadith 7362, book 96, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لاَ تَسْأَلُوا أَهْلَ الْكِتَابِ عَنْ شَىْءٍ ‏\"‏",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لاَ تَسْأَلُوا أَهْلَ الْكِتَابِ عَنْ شَىْءٍ ‏\"‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا عُثْمَانُ بْنُ عُمَرَ، أَخْبَرَنَا عَلِيُّ بْنُ الْمُبَارَكِ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ كَانَ أَهْلُ الْكِتَابِ يَقْرَءُونَ التَّوْرَاةَ بِالْعِبْرَانِيَّةِ وَيُفَسِّرُونَهَا بِالْعَرَبِيَّةِ لأَهْلِ الإِسْلاَمِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تُصَدِّقُوا أَهْلَ الْكِتَابِ، وَلاَ تُكَذِّبُوهُمْ وَقُولُوا [quran sura=\"2\" aya_start=\"136\" aya_end=\"136\"]‏{‏آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ إِلَيْكُمْ‏}‏ ‏\"‏‏.‏ الآيَةَ‏.‏",
+      "source_hash_sha256": "964f7b43c90a8b3f5fc22d7ff0e195ef0b6a0d4023154db0fb64211ebad1aed4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "The report directly quotes Quran 2:136. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "source_id": "3b865f01-834e-4c6c-a7e4-eae5d52bb35a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7363",
+      "reference": "Sahih al-Bukhari, hadith 7363, book 96, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لاَ تَسْأَلُوا أَهْلَ الْكِتَابِ عَنْ شَىْءٍ ‏\"‏",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لاَ تَسْأَلُوا أَهْلَ الْكِتَابِ عَنْ شَىْءٍ ‏\"‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا إِبْرَاهِيمُ، أَخْبَرَنَا ابْنُ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ، أَنَّ ابْنَ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ كَيْفَ تَسْأَلُونَ أَهْلَ الْكِتَابِ عَنْ شَىْءٍ، وَكِتَابُكُمُ الَّذِي أُنْزِلَ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم أَحْدَثُ، تَقْرَءُونَهُ مَحْضًا لَمْ يُشَبْ وَقَدْ حَدَّثَكُمْ أَنَّ أَهْلَ الْكِتَابِ بَدَّلُوا كِتَابَ اللَّهِ وَغَيَّرُوهُ وَكَتَبُوا بِأَيْدِيهِمُ الْكِتَابَ وَقَالُوا هُوَ مِنْ عِنْدِ اللَّهِ‏.‏ لِيَشْتَرُوا بِهِ ثَمَنًا قَلِيلاً، أَلاَ يَنْهَاكُمْ مَا جَاءَكُمْ مِنَ الْعِلْمِ عَنْ مَسْأَلَتِهِمْ، لاَ وَاللَّهِ مَا رَأَيْنَا مِنْهُمْ رَجُلاً يَسْأَلُكُمْ عَنِ الَّذِي أُنْزِلَ عَلَيْكُمْ‏.‏",
+      "source_hash_sha256": "f112f1b40bc96677866ba83eabd4230921c5704216fcfefe1e4d4e4e22a62b5c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "The report directly quotes Quran 2:79. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "source_id": "c595aaf8-daf0-4aea-b1f1-28957c1e8877",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7364",
+      "reference": "Sahih al-Bukhari, hadith 7364, book 96, باب كَرَاهِيَةِ الْخِلاَفِ",
+      "title": "باب كَرَاهِيَةِ الْخِلاَفِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، أَخْبَرَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ سَلاَّمِ بْنِ أَبِي مُطِيعٍ، عَنْ أَبِي عِمْرَانَ الْجَوْنِيِّ، عَنْ جُنْدَبِ بْنِ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اقْرَءُوا الْقُرْآنَ مَا ائْتَلَفَتْ قُلُوبُكُمْ فَإِذَا اخْتَلَفْتُمْ فَقُومُوا عَنْهُ ‏\"‏‏.‏ قَالَ أَبُو عَبْد اللَّهِ سَمِعَ عَبْدُ الرَّحْمَنِ سَلَّامًا.",
+      "source_hash_sha256": "ef93513235771981e8a026586901c48ce0d3d10321801ca4203d3b5a39647263",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq nous a rapporté : ‘Abd ar-Rahmân ibn Mahdî nous a informés, d’après Sallâm ibn Abî Mutî‘, d’après Abû ‘Imrân al-Jawnî, d’après Jundub ibn ‘Abd Allah, qui a dit : Le Messager d’Allah ﷺ a dit : « Récitez le Coran tant que vos cœurs sont en accord. Lorsque vous divergez, levez-vous et éloignez-vous de sa récitation. » Abû ‘Abd Allah dit : ‘Abd ar-Rahmân a entendu Sallâm.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0d8b696f-98eb-4b04-9125-88a2b3ca6ace",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7365",
+      "reference": "Sahih al-Bukhari, hadith 7365, book 96, باب كَرَاهِيَةِ الْخِلاَفِ",
+      "title": "باب كَرَاهِيَةِ الْخِلاَفِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، أَخْبَرَنَا عَبْدُ الصَّمَدِ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا أَبُو عِمْرَانَ الْجَوْنِيُّ، عَنْ جُنْدَبِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ اقْرَءُوا الْقُرْآنَ مَا ائْتَلَفَتْ عَلَيْهِ قُلُوبُكُمْ، فَإِذَا اخْتَلَفْتُمْ فَقُومُوا عَنْهُ ‏\"‏‏.‏ وَقَالَ يَزِيدُ بْنُ هَارُونَ عَنْ هَارُونَ الأَعْوَرِ، حَدَّثَنَا أَبُو عِمْرَانَ، عَنْ جُنْدَبٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "19a842857dd17fe89453eba9bde306c2c278abc25320525271b05632845e93a7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq nous a rapporté : ‘Abd as-Samad nous a informés : Hammâm nous a rapporté : Abû ‘Imrân al-Jawnî nous a rapporté, d’après Jundub ibn ‘Abd Allah, que le Messager d’Allah ﷺ a dit : « Récitez le Coran tant que vos cœurs s’accordent à son sujet. Lorsque vous divergez, levez-vous et éloignez-vous de sa récitation. » Yazîd ibn Hârûn a rapporté une autre voie, d’après Hârûn al-A‘war : Abû ‘Imrân nous a rapporté, d’après Jundub, d’après le Prophète ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a29bcbe7-3b1b-4624-9670-d6e9f5966bda",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7366",
+      "reference": "Sahih al-Bukhari, hadith 7366, book 96, باب كَرَاهِيَةِ الْخِلاَفِ",
+      "title": "باب كَرَاهِيَةِ الْخِلاَفِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا هِشَامٌ، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ لَمَّا حُضِرَ النَّبِيُّ صلى الله عليه وسلم ـ قَالَ وَفِي الْبَيْتِ رِجَالٌ فِيهِمْ عُمَرُ بْنُ الْخَطَّابِ ـ قَالَ ‏\"‏ هَلُمَّ أَكْتُبْ لَكُمْ كِتَابًا لَنْ تَضِلُّوا بَعْدَهُ ‏\"‏‏.‏ قَالَ عُمَرُ إِنَّ النَّبِيَّ صلى الله عليه وسلم غَلَبَهُ الْوَجَعُ وَعِنْدَكُمُ الْقُرْآنُ، فَحَسْبُنَا كِتَابُ اللَّهِ‏.‏ وَاخْتَلَفَ أَهْلُ الْبَيْتِ وَاخْتَصَمُوا، فَمِنْهُمْ مَنْ يَقُولُ قَرِّبُوا يَكْتُبْ لَكُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم كِتَابًا لَنْ تَضِلُّوا بَعْدَهُ‏.‏ وَمِنْهُمْ مَنْ يَقُولُ مَا قَالَ عُمَرُ، فَلَمَّا أَكْثَرُوا اللَّغَطَ وَالاِخْتِلاَفَ عِنْدَ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ قُومُوا عَنِّي ‏\"‏‏.‏ قَالَ عُبَيْدُ اللَّهِ فَكَانَ ابْنُ عَبَّاسٍ يَقُولُ إِنَّ الرَّزِيَّةَ كُلَّ الرَّزِيَّةِ مَا حَالَ بَيْنَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَبَيْنَ أَنْ يَكْتُبَ لَهُمْ ذَلِكَ الْكِتَابَ مِنِ اخْتِلاَفِهِمْ وَلَغَطِهِمْ‏.‏",
+      "source_hash_sha256": "f290e7daafcab3092110b4be7f0fd2d49722b6270b6643465b038cddc8cb7037",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibrâhîm ibn Mûsâ nous a rapporté : Hishâm nous a informés, d’après Ma‘mar, d’après az-Zuhrî, d’après ‘Ubayd Allah ibn ‘Abd Allah, d’après Ibn ‘Abbâs — qu’Allah les agrée tous deux — qui a dit : Lorsque la mort du Prophète ﷺ fut imminente — il y avait dans la maison plusieurs hommes, dont ‘Umar ibn al-Khattâb —, il dit : « Approchez, que je vous écrive un document après lequel vous ne vous égarerez plus. » ‘Umar dit : « La douleur a accablé le Prophète ﷺ, et vous avez le Coran ; le Livre d’Allah nous suffit. » Les gens présents dans la maison se disputèrent. Certains dirent : « Approchez, afin que le Messager d’Allah ﷺ vous écrive un document après lequel vous ne vous égarerez plus. » D’autres dirent ce qu’avait dit ‘Umar. Lorsque les éclats de voix et les désaccords se multiplièrent auprès du Prophète ﷺ, il dit : « Levez-vous et éloignez-vous de moi. » ‘Ubayd Allah dit : Ibn ‘Abbâs répétait : « La calamité, toute la calamité, fut ce qui empêcha le Messager d’Allah ﷺ de leur écrire ce document : leurs désaccords et leurs éclats de voix. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9766a5fa-0e42-48e7-9bce-cbea09358c3a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7367",
+      "reference": "Sahih al-Bukhari, hadith 7367, book 96, بَابُ نَهْيِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَلَى التَّحْرِيمِ إِلاَّ مَا تُعْرَفُ إِبَاحَتُهُ",
+      "title": "بَابُ نَهْيِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَلَى التَّحْرِيمِ إِلاَّ مَا تُعْرَفُ إِبَاحَتُهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْمَكِّيُّ بْنُ إِبْرَاهِيمَ، عَنِ ابْنِ جُرَيْجٍ، قَالَ عَطَاءٌ قَالَ جَابِرٌ‏.‏ قَالَ أَبُو عَبْدِ اللَّهِ وَقَالَ مُحَمَّدُ بْنُ بَكْرٍ حَدَّثَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي عَطَاءٌ، سَمِعْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ، فِي أُنَاسٍ مَعَهُ قَالَ أَهْلَلْنَا أَصْحَابَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي الْحَجِّ خَالِصًا لَيْسَ مَعَهُ عُمْرَةٌ ـ قَالَ عَطَاءٌ قَالَ جَابِرٌ ـ فَقَدِمَ النَّبِيُّ صلى الله عليه وسلم صُبْحَ رَابِعَةٍ مَضَتْ مِنْ ذِي الْحِجَّةِ فَلَمَّا قَدِمْنَا أَمَرَنَا النَّبِيُّ صلى الله عليه وسلم أَنْ نَحِلَّ وَقَالَ ‏\"‏ أَحِلُّوا وَأَصِيبُوا مِنَ النِّسَاءِ ‏\"‏‏.‏ قَالَ عَطَاءٌ قَالَ جَابِرٌ وَلَمْ يَعْزِمْ عَلَيْهِمْ وَلَكِنْ أَحَلَّهُنَّ لَهُمْ فَبَلَغَهُ أَنَّا نَقُولُ لَمَّا لَمْ يَكُنْ بَيْنَنَا وَبَيْنَ عَرَفَةَ إِلاَّ خَمْسٌ أَمَرَنَا أَنْ نَحِلَّ إِلَى نِسَائِنَا فَنَأْتِي عَرَفَةَ تَقْطُرُ مَذَاكِيرُنَا الْمَذْىَ قَالَ وَيَقُولُ جَابِرٌ بِيَدِهِ هَكَذَا وَحَرَّكَهَا فَقَامَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ قَدْ عَلِمْتُمْ أَنِّي أَتْقَاكُمْ لِلَّهِ وَأَصْدَقُكُمْ وَأَبَرُّكُمْ وَلَوْلاَ هَدْيِي لَحَلَلْتُ كَمَا تَحِلُّونَ فَحِلُّوا فَلَوِ اسْتَقْبَلْتُ مِنْ أَمْرِي مَا اسْتَدْبَرْتُ مَا أَهْدَيْتُ ‏\"‏‏.‏ فَحَلَلْنَا وَسَمِعْنَا وَأَطَعْنَا‏.‏",
+      "source_hash_sha256": "df00d0c3d0c006145b1c18cecd36ebbc9b2a3a7dbac4e71833cb02c0e8a55524",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Makkî ibn Ibrâhîm nous a rapporté, d’après Ibn Jurayj. ‘Atâ’ a dit, d’après Jâbir. Abû ‘Abd Allah dit : Muhammad ibn Bakr nous a rapporté : Ibn Jurayj nous a rapporté : ‘Atâ’ m’a informé : J’ai entendu Jâbir ibn ‘Abd Allah, accompagné de plusieurs personnes, dire : « Nous, les Compagnons du Messager d’Allah ﷺ, avions formulé l’intention d’accomplir uniquement le pèlerinage majeur, sans ‘umra avec lui. Le Prophète ﷺ arriva le matin du quatrième jour écoulé de Dhû al-Hijja. À notre arrivée, il nous ordonna de sortir de l’état de sacralisation et dit : “Sortez-en et ayez des rapports avec vos épouses.” » ‘Atâ’ rapporte que Jâbir dit : « Il ne leur imposa pas cela, mais il leur rendit leurs épouses licites. Il apprit que nous disions : “Il ne reste que cinq jours avant ‘Arafa, et il nous ordonne de sortir de l’état de sacralisation pour rejoindre nos épouses, puis d’arriver à ‘Arafa alors que nos verges gouttent de liquide pré-éjaculatoire.” » Jâbir fit ce geste de la main. Le Messager d’Allah ﷺ se leva et dit : « Vous savez que je suis celui d’entre vous qui craint le plus Allah, qui dit le plus vrai et qui agit avec le plus de piété. Si je n’avais pas amené mon offrande, je serais sorti de l’état de sacralisation comme vous. Sortez-en donc. Si j’avais su à l’avance ce que je sais maintenant, je n’aurais pas amené d’offrande. » Nous sortîmes de l’état de sacralisation, nous entendîmes et nous obéîmes.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "21036c74-bb59-4da5-b7a0-4113ad5e35d2",
+      "reason": "Direct quotation or excerpt from Quran 2:136; keep the entire French translation blank pending confirmation of an approved, attributed and permitted Quran translation."
+    },
+    {
+      "source_id": "3b865f01-834e-4c6c-a7e4-eae5d52bb35a",
+      "reason": "Direct quotation or excerpt from Quran 2:79; keep the entire French translation blank pending confirmation of an approved, attributed and permitted Quran translation."
+    }
+  ]
+}
