@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5819,
+    "hadithBukhariDrafted": 5823,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5819,
+    "hadithLocalDrafted": 5823,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8810,
-    "hadithNeedsMo": 836,
+    "hadithLocalRemaining": 8806,
+    "hadithNeedsMo": 838,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26781,6 +26781,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1267",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1267.json",
+      "sourceIds": [
+        "6cb4775b-928b-45be-9e88-6bfcd76b8c9e",
+        "70220f90-08ad-4889-a1a6-994c706ba7f1",
+        "8ca8f0a7-605c-45f4-9b03-494ddd0e6675",
+        "305bea43-a850-4114-bc5c-230d4ea0c07d",
+        "b3786531-187c-4b1e-86b9-b00ea9a47617",
+        "57a46480-264b-4cc9-b35a-7b6dcedf7283"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four complete French drafts; two reports held blank for an unclear source phrase and direct Quran quotations. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private drafts; two Needs Mo holds"
     }
   ],
   "blockers": [
@@ -30185,11 +30206,23 @@
       "scope": "Sahih al-Bukhari 6899: 4,780-character composite report on qasama with unclear procedural phrases in two case accounts",
       "status": "blocked",
       "reason": "This 4,780-character report combines several qasama (collective oath) cases. Some procedural wording in the Jewish-oath episode and the account of Hudhayl’s repudiated client is unclear and could change the legal meaning. Keep the complete translation blank pending reliable clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-6917-UNCLEAR-SWOON-PHRASE",
+      "scope": "Sahih al-Bukhari 6917: unclear final phrase جُزِيَ بِصَعْقَةِ الطُّورِ",
+      "status": "blocked",
+      "reason": "The final phrase is unclear in this source excerpt and affects the report’s meaning about Moses and the swoon at Mount al-Tur. Keep the complete report blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6918-QURAN-6-82-31-13",
+      "scope": "Sahih al-Bukhari 6918: direct quotations of Quran 6:82 and 31:13",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:82 and 31:13. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5819,
-  "hadithLocalDrafted": 5819,
-  "hadithLocalRemaining": 8810,
+  "hadithBukhariDrafted": 5823,
+  "hadithLocalDrafted": 5823,
+  "hadithLocalRemaining": 8806,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30736,6 +30769,18 @@
       "scope": "Sahih al-Bukhari 6899: 4,780-character composite report on qasama with unclear procedural phrases in two case accounts",
       "status": "blocked",
       "reason": "This 4,780-character report combines several qasama (collective oath) cases. Some procedural wording in the Jewish-oath episode and the account of Hudhayl’s repudiated client is unclear and could change the legal meaning. Keep the complete translation blank pending reliable clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-6917-UNCLEAR-SWOON-PHRASE",
+      "scope": "Sahih al-Bukhari 6917: unclear final phrase جُزِيَ بِصَعْقَةِ الطُّورِ",
+      "status": "blocked",
+      "reason": "The final phrase is unclear in this source excerpt and affects the report’s meaning about Moses and the swoon at Mount al-Tur. Keep the complete report blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6918-QURAN-6-82-31-13",
+      "scope": "Sahih al-Bukhari 6918: direct quotations of Quran 6:82 and 31:13",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:82 and 31:13. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
