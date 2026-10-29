@@ -42635,6 +42635,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0660",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0660.json",
+      "sourceIds": [
+        "a6b0476e-c830-4aba-ad84-7455793f1cea",
+        "7074e976-9a70-4bf6-9e37-d0d8bb9c91ba",
+        "db7a5c6d-1964-4c70-ad5e-46a292b5ed32",
+        "3e3a6ad1-1ee3-4941-b656-beec9f6e40fa",
+        "00b19599-afa0-4f22-966a-451de39ae2df",
+        "cf85dbff-8aee-4ee0-9663-1fb75af6af2c"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, five private unpublished drafts, one incomplete variant-only report held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46942,8 +46963,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8956,
-  "hadithLocalRemaining": 5673,
+  "hadithLocalDrafted": 8961,
+  "hadithLocalRemaining": 5668,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51235,10 +51256,15 @@
       "source_id": "ef71570c-e3fd-42ec-8d8b-082be622afeb",
       "reason": "Cette entrée ne reproduit pas le récit et renvoie à la version de Ma‘mar en ne donnant que des variations d’isnad. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "3e3a6ad1-1ee3-4941-b656-beec9f6e40fa",
+      "reason": "Cette entrée ne donne qu’une variante à propos du récit précédent (« بمعنى حديثهم ») et précise que Mujazziz était un expert en filiation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2620,
+  "hadithMuslimDrafted": 2625,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1151
+  "hadithNeedsMo": 1152
 }

@@ -10426,3 +10426,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0659 saves two private French drafts preserving the reports on paternity and a child’s attribution to the marital household. Muslim 1456d quotes Quran 4:24; 1456e, 1457b, and 1458b are incomplete variants and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1459a–1460b
+
+- FR-LIB-HAD-MUSLIM-0660 saves five private French drafts about lineage recognition and the Prophet’s stay with Umm Salama after their marriage. Muslim 1459d only gives a variant of the preceding report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
