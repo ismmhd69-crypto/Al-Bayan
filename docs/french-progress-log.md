@@ -816,3 +816,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-159` saves five private French drafts for Bukhari 889–890 and 892–894. Bukhari 891 remains blank under Needs Mo because it quotes Quran 32:1 and 76:1; no approved, attributed French Quran translation is available.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 830 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,799, including held records.
+### 2026-10-29: Bukhari 895–896 and 898–901 source review
+
+- `FR-LIB-HAD-BUKHARI-160` saves six private French drafts for Bukhari 895–896 and 898–901. The source export did not include a Bukhari 897 record. The translations preserve the repeated seven-day washing wording, the permission to attend mosque at night, and the rainy-day instruction to pray at home.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 836 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,793, including held records.
