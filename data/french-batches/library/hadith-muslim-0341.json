@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0341",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:27:18.213Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a71fe9ec-d8bf-4975-b376-51003b22ee69",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:793e",
+      "reference": "Sahih Muslim, hadith 793 e, book 6, باب اسْتِحْبَابِ تَحْسِينِ الصَّوْتِ بِالْقُرْآنِ ‏",
+      "title": "باب اسْتِحْبَابِ تَحْسِينِ الصَّوْتِ بِالْقُرْآنِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا دَاوُدُ بْنُ رُشَيْدٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا طَلْحَةُ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لأَبِي مُوسَى ‏\"‏ لَوْ رَأَيْتَنِي وَأَنَا أَسْتَمِعُ لِقِرَاءَتِكَ الْبَارِحَةَ لَقَدْ أُوتِيتَ مِزْمَارًا مِنْ مَزَامِيرِ آلِ دَاوُدَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fc8bb4d4cb6e07bc8ea1a96c47cfac5d28247707895bef368192195065434994",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Dawud ibn Rushayd nous a rapporté : Yahya ibn Sa‘id nous a rapporté : Talha nous a rapporté, d’après Abu Burda, d’après Abu Musa. Il dit que le Messager d’Allah ﷺ dit à Abu Musa : « Si tu m’avais vu hier soir, alors que j’écoutais ta récitation ! Tu as reçu une flûte parmi les flûtes de la famille de David. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c427ab8d-0472-4fed-b877-c24cf50ce25a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:794a",
+      "reference": "Sahih Muslim, hadith 794 a, book 6, باب ذِكْرِ قِرَاءَةِ النَّبِيِّ صلى الله عليه وسلم سُورَةَ الْفَتْحِ يَوْمَ فَتْحِ مَكَّةَ ‏‏",
+      "title": "باب ذِكْرِ قِرَاءَةِ النَّبِيِّ صلى الله عليه وسلم سُورَةَ الْفَتْحِ يَوْمَ فَتْحِ مَكَّةَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، وَوَكِيعٌ، عَنْ شُعْبَةَ، عَنْ مُعَاوِيَةَ بْنِ قُرَّةَ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ مُغَفَّلٍ الْمُزَنِيَّ، يَقُولُ قَرَأَ النَّبِيُّ صلى الله عليه وسلم عَامَ الْفَتْحِ فِي مَسِيرٍ لَهُ سُورَةَ الْفَتْحِ عَلَى رَاحِلَتِهِ فَرَجَّعَ فِي قِرَاءَتِهِ ‏.‏ قَالَ مُعَاوِيَةُ لَوْلاَ أَنِّي أَخَافُ أَنْ يَجْتَمِعَ عَلَىَّ النَّاسُ لَحَكَيْتُ لَكُمْ قِرَاءَتَهُ ‏.‏",
+      "source_hash_sha256": "ff614870717a93bde68d27111dae024b8a476f6a27062f730aea3b545712d094",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : ‘Abd Allah ibn Idris et Waki‘ nous ont rapporté, d’après Shu‘ba, d’après Mu‘awiya ibn Qurra. Il dit : J’ai entendu ‘Abd Allah ibn Mughaffal al-Muzani dire : L’année de la conquête, pendant un voyage, le Prophète ﷺ récita la sourate al-Fath sur sa monture en modulant sa récitation. Mu‘awiya dit : « Si je ne craignais pas que les gens se rassemblent autour de moi, je vous aurais imité sa récitation. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "41c62d03-c155-4a0c-b983-14649a812b33",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:794b",
+      "reference": "Sahih Muslim, hadith 794 b, book 6, باب ذِكْرِ قِرَاءَةِ النَّبِيِّ صلى الله عليه وسلم سُورَةَ الْفَتْحِ يَوْمَ فَتْحِ مَكَّةَ ‏‏",
+      "title": "باب ذِكْرِ قِرَاءَةِ النَّبِيِّ صلى الله عليه وسلم سُورَةَ الْفَتْحِ يَوْمَ فَتْحِ مَكَّةَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ مُعَاوِيَةَ بْنِ قُرَّةَ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ مُغَفَّلٍ، قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَوْمَ فَتْحِ مَكَّةَ عَلَى نَاقَتِهِ يَقْرَأُ سُورَةَ الْفَتْحِ ‏.‏ قَالَ فَقَرَأَ ابْنُ مُغَفَّلٍ وَرَجَّعَ ‏.‏ فَقَالَ مُعَاوِيَةُ لَوْلاَ النَّاسُ لأَخَذْتُ لَكُمْ بِذَلِكَ الَّذِي ذَكَرَهُ ابْنُ مُغَفَّلٍ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "1a652692698dac493ba12e5e0d6737ab0cb5eed7a831f8b3a381285598107861",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Muhammad ibn Bashshar nous ont rapporté. Ibn al-Muthanna a dit : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Mu‘awiya ibn Qurra. Il dit : J’ai entendu ‘Abd Allah ibn Mughaffal dire : J’ai vu le Messager d’Allah ﷺ, le jour de la conquête de La Mecque, réciter la sourate al-Fath sur sa chamelle. Ibn Mughaffal récita ensuite en modulant sa voix. Mu‘awiya dit : « Sans les gens, je vous aurais fait entendre cette récitation du Prophète ﷺ qu’Ibn Mughaffal a décrite. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "029adf8d-dfc0-4528-9018-98c7b2d5860a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:794c",
+      "reference": "Sahih Muslim, hadith 794 c, book 6, باب ذِكْرِ قِرَاءَةِ النَّبِيِّ صلى الله عليه وسلم سُورَةَ الْفَتْحِ يَوْمَ فَتْحِ مَكَّةَ ‏‏",
+      "title": "باب ذِكْرِ قِرَاءَةِ النَّبِيِّ صلى الله عليه وسلم سُورَةَ الْفَتْحِ يَوْمَ فَتْحِ مَكَّةَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ حَبِيبٍ الْحَارِثِيُّ، حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، ح وَحَدَّثَنَا عُبَيْدُ، اللَّهِ بْنُ مُعَاذٍ حَدَّثَنَا أَبِي قَالاَ، حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ نَحْوَهُ وَفِي حَدِيثِ خَالِدِ بْنِ الْحَارِثِ قَالَ عَلَى رَاحِلَةٍ يَسِيرُ وَهُوَ يَقْرَأُ سُورَةَ الْفَتْحِ ‏.‏",
+      "source_hash_sha256": "e0be7a671ccbca9227dc3a88b60c79b3796b5ef814e85ec5b774940a6d17c7c9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0ac11fdd-225a-46a5-b7f7-291edfbd8969",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:795a",
+      "reference": "Sahih Muslim, hadith 795 a, book 6, باب نُزُولِ السَّكِينَةِ لِقِرَاءَةِ الْقُرْآنِ ‏",
+      "title": "باب نُزُولِ السَّكِينَةِ لِقِرَاءَةِ الْقُرْآنِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو خَيْثَمَةَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ، قَالَ كَانَ رَجُلٌ يَقْرَأُ سُورَةَ الْكَهْفِ وَعِنْدَهُ فَرَسٌ مَرْبُوطٌ بِشَطَنَيْنِ فَتَغَشَّتْهُ سَحَابَةٌ فَجَعَلَتْ تَدُورُ وَتَدْنُو وَجَعَلَ فَرَسُهُ يَنْفِرُ مِنْهَا فَلَمَّا أَصْبَحَ أَتَى النَّبِيَّ صلى الله عليه وسلم فَذَكَرَ ذَلِكَ لَهُ فَقَالَ ‏\"‏ تِلْكَ السَّكِينَةُ تَنَزَّلَتْ لِلْقُرْآنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e02a0a6a2f4cbef6699172811ed62a07b01aef61623b7310732ce7987397b9c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Abu Khaythama nous a informé, d’après Abu Ishaq, d’après al-Bara’. Il dit : Un homme récitait la sourate al-Kahf, et près de lui se trouvait un cheval attaché par deux cordes. Un nuage le couvrit, tournoyant et s’approchant, et son cheval se mit à s’en effrayer. Au matin, l’homme alla voir le Prophète ﷺ et lui raconta cela. Il dit : « C’était la sérénité qui descendait avec le Coran. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8844509f-1573-496d-ae2f-58dc5b69ce93",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:795b",
+      "reference": "Sahih Muslim, hadith 795 b, book 6, باب نُزُولِ السَّكِينَةِ لِقِرَاءَةِ الْقُرْآنِ ‏",
+      "title": "باب نُزُولِ السَّكِينَةِ لِقِرَاءَةِ الْقُرْآنِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ، جَعْفَرٍ حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، قَالَ سَمِعْتُ الْبَرَاءَ، يَقُولُ قَرَأَ رَجُلٌ الْكَهْفَ وَفِي الدَّارِ دَابَّةٌ فَجَعَلَتْ تَنْفِرُ فَنَظَرَ فَإِذَا ضَبَابَةٌ أَوْ سَحَابَةٌ قَدْ غَشِيَتْهُ قَالَ فَذَكَرَ ذَلِكَ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ اقْرَأْ فُلاَنُ فَإِنَّهَا السَّكِينَةُ تَنَزَّلَتْ عِنْدَ الْقُرْآنِ أَوْ تَنَزَّلَتْ لِلْقُرْآنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9bf1278d94875fa4fd56d115aa6cf27d556ff83dcc456de79987efde1685a325",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn al-Muthanna et Ibn Bashshar nous ont rapporté — et c’est la formulation d’Ibn al-Muthanna qui est retenue. Tous deux ont dit : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Abu Ishaq. Il dit : J’ai entendu al-Bara’ dire : Un homme récita la sourate al-Kahf, tandis qu’un animal se trouvait dans la maison et s’agitait. Il regarda et vit une brume — ou un nuage — qui l’enveloppait. Il raconta cela au Prophète ﷺ, qui dit : « Récite, untel, car c’est la sérénité qui est descendue au moment du Coran — ou qui est descendue avec le Coran. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "029adf8d-dfc0-4528-9018-98c7b2d5860a",
+      "reason": "La source renvoie au récit précédent avec la même chaîne et n’ajoute qu’un détail de formulation, sans reproduire le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

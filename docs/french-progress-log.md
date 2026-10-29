@@ -8270,7 +8270,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 554b–556c
 
 - FR-LIB-HAD-MUSLIM-0229 saves five private French drafts about prayer in sandals and a patterned garment that distracted the Prophet ﷺ during prayer. Muslim 555b contains only a cross-reference to the previous report and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 927 Muslim drafts, 7,263 total hadith drafts, 7,366 remaining, and 443 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 927 Muslim drafts, 7,263 total hadith drafts, 7,366 remaining, and 443 Needs Mo items.
 
 ### 2026-10-29: Muslim 557a–560a
 
@@ -8831,3 +8831,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0340 saves three private French drafts about Quran recitation and Abu Musa al-Ash‘ari. Muslim 792b, 793a and 793c contain only incomplete cross-references or wording variants and remain blank under Needs Mo. The exporter deferred a separate long source for its own batch.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1367 Muslim drafts, 7703 total hadith drafts, 6926 remaining, and 624 Needs Mo items.
+
+### 2026-10-29: Muslim 793e–795b
+
+- FR-LIB-HAD-MUSLIM-0341 saves five private French drafts about recitation and the descent of serenity. Muslim 794c refers to the preceding report and adds a variant without reproducing it, so it remains blank under Needs Mo. A long source remains deferred and will be exported separately.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1372 Muslim drafts, 7708 total hadith drafts, 6921 remaining, and 625 Needs Mo items.
