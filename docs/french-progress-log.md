@@ -555,3 +555,13 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-029` saved ten additional visitor-facing strings: Ask clarification topic names, the Hard Questions comparison-source label and note, and Rich Answer review, source-verification, disclaimer and donation labels. These are private French drafts; no Ask or answer flow was connected to French.
 - The word “English” in `lib/i18n.ts` is the language’s self-name in the locale switcher. It is intentionally retained as a name, not translated as French visitor copy.
 - The batch passed source-file, unique-ID, nonempty-text and placeholder checks. The saved hardcoded-copy inventory now contains 457 rows; website Needs Mo remains six.
+
+### 2026-10-29: conditional learning-audio labels
+
+- `FR-UI-HC-030` saved four more strings from conditional branches in `LearningMarkdown.tsx`: the Adhan, Shahadah and Quran-invocation audio labels, plus the French meaning field for the final greeting in prayer. The Arabic and phonetic recitations stay unchanged; no Quran verse wording was translated.
+- The batch passed source-file, unique-ID, nonempty-French and placeholder checks. The code-level visitor-copy inventory now contains 461 rows; website Needs Mo remains six.
+
+### 2026-10-29: visitor-copy audit reconciliation
+
+- The direct website text audit now covers all visitor-facing English strings found in locale objects, JSX, accessibility labels, audio controls, learning visuals, the Ask interface and answer notices. The audit excludes the internal review page and the explicitly non-visitor Hadith test tool. Their staff-only labels were not counted as public website copy.
+- All eligible discovered strings have local French drafts, except the specifically held material already listed under Needs Mo. No French Quran verse text was created. The 461 unique rows are kept as private local files, not wired into public routing or API behavior.

@@ -1,0 +1,6 @@
+[
+  {"id":"prayerAudio.adhan.label","source":"components/learning/LearningMarkdown.tsx","english":"Listen to the Adhan (Call to Prayer)","french":"Écouter l’adhân (appel à la prière)"},
+  {"id":"prayerAudio.shahadah.label","source":"components/learning/LearningMarkdown.tsx","english":"Listen to the Shahadah pronunciation","french":"Écouter la prononciation de la shahada"},
+  {"id":"prayerAudio.quranDua.label","source":"components/learning/LearningMarkdown.tsx","english":"Listen to the Quranic supplication (2:201)","french":"Écouter l’invocation coranique (2:201)"},
+  {"id":"prayerSteps.taslim.meaning","source":"components/learning/LearningMarkdown.tsx","english":"\"Peace and the mercy of Allah be upon you\" (concluding the prayer)","arabic_source":"«السلام عليكم ورحمة الله» (الخروج من الصلاة)","french":"« Que la paix et la miséricorde d’Allah soient sur vous » (fin de la prière)","source_refs":["Ibn Baz 17464"],"translation_kind":"meaning of the Arabic salutation; the Arabic recitation and phonetic form remain unchanged"}
+]
