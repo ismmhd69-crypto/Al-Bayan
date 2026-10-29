@@ -11862,3 +11862,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2060a-2062a
 
 - FR-LIB-HAD-MUSLIM-0975 saves five complete private French drafts about the reports on food intake. One transmission-only variant remains blank with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2062b-2064d
+
+- FR-LIB-HAD-MUSLIM-0976 saves three complete private French drafts about drinking and food manners. Three entries that refer back to earlier reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
