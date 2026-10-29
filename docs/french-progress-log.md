@@ -11406,3 +11406,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1812h-1815b
 
 - FR-LIB-HAD-MUSLIM-0861 saves five private French drafts reporting expedition counts and their distinct variations. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1816-1820
+
+- FR-LIB-HAD-MUSLIM-0862 saves six private French drafts: accounts of Dhât al-Riqâ‘ and Badr, along with reports about Quraysh. Chains, events, and wording variants are preserved. No Quran quotation appears in these entries. No database write or publication occurred.
