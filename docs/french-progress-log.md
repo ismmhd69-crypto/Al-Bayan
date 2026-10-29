@@ -10816,3 +10816,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0737 saves four private French drafts about wine and sales of gold and silver. Muslim 1581b and 1582b refer to other reports without reproducing their full content and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1584b–1585
+
+- FR-LIB-HAD-MUSLIM-0738 saves four private French drafts on exchanges involving gold, silver and staple goods. Muslim 1584c and 1584f only refer to the preceding report and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
