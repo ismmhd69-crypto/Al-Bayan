@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 640,
+    "hadithMuslimDrafted": 643,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6976,
+    "hadithLocalDrafted": 6979,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7653,
-    "hadithNeedsMo": 303,
+    "hadithLocalRemaining": 7650,
+    "hadithNeedsMo": 306,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43126,6 +43126,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0687",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0687.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "three complete reports translated as private drafts; one Quran quotation and two incomplete variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -51965,6 +51978,21 @@
     {
       "source_id": "3c6bc1ca-aaaa-4b1e-bb1e-b1e3b2fed620",
       "reason": "Cette entrée renvoie au rapport précédent (« selon la même version ») sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "200a79db-2798-46cc-9e6e-1296733105a7",
+      "reason": "Cette entrée ne reproduit pas le récit complet et se limite à une chaîne de transmission ou à une référence au récit précédent. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1563f78f-90c4-4110-9039-7970ae24f8fa",
+      "reason": "Cette source contient une citation coranique explicite. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "32d1e9af-6956-404d-802f-a424a25933d0",
+      "reason": "Cette entrée ne reproduit pas le récit complet et se limite à une chaîne de transmission ou à une référence au récit précédent. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],
