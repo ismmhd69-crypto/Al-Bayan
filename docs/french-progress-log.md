@@ -7593,3 +7593,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0097 saves 3 private French drafts. Hadiths 200b, 200c and 200d contain only transmission chains or references to another report, with no complete text; they remain blank under Needs Mo.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 383 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 7,910, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 202–206a
+
+- FR-LIB-HAD-MUSLIM-0098 saves one private French draft. Hadiths 202, 204a, 205 and 206a directly quote Quran; 204b contains only a chain referring to another report. All five remain blank under Needs Mo.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 381 of 7,366. Hadith Needs Mo: 234. Total local hadith rows not drafted: 7,912, including held records. No database writes or publication occurred.

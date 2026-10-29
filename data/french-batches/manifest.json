@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:27:32.000Z",
+  "lastReconciled": "2026-10-29T14:27:53.345Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 387,
+    "hadithMuslimDrafted": 388,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6723,
-    "hadithDatabaseMissing": 7906,
-    "hadithLocalRemaining": 7906,
-    "hadithNeedsMo": 229,
+    "hadithLocalDrafted": 6724,
+    "hadithDatabaseMissing": 7905,
+    "hadithLocalRemaining": 7905,
+    "hadithNeedsMo": 234,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31042,6 +31042,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0098",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0098.json",
+      "sourceIds": [
+        "4cf81e6b-ddd2-45cc-b5a6-2a18d7fcf792",
+        "b25756ec-60f1-4b97-9d5d-3e899df0ffb0",
+        "b6d726d9-ee9a-4a84-85b6-10902294b943",
+        "7b5095fd-17af-4181-b4f0-452ac3268163",
+        "63ed639e-dba3-4c16-a57d-d9d0fd10ebce",
+        "b1a2797f-434e-45d8-878e-ba412f814638"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; Quran quotations and incomplete source variant held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35274,11 +35295,41 @@
       "scope": "Sahih Muslim 200d: incomplete source passage",
       "status": "blocked",
       "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-202-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 202: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 14:36 et 5:118 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-204A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 204a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-204B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 204b: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe ne donne que la chaîne de transmission et renvoie à une autre version pour le texte complet. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-205-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 205: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-206A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 206a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6723,
-  "hadithLocalRemaining": 7906,
+  "hadithLocalDrafted": 6724,
+  "hadithLocalRemaining": 7905,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36653,10 +36704,40 @@
       "scope": "Sahih Muslim 200d: incomplete source passage",
       "status": "blocked",
       "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-202-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 202: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 14:36 et 5:118 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-204A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 204a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-204B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 204b: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe ne donne que la chaîne de transmission et renvoie à une autre version pour le texte complet. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-205-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 205: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-206A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 206a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 387,
-  "hadithDatabaseMissing": 7906,
+  "hadithMuslimDrafted": 388,
+  "hadithDatabaseMissing": 7905,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 229
+  "hadithNeedsMo": 234
 }
