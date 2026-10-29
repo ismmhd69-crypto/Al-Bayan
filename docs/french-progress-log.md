@@ -2611,3 +2611,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-539` saves six private French drafts about the Prophet’s sandals, garments, drinking cup and sword, and the administration of his charitable property.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,804 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,851, including held records.
+
+### 2026-10-29: Bukhari 3113–3118
+
+- `FR-LIB-HAD-BUKHARI-540` saves six private French drafts about Fâtima and ‘Alî’s household, children’s names, the Prophet’s role in distributing funds, and misuse of public property.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,810 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,845, including held records.
