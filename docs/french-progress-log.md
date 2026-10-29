@@ -11398,3 +11398,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1807b-1812a
 
 - FR-LIB-HAD-MUSLIM-0859 saves four private French drafts about women accompanying expeditions, service at Uhud, and questions addressed to Ibn ‘Abbâs. The Quran-quoting entry and chain-only cross-reference remain entirely blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1812b-1812g
+
+- FR-LIB-HAD-MUSLIM-0860 saves four private French drafts of distinct answers and reports about women in expeditions, children, orphans, and relatives. Two incomplete cross-references remain blank under Needs Mo with specific reasons. No database write or publication occurred.
