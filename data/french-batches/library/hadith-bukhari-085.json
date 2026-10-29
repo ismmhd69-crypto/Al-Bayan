@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-085",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T02:26:20.811Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4a5d7dc2-17de-4d80-a628-5d0cd9a90baf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:458",
+      "reference": "Sahih al-Bukhari, hadith 458, book 8, باب كَنْسِ الْمَسْجِدِ وَالْتِقَاطِ الْخِرَقِ وَالْقَذَى وَالْعِيدَانِ",
+      "title": "باب كَنْسِ الْمَسْجِدِ وَالْتِقَاطِ الْخِرَقِ وَالْقَذَى وَالْعِيدَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ ثَابِتٍ، عَنْ أَبِي رَافِعٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَجُلاً، أَسْوَدَ ـ أَوِ امْرَأَةً سَوْدَاءَ ـ كَانَ يَقُمُّ الْمَسْجِدَ، فَمَاتَ، فَسَأَلَ النَّبِيُّ صلى الله عليه وسلم عَنْهُ فَقَالُوا مَاتَ‏.‏ قَالَ ‏\"‏ أَفَلاَ كُنْتُمْ آذَنْتُمُونِي بِهِ دُلُّونِي عَلَى قَبْرِهِ ‏\"‏‏.‏ ـ أَوْ قَالَ قَبْرِهَا ـ فَأَتَى قَبْرَهُ فَصَلَّى عَلَيْهِ‏.‏",
+      "source_hash_sha256": "2a7edac608babec703a60d7bfbd4a69ce07dc88c01ec51704fb2fb6efcc03369",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sulaymân ibn Ḥarb nous a rapporté ; Ḥammâd ibn Zayd nous a rapporté, d’après Thâbit, d’après Abû Râfiʿ, d’après Abû Hurayra : Un homme noir — ou une femme noire — avait l’habitude de nettoyer la mosquée. Il mourut. Le Prophète (paix et bénédictions sur lui) s’enquit de lui et on lui répondit qu’il était mort. Il dit : « Pourquoi ne m’en avez-vous pas informé ? Montrez-moi sa tombe » — ou : « sa tombe à elle ». Il se rendit à sa tombe et pria sur lui — ou sur elle.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ec27e0f-f502-4e66-bec5-8bb22d960518",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:459",
+      "reference": "Sahih al-Bukhari, hadith 459, book 8, باب تَحْرِيمِ تِجَارَةِ الْخَمْرِ فِي الْمَسْجِدِ",
+      "title": "باب تَحْرِيمِ تِجَارَةِ الْخَمْرِ فِي الْمَسْجِدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، عَنْ أَبِي حَمْزَةَ، عَنِ الأَعْمَشِ، عَنْ مُسْلِمٍ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ لَمَّا أُنْزِلَ الآيَاتُ مِنْ سُورَةِ الْبَقَرَةِ فِي الرِّبَا، خَرَجَ النَّبِيُّ صلى الله عليه وسلم إِلَى الْمَسْجِدِ، فَقَرَأَهُنَّ عَلَى النَّاسِ، ثُمَّ حَرَّمَ تِجَارَةَ الْخَمْرِ‏.‏",
+      "source_hash_sha256": "ee216aa9e36f653b10ffbc56943f43b3954455a2d591d18842e9e5014cdbb94a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbdân nous a rapporté, d’après Abû Ḥamza, d’après al-Aʿmash, d’après Muslim, d’après Masrûq, d’après ʿÂʾisha, qui a dit : Lorsque les versets de la sourate al-Baqara concernant l’usure furent révélés, le Prophète (paix et bénédictions sur lui) se rendit à la mosquée et les récita aux gens. Il interdit ensuite le commerce du vin.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "615bc562-6b49-41d7-8350-bcd30462692c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:460",
+      "reference": "Sahih al-Bukhari, hadith 460, book 8, باب الْخَدَمِ لِلْمَسْجِدِ",
+      "title": "باب الْخَدَمِ لِلْمَسْجِدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ وَاقِدٍ، قَالَ حَدَّثَنَا حَمَّادٌ، عَنْ ثَابِتٍ، عَنْ أَبِي رَافِعٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ امْرَأَةً ـ أَوْ رَجُلاً ـ كَانَتْ تَقُمُّ الْمَسْجِدَ ـ وَلاَ أُرَاهُ إِلاَّ امْرَأَةً ـ فَذَكَرَ حَدِيثَ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ صَلَّى عَلَى قَبْرِهِ‏.‏",
+      "source_hash_sha256": "ca1ceb943b3ba57f8ffb342a971e290346c051801e8345e0fe10d1149e45f84e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aḥmad ibn Wâqid nous a rapporté ; Ḥammâd nous a rapporté, d’après Thâbit, d’après Abû Râfiʿ, d’après Abû Hurayra : Une femme — ou un homme — avait l’habitude de nettoyer la mosquée. Le narrateur dit : Je pense qu’il s’agissait d’une femme. Il mentionna le récit du Prophète (paix et bénédictions sur lui), qui avait prié sur sa tombe.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fef62d7c-3c17-4f0a-bea3-be74c16e3f60",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:461",
+      "reference": "Sahih al-Bukhari, hadith 461, book 8, باب الأَسِيرِ أَوِ الْغَرِيمِ يُرْبَطُ فِي الْمَسْجِدِ",
+      "title": "باب الأَسِيرِ أَوِ الْغَرِيمِ يُرْبَطُ فِي الْمَسْجِدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ أَخْبَرَنَا رَوْحٌ، وَمُحَمَّدُ بْنُ جَعْفَرٍ، عَنْ شُعْبَةَ، عَنْ مُحَمَّدِ بْنِ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ عِفْرِيتًا مِنَ الْجِنِّ تَفَلَّتَ عَلَىَّ الْبَارِحَةَ ـ أَوْ كَلِمَةً نَحْوَهَا ـ لِيَقْطَعَ عَلَىَّ الصَّلاَةَ، فَأَمْكَنَنِي اللَّهُ مِنْهُ، فَأَرَدْتُ أَنْ أَرْبِطَهُ إِلَى سَارِيَةٍ مِنْ سَوَارِي الْمَسْجِدِ، حَتَّى تُصْبِحُوا وَتَنْظُرُوا إِلَيْهِ كُلُّكُمْ، فَذَكَرْتُ قَوْلَ أَخِي سُلَيْمَانَ رَبِّ هَبْ لِي مُلْكًا لاَ يَنْبَغِي لأَحَدٍ مِنْ بَعْدِي ‏\"‏‏.‏ قَالَ رَوْحٌ فَرَدَّهُ خَاسِئًا‏.‏",
+      "source_hash_sha256": "6aadc8a2e418761a95cfe8f1ac552c0cc4ffbeaf5fd7e46bd94720cf6a612c2c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d4152a10-c8b2-429d-8c64-f75e40df9e28",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:462",
+      "reference": "Sahih al-Bukhari, hadith 462, book 8, بَابُ الاِغْتِسَالِ إِذَا أَسْلَمَ، وَرَبْطِ الأَسِيرِ أَيْضًا فِي الْمَسْجِدِ",
+      "title": "بَابُ الاِغْتِسَالِ إِذَا أَسْلَمَ، وَرَبْطِ الأَسِيرِ أَيْضًا فِي الْمَسْجِدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا اللَّيْثُ، قَالَ حَدَّثَنَا سَعِيدُ بْنُ أَبِي سَعِيدٍ، سَمِعَ أَبَا هُرَيْرَةَ، قَالَ بَعَثَ النَّبِيُّ صلى الله عليه وسلم خَيْلاً قِبَلَ نَجْدٍ، فَجَاءَتْ بِرَجُلٍ مِنْ بَنِي حَنِيفَةَ يُقَالُ لَهُ ثُمَامَةُ بْنُ أُثَالٍ، فَرَبَطُوهُ بِسَارِيَةٍ مِنْ سَوَارِي الْمَسْجِدِ، فَخَرَجَ إِلَيْهِ النَّبِيُّ صلى الله عليه وسلم فَقَالَ ‏\"‏ أَطْلِقُوا ثُمَامَةَ ‏\"‏‏.‏ فَانْطَلَقَ إِلَى نَخْلٍ قَرِيبٍ مِنَ الْمَسْجِدِ، فَاغْتَسَلَ ثُمَّ دَخَلَ الْمَسْجِدَ فَقَالَ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ‏.‏",
+      "source_hash_sha256": "b869b74bf6bd9fca3866e007919e3994e8dbaf7dd6ffcf473f8baa8181fca98e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn Yûsuf nous a rapporté ; al-Layth nous a rapporté ; Saʿîd ibn Abî Saʿîd nous a rapporté, qui avait entendu Abû Hurayra dire : Le Prophète (paix et bénédictions sur lui) envoya une cavalerie vers le Najd. Elle ramena un homme des Banû Ḥanîfa, nommé Thumâma ibn Uthâl, qu’ils attachèrent à l’un des piliers de la mosquée. Le Prophète sortit le voir et dit : « Détachez Thumâma. » Il partit vers des palmiers proches de la mosquée, prit un bain rituel, puis entra dans la mosquée et dit : « J’atteste qu’il n’y a de divinité qu’Allah et que Muḥammad est le Messager d’Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6d0f2b36-baf1-4ef0-a201-3b7c456e5887",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:463",
+      "reference": "Sahih al-Bukhari, hadith 463, book 8, باب الْخَيْمَةِ فِي الْمَسْجِدِ لِلْمَرْضَى وَغَيْرِهِمْ",
+      "title": "باب الْخَيْمَةِ فِي الْمَسْجِدِ لِلْمَرْضَى وَغَيْرِهِمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زَكَرِيَّاءُ بْنُ يَحْيَى، قَالَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، قَالَ حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ أُصِيبَ سَعْدٌ يَوْمَ الْخَنْدَقِ فِي الأَكْحَلِ، فَضَرَبَ النَّبِيُّ صلى الله عليه وسلم خَيْمَةً فِي الْمَسْجِدِ لِيَعُودَهُ مِنْ قَرِيبٍ، فَلَمْ يَرُعْهُمْ ـ وَفِي الْمَسْجِدِ خَيْمَةٌ مِنْ بَنِي غِفَارٍ ـ إِلاَّ الدَّمُ يَسِيلُ إِلَيْهِمْ فَقَالُوا يَا أَهْلَ الْخَيْمَةِ، مَا هَذَا الَّذِي يَأْتِينَا مِنْ قِبَلِكُمْ فَإِذَا سَعْدٌ يَغْذُو جُرْحُهُ دَمًا، فَمَاتَ فِيهَا‏.‏",
+      "source_hash_sha256": "b8bc0848a46f0a90b9ccc5cfaaf2e8c8ec90a96ffce2ef9e614980ca329b394e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zakariyyâ ibn Yaḥyâ nous a rapporté ; ʿAbd Allâh ibn Numayr nous a rapporté ; Hishâm nous a rapporté, d’après son père, d’après ʿÂʾisha, qui a dit : Saʿd fut blessé à la veine du bras le jour du Fossé. Le Prophète (paix et bénédictions sur lui) installa pour lui une tente dans la mosquée afin de lui rendre visite facilement. Ils ne furent alarmés — alors qu’une tente des Banû Ghifâr se trouvait aussi dans la mosquée — que lorsqu’ils virent du sang couler vers eux. Ils dirent : « Gens de la tente, qu’est-ce donc qui nous vient de chez vous ? » Saʿd saignait abondamment de sa blessure et mourut dans la tente.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "fef62d7c-3c17-4f0a-bea3-be74c16e3f60",
+      "url": "https://sunnah.com/bukhari:461",
+      "reason": "This hadith includes a direct Quran quotation attributed to Solomon. Keep it blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
