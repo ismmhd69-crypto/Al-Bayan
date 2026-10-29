@@ -16276,6 +16276,23 @@
   "published": 0,
   "status": "local draft with holds"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-759",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-759.json",
+  "sourceIds": [
+    "f6bd8442-c358-49e0-a74e-1043eebc5474"
+  ],
+  "translated": 1,
+  "inserted": 0,
+  "preserved": 0,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft"
+}
   ],
   "blockers": [
     {
@@ -16696,7 +16713,7 @@
   "reason": "The battle chant includes اليوم يوم الرضع, whose exact meaning is unclear. The complete report remains blank in FR-LIB-HAD-BUKHARI-758 pending clarification."
 }
   ],
-  "hadithBukhariDrafted": 3707,
-  "hadithLocalDrafted": 3707,
-  "hadithLocalRemaining": 10950
+  "hadithBukhariDrafted": 3708,
+  "hadithLocalDrafted": 3708,
+  "hadithLocalRemaining": 10949
 }
