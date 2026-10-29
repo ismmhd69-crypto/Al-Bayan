@@ -5382,3 +5382,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1049 saves six private French drafts about food, clothing and prayer. Source wording and narrator chains are retained.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,817 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 748. Total local hadith rows not drafted: 9,812, including held records.
+
+
+### 2026-10-29: Bukhari 5788–5793
+
+- FR-LIB-HAD-BUKHARI-1050 saves six private French drafts. The narrator’s clarification and parallel chains are retained.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,823 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 748. Total local hadith rows not drafted: 9,806, including held records.
