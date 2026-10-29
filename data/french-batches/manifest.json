@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 595,
+    "hadithBukhariDrafted": 600,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 595,
+    "hadithLocalDrafted": 600,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 14034,
+    "hadithLocalRemaining": 14029,
     "hadithNeedsMo": 28,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -2318,6 +2318,20 @@
       "status": "six private local AI drafts"
     },
     {
+      "id": "FR-LIB-HAD-BUKHARI-116",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-116.json",
+      "sourceIds": ["fe9fae02-ad79-443c-8899-e30029cb03c8", "b2d740fe-1208-4baa-a6f9-12198fbb5bca", "e51a2378-df65-4714-9479-3ef31d6da922", "7e4d81d6-ec93-44fa-bf98-ed0c16d4fa56", "c3ff60d2-500d-41cf-97b4-0c5b5bf0285a", "86f336fc-30bf-4706-92ea-181b5db2240f"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed; Bukhari 644 held for unresolved food term",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private local AI drafts; one Needs Mo hold"
+    },
+    {
       "id": "FR-LIB-HAD-BUKHARI-115",
       "contentType": "hadith",
       "language": "fr",
@@ -2761,6 +2775,12 @@
       "scope": "Hadith records whose exported Arabic contains no hadith text",
       "status": "blocked",
       "reason": "Bukhari 221, 342, and 402b currently lack complete hadith wording: 221 has only a chain ending 'from the Prophet'; 342 has only a chain and the phrase 'he narrated the hadith'; 402b has only a chain ending 'I heard Anas, with this'. Keep all three on hold until their complete source wording is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-644-MIRMATAYN",
+      "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
+      "status": "blocked",
+      "reason": "The exact food-related referent of مِرْمَاتَيْنِ is not confirmed from the local Arabic record. The full report remains blank in private batch FR-LIB-HAD-BUKHARI-116 until its meaning can be checked."
     },
     {
       "id": "RAMADAN-IFTAR-DUA-REFERENCE",

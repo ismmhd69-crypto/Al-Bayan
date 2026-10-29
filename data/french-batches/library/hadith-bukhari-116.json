@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-116",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T03:13:45.396Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "fe9fae02-ad79-443c-8899-e30029cb03c8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:639",
+      "reference": "Sahih al-Bukhari, hadith 639, book 10, باب هَلْ يَخْرُجُ مِنَ الْمَسْجِدِ لِعِلَّةٍ",
+      "title": "باب هَلْ يَخْرُجُ مِنَ الْمَسْجِدِ لِعِلَّةٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ صَالِحِ بْنِ كَيْسَانَ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم خَرَجَ وَقَدْ أُقِيمَتِ الصَّلاَةُ وَعُدِّلَتِ الصُّفُوفُ، حَتَّى إِذَا قَامَ فِي مُصَلاَّهُ انْتَظَرْنَا أَنْ يُكَبِّرَ انْصَرَفَ قَالَ ‏\"‏ عَلَى مَكَانِكُمْ ‏\"‏‏.‏ فَمَكَثْنَا عَلَى هَيْئَتِنَا حَتَّى خَرَجَ إِلَيْنَا يَنْطُفُ رَأْسُهُ مَاءً وَقَدِ اغْتَسَلَ‏.‏",
+      "source_hash_sha256": "01a3ca4c1b397a89baba7c7ba3f313289b1d22f367053bce8bc99b9ad9dc773a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd al-Aziz ibn Abd Allah nous a rapporté : Ibrahim ibn Sa‘d nous a rapporté, d’après Salih ibn Kaysan, d’après Ibn Shihab, d’après Abou Salama, d’après Abou Hourayra, que le Messager d’Allah ﷺ sortit alors que l’iqama avait été prononcée et que les rangs avaient été alignés. Lorsqu’il se tint à son emplacement de prière, nous nous attendions à ce qu’il prononce le takbir. Mais il se détourna et dit : « Restez à vos places. » Nous demeurâmes ainsi jusqu’à ce qu’il revienne vers nous, l’eau gouttant de sa tête après qu’il se fut lavé.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b2d740fe-1208-4baa-a6f9-12198fbb5bca",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:640",
+      "reference": "Sahih al-Bukhari, hadith 640, book 10, باب إِذَا قَالَ الإِمَامُ مَكَانَكُمْ. حَتَّى رَجَعَ انْتَظَرُوهُ",
+      "title": "باب إِذَا قَالَ الإِمَامُ مَكَانَكُمْ. حَتَّى رَجَعَ انْتَظَرُوهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا الأَوْزَاعِيُّ، عَنِ الزُّهْرِيِّ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ أُقِيمَتِ الصَّلاَةُ فَسَوَّى النَّاسُ صُفُوفَهُمْ، فَخَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَتَقَدَّمَ وَهْوَ جُنُبٌ ثُمَّ قَالَ ‏\"‏ عَلَى مَكَانِكُمْ ‏\"‏‏.‏ فَرَجَعَ فَاغْتَسَلَ ثُمَّ خَرَجَ وَرَأْسُهُ يَقْطُرُ مَاءً فَصَلَّى بِهِمْ‏.‏",
+      "source_hash_sha256": "d15316b83da5b950453f62a214fd3c8f53416ee41c868c9e43b9ac96049740cd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq nous a rapporté : Muhammad ibn Yusuf nous a rapporté : al-Awza‘i nous a rapporté, d’après al-Zuhri, d’après Abou Salama ibn Abd al-Rahman, d’après Abou Hourayra, qui dit : « L’iqama fut prononcée et les gens alignèrent leurs rangs. Le Messager d’Allah ﷺ sortit et s’avança alors qu’il était en état d’impureté majeure. Puis il dit : “Restez à vos places.” Il retourna se laver, puis revint, l’eau gouttant de sa tête, et dirigea la prière avec eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e51a2378-df65-4714-9479-3ef31d6da922",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:641",
+      "reference": "Sahih al-Bukhari, hadith 641, book 10, باب قَوْلِ الرَّجُلِ مَا صَلَّيْنَا",
+      "title": "باب قَوْلِ الرَّجُلِ مَا صَلَّيْنَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا شَيْبَانُ، عَنْ يَحْيَى، قَالَ سَمِعْتُ أَبَا سَلَمَةَ، يَقُولُ أَخْبَرَنَا جَابِرُ بْنُ عَبْدِ اللَّهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم جَاءَهُ عُمَرُ بْنُ الْخَطَّابِ يَوْمَ الْخَنْدَقِ فَقَالَ يَا رَسُولَ اللَّهِ، وَاللَّهِ مَا كِدْتُ أَنْ أُصَلِّيَ حَتَّى كَادَتِ الشَّمْسُ تَغْرُبُ، وَذَلِكَ بَعْدَ مَا أَفْطَرَ الصَّائِمُ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ وَاللَّهِ مَا صَلَّيْتُهَا ‏\"‏ فَنَزَلَ النَّبِيُّ صلى الله عليه وسلم إِلَى بُطْحَانَ وَأَنَا مَعَهُ فَتَوَضَّأَ ثُمَّ صَلَّى ـ يَعْنِي الْعَصْرَ ـ بَعْدَ مَا غَرَبَتِ الشَّمْسُ، ثُمَّ صَلَّى بَعْدَهَا الْمَغْرِبَ‏.‏",
+      "source_hash_sha256": "c0e6b70502982cdb48c8706a86db5eb62aeaf0bd881019a43bbd9951d60de929",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Nuaym nous a rapporté : Shayban nous a rapporté, d’après Yahya, qui dit : J’ai entendu Abou Salama dire : Jabir ibn Abd Allah nous a rapporté que, le jour de la tranchée, Umar ibn al-Khattab vint trouver le Prophète ﷺ et lui dit : « Ô Messager d’Allah, par Allah, j’ai failli ne pas prier avant que le soleil soit sur le point de se coucher. » C’était après que les jeûneurs avaient rompu leur jeûne. Le Prophète ﷺ dit : « Par Allah, moi non plus, je ne l’ai pas priée. » Le Prophète descendit à Buthan, et je l’accompagnai. Il fit ses ablutions puis pria la prière de l’après-midi après le coucher du soleil, puis il pria celle du coucher du soleil.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7e4d81d6-ec93-44fa-bf98-ed0c16d4fa56",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:642",
+      "reference": "Sahih al-Bukhari, hadith 642, book 10, باب الإِمَامِ تَعْرِضُ لَهُ الْحَاجَةُ بَعْدَ الإِقَامَةِ",
+      "title": "باب الإِمَامِ تَعْرِضُ لَهُ الْحَاجَةُ بَعْدَ الإِقَامَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو مَعْمَرٍ عَبْدُ اللَّهِ بْنُ عَمْرٍو، قَالَ حَدَّثَنَا عَبْدُ الْوَارِثِ، قَالَ حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ صُهَيْبٍ، عَنْ أَنَسٍ، قَالَ أُقِيمَتِ الصَّلاَةُ وَالنَّبِيُّ صلى الله عليه وسلم يُنَاجِي رَجُلاً فِي جَانِبِ الْمَسْجِدِ، فَمَا قَامَ إِلَى الصَّلاَةِ حَتَّى نَامَ الْقَوْمُ‏.‏",
+      "source_hash_sha256": "be3ae94de260c25ad4eaccdd3c43b96fe1a3d5f60f4d9fc370c789a2615cdff4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Ma‘mar Abd Allah ibn Amr nous a rapporté : Abd al-Warith nous a rapporté : Abd al-Aziz ibn Suhaib nous a rapporté, d’après Anas, qui dit : « L’iqama fut prononcée alors que le Prophète ﷺ s’entretenait en privé avec un homme, sur le côté de la mosquée. Il ne se leva pour la prière qu’une fois les gens endormis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c3ff60d2-500d-41cf-97b4-0c5b5bf0285a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:643",
+      "reference": "Sahih al-Bukhari, hadith 643, book 10, باب الْكَلاَمِ إِذَا أُقِيمَتِ الصَّلاَةُ",
+      "title": "باب الْكَلاَمِ إِذَا أُقِيمَتِ الصَّلاَةُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَيَّاشُ بْنُ الْوَلِيدِ، قَالَ حَدَّثَنَا عَبْدُ الأَعْلَى، قَالَ حَدَّثَنَا حُمَيْدٌ، قَالَ سَأَلْتُ ثَابِتًا الْبُنَانِيَّ عَنِ الرَّجُلِ، يَتَكَلَّمُ بَعْدَ مَا تُقَامُ الصَّلاَةُ فَحَدَّثَنِي عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ أُقِيمَتِ الصَّلاَةُ فَعَرَضَ لِلنَّبِيِّ صلى الله عليه وسلم رَجُلٌ فَحَبَسَهُ بَعْدَ مَا أُقِيمَتِ الصَّلاَةُ‏.‏",
+      "source_hash_sha256": "10dc186a8e248e20bc005a755fc499112064b308eb0af883014a214b7dd2e8a1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ayyash ibn al-Walid nous a rapporté : Abd al-A‘la nous a rapporté : Humayd nous a rapporté : J’interrogeai Thabit al-Bunani au sujet de l’homme qui parle après que l’iqama a été prononcée. Il me rapporta d’Anas ibn Malik : « L’iqama fut prononcée, puis un homme se présenta au Prophète ﷺ et le retint après que l’iqama eut été prononcée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "86f336fc-30bf-4706-92ea-181b5db2240f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:644",
+      "reference": "Sahih al-Bukhari, hadith 644, book 10, باب وُجُوبِ صَلاَةِ الْجَمَاعَةِ",
+      "title": "باب وُجُوبِ صَلاَةِ الْجَمَاعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ أَخْبَرَنَا مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ وَالَّذِي نَفْسِي بِيَدِهِ لَقَدْ هَمَمْتُ أَنْ آمُرَ بِحَطَبٍ فَيُحْطَبَ، ثُمَّ آمُرَ بِالصَّلاَةِ فَيُؤَذَّنَ لَهَا، ثُمَّ آمُرَ رَجُلاً فَيَؤُمَّ النَّاسَ، ثُمَّ أُخَالِفَ إِلَى رِجَالٍ فَأُحَرِّقَ عَلَيْهِمْ بُيُوتَهُمْ، وَالَّذِي نَفْسِي بِيَدِهِ لَوْ يَعْلَمُ أَحَدُهُمْ أَنَّهُ يَجِدُ عَرْقًا سَمِينًا أَوْ مِرْمَاتَيْنِ حَسَنَتَيْنِ لَشَهِدَ الْعِشَاءَ ‏\"‏‏.‏",
+      "source_hash_sha256": "1154f31665289380739286e25018c3056126abc8b2026b7391bd3ba5094f8264",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_unclear_food_term_mirmatayn",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "86f336fc-30bf-4706-92ea-181b5db2240f",
+      "url": "https://sunnah.com/bukhari:644",
+      "reason": "The closing word مِرْمَاتَيْنِ (mirmatayn) is an unfamiliar food-related term whose exact referent cannot be confirmed from the local Arabic record. Because it appears in the report's reward comparison, the whole report is held blank rather than guessing what object is meant."
+    }
+  ]
+}

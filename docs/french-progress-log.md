@@ -603,3 +603,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-115` saved private French drafts for Bukhari 633–638. The reports retain the lance placed before the Prophet at al-Abtah, the observer following Bilal’s mouth during the call, the instruction to arrive calmly and complete missed prayer, and both waiting-for-the-imam wordings.
 - The batch passed the focused validator for all six records, including Arabic hashes, rights metadata, private unpublished state and the long-record rule. No Needs Mo item was identified in this batch. No database writes or publication occurred.
 - Bukhari local drafts: 595 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 28. Total local hadith rows not drafted: 14,034, including held records.
+
+### 2026-10-29: Bukhari 639–644 source review
+
+- `FR-LIB-HAD-BUKHARI-116` saved private French drafts for Bukhari 639–643, preserving the instruction to wait in place, the report about the delayed prayer on the day of the Trench, and the narrator’s wording in the brief reports about conversation after the iqama.
+- Bukhari 644 remains blank and held under Needs Mo because the exact meaning of the closing food-related term `مِرْمَاتَيْنِ` is not confirmed from the local Arabic text. The complete batch passed the focused validator, including source hashes, rights metadata, private unpublished state and the reason-specific hold.
+- Five local drafts were added; one additional hadith is held. No database writes or publication occurred. Bukhari local drafts: 600 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 29. Total local hadith rows not drafted: 14,029, including held records.
