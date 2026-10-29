@@ -11031,3 +11031,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0780 saves five private French drafts about the prohibition on striking an enslaved person and variants on the report. Muslim 1658e only supplies a chain and cross-reference, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1660a–1662
+
+- FR-LIB-HAD-MUSLIM-0781 saves six private French drafts on accusations of adultery and fair treatment of enslaved people. All six records contain complete reports or distinct wording variants.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
