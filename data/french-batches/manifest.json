@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5454,
+    "hadithBukhariDrafted": 5460,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5454,
+    "hadithLocalDrafted": 5460,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9175,
+    "hadithLocalRemaining": 9169,
     "hadithNeedsMo": 788,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -25243,6 +25243,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1192",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1192.json",
+      "sourceIds": [
+        "c7c32b17-73f0-497a-9b06-7fd0850acb75",
+        "483df2cd-e530-4516-ae09-cdf5533cc634",
+        "b5101009-cb46-473e-86fb-23f487fcf4be",
+        "8e735357-da1a-4952-96da-7d928fd18b18",
+        "c8c00b5a-1123-4e09-9b58-ca591937b986",
+        "fa7b0069-cd56-4cda-89f7-96f8410afca0"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Six records passed the focused validator. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -28361,9 +28382,9 @@
       "reason": "The report quotes the Quranic word كن attributed to Allah. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5454,
-  "hadithLocalDrafted": 5454,
-  "hadithLocalRemaining": 9175,
+  "hadithBukhariDrafted": 5460,
+  "hadithLocalDrafted": 5460,
+  "hadithLocalRemaining": 9169,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",

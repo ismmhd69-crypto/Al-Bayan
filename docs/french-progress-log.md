@@ -6072,3 +6072,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1191 saves four private French drafts. Bukhari 6477 remains blank because its source ends during a comparison. Bukhari 6481 remains blank because it quotes the Quranic word كن. No database writes or publication occurred.
 - The four drafts passed the focused validator. Bukhari local drafts: 5,454 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 788. Total local hadith rows not drafted: 9,175, including held records.
+
+### 2026-10-29: Bukhari 6483–6488
+
+- FR-LIB-HAD-BUKHARI-1192 saves six private French drafts about the Prophet’s warning, good conduct, and the path to Paradise or the Fire. No database writes or publication occurred.
+- All six drafts passed the focused validator. Bukhari local drafts: 5,460 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 788. Total local hadith rows not drafted: 9,169, including held records.
