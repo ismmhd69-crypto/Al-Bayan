@@ -10141,3 +10141,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0602 saves five private French drafts about the Prophet’s entry into Mecca, his sermon, and the sanctity of Medina. Muslim 1360b only gives wording variants by reference to the preceding report and remains blank under Needs Mo. The oversized source remains queued for isolated handling.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1361a–1364
+
+- FR-LIB-HAD-MUSLIM-0603 saves five private French drafts about Medina’s sacred boundaries and the conduct of visitors there. Muslim 1363b only refers to a preceding report and adds a variant, so it remains blank under Needs Mo. The oversized source remains queued for isolated handling.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

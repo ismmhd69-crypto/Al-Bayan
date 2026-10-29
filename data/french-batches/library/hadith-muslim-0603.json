@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0603",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:26:03.068Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3005aac4-bafe-4fdf-abf1-225460c99dc6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1361a",
+      "reference": "Sahih Muslim, hadith 1361 a, book 15, باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "title": "باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا بَكْرٌ، - يَعْنِي ابْنَ مُضَرَ - عَنِ ابْنِ الْهَادِ، عَنْ أَبِي، بَكْرِ بْنِ مُحَمَّدٍ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ عُثْمَانَ، عَنْ رَافِعِ بْنِ خَدِيجٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ إِبْرَاهِيمَ حَرَّمَ مَكَّةَ وَإِنِّي أُحَرِّمُ مَا بَيْنَ لاَبَتَيْهَا ‏\"‏ ‏.‏ يُرِيدُ الْمَدِينَةَ ‏.‏",
+      "source_hash_sha256": "90f76ab816cbc9af679e1457bb0a6bfdaf21ad8c16833eb4b0d171a8b6de0906",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Rafi‘ ibn Khadij rapporte que le Messager d’Allah ﷺ a dit : « Ibrahim a rendu La Mecque sacrée et moi, je rends sacré le territoire entre les deux champs de lave. » Il s’agissait de Médine.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "07815c79-41d2-47b3-9857-59c03f8409ab",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1361b",
+      "reference": "Sahih Muslim, hadith 1361 b, book 15, باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "title": "باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا سُلَيْمَانُ بْنُ بِلاَلٍ، عَنْ عُتْبَةَ بْنِ مُسْلِمٍ، عَنْ نَافِعِ بْنِ جُبَيْرٍ، أَنَّ مَرْوَانَ بْنَ الْحَكَمِ، خَطَبَ النَّاسَ فَذَكَرَ مَكَّةَ وَأَهْلَهَا وَحُرْمَتَهَا وَلَمْ يَذْكُرِ الْمَدِينَةَ وَأَهْلَهَا وَحُرْمَتَهَا فَنَادَاهُ رَافِعُ بْنُ خَدِيجٍ فَقَالَ مَا لِي أَسْمَعُكَ ذَكَرْتَ مَكَّةَ وَأَهْلَهَا وَحُرْمَتَهَا وَلَمْ تَذْكُرِ الْمَدِينَةَ وَأَهْلَهَا وَحُرْمَتَهَا وَقَدْ حَرَّمَ رَسُولُ اللَّهِ صلى الله عليه وسلم مَا بَيْنَ لاَبَتَيْهَا وَذَلِكَ عِنْدَنَا فِي أَدِيمٍ خَوْلاَنِيٍّ إِنْ شِئْتَ أَقْرَأْتُكَهُ ‏.‏ قَالَ فَسَكَتَ مَرْوَانُ ثُمَّ قَالَ قَدْ سَمِعْتُ بَعْضَ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "0c49c0c1e2de46b21653bc32f24df36a03345a76e40f7dac8747edf8ab3c459a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nafi‘ ibn Jubayr rapporte que Marwan ibn al-Hakam s’adressa aux gens. Il évoqua La Mecque, ses habitants et son caractère sacré, mais ne mentionna pas Médine, ses habitants ni son caractère sacré. Rafi‘ ibn Khadij l’interpella : « Pourquoi t’entends-je parler de La Mecque, de ses habitants et de son caractère sacré sans mentionner Médine, ses habitants et son caractère sacré ? Le Messager d’Allah ﷺ a rendu sacré le territoire entre ses deux champs de lave. Nous en avons une trace écrite sur un parchemin de Khawlan ; si tu le souhaites, je peux te la lire. » Marwan garda le silence, puis dit : « J’en ai entendu une partie. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "03502325-0762-4328-8c5a-00e24e07d0b6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1362",
+      "reference": "Sahih Muslim, hadith 1362, book 15, باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "title": "باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، كِلاَهُمَا عَنْ أَبِي أَحْمَدَ، - قَالَ أَبُو بَكْرٍ حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ الأَسْدِيُّ، - حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنَّ إِبْرَاهِيمَ حَرَّمَ مَكَّةَ وَإِنِّي حَرَّمْتُ الْمَدِينَةَ مَا بَيْنَ لاَبَتَيْهَا لاَ يُقْطَعُ عِضَاهُهَا وَلاَ يُصَادُ صَيْدُهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "44e326f6f764c1900881f9c8b5dcf4b39e157cf69f9e1102cbd5f8ffc68073ae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jabir rapporte que le Prophète ﷺ a dit : « Ibrahim a rendu La Mecque sacrée, et moi j’ai rendu sacré le territoire de Médine entre ses deux champs de lave : on n’y coupe pas les arbres épineux et on n’y chasse pas le gibier. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "651bd6e4-671e-444d-befc-7a26e0b32509",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1363a",
+      "reference": "Sahih Muslim, hadith 1363 a, book 15, باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "title": "باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُثْمَانُ بْنُ حَكِيمٍ، حَدَّثَنِي عَامِرُ بْنُ سَعْدٍ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنِّي أُحَرِّمُ مَا بَيْنَ لاَبَتَىِ الْمَدِينَةِ أَنْ يُقْطَعَ عِضَاهُهَا أَوْ يُقْتَلَ صَيْدُهَا - وَقَالَ - الْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ لاَ يَدَعُهَا أَحَدٌ رَغْبَةً عَنْهَا إِلاَّ أَبْدَلَ اللَّهُ فِيهَا مَنْ هُوَ خَيْرٌ مِنْهُ وَلاَ يَثْبُتُ أَحَدٌ عَلَى لأْوَائِهَا وَجَهْدِهَا إِلاَّ كُنْتُ لَهُ شَفِيعًا أَوْ شَهِيدًا يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3c9429800e3323cf3256ddd3af65a9bfab2edffcb23993a426c9a8e08fbc35a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘d rapporte que le Messager d’Allah ﷺ a dit : « Je rends sacré le territoire entre les deux champs de lave de Médine : on n’y coupe pas ses arbres épineux et on n’y tue pas son gibier. » Il dit aussi : « Médine est meilleure pour eux, s’ils le savaient. Personne ne la quitte par aversion sans qu’Allah ne lui donne en remplacement quelqu’un de meilleur. Et quiconque endure ses difficultés et sa rudesse aura mon intercession ou mon témoignage en sa faveur le Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6991dde7-f98c-4ef3-99b6-6da60e6a869c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1363b",
+      "reference": "Sahih Muslim, hadith 1363 b, book 15, باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "title": "باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا مَرْوَانُ بْنُ مُعَاوِيَةَ، حَدَّثَنَا عُثْمَانُ بْنُ حَكِيمٍ الأَنْصَارِيُّ، أَخْبَرَنِي عَامِرُ بْنُ سَعْدِ بْنِ أَبِي وَقَّاصٍ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏.‏ ثُمَّ ذَكَرَ مِثْلَ حَدِيثِ ابْنِ نُمَيْرٍ وَزَادَ فِي الْحَدِيثِ ‏\"‏ وَلاَ يُرِيدُ أَحَدٌ أَهْلَ الْمَدِينَةِ بِسُوءٍ إِلاَّ أَذَابَهُ اللَّهُ فِي النَّارِ ذَوْبَ الرَّصَاصِ أَوْ ذَوْبَ الْمِلْحِ فِي الْمَاءِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "95e0b66358cb1e4e0a29d666a73ed2a47504a6d23eb28182b5b4f25ab43cd2a9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "468fc06d-7f00-4485-9a91-947aa6480b84",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1364",
+      "reference": "Sahih Muslim, hadith 1364, book 15, باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "title": "باب فَضْلِ الْمَدِينَةِ وَدُعَاءِ النَّبِيِّ صلى الله عليه وسلم فِيهَا بِالْبَرَكَةِ وَبَيَانِ تَحْرِيمِها وَتَحْرِيمِ صَيْدِهَا وَشَجَرِهَا وَبَيَانِ حُدُودِ حَرَمِهَا",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، جَمِيعًا عَنِ الْعَقَدِيِّ، - قَالَ عَبْدٌ أَخْبَرَنَا عَبْدُ الْمَلِكِ بْنُ عَمْرٍو، - حَدَّثَنَا عَبْدُ اللَّهِ بْنُ جَعْفَرٍ، عَنْ إِسْمَاعِيلَ بْنِ مُحَمَّدٍ، عَنْ عَامِرِ بْنِ، سَعْدٍ أَنَّ سَعْدًا، رَكِبَ إِلَى قَصْرِهِ بِالْعَقِيقِ فَوَجَدَ عَبْدًا يَقْطَعُ شَجَرًا أَوْ يَخْبِطُهُ فَسَلَبَهُ فَلَمَّا رَجَعَ سَعْدٌ جَاءَهُ أَهْلُ الْعَبْدِ فَكَلَّمُوهُ أَنْ يَرُدَّ عَلَى غُلاَمِهِمْ أَوْ عَلَيْهِمْ مَا أَخَذَ مِنْ غُلاَمِهِمْ فَقَالَ مَعَاذَ اللَّهِ أَنْ أَرُدَّ شَيْئًا نَفَّلَنِيهِ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ وَأَبَى أَنْ يَرُدَّ عَلَيْهِمْ ‏.‏",
+      "source_hash_sha256": "79316a4eebe064227209b19424878c45a224d6e01fa0bdc12880750209e90b17",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amir ibn Sa‘d rapporte que Sa‘d se rendit à sa propriété d’al-Aqiq et y trouva un esclave en train de couper ou de frapper des arbres. Il lui prit ce qu’il avait. À son retour, la famille de l’esclave vint lui demander de rendre à leur serviteur, ou à eux, ce qu’il lui avait pris. Sa‘d répondit : « Qu’Allah m’en préserve ! Je ne rendrai rien de ce que le Messager d’Allah ﷺ m’a attribué comme butin. » Il refusa de le leur rendre.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6991dde7-f98c-4ef3-99b6-6da60e6a869c",
+      "reason": "Cette entrée ne reprend pas le récit complet et renvoie au rapport précédent (« مِثْلَ حَدِيثِ ابْنِ نُمَيْرٍ »), en n’ajoutant qu’une variante. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
