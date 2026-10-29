@@ -16293,6 +16293,28 @@
   "published": 0,
   "status": "local draft"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-760",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-760.json",
+  "sourceIds": [
+    "ff11f172-2527-4a0d-8849-b103bde44ea1",
+    "cc7d351b-b5e5-4a41-bd6a-6f0a9494af05",
+    "2944a74e-a016-4ed2-834b-a316dac564ff",
+    "c081de5d-d519-494e-a637-df3eb55bbc72",
+    "d5e593c6-ad84-4652-8126-73c68d7592b4",
+    "c2935850-cdaf-48b3-8ad9-4c0fb8bc9377"
+  ],
+  "translated": 3,
+  "inserted": 0,
+  "preserved": 3,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -16712,8 +16734,28 @@
   "status": "blocked",
   "reason": "The battle chant includes اليوم يوم الرضع, whose exact meaning is unclear. The complete report remains blank in FR-LIB-HAD-BUKHARI-758 pending clarification."
 }
+
+,
+    {
+  "id": "HADITH-BUKHARI-4197-QURAN-37-177",
+  "scope": "Sahih al-Bukhari 4197: direct quotation of Quran 37:177",
+  "reason": "The report directly quotes Quran 37:177. It remains blank in FR-LIB-HAD-BUKHARI-760 until an approved, attributed French Quran translation is confirmed.",
+  "status": "blocked"
+},
+    {
+  "id": "HADITH-BUKHARI-4198-QURAN-37-177",
+  "scope": "Sahih al-Bukhari 4198: direct quotation of Quran 37:177",
+  "reason": "The report directly quotes Quran 37:177. It remains blank in FR-LIB-HAD-BUKHARI-760 until an approved, attributed French Quran translation is confirmed.",
+  "status": "blocked"
+},
+    {
+  "id": "HADITH-BUKHARI-4200-QURAN-37-177",
+  "scope": "Sahih al-Bukhari 4200: direct quotation of Quran 37:177",
+  "reason": "The report directly quotes Quran 37:177. It remains blank in FR-LIB-HAD-BUKHARI-760 until an approved, attributed French Quran translation is confirmed.",
+  "status": "blocked"
+}
   ],
-  "hadithBukhariDrafted": 3708,
-  "hadithLocalDrafted": 3708,
-  "hadithLocalRemaining": 10949
+  "hadithBukhariDrafted": 3711,
+  "hadithLocalDrafted": 3711,
+  "hadithLocalRemaining": 10946
 }

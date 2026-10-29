@@ -3711,3 +3711,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-759` saves one private French draft of the long report about the journey to Khaybar and ʿÂmir ibn al-Akwaʿ. No Quran quotation or unclear source wording required a hold.
 - The record passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,708 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 304. Total local hadith rows not drafted: 10,949, including held records.
+
+### 2026-10-29: Bukhari 4197–4202
+
+- `FR-LIB-HAD-BUKHARI-760` saves three private French drafts. Hadiths 4197, 4198 and 4200 remain blank because they directly quote Quran 37:177; the holds are recorded for Mo.
+- All six records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,711 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 307. Total local hadith rows not drafted: 10,946, including held records.
