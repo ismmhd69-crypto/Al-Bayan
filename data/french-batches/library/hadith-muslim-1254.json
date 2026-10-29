@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-1254",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:09:52.513Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3fe4f503-4261-41c9-99bd-c000a726e4f2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2742",
+      "reference": "Sahih Muslim, hadith 2742, book 49, بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "title": "بَاب أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ وَبَيَانِ الْفِتْنَةِ بِالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي مَسْلَمَةَ، قَالَ سَمِعْتُ أَبَا نَضْرَةَ، يُحَدِّثُ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الدُّنْيَا حُلْوَةٌ خَضِرَةٌ وَإِنَّ اللَّهَ مُسْتَخْلِفُكُمْ فِيهَا فَيَنْظُرُ كَيْفَ تَعْمَلُونَ فَاتَّقُوا الدُّنْيَا وَاتَّقُوا النِّسَاءَ فَإِنَّ أَوَّلَ فِتْنَةِ بَنِي إِسْرَائِيلَ كَانَتْ فِي النِّسَاءِ ‏\"‏ ‏.‏ وَفِي حَدِيثِ ابْنِ بَشَّارٍ ‏\"‏ لِيَنْظُرَ كَيْفَ تَعْمَلُونَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0fa452440fb1dd7e33c12652728e8f81189239137565f6517bccbf00d856e1cd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn al-Muthannā et Muḥammad ibn Bashshār nous ont rapporté : Muḥammad ibn Jaʿfar nous a rapporté : Shuʿba nous a rapporté, d’après Abū Maslama, qui a dit : J’ai entendu Abū Naḍra rapporter d’après Abū Saʿīd al-Khudrī, d’après le Prophète ﷺ, qui a dit : « La vie d’ici-bas est douce et verdoyante. Allah vous y établit comme successeurs afin de voir comment vous agirez. Prenez donc garde à la vie d’ici-bas et prenez garde aux femmes, car la première épreuve des enfants d’Israël fut celle des femmes. » Dans la version d’Ibn Bashshār : « afin qu’Il voie comment vous agirez. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
