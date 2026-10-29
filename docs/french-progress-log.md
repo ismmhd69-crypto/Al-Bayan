@@ -8601,3 +8601,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0294 saves four private French drafts about praying at home during bad weather. Muslim 697c and 699b are incomplete variants and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,166 Muslim drafts, 7,502 total hadith drafts, 7,127 remaining, and 557 Needs Mo items.
+
+### 2026-10-29: Muslim 699c–700b
+
+- FR-LIB-HAD-MUSLIM-0295 saves two private French drafts about voluntary prayer while riding. Muslim 699c, 699d, 699e and 699f contain only incomplete variant references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,168 Muslim drafts, 7,504 total hadith drafts, 7,125 remaining, and 561 Needs Mo items.
