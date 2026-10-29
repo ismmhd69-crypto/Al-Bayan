@@ -5997,3 +5997,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1176 saves five private French drafts. Bukhari 6404 remains blank because the source says “whoever says [it] ten times” without identifying what is said. No database writes or publication occurred.
 - The five drafts passed the focused validator. Bukhari local drafts: 5,388 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 780. Total local hadith rows not drafted: 9,241, including held records.
+
+### 2026-10-29: Bukhari 6410–6415
+
+- FR-LIB-HAD-BUKHARI-1177 saves six private French drafts about Allah’s names, taking care not to tire people with exhortation, blessings, remembrance, and the Hereafter. No database writes or publication occurred.
+- All six drafts passed the focused validator. Bukhari local drafts: 5,394 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 780. Total local hadith rows not drafted: 9,235, including held records.
