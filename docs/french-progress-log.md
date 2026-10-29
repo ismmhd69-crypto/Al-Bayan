@@ -3051,3 +3051,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-627` saves one private French draft with the full account of the meal shared by the Prophet, Abû Talha, Umm Sulaym, and their guests.
 - The long-source record passed the focused single-item validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,194 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 11,463, including held records.
+
+### 2026-10-29: Bukhari 3579–3580
+
+- `FR-LIB-HAD-BUKHARI-628` saves two private French drafts about the signs of prophethood and Jâbir’s debt.
+- Both records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,196 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 11,461, including held records.

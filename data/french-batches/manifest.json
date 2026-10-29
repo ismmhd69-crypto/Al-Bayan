@@ -13970,6 +13970,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-628",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-628.json",
+      "sourceIds": [
+        "71eed5db-9de9-4e6c-a756-dcd18f99fed0",
+        "d3ad6241-6555-4e64-85a2-4615841322d5"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -14058,7 +14075,7 @@
       "status": "blocked",
       "reason": "The local Arabic phrase is ambiguous and appears damaged. The full report remains blank in FR-LIB-HAD-BUKHARI-619 until the exact wording is confirmed."
     }  ],
-  "hadithBukhariDrafted": 3194,
-  "hadithLocalDrafted": 3194,
-  "hadithLocalRemaining": 11463
+  "hadithBukhariDrafted": 3196,
+  "hadithLocalDrafted": 3196,
+  "hadithLocalRemaining": 11461
 }
