@@ -9491,3 +9491,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0472 saves four private French drafts about the pre-dawn meal and breaking the fast. Muslim 1096b and 1097b contain only parallel chains referring to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1098b–1101b
+
+- FR-LIB-HAD-MUSLIM-0473 saves five private French drafts about breaking the fast after sunset. Muslim 1098b contains only a chain and a reference to the prior report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
