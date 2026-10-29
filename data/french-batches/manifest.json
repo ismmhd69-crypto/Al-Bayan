@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:23:28.334Z",
+  "lastReconciled": "2026-10-29T13:24:47.175Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6215,
+    "hadithBukhariDrafted": 6220,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6215,
-    "hadithDatabaseMissing": 8414,
-    "hadithLocalRemaining": 8414,
-    "hadithNeedsMo": 130,
+    "hadithLocalDrafted": 6220,
+    "hadithDatabaseMissing": 8409,
+    "hadithLocalRemaining": 8409,
+    "hadithNeedsMo": 131,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28440,6 +28440,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1348",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1348.json",
+      "sourceIds": [
+        "6b65d4ed-44a3-4bb5-adb2-6858e8f36767",
+        "27b0159a-f52b-4609-83f0-49b00c5530b6",
+        "82a6908d-0ade-443c-9cf8-bf669f4e41b0",
+        "bc2d48c2-d1bb-4c18-bd46-732e4f772b3d",
+        "0fe3c7dc-202c-4b54-8d78-6a5d68f2c539",
+        "d454d68f-31ad-4ad6-a2fc-71cd0b8f1280"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "five complete private drafts and one incomplete source held blank under Needs Mo; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32078,11 +32099,17 @@
       "scope": "Sahih al-Bukhari 7380: Quran quotation embeds a tag for 6:102 that may not match the wording",
       "status": "blocked",
       "reason": "The report directly quotes Quranic wording embedded with a source tag for 6:102; the marked verse and wording may not match. Keep the complete French translation blank pending confirmation of the source reference and an approved, attributed French Quran translation with permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7402-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 7402: source ends mid-report",
+      "status": "blocked",
+      "reason": "The exported Arabic ends mid-report after “Khubayb al-Ansari” and contains no continuation. Keep the entire French translation blank until the complete source record is available."
     }
   ],
-  "hadithBukhariDrafted": 6215,
-  "hadithLocalDrafted": 6215,
-  "hadithLocalRemaining": 8414,
+  "hadithBukhariDrafted": 6220,
+  "hadithLocalDrafted": 6220,
+  "hadithLocalRemaining": 8409,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -32863,6 +32890,12 @@
       "scope": "Sahih al-Bukhari 7380: Quran quotation embeds a tag for 6:102 that may not match the wording",
       "status": "blocked",
       "reason": "The report directly quotes Quranic wording embedded with a source tag for 6:102; the marked verse and wording may not match. Keep the complete French translation blank pending confirmation of the source reference and an approved, attributed French Quran translation with permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7402-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 7402: source ends mid-report",
+      "status": "blocked",
+      "reason": "The exported Arabic ends mid-report after “Khubayb al-Ansari” and contains no continuation. Keep the entire French translation blank until the complete source record is available."
     }
   ],
   "hadithMuslimDrafted": 0
