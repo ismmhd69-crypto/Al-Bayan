@@ -1196,3 +1196,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-252` saves six private French drafts for Bukhari 1448–1453. They preserve the camel-age substitutions and compensation amounts in the zakat instructions, the Eid sermon to women, the rule against manipulating livestock groups, and both transmission routes in Bukhari 1453. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,329 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 75. Total local hadith rows not drafted: 13,300, including held records.
+
+### 2026-10-29: Bukhari 1454 long-source review
+
+- `FR-LIB-HAD-BUKHARI-253` saves one private French draft for Bukhari 1454. This long report was handled alone and preserves the full camel, sheep and silver zakat schedule, every threshold and the voluntary exceptions. No Needs Mo item was identified.
+- The single-record batch passed the focused validator for the Arabic hash, ID, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,330 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 75. Total local hadith rows not drafted: 13,299, including held records.
