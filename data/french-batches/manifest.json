@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5656,
+    "hadithBukhariDrafted": 5661,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5656,
+    "hadithLocalDrafted": 5661,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8973,
+    "hadithLocalRemaining": 8968,
     "hadithNeedsMo": 814,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -26056,6 +26056,26 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1231",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1231.json",
+      "sourceIds": [
+        "0c978135-2b7f-4c57-9b4b-05b6843af4eb",
+        "5dd58583-e72e-44a5-903a-4c0536e12d5b",
+        "5c225467-dd90-4d66-8d84-a4a60335f836",
+        "394beace-0293-4c22-a0c9-c7d4f93344ee",
+        "43d05651-33c3-4c67-8697-5308742cf34e"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -29330,9 +29350,9 @@
       "reason": "The narrator chain contains a damaged and incomplete phrase before the otherwise clear report. Keep the complete item blank until the chain is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 5656,
-  "hadithLocalDrafted": 5656,
-  "hadithLocalRemaining": 8973,
+  "hadithBukhariDrafted": 5661,
+  "hadithLocalDrafted": 5661,
+  "hadithLocalRemaining": 8968,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",

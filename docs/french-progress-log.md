@@ -6296,3 +6296,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1230 saves six private French drafts, preserving both versions of the Ramadan expiation report, the measure comparisons, and the full wording of 6715. No database writes or publication occurred.
 - All six drafts passed the focused validator. Bukhari local drafts: 5,656 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 814. Total local hadith rows not drafted: 8,973, including held records.
+
+
+### 2026-10-29: Bukhari 6716–6720
+
+- FR-LIB-HAD-BUKHARI-1231 saves five private French drafts, preserving the short variant report in 6719 and the narrator’s identification in 6720. No database writes or publication occurred.
+- All five drafts passed the focused validator. Bukhari local drafts: 5,661 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 814. Total local hadith rows not drafted: 8,968, including held records.
