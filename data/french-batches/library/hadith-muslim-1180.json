@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1180",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:35:10.167Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a4c6b0b1-4095-4186-979f-34a041a7b0a5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2546a",
+      "reference": "Sahih Muslim, hadith 2546 a, book 44, باب فَضْلِ فَارِسَ ‏‏",
+      "title": "باب فَضْلِ فَارِسَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالَ عَبْدٌ أَخْبَرَنَا وَقَالَ ابْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ جَعْفَرٍ الْجَزَرِيِّ، عَنِ يَزِيدَ بْنِ الأَصَمِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ كَانَ الدِّينُ عِنْدَ الثُّرَيَّا لَذَهَبَ بِهِ رَجُلٌ مِنْ فَارِسَ - أَوْ قَالَ مِنْ أَبْنَاءِ فَارِسَ - حَتَّى يَتَنَاوَلَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c5ea5e489c19acd1b0b1bad35cf91586d5ed538130f8f5184d6858b1e59781ff",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Si la religion se trouvait auprès des Pléiades, un homme de Perse — ou un descendant des Perses — irait la chercher et l’atteindrait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "faee31d0-7dcb-458d-8d09-e88853726477",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2546b",
+      "reference": "Sahih Muslim, hadith 2546 b, book 44, باب فَضْلِ فَارِسَ ‏‏",
+      "title": "باب فَضْلِ فَارِسَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي ابْنَ مُحَمَّدٍ - عَنْ ثَوْرٍ، عَنْ أَبِي الْغَيْثِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ كُنَّا جُلُوسًا عِنْدَ النَّبِيِّ صلى الله عليه وسلم إِذْ نَزَلَتْ عَلَيْهِ سُورَةُ الْجُمُعَةِ فَلَمَّا قَرَأَ ‏[quran sura=\"62\" aya_start=\"3\" aya_end=\"3\"]{‏ وَآخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا بِهِمْ‏}‏ قَالَ رَجُلٌ مَنْ هَؤُلاَءِ يَا رَسُولَ اللَّهِ فَلَمْ يُرَاجِعْهُ النَّبِيُّ صلى الله عليه وسلم حَتَّى سَأَلَهُ مَرَّةً أَوْ مَرَّتَيْنِ أَوْ ثَلاَثًا - قَالَ - وَفِينَا سَلْمَانُ الْفَارِسِيُّ - قَالَ - فَوَضَعَ النَّبِيُّ صلى الله عليه وسلم يَدَهُ عَلَى سَلْمَانَ ثُمَّ قَالَ ‏\"‏ لَوْ كَانَ الإِيمَانُ عِنْدَ الثُّرَيَّا لَنَالَهُ رِجَالٌ مِنْ هَؤُلاَءِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "646ec534447ca2a53975e12f293ce297dc88351cebfeada32b77cac1f67879d8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b71b3152-291b-4c57-97a0-b5f441b8a2d2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2547",
+      "reference": "Sahih Muslim, hadith 2547, book 44, باب قَوْلِهِ صلى الله عليه وسلم ‏\"‏ النَّاسُ كَإِبِلٍ مِائَةٍ لاَ تَجِدُ فِيهَا رَاحِلَةً ‏\"‏ ‏‏",
+      "title": "باب قَوْلِهِ صلى الله عليه وسلم ‏\"‏ النَّاسُ كَإِبِلٍ مِائَةٍ لاَ تَجِدُ فِيهَا رَاحِلَةً ‏\"‏ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، - وَاللَّفْظُ لِمُحَمَّدٍ - قَالَ عَبْدٌ أَخْبَرَنَا وَقَالَ، ابْنُ رَافِعٍ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تَجِدُونَ النَّاسَ كَإِبِلٍ مِائَةٍ لاَ يَجِدُ الرَّجُلُ فِيهَا رَاحِلَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "23579b739a65399d770d75115243470f4224a6e2033173290715f033ba7910ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh ibn ʿUmar rapporte que le Messager d’Allah ﷺ a dit : « Vous trouverez que les gens sont comme cent chameaux parmi lesquels on ne trouve pas une seule monture convenable. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3b56c305-ae28-4cab-8fc4-0296597306b5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2548a",
+      "reference": "Sahih Muslim, hadith 2548 a, book 45, باب بِرِّ الْوَالِدَيْنِ وَأَنَّهُمَا أَحَقُّ بِهِ ‏‏",
+      "title": "باب بِرِّ الْوَالِدَيْنِ وَأَنَّهُمَا أَحَقُّ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدِ بْنِ جَمِيلِ بْنِ طَرِيفٍ الثَّقَفِيُّ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ بْنِ الْقَعْقَاعِ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ مَنْ أَحَقُّ النَّاسِ بِحُسْنِ صَحَابَتِي قَالَ ‏\"‏ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أَبُوكَ ‏\"‏ ‏.‏ وَفِي حَدِيثِ قُتَيْبَةَ مَنْ أَحَقُّ بِحُسْنِ صَحَابَتِي وَلَمْ يَذْكُرِ النَّاسَ ‏.‏",
+      "source_hash_sha256": "b1f16f3a77bf7f6da11c9185a647ea8a2957764820af7cb5d68de5bcf38a8f33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte qu’un homme vint trouver le Messager d’Allah ﷺ et lui demanda : « Qui mérite le plus ma bonne compagnie ? » Il répondit : « Ta mère. » L’homme demanda : « Puis qui ? » Il répondit : « Ta mère. » — « Puis qui ? » — « Ta mère. » — « Puis qui ? » — « Ton père. » Dans la version de Qutayba, l’homme demanda : « Qui mérite le plus ma bonne compagnie ? », sans préciser « parmi les gens ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d41960ca-8d78-4ea1-9752-44bf57282a5d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2548b",
+      "reference": "Sahih Muslim, hadith 2548 b, book 45, باب بِرِّ الْوَالِدَيْنِ وَأَنَّهُمَا أَحَقُّ بِهِ ‏‏",
+      "title": "باب بِرِّ الْوَالِدَيْنِ وَأَنَّهُمَا أَحَقُّ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ الْهَمْدَانِيُّ حَدَّثَنَا ابْنُ فُضَيْلٍ، عَنْ أَبِيهِ، عَنْ عُمَارَةَ، بْنِ الْقَعْقَاعِ عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَجُلٌ يَا رَسُولَ اللَّهِ مَنْ أَحَقُّ بِحُسْنِ الصُّحْبَةِ قَالَ ‏\"‏ أُمُّكَ ثُمَّ أُمُّكَ ثُمَّ أُمُّكَ ثُمَّ أَبُوكَ ثُمَّ أَدْنَاكَ أَدْنَاكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f2ba559657841e237cafc3b0f42712c7ad58f0abefc2e55a2901d526ee9113d4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte qu’un homme dit : « Ô Messager d’Allah, qui mérite le plus que je lui tienne bonne compagnie ? » Il répondit : « Ta mère, puis ta mère, puis ta mère, puis ton père, puis tes proches les plus proches. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "97656735-bdd4-49d9-8770-0285539a76b1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2548c",
+      "reference": "Sahih Muslim, hadith 2548 c, book 45, باب بِرِّ الْوَالِدَيْنِ وَأَنَّهُمَا أَحَقُّ بِهِ ‏‏",
+      "title": "باب بِرِّ الْوَالِدَيْنِ وَأَنَّهُمَا أَحَقُّ بِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا شَرِيكٌ، عَنْ عُمَارَةَ، وَابْنِ، شُبْرُمَةَ عَنْ أَبِي، زُرْعَةَ عَنْ أَبِي هُرَيْرَةَ، قَالَ جَاءَ رَجُلٌ إِلَى النَّبِيِّ صلى الله عليه وسلم ‏.‏ فَذَكَرَ بِمِثْلِ حَدِيثِ جَرِيرٍ وَزَادَ فَقَالَ ‏\"‏ نَعَمْ وَأَبِيكَ لَتُنَبَّأَنَّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f0dbc355f0a6600bc9bb77c400678f9ced365943fa0bbfe400c9e79d4242d155",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte qu’un homme vint trouver le Prophète ﷺ et lui posa une question semblable à celle du récit de Jarīr. Il ajouta : « Oui, par ton père, tu en seras certainement informé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "faee31d0-7dcb-458d-8d09-e88853726477",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution."
+    }
+  ]
+}
