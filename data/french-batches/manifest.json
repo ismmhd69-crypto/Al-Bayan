@@ -44101,6 +44101,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0762",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0762.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "three complete reports translated as private drafts; three incomplete variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48408,8 +48421,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9191,
-  "hadithLocalRemaining": 5438,
+  "hadithLocalDrafted": 9194,
+  "hadithLocalRemaining": 5435,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -53586,10 +53599,25 @@
       "source_id": "13e34941-a34e-4546-943c-dd394e90d476",
       "reason": "Cette entrée donne des chaînes de transmission puis renvoie au récit précédent sans reproduire le contenu du récit. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "154d4e6e-aa38-4ae9-8f59-d631911256df",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f49569f2-8c2f-4a01-9bc4-d958983b6c96",
+      "reason": "Cette entrée résume le sens d’un récit précédent et signale des omissions ou variantes, sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ded54ad4-f3b3-4665-b361-e88d53b9a99f",
+      "reason": "Cette entrée renvoie au récit précédent et précise seulement une omission dans une variante de transmission. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2855,
+  "hadithMuslimDrafted": 2858,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1260
+  "hadithNeedsMo": 1263
 }
