@@ -8441,3 +8441,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0263 holds all six items blank under Needs Mo: five reports contain direct Quran quotations or fragments about the middle prayer (2:238); one gives only an incomplete variant without the full report.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Draft totals remain 1,049 Muslim and 7,385 overall, with 7,244 remaining and 501 Needs Mo items.
+
+### 2026-10-29: Muslim 631a–633b
+
+- FR-LIB-HAD-MUSLIM-0264 saves two private French drafts about the delayed Asr prayer during the Battle of the Trench and angels attending the dawn and Asr prayers. Muslim 633a quotes Quran 20:130 and remains blank under Needs Mo; 631b, 632b and 633b contain incomplete cross-references and also remain blank.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,051 Muslim drafts, 7,387 total hadith drafts, 7,242 remaining, and 505 Needs Mo items.
