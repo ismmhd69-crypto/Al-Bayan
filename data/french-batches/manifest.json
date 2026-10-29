@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5857,
+    "hadithBukhariDrafted": 5862,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5857,
+    "hadithLocalDrafted": 5862,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8772,
-    "hadithNeedsMo": 841,
+    "hadithLocalRemaining": 8767,
+    "hadithNeedsMo": 842,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26944,6 +26944,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1275",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1275.json",
+      "sourceIds": [
+        "5fcf07f6-65c7-4d0b-94f6-4bf3b812c929",
+        "165b1953-2ef1-47a3-95b6-9af3da43db06",
+        "b78022c0-c80d-4269-8178-8f2ebf717ce7",
+        "9726308d-384c-4e14-9174-6893c1f4bca0",
+        "e33b72f2-1191-4290-a1e0-b3de4eedd704",
+        "906a78bd-fc32-4302-a589-0dc73aab60ee"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one report held blank because two obscure plant terms affect the account. All source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -30378,11 +30399,17 @@
       "scope": "Sahih al-Bukhari 6969: alternate narrator route cuts off after إن خنساء",
       "status": "blocked",
       "reason": "The source text ends mid-sentence with إن خنساء after introducing an alternate narration route. Keep the complete report blank until the source is complete."
+    },
+    {
+      "id": "HADITH-BUKHARI-6972-UNCLEAR-PLANT-TERMS",
+      "scope": "Sahih al-Bukhari 6972: obscure plant terms مغافير and العرفط",
+      "status": "blocked",
+      "reason": "The account depends on the obscure terms مغافير and العرفط and their scent; the wording cannot be translated safely from this excerpt without clarifying those terms. Keep the complete report blank until clarified."
     }
   ],
-  "hadithBukhariDrafted": 5857,
-  "hadithLocalDrafted": 5857,
-  "hadithLocalRemaining": 8772,
+  "hadithBukhariDrafted": 5862,
+  "hadithLocalDrafted": 5862,
+  "hadithLocalRemaining": 8767,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30959,6 +30986,12 @@
       "scope": "Sahih al-Bukhari 6969: alternate narrator route cuts off after إن خنساء",
       "status": "blocked",
       "reason": "The source text ends mid-sentence with إن خنساء after introducing an alternate narration route. Keep the complete report blank until the source is complete."
+    },
+    {
+      "id": "HADITH-BUKHARI-6972-UNCLEAR-PLANT-TERMS",
+      "scope": "Sahih al-Bukhari 6972: obscure plant terms مغافير and العرفط",
+      "status": "blocked",
+      "reason": "The account depends on the obscure terms مغافير and العرفط and their scent; the wording cannot be translated safely from this excerpt without clarifying those terms. Keep the complete report blank until clarified."
     }
   ]
 }
