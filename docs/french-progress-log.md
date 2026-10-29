@@ -43,3 +43,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `DB-FR-LANG-CHECK`: database French drafts are blocked by the existing language check constraint. No schema change is authorized.
 - Ask/reconnect/cancellation/evidence and incomplete-answer status copy: all 93 leaf strings in `lib/ask/rich-text.ts` are translated in four local batches and assembled to `lib/ask/rich-text-fr.ts`. Key/source parity, placeholder parity, nonempty text, no duplicate/missing keys, and the 25-entry batch limit passed. The French Ask copy appears only in the loopback-only development preview; the live Ask flow and API locale guard are unchanged. Human review: 0; published: 0.
+
+### Phase 2: New to Islam lessons (in progress)
+
+- Translated lessons 1–14 into local French draft batches `new-to-islam-001.json` through `new-to-islam-005.json`. Original English/Arabic/German source records were not modified.
+- Each batch was checked against the source lesson IDs, all link destinations and citation reference IDs, source citation labels, section heading counts, and paragraph structure. Batch size is at most five lessons; these batches contain 3, 3, 3, 3, and 2 lessons.
+- French drafts remain unpublished and are not connected to public locale routing. New to Islam lessons remaining: 18 of 32. No human review is claimed.
