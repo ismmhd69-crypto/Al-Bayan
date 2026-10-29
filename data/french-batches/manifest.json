@@ -36505,6 +36505,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0362",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0362.json",
+      "sourceIds": [
+        "8bf02eac-b5ba-4921-8ac3-92b7e8ea410d",
+        "23ae22fd-b167-4046-8d50-161fb826b39e",
+        "2ac932fb-1ca3-47e6-9498-10b8140f673d",
+        "2fef3baa-b8d9-4c9d-b99e-c67c85d8402a",
+        "6adbdcdc-769e-406a-8e32-da1ec2068ee0",
+        "73353a91-59fa-40bc-8e55-751dde6e381d"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two incomplete reports held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40812,8 +40833,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7772,
-  "hadithLocalRemaining": 6857,
+  "hadithLocalDrafted": 7776,
+  "hadithLocalRemaining": 6853,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43442,10 +43463,22 @@
       "scope": "Sahih Muslim 844D: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source renvoie aux récits précédents au sujet du bain rituel du vendredi et ne reprend pas leur contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0362-848A-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 848A: incomplete report or cross-reference",
+      "status": "blocked",
+      "reason": "La source mentionne la parole du Prophète ﷺ concernant le bain du vendredi sans en rapporter le contenu, puis pose une question sur le parfum et l’huile. Garder la traduction française vide jusqu’à disponibilité du récit complet correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0362-848B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 848B: incomplete report or cross-reference",
+      "status": "blocked",
+      "reason": "La source ne donne que la chaîne de transmission d’un récit précédent, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1436,
+  "hadithMuslimDrafted": 1440,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 674
+  "hadithNeedsMo": 676
 }
