@@ -2321,3 +2321,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-481` saves six private French drafts for Bukhari 2787–2788 and 2790–2793, covering worship, sea expeditions, martyrs and the reward of service in Allah’s cause. The source export contained no Bukhari 2789 record.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,511 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 160. Total local hadith rows not drafted: 12,146, including held records.
+
+### 2026-10-29: Bukhari 2794–2799 source review
+
+- `FR-LIB-HAD-BUKHARI-482` saves six private French drafts for Bukhari 2794–2799, covering service in Allah’s cause, martyrdom, naval expeditions and their leaders.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,517 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 160. Total local hadith rows not drafted: 12,140, including held records.
