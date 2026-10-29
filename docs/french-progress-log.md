@@ -2581,3 +2581,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-533` saves the private French draft of Bukhari 3090, with the report and its note identifying Sarrâr as a place near Medina.
 - The record passed the focused single-item validator for Arabic hashes, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,784 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 174. Total local hadith rows not drafted: 11,873, including held records.
+
+### 2026-10-29: Bukhari 3091 long-source review
+
+- `FR-LIB-HAD-BUKHARI-534` saves the complete 2,338-character report about ‘Alî’s two camels, their slaughter by Hamza, and the Prophet’s response. The exporter found one eligible record, and it passed the single-item long-source validator.
+- No database writes or publication occurred. Bukhari local drafts: 2,785 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 174. Total local hadith rows not drafted: 11,871, including held records.
