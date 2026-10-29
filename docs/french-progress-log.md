@@ -8216,3 +8216,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0218 saves two private French drafts about reports concerning churches and graves. Muslim 527 quotes Quran 2:144 and remains blank pending an approved, attributed French Quran translation with permitted use. Muslim 526b, 528b and 528c are incomplete cross-references and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 886 Muslim drafts, 7,222 total hadith drafts, 7,407 remaining, and 424 Needs Mo items.
+
+### 2026-10-29: Muslim 530a–533b
+
+- FR-LIB-HAD-MUSLIM-0219 saves six private French drafts about graves used as places of prayer and the reward for building a mosque. All six source entries include report wording. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 892 Muslim drafts, 7,228 total hadith drafts, 7,401 remaining, and 424 Needs Mo items.
