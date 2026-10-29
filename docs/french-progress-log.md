@@ -11570,3 +11570,8 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1918a-1921b
 
 - FR-LIB-HAD-MUSLIM-0902 saves five private French drafts about archery and a group remaining firm upon the truth. The different report endings are preserved. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1922-1926b
+
+- FR-LIB-HAD-MUSLIM-0903 saves six private French drafts about the community remaining firm upon the truth and guidance for traveling with camels. Distinct report wordings are preserved. No Quran verse is quoted. No database write or publication occurred.
+
