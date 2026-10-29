@@ -932,3 +932,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-188` saves three private French drafts for Bukhari 1075–1077. Bukhari 1073 remains blank because it quotes Quran 53:1; 1074 and 1078 remain blank because they quote Quran 84:1. No approved, attributed French Quran translation is available.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran holds. Three local drafts were added; three reports are held. No database writes or publication occurred. Bukhari local drafts: 995 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 52. Total local hadith rows not drafted: 13,634, including held records.
+### 2026-10-29: Bukhari 1079–1084 source review
+
+- `FR-LIB-HAD-BUKHARI-189` saves six private French drafts for Bukhari 1079–1084. They preserve the reports about crowded prostration, shortening prayer during travel, and prayer at Mina.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,001 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 52. Total local hadith rows not drafted: 13,628, including held records.
