@@ -18671,6 +18671,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-867",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-867.json",
+      "sourceIds": [
+        "444b33d4-a2bc-4f9d-a981-ef4ed6657cb5",
+        "a52f3160-0214-4ab3-b14d-04111c87506d",
+        "2b0521af-ba9c-44ab-bead-63a4ab6adeb0",
+        "027e2a51-e0d4-474e-8911-271c69ed9ba1",
+        "4adea67d-8b4d-491d-aa10-3ed9da7306bd",
+        "dd76aeb1-b808-4213-a6bd-42c918f41a5a"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -20311,9 +20332,27 @@
       "scope": "Sahih al-Bukhari 4750: very long report with direct Quran quotations from 12:18 and 24:11",
       "status": "blocked",
       "reason": "Hadith 4750 est un rapport très long qui cite directement Quran 12:18 et 24:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-866, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4752-QURAN-24-15",
+      "scope": "Sahih al-Bukhari 4752: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 24:15. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-867, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4755-INCOMPLETE-POETIC-TEXT",
+      "scope": "Sahih al-Bukhari 4755: source text is incomplete",
+      "status": "blocked",
+      "reason": "Le texte arabe source de Sahih al-Bukhari 4755 s’interrompt au milieu d’un vers : « لكن أنت... ». La traduction complète reste vide dans FR-LIB-HAD-BUKHARI-867 jusqu’à clarification du texte."
+    },
+    {
+      "id": "HADITH-BUKHARI-4756-QURAN-24-11",
+      "scope": "Sahih al-Bukhari 4756: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 24:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-867, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4023,
-  "hadithLocalDrafted": 4023,
-  "hadithLocalRemaining": 10644
+  "hadithBukhariDrafted": 4026,
+  "hadithLocalDrafted": 4026,
+  "hadithLocalRemaining": 10641
 }
