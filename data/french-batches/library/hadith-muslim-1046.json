@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1046",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:58:54.371Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7dded766-b996-43b1-941a-155e7d93bdf3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2222c",
+      "reference": "Sahih Muslim, hadith 2222 c, book 39, باب لاَ عَدْوَى وَلاَ طِيَرَةَ وَلاَ هَامَةَ وَلاَ صَفَرَ",
+      "title": "باب لاَ عَدْوَى وَلاَ طِيَرَةَ وَلاَ هَامَةَ وَلاَ صَفَرَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ عَدْوَى وَلاَ صَفَرَ وَلاَ غُولَ ‏\"‏ ‏.‏ وَسَمِعْتُ أَبَا الزُّبَيْرِ يَذْكُرُ أَنَّ جَابِرًا فَسَّرَ لَهُمْ قَوْلَهُ ‏\"‏ وَلاَ صَفَرَ ‏\"‏ ‏.‏ فَقَالَ أَبُو الزُّبَيْرِ الصَّفَرُ الْبَطْنُ ‏.‏ فَقِيلَ لِجَابِرٍ كَيْفَ قَالَ كَانَ يُقَالُ دَوَابُّ الْبَطْنِ ‏.‏ قَالَ وَلَمْ يُفَسِّرِ الْغُولَ ‏.‏ قَالَ أَبُو الزُّبَيْرِ هَذِهِ الْغُولُ الَّتِي تَغَوَّلُ ‏.‏",
+      "source_hash_sha256": "9fb95b09a86a0d41e4aa9cf1e0bc571a21095d86130bfdf6f212bc27f90d0548",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir ibn ʿAbd Allah rapporte avoir entendu le Prophète ﷺ dire : « Il n’y a pas de contagion, ni de Safar, ni de goule. » Abû al-Zubayr rapporte avoir entendu Jâbir leur expliquer l’expression « ni de Safar ». Abû al-Zubayr dit : « Safar désigne le ventre. » On demanda à Jâbir ce que cela signifiait. Il répondit : « On parlait des vers intestinaux. » Il ne donna pas d’explication pour la goule. Abû al-Zubayr dit : « La goule est celle qui égare les voyageurs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3b3fc244-e78a-4d01-8507-e87c98e65211",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2223a",
+      "reference": "Sahih Muslim, hadith 2223 a, book 39, باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "title": "باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ، اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ أَنَّ أَبَا هُرَيْرَةَ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ طِيَرَةَ وَخَيْرُهَا الْفَأْلُ ‏\"‏ ‏.‏ قِيلَ يَا رَسُولَ اللَّهِ وَمَا الْفَأْلُ قَالَ ‏\"‏ الْكَلِمَةُ الصَّالِحَةُ يَسْمَعُهَا أَحَدُكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "43db7ea83c6e5d68c557ecc75bca48be8b1da939e597fbb6368d7306433a21ab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte avoir entendu le Prophète ﷺ dire : « Il n’y a pas de mauvais présage ; le meilleur présage est al-fa’l. » On demanda : « Messager d’Allah, qu’est-ce que al-fa’l ? » Il répondit : « C’est une bonne parole que l’un de vous entend. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "81256847-124d-4acb-beea-618ea090a347",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2223b",
+      "reference": "Sahih Muslim, hadith 2223 b, book 39, باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "title": "باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، حَدَّثَنِي عُقَيْلُ بْنُ، خَالِدٍ ح وَحَدَّثَنِيهِ عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، أَخْبَرَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، كِلاَهُمَا عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ ‏.‏ وَفِي حَدِيثِ عُقَيْلٍ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ وَلَمْ يَقُلْ سَمِعْتُ ‏.‏ وَفِي حَدِيثِ شُعَيْبٍ قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم كَمَا قَالَ مَعْمَرٌ ‏.‏",
+      "source_hash_sha256": "234b5e343e647525449df0a97badbff3fe4b4f5ad441e0adbd6813e074741630",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "62026506-1a3d-435c-9471-cb615d5a553e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2223c",
+      "reference": "Sahih Muslim, hadith 2223 c, book 39, باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "title": "باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنِي مُعَلَّى بْنُ أَسَدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُخْتَارٍ، حَدَّثَنَا يَحْيَى بْنُ عَتِيقٍ، حَدَّثَنَا مُحَمَّدُ بْنُ سِيرِينَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ عَدْوَى وَلاَ طِيَرَةَ وَأُحِبُّ الْفَأْلَ الصَّالِحَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b66aaf1fd56867c6a95505e4357ce453a4b19432cf442d042dfea08e50eaf688",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Il n’y a pas de contagion ni de mauvais présage, et j’aime le bon augure. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7f374054-2989-4e6a-aedb-8c5162c783fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2223d",
+      "reference": "Sahih Muslim, hadith 2223 d, book 39, باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "title": "باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا هِشَامُ بْنُ حَسَّانٍ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ عَدْوَى وَلاَ هَامَةَ وَلاَ طِيَرَةَ وَأُحِبُّ الْفَأْلَ الصَّالِحَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "68bc1edee4aa85affddc62b2a219223a7b82856847905c3e20a9ae99e40ca576",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Il n’y a pas de contagion, ni de hāma, ni de mauvais présage ; et j’aime le bon augure. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ddb1e883-9c4f-4dc1-a932-aa11f722abca",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2224a",
+      "reference": "Sahih Muslim, hadith 2224 a, book 39, باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "title": "باب الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ فِيهِ الشُّؤْمُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ، حَدَّثَنَا هَمَّامُ بْنُ يَحْيَى، حَدَّثَنَا قَتَادَةُ، عَنْ أَنَسٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ عَدْوَى وَلاَ طِيَرَةَ وَيُعْجِبُنِي الْفَأْلُ الْكَلِمَةُ الْحَسَنَةُ الْكَلِمَةُ الطَّيِّبَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "12564ee2bc37053f1f37b9023cad2c0c24bc07e9b7a330ce722444d356b0fa17",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Prophète d’Allah ﷺ a dit : « Il n’y a pas de contagion ni de mauvais présage. J’aime le bon augure : une parole bonne et agréable. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "81256847-124d-4acb-beea-618ea090a347",
+      "reason": "Cette entrée ne rapporte que des variantes de transmission et renvoie au récit précédent sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
