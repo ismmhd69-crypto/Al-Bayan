@@ -8416,3 +8416,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0258 saves four private French drafts outlining the daily prayer-time ranges and delaying prayer until the heat subsides. Muslim 614b and 615b contain only incomplete cross-references or chains and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,030 Muslim drafts, 7,366 total hadith drafts, 7,263 remaining, and 494 Needs Mo items.
+
+### 2026-10-29: Muslim 615e–618
+
+- FR-LIB-HAD-MUSLIM-0259 saves six private French drafts about delaying prayer in intense heat and the timing of the noon prayer.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,036 Muslim drafts, 7,372 total hadith drafts, 7,257 remaining, and 494 Needs Mo items.
