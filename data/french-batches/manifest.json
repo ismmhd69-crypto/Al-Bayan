@@ -50,8 +50,8 @@
     "hardQuestionsArticlesDrafted": 21,
     "hardQuestionsDraftFiles": "data/french-batches/hard-questions-*.json",
     "preparedAnswersTotal": 44,
-    "preparedAnswersDrafted": 41,
-    "preparedAnswersRemaining": 3,
+    "preparedAnswersDrafted": 44,
+    "preparedAnswersRemaining": 0,
     "preparedAnswersDraftFiles": "data/french-batches/prepared-answers-*.json"
   },
   "batches": [
@@ -697,6 +697,19 @@
       "contentType": "prepared-answer-topics",
       "language": "fr",
       "artifact": "data/french-batches/prepared-answers-014.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "topic IDs, answer sections/counts, source IDs, requirements, and metadata passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LEARN-ANS-015",
+      "contentType": "prepared-answer-topics",
+      "language": "fr",
+      "artifact": "data/french-batches/prepared-answers-015.json",
       "translated": 3,
       "inserted": 0,
       "preserved": 0,
