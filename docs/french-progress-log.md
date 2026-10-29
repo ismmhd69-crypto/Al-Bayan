@@ -645,3 +645,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-122` saved private French drafts for Bukhari 678–683. The reports preserve the repeated requests for Abu Bakr to lead prayer, Aisha’s and Hafsa’s exchanges, the Monday account of the Prophet appearing from his room, and the additional narration paths and variants.
 - The batch passed the focused validator for all Arabic hashes, IDs, rights metadata, private unpublished state and narration structure. No Needs Mo item was identified in this batch. No database writes or publication occurred.
 - Bukhari local drafts: 634 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,995, including held records.
+
+### 2026-10-29: Bukhari 684–686 source review
+
+- `FR-LIB-HAD-BUKHARI-123` saved private French drafts for Bukhari 684–686. The longer report preserves the reconciliation visit, the interrupted congregational prayer, Abu Bakr’s response, and the instruction that men say “SubhanAllah” while clapping is for women. The following reports retain the approximate twenty-night stay and the visit to Itban’s home.
+- The focused validator passed all three records, including Arabic hashes, rights metadata, private unpublished state and source structure. No Needs Mo item was identified. No database writes or publication occurred.
+- Bukhari local drafts: 637 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,992, including held records.
