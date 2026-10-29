@@ -17163,6 +17163,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-791",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-791.json",
+      "sourceIds": [
+        "38b41be2-e8a0-43ca-a977-68b915402605",
+        "fd7ed50c-2c13-4400-ba11-25a38ecb7744",
+        "eda801fc-bb45-4552-b8df-67f415143736",
+        "090c57d1-407b-46e0-a938-6eb370086651",
+        "649760af-7100-4d0c-a26d-d1105636f86e",
+        "0a2e97da-105b-466e-97eb-2d580f3eb6e2"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17651,9 +17672,15 @@
       "scope": "Sahih al-Bukhari 4364: direct quotation of Quran 4:176",
       "status": "blocked",
       "reason": "The report directly quotes Quran 4:176. The complete record remains blank in FR-LIB-HAD-BUKHARI-790 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4367-QURAN-49-1",
+      "scope": "Sahih al-Bukhari 4367: direct quotation of Quran 49:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 49:1. The complete record remains blank in FR-LIB-HAD-BUKHARI-791 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3848,
-  "hadithLocalDrafted": 3848,
-  "hadithLocalRemaining": 10809
+  "hadithBukhariDrafted": 3853,
+  "hadithLocalDrafted": 3853,
+  "hadithLocalRemaining": 10804
 }
