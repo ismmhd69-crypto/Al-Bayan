@@ -9206,6 +9206,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-392",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-392.json",
+      "sourceIds": [
+        "9413d565-bd87-48e3-96be-0988fb217c52"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata, private unpublished state, and single-item long-text rule passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -9282,7 +9298,7 @@
       "reason": "No approved, attributed French Quran translation has been confirmed in the current application configuration. The seven French verse meanings were not generated; only practice-tool controls have private French drafts."
     }
   ],
-  "hadithBukhariDrafted": 2082,
-  "hadithLocalDrafted": 2082,
-  "hadithLocalRemaining": 12547
+  "hadithBukhariDrafted": 2083,
+  "hadithLocalDrafted": 2083,
+  "hadithLocalRemaining": 12546
 }
