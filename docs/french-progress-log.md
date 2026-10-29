@@ -651,3 +651,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-123` saved private French drafts for Bukhari 684–686. The longer report preserves the reconciliation visit, the interrupted congregational prayer, Abu Bakr’s response, and the instruction that men say “SubhanAllah” while clapping is for women. The following reports retain the approximate twenty-night stay and the visit to Itban’s home.
 - The focused validator passed all three records, including Arabic hashes, rights metadata, private unpublished state and source structure. No Needs Mo item was identified. No database writes or publication occurred.
 - Bukhari local drafts: 637 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,992, including held records.
+
+### 2026-10-29: Bukhari 687 source review
+
+- `FR-LIB-HAD-BUKHARI-124` saved Bukhari 687 as a one-record private draft because the Arabic report is long. It retains the repeated washing and loss of consciousness, the prayer waiting in the mosque, Abu Bakr leading during the Prophet’s illness, the Prophet later praying while seated, and Ibn Abbas’s identification of the second supporting man as Ali.
+- The single-record batch passed the focused validator for the Arabic source hash, rights metadata, private unpublished state and long-report handling. No Needs Mo item was identified. No database writes or publication occurred.
+- Bukhari local drafts: 638 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,991, including held records.
