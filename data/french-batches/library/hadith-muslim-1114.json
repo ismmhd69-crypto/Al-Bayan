@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1114",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:15:12.824Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e66b6331-1253-4b28-bb93-8d481af3fad2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2391b",
+      "reference": "Sahih Muslim, hadith 2391 b, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ عُقَيْلٍ، ح وَحَدَّثَنَا الْحُلْوَانِيُّ، وَعَبْدُ بْنُ، حُمَيْدٍ كِلاَهُمَا عَنْ يَعْقُوبَ بْنِ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، بِإِسْنَادِ يُونُسَ نَحْوَ حَدِيثِهِ ‏.‏",
+      "source_hash_sha256": "8986ba482f3c495064a83102519471faeca5d4cbe1ccd15d5b8c46ca730f1ebe",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a60ea1a8-c0f3-49ad-902b-8dce03f26887",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2392a",
+      "reference": "Sahih Muslim, hadith 2392 a, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَرْمَلَةُ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَنَّ سَعِيدَ بْنَ، الْمُسَيَّبِ أَخْبَرَهُ أَنَّهُ، سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ بَيْنَا أَنَا نَائِمٌ رَأَيْتُنِي عَلَى قَلِيبٍ عَلَيْهَا دَلْوٌ فَنَزَعْتُ مِنْهَا مَا شَاءَ اللَّهُ ثُمَّ أَخَذَهَا ابْنُ أَبِي قُحَافَةَ فَنَزَعَ بِهَا ذَنُوبًا أَوْ ذَنُوبَيْنِ وَفِي نَزْعِهِ وَاللَّهُ يَغْفِرُ لَهُ ضَعْفٌ ثُمَّ اسْتَحَالَتْ غَرْبًا فَأَخَذَهَا ابْنُ الْخَطَّابِ فَلَمْ أَرَ عَبْقَرِيًّا مِنَ النَّاسِ يَنْزِعُ نَزْعَ عُمَرَ بْنِ الْخَطَّابِ حَتَّى ضَرَبَ النَّاسُ بِعَطَنٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "588e33035e4f2b022dfd6f0b603f7827081322d0752b977a70927cfceeb71247",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ dit : « Tandis que je dormais, je me vis près d’un puits muni d’un seau. J’en tirai autant d’eau qu’Allah voulut. Puis le fils d’Abû Quhâfa prit le seau et en tira un ou deux seaux. Dans sa manière de tirer, il y avait une faiblesse — qu’Allah lui pardonne. Puis le seau devint une grande outre. Le fils d’al-Khattâb la prit alors. Je n’ai jamais vu quelqu’un tirer l’eau avec autant de force qu’Umar ibn al-Khattâb, jusqu’à ce que les gens aient abreuvé leurs bêtes et se soient reposés. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "be7d6206-f58c-4039-b506-35a29ccbed6e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2392b",
+      "reference": "Sahih Muslim, hadith 2392 b, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، حَدَّثَنِي عُقَيْلُ بْنُ، خَالِدٍ ح وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، وَالْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، عَنْ يَعْقُوبَ بْنِ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، بِإِسْنَادِ يُونُسَ نَحْوَ حَدِيثِهِ ‏.‏",
+      "source_hash_sha256": "1f95f20539a5a4b44f50076b30073a1b66dd7b36ff2c38345dd4ca9d88b35467",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6766b5d1-7dd0-4fc3-8b71-6b4373175655",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2392c",
+      "reference": "Sahih Muslim, hadith 2392 c, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ حَدَّثَنَا يَعْقُوبُ، حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، قَالَ قَالَ الأَعْرَجُ وَغَيْرُهُ إِنَّ أَبَا هُرَيْرَةَ قَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ رَأَيْتُ ابْنَ أَبِي قُحَافَةَ يَنْزِعُ ‏\"‏ ‏.‏ بِنَحْوِ حَدِيثِ الزُّهْرِيِّ ‏.‏",
+      "source_hash_sha256": "194062d153470559683991d735141e6399173896322994ed0c1a782bf810633f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ dit : « J’ai vu le fils d’Abû Quhâfa tirer l’eau, comme dans le récit d’az-Zuhrî. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0dfa7ea5-f677-46ed-80a4-4630d837b482",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2392d",
+      "reference": "Sahih Muslim, hadith 2392 d, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَحْمَدُ بْنُ عَبْدِ الرَّحْمَنِ بْنِ وَهْبٍ، حَدَّثَنَا عَمِّي عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، أَنَّ أَبَا يُونُسَ، مَوْلَى أَبِي هُرَيْرَةَ حَدَّثَهُ عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ بَيْنَا أَنَا نَائِمٌ أُرِيتُ أَنِّي أَنْزِعُ عَلَى حَوْضِي أَسْقِي النَّاسَ فَجَاءَنِي أَبُو بَكْرٍ فَأَخَذَ الدَّلْوَ مِنْ يَدِي لِيُرَوِّحَنِي فَنَزَعَ دَلْوَيْنِ وَفِي نَزْعِهِ ضُعْفٌ وَاللَّهُ يَغْفِرُ لَهُ فَجَاءَ ابْنُ الْخَطَّابِ فَأَخَذَ مِنْهُ فَلَمْ أَرَ نَزْعَ رَجُلٍ قَطُّ أَقْوَى مِنْهُ حَتَّى تَوَلَّى النَّاسُ وَالْحَوْضُ مَلآنُ يَتَفَجَّرُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "20bd96c9217f2d8356c3568013ec23b2425c97c7185084348a551eace6bb1c21",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ dit : « Tandis que je dormais, on me montra en train de puiser à mon bassin pour donner à boire aux gens. Abû Bakr vint et prit le seau de ma main pour me soulager. Il tira deux seaux, mais sa manière de tirer était faible — qu’Allah lui pardonne. Puis le fils d’al-Khattâb vint et prit le seau. Je n’ai jamais vu quelqu’un tirer avec plus de force que lui, jusqu’à ce que les gens s’en aillent et que le bassin déborde. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "08b6c38d-a8ac-46fc-af64-54b285ddae81",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2393a",
+      "reference": "Sahih Muslim, hadith 2393 a, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، - وَاللَّفْظُ لأَبِي بَكْرٍ - قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ، حَدَّثَنِي أَبُو بَكْرِ بْنُ سَالِمٍ، عَنْ سَالِمِ، بْنِ عَبْدِ اللَّهِ عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ أُرِيتُ كَأَنِّي أَنْزِعُ بِدَلْوِ بَكْرَةٍ عَلَى قَلِيبٍ فَجَاءَ أَبُو بَكْرٍ فَنَزَعَ ذَنُوبًا أَوْ ذَنُوبَيْنِ فَنَزَعَ نَزْعًا ضَعِيفًا وَاللَّهُ تَبَارَكَ وَتَعَالَى يَغْفِرُ لَهُ ثُمَّ جَاءَ عُمَرُ فَاسْتَقَى فَاسْتَحَالَتْ غَرْبًا فَلَمْ أَرَ عَبْقَرِيًّا مِنَ النَّاسِ يَفْرِي فَرْيَهُ حَتَّى رَوِيَ النَّاسُ وَضَرَبُوا الْعَطَنَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a9bafb9c241dcbef647f39e6f86adccdbbefa025f2b9dbd6508ce5c8f3e2b4c6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abdullâh ibn Umar rapporte que le Messager d’Allah ﷺ dit : « On me montra en rêve comme si je puisais l’eau d’un puits avec un grand seau. Abû Bakr vint et tira un ou deux seaux. Sa manière de tirer était faible — qu’Allah, béni et exalté soit-Il, lui pardonne. Puis Umar vint et puisa de l’eau ; le seau devint une grande outre. Je n’ai jamais vu quelqu’un puiser comme lui, jusqu’à ce que les gens aient étanché leur soif et fait reposer leurs bêtes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e66b6331-1253-4b28-bb93-8d481af3fad2",
+      "reason": "Cette entrée ne reproduit pas le récit, mais renvoie à la version précédente sans en donner le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "be7d6206-f58c-4039-b506-35a29ccbed6e",
+      "reason": "Cette entrée ne reproduit pas le récit, mais renvoie à la version précédente sans en donner le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
