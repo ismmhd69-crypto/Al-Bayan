@@ -5731,3 +5731,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1117 saves six private French drafts about ease, personal restraint, and family life.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,131 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,498, including held records.
+
+### 2026-10-29: Bukhari 6131–6133 and 6135–6136
+
+- FR-LIB-HAD-BUKHARI-1118 saves five private French drafts about courtesy, caution, and hospitality. The long report Bukhari 6134 was isolated for individual translation.
+- All five records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,136 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,493, including held records.
