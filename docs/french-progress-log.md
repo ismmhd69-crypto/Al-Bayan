@@ -8260,7 +8260,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 547a–550a
 
 - FR-LIB-HAD-MUSLIM-0227 saves four private French drafts about removing spit from the mosque’s qibla wall and the proper direction for spitting during prayer. Muslim 547b and 548b contain only incomplete cross-reference variants and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 917 Muslim drafts, 7,253 total hadith drafts, 7,376 remaining, and 441 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 917 Muslim drafts, 7,253 total hadith drafts, 7,376 remaining, and 441 Needs Mo items.
 
 ### 2026-10-29: Muslim 550b–554a
 
@@ -8821,3 +8821,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0338 saves six private French drafts about night worship, recitation, and keeping the Quran memorized. All reports are complete and translated in full.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1359 Muslim drafts, 7695 total hadith drafts, 6934 remaining, and 620 Needs Mo items.
+
+### 2026-10-29: Muslim 789b–792a
+
+- FR-LIB-HAD-MUSLIM-0339 saves five private French drafts about retaining the Quran and reciting it. Muslim 789b only refers to a previous report and adds a variant, so it remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1364 Muslim drafts, 7700 total hadith drafts, 6929 remaining, and 621 Needs Mo items.
