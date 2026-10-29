@@ -1861,3 +1861,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-389` saves four private French drafts for Bukhari 2273, 2274, 2277 and 2278. Bukhari 2275 directly quotes Quran 19:77–80 and 2276 directly quotes Quran 1:2; both full French reports remain blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,071 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 120. Total local hadith rows not drafted: 12,558, including held records.
+
+### 2026-10-29: Bukhari 2279–2284 source review
+
+- `FR-LIB-HAD-BUKHARI-390` saves six private French drafts for Bukhari 2279–2284, retaining the reports on cupping fees, slave earnings and the stud fee.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,077 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 120. Total local hadith rows not drafted: 12,552, including held records.
