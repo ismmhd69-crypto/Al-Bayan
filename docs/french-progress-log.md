@@ -1036,3 +1036,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-214` saves six private French drafts for Bukhari 1228b–1233. They preserve the differing report wording about the prostrations of forgetfulness and the complete account about the two units after the afternoon prayer.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,140 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 57. Total local hadith rows not drafted: 13,489, including held records.
+### 2026-10-29: Bukhari 1234–1239 source review
+
+- `FR-LIB-HAD-BUKHARI-215` saves six private French drafts for Bukhari 1234–1239. They preserve the prayer gesture account, the report of Aïcha’s response to a sign, and the seven commands and seven prohibitions.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,146 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 57. Total local hadith rows not drafted: 13,483, including held records.
