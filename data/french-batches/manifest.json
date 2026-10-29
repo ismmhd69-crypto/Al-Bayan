@@ -15727,6 +15727,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-724",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-724.json",
+      "sourceIds": ["9c254b1b-f5dd-40fc-9eae-5053b8512cba"],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished Quran-quote hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15995,6 +16010,13 @@
       "scope": "Sahih al-Bukhari 4032: two poems with unclear wording",
       "status": "blocked",
       "reason": "The report contains two dense poems whose exact meaning is not confirmed. The complete record remains blank in FR-LIB-HAD-BUKHARI-723 pending clarification."
+    }
+,
+    {
+      "id": "HADITH-BUKHARI-4033-QURAN-59-6",
+      "scope": "Sahih al-Bukhari 4033: direct quotation of Quran 59:6",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 59:6. It remains blank in FR-LIB-HAD-BUKHARI-724 until an approved, attributed French Quran translation is confirmed."
     }
   ],
   "hadithBukhariDrafted": 3524,
