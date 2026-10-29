@@ -36589,6 +36589,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0366",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0366.json",
+      "sourceIds": [
+        "85f4054c-e75f-4f71-8cbe-6307ed1c07f3",
+        "92516133-3de9-4024-96f5-c6ba7476bd8d",
+        "aae11428-05a4-4ec8-915e-3d9cd7912702",
+        "34af47c4-d521-4419-b3a5-a368db512355",
+        "eaa30365-1f44-4bcb-8ade-71e1e09b5c82",
+        "67073692-c99a-4509-9b04-5f8e8ace0155"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40896,8 +40917,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7788,
-  "hadithLocalRemaining": 6841,
+  "hadithLocalDrafted": 7792,
+  "hadithLocalRemaining": 6837,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43574,10 +43595,22 @@
       "scope": "Sahih Muslim 852F: incomplete cross-reference variant",
       "status": "blocked",
       "reason": "La source ne rapporte pas le texte du récit précédent et se limite à noter l’absence d’une phrase dans cette version. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0366-855B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 855B: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source renvoie à un récit antérieur comme ayant la même formulation ou le même sens, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0366-856B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 856B: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source renvoie à un récit antérieur comme ayant la même formulation ou le même sens, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1452,
+  "hadithMuslimDrafted": 1456,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 682
+  "hadithNeedsMo": 684
 }
