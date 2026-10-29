@@ -48508,6 +48508,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1117",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1117.json",
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "two complete reports translated as private drafts; two transmission variants without full report text left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52815,8 +52828,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9727,
-  "hadithLocalRemaining": 4799,
+  "hadithLocalDrafted": 9729,
+  "hadithLocalRemaining": 4797,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -58658,10 +58671,20 @@
       "source_id": "6cf86b02-8112-49ae-a94f-22c60e1b8c97",
       "reason": "Cette entrée renvoie au récit précédent qui contient les citations coraniques et ne rapporte qu’un détail complémentaire. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "2e248c32-2f54-4179-8fbf-f04937bdac0f",
+      "reason": "Cette entrée ne reproduit qu’une variante de transmission et renvoie au récit précédent pour son contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "96a00fe7-90ee-47f5-a592-4bd14e3086ba",
+      "reason": "Cette entrée ne reproduit qu’une variante de transmission et renvoie au récit précédent pour son contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3564,
+  "hadithMuslimDrafted": 3566,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1495
+  "hadithNeedsMo": 1497
 }
