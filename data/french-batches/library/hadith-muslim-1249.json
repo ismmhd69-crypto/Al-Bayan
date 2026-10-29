@@ -1,0 +1,163 @@
+{
+  "batch_id": "HADITH-MUSLIM-1249",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:07:53.723Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d5688909-94f6-4363-a0a6-56400ad5ff74",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2727b",
+      "reference": "Sahih Muslim, hadith 2727 b, book 48, باب التَّسْبِيحِ أَوَّلَ النَّهَارِ وَعِنْدَ النَّوْمِ",
+      "title": "باب التَّسْبِيحِ أَوَّلَ النَّهَارِ وَعِنْدَ النَّوْمِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، كُلُّهُمْ عَنْ شُعْبَةَ، بِهَذَا الإِسْنَادِ وَفِي حَدِيثِ مُعَاذٍ ‏\"‏ أَخَذْتُمَا مَضْجَعَكُمَا مِنَ اللَّيْلِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3405d6de820aad53dad639f9dfcc1fc259753f83dd6977db86c9da9863495415",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ec229ef-2442-4729-afc7-cd492d6cbfa0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2727c",
+      "reference": "Sahih Muslim, hadith 2727 c, book 48, باب التَّسْبِيحِ أَوَّلَ النَّهَارِ وَعِنْدَ النَّوْمِ",
+      "title": "باب التَّسْبِيحِ أَوَّلَ النَّهَارِ وَعِنْدَ النَّوْمِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عُبَيْدِ اللَّهِ بْنِ أَبِي يَزِيدَ، عَنْ مُجَاهِدٍ، عَنِ ابْنِ أَبِي لَيْلَى، عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، وَعُبَيْدُ بْنُ يَعِيشَ، عَنْ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا عَبْدُ الْمَلِكِ، عَنْ عَطَاءِ بْنِ أَبِي رَبَاحٍ، عَنْ مُجَاهِدٍ، عَنِ ابْنِ أَبِي لَيْلَى، عَنْ عَلِيٍّ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِنَحْوِ حَدِيثِ الْحَكَمِ عَنِ ابْنِ أَبِي لَيْلَى، وَزَادَ، فِي الْحَدِيثِ قَالَ عَلِيٌّ مَا تَرَكْتُهُ مُنْذُ سَمِعْتُهُ مِنَ النَّبِيِّ صلى الله عليه وسلم ‏.‏ قِيلَ لَهُ وَلاَ لَيْلَةَ صِفِّينَ قَالَ وَلاَ لَيْلَةَ صِفِّينِ ‏.‏ وَفِي حَدِيثِ عَطَاءٍ عَنْ مُجَاهِدٍ عَنِ ابْنِ أَبِي لَيْلَى قَالَ قُلْتُ لَهُ وَلاَ لَيْلَةَ صِفِّينَ",
+      "source_hash_sha256": "8a5af3be31cab2ad824c657a37b2c8d0385d9e6453cd86b061953aa66d108428",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c8598d7e-a43d-4101-8ac2-4ae5b30a066e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2728a",
+      "reference": "Sahih Muslim, hadith 2728 a, b, book 48, باب التَّسْبِيحِ أَوَّلَ النَّهَارِ وَعِنْدَ النَّوْمِ",
+      "title": "باب التَّسْبِيحِ أَوَّلَ النَّهَارِ وَعِنْدَ النَّوْمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أُمَيَّةُ بْنُ بِسْطَامَ الْعَيْشِيُّ، حَدَّثَنَا يَزِيدُ، - يَعْنِي ابْنَ زُرَيْعٍ - حَدَّثَنَا رَوْحٌ، وَهُوَ ابْنُ الْقَاسِمِ عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ فَاطِمَةَ، أَتَتِ النَّبِيَّ صلى الله عليه وسلم تَسْأَلُهُ خَادِمًا وَشَكَتِ الْعَمَلَ فَقَالَ ‏\"‏ مَا أَلْفَيْتِيهِ عِنْدَنَا ‏\"‏ ‏.‏ قَالَ ‏\"‏ أَلاَ أَدُلُّكِ عَلَى مَا هُوَ خَيْرٌ لَكِ مِنْ خَادِمٍ تُسَبِّحِينَ ثَلاَثًا وَثَلاَثِينَ وَتَحْمَدِينَ ثَلاَثًا وَثَلاَثِينَ وَتُكَبِّرِينَ أَرْبَعًا وَثَلاَثِينَ حِينَ تَأْخُذِينَ مَضْجَعَكِ ‏\"‏ ‏.‏ وَحَدَّثَنِيهِ أَحْمَدُ بْنُ سَعِيدٍ الدَّارِمِيُّ، حَدَّثَنَا حَبَّانُ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا سُهَيْلٌ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "1c17b99fd3b7ed959a6c71bd763a3267f4919f46babdfc4d33680305bcc6f462",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Umayya ibn Bisṭām al-ʿAysī nous a rapporté : Yazīd — c’est-à-dire ibn Zurayʿ — nous a rapporté : Rūḥ — ibn al-Qāsim — nous a rapporté, d’après Suhayl, d’après son père, d’après Abū Hurayra, selon lequel Fāṭima vint trouver le Prophète ﷺ pour lui demander un serviteur et se plaignit de la fatigue du travail. Il lui dit : « Nous n’avons rien de disponible. » Puis il dit : « Veux-tu que je t’indique quelque chose de meilleur pour toi qu’un serviteur ? Lorsque tu te mets au lit, glorifie Allah trente-trois fois, loue-Le trente-trois fois et proclame Sa grandeur trente-quatre fois. » Aḥmad ibn Saʿīd al-Dārimī m’a également rapporté : Ḥabbān nous a rapporté : Wuhayb nous a rapporté : Suhayl nous a rapporté par cette même chaîne.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "53f03675-7d1b-441f-8833-bc0547703b5d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2729",
+      "reference": "Sahih Muslim, hadith 2729, book 48, باب اسْتِحْبَابِ الدُّعَاءِ عِنْدَ صِيَاحِ الدِّيكِ",
+      "title": "باب اسْتِحْبَابِ الدُّعَاءِ عِنْدَ صِيَاحِ الدِّيكِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ جَعْفَرِ بْنِ رَبِيعَةَ، عَنِ الأَعْرَجِ، عَنْ أَبِي، هُرَيْرَةَ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا سَمِعْتُمْ صِيَاحَ الدِّيَكَةِ فَاسْأَلُوا اللَّهَ مِنْ فَضْلِهِ فَإِنَّهَا رَأَتْ مَلَكًا وَإِذَا سَمِعْتُمْ نَهِيقَ الْحِمَارِ فَتَعَوَّذُوا بِاللَّهِ مِنَ الشَّيْطَانِ فَإِنَّهَا رَأَتْ شَيْطَانًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "11fd5369c78f472f34bf08f87d9742deba6ac21dca58cc7292c2d9304fbf64a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : Layth nous a rapporté, d’après Jaʿfar ibn Rabīʿa, d’après al-Aʿraj, d’après Abū Hurayra, selon lequel le Prophète ﷺ a dit : « Lorsque vous entendez le chant des coqs, demandez à Allah de vous accorder de Sa faveur, car ils ont vu un ange. Et lorsque vous entendez le braiment d’un âne, cherchez refuge auprès d’Allah contre Satan, car il a vu un démon. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8c38eba4-49ef-4263-93fb-fadbbfa5f9fc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2730a",
+      "reference": "Sahih Muslim, hadith 2730 a, book 48, باب دُعَاءِ الْكَرْبِ",
+      "title": "باب دُعَاءِ الْكَرْبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ - وَاللَّفْظُ لاِبْنِ سَعِيدٍ - قَالُوا حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ أَبِي الْعَالِيَةِ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم كَانَ يَقُولُ عِنْدَ الْكَرْبِ ‏\"‏ لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَرَبُّ الأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d2e805fbd81de0099e159bb7060c0fa3f1bef7af3472576f70ccea1411fbef10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn al-Muthannā, Ibn Bashshār et ʿUbayd Allāh ibn Saʿīd nous ont rapporté — le libellé est celui d’Ibn Saʿīd. Ils ont dit : Muʿādh ibn Hishām nous a rapporté : mon père nous a rapporté, d’après Qatāda, d’après Abū al-ʿĀliya, d’après Ibn ʿAbbās, selon lequel le Prophète d’Allah ﷺ disait lorsqu’il était dans la détresse : « Il n’y a de divinité qu’Allah, l’Immense, le Longanime. Il n’y a de divinité qu’Allah, Seigneur du Trône immense. Il n’y a de divinité qu’Allah, Seigneur des cieux et Seigneur de la terre, Seigneur du noble Trône. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8a488d88-e9d9-4d88-8176-1a4f943bacab",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2730b",
+      "reference": "Sahih Muslim, hadith 2730 b, book 48, باب دُعَاءِ الْكَرْبِ",
+      "title": "باب دُعَاءِ الْكَرْبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ وَحَدِيثُ مُعَاذِ بْنِ هِشَامٍ أَتَمُّ ‏.‏",
+      "source_hash_sha256": "477816c96d228c7d99198f8d38e0e1a9d7b4088d60e3348a7ee2b1d677e46776",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "d5688909-94f6-4363-a0a6-56400ad5ff74", "reason": "Cette entrée fournit plusieurs chaînes et précise uniquement que le texte précédent mentionne la nuit, sans reprendre le récit complet. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "3ec229ef-2442-4729-afc7-cd492d6cbfa0", "reason": "Cette entrée renvoie à l’invocation précédente et ajoute seulement une note sur le fait de continuer à la réciter pendant la bataille de Ṣiffīn, sans reproduire l’invocation. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "8a488d88-e9d9-4d88-8176-1a4f943bacab", "reason": "Cette entrée donne seulement les chaînes et renvoie au texte complet de la version précédente. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}
