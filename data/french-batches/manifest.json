@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:44:28.715Z",
+  "lastReconciled": "2026-10-29T13:44:52.889Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6332,
+    "hadithBukhariDrafted": 6336,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6332,
-    "hadithDatabaseMissing": 8297,
-    "hadithLocalRemaining": 8297,
+    "hadithLocalDrafted": 6336,
+    "hadithDatabaseMissing": 8293,
+    "hadithLocalRemaining": 8293,
     "hadithNeedsMo": 170,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -29122,6 +29122,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1383",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1383.json",
+      "sourceIds": [
+        "627b4f76-75b2-424e-8ebe-c04547b7347a",
+        "061d8581-2414-49b8-8bde-d97f82acfc1e",
+        "ef93af97-f659-4e97-b862-4282d7905933",
+        "e739dfc5-9d02-4f1a-9145-b3520080d68f"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "4 complete private drafts and 0 item held under Needs Mo; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -33002,9 +33021,9 @@
       "reason": "Ce récit cite directement des paroles coraniques. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithBukhariDrafted": 6332,
-  "hadithLocalDrafted": 6332,
-  "hadithLocalRemaining": 8297,
+  "hadithBukhariDrafted": 6336,
+  "hadithLocalDrafted": 6336,
+  "hadithLocalRemaining": 8293,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
