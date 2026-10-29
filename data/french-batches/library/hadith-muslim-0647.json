@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0647",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:38:00.237Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4ad2def0-8c3b-431e-84a9-f8239278dc5d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1436b",
+      "reference": "Sahih Muslim, hadith 1436 b, book 16, باب تَحْرِيمِ امْتِنَاعِهَا مِنْ فِرَاشِ زَوْجِهَا ‏",
+      "title": "باب تَحْرِيمِ امْتِنَاعِهَا مِنْ فِرَاشِ زَوْجِهَا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا خَالِدٌ، - يَعْنِي ابْنَ الْحَارِثِ - حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ وَقَالَ ‏\"‏ حَتَّى تَرْجِعَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "62f32a3abaa434a175fc42bb5de61906b968bad740d38aa07901f4c7b23693f1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4e2c009c-450f-4e84-8065-b6da49a0f034",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1436c",
+      "reference": "Sahih Muslim, hadith 1436 c, book 16, باب تَحْرِيمِ امْتِنَاعِهَا مِنْ فِرَاشِ زَوْجِهَا ‏",
+      "title": "باب تَحْرِيمِ امْتِنَاعِهَا مِنْ فِرَاشِ زَوْجِهَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا مَرْوَانُ، عَنْ يَزِيدَ، - يَعْنِي ابْنَ كَيْسَانَ - عَنْ أَبِي حَازِمٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَالَّذِي نَفْسِي بِيَدِهِ مَا مِنْ رَجُلٍ يَدْعُو امْرَأَتَهُ إِلَى فِرَاشِهَا فَتَأْبَى عَلَيْهِ إِلاَّ كَانَ الَّذِي فِي السَّمَاءِ سَاخِطًا عَلَيْهَا حَتَّى يَرْضَى عَنْهَا ‏\"‏ ‏.",
+      "source_hash_sha256": "b9969c855a188694416b98b0cc2a3364b5f32169981b27b8ba22a705ac43535b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Hurayra rapporte que le Messager d’Allah a dit : « Par Celui qui tient mon âme dans Sa main, lorsqu’un homme appelle son épouse à le rejoindre au lit et qu’elle refuse, Celui qui est au ciel demeure mécontent d’elle jusqu’à ce que son mari soit satisfait d’elle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90b2e8cf-3a71-423a-ab92-0ef62c25451e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1436d",
+      "reference": "Sahih Muslim, hadith 1436 d, book 16, باب تَحْرِيمِ امْتِنَاعِهَا مِنْ فِرَاشِ زَوْجِهَا ‏",
+      "title": "باب تَحْرِيمِ امْتِنَاعِهَا مِنْ فِرَاشِ زَوْجِهَا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنِي أَبُو سَعِيدٍ الأَشَجُّ، حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا جَرِيرٌ، كُلُّهُمْ عَنِ الأَعْمَشِ، عَنْ أَبِي حَازِمٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا دَعَا الرَّجُلُ امْرَأَتَهُ إِلَى فِرَاشِهِ فَلَمْ تَأْتِهِ فَبَاتَ غَضْبَانَ عَلَيْهَا لَعَنَتْهَا الْمَلاَئِكَةُ حَتَّى تُصْبِحَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9d9b2b2791f9b6458648cad48145a94a3d351e93af08eb9009df40629cfb968a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Hurayra rapporte que le Messager d’Allah a dit : « Lorsqu’un homme appelle son épouse à le rejoindre au lit, qu’elle ne vient pas et qu’il passe la nuit en colère contre elle, les anges la maudissent jusqu’au matin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "35ccdb07-6bf8-4a67-a45f-e84c5fd2f38c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1437a",
+      "reference": "Sahih Muslim, hadith 1437 a, book 16, باب تَحْرِيمِ إِفْشَاءِ سِرِّ الْمَرْأَةِ ‏",
+      "title": "باب تَحْرِيمِ إِفْشَاءِ سِرِّ الْمَرْأَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا مَرْوَانُ بْنُ مُعَاوِيَةَ، عَنْ عُمَرَ بْنِ حَمْزَةَ الْعُمَرِيِّ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ سَعْدٍ، قَالَ سَمِعْتُ أَبَا سَعِيدٍ الْخُدْرِيَّ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ مِنْ أَشَرِّ النَّاسِ عِنْدَ اللَّهِ مَنْزِلَةً يَوْمَ الْقِيَامَةِ الرَّجُلَ يُفْضِي إِلَى امْرَأَتِهِ وَتُفْضِي إِلَيْهِ ثُمَّ يَنْشُرُ سِرَّهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fd6c3fe34a88f0df55c5f60e6e97e580e23559d556d7f49a26afcb1ac12c1691",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Sa‘id al-Khudri rapporte que le Messager d’Allah a dit : « Parmi les personnes qui auront le rang le plus mauvais auprès d’Allah au Jour de la Résurrection se trouve l’homme qui partage l’intimité de son épouse, puis divulgue son secret. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "883920e5-d696-4376-841f-5e9043250c3f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1437b",
+      "reference": "Sahih Muslim, hadith 1437 b, book 16, باب تَحْرِيمِ إِفْشَاءِ سِرِّ الْمَرْأَةِ ‏",
+      "title": "باب تَحْرِيمِ إِفْشَاءِ سِرِّ الْمَرْأَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ عُمَرَ، بْنِ حَمْزَةَ عَنْ عَبْدِ الرَّحْمَنِ بْنِ سَعْدٍ، قَالَ سَمِعْتُ أَبَا سَعِيدٍ الْخُدْرِيَّ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ مِنْ أَعْظَمِ الأَمَانَةِ عِنْدَ اللَّهِ يَوْمَ الْقِيَامَةِ الرَّجُلَ يُفْضِي إِلَى امْرَأَتِهِ وَتُفْضِي إِلَيْهِ ثُمَّ يَنْشُرُ سِرَّهَا ‏\"‏ ‏.‏ وَقَالَ ابْنُ نُمَيْرٍ ‏\"‏ إِنَّ أَعْظَمَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "446d999ba68cd164491a4efa7a76247f6fb5e26d37e461816461c9c9f457fde9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou Sa‘id al-Khudri rapporte que le Messager d’Allah a dit : « Parmi les plus grandes trahisons envers Allah au Jour de la Résurrection figure le fait qu’un homme partage l’intimité de son épouse, puis divulgue son secret. » Ibn Numayr rapporte la formulation : « La plus grande… »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8e5fa100-3ece-4df5-81d2-fe786c8e53fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1438a",
+      "reference": "Sahih Muslim, hadith 1438 a, book 16, باب حُكْمِ الْعَزْلِ ‏",
+      "title": "باب حُكْمِ الْعَزْلِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَعَلِيُّ بْنُ حُجْرٍ، قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، بْنُ جَعْفَرٍ أَخْبَرَنِي رَبِيعَةُ، عَنْ مُحَمَّدِ بْنِ يَحْيَى بْنِ حَبَّانَ، عَنِ ابْنِ مُحَيْرِيزٍ، أَنَّهُ قَالَ دَخَلْتُ أَنَا وَأَبُو صِرْمَةَ عَلَى أَبِي سَعِيدٍ الْخُدْرِيِّ فَسَأَلَهُ أَبُو صِرْمَةَ فَقَالَ يَا أَبَا سَعِيدٍ هَلْ سَمِعْتَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَذْكُرُ الْعَزْلَ فَقَالَ نَعَمْ غَزَوْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم غَزْوَةَ بَلْمُصْطَلِقِ فَسَبَيْنَا كَرَائِمَ الْعَرَبِ فَطَالَتْ عَلَيْنَا الْعُزْبَةُ وَرَغِبْنَا فِي الْفِدَاءِ فَأَرَدْنَا أَنْ نَسْتَمْتِعَ وَنَعْزِلَ فَقُلْنَا نَفْعَلُ وَرَسُولُ اللَّهِ صلى الله عليه وسلم بَيْنَ أَظْهُرِنَا لاَ نَسْأَلُهُ ‏.‏ فَسَأَلْنَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ لاَ عَلَيْكُمْ أَنْ لاَ تَفْعَلُوا مَا كَتَبَ اللَّهُ خَلْقَ نَسَمَةٍ هِيَ كَائِنَةٌ إِلَى يَوْمِ الْقِيَامَةِ إِلاَّ سَتَكُونُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "84767745213533e920b42c3f07edf06447980e73c18fa67cc693536b52f4934a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Muhayriz rapporte : « Abou Sirma et moi entrâmes chez Abou Sa‘id al-Khudri. Abou Sirma lui demanda : “Abou Sa‘id, as-tu entendu le Messager d’Allah parler du coït interrompu ?” Il répondit : “Oui. Nous partîmes en expédition avec le Messager d’Allah lors de celle de Banu al-Mustaliq. Nous capturâmes des femmes arabes de haut rang. Le célibat se prolongeait pour nous, et nous souhaitions leur rançon. Nous voulions donc avoir des relations avec elles tout en pratiquant le coït interrompu. Nous nous dîmes : ‘Allons-nous le faire alors que le Messager d’Allah est parmi nous sans le lui demander ?’ Nous l’interrogeâmes. Il répondit : ‘Vous pouvez vous en abstenir ; toute âme dont Allah a décrété la création jusqu’au Jour de la Résurrection viendra à l’existence.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4ad2def0-8c3b-431e-84a9-f8239278dc5d",
+      "reason": "Cette entrée ne reproduit pas le récit et n’en donne qu’une variation de formulation (« حتى ترجع ») après un renvoi à la chaîne précédente. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
