@@ -3166,3 +3166,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-650` saves five private French drafts about the companions. Bukhari 3678 remains blank because it quotes Quran 40:28; the local record does not tag that quotation, but the wording matches the verse. No approved, attributed French Quran translation is confirmed.
 - All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,276 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 241. Total local hadith rows not drafted: 11,381, including held records.
+
+### 2026-10-29: Bukhari 3681–3686
+
+- `FR-LIB-HAD-BUKHARI-651` saves six private French drafts about ‘Umar, the companions and the Prophet’s dreams.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,282 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 241. Total local hadith rows not drafted: 11,375, including held records.
