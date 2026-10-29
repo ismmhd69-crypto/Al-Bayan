@@ -8291,3 +8291,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0233 saves one private French draft about the Prophet ﷺ waiting for those who had eaten onions until their odor had dissipated. The exporter returned one eligible record immediately before the deferred long source.
 - The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 943 Muslim drafts, 7,279 total hadith drafts, 7,350 remaining, and 446 Needs Mo items.
+
+### 2026-10-29: Muslim 567a (long source, solo batch)
+
+- FR-LIB-HAD-MUSLIM-0234 saves one private French draft of Umar’s Friday sermon about the succession, the question of kalala, provincial governors, and garlic and onions in the mosque. It was processed alone because its Arabic source exceeds 2,000 characters. The technical term “kalala” is retained without adding an interpretation.
+- The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 944 Muslim drafts, 7,280 total hadith drafts, 7,349 remaining, and 446 Needs Mo items.
