@@ -10196,3 +10196,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0613 saves four private French drafts about Medina, its protection from the Dajjal, and its character as a place that expels harmful elements. Muslim 1378c and 1382b only give variant wording by reference to earlier reports and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1383–1386c
+
+- FR-LIB-HAD-MUSLIM-0614 saves five private French drafts about Medina’s character and protection. Muslim 1386c only refers to the preceding report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
