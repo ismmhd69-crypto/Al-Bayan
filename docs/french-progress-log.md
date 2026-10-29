@@ -9376,3 +9376,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0449 saves six private French drafts on sufficient provision, generosity, and the Prophet’s response to requests.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1767 Muslim drafts, 8103 total hadith drafts, 6526 remaining, and 827 Needs Mo items.
+
+### 2026-10-29: Muslim 1058a–1059c
+
+- FR-LIB-HAD-MUSLIM-0450 saves three private French drafts about gifts and the distribution after Hunayn. Muslim 1057b, 1059b, and 1059c are incomplete cross-references or partial recensions and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1770 Muslim drafts, 8106 total hadith drafts, 6523 remaining, and 830 Needs Mo items.
