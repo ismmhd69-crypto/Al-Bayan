@@ -15712,6 +15712,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-723",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-723.json",
+      "sourceIds": ["0ece9719-6516-4e54-9779-78de53ca8390", "ed17e001-8831-477b-a608-9b445208ba50", "e4969a6a-611a-415c-af96-280bc5c51c47"],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One Arabic original and hash, ID, reference, rights metadata and private unpublished draft passed; one Quran-quote record and one unclear poem remain blank with reason-specific holds",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15967,6 +15982,19 @@
       "scope": "Sahih al-Bukhari 4026: direct quotation of Quran 7:44",
       "status": "blocked",
       "reason": "The report directly quotes Quran 7:44. It remains blank in FR-LIB-HAD-BUKHARI-722 until an approved, attributed French Quran translation is confirmed."
+    }
+,
+    {
+      "id": "HADITH-BUKHARI-4031-QURAN-59-5",
+      "scope": "Sahih al-Bukhari 4031: direct quotation of Quran 59:5",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 59:5. It remains blank in FR-LIB-HAD-BUKHARI-723 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-4032-UNCLEAR-POETRY",
+      "scope": "Sahih al-Bukhari 4032: two poems with unclear wording",
+      "status": "blocked",
+      "reason": "The report contains two dense poems whose exact meaning is not confirmed. The complete record remains blank in FR-LIB-HAD-BUKHARI-723 pending clarification."
     }
   ],
   "hadithBukhariDrafted": 3524,

@@ -1,0 +1,98 @@
+{
+  "batch_id": "HADITH-BUKHARI-723",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:15:37.27Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0ece9719-6516-4e54-9779-78de53ca8390",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4030",
+      "reference": "Sahih al-Bukhari, hadith 4030, book 64, باب حَدِيثِ بَنِي النَّضِيرِ",
+      "title": "باب حَدِيثِ بَنِي النَّضِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ أَبِي الأَسْوَدِ، حَدَّثَنَا مُعْتَمِرٌ، عَنْ أَبِيهِ، سَمِعْتُ أَنَسَ بْنَ مَالِكٍ ـ رضى الله عنه قَالَ كَانَ الرَّجُلُ يَجْعَلُ لِلنَّبِيِّ صلى الله عليه وسلم النَّخَلاَتِ حَتَّى افْتَتَحَ قُرَيْظَةَ وَالنَّضِيرَ، فَكَانَ بَعْدَ ذَلِكَ يَرُدُّ عَلَيْهِمْ‏.‏",
+      "source_hash_sha256": "87f4d3124017b874c68265cdd2acba5f56493004a480237ddb7b21239aac71b1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik, qu’Allah l’agrée, rapporte : « Un homme donnait des palmiers au Prophète jusqu’à la conquête des Banû Qurayza et des Banû al-Nadîr. Par la suite, le Prophète les lui rendait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed17e001-8831-477b-a608-9b445208ba50",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4031",
+      "reference": "Sahih al-Bukhari, hadith 4031, book 64, باب حَدِيثِ بَنِي النَّضِيرِ",
+      "title": "باب حَدِيثِ بَنِي النَّضِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا اللَّيْثُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ حَرَّقَ رَسُولُ اللَّهِ صلى الله عليه وسلم نَخْلَ بَنِي النَّضِيرِ وَقَطَعَ وَهْىَ الْبُوَيْرَةُ فَنَزَلَتْ ‏[quran sura=\"59\" aya_start=\"5\" aya_end=\"5\"]{‏مَا قَطَعْتُمْ مِنْ لِينَةٍ أَوْ تَرَكْتُمُوهَا قَائِمَةً عَلَى أُصُولِهَا فَبِإِذْنِ اللَّهِ‏}‏",
+      "source_hash_sha256": "542a2f0e11022d91da0c3262c1aa61569ea38815e4eb29f78cc222450e4dd206",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e4969a6a-611a-415c-af96-280bc5c51c47",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4032",
+      "reference": "Sahih al-Bukhari, hadith 4032, book 64, باب حَدِيثِ بَنِي النَّضِيرِ",
+      "title": "باب حَدِيثِ بَنِي النَّضِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ، أَخْبَرَنَا حَبَّانُ، أَخْبَرَنَا جُوَيْرِيَةُ بْنُ أَسْمَاءَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما أَنَّ النَّبِيَّ صلى الله عليه وسلم حَرَّقَ نَخْلَ بَنِي النَّضِيرِ قَالَ وَلَهَا يَقُولُ حَسَّانُ بْنُ ثَابِتٍ وَهَانَ عَلَى سَرَاةِ بَنِي لُؤَىٍّ حَرِيقٌ بِالْبُوَيْرَةِ مُسْتَطِيرُ قَالَ فَأَجَابَهُ أَبُو سُفْيَانَ بْنُ الْحَارِثِ أَدَامَ اللَّهُ ذَلِكَ مِنْ صَنِيعٍ وَحَرَّقَ فِي نَوَاحِيهَا السَّعِيرُ سَتَعْلَمُ أَيُّنَا مِنْهَا بِنُزْهٍ وَتَعْلَمُ أَىَّ أَرْضَيْنَا تَضِيرُ",
+      "source_hash_sha256": "7c9591bdba1df7e5e060dd12ff87ede3879597952c8bf26d80d8d90f544ea820",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_unclear_poetic_wording",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "url": "https://sunnah.com/bukhari:4031",
+      "source_id": "ed17e001-8831-477b-a608-9b445208ba50",
+      "reason": "The report directly quotes Quran 59:5. No approved, attributed French Quran translation has been confirmed. The complete record remains blank rather than creating unapproved French Quran wording."
+    },
+    {
+      "url": "https://sunnah.com/bukhari:4032",
+      "source_id": "e4969a6a-611a-415c-af96-280bc5c51c47",
+      "reason": "The report contains two dense poems whose exact meaning is not confirmed. The complete record remains blank pending clarification."
+    }
+  ]
+}
