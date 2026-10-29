@@ -11390,3 +11390,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1805a-1806
 
 - FR-LIB-HAD-MUSLIM-0857 saves five private French drafts: four distinct devotional refrains from the Battle of the Trench and Salama ibn al-Akwa‘’s account of recovering the Prophet’s camels. No Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1807a
+
+- FR-LIB-HAD-MUSLIM-0858 records the very long report about al-Hudaybiya and later events as a Needs Mo hold because it contains a Quran quotation from 48:24. The entire French entry remains blank pending an attributed and authorized French Quran translation. No database write or publication occurred.
