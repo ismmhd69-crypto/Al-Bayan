@@ -40356,6 +40356,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0549",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0549.json",
+      "sourceIds": [
+        "cd5a01c6-de60-4016-a959-5efe15c86aba"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: one record; source hash and ID preserved; incomplete cross-reference held blank under Needs Mo; rights flags passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -48151,10 +48167,15 @@
       "source_id": "ca244220-5445-404b-b1ec-a15b5b3aaabe",
       "reason": "La source cite directement le Coran 33:21, même si le marqueur de citation est absent. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
       "status": "blocked"
+    },
+    {
+      "source_id": "cd5a01c6-de60-4016-a959-5efe15c86aba",
+      "reason": "La source ne reprend que la chaîne de transmission et renvoie au récit d’Ibn Uyayna sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 2167,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 990
+  "hadithNeedsMo": 991
 }

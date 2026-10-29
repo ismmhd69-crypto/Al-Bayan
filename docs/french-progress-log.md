@@ -9871,3 +9871,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0548 saves five private French drafts about the forms of Hajj and the tawaf before the station at Arafat. Muslim 1234a directly quotes Quran 33:21 and remains blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1234b
+
+- FR-LIB-HAD-MUSLIM-0549 contains one item: Muslim 1234b gives only a chain and a cross-reference to the preceding report, so it remains blank under Needs Mo.
+- The source hash is retained. Focused batch validation passed. No database write or publication occurred.
