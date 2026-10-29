@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1079",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:06:50.145Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f9c6e100-6871-419f-8ce5-1613fa7e69db",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2303d",
+      "reference": "Sahih Muslim, hadith 2303 d, e, book 43, باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "title": "باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي يَحْيَى بْنُ حَبِيبٍ الْحَارِثِيُّ، وَمُحَمَّدُ بْنُ عَبْدِ اللَّهِ الرُّزِّيُّ، قَالاَ حَدَّثَنَا خَالِدُ، بْنُ الْحَارِثِ عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، قَالَ قَالَ أَنَسٌ قَالَ نَبِيُّ اللَّهِ صلى الله عليه وسلم ‏\"‏ تُرَى فِيهِ أَبَارِيقُ الذَّهَبِ وَالْفِضَّةِ كَعَدَدِ نُجُومِ السَّمَاءِ ‏\"‏ ‏.‏ وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا الْحَسَنُ بْنُ مُوسَى، حَدَّثَنَا شَيْبَانُ، عَنْ قَتَادَةَ، حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ مِثْلَهُ وَزَادَ ‏\"‏ أَوْ أَكْثَرُ مِنْ عَدَدِ نُجُومِ السَّمَاءِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3fb981c3de120af0b45f36d2220a90f90b1a7d8e3a4c16fb160be8e8ecd05f93",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Prophète d’Allah ﷺ a dit : « On y verra des aiguières d’or et d’argent aussi nombreuses que les étoiles du ciel. » Dans une autre transmission, il est dit : « ou plus nombreuses encore que les étoiles du ciel. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "124d2fa5-c067-4247-a894-98d124bba76c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2304a",
+      "reference": "Sahih Muslim, hadith 2304 a, book 43, باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "title": "باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا عَفَّانُ بْنُ مُسْلِمٍ الصَّفَّارُ، حَدَّثَنَا وُهَيْبٌ، قَالَ سَمِعْتُ عَبْدَ الْعَزِيزِ بْنَ صُهَيْبٍ، يُحَدِّثُ قَالَ حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ لَيَرِدَنَّ عَلَىَّ الْحَوْضَ رِجَالٌ مِمَّنْ صَاحَبَنِي حَتَّى إِذَا رَأَيْتُهُمْ وَرُفِعُوا إِلَىَّ اخْتُلِجُوا دُونِي فَلأَقُولَنَّ أَىْ رَبِّ أُصَيْحَابِي أُصَيْحَابِي ‏.‏ فَلَيُقَالَنَّ لِي إِنَّكَ لاَ تَدْرِي مَا أَحْدَثُوا بَعْدَكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "88af80c193e5c7bf74aa9b93ec84e67ad533b63cb03ff419ae15431aace00742",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte que le Prophète ﷺ a dit : « Des hommes parmi ceux qui m’ont accompagné viendront à moi au Bassin. Lorsque je les verrai et qu’ils s’approcheront, ils seront écartés de moi. Je dirai alors : “Seigneur, mes petits compagnons ! Mes petits compagnons !” Il me sera répondu : “Tu ne sais pas ce qu’ils ont introduit après toi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0fbe162a-5180-4da1-8014-6f208c1d5bf6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2304b",
+      "reference": "Sahih Muslim, hadith 2304 b, book 43, باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "title": "باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَلِيُّ بْنُ حُجْرٍ، قَالاَ حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا ابْنُ فُضَيْلٍ، جَمِيعًا عَنِ الْمُخْتَارِ بْنِ فُلْفُلٍ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا الْمَعْنَى وَزَادَ ‏\"‏ آنِيَتُهُ عَدَدُ النُّجُومِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9e86d142bdccbaf437027c3c7c3abf6928c0243755589c2cc006cfa2c2b15781",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2399a5b3-4bde-44c5-97cd-9948c67c871e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2305a",
+      "reference": "Sahih Muslim, hadith 2305 a, book 43, باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "title": "باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي الْوَلِيدُ بْنُ شُجَاعِ بْنِ الْوَلِيدِ السَّكُونِيُّ، حَدَّثَنِي أَبِي، - رَحِمَهُ اللَّهُ - حَدَّثَنِي زِيَادُ بْنُ خَيْثَمَةَ، عَنْ سِمَاكِ بْنِ حَرْبٍ، عَنْ جَابِرِ بْنِ سَمُرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ أَلاَ إِنِّي فَرَطٌ لَكُمْ عَلَى الْحَوْضِ وَإِنَّ بُعْدَ مَا بَيْنَ طَرَفَيْهِ كَمَا بَيْنَ صَنْعَاءَ وَأَيْلَةَ كَأَنَّ الأَبَارِيقَ فِيهِ النُّجُومُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d33f55dcc4aea4416f21fca4e233be2ca36ea9506114f05af7d61dec5a5f9549",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir ibn Samura rapporte que le Messager d’Allah ﷺ a dit : « Sachez que je vous précéderai au Bassin. La distance entre ses deux extrémités sera comme celle entre Sanaa et Aïla. Ses aiguières y seront comme des étoiles. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b31bd151-4113-4843-b787-7d226a58caa0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2305b",
+      "reference": "Sahih Muslim, hadith 2305 b, book 43, باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "title": "باب إِثْبَاتِ حَوْضِ نَبِيِّنَا صلى الله عليه وسلم وَصِفَاتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ قَالاَ حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، عَنِ الْمُهَاجِرِ بْنِ مِسْمَارٍ، عَنْ عَامِرِ بْنِ سَعْدِ بْنِ أَبِي وَقَّاصٍ، قَالَ كَتَبْتُ إِلَى جَابِرِ بْنِ سَمُرَةَ مَعَ غُلاَمِي نَافِعٍ أَخْبِرْنِي بِشَىْءٍ، سَمِعْتَهُ مِنْ، رَسُولِ اللَّهِ صلى الله عليه وسلم - قَالَ - فَكَتَبَ إِلَىَّ إِنِّي سَمِعْتُهُ يَقُولُ ‏\"‏ أَنَا الْفَرَطُ عَلَى الْحَوْضِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d3e2c75dcf2fdae7f4608ea74e9a2963e4f27b84dbdc47e85d3c41b16bb9df79",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂmir ibn Saʿd ibn Abî Waqqâs dit : « J’écrivis à Jâbir ibn Samura, par l’intermédiaire de mon serviteur Nâfiʿ : “Informe-moi de quelque chose que tu as entendu du Messager d’Allah ﷺ.” » Il m’écrivit : « Je l’ai entendu dire : “Je vous précéderai au Bassin.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5ca1d283-03ab-4c54-9066-e22fdf92f88d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2306a",
+      "reference": "Sahih Muslim, hadith 2306 a, book 43, باب فِي قِتَالِ جِبْرِيلَ وَمِيكَائِيلَ عَنِ النَّبِيِّ صلى الله عليه وسلم يَوْمَ أُحُدٍ ‏‏",
+      "title": "باب فِي قِتَالِ جِبْرِيلَ وَمِيكَائِيلَ عَنِ النَّبِيِّ صلى الله عليه وسلم يَوْمَ أُحُدٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، وَأَبُو أُسَامَةَ عَنْ مِسْعَرٍ، عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، عَنْ أَبِيهِ، عَنْ سَعْدٍ، قَالَ رَأَيْتُ عَنْ يَمِينِ، رَسُولِ اللَّهِ صلى الله عليه وسلم وَعَنْ شِمَالِهِ يَوْمَ أُحُدٍ رَجُلَيْنِ عَلَيْهِمَا ثِيَابُ بَيَاضٍ مَا رَأَيْتُهُمَا قَبْلُ وَلاَ بَعْدُ ‏.‏ يَعْنِي جِبْرِيلَ وَمِيكَائِيلَ عَلَيْهِمَا السَّلاَمُ ‏.‏",
+      "source_hash_sha256": "b23083c12e0d8b712c3ddddc57391d63a060c5de7b63de41e5dddeaa797b5d5f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Saʿd rapporte : « Le jour d’Uhud, je vis à droite et à gauche du Messager d’Allah ﷺ deux hommes vêtus de blanc. Je ne les avais vus ni auparavant ni après. » Il s’agissait de Jibrîl et de Mîkâ’îl, que la paix soit sur eux.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0fbe162a-5180-4da1-8014-6f208c1d5bf6",
+      "reason": "Cette entrée ne donne qu’une variation de formulation du récit précédent sans reprendre son texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
