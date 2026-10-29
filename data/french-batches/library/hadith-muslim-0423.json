@@ -1,0 +1,44 @@
+{
+  "batch_id": "HADITH-MUSLIM-0423",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:07:15.467Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2153180f-8e13-4bb1-abe5-d1581d04bf62",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:987b",
+      "reference": "Sahih Muslim, hadith 987 b, book 12, باب إِثْمِ مَانِعِ الزَّكَاةِ ‏‏",
+      "title": "باب إِثْمِ مَانِعِ الزَّكَاةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي يُونُسُ بْنُ عَبْدِ الأَعْلَى الصَّدَفِيُّ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، حَدَّثَنِي هِشَامُ، بْنُ سَعْدٍ عَنْ زَيْدِ بْنِ أَسْلَمَ، فِي هَذَا الإِسْنَادِ بِمَعْنَى حَدِيثِ حَفْصِ بْنِ مَيْسَرَةَ إِلَى آخِرِهِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ مَا مِنْ صَاحِبِ إِبِلٍ لاَ يُؤَدِّي حَقَّهَا ‏\"‏ ‏.‏ وَلَمْ يَقُلْ ‏\"‏ مِنْهَا حَقَّهَا ‏\"‏ ‏.‏ وَذَكَرَ فِيهِ ‏\"‏ لاَ يَفْقِدُ مِنْهَا فَصِيلاً وَاحِدًا ‏\"‏ ‏.‏ وَقَالَ ‏\"‏ يُكْوَى بِهَا جَنْبَاهُ وَجَبْهَتُهُ وَظَهْرُهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6f169308e2a7b76d41e9bf0f3cb4d996a2c9bcbd65cfd4ee8bdb921bc89d35b8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "2153180f-8e13-4bb1-abe5-d1581d04bf62",
+      "reason": "La source renvoie au long récit précédent « jusqu’à la fin », sans en reprendre le contenu complet, et ne donne que quelques variantes. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

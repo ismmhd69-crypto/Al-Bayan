@@ -37752,6 +37752,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0423",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0423.json",
+      "sourceIds": [
+        "2153180f-8e13-4bb1-abe5-d1581d04bf62"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; incomplete cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44892,10 +44908,15 @@
       "source_id": "6eb3049a-cf7a-446f-90a6-6e22749b6df1",
       "reason": "La source contient une citation directe du Coran (sourate 99, versets 7–8). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
       "status": "blocked"
+    },
+    {
+      "source_id": "2153180f-8e13-4bb1-abe5-d1581d04bf62",
+      "reason": "La source renvoie au long récit précédent « jusqu’à la fin », sans en reprendre le contenu complet, et ne donne que quelques variantes. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 1664,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 778
+  "hadithNeedsMo": 779
 }
