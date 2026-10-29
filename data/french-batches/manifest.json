@@ -36736,6 +36736,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0373",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0373.json",
+      "sourceIds": [
+        "e0621214-c74f-4cca-8e1f-8b96910a94f0",
+        "a195e063-d8d2-48be-ac6c-404eb64ebc69",
+        "330244f3-e265-4a1d-b185-ed1567251638",
+        "f90a6c0d-0371-41a5-89fc-eb9243c8eaab",
+        "f00390ab-fa7d-4f18-a8c0-2bab581cc4bd",
+        "5c1373e5-bb32-4c78-87f2-b1e9336301da"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; three direct Quran quotations and one chain-only variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -41043,8 +41064,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7814,
-  "hadithLocalRemaining": 6815,
+  "hadithLocalDrafted": 7816,
+  "hadithLocalRemaining": 6813,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43817,10 +43838,34 @@
       "scope": "Sahih Muslim 875B: incomplete wording variant",
       "status": "blocked",
       "reason": "La source reprend la chaîne et signale seulement l’omission d’un détail de la version précédente, sans rapporter l’ensemble du récit. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0373-877A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 877A: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage du Coran (sourate 63, verset 1). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0373-877B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 877B: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage du Coran (sourate 63, verset 1). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0373-878A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 878A: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement plusieurs passages du Coran (sourates 87 et 88). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0373-878B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 878B: chain-only cross-reference",
+      "status": "blocked",
+      "reason": "La source ne rapporte que la chaîne de transmission d’un récit précédent, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1478,
+  "hadithMuslimDrafted": 1480,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 698
+  "hadithNeedsMo": 702
 }
