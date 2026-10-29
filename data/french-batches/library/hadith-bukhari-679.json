@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-679",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:49:47.127Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d1f8c5c4-c950-4a33-80b0-000ec44f7fba",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3844",
+      "reference": "Sahih al-Bukhari, hadith 3844, book 63, باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "title": "باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو النُّعْمَانِ، حَدَّثَنَا مَهْدِيٌّ، قَالَ غَيْلاَنُ بْنُ جَرِيرٍ كُنَّا نَأْتِي أَنَسَ بْنَ مَالِكٍ فَيُحَدِّثُنَا عَنِ الأَنْصَارِ،، وَكَانَ، يَقُولُ لِي فَعَلَ قَوْمُكَ كَذَا وَكَذَا يَوْمَ كَذَا وَكَذَا، وَفَعَلَ قَوْمُكَ كَذَا وَكَذَا يَوْمَ كَذَا وَكَذَا‏.‏",
+      "source_hash_sha256": "0f2e283e710b39eddc91bdcd357fe1ef7af94156358f2c3b318cc8af6388a99f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ghaylân ibn Jarîr rapporte : « Nous rendions visite à Anas ibn Mâlik, qui nous parlait des Ansâr. Il se tournait vers moi et disait : “Tes gens ont fait telle et telle chose tel jour, puis telle et telle autre chose tel autre jour.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
