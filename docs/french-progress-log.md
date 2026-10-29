@@ -7127,3 +7127,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0004 saves 6 private French drafts covering guidance toward Paradise and the variant order of the five pillars. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 17 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,276, including held records.
+
+### 2026-10-29: Muslim 16b–17c
+
+- FR-LIB-HAD-MUSLIM-0005 saves 6 private French drafts covering variants of the five pillars and the ʿAbd al-Qays delegation, including the vessel-name and chain variants. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 23 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,270, including held records.
