@@ -5828,3 +5828,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6182–6187
 
 - FR-LIB-HAD-BUKHARI-1137 saves six private French drafts about speech, travel, and naming. No database writes or publication occurred. Bukhari local drafts: 5,179 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,448, including held records.
+
+### 2026-10-29: Bukhari 6188–6193
+
+- FR-LIB-HAD-BUKHARI-1138 saves six private French drafts about names and naming. No database writes or publication occurred. Bukhari local drafts: 5,185 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,442, including held records.
