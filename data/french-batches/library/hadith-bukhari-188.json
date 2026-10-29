@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-BUKHARI-188",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T03:48:56.120Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b05108b5-093a-4b23-917f-2e14509f5e5b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1073",
+      "reference": "Sahih al-Bukhari, hadith 1073, book 17, باب مَنْ قَرَأَ السَّجْدَةَ وَلَمْ يَسْجُدْ",
+      "title": "باب مَنْ قَرَأَ السَّجْدَةَ وَلَمْ يَسْجُدْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، قَالَ حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ، قَالَ حَدَّثَنَا يَزِيدُ بْنُ عَبْدِ اللَّهِ بْنِ قُسَيْطٍ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ زَيْدِ بْنِ ثَابِتٍ، قَالَ قَرَأْتُ عَلَى النَّبِيِّ صلى الله عليه وسلم ‏{‏وَالنَّجْمِ‏}‏ فَلَمْ يَسْجُدْ فِيهَا‏.‏",
+      "source_hash_sha256": "ad259913414e698f8234b85d1196dfb8ea36226703215afcc4d838211cda3f92",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d352cc2a-850c-4c8b-97e9-e0d0f9495f72",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1074",
+      "reference": "Sahih al-Bukhari, hadith 1074, book 17, باب سَجْدَةِ ‏ {‏إِذَا السَّمَاءُ انْشَقَّتْ‏} ‏",
+      "title": "باب سَجْدَةِ ‏ {‏إِذَا السَّمَاءُ انْشَقَّتْ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسْلِمٌ، وَمُعَاذُ بْنُ فَضَالَةَ، قَالاَ أَخْبَرَنَا هِشَامٌ، عَنْ يَحْيَى، عَنْ أَبِي سَلَمَةَ، قَالَ رَأَيْتُ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ قَرَأَ ‏[quran sura=\"84\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا السَّمَاءُ انْشَقَّتْ‏}‏ فَسَجَدَ بِهَا فَقُلْتُ يَا أَبَا هُرَيْرَةَ، أَلَمْ أَرَكَ تَسْجُدُ قَالَ لَوْ لَمْ أَرَ النَّبِيَّ صلى الله عليه وسلم يَسْجُدُ لَمْ أَسْجُدْ‏.‏",
+      "source_hash_sha256": "2d2b8665d17c5ff6b85ebdc6cefc421a5c89275ed52a2c7e0eaf709873936504",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e9c9cf83-5de3-4965-b3d7-8943edc01ac8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1075",
+      "reference": "Sahih al-Bukhari, hadith 1075, book 17, باب مَنْ سَجَدَ لِسُجُودِ الْقَارِئِ",
+      "title": "باب مَنْ سَجَدَ لِسُجُودِ الْقَارِئِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ، قَالَ حَدَّثَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم يَقْرَأُ عَلَيْنَا السُّورَةَ فِيهَا السَّجْدَةُ، فَيَسْجُدُ وَنَسْجُدُ، حَتَّى مَا يَجِدُ أَحَدُنَا مَوْضِعَ جَبْهَتِهِ‏.‏",
+      "source_hash_sha256": "c24ea9ba2b07a05c0c1217a4542372bc184a5e5e65de35a259601a1964d108d2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Yahya nous a rapporté, d’après Ubayd Allah, qui m’a rapporté, d’après Nafi, d’après Ibn Umar, qu’Allah les agrée tous deux, qui dit : « Le Prophète ﷺ nous récitait une sourate contenant une prosternation. Il se prosternait et nous faisions de même, au point que chacun peinait à trouver une place pour poser son front. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9d8f84e5-9ba5-4d25-a1fb-7137cf641bd5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1076",
+      "reference": "Sahih al-Bukhari, hadith 1076, book 17, باب ازْدِحَامِ النَّاسِ إِذَا قَرَأَ الإِمَامُ السَّجْدَةَ",
+      "title": "باب ازْدِحَامِ النَّاسِ إِذَا قَرَأَ الإِمَامُ السَّجْدَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا بِشْرُ بْنُ آدَمَ، قَالَ حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، قَالَ أَخْبَرَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم يَقْرَأُ السَّجْدَةَ وَنَحْنُ عِنْدَهُ فَيَسْجُدُ وَنَسْجُدُ مَعَهُ فَنَزْدَحِمُ حَتَّى مَا يَجِدُ أَحَدُنَا لِجَبْهَتِهِ مَوْضِعًا يَسْجُدُ عَلَيْهِ‏.‏",
+      "source_hash_sha256": "966869081a19b174526a9156cca15d8451bf104fac2b7a7d635bd18c62a86068",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Bishr ibn Adam nous a rapporté : Ali ibn Mushir nous a rapporté : Ubayd Allah nous a informés, d’après Nafi, d’après Ibn Umar, qui dit : « Le Prophète ﷺ récitait le passage de prosternation alors que nous étions auprès de lui. Il se prosternait et nous nous prosternions avec lui, si bien que nous étions serrés les uns contre les autres et que chacun peinait à trouver une place pour poser son front. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1dfb2d14-b9e6-43e4-93fc-ac014f84fc46",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1077",
+      "reference": "Sahih al-Bukhari, hadith 1077, book 17, باب مَنْ رَأَى أَنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يُوجِبِ السُّجُودَ",
+      "title": "باب مَنْ رَأَى أَنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يُوجِبِ السُّجُودَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، قَالَ أَخْبَرَنَا هِشَامُ بْنُ يُوسُفَ، أَنَّ ابْنَ جُرَيْجٍ، أَخْبَرَهُمْ قَالَ أَخْبَرَنِي أَبُو بَكْرِ بْنُ أَبِي مُلَيْكَةَ، عَنْ عُثْمَانَ بْنِ عَبْدِ الرَّحْمَنِ التَّيْمِيِّ، عَنْ رَبِيعَةَ بْنِ عَبْدِ اللَّهِ بْنِ الْهُدَيْرِ التَّيْمِيِّ ـ قَالَ أَبُو بَكْرٍ وَكَانَ رَبِيعَةُ مِنْ خِيَارِ النَّاسِ عَمَّا حَضَرَ رَبِيعَةُ مِنْ عُمَرَ بْنِ الْخَطَّابِ ـ رضى الله عنه ـ قَرَأَ يَوْمَ الْجُمُعَةِ عَلَى الْمِنْبَرِ بِسُورَةِ النَّحْلِ حَتَّى إِذَا جَاءَ السَّجْدَةَ نَزَلَ فَسَجَدَ وَسَجَدَ النَّاسُ، حَتَّى إِذَا كَانَتِ الْجُمُعَةُ الْقَابِلَةُ قَرَأَ بِهَا حَتَّى إِذَا جَاءَ السَّجْدَةَ قَالَ يَا أَيُّهَا النَّاسُ إِنَّا نَمُرُّ بِالسُّجُودِ فَمَنْ سَجَدَ فَقَدْ أَصَابَ، وَمَنْ لَمْ يَسْجُدْ فَلاَ إِثْمَ عَلَيْهِ‏.‏ وَلَمْ يَسْجُدْ عُمَرُ ـ رضى الله عنه‏.‏ وَزَادَ نَافِعٌ عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما إِنَّ اللَّهَ لَمْ يَفْرِضِ السُّجُودَ إِلاَّ أَنْ نَشَاءَ‏.‏",
+      "source_hash_sha256": "92022f9a3450277944af041ce0888db5eca89778b48d05cc1f39c96027069106",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibrahim ibn Musa nous a rapporté : Hisham ibn Yusuf nous a informés qu’Ibn Jurayj leur avait rapporté : Abu Bakr ibn Abi Mulayka m’a informé, d’après Uthman ibn Abd al-Rahman al-Taymi, d’après Rabi‘a ibn Abd Allah ibn al-Hudayr al-Taymi — Abu Bakr dit que Rabi‘a était l’un des meilleurs hommes — au sujet de ce que Rabi‘a avait vu d’Umar ibn al-Khattab, qu’Allah l’agrée : « Un vendredi, Umar récita la sourate An-Nahl sur le minbar. Arrivé au passage de prosternation, il descendit et se prosterna, et les gens se prosternèrent avec lui. Le vendredi suivant, lorsqu’il arriva au même passage, il dit : “Ô gens, nous rencontrons des passages de prosternation. Celui qui se prosterne a bien agi, et celui qui ne se prosterne pas ne commet aucun péché.” Umar, qu’Allah l’agrée, ne se prosterna pas. » Nafi rapporte en complément, d’après Ibn Umar, qu’Allah les agrée tous deux : « Allah n’a pas rendu la prosternation obligatoire ; nous pouvons choisir de la faire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6c27847a-1460-4198-94bd-988f5186106a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1078",
+      "reference": "Sahih al-Bukhari, hadith 1078, book 17, باب مَنْ قَرَأَ السَّجْدَةَ فِي الصَّلاَةِ فَسَجَدَ بِهَا",
+      "title": "باب مَنْ قَرَأَ السَّجْدَةَ فِي الصَّلاَةِ فَسَجَدَ بِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ أَبِي قَالَ، حَدَّثَنِي بَكْرٌ، عَنْ أَبِي رَافِعٍ، قَالَ صَلَّيْتُ مَعَ أَبِي هُرَيْرَةَ الْعَتَمَةَ فَقَرَأَ ‏[quran sura=\"84\" aya_start=\"1\" aya_end=\"1\"]{‏إِذَا السَّمَاءُ انْشَقَّتْ‏}‏ فَسَجَدَ فَقُلْتُ مَا هَذِهِ قَالَ سَجَدْتُ بِهَا خَلْفَ أَبِي الْقَاسِمِ صلى الله عليه وسلم فَلاَ أَزَالُ أَسْجُدُ فِيهَا حَتَّى أَلْقَاهُ‏.‏",
+      "source_hash_sha256": "c0ebcc638036eaba61a36a0fbca0c54d54711d2708e1e3f2d827d7bec0c5cee9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b05108b5-093a-4b23-917f-2e14509f5e5b",
+      "reason": "This report directly quotes Quran 53:1. Keep the entire report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "d352cc2a-850c-4c8b-97e9-e0d0f9495f72",
+      "reason": "This report directly quotes Quran 84:1. Keep the entire report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "6c27847a-1460-4198-94bd-988f5186106a",
+      "reason": "This report directly quotes Quran 84:1. Keep the entire report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
