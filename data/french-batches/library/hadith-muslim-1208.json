@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1208",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:42:08.650Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6fd5274a-6834-46f6-b9b7-d909a6fe04ad",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2616a",
+      "reference": "Sahih Muslim, hadith 2616 a, book 45, باب النَّهْىِ عَنِ الإِشَارَةِ، بِالسِّلاَحِ إِلَى مُسْلِمٍ ‏ ‏",
+      "title": "باب النَّهْىِ عَنِ الإِشَارَةِ، بِالسِّلاَحِ إِلَى مُسْلِمٍ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرٌو النَّاقِدُ، وَابْنُ أَبِي عُمَرَ، قَالَ عَمْرٌو حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَيُّوبَ، عَنِ ابْنِ سِيرِينَ، سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ أَبُو الْقَاسِمِ صلى الله عليه وسلم ‏\"‏ مَنْ أَشَارَ إِلَى أَخِيهِ بِحَدِيدَةٍ فَإِنَّ الْمَلاَئِكَةَ تَلْعَنُهُ حَتَّى وَإِنْ كَانَ أَخَاهُ لأَبِيهِ وَأُمِّهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "dc3c9beef688729d2f6af01d6a2d89cf989a5abc7a35c4edc28f4224629a70e2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Celui qui pointe un morceau de fer vers son frère est maudit par les anges jusqu’à ce qu’il le range, même si cet homme est son frère de père et de mère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dcb2d447-b640-4df7-a3f2-4fee06f8f4e1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2616b",
+      "reference": "Sahih Muslim, hadith 2616 b, book 45, باب النَّهْىِ عَنِ الإِشَارَةِ، بِالسِّلاَحِ إِلَى مُسْلِمٍ ‏ ‏",
+      "title": "باب النَّهْىِ عَنِ الإِشَارَةِ، بِالسِّلاَحِ إِلَى مُسْلِمٍ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنِ ابْنِ عَوْنٍ، عَنْ مُحَمَّدٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "62ca6ef328225542338e8bb923183d835ed8e23ac0286457defba8518885ca34",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "155e6b49-3753-4c4c-9a1c-e44e7557764f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2617",
+      "reference": "Sahih Muslim, hadith 2617, book 45, باب النَّهْىِ عَنِ الإِشَارَةِ، بِالسِّلاَحِ إِلَى مُسْلِمٍ ‏ ‏",
+      "title": "باب النَّهْىِ عَنِ الإِشَارَةِ، بِالسِّلاَحِ إِلَى مُسْلِمٍ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يُشِيرُ أَحَدُكُمْ إِلَى أَخِيهِ بِالسِّلاَحِ فَإِنَّهُ لاَ يَدْرِي أَحَدُكُمْ لَعَلَّ الشَّيْطَانَ يَنْزِعُ فِي يَدِهِ فَيَقَعُ فِي حُفْرَةٍ مِنَ النَّارِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bb89b3d3d2ac77828e9459dad62fc560a136b7e4bbf31bf2c78605f1034211c2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Humām ibn Munabbih rapporte qu’Abū Hurayra lui a transmis plusieurs paroles du Messager d’Allah ﷺ, dont celle-ci : « Que l’un de vous ne pointe pas son arme vers son frère, car il ne sait pas si Satan ne va pas faire glisser sa main et le précipiter dans une fosse de feu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "798be0a0-8efb-4b42-8151-403eea3e04a1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2618a",
+      "reference": "Sahih Muslim, hadith 2618 a, book 45, باب فَضْلِ إِزَالَةِ الأَذَى عَنِ الطَّرِيقِ، ‏ ‏",
+      "title": "باب فَضْلِ إِزَالَةِ الأَذَى عَنِ الطَّرِيقِ، ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ أَبَانَ بْنِ صَمْعَةَ، حَدَّثَنِي أَبُو الْوَازِعِ حَدَّثَنِي أَبُو بَرْزَةَ، قَالَ قُلْتُ يَا نَبِيَّ اللَّهِ عَلِّمْنِي شَيْئًا أَنْتَفِعُ بِهِ قَالَ ‏\"‏ اعْزِلِ الأَذَى عَنْ طَرِيقِ الْمُسْلِمِينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ab6fe6d6eeff530d204e0342b65851fa97e8e826c8f3dbea29399dc6ac6e6dfd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Barza rapporte : « Je dis : “Ô Prophète d’Allah, enseigne-moi une chose dont je pourrai tirer profit.” Il répondit : “Écarte ce qui nuit du chemin des musulmans.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2746191f-a793-43b8-85cb-d8220ae90a3b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2618b",
+      "reference": "Sahih Muslim, hadith 2618 b, book 45, باب فَضْلِ إِزَالَةِ الأَذَى عَنِ الطَّرِيقِ، ‏ ‏",
+      "title": "باب فَضْلِ إِزَالَةِ الأَذَى عَنِ الطَّرِيقِ، ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو بَكْرِ بْنُ شُعَيْبِ بْنِ الْحَبْحَابِ، عَنْ أَبِي الْوَازِعِ، الرَّاسِبِيِّ عَنْ أَبِي بَرْزَةَ الأَسْلَمِيِّ، أَنَّ أَبَا بَرْزَةَ، قَالَ قُلْتُ لِرَسُولِ اللَّهِ صلى الله عليه وسلم يَا رَسُولَ اللَّهِ إِنِّي لاَ أَدْرِي لَعَسَى أَنْ تَمْضِيَ وَأَبْقَى بَعْدَكَ فَزَوِّدْنِي شَيْئًا يَنْفَعُنِي اللَّهُ بِهِ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ افْعَلْ كَذَا افْعَلْ كَذَا - أَبُو بَكْرٍ نَسِيَهُ - وَأَمِرَّ الأَذَى عَنِ الطَّرِيقِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ec4a3104c7a37f5311934f09fc70a2fbe427114f6ffb382fea42d923cff9a1f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Barza al-Aslamī rapporte : « Je dis au Messager d’Allah ﷺ : “Ô Messager d’Allah, je ne sais pas si je mourrai avant toi ou si je te survivrai. Donne-moi donc quelque chose dont Allah me fera tirer profit.” Le Messager d’Allah ﷺ répondit : “Fais ceci, fais cela” — Abū Bakr l’avait oublié — “et écarte ce qui nuit du chemin.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e57d06a5-331f-477c-980a-96e3a90ebf4b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2619",
+      "reference": "Sahih Muslim, hadith 2619, book 45, باب تَحْرِيمِ تَعْذِيبِ الْهِرَّةِ وَنَحْوِهَا مِنَ الْحَيَوَانِ الَّذِي لاَ يُؤْذِي ‏ ‏",
+      "title": "باب تَحْرِيمِ تَعْذِيبِ الْهِرَّةِ وَنَحْوِهَا مِنَ الْحَيَوَانِ الَّذِي لاَ يُؤْذِي ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ دَخَلَتِ امْرَأَةٌ النَّارَ مِنْ جَرَّاءِ هِرَّةٍ لَهَا - أَوْ هِرٍّ - رَبَطَتْهَا فَلاَ هِيَ أَطْعَمَتْهَا وَلاَ هِيَ أَرْسَلَتْهَا تُرَمِّمُ مِنْ خَشَاشِ الأَرْضِ حَتَّى مَاتَتْ هَزْلاً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3ccf69997f2709973562b9396124c2ef89410ef86f69c2ceb58ca6650921d5bd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Humām ibn Munabbih rapporte qu’Abū Hurayra lui a transmis plusieurs paroles du Messager d’Allah ﷺ, dont celle-ci : « Une femme entra dans le Feu à cause d’une chatte — ou d’un chat — qu’elle avait attachée. Elle ne l’avait ni nourrie ni libérée pour qu’elle cherche sa nourriture parmi les petites bêtes de la terre, jusqu’à ce qu’elle meure amaigrie. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "dcb2d447-b640-4df7-a3f2-4fee06f8f4e1",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit précédent « dans le même sens » sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
