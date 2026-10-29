@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4617,
+    "hadithBukhariDrafted": 4622,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4617,
+    "hadithLocalDrafted": 4622,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 10012,
-    "hadithNeedsMo": 727,
+    "hadithLocalRemaining": 10007,
+    "hadithNeedsMo": 728,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -21685,6 +21685,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1014",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1014.json",
+      "sourceIds": [
+        "5d6c7dc7-153b-4a82-b3fa-88a694cd6a41",
+        "1a9a43c1-d4a9-4d00-a297-9406713cfea1",
+        "1fa833f4-74d9-4f8e-b86a-161f62f8cd75",
+        "6c8c1cf4-283d-4639-b735-b89b93794a5d",
+        "5383e349-1f83-47a5-ab29-32a962b98298",
+        "a89f1b01-d7f7-415d-b340-3d4c9ec9559c"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five drafts passed; one incomplete source excerpt is held for Mo; all Arabic hashes and private unpublished states passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with Needs Mo"
     }
   ],
   "blockers": [
@@ -24699,6 +24720,12 @@
       "scope": "Sahih al-Bukhari 5529 direct quotation of Quran 6:145",
       "status": "blocked",
       "reason": "The hadith quotes Quran 6:145 directly. Keep the complete report blank until an approved attributed French Quran translation and permitted use are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-5568-INCOMPLETE-REPORT",
+      "scope": "Sahih al-Bukhari 5568 closing clause",
+      "status": "blocked",
+      "reason": "The exported Arabic ends by saying an event occurred after the narrator left but does not state what happened. Keep the entire report blank in FR-LIB-HAD-BUKHARI-1014 until the full source is confirmed."
     }
   ],
   "hadithBukhariDrafted": 4523,
