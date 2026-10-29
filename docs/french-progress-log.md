@@ -9956,3 +9956,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0565 saves three private French drafts about the Sa‘i and the Prophet’s journey from Arafat to Muzdalifa. Muslim 1277e and 1278 quote Quran 2:158; 1279b is an incomplete variant. Those three remain entirely blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1280c–1281b
+
+- FR-LIB-HAD-MUSLIM-0566 saves six private French drafts about the journey from Arafat to Muzdalifa, including the reports’ differences about ablution water, completeness of ablution, and prayer sequence. All six source texts are complete.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
