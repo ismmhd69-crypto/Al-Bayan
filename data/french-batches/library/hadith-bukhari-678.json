@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-678",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:49:18.960Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ab4ec666-d21e-4af2-a541-3a9a9194b3ad",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3838",
+      "reference": "Sahih al-Bukhari, hadith 3838, book 63, باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "title": "باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرُو بْنُ عَبَّاسٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي إِسْحَاقَ، عَنْ عَمْرِو بْنِ مَيْمُونٍ، قَالَ قَالَ عُمَرُ ـ رضى الله عنه ـ إِنَّ الْمُشْرِكِينَ كَانُوا لاَ يُفِيضُونَ مِنْ جَمْعٍ حَتَّى تَشْرُقَ الشَّمْسُ عَلَى ثَبِيرٍ، فَخَالَفَهُمُ النَّبِيُّ صلى الله عليه وسلم فَأَفَاضَ قَبْلَ أَنْ تَطْلُعَ الشَّمْسُ‏.‏",
+      "source_hash_sha256": "56ad9574a8402b367f31be304188864c50886dd75fe0a4864568ebfe6579ce55",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Umar rapporte que les polythéistes ne quittaient pas Muzdalifa avant que le soleil ne se lève sur le mont Thabîr. Le Prophète agit différemment d’eux et quitta Muzdalifa avant le lever du soleil.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "db78379c-14d7-4e88-9999-b3d69d2455f4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3839",
+      "reference": "Sahih al-Bukhari, hadith 3839, book 63, باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "title": "باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ قُلْتُ لأَبِي أُسَامَةَ حَدَّثَكُمْ يَحْيَى بْنُ الْمُهَلَّبِ، حَدَّثَنَا حُصَيْنٌ، عَنْ عِكْرِمَةَ، ‏[quran sura=\"78\" aya_start=\"34\" aya_end=\"34\"]{‏وَكَأْسًا دِهَاقًا‏}‏ قَالَ مَلأَى مُتَتَابِعَةً‏.‏",
+      "source_hash_sha256": "ba7256f3164444d03ce4489b79ec5e82f99083c79182c38bac0c5375fc58dad9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d9bff7ba-f04a-4c77-937d-646946204c14",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3840",
+      "reference": "Sahih al-Bukhari, hadith 3840, book 63, باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "title": "باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "source_published": true,
+      "text_original": "قَالَ وَقَالَ ابْنُ عَبَّاسٍ سَمِعْتُ أَبِي يَقُولُ، فِي الْجَاهِلِيَّةِ اسْقِنَا كَأْسًا دِهَاقًا‏.‏",
+      "source_hash_sha256": "7494a914ea99e2820d15d3179cf19e54ba44a207418c8c58a1c2501c385ad43f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d5959ef1-d4bf-498b-a427-827c3fa463a6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3841",
+      "reference": "Sahih al-Bukhari, hadith 3841, book 63, باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "title": "باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ الْمَلِكِ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ أَصْدَقُ كَلِمَةٍ قَالَهَا الشَّاعِرُ كَلِمَةُ لَبِيدٍ أَلاَ كُلُّ شَىْءٍ مَا خَلاَ اللَّهَ بَاطِلٌ وَكَادَ أُمَيَّةُ بْنُ أَبِي الصَّلْتِ أَنْ يُسْلِمَ ‏\"‏‏.‏",
+      "source_hash_sha256": "39008ce7c3a32ebd255aba2c9a939726723f0d361c9f2d8ccba59aa53140ceab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Prophète a dit : « La parole la plus véridique jamais prononcée par un poète est celle de Labîd : “Tout est vain, excepté Dieu.” Et Umayya ibn Abî al-Salt a failli embrasser l’islam. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "73af0e52-6687-47bf-8f69-2b2639a5beb7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3842",
+      "reference": "Sahih al-Bukhari, hadith 3842, book 63, باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "title": "باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، حَدَّثَنِي أَخِي، عَنْ سُلَيْمَانَ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْقَاسِمِ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ لأَبِي بَكْرٍ غُلاَمٌ يُخْرِجُ لَهُ الْخَرَاجَ، وَكَانَ أَبُو بَكْرٍ يَأْكُلُ مِنْ خَرَاجِهِ، فَجَاءَ يَوْمًا بِشَىْءٍ فَأَكَلَ مِنْهُ أَبُو بَكْرٍ فَقَالَ لَهُ الْغُلاَمُ تَدْرِي مَا هَذَا فَقَالَ أَبُو بَكْرٍ وَمَا هُوَ قَالَ كُنْتُ تَكَهَّنْتُ لإِنْسَانٍ فِي الْجَاهِلِيَّةِ وَمَا أُحْسِنُ الْكِهَانَةَ، إِلاَّ أَنِّي خَدَعْتُهُ، فَلَقِيَنِي فَأَعْطَانِي بِذَلِكَ، فَهَذَا الَّذِي أَكَلْتَ مِنْهُ‏.‏ فَأَدْخَلَ أَبُو بَكْرٍ يَدَهُ فَقَاءَ كُلَّ شَىْءٍ فِي بَطْنِهِ‏.‏",
+      "source_hash_sha256": "59bfe59f3ac9345f243c12901d343fd6b07d4a912003c128b220b45097a691a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Â’isha rapporte qu’Abû Bakr avait un serviteur qui lui rapportait des revenus, dont il mangeait. Un jour, le serviteur lui apporta quelque chose et Abû Bakr en mangea. Le serviteur lui demanda : « Sais-tu ce que c’est ? » Abû Bakr répondit : « Qu’est-ce que c’est ? » Le serviteur dit : « À l’époque préislamique, j’ai pratiqué la divination pour un homme, sans savoir réellement la pratiquer ; je l’ai seulement trompé. Plus tard, il m’a rencontré et m’a donné ceci en paiement. Voilà ce que tu viens de manger. » Abû Bakr introduisit alors les doigts dans sa gorge et vomit tout ce qu’il avait dans le ventre.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7ef03cae-f61b-4a4e-9f85-e7ee171dad46",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3843",
+      "reference": "Sahih al-Bukhari, hadith 3843, book 63, باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "title": "باب أَيَّامِ الْجَاهِلِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ كَانَ أَهْلُ الْجَاهِلِيَّةِ يَتَبَايَعُونَ لُحُومَ الْجَزُورِ إِلَى حَبَلِ الْحَبَلَةِ، قَالَ وَحَبَلُ الْحَبَلَةِ أَنْ تُنْتَجَ النَّاقَةُ مَا فِي بَطْنِهَا، ثُمَّ تَحْمِلَ الَّتِي نُتِجَتْ، فَنَهَاهُمُ النَّبِيُّ صلى الله عليه وسلم عَنْ ذَلِكَ‏.‏",
+      "source_hash_sha256": "9e4452c9093cf48a233ab2a58f46d07eabd3598232ea14ec1517c024c4779bf5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn ‘Umar rapporte qu’à l’époque préislamique, les gens vendaient la viande d’une chamelle jusqu’à la naissance de la descendance de sa descendance. Il explique qu’il s’agissait d’attendre que la chamelle mette bas le petit qu’elle portait, puis que ce petit porte à son tour un petit. Le Prophète leur interdit cette vente.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "db78379c-14d7-4e88-9999-b3d69d2455f4",
+      "url": "https://sunnah.com/bukhari:3839",
+      "reason": "The report quotes Quran 78:34. No approved, attributed French Quran translation has been confirmed. The complete hadith is held blank rather than creating unapproved French Quran wording."
+    },
+    {
+      "source_id": "d9bff7ba-f04a-4c77-937d-646946204c14",
+      "url": "https://sunnah.com/bukhari:3840",
+      "reason": "The report repeats the Quranic wording كأسا دهاقا (Quran 78:34) in a pre-Islamic quotation. No approved, attributed French Quran translation has been confirmed. The complete hadith is held blank rather than creating unapproved French Quran wording."
+    }
+  ]
+}
