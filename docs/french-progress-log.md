@@ -3636,3 +3636,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-744` saves six private French drafts, including reports about the prayer after the Fossé and the expedition to Banû Qurayza.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,644 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 293. Total local hadith rows not drafted: 11,013, including held records.
+
+### 2026-10-29: Bukhari 4118–4123
+
+- `FR-LIB-HAD-BUKHARI-745` saves six private French drafts about the march to Banû Qurayza and the judgment given there.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,650 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 293. Total local hadith rows not drafted: 11,007, including held records.
