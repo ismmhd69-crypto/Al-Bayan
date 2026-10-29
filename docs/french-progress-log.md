@@ -11622,3 +11622,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1949-1952b
 
 - FR-LIB-HAD-MUSLIM-0915 saves six private French drafts about the desert lizard and locusts. The reports’ uncertainty and differing counts of expeditions are preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1952c-1954c
+
+- FR-LIB-HAD-MUSLIM-0916 saves five private French drafts about locusts, rabbit, and the practice of flicking small stones. The report’s uncertainty and wording differences are preserved. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
