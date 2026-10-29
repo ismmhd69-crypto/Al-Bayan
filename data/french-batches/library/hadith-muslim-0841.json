@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0841",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:57:19.363Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "57f6a239-bb0f-4418-8652-9fc57eae438b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1775b",
+      "reference": "Sahih Muslim, hadith 1775 b, book 32, باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "title": "باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَمُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، جَمِيعًا عَنْ عَبْدِ، الرَّزَّاقِ أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ نَحْوَهُ غَيْرَ أَنَّهُ قَالَ فَرْوَةُ بْنُ نُعَامَةَ الْجُذَامِيُّ ‏.‏ وَقَالَ ‏\"‏ انْهَزَمُوا وَرَبِّ الْكَعْبَةِ انْهَزَمُوا وَرَبِّ الْكَعْبَةِ ‏\"‏ ‏.‏ وَزَادَ فِي الْحَدِيثِ حَتَّى هَزَمَهُمُ اللَّهُ قَالَ وَكَأَنِّي أَنْظُرُ إِلَى النَّبِيِّ صلى الله عليه وسلم يَرْكُضُ خَلْفَهُمْ عَلَى بَغْلَتِهِ ‏.‏",
+      "source_hash_sha256": "68759551320ae76bf0404a28cc2bd548063de9bf4dd9ab25f892cec2febb8db8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq ibn Ibrâhîm, Muhammad ibn Râfi‘ et ‘Abd ibn Humayd nous ont rapporté, tous d’après ‘Abd al-Razzâq : Ma‘mar nous a informés, d’après Ibn Shihâb, par cette même chaîne. Cette version est semblable, sauf qu’elle nomme Firwa ibn Nu‘âma al-Judhâmî. Elle rapporte ces paroles : « Ils sont vaincus, par le Seigneur de la Ka‘ba ! Ils sont vaincus, par le Seigneur de la Ka‘ba ! » Elle ajoute : « jusqu’à ce qu’Allah les mette en déroute », puis : « Comme si je voyais le Prophète poursuivre les fuyards sur sa mule. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "285a7a6f-2c61-4742-969b-191744d43e45",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1775c",
+      "reference": "Sahih Muslim, hadith 1775 c, book 32, باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "title": "باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي كَثِيرُ، بْنُ الْعَبَّاسِ عَنْ أَبِيهِ، قَالَ كُنْتُ مَعَ النَّبِيِّ صلى الله عليه وسلم يَوْمَ حُنَيْنٍ ‏.‏ وَسَاقَ الْحَدِيثَ ‏.‏ غَيْرَ أَنَّ حَدِيثَ يُونُسَ وَحَدِيثَ مَعْمَرٍ أَكْثَرُ مِنْهُ وَأَتَمُّ ‏.‏",
+      "source_hash_sha256": "ef84394a193aa8977fab5f0f12ecdc2bcc184c4dac27c57990ee873d3f867220",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "97f6a0e2-baef-4d24-b06e-814d12787a9a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1776a",
+      "reference": "Sahih Muslim, hadith 1776 a, book 32, باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "title": "باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو خَيْثَمَةَ، عَنْ أَبِي إِسْحَاقَ، قَالَ قَالَ رَجُلٌ لِلْبَرَاءِ يَا أَبَا عُمَارَةَ أَفَرَرْتُمْ يَوْمَ حُنَيْنٍ قَالَ لاَ وَاللَّهِ مَا وَلَّى رَسُولُ اللَّهِ صلى الله عليه وسلم وَلَكِنَّهُ خَرَجَ شُبَّانُ أَصْحَابِهِ وَأَخِفَّاؤُهُمْ حُسَّرًا لَيْسَ عَلَيْهِمْ سِلاَحٌ أَوْ كَثِيرُ سِلاَحٍ فَلَقُوا قَوْمًا رُمَاةً لاَ يَكَادُ يَسْقُطُ لَهُمْ سَهْمٌ جَمْعَ هَوَازِنَ وَبَنِي نَصْرٍ فَرَشَقُوهُمْ رَشْقًا مَا يَكَادُونَ يُخْطِئُونَ فَأَقْبَلُوا هُنَاكَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم وَرَسُولُ اللَّهِ صلى الله عليه وسلم عَلَى بَغْلَتِهِ الْبَيْضَاءِ وَأَبُو سُفْيَانَ بْنُ الْحَارِثِ بْنِ عَبْدِ الْمُطَّلِبِ يَقُودُ بِهِ فَنَزَلَ فَاسْتَنْصَرَ وَقَالَ ‏\"‏ أَنَا النَّبِيُّ لاَ كَذِبْ أَنَا ابْنُ عَبْدِ الْمُطَّلِبْ ‏\"‏ ‏.‏ ثُمَّ صَفَّهُمْ ‏.‏",
+      "source_hash_sha256": "95771705716a6ec7a0259bf162f360650ea9183c9d7186ee96f99c14759f0264",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ nous a rapporté : Abû Khaythama nous a informés, d’après Abû Ishâq, qui a dit : Un homme demanda à al-Barâ’ : « Ô Abû ‘Umâra, avez-vous fui le jour de Hunayn ? » Il répondit : « Non, par Allah ! Le Messager d’Allah, lui, ne s’est pas retiré. Mais de jeunes compagnons, légers et peu équipés, sortirent à sa rencontre, sans armes ou avec peu d’armes. Ils affrontèrent des archers qui manquaient rarement leur cible : les forces de Hawâzin et des Banû Nasr. Ils les criblèrent de flèches, presque sans en manquer une. Ces hommes revinrent alors vers le Messager d’Allah, qui était sur sa mule blanche, conduite par Abû Sufyân ibn al-Hârith ibn ‘Abd al-Muttalib. Le Prophète descendit, implora le secours et dit : “Je suis le Prophète, cela n’est pas mensonge ; je suis le fils de ‘Abd al-Muttalib.” Puis il les rangea en formation. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6c826b32-6c07-48c7-950a-7e28521cff11",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1776b",
+      "reference": "Sahih Muslim, hadith 1776 b, book 32, باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "title": "باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ جَنَابٍ الْمِصِّيصِيُّ، حَدَّثَنَا عِيسَى بْنُ يُونُسَ، عَنْ زَكَرِيَّاءَ، عَنْ أَبِي، إِسْحَاقَ قَالَ جَاءَ رَجُلٌ إِلَى الْبَرَاءِ فَقَالَ أَكُنْتُمْ وَلَّيْتُمْ يَوْمَ حُنَيْنٍ يَا أَبَا عُمَارَةَ فَقَالَ أَشْهَدُ عَلَى نَبِيِّ اللَّهِ صلى الله عليه وسلم مَا وَلَّى وَلَكِنَّهُ انْطَلَقَ أَخِفَّاءُ مِنَ النَّاسِ وَحُسَّرٌ إِلَى هَذَا الْحَىِّ مِنْ هَوَازِنَ وَهُمْ قَوْمٌ رُمَاةٌ فَرَمَوْهُمْ بِرِشْقٍ مِنْ نَبْلٍ كَأَنَّهَا رِجْلٌ مِنْ جَرَادٍ فَانْكَشَفُوا فَأَقْبَلَ الْقَوْمُ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم وَأَبُو سُفْيَانَ بْنُ الْحَارِثِ يَقُودُ بِهِ بَغْلَتَهُ فَنَزَلَ وَدَعَا وَاسْتَنْصَرَ وَهُوَ يَقُولُ ‏\"‏ أَنَا النَّبِيُّ لاَ كَذِبْ أَنَا ابْنُ عَبْدِ الْمُطَّلِبْ اللَّهُمَّ نَزِّلْ نَصْرَكَ ‏\"‏ ‏.‏ قَالَ الْبَرَاءُ كُنَّا وَاللَّهِ إِذَا احْمَرَّ الْبَأْسُ نَتَّقِي بِهِ وَإِنَّ الشُّجَاعَ مِنَّا لَلَّذِي يُحَاذِي بِهِ ‏.‏ يَعْنِي النَّبِيَّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "c85ae9a1afb39c48b8874d2aa98267cc3911de6359a5b26d29c01683d7d9b77e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Janâb al-Missîsî nous a rapporté : ‘Îsâ ibn Yûnus nous a rapporté, d’après Zakariyyâ, d’après Abû Ishâq, qui a dit : Un homme vint trouver al-Barâ’ et lui demanda : « Avez-vous battu en retraite le jour de Hunayn, ô Abû ‘Umâra ? » Il répondit : « J’atteste que le Prophète d’Allah, lui, ne s’est pas retiré. Mais des gens peu équipés et épuisés partirent à la rencontre de cette tribu de Hawâzin ; c’étaient des archers. Ils leur tirèrent une volée de flèches, comme une nuée de sauterelles, et les mirent en fuite. Le groupe revint alors vers le Messager d’Allah, tandis qu’Abû Sufyân ibn al-Hârith conduisait sa mule. Il descendit, invoqua Allah et demanda Son secours, en disant : “Je suis le Prophète, cela n’est pas mensonge ; je suis le fils de ‘Abd al-Muttalib. Ô Allah, fais descendre Ton secours !” Al-Barâ’ dit : “Par Allah, lorsque le combat devenait acharné, nous nous abritions derrière lui. Le plus brave d’entre nous était celui qui se tenait face à lui” — c’est-à-dire le Prophète.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bdc37ac0-22a1-4b3d-83d9-1f8245fde1a5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1776c",
+      "reference": "Sahih Muslim, hadith 1776 c, book 32, باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "title": "باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا مُحَمَّدُ، بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، قَالَ سَمِعْتُ الْبَرَاءَ، وَسَأَلَهُ، رَجُلٌ مِنْ قَيْسٍ أَفَرَرْتُمْ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم يَوْمَ حُنَيْنٍ فَقَالَ الْبَرَاءُ وَلَكِنْ رَسُولُ اللَّهِ صلى الله عليه وسلم لَمْ يَفِرَّ وَكَانَتْ هَوَازِنُ يَوْمَئِذٍ رُمَاةً وَإِنَّا لَمَّا حَمَلْنَا عَلَيْهِمُ انْكَشَفُوا فَأَكْبَبْنَا عَلَى الْغَنَائِمِ فَاسْتَقْبَلُونَا بِالسِّهَامِ وَلَقَدْ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَلَى بَغْلَتِهِ الْبَيْضَاءِ وَإِنَّ أَبَا سُفْيَانَ بْنَ الْحَارِثِ آخِذٌ بِلِجَامِهَا وَهُوَ يَقُولُ ‏\"‏ أَنَا النَّبِيُّ لاَ كَذِبْ أَنَا ابْنُ عَبْدِ الْمُطَّلِبْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4b5e1aa7f36919d493a06c0e7de2c6dc4fd1c487fb2c47583122e1d86e84bd15",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthannâ et Ibn Bashshâr nous ont rapporté — la formulation étant celle d’Ibn al-Muthannâ — : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Abû Ishâq, qui a dit : J’ai entendu al-Barâ’ alors qu’un homme de Qays lui demandait : « Avez-vous fui en abandonnant le Messager d’Allah le jour de Hunayn ? » Al-Barâ’ répondit : « Le Messager d’Allah, lui, n’a pas fui. Ce jour-là, les Hawâzin étaient des archers. Lorsque nous les avons chargés, ils se sont dispersés. Nous nous sommes alors précipités sur le butin, mais ils nous ont accueillis par des flèches. J’ai vu le Messager d’Allah sur sa mule blanche, tandis qu’Abû Sufyân ibn al-Hârith en tenait la bride. Il disait : “Je suis le Prophète, cela n’est pas mensonge ; je suis le fils de ‘Abd al-Muttalib.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "297aed09-141d-4806-bfeb-4e150189ed69",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1776d",
+      "reference": "Sahih Muslim, hadith 1776 d, book 32, باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "title": "باب فِي غَزْوَةِ حُنَيْنٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَأَبُو بَكْرِ بْنُ خَلاَّدٍ قَالُوا حَدَّثَنَا يَحْيَى، بْنُ سَعِيدٍ عَنْ سُفْيَانَ، قَالَ حَدَّثَنِي أَبُو إِسْحَاقَ، عَنِ الْبَرَاءِ، قَالَ قَالَ لَهُ رَجُلٌ يَا أَبَا عُمَارَةَ ‏.‏ فَذَكَرَ الْحَدِيثَ وَهُوَ أَقَلُّ مِنْ حَدِيثِهِمْ وَهَؤُلاَءِ أَتَمُّ حَدِيثًا ‏.‏",
+      "source_hash_sha256": "5fd37e95acf88d4049bc52633b4b9c4f8dd4ad4c6e8d18ddf3027b016aa8e080",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "285a7a6f-2c61-4742-969b-191744d43e45",
+      "reason": "Cette entrée donne une chaîne de transmission, renvoie au récit précédent et précise seulement que les versions de Yûnus et de Ma‘mar sont plus longues et plus complètes. Elle ne reproduit aucun contenu distinct à traduire. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "297aed09-141d-4806-bfeb-4e150189ed69",
+      "reason": "Cette entrée donne une chaîne de transmission, renvoie au récit précédent et indique seulement que cette version est plus courte. Elle ne reproduit aucun contenu distinct à traduire. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    }
+  ]
+}

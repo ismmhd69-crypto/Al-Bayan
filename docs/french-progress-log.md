@@ -11322,3 +11322,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1775a
 
 - FR-LIB-HAD-MUSLIM-0840 saves one private French draft of the complete report about Hunayn. It preserves the chain, the sequence of the battle, the calls to the Companions of the Acacia and the Ansâr, and ‘Abbâs’s observations. No Quran quotation appears in this source entry. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1775b-1776d
+
+- FR-LIB-HAD-MUSLIM-0841 saves four private French drafts of distinctive reports about Hunayn. Two entries that only refer back to fuller accounts remain blank under Needs Mo with specific reasons. No Quran quotation appears in these entries. No database write or publication occurred.
