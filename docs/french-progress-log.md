@@ -9721,3 +9721,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0518 saves six private French drafts about the Prophet’s stay at Dhul Hulayfa and Aisha’s reports of applying perfume before pilgrimage rites. All six sources provide complete report text.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1189f–1190c
+
+- FR-LIB-HAD-MUSLIM-0519 saves six private French drafts about Aisha’s reports of applying perfume for pilgrimage consecration and the visible traces of perfume in the Prophet’s hair. All six reports provide complete source text.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
