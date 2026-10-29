@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0700",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:54:02.306Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8bd98b66-a49e-4a52-8082-eb9445c9cfc1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1521",
+      "reference": "Sahih Muslim, hadith 1521, book 21, باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تُتَلَقَّى الرُّكْبَانُ وَأَنْ يَبِيعَ حَاضِرٌ لِبَادٍ ‏.‏ قَالَ فَقُلْتُ لاِبْنِ عَبَّاسٍ مَا قَوْلُهُ حَاضِرٌ لِبَادٍ قَالَ لاَ يَكُنْ لَهُ سِمْسَارًا.",
+      "source_hash_sha256": "0e7dc067a2bc457ada5a6de2cba4a9d02f723522ad5408c78346b33cb6e25b74",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim et Abd ibn Humayd nous ont rapporté : Abd al-Razzaq nous a rapporté : Ma‘mar nous a informés, d’après Ibn Tawus, d’après son père, d’après Ibn Abbas, qui dit : « Le Messager d’Allah a interdit d’aller à la rencontre des caravanes et qu’un citadin vende pour un bédouin. » Je demandai à Ibn Abbas : « Que signifie “un citadin pour un bédouin” ? » Il répondit : « Qu’il ne soit pas son courtier. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "de8a1ecf-2b00-430f-bbc0-3684182872a8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1522a",
+      "reference": "Sahih Muslim, hadith 1522 a, book 21, باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، أَخْبَرَنَا أَبُو خَيْثَمَةَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، ح. وَحَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا أَبُو الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَبِعْ حَاضِرٌ لِبَادٍ دَعُوا النَّاسَ يَرْزُقِ اللَّهُ بَعْضَهُمْ مِنْ بَعْضٍ‏\"‏ ‏.‏ غَيْرَ أَنَّ فِي رِوَايَةِ يَحْيَى ‏\"‏ يُرْزَقُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d0b865255cfa268468e203814497e3d8fee2d46d59889f1966bbc5fd638b086c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya al-Tamimi nous a rapporté : Abu Khaythama nous a informés, d’après Abu al-Zubayr, d’après Jabir. Ahmad ibn Yunus nous a également rapporté : Zuhayr nous a rapporté : Abu al-Zubayr nous a rapporté, d’après Jabir, qui dit que le Messager d’Allah a dit : « Qu’un citadin ne vende pas pour un bédouin. Laissez les gens recevoir leur subsistance les uns des autres. » La version de Yahya dit : « qu’ils reçoivent leur subsistance. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a101a6e7-0bf4-484f-a3d8-a155fc9ce0e6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1522b",
+      "reference": "Sahih Muslim, hadith 1522 b, book 21, باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "884d5414986d5a6cc513afc258c688f5e9dcf734d72066d8ed17dab3bb2b00ed",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f6a7fa59-1659-4488-8a80-e411f9aa0d1f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1523a",
+      "reference": "Sahih Muslim, hadith 1523 a, book 21, باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ يُونُسَ، عَنِ ابْنِ سِيرِينَ، عَنْ أَنَسِ، بْنِ مَالِكٍ قَالَ نُهِينَا أَنْ يَبِيعَ، حَاضِرٌ لِبَادٍ ‏.‏ وَإِنْ كَانَ أَخَاهُ أَوْ أَبَاهُ ‏.‏",
+      "source_hash_sha256": "53fa5ccb9e016b2d4c42b423f2ce2653d4ce1d87da5363bf5e7584cfd3da2836",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Hushaym nous a informés, d’après Yunus, d’après Ibn Sirin, d’après Anas ibn Malik, qui dit : « Il nous a été interdit qu’un citadin vende pour un bédouin, même s’il s’agit de son frère ou de son père. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "48eb6370-d390-4a2f-bb41-1ffffd26ba6a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1523b",
+      "reference": "Sahih Muslim, hadith 1523 b, book 21, باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "title": "باب تَحْرِيمِ بَيْعِ الْحَاضِرِ لِلْبَادِي ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنِ ابْنِ عَوْنٍ، عَنْ مُحَمَّدٍ، عَنْ أَنَسٍ،ح ‏.‏ وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا مُعَاذٌ، حَدَّثَنَا ابْنُ عَوْنٍ، عَنْ مُحَمَّدٍ، قَالَ قَالَ أَنَسُ بْنُ مَالِكٍ نُهِينَا عَنْ أَنْ يَبِيعَ حَاضِرٌ لِبَادٍ ‏.‏",
+      "source_hash_sha256": "7d2f57c1ca4c13f58769e6ab0e5c68266ced66a8f895b65ebb85383ff45ad8dc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Ibn Abi Adi nous a rapporté, d’après Ibn Awn, d’après Muhammad, d’après Anas. Muhammad ibn al-Muthanna nous a également rapporté : Muadh nous a rapporté : Ibn Awn nous a rapporté, d’après Muhammad, qui dit qu’Anas ibn Malik a déclaré : « Il nous a été interdit qu’un citadin vende pour un bédouin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c33a6083-61cb-4fc1-84b0-98ea3e591ac6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1524a",
+      "reference": "Sahih Muslim, hadith 1524 a, book 21, باب حُكْمِ بَيْعِ الْمُصَرَّاةِ ‏‏",
+      "title": "باب حُكْمِ بَيْعِ الْمُصَرَّاةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا دَاوُدُ بْنُ قَيْسٍ، عَنْ مُوسَى بْنِ يَسَارٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنِ اشْتَرَى شَاةً مُصَرَّاةً فَلْيَنْقَلِبْ بِهَا فَلْيَحْلُبْهَا فَإِنْ رَضِيَ حِلاَبَهَا أَمْسَكَهَا وَإِلاَّ رَدَّهَا وَمَعَهَا صَاعٌ مِنْ تَمْرٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "212d75da55797383797e4c5dfec99affb16426a1b83de6923f8de29ae30bb682",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Maslama ibn Qa‘nab nous a rapporté : Dawud ibn Qays nous a rapporté, d’après Musa ibn Yasar, d’après Abu Hurayra, qui dit que le Messager d’Allah a dit : « Celui qui achète une brebis dont on a retenu le lait doit la ramener chez lui et la traire. S’il est satisfait de la quantité de lait, il la garde ; sinon, il la rend avec un saa de dattes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a101a6e7-0bf4-484f-a3d8-a155fc9ce0e6",
+      "reason": "Cette entrée renvoie seulement au récit précédent sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
