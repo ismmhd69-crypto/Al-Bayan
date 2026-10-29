@@ -37694,6 +37694,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0420",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0420.json",
+      "sourceIds": [
+        "80f9b5f0-c8c3-4906-b0d0-b276d900ca24",
+        "9175697d-21ca-4fca-9140-8f20bf9fc74a",
+        "bfcd0d42-d85d-4ade-9c2f-a46567119d8d",
+        "123a1e8b-d69a-4959-b3e2-ce5ff852dd64",
+        "70398ce3-7381-42fc-99b2-e58d63a09b5e",
+        "d12e802a-dcf1-4aea-81a6-f99101b8ebe3"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one truncated source held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42001,8 +42022,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7989,
-  "hadithLocalRemaining": 6640,
+  "hadithLocalDrafted": 7994,
+  "hadithLocalRemaining": 6635,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -44824,10 +44845,15 @@
       "source_id": "15104999-cd11-4788-9118-4818b13b1b93",
       "reason": "La source ne reprend que la chaîne et indique « de la même manière », en renvoyant au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "9175697d-21ca-4fca-9140-8f20bf9fc74a",
+      "reason": "Le texte source s’interrompt au milieu de la phrase après « pour chaque… ». Garder toute la traduction française vide jusqu’à vérification du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1653,
+  "hadithMuslimDrafted": 1658,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 776
+  "hadithNeedsMo": 777
 }

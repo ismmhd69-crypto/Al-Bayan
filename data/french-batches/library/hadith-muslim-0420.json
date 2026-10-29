@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0420",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:05:47.416Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "80f9b5f0-c8c3-4906-b0d0-b276d900ca24",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:984a",
+      "reference": "Sahih Muslim, hadith 984 a, book 12, باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "title": "باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، قَالاَ حَدَّثَنَا مَالِكٌ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ عَنِ ابْنِ عُمَرَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم فَرَضَ زَكَاةَ الْفِطْرِ مِنْ رَمَضَانَ عَلَى النَّاسِ صَاعًا مِنْ تَمْرٍ أَوْ صَاعًا مِنْ شَعِيرٍ عَلَى كُلِّ حُرٍّ أَوْ عَبْدٍ ذَكَرٍ أَوْ أُنْثَى مِنَ الْمُسْلِمِينَ ‏.‏",
+      "source_hash_sha256": "7186a2b4046641cc59fe7825c3be7b21f426574b6a028c3e7b710743028540ef",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Maslama ibn Qa‘nab et Qutayba ibn Sa‘id nous ont rapporté : Malik nous a rapporté. Yahya ibn Yahya nous a également rapporté — la formulation est la sienne — : J’ai récité devant Malik, d’après Nafi‘, d’après Ibn ‘Umar, que le Messager d’Allah ﷺ a prescrit l’aumône de la rupture du jeûne de Ramadan : un sa‘ de dattes ou un sa‘ d’orge, pour chaque musulman, libre ou esclave, homme ou femme.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9175697d-21ca-4fca-9140-8f20bf9fc74a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:984b",
+      "reference": "Sahih Muslim, hadith 984 b, book 12, باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "title": "باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، - وَاللَّفْظُ لَهُ - قَالَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، وَأَبُو أُسَامَةَ عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ فَرَضَ رَسُولُ اللَّهِ صلى الله عليه وسلم زَكَاةَ الْفِطْرِ صَاعًا مِنْ تَمْرٍ أَوْ صَاعًا مِنْ شَعِيرٍ عَلَى كُلِّ",
+      "source_hash_sha256": "b1a140f5149b410746497f75980c212af6bb60c8674059dc5fb56d462ffc9a50",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bfcd0d42-d85d-4ade-9c2f-a46567119d8d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:984c",
+      "reference": "Sahih Muslim, hadith 984 c, book 12, باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "title": "باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا يَزِيدُ بْنُ زُرَيْعٍ، عَنْ أَيُّوبَ، عَنْ نَافِعٍ، عَنِ ابْنِ، عُمَرَ قَالَ فَرَضَ النَّبِيُّ صلى الله عليه وسلم صَدَقَةَ رَمَضَانَ عَلَى الْحُرِّ وَالْعَبْدِ وَالذَّكَرِ وَالأُنْثَى صَاعًا مِنْ تَمْرٍ أَوْ صَاعًا مِنْ شَعِيرٍ ‏.‏ قَالَ فَعَدَلَ النَّاسُ بِهِ نِصْفَ صَاعٍ مِنْ بُرٍّ ‏.‏",
+      "source_hash_sha256": "0eb55f4c6fe5c54810b00650c54c4755f3410e557aeb351b5f322f343986102a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Yazid ibn Zuray‘ nous a informés, d’après Ayyub, d’après Nafi‘, d’après Ibn ‘Umar, qui a dit : Le Prophète ﷺ a prescrit l’aumône de Ramadan pour les personnes libres et les esclaves, les hommes et les femmes, à raison d’un sa‘ de dattes ou d’un sa‘ d’orge. Les gens ont alors considéré qu’un demi-sa‘ de blé en était l’équivalent.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "123a1e8b-d69a-4959-b3e2-ce5ff852dd64",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:984d",
+      "reference": "Sahih Muslim, hadith 984 d, book 12, باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "title": "باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ نَافِعٍ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، قَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَمَرَ بِزَكَاةِ الْفِطْرِ صَاعٍ مِنْ تَمْرٍ أَوْ صَاعٍ مِنْ شَعِيرٍ ‏.‏ قَالَ ابْنُ عُمَرَ فَجَعَلَ النَّاسُ عِدْلَهُ مُدَّيْنِ مِنْ حِنْطَةٍ ‏.‏",
+      "source_hash_sha256": "def38e8cefe12109c391661518b05875c17995c723fab66cdb402d76a5d93f15",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Layth nous a rapporté. Muhammad ibn Rumh nous a également rapporté : Layth nous a informés, d’après Nafi‘, qu’‘Abd Allah ibn ‘Umar a dit : Le Messager d’Allah ﷺ a ordonné l’aumône de la rupture du jeûne à raison d’un sa‘ de dattes ou d’un sa‘ d’orge. Ibn ‘Umar a dit : Les gens ont fixé comme équivalent deux mudd de blé.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "70398ce3-7381-42fc-99b2-e58d63a09b5e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:984e",
+      "reference": "Sahih Muslim, hadith 984 e, book 12, باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "title": "باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، أَخْبَرَنَا الضَّحَّاكُ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم فَرَضَ زَكَاةَ الْفِطْرِ مِنْ رَمَضَانَ عَلَى كُلِّ نَفْسٍ مِنَ الْمُسْلِمِينَ حُرٍّ أَوْ عَبْدٍ أَوْ رَجُلٍ أَوِ امْرَأَةٍ صَغِيرٍ أَوْ كَبِيرٍ صَاعًا مِنْ تَمْرٍ أَوْ صَاعًا مِنْ شَعِيرٍ ‏.‏",
+      "source_hash_sha256": "97b7f54a4b41c5477de7613a7c574688d318ab39ba01b49197c871331aa9a07a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi‘ nous a rapporté : Ibn Abi Fudayk nous a rapporté : al-Dahhak nous a informés, d’après Nafi‘, d’après ‘Abd Allah ibn ‘Umar, que le Messager d’Allah ﷺ a prescrit l’aumône de la rupture du jeûne de Ramadan pour chaque musulman — libre ou esclave, homme ou femme, jeune ou âgé — à raison d’un sa‘ de dattes ou d’un sa‘ d’orge.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d12e802a-dcf1-4aea-81a6-f99101b8ebe3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:985a",
+      "reference": "Sahih Muslim, hadith 985 a, book 12, باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "title": "باب زَكَاةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ مِنَ التَّمْرِ وَالشَّعِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عِيَاضِ بْنِ، عَبْدِ اللَّهِ بْنِ سَعْدِ بْنِ أَبِي سَرْحٍ أَنَّهُ سَمِعَ أَبَا سَعِيدٍ الْخُدْرِيَّ، يَقُولُ كُنَّا نُخْرِجُ زَكَاةَ الْفِطْرِ صَاعًا مِنْ طَعَامٍ أَوْ صَاعًا مِنْ شَعِيرٍ أَوْ صَاعًا مِنْ تَمْرٍ أَوْ صَاعًا مِنْ أَقِطٍ أَوْ صَاعًا مِنْ زَبِيبٍ ‏.‏",
+      "source_hash_sha256": "70806efd3f2afa36e02903c28ab1b655994659253836b28eae8400e47d13c42c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : J’ai récité devant Malik, d’après Zayd ibn Aslam, d’après ‘Iyad ibn ‘Abd Allah ibn Sa‘d ibn Abi Sarh, qui a entendu Abu Sa‘id al-Khudri dire : « Nous donnions l’aumône de la rupture du jeûne à raison d’un sa‘ de nourriture, ou d’un sa‘ d’orge, ou d’un sa‘ de dattes, ou d’un sa‘ de fromage séché, ou d’un sa‘ de raisins secs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "9175697d-21ca-4fca-9140-8f20bf9fc74a",
+      "reason": "Le texte source s’interrompt au milieu de la phrase après « pour chaque… ». Garder toute la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    }
+  ]
+}

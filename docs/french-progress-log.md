@@ -9226,3 +9226,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0419 saves five private French drafts on agricultural zakat, livestock, and zakat collection. Muslim 982c is an incomplete cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1653 Muslim drafts, 7989 total hadith drafts, 6640 remaining, and 776 Needs Mo items.
+
+### 2026-10-29: Muslim 984a–985a
+
+- FR-LIB-HAD-MUSLIM-0420 saves five private French drafts on zakat al-fitr. Muslim 984b is truncated mid-sentence and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1658 Muslim drafts, 7994 total hadith drafts, 6635 remaining, and 777 Needs Mo items.
