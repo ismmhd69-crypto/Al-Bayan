@@ -40028,6 +40028,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0533",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0533.json",
+      "sourceIds": [
+        "b5c7c0ea-7f1b-4f86-bd8e-f3ac158937f1",
+        "a7832207-694d-451e-b996-8167f0cd3a68",
+        "54c29fa7-019c-4140-b690-75736ffa702e",
+        "5eafcaba-9a48-4e17-a91e-dd8c5935429f",
+        "056c05e9-dbfd-4089-be8e-31105fd36204",
+        "e83adca7-9944-4a71-8bbb-02c896474467"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; source hashes and IDs preserved; four private unpublished drafts; two incomplete cross-references held blank under Needs Mo; rights flags and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44335,8 +44356,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8448,
-  "hadithLocalRemaining": 6181,
+  "hadithLocalDrafted": 8452,
+  "hadithLocalRemaining": 6177,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -47658,10 +47679,20 @@
       "source_id": "0ee900e8-8832-4731-878d-8775fcefd941",
       "reason": "La source indique seulement que le récit est identique au précédent et ne reprend pas son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "056c05e9-dbfd-4089-be8e-31105fd36204",
+      "reason": "La source ne rapporte qu’une version partielle et renvoie à la version d’Abda sans reprendre son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du récit intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "e83adca7-9944-4a71-8bbb-02c896474467",
+      "reason": "La source ne rapporte qu’une version partielle et renvoie à la version d’Abda sans reprendre son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du récit intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2112,
+  "hadithMuslimDrafted": 2116,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 957
+  "hadithNeedsMo": 959
 }

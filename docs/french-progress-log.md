@@ -9791,3 +9791,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0532 saves six private French drafts about Duba’a’s conditional Hajj and Asma bint Umays entering ihram after childbirth, followed by Safiyya’s farewell circumambulation.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1211b–1211g
+
+- FR-LIB-HAD-MUSLIM-0533 saves four private French drafts about Aisha’s Hajj and omra during the Farewell Pilgrimage. Muslim 1211f–g refer back to a longer account without reproducing it; both remain blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
