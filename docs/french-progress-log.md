@@ -1241,3 +1241,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-261` saves six private French drafts for Bukhari 1495–1500. They preserve the repeated distinction between charity and a gift, Mu‘adh’s instructions, the abbreviated account of the loan repaid through the wooden log, and the collector’s accounting. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,370 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,259, including held records.
+
+### 2026-10-29: Bukhari 1501–1506 source review
+
+- `FR-LIB-HAD-BUKHARI-262` saves six private French drafts for Bukhari 1501–1506. They preserve the full account concerning the Urayna group, the marking of zakat camels, and the stated amounts and forms of zakat al-fitr. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,376 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,253, including held records.
