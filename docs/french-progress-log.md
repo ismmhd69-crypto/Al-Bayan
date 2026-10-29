@@ -9046,3 +9046,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0383 saves three private French drafts about clouds and wind, the support given by the east wind, and the eclipse prayer. Muslim 900b and 901b only refer to earlier reports and remain blank under Needs Mo.
 - All five source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1519 Muslim drafts, 7855 total hadith drafts, 6774 remaining, and 722 Needs Mo items.
+
+### 2026-10-29: Muslim 901c (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0384 saves one private French draft of the full eclipse-prayer report. Its Arabic source is 2027 characters, so it was kept alone in this batch.
+- The source hash and variants are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1520 Muslim drafts, 7856 total hadith drafts, 6773 remaining, and 722 Needs Mo items.
