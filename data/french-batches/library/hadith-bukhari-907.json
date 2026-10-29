@@ -1,0 +1,185 @@
+{
+  "batch_id": "HADITH-BUKHARI-907",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:43:15.294Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "bd703ba6-0f1e-4706-8534-7350986f8e73",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4954",
+      "reference": "Sahih al-Bukhari, hadith 4954, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "قَالَ مُحَمَّدُ بْنُ شِهَابٍ فَأَخْبَرَنِي أَبُو سَلَمَةَ، أَنَّ جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيِّ ـ رضى الله عنهما ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَهْوَ يُحَدِّثُ عَنْ فَتْرَةِ الْوَحْىِ قَالَ فِي حَدِيثِهِ ‏\"‏ بَيْنَا أَنَا أَمْشِي سَمِعْتُ صَوْتًا مِنَ السَّمَاءِ فَرَفَعْتُ بَصَرِي، فَإِذَا الْمَلَكُ الَّذِي جَاءَنِي بِحِرَاءٍ جَالِسٌ عَلَى كُرْسِيٍّ بَيْنَ السَّمَاءِ وَالأَرْضِ فَفَرِقْتُ مِنْهُ فَرَجَعْتُ فَقُلْتُ زَمِّلُونِي زَمِّلُونِي ‏\"‏‏.‏ فَدَثَّرُوهُ فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"74\" aya_start=\"1\" aya_end=\"5\"]{‏يَا أَيُّهَا الْمُدَّثِّرُ * قُمْ فَأَنْذِرْ * وَرَبَّكَ فَكَبِّرْ * وَثِيَابَكَ فَطَهِّرْ * وَالرِّجْزَ فَاهْجُرْ‏}‏‏.‏ قَالَ أَبُو سَلَمَةَ وَهْىَ الأَوْثَانُ الَّتِي كَانَ أَهْلُ الْجَاهِلِيَّةِ يَعْبُدُونَ‏.‏ قَالَ ثُمَّ تَتَابَعَ الْوَحْىُ‏.‏",
+      "source_hash_sha256": "b04609db053fd1637ca0eb97388907ad7506f224fcf547bbcf489ba4f03a76d1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cc400838-7570-4c11-9185-8aa59453ae55",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4955",
+      "reference": "Sahih al-Bukhari, hadith 4955, book 65, باب قَوْلِهِ ‏ {‏خَلَقَ الإِنْسَانَ مِنْ عَلَقٍ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏خَلَقَ الإِنْسَانَ مِنْ عَلَقٍ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، أَنَّ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ أَوَّلُ مَا بُدِئَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم الرُّؤْيَا الصَّالِحَةُ فَجَاءَهُ الْمَلَكُ فَقَالَ ‏[quran sura=\"96\" aya_start=\"1\" aya_end=\"3\"]{‏اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ * خَلَقَ الإِنْسَانَ مِنْ عَلَقٍ * اقْرَأْ وَرَبُّكَ الأَكْرَمُ‏}‏",
+      "source_hash_sha256": "f43e7aaac3b45ec511f51b6aec47fe84a35ce1175d9e1025ebac24dfd24c5f44",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "497b4775-d234-44c1-b4cd-c390c7d49f3a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4956",
+      "reference": "Sahih al-Bukhari, hadith 4956, book 65, باب قَوْلِهِ ‏ {‏اقْرَأْ وَرَبُّكَ الأَكْرَمُ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏اقْرَأْ وَرَبُّكَ الأَكْرَمُ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، ح وَقَالَ اللَّيْثُ حَدَّثَنِي عُقَيْلٌ، قَالَ مُحَمَّدُ أَخْبَرَنِي عُرْوَةُ، عَنْ عَائِشَةَ ـ رضى الله عنها‏.‏ أَوَّلُ مَا بُدِئَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم الرُّؤْيَا الصَّادِقَةُ جَاءَهُ الْمَلَكُ فَقَالَ ‏[quran sura=\"96\" aya_start=\"1\" aya_end=\"4\"]{‏اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ * خَلَقَ الإِنْسَانَ مِنْ عَلَقٍ * اقْرَأْ وَرَبُّكَ الأَكْرَمُ * الَّذِي عَلَّمَ بِالْقَلَمِ‏}‏",
+      "source_hash_sha256": "6bdeb0de639129547f51d1721e1a3c067110ed0d638eb73f6c01839a82b9f991",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "69839204-6fb5-4010-a9e7-69cac3f54558",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4957",
+      "reference": "Sahih al-Bukhari, hadith 4957, book 65, باب ‏ {‏الَّذِي عَلَّمَ بِالْقَلَمِ‏} ‏",
+      "title": "باب ‏ {‏الَّذِي عَلَّمَ بِالْقَلَمِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، قَالَ سَمِعْتُ عُرْوَةَ، قَالَتْ عَائِشَةُ ـ رضى الله عنها ـ فَرَجَعَ النَّبِيُّ صلى الله عليه وسلم إِلَى خَدِيجَةَ فَقَالَ ‏\"‏ زَمِّلُونِي زَمِّلُونِي ‏\"‏‏.‏ فَذَكَرَ الْحَدِيثَ",
+      "source_hash_sha256": "2c701128254a9fd31f53b537a7bef57dcf62af49a7efee399bd14ef99d6df74e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90ec1012-69e5-41a0-ad8b-85aa2c1ef3cc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4958",
+      "reference": "Sahih al-Bukhari, hadith 4958, book 65, باب ‏ {‏كَلاَّ لَئِنْ لَمْ يَنْتَهِ لَنَسْفَعَنْ بِالنَّاصِيَةِ * نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ‏} ‏",
+      "title": "باب ‏ {‏كَلاَّ لَئِنْ لَمْ يَنْتَهِ لَنَسْفَعَنْ بِالنَّاصِيَةِ * نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنْ عَبْدِ الْكَرِيمِ الْجَزَرِيِّ، عَنْ عِكْرِمَةَ، قَالَ ابْنُ عَبَّاسٍ قَالَ أَبُو جَهْلٍ لَئِنْ رَأَيْتُ مُحَمَّدًا يُصَلِّي عِنْدَ الْكَعْبَةِ لأَطَأَنَّ عَلَى عُنُقِهِ‏.‏ فَبَلَغَ النَّبِيَّ صلى الله عليه وسلم فَقَالَ ‏\"‏ لَوْ فَعَلَهُ لأَخَذَتْهُ الْمَلاَئِكَةُ ‏\"‏‏.‏ تَابَعَهُ عَمْرُو بْنُ خَالِدٍ عَنْ عُبَيْدِ اللَّهِ عَنْ عَبْدِ الْكَرِيمِ‏.‏",
+      "source_hash_sha256": "7605f9e4701bc29e1adeefa60f89b6e1e32f57f25aaf3a9215a6c06487b4be6c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbâs rapporte qu’Abû Jahl dit : « Si je vois Muḥammad prier près de la Kaʿba, je lui écraserai le cou. » Lorsque cela parvint au Prophète (paix et bénédictions sur lui), il dit : « S’il le faisait, les anges le saisiraient. » Cette version est également rapportée par ʿAmr ibn Khâlid, d’après ʿUbayd Allâh, d’après ʿAbd al-Karîm.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8dcdd9cf-2ac7-47dd-924b-c3e032a04ccc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4959",
+      "reference": "Sahih al-Bukhari, hadith 4959, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، سَمِعْتُ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ قَالَ النَّبِيُّ صلى الله عليه وسلم لأُبَىٍّ‏.‏ ‏\"‏ إِنَّ اللَّهَ أَمَرَنِي أَنْ أَقْرَأَ عَلَيْكَ ‏[quran sura=\"98\" aya_start=\"1\" aya_end=\"1\"]{‏لَمْ يَكُنِ الَّذِينَ كَفَرُوا‏}‏ ‏\"‏‏.‏ قَالَ وَسَمَّانِي قَالَ ‏\"‏ نَعَمْ ‏\"‏‏.‏ فَبَكَى‏.‏",
+      "source_hash_sha256": "da33969154c7c797bc1b9dfada72e88bb0160059578d241a1435ae9224891918",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "bd703ba6-0f1e-4706-8534-7350986f8e73",
+      "url": "https://sunnah.com/bukhari:4954",
+      "reason": "Le rapport cite directement Quran 74:1-5. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-907, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "cc400838-7570-4c11-9185-8aa59453ae55",
+      "url": "https://sunnah.com/bukhari:4955",
+      "reason": "Le rapport cite directement Quran 96:1-3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-907, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "497b4775-d234-44c1-b4cd-c390c7d49f3a",
+      "url": "https://sunnah.com/bukhari:4956",
+      "reason": "Le rapport cite directement Quran 96:1-4. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-907, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "69839204-6fb5-4010-a9e7-69cac3f54558",
+      "url": "https://sunnah.com/bukhari:4957",
+      "reason": "Le texte source de Sahih al-Bukhari 4957 s’interrompt après « puis elle mentionna le récit », sans fournir le récit. La traduction complète reste vide dans FR-LIB-HAD-BUKHARI-907 jusqu’à clarification."
+    },
+    {
+      "source_id": "8dcdd9cf-2ac7-47dd-924b-c3e032a04ccc",
+      "url": "https://sunnah.com/bukhari:4959",
+      "reason": "Le rapport cite directement Quran 98:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-907, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
