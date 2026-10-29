@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:37:24.403Z",
+  "lastReconciled": "2026-10-29T13:38:09.311Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6297,
+    "hadithBukhariDrafted": 6299,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6297,
-    "hadithDatabaseMissing": 8332,
-    "hadithLocalRemaining": 8332,
+    "hadithLocalDrafted": 6299,
+    "hadithDatabaseMissing": 8330,
+    "hadithLocalRemaining": 8330,
     "hadithNeedsMo": 153,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -28890,6 +28890,38 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1371",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1371.json",
+      "sourceIds": [
+        "5926fa00-7a19-4d2c-bb66-9502d5f45f29"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "one complete private French draft; source hash retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1372",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1372.json",
+      "sourceIds": [
+        "1abb3da9-df34-47ba-a679-121f4fde9fd2"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "one complete private French draft; source hash retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32668,9 +32700,9 @@
       "reason": "This report directly quotes Quran 47:22. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6297,
-  "hadithLocalDrafted": 6297,
-  "hadithLocalRemaining": 8332,
+  "hadithBukhariDrafted": 6299,
+  "hadithLocalDrafted": 6299,
+  "hadithLocalRemaining": 8330,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",

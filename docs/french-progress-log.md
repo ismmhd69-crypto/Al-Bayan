@@ -7040,3 +7040,16 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1370 saves 5 private French drafts. Hadith 7502 directly quotes Quran 47:22; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,297 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 153. Total local hadith rows not drafted: 8,332, including held records.
+
+### 2026-10-29: Bukhari 7508
+
+- FR-LIB-HAD-BUKHARI-1371 saves one private French draft for the long report. The narrator’s uncertainty, the two Arabic word variants and their gloss, the sons’ oath, the man’s reply, and the report’s alternate ending are preserved. No database writes or publication occurred.
+- Its source hash is retained and the one-record focused validator passed.
+
+### 2026-10-29: Bukhari 7509
+
+- FR-LIB-HAD-BUKHARI-1372 saves one private French draft, retaining both thresholds for intercession and Anas’s remark about the Prophet’s fingers. No database writes or publication occurred.
+- Its source hash is retained and the one-record focused validator passed.
+
+- Current totals: Bukhari local drafts 6,299 of 7,263; Muslim local drafts 0 of 7,366; Hadith Needs Mo 153; total local hadith rows not drafted 8,330, including held records.
+
