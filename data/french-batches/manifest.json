@@ -47910,6 +47910,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1071",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1071.json",
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "five complete reports translated as private drafts; one incomplete transmission variant left blank with a specific Needs Mo reason; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52217,8 +52230,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9556,
-  "hadithLocalRemaining": 4970,
+  "hadithLocalDrafted": 9561,
+  "hadithLocalRemaining": 4965,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -57675,10 +57688,15 @@
       "source_id": "9cdbc37b-e722-4441-b4a4-88990ed7936e",
       "reason": "Cette entrée ne donne que la question d’ouverture sur les rêves, sans rapport de rêve ni contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "e1cd43ee-07dc-43b9-bf84-856dd946cd89",
+      "reason": "Cette entrée ne donne qu’un détail de transmission sur le récipient puis renvoie au récit précédent sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3393,
+  "hadithMuslimDrafted": 3398,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1418
+  "hadithNeedsMo": 1419
 }
