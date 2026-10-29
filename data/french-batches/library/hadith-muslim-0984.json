@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-0984",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:42:45.109Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "581ffa5d-5dc0-4dbc-b196-57d5a18ffbc9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2075b",
+      "reference": "Sahih Muslim, hadith 2075 b, book 37, باب تَحْرِيمِ اسْتِعْمَالِ إِنَاءِ الذَّهَبِ وَالْفِضَّةِ عَلَى الرِّجَالِ وَالنِّسَاءِ وَخَاتَمِ الذَّهَبِ وَالْحَرِيرِ عَلَى الرَّجُلِ وَإِبَاحَتِهِ لِلنِّسَاءِ وَإِبَاحَةِ الْعَلَمِ وَنَحْوِهِ لِلرَّجُلِ مَا لَمْ يَزِدْ عَلَى أَرْبَعِ أَصَابِعَ",
+      "title": "باب تَحْرِيمِ اسْتِعْمَالِ إِنَاءِ الذَّهَبِ وَالْفِضَّةِ عَلَى الرِّجَالِ وَالنِّسَاءِ وَخَاتَمِ الذَّهَبِ وَالْحَرِيرِ عَلَى الرَّجُلِ وَإِبَاحَتِهِ لِلنِّسَاءِ وَإِبَاحَةِ الْعَلَمِ وَنَحْوِهِ لِلرَّجُلِ مَا لَمْ يَزِدْ عَلَى أَرْبَعِ أَصَابِعَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا الضَّحَّاكُ، - يَعْنِي أَبَا عَاصِمٍ - حَدَّثَنَا عَبْدُ، الْحَمِيدِ بْنُ جَعْفَرٍ حَدَّثَنِي يَزِيدُ بْنُ أَبِي حَبِيبٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "71555d7a9bb4be4d89ee5e2d160a749ded8d87598fd70b354b22b60c5ed18a84",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8312e06c-10fc-4122-be94-17c697aac058",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2076a",
+      "reference": "Sahih Muslim, hadith 2076 a, book 37, باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "title": "باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ سَعِيدِ بْنِ أَبِي عَرُوبَةَ، حَدَّثَنَا قَتَادَةُ، أَنَّ أَنَسَ بْنَ مَالِكٍ، أَنْبَأَهُمْ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم رَخَّصَ لِعَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَالزُّبَيْرِ بْنِ الْعَوَّامِ فِي الْقُمُصِ الْحَرِيرِ فِي السَّفَرِ مِنْ حِكَّةٍ كَانَتْ بِهِمَا أَوْ وَجَعٍ كَانَ بِهِمَا ‏.‏",
+      "source_hash_sha256": "25b9c8feced00771ed9884ca1934038f3fc3af1f88ed24d86241abc832c5d815",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte que le Messager d’Allah autorisa ‘Abd ar-Rahmân ibn ‘Awf et az-Zubayr ibn al-‘Awwâm à porter des chemises de soie pendant un voyage, en raison de démangeaisons ou d’une douleur qu’ils avaient.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dc82beda-0019-4dec-9013-417e9d950e44",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2076b",
+      "reference": "Sahih Muslim, hadith 2076 b, book 37, باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "title": "باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، حَدَّثَنَا سَعِيدٌ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ فِي السَّفَرِ ‏.‏",
+      "source_hash_sha256": "1c6a2677f2e1aa0d21706bc687d9bf5b68c8a1e4b26834bb93133203972066bd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1b87b92d-c744-4fec-afd3-92b55b3e4e46",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2076c",
+      "reference": "Sahih Muslim, hadith 2076 c, book 37, باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "title": "باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ شُعْبَةَ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ رَخَّصَ رَسُولُ اللَّهِ صلى الله عليه وسلم - أَوْ رُخِّصَ - لِلزُّبَيْرِ بْنِ الْعَوَّامِ وَعَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ فِي لُبْسِ الْحَرِيرِ لِحِكَّةٍ كَانَتْ بِهِمَا ‏.‏",
+      "source_hash_sha256": "7cba69b71ee746c1f5784439643e85f13fbf88a32a8818e6bd21294be132ba2c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Messager d’Allah — ou : qu’on leur accorda l’autorisation — permit à az-Zubayr ibn al-‘Awwâm et à ‘Abd ar-Rahmân ibn ‘Awf de porter de la soie à cause de démangeaisons qu’ils avaient.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9fda1f2b-1306-43eb-945f-723ee80b5491",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2076d",
+      "reference": "Sahih Muslim, hadith 2076 d, book 37, باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "title": "باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "7883f0a7e314d34f0165215ce3e9a62531c86863b8207b47f4c70c1d8d2d21ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "622afb8a-1ecd-49ae-b5df-d7709bcec6d3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2076e",
+      "reference": "Sahih Muslim, hadith 2076 e, book 37, باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "title": "باب إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلرَّجُلِ إِذَا كَانَ بِهِ حِكَّةٌ أَوْ نَحْوُهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَفَّانُ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، أَنَّ أَنَسًا، أَخْبَرَهُ أَنَّ عَبْدَ الرَّحْمَنِ بْنَ عَوْفٍ وَالزُّبَيْرَ بْنَ الْعَوَّامِ شَكَوَا إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم الْقَمْلَ فَرَخَّصَ لَهُمَا فِي قُمُصِ الْحَرِيرِ فِي غَزَاةٍ لَهُمَا ‏.‏",
+      "source_hash_sha256": "12bca9aa08971c8da01e4b68bdba99c340018fb3d59c1b1a57e83d20ab90bf90",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte qu’‘Abd ar-Rahmân ibn ‘Awf et az-Zubayr ibn al-‘Awwâm se plaignirent au Messager d’Allah d’avoir des poux. Il les autorisa à porter des chemises de soie pendant leur expédition.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "581ffa5d-5dc0-4dbc-b196-57d5a18ffbc9",
+      "reason": "Cette entrée ne donne que des chaînes de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "dc82beda-0019-4dec-9013-417e9d950e44",
+      "reason": "Cette entrée renvoie au récit précédent et précise seulement qu’une version ne mentionne pas le voyage. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "9fda1f2b-1306-43eb-945f-723ee80b5491",
+      "reason": "Cette entrée renvoie explicitement au récit précédent sans reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
