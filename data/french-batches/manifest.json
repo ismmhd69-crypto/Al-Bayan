@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5378,
+    "hadithBukhariDrafted": 5383,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5378,
+    "hadithLocalDrafted": 5383,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9251,
-    "hadithNeedsMo": 778,
+    "hadithLocalRemaining": 9246,
+    "hadithNeedsMo": 779,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24903,6 +24903,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1175",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1175.json",
+      "sourceIds": [
+        "39373869-9db3-4460-a712-e5a8db47489b",
+        "f4bed73d-9622-4412-a408-f8c24be8ed2b",
+        "0d935577-099c-42fb-afa0-53f1a4caae1c",
+        "28523844-ef7b-4fa5-bf23-17b6d7565c64",
+        "b58ff952-d3d9-4055-8255-1cb8b0cdbec5",
+        "14f5433a-cf18-4d1a-9848-323eb2250ddf"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6403 remains blank because it directly quotes Quran 64:1. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -27965,11 +27986,17 @@
       "scope": "Sahih al-Bukhari 6106: direct quotations of Quran 91:1 and 87:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 91:1 and 87:1. Keep the entire French translation blank until an approved attributed French Quran translation and permitted use are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6403-QURAN-64-1",
+      "scope": "Sahih al-Bukhari 6403: direct quotation of Quran 64:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 64:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5378,
-  "hadithLocalDrafted": 5378,
-  "hadithLocalRemaining": 9251,
+  "hadithBukhariDrafted": 5383,
+  "hadithLocalDrafted": 5383,
+  "hadithLocalRemaining": 9246,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28174,6 +28201,12 @@
       "scope": "Sahih al-Bukhari 6389 direct quotation of Quran 2:201",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:201. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6403-QURAN-64-1",
+      "scope": "Sahih al-Bukhari 6403: direct quotation of Quran 64:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 64:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

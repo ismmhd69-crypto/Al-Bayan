@@ -5987,3 +5987,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1174 saves six private French drafts. The focused validator passed. No database writes or publication occurred.
 - Reconciliation against every listed Bukhari batch file found 5,372 completed drafts before this batch; the previous cumulative log total of 5,360 was 12 low. Corrected totals are 5,378 Bukhari drafts of 7,263, 0 Muslim drafts of 7,366, 778 held hadith rows, and 9,251 local hadith rows not drafted (held rows plus sources not yet exported).
+
+### 2026-10-29: Bukhari 6398–6403 — one held
+
+- FR-LIB-HAD-BUKHARI-1175 saves five private French drafts. Bukhari 6403 remains blank because it directly quotes Quran 64:1; the approved, attributed French Quran wording and permission are still needed. No database writes or publication occurred.
+- The five drafts passed the focused validator. Bukhari local drafts: 5,383 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 779. Total local hadith rows not drafted: 9,246, including held records.
