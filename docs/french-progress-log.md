@@ -8076,3 +8076,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0190 saves four private French drafts about Sa‘d’s prayer, the length of the noon prayer’s first unit, and recitation in the dawn prayer. Muslim 453b is only a chain with a cross-reference; 453d gives only a cross-reference and an added phrase. Both remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 775 Muslim drafts, 7,111 total hadith drafts, 7,518 remaining, and 372 Needs Mo items.
+
+### 2026-10-29: Muslim 456–458b
+
+- FR-LIB-HAD-MUSLIM-0191 contains six reports that quote Quran passages directly. All six French texts remain blank pending an approved, attributed French Quran translation with permitted use.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts remain at 775 Muslim drafts, 7,111 total hadith drafts, and 7,518 remaining; Needs Mo now has 378 items.

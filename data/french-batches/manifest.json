@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T15:21:54.197Z",
+  "lastReconciled": "2026-10-29T15:22:28.901Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -32968,6 +32968,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0191",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0191.json",
+      "sourceIds": [
+        "175f9aff-4d16-4805-b2e4-d035a91f3b02",
+        "f331f64a-8033-4293-97c6-9b117256c371",
+        "5c450b40-1d21-4e98-b13f-f78cb1e62d44",
+        "9dd29f30-e1c3-4175-8ede-b98c6faf06a4",
+        "e58b141e-65db-4dd9-8b19-0461e3a04f22",
+        "ddd43ba4-a6ac-422d-8e9c-0320ef05ca2d"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; all six reports with Quran quotations held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -38896,5 +38917,5 @@
   "hadithMuslimDrafted": 775,
   "hadithDatabaseMissing": 7518,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 372
+  "hadithNeedsMo": 378
 }
