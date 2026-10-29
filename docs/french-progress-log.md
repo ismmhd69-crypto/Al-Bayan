@@ -6973,3 +6973,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1357 saves 0 private French drafts. Hadith 7439 directly quotes Quranic wording with an embedded verse tag that needs confirmation; its complete translation remains blank under Needs Mo until the verse identity, an approved attributed French Quran translation, and permitted use are confirmed. No database writes or publication occurred.
 - All 1 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,244 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 8,385, including held records.
+
+### 2026-10-29: Bukhari 7440
+
+- FR-LIB-HAD-BUKHARI-1358 saves 0 private French drafts. Hadith 7440 directly quotes Quran 17:79; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
+- All 1 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,244 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 140. Total local hadith rows not drafted: 8,385, including held records.

@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:30:53.874Z",
+  "lastReconciled": "2026-10-29T13:31:05.979Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6244,
     "hadithDatabaseMissing": 8385,
     "hadithLocalRemaining": 8385,
-    "hadithNeedsMo": 139,
+    "hadithNeedsMo": 140,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28628,6 +28628,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1358",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1358.json",
+      "sourceIds": [
+        "9f958b77-5d8b-4091-913e-ce8afd847b90"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "0 complete private drafts and 1 item held under Needs Mo; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32320,6 +32336,12 @@
       "scope": "Sahih al-Bukhari 7439: direct Quran quotation",
       "status": "blocked",
       "reason": "This long report directly quotes Quranic wording in a tagged passage whose verse reference needs confirmation. Keep the complete French translation blank until the exact verse and an approved, attributed French Quran translation with permitted use are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-7440-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7440: direct Quran quotation",
+      "status": "blocked",
+      "reason": "This report directly quotes Quran 17:79. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
   "hadithBukhariDrafted": 6244,
@@ -33159,6 +33181,12 @@
       "scope": "Sahih al-Bukhari 7439: direct Quran quotation",
       "status": "blocked",
       "reason": "This long report directly quotes Quranic wording in a tagged passage whose verse reference needs confirmation. Keep the complete French translation blank until the exact verse and an approved, attributed French Quran translation with permitted use are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-7440-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7440: direct Quran quotation",
+      "status": "blocked",
+      "reason": "This report directly quotes Quran 17:79. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
   "hadithMuslimDrafted": 0
