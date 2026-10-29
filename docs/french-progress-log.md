@@ -11590,3 +11590,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1931c-1933a
 
 - FR-LIB-HAD-MUSLIM-0907 saves five private French drafts about hunting rules and the prohibition on eating predatory animals with fangs. One visibly damaged Arabic source remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1933b-1935a
+
+- FR-LIB-HAD-MUSLIM-0908 saves three private French drafts about animals prohibited for food and the expedition that found a large sea creature. The full long account is preserved. Three chain-only entries remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
