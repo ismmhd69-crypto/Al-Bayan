@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-BUKHARI-078",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T02:23:08.279Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e14f9b76-5a68-4a53-b7ac-585ddd178bff",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:422",
+      "reference": "Sahih al-Bukhari, hadith 422, book 8, باب مَنْ دَعَا لِطَعَامٍ فِي الْمَسْجِدِ وَمَنْ أَجَابَ فِيهِ",
+      "title": "باب مَنْ دَعَا لِطَعَامٍ فِي الْمَسْجِدِ وَمَنْ أَجَابَ فِيهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ، سَمِعَ أَنَسًا، قَالَ وَجَدْتُ النَّبِيَّ صلى الله عليه وسلم فِي الْمَسْجِدِ مَعَهُ نَاسٌ فَقُمْتُ، فَقَالَ لِي ‏\"‏ آرْسَلَكَ أَبُو طَلْحَةَ ‏\"‏ قُلْتُ نَعَمْ‏.‏ فَقَالَ ‏\"‏ لِطَعَامٍ ‏\"‏‏.‏ قُلْتُ نَعَمْ‏.‏ فَقَالَ لِمَنْ حَوْلَهُ ‏\"‏ قُومُوا ‏\"‏‏.‏ فَانْطَلَقَ وَانْطَلَقْتُ بَيْنَ أَيْدِيهِمْ‏.‏",
+      "source_hash_sha256": "e99d8d5b554f8a9875f32bcbf574a6277d055c84bfa36db1b52d235f722195d7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn Yûsuf nous a informés ; Mâlik nous a informés, d’après Isḥâq ibn ʿAbd Allâh, qui a entendu Anas dire : Je trouvai le Prophète (paix et bénédictions sur lui) dans la mosquée, entouré de gens. Je me levai. Il me demanda : « Abû Ṭalḥa t’a-t-il envoyé ? » Je répondis : « Oui. » Il demanda : « Pour un repas ? » Je répondis : « Oui. » Il dit alors à ceux qui l’entouraient : « Levez-vous. » Il partit et je marchai devant eux.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b4392942-ba4d-4206-9bad-ad251c7da3e8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:423",
+      "reference": "Sahih al-Bukhari, hadith 423, book 8, باب الْقَضَاءِ وَاللِّعَانِ فِي الْمَسْجِدِ بَيْنَ الرِّجَالِ وَالنِّسَاءِ",
+      "title": "باب الْقَضَاءِ وَاللِّعَانِ فِي الْمَسْجِدِ بَيْنَ الرِّجَالِ وَالنِّسَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى، قَالَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَخْبَرَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي ابْنُ شِهَابٍ، عَنْ سَهْلِ بْنِ سَعْدٍ، أَنَّ رَجُلاً، قَالَ يَا رَسُولَ اللَّهِ، أَرَأَيْتَ رَجُلاً وَجَدَ مَعَ امْرَأَتِهِ رَجُلاً أَيَقْتُلُهُ فَتَلاَعَنَا فِي الْمَسْجِدِ وَأَنَا شَاهِدٌ‏.‏",
+      "source_hash_sha256": "bd3d1fe1b7093e56ff81c91547ea82917fb2c0ad848afbdf94b5ad6266830ab6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yaḥyâ nous a rapporté ; ʿAbd al-Razzâq nous a informés ; Ibn Jurayj nous a informés ; Ibn Shihâb m’a informé, d’après Sahl ibn Saʿd : Un homme demanda : « Ô Messager d’Allah, si un homme surprend un autre homme avec son épouse, doit-il le tuer ? » Ils engagèrent alors la procédure de liʿân — les serments d’imprécation mutuelle — dans la mosquée, et j’en fus témoin.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f9644bb1-859d-4003-8306-825641f57ea9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:424",
+      "reference": "Sahih al-Bukhari, hadith 424, book 8, باب إِذَا دَخَلَ بَيْتًا يُصَلِّي حَيْثُ شَاءَ، أَوْ حَيْثُ أُمِرَ، وَلاَ يَتَجَسَّسُ",
+      "title": "باب إِذَا دَخَلَ بَيْتًا يُصَلِّي حَيْثُ شَاءَ، أَوْ حَيْثُ أُمِرَ، وَلاَ يَتَجَسَّسُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، قَالَ حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنِ ابْنِ شِهَابٍ، عَنْ مَحْمُودِ بْنِ الرَّبِيعِ، عَنْ عِتْبَانَ بْنِ مَالِكٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم أَتَاهُ فِي مَنْزِلِهِ فَقَالَ ‏\"‏ أَيْنَ تُحِبُّ أَنْ أُصَلِّيَ لَكَ مِنْ بَيْتِكَ ‏\"‏‏.‏ قَالَ فَأَشَرْتُ لَهُ إِلَى مَكَانٍ، فَكَبَّرَ النَّبِيُّ صلى الله عليه وسلم وَصَفَفْنَا خَلْفَهُ، فَصَلَّى رَكْعَتَيْنِ‏.‏",
+      "source_hash_sha256": "9030e7712812667923c60756759ede1fb9dec294ac2a34587f3759b5a31d7b19",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿ",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
