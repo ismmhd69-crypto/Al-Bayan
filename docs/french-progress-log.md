@@ -61,3 +61,4 @@ Scope: private local preparation only. French remains absent from public locale 
 - Hard Questions progress: 9 of 21 articles drafted; 12 remain. Human review: 0; published: 0.
 - Hard Questions articles 10–12 (inheritance, people unreached by the message, and historical/legal claims about conquest) are drafted in `hard-questions-004.json` and passed reference and structure checks. Current progress: 12 of 21 articles; 9 remain.
 - Hard Questions articles 13–15 (why Islam, evidence for prophethood, and decree and choice) are drafted in `hard-questions-005.json` and passed reference and structure checks. Current progress: 15 of 21 articles; 6 remain.
+- Hard Questions articles 16–21 (unanswered prayer, eternal punishment, Quran 4:34, Aisha's age, apostasy, and slavery) are drafted in `hard-questions-006.json` and `hard-questions-007.json`. All 21 articles now have local French drafts and passed structural and reference checks. Human review: 0; published: 0.
