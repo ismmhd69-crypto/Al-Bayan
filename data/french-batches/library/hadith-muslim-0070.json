@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-MUSLIM-0070",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:16:45.609Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2a6b8f43-36f4-49d2-acf1-d52cffce8341",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:161e",
+      "reference": "Sahih Muslim, hadith 161 e, book 1, باب بَدْءِ الْوَحْىِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم ‏‏",
+      "title": "باب بَدْءِ الْوَحْىِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عُثْمَانُ بْنُ عُمَرَ، أَخْبَرَنَا عَلِيُّ بْنُ الْمُبَارَكِ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، بِهَذَا الإِسْنَادِ وَقَالَ ‏\"‏ فَإِذَا هُوَ جَالِسٌ عَلَى عَرْشٍ بَيْنَ السَّمَاءِ وَالأَرْضِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7c5d20db6e42d7ef0befb38f48a42ab54e83a65e66c132884941ed066a90c4c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté, d’après ‘Uthman ibn ‘Umar, d’après ‘Ali ibn al-Mubarak, d’après Yahya ibn Abi Kathir, avec cette même chaîne de transmission, la variante suivante : « Il était assis sur un trône entre le ciel et la terre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "283844c3-91c9-4fca-afc2-0cb4bad02618",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:162",
+      "reference": "Sahih Muslim, hadith 162, book 1, باب الإِسْرَاءِ بِرَسُولِ اللَّهِ صلى الله عليه وسلم إِلَى السَّمَوَاتِ وَفَرْضِ الصَّلَوَاتِ ‏‏",
+      "title": "باب الإِسْرَاءِ بِرَسُولِ اللَّهِ صلى الله عليه وسلم إِلَى السَّمَوَاتِ وَفَرْضِ الصَّلَوَاتِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، قَالَ أَخْبَرَنِي سُلَيْمَانُ، - وَهُوَ ابْنُ بِلاَلٍ - قَالَ حَدَّثَنِي شَرِيكُ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي نَمِرٍ، قَالَ سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، يُحَدِّثُنَا عَنْ لَيْلَةَ، أُسْرِيَ بِرَسُولِ اللَّهِ صلى الله عليه وسلم مِنْ مَسْجِدِ الْكَعْبَةِ أَنَّهُ جَاءَهُ ثَلاَثَةُ نَفَرٍ قَبْلَ أَنْ يُوحَى إِلَيْهِ وَهُوَ نَائِمٌ فِي الْمَسْجِدِ الْحَرَامِ وَسَاقَ الْحَدِيثَ بِقِصَّتِهِ نَحْوَ حَدِيثِ ثَابِتٍ الْبُنَانِيِّ وَقَدَّمَ فِيهِ شَيْئًا وَأَخَّرَ وَزَادَ وَنَقَصَ ‏.‏",
+      "source_hash_sha256": "afffff8ee4a458d0acf34304bdfc4fd83ac1c2e4205eb18a3f6589a2b7547046",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli nous a rapporté, d’après Ibn Wahb, qui a dit : Sulayman — c’est-à-dire Ibn Bilal — m’a rapporté : Sharik ibn ‘Abd Allah ibn Abi Namir m’a rapporté avoir entendu Anas ibn Malik nous raconter que, la nuit où le Messager de Dieu ﷺ fut emmené en voyage depuis la mosquée de la Ka‘ba, trois hommes vinrent le trouver avant qu’il ne reçoive la révélation, alors qu’il dormait dans la Mosquée sacrée. Il rapporta le récit de cet événement dans un sens semblable à celui transmis par Thabit al-Bunani, avec certains éléments placés plus tôt ou plus tard, et des ajouts et des omissions.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
