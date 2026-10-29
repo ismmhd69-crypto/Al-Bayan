@@ -8371,3 +8371,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0249 saves two private French drafts about prohibited conduct and remembrances after prayer. Muslim 594b, 594c and 594e only refer back to the complete invocation without repeating it, so they remain blank under Needs Mo.
 - All five source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 992 Muslim drafts, 7,328 total hadith drafts, 7,301 remaining, and 483 Needs Mo items.
+
+### 2026-10-29: Muslim 595a (long source, solo batch)
+
+- FR-LIB-HAD-MUSLIM-0250 saves one private French draft about the remembrance phrases taught to poor emigrants after prayer. It was processed alone because its Arabic source exceeds 2,000 characters; the alternate wordings and counting explanation are retained.
+- The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 993 Muslim drafts, 7,329 total hadith drafts, 7,300 remaining, and 483 Needs Mo items.
