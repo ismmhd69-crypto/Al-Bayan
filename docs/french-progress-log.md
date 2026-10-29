@@ -7568,3 +7568,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0092 saves 3 private French drafts, preserving the repeated intercession wording and the barley, wheat and atom/maize variants.
 - All 3 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 367 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 7,923, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 193e
+
+- FR-LIB-HAD-MUSLIM-0093 saves a complete private French draft of the 4,018-character intercession report. It preserves the narrator chain, three faith thresholds, the later meeting with al-Hasan, and the fourth request.
+- The source hash and focused validator are retained; the single-item long-text rule passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 368 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 7,922, including held records. No database writes or publication occurred.
