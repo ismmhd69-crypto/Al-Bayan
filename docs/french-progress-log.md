@@ -3046,3 +3046,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-626` saves six private French drafts about water and ablution at al-Hudaybiya.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,193 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 11,464, including held records.
+
+### 2026-10-29: Bukhari 3578 long report
+
+- `FR-LIB-HAD-BUKHARI-627` saves one private French draft with the full account of the meal shared by the Prophet, Abû Talha, Umm Sulaym, and their guests.
+- The long-source record passed the focused single-item validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,194 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 11,463, including held records.
