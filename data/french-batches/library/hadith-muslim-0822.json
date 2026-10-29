@@ -1,0 +1,122 @@
+{
+  "batch_id": "HADITH-MUSLIM-0822",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:48:21.737Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "69704eaf-67df-4d96-b3de-45d91f1ca487",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1746c",
+      "reference": "Sahih Muslim, hadith 1746 c, book 32, باب جَوَازِ قَطْعِ أَشْجَارِ الْكُفَّارِ وَتَحْرِيقِهَا ‏‏",
+      "title": "باب جَوَازِ قَطْعِ أَشْجَارِ الْكُفَّارِ وَتَحْرِيقِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا سَهْلُ بْنُ عُثْمَانَ، أَخْبَرَنِي عُقْبَةُ بْنُ خَالِدٍ السَّكُونِيُّ، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، قَالَ حَرَّقَ رَسُولُ اللَّهِ صلى الله عليه وسلم نَخْلَ بَنِي النَّضِيرِ‏.‏",
+      "source_hash_sha256": "c417c9c9c252c17f252d8af6b307875257b062966d67cf25b38f47ad4458677f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sahl ibn ‘Uthmân nous a rapporté : ‘Uqba ibn Khâlid as-Sakûnî m’a informé, d’après ‘Ubayd Allâh, d’après Nâfi‘, d’après ‘Abd Allâh ibn ‘Umar, qui a dit : « Le Messager d’Allah brûla les palmiers des Banû an-Nadîr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "222d196e-fb3f-44ce-9d76-d10bbbc6e410",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1747",
+      "reference": "Sahih Muslim, hadith 1747, book 32, باب تَحْلِيلِ الْغَنَائِمِ لِهَذِهِ الأُمَّةِ خَاصَّةً ‏‏",
+      "title": "باب تَحْلِيلِ الْغَنَائِمِ لِهَذِهِ الأُمَّةِ خَاصَّةً ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا ابْنُ الْمُبَارَكِ، عَنْ مَعْمَرٍ، ح وَحَدَّثَنَا مُحَمَّدُ، بْنُ رَافِعٍ - وَاللَّفْظُ لَهُ - حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ غَزَا نَبِيٌّ مِنَ الأَنْبِيَاءِ فَقَالَ لِقَوْمِهِ لاَ يَتْبَعْنِي رَجُلٌ قَدْ مَلَكَ بُضْعَ امْرَأَةٍ وَهُوَ يُرِيدُ أَنْ يَبْنِيَ بِهَا وَلَمَّا يَبْنِ وَلاَ آخَرُ قَدْ بَنَى بُنْيَانًا وَلَمَّا يَرْفَعْ سُقُفَهَا وَلاَ آخَرُ قَدِ اشْتَرَى غَنَمًا أَوْ خَلِفَاتٍ وَهُوَ مُنْتَظِرٌ وِلاَدَهَا ‏.‏ قَالَ فَغَزَا فَأَدْنَى لِلْقَرْيَةِ حِينَ صَلاَةِ الْعَصْرِ أَوْ قَرِيبًا مِنْ ذَلِكَ فَقَالَ لِلشَّمْسِ أَنْتِ مَأْمُورَةٌ وَأَنَا مَأْمُورٌ اللَّهُمَّ احْبِسْهَا عَلَىَّ شَيْئًا ‏.‏ فَحُبِسَتْ عَلَيْهِ حَتَّى فَتَحَ اللَّهُ عَلَيْهِ - قَالَ - فَجَمَعُوا مَا غَنِمُوا فَأَقْبَلَتِ النَّارُ لِتَأْكُلَهُ فَأَبَتْ أَنْ تَطْعَمَهُ فَقَالَ فِيكُمْ غُلُولٌ فَلْيُبَايِعْنِي مِنْ كُلِّ قَبِيلَةٍ رَجُلٌ ‏.‏ فَبَايَعُوهُ فَلَصِقَتْ يَدُ رَجُلٍ بِيَدِهِ فَقَالَ فِيكُمُ الْغُلُولُ فَلْتُبَايِعْنِي قَبِيلَتُكَ ‏.‏ فَبَايَعَتْهُ - قَالَ - فَلَصِقَتْ بِيَدِ رَجُلَيْنِ أَوْ ثَلاَثَةٍ فَقَالَ فِيكُمُ الْغُلُولُ أَنْتُمْ غَلَلْتُمْ - قَالَ - فَأَخْرَجُوا لَهُ مِثْلَ رَأْسِ بَقَرَةٍ مِنْ ذَهَبٍ - قَالَ - فَوَضَعُوهُ فِي الْمَالِ وَهُوَ بِالصَّعِيدِ فَأَقْبَلَتِ النَّارُ فَأَكَلَتْهُ ‏.‏ فَلَمْ تَحِلَّ الْغَنَائِمُ لأَحَدٍ مِنْ قَبْلِنَا ذَلِكَ بِأَنَّ اللَّهَ تَبَارَكَ وَتَعَالَى رَأَى ضَعْفَنَا وَعَجْزَنَا فَطَيَّبَهَا لَنَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7a03b9cba990535965181e76c92adee53dd943ac1cc963ceea409486c895f534",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Kurayb Muhammad ibn al-‘Alâ’ nous a rapporté : Ibn al-Mubârak nous a rapporté, d’après Ma‘mar. (H) Muhammad ibn Râfi‘ nous a rapporté — et la formulation est la sienne — : ‘Abd ar-Razzâq nous a rapporté : Ma‘mar nous a informés, d’après Hammâm ibn Munabbih, qui a dit : « Voici ce qu’Abû Hurayra nous a rapporté du Messager d’Allah », puis il mentionna plusieurs hadiths, parmi lesquels le Messager d’Allah a dit : « Un prophète parmi les prophètes partit en expédition et dit à son peuple : “Qu’aucun homme qui a conclu un mariage et souhaite rejoindre son épouse, mais ne l’a pas encore fait, ne m’accompagne ; ni celui qui a construit un bâtiment sans encore en avoir élevé le toit ; ni celui qui a acheté des moutons ou des chamelles pleines et attend leur mise bas.” Il partit en expédition et s’approcha d’un village à l’heure de la prière de l’après-midi, ou à peu près. Il dit au soleil : “Tu es soumis à un ordre et moi aussi je suis soumis à un ordre. Ô Allah, retiens-le un peu pour moi.” Il fut retenu pour lui jusqu’à ce qu’Allah lui accordât la victoire. » Il dit : « Les gens rassemblèrent le butin. Le feu s’approcha pour le dévorer, mais refusa de le consommer. Il dit : “Il y a parmi vous un détournement de butin. Qu’un homme de chaque tribu me prête serment d’allégeance.” Ils le firent. La main d’un homme s’attacha à la sienne, et il dit : “Le détournement de butin se trouve parmi vous. Que ta tribu me prête serment d’allégeance.” Sa tribu le fit. La main de deux ou trois hommes s’attacha à la sienne. Il dit : “C’est vous qui avez détourné le butin.” Ils lui apportèrent alors une quantité d’or de la taille d’une tête de vache. Il dit : “Ils la placèrent parmi le butin, sur le sol. Le feu s’approcha et le consuma.” Le butin n’avait été rendu licite à aucun peuple avant nous. Allah — béni et exalté soit-Il — ayant vu notre faiblesse et notre incapacité, le rendit licite pour nous. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e66109ff-78ee-46d8-83dd-ab44a62abdd8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1748a",
+      "reference": "Sahih Muslim, hadith 1748 a, book 32, باب الأَنْفَالِ ‏‏",
+      "title": "باب الأَنْفَالِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ سِمَاكٍ، عَنْ مُصْعَبِ بْنِ سَعْدٍ، عَنْ أَبِيهِ، قَالَ أَخَذَ أَبِي مِنَ الْخُمْسِ سَيْفًا فَأَتَى بِهِ النَّبِيَّ صلى الله عليه وسلم فَقَالَ هَبْ لِي هَذَا ‏.‏ فَأَبَى فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"8\" aya_start=\"1\" aya_end=\"1\"]{‏ يَسْأَلُونَكَ عَنِ الأَنْفَالِ قُلِ الأَنْفَالُ لِلَّهِ وَالرَّسُولِ‏}‏",
+      "source_hash_sha256": "4231d7366036c4bf055825ce9820bef1ff5ac944b7abc1d4a47c018a846ce651",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f9913e60-2648-4ece-b351-514440f2a122",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1748b",
+      "reference": "Sahih Muslim, hadith 1748 b, book 32, باب الأَنْفَالِ ‏‏",
+      "title": "باب الأَنْفَالِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا مُحَمَّدُ، بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ، عَنْ سِمَاكِ بْنِ حَرْبٍ، عَنْ مُصْعَبِ بْنِ سَعْدٍ، عَنْ أَبِيهِ، قَالَ نَزَلَتْ فِيَّ أَرْبَعُ آيَاتٍ أَصَبْتُ سَيْفًا فَأَتَى بِهِ النَّبِيَّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ نَفِّلْنِيهِ ‏.‏ فَقَالَ ‏\"‏ ضَعْهُ ‏\"‏ ‏.‏ ثُمَّ قَامَ فَقَالَ لَهُ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ ضَعْهُ مِنْ حَيْثُ أَخَذْتَهُ ‏\"‏ ‏.‏ ثُمَّ قَامَ فَقَالَ نَفِّلْنِيهِ يَا رَسُولَ اللَّهِ ‏.‏ فَقَالَ ‏\"‏ ضَعْهُ ‏\"‏ ‏.‏ فَقَامَ فَقَالَ يَا رَسُولَ اللَّهِ نَفِّلْنِيهِ أَأُجْعَلُ كَمَنْ لاَ غَنَاءَ لَهُ فَقَالَ لَهُ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ ضَعْهُ مِنْ حَيْثُ أَخَذْتَهَ ‏\"‏ ‏.‏ قَالَ فَنَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"8\" aya_start=\"1\" aya_end=\"1\"]{‏ يَسْأَلُونَكَ عَنِ الأَنْفَالِ قُلِ الأَنْفَالُ لِلَّهِ وَالرَّسُولِ‏}‏",
+      "source_hash_sha256": "88b9bc9c07abd4221f43ec70d86655dd2324cb6d9bc870c06a353d3142ce377d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e66109ff-78ee-46d8-83dd-ab44a62abdd8",
+      "reason": "Cette entrée contient une citation coranique en arabe (Coran 8:1). Aucune traduction française attribuée et autorisée n’est fournie dans cette entrée. Garder toute la traduction française vide jusqu’à ce qu’une traduction approuvée et son attribution soient confirmées.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f9913e60-2648-4ece-b351-514440f2a122",
+      "reason": "Cette entrée contient une citation coranique en arabe (Coran 8:1). Aucune traduction française attribuée et autorisée n’est fournie dans cette entrée. Garder toute la traduction française vide jusqu’à ce qu’une traduction approuvée et son attribution soient confirmées.",
+      "status": "blocked"
+    }
+  ]
+}

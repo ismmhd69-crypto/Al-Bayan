@@ -11236,3 +11236,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0821 saves four private French drafts about the prohibition on killing women and children and distinct reports about night raids. Muslim 1746a and 1746b quote Qur’an 59:5 in Arabic; each entire French entry remains blank under Needs Mo until an attributed, authorized French Quran translation is confirmed.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1746c-1748b
+
+- FR-LIB-HAD-MUSLIM-0822 saves two private French drafts: the report about the Banû an-Nadîr date palms and the complete account of the prophet, the delayed sun, and the recovered war booty. Muslim 1748a and 1748b quote Qur’an 8:1 in Arabic; both entire French entries remain blank under Needs Mo pending an attributed, authorized French Quran translation.
+- All four source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
