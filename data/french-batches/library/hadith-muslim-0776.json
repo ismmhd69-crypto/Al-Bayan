@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0776",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:20:15.612Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d70d9f9d-db08-41c0-a197-e83a21bf3034",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1652c",
+      "reference": "Sahih Muslim, hadith 1652 c, book 33, باب النَّهْىِ عَنْ طَلَبِ الإِمَارَةِ، وَالْحِرْصِ، عَلَيْهَا ‏‏",
+      "title": "باب النَّهْىِ عَنْ طَلَبِ الإِمَارَةِ، وَالْحِرْصِ، عَلَيْهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا جَرِيرُ بْنُ حَازِمٍ، حَدَّثَنَا الْحَسَنُ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، بْنُ سَمُرَةَ قَالَ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَا عَبْدَ الرَّحْمَنِ لاَ تَسْأَلِ الإِمَارَةَ فَإِنَّكَ إِنْ أُعْطِيتَهَا عَنْ مَسْأَلَةٍ أُكِلْتَ إِلَيْهَا وَإِنْ أُعْطِيتَهَا عَنْ غَيْرِ مَسْأَلَةٍ أُعِنْتَ عَلَيْهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9e89d4bf5a5dc43669a5ff79da8bcad99e0c9aad984737bec25164c5e5b2ae28",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shayban ibn Farrukh nous a rapporté : Jarir ibn Hazim nous a rapporté : al-Hasan nous a rapporté : Abd al-Rahman ibn Samura nous a rapporté. Il a dit : le Messager d’Allah ﷺ m’a dit : « Abd al-Rahman, ne demande pas une fonction d’autorité. Si elle t’est confiée à ta demande, tu seras laissé à toi-même face à elle ; si elle t’est confiée sans que tu l’aies demandée, tu seras aidé à l’exercer. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7967d252-7437-41fa-b454-72680e2cbd5a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1652d",
+      "reference": "Sahih Muslim, hadith 1652 d, book 33, باب النَّهْىِ عَنْ طَلَبِ الإِمَارَةِ، وَالْحِرْصِ، عَلَيْهَا ‏‏",
+      "title": "باب النَّهْىِ عَنْ طَلَبِ الإِمَارَةِ، وَالْحِرْصِ، عَلَيْهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، حَدَّثَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ يُونُسَ، ح وَحَدَّثَنِي عَلِيُّ، بْنُ حُجْرٍ السَّعْدِيُّ حَدَّثَنَا هُشَيْمٌ، عَنْ يُونُسَ، وَمَنْصُورٍ، وَحُمَيْدٍ، ح وَحَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ سِمَاكِ بْنِ عَطِيَّةَ، وَيُونُسَ بْنِ عُبَيْدٍ، وَهِشَامِ بْنِ حَسَّانَ، كُلُّهُمْ عَنِ الْحَسَنِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ سَمُرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ حَدِيثِ جَرِيرٍ ‏.‏",
+      "source_hash_sha256": "dfa0a3435b9c8141216772498cd498eb82135a2ea3fb4412ceaad9df4e0a5953",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5b0869d5-d7ed-4bf9-847b-fb6e396507e5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1653a",
+      "reference": "Sahih Muslim, hadith 1653 a, book 27, باب يَمِينِ الْحَالِفِ عَلَى نِيَّةِ الْمُسْتَحْلِفِ ‏‏",
+      "title": "باب يَمِينِ الْحَالِفِ عَلَى نِيَّةِ الْمُسْتَحْلِفِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَعَمْرٌو النَّاقِدُ، - قَالَ يَحْيَى أَخْبَرَنَا هُشَيْمُ بْنُ بَشِيرٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي صَالِحٍ، وَقَالَ، عَمْرٌو حَدَّثَنَا هُشَيْمُ بْنُ بَشِيرٍ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ أَبِي صَالِحٍ، - عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَمِينُكَ عَلَى مَا يُصَدِّقُكَ عَلَيْهِ صَاحِبُكَ ‏\"‏ ‏.‏ وَقَالَ عَمْرٌو ‏\"‏ يُصَدِّقُكَ بِهِ صَاحِبُكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a0ee448bab1982bf49868648d35ca62e55515f7414597681085f23f272a3a64f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya et Amr al-Naqid nous ont rapporté. Yahya a dit : Hushaym ibn Bashir nous a informés, d’après Abd Allah ibn Abi Salih ; Amr a dit : Hushaym ibn Bashir nous a rapporté : Abd Allah ibn Abi Salih nous a informés, d’après son père, d’après Abu Hurayra, qui a dit : le Messager d’Allah ﷺ a dit : « Ton serment porte sur ce que ton compagnon te reconnaît comme vrai. » Amr a dit : « te reconnaît comme tel. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "88b52c54-07a1-4d52-85f6-e0f71f6f6804",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1653b",
+      "reference": "Sahih Muslim, hadith 1653 b, book 27, باب يَمِينِ الْحَالِفِ عَلَى نِيَّةِ الْمُسْتَحْلِفِ ‏‏",
+      "title": "باب يَمِينِ الْحَالِفِ عَلَى نِيَّةِ الْمُسْتَحْلِفِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ هُشَيْمٍ، عَنْ عَبَّادِ بْنِ، أَبِي صَالِحٍ عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْيَمِينُ عَلَى نِيَّةِ الْمُسْتَحْلِفِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8f9ad07c42693845a2fb099ece9857f3c65050c5900e72e83e18f6a3a138eacd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Yazid ibn Harun nous a rapporté, d’après Hushaym, d’après Abbad ibn Abi Salih, d’après son père, d’après Abu Hurayra, qui a dit : le Messager d’Allah ﷺ a dit : « Le serment est déterminé par l’intention de la personne qui demande qu’on jure. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90577060-2334-4784-9a50-d88179b524de",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1654a",
+      "reference": "Sahih Muslim, hadith 1654 a, book 27, باب الاِسْتِثْنَاءِ ‏‏",
+      "title": "باب الاِسْتِثْنَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الرَّبِيعِ الْعَتَكِيُّ، وَأَبُو كَامِلٍ الْجَحْدَرِيُّ فُضَيْلُ بْنُ حُسَيْنٍ - وَاللَّفْظُ لأَبِي الرَّبِيعِ - قَالاَ حَدَّثَنَا حَمَّادٌ، - وَهُوَ ابْنُ زَيْدٍ - حَدَّثَنَا أَيُّوبُ، عَنْ مُحَمَّدٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ كَانَ لِسُلَيْمَانَ سِتُّونَ امْرَأَةً فَقَالَ لأَطُوفَنَّ عَلَيْهِنَّ اللَّيْلَةَ فَتَحْمِلُ كُلُّ وَاحِدَةٍ مِنْهُنَّ فَتَلِدُ كُلُّ وَاحِدَةٍ مِنْهُنَّ غُلاَمًا فَارِسًا يُقَاتِلُ فِي سَبِيلِ اللَّهِ فَلَمْ تَحْمِلْ مِنْهُنَّ إِلاَّ وَاحِدَةٌ فَوَلَدَتْ نِصْفَ إِنْسَانٍ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ كَانَ اسْتَثْنَى لَوَلَدَتْ كُلُّ وَاحِدَةٍ مِنْهُنَّ غُلاَمًا فَارِسًا يُقَاتِلُ فِي سَبِيلِ اللَّهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "efec0ff09e71465ff87b3635969e0934d3af169d2b55ff4476c006cc20ebf0c6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Ataki et Abu Kamil al-Jahdari — Fudayl ibn Husayn — m’ont rapporté, la formulation étant celle d’Abu al-Rabi‘. Tous deux ont dit : Hammad — ibn Zayd — nous a rapporté : Ayyub nous a rapporté, d’après Muhammad, d’après Abu Hurayra, qui a dit : « Sulayman avait soixante épouses. Il dit : “Cette nuit, je passerai auprès d’elles afin que chacune tombe enceinte et donne naissance à un garçon cavalier qui combattra dans la voie d’Allah.” Aucune ne tomba enceinte, sauf une, qui donna naissance à un demi-être humain. » Le Messager d’Allah ﷺ dit : « S’il avait dit : “Si Allah le veut”, chacune aurait donné naissance à un garçon cavalier qui combat dans la voie d’Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c653e129-ca5b-45ce-a39f-7bd210925747",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1654b",
+      "reference": "Sahih Muslim, hadith 1654 b, book 27, باب الاِسْتِثْنَاءِ ‏‏",
+      "title": "باب الاِسْتِثْنَاءِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، وَابْنُ أَبِي عُمَرَ، - وَاللَّفْظُ لاِبْنِ أَبِي عُمَرَ - قَالاَ حَدَّثَنَا سُفْيَانُ، عَنْ هِشَامِ بْنِ حُجَيْرٍ، عَنْ طَاوُسٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ سُلَيْمَانُ بْنُ دَاوُدَ نَبِيُّ اللَّهِ لأَطُوفَنَّ اللَّيْلَةَ عَلَى سَبْعِينَ امْرَأَةً كُلُّهُنَّ تَأْتِي بِغُلاَمٍ يُقَاتِلُ فِي سَبِيلِ اللَّهِ ‏.‏ فَقَالَ لَهُ صَاحِبُهُ أَوِ الْمَلَكُ قُلْ إِنْ شَاءَ اللَّهُ ‏.‏ فَلَمْ يَقُلْ وَنَسِيَ ‏.‏ فَلَمْ تَأْتِ وَاحِدَةٌ مِنْ نِسَائِهِ إِلاَّ وَاحِدَةٌ جَاءَتْ بِشِقِّ غُلاَمٍ ‏\"‏ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَلَوْ قَالَ إِنْ شَاءَ اللَّهُ ‏.‏ لَمْ يَحْنَثْ وَكَانَ دَرَكًا لَهُ فِي حَاجَتِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "44b6415fbd202d98594325f66d89328cda344a9f725c0ae0397867063ce12ed9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abbad et Ibn Abi Umar nous ont rapporté — la formulation est celle d’Ibn Abi Umar — : Sufyan nous a rapporté, d’après Hisham ibn Hujayr, d’après Tawus, d’après Abu Hurayra, d’après le Prophète ﷺ, qui a dit : « Sulayman ibn Dawud, le Prophète d’Allah, dit : “Cette nuit, je passerai auprès de soixante-dix femmes, chacune donnera naissance à un garçon qui combattra dans la voie d’Allah.” Son compagnon — ou l’ange — lui dit : “Dis : ‘Si Allah le veut.’” Mais il ne le dit pas et l’oublia. Aucune de ses femmes n’accoucha, sauf une, qui donna naissance à la moitié d’un garçon. » Le Messager d’Allah ﷺ dit : « S’il avait dit : “Si Allah le veut”, il n’aurait pas manqué à son serment, et cela aurait accompli son souhait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "7967d252-7437-41fa-b454-72680e2cbd5a",
+      "reason": "Cette entrée donne seulement plusieurs chaînes de transmission et indique qu’elles rapportent un récit semblable à celui de Jarir, sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
