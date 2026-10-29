@@ -11930,3 +11930,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2090-2091e
 
 - FR-LIB-HAD-MUSLIM-0992 saves four complete private French drafts about gold and silver rings. Two transmission-only variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2092a-2093a
+
+- FR-LIB-HAD-MUSLIM-0993 saves four complete private French drafts about the silver seal ring. One malformed source and one transmission-only variant remain blank with specific Needs Mo reasons. No database write or publication occurred.
