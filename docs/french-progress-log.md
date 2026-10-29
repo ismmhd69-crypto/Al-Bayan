@@ -13490,3 +13490,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Batch FR-LIB-HAD-MUSLIM-1323 contains six reports. Four complete reports are translated. Two reports using the uncommon term « darmaka » remain blank under Needs Mo pending confirmation of its exact French equivalent. The exporter deferred another long report for single-source handling.
 - Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Four private local drafts saved.
 - Reconciled saved records: 6336 Bukhari and 5157 Muslim drafts (11493 total); 2927 held Needs Mo; 14420 sources represented; 209 not yet exported. Local records without French drafts: 3136. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2930a, batch 1324
+
+- Batch FR-LIB-HAD-MUSLIM-1324 contains one long report, translated in its own file as required by the exporter.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. One private local draft saved.
+- Reconciled saved records: 6336 Bukhari and 5158 Muslim drafts (11494 total); 2927 held Needs Mo; 14421 sources represented; 208 not yet exported. Local records without French drafts: 3135. All 14,629 remain missing from the live French table.
