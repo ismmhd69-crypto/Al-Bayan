@@ -6911,3 +6911,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1346 saves six private French drafts, including the combined 7387–7388 source record. Narrator chains, the alternate ending in 7386, and the two wordings reported within the supplication in 7390 are retained. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,209 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 130. Total local hadith rows not drafted: 8,420, including held records.
+
+### 2026-10-29: Bukhari 7393–7398
+
+- FR-LIB-HAD-BUKHARI-1347 saves 6 private French drafts. The bedtime and waking invocations, sleep preparation instruction, supplication concerning Satan, hunting report, and food brought by recent converts are preserved with their source wording. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,215 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 130. Total local hadith rows not drafted: 8,414, including held records.
