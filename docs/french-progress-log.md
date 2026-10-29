@@ -1921,3 +1921,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-401` saves two private French drafts for Bukhari 2331–2332, preserving the Khaybar harvest share and the reason for prohibiting divided land plots.
 - The two-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,118 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 123. Total local hadith rows not drafted: 12,511, including held records.
+
+### 2026-10-29: Bukhari 2333 long-source review
+
+- `FR-LIB-HAD-BUKHARI-402` saves the full private French draft for Bukhari 2333, a source too long for a multi-item export. It preserves all three men’s accounts and their prayers.
+- The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,119 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 123. Total local hadith rows not drafted: 12,510, including held records.
