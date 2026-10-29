@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6072,
+    "hadithBukhariDrafted": 6076,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6072,
+    "hadithLocalDrafted": 6076,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8557,
-    "hadithNeedsMo": 853,
+    "hadithLocalRemaining": 8553,
+    "hadithNeedsMo": 855,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -27839,6 +27839,28 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1319",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1319.json",
+      "sourceIds": [
+        "c8938719-c83f-4078-af04-c8eb9155a4d4",
+        "b877c077-3443-44c5-97da-d41e4870e405",
+        "d04e6ba0-9fde-4a17-bc73-e1cc0ad692d2",
+        "8878a435-3de9-4946-ac6d-8bf4a03aa2b9",
+        "b72e829f-6f1f-4308-a927-b0f1ef54fb70",
+        "7722ce3f-bed1-49f6-bcc3-2ff63f784e96"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "needsMo": 2,
+      "validation": "four complete drafts; reports 7214 and 7215 directly quote Quran 60:12 and remain wholly blank under Needs Mo; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local drafts with two held items"
     }
   ],
   "blockers": [
@@ -31345,11 +31367,23 @@
       "scope": "Sahih al-Bukhari 7195: unclear demonstrative and dual pronoun referents in the courtroom anecdote",
       "status": "blocked",
       "reason": "The brief excerpt does not identify what ماذا تقول هذه or صاحبهما الذي صنع بهما refer to. Keep the whole translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-7214-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 7214: direct quotation of Quran 60:12",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 60:12. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7215-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 7215: direct quotation of Quran 60:12",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 60:12. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6072,
-  "hadithLocalDrafted": 6072,
-  "hadithLocalRemaining": 8557,
+  "hadithBukhariDrafted": 6076,
+  "hadithLocalDrafted": 6076,
+  "hadithLocalRemaining": 8553,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -31998,6 +32032,18 @@
       "scope": "Sahih al-Bukhari 7195: unclear demonstrative and dual pronoun referents in the courtroom anecdote",
       "status": "blocked",
       "reason": "The brief excerpt does not identify what ماذا تقول هذه or صاحبهما الذي صنع بهما refer to. Keep the whole translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-7214-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 7214: direct quotation of Quran 60:12",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 60:12. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7215-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 7215: direct quotation of Quran 60:12",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 60:12. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ]
 }
