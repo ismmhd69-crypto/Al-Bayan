@@ -8250,7 +8250,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 541a–543c
 
 - FR-LIB-HAD-MUSLIM-0225 saves four private French drafts about seeking refuge from Iblis during prayer and the Prophet ﷺ carrying Umama while praying. Muslim 541a remains blank because it quotes a Quranic supplication; 541b contains only a variant note and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 909 Muslim drafts, 7,245 total hadith drafts, 7,384 remaining, and 437 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 909 Muslim drafts, 7,245 total hadith drafts, 7,384 remaining, and 437 Needs Mo items.
 
 ### 2026-10-29: Muslim 543d–546b
 
@@ -8811,3 +8811,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0336 saves five private French drafts about prayer at home and consistency in worship. Muslim 781b only refers to the preceding report and adds a phrase, so it remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1348 Muslim drafts, 7684 total hadith drafts, 6945 remaining, and 619 Needs Mo items.
+
+### 2026-10-29: Muslim 782c–785a
+
+- FR-LIB-HAD-MUSLIM-0337 saves five private French drafts about consistent worship, prayer during fatigue, and fasting in Sha‘ban. Muslim 784b only points to a preceding report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1353 Muslim drafts, 7689 total hadith drafts, 6940 remaining, and 620 Needs Mo items.
