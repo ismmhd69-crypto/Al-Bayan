@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0766",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:15:42.918Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "463692a0-fd01-4bde-aec5-e3c1dbea61e3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1638b",
+      "reference": "Sahih Muslim, hadith 1638 b, book 26, باب الأَمْرِ بِقَضَاءِ النَّذْرِ ‏‏",
+      "title": "باب الأَمْرِ بِقَضَاءِ النَّذْرِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ عَنِ ابْنِ عُيَيْنَةَ، ح وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، ح وَحَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ بَكْرِ بْنِ وَائِلٍ، كُلُّهُمْ عَنِ الزُّهْرِيِّ، ‏.‏ بِإِسْنَادِ اللَّيْثِ وَمَعْنَى حَدِيثِهِ ‏.‏",
+      "source_hash_sha256": "9ae8eb4c2a6fa9e85039c5de0b682d17f7c9cd9a93e548b85845acd6353b0edd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "caddaa90-bdc9-4195-a64b-9b4614c952c5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1639a",
+      "reference": "Sahih Muslim, hadith 1639 a, book 26, باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "title": "باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ، زُهَيْرٌ حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، قَالَ أَخَذَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَوْمًا يَنْهَانَا عَنِ النَّذْرِ وَيَقُولُ ‏\"‏ إِنَّهُ لاَ يَرُدُّ شَيْئًا وَإِنَّمَا يُسْتَخْرَجُ بِهِ مِنَ الشَّحِيحِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b0d71506ddb0d08e4f4f4d75ae3363f61e5fb367f514e6213e4121c60266f1b6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Ishaq ibn Ibrahim m’ont rapporté. Ishaq a dit : Jarir nous a informés ; Zuhayr a dit : Jarir nous a rapporté, d’après Mansur, d’après Abd Allah ibn Murra, d’après Abd Allah ibn Umar, qui a dit : « Un jour, le Messager d’Allah ﷺ se mit à nous interdire les vœux et dit : “Ils ne repoussent rien ; ils ne font qu’extraire quelque chose de l’avare.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "87a19465-3e44-4af7-971e-57f07103d1d1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1639b",
+      "reference": "Sahih Muslim, hadith 1639 b, book 26, باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "title": "باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، حَدَّثَنَا يَزِيدُ بْنُ أَبِي حَكِيمٍ، عَنْ سُفْيَانَ، عَنْ عَبْدِ اللَّهِ بْنِ، دِينَارٍ عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ النَّذْرُ لاَ يُقَدِّمُ شَيْئًا وَلاَ يُؤَخِّرُهُ وَإِنَّمَا يُسْتَخْرَجُ بِهِ مِنَ الْبَخِيلِ ‏\"‏ ‏.",
+      "source_hash_sha256": "daa17bcf32725750f22a5ffd1effced534782da2651dc6a6503de98b04db48ad",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Yahya nous a rapporté : Yazid ibn Abi Hakim nous a rapporté, d’après Sufyan, d’après Abd Allah ibn Dinar, d’après Ibn Umar, d’après le Prophète ﷺ, qui a dit : « Le vœu ne fait rien avancer ni reculer ; il ne fait qu’extraire quelque chose de l’avare. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b86b52fe-2177-4523-8d22-2e4fa31cd4f3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1639c",
+      "reference": "Sahih Muslim, hadith 1639 c, book 26, باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "title": "باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا غُنْدَرٌ، عَنْ شُعْبَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ بَشَّارٍ - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ مَنْصُورٍ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ نَهَى عَنِ النَّذْرِ وَقَالَ ‏\"‏ إِنَّهُ لاَ يَأْتِي بِخَيْرٍ وَإِنَّمَا يُسْتَخْرَجُ بِهِ مِنَ الْبَخِيلِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c47d05afc3371cad40d2883827c4f426d49b36327473c7927c62e464e494dad3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Ghundar nous a rapporté, d’après Shu‘ba. H. Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté — la formulation est celle d’Ibn al-Muthanna — : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Mansur, d’après Abd Allah ibn Murra, d’après Ibn Umar, d’après le Prophète ﷺ, qui a interdit les vœux et a dit : « Ils n’apportent aucun bien ; ils ne font qu’extraire quelque chose de l’avare. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "98f1b161-142c-46d6-96f8-cb107285a67a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1639d",
+      "reference": "Sahih Muslim, hadith 1639 d, book 26, باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "title": "باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا مُفَضَّلٌ، ح وَحَدَّثَنَا مُحَمَّدُ، بْنُ الْمُثَنَّى وَابْنُ بَشَّارٍ قَالاَ حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ سُفْيَانَ، كِلاَهُمَا عَنْ مَنْصُورٍ، بِهَذَا الإِسْنَادِ نَحْوَ حَدِيثِ جَرِيرٍ ‏.‏",
+      "source_hash_sha256": "836365f38c43c2f2a763c9c9ff11b46211b317890632cb897b34ad53e8e9cc19",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "895c3703-4284-499e-bc96-df755b697a8b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1640a",
+      "reference": "Sahih Muslim, hadith 1640 a, book 26, باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "title": "باب النَّهْىِ عَنِ النَّذْرِ، وَأَنَّهُ، لاَ يَرُدُّ شَيْئًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي الدَّرَاوَرْدِيَّ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَنْذُرُوا فَإِنَّ النَّذْرَ لاَ يُغْنِي مِنَ الْقَدَرِ شَيْئًا وَإِنَّمَا يُسْتَخْرَجُ بِهِ مِنَ الْبَخِيلِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "944c17582298df959a05a7144b3d6ed1ad9c374860a670946c8f6f93cc463701",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Abd al-Aziz — c’est-à-dire al-Darawardi — nous a rapporté, d’après al-A‘la, d’après son père, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Ne faites pas de vœu, car le vœu ne peut rien contre le destin. Il ne fait qu’extraire quelque chose de l’avare. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "463692a0-fd01-4bde-aec5-e3c1dbea61e3",
+      "reason": "Cette entrée donne seulement des chaînes de transmission et renvoie au récit de la version de Layth sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "98f1b161-142c-46d6-96f8-cb107285a67a",
+      "reason": "Cette entrée donne une chaîne de transmission et indique seulement un récit similaire à celui de Jarir, sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
