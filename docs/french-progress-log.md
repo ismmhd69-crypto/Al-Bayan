@@ -10611,3 +10611,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0696 saves two private French drafts: one about a child freeing a parent, and one about two named forms of sale. Four entries only refer back to a preceding report and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1511e–1514b
+
+- FR-LIB-HAD-MUSLIM-0697 saves five private French drafts about two irregular sale practices, uncertain sales, and a sale deferred until a camel’s offspring gives birth. Muslim 1512b contains only a chain of transmission and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
