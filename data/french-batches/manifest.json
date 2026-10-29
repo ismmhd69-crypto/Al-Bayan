@@ -19214,6 +19214,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-894",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-894.json",
+      "sourceIds": [
+        "588b848c-8585-45dc-83cd-6a0a215e363c",
+        "2af51f60-f3e3-4c79-b102-484302068fbc",
+        "fe4758ad-7cc3-48eb-bd66-4ffd77202ee0",
+        "b8ee4d93-e955-4335-87bc-c654196d7496",
+        "5761e688-ae0a-4bac-8435-a76b7a38f377",
+        "6bff9c1a-0864-4f29-976f-4c6129d7056d"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 5,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -21472,9 +21493,39 @@
       "scope": "Sahih al-Bukhari 4890: repeated direct Quran quotation from 60:1",
       "status": "blocked",
       "reason": "Hadith 4890 cite directement à deux reprises Quran 60:1 dans un récit concernant Ḥâṭib ibn Abî Baltaʿa. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-893, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4891-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 4891: direct Quran wording from 60:12",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 60:12. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-894, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4892-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 4892: direct Quran wording from 60:12",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 60:12. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-894, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4893-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 4893: direct Quran wording from 60:12",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 60:12. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-894, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4894-QURAN-4894-NISA-UNMARKED",
+      "scope": "Sahih al-Bukhari 4894: direct Quran wording from citation directe du passage de la sourate an-Nisâ’ (sans marqueur de balisage)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran citation directe du passage de la sourate an-Nisâ’ (sans marqueur de balisage). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-894, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4895-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 4895: direct Quran wording from 60:12",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 60:12. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-894, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4059,
-  "hadithLocalDrafted": 4059,
-  "hadithLocalRemaining": 10608
+  "hadithBukhariDrafted": 4060,
+  "hadithLocalDrafted": 4060,
+  "hadithLocalRemaining": 10607
 }
