@@ -1256,3 +1256,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-264` saves six private French drafts for Bukhari 1513–1518. They preserve the Khath‘am woman’s question about Hajj on behalf of her elderly father, the timing of the talbiya, and Aïcha’s ‘umra from al-Tan‘im. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,388 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,241, including held records.
+
+### 2026-10-29: Bukhari 1519–1524 source review
+
+- `FR-LIB-HAD-BUKHARI-265` saves five private French drafts for Bukhari 1519–1522 and 1524. Bukhari 1523 remains blank and is recorded under Needs Mo because it directly quotes Quran 2:197; no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,393 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 78. Total local hadith rows not drafted: 13,236, including held records.
