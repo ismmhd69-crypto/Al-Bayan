@@ -9761,3 +9761,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0526 saves four private French drafts listing harmful animals that may be killed by someone in consecration. Muslim 1199d–e provide only variant or abbreviated references to previous lists and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1201a–1201f
+
+- FR-LIB-HAD-MUSLIM-0527 saves three private French drafts about Ka‘b ibn ‘Ujra’s head lice and the alternatives given to him. Muslim 1201b is an incomplete cross-reference; 1201c–d directly quote Quran 2:196. All three remain fully blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
