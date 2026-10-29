@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-1157",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:27:58.347Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "40b466f2-7b1e-43ab-8ce7-c88db6d4e0a8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2493b",
+      "reference": "Sahih Muslim, hadith 2493 b, book 55, باب التَّثَبُّتِ فِي الْحَدِيثِ وَحُكْمِ كِتَابَةِ الْعِلْمِ",
+      "title": "باب التَّثَبُّتِ فِي الْحَدِيثِ وَحُكْمِ كِتَابَةِ الْعِلْمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَارُونُ بْنُ مَعْرُوفٍ، حَدَّثَنَا بِهِ، سُفْيَانُ بْنُ عُيَيْنَةَ عَنْ هِشَامٍ، عَنْ أَبِيهِ، قَالَ كَانَ أَبُو هُرَيْرَةَ يُحَدِّثُ وَيَقُولُ اسْمَعِي يَا رَبَّةَ الْحُجْرَةِ اسْمَعِي يَا رَبَّةَ الْحُجْرَةِ ‏.‏ وَعَائِشَةُ تُصَلِّي فَلَمَّا قَضَتْ صَلاَتَهَا قَالَتْ لِعُرْوَةَ أَلاَ تَسْمَعُ إِلَى هَذَا وَمَقَالَتِهِ آنِفًا إِنَّمَا كَانَ النَّبِيُّ صلى الله عليه وسلم يُحَدِّثُ حَدِيثًا لَوْ عَدَّهُ الْعَادُّ لأَحْصَاهُ ‏.‏",
+      "source_hash_sha256": "6f99b9988349703e7b7119b76752726a6051cf4b4a26c95471a023bfb68f3998",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Urwa rapporte qu’Abû Hurayra racontait des récits en répétant : « Écoute, maîtresse de l’appartement ! Écoute, maîtresse de l’appartement ! » Aïcha priait. Lorsqu’elle eut terminé, elle dit à Urwa : « N’entends-tu pas ce qu’il vient de dire ? Le Prophète ﷺ parlait si distinctement que, si quelqu’un avait compté ses paroles, il aurait pu toutes les dénombrer. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
