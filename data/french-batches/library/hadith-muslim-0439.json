@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0439",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:20:08.055Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "319beab0-5268-4099-ba36-9988527b2194",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1026",
+      "reference": "Sahih Muslim, hadith 1026, book 12, باب مَا أَنْفَقَ الْعَبْدُ مِنْ مَالِ مَوْلاَهُ ‏‏",
+      "title": "باب مَا أَنْفَقَ الْعَبْدُ مِنْ مَالِ مَوْلاَهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ مُحَمَّدٍ، رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تَصُمِ الْمَرْأَةُ وَبَعْلُهَا شَاهِدٌ إِلاَّ بِإِذْنِهِ وَلاَ تَأْذَنْ فِي بَيْتِهِ وَهُوَ شَاهِدٌ إِلاَّ بِإِذْنِهِ وَمَا أَنْفَقَتْ مِنْ كَسْبِهِ مِنْ غَيْرِ أَمْرِهِ فَإِنَّ نِصْفَ أَجْرِهِ لَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5dd54cfd1670bb3729540eb0a52d37a20f2d164c41abb69411368cd6c176347c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi‘ nous a rapporté : ‘Abd al-Razzaq nous a rapporté : Ma‘mar nous a rapporté, d’après Hammam ibn Munabbih, qui a dit : Voici ce qu’Abu Hurayra nous a rapporté du Messager d’Allah Muhammad ﷺ, parmi ses récits. Le Messager d’Allah ﷺ a dit : « Qu’une femme ne jeûne pas volontairement alors que son mari est présent sans sa permission. Qu’elle ne laisse entrer personne dans sa maison lorsqu’il est présent sans sa permission. Et ce qu’elle dépense des biens qu’il a acquis sans qu’il le lui ait ordonné lui vaut la moitié de la récompense. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5b492326-39c1-4dc1-98d8-b91def2725ac",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1027a",
+      "reference": "Sahih Muslim, hadith 1027 a, book 12, باب مَنْ جَمَعَ الصَّدَقَةَ وَأَعْمَالَ الْبِرِّ ‏‏",
+      "title": "باب مَنْ جَمَعَ الصَّدَقَةَ وَأَعْمَالَ الْبِرِّ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ بْنُ يَحْيَى التُّجِيبِيُّ، - وَاللَّفْظُ لأَبِي الطَّاهِرِ - قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ حُمَيْدِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ أَنْفَقَ زَوْجَيْنِ فِي سَبِيلِ اللَّهِ نُودِيَ فِي الْجَنَّةِ يَا عَبْدَ اللَّهِ هَذَا خَيْرٌ ‏.‏ فَمَنْ كَانَ مِنْ أَهْلِ الصَّلاَةِ دُعِيَ مِنْ بَابِ الصَّلاَةِ وَمَنْ كَانَ مِنْ أَهْلِ الْجِهَادِ دُعِيَ مِنْ بَابِ الْجِهَادِ ، وَمَنْ كَانَ مِنْ أَهْلِ الصَّدَقَةِ دُعِيَ مِنْ بَابِ الصَّدَقَةِ ، وَمَنْ كَانَ مِنْ أَهْلِ الصِّيَامِ دُعِيَ مِنْ بَابِ الرَّيَّانِ \" ، قَالَ أَبُو بَكْرٍ الصِّدِّيقُ : يَا رَسُولَ اللَّهِ مَا عَلَى أَحَدٍ يُدْعَى مِنْ تِلْكَ الْأَبْوَابِ مِنْ ضَرُورَةٍ ، فَهَلْ يُدْعَى أَحَدٌ مِنْ تِلْكَ الْأَبْوَابِ كُلِّهَا ؟ ، قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : \" نَعَمْ وَأَرْجُو أَنْ تَكُونَ مِنْهُمْ \" ، حَدَّثَنِي عَمْرٌو النَّاقِدُ ، وَالْحَسَنُ الْحُلْوَانِيُّ ، وَعَبْدُ بْنُ حُمَيْدٍ ، قَالُوا : حَدَّثَنَا يَعْقُوبُ وَهُوَ ابْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ ، حَدَّثَنَا أَبِي ، عَنْ صَالِحٍ . وحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ ، أَخْبَرَنَا مَعْمَرٌ كِلَاهُمَا ، عَنْ الزُّهْرِيِّ بِإِسْنَادِ يُونُسَ وَمَعْنَى حَدِيثِهِ .",
+      "source_hash_sha256": "209986a667f723b800da4b54af311ddb68a606038438837fa87b79d52dcd3e19",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir et Harmala ibn Yahya al-Tujibi m’ont rapporté — la formulation est celle d’Abu al-Tahir — : Ibn Wahb nous a rapporté : Yunus m’a informé, d’après Ibn Shihab, d’après Humayd ibn ‘Abd al-Rahman, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Celui qui dépense deux choses de la même nature au service d’Allah sera appelé au Paradis : “Ô serviteur d’Allah, voici un bienfait !” Celui qui appartient aux gens de la prière sera appelé par la porte de la prière ; celui qui appartient aux gens du combat, par la porte du combat ; celui qui appartient aux gens de l’aumône, par la porte de l’aumône ; et celui qui appartient aux gens du jeûne, par la porte de al-Rayyan. » Abu Bakr al-Siddiq demanda : « Ô Messager d’Allah, celui qui est appelé par l’une de ces portes n’a aucun besoin d’en être appelé par les autres. Y en aura-t-il qui seront appelés par toutes ces portes ? » Le Messager d’Allah ﷺ répondit : « Oui, et j’espère que tu seras de ceux-là. » ‘Amr al-Naqid, al-Hasan al-Hulwani et ‘Abd ibn Humayd nous ont également rapporté : Ya‘qub — Ibn Ibrahim ibn Sa‘d — nous a rapporté : Mon père nous a rapporté, d’après Salih. ‘Abd ibn Humayd nous a aussi rapporté : ‘Abd al-Razzaq nous a informés : Ma‘mar nous a rapporté, tous deux d’après al-Zuhri, avec la chaîne de Yunus et un récit de même sens.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e36d4bcd-3ed1-4daf-ad25-f5bc9bd29cb9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1027b",
+      "reference": "Sahih Muslim, hadith 1027 b, book 12, باب مَنْ جَمَعَ الصَّدَقَةَ وَأَعْمَالَ الْبِرِّ ‏‏",
+      "title": "باب مَنْ جَمَعَ الصَّدَقَةَ وَأَعْمَالَ الْبِرِّ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرٌو النَّاقِدُ، وَالْحَسَنُ الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالُوا حَدَّثَنَا يَعْقُوبُ، - وَهُوَ ابْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ - حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، ح وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا عَبْدُ، الرَّزَّاقِ أَخْبَرَنَا مَعْمَرٌ، كِلاَهُمَا عَنِ الزُّهْرِيِّ، بِإِسْنَادِ يُونُسَ وَمَعْنَى حَدِيثِهِ ‏.‏",
+      "source_hash_sha256": "789f48b41f47895e03ff958ff20c4ae94ba39a247141de55fcc965bb193d916b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6e8bedc8-b1e3-4ffa-99d3-13ea12145dba",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1027c",
+      "reference": "Sahih Muslim, hadith 1027 c, book 12, باب مَنْ جَمَعَ الصَّدَقَةَ وَأَعْمَالَ الْبِرِّ ‏‏",
+      "title": "باب مَنْ جَمَعَ الصَّدَقَةَ وَأَعْمَالَ الْبِرِّ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، حَدَّثَنَا شَيْبَانُ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا شَبَابَةُ، حَدَّثَنِي شَيْبَانُ بْنُ عَبْدِ الرَّحْمَنِ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ أَنْفَقَ زَوْجَيْنِ فِي سَبِيلِ اللَّهِ دَعَاهُ خَزَنَةُ الْجَنَّةِ كُلُّ خَزَنَةِ بَابٍ أَىْ فُلُ هَلُمَّ ‏\"‏ ‏.‏ فَقَالَ أَبُو بَكْرٍ يَا رَسُولَ اللَّهِ ذَلِكَ الَّذِي لاَ تَوَى عَلَيْهِ ‏.‏ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنِّي لأَرْجُو أَنْ تَكُونَ مِنْهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ba107accdc6edd04145cb7ed80de0b3bb1194875d88fd1cac843b287791a6566",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi‘ m’a rapporté : Muhammad ibn ‘Abd Allah ibn al-Zubayr nous a rapporté : Shayban nous a rapporté. Muhammad ibn Hatim m’a également rapporté — la formulation est la sienne — : Shababa nous a rapporté : Shayban ibn ‘Abd al-Rahman m’a rapporté, d’après Yahya ibn Abi Kathir, d’après Abu Salama ibn ‘Abd al-Rahman, qui a entendu Abu Hurayra dire que le Messager d’Allah ﷺ a dit : « Celui qui dépense deux choses de la même nature au service d’Allah sera appelé par les gardiens du Paradis, chaque gardien de porte l’appelant : “Viens ici !” » Abu Bakr dit : « Ô Messager d’Allah, celui qui est appelé par l’une de ces portes n’a aucun besoin des autres. » Le Messager d’Allah ﷺ répondit : « J’espère que tu seras de ceux-là. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1c5096cc-276b-46da-b4e9-6643e29d2513",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1028",
+      "reference": "Sahih Muslim, hadith 1028, book 12, باب مَنْ جَمَعَ الصَّدَقَةَ وَأَعْمَالَ الْبِرِّ ‏‏",
+      "title": "باب مَنْ جَمَعَ الصَّدَقَةَ وَأَعْمَالَ الْبِرِّ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا مَرْوَانُ، - يَعْنِي الْفَزَارِيَّ - عَنْ يَزِيدَ، - وَهُوَ ابْنُ كَيْسَانَ - عَنْ أَبِي حَازِمٍ الأَشْجَعِيِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ أَصْبَحَ مِنْكُمُ الْيَوْمَ صَائِمًا ‏\"‏ ‏.‏ قَالَ أَبُو بَكْرٍ رضى الله عنه أَنَا ‏.‏ قَالَ ‏\"‏ فَمَنْ تَبِعَ مِنْكُمُ الْيَوْمَ جَنَازَةً ‏\"‏ ‏.‏ قَالَ أَبُو بَكْرٍ رضى الله عنه أَنَا ‏.‏ قَالَ ‏\"‏ فَمَنْ أَطْعَمَ مِنْكُمُ الْيَوْمَ مِسْكِينًا ‏\"‏ ‏.‏ قَالَ أَبُو بَكْرٍ رضى الله عنه أَنَا ‏.‏ قَالَ ‏\"‏ فَمَنْ عَادَ مِنْكُمُ الْيَوْمَ مَرِيضًا ‏\"‏ ‏.‏ قَالَ أَبُو بَكْرٍ رضى الله عنه أَنَا ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا اجْتَمَعْنَ فِي امْرِئٍ إِلاَّ دَخَلَ الْجَنَّةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bd5321bc53fdf80542cf2ab62e09d508f0a93d9ae3e07af46ed1fb0932a41b96",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abi ‘Umar nous a rapporté : Marwan — al-Fazari — nous a rapporté, d’après Yazid — Ibn Kaysan —, d’après Abu Hazim al-Ashja‘i, d’après Abu Hurayra, qui a dit que le Messager d’Allah ﷺ demanda : « Qui d’entre vous a commencé cette journée en jeûnant ? » Abu Bakr, qu’Allah l’agrée, répondit : « Moi. » Le Prophète ﷺ demanda : « Qui d’entre vous a suivi aujourd’hui un convoi funéraire ? » Abu Bakr répondit : « Moi. » Il demanda : « Qui d’entre vous a nourri aujourd’hui un nécessiteux ? » Abu Bakr répondit : « Moi. » Il demanda : « Qui d’entre vous a rendu visite aujourd’hui à un malade ? » Abu Bakr répondit : « Moi. » Le Messager d’Allah ﷺ dit alors : « Ces actes ne se réunissent pas chez une personne sans qu’elle n’entre au Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8e031f65-6bdc-494e-8ccd-bc3b538ec314",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1028b",
+      "reference": "Sahih Muslim, hadith 1028 b, book 44, باب مِنْ فَضَائِلِ أَبِي بَكْرٍ الصِّدِّيقِ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ أَبِي بَكْرٍ الصِّدِّيقِ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي عُمَرَ الْمَكِّيُّ، حَدَّثَنَا مَرْوَانُ بْنُ مُعَاوِيَةَ الْفَزَارِيُّ، عَنْ يَزِيدَ، - وَهُوَ ابْنُ كَيْسَانَ - عَنْ أَبِي حَازِمٍ الأَشْجَعِيِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ أَصْبَحَ مِنْكُمُ الْيَوْمَ صَائِمًا ‏\"‏ ‏.‏ قَالَ أَبُو بَكْرٍ أَنَا ‏.‏ قَالَ ‏\"‏ فَمَنْ تَبِعَ مِنْكُمُ الْيَوْمَ جَنَازَةً ‏\"‏ ‏.‏ قَالَ أَبُو بَكْرٍ أَنَا ‏.‏ قَالَ ‏\"‏ فَمَنْ أَطْعَمَ مِنْكُمُ الْيَوْمَ مِسْكِينًا ‏\"‏ ‏.‏ قَالَ أَبُو بَكْرٍ أَنَا ‏.‏ قَالَ ‏\"‏ فَمَنْ عَادَ مِنْكُمُ الْيَوْمَ مَرِيضًا ‏\"‏ ‏.‏ قَالَ أَبُو بَكْرٍ أَنَا ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا اجْتَمَعْنَ فِي امْرِئٍ إِلاَّ دَخَلَ الْجَنَّةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9efa7a467d9408db422d1bb55b7c1e7db0bcd42087bcb0b6a904c8d7fd9a46f5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abi ‘Umar al-Makki nous a rapporté : Marwan ibn Mu‘awiya al-Fazari nous a rapporté, d’après Yazid — Ibn Kaysan —, d’après Abu Hazim al-Ashja‘i, d’après Abu Hurayra, qui a dit que le Messager d’Allah ﷺ demanda : « Qui d’entre vous a commencé cette journée en jeûnant ? » Abu Bakr répondit : « Moi. » Il demanda : « Qui d’entre vous a suivi aujourd’hui un convoi funéraire ? » Abu Bakr répondit : « Moi. » Il demanda : « Qui d’entre vous a nourri aujourd’hui un nécessiteux ? » Abu Bakr répondit : « Moi. » Il demanda : « Qui d’entre vous a rendu visite aujourd’hui à un malade ? » Abu Bakr répondit : « Moi. » Le Messager d’Allah ﷺ dit alors : « Ces actes ne se réunissent pas chez une personne sans qu’elle n’entre au Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e36d4bcd-3ed1-4daf-ad25-f5bc9bd29cb9",
+      "reason": "La source ne rapporte que des chaînes alternatives et renvoie à la version de Yunus sans en reproduire le récit. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

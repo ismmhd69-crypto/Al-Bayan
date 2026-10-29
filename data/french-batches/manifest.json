@@ -38078,6 +38078,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0439",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0439.json",
+      "sourceIds": [
+        "319beab0-5268-4099-ba36-9988527b2194",
+        "5b492326-39c1-4dc1-98d8-b91def2725ac",
+        "e36d4bcd-3ed1-4daf-ad25-f5bc9bd29cb9",
+        "6e8bedc8-b1e3-4ffa-99d3-13ea12145dba",
+        "1c5096cc-276b-46da-b4e9-6643e29d2513",
+        "8e031f65-6bdc-494e-8ccd-bc3b538ec314"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42385,8 +42406,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8052,
-  "hadithLocalRemaining": 6577,
+  "hadithLocalDrafted": 8057,
+  "hadithLocalRemaining": 6572,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -45388,10 +45409,15 @@
       "source_id": "73f5c546-2efc-42a6-a1cb-4ca58af53764",
       "reason": "La source ne donne qu’une chaîne de transmission abrégée et renvoie à une version précédente sans en rapporter le contenu. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "e36d4bcd-3ed1-4daf-ad25-f5bc9bd29cb9",
+      "reason": "La source ne rapporte que des chaînes alternatives et renvoie à la version de Yunus sans en reproduire le récit. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1716,
+  "hadithMuslimDrafted": 1721,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 812
+  "hadithNeedsMo": 813
 }

@@ -9321,3 +9321,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0438 saves four private French drafts on household charity and sharing food. Muslim 1024b and 1024d are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1716 Muslim drafts, 8052 total hadith drafts, 6577 remaining, and 812 Needs Mo items.
+
+### 2026-10-29: Muslim 1026–1028b
+
+- FR-LIB-HAD-MUSLIM-0439 saves five private French drafts on household spending and worship. Muslim 1027b is an incomplete cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1721 Muslim drafts, 8057 total hadith drafts, 6572 remaining, and 813 Needs Mo items.
