@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6143,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 8486,
-    "hadithNeedsMo": 117,
+    "hadithNeedsMo": 118,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28130,6 +28130,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1333",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1333.json",
+      "sourceIds": [
+        "7273e8e7-4178-410b-a630-97cd4939f7b4"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "one long source exported and hash retained; full translation held because of a direct Quran quotation; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo"
     }
   ],
   "blockers": [
@@ -31690,6 +31706,12 @@
       "scope": "Sahih al-Bukhari 7302: direct quotation of Quran 49 : 2",
       "status": "blocked",
       "reason": "The report directly quotes Quran 49:2. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7305-QURAN-59-6",
+      "scope": "Sahih al-Bukhari 7305: long report with direct quotation of Quran 59:6",
+      "status": "blocked",
+      "reason": "The long report directly quotes Quran 59:6. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
   "hadithBukhariDrafted": 6143,
@@ -32397,6 +32419,12 @@
       "scope": "Sahih al-Bukhari 7302: direct quotation of Quran 49 : 2",
       "status": "blocked",
       "reason": "The report directly quotes Quran 49:2. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7305-QURAN-59-6",
+      "scope": "Sahih al-Bukhari 7305: long report with direct quotation of Quran 59:6",
+      "status": "blocked",
+      "reason": "The long report directly quotes Quran 59:6. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
   "hadithMuslimDrafted": 0
