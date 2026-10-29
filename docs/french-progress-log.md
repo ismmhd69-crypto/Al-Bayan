@@ -11778,3 +11778,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2023a-2024c
 
 - FR-LIB-HAD-MUSLIM-0954 saves four complete private French drafts about drinking from waterskins and while standing. Two entries that refer back to prior reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2025a-2027c
+
+- FR-LIB-HAD-MUSLIM-0955 saves six private French drafts covering reports against drinking while standing and reports of drinking Zamzam while standing. The different narrations are preserved. No database write or publication occurred.
