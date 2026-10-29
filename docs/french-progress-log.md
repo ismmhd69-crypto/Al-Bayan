@@ -10916,3 +10916,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0757 saves five private French drafts about equal gifts to children. Muslim 1623c only describes transmission and wording variants and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1623i–1625c
+
+- FR-LIB-HAD-MUSLIM-0758 saves six private French drafts about equal treatment of children and lifetime gifts. All six entries contain full reports.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
