@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5685,
+    "hadithBukhariDrafted": 5689,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5685,
+    "hadithLocalDrafted": 5689,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8944,
-    "hadithNeedsMo": 821,
+    "hadithLocalRemaining": 8940,
+    "hadithNeedsMo": 823,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26212,6 +26212,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1239",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1239.json",
+      "sourceIds": [
+        "f8a5b99b-b8db-44b2-931d-89f2d910c3c6",
+        "d12c3256-359b-45c4-8a00-78cfa30808b7",
+        "43f89228-36a2-4c8f-bca0-793b62933445",
+        "97eff41b-fe01-4b44-95a6-8e785ffce1f6",
+        "daa300cc-7c0a-4306-bcb8-2ec59f0f7819",
+        "0c52e926-6b2c-4334-a93b-6758e8037471"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four complete French drafts; two reports held in full for specialized or legally significant wording. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private drafts; two Needs Mo holds"
     }
   ],
   "blockers": [
@@ -29526,11 +29547,23 @@
       "scope": "Sahih al-Bukhari 6747: direct quotations of Quran 4:33",
       "status": "blocked",
       "reason": "The report directly quotes Quran 4:33 several times. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6753-UNCLEAR-TASAYYUB",
+      "scope": "Sahih al-Bukhari 6753: specialized term يُسَيِّبُونَ for a pre-Islamic practice",
+      "status": "blocked",
+      "reason": "The report contains specialized or legally significant Arabic wording whose precise meaning cannot be established safely from this excerpt alone. Keep the complete translation blank until reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6755-UNCLEAR-LEGAL-TERMS",
+      "scope": "Sahih al-Bukhari 6755: several legally significant phrases including صرف ولا عدل and أخفر مسلمًا",
+      "status": "blocked",
+      "reason": "The report contains specialized or legally significant Arabic wording whose precise meaning cannot be established safely from this excerpt alone. Keep the complete translation blank until reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 5685,
-  "hadithLocalDrafted": 5685,
-  "hadithLocalRemaining": 8944,
+  "hadithBukhariDrafted": 5689,
+  "hadithLocalDrafted": 5689,
+  "hadithLocalRemaining": 8940,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29987,6 +30020,18 @@
       "scope": "Sahih al-Bukhari 6747: direct quotations of Quran 4:33",
       "status": "blocked",
       "reason": "The report directly quotes Quran 4:33 several times. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6753-UNCLEAR-TASAYYUB",
+      "scope": "Sahih al-Bukhari 6753: specialized term يُسَيِّبُونَ for a pre-Islamic practice",
+      "status": "blocked",
+      "reason": "The report contains specialized or legally significant Arabic wording whose precise meaning cannot be established safely from this excerpt alone. Keep the complete translation blank until reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6755-UNCLEAR-LEGAL-TERMS",
+      "scope": "Sahih al-Bukhari 6755: several legally significant phrases including صرف ولا عدل and أخفر مسلمًا",
+      "status": "blocked",
+      "reason": "The report contains specialized or legally significant Arabic wording whose precise meaning cannot be established safely from this excerpt alone. Keep the complete translation blank until reliably clarified."
     }
   ]
 }

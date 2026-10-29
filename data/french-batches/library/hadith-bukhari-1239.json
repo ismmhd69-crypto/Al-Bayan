@@ -1,0 +1,174 @@
+{
+  "batch_id": "HADITH-BUKHARI-1239",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:10:54.479Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f8a5b99b-b8db-44b2-931d-89f2d910c3c6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6753",
+      "reference": "Sahih al-Bukhari, hadith 6753, book 85, باب مِيرَاثِ السَّائِبَةِ",
+      "title": "باب مِيرَاثِ السَّائِبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قَبِيصَةُ بْنُ عُقْبَةَ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي قَيْسٍ، عَنْ هُزَيْلٍ، عَنْ عَبْدِ اللَّهِ، قَالَ إِنَّ أَهْلَ الإِسْلاَمِ لا يُسَيِّبُونَ، وَإِنَّ أَهْلَ الْجَاهِلِيَّةِ كَانُوا يُسَيِّبُونَ‏.‏",
+      "source_hash_sha256": "3556520f6e6bf2e56adcea8229828ec9208441a357a63c942a3fe278dc02e8ee",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_unclear_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Le verbe يُسَيِّبُونَ désigne ici une pratique préislamique particulière, mais le court extrait n’en précise pas assez le sens pour choisir une formulation française sûre. Garder le récit entier en attente d’une clarification."
+    },
+    {
+      "source_id": "d12c3256-359b-45c4-8a00-78cfa30808b7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6754",
+      "reference": "Sahih al-Bukhari, hadith 6754, book 85, باب مِيرَاثِ السَّائِبَةِ",
+      "title": "باب مِيرَاثِ السَّائِبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، أَنَّ عَائِشَةَ ـ رضى الله عنها ـ اشْتَرَتْ بَرِيرَةَ، لِتُعْتِقَهَا، وَاشْتَرَطَ أَهْلُهَا وَلاَءَهَا فَقَالَتْ يَا رَسُولَ اللَّهِ إِنِّي اشْتَرَيْتُ بَرِيرَةَ لأُعْتِقَهَا، وَإِنَّ أَهْلَهَا يَشْتَرِطُونَ وَلاَءَهَا‏.‏ فَقَالَ ‏\"‏ أَعْتِقِيهَا فَإِنَّمَا الْوَلاَءُ لِمَنْ أَعْتَقَ ‏\"‏‏.‏ أَوْ قَالَ ‏\"‏ أَعْطَى الثَّمَنَ ‏\"‏‏.‏ قَالَ فَاشْتَرَتْهَا فَأَعْتَقَتْهَا‏.‏ قَالَ وَخُيِّرَتْ فَاخْتَارَتْ نَفْسَهَا وَقَالَتْ لَوْ أُعْطِيتُ كَذَا وَكَذَا مَا كُنْتُ مَعَهُ‏.‏ قَالَ الأَسْوَدُ وَكَانَ زَوْجُهَا حُرًّا‏.‏ قَوْلُ الأَسْوَدِ مُنْقَطِعٌ، وَقَوْلُ ابْنِ عَبَّاسٍ رَأَيْتُهُ عَبْدًا‏.‏ أَصَحُّ‏.‏",
+      "source_hash_sha256": "b1f9ff9f2551cc7fc96080ac1f32c4b58786b7fedc41534d7cfbbe3a43e45794",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Mûsâ nous a rapporté : Abû ‘Awâna nous a rapporté, d’après Mansûr, d’après Ibrâhîm, d’après al-Aswad, selon lequel ‘Â’isha — qu’Allah l’agrée — acheta Barîra afin de l’affranchir. Les siens posèrent comme condition que le lien de wala’ leur reviendrait. Elle dit : « Messager d’Allah, j’ai acheté Barîra pour l’affranchir, mais les siens exigent que le lien de wala’ leur revienne. » Il dit : « Affranchis-la, car le lien de wala’ revient à celui qui affranchit » — ou a-t-il dit : « à celui qui en a payé le prix » ? Elle l’acheta donc et l’affranchit. Elle reçut le choix [de rester avec son mari ou de le quitter] et choisit de se séparer de lui, en disant : « Même si l’on me donnait ceci et cela, je ne resterais pas avec lui. » Al-Aswad a dit que son mari était un homme libre. La transmission d’al-Aswad est interrompue ; celle d’Ibn ‘Abbâs, qui a dit « Je l’ai vu esclave », est plus authentique.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "43f89228-36a2-4c8f-bca0-793b62933445",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6755",
+      "reference": "Sahih al-Bukhari, hadith 6755, book 85, باب إِثْمِ مَنْ تَبَرَّأَ مِنْ مَوَالِيهِ",
+      "title": "باب إِثْمِ مَنْ تَبَرَّأَ مِنْ مَوَالِيهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، قَالَ قَالَ عَلِيٌّ ـ رضى الله عنه مَا عِنْدَنَا كِتَابٌ نَقْرَؤُهُ إِلاَّ كِتَابُ اللَّهِ، غَيْرَ هَذِهِ الصَّحِيفَةِ‏.‏ قَالَ فَأَخْرَجَهَا فَإِذَا فِيهَا أَشْيَاءُ مِنَ الْجِرَاحَاتِ وَأَسْنَانِ الإِبِلِ‏.‏ قَالَ وَفِيهَا الْمَدِينَةُ حَرَمٌ مَا بَيْنَ عَيْرٍ إِلَى ثَوْرٍ، فَمَنْ أَحْدَثَ فِيهَا حَدَثًا، أَوْ آوَى مُحْدِثًا، فَعَلَيْهِ لَعْنَةُ اللَّهِ وَالْمَلاَئِكَةِ وَالنَّاسِ أَجْمَعِينَ، لاَ يُقْبَلُ مِنْهُ يَوْمَ الْقِيَامَةِ صَرْفٌ وَلاَ عَدْلٌ، وَمَنْ وَالَى قَوْمًا بِغَيْرِ إِذْنِ مَوَالِيهِ، فَعَلَيْهِ لَعْنَةُ اللَّهِ وَالْمَلاَئِكَةِ وَالنَّاسِ أَجْمَعِينَ، لاَ يُقْبَلُ مِنْهُ يَوْمَ الْقِيَامَةِ صَرْفٌ وَلاَ عَدْلٌ، وَذِمَّةُ الْمُسْلِمِينَ وَاحِدَةٌ، يَسْعَى بِهَا أَدْنَاهُمْ فَمَنْ أَخْفَرَ مُسْلِمًا فَعَلَيْهِ لَعْنَةُ اللَّهِ وَالْمَلاَئِكَةِ وَالنَّاسِ أَجْمَعِينَ، لاَ يُقْبَلُ مِنْهُ يَوْمَ الْقِيَامَةِ صَرْفٌ وَلاَ عَدْلٌ‏.‏",
+      "source_hash_sha256": "daf0999691c8150339b406b4ecdc7bf2e44847f8abc12e6ad3520b420deb9622",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_unclear_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Plusieurs expressions juridiques de ce récit, notamment صرف ولا عدل et أخفر مسلمًا, ne peuvent pas être rendues avec assez de certitude à partir de cet extrait seul. Garder le récit entier en attente d’une clarification fiable."
+    },
+    {
+      "source_id": "97eff41b-fe01-4b44-95a6-8e785ffce1f6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6756",
+      "reference": "Sahih al-Bukhari, hadith 6756, book 85, باب إِثْمِ مَنْ تَبَرَّأَ مِنْ مَوَالِيهِ",
+      "title": "باب إِثْمِ مَنْ تَبَرَّأَ مِنْ مَوَالِيهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ نَهَى النَّبِيُّ صلى الله عليه وسلم عَنْ بَيْعِ الْوَلاَءِ وَعَنْ هِبَتِهِ‏.‏",
+      "source_hash_sha256": "d31d88c739df80f5a913aa8e77dd0e98c13d7410c035069329e1cf3c63bf0b7b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Nu‘aym nous a rapporté : Sufyân nous a rapporté, d’après ‘Abd Allah ibn Dînâr, d’après Ibn ‘Umar — qu’Allah les agrée tous deux —, qui a dit : Le Prophète ﷺ a interdit la vente du lien de wala’ et son don.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "daa300cc-7c0a-4306-bcb8-2ec59f0f7819",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6757",
+      "reference": "Sahih al-Bukhari, hadith 6757, book 85, باب إِذَا أَسْلَمَ عَلَى يَدَيْهِ",
+      "title": "باب إِذَا أَسْلَمَ عَلَى يَدَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكٍ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ عَائِشَةَ أُمَّ الْمُؤْمِنِينَ، أَرَادَتْ أَنْ تَشْتَرِيَ جَارِيَةً تُعْتِقُهَا فَقَالَ أَهْلُهَا نَبِيعُكِهَا عَلَى أَنَّ وَلاَءَهَا لَنَا‏.‏ فَذَكَرَتْ لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ لاَ يَمْنَعُكِ ذَلِكِ، فَإِنَّمَا الْوَلاَءُ لِمَنْ أَعْتَقَ ‏\"‏‏.‏",
+      "source_hash_sha256": "3c6320a210afe8c40c5bba185a4e858f1d44afc64aedae78f225f36caa8fb1d9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté, d’après Mâlik, d’après Nâfi‘, d’après Ibn ‘Umar : ‘Â’isha, la Mère des croyants, voulut acheter une esclave afin de l’affranchir. Les siens dirent : « Nous te la vendrons à condition que le lien de wala’ nous revienne. » Elle en parla au Messager d’Allah ﷺ, qui dit : « Que cela ne t’en empêche pas : le lien de wala’ revient uniquement à celui qui affranchit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0c52e926-6b2c-4334-a93b-6758e8037471",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6758",
+      "reference": "Sahih al-Bukhari, hadith 6758, book 85, باب إِذَا أَسْلَمَ عَلَى يَدَيْهِ",
+      "title": "باب إِذَا أَسْلَمَ عَلَى يَدَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدٌ، أَخْبَرَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتِ اشْتَرَيْتُ بَرِيرَةَ فَاشْتَرَطَ أَهْلُهَا وَلاَءَهَا، فَذَكَرَتْ ذَلِكَ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ أَعْتِقِيهَا فَإِنَّ الْوَلاَءَ لِمَنْ أَعْطَى الْوَرِقَ ‏\"‏‏.‏ قَالَتْ فَأَعْتَقْتُهَا ـ قَالَتْ ـ فَدَعَاهَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَخَيَّرَهَا مِنْ زَوْجِهَا فَقَالَتْ لَوْ أَعْطَانِي كَذَا وَكَذَا مَا بِتُّ عِنْدَهُ‏.‏ فَاخْتَارَتْ نَفْسَهَا‏.‏",
+      "source_hash_sha256": "2c93315dbf8ba798ecf92a6341c59a730e526dd280be8ceb2da75aea363bf95d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad nous a rapporté : Jarîr nous a informés, d’après Mansûr, d’après Ibrâhîm, d’après al-Aswad, d’après ‘Â’isha — qu’Allah l’agrée —, qui a dit : « J’ai acheté Barîra, et les siens ont posé comme condition que le lien de wala’ leur revienne. J’en parlai au Prophète ﷺ, qui dit : “Affranchis-la, car le lien de wala’ revient à celui qui en a payé le prix.” » Elle dit : « Je l’ai affranchie. » Le Messager d’Allah ﷺ lui donna alors le choix de rester avec son mari ou de le quitter. Elle dit : « Même s’il me donnait ceci et cela, je ne passerais pas la nuit auprès de lui », puis elle choisit de se séparer de lui.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f8a5b99b-b8db-44b2-931d-89f2d910c3c6",
+      "url": "https://sunnah.com/bukhari:6753",
+      "reason": "Le verbe يُسَيِّبُونَ désigne ici une pratique préislamique particulière, mais le court extrait n’en précise pas assez le sens pour choisir une formulation française sûre. Garder le récit entier en attente d’une clarification."
+    },
+    {
+      "source_id": "43f89228-36a2-4c8f-bca0-793b62933445",
+      "url": "https://sunnah.com/bukhari:6755",
+      "reason": "Plusieurs expressions juridiques de ce récit, notamment صرف ولا عدل et أخفر مسلمًا, ne peuvent pas être rendues avec assez de certitude à partir de cet extrait seul. Garder le récit entier en attente d’une clarification fiable."
+    }
+  ]
+}
