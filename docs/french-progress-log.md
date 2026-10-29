@@ -9181,3 +9181,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0410 saves four private French drafts about standing for funeral processions. Muslim 962c and 962e contain only transmission chains and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1616 Muslim drafts, 7952 total hadith drafts, 6677 remaining, and 765 Needs Mo items.
+
+### 2026-10-29: Muslim 963a–964c
+
+- FR-LIB-HAD-MUSLIM-0411 saves four private French drafts containing funeral supplications and the prayer over a woman who died in childbirth. Muslim 963c and 964b contain incomplete transmission variants and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1620 Muslim drafts, 7956 total hadith drafts, 6673 remaining, and 767 Needs Mo items.
