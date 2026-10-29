@@ -2701,3 +2701,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-557` saves the private French draft of Bukhari 3205. Bukhari 3206 remains entirely blank because it directly quotes Quran 46:24; an approved attributed French Quran translation is unavailable.
 - Both records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,890 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 178. Total local hadith rows not drafted: 11,765, including held records.
+
+### 2026-10-29: Bukhari 3207 long-source review
+
+- `FR-LIB-HAD-BUKHARI-558` saves the complete 4,422-character report of the Night Journey, the encounters in the heavens, and the reduction of the daily prayers. The exporter found one eligible record, and it passed the single-item long-source validator.
+- No database writes or publication occurred. Bukhari local drafts: 2,891 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 178. Total local hadith rows not drafted: 11,764, including held records.
