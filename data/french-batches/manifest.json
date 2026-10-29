@@ -19726,6 +19726,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-919",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-919.json",
+      "sourceIds": [
+        "e853fd38-7fbc-44c0-80ec-f2a4db5fba67",
+        "34dc06c4-3a45-41b0-8b69-9db48c5aea81",
+        "50dde6ad-8756-4c12-9499-7e3c53636a9b",
+        "63504756-a2c3-4bb4-84a8-333d9ebc9bd3",
+        "6b729a6f-3200-4cf3-97d7-3fd9edb5f518",
+        "52554e06-3a9f-4664-aab6-88b030a4c019"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -22484,7 +22505,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4108,
-  "hadithLocalDrafted": 4108,
-  "hadithLocalRemaining": 10559
+  "hadithBukhariDrafted": 4114,
+  "hadithLocalDrafted": 4114,
+  "hadithLocalRemaining": 10553
 }
