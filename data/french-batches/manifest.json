@@ -7165,6 +7165,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1693 held for embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-294",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-294.json",
+      "sourceIds": [
+        "aa4aa29c-1987-4488-aabe-10ceafc77383",
+        "209bb7b7-3691-470f-80e9-5f0a45d9de98",
+        "98e46186-abc7-4782-8a65-38c6a4c39abb",
+        "de839479-217e-47b1-984f-6278517baf04",
+        "d6666d9d-46ac-4faf-b6c9-013b3486db2b",
+        "4cd35582-727e-44d3-b831-694f74b4d7b9"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [
