@@ -36673,6 +36673,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0370",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0370.json",
+      "sourceIds": [
+        "47a15ef9-1aaa-4dde-9bb4-589539d4e663",
+        "407e2229-d336-45d4-ac2f-1b6c60d98ede",
+        "0c8e2193-5ee3-4cfc-b5e2-334fbd033e00",
+        "bbe01855-0e73-4cd0-9b5a-4674eccb03c1",
+        "53b0d511-2d8f-4adf-895d-141023a718c8",
+        "c3dc34c3-03a5-41d9-a425-07b36a66afb8"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two incomplete variants and one direct Quran quotation held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40980,8 +41001,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7805,
-  "hadithLocalRemaining": 6824,
+  "hadithLocalDrafted": 7808,
+  "hadithLocalRemaining": 6821,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43700,10 +43721,28 @@
       "scope": "Sahih Muslim 864: direct Quran quotation",
       "status": "blocked",
       "reason": "La source cite directement un verset du Coran (sourate 62, verset 11). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0370-867B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 867B: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent après un début de variante et ne reprend pas son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0370-867C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 867C: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source ne rapporte qu’une phrase du sermon précédent et renvoie au reste, sans reproduire le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0370-871-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 871: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un fragment du Coran (sourate 43, verset 77). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
     }
   ],
-  "hadithMuslimDrafted": 1469,
+  "hadithMuslimDrafted": 1472,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 689
+  "hadithNeedsMo": 692
 }
