@@ -3491,3 +3491,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-715` saves six private French drafts, including the report of Subayʿa’s question after her husband died while she was pregnant.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,545 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 277. Total local hadith rows not drafted: 11,112, including held records.
+
+### 2026-10-29: Bukhari 3996–4001
+
+- `FR-LIB-HAD-BUKHARI-716` saves five private French drafts. Hadith 4000 remains blank because it directly quotes Quran 33:5 and no approved, attributed French Quran translation is confirmed.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,550 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 278. Total local hadith rows not drafted: 11,107, including held records.

@@ -15607,6 +15607,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-716",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-716.json",
+      "sourceIds": ["eb45a0eb-5cf9-4115-8af4-d6666fc82377", "5823a956-353f-4cea-80dc-c81157faaefd", "793f3e1d-06f4-4658-adc8-b81de51dde48", "15bc9bbd-042a-4979-b1dd-428e8d04dd3b", "fcb08b1f-265e-495d-b500-b834e7645234", "a6456904-0ab8-4bfb-b9c0-1dc4b6759fd8"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; Quran-quote record remains blank pending an approved attributed French Quran translation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15841,6 +15856,13 @@
       "scope": "Sahih al-Bukhari 3987: ending fragment with unclear wording",
       "status": "blocked",
       "reason": "The local source record ends with a fragment whose exact wording and meaning are unclear. The full record remains blank in FR-LIB-HAD-BUKHARI-712 pending confirmation of the complete source text."
+    }
+,
+    {
+      "id": "HADITH-BUKHARI-4000-QURAN-33-5",
+      "scope": "Sahih al-Bukhari 4000: direct quotation of Quran 33:5",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 33:5. It remains blank in FR-LIB-HAD-BUKHARI-716 until an approved, attributed French Quran translation is confirmed."
     }
   ],
   "hadithBukhariDrafted": 3524,
