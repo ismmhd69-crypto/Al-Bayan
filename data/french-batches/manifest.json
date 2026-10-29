@@ -11570,6 +11570,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "two Needs Mo holds: incomplete source and embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-508",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-508.json",
+      "sourceIds": [
+        "3ed6e201-bc37-4a30-9f41-820b2f5a8b19",
+        "aaec6043-3ba8-409b-9317-66e14235f128",
+        "c2e87b59-9369-49b4-b3cb-94cbf8257fc9",
+        "ed08da8e-84e4-46ff-8180-ef4ecebcf31d",
+        "f4c937e2-ddc7-4e00-9e7a-36d42e38dd5b",
+        "0892a830-ed9e-4827-b364-c48ac684a78c"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -11646,7 +11667,7 @@
       "reason": "No approved, attributed French Quran translation has been confirmed in the current application configuration. The seven French verse meanings were not generated; only practice-tool controls have private French drafts."
     }
   ],
-  "hadithBukhariDrafted": 2652,
-  "hadithLocalDrafted": 2652,
-  "hadithLocalRemaining": 12003
+  "hadithBukhariDrafted": 2658,
+  "hadithLocalDrafted": 2658,
+  "hadithLocalRemaining": 11997
 }

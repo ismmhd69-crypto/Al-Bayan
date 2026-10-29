@@ -2451,3 +2451,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-507` saves four private French drafts about Khaybar, the call to prayer before an attack, a legal maxim, and concealing an expedition’s destination. Bukhari 2944 remains blank because the exported Arabic is only a fragment. Bukhari 2945 remains blank because it quotes Quran 37:177.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and both holds. No database writes or publication occurred. Bukhari local drafts: 2,652 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 171. Total local hadith rows not drafted: 12,003, including held records.
+
+### 2026-10-29: Bukhari 2948–2953 source review
+
+- `FR-LIB-HAD-BUKHARI-508` saves six private French drafts about preparing for Tabûk, the usual travel day, prayers on the road, the Hajj journey and fasting in Ramadan while travelling.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,658 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 171. Total local hadith rows not drafted: 11,997, including held records.
