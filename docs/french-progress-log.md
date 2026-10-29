@@ -10766,3 +10766,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0727 saves four private French drafts about creditors’ claims and leniency toward debtors. Muslim 1559b and 1559e only describe transmission variants, so they remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1560b–1562b
+
+- FR-LIB-HAD-MUSLIM-0728 saves five private French drafts about leniency with people in debt. Muslim 1562b gives a transmission chain and points back to the previous report without repeating its content, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
