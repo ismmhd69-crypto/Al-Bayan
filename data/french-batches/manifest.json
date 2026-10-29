@@ -17121,6 +17121,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-789",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-789.json",
+      "sourceIds": [
+        "fc0252f6-5942-4711-b3b4-687756aee565",
+        "752780b0-90b7-465f-b727-d1a909a43c47",
+        "2a784ea6-7e88-489d-adb2-8fd487fa7983",
+        "e088a838-384a-409c-a90c-edc25a3f0b43",
+        "a8ce6498-c389-4db1-825c-60417fd7e84e",
+        "1b976ae8-42ae-48de-ac7f-d3b2552f3ee0"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -17605,7 +17626,7 @@
       "reason": "The source phrase appears anomalous and differs from the parallel wording in Bukhari 4352. The complete report remains blank in FR-LIB-HAD-BUKHARI-788 pending source-text confirmation."
     }
   ],
-  "hadithBukhariDrafted": 3837,
-  "hadithLocalDrafted": 3837,
-  "hadithLocalRemaining": 10820
+  "hadithBukhariDrafted": 3843,
+  "hadithLocalDrafted": 3843,
+  "hadithLocalRemaining": 10814
 }

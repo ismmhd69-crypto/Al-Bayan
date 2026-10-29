@@ -3856,3 +3856,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-788` saves four private French drafts. Hadith 4348 remains blank because it directly quotes Quran 4:125; hadith 4353 remains blank because one source phrase appears anomalous against the parallel report. Both holds are recorded for Mo.
 - All six records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,837 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 319. Total local hadith rows not drafted: 10,820, including held records.
+
+### 2026-10-29: Bukhari 4355–4360
+
+- `FR-LIB-HAD-BUKHARI-789` saves six private French drafts about the Dhû al-Khalaṣa expedition, the companions’ preferences, leadership, and the coastal expedition.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,843 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 319. Total local hadith rows not drafted: 10,814, including held records.
