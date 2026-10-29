@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-401",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:41:42.689Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "898caefa-d1e7-41ee-bf7c-3e2951fa72e3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2331",
+      "reference": "Sahih al-Bukhari, hadith 2331, book 41, باب الْمُزَارَعَةِ مَعَ الْيَهُودِ",
+      "title": "باب الْمُزَارَعَةِ مَعَ الْيَهُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ مُقَاتِلٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَعْطَى خَيْبَرَ الْيَهُودَ عَلَى أَنْ يَعْمَلُوهَا وَيَزْرَعُوهَا، وَلَهُمْ شَطْرُ مَا خَرَجَ مِنْهَا‏.‏",
+      "source_hash_sha256": "570c78636df12c321e0cb29c4abc10dfd7ca5ef9a07a00e9faf7cfa58bc67e2d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ibn Muqâtil, ‘Abd Allâh, ‘Ubayd Allâh, Nâfi‘ et Ibn ‘Umar.\n\nLe Messager d’Allah confia Khaybar aux Juifs afin qu’ils cultivent et exploitent ses terres, en échange de la moitié de leur récolte.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e3961714-f585-402c-993b-06c234b80e65",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2332",
+      "reference": "Sahih al-Bukhari, hadith 2332, book 41, باب مَا يُكْرَهُ مِنَ الشُّرُوطِ فِي الْمُزَارَعَةِ",
+      "title": "باب مَا يُكْرَهُ مِنَ الشُّرُوطِ فِي الْمُزَارَعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا صَدَقَةُ بْنُ الْفَضْلِ، أَخْبَرَنَا ابْنُ عُيَيْنَةَ، عَنْ يَحْيَى، سَمِعَ حَنْظَلَةَ الزُّرَقِيَّ، عَنْ رَافِعٍ ـ رضى الله عنه ـ قَالَ كُنَّا أَكْثَرَ أَهْلِ الْمَدِينَةِ حَقْلاً، وَكَانَ أَحَدُنَا يُكْرِي أَرْضَهُ، فَيَقُولُ هَذِهِ الْقِطْعَةُ لِي وَهَذِهِ لَكَ، فَرُبَّمَا أَخْرَجَتْ ذِهِ وَلَمْ تُخْرِجْ ذِهِ، فَنَهَاهُمُ النَّبِيُّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "d736660ed4c8b35d6892a7df62879455d9783a56b585eb76f3ebb495168edfa5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Sadaqa ibn al-Fadl, Ibn ‘Uyayna, Yahyâ, Hanzala al-Zuraqî et Râfi‘ ibn Khadîj.\n\nRâfi‘ rapporte : Nous étions parmi les habitants de Médine qui possédaient le plus de terres. L’un de nous louait sa terre en disant : « Cette parcelle est pour moi et celle-ci pour toi. » Il arrivait que l’une produise et que l’autre ne produise rien. Le Prophète leur interdit cette pratique.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
