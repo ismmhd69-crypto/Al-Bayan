@@ -9006,3 +9006,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0375 saves six private French drafts about voluntary prayers after the Friday prayer, including the transmission notes and narrator uncertainty.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1486 Muslim drafts, 7822 total hadith drafts, 6807 remaining, and 708 Needs Mo items.
+
+### 2026-10-29: Muslim 883a–885a
+
+- FR-LIB-HAD-MUSLIM-0376 saves four private French drafts on prayers after Friday and Eid prayers, including charity given by women after the Eid sermon. Muslim 883b is an incomplete cross-reference and 884a quotes Quran directly; both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1490 Muslim drafts, 7826 total hadith drafts, 6803 remaining, and 710 Needs Mo items.
