@@ -11490,3 +11490,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1863b-1866a
 
 - FR-LIB-HAD-MUSLIM-0882 saves five private French drafts about pledges after the conquest, migration, and charity on camels. The report quoting Quran 60:12 remains entirely blank under Needs Mo until an authorized attributed French Quran translation is available. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1866b-1869b
+
+- FR-LIB-HAD-MUSLIM-0883 saves six private French drafts about the pledge of women, pledges of obedience, age, and travel with a Quran. Both reported ages and the variant wording are preserved. These entries mention the Quran but do not quote a verse. No database write or publication occurred.
