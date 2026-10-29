@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:27:29.839Z",
+  "lastReconciled": "2026-10-29T13:28:19.170Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6234,
+    "hadithBukhariDrafted": 6238,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6234,
-    "hadithDatabaseMissing": 8395,
-    "hadithLocalRemaining": 8395,
-    "hadithNeedsMo": 135,
+    "hadithLocalDrafted": 6238,
+    "hadithDatabaseMissing": 8391,
+    "hadithLocalRemaining": 8391,
+    "hadithNeedsMo": 137,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28539,6 +28539,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1353",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1353.json",
+      "sourceIds": [
+        "537279ac-5f01-4dfc-9caf-ef4cfe77efd7",
+        "9803c452-b976-4cf7-9adc-ed6f53edbf1b",
+        "6015e1fb-1464-4e7f-92f0-967c3a77d644",
+        "cfe9bf12-76ce-433a-b33b-e8bbdcd5b310",
+        "067b03da-b0ad-45ef-b19c-a6a2fe4a75dd",
+        "bb0e1026-3cee-41ff-b958-43bf2f5a3fd7"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "4 complete private drafts and 2 item held under Needs Mo; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32207,11 +32228,23 @@
       "scope": "Sahih al-Bukhari 7420: direct Quran quotation",
       "status": "blocked",
       "reason": "This report directly quotes Quran 33:37. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7424-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7424: direct Quran quotation",
+      "status": "blocked",
+      "reason": "The report quotes a Quranic phrase (“dhālika mustaqarrun lahā”) without an embedded verse tag. Keep the full French translation blank until the verse identity and an approved, attributed French translation with permitted use are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-7425-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7425: direct Quran quotation",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 9:128 and says the passage continues to the end of Surah at-Tawbah. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6234,
-  "hadithLocalDrafted": 6234,
-  "hadithLocalRemaining": 8395,
+  "hadithBukhariDrafted": 6238,
+  "hadithLocalDrafted": 6238,
+  "hadithLocalRemaining": 8391,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -33022,6 +33055,18 @@
       "scope": "Sahih al-Bukhari 7420: direct Quran quotation",
       "status": "blocked",
       "reason": "This report directly quotes Quran 33:37. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7424-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7424: direct Quran quotation",
+      "status": "blocked",
+      "reason": "The report quotes a Quranic phrase (“dhālika mustaqarrun lahā”) without an embedded verse tag. Keep the full French translation blank until the verse identity and an approved, attributed French translation with permitted use are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-7425-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7425: direct Quran quotation",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 9:128 and says the passage continues to the end of Surah at-Tawbah. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
   "hadithMuslimDrafted": 0
