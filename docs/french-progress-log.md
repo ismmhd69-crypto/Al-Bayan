@@ -2826,3 +2826,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-582` saves four private French drafts about the winds, distribution of charity, and Ya’jûj and Ma’jûj. Bukhari 3345 and 3348 remain entirely blank because they directly quote Quran 54:15 and 22:2; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the two Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,008 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 197. Total local hadith rows not drafted: 11,647, including held records.
+
+### 2026-10-29: Bukhari 3349–3354
+
+- `FR-LIB-HAD-BUKHARI-583` saves four private French drafts about Abraham and Ya’jûj and Ma’jûj. Bukhari 3349 and 3350 remain entirely blank because they directly quote Quranic wording; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,012 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 199. Total local hadith rows not drafted: 11,643, including held records.
