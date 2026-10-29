@@ -6308,3 +6308,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1232 records one 2,316-character source as a single-item batch. It remains blank because the rare phrase غُرّ الذرى describing the camels has not been clarified. No database writes or publication occurred.
 - The held batch passed the focused validator. Bukhari local drafts: 5,661 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 815. Total local hadith rows not drafted: 8,968, including held records.
+
+
+### 2026-10-29: Bukhari 6722–6725 and 6727
+
+- FR-LIB-HAD-BUKHARI-1233 saves five private French drafts. The exporter skipped one pre-existing source. No database writes or publication occurred.
+- All five drafts passed the focused validator. Bukhari local drafts: 5,666 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 815. Total local hadith rows not drafted: 8,963, including held records.

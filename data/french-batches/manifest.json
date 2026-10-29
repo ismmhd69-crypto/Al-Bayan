@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5661,
+    "hadithBukhariDrafted": 5666,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5661,
+    "hadithLocalDrafted": 5666,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8968,
+    "hadithLocalRemaining": 8963,
     "hadithNeedsMo": 815,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -26092,6 +26092,26 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "Needs Mo: unclear rare camel description"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1233",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1233.json",
+      "sourceIds": [
+        "25d85aac-3e86-4e75-b4b8-ca8dc9576ffa",
+        "9dae5a3c-0676-4d02-bc1f-6bf66242cdcc",
+        "a445c153-0c0d-4d94-83ce-a4ac2bd8298e",
+        "71e11cbe-4a4a-42b8-a8f6-748e3286c251",
+        "3f8bcd63-ced0-43e9-b8e1-bb21ab6704fb"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -29372,9 +29392,9 @@
       "reason": "The report contains the rare phrase غُرّ الذرى describing the camels; its precise meaning remains unconfirmed. Keep the complete translation blank until clarified."
     }
   ],
-  "hadithBukhariDrafted": 5661,
-  "hadithLocalDrafted": 5661,
-  "hadithLocalRemaining": 8968,
+  "hadithBukhariDrafted": 5666,
+  "hadithLocalDrafted": 5666,
+  "hadithLocalRemaining": 8963,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
