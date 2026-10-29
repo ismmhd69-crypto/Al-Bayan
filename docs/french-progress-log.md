@@ -9781,3 +9781,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0530 saves five private French drafts about the funeral rites for a pilgrim who dies while consecrated. Muslim 1206d provides only a transmission-chain cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1206i–1207c
+
+- FR-LIB-HAD-MUSLIM-0531 saves five private French drafts about funeral rites for a pilgrim who died during Hajj and a sick woman’s conditional Hajj intention. Muslim 1207c only refers to the preceding report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
