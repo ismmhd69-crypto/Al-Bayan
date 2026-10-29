@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5153,
+    "hadithBukhariDrafted": 5154,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5153,
+    "hadithLocalDrafted": 5154,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9476,
+    "hadithLocalRemaining": 9475,
     "hadithNeedsMo": 765,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -23993,6 +23993,22 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "Five records passed the focused validator; the complex Safiyya report Bukhari 6157 was isolated in a one-record batch. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1130",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1130.json",
+      "sourceIds": [
+        "87523239-aac5-40e8-9342-ff3b4b8e436b"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "The Safiyya report was handled as a one-record batch; Arabic original and hash, ID, reference, rights and private unpublished state passed",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
