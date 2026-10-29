@@ -2906,3 +2906,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-598` saves four private French drafts about prostration, prayer, and Solomon. Bukhari 3421 and 3423 remain entirely blank because they directly quote Quran 6:84/6:90 and 38:35; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the two Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,065 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 215. Total local hadith rows not drafted: 11,592, including held records.
+
+### 2026-10-29: Bukhari 3428–3433
+
+- `FR-LIB-HAD-BUKHARI-599` saves three private French drafts about the Night Journey and Maryam, Khadîja, and Âsiya. Bukhari 3428, 3429, and 3431 remain entirely blank because they directly quote Quran 6:82/31:13 and 3:36; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the three Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,068 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 218. Total local hadith rows not drafted: 11,589, including held records.
