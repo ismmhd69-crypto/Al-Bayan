@@ -972,3 +972,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-198` saves six private French drafts for Bukhari 1134–1139. They preserve the interval between the pre-dawn meal and prayer, the reports on long nighttime prayer, and the different narrated prayer counts.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,052 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,577, including held records.
+### 2026-10-29: Bukhari 1140–1145 source review
+
+- `FR-LIB-HAD-BUKHARI-199` saves six private French drafts for Bukhari 1140–1145. They preserve the narrated nighttime prayer count, the report about Satan’s knots, the dream account, and the closing-third supplication.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,058 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,571, including held records.
