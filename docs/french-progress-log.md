@@ -11602,3 +11602,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1936-1938c
 
 - FR-LIB-HAD-MUSLIM-0910 saves six private French drafts about domestic donkeys and the Khaybar reports. The question of whether the prohibition was absolute or related to the fifth share remains accurately presented as differing reports. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1938d-1941a
+
+- FR-LIB-HAD-MUSLIM-0911 saves five private French drafts about the Khaybar reports on domestic donkey meat and horse meat. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
