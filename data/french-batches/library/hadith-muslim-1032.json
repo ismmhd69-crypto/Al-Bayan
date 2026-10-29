@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1032",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:54:49.640Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f307b631-b2f2-4442-be42-13b4e9d8b492",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2191g",
+      "reference": "Sahih Muslim, hadith 2191 g, book 39, باب اسْتِحْبَابِ رُقْيَةِ الْمَرِيضِ ‏‏",
+      "title": "باب اسْتِحْبَابِ رُقْيَةِ الْمَرِيضِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، كِلاَهُمَا عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "c10d8791e2b73861af6d16cba2b0567fd9d187b09c29661ac0827942d25dc5b5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bf276bd5-b4f4-4ad9-8faf-d2edea05f93f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2192a",
+      "reference": "Sahih Muslim, hadith 2192 a, book 39, باب رُقْيَةِ الْمَرِيضِ بِالْمُعَوِّذَاتِ وَالنَّفْثِ ‏‏",
+      "title": "باب رُقْيَةِ الْمَرِيضِ بِالْمُعَوِّذَاتِ وَالنَّفْثِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سُرَيْجُ بْنُ يُونُسَ، وَيَحْيَى بْنُ أَيُّوبَ، قَالاَ حَدَّثَنَا عَبَّادُ بْنُ عَبَّادٍ، عَنْ هِشَامِ، بْنِ عُرْوَةَ عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا مَرِضَ أَحَدٌ مِنْ أَهْلِهِ نَفَثَ عَلَيْهِ بِالْمُعَوِّذَاتِ فَلَمَّا مَرِضَ مَرَضَهُ الَّذِي مَاتَ فِيهِ جَعَلْتُ أَنْفُثُ عَلَيْهِ وَأَمْسَحُهُ بِيَدِ نَفْسِهِ لأَنَّهَا كَانَتْ أَعْظَمَ بَرَكَةً مِنْ يَدِي ‏.‏ وَفِي رِوَايَةِ يَحْيَى بْنِ أَيُّوبَ بِمُعَوِّذَاتٍ ‏.‏",
+      "source_hash_sha256": "de2c5179d41e41f5f13621f191a928571c68aa76f26d616767f9ae2efbb1ae7b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Lorsque l’un des membres de sa famille était malade, le Messager d’Allah (ﷺ) récitait sur lui les sourates de protection (al-Mu‘awwidhât) et soufflait légèrement. Lorsqu’il tomba lui-même malade de la maladie dont il mourut, je récitai sur lui et le frottai de sa propre main, car elle était plus bénie que la mienne. Une version de Yahyâ ibn Ayyûb dit : « les sourates de protection ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "30909cc5-7f25-4d24-b530-cb0813ccaf17",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2192b",
+      "reference": "Sahih Muslim, hadith 2192 b, book 39, باب رُقْيَةِ الْمَرِيضِ بِالْمُعَوِّذَاتِ وَالنَّفْثِ ‏‏",
+      "title": "باب رُقْيَةِ الْمَرِيضِ بِالْمُعَوِّذَاتِ وَالنَّفْثِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا اشْتَكَى يَقْرَأُ عَلَى نَفْسِهِ بِالْمُعَوِّذَاتِ وَيَنْفُثُ فَلَمَّا اشْتَدَّ وَجَعُهُ كُنْتُ أَقْرَأُ عَلَيْهِ وَأَمْسَحُ عَنْهُ بِيَدِهِ رَجَاءَ بَرَكَتِهَا ‏.‏",
+      "source_hash_sha256": "7b215da21fd2c7959520eeaf1b870ad6b2684d58032e18efc3bef932b79051e3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Lorsque le Prophète (ﷺ) était souffrant, il récitait sur lui-même les sourates de protection et soufflait légèrement. Quand sa douleur s’aggrava, je les récitai sur lui et le frottai de sa main, espérant sa bénédiction.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aa7dc030-d4f3-44a2-9eab-67855d999dc6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2192c",
+      "reference": "Sahih Muslim, hadith 2192 c, book 39, باب رُقْيَةِ الْمَرِيضِ بِالْمُعَوِّذَاتِ وَالنَّفْثِ ‏‏",
+      "title": "باب رُقْيَةِ الْمَرِيضِ بِالْمُعَوِّذَاتِ وَالنَّفْثِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا رَوْحٌ، ح وَحَدَّثَنَا عُقْبَةُ بْنُ مُكْرَمٍ، وَأَحْمَدُ بْنُ عُثْمَانَ النَّوْفَلِيُّ، قَالاَ حَدَّثَنَا أَبُو عَاصِمٍ، كِلاَهُمَا عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي زِيَادٌ، كُلُّهُمْ عَنِ ابْنِ شِهَابٍ، بِإِسْنَادِ مَالِكٍ ‏.‏ نَحْوَ حَدِيثِهِ ‏.‏ وَلَيْسَ فِي حَدِيثِ أَحَدٍ مِنْهُمْ رَجَاءَ بَرَكَتِهَا ‏.‏ إِلاَّ فِي حَدِيثِ مَالِكٍ وَفِي حَدِيثِ يُونُسَ وَزِيَادٍ أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا اشْتَكَى نَفَثَ عَلَى نَفْسِهِ بَالْمُعَوِّذَاتِ وَمَسَحَ عَنْهُ بِيَدِهِ ‏.‏",
+      "source_hash_sha256": "1b400cee66044639592c85c05ccddc611dcadb620ccc56fb91dbb94f4a1589cc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8695740b-db41-4f60-a73f-42c1a4194544",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2193a",
+      "reference": "Sahih Muslim, hadith 2193 a, book 39, باب اسْتِحْبَابِ الرُّقْيَةِ مِنَ الْعَيْنِ وَالنَّمْلَةِ وَالْحُمَةِ وَالنَّظْرَةِ ‏‏",
+      "title": "باب اسْتِحْبَابِ الرُّقْيَةِ مِنَ الْعَيْنِ وَالنَّمْلَةِ وَالْحُمَةِ وَالنَّظْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الشَّيْبَانِيِّ، عَنْ عَبْدِ الرَّحْمَنِ، بْنِ الأَسْوَدِ عَنْ أَبِيهِ، قَالَ سَأَلْتُ عَائِشَةَ عَنِ الرُّقْيَةِ، فَقَالَتْ رَخَّصَ رَسُولُ اللَّهِ صلى الله عليه وسلم لأَهْلِ بَيْتٍ مِنَ الأَنْصَارِ فِي الرُّقْيَةِ مِنْ كُلِّ ذِي حُمَةٍ ‏.‏",
+      "source_hash_sha256": "2c9f787fc69dc938c4cb9bf4b62d367f933ad9fa8548e383a8aa1ffdbd1bb0c0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "J’interrogeai Aïcha au sujet des invocations de guérison. Elle répondit : « Le Messager d’Allah (ﷺ) a autorisé une famille des Ansâr à réciter une invocation de guérison contre toute créature venimeuse. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "36fba7b1-2ec8-4ace-9a1a-5a3fc6a48e0c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2193b",
+      "reference": "Sahih Muslim, hadith 2193 b, book 39, باب اسْتِحْبَابِ الرُّقْيَةِ مِنَ الْعَيْنِ وَالنَّمْلَةِ وَالْحُمَةِ وَالنَّظْرَةِ ‏‏",
+      "title": "باب اسْتِحْبَابِ الرُّقْيَةِ مِنَ الْعَيْنِ وَالنَّمْلَةِ وَالْحُمَةِ وَالنَّظْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ مُغِيرَةَ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، قَالَتْ رَخَّصَ رَسُولُ اللَّهِ صلى الله عليه وسلم لأَهْلِ بَيْتٍ مِنَ الأَنْصَارِ فِي الرُّقْيَةِ مِنَ الْحُمَةِ ‏.‏",
+      "source_hash_sha256": "d21dc53bc076d121fcbbb011d3b1b52e2823cdd912cd18f3597a3411d4d1f59e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte que le Messager d’Allah (ﷺ) a autorisé une famille des Ansâr à réciter une invocation de guérison contre les morsures venimeuses.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f307b631-b2f2-4442-be42-13b4e9d8b492",
+      "reason": "Cette entrée donne uniquement une chaîne de transmission et renvoie à l’invocation du récit précédent sans la reproduire. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "aa7dc030-d4f3-44a2-9eab-67855d999dc6",
+      "reason": "Cette entrée compare des chaînes de transmission et des variantes de formulation du récit précédent sans reproduire son contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
