@@ -3381,3 +3381,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-693` saves six private French drafts about ‘Â’isha, the early Muslims who emigrated, and the migration to Medina.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,472 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 259. Total local hadith rows not drafted: 11,185, including held records.
+
+### 2026-10-29: Bukhari 3900–3904
+
+- `FR-LIB-HAD-BUKHARI-694` saves five private French drafts about the end of migration, the early Muslim community and Abû Bakr.
+- All five records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,477 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 259. Total local hadith rows not drafted: 11,180, including held records.
