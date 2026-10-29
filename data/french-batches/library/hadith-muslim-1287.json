@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1287",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:23:24.350Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f9ffaeba-27a8-4d39-9f9f-f7fb9e33ec93",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2819b",
+      "reference": "Sahih Muslim, hadith 2819 b, book 52, باب إِكْثَارِ الأَعْمَالِ وَالاِجْتِهَادِ فِي الْعِبَادَةِ ‏‏",
+      "title": "باب إِكْثَارِ الأَعْمَالِ وَالاِجْتِهَادِ فِي الْعِبَادَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا سُفْيَانُ، عَنْ زِيَادِ بْنِ عِلاَقَةَ، سَمِعَ الْمُغِيرَةَ بْنَ شُعْبَةَ، يَقُولُ قَامَ النَّبِيُّ صلى الله عليه وسلم حَتَّى وَرِمَتْ قَدَمَاهُ قَالُوا قَدْ غَفَرَ اللَّهُ لَكَ مَا تَقَدَّمَ مِنْ ذَنْبِكَ وَمَا تَأَخَّرَ ‏.‏ قَالَ ‏\"‏ أَفَلاَ أَكُونُ عَبْدًا شَكُورًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "80620a207badc7db830868b82bf18b3789e324696c51d6b7bd47b11b9c20e09d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba et Ibn Numayr nous ont rapporté : Sufyān nous a rapporté, d’après Ziyād ibn ʿIlāqa, qui a entendu al-Mughīra ibn Shuʿba dire : Le Prophète ﷺ resta debout en prière jusqu’à ce que ses pieds enflent. On lui dit : « Allah t’a pourtant pardonné tes fautes passées et futures. » Il répondit : « Ne serais-je donc pas un serviteur reconnaissant ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a22b0f97-fe5b-40c3-b068-759ddfb6a706",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2820",
+      "reference": "Sahih Muslim, hadith 2820, book 52, باب إِكْثَارِ الأَعْمَالِ وَالاِجْتِهَادِ فِي الْعِبَادَةِ ‏‏",
+      "title": "باب إِكْثَارِ الأَعْمَالِ وَالاِجْتِهَادِ فِي الْعِبَادَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَارُونُ بْنُ مَعْرُوفٍ، وَهَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي أَبُو صَخْرٍ، عَنِ ابْنِ قُسَيْطٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا صَلَّى قَامَ حَتَّى تَفَطَّرَ رِجْلاَهُ قَالَتْ عَائِشَةُ يَا رَسُولَ اللَّهِ أَتَصْنَعُ هَذَا وَقَدْ غُفِرَ لَكَ مَا تَقَدَّمَ مِنْ ذَنْبِكَ وَمَا تَأَخَّرَ فَقَالَ ‏\"‏ يَا عَائِشَةُ أَفَلاَ أَكُونُ عَبْدًا شَكُورًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "32881702936dd68b3ec6002aedeb78d487eda02af81d67ce0e1fc5e7987d4ed8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hārūn ibn Maʿrūf et Hārūn ibn Saʿīd al-Aylī nous ont rapporté : Ibn Wahb nous a rapporté : Abū Ṣakhr m’a informé, d’après Ibn Qusayṭ, d’après ʿUrwa ibn al-Zubayr, d’après ʿĀʾisha, qui a dit : Lorsque le Messager d’Allah ﷺ priait, il restait debout jusqu’à ce que ses pieds se fendent. ʿĀʾisha lui dit : « Ô Messager d’Allah, fais-tu cela alors que tes fautes passées et futures t’ont été pardonnées ? » Il répondit : « ʿĀʾisha, ne serais-je donc pas un serviteur reconnaissant ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2a9d7b6c-0b02-4cd3-8692-68a75703b3ce",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2821a",
+      "reference": "Sahih Muslim, hadith 2821 a, book 52, باب الاِقْتِصَادِ فِي الْمَوْعِظَةِ ‏‏",
+      "title": "باب الاِقْتِصَادِ فِي الْمَوْعِظَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، وَأَبُو مُعَاوِيَةَ ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، قَالَ كُنَّا جُلُوسًا عِنْدَ بَابِ عَبْدِ اللَّهِ نَنْتَظِرُهُ فَمَرَّ بِنَا يَزِيدُ بْنُ مُعَاوِيَةَ النَّخَعِيُّ فَقُلْنَا أَعْلِمْهُ بِمَكَانِنَا ‏.‏ فَدَخَلَ عَلَيْهِ فَلَمْ يَلْبَثْ أَنْ خَرَجَ عَلَيْنَا عَبْدُ اللَّهِ فَقَالَ إِنِّي أُخْبَرُ بِمَكَانِكُمْ فَمَا يَمْنَعُنِي أَنْ أَخْرُجَ إِلَيْكُمْ إِلاَّ كَرَاهِيَةُ أَنْ أُمِلَّكُمْ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَتَخَوَّلُنَا بِالْمَوْعِظَةِ فِي الأَيَّامِ مَخَافَةَ السَّآمَةِ عَلَيْنَا ‏.‏",
+      "source_hash_sha256": "e983c647d713979a2dae3e5f4f45f45f891e48682d9f7d8e68df60552960c90d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba nous a rapporté : Wakīʿ et Abū Muʿāwiya nous ont rapporté. Ibn Numayr nous a également rapporté — et sa formulation est retenue — : Abū Muʿāwiya nous a rapporté, d’après al-Aʿmash, d’après Shaqīq, qui a dit : Nous étions assis près de la porte de ʿAbd Allāh, à l’attendre. Yazīd ibn Muʿāwiya al-Nakhaʿī passa près de nous et nous lui dîmes de l’informer de notre présence. Il entra auprès de lui, puis ʿAbd Allāh sortit peu après et dit : « J’ai été informé que vous étiez là. Rien ne m’empêchait de venir vous voir, sinon la crainte de vous lasser. Le Messager d’Allah ﷺ nous exhortait à intervalles espacés, de peur que nous ne nous lassions. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "95267958-1fe6-4300-800c-afab28b6eb95",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2821b",
+      "reference": "Sahih Muslim, hadith 2821 b, book 52, باب الاِقْتِصَادِ فِي الْمَوْعِظَةِ ‏‏",
+      "title": "باب الاِقْتِصَادِ فِي الْمَوْعِظَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو سَعِيدٍ الأَشَجُّ، حَدَّثَنَا ابْنُ إِدْرِيسَ، ح وَحَدَّثَنَا مِنْجَابُ بْنُ الْحَارِثِ التَّمِيمِيُّ، حَدَّثَنَا ابْنُ مُسْهِرٍ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَلِيُّ بْنُ خَشْرَمٍ، قَالاَ أَخْبَرَنَا عِيسَى، بْنُ يُونُسَ ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، كُلُّهُمْ عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ ‏.‏ نَحْوَهُ ‏.‏ وَزَادَ مِنْجَابٌ فِي رِوَايَتِهِ عَنِ ابْنِ مُسْهِرٍ قَالَ الأَعْمَشُ وَحَدَّثَنِي عَمْرُو بْنُ مُرَّةَ عَنْ شَقِيقٍ عَنْ عَبْدِ اللَّهِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "3b81dc470d2928126fe7354ab596275213e24f89c10a66def08f65ce56dc4202",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2c0dc38f-4101-4fd3-8637-da15939c0917",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2821c",
+      "reference": "Sahih Muslim, hadith 2821 c, book 52, باب الاِقْتِصَادِ فِي الْمَوْعِظَةِ ‏‏",
+      "title": "باب الاِقْتِصَادِ فِي الْمَوْعِظَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا فُضَيْلُ بْنُ عِيَاضٍ، عَنْ مَنْصُورٍ، عَنْ شَقِيقٍ أَبِي وَائِلٍ، قَالَ كَانَ عَبْدُ اللَّهِ يُذَكِّرُنَا كُلَّ يَوْمِ خَمِيسٍ فَقَالَ لَهُ رَجُلٌ يَا أَبَا عَبْدِ الرَّحْمَنِ إِنَّا نُحِبُّ حَدِيثَكَ وَنَشْتَهِيهِ وَلَوَدِدْنَا أَنَّكَ حَدَّثْتَنَا كُلَّ يَوْمٍ ‏.‏ فَقَالَ مَا يَمْنَعُنِي أَنْ أُحَدِّثَكُمْ إِلاَّ كَرَاهِيَةُ أَنْ أُمِلَّكُمْ ‏.‏ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَتَخَوَّلُنَا بِالْمَوْعِظَةِ فِي الأَيَّامِ كَرَاهِيَةَ السَّآمَةِ عَلَيْنَا ‏.‏",
+      "source_hash_sha256": "911220edd026a5de71f7d6417064bb3c6e626e61f7fa5c06553fd2d523157971",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥāq ibn Ibrāhīm nous a rapporté : Jarīr nous a rapporté, d’après Manṣūr. Ibn Abī ʿUmar nous a également rapporté — et sa formulation est retenue — : Fuḍayl ibn ʿIyāḍ nous a rapporté, d’après Manṣūr, d’après Shaqīq Abū Wāʾil, qui a dit : ʿAbd Allāh nous exhortait chaque jeudi. Un homme lui dit : « Abū ʿAbd al-Raḥmān, nous aimons tes paroles et les désirons ; nous aimerions que tu nous enseignes chaque jour. » Il répondit : « Rien ne m’en empêche, sinon la crainte de vous lasser. Le Messager d’Allah ﷺ nous exhortait à intervalles espacés, par crainte que nous ne nous lassions. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "399e9a84-bdfa-422c-bef3-1781d286f68b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2822",
+      "reference": "Sahih Muslim, hadith 2822, book 53, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ ثَابِتٍ، وَحُمَيْدٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ حُفَّتِ الْجَنَّةُ بِالْمَكَارِهِ وَحُفَّتِ النَّارُ بِالشَّهَوَاتِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ea0a9c610ac9d8d1ee03bf928abd5bc34a3abad09573ad87dc46787827105613",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh ibn Maslama ibn Qaʿnab nous a rapporté : Ḥammād ibn Salama nous a rapporté, d’après Thābit et Ḥumayd, d’après Anas ibn Mālik, qui a dit : Le Messager d’Allah ﷺ a dit : « Le Paradis est entouré de difficultés et le Feu est entouré de désirs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "95267958-1fe6-4300-800c-afab28b6eb95",
+      "reason": "Cette entrée décrit plusieurs chaînes de transmission et renvoie à la formulation précédente, sans reproduire le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
