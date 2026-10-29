@@ -1,0 +1,161 @@
+{
+  "batch_id": "HADITH-MUSLIM-1232",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:01:37.983Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b43089f8-e9ac-4994-b49d-f6950b74dece",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2677b",
+      "reference": "Sahih Muslim, hadith 2677 b, book 48, باب فِي أَسْمَاءِ اللَّهِ تَعَالَى وَفَضْلِ مَنْ أَحْصَاهَا",
+      "title": "باب فِي أَسْمَاءِ اللَّهِ تَعَالَى وَفَضْلِ مَنْ أَحْصَاهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ أَيُّوبَ، عَنِ ابْنِ سِيرِينَ، عَنْ أَبِي هُرَيْرَةَ، وَعَنْ هَمَّامِ بْنِ مُنَبِّهٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ لِلَّهِ تِسْعَةً وَتِسْعِينَ اسْمًا مِائَةً إِلاَّ وَاحِدًا مَنْ أَحْصَاهَا دَخَلَ الْجَنَّةَ ‏\"‏ ‏.‏ وَزَادَ هَمَّامٌ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ إِنَّهُ وِتْرٌ يُحِبُّ الْوِتْرَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "87eef168bb20c7e75ef59891e29d7d225adf5568f73513133ec1d5fd96a830b1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn Rāfiʿ nous a rapporté : ʿAbd al-Razzāq nous a rapporté : Maʿmar nous a rapporté, d’après Ayyūb, d’après Ibn Sīrīn, d’après Abū Hurayra, ainsi que d’après Hammām ibn Munabbih, d’après Abū Hurayra, d’après le Prophète ﷺ, qui a dit : « Allah possède quatre-vingt-dix-neuf noms, cent moins un. Celui qui les recense entrera au Paradis. » Hammām ajouta, d’après Abū Hurayra et le Prophète ﷺ : « Allah est impair et aime ce qui est impair. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a83eee99-a71b-4a1f-8562-820c67d357fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2678",
+      "reference": "Sahih Muslim, hadith 2678, book 48, باب الْعَزْمِ بِالدُّعَاءِ وَلاَ يَقُلْ إِنْ شِئْتَ",
+      "title": "باب الْعَزْمِ بِالدُّعَاءِ وَلاَ يَقُلْ إِنْ شِئْتَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، جَمِيعًا عَنِ ابْنِ عُلَيَّةَ، قَالَ أَبُو بَكْرٍ حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، عَنْ عَبْدِ الْعَزِيزِ بْنِ صُهَيْبٍ، عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا دَعَا أَحَدُكُمْ فَلْيَعْزِمْ فِي الدُّعَاءِ وَلاَ يَقُلِ اللَّهُمَّ إِنْ شِئْتَ فَأَعْطِنِي فَإِنَّ اللَّهَ لاَ مُسْتَكْرِهَ لَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3d6ac43133ca8f1115321d1fb2dc24869a207e104b70cdcef8900f5502f5bb57",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba et Zuhayr ibn Ḥarb nous ont rapporté, tous deux d’après Ibn ʿUlayya. Abū Bakr a dit : Ismāʿīl ibn ʿUlayya nous a rapporté, d’après ʿAbd al-ʿAzīz ibn Ṣuhayb, d’après Anas, qui a dit que le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous invoque, qu’il prie avec détermination et ne dise pas : “Ô Allah, accorde-moi cela si Tu le veux”, car personne ne peut contraindre Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f0913e1b-db7b-4525-bc6b-2adb65d7f58e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2679a",
+      "reference": "Sahih Muslim, hadith 2679 a, book 48, باب الْعَزْمِ بِالدُّعَاءِ وَلاَ يَقُلْ إِنْ شِئْتَ",
+      "title": "باب الْعَزْمِ بِالدُّعَاءِ وَلاَ يَقُلْ إِنْ شِئْتَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنُونَ ابْنَ جَعْفَرٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا دَعَا أَحَدُكُمْ فَلاَ يَقُلِ اللَّهُمَّ اغْفِرْ لِي إِنْ شِئْتَ وَلَكِنْ لِيَعْزِمِ الْمَسْأَلَةَ وَلْيُعَظِّمِ الرَّغْبَةَ فَإِنَّ اللَّهَ لاَ يَتَعَاظَمُهُ شَىْءٌ أَعْطَاهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "00158655f72f1d9082428a646f4246fdfe398e01fa2cd2079d21b18cb11c2a27",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yaḥyā ibn Ayyūb, Qutayba et Ibn Ḥujr nous ont rapporté : Ismāʿīl — c’est-à-dire ibn Jaʿfar — nous a rapporté, d’après al-ʿAlāʾ, d’après son père, d’après Abū Hurayra, selon lequel le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous invoque, qu’il ne dise pas : “Ô Allah, pardonne-moi si Tu le veux.” Qu’il formule sa demande avec détermination et exprime pleinement son désir, car rien de ce qu’Allah accorde ne Lui est trop grand. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b144e148-612e-4afa-8af3-dc10c6f54888",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2679b",
+      "reference": "Sahih Muslim, hadith 2679 b, book 48, باب الْعَزْمِ بِالدُّعَاءِ وَلاَ يَقُلْ إِنْ شِئْتَ",
+      "title": "باب الْعَزْمِ بِالدُّعَاءِ وَلاَ يَقُلْ إِنْ شِئْتَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ مُوسَى الأَنْصَارِيُّ، حَدَّثَنَا أَنَسُ بْنُ عِيَاضٍ، حَدَّثَنَا الْحَارِثُ، - وَهُوَ ابْنُ عَبْدِ الرَّحْمَنِ بْنِ أَبِي ذُبَابٍ - عَنْ عَطَاءِ بْنِ مِينَاءَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لاَ يَقُولَنَّ أَحَدُكُمُ اللَّهُمَّ اغْفِرْ لِي إِنْ شِئْتَ اللَّهُمَّ ارْحَمْنِي إِنْ شِئْتَ ‏.‏ لِيَعْزِمْ فِي الدُّعَاءِ فَإِنَّ اللَّهَ صَانِعٌ مَا شَاءَ لاَ مُكْرِهَ لَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "dbf0102200ce3a268ae7a734e14ab17dca062d8241b42d80682a8fee1a49002d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥāq ibn Mūsā al-Anṣārī nous a rapporté : Anas ibn ʿIyāḍ nous a rapporté : al-Ḥārith — c’est-à-dire ibn ʿAbd al-Raḥmān ibn Abī Dhubāb — nous a rapporté, d’après ʿAṭāʾ ibn Mīnāʾ, d’après Abū Hurayra, qui a dit que le Prophète ﷺ a dit : « Que l’un de vous ne dise surtout pas : “Ô Allah, pardonne-moi si Tu le veux; Ô Allah, fais-moi miséricorde si Tu le veux.” Qu’il prie avec détermination, car Allah fait ce qu’Il veut et nul ne peut Le contraindre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "98a3088f-5a19-40bd-8e29-11047d039462",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2680a",
+      "reference": "Sahih Muslim, hadith 2680 a, book 48, باب كَرَاهَةِ تَمَنِّي الْمَوْتِ لِضُرٍّ نَزَلَ بِهِ",
+      "title": "باب كَرَاهَةِ تَمَنِّي الْمَوْتِ لِضُرٍّ نَزَلَ بِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنِي ابْنَ عُلَيَّةَ - عَنْ عَبْدِ الْعَزِيزِ، عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَتَمَنَّيَنَّ أَحَدُكُمُ الْمَوْتَ لِضُرٍّ نَزَلَ بِهِ فَإِنْ كَانَ لاَ بُدَّ مُتَمَنِّيًا فَلْيَقُلِ اللَّهُمَّ أَحْيِنِي مَا كَانَتِ الْحَيَاةُ خَيْرًا لِي وَتَوَفَّنِي إِذَا كَانَتِ الْوَفَاةُ خَيْرًا لِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b2329f2906e65c4c7450fb4472bf3007c7e0917c71111db590664115a578e43e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Ḥarb nous a rapporté : Ismāʿīl — c’est-à-dire ibn ʿUlayya — nous a rapporté, d’après ʿAbd al-ʿAzīz, d’après Anas, qui a dit que le Messager d’Allah ﷺ a dit : « Que l’un de vous ne souhaite pas la mort à cause d’un malheur qui l’a frappé. S’il ne peut faire autrement que la souhaiter, qu’il dise : “Ô Allah, laisse-moi vivre tant que la vie est meilleure pour moi, et fais-moi mourir lorsque la mort sera meilleure pour moi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0518b8f9-f39b-4825-b29c-2ae9ded32e13",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2680b",
+      "reference": "Sahih Muslim, hadith 2680 b, book 48, باب كَرَاهَةِ تَمَنِّي الْمَوْتِ لِضُرٍّ نَزَلَ بِهِ",
+      "title": "باب كَرَاهَةِ تَمَنِّي الْمَوْتِ لِضُرٍّ نَزَلَ بِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي خَلَفٍ، حَدَّثَنَا رَوْحٌ، حَدَّثَنَا شُعْبَةُ، ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَفَّانُ، حَدَّثَنَا حَمَّادٌ، - يَعْنِي ابْنَ سَلَمَةَ - كِلاَهُمَا عَنْ ثَابِتٍ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ مِنْ ضُرٍّ أَصَابَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6dcd3e32eb8a265651253c3b3a0dfd983a06331559afc3c3d8f4f2a9c35545e7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_wording_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "0518b8f9-f39b-4825-b29c-2ae9ded32e13", "reason": "Cette entrée reprend le récit précédent sans le reproduire et ne donne qu’une petite différence de formulation. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}
