@@ -5280,3 +5280,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1032 saves six private French drafts on illness, care and healing. Parallel wordings and the source’s transmission note are retained.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,722 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,907, including held records.
+
+
+### 2026-10-29: Bukhari 5684–5689
+
+- FR-LIB-HAD-BUKHARI-1033 saves six private French drafts on healing and care. The reports’ chains, variant notes, and transmitted medical wording are retained without adding medical guidance.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,728 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,901, including held records.
