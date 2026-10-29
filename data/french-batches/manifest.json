@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:08:30.085Z",
+  "lastReconciled": "2026-10-29T14:08:47.696Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6566,
     "hadithDatabaseMissing": 8063,
     "hadithLocalRemaining": 8063,
-    "hadithNeedsMo": 188,
+    "hadithNeedsMo": 189,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30139,6 +30139,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0051",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0051.json",
+      "sourceIds": [
+        "2317095f-5408-4480-925e-702c97b5b868"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotations retained in Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34125,6 +34141,12 @@
       "scope": "Sahih Muslim 124b: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit commence par une citation directe du verset 31:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-125-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 125: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit reproduit directement plusieurs versets du Coran, dont 2:286. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
@@ -35258,10 +35280,16 @@
       "scope": "Sahih Muslim 124b: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit commence par une citation directe du verset 31:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-125-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 125: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit reproduit directement plusieurs versets du Coran, dont 2:286. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithMuslimDrafted": 230,
   "hadithDatabaseMissing": 8063,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 188
+  "hadithNeedsMo": 189
 }
