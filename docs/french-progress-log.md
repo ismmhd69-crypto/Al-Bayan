@@ -936,3 +936,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-189` saves six private French drafts for Bukhari 1079–1084. They preserve the reports about crowded prostration, shortening prayer during travel, and prayer at Mina.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,001 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 52. Total local hadith rows not drafted: 13,628, including held records.
+### 2026-10-29: Bukhari 1085–1090 source review
+
+- `FR-LIB-HAD-BUKHARI-190` saves six private French drafts for Bukhari 1085–1090. The read-only exporter also identified the following overlong source and deferred it so it can be handled as a single-record artifact in the next batch.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,007 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 52. Total local hadith rows not drafted: 13,622, including held records.
