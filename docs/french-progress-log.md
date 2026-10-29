@@ -10606,3 +10606,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0695 saves six private French drafts about affiliation and the reward for freeing an enslaved person.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1510a–1511d
+
+- FR-LIB-HAD-MUSLIM-0696 saves two private French drafts: one about a child freeing a parent, and one about two named forms of sale. Four entries only refer back to a preceding report and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

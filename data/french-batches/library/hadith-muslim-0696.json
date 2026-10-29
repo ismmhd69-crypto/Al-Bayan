@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0696",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:52:50.970Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8a63f350-c611-46a7-bd1b-178194d7dbd3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1510a",
+      "reference": "Sahih Muslim, hadith 1510 a, book 20, باب فَضْلِ عِتْقِ الْوَالِدِ ‏‏",
+      "title": "باب فَضْلِ عِتْقِ الْوَالِدِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَجْزِي وَلَدٌ وَالِدًا إِلاَّ أَنْ يَجِدَهُ مَمْلُوكًا فَيَشْتَرِيَهُ فَيُعْتِقَهُ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ ابْنِ أَبِي شَيْبَةَ ‏\"‏ وَلَدٌ وَالِدَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "754a239e76bba1a313e3731d4f2e92494137c1467ed828da26f33b5562c086e0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Zuhayr ibn Harb nous ont rapporté : Jarir nous a rapporté, d’après Suhayl, d’après son père, d’après Abu Hurayra, qui dit que le Messager d’Allah a dit : « Un enfant ne peut rendre à son parent ce qu’il lui doit, sauf s’il le trouve réduit en esclavage, l’achète et l’affranchit. » Dans la version d’Ibn Abi Shayba, on lit : « son père ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "93c9564e-0af3-4ee2-94f8-606cb570df68",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1510b",
+      "reference": "Sahih Muslim, hadith 1510 b, book 20, باب فَضْلِ عِتْقِ الْوَالِدِ ‏‏",
+      "title": "باب فَضْلِ عِتْقِ الْوَالِدِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي ح، وَحَدَّثَنِي عَمْرٌو النَّاقِدُ، حَدَّثَنَا أَبُو أَحْمَدَ الزُّبَيْرِيُّ، كُلُّهُمْ عَنْ سُفْيَانَ، عَنْ سُهَيْلٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ وَقَالُوا ‏\"‏ وَلَدٌ وَالِدَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "687386f12a8a14e37711ae9388b6c7525f265feb83f0d6dbebdc2ff58f2e9424",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f246eb37-a4f8-4f2e-96a9-f81fb5d2ea3b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1511a",
+      "reference": "Sahih Muslim, hadith 1511 a, book 21, باب إِبْطَالِ بَيْعِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ",
+      "title": "باب إِبْطَالِ بَيْعِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ مُحَمَّدِ بْنِ يَحْيَى بْنِ، حَبَّانَ عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ ‏.‏",
+      "source_hash_sha256": "1cd96c8bf3650fe9b9901d1536717b354979c7920e87cbd919d35d23cbdcd273",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya al-Tamimi dit : « J’ai lu devant Malik, d’après Muhammad ibn Yahya ibn Habban, d’après al-A‘raj, d’après Abu Hurayra, que le Messager d’Allah a interdit les ventes dites mulamasa et munabada. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "56bea201-8918-4cb8-87d2-d3ffad61b49a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1511b",
+      "reference": "Sahih Muslim, hadith 1511 b, book 21, باب إِبْطَالِ بَيْعِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ",
+      "title": "باب إِبْطَالِ بَيْعِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، وَابْنُ أَبِي عُمَرَ، قَالاَ حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "98d0bf3d479c8beb52bc74f74fda63edf70b41c714618ab899d2da88968af835",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0b47217e-2caa-4976-a071-2777d38f7f71",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1511c",
+      "reference": "Sahih Muslim, hadith 1511 c, book 21, باب إِبْطَالِ بَيْعِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ",
+      "title": "باب إِبْطَالِ بَيْعِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ نُمَيْرٍ، وَأَبُو أُسَامَةَ ح وَحَدَّثَنَا مُحَمَّدُ، بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الْوَهَّابِ، كُلُّهُمْ عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، عَنْ خُبَيْبِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ حَفْصِ بْنِ عَاصِمٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "488edba26543aa7da24eecc352ecfb84296aad566b62c106035b8aef73690df6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5310eea-1437-41df-aaa2-2950c43a29a6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1511d",
+      "reference": "Sahih Muslim, hadith 1511 d, book 21, باب إِبْطَالِ بَيْعِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ",
+      "title": "باب إِبْطَالِ بَيْعِ الْمُلاَمَسَةِ وَالْمُنَابَذَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَعْقُوبُ، - يَعْنِي ابْنَ عَبْدِ الرَّحْمَنِ - عَنْ سُهَيْلِ، بْنِ أَبِي صَالِحٍ عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "9f7b8793718bafce487b00516909a18eeee502608cb40aa645b865ed08cab4fb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "93c9564e-0af3-4ee2-94f8-606cb570df68",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« identique »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "56bea201-8918-4cb8-87d2-d3ffad61b49a",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« identique »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "0b47217e-2caa-4976-a071-2777d38f7f71",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« identique »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "e5310eea-1437-41df-aaa2-2950c43a29a6",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« identique »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
