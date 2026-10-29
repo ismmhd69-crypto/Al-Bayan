@@ -7407,3 +7407,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0060 saves 6 private French drafts on trials, estrangement, and faith’s return to Medina. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 281 of 7,366. Hadith Needs Mo: 192. Total local hadith rows not drafted: 8,012, including held records.
+
+### 2026-10-29: Muslim 149–150e
+
+- FR-LIB-HAD-MUSLIM-0061 saves 6 private French drafts on trials, faith, and the Prophet’s distribution of gifts. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 287 of 7,366. Hadith Needs Mo: 192. Total local hadith rows not drafted: 8,006, including held records.
