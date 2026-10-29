@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-324",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:04:06.674Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "dedd2a3a-4990-44f4-921e-77273ae7ffcc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1882",
+      "reference": "Sahih al-Bukhari, hadith 1882, book 29, باب لاَ يَدْخُلُ الدَّجَّالُ الْمَدِينَةَ",
+      "title": "باب لاَ يَدْخُلُ الدَّجَّالُ الْمَدِينَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، أَنَّ أَبَا سَعِيدٍ الْخُدْرِيَّ ـ رضى الله عنه ـ قَالَ حَدَّثَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم حَدِيثًا طَوِيلاً عَنِ الدَّجَّالِ، فَكَانَ فِيمَا حَدَّثَنَا بِهِ أَنْ قَالَ ‏\"‏ يَأْتِي الدَّجَّالُ ـ وَهُوَ مُحَرَّمٌ عَلَيْهِ أَنْ يَدْخُلَ نِقَابَ الْمَدِينَةِ ـ بَعْضَ السِّبَاخِ الَّتِي بِالْمَدِينَةِ، فَيَخْرُجُ إِلَيْهِ يَوْمَئِذٍ رَجُلٌ، هُوَ خَيْرُ النَّاسِ ـ أَوْ مِنْ خَيْرِ النَّاسِ ـ فَيَقُولُ أَشْهَدُ أَنَّكَ الدَّجَّالُ، الَّذِي حَدَّثَنَا عَنْكَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَدِيثَهُ، فَيَقُولُ الدَّجَّالُ أَرَأَيْتَ إِنْ قَتَلْتُ هَذَا ثُمَّ أَحْيَيْتُهُ، هَلْ تَشُكُّونَ فِي الأَمْرِ فَيَقُولُونَ لاَ‏.‏ فَيَقْتُلُهُ، ثُمَّ يُحْيِيهِ فَيَقُولُ حِينَ يُحْيِيهِ وَاللَّهِ مَا كُنْتُ قَطُّ أَشَدَّ بَصِيرَةً مِنِّي الْيَوْمَ، فَيَقُولُ الدَّجَّالُ أَقْتُلُهُ فَلاَ أُسَلَّطُ عَلَيْهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "488f719b6fd9633b1ef26212d81a2b9c5f25b5ee07cce8d469c9df1c4d75912a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Yahyâ ibn Bukayr, al-Layth, ‘Uqayl, Ibn Shihâb, ‘Ubayd Allâh ibn ‘Abd Allâh ibn ‘Utba et Abû Sa‘îd al-Khudrî.\n\nAbû Sa‘îd rapporte que le Messager d’Allah leur fit un long récit au sujet du Messie imposteur. Parmi ce qu’il leur dit : « Le Messie imposteur viendra, mais il lui sera interdit d’entrer dans les passages de Médine. Il se dirigera vers certaines terres salines de Médine. Ce jour-là, un homme, qui sera le meilleur des gens ou l’un des meilleurs, sortira à sa rencontre et dira : “J’atteste que tu es le Messie imposteur dont le Messager d’Allah nous a parlé.” Le Messie imposteur dira : “Que pensez-vous : si je tue cet homme puis le ramène à la vie, douterez-vous encore de cette affaire ?” Ils répondront : “Non.” Il le tuera puis le ramènera à la vie. L’homme dira alors : “Par Allah, jamais je n’ai vu aussi clairement qu’aujourd’hui.” Le Messie imposteur dira : “Je vais le tuer”, mais il ne pourra plus le dominer. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c630d190-db06-4e83-9ef6-728a47d9f5be",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1883",
+      "reference": "Sahih al-Bukhari, hadith 1883, book 29, باب الْمَدِينَةُ تَنْفِي الْخَبَثَ",
+      "title": "باب الْمَدِينَةُ تَنْفِي الْخَبَثَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَبَّاسٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، حَدَّثَنَا سُفْيَانُ، عَنْ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، عَنْ جَابِرٍ ـ رضى الله عنه ـ جَاءَ أَعْرَابِيٌّ النَّبِيَّ صلى الله عليه وسلم فَبَايَعَهُ عَلَى الإِسْلاَمِ، فَجَاءَ مِنَ الْغَدِ مَحْمُومًا، فَقَالَ أَقِلْنِي، فَأَبَى ثَلاَثَ مِرَارٍ، فَقَالَ ‏\"‏ الْمَدِينَةُ كَالْكِيرِ، تَنْفِي خَبَثَهَا، وَيَنْصَعُ طَيِّبُهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "f0006f8d1d58cc4ab43ccffe73f09cf3b64c34fbc50ea855ab8cbc04a215261d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Amr ibn ‘Abbâs, ‘Abd ar-Rahmân, Sufyân, Muhammad ibn al-Munkadir et Jâbir.\n\nUn Bédouin vint trouver le Prophète et lui prêta serment d’allégeance à l’islam. Le lendemain, il revint fiévreux et dit : « Délie-moi de mon engagement. » Le Prophète refusa trois fois, puis dit : « Médine est comme un soufflet de forge : elle élimine ses impuretés et fait ressortir ce qui est pur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eced08bd-3cbc-4a39-82a5-c5e32dccfd1f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1884",
+      "reference": "Sahih al-Bukhari, hadith 1884, book 29, باب الْمَدِينَةُ تَنْفِي الْخَبَثَ",
+      "title": "باب الْمَدِينَةُ تَنْفِي الْخَبَثَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا شُعْبَةُ، عَنْ عَدِيِّ بْنِ ثَابِتٍ، عَنْ عَبْدِ اللَّهِ بْنِ يَزِيدَ، قَالَ سَمِعْتُ زَيْدَ بْنَ ثَابِتٍ ـ رضى الله عنه ـ يَقُولُ لَمَّا خَرَجَ النَّبِيُّ صلى الله عليه وسلم إِلَى أُحُدٍ رَجَعَ نَاسٌ مِنْ أَصْحَابِهِ فَقَالَتْ فِرْقَةٌ نَقْتُلُهُمْ‏.‏ وَقَالَتْ فِرْقَةٌ لاَ نَقْتُلُهُمْ‏.‏ فَنَزَلَتْ ‏[quran sura=\"4\" aya_start=\"88\" aya_end=\"88\"] {‏فَمَا لَكُمْ فِي الْمُنَافِقِينِ فِئَتَيْنِ‏} ‏ وَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنَّهَا تَنْفِي الرِّجَالَ كَمَا تَنْفِي النَّارُ خَبَثَ الْحَدِيدِ ‏\"‏‏.‏",
+      "source_hash_sha256": "f1e075e48d4f81d70a6d4bd22abc2bc06b6bba619b72e5651dd7d6e5b52146b1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "764a9079-a822-47e8-a36f-0ef5b757fe9d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1885",
+      "reference": "Sahih al-Bukhari, hadith 1885, book 29, كتاب فضائل المدينة",
+      "title": "كتاب فضائل المدينة",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا وَهْبُ بْنُ جَرِيرٍ، حَدَّثَنَا أَبِي، سَمِعْتُ يُونُسَ، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسٍ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ اللَّهُمَّ اجْعَلْ بِالْمَدِينَةِ ضِعْفَىْ مَا جَعَلْتَ بِمَكَّةَ مِنَ الْبَرَكَةِ ‏\"‏‏.‏ تَابَعَهُ عُثْمَانُ بْنُ عُمَرَ عَنْ يُونُسَ‏.‏",
+      "source_hash_sha256": "5d7d1c251480c1fd7d1a8679cc2acfce240b882e7e103121e93c2b9ef1dade32",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Muhammad, Wahb ibn Jarîr, son père, Yûnus, Ibn Shihâb et Anas. Une autre voie est rapportée par ‘Uthmân ibn ‘Umar, d’après Yûnus.\n\nAnas rapporte que le Prophète a dit : « Ô Allah, accorde à Médine le double de la bénédiction que Tu as accordée à La Mecque. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b4f9c065-8cbf-4168-a615-cd9e86229e36",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1886",
+      "reference": "Sahih al-Bukhari, hadith 1886, book 29, كتاب فضائل المدينة",
+      "title": "كتاب فضائل المدينة",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، عَنْ حُمَيْدٍ، عَنْ أَنَسٍ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا قَدِمَ مِنْ سَفَرٍ، فَنَظَرَ إِلَى جُدُرَاتِ الْمَدِينَةِ أَوْضَعَ رَاحِلَتَهُ، وَإِنْ كَانَ عَلَى دَابَّةٍ، حَرَّكَهَا مِنْ حُبِّهَا‏.‏",
+      "source_hash_sha256": "a8c2d8f4245c355195fd02a84846d3fb068d9b56f03f2ff34cc2d563bf7bf07a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Qutayba, Ismâ‘îl ibn Ja‘far, Humayd et Anas.\n\nAnas rapporte que lorsque le Prophète revenait d’un voyage et apercevait les murs de Médine, il accélérait sa monture. S’il était sur une autre bête, il la faisait avancer plus vite par amour pour Médine.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "26d14ada-78ee-42ff-98bf-0a43b7722cc7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1887",
+      "reference": "Sahih al-Bukhari, hadith 1887, book 29, باب كَرَاهِيَةِ النَّبِيِّ صلى الله عليه وسلم أَنْ تُعْرَى الْمَدِينَةُ",
+      "title": "باب كَرَاهِيَةِ النَّبِيِّ صلى الله عليه وسلم أَنْ تُعْرَى الْمَدِينَةُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ سَلاَمٍ، أَخْبَرَنَا الْفَزَارِيُّ، عَنْ حُمَيْدٍ الطَّوِيلِ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ أَرَادَ بَنُو سَلِمَةَ أَنْ يَتَحَوَّلُوا، إِلَى قُرْبِ الْمَسْجِدِ، فَكَرِهَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تُعْرَى الْمَدِينَةُ، وَقَالَ ‏\"‏ يَا بَنِي سَلِمَةَ‏.‏ أَلاَ تَحْتَسِبُونَ آثَارَكُمْ ‏\"‏‏.‏ فَأَقَامُوا‏.‏",
+      "source_hash_sha256": "f7cf3130a164c23795760b53f1517b1143d8424f5a9441be4ff17a3012813a71",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ibn Sallâm, al-Fazârî, Humayd at-Tawîl et Anas.\n\nAnas rapporte que les Banû Salima voulurent déménager près de la mosquée. Le Messager d’Allah n’aimait pas que Médine soit désertée et dit : « Ô Banû Salima, ne comptez-vous donc pas vos pas ? » Ils restèrent sur place.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "eced08bd-3cbc-4a39-82a5-c5e32dccfd1f",
+      "reason": "This report directly quotes Quran 4:88. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
