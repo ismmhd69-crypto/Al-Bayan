@@ -7708,3 +7708,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0118 saves six private French drafts on toilet etiquette and beginning ordinary actions from the right side. The full reports and their distinct wording are preserved.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 482 Muslim drafts, 6,818 total hadith drafts, 7,811 remaining, and 253 Needs Mo items.
+
+### 2026-10-29: Muslim 268b–272a
+
+- FR-LIB-HAD-MUSLIM-0119 saves six private French drafts on right-side practice, public sanitation, washing with water, and wiping over leather footwear.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 488 Muslim drafts, 6,824 total hadith drafts, 7,805 remaining, and 253 Needs Mo items.
