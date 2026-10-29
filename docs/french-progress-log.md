@@ -2266,3 +2266,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-470` saves four private French drafts for Bukhari 2726–2727 and 2729–2730. Bukhari 2728 remains blank on hold because it directly quotes Quran 18:72–74; it needs an approved, attributed French Quran translation.
 - The five-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,461 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 149. Total local hadith rows not drafted: 12,184, including held records.
+
+### 2026-10-29: Bukhari 2731 long-source review
+
+- `FR-LIB-HAD-BUKHARI-471` holds Bukhari 2731 blank because the long report directly quotes Quran 60:10, 48:24 and 48:1. It remains a private Needs Mo item until an approved, attributed French Quran translation is confirmed.
+- The single-record batch passed the focused validator for its Arabic hash, ID, reference, rights metadata, private unpublished hold and long-source handling. No database writes or publication occurred. Bukhari local drafts: 2,461 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 150. Total local hadith rows not drafted: 12,185, including held records.
