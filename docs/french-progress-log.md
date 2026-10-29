@@ -5451,3 +5451,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1061 saves the deferred long report as one private French draft, retaining Ibn ‘Abbâs’s account and the events related by ‘Umar.
 - The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,871 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,758, including held records.
+
+### 2026-10-29: Bukhari 5844–5849
+
+- FR-LIB-HAD-BUKHARI-1062 saves six private French drafts about clothing, retaining the source’s descriptions and explanatory note on the Abyssinian word sana.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,877 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,752, including held records.
