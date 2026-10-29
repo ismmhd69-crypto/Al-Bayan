@@ -9591,3 +9591,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0492 saves five private French drafts about ‘Ashura and the two feast days on which fasting is prohibited. Muslim 1136b provides only an abbreviated variant tied to the prior report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1141a–1143b
+
+- FR-LIB-HAD-MUSLIM-0493 saves three private French drafts about the days of Tashriq and fasting on Friday. Muslim 1141b, 1142b, and 1143b provide only variants tied to earlier reports and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
