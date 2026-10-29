@@ -20754,6 +20754,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-969",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-969.json",
+      "sourceIds": [
+        "be8ccb77-48f3-42c9-a76e-68ff19580ae7",
+        "1296d3ea-d5ff-4ec9-bb7b-2dfc7e7c9aa0",
+        "36acfb35-36f0-4263-b106-e6ff0e5bfba9",
+        "0d2d7b4d-cf95-4c28-a34d-ffc346f484f0",
+        "e2f9df1c-45fa-4fc3-b320-640a315abfbc",
+        "0af27014-587d-4833-a0f4-b1d6b2f12317"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -23722,7 +23743,7 @@
       "reason": "The source excerpt ends before the report is complete. Keep the translation blank until a complete source is available."
     }
   ],
-  "hadithBukhariDrafted": 4350,
-  "hadithLocalDrafted": 4350,
-  "hadithLocalRemaining": 10317
+  "hadithBukhariDrafted": 4356,
+  "hadithLocalDrafted": 4356,
+  "hadithLocalRemaining": 10311
 }
