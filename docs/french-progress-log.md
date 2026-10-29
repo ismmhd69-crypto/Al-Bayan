@@ -11426,3 +11426,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1829e-1831d
 
 - FR-LIB-HAD-MUSLIM-0866 saves two private French drafts about harsh leadership and misappropriation of spoils. Four entries that only refer to the full reports remain blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1830-1833a
+
+- FR-LIB-HAD-MUSLIM-0867 saves six private French drafts about fair leadership and prohibiting gifts to officials. The reports preserve the source chains and distinct wordings. No database write or publication occurred.
