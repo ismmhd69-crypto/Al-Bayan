@@ -2441,3 +2441,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-505` saves three private French drafts: a prayer for the Daws, the Prophet’s seal, and his letter to Kisrâ. The exporter found only three eligible records in this batch.
 - All three records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,648 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 169. Total local hadith rows not drafted: 12,007, including held records.
+
+### 2026-10-29: Bukhari 2940 long-source review
+
+- `FR-LIB-HAD-BUKHARI-506` records the 6,735-character report of the letter to Heraclius as a single-item review. The report directly quotes Quran 3:64, so its entire French translation remains blank pending an approved, attributed French Quran translation.
+- The record passed the focused validator for its Arabic hash, ID, reference, rights metadata, private unpublished state, Quran hold and single-item long-source rule. No database writes or publication occurred. Bukhari local drafts: 2,648 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 170. Total local hadith rows not drafted: 12,007, including held records.
