@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:35:56.820Z",
+  "lastReconciled": "2026-10-29T13:36:33.611Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6282,
+    "hadithBukhariDrafted": 6287,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6282,
-    "hadithDatabaseMissing": 8347,
-    "hadithLocalRemaining": 8347,
-    "hadithNeedsMo": 150,
+    "hadithLocalDrafted": 6287,
+    "hadithDatabaseMissing": 8342,
+    "hadithLocalRemaining": 8342,
+    "hadithNeedsMo": 151,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28827,6 +28827,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1368",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1368.json",
+      "sourceIds": [
+        "16261b02-1039-4e3d-9495-3ff51393b471",
+        "f0cc97e7-468a-45d8-85a2-67adfa771b57",
+        "a4198452-e545-428a-b2d9-f0ccb3a5f9cb",
+        "5e1708d7-9e11-4abc-9ee5-9c3eca7f0bca",
+        "189a5251-d016-4bbd-97df-3a3f65b2cc44",
+        "b2642e0c-c71b-4d23-826b-ba28d566692f"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "5 complete private drafts and 1 item held under Needs Mo; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32585,11 +32606,17 @@
       "scope": "Sahih al-Bukhari 7483: direct Quran quotation",
       "status": "blocked",
       "reason": "The report directly quotes Quranic wording identified in the source heading. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7490-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7490: direct Quran quotation",
+      "status": "blocked",
+      "reason": "This report directly quotes Quran 17:110 multiple times. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6282,
-  "hadithLocalDrafted": 6282,
-  "hadithLocalRemaining": 8347,
+  "hadithBukhariDrafted": 6287,
+  "hadithLocalDrafted": 6287,
+  "hadithLocalRemaining": 8342,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -33490,6 +33517,12 @@
       "scope": "Sahih al-Bukhari 7483: direct Quran quotation",
       "status": "blocked",
       "reason": "The report directly quotes Quranic wording identified in the source heading. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7490-QURAN-QUOTATION",
+      "scope": "Sahih al-Bukhari 7490: direct Quran quotation",
+      "status": "blocked",
+      "reason": "This report directly quotes Quran 17:110 multiple times. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
   "hadithMuslimDrafted": 0
