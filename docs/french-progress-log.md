@@ -11734,3 +11734,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1999c-2002
 
 - FR-LIB-HAD-MUSLIM-0943 saves six private French drafts about vessels for preparing drinks and the rule that any intoxicating drink is forbidden. Names for the drinks and the differing vessel reports are preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2003a-2003f
+
+- FR-LIB-HAD-MUSLIM-0944 saves five private French drafts about intoxicating drinks and the consequence of drinking without repentance. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.

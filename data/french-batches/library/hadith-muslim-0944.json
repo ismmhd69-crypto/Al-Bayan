@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0944",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:32:43.200Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "db761a8d-b33e-47eb-81d4-8b1f2d481eba",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2003a",
+      "reference": "Sahih Muslim, hadith 2003 a, book 36, باب بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَأَنَّ كُلَّ خَمْرٍ حَرَامٌ ‏‏",
+      "title": "باب بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَأَنَّ كُلَّ خَمْرٍ حَرَامٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الرَّبِيعِ الْعَتَكِيُّ، وَأَبُو كَامِلٍ قَالاَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، حَدَّثَنَا أَيُّوبُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ كُلُّ مُسْكِرٍ خَمْرٌ وَكُلُّ مُسْكِرٍ حَرَامٌ وَمَنْ شَرِبَ الْخَمْرَ فِي الدُّنْيَا فَمَاتَ وَهُوَ يُدْمِنُهَا لَمْ يَتُبْ لَمْ يَشْرَبْهَا فِي الآخِرَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1ddc177938006b438fdf381bc0f15e52b2535fb6e3967212758b6ecdc19b9d26",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Rabî‘ al-‘Atakî et Abû Kâmil nous ont rapporté : Hammâd ibn Zayd nous a rapporté : Ayyûb nous a rapporté, d’après Nâfi‘, d’après Ibn ‘Umar, qui a dit : Le Messager d’Allah a dit : « Toute substance enivrante est du vin et toute substance enivrante est interdite. Celui qui boit du vin ici-bas, meurt en y étant dépendant et ne s’en est pas repenti, n’en boira pas dans l’au-delà. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5b890256-48b1-4315-aab9-f81412ac7230",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2003b",
+      "reference": "Sahih Muslim, hadith 2003 b, book 36, باب بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَأَنَّ كُلَّ خَمْرٍ حَرَامٌ ‏‏",
+      "title": "باب بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَأَنَّ كُلَّ خَمْرٍ حَرَامٌ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَأَبُو بَكْرِ بْنُ إِسْحَاقَ كِلاَهُمَا عَنْ رَوْحِ بْنِ عُبَادَةَ، حَدَّثَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي مُوسَى بْنُ عُقْبَةَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ كُلُّ مُسْكِرٍ خَمْرٌ وَكُلُّ مُسْكِرٍ حَرَامٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cc390e661db0798cff36189df4a8f8a1025c27657f65c42378087d8721c3d65e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq ibn Ibrâhîm et Abû Bakr ibn Ishâq nous ont rapporté, tous deux d’après Rawh ibn ‘Ubâda : Ibn Jurayj nous a rapporté : Mûsâ ibn ‘Uqba m’a informé, d’après Nâfi‘, d’après Ibn ‘Umar : Le Messager d’Allah a dit : « Toute substance enivrante est du vin et toute substance enivrante est interdite. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b580bf57-d1c8-4a1e-a349-64c727967b6b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2003c",
+      "reference": "Sahih Muslim, hadith 2003 c, book 36, باب بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَأَنَّ كُلَّ خَمْرٍ حَرَامٌ ‏‏",
+      "title": "باب بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَأَنَّ كُلَّ خَمْرٍ حَرَامٌ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا صَالِحُ بْنُ مِسْمَارٍ السُّلَمِيُّ، حَدَّثَنَا مَعْنٌ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ الْمُطَّلِبِ، عَنْ مُوسَى بْنِ عُقْبَةَ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "e0e6d44f5ef297afdbe4000b0b65c4867cb5ff9d522965320dab8ee24b0e6b9e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0d0215e0-06e8-432c-924d-c018847ddfdd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2003d",
+      "reference": "Sahih Muslim, hadith 2003 d, book 36, باب بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَأَنَّ كُلَّ خَمْرٍ حَرَامٌ ‏‏",
+      "title": "باب بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَأَنَّ كُلَّ خَمْرٍ حَرَامٌ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ حَاتِمٍ، قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنَا نَافِعٌ، عَنِ ابْنِ عُمَرَ، قَالَ وَلاَ أَعْلَمُهُ إِلاَّ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ كُلُّ مُسْكِرٍ خَمْرٌ وَكُلُّ خَمْرٍ حَرَامٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fffbff017979bf4d4639cced3f964eb879f8c2b0e1be16df508df5bead727b80",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthannâ et Muhammad ibn Hâtim nous ont rapporté : Yahyâ — al-Qattân — nous a rapporté, d’après ‘Ubayd Allâh, qui nous a informés, d’après Nâfi‘, d’après Ibn ‘Umar, qui a dit : « Je crois qu’il le tient du Prophète : “Toute substance enivrante est du vin et tout vin est interdit.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "90f98e92-5b43-479f-befb-a2bea7418b70",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2003e",
+      "reference": "Sahih Muslim, hadith 2003 e, book 36, باب عُقُوبَةِ مَنْ شَرِبَ الْخَمْرَ إِذَا لَمْ يَتُبْ مِنْهَا بِمَنْعِهِ إِيَّاهَا فِي الآخِرَةِ ‏‏",
+      "title": "باب عُقُوبَةِ مَنْ شَرِبَ الْخَمْرَ إِذَا لَمْ يَتُبْ مِنْهَا بِمَنْعِهِ إِيَّاهَا فِي الآخِرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ شَرِبَ الْخَمْرَ فِي الدُّنْيَا حُرِمَهَا فِي الآخِرَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3940c5d84a65a36861fddf7420e1d5a110b9136e8ef10667226f3ac68cfaf725",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ a dit : J’ai lu à Mâlik, d’après Nâfi‘, d’après Ibn ‘Umar, que le Messager d’Allah a dit : « Celui qui boit du vin ici-bas en sera privé dans l’au-delà. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6affcbfe-ce5a-47ad-adf7-a6ecbe35501a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2003f",
+      "reference": "Sahih Muslim, hadith 2003 f, book 36, باب عُقُوبَةِ مَنْ شَرِبَ الْخَمْرَ إِذَا لَمْ يَتُبْ مِنْهَا بِمَنْعِهِ إِيَّاهَا فِي الآخِرَةِ ‏‏",
+      "title": "باب عُقُوبَةِ مَنْ شَرِبَ الْخَمْرَ إِذَا لَمْ يَتُبْ مِنْهَا بِمَنْعِهِ إِيَّاهَا فِي الآخِرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا مَالِكٌ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ ‏\"‏ مَنْ شَرِبَ الْخَمْرَ فِي الدُّنْيَا فَلَمْ يَتُبْ مِنْهَا حُرِمَهَا فِي الآخِرَةِ فَلَمْ يُسْقَهَا ‏\"‏ ‏.‏ قِيلَ لِمَالِكٍ رَفَعَهُ قَالَ نَعَمْ ‏.‏",
+      "source_hash_sha256": "de4cab0ff524a2cad7a88648cebe5eab332beb98ed882bfc4a7977e736d93055",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn Maslama ibn Qa‘nab nous a rapporté : Mâlik nous a rapporté, d’après Nâfi‘, d’après Ibn ‘Umar, qui a dit : « Celui qui boit du vin ici-bas sans s’en repentir en sera privé dans l’au-delà et n’en recevra pas à boire. » On demanda à Mâlik : « L’attribues-tu au Prophète ? » Il répondit : « Oui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b580bf57-d1c8-4a1e-a349-64c727967b6b",
+      "url": "https://sunnah.com/muslim:2003c",
+      "reason": "Cette entrée ne contient que la chaîne du récit précédent et renvoie à son contenu sans variante distincte. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
