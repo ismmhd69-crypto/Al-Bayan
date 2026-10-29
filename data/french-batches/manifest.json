@@ -18483,6 +18483,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-857",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-857.json",
+      "sourceIds": [
+        "bb0bc7f7-70d7-40cc-a0bf-bab32aed91f7",
+        "6fe3238f-228d-4ed5-89f1-14e5e2be920e",
+        "2125829b-9088-46ec-82b5-75dbbfd10bef",
+        "f082f116-3c30-4a70-bc31-a3ce933dc632",
+        "623e5260-1d33-44ff-94f3-dce9bf829fec",
+        "b005f26e-2093-43f5-b59a-2a0174dd73c1"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19955,9 +19976,33 @@
       "scope": "Sahih al-Bukhari 4712: unusually long report with direct Quranic phrases from 15:29, 19:29, and 48:2",
       "status": "blocked",
       "reason": "Ce rapport très long contient plusieurs formules directement tirées du Quran, notamment « نفخ فيك من روحه », « كلمت الناس في المهد صبيا » et « ما تقدم من ذنبك وما تأخر ». Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-856, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4714-QURAN-17-2-56",
+      "scope": "Sahih al-Bukhari 4714: direct quotations of Quran 17:2 and 17:56",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 17:2 et 17:56. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-857, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4715-QURAN-17-2",
+      "scope": "Sahih al-Bukhari 4715: direct quotation of Quran 17:2",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 17:2. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-857, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4716-QURAN-17-60",
+      "scope": "Sahih al-Bukhari 4716: repeated direct quotations of Quran 17:60",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 17:60 à plusieurs reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-857, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4717-QURAN-17-78",
+      "scope": "Sahih al-Bukhari 4717: direct quotation of Quran 17:78",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 17:78. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-857, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4013,
-  "hadithLocalDrafted": 4013,
-  "hadithLocalRemaining": 10654
+  "hadithBukhariDrafted": 4015,
+  "hadithLocalDrafted": 4015,
+  "hadithLocalRemaining": 10652
 }

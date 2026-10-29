@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-BUKHARI-857",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:24:55.389Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "bb0bc7f7-70d7-40cc-a0bf-bab32aed91f7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4713",
+      "reference": "Sahih al-Bukhari, hadith 4713, book 65, باب قَوْلِهِ ‏ {‏وَآتَيْنَا دَاوُدَ زَبُورًا‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏وَآتَيْنَا دَاوُدَ زَبُورًا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ نَصْرٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنْ هَمَّامٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ خُفِّفَ عَلَى دَاوُدَ الْقِرَاءَةُ، فَكَانَ يَأْمُرُ بِدَابَّتِهِ لِتُسْرَجَ، فَكَانَ يَقْرَأُ قَبْلَ أَنْ يَفْرُغَ ‏\"‏‏.‏ يَعْنِي الْقُرْآنَ‏.‏",
+      "source_hash_sha256": "29f2c5475cedfd380c6b851b9b68dcb4346197ae54a4b483209c27615a43e1ac",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte que le Prophète (paix et bénédictions sur lui) a dit : « La récitation fut rendue facile à Dâwûd. Il ordonnait que sa monture soit sellée et récitait le Coran avant qu’elle ne soit prête. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6fe3238f-228d-4ed5-89f1-14e5e2be920e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4714",
+      "reference": "Sahih al-Bukhari, hadith 4714, book 65, باب ‏ {‏قُلِ ادْعُوا الَّذِينَ زَعَمْتُمْ مِنْ دُونِهِ فَلاَ يَمْلِكُونَ كَشْفَ الضُّرِّ عَنْكُمْ وَلاَ تَحْوِيلاً‏} ‏",
+      "title": "باب ‏ {‏قُلِ ادْعُوا الَّذِينَ زَعَمْتُمْ مِنْ دُونِهِ فَلاَ يَمْلِكُونَ كَشْفَ الضُّرِّ عَنْكُمْ وَلاَ تَحْوِيلاً‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا يَحْيَى، حَدَّثَنَا سُفْيَانُ، حَدَّثَنِي سُلَيْمَانُ، عَنْ إِبْرَاهِيمَ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ، ‏[quran sura=\"17\" aya_start=\"2\" aya_end=\"2\"]{‏إِلَى رَبِّهِمِ الْوَسِيلَةَ‏}‏ قَالَ كَانَ نَاسٌ مِنَ الإِنْسِ يَعْبُدُونَ نَاسًا مِنَ الْجِنِّ، فَأَسْلَمَ الْجِنُّ، وَتَمَسَّكَ هَؤُلاَءِ بِدِينِهِمْ‏.‏ زَادَ الأَشْجَعِيُّ عَنْ سُفْيَانَ عَنِ الأَعْمَشِ‏.‏ ‏[quran sura=\"17\" aya_start=\"56\" aya_end=\"56\"]{‏قُلِ ادْعُوا الَّذِينَ زَعَمْتُمْ‏}‏",
+      "source_hash_sha256": "dfa853f82844f6cec8e5c337ebbd02da32d9b80c3259d42818d698d3939d6b09",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2125829b-9088-46ec-82b5-75dbbfd10bef",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4715",
+      "reference": "Sahih al-Bukhari, hadith 4715, book 65, باب قَوْلِهِ ‏ {‏أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمِ الْوَسِيلَةَ‏} ‏ الآيَةَ",
+      "title": "باب قَوْلِهِ ‏ {‏أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمِ الْوَسِيلَةَ‏} ‏ الآيَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا بِشْرُ بْنُ خَالِدٍ، أَخْبَرَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، عَنْ شُعْبَةَ، عَنْ سُلَيْمَانَ، عَنْ إِبْرَاهِيمَ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ فِي هَذِهِ الآيَةِ ‏[quran sura=\"17\" aya_start=\"2\" aya_end=\"2\"]{‏الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمِ الْوَسِيلَةَ‏}‏ قَالَ نَاسٌ مِنَ الْجِنِّ ‏{‏كَانُوا‏}‏ يُعْبَدُونَ فَأَسْلَمُوا‏.‏",
+      "source_hash_sha256": "1c10b96cf518961b5e852405c7925686f2517dfb92148f5e4480df1abd70ab25",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f082f116-3c30-4a70-bc31-a3ce933dc632",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4716",
+      "reference": "Sahih al-Bukhari, hadith 4716, book 65, باب ‏ {‏وَمَا جَعَلْنَا الرُّؤْيَا الَّتِي أَرَيْنَاكَ إِلاَّ فِتْنَةً لِلنَّاسِ‏} ‏",
+      "title": "باب ‏ {‏وَمَا جَعَلْنَا الرُّؤْيَا الَّتِي أَرَيْنَاكَ إِلاَّ فِتْنَةً لِلنَّاسِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنه ـ ‏[quran sura=\"17\" aya_start=\"60\" aya_end=\"60\"]{‏وَمَا جَعَلْنَا الرُّؤْيَا الَّتِي أَرَيْنَاكَ إِلاَّ فِتْنَةً لِلنَّاسِ‏}‏ قَالَ هِيَ رُؤْيَا عَيْنٍ أُرِيَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم لَيْلَةَ أُسْرِيَ بِهِ ‏[quran sura=\"17\" aya_start=\"60\" aya_end=\"60\"]{‏وَالشَّجَرَةَ الْمَلْعُونَةَ‏}‏ شَجَرَةُ الزَّقُّومِ‏.‏",
+      "source_hash_sha256": "be4285df70aa91111894be04fec59a5c8efc415050f752717e2a1bd3a43ce787",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "623e5260-1d33-44ff-94f3-dce9bf829fec",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4717",
+      "reference": "Sahih al-Bukhari, hadith 4717, book 65, باب قَوْلِهِ ‏ {‏إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ أَبِي سَلَمَةَ، وَابْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، رضى الله عنه عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ فَضْلُ صَلاَةِ الْجَمِيعِ عَلَى صَلاَةِ الْوَاحِدِ خَمْسٌ وَعِشْرُونَ دَرَجَةً، وَتَجْتَمِعُ مَلاَئِكَةُ اللَّيْلِ وَمَلاَئِكَةُ النَّهَارِ فِي صَلاَةِ الصُّبْحِ ‏\"‏‏.‏ يَقُولُ أَبُو هُرَيْرَةَ اقْرَءُوا إِنْ شِئْتُمْ ‏[quran sura=\"17\" aya_start=\"78\" aya_end=\"78\"]{‏وَقُرْآنَ الْفَجْرِ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا‏}‏",
+      "source_hash_sha256": "d4f4b261b6a1a6b806f0216c2960d056217e1edc06989b257ba4ac494eaf6165",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b005f26e-2093-43f5-b59a-2a0174dd73c1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4718",
+      "reference": "Sahih al-Bukhari, hadith 4718, book 65, باب قَوْلِهِ ‏ {‏عَسَى أَنْ يَبْعَثَكَ رَبُّكَ مَقَامًا مَحْمُودًا‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏عَسَى أَنْ يَبْعَثَكَ رَبُّكَ مَقَامًا مَحْمُودًا‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْمَاعِيلُ بْنُ أَبَانَ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ آدَمَ بْنِ عَلِيٍّ، قَالَ سَمِعْتُ ابْنَ عُمَرَ، رضى الله عنهما يَقُولُ إِنَّ النَّاسَ يَصِيرُونَ يَوْمَ الْقِيَامَةِ جُثًا، كُلُّ أُمَّةٍ تَتْبَعُ نَبِيَّهَا، يَقُولُونَ يَا فُلاَنُ اشْفَعْ، حَتَّى تَنْتَهِيَ الشَّفَاعَةُ إِلَى النَّبِيِّ صلى الله عليه وسلم فَذَلِكَ يَوْمَ يَبْعَثُهُ اللَّهُ الْمَقَامَ الْمَحْمُودَ‏.‏",
+      "source_hash_sha256": "b8e6dc339fba67184157305712fb0354650007e4f04c9322f3761041b2ab8daf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn ʿUmar (qu’Allah les agrée tous deux) disait : « Le Jour de la Résurrection, les gens seront rassemblés à genoux, et chaque communauté suivra son prophète. Ils diront : “Untel, intercède en notre faveur !” jusqu’à ce que l’intercession parvienne au Prophète (paix et bénédictions sur lui). Ce jour-là, Allah lui accordera la Station digne de louange. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6fe3238f-228d-4ed5-89f1-14e5e2be920e",
+      "url": "https://sunnah.com/bukhari:4714",
+      "reason": "Le rapport cite directement Quran 17:2 et 17:56. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-857, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "2125829b-9088-46ec-82b5-75dbbfd10bef",
+      "url": "https://sunnah.com/bukhari:4715",
+      "reason": "Le rapport cite directement Quran 17:2. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-857, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "f082f116-3c30-4a70-bc31-a3ce933dc632",
+      "url": "https://sunnah.com/bukhari:4716",
+      "reason": "Le rapport cite directement Quran 17:60 à plusieurs reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-857, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "623e5260-1d33-44ff-94f3-dce9bf829fec",
+      "url": "https://sunnah.com/bukhari:4717",
+      "reason": "Le rapport cite directement Quran 17:78. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-857, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
