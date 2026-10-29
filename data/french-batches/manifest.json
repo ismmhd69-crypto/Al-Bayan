@@ -17289,6 +17289,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-797",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-797.json",
+      "sourceIds": [
+        "3e04eae7-c76f-4fdb-8ce6-25160b8ccda7",
+        "e5c8f543-fe9c-4166-9cc6-69d1a9068ee9",
+        "1b9d4efa-8ece-47d3-ba80-b164ad58736e",
+        "fbe3cbac-f798-487f-94df-b6d34bbff585",
+        "7cef8f45-9243-46c6-8b70-30574e479fcb",
+        "5139e48b-c932-46f3-b59e-431fd3893293"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17801,9 +17822,15 @@
       "scope": "Sahih al-Bukhari 4402: corrupted wording in the Dajjal description",
       "status": "blocked",
       "reason": "The Dajjal description is corrupted in the source transcription and cannot be translated reliably. The complete report remains blank in FR-LIB-HAD-BUKHARI-796 pending source-text confirmation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4407-QURAN-5-3",
+      "scope": "Sahih al-Bukhari 4407: direct quotation of Quran 5:3",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 5:3. The complete record remains blank in FR-LIB-HAD-BUKHARI-797 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3880,
-  "hadithLocalDrafted": 3880,
-  "hadithLocalRemaining": 10777
+  "hadithBukhariDrafted": 3885,
+  "hadithLocalDrafted": 3885,
+  "hadithLocalRemaining": 10772
 }
