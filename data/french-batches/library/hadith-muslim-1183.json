@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1183",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:36:04.585Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8a28a97b-6fe9-453b-bb1a-e1a3e4f87b57",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2551a",
+      "reference": "Sahih Muslim, hadith 2551 a, book 45, باب رَغِمَ أَنْفُ مَنْ أَدْرَكَ أَبَوَيْهِ أَوْ أَحَدَهُمَا عِنْدَ الْكِبَرِ فَلَمْ يَدْخُلِ الْجَنَّةَ ‏",
+      "title": "باب رَغِمَ أَنْفُ مَنْ أَدْرَكَ أَبَوَيْهِ أَوْ أَحَدَهُمَا عِنْدَ الْكِبَرِ فَلَمْ يَدْخُلِ الْجَنَّةَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ رَغِمَ أَنْفُ ثُمَّ رَغِمَ أَنْفُ ثُمَّ رَغِمَ أَنْفُ ‏\"‏ ‏.‏ قِيلَ مَنْ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ مَنْ أَدْرَكَ أَبَوَيْهِ عِنْدَ الْكِبَرِ أَحَدَهُمَا أَوْ كِلَيْهِمَا فَلَمْ يَدْخُلِ الْجَنَّةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5b4601541af54d5f2feeac5348df4cd6f5ba6b8cedbfe91ec542687424e904f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Prophète ﷺ a dit : « Qu’il soit couvert de poussière ! Qu’il soit couvert de poussière ! Qu’il soit couvert de poussière ! » On demanda : « Qui, ô Messager d’Allah ? » Il répondit : « Celui qui voit ses deux parents, ou l’un d’eux, atteindre un âge avancé et qui n’entre pas au Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5f4a46af-9e5f-4dc2-b541-d92f39b774af",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2551b",
+      "reference": "Sahih Muslim, hadith 2551 b, book 45, باب رَغِمَ أَنْفُ مَنْ أَدْرَكَ أَبَوَيْهِ أَوْ أَحَدَهُمَا عِنْدَ الْكِبَرِ فَلَمْ يَدْخُلِ الْجَنَّةَ ‏",
+      "title": "باب رَغِمَ أَنْفُ مَنْ أَدْرَكَ أَبَوَيْهِ أَوْ أَحَدَهُمَا عِنْدَ الْكِبَرِ فَلَمْ يَدْخُلِ الْجَنَّةَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ رَغِمَ أَنْفُهُ ثُمَّ رَغِمَ أَنْفُهُ ثُمَّ رَغِمَ أَنْفُهُ ‏\"‏ ‏.‏ قِيلَ مَنْ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ مَنْ أَدْرَكَ وَالِدَيْهِ عِنْدَ الْكِبَرِ أَحَدَهُمَا أَوْ كِلَيْهِمَا ثُمَّ لَمْ يَدْخُلِ الْجَنَّةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "89f4651a175fa31d9048088ef19b5b8d5389fc1784629b105933fbaf3ebd32d7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Qu’il soit couvert de poussière ! Qu’il soit couvert de poussière ! Qu’il soit couvert de poussière ! » On demanda : « Qui, ô Messager d’Allah ? » Il répondit : « Celui qui voit ses parents atteindre un âge avancé, l’un ou les deux, puis n’entre pas au Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "20a5c408-883c-402a-9426-bb379146e2a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2551c",
+      "reference": "Sahih Muslim, hadith 2551 c, book 45, باب رَغِمَ أَنْفُ مَنْ أَدْرَكَ أَبَوَيْهِ أَوْ أَحَدَهُمَا عِنْدَ الْكِبَرِ فَلَمْ يَدْخُلِ الْجَنَّةَ ‏",
+      "title": "باب رَغِمَ أَنْفُ مَنْ أَدْرَكَ أَبَوَيْهِ أَوْ أَحَدَهُمَا عِنْدَ الْكِبَرِ فَلَمْ يَدْخُلِ الْجَنَّةَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، عَنْ سُلَيْمَانَ بْنِ بِلاَلٍ، حَدَّثَنِي سُهَيْلٌ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ رَغِمَ أَنْفُهُ ‏\"‏ ‏.‏ ثَلاَثًا ثُمَّ ذَكَرَ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "526dcb1e4bedc04f5b884540e2a58dc79732189eb3cf3f163a46aff7b18a101c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e32f6c61-4349-4fec-ab0c-952125c4e2b3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2552a",
+      "reference": "Sahih Muslim, hadith 2552 a, book 45, باب فَضْلِ صِلَةِ أَصْدِقَاءِ الأَبِ وَالأُمِّ وَنَحْوِهِمَا ‏‏",
+      "title": "باب فَضْلِ صِلَةِ أَصْدِقَاءِ الأَبِ وَالأُمِّ وَنَحْوِهِمَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَحْمَدُ بْنُ عَمْرِو بْنِ سَرْحٍ أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي سَعِيدُ بْنُ أَبِي أَيُّوبَ، عَنِ الْوَلِيدِ بْنِ أَبِي الْوَلِيدِ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَجُلاً، مِنَ الأَعْرَابِ لَقِيَهُ بِطَرِيقِ مَكَّةَ فَسَلَّمَ عَلَيْهِ عَبْدُ اللَّهِ وَحَمَلَهُ عَلَى حِمَارٍ كَانَ يَرْكَبُهُ وَأَعْطَاهُ عِمَامَةً كَانَتْ عَلَى رَأْسِهِ فَقَالَ ابْنُ دِينَارٍ فَقُلْنَا لَهُ أَصْلَحَكَ اللَّهُ إِنَّهُمُ الأَعْرَابُ وَإِنَّهُمْ يَرْضَوْنَ بِالْيَسِيرِ ‏.‏ فَقَالَ عَبْدُ اللَّهِ إِنَّ أَبَا هَذَا كَانَ وُدًّا لِعُمَرَ بْنِ الْخَطَّابِ وَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ أَبَرَّ الْبِرِّ صِلَةُ الْوَلَدِ أَهْلَ وُدِّ أَبِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "288f69237696281f7e9ac322c758f98e73d87e6f95f686816fd3b0ffd4bb771f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh ibn ʿUmar rapporte qu’un homme bédouin le rencontra sur la route de La Mecque. ʿAbd Allāh le salua, le fit monter sur l’âne qu’il montait lui-même et lui donna le turban qu’il portait sur la tête. Ibn Dīnār dit : « Nous lui dîmes : “Qu’Allah te fasse du bien ! Ce sont des Bédouins et ils se contentent de peu.” » ʿAbd Allāh répondit : « Le père de cet homme était un ami de ʿUmar ibn al-Khaṭṭāb. J’ai entendu le Messager d’Allah ﷺ dire : “Le plus grand acte de bonté consiste, pour un enfant, à honorer les proches et les amis de son père après la mort de celui-ci.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "60ee0041-be20-4203-a36c-5dd5ad414db0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2552b",
+      "reference": "Sahih Muslim, hadith 2552 b, book 45, باب فَضْلِ صِلَةِ أَصْدِقَاءِ الأَبِ وَالأُمِّ وَنَحْوِهِمَا ‏‏",
+      "title": "باب فَضْلِ صِلَةِ أَصْدِقَاءِ الأَبِ وَالأُمِّ وَنَحْوِهِمَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي حَيْوَةُ بْنُ شُرَيْحٍ، عَنِ ابْنِ، الْهَادِ عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ أَبَرُّ الْبِرِّ أَنْ يَصِلَ الرَّجُلُ وُدَّ أَبِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3af05fb824059f9e42ce85774679f571d75ca407f8b06ff4fcd706b8be7af0e2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh ibn ʿUmar rapporte que le Prophète ﷺ a dit : « Le plus grand acte de bonté consiste, pour un homme, à maintenir les liens avec les amis de son père. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bfbfee4e-7d5c-4677-bfa3-31edb07e79f7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2552c",
+      "reference": "Sahih Muslim, hadith 2552 c, book 45, باب فَضْلِ صِلَةِ أَصْدِقَاءِ الأَبِ وَالأُمِّ وَنَحْوِهِمَا ‏‏",
+      "title": "باب فَضْلِ صِلَةِ أَصْدِقَاءِ الأَبِ وَالأُمِّ وَنَحْوِهِمَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا أَبِي، وَاللَّيْثُ بْنُ سَعْدٍ جَمِيعًا عَنْ يَزِيدَ بْنِ عَبْدِ اللَّهِ بْنِ أُسَامَةَ بْنِ الْهَادِ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنِ ابْنِ عُمَرَ، أَنَّهُ كَانَ إِذَا خَرَجَ إِلَى مَكَّةَ كَانَ لَهُ حِمَارٌ يَتَرَوَّحُ عَلَيْهِ إِذَا مَلَّ رُكُوبَ الرَّاحِلَةِ وَعِمَامَةٌ يَشُدُّ بِهَا رَأْسَهُ فَبَيْنَا هُوَ يَوْمًا عَلَى ذَلِكَ الْحِمَارِ إِذْ مَرَّ بِهِ أَعْرَابِيٌّ فَقَالَ أَلَسْتَ ابْنَ فُلاَنِ بْنِ فُلاَنٍ قَالَ بَلَى ‏.‏ فَأَعْطَاهُ الْحِمَارَ وَقَالَ ارْكَبْ هَذَا وَالْعِمَامَةَ - قَالَ - اشْدُدْ بِهَا رَأْسَكَ ‏.‏ فَقَالَ لَهُ بَعْضُ أَصْحَابِهِ غَفَرَ اللَّهُ لَكَ أَعْطَيْتَ هَذَا الأَعْرَابِيَّ حِمَارًا كُنْتَ تَرَوَّحُ عَلَيْهِ وَعِمَامَةً كُنْتَ تَشُدُّ بِهَا رَأْسَكَ ‏.‏ فَقَالَ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ مِنْ أَبَرِّ الْبِرِّ صِلَةَ الرَّجُلِ أَهْلَ وُدِّ أَبِيهِ بَعْدَ أَنْ يُوَلِّيَ ‏\"‏ ‏.‏ وَإِنَّ أَبَاهُ كَانَ صَدِيقًا لِعُمَرَ ‏.‏",
+      "source_hash_sha256": "8b243b72721fc357a73d9a2ca02145649ce13242fe111661bb10722eaf1cb040",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh ibn ʿUmar avait l’habitude, lorsqu’il partait à La Mecque, d’avoir un âne sur lequel il se reposait quand il se lassait de monter sa monture, ainsi qu’un turban qu’il nouait autour de sa tête. Un jour, alors qu’il était sur cet âne, un Bédouin passa et lui demanda : « N’es-tu pas le fils d’Untel, fils d’Untel ? » Il répondit : « Si. » Il lui donna alors l’âne en disant : « Monte dessus », ainsi que le turban : « Noue-le autour de ta tête. » Certains de ses compagnons lui dirent : « Qu’Allah te pardonne ! Tu as donné à ce Bédouin un âne sur lequel tu te reposais et un turban que tu nouais autour de ta tête. » Il répondit : « J’ai entendu le Messager d’Allah ﷺ dire : “Parmi les plus grands actes de bonté, il y a le fait de maintenir les liens avec les proches et les amis de son père après sa mort.” Le père de cet homme était un ami de ʿUmar. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "20a5c408-883c-402a-9426-bb379146e2a7",
+      "reason": "Cette entrée ne reproduit que la formule initiale du récit et renvoie ensuite au texte précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
