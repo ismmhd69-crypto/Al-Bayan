@@ -10201,3 +10201,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0614 saves five private French drafts about Medina’s character and protection. Muslim 1386c only refers to the preceding report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1387a–1389a
+
+- FR-LIB-HAD-MUSLIM-0615 saves four private French drafts about protecting Medina’s people and the reports concerning migrations from the city. Muslim 1387b and 1387c provide only a wording variant or an incomplete cross-reference and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

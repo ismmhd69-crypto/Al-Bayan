@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0615",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:29:18.851Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a5aea26e-84db-4ce6-a75c-295e82dea34e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1387a",
+      "reference": "Sahih Muslim, hadith 1387 a, book 15, باب مَنْ أَرَادَ أَهْلَ الْمَدِينَةِ بِسُوءٍ أَذَابَهُ اللَّهُ ‏‏",
+      "title": "باب مَنْ أَرَادَ أَهْلَ الْمَدِينَةِ بِسُوءٍ أَذَابَهُ اللَّهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَاتِمٌ، - يَعْنِي ابْنَ إِسْمَاعِيلَ - عَنْ عُمَرَ بْنِ نُبَيْهٍ، أَخْبَرَنِي دِينَارٌ الْقَرَّاظُ، قَالَ سَمِعْتُ سَعْدَ بْنَ أَبِي وَقَّاصٍ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ أَرَادَ أَهْلَ الْمَدِينَةِ بِسُوءٍ أَذَابَهُ اللَّهُ كَمَا يَذُوبُ الْمِلْحُ فِي الْمَاءِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "075ea5c8a54d46fd30f919ae8f28ccd3b3d4b7dd999b48e683cd5d740ba78437",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘d ibn Abi Waqqas rapporte que le Messager d’Allah ﷺ a dit : « Quiconque veut nuire aux habitants de Médine, Allah le fera fondre comme le sel se dissout dans l’eau. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "361c3afb-0182-49e1-b1a4-aebdfa135e8b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1387b",
+      "reference": "Sahih Muslim, hadith 1387 b, book 15, باب مَنْ أَرَادَ أَهْلَ الْمَدِينَةِ بِسُوءٍ أَذَابَهُ اللَّهُ ‏‏",
+      "title": "باب مَنْ أَرَادَ أَهْلَ الْمَدِينَةِ بِسُوءٍ أَذَابَهُ اللَّهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنِي ابْنَ جَعْفَرٍ - عَنْ عُمَرَ بْنِ نُبَيْهٍ، الْكَعْبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ الْقَرَّاظِ، أَنَّهُ سَمِعَ سَعْدَ بْنَ مَالِكٍ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ بِدَهْمٍ أَوْ بِسُوءٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cc3e7fa786cf5e2dc2df16567ca819d6448c1d37cce7eb1ed6bffcedcd21c253",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "20061b7c-7cf6-43b2-b243-01d4c5b52d2f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1387c",
+      "reference": "Sahih Muslim, hadith 1387 c, book 15, باب مَنْ أَرَادَ أَهْلَ الْمَدِينَةِ بِسُوءٍ أَذَابَهُ اللَّهُ ‏‏",
+      "title": "باب مَنْ أَرَادَ أَهْلَ الْمَدِينَةِ بِسُوءٍ أَذَابَهُ اللَّهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، حَدَّثَنَا أُسَامَةُ بْنُ زَيْدٍ، عَنْ أَبِي عَبْدِ اللَّهِ الْقَرَّاظِ، قَالَ سَمِعْتُهُ يَقُولُ سَمِعْتُ أَبَا هُرَيْرَةَ، وَسَعْدًا، يَقُولاَنِ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اللَّهُمَّ بَارِكْ لأَهْلِ الْمَدِينَةِ فِي مُدِّهِمْ ‏\"‏ ‏.‏ وَسَاقَ الْحَدِيثَ وَفِيهِ ‏\"‏ مَنْ أَرَادَ أَهْلَهَا بِسُوءٍ أَذَابَهُ اللَّهُ كَمَا يَذُوبُ الْمِلْحُ فِي الْمَاءِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f857d9660135a2c61ef1112e6ad7800d7922b165c0048f2f6b96863c4f17af80",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4ee9a637-37cb-4703-ab8d-2a1ac7a9ee01",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1388a",
+      "reference": "Sahih Muslim, hadith 1388 a, book 15, باب التَّرْغِيبِ فِي الْمَدِينَةِ عِنْدَ فَتْحِ الأَمْصَارِ ‏‏",
+      "title": "باب التَّرْغِيبِ فِي الْمَدِينَةِ عِنْدَ فَتْحِ الأَمْصَارِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، عَنْ سُفْيَانَ بْنِ أَبِي زُهَيْرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يُفْتَحُ الشَّامُ فَيَخْرُجُ مِنَ الْمَدِينَةِ قَوْمٌ بِأَهْلِيهِمْ يَبُسُّونَ وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ ثُمَّ يُفْتَحُ الْيَمَنُ فَيَخْرُجُ مِنَ الْمَدِينَةِ قَوْمٌ بِأَهْلِيهِمْ يَبُسُّونَ وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ ثُمَّ يُفْتَحُ الْعِرَاقُ فَيَخْرُجُ مِنَ الْمَدِينَةِ قَوْمٌ بِأَهْلِيهِمْ يَبُسُّونَ وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d5f7ad992574fae1022f022f74ae5cb6a26b672853400a7c49c29a6c1f406b61",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sufyan ibn Abi Zuhayr rapporte que le Messager d’Allah ﷺ a dit : « Le Levant sera conquis ; alors des gens quitteront Médine avec leurs familles et s’y installeront, bien que Médine soit meilleure pour eux, s’ils le savaient. Ensuite le Yémen sera conquis ; des gens quitteront Médine avec leurs familles et s’y installeront, bien que Médine soit meilleure pour eux, s’ils le savaient. Puis l’Irak sera conquis ; des gens quitteront Médine avec leurs familles et s’y installeront, bien que Médine soit meilleure pour eux, s’ils le savaient. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5a27f40a-a0d6-4ede-9f21-ee1024ffce5c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1388b",
+      "reference": "Sahih Muslim, hadith 1388 b, book 15, باب التَّرْغِيبِ فِي الْمَدِينَةِ عِنْدَ فَتْحِ الأَمْصَارِ ‏‏",
+      "title": "باب التَّرْغِيبِ فِي الْمَدِينَةِ عِنْدَ فَتْحِ الأَمْصَارِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي هِشَامُ، بْنُ عُرْوَةَ عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، عَنْ سُفْيَانَ بْنِ أَبِي زُهَيْرٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ يُفْتَحُ الْيَمَنُ فَيَأْتِي قَوْمٌ يَبُسُّونَ فَيَتَحَمَّلُونَ بِأَهْلِيهِمْ وَمَنْ أَطَاعَهُمْ وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ ثُمَّ يُفْتَحُ الشَّامُ فَيَأْتِي قَوْمٌ يَبُسُّونَ فَيَتَحَمَّلُونَ بِأَهْلِيهِمْ وَمَنْ أَطَاعَهُمْ وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ ثُمَّ يُفْتَحُ الْعِرَاقُ فَيَأْتِي قَوْمٌ يَبُسُّونَ فَيَتَحَمَّلُونَ بِأَهْلِيهِمْ وَمَنْ أَطَاعَهُمْ وَالْمَدِينَةُ خَيْرٌ لَهُمْ لَوْ كَانُوا يَعْلَمُونَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fd7e0c378330fd2855ffea870408a44bdcbe75b7b87ca17c588bf2d145a9440b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sufyan ibn Abi Zuhayr rapporte avoir entendu le Messager d’Allah ﷺ dire : « Le Yémen sera conquis ; des gens partiront en emmenant leurs familles et ceux qui les suivent, bien que Médine soit meilleure pour eux, s’ils le savaient. Ensuite le Levant sera conquis ; des gens partiront en emmenant leurs familles et ceux qui les suivent, bien que Médine soit meilleure pour eux, s’ils le savaient. Puis l’Irak sera conquis ; des gens partiront en emmenant leurs familles et ceux qui les suivent, bien que Médine soit meilleure pour eux, s’ils le savaient. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6e3897e6-2f0d-4814-b2fa-2b866b6c8066",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1389a",
+      "reference": "Sahih Muslim, hadith 1389 a, book 15, باب فِي الْمَدِينَةِ حِينَ يَتْرُكُهَا أَهْلُهَا ‏‏",
+      "title": "باب فِي الْمَدِينَةِ حِينَ يَتْرُكُهَا أَهْلُهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا أَبُو صَفْوَانَ، عَنْ يُونُسَ بْنِ يَزِيدَ، ح وَحَدَّثَنِي حَرْمَلَةُ، بْنُ يَحْيَى - وَاللَّفْظُ لَهُ - أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ، الْمُسَيَّبِ أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِلْمَدِينَةِ ‏\"‏ لَيَتْرُكَنَّهَا أَهْلُهَا عَلَى خَيْرِ مَا كَانَتْ مُذَلَّلَةً لِلْعَوَافِي ‏\"‏ ‏.‏ يَعْنِي السِّبَاعَ وَالطَّيْرَ ‏.‏ قَالَ مُسْلِمٌ أَبُو صَفْوَانَ هَذَا هُوَ عَبْدُ اللَّهِ بْنُ عَبْدِ الْمَلِكِ يَتِيمُ ابْنُ جُرَيْجٍ عَشْرَ سِنِينَ كَانَ فِي حَجْرِهِ ‏.‏",
+      "source_hash_sha256": "93333a539986b00ae3d905632d46d5b0bf5f41a3e4b8a0dcde60001d218e847e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ dit au sujet de Médine : « Ses habitants la quitteront alors qu’elle sera dans le meilleur état qu’elle ait jamais connu, délaissée aux animaux sauvages et aux oiseaux. » Muslim précise qu’Abu Safwan était Abd Allah ibn Abd al-Malik, qui fut orphelin de Ibn Jurayj et demeura sous sa tutelle pendant dix ans.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "361c3afb-0182-49e1-b1a4-aebdfa135e8b",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement au précédent (« بِمِثْلِهِ ») / indique que le reste du récit suit, sans le reproduire. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "20061b7c-7cf6-43b2-b243-01d4c5b52d2f",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement au précédent (« بِمِثْلِهِ ») / indique que le reste du récit suit, sans le reproduire. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
