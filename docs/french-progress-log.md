@@ -9246,3 +9246,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0423 keeps this partial variant blank under Needs Mo because it points back to the long preceding report without reproducing the full content.
 - The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts remain 1664 Muslim drafts, 8000 total hadith drafts, and 6629 remaining; Needs Mo rises to 779.
+
+### 2026-10-29: Muslim 987c (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0424 isolates this 2795-character Arabic report as required. Its direct quotation from Quran 99:7–8 means the entire French field remains blank under Needs Mo.
+- The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts remain 1664 Muslim drafts, 8000 total hadith drafts, and 6629 remaining; Needs Mo rises to 780.
