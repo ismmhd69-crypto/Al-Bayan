@@ -565,3 +565,10 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - The direct website text audit now covers all visitor-facing English strings found in locale objects, JSX, accessibility labels, audio controls, learning visuals, the Ask interface and answer notices. The audit excludes the internal review page and the explicitly non-visitor Hadith test tool. Their staff-only labels were not counted as public website copy.
 - All eligible discovered strings have local French drafts, except the specifically held material already listed under Needs Mo. No French Quran verse text was created. The 461 unique rows are kept as private local files, not wired into public routing or API behavior.
+
+### 2026-10-29: Bukhari 602–607 source review
+
+- Read-only export `FR-LIB-HAD-BUKHARI-109` saved the exact Arabic and source hash for Bukhari 602 as a one-record batch. The report contains the rare vocative `يا غنثر`; no source-backed French meaning is confirmed, so the entire report remains Needs Mo rather than guessing an insult.
+- `FR-LIB-HAD-BUKHARI-110` saved French drafts for Bukhari 603, 604, 605, 606 and 607. The short variants, narrator chains and the wording “sauf l’iqama” were retained without filling in additional text from another report.
+- Both batches passed the focused validator, including Arabic source-hash checks, IDs, rights metadata, unpublished/private state and the single-record handling for Bukhari 602. Five local drafts were added; one source remains held. No database writes, publication, human review or public route changes occurred.
+- Bukhari local drafts: 566 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 27. Total local hadith rows not drafted: 14,063, including all held records.
