@@ -3156,3 +3156,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-648` saves three private French drafts about Ibn al-Hanafiyya, the lost necklace and the companions. Bukhari 3669–3670 remain blank because the account quotes Quran 3:144. No approved, attributed French Quran translation is confirmed.
 - All four records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,270 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 240. Total local hadith rows not drafted: 11,387, including held records.
+
+### 2026-10-29: Bukhari 3674
+
+- `FR-LIB-HAD-BUKHARI-649` saves one private French draft about Abû Mûsâ, the well of Arîs, and the three visitors.
+- The record passed the focused single-item validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,271 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 240. Total local hadith rows not drafted: 11,386, including held records.
