@@ -11206,3 +11206,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0815 saves the deferred long private French draft. It preserves the three transmission routes, the complete instructions, and the closing attribution variant.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1731c-1733c
+
+- FR-LIB-HAD-MUSLIM-0816 saves five private French drafts on advice to expedition leaders, gentle communication, cooperation, and refusing appointments sought out of ambition. The specific omission in 1733b is preserved. Muslim 1731d only supplies a chain for the earlier report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

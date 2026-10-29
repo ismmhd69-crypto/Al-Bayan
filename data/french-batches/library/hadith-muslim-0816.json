@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0816",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:44:29.610Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ed4aea3e-32ff-450c-b06f-53d0da0a59f8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1731c",
+      "reference": "Sahih Muslim, hadith 1731 c, book 32, باب تَأْمِيرِ الإِمَامِ الأُمَرَاءَ عَلَى الْبُعُوثِ وَوَصِيَّتِهِ إِيَّاهُمْ بِآدَابِ الْغَزْوِ وَغَيْرِهَا",
+      "title": "باب تَأْمِيرِ الإِمَامِ الأُمَرَاءَ عَلَى الْبُعُوثِ وَوَصِيَّتِهِ إِيَّاهُمْ بِآدَابِ الْغَزْوِ وَغَيْرِهَا",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنِي عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنِي عَلْقَمَةُ بْنُ مَرْثَدٍ، أَنَّ سُلَيْمَانَ بْنَ بُرَيْدَةَ، حَدَّثَهُ عَنْ أَبِيهِ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا بَعَثَ أَمِيرًا أَوْ سَرِيَّةً دَعَاهُ فَأَوْصَاهُ ‏.‏ وَسَاقَ الْحَدِيثَ بِمَعْنَى حَدِيثِ سُفْيَانَ ‏.‏",
+      "source_hash_sha256": "f212be8c5747430c1f7b994c9bdc6738eda6de6e2b0e37bb3366ef4aebc1c182",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hajjaj ibn ash-Sha'ir m'a rapporté : Abd as-Samad ibn Abd al-Warith m'a rapporté : Shu'ba nous a rapporté : Alqama ibn Marthad m'a rapporté que Sulayman ibn Burayda lui avait rapporté, d'après son père, que le Messager d'Allah ﷺ, lorsqu'il envoyait un chef ou un détachement, le convoquait et lui adressait ses recommandations. Il transmit le récit dans un sens semblable à celui de Sufyan.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1146c474-8d22-4ef1-b081-302c86e0387b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1731d",
+      "reference": "Sahih Muslim, hadith 1731 d, book 32, باب تَأْمِيرِ الإِمَامِ الأُمَرَاءَ عَلَى الْبُعُوثِ وَوَصِيَّتِهِ إِيَّاهُمْ بِآدَابِ الْغَزْوِ وَغَيْرِهَا",
+      "title": "باب تَأْمِيرِ الإِمَامِ الأُمَرَاءَ عَلَى الْبُعُوثِ وَوَصِيَّتِهِ إِيَّاهُمْ بِآدَابِ الْغَزْوِ وَغَيْرِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ، حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الْوَهَّابِ الْفَرَّاءُ، عَنِ الْحُسَيْنِ بْنِ الْوَلِيدِ، عَنْ شُعْبَةَ، بِهَذَا ‏.‏",
+      "source_hash_sha256": "57d92bf22e6c55ee91cc882cc74b4ef03ea5c14a4003be775892d1031f5d3dcb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d25c4e98-ad76-4f67-9802-c31b99693860",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1732",
+      "reference": "Sahih Muslim, hadith 1732, book 32, باب فِي الأَمْرِ بِالتَّيْسِيرِ وَتَرْكِ التَّنْفِيرِ",
+      "title": "باب فِي الأَمْرِ بِالتَّيْسِيرِ وَتَرْكِ التَّنْفِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ - وَاللَّفْظُ لأَبِي بَكْرٍ - قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ عَنْ بُرَيْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا بَعَثَ أَحَدًا مِنْ أَصْحَابِهِ فِي بَعْضِ أَمْرِهِ قَالَ ‏\"‏ بَشِّرُوا وَلاَ تُنَفِّرُوا وَيَسِّرُوا وَلاَ تُعَسِّرُوا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4a12fce2050db45dadd9918ba84fab697168982b6448e4a61a852750f34f364d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Abu Kurayb nous ont rapporté — et voici la formulation d'Abu Bakr — : Abu Usama nous a rapporté, d'après Burayd ibn Abd Allah, d'après Abu Burda, d'après Abu Musa, qui a dit : « Lorsque le Messager d'Allah ﷺ envoyait l'un de ses compagnons accomplir une mission, il lui disait : “Annoncez de bonnes nouvelles et ne rebutez pas les gens. Facilitez les choses et ne les rendez pas difficiles.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "01d06528-924c-41ee-9685-6eefbd8d0074",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1733a",
+      "reference": "Sahih Muslim, hadith 1733 a, book 32, باب فِي الأَمْرِ بِالتَّيْسِيرِ وَتَرْكِ التَّنْفِيرِ",
+      "title": "باب فِي الأَمْرِ بِالتَّيْسِيرِ وَتَرْكِ التَّنْفِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ شُعْبَةَ، عَنْ سَعِيدِ بْنِ أَبِي بُرْدَةَ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم بَعَثَهُ وَمُعَاذًا إِلَى الْيَمَنِ فَقَالَ ‏\"‏ يَسِّرَا وَلاَ تُعَسِّرَا وَبَشِّرَا وَلاَ تُنَفِّرَا وَتَطَاوَعَا وَلاَ تَخْتَلِفَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5c3fdf92fa3c36eab993220ab69087821897155e6e3c36b735efb8cce8dfb5fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Waki' nous a rapporté, d'après Shu'ba, d'après Sa'id ibn Abi Burda, d'après son père, d'après son grand-père, selon lequel le Prophète ﷺ l'envoya au Yémen avec Mu'adh et leur dit : « Facilitez les choses et ne les rendez pas difficiles. Annoncez de bonnes nouvelles et ne rebutez pas les gens. Coopérez et ne vous divisez pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7f320e8d-95ac-47c5-b760-5b999c0cd499",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1733b",
+      "reference": "Sahih Muslim, hadith 1733 b, book 32, باب فِي الأَمْرِ بِالتَّيْسِيرِ وَتَرْكِ التَّنْفِيرِ",
+      "title": "باب فِي الأَمْرِ بِالتَّيْسِيرِ وَتَرْكِ التَّنْفِيرِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ أَبِي خَلَفٍ عَنْ زَكَرِيَّاءَ بْنِ عَدِيٍّ، أَخْبَرَنَا عُبَيْدُ اللَّهِ، عَنْ زَيْدِ بْنِ أَبِي أُنَيْسَةَ، كِلاَهُمَا عَنْ سَعِيدِ بْنِ أَبِي بُرْدَةَ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ نَحْوَ حَدِيثِ شُعْبَةَ وَلَيْسَ فِي حَدِيثِ زَيْدِ بْنِ أَبِي أُنَيْسَةَ ‏\"‏ وَتَطَاوَعَا وَلاَ تَخْتَلِفَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2753e36486df097e0949a6328357fb16ff6f7d031e1340c9cc3dcd27fd4bef1c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abbad nous a rapporté : Sufyan nous a rapporté, d'après Amr. [Une autre chaîne :] Ishaq ibn Ibrahim et Ibn Abi Khalaf rapportent de Zakariyya ibn Adi, qui nous a informés : Ubayd Allah nous a rapporté, d'après Zayd ibn Abi Unaysa. Ces deux voies remontent à Sa'id ibn Abi Burda, d'après son père, d'après son grand-père, d'après le Prophète ﷺ, un récit semblable à celui de Shu'ba. Toutefois, dans la version de Zayd ibn Abi Unaysa, les mots « Coopérez et ne vous divisez pas » ne figurent pas.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fe485910-278a-4891-bcdd-2de02d4adeb9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1733c",
+      "reference": "Sahih Muslim, hadith 1733 c, book 33, باب النَّهْىِ عَنْ طَلَبِ الإِمَارَةِ، وَالْحِرْصِ، عَلَيْهَا ‏‏",
+      "title": "باب النَّهْىِ عَنْ طَلَبِ الإِمَارَةِ، وَالْحِرْصِ، عَلَيْهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدِ، بْنِ عَبْدِ اللَّهِ عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ دَخَلْتُ عَلَى النَّبِيِّ صلى الله عليه وسلم أَنَا وَرَجُلاَنِ مِنْ بَنِي عَمِّي فَقَالَ أَحَدُ الرَّجُلَيْنِ يَا رَسُولَ اللَّهِ أَمِّرْنَا عَلَى بَعْضِ مَا وَلاَّكَ اللَّهُ عَزَّ وَجَلَّ ‏.‏ وَقَالَ الآخَرُ مِثْلَ ذَلِكَ فَقَالَ ‏\"‏ إِنَّا وَاللَّهِ لاَ نُوَلِّي عَلَى هَذَا الْعَمَلِ أَحَدًا سَأَلَهُ وَلاَ أَحَدًا حَرَصَ عَلَيْهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "eeda2c8bdce135233a28c3e4598999b1c34d53852492fdcc07a7ab707f0cd296",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Muhammad ibn al-Ala nous ont rapporté : Abu Usama nous a rapporté, d'après Burayd ibn Abd Allah, d'après Abu Burda, d'après Abu Musa, qui a dit : « Je me rendis chez le Prophète ﷺ avec deux de mes cousins. L'un d'eux dit : “Messager d'Allah, nomme-nous à la tête d'une partie de ce qu'Allah, le Puissant et Glorieux, t'a confié.” L'autre dit la même chose. Il répondit : “Par Allah, nous ne confions pas cette charge à quelqu'un qui la demande ni à quelqu'un qui la convoite.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1146c474-8d22-4ef1-b081-302c86e0387b",
+      "reason": "Cette entrée ne donne qu'une chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu ni apporter de variante précise. Garder la traduction française vide jusqu'à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
