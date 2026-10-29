@@ -8156,3 +8156,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0206 saves one private French draft about the object placed in front of someone praying. The exporter deferred a later long source; it will be processed alone when it becomes next in sequence.
 - The source hash is retained; the focused validator passed. No database write or publication occurred. Counts now show 835 Muslim drafts, 7,171 total hadith drafts, 7,458 remaining, and 403 Needs Mo items.
+
+### 2026-10-29: Muslim 500b–503a
+
+- FR-LIB-HAD-MUSLIM-0207 saves six private French drafts about placing an object before the person praying and the Prophet’s prayer while traveling. The exporter continues to defer a later long source, which will be handled alone.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 841 Muslim drafts, 7,177 total hadith drafts, 7,452 remaining, and 403 Needs Mo items.
