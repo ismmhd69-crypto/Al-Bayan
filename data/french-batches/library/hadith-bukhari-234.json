@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-234",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:20:09.366Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8d7214ad-52ae-4a14-ad24-b56692055a45",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1353",
+      "reference": "Sahih al-Bukhari, hadith 1353, book 23, باب اللَّحْدِ وَالشَّقِّ فِي الْقَبْرِ",
+      "title": "باب اللَّحْدِ وَالشَّقِّ فِي الْقَبْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا اللَّيْثُ بْنُ سَعْدٍ، قَالَ حَدَّثَنِي ابْنُ شِهَابٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ كَعْبِ بْنِ مَالِكٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم يَجْمَعُ بَيْنَ رَجُلَيْنِ مِنْ قَتْلَى أُحُدٍ ثُمَّ يَقُولُ ‏\"‏ أَيُّهُمْ أَكْثَرُ أَخْذًا لِلْقُرْآنِ ‏\"‏‏.‏ فَإِذَا أُشِيرَ لَهُ إِلَى أَحَدِهِمَا قَدَّمَهُ فِي اللَّحْدِ فَقَالَ ‏\"‏ أَنَا شَهِيدٌ عَلَى هَؤُلاَءِ يَوْمَ الْقِيَامَةِ ‏\"‏‏.‏ فَأَمَرَ بِدَفْنِهِمْ بِدِمَائِهِمْ وَلَمْ يُغَسِّلْهُمْ‏.‏",
+      "source_hash_sha256": "dcdb130eb22b6ebadf0c7f5309320deb616c84c67aa790c36d60dd7f7009a43d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abdan nous a rapporté : Abd Allah nous a informés : al-Layth ibn Sa‘d nous a informés : Ibn Shihab m’a rapporté, d’après Abd al-Rahman ibn Ka‘b ibn Malik, d’après Jabir ibn Abd Allah, qu’Allah les agrée tous deux, qui dit : « Le Prophète ﷺ réunissait deux hommes tués à Uhud, puis demandait : “Lequel d’entre eux avait le plus appris du Coran ?” Lorsqu’on lui en désignait un, il le plaçait en premier dans la niche funéraire et disait : “Je témoignerai en faveur de ceux-là au Jour de la Résurrection.” Il ordonna qu’ils soient enterrés avec leur sang ; ils ne furent pas lavés. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
