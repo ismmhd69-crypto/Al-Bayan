@@ -5334,3 +5334,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1041 saves five private French drafts. Hadith 5732 remains blank because its exported opening phrase is corrupted or unclear; it is flagged for Mo.
 - The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,771 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 746. Total local hadith rows not drafted: 9,858, including held records.
+
+
+### 2026-10-29: Bukhari 5736–5741
+
+- FR-LIB-HAD-BUKHARI-1042 saves six private French drafts about recited supplications and the evil eye. Uncertain wording is retained where the source gives variants.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,777 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 746. Total local hadith rows not drafted: 9,852, including held records.
