@@ -8336,3 +8336,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0242 saves four private French drafts describing how the Prophet ﷺ sat and gestured during prayer. Muslim 578h contains a direct Quran quotation and remains blank under Needs Mo; 578g is an incomplete cross-reference variant and also remains blank.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 966 Muslim drafts, 7,302 total hadith drafts, 7,327 remaining, and 468 Needs Mo items.
+
+### 2026-10-29: Muslim 580c–583a
+
+- FR-LIB-HAD-MUSLIM-0243 saves four private French drafts about pointing with the index during prayer, the closing salutation, and recognizing the end of prayer. Muslim 580d and 581b do not provide the complete report and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 970 Muslim drafts, 7,306 total hadith drafts, 7,323 remaining, and 470 Needs Mo items.
