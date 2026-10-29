@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-fr-drafts; missing-only inserts authorized where existing schema and source rights permit; public activation forbidden",
-  "lastReconciled": "2026-10-29T22:53:57.198Z",
+  "lastReconciled": "2026-10-29T22:54:31.321Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6345,
+    "hadithBukhariDrafted": 6347,
     "hadithMuslimDrafted": 5263,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11608,
+    "hadithLocalDrafted": 11610,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3021,
+    "hadithLocalRemaining": 3019,
     "hadithNeedsMo": 3009,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
@@ -53355,6 +53355,26 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1386",
+      "contentType": "hadith-library",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1386.json",
+      "sourceIds": [
+        "cdaf03ad-e956-4e76-9fba-d4507969db9c",
+        "90e83621-8a29-4a5a-a22f-f2fc9b87e47a"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 0,
+      "failed": 0,
+      "remaining": 3019,
+      "validation": "Focused French hadith validator passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -57661,7 +57681,7 @@
       "reason": "La source arabe ne contient que la chaîne de transmission et renvoie au hadith d’al-Rabi‘ sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
     }
   ],
-  "hadithBukhariDrafted": 6345,
+  "hadithBukhariDrafted": 6347,
   "hadithLocalDrafted": 11583,
   "hadithLocalRemaining": 3046,
   "needsMo": [
