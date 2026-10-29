@@ -11742,3 +11742,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2003g-2004d
 
 - FR-LIB-HAD-MUSLIM-0945 saves five private French drafts about repentance and the time limits for drinking prepared nabîdh. Different schedules and instructions for leftovers are preserved. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2004e-2006c
+
+- FR-LIB-HAD-MUSLIM-0946 saves six private French drafts about wine trade, preparing nabîdh, and serving it at a wedding meal. Serving times and container details are preserved. No Quran verse is quoted. No database write or publication occurred.
