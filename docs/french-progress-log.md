@@ -7911,3 +7911,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0157 saves six private French drafts about the invocation for entering the toilet, conversations before prayer, and the beginning of the call to prayer. The alternate invocation wording and narrator paths are retained. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 661 Muslim drafts, 6,997 total hadith drafts, 7,632 remaining, and 302 Needs Mo items.
+
+### 2026-10-29: Muslim 378a–380a
+
+- FR-LIB-HAD-MUSLIM-0158 saves five private French drafts about the call to prayer, its wording, and the two callers appointed by the Prophet ﷺ. Muslim 378c gives only the context and a fire-lighting variant while referring back to a previous report, so it remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 666 Muslim drafts, 7,002 total hadith drafts, 7,627 remaining, and 303 Needs Mo items.
