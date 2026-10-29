@@ -10506,3 +10506,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0675 isolates the 6,843-character report in a single-item batch. It includes Quran quotations, so the complete French translation remains blank under Needs Mo until an approved French Quran translation and its rights are confirmed.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1480a–1480f
+
+- FR-LIB-HAD-MUSLIM-0676 saves five private French drafts preserving the different reports about Fatima bint Qays, maintenance, residence during the waiting period, and remarriage. Muslim 1480e refers to another full report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

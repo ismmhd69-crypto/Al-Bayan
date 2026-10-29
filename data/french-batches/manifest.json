@@ -42945,6 +42945,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0676",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0676.json",
+      "sourceIds": [
+        "bdb515fb-c2e3-4b41-9853-03d70f27afc5",
+        "e6c24977-b18e-432b-b5a5-b442e189051b",
+        "17012138-94b6-41a8-be82-b9840077e1a6",
+        "0bfe10cd-68ff-4b76-b1c4-d4522f344c6b",
+        "726b3890-f51f-4e5f-b36a-d98cc1c8ab60",
+        "08129bf3-a130-4f79-91bf-91844dfb64d4"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, five private unpublished drafts preserving report variants on maintenance and residence after divorce, one incomplete wording variant held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47252,8 +47273,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8997,
-  "hadithLocalRemaining": 5632,
+  "hadithLocalDrafted": 9002,
+  "hadithLocalRemaining": 5627,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51690,10 +51711,15 @@
       "source_id": "35261248-6d01-4d59-a012-6326b5bf7264",
       "reason": "Cette source isolée de 6 843 caractères contient des citations coraniques explicites de la sourate 66, verset 4 et de la sourate 33, versets 28–29, ainsi que des citations coraniques rapportées indirectement. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
+    },
+    {
+      "source_id": "726b3890-f51f-4e5f-b36a-d98cc1c8ab60",
+      "reason": "Cette entrée commence un récit puis renvoie à la version de Yahya ibn Abi Kathir (« واقتصوا الحديث بمعنى حديث ... »), en ne donnant qu’une variante de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2661,
+  "hadithMuslimDrafted": 2666,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1180
+  "hadithNeedsMo": 1181
 }
