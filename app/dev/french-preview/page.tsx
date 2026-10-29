@@ -35,6 +35,7 @@ type PreparedDraft = {
   questions?: string[];
   answers: Record<string, Array<string | { text: string; source_ids?: string[]; requirement_id?: string }>>;
 };
+type VisitorCopyDraft = { id: string; source: string; english: string; french: string };
 
 function readDraftBatches<T>(prefix: string): T[] {
   const directory = path.join(process.cwd(), "data", "french-batches");
@@ -110,6 +111,7 @@ export default async function FrenchPreviewPage() {
   const lessons = readDraftBatches<LearningDraft>("new-to-islam-");
   const articles = readDraftBatches<LearningDraft>("hard-questions-");
   const preparedAnswers = readDraftBatches<PreparedDraft>("prepared-answers-");
+  const visitorCopy = readDraftBatches<VisitorCopyDraft>("hardcoded-copy-");
   const lessonIds = new Set((lessonSource.lessons as Array<{ id: string }>).map((lesson) => lesson.id));
   const articleIds = new Set((hardQuestionSource.articles as Array<{ id: string }>).map((article) => article.id));
   const lessonReferences = lessonSource.references as Record<string, { title: string; url: string }>;
@@ -194,6 +196,14 @@ export default async function FrenchPreviewPage() {
             </li>)}</ul>
           </div>)}
         </details>)}
+      </section>
+
+      <section className="fr-preview-card fr-preview-content" aria-labelledby="fr-preview-copy-title">
+        <h2 id="fr-preview-copy-title">Autres textes d’interface : {visitorCopy.length} chaînes</h2>
+        <p>Première tranche de l’audit des textes codés directement dans les pages et les commandes.</p>
+        <ul>{visitorCopy.map((entry) => <li key={entry.id}>
+          <strong>{entry.french}</strong><small>{entry.id} · {entry.source}</small>
+        </li>)}</ul>
       </section>
 
       <section className="fr-preview-card" id="readers" aria-labelledby="fr-preview-readers-title">

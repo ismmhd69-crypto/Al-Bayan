@@ -53,7 +53,8 @@
     "preparedAnswersDrafted": 44,
     "preparedAnswersRemaining": 0,
     "preparedAnswersDraftFiles": "data/french-batches/prepared-answers-*.json",
-    "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only"
+    "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
+    "hardcodedVisitorCopyDrafted": 24
   },
   "batches": [
     {
@@ -715,6 +716,19 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "topic IDs, answer sections/counts, source IDs, requirements, and metadata passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-UI-HC-001",
+      "contentType": "website-hardcoded-visitor-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/hardcoded-copy-001.json",
+      "translated": 24,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "source paths, unique IDs, nonempty French, and placeholder parity passed",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
