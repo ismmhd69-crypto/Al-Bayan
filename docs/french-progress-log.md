@@ -11298,3 +11298,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1764a
 
 - FR-LIB-HAD-MUSLIM-0834 saves one private French draft of the complete report about Thumâma ibn Uthâl. It preserves the chain, repeated exchanges, release and conversion, instruction to perform the ‘umra, and final statement about grain from al-Yamâma. No Quran quotation appears in this source entry. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1764b-1767b
+
+- FR-LIB-HAD-MUSLIM-0835 saves three private French drafts: the distinct wording in 1764b, the complete report in 1765, and the complete report in 1767a. The damaged 1766a source and the two chain or cross-reference-only entries remain blank under Needs Mo with specific reasons. No database write or publication occurred.
