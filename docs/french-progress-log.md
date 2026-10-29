@@ -5446,3 +5446,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1060 saves four private French drafts about silk garments, preserving the transmission chains and both routes in 5840.
 - All four records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,870 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,759, including held records.
+
+### 2026-10-29: Bukhari 5843
+
+- FR-LIB-HAD-BUKHARI-1061 saves the deferred long report as one private French draft, retaining Ibn ‘Abbâs’s account and the events related by ‘Umar.
+- The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,871 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,758, including held records.
