@@ -1,0 +1,142 @@
+{
+  "batch_id": "HADITH-BUKHARI-1355",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:29:04.852Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4af486d6-e101-4d3f-aa0f-a5710219f481",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7431",
+      "reference": "Sahih al-Bukhari, hadith 7431, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏تَعْرُجُ الْمَلاَئِكَةُ وَالرُّوحُ إِلَيْهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏تَعْرُجُ الْمَلاَئِكَةُ وَالرُّوحُ إِلَيْهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الأَعْلَى بْنُ حَمَّادٍ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا سَعِيدٌ، عَنْ قَتَادَةَ، عَنْ أَبِي الْعَالِيَةِ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم كَانَ يَدْعُو بِهِنَّ عِنْدَ الْكَرْبِ ‏\"‏ لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَرَبُّ الْعَرْشِ الْكَرِيمِ ‏\"‏‏.‏",
+      "source_hash_sha256": "62b50b52ba85e386250f0a7a85fbdc5dccac98b1fed6b3c034db244df3373c12",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd al-A‘la ibn Hammad nous a rapporté : Yazîd ibn Zuray‘ nous a rapporté : Sa‘îd nous a rapporté, d’après Qatâda, d’après Abû al-‘Âliya, d’après Ibn ‘Abbâs, que le Prophète d’Allah ﷺ invoquait Allah, en période de détresse, en disant : « Il n’y a de divinité qu’Allah, l’Immense, le Longanime. Il n’y a de divinité qu’Allah, Seigneur du Trône immense. Il n’y a de divinité qu’Allah, Seigneur des cieux et Seigneur du Trône généreux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b41bb62d-1aa4-4717-bc89-51d60de0e39d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7433",
+      "reference": "Sahih al-Bukhari, hadith 7433, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏تَعْرُجُ الْمَلاَئِكَةُ وَالرُّوحُ إِلَيْهِ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏تَعْرُجُ الْمَلاَئِكَةُ وَالرُّوحُ إِلَيْهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَيَّاشُ بْنُ الْوَلِيدِ، حَدَّثَنَا وَكِيعٌ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، عَنْ أَبِي ذَرٍّ، قَالَ سَأَلْتُ النَّبِيَّ صلى الله عليه وسلم عَنْ قَوْلِهِ ‏[quran sura=\"36\" aya_start=\"38\" aya_end=\"38\"]{‏وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا‏}‏ قَالَ ‏\"‏ مُسْتَقَرُّهَا تَحْتَ الْعَرْشِ ‏\"‏‏.‏",
+      "source_hash_sha256": "4c9eabd5534db5ce2c15e0c1f84fb7c6437437e59b69ca77a81cf6a6805dd3fc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "This report directly quotes Quran 36:38. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "source_id": "14cf2450-d323-4edf-bf68-0e8bf417bb77",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7434",
+      "reference": "Sahih al-Bukhari, hadith 7434, book 97, بَابُ قَوْلِ اللَّهِ تَعَالَى: {وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ إِلَى رَبِّهَا نَاظِرَةٌ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ إِلَى رَبِّهَا نَاظِرَةٌ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَوْنٍ، حَدَّثَنَا خَالِدٌ، وَهُشَيْمٌ، عَنْ إِسْمَاعِيلَ، عَنْ قَيْسٍ، عَنْ جَرِيرٍ، قَالَ كُنَّا جُلُوسًا عِنْدَ النَّبِيِّ صلى الله عليه وسلم إِذْ نَظَرَ إِلَى الْقَمَرِ لَيْلَةَ الْبَدْرِ قَالَ ‏\"‏ إِنَّكُمْ سَتَرَوْنَ رَبَّكُمْ كَمَا تَرَوْنَ هَذَا الْقَمَرَ لاَ تُضَامُّونَ فِي رُؤْيَتِهِ، فَإِنِ اسْتَطَعْتُمْ أَنْ لاَ تُغْلَبُوا عَلَى صَلاَةٍ قَبْلَ طُلُوعِ الشَّمْسِ وَصَلاَةٍ قَبْلَ غُرُوبِ الشَّمْسِ، فَافْعَلُوا ‏\"‏‏.‏",
+      "source_hash_sha256": "ca7f467e31b3d213e6e3f72d60039a686c9147ff73cc763376187cfc6c669c40",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Amr ibn ‘Awn nous a rapporté : Khâlid et Hushaim nous ont rapporté, d’après Ismâ‘îl, d’après Qays, d’après Jarîr, qui a dit : Nous étions assis auprès du Prophète ﷺ lorsqu’il regarda la pleine lune et dit : « Vous verrez votre Seigneur comme vous voyez cette lune, sans difficulté pour Le voir. Si vous pouvez éviter d’être empêchés d’accomplir une prière avant le lever du soleil et une prière avant son coucher, faites-le. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "48cceab8-b635-46ac-9fa6-6a52cffd0a92",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7435",
+      "reference": "Sahih al-Bukhari, hadith 7435, book 97, بَابُ قَوْلِ اللَّهِ تَعَالَى: {وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ إِلَى رَبِّهَا نَاظِرَةٌ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ إِلَى رَبِّهَا نَاظِرَةٌ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يُوسُفُ بْنُ مُوسَى، حَدَّثَنَا عَاصِمُ بْنُ يُوسُفَ الْيَرْبُوعِيُّ، حَدَّثَنَا أَبُو شِهَابٍ، عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، عَنْ قَيْسِ بْنِ أَبِي حَازِمٍ، عَنْ جَرِيرِ بْنِ عَبْدِ اللَّهِ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنَّكُمْ سَتَرَوْنَ رَبَّكُمْ عِيَانًا ‏\"‏‏.‏",
+      "source_hash_sha256": "37987271b778abcae204f28fd8c66cfc25b533acf922662ead2772d16b92d1e3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yûsuf ibn Mûsâ nous a rapporté : ‘Âsim ibn Yûsuf al-Yarbû‘î nous a rapporté : Abû Shihâb nous a rapporté, d’après Ismâ‘îl ibn Abî Khâlid, d’après Qays ibn Abî Hâzim, d’après Jarîr ibn ‘Abd Allah, qui a dit : Le Prophète ﷺ a dit : « Vous verrez certainement votre Seigneur de vos propres yeux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "450da60d-90da-4b45-9809-da2e7c944a49",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7436",
+      "reference": "Sahih al-Bukhari, hadith 7436, book 97, بَابُ قَوْلِ اللَّهِ تَعَالَى: {وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ إِلَى رَبِّهَا نَاظِرَةٌ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ إِلَى رَبِّهَا نَاظِرَةٌ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَةُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا حُسَيْنٌ الْجُعْفِيُّ، عَنْ زَائِدَةَ، حَدَّثَنَا بَيَانُ بْنُ بِشْرٍ، عَنْ قَيْسِ بْنِ أَبِي حَازِمٍ، حَدَّثَنَا جَرِيرٌ، قَالَ خَرَجَ عَلَيْنَا رَسُولُ اللَّهِ صلى الله عليه وسلم لَيْلَةَ الْبَدْرِ فَقَالَ ‏\"‏ إِنَّكُمْ سَتَرَوْنَ رَبَّكُمْ يَوْمَ الْقِيَامَةِ كَمَا تَرَوْنَ هَذَا، لاَ تُضَامُّونَ فِي رُؤْيَتِهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "59205fed5ab83a16b92c9f67628cb4006b59ef9afcebc000872bf37cdf05931d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abda ibn ‘Abd Allah nous a rapporté : Husayn al-Ju‘fî nous a rapporté, d’après Zâ’ida : Bayân ibn Bishr nous a rapporté, d’après Qays ibn Abî Hâzim, qui nous a rapporté que Jarîr avait dit : Par une nuit de pleine lune, le Messager d’Allah ﷺ sortit auprès de nous et dit : « Le Jour de la Résurrection, vous verrez votre Seigneur comme vous voyez cette lune, sans difficulté pour Le voir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b41bb62d-1aa4-4717-bc89-51d60de0e39d",
+      "reason": "This report directly quotes Quran 36:38. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    }
+  ]
+}

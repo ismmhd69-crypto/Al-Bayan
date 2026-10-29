@@ -6951,3 +6951,15 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1353 saves 4 private French drafts. Hadiths 7424 and 7425 directly quote Quranic wording; both full translations remain blank under Needs Mo pending confirmation of their references, an approved attributed French Quran translation, and permitted use. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,238 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 137. Total local hadith rows not drafted: 8,391, including held records.
+
+### 2026-10-29: Bukhari 7432
+
+- FR-LIB-HAD-BUKHARI-1354 saves one private French draft for the detailed report, preserving the narrator uncertainty, recipients and group descriptions, objection, response, and narrator’s uncertainty about who asked to kill the man. No database writes or publication occurred.
+- Its source hash is retained and the one-record focused validator passed.
+
+### 2026-10-29: Bukhari 7431 and 7433–7436
+
+- FR-LIB-HAD-BUKHARI-1355 saves four private French drafts. Hadith 7433 directly quotes Quran 36:38; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
+- All five source hashes are retained and the focused validator passed.
+
+- Current totals: Bukhari local drafts 6,243 of 7,263; Muslim local drafts 0 of 7,366; Hadith Needs Mo 138; total local hadith rows not drafted 8,386, including held records.
