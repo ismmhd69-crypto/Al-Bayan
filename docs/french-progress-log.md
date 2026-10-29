@@ -10961,3 +10961,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0766 saves four private French drafts about vows. Muslim 1638b and 1639d only refer to other reports and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1640b–1640d
+
+- FR-LIB-HAD-MUSLIM-0767 saves two private French drafts about vows and destiny. Muslim 1640d only supplies a chain and a cross-reference, so it remains blank under Needs Mo.
+- All three source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
