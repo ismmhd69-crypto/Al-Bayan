@@ -8091,3 +8091,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0193 saves one private French draft reporting recitation of Surat At-Tur in the sunset prayer. Muslim 464a–c and 465a quote Quran wording and remain blank pending an approved, attributed French Quran translation with permitted use. Muslim 463b is an incomplete cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 778 Muslim drafts, 7,114 total hadith drafts, 7,515 remaining, and 387 Needs Mo items.
+
+### 2026-10-29: Muslim 465b–467a
+
+- FR-LIB-HAD-MUSLIM-0194 saves four private French drafts about Mu‘adh leading his people in prayer and the instruction to keep congregational prayer manageable. Muslim 465b quotes Quran passages and remains blank pending an approved, attributed French Quran translation with permitted use. Muslim 466b is an incomplete cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 782 Muslim drafts, 7,118 total hadith drafts, 7,511 remaining, and 389 Needs Mo items.

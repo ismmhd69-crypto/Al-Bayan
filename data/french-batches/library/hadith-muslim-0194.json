@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0194",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:24:09.672Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "194de47c-7f66-4e6b-9535-4cbd60b71890",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:465b",
+      "reference": "Sahih Muslim, hadith 465b, book 4, باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح قَالَ وَحَدَّثَنَا ابْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّهُ قَالَ صَلَّى مُعَاذُ بْنُ جَبَلٍ الأَنْصَارِيُّ لأَصْحَابِهِ الْعِشَاءَ فَطَوَّلَ عَلَيْهِمْ فَانْصَرَفَ رَجُلٌ مِنَّا فَصَلَّى فَأُخْبِرَ مُعَاذٌ عَنْهُ فَقَالَ إِنَّهُ مُنَافِقٌ ‏.‏ فَلَمَّا بَلَغَ ذَلِكَ الرَّجُلَ دَخَلَ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَأَخْبَرَهُ مَا قَالَ مُعَاذٌ فَقَالَ لَهُ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ أَتُرِيدُ أَنْ تَكُونَ فَتَّانًا يَا مُعَاذُ إِذَا أَمَمْتَ النَّاسَ فَاقْرَأْ بِالشَّمْسِ وَضُحَاهَا ‏.‏ وَسَبِّحِ اسْمَ رَبِّكَ الأَعْلَى ‏.‏ وَاقْرَأْ بِاسْمِ رَبِّكَ ‏.‏ وَاللَّيْلِ إِذَا يَغْشَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "178dcac48c72bc5b9f92a634fda51451c9f29e1114cb116bd2384a837c80bcc3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3d86dfd5-7369-4176-9b58-f75c1c4a4c25",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:465c",
+      "reference": "Sahih Muslim, hadith 465c, book 4, باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ مَنْصُورٍ، عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ مُعَاذَ بْنَ جَبَلٍ، كَانَ يُصَلِّي مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم الْعِشَاءَ الآخِرَةَ ثُمَّ يَرْجِعُ إِلَى قَوْمِهِ فَيُصَلِّي بِهِمْ تِلْكَ الصَّلاَةَ ‏.‏",
+      "source_hash_sha256": "989d9384c06b500d7b7cb68175c296d17a2ccf8e5067c116f0857f88917bc6af",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Hushaym nous a informés, d’après Mansur, d’après Amr ibn Dinar, d’après Jabir ibn Abdullah, que Mu‘adh ibn Jabal avait l’habitude de prier la dernière prière du soir avec le Messager d’Allah ﷺ, puis de retourner auprès des siens et de diriger cette même prière pour eux.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f6e88581-1f88-4409-b9e2-f9fc9e5dec06",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:465d",
+      "reference": "Sahih Muslim, hadith 465 d, book 4, باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو الرَّبِيعِ الزَّهْرَانِيُّ، قَالَ أَبُو الرَّبِيعِ حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا أَيُّوبُ، عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ كَانَ مُعَاذٌ يُصَلِّي مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم الْعِشَاءَ ثُمَّ يَأْتِي مَسْجِدَ قَوْمِهِ فَيُصَلِّي بِهِمْ ‏.‏",
+      "source_hash_sha256": "93cb481f31ed5963d29a29e9473e8b876b66be1330537ce5fc6aa0a83a154c71",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id et Abu al-Rabi‘ al-Zahrani nous ont rapporté. Abu al-Rabi‘ dit : Hammad nous a rapporté, d’après Ayyub, d’après Amr ibn Dinar, d’après Jabir ibn Abdullah, qui dit : « Mu‘adh priait la prière du soir avec le Messager d’Allah ﷺ, puis se rendait à la mosquée de son peuple et dirigeait la prière pour eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8e0d5f49-0629-43fb-a4a2-340106dd0461",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:466a",
+      "reference": "Sahih Muslim, hadith 466 a, book 4, باب أَمْرِ الأَئِمَّةِ بِتَخْفِيفِ الصَّلاَةِ فِي تَمَامٍ ‏",
+      "title": "باب أَمْرِ الأَئِمَّةِ بِتَخْفِيفِ الصَّلاَةِ فِي تَمَامٍ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، عَنْ قَيْسٍ، عَنْ أَبِي مَسْعُودٍ الأَنْصَارِيِّ، قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ إِنِّي لأَتَأَخَّرُ عَنْ صَلاَةِ الصُّبْحِ مِنْ أَجْلِ فُلاَنٍ مِمَّا يُطِيلُ بِنَا ‏.‏ فَمَا رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم غَضِبَ فِي مَوْعِظَةٍ قَطُّ أَشَدَّ مِمَّا غَضِبَ يَوْمَئِذٍ فَقَالَ ‏\"‏ يَا أَيُّهَا النَّاسُ إِنَّ مِنْكُمْ مُنَفِّرِينَ فَأَيُّكُمْ أَمَّ النَّاسَ فَلْيُوجِزْ فَإِنَّ مِنْ وَرَائِهِ الْكَبِيرَ وَالضَّعِيفَ وَذَا الْحَاجَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5f3329f92dfcee140e32d91f4de349912e4b30c522c3affdc1bf3fbe53d2b8f6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Hushaym nous a informés, d’après Isma‘il ibn Abi Khalid, d’après Qays, d’après Abu Mas‘ud al-Ansari, qui dit : « Un homme vint trouver le Messager d’Allah ﷺ et lui dit : “Je prends du retard pour la prière de l’aube à cause d’un tel, parce qu’il la prolonge pour nous.” Je n’ai jamais vu le Prophète ﷺ aussi en colère dans un sermon que ce jour-là. Il dit : “Ô gens, certains d’entre vous repoussent les fidèles. Que celui qui dirige la prière des gens l’allège, car derrière lui se trouvent des personnes âgées, des personnes faibles et des personnes ayant un besoin à satisfaire.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ee869e3d-71b8-4e4d-9a54-a1f9f2ff9cf4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:466b",
+      "reference": "Sahih Muslim, hadith 466 b, book 4, باب أَمْرِ الأَئِمَّةِ بِتَخْفِيفِ الصَّلاَةِ فِي تَمَامٍ ‏",
+      "title": "باب أَمْرِ الأَئِمَّةِ بِتَخْفِيفِ الصَّلاَةِ فِي تَمَامٍ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا هُشَيْمٌ، وَوَكِيعٌ، ح قَالَ وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي ح، وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، كُلُّهُمْ عَنْ إِسْمَاعِيلَ، فِي هَذَا الإِسْنَادِ بِمِثْلِ حَدِيثِ هُشَيْمٍ ‏.‏",
+      "source_hash_sha256": "a4e562fe875f153dd16c80e6f3ddc369afc9633c8ce17ba0288103576fee4b3d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2b629f57-8d85-4666-95a0-5b14d837907e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:467a",
+      "reference": "Sahih Muslim, hadith 467 a, book 4, باب أَمْرِ الأَئِمَّةِ بِتَخْفِيفِ الصَّلاَةِ فِي تَمَامٍ ‏",
+      "title": "باب أَمْرِ الأَئِمَّةِ بِتَخْفِيفِ الصَّلاَةِ فِي تَمَامٍ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا الْمُغِيرَةُ، - وَهُوَ ابْنُ عَبْدِ الرَّحْمَنِ الْحِزَامِيُّ - عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا أَمَّ أَحَدُكُمُ النَّاسَ فَلْيُخَفِّفْ فَإِنَّ فِيهِمُ الصَّغِيرَ وَالْكَبِيرَ وَالضَّعِيفَ وَالْمَرِيضَ فَإِذَا صَلَّى وَحْدَهُ فَلْيُصَلِّ كَيْفَ شَاءَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "036497e6e778dc83bd50ea2bbda582aaf24a27a27dee71b3c588166b6111bad2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Mughira — Ibn Abd al-Rahman al-Hizami — nous a rapporté, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra, que le Prophète ﷺ a dit : « Lorsque l’un de vous dirige la prière des gens, qu’il l’allège, car parmi eux se trouvent des enfants, des personnes âgées, des personnes faibles et des malades. Lorsqu’il prie seul, qu’il prie comme il le souhaite. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "194de47c-7f66-4e6b-9535-4cbd60b71890",
+      "reason": "La source cite directement plusieurs fragments de versets coraniques dans les recommandations de récitation. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "ee869e3d-71b8-4e4d-9a54-a1f9f2ff9cf4",
+      "reason": "La source ne reprend que les chaînes de transmission et renvoie à la version précédente (« même hadith que celui de Hushaym »), sans répéter son texte. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
