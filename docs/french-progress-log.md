@@ -776,3 +776,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-149` saves six private French drafts for Bukhari 826–831. They preserve the two alternative descriptions after Ali’s prayer, the sitting positions, Abu Humayd’s detailed prayer description and the correction to the greeting said while seated in prayer.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 772 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,857, including held records.
+### 2026-10-29: Bukhari 832 and 834–838 source review
+
+- `FR-LIB-HAD-BUKHARI-150` saves six private French drafts for Bukhari 832 and 834–838. The source export did not include a Bukhari 833 record. The translations retain the supplication against debt, the prayer greeting and invocation, the report about clay on the Prophet’s forehead, and the timing of women’s departure after prayer.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 778 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,851, including held records.
