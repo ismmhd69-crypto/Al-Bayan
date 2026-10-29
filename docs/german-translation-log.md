@@ -19,3 +19,4 @@ Published: `false`
 |---|---:|---:|---:|---:|---:|---|
 | fatwas-001 | 34 | 34 | 0 | 17022 | 17056 | Stored cleanly as unpublished drafts |
 | fatwas-002 | 24 | 24 | 0 | 17056 | 17080 | Stored cleanly as unpublished drafts |
+| bukhari-002 | 30 | 30 | 0 | 17080 | 17110 | Stored cleanly as unpublished drafts |
