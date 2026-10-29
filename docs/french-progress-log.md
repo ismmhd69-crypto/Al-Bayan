@@ -10931,3 +10931,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0760 saves five private French drafts on lifetime gifts and inheritance. Muslim 1625j only gives a partial variant and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1626b–1627e
+
+- FR-LIB-HAD-MUSLIM-0761 saves two private French drafts about wills. Muslim 1626b and 1627b–e only give transmission or wording variants and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

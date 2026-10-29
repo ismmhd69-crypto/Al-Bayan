@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0761",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:13:09.539Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6858eff0-bb59-4169-a3f5-435c75df9002",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1626b",
+      "reference": "Sahih Muslim, hadith 1626 b, book 24, باب الْعُمْرَى ‏‏",
+      "title": "باب الْعُمْرَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا خَالِدٌ، - يَعْنِي ابْنَ الْحَارِثِ - حَدَّثَنَا سَعِيدٌ، عَنْ قَتَادَةَ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ مِيرَاثٌ لأَهْلِهَا ‏\"‏ ‏.‏ أَوْ قَالَ ‏\"‏ جَائِزَةٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8fd6ef1990ed5c5a565611a72e56026e59b39214368d7fa179a6b7c1ad1805be",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "69653fd0-c359-4f6a-9665-7298abb09d01",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1627a",
+      "reference": "Sahih Muslim, hadith 1627 a, book 25, كتاب الوصية",
+      "title": "كتاب الوصية",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو خَيْثَمَةَ، زُهَيْرُ بْنُ حَرْبٍ وَمُحَمَّدُ بْنُ الْمُثَنَّى الْعَنَزِيُّ - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ ابْنُ سَعِيدٍ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ، عُمَرَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَا حَقُّ امْرِئٍ مُسْلِمٍ لَهُ شَىْءٌ يُرِيدُ أَنْ يُوصِيَ فِيهِ يَبِيتُ لَيْلَتَيْنِ إِلاَّ وَوَصِيَّتُهُ مَكْتُوبَةٌ عِنْدَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b9f6c30c4a38e07c0a770c4e645294d59a8d7c012e933198cb09ae950611db1b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Khaythama Zuhayr ibn Harb et Muhammad ibn al-Muthanna al-Anazi nous ont rapporté — la formulation est celle d’Ibn al-Muthanna. Ils dirent : « Yahya — Ibn Sa‘id al-Qattan — nous a rapporté », d’après Ubayd Allah, qui m’a informé, d’après Nafi, d’après Ibn Umar, que le Messager d’Allah a dit : « Il ne convient pas à un musulman qui possède un bien au sujet duquel il souhaite rédiger un testament de passer deux nuits sans que son testament écrit soit auprès de lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "64dbbde4-3b49-4d82-b67e-3bf3c1eb50e4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1627b",
+      "reference": "Sahih Muslim, hadith 1627 b, book 25, كتاب الوصية",
+      "title": "كتاب الوصية",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، وَعَبْدُ اللَّهِ بْنُ نُمَيْرٍ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنِي أَبِي كِلاَهُمَا، عَنْ عُبَيْدِ اللَّهِ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّهُمَا قَالاَ ‏\"‏ وَلَهُ شَىْءٌ يُوصِي فِيهِ ‏\"‏ ‏.‏ وَلَمْ يَقُولاَ ‏\"‏ يُرِيدُ أَنْ يُوصِيَ فِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2a8b60b3557631a9f8212efbb33f308b93f8150435b29ed6d54a75b286d8fd64",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8fbb403e-c0c0-44ea-8bc4-4508c4a19f2b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1627c",
+      "reference": "Sahih Muslim, hadith 1627 c, book 25, كتاب الوصية",
+      "title": "كتاب الوصية",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا حَمَّادٌ يَعْنِي ابْنَ زَيْدٍ، ح وَحَدَّثَنِي زُهَيْرُ بْنُ، حَرْبٍ حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنِي ابْنَ عُلَيَّةَ - كِلاَهُمَا عَنْ أَيُّوبَ، ح وَحَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي أُسَامَةُ بْنُ زَيْدٍ اللَّيْثِيُّ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، أَخْبَرَنَا هِشَامٌ، - يَعْنِي ابْنَ سَعْدٍ - كُلُّهُمْ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمِثْلِ حَدِيثِ عُبَيْدِ اللَّهِ وَقَالُوا جَمِيعًا ‏\"‏ لَهُ شَىْءٌ يُوصِي فِيهِ ‏\"‏ ‏.‏ إِلاَّ فِي حَدِيثِ أَيُّوبَ فَإِنَّهُ قَالَ ‏\"‏ يُرِيدُ أَنْ يُوصِيَ فِيهِ ‏\"‏ ‏.‏ كَرِوَايَةِ يَحْيَى عَنْ عُبَيْدِ اللَّهِ ‏.‏",
+      "source_hash_sha256": "90e8586c5f3451182a9344d86b3e68e2c3c8743be59c3336796b4c86b9f6c00d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "617a7a61-1797-4516-b75a-d64f7030ab64",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1627d",
+      "reference": "Sahih Muslim, hadith 1627 d, book 25, كتاب الوصية",
+      "title": "كتاب الوصية",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَارُونُ بْنُ مَعْرُوفٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، - وَهْوَ ابْنُ الْحَارِثِ - عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَا حَقُّ امْرِئٍ مُسْلِمٍ لَهُ شَىْءٌ يُوصِي فِيهِ يَبِيتُ ثَلاَثَ لَيَالٍ إِلاَّ وَوَصِيَّتُهُ عِنْدَهُ مَكْتُوبَةٌ ‏\"‏ ‏.‏ قَالَ عَبْدُ اللَّهِ بْنُ عُمَرَ مَا مَرَّتْ عَلَىَّ لَيْلَةٌ مُنْذُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ذَلِكَ إِلاَّ وَعِنْدِي وَصِيَّتِي ‏.‏",
+      "source_hash_sha256": "834432071f110d8842af796d397cd6330bb1d618a8dac9d2c952989f2a9a6d33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Ma‘ruf nous a rapporté : Abd Allah ibn Wahb nous a rapporté : Amr — Ibn al-Harith — nous a informés, d’après Ibn Shihab, d’après Salim, d’après son père, qui avait entendu le Messager d’Allah dire : « Il ne convient pas à un musulman qui possède un bien au sujet duquel il souhaite rédiger un testament de passer trois nuits sans que son testament écrit soit auprès de lui. » Abd Allah ibn Umar dit : « Depuis que j’ai entendu le Messager d’Allah dire cela, aucune nuit ne s’est écoulée sans que mon testament soit auprès de moi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "13e34941-a34e-4546-943c-dd394e90d476",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1627e",
+      "reference": "Sahih Muslim, hadith 1627 e, book 25, كتاب الوصية",
+      "title": "كتاب الوصية",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح وَحَدَّثَنِي عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، حَدَّثَنِي عُقَيْلٌ، ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، وَعَبْدُ بْنُ حُمَيْدٍ قَالاَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، كُلُّهُمْ عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ نَحْوَ حَدِيثِ عَمْرِو بْنِ الْحَارِثِ ‏.‏",
+      "source_hash_sha256": "6a78adbef6d64a6168f76d234c22bfb21f32e988ed4fabcd886d631ff96c8b38",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6858eff0-bb59-4169-a3f5-435c75df9002",
+      "reason": "Cette entrée ne rapporte qu’une variante de formulation du récit précédent, sans contenu complet. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "64dbbde4-3b49-4d82-b67e-3bf3c1eb50e4",
+      "reason": "Cette entrée donne uniquement des différences de formulation par rapport au récit précédent. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "8fbb403e-c0c0-44ea-8bc4-4508c4a19f2b",
+      "reason": "Cette entrée énumère des chaînes et des différences de formulation puis renvoie au récit précédent sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "13e34941-a34e-4546-943c-dd394e90d476",
+      "reason": "Cette entrée donne des chaînes de transmission puis renvoie au récit précédent sans reproduire le contenu du récit. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
