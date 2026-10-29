@@ -6816,3 +6816,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1327 saves five private French drafts. Hadith 7273 ends with the unclear wording تلغثونها أو ترغثونها and an explicit narrator doubt; its entire translation remains blank under Needs Mo pending reliable clarification. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,122 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 857. Total local hadith rows not drafted: 8,509, including held records.
+
+### 2026-10-29: Bukhari 7275–7277 and 7280–7282
+
+- FR-LIB-HAD-BUKHARI-1328 saves five private French drafts. Hadith 7277 directly quotes Quran 6:134; its complete translation remains blank under Needs Mo pending an approved, attributed French Quran translation and confirmation of permitted use. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,127 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 858. Total local hadith rows not drafted: 8,508, including held records.

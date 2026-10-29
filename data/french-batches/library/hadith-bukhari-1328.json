@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1328",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:05:05.082Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "11e3ad67-2b67-4e2a-bd8a-bf6b5dd29f6f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7275",
+      "reference": "Sahih al-Bukhari, hadith 7275, book 96, باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "title": "باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَبَّاسٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، حَدَّثَنَا سُفْيَانُ، عَنْ وَاصِلٍ، عَنْ أَبِي وَائِلٍ، قَالَ جَلَسْتُ إِلَى شَيْبَةَ فِي هَذَا الْمَسْجِدِ قَالَ جَلَسَ إِلَىَّ عُمَرُ فِي مَجْلِسِكَ هَذَا فَقَالَ هَمَمْتُ أَنْ لاَ أَدَعَ فِيهَا صَفْرَاءَ وَلاَ بَيْضَاءَ إِلاَّ قَسَمْتُهَا بَيْنَ الْمُسْلِمِينَ‏.‏ قُلْتُ مَا أَنْتَ بِفَاعِلٍ‏.‏ قَالَ لِمَ‏.‏ قُلْتُ لَمْ يَفْعَلْهُ صَاحِبَاكَ قَالَ هُمَا الْمَرْآنِ يُقْتَدَى بِهِمَا‏.‏",
+      "source_hash_sha256": "6b736ae340069a4c7e24c70c02820d0a3914f7a194c0cc76476e24d008eb8c3f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Amr ibn ‘Abbâs nous a rapporté : ‘Abd ar-Rahmân nous a rapporté : Sufyân nous a rapporté, d’après Wâsil, d’après Abû Wâ’il, qui a dit : J’étais assis auprès de Shayba dans cette mosquée. Il me dit : ‘Umar s’était assis à ta place et avait dit : « J’avais l’intention de ne laisser ni or ni argent dans cette Ka‘ba sans les distribuer aux musulmans. » Je lui dis : « Tu ne le feras pas. » Il demanda : « Pourquoi ? » Je répondis : « Tes deux compagnons ne l’ont pas fait. » Il dit : « Ce sont deux hommes dont on suit l’exemple. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "57a0664b-cf36-45f0-939c-117da1957ded",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7276",
+      "reference": "Sahih al-Bukhari, hadith 7276, book 96, باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "title": "باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ سَأَلْتُ الأَعْمَشَ فَقَالَ عَنْ زَيْدِ بْنِ وَهْبٍ، سَمِعْتُ حُذَيْفَةَ، يَقُولُ حَدَّثَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَنَّ الأَمَانَةَ نَزَلَتْ مِنَ السَّمَاءِ فِي جَذْرِ قُلُوبِ الرِّجَالِ، وَنَزَلَ الْقُرْآنُ فَقَرَءُوا الْقُرْآنَ وَعَلِمُوا مِنَ السُّنَّةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "169ef10fbb4568272c2e34f91f38e2c81d5a1294778da807d09bfc48fdc834fe",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Alî ibn ‘Abd Allah nous a rapporté : Sufyân nous a rapporté ; il a dit : J’ai interrogé al-A‘mash, qui a répondu : « D’après Zayd ibn Wahb, j’ai entendu Hudhayfa dire : Le Messager d’Allah ﷺ nous a rapporté : “La confiance fut déposée du ciel au plus profond des cœurs des hommes. Puis le Coran descendit ; ils récitèrent le Coran et apprirent de la Sunna.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e177e1d0-4a25-4347-8398-c8a9dc82b63a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7277",
+      "reference": "Sahih al-Bukhari, hadith 7277, book 96, باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "title": "باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، حَدَّثَنَا شُعْبَةُ، أَخْبَرَنَا عَمْرُو بْنُ مُرَّةَ، سَمِعْتُ مُرَّةَ الْهَمْدَانِيَّ، يَقُولُ قَالَ عَبْدُ اللَّهِ إِنَّ أَحْسَنَ الْحَدِيثِ كِتَابُ اللَّهِ، وَأَحْسَنَ الْهَدْىِ هَدْىُ مُحَمَّدٍ صلى الله عليه وسلم، وَشَرَّ الأُمُورِ مُحْدَثَاتُهَا، وَإِنَّ مَا تُوعَدُونَ لآتٍ، وَمَا أَنْتُمْ بِمُعْجِزِينَ‏.‏",
+      "source_hash_sha256": "6eb1b4e7b2709eb5cc61d676b0ad52607aac1d778aa18f5cf6677b523932fd99",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "needs_mo": true,
+      "needs_mo_reason": "The report directly quotes Quran 6:134: وَإِنَّ مَا تُوعَدُونَ لآتٍ، وَمَا أَنْتُمْ بِمُعْجِزِينَ. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use.",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "36b07cb9-79d9-4027-ae83-148f2a8b7de6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7280",
+      "reference": "Sahih al-Bukhari, hadith 7280, book 96, باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "title": "باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ سِنَانٍ، حَدَّثَنَا فُلَيْحٌ، حَدَّثَنَا هِلاَلُ بْنُ عَلِيٍّ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ كُلُّ أُمَّتِي يَدْخُلُونَ الْجَنَّةَ، إِلاَّ مَنْ أَبَى ‏\"‏‏.‏ قَالُوا يَا رَسُولَ اللَّهِ وَمَنْ يَأْبَى قَالَ ‏\"‏ مَنْ أَطَاعَنِي دَخَلَ الْجَنَّةَ، وَمَنْ عَصَانِي فَقَدْ أَبَى ‏\"‏‏.‏",
+      "source_hash_sha256": "a4f05e5ee690e19928cd0b010be536e6928f29f4a6100986d5e0cc94ea713f48",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Sinân nous a rapporté : Fulayh nous a rapporté : Hilâl ibn ‘Alî nous a rapporté, d’après ‘Atâ’ ibn Yasâr, d’après Abû Hurayra, que le Messager d’Allah ﷺ a dit : « Tous ceux de ma communauté entreront au Paradis, sauf celui qui refuse. » Ils demandèrent : « Messager d’Allah, qui donc refuserait ? » Il répondit : « Quiconque m’obéit entrera au Paradis ; quiconque me désobéit aura refusé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "35bab509-ac2a-4de1-b74e-2ce3e8184147",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7281",
+      "reference": "Sahih al-Bukhari, hadith 7281, book 96, باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "title": "باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبَادَةَ، أَخْبَرَنَا يَزِيدُ، حَدَّثَنَا سَلِيمُ بْنُ حَيَّانَ ـ وَأَثْنَى عَلَيْهِ ـ حَدَّثَنَا سَعِيدُ بْنُ مِينَاءَ، حَدَّثَنَا أَوْ، سَمِعْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ جَاءَتْ مَلاَئِكَةٌ إِلَى النَّبِيِّ صلى الله عليه وسلم وَهْوَ نَائِمٌ فَقَالَ بَعْضُهُمْ إِنَّهُ نَائِمٌ‏.‏ وَقَالَ بَعْضُهُمْ إِنَّ الْعَيْنَ نَائِمَةٌ وَالْقَلْبَ يَقْظَانُ‏.‏ فَقَالُوا إِنَّ لِصَاحِبِكُمْ هَذَا مَثَلاً فَاضْرِبُوا لَهُ مَثَلاً‏.‏ فَقَالَ بَعْضُهُمْ إِنَّهُ نَائِمٌ‏.‏ وَقَالَ بَعْضُهُمْ إِنَّ الْعَيْنَ نَائِمَةٌ وَالْقَلْبَ يَقْظَانُ‏.‏ فَقَالُوا مَثَلُهُ كَمَثَلِ رَجُلٍ بَنَى دَارًا، وَجَعَلَ فِيهَا مَأْدُبَةً وَبَعَثَ دَاعِيًا، فَمَنْ أَجَابَ الدَّاعِيَ دَخَلَ الدَّارَ وَأَكَلَ مِنَ الْمَأْدُبَةِ، وَمَنْ لَمْ يُجِبِ الدَّاعِيَ لَمْ يَدْخُلِ الدَّارَ وَلَمْ يَأْكُلْ مِنَ الْمَأْدُبَةِ‏.‏ فَقَالُوا أَوِّلُوهَا لَهُ يَفْقَهْهَا فَقَالَ بَعْضُهُمْ إِنَّهُ نَائِمٌ‏.‏ وَقَالَ بَعْضُهُمْ إِنَّ الْعَيْنَ نَائِمَةٌ وَالْقَلْبَ يَقْظَانُ‏.‏ فَقَالُوا فَالدَّارُ الْجَنَّةُ، وَالدَّاعِي مُحَمَّدٌ صلى الله عليه وسلم فَمَنْ أَطَاعَ مُحَمَّدًا صلى الله عليه وسلم فَقَدْ أَطَاعَ اللَّهَ، وَمَنْ عَصَى مُحَمَّدًا صلى الله عليه وسلم فَقَدْ عَصَى اللَّهَ، وَمُحَمَّدٌ صلى الله عليه وسلم فَرْقٌ بَيْنَ النَّاسِ‏.‏ تَابَعَهُ قُتَيْبَةُ عَنْ لَيْثٍ، عَنْ خَالِدٍ، عَنْ سَعِيدِ بْنِ أَبِي هِلاَلٍ، عَنْ جَابِرٍ، خَرَجَ عَلَيْنَا النَّبِيُّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "c23335bf599c25934a9fc1effb6518d437f254ef9df65dfcd9f6b08e902d829d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Ubâda nous a rapporté : Yazîd nous a informés : Salîm ibn Hayyân — dont il fit l’éloge — nous a rapporté : Sa‘îd ibn Mînâ’ nous a rapporté — ou j’ai entendu — Jâbir ibn ‘Abd Allah dire : Des anges vinrent auprès du Prophète ﷺ alors qu’il dormait. Certains dirent : « Il dort. » D’autres dirent : « Ses yeux dorment, mais son cœur est éveillé. » Ils dirent : « Votre compagnon a une parabole ; proposez-lui une parabole. » Certains répétèrent : « Il dort », et d’autres : « Ses yeux dorment, mais son cœur est éveillé. » Ils dirent : « Il ressemble à un homme qui a construit une maison, y a préparé un festin et a envoyé un héraut. Celui qui répond au héraut entre dans la maison et mange du festin ; celui qui ne lui répond pas n’entre pas dans la maison et ne mange pas du festin. » Ils dirent : « Expliquez-la-lui afin qu’il la comprenne. » Certains répétèrent : « Il dort », et d’autres : « Ses yeux dorment, mais son cœur est éveillé. » Ils dirent : « La maison est le Paradis, le héraut est Muhammad ﷺ. Celui qui obéit à Muhammad a obéi à Allah, et celui qui désobéit à Muhammad a désobéi à Allah. Muhammad distingue les gens. » Qutayba a rapporté une version concordante d’après Layth, d’après Khâlid, d’après Sa‘îd ibn Abî Hilâl, d’après Jâbir : « Le Prophète ﷺ sortit vers nous. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fe9ada5a-563a-4d9f-ad5e-74b58a914be9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7282",
+      "reference": "Sahih al-Bukhari, hadith 7282, book 96, باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "title": "باب الاِقْتِدَاءِ بِسُنَنِ رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ هَمَّامٍ، عَنْ حُذَيْفَةَ، قَالَ يَا مَعْشَرَ الْقُرَّاءِ اسْتَقِيمُوا فَقَدْ سُبِقْتُمْ سَبْقًا بَعِيدًا فَإِنْ أَخَذْتُمْ يَمِينًا وَشِمَالاً، لَقَدْ ضَلَلْتُمْ ضَلاَلاً بَعِيدًا‏.‏",
+      "source_hash_sha256": "8978f69175b5dba837d7b6cf3f9fc60771965ca76c3b6efbddb56ba3b2111f68",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Nu‘aym nous a rapporté : Sufyân nous a rapporté, d’après al-A‘mash, d’après Ibrâhîm, d’après Hammâm, d’après Hudhayfa, qui a dit : « Ô vous qui récitez le Coran, tenez-vous droit. Vous avez déjà pris une avance considérable. Si vous prenez à droite ou à gauche, vous vous égarerez gravement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e177e1d0-4a25-4347-8398-c8a9dc82b63a",
+      "reason": "Direct quotation of Quran 6:134; keep the entire French translation blank pending confirmation of an approved, attributed and permitted Quran translation."
+    }
+  ]
+}
