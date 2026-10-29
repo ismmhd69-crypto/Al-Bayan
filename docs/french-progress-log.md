@@ -6146,3 +6146,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1205 saves six private French drafts, preserving the complete chain and successive intercession requests in 6565, including Qatâda’s explanatory note. No database writes or publication occurred.
 - All six drafts passed the focused validator. Bukhari local drafts: 5,530 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 796. Total local hadith rows not drafted: 9,099, including held records.
+
+
+### 2026-10-29: Bukhari 6567 and 6569–6572
+
+- FR-LIB-HAD-BUKHARI-1206 saves five private French drafts. The exporter deferred one long source for a separate batch. No database writes or publication occurred.
+- All five drafts passed the focused validator. Bukhari local drafts: 5,535 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 796. Total local hadith rows not drafted: 9,094, including held records.

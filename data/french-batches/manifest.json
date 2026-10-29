@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5530,
+    "hadithBukhariDrafted": 5535,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5530,
+    "hadithLocalDrafted": 5535,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9099,
+    "hadithLocalRemaining": 9094,
     "hadithNeedsMo": 796,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -25537,6 +25537,26 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1206",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1206.json",
+      "sourceIds": [
+        "af134c7c-a6d6-472d-be79-4e166d033dde",
+        "7230f33f-e5a6-4bf2-a0d0-a91b49406472",
+        "54498d03-3d2e-43da-87e2-e61ce9d051e8",
+        "7e9ee9ff-9b14-4521-a211-e2f729d51291",
+        "53bbd316-b9f7-4297-8220-134c57e6b522"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -28703,9 +28723,9 @@
       "reason": "The report uses two rare plant terms (الثعارير and الضغابيس) and an aside (وكان قد سقط فمه) whose referent and meaning are unclear in this record. Keep the complete translation blank until the source wording is reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 5530,
-  "hadithLocalDrafted": 5530,
-  "hadithLocalRemaining": 9099,
+  "hadithBukhariDrafted": 5535,
+  "hadithLocalDrafted": 5535,
+  "hadithLocalRemaining": 9094,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
