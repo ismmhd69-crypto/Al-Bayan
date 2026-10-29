@@ -1336,3 +1336,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-280` saves six private French drafts for the available source records 1611–1614 and 1616–1617. No source record for 1615 was present in the exporter batch. They preserve the reports about touching the corners, the tawaf pace, and the Sa‘y. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,486 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 81. Total local hadith rows not drafted: 13,142, including held records.
+
+### 2026-10-29: Bukhari 1618–1623 source review
+
+- `FR-LIB-HAD-BUKHARI-281` saves four private French drafts for Bukhari 1618 and 1620–1622. Bukhari 1619 and 1623 remain blank and are recorded under Needs Mo because they directly quote Quran 52:1–2 and 33:21; no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran holds. No database writes or publication occurred. Bukhari local drafts: 1,490 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 83. Total local hadith rows not drafted: 13,138, including held records.
