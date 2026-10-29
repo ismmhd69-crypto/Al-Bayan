@@ -9596,3 +9596,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0493 saves three private French drafts about the days of Tashriq and fasting on Friday. Muslim 1141b, 1142b, and 1143b provide only variants tied to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1144a–1146b
+
+- FR-LIB-HAD-MUSLIM-0494 saves three private French drafts about Friday fasting and making up missed Ramadan fasts. Muslim 1145a and 1145b quote Quran 2:184–185 and remain fully blank; 1146b contains only a wording variant and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
