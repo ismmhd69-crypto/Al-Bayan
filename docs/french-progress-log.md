@@ -11171,3 +11171,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0808 saves five private French drafts on the defendant's oath, a witness and an oath, and judicial disputes. The distinct location detail in 1713d is retained. Muslim 1713b only cross-references the preceding report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1714a-1715b
+
+- FR-LIB-HAD-MUSLIM-0809 saves five private French drafts: the account of Hind and Abu Sufyan, its two distinct variants, and reports on Allah's approval and disapproval. Muslim 1714b only supplies alternate chains and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

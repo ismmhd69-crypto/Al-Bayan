@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0809",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:41:01.335Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "61a86cb7-62c9-4d89-862b-848eb81c9fbe",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1714a",
+      "reference": "Sahih Muslim, hadith 1714 a, book 30, باب قَضِيَّةِ هِنْدٍ ‏‏",
+      "title": "باب قَضِيَّةِ هِنْدٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ دَخَلَتْ هِنْدٌ بِنْتُ عُتْبَةَ امْرَأَةُ أَبِي سُفْيَانَ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ أَبَا سُفْيَانَ رَجُلٌ شَحِيحٌ لاَ يُعْطِينِي مِنَ النَّفَقَةِ مَا يَكْفِينِي وَيَكْفِي بَنِيَّ إِلاَّ مَا أَخَذْتُ مِنْ مَالِهِ بِغَيْرِ عِلْمِهِ ‏.‏ فَهَلْ عَلَىَّ فِي ذَلِكَ مِنْ جُنَاحٍ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خُذِي مِنْ مَالِهِ بِالْمَعْرُوفِ مَا يَكْفِيكِ وَيَكْفِي بَنِيكِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "81fe123c2755710ae66b4247406a9ff2d7052afe46d951d0126fa38071fd14fe",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Hujr as-Sa'di m'a rapporté : Ali ibn Mushir nous a rapporté, d'après Hisham ibn Urwa, d'après son père, d'après A'isha, qui a dit : « Hind bint Utba, épouse d'Abu Sufyan, vint trouver le Messager d'Allah ﷺ et dit : “Messager d'Allah, Abu Sufyan est un homme avare. Il ne me donne pas, pour l'entretien, ce qui suffit à moi et à mes enfants, sauf ce que je prends de ses biens sans qu'il le sache. Est-ce un péché de ma part ?” Le Messager d'Allah ﷺ répondit : “Prends de ses biens, de manière convenable, ce qui suffit à toi et à tes enfants.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "347b476d-22af-4659-bd2a-327a28159276",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1714b",
+      "reference": "Sahih Muslim, hadith 1714 b, book 30, باب قَضِيَّةِ هِنْدٍ ‏‏",
+      "title": "باب قَضِيَّةِ هِنْدٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، وَأَبُو كُرَيْبٍ كِلاَهُمَا عَنْ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، وَوَكِيعٍ ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا عَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، أَخْبَرَنَا الضَّحَّاكُ، - يَعْنِي ابْنَ عُثْمَانَ - كُلُّهُمْ عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "85e46939fc127333668ffc083645d27149be32d5ccf8e32f2de53527ad1fac41",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "29829045-4616-492a-8082-e8b1cfab3636",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1714c",
+      "reference": "Sahih Muslim, hadith 1714 c, book 30, باب قَضِيَّةِ هِنْدٍ ‏‏",
+      "title": "باب قَضِيَّةِ هِنْدٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتْ جَاءَتْ هِنْدٌ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ وَاللَّهِ مَا كَانَ عَلَى ظَهْرِ الأَرْضِ أَهْلُ خِبَاءٍ أَحَبَّ إِلَىَّ مِنْ أَنْ يُذِلَّهُمُ اللَّهُ مِنْ أَهْلِ خِبَائِكَ وَمَا عَلَى ظَهْرِ الأَرْضِ أَهْلُ خِبَاءٍ أَحَبَّ إِلَىَّ مِنْ أَنْ يُعِزَّهُمُ اللَّهُ مِنْ أَهْلِ خِبَائِكَ ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ وَأَيْضًا وَالَّذِي نَفْسِي بِيَدِهِ ‏\"‏ ‏.‏ ثُمَّ قَالَتْ يَا رَسُولَ اللَّهِ إِنَّ أَبَا سُفْيَانَ رَجُلٌ مُمْسِكٌ فَهَلْ عَلَىَّ حَرَجٌ أَنْ أُنْفِقَ عَلَى عِيَالِهِ مِنْ مَالِهِ بِغَيْرِ إِذْنِهِ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لاَ حَرَجَ عَلَيْكِ أَنْ تُنْفِقِي عَلَيْهِمْ بِالْمَعْرُوفِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a6f62d2b2de27429c55306e74f4067e4fbbca4a9dd2ba1f6c58f54bc599d67b9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd ibn Humayd nous a informés : Abd ar-Razzaq nous a informés : Ma'mar nous a informés, d'après az-Zuhri, d'après Urwa, d'après A'isha, qui a dit : « Hind vint trouver le Prophète ﷺ et dit : “Messager d'Allah, par Allah, sur terre, aucun foyer ne m'était plus cher que le tien parmi ceux que je souhaitais voir Allah humilier ; et aucun foyer ne m'est aujourd'hui plus cher que le tien parmi ceux que je souhaite voir Allah honorer.” Le Prophète ﷺ répondit : “Oui, par Celui qui tient mon âme en Sa main.” Elle dit ensuite : “Messager d'Allah, Abu Sufyan est un homme qui retient ses biens. Puis-je subvenir aux besoins de sa famille avec ses biens sans sa permission ?” Le Prophète ﷺ répondit : “Il ne t'est pas interdit de subvenir à leurs besoins de manière convenable.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fd3214b3-b77b-436b-8af2-bac3740eca41",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1714d",
+      "reference": "Sahih Muslim, hadith 1714 d, book 30, باب قَضِيَّةِ هِنْدٍ ‏‏",
+      "title": "باب قَضِيَّةِ هِنْدٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا ابْنُ أَخِي الزُّهْرِيِّ، عَنْ عَمِّهِ، أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ عَائِشَةَ، قَالَتْ جَاءَتْ هِنْدٌ بِنْتُ عُتْبَةَ بْنِ رَبِيعَةَ فَقَالَتْ يَا رَسُولَ اللَّهِ وَاللَّهِ مَا كَانَ عَلَى ظَهْرِ الأَرْضِ خِبَاءٌ أَحَبَّ إِلَىَّ مِنْ أَنْ يَذِلُّوا مِنْ أَهْلِ خِبَائِكَ وَمَا أَصْبَحَ الْيَوْمَ عَلَى ظَهْرِ الأَرْضِ خِبَاءٌ أَحَبَّ إِلَىَّ مِنْ أَنْ يَعِزُّوا مِنْ أَهْلِ خِبَائِكَ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَأَيْضًا وَالَّذِي نَفْسِي بِيَدِهِ ‏\"‏ ‏.‏ ثُمَّ قَالَتْ يَا رَسُولَ اللَّهِ إِنَّ أَبَا سُفْيَانَ رَجُلٌ مِسِّيكٌ فَهَلْ عَلَىَّ حَرَجٌ مِنْ أَنْ أُطْعِمَ مِنَ الَّذِي لَهُ عِيَالَنَا فَقَالَ لَهَا ‏\"‏ لاَ إِلاَّ بِالْمَعْرُوفِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0c02aaa6a96be4eb6568eb6f6f203e99cd2b19c946bbdd7f522296c2e1e5f489",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Ya'qub ibn Ibrahim nous a rapporté : le neveu d'az-Zuhri nous a rapporté, d'après son oncle, qui m'a informé d'après Urwa ibn az-Zubayr, selon lequel A'isha a dit : « Hind bint Utba ibn Rabi'a vint trouver le Messager d'Allah ﷺ et dit : “Messager d'Allah, par Allah, aucun foyer sur terre ne m'était plus cher que le tien parmi ceux dont je souhaitais voir les membres humiliés. Mais aujourd'hui, aucun foyer sur terre ne m'est plus cher que le tien parmi ceux dont je souhaite voir les membres honorés.” Le Messager d'Allah ﷺ répondit : “Oui, par Celui qui tient mon âme en Sa main.” Elle dit ensuite : “Messager d'Allah, Abu Sufyan est un homme qui retient ses biens. Puis-je nourrir les personnes à notre charge avec ce qui lui appartient ?” Il lui répondit : “Non, sauf de manière convenable.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ca647fd3-6a81-42d1-ac6c-69a76a76c215",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1715a",
+      "reference": "Sahih Muslim, hadith 1715 a, book 30, باب النَّهْيِ عَنْ كَثْرَةِ الْمَسَائِلِ مِنْ غَيْرِ حَاجَةٍ وَالنَّهْيِ عَنْ مَنْعٍ وَهَاتٍ وَهُوَ الاِمْتِنَاعُ مِنْ أَدَاءِ حَقٍّ لَزِمَهُ أَوْ طَلَبُ مَا لاَ يَسْتَحِقُّهُ",
+      "title": "باب النَّهْيِ عَنْ كَثْرَةِ الْمَسَائِلِ مِنْ غَيْرِ حَاجَةٍ وَالنَّهْيِ عَنْ مَنْعٍ وَهَاتٍ وَهُوَ الاِمْتِنَاعُ مِنْ أَدَاءِ حَقٍّ لَزِمَهُ أَوْ طَلَبُ مَا لاَ يَسْتَحِقُّهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ يَرْضَى لَكُمْ ثَلاَثًا وَيَكْرَهُ لَكُمْ ثَلاَثًا فَيَرْضَى لَكُمْ أَنْ تَعْبُدُوهُ وَلاَ تُشْرِكُوا بِهِ شَيْئًا وَأَنْ تَعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلاَ تَفَرَّقُوا وَيَكْرَهُ لَكُمْ قِيلَ وَقَالَ وَكَثْرَةَ السُّؤَالِ وَإِضَاعَةَ الْمَالِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "899c0a875b903ff5c27e2ee677227af1e1b33fa1197ef0344826db6c8c593ffa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m'a rapporté : Jarir nous a rapporté, d'après Suhayl, d'après son père, d'après Abu Hurayra, qui a dit : Le Messager d'Allah ﷺ a dit : « Allah agrée pour vous trois choses et en réprouve trois autres. Il agrée que vous L'adoriez sans rien Lui associer et que vous vous attachiez tous ensemble au lien d'Allah sans vous diviser. Il réprouve pour vous les bavardages, les questions incessantes et le gaspillage des biens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "49fcf0b4-4fb2-4fe4-814c-9d74e285ccd5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1715b",
+      "reference": "Sahih Muslim, hadith 1715 b, book 30, باب النَّهْيِ عَنْ كَثْرَةِ الْمَسَائِلِ مِنْ غَيْرِ حَاجَةٍ وَالنَّهْيِ عَنْ مَنْعٍ وَهَاتٍ وَهُوَ الاِمْتِنَاعُ مِنْ أَدَاءِ حَقٍّ لَزِمَهُ أَوْ طَلَبُ مَا لاَ يَسْتَحِقُّهُ",
+      "title": "باب النَّهْيِ عَنْ كَثْرَةِ الْمَسَائِلِ مِنْ غَيْرِ حَاجَةٍ وَالنَّهْيِ عَنْ مَنْعٍ وَهَاتٍ وَهُوَ الاِمْتِنَاعُ مِنْ أَدَاءِ حَقٍّ لَزِمَهُ أَوْ طَلَبُ مَا لاَ يَسْتَحِقُّهُ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، أَخْبَرَنَا أَبُو عَوَانَةَ، عَنْ سُهَيْلٍ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ غَيْرَ أَنَّهُ قَالَ وَيَسْخَطُ لَكُمْ ثَلاَثًا ‏.‏ وَلَمْ يَذْكُرْ وَلاَ تَفَرَّقُوا ‏.‏",
+      "source_hash_sha256": "14932440525372ea5f3b10cf2768f6ffafdddb702d6992de09ec8f6209145367",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shayban ibn Farrukh nous a rapporté : Abu Awana nous a informés, d'après Suhayl, selon cette même chaîne, un récit semblable. Toutefois, il a dit : « Il réprouve pour vous trois choses », au lieu de « Il n'aime pas pour vous trois choses », et il n'a pas mentionné : « sans vous diviser ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "347b476d-22af-4659-bd2a-327a28159276",
+      "reason": "Cette entrée donne uniquement des chaînes de transmission et renvoie au récit précédent sans en reproduire le contenu complet ni signaler de différence précise. Garder la traduction française vide jusqu'à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
