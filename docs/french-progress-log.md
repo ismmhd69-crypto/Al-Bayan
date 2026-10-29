@@ -8256,3 +8256,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0226 saves four private French drafts about the Prophet’s ﷺ minbar, prayer posture, and smoothing the ground before prostration. Muslim 543d and 544b contain only incomplete cross-references and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 913 Muslim drafts, 7,249 total hadith drafts, 7,380 remaining, and 439 Needs Mo items.
+
+### 2026-10-29: Muslim 547a–550a
+
+- FR-LIB-HAD-MUSLIM-0227 saves four private French drafts about removing spit from the mosque’s qibla wall and the proper direction for spitting during prayer. Muslim 547b and 548b contain only incomplete cross-reference variants and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 917 Muslim drafts, 7,253 total hadith drafts, 7,376 remaining, and 441 Needs Mo items.
