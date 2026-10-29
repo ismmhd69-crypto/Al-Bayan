@@ -1,0 +1,14 @@
+[
+  {
+    "id": "learning.talbiyahAudioLabel",
+    "source": "components/learning/HajjJourneyVisual.tsx",
+    "english": "Listen to the Talbiyah chant",
+    "french": "Écouter la récitation de la talbiya"
+  },
+  {
+    "id": "learning.quranReferenceLabel",
+    "source": "components/learning/HardQuestionMarkdown.tsx; lib/learning/text.ts",
+    "english": "Quran",
+    "french": "Coran"
+  }
+]

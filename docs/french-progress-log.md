@@ -490,3 +490,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-010` saved 25 French page labels, review notices and source-description messages from `lib/learning/hard-questions.ts`. `FR-UI-HC-011` saved the final section label. The four French section labels match the headings used by the saved article drafts: `La réponse claire`, `Approfondissons`, `Questions complémentaires`, and `Pour continuer :`.
 - Both batches passed source-file, unique-ID, nonempty French, and placeholder checks. The saved translations remain draft-only and are shown in the private preview.
 - Code-level visitor-copy coverage increased from 181 to 207 saved strings. French page parsing remains private-preview-only; this work did not make `/fr` routes active. Other page and interactive visual text still needs review. Human review: 0; published: 0.
+
+### 2026-10-29: learning audio and Quran reference labels
+
+- `FR-UI-HC-012` saved the Talbiyah audio control label and the Quran source label from the learning reader components. The established prayer-name transliterations remain unchanged.
+- The batch passed source-file, unique-ID, nonempty French, and placeholder checks. Code-level visitor-copy coverage increased from 207 to 209 saved strings. The broader interactive visual inventory remains open.
