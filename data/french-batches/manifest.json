@@ -1,7 +1,7 @@
 {
   "language": "fr",
-  "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T15:53:45.854Z",
+  "scope": "private-fr-drafts; missing-only inserts authorized where existing schema and source rights permit; public activation forbidden",
+  "lastReconciled": "2026-10-29T21:49:06.708Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -16,11 +16,12 @@
       "hardQuestionsArticles": 21,
       "preparedAnswers": 44,
       "existingFrenchAssets": 0
-    }
+    },
+    "lastLiveRecount": "2026-10-29T21:49:06.708Z"
   },
   "statusDefinitions": {
     "missing": "No French translation exists.",
-    "draftSaved": "A French AI draft exists and is unpublished.",
+    "draftSaved": "A French AI draft is saved in a private local batch; it is not human-reviewed, published, or necessarily inserted into Supabase.",
     "structurallyValidated": "IDs, required fields, references, numbers, placeholders, and formatting checks passed.",
     "humanReviewed": "A named qualified human reviewer actually checked the French wording.",
     "published": "The translation is explicitly published. French publication is out of scope.",
@@ -58,16 +59,16 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 1495,
+    "hadithMuslimDrafted": 4759,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 7831,
-    "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 6798,
-    "hadithNeedsMo": 617,
+    "hadithLocalDrafted": 11095,
+    "hadithDatabaseMissing": 14629,
+    "hadithLocalRemaining": 3534,
+    "hadithNeedsMo": 2709,
     "hadithPublished": 0,
-    "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
+    "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden."
   },
   "batches": [
     {
@@ -49743,6 +49744,30 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1211",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1211.json",
+      "sourceIds": [
+        "7bdd5782-a71e-4783-99e2-4308d8caa3fc",
+        "a792f085-5328-448c-ab40-0ea1945d48ea",
+        "aa927f2c-3a12-4cfc-9d0d-c0f4f9197362",
+        "3121761b-917e-4dd6-82fd-316812449543",
+        "6b2511fb-0816-4df3-81b7-e04bf88f82cf",
+        "2b1d7be6-6684-4983-bec4-a42901a4964f"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 1,
+      "failed": 0,
+      "remaining": 3534,
+      "validation": "Five complete reports translated and reread against the Arabic, preserving narrator chains and the explicit short wording variant. One malformed chain held for Mo. Arabic hashes, IDs, private unpublished state, rights metadata, validator, and git diff check passed. No database insert was possible under the current language constraint and rights.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -49756,7 +49781,7 @@
       "id": "DB-FR-LANG-CHECK",
       "scope": "all Supabase source translations",
       "status": "blocked",
-      "reason": "The live public.source_translations.lang constraint only accepts ar, en, and de. Adding fr requires a schema change, which is explicitly prohibited. No French database rows have been written."
+      "reason": "Mo authorizes insert-only French drafts when permitted, but the current live lang check accepts only ar, en, and de. Schema changes are forbidden, and Sunnah.com rights also set translation_index_allowed=false. Do not attempt French inserts under the current constraints. No French database rows are present."
     },
     {
       "id": "FIVE-PILLARS-ZAKAH-RATE",
@@ -54050,8 +54075,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 10050,
-  "hadithLocalRemaining": 4476,
+  "hadithLocalDrafted": 11095,
+  "hadithLocalRemaining": 3534,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -60063,10 +60088,19 @@
       "source_id": "d2d25801-ae53-496c-aae6-7a87c941e0fb",
       "reason": "Cette entrée ne reproduit que des variantes de transmission et renvoie au récit précédent sans en donner le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "id": "HADITH-MUSLIM-2629-MALFORMED-CHAIN",
+      "scope": "Sahih Muslim 2629; source ID a792f085-5328-448c-ab40-0ea1945d48ea",
+      "status": "blocked",
+      "reason": "La chaîne de transmission contient la concaténation mal formée « أَنَّأَخْبَرَهُ ». La formulation exacte doit être vérifiée avant de traduire le rapport."
     }
   ],
-  "hadithMuslimDrafted": 3887,
-  "hadithDatabaseMissing": 7073,
+  "hadithMuslimDrafted": 4759,
+  "hadithDatabaseMissing": 14629,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1640
+  "hadithNeedsMo": 2709,
+  "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
+  "hadithSourcesProcessed": 13804,
+  "hadithSourcesNotYetExported": 825
 }

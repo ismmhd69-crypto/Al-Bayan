@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1211",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:42:47.697Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7bdd5782-a71e-4783-99e2-4308d8caa3fc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2628",
+      "reference": "Sahih Muslim, hadith 2628, book 45, باب اسْتِحْبَابِ مُجَالَسَةِ الصَّالِحِينَ وَمُجَانَبَةِ قُرَنَاءِ السَّوْءِ ‏ ‏",
+      "title": "باب اسْتِحْبَابِ مُجَالَسَةِ الصَّالِحِينَ وَمُجَانَبَةِ قُرَنَاءِ السَّوْءِ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ بُرَيْدِ بْنِ عَبْدِ اللَّهِ، عَنْ جَدِّهِ، عَنْ أَبِي مُوسَى، عَنِ النَّبِيِّ صلى الله عليه وسلم ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ الْهَمْدَانِيُّ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّمَا مَثَلُ الْجَلِيسِ الصَّالِحِ وَالْجَلِيسِ السَّوْءِ كَحَامِلِ الْمِسْكِ وَنَافِخِ الْكِيرِ فَحَامِلُ الْمِسْكِ إِمَّا أَنْ يُحْذِيَكَ وَإِمَّا أَنْ تَبْتَاعَ مِنْهُ وَإِمَّا أَنْ تَجِدَ مِنْهُ رِيحًا طَيِّبَةً وَنَافِخُ الْكِيرِ إِمَّا أَنْ يُحْرِقَ ثِيَابَكَ وَإِمَّا أَنْ تَجِدَ رِيحًا خَبِيثَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a79c454b0c612f967c8f3dcb5e6f89e3aa66dc443500edf81bb4aa7556279be1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba nous a rapporté : Sufyān ibn ʿUyayna nous a rapporté, d’après Burayd ibn ʿAbd Allāh, d’après son grand-père, d’après Abū Mūsā, d’après le Prophète ﷺ. Puis Muhammad ibn al-ʿAlāʾ al-Hamdānī nous a rapporté, et c’est son libellé qui est retenu : Abū Usāma nous a rapporté, d’après Burayd, d’après Abū Burda, d’après Abū Mūsā, d’après le Prophète ﷺ, qui a dit : « L’image du bon compagnon et du mauvais compagnon est celle de celui qui porte du musc et du forgeron qui actionne le soufflet. Celui qui porte du musc peut t’en offrir, tu peux lui en acheter, ou tu peux en sentir le parfum agréable. Quant au forgeron qui actionne le soufflet, soit il brûlera tes vêtements, soit tu sentiras une odeur nauséabonde. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a792f085-5328-448c-ab40-0ea1945d48ea",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2629",
+      "reference": "Sahih Muslim, hadith 2629, book 45, باب فَضْلِ الإِحْسَانِ إِلَى الْبَنَاتِ ‏ ‏",
+      "title": "باب فَضْلِ الإِحْسَانِ إِلَى الْبَنَاتِ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ قُهْزَاذَ، حَدَّثَنَا سَلَمَةُ بْنُ سُلَيْمَانَ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ ابْنِ شِهَابٍ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ أَبِي بَكْرِ بْنِ حَزْمٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، ح وَحَدَّثَنِي عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ بْنِ بَهْرَامَ، وَأَبُو بَكْرِ بْنُ إِسْحَاقَ - وَاللَّفْظُ لَهُمَا - قَالاَ أَخْبَرَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ أَبِي بَكْرٍ، أَنَّأَخْبَرَهُ أَنَّ عَائِشَةَ زَوْجَ النَّبِيِّ صلى الله عليه وسلم قَالَتْ جَاءَتْنِي امْرَأَةٌ وَمَعَهَا ابْنَتَانِ لَهَا فَسَأَلَتْنِي فَلَمْ تَجِدْ عِنْدِي شَيْئًا غَيْرَ تَمْرَةٍ وَاحِدَةٍ فَأَعْطَيْتُهَا إِيَّاهَا فَأَخَذَتْهَا فَقَسَمَتْهَا بَيْنَ ابْنَتَيْهَا وَلَمْ تَأْكُلْ مِنْهَا شَيْئًا ثُمَّ قَامَتْ فَخَرَجَتْ وَابْنَتَاهَا فَدَخَلَ عَلَىَّ النَّبِيُّ صلى الله عليه وسلم فَحَدَّثْتُهُ حَدِيثَهَا فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَنِ ابْتُلِيَ مِنَ الْبَنَاتِ بِشَىْءٍ فَأَحْسَنَ إِلَيْهِنَّ كُنَّ لَهُ سِتْرًا مِنَ النَّارِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2f848bff9cd9d9b18c70ba3a2054f86935f114b311f7ee7e07cacc6c06738e99",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aa927f2c-3a12-4cfc-9d0d-c0f4f9197362",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2630",
+      "reference": "Sahih Muslim, hadith 2630, book 45, باب فَضْلِ الإِحْسَانِ إِلَى الْبَنَاتِ ‏ ‏",
+      "title": "باب فَضْلِ الإِحْسَانِ إِلَى الْبَنَاتِ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا بَكْرٌ، - يَعْنِي ابْنَ مُضَرَ - عَنِ ابْنِ الْهَادِ، أَنَّ زِيَادَ، بْنَ أَبِي زِيَادٍ مَوْلَى ابْنِ عَيَّاشٍ حَدَّثَهُ عَنْ عِرَاكِ بْنِ مَالِكٍ، سَمِعْتُهُ يُحَدِّثُ، عُمَرَ بْنَ عَبْدِ الْعَزِيزِ عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ جَاءَتْنِي مِسْكِينَةٌ تَحْمِلُ ابْنَتَيْنِ لَهَا فَأَطْعَمْتُهَا ثَلاَثَ تَمَرَاتٍ فَأَعْطَتْ كُلَّ وَاحِدَةٍ مِنْهُمَا تَمْرَةً وَرَفَعَتْ إِلَى فِيهَا تَمْرَةً لِتَأْكُلَهَا فَاسْتَطْعَمَتْهَا ابْنَتَاهَا فَشَقَّتِ التَّمْرَةَ الَّتِي كَانَتْ تُرِيدُ أَنْ تَأْكُلَهَا بَيْنَهُمَا فَأَعْجَبَنِي شَأْنُهَا فَذَكَرْتُ الَّذِي صَنَعَتْ لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ إِنَّ اللَّهَ قَدْ أَوْجَبَ لَهَا بِهَا الْجَنَّةَ أَوْ أَعْتَقَهَا بِهَا مِنَ النَّارِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b08b17346aa7586e20bb4ba622af89a329c4aaff959685cb089ba8a55daefc87",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : Bakr nous a rapporté, c’est-à-dire Ibn Mudar, d’après Ibn al-Hād. Ziyād ibn Abī Ziyād, le mawlā d’Ibn ʿAyyāsh, lui a rapporté d’après ʿIrāk ibn Mālik. Ce dernier a dit : « Je l’ai entendu rapporter à ʿUmar ibn ʿAbd al-ʿAzīz, d’après ʿĀʾisha, qu’elle a dit : Une femme nécessiteuse portant ses deux filles est venue me voir et m’a demandé de l’aide. Je n’avais auprès de moi rien d’autre qu’une seule datte. Je la lui ai donnée. Elle l’a prise, l’a partagée entre ses deux filles et n’en a rien mangé. Puis elle s’est levée et est partie avec ses deux filles. Le Prophète ﷺ entra auprès de moi et je lui racontai ce qu’elle avait fait. Il dit : ‹ Quiconque est éprouvé au sujet de filles et se comporte bien envers elles, elles lui serviront de protection contre le Feu. › »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3121761b-917e-4dd6-82fd-316812449543",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2631",
+      "reference": "Sahih Muslim, hadith 2631, book 45, باب فَضْلِ الإِحْسَانِ إِلَى الْبَنَاتِ ‏ ‏",
+      "title": "باب فَضْلِ الإِحْسَانِ إِلَى الْبَنَاتِ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرٌو النَّاقِدُ، حَدَّثَنَا أَبُو أَحْمَدَ الزُّبَيْرِيُّ، حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الْعَزِيزِ، عَنْ عُبَيْدِ اللَّهِ بْنِ أَبِي بَكْرِ بْنِ أَنَسٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ عَالَ جَارِيَتَيْنِ حَتَّى تَبْلُغَا جَاءَ يَوْمَ الْقِيَامَةِ أَنَا وَهُوَ ‏\"‏ ‏.‏ وَضَمَّ أَصَابِعَهُ ‏.‏",
+      "source_hash_sha256": "ca1e4fd9574d4fa0ec52064e347d0bd1f4ff65ebedaf9c41a0ceb8a8155270fc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAmr al-Nāqid nous a rapporté : Abū Aḥmad al-Zubayrī nous a rapporté : Muḥammad ibn ʿAbd al-ʿAzīz nous a rapporté, d’après ʿUbayd Allāh ibn Abī Bakr ibn Anas, d’après Anas ibn Mālik, qui a dit : Le Messager d’Allah ﷺ a dit : « Quiconque prend en charge deux petites filles jusqu’à ce qu’elles atteignent l’âge adulte viendra le Jour de la Résurrection avec moi. » Et il joignit ses doigts.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6b2511fb-0816-4df3-81b7-e04bf88f82cf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2632a",
+      "reference": "Sahih Muslim, hadith 2632 a, book 45, باب فَضْلِ مَنْ يَمُوتُ لَهُ وَلَدٌ فَيَحْتَسِبُهُ ‏ ‏",
+      "title": "باب فَضْلِ مَنْ يَمُوتُ لَهُ وَلَدٌ فَيَحْتَسِبُهُ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَمُوتُ لأَحَدٍ مِنَ الْمُسْلِمِينَ ثَلاَثَةٌ مِنَ الْوَلَدِ فَتَمَسَّهُ النَّارُ إِلاَّ تَحِلَّةَ الْقَسَمِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "360dd5fc733160ff96a5d009c1215aa6deba204130f5695c547d83111a91cf70",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yaḥyā ibn Yaḥyā a dit : « J’ai récité [ce hadith] devant Mālik », d’après Ibn Shihāb, d’après Saʿīd ibn al-Musayyib, d’après Abū Hurayra, d’après le Prophète ﷺ, qui a dit : « Le Feu ne touchera aucun musulman qui perd trois enfants, hormis ce qui est nécessaire à l’accomplissement du serment. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2b1d7be6-6684-4983-bec4-a42901a4964f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2632b",
+      "reference": "Sahih Muslim, hadith 2632 b, book 45, باب فَضْلِ مَنْ يَمُوتُ لَهُ وَلَدٌ فَيَحْتَسِبُهُ ‏ ‏",
+      "title": "باب فَضْلِ مَنْ يَمُوتُ لَهُ وَلَدٌ فَيَحْتَسِبُهُ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالُوا حَدَّثَنَا سُفْيَانُ، بْنُ عُيَيْنَةَ ح وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، وَابْنُ، رَافِعٍ عَنْ عَبْدِ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، كِلاَهُمَا عَنِ الزُّهْرِيِّ، ‏.‏ بِإِسْنَادِ مَالِكٍ وَبِمَعْنَى حَدِيثِهِ إِلاَّ أَنَّ فِي حَدِيثِ سُفْيَانَ ‏\"‏ فَيَلِجَ النَّارَ إِلاَّ تَحِلَّةَ الْقَسَمِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9c47413c7b8d8f77a308d5acad65cc14f672bc1875ac3e49e8f8eec7b6b85d4d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba, ʿAmr al-Nāqid et Zuhayr ibn Ḥarb nous ont rapporté. Ils ont dit : Sufyān ibn ʿUyayna nous a rapporté. Puis ʿAbd ibn Ḥumayd et Ibn Rāfiʿ nous ont rapporté d’après ʿAbd al-Razzāq, qui nous a informés d’après Maʿmar. Tous deux, Sufyān et Maʿmar, rapportent d’après al-Zuhrī, selon la chaîne de Mālik et dans le sens de son hadith, sauf que, dans la version de Sufyān, il est dit : « Il entrera dans le Feu, à l’exception de ce qui est nécessaire à l’accomplissement du serment. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "url": "https://sunnah.com/muslim:2629",
+      "source_id": "a792f085-5328-448c-ab40-0ea1945d48ea",
+      "reason": "La chaîne de transmission contient la concaténation mal formée « أَنَّأَخْبَرَهُ ». La formulation exacte du passage doit être vérifiée dans une source autorisée avant de traduire le rapport."
+    }
+  ]
+}

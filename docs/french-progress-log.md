@@ -1,6 +1,6 @@
 # French support progress log
 
-Scope: private local preparation only. French remains absent from public locale allowlists, routes, and APIs. No source text, existing translations, publication state, or database schema may be changed. Translation drafts must not be marked human-reviewed.
+Scope: private French preparation, with insert-only database saves authorized for missing French AI drafts when existing schema and source rights permit. French remains absent from public locale allowlists, routes, and APIs. No source text, existing translations, publication state, or database schema may be changed. Translation drafts must not be marked human-reviewed. Current live schema and Sunnah.com rights block French inserts.
 
 ## 2026-10-29: Phase 0 inventory
 
@@ -12767,3 +12767,12 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2624b-2627
 
 - FR-LIB-HAD-MUSLIM-1210 saves five complete reports as private French drafts. One reference-only variant remains blank with a specific Needs Mo reason. No database write or publication occurred.
+
+Updated authorization and current boundary (2026-10-30): Mo authorizes insert-only saves for missing French AI drafts when existing schema and source rights permit. No schema change, publication, or public activation is authorized. A fresh read-only recount of project jnietkyxgnocyizvjiel found 14,629 hadith sources, 7,388 fatwa sources, zero French translation rows, and 22,017 live French gaps. The live source_translations.lang check still accepts only ar, en, and de. Sunnah.com rights allow AI processing but set translation_index_allowed=false. French hadith drafts therefore remain private local files; no insert was attempted. Website French remains hidden; activeLocales remains ar/en.
+
+### 2026-10-30: Muslim 2628-2632b
+
+- Batch FR-LIB-HAD-MUSLIM-1211 covers source IDs 7bdd5782-a71e-4783-99e2-4308d8caa3fc (2628), a792f085-5328-448c-ab40-0ea1945d48ea (2629), aa927f2c-3a12-4cfc-9d0d-c0f4f9197362 (2630), 3121761b-917e-4dd6-82fd-316812449543 (2631), 6b2511fb-0816-4df3-81b7-e04bf88f82cf (2632a), and 2b1d7be6-6684-4983-bec4-a42901a4964f (2632b).
+- Five complete reports were translated and reread against the Arabic, including narrator chains and the explicit wording in the short 2632b variant. One malformed 2629 chain remains blank under Needs Mo with its source ID and reason.
+- Focused batch validation and git diff check passed. Actual insertions: 0; existing French rows preserved: 0; failed inserts: 0; published: 0; human-reviewed: 0. Local translations saved: 5. Live French database rows remain 0.
+- The live hadith recount, reconciled against saved batch files, is 6,336 Bukhari and 4,759 Muslim local drafts (11,095 total), 2,709 held Needs Mo, and 825 source records not yet exported. Local hadith records without a French draft: 3,534. All 14,629 remain missing from the live French table.
