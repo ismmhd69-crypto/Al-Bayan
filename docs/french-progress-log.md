@@ -2766,3 +2766,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-570` saves five private French drafts about Satan and household practices. Bukhari 3278 remains entirely blank because it directly quotes Quran 18:62–63; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 2,953 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 188. Total local hadith rows not drafted: 11,702, including held records.
+
+### 2026-10-29: Bukhari 3282–3287
+
+- `FR-LIB-HAD-BUKHARI-571` saves six private French drafts about seeking refuge from Satan and related prayer guidance.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,959 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 188. Total local hadith rows not drafted: 11,696, including held records.
