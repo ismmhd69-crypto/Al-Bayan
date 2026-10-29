@@ -36197,6 +36197,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0347",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0347.json",
+      "sourceIds": [
+        "765fb451-de02-4916-80ba-fa8afa16ec34",
+        "7d2cdfe7-faa8-4dd2-ada2-ea6f44043296",
+        "58a55aad-1d8c-4c04-b2f2-fc808f0bedb9",
+        "5b3da0f8-6850-4684-b2ad-7e0e1b83ff61",
+        "0cb96fcd-e325-4500-8c56-cdf111b3b3b5",
+        "d4197f22-01ac-442f-ba76-73939f34a8da"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; six direct Quran quotations held entirely blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42936,10 +42957,46 @@
       "scope": "Sahih Muslim 809B: incomplete cross-reference or variant report",
       "status": "blocked",
       "reason": "La source ne rapporte que des variantes sur les dix versets concernés, sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0347-810-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 810: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage ou un fragment du Coran. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0347-811A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 811A: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage ou un fragment du Coran. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0347-811B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 811B: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage ou un fragment du Coran. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0347-812A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 812A: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage ou un fragment du Coran. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0347-812B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 812B: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage ou un fragment du Coran. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0347-813-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 813: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un passage ou un fragment du Coran. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
     }
   ],
   "hadithMuslimDrafted": 1386,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 641
+  "hadithNeedsMo": 647
 }
