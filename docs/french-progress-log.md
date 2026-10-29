@@ -11706,3 +11706,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1989a-1991b
 
 - FR-LIB-HAD-MUSLIM-0936 saves five private French drafts about preparing fermented date and raisin drinks, including the written warning sent to Jurash. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1992a-1994
+
+- FR-LIB-HAD-MUSLIM-0937 saves six private French drafts about the vessels used for fruit drinks and the prohibition on fermenting drinks in certain vessels. The vessel types and variants are preserved. No Quran verse is quoted. No database write or publication occurred.
