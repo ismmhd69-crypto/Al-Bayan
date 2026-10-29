@@ -1,0 +1,76 @@
+{
+  "batch_id": "HADITH-MUSLIM-0079",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:20:40.672Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a6771e38-8c4d-4da7-bc96-35d2b95345a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:176b",
+      "reference": "Sahih Muslim, hadith 176 b, book 1, باب مَعْنَى قَوْلِ اللَّهِ عَزَّ وَجَلَّ: {وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى} وَهَلْ رَأَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَبَّهُ لَيْلَةَ الإِسْرَاءِ",
+      "title": "باب مَعْنَى قَوْلِ اللَّهِ عَزَّ وَجَلَّ: {وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى} وَهَلْ رَأَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَبَّهُ لَيْلَةَ الإِسْرَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو سَعِيدٍ الأَشَجُّ جَمِيعًا عَنْ وَكِيعٍ، - قَالَ الأَشَجُّ حَدَّثَنَا وَكِيعٌ، - حَدَّثَنَا الأَعْمَشُ، عَنْ زِيَادِ بْنِ الْحُصَيْنِ أَبِي جَهْمَةَ، عَنْ أَبِي الْعَالِيَةِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ ‏[quran sura=\"53\" aya_start=\"11\" aya_end=\"11\"]{‏ مَا كَذَبَ الْفُؤَادُ مَا رَأَى‏}‏ ‏[quran sura=\"53\" aya_start=\"13\" aya_end=\"13\"]{‏ وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى‏}‏ قَالَ رَآهُ بِفُؤَادِهِ مَرَّتَيْنِ ‏.‏",
+      "source_hash_sha256": "2894f295a2989d9cb5d630d4090bdd35995b2639e7baaaf6a1e971919f17572b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement les versets 53:11 et 53:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "d7c1f030-f972-42a7-9488-198db9090b00",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:176c",
+      "reference": "Sahih Muslim, hadith 176 c, book 1, باب مَعْنَى قَوْلِ اللَّهِ عَزَّ وَجَلَّ: {وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى} وَهَلْ رَأَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَبَّهُ لَيْلَةَ الإِسْرَاءِ",
+      "title": "باب مَعْنَى قَوْلِ اللَّهِ عَزَّ وَجَلَّ: {وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى} وَهَلْ رَأَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَبَّهُ لَيْلَةَ الإِسْرَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، عَنِ الأَعْمَشِ، حَدَّثَنَا أَبُو جَهْمَةَ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "e6eb92740bb3a2e130cffb435f05a425b1e7a7562612fe1207ddfc84e9fc0f02",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe ne contient que la chaîne de transmission et renvoie à ce hadith sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a6771e38-8c4d-4da7-bc96-35d2b95345a7",
+      "reason": "Ce récit cite directement les versets 53:11 et 53:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "d7c1f030-f972-42a7-9488-198db9090b00",
+      "reason": "La source arabe ne contient que la chaîne de transmission et renvoie à ce hadith sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    }
+  ]
+}

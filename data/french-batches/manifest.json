@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:20:33.255Z",
+  "lastReconciled": "2026-10-29T14:20:53.716Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6676,
     "hadithDatabaseMissing": 7953,
     "hadithLocalRemaining": 7953,
-    "hadithNeedsMo": 213,
+    "hadithNeedsMo": 215,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30694,6 +30694,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0079",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0079.json",
+      "sourceIds": [
+        "a6771e38-8c4d-4da7-bc96-35d2b95345a7",
+        "d7c1f030-f972-42a7-9488-198db9090b00"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; Quran quotation and incomplete source held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked"
     }
   ],
   "blockers": [
@@ -34830,6 +34847,18 @@
       "scope": "Sahih Muslim 175: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 53:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-176B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 176 b: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 53:11 et 53:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-176C-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 176 c: incomplete Arabic source",
+      "status": "blocked",
+      "reason": "La source arabe ne contient que la chaîne de transmission et renvoie à ce hadith sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
     }
   ],
   "hadithBukhariDrafted": 6336,
@@ -36113,10 +36142,22 @@
       "scope": "Sahih Muslim 175: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 53:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-176B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 176 b: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement les versets 53:11 et 53:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-176C-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 176 c: incomplete Arabic source",
+      "status": "blocked",
+      "reason": "La source arabe ne contient que la chaîne de transmission et renvoie à ce hadith sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
     }
   ],
   "hadithMuslimDrafted": 340,
   "hadithDatabaseMissing": 7953,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 213
+  "hadithNeedsMo": 215
 }
