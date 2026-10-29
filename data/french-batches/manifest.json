@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 5666,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 8963,
-    "hadithNeedsMo": 815,
+    "hadithNeedsMo": 816,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26112,6 +26112,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1234",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1234.json",
+      "sourceIds": [
+        "20cf8bcf-f87a-4e87-b35c-71fc9df593df"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One 2,827-character source isolated as a single-item batch; complete report held for direct Quran quotation. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: direct Quran quotation"
     }
   ],
   "blockers": [
@@ -29390,6 +29406,12 @@
       "scope": "Sahih al-Bukhari 6721: 2,316-character report with rare phrase غُرّ الذرى for the camels",
       "status": "blocked",
       "reason": "The report contains the rare phrase غُرّ الذرى describing the camels; its precise meaning remains unconfirmed. Keep the complete translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6728-QURAN-59-6",
+      "scope": "Sahih al-Bukhari 6728: 2,827-character report directly quoting Quran 59:6",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 59:6. Keep the complete translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
   "hadithBukhariDrafted": 5666,
@@ -29815,6 +29837,12 @@
       "scope": "Sahih al-Bukhari 6721: 2,316-character report with rare phrase غُرّ الذرى for the camels",
       "status": "blocked",
       "reason": "The report contains the rare phrase غُرّ الذرى describing the camels; its precise meaning remains unconfirmed. Keep the complete translation blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6728-QURAN-59-6",
+      "scope": "Sahih al-Bukhari 6728: 2,827-character report directly quoting Quran 59:6",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 59:6. Keep the complete translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
