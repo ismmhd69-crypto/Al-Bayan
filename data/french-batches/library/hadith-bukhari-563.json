@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-BUKHARI-563",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:52:56.770Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "dfbfaff0-8b58-450c-a341-c2dfed02123d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3232",
+      "reference": "Sahih al-Bukhari, hadith 3232, book 59, بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "title": "بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا أَبُو عَوَانَةَ، حَدَّثَنَا أَبُو إِسْحَاقَ الشَّيْبَانِيُّ، قَالَ سَأَلْتُ زِرَّ بْنَ حُبَيْشٍ عَنْ قَوْلِ اللَّهِ، تَعَالَى ‏[quran sura=\"53\" aya_start=\"9\" aya_end=\"10\"]{‏فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَى * فَأَوْحَى إِلَى عَبْدِهِ مَا أَوْحَى‏}‏‏.‏ قَالَ حَدَّثَنَا ابْنُ مَسْعُودٍ أَنَّهُ رَأَى جِبْرِيلَ لَهُ سِتُّمِائَةِ جَنَاحٍ‏.‏",
+      "source_hash_sha256": "df08de0660a8add3d481c2a8a6a98cde49f8067c800c860a4aba6af45ea94bdd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d89f01f6-1981-4257-aa86-1d595140cc6a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3233",
+      "reference": "Sahih al-Bukhari, hadith 3233, book 59, بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "title": "بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه – ‏[quran sura=\"53\" aya_start=\"18\" aya_end=\"18\"]{‏لَقَدْ رَأَى مِنْ آيَاتِ رَبِّهِ الْكُبْرَى‏}‏ قَالَ رَأَى رَفْرَفًا أَخْضَرَ سَدَّ أُفُقَ السَّمَاءِ‏.‏",
+      "source_hash_sha256": "5463d454c5adffda9b878e1ccfc0f0a95f40e73dd489e269106b5f9cd1afe75e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ac392b4-62ed-4bee-8105-3aa0d83ca4c7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3234",
+      "reference": "Sahih al-Bukhari, hadith 3234, book 59, بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "title": "بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ إِسْمَاعِيلَ، حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ الأَنْصَارِيُّ، عَنِ ابْنِ عَوْنٍ، أَنْبَأَنَا الْقَاسِمُ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ مَنْ زَعَمَ أَنَّ مُحَمَّدًا رَأَى رَبَّهُ فَقَدْ أَعْظَمَ، وَلَكِنْ قَدْ رَأَى جِبْرِيلَ فِي صُورَتِهِ، وَخَلْقُهُ سَادٌّ مَا بَيْنَ الأُفُقِ‏.‏",
+      "source_hash_sha256": "ce2276418144c0a131dc304cf66998bc210a73e65b07c687138ab1bc6cd30710",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Â’isha (qu’Allah l’agrée) a dit : « Celui qui prétend que Muhammad a vu son Seigneur avance une chose grave. Il a toutefois vu Jibrîl sous sa forme véritable, dont la stature remplissait l’horizon. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "31e0a20d-2fab-462c-a365-3c5259687927",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3235",
+      "reference": "Sahih al-Bukhari, hadith 3235, book 59, بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "title": "بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا زَكَرِيَّاءُ بْنُ أَبِي زَائِدَةَ، عَنِ ابْنِ الأَشْوَعِ، عَنِ الشَّعْبِيِّ، عَنْ مَسْرُوقٍ، قَالَ قُلْتُ لِعَائِشَةَ ـ رضى الله عنها ـ فَأَيْنَ قَوْلُهُ ‏[quran sura=\"53\" aya_start=\"8\" aya_end=\"9\"]{‏ثُمَّ دَنَا فَتَدَلَّى * فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَى‏}‏ قَالَتْ ذَاكَ جِبْرِيلُ كَانَ يَأْتِيهِ فِي صُورَةِ الرَّجُلِ، وَإِنَّهُ أَتَاهُ هَذِهِ الْمَرَّةَ فِي صُورَتِهِ الَّتِي هِيَ صُورَتُهُ، فَسَدَّ الأُفُقَ‏.‏",
+      "source_hash_sha256": "2fafafaab1c6b44c0ac1362beee5b462947f86505ef02a24b9da9f4717bdfc97",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "26803eaf-ce1f-43d9-a074-1825d00256bd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3236",
+      "reference": "Sahih al-Bukhari, hadith 3236, book 59, بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "title": "بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى، حَدَّثَنَا جَرِيرٌ، حَدَّثَنَا أَبُو رَجَاءٍ، عَنْ سَمُرَةَ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ رَأَيْتُ اللَّيْلَةَ رَجُلَيْنِ أَتَيَانِي قَالاَ الَّذِي يُوقِدُ النَّارَ مَالِكٌ خَازِنُ النَّارِ، وَأَنَا جِبْرِيلُ، وَهَذَا مِيكَائِيلُ ‏\"‏‏.‏",
+      "source_hash_sha256": "cfce5db0717fd55e47d915db39183ae8c276dd386585b98667ba7e0047b81e47",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Samura rapporte que le Prophète (ﷺ) a dit : « Cette nuit, deux hommes sont venus à moi. Ils m’ont dit : “Celui qui attise le feu est Mâlik, le gardien de l’Enfer, et moi, je suis Jibrîl, tandis que celui-ci est Mîkâ’îl.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5caa7de-5f65-40cd-ac08-7930c4443493",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3237",
+      "reference": "Sahih al-Bukhari, hadith 3237, book 59, بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "title": "بَابُ إِذَا قَالَ أَحَدُكُمْ آمِينَ. وَالْمَلاَئِكَةُ فِي السَّمَاءِ، فَوَافَقَتْ إِحْدَاهُمَا الأُخْرَى، غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي حَازِمٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا دَعَا الرَّجُلُ امْرَأَتَهُ إِلَى فِرَاشِهِ فَأَبَتْ، فَبَاتَ غَضْبَانَ عَلَيْهَا، لَعَنَتْهَا الْمَلاَئِكَةُ حَتَّى تُصْبِحَ ‏\"‏‏.‏ تَابَعَهُ شُعْبَةُ وَأَبُو حَمْزَةَ وَابْنُ دَاوُدَ وَأَبُو مُعَاوِيَةَ عَنِ الأَعْمَشِ‏.‏",
+      "source_hash_sha256": "4ba288359732df4400a1b8f37c0f5ede659ceb12f2f2d8303c8fa701a5bb0798",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte que le Messager d’Allah (ﷺ) a dit : « Lorsqu’un homme invite son épouse à le rejoindre au lit et qu’elle refuse, puis qu’il passe la nuit irrité contre elle, les anges la maudissent jusqu’au matin. » Cette version est également rapportée par Shu‘ba, Abû Hamza, Ibn Dâwûd et Abû Mu‘âwiya, d’après al-A‘mash.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "dfbfaff0-8b58-450c-a341-c2dfed02123d",
+      "reference": "Sahih al-Bukhari 3232",
+      "reason": "This report directly quotes Quran 53:9–10. Keep the full French translation blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "d89f01f6-1981-4257-aa86-1d595140cc6a",
+      "reference": "Sahih al-Bukhari 3233",
+      "reason": "This report directly quotes Quran 53:18. Keep the full French translation blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "31e0a20d-2fab-462c-a365-3c5259687927",
+      "reference": "Sahih al-Bukhari 3235",
+      "reason": "This report directly quotes Quran 53:8–9. Keep the full French translation blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
