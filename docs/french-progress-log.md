@@ -10731,3 +10731,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0720 saves three private French drafts explaining land-rental practices. Muslim 1547n and 1548b–c refer to another report without reproducing its content and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1548d–1550a
+
+- FR-LIB-HAD-MUSLIM-0721 saves four private French drafts about crop rentals and land sharing. Muslim 1548d and 1548f only refer to the preceding report or its chain and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
