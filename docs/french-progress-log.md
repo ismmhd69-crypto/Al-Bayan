@@ -11666,3 +11666,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1972d-1975c
 
 - FR-LIB-HAD-MUSLIM-0926 saves five private French drafts about the changing guidance on storing sacrifice meat and the Prophet’s provision from his sacrifice. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1976-1977e
+
+- FR-LIB-HAD-MUSLIM-0927 saves five private French drafts about the older sacrifice customs, revisiting graves, keeping sacrifice meat, and the first ten days of Dhû al-Hijja. One entry that only refers to another report remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
