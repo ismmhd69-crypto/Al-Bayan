@@ -5961,3 +5961,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1168 saves five private French drafts. Bukhari 6362 remains blank because it directly quotes Quran 5:101; it awaits approved, attributed French Quran wording and permission to use it.
 - The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,337 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 777. Total local hadith rows not drafted: 9,290, including held records.
+
+### 2026-10-29: Bukhari 6366–6371
+
+- FR-LIB-HAD-BUKHARI-1169 saves six private French drafts about patience, illness, and seeking refuge. No database writes or publication occurred. Bukhari local drafts: 5,343 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 777. Total local hadith rows not drafted: 9,284, including held records.
