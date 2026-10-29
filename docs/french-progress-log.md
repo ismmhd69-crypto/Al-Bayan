@@ -536,3 +536,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-021` and `FR-UI-HC-022` saved French drafts for all 30 labels and station descriptions in `components/learning/HajjJourneyVisual.tsx`. Where paired Arabic text exists, the French follows it; extra English-only details were omitted when they did not appear in that Arabic wording. No French version of the Arabic Talbiyah recitation was generated.
 - All 30 strings are held under Needs Mo. The mapped Hajj lesson cites Muslim 1218a for orientation examples and explicitly warns that those examples are not a full ritual sequence; the visual supplies no per-claim sources for its six stations, timings and detailed rulings. The drafts must not be used until those claims receive source review.
 - Both batches passed the focused source-file, unique-ID, nonempty-text and placeholder checks. Code-level visitor-copy coverage increased from 310 to 340 saved strings. Website Needs Mo: 3 items, including the Ramadan supplication and the unsupported Zakah rate. No live code or public locale routing changed.
+
+### 2026-10-29: interactive prayer-unit trainer
+
+- `FR-UI-HC-023` and `FR-UI-HC-024` saved French for the 39 distinct English values and six display labels in `components/learning/PrayerUnitTracker.tsx`. The French follows paired Arabic instructions, keeps all unit counts, preserves the stop/continue distinctions in the middle sitting, and does not translate the Arabic recitations or their pronunciation aids.
+- The source map for the prayer lesson supplies the referenced reports and scholar guidance for these steps. This remains an AI draft with no human review or publication.
+- Both batches passed source-file, unique-ID, nonempty-French and placeholder checks. A cross-file audit also confirmed 385 saved hardcoded-copy records with 385 unique IDs. Coverage increased from 340 to 385; the three previously recorded Needs Mo items remain open.
