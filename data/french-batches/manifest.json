@@ -45063,6 +45063,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0852",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0852.json",
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "single long complete report translated as a private draft; chain, setting, dialogue, conflict, and Sa‘d ibn ‘Ubada’s explanation preserved; source ID and hash preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -49370,8 +49383,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9369,
-  "hadithLocalRemaining": 5157,
+  "hadithLocalDrafted": 9370,
+  "hadithLocalRemaining": 5156,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -54565,7 +54578,7 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3206,
+  "hadithMuslimDrafted": 3207,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 1346

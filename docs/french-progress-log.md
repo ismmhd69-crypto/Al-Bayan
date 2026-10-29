@@ -11366,3 +11366,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1796b-1797c
 
 - FR-LIB-HAD-MUSLIM-0851 saves one private French draft of a distinctive report detail. Two entries quoting Quran 93:1–3 and one chain-only cross-reference remain blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1798a
+
+- FR-LIB-HAD-MUSLIM-0852 saves one private French draft of the complete report about the Prophet’s encounter with ‘Abd Allah ibn Ubayy before Badr. It preserves the chain, the gathering and exchange, the conflict, and Sa‘d ibn ‘Ubâda’s explanation. The source mentions Quran recitation but contains no Quran quotation. No database write or publication occurred.
