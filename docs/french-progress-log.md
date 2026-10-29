@@ -8641,3 +8641,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0302 saves four private French drafts about avoiding a second voluntary prayer once the obligatory prayer has begun, and the supplication on entering or leaving a mosque. Muslim 710c and 710d are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,205 Muslim drafts, 7,541 total hadith drafts, 7,088 remaining, and 566 Needs Mo items.
+
+### 2026-10-29: Muslim 713b–715a variants
+
+- FR-LIB-HAD-MUSLIM-0303 saves two private French drafts about the two-unit greeting prayer upon entering a mosque. Muslim 713b and the three 715a variant records do not include a full report, so they remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,207 Muslim drafts, 7,543 total hadith drafts, 7,086 remaining, and 570 Needs Mo items.

@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0303",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:10:11.382Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b3bfb23c-8db5-4716-83b9-220f03bb8a5c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:713b",
+      "reference": "Sahih Muslim, hadith 713 b, book 6, باب مَا يَقُولُ إِذَا دَخَلَ الْمَسْجِدَ ‏‏",
+      "title": "باب مَا يَقُولُ إِذَا دَخَلَ الْمَسْجِدَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا حَامِدُ بْنُ عُمَرَ الْبَكْرَاوِيُّ، حَدَّثَنَا بِشْرُ بْنُ الْمُفَضَّلِ، حَدَّثَنَا عُمَارَةُ بْنُ غَزِيَّةَ، عَنْ رَبِيعَةَ بْنِ أَبِي عَبْدِ الرَّحْمَنِ، عَنْ عَبْدِ الْمَلِكِ بْنِ سَعِيدِ بْنِ سُوَيْدٍ الأَنْصَارِيِّ، عَنْ أَبِي حُمَيْدٍ، أَوْ عَنْ أَبِي أُسَيْدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "35040ae8dd8571608174a3ecd60e2b5e030067f8392b50fae9d70ae7e9bf669d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "795fc582-397e-4707-ab3a-3d692fd420e9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:714a",
+      "reference": "Sahih Muslim, hadith 714 a, book 6, باب اسْتِحْبَابِ تَحِيَّةِ الْمَسْجِدِ بِرَكْعَتَيْنِ وَكَرَاهَةِ الْجُلُوسِ قَبْلَ صَلاَتِهِمَا وَأَنَّهَا مَشْرُوعَةٌ فِي جَمِيعِ الأَوْقَاتِ",
+      "title": "باب اسْتِحْبَابِ تَحِيَّةِ الْمَسْجِدِ بِرَكْعَتَيْنِ وَكَرَاهَةِ الْجُلُوسِ قَبْلَ صَلاَتِهِمَا وَأَنَّهَا مَشْرُوعَةٌ فِي جَمِيعِ الأَوْقَاتِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، قَالاَ حَدَّثَنَا مَالِكٌ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ عَامِرِ بْنِ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، عَنْ عَمْرِو بْنِ سُلَيْمٍ الزُّرَقِيِّ، عَنْ أَبِي قَتَادَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا دَخَلَ أَحَدُكُمُ الْمَسْجِدَ فَلْيَرْكَعْ رَكْعَتَيْنِ قَبْلَ أَنْ يَجْلِسَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2da8de960bb3c184b7702318bea143888ccb7264ea250f6496182ee6e25f171a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Maslama ibn Qa‘nab et Qutayba ibn Sa‘id nous ont rapporté : Malik nous a rapporté. Yahya ibn Yahya nous a également rapporté : J’ai lu à Malik, d’après ‘Amir ibn ‘Abd Allah ibn al-Zubayr, d’après ‘Amr ibn Sulaym al-Zuraqi, d’après Abu Qatada, que le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous entre dans la mosquée, qu’il accomplisse deux unités de prière avant de s’asseoir. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "76488968-aadf-474e-a4bc-461e2e30b2ab",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:714b",
+      "reference": "Sahih Muslim, hadith 714 b, book 6, باب اسْتِحْبَابِ تَحِيَّةِ الْمَسْجِدِ بِرَكْعَتَيْنِ وَكَرَاهَةِ الْجُلُوسِ قَبْلَ صَلاَتِهِمَا وَأَنَّهَا مَشْرُوعَةٌ فِي جَمِيعِ الأَوْقَاتِ",
+      "title": "باب اسْتِحْبَابِ تَحِيَّةِ الْمَسْجِدِ بِرَكْعَتَيْنِ وَكَرَاهَةِ الْجُلُوسِ قَبْلَ صَلاَتِهِمَا وَأَنَّهَا مَشْرُوعَةٌ فِي جَمِيعِ الأَوْقَاتِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ، عَنْ زَائِدَةَ، قَالَ حَدَّثَنِي عَمْرُو بْنُ يَحْيَى الأَنْصَارِيُّ، حَدَّثَنِي مُحَمَّدُ بْنُ يَحْيَى بْنِ حَبَّانَ، عَنْ عَمْرِو بْنِ سُلَيْمِ بْنِ خَلْدَةَ الأَنْصَارِيِّ، عَنْ أَبِي قَتَادَةَ، صَاحِبِ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ دَخَلْتُ الْمَسْجِدَ وَرَسُولُ اللَّهِ صلى الله عليه وسلم جَالِسٌ بَيْنَ ظَهْرَانَىِ النَّاسِ - قَالَ - فَجَلَسْتُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مَنَعَكَ أَنْ تَرْكَعَ رَكْعَتَيْنِ قَبْلَ أَنْ تَجْلِسَ ‏\"‏ ‏.‏ قَالَ فَقُلْتُ يَا رَسُولَ اللَّهِ رَأَيْتُكَ جَالِسًا وَالنَّاسُ جُلُوسٌ ‏.‏ قَالَ ‏\"‏ فَإِذَا دَخَلَ أَحَدُكُمُ الْمَسْجِدَ فَلاَ يَجْلِسْ حَتَّى يَرْكَعَ رَكْعَتَيْنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1e3692857f36e92ad2c1363e2303e160d6aeadee25d0f5c99ee1834bb8c3323b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Husayn ibn ‘Ali nous a rapporté, d’après Za’ida. Il dit : ‘Amr ibn Yahya al-Ansari m’a rapporté : Muhammad ibn Yahya ibn Habban m’a rapporté, d’après ‘Amr ibn Sulaym ibn Khalda al-Ansari, d’après Abu Qatada, compagnon du Messager d’Allah ﷺ. Il dit : « J’entrai dans la mosquée alors que le Messager d’Allah ﷺ était assis parmi les gens. Je m’assis. Le Messager d’Allah ﷺ me demanda : “Qu’est-ce qui t’a empêché d’accomplir deux unités de prière avant de t’asseoir ?” Je répondis : “Messager d’Allah, je t’ai vu assis et les gens assis.” Il dit : “Lorsque l’un de vous entre dans la mosquée, qu’il ne s’assoie pas avant d’avoir accompli deux unités de prière.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5c56d51b-0ba4-4adf-b272-90792b8573dd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715a",
+      "reference": "Sahih Muslim, hadith 715 ad, book 33, باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "title": "باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، ح وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي قَالاَ، جَمِيعًا حَدَّثَنَا شُعْبَةُ، عَنْ مُحَارِبٍ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِكَرَاهَةِ الطُّرُوقِ وَلَمْ يَذْكُرْ يَتَخَوَّنُهُمْ أَوْ يَلْتَمِسُ عَثَرَاتِهِمْ ‏.‏",
+      "source_hash_sha256": "7c5fb352e8d026169e8f63882437fb271d34ca9a7511792293ac459171bf6b60",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "91f8f984-88f8-48c0-bf85-9cd12ecaf432",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715a",
+      "reference": "Sahih Muslim, hadith 715 aa, book 33, باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "title": "باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا رَوْحٌ، حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "c3e735e5383997b849a1c9141715fd0c0b06555a53bd92eb4aa130b37cef37ba",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9e511ebf-5b0b-4fc1-97d6-3c151c010467",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:715a",
+      "reference": "Sahih Muslim, hadith 715 ac, book 33, باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "title": "باب كَرَاهَةِ الطُّرُوقِ وَهُوَ الدُّخُولُ لَيْلاً لِمَنْ وَرَدَ مِنْ سَفَرٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، حَدَّثَنَا سُفْيَانُ، بِهَذَا الإِسْنَادِ قَالَ عَبْدُ الرَّحْمَنِ قَالَ سُفْيَانُ لاَ أَدْرِي هَذَا فِي الْحَدِيثِ أَمْ لاَ ‏.‏ يَعْنِي أَنْ يَتَخَوَّنَهُمْ أَوْ يَلْتَمِسَ عَثَرَاتِهِمْ ‏.‏",
+      "source_hash_sha256": "8ba0f0e0d37d277e89339a1153c8173cf616611b3eb7baa85e68c2041b3d7ae3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b3bfb23c-8db5-4716-83b9-220f03bb8a5c",
+      "reason": "La source rapporte seulement la chaîne de transmission et renvoie au hadith précédent sans en reprendre le texte. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "source_id": "5c56d51b-0ba4-4adf-b272-90792b8573dd",
+      "reason": "La source ne donne qu’une partie du récit ou une chaîne de transmission renvoyant à une version précédente, sans reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "source_id": "91f8f984-88f8-48c0-bf85-9cd12ecaf432",
+      "reason": "La source ne donne qu’une partie du récit ou une chaîne de transmission renvoyant à une version précédente, sans reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "source_id": "9e511ebf-5b0b-4fc1-97d6-3c151c010467",
+      "reason": "La source ne donne qu’une partie du récit ou une chaîne de transmission renvoyant à une version précédente, sans reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    }
+  ]
+}
