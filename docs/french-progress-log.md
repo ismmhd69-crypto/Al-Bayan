@@ -9981,3 +9981,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0570 saves three private French drafts about the prayer times at Muzdalifa and Sawda’s early departure. Muslim 1289b and 1290d are cross-reference-only variants; Muslim 1290a ends with an unclear phrase. All three remain entirely blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1291a–1293b
+
+- FR-LIB-HAD-MUSLIM-0571 saves six private French drafts about early departure from Muzdalifa and the Prophet’s permission for women and vulnerable pilgrims. Distinct short variant wording is kept with its own source record.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
