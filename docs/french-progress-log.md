@@ -12776,3 +12776,10 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Five complete reports were translated and reread against the Arabic, including narrator chains and the explicit wording in the short 2632b variant. One malformed 2629 chain remains blank under Needs Mo with its source ID and reason.
 - Focused batch validation and git diff check passed. Actual insertions: 0; existing French rows preserved: 0; failed inserts: 0; published: 0; human-reviewed: 0. Local translations saved: 5. Live French database rows remain 0.
 - The live hadith recount, reconciled against saved batch files, is 6,336 Bukhari and 4,759 Muslim local drafts (11,095 total), 2,709 held Needs Mo, and 825 source records not yet exported. Local hadith records without a French draft: 3,534. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2632c-2636b
+
+- Batch FR-LIB-HAD-MUSLIM-1212 covers source IDs 82d45eff-73a7-4a35-9277-6f7772f628e7 (2632c), 35e55a8c-8d2d-483b-8006-43b78f83d7d2 (2633), cdd98fec-4e43-44b2-8472-f43bf4cc34e6 (2634), 0c15471a-049e-4c00-85a4-3a36dffaa1a1 (2635), 462d73c4-8099-4703-9f0f-7e78ab5414bb (2636a), and 5a10a6e2-dbe9-4ae8-9410-4bce4eef94e6 (2636b).
+- Five complete reports were translated and reread against the Arabic, preserving narrator chains and the short wording variant. Muslim 2635 remains blank under Needs Mo because the exact French sense of the rare Arabic term « دَعَامِيصُ الْجَنَّةِ » needs confirmation.
+- Focused validator and git diff check passed. Actual insertions: 0; existing French rows preserved: 0; failed inserts: 0; published: 0; human-reviewed: 0. Five private local drafts saved.
+- Reconciled local hadith progress: 6,336 Bukhari and 4,764 Muslim drafts (11,100 total); 2,710 held Needs Mo; 819 source records not yet exported. Local hadith records without a French draft: 3,529. All 14,629 remain missing from the live French table.

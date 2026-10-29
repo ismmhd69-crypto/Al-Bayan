@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-fr-drafts; missing-only inserts authorized where existing schema and source rights permit; public activation forbidden",
-  "lastReconciled": "2026-10-29T21:49:06.708Z",
+  "lastReconciled": "2026-10-29T21:50:50.936Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -59,14 +59,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 4759,
+    "hadithMuslimDrafted": 4764,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11095,
+    "hadithLocalDrafted": 11100,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3534,
-    "hadithNeedsMo": 2709,
+    "hadithLocalRemaining": 3529,
+    "hadithNeedsMo": 2710,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden."
   },
@@ -49768,6 +49768,30 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1212",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1212.json",
+      "sourceIds": [
+        "82d45eff-73a7-4a35-9277-6f7772f628e7",
+        "35e55a8c-8d2d-483b-8006-43b78f83d7d2",
+        "cdd98fec-4e43-44b2-8472-f43bf4cc34e6",
+        "0c15471a-049e-4c00-85a4-3a36dffaa1a1",
+        "462d73c4-8099-4703-9f0f-7e78ab5414bb",
+        "5a10a6e2-dbe9-4ae8-9410-4bce4eef94e6"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 1,
+      "failed": 0,
+      "remaining": 3529,
+      "validation": "Five complete reports translated and reread against Arabic, including narrator chains and short variant wording. One uncommon Arabic term held pending confirmation. Source IDs and hashes, private unpublished state, rights metadata, focused validator, and git diff check passed. No insert attempted because the live schema and rights block it.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -54075,8 +54099,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 11095,
-  "hadithLocalRemaining": 3534,
+  "hadithLocalDrafted": 11100,
+  "hadithLocalRemaining": 3529,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -60094,13 +60118,19 @@
       "scope": "Sahih Muslim 2629; source ID a792f085-5328-448c-ab40-0ea1945d48ea",
       "status": "blocked",
       "reason": "La chaîne de transmission contient la concaténation mal formée « أَنَّأَخْبَرَهُ ». La formulation exacte doit être vérifiée avant de traduire le rapport."
+    },
+    {
+      "id": "HADITH-MUSLIM-2635-UNCERTAIN-TERM",
+      "scope": "Sahih Muslim 2635; source ID 0c15471a-049e-4c00-85a4-3a36dffaa1a1",
+      "status": "blocked",
+      "reason": "The Arabic expression دعَامِيص الجنة contains an uncommon term whose exact sense needs confirmation before choosing a French equivalent."
     }
   ],
-  "hadithMuslimDrafted": 4759,
+  "hadithMuslimDrafted": 4764,
   "hadithDatabaseMissing": 14629,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 2709,
+  "hadithNeedsMo": 2710,
   "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
-  "hadithSourcesProcessed": 13804,
-  "hadithSourcesNotYetExported": 825
+  "hadithSourcesProcessed": 13810,
+  "hadithSourcesNotYetExported": 819
 }
