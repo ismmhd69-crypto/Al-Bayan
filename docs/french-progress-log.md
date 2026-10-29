@@ -8236,3 +8236,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0222 saves one private French draft of the long report about prayer speech, consulting diviners, omens, line-drawing, and freeing an enslaved woman. It was processed alone because its Arabic source exceeds 2,000 characters.
 - The source hash is retained; the focused validator passed. No database write or publication occurred. Counts now show 900 Muslim drafts, 7,236 total hadith drafts, 7,393 remaining, and 428 Needs Mo items.
+
+### 2026-10-29: Muslim 537b–538b
+
+- FR-LIB-HAD-MUSLIM-0223 saves two private French drafts about consulting diviners, omens and greeting during prayer. Muslim 537b, 537d, 537e and 538b contain only incomplete cross-reference or variant wording and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 902 Muslim drafts, 7,238 total hadith drafts, 7,391 remaining, and 432 Needs Mo items.
