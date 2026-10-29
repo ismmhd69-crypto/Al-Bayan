@@ -17652,6 +17652,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-815",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-815.json",
+      "sourceIds": [
+        "edfac4d4-b86f-4261-8cf3-ca333cdb8e04",
+        "76ad9354-bd38-4db9-9d81-5cdd1429138e",
+        "8b47d666-b97b-494e-86aa-140ce671c217",
+        "d483b3dd-69bb-44e6-805e-b1110a536696",
+        "2ba2c235-4164-436b-a2f3-2ce58eb5fa07",
+        "ecc0cce1-75a2-464d-a3d3-3276c8244747"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 6,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished holds passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18296,6 +18317,42 @@
       "scope": "Sahih al-Bukhari 4506: direct quotation of Quran 2:184",
       "status": "blocked",
       "reason": "The report directly quotes part of Quran 2:184. The complete record remains blank in FR-LIB-HAD-BUKHARI-814 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4507-QURAN-DIRECT-QUOTE",
+      "scope": "Sahih al-Bukhari 4507: direct or partial Quran quotation",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:184. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4508-QURAN-DIRECT-QUOTE",
+      "scope": "Sahih al-Bukhari 4508: direct or partial Quran quotation",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:187. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4509-QURAN-DIRECT-QUOTE",
+      "scope": "Sahih al-Bukhari 4509: direct or partial Quran quotation",
+      "status": "blocked",
+      "reason": "The report repeats the Quranic phrase الخيط الأبيض والأسود from Quran 2:187. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4510-QURAN-DIRECT-QUOTE",
+      "scope": "Sahih al-Bukhari 4510: direct or partial Quran quotation",
+      "status": "blocked",
+      "reason": "The report directly repeats the Quranic wording الخيط الأبيض من الخيط الأسود from Quran 2:187. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4511-QURAN-DIRECT-QUOTE",
+      "scope": "Sahih al-Bukhari 4511: direct or partial Quran quotation",
+      "status": "blocked",
+      "reason": "The report directly quotes portions of Quran 2:187. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4512-QURAN-DIRECT-QUOTE",
+      "scope": "Sahih al-Bukhari 4512: direct or partial Quran quotation",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:189. The complete hadith remains blank pending confirmation of an approved, attributed French Quran translation."
     }
   ],
   "hadithBukhariDrafted": 3951,
