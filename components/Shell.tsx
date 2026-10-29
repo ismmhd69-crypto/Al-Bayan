@@ -87,9 +87,28 @@ export default function Shell({
   useEffect(() => {
     const dialog = sheet.current;
     if (!dialog) return;
-    if (sheetOpen && !dialog.open) dialog.showModal();
-    if (!sheetOpen && dialog.open) dialog.close();
-    dialog.style.transform = "";
+    if (sheetOpen) {
+      dialog.classList.remove("more-sheet--closing");
+      dialog.style.transform = "";
+      if (!dialog.open) dialog.showModal();
+      return;
+    }
+    if (!dialog.open) return;
+    // Closing is the opening animation in reverse (Mo, 2026-10-29): the sheet slides down from
+    // wherever it is (also mid-drag) while the backdrop fades, and only then is the dialog closed.
+    const finish = () => {
+      clearTimeout(fallback);
+      dialog.removeEventListener("transitionend", finish);
+      dialog.classList.remove("more-sheet--closing");
+      if (dialog.open) dialog.close();
+      dialog.style.transform = "";
+    };
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) { finish(); return; }
+    const fallback = setTimeout(finish, 400);
+    dialog.addEventListener("transitionend", finish);
+    dialog.classList.add("more-sheet--closing");
+    dialog.style.transform = "translateY(100%)";
+    return () => { clearTimeout(fallback); dialog.removeEventListener("transitionend", finish); };
   }, [sheetOpen]);
   // Drag down to close, from the handle and title row. The sheet follows the finger, then
   // either closes or springs back.
@@ -213,7 +232,7 @@ export default function Shell({
       </nav>
 
       <dialog ref={sheet} className="more-sheet" aria-labelledby="more-sheet-title"
-        onClose={() => setSheetOpen(false)} onClick={(e) => { if (e.target === e.currentTarget) setSheetOpen(false); }}>
+        onClose={() => setSheetOpen(false)} onCancel={(e) => { e.preventDefault(); setSheetOpen(false); }} onClick={(e) => { if (e.target === e.currentTarget) setSheetOpen(false); }}>
         <div className="more-sheet-head" onPointerDown={onDragStart} onPointerMove={onDragMove} onPointerUp={onDragEnd} onPointerCancel={onDragEnd}>
           <div className="more-sheet-grab" aria-hidden="true" />
           <div className="more-sheet-title">

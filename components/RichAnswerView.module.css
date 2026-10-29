@@ -307,3 +307,10 @@
   margin: 0.3rem 0;
   line-height: 1.6;
 }
+
+/* Quran verse play button sits beside "Read source" (Mo, 2026-10-29). */
+.sourceTools {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}

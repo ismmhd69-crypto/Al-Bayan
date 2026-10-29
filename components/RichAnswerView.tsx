@@ -12,6 +12,7 @@ import styles from "./RichAnswerView.module.css";
 import { ReportProblem } from "./ReportProblem";
 import { consecutiveRuns } from "@/lib/ask/ids";
 import VideoCard from "./VideoCard";
+import VerseAudioButton from "./VerseAudioButton";
 import { validRelatedVideos, type RelatedVideos } from "@/lib/ask/related-videos";
 import type { PublicationState } from "@/lib/ask/publication";
 import { VerifiedText, RevealBlock, AfterVerifiedText } from "./VerifiedReveal";
@@ -94,7 +95,8 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
         </p></RevealBlock>)}
         <div className={styles.sources}>{richSourceCards({ ...section, sources: section.sources.filter(s => owners.get(s.id) === section.group) }).map(card => <RevealBlock id={`${section.group}-original-${card[0].id}`} key={card.map(s => s.id).join("-")}><div className={cardClass(section.group)}>{card.map(source => { const { id, evidence: e, displayTranslation: tr } = source; return <RevealBlock key={id} id={`${section.group}-original-${id}`}><div id={`${prefix}-${section.group}-${id}`} tabIndex={-1} className={styles.source}>
           <div className={styles.sourceHead}><strong><bdi>{refLabel(section, id)}</bdi></strong>
-            <a href={e.url} target="_blank" rel="noopener noreferrer">{t.source} ↗</a></div>
+            <span className={styles.sourceTools}>{e.kind === "quran" && <VerseAudioButton verseKey={e.key} language={language} />}
+            <a href={e.url} target="_blank" rel="noopener noreferrer">{t.source} ↗</a></span></div>
           {e.kind === "scholar" && <p>{e.title || e.reference}</p>}
           {e.kind === "hadith" && <p lang="ar" dir="rtl">{e.gradeAr} · {e.attributionAr}</p>}
           {hasDisplayTranslation(source) && language !== "ar" && <small>{tr?.status === "ready"

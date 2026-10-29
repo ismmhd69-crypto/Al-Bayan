@@ -2963,6 +2963,23 @@ details[open] > summary .chev {
 .more-sheet--dragging {
   transition: none;
 }
+/* Closing mirrors opening: the same duration, eased the opposite way, with the backdrop fading. */
+.more-sheet--closing {
+  transition: transform 0.22s ease-in;
+}
+.more-sheet[open]::backdrop {
+  animation: more-sheet-fade 0.22s ease-out;
+}
+.more-sheet--closing[open]::backdrop {
+  animation: more-sheet-fade 0.22s ease-in reverse forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  .more-sheet[open]::backdrop { animation: none; }
+}
+@keyframes more-sheet-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 .more-sheet-head {
   margin: -10px -16px 0;
   padding: 10px 16px 0;
@@ -3803,3 +3820,26 @@ details[open] > summary .chev {
     --brand-gold: #d4a852;
   }
 }
+
+/* Play button on Quran verses in Ask answers: a small tonal circle, like the Quran page. */
+.answer-verse-play {
+  display: inline-grid;
+  place-items: center;
+  inline-size: 34px;
+  block-size: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.answer-verse-play:hover { background: var(--tonal-bg-hover); }
+.answer-verse-play:active { transform: scale(0.94); }
+.answer-verse-play.playing { background: var(--accent); color: var(--on-accent); }
+.answer-verse-play:disabled { opacity: 0.45; cursor: not-allowed; }
+.answer-verse-play svg { inline-size: 16px; block-size: 16px; }
+.answer-verse-play .spin { animation: answer-verse-spin 0.9s linear infinite; }
+@keyframes answer-verse-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .answer-verse-play .spin { animation: none; } }
