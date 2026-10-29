@@ -3356,3 +3356,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-688` saves six private French drafts about the Abyssinian migration and the death of the Negus.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,454 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 256. Total local hadith rows not drafted: 11,203, including held records.
+
+### 2026-10-29: Bukhari 3879–3884
+
+- `FR-LIB-HAD-BUKHARI-689` saves five private French drafts about the Negus and the story of Abû Tâlib. Bukhari 3884 remains blank because it quotes Quran 9:113 and 28:56; no approved, attributed French Quran translation is confirmed.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,459 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 257. Total local hadith rows not drafted: 11,198, including held records.
