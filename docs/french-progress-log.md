@@ -11806,3 +11806,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2038b-2039
 
 - FR-LIB-HAD-MUSLIM-0961 saves the complete long report of Jâbir's meal during the trench as a private French draft. One entry that summarizes a prior report without reproducing it remains blank with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2040a
+
+- FR-LIB-HAD-MUSLIM-0962 saves the complete report of Umm Sulaym's meal for the Messenger of Allah and the gathered men as a private French draft. The repeated groups of ten and total of seventy or eighty men are preserved. No database write or publication occurred.
