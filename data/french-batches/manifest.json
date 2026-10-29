@@ -18235,6 +18235,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-844",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-844.json",
+      "sourceIds": [
+        "fc75dd80-5aea-4c3b-9663-d572f98ae46d",
+        "2c0c77f4-f664-4300-9432-548eacb6222d",
+        "e82a6038-f2ce-42ed-af66-296eab0e27ed",
+        "9d3c6157-c5ef-4206-8238-63d1a5ee585c",
+        "c1541e21-e8b5-4c52-875f-6ef1d85ff758",
+        "c785aeeb-7902-4074-8734-893cf8e227c0"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19491,9 +19512,21 @@
       "scope": "Sahih al-Bukhari 4654: direct quotation of Quran 4:176",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 4:176. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-843, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4660-QURAN-9-34",
+      "scope": "Sahih al-Bukhari 4660: direct quotation of Quran 9:34",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 9:34. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-844, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4663-QURAN-9-40",
+      "scope": "Sahih al-Bukhari 4663: direct Quranic phrase from 9:40",
+      "status": "blocked",
+      "reason": "La parole « Allah est le troisième de deux » reprend directement le sens et la formule de Quran 9:40. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-844, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3996,
-  "hadithLocalDrafted": 3996,
-  "hadithLocalRemaining": 10666
+  "hadithBukhariDrafted": 4000,
+  "hadithLocalDrafted": 4000,
+  "hadithLocalRemaining": 10667
 }
