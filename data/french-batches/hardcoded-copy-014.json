@@ -1,0 +1,114 @@
+[
+  {
+    "id": "iman.title",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "The Six Foundations of Faith (Iman)",
+    "arabic_source": "أركان الإيمان الستة",
+    "french": "Les six piliers de la foi (îmân)"
+  },
+  {
+    "id": "iman.subtitle",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "The core articles of Islamic creed established in the authentic tradition of Hadith Jibril.",
+    "arabic_source": "أصول العقيدة الإسلامية الكبرى كما بينها النبي صلى الله عليه وسلم في حديث جبريل المشهور.",
+    "french": "Les grands fondements de la croyance islamique, tels que les a exposés le Prophète ﷺ dans le hadith bien connu de Jibril."
+  },
+  {
+    "id": "iman.label.article",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "Article",
+    "arabic_source": "الركن",
+    "french": "Pilier"
+  },
+  {
+    "id": "iman.label.foundation",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "Core Tenet",
+    "arabic_source": "أصل الاعتقاد",
+    "french": "Fondement de la croyance"
+  },
+  {
+    "id": "iman.pillar.allah.name",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "Belief in Allah",
+    "arabic_source": "الإيمان بالله",
+    "french": "La foi en Allah"
+  },
+  {
+    "id": "iman.pillar.allah.detail",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "Believing in His absolute Oneness (Tawhid), His Lordship over creation, and His unique perfect names and attributes.",
+    "arabic_source": "إفراد الله بالربوبية والألوهية والأسماء والصفات، وأنه لا شريك له في ملكه ولا معبود بحق سواه.",
+    "french": "Reconnaître l’unicité d’Allah dans Sa seigneurie, Son droit exclusif à l’adoration, ainsi que Ses noms et attributs, sans associé dans Son royaume ni autre divinité digne d’être adorée."
+  },
+  {
+    "id": "iman.pillar.angels.name",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "His Angels",
+    "arabic_source": "الإيمان بالملائكة",
+    "french": "La foi aux anges"
+  },
+  {
+    "id": "iman.pillar.angels.detail",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "Noble spiritual creations created from light, continuously obeying Allah and executing His commands (including Gabriel/Jibril).",
+    "arabic_source": "مخلوقات نورانية مطيعة لا تعصي الله ما أمرها، منهم جبريل الموكل بالوحي.",
+    "french": "Des créatures de lumière qui obéissent à Allah sans désobéir à Ses ordres ; parmi elles, Jibril, chargé de la révélation."
+  },
+  {
+    "id": "iman.pillar.books.name",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "His Revealed Books",
+    "arabic_source": "الإيمان بالكتب",
+    "french": "La foi aux Livres révélés"
+  },
+  {
+    "id": "iman.pillar.books.detail",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "The divine revelations sent to the prophets (the Torah, Gospel, Psalms) culminating in the final, preserved Quran.",
+    "arabic_source": "الكتب المنزلة على الرسل كالتوراة والإنجيل والزبور، وآخرها وخاتمها المحفوظ القرآن الكريم.",
+    "french": "Les Livres révélés aux messagers, tels que la Torah, l’Évangile et les Psaumes, dont le dernier et le sceau est le Coran préservé."
+  },
+  {
+    "id": "iman.pillar.messengers.name",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "His Messengers",
+    "arabic_source": "الإيمان بالرسل",
+    "french": "La foi aux messagers"
+  },
+  {
+    "id": "iman.pillar.messengers.detail",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "All prophets sent to guide humanity—including Noah, Abraham, Moses, Jesus, and Muhammad as the final messenger.",
+    "arabic_source": "الإيمان بجميع الأنبياء والمرسلين من آدم ونوح وإبراهيم وموسى وعيسى، وخاتمهم محمد صلى الله عليه وسلم.",
+    "french": "Croire en tous les prophètes et messagers, d’Adam, Noé, Abraham, Moïse et Jésus jusqu’à Muhammad, le dernier d’entre eux."
+  },
+  {
+    "id": "iman.pillar.lastDay.name",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "The Last Day",
+    "arabic_source": "الإيمان باليوم الآخر",
+    "french": "La foi au Jour dernier"
+  },
+  {
+    "id": "iman.pillar.lastDay.detail",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "The Day of Resurrection, account, and divine justice where human deeds are weighed and eternal recompense begins.",
+    "arabic_source": "يوم البعث والنشور والحساب والجزاء العادل، حيث يجازى المحسن بإحسانه والظالم بظلمه.",
+    "french": "Le Jour de la résurrection et du jugement, où chacun reçoit une juste rétribution : la personne bienfaisante pour ses bonnes actions et l’injuste pour ses injustices."
+  },
+  {
+    "id": "iman.pillar.decree.name",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "Divine Decree (Qadar)",
+    "arabic_source": "الإيمان بالقدر",
+    "french": "La foi au décret divin (qadar)"
+  },
+  {
+    "id": "iman.pillar.decree.detail",
+    "source": "components/learning/SixPillarsImanVisual.tsx",
+    "english": "Allah's eternal knowledge, writing, will, and creation of all that occurs in the universe, both its pleasant and challenging aspects.",
+    "arabic_source": "علم الله الشامل وكتابته ومشيئته النافذة وخلقه لكل ما يقع في هذا الكون خيره وشره.",
+    "french": "La connaissance complète d’Allah, Son inscription et Sa volonté qui s’accomplit, ainsi que Sa création de tout ce qui arrive dans l’univers, le bien comme le mal."
+  }
+]

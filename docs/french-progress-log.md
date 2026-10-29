@@ -500,3 +500,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-UI-HC-013` saved the French close-menu accessibility label from `components/Shell.tsx`. It passed its focused source-file, unique-ID, nonempty-text, and placeholder checks.
 - Code-level visitor-copy coverage increased from 209 to 210 saved strings. The comprehensive code audit remains open because several interactive learning visuals contain additional embedded copy.
+
+### 2026-10-29: six pillars learning visual
+
+- `FR-UI-HC-014` saved 16 French labels and descriptions from `components/learning/SixPillarsImanVisual.tsx`. Each record keeps the corresponding Arabic source wording alongside the English field and private French draft. This avoids carrying English additions that are not present in the Arabic wording.
+- The focused validator checked unique IDs, source-file presence, nonempty French, and placeholders; the Arabic/French pairs were compared while drafting. The copy remains AI-drafted, with no human review or publication.
+- Code-level visitor-copy coverage increased from 210 to 226 saved strings. Other interactive learning visuals remain to be inventoried and reviewed.
