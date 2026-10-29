@@ -868,3 +868,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-172` saves six private French drafts for Bukhari 972–977. They preserve the practice of praying toward a planted lance, reports about women attending Eid prayer, and the Prophet’s ﷺ address and appeal for charity.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 907 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 44. Total local hadith rows not drafted: 13,722, including held records.
+### 2026-10-29: Bukhari 978–983 source review
+
+- `FR-LIB-HAD-BUKHARI-173` saves five private French drafts for Bukhari 978 and 980–983. Bukhari 979 remains blank under Needs Mo because it quotes Quran 60:12 and no approved, attributed French Quran translation is available.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 912 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 45. Total local hadith rows not drafted: 13,717, including held records.
