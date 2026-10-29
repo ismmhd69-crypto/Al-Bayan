@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:26:48.921Z",
+  "lastReconciled": "2026-10-29T14:27:08.955Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 378,
+    "hadithMuslimDrafted": 384,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6714,
-    "hadithDatabaseMissing": 7915,
-    "hadithLocalRemaining": 7915,
+    "hadithLocalDrafted": 6720,
+    "hadithDatabaseMissing": 7909,
+    "hadithLocalRemaining": 7909,
     "hadithNeedsMo": 226,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -31000,6 +31000,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0096",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0096.json",
+      "sourceIds": [
+        "83486e2a-73de-4fa0-b983-67d270f155b2",
+        "c87ad5c5-d421-40fa-a535-7363c26332f1",
+        "ebd8e0fd-c77b-4bb6-b097-d4b2497e962c",
+        "e6cb2155-9a08-4fb7-8d42-acc4944eff77",
+        "1132126a-3c99-4777-b74e-f70ace532d85",
+        "c3ebd8c4-b50c-4a09-9117-2bf5352f7a3c"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; prayer and eligibility qualifications retained",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35217,8 +35238,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6714,
-  "hadithLocalRemaining": 7915,
+  "hadithLocalDrafted": 6720,
+  "hadithLocalRemaining": 7909,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36577,8 +36598,8 @@
       "reason": "Ce récit reprend directement plusieurs paroles coraniques, notamment « Ceci est mon Seigneur », « C’est le plus grand d’entre eux qui l’a fait » et « Je suis malade ». Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 378,
-  "hadithDatabaseMissing": 7915,
+  "hadithMuslimDrafted": 384,
+  "hadithDatabaseMissing": 7909,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 226
 }

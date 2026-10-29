@@ -7583,3 +7583,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0095 saves 5 private French drafts. Hadith 194b directly repeats Quranic wording, so its full translation remains blank under Needs Mo pending approved, attributed French Quran translations with usage permission.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 374 of 7,366. Hadith Needs Mo: 226. Total local hadith rows not drafted: 7,919, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 198a–199b
+
+- FR-LIB-HAD-MUSLIM-0096 saves 6 private French drafts on the prophets’ invocations, preserving the variants about the promised intercession and its stated eligibility.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 380 of 7,366. Hadith Needs Mo: 226. Total local hadith rows not drafted: 7,913, including held records. No database writes or publication occurred.
