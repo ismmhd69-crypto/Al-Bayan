@@ -792,3 +792,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-153` saves six private French drafts for Bukhari 853–858. They preserve the instruction about entering the mosque after eating garlic, the raw-versus-odor transmission note, the prayer over an isolated grave and the Friday washing report.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 796 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,833, including held records.
+### 2026-10-29: Bukhari 859–864 source review
+
+- `FR-LIB-HAD-BUKHARI-154` saves private French drafts for Bukhari 860–864. Bukhari 859 remains blank under Needs Mo because it quotes Quran 37:102 and no approved, attributed French Quran translation is available.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 801 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 42. Total local hadith rows not drafted: 13,828, including held records.
