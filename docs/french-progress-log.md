@@ -11810,3 +11810,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2040a
 
 - FR-LIB-HAD-MUSLIM-0962 saves the complete report of Umm Sulaym's meal for the Messenger of Allah and the gathered men as a private French draft. The repeated groups of ten and total of seventy or eighty men are preserved. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2040b-2040g
+
+- FR-LIB-HAD-MUSLIM-0963 contains six versions of the meal report already told in full. These entries only summarize or refer to that report and add selected variants, so they remain blank with specific Needs Mo reasons. No database write or publication occurred.
