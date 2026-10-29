@@ -6821,3 +6821,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1328 saves five private French drafts. Hadith 7277 directly quotes Quran 6:134; its complete translation remains blank under Needs Mo pending an approved, attributed French Quran translation and confirmation of permitted use. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,127 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 858. Total local hadith rows not drafted: 8,508, including held records.
+
+### 2026-10-29: Bukhari 7283 and 7286–7290
+
+- FR-LIB-HAD-BUKHARI-1329 saves five private French drafts. Hadith 7286 directly quotes Quran 7:199; its complete translation remains blank under Needs Mo pending an approved, attributed French Quran translation and confirmation of permitted use. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,132 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 859. Total local hadith rows not drafted: 8,507, including held records.
