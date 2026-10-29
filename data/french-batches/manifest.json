@@ -44868,6 +44868,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0837",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0837.json",
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six complete reports or distinctive variants translated as private drafts; chains, sequence, and the reported food-versus-fat wording difference preserved; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -49175,8 +49188,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9323,
-  "hadithLocalRemaining": 5203,
+  "hadithLocalDrafted": 9329,
+  "hadithLocalRemaining": 5197,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -54370,7 +54383,7 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3160,
+  "hadithMuslimDrafted": 3166,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 1334

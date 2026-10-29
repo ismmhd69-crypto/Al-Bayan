@@ -11306,3 +11306,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1768a-1769d
 
 - FR-LIB-HAD-MUSLIM-0836 saves six private French drafts. The reports preserve their chains, wording differences about Sa‘d’s judgment, accounts of Sa‘d’s injury and death, and the poem added in 1769d. No Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1770-1772c
+
+- FR-LIB-HAD-MUSLIM-0837 saves six private French drafts: the prayer at Banû Qurayza, two accounts about the Ansâr’s gifts and Umm Ayman, and three versions of the report about an item found at Khaybar. The difference between “food and fat” and “fat” alone is retained. No Quran quotation appears in these entries. No database write or publication occurred.
