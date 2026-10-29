@@ -5681,3 +5681,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1107 saves one private French draft for the complex divorce report. It was handled as a one-record batch, with its euphemistic wording kept close to the Arabic.
 - The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,090 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 764. Total local hadith rows not drafted: 9,539, including held records.
+
+### 2026-10-29: Bukhari 6088–6092 and 6094
+
+- FR-LIB-HAD-BUKHARI-1108 saves five private French drafts about generosity, companionship, and worship. The longer rain report Bukhari 6093 was isolated as a one-record batch.
+- All five records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,095 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 764. Total local hadith rows not drafted: 9,534, including held records.
