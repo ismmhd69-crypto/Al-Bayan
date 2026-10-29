@@ -3146,3 +3146,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-646` saves two private French drafts about Abû Bakr and charitable giving.
 - Both records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,267 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 238. Total local hadith rows not drafted: 11,390, including held records.
+
+### 2026-10-29: Bukhari 3667–3668 long report
+
+- `FR-LIB-HAD-BUKHARI-647` keeps the report about the Prophet’s death and the succession discussion blank because it quotes Quran 39:30 and 3:144. No approved, attributed French Quran translation is confirmed.
+- The record passed the focused validator with its Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,267 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 239. Total local hadith rows not drafted: 11,390, including held records.
