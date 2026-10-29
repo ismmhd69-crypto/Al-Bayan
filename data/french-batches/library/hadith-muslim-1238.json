@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-1238",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:03:52.066Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ed634a1a-ed8d-423e-81ae-4949088ac894",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2697c",
+      "reference": "Sahih Muslim, hadith 2697 c, book 48, باب فَضْلِ التَّهْلِيلِ وَالتَّسْبِيحِ وَالدُّعَاءِ",
+      "title": "باب فَضْلِ التَّهْلِيلِ وَالتَّسْبِيحِ وَالدُّعَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا أَبُو مَالِكٍ، عَنْ أَبِيهِ، أَنَّهُ سَمِعَ النَّبِيَّ صلى الله عليه وسلم وَأَتَاهُ رَجُلٌ فَقَالَ يَا رَسُولَ اللَّهِ كَيْفَ أَقُولُ حِينَ أَسْأَلُ رَبِّي قَالَ ‏\"‏ قُلِ اللَّهُمَّ اغْفِرْ لِي وَارْحَمْنِي وَعَافِنِي وَارْزُقْنِي ‏\"‏ ‏.‏ وَيَجْمَعُ أَصَابِعَهُ إِلاَّ الإِبْهَامَ ‏\"‏ فَإِنَّ هَؤُلاَءِ تَجْمَعُ لَكَ دُنْيَاكَ وَآخِرَتَكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e23d9425f81129cfda91e27fb385209a255898706b4a5aca29dfcbee12ddad07",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Ḥarb m’a rapporté : Yazīd ibn Hārūn nous a informés : Abū Mālik nous a rapporté, d’après son père, qui avait entendu le Prophète ﷺ. Un homme vint lui demander : « Messager d’Allah, que dois-je dire lorsque j’adresse une demande à mon Seigneur ? » Il répondit : « Dis : “Ô Allah, pardonne-moi, fais-moi miséricorde, accorde-moi la santé et pourvois à mes besoins.” » Il joignit ses doigts, à l’exception du pouce, puis dit : « Ces paroles rassemblent pour toi le bien de ce monde et de l’au-delà. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

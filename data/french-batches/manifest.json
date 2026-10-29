@@ -50380,6 +50380,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1238",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1238.json",
+      "sourceIds": [
+        "ed634a1a-ed8d-423e-81ae-4949088ac894"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 0,
+      "failed": 0,
+      "remaining": 3434,
+      "validation": "One complete report translated and reread against Arabic in its own one-record batch. Focused validator and git diff check passed. Private local draft only.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -54687,8 +54706,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 11194,
-  "hadithLocalRemaining": 3435,
+  "hadithLocalDrafted": 11195,
+  "hadithLocalRemaining": 3434,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -60750,11 +60769,11 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 4858,
+  "hadithMuslimDrafted": 4859,
   "hadithDatabaseMissing": 14629,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 2754,
   "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
-  "hadithSourcesProcessed": 13948,
-  "hadithSourcesNotYetExported": 681
+  "hadithSourcesProcessed": 13949,
+  "hadithSourcesNotYetExported": 680
 }
