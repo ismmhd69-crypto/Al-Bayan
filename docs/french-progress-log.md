@@ -9266,3 +9266,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0427 saves six private French drafts on wealth, generosity, family support, and dependants’ rights.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1677 Muslim drafts, 8013 total hadith drafts, 6616 remaining, and 785 Needs Mo items.
+
+### 2026-10-29: Muslim 997a–997f
+
+- FR-LIB-HAD-MUSLIM-0428 saves three private French drafts about deferred emancipation and the Prophet’s guidance on giving. Muslim 997b, 997e, and 997f are incomplete cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1680 Muslim drafts, 8016 total hadith drafts, 6613 remaining, and 788 Needs Mo items.
