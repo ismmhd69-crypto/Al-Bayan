@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 769,
+    "hadithMuslimDrafted": 773,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 7105,
+    "hadithLocalDrafted": 7109,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7524,
-    "hadithNeedsMo": 350,
+    "hadithLocalRemaining": 7520,
+    "hadithNeedsMo": 352,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43503,6 +43503,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0716",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0716.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete reports translated as private drafts; two incomplete variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52577,6 +52590,16 @@
     {
       "source_id": "c3ad21dc-748a-4c0d-8713-6e27207934a4",
       "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "eed13d6b-ea21-47cf-896b-615a01428e29",
+      "reason": "Cette entrée ne reprend pas le récit complet et renvoie à la version précédente, sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "0d95147a-56a1-4cec-bd43-048c95fafc5d",
+      "reason": "Cette entrée ne reprend pas le récit complet et renvoie à la version précédente, sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],
