@@ -9866,3 +9866,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0547 saves two private French drafts about Hafsa’s question and Ibn Umar’s conditional umra during the conflict at Mecca. Muslim 1230b and 1230d quote Quran 33:21; 1230c/e are incomplete variants. All four remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1231–1234a
+
+- FR-LIB-HAD-MUSLIM-0548 saves five private French drafts about the forms of Hajj and the tawaf before the station at Arafat. Muslim 1234a directly quotes Quran 33:21 and remains blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
