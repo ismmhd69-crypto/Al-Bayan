@@ -5551,3 +5551,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1081 saves six private French drafts about images and riding, retaining the narrator detail and the Fadak covering description.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,981 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 753. Total local hadith rows not drafted: 9,648, including held records.
+
+### 2026-10-29: Bukhari 5965–5970
+
+- FR-LIB-HAD-BUKHARI-1082 saves six private French drafts about riding and the rights of Allah and His servants, preserving the reported uncertainty about the two boys in 5966.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,987 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 753. Total local hadith rows not drafted: 9,642, including held records.
