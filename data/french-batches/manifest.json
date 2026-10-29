@@ -14024,6 +14024,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-631",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-631.json",
+      "sourceIds": [
+        "4d0d537e-c93d-4876-8067-962c447d711d",
+        "ba6b631c-e7cf-4268-b420-b22f24827f09",
+        "fb45578e-6f65-4171-93f6-13738f9589db",
+        "bb9170ec-2989-4d47-bab1-d99a2271798c",
+        "2f5b45ff-1517-46d5-8ffc-eaabeb1b882f",
+        "aa0b93e8-8d4c-40ae-bdc1-2a95e08466d5"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -14117,8 +14138,14 @@
       "scope": "Sahih al-Bukhari 3581: final narrator variant فعرفنا من العرافة",
       "status": "blocked",
       "reason": "The final narrator variant is unclear in the local Arabic record. The full report remains blank in FR-LIB-HAD-BUKHARI-629 until its wording and referent are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3591-BAZIR",
+      "scope": "Sahih al-Bukhari 3591: phrase وهو هذا البارز / وهم أهل البازر",
+      "status": "blocked",
+      "reason": "The local source contains two unclear readings for the final term. The full report remains blank in FR-LIB-HAD-BUKHARI-631 until its wording and referent are confirmed."
     }  ],
-  "hadithBukhariDrafted": 3202,
-  "hadithLocalDrafted": 3202,
-  "hadithLocalRemaining": 11455
+  "hadithBukhariDrafted": 3207,
+  "hadithLocalDrafted": 3207,
+  "hadithLocalRemaining": 11450
 }

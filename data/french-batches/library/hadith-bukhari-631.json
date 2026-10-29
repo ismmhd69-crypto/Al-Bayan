@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-631",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:25:20.233Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4d0d537e-c93d-4876-8067-962c447d711d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3590",
+      "reference": "Sahih al-Bukhari, hadith 3590, book 61, باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "title": "باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنْ هَمَّامٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَقُومُ السَّاعَةُ حَتَّى تُقَاتِلُوا خُوزًا وَكَرْمَانَ مِنَ الأَعَاجِمِ، حُمْرَ الْوُجُوهِ، فُطْسَ الأُنُوفِ، صِغَارَ الأَعْيُنِ، وُجُوهُهُمُ الْمَجَانُّ الْمُطْرَقَةُ، نِعَالُهُمُ الشَّعَرُ ‏\"‏‏.‏ تَابَعَهُ غَيْرُهُ عَنْ عَبْدِ الرَّزَّاقِ‏.‏",
+      "source_hash_sha256": "4b3ffbc194874658421984d55d76954d2b0df2c04742768e7ffda7e8c6ee032b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète a dit : « L’Heure ne surviendra pas avant que vous ne combattiez les Khûz et les Kirmân, des peuples non arabes au visage rouge, au nez aplati et aux petits yeux, dont les visages ressemblent à des boucliers martelés et dont les sandales sont en poil. » Cette version a également été transmise par d’autres rapporteurs, d’après ‘Abd al-Razzâq.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ba6b631c-e7cf-4268-b420-b22f24827f09",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3591",
+      "reference": "Sahih al-Bukhari, hadith 3591, book 61, باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "title": "باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ قَالَ إِسْمَاعِيلُ أَخْبَرَنِي قَيْسٌ، قَالَ أَتَيْنَا أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ فَقَالَ صَحِبْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم ثَلاَثَ سِنِينَ لَمْ أَكُنْ فِي سِنِيَّ أَحْرَصَ عَلَى أَنْ أَعِيَ الْحَدِيثَ مِنِّي فِيهِنَّ سَمِعْتُهُ يَقُولُ وَقَالَ هَكَذَا بِيَدِهِ ‏\"‏ بَيْنَ يَدَىِ السَّاعَةِ تُقَاتِلُونَ قَوْمًا نِعَالُهُمُ الشَّعَرُ، وَهُوَ هَذَا الْبَارِزُ ‏\"‏‏.‏ وَقَالَ سُفْيَانُ مَرَّةً وَهُمْ أَهْلُ الْبَازَرِ‏.‏",
+      "source_hash_sha256": "d35fbbadf4bc266a6623114a8891a28a548596821a0de8a11a65254cbb97e97e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_uncertain_source_wording",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fb45578e-6f65-4171-93f6-13738f9589db",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3592",
+      "reference": "Sahih al-Bukhari, hadith 3592, book 61, باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "title": "باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرُ بْنُ حَازِمٍ، سَمِعْتُ الْحَسَنَ، يَقُولُ حَدَّثَنَا عَمْرُو بْنُ تَغْلِبَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ بَيْنَ يَدَىِ السَّاعَةِ تُقَاتِلُونَ قَوْمًا يَنْتَعِلُونَ الشَّعَرَ، وَتُقَاتِلُونَ قَوْمًا كَأَنَّ وُجُوهَهُمُ الْمَجَانُّ الْمُطْرَقَةُ ‏\"‏‏.‏",
+      "source_hash_sha256": "bc3e37e64f0fc4fc83ce8f03a53ba442aba6ad25bb634742855c5744b4845179",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Amr ibn Taghlib rapporte avoir entendu le Messager de Dieu dire : « Avant l’Heure, vous combattrez des gens qui portent des sandales en poil, et vous combattrez des gens dont les visages ressemblent à des boucliers martelés. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bb9170ec-2989-4d47-bab1-d99a2271798c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3593",
+      "reference": "Sahih al-Bukhari, hadith 3593, book 61, باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "title": "باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحَكَمُ بْنُ نَافِعٍ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي سَالِمُ بْنُ عَبْدِ اللَّهِ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ ـ رضى الله عنهما ـ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ تُقَاتِلُكُمُ الْيَهُودُ فَتُسَلَّطُونَ عَلَيْهِمْ ثُمَّ يَقُولُ الْحَجَرُ يَا مُسْلِمُ، هَذَا يَهُودِيٌّ وَرَائِي فَاقْتُلْهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "d6c448f1982c9551ebd14d9e250e19ebf4a7da89fb0052a774143e6e8a84d67c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn ‘Umar rapporte avoir entendu le Messager de Dieu dire : « Les juifs vous combattront, puis vous prendrez le dessus sur eux. Alors une pierre dira : “Ô musulman, voici un juif qui se cache derrière moi ; tue-le.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2f5b45ff-1517-46d5-8ffc-eaabeb1b882f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3594",
+      "reference": "Sahih al-Bukhari, hadith 3594, book 61, باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "title": "باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ جَابِرٍ، عَنْ أَبِي سَعِيدٍ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ يَأْتِي عَلَى النَّاسِ زَمَانٌ يَغْزُونَ، فَيُقَالُ فِيكُمْ مَنْ صَحِبَ الرَّسُولَ صلى الله عليه وسلم فَيَقُولُونَ نَعَمْ‏.‏ فَيُفْتَحُ عَلَيْهِمْ، ثُمَّ يَغْزُونَ فَيُقَالُ لَهُمْ هَلْ فِيكُمْ مَنْ صَحِبَ مَنْ صَحِبَ الرَّسُولَ صلى الله عليه وسلم فَيَقُولُونَ نَعَمْ‏.‏ فَيُفْتَحُ لَهُمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "0f257c7306b94eebe6c36dc013610396a89c2520b8013a6cdecf3c0072c42550",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Sa‘îd rapporte que le Prophète a dit : « Un temps viendra où des gens partiront en expédition. On leur demandera : “Y a-t-il parmi vous quelqu’un qui a accompagné le Messager de Dieu ?” Ils répondront : “Oui”, et la victoire leur sera accordée. Puis d’autres partiront en expédition et on leur demandera : “Y a-t-il parmi vous quelqu’un qui a accompagné un compagnon du Messager de Dieu ?” Ils répondront : “Oui”, et la victoire leur sera accordée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aa0b93e8-8d4c-40ae-bdc1-2a95e08466d5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3595",
+      "reference": "Sahih al-Bukhari, hadith 3595, book 61, باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "title": "باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْحَكَمِ، أَخْبَرَنَا النَّضْرُ، أَخْبَرَنَا إِسْرَائِيلُ، أَخْبَرَنَا سَعْدٌ الطَّائِيُّ، أَخْبَرَنَا مُحِلُّ بْنُ خَلِيفَةَ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ بَيْنَا أَنَا عِنْدَ النَّبِيِّ، صلى الله عليه وسلم إِذْ أَتَاهُ رَجُلٌ فَشَكَا إِلَيْهِ الْفَاقَةَ، ثُمَّ أَتَاهُ آخَرُ، فَشَكَا قَطْعَ السَّبِيلِ‏.‏ فَقَالَ ‏\"‏ يَا عَدِيُّ هَلْ رَأَيْتَ الْحِيرَةَ ‏\"‏‏.‏ قُلْتُ لَمْ أَرَهَا وَقَدْ أُنْبِئْتُ عَنْهَا‏.‏ قَالَ ‏\"‏ فَإِنْ طَالَتْ بِكَ حَيَاةٌ لَتَرَيَنَّ الظَّعِينَةَ تَرْتَحِلُ مِنَ الْحِيرَةِ، حَتَّى تَطُوفَ بِالْكَعْبَةِ، لاَ تَخَافُ أَحَدًا إِلاَّ اللَّهَ ‏\"‏ ـ قُلْتُ فِيمَا بَيْنِي وَبَيْنَ نَفْسِي فَأَيْنَ دُعَّارُ طَيِّئٍ الَّذِينَ قَدْ سَعَّرُوا الْبِلاَدَ ‏\"‏ وَلَئِنْ طَالَتْ بِكَ حَيَاةٌ لَتُفْتَحَنَّ كُنُوزُ كِسْرَى ‏\"‏‏.‏ قُلْتُ كِسْرَى بْنِ هُرْمُزَ قَالَ ‏\"‏ كِسْرَى بْنِ هُرْمُزَ، وَلَئِنْ طَالَتْ بِكَ حَيَاةٌ، لَتَرَيَنَّ الرَّجُلَ يُخْرِجُ مِلْءَ كَفِّهِ مِنْ ذَهَبٍ أَوْ فِضَّةٍ، يَطْلُبُ مَنْ يَقْبَلُهُ مِنْهُ، فَلاَ يَجِدُ أَحَدًا يَقْبَلُهُ مِنْهُ، وَلَيَلْقَيَنَّ اللَّهَ أَحَدُكُمْ يَوْمَ يَلْقَاهُ، وَلَيْسَ بَيْنَهُ وَبَيْنَهُ تُرْجُمَانٌ يُتَرْجِمُ لَهُ‏.‏ فَيَقُولَنَّ أَلَمْ أَبْعَثْ إِلَيْكَ رَسُولاً فَيُبَلِّغَكَ فَيَقُولُ بَلَى‏.‏ فَيَقُولُ أَلَمْ أُعْطِكَ مَالاً وَأُفْضِلْ عَلَيْكَ فَيَقُولُ بَلَى‏.‏ فَيَنْظُرُ عَنْ يَمِينِهِ فَلاَ يَرَى إِلاَّ جَهَنَّمَ، وَيَنْظُرُ عَنْ يَسَارِهِ فَلاَ يَرَى إِلاَّ جَهَنَّمَ ‏\"‏‏.‏ قَالَ عَدِيٌّ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ اتَّقُوا النَّارَ وَلَوْ بِشِقَّةِ تَمْرَةٍ، فَمَنْ لَمْ يَجِدْ شِقَّةَ تَمْرَةٍ فَبِكَلِمَةٍ طَيِّبَةٍ ‏\"‏‏.‏ قَالَ عَدِيٌّ فَرَأَيْتُ الظَّعِينَةَ تَرْتَحِلُ مِنَ الْحِيرَةِ حَتَّى تَطُوفَ بِالْكَعْبَةِ، لاَ تَخَافُ إِلاَّ اللَّهَ، وَكُنْتُ فِيمَنِ افْتَتَحَ كُنُوزَ كِسْرَى بْنِ هُرْمُزَ، وَلَئِنْ طَالَتْ بِكُمْ حَيَاةٌ لَتَرَوُنَّ مَا قَالَ النَّبِيُّ أَبُو الْقَاسِمِ صلى الله عليه وسلم ‏\"‏ يُخْرِجُ مِلْءَ كَفِّهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "af5dc7dbeeaef1c75f65797dd73def00000fb85421a44a7e4363542f754162f0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Adî ibn Hâtim rapporte : « J’étais auprès du Prophète lorsqu’un homme vint se plaindre de la pauvreté, puis un autre vint se plaindre des brigands qui rendaient les routes dangereuses. Le Prophète me demanda : “As-tu vu al-Hîra ?” Je répondis : “Non, mais on m’en a parlé.” Il dit : “Si tu vis assez longtemps, tu verras une femme voyager d’al-Hîra jusqu’à faire le tour de la Ka‘ba, sans craindre personne d’autre que Dieu.” Je me dis en moi-même : “Où seront donc les brigands de Tayy, qui ont semé le désordre dans le pays ?” Il poursuivit : “Si tu vis assez longtemps, les trésors de Chosroès seront conquis.” Je demandai : “Chosroès, fils d’Hurmuz ?” Il répondit : “Oui, Chosroès, fils d’Hurmuz. Et si tu vis assez longtemps, tu verras un homme sortir une pleine poignée d’or ou d’argent et chercher quelqu’un qui l’accepte, sans trouver personne. Chacun de vous rencontrera Dieu sans interprète entre lui et son Seigneur. Dieu lui dira : ‘Ne t’ai-Je pas envoyé un messager pour te transmettre Mon message ?’ Il répondra : ‘Si.’ Dieu dira : ‘Ne t’ai-Je pas donné des biens et accordé Mes bienfaits ?’ Il répondra : ‘Si.’ Il regardera alors à sa droite et ne verra que l’Enfer, puis à sa gauche et ne verra que l’Enfer.” » ‘Adî rapporte aussi avoir entendu le Prophète dire : « Préservez-vous du Feu, ne serait-ce qu’en donnant la moitié d’une datte ; si vous ne trouvez pas même cela, faites-le par une bonne parole. » ‘Adî ajouta : « J’ai vu une femme voyager d’al-Hîra jusqu’à faire le tour de la Ka‘ba sans craindre personne d’autre que Dieu. J’étais parmi ceux qui ont conquis les trésors de Chosroès, fils d’Hurmuz. Si vous vivez assez longtemps, vous verrez ce qu’a annoncé le Prophète Abû al-Qâsim : un homme sortira une pleine poignée de richesses. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ba6b631c-e7cf-4268-b420-b22f24827f09",
+      "reference": "Sahih al-Bukhari, hadith 3591",
+      "reason": "The local Arabic has the unclear phrase وهو هذا البارز, with a variant reading وهم أهل البازر. Keep the entire report blank until the wording and referent are confirmed."
+    }
+  ]
+}
