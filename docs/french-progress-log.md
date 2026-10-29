@@ -1791,3 +1791,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-375` saves six private French drafts for Bukhari 2201 and 2203–2207. It preserves the report’s examples of muzâbana and the pollination condition for date palms.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,010 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,619, including held records.
+
+### 2026-10-29: Bukhari 2208–2213 source review
+
+- `FR-LIB-HAD-BUKHARI-376` saves five private French drafts for Bukhari 2208–2211 and 2213. Bukhari 2212 directly quotes Quran 4:6; its entire French report remains blank and Needs Mo pending an approved, attributed French Quran translation.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,015 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,614, including held records.
