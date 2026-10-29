@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0290",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:04:56.467Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7234c8ba-73a0-4d3d-849e-05ffbae30b13",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:687b",
+      "reference": "Sahih Muslim, hadith 687 b, book 6, باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "title": "باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، جَمِيعًا عَنِ الْقَاسِمِ بْنِ مَالِكٍ، - قَالَ عَمْرٌو حَدَّثَنَا قَاسِمُ بْنُ مَالِكٍ الْمُزَنِيُّ، - حَدَّثَنَا أَيُّوبُ بْنُ عَائِذٍ الطَّائِيُّ، عَنْ بُكَيْرِ بْنِ الأَخْنَسِ، عَنْ مُجَاهِدٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ إِنَّ اللَّهَ فَرَضَ الصَّلاَةَ عَلَى لِسَانِ نَبِيِّكُمْ صلى الله عليه وسلم عَلَى الْمُسَافِرِ رَكْعَتَيْنِ وَعَلَى الْمُقِيمِ أَرْبَعًا وَفِي الْخَوْفِ رَكْعَةً ‏.‏",
+      "source_hash_sha256": "0ddf9fb2f4ec85a1c51b5f0e14bde62f4b90c4ca196c6047c990b9e9ed74b844",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et ‘Amr al-Naqid nous ont rapporté, tous deux d’après al-Qasim ibn Malik — ‘Amr précisant : Qasim ibn Malik al-Muzani nous a rapporté — : Ayyub ibn ‘A’idh al-Ta’i nous a rapporté, d’après Bukayr ibn al-Akhnas, d’après Mujahid, d’après Ibn ‘Abbas. Il dit : « Allah a prescrit, par l’intermédiaire de votre Prophète ﷺ, deux unités de prière pour le voyageur, quatre pour le résident et une en situation de peur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9a732885-f29d-4c97-8867-bafc84b41ea9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:688a",
+      "reference": "Sahih Muslim, hadith 688 a, book 6, باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "title": "باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ مُوسَى بْنِ سَلَمَةَ الْهُذَلِيِّ، قَالَ سَأَلْتُ ابْنَ عَبَّاسٍ كَيْفَ أُصَلِّي إِذَا كُنْتُ بِمَكَّةَ إِذَا لَمْ أُصَلِّ مَعَ الإِمَامِ ‏.‏ فَقَالَ رَكْعَتَيْنِ سُنَّةَ أَبِي الْقَاسِمِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "fe1050051dc8eb3a2b7c3b4a2521ce94c55b32890c5852db180639584db66f9c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté. Il dit : J’ai entendu Qatada rapporter d’après Musa ibn Salama al-Hudhali. Il dit : « Je demandai à Ibn ‘Abbas : “Comment dois-je prier lorsque je suis à La Mecque, si je ne prie pas avec l’imam ?” Il répondit : “Deux unités, conformément à la pratique d’Abu al-Qasim ﷺ.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5be10cf4-7518-44bd-8096-ae58b7ae1f32",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:688b",
+      "reference": "Sahih Muslim, hadith 688 b, book 6, باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "title": "باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ مِنْهَالٍ الضَّرِيرُ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا سَعِيدُ بْنُ أَبِي عَرُوبَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنَا أَبِي جَمِيعًا، عَنْ قَتَادَةَ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "4596722098ef2cdc8dc7506bc6618c1956a5c8461451558b8f3e64d3211219e1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d50e4ef5-94f5-482e-a34d-2c289cefd248",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:689a",
+      "reference": "Sahih Muslim, hadith 689 a, book 6, باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "title": "باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا عِيسَى بْنُ حَفْصِ بْنِ عَاصِمِ بْنِ عُمَرَ بْنِ الْخَطَّابِ، عَنْ أَبِيهِ، قَالَ صَحِبْتُ ابْنَ عُمَرَ فِي طَرِيقِ مَكَّةَ - قَالَ - فَصَلَّى لَنَا الظُّهْرَ رَكْعَتَيْنِ ثُمَّ أَقْبَلَ وَأَقْبَلْنَا مَعَهُ حَتَّى جَاءَ رَحْلَهُ وَجَلَسَ وَجَلَسْنَا مَعَهُ فَحَانَتْ مِنْهُ الْتِفَاتَةٌ نَحْوَ حَيْثُ صَلَّى فَرَأَى نَاسًا قِيَامًا فَقَالَ مَا يَصْنَعُ هَؤُلاَءِ قُلْتُ يُسَبِّحُونَ ‏.‏ قَالَ لَوْ كُنْتُ مُسَبِّحًا لأَتْمَمْتُ صَلاَتِي يَا ابْنَ أَخِي إِنِّي صَحِبْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فِي السَّفَرِ فَلَمْ يَزِدْ عَلَى رَكْعَتَيْنِ حَتَّى قَبَضَهُ اللَّهُ وَصَحِبْتُ أَبَا بَكْرٍ فَلَمْ يَزِدْ عَلَى رَكْعَتَيْنِ حَتَّى قَبَضَهُ اللَّهُ وَصَحِبْتُ عُمَرَ فَلَمْ يَزِدْ عَلَى رَكْعَتَيْنِ حَتَّى قَبَضَهُ اللَّهُ ثُمَّ صَحِبْتُ عُثْمَانَ فَلَمْ يَزِدْ عَلَى رَكْعَتَيْنِ حَتَّى قَبَضَهُ اللَّهُ وَقَدْ قَالَ اللَّهُ ‏[quran sura=\"33\" aya_start=\"21\" aya_end=\"21\"]{‏ لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ‏}‏ ‏.‏",
+      "source_hash_sha256": "906460c992e86e49a4cbe2e74c266001e9936abb435598eb09ded0faf4711d8c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "58cf6f1b-96e7-4bb9-8117-8c4655647295",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:689b",
+      "reference": "Sahih Muslim, hadith 689 b, book 6, باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "title": "باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَزِيدُ، - يَعْنِي ابْنَ زُرَيْعٍ - عَنْ عُمَرَ بْنِ مُحَمَّدٍ، عَنْ حَفْصِ بْنِ عَاصِمٍ، قَالَ مَرِضْتُ مَرَضًا فَجَاءَ ابْنُ عُمَرَ يَعُودُنِي قَالَ وَسَأَلْتُهُ عَنِ السُّبْحَةِ، فِي السَّفَرِ فَقَالَ صَحِبْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فِي السَّفَرِ فَمَا رَأَيْتُهُ يُسَبِّحُ وَلَوْ كُنْتُ مُسَبِّحًا لأَتْمَمْتُ وَقَدْ قَالَ اللَّهُ تَعَالَى ‏[quran sura=\"33\" aya_start=\"21\" aya_end=\"21\"]{‏ لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ إِسْوَةٌ حَسَنَةٌ‏}‏",
+      "source_hash_sha256": "1626f82d9a69ed103368c9378464113e5806de071063c2ce7b40b935c8596854",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "677090a3-613e-4fa7-b31e-db0fd31e7efb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:690a",
+      "reference": "Sahih Muslim, hadith 690 a, book 6, باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "title": "باب صَلاَةِ الْمُسَافِرِينَ وَقَصْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا خَلَفُ بْنُ هِشَامٍ، وَأَبُو الرَّبِيعِ الزَّهْرَانِيُّ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، قَالُوا حَدَّثَنَا حَمَّادٌ، وَهُوَ ابْنُ زَيْدٍ ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَيَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالاَ حَدَّثَنَا إِسْمَاعِيلُ، كِلاَهُمَا عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَنَسٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم صَلَّى الظُّهْرَ بِالْمَدِينَةِ أَرْبَعًا وَصَلَّى الْعَصْرَ بِذِي الْحُلَيْفَةِ رَكْعَتَيْنِ ‏.‏",
+      "source_hash_sha256": "2d7451d62a5b4e5786a0aea67c636ec4ff4f87ea8fae449b1f4c07b6e94a77aa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Maslama ibn Qa‘nab nous a rapporté : ‘Isa ibn Hafs ibn ‘Asim ibn ‘Umar ibn al-Khattab nous a rapporté, d’après son père. Il dit : « J’accompagnai Ibn ‘Umar sur la route de La Mecque. Il accomplit avec nous la prière de midi en deux unités. Puis il se dirigea vers son campement, et nous l’accompagnâmes. Il s’assit et nous nous assîmes avec lui. Il jeta un regard vers l’endroit où il avait prié et vit des gens debout. Il demanda : “Que font ces gens ?” Je répondis : “Ils accomplissent des prières surérogatoires.” Il dit : “Si je devais accomplir des prières surérogatoires, j’aurais complété ma prière. Mon neveu, j’ai accompagné le Messager d’Allah ﷺ en voyage et il n’a jamais dépassé deux unités jusqu’à ce qu’Allah le rappelle à Lui. J’ai accompagné Abu Bakr, et il n’a jamais dépassé deux unités jusqu’à ce qu’Allah le rappelle à Lui. J’ai accompagné ‘Umar, et il n’a jamais dépassé deux unités jusqu’à ce qu’Allah le rappelle à Lui. Puis j’ai accompagné ‘Uthman, et il n’a jamais dépassé deux unités jusqu’à ce qu’Allah le rappelle à Lui.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "5be10cf4-7518-44bd-8096-ae58b7ae1f32",
+      "reason": "La source arabe ne rapporte que les chaînes de transmission et renvoie à la version précédente sans reprendre le texte. Garder la traduction française vide jusqu’à disponibilité d’un récit complet vérifié."
+    },
+    {
+      "source_id": "d50e4ef5-94f5-482e-a34d-2c289cefd248",
+      "reason": "Ce récit cite directement le verset 33:21 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "58cf6f1b-96e7-4bb9-8117-8c4655647295",
+      "reason": "Ce récit cite directement le verset 33:21 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}

@@ -35007,6 +35007,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0290",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0290.json",
+      "sourceIds": [
+        "7234c8ba-73a0-4d3d-849e-05ffbae30b13",
+        "9a732885-f29d-4c97-8867-bafc84b41ea9",
+        "5be10cf4-7518-44bd-8096-ae58b7ae1f32",
+        "d50e4ef5-94f5-482e-a34d-2c289cefd248",
+        "58cf6f1b-96e7-4bb9-8117-8c4655647295",
+        "677090a3-613e-4fa7-b31e-db0fd31e7efb"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete variant and two Quran quotations held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39314,8 +39335,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7485,
-  "hadithLocalRemaining": 7144,
+  "hadithLocalDrafted": 7488,
+  "hadithLocalRemaining": 7141,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41164,10 +41185,28 @@
       "scope": "Sahih Muslim 686b: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source arabe rapporte uniquement la chaîne de transmission et renvoie au récit précédent sans en reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0290-688B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 688b: incomplete variant report",
+      "status": "blocked",
+      "reason": "La source arabe ne rapporte que les chaînes de transmission et renvoie à la version précédente sans reprendre le texte. Garder la traduction française vide jusqu’à disponibilité d’un récit complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0290-689A-QURAN-33-21",
+      "scope": "Sahih Muslim 689a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 33:21 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-0290-689B-QURAN-33-21",
+      "scope": "Sahih Muslim 689b: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 33:21 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 1149,
-  "hadithDatabaseMissing": 7144,
+  "hadithMuslimDrafted": 1152,
+  "hadithDatabaseMissing": 7141,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 544
+  "hadithNeedsMo": 547
 }
