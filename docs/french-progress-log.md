@@ -10236,3 +10236,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0621 saves five private French drafts about the Prophet’s visits to Quba, including the report that he prayed two units there. Muslim 1399d only refers to another chain and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1399g–1400c
+
+- FR-LIB-HAD-MUSLIM-0622 saves four private French drafts about visiting Quba and the Prophet’s advice to young people about marriage and fasting. Muslim 1399i and 1400b contain only an omission note or a reference to earlier wording and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
