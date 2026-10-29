@@ -17142,6 +17142,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-790",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-790.json",
+      "sourceIds": [
+        "f613068b-ed99-4145-aed4-f32cd2b126fb",
+        "150f15f3-cc34-4846-91bb-e6fb8779cd1e",
+        "868a2b89-3729-415e-aed6-0777b565e35d",
+        "833b4b9f-98c5-4626-b19d-fd4b928c3ccf",
+        "cb337e8d-6067-4692-86d6-10bafde9fbed",
+        "1d2bd4b8-e366-403b-a7e6-91e163b8c1ab"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17624,9 +17645,15 @@
       "scope": "Sahih al-Bukhari 4353: source phrase فَإِنَّ مَعَنَا أَهْلَكَ",
       "status": "blocked",
       "reason": "The source phrase appears anomalous and differs from the parallel wording in Bukhari 4352. The complete report remains blank in FR-LIB-HAD-BUKHARI-788 pending source-text confirmation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4364-QURAN-4-176",
+      "scope": "Sahih al-Bukhari 4364: direct quotation of Quran 4:176",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:176. The complete record remains blank in FR-LIB-HAD-BUKHARI-790 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3843,
-  "hadithLocalDrafted": 3843,
-  "hadithLocalRemaining": 10814
+  "hadithBukhariDrafted": 3848,
+  "hadithLocalDrafted": 3848,
+  "hadithLocalRemaining": 10809
 }
