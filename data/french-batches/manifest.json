@@ -18046,6 +18046,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-835",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-835.json",
+      "sourceIds": [
+        "cb93139f-5674-42cb-b8bf-96e81a50b3dc",
+        "d6acd764-a6d5-4caa-b2a9-d9de8ea13fe6",
+        "a00f16ec-d8c7-4f0a-9bf8-57688f07dc41",
+        "f01ab46a-6d86-4ecf-8f64-ef3dcbdbf649",
+        "a51c47b4-b052-4907-a681-2cf1e4a0b326",
+        "fc2bf0c5-ae87-4811-abe0-803eb71987b9"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19110,9 +19131,27 @@
       "scope": "Sahih al-Bukhari 4605: direct Quranic phrase يستفتونك",
       "status": "blocked",
       "reason": "Le rapport comprend le début coranique « يستفتونك ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-834, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4606-QURAN-5-3",
+      "scope": "Sahih al-Bukhari 4606: direct quotation of Quran 5:3",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 5:3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-835, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4608-QURAN-5-6",
+      "scope": "Sahih al-Bukhari 4608: direct quotation of Quran 5:6",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 5:6. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-835, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4609-QURAN-5-24",
+      "scope": "Sahih al-Bukhari 4609: direct quotation of Quran 5:24",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 5:24. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-835, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3974,
-  "hadithLocalDrafted": 3974,
-  "hadithLocalRemaining": 10683
+  "hadithBukhariDrafted": 3977,
+  "hadithLocalDrafted": 3977,
+  "hadithLocalRemaining": 10680
 }
