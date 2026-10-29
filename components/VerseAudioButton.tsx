@@ -81,7 +81,7 @@ export default function VerseAudioButton({ verseKey, language }: { verseKey: str
 
 /** The verse's Arabic. While its recitation plays (or is paused part-way), it shows Quran Foundation's
  * words with the recited word highlighted; otherwise the original text is shown unchanged. */
-export function RecitedVerse({ verseKey, children }: { verseKey: string; children: ReactNode }) {
+export function RecitedVerse({ verseKey, children, standalone = false }: { verseKey: string; children?: ReactNode; standalone?: boolean }) {
   const [words, setWords] = useState<Recitation["words"] | null>(null);
   const [position, setPosition] = useState<number | null>(null);
   useEffect(() => {
@@ -95,5 +95,7 @@ export function RecitedVerse({ verseKey, children }: { verseKey: string; childre
     return () => window.removeEventListener(EVENT, on);
   }, [verseKey]);
   if (!words) return <>{children}</>;
-  return <>{words.map((w, i) => <span key={w.position}>{i > 0 && " "}<span className={`recited-word${w.position === position ? " recited-word--now" : ""}`}>{w.text}</span></span>)}</>;
+  const recited = words.map((w, i) => <span key={w.position}>{i > 0 && " "}<span className={`recited-word${w.position === position ? " recited-word--now" : ""}`}>{w.text}</span></span>);
+  // Standalone: where only a translation is shown, the Arabic appears above it while it is recited.
+  return standalone ? <p lang="ar" dir="rtl" className="recited-verse">{recited}</p> : <>{recited}</>;
 }

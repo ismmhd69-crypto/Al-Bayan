@@ -108,9 +108,13 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
               ? <RecitedVerse verseKey={e.key}><VerifiedText id={`${section.group}-original-${id}`}>{e.arabic}</VerifiedText></RecitedVerse>
               : <VerifiedText id={`${section.group}-original-${id}`}>{e.arabic}</VerifiedText>}</p>}
             {language !== "ar" && ((e.kind === "scholar" || hasDisplayTranslation(source)) ? tr?.status === "ready" ? tr.text : null : e.translation) && <p lang={language} dir="ltr"><VerifiedText id={`${section.group}-translation-${id}`}>{((e.kind === "scholar" || hasDisplayTranslation(source)) ? tr?.status === "ready" ? tr.text : "" : e.translation) ?? ""}</VerifiedText></p>}
-          </> : <p className={styles.preview} lang={previewLanguage(source, language)} dir="auto">
-            {displayedSourceText(source, 230)}
-          </p>}
+          </> : <>
+            {e.kind === "quran" && previewLanguage(source, language) !== "ar" && <RecitedVerse verseKey={e.key} standalone />}
+            <p className={styles.preview} lang={previewLanguage(source, language)} dir="auto">
+            {e.kind === "quran" && previewLanguage(source, language) === "ar"
+              ? <RecitedVerse verseKey={e.key}>{displayedSourceText(source, 230)}</RecitedVerse>
+              : displayedSourceText(source, 230)}
+          </p></>}
           <details><summary>{t.original}</summary><blockquote lang="ar" dir="rtl">{e.arabic}</blockquote>
             {e.kind === "hadith" && hasDisplayTranslation(source) && tr?.status === "ready" && <p lang={tr.language} dir="ltr">{tr.text}</p>}
             {e.kind !== "scholar" && !hasDisplayTranslation(source) && (e.translation ? <><p lang={e.kind === "hadith" ? e.translationLanguage ?? undefined : language} dir="auto">{e.translation}</p><small>{e.kind === "quran" ? e.translationName : e.translationLanguage?.toUpperCase()}</small></> : language !== "ar" && <p>{t.missing}</p>)}

@@ -3855,3 +3855,9 @@ details[open] > summary .chev {
   color: var(--accent);
   box-shadow: 0 0 0 2px var(--tonal-bg);
 }
+
+.recited-verse {
+  margin: 0.4rem 0;
+  color: var(--ink);
+  line-height: 2;
+}

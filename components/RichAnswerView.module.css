@@ -177,8 +177,12 @@
   line-height: 1.6;
 }
 
+/* Source text was too faint to read (Mo, 2026-10-29): body colour, and full ink for Arabic. */
 .preview {
-  color: var(--ink-3);
+  color: var(--ink-2);
+}
+.preview:lang(ar) {
+  color: var(--ink);
 }
 
 .source summary {
