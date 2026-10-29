@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0245",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:46:17.173Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "76ced856-d527-4f99-96b0-553a0bbcefbc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:587",
+      "reference": "Sahih Muslim, hadith 587, book 5, باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "title": "باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ، قَالَ حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ عَائِشَةَ، قَالَتْ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَسْتَعِيذُ فِي صَلاَتِهِ مِنْ فِتْنَةِ الدَّجَّالِ ‏.‏",
+      "source_hash_sha256": "692ca4cc55efe8d63efc826af49bae19780bb16ad75551cea6a2dda89beb5614",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amr al-Naqid et Zuhayr ibn Harb nous ont rapporté : Ya‘qub ibn Ibrahim ibn Sa‘d nous a rapporté : mon père nous a rapporté, d’après Salih, d’après Ibn Shihab, qui dit : Urwa ibn al-Zubayr m’a rapporté qu’Aïcha dit : « J’ai entendu le Messager d’Allah ﷺ demander protection dans sa prière contre l’épreuve du Dajjal. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "21cbfac9-df71-48e8-809b-40868d08ec3f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:588a",
+      "reference": "Sahih Muslim, hadith 588 a, book 5, باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "title": "باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ الْجَهْضَمِيُّ، وَابْنُ، نُمَيْرٍ وَأَبُو كُرَيْبٍ وَزُهَيْرُ بْنُ حَرْبٍ جَمِيعًا عَنْ وَكِيعٍ، - قَالَ أَبُو كُرَيْبٍ حَدَّثَنَا وَكِيعٌ، - حَدَّثَنَا الأَوْزَاعِيُّ، عَنْ حَسَّانَ بْنِ عَطِيَّةَ، عَنْ مُحَمَّدِ بْنِ أَبِي عَائِشَةَ، عَنْ أَبِي هُرَيْرَةَ، وَعَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا تَشَهَّدَ أَحَدُكُمْ فَلْيَسْتَعِذْ بِاللَّهِ مِنْ أَرْبَعٍ يَقُولُ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ جَهَنَّمَ وَمِنْ عَذَابِ الْقَبْرِ وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2e7c1b4652d54029c7b86ff1efc34751b918e2d39f941bf3e9c3f7a9ecda2925",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nasr ibn Ali al-Jahdami, Ibn Numayr, Abu Kurayb et Zuhayr ibn Harb nous ont rapporté, tous d’après Waki‘. Abu Kurayb dit : Waki‘ nous a rapporté : al-Awza‘i nous a rapporté, d’après Hassan ibn Atiyya, d’après Muhammad ibn Abi Aïcha, d’après Abu Hurayra. (H) Yahya ibn Abi Kathir nous a rapporté, d’après Abu Salama, d’après Abu Hurayra, qui dit : Le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous achève le tashahhud, qu’il demande protection à Allah contre quatre choses et dise : “Ô Allah, je cherche refuge auprès de Toi contre le châtiment de l’Enfer, contre le châtiment de la tombe, contre les épreuves de la vie et de la mort, et contre le mal de l’épreuve du Messie Dajjal.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f75ddc62-c073-4bb6-b57b-4c0eadc2006e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:588b",
+      "reference": "Sahih Muslim, hadith 588 b, book 5, باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "title": "باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنِي الأَوْزَاعِيُّ، حَدَّثَنَا حَسَّانُ بْنُ عَطِيَّةَ، حَدَّثَنِي مُحَمَّدُ بْنُ أَبِي عَائِشَةَ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا فَرَغَ أَحَدُكُمْ مِنَ التَّشَهُّدِ الآخِرِ فَلْيَتَعَوَّذْ بِاللَّهِ مِنْ أَرْبَعٍ مِنْ عَذَابِ جَهَنَّمَ وَمِنْ عَذَابِ الْقَبْرِ وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَمِنْ شَرِّ الْمَسِيحِ الدَّجَّالِ ‏\"‏ ‏.‏ وَحَدَّثَنِيهِ الْحَكَمُ بْنُ مُوسَى، حَدَّثَنَا هِقْلُ بْنُ زِيَادٍ، ح قَالَ وَحَدَّثَنَا عَلِيُّ بْنُ خَشْرَمٍ، أَخْبَرَنَا عِيسَى، - يَعْنِي ابْنَ يُونُسَ - جَمِيعًا عَنِ الأَوْزَاعِيِّ، بِهَذَا الإِسْنَادِ وَقَالَ ‏\"‏ إِذَا فَرَغَ أَحَدُكُمْ مِنَ التَّشَهُّدِ ‏\"‏ ‏.‏ وَلَمْ يَذْكُرِ ‏\"‏ الآخِرَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5eb18045606f055dfbe8bdfbb7d19d18ba5192ae46cc071362547121be007e7a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : al-Walid ibn Muslim nous a rapporté : al-Awza‘i m’a rapporté : Hassan ibn Atiyya nous a rapporté : Muhammad ibn Abi Aïcha m’a rapporté avoir entendu Abu Hurayra dire : Le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous achève le dernier tashahhud, qu’il demande protection à Allah contre quatre choses : le châtiment de l’Enfer, le châtiment de la tombe, les épreuves de la vie et de la mort, et le mal du Messie Dajjal. » Al-Hakam ibn Musa me l’a également rapporté : Hiql ibn Ziyad nous a rapporté. (H) Ali ibn Khashram nous a rapporté : Isa — c’est-à-dire Ibn Yunus — nous a rapporté, tous deux d’après al-Awza‘i, avec cette même chaîne, en disant : « Lorsque l’un de vous achève le tashahhud », sans préciser « le dernier ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d42582b2-f5ba-4a80-90e4-51663ec99cfa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:588c",
+      "reference": "Sahih Muslim, hadith 588 c, book 5, باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "title": "باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ هِشَامٍ، عَنْ يَحْيَى، عَنْ أَبِي سَلَمَةَ، أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ نَبِيُّ اللَّهِ صلى الله عليه وسلم ‏\"‏ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ وَعَذَابِ النَّارِ وَفِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَشَرِّ الْمَسِيحِ الدَّجَّالِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "46d6420602037e2d3f14f931b0a3aa729f98d081c800a6c476f26a0a8594b63e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Ibn Abi Adi nous a rapporté, d’après Hisham, d’après Yahya, d’après Abu Salama, qui dit avoir entendu Abu Hurayra dire : Le Prophète d’Allah ﷺ disait : « Ô Allah, je cherche refuge auprès de Toi contre le châtiment de la tombe, le châtiment du Feu, les épreuves de la vie et de la mort, et le mal du Messie Dajjal. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f3c47054-b2dc-4f43-a1b6-fab50a5bad94",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:588d",
+      "reference": "Sahih Muslim, hadith 588 d, book 5, باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "title": "باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ عُوذُوا بِاللَّهِ مِنْ عَذَابِ اللَّهِ عُوذُوا بِاللَّهِ مِنْ عَذَابِ الْقَبْرِ عُوذُوا بِاللَّهِ مِنْ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ عُوذُوا بِاللَّهِ مِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ad2dfc71cd370a6031be4c3d1daaef515f1de9b057b00a340f8cf01a7b9bb8a3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abbad nous a rapporté : Sufyan nous a rapporté, d’après Amr, d’après Tawus, qui dit : « J’ai entendu Abu Hurayra dire : le Messager d’Allah ﷺ a dit : “Demandez protection à Allah contre le châtiment d’Allah. Demandez protection à Allah contre le châtiment de la tombe. Demandez protection à Allah contre l’épreuve du Messie Dajjal. Demandez protection à Allah contre les épreuves de la vie et de la mort.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "58373fc0-737c-49cb-a1ce-a4dd13ea9d18",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:588e",
+      "reference": "Sahih Muslim, hadith 588 e, book 5, باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "title": "باب مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلاَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "b64681929b43e012e63b61d87db4151bf72a19123ea3679a434cfce1abc90130",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "58373fc0-737c-49cb-a1ce-a4dd13ea9d18",
+      "reason": "La source donne seulement une chaîne de transmission et renvoie au même récit, sans en reprendre le texte. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
