@@ -11231,3 +11231,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0820 saves six private French drafts: the report on patience and the invocation at Uhud, three distinct invocations against the Confederates and their wording variants, the brief supplication on the day of Uhud, and the report disapproving the killing of women and children. Chains, names, conditions, and variant omissions/additions are retained.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1744b-1746b
+
+- FR-LIB-HAD-MUSLIM-0821 saves four private French drafts about the prohibition on killing women and children and distinct reports about night raids. Muslim 1746a and 1746b quote Qur’an 59:5 in Arabic; each entire French entry remains blank under Needs Mo until an attributed, authorized French Quran translation is confirmed.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.

@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0821",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:47:49.218Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a5123089-c2bd-44a6-b04d-411d4feb5639",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1744b",
+      "reference": "Sahih Muslim, hadith 1744 b, book 32, باب تَحْرِيمِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْحَرْبِ ‏‏",
+      "title": "باب تَحْرِيمِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْحَرْبِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، وَأَبُو أُسَامَةَ قَالاَ حَدَّثَنَا عُبَيْدُ، اللَّهِ بْنُ عُمَرَ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ وُجِدَتِ امْرَأَةٌ مَقْتُولَةً فِي بَعْضِ تِلْكَ الْمَغَازِي فَنَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ ‏.‏",
+      "source_hash_sha256": "ed7ddef9c1fe100d5bd8c11a0ce9df52861ea007172d0db6b45242c5306a9da1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Muhammad ibn Bishr et Abû Usâma nous ont rapporté. Tous deux ont dit : ‘Ubayd Allâh ibn ‘Umar nous a rapporté, d’après Nâfi‘, d’après Ibn ‘Umar, qui a dit : « Une femme fut retrouvée tuée lors de l’une de ces expéditions. Le Messager d’Allah interdit alors de tuer les femmes et les enfants. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "22876dfe-3d52-48ef-821c-3a008bdce192",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1745a",
+      "reference": "Sahih Muslim, hadith 1745 a, book 32, باب جَوَازِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْبَيَاتِ مِنْ غَيْرِ تَعَمُّدٍ ‏‏",
+      "title": "باب جَوَازِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْبَيَاتِ مِنْ غَيْرِ تَعَمُّدٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَسَعِيدُ بْنُ مَنْصُورٍ، وَعَمْرٌو النَّاقِدُ، جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، قَالَ يَحْيَى أَخْبَرَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ اللَّهِ، عَنِ ابْنِ عَبَّاسٍ، عَنِ الصَّعْبِ، بْنِ جَثَّامَةَ قَالَ سُئِلَ النَّبِيُّ صلى الله عليه وسلم عَنِ الذَّرَارِيِّ مِنَ الْمُشْرِكِينَ يُبَيَّتُونَ فَيُصِيبُونَ مِنْ نِسَائِهِمْ وَذَرَارِيِّهِمْ ‏.‏ فَقَالَ ‏\"‏ هُمْ مِنْهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c3bfc0525596750fd7967a395f0a2c352a348f549f9126cefa471c0fd8e81c54",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ, Sa‘îd ibn Mansûr et ‘Amr an-Nâqid nous ont rapporté, tous d’après Ibn ‘Uyayna. Yahyâ a dit : Sufyân ibn ‘Uyayna nous a rapporté, d’après az-Zuhrî, d’après ‘Ubayd Allâh, d’après Ibn ‘Abbâs, d’après as-Sa‘b ibn Jaththâma, qui a dit : « Le Prophète fut interrogé au sujet des enfants des associateurs, attaqués de nuit, alors que certaines de leurs femmes et de leurs enfants sont touchés. » Il répondit : « Ils font partie d’eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ef12b102-d497-43de-86f7-5a8c8c65dd70",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1745b",
+      "reference": "Sahih Muslim, hadith 1745 b, book 32, باب جَوَازِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْبَيَاتِ مِنْ غَيْرِ تَعَمُّدٍ ‏‏",
+      "title": "باب جَوَازِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْبَيَاتِ مِنْ غَيْرِ تَعَمُّدٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ، اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ عَنِ ابْنِ عَبَّاسٍ، عَنِ الصَّعْبِ بْنِ جَثَّامَةَ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّا نُصِيبُ فِي الْبَيَاتِ مِنْ ذَرَارِيِّ الْمُشْرِكِينَ قَالَ ‏\"‏ هُمْ مِنْهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8a69313548b8daf752f829f58107dc1bc4359a0e4fa69431bc97d1ba6ccaa964",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd ibn Humayd nous a rapporté : ‘Abd ar-Razzâq nous a informés : Ma‘mar nous a informés, d’après az-Zuhrî, d’après ‘Ubayd Allâh ibn ‘Abd Allâh ibn ‘Utba, d’après Ibn ‘Abbâs, d’après as-Sa‘b ibn Jaththâma, qui a dit : « Ô Messager d’Allah, lors des raids nocturnes, nous atteignons certains enfants des associateurs. » Il répondit : « Ils font partie d’eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b0c1e110-ddb4-4578-80ee-6b0f9889780d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1745c",
+      "reference": "Sahih Muslim, hadith 1745 c, book 32, باب جَوَازِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْبَيَاتِ مِنْ غَيْرِ تَعَمُّدٍ ‏‏",
+      "title": "باب جَوَازِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْبَيَاتِ مِنْ غَيْرِ تَعَمُّدٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي عَمْرُو، بْنُ دِينَارٍ أَنَّ ابْنَ شِهَابٍ، أَخْبَرَهُ عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنِ ابْنِ عَبَّاسٍ، عَنِ الصَّعْبِ بْنِ جَثَّامَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قِيلَ لَهُ لَوْ أَنَّ خَيْلاً أَغَارَتْ مِنَ اللَّيْلِ فَأَصَابَتْ مِنْ أَبْنَاءِ الْمُشْرِكِينَ قَالَ ‏\"‏ هُمْ مِنْ آبَائِهِمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "90b35b28f29ae690318c69b49b552b022558ae8846704124f53d58df5239ba66",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Râfi‘ m’a rapporté : ‘Abd ar-Razzâq nous a rapporté : Ibn Jurayj nous a informés : ‘Amr ibn Dînâr m’a informé qu’Ibn Shihâb lui avait rapporté, d’après ‘Ubayd Allâh ibn ‘Abd Allâh ibn ‘Utba, d’après Ibn ‘Abbâs, d’après as-Sa‘b ibn Jaththâma, que l’on demanda au Prophète : « Et si une cavalerie lançait un raid nocturne et atteignait certains fils des associateurs ? » Il répondit : « Ils font partie de leurs pères. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6581c3ef-70a4-4635-93c8-a4c4d485f45b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1746a",
+      "reference": "Sahih Muslim, hadith 1746 a, book 32, باب جَوَازِ قَطْعِ أَشْجَارِ الْكُفَّارِ وَتَحْرِيقِهَا ‏‏",
+      "title": "باب جَوَازِ قَطْعِ أَشْجَارِ الْكُفَّارِ وَتَحْرِيقِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَمُحَمَّدُ بْنُ رُمْحٍ، قَالاَ أَخْبَرَنَا اللَّيْثُ، ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ، سَعِيدٍ حَدَّثَنَا لَيْثٌ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حَرَّقَ نَخْلَ بَنِي النَّضِيرِ وَقَطَعَ وَهِيَ الْبُوَيْرَةُ ‏.‏ زَادَ قُتَيْبَةُ وَابْنُ رُمْحٍ فِي حَدِيثِهِمَا فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"59\" aya_start=\"5\" aya_end=\"5\"]{‏ مَا قَطَعْتُمْ مِنْ لِينَةٍ أَوْ تَرَكْتُمُوهَا قَائِمَةً عَلَى أُصُولِهَا فَبِإِذْنِ اللَّهِ وَلِيُخْزِيَ الْفَاسِقِينَ‏}‏",
+      "source_hash_sha256": "2ec34e0aec062c951f230aaf7b98076a42ff022139d83d09143a605ede871ef8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7804ecaf-db14-48f2-a321-3eb367b50ea9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1746b",
+      "reference": "Sahih Muslim, hadith 1746 b, book 32, باب جَوَازِ قَطْعِ أَشْجَارِ الْكُفَّارِ وَتَحْرِيقِهَا ‏‏",
+      "title": "باب جَوَازِ قَطْعِ أَشْجَارِ الْكُفَّارِ وَتَحْرِيقِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَهَنَّادُ بْنُ السَّرِيِّ، قَالاَ حَدَّثَنَا ابْنُ الْمُبَارَكِ، عَنْ مُوسَى، بْنِ عُقْبَةَ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَطَعَ نَخْلَ بَنِي النَّضِيرِ وَحَرَّقَ وَلَهَا يَقُولُ حَسَّانُ وَهَانَ عَلَى سَرَاةِ بَنِي لُؤَىٍّ حَرِيقٌ بِالْبُوَيْرَةِ مُسْتَطِيرُ وَفِي ذَلِكَ نَزَلَتْ ‏[quran sura=\"59\" aya_start=\"5\" aya_end=\"5\"]{‏ مَا قَطَعْتُمْ مِنْ لِينَةٍ أَوْ تَرَكْتُمُوهَا قَائِمَةً عَلَى أُصُولِهَا‏}‏ الآيَةَ ‏.‏",
+      "source_hash_sha256": "ad934ae1277ec284cf76a9d38c8a1d18ad625b7ab1663a03de7db71b93af6816",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6581c3ef-70a4-4635-93c8-a4c4d485f45b",
+      "reason": "Cette entrée contient une citation coranique en arabe (Coran 59:5). Aucune traduction française attribuée et autorisée n’est fournie dans cette entrée. Garder toute la traduction française vide jusqu’à ce qu’une traduction approuvée et son attribution soient confirmées.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7804ecaf-db14-48f2-a321-3eb367b50ea9",
+      "reason": "Cette entrée contient une citation coranique en arabe (Coran 59:5). Aucune traduction française attribuée et autorisée n’est fournie dans cette entrée. Garder toute la traduction française vide jusqu’à ce qu’une traduction approuvée et son attribution soient confirmées.",
+      "status": "blocked"
+    }
+  ]
+}
