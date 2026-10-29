@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5829,
+    "hadithBukhariDrafted": 5830,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5829,
+    "hadithLocalDrafted": 5830,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8800,
+    "hadithLocalRemaining": 8799,
     "hadithNeedsMo": 838,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -26823,6 +26823,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1269",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1269.json",
+      "sourceIds": [
+        "6264d582-38a0-4e5b-9e24-53c93c5bddc5"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One 2,392-character source isolated as a single-item batch; unnamed narrator and source-specific wording retained. Source hash and current French absence verified by read-only query. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -30241,9 +30257,9 @@
       "reason": "The report directly quotes Quran 6:82 and 31:13. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5829,
-  "hadithLocalDrafted": 5829,
-  "hadithLocalRemaining": 8800,
+  "hadithBukhariDrafted": 5830,
+  "hadithLocalDrafted": 5830,
+  "hadithLocalRemaining": 8799,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
