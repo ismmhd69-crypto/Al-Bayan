@@ -2966,3 +2966,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-610` saves five private French drafts about the end of prophethood, humility, and religious practice. Bukhari 3489 remains entirely blank because it directly quotes Quran 49:13; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,116 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 222. Total local hadith rows not drafted: 11,541, including held records.
+
+### 2026-10-29: Bukhari 3491–3498
+
+- `FR-LIB-HAD-BUKHARI-611` saves four private French drafts about the Prophet’s lineage and character. Bukhari 3497 remains blank because it directly quotes Quran 42:23. Bukhari 3498 remains blank because the exact meaning of الفدادين is not confirmed.
+- All six records passed the focused validator, including both holds. No database writes or publication occurred. Bukhari local drafts: 3,120 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 224. Total local hadith rows not drafted: 11,537, including held records.
