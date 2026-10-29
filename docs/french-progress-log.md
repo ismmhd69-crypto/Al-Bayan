@@ -10166,3 +10166,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0607 saves five private French drafts about Medina’s sacred boundaries, blessings, and related rulings. Muslim 1370b only gives additions and omissions by reference to the previous report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1370c–1372b
+
+- FR-LIB-HAD-MUSLIM-0608 saves four private French drafts about Medina’s sanctity, security guarantees, and its protected boundaries. Muslim 1370c and 1371b only refer to earlier reports and list wording variants, so they remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

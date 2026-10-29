@@ -41566,6 +41566,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0608",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0608.json",
+      "sourceIds": [
+        "15e65fc0-ece5-4857-89d8-42865bea1129",
+        "2dfa3afe-fe7b-4e71-92c9-6b3e60fbdb09",
+        "1402d365-df96-4164-bdd5-907592671cf5",
+        "4545867e-f6f9-434e-aef3-fb447837d557",
+        "3ec87cb1-ba4e-4887-9a00-6b3c314affbd",
+        "7584429b-a720-4d92-b471-1fb81edbb5bc"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two variant-only cross-references held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45873,8 +45894,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8756,
-  "hadithLocalRemaining": 5873,
+  "hadithLocalDrafted": 8760,
+  "hadithLocalRemaining": 5869,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49721,10 +49742,20 @@
       "source_id": "94a96f31-2402-4c59-b65d-6bab5ca0e4e0",
       "reason": "Cette entrée renvoie au rapport précédent et ne fournit que des ajouts et omissions de variante (« نَحْوَ حَدِيثِ ... وَزَادَ »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "15e65fc0-ece5-4857-89d8-42865bea1129",
+      "reason": "Cette entrée ne reprend pas le récit complet et renvoie au précédent en ne fournissant que des variantes de formulation et de contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "4545867e-f6f9-434e-aef3-fb447837d557",
+      "reason": "Cette entrée ne reprend pas le récit complet et renvoie au précédent en ne fournissant que des variantes de formulation et de contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2420,
+  "hadithMuslimDrafted": 2424,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1062
+  "hadithNeedsMo": 1064
 }
