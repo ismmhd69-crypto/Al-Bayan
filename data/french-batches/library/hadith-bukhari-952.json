@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-952",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:01:47.098Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2ddd9f6f-8105-4119-929b-527ae622039f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5204",
+      "reference": "Sahih al-Bukhari, hadith 5204, book 67, باب مَا يُكْرَهُ مِنْ ضَرْبِ النِّسَاءِ وَقَوْلِهِ ‏{‏وَاضْرِبُوهُنَّ‏}‏ ضَرْبًا غَيْرَ مُبَرِّحٍ‏.‏",
+      "title": "باب مَا يُكْرَهُ مِنْ ضَرْبِ النِّسَاءِ وَقَوْلِهِ ‏{‏وَاضْرِبُوهُنَّ‏}‏ ضَرْبًا غَيْرَ مُبَرِّحٍ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ زَمْعَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَجْلِدُ أَحَدُكُمُ امْرَأَتَهُ جَلْدَ الْعَبْدِ، ثُمَّ يُجَامِعُهَا فِي آخِرِ الْيَوْمِ ‏\"‏‏.‏",
+      "source_hash_sha256": "5e5816994c2323bd4d38eb4847d001f8192c56c46bc9cf0f01a5e8b9afab550b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn Zamʿa rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Que l’un de vous ne frappe pas sa femme comme il frappe un esclave, puis n’ait de rapports avec elle à la fin de la journée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ccd05443-ffca-4b4f-96db-8ca06fdc322f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5205",
+      "reference": "Sahih al-Bukhari, hadith 5205, book 67, باب لاَ تُطِيعُ الْمَرْأَةُ زَوْجَهَا فِي مَعْصِيَةٍ",
+      "title": "باب لاَ تُطِيعُ الْمَرْأَةُ زَوْجَهَا فِي مَعْصِيَةٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا خَلاَّدُ بْنُ يَحْيَى، حَدَّثَنَا إِبْرَاهِيمُ بْنُ نَافِعٍ، عَنِ الْحَسَنِ ـ هُوَ ابْنُ مُسْلِمٍ ـ عَنْ صَفِيَّةَ، عَنْ عَائِشَةَ، أَنَّ امْرَأَةً، مِنَ الأَنْصَارِ زَوَّجَتِ ابْنَتَهَا فَتَمَعَّطَ شَعَرُ رَأْسِهَا، فَجَاءَتْ إِلَى النَّبِيِّ صلى الله عليه وسلم فَذَكَرَتْ ذَلِكَ لَهُ، فَقَالَتْ إِنَّ زَوْجَهَا أَمَرَنِي أَنْ أَصِلَ فِي شَعَرِهَا‏.‏ فَقَالَ ‏\"‏ لاَ إِنَّهُ قَدْ لُعِنَ الْمُوصِلاَتُ ‏\"‏‏.‏",
+      "source_hash_sha256": "185888f312ad44d80aa2da734e9f22cf32ed05dcdfbdabbdf95ffdd446f79610",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte qu’une femme des Ansâr maria sa fille, dont les cheveux tombèrent. Elle vint trouver le Prophète et lui expliqua que le mari de sa fille lui avait demandé de lui ajouter des cheveux. Le Prophète répondit : « Non. Celles qui ajoutent des cheveux sont maudites. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c5afe421-601e-4762-88cf-68a30d2660ac",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5206",
+      "reference": "Sahih al-Bukhari, hadith 5206, book 67, باب ‏ {‏وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا}",
+      "title": "باب ‏ {‏وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ ابْنُ سَلاَمٍ، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ ‏[quran sura=\"4\" aya_start=\"128\" aya_end=\"128\"]{‏وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا‏}‏ قَالَتْ هِيَ الْمَرْأَةُ تَكُونُ عِنْدَ الرَّجُلِ، لاَ يَسْتَكْثِرُ مِنْهَا فَيُرِيدُ طَلاَقَهَا، وَيَتَزَوَّجُ غَيْرَهَا، تَقُولُ لَهُ أَمْسِكْنِي وَلاَ تُطَلِّقْنِي، ثُمَّ تَزَوَّجْ غَيْرِي، فَأَنْتَ فِي حِلٍّ مِنَ النَّفَقَةِ عَلَيَّ وَالْقِسْمَةِ لِي، فَذَلِكَ قَوْلُهُ تَعَالَى [quran sura=\"4\" aya_start=\"128\" aya_end=\"128\"]‏{‏فَلاَ جُنَاحَ عَلَيْهِمَا أَنْ يَصَّالَحَا بَيْنَهُمَا صُلْحًا وَالصُّلْحُ خَيْرٌ‏}‏",
+      "source_hash_sha256": "7d3ef9d790df60a49979dcbfd808850403dcb1dde099485d8ea8534368aae82f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5d0c8386-6b66-4606-85d3-7f95ef35c7cd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5207",
+      "reference": "Sahih al-Bukhari, hadith 5207, book 67, باب الْعَزْلِ",
+      "title": "باب الْعَزْلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ ابْنِ جُرَيْجٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، قَالَ كُنَّا نَعْزِلُ عَلَى عَهْدِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "6c99c9e9246ab3ab003de5357f2afa1a806440d7c45dbdc66e8422be8ae48ae3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte : « Du vivant du Prophète, nous pratiquions le coït interrompu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b208909b-f1ee-4a05-9833-efadc99226e3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5208",
+      "reference": "Sahih al-Bukhari, hadith 5208, 5209, book 67, باب الْعَزْلِ",
+      "title": "باب الْعَزْلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ عَمْرٌو أَخْبَرَنِي عَطَاءٌ، سَمِعَ جَابِرًا، رضى الله عنه قَالَ كُنَّا نَعْزِلُ وَالْقُرْآنُ يَنْزِلُ‏.‏ وَعَنْ عَمْرٍو، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، قَالَ كُنَّا نَعْزِلُ عَلَى عَهْدِ النَّبِيِّ صلى الله عليه وسلم وَالْقُرْآنُ يَنْزِلُ‏.‏",
+      "source_hash_sha256": "c4aad16ed5e4dee801766fe5b23587d462d7b3b6729d1e5795a728aca1c01288",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte : « Nous pratiquions le coït interrompu pendant que le Coran était révélé. » Dans une autre version, il dit : « Nous pratiquions le coït interrompu du vivant du Prophète, pendant que le Coran était révélé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a8c12066-e3d7-4afb-a903-9dc6653b5d3e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5210",
+      "reference": "Sahih al-Bukhari, hadith 5210, book 67, باب الْعَزْلِ",
+      "title": "باب الْعَزْلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدِ بْنِ أَسْمَاءَ، حَدَّثَنَا جُوَيْرِيَةُ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنِ الزُّهْرِيِّ، عَنِ ابْنِ مُحَيْرِيزٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ أَصَبْنَا سَبْيًا فَكُنَّا نَعْزِلُ فَسَأَلْنَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ أَوَإِنَّكُمْ لَتَفْعَلُونَ قَالَهَا ثَلاَثًا مَا مِنْ نَسَمَةٍ كَائِنَةٍ إِلَى يَوْمِ الْقِيَامَةِ إِلاَّ هِيَ كَائِنَةٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "e71f4a9a6a4597cfcfc13f0b17a96d2f28794e83fcafa3be7ff8aaf600f32015",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Saʿîd al-Khudrî rapporte : « Nous capturâmes des femmes et pratiquions le coït interrompu. Nous interrogeâmes le Messager d’Allah, qui demanda : “Faites-vous vraiment cela ?” Il répéta cette question trois fois, puis dit : “Il n’est pas une âme qui doive venir à l’existence jusqu’au Jour de la Résurrection qui ne viendra pas à l’existence.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c5afe421-601e-4762-88cf-68a30d2660ac",
+      "url": "https://sunnah.com/bukhari:5206",
+      "reason": "Le récit cite directement Quran 4:128. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-952, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
