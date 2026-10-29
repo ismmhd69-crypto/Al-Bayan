@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-705",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:05:43.981Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3181aaf1-2f91-4456-91dc-4e5ffceebfed",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3949",
+      "reference": "Sahih al-Bukhari, hadith 3949, book 64, باب غَزْوَةِ الْعُشَيْرَةِ أَوِ الْعُسَيْرَةِ",
+      "title": "باب غَزْوَةِ الْعُشَيْرَةِ أَوِ الْعُسَيْرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا وَهْبٌ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، كُنْتُ إِلَى جَنْبِ زَيْدِ بْنِ أَرْقَمَ، فَقِيلَ لَهُ كَمْ غَزَا النَّبِيُّ صلى الله عليه وسلم مِنْ غَزْوَةٍ قَالَ تِسْعَ عَشْرَةَ‏.‏ قِيلَ كَمْ غَزَوْتَ أَنْتَ مَعَهُ قَالَ سَبْعَ عَشْرَةَ‏.‏ قُلْتُ فَأَيُّهُمْ كَانَتْ أَوَّلَ قَالَ الْعُسَيْرَةُ أَوِ الْعُشَيْرُ‏.‏ فَذَكَرْتُ لِقَتَادَةَ فَقَالَ الْعُشَيْرُ‏.‏",
+      "source_hash_sha256": "91446230fa0d29a95fb9090ae58d39d0dbf1c4da304701e4ceb2b18d88722022",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Isḥâq rapporte : « J’étais assis à côté de Zayd ibn Arqam. On lui demanda : “Combien d’expéditions le Prophète a-t-il menées ?” Il répondit : “Dix-neuf.” On lui demanda : “Combien as-tu faites avec lui ?” Il répondit : “Dix-sept.” Je lui demandai : “Laquelle fut la première ?” Il répondit : “Al-ʿUsayra ou al-ʿUshayr.” J’en parlai à Qatâda, qui dit : “Al-ʿUshayr.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
