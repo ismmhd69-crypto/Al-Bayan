@@ -1,0 +1,111 @@
+{
+  "batch_id": "HADITH-BUKHARI-443",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:01:22.559Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cbd71b81-9348-478a-ab2f-263c4aa1467d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2577",
+      "reference": "Sahih al-Bukhari, hadith 2577, book 51, باب قَبُولِ الْهَدِيَّةِ",
+      "title": "باب قَبُولِ الْهَدِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ قَالَ أُتِيَ النَّبِيُّ صلى الله عليه وسلم بِلَحْمٍ فَقِيلَ تُصُدِّقَ عَلَى بَرِيرَةَ قَالَ ‏\"‏ هُوَ لَهَا صَدَقَةٌ، وَلَنَا هَدِيَّةٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "693258299000a4f6cf80cbdab2896db1b0b186c00d21d94a6b12d2fec72d60c3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Bashshâr, Ghundar, Shu‘ba, Qatâda et Anas ibn Mâlik.\n\nOn apporta de la viande au Prophète. On lui dit qu’elle avait été donnée en aumône à Barîra. Il répondit : « Pour elle, c’est une aumône ; pour nous, c’est un cadeau. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aafab242-b81e-4e73-9255-270e7b26fa80",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2578",
+      "reference": "Sahih al-Bukhari, hadith 2578, book 51, باب قَبُولِ الْهَدِيَّةِ",
+      "title": "باب قَبُولِ الْهَدِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْقَاسِمِ، قَالَ سَمِعْتُهُ مِنْهُ، عَنِ الْقَاسِمِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّهَا أَرَادَتْ أَنْ تَشْتَرِيَ بَرِيرَةَ، وَأَنَّهُمُ اشْتَرَطُوا وَلاَءَهَا، فَذُكِرَ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اشْتَرِيهَا فَأَعْتِقِيهَا، فَإِنَّمَا الْوَلاَءُ لِمَنْ أَعْتَقَ ‏\"‏‏.‏ وَأُهْدِيَ لَهَا لَحْمٌ، فَقِيلَ لِلنَّبِيِّ صلى الله عليه وسلم هَذَا تُصُدِّقَ عَلَى بَرِيرَةَ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ هُوَ لَهَا صَدَقَةٌ وَلَنَا هَدِيَّةٌ ‏\"‏‏.‏ وَخُيِّرَتْ‏.‏ قَالَ عَبْدُ الرَّحْمَنِ زَوْجُهَا حُرٌّ أَوْ عَبْدٌ قَالَ شُعْبَةُ سَأَلْتُ عَبْدَ الرَّحْمَنِ عَنْ زَوْجِهَا‏.‏ قَالَ لاَ أَدْرِي أَحُرٌّ أَمْ عَبْدٌ",
+      "source_hash_sha256": "05006ec6281369c4ecbb8782c2532b5b1163870c1f5fbd856e10721b8c0a7642",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Bashshâr, Ghundar, Shu‘ba, ‘Abd al-Rahmân ibn al-Qâsim, son père al-Qâsim et ‘Â’isha.\n\n‘Â’isha voulut acheter Barîra, mais ses propriétaires stipulèrent que le droit de clientèle lui reviendrait. On en informa le Prophète, qui dit : « Achète-la et affranchis-la, car le droit de clientèle revient à celui qui affranchit. » On offrit ensuite de la viande à Barîra. On dit au Prophète : « Cette viande a été donnée en aumône à Barîra. » Il répondit : « Pour elle, c’est une aumône ; pour nous, c’est un cadeau. » Barîra reçut aussi le choix de rester avec son mari ou de le quitter. ‘Abd al-Rahmân demanda si son mari était libre ou esclave. Shu‘ba dit avoir interrogé ‘Abd al-Rahmân à ce sujet ; celui-ci répondit qu’il ne savait pas si son mari était libre ou esclave.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3e059190-ff61-4252-a331-9801e7063278",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2579",
+      "reference": "Sahih al-Bukhari, hadith 2579, book 51, باب قَبُولِ الْهَدِيَّةِ",
+      "title": "باب قَبُولِ الْهَدِيَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ أَبُو الْحَسَنِ، أَخْبَرَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ خَالِدٍ الْحَذَّاءِ، عَنْ حَفْصَةَ بِنْتِ سِيرِينَ، عَنْ أُمِّ عَطِيَّةَ، قَالَتْ دَخَلَ النَّبِيُّ صلى الله عليه وسلم عَلَى عَائِشَةَ ـ رضى الله عنها ـ فَقَالَ ‏\"‏ عِنْدَكُمْ شَىْءٌ ‏\"‏‏.‏ قَالَتْ لاَ، إِلاَّ شَىْءٌ بَعَثَتْ بِهِ أُمُّ عَطِيَّةَ مِنَ الشَّاةِ الَّتِي بُعِثَ إِلَيْهَا مِنَ الصَّدَقَةِ‏.‏ قَالَ ‏\"‏ إِنَّهَا قَدْ بَلَغَتْ مَحِلَّهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "205bbf9ebdb61c5fba0dd192fc0e8af684430a0baa2d4317687976f8158c04ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Muqâtil, Khâlid ibn ‘Abd Allâh, Khâlid al-Hadhdhâ’, Hafsa bint Sîrîn et Umm ‘Atiyya.\n\nLe Prophète entra chez ‘Â’isha et demanda : « Avez-vous quelque chose à manger ? » Elle répondit : « Non, à part un morceau que m’a envoyé Umm ‘Atiyya de la brebis qui lui avait été donnée en aumône. » Il dit : « Elle est parvenue à son destinataire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a2b00dee-bfe0-4d0b-b671-89361da4c638",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2580",
+      "reference": "Sahih al-Bukhari, hadith 2580, book 51, باب مَنْ أَهْدَى إِلَى صَاحِبِهِ وَتَحَرَّى بَعْضَ نِسَائِهِ دُونَ بَعْضٍ",
+      "title": "باب مَنْ أَهْدَى إِلَى صَاحِبِهِ وَتَحَرَّى بَعْضَ نِسَائِهِ دُونَ بَعْضٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ النَّاسُ يَتَحَرَّوْنَ بِهَدَايَاهُمُ يَوْمِي‏.‏ وَقَالَتْ أُمُّ سَلَمَةَ إِنَّ صَوَاحِبِي اجْتَمَعْنَ‏.‏ فَذَكَرَتْ لَهُ، فَأَعْرَضَ عَنْهَا‏.‏",
+      "source_hash_sha256": "5c74cbe940012dddbed2585a91f2cb23d39c01dfab9fee1446856de98a39df68",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Sulaymân ibn Harb, Hammâd ibn Zayd, Hishâm, son père et ‘Â’isha.\n\n‘Â’isha a rapporté : « Les gens choisissaient le jour où le Messager d’Allah était chez moi pour lui faire parvenir leurs cadeaux. » Umm Salama dit : « Mes coépouses se sont réunies et lui en ont parlé, mais il s’est détourné de moi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
