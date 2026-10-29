@@ -2151,3 +2151,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-447` saves six private French drafts for Bukhari 2595–2600, covering neighborly gifts, gifts during pilgrimage, public trust, promised payments, clothing gifts, and expiation for intercourse during Ramadan.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,355 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,274, including held records.
+
+### 2026-10-29: Bukhari 2601–2606 source review
+
+- `FR-LIB-HAD-BUKHARI-448` saves six private French drafts for Bukhari 2601–2606, covering repayment of a deceased person’s debt, sharing a drink, repayment with an increase, and fair debt settlement.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,361 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,268, including held records.
