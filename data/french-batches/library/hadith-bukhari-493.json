@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-493",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:20:26.894Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a15c4c8c-2bf8-41a0-b4e4-f85efdbb6146",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2862",
+      "reference": "Sahih al-Bukhari, hadith 2862, book 56, باب الرُّكُوبِ عَلَى الدَّابَّةِ الصَّعْبَةِ وَالْفُحُولَةِ مِنَ الْخَيْلِ",
+      "title": "باب الرُّكُوبِ عَلَى الدَّابَّةِ الصَّعْبَةِ وَالْفُحُولَةِ مِنَ الْخَيْلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا شُعْبَةُ، عَنْ قَتَادَةَ، سَمِعْتُ أَنَسَ بْنَ مَالِكٍ ـ رضى الله عنه ـ قَالَ كَانَ بِالْمَدِينَةِ فَزَعٌ، فَاسْتَعَارَ النَّبِيُّ صلى الله عليه وسلم فَرَسًا لأَبِي طَلْحَةَ، يُقَالُ لَهُ مَنْدُوبٌ فَرَكِبَهُ، وَقَالَ ‏\"‏ مَا رَأَيْنَا مِنْ فَزَعٍ، وَإِنْ وَجَدْنَاهُ لَبَحْرًا ‏\"‏‏.‏",
+      "source_hash_sha256": "ff5f4d38ed25f2f4a202dffd5594a532af35128c1ce35d2213fd44c233f0b462",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ahmad ibn Muhammad, ‘Abd Allâh, Shu‘ba, Qatâda et Anas ibn Mâlik.\n\nAnas dit : « Un jour, les habitants de Médine furent effrayés. Le Prophète emprunta le cheval d’Abû Talha, appelé Mandûb, et le monta. À son retour, il dit : “Nous n’avons rien trouvé qui puisse nous effrayer, et nous avons découvert que c’était un cheval d’une vigueur immense.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "21054222-6695-4472-8398-a871a2fa56e9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2863",
+      "reference": "Sahih al-Bukhari, hadith 2863, book 56, باب سِهَامِ الْفَرَسِ",
+      "title": "باب سِهَامِ الْفَرَسِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ بْنُ إِسْمَاعِيلَ، عَنْ أَبِي أُسَامَةَ، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم جَعَلَ لِلْفَرَسِ سَهْمَيْنِ وَلِصَاحِبِهِ سَهْمًا‏.‏ وَقَالَ مَالِكٌ يُسْهَمُ لِلْخَيْلِ وَالْبَرَاذِينِ مِنْهَا لِقَوْلِهِ ‏[quran sura=\"16\" aya_start=\"8\" aya_end=\"8\"]{‏وَالْخَيْلَ وَالْبِغَالَ وَالْحَمِيرَ لِتَرْكَبُوهَا‏}‏ وَلاَ يُسْهَمُ لأَكْثَرَ مِنْ فَرَسٍ‏.‏",
+      "source_hash_sha256": "9d4f3f2a004edaba8bf4dcb8b7cb712af8315102a2760ccfaee18162c582e5d4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "80bc1528-f1de-41bb-9396-df31976f8bf6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2864",
+      "reference": "Sahih al-Bukhari, hadith 2864, book 56, باب مَنْ قَادَ دَابَّةَ غَيْرِهِ فِي الْحَرْبِ",
+      "title": "باب مَنْ قَادَ دَابَّةَ غَيْرِهِ فِي الْحَرْبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا سَهْلُ بْنُ يُوسُفَ، عَنْ شُعْبَةَ، عَنْ أَبِي إِسْحَاقَ،‏.‏ قَالَ رَجُلٌ لِلْبَرَاءِ بْنِ عَازِبٍ ـ رضى الله عنهما ـ أَفَرَرْتُمْ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم يَوْمَ حُنَيْنٍ قَالَ لَكِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم لَمْ يَفِرَّ، إِنَّ هَوَازِنَ كَانُوا قَوْمًا رُمَاةً، وَإِنَّا لَمَّا لَقِينَاهُمْ حَمَلْنَا عَلَيْهِمْ فَانْهَزَمُوا، فَأَقْبَلَ الْمُسْلِمُونَ عَلَى الْغَنَائِمِ وَاسْتَقْبَلُونَا بِالسِّهَامِ، فَأَمَّا رَسُولُ اللَّهِ صلى الله عليه وسلم فَلَمْ يَفِرَّ، فَلَقَدْ رَأَيْتُهُ وَإِنَّهُ لَعَلَى بَغْلَتِهِ الْبَيْضَاءِ وَإِنَّ أَبَا سُفْيَانَ آخِذٌ بِلِجَامِهَا، وَالنَّبِيُّ صلى الله عليه وسلم يَقُولُ ‏\"‏ أَنَا النَّبِيُّ لاَ كَذِبْ أَنَا ابْنُ عَبْدِ الْمُطَّلِبْ ‏\"‏‏.‏",
+      "source_hash_sha256": "466cae56402731c832925d45b8406e92a514deeec62333cfa0afd635964c39cf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Qutayba, Sahl ibn Yûsuf, Shu‘ba et Abû Ishâq.\n\nUn homme demanda à al-Barâ’ ibn ‘Âzib : « Avez-vous fui en abandonnant le Messager d’Allah le jour de Hunayn ? » Il répondit : « Le Messager d’Allah, lui, n’a pas fui. Les Hawâzin étaient des archers. Lorsque nous les rencontrâmes, nous fondîmes sur eux et ils furent mis en déroute. Les musulmans se tournèrent alors vers le butin, mais les flèches nous arrivèrent en face. Quant au Messager d’Allah, il ne prit pas la fuite. Je l’ai vu sur sa mule blanche, tandis qu’Abû Sufyân tenait sa bride. Le Prophète disait : “Je suis le Prophète, cela n’est pas un mensonge ; je suis le fils de ‘Abd al-Muttalib.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "63d971cc-3260-482c-87bf-1d958ed91de0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2865",
+      "reference": "Sahih al-Bukhari, hadith 2865, book 56, باب الرِّكَابِ وَالْغَرْزِ لِلدَّابَّةِ",
+      "title": "باب الرِّكَابِ وَالْغَرْزِ لِلدَّابَّةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عُبَيْدُ بْنُ إِسْمَاعِيلَ، عَنْ أَبِي أُسَامَةَ، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏ أَنَّهُ كَانَ إِذَا أَدْخَلَ رِجْلَهُ فِي الْغَرْزِ وَاسْتَوَتْ بِهِ نَاقَتُهُ قَائِمَةً، أَهَلَّ مِنْ عِنْدِ مَسْجِدِ ذِي الْحُلَيْفَةِ‏.‏",
+      "source_hash_sha256": "7fb5e25ac5f740c07c711c4c5fee5f6c26d90c17d77fed3c7b6298f65cfbd756",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Ubayd ibn Ismâ‘îl, Abû Usâma, ‘Ubayd Allâh, Nâfi‘ et Ibn ‘Umar.\n\nLorsque le Prophète mettait le pied dans l’étrier et que sa chamelle se tenait bien debout, il commençait à prononcer la talbiya à partir de la mosquée de Dhû al-Hulayfa.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "84f462ae-d98b-4105-8eef-49acf05ffbf3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2866",
+      "reference": "Sahih al-Bukhari, hadith 2866, book 56, باب رُكُوبِ الْفَرَسِ الْعُرْىِ",
+      "title": "باب رُكُوبِ الْفَرَسِ الْعُرْىِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَوْنٍ، حَدَّثَنَا حَمَّادٌ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ ـ رضى الله عنه اسْتَقْبَلَهُمُ النَّبِيُّ صلى الله عليه وسلم عَلَى فَرَسٍ عُرْىٍ، مَا عَلَيْهِ سَرْجٌ، فِي عُنُقِهِ سَيْفٌ‏.‏",
+      "source_hash_sha256": "6e07ef02d873bc2d7bd2457747a2a1b649a910b6b9fa64f926d9f4cc348a60f7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Amr ibn ‘Awn, Hammâd, Thâbit et Anas ibn Mâlik.\n\nLe Prophète vint à leur rencontre sur un cheval sans selle, avec une épée passée autour du cou.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1f00a4bc-ee9a-4a81-8e11-2084ffecca7d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2867",
+      "reference": "Sahih al-Bukhari, hadith 2867, book 56, باب الْفَرَسِ الْقَطُوفِ",
+      "title": "باب الْفَرَسِ الْقَطُوفِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الأَعْلَى بْنُ حَمَّادٍ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا سَعِيدٌ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه أَنَّ أَهْلَ، الْمَدِينَةِ فَزِعُوا مَرَّةً، فَرَكِبَ النَّبِيُّ صلى الله عليه وسلم فَرَسًا لأَبِي طَلْحَةَ كَانَ يَقْطِفُ ـ أَوْ كَانَ فِيهِ قِطَافٌ ـ فَلَمَّا رَجَعَ قَالَ ‏\"‏ وَجَدْنَا فَرَسَكُمْ هَذَا بَحْرًا ‏\"‏‏.‏ فَكَانَ بَعْدَ ذَلِكَ لاَ يُجَارَى‏.‏",
+      "source_hash_sha256": "87294044996339805dcc4a85b4107c24ed7b8671419e5fda0e83b15b336da3a2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd al-A‘lâ ibn Hammâd, Yazîd ibn Zuray‘, Sa‘îd, Qatâda et Anas ibn Mâlik.\n\nUn jour, les habitants de Médine furent effrayés. Le Prophète monta un cheval d’Abû Talha qui était lent — ou qui avait l’habitude de l’être. À son retour, il dit : « Nous avons trouvé que votre cheval était une vraie mer. » Dès lors, aucun cheval ne pouvait le dépasser en course.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "21054222-6695-4472-8398-a871a2fa56e9",
+      "reason": "This report includes a direct quotation from Quran 16:8. Keep the full hadith blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
