@@ -2541,3 +2541,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-525` saves the complete 3,630-character Bukhari 3045 report about the reconnaissance group, Khubayb’s captivity and execution, and ‘Âsim’s protected body. The exporter found one eligible record, and it passed the single-item long-source validator.
 - No database writes or publication occurred. Bukhari local drafts: 2,743 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,914, including held records.
+
+### 2026-10-29: Bukhari 3046–3051
+
+- `FR-LIB-HAD-BUKHARI-526` saves six private French drafts about freeing captives, ‘Alî’s written rulings, ‘Abbâs’s ransom, and an incident during a journey. The hadith mentioning recitation of Sûrat al-Tûr contains no Quranic wording to translate.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,749 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,908, including held records.
