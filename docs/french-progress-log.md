@@ -11442,3 +11442,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1837c-1838e
 
 - FR-LIB-HAD-MUSLIM-0870 saves six private French drafts of the report about an appointed leader following the Book of Allah. The distinct variants preserve the chains, the “Abyssinian” and “mutilated” descriptions, a reported omission, and the narrator’s uncertainty. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1839a-1841
+
+- FR-LIB-HAD-MUSLIM-0871 saves three private French drafts about listening and obeying, the limits of obedience when ordered to sin, and the imam’s responsibility. One visibly damaged Arabic chain and two chain-only cross-references remain entirely blank under Needs Mo with specific reasons. No database write or publication occurred.
