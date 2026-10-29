@@ -2901,3 +2901,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-597` saves six private French drafts about Yûnus, David, and balanced fasting and prayer.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,061 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 213. Total local hadith rows not drafted: 11,594, including held records.
+
+### 2026-10-29: Bukhari 3421–3427
+
+- `FR-LIB-HAD-BUKHARI-598` saves four private French drafts about prostration, prayer, and Solomon. Bukhari 3421 and 3423 remain entirely blank because they directly quote Quran 6:84/6:90 and 38:35; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the two Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,065 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 215. Total local hadith rows not drafted: 11,592, including held records.
