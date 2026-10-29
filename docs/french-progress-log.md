@@ -760,3 +760,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-145` saves a private French draft of Bukhari 806 as a single-record artifact because its Arabic source is over 2,000 characters. The full report’s stages, dialogue, actions and Abu Saïd/Abu Hurayra wording difference are retained.
 - The artifact passed the focused validator for Arabic hash, ID, rights metadata, private unpublished state and the single-record long-text rule. No database write or publication occurred. Bukhari local drafts: 748 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,881, including held records.
+### 2026-10-29: Bukhari 807–812 source review
+
+- `FR-LIB-HAD-BUKHARI-146` saves six private French drafts for Bukhari 807–812. The translations retain the arm position in prayer, the warning to complete bowing and prostration, the seven points of prostration and the timing of the congregation’s movement behind the imam.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 754 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,875, including held records.
