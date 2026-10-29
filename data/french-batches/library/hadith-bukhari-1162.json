@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1162",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:24:45.012Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "599f318b-1bb9-4828-885f-cc73785449a6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6324",
+      "reference": "Sahih al-Bukhari, hadith 6324, book 80, باب مَا يَقُولُ إِذَا أَصْبَحَ",
+      "title": "باب مَا يَقُولُ إِذَا أَصْبَحَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ الْمَلِكِ بْنِ عُمَيْرٍ، عَنْ رِبْعِيِّ بْنِ حِرَاشٍ، عَنْ حُذَيْفَةَ، قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم إِذَا أَرَادَ أَنْ يَنَامَ قَالَ ‏\"‏ بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا ‏\"‏‏.‏ وَإِذَا اسْتَيْقَظَ مِنْ مَنَامِهِ قَالَ ‏\"‏ الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا، وَإِلَيْهِ النُّشُورُ ‏\"‏‏.‏",
+      "source_hash_sha256": "fbd1766125cdae3228c7e63061037583c1fb424331e08959cef79cf63c671dbb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Nu‘aym nous a rapporté : Sufyân nous a rapporté, d’après ‘Abd al-Malik ibn ‘Umayr, d’après Rib‘î ibn Hirâsh, d’après Hudhayfa, qui a dit : Lorsque le Prophète ﷺ voulait dormir, il disait : « Ô Allah, c’est en Ton nom que je meurs et que je vis. » À son réveil, il disait : « Louange à Allah qui nous a fait revivre après nous avoir fait mourir ; c’est vers Lui que se fera la résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1f6ce6e3-3dc5-4f4a-9bfd-53813995bdee",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6325",
+      "reference": "Sahih al-Bukhari, hadith 6325, book 80, باب مَا يَقُولُ إِذَا أَصْبَحَ",
+      "title": "باب مَا يَقُولُ إِذَا أَصْبَحَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، عَنْ أَبِي حَمْزَةَ، عَنْ مَنْصُورٍ، عَنْ رِبْعِيِّ بْنِ حِرَاشٍ، عَنْ خَرَشَةَ بْنِ الْحُرِّ، عَنْ أَبِي ذَرٍّ ـ رضى الله عنه ـ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم إِذَا أَخَذَ مَضْجَعَهُ مِنَ اللَّيْلِ قَالَ ‏\"‏ اللَّهُمَّ بِاسْمِكَ أَمُوتُ وَأَحْيَا ‏\"‏‏.‏ فَإِذَا اسْتَيْقَظَ قَالَ ‏\"‏ الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ ‏\"‏‏.‏",
+      "source_hash_sha256": "daf657d3d996716c505318a7bc81b4a1575fcee6bf9325e76b781bcb8d111095",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abdân nous a rapporté, d’après Abû Hamza, d’après Mansûr, d’après Rib‘î ibn Hirâsh, d’après Kharasha ibn al-Hurr, d’après Abû Dharr (qu’Allah l’agrée), qui a dit : Lorsque le Prophète ﷺ se couchait la nuit, il disait : « Ô Allah, c’est en Ton nom que je meurs et que je vis. » À son réveil, il disait : « Louange à Allah qui nous a fait revivre après nous avoir fait mourir ; c’est vers Lui que se fera la résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5bee8efa-70d2-4c39-b7e3-9f3c4ba6df2d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6326",
+      "reference": "Sahih al-Bukhari, hadith 6326, book 80, باب الدُّعَاءِ فِي الصَّلاَةِ",
+      "title": "باب الدُّعَاءِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا اللَّيْثُ، قَالَ حَدَّثَنِي يَزِيدُ، عَنْ أَبِي الْخَيْرِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، عَنْ أَبِي بَكْرٍ الصِّدِّيقِ ـ رضى الله عنه ـ أَنَّهُ قَالَ لِلنَّبِيِّ صلى الله عليه وسلم عَلِّمْنِي دُعَاءً أَدْعُو بِهِ فِي صَلاَتِي‏.‏ قَالَ ‏\"‏ قُلِ اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي، إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ ‏\"‏‏.‏ وَقَالَ عَمْرٌو عَنْ يَزِيدَ، عَنْ أَبِي الْخَيْرِ، إِنَّهُ سَمِعَ عَبْدَ اللَّهِ بْنَ عَمْرٍو، قَالَ أَبُو بَكْرٍ ـ رضى الله عنه ـ لِلنَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "ff040b6b0a30b07075c4a9e51dbd9017b93cf2e0f96635959dcc50b316fbd99c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn Yûsuf nous a rapporté : al-Layth nous a informés : Yazîd m’a rapporté, d’après Abû al-Khayr, d’après ‘Abd Allâh ibn ‘Amr, d’après Abû Bakr as-Siddîq (qu’Allah l’agrée), qui demanda au Prophète ﷺ : « Apprends-moi une invocation que je puisse dire dans ma prière. » Il répondit : « Dis : “Ô Allah, j’ai commis beaucoup d’injustices envers moi-même. Nul ne pardonne les péchés en dehors de Toi. Accorde-moi donc un pardon venant de Toi et fais-moi miséricorde. Tu es certes Celui qui pardonne et le Très Miséricordieux.” » ‘Amr a rapporté, d’après Yazîd, d’après Abû al-Khayr, qu’il avait entendu ‘Abd Allâh ibn ‘Amr dire qu’Abû Bakr (qu’Allah l’agrée) avait adressé cette demande au Prophète ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a0084d04-8d92-4cb2-8c8a-385d713ac084",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6327",
+      "reference": "Sahih al-Bukhari, hadith 6327, book 80, باب الدُّعَاءِ فِي الصَّلاَةِ",
+      "title": "باب الدُّعَاءِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيٌّ، حَدَّثَنَا مَالِكُ بْنُ سُعَيْرٍ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، ‏[quran sura=\"17\" aya_start=\"110\" aya_end=\"110\"]{‏وَلاَ تَجْهَرْ بِصَلاَتِكَ وَلاَ تُخَافِتْ بِهَا‏}‏ أُنْزِلَتْ فِي الدُّعَاءِ‏.‏",
+      "source_hash_sha256": "bc4539cd3a1040f071a03ec32d3d12f1511522f6a2bcf25337ed2d557fda53db",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "f3050d8f-0529-4ae0-bf67-7b95d4346bce",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6328",
+      "reference": "Sahih al-Bukhari, hadith 6328, book 80, باب الدُّعَاءِ فِي الصَّلاَةِ",
+      "title": "باب الدُّعَاءِ فِي الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ قَالَ كُنَّا نَقُولُ فِي الصَّلاَةِ السَّلاَمُ عَلَى اللَّهِ، السَّلاَمُ عَلَى فُلاَنٍ‏.‏ فَقَالَ لَنَا النَّبِيُّ صلى الله عليه وسلم ذَاتَ يَوْمٍ ‏\"‏ إِنَّ اللَّهَ هُوَ السَّلاَمُ، فَإِذَا قَعَدَ أَحَدُكُمْ فِي الصَّلاَةِ فَلْيَقُلِ التَّحِيَّاتُ لِلَّهِ إِلَى قَوْلِهِ الصَّالِحِينَ‏.‏ فَإِذَا قَالَهَا أَصَابَ كُلَّ عَبْدٍ لِلَّهِ فِي السَّمَاءِ وَالأَرْضِ صَالِحٍ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ‏.‏ ثُمَّ يَتَخَيَّرُ مِنَ الثَّنَاءِ مَا شَاءَ ‏\"‏‏.‏",
+      "source_hash_sha256": "52f3866c36ed838d80882c300e905efc740c08b697eebe6cba28af52bfcd8cae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Uthmân ibn Abî Shayba nous a rapporté : Jarîr nous a rapporté, d’après Mansûr, d’après Abû Wâ’il, d’après ‘Abd Allâh (qu’Allah l’agrée), qui a dit : Dans la prière, nous disions : « Que la paix soit sur Allah, que la paix soit sur untel. » Un jour, le Prophète ﷺ nous dit : « Allah est la Paix. Lorsque l’un de vous s’assied dans la prière, qu’il dise la formule “at-tahiyyât lillâh” jusqu’aux mots “les serviteurs vertueux”. Lorsqu’il la prononce, chaque serviteur vertueux d’Allah dans les cieux et sur la terre en reçoit le salut : “J’atteste qu’il n’y a de divinité qu’Allah et j’atteste que Muhammad est Son serviteur et Son Messager.” Ensuite, qu’il choisisse les louanges qu’il souhaite. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e98ff103-30e6-4c8e-9b00-f8c19bbf8500",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6329",
+      "reference": "Sahih al-Bukhari, hadith 6329, book 80, باب الدُّعَاءِ بَعْدَ الصَّلاَةِ",
+      "title": "باب الدُّعَاءِ بَعْدَ الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ، أَخْبَرَنَا يَزِيدُ، أَخْبَرَنَا وَرْقَاءُ، عَنْ سُمَىٍّ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ،‏.‏ قَالُوا يَا رَسُولَ اللَّهِ ذَهَبَ أَهْلُ الدُّثُورِ بِالدَّرَجَاتِ وَالنَّعِيمِ الْمُقِيمِ‏.‏ قَالَ ‏\"‏ كَيْفَ ذَاكَ ‏\"‏‏.‏ قَالَ صَلَّوْا كَمَا صَلَّيْنَا، وَجَاهَدُوا كَمَا جَاهَدْنَا، وَأَنْفَقُوا مِنْ فُضُولِ أَمْوَالِهِمْ، وَلَيْسَتْ لَنَا أَمْوَالٌ‏.‏ قَالَ ‏\"‏ أَفَلاَ أُخْبِرُكُمْ بِأَمْرٍ تُدْرِكُونَ مَنْ كَانَ قَبْلَكُمْ، وَتَسْبِقُونَ مَنْ جَاءَ بَعْدَكُمْ، وَلاَ يَأْتِي أَحَدٌ بِمِثْلِ مَا جِئْتُمْ، إِلاَّ مَنْ جَاءَ بِمِثْلِهِ، تُسَبِّحُونَ فِي دُبُرِ كُلِّ صَلاَةٍ عَشْرًا، وَتَحْمَدُونَ عَشْرًا، وَتُكَبِّرُونَ عَشْرًا ‏\"‏‏.‏ تَابَعَهُ عُبَيْدُ اللَّهِ بْنُ عُمَرَ عَنْ سُمَىٍّ وَرَوَاهُ ابْنُ عَجْلاَنَ عَنْ سُمَىٍّ وَرَجَاءِ بْنِ حَيْوَةَ‏.‏ وَرَوَاهُ جَرِيرٌ عَنْ عَبْدِ الْعَزِيزِ بْنِ رُفَيْعٍ عَنْ أَبِي صَالِحٍ عَنْ أَبِي الدَّرْدَاءِ‏.‏ وَرَوَاهُ سُهَيْلٌ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "54baa00eeab47a81019894251e4018360bf0780b30db49f2ba85dcdd02bd95d0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq m’a rapporté : Yazîd nous a informés : Warqâ’ nous a informés, d’après Sumayy, d’après Abû Sâlih, d’après Abû Hurayra. Des gens dirent : « Ô Messager d’Allah, les gens fortunés sont partis avec les degrés élevés et le bonheur durable. » Il demanda : « Comment cela ? » Ils répondirent : « Ils prient comme nous prions et combattent comme nous combattons, mais ils dépensent en aumône une partie de leurs biens excédentaires, alors que nous n’avons pas de biens. » Il dit : « Ne voulez-vous pas que je vous indique une pratique qui vous permettra de rattraper ceux qui vous ont précédés et de devancer ceux qui viendront après vous ? Nul ne fera quelque chose d’équivalent, sauf celui qui fera de même. Après chaque prière, glorifiez Allah dix fois, louez-Le dix fois et proclamez Sa grandeur dix fois. » ‘Ubayd Allâh ibn ‘Umar a également transmis ce récit d’après Sumayy. Ibn ‘Ajlân l’a rapporté d’après Sumayy et Rajâ’ ibn Haywa. Jarîr l’a rapporté d’après ‘Abd al-‘Azîz ibn Rufay‘, d’après Abû Sâlih, d’après Abû ad-Dardâ’. Suhayl l’a rapporté d’après son père, d’après Abû Hurayra, d’après le Prophète ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a0084d04-8d92-4cb2-8c8a-385d713ac084",
+      "url": "https://sunnah.com/bukhari:6327",
+      "reason": "Le récit cite directement le Coran 17:110. Garder le texte entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}
