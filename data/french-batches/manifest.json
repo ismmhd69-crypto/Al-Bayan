@@ -12295,6 +12295,20 @@
       "published": 0,
       "status": "local draft"
     },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-552",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-552.json",
+      "sourceIds": ["9b8cb2f1-7cda-4c68-b146-572f10877237", "7af64bad-b530-451d-a5bc-99e3b737aa28", "fdeb9305-b036-49ba-bfa4-a5d80b4cc6a3", "ded63570-1004-4687-bdd8-0fdcc2b15e48", "9e05fd9a-03cd-44cb-a3ce-a4f8b2cd976b", "9d47330b-1f02-4dbf-908f-b84c4a781396"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata, private unpublished state and incomplete-source hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "one Needs Mo hold for incomplete source text"
+    },
   ],
   "blockers": [
     {
@@ -12319,7 +12333,7 @@
       "id": "ARABIC-HADITH-INCOMPLETE-MATN",
       "scope": "Hadith records whose exported Arabic contains no hadith text",
       "status": "blocked",
-      "reason": "Bukhari 221, 342, and 402b currently lack complete hadith wording: 221 has only a chain ending 'from the Prophet'; 342 has only a chain and the phrase 'he narrated the hadith'; 402b has only a chain ending 'I heard Anas, with this'. Keep all three on hold until their complete source wording is confirmed. Bukhari 2944 is also held in FR-LIB-HAD-BUKHARI-507 because its exported Arabic has only the report’s opening clause and omits the hadith wording."
+      "reason": "Bukhari 221, 342, and 402b currently lack complete hadith wording: 221 has only a chain ending 'from the Prophet'; 342 has only a chain and the phrase 'he narrated the hadith'; 402b has only a chain ending 'I heard Anas, with this'. Keep all three on hold until their complete source wording is confirmed. Bukhari 2944 is also held in FR-LIB-HAD-BUKHARI-507 because its exported Arabic has only the report’s opening clause and omits the hadith wording. Bukhari 3174 is held in FR-LIB-HAD-BUKHARI-552 because its Arabic ends after the opening clause about Heraclius summoning Abû Sufyân."
     },
     {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
@@ -12370,7 +12384,7 @@
       "reason": "No approved, attributed French Quran translation has been confirmed in the current application configuration. The seven French verse meanings were not generated; only practice-tool controls have private French drafts."
     }
   ],
-  "hadithBukhariDrafted": 2861,
-  "hadithLocalDrafted": 2861,
-  "hadithLocalRemaining": 11794
+  "hadithBukhariDrafted": 2866,
+  "hadithLocalDrafted": 2866,
+  "hadithLocalRemaining": 11789
 }
