@@ -11526,3 +11526,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1886a-1888c
 
 - FR-LIB-HAD-MUSLIM-0891 saves five private French drafts about debt, martyrdom, and the best of people. The report quoting Quran 3:169 remains entirely blank under Needs Mo until an authorized attributed French Quran translation is available. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1889a-1890c
+
+- FR-LIB-HAD-MUSLIM-0892 saves five private French drafts about worship in seclusion, holding a horse in Allah’s cause, and two men entering Paradise after one kills the other. Distinct mountain-pass wordings and report variants are preserved. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
