@@ -17887,6 +17887,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-827",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-827.json",
+      "sourceIds": [
+        "5badf992-240e-4eae-b778-7c0489a77207",
+        "d2a3a2c3-5e25-43f2-aa32-68565d8ce4c1",
+        "69919eb3-1cb9-41bc-85bd-9081db62e880",
+        "239c96f1-49f0-47d4-bb3d-59f1cb9f64c0",
+        "d3c6786b-7cd7-4067-ad42-79fb7277eba0",
+        "1cc30f94-ac08-4a9b-9b03-9b21e0e6c3d2"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18771,9 +18792,27 @@
       "scope": "Sahih al-Bukhari 4566: unusually long report quoting Quran 3:186 and 2:109",
       "status": "blocked",
       "reason": "Ce rapport de 3 241 caractères cite directement Quran 3:186 et 2:109. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-826, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4567-QURAN-3-188",
+      "scope": "Sahih al-Bukhari 4567: partial direct wording from Quran 3:188",
+      "status": "blocked",
+      "reason": "Le rapport cite une partie directe de Quran 3:188 par la formule « لا يحسبن الذين يفرحون ». Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-827, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4568-QURAN-3-187-188",
+      "scope": "Sahih al-Bukhari 4568: direct quotations of Quran 3:187 and 3:188",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:187 et 3:188. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-827, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4569-QURAN-3-190",
+      "scope": "Sahih al-Bukhari 4569: direct quotation of Quran 3:190",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:190. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-827, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3966,
-  "hadithLocalDrafted": 3966,
-  "hadithLocalRemaining": 10691
+  "hadithBukhariDrafted": 3969,
+  "hadithLocalDrafted": 3969,
+  "hadithLocalRemaining": 10688
 }
