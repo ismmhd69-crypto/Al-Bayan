@@ -42572,6 +42572,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0657",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0657.json",
+      "sourceIds": [
+        "6879792d-8f6c-4ec9-a50c-1e358423084f",
+        "624210ef-24ad-4443-9b40-15841acb2f11",
+        "1de77461-b3a1-46b3-b96e-79eb4062215d",
+        "ecec8fe7-c5ec-4b39-897e-4c47d150030b",
+        "c1c53dbf-d037-4e33-9396-8e3941815578",
+        "ceb35991-2ae9-4a32-a608-8c4a66eed053"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, five private unpublished drafts, one cross-reference-only report held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46879,8 +46900,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8947,
-  "hadithLocalRemaining": 5682,
+  "hadithLocalDrafted": 8952,
+  "hadithLocalRemaining": 5677,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51127,10 +51148,15 @@
       "source_id": "1ed7f381-6db6-4f51-9889-2d427301a685",
       "reason": "Cette source rapporte des versets du Coran sur le nombre de tétées qui interdisent le mariage. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
+    },
+    {
+      "source_id": "6879792d-8f6c-4ec9-a50c-1e358423084f",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie uniquement au précédent (« بمثله »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2611,
+  "hadithMuslimDrafted": 2616,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1142
+  "hadithNeedsMo": 1143
 }

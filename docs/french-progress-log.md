@@ -10411,3 +10411,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0656 saves three private French drafts about the number of suckles that establish milk kinship. Muslim 1451d is only a wording variant; 1452a–b report Quranic passages about suckling and remain blank under Needs Mo pending an approved French Quran translation and rights confirmation.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1452c–1453e
+
+- FR-LIB-HAD-MUSLIM-0657 saves five private French drafts preserving the reported events concerning Salim and breastfeeding kinship. Muslim 1452c only refers to the previous report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
