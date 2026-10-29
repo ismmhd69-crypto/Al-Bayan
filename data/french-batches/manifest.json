@@ -18345,6 +18345,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-850",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-850.json",
+      "sourceIds": [
+        "5499df7e-47ef-4337-a14b-fa6bcc05c02c",
+        "43da1a64-c459-4f8b-9a53-4aed90aeeafc",
+        "ddd5aebd-4a62-4e43-9c59-dd255cee649c",
+        "b8576118-64a6-4ee3-badb-a23d9e439dfc",
+        "a332efd7-1182-4000-955c-08cd42eba807",
+        "50a17d92-8727-4bf2-bc47-b6f004884707"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19673,9 +19694,33 @@
       "scope": "Sahih al-Bukhari 4679: unusually long report with direct Quran quotation from 9:128–129",
       "status": "blocked",
       "reason": "Ce rapport très long cite directement Quran 9:128–129. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-849, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4681-QURAN-11-5",
+      "scope": "Sahih al-Bukhari 4681: direct Quranic phrase from 11:5",
+      "status": "blocked",
+      "reason": "Le rapport reprend la formule directe de Quran 11:5. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-850, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4682-QURAN-11-5",
+      "scope": "Sahih al-Bukhari 4682: direct quotation of Quran 11:5",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 11:5. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-850, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4683-QURAN-11-5-77-81",
+      "scope": "Sahih al-Bukhari 4683: direct quotations from Quran 11:5, 11:77, and 11:81",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 11:5, 11:77 et 11:81. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-850, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4684-QURAN-11-56-73",
+      "scope": "Sahih al-Bukhari 4684: direct Quran quotations from 11:56 and 11:73",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 11:56 et 11:73. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-850, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4004,
-  "hadithLocalDrafted": 4004,
-  "hadithLocalRemaining": 10663
+  "hadithBukhariDrafted": 4006,
+  "hadithLocalDrafted": 4006,
+  "hadithLocalRemaining": 10661
 }
