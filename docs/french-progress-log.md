@@ -1451,3 +1451,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-303` saves six private French drafts for Bukhari 1750–1755. They preserve the stoning sequence and supplications, including the reports’ distinctions about where to stand and where not to stop. No Quran verse text was included in these records. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,604 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 93. Total local hadith rows not drafted: 13,024, including held records.
+
+### 2026-10-29: Bukhari 1756–1763 source review
+
+- `FR-LIB-HAD-BUKHARI-304` saves six private French drafts for the available source records 1756–1758, 1760, and 1762–1763. No source record for 1759 or 1761 was present in this exporter batch. The reports retain differences in the narration about Safiyya and the concession for women who had completed the tawaf. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,610 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 93. Total local hadith rows not drafted: 13,018, including held records.
