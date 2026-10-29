@@ -7486,9 +7486,15 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 167–169b
 
 - FR-LIB-HAD-MUSLIM-0076 saves 6 private French drafts covering the descriptions of prophets and the Dajjal.
-- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 333 of 7,366. Hadith Needs Mo: 207. Total local hadith rows not drafted: 7,960, including held records. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 333 of 7,366. Hadith Needs Mo: 208. Total local hadith rows not drafted: 7,960, including held records. No database writes or publication occurred.
 
 ### 2026-10-29: Muslim 169c–172
 
 - FR-LIB-HAD-MUSLIM-0077 saves 6 private French drafts on reports about the Dajjal and the night journey, retaining the variant wording and narrator chains.
-- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 339 of 7,366. Hadith Needs Mo: 207. Total local hadith rows not drafted: 7,954, including held records. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 339 of 7,366. Hadith Needs Mo: 208. Total local hadith rows not drafted: 7,954, including held records. No database writes or publication occurred.
+
+
+### 2026-10-29: Muslim 173–176a
+
+- FR-LIB-HAD-MUSLIM-0078 saves one private French draft. Hadiths 173, 174a–174c and 175 directly quote Quran 53:16, 53:9, 53:11, 53:18 and 53:13; their complete translations remain blank under Needs Mo pending an approved, attributed French Quran translation with usage permission.
+- All 6 source hashes are retained and the focused validator passed. The running counts are Bukhari 6,336 and Muslim 340 (6,676 total drafts, 7,953 hadith rows not drafted). Hadith Needs Mo: 213. No database writes or publication occurred.

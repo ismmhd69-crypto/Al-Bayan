@@ -1,0 +1,190 @@
+{
+  "batch_id": "HADITH-MUSLIM-0078",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:20:08.643Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6f6cee75-a0c8-41d2-a4b9-6c4fc19e39e5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:173",
+      "reference": "Sahih Muslim, hadith 173, book 1, باب فِي ذِكْرِ سِدْرَةِ الْمُنْتَهَى ‏‏",
+      "title": "باب فِي ذِكْرِ سِدْرَةِ الْمُنْتَهَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا مَالِكُ بْنُ مِغْوَلٍ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، وَزُهَيْرُ بْنُ حَرْبٍ، جَمِيعًا عَنْ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، - وَأَلْفَاظُهُمْ مُتَقَارِبَةٌ - قَالَ ابْنُ نُمَيْرٍ حَدَّثَنَا أَبِي، حَدَّثَنَا مَالِكُ بْنُ مِغْوَلٍ، عَنِ الزُّبَيْرِ بْنِ عَدِيٍّ، عَنْ طَلْحَةَ، عَنْ مُرَّةَ، عَنْ عَبْدِ اللَّهِ، قَالَ لَمَّا أُسْرِيَ بِرَسُولِ اللَّهِ صلى الله عليه وسلم انْتُهِيَ بِهِ إِلَى سِدْرَةِ الْمُنْتَهَى وَهِيَ فِي السَّمَاءِ السَّادِسَةِ إِلَيْهَا يَنْتَهِي مَا يُعْرَجُ بِهِ مِنَ الأَرْضِ فَيُقْبَضُ مِنْهَا وَإِلَيْهَا يَنْتَهِي مَا يُهْبَطُ بِهِ مِنْ فَوْقِهَا فَيُقْبَضُ مِنْهَا قَالَ ‏[quran sura=\"53\" aya_start=\"16\" aya_end=\"16\"]{‏ إِذْ يَغْشَى السِّدْرَةَ مَا يَغْشَى‏}‏ قَالَ فَرَاشٌ مِنْ ذَهَبٍ ‏.‏ قَالَ فَأُعْطِيَ رَسُولُ اللَّهِ صلى الله عليه وسلم ثَلاَثًا أُعْطِيَ الصَّلَوَاتِ الْخَمْسَ وَأُعْطِيَ خَوَاتِيمَ سُورَةِ الْبَقَرَةِ وَغُفِرَ لِمَنْ لَمْ يُشْرِكْ بِاللَّهِ مِنْ أُمَّتِهِ شَيْئًا الْمُقْحِمَاتُ ‏.‏",
+      "source_hash_sha256": "d584d4b786128ed952723c90a2c5f4ebe4440b6c2617e12dd26384838cf997a1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 53:16 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "fab4bda6-03da-4698-8c7e-c8c364f282b3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:174a",
+      "reference": "Sahih Muslim, hadith 174 a, book 1, باب فِي ذِكْرِ سِدْرَةِ الْمُنْتَهَى ‏‏",
+      "title": "باب فِي ذِكْرِ سِدْرَةِ الْمُنْتَهَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا عَبَّادٌ، - وَهُوَ ابْنُ الْعَوَّامِ - حَدَّثَنَا الشَّيْبَانِيُّ، قَالَ سَأَلْتُ زِرَّ بْنَ حُبَيْشٍ عَنْ قَوْلِ اللَّهِ، عَزَّ وَجَلَّ ‏[quran sura=\"53\" aya_start=\"9\" aya_end=\"9\"]{‏ فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَى‏}‏ قَالَ أَخْبَرَنِي ابْنُ مَسْعُودٍ أَنَّ النَّبِيَّ صلى الله عليه وسلم رَأَى جِبْرِيلَ لَهُ سِتُّمِائَةِ جَنَاحٍ ‏.‏",
+      "source_hash_sha256": "93686a54575c4cb35a090f4d3c2082b7e945d95973f16e7db68c22ab248d412a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 53:9 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "a1749c3e-3946-4850-a74e-ec2e66dd7c25",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:174b",
+      "reference": "Sahih Muslim, hadith 174 b, book 1, باب فِي ذِكْرِ سِدْرَةِ الْمُنْتَهَى ‏‏",
+      "title": "باب فِي ذِكْرِ سِدْرَةِ الْمُنْتَهَى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، عَنِ الشَّيْبَانِيِّ، عَنْ زِرٍّ، عَنْ عَبْدِ اللَّهِ، قَالَ ‏[quran sura=\"53\" aya_start=\"11\" aya_end=\"11\"]{‏ مَا كَذَبَ الْفُؤَادُ مَا رَأَى‏}‏ قَالَ رَأَى جِبْرِيلَ - عَلَيْهِ السَّلاَمُ - لَهُ سِتُّمِائَةِ جَنَاحٍ ‏.‏",
+      "source_hash_sha256": "62bdb15db5db8426ecdea83092e59560e9fb22cf793a890357ed720bd6a19c1c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 53:11 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "0468bf3d-4247-4309-9533-cf0a503fbac5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:174c",
+      "reference": "Sahih Muslim, hadith 174 c, book 1, باب فِي ذِكْرِ سِدْرَةِ الْمُنْتَهَى ‏‏",
+      "title": "باب فِي ذِكْرِ سِدْرَةِ الْمُنْتَهَى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ سُلَيْمَانَ الشَّيْبَانِيِّ، سَمِعَ زِرَّ بْنَ حُبَيْشٍ، عَنْ عَبْدِ اللَّهِ، قَالَ ‏[quran sura=\"53\" aya_start=\"18\" aya_end=\"18\"]{‏ لَقَدْ رَأَى مِنْ آيَاتِ رَبِّهِ الْكُبْرَى‏}‏ قَالَ رَأَى جِبْرِيلَ فِي صُورَتِهِ لَهُ سِتُّمِائَةِ جَنَاحٍ ‏.‏",
+      "source_hash_sha256": "ebee5596f52ff4742fe764a90bcb122fe60368672f518742d8b14692e4907e47",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 53:18 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "1715ffd7-f8da-4c26-8e96-4726be883fa0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:175",
+      "reference": "Sahih Muslim, hadith 175, book 1, باب مَعْنَى قَوْلِ اللَّهِ عَزَّ وَجَلَّ: {وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى} وَهَلْ رَأَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَبَّهُ لَيْلَةَ الإِسْرَاءِ",
+      "title": "باب مَعْنَى قَوْلِ اللَّهِ عَزَّ وَجَلَّ: {وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى} وَهَلْ رَأَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَبَّهُ لَيْلَةَ الإِسْرَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ عَبْدِ الْمَلِكِ، عَنْ عَطَاءٍ، عَنْ أَبِي هُرَيْرَةَ، ‏[quran sura=\"53\" aya_start=\"13\" aya_end=\"13\"]{‏ وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى‏}‏ قَالَ رَأَى جِبْرِيلَ ‏.‏",
+      "source_hash_sha256": "e216e5b902a0017b0ef4da18401cbd4e7af6214e14eed73764c029f4e8175b56",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 53:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "8dafa8b4-4d32-4eb0-a2eb-209f13b54ad2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:176a",
+      "reference": "Sahih Muslim, hadith 176 a, book 1, باب مَعْنَى قَوْلِ اللَّهِ عَزَّ وَجَلَّ: {وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى} وَهَلْ رَأَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَبَّهُ لَيْلَةَ الإِسْرَاءِ",
+      "title": "باب مَعْنَى قَوْلِ اللَّهِ عَزَّ وَجَلَّ: {وَلَقَدْ رَآهُ نَزْلَةً أُخْرَى} وَهَلْ رَأَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَبَّهُ لَيْلَةَ الإِسْرَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصٌ، عَنْ عَبْدِ الْمَلِكِ، عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ رَآهُ بِقَلْبِهِ ‏.‏",
+      "source_hash_sha256": "c4adc8086c72e16ec36e97e17ec3cfe46e6eb016834bee23659d36691eac4944",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté, d’après Hafs, d’après ‘Abd al-Malik, d’après ‘Ata, d’après Ibn ‘Abbas, qui a dit : « Il le vit avec son cœur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6f6cee75-a0c8-41d2-a4b9-6c4fc19e39e5",
+      "reason": "Ce récit cite directement le verset 53:16 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "fab4bda6-03da-4698-8c7e-c8c364f282b3",
+      "reason": "Ce récit cite directement le verset 53:9 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "a1749c3e-3946-4850-a74e-ec2e66dd7c25",
+      "reason": "Ce récit cite directement le verset 53:11 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "0468bf3d-4247-4309-9533-cf0a503fbac5",
+      "reason": "Ce récit cite directement le verset 53:18 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "1715ffd7-f8da-4c26-8e96-4726be883fa0",
+      "reason": "Ce récit cite directement le verset 53:13 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
