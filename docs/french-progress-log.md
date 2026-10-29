@@ -9836,3 +9836,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0541 saves three private French drafts about the rites of Hajj and the station at Arafat. Muslim 1218b is an incomplete variant; 1219a–b quote Quran 2:199. All three remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1221a–1223a
+
+- FR-LIB-HAD-MUSLIM-0542 saves three private French drafts about Abu Musa’s rites and Umar’s view of tamattu. Muslim 1221b and 1221d are incomplete variants, and 1221c quotes Quran 2:196; all three remain blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
