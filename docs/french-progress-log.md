@@ -3041,3 +3041,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-625` saves one private French draft with the full journey account involving the waterless caravan, the woman, and the available water.
 - The long-source record passed the focused single-item validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,187 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 11,470, including held records.
+
+### 2026-10-29: Bukhari 3572–3577
+
+- `FR-LIB-HAD-BUKHARI-626` saves six private French drafts about water and ablution at al-Hudaybiya.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,193 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 11,464, including held records.
