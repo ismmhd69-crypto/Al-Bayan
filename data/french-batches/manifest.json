@@ -42864,6 +42864,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0671",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0671.json",
+      "sourceIds": [
+        "a26ce862-0841-4768-8a7e-cf2dc79bbc4a"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: one 2,006-character source isolated in a single-item batch; Arabic original and hash, ID, blank French text for a Quran-quoted report held under Needs Mo, rights flags, and private unpublished state passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -51589,10 +51605,15 @@
       "source_id": "826732dd-1117-484b-90cc-b137330e1245",
       "reason": "Cette entrée renvoie seulement au récit précédent (« بمثله ») et ne le reproduit pas. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "a26ce862-0841-4768-8a7e-cf2dc79bbc4a",
+      "reason": "Cette source isolée de 2 006 caractères contient une citation coranique explicite de la sourate 33, versets 28–29. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 2659,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1176
+  "hadithNeedsMo": 1177
 }
