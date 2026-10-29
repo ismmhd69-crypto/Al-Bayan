@@ -6983,3 +6983,15 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1359 saves 5 private French drafts. Hadith 7445 directly quotes Quran 3:77 and continues to a further Quran passage; its complete French translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,249 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 141. Total local hadith rows not drafted: 8,380, including held records.
+
+### 2026-10-29: Bukhari 7447
+
+- FR-LIB-HAD-BUKHARI-1360 saves one private French draft for the report, preserving the calendar clarification, prohibited matters, uncertainty about the report’s wording, and instruction to transmit to absent listeners. No database writes or publication occurred.
+- Its source hash is retained and the one-record focused validator passed.
+
+### 2026-10-29: Bukhari 7448–7452
+
+- FR-LIB-HAD-BUKHARI-1361 saves three private French drafts. Hadiths 7451 and 7452 directly quote Quran 6:91 and 2:164; both complete translations remain blank under Needs Mo pending confirmation of approved, attributed French Quran translation(s) and permitted use. No database writes or publication occurred.
+- All five source hashes are retained and the focused validator passed.
+
+- Current totals: Bukhari local drafts 6,253 of 7,263; Muslim local drafts 0 of 7,366; Hadith Needs Mo 143; total local hadith rows not drafted 8,376, including held records.
