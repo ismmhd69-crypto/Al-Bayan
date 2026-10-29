@@ -11978,3 +11978,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2117-2119e
 
 - FR-LIB-HAD-MUSLIM-1004 saves six complete private French drafts about animal marking. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2120a-2121b
+
+- FR-LIB-HAD-MUSLIM-1005 saves two complete private French drafts about hair cutting and conduct on roads. Four referential or explanatory fragments remain blank with specific Needs Mo reasons. No database write or publication occurred.
