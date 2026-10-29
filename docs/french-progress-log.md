@@ -8435,7 +8435,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 626a–627c
 
 - FR-LIB-HAD-MUSLIM-0262 saves two private French drafts about missing the Asr prayer. Muslim 627a and 627c contain the Quranic phrase « الصلاة الوسطى » (2:238) and remain blank under Needs Mo. Muslim 626b and 627b are incomplete cross-references and also remain blank.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,049 Muslim drafts, 7,385 total hadith drafts, 7,244 remaining, and 499 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 1,049 Muslim drafts, 7,385 total hadith drafts, 7,244 remaining, and 499 Needs Mo items.
 
 ### 2026-10-29: Muslim 627d–630
 
@@ -8986,3 +8986,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0371 saves one private French draft about gestures during the Friday sermon. Muslim 872a, 873a and 873b quote Quran directly; 872b and 874 are incomplete variants. All five remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1473 Muslim drafts, 7809 total hadith drafts, 6820 remaining, and 697 Needs Mo items.
+
+### 2026-10-29: Muslim 875a–875f
+
+- FR-LIB-HAD-MUSLIM-0372 saves five private French drafts about praying two units when arriving during the Friday sermon. Muslim 875b only notes a variant omission and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1478 Muslim drafts, 7814 total hadith drafts, 6815 remaining, and 698 Needs Mo items.
