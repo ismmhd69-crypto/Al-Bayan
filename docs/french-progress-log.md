@@ -3076,3 +3076,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-632` saves four private French drafts about the martyrs of Uhud and the trials. Bukhari 3595b remains blank because its source ends before the report. Bukhari 3600 remains blank because the term رُعَامَهَا is not confirmed.
 - All six records passed the focused validator, including both holds. No database writes or publication occurred. Bukhari local drafts: 3,211 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 233. Total local hadith rows not drafted: 11,446, including held records.
+
+### 2026-10-29: Bukhari 3601–3607
+
+- `FR-LIB-HAD-BUKHARI-633` saves six private French drafts about the coming trials and signs of prophethood.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,217 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 233. Total local hadith rows not drafted: 11,440, including held records.
