@@ -9946,3 +9946,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0563 saves six private French drafts about Umar’s treatment of the Black Stone and the Prophet’s circumambulation during the Farewell Pilgrimage. All six reports, including the distinct wording in Muslim 1271b and the narrator’s omission note in 1273b, are translated from their own source text.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1275–1277d
+
+- FR-LIB-HAD-MUSLIM-0564 saves one private French draft for Muslim 1275. Muslim 1276 quotes Quran 52:1–2, and Muslim 1277a–d quote Quran 2:158; those five records remain entirely blank under Needs Mo until an approved attributed French Quran translation and usage permission are confirmed.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

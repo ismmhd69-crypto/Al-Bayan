@@ -40661,6 +40661,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0564",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0564.json",
+      "sourceIds": [
+        "d2518ee3-2569-40e9-8ccd-4533a3ac3b8a",
+        "091e543f-53fe-4134-b5e4-26a15caf0982",
+        "7c495a65-e139-42a5-a01b-f809b04a15d1",
+        "916cba8a-180e-4b7b-b9d6-840570df0bd4",
+        "a7e3b956-4c66-4e2b-acc3-11db4b382bb3",
+        "570c352a-498e-4216-a65d-f266a33ea7fd"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, one private unpublished AI draft, five direct Quran quotations held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44968,8 +44989,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8570,
-  "hadithLocalRemaining": 6059,
+  "hadithLocalDrafted": 8571,
+  "hadithLocalRemaining": 6058,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48521,10 +48542,35 @@
       "source_id": "b51aef26-e23c-41df-9e0c-c57dc9d19a7e",
       "reason": "Le texte arabe de Muslim 1270a comporte une formule de transmission endommagée ou contradictoire après « d’après Salim » (« أنحدّثه »). Laisser toute la traduction française vide jusqu’à vérification du texte source.",
       "status": "blocked"
+    },
+    {
+      "source_id": "091e543f-53fe-4134-b5e4-26a15caf0982",
+      "reason": "La source cite directement le Coran 52:1–2. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7c495a65-e139-42a5-a01b-f809b04a15d1",
+      "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "916cba8a-180e-4b7b-b9d6-840570df0bd4",
+      "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "a7e3b956-4c66-4e2b-acc3-11db4b382bb3",
+      "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "570c352a-498e-4216-a65d-f266a33ea7fd",
+      "reason": "La source cite directement le Coran 2:158. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2234,
+  "hadithMuslimDrafted": 2235,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1003
+  "hadithNeedsMo": 1008
 }
