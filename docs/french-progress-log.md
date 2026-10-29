@@ -11638,3 +11638,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1960b-1961b
 
 - FR-LIB-HAD-MUSLIM-0919 saves four private French drafts about Eid sacrifices and the cases where an early sacrifice did not count. Two chain-only entries remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1961c-1961h
+
+- FR-LIB-HAD-MUSLIM-0920 saves five private French drafts about the timing and validity of Eid sacrifices. The different wording and eligibility of young animals are preserved. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
