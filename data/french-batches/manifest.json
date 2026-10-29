@@ -19077,6 +19077,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-887",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-887.json",
+      "sourceIds": [
+        "90b88a49-f7bc-4b1c-9f7b-854f082940b1",
+        "48bd9db9-8be7-4925-93e3-a9eb6ef696e9",
+        "74bae282-be66-44df-95f2-92341ad21ac2",
+        "21a8b522-0551-4b86-86ba-d5ea4d70aa8c",
+        "1897df79-410a-467b-b39f-00285d9648b5",
+        "1d4557f5-a6cb-4f40-bdcd-d4a6bddb6e36"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -21191,9 +21212,27 @@
       "scope": "Sahih al-Bukhari 4857: direct Quran quotation from 53:9-10",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 53:9-10. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-886, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4858-QURAN-53-18",
+      "scope": "Sahih al-Bukhari 4858: direct Quran quotation from 53:18",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 53:18. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-887, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4859-QURAN-53-19",
+      "scope": "Sahih al-Bukhari 4859: direct Quran quotation from 53:19",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 53:19. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-887, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4861-QURAN-2-158",
+      "scope": "Sahih al-Bukhari 4861: direct Quran quotation from 2:158",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 2:158. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-887, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4051,
-  "hadithLocalDrafted": 4051,
-  "hadithLocalRemaining": 10616
+  "hadithBukhariDrafted": 4054,
+  "hadithLocalDrafted": 4054,
+  "hadithLocalRemaining": 10613
 }
