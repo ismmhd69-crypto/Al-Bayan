@@ -2831,3 +2831,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-583` saves four private French drafts about Abraham and Ya’jûj and Ma’jûj. Bukhari 3349 and 3350 remain entirely blank because they directly quote Quranic wording; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,012 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 199. Total local hadith rows not drafted: 11,643, including held records.
+
+### 2026-10-29: Bukhari 3355–3360
+
+- `FR-LIB-HAD-BUKHARI-584` saves four private French drafts about Abraham and the gecko. Bukhari 3358 and 3360 remain entirely blank because they directly quote Quranic wording; an approved attributed French Quran translation is unavailable.
+- All six records passed the focused validator, including the Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,016 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 201. Total local hadith rows not drafted: 11,639, including held records.
