@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1298",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:27:20.671Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "c345265d-add9-423d-9bf3-a01c9c3ad880",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2857a",
+      "reference": "Sahih Muslim, hadith 2857 a, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا زَيْدٌ، - يَعْنِي ابْنَ حُبَابٍ - حَدَّثَنَا أَفْلَحُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ رَافِعٍ، مَوْلَى أُمِّ سَلَمَةَ قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يُوشِكُ إِنْ طَالَتْ بِكَ مُدَّةٌ أَنْ تَرَى قَوْمًا فِي أَيْدِيهِمْ مِثْلُ أَذْنَابِ الْبَقَرِ يَغْدُونَ فِي غَضَبِ اللَّهِ وَيَرُوحُونَ فِي سَخَطِ اللَّهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c1e3fa07461577bf4675f2490b96887970af10dbc2858a7bda4e11ae0bc4b26e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Numayr nous a rapporté : Zayd, c’est-à-dire Ibn Ḥubāb, nous a rapporté : Aflaḥ ibn Saʿīd nous a rapporté : ʿAbd Allāh ibn Rāfiʿ, affranchi d’Umm Salama, nous a rapporté : J’ai entendu Abū Hurayra dire que le Messager d’Allah ﷺ a dit : « Si ta vie se prolonge, tu verras peut-être des gens portant dans leurs mains quelque chose comme des queues de vache, qui partent le matin sous la colère d’Allah et reviennent le soir sous Son courroux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8f43d693-f30f-4190-91c1-d6c3aaf15158",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2857b",
+      "reference": "Sahih Muslim, hadith 2857 b, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، وَأَبُو بَكْرِ بْنُ نَافِعٍ وَعَبْدُ بْنُ حُمَيْدٍ قَالُوا حَدَّثَنَا أَبُو عَامِرٍ الْعَقَدِيُّ حَدَّثَنَا أَفْلَحُ بْنُ سَعِيدٍ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ رَافِعٍ، مَوْلَى أُمِّ سَلَمَةَ قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنْ طَالَتْ بِكَ مُدَّةٌ أَوْشَكْتَ أَنْ تَرَى قَوْمًا يَغْدُونَ فِي سَخَطِ اللَّهِ وَيَرُوحُونَ فِي لَعْنَتِهِ فِي أَيْدِيهِمْ مِثْلُ أَذْنَابِ الْبَقَرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2f7893e50bb29de23cc1dc3a1cabfde11248f0c7daf16029d33198806d72ed5e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUbayd Allāh ibn Saʿīd, Abū Bakr ibn Nāfiʿ et ʿAbd ibn Ḥumayd nous ont rapporté : Abū ʿĀmir al-ʿAqadī nous a rapporté : Aflaḥ ibn Saʿīd nous a rapporté : ʿAbd Allāh ibn Rāfiʿ, affranchi d’Umm Salama, m’a rapporté : J’ai entendu Abū Hurayra dire : J’ai entendu le Messager d’Allah ﷺ dire : « Si ta vie se prolonge, tu verras peut-être des gens qui partent le matin sous la colère d’Allah et reviennent le soir sous Sa malédiction, portant dans leurs mains quelque chose comme des queues de vache. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3808fcc3-aad0-4d9c-8c01-2f8304c53e1a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2858",
+      "reference": "Sahih Muslim, hadith 2858, book 53, باب فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+      "title": "باب فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي وَمُحَمَّدُ بْنُ بِشْرٍ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا مُوسَى بْنُ أَعْيَنَ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا أَبُو أُسَامَةَ، كُلُّهُمْ عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ، حَاتِمٍ - وَاللَّفْظُ لَهُ - حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا إِسْمَاعِيلُ، حَدَّثَنَا قَيْسٌ، قَالَ سَمِعْتُ مُسْتَوْرِدًا، أَخَا بَنِي فِهْرٍ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَاللَّهِ مَا الدُّنْيَا فِي الآخِرَةِ إِلاَّ مِثْلُ مَا يَجْعَلُ أَحَدُكُمْ إِصْبَعَهُ هَذِهِ - وَأَشَارَ يَحْيَى بِالسَّبَّابَةِ - فِي الْيَمِّ فَلْيَنْظُرْ بِمَ يَرْجِعُ ‏\"‏ ‏.‏ وَفِي حَدِيثِهِمْ جَمِيعًا غَيْرَ يَحْيَى سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ذَلِكَ ‏.‏ وَفِي حَدِيثِ أَبِي أُسَامَةَ عَنِ الْمُسْتَوْرِدِ بْنِ شَدَّادٍ أَخِي بَنِي فِهْرٍ وَفِي حَدِيثِهِ أَيْضًا قَالَ وَأَشَارَ إِسْمَاعِيلُ بِالإِبْهَامِ ‏.‏",
+      "source_hash_sha256": "1c0234cfbce08e169e301dd21fcfe93ccafa2b0c74a5c817557f444dcd7869c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba nous a rapporté : ʿAbd Allāh ibn Idrīs nous a rapporté. Ibn Numayr nous a également rapporté : mon père et Muḥammad ibn Bishr nous ont rapporté. Yaḥyā ibn Yaḥyā nous a rapporté : Mūsā ibn Aʿyan nous a informés. Muḥammad ibn Rāfiʿ m’a également rapporté : Abū Usāma nous a rapporté. Tous ont rapporté d’après Ismāʿīl ibn Abī Khālid. Muḥammad ibn Ḥātim m’a rapporté — et sa formulation est retenue — : Yaḥyā ibn Saʿīd nous a rapporté : Ismāʿīl nous a rapporté : Qays nous a rapporté : J’ai entendu al-Mustawrid, frère des Banū Fihr, dire : Le Messager d’Allah ﷺ a dit : « Par Allah, ce bas monde comparé à l’au-delà est comme ce que l’un de vous prélève de la mer avec son doigt — et Yaḥyā montra l’index — ; qu’il regarde ce qui lui en revient. » Tous, sauf Yaḥyā, ont dit dans leur version : « J’ai entendu le Messager d’Allah ﷺ dire cela. » Dans la version d’Abū Usāma, il est dit : « al-Mustawrid ibn Shaddād, frère des Banū Fihr » ; on y précise aussi qu’Ismāʿīl a montré son pouce.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b4b9739f-9dbc-4c45-92d1-5ae9908479bd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2859a",
+      "reference": "Sahih Muslim, hadith 2859 a, book 53, باب فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+      "title": "باب فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ حَاتِمِ بْنِ أَبِي صَغِيرَةَ، حَدَّثَنِي ابْنُ أَبِي مُلَيْكَةَ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، عَنْ عَائِشَةَ، قَالَتْ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ يُحْشَرُ النَّاسُ يَوْمَ الْقِيَامَةِ حُفَاةً عُرَاةً غُرْلاً ‏\"‏ ‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ النِّسَاءُ وَالرِّجَالُ جَمِيعًا يَنْظُرُ بَعْضُهُمْ إِلَى بَعْضٍ قَالَ صلى الله عليه وسلم ‏\"‏ يَا عَائِشَةُ الأَمْرُ أَشَدُّ مِنْ أَنْ يَنْظُرَ بَعْضُهُمْ إِلَى بَعْضٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "652d3eebcf80a216c990294851809445b922c76f2137df234b49430b56bac22a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Ḥarb m’a rapporté : Yaḥyā ibn Saʿīd nous a rapporté, d’après Ḥātim ibn Abī Ṣaghīra : Ibn Abī Mulayka m’a rapporté, d’après al-Qāsim ibn Muḥammad, d’après ʿĀʾisha, qui a dit : J’ai entendu le Messager d’Allah ﷺ dire : « Les gens seront rassemblés le Jour de la Résurrection pieds nus, nus et incirconcis. » Je demandai : « Ô Messager d’Allah, les femmes et les hommes seront-ils tous à se regarder les uns les autres ? » Il répondit : « ʿĀʾisha, l’affaire sera trop grave pour qu’ils se regardent les uns les autres. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "868c0099-8137-4b14-9615-10dd9f0c6257",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2859b",
+      "reference": "Sahih Muslim, hadith 2859 b, book 53, باب فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+      "title": "باب فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، عَنْ حَاتِمِ، بْنِ أَبِي صَغِيرَةَ بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ فِي حَدِيثِهِ ‏\"‏ غُرْلاً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e1a653b2fa446e1387de570cf94ec42fec3c125fed8859d13cb2be29c3f095bd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "58dc0739-6707-4180-9f4f-6a61338a97c2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2860a",
+      "reference": "Sahih Muslim, hadith 2860 a, book 53, باب فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+      "title": "باب فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ أَبِي، عُمَرَ قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرُونَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عَمْرٍو، عَنْ سَعِيدِ، بْنِ جُبَيْرٍ عَنِ ابْنِ عَبَّاسٍ، سَمِعَ النَّبِيَّ صلى الله عليه وسلم يَخْطُبُ وَهُوَ يَقُولُ ‏\"‏ إِنَّكُمْ مُلاَقُو اللَّهِ مُشَاةً حُفَاةً عُرَاةً غُرْلاً ‏\"‏ ‏.‏ وَلَمْ يَذْكُرْ زُهَيْرٌ فِي حَدِيثِهِ يَخْطُبُ ‏.‏",
+      "source_hash_sha256": "2c9d436c398774cb1a233d9a82e330bfbda8f8762f16c6d43678742d70399307",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba, Zuhayr ibn Ḥarb, Isḥāq ibn Ibrāhīm et Ibn Abī ʿUmar nous ont rapporté. Isḥāq a dit : Sufyān ibn ʿUyayna nous a informés ; les autres ont dit : Sufyān nous a rapporté, d’après ʿAmr, d’après Saʿīd ibn Jubayr, d’après Ibn ʿAbbās, qui a entendu le Prophète ﷺ prononcer un sermon et dire : « Vous rencontrerez Allah en marchant, pieds nus, nus et incirconcis. » Zuhayr n’a pas mentionné dans sa version qu’il prononçait un sermon.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "868c0099-8137-4b14-9615-10dd9f0c6257",
+      "reason": "Cette entrée renvoie au récit précédent et n’indique que l’omission d’un terme, sans reproduire le texte du récit. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
