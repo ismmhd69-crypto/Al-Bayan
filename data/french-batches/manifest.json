@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5707,
+    "hadithBukhariDrafted": 5712,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5707,
+    "hadithLocalDrafted": 5712,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8922,
-    "hadithNeedsMo": 823,
+    "hadithLocalRemaining": 8917,
+    "hadithNeedsMo": 824,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26296,6 +26296,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1243",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1243.json",
+      "sourceIds": [
+        "d37ed425-e50e-44fa-b4f3-de474e37c27c",
+        "594dae2e-7205-4d5e-a963-22fa271c2597",
+        "4dc8cc21-c1fc-4372-a38f-dfd5ea86c096",
+        "3f1f92b8-fc5d-4a30-83bb-f81e70388ca8",
+        "d591fad7-a8fa-4f00-8cf8-fec946381d85",
+        "d72d9585-5518-4523-a6ac-42eaf323c617"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one legally unclear report held in full. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -29622,11 +29643,17 @@
       "scope": "Sahih al-Bukhari 6755: several legally significant phrases including صرف ولا عدل and أخفر مسلمًا",
       "status": "blocked",
       "reason": "The report contains specialized or legally significant Arabic wording whose precise meaning cannot be established safely from this excerpt alone. Keep the complete translation blank until reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6778-UNCLEAR-LEGAL-LIABILITY",
+      "scope": "Sahih al-Bukhari 6778: unclear legal wording concerning death during enforcement of a penalty and blood-money liability",
+      "status": "blocked",
+      "reason": "The report’s wording about liability if the person died during enforcement and the Prophet’s not having “set it” is legally significant but unclear in this brief excerpt. Keep the complete translation blank until clarified."
     }
   ],
-  "hadithBukhariDrafted": 5707,
-  "hadithLocalDrafted": 5707,
-  "hadithLocalRemaining": 8922,
+  "hadithBukhariDrafted": 5712,
+  "hadithLocalDrafted": 5712,
+  "hadithLocalRemaining": 8917,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30095,6 +30122,12 @@
       "scope": "Sahih al-Bukhari 6755: several legally significant phrases including صرف ولا عدل and أخفر مسلمًا",
       "status": "blocked",
       "reason": "The report contains specialized or legally significant Arabic wording whose precise meaning cannot be established safely from this excerpt alone. Keep the complete translation blank until reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6778-UNCLEAR-LEGAL-LIABILITY",
+      "scope": "Sahih al-Bukhari 6778: unclear legal wording concerning death during enforcement of a penalty and blood-money liability",
+      "status": "blocked",
+      "reason": "The report’s wording about liability if the person died during enforcement and the Prophet’s not having “set it” is legally significant but unclear in this brief excerpt. Keep the complete translation blank until clarified."
     }
   ]
 }
