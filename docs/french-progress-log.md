@@ -5853,3 +5853,8 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6208–6213
 
 - FR-LIB-HAD-BUKHARI-1143 saves six private French drafts about Abû Tâlib, the Prophet’s travel, and fortune-tellers. No database writes or publication occurred. Bukhari local drafts: 5,204 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 766. Total local hadith rows not drafted: 9,423, including held records.
+
+### 2026-10-29: Bukhari 6214–6219 — two held
+
+- FR-LIB-HAD-BUKHARI-1144 saves four private French drafts. Bukhari 6215 and 6217 remain blank because they directly quote Quran 3:190 and 92:5; both await approved, attributed French Quran wording and permission to use it.
+- The four drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,208 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 768. Total local hadith rows not drafted: 9,419, including held records.

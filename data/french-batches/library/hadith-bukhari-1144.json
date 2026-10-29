@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-BUKHARI-1144",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:17:44.756Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3e055821-7257-46d6-9c26-e1a9c8d41412",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6214",
+      "reference": "Sahih al-Bukhari, hadith 6214, book 78, باب رَفْعِ الْبَصَرِ إِلَى السَّمَاءِ",
+      "title": "باب رَفْعِ الْبَصَرِ إِلَى السَّمَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، قَالَ سَمِعْتُ أَبَا سَلَمَةَ بْنَ عَبْدِ الرَّحْمَنِ، يَقُولُ أَخْبَرَنِي جَابِرُ بْنُ عَبْدِ اللَّهِ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ ثُمَّ فَتَرَ عَنِّي الْوَحْىُ، فَبَيْنَا أَنَا أَمْشِي سَمِعْتُ صَوْتًا مِنَ السَّمَاءِ، فَرَفَعْتُ بَصَرِي إِلَى السَّمَاءِ فَإِذَا الْمَلَكُ الَّذِي جَاءَنِي بِحِرَاءٍ قَاعِدٌ عَلَى كُرْسِيٍّ بَيْنَ السَّمَاءِ وَالأَرْضِ ‏\"‏‏.‏",
+      "source_hash_sha256": "68c5ff187ae3d88f4bc079a24e37e11632fce289300c633c4b908e703b44ac92",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Bukayr nous a rapporté : al-Layth nous a rapporté, d’après ‘Uqayl, d’après Ibn Shihâb, qui a dit : J’ai entendu Abû Salama ibn ‘Abd ar-Rahmân dire : Jâbir ibn ‘Abd Allâh m’a informé qu’il avait entendu le Messager d’Allah ﷺ dire : « Puis la révélation s’interrompit quelque temps. Alors que je marchais, j’entendis une voix venant du ciel. Je levai les yeux vers le ciel et vis l’ange qui était venu à moi à Hirâ’, assis sur un siège entre le ciel et la terre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aa5166f0-3eab-48ac-a840-0e76a8d33505",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6215",
+      "reference": "Sahih al-Bukhari, hadith 6215, book 78, باب رَفْعِ الْبَصَرِ إِلَى السَّمَاءِ",
+      "title": "باب رَفْعِ الْبَصَرِ إِلَى السَّمَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، قَالَ أَخْبَرَنِي شَرِيكٌ، عَنْ كُرَيْبٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ بِتُّ فِي بَيْتِ مَيْمُونَةَ وَالنَّبِيُّ صلى الله عليه وسلم عِنْدَهَا، فَلَمَّا كَانَ ثُلُثُ اللَّيْلِ الآخِرُ أَوْ بَعْضُهُ قَعَدَ فَنَظَرَ إِلَى السَّمَاءِ فَقَرَأَ ‏[quran sura=\"3\" aya_start=\"190\" aya_end=\"190\"]{‏إِنَّ فِي خَلْقِ السَّمَوَاتِ وَالأَرْضِ وَاخْتِلاَفِ اللَّيْلِ وَالنَّهَارِ لآيَاتٍ لأُولِي الأَلْبَابِ‏}‏‏.‏",
+      "source_hash_sha256": "64e585c11e92f1b09eb97867003e853ef327d60a4e88858083a7159f09331659",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "4f4a12b5-d700-4f13-a26f-cbe93940fafd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6216",
+      "reference": "Sahih al-Bukhari, hadith 6216, book 78, باب نَكْتِ الْعُودِ فِي الْمَاءِ وَالطِّينِ",
+      "title": "باب نَكْتِ الْعُودِ فِي الْمَاءِ وَالطِّينِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ عُثْمَانَ بْنِ غِيَاثٍ، حَدَّثَنَا أَبُو عُثْمَانَ، عَنْ أَبِي مُوسَى، أَنَّهُ كَانَ مَعَ النَّبِيِّ صلى الله عليه وسلم فِي حَائِطٍ مِنْ حِيطَانِ الْمَدِينَةِ، وَفِي يَدِ النَّبِيِّ صلى الله عليه وسلم عُودٌ يَضْرِبُ بِهِ بَيْنَ الْمَاءِ وَالطِّينِ، فَجَاءَ رَجُلٌ يَسْتَفْتِحُ، فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ افْتَحْ لَهُ وَبَشِّرْهُ بِالْجَنَّةِ ‏\"‏‏.‏ فَذَهَبْتُ فَإِذَا أَبُو بَكْرٍ، فَفَتَحْتُ لَهُ وَبَشَّرْتُهُ بِالْجَنَّةِ، ثُمَّ اسْتَفْتَحَ رَجُلٌ آخَرُ فَقَالَ ‏\"‏ افْتَحْ لَهُ وَبَشِّرْهُ بِالْجَنَّةِ ‏\"‏‏.‏ فَإِذَا عُمَرُ، فَفَتَحْتُ لَهُ وَبَشَّرْتُهُ بِالْجَنَّةِ، ثُمَّ اسْتَفْتَحَ رَجُلٌ آخَرُ، وَكَانَ مُتَّكِئًا فَجَلَسَ فَقَالَ ‏\"‏ افْتَحْ ‏{‏لَهُ‏}‏ وَبَشِّرْهُ بِالْجَنَّةِ، عَلَى بَلْوَى تُصِيبُهُ أَوْ تَكُونُ ‏\"‏‏.‏ فَذَهَبْتُ فَإِذَا عُثْمَانُ، فَفَتَحْتُ لَهُ، وَبَشَّرْتُهُ بِالْجَنَّةِ، فَأَخْبَرْتُهُ بِالَّذِي قَالَ‏.‏ قَالَ اللَّهُ الْمُسْتَعَانُ‏.‏",
+      "source_hash_sha256": "2d44be57f89a93db1aa0df49a5df696bc8365317b4d6a38870e4ed570777f9f8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Yahyâ nous a rapporté, d’après ‘Uthmân ibn Ghiyâth : Abû ‘Uthmân nous a rapporté, d’après Abû Mûsâ, qui a dit : J’étais avec le Prophète ﷺ dans un jardin de Médine. Il tenait un bâton et frappait l’eau et la boue. Un homme demanda à entrer. Le Prophète ﷺ dit : « Ouvre-lui et annonce-lui le Paradis. » J’y allai : c’était Abû Bakr. Je lui ouvris et lui annonçai le Paradis. Un autre homme demanda ensuite à entrer. Le Prophète ﷺ dit : « Ouvre-lui et annonce-lui le Paradis. » C’était ‘Umar. Je lui ouvris et lui annonçai le Paradis. Puis un autre homme demanda à entrer. Le Prophète ﷺ, qui était appuyé, se redressa et dit : « Ouvre-lui et annonce-lui le Paradis, malgré une épreuve qui le touchera — ou qui surviendra. » J’y allai : c’était ‘Uthmân. Je lui ouvris, lui annonçai le Paradis et lui rapportai ce que le Prophète ﷺ avait dit. Il dit : « Allah est Celui dont nous implorons le secours. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e3bdbfa4-3403-4fe5-8240-07108bca9085",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6217",
+      "reference": "Sahih al-Bukhari, hadith 6217, book 78, باب الرَّجُلِ يَنْكُتُ الشَّىْءَ بِيَدِهِ فِي الأَرْضِ",
+      "title": "باب الرَّجُلِ يَنْكُتُ الشَّىْءَ بِيَدِهِ فِي الأَرْضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ شُعْبَةَ، عَنْ سُلَيْمَانَ، وَمَنْصُورٍ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ السُّلَمِيِّ، عَنْ عَلِيٍّ ـ رضى الله عنه ـ قَالَ كُنَّا مَعَ النَّبِيِّ صلى الله عليه وسلم فِي جَنَازَةٍ فَجَعَلَ يَنْكُتُ الأَرْضَ بِعُودٍ، فَقَالَ ‏\"‏ لَيْسَ مِنْكُمْ مِنْ أَحَدٍ إِلاَّ وَقَدْ فُرِغَ مِنْ مَقْعَدِهِ مِنَ الْجَنَّةِ وَالنَّارِ ‏\"‏‏.‏ فَقَالُوا أَفَلاَ نَتَّكِلُ قَالَ ‏\"‏ اعْمَلُوا فَكُلٌّ مُيَسَّرٌ ‏\"‏‏.‏ ‏[quran sura=\"92\" aya_start=\"5\" aya_end=\"5\"]{‏فَأَمَّا مَنْ أَعْطَى وَاتَّقَى‏}‏ الآيَةَ‏.‏",
+      "source_hash_sha256": "e0dec311826b0ab0844e898fa38408ade96f324316bbd681f8065a0001fc2826",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "366625b5-2871-46ca-96b0-2893e96d01f3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6218",
+      "reference": "Sahih al-Bukhari, hadith 6218, book 78, باب التَّكْبِيرِ وَالتَّسْبِيحِ عِنْدَ التَّعَجُّبِ",
+      "title": "باب التَّكْبِيرِ وَالتَّسْبِيحِ عِنْدَ التَّعَجُّبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، حَدَّثَتْنِي هِنْدُ بِنْتُ الْحَارِثِ، أَنَّ أُمَّ سَلَمَةَ ـ رضى الله عنها ـ قَالَتِ اسْتَيْقَظَ النَّبِيُّ صلى الله عليه وسلم فَقَالَ ‏\"‏ سُبْحَانَ اللَّهِ مَاذَا أُنْزِلَ مِنَ الْخَزَائِنِ، وَمَاذَا أُنْزِلَ مِنَ الْفِتَنِ، مَنْ يُوقِظُ صَوَاحِبَ الْحُجَرِ ـ يُرِيدُ بِهِ أَزْوَاجَهُ ـ حَتَّى يُصَلِّينَ، رُبَّ كَاسِيَةٍ فِي الدُّنْيَا، عَارِيَةٍ فِي الآخِرَةِ ‏\"‏‏.‏ وَقَالَ ابْنُ أَبِي ثَوْرٍ عَنِ ابْنِ عَبَّاسٍ، عَنْ عُمَرَ، قَالَ قُلْتُ لِلنَّبِيِّ صلى الله عليه وسلم طَلَّقْتَ نِسَاءَكَ قَالَ ‏\"‏ لاَ ‏\"‏‏.‏ قُلْتُ اللَّهُ أَكْبَرُ‏.‏",
+      "source_hash_sha256": "4e8b92da45646f3a1ee1b236e0684c17ff4e0596b4e2a34a6f2209adb3eee6cc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Yamân nous a rapporté : Shu‘ayb nous a informés, d’après az-Zuhrî. Hind bint al-Hârith m’a rapporté qu’Umm Salama (qu’Allah l’agrée) a dit : Le Prophète ﷺ se réveilla et dit : « Gloire à Allah ! Quels trésors ont été révélés, et quelles épreuves ! Qui réveillera les femmes des appartements — il voulait dire ses épouses — afin qu’elles prient ? Combien de femmes sont vêtues en ce monde et seront dévêtues dans l’au-delà ! » Ibn Abî Thawr a rapporté, d’après Ibn ‘Abbâs, d’après ‘Umar, qui a dit : Je demandai au Prophète ﷺ : « As-tu divorcé de tes épouses ? » Il répondit : « Non. » Je dis : « Allah est le plus grand ! »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b4cba4f9-9025-44bf-8a23-24a76b5824ba",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6219",
+      "reference": "Sahih al-Bukhari, hadith 6219, book 78, باب التَّكْبِيرِ وَالتَّسْبِيحِ عِنْدَ التَّعَجُّبِ",
+      "title": "باب التَّكْبِيرِ وَالتَّسْبِيحِ عِنْدَ التَّعَجُّبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ،‏.‏ وَحَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي أَخِي، عَنْ سُلَيْمَانَ، عَنْ مُحَمَّدِ بْنِ أَبِي عَتِيقٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عَلِيِّ بْنِ الْحُسَيْنِ، أَنَّ صَفِيَّةَ بِنْتَ حُيَىٍّ، زَوْجَ النَّبِيِّ صلى الله عليه وسلم أَخْبَرَتْهُ أَنَّهَا جَاءَتْ رَسُولَ اللَّهِ صلى الله عليه وسلم تَزُورُهُ وَهْوَ مُعْتَكِفٌ فِي الْمَسْجِدِ فِي الْعَشْرِ الْغَوَابِرِ مِنْ رَمَضَانَ، فَتَحَدَّثَتْ عِنْدَهُ سَاعَةً مِنَ الْعِشَاءِ ثُمَّ قَامَتْ تَنْقَلِبُ، فَقَامَ مَعَهَا النَّبِيُّ صلى الله عليه وسلم يَقْلِبُهَا حَتَّى إِذَا بَلَغَتْ باب الْمَسْجِدِ الَّذِي عِنْدَ مَسْكَنِ أُمِّ سَلَمَةَ زَوْجِ النَّبِيِّ صلى الله عليه وسلم مَرَّ بِهِمَا رَجُلاَنِ مِنَ الأَنْصَارِ فَسَلَّمَا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم ثُمَّ نَفَذَا، فَقَالَ لَهُمَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ عَلَى رِسْلِكُمَا، إِنَّمَا هِيَ صَفِيَّةُ بِنْتُ حُيَىٍّ ‏\"‏‏.‏ قَالاَ سُبْحَانَ اللَّهِ يَا رَسُولَ اللَّهِ‏.‏ وَكَبُرَ عَلَيْهِمَا‏.‏ قَالَ ‏\"‏ إِنَّ الشَّيْطَانَ يَجْرِي مِنِ ابْنِ آدَمَ مَبْلَغَ الدَّمِ، وَإِنِّي خَشِيتُ أَنْ يَقْذِفَ فِي قُلُوبِكُمَا ‏\"‏‏.‏",
+      "source_hash_sha256": "7be729027a53d1e8ca45ccafb1de9dbb264cf37d4261cc0ad11b4f83c3beec53",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Yamân nous a rapporté : Shu‘ayb nous a informés, d’après az-Zuhrî. Ismâ‘îl nous a rapporté : Mon frère m’a rapporté, d’après Sulaymân, d’après Muhammad ibn Abî ‘Atîq, d’après Ibn Shihâb, d’après ‘Alî ibn al-Husayn, que Safiyya bint Huyayy, l’épouse du Prophète ﷺ, lui avait rapporté qu’elle était venue rendre visite au Messager d’Allah ﷺ pendant sa retraite spirituelle dans la mosquée, au cours des dernières nuits du Ramadan. Elle s’entretint avec lui pendant un moment après la prière du soir, puis se leva pour rentrer. Le Prophète ﷺ se leva avec elle et l’accompagna jusqu’à la porte de la mosquée située près du logement d’Umm Salama, son épouse. Deux hommes des Ansâr passèrent près d’eux et saluèrent le Messager d’Allah ﷺ, puis poursuivirent leur chemin. Le Messager d’Allah ﷺ leur dit : « Attendez un instant ; il s’agit seulement de Safiyya bint Huyayy. » Ils s’exclamèrent : « Gloire à Allah, ô Messager d’Allah ! » Cette situation leur parut grave. Il dit : « Satan circule dans le fils d’Adam comme le sang, et j’ai craint qu’il ne jette quelque soupçon dans vos cœurs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "aa5166f0-3eab-48ac-a840-0e76a8d33505",
+      "url": "https://sunnah.com/bukhari:6215",
+      "reason": "Le récit cite directement le Coran 3:190. Garder le texte entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    },
+    {
+      "source_id": "e3bdbfa4-3403-4fe5-8240-07108bca9085",
+      "url": "https://sunnah.com/bukhari:6217",
+      "reason": "Le récit cite directement le Coran 92:5. Garder le texte entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}

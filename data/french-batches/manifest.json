@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5204,
+    "hadithBukhariDrafted": 5208,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5204,
+    "hadithLocalDrafted": 5208,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9423,
-    "hadithNeedsMo": 766,
+    "hadithLocalRemaining": 9419,
+    "hadithNeedsMo": 768,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24258,6 +24258,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1144",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1144.json",
+      "sourceIds": [
+        "3e055821-7257-46d6-9c26-e1a9c8d41412",
+        "aa5166f0-3eab-48ac-a840-0e76a8d33505",
+        "4f4a12b5-d700-4f13-a26f-cbe93940fafd",
+        "e3bdbfa4-3403-4fe5-8240-07108bca9085",
+        "366625b5-2871-46ca-96b0-2893e96d01f3",
+        "b4cba4f9-9025-44bf-8a23-24a76b5824ba"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four records passed the focused validator. Two records quoting Quran 3:190 and 92:5 were held blank pending approved, attributed French Quran wording and permission. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -27457,6 +27478,18 @@
       "scope": "Sahih al-Bukhari 6207 direct quotations of Quran 3:186 and 2:109",
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:186 and 2:109. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6215-QURAN-3-190",
+      "scope": "Sahih al-Bukhari 6215 direct quotation of Quran 3:190",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:190. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6217-QURAN-92-5",
+      "scope": "Sahih al-Bukhari 6217 direct quotation of Quran 92:5",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 92:5. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
