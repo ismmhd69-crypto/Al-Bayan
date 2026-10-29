@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6166,
+    "hadithBukhariDrafted": 6171,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6166,
+    "hadithLocalDrafted": 6171,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8463,
-    "hadithNeedsMo": 119,
+    "hadithLocalRemaining": 8458,
+    "hadithNeedsMo": 120,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -28230,6 +28230,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1338",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1338.json",
+      "sourceIds": [
+        "c206009b-ecd5-4808-9663-ba39d3fcbbb9",
+        "3ae07812-3cb6-4358-babc-1adf6d9d5f42",
+        "2200b2ce-2769-4c6a-a95c-3724d8e60de6",
+        "feac1d39-b89a-4d55-bef9-5a50f752ed4b",
+        "dff0ab00-76fa-402b-9607-174a29ca7ebd",
+        "177fec37-a6c7-4120-ae9d-f4e5960e8f6c"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "five complete drafts and one truncated-source hold; source hashes retained; route and location details preserved; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31802,11 +31823,17 @@
       "scope": "Sahih al-Bukhari 7313: direct quotations of Quran 6:65",
       "status": "blocked",
       "reason": "The report directly quotes Quran 6:65. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7337-TRUNCATED-SOURCE",
+      "scope": "Sahih al-Bukhari 7337: excerpt stops after introducing Umar’s statement on the Prophet’s pulpit",
+      "status": "blocked",
+      "reason": "The Arabic excerpt ends after introducing what Ibn Umar heard from Umar on the Prophet’s pulpit and omits Umar’s statement. Keep the complete translation blank pending a complete source."
     }
   ],
-  "hadithBukhariDrafted": 6166,
-  "hadithLocalDrafted": 6166,
-  "hadithLocalRemaining": 8463,
+  "hadithBukhariDrafted": 6171,
+  "hadithLocalDrafted": 6171,
+  "hadithLocalRemaining": 8458,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -32521,6 +32548,12 @@
       "scope": "Sahih al-Bukhari 7313: direct quotations of Quran 6:65",
       "status": "blocked",
       "reason": "The report directly quotes Quran 6:65. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7337-TRUNCATED-SOURCE",
+      "scope": "Sahih al-Bukhari 7337: excerpt stops after introducing Umar’s statement on the Prophet’s pulpit",
+      "status": "blocked",
+      "reason": "The Arabic excerpt ends after introducing what Ibn Umar heard from Umar on the Prophet’s pulpit and omits Umar’s statement. Keep the complete translation blank pending a complete source."
     }
   ],
   "hadithMuslimDrafted": 0

@@ -6866,3 +6866,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1337 saves six private French drafts, preserving the alternate measurement report, stated distances, and the corroborating route. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,166 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 119. Total local hadith rows not drafted: 8,463, including held records.
+
+### 2026-10-29: Bukhari 7334–7339
+
+- FR-LIB-HAD-BUKHARI-1338 saves five private French drafts. Hadith 7337 is truncated after introducing Umar’s words on the Prophet’s pulpit; its entire translation remains blank under Needs Mo until a complete source is available. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,171 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 120. Total local hadith rows not drafted: 8,458, including held records.
