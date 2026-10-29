@@ -36344,6 +36344,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0354",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0354.json",
+      "sourceIds": [
+        "dc119957-7e1b-4f1d-8738-3a0dcbb4e1f5",
+        "9a6eb166-01b7-4ef2-afd9-31957ab7c76c",
+        "286dae4c-3683-47cb-b0d3-d1a4f64bf827",
+        "98ddcbf8-7342-49f2-a49d-b7587c9416af",
+        "0bb4dd80-06d8-4621-97e6-4543aab9ef06",
+        "0e7e1052-3499-45a0-889f-f0a0e64aadfb"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40651,8 +40672,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7740,
-  "hadithLocalRemaining": 6889,
+  "hadithLocalDrafted": 7744,
+  "hadithLocalRemaining": 6885,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43227,10 +43248,22 @@
       "scope": "Sahih Muslim 826b: incomplete variant-only report",
       "status": "blocked",
       "reason": "La source donne seulement une variante de chaîne et une précision sur le moment où le soleil se lève, sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0354-827E-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 827E: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source ne rapporte que la première interdiction du récit précédent et renvoie au reste sans le reproduire. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0354-827H-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 827H: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source ne donne qu’une variante de durée du voyage dans le récit précédent, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1404,
+  "hadithMuslimDrafted": 1408,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 665
+  "hadithNeedsMo": 667
 }
