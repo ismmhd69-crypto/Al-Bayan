@@ -34663,6 +34663,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0273",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0273.json",
+      "sourceIds": [
+        "8cb9a0e4-e66c-4082-84eb-b5d6ce15dae0",
+        "ccd82f52-4298-41b7-97ad-bf0803b0f43c",
+        "d4d96c66-efab-4dc6-8d76-88bc0ff7f8c5",
+        "23a35bb9-2d62-4028-8346-47eca50ef8d3",
+        "f6b50a90-8da0-4047-a39c-d20d58ac8293",
+        "20a46f7d-9a12-4e49-92b1-28bb6850b9d4"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -38970,8 +38991,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7425,
-  "hadithLocalRemaining": 7204,
+  "hadithLocalDrafted": 7429,
+  "hadithLocalRemaining": 7200,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40646,10 +40667,22 @@
       "scope": "Sahih Muslim 649l: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source arabe renvoie au récit précédent en indiquant seulement qu’il en reprend le sens, sans reproduire le texte complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0273-650C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 650c: incomplete variant report",
+      "status": "blocked",
+      "reason": "La source arabe ne reproduit pas le récit complet : elle ne donne que la chaîne de transmission et certaines différences de formulation ou de nombre. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0273-650D-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 650d: incomplete variant report",
+      "status": "blocked",
+      "reason": "La source arabe ne reproduit pas le récit complet : elle ne donne que la chaîne de transmission et certaines différences de formulation ou de nombre. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1089,
-  "hadithDatabaseMissing": 7204,
+  "hadithMuslimDrafted": 1093,
+  "hadithDatabaseMissing": 7200,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 515
+  "hadithNeedsMo": 517
 }
