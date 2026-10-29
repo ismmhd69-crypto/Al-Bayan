@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-710",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:08:37.194Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "17f0f50b-ab1d-4d5d-90f9-16f6d9e5647c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3968",
+      "reference": "Sahih al-Bukhari, hadith 3968, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ جَعْفَرٍ، أَخْبَرَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ أَبِي هَاشِمٍ، عَنْ أَبِي مِجْلَزٍ، عَنْ قَيْسِ بْنِ عُبَادٍ، سَمِعْتُ أَبَا ذَرٍّ ـ رضى الله عنه ـ يُقْسِمُ لَنَزَلَتْ هَؤُلاَءِ الآيَاتُ فِي هَؤُلاَءِ الرَّهْطِ السِّتَّةِ يَوْمَ بَدْرٍ‏.‏ نَحْوَهُ‏.‏",
+      "source_hash_sha256": "d85ff34ed9349327f46cbd22a18695b65c298ab9d815d96aef1aac03f25da9a6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Dharr, qu’Allah l’agrée, jurait que ces versets avaient été révélés au sujet de ces six hommes, le jour de Badr. Le récit est semblable.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bb33b6dc-e319-4ee0-a744-cb2061dfc0e6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3969",
+      "reference": "Sahih al-Bukhari, hadith 3969, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هُشَيْمٌ، أَخْبَرَنَا أَبُو هَاشِمٍ، عَنْ أَبِي مِجْلَزٍ، عَنْ قَيْسٍ، قَالَ سَمِعْتُ أَبَا ذَرٍّ، يُقْسِمُ قَسَمًا إِنَّ هَذِهِ الآيَةَ ‏[quran sura=\"22\" aya_start=\"19\" aya_end=\"19\"]{‏هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ ‏}‏ نَزَلَتْ فِي الَّذِينَ بَرَزُوا يَوْمَ بَدْرٍ حَمْزَةَ وَعَلِيٍّ وَعُبَيْدَةَ بْنِ الْحَارِثِ وَعُتْبَةَ وَشَيْبَةَ ابْنَىْ رَبِيعَةَ وَالْوَلِيدِ بْنِ عُتْبَةَ‏.‏",
+      "source_hash_sha256": "16e8e61dbd3db9ee3bb0f2e198566e30506715840aa6181c589fb4c7bb6c59da",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "40ecd390-cdd6-4d98-8801-0632520fc7ea",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3970",
+      "reference": "Sahih al-Bukhari, hadith 3970, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَحْمَدُ بْنُ سَعِيدٍ أَبُو عَبْدِ اللَّهِ، حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ يُوسُفَ، عَنْ أَبِيهِ، عَنْ أَبِي إِسْحَاقَ، سَأَلَ رَجُلٌ الْبَرَاءَ وَأَنَا أَسْمَعُ، قَالَ أَشَهِدَ عَلِيٌّ بَدْرًا قَالَ بَارَزَ وَظَاهَرَ‏.‏",
+      "source_hash_sha256": "a376d0ce33bb925a93d93b21fa098923e8f8bb10550151c819b5b32e646cefad",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Un homme demanda à al-Barâ’ : « ʿAlî a-t-il participé à Badr ? » Il répondit : « Il combattit en duel et soutint les combattants. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "77142aa6-d10b-40ae-a149-b411dcdd6e1a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3971",
+      "reference": "Sahih al-Bukhari, hadith 3971, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي يُوسُفُ بْنُ الْمَاجِشُونِ، عَنْ صَالِحِ بْنِ إِبْرَاهِيمَ بْنِ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ عَبْدِ الرَّحْمَنِ، قَالَ كَاتَبْتُ أُمَيَّةَ بْنَ خَلَفٍ، فَلَمَّا كَانَ يَوْمُ بَدْرٍ، فَذَكَرَ قَتْلَهُ وَقَتْلَ ابْنِهِ، فَقَالَ بِلاَلٌ لاَ نَجَوْتُ إِنْ نَجَا أُمَيَّةُ‏.‏",
+      "source_hash_sha256": "99fc36d6af828acfa0d740e4f06d38e97ad8dd91408c9671bd31f5eb69d3cc4a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd al-Rahmân ibn ʿAwf rapporte : « J’avais conclu un accord écrit avec Umayya ibn Khalaf : il prendrait soin de mes proches et de mes biens à La Mecque, et je prendrais soin des siens à Médine. »\n\nʿAbd al-Rahmân évoqua ensuite la mort d’Umayya et de son fils le jour de Badr. Bilâl dit alors : « Malheur à moi si Umayya s’en sort vivant ! »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0382c39d-9406-4c50-9e59-ff5048030bc5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3972",
+      "reference": "Sahih al-Bukhari, hadith 3972, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ بْنُ عُثْمَانَ، قَالَ أَخْبَرَنِي أَبِي، عَنْ شُعْبَةَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الأَسْوَدِ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَرَأَ ‏{‏وَالنَّجْمِ‏}‏ فَسَجَدَ بِهَا، وَسَجَدَ مَنْ مَعَهُ، غَيْرَ أَنَّ شَيْخًا أَخَذَ كَفًّا مِنْ تُرَابٍ فَرَفَعَهُ إِلَى جَبْهَتِهِ فَقَالَ يَكْفِينِي هَذَا‏.‏ قَالَ عَبْدُ اللَّهِ فَلَقَدْ رَأَيْتُهُ بَعْدُ قُتِلَ كَافِرًا‏.‏",
+      "source_hash_sha256": "7bdf4222cec6ad100b0ae4cd58a694285b13b41c3b8f214863afee3160f0f6b3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9a6081fa-4d23-48c5-9db8-8f947adf14c2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3973",
+      "reference": "Sahih al-Bukhari, hadith 3973, book 64, باب قَتْلِ أَبِي جَهْلٍ",
+      "title": "باب قَتْلِ أَبِي جَهْلٍ",
+      "source_published": true,
+      "text_original": "أَخْبَرَنِي إِبْرَاهِيمُ بْنُ مُوسَى، حَدَّثَنَا هِشَامُ بْنُ يُوسُفَ، عَنْ مَعْمَرٍ، عَنْ هِشَامٍ، عَنْ عُرْوَةَ، قَالَ كَانَ فِي الزُّبَيْرِ ثَلاَثُ ضَرَبَاتٍ بِالسَّيْفِ، إِحْدَاهُنَّ فِي عَاتِقِهِ، قَالَ إِنْ كُنْتُ لأُدْخِلُ أَصَابِعِي فِيهَا‏.‏ قَالَ ضُرِبَ ثِنْتَيْنِ يَوْمَ بَدْرٍ، وَوَاحِدَةً يَوْمَ الْيَرْمُوكِ‏.‏ قَالَ عُرْوَةُ وَقَالَ لِي عَبْدُ الْمَلِكِ بْنُ مَرْوَانَ حِينَ قُتِلَ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ يَا عُرْوَةُ، هَلْ تَعْرِفُ سَيْفَ الزُّبَيْرِ قُلْتُ نَعَمْ‏.‏ قَالَ فَمَا فِيهِ قُلْتُ فِيهِ فَلَّةٌ فُلَّهَا يَوْمَ بَدْرٍ‏.‏ قَالَ صَدَقْتَ‏.‏ بِهِنَّ فُلُولٌ مِنْ قِرَاعِ الْكَتَائِبِ ثُمَّ رَدَّهُ عَلَى عُرْوَةَ‏.‏ قَالَ هِشَامٌ فَأَقَمْنَاهُ بَيْنَنَا ثَلاَثَةَ آلاَفٍ، وَأَخَذَهُ بَعْضُنَا، وَلَوَدِدْتُ أَنِّي كُنْتُ أَخَذْتُهُ‏.‏",
+      "source_hash_sha256": "99ad200c552f3624b2b23714c07af28ff91006a706f7b4136c29df9aecfd5628",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUrwa rapporte : « Al-Zubayr portait trois cicatrices de coups d’épée, dont une à l’épaule. Je pouvais y introduire mes doigts. Il en avait reçu deux le jour de Badr et une le jour de Yarmûk.\n\nʿAbd al-Malik ibn Marwân me demanda, après la mort de ʿAbd Allâh ibn al-Zubayr : “Connais-tu l’épée d’al-Zubayr ?” Je répondis : “Oui.” Il demanda : “Quelle marque porte-t-elle ?” Je répondis : “Une entaille reçue à Badr.” Il dit : “C’est exact. Elle porte des entailles dues aux combats contre les troupes.” Puis il me rendit l’épée.\n\nHishâm rapporte : « Nous l’avions estimée à trois mille. L’un de nous la prit, et j’aurais aimé être celui qui l’avait prise. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "reason": "The report directly quotes Quran 22:19. No approved, attributed French Quran translation has been confirmed. The complete record remains blank rather than creating unapproved French Quran wording.",
+      "url": "https://sunnah.com/bukhari:3969",
+      "source_id": "bb33b6dc-e319-4ee0-a744-cb2061dfc0e6"
+    },
+    {
+      "reason": "The report directly quotes Quran 53:1. No approved, attributed French Quran translation has been confirmed. The complete record remains blank rather than creating unapproved French Quran wording.",
+      "url": "https://sunnah.com/bukhari:3972",
+      "source_id": "0382c39d-9406-4c50-9e59-ff5048030bc5"
+    }
+  ]
+}
