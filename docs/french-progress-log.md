@@ -1040,3 +1040,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-215` saves six private French drafts for Bukhari 1234–1239. They preserve the prayer gesture account, the report of Aïcha’s response to a sign, and the seven commands and seven prohibitions.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,146 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 57. Total local hadith rows not drafted: 13,483, including held records.
+### 2026-10-29: Bukhari 1240–1246 source review
+
+- `FR-LIB-HAD-BUKHARI-216` saves five private French drafts for Bukhari 1240 and 1243–1246. The combined 1241–1242 report remains blank and is recorded under Needs Mo because it directly quotes Quran 3:144; no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,151 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 58. Total local hadith rows not drafted: 13,478, including held records.
