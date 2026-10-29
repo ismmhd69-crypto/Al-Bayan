@@ -904,3 +904,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-181` saves six private French drafts for Bukhari 1028–1033. They preserve the different accounts of the rain prayer, raising the hands, the rain invocation, and the storm that later eased around Medina.
 - I checked Bukhari 1029 against its source page to clarify the final phrase about travelers and blocked roads; the source describes travelers being delayed by the rain. The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 958 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 47. Total local hadith rows not drafted: 13,671, including held records.
+### 2026-10-29: Bukhari 1034–1039 source review
+
+- `FR-LIB-HAD-BUKHARI-182` saves six private French drafts for Bukhari 1034–1039. They preserve the reports about strong winds, the accounts of the rain prayer, and the warning to attribute rainfall to Allah rather than to an astrological sign.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 964 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 47. Total local hadith rows not drafted: 13,665, including held records.
