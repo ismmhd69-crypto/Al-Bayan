@@ -8569,3 +8569,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0288 saves two private French drafts about resting during travel and making up an inadvertently missed prayer. Muslim 682b and 684b are incomplete variants; 684a and 684d quote Quran 20:14. All four remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,144 Muslim drafts, 7,480 total hadith drafts, 7,149 remaining, and 543 Needs Mo items.
 \n- Correction to FR-LIB-HAD-MUSLIM-0288: Muslim 684b is a complete variant with one omitted phrase, so it now has a French draft. Muslim 682b remains the incomplete report held blank. Counts updated accordingly.
+
+### 2026-10-29: Muslim 685a–687a
+
+- FR-LIB-HAD-MUSLIM-0289 saves four private French drafts about the number of prayer units in residence and during travel. Muslim 686a quotes Quran 4:101; 686b is an incomplete cross-reference. Both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,149 Muslim drafts, 7,485 total hadith drafts, 7,144 remaining, and 544 Needs Mo items.
