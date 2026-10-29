@@ -10161,3 +10161,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0606 saves two private French drafts about Safiyya’s emancipation and marriage. Four other reports (Muslim 1365e, 1365g, 1365h, and 1365i) contain a Quranic quotation and remain entirely blank under Needs Mo until an approved French Quran translation and rights are confirmed.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1366–1370b
+
+- FR-LIB-HAD-MUSLIM-0607 saves five private French drafts about Medina’s sacred boundaries, blessings, and related rulings. Muslim 1370b only gives additions and omissions by reference to the previous report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
