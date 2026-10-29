@@ -42404,6 +42404,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0649",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0649.json",
+      "sourceIds": [
+        "4161ac37-990f-4e2b-8870-fa8767334ddd",
+        "534f3024-f869-4e8a-89cc-7fc16b836d01",
+        "68292b24-a483-47e0-ac17-60a657b2b70a",
+        "bef78f71-a7a4-421c-8673-7a5955cde175",
+        "af8d58cb-cce0-48c6-9337-e3771875b58d",
+        "22a60412-cf4c-4847-86bf-536406e34696"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, three incomplete or chain-confirmation-only variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46711,8 +46732,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8918,
-  "hadithLocalRemaining": 5711,
+  "hadithLocalDrafted": 8921,
+  "hadithLocalRemaining": 5708,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50864,10 +50885,25 @@
       "source_id": "48c3efcb-52ac-4b58-8389-4f606714a38f",
       "reason": "Cette entrée renvoie au récit précédent (« مثله ») et n’en donne que des variantes de formulation et de chaîne. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "4161ac37-990f-4e2b-8870-fa8767334ddd",
+      "reason": "Cette entrée confirme seulement la transmission d’un récit précédent sur le coït interrompu, sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "534f3024-f869-4e8a-89cc-7fc16b836d01",
+      "reason": "Cette entrée demande si le transmetteur a entendu le récit, puis renvoie à son contenu en n’en donnant que le sens jusqu’au mot « destin ». Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "af8d58cb-cce0-48c6-9337-e3771875b58d",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« بمثله »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2582,
+  "hadithMuslimDrafted": 2585,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1123
+  "hadithNeedsMo": 1126
 }
