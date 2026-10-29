@@ -2526,3 +2526,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-522` saves one private French draft on the Prophet’s guidance to Mu‘âdh and Abû Mûsâ before their mission to Yemen. The exporter found one eligible record.
 - The record passed the focused validator for its Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,736 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,919, including held records.
+
+### 2026-10-29: Bukhari 3039 long-source review
+
+- `FR-LIB-HAD-BUKHARI-523` saves the complete 2,426-character Bukhari 3039 report about Uhud, the archers’ post, and the calls exchanged after the battle. The exporter found one eligible record, and it passed the single-item long-source validator.
+- No database writes or publication occurred. Bukhari local drafts: 2,737 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,918, including held records.
