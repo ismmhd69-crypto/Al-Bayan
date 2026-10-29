@@ -1821,3 +1821,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-381` saves six private French drafts for Bukhari 2228–2232 and 2234. The combined source record is referenced as Bukhari 2232–2233; its full report is translated once.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,032 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,597, including held records.
+
+### 2026-10-29: Bukhari 2235–2239b source review
+
+- `FR-LIB-HAD-BUKHARI-382` saves six private French drafts for Bukhari 2235–2239b, preserving the reported chain variant in 2236 and the short parallel wording in 2239b.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,038 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,591, including held records.
