@@ -41508,6 +41508,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0605",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0605.json",
+      "sourceIds": [
+        "01b101f1-2259-497a-aed8-63e96221e963"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: one isolated 2,089-character source; Arabic original and hash, ID, Quran quotation held fully blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -49633,10 +49649,15 @@
       "source_id": "91d113af-9a94-4ff9-ac45-6a8fa924af71",
       "reason": "Cette entrée ne reproduit pas le récit et renvoie au précédent (« بِمِثْلِهِ »), en ne précisant qu’une variante de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "01b101f1-2259-497a-aed8-63e96221e963",
+      "reason": "Cette source isolée de 2 089 caractères contient une citation coranique (« إِنَّا إِذَا نَزَلْنَا بِسَاحَةِ قَوْمٍ فَسَاءَ صَبَاحُ الْمُنْذَرِينَ »). Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 2413,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1056
+  "hadithNeedsMo": 1057
 }

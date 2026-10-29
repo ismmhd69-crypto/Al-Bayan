@@ -10151,3 +10151,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0604 saves one private French draft about Anas serving the Prophet ﷺ and the sanctity of Medina. Muslim 1365b gives only a variant by reference to the preceding report and remains blank under Needs Mo.
 - Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1365c (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0605 isolates the 2,089-character report. It contains a Quranic quotation, so its entire French text remains blank under Needs Mo until an approved French Quran translation and rights are confirmed.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
