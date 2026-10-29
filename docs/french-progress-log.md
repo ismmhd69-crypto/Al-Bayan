@@ -6726,3 +6726,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1309 saves one private French draft for a long report combining the Hunayn account with a detailed summary of juristic views on a judge ruling from personal knowledge. The narration and each attributed legal view are retained. No database writes or publication occurred.
 - The source hash is retained and the focused batch validator passed. Bukhari local drafts: 6,036 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 850. Total local hadith rows not drafted: 8,593, including held records.
+
+### 2026-10-29: Bukhari 7171–7176
+
+- FR-LIB-HAD-BUKHARI-1310 saves six private French drafts, preserving the variant routes, the named regional beverage, the full public-office warning and the consent procedure for releasing captives. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,042 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 850. Total local hadith rows not drafted: 8,587, including held records.
