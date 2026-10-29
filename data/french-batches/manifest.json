@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 5661,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 8968,
-    "hadithNeedsMo": 814,
+    "hadithNeedsMo": 815,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26076,6 +26076,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1232",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1232.json",
+      "sourceIds": [
+        "a76f5c14-1301-49ce-99df-0b5ed0d2fea2"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One 2,316-character source isolated as a single-item batch; complete report held for unclear wording. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: unclear rare camel description"
     }
   ],
   "blockers": [
@@ -29348,6 +29364,12 @@
       "scope": "Sahih al-Bukhari 6709: damaged chain phrase قال سمعته من، فيه عن",
       "status": "blocked",
       "reason": "The narrator chain contains a damaged and incomplete phrase before the otherwise clear report. Keep the complete item blank until the chain is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6721-UNCLEAR-CAMEL-DESCRIPTION",
+      "scope": "Sahih al-Bukhari 6721: 2,316-character report with rare phrase غُرّ الذرى for the camels",
+      "status": "blocked",
+      "reason": "The report contains the rare phrase غُرّ الذرى describing the camels; its precise meaning remains unconfirmed. Keep the complete translation blank until clarified."
     }
   ],
   "hadithBukhariDrafted": 5661,
@@ -29767,6 +29789,12 @@
       "scope": "Sahih al-Bukhari 6709: damaged chain phrase قال سمعته من، فيه عن",
       "status": "blocked",
       "reason": "The narrator chain contains a damaged and incomplete phrase before the otherwise clear report. Keep the complete item blank until the chain is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6721-UNCLEAR-CAMEL-DESCRIPTION",
+      "scope": "Sahih al-Bukhari 6721: 2,316-character report with rare phrase غُرّ الذرى for the camels",
+      "status": "blocked",
+      "reason": "The report contains the rare phrase غُرّ الذرى describing the camels; its precise meaning remains unconfirmed. Keep the complete translation blank until clarified."
     }
   ]
 }
