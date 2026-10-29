@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-108",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T02:41:55.255Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3ab76c1b-4c64-4360-bcf0-9b6cf6738098",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:596",
+      "reference": "Sahih al-Bukhari, hadith 596, book 9, باب مَنْ صَلَّى بِالنَّاسِ جَمَاعَةً بَعْدَ ذَهَابِ الْوَقْتِ",
+      "title": "باب مَنْ صَلَّى بِالنَّاسِ جَمَاعَةً بَعْدَ ذَهَابِ الْوَقْتِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُعَاذُ بْنُ فَضَالَةَ، قَالَ حَدَّثَنَا هِشَامٌ، عَنْ يَحْيَى، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ عُمَرَ بْنَ الْخَطَّابِ، جَاءَ يَوْمَ الْخَنْدَقِ بَعْدَ مَا غَرَبَتِ الشَّمْسُ، فَجَعَلَ يَسُبُّ كُفَّارَ قُرَيْشٍ قَالَ يَا رَسُولَ اللَّهِ مَا كِدْتُ أُصَلِّي الْعَصْرَ حَتَّى كَادَتِ الشَّمْسُ تَغْرُبُ‏.‏ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ وَاللَّهِ مَا صَلَّيْتُهَا ‏\"‏‏.‏ فَقُمْنَا إِلَى بُطْحَانَ، فَتَوَضَّأَ لِلصَّلاَةِ، وَتَوَضَّأْنَا لَهَا فَصَلَّى الْعَصْرَ بَعْدَ مَا غَرَبَتِ الشَّمْسُ، ثُمَّ صَلَّى بَعْدَهَا الْمَغْرِبَ‏.‏",
+      "source_hash_sha256": "e26091c9264187188a173b907f548631f621f8bad59287872a93585f9646865c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muadh ibn Fadala nous a rapporté, en disant : Hisham nous a rapporté, d’après Yahya, d’après Abou Salama, d’après Jabir ibn Abd Allah, qui a dit : « Le jour de la bataille du Fossé, Umar ibn al-Khattab arriva après le coucher du soleil et se mit à insulter les mécréants de Quraysh. Il dit : “Ô Messager d’Allah, j’ai failli ne pas accomplir la prière de l’après-midi avant que le soleil ne se couche.” Le Prophète, qu’Allah le bénisse et lui accorde la paix, répondit : “Par Allah, je ne l’ai pas accomplie.” Nous nous rendîmes à Buthan. Il fit ses ablutions pour la prière, et nous les fîmes aussi. Il accomplit la prière de l’après-midi après le coucher du soleil, puis la prière du coucher du soleil. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d71afbda-638d-40d2-a263-95f7cb7555da",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:597",
+      "reference": "Sahih al-Bukhari, hadith 597, book 9, باب مَنْ نَسِيَ صَلاَةً فَلْيُصَلِّ إِذَا ذَكَرَهَا وَلاَ يُعِيدُ إِلاَّ تِلْكَ الصَّلاَةَ",
+      "title": "باب مَنْ نَسِيَ صَلاَةً فَلْيُصَلِّ إِذَا ذَكَرَهَا وَلاَ يُعِيدُ إِلاَّ تِلْكَ الصَّلاَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، وَمُوسَى بْنُ إِسْمَاعِيلَ، قَالاَ حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ نَسِيَ صَلاَةً فَلْيُصَلِّ إِذَا ذَكَرَهَا، لاَ كَفَّارَةَ لَهَا إِلاَّ ذَلِكَ ‏\"‏‏.‏ ‏[quran sura=\"20\" aya_start=\"14\" aya_end=\"14\"]{‏وَأَقِمِ الصَّلاَةَ لِذِكْرِي‏}‏ قَالَ مُوسَى قَالَ هَمَّامٌ سَمِعْتُهُ يَقُولُ بَعْدُ ‏[quran sura=\"20\" aya_start=\"14\" aya_end=\"14\"]{‏وَأَقِمِ الصَّلاَةَ لِذِكْرِي‏}‏‏.‏وَقَالَ حَبَّانُ حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، حَدَّثَنَا أَنَسٌ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ‏.‏",
+      "source_hash_sha256": "e36d13beaf1c3521b36410c8c68a1529aeee07a667686789b4988032400ae872",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_approved_french_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aa14eb23-529a-4443-a30b-baaa6deee0fa",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:598",
+      "reference": "Sahih al-Bukhari, hadith 598, book 9, باب قَضَاءِ الصَّلَوَاتِ الأُولَى فَالأُولَى",
+      "title": "باب قَضَاءِ الصَّلَوَاتِ الأُولَى فَالأُولَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ هِشَامٍ، قَالَ حَدَّثَنَا يَحْيَى ـ هُوَ ابْنُ أَبِي كَثِيرٍ ـ عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، قَالَ جَعَلَ عُمَرُ يَوْمَ الْخَنْدَقِ يَسُبُّ كُفَّارَهُمْ وَقَالَ مَا كِدْتُ أُصَلِّي الْعَصْرَ حَتَّى غَرَبَتْ‏.‏ قَالَ فَنَزَلْنَا بُطْحَانَ، فَصَلَّى بَعْدَ مَا غَرَبَتِ الشَّمْسُ، ثُمَّ صَلَّى الْمَغْرِبَ‏.‏",
+      "source_hash_sha256": "4ff657b91576d61bfb6842f3052d9960b860bc6d33028629dec94d5aeaac4103",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté, en disant : Yahya nous a rapporté, d’après Hisham, qui a dit : Yahya — c’est Ibn Abi Kathir — nous a rapporté, d’après Abou Salama, d’après Jabir, qui a dit : « Le jour de la bataille du Fossé, Umar se mit à insulter leurs mécréants et dit : “J’ai failli laisser passer la prière de l’après-midi jusqu’au coucher du soleil.” » Il dit : « Nous descendîmes à Buthan. Il accomplit la prière après le coucher du soleil, puis la prière du coucher du soleil. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5bc3c1a-daa7-4d12-ba83-82710f596be0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:599",
+      "reference": "Sahih al-Bukhari, hadith 599, book 9, باب مَا يُكْرَهُ مِنَ السَّمَرِ بَعْدَ الْعِشَاءِ",
+      "title": "باب مَا يُكْرَهُ مِنَ السَّمَرِ بَعْدَ الْعِشَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، قَالَ حَدَّثَنَا عَوْفٌ، قَالَ حَدَّثَنَا أَبُو الْمِنْهَالِ، قَالَ انْطَلَقْتُ مَعَ أَبِي إِلَى أَبِي بَرْزَةَ الأَسْلَمِيِّ فَقَالَ لَهُ أَبِي حَدِّثْنَا كَيْفَ، كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي الْمَكْتُوبَةَ قَالَ كَانَ يُصَلِّي الْهَجِيرَ وَهْىَ الَّتِي تَدْعُونَهَا الأُولَى حِينَ تَدْحَضُ الشَّمْسُ، وَيُصَلِّي الْعَصْرَ، ثُمَّ يَرْجِعُ أَحَدُنَا إِلَى أَهْلِهِ فِي أَقْصَى الْمَدِينَةِ وَالشَّمْسُ حَيَّةٌ، وَنَسِيتُ مَا قَالَ فِي الْمَغْرِبِ‏.‏ قَالَ وَكَانَ يَسْتَحِبُّ أَنْ يُؤَخِّرَ الْعِشَاءَ‏.‏ قَالَ وَكَانَ يَكْرَهُ النَّوْمَ قَبْلَهَا وَالْحَدِيثَ بَعْدَهَا، وَكَانَ يَنْفَتِلُ مِنْ صَلاَةِ الْغَدَاةِ حِينَ يَعْرِفُ أَحَدُنَا جَلِيسَهُ، وَيَقْرَأُ مِنَ السِّتِّينَ إِلَى الْمِائَةِ‏.‏",
+      "source_hash_sha256": "81fd8bc62365273a09561fd86c0ab9d814f81128b3c0ee79ee710ac27bb2996c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté, en disant : Yahya nous a rapporté, en disant : Awf nous a rapporté : Abou al-Minhal nous a rapporté : « Je partis avec mon père auprès d’Abou Barza al-Aslami. Mon père lui dit : “Raconte-nous comment le Messager d’Allah, qu’Allah le bénisse et lui accorde la paix, accomplissait les prières obligatoires.” Il répondit : “Il accomplissait la prière de la mi-journée — celle que vous appelez la première — lorsque le soleil avait dépassé son zénith. Il accomplissait ensuite la prière de l’après-midi ; l’un de nous pouvait retourner auprès de sa famille, à l’autre bout de Médine, alors que le soleil brillait encore. J’ai oublié ce qu’il a dit au sujet du coucher du soleil. Il préférait retarder la prière de la nuit. Il n’aimait pas dormir avant celle-ci ni parler après. Il terminait la prière de l’aube lorsque chacun de nous pouvait reconnaître celui qui était assis près de lui ; il y récitait entre soixante et cent versets.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e3d4356d-c94c-4e2a-a778-b2fa9df76401",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:600",
+      "reference": "Sahih al-Bukhari, hadith 600, book 9, باب السَّمَرِ فِي الْفِقْهِ وَالْخَيْرِ بَعْدَ الْعِشَاءِ",
+      "title": "باب السَّمَرِ فِي الْفِقْهِ وَالْخَيْرِ بَعْدَ الْعِشَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ الصَّبَّاحِ، قَالَ حَدَّثَنَا أَبُو عَلِيٍّ الْحَنَفِيُّ، حَدَّثَنَا قُرَّةُ بْنُ خَالِدٍ، قَالَ انْتَظَرْنَا الْحَسَنَ وَرَاثَ عَلَيْنَا حَتَّى قَرُبْنَا مِنْ وَقْتِ قِيَامِهِ، فَجَاءَ فَقَالَ دَعَانَا جِيرَانُنَا هَؤُلاَءِ‏.‏ ثُمَّ قَالَ قَالَ أَنَسٌ نَظَرْنَا النَّبِيَّ صلى الله عليه وسلم ذَاتَ لَيْلَةٍ حَتَّى كَانَ شَطْرُ اللَّيْلِ يَبْلُغُهُ، فَجَاءَ فَصَلَّى لَنَا، ثُمَّ خَطَبَنَا فَقَالَ ‏\"‏ أَلاَ إِنَّ النَّاسَ قَدْ صَلَّوْا ثُمَّ رَقَدُوا، وَإِنَّكُمْ لَمْ تَزَالُوا فِي صَلاَةٍ مَا انْتَظَرْتُمُ الصَّلاَةَ ‏\"‏‏.‏ قَالَ الْحَسَنُ وَإِنَّ الْقَوْمَ لاَ يَزَالُونَ بِخَيْرٍ مَا انْتَظَرُوا الْخَيْرَ‏.‏ قَالَ قُرَّةُ هُوَ مِنْ حَدِيثِ أَنَسٍ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "602178bf21d72f714e2584ca889680d059bef24fe8c0d0162fbd3527abd1d26e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn as-Sabbah nous a rapporté, en disant : Abou Ali al-Hanafi nous a rapporté : Qurra ibn Khalid nous a rapporté : « Nous attendîmes Al-Hasan, qui nous retarda jusqu’à ce que l’heure où il se levait habituellement pour prier approche. Il vint et dit : “Ces voisins nous ont invités.” Puis il rapporta qu’Anas avait dit : “Une nuit, nous attendîmes le Prophète, qu’Allah le bénisse et lui accorde la paix, jusqu’à ce que la moitié de la nuit soit presque passée. Il vint, dirigea la prière pour nous, puis nous fit un sermon en disant : ‘Les gens ont prié puis se sont endormis, tandis que vous restez en prière tant que vous attendez la prière.’” » Al-Hasan dit : « Les gens demeurent dans le bien tant qu’ils attendent le bien. » Qurra dit : « Ceci est un récit d’Anas, d’après le Prophète. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "009a9330-cb26-4eed-a5db-71ea9392d95f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:601",
+      "reference": "Sahih al-Bukhari, hadith 601, book 9, باب السَّمَرِ فِي الْفِقْهِ وَالْخَيْرِ بَعْدَ الْعِشَاءِ",
+      "title": "باب السَّمَرِ فِي الْفِقْهِ وَالْخَيْرِ بَعْدَ الْعِشَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي سَالِمُ بْنُ عَبْدِ اللَّهِ بْنِ عُمَرَ، وَأَبُو بَكْرِ بْنُ أَبِي حَثْمَةَ أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، قَالَ صَلَّى النَّبِيُّ صلى الله عليه وسلم صَلاَةَ الْعِشَاءِ فِي آخِرِ حَيَاتِهِ، فَلَمَّا سَلَّمَ قَامَ النَّبِيُّ صلى الله عليه وسلم فَقَالَ ‏\"‏ أَرَأَيْتَكُمْ لَيْلَتَكُمْ هَذِهِ فَإِنَّ رَأْسَ مِائَةٍ لاَ يَبْقَى مِمَّنْ هُوَ الْيَوْمَ عَلَى ظَهْرِ الأَرْضِ أَحَدٌ ‏\"‏‏.‏ فَوَهِلَ النَّاسُ فِي مَقَالَةِ رَسُولِ اللَّهِ ـ عَلَيْهِ السَّلاَمُ ـ إِلَى مَا يَتَحَدَّثُونَ مِنْ هَذِهِ الأَحَادِيثِ عَنْ مِائَةِ سَنَةٍ، وَإِنَّمَا قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لاَ يَبْقَى مِمَّنْ هُوَ الْيَوْمَ عَلَى ظَهْرِ الأَرْضِ ‏\"‏ يُرِيدُ بِذَلِكَ أَنَّهَا تَخْرِمُ ذَلِكَ الْقَرْنَ‏.‏",
+      "source_hash_sha256": "cef4546ce556ee65147fd9b4351ed8919f34aad91fdba98a6863808285591e4f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abou al-Yaman nous a rapporté, en disant : Shu‘ayb nous a informés, d’après az-Zuhri, qui a dit : Salim ibn Abd Allah ibn Umar et Abou Bakr ibn Abi Hathma m’ont rapporté qu’Abd Allah ibn Umar avait dit : « Vers la fin de sa vie, le Prophète, qu’Allah le bénisse et lui accorde la paix, accomplit la prière de la nuit. Après l’avoir terminée, il se leva et dit : “Voyez-vous cette nuit ? D’ici cent ans, personne parmi ceux qui vivent aujourd’hui sur terre ne sera encore en vie.” Les gens furent troublés par les paroles du Messager d’Allah et commencèrent à rapporter ce qu’on disait au sujet de ces cent ans. Or, le Prophète avait seulement dit : “Personne parmi ceux qui vivent aujourd’hui sur terre ne sera encore en vie.” Il voulait dire que cette génération aurait disparu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d71afbda-638d-40d2-a263-95f7cb7555da",
+      "url": "https://sunnah.com/bukhari:597",
+      "reason": "Hadith embeds Quran 20:14 twice. The current Quran translation configuration exposes English and German only. Do not generate or permanently store a French Quran translation."
+    }
+  ]
+}
