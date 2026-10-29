@@ -6017,3 +6017,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1180 saves six private French drafts about early generations, hardship, wealth, and ablution. No database writes or publication occurred.
 - All six drafts passed the focused validator. Bukhari local drafts: 5,412 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 780. Total local hadith rows not drafted: 9,217, including held records.
+
+### 2026-10-29: Bukhari 6434–6439 — one held
+
+- FR-LIB-HAD-BUKHARI-1181 saves five private French drafts. Bukhari 6437 remains blank because its narrator says he is unsure whether the wording is from the Quran. No database writes or publication occurred.
+- The five drafts passed the focused validator. Bukhari local drafts: 5,417 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 781. Total local hadith rows not drafted: 9,212, including held records.

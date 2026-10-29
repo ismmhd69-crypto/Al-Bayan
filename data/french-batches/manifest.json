@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5412,
+    "hadithBukhariDrafted": 5417,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5412,
+    "hadithLocalDrafted": 5417,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9217,
-    "hadithNeedsMo": 780,
+    "hadithLocalRemaining": 9212,
+    "hadithNeedsMo": 781,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25029,6 +25029,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1181",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1181.json",
+      "sourceIds": [
+        "5d350fdd-06ab-4745-9b06-35e524724b88",
+        "37697523-edf9-4eae-8760-34965a888900",
+        "1766b51f-31ab-49fd-a689-021d10bdf3fb",
+        "40d05bd5-0cbb-40d6-8274-9f8a1c3a65c7",
+        "c6bfe1a0-3c66-452a-9f7d-f6d9f0152f5a",
+        "6f7fd366-c70a-4e4a-85fc-f37854cfe9f8"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6437 remains blank because the narrator is unsure whether its wording is from the Quran. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -28103,11 +28124,17 @@
       "scope": "Sahih al-Bukhari 6404: phrase من قال عشرا does not identify what is said ten times",
       "status": "blocked",
       "reason": "The text says “whoever says [it] ten times” without identifying what is said. Keep the complete French translation blank until a complete wording or confirmed context is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-6437-QURAN-UNCERTAIN",
+      "scope": "Sahih al-Bukhari 6437: narrator is unsure whether the quoted wording is from the Quran",
+      "status": "blocked",
+      "reason": "The narrator explicitly says he does not know whether the wording is from the Quran. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use, or reliable clarification."
     }
   ],
-  "hadithBukhariDrafted": 5412,
-  "hadithLocalDrafted": 5412,
-  "hadithLocalRemaining": 9217,
+  "hadithBukhariDrafted": 5417,
+  "hadithLocalDrafted": 5417,
+  "hadithLocalRemaining": 9212,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28324,6 +28351,12 @@
       "scope": "Sahih al-Bukhari 6404: phrase من قال عشرا does not identify what is said ten times",
       "status": "blocked",
       "reason": "The text says “whoever says [it] ten times” without identifying what is said. Keep the complete French translation blank until a complete wording or confirmed context is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-6437-QURAN-UNCERTAIN",
+      "scope": "Sahih al-Bukhari 6437: narrator is unsure whether the quoted wording is from the Quran",
+      "status": "blocked",
+      "reason": "The narrator explicitly says he does not know whether the wording is from the Quran. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use, or reliable clarification."
     }
   ]
 }
