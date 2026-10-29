@@ -54,7 +54,7 @@
     "preparedAnswersRemaining": 0,
     "preparedAnswersDraftFiles": "data/french-batches/prepared-answers-*.json",
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
-    "hardcodedVisitorCopyDrafted": 447,
+    "hardcodedVisitorCopyDrafted": 457,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 561,
@@ -2608,6 +2608,19 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "Control labels, Arabic verse IDs, unique IDs, nonempty French, and placeholder parity checked; Quran meanings left untouched",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local interface draft"
+    },
+    {
+      "id": "FR-UI-HC-029",
+      "contentType": "website-hardcoded-visitor-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/hardcoded-copy-029.json",
+      "translated": 10,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Source files, unique IDs, nonempty French, and placeholder parity passed",
       "humanReviewed": 0,
       "published": 0,
       "status": "private local interface draft"

@@ -1,0 +1,12 @@
+[
+  {"id":"hardQuestions.comparison.title","source":"components/learning/HardQuestionArticle.tsx","english":"The other tradition’s own teaching","french":"L’enseignement propre à l’autre tradition"},
+  {"id":"hardQuestions.comparison.note","source":"components/learning/HardQuestionArticle.tsx","english":"This source describes the other tradition for comparison. It is not an authority for Islamic teaching.","french":"Cette source décrit l’autre tradition à titre de comparaison. Elle ne fait pas autorité en matière d’enseignement islamique."},
+  {"id":"ask.topic.voluntaryCharity","source":"lib/ask/conversation.ts","english":"Voluntary charity","arabic_source":"صدقة التطوع","french":"Aumône volontaire"},
+  {"id":"ask.topic.zakat","source":"lib/ask/conversation.ts","english":"Zakat","arabic_source":"الزكاة","french":"Zakât"},
+  {"id":"richAnswer.reviewSection","source":"components/RichAnswerView.tsx","english":"This section needs review. Affected content is hidden; available source cards are kept.","french":"Cette section nécessite une vérification. Le contenu concerné est masqué ; les fiches des sources disponibles sont conservées."},
+  {"id":"richAnswer.sourceUnconfirmed","source":"components/RichAnswerView.tsx","english":"This source could not be confirmed during rechecking.","french":"Cette source n’a pas pu être confirmée lors de la nouvelle vérification."},
+  {"id":"richAnswer.notFatwa","source":"components/RichAnswerView.tsx","english":"Not a fatwa. For your personal situation, ask a qualified scholar you trust.","french":"Ceci n’est pas une fatwa. Pour votre situation personnelle, demandez conseil à un savant qualifié en qui vous avez confiance."},
+  {"id":"richAnswer.needsReview","source":"components/RichAnswerView.tsx","english":"This answer needs review. Source cards are kept and affected content is hidden.","french":"Cette réponse nécessite une vérification. Les fiches des sources sont conservées et le contenu concerné est masqué."},
+  {"id":"richAnswer.summaryIncomplete","source":"components/RichAnswerView.tsx","english":"The selected sources remain above, but Bayan’s summary could not be completed.","french":"Les sources sélectionnées restent affichées ci-dessus, mais Bayan n’a pas pu terminer son résumé."},
+  {"id":"richAnswer.donateLabel","source":"components/RichAnswerView.tsx","english":"Help cover Bayan’s AI costs","french":"Aidez à couvrir les frais d’IA de Bayan"}
+]

@@ -549,3 +549,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - Eleven ablution strings are held because the mapped lesson says full washing is required but repeated washing is recommended, while the visual shows three repetitions without that distinction. One additional label for pointing the index finger during tashahhud is held because the local lesson source map does not identify its source. Both issues are recorded under Needs Mo.
 - `FR-UI-HC-028` translated ten Al-Fatiha practice controls and accessibility labels. The seven Quran verse meanings were left untouched because the application has no confirmed approved, attributed French Quran translation. That is recorded as a website blocker.
 - All four batches passed the focused source, unique-ID, nonempty-text and placeholder checks. A full saved-copy audit confirmed 447 rows and 447 unique IDs; the manifest now records six website Needs Mo items. None were integrated into public locale routing.
+
+### 2026-10-29: remaining Ask, answer and comparison labels
+
+- `FR-UI-HC-029` saved ten additional visitor-facing strings: Ask clarification topic names, the Hard Questions comparison-source label and note, and Rich Answer review, source-verification, disclaimer and donation labels. These are private French drafts; no Ask or answer flow was connected to French.
+- The word “English” in `lib/i18n.ts` is the language’s self-name in the locale switcher. It is intentionally retained as a name, not translated as French visitor copy.
+- The batch passed source-file, unique-ID, nonempty-text and placeholder checks. The saved hardcoded-copy inventory now contains 457 rows; website Needs Mo remains six.
