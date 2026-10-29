@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1278",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:18:54.489Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2a1d04f2-ac43-4f89-b32d-89dc8f922b9b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2798c",
+      "reference": "Sahih Muslim, hadith 2798 c, book 52, باب الدُّخَانِ ‏‏",
+      "title": "باب الدُّخَانِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي الضُّحَى، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ، قَالَ خَمْسٌ قَدْ مَضَيْنَ الدُّخَانُ وَاللِّزَامُ وَالرُّومُ وَالْبَطْشَةُ وَالْقَمَرُ ‏.‏",
+      "source_hash_sha256": "2e4e5e086e5077029f6646fafa354e6cea69431b53608ae19da4e5beb66d6c52",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : Jarīr nous a rapporté, d’après al-Aʿmash, d’après Abū al-Ḍuḥā, d’après Masrūq, d’après ʿAbd Allāh, qui a dit : « Cinq événements se sont déjà produits : la fumée, al-Lizām, les Romains, le grand coup et la lune. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2336139a-5362-43a6-8a99-a28c96d9231a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2798d",
+      "reference": "Sahih Muslim, hadith 2798 d, book 52, باب الدُّخَانِ ‏‏",
+      "title": "باب الدُّخَانِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو سَعِيدٍ الأَشَجُّ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا الأَعْمَشُ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "ab0a1cf1563f944bcb592890b9277c3228ca178612f9556a01300870f5b25a16",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d3f1e87d-976e-4e45-9356-afed04933cfd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2799",
+      "reference": "Sahih Muslim, hadith 2799, book 52, باب الدُّخَانِ ‏‏",
+      "title": "باب الدُّخَانِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا غُنْدَرٌ، عَنْ شُعْبَةَ، عَنْ قَتَادَةَ، عَنْ عَزْرَةَ، عَنِ الْحَسَنِ الْعُرَنِيِّ، عَنْ يَحْيَى بْنِ الْجَزَّارِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، عَنْ أُبَىِّ، بْنِ كَعْبٍ فِي قَوْلِهِ عَزَّ وَجَلَّ ‏[quran sura=\"32\" aya_start=\"21\" aya_end=\"21\"]{‏ وَلَنُذِيقَنَّهُمْ مِنَ الْعَذَابِ الأَدْنَى دُونَ الْعَذَابِ الأَكْبَرِ‏}‏ قَالَ مَصَائِبُ الدُّنْيَا وَالرُّومُ وَالْبَطْشَةُ أَوِ الدُّخَانُ ‏.‏ شُعْبَةُ الشَّاكُّ فِي الْبَطْشَةِ أَوِ الدُّخَانِ ‏.‏",
+      "source_hash_sha256": "a32834fbc9a2a7d0b9fce328d914098ecc77bd10bdcd0ee619d8bcea761c33d6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a0b7cf88-9e95-44a8-8ca8-57d3d2c3be2f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2800a",
+      "reference": "Sahih Muslim, hadith 2800 a, book 52, باب انْشِقَاقِ الْقَمَرِ ‏‏",
+      "title": "باب انْشِقَاقِ الْقَمَرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ ابْنِ أَبِي، نَجِيحٍ عَنْ مُجَاهِدٍ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ، قَالَ انْشَقَّ الْقَمَرُ عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم بِشِقَّتَيْنِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اشْهَدُوا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8c8974a350f0e0ed06fb3e06ea6e2b4c876c82185f832804021cfaeed638b901",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAmr al-Nāqid et Zuhayr ibn Ḥarb nous ont rapporté : Sufyān ibn ʿUyayna nous a rapporté, d’après Ibn Abī Najīḥ, d’après Mujāhid, d’après Abū Maʿmar, d’après ʿAbd Allāh, qui a dit : La lune se fendit en deux à l’époque du Messager d’Allah ﷺ. Le Messager d’Allah ﷺ dit : « Soyez témoins. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e23eb92a-1336-47f9-aa34-683e0f07bbf7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2800b",
+      "reference": "Sahih Muslim, hadith 2800 b, book 52, باب انْشِقَاقِ الْقَمَرِ ‏‏",
+      "title": "باب انْشِقَاقِ الْقَمَرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ جَمِيعًا عَنْ أَبِي، مُعَاوِيَةَ ح وَحَدَّثَنَا عُمَرُ بْنُ حَفْصِ بْنِ غِيَاثٍ، حَدَّثَنَا أَبِي كِلاَهُمَا، عَنِ الأَعْمَشِ، ح وَحَدَّثَنَا مِنْجَابُ بْنُ الْحَارِثِ التَّمِيمِيُّ، - وَاللَّفْظُ لَهُ - أَخْبَرَنَا ابْنُ مُسْهِرٍ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، قَالَ بَيْنَمَا نَحْنُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم بِمِنًى إِذَا انْفَلَقَ الْقَمَرُ فِلْقَتَيْنِ فَكَانَتْ فِلْقَةٌ وَرَاءَ الْجَبَلِ وَفِلْقَةٌ دُونَهُ فَقَالَ لَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اشْهَدُوا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3bec978e56ac21e4a3152a12ddd849194b2e70b4b04eb162397b6730626cc768",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba, Abū Kurayb et Isḥāq ibn Ibrāhīm nous ont rapporté, tous d’après Abū Muʿāwiya. ʿUmar ibn Ḥafṣ ibn Ghiyāth nous a également rapporté : mon père nous a rapporté. Tous deux d’après al-Aʿmash. Minjāb ibn al-Ḥārith al-Tamīmī nous a aussi rapporté — sa formulation est celle retenue ici — : Ibn Mushir nous a informés, d’après al-Aʿmash, d’après Ibrāhīm, d’après Abū Maʿmar, d’après ʿAbd Allāh ibn Masʿūd, qui a dit : Alors que nous étions avec le Messager d’Allah ﷺ à Minā, la lune se fendit en deux. Une moitié se trouvait derrière la montagne et l’autre devant elle. Le Messager d’Allah ﷺ nous dit : « Soyez témoins. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "00d434f8-d0c4-4640-99ef-760596a84580",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2800c",
+      "reference": "Sahih Muslim, hadith 2800 c, book 52, باب انْشِقَاقِ الْقَمَرِ ‏‏",
+      "title": "باب انْشِقَاقِ الْقَمَرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، قَالَ انْشَقَّ الْقَمَرُ عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فِلْقَتَيْنِ فَسَتَرَ الْجَبَلُ فِلْقَةً وَكَانَتْ فِلْقَةٌ فَوْقَ الْجَبَلِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اللَّهُمَّ اشْهَدْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "39f8b7bc9d1b87da6c2f1392d1dbb0ec4a3c344ee933f22130bbf65d6d21caf8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUbayd Allāh ibn Muʿādh al-ʿAnbarī nous a rapporté : mon père nous a rapporté : Shuʿba nous a rapporté, d’après al-Aʿmash, d’après Ibrāhīm, d’après Abū Maʿmar, d’après ʿAbd Allāh ibn Masʿūd, qui a dit : La lune se fendit en deux à l’époque du Messager d’Allah ﷺ. Une moitié fut cachée par la montagne et l’autre se trouvait au-dessus d’elle. Le Messager d’Allah ﷺ dit : « Ô Allah, sois témoin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "2336139a-5362-43a6-8a99-a28c96d9231a",
+      "reason": "Cette entrée ne contient que la chaîne de transmission et renvoie au récit précédent sans le reproduire. Garder la traduction française vide.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d3f1e87d-976e-4e45-9356-afed04933cfd",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification d’une traduction autorisée du verset et de son attribution.",
+      "status": "blocked"
+    }
+  ]
+}
