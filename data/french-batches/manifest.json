@@ -17205,6 +17205,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-793",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-793.json",
+      "sourceIds": [
+        "b639467a-06fe-4817-afc6-df5fb7c9bbd8",
+        "63636453-c165-45f3-a7d3-56ff9c41329c",
+        "7a8f3cad-ad10-472f-ac0d-332987195272",
+        "a766380c-7b34-430a-86f5-46e786fe3261",
+        "7cb69f27-22c7-4253-a167-d3ca591bba4f",
+        "27575097-54e5-4d4d-bb1b-a1912c8ce807"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -17701,7 +17722,7 @@
       "reason": "The report directly quotes Quran 49:1. The complete record remains blank in FR-LIB-HAD-BUKHARI-791 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3859,
-  "hadithLocalDrafted": 3859,
-  "hadithLocalRemaining": 10798
+  "hadithBukhariDrafted": 3865,
+  "hadithLocalDrafted": 3865,
+  "hadithLocalRemaining": 10792
 }

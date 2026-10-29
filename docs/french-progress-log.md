@@ -3876,3 +3876,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-792` saves six private French drafts about Musaylima, the ʿAbd al-Qays delegation, and Abû ʿUbayda’s trustworthiness.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,859 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 321. Total local hadith rows not drafted: 10,798, including held records.
+
+### 2026-10-29: Bukhari 4382–4387
+
+- `FR-LIB-HAD-BUKHARI-793` saves six private French drafts about Abû ʿUbayda, Jâbir’s promised payment, and reports from Yemen.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,865 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 321. Total local hadith rows not drafted: 10,792, including held records.
