@@ -11762,3 +11762,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2012b-2012g
 
 - FR-LIB-HAD-MUSLIM-0950 saves one complete private French draft about evening precautions. Five entries that only refer to the prior full report or give wording variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2013a-2016
+
+- FR-LIB-HAD-MUSLIM-0951 saves four complete private French drafts about keeping children and animals in at dusk, covering vessels, and extinguishing fires. Two reports that refer back to prior wording remain blank with specific Needs Mo reasons. No database write or publication occurred.
