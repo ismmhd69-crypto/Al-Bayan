@@ -10231,3 +10231,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0620 saves three private French drafts about prayer at the Prophet’s mosque and the three mosques to which journeys are directed. Muslim 1397b and 1398b provide only variant wording or a cross-reference and remain blank under Needs Mo. Muslim 1398a contains a Quranic phrase and remains entirely blank until an approved French Quran translation and rights are confirmed.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1399a–1399f
+
+- FR-LIB-HAD-MUSLIM-0621 saves five private French drafts about the Prophet’s visits to Quba, including the report that he prayed two units there. Muslim 1399d only refers to another chain and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
