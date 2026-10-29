@@ -7831,3 +7831,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0141 saves four private French drafts about pouring water over the head during ritual washing and the washing of braided hair. Muslim 330b–c provide variant wording and cross-references without full report texts, so both remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 584 Muslim drafts, 6,920 total hadith drafts, 7,709 remaining, and 283 Needs Mo items.
+
+### 2026-10-29: Muslim 331–332e
+
+- FR-LIB-HAD-MUSLIM-0142 saves four private French drafts about ritual washing after menstruation and washing braided hair. Muslim 332d–e contain only partial wording and references to earlier reports, so both remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 588 Muslim drafts, 6,924 total hadith drafts, 7,705 remaining, and 285 Needs Mo items.
