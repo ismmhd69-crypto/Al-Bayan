@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5056,
+    "hadithBukhariDrafted": 5061,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5056,
+    "hadithLocalDrafted": 5061,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9573,
-    "hadithNeedsMo": 760,
+    "hadithLocalRemaining": 9568,
+    "hadithNeedsMo": 761,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23393,6 +23393,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1097",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1097.json",
+      "sourceIds": [
+        "071abdad-f201-4350-831c-99cc25ea8943",
+        "41d71ced-7dcf-456b-9174-69c5691b82a8",
+        "fddcb390-24ce-4560-9753-79e39e33cb8b",
+        "201a0880-efbc-4069-b665-21b7455646b0",
+        "f02ad6a3-eadb-4030-a129-2ad2422c21af",
+        "fab99a6e-bd5d-4a31-b32a-02698a2e2d9c"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; Bukhari 6051 held blank because the report ends mid-sequence. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26425,6 +26446,12 @@
       "scope": "Sahih al-Bukhari 6042: wording مما يخرج من الأنفس",
       "status": "blocked",
       "reason": "The exported Arabic phrase مما يخرج من الأنفس is unclear and may be euphemistic. Keep the full report blank in FR-LIB-HAD-BUKHARI-1096 until the exact source wording is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6051-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 6051: prayer narrative ends mid-sequence",
+      "status": "blocked",
+      "reason": "The exported text ends after the Prophet ﷺ rises from the second prostration, without completing the report. Keep the entire item blank in FR-LIB-HAD-BUKHARI-1097 until a complete source is confirmed."
     }
   ],
   "hadithBukhariDrafted": 4523,
@@ -26526,6 +26553,12 @@
       "scope": "Sahih al-Bukhari 6042: wording مما يخرج من الأنفس",
       "status": "blocked",
       "reason": "The exported Arabic phrase مما يخرج من الأنفس is unclear and may be euphemistic. Keep the full report blank in FR-LIB-HAD-BUKHARI-1096 until the exact source wording is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6051-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 6051: prayer narrative ends mid-sequence",
+      "status": "blocked",
+      "reason": "The exported text ends after the Prophet ﷺ rises from the second prostration, without completing the report. Keep the entire item blank in FR-LIB-HAD-BUKHARI-1097 until a complete source is confirmed."
     }
   ]
 }
