@@ -6392,3 +6392,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1246 saves four private French drafts. Bukhari 6798 remains blank because its source ends with an incomplete variant note, and 6801 remains blank because it directly quotes Quran 60:12. No database writes or publication occurred.
 - All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,726 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 827. Total local hadith rows not drafted: 8,903, including held records.
+
+
+### 2026-10-29: Bukhari 6802–6807
+
+- FR-LIB-HAD-BUKHARI-1247 saves six private French drafts, preserving the distinct source details and variants. No database writes or publication occurred.
+- All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,732 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 827. Total local hadith rows not drafted: 8,897, including held records.
