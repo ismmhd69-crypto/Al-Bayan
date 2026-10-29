@@ -17794,6 +17794,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-822",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-822.json",
+      "sourceIds": [
+        "27a3176d-7e53-42b1-8ca5-f829d5dc09df",
+        "704c6612-8e0a-4d06-9ecc-311ecd096a0e",
+        "4e6c353c-a074-401c-b272-49f1f93e30d9",
+        "81a7bf02-d0b1-4fa7-bbb7-12081dd563c2"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local holds"
     }
   ],
   "blockers": [
@@ -18594,6 +18613,30 @@
       "scope": "Sahih al-Bukhari 4547: direct quotation of Quran 3:7",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 3:7 et comprend une seconde citation partielle. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-821, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4548-QURAN-3-36",
+      "scope": "Sahih al-Bukhari 4548: direct Quran quotation from 3:36",
+      "status": "blocked",
+      "reason": "Le rapport cite directement du Quran (référence 4548). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4549-QURAN-3-77",
+      "scope": "Sahih al-Bukhari 4549: direct Quran quotation from 3:77",
+      "status": "blocked",
+      "reason": "Le rapport cite directement du Quran (référence 4549). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4551-QURAN-3-77",
+      "scope": "Sahih al-Bukhari 4551: direct Quran quotation from 3:77",
+      "status": "blocked",
+      "reason": "Le rapport cite directement du Quran (référence 4551). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4552-QURAN-3-77",
+      "scope": "Sahih al-Bukhari 4552: direct Quran wording from 3:77",
+      "status": "blocked",
+      "reason": "Le rapport cite directement du Quran (référence 4552). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 3962,

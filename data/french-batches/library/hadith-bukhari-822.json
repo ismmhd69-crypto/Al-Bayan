@@ -1,0 +1,132 @@
+{
+  "batch_id": "HADITH-BUKHARI-822",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:10:56.121Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "27a3176d-7e53-42b1-8ca5-f829d5dc09df",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4548",
+      "reference": "Sahih al-Bukhari, hadith 4548, book 65, باب ‏ {‏وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ‏} ‏",
+      "title": "باب ‏ {‏وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ مَا مِنْ مَوْلُودٍ يُولَدُ إِلاَّ وَالشَّيْطَانُ يَمَسُّهُ حِينَ يُولَدُ، فَيَسْتَهِلُّ صَارِخًا مِنْ مَسِّ الشَّيْطَانِ إِيَّاهُ، إِلاَّ مَرْيَمَ وَابْنَهَا ‏\"‏‏.‏ ثُمَّ يَقُولُ أَبُو هُرَيْرَةَ وَاقْرَءُوا إِنْ شِئْتُمْ ‏[quran sura=\"3\" aya_start=\"36\" aya_end=\"36\"]{‏وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ ‏}‏",
+      "source_hash_sha256": "66426e78603be968fbe253ff1fe3cb039411a73fd90a512e8f883c577f0ed0fc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "704c6612-8e0a-4d06-9ecc-311ecd096a0e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4549",
+      "reference": "Sahih al-Bukhari, hadith 4549, 4550, book 65, باب ‏ {‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً أُولَئِكَ لاَ خَلاَقَ لَهُمْ‏} ‏ لاَ خَيْرَ",
+      "title": "باب ‏ {‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً أُولَئِكَ لاَ خَلاَقَ لَهُمْ‏} ‏ لاَ خَيْرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجُ بْنُ مِنْهَالٍ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ حَلَفَ يَمِينَ صَبْرٍ لِيَقْتَطِعَ بِهَا مَالَ امْرِئٍ مُسْلِمٍ، لَقِيَ اللَّهَ وَهْوَ عَلَيْهِ غَضْبَانُ ‏\"‏‏.‏ فَأَنْزَلَ اللَّهُ تَصْدِيقَ ذَلِكَ ‏[quran sura=\"3\" aya_start=\"77\" aya_end=\"77\"]{‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً أُولَئِكَ لاَ خَلاَقَ لَهُمْ فِي الآخِرَةِ‏}‏ إِلَى آخِرِ الآيَةِ‏.‏ قَالَ فَدَخَلَ الأَشْعَثُ بْنُ قَيْسٍ وَقَالَ مَا يُحَدِّثُكُمْ أَبُو عَبْدِ الرَّحْمَنِ قُلْنَا كَذَا وَكَذَا‏.‏ قَالَ فِيَّ أُنْزِلَتْ كَانَتْ لِي بِئْرٌ فِي أَرْضِ ابْنِ عَمٍّ لِي قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ بَيِّنَتُكَ أَوْ يَمِينُهُ ‏\"‏ فَقُلْتُ إِذًا يَحْلِفَ يَا رَسُولَ اللَّهِ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَنْ حَلَفَ عَلَى يَمِينِ صَبْرٍ يَقْتَطِعُ بِهَا مَالَ امْرِئٍ مُسْلِمٍ وَهْوَ فِيهَا فَاجِرٌ، لَقِيَ اللَّهَ وَهْوَ عَلَيْهِ غَضْبَانٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "7fb8fad194d7af335b913b9896955ee9da7812df06318385f112b03bc8d2d6d9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4e6c353c-a074-401c-b272-49f1f93e30d9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4551",
+      "reference": "Sahih al-Bukhari, hadith 4551, book 65, باب ‏ {‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً أُولَئِكَ لاَ خَلاَقَ لَهُمْ‏} ‏ لاَ خَيْرَ",
+      "title": "باب ‏ {‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً أُولَئِكَ لاَ خَلاَقَ لَهُمْ‏} ‏ لاَ خَيْرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيٌّ ـ هُوَ ابْنُ أَبِي هَاشِمٍ ـ سَمِعَ هُشَيْمًا، أَخْبَرَنَا الْعَوَّامُ بْنُ حَوْشَبٍ، عَنْ إِبْرَاهِيمَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي أَوْفَى ـ رضى الله عنهما ـ أَنَّ رَجُلاً، أَقَامَ سِلْعَةً فِي السُّوقِ فَحَلَفَ فِيهَا لَقَدْ أَعْطَى بِهَا مَا لَمْ يُعْطَهُ‏.‏ لِيُوقِعَ فِيهَا رَجُلاً مِنَ الْمُسْلِمِينَ، فَنَزَلَتْ ‏[quran sura=\"3\" aya_start=\"77\" aya_end=\"77\"]{‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً‏}‏ إِلَى آخِرِ الآيَةِ‏.‏",
+      "source_hash_sha256": "eb95127d21ee67915ae0c432bc28e5b8891b72a57fd47d801c164c49d66fc4cc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "81a7bf02-d0b1-4fa7-bbb7-12081dd563c2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4552",
+      "reference": "Sahih al-Bukhari, hadith 4552, book 65, باب ‏ {‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً أُولَئِكَ لاَ خَلاَقَ لَهُمْ‏} ‏ لاَ خَيْرَ",
+      "title": "باب ‏ {‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً أُولَئِكَ لاَ خَلاَقَ لَهُمْ‏} ‏ لاَ خَيْرَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا نَصْرُ بْنُ عَلِيِّ بْنِ نَصْرٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ دَاوُدَ، عَنِ ابْنِ جُرَيْجٍ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، أَنَّ امْرَأَتَيْنِ، كَانَتَا تَخْرِزَانِ فِي بَيْتٍ ـ أَوْ فِي الْحُجْرَةِ ـ فَخَرَجَتْ إِحْدَاهُمَا وَقَدْ أُنْفِذَ بِإِشْفًى فِي كَفِّهَا، فَادَّعَتْ عَلَى الأُخْرَى، فَرُفِعَ إِلَى ابْنِ عَبَّاسٍ، فَقَالَ ابْنُ عَبَّاسٍ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ لَذَهَبَ دِمَاءُ قَوْمٍ وَأَمْوَالُهُمْ ‏\"‏‏.‏ ذَكِّرُوهَا بِاللَّهِ وَاقْرَءُوا عَلَيْهَا ‏[quran sura=\"3\" aya_start=\"77\" aya_end=\"77\"]{‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ‏}‏‏.‏ فَذَكَّرُوهَا فَاعْتَرَفَتْ، فَقَالَ ابْنُ عَبَّاسٍ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ الْيَمِينُ عَلَى الْمُدَّعَى عَلَيْهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "447540326130be7ba6b932c80434f53ab550256730d8a91e7b939b76c9dd9471",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "27a3176d-7e53-42b1-8ca5-f829d5dc09df",
+      "url": "https://sunnah.com/bukhari:4548",
+      "reason": "Le rapport cite directement du Quran (référence 4548). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "704c6612-8e0a-4d06-9ecc-311ecd096a0e",
+      "url": "https://sunnah.com/bukhari:4549",
+      "reason": "Le rapport cite directement du Quran (référence 4549). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "4e6c353c-a074-401c-b272-49f1f93e30d9",
+      "url": "https://sunnah.com/bukhari:4551",
+      "reason": "Le rapport cite directement du Quran (référence 4551). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "81a7bf02-d0b1-4fa7-bbb7-12081dd563c2",
+      "url": "https://sunnah.com/bukhari:4552",
+      "reason": "Le rapport cite directement du Quran (référence 4552). Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-822, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
