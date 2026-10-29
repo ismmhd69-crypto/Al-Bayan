@@ -8756,3 +8756,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0325 saves six private French drafts about making the witr prayer the final prayer of the night.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1299 Muslim drafts, 7635 total hadith drafts, 6994 remaining, and 603 Needs Mo items.
+
+### 2026-10-29: Muslim 754a–756b
+
+- FR-LIB-HAD-MUSLIM-0326 saves six private French drafts about the witr prayer and standing at length during prayer.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1305 Muslim drafts, 7641 total hadith drafts, 6988 remaining, and 603 Needs Mo items.
