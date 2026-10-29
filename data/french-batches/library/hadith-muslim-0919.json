@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0919",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:25:28.507Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "79e49331-85b5-4c1d-a3f5-06c06ea353b9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1960b",
+      "reference": "Sahih Muslim, hadith 1960 b, book 35, باب وَقْتِهَا ‏‏",
+      "title": "باب وَقْتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو الأَحْوَصِ، سَلاَّمُ بْنُ سُلَيْمٍ عَنِ الأَسْوَدِ، بْنِ قَيْسٍ عَنْ جُنْدَبِ بْنِ سُفْيَانَ، قَالَ شَهِدْتُ الأَضْحَى مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَلَمَّا قَضَى صَلاَتَهُ بِالنَّاسِ نَظَرَ إِلَى غَنَمٍ قَدْ ذُبِحَتْ فَقَالَ ‏\"‏ مَنْ ذَبَحَ قَبْلَ الصَّلاَةِ فَلْيَذْبَحْ شَاةً مَكَانَهَا وَمَنْ لَمْ يَكُنْ ذَبَحَ فَلْيَذْبَحْ عَلَى اسْمِ اللَّهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9ecd6db420070eb33779687427cecca1df9c18f80e98c5dc64cc67f87835d5d0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Abû al-Ahwâs Sallâm ibn Sulaym nous a rapporté, d’après al-Aswad ibn Qays, d’après Jundab ibn Sufyân, qui a dit : « J’ai assisté à la fête du Sacrifice avec le Messager d’Allah. Lorsqu’il eut terminé sa prière avec les gens, il vit des moutons qui avaient été sacrifiés. Il dit : “Que celui qui a sacrifié avant la prière sacrifie un mouton à la place. Quant à celui qui n’a pas encore sacrifié, qu’il le fasse en prononçant le nom d’Allah.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0d06cc25-e88d-41f0-9f1f-40f3d5f612c9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1960c",
+      "reference": "Sahih Muslim, hadith 1960 c, book 35, باب وَقْتِهَا ‏‏",
+      "title": "باب وَقْتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو عَوَانَةَ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ، أَبِي عُمَرَ عَنِ ابْنِ عُيَيْنَةَ، كِلاَهُمَا عَنِ الأَسْوَدِ بْنِ قَيْسٍ، بِهَذَا الإِسْنَادِ وَقَالاَ عَلَى اسْمِ اللَّهِ ‏.‏ كَحَدِيثِ أَبِي الأَحْوَصِ ‏.‏",
+      "source_hash_sha256": "8942b167f124ed250b608de36d4150fb83291cd01c22a89688b091809542c69e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1fb7e4ec-39ac-4b24-8a0b-1db9ecc986c3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1960d",
+      "reference": "Sahih Muslim, hadith 1960 d, book 35, باب وَقْتِهَا ‏‏",
+      "title": "باب وَقْتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنِ الأَسْوَدِ، سَمِعَ جُنْدَبًا الْبَجَلِيَّ، قَالَ شَهِدْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم صَلَّى يَوْمَ أَضْحًى ثُمَّ خَطَبَ فَقَالَ ‏\"‏ مَنْ كَانَ ذَبَحَ قَبْلَ أَنْ يُصَلِّيَ فَلْيُعِدْ مَكَانَهَا وَمَنْ لَمْ يَكُنْ ذَبَحَ فَلْيَذْبَحْ بِاسْمِ اللَّهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cf5a8839b7eba735572a6627492614b593be551503cd3dac3d760c06ee866623",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allâh ibn Mu‘âdh nous a rapporté : Mon père nous a rapporté : Shu‘ba nous a rapporté, d’après al-Aswad, qui a entendu Jundab al-Bajalî dire : « J’ai vu le Messager d’Allah prier le jour de la fête du Sacrifice, puis prononcer un sermon. Il dit : “Que celui qui a sacrifié avant la prière recommence en sacrifiant une autre bête à sa place ; et que celui qui n’a pas encore sacrifié le fasse en prononçant le nom d’Allah.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "45992023-b613-467a-a2f6-b2cdc05a3ee1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1960e",
+      "reference": "Sahih Muslim, hadith 1960 e, book 35, باب وَقْتِهَا ‏‏",
+      "title": "باب وَقْتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "3cb58110ab29a2886053a3da8f8f001608a6c498a9d645f027135c5416038549",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1d08671a-7964-413e-a3d0-a2f77ff8ac56",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1961a",
+      "reference": "Sahih Muslim, hadith 1961 a, book 35, باب وَقْتِهَا ‏‏",
+      "title": "باب وَقْتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ مُطَرِّفٍ، عَنْ عَامِرٍ، عَنِ الْبَرَاءِ، قَالَ ضَحَّى خَالِي أَبُو بُرْدَةَ قَبْلَ الصَّلاَةِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تِلْكَ شَاةُ لَحْمٍ ‏\"‏ ‏.‏ فَقَالَ يَا رَسُولَ اللَّهِ إِنَّ عِنْدِي جَذَعَةً مِنَ الْمَعْزِ فَقَالَ ‏\"‏ ضَحِّ بِهَا وَلاَ تَصْلُحُ لِغَيْرِكَ ‏\"‏ ‏.‏ ثُمَّ قَالَ ‏\"‏ مَنْ ضَحَّى قَبْلَ الصَّلاَةِ فَإِنَّمَا ذَبَحَ لِنَفْسِهِ وَمَنْ ذَبَحَ بَعْدَ الصَّلاَةِ فَقَدْ تَمَّ نُسُكُهُ وَأَصَابَ سُنَّةَ الْمُسْلِمِينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e8cd9a6c4e7b2ba92bdcd2e7f2a9ebf5b4ab8388512d7717217da741b27934c1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ nous a rapporté : Khâlid ibn ‘Abd Allâh nous a informés, d’après Mutarrif, d’après ‘Âmir, d’après al-Barâ’, qui a dit : « Mon oncle Abû Burda sacrifia avant la prière. Le Messager d’Allah lui dit : “Cette bête n’est que de la viande.” Il répondit : “Messager d’Allah, j’ai chez moi un jeune bouc.” Il dit : “Sacrifie-le, mais cela ne suffira à personne d’autre que toi.” Puis il dit : “Celui qui sacrifie avant la prière n’a fait qu’abattre une bête pour lui-même. Celui qui sacrifie après la prière aura accompli son rite et suivi la pratique des musulmans.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "822ec593-4cfe-47ee-93ec-2efa10ab55a5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1961b",
+      "reference": "Sahih Muslim, hadith 1961 b, book 35, باب وَقْتِهَا ‏‏",
+      "title": "باب وَقْتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ دَاوُدَ، عَنِ الشَّعْبِيِّ، عَنِ الْبَرَاءِ بْنِ عَازِبٍ، أَنَّ خَالَهُ أَبَا بُرْدَةَ بْنَ نِيَارٍ، ذَبَحَ قَبْلَ أَنْ يَذْبَحَ النَّبِيُّ، صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنَّ هَذَا يَوْمٌ اللَّحْمُ فِيهِ مَكْرُوهٌ وَإِنِّي عَجَّلْتُ نَسِيكَتِي لأُطْعِمَ أَهْلِي وَجِيرَانِي وَأَهْلَ دَارِي ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَعِدْ نُسُكًا ‏\"‏ ‏.‏ فَقَالَ يَا رَسُولَ اللَّهِ إِنَّ عِنْدِي عَنَاقَ لَبَنٍ هِيَ خَيْرٌ مِنْ شَاتَىْ لَحْمٍ ‏.‏ فَقَالَ ‏\"‏ هِيَ خَيْرُ نَسِيكَتَيْكَ وَلاَ تَجْزِي جَذَعَةٌ عَنْ أَحَدٍ بَعْدَكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1433259c1b39364dd09282b79b07d1286cbb919d439c732202708583f6f0ebca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ nous a rapporté : Hushaym nous a informés, d’après Dâwûd, d’après al-Sha‘bî, d’après al-Barâ’ ibn ‘Âzib : Son oncle maternel Abû Burda ibn Niyâr sacrifia avant que le Prophète n’ait sacrifié. Il dit : « Messager d’Allah, aujourd’hui les gens désirent de la viande. J’ai avancé mon sacrifice afin de nourrir ma famille, mes voisins et les habitants de ma maison. » Le Messager d’Allah répondit : « Recommence le rite. » Il dit : « Messager d’Allah, j’ai un jeune bouc qui donne encore du lait ; il est meilleur que deux moutons de boucherie. » Il répondit : « Il vaut mieux que tes deux bêtes sacrificielles, mais après toi, un jeune animal ne suffira à personne d’autre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0d06cc25-e88d-41f0-9f1f-40f3d5f612c9",
+      "url": "https://sunnah.com/muslim:1960c",
+      "reason": "Cette entrée ne fournit que des chaînes de transmission et renvoie au même récit sans variante distincte du contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "45992023-b613-467a-a2f6-b2cdc05a3ee1",
+      "url": "https://sunnah.com/muslim:1960e",
+      "reason": "Cette entrée ne fournit que des chaînes de transmission et renvoie au même récit sans variante distincte du contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
