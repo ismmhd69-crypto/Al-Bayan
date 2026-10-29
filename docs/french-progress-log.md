@@ -1466,3 +1466,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-306` saves five private French drafts for the available source records 1771, 1773–1775 and 1777. Bukhari 1770 remains blank and is recorded under Needs Mo because it directly quotes Quran 2:198; no approved, attributed French Quran translation is configured. No source record for 1772 or 1776 was present in this exporter batch.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,621 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 94. Total local hadith rows not drafted: 13,007, including held records.
+
+### 2026-10-29: Bukhari 1778–1783 source review
+
+- `FR-LIB-HAD-BUKHARI-307` saves six private French drafts for Bukhari 1778–1783. They preserve the differing reports about the Prophet’s ‘umra count and Aïcha’s account of changing her pilgrimage rite. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,627 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 94. Total local hadith rows not drafted: 13,001, including held records.
