@@ -9516,6 +9516,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-408",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-408.json",
+      "sourceIds": [
+        "bcaa8c8e-554a-44b7-9f0a-16b20b934a86",
+        "7d006619-6b31-4e50-8989-e3ebf983df96",
+        "cae6a2ce-c917-4f8b-a6ca-d659c78edb98",
+        "61145829-d53e-4ee6-9336-f952988741c9",
+        "59daa3ed-1935-4ce1-a6e7-594892563912",
+        "044cc8ae-6cce-4bc5-92ff-5d1f1c325ecc"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata, private unpublished state, and single-item long-text rule passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -9592,7 +9613,7 @@
       "reason": "No approved, attributed French Quran translation has been confirmed in the current application configuration. The seven French verse meanings were not generated; only practice-tool controls have private French drafts."
     }
   ],
-  "hadithBukhariDrafted": 2143,
-  "hadithLocalDrafted": 2143,
-  "hadithLocalRemaining": 12486
+  "hadithBukhariDrafted": 2148,
+  "hadithLocalDrafted": 2148,
+  "hadithLocalRemaining": 12481
 }
