@@ -11542,3 +11542,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1897a-1899
 
 - FR-LIB-HAD-MUSLIM-0895 saves three private French drafts about the rights of a combatant’s family and martyrdom. The chain-only variant and two reports quoting Quran 4:95 remain entirely blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1900-1904b
+
+- FR-LIB-HAD-MUSLIM-0896 saves four private French drafts about martyrdom and the purpose of fighting. Two reports remain entirely blank under Needs Mo: one quotes Quran 33:23, and one uses wording matching Quran 3:133 without an explicit citation. No database write or publication occurred.
