@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 293,
+    "hadithNeedsMo": 294,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -16102,6 +16102,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-749",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-749.json",
+      "sourceIds": ["79cc440a-de3f-4c3e-9b9d-e650b9ce9a4e"],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished Quran hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "held"
+    }
   ],
   "blockers": [
     {
@@ -16443,6 +16458,13 @@
       "scope": "Sahih al-Bukhari 4103: direct quotation of Quran 33:10",
       "status": "blocked",
       "reason": "The report directly quotes Quran 33:10. It remains blank in FR-LIB-HAD-BUKHARI-742 until an approved, attributed French Quran translation is confirmed."
+    }
+,
+    {
+      "id": "HADITH-BUKHARI-4141-QURAN-12-18-24-11-22",
+      "scope": "Sahih al-Bukhari 4141: direct quotations of Quran 12:18 and 24:11–22",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 12:18 and Quran 24:11–22, including Quran 24:22. It remains blank in FR-LIB-HAD-BUKHARI-749 until an approved, attributed French Quran translation is confirmed."
     }
   ],
   "hadithBukhariDrafted": 3667,

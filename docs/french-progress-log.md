@@ -3656,3 +3656,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-748` saves five private French drafts, including reports on the prayer of fear, the Banû al-Mustaliq expedition and voluntary prayer while riding.
 - All five records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,667 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 293. Total local hadith rows not drafted: 10,990, including held records.
+
+### 2026-10-29: Bukhari 4141
+
+- `FR-LIB-HAD-BUKHARI-749` holds the complete report blank because it directly quotes Quran 12:18 and Quran 24:11–22. The Quran hold is recorded for Mo.
+- The record passed the focused validator with its Arabic original and hash, ID, reference, rights metadata and private unpublished hold. No database writes or publication occurred. Bukhari local drafts: 3,667 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 294. Total local hadith rows not drafted: 10,990, including held records.
