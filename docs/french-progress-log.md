@@ -8186,3 +8186,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0212 saves six private French drafts about Aïcha’s presence near the Prophet ﷺ during prayer and praying in one garment. All six source entries include report wording. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 864 Muslim drafts, 7,200 total hadith drafts, 7,429 remaining, and 410 Needs Mo items.
+
+### 2026-10-29: Muslim 515b–517c
+
+- FR-LIB-HAD-MUSLIM-0213 saves four private French drafts about prayer in one garment. Muslim 515b is a chain-only cross-reference and 517b gives only a wording variant; both remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 868 Muslim drafts, 7,204 total hadith drafts, 7,425 remaining, and 412 Needs Mo items.

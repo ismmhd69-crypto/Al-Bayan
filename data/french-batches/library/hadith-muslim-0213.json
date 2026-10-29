@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0213",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:32:38.981Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "01277171-4e69-41a1-a56e-2c37c0856bab",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:515b",
+      "reference": "Sahih Muslim, hadith 515 b, book 4, باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "title": "باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح قَالَ وَحَدَّثَنِي عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، وَحَدَّثَنِي أَبِي، عَنْ جَدِّي، قَالَ حَدَّثَنِي عُقَيْلُ بْنُ خَالِدٍ، كِلاَهُمَا عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، وَأَبِي، سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "71a4a21af7f74d3d19b48127e40f37013a82ca7602d3563fad2c30db510f9058",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "44659518-9949-481c-b44d-42726a97c990",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:515c",
+      "reference": "Sahih Muslim, hadith 515 c, book 4, باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "title": "باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالَ عَمْرٌو حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، عَنْ أَيُّوبَ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ نَادَى رَجُلٌ النَّبِيَّ صلى الله عليه وسلم فَقَالَ أَيُصَلِّي أَحَدُنَا فِي ثَوْبٍ وَاحِدٍ فَقَالَ ‏\"‏ أَوَكُلُّكُمْ يَجِدُ ثَوْبَيْنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ae1ebe3b1d8ea0aff681626690df819ab7ebf8468ac04cdbbc45e76d4663a028",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amr al-Naqid et Zuhayr ibn Harb m’ont rapporté. Amr dit : Isma‘il ibn Ibrahim nous a rapporté, d’après Ayyub, d’après Muhammad ibn Sirin, d’après Abu Hurayra, qui dit : « Un homme appela le Prophète ﷺ et lui demanda : “L’un de nous peut-il prier dans un seul vêtement ?” Il répondit : “Est-ce que chacun de vous possède deux vêtements ?” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "285ad119-7e31-405c-8ac6-8d0e156e0b98",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:516",
+      "reference": "Sahih Muslim, hadith 516, book 4, باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "title": "باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، قَالَ زُهَيْرٌ حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يُصَلِّي أَحَدُكُمْ فِي الثَّوْبِ الْوَاحِدِ لَيْسَ عَلَى عَاتِقَيْهِ مِنْهُ شَىْءٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8d4b04e16f37e352ea0a0cf5ae2d1300255a931760c5b109741f05cd0c5ab943",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba, Amr al-Naqid et Zuhayr ibn Harb nous ont rapporté, tous d’après Ibn Uyayna. Zuhayr précisa : Sufyan nous a rapporté, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Qu’aucun de vous ne prie dans un seul vêtement sans en avoir quelque chose sur les épaules. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c6c6a6d9-6199-41b3-8175-b6c3225f4875",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:517a",
+      "reference": "Sahih Muslim, hadith 517 a, book 4, باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "title": "باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، أَنَّ عُمَرَ بْنَ أَبِي سَلَمَةَ، أَخْبَرَهُ قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يُصَلِّي فِي ثَوْبٍ وَاحِدٍ مُشْتَمِلاً بِهِ فِي بَيْتِ أُمِّ سَلَمَةَ وَاضِعًا طَرَفَيْهِ عَلَى عَاتِقَيْهِ ‏.‏",
+      "source_hash_sha256": "4f19cda0e4fe7c2472d7c410fb85f4b97b93169d1404bfec01d652cf5d83448c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kurayb nous a rapporté : Abu Usama nous a rapporté, d’après Hisham ibn Urwa, d’après son père, qu’Umar ibn Abi Salama l’avait informé : « J’ai vu le Messager d’Allah ﷺ prier dans un seul vêtement, enveloppé dedans, dans la maison d’Umm Salama, en plaçant les deux extrémités du vêtement sur ses épaules. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9bc3371f-5095-48ee-bd26-5d060ff736d4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:517b",
+      "reference": "Sahih Muslim, hadith 517 b, book 4, باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "title": "باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، عَنْ وَكِيعٍ، قَالَ حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّهُ قَالَ مُتَوَشِّحًا ‏.‏ وَلَمْ يَقُلْ مُشْتَمِلاً ‏.‏",
+      "source_hash_sha256": "55529eb2b438c7faf71cf9572a91d41df1bb24add7cd16c981a9105c994a5536",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ce7492d3-7279-41ad-a2a5-eb43921397d4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:517c",
+      "reference": "Sahih Muslim, hadith 517 c, book 4, باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "title": "باب الصَّلاَةِ فِي ثَوْبٍ وَاحِدٍ وَصِفَةِ لُبْسِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عُمَرَ بْنِ أَبِي سَلَمَةَ، قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يُصَلِّي فِي بَيْتِ أُمِّ سَلَمَةَ فِي ثَوْبٍ قَدْ خَالَفَ بَيْنَ طَرَفَيْهِ ‏.‏",
+      "source_hash_sha256": "c45cbc48d8dd1f412b0f547745bfea51bc360a37e8b6f79c69ae3267f6e0cb10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Hammad ibn Zayd nous a informés, d’après Hisham ibn Urwa, d’après son père, d’après Umar ibn Abi Salama, qui dit : « J’ai vu le Messager d’Allah ﷺ prier dans la maison d’Umm Salama, vêtu d’un seul vêtement dont il avait croisé les deux pans. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "01277171-4e69-41a1-a56e-2c37c0856bab",
+      "reason": "La source donne uniquement des chaînes de transmission et renvoie au hadith précédent avec la même formulation, sans reprendre son texte. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "9bc3371f-5095-48ee-bd26-5d060ff736d4",
+      "reason": "La source ne donne que la chaîne de transmission et une différence de terme (« mutawashihan » au lieu de « mushtamilan »), sans reprendre le récit complet. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
