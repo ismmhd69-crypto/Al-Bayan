@@ -2591,3 +2591,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-535` saves the complete combined 1,662-character report about Fâtima’s request concerning the Prophet’s estate and the subsequent administration of those properties. The exporter found one eligible record, and it passed the single-item long-source validator.
 - No database writes or publication occurred. Bukhari local drafts: 2,786 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 174. Total local hadith rows not drafted: 11,869, including held records.
+
+### 2026-10-29: Bukhari 3094 Quran-quote hold
+
+- `FR-LIB-HAD-BUKHARI-536` records the 4,780-character Bukhari 3094 report with its full French translation blank because it quotes Quran 59:6. The exporter found one eligible record, and it passed the single-item long-source validator in held state.
+- No database writes or publication occurred. Bukhari local drafts: 2,786 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,869, including held records.
