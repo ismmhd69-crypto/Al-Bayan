@@ -123,3 +123,6 @@ Published: `false`
 | muslim-batch-062 | 30 | 30 | 0 | 20060 | 20090 | Stored cleanly as unpublished drafts |
 | muslim-063 | 30 | 30 | 0 | 20090 | 20120 | Stored cleanly as unpublished drafts |
 | muslim-batch-064 | 30 | 30 | 0 | 20120 | 20150 | Stored cleanly as unpublished drafts |
+| muslim-065 | 30 | 30 | 0 | 20150 | 20180 | Stored cleanly as unpublished drafts |
+| muslim-067 | 30 | 30 | 0 | 20180 | 20210 | Stored cleanly as unpublished drafts |
+| muslim-batch-066 | 30 | 30 | 0 | 20210 | 20240 | Stored cleanly as unpublished drafts |
