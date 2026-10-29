@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0708",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:56:56.766Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d0d8b375-a780-4ae5-a3f5-0da706a34ab8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536c",
+      "reference": "Sahih Muslim, hadith 1536 c, book 21, باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "title": "باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالُوا جَمِيعًا حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ ابْنِ جُرَيْجٍ، عَنْ عَطَاءٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَالْمُخَابَرَةِ وَعَنْ بَيْعِ الثَّمَرِ حَتَّى يَبْدُوَ صَلاَحُهُ وَلاَ يُبَاعُ إِلاَّ بِالدِّينَارِ وَالدِّرْهَمِ إِلاَّ الْعَرَايَا ‏.‏",
+      "source_hash_sha256": "3ee4946a492431c391fbfef339125ff402b1404da48c9eb70e4fe0abb1327978",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba, Muhammad ibn Abd Allah ibn Numayr et Zuhayr ibn Harb nous ont rapporté : Sufyan ibn Uyayna nous a rapporté, d’après Ibn Jurayj, d’après Ata, d’après Jabir ibn Abd Allah, qui dit : « Le Messager d’Allah a interdit les ventes dites muhaqala, muzabana et mukhabara, ainsi que la vente des fruits avant qu’ils ne soient mûrs. Il a aussi interdit de les vendre autrement qu’en échange d’or ou d’argent, à l’exception des araya. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b40782c0-f082-4b55-8df4-fc501d8d56d8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536d",
+      "reference": "Sahih Muslim, hadith 1536 d, book 21, باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "title": "باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا أَبُو عَاصِمٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، عَنْ عَطَاءٍ، وَأَبِي، الزُّبَيْرِ أَنَّهُمَا سَمِعَا جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم فَذَكَرَ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "2ccd787a4d5362f7f2c5b26ed4432e7bc37794ec3dab40c0a3aa4b4eb922bf3d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9bbddbbc-7895-41ce-9c11-ff5092e718e1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536e",
+      "reference": "Sahih Muslim, hadith 1536 e, book 21, باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "title": "باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، أَخْبَرَنَا مَخْلَدُ بْنُ يَزِيدَ الْجَزَرِيُّ، حَدَّثَنَا ابْنُ، جُرَيْجٍ أَخْبَرَنِي عَطَاءٌ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الْمُخَابَرَةِ وَالْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنْ بَيْعِ الثَّمَرَةِ حَتَّى تُطْعِمَ وَلاَ تُبَاعُ إِلاَّ بِالدَّرَاهِمِ وَالدَّنَانِيرِ إِلاَّ الْعَرَايَا ‏.‏ قَالَ عَطَاءٌ فَسَّرَ لَنَا جَابِرٌ قَالَ أَمَّا الْمُخَابَرَةُ فَالأَرْضُ الْبَيْضَاءُ يَدْفَعُهَا الرَّجُلُ إِلَى الرَّجُلِ فَيُنْفِقُ فِيهَا ثُمَّ يَأْخُذُ مِنَ الثَّمَرِ ‏.‏ وَزَعَمَ أَنَّ الْمُزَابَنَةَ بَيْعُ الرُّطَبِ فِي النَّخْلِ بِالتَّمْرِ كَيْلاً ‏.‏ وَالْمُحَاقَلَةُ فِي الزَّرْعِ عَلَى نَحْوِ ذَلِكَ يَبِيعُ الزَّرْعَ الْقَائِمَ بِالْحَبِّ كَيْلاً ‏.‏",
+      "source_hash_sha256": "1d8c50163035a532a76177d1f80a7ec1b010bdca37e9cc6ddb2fcabbbef3e09f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim al-Hanzali nous a rapporté : Makhlad ibn Yazid al-Jazari nous a informés : Ibn Jurayj nous a rapporté : Ata m’a informé, d’après Jabir ibn Abd Allah, que le Messager d’Allah a interdit les ventes dites mukhabara, muhaqala et muzabana, ainsi que la vente des fruits avant qu’ils soient mûrs. Il a également interdit de les vendre autrement qu’en échange de dirhams ou de dinars, à l’exception des araya. Ata dit : « Jabir nous expliqua : la mukhabara consiste à confier à quelqu’un une terre nue pour qu’il y investisse et qu’il prenne une part des récoltes. Il expliqua que la muzabana consiste à vendre les dattes encore fraîches sur les palmiers contre une quantité mesurée de dattes sèches ; la muhaqala est une pratique semblable concernant les cultures : vendre la récolte encore sur pied contre une quantité mesurée de grain. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "991559c3-6db2-4e10-a666-e7fcdcb31dbd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536f",
+      "reference": "Sahih Muslim, hadith 1536 f, book 21, باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "title": "باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَمُحَمَّدُ بْنُ أَحْمَدَ بْنِ أَبِي خَلَفٍ، كِلاَهُمَا عَنْ زَكَرِيَّاءَ، قَالَ ابْنُ أَبِي خَلَفٍ حَدَّثَنَا زَكَرِيَّاءُ بْنُ عَدِيٍّ، أَخْبَرَنَا عُبَيْدُ اللَّهِ، عَنْ زَيْدِ بْنِ أَبِي أُنَيْسَةَ، حَدَّثَنَا أَبُو الْوَلِيدِ الْمَكِّيُّ، وَهُوَ جَالِسٌ عِنْدَ عَطَاءِ بْنِ أَبِي رَبَاحٍ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَالْمُخَابَرَةِ وَأَنْ تُشْتَرَى النَّخْلُ حَتَّى تُشْقِهَ - وَالإِشْقَاهُ أَنْ يَحْمَرَّ أَوْ يَصْفَرَّ أَوْ يُؤْكَلَ مِنْهُ شَىْءٌ - وَالْمُحَاقَلَةُ أَنْ يُبَاعَ الْحَقْلُ بِكَيْلٍ مِنَ الطَّعَامِ مَعْلُومٍ وَالْمُزَابَنَةُ أَنْ يُبَاعَ النَّخْلُ بِأَوْسَاقٍ مِنَ التَّمْرِ وَالْمُخَابَرَةُ الثُّلُثُ وَالرُّبُعُ وَأَشْبَاهُ ذَلِكَ ‏.‏ قَالَ زَيْدٌ قُلْتُ لِعَطَاءِ بْنِ أَبِي رَبَاحٍ أَسَمِعْتَ جَابِرَ بْنَ عَبْدِ اللَّهِ يَذْكُرُ هَذَا عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ نَعَمْ ‏.‏",
+      "source_hash_sha256": "df3aaf29787dea2307b2117aad8ce4083dae7194642902c55aecb7dd2178cf99",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim et Muhammad ibn Ahmad ibn Abi Khalaf nous ont rapporté, tous deux d’après Zakariyya. Ibn Abi Khalaf dit : « Zakariyya ibn Adi nous a rapporté : Ubayd Allah nous a informés, d’après Zayd ibn Abi Unaysa. Abu al-Walid al-Makki nous a rapporté, alors qu’il était assis auprès d’Ata ibn Abi Rabah, d’après Jabir ibn Abd Allah, que le Messager d’Allah a interdit les ventes dites muhaqala, muzabana et mukhabara, ainsi que l’achat des palmiers avant que leurs fruits ne prennent couleur. Cela signifie qu’ils deviennent rouges ou jaunes, ou qu’une partie d’entre eux soit comestible. La muhaqala consiste à vendre une parcelle cultivée contre une quantité connue de denrées alimentaires mesurées ; la muzabana, à vendre des palmiers contre plusieurs charges de dattes ; la mukhabara, à cultiver une terre contre un tiers, un quart ou une part semblable de la récolte. » Zayd dit : « Je demandai à Ata ibn Abi Rabah : “As-tu entendu Jabir ibn Abd Allah attribuer cela au Messager d’Allah ?” Il répondit : “Oui.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "da9d7cc8-0554-4464-bdf3-06e7d6da0a45",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536g",
+      "reference": "Sahih Muslim, hadith 1536 g, book 21, باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "title": "باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ هَاشِمٍ، حَدَّثَنَا بَهْزٌ، حَدَّثَنَا سَلِيمُ بْنُ حَيَّانَ، حَدَّثَنَا سَعِيدُ بْنُ، مِينَاءَ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الْمُزَابَنَةِ وَالْمُحَاقَلَةِ وَالْمُخَابَرَةِ وَعَنْ بَيْعِ الثَّمَرَةِ حَتَّى تُشْقِحَ ‏.‏ قَالَ قُلْتُ لِسَعِيدٍ مَا تُشْقِحُ قَالَ تَحْمَارُّ وَتَصْفَارُّ وَيُؤْكَلُ مِنْهَا ‏.‏",
+      "source_hash_sha256": "a4b7b86ab56484f9ae00a5f3abae4431bfa885903cb863df5341581466d26810",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Hashim nous a rapporté : Bahz nous a rapporté : Sulaym ibn Hayyan nous a rapporté : Sa‘id ibn Mina nous a rapporté, d’après Jabir ibn Abd Allah, qui dit : « Le Messager d’Allah a interdit les ventes dites muzabana, muhaqala et mukhabara, ainsi que la vente des fruits avant qu’ils ne prennent couleur. » Je demandai à Sa‘id : « Que signifie “prendre couleur” ? » Il répondit : « Ils deviennent rouges ou jaunes et peuvent être mangés. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "663ff1c8-755e-441c-819f-b50ba086f110",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536h",
+      "reference": "Sahih Muslim, hadith 1536 h, book 21, باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "title": "باب النَّهْيِ عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَعَنِ الْمُخَابَرَةِ وَبَيْعِ الثَّمَرَةِ قَبْلَ بُدُوِّ صَلاَحِهَا وَعَنْ بَيْعِ الْمُعَاوَمَةِ وَهُوَ بَيْعُ السِّنِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ الْقَوَارِيرِيُّ، وَمُحَمَّدُ بْنُ عُبَيْدٍ الْغُبَرِيُّ، - وَاللَّفْظُ لِعُبَيْدِ اللَّهِ - قَالاَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، حَدَّثَنَا أَيُّوبُ، عَنْ أَبِي الزُّبَيْرِ، وَسَعِيدِ بْنِ مِينَاءَ، عَنْ جَابِرِ بْنِ، عَبْدِ اللَّهِ قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الْمُحَاقَلَةِ وَالْمُزَابَنَةِ وَالْمُعَاوَمَةِ وَالْمُخَابَرَةِ - قَالَ أَحَدُهُمَا بَيْعُ السِّنِينَ هِيَ الْمُعَاوَمَةُ - وَعَنِ الثُّنْيَا وَرَخَّصَ فِي الْعَرَايَا ‏.‏",
+      "source_hash_sha256": "51ef1fdbf0b9d95472e13fd1f5322d6014ae41db0fa991a6afa0463115f8d4f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ubayd Allah ibn Umar al-Qawariri et Muhammad ibn Ubayd al-Ghubari nous ont rapporté — la formulation est celle d’Ubayd Allah. Ils dirent : « Hammad ibn Zayd nous a rapporté : Ayyub nous a rapporté, d’après Abu al-Zubayr et Sa‘id ibn Mina, d’après Jabir ibn Abd Allah, qui dit : “Le Messager d’Allah a interdit les ventes dites muhaqala, muzabana, muawama et mukhabara, ainsi que la vente avec une clause d’exclusion.” » L’un des deux transmetteurs dit : « La muawama est la vente conclue pour plusieurs années. » Il accorda une exception pour les araya.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b40782c0-f082-4b55-8df4-fc501d8d56d8",
+      "reason": "Cette entrée ne donne que la chaîne de transmission et une formule renvoyant à un récit semblable, sans reproduire le contenu du récit. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
