@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1209",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:42:20.755Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "31863f06-78e3-47b7-b858-c0c54cb36022",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2620",
+      "reference": "Sahih Muslim, hadith 2620, book 45, باب تَحْرِيمِ الْكِبْرِ ‏ ‏",
+      "title": "باب تَحْرِيمِ الْكِبْرِ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ يُوسُفَ الأَزْدِيُّ، حَدَّثَنَا عُمَرُ بْنُ حَفْصِ بْنِ غِيَاثٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، حَدَّثَنَا أَبُو إِسْحَاقَ، عَنْ أَبِي مُسْلِمٍ الأَغَرِّ، أَنَّهُ حَدَّثَهُ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، وَأَبِي، هُرَيْرَةَ قَالاَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْعِزُّ إِزَارُهُ وَالْكِبْرِيَاءُ رِدَاؤُهُ فَمَنْ يُنَازِعُنِي عَذَّبْتُهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "79c2864978d232f2e688dba93a0ca541fe1251b7e30e0a24dd479f7967ecdec5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Saʿīd al-Khudrī et Abū Hurayra rapportent que le Messager d’Allah ﷺ a dit : « La grandeur est Son manteau et la majesté Son habit. Celui qui Me dispute l’un ou l’autre, Je le châtierai. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4eb11a8c-5b4f-4c24-9083-9ee5a772bf43",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2621",
+      "reference": "Sahih Muslim, hadith 2621, book 45, باب النَّهْىِ عَنْ تَقْنِيطِ الإِنْسَانِ، مِنْ رَحْمَةِ اللَّهِ تَعَالَى ‏ ‏",
+      "title": "باب النَّهْىِ عَنْ تَقْنِيطِ الإِنْسَانِ، مِنْ رَحْمَةِ اللَّهِ تَعَالَى ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُوَيْدُ بْنُ سَعِيدٍ، عَنْ مُعْتَمِرِ بْنِ سُلَيْمَانَ، عَنْ أَبِيهِ، حَدَّثَنَا أَبُو عِمْرَانَ الْجَوْنِيُّ، عَنْ جُنْدَبٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حَدَّثَ ‏\"‏ أَنَّ رَجُلاً قَالَ وَاللَّهِ لاَ يَغْفِرُ اللَّهُ لِفُلاَنٍ وَإِنَّ اللَّهَ تَعَالَى قَالَ مَنْ ذَا الَّذِي يَتَأَلَّى عَلَىَّ أَنْ لاَ أَغْفِرَ لِفُلاَنٍ فَإِنِّي قَدْ غَفَرْتُ لِفُلاَنٍ وَأَحْبَطْتُ عَمَلَكَ ‏\"‏ ‏.‏ أَوْ كَمَا قَالَ ‏.‏",
+      "source_hash_sha256": "a8b5699cebe00b3572e351db0bbded55ae0e6e205334e7538a8f528eacfda87f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jundub rapporte que le Messager d’Allah ﷺ raconta qu’un homme dit : « Par Allah, Allah ne pardonnera pas à Untel. » Allah, Très-Haut, dit alors : « Qui donc jure en Mon nom que Je ne pardonnerai pas à Untel ? Je lui ai pardonné et J’ai rendu vaines tes œuvres. » — ou il prononça des paroles semblables.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7fdd42c9-baa0-4dc8-ac6d-b335d2e51281",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2622",
+      "reference": "Sahih Muslim, hadith 2622, book 45, باب فَضْلِ الضُّعَفَاءِ وَالْخَامِلِينَ ‏ ‏",
+      "title": "باب فَضْلِ الضُّعَفَاءِ وَالْخَامِلِينَ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنِي حَفْصُ بْنُ مَيْسَرَةَ، عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ رُبَّ أَشْعَثَ مَدْفُوعٍ بِالأَبْوَابِ لَوْ أَقْسَمَ عَلَى اللَّهِ لأَبَرَّهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "756a8757454520e93d096275f3513fdb66e50c67ed53e0e72b0e217374d9f622",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Il arrive qu’un homme ébouriffé et repoussé aux portes, siégeant dans l’anonymat, jure par Allah et qu’Allah accomplisse son serment. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dd91ed1e-4bb6-44b9-bb7f-a8b6d596dc9d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2623a",
+      "reference": "Sahih Muslim, hadith 2623 a, book 45, باب النَّهْىِ عَنْ قَوْلِ، هَلَكَ النَّاسُ ‏ ‏",
+      "title": "باب النَّهْىِ عَنْ قَوْلِ، هَلَكَ النَّاسُ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ سُهَيْلِ بْنِ أَبِي، صَالِحٍ عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا قَالَ الرَّجُلُ هَلَكَ النَّاسُ ‏.‏ فَهُوَ أَهْلَكُهُمْ ‏\"‏ ‏.‏ قَالَ أَبُو إِسْحَاقَ لاَ أَدْرِي أَهْلَكَهُمْ بِالنَّصْبِ أَوْ أَهْلَكُهُمْ بِالرَّفْعِ ‏.‏",
+      "source_hash_sha256": "0a1887a021c13e9c7e635a797e4963b428cf291c7bc5801bc667931e7a76414a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Lorsqu’un homme dit : “Les gens sont perdus”, c’est lui qui les perd le plus. » Abū Isḥāq dit qu’il ne savait pas si le terme signifiait « il les a perdus » ou « il est le plus perdu d’entre eux ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a3e615aa-7a19-4acc-a98a-fd6b4a2472a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2623b",
+      "reference": "Sahih Muslim, hadith 2623 b, book 45, باب النَّهْىِ عَنْ قَوْلِ، هَلَكَ النَّاسُ ‏ ‏",
+      "title": "باب النَّهْىِ عَنْ قَوْلِ، هَلَكَ النَّاسُ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا يَزِيدُ بْنُ زُرَيْعٍ، عَنْ رَوْحِ بْنِ الْقَاسِمِ، ح وَحَدَّثَنِي أَحْمَدُ بْنُ عُثْمَانَ بْنِ حَكِيمٍ، حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، عَنْ سُلَيْمَانَ بْنِ بِلاَلٍ، جَمِيعًا عَنْ سُهَيْلٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "7ba34f28ee657e06a5659637fc9cd5371ce096f019b8cb177322a38eb67e884a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7669dc15-9c66-4112-85df-8869b03f56ac",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2624a",
+      "reference": "Sahih Muslim, hadith 2624 a, book 45, باب الْوَصِيَّةِ بِالْجَارِ وَالإِحْسَانِ إِلَيْهِ ‏ ‏",
+      "title": "باب الْوَصِيَّةِ بِالْجَارِ وَالإِحْسَانِ إِلَيْهِ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، ح وَحَدَّثَنَا قُتَيْبَةُ، وَمُحَمَّدُ بْنُ رُمْحٍ، عَنِ اللَّيْثِ بْنِ سَعْدٍ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ، وَيَزِيدُ بْنُ هَارُونَ، كُلُّهُمْ عَنْ يَحْيَى بْنِ سَعِيدٍ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، - وَاللَّفْظُ لَهُ - حَدَّثَنَا عَبْدُ الْوَهَّابِ، - يَعْنِي الثَّقَفِيَّ - سَمِعْتُ يَحْيَى بْنَ سَعِيدٍ، أَخْبَرَنِي أَبُو بَكْرٍ، - وَهُوَ ابْنُ مُحَمَّدِ بْنِ عَمْرِو بْنِ حَزْمٍ - أَنَّ عَمْرَةَ، حَدَّثَتْهُ أَنَّهَا، سَمِعَتْ عَائِشَةَ، تَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَا زَالَ جِبْرِيلُ يُوصِينِي بِالْجَارِ حَتَّى ظَنَنْتُ أَنَّهُ لَيُوَرِّثَنَّهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8fd342fa13cbcfefa81d85ed49e3b82d863cb1dde8d5b9cb37174bc0a9689fbd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿĀʾisha rapporte avoir entendu le Messager d’Allah ﷺ dire : « Jibrīl n’a cessé de me recommander le voisin au point que j’ai cru qu’il allait lui accorder une part d’héritage. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a3e615aa-7a19-4acc-a98a-fd6b4a2472a7",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
