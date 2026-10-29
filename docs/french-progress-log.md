@@ -5430,3 +5430,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1057 saves six private French drafts on clothing, including the source explanation of the Abyssinian word sanaah and the reported variants.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,854 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,775, including held records.
+
+
+### 2026-10-29: Bukhari 5827–5832
+
+- FR-LIB-HAD-BUKHARI-1058 saves six private French drafts on faith, clothing and silk. The narrators’ notes on the two-finger allowance and chain wording are retained.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,860 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,769, including held records.
