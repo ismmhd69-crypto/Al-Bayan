@@ -495,3 +495,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-UI-HC-012` saved the Talbiyah audio control label and the Quran source label from the learning reader components. The established prayer-name transliterations remain unchanged.
 - The batch passed source-file, unique-ID, nonempty French, and placeholder checks. Code-level visitor-copy coverage increased from 207 to 209 saved strings. The broader interactive visual inventory remains open.
+
+### 2026-10-29: shared navigation label
+
+- `FR-UI-HC-013` saved the French close-menu accessibility label from `components/Shell.tsx`. It passed its focused source-file, unique-ID, nonempty-text, and placeholder checks.
+- Code-level visitor-copy coverage increased from 209 to 210 saved strings. The comprehensive code audit remains open because several interactive learning visuals contain additional embedded copy.
