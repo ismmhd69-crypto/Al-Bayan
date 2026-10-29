@@ -34516,6 +34516,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0266",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0266.json",
+      "sourceIds": [
+        "1cc9ca79-94fb-4847-99dc-56c5a5db4896",
+        "7988ee76-b71d-4eb6-be19-4ca75ff7e932",
+        "835c4a16-b5a3-40dd-aada-9720a97fb4ae",
+        "daee7957-7198-48c3-a94a-2e05f92031cf",
+        "777e22e8-e652-428d-9ff1-52d16e29d827",
+        "dae1fb7e-93e7-48dd-922d-c106e6d5cd56"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete variants and one unclear Arabic phrase held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -38823,8 +38844,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7392,
-  "hadithLocalRemaining": 7237,
+  "hadithLocalDrafted": 7395,
+  "hadithLocalRemaining": 7234,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40445,10 +40466,28 @@
       "scope": "Sahih Muslim 635b: incomplete variant-only text",
       "status": "blocked",
       "reason": "La source arabe ne donne que la chaîne de transmission et renvoie au récit précédent par « de même » sans en reprendre le contenu. Garder la traduction française entièrement vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0266-637B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 637b: incomplete variant text",
+      "status": "blocked",
+      "reason": "Le texte arabe indique seulement que le récit est rapporté « dans une formulation proche », sans reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0266-638A-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 638a: unclear Arabic wording",
+      "status": "blocked",
+      "reason": "Le récit contient une formulation arabe rapportée comme ajout, « وَمَا كَانَ لَكُمْ أَنْ تَنْزُرُوا رَسُولَ اللَّهِ عَلَى الصَّلَاةِ », dont le sens est incertain dans cette source. Garder toute la traduction française vide jusqu’à confirmation du texte."
+    },
+    {
+      "id": "HADITH-MUSLIM-0266-638B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 638b: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe renvoie au récit précédent par « de même » et omet plusieurs éléments de celui-ci. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1056,
-  "hadithDatabaseMissing": 7237,
+  "hadithMuslimDrafted": 1059,
+  "hadithDatabaseMissing": 7234,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 506
+  "hadithNeedsMo": 509
 }

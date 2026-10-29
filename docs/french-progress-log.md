@@ -8451,3 +8451,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0265 saves five private French drafts covering the dawn and asr prayers and the timing of maghrib. Muslim 635b contains only an isnad and an incomplete cross-reference, so it remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,056 Muslim drafts, 7,392 total hadith drafts, 7,237 remaining, and 506 Needs Mo items.
+
+### 2026-10-29: Muslim 637b–639b
+
+- FR-LIB-HAD-MUSLIM-0266 saves three private French drafts about delaying the night prayer. Muslim 637b and 638b are incomplete variants; 638a contains an uncertain Arabic phrase. All three remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,059 Muslim drafts, 7,395 total hadith drafts, 7,234 remaining, and 509 Needs Mo items.
