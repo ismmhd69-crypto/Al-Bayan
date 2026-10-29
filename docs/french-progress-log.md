@@ -7207,3 +7207,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0020 saves 6 private French drafts on speaking well, honoring neighbors and guests, and the limits of hospitality. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 86 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,207, including held records.
+
+### 2026-10-29: Muslim 48d–51
+
+- FR-LIB-HAD-MUSLIM-0021 saves 6 private French drafts on guest rights, opposing wrongdoing, and the faith reports. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 92 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,201, including held records.
