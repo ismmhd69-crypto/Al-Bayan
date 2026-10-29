@@ -3001,3 +3001,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-617` saves three private French drafts about tribal affiliation and responsibility. Bukhari 3524, 3525, and 3526 remain entirely blank because they directly quote Quran 6:140 and 26:214; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the three Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,146 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 228. Total local hadith rows not drafted: 11,511, including held records.
+
+### 2026-10-29: Bukhari 3529–3535
+
+- `FR-LIB-HAD-BUKHARI-618` saves six private French drafts about Eid, Quraysh, and the seal of the prophets.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,152 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 228. Total local hadith rows not drafted: 11,505, including held records.
