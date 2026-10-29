@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-1316",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:58:25.870Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ac5a18cd-161f-4c08-9d2f-26175f71f77e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7206",
+      "reference": "Sahih al-Bukhari, hadith 7206, book 93, باب كَيْفَ يُبَايِعُ الإِمَامُ النَّاسَ",
+      "title": "باب كَيْفَ يُبَايِعُ الإِمَامُ النَّاسَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، حَدَّثَنَا حَاتِمٌ، عَنْ يَزِيدَ، قَالَ قُلْتُ لِسَلَمَةَ عَلَى أَىِّ شَىْءٍ بَايَعْتُمُ النَّبِيَّ صلى الله عليه وسلم يَوْمَ الْحُدَيْبِيَةِ قَالَ عَلَى الْمَوْتِ‏.‏",
+      "source_hash_sha256": "935f8377087788316fc8440b98974f3125617aabc6d801bf6eaa4efb4ed84c6f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Maslama nous a rapporté : Hâtim nous a rapporté, d’après Yazîd, qui a dit : J’ai demandé à Salama : « Sur quoi avez-vous prêté allégeance au Prophète ﷺ le jour d’al-Hudaybiyya ? » Il répondit : « Sur la mort. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

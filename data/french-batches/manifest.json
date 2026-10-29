@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6064,
+    "hadithBukhariDrafted": 6065,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6064,
+    "hadithLocalDrafted": 6065,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8565,
+    "hadithLocalRemaining": 8564,
     "hadithNeedsMo": 853,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -27786,6 +27786,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1316",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1316.json",
+      "sourceIds": [
+        "ac5a18cd-161f-4c08-9d2f-26175f71f77e"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "one complete draft; source hash retained; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31294,9 +31310,9 @@
       "reason": "The brief excerpt does not identify what ماذا تقول هذه or صاحبهما الذي صنع بهما refer to. Keep the whole translation blank until clarified."
     }
   ],
-  "hadithBukhariDrafted": 6064,
-  "hadithLocalDrafted": 6064,
-  "hadithLocalRemaining": 8565,
+  "hadithBukhariDrafted": 6065,
+  "hadithLocalDrafted": 6065,
+  "hadithLocalRemaining": 8564,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",

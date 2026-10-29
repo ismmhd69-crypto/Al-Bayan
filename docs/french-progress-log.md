@@ -6756,3 +6756,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1315 saves six private French drafts, preserving the pledged conditions, the call to defend truth without fearing blame, the qualifier “within your ability,” and the distinct written pledge variants. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,064 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 853. Total local hadith rows not drafted: 8,565, including held records.
+
+### 2026-10-29: Bukhari 7206
+
+- FR-LIB-HAD-BUKHARI-1316 saves one private French draft preserving the wording of the pledge at al-Hudaybiyya. No database writes or publication occurred.
+- The source hash is retained and the focused batch validator passed. Bukhari local drafts: 6,065 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 853. Total local hadith rows not drafted: 8,564, including held records.
