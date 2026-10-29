@@ -7182,3 +7182,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0015 saves one private French draft of ʿItban’s account, preserving the prayer at his home, the exchange about Malik ibn Dukhshum, and the report-chain confirmation. No database writes or publication occurred.
 - Its source hash is retained and the one-record focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 56 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,237, including held records.
+
+### 2026-10-29: Muslim 33d–36a
+
+- FR-LIB-HAD-MUSLIM-0016 saves 6 private French drafts. It preserves the narrator’s later confirmation and caveat, followed by reports on the sweetness and branches of faith and modesty. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 62 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,231, including held records.

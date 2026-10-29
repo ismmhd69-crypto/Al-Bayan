@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:52:12.316Z",
+  "lastReconciled": "2026-10-29T13:52:40.090Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 56,
+    "hadithMuslimDrafted": 62,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6392,
-    "hadithDatabaseMissing": 8237,
-    "hadithLocalRemaining": 8237,
+    "hadithLocalDrafted": 6398,
+    "hadithDatabaseMissing": 8231,
+    "hadithLocalRemaining": 8231,
     "hadithNeedsMo": 176,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -29428,6 +29428,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0016",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0016.json",
+      "sourceIds": [
+        "aff356b1-ef44-41c3-ae9a-687814a768d2",
+        "5b7e48a7-dd4e-454c-aa08-c16e3141a7b8",
+        "59cfb8c5-2d6e-46bc-a8a2-82e3c13ce927",
+        "6e5121f8-1c83-4490-b3cc-ff0ee28a290f",
+        "c6c29ee0-efd4-4e81-a4c6-a8502ee00748",
+        "226d9709-d25f-402a-a700-bd037107ed1f"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "6 complete private drafts; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -33345,8 +33366,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6392,
-  "hadithLocalRemaining": 8237,
+  "hadithLocalDrafted": 6398,
+  "hadithLocalRemaining": 8231,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -34405,5 +34426,5 @@
       "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 56
+  "hadithMuslimDrafted": 62
 }
