@@ -8006,3 +8006,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0176 saves the complete 2,576-character report of the Prophet’s illness, the repeated attempts to wash, Abu Bakr leading the prayer, and the Prophet ﷺ later praying seated beside him. The final exchange with Ibn Abbas and the identification of Ali are retained.
 - The source hash is retained; the focused validator passed. No database write or publication occurred. Counts now show 717 Muslim drafts, 7,053 total hadith drafts, 7,576 remaining, and 346 Needs Mo items.
+
+### 2026-10-29: Muslim 418b–418g
+
+- FR-LIB-HAD-MUSLIM-0177 saves five private French drafts about the Prophet’s final illness and Abu Bakr leading the prayer. Muslim 418g summarizes previous versions and gives only added wording and placement details, so it remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 722 Muslim drafts, 7,058 total hadith drafts, 7,571 remaining, and 347 Needs Mo items.
