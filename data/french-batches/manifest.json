@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5406,
+    "hadithBukhariDrafted": 5412,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5406,
+    "hadithLocalDrafted": 5412,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9223,
+    "hadithLocalRemaining": 9217,
     "hadithNeedsMo": 780,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -25008,6 +25008,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1180",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1180.json",
+      "sourceIds": [
+        "0cbc368d-4c82-4bca-af1a-0689592c5706",
+        "c6ae2e95-a571-4bdd-b773-a160284400ba",
+        "b14509f0-0c03-4624-a5f2-96ee60e5e9b7",
+        "5927fbce-9ecd-4782-85c9-9abf8b3db648",
+        "e18fe02f-8603-4972-8773-9ecab934ad11",
+        "8443769f-2313-47f2-9b8f-a7aefbdf4ccd"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Six records passed the focused validator. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -28084,9 +28105,9 @@
       "reason": "The text says “whoever says [it] ten times” without identifying what is said. Keep the complete French translation blank until a complete wording or confirmed context is available."
     }
   ],
-  "hadithBukhariDrafted": 5406,
-  "hadithLocalDrafted": 5406,
-  "hadithLocalRemaining": 9223,
+  "hadithBukhariDrafted": 5412,
+  "hadithLocalDrafted": 5412,
+  "hadithLocalRemaining": 9217,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
