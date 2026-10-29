@@ -3311,3 +3311,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-679` saves one private French draft about the Ansâr.
 - The record passed the focused validator for its Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,424 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 252. Total local hadith rows not drafted: 11,233, including held records.
+
+### 2026-10-29: Bukhari 3845
+
+- `FR-LIB-HAD-BUKHARI-680` saves one private French draft of the extended pre-Islamic murder and qasâma report. It is kept as a single-item batch because of its length.
+- The record passed the focused validator, including its Arabic hash, ID, reference, rights metadata and private unpublished long-text state. No database writes or publication occurred. Bukhari local drafts: 3,425 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 252. Total local hadith rows not drafted: 11,232, including held records.
