@@ -42761,6 +42761,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0666",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0666.json",
+      "sourceIds": [
+        "6a111db8-f047-4c71-9663-598555e7ac2b",
+        "e27bdafd-87ef-4e9f-88a7-23014fb4c36c",
+        "e7966fbc-2a59-41e7-85cc-dd6309b1905c",
+        "65b44d76-0d9a-4825-889d-e3807f5559dc",
+        "dd830ee2-8e9b-4f1d-83c3-9d9a52843f41",
+        "35183518-3341-4ff2-8f46-d89f0bbf3572"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two incomplete wording variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47068,8 +47089,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8981,
-  "hadithLocalRemaining": 5648,
+  "hadithLocalDrafted": 8985,
+  "hadithLocalRemaining": 5644,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51416,10 +51437,20 @@
       "source_id": "7254da21-6235-4372-8734-c14e97a1f2e8",
       "reason": "Cette entrée ne reproduit pas le récit complet et ne donne qu’une variante sur le fait qu’Ibn Umar ait repris son épouse et compté la répudiation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "6a111db8-f047-4c71-9663-598555e7ac2b",
+      "reason": "Cette entrée ne reproduit pas le récit et ne donne qu’une variation de formulation renvoyant à la version précédente. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "e27bdafd-87ef-4e9f-88a7-23014fb4c36c",
+      "reason": "Cette entrée renvoie à la version précédente et ne donne qu’une variation du contenu de la réponse. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2645,
+  "hadithMuslimDrafted": 2649,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1162
+  "hadithNeedsMo": 1164
 }

@@ -10456,3 +10456,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0665 saves five private French drafts preserving different reports about the waiting period and timing of divorce. Muslim 1471g only adds a short detail to the previous account and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1471k–1471p
+
+- FR-LIB-HAD-MUSLIM-0666 saves four private French drafts about the waiting period and counting a divorce pronounced during menstruation. Muslim 1471k–l only provide variations to the preceding account and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
