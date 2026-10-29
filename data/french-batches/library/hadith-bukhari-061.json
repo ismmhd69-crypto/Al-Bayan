@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-061",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T02:15:15.202Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a7675c58-a449-4c5e-b142-ef88e8d2a9c4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:343",
+      "reference": "Sahih al-Bukhari, hadith 343, book 7, باب التَّيَمُّمُ لِلْوَجْهِ وَالْكَفَّيْنِ",
+      "title": "باب التَّيَمُّمُ لِلْوَجْهِ وَالْكَفَّيْنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنِ الْحَكَمِ، عَنْ ذَرٍّ، عَنِ ابْنِ عَبْدِ الرَّحْمَنِ بْنِ أَبْزَى، عَنْ أَبِيهِ، قَالَ قَالَ عَمَّارٌ فَضَرَبَ النَّبِيُّ صلى الله عليه وسلم بِيَدِهِ الأَرْضَ، فَمَسَحَ وَجْهَهُ وَكَفَّيْهِ‏.‏",
+      "source_hash_sha256": "cd971e2661bd919b6b2f828d67ef65fb5ed722036d1e3f71a54db3ad1362443c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "M",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
