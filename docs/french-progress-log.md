@@ -7538,3 +7538,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0086 saves 6 private French drafts with narrator chains and report variants retained.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 353 of 7,366. Hadith Needs Mo: 220. Total local hadith rows not drafted: 7,937, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 186a–186b
+
+- FR-LIB-HAD-MUSLIM-0087 saves 2 private French drafts of variant reports about the last person to leave the Fire and enter Paradise.
+- Both source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 355 of 7,366. Hadith Needs Mo: 220. Total local hadith rows not drafted: 7,935, including held records. No database writes or publication occurred.
