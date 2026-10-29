@@ -7252,3 +7252,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0029 saves 6 private French drafts, preserving variants in the warning against internal violence and reports about lineage, mourning, and an escaped enslaved person. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 139 of 7,366. Hadith Needs Mo: 177. Total local hadith rows not drafted: 8,154, including held records.
+
+### 2026-10-29: Muslim 71–74b
+
+- FR-LIB-HAD-MUSLIM-0030 saves 5 private French drafts. Hadith 73 directly quotes Quran 56:75 and 56:82, so its full translation remains blank and marked Needs Mo pending an approved, attributed French Quran translation with usage permission. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 144 of 7,366. Hadith Needs Mo: 178. Total local hadith rows not drafted: 8,149, including held records.
