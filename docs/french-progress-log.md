@@ -11378,3 +11378,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1801
 
 - FR-LIB-HAD-MUSLIM-0854 saves one private French draft of the complete report about Ka‘b ibn al-Ashraf. It preserves the chain, dialogue, sequence, and reported plan. No Quran quotation appears in this entry. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1802a
+
+- FR-LIB-HAD-MUSLIM-0855 saves one private French draft of the complete report about the expedition to Khaybar and ‘Âmir ibn al-Akwa‘. It preserves the chain, the poem, the battle narrative, and the narrator’s note about wording differences. No Quran quotation appears in this entry. No database write or publication occurred.
