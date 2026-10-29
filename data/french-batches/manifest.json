@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:47:50.593Z",
+  "lastReconciled": "2026-10-29T14:48:19.783Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 525,
+    "hadithMuslimDrafted": 528,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6861,
-    "hadithDatabaseMissing": 7768,
-    "hadithLocalRemaining": 7768,
-    "hadithNeedsMo": 264,
+    "hadithLocalDrafted": 6864,
+    "hadithDatabaseMissing": 7765,
+    "hadithLocalRemaining": 7765,
+    "hadithNeedsMo": 267,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31665,6 +31665,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0128",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0128.json",
+      "sourceIds": [
+        "fb38a71e-9479-4634-98d7-72aeec7db296",
+        "dd86f672-e23b-4697-bf6a-7e347dd0efb6",
+        "5bcc6e91-cf1c-4f01-8f70-ce498f96afff",
+        "d6d731d0-72fb-4491-b079-12ab218b1ab6",
+        "19b9e953-6837-474f-84a6-e28427d7a52f",
+        "0f975843-4941-461d-ba01-96aa353ab70b"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; three chain-only cross-reference variants held blank for source integrity",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35972,8 +35993,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6861,
-  "hadithLocalRemaining": 7768,
+  "hadithLocalDrafted": 6864,
+  "hadithLocalRemaining": 7765,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -37558,10 +37579,28 @@
       "scope": "Sahih Muslim 287B: incomplete variant text",
       "status": "blocked",
       "reason": "La source arabe donne seulement une chaîne de transmission et une différence de formulation (« il demanda de l’eau et l’aspergea »), sans reprendre le texte complet du récit. Garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-288C-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 288C: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "id": "HADITH-MUSLIM-288D-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 288D: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "id": "HADITH-MUSLIM-289B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 289B: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
     }
   ],
-  "hadithMuslimDrafted": 525,
-  "hadithDatabaseMissing": 7768,
+  "hadithMuslimDrafted": 528,
+  "hadithDatabaseMissing": 7765,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 264
+  "hadithNeedsMo": 267
 }

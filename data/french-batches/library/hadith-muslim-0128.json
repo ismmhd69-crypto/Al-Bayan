@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-0128",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:47:56.068Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "fb38a71e-9479-4634-98d7-72aeec7db296",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:288b",
+      "reference": "Sahih Muslim, hadith 288b, book 2, باب حكْمِ الْمَنِيِّ ‏",
+      "title": "باب حكْمِ الْمَنِيِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عُمَرُ بْنُ حَفْصِ بْنِ غِيَاثٍ، حَدَّثَنَا أَبِي، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، وَهَمَّامٍ، عَنْ عَائِشَةَ، فِي الْمَنِيِّ قَالَتْ كُنْتُ أَفْرُكُهُ مِنْ ثَوْبِ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "c1291606c5a62ceb13fd44429c8f4a1d56c0fd105bae775eeac8cfa3d50f54e5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Umar ibn Hafs ibn Ghiyath nous a rapporté, d’après son père, d’après al-A‘mash, d’après Ibrahim, d’après al-Aswad et Hammam, d’après ‘A’isha, qui a dit au sujet du sperme : « Je le grattais du vêtement du Messager de Dieu ﷺ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dd86f672-e23b-4697-bf6a-7e347dd0efb6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:288c",
+      "reference": "Sahih Muslim, hadith 288c, book 2, باب حكْمِ الْمَنِيِّ ‏",
+      "title": "باب حكْمِ الْمَنِيِّ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَمَّادٌ، - يَعْنِي ابْنَ زَيْدٍ - عَنْ هِشَامِ بْنِ حَسَّانَ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، حَدَّثَنَا ابْنُ أَبِي عَرُوبَةَ، جَمِيعًا عَنْ أَبِي مَعْشَرٍ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا هُشَيْمٌ، عَنْ مُغِيرَةَ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ مَهْدِيِّ بْنِ مَيْمُونٍ، عَنْ وَاصِلٍ الأَحْدَبِ، ح وَحَدَّثَنِي ابْنُ حَاتِمٍ، حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، حَدَّثَنَا إِسْرَائِيلُ، عَنْ مَنْصُورٍ، وَمُغِيرَةَ، كُلُّ هَؤُلاَءِ عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، فِي حَتِّ الْمَنِيِّ مِنْ ثَوْبِ رَسُولِ اللَّهِ صلى الله عليه وسلم نَحْوَ حَدِيثِ خَالِدٍ عَنْ أَبِي مَعْشَرٍ ‏.‏",
+      "source_hash_sha256": "dd559ccb99b3dc8392a355a74e86d62f21e7cb12f7474e5133d96604aa7e9d34",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "source_id": "5bcc6e91-cf1c-4f01-8f70-ce498f96afff",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:288d",
+      "reference": "Sahih Muslim, hadith 288d, book 2, باب حكْمِ الْمَنِيِّ ‏",
+      "title": "باب حكْمِ الْمَنِيِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ هَمَّامٍ، عَنْ عَائِشَةَ، بِنَحْوِ حَدِيثِهِمْ ‏.‏",
+      "source_hash_sha256": "55d3877dcb708812763c84ddbbdbbcf66e365863a40be556593ba6ff12bc18b7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "source_id": "d6d731d0-72fb-4491-b079-12ab218b1ab6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:289a",
+      "reference": "Sahih Muslim, hadith 289a, book 2, باب حكْمِ الْمَنِيِّ ‏",
+      "title": "باب حكْمِ الْمَنِيِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا مُحَمَّدُ بْنُ بِشْرٍ، عَنْ عَمْرِو بْنِ مَيْمُونٍ، قَالَ سَأَلْتُ سُلَيْمَانَ بْنَ يَسَارٍ عَنِ الْمَنِيِّ، يُصِيبُ ثَوْبَ الرَّجُلِ أَيَغْسِلُهُ أَمْ يَغْسِلُ الثَّوْبَ فَقَالَ أَخْبَرَتْنِي عَائِشَةُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَغْسِلُ الْمَنِيَّ ثُمَّ يَخْرُجُ إِلَى الصَّلاَةِ فِي ذَلِكَ الثَّوْبِ وَأَنَا أَنْظُرُ إِلَى أَثَرِ الْغَسْلِ فِيهِ ‏.‏",
+      "source_hash_sha256": "655ca754180a9b594d39ac9348a90e27a8f8b5c7576227985ce361227aed2465",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté, d’après Muhammad ibn Bishr, d’après ‘Amr ibn Maymun, qui a dit : J’interrogeai Sulayman ibn Yasar au sujet du sperme qui atteint le vêtement d’un homme : « Doit-il le laver, ou laver tout le vêtement ? » Il répondit : « ‘A’isha m’a rapporté que le Messager de Dieu ﷺ lavait le sperme, puis sortait prier avec ce même vêtement. Je voyais encore la trace du lavage dessus. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "19b9e953-6837-474f-84a6-e28427d7a52f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:289b",
+      "reference": "Sahih Muslim, hadith 289b, book 2, باب حكْمِ الْمَنِيِّ ‏",
+      "title": "باب حكْمِ الْمَنِيِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، - يَعْنِي ابْنَ زِيَادٍ ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، أَخْبَرَنَا ابْنُ الْمُبَارَكِ، وَابْنُ أَبِي زَائِدَةَ، كُلُّهُمْ عَنْ عَمْرِو بْنِ مَيْمُونٍ، بِهَذَا الإِسْنَادِ أَمَّا ابْنُ أَبِي زَائِدَةَ فَحَدِيثُهُ كَمَا قَالَ ابْنُ بِشْرٍ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَغْسِلُ الْمَنِيَّ وَأَمَّا ابْنُ الْمُبَارَكِ وَعَبْدُ الْوَاحِدِ فَفِي حَدِيثِهِمَا قَالَتْ كُنْتُ أَغْسِلُهُ مِنْ ثَوْبِ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "40b288ac31c86e10cde60fa996855e15cd74fc22a0e7967797bbf269397057f6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "source_id": "0f975843-4941-461d-ba01-96aa353ab70b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:290",
+      "reference": "Sahih Muslim, hadith 290, book 2, باب حكْمِ الْمَنِيِّ ‏",
+      "title": "باب حكْمِ الْمَنِيِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَحْمَدُ بْنُ جَوَّاسٍ الْحَنَفِيُّ أَبُو عَاصِمٍ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ شَبِيبِ بْنِ غَرْقَدَةَ، عَنْ عَبْدِ اللَّهِ بْنِ شِهَابٍ الْخَوْلاَنِيِّ، قَالَ كُنْتُ نَازِلاً عَلَى عَائِشَةَ فَاحْتَلَمْتُ فِي ثَوْبَىَّ فَغَمَسْتُهُمَا فِي الْمَاءِ فَرَأَتْنِي جَارِيَةٌ لِعَائِشَةَ فَأَخْبَرَتْهَا فَبَعَثَتْ إِلَىَّ عَائِشَةُ فَقَالَتْ مَا حَمَلَكَ عَلَى مَا صَنَعْتَ بِثَوْبَيْكَ قَالَ قُلْتُ رَأَيْتُ مَا يَرَى النَّائِمُ فِي مَنَامِهِ ‏.‏ قَالَتْ هَلْ رَأَيْتَ فِيهِمَا شَيْئًا ‏.‏ قُلْتُ لاَ ‏.‏ قَالَتْ فَلَوْ رَأَيْتَ شَيْئًا غَسَلْتَهُ لَقَدْ رَأَيْتُنِي وَإِنِّي لأَحُكُّهُ مِنْ ثَوْبِ رَسُولِ اللَّهِ صلى الله عليه وسلم يَابِسًا بِظُفُرِي ‏.‏",
+      "source_hash_sha256": "46b729d764ae89a6735144d6c9875980f9c6a76c2ed255a181c01050656cd39a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Jawwas al-Hanafi, Abû ‘Asim, nous a rapporté, d’après Abû al-Ahwas, d’après Shabib ibn Gharqada, d’après ‘Abd Allah ibn Shihab al-Khawlani, qui a dit : Je logeais chez ‘A’isha et j’eus une émission nocturne sur mes deux vêtements. Je les plongeai dans l’eau. Une servante de ‘A’isha me vit et l’en informa. ‘A’isha m’envoya chercher et me demanda : « Qu’est-ce qui t’a poussé à faire cela avec tes deux vêtements ? » Je répondis : « J’ai vu ce que voit une personne endormie dans son rêve. » Elle demanda : « As-tu vu quelque chose dessus ? » Je répondis : « Non. » Elle dit : « Si tu avais vu quelque chose, tu l’aurais lavé. Je voyais le Messager de Dieu ﷺ gratter le sperme séché de son vêtement avec son ongle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "dd86f672-e23b-4697-bf6a-7e347dd0efb6",
+      "reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "source_id": "5bcc6e91-cf1c-4f01-8f70-ce498f96afff",
+      "reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    },
+    {
+      "source_id": "19b9e953-6837-474f-84a6-e28427d7a52f",
+      "reason": "La source arabe ne reprend que les chaînes de transmission et renvoie à une formulation antérieure, avec des différences, sans donner le texte complet du hadith. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le récit précédent."
+    }
+  ]
+}
