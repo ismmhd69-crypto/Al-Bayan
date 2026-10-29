@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-902",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:41:32.568Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "10bbcaf0-10bb-43fd-8cfb-00242ffbf129",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4931b",
+      "reference": "Sahih al-Bukhari, hadith 4931b, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، قَالَ قَالَ عَبْدُ اللَّهِ بَيْنَا نَحْنُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي غَارٍ إِذْ نَزَلَتْ عَلَيْهِ وَالْمُرْسَلاَتِ فَتَلَقَّيْنَاهَا مِنْ فِيهِ وَإِنَّ فَاهُ لَرَطْبٌ بِهَا إِذْ خَرَجَتْ حَيَّةٌ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ عَلَيْكُمُ اقْتُلُوهَا ‏\"‏‏.‏ قَالَ فَابْتَدَرْنَاهَا فَسَبَقَتْنَا ـ قَالَ ـ فَقَالَ ‏\"‏ وُقِيَتْ شَرَّكُمْ، كَمَا وُقِيتُمْ شَرَّهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "c077cdd72ba5c3d76a3db1bd7dedce10e351facda77e425a748f601c0a51dee1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Aswad rapporte que ʿAbd Allâh dit : « Alors que nous étions avec le Messager d’Allah (paix et bénédictions sur lui) dans une grotte, la sourate al-Mursalât lui fut révélée. Nous la recevions de sa bouche, encore humide de sa récitation, lorsqu’un serpent sortit. Le Messager d’Allah dit : “Tuez-le.” Nous nous précipitâmes, mais il nous devança et s’échappa. Le Messager d’Allah dit : “Il a été protégé de votre mal, tout comme vous avez été protégés du sien.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "33dd440b-dac6-46ac-95a7-d9703be2a86d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4932",
+      "reference": "Sahih al-Bukhari, hadith 4932, book 65, باب قَوْلِهِ ‏ {‏إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ عَابِسٍ، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ قَالَ كُنَّا نَرْفَعُ الْخَشَبَ بِقَصَرٍ ثَلاَثَةَ أَذْرُعٍ أَوْ أَقَلَّ، فَنَرْفَعُهُ لِلشِّتَاءِ فَنُسَمِّيهِ الْقَصَرَ‏.‏",
+      "source_hash_sha256": "9d00e126151a95f5b348769a8f990192340ad0c1adf1f8f049ca45b1cb9e6e32",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "96515e1c-82a8-43ee-adf4-b198d6d9c4c0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4933",
+      "reference": "Sahih al-Bukhari, hadith 4933, book 65, باب قَوْلِهِ ‏{‏كَأَنَّهُ جِمَالاَتٌ صُفْرٌ‏}‏",
+      "title": "باب قَوْلِهِ ‏{‏كَأَنَّهُ جِمَالاَتٌ صُفْرٌ‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا يَحْيَى، أَخْبَرَنَا سُفْيَانُ، حَدَّثَنِي عَبْدُ الرَّحْمَنِ بْنُ عَابِسٍ، سَمِعْتُ ابْنَ عَبَّاسٍ ـ رضى الله عنهما ـ ‏[quran sura=\"77\" aya_start=\"32\" aya_end=\"32\"]{‏تَرْمِي بِشَرَرٍ‏}‏ كُنَّا نَعْمِدُ إِلَى الْخَشَبَةِ ثَلاَثَةَ أَذْرُعٍ وَفَوْقَ ذَلِكَ، فَنَرْفَعُهُ لِلشِّتَاءِ فَنُسَمِّيهِ الْقَصَرَ‏.‏ ‏{‏كَأَنَّهُ جِمَالاَتٌ صُفْرٌ‏}‏ حِبَالُ السُّفْنِ تُجْمَعُ حَتَّى تَكُونَ كَأَوْسَاطِ الرِّجَالِ‏.‏",
+      "source_hash_sha256": "5c591c8b105ebcec333ba0db47f2bc8504bca2e0957d3477bd69835bc2c59a1e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "19de96d2-f6f5-43c9-bb25-1a3e51f6ba01",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4934",
+      "reference": "Sahih al-Bukhari, hadith 4934, book 65, باب قَوْلِهِ ‏ {‏هَذَا يَوْمُ لاَ يَنْطِقُونَ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏هَذَا يَوْمُ لاَ يَنْطِقُونَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، حَدَّثَنِي إِبْرَاهِيمُ، عَنِ الأَسْوَدِ، عَنْ عَبْدِ اللَّهِ، قَالَ بَيْنَمَا نَحْنُ مَعَ النَّبِيِّ صلى الله عليه وسلم فِي غَارٍ إِذْ نَزَلَتْ عَلَيْهِ وَالْمُرْسَلاَتِ، فَإِنَّهُ لَيَتْلُوهَا وَإِنِّي لأَتَلَقَّاهَا مِنْ فِيهِ وَإِنَّ فَاهُ لَرَطْبٌ بِهَا، إِذْ وَثَبَتْ عَلَيْنَا حَيَّةٌ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اقْتُلُوهَا ‏\"‏‏.‏ فَابْتَدَرْنَاهَا فَذَهَبَتْ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ وُقِيَتْ شَرَّكُمْ، كَمَا وُقِيتُمْ شَرَّهَا ‏\"‏‏.‏ قَالَ عُمَرُ حَفِظْتُهُ مِنْ أَبِي فِي غَارٍ بِمِنًى‏.‏",
+      "source_hash_sha256": "e8b7ff1f6cdff013f3faf1fb8242c520f994b4fa4f885df2712d5ddb86137c52",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh rapporte que, alors qu’ils se trouvaient avec le Prophète (paix et bénédictions sur lui) dans une grotte, la sourate al-Mursalât lui fut révélée. Il la récitait et ʿAbd Allâh la recevait de sa bouche, encore humide de sa récitation, lorsqu’un serpent se précipita sur eux. Le Prophète dit : « Tuez-le. » Ils se précipitèrent, mais le serpent s’échappa. Le Prophète dit : « Il a été protégé de votre mal, tout comme vous avez été protégés du sien. » ʿUmar rapporte qu’il tenait ce récit de son père, dans une grotte à Minâ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3b0574aa-52ba-4142-96e6-9cd86e1c59a7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4935",
+      "reference": "Sahih al-Bukhari, hadith 4935, book 65, باب ‏ {‏يَوْمَ يُنْفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا‏} ‏ زُمَرًا",
+      "title": "باب ‏ {‏يَوْمَ يُنْفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا‏} ‏ زُمَرًا",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدٌ، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا بَيْنَ النَّفْخَتَيْنِ أَرْبَعُونَ ‏\"‏‏.‏ قَالَ أَرْبَعُونَ يَوْمًا قَالَ أَبَيْتُ‏.‏ قَالَ أَرْبَعُونَ شَهْرًا قَالَ أَبَيْتُ‏.‏ قَالَ أَرْبَعُونَ سَنَةً قَالَ أَبَيْتُ‏.‏ قَالَ ‏\"‏ ثُمَّ يُنْزِلُ اللَّهُ مِنَ السَّمَاءِ مَاءً‏.‏ فَيَنْبُتُونَ كَمَا يَنْبُتُ الْبَقْلُ لَيْسَ مِنَ الإِنْسَانِ شَىْءٌ إِلاَّ يَبْلَى إِلاَّ عَظْمًا وَاحِدًا وَهْوَ عَجْبُ الذَّنَبِ، وَمِنْهُ يُرَكَّبُ الْخَلْقُ يَوْمَ الْقِيَامَةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "36f8b5b0871dd64dda2394a60c837da9578a90628c3bd6e914eadc8d6cca6406",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte que le Messager d’Allah (paix et bénédictions sur lui) a dit : « Il y aura quarante entre les deux sonneries. » On demanda : « Quarante jours ? » Il refusa de préciser. On demanda : « Quarante mois ? » Il refusa. On demanda : « Quarante ans ? » Il refusa encore. Il dit ensuite : « Allah fera descendre une pluie du ciel, et les gens pousseront comme les plantes. Tout le corps de l’être humain se décomposera, sauf un os : le coccyx. C’est à partir de lui que la création sera recomposée au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dcfbc06d-1f7e-4b35-a99f-0115c113cb48",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4936",
+      "reference": "Sahih al-Bukhari, hadith 4936, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ الْمِقْدَامِ، حَدَّثَنَا الْفُضَيْلُ بْنُ سُلَيْمَانَ، حَدَّثَنَا أَبُو حَازِمٍ، حَدَّثَنَا سَهْلُ بْنُ سَعْدٍ ـ رضى الله عنه ـ قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ بِإِصْبَعَيْهِ هَكَذَا بِالْوُسْطَى وَالَّتِي تَلِي الإِبْهَامَ ‏\"‏ بُعِثْتُ وَالسَّاعَةَ كَهَاتَيْنِ ‏\"‏‏.‏",
+      "source_hash_sha256": "ee42bafc3b25f5108920b6bf71e089d7cf4fd75827a17e4950c93e36301ae417",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sahl ibn Saʿd (qu’Allah l’agrée) rapporte : « J’ai vu le Messager d’Allah (paix et bénédictions sur lui) montrer son majeur et son index, puis dire : “J’ai été envoyé alors que l’Heure est aussi proche que ces deux doigts.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "33dd440b-dac6-46ac-95a7-d9703be2a86d",
+      "url": "https://sunnah.com/bukhari:4932",
+      "reason": "Le rapport cite directement Quran 77:32 dans l’expression « des étincelles comme un palais », sans marqueur dans le texte source. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-902, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "96515e1c-82a8-43ee-adf4-b198d6d9c4c0",
+      "url": "https://sunnah.com/bukhari:4933",
+      "reason": "Le rapport cite directement Quran 77:32. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-902, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
