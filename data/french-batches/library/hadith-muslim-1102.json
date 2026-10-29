@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-1102",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:12:51.120Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "99a54bb6-f0c4-400e-a4d5-94ada50efc61",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2370",
+      "reference": "Sahih Muslim, hadith 2370, book 43, باب مِنْ فَضَائِلِ إِبْرَاهِيمَ الْخَلِيلِ صلى الله عليه وسلم ‏‏",
+      "title": "باب مِنْ فَضَائِلِ إِبْرَاهِيمَ الْخَلِيلِ صلى الله عليه وسلم ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا الْمُغِيرَةُ، - يَعْنِي ابْنَ عَبْدِ الرَّحْمَنِ الْحِزَامِيَّ - عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اخْتَتَنَ إِبْرَاهِيمُ النَّبِيُّ عَلَيْهِ السَّلاَمُ وَهُوَ ابْنُ ثَمَانِينَ سَنَةً بِالْقَدُومِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "47c0472fc09898c3025fc01496b025b0e56ff504124a49a436699560d04281f9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Le prophète Ibrâhîm, que la paix soit sur lui, se fit circoncire à l’âge de quatre-vingts ans au moyen d’al-qadûm. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
