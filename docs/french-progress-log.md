@@ -11386,3 +11386,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1802b-1804
 
 - FR-LIB-HAD-MUSLIM-0856 saves five private French drafts about Khaybar and the Battle of the Trench. One chain-only cross-reference remains blank under Needs Mo with a specific reason. The source poem and its variant wording are preserved. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1805a-1806
+
+- FR-LIB-HAD-MUSLIM-0857 saves five private French drafts: four distinct devotional refrains from the Battle of the Trench and Salama ibn al-Akwa‘’s account of recovering the Prophet’s camels. No Quran quotation appears in these entries. No database write or publication occurred.
