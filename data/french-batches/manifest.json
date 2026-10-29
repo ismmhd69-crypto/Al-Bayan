@@ -44621,6 +44621,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0818",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0818.json",
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "five complete reports or distinct betrayal wording variants translated as private drafts; one chain-only cross-reference held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48928,8 +48941,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9267,
-  "hadithLocalRemaining": 5259,
+  "hadithLocalDrafted": 9272,
+  "hadithLocalRemaining": 5254,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -54123,8 +54136,8 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3104,
+  "hadithMuslimDrafted": 3109,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1316
+  "hadithNeedsMo": 1317
 }
