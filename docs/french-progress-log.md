@@ -3206,3 +3206,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-658` saves six private French drafts about Fâtima, al-Zubayr and the Prophet’s family. The wording of Bukhari 3717 was checked against the published Arabic report to clarify a compressed local passage.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,312 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 243. Total local hadith rows not drafted: 11,345, including held records.
+
+### 2026-10-29: Bukhari 3721–3727
+
+- `FR-LIB-HAD-BUKHARI-659` saves six private French drafts about al-Zubayr, Talha and Sa‘d.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,318 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 243. Total local hadith rows not drafted: 11,339, including held records.
