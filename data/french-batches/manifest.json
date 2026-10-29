@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5249,
+    "hadithBukhariDrafted": 5248,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5249,
+    "hadithLocalDrafted": 5248,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9378,
-    "hadithNeedsMo": 769,
+    "hadithLocalRemaining": 9379,
+    "hadithNeedsMo": 770,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24426,6 +24426,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1152",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1152.json",
+      "sourceIds": [
+        "1eec5d38-92bb-4236-a5d4-2c795c3b52b2",
+        "8d182ac7-3284-42ec-bccd-f044ec7a75f8",
+        "23654fec-4e32-4f5d-882c-359ac3e5f791",
+        "f8940a8d-7d8b-4017-ad58-2e421b81d0ee",
+        "e6bc8c3a-03bb-4de3-a5b0-08482d197c5b",
+        "a5a6ffad-1838-4b93-8559-e2c779a0cbf5"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6266 was held blank because the phrase عبد العصا and its chain need source confirmation. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -27643,6 +27664,12 @@
       "scope": "Sahih al-Bukhari 6239 direct quotation of Quran 33:53",
       "status": "blocked",
       "reason": "The report directly quotes Quran 33:53. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6266-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 6266 phrase عبد العصا and unusual chain",
+      "status": "blocked",
+      "reason": "The report contains an unclear phrase عبد العصا and an unusual chain. Keep the complete item blank until the source wording is confirmed."
     }
   ]
 }

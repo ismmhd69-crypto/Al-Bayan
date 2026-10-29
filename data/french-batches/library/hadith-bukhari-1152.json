@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1152",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:21:01.339Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1eec5d38-92bb-4236-a5d4-2c795c3b52b2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6262",
+      "reference": "Sahih al-Bukhari, hadith 6262, book 79, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ قُومُوا إِلَى سَيِّدِكُمْ ‏\"‏‏.‏",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ قُومُوا إِلَى سَيِّدِكُمْ ‏\"‏‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، عَنْ أَبِي أُمَامَةَ بْنِ سَهْلِ بْنِ حُنَيْفٍ، عَنْ أَبِي سَعِيدٍ، أَنَّ أَهْلَ، قُرَيْظَةَ نَزَلُوا عَلَى حُكْمِ سَعْدٍ فَأَرْسَلَ النَّبِيُّ صلى الله عليه وسلم إِلَيْهِ فَجَاءَ فَقَالَ ‏\"‏ قُومُوا إِلَى سَيِّدِكُمْ ‏\"‏‏.‏ أَوْ قَالَ ‏\"‏ خَيْرِكُمْ ‏\"‏‏.‏ فَقَعَدَ عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ هَؤُلاَءِ نَزَلُوا عَلَى حُكْمِكَ ‏\"‏‏.‏ قَالَ فَإِنِّي أَحْكُمُ أَنْ تُقْتَلَ مُقَاتِلَتُهُمْ، وَتُسْبَى ذَرَارِيُّهُمْ‏.‏ فَقَالَ ‏\"‏ لَقَدْ حَكَمْتَ بِمَا حَكَمَ بِهِ الْمَلِكُ ‏\"‏‏.‏ قَالَ أَبُو عَبْدِ اللَّهِ أَفْهَمَنِي بَعْضُ أَصْحَابِي عَنْ أَبِي الْوَلِيدِ مِنْ قَوْلِ أَبِي سَعِيدٍ إِلَى حُكْمِكَ‏.‏",
+      "source_hash_sha256": "06f4a9e6baae36100ad48938af5b1018ce408cb103ce4e3f46a2fc1a5e038add",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Walîd nous a rapporté : Shu‘ba nous a rapporté, d’après Sa‘d ibn Ibrâhîm, d’après Abû Umâma ibn Sahl ibn Hunayf, d’après Abû Sa‘îd, qui a dit : Les gens de Qurayza se soumirent au jugement de Sa‘d. Le Prophète ﷺ le fit appeler ; il vint. Le Prophète ﷺ dit : « Levez-vous pour votre chef » — ou : « pour le meilleur d’entre vous ». Il s’assit auprès du Prophète ﷺ, qui lui dit : « Ceux-là se sont soumis à ton jugement. » Sa‘d répondit : « Je juge que leurs combattants soient tués et que leurs enfants soient faits captifs. » Le Prophète ﷺ dit : « Tu as rendu un jugement conforme au jugement du Souverain. » Abû ‘Abd Allâh dit : L’un de mes compagnons m’a fait comprendre qu’Abû al-Walîd avait rapporté d’Abû Sa‘îd les mots : « Ils se sont soumis à ton jugement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8d182ac7-3284-42ec-bccd-f044ec7a75f8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6263",
+      "reference": "Sahih al-Bukhari, hadith 6263, book 79, باب الْمُصَافَحَةِ",
+      "title": "باب الْمُصَافَحَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَاصِمٍ، حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، قَالَ قُلْتُ لأَنَسٍ أَكَانَتِ الْمُصَافَحَةُ فِي أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم قَالَ نَعَمْ‏.‏",
+      "source_hash_sha256": "0873bec020c0c3120793d74de2c440761c4267c56359b514fed316dbd00356fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Amr ibn ‘Âsim nous a rapporté : Hammâm nous a rapporté, d’après Qatâda, qui a dit : Je demandai à Anas : « La poignée de main se pratiquait-elle parmi les Compagnons du Prophète ﷺ ? » Il répondit : « Oui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "23654fec-4e32-4f5d-882c-359ac3e5f791",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6264",
+      "reference": "Sahih al-Bukhari, hadith 6264, book 79, باب الْمُصَافَحَةِ",
+      "title": "باب الْمُصَافَحَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنِي ابْنُ وَهْبٍ، قَالَ أَخْبَرَنِي حَيْوَةُ، قَالَ حَدَّثَنِي أَبُو عَقِيلٍ، زُهْرَةُ بْنُ مَعْبَدٍ سَمِعَ جَدَّهُ عَبْدَ اللَّهِ بْنَ هِشَامٍ، قَالَ كُنَّا مَعَ النَّبِيِّ صلى الله عليه وسلم وَهْوَ آخِذٌ بِيَدِ عُمَرَ بْنِ الْخَطَّابِ‏.‏",
+      "source_hash_sha256": "9b48bdbaa37a89e8bb1b0b0b2304980e7499fd8fb15b6baa4d1b4827245523a0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Sulaymân a dit : Ibn Wahb m’a rapporté : Haywa m’a informé : Abû ‘Aqîl, Zuhra ibn Ma‘bad, m’a rapporté avoir entendu son grand-père ‘Abd Allâh ibn Hishâm dire : Nous étions avec le Prophète ﷺ, qui tenait la main de ‘Umar ibn al-Khattâb.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f8940a8d-7d8b-4017-ad58-2e421b81d0ee",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6265",
+      "reference": "Sahih al-Bukhari, hadith 6265, book 79, باب الأَخْذِ بِالْيَدَيْنِ",
+      "title": "باب الأَخْذِ بِالْيَدَيْنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سَيْفٌ، قَالَ سَمِعْتُ مُجَاهِدًا، يَقُولُ حَدَّثَنِي عَبْدُ اللَّهِ بْنُ سَخْبَرَةَ أَبُو مَعْمَرٍ، قَالَ سَمِعْتُ ابْنَ مَسْعُودٍ، يَقُولُ عَلَّمَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم وَكَفِّي بَيْنَ كَفَّيْهِ التَّشَهُّدَ، كَمَا يُعَلِّمُنِي السُّورَةَ مِنَ الْقُرْآنِ التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ‏.‏ وَهْوَ بَيْنَ ظَهْرَانَيْنَا، فَلَمَّا قُبِضَ قُلْنَا السَّلاَمُ‏.‏ يَعْنِي عَلَى النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "1f325d7631f2b5329581856adbcb33f87139a044b97f03b1cf57b36c0375ac7b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Nu‘aym nous a rapporté : Sayf nous a rapporté : J’ai entendu Mujâhid dire : ‘Abd Allâh ibn Sakhbara Abû Ma‘mar m’a rapporté : J’ai entendu Ibn Mas‘ûd dire : Le Messager d’Allah ﷺ m’a enseigné le tashahhud, ma main entre ses deux mains, comme il m’enseignait une sourate du Coran : « Les salutations, les prières et les bonnes paroles appartiennent à Allah. Que la paix soit sur toi, ô Prophète, ainsi que la miséricorde d’Allah et Ses bénédictions. Que la paix soit sur nous et sur les serviteurs vertueux d’Allah. J’atteste qu’il n’y a de divinité qu’Allah, et j’atteste que Muhammad est Son serviteur et Son Messager. » Il était encore parmi nous. Après sa mort, nous avons dit : « Que la paix soit sur le Prophète ﷺ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e6bc8c3a-03bb-4de3-a5b0-08482d197c5b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6266",
+      "reference": "Sahih al-Bukhari, hadith 6266, book 79, باب الْمُعَانَقَةِ وَقَوْلِ الرَّجُلِ كَيْفَ أَصْبَحْتَ",
+      "title": "باب الْمُعَانَقَةِ وَقَوْلِ الرَّجُلِ كَيْفَ أَصْبَحْتَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، أَخْبَرَنَا بِشْرُ بْنُ شُعَيْبٍ، حَدَّثَنِي أَبِي، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عَبْدُ اللَّهِ بْنُ كَعْبٍ، أَنَّ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ، أَخْبَرَهُ أَنَّ عَلِيًّا ـ يَعْنِي ابْنَ أَبِي طَالِبٍ ـ خَرَجَ مِنْ عِنْدِ النَّبِيِّ صلى الله عليه وسلم وَحَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ حَدَّثَنَا عَنْبَسَةُ حَدَّثَنَا يُونُسُ عَنِ ابْنِ شِهَابٍ قَالَ أَخْبَرَنِي عَبْدُ اللَّهِ بْنُ كَعْبِ بْنِ مَالِكٍ أَنَّ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ أَخْبَرَهُ أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ ـ رضى الله عنه ـ خَرَجَ مِنْ عِنْدِ النَّبِيِّ صلى الله عليه وسلم فِي وَجَعِهِ الَّذِي تُوُفِّيَ فِيهِ فَقَالَ النَّاسُ يَا أَبَا حَسَنٍ كَيْفَ أَصْبَحَ رَسُولُ اللَّهِ صلى الله عليه وسلم قَالَ أَصْبَحَ بِحَمْدِ اللَّهِ بَارِئًا فَأَخَذَ بِيَدِهِ الْعَبَّاسُ فَقَالَ أَلاَ تَرَاهُ أَنْتَ وَاللَّهِ بَعْدَ الثَّلاَثِ عَبْدُ الْعَصَا وَاللَّهِ إِنِّي لأُرَى رَسُولَ اللَّهِ صلى الله عليه وسلم سَيُتَوَفَّى فِي وَجَعِهِ، وَإِنِّي لأَعْرِفُ فِي وُجُوهِ بَنِي عَبْدِ الْمُطَّلِبِ الْمَوْتَ، فَاذْهَبْ بِنَا إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَنَسْأَلَهُ فِيمَنْ يَكُونُ الأَمْرُ فَإِنْ كَانَ فِينَا عَلِمْنَا ذَلِكَ، وَإِنْ كَانَ فِي غَيْرِنَا أَمَرْنَاهُ فَأَوْصَى بِنَا‏.‏ قَالَ عَلِيٌّ وَاللَّهِ لَئِنْ سَأَلْنَاهَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَيَمْنَعُنَا لاَ يُعْطِينَاهَا النَّاسُ أَبَدًا، وَإِنِّي لاَ أَسْأَلُهَا رَسُولَ اللَّهِ صلى الله عليه وسلم أَبَدًا‏.‏",
+      "source_hash_sha256": "04e84b9c86bf066262c5ff049606cb447b33e50bf016676a57946d4e0573693c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_unclear_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "a5a6ffad-1838-4b93-8559-e2c779a0cbf5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6267",
+      "reference": "Sahih al-Bukhari, hadith 6267, book 79, باب مَنْ أَجَابَ بِلَبَّيْكَ وَسَعْدَيْكَ",
+      "title": "باب مَنْ أَجَابَ بِلَبَّيْكَ وَسَعْدَيْكَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، عَنْ مُعَاذٍ، قَالَ أَنَا رَدِيفُ النَّبِيِّ، صلى الله عليه وسلم فَقَالَ ‏\"‏ يَا مُعَاذُ ‏\"‏‏.‏ قُلْتُ لَبَّيْكَ وَسَعْدَيْكَ‏.‏ ثُمَّ قَالَ مِثْلَهُ ثَلاَثًا ‏\"‏ هَلْ تَدْرِي مَا حَقُّ اللَّهِ عَلَى الْعِبَادِ أَنْ يَعْبُدُوهُ وَلاَ يُشْرِكُوا بِهِ شَيْئًا ‏\"‏‏.‏ ثُمَّ سَارَ سَاعَةً فَقَالَ ‏\"‏ يَا مُعَاذُ ‏\"‏‏.‏ قُلْتُ لَبَّيْكَ وَسَعْدَيْكَ‏.‏ قَالَ ‏\"‏ هَلْ تَدْرِي مَا حَقُّ الْعِبَادِ عَلَى اللَّهِ إِذَا فَعَلُوا ذَلِكَ أَنْ لاَ يُعَذِّبَهُمْ ‏\"‏‏.‏ حَدَّثَنَا هُدْبَةُ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، عَنْ أَنَسٍ، عَنْ مُعَاذٍ، بِهَذَا‏.‏",
+      "source_hash_sha256": "686b8f62b642dca8659b80dc317e2b8d50cdc3c6c154040c9ad28603cf370706",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Mûsâ ibn Ismâ‘îl nous a rapporté : Hammâm nous a rapporté, d’après Qatâda, d’après Anas, d’après Mu‘âdh, qui a dit : J’étais derrière le Prophète ﷺ sur sa monture. Il dit : « Ô Mu‘âdh ! » Je répondis : « À ton service et heureux de te répondre. » Il répéta cela trois fois, puis demanda : « Sais-tu quel est le droit d’Allah sur Ses serviteurs ? » — « Qu’ils L’adorent sans rien Lui associer. » Il poursuivit quelque temps, puis dit : « Ô Mu‘âdh ! » Je répondis : « À ton service et heureux de te répondre. » Il demanda : « Sais-tu quel est le droit des serviteurs auprès d’Allah, s’ils accomplissent cela ? Qu’Il ne les châtie pas. » Hudba nous a rapporté le même récit, d’après Hammâm, d’après Qatâda, d’après Anas, d’après Mu‘âdh.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e6bc8c3a-03bb-4de3-a5b0-08482d197c5b",
+      "url": "https://sunnah.com/bukhari:6266",
+      "reason": "Le texte contient la formule obscure عبد العصا ainsi qu’une chaîne inhabituelle. Garder le récit entier en attente de confirmation du texte source."
+    }
+  ]
+}

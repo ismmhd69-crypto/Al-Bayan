@@ -5887,3 +5887,8 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6256–6261
 
 - FR-LIB-HAD-BUKHARI-1151 saves six private French drafts about greetings, Hâtib’s letter, and a letter hidden in wood. No database writes or publication occurred. Bukhari local drafts: 5,249 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 769. Total local hadith rows not drafted: 9,378, including held records.
+
+### 2026-10-29: Bukhari 6262–6267 — one held
+
+- FR-LIB-HAD-BUKHARI-1152 saves five private French drafts. Bukhari 6266 remains blank because the phrase عبد العصا and its chain need source confirmation.
+- The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,248 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 770. Total local hadith rows not drafted: 9,379, including held records.
