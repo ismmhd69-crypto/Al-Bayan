@@ -1,0 +1,62 @@
+[
+  {
+    "id": "learning.legacy",
+    "source": "lib/learning/text.ts",
+    "english": "Your earlier six-step reading history has been kept. These expanded lessons have their own reading marks.",
+    "french": "Votre ancien historique de lecture en six étapes a été conservé. Ces leçons développées ont leurs propres marques de lecture."
+  },
+  {
+    "id": "learning.guideStatus",
+    "source": "lib/learning/text.ts",
+    "english": "Bayan's prepared learning guide. Explanations and study suggestions are distinct from the linked sources. Independent scholarly and language review is not claimed.",
+    "french": "Guide d’apprentissage préparé par Bayan. Les explications et les suggestions d’étude sont distinctes des sources liées. Aucune révision indépendante par des savants et des spécialistes de la langue n’est revendiquée."
+  },
+  {
+    "id": "learning.noPersonal",
+    "source": "lib/learning/text.ts",
+    "english": "For a ruling about your own circumstances, seek qualified guidance.",
+    "french": "Pour une décision concernant votre situation personnelle, demandez conseil à une personne qualifiée."
+  },
+  {
+    "id": "learning.expand",
+    "source": "lib/learning/text.ts",
+    "english": "Show lessons",
+    "french": "Afficher les leçons"
+  },
+  {
+    "id": "learning.collapse",
+    "source": "lib/learning/text.ts",
+    "english": "Hide lessons",
+    "french": "Masquer les leçons"
+  },
+  {
+    "id": "learning.prayerName.fajr",
+    "source": "lib/learning/text.ts",
+    "english": "Fajr",
+    "french": "Fajr"
+  },
+  {
+    "id": "learning.prayerName.dhuhr",
+    "source": "lib/learning/text.ts",
+    "english": "Dhuhr",
+    "french": "Dhuhr"
+  },
+  {
+    "id": "learning.prayerName.asr",
+    "source": "lib/learning/text.ts",
+    "english": "Asr",
+    "french": "Asr"
+  },
+  {
+    "id": "learning.prayerName.maghrib",
+    "source": "lib/learning/text.ts",
+    "english": "Maghrib",
+    "french": "Maghrib"
+  },
+  {
+    "id": "learning.prayerName.isha",
+    "source": "lib/learning/text.ts",
+    "english": "Isha",
+    "french": "Isha"
+  }
+]

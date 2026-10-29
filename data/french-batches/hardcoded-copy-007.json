@@ -1,0 +1,152 @@
+[
+  {
+    "id": "learning.quran",
+    "source": "lib/learning/text.ts",
+    "english": "From the Quran",
+    "french": "Dans le Coran"
+  },
+  {
+    "id": "learning.hadith",
+    "source": "lib/learning/text.ts",
+    "english": "Authentic hadith references",
+    "french": "Références de hadiths authentiques"
+  },
+  {
+    "id": "learning.scholars",
+    "source": "lib/learning/text.ts",
+    "english": "Named scholarly explanations",
+    "french": "Explications attribuées à des savants"
+  },
+  {
+    "id": "learning.openSource",
+    "source": "lib/learning/text.ts",
+    "english": "Read the original source",
+    "french": "Lire la source originale"
+  },
+  {
+    "id": "learning.evidenceLoading",
+    "source": "lib/learning/text.ts",
+    "english": "Loading the original Quran passages…",
+    "french": "Chargement des passages originaux du Coran…"
+  },
+  {
+    "id": "learning.evidenceUnavailable",
+    "source": "lib/learning/text.ts",
+    "english": "The passage could not be loaded here. Read the original at the linked source.",
+    "french": "Impossible de charger le passage ici. Consultez l’original à la source indiquée."
+  },
+  {
+    "id": "learning.translationUnavailable",
+    "source": "lib/learning/text.ts",
+    "english": "A displayable translation is unavailable here. Read the attributed translation at the original source.",
+    "french": "Aucune traduction ne peut être affichée ici. Consultez la traduction attribuée à la source originale."
+  },
+  {
+    "id": "learning.sourceNote",
+    "source": "lib/learning/text.ts",
+    "english": "The reference supports the explanation beside its link. Read the full source and its conditions.",
+    "french": "La référence étaye l’explication située à côté de son lien. Lisez la source complète et ses conditions."
+  },
+  {
+    "id": "learning.previous",
+    "source": "lib/learning/text.ts",
+    "english": "Previous lesson",
+    "french": "Leçon précédente"
+  },
+  {
+    "id": "learning.next",
+    "source": "lib/learning/text.ts",
+    "english": "Next lesson",
+    "french": "Leçon suivante"
+  },
+  {
+    "id": "learning.overview",
+    "source": "lib/learning/text.ts",
+    "english": "All lessons",
+    "french": "Toutes les leçons"
+  },
+  {
+    "id": "learning.minutes",
+    "source": "lib/learning/text.ts",
+    "english": "About {n} min to read",
+    "french": "Environ {n} min de lecture"
+  },
+  {
+    "id": "learning.shortcuts",
+    "source": "lib/learning/text.ts",
+    "english": "Find what you need",
+    "french": "Trouvez ce dont vous avez besoin"
+  },
+  {
+    "id": "learning.becoming",
+    "source": "lib/learning/text.ts",
+    "english": "Becoming Muslim",
+    "french": "Devenir musulman"
+  },
+  {
+    "id": "learning.prayer",
+    "source": "lib/learning/text.ts",
+    "english": "Learning prayer",
+    "french": "Apprendre la prière"
+  },
+  {
+    "id": "learning.ramadan",
+    "source": "lib/learning/text.ts",
+    "english": "Ramadan",
+    "french": "Ramadan"
+  },
+  {
+    "id": "learning.questions",
+    "source": "lib/learning/text.ts",
+    "english": "A difficult question",
+    "french": "Une question difficile"
+  },
+  {
+    "id": "learning.difficultQuestions",
+    "source": "lib/learning/text.ts",
+    "english": "Explore Hard Questions",
+    "french": "Découvrir les questions difficiles"
+  },
+  {
+    "id": "learning.choosePrayer",
+    "source": "lib/learning/text.ts",
+    "english": "Choose your prayer",
+    "french": "Choisissez votre prière"
+  },
+  {
+    "id": "learning.units",
+    "source": "lib/learning/text.ts",
+    "english": "units",
+    "french": "unités"
+  },
+  {
+    "id": "learning.commonSequence",
+    "source": "lib/learning/text.ts",
+    "english": "Read the common instructions and words, then follow your prayer's unit sequence.",
+    "french": "Lisez les instructions et les paroles communes, puis suivez la séquence de votre prière."
+  },
+  {
+    "id": "learning.prayerSequence",
+    "source": "lib/learning/text.ts",
+    "english": "Your prayer's unit sequence",
+    "french": "Séquence des unités de votre prière"
+  },
+  {
+    "id": "learning.prayerScope",
+    "source": "lib/learning/text.ts",
+    "english": "An ordinary obligatory prayer, prayed individually by someone able to stand and perform its actions. This guide follows one attributed method; personal circumstances need suitable guidance.",
+    "french": "Une prière obligatoire ordinaire, accomplie individuellement par une personne capable de se tenir debout et d’effectuer ses gestes. Ce guide suit une méthode attribuée ; les situations personnelles nécessitent un conseil adapté."
+  },
+  {
+    "id": "learning.completed",
+    "source": "lib/learning/text.ts",
+    "english": "You have reached the end of the course. Revisit a lesson or choose your next area of learning.",
+    "french": "Vous êtes arrivé à la fin du parcours. Relisez une leçon ou choisissez votre prochain sujet d’apprentissage."
+  },
+  {
+    "id": "learning.readAgain",
+    "source": "lib/learning/text.ts",
+    "english": "Read again",
+    "french": "Relire"
+  }
+]

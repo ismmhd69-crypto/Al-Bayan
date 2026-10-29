@@ -472,3 +472,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-005` saved the remaining 24 account and data-control messages: `checkEmail`, `resetSent`, `passwordChanged`, `wrongLogin`, `notConfirmed`, `confirmationResent`, `weakPassword`, `invalidEmail`, `consentRequired`, `error`, `tooMany`, `signedInAs`, `saved`, `yourData`, `exportData`, `researchPrivacy`, `deleteChats`, `deleteChatsAsk`, `deleteAccount`, `deleteAccountAsk`, `deleteYes`, `deleteNo`, `chatsDeleted`, and `accountDeleted`.
 - Both batches passed source-file, unique-ID, nonempty French, and placeholder checks. The consent, deletion and privacy messages remain drafts and are not integrated into account flows.
 - Code-level visitor-copy coverage increased from 54 to 103 saved strings. The full audit remains incomplete; page-specific copy, learning visual labels, and other controls still need review. Human review: 0; published: 0.
+
+### 2026-10-29: learning and reading controls
+
+- `FR-UI-HC-006` saved 25 French learning labels and messages (`title` through `sources`); `FR-UI-HC-007` saved the next 25 (`quran` through `guideStatus`); `FR-UI-HC-008` saved the final 10 (`noPersonal`, `expand`, `collapse`, and the five prayer names). All entries come from `lib/learning/text.ts` and the artifacts hold each source string and French draft.
+- The three batches passed source-file, unique-ID, nonempty French, and placeholder checks. The prayer names retain the forms already used in French lesson drafts.
+- Code-level visitor-copy coverage increased from 103 to 163 saved strings. The private preview reads these saved artifacts; the full source-code audit remains incomplete, including the interactive learning visuals and other reader and Ask controls. No live locale or route was changed. Human review: 0; published: 0.

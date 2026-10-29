@@ -1,0 +1,152 @@
+[
+  {
+    "id": "learning.title",
+    "source": "lib/learning/text.ts",
+    "english": "New to Islam",
+    "french": "Découvrir l’islam"
+  },
+  {
+    "id": "learning.intro",
+    "source": "lib/learning/text.ts",
+    "english": "Understand the message, explore the sources, and find your next step. Begin wherever you need today.",
+    "french": "Comprenez le message, découvrez les sources et trouvez votre prochaine étape. Commencez par ce dont vous avez besoin aujourd’hui."
+  },
+  {
+    "id": "learning.exploring",
+    "source": "lib/learning/text.ts",
+    "english": "I'm exploring Islam",
+    "french": "Je découvre l’islam"
+  },
+  {
+    "id": "learning.exploringNote",
+    "source": "lib/learning/text.ts",
+    "english": "Begin with the beliefs and message. Bring your questions with you.",
+    "french": "Commencez par les croyances et le message. Gardez vos questions avec vous."
+  },
+  {
+    "id": "learning.newcomer",
+    "source": "lib/learning/text.ts",
+    "english": "I'm new to Islam",
+    "french": "Je découvre l’islam"
+  },
+  {
+    "id": "learning.newcomerNote",
+    "source": "lib/learning/text.ts",
+    "english": "Begin with becoming Muslim, your first days and learning prayer.",
+    "french": "Commencez par la conversion à l’islam, les premiers jours et l’apprentissage de la prière."
+  },
+  {
+    "id": "learning.start",
+    "source": "lib/learning/text.ts",
+    "english": "Start here",
+    "french": "Commencer ici"
+  },
+  {
+    "id": "learning.chapters",
+    "source": "lib/learning/text.ts",
+    "english": "Your learning journey",
+    "french": "Votre parcours d’apprentissage"
+  },
+  {
+    "id": "learning.chapter",
+    "source": "lib/learning/text.ts",
+    "english": "Chapter",
+    "french": "Chapitre"
+  },
+  {
+    "id": "learning.lesson",
+    "source": "lib/learning/text.ts",
+    "english": "Lesson",
+    "french": "Leçon"
+  },
+  {
+    "id": "learning.lessons",
+    "source": "lib/learning/text.ts",
+    "english": "lessons",
+    "french": "leçons"
+  },
+  {
+    "id": "learning.continue",
+    "source": "lib/learning/text.ts",
+    "english": "Continue reading",
+    "french": "Continuer la lecture"
+  },
+  {
+    "id": "learning.read",
+    "source": "lib/learning/text.ts",
+    "english": "Read",
+    "french": "Lu"
+  },
+  {
+    "id": "learning.mark",
+    "source": "lib/learning/text.ts",
+    "english": "Mark as read",
+    "french": "Marquer comme lu"
+  },
+  {
+    "id": "learning.undo",
+    "source": "lib/learning/text.ts",
+    "english": "Undo reading mark",
+    "french": "Retirer la marque de lecture"
+  },
+  {
+    "id": "learning.resumeNote",
+    "source": "lib/learning/text.ts",
+    "english": "Your place is saved even before you mark a lesson as read.",
+    "french": "Votre position est enregistrée même avant que vous marquiez une leçon comme lue."
+  },
+  {
+    "id": "learning.progress",
+    "source": "lib/learning/text.ts",
+    "english": "{done} of {total} lessons read",
+    "french": "{done} leçons lues sur {total}"
+  },
+  {
+    "id": "learning.progressNote",
+    "source": "lib/learning/text.ts",
+    "english": "Saved on this device · All lessons are always open",
+    "french": "Enregistré sur cet appareil · Toutes les leçons sont toujours accessibles"
+  },
+  {
+    "id": "learning.storage",
+    "source": "lib/learning/text.ts",
+    "english": "Saved on this device. You can undo any reading mark.",
+    "french": "Enregistré sur cet appareil. Vous pouvez retirer toute marque de lecture."
+  },
+  {
+    "id": "learning.storageUnavailable",
+    "source": "lib/learning/text.ts",
+    "english": "Your browser could not save progress. It will last for this visit only.",
+    "french": "Votre navigateur n’a pas pu enregistrer la progression. Elle ne sera conservée que pendant cette visite."
+  },
+  {
+    "id": "learning.core",
+    "source": "lib/learning/text.ts",
+    "english": "The clear answer",
+    "french": "La réponse claire"
+  },
+  {
+    "id": "learning.understand",
+    "source": "lib/learning/text.ts",
+    "english": "Let's understand it",
+    "french": "Comprenons cela"
+  },
+  {
+    "id": "learning.guide",
+    "source": "lib/learning/text.ts",
+    "english": "Your next step",
+    "french": "Votre prochaine étape"
+  },
+  {
+    "id": "learning.followups",
+    "source": "lib/learning/text.ts",
+    "english": "Questions you may have",
+    "french": "Questions que vous pourriez vous poser"
+  },
+  {
+    "id": "learning.sources",
+    "source": "lib/learning/text.ts",
+    "english": "Explore the evidence",
+    "french": "Découvrir les preuves"
+  }
+]
