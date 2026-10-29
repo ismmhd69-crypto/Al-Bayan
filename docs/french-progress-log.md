@@ -2511,3 +2511,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-519` saves six private French drafts on not using fire as punishment, the Ukl incident, Dhû al-Khalasa, the Banû al-Nadîr palms and the account of Abû Râfi‘. The long Abû Râfi‘ report was translated in full.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,723 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,932, including held records.
+
+### 2026-10-29: Bukhari 3023–3030 source review
+
+- `FR-LIB-HAD-BUKHARI-520` saves six private French drafts about Abû Râfi‘, avoiding a desired battle, the fall of Persian and Byzantine empires, and strategy in warfare. The long counsel report was translated in full.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,729 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,926, including held records.
