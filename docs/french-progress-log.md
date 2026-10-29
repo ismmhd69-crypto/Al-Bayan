@@ -8096,3 +8096,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0194 saves four private French drafts about Mu‘adh leading his people in prayer and the instruction to keep congregational prayer manageable. Muslim 465b quotes Quran passages and remains blank pending an approved, attributed French Quran translation with permitted use. Muslim 466b is an incomplete cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 782 Muslim drafts, 7,118 total hadith drafts, 7,511 remaining, and 389 Needs Mo items.
+
+### 2026-10-29: Muslim 467b–469a
+
+- FR-LIB-HAD-MUSLIM-0195 saves five private French drafts about keeping congregational prayer manageable and Anas’s description of the Prophet’s prayer. Muslim 467d is an incomplete variant-only cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 787 Muslim drafts, 7,123 total hadith drafts, 7,510 remaining, and 390 Needs Mo items.
