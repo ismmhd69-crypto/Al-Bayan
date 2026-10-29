@@ -11121,3 +11121,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0798 saves four private French drafts on Ma‘iz ibn Malik’s confession and the source’s variant sermon wording. All four records contain report text or a distinct wording difference.
 - All four source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1695a
+
+- FR-LIB-HAD-MUSLIM-0799 saves the one deferred long private French draft about Ma‘iz ibn Malik and the woman of Ghamid. Its complete source chain and narration are retained in this single-item batch.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
