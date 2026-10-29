@@ -3281,3 +3281,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-673` saves four private French drafts about Ubayy ibn Ka‘b, Zayd ibn Thâbit, Abû Talha and ‘Abd Allâh ibn Salâm. Bukhari 3809 and 3812 remain blank because they quote Quran 98:1 and 46:10; no approved, attributed French Quran translation is confirmed.
 - All six records passed the focused validator, including both Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,396 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 249. Total local hadith rows not drafted: 11,261, including held records.
+
+### 2026-10-29: Bukhari 3814–3819
+
+- `FR-LIB-HAD-BUKHARI-674` saves six private French drafts about ‘Abd Allâh ibn Salâm and Khadîja.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,402 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 249. Total local hadith rows not drafted: 11,255, including held records.
