@@ -29,7 +29,7 @@
         "expires_at": null
       },
       "text_french": "",
-      "draft_status": "source_export_waiting_for_translation",
+      "draft_status": "needs_mo_quran_translation_rights",
       "database_inserted": false,
       "translation_published": false,
       "human_reviewed": false
@@ -170,6 +170,11 @@
       "source_id": "289a6706-082c-494d-9cd7-8ef0023682fd",
       "url": "https://sunnah.com/bukhari:4762",
       "reason": "Le rapport cite directement Quran 25:68. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "ab8cdbb6-fea3-41ca-a6e0-1f1f764a98bc",
+      "url": "https://sunnah.com/bukhari:4758",
+      "reason": "Le rapport cite directement les mots de Quran 24:31, mais cette citation n’est pas signalée par un marqueur dans le texte source. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ]
 }

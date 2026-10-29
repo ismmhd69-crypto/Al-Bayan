@@ -20411,6 +20411,12 @@
       "scope": "Sahih al-Bukhari 4762: direct Quran quotation (25:68)",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 25:68. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4758-QURAN-24-31-UNMARKED",
+      "scope": "Sahih al-Bukhari 4758: direct Quran 24:31 wording absent from source tags",
+      "status": "blocked",
+      "reason": "Le rapport cite directement les mots de Quran 24:31, mais cette citation n’est pas signalée par un marqueur dans le texte source. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4028,
