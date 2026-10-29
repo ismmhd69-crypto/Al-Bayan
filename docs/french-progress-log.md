@@ -2256,3 +2256,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-468` saves one full private French draft for Bukhari 2718, including the report’s alternate narrations of the sale price and the condition to ride the camel.
 - The single-record long-source batch passed the focused validator for Arabic hash, ID, reference, rights metadata, private unpublished state and long-text handling. No database writes or publication occurred. Bukhari local drafts: 2,451 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 148. Total local hadith rows not drafted: 12,193, including held records.
+
+### 2026-10-29: Bukhari 2719–2724 source review
+
+- `FR-LIB-HAD-BUKHARI-469` saves six private French drafts for Bukhari 2719–2724, covering shared cultivation, the Khaybar land agreement, marriage conditions, land rental, market conduct and a legal judgment.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,457 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 148. Total local hadith rows not drafted: 12,187, including held records.
