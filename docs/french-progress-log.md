@@ -9651,3 +9651,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0504 saves five private French drafts about night prayer, fasting, and bodily and family rights. Muslim 1159i gives only a wording variant to a prior report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1159o–1161d
+
+- FR-LIB-HAD-MUSLIM-0505 saves six private French drafts about moderation in worship, fasting three days monthly, and fasting around the end of Sha‘ban and Ramadan. All six reports contain complete text.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
