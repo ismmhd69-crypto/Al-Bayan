@@ -3771,3 +3771,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-771` saves six private French drafts about the al-Hudaybiya agreement, the Prophet’s ʿumras and Maymûna.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,758 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 310. Total local hadith rows not drafted: 10,899, including held records.
+
+### 2026-10-29: Bukhari 4259–4264
+
+- `FR-LIB-HAD-BUKHARI-772` saves six private French drafts about the ʿumra of rattrapage and the expedition of Muʾta.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,764 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 310. Total local hadith rows not drafted: 10,893, including held records.
