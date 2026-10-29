@@ -12062,3 +12062,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2170d-2172c
 
 - FR-LIB-HAD-MUSLIM-1025 saves four complete private French drafts about family boundaries and visiting. Two transmission-only variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2173-2176b
+
+- FR-LIB-HAD-MUSLIM-1026 saves three complete private French drafts about visits and privacy. One malformed source and two incomplete variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
