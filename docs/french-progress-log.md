@@ -9041,3 +9041,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0382 saves two private French drafts about rain touching the Prophet’s garment and his response to rain clouds. Muslim 897c, 897d and 897e are incomplete variants; 899b quotes Quran directly. All four remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1516 Muslim drafts, 7852 total hadith drafts, 6777 remaining, and 720 Needs Mo items.
+
+### 2026-10-29: Muslim 899c–901b
+
+- FR-LIB-HAD-MUSLIM-0383 saves three private French drafts about clouds and wind, the support given by the east wind, and the eclipse prayer. Muslim 900b and 901b only refer to earlier reports and remain blank under Needs Mo.
+- All five source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1519 Muslim drafts, 7855 total hadith drafts, 6774 remaining, and 722 Needs Mo items.
