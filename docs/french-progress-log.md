@@ -11294,3 +11294,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1763
 
 - FR-LIB-HAD-MUSLIM-0833 records the complete long report as a Needs Mo hold because it contains Quran quotations from 8:9, 8:67, and 8:69. The entire French entry remains blank pending an attributed and authorized French Quran translation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1764a
+
+- FR-LIB-HAD-MUSLIM-0834 saves one private French draft of the complete report about Thumâma ibn Uthâl. It preserves the chain, repeated exchanges, release and conversion, instruction to perform the ‘umra, and final statement about grain from al-Yamâma. No Quran quotation appears in this source entry. No database write or publication occurred.
