@@ -34965,6 +34965,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0288",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0288.json",
+      "sourceIds": [
+        "a957ba44-cb84-48b4-99b8-21cd57ed1ef4",
+        "055ff2e7-34ca-45df-a8f5-118f1e6205ca",
+        "b6234924-d678-4a25-a079-ddeb8f3cb629",
+        "a4a6c321-19c3-4a24-9266-d0a81a94194f",
+        "c324642e-24d5-4a49-b071-412fcac5a88b",
+        "3effd665-7522-4dda-b240-7a89dc26a9be"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete variants and two Quran quotations held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39272,8 +39293,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7478,
-  "hadithLocalRemaining": 7151,
+  "hadithLocalDrafted": 7480,
+  "hadithLocalRemaining": 7149,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41092,10 +41113,34 @@
       "scope": "Sahih Muslim 681: long report with direct Quran quotation",
       "status": "blocked",
       "reason": "Ce long récit (4 657 caractères) cite directement le verset 20:14 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-0288-682B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 682b: incomplete variant report",
+      "status": "blocked",
+      "reason": "La source arabe renvoie au récit de Salm ibn Zurar et ne donne que quelques ajouts et omissions, sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0288-684A-QURAN-20-14",
+      "scope": "Sahih Muslim 684a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement un passage du Coran (20:14). Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-0288-684B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 684b: incomplete variant report",
+      "status": "blocked",
+      "reason": "La source signale uniquement une différence avec la formulation précédente, sans préciser le texte complet à traduire. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0288-684D-QURAN-20-14",
+      "scope": "Sahih Muslim 684d: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 20:14 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 1142,
-  "hadithDatabaseMissing": 7151,
+  "hadithMuslimDrafted": 1144,
+  "hadithDatabaseMissing": 7149,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 539
+  "hadithNeedsMo": 543
 }

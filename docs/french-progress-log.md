@@ -8563,3 +8563,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0287 saves one private French draft from the 2,770-character report about a delayed prayer during travel, finding water, and helping a widowed mother and her children. The long source was processed alone.
 - Its source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,142 Muslim drafts, 7,478 total hadith drafts, 7,151 remaining, and 539 Needs Mo items.
+
+### 2026-10-29: Muslim 682b–684d
+
+- FR-LIB-HAD-MUSLIM-0288 saves two private French drafts about resting during travel and making up an inadvertently missed prayer. Muslim 682b and 684b are incomplete variants; 684a and 684d quote Quran 20:14. All four remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,144 Muslim drafts, 7,480 total hadith drafts, 7,149 remaining, and 543 Needs Mo items.
