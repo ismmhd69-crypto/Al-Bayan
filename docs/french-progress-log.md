@@ -8528,3 +8528,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0280 saves three private French drafts about choosing an imam and teaching prayer to one’s family. Muslim 672b, 672c and 673b are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,125 Muslim drafts, 7,461 total hadith drafts, 7,168 remaining, and 527 Needs Mo items.
+
+### 2026-10-29: Muslim 674b–675b
+
+- FR-LIB-HAD-MUSLIM-0281 saves one private French draft about two travelers appointing the older of them to lead prayer. Muslim 674b, 674c, 674e and 675b are incomplete reports; 675a quotes Quran 3:128. All five remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,126 Muslim drafts, 7,462 total hadith drafts, 7,167 remaining, and 532 Needs Mo items.

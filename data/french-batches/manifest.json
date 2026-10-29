@@ -34831,6 +34831,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0281",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0281.json",
+      "sourceIds": [
+        "4811c0d8-0e30-4489-8c59-486244723bca",
+        "a9f0603f-264d-48fa-8002-cd217e5bef31",
+        "a0c82c57-6d0a-4670-ae0d-7ae279f291d8",
+        "17847f31-1efb-44a9-951e-5e682d9fde53",
+        "7de8a3cc-354b-40e4-ac80-06793101b740",
+        "4061d4b1-eb4b-4507-b013-9c865f8dcd49"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; four incomplete variants and one Quran quotation held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39138,8 +39159,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7461,
-  "hadithLocalRemaining": 7168,
+  "hadithLocalDrafted": 7462,
+  "hadithLocalRemaining": 7167,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40886,10 +40907,40 @@
       "scope": "Sahih Muslim 673b: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source arabe ne rapporte que la chaîne de transmission et renvoie au récit précédent (« avec la même formulation »), sans reprendre le texte. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0281-674B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 674b: incomplete source variant",
+      "status": "blocked",
+      "reason": "La source ne contient que la chaîne de transmission, sans reprendre le récit principal. Garder la traduction française vide jusqu’à disponibilité du texte complet."
+    },
+    {
+      "id": "HADITH-MUSLIM-0281-674C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 674c: incomplete source variant",
+      "status": "blocked",
+      "reason": "La source arabe renvoie à la version d’Ibn ‘Ulayya par « dans le sens de son récit » sans reprendre le texte. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0281-674E-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 674e: incomplete source variant",
+      "status": "blocked",
+      "reason": "La source rapporte uniquement que les deux hommes étaient proches dans la récitation, sans reprendre le récit complet auquel cette précision se rapporte. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0281-675A-QURAN-3-128",
+      "scope": "Sahih Muslim 675a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit contient une citation directe du Coran (3:128). Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-0281-675B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 675b: incomplete source variant",
+      "status": "blocked",
+      "reason": "La source ne reprend qu’une partie du récit précédent puis précise qu’elle omet la suite. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1125,
-  "hadithDatabaseMissing": 7168,
+  "hadithMuslimDrafted": 1126,
+  "hadithDatabaseMissing": 7167,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 527
+  "hadithNeedsMo": 532
 }
