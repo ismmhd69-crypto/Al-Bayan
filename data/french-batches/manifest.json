@@ -6421,6 +6421,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1478 held for embedded Quran wording"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-258",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-258.json",
+      "sourceIds": [
+        "4235a368-9d17-49f1-ac3d-54aa93326a54"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Complete single-item translation; Arabic hash, ID, URL, reference, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "one private local AI draft; long source handled alone"
     }
   ],
   "blockers": [
