@@ -6032,3 +6032,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1183 saves one long private French draft, kept by itself because its Arabic source exceeds 2,000 characters. It includes the report and its source notes. No database writes or publication occurred.
 - The one-record batch passed the focused validator. Bukhari local drafts: 5,420 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 782. Total local hadith rows not drafted: 9,209, including held records.
+
+### 2026-10-29: Bukhari 6444–6449
+
+- FR-LIB-HAD-BUKHARI-1184 saves six private French drafts about giving, contentment, social standing, and the afterlife. No database writes or publication occurred.
+- All six drafts passed the focused validator. Bukhari local drafts: 5,426 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 782. Total local hadith rows not drafted: 9,203, including held records.
