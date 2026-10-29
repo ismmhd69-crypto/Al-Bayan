@@ -9641,3 +9641,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0502 saves one private French draft for the 2,306-character report about ‘Abd Allah ibn ‘Amr’s fasting and Quran recitation, including the Prophet’s guidance to balance worship with family, visitors, and bodily needs. The long source was isolated and translated in full.
 - The source hash is retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1159c–1159h
+
+- FR-LIB-HAD-MUSLIM-0503 saves four private French drafts about Quran recitation, night prayer, fasting, and the rights of the body and family. Muslim 1159c supplies only additions to an earlier report, and 1159g only a transmission note and narrator assessment; both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
