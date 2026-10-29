@@ -8606,3 +8606,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0295 saves two private French drafts about voluntary prayer while riding. Muslim 699c, 699d, 699e and 699f contain only incomplete variant references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,168 Muslim drafts, 7,504 total hadith drafts, 7,125 remaining, and 561 Needs Mo items.
+
+### 2026-10-29: Muslim 700c–700h
+
+- FR-LIB-HAD-MUSLIM-0296 saves four private French drafts about prayer on a riding animal, including the witr prayer. Muslim 700c and 700d quote Quran 2:115 and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,172 Muslim drafts, 7,508 total hadith drafts, 7,121 remaining, and 563 Needs Mo items.
