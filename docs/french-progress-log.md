@@ -8436,3 +8436,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0262 saves two private French drafts about missing the Asr prayer. Muslim 627a and 627c contain the Quranic phrase « الصلاة الوسطى » (2:238) and remain blank under Needs Mo. Muslim 626b and 627b are incomplete cross-references and also remain blank.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,049 Muslim drafts, 7,385 total hadith drafts, 7,244 remaining, and 499 Needs Mo items.
+
+### 2026-10-29: Muslim 627d–630
+
+- FR-LIB-HAD-MUSLIM-0263 holds all six items blank under Needs Mo: five reports contain direct Quran quotations or fragments about the middle prayer (2:238); one gives only an incomplete variant without the full report.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Draft totals remain 1,049 Muslim and 7,385 overall, with 7,244 remaining and 501 Needs Mo items.
