@@ -11750,3 +11750,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2007-2009b
 
 - FR-LIB-HAD-MUSLIM-0947 saves four private French drafts covering the account of the woman who sought protection, drinks served in the cup, and two migration reports. Distinct details are preserved. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2009c
+
+- FR-LIB-HAD-MUSLIM-0948 saves the complete long migration report as a private French draft, including the stop at the rock, milk, renewed journey, pursuit, and pledge. No database write or publication occurred.
