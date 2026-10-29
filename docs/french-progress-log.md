@@ -3581,3 +3581,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-733` saves six private French drafts, including reports about Talha and Abû Talha at Uhud and Ibn ʿUmar’s answers concerning ʿUthmân.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,601 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 286. Total local hadith rows not drafted: 11,062, including held records.
+
+### 2026-10-29: Bukhari 4067–4071
+
+- `FR-LIB-HAD-BUKHARI-734` saves three private French drafts. Hadiths 4069 and 4070 remain blank because they directly quote Quran 3:128; both holds are recorded for Mo.
+- All five records passed the focused validator, including both private holds. No database writes or publication occurred. Bukhari local drafts: 3,604 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 288. Total local hadith rows not drafted: 11,059, including held records.

@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 113,
+    "hadithNeedsMo": 115,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -15877,6 +15877,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-734",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-734.json",
+      "sourceIds": ["65461d96-da8b-4a4f-8423-bd7b0d3d9041", "f86b8f35-d99e-4960-94e6-dcf07d9713b1", "8c79b275-a35f-432d-9db9-895eeeb8c37e", "6168ba07-6894-4297-85bb-c8efcf7df20d", "9c776624-3a72-4c17-b82f-d0ff95a6c41f"],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
+    }
   ],
   "blockers": [
     {
@@ -16172,8 +16187,21 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:122. It remains blank in FR-LIB-HAD-BUKHARI-731 until an approved, attributed French Quran translation is confirmed."
     }
+,
+    {
+      "id": "HADITH-BUKHARI-4069-QURAN-3-128",
+      "scope": "Sahih al-Bukhari 4069: direct quotation of Quran 3:128",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:128. It remains blank in FR-LIB-HAD-BUKHARI-734 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-4070-QURAN-3-128",
+      "scope": "Sahih al-Bukhari 4070: direct quotation of Quran 3:128",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:128. It remains blank in FR-LIB-HAD-BUKHARI-734 until an approved, attributed French Quran translation is confirmed."
+    }
   ],
-  "hadithBukhariDrafted": 3549,
-  "hadithLocalDrafted": 3549,
-  "hadithLocalRemaining": 11108
+  "hadithBukhariDrafted": 3552,
+  "hadithLocalDrafted": 3552,
+  "hadithLocalRemaining": 11105
 }
