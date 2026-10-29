@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-419",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:51:12.759Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4a893bc8-8d54-4093-bb6f-235b1bb502cd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2437b",
+      "reference": "Sahih al-Bukhari, hadith 2437b, book 45, باب هَلْ يَأْخُذُ اللُّقَطَةَ وَلاَ يَدَعُهَا تَضِيعُ، حَتَّى لاَ يَأْخُذَهَا مَنْ لاَ يَسْتَحِقُّ",
+      "title": "باب هَلْ يَأْخُذُ اللُّقَطَةَ وَلاَ يَدَعُهَا تَضِيعُ، حَتَّى لاَ يَأْخُذَهَا مَنْ لاَ يَسْتَحِقُّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنِي أَبِي، عَنْ شُعْبَةَ، عَنْ سَلَمَةَ، بِهَذَا قَالَ فَلَقِيتُهُ بَعْدُ بِمَكَّةَ، فَقَالَ لاَ أَدْرِي أَثَلاَثَةَ أَحْوَالٍ أَوْ حَوْلاً وَاحِدًا‏.‏",
+      "source_hash_sha256": "b27103d10aa83af6781fa023151b6e3df0b008fbf0503107f4c95511f5e807dd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abdân, son père, Shu‘ba et Salama, avec cette même version.\n\nLe rapporteur ajouta : « Plus tard, je le rencontrai à La Mecque. Il me dit qu’il ne savait plus s’il avait fait l’annonce pendant trois ans ou pendant un an. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "12dd7e7d-2157-4996-b4b2-6ed3c2333b0a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2438",
+      "reference": "Sahih al-Bukhari, hadith 2438, book 45, باب مَنْ عَرَّفَ اللُّقَطَةَ، وَلَمْ يَدْفَعْهَا إِلَى السُّلْطَانِ",
+      "title": "باب مَنْ عَرَّفَ اللُّقَطَةَ، وَلَمْ يَدْفَعْهَا إِلَى السُّلْطَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ رَبِيعَةَ، عَنْ يَزِيدَ، مَوْلَى الْمُنْبَعِثِ عَنْ زَيْدِ بْنِ خَالِدٍ ـ رضى الله عنه ـ أَنَّ أَعْرَابِيًّا، سَأَلَ النَّبِيَّ صلى الله عليه وسلم عَنِ اللُّقَطَةِ قَالَ ‏\"‏ عَرِّفْهَا سَنَةً، فَإِنْ جَاءَ أَحَدٌ يُخْبِرُكَ بِعِفَاصِهَا وَوِكَائِهَا، وَإِلاَّ فَاسْتَنْفِقْ بِهَا ‏\"‏‏.‏ وَسَأَلَهُ عَنْ ضَالَّةِ الإِبِلِ فَتَمَعَّرَ وَجْهُهُ، قَالَ ‏\"‏ مَا لَكَ وَلَهَا مَعَهَا سِقَاؤُهَا وَحِذَاؤُهَا، تَرِدُ الْمَاءَ وَتَأْكُلُ الشَّجَرَ، دَعْهَا حَتَّى يَجِدَهَا رَبُّهَا ‏\"‏‏.‏ وَسَأَلَهُ عَنْ ضَالَّةِ الْغَنَمِ‏.‏ فَقَالَ ‏\"‏ هِيَ لَكَ أَوْ لأَخِيكَ، أَوْ لِلذِّئْبِ ‏\"‏‏.‏",
+      "source_hash_sha256": "f0c84ec99496307e62a57d6f87e734f462906ce2c8be18ea269ca638f40d6132",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Yûsuf, Sufyân, Rabî‘a, Yazîd, l’affranchi d’al-Munba‘ith, et Zayd ibn Khâlid.\n\nUn Bédouin interrogea le Prophète au sujet d’un objet trouvé. Il répondit : « Fais-en l’annonce pendant un an. Si quelqu’un vient t’en décrire le contenant et le lien, rends-le-lui ; sinon, tu peux l’utiliser. » L’homme l’interrogea aussi au sujet d’un chameau égaré. Le visage du Prophète changea et il répondit : « Qu’as-tu à faire de lui ? Il a sa réserve d’eau et ses pattes ; il va jusqu’à l’eau et mange les arbres. Laisse-le jusqu’à ce que son propriétaire le retrouve. » L’homme l’interrogea enfin au sujet d’une brebis égarée. Le Prophète répondit : « Elle est à toi, à ton frère ou au loup. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "36011d1e-d24a-429c-a7b1-3b78bb635621",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2439",
+      "reference": "Sahih al-Bukhari, hadith 2439, book 45, كتاب فى اللقطة",
+      "title": "كتاب فى اللقطة",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا النَّضْرُ، أَخْبَرَنَا إِسْرَائِيلُ، عَنْ أَبِي إِسْحَاقَ، قَالَ أَخْبَرَنِي الْبَرَاءُ، عَنْ أَبِي بَكْرٍ ـ رضى الله عنهما ـ‏.‏ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ رَجَاءٍ، حَدَّثَنَا إِسْرَائِيلُ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ، عَنْ أَبِي بَكْرٍ ـ رضى الله عنهما ـ قَالَ انْطَلَقْتُ، فَإِذَا أَنَا بِرَاعِي غَنَمٍ يَسُوقُ غَنَمَهُ فَقُلْتُ لِمَنْ أَنْتَ قَالَ لِرَجُلٍ مِنْ قُرَيْشٍ‏.‏ فَسَمَّاهُ فَعَرَفْتُهُ‏.‏ فَقُلْتُ هَلْ فِي غَنَمِكَ مِنْ لَبَنٍ فَقَالَ نَعَمْ‏.‏ فَقُلْتُ هَلْ أَنْتَ حَالِبٌ لِي قَالَ نَعَمْ‏.‏ فَأَمَرْتُهُ فَاعْتَقَلَ شَاةً مِنْ غَنَمِهِ، ثُمَّ أَمَرْتُهُ أَنْ يَنْفُضَ ضَرْعَهَا مِنَ الْغُبَارِ، ثُمَّ أَمَرْتُهُ أَنْ يَنْفُضَ كَفَّيْهِ، فَقَالَ هَكَذَا ـ ضَرَبَ إِحْدَى كَفَّيْهِ بِالأُخْرَى ـ فَحَلَبَ كُثْبَةً مِنْ لَبَنٍ وَقَدْ جَعَلْتُ لِرَسُولِ اللَّهِ صلى الله عليه وسلم إِدَاوَةً عَلَى فَمِهَا خِرْقَةٌ، فَصَبَبْتُ عَلَى اللَّبَنِ، حَتَّى بَرَدَ أَسْفَلُهُ، فَانْتَهَيْتُ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقُلْتُ اشْرَبْ يَا رَسُولَ اللَّهِ‏.‏ فَشَرِبَ حَتَّى رَضِيتُ‏.‏",
+      "source_hash_sha256": "4ebd88325143abdf31e9e37d12c961aa0177abdca1193e4ad0ffba8546cd1bd6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ishâq ibn Ibrâhîm, al-Nadr, Isrâ’îl, Abû Ishâq, al-Barâ’ et Abû Bakr. Une autre chaîne passe par ‘Abd Allâh ibn Rajâ’, Isrâ’îl, Abû Ishâq, al-Barâ’ et Abû Bakr.\n\nAbû Bakr a rapporté : « Je partis et rencontrai un berger qui conduisait ses moutons. Je lui demandai : “À qui appartiennent-ils ?” Il répondit et nomma un homme de Quraysh que je reconnus. Je lui demandai : “Y a-t-il du lait dans ton troupeau ?” Il répondit : “Oui.” Je lui demandai s’il pouvait m’en traire, et il accepta. Je lui fis isoler une brebis, secouer la poussière de ses mamelles, puis se frotter les mains l’une contre l’autre. Il trait alors une petite quantité de lait. J’avais préparé pour le Messager d’Allah une outre fermée par un morceau de tissu. J’y versai le lait, puis de l’eau jusqu’à ce que la partie inférieure du lait refroidisse. J’allai trouver le Prophète et lui dis : “Bois, Messager d’Allah.” Il but jusqu’à ce que je sois satisfait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c766598c-c0ef-45ad-8d55-81f098fd17de",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2440",
+      "reference": "Sahih al-Bukhari, hadith 2440, book 46, باب قِصَاصِ الْمَظَالِمِ",
+      "title": "باب قِصَاصِ الْمَظَالِمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ أَبِي الْمُتَوَكِّلِ النَّاجِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ ـ رضى الله عنه ـ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا خَلَصَ الْمُؤْمِنُونَ مِنَ النَّارِ حُبِسُوا بِقَنْطَرَةٍ بَيْنَ الْجَنَّةِ وَالنَّارِ، فَيَتَقَاصُّونَ مَظَالِمَ كَانَتْ بَيْنَهُمْ فِي الدُّنْيَا، حَتَّى إِذَا نُقُّوا وَهُذِّبُوا أُذِنَ لَهُمْ بِدُخُولِ الْجَنَّةِ، فَوَالَّذِي نَفْسُ مُحَمَّدٍ صلى الله عليه وسلم بِيَدِهِ لأَحَدُهُمْ بِمَسْكَنِهِ فِي الْجَنَّةِ أَدَلُّ بِمَنْزِلِهِ كَانَ فِي الدُّنْيَا ‏\"‏‏.‏ وَقَالَ يُونُسُ بْنُ مُحَمَّدٍ حَدَّثَنَا شَيْبَانُ عَنْ قَتَادَةَ حَدَّثَنَا أَبُو الْمُتَوَكِّلِ‏.‏",
+      "source_hash_sha256": "bf816796abe5d78a714f93afa0d29d105ebc9dfba829bb5202a2789b13133b6a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ishâq ibn Ibrâhîm, Mu‘âdh ibn Hishâm, son père, Qatâda, Abû al-Mutawakkil al-Nâjî et Abû Sa‘îd al-Khudrî.\n\nLe Messager d’Allah a dit : « Lorsque les croyants auront été délivrés du Feu, ils seront retenus sur un passage entre le Paradis et l’Enfer. Ils régleront entre eux les injustices qu’ils se sont faites dans la vie d’ici-bas. Lorsqu’ils auront été purifiés et rendus droits, la permission d’entrer au Paradis leur sera accordée. Par Celui qui tient l’âme de Muhammad en Sa main, chacun d’eux connaîtra mieux sa demeure au Paradis que la maison qu’il connaissait dans la vie d’ici-bas. » Yûnus ibn Muhammad rapporte la même chaîne par Shaybân, d’après Qatâda et Abû al-Mutawakkil.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "089fc1bd-b863-4fbb-acfa-25eb64d71e9f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2441",
+      "reference": "Sahih al-Bukhari, hadith 2441, book 46, بَابُ قَوْلِ اللَّهِ تَعَالَى: {أَلاَ لَعْنَةُ اللَّهِ عَلَى الظَّالِمِينَ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {أَلاَ لَعْنَةُ اللَّهِ عَلَى الظَّالِمِينَ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا هَمَّامٌ، قَالَ أَخْبَرَنِي قَتَادَةُ، عَنْ صَفْوَانَ بْنِ مُحْرِزٍ الْمَازِنِيِّ، قَالَ بَيْنَمَا أَنَا أَمْشِي، مَعَ ابْنِ عُمَرَ ـ رضى الله عنهما ـ آخِذٌ بِيَدِهِ إِذْ عَرَضَ رَجُلٌ، فَقَالَ كَيْفَ سَمِعْتَ رَسُولَ اللَّهِ صلى الله عليه وسلم فِي النَّجْوَى فَقَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ اللَّهَ يُدْنِي الْمُؤْمِنَ فَيَضَعُ عَلَيْهِ كَنَفَهُ، وَيَسْتُرُهُ فَيَقُولُ أَتَعْرِفُ ذَنْبَ كَذَا أَتَعْرِفُ ذَنْبَ كَذَا فَيَقُولُ نَعَمْ أَىْ رَبِّ‏.‏ حَتَّى إِذَا قَرَّرَهُ بِذُنُوبِهِ وَرَأَى فِي نَفْسِهِ أَنَّهُ هَلَكَ قَالَ سَتَرْتُهَا عَلَيْكَ فِي الدُّنْيَا، وَأَنَا أَغْفِرُهَا لَكَ الْيَوْمَ‏.‏ فَيُعْطَى كِتَابَ حَسَنَاتِهِ، وَأَمَّا الْكَافِرُ وَالْمُنَافِقُونَ فَيَقُولُ الأَشْهَادُ هَؤُلاَءِ الَّذِينَ كَذَبُوا عَلَى رَبِّهِمْ، أَلاَ لَعْنَةُ اللَّهِ عَلَى الظَّالِمِينَ ‏\"‏‏.‏",
+      "source_hash_sha256": "3b2c538578d448b070700bb7fbceb0d511a74279e955d0cc83c6b13bc174734a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7f0c3640-e165-41ca-8905-b37df09d3e6b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2442",
+      "reference": "Sahih al-Bukhari, hadith 2442, book 46, باب لاَ يَظْلِمُ الْمُسْلِمُ الْمُسْلِمَ وَلاَ يُسْلِمُهُ",
+      "title": "باب لاَ يَظْلِمُ الْمُسْلِمُ الْمُسْلِمَ وَلاَ يُسْلِمُهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، أَنَّ سَالِمًا، أَخْبَرَهُ أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ ـ رضى الله عنهما ـ أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الْمُسْلِمُ أَخُو الْمُسْلِمِ، لاَ يَظْلِمُهُ وَلاَ يُسْلِمُهُ، وَمَنْ كَانَ فِي حَاجَةِ أَخِيهِ كَانَ اللَّهُ فِي حَاجَتِهِ، وَمَنْ فَرَّجَ عَنْ مُسْلِمٍ كُرْبَةً فَرَّجَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرُبَاتِ يَوْمِ الْقِيَامَةِ، وَمَنْ سَتَرَ مُسْلِمًا سَتَرَهُ اللَّهُ يَوْمَ الْقِيَامَةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "b4160aad17c81b74ce3fc30c4d03f0400961268a03667b47b1fc10c222b7c47c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Yahyâ ibn Bukayr, al-Layth, ‘Uqayl, Ibn Shihâb, Sâlim et ‘Abd Allâh ibn ‘Umar.\n\nLe Messager d’Allah a dit : « Le musulman est le frère du musulman : il ne lui fait pas de tort et ne l’abandonne pas. Celui qui aide son frère à répondre à un besoin, Allah l’aidera à répondre au sien. Celui qui soulage un musulman d’une détresse, Allah le soulagera d’une des détresses du Jour de la Résurrection. Celui qui préserve l’honneur d’un musulman, Allah préservera le sien le Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "089fc1bd-b863-4fbb-acfa-25eb64d71e9f",
+      "reason": "This report directly quotes Quran 11:18. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}

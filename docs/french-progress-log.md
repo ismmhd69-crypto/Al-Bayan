@@ -2006,3 +2006,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-418` saves six private French drafts for Bukhari 2432–2437, covering found dates, the sacred precinct of Mecca, permission to milk others’ livestock, and announcements for lost property.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,205 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 132. Total local hadith rows not drafted: 12,424, including held records.
+
+### 2026-10-29: Bukhari 2437b–2442 source review
+
+- `FR-LIB-HAD-BUKHARI-419` saves five private French drafts for Bukhari 2437b–2440 and 2442. Bukhari 2441 directly quotes Quran 11:18; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,210 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 133. Total local hadith rows not drafted: 12,419, including held records.
