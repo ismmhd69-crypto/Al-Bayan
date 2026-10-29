@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-1039",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:37:07.176Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "56038383-e493-4298-aab0-5a1667d31bf9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5728",
+      "reference": "Sahih al-Bukhari, hadith 5728, book 76, باب مَا يُذْكَرُ فِي الطَّاعُونِ",
+      "title": "باب مَا يُذْكَرُ فِي الطَّاعُونِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، قَالَ أَخْبَرَنِي حَبِيبُ بْنُ أَبِي ثَابِتٍ، قَالَ سَمِعْتُ إِبْرَاهِيمَ بْنَ سَعْدٍ، قَالَ سَمِعْتُ أُسَامَةَ بْنَ زَيْدٍ، يُحَدِّثُ سَعْدًا عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا سَمِعْتُمْ بِالطَّاعُونِ بِأَرْضٍ فَلاَ تَدْخُلُوهَا، وَإِذَا وَقَعَ بِأَرْضٍ وَأَنْتُمْ بِهَا فَلاَ تَخْرُجُوا مِنْهَا ‏\"‏‏.‏ فَقُلْتُ أَنْتَ سَمِعْتَهُ يُحَدِّثُ سَعْدًا وَلاَ يُنْكِرُهُ قَالَ نَعَمْ‏.‏",
+      "source_hash_sha256": "56f2670ba39e73b2d14368c7d35cff4d7783a88c9fc6a36595fba9b9ac7bca45",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hafs ibn ‘Umar nous a rapporté : Shu‘ba nous a rapporté : Habîb ibn Abî Thâbit m’a informé : J’ai entendu Ibrâhîm ibn Sa‘d dire : J’ai entendu Usâma ibn Zayd rapporter à Sa‘d, d’après le Prophète (qu’Allah le bénisse et lui accorde la paix), qui a dit : « Si vous apprenez que la peste sévit dans un pays, n’y entrez pas ; et si elle survient dans un pays où vous vous trouvez, n’en sortez pas. » Je demandai : « L’as-tu entendu le rapporter à Sa‘d, sans qu’il le conteste ? » Il répondit : « Oui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

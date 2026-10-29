@@ -5316,3 +5316,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1038 saves six private French drafts. The historical reports are translated in neutral terms, with the transmitted details retained.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,764 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,865, including held records.
+
+
+### 2026-10-29: Bukhari 5728
+
+- FR-LIB-HAD-BUKHARI-1039 saves one private French draft on the plague. The exporter returned one eligible record; the longer flagged source remains deferred for separate handling.
+- The draft passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,765 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,864, including held records.
