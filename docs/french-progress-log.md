@@ -8121,3 +8121,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0199 saves four private French drafts about supplications after bowing and the prohibition on reciting Quran while bowing or prostrating. Muslim 478b and 479b are incomplete cross-reference variants and remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 806 Muslim drafts, 7,142 total hadith drafts, 7,487 remaining, and 395 Needs Mo items.
+
+### 2026-10-29: Muslim 480b–481
+
+- FR-LIB-HAD-MUSLIM-0200 saves five private French drafts about the prohibition on Quran recitation during bowing and prostration. Muslim 480f gives only a chain and a variant note, so it remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 811 Muslim drafts, 7,147 total hadith drafts, 7,482 remaining, and 396 Needs Mo items.
