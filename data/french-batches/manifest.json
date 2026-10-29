@@ -20691,6 +20691,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-966",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-966.json",
+      "sourceIds": [
+        "6afbe047-8a42-4963-8874-cbb9e2d2b7b2",
+        "367a1ede-c6b1-4a9c-81a2-51aa347cf5a6",
+        "1134d28c-1496-4e83-964b-0c18a8bbbac9",
+        "f4f0a9f6-1a24-4b1b-adf9-31989e6eb8ad",
+        "785b8ddd-7e8c-4607-8f87-dc111d647c84",
+        "6fee32e0-ba4b-4da9-9ac5-f98626969d13"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -23651,9 +23672,15 @@
       "scope": "Sahih al-Bukhari 5288: direct Quran quotation from 60:10",
       "status": "blocked",
       "reason": "The report directly quotes Quran 60:10. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5292-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5292: source excerpt ends mid-narration",
+      "status": "blocked",
+      "reason": "The source excerpt ends before the report is complete. Keep the translation blank until a complete source is available."
     }
   ],
-  "hadithBukhariDrafted": 4333,
-  "hadithLocalDrafted": 4333,
-  "hadithLocalRemaining": 10334
+  "hadithBukhariDrafted": 4338,
+  "hadithLocalDrafted": 4338,
+  "hadithLocalRemaining": 10329
 }
