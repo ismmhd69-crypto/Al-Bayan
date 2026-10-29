@@ -9011,3 +9011,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0376 saves four private French drafts on prayers after Friday and Eid prayers, including charity given by women after the Eid sermon. Muslim 883b is an incomplete cross-reference and 884a quotes Quran directly; both remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1490 Muslim drafts, 7826 total hadith drafts, 6803 remaining, and 710 Needs Mo items.
+
+### 2026-10-29: Muslim 885b–889
+
+- FR-LIB-HAD-MUSLIM-0377 saves six private French drafts on Eid prayer practice, the sermon, and charity.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1496 Muslim drafts, 7832 total hadith drafts, 6797 remaining, and 710 Needs Mo items.

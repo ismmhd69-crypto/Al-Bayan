@@ -36820,6 +36820,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0377",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0377.json",
+      "sourceIds": [
+        "b9f6ee78-7b67-4133-9ede-3d1c3feb8988",
+        "4927e621-185e-436a-a0c9-67a1e10f6c0a",
+        "042b82d8-7ec0-4b26-aede-4b326d372f45",
+        "9857c0da-8dbf-4433-b89f-cf16df71914e",
+        "c2876354-cfad-4978-b3c1-ca2d8e332325",
+        "3e3dde45-3975-4ce5-a2d2-ded6626252f3"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -41127,8 +41148,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7826,
-  "hadithLocalRemaining": 6803,
+  "hadithLocalDrafted": 7832,
+  "hadithLocalRemaining": 6797,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43927,7 +43948,7 @@
       "reason": "La source ne rapporte que la chaîne de transmission d’un récit précédent, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1490,
+  "hadithMuslimDrafted": 1496,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 710
