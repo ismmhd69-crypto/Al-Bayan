@@ -3891,3 +3891,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-795` saves five private French drafts. Hadith 4396 remains blank because it directly quotes Quran 22:33; the hold is recorded for Mo.
 - All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,875 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 323. Total local hadith rows not drafted: 10,782, including held records.
+
+### 2026-10-29: Bukhari 4400–4406
+
+- `FR-LIB-HAD-BUKHARI-796` saves five private French drafts. Hadith 4402 remains blank because its wording about the Dajjal is corrupted in the source record; the hold is recorded for Mo.
+- All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,880 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 324. Total local hadith rows not drafted: 10,777, including held records.

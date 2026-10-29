@@ -17268,6 +17268,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-796",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-796.json",
+      "sourceIds": [
+        "f9173626-f865-4c23-b049-fa53422b8d62",
+        "4eb011b8-eb66-44fa-b4cd-16d3d8e67483",
+        "2f0690bd-5f30-4ecf-852f-847818a176a6",
+        "6bc53a33-fd13-4289-a8c3-aaf96addfe51",
+        "748a41e3-b9bf-4bda-bf8a-d9e26bdf73cf",
+        "0584260c-362c-4bb3-b5ca-ab5cd513b170"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17774,9 +17795,15 @@
       "scope": "Sahih al-Bukhari 4396: direct quotation of Quran 22:33",
       "status": "blocked",
       "reason": "The report directly quotes Quran 22:33. The complete record remains blank in FR-LIB-HAD-BUKHARI-795 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4402-CORRUPTED-WORDING",
+      "scope": "Sahih al-Bukhari 4402: corrupted wording in the Dajjal description",
+      "status": "blocked",
+      "reason": "The Dajjal description is corrupted in the source transcription and cannot be translated reliably. The complete report remains blank in FR-LIB-HAD-BUKHARI-796 pending source-text confirmation."
     }
   ],
-  "hadithBukhariDrafted": 3875,
-  "hadithLocalDrafted": 3875,
-  "hadithLocalRemaining": 10782
+  "hadithBukhariDrafted": 3880,
+  "hadithLocalDrafted": 3880,
+  "hadithLocalRemaining": 10777
 }
