@@ -48586,6 +48586,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1122",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1122.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "three complete reports translated as private drafts; two transmission-only variants and one report with an embedded Quran quotation left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52893,8 +52906,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9742,
-  "hadithLocalRemaining": 4784,
+  "hadithLocalDrafted": 9745,
+  "hadithLocalRemaining": 4781,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -58806,10 +58819,25 @@
       "source_id": "4474ff1b-2f75-4f95-ab45-d8de3448c911",
       "reason": "Cette entrée ne reproduit pas le récit complet et ne donne que des variantes de transmission ou des ajouts au récit précédent. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "aaca6a20-5fcf-4832-9ea4-65f8980e798d",
+      "reason": "Cette entrée ne rapporte que la chaîne de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "3e607641-b063-4150-afbf-f24207c283d6",
+      "reason": "Cette entrée ne rapporte que la chaîne de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "41be2569-d144-477a-a068-d5a30caaf1ae",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3579,
+  "hadithMuslimDrafted": 3582,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1509
+  "hadithNeedsMo": 1512
 }

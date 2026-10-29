@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-1122",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:17:24.241Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "044dda67-1f09-40ec-80bf-df1a16a7411e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2411a",
+      "reference": "Sahih Muslim, hadith 2411 a, book 44, باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "title": "باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَنْصُورُ بْنُ أَبِي مُزَاحِمٍ، حَدَّثَنَا إِبْرَاهِيمُ، - يَعْنِي ابْنَ سَعْدٍ - عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ شَدَّادٍ، قَالَ سَمِعْتُ عَلِيًّا، يَقُولُ مَا جَمَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَبَوَيْهِ لأَحَدٍ غَيْرَ سَعْدِ بْنِ مَالِكٍ فَإِنَّهُ جَعَلَ يَقُولُ لَهُ يَوْمَ أُحُدٍ ‏\"‏ ارْمِ فِدَاكَ أَبِي وَأُمِّي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7072ed725f517ce10355d7b05cc1454dbc3d7ca53c0c55c991e17f92e35d2fcc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Alî rapporte : « Le Messager d’Allah ﷺ n’a jamais dit à quelqu’un d’autre qu’à Sa’d ibn Mâlik : “Que mon père et ma mère soient sacrifiés pour toi.” Il le lui répéta le jour d’Uhud : “Tire ! Que mon père et ma mère soient sacrifiés pour toi !” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aaca6a20-5fcf-4832-9ea4-65f8980e798d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2411b",
+      "reference": "Sahih Muslim, hadith 2411 b, book 44, باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "title": "باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، ح حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، وَإِسْحَاقُ الْحَنْظَلِيُّ، عَنْ مُحَمَّدِ بْنِ بِشْرٍ، عَنْ مِسْعَرٍ، ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ مِسْعَرٍ، كُلُّهُمْ عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، عَنْ عَبْدِ اللَّهِ بْنِ شَدَّادٍ، عَنْ عَلِيٍّ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "a4ecde5f780cbaf0e4e796da587b4f5c78e019fc600759009438da821711d842",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "21208453-3332-44ec-b21a-0c1378dcdcf5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2412a",
+      "reference": "Sahih Muslim, hadith 2412 a, book 44, باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "title": "باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا سُلَيْمَانُ، - يَعْنِي ابْنَ بِلاَلٍ - عَنْ يَحْيَى، - وَهُوَ ابْنُ سَعِيدٍ - عَنْ سَعِيدٍ، عَنْ سَعْدِ بْنِ أَبِي وَقَّاصٍ، قَالَ لَقَدْ جَمَعَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم أَبَوَيْهِ يَوْمَ أُحُدٍ ‏.‏",
+      "source_hash_sha256": "4a36c01d356b5d81505546ab79245098d85298ef9862fe50427994841b6f7cbd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa’d ibn Abî Waqqâs rapporte : « Le jour d’Uhud, le Messager d’Allah ﷺ dit que mon père et ma mère seraient sacrifiés pour lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3e607641-b063-4150-afbf-f24207c283d6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2412b",
+      "reference": "Sahih Muslim, hadith 2412 b, book 44, باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "title": "باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَابْنُ، رُمْحٍ عَنِ اللَّيْثِ بْنِ سَعْدٍ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الْوَهَّابِ، كِلاَهُمَا عَنْ يَحْيَى بْنِ سَعِيدٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "ed315b7b2e8877869e268592e375815a105d197a2c1ed09c853f0ff7d5932afc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f1e024d8-a8ec-4a2f-8b6a-66ba9186352b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2412c",
+      "reference": "Sahih Muslim, hadith 2412 c, book 44, باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "title": "باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا حَاتِمٌ، - يَعْنِي ابْنَ إِسْمَاعِيلَ - عَنْ بُكَيْرِ بْنِ مِسْمَارٍ، عَنْ عَامِرِ بْنِ سَعْدٍ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم جَمَعَ لَهُ أَبَوَيْهِ يَوْمَ أُحُدٍ ‏.‏ قَالَ كَانَ رَجُلٌ مِنَ الْمُشْرِكِينَ قَدْ أَحْرَقَ الْمُسْلِمِينَ فَقَالَ لَهُ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ ارْمِ فِدَاكَ أَبِي وَأُمِّي ‏\"‏ ‏.‏ قَالَ فَنَزَعْتُ لَهُ بِسَهْمٍ لَيْسَ فِيهِ نَصْلٌ فَأَصَبْتُ جَنْبَهُ فَسَقَطَ فَانْكَشَفَتْ عَوْرَتُهُ فَضَحِكَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَتَّى نَظَرْتُ إِلَى نَوَاجِذِهِ ‏.‏",
+      "source_hash_sha256": "2cd2872742f6f6ab7685c9793dc659e770d9169004e9f0c3a8fb9c3be70c48fd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa’d rapporte que le Prophète ﷺ invoqua pour lui ainsi : « Que mon père et ma mère soient sacrifiés pour toi ! » Le jour d’Uhud, un polythéiste mettait les musulmans en difficulté. Le Prophète ﷺ lui dit : « Tire ! Que mon père et ma mère soient sacrifiés pour toi ! » Je lui décochai une flèche sans pointe métallique ; elle le frappa au flanc et il tomba, découvrant sa nudité. Le Messager d’Allah ﷺ rit au point que je vis ses molaires.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "41be2569-d144-477a-a068-d5a30caaf1ae",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2413a",
+      "reference": "Sahih Muslim, hadith 2413 a, book 44, باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "title": "باب فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ سُفْيَانَ، عَنِ الْمِقْدَامِ بْنِ شُرَيْحٍ، عَنْ أَبِيهِ، عَنْ سَعْدٍ، فِيَّ نَزَلَتْ ‏[quran sura=\"6\" aya_start=\"52\" aya_end=\"52\"]{‏ وَلاَ تَطْرُدِ الَّذِينَ يَدْعُونَ رَبَّهُمْ بِالْغَدَاةِ وَالْعَشِيِّ‏}‏ قَالَ نَزَلَتْ فِي سِتَّةٍ أَنَا وَابْنُ مَسْعُودٍ مِنْهُمْ وَكَانَ الْمُشْرِكُونَ قَالُوا لَهُ تُدْنِي هَؤُلاَءِ ‏.‏",
+      "source_hash_sha256": "3df57d7b431456cd7de2c8064cb0b9c334d949d712cd6fe2c086466ba46ff49a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "aaca6a20-5fcf-4832-9ea4-65f8980e798d",
+      "reason": "Cette entrée ne rapporte que la chaîne de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "3e607641-b063-4150-afbf-f24207c283d6",
+      "reason": "Cette entrée ne rapporte que la chaîne de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "41be2569-d144-477a-a068-d5a30caaf1ae",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    }
+  ]
+}
