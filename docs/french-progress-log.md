@@ -3781,3 +3781,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-773` saves five private French drafts. Hadith 4267 remains blank because its report abbreviates an unclear lament; the hold is recorded for Mo.
 - All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,769 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 311. Total local hadith rows not drafted: 10,888, including held records.
+
+### 2026-10-29: Bukhari 4271–4273
+
+- `FR-LIB-HAD-BUKHARI-774` saves three private French drafts with Salama ibn al-Akwaʿ’s accounts of expeditions with the Prophet.
+- All three records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,772 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 311. Total local hadith rows not drafted: 10,885, including held records.

@@ -16585,6 +16585,25 @@
   "published": 0,
   "status": "local draft with holds"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-774",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-774.json",
+  "sourceIds": [
+    "0b5f9cf4-2e9c-4934-8891-2b75b059bf0d",
+    "574e8d0e-8c41-45ef-8e1c-9f9b6981288a",
+    "c6ef68af-884e-4067-a0df-8cbd0f9624f0"
+  ],
+  "translated": 3,
+  "inserted": 0,
+  "preserved": 0,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft"
+}
   ],
   "blockers": [
     {
@@ -17053,7 +17072,7 @@
   "reason": "The report includes an abbreviated lament, وا جبلاه واكذا وكذا, without the specific words listed. Its wording and intended sense are unclear, so the complete record remains blank in FR-LIB-HAD-BUKHARI-773 pending clarification."
 }
   ],
-  "hadithBukhariDrafted": 3769,
-  "hadithLocalDrafted": 3769,
-  "hadithLocalRemaining": 10888
+  "hadithBukhariDrafted": 3772,
+  "hadithLocalDrafted": 3772,
+  "hadithLocalRemaining": 10885
 }
