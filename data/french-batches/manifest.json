@@ -19277,6 +19277,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-897",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-897.json",
+      "sourceIds": [
+        "bae307bc-29f9-4cd3-96ca-69929c2cd793",
+        "e2f1ac40-166e-4899-9995-802d0c0a0dcb",
+        "4653b1c7-f0c0-40cd-8437-5756de04adaf",
+        "0a8f0f6e-c496-4b68-9e6b-d6023f8d7ecc"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -21625,9 +21644,27 @@
       "scope": "Sahih al-Bukhari 4907: direct Quran wording from 63:8 (formule directe sans marqueur)",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 63:8 (formule directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-896, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4909-QURAN-65-4",
+      "scope": "Sahih al-Bukhari 4909: direct Quran quotation from 65:4",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 65:4. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-897, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4910-QURAN-65-4",
+      "scope": "Sahih al-Bukhari 4910: direct Quran quotation from 65:4",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 65:4. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-897, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4911-QURAN-33-21",
+      "scope": "Sahih al-Bukhari 4911: direct Quran quotation from 33:21",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 33:21. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-897, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4062,
-  "hadithLocalDrafted": 4062,
-  "hadithLocalRemaining": 10605
+  "hadithBukhariDrafted": 4063,
+  "hadithLocalDrafted": 4063,
+  "hadithLocalRemaining": 10604
 }
