@@ -3111,3 +3111,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-639` saves six private French drafts about household furnishings, Sa‘d ibn Mu‘âdh, prophetic dreams, a Torah passage and the splitting of the moon.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,241 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 235. Total local hadith rows not drafted: 11,422, including held records.
+
+### 2026-10-29: Bukhari 3637–3643
+
+- `FR-LIB-HAD-BUKHARI-640` saves six private French drafts about the splitting of the moon, nighttime signs, steadfastness, and trade.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,247 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 235. Total local hadith rows not drafted: 11,416, including held records.
