@@ -2946,3 +2946,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-606` saves one private French draft with the full account of the three men trapped by a rock and their sincere deeds.
 - The long-source record passed the focused single-item validator for Arabic hashes, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,093 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 221. Total local hadith rows not drafted: 11,564, including held records.
+
+### 2026-10-29: Bukhari 3466–3471
+
+- `FR-LIB-HAD-BUKHARI-607` saves six private French drafts about signs among earlier communities and repentance.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,099 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 221. Total local hadith rows not drafted: 11,558, including held records.
