@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5645,
+    "hadithBukhariDrafted": 5650,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5645,
+    "hadithLocalDrafted": 5650,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8984,
-    "hadithNeedsMo": 813,
+    "hadithLocalRemaining": 8979,
+    "hadithNeedsMo": 814,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26014,6 +26014,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1229",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1229.json",
+      "sourceIds": [
+        "aceb66cd-e28e-4507-a3bb-410ef6085adb",
+        "5e737ed9-8c6b-4e9c-8fbd-9f6fe35fd880",
+        "ec2f45d2-13ed-4675-9e72-a9f8f5dbc73d",
+        "6a687d6c-16cd-44bf-9de2-3550295308df",
+        "78fd05a4-24fe-4a1f-85c7-66119f57a13c",
+        "661ea6ef-1d44-47d9-9845-d24595956bb8"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one complete report held for damaged chain wording. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -29280,11 +29301,17 @@
       "scope": "Sahih al-Bukhari 6691: direct quotations of Quran 66:1, 66:4, and 66:3",
       "status": "blocked",
       "reason": "The report directly quotes Quran 66:1, 66:4, and 66:3. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6709-DAMAGED-CHAIN",
+      "scope": "Sahih al-Bukhari 6709: damaged chain phrase قال سمعته من، فيه عن",
+      "status": "blocked",
+      "reason": "The narrator chain contains a damaged and incomplete phrase before the otherwise clear report. Keep the complete item blank until the chain is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 5645,
-  "hadithLocalDrafted": 5645,
-  "hadithLocalRemaining": 8984,
+  "hadithBukhariDrafted": 5650,
+  "hadithLocalDrafted": 5650,
+  "hadithLocalRemaining": 8979,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29693,6 +29720,12 @@
       "scope": "Sahih al-Bukhari 6691: direct quotations of Quran 66:1, 66:4, and 66:3",
       "status": "blocked",
       "reason": "The report directly quotes Quran 66:1, 66:4, and 66:3. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6709-DAMAGED-CHAIN",
+      "scope": "Sahih al-Bukhari 6709: damaged chain phrase قال سمعته من، فيه عن",
+      "status": "blocked",
+      "reason": "The narrator chain contains a damaged and incomplete phrase before the otherwise clear report. Keep the complete item blank until the chain is confirmed."
     }
   ]
 }
