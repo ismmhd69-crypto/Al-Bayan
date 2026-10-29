@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5095,
+    "hadithBukhariDrafted": 5096,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5095,
+    "hadithLocalDrafted": 5096,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9534,
+    "hadithLocalRemaining": 9533,
     "hadithNeedsMo": 764,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -23613,6 +23613,22 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "Five records passed the focused validator; longer Bukhari 6093 was isolated in its own one-record batch. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1109",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1109.json",
+      "sourceIds": [
+        "0eda725d-49ff-45ea-a34f-caf140a9b210"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "The longer rain report was handled as a one-record batch; Arabic original and hash, identifiers, reference, rights and private unpublished state passed",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
