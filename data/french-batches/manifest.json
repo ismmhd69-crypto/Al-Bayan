@@ -34621,6 +34621,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0271",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0271.json",
+      "sourceIds": [
+        "256737a1-f25e-4f06-a921-3f6a1e4af616",
+        "2c977345-5167-4f2c-9005-85ca3f9ad64b",
+        "0b2c98e9-c714-4577-9c87-2534393a6934",
+        "bc281622-d9df-411d-9dd4-9b29e0750a1b",
+        "c956b1ae-8a81-4dc3-8a33-afc6e9e785b9",
+        "1be16349-9805-4890-b417-e917b2b09fb2"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one Quran quotation and one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -38928,8 +38949,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7417,
-  "hadithLocalRemaining": 7212,
+  "hadithLocalDrafted": 7421,
+  "hadithLocalRemaining": 7208,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40580,10 +40601,22 @@
       "scope": "Sahih Muslim 646b: incomplete cross-reference",
       "status": "blocked",
       "reason": "Le texte arabe indique seulement que le récit est « semblable au récit de Ghundar », sans le reprendre. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0271-649B-QURAN-17-78",
+      "scope": "Sahih Muslim 649b: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 17:78 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-0271-649C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 649c: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe renvoie au récit précédent et ne rapporte qu’une différence du nombre (« vingt-cinq parts »), sans reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1081,
-  "hadithDatabaseMissing": 7212,
+  "hadithMuslimDrafted": 1085,
+  "hadithDatabaseMissing": 7208,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 511
+  "hadithNeedsMo": 513
 }

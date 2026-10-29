@@ -8476,3 +8476,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0270 saves six private French drafts about the prescribed prayer time and praying again with the congregation.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,081 Muslim drafts, 7,417 total hadith drafts, 7,212 remaining, and 511 Needs Mo items.
+
+### 2026-10-29: Muslim 649a–649f
+
+- FR-LIB-HAD-MUSLIM-0271 saves four private French drafts about the merit of congregational prayer. Muslim 649b directly quotes Quran 17:78; 649c is an incomplete variant. Both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,085 Muslim drafts, 7,421 total hadith drafts, 7,208 remaining, and 513 Needs Mo items.
