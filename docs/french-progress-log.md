@@ -5232,3 +5232,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1024 saves six private French drafts. The longer source flagged by the exporter remains for its own batch.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,675 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 744. Total local hadith rows not drafted: 9,954, including held records.
+
+
+### 2026-10-29: Bukhari 5634–5639
+
+- FR-LIB-HAD-BUKHARI-1025 saves six private French drafts, including the repeated reports about washing a vessel after a dog drinks from it.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,681 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 744. Total local hadith rows not drafted: 9,948, including held records.
