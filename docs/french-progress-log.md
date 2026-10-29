@@ -12527,3 +12527,6 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2470-2472
 
 - FR-LIB-HAD-MUSLIM-1144 saves four complete reports as private French drafts. Two incomplete transmission variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+### 2026-10-30: Muslim 2473a
+
+- FR-LIB-HAD-MUSLIM-1145 saves the complete long report about Abu Dharr as a private French draft. No database write or publication occurred.
