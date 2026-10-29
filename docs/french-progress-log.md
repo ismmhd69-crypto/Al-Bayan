@@ -11454,3 +11454,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1844a
 
 - FR-LIB-HAD-MUSLIM-0873 leaves the complete long report blank under Needs Mo because it quotes Quran 4:29 and no authorized, attributed French Quran translation is available. The source ID and hash are preserved. No draft count increased; no database write or publication occurred.
+
+### 2026-10-29: Muslim 1844b-1846b
+
+- FR-LIB-HAD-MUSLIM-0874 saves four private French drafts about leadership, patience amid favoritism, and the duties of leaders and their subjects. Two incomplete cross-references remain blank under Needs Mo with specific reasons. No database write or publication occurred.
