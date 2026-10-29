@@ -5646,3 +5646,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1100 holds the long report blank because technical terms in the Arabic source are uncertain. It was handled as a one-record batch.
 - The focused validator passed the one-item private/held record. No database writes or publication occurred. Bukhari local drafts remain 5,070 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 762. Total local hadith rows not drafted: 9,559, including held records.
+
+### 2026-10-29: Bukhari 6064–6065
+
+- FR-LIB-HAD-BUKHARI-1101 saves two private French drafts about suspicion, envy, estrangement, and brotherhood.
+- Both records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,072 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 762. Total local hadith rows not drafted: 9,557, including held records.

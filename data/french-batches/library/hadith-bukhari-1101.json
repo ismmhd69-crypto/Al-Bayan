@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-1101",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:01:57.386Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "025057c7-81e9-493a-abac-6087bc1cdeee",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6064",
+      "reference": "Sahih al-Bukhari, hadith 6064, book 78, بَابُ مَا يُنْهَى عَنِ التَّحَاسُدِ وَالتَّدَابُرِ",
+      "title": "بَابُ مَا يُنْهَى عَنِ التَّحَاسُدِ وَالتَّدَابُرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا بِشْرُ بْنُ مُحَمَّدٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِيَّاكُمْ وَالظَّنَّ، فَإِنَّ الظَّنَّ أَكْذَبُ الْحَدِيثِ، وَلاَ تَحَسَّسُوا، وَلاَ تَجَسَّسُوا، وَلاَ تَحَاسَدُوا، وَلاَ تَدَابَرُوا، وَلاَ تَبَاغَضُوا، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا ‏\"‏‏.‏",
+      "source_hash_sha256": "cc0c25e864bd32c3afecda60ff029638f3e12352fecf67dfbaac89699ab3a3c3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Bishr ibn Muhammad nous a rapporté : ‘Abd Allâh nous a informés : Ma‘mar nous a informés, d’après Hammâm ibn Munabbih, d’après Abû Hurayra, d’après le Prophète ﷺ, qui a dit : « Gardez-vous des conjectures, car la conjecture est le discours le plus mensonger. N’espionnez pas les uns les autres ; ne vous épiez pas ; ne vous enviez pas ; ne vous détournez pas les uns des autres ; ne vous haïssez pas. Soyez, serviteurs d’Allah, des frères. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0889fe0d-d752-41a5-bf95-c2bec39d8e08",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6065",
+      "reference": "Sahih al-Bukhari, hadith 6065, book 78, بَابُ مَا يُنْهَى عَنِ التَّحَاسُدِ وَالتَّدَابُرِ",
+      "title": "بَابُ مَا يُنْهَى عَنِ التَّحَاسُدِ وَالتَّدَابُرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي أَنَسُ بْنُ مَالِكٍ ـ رضى الله عنه ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَبَاغَضُوا، وَلاَ تَحَاسَدُوا، وَلاَ تَدَابَرُوا، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا، وَلاَ يَحِلُّ لِمُسْلِمٍ أَنْ يَهْجُرَ أَخَاهُ فَوْقَ ثَلاَثَةِ أَيَّامٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "a0493aa786e90b6fb2acfdc80b52b8977e760de385a1e75f0c109baf708720d6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Yamân nous a rapporté : Shu‘ayb nous a informés, d’après az-Zuhrî, qui a dit : Anas ibn Mâlik (qu’Allah l’agrée) m’a rapporté que le Messager d’Allah ﷺ a dit : « Ne vous haïssez pas, ne vous enviez pas, ne vous détournez pas les uns des autres. Soyez des serviteurs d’Allah et des frères. Il n’est pas permis à un musulman de rompre ses relations avec son frère plus de trois jours. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
