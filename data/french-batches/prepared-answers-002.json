@@ -1,0 +1,17 @@
+[
+  {
+    "collection":"prepared-answers","source_file":"divorce-basics.json","topic_id":"divorce-basics",
+    "questions":["Les règles du divorce et la période d’attente en islam","Combien de fois peut-on divorcer en islam et quelle est la période d’attente ?","Comment fonctionne le divorce en islam et qu’est-ce que la ‘idda ?","divorce en islam","période d’attente après un divorce"],
+    "answers":{"direct_answer":[{"text":"Selon la Sunna, la forme légiférée du divorce consiste à divorcer son épouse une seule fois pendant une période de pureté sans rapport conjugal, ou pendant une grossesse ; un divorce révocable est autorisé deux fois.","source_ids":["S88640000-0000-4000-a000-000000000001","Q2:229"],"requirement_id":"R1"},{"text":"Pour une femme divorcée qui a ses menstruations, la période d’attente est de trois cycles menstruels. Il est interdit de prononcer les trois divorces en une fois, de divorcer pendant les menstruations ou les saignements post-partum, ou après un rapport conjugal pendant une période de pureté.","source_ids":["S88640000-0000-4000-a000-000000000001","Q2:228"],"requirement_id":"R1"}],"explanation":[]}
+  },
+  {
+    "collection":"prepared-answers","source_file":"fasting-sick-traveller.json","topic_id":"fasting-sick-traveller",
+    "questions":["Quel est le statut du jeûne pendant le Ramadan en cas de maladie ou de voyage ?","Une personne malade ou en voyage peut-elle rompre le jeûne ?","Quelle dispense de jeûne existe en cas de maladie ou de voyage en islam ?","jeûner en étant malade","jeûner en voyage"],
+    "answers":{"direct_answer":[{"text":"Allah a autorisé la rupture du jeûne pendant le Ramadan pour la personne malade lorsque le jeûne lui est difficile et pour la personne en voyage, par facilité ; les jours manqués doivent être rattrapés par la suite (2:185).","source_ids":["S81370000-0000-4000-a000-000000000001","Q2:185"],"requirement_id":"R1"},{"text":"Un musulman est récompensé lorsqu’il accepte cette dispense religieuse et l’applique par obéissance à Allah et à Sa loi.","source_ids":["S81370000-0000-4000-a000-000000000001"],"requirement_id":"R1"}],"explanation":[]}
+  },
+  {
+    "collection":"prepared-answers","source_file":"five-pillars.json","topic_id":"five-pillars",
+    "questions":["Quels sont les cinq piliers de l’islam ?","Les cinq piliers de l’islam","Explication des cinq piliers de l’islam","Énumérez les piliers de l’islam","Quels sont les piliers de l’islam ?"],
+    "answers":{"direct_answer":[{"text":"Les cinq piliers de l’islam sont les deux attestations de foi (attester que nul ne mérite d’être adoré en dehors d’Allah et que le Prophète Muhammad ﷺ est Son Messager), la prière, la zakat, le jeûne du Ramadan et le pèlerinage à la Maison sacrée.","source_ids":["HE66512","S18974000-0000-4000-a000-000000000002"],"requirement_id":"R1"}],"explanation":[]}
+  }
+]

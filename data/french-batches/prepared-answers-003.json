@@ -1,0 +1,17 @@
+[
+  {
+    "collection":"prepared-answers","source_file":"friday-prayer.json","topic_id":"friday-prayer",
+    "questions":["Quel est le statut de la prière du vendredi en islam ?","Pour qui la prière du vendredi est-elle obligatoire ?","Quelles sont les conditions et obligations de la prière du vendredi ?","prière du vendredi","la prière du vendredi est-elle obligatoire"],
+    "answers":{"direct_answer":[{"text":"Selon le Saint Coran, la prière du vendredi est une obligation pour les hommes musulmans, qui doivent s’y rendre rapidement et cesser le commerce à l’appel à la prière (62:9).","source_ids":["S51060000-0000-4000-a000-000000000001","Q62:9"],"requirement_id":"R1"},{"text":"La prière du vendredi n’est pas obligatoire pour les femmes, qui accomplissent la prière de Dhuhr chez elles. Toutefois, si une femme assiste à la prière du vendredi convenablement couverte et vêtue avec pudeur, cela remplace sa prière de Dhuhr.","source_ids":["S51060000-0000-4000-a000-000000000001"],"requirement_id":"R1"}],"explanation":[]}
+  },
+  {
+    "collection":"prepared-answers","source_file":"greeting-non-muslims-holidays.json","topic_id":"greeting-non-muslims-holidays",
+    "questions":["Est-il permis de souhaiter de bonnes fêtes aux non-musulmans ?","Quel est le statut des vœux adressés aux non-musulmans à Noël et lors de fêtes religieuses ?","Les musulmans peuvent-ils féliciter les chrétiens lors de leurs fêtes ?","souhaiter de bonnes fêtes aux non-musulmans","vœux de Noël aux non-musulmans"],
+    "answers":{"direct_answer":[{"text":"Le cheikh Ibn Baz a jugé qu’un musulman ne peut pas féliciter les non-musulmans à l’occasion de leurs fêtes religieuses, par quelque moyen que ce soit, oralement ou par écrit, car il considérait cela comme une aide apportée au faux.","source_ids":["S21240000-0000-4000-a000-000000000001","Q5:2"],"requirement_id":"R1"},{"text":"Il a également jugé qu’un musulman ne peut pas participer à leurs fêtes ni les aider à les organiser, que ce soit dans des pays musulmans ou ailleurs.","source_ids":["S21240000-0000-4000-a000-000000000001"],"requirement_id":"R1"}],"explanation":[]}
+  },
+  {
+    "collection":"prepared-answers","source_file":"halal-meat-people-of-the-book.json","topic_id":"halal-meat-people-of-the-book",
+    "questions":["Est-il permis de manger la viande des Gens du Livre ?","Quel est le statut de la viande abattue par des chrétiens et des juifs ?","Quelles conditions rendent licite la viande abattue par les Gens du Livre ?","manger la viande des Gens du Livre","viande halal des Gens du Livre"],
+    "answers":{"direct_answer":[{"text":"Ibn Baz permet généralement aux musulmans de manger les animaux abattus par des juifs ou des chrétiens.","source_ids":["S76850000-0000-4000-a000-000000000001"],"requirement_id":"R1"},{"text":"Il exclut l’animal dont on sait qu’il a été offert au nom d’un autre qu’Allah.","source_ids":["S76850000-0000-4000-a000-000000000001"],"requirement_id":"R1"}],"explanation":[]}
+  }
+]
