@@ -11056,3 +11056,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0785 saves five private French drafts on the Khaybar killing and two reports involving Urayna/Ukl. Muslim 1670c only provides chains and a cross-reference, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1671c–1671h
+
+- FR-LIB-HAD-MUSLIM-0786 saves six private French drafts about the reports concerning people from Ukl and Urayna, including their distinct wording and added details.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
