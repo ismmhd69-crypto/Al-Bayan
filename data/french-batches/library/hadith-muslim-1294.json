@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1294",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:25:53.750Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "014688cf-5b61-46bd-affa-29c540dd22d8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2845a",
+      "reference": "Sahih Muslim, hadith 2845 a, book 53, باب فِي شِدَّةِ حَرِّ نَارِ جَهَنَّمَ وَبُعْدِ قَعْرِهَا وَمَا تَأْخُذُ مِنَ الْمُعَذَّبِينَ",
+      "title": "باب فِي شِدَّةِ حَرِّ نَارِ جَهَنَّمَ وَبُعْدِ قَعْرِهَا وَمَا تَأْخُذُ مِنَ الْمُعَذَّبِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يُونُسُ بْنُ مُحَمَّدٍ، حَدَّثَنَا شَيْبَانُ بْنُ عَبْدِ الرَّحْمَنِ، قَالَ قَالَ قَتَادَةُ سَمِعْتُ أَبَا نَضْرَةَ، يُحَدِّثُ عَنْ سَمُرَةَ، أَنَّهُ سَمِعَ نَبِيَّ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ مِنْهُمْ مَنْ تَأْخُذُهُ النَّارُ إِلَى كَعْبَيْهِ وَمِنْهُمْ مَنْ تَأْخُذُهُ إِلَى حُجْزَتِهِ وَمِنْهُمْ مَنْ تَأْخُذُهُ إِلَى عُنُقِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c6ee2cea9234e08404f635af8133952dcececf8a8502df6585b567f04cf0bb13",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba nous a rapporté : Yūnus ibn Muḥammad nous a rapporté : Shaybān ibn ʿAbd al-Raḥmān a dit : Qatāda a dit : J’ai entendu Abū Naḍra rapporter, d’après Samura, qu’il avait entendu le Prophète d’Allah ﷺ dire : « Certains auront le Feu jusqu’aux chevilles, d’autres jusqu’à la taille, et d’autres jusqu’au cou. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "732e5fd0-3ca2-491d-ab60-ea8b66cf1c3e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2845b",
+      "reference": "Sahih Muslim, hadith 2845 b, book 53, باب فِي شِدَّةِ حَرِّ نَارِ جَهَنَّمَ وَبُعْدِ قَعْرِهَا وَمَا تَأْخُذُ مِنَ الْمُعَذَّبِينَ",
+      "title": "باب فِي شِدَّةِ حَرِّ نَارِ جَهَنَّمَ وَبُعْدِ قَعْرِهَا وَمَا تَأْخُذُ مِنَ الْمُعَذَّبِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرُو بْنُ زُرَارَةَ، أَخْبَرَنَا عَبْدُ الْوَهَّابِ، - يَعْنِي ابْنَ عَطَاءٍ - عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، قَالَ سَمِعْتُ أَبَا نَضْرَةَ، يُحَدِّثُ عَنْ سَمُرَةَ بْنِ جُنْدَبٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ مِنْهُمْ مَنْ تَأْخُذُهُ النَّارُ إِلَى كَعْبَيْهِ وَمِنْهُمْ مَنْ تَأْخُذُهُ النَّارُ إِلَى رُكْبَتَيْهِ وَمِنْهُمْ مَنْ تَأْخُذُهُ النَّارُ إِلَى حُجْزَتِهِ وَمِنْهُمْ مَنْ تَأْخُذُهُ النَّارُ إِلَى تَرْقُوَتِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8dd2492fc67e05eba0887bb35437eb4262a9c9463dc7b26b0c93d473444d1f8d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAmr ibn Zurāra m’a rapporté : ʿAbd al-Wahhāb, c’est-à-dire Ibn ʿAṭāʾ, nous a informés, d’après Saʿīd, d’après Qatāda, qui a dit : J’ai entendu Abū Naḍra rapporter, d’après Samura ibn Jundab, que le Prophète ﷺ a dit : « Certains auront le Feu jusqu’aux chevilles, d’autres jusqu’aux genoux, d’autres jusqu’à la taille et d’autres jusqu’aux clavicules. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "73b8264e-53fe-4eee-b643-080e3c8ee1da",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2845c",
+      "reference": "Sahih Muslim, hadith 2845 c, book 53, باب فِي شِدَّةِ حَرِّ نَارِ جَهَنَّمَ وَبُعْدِ قَعْرِهَا وَمَا تَأْخُذُ مِنَ الْمُعَذَّبِينَ",
+      "title": "باب فِي شِدَّةِ حَرِّ نَارِ جَهَنَّمَ وَبُعْدِ قَعْرِهَا وَمَا تَأْخُذُ مِنَ الْمُعَذَّبِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالاَ حَدَّثَنَا رَوْحٌ، حَدَّثَنَا سَعِيدٌ، بِهَذَا الإِسْنَادِ وَجَعَلَ مَكَانَ حُجْزَتِهِ حَقْوَيْهِ ‏.‏",
+      "source_hash_sha256": "38e18de50c018030b8ef8b431678a6d36a8230d7958f58d2018a39f2e2da3a4d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9164194d-0011-45ea-85f2-758321ab30e3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2846a",
+      "reference": "Sahih Muslim, hadith 2846 a, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ احْتَجَّتِ النَّارُ وَالْجَنَّةُ فَقَالَتْ هَذِهِ يَدْخُلُنِي الْجَبَّارُونَ وَالْمُتَكَبِّرُونَ ‏.‏ وَقَالَتْ هَذِهِ يَدْخُلُنِي الضُّعَفَاءُ وَالْمَسَاكِينُ فَقَالَ اللَّهُ عَزَّ وَجَلَّ لِهَذِهِ أَنْتِ عَذَابِي أُعَذِّبُ بِكِ مَنْ أَشَاءُ - وَرُبَّمَا قَالَ أُصِيبُ بِكِ مَنْ أَشَاءُ - وَقَالَ لِهَذِهِ أَنْتِ رَحْمَتِي أَرْحَمُ بِكِ مَنْ أَشَاءُ وَلِكُلِّ وَاحِدَةٍ مِنْكُمَا مِلْؤُهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "10597ed9b1694b822255ea8c7bf094d37bebd1c80b464e85337fbf0608881f9e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abī ʿUmar nous a rapporté : Sufyān nous a rapporté, d’après Abū al-Zinād, d’après al-Aʿraj, d’après Abū Hurayra, qui a dit : Le Messager d’Allah ﷺ a dit : « Le Feu et le Paradis se disputèrent. Le Feu dit : “Les tyrans et les orgueilleux entreront chez moi.” Le Paradis dit : “Les faibles et les pauvres entreront chez moi.” Allah, Puissant et Majestueux, dit au Feu : “Tu es Mon châtiment ; Je châtierai par toi qui Je veux” — ou peut-être a-t-il dit : “Je frapperai qui Je veux par toi.” Il dit au Paradis : “Tu es Ma miséricorde ; Je ferai miséricorde par toi à qui Je veux.” Chacun de vous deux sera rempli. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b521805a-79ad-4ef4-9025-bea955a2dcc7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2846b",
+      "reference": "Sahih Muslim, hadith 2846 b, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا شَبَابَةُ، حَدَّثَنِي وَرْقَاءُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ تَحَاجَّتِ النَّارُ وَالْجَنَّةُ فَقَالَتِ النَّارُ أُوثِرْتُ بِالْمُتَكَبِّرِينَ وَالْمُتَجَبِّرِينَ ‏.‏ وَقَالَتِ الْجَنَّةُ فَمَا لِي لاَ يَدْخُلُنِي إِلاَّ ضُعَفَاءُ النَّاسِ وَسَقَطُهُمْ وَعَجَزُهُمْ ‏.‏ فَقَالَ اللَّهُ لِلْجَنَّةِ أَنْتِ رَحْمَتِي أَرْحَمُ بِكِ مَنْ أَشَاءُ مِنْ عِبَادِي ‏.‏ وَقَالَ لِلنَّارِ أَنْتِ عَذَابِي أُعَذِّبُ بِكِ مَنْ أَشَاءُ مِنْ عِبَادِي وَلِكُلِّ وَاحِدَةٍ مِنْكُمْ مِلْؤُهَا فَأَمَّا النَّارُ فَلاَ تَمْتَلِئُ ‏.‏ فَيَضَعُ قَدَمَهُ عَلَيْهَا فَتَقُولُ قَطْ قَطْ ‏.‏ فَهُنَالِكَ تَمْتَلِئُ وَيُزْوَى بَعْضُهَا إِلَى بَعْضٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4b74710cb04c6374786e4c9ef2e3253c08d5e0fa4896291a3a959e4dddd6197b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn Rāfiʿ m’a rapporté : Shabāba nous a rapporté : Warqāʾ m’a rapporté, d’après Abū al-Zinād, d’après al-Aʿraj, d’après Abū Hurayra, d’après le Prophète ﷺ, qui a dit : « Le Feu et le Paradis se disputèrent. Le Feu dit : “Les orgueilleux et les tyrans m’ont été réservés.” Le Paradis dit : “Pourquoi seuls les faibles, les gens de peu et les impuissants entrent-ils chez moi ?” Allah dit au Paradis : “Tu es Ma miséricorde ; Je ferai miséricorde par toi à ceux de Mes serviteurs que Je veux.” Il dit au Feu : “Tu es Mon châtiment ; Je châtierai par toi ceux de Mes serviteurs que Je veux.” Chacun de vous deux sera rempli. Le Feu ne se remplira toutefois pas. Alors Il y posera Son pied et le Feu dira : “Assez, assez !” À ce moment-là, il sera rempli et ses parties se replieront les unes sur les autres. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "328cfb1e-04a1-47c2-a414-120cb5f8a570",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2846c",
+      "reference": "Sahih Muslim, hadith 2846 c, book 53, باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "title": "باب النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَوْنٍ الْهِلاَلِيُّ، حَدَّثَنَا أَبُو سُفْيَانَ، - يَعْنِي مُحَمَّدَ بْنَ حُمَيْدٍ - عَنْ مَعْمَرٍ، عَنْ أَيُّوبَ، عَنِ ابْنِ سِيرِينَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ احْتَجَّتِ الْجَنَّةُ وَالنَّارُ ‏\"‏ ‏.‏ وَاقْتَصَّ الْحَدِيثَ بِمَعْنَى حَدِيثِ أَبِي الزِّنَادِ ‏.‏",
+      "source_hash_sha256": "3e360da8ae5834775afd506ce4c92b1fb81d58bf106cfe5068aaecce3df5348e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "73b8264e-53fe-4eee-b643-080e3c8ee1da",
+      "reason": "Cette entrée ne donne qu’une variante de terme dans la version précédente et ne reproduit pas le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "328cfb1e-04a1-47c2-a414-120cb5f8a570",
+      "reason": "Cette entrée résume le récit précédent sans en reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
