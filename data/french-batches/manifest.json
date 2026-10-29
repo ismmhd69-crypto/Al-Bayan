@@ -41524,6 +41524,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0606",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0606.json",
+      "sourceIds": [
+        "6e818527-3323-4b5f-8f4e-1ed8ed7bd1cb",
+        "ff2d3fad-b80b-44b8-bec3-0ad27f3bee10",
+        "e0bdc10e-45db-4956-8318-170de93861d5",
+        "2ac671c2-414f-4858-a106-8060fa120616",
+        "4d0c84dd-7fc9-4633-bd11-0ab017c91a0c",
+        "54782c13-9970-4d63-a344-6effbb29a5b1"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, two private unpublished drafts, four reports containing Quran quotations held fully blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45831,8 +45852,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8749,
-  "hadithLocalRemaining": 5880,
+  "hadithLocalDrafted": 8751,
+  "hadithLocalRemaining": 5878,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49654,10 +49675,30 @@
       "source_id": "01b101f1-2259-497a-aed8-63e96221e963",
       "reason": "Cette source isolée de 2 089 caractères contient une citation coranique (« إِنَّا إِذَا نَزَلْنَا بِسَاحَةِ قَوْمٍ فَسَاءَ صَبَاحُ الْمُنْذَرِينَ »). Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
+    },
+    {
+      "source_id": "ff2d3fad-b80b-44b8-bec3-0ad27f3bee10",
+      "reason": "Cette source contient une citation coranique (« سَاءَ صَبَاحُ الْمُنْذَرِينَ »). Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "2ac671c2-414f-4858-a106-8060fa120616",
+      "reason": "Cette source contient une citation coranique (« سَاءَ صَبَاحُ الْمُنْذَرِينَ »). Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "4d0c84dd-7fc9-4633-bd11-0ab017c91a0c",
+      "reason": "Cette source contient une citation coranique (« سَاءَ صَبَاحُ الْمُنْذَرِينَ »). Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "54782c13-9970-4d63-a344-6effbb29a5b1",
+      "reason": "Cette source contient une citation coranique (« سَاءَ صَبَاحُ الْمُنْذَرِينَ »). Conformément à la consigne du projet, garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2413,
+  "hadithMuslimDrafted": 2415,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1057
+  "hadithNeedsMo": 1061
 }
