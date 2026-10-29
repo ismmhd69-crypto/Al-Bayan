@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6016,
+    "hadithBukhariDrafted": 6021,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6016,
+    "hadithLocalDrafted": 6021,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8613,
-    "hadithNeedsMo": 849,
+    "hadithLocalRemaining": 8608,
+    "hadithNeedsMo": 850,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -27565,6 +27565,28 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1305",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1305.json",
+      "sourceIds": [
+        "7f7ae37d-d98b-4b47-a46c-2f374fe610c2",
+        "6c6e3051-5702-4ca8-a141-df12804b31ff",
+        "f1932b56-175d-4ecb-aa50-e80f7d9d44c3",
+        "f3e5dafc-f1ec-4d27-b9ac-e94334a6c020",
+        "714441a8-836a-47ba-8ea0-1f0c54f7b1d5",
+        "62902492-c86d-4c78-9467-9a372c73f8e6"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "needsMo": 1,
+      "validation": "five complete drafts; source hashes retained; report 7155 left wholly blank because source is incomplete; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local drafts with one held item"
     }
   ],
   "blockers": [
@@ -31047,11 +31069,17 @@
       "scope": "Sahih al-Bukhari 7121: direct quotation of Quran 6:158",
       "status": "blocked",
       "reason": "The report directly quotes Quran 6:158. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7155-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 7155: source ends immediately after introducing an unnamed narrator and an unfinished quotation",
+      "status": "blocked",
+      "reason": "The source cuts off after an opening quotation mark. Keep the complete French translation blank pending confirmation of the complete report."
     }
   ],
-  "hadithBukhariDrafted": 6016,
-  "hadithLocalDrafted": 6016,
-  "hadithLocalRemaining": 8613,
+  "hadithBukhariDrafted": 6021,
+  "hadithLocalDrafted": 6021,
+  "hadithLocalRemaining": 8608,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -31676,6 +31704,12 @@
       "scope": "Sahih al-Bukhari 7121: direct quotation of Quran 6:158",
       "status": "blocked",
       "reason": "The report directly quotes Quran 6:158. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7155-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 7155: source ends immediately after introducing an unnamed narrator and an unfinished quotation",
+      "status": "blocked",
+      "reason": "The source cuts off after an opening quotation mark. Keep the complete French translation blank pending confirmation of the complete report."
     }
   ]
 }
