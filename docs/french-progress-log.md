@@ -9971,3 +9971,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0568 saves five private French drafts about the talbiya and takbir at Arafat and the pace of travel. Muslim 1286c gives only a cross-reference and a wording detail without repeating the report; it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1287a–1288e
+
+- FR-LIB-HAD-MUSLIM-0569 saves four private French drafts about the prayers at Muzdalifa. Muslim 1288a has a damaged narrator-chain phrase, and 1288c gives only a cross-reference and one added detail; both remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

@@ -40766,6 +40766,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0569",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0569.json",
+      "sourceIds": [
+        "0fe997ce-e5f3-4263-b379-58b56f5a338f",
+        "7d8b4b10-bc02-4832-b531-abd1fd492037",
+        "0563ef40-f823-475f-963a-d2dbf85a0613",
+        "c48bfa65-92b8-45ae-9f94-d9b623bca529",
+        "c6c4c6a5-95e9-4963-9c8a-d465a4789438",
+        "ca403858-63c3-41c1-a1e1-b0d2427b9369"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished AI drafts, one damaged source and one incomplete variant held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45073,8 +45094,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8591,
-  "hadithLocalRemaining": 6038,
+  "hadithLocalDrafted": 8595,
+  "hadithLocalRemaining": 6034,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48671,10 +48692,20 @@
       "source_id": "8d812873-2e8f-4108-8595-c26a0cff7070",
       "reason": "La source renvoie au récit précédent par « avec cette même chaîne de transmission » et n’en fournit qu’une précision de formulation sur l’allure. Elle ne reprend pas le contenu complet du récit. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "7d8b4b10-bc02-4832-b531-abd1fd492037",
+      "reason": "Le texte arabe de Muslim 1288a comporte une formule de transmission fusionnée et incomplète après « d’après Ibn Shihab » (« أنأخبره »). Laisser toute la traduction française vide jusqu’à vérification de la source.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c48bfa65-92b8-45ae-9f94-d9b623bca529",
+      "reason": "La source renvoie à la chaîne précédente (« avec cette même chaîne ») et n’ajoute qu’une précision sur un seul appel à la prière, sans reprendre le récit complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2255,
+  "hadithMuslimDrafted": 2259,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1012
+  "hadithNeedsMo": 1014
 }
