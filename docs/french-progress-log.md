@@ -6781,3 +6781,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1320 saves six private French drafts, preserving the limited excerpt from Ka‘b’s report, the narrator’s un heard word, and the source glossary terms. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,082 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 855. Total local hadith rows not drafted: 8,551, including held records.
+
+### 2026-10-29: Bukhari 7227–7232
+
+- FR-LIB-HAD-BUKHARI-1321 saves six private French drafts, preserving the repetition, route and sequence in the Hajj report, and the named plants in Bilal’s verse. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,088 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 855. Total local hadith rows not drafted: 8,545, including held records.
