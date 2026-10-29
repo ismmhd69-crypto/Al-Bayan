@@ -10521,3 +10521,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0678 saves three private French drafts about Fatima bint Qays’s waiting period and later marriage. Muslim 1480n quotes Quran 65:1; 1480o and 1480r are incomplete references. These three remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1480s–1482
+
+- FR-LIB-HAD-MUSLIM-0679 saves five private French drafts preserving Aisha’s criticism of Fatima bint Qays’s report and the counter-reports. Muslim 1480s only gives an opening detail and refers to the previous report, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

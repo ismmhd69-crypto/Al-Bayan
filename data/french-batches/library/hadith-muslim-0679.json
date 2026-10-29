@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0679",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:47:06.561Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7567774e-76b4-40fd-ba84-e2ad5266490c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1480s",
+      "reference": "Sahih Muslim, hadith 1480 s, book 18, باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "title": "باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، حَدَّثَنِي أَبُو بَكْرٍ، قَالَ دَخَلْتُ أَنَا وَأَبُو سَلَمَةَ عَلَى فَاطِمَةَ بِنْتِ قَيْسٍ زَمَنَ ابْنِ الزُّبَيْرِ فَحَدَّثَتْنَا أَنَّ زَوْجَهَا طَلَّقَهَا طَلاَقًا بَاتًّا ‏.‏ بِنَحْوِ حَدِيثِ سُفْيَانَ ‏.‏",
+      "source_hash_sha256": "eaf0a1cdcb60fada2439aaa62704e1174eaad5831d993ee52a61a78e0de1a533",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "41e3e1af-1472-43be-94c0-fcf44eedcc41",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1480t",
+      "reference": "Sahih Muslim, hadith 1480 t, book 18, باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "title": "باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا حَسَنُ بْنُ صَالِحٍ، عَنِ السُّدِّيِّ، عَنِ الْبَهِيِّ، عَنْ فَاطِمَةَ بِنْتِ قَيْسٍ، قَالَتْ طَلَّقَنِي زَوْجِي ثَلاَثًا فَلَمْ يَجْعَلْ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم سُكْنَى وَلاَ نَفَقَةً ‏.‏",
+      "source_hash_sha256": "7efdcb74328f3d1f2e52b2e3affa6474b150121065c8ca94aa87c145445f03a2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Fatima bint Qays rapporte : « Mon mari m’a répudiée trois fois, et le Messager d’Allah ne m’a accordé ni logement ni pension alimentaire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b842e306-be7c-497c-ab57-e2f13dd1d078",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1481a",
+      "reference": "Sahih Muslim, hadith 1481 a, book 18, باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "title": "باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، حَدَّثَنِي أَبِي قَالَ، تَزَوَّجَ يَحْيَى بْنُ سَعِيدِ بْنِ الْعَاصِ بِنْتَ عَبْدِ الرَّحْمَنِ بْنِ الْحَكَمِ فَطَلَّقَهَا فَأَخْرَجَهَا مِنْ عِنْدِهِ فَعَابَ ذَلِكَ عَلَيْهِمْ عُرْوَةُ فَقَالُوا إِنَّ فَاطِمَةَ قَدْ خَرَجَتْ ‏.‏ قَالَ عُرْوَةُ فَأَتَيْتُ عَائِشَةَ فَأَخْبَرْتُهَا بِذَلِكَ فَقَالَتْ مَا لِفَاطِمَةَ بِنْتِ قَيْسٍ خَيْرٌ فِي أَنْ تَذْكُرَ هَذَا الْحَدِيثَ ‏.‏",
+      "source_hash_sha256": "29fd1bf20c64449d3908e4e64c9be51cf53b23ae90437d12475e9b6791bd48dd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Urwa rapporte que Yahya ibn Sa‘id ibn al-‘As épousa la fille d’Abd al-Rahman ibn al-Hakam, puis la répudia et la fit sortir de chez lui. Urwa leur reprocha cette conduite. Ils lui répondirent : « Fatima est elle aussi partie. » Urwa se rendit auprès d’Aïcha et lui raconta cela. Elle dit : « Il n’y avait rien de bon pour Fatima bint Qays à rapporter ce récit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ca1ae688-582f-4512-a469-6e88728eeb09",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1481b",
+      "reference": "Sahih Muslim, hadith 1481 b, book 18, باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "title": "باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ عَبْدِ الرَّحْمَنِ، بْنِ الْقَاسِمِ عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ مَا لِفَاطِمَةَ خَيْرٌ أَنْ تَذْكُرَ هَذَا ‏.‏ قَالَ تَعْنِي قَوْلَهَا لاَ سُكْنَى وَلاَ نَفَقَةَ ‏.‏",
+      "source_hash_sha256": "dd32e66c4c6e815bf0d894cccf8da6aa2a8027d23af90cd7a998db9752485464",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha disait : « Il n’y avait rien de bon pour Fatima à rapporter cela. » Le transmetteur précise qu’elle parlait de ses paroles : « Elle n’a droit ni à un logement ni à une pension alimentaire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "81bcdd1c-618c-47c9-9a29-384d525494f9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1481c",
+      "reference": "Sahih Muslim, hadith 1481 c, book 18, باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "title": "باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا عَبْدُ الرَّحْمَنِ، عَنْ سُفْيَانَ، عَنْ عَبْدِ الرَّحْمَنِ، بْنِ الْقَاسِمِ عَنْ أَبِيهِ، قَالَ قَالَ عُرْوَةُ بْنُ الزُّبَيْرِ لِعَائِشَةَ أَلَمْ تَرَىْ إِلَى فُلاَنَةَ بِنْتِ الْحَكَمِ طَلَّقَهَا زَوْجُهَا الْبَتَّةَ فَخَرَجَتْ فَقَالَتْ بِئْسَمَا صَنَعَتْ ‏.‏ فَقَالَ أَلَمْ تَسْمَعِي إِلَى قَوْلِ فَاطِمَةَ فَقَالَتْ أَمَا إِنَّهُ لاَ خَيْرَ لَهَا فِي ذِكْرِ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "b87a20d8842ae85c31a450287e3b216a199f98456df1a703f9b5b27424f7bd34",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Urwa ibn al-Zubayr dit à Aïcha : « N’as-tu pas entendu parler d’untelle, la fille d’al-Hakam, que son mari a répudiée définitivement et qui est partie de chez lui ? » Aïcha répondit : « Elle a mal agi. » Il dit : « N’as-tu pas entendu ce qu’a dit Fatima ? » Elle répondit : « Il n’y avait rien de bon pour elle à rapporter cela. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ecd33cf5-fc80-433d-bfb0-6345516b73a8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1482",
+      "reference": "Sahih Muslim, hadith 1482, book 18, باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "title": "باب الْمُطَلَّقَةُ ثَلاَثًا لاَ نَفَقَةَ لَهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ فَاطِمَةَ، بِنْتِ قَيْسٍ قَالَتْ قُلْتُ يَا رَسُولَ اللَّهِ زَوْجِي طَلَّقَنِي ثَلاَثًا وَأَخَافُ أَنْ يُقْتَحَمَ عَلَىَّ ‏.‏ قَالَ فَأَمَرَهَا فَتَحَوَّلَتْ ‏.‏",
+      "source_hash_sha256": "997745984c5e5853d5003f43cb6073aad03642f44c3486fdd68dc3897db3d896",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Fatima bint Qays dit : « Ô Messager d’Allah, mon mari m’a répudiée trois fois et je crains que quelqu’un ne fasse irruption chez moi. » Il lui ordonna alors de déménager.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "7567774e-76b4-40fd-ba84-e2ad5266490c",
+      "reason": "Cette entrée rapporte que Fatima a été définitivement répudiée, puis renvoie au récit de Sufyan sans en reprendre le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
