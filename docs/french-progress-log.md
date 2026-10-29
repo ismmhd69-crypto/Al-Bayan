@@ -11334,3 +11334,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1780a
 
 - FR-LIB-HAD-MUSLIM-0843 records the complete report about the conquest of Mecca as a Needs Mo hold because it contains the Quranic phrase from 17:81. The entire French entry remains blank pending an attributed and authorized French Quran translation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1780b
+
+- FR-LIB-HAD-MUSLIM-0844 saves one private French draft of the distinctive additions to the conquest-of-Mecca report, including the gesture, added command, and wording of the Prophet’s response. No Quran quotation appears in this variant. No database write or publication occurred.

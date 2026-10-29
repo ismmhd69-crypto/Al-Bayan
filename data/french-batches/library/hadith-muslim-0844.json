@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-0844",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:58:10.041Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5d96d9ee-78d0-42a6-940f-90d9e9acd643",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1780b",
+      "reference": "Sahih Muslim, hadith 1780 b, book 32, باب فَتْحِ مَكَّةَ ‏‏",
+      "title": "باب فَتْحِ مَكَّةَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ عَبْدُ اللَّهِ بْنُ هَاشِمٍ، حَدَّثَنَا بَهْزٌ، حَدَّثَنَا سُلَيْمَانُ بْنُ الْمُغِيرَةِ، بِهَذَا الإِسْنَادِ وَزَادَ فِي الْحَدِيثِ ثُمَّ قَالَ بِيَدَيْهِ إِحْدَاهُمَا عَلَى الأُخْرَى ‏\"‏ احْصُدُوهُمْ حَصْدًا ‏\"‏ ‏.‏ وَقَالَ فِي الْحَدِيثِ قَالُوا قُلْنَا ذَاكَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ فَمَا اسْمِي إِذًا كَلاَّ إِنِّي عَبْدُ اللَّهِ وَرَسُولُهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c8e2194b4c6586906c27ef21c0e265f746e1fb2b8766d8b17f7160f1de7dd6fe",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Hâshim m’a rapporté : Bahz nous a rapporté : Sulaymân ibn al-Mughîra nous a rapporté, par cette même chaîne. Cette version ajoute qu’il fit un geste des deux mains, l’une au-dessus de l’autre, puis dit : « Frappez-les à fond ! » Elle rapporte aussi qu’ils dirent : « C’est bien ce que nous avons dit, ô Messager d’Allah. » Il répondit : « Quel est donc mon nom ? Non, je suis le serviteur d’Allah et Son Messager. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
