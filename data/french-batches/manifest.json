@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4954,
+    "hadithBukhariDrafted": 4959,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4954,
+    "hadithLocalDrafted": 4959,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9675,
-    "hadithNeedsMo": 750,
+    "hadithLocalRemaining": 9670,
+    "hadithNeedsMo": 751,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -22960,6 +22960,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1076",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1076.json",
+      "sourceIds": [
+        "a649250c-4fc6-4b57-a4b2-0e314f288809",
+        "e1c7229d-18e7-4069-b9cc-071915d7aa3e",
+        "9723f3c5-70bf-4ea6-9c2d-dd7b8a6dcbae",
+        "baf78af1-76aa-4f08-aafe-9a1b769e7fcf",
+        "6f88cb02-6225-475c-bcf1-e43d647c36cc",
+        "c46dc1a5-89db-49d7-b66b-ecc0f0c5893d"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; one direct Quran quotation held blank. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26027,6 +26048,12 @@
       "scope": "Sahih al-Bukhari 5849: report says seven commands but the excerpt lists only three before prohibitions",
       "status": "blocked",
       "reason": "The exported Arabic wording appears incomplete or unclear. Keep the entire report blank until the source wording is clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-5931-QURAN-59-7",
+      "scope": "Sahih al-Bukhari 5931 direct quotation of Quran 59:7",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 59:7. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-1076",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:50:54.687Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a649250c-4fc6-4b57-a4b2-0e314f288809",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5930",
+      "reference": "Sahih al-Bukhari, hadith 5930, book 77, باب الذَّرِيرَةِ",
+      "title": "باب الذَّرِيرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ بْنُ الْهَيْثَمِ، أَوْ مُحَمَّدٌ عَنْهُ عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي عُمَرُ بْنُ عَبْدِ اللَّهِ بْنِ عُرْوَةَ، سَمِعَ عُرْوَةَ، وَالْقَاسِمَ، يُخْبِرَانِ عَنْ عَائِشَةَ، قَالَتْ طَيَّبْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم بِيَدَىَّ بِذَرِيرَةٍ فِي حَجَّةِ الْوَدَاعِ، لِلْحِلِّ وَالإِحْرَامِ‏.‏",
+      "source_hash_sha256": "d643c049cd6af97ce6314e9c0c0c855c8ec69dc4434ccc714c9af2b3597a84e4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Uthmân ibn al-Haytham nous a rapporté — ou Muhammad, d’après lui — d’après Ibn Jurayj. ‘Umar ibn ‘Abd Allâh ibn ‘Urwa m’a rapporté, ayant entendu ‘Urwa et al-Qâsim rapporter d’après ‘Â’isha, qui dit : « Lors du pèlerinage d’adieu, je parfumai de mes mains le Messager d’Allah ﷺ avec de la dharîra, pour sa sortie de l’état de sacralisation et pour son entrée en état de sacralisation. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e1c7229d-18e7-4069-b9cc-071915d7aa3e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5931",
+      "reference": "Sahih al-Bukhari, hadith 5931, book 77, باب الْمُتَفَلِّجَاتِ لِلْحُسْنِ",
+      "title": "باب الْمُتَفَلِّجَاتِ لِلْحُسْنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، عَنْ عَبْدِ اللَّهِ، لَعَنَ اللَّهُ الْوَاشِمَاتِ، وَالْمُسْتَوْشِمَاتِ، وَالْمُتَنَمِّصَاتِ وَالْمُتَفَلِّجَاتِ لِلْحُسْنِ، الْمُغَيِّرَاتِ خَلْقَ اللَّهِ تَعَالَى، مَالِي لاَ أَلْعَنُ مَنْ لَعَنَ النَّبِيُّ صلى الله عليه وسلم وَهْوَ فِي كِتَابِ اللَّهِ ‏[quran sura=\"59\" aya_start=\"7\" aya_end=\"7\"]{‏وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ‏}‏‏.‏",
+      "source_hash_sha256": "4f7ec2e612a4a1e1d4925f8eb74ce6f0585d825e82af06b331dcfb0bd5012483",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "9723f3c5-70bf-4ea6-9c2d-dd7b8a6dcbae",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5932",
+      "reference": "Sahih al-Bukhari, hadith 5932, book 77, باب الْوَصْلِ فِي الشَّعَرِ",
+      "title": "باب الْوَصْلِ فِي الشَّعَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ حُمَيْدِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، أَنَّهُ سَمِعَ مُعَاوِيَةَ بْنَ أَبِي سُفْيَانَ، عَامَ حَجَّ وَهْوَ عَلَى الْمِنْبَرِ، وَهْوَ يَقُولُ ـ وَتَنَاوَلَ قُصَّةً مِنْ شَعَرٍ كَانَتْ بِيَدِ حَرَسِيٍّ ـ أَيْنَ عُلَمَاؤُكُمْ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَنْهَى عَنْ مِثْلِ هَذِهِ وَيَقُولُ ‏\"‏ إِنَّمَا هَلَكَتْ بَنُو إِسْرَائِيلَ حِينَ اتَّخَذَ هَذِهِ نِسَاؤُهُمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "35d531dc0a8dcd0d719d5f73f7c312d938436eb280f158d9035a70149da242dc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ismâ‘îl m’a rapporté : Mâlik m’a rapporté, d’après Ibn Shihâb, d’après Humayd ibn ‘Abd ar-Rahmân ibn ‘Awf, qui dit avoir entendu Mu‘âwiya ibn Abî Sufyân parler depuis la chaire, l’année où il accomplit le pèlerinage. Il prit une mèche de cheveux qu’un garde tenait à la main et dit : « Où sont vos savants ? J’ai entendu le Messager d’Allah ﷺ interdire quelque chose de semblable et dire : “Les fils d’Israël ne périrent que lorsque leurs femmes adoptèrent cette pratique.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "baf78af1-76aa-4f08-aafe-9a1b769e7fcf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5933",
+      "reference": "Sahih al-Bukhari, hadith 5933, book 77, باب الْوَصْلِ فِي الشَّعَرِ",
+      "title": "باب الْوَصْلِ فِي الشَّعَرِ",
+      "source_published": true,
+      "text_original": "وَقَالَ ابْنُ أَبِي شَيْبَةَ حَدَّثَنَا يُونُسُ بْنُ مُحَمَّدٍ، حَدَّثَنَا فُلَيْحٌ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لَعَنَ اللَّهُ الْوَاصِلَةَ وَالْمُسْتَوْصِلَةَ، وَالْوَاشِمَةَ وَالْمُسْتَوْشِمَةَ ‏\"‏‏.‏",
+      "source_hash_sha256": "8a615baafd797eeca204dc2148179131563bd6cd4d64fe0799ed8df6bed609e9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abî Shayba a dit : Yûnus ibn Muhammad nous a rapporté : Fulayh nous a rapporté, d’après Zayd ibn Aslam, d’après ‘Atâ’ ibn Yasâr, d’après Abû Hurayra (qu’Allah l’agrée), qui rapporte du Prophète ﷺ qu’il a dit : « Qu’Allah maudisse celle qui ajoute des cheveux et celle qui le demande, ainsi que celle qui tatoue et celle qui demande à être tatouée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6f88cb02-6225-475c-bcf1-e43d647c36cc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5934",
+      "reference": "Sahih al-Bukhari, hadith 5934, book 77, باب الْوَصْلِ فِي الشَّعَرِ",
+      "title": "باب الْوَصْلِ فِي الشَّعَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرِو بْنِ مُرَّةَ، قَالَ سَمِعْتُ الْحَسَنَ بْنَ مُسْلِمِ بْنِ يَنَّاقٍ، يُحَدِّثُ عَنْ صَفِيَّةَ بِنْتِ شَيْبَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّ جَارِيَةً، مِنَ الأَنْصَارِ تَزَوَّجَتْ، وَأَنَّهَا مَرِضَتْ فَتَمَعَّطَ شَعَرُهَا، فَأَرَادُوا أَنْ يَصِلُوهَا فَسَأَلُوا النَّبِيَّ صلى الله عليه وسلم فَقَالَ ‏\"‏ لَعَنَ اللَّهُ الْوَاصِلَةَ وَالْمُسْتَوْصِلَةَ ‏\"‏‏.‏ تَابَعَهُ ابْنُ إِسْحَاقَ عَنْ أَبَانَ بْنِ صَالِحٍ عَنِ الْحَسَنِ عَنْ صَفِيَّةَ عَنْ عَائِشَةَ‏.‏",
+      "source_hash_sha256": "73ff4de4eef59d73bc445eefc051a7227c448a237fc3a84427b19b90b0e9ce41",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Âdam nous a rapporté : Shu‘ba nous a rapporté, d’après ‘Amr ibn Murra, qui dit : « J’ai entendu al-Hasan ibn Muslim ibn Yannâq rapporter, d’après Safiyya bint Shayba, d’après ‘Â’isha (qu’Allah l’agrée), qu’une jeune femme des Ansâr s’était mariée puis était tombée malade, et que ses cheveux étaient tombés. Les siens voulurent lui ajouter des cheveux et interrogèrent le Prophète ﷺ. Il dit : “Qu’Allah maudisse celle qui ajoute des cheveux et celle qui le demande.” » Ibn Ishâq rapporte la même chaîne, d’après Abân ibn Sâlih, d’après al-Hasan, d’après Safiyya, d’après ‘Â’isha.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c46dc1a5-89db-49d7-b66b-ecc0f0c5893d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5935",
+      "reference": "Sahih al-Bukhari, hadith 5935, book 77, باب الْوَصْلِ فِي الشَّعَرِ",
+      "title": "باب الْوَصْلِ فِي الشَّعَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَحْمَدُ بْنُ الْمِقْدَامِ، حَدَّثَنَا فُضَيْلُ بْنُ سُلَيْمَانَ، حَدَّثَنَا مَنْصُورُ بْنُ عَبْدِ الرَّحْمَنِ، قَالَ حَدَّثَتْنِي أُمِّي، عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ ـ رضى الله عنهما ـ أَنَّ امْرَأَةً، جَاءَتْ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ إِنِّي أَنْكَحْتُ ابْنَتِي، ثُمَّ أَصَابَهَا شَكْوَى فَتَمَرَّقَ رَأْسُهَا، وَزَوْجُهَا يَسْتَحِثُّنِي بِهَا أَفَأَصِلُ رَأْسَهَا فَسَبَّ رَسُولُ اللَّهِ صلى الله عليه وسلم الْوَاصِلَةَ وَالْمُسْتَوْصِلَةَ‏.‏",
+      "source_hash_sha256": "4fb5ea6374a3e1a49fe3648184b5801665b383a5082b8bf8f9f3eda882605dea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn al-Miqdâm m’a rapporté : Fudayl ibn Sulaymân nous a rapporté : Mansûr ibn ‘Abd ar-Rahmân nous a rapporté et dit : ma mère m’a raconté, d’après Asmâ’ bint Abî Bakr (qu’Allah les agrée toutes deux), qu’une femme vint trouver le Messager d’Allah ﷺ et dit : « J’ai marié ma fille. Elle est ensuite tombée malade et ses cheveux sont tombés. Son mari insiste à ce sujet ; puis-je lui ajouter des cheveux ? » Le Messager d’Allah ﷺ réprimanda celle qui ajoute des cheveux et celle qui le demande.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e1c7229d-18e7-4069-b9cc-071915d7aa3e",
+      "reason": "The hadith directly quotes Quran 59:7. Keep the complete item blank pending an approved, attributed French Quran translation and confirmation that its use is permitted."
+    }
+  ]
+}
