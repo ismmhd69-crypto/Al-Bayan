@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-BUKHARI-357",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:18:27.722Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "66911b51-f4f9-4477-8f96-fa60d49296b4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2087",
+      "reference": "Sahih al-Bukhari, hadith 2087, book 34, بَابُ: {يَمْحَقُ اللَّهُ الرِّبَا وَيُرْبِي الصَّدَقَاتِ وَاللَّهُ لاَ يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ}",
+      "title": "بَابُ: {يَمْحَقُ اللَّهُ الرِّبَا وَيُرْبِي الصَّدَقَاتِ وَاللَّهُ لاَ يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ يُونُسَ، عَنِ ابْنِ شِهَابٍ، قَالَ ابْنُ الْمُسَيَّبِ إِنَّ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ الْحَلِفُ مُنَفِّقَةٌ لِلسِّلْعَةِ مُمْحِقَةٌ لِلْبَرَكَةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "887b7e47b5298a6546f8adfefa2084b79afe016823d70a70a29568646755143a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Yahyâ ibn Bukayr, al-Layth, Yûnus, Ibn Shihâb, Ibn al-Musayyab et Abû Hurayra.\n\nAbû Hurayra rapporte avoir entendu le Messager d’Allah dire : « Le serment aide à vendre la marchandise, mais efface la bénédiction. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "159dcdcf-82b7-4995-a56c-3e8638121a23",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2088",
+      "reference": "Sahih al-Bukhari, hadith 2088, book 34, باب مَا يُكْرَهُ مِنَ الْحَلِفِ فِي الْبَيْعِ",
+      "title": "باب مَا يُكْرَهُ مِنَ الْحَلِفِ فِي الْبَيْعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ مُحَمَّدٍ، حَدَّثَنَا هُشَيْمٌ، أَخْبَرَنَا الْعَوَّامُ، عَنْ إِبْرَاهِيمَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي أَوْفَى ـ رضى الله عنه ـ أَنَّ رَجُلاً، أَقَامَ سِلْعَةً، وَهُوَ فِي السُّوقِ، فَحَلَفَ بِاللَّهِ لَقَدْ أَعْطَى بِهَا مَا لَمْ يُعْطَ، لِيُوقِعَ فِيهَا رَجُلاً مِنَ الْمُسْلِمِينَ، فَنَزَلَتْ ‏[quran sura=\"3\" aya_start=\"77\" aya_end=\"77\"] {‏إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلاً ‏} ‏",
+      "source_hash_sha256": "3a0c4c9213ec7d8add090c37fa7c2118592476d423bea6f4d763ac30a1c61eb3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4c4edc35-083d-4fbf-9c5b-f23f5dd10f18",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2089",
+      "reference": "Sahih al-Bukhari, hadith 2089, book 34, باب مَا قِيلَ فِي الصَّوَّاغِ",
+      "title": "باب مَا قِيلَ فِي الصَّوَّاغِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عَلِيُّ بْنُ حُسَيْنٍ، أَنَّ حُسَيْنَ بْنَ عَلِيٍّ ـ رضى الله عنهما ـ أَخْبَرَهُ أَنَّ عَلِيًّا ـ عَلَيْهِ السَّلاَمُ ـ قَالَ كَانَتْ لِي شَارِفٌ مِنْ نَصِيبِي مِنَ الْمَغْنَمِ، وَكَانَ النَّبِيُّ صلى الله عليه وسلم أَعْطَانِي شَارِفًا مِنَ الْخُمْسِ، فَلَمَّا أَرَدْتُ أَنْ أَبْتَنِيَ بِفَاطِمَةَ ـ عَلَيْهَا السَّلاَمُ ـ بِنْتِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَاعَدْتُ رَجُلاً صَوَّاغًا مِنْ بَنِي قَيْنُقَاعَ أَنْ يَرْتَحِلَ مَعِي فَنَأْتِيَ بِإِذْخِرٍ أَرَدْتُ أَنْ أَبِيعَهُ مِنَ الصَّوَّاغِينَ، وَأَسْتَعِينَ بِهِ فِي وَلِيمَةِ عُرُسِي‏.‏",
+      "source_hash_sha256": "355654ad86991175c6dd5fcfc9cb22a51314ac1bf50369b238f5255bec150377",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abdân, ‘Abd Allâh, Yûnus, Ibn Shihâb, ‘Alî ibn Husayn et Husayn ibn ‘Alî.\n\n‘Alî, que la paix soit sur lui, dit : « J’avais une chamelle âgée provenant de ma part du butin, et le Prophète m’avait donné une chamelle âgée provenant du cinquième [du butin]. Lorsque je voulus épouser Fâtima, fille du Messager d’Allah, je pris rendez-vous avec un orfèvre de la tribu des Banû Qaynuqâ‘ pour qu’il parte avec moi. Nous devions rapporter de l’idhkhir, une plante que je voulais vendre aux orfèvres et dont je comptais tirer de quoi contribuer au repas de mon mariage. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "347d015e-7dd9-49b1-9989-1f14e12a8313",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2090",
+      "reference": "Sahih al-Bukhari, hadith 2090, book 34, باب مَا قِيلَ فِي الصَّوَّاغِ",
+      "title": "باب مَا قِيلَ فِي الصَّوَّاغِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، حَدَّثَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ خَالِدٍ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ اللَّهَ حَرَّمَ مَكَّةَ، وَلَمْ تَحِلَّ لأَحَدٍ قَبْلِي، وَلاَ لأَحَدٍ بَعْدِي، وَإِنَّمَا حَلَّتْ لِي سَاعَةً مِنْ نَهَارٍ، وَلاَ يُخْتَلَى خَلاَهَا، وَلاَ يُعْضَدُ شَجَرُهَا، وَلاَ يُنَفَّرُ صَيْدُهَا وَلاَ يُلْتَقَطُ لُقَطَتُهَا إِلاَّ لِمُعَرِّفٍ ‏\"‏‏.‏ وَقَالَ عَبَّاسُ بْنُ عَبْدِ الْمُطَّلِبِ إِلاَّ الإِذْخِرَ لِصَاغَتِنَا وَلِسُقُفِ بُيُوتِنَا‏.‏ فَقَالَ ‏\"‏ إِلاَّ الإِذْخِرَ ‏\"‏‏.‏ فَقَالَ عِكْرِمَةُ هَلْ تَدْرِي مَا يُنَفَّرُ صَيْدُهَا هُوَ أَنْ تُنَحِّيَهُ مِنَ الظِّلِّ، وَتَنْزِلَ مَكَانَهُ‏.‏ قَالَ عَبْدُ الْوَهَّابِ عَنْ خَالِدٍ لِصَاغَتِنَا وَقُبُورِنَا‏.‏",
+      "source_hash_sha256": "bed6bab087261a386ef6bfb24d00fbbcf2a99a46a4d959096561ff2b2cd2ed9f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ishâq, Khâlid ibn ‘Abd Allâh, Khâlid, ‘Ikrima et Ibn ‘Abbâs.\n\nLe Messager d’Allah a dit : « Allah a rendu La Mecque sacrée. Elle n’a été rendue licite à personne avant moi ni après moi ; elle ne me l’a été que pendant une heure d’une journée. On ne doit pas couper ses herbes, abattre ses arbres ni effaroucher son gibier. On ne ramasse pas les objets perdus qui s’y trouvent, sauf pour les faire annoncer [afin que leur propriétaire les retrouve]. » ‘Abbâs ibn ‘Abd al-Muttalib dit : « Sauf l’idhkhir, pour nos orfèvres et pour les toits de nos maisons. » Le Prophète dit : « Sauf l’idhkhir. » ‘Ikrima explique que ne pas effaroucher le gibier signifie ne pas le déloger de son ombre pour prendre sa place. ‘Abd al-Wahhâb rapporte une autre formulation : « pour nos orfèvres et nos tombes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d5d56637-d210-47f1-b2af-bd718765da2b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2091",
+      "reference": "Sahih al-Bukhari, hadith 2091, book 34, باب ذِكْرِ الْقَيْنِ وَالْحَدَّادِ",
+      "title": "باب ذِكْرِ الْقَيْنِ وَالْحَدَّادِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ شُعْبَةَ، عَنْ سُلَيْمَانَ، عَنْ أَبِي الضُّحَى، عَنْ مَسْرُوقٍ، عَنْ خَبَّابٍ، قَالَ كُنْتُ قَيْنًا فِي الْجَاهِلِيَّةِ، وَكَانَ لِي عَلَى الْعَاصِ بْنِ وَائِلٍ دَيْنٌ، فَأَتَيْتُهُ أَتَقَاضَاهُ قَالَ لاَ أُعْطِيكَ حَتَّى تَكْفُرَ بِمُحَمَّدٍ صلى الله عليه وسلم‏.‏ فَقُلْتُ لاَ أَكْفُرُ حَتَّى يُمِيتَكَ اللَّهُ، ثُمَّ تُبْعَثَ‏.‏ قَالَ دَعْنِي حَتَّى أَمُوتَ وَأُبْعَثَ، فَسَأُوتَى مَالاً وَوَلَدًا فَأَقْضِيَكَ فَنَزَلَتْ ‏[quran sura=\"19\" aya_start=\"77\" aya_end=\"80\"] {‏أَفَرَأَيْتَ الَّذِي كَفَرَ بِآيَاتِنَا وَقَالَ لأُوتَيَنَّ مَالاً وَوَلَدًا * أَطَّلَعَ الْغَيْبَ أَمِ اتَّخَذَ عِنْدَ الرَّحْمَنِ عَهْدًا ‏} ‏",
+      "source_hash_sha256": "2212a4b908515c7430b308dd20ca8f0a808499981debcf9c53445e28f64bde6b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5060bf6c-ac8e-4978-a4e6-1854dde6e11e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2092",
+      "reference": "Sahih al-Bukhari, hadith 2092, book 34, باب ذِكْرِ الْخَيَّاطِ",
+      "title": "باب ذِكْرِ الْخَيَّاطِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ، أَنَّهُ سَمِعَ أَنَسَ بْنَ مَالِكٍ ـ رضى الله عنه ـ يَقُولُ إِنَّ خَيَّاطًا دَعَا رَسُولَ اللَّهِ صلى الله عليه وسلم لِطَعَامٍ صَنَعَهُ، قَالَ أَنَسُ بْنُ مَالِكٍ فَذَهَبْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم إِلَى ذَلِكَ الطَّعَامِ، فَقَرَّبَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم خُبْزًا وَمَرَقًا فِيهِ دُبَّاءٌ وَقَدِيدٌ، فَرَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يَتَتَبَّعُ الدُّبَّاءَ مِنْ حَوَالَىِ الْقَصْعَةِ ـ قَالَ ـ فَلَمْ أَزَلْ أُحِبُّ الدُّبَّاءَ مِنْ يَوْمِئِذٍ‏.‏",
+      "source_hash_sha256": "308ad6d88cad5a5c7b838a1a7a16ebddbacaab3d29ffad1d1fb0a6442ddc1a56",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Yûsuf, Mâlik et Ishâq ibn ‘Abd Allâh ibn Abî Talha, qui entendit Anas ibn Mâlik.\n\nAnas rapporte : Un tailleur invita le Messager d’Allah à un repas qu’il avait préparé. J’accompagnai le Messager d’Allah à ce repas. Le tailleur lui servit du pain et un bouillon contenant de la courge et de la viande séchée. Je vis le Prophète choisir des morceaux de courge sur le bord du plat. Depuis ce jour, je n’ai cessé d’aimer la courge.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "159dcdcf-82b7-4995-a56c-3e8638121a23",
+      "reason": "This report directly quotes Quran 3:77. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "d5d56637-d210-47f1-b2af-bd718765da2b",
+      "reason": "This report directly quotes Quran 19:77–80. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
