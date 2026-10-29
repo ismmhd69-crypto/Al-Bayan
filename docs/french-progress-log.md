@@ -11942,3 +11942,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2096-2099a
 
 - FR-LIB-HAD-MUSLIM-0995 saves five complete private French drafts about sandals and conduct. One transmission-only variant remains blank with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2099b-2100b
+
+- FR-LIB-HAD-MUSLIM-0996 saves five complete private French drafts about sandals and sitting or reclining. One transmission-only variant remains blank with a specific Needs Mo reason. No database write or publication occurred.
