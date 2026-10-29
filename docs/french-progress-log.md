@@ -8508,3 +8508,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,108 Muslim drafts, 7,444 total hadith drafts, 7,185 remaining, and 520 Needs Mo items.
 
 - Correction to FR-LIB-HAD-MUSLIM-0276: Muslim 660c also contains only a transmission chain and cross-reference, so it is now blank under Needs Mo. The batch has four translations and two held items. Counts now show 1,107 Muslim drafts, 7,443 total hadith drafts, 7,186 remaining, and 521 Needs Mo items.
+
+### 2026-10-29: Muslim 661–663d
+
+- FR-LIB-HAD-MUSLIM-0277 saves four private French drafts about praying on a mat and walking to the mosque. Muslim 663b and 663d are incomplete cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,111 Muslim drafts, 7,447 total hadith drafts, 7,182 remaining, and 523 Needs Mo items.
