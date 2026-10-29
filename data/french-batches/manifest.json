@@ -42614,6 +42614,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0659",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0659.json",
+      "sourceIds": [
+        "fbaefec4-e2ba-4a0b-88ac-bc5086826784",
+        "81962ae1-8905-41e2-826c-3d366a2937bb",
+        "45e82e70-9bf8-48ec-9c02-1bc24ab11444",
+        "935ef0af-37e8-4c26-8fea-0f3abd51e2d0",
+        "2500ddcb-5d84-4fa9-a903-dc44fcce0e56",
+        "ef71570c-e3fd-42ec-8d8b-082be622afeb"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, two private unpublished drafts, one Quran-quoted record and three incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46921,8 +46942,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8954,
-  "hadithLocalRemaining": 5675,
+  "hadithLocalDrafted": 8956,
+  "hadithLocalRemaining": 5673,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51194,10 +51215,30 @@
       "source_id": "899c46c6-7b88-4522-ac47-19a8b6953530",
       "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« نحوه »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "fbaefec4-e2ba-4a0b-88ac-bc5086826784",
+      "reason": "Cette source cite le verset 4:24 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "81962ae1-8905-41e2-826c-3d366a2937bb",
+      "reason": "Cette entrée renvoie uniquement à la version précédente (« نحوه »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "935ef0af-37e8-4c26-8fea-0f3abd51e2d0",
+      "reason": "Cette entrée renvoie au récit précédent et ne donne que des variations sur la formule juridique. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ef71570c-e3fd-42ec-8d8b-082be622afeb",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie à la version de Ma‘mar en ne donnant que des variations d’isnad. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2618,
+  "hadithMuslimDrafted": 2620,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1147
+  "hadithNeedsMo": 1151
 }

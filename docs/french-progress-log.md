@@ -10421,3 +10421,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0658 saves two private French drafts about milk kinship and the reported standard of nursing that establishes it. Muslim 1455b and 1456c are incomplete references; 1456a–b quote Quran 4:24. These four reports remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1456d–1458b
+
+- FR-LIB-HAD-MUSLIM-0659 saves two private French drafts preserving the reports on paternity and a child’s attribution to the marital household. Muslim 1456d quotes Quran 4:24; 1456e, 1457b, and 1458b are incomplete variants and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
