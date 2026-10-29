@@ -9601,3 +9601,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0494 saves three private French drafts about Friday fasting and making up missed Ramadan fasts. Muslim 1145a and 1145b quote Quran 2:184–185 and remain fully blank; 1146b contains only a wording variant and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1146c–1148b
+
+- FR-LIB-HAD-MUSLIM-0495 saves four private French drafts about making up missed fasts and fasting on behalf of a deceased relative. Muslim 1146c and 1146d contain only variants tied to the prior report and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
