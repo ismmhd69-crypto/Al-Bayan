@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1100",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:12:27.249Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "345598cc-96d2-4633-a53f-0c8500cf4c17",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2364",
+      "reference": "Sahih Muslim, hadith 2364, book 43, باب فَضْلِ النَّظَرِ إِلَيْهِ صلى الله عليه وسلم وَتَمَنِّيهِ ‏‏",
+      "title": "باب فَضْلِ النَّظَرِ إِلَيْهِ صلى الله عليه وسلم وَتَمَنِّيهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَالَّذِي نَفْسُ مُحَمَّدٍ فِي يَدِهِ لَيَأْتِيَنَّ عَلَى أَحَدِكُمْ يَوْمٌ وَلاَ يَرَانِي ثُمَّ لأَنْ يَرَانِي أَحَبُّ إِلَيْهِ مِنْ أَهْلِهِ وَمَالِهِ مَعَهُمْ ‏\"‏ ‏.‏ قَالَ أَبُو إِسْحَاقَ الْمَعْنَى فِيهِ عِنْدِي لأَنْ يَرَانِي مَعَهُمْ أَحَبُّ إِلَيْهِ مِنْ أَهْلِهِ وَمَالِهِ وَهُوَ عِنْدِي مُقَدَّمٌ وَمُؤَخَّرٌ ‏.‏",
+      "source_hash_sha256": "ed8853c2ae3cd75e6c262081c3203f065170d6c7ad5f2bf7fb9a101c4afa96ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ dit : « Par Celui qui tient l’âme de Muhammad dans Sa main, il viendra un jour où l’un d’entre vous ne me verra plus ; et me voir alors lui sera plus cher que sa famille et ses biens réunis. » Abû Ishâq expliqua : « Selon moi, le sens est que me voir avec eux lui sera plus cher que sa famille et ses biens ; l’ordre des mots est inversé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "06111154-3788-41cb-86e2-dfbd840db38f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2365a",
+      "reference": "Sahih Muslim, hadith 2365 a, book 43, باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "title": "باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَنَّأَخْبَرَهُ أَنَّ أَبَا هُرَيْرَةَ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ أَنَا أَوْلَى النَّاسِ بِابْنِ مَرْيَمَ الأَنْبِيَاءُ أَوْلاَدُ عَلاَّتٍ وَلَيْسَ بَيْنِي وَبَيْنَهُ نَبِيٌّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "cf23975d29aa66888cfcd475bd98bb85b1f64be57bdfebdd398a50b1268e7d69",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte avoir entendu le Messager d’Allah ﷺ dire : « Je suis celui qui est le plus proche de Jésus, fils de Marie. Les prophètes sont des frères issus de pères différents, et aucun prophète ne se trouve entre lui et moi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8d7adc9c-13e4-40ae-a15f-0628dac665cc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2365b",
+      "reference": "Sahih Muslim, hadith 2365 b, book 43, باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "title": "باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو دَاوُدَ، عُمَرُ بْنُ سَعْدٍ عَنْ سُفْيَانَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَنَا أَوْلَى النَّاسِ بِعِيسَى الأَنْبِيَاءُ أَبْنَاءُ عَلاَّتٍ وَلَيْسَ بَيْنِي وَبَيْنَ عِيسَى نَبِيٌّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "91dca9886089fadbb39ca14b641ba653e83333cd1dcd915afb657624d3ea685e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ dit : « Je suis celui qui est le plus proche de Jésus. Les prophètes sont des frères issus de pères différents, et aucun prophète ne se trouve entre Jésus et moi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3fb6a254-f7e2-49a1-951d-d2c2ce4304ef",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2365c",
+      "reference": "Sahih Muslim, hadith 2365 c, book 43, باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "title": "باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَنَا أَوْلَى النَّاسِ بِعِيسَى ابْنِ مَرْيَمَ فِي الأُولَى وَالآخِرَةِ ‏\"‏ ‏.‏ قَالُوا كَيْفَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ الأَنْبِيَاءُ إِخْوَةٌ مِنْ عَلاَّتٍ وَأُمَّهَاتُهُمْ شَتَّى وَدِينُهُمْ وَاحِدٌ فَلَيْسَ بَيْنَنَا نَبِيٌّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a32a5c00e470f848bfb12ea9444076226f284352ffba18157bf076fc5b4bfc09",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager d’Allah ﷺ dit : « Je suis celui qui est le plus proche de Jésus, fils de Marie, ici-bas et dans l’au-delà. » Ils demandèrent : « Comment cela, Messager d’Allah ? » Il répondit : « Les prophètes sont des frères issus de pères différents ; leurs mères sont différentes, mais leur religion est une. Aucun prophète ne se trouve entre nous. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fb32590e-8d15-49e0-91fe-adaca47bb418",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2366a",
+      "reference": "Sahih Muslim, hadith 2366 a, book 43, باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "title": "باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الأَعْلَى، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَا مِنْ مَوْلُودٍ يُولَدُ إِلاَّ نَخَسَهُ الشَّيْطَانُ فَيَسْتَهِلُّ صَارِخًا مِنْ نَخْسَةِ الشَّيْطَانِ إِلاَّ ابْنَ مَرْيَمَ وَأُمَّهُ ‏\"‏ ‏.‏ ثُمَّ قَالَ أَبُو هُرَيْرَةَ اقْرَءُوا إِنْ شِئْتُمْ ‏[quran sura=\"3\" aya_start=\"36\" aya_end=\"36\"]{‏ وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ‏}‏",
+      "source_hash_sha256": "e8488c7c95ed8d627254ae7db521b3aa45349bef5036f1e189d317ca3e333fac",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "59dcc33e-5bcd-409f-806c-e7de53e998a2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2366b",
+      "reference": "Sahih Muslim, hadith 2366 b, book 43, باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "title": "باب فَضَائِلِ عِيسَى عَلَيْهِ السَّلاَمُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، ح وَحَدَّثَنِي عَبْدُ اللَّهِ، بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، جَمِيعًا عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ وَقَالاَ ‏\"‏ يَمَسُّهُ حِينَ يُولَدُ فَيَسْتَهِلُّ صَارِخًا مِنْ مَسَّةِ الشَّيْطَانِ إِيَّاهُ ‏\"‏ ‏.‏ وَفِي حَدِيثِ شُعَيْبٍ ‏\"‏ مِنْ مَسِّ الشَّيْطَانِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "95221562c896657a425225b60b8ca961d566954ba4b78ae933a03a276e8459f3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "fb32590e-8d15-49e0-91fe-adaca47bb418",
+      "reason": "Ce récit se termine par une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "59dcc33e-5bcd-409f-806c-e7de53e998a2",
+      "reason": "Cette entrée ne reproduit pas le récit complet et ne donne que des variantes de transmission ou de formulation. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
