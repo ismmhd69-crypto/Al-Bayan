@@ -5220,3 +5220,15 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1023 saves six private French drafts, retaining the two reported wordings and the uncertain attribution in 5626. The exporter also flagged one longer upcoming source for a separate batch.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,670 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 729. Total local hadith rows not drafted: 9,959, including held records.
+
+
+### Progress count correction
+
+- A recount of the saved Bukhari batch files corrected earlier rolling totals: through batch 1023 there were 4,669 private French drafts and 744 Needs Mo holds. The source inventory has 14,629 hadith records, so 9,960 rows were not drafted at that checkpoint.
+- The exporter had also flagged one longer Bukhari source for separate handling; it remains eligible and unfinished.
+
+
+### 2026-10-29: Bukhari 5628–5633
+
+- FR-LIB-HAD-BUKHARI-1024 saves six private French drafts. The longer source flagged by the exporter remains for its own batch.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,675 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 744. Total local hadith rows not drafted: 9,954, including held records.
