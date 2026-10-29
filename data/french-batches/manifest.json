@@ -23330,6 +23330,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1094",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1094.json",
+      "sourceIds": [
+        "c249464f-ca68-4201-9821-f8db00420eaa",
+        "f5719bae-5ba5-4449-854b-5c986deea8c6",
+        "e0d8ae9a-1456-426f-8444-7d30ef6b40be",
+        "7c77704d-e6b3-4d52-9248-e5ef85b6a96d",
+        "ab8cc21b-aa9c-4834-96d9-121b17b5102d",
+        "567be1e0-9a19-4fd1-b502-0c2458fc6e5c"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
