@@ -47650,6 +47650,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1051",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1051.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "three complete reports translated as private drafts; two transmission variants and one Quran-quoting report left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -51957,8 +51970,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9473,
-  "hadithLocalRemaining": 5053,
+  "hadithLocalDrafted": 9476,
+  "hadithLocalRemaining": 5050,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -57265,10 +57278,25 @@
       "source_id": "134d6a2e-8163-49ef-bab4-dbc6cb2d503b",
       "reason": "Le texte source contient des séquences d’échappement et une citation dont la forme paraît malformée. Garder la traduction française vide jusqu’à vérification de la source.",
       "status": "blocked"
+    },
+    {
+      "source_id": "978431b9-5b0f-4376-a3c7-f9afd80ec1a3",
+      "reason": "Cette entrée renvoie à une version précédente ou n’en donne qu’une variante, sans récit complet autonome. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "be301884-2b89-4712-b216-65feb0e31a17",
+      "reason": "Cette entrée contient une citation du Coran ; garder la traduction entière vide conformément à la règle de conservation des citations coraniques.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "898a4cb0-0f82-4e1b-b3cd-90994ef85db7",
+      "reason": "Cette entrée renvoie à une version précédente ou n’en donne qu’une variante, sans récit complet autonome. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3310,
+  "hadithMuslimDrafted": 3313,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1388
+  "hadithNeedsMo": 1391
 }
