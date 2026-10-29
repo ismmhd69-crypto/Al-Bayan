@@ -11786,3 +11786,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2027d-2029a
 
 - FR-LIB-HAD-MUSLIM-0956 saves four complete private French drafts about drinking Zamzam, breathing while drinking, and serving drinks from the right. Two entries that only refer back to earlier reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2029b-2031b
+
+- FR-LIB-HAD-MUSLIM-0957 saves five complete private French drafts about serving drinks from the right and licking fingers after meals. One entry that refers back to the prior report remains blank with a specific Needs Mo reason. No database write or publication occurred.
