@@ -18888,6 +18888,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-878",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-878.json",
+      "sourceIds": [
+        "0cb7e189-4974-4005-983f-396c09843475",
+        "6f021755-3c67-4b0a-a18e-e16636f7e095",
+        "7a83d7ab-8df5-4539-ac3d-334f1c45bd19",
+        "730e3e83-9933-4006-9638-4ebd23423e36",
+        "4dd10dc9-c566-44dd-bd8a-1794cf17df27",
+        "47115bae-174c-4eee-8763-6c24798a6ca0"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -20756,9 +20777,33 @@
       "scope": "Sahih al-Bukhari 4800: direct Quran 34:23 wording absent from source tags",
       "status": "blocked",
       "reason": "Le rapport reprend directement Quran 34:23 dans la formule « الحق وهو العلي الكبير », mais la citation n’est pas signalée par un marqueur dans le texte source. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-877, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4803-QURAN-36-38",
+      "scope": "Sahih al-Bukhari 4803: direct Quran quotation from 36:38",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 36:38. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-878, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4806-QURAN-6-90",
+      "scope": "Sahih al-Bukhari 4806: direct Quran quotation from 6:90",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 6:90. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-878, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4807-QURAN-6-84-6-90-38-2-38-7-38-11-38-13-38-63-38-32-38-33",
+      "scope": "Sahih al-Bukhari 4807: direct Quran quotation from 6:84, 6:90, 38:2, 38:7, 38:11, 38:13, 38:63, 38:32, 38:33",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 6:84, 6:90, 38:2, 38:7, 38:11, 38:13, 38:63, 38:32, 38:33. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-878, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4808-QURAN-38-35-UNMARKED",
+      "scope": "Sahih al-Bukhari 4808: direct Quran quotation from 38:35 (citation directe sans marqueur de balisage)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 38:35 (citation directe sans marqueur de balisage). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-878, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4037,
-  "hadithLocalDrafted": 4037,
-  "hadithLocalRemaining": 10630
+  "hadithBukhariDrafted": 4039,
+  "hadithLocalDrafted": 4039,
+  "hadithLocalRemaining": 10628
 }

@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-BUKHARI-878",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:32:58.801Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0cb7e189-4974-4005-983f-396c09843475",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4803",
+      "reference": "Sahih al-Bukhari, hadith 4803, book 65, باب قَوْلِهِ ‏ {‏وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا ذَلِكَ تَقْدِيرُ الْعَزِيزِ الْعَلِيمِ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا ذَلِكَ تَقْدِيرُ الْعَزِيزِ الْعَلِيمِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحُمَيْدِيُّ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا الأَعْمَشُ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، عَنْ أَبِي ذَرٍّ، قَالَ سَأَلْتُ النَّبِيَّ صلى الله عليه وسلم عَنْ قَوْلِهِ تَعَالَى ‏[quran sura=\"36\" aya_start=\"38\" aya_end=\"38\"]{‏وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا‏}‏ قَالَ ‏\"‏ مُسْتَقَرُّهَا تَحْتَ الْعَرْشِ ‏\"‏‏.‏",
+      "source_hash_sha256": "f1bd940302349e44a71d351a27312d1ebc0b8b47c91b4a2331077fd5559118d8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6f021755-3c67-4b0a-a18e-e16636f7e095",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4804",
+      "reference": "Sahih al-Bukhari, hadith 4804, book 65, باب قَوْلِهِ ‏ {‏وَإِنَّ يُونُسَ لَمِنَ الْمُرْسَلِينَ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏وَإِنَّ يُونُسَ لَمِنَ الْمُرْسَلِينَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ، رضى الله عنه قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا يَنْبَغِي لأَحَدٍ أَنْ يَكُونَ خَيْرًا مِنِ ابْنِ مَتَّى ‏\"‏‏.‏",
+      "source_hash_sha256": "439eb808e5602f0dd20b9bcabf9a058b0a4ba3ed1647ffcde9c7c01c6be59758",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh (qu’Allah l’agrée) rapporte que le Messager d’Allah (paix et bénédictions sur lui) a dit : « Il ne convient à personne de se prétendre meilleur que le fils de Mattâ. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7a83d7ab-8df5-4539-ac3d-334f1c45bd19",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4805",
+      "reference": "Sahih al-Bukhari, hadith 4805, book 65, باب قَوْلِهِ ‏ {‏وَإِنَّ يُونُسَ لَمِنَ الْمُرْسَلِينَ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏وَإِنَّ يُونُسَ لَمِنَ الْمُرْسَلِينَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِبْرَاهِيمُ بْنُ الْمُنْذِرِ، حَدَّثَنَا مُحَمَّدُ بْنُ فُلَيْحٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ هِلاَلِ بْنِ عَلِيٍّ، مِنْ بَنِي عَامِرِ بْنِ لُؤَىٍّ عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي هُرَيْرَةَ، رضى الله عنه عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ قَالَ أَنَا خَيْرٌ مِنْ يُونُسَ بْنِ مَتَّى فَقَدْ كَذَبَ ‏\"‏‏.‏",
+      "source_hash_sha256": "3d375638ad8e0628a5b06a2ce60ff458d947e3c76a25a26284dce763debe2238",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra (qu’Allah l’agrée) rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Celui qui dit : “Je suis meilleur que Jonas, fils de Mattâ”, a menti. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "730e3e83-9933-4006-9638-4ebd23423e36",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4806",
+      "reference": "Sahih al-Bukhari, hadith 4806, book 65, سورة ص",
+      "title": "سورة ص",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنِ الْعَوَّامِ، قَالَ سَأَلْتُ مُجَاهِدًا عَنِ السَّجْدَةِ، فِي ص قَالَ سُئِلَ ابْنُ عَبَّاسٍ فَقَالَ ‏[quran sura=\"6\" aya_start=\"90\" aya_end=\"90\"]{‏أُولَئِكَ الَّذِينَ هَدَى اللَّهُ فَبِهُدَاهُمُ اقْتَدِهْ‏}‏‏.‏ وَكَانَ ابْنُ عَبَّاسٍ يَسْجُدُ فِيهَا‏.‏",
+      "source_hash_sha256": "686c2fd70b3a9af50995d68bd410a2656928ed4cf3b669397d43f112c38c86c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4dd10dc9-c566-44dd-bd8a-1794cf17df27",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4807",
+      "reference": "Sahih al-Bukhari, hadith 4807, book 65, سورة ص",
+      "title": "سورة ص",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدٍ الطَّنَافِسِيُّ، عَنِ الْعَوَّامِ، قَالَ سَأَلْتُ مُجَاهِدًا عَنْ سَجْدَةِ، ص فَقَالَ سَأَلْتُ ابْنَ عَبَّاسٍ مِنْ أَيْنَ سَجَدْتَ فَقَالَ أَوَمَا تَقْرَأُ ‏[quran sura=\"6\" aya_start=\"84\" aya_end=\"84\"]{‏وَمِنْ ذُرِّيَّتِهِ دَاوُدَ وَسُلَيْمَانَ‏}‏ ‏[quran sura=\"6\" aya_start=\"90\" aya_end=\"90\"]{‏أُولَئِكَ الَّذِينَ هَدَى اللَّهُ فَبِهُدَاهُمُ اقْتَدِهْ‏}‏ فَكَانَ دَاوُدُ مِمَّنْ أُمِرَ نَبِيُّكُمْ صلى الله عليه وسلم أَنْ يَقْتَدِيَ بِهِ، فَسَجَدَهَا دَاوُدُ فَسَجَدَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم‏.‏ ‏{‏عُجَابٌ‏}‏ عَجِيبٌ‏.‏ الْقِطُّ الصَّحِيفَةُ هُوَ هَا هُنَا صَحِيفَةُ الْحَسَنَاتِ‏.‏ وَقَالَ مُجَاهِدٌ ‏[quran sura=\"38\" aya_start=\"2\" aya_end=\"2\"]{‏فِي عِزَّةٍ‏}‏ مُعَازِّينَ‏.‏ ‏[quran sura=\"38\" aya_start=\"7\" aya_end=\"7\"]{‏الْمِلَّةِ الآخِرَةِ‏}‏ مِلَّةُ قُرَيْشٍ‏.‏ الاِخْتِلاَقُ الْكَذِبُ‏.‏ الأَسْبَابُ طُرُقُ السَّمَاءِ فِي أَبْوَابِهَا ‏[quran sura=\"38\" aya_start=\"11\" aya_end=\"11\"]{‏جُنْدٌ مَا هُنَالِكَ مَهْزُومٌ‏}‏ يَعْنِي قُرَيْشًا ‏[quran sura=\"38\" aya_start=\"13\" aya_end=\"13\"]{‏أُولَئِكَ الأَحْزَابُ‏}‏ الْقُرُونُ الْمَاضِيَةُ‏.‏ ‏{‏فَوَاقٍ‏}‏ رُجُوعٍ‏.‏ ‏{‏قِطَّنَا‏}‏ عَذَابَنَا ‏[quran sura=\"38\" aya_start=\"63\" aya_end=\"63\"]{‏اتَّخَذْنَاهُمْ سُخْرِيًّا‏}‏ أَحَطْنَا بِهِمْ أَتْرَابٌ أَمْثَالٌ‏.‏ وَقَالَ ابْنُ عَبَّاسٍ الأَيْدُ الْقُوَّةُ فِي الْعِبَادَةِ الأَبْصَارُ الْبَصَرُ فِي أَمْرِ اللَّهِ، ‏[quran sura=\"38\" aya_start=\"32\" aya_end=\"32\"]{‏حُبَّ الْخَيْرِ عَنْ ذِكْرِ رَبِّي‏}‏ مِنْ ذِكْرٍ‏.‏ ‏[quran sura=\"38\" aya_start=\"33\" aya_end=\"33\"]{‏طَفِقَ مَسْحًا‏}‏ يَمْسَحُ أَعْرَافَ الْخَيْلِ وَعَرَاقِيبَهَا‏.‏ ‏{‏الأَصْفَادِ‏}‏ الْوَثَاقِ‏.‏",
+      "source_hash_sha256": "ca68439868067abd8cfc825539ba8cb86280b35cf6959870b14c6f6964f0f636",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "47115bae-174c-4eee-8763-6c24798a6ca0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4808",
+      "reference": "Sahih al-Bukhari, hadith 4808, book 65, باب قَوْلِهِ ‏ {‏هَبْ لِي مُلْكًا لاَ يَنْبَغِي لأَحَدٍ مِنْ بَعْدِي إِنَّكَ أَنْتَ الْوَهَّابُ‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏هَبْ لِي مُلْكًا لاَ يَنْبَغِي لأَحَدٍ مِنْ بَعْدِي إِنَّكَ أَنْتَ الْوَهَّابُ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا رَوْحٌ، وَمُحَمَّدُ بْنُ جَعْفَرٍ، عَنْ شُعْبَةَ، عَنْ مُحَمَّدِ بْنِ زِيَادٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ عِفْرِيتًا مِنَ الْجِنِّ تَفَلَّتَ عَلَىَّ الْبَارِحَةَ ـ أَوْ كَلِمَةً نَحْوَهَا ـ لِيَقْطَعَ عَلَىَّ الصَّلاَةَ، فَأَمْكَنَنِي اللَّهُ مِنْهُ وَأَرَدْتُ أَنْ أَرْبِطَهُ إِلَى سَارِيَةٍ مِنْ سَوَارِي الْمَسْجِدِ حَتَّى تُصْبِحُوا وَتَنْظُرُوا إِلَيْهِ كُلُّكُمْ، فَذَكَرْتُ قَوْلَ أَخِي سُلَيْمَانَ رَبِّ هَبْ لِي مُلْكًا لاَ يَنْبَغِي لأَحَدٍ مِنْ بَعْدِي ‏\"‏‏.‏ قَالَ رَوْحٌ فَرَدَّهُ خَاسِئًا‏.‏",
+      "source_hash_sha256": "da784dcdd202166b9d9ac13d77184c7845de75c935a00aa55f373277f3501149",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0cb7e189-4974-4005-983f-396c09843475",
+      "url": "https://sunnah.com/bukhari:4803",
+      "reason": "Le rapport cite directement Quran 36:38. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-878, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "730e3e83-9933-4006-9638-4ebd23423e36",
+      "url": "https://sunnah.com/bukhari:4806",
+      "reason": "Le rapport cite directement Quran 6:90. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-878, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "4dd10dc9-c566-44dd-bd8a-1794cf17df27",
+      "url": "https://sunnah.com/bukhari:4807",
+      "reason": "Le rapport cite directement Quran 6:84, 6:90, 38:2, 38:7, 38:11, 38:13, 38:63, 38:32, 38:33. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-878, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "47115bae-174c-4eee-8763-6c24798a6ca0",
+      "url": "https://sunnah.com/bukhari:4808",
+      "reason": "Le rapport cite directement Quran 38:35 (citation directe sans marqueur de balisage). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-878, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
