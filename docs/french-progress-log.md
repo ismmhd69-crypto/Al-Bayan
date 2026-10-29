@@ -5621,3 +5621,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1095 saves six private French drafts about generosity, good character, service to family, love of Allah, and faith.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,051 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 759. Total local hadith rows not drafted: 9,578, including held records.
+
+### 2026-10-29: Bukhari 6042–6047
+
+- FR-LIB-HAD-BUKHARI-1096 saves five private French drafts. Bukhari 6042 is held blank because the phrase مما يخرج من الأنفس is unclear.
+- Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 5,056 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 760. Total local hadith rows not drafted: 9,573, including held records.

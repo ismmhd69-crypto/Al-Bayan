@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5051,
+    "hadithBukhariDrafted": 5056,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5051,
+    "hadithLocalDrafted": 5056,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9578,
-    "hadithNeedsMo": 759,
+    "hadithLocalRemaining": 9573,
+    "hadithNeedsMo": 760,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23372,6 +23372,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1096",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1096.json",
+      "sourceIds": [
+        "1217f7a3-de23-470d-867a-c0d955ecc752",
+        "0196f75c-38ae-4c4e-856e-3fc850c16f70",
+        "ee3e374a-1e55-47aa-a208-263e2da79ab2",
+        "1adf0348-7579-4a6c-be89-959d8e1d69e3",
+        "9f5e1356-4640-4636-8be2-efa5f81bd6b6",
+        "6b29c798-afc6-4ec6-b84e-85f27e744d11"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; Bukhari 6042 held blank because the Arabic phrase مما يخرج من الأنفس is unclear. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26398,6 +26419,12 @@
       "scope": "Sahih al-Bukhari 5611 direct quotations of Quran 3:92",
       "status": "blocked",
       "reason": "The report quotes Quran 3:92 directly twice. Keep the complete translation blank until an approved attributed French Quran translation and permitted use are confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6042-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 6042: wording مما يخرج من الأنفس",
+      "status": "blocked",
+      "reason": "The exported Arabic phrase مما يخرج من الأنفس is unclear and may be euphemistic. Keep the full report blank in FR-LIB-HAD-BUKHARI-1096 until the exact source wording is confirmed."
     }
   ],
   "hadithBukhariDrafted": 4523,
@@ -26493,6 +26520,12 @@
       "scope": "Sahih al-Bukhari 6001 direct quotation of Quran 25:68",
       "status": "blocked",
       "reason": "The report directly quotes Quran 25:68. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6042-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 6042: wording مما يخرج من الأنفس",
+      "status": "blocked",
+      "reason": "The exported Arabic phrase مما يخرج من الأنفس is unclear and may be euphemistic. Keep the full report blank in FR-LIB-HAD-BUKHARI-1096 until the exact source wording is confirmed."
     }
   ]
 }
