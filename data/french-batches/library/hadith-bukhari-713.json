@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-713",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:10:26.189Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "72a321da-e776-4bba-ac99-fa5686f6bcdd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3988",
+      "reference": "Sahih al-Bukhari, hadith 3988, book 64, كتاب المغازى",
+      "title": "كتاب المغازى",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَعْقُوبُ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ قَالَ عَبْدُ الرَّحْمَنِ بْنُ عَوْفٍ إِنِّي لَفِي الصَّفِّ يَوْمَ بَدْرٍ إِذِ الْتَفَتُّ، فَإِذَا عَنْ يَمِينِي وَعَنْ يَسَارِي فَتَيَانِ حَدِيثَا السِّنِّ، فَكَأَنِّي لَمْ آمَنْ بِمَكَانِهِمَا، إِذْ قَالَ لِي أَحَدُهُمَا سِرًّا مِنْ صَاحِبِهِ يَا عَمِّ أَرِنِي أَبَا جَهْلٍ‏.‏ فَقُلْتُ يَا ابْنَ أَخِي، وَمَا تَصْنَعُ بِهِ قَالَ عَاهَدْتُ اللَّهَ إِنْ رَأَيْتُهُ أَنْ أَقْتُلَهُ أَوْ أَمُوتَ دُونَهُ‏.‏ فَقَالَ لِي الآخَرُ سِرًّا مِنْ صَاحِبِهِ مِثْلَهُ قَالَ فَمَا سَرَّنِي أَنِّي بَيْنَ رَجُلَيْنِ مَكَانَهُمَا، فَأَشَرْتُ لَهُمَا إِلَيْهِ، فَشَدَّا عَلَيْهِ مِثْلَ الصَّقْرَيْنِ حَتَّى ضَرَبَاهُ، وَهُمَا ابْنَا عَفْرَاءَ‏.‏",
+      "source_hash_sha256": "71ac909403328b29179c47f044177783575cd955d52cf0c2e864c2a7fe147f6f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd al-Rahmân ibn ʿAwf rapporte : « Je me trouvais dans le rang le jour de Badr. En me retournant, je vis à ma droite et à ma gauche deux très jeunes garçons. Leur présence ne me semblait pas rassurante. L’un d’eux me dit discrètement, à l’insu de son compagnon : “Mon oncle, montre-moi Abû Jahl.” Je lui demandai : “Mon neveu, que veux-tu lui faire ?” Il répondit : “J’ai pris l’engagement envers Dieu que, si je le voyais, je le tuerais ou mourrais en essayant.” L’autre me dit discrètement la même chose, sans que son compagnon l’entende.\n\nJe n’aurais pas voulu avoir deux autres hommes à leur place. Je leur indiquai où se trouvait Abû Jahl. Ils se jetèrent sur lui comme deux faucons et le frappèrent. Ces deux garçons étaient les fils d’ʿAfrâ’, une femme des Ansâr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
