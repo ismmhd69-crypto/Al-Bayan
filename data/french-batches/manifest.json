@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5440,
+    "hadithBukhariDrafted": 5445,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5440,
+    "hadithLocalDrafted": 5445,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9189,
-    "hadithNeedsMo": 783,
+    "hadithLocalRemaining": 9184,
+    "hadithNeedsMo": 784,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25180,6 +25180,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1189",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1189.json",
+      "sourceIds": [
+        "847816cc-288a-4431-a098-77b819ad63df",
+        "234dc3af-dbdb-406e-99c0-bddb365f2a06",
+        "33378234-8e61-4c1f-bf89-49dcd243e079",
+        "9ade39b1-11e1-4e89-bca3-8d860dc1b8df",
+        "40e7055e-c5cd-4411-9802-036428639e4a",
+        "0fd215e5-486c-4b9e-95db-0da3c9d07e86"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6467 remains blank because its commentary directly quotes Quran 33:70. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -28272,11 +28293,17 @@
       "scope": "Sahih al-Bukhari 6453: unclear phrase ما له خلط in the description of the stool",
       "status": "blocked",
       "reason": "The phrase ما له خلط is unclear in this context. Keep the complete French translation blank until its meaning is reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6467-QURAN-33-70",
+      "scope": "Sahih al-Bukhari 6467 commentary: direct quotation of Quran 33:70",
+      "status": "blocked",
+      "reason": "The commentary directly quotes Quran 33:70. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5440,
-  "hadithLocalDrafted": 5440,
-  "hadithLocalRemaining": 9189,
+  "hadithBukhariDrafted": 5445,
+  "hadithLocalDrafted": 5445,
+  "hadithLocalRemaining": 9184,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28511,6 +28538,12 @@
       "scope": "Sahih al-Bukhari 6453: unclear phrase ما له خلط in the description of the stool",
       "status": "blocked",
       "reason": "The phrase ما له خلط is unclear in this context. Keep the complete French translation blank until its meaning is reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6467-QURAN-33-70",
+      "scope": "Sahih al-Bukhari 6467 commentary: direct quotation of Quran 33:70",
+      "status": "blocked",
+      "reason": "The commentary directly quotes Quran 33:70. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
