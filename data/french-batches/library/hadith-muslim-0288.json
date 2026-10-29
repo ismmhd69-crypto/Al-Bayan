@@ -100,8 +100,8 @@
         "translation_index_allowed": false,
         "expires_at": null
       },
-      "text_french": "",
-      "draft_status": "needs_mo_source_integrity",
+      "text_french": "Yahya ibn Yahya, Sa‘id ibn Mansur et Qutayba ibn Sa‘id nous l’ont rapporté, tous d’après Abu ‘Awana, d’après Qatada, d’après Anas, d’après le Prophète ﷺ. Cette version ne contient pas les mots : « Il n’y a pas d’autre expiation que cela. »",
+      "draft_status": "private_local_ai_draft",
       "database_inserted": false,
       "translation_published": false,
       "human_reviewed": false
@@ -165,12 +165,8 @@
       "reason": "Ce récit cite directement un passage du Coran (20:14). Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     },
     {
-      "source_id": "a4a6c321-19c3-4a24-9266-d0a81a94194f",
-      "reason": "La source signale uniquement une différence avec la formulation précédente, sans préciser le texte complet à traduire. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
-    },
-    {
       "source_id": "3effd665-7522-4dda-b240-7a89dc26a9be",
       "reason": "Ce récit cite directement le verset 20:14 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ]
-}
+}\n

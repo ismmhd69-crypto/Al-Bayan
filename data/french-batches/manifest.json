@@ -34979,10 +34979,10 @@
         "c324642e-24d5-4a49-b071-412fcac5a88b",
         "3effd665-7522-4dda-b240-7a89dc26a9be"
       ],
-      "translated": 2,
+      "translated": 3,
       "inserted": 0,
       "preserved": 0,
-      "validation": "pending focused batch validation; two incomplete variants and two Quran quotations held blank under Needs Mo",
+      "validation": "pending focused batch validation; one incomplete variant and two Quran quotations held blank under Needs Mo",
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
@@ -39293,8 +39293,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7480,
-  "hadithLocalRemaining": 7149,
+  "hadithLocalDrafted": 7481,
+  "hadithLocalRemaining": 7148,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41127,20 +41127,14 @@
       "reason": "Ce récit cite directement un passage du Coran (20:14). Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     },
     {
-      "id": "HADITH-MUSLIM-0288-684B-SOURCE-INTEGRITY",
-      "scope": "Sahih Muslim 684b: incomplete variant report",
-      "status": "blocked",
-      "reason": "La source signale uniquement une différence avec la formulation précédente, sans préciser le texte complet à traduire. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
-    },
-    {
       "id": "HADITH-MUSLIM-0288-684D-QURAN-20-14",
       "scope": "Sahih Muslim 684d: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 20:14 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 1144,
-  "hadithDatabaseMissing": 7149,
+  "hadithMuslimDrafted": 1145,
+  "hadithDatabaseMissing": 7148,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 543
-}
+  "hadithNeedsMo": 542
+}\n
