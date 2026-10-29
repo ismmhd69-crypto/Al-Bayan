@@ -10346,3 +10346,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0643 saves five private French drafts about accepting invitations. Muslim 1430b only refers to the previous report and remains blank under Needs Mo until the full source is validated.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1431–1433a
+
+- FR-LIB-HAD-MUSLIM-0644 saves four private French drafts about accepting invitations and the etiquette of wedding banquets, plus the report of Rifa‘a’s former wife. Muslim 1432b and 1432c depend on a cross-reference for the report wording and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

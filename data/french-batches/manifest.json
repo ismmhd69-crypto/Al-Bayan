@@ -42299,6 +42299,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0644",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0644.json",
+      "sourceIds": [
+        "1fd7b23c-0b7e-4632-9605-5f27d1362cee",
+        "89690a74-a725-4c52-9769-e88fa983a038",
+        "dffca210-187b-4663-b1d6-c508fcb03e6c",
+        "32c33d2f-90e3-4985-abf7-9e22c262e459",
+        "5b2452df-d69c-4f7e-8915-088628a32c1f",
+        "6e99a737-3e5a-480f-9abd-77038f8e27a0"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two incomplete or referential variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46606,8 +46627,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8900,
-  "hadithLocalRemaining": 5729,
+  "hadithLocalDrafted": 8904,
+  "hadithLocalRemaining": 5725,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50699,10 +50720,20 @@
       "source_id": "f461282f-988c-4cb7-a327-e998c09eb20c",
       "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« بِهَذَا الإِسْنَادِ بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "dffca210-187b-4663-b1d6-c508fcb03e6c",
+      "reason": "Cette entrée développe une discussion mais renvoie pour le contenu du récit à la version de Malik (« ثُمَّ ذَكَرَ بِمِثْلِ حَدِيثِ مَالِكٍ »). Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "32c33d2f-90e3-4985-abf7-9e22c262e459",
+      "reason": "Cette entrée indique seulement que les récits sont semblables à celui de Malik ou à une autre version, sans reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2564,
+  "hadithMuslimDrafted": 2568,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1111
+  "hadithNeedsMo": 1113
 }
