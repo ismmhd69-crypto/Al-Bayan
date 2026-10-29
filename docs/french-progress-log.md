@@ -2091,3 +2091,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-435` saves six private French drafts for Bukhari 2527–2532, covering shared emancipation, inner thoughts and intentions, and Abû Hurayra’s account of arriving in Medina with his servant.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,290 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,339, including held records.
+
+### 2026-10-29: Bukhari 2533–2538 source review
+
+- `FR-LIB-HAD-BUKHARI-436` saves six private French drafts for Bukhari 2533–2538, covering disputed parentage, emancipation, clientage, ransom, and good works done before entering Islam.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,296 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,333, including held records.
