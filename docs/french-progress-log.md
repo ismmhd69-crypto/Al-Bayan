@@ -3131,3 +3131,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-643` keeps the Hijra account blank because it contains the Quran 9:40 wording “Do not grieve; God is with us.” No approved, attributed French Quran translation is confirmed.
 - The record passed the focused validator with its Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,253 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 238. Total local hadith rows not drafted: 11,404, including held records.
+
+### 2026-10-29: Bukhari 3653–3658
+
+- `FR-LIB-HAD-BUKHARI-644` saves six private French drafts about the Hijra, Abû Bakr and the Prophet’s companions.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,259 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 238. Total local hadith rows not drafted: 11,398, including held records.
