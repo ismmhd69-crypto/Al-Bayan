@@ -764,3 +764,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-146` saves six private French drafts for Bukhari 807–812. The translations retain the arm position in prayer, the warning to complete bowing and prostration, the seven points of prostration and the timing of the congregation’s movement behind the imam.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 754 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,875, including held records.
+### 2026-10-29: Bukhari 813–818 source review
+
+- `FR-LIB-HAD-BUKHARI-147` saves six private French drafts for Bukhari 813–818. The translations preserve the sequence of the Ramadan retreat and dream, the instruction to wait for men to sit, the prayer positions, and the final instruction about calling and leading the prayer.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 760 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,869, including held records.
