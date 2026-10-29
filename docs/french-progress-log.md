@@ -1421,3 +1421,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-297` saves six private French drafts for Bukhari 1714–1719. They preserve the reports on the route and prayers of the pilgrimage and on distributing the sacrificial animals and their parts. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,568 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 93. Total local hadith rows not drafted: 13,060, including held records.
+
+### 2026-10-29: Bukhari 1720–1725 source review
+
+- `FR-LIB-HAD-BUKHARI-298` saves six private French drafts for Bukhari 1720–1725. They preserve the reports on ritual order and the allowance for variations in the sequence of Hajj rites, including their transmission variants. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,574 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 93. Total local hadith rows not drafted: 13,054, including held records.
