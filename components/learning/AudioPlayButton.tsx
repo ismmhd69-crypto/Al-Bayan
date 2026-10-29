@@ -138,8 +138,8 @@ export default function AudioPlayButton({
             type="button"
             className="audio-rate-btn"
             onClick={toggleRate}
-            title={lang === "ar" ? "سرعة الصوت" : "Playback speed"}
-            aria-label={`Playback speed: ${rate}x`}
+            title={lang === "ar" ? "سرعة الصوت" : lang === "de" ? "Wiedergabegeschwindigkeit" : "Playback speed"}
+            aria-label={lang === "ar" ? `سرعة الصوت: ${rate}x` : lang === "de" ? `Wiedergabegeschwindigkeit: ${rate}x` : `Playback speed: ${rate}x`}
           >
             {rate}x
           </button>
@@ -147,8 +147,8 @@ export default function AudioPlayButton({
             type="button"
             className="audio-icon-btn"
             onClick={restart}
-            title={lang === "ar" ? "إعادة" : "Restart"}
-            aria-label="Restart"
+            title={lang === "ar" ? "إعادة" : lang === "de" ? "Neu starten" : "Restart"}
+            aria-label={lang === "ar" ? "إعادة" : lang === "de" ? "Neu starten" : "Restart"}
           >
             <RotateCcw size={14} aria-hidden="true" />
           </button>

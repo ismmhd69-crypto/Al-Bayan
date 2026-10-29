@@ -1027,7 +1027,7 @@ export default function AskChat({
         )}
         <div ref={endRef} />
       </div>
-      {!following && <button type="button" className="chip" onClick={() => { followingRef.current = true; setFollowing(true); logRef.current?.scrollTo({ top: logRef.current.scrollHeight, behavior: reducedMotion() ? "auto" : "smooth" }); }}>{lang === "ar" ? "انتقل إلى آخر الإجابة" : "Jump to latest"}</button>}
+      {!following && <button type="button" className="chip" onClick={() => { followingRef.current = true; setFollowing(true); logRef.current?.scrollTo({ top: logRef.current.scrollHeight, behavior: reducedMotion() ? "auto" : "smooth" }); }}>{lang === "ar" ? "انتقل إلى آخر الإجابة" : lang === "de" ? "Zum Neuesten springen" : "Jump to latest"}</button>}
 
       <form
         className="composer"
