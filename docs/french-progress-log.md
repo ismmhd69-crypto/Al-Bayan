@@ -9166,3 +9166,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0407 saves five private French drafts about the Najashi’s funeral prayer and prayer at a grave. Muslim 954b only gives a partial cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1602 Muslim drafts, 7938 total hadith drafts, 6691 remaining, and 761 Needs Mo items.
+
+### 2026-10-29: Muslim 954c–958b
+
+- FR-LIB-HAD-MUSLIM-0408 saves five private French drafts about funeral prayers, praying at graves and standing for a funeral procession. Muslim 954c is an incomplete cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1607 Muslim drafts, 7943 total hadith drafts, 6686 remaining, and 762 Needs Mo items.
