@@ -912,3 +912,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-183` saves six private French drafts for Bukhari 1040–1045. They preserve the reports about the solar eclipse, the prescribed prayer and supplication, and the announcement that the congregation should gather.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 970 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 47. Total local hadith rows not drafted: 13,659, including held records.
+### 2026-10-29: Bukhari 1046–1052 source review
+
+- `FR-LIB-HAD-BUKHARI-184` saves six private French drafts for Bukhari 1046–1052. They preserve the longer eclipse-prayer accounts, including the Prophet’s ﷺ sermon and the reminder to seek refuge from punishment in the grave.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 976 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 47. Total local hadith rows not drafted: 13,653, including held records.
