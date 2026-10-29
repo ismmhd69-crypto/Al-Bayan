@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0490",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:36:35.362Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "97a61db8-d872-44ee-a3ba-b620158a45c1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1130b",
+      "reference": "Sahih Muslim, hadith 1130 b, book 13, باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "title": "باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ ابْنُ بَشَّارٍ، وَأَبُو بَكْرِ بْنُ نَافِعٍ جَمِيعًا عَنْ مُحَمَّدِ بْنِ جَعْفَرٍ، عَنْ شُعْبَةَ، عَنْ أَبِي بِشْرٍ، بِهَذَا الإِسْنَادِ وَقَالَ فَسَأَلَهُمْ عَنْ ذَلِكَ، ‏.‏",
+      "source_hash_sha256": "ae20067c67f51bfd05ee8aad2b35de66522ac1663148e74bd5f8600a83df5ad1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4a805d4e-8bc8-46f4-ba97-a609c19d59a4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1130c",
+      "reference": "Sahih Muslim, hadith 1130 c, book 13, باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "title": "باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ أَيُّوبَ، عَنْ عَبْدِ اللَّهِ بْنِ سَعِيدِ بْنِ جُبَيْرٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، - رضى الله عنهما - أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَدِمَ الْمَدِينَةَ فَوَجَدَ الْيَهُودَ صِيَامًا يَوْمَ عَاشُورَاءَ فَقَالَ لَهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا هَذَا الْيَوْمُ الَّذِي تَصُومُونَهُ ‏\"‏ ‏.‏ فَقَالُوا هَذَا يَوْمٌ عَظِيمٌ أَنْجَى اللَّهُ فِيهِ مُوسَى وَقَوْمَهُ وَغَرَّقَ فِرْعَوْنَ وَقَوْمَهُ فَصَامَهُ مُوسَى شُكْرًا فَنَحْنُ نَصُومُهُ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ فَنَحْنُ أَحَقُّ وَأَوْلَى بِمُوسَى مِنْكُمْ ‏\"‏ ‏.‏ فَصَامَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم وَأَمَرَ بِصِيَامِهِ ‏.‏",
+      "source_hash_sha256": "5ccce6fd24dd5c1837fb0ff2612b8d9e4af67eddf2c0b44bdb9bbc87cd2df2ff",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abi ‘Umar nous a rapporté : Sufyan nous a rapporté, d’après Ayyub, d’après ‘Abd Allah ibn Sa‘id ibn Jubayr, d’après son père, d’après Ibn ‘Abbas, qu’Allah les agrée tous deux : le Messager d’Allah ﷺ arriva à Médine et trouva les Juifs en train de jeûner le jour de ‘Ashura. Le Messager d’Allah ﷺ leur demanda : « Quel est ce jour que vous jeûnez ? » Ils répondirent : « C’est un jour important : Allah y sauva Moïse et son peuple et noya Pharaon et son peuple. Moïse le jeûna en signe de gratitude, et nous le jeûnons. » Le Messager d’Allah ﷺ répondit : « Nous sommes plus proches et plus dignes de Moïse que vous. » Le Messager d’Allah ﷺ jeûna alors ce jour et ordonna de le jeûner.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8e20802d-3c69-45a5-b5a5-512f27430f55",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1130d",
+      "reference": "Sahih Muslim, hadith 1130 d, book 13, باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "title": "باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ أَيُّوبَ، بِهَذَا الإِسْنَادِ إِلاَّ أَنَّهُ قَالَ عَنِ ابْنِ سَعِيدِ بْنِ جُبَيْرٍ، لَمْ يُسَمِّهِ ‏.‏",
+      "source_hash_sha256": "34baeb204f171f53a93b52d226c9f609c30140490ea785bb7838c7622f12c391",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8dcbefa8-6e12-489b-b80b-1731808e50cd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1131a",
+      "reference": "Sahih Muslim, hadith 1131 a, book 13, باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "title": "باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ أَبِي عُمَيْسٍ، عَنْ قَيْسِ بْنِ مُسْلِمٍ، عَنْ طَارِقِ بْنِ شِهَابٍ، عَنْ أَبِي مُوسَى، - رضى الله عنه - قَالَ كَانَ يَوْمُ عَاشُورَاءَ يَوْمًا تُعَظِّمُهُ الْيَهُودُ وَتَتَّخِذُهُ عِيدًا فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ صُومُوهُ أَنْتُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5c620f2494ae8ba24c689641471e4fbcf5afbf5fdb2555f8725b14b2a2b5e024",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Ibn Numayr nous ont rapporté. Tous deux ont dit : Abu Usama nous a rapporté, d’après Abu ‘Umays, d’après Qays ibn Muslim, d’après Tariq ibn Shihab, d’après Abu Musa, qu’Allah l’agrée, qui a dit : le jour de ‘Ashura était un jour que les Juifs honoraient et qu’ils célébraient comme une fête. Le Messager d’Allah ﷺ dit : « Jeûnez-le, vous aussi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c5c300b5-aff9-4a47-9007-844d2d9eb0f2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1131b",
+      "reference": "Sahih Muslim, hadith 1131 b, book 13, باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "title": "باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَحْمَدُ بْنُ الْمُنْذِرِ، حَدَّثَنَا حَمَّادُ بْنُ أُسَامَةَ، حَدَّثَنَا أَبُو الْعُمَيْسِ، أَخْبَرَنِي قَيْسٌ، فَذَكَرَ بِهَذَا الإِسْنَادِ مِثْلَهُ وَزَادَ قَالَ أَبُو أُسَامَةَ فَحَدَّثَنِي صَدَقَةُ بْنُ أَبِي عِمْرَانَ عَنْ قَيْسِ بْنِ مُسْلِمٍ عَنْ طَارِقِ بْنِ شِهَابٍ عَنْ أَبِي مُوسَى - رضى الله عنه - قَالَ كَانَ أَهْلُ خَيْبَرَ يَصُومُونَ يَوْمَ عَاشُورَاءَ يَتَّخِذُونَهُ عِيدًا وَيُلْبِسُونَ نِسَاءَهُمْ فِيهِ حُلِيَّهُمْ وَشَارَتَهُمْ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ فَصُومُوهُ أَنْتُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b46f625e40bd3be587bbaa04fa6309a935b070bdc9ffa7385ec043accb452176",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d04064c8-c55a-49d7-aa93-2aefc5df4f8d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1132a",
+      "reference": "Sahih Muslim, hadith 1132 a, book 13, باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "title": "باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، جَمِيعًا عَنْ سُفْيَانَ، - قَالَ أَبُو بَكْرٍ حَدَّثَنَا ابْنُ عُيَيْنَةَ، - عَنْ عُبَيْدِ اللَّهِ بْنِ أَبِي يَزِيدَ، سَمِعَ ابْنَ عَبَّاسٍ، - رضى الله عنهما - وَسُئِلَ عَنْ صِيَامِ، يَوْمِ عَاشُورَاءَ ‏.‏ فَقَالَ مَا عَلِمْتُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم صَامَ يَوْمًا يَطْلُبُ فَضْلَهُ عَلَى الأَيَّامِ إِلاَّ هَذَا الْيَوْمَ وَلاَ شَهْرًا إِلاَّ هَذَا الشَّهْرَ يَعْنِي رَمَضَانَ ‏.‏",
+      "source_hash_sha256": "59c26ffdadff8ef3f4900986da263d9a50ac3069006cb70bb5d6947c47dadc0e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et ‘Amr al-Naqid nous ont rapporté, tous deux d’après Sufyan. Abu Bakr a dit : Ibn ‘Uyayna nous a rapporté, d’après ‘Ubayd Allah ibn Abi Yazid, qui a entendu Ibn ‘Abbas, qu’Allah les agrée tous deux, interrogé au sujet du jeûne du jour de ‘Ashura. Il répondit : « À ma connaissance, le Messager d’Allah ﷺ n’a pas jeûné un jour en recherchant un mérite supérieur à celui des autres jours, hormis celui-ci ; et il n’a pas jeûné un mois en recherchant un mérite supérieur à celui des autres mois, hormis celui-ci », c’est-à-dire le Ramadan.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "97a61db8-d872-44ee-a3ba-b620158a45c1",
+      "reason": "La source renvoie au rapport précédent ou n’en donne qu’une variante sans reproduire intégralement le contenu. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    },
+    {
+      "source_id": "8e20802d-3c69-45a5-b5a5-512f27430f55",
+      "reason": "La source renvoie au rapport précédent ou n’en donne qu’une variante sans reproduire intégralement le contenu. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    },
+    {
+      "source_id": "c5c300b5-aff9-4a47-9007-844d2d9eb0f2",
+      "reason": "La source renvoie au rapport précédent ou n’en donne qu’une variante sans reproduire intégralement le contenu. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    }
+  ]
+}
