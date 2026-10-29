@@ -6195,6 +6195,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1415 held for embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-247",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-247.json",
+      "sourceIds": [
+        "9ad868be-4bb5-401b-a9eb-783823c5fa37",
+        "82f6d597-a440-4d09-b574-d8e41820a3a4",
+        "58d53024-3cfa-401b-9fda-8b42ff6ae1f7",
+        "9ec89823-e95f-4513-aa73-dea00a923c77",
+        "eae32d1f-70ae-4035-9bb4-91dc8d9499cf",
+        "f52d8192-a015-4d90-a11a-74757cd57788"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [
