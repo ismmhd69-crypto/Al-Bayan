@@ -17330,6 +17330,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-799",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-799.json",
+      "sourceIds": [
+        "d05bb42e-e329-47f7-952b-0c0721c9e6a9"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with hold"
     }
   ],
   "blockers": [
@@ -17848,6 +17864,12 @@
       "scope": "Sahih al-Bukhari 4407: direct quotation of Quran 5:3",
       "status": "blocked",
       "reason": "The report directly quotes Quran 5:3. The complete record remains blank in FR-LIB-HAD-BUKHARI-797 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4418-QURAN-9-117-119-95-96",
+      "scope": "Sahih al-Bukhari 4418: direct quotations of Quran 9:117–119 and 9:95–96",
+      "status": "blocked",
+      "reason": "The report directly quotes these Quran passages. The complete unusually long record remains blank in FR-LIB-HAD-BUKHARI-799 pending an approved, attributed French Quran translation."
     }
   ],
   "hadithBukhariDrafted": 3890,
