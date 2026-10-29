@@ -1,0 +1,87 @@
+{
+  "batch_id": "HADITH-BUKHARI-1083",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:53:49.703Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "14508d81-2fb5-4fee-a00d-969d1965d3b6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5971",
+      "reference": "Sahih al-Bukhari, hadith 5971, book 78, باب مَنْ أَحَقُّ النَّاسِ بِحُسْنِ الصُّحْبَةِ",
+      "title": "باب مَنْ أَحَقُّ النَّاسِ بِحُسْنِ الصُّحْبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ بْنِ الْقَعْقَاعِ بْنِ شُبْرُمَةَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ مَنْ أَحَقُّ بِحُسْنِ صَحَابَتِي قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أَبُوكَ ‏\"‏‏.‏ وَقَالَ ابْنُ شُبْرُمَةَ وَيَحْيَى بْنُ أَيُّوبَ حَدَّثَنَا أَبُو زُرْعَةَ مِثْلَهُ‏.‏",
+      "source_hash_sha256": "7813c25acaba9bf2d110536186a529fb4d5c6a3c2a9cc352d7e564577c9d7a39",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : Jarîr nous a rapporté, d’après ‘Umâra ibn al-Qa‘qâ‘ ibn Shubrumah, d’après Abû Zur‘a, d’après Abû Hurayra (qu’Allah l’agrée), qui dit : « Un homme vint trouver le Messager d’Allah ﷺ et lui demanda : “Ô Messager d’Allah, qui mérite le plus que je lui tienne compagnie avec bonté ?” Il répondit : “Ta mère.” L’homme demanda : “Et ensuite ?” Il répondit : “Ta mère.” Il demanda : “Et ensuite ?” Il répondit : “Ta mère.” Il demanda : “Et ensuite ?” Il répondit : “Puis ton père.” » Ibn Shubrumah et Yahyâ ibn Ayyûb rapportent la même chose : Abû Zur‘a nous a rapporté le même récit.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "56907ca9-b21c-4cb8-b40e-d40831b71bc7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5972",
+      "reference": "Sahih al-Bukhari, hadith 5972, book 78, باب لاَ يُجَاهِدُ إِلاَّ بِإِذْنِ الأَبَوَيْنِ",
+      "title": "باب لاَ يُجَاهِدُ إِلاَّ بِإِذْنِ الأَبَوَيْنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ سُفْيَانَ، وَشُعْبَةَ، قَالاَ حَدَّثَنَا حَبِيبٌ، ح قَالَ وَحَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، عَنْ حَبِيبٍ، عَنْ أَبِي الْعَبَّاسِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ قَالَ رَجُلٌ لِلنَّبِيِّ صلى الله عليه وسلم أُجَاهِدُ‏.‏ قَالَ ‏\"‏ لَكَ أَبَوَانِ ‏\"‏‏.‏ قَالَ نَعَمْ‏.‏ قَالَ ‏\"‏ فَفِيهِمَا فَجَاهِدْ ‏\"‏‏.‏",
+      "source_hash_sha256": "9fa3c7640dc9f370c62159eded1a1bec364aa34210614c893c437908df64c0cc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Yahyâ nous a rapporté, d’après Sufyân et Shu‘ba, qui dirent : Habîb nous a rapporté. Muhammad ibn Kathîr nous a également rapporté : Sufyân nous a informés, d’après Habîb, d’après Abû al-‘Abbâs, d’après ‘Abd Allâh ibn ‘Amr, qui dit : « Un homme dit au Prophète ﷺ : “Puis-je partir au combat ?” Il demanda : “As-tu tes deux parents ?” L’homme répondit : “Oui.” Il dit : “Alors, déploie tes efforts auprès d’eux.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6ae6ceef-ce50-4360-ba13-7556467b8183",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5973",
+      "reference": "Sahih al-Bukhari, hadith 5973, book 78, باب لاَ يَسُبُّ الرَّجُلُ وَالِدَيْهِ",
+      "title": "باب لاَ يَسُبُّ الرَّجُلُ وَالِدَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ أَبِيهِ، عَنْ حُمَيْدِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو ـ رضى الله عنهما ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ مِنْ أَكْبَرِ الْكَبَائِرِ أَنْ يَلْعَنَ الرَّجُلُ وَالِدَيْهِ ‏\"‏‏.‏ قِيلَ يَا رَسُولَ اللَّهِ وَكَيْفَ يَلْعَنُ الرَّجُلُ وَالِدَيْهِ قَالَ ‏\"‏ يَسُبُّ الرَّجُلُ أَبَا الرَّجُلِ، فَيَسُبُّ أَبَاهُ، وَيَسُبُّ أَمَّهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "875284ce045652fd3806e6a2b62b803099dc694755695b94076bced32dbfd0d6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Yûnus nous a rapporté : Ibrâhîm ibn Sa‘d nous a rapporté, d’après son père, d’après Humayd ibn ‘Abd ar-Rahmân, d’après ‘Abd Allâh ibn ‘Amr (qu’Allah les agrée tous deux), qui dit que le Messager d’Allah ﷺ a dit : « Parmi les plus grands péchés, il y a le fait qu’un homme maudisse ses parents. » On demanda : « Ô Messager d’Allah, comment un homme peut-il maudire ses parents ? » Il répondit : « Il insulte le père d’un autre homme, et celui-ci insulte alors son père et sa mère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
