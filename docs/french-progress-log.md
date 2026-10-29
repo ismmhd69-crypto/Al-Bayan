@@ -7771,3 +7771,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0129 saves four private French drafts on menstrual blood, urine and intimacy during menstruation.
 - Muslim 291b and 292b contain transmission chains and variant wording without the complete reports. Both remain blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 532 Muslim drafts, 6,868 total hadith drafts, 7,761 remaining, and 269 Needs Mo items.
+
+### 2026-10-29: Muslim 294–297c
+
+- FR-LIB-HAD-MUSLIM-0130 saves six private French drafts on marital intimacy during menstruation and acts during retreat in the mosque.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 538 Muslim drafts, 6,874 total hadith drafts, 7,755 remaining, and 269 Needs Mo items.
