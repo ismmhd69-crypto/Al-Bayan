@@ -10216,3 +10216,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0617 isolates the 2,156-character report and saves one private French draft about the journey to Tabuk, the wind warning, the return to Medina, and the Ansar neighborhoods. The ten awsuq estimate, route events, names, and order are retained.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1392c–1394c
+
+- FR-LIB-HAD-MUSLIM-0618 saves five private French drafts about Mount Uhud and the merits of prayer in the Prophet’s mosque. Muslim 1392c only provides a variant account by reference to the preceding report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
