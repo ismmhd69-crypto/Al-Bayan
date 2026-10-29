@@ -8241,3 +8241,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0223 saves two private French drafts about consulting diviners, omens and greeting during prayer. Muslim 537b, 537d, 537e and 538b contain only incomplete cross-reference or variant wording and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 902 Muslim drafts, 7,238 total hadith drafts, 7,391 remaining, and 432 Needs Mo items.
+
+### 2026-10-29: Muslim 539a–540d
+
+- FR-LIB-HAD-MUSLIM-0224 saves three private French drafts about speaking during prayer and returning greetings while praying. Muslim 539a remains blank because it contains a direct Quran quotation; 539b and 540d contain only an incomplete cross-reference or variant and remain blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 905 Muslim drafts, 7,241 total hadith drafts, 7,388 remaining, and 435 Needs Mo items.

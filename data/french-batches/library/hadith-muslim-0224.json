@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0224",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:37:52.190Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "243a2257-58f6-4126-8690-fc36cf691093",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:539a",
+      "reference": "Sahih Muslim, hadith 539 a, book 5, باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "title": "باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، عَنِ الْحَارِثِ بْنِ شُبَيْلٍ، عَنْ أَبِي عَمْرٍو الشَّيْبَانِيِّ، عَنْ زَيْدِ بْنِ أَرْقَمَ، قَالَ كُنَّا نَتَكَلَّمُ فِي الصَّلاَةِ يُكَلِّمُ الرَّجُلُ صَاحِبَهُ وَهُوَ إِلَى جَنْبِهِ فِي الصَّلاَةِ حَتَّى نَزَلَتْ ‏[quran sura=\"2\" aya_start=\"238\" aya_end=\"238\"]{‏ وَقُومُوا لِلَّهِ قَانِتِينَ‏}‏ فَأُمِرْنَا بِالسُّكُوتِ وَنُهِينَا عَنِ الْكَلاَمِ ‏.‏",
+      "source_hash_sha256": "45cfcf475fe37d4a43d37b3ffa3913d8a54a56567c69ae86247396e887abf8e9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e3cd54f6-6f15-4210-9b65-02206a342334",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:539b",
+      "reference": "Sahih Muslim, hadith 539 b, book 5, باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "title": "باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، وَوَكِيعٌ، ح قَالَ وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، كُلُّهُمْ عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "fd57f82cad50cdea7345f1afd968d73ace6484a42744b6586620dca5c500f952",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8f934cbe-530e-4669-8ec4-ce2bad3c48be",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:540a",
+      "reference": "Sahih Muslim, hadith 540 a, book 5, باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "title": "باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّهُ قَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم بَعَثَنِي لِحَاجَةٍ ثُمَّ أَدْرَكْتُهُ وَهُوَ يَسِيرُ - قَالَ قُتَيْبَةُ يُصَلِّي - فَسَلَّمْتُ عَلَيْهِ فَأَشَارَ إِلَىَّ فَلَمَّا فَرَغَ دَعَانِي فَقَالَ ‏\"‏ إِنَّكَ سَلَّمْتَ آنِفًا وَأَنَا أُصَلِّي ‏\"‏ ‏.‏ وَهُوَ مُوَجِّهٌ حِينَئِذٍ قِبَلَ الْمَشْرِقِ ‏.‏",
+      "source_hash_sha256": "ca66eb627208ec9044b99304b6bfb120f7fcf559be1ab076bc61a9c5cc0d60d4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Layth nous a rapporté. (H) Muhammad ibn Rumh nous a rapporté : al-Layth nous a informés, d’après Abu al-Zubayr, d’après Jabir, qui dit : « Le Messager d’Allah ﷺ m’envoya pour une affaire. Puis je le rejoignis alors qu’il avançait — Qutayba précise : “il priait” — et je le saluai. Il me fit signe. Lorsqu’il eut terminé, il m’appela et dit : “Tu m’as salué tout à l’heure alors que je priais.” À ce moment-là, il était tourné vers l’est.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "515e812f-d124-4bc0-92a6-78b2630d4c4e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:540b",
+      "reference": "Sahih Muslim, hadith 540 b, book 5, باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "title": "باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنِي أَبُو الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ أَرْسَلَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم وَهُوَ مُنْطَلِقٌ إِلَى بَنِي الْمُصْطَلِقِ فَأَتَيْتُهُ وَهُوَ يُصَلِّي عَلَى بَعِيرِهِ فَكَلَّمْتُهُ فَقَالَ لِي بِيَدِهِ هَكَذَا - وَأَوْمَأَ زُهَيْرٌ بِيَدِهِ - ثُمَّ كَلَّمْتُهُ فَقَالَ لِي هَكَذَا - فَأَوْمَأَ زُهَيْرٌ أَيْضًا بِيَدِهِ نَحْوَ الأَرْضِ - وَأَنَا أَسْمَعُهُ يَقْرَأُ يُومِئُ بِرَأْسِهِ فَلَمَّا فَرَغَ قَالَ ‏\"‏ مَا فَعَلْتَ فِي الَّذِي أَرْسَلْتُكَ لَهُ فَإِنَّهُ لَمْ يَمْنَعْنِي أَنْ أُكَلِّمَكَ إِلاَّ أَنِّي كُنْتُ أُصَلِّي ‏\"‏ ‏.‏ قَالَ زُهَيْرٌ وَأَبُو الزُّبَيْرِ جَالِسٌ مُسْتَقْبِلَ الْكَعْبَةِ فَقَالَ بِيَدِهِ أَبُو الزُّبَيْرِ إِلَى بَنِي الْمُصْطَلِقِ فَقَالَ بِيَدِهِ إِلَى غَيْرِ الْكَعْبَةِ ‏.‏",
+      "source_hash_sha256": "35157a7faefb470a215e8b19434a15e13d83c061df309f1d1d448cc7870682ec",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Yunus nous a rapporté : Zuhayr nous a rapporté : Abu al-Zubayr m’a rapporté, d’après Jabir, qui dit : « Le Messager d’Allah ﷺ m’envoya alors qu’il se dirigeait vers les Banu al-Mustaliq. Je le rejoignis alors qu’il priait sur sa monture et je lui parlai. Il me fit ainsi signe de la main. » Zuhayr fit lui aussi ce geste de la main. « Puis je lui parlai de nouveau et il me fit le même signe. » Zuhayr fit encore un geste de la main vers le sol. « Je l’entendais réciter et il faisait signe de la tête. Lorsqu’il eut terminé, il dit : “Qu’en est-il de ce pour quoi je t’avais envoyé ? Je n’ai pu te parler que parce que j’étais en prière.” » Zuhayr dit : Abu al-Zubayr, qui était assis face à la Kaaba, indiqua de la main la direction des Banu al-Mustaliq, puis fit signe dans une direction autre que celle de la Kaaba.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "407a44fc-085b-409b-a84e-7bb7b448aa4d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:540c",
+      "reference": "Sahih Muslim, hadith 540 c, book 5, باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "title": "باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ كَثِيرٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، قَالَ كُنَّا مَعَ النَّبِيِّ صلى الله عليه وسلم فَبَعَثَنِي فِي حَاجَةٍ فَرَجَعْتُ وَهُوَ يُصَلِّي عَلَى رَاحِلَتِهِ وَوَجْهُهُ عَلَى غَيْرِ الْقِبْلَةِ فَسَلَّمْتُ عَلَيْهِ فَلَمْ يَرُدَّ عَلَىَّ فَلَمَّا انْصَرَفَ قَالَ ‏\"‏ إِنَّهُ لَمْ يَمْنَعْنِي أَنْ أَرُدَّ عَلَيْكَ إِلاَّ أَنِّي كُنْتُ أُصَلِّي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c4130750a631288ee3a56e8ae3730bb35ca070efdd573c9e968e29b0ad4e071c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kamil al-Jahdari nous a rapporté : Hammad ibn Zayd nous a rapporté, d’après Kathir, d’après Ata, d’après Jabir, qui dit : « Nous étions avec le Prophète ﷺ lorsqu’il m’envoya pour une affaire. Je revins alors qu’il priait sur sa monture, le visage tourné dans une direction autre que la qibla. Je le saluai, mais il ne me répondit pas. Lorsqu’il eut terminé, il dit : “Je n’ai pu te répondre que parce que j’étais en prière.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "57e9da98-648b-4c71-b267-f76d9d19ec46",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:540d",
+      "reference": "Sahih Muslim, hadith 540 d, book 5, باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "title": "باب تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ وَنَسْخِ مَا كَانَ مِنْ إِبَاحَتِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا مُعَلَّى بْنُ مَنْصُورٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ، حَدَّثَنَا كَثِيرُ بْنُ شِنْظِيرٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، قَالَ بَعَثَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم فِي حَاجَةٍ ‏.‏ بِمَعْنَى حَدِيثِ حَمَّادٍ ‏.‏",
+      "source_hash_sha256": "4314860f70fe09605d2ef2d6d7e98550df260ab98613dc3ab40e8d1e951ad360",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "243a2257-58f6-4126-8690-fc36cf691093",
+      "reason": "Le texte contient une citation directe du Coran (2:238). Conformément à la règle de projet, ne pas fournir de traduction française de ce verset avant validation d’une traduction autorisée ; garder tout le récit en attente."
+    },
+    {
+      "source_id": "e3cd54f6-6f15-4210-9b65-02206a342334",
+      "reason": "La source ne donne que la chaîne de transmission et renvoie à une version précédente (« de même sens »), sans reprendre le récit. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "57e9da98-648b-4c71-b267-f76d9d19ec46",
+      "reason": "La source ne donne que la chaîne de transmission et indique qu’elle rapporte le sens du hadith de Hammad, sans reprendre le récit complet. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
