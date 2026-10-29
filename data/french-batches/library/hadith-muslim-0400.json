@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0400",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:56:16.656Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "699d1a3c-b736-499a-b7d3-9608091eda51",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:938c",
+      "reference": "Sahih Muslim, hadith 938 c, book 18, باب وُجُوبِ الإِحْدَادِ فِي عِدَّةِ الْوَفَاةِ وَتَحْرِيمِهِ فِي غَيْرِ ذَلِكَ إِلاَّ ثَلاَثَةَ أَيَّامٍ",
+      "title": "باب وُجُوبِ الإِحْدَادِ فِي عِدَّةِ الْوَفَاةِ وَتَحْرِيمِهِ فِي غَيْرِ ذَلِكَ إِلاَّ ثَلاَثَةَ أَيَّامٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا حَسَنُ بْنُ الرَّبِيعِ، حَدَّثَنَا ابْنُ إِدْرِيسَ، عَنْ هِشَامٍ، عَنْ حَفْصَةَ، عَنْ أُمِّ عَطِيَّةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تُحِدُّ امْرَأَةٌ عَلَى مَيِّتٍ فَوْقَ ثَلاَثٍ إِلاَّ عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا وَلاَ تَلْبَسُ ثَوْبًا مَصْبُوغًا إِلاَّ ثَوْبَ عَصْبٍ وَلاَ تَكْتَحِلُ وَلاَ تَمَسُّ طِيبًا إِلاَّ إِذَا طَهُرَتْ نُبْذَةً مِنْ قُسْطٍ أَوْ أَظْفَارٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "df599268d8e5edeaab159472263a1d0da2a86c032a581b7096b122ac8162edbc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hasan ibn al-Rabi‘ nous a rapporté : Ibn Idris nous a rapporté, d’après Hisham, d’après Hafsa, d’après Umm ‘Atiyya : le Messager d’Allah ﷺ a dit : « Qu’une femme ne porte pas le deuil d’un mort plus de trois jours, sauf pour son mari : quatre mois et dix jours. Qu’elle ne porte pas de vêtement teint, à l’exception d’un tissu ‘asbi. Qu’elle ne mette pas de khôl et ne se parfume pas. Lorsqu’elle est purifiée, qu’elle utilise un peu de kust ou d’azfar. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "33cf4d07-8363-41bb-bce5-2424b90bec85",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:938d",
+      "reference": "Sahih Muslim, hadith 938 d, book 18, باب وُجُوبِ الإِحْدَادِ فِي عِدَّةِ الْوَفَاةِ وَتَحْرِيمِهِ فِي غَيْرِ ذَلِكَ إِلاَّ ثَلاَثَةَ أَيَّامٍ",
+      "title": "باب وُجُوبِ الإِحْدَادِ فِي عِدَّةِ الْوَفَاةِ وَتَحْرِيمِهِ فِي غَيْرِ ذَلِكَ إِلاَّ ثَلاَثَةَ أَيَّامٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، ح وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، كِلاَهُمَا عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ وَقَالاَ ‏\"‏ عِنْدَ أَدْنَى طُهْرِهَا نُبْذَةً مِنْ قُسْطٍ وَأَظْفَارٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2f5fc21c1391a07f8d5101340ac83750b58f7c0d83fcc0b714ca5428015c5acf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1908ea0c-4121-4578-a0fb-1536b501545d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:938e",
+      "reference": "Sahih Muslim, hadith 938 e, book 18, باب وُجُوبِ الإِحْدَادِ فِي عِدَّةِ الْوَفَاةِ وَتَحْرِيمِهِ فِي غَيْرِ ذَلِكَ إِلاَّ ثَلاَثَةَ أَيَّامٍ",
+      "title": "باب وُجُوبِ الإِحْدَادِ فِي عِدَّةِ الْوَفَاةِ وَتَحْرِيمِهِ فِي غَيْرِ ذَلِكَ إِلاَّ ثَلاَثَةَ أَيَّامٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا أَيُّوبُ، عَنْ حَفْصَةَ، عَنْ أُمِّ عَطِيَّةَ، قَالَتْ كُنَّا نُنْهَى أَنْ نُحِدَّ عَلَى مَيِّتٍ فَوْقَ ثَلاَثٍ إِلاَّ عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا وَلاَ نَكْتَحِلُ وَلاَ نَتَطَيَّبُ وَلاَ نَلْبَسُ ثَوْبًا مَصْبُوغًا وَقَدْ رُخِّصَ لِلْمَرْأَةِ فِي طُهْرِهَا إِذَا اغْتَسَلَتْ إِحْدَانَا مِنْ مَحِيضِهَا فِي نُبْذَةٍ مِنْ قُسْطٍ وَأَظْفَارٍ ‏.‏",
+      "source_hash_sha256": "a9ed12b31ab5fc14c8d8bada4efd6e5f1ec6f2c2508b137df484d66f4ed1459c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Rabi‘ al-Zahrani nous a rapporté : Hammad nous a rapporté : Ayyub nous a rapporté, d’après Hafsa, d’après Umm ‘Atiyya, qui a dit : « Il nous était interdit de porter le deuil d’un mort plus de trois jours, sauf pour un mari : quatre mois et dix jours. Nous ne devions ni mettre de khôl, ni nous parfumer, ni porter de vêtement teint. Il fut toutefois permis à une femme, lorsqu’elle était purifiée et que l’une de nous se lavait après ses règles, d’utiliser un peu de kust et d’azfar. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2b77674d-0df5-4775-8f1a-915f0062f2ef",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939a",
+      "reference": "Sahih Muslim, hadith 939 a, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا يَزِيدُ بْنُ زُرَيْعٍ، عَنْ أَيُّوبَ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، عَنْ أُمِّ عَطِيَّةَ، قَالَتْ دَخَلَ عَلَيْنَا النَّبِيُّ صلى الله عليه وسلم وَنَحْنُ نَغْسِلُ ابْنَتَهُ فَقَالَ ‏\"‏ اغْسِلْنَهَا ثَلاَثًا أَوْ خَمْسًا أَوْ أَكْثَرَ مِنْ ذَلِكَ إِنْ رَأَيْتُنَّ ذَلِكَ بِمَاءٍ وَسِدْرٍ وَاجْعَلْنَ فِي الآخِرَةِ كَافُورًا أَوْ شَيْئًا مِنْ كَافُورٍ فَإِذَا فَرَغْتُنَّ فَآذِنَّنِي ‏\"‏ ‏.‏ فَلَمَّا فَرَغْنَا آذَنَّاهُ فَأَلْقَى إِلَيْنَا حِقْوَهُ فَقَالَ ‏\"‏ أَشْعِرْنَهَا إِيَّاهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ea2933c73c169900eb28e5560a609d8a190f3d4242cecc1ead7947e7c4177cc9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Yazid ibn Zuray‘ nous a informés, d’après Ayyub, d’après Muhammad ibn Sirin, d’après Umm ‘Atiyya, qui a dit : « Le Prophète ﷺ entra auprès de nous alors que nous lavions sa fille. Il dit : “Lavez-la trois fois, cinq fois, ou davantage si vous le jugez nécessaire, avec de l’eau et du jujubier. Mettez du camphre — ou un peu de camphre — dans le dernier lavage. Lorsque vous aurez terminé, informez-moi.” Quand nous eûmes terminé, nous l’en informâmes. Il nous tendit alors son izar et dit : “Enveloppez-la avec.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "503447d5-e761-4e01-84d6-839249a80ae0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939b",
+      "reference": "Sahih Muslim, hadith 939 b, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا يَزِيدُ بْنُ زُرَيْعٍ، عَنْ أَيُّوبَ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، عَنْ حَفْصَةَ بِنْتِ سِيرِينَ، عَنْ أُمِّ عَطِيَّةَ، قَالَتْ مَشَطْنَاهَا ثَلاَثَةَ قُرُونٍ ‏.‏",
+      "source_hash_sha256": "deba577f76a2e3c694cba664a1dbdf97e5c28ce98d43be0f0cad481d74e17d7a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "16e59523-f3bf-4dd8-9d1a-8f5cb1b53b39",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:939c",
+      "reference": "Sahih Muslim, hadith 939 c, book 11, باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "title": "باب فِي غَسْلِ الْمَيِّتِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، ح وَحَدَّثَنَا أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، وَقُتَيْبَةُ، بْنُ سَعِيدٍ قَالاَ حَدَّثَنَا حَمَّادٌ، ح وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، حَدَّثَنَا ابْنُ عُلَيَّةَ، كُلُّهُمْ عَنْ أَيُّوبَ، عَنْ مُحَمَّدٍ، عَنْ أُمِّ عَطِيَّةَ، قَالَتْ تُوُفِّيَتْ إِحْدَى بَنَاتِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَفِي حَدِيثِ ابْنِ عُلَيَّةَ قَالَتْ أَتَانَا رَسُولُ اللَّهِ صلى الله عليه وسلم وَنَحْنُ نَغْسِلُ ابْنَتَهُ ‏.‏ وَفِي حَدِيثِ مَالِكٍ قَالَتْ دَخَلَ عَلَيْنَا رَسُولُ اللَّهِ صلى الله عليه وسلم حِينَ تُوُفِّيَتِ ابْنَتُهُ ‏.‏ بِمِثْلِ حَدِيثِ يَزِيدَ بْنِ زُرَيْعٍ عَنْ أَيُّوبَ عَنْ مُحَمَّدٍ عَنْ أُمِّ عَطِيَّةَ ‏.‏",
+      "source_hash_sha256": "5b06d0498124ccdfc55c884a4c8b5cf4d52f8e63a739a96c68d15d03f1a59aab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "33cf4d07-8363-41bb-bce5-2424b90bec85",
+      "reason": "La source ne donne qu’une variante de formulation du récit précédent, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral."
+    },
+    {
+      "source_id": "503447d5-e761-4e01-84d6-839249a80ae0",
+      "reason": "La source ne rapporte qu’un détail isolé d’un récit précédent, sans son contexte ni le texte complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "16e59523-f3bf-4dd8-9d1a-8f5cb1b53b39",
+      "reason": "La source rapporte seulement des variantes de chaîne et renvoie au récit précédent, sans en reprendre le contenu intégral. Garder la traduction française vide jusqu’à disponibilité du texte complet."
+    }
+  ]
+}
