@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-1308",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:54:32.563Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "72858112-130f-4129-82fa-2ed83f6417ea",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7168",
+      "reference": "Sahih al-Bukhari, hadith 7168, book 93, بَابُ مَنْ حَكَمَ فِي الْمَسْجِدِ حَتَّى إِذَا أَتَى عَلَى حَدٍّ أَمَرَ أَنْ يُخْرَجَ مِنَ الْمَسْجِدِ فَيُقَامَ",
+      "title": "بَابُ مَنْ حَكَمَ فِي الْمَسْجِدِ حَتَّى إِذَا أَتَى عَلَى حَدٍّ أَمَرَ أَنْ يُخْرَجَ مِنَ الْمَسْجِدِ فَيُقَامَ",
+      "source_published": true,
+      "text_original": "قَالَ ابْنُ شِهَابٍ فَأَخْبَرَنِي مَنْ، سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، قَالَ كُنْتُ فِيمَنْ رَجَمَهُ بِالْمُصَلَّى‏.‏ رَوَاهُ يُونُسُ وَمَعْمَرٌ وَابْنُ جُرَيْجٍ عَنِ الزُّهْرِيِّ عَنْ أَبِي سَلَمَةَ عَنْ جَابِرٍ عَنِ النَّبِيِّ صلى الله عليه وسلم فِي الرَّجْمِ‏.‏",
+      "source_hash_sha256": "44fc613691f43425d5eef0238cde455da96bf0f9e51b8cd1e74de51df49852f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Shihâb a dit : Quelqu’un qui avait entendu Jâbir ibn ‘Abd Allah m’a rapporté : « J’étais parmi ceux qui le lapidèrent à al-Musallâ. » Yûnus, Ma‘mar et Ibn Jurayj l’ont rapporté d’après al-Zuhrî, d’après Abû Salama, d’après Jâbir, d’après le Prophète ﷺ, au sujet de la lapidation.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "89c9abd1-a976-42cf-afa6-5ffcdc4b783b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7169",
+      "reference": "Sahih al-Bukhari, hadith 7169, book 93, باب مَوْعِظَةِ الإِمَامِ لِلْخُصُومِ",
+      "title": "باب مَوْعِظَةِ الإِمَامِ لِلْخُصُومِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ زَيْنَبَ ابْنَةِ أَبِي سَلَمَةَ، عَنْ أُمِّ سَلَمَةَ ـ رضى الله عنها ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّمَا أَنَا بَشَرٌ، وَإِنَّكُمْ تَخْتَصِمُونَ إِلَىَّ، وَلَعَلَّ بَعْضَكُمْ أَنْ يَكُونَ أَلْحَنَ بِحُجَّتِهِ مِنْ بَعْضٍ فَأَقْضِي نَحْوَ مَا أَسْمَعُ، فَمَنْ قَضَيْتُ لَهُ بِحَقِّ أَخِيهِ شَيْئًا فَلاَ يَأْخُذْهُ، فَإِنَّمَا أَقْطَعُ لَهُ قِطْعَةً مِنَ النَّارِ ‏\"‏‏.‏",
+      "source_hash_sha256": "344f39e3bdbf2d231e808da2115a9efef0582a28ac7f8b22460abf83f3357ecd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Maslama nous a rapporté, d’après Mâlik, d’après Hishâm, d’après son père, d’après Zaynab bint Abî Salama, d’après Umm Salama (qu’Allah l’agrée), que le Messager d’Allah ﷺ a dit : « Je ne suis qu’un être humain, et vous venez plaider vos différends devant moi. Il se peut que l’un d’entre vous soit plus habile à présenter ses arguments que l’autre et que je rende mon jugement selon ce que j’entends. Si j’accorde à l’un de vous une part du droit de son frère, qu’il ne la prenne pas, car je ne lui accorde ainsi qu’un morceau de Feu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6033,
+    "hadithBukhariDrafted": 6035,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6033,
+    "hadithLocalDrafted": 6035,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8596,
+    "hadithLocalRemaining": 8594,
     "hadithNeedsMo": 850,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -27629,6 +27629,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1308",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1308.json",
+      "sourceIds": [
+        "72858112-130f-4129-82fa-2ed83f6417ea",
+        "89c9abd1-a976-42cf-afa6-5ffcdc4b783b"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "two complete drafts; source hashes retained; unnamed intermediary preserved in 7168; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31119,9 +31136,9 @@
       "reason": "The source cuts off after an opening quotation mark. Keep the complete French translation blank pending confirmation of the complete report."
     }
   ],
-  "hadithBukhariDrafted": 6033,
-  "hadithLocalDrafted": 6033,
-  "hadithLocalRemaining": 8596,
+  "hadithBukhariDrafted": 6035,
+  "hadithLocalDrafted": 6035,
+  "hadithLocalRemaining": 8594,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
