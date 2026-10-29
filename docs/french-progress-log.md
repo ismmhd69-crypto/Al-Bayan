@@ -7062,3 +7062,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1374 saves 5 private French drafts. Hadith 7513 directly quotes Quran 6:91; its complete translation remains blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,304 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 155. Total local hadith rows not drafted: 8,325, including held records.
+
+### 2026-10-29: Bukhari 7517
+
+- FR-LIB-HAD-BUKHARI-1375 saves 1 private French drafts. Hadith 7517 is a long account of the Night Journey. The French draft preserves its full sequence, the narrator No database writes or publication occurred.
+- All 1 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,305 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 155. Total local hadith rows not drafted: 8,324, including held records.
