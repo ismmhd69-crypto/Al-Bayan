@@ -2621,3 +2621,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-541` saves six private French drafts about horses, the fall of the Persian and Roman empires, and a prophet’s expedition and distribution of spoils.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,816 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,839, including held records.
+
+### 2026-10-29: Bukhari 3125–3128
+
+- `FR-LIB-HAD-BUKHARI-542` saves four private French drafts about the distribution of conquered land, intention in battle, garments set aside for a companion, and the return of donated palm trees.
+- All four records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,820 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 175. Total local hadith rows not drafted: 11,835, including held records.

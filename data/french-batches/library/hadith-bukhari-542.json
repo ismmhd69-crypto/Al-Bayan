@@ -1,0 +1,111 @@
+{
+  "batch_id": "HADITH-BUKHARI-542",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:41:51.782Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "48f570f7-fd95-476f-bd8c-e04b9c39902b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3125",
+      "reference": "Sahih al-Bukhari, hadith 3125, book 57, باب الْغَنِيمَةُ لِمَنْ شَهِدَ الْوَقْعَةَ",
+      "title": "باب الْغَنِيمَةُ لِمَنْ شَهِدَ الْوَقْعَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا صَدَقَةُ، أَخْبَرَنَا عَبْدُ الرَّحْمَنِ، عَنْ مَالِكٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ أَبِيهِ، قَالَ قَالَ عُمَرُ ـ رضى الله عنه لَوْلاَ آخِرُ الْمُسْلِمِينَ مَا فَتَحْتُ قَرْيَةً إِلاَّ قَسَمْتُهَا بَيْنَ أَهْلِهَا كَمَا قَسَمَ النَّبِيُّ صلى الله عليه وسلم خَيْبَرَ‏.‏",
+      "source_hash_sha256": "13def6757e15c13a441e441a2437f192a8911583bf5f7fbc45b19643802d972f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Sadaqa, ‘Abd al-Rahmân, Mâlik, Zayd ibn Aslam et son père. ‘Umar dit : « Si je n’avais pas à penser aux musulmans qui viendront après nous, je n’aurais pris aucune ville sans en partager les terres entre ses habitants, comme le Prophète partagea Khaybar. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4434be3e-dc35-4ff8-b39b-a14660ae2027",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3126",
+      "reference": "Sahih al-Bukhari, hadith 3126, book 57, باب مَنْ قَاتَلَ لِلْمَغْنَمِ هَلْ يَنْقُصُ مِنْ أَجْرِه",
+      "title": "باب مَنْ قَاتَلَ لِلْمَغْنَمِ هَلْ يَنْقُصُ مِنْ أَجْرِه",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرٍو، قَالَ سَمِعْتُ أَبَا وَائِلٍ، قَالَ حَدَّثَنَا أَبُو مُوسَى الأَشْعَرِيُّ ـ رضى الله عنه ـ قَالَ قَالَ أَعْرَابِيٌّ لِلنَّبِيِّ صلى الله عليه وسلم الرَّجُلُ يُقَاتِلُ لِلْمَغْنَمِ، وَالرَّجُلُ يُقَاتِلُ لِيُذْكَرَ، وَيُقَاتِلُ لِيُرَى مَكَانُهُ، مَنْ فِي سَبِيلِ اللَّهِ فَقَالَ ‏\"‏ مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اللَّهِ هِيَ الْعُلْيَا فَهْوَ فِي سَبِيلِ اللَّهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "af19ef9aa6a50b9f6204d221d0a7e3b75def1047103d1487ce5abc694d3fa187",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Bashshâr, Ghundar, Shu‘ba, ‘Amr, Abû Wâ’il et Abû Mûsâ al-Ash‘arî. Un Bédouin demanda au Prophète : « Il y a un homme qui combat pour le butin, un autre pour qu’on parle de lui et un autre pour montrer sa valeur. Lequel combat dans la voie d’Allah ? » Il répondit : « Celui qui combat afin que la parole d’Allah soit la plus élevée combat dans la voie d’Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "80ed8d85-1c86-495e-a5d8-a61e7c91b793",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3127",
+      "reference": "Sahih al-Bukhari, hadith 3127, book 57, باب قِسْمَةِ الإِمَامِ مَا يَقْدَمُ عَلَيْهِ، وَيَخْبَأُ لِمَنْ لَمْ يَحْضُرْهُ أَوْ غَابَ عَنْهُ",
+      "title": "باب قِسْمَةِ الإِمَامِ مَا يَقْدَمُ عَلَيْهِ، وَيَخْبَأُ لِمَنْ لَمْ يَحْضُرْهُ أَوْ غَابَ عَنْهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الْوَهَّابِ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي مُلَيْكَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم أُهْدِيَتْ لَهُ أَقْبِيَةٌ مِنْ دِيبَاجٍ مُزَرَّرَةٌ بِالذَّهَبِ، فَقَسَمَهَا فِي نَاسٍ مِنْ أَصْحَابِهِ، وَعَزَلَ مِنْهَا وَاحِدًا لِمَخْرَمَةَ بْنِ نَوْفَلٍ، فَجَاءَ وَمَعَهُ ابْنُهُ الْمِسْوَرُ بْنُ مَخْرَمَةَ، فَقَامَ عَلَى الْبَابِ فَقَالَ ادْعُهُ لِي‏.‏ فَسَمِعَ النَّبِيُّ صلى الله عليه وسلم صَوْتَهُ فَأَخَذَ قَبَاءً فَتَلَقَّاهُ بِهِ وَاسْتَقْبَلَهُ بِأَزْرَارِهِ فَقَالَ ‏\"‏ يَا أَبَا الْمِسْوَرِ، خَبَأْتُ هَذَا لَكَ، يَا أَبَا الْمِسْوَرِ، خَبَأْتُ هَذَا لَكَ ‏\"‏‏.‏ وَكَانَ فِي خُلُقِهِ شِدَّةٌ‏.‏ وَرَوَاهُ ابْنُ عُلَيَّةَ عَنْ أَيُّوبَ‏.‏ قَالَ حَاتِمُ بْنُ وَرْدَانَ حَدَّثَنَا أَيُّوبُ عَنِ ابْنِ أَبِي مُلَيْكَةَ عَنِ الْمِسْوَرِ قَدِمَتْ عَلَى النَّبِيِّ صلى الله عليه وسلم أَقْبِيَةٌ‏.‏ تَابَعَهُ اللَّيْثُ عَنِ ابْنِ أَبِي مُلَيْكَةَ‏.‏",
+      "source_hash_sha256": "917caca6bcedc4135887f5766b155da15b0f544907aed05a4141b862b05b9189",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allah ibn ‘Abd al-Wahhâb, Hammâd ibn Zayd, Ayyûb et ‘Abd Allah ibn Abî Mulayka. On offrit au Prophète des manteaux de brocart de soie ornés de boutons en or. Il en distribua à certains de ses compagnons et en mit un de côté pour Makhrama ibn Nawfal. Celui-ci arriva avec son fils, al-Miswar ibn Makhrama, et se tint à la porte en disant : « Fais-le appeler pour moi. » Le Prophète entendit sa voix, prit un manteau et alla à sa rencontre en le tenant par ses boutons. Il dit : « Ô Abû al-Miswar, j’ai gardé celui-ci pour toi. Ô Abû al-Miswar, j’ai gardé celui-ci pour toi. » Makhrama avait un caractère brusque. Ibn ‘Ulayya rapporte également ce récit d’après Ayyûb. Hâtim ibn Wardân rapporte, d’après Ayyûb et Ibn Abî Mulayka, d’après al-Miswar : « Des manteaux furent apportés au Prophète. » Al-Layth rapporte également ce récit d’après Ibn Abî Mulayka.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8c461efe-40f0-4202-bd68-ed547270c4ce",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3128",
+      "reference": "Sahih al-Bukhari, hadith 3128, book 57, باب كَيْفَ قَسَمَ النَّبِيُّ صلى الله عليه وسلم قُرَيْظَةَ وَالنَّضِيرَ، وَمَا أَعْطَى مِنْ ذَلِكَ فِي نَوَائِبِهِ",
+      "title": "باب كَيْفَ قَسَمَ النَّبِيُّ صلى الله عليه وسلم قُرَيْظَةَ وَالنَّضِيرَ، وَمَا أَعْطَى مِنْ ذَلِكَ فِي نَوَائِبِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ أَبِي الأَسْوَدِ، حَدَّثَنَا مُعْتَمِرٌ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ أَنَسَ بْنَ مَالِكٍ ـ رضى الله عنه ـ يَقُولُ كَانَ الرَّجُلُ يَجْعَلُ لِلنَّبِيِّ صلى الله عليه وسلم النَّخَلاَتِ حَتَّى افْتَتَحَ قُرَيْظَةَ وَالنَّضِيرَ، فَكَانَ بَعْدَ ذَلِكَ يَرُدُّ عَلَيْهِمْ‏.‏",
+      "source_hash_sha256": "57f5c6ce2970773a4516e1ed2fe8cfe850850564c98649d22ca06a622b6e5632",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allah ibn Abî al-Aswad, Mu‘tamir et son père, qui dit avoir entendu Anas ibn Mâlik. Celui-ci dit : « Un homme avait donné quelques palmiers au Prophète. Après la conquête des Banû Qurayza et des Banû al-Nadîr, le Prophète les lui rendit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
