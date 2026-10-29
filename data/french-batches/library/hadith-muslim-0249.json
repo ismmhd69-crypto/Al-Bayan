@@ -1,0 +1,148 @@
+{
+  "batch_id": "HADITH-MUSLIM-0249",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:48:08.308Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "bb7bc305-2feb-436e-b9a6-8395ae8d0e31",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:593i",
+      "reference": "Sahih Muslim, hadith 593 i, book 30, باب النَّهْيِ عَنْ كَثْرَةِ الْمَسَائِلِ مِنْ غَيْرِ حَاجَةٍ وَالنَّهْيِ عَنْ مَنْعٍ وَهَاتٍ وَهُوَ الاِمْتِنَاعُ مِنْ أَدَاءِ حَقٍّ لَزِمَهُ أَوْ طَلَبُ مَا لاَ يَسْتَحِقُّهُ",
+      "title": "باب النَّهْيِ عَنْ كَثْرَةِ الْمَسَائِلِ مِنْ غَيْرِ حَاجَةٍ وَالنَّهْيِ عَنْ مَنْعٍ وَهَاتٍ وَهُوَ الاِمْتِنَاعُ مِنْ أَدَاءِ حَقٍّ لَزِمَهُ أَوْ طَلَبُ مَا لاَ يَسْتَحِقُّهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا مَرْوَانُ بْنُ مُعَاوِيَةَ الْفَزَارِيُّ، عَنْ مُحَمَّدِ بْنِ سُوقَةَ، أَخْبَرَنَا مُحَمَّدُ بْنُ عُبَيْدِ اللَّهِ الثَّقَفِيُّ، عَنْ وَرَّادٍ، قَالَ كَتَبَ الْمُغِيرَةُ إِلَى مُعَاوِيَةَ سَلاَمٌ عَلَيْكَ أَمَّا بَعْدُ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ اللَّهَ حَرَّمَ ثَلاَثًا وَنَهَى عَنْ ثَلاَثٍ حَرَّمَ عُقُوقَ الْوَالِدِ وَوَأْدَ الْبَنَاتِ وَلاَ وَهَاتِ ‏.‏ وَنَهَى عَنْ ثَلاَثٍ قِيلٍ وَقَالٍ وَكَثْرَةِ السُّؤَالِ وَإِضَاعَةِ الْمَالِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7d02c98ebc680df53fec1a95409148522bd11b75e6dd93256514c90c5a13591c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abi Umar nous a rapporté : Marwan ibn Muawiya al-Fazari nous a rapporté, d’après Muhammad ibn Suqa, qui dit : Muhammad ibn Ubaydullah al-Thaqafi nous a rapporté, d’après Warrad, qui dit : « Al-Mughira écrivit à Muawiya : “Paix sur toi. Ensuite, j’ai entendu le Messager d’Allah ﷺ dire : ‘Allah a interdit trois choses et en a défendu trois autres : Il a interdit de maltraiter ses parents, d’enterrer ses filles vivantes et de refuser un droit dû tout en réclamant ce à quoi l’on n’a pas droit. Il a défendu trois choses : les on-dit, les demandes excessives et le gaspillage des biens.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "179c7578-b39d-4d14-a47d-5071075d1d27",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:594a",
+      "reference": "Sahih Muslim, hadith 594 a, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا هِشَامٌ، عَنْ أَبِي الزُّبَيْرِ، قَالَ كَانَ ابْنُ الزُّبَيْرِ يَقُولُ فِي دُبُرِ كُلِّ صَلاَةٍ حِينَ يُسَلِّمُ ‏\"‏ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ لاَ إِلَهَ إِلاَّ اللَّهُ وَلاَ نَعْبُدُ إِلاَّ إِيَّاهُ لَهُ النِّعْمَةُ وَلَهُ الْفَضْلُ وَلَهُ الثَّنَاءُ الْحَسَنُ لاَ إِلَهَ إِلاَّ اللَّهُ مُخْلِصِينَ لَهُ الدِّينَ وَلَوْ كَرِهَ الْكَافِرُونَ ‏\"‏ ‏.‏ وَقَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُهَلِّلُ بِهِنَّ دُبُرَ كُلِّ صَلاَةٍ ‏.‏",
+      "source_hash_sha256": "d611abd0662f94148ffdf7fc0935db6ae3366405d4c06a39cc1b3e469451362c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Abdullah ibn Numayr nous a rapporté : mon père nous a rapporté : Hisham nous a rapporté, d’après Abu al-Zubayr, qui dit : « Après chaque prière, une fois le salut final prononcé, Ibn al-Zubayr disait : “Il n’y a de divinité qu’Allah, Seul, sans associé. À Lui appartiennent la royauté et la louange, et Il est capable de toute chose. Il n’y a de force ni de puissance qu’en Allah. Il n’y a de divinité qu’Allah, et nous n’adorons que Lui. À Lui appartiennent les bienfaits, la grâce et la belle louange. Il n’y a de divinité qu’Allah. Nous Lui vouons un culte sincère, même si les mécréants le détestent.” » Il dit : « Le Messager d’Allah ﷺ répétait ces paroles après chaque prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "049fb6a3-f56f-4d26-befa-f88962c7b502",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:594b",
+      "reference": "Sahih Muslim, hadith 594 b, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِي الزُّبَيْرِ، مَوْلًى لَهُمْ أَنَّ عَبْدَ اللَّهِ بْنَ الزُّبَيْرِ، كَانَ يُهَلِّلُ دُبُرَ كُلِّ صَلاَةٍ ‏.‏ بِمِثْلِ حَدِيثِ ابْنِ نُمَيْرٍ وَقَالَ فِي آخِرِهِ ثُمَّ يَقُولُ ابْنُ الزُّبَيْرِ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُهَلِّلُ بِهِنَّ دُبُرَ كُلِّ صَلاَةٍ ‏.‏",
+      "source_hash_sha256": "28d64bdd44d9e1f49136d0cd5bbc213175d111649eed2892b7df6c63d7d91894",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "28c16101-105e-4dbe-a647-316344061c80",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:594c",
+      "reference": "Sahih Muslim, hadith 594 c, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي يَعْقُوبُ بْنُ إِبْرَاهِيمَ الدَّوْرَقِيُّ، حَدَّثَنَا ابْنُ عُلَيَّةَ، حَدَّثَنَا الْحَجَّاجُ بْنُ أَبِي عُثْمَانَ، حَدَّثَنِي أَبُو الزُّبَيْرِ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ الزُّبَيْرِ، يَخْطُبُ عَلَى هَذَا الْمِنْبَرِ وَهُوَ يَقُولُ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقُولُ إِذَا سَلَّمَ فِي دُبُرِ الصَّلاَةِ أَوِ الصَّلَوَاتِ ‏.‏ فَذَكَرَ بِمِثْلِ حَدِيثِ هِشَامِ بْنِ عُرْوَةَ ‏.‏",
+      "source_hash_sha256": "406e5653c90ccdb06f94a870aaf4b9a003ab8ead25e7e857b62b6816d9551d8a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "acb1b011-bc73-4601-a78d-45a565b86245",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:594e",
+      "reference": "Sahih Muslim, hadith 594 e, book 5, باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "title": "باب اسْتِحْبَابِ الذِّكْرِ بَعْدَ الصَّلاَةِ وَبَيَان صِفَتِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ سَلَمَةَ الْمُرَادِيُّ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، عَنْ يَحْيَى بْنِ عَبْدِ اللَّهِ بْنِ سَالِمٍ، عَنْ مُوسَى بْنِ عُقْبَةَ، أَنَّ أَبَا الزُّبَيْرِ الْمَكِّيَّ، حَدَّثَهُ أَنَّهُ، سَمِعَ عَبْدَ اللَّهِ بْنَ الزُّبَيْرِ، وَهُوَ يَقُولُ فِي إِثْرِ الصَّلاَةِ إِذَا سَلَّمَ ‏.‏ بِمِثْلِ حَدِيثِهِمَا وَقَالَ فِي آخِرِهِ وَكَانَ يَذْكُرُ ذَلِكَ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "d12519964f24a524d4838878822fb20ba0b57c37ac9d9ad687b0e150d6c11932",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "049fb6a3-f56f-4d26-befa-f88962c7b502",
+      "reason": "La source ne reprend pas les paroles complètes de l’invocation et renvoie seulement à une version précédente. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "28c16101-105e-4dbe-a647-316344061c80",
+      "reason": "La source ne reprend pas les paroles complètes de l’invocation et renvoie seulement à une version précédente. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "acb1b011-bc73-4601-a78d-45a565b86245",
+      "reason": "La source ne reprend pas les paroles complètes de l’invocation et renvoie seulement à une version précédente. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
