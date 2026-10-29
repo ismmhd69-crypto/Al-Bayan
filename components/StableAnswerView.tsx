@@ -67,7 +67,7 @@ export function StableAnswerView({ state, language, text, working, reconnecting,
     let frame = 0, last = performance.now(), carry = 0;
     const tick = (now: number) => {
       carry += now - last; last = now;
-      const advance = Math.floor(carry / 19); carry %= 19;
+      const advance = Math.floor(carry / 9.5); carry %= 9.5;
       if (advance) setCounts(previous => { const next = { ...previous, [current]: Math.min(totals[current] ?? 0, (previous[current] ?? 0) + advance) }; memory.set(key, next); return next; });
       if ((countRef.current[current] ?? 0) < (totals[current] ?? 0)) frame = requestAnimationFrame(tick);
     };
