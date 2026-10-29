@@ -9261,3 +9261,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0426 saves four private French drafts on zakat collection, wealth, and charitable spending. Muslim 990b and 991b are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1671 Muslim drafts, 8007 total hadith drafts, 6622 remaining, and 785 Needs Mo items.
+
+### 2026-10-29: Muslim 992b–996
+
+- FR-LIB-HAD-MUSLIM-0427 saves six private French drafts on wealth, generosity, family support, and dependants’ rights.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1677 Muslim drafts, 8013 total hadith drafts, 6616 remaining, and 785 Needs Mo items.
