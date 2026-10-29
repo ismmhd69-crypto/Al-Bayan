@@ -1076,3 +1076,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-224` saves six private French drafts for Bukhari 1289–1294. They preserve the reports concerning mourning, the variations in wording across narrations, the funeral of Jabir’s father, and the prohibition of pre-Islamic mourning practices.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,190 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 62. Total local hadith rows not drafted: 13,439, including held records.
+### 2026-10-29: Bukhari 1295–1300 source review
+
+- `FR-LIB-HAD-BUKHARI-225` saves six private French drafts for Bukhari 1295–1300. They preserve the detailed bequest discussion, the reports about mourning practices, and the Prophet’s grief after the readers of the Quran were killed.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,196 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 62. Total local hadith rows not drafted: 13,433, including held records.
