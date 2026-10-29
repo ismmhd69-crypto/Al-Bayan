@@ -1,0 +1,167 @@
+{
+  "batch_id": "HADITH-BUKHARI-1211",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:55:26.125Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "813dc4d2-514f-4814-afb7-3c3fbe1cd78d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6592",
+      "reference": "Sahih al-Bukhari, hadith 6592, book 81, باب فِي الْحَوْضِ",
+      "title": "باب فِي الْحَوْضِ",
+      "source_published": true,
+      "text_original": "وَزَادَ ابْنُ أَبِي عَدِيٍّ عَنْ شُعْبَةَ، عَنْ مَعْبَدِ بْنِ خَالِدٍ، عَنْ حَارِثَةَ، سَمِعَ النَّبِيَّ صلى الله عليه وسلم قَوْلَهُ حَوْضُهُ مَا بَيْنَ صَنْعَاءَ وَالْمَدِينَةِ‏.‏ فَقَالَ لَهُ الْمُسْتَوْرِدُ أَلَمْ تَسْمَعْهُ قَالَ الأَوَانِي‏.‏ قَالَ لاَ‏.‏ قَالَ الْمُسْتَوْرِدُ تُرَى فِيهِ الآنِيَةُ مِثْلَ الْكَوَاكِبِ‏.‏",
+      "source_hash_sha256": "e0d43c240388b7e263c41eff22cfdb28ed3c816eeea796ef30ca2e64b997f36b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abî ‘Adî ajoute, d’après Shu‘ba, d’après Ma‘bad ibn Khâlid, d’après Hâritha, qui a entendu le Prophète ﷺ dire que son Bassin s’étendait entre San‘â’ et Médine. Al-Mustawrid lui demanda : « Ne l’as-tu pas entendu parler des récipients ? » Il répondit : « Non. » Al-Mustawrid dit : « On y voit des récipients semblables aux étoiles. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9609ec85-0113-4224-a20b-e912eff4b701",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6593",
+      "reference": "Sahih al-Bukhari, hadith 6593, book 81, باب فِي الْحَوْضِ",
+      "title": "باب فِي الْحَوْضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، عَنْ نَافِعِ بْنِ عُمَرَ، قَالَ حَدَّثَنِي ابْنُ أَبِي مُلَيْكَةَ، عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ ـ رضى الله عنهما ـ قَالَتْ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنِّي عَلَى الْحَوْضِ حَتَّى أَنْظُرُ مَنْ يَرِدُ عَلَىَّ مِنْكُمْ، وَسَيُؤْخَذُ نَاسٌ دُونِي فَأَقُولُ يَا رَبِّ مِنِّي وَمِنْ أُمَّتِي‏.‏ فَيُقَالُ هَلْ شَعَرْتَ مَا عَمِلُوا بَعْدَكَ وَاللَّهِ مَا بَرِحُوا يَرْجِعُونَ عَلَى أَعْقَابِهِمْ ‏\"‏‏.‏ فَكَانَ ابْنُ أَبِي مُلَيْكَةَ يَقُولُ اللَّهُمَّ إِنَّا نَعُوذُ بِكَ أَنْ نَرْجِعَ عَلَى أَعْقَابِنَا أَوْ نُفْتَنَ عَنْ دِينِنَا‏.‏ [quran sura=\"23\" aya_start=\"66\" aya_end=\"66\"]‏{‏أَعْقَابِكُمْ تَنْكِصُونَ‏}‏ تَرْجِعُونَ عَلَى الْعَقِبِ‏.‏",
+      "source_hash_sha256": "9cf95cb272fb3c58719ea1bc9e94b3464c84cf2efd309b54652066105af2d4da",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "The report directly quotes Quran 23:66 and includes an explanation of the Quranic phrase. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "source_id": "2f189217-b39d-429e-8328-dae3a7b0dcbe",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6594",
+      "reference": "Sahih al-Bukhari, hadith 6594, book 82, باب فِي الْقَدَرِ",
+      "title": "باب فِي الْقَدَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْوَلِيدِ، هِشَامُ بْنُ عَبْدِ الْمَلِكِ حَدَّثَنَا شُعْبَةُ، أَنْبَأَنِي سُلَيْمَانُ الأَعْمَشُ، قَالَ سَمِعْتُ زَيْدَ بْنَ وَهْبٍ، عَنْ عَبْدِ اللَّهِ، قَالَ حَدَّثَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم وَهْوَ الصَّادِقُ الْمَصْدُوقُ قَالَ ‏\"‏ إِنَّ أَحَدَكُمْ يُجْمَعُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا، ثُمَّ عَلَقَةً مِثْلَ ذَلِكَ، ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ، ثُمَّ يَبْعَثُ اللَّهُ مَلَكًا فَيُؤْمَرُ بِأَرْبَعٍ بِرِزْقِهِ، وَأَجَلِهِ، وَشَقِيٌّ، أَوْ سَعِيدٌ، فَوَاللَّهِ إِنَّ أَحَدَكُمْ ـ أَوِ الرَّجُلَ ـ يَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ، حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا غَيْرُ بَاعٍ أَوْ ذِرَاعٍ، فَيَسْبِقُ عَلَيْهِ الْكِتَابُ، فَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ، فَيَدْخُلُهَا، وَإِنَّ الرَّجُلَ لَيَعْمَلُ بِعَمَلِ أَهْلِ الْجَنَّةِ، حَتَّى مَا يَكُونُ بَيْنَهُ وَبَيْنَهَا غَيْرُ ذِرَاعٍ أَوْ ذِرَاعَيْنِ، فَيَسْبِقُ عَلَيْهِ الْكِتَابُ، فَيَعْمَلُ بِعَمَلِ أَهْلِ النَّارِ، فَيَدْخُلُهَا ‏\"‏‏.‏ قَالَ آدَمُ إِلاَّ ذِرَاعٌ‏.‏",
+      "source_hash_sha256": "db8de9ad3b60a38481c2af792d39ed1cf000d555bef38ab5c18160e68a4bdcf5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Walîd — Hishâm ibn ‘Abd al-Malik — nous a rapporté : Shu‘ba nous a rapporté : Sulaymân al-A‘mash m’a informé : J’ai entendu Zayd ibn Wahb rapporter, d’après ‘Abd Allah, qui a dit : Le Messager d’Allah ﷺ, le véridique dont la véracité est confirmée, nous a rapporté : « Chacun de vous est formé dans le ventre de sa mère pendant quarante jours. Ensuite, il devient un caillot pendant une durée semblable, puis un morceau de chair pendant une durée semblable. Allah envoie alors un ange, à qui sont confiées quatre choses : sa subsistance, la durée de sa vie, s’il sera malheureux ou heureux. Par Allah, l’un de vous — ou un homme — peut agir comme les gens de l’Enfer jusqu’à ce qu’il ne reste entre lui et l’Enfer que la distance d’une coudée ou d’un empan ; puis le décret le devance et il agit comme les gens du Paradis, où il entre. Un homme peut agir comme les gens du Paradis jusqu’à ce qu’il ne reste entre lui et le Paradis qu’une coudée ou deux ; puis le décret le devance et il agit comme les gens de l’Enfer, où il entre. » Âdam dit : « Une seule coudée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c26a6a76-ab26-4fc0-963f-396c0f02931e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6595",
+      "reference": "Sahih al-Bukhari, hadith 6595, book 82, باب فِي الْقَدَرِ",
+      "title": "باب فِي الْقَدَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادٌ، عَنْ عُبَيْدِ اللَّهِ بْنِ أَبِي بَكْرِ بْنِ أَنَسٍ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ وَكَّلَ اللَّهُ بِالرَّحِمِ مَلَكًا فَيَقُولُ أَىْ رَبِّ نُطْفَةٌ، أَىْ رَبِّ عَلَقَةٌ، أَىْ رَبِّ مُضْغَةٌ‏.‏ فَإِذَا أَرَادَ اللَّهُ أَنْ يَقْضِيَ خَلْقَهَا قَالَ أَىْ رَبِّ ذَكَرٌ أَمْ أُنْثَى أَشَقِيٌّ أَمْ سَعِيدٌ فَمَا الرِّزْقُ فَمَا الأَجَلُ فَيُكْتَبُ كَذَلِكَ فِي بَطْنِ أُمِّهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "41ae05e57502c976456b0a6cbf0e9d53bd30ce89d73a4aa6e98e4353314100da",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sulaymân ibn Harb nous a rapporté : Hammâd nous a rapporté, d’après ‘Ubayd Allah ibn Abî Bakr ibn Anas, d’après Anas ibn Mâlik (qu’Allah l’agrée), d’après le Prophète ﷺ, qui a dit : « Allah a chargé un ange de la matrice. L’ange dit : “Seigneur, une goutte de semence ! Seigneur, un caillot ! Seigneur, un morceau de chair !” Lorsque Allah veut achever sa création, Il dit : “Seigneur, sera-t-il de sexe masculin ou féminin ? Sera-t-il malheureux ou heureux ? Quelle sera sa subsistance ? Quelle sera la durée de sa vie ?” Tout cela est alors écrit dans le ventre de sa mère. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "53171324-33db-44a2-9ef2-f549827839ab",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6596",
+      "reference": "Sahih al-Bukhari, hadith 6596, book 82, باب جَفَّ الْقَلَمُ عَلَى عِلْمِ اللَّهِ",
+      "title": "باب جَفَّ الْقَلَمُ عَلَى عِلْمِ اللَّهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا يَزِيدُ الرِّشْكُ، قَالَ سَمِعْتُ مُطَرِّفَ بْنَ عَبْدِ اللَّهِ بْنِ الشِّخِّيرِ، يُحَدِّثُ عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، قَالَ قَالَ رَجُلٌ يَا رَسُولَ اللَّهِ أَيُعْرَفُ أَهْلُ الْجَنَّةِ مِنْ أَهْلِ النَّارِ قَالَ ‏\"‏ نَعَمْ ‏\"‏‏.‏ قَالَ فَلِمَ يَعْمَلُ الْعَامِلُونَ قَالَ ‏\"‏كُلٌّ يَعْمَلُ لِمَا خُلِقَ لَهُ ـ أَوْ لِمَا يُسِّرَ لَهُ‏\"‏ ‏.‏",
+      "source_hash_sha256": "472e7e35f96852ec3e5af80d1a679d4ad9e7ba90aa8b683e743f9b587a22456e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Âdam nous a rapporté : Shu‘ba nous a rapporté : Yazîd ar-Rishk a dit : J’ai entendu Mutarrif ibn ‘Abd Allah ibn ash-Shikhkhîr rapporter, d’après ‘Imrân ibn Husayn, qui a dit : Un homme demanda : « Ô Messager d’Allah, reconnaît-on les gens du Paradis parmi les gens de l’Enfer ? » Il répondit : « Oui. » L’homme demanda : « Alors pourquoi ceux qui agissent accomplissent-ils des œuvres ? » Il répondit : « Chacun agit en vue de ce pour quoi il a été créé — ou de ce qui lui a été rendu facile. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2e7d8fe7-c29f-456a-86bd-3242683e7a7d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6597",
+      "reference": "Sahih al-Bukhari, hadith 6597, book 82, باب اللَّهُ أَعْلَمُ بِمَا كَانُوا عَامِلِينَ",
+      "title": "باب اللَّهُ أَعْلَمُ بِمَا كَانُوا عَامِلِينَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ سُئِلَ النَّبِيُّ صلى الله عليه وسلم عَنْ أَوْلاَدِ الْمُشْرِكِينَ فَقَالَ ‏\"‏ اللَّهُ أَعْلَمُ بِمَا كَانُوا عَامِلِينَ ‏\"‏‏.‏",
+      "source_hash_sha256": "3bc0f54a6dee6e7d0e1d853a43a852ca7628d82e9a778a621dfccaf8b60f21bf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshâr nous a rapporté : Ghundar nous a rapporté : Shu‘ba nous a rapporté, d’après Abû Bishr, d’après Sa‘îd ibn Jubayr, d’après Ibn ‘Abbâs (qu’Allah les agrée tous deux), qui a dit : On interrogea le Prophète ﷺ au sujet des enfants des polythéistes. Il répondit : « Allah sait ce qu’ils auraient fait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "9609ec85-0113-4224-a20b-e912eff4b701",
+      "url": "https://sunnah.com/bukhari:6593",
+      "reason": "Le récit cite directement le Coran 23:66 et explique l’expression coranique. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}

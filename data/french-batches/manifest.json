@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5554,
+    "hadithBukhariDrafted": 5559,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5554,
+    "hadithLocalDrafted": 5559,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9075,
-    "hadithNeedsMo": 796,
+    "hadithLocalRemaining": 9070,
+    "hadithNeedsMo": 797,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25636,6 +25636,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1211",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1211.json",
+      "sourceIds": [
+        "813dc4d2-514f-4814-afb7-3c3fbe1cd78d",
+        "9609ec85-0113-4224-a20b-e912eff4b701",
+        "2f189217-b39d-429e-8328-dae3a7b0dcbe",
+        "c26a6a76-ab26-4fc0-963f-396c0f02931e",
+        "53171324-33db-44a2-9ef2-f549827839ab",
+        "2e7d8fe7-c29f-456a-86bd-3242683e7a7d"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one complete report held for direct Quran quotation. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -28800,11 +28821,17 @@
       "scope": "Sahih al-Bukhari 6558: rare plant terms and unclear aside وكان قد سقط فمه",
       "status": "blocked",
       "reason": "The report uses two rare plant terms (الثعارير and الضغابيس) and an aside (وكان قد سقط فمه) whose referent and meaning are unclear in this record. Keep the complete translation blank until the source wording is reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6593-QURAN-23-66",
+      "scope": "Sahih al-Bukhari 6593: direct quotation of Quran 23:66 and an explanation of the Quranic phrase",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 23:66. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5554,
-  "hadithLocalDrafted": 5554,
-  "hadithLocalRemaining": 9075,
+  "hadithBukhariDrafted": 5559,
+  "hadithLocalDrafted": 5559,
+  "hadithLocalRemaining": 9070,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29111,6 +29138,12 @@
       "scope": "Sahih al-Bukhari 6558: rare plant terms and unclear aside وكان قد سقط فمه",
       "status": "blocked",
       "reason": "The report uses two rare plant terms (الثعارير and الضغابيس) and an aside (وكان قد سقط فمه) whose referent and meaning are unclear in this record. Keep the complete translation blank until the source wording is reliably clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6593-QURAN-23-66",
+      "scope": "Sahih al-Bukhari 6593: direct quotation of Quran 23:66 and an explanation of the Quranic phrase",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 23:66. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
