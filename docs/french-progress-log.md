@@ -7427,3 +7427,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0064 saves 5 private French drafts. Hadith 155b directly quotes Quran 4:159, so the complete translation remains blank and is recorded under Needs Mo pending an approved, attributed French Quran translation with usage permission.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 301 of 7,366. Hadith Needs Mo: 196. Total local hadith rows not drafted: 7,992, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 157a–157f
+
+- FR-LIB-HAD-MUSLIM-0065 saves 5 private French drafts. Hadith 157a directly repeats part of Quran 6:158, so the complete translation remains blank and is recorded under Needs Mo pending an approved, attributed French Quran translation with usage permission.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 306 of 7,366. Hadith Needs Mo: 197. Total local hadith rows not drafted: 7,986, including held records. No database writes or publication occurred.
