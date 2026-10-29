@@ -6661,3 +6661,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1296 saves five private French drafts. Hadith 7095 directly quotes Quran 2:193, so its complete translation remains blank and is recorded under Needs Mo pending an approved, attributed French Quran translation and permission confirmation. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 5,969 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 848. Total local hadith rows not drafted: 8,660, including held records.
+
+### 2026-10-29: Bukhari 7098–7102 and 7105
+
+- FR-LIB-HAD-BUKHARI-1297 saves six private French drafts, preserving the reported admonition, the circumstances at the Battle of the Camel, and separate accounts of the discussion in Kûfa. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 5,975 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 848. Total local hadith rows not drafted: 8,654, including held records.
