@@ -9201,3 +9201,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0414 saves five private French drafts on graves, funeral prayers in the mosque, and visiting al-Baqi‘.
 - All five source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1635 Muslim drafts, 7971 total hadith drafts, 6658 remaining, and 769 Needs Mo items.
+
+### 2026-10-29: Muslim 974b (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0415 saves one private French draft of the full report about ‘A’isha following the Prophet ﷺ to al-Baqi‘. Its Arabic source is 2725 characters, so it was kept alone in the batch.
+- The source hash and both transmission variants are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1636 Muslim drafts, 7972 total hadith drafts, 6657 remaining, and 769 Needs Mo items.
