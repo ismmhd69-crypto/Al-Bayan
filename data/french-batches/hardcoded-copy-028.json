@@ -1,0 +1,12 @@
+[
+  {"id":"fatihahTrainer.title","source":"components/learning/FatihahTrainer.tsx","english":"Surah Al-Fatihah Practice Guide","arabic_source":"مدرّب سورة الفاتحة آية بآية","french":"Guide d’entraînement pour la sourate al-Fatiha"},
+  {"id":"fatihahTrainer.subtitle","source":"components/learning/FatihahTrainer.tsx","english":"Listen verse by verse, practice along at your own pace, and compare pronunciation.","arabic_source":"استمع إلى كل آية بصوت واضح، وتدرّب على النطق بالسرعة التي تناسبك.","french":"Écoutez verset par verset, entraînez-vous à votre rythme et comparez la prononciation."},
+  {"id":"fatihahTrainer.playFull","source":"components/learning/FatihahTrainer.tsx","english":"Listen to entire Surah","arabic_source":"استمع للسورة كاملة","french":"Écouter toute la sourate"},
+  {"id":"fatihahTrainer.pauseFull","source":"components/learning/FatihahTrainer.tsx","english":"Pause entire Surah","arabic_source":"إيقاف السورة","french":"Mettre en pause toute la sourate"},
+  {"id":"fatihahTrainer.verse","source":"components/learning/FatihahTrainer.tsx","english":"Verse","arabic_source":"الآية","french":"Verset"},
+  {"id":"fatihahTrainer.speed","source":"components/learning/FatihahTrainer.tsx","english":"Speed","arabic_source":"السرعة","french":"Vitesse"},
+  {"id":"fatihahTrainer.restart","source":"components/learning/FatihahTrainer.tsx","english":"Restart","arabic_source":"إعادة","french":"Recommencer"},
+  {"id":"fatihahTrainer.play","source":"components/learning/FatihahTrainer.tsx","english":"Play","french":"Écouter"},
+  {"id":"fatihahTrainer.pause","source":"components/learning/FatihahTrainer.tsx","english":"Pause","french":"Mettre en pause"},
+  {"id":"fatihahTrainer.playVerseAria","source":"components/learning/FatihahTrainer.tsx","english":"Play verse {num}","french":"Écouter le verset {num}"}
+]

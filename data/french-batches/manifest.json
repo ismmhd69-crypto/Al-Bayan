@@ -54,8 +54,8 @@
     "preparedAnswersRemaining": 0,
     "preparedAnswersDraftFiles": "data/french-batches/prepared-answers-*.json",
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
-    "hardcodedVisitorCopyDrafted": 385,
-    "websiteNeedsMo": 3,
+    "hardcodedVisitorCopyDrafted": 447,
+    "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 561,
     "hadithMuslimDrafted": 0,
@@ -2559,6 +2559,58 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-UI-HC-025",
+      "contentType": "website-hardcoded-visitor-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/hardcoded-copy-025.json",
+      "translated": 24,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source wording, mapped lesson references, unique IDs, nonempty French, and placeholders checked",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
+    },
+    {
+      "id": "FR-UI-HC-026",
+      "contentType": "website-hardcoded-visitor-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/hardcoded-copy-026.json",
+      "translated": 24,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source wording, mapped lesson references, unique IDs, nonempty French, and placeholders checked",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "13 private drafts; 11 Needs Mo holds"
+    },
+    {
+      "id": "FR-UI-HC-027",
+      "contentType": "website-hardcoded-visitor-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/hardcoded-copy-027.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source wording, mapped references where available, unique IDs, nonempty French, and placeholders checked",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "3 private drafts; one Needs Mo hold (Arabic pronunciation aid preserved)"
+    },
+    {
+      "id": "FR-UI-HC-028",
+      "contentType": "website-hardcoded-visitor-copy",
+      "language": "fr",
+      "artifact": "data/french-batches/hardcoded-copy-028.json",
+      "translated": 10,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Control labels, Arabic verse IDs, unique IDs, nonempty French, and placeholder parity checked; Quran meanings left untouched",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local interface draft"
     }
   ],
   "blockers": [
@@ -2603,6 +2655,24 @@
       "scope": "Hajj learning visual: six stations, timings, and detailed ritual claims",
       "status": "blocked",
       "reason": "The visual has no per-claim source references. The mapped Hajj lesson cites Muslim 1218a only for orientation examples and explicitly says these are not a complete ritual sequence. French drafts are saved privately, with wording drawn from paired Arabic where available; all 30 visual strings remain held until the sequence and each ritual detail receive source review."
+    },
+    {
+      "id": "WUDU-VISUAL-REPETITION-STATUS",
+      "scope": "Ablution visual: repeated washing counts and Bismillah wording",
+      "status": "blocked",
+      "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
+    },
+    {
+      "id": "PRAYER-INDEX-FINGER-REFERENCE",
+      "scope": "Prayer guide: index-finger gesture during tashahhud",
+      "status": "blocked",
+      "reason": "The source map and local lesson references do not identify a source for the specific gesture. Keep the French label private and held until the exact source is recorded."
+    },
+    {
+      "id": "QURAN-FR-SURAH-AL-FATIHAH",
+      "scope": "Al-Fatiha practice tool: French Quran verse meanings",
+      "status": "blocked",
+      "reason": "No approved, attributed French Quran translation has been confirmed in the current application configuration. The seven French verse meanings were not generated; only practice-tool controls have private French drafts."
     }
 
   ]
