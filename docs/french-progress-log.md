@@ -8330,7 +8330,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 578a–578f
 
 - FR-LIB-HAD-MUSLIM-0241 holds all six items blank under Needs Mo: four reports contain direct Quran quotations (84:1 and/or 96:1), and two contain only incomplete cross-references.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Draft totals remain 962 Muslim and 7,298 overall, with 7,331 remaining and 466 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Draft totals remain 962 Muslim and 7,298 overall, with 7,331 remaining and 466 Needs Mo items.
 
 ### 2026-10-29: Muslim 578g–580b
 
@@ -8881,3 +8881,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0350 saves two private French drafts about Quran recitation modes. Muslim 819b, 820b and 821b contain incomplete cross-references; 822a quotes a Quran fragment. All four remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1395 Muslim drafts, 7731 total hadith drafts, 6898 remaining, and 656 Needs Mo items.
+
+### 2026-10-29: Muslim 822b–823a
+
+- FR-LIB-HAD-MUSLIM-0351 saves three private French drafts about paired surahs and prayer. Muslim 822b and 822c contain incomplete cross-references; 823a quotes Quran directly. All three remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1398 Muslim drafts, 7734 total hadith drafts, 6895 remaining, and 659 Needs Mo items.

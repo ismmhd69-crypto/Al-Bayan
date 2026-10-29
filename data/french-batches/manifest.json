@@ -36281,6 +36281,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0351",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0351.json",
+      "sourceIds": [
+        "5b0b3b09-fb7e-4bf3-b5c4-788c61c705c0",
+        "288fea8e-632b-4b6f-af41-9367b925bf73",
+        "7518c401-6428-46a8-99fa-2756e73015dc",
+        "66822678-212e-4264-b7eb-af4dd5ea15ad",
+        "851f7b92-ccfa-4505-982c-fb0fc66dd316",
+        "dbe24766-eee3-4ac9-b1f4-683a3151dca3"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two incomplete variants and one Quran quotation held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40588,8 +40609,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7731,
-  "hadithLocalRemaining": 6898,
+  "hadithLocalDrafted": 7734,
+  "hadithLocalRemaining": 6895,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43110,10 +43131,28 @@
       "scope": "Sahih Muslim 822A: direct Quran quotation",
       "status": "blocked",
       "reason": "La source cite directement un fragment coranique (sourate 47, verset 15). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0351-822B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 822B: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent et n’en rapporte que quelques ajouts, sans reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité du récit intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0351-822C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 822C: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source renvoie aux récits précédents comme contenant une formulation semblable et n’ajoute que des précisions, sans fournir le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0351-823A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 823A: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un fragment du Coran (sourate 54, verset 17). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
     }
   ],
-  "hadithMuslimDrafted": 1395,
+  "hadithMuslimDrafted": 1398,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 656
+  "hadithNeedsMo": 659
 }

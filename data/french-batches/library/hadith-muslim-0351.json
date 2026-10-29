@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0351",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:31:38.942Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5b0b3b09-fb7e-4bf3-b5c4-788c61c705c0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:822b",
+      "reference": "Sahih Muslim, hadith 822 b, book 6, باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "title": "باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي وَائِلٍ، قَالَ جَاءَ رَجُلٌ إِلَى عَبْدِ اللَّهِ يُقَالُ لَهُ نَهِيكُ بْنُ سِنَانٍ ‏.‏ بِمِثْلِ حَدِيثِ وَكِيعٍ غَيْرَ أَنَّهُ قَالَ فَجَاءَ عَلْقَمَةُ لِيَدْخُلَ عَلَيْهِ فَقُلْنَا لَهُ سَلْهُ عَنِ النَّظَائِرِ الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ بِهَا فِي رَكْعَةٍ فَدَخَلَ عَلَيْهِ فَسَأَلَهُ ثُمَّ خَرَجَ عَلَيْنَا فَقَالَ عِشْرُونَ سُورَةً مِنَ الْمُفَصَّلِ فِي تَأْلِيفِ عَبْدِ اللَّهِ ‏.‏",
+      "source_hash_sha256": "b5514488975a727a83f94d00128ee059103cc00426c63e3263d5f41d9c5c3ed7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "288fea8e-632b-4b6f-af41-9367b925bf73",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:822c",
+      "reference": "Sahih Muslim, hadith 822 c, book 6, باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "title": "باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا الأَعْمَشُ، فِي هَذَا الإِسْنَادِ ‏.‏ بِنَحْوِ حَدِيثِهِمَا وَقَالَ إِنِّي لأَعْرِفُ النَّظَائِرَ الَّتِي كَانَ يَقْرَأُ بِهِنَّ رَسُولُ اللَّهِ صلى الله عليه وسلم اثْنَتَيْنِ فِي رَكْعَةٍ ‏.‏ عِشْرِينَ سُورَةً فِي عَشْرِ رَكَعَاتٍ ‏.‏",
+      "source_hash_sha256": "5ed3d120916279a3cd423afa99db18003952cf1f5b275d66773f472d3c22f5bb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7518c401-6428-46a8-99fa-2756e73015dc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:822d",
+      "reference": "Sahih Muslim, hadith 822 d, book 6, باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "title": "باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا مَهْدِيُّ بْنُ مَيْمُونٍ، حَدَّثَنَا وَاصِلٌ الأَحْدَبُ، عَنْ أَبِي، وَائِلٍ قَالَ غَدَوْنَا عَلَى عَبْدِ اللَّهِ بْنِ مَسْعُودٍ يَوْمًا بَعْدَ مَا صَلَّيْنَا الْغَدَاةَ فَسَلَّمْنَا بِالْبَابِ فَأَذِنَ لَنَا - قَالَ - فَمَكَثْنَا بِالْبَابِ هُنَيَّةً - قَالَ - فَخَرَجَتِ الْجَارِيَةُ فَقَالَتْ أَلاَ تَدْخُلُونَ فَدَخَلْنَا فَإِذَا هُوَ جَالِسٌ يُسَبِّحُ فَقَالَ مَا مَنَعَكُمْ أَنْ تَدْخُلُوا وَقَدْ أُذِنَ لَكُمْ فَقُلْنَا لاَ إِلاَّ أَنَّا ظَنَنَّا أَنَّ بَعْضَ أَهْلِ الْبَيْتِ نَائِمٌ ‏.‏ قَالَ ظَنَنْتُمْ بِآلِ ابْنِ أُمِّ عَبْدٍ غَفْلَةً قَالَ ثُمَّ أَقْبَلَ يُسَبِّحُ حَتَّى ظَنَّ أَنَّ الشَّمْسَ قَدْ طَلَعَتْ فَقَالَ يَا جَارِيَةُ انْظُرِي هَلْ طَلَعَتْ قَالَ فَنَظَرَتْ فَإِذَا هِيَ لَمْ تَطْلُعْ فَأَقْبَلَ يُسَبِّحُ حَتَّى إِذَا ظَنَّ أَنَّ الشَّمْسَ قَدْ طَلَعَتْ قَالَ يَا جَارِيَةُ انْظُرِي هَلْ طَلَعَتْ فَنَظَرَتْ فَإِذَا هِيَ قَدْ طَلَعَتْ ‏.‏ فَقَالَ الْحَمْدُ لِلَّهِ الَّذِي أَقَالَنَا يَوْمَنَا هَذَا - فَقَالَ مَهْدِيٌّ وَأَحْسِبُهُ قَالَ - وَلَمْ يُهْلِكْنَا بِذُنُوبِنَا - قَالَ - فَقَالَ رَجُلٌ مِنَ الْقَوْمِ قَرَأْتُ الْمُفَصَّلَ الْبَارِحَةَ كُلَّهُ - قَالَ - فَقَالَ عَبْدُ اللَّهِ هَذًّا كَهَذِّ الشِّعْرِ إِنَّا لَقَدْ سَمِعْنَا الْقَرَائِنَ وَإِنِّي لأَحْفَظُ الْقَرَائِنَ الَّتِي كَانَ يَقْرَؤُهُنَّ رَسُولُ اللَّهِ صلى الله عليه وسلم ثَمَانِيَةَ عَشَرَ مِنَ الْمُفَصَّلِ وَسُورَتَيْنِ مِنْ آلِ حم.",
+      "source_hash_sha256": "4197e7e47f9fb0cee0b6093c1067694828039a375ae5251e3d9e4a04b4c3bbce",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shayban ibn Farrukh nous a rapporté : Mahdi ibn Maymun nous a rapporté : Wasil al-Ahdab nous a rapporté, d’après Abu Wa’il. Il dit : Un jour, après la prière de l’aube, nous nous rendîmes chez ‘Abd Allah ibn Mas‘ud. Nous saluâmes à la porte ; il nous autorisa à entrer. Nous attendîmes un moment. Sa servante sortit et dit : « N’entrez-vous pas ? » Nous entrâmes et le trouvâmes assis, occupé à glorifier Allah. Il demanda : « Qu’est-ce qui vous a empêchés d’entrer alors que vous en aviez reçu l’autorisation ? » Nous répondîmes : « Nous pensions que quelqu’un de la maisonnée dormait. » Il dit : « Vous pensiez que les gens de la famille d’Ibn Umm ‘Abd étaient inattentifs ? » Il continua à glorifier Allah jusqu’à ce qu’il pense que le soleil s’était levé. Il dit : « Servante, regarde si le soleil est levé. » Elle regarda : il ne l’était pas. Il continua jusqu’à penser de nouveau que le soleil s’était levé. Il dit : « Regarde encore. » Elle regarda et cette fois il s’était levé. Il dit : « Louange à Allah qui nous a accordé une journée de plus — Mahdi rapporte qu’il ajouta, je crois : “et ne nous a pas fait périr à cause de nos péchés.” » Un homme parmi les gens dit : « J’ai récité toute la sourate al-Mufassal en une seule unité de prière la nuit dernière. » ‘Abd Allah dit : « Une récitation précipitée comme celle de la poésie ! Nous avons entendu les sourates appariées, et je connais celles que le Messager d’Allah ﷺ associait. Il récitait dix-huit sourates de al-Mufassal et deux sourates de la famille Ha Mim. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "66822678-212e-4264-b7eb-af4dd5ea15ad",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:822e",
+      "reference": "Sahih Muslim, hadith 822 e, book 6, باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "title": "باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ الْجُعْفِيُّ، عَنْ زَائِدَةَ، عَنْ مَنْصُورٍ، عَنْ شَقِيقٍ، قَالَ جَاءَ رَجُلٌ مِنْ بَنِي بَجِيلَةَ يُقَالُ لَهُ نَهِيكُ بْنُ سِنَانٍ إِلَى عَبْدِ اللَّهِ فَقَالَ إِنِّي أَقْرَأُ الْمُفَصَّلَ فِي رَكْعَةٍ ‏.‏ فَقَالَ عَبْدُ اللَّهِ هَذًّا كَهَذِّ الشِّعْرِ لَقَدْ عَلِمْتُ النَّظَائِرَ الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرَأُ بِهِنَّ سُورَتَيْنِ فِي رَكْعَةٍ ‏.‏",
+      "source_hash_sha256": "083c8e783eadfa4385a5ca314614020c8f46cb2774661107a57129c5143fce75",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd ibn Humayd nous a rapporté : Husayn ibn ‘Ali al-Ju‘fi nous a rapporté, d’après Za’ida, d’après Mansur, d’après Shaqiq. Il dit : Un homme des Banu Bajila, nommé Nahik ibn Sinan, vint trouver ‘Abd Allah et lui dit : « Je récite al-Mufassal en une seule unité de prière. » ‘Abd Allah répondit : « Une récitation précipitée comme celle de la poésie ! Je connais les sourates appariées que le Messager d’Allah ﷺ récitait deux par unité de prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "851f7b92-ccfa-4505-982c-fb0fc66dd316",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:822f",
+      "reference": "Sahih Muslim, hadith 822 f, book 6, باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "title": "باب تَرْتِيلِ الْقِرَاءَةِ وَاجْتِنَابِ الْهَذِّ وَهُوَ الإِفْرَاطُ فِي السُّرْعَةِ وَإِبَاحَةِ سُورَتَيْنِ فَأَكْثَرَ فِي الرَّكْعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرِو بْنِ مُرَّةَ، أَنَّهُ سَمِعَ أَبَا وَائِلٍ، يُحَدِّثُ أَنَّ رَجُلاً، جَاءَ إِلَى ابْنِ مَسْعُودٍ فَقَالَ إِنِّي قَرَأْتُ الْمُفَصَّلَ اللَّيْلَةَ كُلَّهُ فِي رَكْعَةٍ ‏.‏ فَقَالَ عَبْدُ اللَّهِ هَذًّا كَهَذِّ الشِّعْرِ فَقَالَ عَبْدُ اللَّهِ لَقَدْ عَرَفْتُ النَّظَائِرَ الَّتِي كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَقْرُنُ بَيْنَهُنَّ - قَالَ - فَذَكَرَ عِشْرِينَ سُورَةً مِنَ الْمُفَصَّلِ سُورَتَيْنِ سُورَتَيْنِ فِي كُلِّ رَكْعَةٍ ‏.‏",
+      "source_hash_sha256": "6d10ba6eaa47060e2a15e93eaaf3887a2494e6cf7a44ecbc02084cb16e612065",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté. Ibn al-Muthanna a dit : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après ‘Amr ibn Murra, qui avait entendu Abu Wa’il transmettre qu’un homme était venu trouver Ibn Mas‘ud et lui avait dit : « J’ai récité toute la sourate al-Mufassal en une seule unité de prière la nuit dernière. » ‘Abd Allah répondit : « Une récitation précipitée comme celle de la poésie ! » Puis il dit : « Je connais les sourates appariées que le Messager d’Allah ﷺ récitait ensemble. » Il en mentionna vingt de al-Mufassal, deux par unité de prière.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dbe24766-eee3-4ac9-b1f4-683a3151dca3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:823a",
+      "reference": "Sahih Muslim, hadith 823 a, book 6, باب مَا يَتَعَلَّقُ بِالْقِرَاءَاتِ ‏",
+      "title": "باب مَا يَتَعَلَّقُ بِالْقِرَاءَاتِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدِ اللَّهِ بْنِ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا أَبُو إِسْحَاقَ، قَالَ رَأَيْتُ رَجُلاً سَأَلَ الأَسْوَدَ بْنَ يَزِيدَ وَهُوَ يُعَلِّمُ الْقُرْآنَ فِي الْمَسْجِدِ فَقَالَ كَيْفَ تَقْرَأُ هَذِهِ الآيَةَ فَهَلْ مِنْ مُدَّكِرٍ أَدَالاً أَمْ ذَالاً قَالَ بَلْ دَالاً سَمِعْتُ عَبْدَ اللَّهِ بْنَ مَسْعُودٍ يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مُدَّكِرٍ ‏\"‏ ‏.‏ دَالاً ‏.‏",
+      "source_hash_sha256": "6ac90c1bd4576aa864f5ee3b15d0ddcca677e462e7d40cb1211840779f67f7bd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "5b0b3b09-fb7e-4bf3-b5c4-788c61c705c0",
+      "reason": "La source renvoie au récit précédent et n’en rapporte que quelques ajouts, sans reprendre le texte complet. Garder la traduction française vide jusqu’à disponibilité du récit intégral correspondant."
+    },
+    {
+      "source_id": "288fea8e-632b-4b6f-af41-9367b925bf73",
+      "reason": "La source renvoie aux récits précédents comme contenant une formulation semblable et n’ajoute que des précisions, sans fournir le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "dbe24766-eee3-4ac9-b1f4-683a3151dca3",
+      "reason": "La source cite directement un fragment du Coran (sourate 54, verset 17). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    }
+  ]
+}
