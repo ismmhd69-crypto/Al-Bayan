@@ -2501,3 +2501,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-517` saves six private French drafts about travel amulets, pilgrimage travel, Hâtib’s letter, a returned favor to Ibn Ubayy, the banner at Khaybar and captives entering Paradise.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,711 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,944, including held records.
+
+### 2026-10-29: Bukhari 3011–3016 source review
+
+- `FR-LIB-HAD-BUKHARI-518` saves six private French drafts about education and manumission, night raids, protected grazing, and the prohibition on killing women and children.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,717 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,938, including held records.
