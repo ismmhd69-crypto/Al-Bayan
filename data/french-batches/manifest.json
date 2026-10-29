@@ -36421,6 +36421,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0358",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0358.json",
+      "sourceIds": [
+        "da082bf4-273f-4d3b-95f9-dcc6a4cb1f49",
+        "8d4e6085-cfdf-448b-a726-0fd547eeb233",
+        "0e7c6cd5-0c1b-465d-acfe-857d348d7ed3",
+        "f1601c8d-e9f0-40fb-a9c1-31a44aa3fe8d",
+        "24c1e8fd-449a-4ff3-8aa9-64c0550a75b5",
+        "88659855-f1e6-45db-b90b-f3b92382fa27"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; one incomplete variant held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40728,8 +40749,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7754,
-  "hadithLocalRemaining": 6875,
+  "hadithLocalDrafted": 7759,
+  "hadithLocalRemaining": 6870,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43322,10 +43343,16 @@
       "scope": "Sahih Muslim 830b: incomplete cross-reference variant",
       "status": "blocked",
       "reason": "La source indique que le Messager d’Allah ﷺ a prié avec eux la prière de l’après-midi, puis renvoie simplement au récit précédent sans reprendre son contenu. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0358-838B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 838b: incomplete wording variant",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent et ne précise qu’à quelle répétition s’applique la formule « pour celui qui le souhaite », sans reprendre le hadith complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1418,
+  "hadithMuslimDrafted": 1423,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 668
+  "hadithNeedsMo": 669
 }
