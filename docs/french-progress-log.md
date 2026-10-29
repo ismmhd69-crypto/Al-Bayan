@@ -10241,3 +10241,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0622 saves four private French drafts about visiting Quba and the Prophet’s advice to young people about marriage and fasting. Muslim 1399i and 1400b contain only an omission note or a reference to earlier wording and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1400d–1402c
+
+- FR-LIB-HAD-MUSLIM-0623 saves four private French drafts about the Prophet’s example of balanced worship and his refusal of monastic celibacy. Muslim 1400d and 1400e only refer to the earlier report with partial additions or omissions and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
