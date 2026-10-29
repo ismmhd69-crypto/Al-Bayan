@@ -9921,3 +9921,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0558 saves six private French drafts about the routes into Mecca and the Prophet’s overnight stay at Dhu Tuwa. All six source texts are complete.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1260–1262b
+
+- FR-LIB-HAD-MUSLIM-0559 saves six private French drafts about the prayer location at Dhu Tuwa and the brisk walking during tawaf and the sa‘i. All six source texts are complete.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
