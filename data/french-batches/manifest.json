@@ -17689,6 +17689,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-817",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-817.json",
+      "sourceIds": [
+        "986e225a-7ec1-488b-9842-e15ce03e03b8",
+        "04486f42-16cd-40ea-9f41-b3924b8e3caa",
+        "3807a156-855a-41c3-acc7-708c851f8806",
+        "5b6c501c-f6a5-4ca4-bc6e-ee03a2dd4239",
+        "c3f959a5-4559-4149-b3c9-c09efd3cad55",
+        "53d80cd6-06d9-4046-881f-ee9aa28ae90d"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18375,9 +18396,33 @@
       "scope": "Sahih al-Bukhari 4513: direct Quran quotations in the unusually long report",
       "status": "blocked",
       "reason": "The report directly quotes Quran 2:193 and 49:9. The complete record remains blank in FR-LIB-HAD-BUKHARI-816 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4516-QURAN-2-195",
+      "scope": "Sahih al-Bukhari 4516: direct quotation of Quran 2:195",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:195. The complete record remains blank in FR-LIB-HAD-BUKHARI-817 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4519-QURAN-2-198",
+      "scope": "Sahih al-Bukhari 4519: direct quotation of Quran 2:198",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:198. The complete record remains blank in FR-LIB-HAD-BUKHARI-817 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4520-QURAN-2-199",
+      "scope": "Sahih al-Bukhari 4520: direct quotation of Quran 2:199",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:199. The complete record remains blank in FR-LIB-HAD-BUKHARI-817 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4521-QURAN-2-199",
+      "scope": "Sahih al-Bukhari 4521: direct quotation of Quran 2:199",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:199. The complete record remains blank in FR-LIB-HAD-BUKHARI-817 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3951,
-  "hadithLocalDrafted": 3951,
-  "hadithLocalRemaining": 10706
+  "hadithBukhariDrafted": 3953,
+  "hadithLocalDrafted": 3953,
+  "hadithLocalRemaining": 10704
 }
