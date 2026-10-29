@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0902",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:19:36.686Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "30fcf073-0e54-40f0-83c5-541f25af64b9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1918a",
+      "reference": "Sahih Muslim, hadith 1918 a, book 33, باب فَضْلِ الرَّمْىِ وَالْحَثِّ عَلَيْهِ وَذَمِّ مَنْ عَلِمَهُ ثُمَّ نَسِيَهُ ‏‏",
+      "title": "باب فَضْلِ الرَّمْىِ وَالْحَثِّ عَلَيْهِ وَذَمِّ مَنْ عَلِمَهُ ثُمَّ نَسِيَهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا هَارُونُ بْنُ مَعْرُوفٍ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، عَنْ أَبِي عَلِيٍّ، عَنْ عُقْبَةَ بْنِ عَامِرٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ سَتُفْتَحُ عَلَيْكُمْ أَرَضُونَ وَيَكْفِيكُمُ اللَّهُ فَلاَ يَعْجِزُ أَحَدُكُمْ أَنْ يَلْهُوَ بِأَسْهُمِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e77b1c398fd71ee1d563bffe63664251213ac732d2983d11ed0022b2144eb227",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hârûn ibn Ma‘rûf nous a rapporté : Ibn Wahb nous a informés : ‘Amr ibn al-Hârith m’a informé, d’après Abû ‘Alî, Thumâma ibn Shufayy, qui a dit : J’ai entendu ‘Uqba ibn ‘Âmir dire : J’ai entendu le Messager d’Allah dire : « Des territoires vous seront ouverts et Allah vous suffira. Que personne d’entre vous ne néglige de s’entraîner avec ses flèches. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1936e681-b02b-40b4-a896-f60f0f347ad9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1918b",
+      "reference": "Sahih Muslim, hadith 1918 b, book 33, باب فَضْلِ الرَّمْىِ وَالْحَثِّ عَلَيْهِ وَذَمِّ مَنْ عَلِمَهُ ثُمَّ نَسِيَهُ ‏‏",
+      "title": "باب فَضْلِ الرَّمْىِ وَالْحَثِّ عَلَيْهِ وَذَمِّ مَنْ عَلِمَهُ ثُمَّ نَسِيَهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ دَاوُدُ بْنُ رُشَيْدٍ، حَدَّثَنَا الْوَلِيدُ، عَنْ بَكْرِ بْنِ مُضَرَ، عَنْ عَمْرِو بْنِ الْحَارِثِ، عَنْ أَبِي عَلِيٍّ الْهَمْدَانِيِّ، قَالَ سَمِعْتُ عُقْبَةَ بْنَ عَامِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "03694aacdda127c5d10793cdc98832ff25615c38be71808b3917683d1791d37d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dc3caeab-0a37-40e9-80fe-dfa2bd48186c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1919",
+      "reference": "Sahih Muslim, hadith 1919, book 33, باب فَضْلِ الرَّمْىِ وَالْحَثِّ عَلَيْهِ وَذَمِّ مَنْ عَلِمَهُ ثُمَّ نَسِيَهُ ‏‏",
+      "title": "باب فَضْلِ الرَّمْىِ وَالْحَثِّ عَلَيْهِ وَذَمِّ مَنْ عَلِمَهُ ثُمَّ نَسِيَهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحِ بْنِ الْمُهَاجِرِ، أَخْبَرَنَا اللَّيْثُ، عَنِ الْحَارِثِ بْنِ يَعْقُوبَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ شَمَاسَةَ، أَنَّ فُقَيْمًا اللَّخْمِيَّ، قَالَ لِعُقْبَةَ بْنِ عَامِرٍ تَخْتَلِفُ بَيْنَ هَذَيْنِ الْغَرَضَيْنِ وَأَنْتَ كَبِيرٌ يَشُقُّ عَلَيْكَ ‏.‏ قَالَ عُقْبَةُ لَوْلاَ كَلاَمٌ سَمِعْتُهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم لَمْ أُعَانِهِ ‏.‏ قَالَ الْحَارِثُ فَقُلْتُ لاِبْنِ شُمَاسَةَ وَمَا ذَاكَ قَالَ إِنَّهُ قَالَ ‏\"‏ مَنْ عَلِمَ الرَّمْىَ ثُمَّ تَرَكَهُ فَلَيْسَ مِنَّا أَوْ قَدْ عَصَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ad13d96c6fcd0891731b9da642d531ca88642615b9cc2a1bf86bec29ce56a0d5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rumh ibn al-Muhâjir nous a informés : al-Layth nous a rapporté, d’après al-Hârith ibn Ya‘qûb, d’après ‘Abd ar-Rahmân ibn Shumâsa, que Fuqaym al-Lakhmî dit à ‘Uqba ibn ‘Âmir : « Tu vas entre ces deux cibles alors que tu es âgé et que cela te coûte. » ‘Uqba répondit : « Si je n’avais pas entendu une parole du Messager d’Allah, je ne me serais pas imposé cela. » Al-Hârith dit : Je demandai à Ibn Shumâsa : « Quelle parole ? » Il répondit : « Il a dit : “Celui qui apprend le tir à l’arc puis l’abandonne n’est pas des nôtres — ou bien : il a désobéi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cfee1e7b-1d83-4ab2-862d-588e1a1eb63c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1920",
+      "reference": "Sahih Muslim, hadith 1920, book 33, باب قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لاَ تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي ظَاهِرِينَ عَلَى الْحَقِّ لاَ يَضُرُّهُمْ مَنْ خَالَفَهُمْ»",
+      "title": "باب قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لاَ تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي ظَاهِرِينَ عَلَى الْحَقِّ لاَ يَضُرُّهُمْ مَنْ خَالَفَهُمْ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَأَبُو الرَّبِيعِ الْعَتَكِيُّ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، قَالُوا حَدَّثَنَا حَمَّادٌ، - وَهُوَ ابْنُ زَيْدٍ - عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَبِي أَسْمَاءَ، عَنْ ثَوْبَانَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي ظَاهِرِينَ عَلَى الْحَقِّ لاَ يَضُرُّهُمْ مَنْ خَذَلَهُمْ حَتَّى يَأْتِيَ أَمْرُ اللَّهِ وَهُمْ كَذَلِكَ ‏\"‏ ‏.‏ وَلَيْسَ فِي حَدِيثِ قُتَيْبَةَ ‏\"‏ وَهُمْ كَذَلِكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d2e292a1ec54ecc885f8c24634bdfd84b6aea0ac2f3f79ca21198040ad1457b9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘îd ibn Mansûr, Abû ar-Rabî‘ al-‘Atakî et Qutayba ibn Sa‘îd nous ont rapporté : Hammâd — c’est-à-dire Ibn Zayd — nous a rapporté, d’après Ayyûb, d’après Abû Qilâba, d’après Abû Asmâ’, d’après Thawbân, qui a dit : Le Messager d’Allah a dit : « Un groupe de ma communauté demeurera attaché à la vérité. Ceux qui l’abandonnent ne lui nuiront pas jusqu’à ce que vienne le commandement d’Allah, et ils resteront dans cet état. » La transmission de Qutayba ne contient pas les mots : « et ils resteront dans cet état ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d8bbe976-cf37-460d-8231-e7454a0a23e2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1921a",
+      "reference": "Sahih Muslim, hadith 1921 a, book 33, باب قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لاَ تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي ظَاهِرِينَ عَلَى الْحَقِّ لاَ يَضُرُّهُمْ مَنْ خَالَفَهُمْ»",
+      "title": "باب قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لاَ تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي ظَاهِرِينَ عَلَى الْحَقِّ لاَ يَضُرُّهُمْ مَنْ خَالَفَهُمْ»",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا وَكِيعٌ، وَعَبْدَةُ كِلاَهُمَا عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، ح وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا مَرْوَانُ، - يَعْنِي الْفَزَارِيَّ - عَنْ إِسْمَاعِيلَ، عَنْ قَيْسٍ، عَنِ الْمُغِيرَةِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ لَنْ يَزَالَ قَوْمٌ مِنْ أُمَّتِي ظَاهِرِينَ عَلَى النَّاسِ حَتَّى يَأْتِيَهُمْ أَمْرُ اللَّهِ وَهُمْ ظَاهِرُونَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3a09ca92f03d8f72ae4f0346cb4fbc1fc6f63832ff1f4a58c875f608fe97a9ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Wakî‘ nous a rapporté. [H] Ibn Numayr nous a rapporté : Wakî‘ et ‘Abda nous ont rapporté, tous deux d’après Ismâ‘îl ibn Abî Khâlid. [H] Ibn Abî ‘Umar nous a rapporté — et c’est sa formulation — : Marwân — c’est-à-dire al-Fazârî — nous a rapporté, d’après Ismâ‘îl, d’après Qays, d’après al-Mughîra, qui a dit : J’ai entendu le Messager d’Allah dire : « Un groupe de ma communauté ne cessera de prévaloir sur les gens jusqu’à ce que vienne à lui le commandement d’Allah, alors qu’il prévaudra encore. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b722abbf-5a46-48fc-ac3f-420d2187a1b7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1921b",
+      "reference": "Sahih Muslim, hadith 1921 b, book 33, باب قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لاَ تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي ظَاهِرِينَ عَلَى الْحَقِّ لاَ يَضُرُّهُمْ مَنْ خَالَفَهُمْ»",
+      "title": "باب قَوْلِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لاَ تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي ظَاهِرِينَ عَلَى الْحَقِّ لاَ يَضُرُّهُمْ مَنْ خَالَفَهُمْ»",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنِي إِسْمَاعِيلُ، عَنْ قَيْسٍ، قَالَ سَمِعْتُ الْمُغِيرَةَ بْنَ شُعْبَةَ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ بِمِثْلِ حَدِيثِ مَرْوَانَ سَوَاءً ‏.‏",
+      "source_hash_sha256": "7166bf888c479a0af51de6f58cb0fa886ca0299f9c2913b553e68bafcf8d358a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Râfi‘ me l’a rapporté : Abû Usâma nous a rapporté : Ismâ‘îl m’a rapporté, d’après Qays, qui a dit : J’ai entendu al-Mughîra ibn Shu‘ba dire : J’ai entendu le Messager d’Allah dire un récit exactement semblable à celui de Marwân.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1936e681-b02b-40b4-a896-f60f0f347ad9",
+      "url": "https://sunnah.com/muslim:1918b",
+      "reason": "Cette entrée ne fournit qu’une autre chaîne de transmission du récit précédent et n’indique aucune variante distincte du contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
