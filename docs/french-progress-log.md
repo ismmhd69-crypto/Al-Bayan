@@ -5214,3 +5214,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1022 saves six private French drafts, including both reports about drinking while standing and the alternate location detail.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,664 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 729. Total local hadith rows not drafted: 9,965, including held records.
+
+
+### 2026-10-29: Bukhari 5622–5627
+
+- FR-LIB-HAD-BUKHARI-1023 saves six private French drafts, retaining the two reported wordings and the uncertain attribution in 5626. The exporter also flagged one longer upcoming source for a separate batch.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,670 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 729. Total local hadith rows not drafted: 9,959, including held records.
