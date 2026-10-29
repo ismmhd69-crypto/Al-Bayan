@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5605,
+    "hadithBukhariDrafted": 5610,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5605,
+    "hadithLocalDrafted": 5610,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9024,
-    "hadithNeedsMo": 805,
+    "hadithLocalRemaining": 9019,
+    "hadithNeedsMo": 806,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25846,6 +25846,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "four private drafts; two Needs Mo holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1221",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1221.json",
+      "sourceIds": [
+        "e64710c4-43d5-4307-9680-9c2700541c50",
+        "81961f28-bf51-41e6-bfca-ca02648e1fb1",
+        "4c7a220d-c130-4935-947e-9d46b9b526df",
+        "5608814e-8d89-4352-80d2-520c689bc80f",
+        "812e8778-1e20-40ef-a8d8-7a33d4f51627",
+        "a8847410-c9a6-44df-aeef-c603cc76810c"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one complete report held for direct Quran quotation. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -29064,11 +29085,17 @@
       "scope": "Sahih al-Bukhari 6653: source ends with “then he mentioned the hadith” and omits the report",
       "status": "blocked",
       "reason": "The exported Arabic ends with فذكر الحديث (“then he mentioned the hadith”) and omits the rest. Keep it blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-6659-QURAN-3-77",
+      "scope": "Sahih al-Bukhari 6659: direct quotation of Quran 3:77",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5605,
-  "hadithLocalDrafted": 5605,
-  "hadithLocalRemaining": 9024,
+  "hadithBukhariDrafted": 5610,
+  "hadithLocalDrafted": 5610,
+  "hadithLocalRemaining": 9019,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29429,6 +29456,12 @@
       "scope": "Sahih al-Bukhari 6653: source ends with “then he mentioned the hadith” and omits the report",
       "status": "blocked",
       "reason": "The exported Arabic ends with فذكر الحديث (“then he mentioned the hadith”) and omits the rest. Keep it blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-6659-QURAN-3-77",
+      "scope": "Sahih al-Bukhari 6659: direct quotation of Quran 3:77",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

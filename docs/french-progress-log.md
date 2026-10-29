@@ -6236,3 +6236,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1220 saves four private French drafts. Bukhari 6649 remains blank because the rare camel description غُرّ الذرى is still unclear. Bukhari 6653 remains blank because its source explicitly omits the rest of the report. No database writes or publication occurred.
 - The four drafts passed the focused validator. Bukhari local drafts: 5,605 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 805. Total local hadith rows not drafted: 9,024, including held records.
+
+
+### 2026-10-29: Bukhari 6654–6659 — one held
+
+- FR-LIB-HAD-BUKHARI-1221 saves five private French drafts. Bukhari 6659 remains blank because it directly quotes Quran 3:77. No database writes or publication occurred.
+- The five drafts passed the focused validator. Bukhari local drafts: 5,610 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 806. Total local hadith rows not drafted: 9,019, including held records.
