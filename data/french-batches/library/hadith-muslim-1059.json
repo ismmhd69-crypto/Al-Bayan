@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1059",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:01:59.789Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8b926a0c-4caa-4e57-a408-0d96df2314f1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2249b",
+      "reference": "Sahih Muslim, hadith 2249 b, book 40, باب حُكْمِ إِطْلاَقِ لَفْظَةِ الْعَبْدِ وَالأَمَةِ وَالْمَوْلَى وَالسَّيِّدِ ‏‏",
+      "title": "باب حُكْمِ إِطْلاَقِ لَفْظَةِ الْعَبْدِ وَالأَمَةِ وَالْمَوْلَى وَالسَّيِّدِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي، هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَقُولَنَّ أَحَدُكُمْ عَبْدِي ‏.‏ فَكُلُّكُمْ عَبِيدُ اللَّهِ وَلَكِنْ لِيَقُلْ فَتَاىَ ‏.‏ وَلاَ يَقُلِ الْعَبْدُ رَبِّي ‏.‏ وَلَكِنْ لِيَقُلْ سَيِّدِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "981a610213e761914e795fb0fab269fa67e794fa5233d4cefe36a817f6329305",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ a dit : « Que nul d’entre vous ne dise “mon esclave”, car vous êtes tous les serviteurs d’Allah. Qu’il dise plutôt “mon jeune homme”. Et que l’esclave ne dise pas “mon seigneur”, mais “mon maître”. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c7216d4f-4659-49f4-b902-e63a999ec5b5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2249c",
+      "reference": "Sahih Muslim, hadith 2249 c, book 40, باب حُكْمِ إِطْلاَقِ لَفْظَةِ الْعَبْدِ وَالأَمَةِ وَالْمَوْلَى وَالسَّيِّدِ ‏‏",
+      "title": "باب حُكْمِ إِطْلاَقِ لَفْظَةِ الْعَبْدِ وَالأَمَةِ وَالْمَوْلَى وَالسَّيِّدِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا أَبُو سَعِيدٍ الأَشَجُّ، حَدَّثَنَا وَكِيعٌ، كِلاَهُمَا عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ وَفِي حَدِيثِهِمَا ‏\"‏ وَلاَ يَقُلِ الْعَبْدُ لِسَيِّدِهِ مَوْلاَىَ ‏\"‏ ‏.‏ وَزَادَ فِي حَدِيثِ أَبِي مُعَاوِيَةَ ‏\"‏ فَإِنَّ مَوْلاَكُمُ اللَّهُ عَزَّ وَجَلَّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "90abab0719a07e77e34ff254c8833d4026c5235416bcb6336e39074d1be5cf03",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b51dd816-db16-495b-9bd0-c3ca169b366a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2249d",
+      "reference": "Sahih Muslim, hadith 2249 d, book 40, باب حُكْمِ إِطْلاَقِ لَفْظَةِ الْعَبْدِ وَالأَمَةِ وَالْمَوْلَى وَالسَّيِّدِ ‏‏",
+      "title": "باب حُكْمِ إِطْلاَقِ لَفْظَةِ الْعَبْدِ وَالأَمَةِ وَالْمَوْلَى وَالسَّيِّدِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَقُلْ أَحَدُكُمُ اسْقِ رَبَّكَ أَطْعِمْ رَبَّكَ وَضِّئْ رَبَّكَ ‏.‏ وَلاَ يَقُلْ أَحَدُكُمْ رَبِّي ‏.‏ وَلْيَقُلْ سَيِّدِي مَوْلاَىَ وَلاَ يَقُلْ أَحَدُكُمْ عَبْدِي أَمَتِي ‏.‏ وَلْيَقُلْ فَتَاىَ فَتَاتِي غُلاَمِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6cb8e1351c15a98faf29d9622f3d31b77878ba3f5aab59c88a38f6a127e30f9c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ a dit : « Que nul d’entre vous ne dise : “Donne à boire à ton seigneur, nourris ton seigneur, prépare les ablutions de ton seigneur.” Que nul ne dise “mon seigneur”, mais plutôt “mon maître” ou “mon protecteur”. Et que nul d’entre vous ne dise “mon esclave” ou “ma servante”, mais plutôt “mon jeune homme”, “ma jeune fille” ou “mon garçon”. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "525d326c-fd5f-4df1-b46e-35dd2ff732d3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2250a",
+      "reference": "Sahih Muslim, hadith 2250 a, book 40, باب كَرَاهَةِ قَوْلِ الإِنْسَانِ خَبُثَتْ نَفْسِي ‏‏",
+      "title": "باب كَرَاهَةِ قَوْلِ الإِنْسَانِ خَبُثَتْ نَفْسِي ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، كِلاَهُمَا عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَقُولَنَّ أَحَدُكُمْ خَبُثَتْ نَفْسِي ‏.‏ وَلَكِنْ لِيَقُلْ لَقِسَتْ نَفْسِي ‏\"‏ ‏.‏ هَذَا حَدِيثُ أَبِي كُرَيْبٍ وَقَالَ أَبُو بَكْرٍ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَلَمْ يَذْكُرْ ‏\"‏ لَكِنْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "966fd5fb99f7da2c3586ca335337aba14d1cf5101c65b42da36b4bda5f60c72f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂïcha rapporte que le Messager d’Allah ﷺ a dit : « Que nul d’entre vous ne dise : “Mon âme est mauvaise”, mais qu’il dise : “Je me sens nauséeux.” » Cette version est celle d’Abû Kurayb. Abû Bakr rapporte la parole du Prophète ﷺ sans le mot « mais ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "85ce25ef-195e-4fe1-911b-73b95d5fb583",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2250b",
+      "reference": "Sahih Muslim, hadith 2250 b, book 40, باب كَرَاهَةِ قَوْلِ الإِنْسَانِ خَبُثَتْ نَفْسِي ‏‏",
+      "title": "باب كَرَاهَةِ قَوْلِ الإِنْسَانِ خَبُثَتْ نَفْسِي ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "6ed4a7f8f2e403c2a9062a78830f1dc7307ffee65141f865fc34578f9752b60b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cd4effad-4647-4ae8-92ad-8553dde88f65",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2251",
+      "reference": "Sahih Muslim, hadith 2251, book 40, باب كَرَاهَةِ قَوْلِ الإِنْسَانِ خَبُثَتْ نَفْسِي ‏‏",
+      "title": "باب كَرَاهَةِ قَوْلِ الإِنْسَانِ خَبُثَتْ نَفْسِي ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ، شِهَابٍ عَنْ أَبِي أُمَامَةَ بْنِ سَهْلِ بْنِ حُنَيْفٍ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَقُلْ أَحَدُكُمْ خَبُثَتْ نَفْسِي ‏.‏ وَلْيَقُلْ لَقِسَتْ نَفْسِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8f29aecc5e7fea7e2e673ebc0aec5728cee497e7955727173e75a3c64985d4d7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sahl ibn Hunayf rapporte que le Messager d’Allah ﷺ a dit : « Que nul ne dise : “Mon âme est mauvaise”, mais qu’il dise : “Je me sens nauséeux.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c7216d4f-4659-49f4-b902-e63a999ec5b5",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "85ce25ef-195e-4fe1-911b-73b95d5fb583",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
