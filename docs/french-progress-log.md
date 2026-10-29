@@ -9756,3 +9756,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0525 saves five private French drafts listing animals permitted to be killed in the sanctuary or while in consecration. Muslim 1198f only refers to a previous report for its list and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1199d–1200c
+
+- FR-LIB-HAD-MUSLIM-0526 saves four private French drafts listing harmful animals that may be killed by someone in consecration. Muslim 1199d–e provide only variant or abbreviated references to previous lists and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.

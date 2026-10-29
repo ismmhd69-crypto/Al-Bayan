@@ -39881,6 +39881,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0526",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0526.json",
+      "sourceIds": [
+        "d0667642-cadf-44a7-851f-c7db4e5ee29c",
+        "1f079796-0d7d-46c0-b8f1-dbe747662975",
+        "b9f4874f-2be6-4fde-8609-d3b35a7eafa8",
+        "e46ae52d-7100-48a2-b712-ac5616adb305",
+        "48e83e48-0375-4f90-8449-e08e770f05a4",
+        "efafb5f1-9689-40c3-bdbc-4d8067f241d9"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six records passed focused validation; Arabic originals and hashes, IDs, private unpublished AI-draft state, rights flags, and single-item long-text rule passed; Muslim 1199d–e held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44188,8 +44209,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8416,
-  "hadithLocalRemaining": 6213,
+  "hadithLocalDrafted": 8420,
+  "hadithLocalRemaining": 6209,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -47456,10 +47477,20 @@
       "source_id": "d23169d8-6900-4850-a190-7916757f2036",
       "reason": "La source ne donne qu’une introduction et renvoie à une version précédente pour la liste complète. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "d0667642-cadf-44a7-851f-c7db4e5ee29c",
+      "reason": "La source renvoie aux formulations antérieures et ne rapporte pas la liste complète des animaux, en ne donnant que des variantes ou une précision de transmission. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1f079796-0d7d-46c0-b8f1-dbe747662975",
+      "reason": "La source renvoie aux formulations antérieures et ne rapporte pas la liste complète des animaux, en ne donnant que des variantes ou une précision de transmission. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2080,
+  "hadithMuslimDrafted": 2084,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 946
+  "hadithNeedsMo": 948
 }

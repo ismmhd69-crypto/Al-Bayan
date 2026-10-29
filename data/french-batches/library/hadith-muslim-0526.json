@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0526",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:50:17.962Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d0667642-cadf-44a7-851f-c7db4e5ee29c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1199d",
+      "reference": "Sahih Muslim, hadith 1199 d, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ قُتَيْبَةُ، وَابْنُ، رُمْحٍ عَنِ اللَّيْثِ بْنِ سَعْدٍ، ح وَحَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا جَرِيرٌ، - يَعْنِي ابْنَ حَازِمٍ - جَمِيعًا عَنْ نَافِعٍ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ، بْنُ مُسْهِرٍ ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي جَمِيعًا، عَنْ عُبَيْدِ اللَّهِ، ح وَحَدَّثَنِي أَبُو كَامِلٍ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا أَيُّوبُ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا يَحْيَى بْنُ سَعِيدٍ، كُلُّ هَؤُلاَءِ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، - رضى الله عنهما - عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمِثْلِ حَدِيثِ مَالِكٍ وَابْنِ جُرَيْجٍ وَلَمْ يَقُلْ أَحَدٌ مِنْهُمْ عَنْ نَافِعٍ عَنِ ابْنِ عُمَرَ - رضى الله عنهما - سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم ‏.‏ إِلاَّ ابْنُ جُرَيْجٍ وَحْدَهُ وَقَدْ تَابَعَ ابْنَ جُرَيْجٍ عَلَى ذَلِكَ ابْنُ إِسْحَاقَ ‏.‏",
+      "source_hash_sha256": "e356c0435d32609d7f3d3acd81f8b7385d6e7be2173ca7252c38a32f85e2443d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1f079796-0d7d-46c0-b8f1-dbe747662975",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1199e",
+      "reference": "Sahih Muslim, hadith 1199 e, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ فَضْلُ بْنُ سَهْلٍ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا مُحَمَّدُ بْنُ إِسْحَاقَ، عَنْ نَافِعٍ، وَعُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنِ ابْنِ عُمَرَ، - رضى الله عنهما - قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ خَمْسٌ لاَ جُنَاحَ فِي قَتْلِ مَا قُتِلَ مِنْهُنَّ فِي الْحَرَمِ ‏\"‏ ‏.‏ فَذَكَرَ بِمِثْلِهِ‏.",
+      "source_hash_sha256": "672ef56e2798fdb6578c243cdbd963b11d4ad6e1374bc8da03853e4c773d3ce4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b9f4874f-2be6-4fde-8609-d3b35a7eafa8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1199f",
+      "reference": "Sahih Muslim, hadith 1199 f, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَيَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالَ يَحْيَى بْنُ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرُونَ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، أَنَّهُ سَمِعَ عَبْدَ، اللَّهِ بْنَ عُمَرَ - رضى الله عنهما - يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَمْسٌ مَنْ قَتَلَهُنَّ وَهُوَ حَرَامٌ فَلاَ جُنَاحَ عَلَيْهِ فِيهِنَّ الْعَقْرَبُ وَالْفَارَةُ وَالْكَلْبُ الْعَقُورُ وَالْغُرَابُ وَالْحُدَيَّا ‏\"‏ ‏.‏ وَاللَّفْظُ لِيَحْيَى بْنِ يَحْيَى ‏.‏",
+      "source_hash_sha256": "da5cd29039172d94a3b90bc4d6dcdddeadb1911b3b26da5b24e42a3893955fe7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya, Yahya ibn Ayyub, Qutayba et Ibn Hujr nous ont rapporté. Yahya ibn Yahya dit : Isma‘il ibn Ja‘far nous a informés. Les autres disent : Isma‘il ibn Ja‘far nous a rapporté, d’après ‘Abd Allah ibn Dinar, qui avait entendu ‘Abd Allah ibn ‘Umar, qu’Allah les agrée tous deux, dire : le Messager d’Allah ﷺ a dit : « Celui qui, en état de sacralisation, tue l’un de ces cinq animaux ne commet aucun péché : le scorpion, la souris, le chien mordant, le corbeau et le milan. » Voici la formulation de Yahya ibn Yahya.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e46ae52d-7100-48a2-b712-ac5616adb305",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1200a",
+      "reference": "Sahih Muslim, hadith 1200 a, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي سَالِمُ بْنُ عَبْدِ اللَّهِ، أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، - رضى الله عنهما - قَالَ قَالَتْ حَفْصَةُ زَوْجُ النَّبِيِّ صلى الله عليه وسلم قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَمْسٌ مِنَ الدَّوَابِّ كُلُّهَا فَاسِقٌ لاَ حَرَجَ عَلَى مَنْ قَتَلَهُنَّ الْعَقْرَبُ وَالْغُرَابُ وَالْحِدَأَةُ وَالْفَارَةُ وَالْكَلْبُ الْعَقُورُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "19b5d04ea6f0abe547cf80e54e44acf5e76f063afae510bdbffacb08e1407707",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya m’a rapporté : Ibn Wahb nous a informés : Yunus m’a rapporté, d’après Ibn Shihab, qui m’a informé que Salim ibn ‘Abd Allah avait entendu ‘Abd Allah ibn ‘Umar, qu’Allah les agrée tous deux, dire : Hafsa, épouse du Prophète ﷺ, a rapporté que le Messager d’Allah ﷺ avait dit : « Cinq bêtes nuisibles peuvent être tuées sans que celui qui les tue commette de faute : le scorpion, le corbeau, le milan, la souris et le chien mordant. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "48e83e48-0375-4f90-8449-e08e770f05a4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1200b",
+      "reference": "Sahih Muslim, hadith 1200 b, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا زَيْدُ بْنُ جُبَيْرٍ، أَنَّ رَجُلاً، سَأَلَ ابْنَ عُمَرَ مَا يَقْتُلُ الْمُحْرِمُ مِنَ الدَّوَابِّ فَقَالَ أَخْبَرَتْنِي إِحْدَى نِسْوَةِ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ أَمَرَ - أَوْ أُمِرَ - أَنْ تُقْتَلَ الْفَارَةُ وَالْعَقْرَبُ وَالْحِدَأَةُ وَالْكَلْبُ الْعَقُورُ وَالْغُرَابُ ‏.‏",
+      "source_hash_sha256": "5dd86171aeeaa4b2bbf1581ce47d85be27e7a6469c108cae6c6be3e2d5a96819",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Yunus nous a rapporté : Zuhayr nous a rapporté : Zayd ibn Jubayr nous a rapporté qu’un homme avait demandé à Ibn ‘Umar : « Quels animaux le pèlerin en état de sacralisation peut-il tuer ? » Il répondit : « L’une des épouses du Messager d’Allah ﷺ m’a informé qu’il avait ordonné — ou qu’il avait reçu l’ordre — de tuer la souris, le scorpion, le milan, le chien mordant et le corbeau. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "efafb5f1-9689-40c3-bdbc-4d8067f241d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1200c",
+      "reference": "Sahih Muslim, hadith 1200 c, book 15, باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "title": "باب مَا يُنْدَبُ لِلْمُحْرِمِ وَغَيْرِهِ قَتْلُهُ مِنَ الدَّوَابِّ فِي الْحِلِّ وَالْحَرَمِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ زَيْدِ بْنِ جُبَيْرٍ، قَالَ سَأَلَ رَجُلٌ ابْنَ عُمَرَ مَا يَقْتُلُ الرَّجُلُ مِنَ الدَّوَابِّ وَهُوَ مُحْرِمٌ قَالَ حَدَّثَتْنِي إِحْدَى نِسْوَةِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ كَانَ يَأْمُرُ بِقَتْلِ الْكَلْبِ الْعَقُورِ وَالْفَارَةِ وَالْعَقْرَبِ وَالْحُدَيَّا وَالْغُرَابِ وَالْحَيَّةِ ‏.‏ قَالَ وَفِي الصَّلاَةِ أَيْضًا ‏.‏",
+      "source_hash_sha256": "ab219d214e1086906ac39682bd0b406fb0d592e102532c45945340680093470f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shayban ibn Farrukh nous a rapporté : Abu ‘Awana nous a rapporté, d’après Zayd ibn Jubayr, qui a dit : un homme demanda à Ibn ‘Umar : « Quels animaux un homme en état de sacralisation peut-il tuer ? » Il répondit : « L’une des épouses du Prophète ﷺ m’a rapporté qu’il ordonnait de tuer le chien mordant, la souris, le scorpion, le milan, le corbeau et le serpent. » Il ajouta : « Même pendant la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d0667642-cadf-44a7-851f-c7db4e5ee29c",
+      "reason": "La source renvoie aux formulations antérieures et ne rapporte pas la liste complète des animaux, en ne donnant que des variantes ou une précision de transmission. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "1f079796-0d7d-46c0-b8f1-dbe747662975",
+      "reason": "La source renvoie aux formulations antérieures et ne rapporte pas la liste complète des animaux, en ne donnant que des variantes ou une précision de transmission. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
