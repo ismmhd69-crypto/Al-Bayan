@@ -1740,79 +1740,84 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 2136–2141 source review
 
 - `FR-LIB-HAD-BUKHARI-365` saves six private French drafts for Bukhari 2136–2141, including the migration account and the sale of a conditional emancipation.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,950 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,679, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,946 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,683, including held records.
 
 ### 2026-10-29: Bukhari 2142–2147 source review
 
 - `FR-LIB-HAD-BUKHARI-366` saves six private French drafts for Bukhari 2142–2147, preserving descriptions of the prohibited sale forms.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,956 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,673, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,952 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,677, including held records.
 
 ### 2026-10-29: Bukhari 2148–2153 source review
 
 - `FR-LIB-HAD-BUKHARI-367` saves six private French drafts for Bukhari 2148–2153, retaining the source variants on the milking and sale reports.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,962 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,667, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,958 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,671, including held records.
 
 ### 2026-10-29: Bukhari 2155–2160 source review
 
 - `FR-LIB-HAD-BUKHARI-368` saves six private French drafts for Bukhari 2155–2160, retaining the source wording on the sale of Barîra and the rules about brokers.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,968 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,661, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,964 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,665, including held records.
 
 ### 2026-10-29: Bukhari 2161–2166 source review
 
 - `FR-LIB-HAD-BUKHARI-369` saves six private French drafts for Bukhari 2161–2166, retaining the source clarification about a city-dweller acting as a broker for a nomad.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,974 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,655, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,970 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,659, including held records.
 
 ### 2026-10-29: Bukhari 2167–2172 source review
 
 - `FR-LIB-HAD-BUKHARI-370` saves six private French drafts for Bukhari 2167–2172, including the contract and exchange reports and their explanatory details.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,980 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,649, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,976 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,653, including held records.
 
 ### 2026-10-29: Bukhari 2174–2180 source review
 
 - `FR-LIB-HAD-BUKHARI-371` saves six private French drafts for Bukhari 2174–2178 and 2180. Reported exchange wording and narrator variants are retained.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,986 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,643, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,982 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,647, including held records.
 
 ### 2026-10-29: Bukhari 2182–2188 source review
 
 - `FR-LIB-HAD-BUKHARI-372` saves six private French drafts for Bukhari 2182–2188, retaining the stated ‘arâyâ exception and the definitions supplied for the named sale forms.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,992 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,637, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,988 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,641, including held records.
 
 ### 2026-10-29: Bukhari 2189–2194 source review
 
 - `FR-LIB-HAD-BUKHARI-373` saves six private French drafts for Bukhari 2189–2194, preserving the full commentary and variants about fruit sales and the ‘arâyâ exception.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,998 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,631, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,994 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,635, including held records.
 
 ### 2026-10-29: Bukhari 2195–2200 source review
 
 - `FR-LIB-HAD-BUKHARI-374` saves six private French drafts for Bukhari 2195–2200, including the source commentary on fruit maturity and the loan-and-pledge report.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,004 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,625, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,000 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,629, including held records.
 
 ### 2026-10-29: Bukhari 2201–2207 source review
 
 - `FR-LIB-HAD-BUKHARI-375` saves six private French drafts for Bukhari 2201 and 2203–2207. It preserves the report’s examples of muzâbana and the pollination condition for date palms.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,010 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,619, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,006 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 117. Total local hadith rows not drafted: 12,623, including held records.
 
 ### 2026-10-29: Bukhari 2208–2213 source review
 
 - `FR-LIB-HAD-BUKHARI-376` saves five private French drafts for Bukhari 2208–2211 and 2213. Bukhari 2212 directly quotes Quran 4:6; its entire French report remains blank and Needs Mo pending an approved, attributed French Quran translation.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,015 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,614, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,011 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,618, including held records.
 
 ### 2026-10-29: Bukhari 2214–2214b source review
 
 - `FR-LIB-HAD-BUKHARI-377` saves two private French drafts for Bukhari 2214 and 2214b, preserving the alternate wordings and transmission chains on the right of preemption.
-- The two-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,017 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,612, including held records.
+- The two-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,013 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,616, including held records.
 
 ### 2026-10-29: Bukhari 2215 long-source review
 
 - `FR-LIB-HAD-BUKHARI-378` saves the full private French draft for Bukhari 2215, a source too long for a multi-item export. It preserves all three men’s accounts and their separate supplications.
-- The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,018 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,611, including held records.
+- The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,014 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,615, including held records.
 
 ### 2026-10-29: Bukhari 2216–2221 source review
 
 - `FR-LIB-HAD-BUKHARI-379` saves six private French drafts for Bukhari 2216–2221, including the reports about Sâra, the child’s parentage, and prior good deeds.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,024 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,603, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,020 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,607, including held records.
 
 ### 2026-10-29: Bukhari 2222–2227 source review
 
 - `FR-LIB-HAD-BUKHARI-380` saves six private French drafts for Bukhari 2222–2227, retaining the lexical commentary and the full exchange in the image-making report.
-- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,030 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,597, including held records.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,026 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,601, including held records.
+
+### 2026-10-29: Bukhari 2228–2234 source review
+
+- `FR-LIB-HAD-BUKHARI-381` saves six private French drafts for Bukhari 2228–2232 and 2234. The combined source record is referenced as Bukhari 2232–2233; its full report is translated once.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,032 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 118. Total local hadith rows not drafted: 12,597, including held records.
