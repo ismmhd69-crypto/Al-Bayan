@@ -17773,6 +17773,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-821",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-821.json",
+      "sourceIds": [
+        "4bc96f39-8aa4-4daf-8097-5e3850807d6e",
+        "85dc41cc-24a5-49aa-b709-12700a2ea915",
+        "7dfe8711-a53b-4063-93f0-c9bc4377bf61",
+        "c7b7ddaf-a459-4412-85a7-dd0becbf7ee1",
+        "f0457253-b2ec-44d9-b18a-6ac773ecd9ec",
+        "a4b87c6f-6f42-4ed6-99f3-4c03bfdcfd36"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18555,9 +18576,27 @@
       "scope": "Sahih al-Bukhari 4539: direct quotation of Quran 2:273",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 2:273. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-820, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4545-QURAN-2-284",
+      "scope": "Sahih al-Bukhari 4545: direct quotation of Quran 2:284",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 2:284. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-821, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4546-QURAN-2-284",
+      "scope": "Sahih al-Bukhari 4546: direct quotation of Quran 2:284",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 2:284. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-821, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4547-QURAN-3-7",
+      "scope": "Sahih al-Bukhari 4547: direct quotation of Quran 3:7",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:7 et comprend une seconde citation partielle. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-821, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3959,
-  "hadithLocalDrafted": 3959,
-  "hadithLocalRemaining": 10698
+  "hadithBukhariDrafted": 3962,
+  "hadithLocalDrafted": 3962,
+  "hadithLocalRemaining": 10695
 }
