@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ramadanVisual.heading",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "The 24-Hour Fasting Day Cycle in Ramadan",
+    "arabic_source": "دورة يوم الصيام في رمضان على مدار 24 ساعة",
+    "french": "Le cycle de 24 heures d’une journée de jeûne pendant le Ramadan"
+  },
+  {
+    "id": "ramadanVisual.subtitle",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "From the pre-dawn Suhur to the evening Iftar and night prayers.",
+    "arabic_source": "من وجبة السحور قبل الفجر وحتى بهجة الإفطار وصلاة التراويح ليلًا.",
+    "french": "Du repas de suhur avant l’aube à la joie de l’iftar et aux prières de tarawih la nuit."
+  },
+  {
+    "id": "ramadanVisual.suhur.time",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Before Dawn",
+    "arabic_source": "قبل طلوع الفجر",
+    "french": "Avant l’aube"
+  },
+  {
+    "id": "ramadanVisual.suhur.title",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "The Suhur Meal",
+    "arabic_source": "وجبة السحور المباركة",
+    "french": "Le repas béni de suhur"
+  },
+  {
+    "id": "ramadanVisual.suhur.detail",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Eating a wholesome pre-dawn meal and drinking water to gain physical strength and barakah for the day ahead.",
+    "arabic_source": "تناول طعام خفيف وشرب الماء قبل أذان الفجر امتثالًا للبركة النبوية وتقوية للبدن.",
+    "french": "Prendre un repas léger et boire de l’eau avant l’appel à la prière du fajr, en suivant la bénédiction prophétique et pour fortifier le corps."
+  },
+  {
+    "id": "ramadanVisual.fast.time",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "True Dawn (Fajr)",
+    "arabic_source": "مع أذان الفجر",
+    "french": "À l’appel à la prière du fajr"
+  },
+  {
+    "id": "ramadanVisual.fast.title",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Fast Begins",
+    "arabic_source": "الإمساك وبداية الصيام",
+    "french": "Début de l’abstinence et du jeûne"
+  },
+  {
+    "id": "ramadanVisual.fast.detail",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "The fast officially commences at true dawn. Complete abstinence from all food, drink, and marital relations begins.",
+    "arabic_source": "دخول وقت الصيام الصادق؛ الإمساك الكامل عن جميع المفطرات بنية التقرب إلى الله.",
+    "french": "Le temps véritable du jeûne commence ; on s’abstient complètement de tout ce qui rompt le jeûne, avec l’intention de se rapprocher d’Allah."
+  },
+  {
+    "id": "ramadanVisual.day.time",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Daytime Hours",
+    "arabic_source": "ساعات النهار",
+    "french": "Heures du jour"
+  },
+  {
+    "id": "ramadanVisual.day.title",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Mindfulness & Good Character",
+    "arabic_source": "حفظ الجوارح وحسن الخلق",
+    "french": "Maîtrise de soi et bon comportement"
+  },
+  {
+    "id": "ramadanVisual.day.detail",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Fasting goes beyond abstaining from food: Muslims guard the tongue from backbiting, avoid anger, and fulfill daily obligations.",
+    "arabic_source": "صوم الجوارح عن اللغو والغيبة والغضب، وحسن التعامل وأداء الواجبات اليومية بأمانة.",
+    "french": "Préserver ses membres des paroles futiles, de la médisance et de la colère, bien se comporter et accomplir les obligations quotidiennes avec probité."
+  },
+  {
+    "id": "ramadanVisual.iftar.time",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Sunset (Maghrib)",
+    "arabic_source": "مع غروب الشمس (المغرب)",
+    "french": "Au coucher du soleil (maghrib)"
+  },
+  {
+    "id": "ramadanVisual.iftar.title",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Iftar: Breaking the Fast",
+    "arabic_source": "الإفطار والدعاء المستجاب",
+    "french": "Rupture du jeûne et invocation exaucée"
+  },
+  {
+    "id": "ramadanVisual.iftar.detail",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Breaking the fast promptly upon sunset, traditionally with fresh dates and water, accompanied by supplication.",
+    "arabic_source": "تعجيل الفطر فور تحقق الغروب على رطب أو تمر وماء، والتوجه إلى الله بالدعاء.",
+    "french": "Rompre rapidement le jeûne dès que le coucher du soleil est confirmé, avec des dattes fraîches ou sèches et de l’eau, puis invoquer Allah."
+  },
+  {
+    "id": "ramadanVisual.night.time",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Night Hours",
+    "arabic_source": "الليل والقيام",
+    "french": "La nuit et la prière nocturne"
+  },
+  {
+    "id": "ramadanVisual.night.title",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Taraweeh & Quran Reflection",
+    "arabic_source": "صلاة التراويح ومدارسة القرآن",
+    "french": "Prière de tarawih et étude du Coran"
+  },
+  {
+    "id": "ramadanVisual.night.detail",
+    "source": "components/learning/RamadanTimelineVisual.tsx",
+    "english": "Evenings are filled with family, community, the voluntary Taraweeh prayers at the mosque, and generous reading of the Quran.",
+    "arabic_source": "أداء صلاة التراويح جماعة، وتلاوة كتاب الله وتدبره، والاجتماع على الخير والصدقة.",
+    "french": "Accomplir la prière de tarawih en groupe, réciter le Livre d’Allah et le méditer, et se réunir pour faire le bien et donner en aumône."
+  }
+]

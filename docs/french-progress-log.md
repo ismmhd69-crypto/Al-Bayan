@@ -512,3 +512,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-015` saved 11 French headings and explanations from `components/learning/DuaEtiquetteVisual.tsx`. Each record keeps the related Arabic source wording, including the conditions and recommended wording used in the visual.
 - The focused validator checked source-file presence, unique IDs, nonempty French, and placeholders; the Arabic/French pairs were compared during drafting. The material remains private AI draft content with no human review or publication.
 - Code-level visitor-copy coverage increased from 226 to 237 saved strings. Other interactive learning visuals remain to be inventoried.
+
+### 2026-10-29: Ramadan timeline visual and held quote
+
+- `FR-UI-HC-016` saved 17 French headings, times and explanations from `components/learning/RamadanTimelineVisual.tsx`, using the Arabic wording in that component as the source. The batch validator checked IDs, file presence, nonempty French and placeholders; the Arabic/French pairs were compared during drafting.
+- The visual also contains a purported Prophetic supplication at iftar, but its code has no source ID, link or rights record. The French quote meaning and its Prophet-attribution label remain blank and are recorded under Needs Mo until the exact source and an approved, permitted French version are confirmed.
+- Code-level visitor-copy coverage increased from 237 to 254 saved strings. Website Needs Mo: 1 item. No Quran meaning was generated; no live code, locale route or database was changed.
