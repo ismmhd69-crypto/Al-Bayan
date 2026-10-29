@@ -9431,3 +9431,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0460 contains one isolated 2,428-character Arabic report, translated in full as a private French draft.
 - The source hash is retained. Focused single-item validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1072b–1075b
+
+- FR-LIB-HAD-MUSLIM-0461 saves four private French drafts about charity received by the Prophet’s family and Burayra. Muslim 1072b and 1073b refer back to earlier reports without reproducing them and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
