@@ -5756,3 +5756,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1122 saves one private French draft for the long account of Abû Bakr’s guests. It was handled as a one-record batch.
 - The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,135 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,494, including held records.
+
+### 2026-10-29: Bukhari 6141
+
+- FR-LIB-HAD-BUKHARI-1123 saves one private French draft for the long variant about Abû Bakr’s guests. It was handled as a one-record batch.
+- The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,136 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,493, including held records.
