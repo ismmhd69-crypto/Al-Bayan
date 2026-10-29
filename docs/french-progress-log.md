@@ -8533,3 +8533,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0281 saves one private French draft about two travelers appointing the older of them to lead prayer. Muslim 674b, 674c, 674e and 675b are incomplete reports; 675a quotes Quran 3:128. All five remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,126 Muslim drafts, 7,462 total hadith drafts, 7,167 remaining, and 532 Needs Mo items.
+
+### 2026-10-29: Muslim 675c–677c
+
+- FR-LIB-HAD-MUSLIM-0282 saves four private French drafts about the qunut supplication. Muslim 675d is an incomplete cross-reference; 677a quotes a passage identified in the source as Quran. Both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,130 Muslim drafts, 7,466 total hadith drafts, 7,163 remaining, and 534 Needs Mo items.

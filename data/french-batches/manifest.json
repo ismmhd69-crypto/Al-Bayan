@@ -34852,6 +34852,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0282",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0282.json",
+      "sourceIds": [
+        "7b68ccd6-45e9-4e24-bc31-58c2fe99e5bb",
+        "626de123-070e-466d-ae3d-5f93f9f0a4bd",
+        "38a276e2-4cf9-49c2-85a3-f94c30436078",
+        "5e969ff7-cc50-4068-89c5-576125340929",
+        "63673db8-cc18-4c3a-99d3-648057b94ecd",
+        "8a9e317b-45c5-4c1e-b5fb-d01db25862d5"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete cross-reference and one Quran quotation held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39159,8 +39180,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7462,
-  "hadithLocalRemaining": 7167,
+  "hadithLocalDrafted": 7466,
+  "hadithLocalRemaining": 7163,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40937,10 +40958,22 @@
       "scope": "Sahih Muslim 675b: incomplete source variant",
       "status": "blocked",
       "reason": "La source ne reprend qu’une partie du récit précédent puis précise qu’elle omet la suite. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0282-675D-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 675d: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source rapporte une partie du récit d’al-Awza‘i puis renvoie au texte précédent jusqu’à une formule donnée et précise qu’elle omet la suite. Garder toute la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0282-677A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 677a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit inclut une citation directe d’un passage coranique révélé au sujet des martyrs de Bi’r Ma‘una. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 1126,
-  "hadithDatabaseMissing": 7167,
+  "hadithMuslimDrafted": 1130,
+  "hadithDatabaseMissing": 7163,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 532
+  "hadithNeedsMo": 534
 }
