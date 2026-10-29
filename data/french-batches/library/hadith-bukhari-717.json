@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-717",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:12:41.772Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4db167fe-9a5f-4f28-bcc5-28fbd822b618",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4002",
+      "reference": "Sahih al-Bukhari, hadith 4002, book 64, كتاب المغازى",
+      "title": "كتاب المغازى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا هِشَامٌ، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ،‏.‏ حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي أَخِي، عَنْ سُلَيْمَانَ، عَنْ مُحَمَّدِ بْنِ أَبِي عَتِيقٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُودٍ، أَنَّ ابْنَ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ أَخْبَرَنِي أَبُو طَلْحَةَ ـ رضى الله عنه ـ صَاحِبُ رَسُولِ اللَّهِ صلى الله عليه وسلم وَكَانَ قَدْ شَهِدَ بَدْرًا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ لاَ تَدْخُلُ الْمَلاَئِكَةُ بَيْتًا فِيهِ كَلْبٌ وَلاَ صُورَةٌ ‏\"‏‏.‏ يُرِيدُ التَّمَاثِيلَ الَّتِي فِيهَا الأَرْوَاحُ‏.‏",
+      "source_hash_sha256": "f1c65a3f3be027f49f315a8a3ee854c6356ea4a533f22002ffa25ca907413e01",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbâs rapporte qu’Abû Talha, compagnon du Messager de Dieu et participant à Badr, lui dit que le Prophète avait déclaré : « Les anges n’entrent pas dans une maison où se trouvent un chien ou une image. » Il voulait parler des représentations d’êtres animés.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
