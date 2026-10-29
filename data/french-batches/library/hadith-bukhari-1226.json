@@ -1,0 +1,174 @@
+{
+  "batch_id": "HADITH-BUKHARI-1226",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:02:48.059Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f957a08f-f332-4cf9-bd78-b5bbf63df153",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6686",
+      "reference": "Sahih al-Bukhari, hadith 6686, book 83, باب إِنْ حَلَفَ أَنْ لاَ يَشْرَبَ نَبِيذًا فَشَرِبَ طِلاَءً أَوْ سَكَرًا أَوْ عَصِيرًا، لَمْ يَحْنَثْ فِي قَوْلِ بَعْضِ النَّاسِ، وَلَيْسَتْ هَذِهِ بِأَنْبِذَةٍ عِنْدَهُ",
+      "title": "باب إِنْ حَلَفَ أَنْ لاَ يَشْرَبَ نَبِيذًا فَشَرِبَ طِلاَءً أَوْ سَكَرًا أَوْ عَصِيرًا، لَمْ يَحْنَثْ فِي قَوْلِ بَعْضِ النَّاسِ، وَلَيْسَتْ هَذِهِ بِأَنْبِذَةٍ عِنْدَهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا إِسْمَاعِيلُ بْنُ أَبِي خَالِدٍ، عَنِ الشَّعْبِيِّ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ عَنْ سَوْدَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم قَالَتْ مَاتَتْ لَنَا شَاةٌ فَدَبَغْنَا مَسْكَهَا ثُمَّ مَا زِلْنَا نَنْبِذُ فِيهِ حَتَّى صَارَتْ شَنًّا‏.‏",
+      "source_hash_sha256": "8846b45207f3aa478cff866a2ce3d30caf8de842aaacaba4339a720e02ea315b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Muqâtil nous a rapporté : ‘Abd Allah nous a informés : Ismâ‘îl ibn Abî Khâlid nous a informés, d’après ash-Sha‘bî, d’après ‘Ikrima, d’après Ibn ‘Abbâs (qu’Allah les agrée tous deux), d’après Sawda, épouse du Prophète ﷺ, qui a dit : « Une brebis mourut chez nous. Nous avons tanné sa peau, puis nous avons continué à y préparer du nabîdh jusqu’à ce qu’elle devienne une outre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "39626e7c-1cb0-4577-badf-4ae6edb4c593",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6687",
+      "reference": "Sahih al-Bukhari, hadith 6687, book 83, باب إِذَا حَلَفَ أَنْ لاَ يَأْتَدِمَ، فَأَكَلَ تَمْرًا بِخُبْزٍ، وَمَا يَكُونُ مِنَ الأُدْمِ",
+      "title": "باب إِذَا حَلَفَ أَنْ لاَ يَأْتَدِمَ، فَأَكَلَ تَمْرًا بِخُبْزٍ، وَمَا يَكُونُ مِنَ الأُدْمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَابِسٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ مَا شَبِعَ آلُ مُحَمَّدٍ صلى الله عليه وسلم مِنْ خُبْزِ بُرٍّ مَأْدُومٍ ثَلاَثَةَ أَيَّامٍ حَتَّى لَحِقَ بِاللَّهِ‏.‏ وَقَالَ ابْنُ كَثِيرٍ أَخْبَرَنَا سُفْيَانُ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ أَبِيهِ، أَنَّهُ قَالَ لِعَائِشَةَ بِهَذَا‏.‏",
+      "source_hash_sha256": "d1f08547c06060b54f245367bd71be16b8c39164572e3dd4637b9b7fb54bcaf3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Yûsuf nous a rapporté : Sufyân nous a rapporté, d’après ‘Abd ar-Rahmân ibn ‘Âbis, d’après son père, d’après ‘Â’isha (qu’Allah l’agrée), qui a dit : « La famille de Muhammad ﷺ n’a jamais mangé à satiété du pain de blé accompagné d’un mets pendant trois jours consécutifs jusqu’à ce qu’il rejoigne Allah. » Ibn Kathîr a dit : Sufyân nous a informés : ‘Abd ar-Rahmân nous a rapporté, d’après son père, qui a dit la même chose à ‘Â’isha.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "da39d362-e8cd-49de-93f0-9fa5e41ae532",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6688",
+      "reference": "Sahih al-Bukhari, hadith 6688, book 83, باب إِذَا حَلَفَ أَنْ لاَ يَأْتَدِمَ، فَأَكَلَ تَمْرًا بِخُبْزٍ، وَمَا يَكُونُ مِنَ الأُدْمِ",
+      "title": "باب إِذَا حَلَفَ أَنْ لاَ يَأْتَدِمَ، فَأَكَلَ تَمْرًا بِخُبْزٍ، وَمَا يَكُونُ مِنَ الأُدْمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، عَنْ مَالِكٍ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ، أَنَّهُ سَمِعَ أَنَسَ بْنَ مَالِكٍ، قَالَ قَالَ أَبُو طَلْحَةَ لأُمِّ سُلَيْمٍ لَقَدْ سَمِعْتُ صَوْتَ، رَسُولِ اللَّهِ صلى الله عليه وسلم ضَعِيفًا أَعْرِفُ فِيهِ الْجُوعَ، فَهَلْ عِنْدَكِ مِنْ شَىْءٍ فَقَالَتْ نَعَمْ‏.‏ فَأَخْرَجَتْ أَقْرَاصًا مِنْ شَعِيرٍ، ثُمَّ أَخَذَتْ خِمَارًا لَهَا، فَلَفَّتِ الْخُبْزَ بِبَعْضِهِ، ثُمَّ أَرْسَلَتْنِي إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَهَبْتُ فَوَجَدْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فِي الْمَسْجِدِ وَمَعَهُ النَّاسُ، فَقُمْتُ عَلَيْهِمْ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَرْسَلَكَ أَبُو طَلْحَةَ ‏\"‏‏.‏ فَقُلْتُ نَعَمْ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِمَنْ مَعَهُ ‏\"‏ قُومُوا ‏\"‏‏.‏ فَانْطَلَقُوا، وَانْطَلَقْتُ بَيْنَ أَيْدِيهِمْ حَتَّى جِئْتُ أَبَا طَلْحَةَ فَأَخْبَرْتُهُ‏.‏ فَقَالَ أَبُو طَلْحَةَ يَا أُمَّ سُلَيْمٍ قَدْ جَاءَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَلَيْسَ عِنْدَنَا مِنَ الطَّعَامِ مَا نُطْعِمُهُمْ‏.‏ فَقَالَتِ اللَّهُ وَرَسُولُهُ أَعْلَمُ‏.‏ فَانْطَلَقَ أَبُو طَلْحَةَ حَتَّى لَقِيَ رَسُولَ اللَّهِ صلى الله عليه وسلم فَأَقْبَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَأَبُو طَلْحَةَ حَتَّى دَخَلاَ، فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ هَلُمِّي يَا أُمَّ سُلَيْمٍ مَا عِنْدَكِ ‏\"‏‏.‏ فَأَتَتْ بِذَلِكَ الْخُبْزِ ـ قَالَ ـ فَأَمَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم بِذَلِكَ الْخُبْزِ فَفُتَّ، وَعَصَرَتْ أُمُّ سُلَيْمٍ عُكَّةً لَهَا فَأَدَمَتْهُ، ثُمَّ قَالَ فِيهِ رَسُولُ اللَّهِ صلى الله عليه وسلم مَا شَاءَ اللَّهُ أَنْ يَقُولَ، ثُمَّ قَالَ ‏\"‏ ائْذَنْ لِعَشَرَةٍ ‏\"‏‏.‏ فَأَذِنَ لَهُمْ فَأَكَلُوا حَتَّى شَبِعُوا، ثُمَّ خَرَجُوا، ثُمَّ قَالَ ‏\"‏ ائْذَنْ لِعَشَرَةٍ ‏\"‏‏.‏ فَأَذِنَ لَهُمْ، فَأَكَلَ الْقَوْمُ كُلُّهُمْ وَشَبِعُوا، وَالْقَوْمُ سَبْعُونَ أَوْ ثَمَانُونَ رَجُلاً‏.‏",
+      "source_hash_sha256": "f6585d9ce49ba09664d60a5b3bfdeefb3ef28938551b7e8a702fff9005949e55",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba nous a rapporté, d’après Mâlik, d’après Ishâq ibn ‘Abd Allah ibn Abî Talha, qui a entendu Anas ibn Mâlik dire : Abû Talha dit à Umm Sulaym : « J’ai entendu la voix du Messager d’Allah ﷺ, faible, et j’y reconnais la faim. As-tu quelque chose ? » Elle répondit : « Oui. » Elle sortit des galettes d’orge, prit son voile, en enveloppa une partie du pain et m’envoya auprès du Messager d’Allah ﷺ. Je partis et le trouvai dans la mosquée, entouré de gens. Je me tins devant eux. Le Messager d’Allah ﷺ me demanda : « Abû Talha t’a envoyé ? » Je répondis : « Oui. » Le Messager d’Allah ﷺ dit à ceux qui l’accompagnaient : « Levez-vous. » Ils partirent, et je marchai devant eux jusqu’à arriver chez Abû Talha et à l’en informer. Abû Talha dit : « Umm Sulaym, le Messager d’Allah ﷺ est arrivé, et nous n’avons pas assez de nourriture pour les nourrir. » Elle répondit : « Allah et Son Messager savent mieux. » Abû Talha partit à la rencontre du Messager d’Allah ﷺ. Puis le Messager d’Allah ﷺ et Abû Talha revinrent ensemble et entrèrent. Le Messager d’Allah ﷺ dit : « Apporte ce que tu as, Umm Sulaym. » Elle apporta le pain. Le Messager d’Allah ﷺ ordonna qu’on l’émiette. Umm Sulaym pressa une petite outre de condiment et en assaisonna le pain. Le Messager d’Allah ﷺ prononça sur ce pain les paroles qu’Allah voulut, puis dit : « Autorise dix personnes à entrer. » Il les laissa entrer ; elles mangèrent jusqu’à satiété, puis sortirent. Il dit ensuite : « Autorise encore dix personnes à entrer. » Il les laissa entrer. Tous les gens mangèrent à satiété. Ils étaient soixante-dix ou quatre-vingts hommes.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "57419e0f-4226-4384-a896-4f00307a6c03",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6689",
+      "reference": "Sahih al-Bukhari, hadith 6689, book 83, باب النِّيَّةِ فِي الأَيْمَانِ",
+      "title": "باب النِّيَّةِ فِي الأَيْمَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْوَهَّابِ، قَالَ سَمِعْتُ يَحْيَى بْنَ سَعِيدٍ، يَقُولُ أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ، أَنَّهُ سَمِعَ عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ، يَقُولُ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ ـ رضى الله عنه ـ يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّمَا الأَعْمَالُ بِالنِّيَّةِ، وَإِنَّمَا لاِمْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ إِلَى دُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَتَزَوَّجُهَا، فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "7d0512b2b1b5cf8a08882489abc823a81b2ca3b7961457956f387c086a7b0a5b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : ‘Abd al-Wahhâb nous a rapporté : J’ai entendu Yahyâ ibn Sa‘îd dire : Muhammad ibn Ibrâhîm m’a informé avoir entendu ‘Alqama ibn Waqqâs al-Laythî dire : J’ai entendu ‘Umar ibn al-Khattâb (qu’Allah l’agrée) dire : J’ai entendu le Messager d’Allah ﷺ dire : « Les actes ne valent que par les intentions, et chacun n’aura que ce qu’il a eu l’intention de faire. Celui dont l’émigration est pour Allah et Son Messager, son émigration est pour Allah et Son Messager. Mais celui dont l’émigration est pour obtenir un bien de ce monde ou pour épouser une femme, son émigration est pour ce vers quoi il a émigré. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "53f58d70-cdc5-4b24-9710-bbb2c97627bd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6690",
+      "reference": "Sahih al-Bukhari, hadith 6690, book 83, باب إِذَا أَهْدَى مَالَهُ عَلَى وَجْهِ النَّذْرِ وَالتَّوْبَةِ",
+      "title": "باب إِذَا أَهْدَى مَالَهُ عَلَى وَجْهِ النَّذْرِ وَالتَّوْبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي عَبْدُ الرَّحْمَنِ، عَنْ عَبْدِ اللَّهِ بْنِ كَعْبِ بْنِ مَالِكٍ، وَكَانَ، قَائِدَ كَعْبٍ مِنْ بَنِيهِ حِينَ عَمِيَ ـ قَالَ سَمِعْتُ كَعْبَ بْنَ مَالِكٍ، فِي حَدِيثِهِ ‏[quran sura=\"9\" aya_start=\"118\" aya_end=\"118\"]{‏َعَلَى الثَّلاَثَةِ الَّذِينَ خُلِّفُوا‏}‏ َقَالَ فِي آخِرِ حَدِيثِهِ إِنَّ مِنْ تَوْبَتِي أَنِّي أَنْخَلِعُ مِنْ مَالِي صَدَقَةً إِلَى اللَّهِ وَرَسُولِهِ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ أَمْسِكْ عَلَيْكَ بَعْضَ مَالِكَ فَهْوَ خَيْرٌ لَكَ ‏\"‏‏.‏",
+      "source_hash_sha256": "4c635d5ef2aad48c3f8c206c946c5926f42bc3ac62d1bf10526132a207881356",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "The report directly quotes Quran 9:118. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "source_id": "5048f8fd-4b7b-4b51-9e0c-630da56ed7aa",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6691",
+      "reference": "Sahih al-Bukhari, hadith 6691, book 83, باب إِذَا حَرَّمَ طَعَامَهُ",
+      "title": "باب إِذَا حَرَّمَ طَعَامَهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحَسَنُ بْنُ مُحَمَّدٍ، حَدَّثَنَا الْحَجَّاجُ، عَنِ ابْنِ جُرَيْجٍ، قَالَ زَعَمَ عَطَاءٌ أَنَّهُ سَمِعَ عُبَيْدَ بْنَ عُمَيْرٍ، يَقُولُ سَمِعْتُ عَائِشَةَ، تَزْعُمُ أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَمْكُثُ عِنْدَ زَيْنَبَ بِنْتِ جَحْشٍ، وَيَشْرَبُ عِنْدَهَا عَسَلاً، فَتَوَاصَيْتُ أَنَا وَحَفْصَةُ أَنَّ أَيَّتَنَا دَخَلَ عَلَيْهَا النَّبِيُّ صلى الله عليه وسلم فَلْتَقُلْ إِنِّي أَجِدُ مِنْكَ رِيحَ مَغَافِيرَ، أَكَلْتَ مَغَافِيرَ فَدَخَلَ عَلَى إِحْدَاهُمَا فَقَالَتْ ذَلِكَ لَهُ‏.‏ فَقَالَ ‏\"‏ لاَ بَلْ شَرِبْتُ عَسَلاً عِنْدَ زَيْنَبَ بِنْتِ جَحْشٍ، وَلَنْ أَعُودَ لَهُ ‏\"‏‏.‏ فَنَزَلَتْ ‏[quran sura=\"66\" aya_start=\"1\" aya_end=\"1\"]{‏يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ‏}‏، ‏[quran sura=\"66\" aya_start=\"4\" aya_end=\"4\"]{‏إِنْ تَتُوبَا إِلَى اللَّهِ‏}‏، لِعَائِشَةَ وَحَفْصَةَ، ‏[quran sura=\"66\" aya_start=\"3\" aya_end=\"3\"]{‏وَإِذْ أَسَرَّ النَّبِيُّ إِلَى بَعْضِ أَزْوَاجِهِ حَدِيثًا‏}‏ لِقَوْلِهِ ‏\"‏ بَلْ شَرِبْتُ عَسَلاً ‏\"‏‏.‏ وَقَالَ لِي إِبْرَاهِيمُ بْنُ مُوسَى عَنْ هِشَامٍ، ‏\"‏ وَلَنْ أَعُودَ لَهُ، وَقَدْ حَلَفْتُ، فَلاَ تُخْبِرِي بِذَلِكَ أَحَدًا ‏\"‏‏.‏",
+      "source_hash_sha256": "095518ea16b70a83a6920283172d02b35cabf1ef3371e7b3a5cb114f67127de2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "The report directly quotes Quran 66:1, 66:4, and 66:3. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "53f58d70-cdc5-4b24-9710-bbb2c97627bd",
+      "url": "https://sunnah.com/bukhari:6690",
+      "reason": "The report directly quotes Quran 9:118. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "source_id": "5048f8fd-4b7b-4b51-9e0c-630da56ed7aa",
+      "url": "https://sunnah.com/bukhari:6691",
+      "reason": "The report directly quotes Quran 66:1, 66:4, and 66:3. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    }
+  ]
+}
