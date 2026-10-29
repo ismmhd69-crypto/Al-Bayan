@@ -5481,3 +5481,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1067 saves six private French drafts about rings and their inscriptions, retaining the chain variants and the report of the lost ring.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,900 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 750. Total local hadith rows not drafted: 9,729, including held records.
+
+### 2026-10-29: Bukhari 5880–5885
+
+- FR-LIB-HAD-BUKHARI-1068 saves six private French drafts about women’s jewelry, prayer, and the lost necklace report.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,906 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 750. Total local hadith rows not drafted: 9,723, including held records.
