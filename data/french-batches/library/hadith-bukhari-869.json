@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-BUKHARI-869",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:29:50.972Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ab8cdbb6-fea3-41ca-a6e0-1f1f764a98bc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4758",
+      "reference": "Sahih al-Bukhari, hadith 4758, book 65, باب ‏ {‏وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَى جُيُوبِهِنَّ‏} ‏",
+      "title": "باب ‏ {‏وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَى جُيُوبِهِنَّ‏} ‏",
+      "source_published": true,
+      "text_original": "وَقَالَ أَحْمَدُ بْنُ شَبِيبٍ حَدَّثَنَا أَبِي، عَنْ يُونُسَ، قَالَ ابْنُ شِهَابٍ عَنْ عُرْوَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ يَرْحَمُ اللَّهُ نِسَاءَ الْمُهَاجِرَاتِ الأُوَلَ، لَمَّا أَنْزَلَ اللَّهُ ‏ {‏وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَى جُيُوبِهِنَّ‏} ‏ شَقَّقْنَ مُرُوطَهُنَّ فَاخْتَمَرْنَ بِها‏.‏",
+      "source_hash_sha256": "84538f8399906f2a342222659feb80f64cdb6d9fe8de878a601c36481ccd21fc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "source_export_waiting_for_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "569b4d72-8ab4-4586-bd4f-84548913e2a5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4759",
+      "reference": "Sahih al-Bukhari, hadith 4759, book 65, باب ‏ {‏وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَى جُيُوبِهِنَّ‏} ‏",
+      "title": "باب ‏ {‏وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَى جُيُوبِهِنَّ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ نَافِعٍ، عَنِ الْحَسَنِ بْنِ مُسْلِمٍ، عَنْ صَفِيَّةَ بِنْتِ شَيْبَةَ، أَنَّ عَائِشَةَ ـ رضى الله عنها ـ كَانَتْ تَقُولُ لَمَّا نَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"24\" aya_start=\"31\" aya_end=\"31\"]{‏وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَى جُيُوبِهِنَّ‏}‏ أَخَذْنَ أُزْرَهُنَّ فَشَقَّقْنَهَا مِنْ قِبَلِ الْحَوَاشِي فَاخْتَمَرْنَ بِهَا‏.‏",
+      "source_hash_sha256": "0c92267ce8197e8c5071ad3146706c9d88295d960f004affc4c49deb5e95bcbf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "589ee152-fec7-49a6-bd27-3432a975881b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4760",
+      "reference": "Sahih al-Bukhari, hadith 4760, book 65, باب قَوْلِهِ ‏ {‏الَّذِينَ يُحْشَرُونَ عَلَى وُجُوهِهِمْ إِلَى جَهَنَّمَ أُولَئِكَ شَرٌّ مَكَانًا وَأَضَلُّ سَبِيلاً‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏الَّذِينَ يُحْشَرُونَ عَلَى وُجُوهِهِمْ إِلَى جَهَنَّمَ أُولَئِكَ شَرٌّ مَكَانًا وَأَضَلُّ سَبِيلاً‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا يُونُسُ بْنُ مُحَمَّدٍ الْبَغْدَادِيُّ، حَدَّثَنَا شَيْبَانُ، عَنْ قَتَادَةَ، حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ ـ رضى الله عنه ـ‏.‏ أَنَّ رَجُلاً، قَالَ يَا نَبِيَّ اللَّهِ يُحْشَرُ الْكَافِرُ عَلَى وَجْهِهِ يَوْمَ الْقِيَامَةِ قَالَ ‏\"‏ أَلَيْسَ الَّذِي أَمْشَاهُ عَلَى الرِّجْلَيْنِ فِي الدُّنْيَا قَادِرًا عَلَى أَنْ يُمْشِيَهُ عَلَى وَجْهِهِ يَوْمَ الْقِيَامَةِ ‏\"‏‏.‏ قَالَ قَتَادَةُ بَلَى وَعِزَّةِ رَبِّنَا‏.‏",
+      "source_hash_sha256": "e3e1b693c3537b14e8ac7f498928bfd3879896fb49737684f6bd5e5e51e266b7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik (qu’Allah l’agrée) rapporte qu’un homme demanda : « Ô Prophète d’Allah, comment le mécréant sera-t-il rassemblé le Jour de la Résurrection, sur son visage ? » Il répondit : « Celui qui l’a fait marcher sur ses deux pieds dans ce monde n’est-Il pas capable de le faire marcher sur son visage le Jour de la Résurrection ? » Qatâda dit : « Bien sûr, par la puissance de notre Seigneur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5f66e21-0d65-4760-9f2f-8ce140a917e6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4761",
+      "reference": "Sahih al-Bukhari, hadith 4761, book 65, باب قَوْلِهِ ‏ {‏وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلاَ يَزْنُونَ وَمَنْ يَفْعَلْ ذَلِكَ يَلْقَ أَثَامًا‏} ‏ الْعُقُوبَةَ",
+      "title": "باب قَوْلِهِ ‏ {‏وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلاَ يَزْنُونَ وَمَنْ يَفْعَلْ ذَلِكَ يَلْقَ أَثَامًا‏} ‏ الْعُقُوبَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ سُفْيَانَ، قَالَ حَدَّثَنِي مَنْصُورٌ، وَسُلَيْمَانُ، عَنْ أَبِي وَائِلٍ، عَنْ أَبِي مَيْسَرَةَ، عَنْ عَبْدِ اللَّهِ،‏.‏ قَالَ وَحَدَّثَنِي وَاصِلٌ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ قَالَ سَأَلْتُ ـ أَوْ سُئِلَ رَسُولُ اللَّهِ صلى الله عليه وسلم ـ أَىُّ الذَّنْبِ عِنْدَ اللَّهِ أَكْبَرُ قَالَ ‏\"‏ أَنْ تَجْعَلَ لِلَّهِ نِدًّا وَهْوَ خَلَقَكَ ‏\"‏‏.‏ قُلْتُ ثُمَّ أَىٌّ قَالَ ‏\"‏ ثُمَّ أَنْ تَقْتُلَ وَلَدَكَ خَشْيَةَ أَنْ يَطْعَمَ مَعَكَ‏\"‏‏.‏ قُلْتُ ثُمَّ أَىٌّ قَالَ ‏\"‏ أَنْ تُزَانِيَ بِحَلِيلَةِ جَارِكَ ‏\"‏‏.‏ قَالَ وَنَزَلَتْ هَذِهِ الآيَةُ تَصْدِيقًا لِقَوْلِ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏[quran sura=\"25\" aya_start=\"68\" aya_end=\"68\"]{‏وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلَا يَزْنُونَ‏}‏",
+      "source_hash_sha256": "05c1df0032131ad6d8fe56d36442d2e380d0240cd1026aa2f5adaaf4c1cacd00",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "289a6706-082c-494d-9cd7-8ef0023682fd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4762",
+      "reference": "Sahih al-Bukhari, hadith 4762, book 65, باب قَوْلِهِ ‏ {‏وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلاَ يَزْنُونَ وَمَنْ يَفْعَلْ ذَلِكَ يَلْقَ أَثَامًا‏} ‏ الْعُقُوبَةَ",
+      "title": "باب قَوْلِهِ ‏ {‏وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلاَ يَزْنُونَ وَمَنْ يَفْعَلْ ذَلِكَ يَلْقَ أَثَامًا‏} ‏ الْعُقُوبَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا هِشَامُ بْنُ يُوسُفَ، أَنَّ ابْنَ جُرَيْجٍ، أَخْبَرَهُمْ قَالَ أَخْبَرَنِي الْقَاسِمُ بْنُ أَبِي بَزَّةَ، أَنَّهُ سَأَلَ سَعِيدَ بْنَ جُبَيْرٍ هَلْ لِمَنْ قَتَلَ مُؤْمِنًا مُتَعَمِّدًا مِنْ تَوْبَةٍ فَقَرَأْتُ عَلَيْهِ ‏[quran sura=\"25\" aya_start=\"68\" aya_end=\"68\"]{‏وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ‏}‏‏.‏ فَقَالَ سَعِيدٌ قَرَأْتُهَا عَلَى ابْنِ عَبَّاسٍ كَمَا قَرَأْتَهَا عَلَىَّ‏.‏ فَقَالَ هَذِهِ مَكِّيَّةٌ نَسَخَتْهَا آيَةٌ مَدَنِيَّةٌ، الَّتِي فِي سُورَةِ النِّسَاءِ‏.‏",
+      "source_hash_sha256": "8d278ed1b0c7a484740646c71f66f8840fc4ff423fbd90073e56bc27c096f7c2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6ac89b49-f0b1-49ad-a0d8-63059d337789",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4763",
+      "reference": "Sahih al-Bukhari, hadith 4763, book 65, باب قَوْلِهِ ‏ {‏وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلاَ يَزْنُونَ وَمَنْ يَفْعَلْ ذَلِكَ يَلْقَ أَثَامًا‏} ‏ الْعُقُوبَةَ",
+      "title": "باب قَوْلِهِ ‏ {‏وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلاَ يَزْنُونَ وَمَنْ يَفْعَلْ ذَلِكَ يَلْقَ أَثَامًا‏} ‏ الْعُقُوبَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنِ الْمُغِيرَةِ بْنِ النُّعْمَانِ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، قَالَ اخْتَلَفَ أَهْلُ الْكُوفَةِ فِي قَتْلِ الْمُؤْمِنِ، فَرَحَلْتُ فِيهِ إِلَى ابْنِ عَبَّاسٍ، فَقَالَ نَزَلَتْ فِي آخِرِ مَا نَزَلَ وَلَمْ يَنْسَخْهَا شَىْءٌ‏.‏",
+      "source_hash_sha256": "6857058e77715f0406ca5e8adf264aae3c80f6d21eef6f7ffc398bb44298e8ae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Saʿîd ibn Jubayr rapporte que les habitants de Kûfa divergeaient au sujet du meurtre du croyant. Il se rendit donc auprès d’Ibn ʿAbbâs, qui lui dit : « Ce verset fut révélé parmi les dernières révélations, et rien ne l’a abrogé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "569b4d72-8ab4-4586-bd4f-84548913e2a5",
+      "url": "https://sunnah.com/bukhari:4759",
+      "reason": "Le rapport cite directement Quran 24:31. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "e5f66e21-0d65-4760-9f2f-8ce140a917e6",
+      "url": "https://sunnah.com/bukhari:4761",
+      "reason": "Le rapport cite directement Quran 25:68. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "289a6706-082c-494d-9cd7-8ef0023682fd",
+      "url": "https://sunnah.com/bukhari:4762",
+      "reason": "Le rapport cite directement Quran 25:68. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}

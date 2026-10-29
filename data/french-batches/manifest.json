@@ -18708,6 +18708,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-869",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-869.json",
+      "sourceIds": [
+        "ab8cdbb6-fea3-41ca-a6e0-1f1f764a98bc",
+        "569b4d72-8ab4-4586-bd4f-84548913e2a5",
+        "589ee152-fec7-49a6-bd27-3432a975881b",
+        "e5f66e21-0d65-4760-9f2f-8ce140a917e6",
+        "289a6706-082c-494d-9cd7-8ef0023682fd",
+        "6ac89b49-f0b1-49ad-a0d8-63059d337789"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -20372,9 +20393,27 @@
       "scope": "Sahih al-Bukhari 4757: very long report with multiple direct Quran quotations, including 12:18 and 24:11-22",
       "status": "blocked",
       "reason": "Hadith 4757 est un récit très long qui cite directement plusieurs passages du Quran, notamment 12:18 et 24:11-22. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-868, dans l’attente de traductions françaises approuvées et attribuées."
+    },
+    {
+      "id": "HADITH-BUKHARI-4759-QURAN-24-31",
+      "scope": "Sahih al-Bukhari 4759: direct Quran quotation (24:31)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 24:31. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4761-QURAN-25-68",
+      "scope": "Sahih al-Bukhari 4761: direct Quran quotation (25:68)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 25:68. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4762-QURAN-25-68",
+      "scope": "Sahih al-Bukhari 4762: direct Quran quotation (25:68)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 25:68. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4026,
-  "hadithLocalDrafted": 4026,
-  "hadithLocalRemaining": 10641
+  "hadithBukhariDrafted": 4028,
+  "hadithLocalDrafted": 4028,
+  "hadithLocalRemaining": 10639
 }
