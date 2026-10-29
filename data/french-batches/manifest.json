@@ -19182,6 +19182,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-892",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-892.json",
+      "sourceIds": [
+        "8f9c8411-44d1-4cce-bc92-3a765dbcdd7d"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -21428,6 +21444,12 @@
       "scope": "Sahih al-Bukhari 4885: direct Quran 59:6 wording absent from source tags",
       "status": "blocked",
       "reason": "Le rapport reprend directement Quran 59:6 dans l’expression « مما أفاء الله على رسوله », sans marqueur dans le texte source. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4889-QURAN-59-9",
+      "scope": "Sahih al-Bukhari 4889: direct Quran quotation from 59:9",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 59:9. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-892, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4059,

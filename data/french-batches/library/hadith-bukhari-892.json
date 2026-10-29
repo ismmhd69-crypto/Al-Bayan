@@ -1,0 +1,45 @@
+{
+  "batch_id": "HADITH-BUKHARI-892",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:37:49.816Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8f9c8411-44d1-4cce-bc92-3a765dbcdd7d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4889",
+      "reference": "Sahih al-Bukhari, hadith 4889, book 65, باب قَوْلِهِ ‏ {‏وَيُؤْثِرُونَ عَلَى أَنْفُسِهِمْ‏} ‏ الآيَةَ",
+      "title": "باب قَوْلِهِ ‏ {‏وَيُؤْثِرُونَ عَلَى أَنْفُسِهِمْ‏} ‏ الآيَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَعْقُوبُ بْنُ إِبْرَاهِيمَ بْنِ كَثِيرٍ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا فُضَيْلُ بْنُ غَزْوَانَ، حَدَّثَنَا أَبُو حَازِمٍ الأَشْجَعِيُّ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ أَتَى رَجُلٌ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ أَصَابَنِي الْجَهْدُ فَأَرْسَلَ إِلَى نِسَائِهِ فَلَمْ يَجِدْ عِنْدَهُنَّ شَيْئًا، فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَلاَ رَجُلٌ يُضَيِّفُ هَذِهِ اللَّيْلَةَ يَرْحَمُهُ اللَّهُ ‏\"‏‏.‏ فَقَامَ رَجُلٌ مِنَ الأَنْصَارِ فَقَالَ أَنَا يَا رَسُولَ اللَّهِ‏.‏ فَذَهَبَ إِلَى أَهْلِهِ فَقَالَ لاِمْرَأَتِهِ ضَيْفُ رَسُولِ اللَّهِ صلى الله عليه وسلم لاَ تَدَّخِرِيهِ شَيْئًا‏.‏ قَالَتْ وَاللَّهِ مَا عِنْدِي إِلاَّ قُوتُ الصِّبْيَةِ‏.‏ قَالَ فَإِذَا أَرَادَ الصِّبْيَةُ الْعَشَاءَ فَنَوِّمِيهِمْ، وَتَعَالَىْ فَأَطْفِئِي السِّرَاجَ وَنَطْوِي بُطُونَنَا اللَّيْلَةَ‏.‏ فَفَعَلَتْ ثُمَّ غَدَا الرَّجُلُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ لَقَدْ عَجِبَ اللَّهُ عَزَّ وَجَلَّ ـ أَوْ ضَحِكَ ـ مِنْ فُلاَنٍ وَفُلاَنَةَ ‏\"‏‏.‏ فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"59\" aya_start=\"9\" aya_end=\"9\"]{‏وَيُؤْثِرُونَ عَلَى أَنْفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ‏}‏",
+      "source_hash_sha256": "a2771d11feef5144f9d737e72da1d11c035f44ab89aa1df1686aac0db4470876",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "8f9c8411-44d1-4cce-bc92-3a765dbcdd7d",
+      "url": "https://sunnah.com/bukhari:4889",
+      "reason": "Le rapport cite directement Quran 59:9. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-892, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
