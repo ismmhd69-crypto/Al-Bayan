@@ -8513,3 +8513,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0277 saves four private French drafts about praying on a mat and walking to the mosque. Muslim 663b and 663d are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,111 Muslim drafts, 7,447 total hadith drafts, 7,182 remaining, and 523 Needs Mo items.
+
+### 2026-10-29: Muslim 664–668
+
+- FR-LIB-HAD-MUSLIM-0278 saves six private French drafts about walking to the mosque and the five daily prayers.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,117 Muslim drafts, 7,453 total hadith drafts, 7,176 remaining, and 523 Needs Mo items.
