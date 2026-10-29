@@ -3786,3 +3786,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-774` saves three private French drafts with Salama ibn al-Akwaʿ’s accounts of expeditions with the Prophet.
 - All three records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,772 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 311. Total local hadith rows not drafted: 10,885, including held records.
+
+### 2026-10-29: Bukhari 4274
+
+- `FR-LIB-HAD-BUKHARI-775` preserves the report blank because it directly quotes Quran 60:1 and includes divine speech matching Quran 41:40. The hold is recorded for Mo.
+- The record passed the focused validator with its private hold. No database writes or publication occurred. Bukhari local drafts: 3,772 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 312. Total local hadith rows not drafted: 10,885, including held records.

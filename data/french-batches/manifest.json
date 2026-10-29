@@ -16604,6 +16604,23 @@
   "published": 0,
   "status": "local draft"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-775",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-775.json",
+  "sourceIds": [
+    "b71233c6-aa50-4fca-898f-2853bd914a46"
+  ],
+  "translated": 0,
+  "inserted": 0,
+  "preserved": 1,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "held"
+}
   ],
   "blockers": [
     {
@@ -17070,6 +17087,14 @@
   "scope": "Sahih al-Bukhari 4267: abbreviated lament with unspecified words",
   "status": "blocked",
   "reason": "The report includes an abbreviated lament, وا جبلاه واكذا وكذا, without the specific words listed. Its wording and intended sense are unclear, so the complete record remains blank in FR-LIB-HAD-BUKHARI-773 pending clarification."
+}
+
+,
+    {
+  "id": "HADITH-BUKHARI-4274-QURAN-60-1-41-40",
+  "scope": "Sahih al-Bukhari 4274: direct quotation of Quran 60:1 and divine speech matching Quran 41:40",
+  "status": "blocked",
+  "reason": "The report directly quotes Quran 60:1. It also includes divine speech matching the wording اعملوا ما شئتم from Quran 41:40. The complete record remains blank in FR-LIB-HAD-BUKHARI-775 pending an approved, attributed French Quran translation."
 }
   ],
   "hadithBukhariDrafted": 3772,
