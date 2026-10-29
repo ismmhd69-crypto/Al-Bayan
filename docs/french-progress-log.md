@@ -11410,3 +11410,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1816-1820
 
 - FR-LIB-HAD-MUSLIM-0862 saves six private French drafts: accounts of Dhât al-Riqâ‘ and Badr, along with reports about Quraysh. Chains, events, and wording variants are preserved. No Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1821a-1821f
+
+- FR-LIB-HAD-MUSLIM-0863 saves six private French drafts of reports about twelve caliphs. The chains and wording variants are preserved, including the narrator’s inability to hear part of the statement. No Quran quotation appears in these entries. No database write or publication occurred.
