@@ -34740,10 +34740,10 @@
         "d3996e75-63dc-40c7-a9d7-c616f400932a",
         "374fbbaa-e367-432b-a464-6692ebebba4c"
       ],
-      "translated": 5,
+      "translated": 4,
       "inserted": 0,
       "preserved": 0,
-      "validation": "pending focused batch validation; one incomplete cross-reference held blank under Needs Mo",
+      "validation": "pending focused batch validation; two incomplete cross-references held blank under Needs Mo",
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
@@ -39054,8 +39054,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7444,
-  "hadithLocalRemaining": 7185,
+  "hadithLocalDrafted": 7443,
+  "hadithLocalRemaining": 7186,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -40760,10 +40760,16 @@
       "scope": "Sahih Muslim 657c: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source ne donne que la chaîne de transmission et renvoie au récit précédent, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0276-660C-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 660c: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source ne rapporte que la chaîne de transmission et renvoie au récit précédent sans en reprendre le texte. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1108,
-  "hadithDatabaseMissing": 7185,
+  "hadithMuslimDrafted": 1107,
+  "hadithDatabaseMissing": 7186,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 520
+  "hadithNeedsMo": 521
 }

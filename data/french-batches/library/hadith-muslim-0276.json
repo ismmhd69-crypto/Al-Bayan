@@ -148,8 +148,8 @@
         "translation_index_allowed": false,
         "expires_at": null
       },
-      "text_french": "Muhammad ibn al-Muthanna nous l’a rapporté : Muhammad ibn Ja‘far nous a rapporté. Zuhayr ibn Harb nous l’a également rapporté : ‘Abd al-Rahman — c’est-à-dire Ibn Mahdi — nous a rapporté : Shu‘ba nous a rapporté, avec la même chaîne de transmission.",
-      "draft_status": "private_local_ai_draft",
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
       "database_inserted": false,
       "translation_published": false,
       "human_reviewed": false
@@ -159,6 +159,10 @@
     {
       "source_id": "56be8f75-53a7-4768-9467-a04a859eb958",
       "reason": "La source ne donne que la chaîne de transmission et renvoie au récit précédent, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "source_id": "374fbbaa-e367-432b-a464-6692ebebba4c",
+      "reason": "La source ne rapporte que la chaîne de transmission et renvoie au récit précédent sans en reprendre le texte. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ]
 }
