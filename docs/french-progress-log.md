@@ -12398,3 +12398,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2380c
 
 - FR-LIB-HAD-MUSLIM-1109 preserves the long Moses and al-Khidr report with embedded Quran passages as a blank French draft, with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-30: Muslim 2380d-2382b
+
+- FR-LIB-HAD-MUSLIM-1110 saves two complete reports as private French drafts. Two Quran-quotation reports and two incomplete transmission variants remain blank with specific Needs Mo reasons. No database write or publication occurred.

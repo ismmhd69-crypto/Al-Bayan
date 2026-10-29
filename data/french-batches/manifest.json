@@ -48417,6 +48417,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1110",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1110.json",
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "two complete reports translated as private drafts; two Quran-quotation reports and two incomplete transmission variants left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52724,8 +52737,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9701,
-  "hadithLocalRemaining": 4825,
+  "hadithLocalDrafted": 9703,
+  "hadithLocalRemaining": 4823,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -58487,10 +58500,30 @@
       "source_id": "e5379ea7-8db3-4dd4-9e44-369e53200719",
       "reason": "Ce très long récit de Moïse et al-Khidr contient plusieurs passages coraniques cités ou paraphrasés, et se termine par une référence à la suite d’un verset. Garder la traduction française vide jusqu’à vérification des traductions coraniques autorisées et de leur attribution.",
       "status": "blocked"
+    },
+    {
+      "source_id": "fba73080-7cc9-4b83-abe7-ea3f35fadd00",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1c1ae2fb-6983-455f-9481-718c770f1714",
+      "reason": "Cette entrée ne contient qu’un fragment de citation coranique. Garder la traduction française vide jusqu’à vérification de la traduction autorisée et de son attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "efc7d924-9fdd-413b-b1e0-c89cce741352",
+      "reason": "Ce récit reprend plusieurs passages coraniques sous forme de paroles rapportées. Garder la traduction française vide jusqu’à vérification des traductions autorisées et de leur attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d487b04d-a854-4da0-aae2-dcd37e14db30",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3538,
+  "hadithMuslimDrafted": 3540,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1479
+  "hadithNeedsMo": 1483
 }
