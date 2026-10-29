@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:06:52.782Z",
+  "lastReconciled": "2026-10-29T14:07:14.479Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 220,
+    "hadithMuslimDrafted": 224,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6556,
-    "hadithDatabaseMissing": 8073,
-    "hadithLocalRemaining": 8073,
-    "hadithNeedsMo": 183,
+    "hadithLocalDrafted": 6560,
+    "hadithDatabaseMissing": 8069,
+    "hadithLocalRemaining": 8069,
+    "hadithNeedsMo": 185,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30049,6 +30049,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0046",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0046.json",
+      "sourceIds": [
+        "85e1393f-17e3-4bda-9dfd-86ea033cd453",
+        "761adb85-946c-4d10-990c-0c23fc01d48b",
+        "635c44f7-e95b-421d-9516-3f4b8be29067",
+        "747dd877-f7b9-4adf-915d-33155bbdec91",
+        "275baf2a-ec35-4d48-acbe-a07fd797524b",
+        "689e769d-8864-4daf-93b5-aa75a1176a4e"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotations retained in Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34005,11 +34026,23 @@
       "scope": "Sahih Muslim 110c: incomplete Arabic source",
       "status": "blocked",
       "reason": "La source arabe s’interrompt après la chaîne de transmission, avant le texte du hadith. Garder la traduction française en attente jusqu’à ce qu’une source complète et vérifiée soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-119A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 119 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 49:2 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-119C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 119 c: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 49:2 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6556,
-  "hadithLocalRemaining": 8073,
+  "hadithLocalDrafted": 6560,
+  "hadithLocalRemaining": 8069,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -35108,10 +35141,22 @@
       "scope": "Sahih Muslim 110c: incomplete Arabic source",
       "status": "blocked",
       "reason": "La source arabe s’interrompt après la chaîne de transmission, avant le texte du hadith. Garder la traduction française en attente jusqu’à ce qu’une source complète et vérifiée soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-119A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 119 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 49:2 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-119C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 119 c: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement le verset 49:2 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 220,
-  "hadithDatabaseMissing": 8073,
+  "hadithMuslimDrafted": 224,
+  "hadithDatabaseMissing": 8069,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 183
+  "hadithNeedsMo": 185
 }
