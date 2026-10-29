@@ -8558,3 +8558,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0286 records one long source (4,657 Arabic characters), isolated under the batch size rule. It directly quotes Quran 20:14, so the French text remains blank under Needs Mo.
 - The source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,141 Muslim drafts, 7,477 total hadith drafts, 7,152 remaining, and 539 Needs Mo items.
+
+### 2026-10-29: Muslim 682a
+
+- FR-LIB-HAD-MUSLIM-0287 saves one private French draft from the 2,770-character report about a delayed prayer during travel, finding water, and helping a widowed mother and her children. The long source was processed alone.
+- Its source hash is retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,142 Muslim drafts, 7,478 total hadith drafts, 7,151 remaining, and 539 Needs Mo items.

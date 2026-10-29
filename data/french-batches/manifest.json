@@ -34949,6 +34949,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0287",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0287.json",
+      "sourceIds": [
+        "a9a7dd88-d14e-424e-bca1-2255b36aa9fd"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; 2,770-character source isolated as a single-item batch",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39256,8 +39272,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7477,
-  "hadithLocalRemaining": 7152,
+  "hadithLocalDrafted": 7478,
+  "hadithLocalRemaining": 7151,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41078,8 +41094,8 @@
       "reason": "Ce long récit (4 657 caractères) cite directement le verset 20:14 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 1141,
-  "hadithDatabaseMissing": 7152,
+  "hadithMuslimDrafted": 1142,
+  "hadithDatabaseMissing": 7151,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 539
 }
