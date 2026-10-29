@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0504",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:42:07.750Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "090fb546-6727-433d-abc0-61151981e1c9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1159i",
+      "reference": "Sahih Muslim, hadith 1159 i, book 13, بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "title": "بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا ابْنُ بِشْرٍ، عَنْ مِسْعَرٍ، حَدَّثَنَا حَبِيبُ بْنُ أَبِي ثَابِتٍ، بِهَذَا الإِسْنَادِ وَقَالَ ‏\"‏ وَنَفِهَتِ النَّفْسُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5861df20adc23d7a6bc9e00346e70a72d77f82cb4d1874b5ad87d777cba55fb5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "02fae750-4977-4816-9503-a52012cc55ef",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1159j",
+      "reference": "Sahih Muslim, hadith 1159 j, book 13, بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "title": "بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عَمْرٍو، عَنْ أَبِي الْعَبَّاسِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، - رضى الله عنهما - قَالَ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَلَمْ أُخْبَرْ أَنَّكَ تَقُومُ اللَّيْلَ وَتَصُومُ النَّهَارَ ‏\"‏ ‏.‏ قُلْتُ إِنِّي أَفْعَلُ ذَلِكَ ‏.‏ قَالَ ‏\"‏ فَإِنَّكَ إِذَا فَعَلْتَ ذَلِكَ هَجَمَتْ عَيْنَاكَ وَنَفِهَتْ نَفْسُكَ لِعَيْنِكَ حَقٌّ وَلِنَفْسِكَ حَقٌّ وَلأَهْلِكَ حَقٌّ قُمْ وَنَمْ وَصُمْ وَأَفْطِرْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d765b26e3fcbf5b427a61e0a4ae8ca7c9719fc458cb79f2a22ff986cbae98c9d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Sufyan ibn ‘Uyayna nous a rapporté, d’après ‘Amr, d’après Abu al-‘Abbas, d’après ‘Abd Allah ibn ‘Amr, qu’Allah les agrée tous deux, qui a dit : le Messager d’Allah ﷺ m’a dit : « M’a-t-on informé que tu pries la nuit et jeûnes le jour ? » Je répondis : « Je le fais. » Il dit : « Si tu fais cela, tes yeux s’enfonceront et tu t’épuiseras. Tes yeux ont des droits sur toi, ton âme a des droits sur toi et ta famille a des droits sur toi. Lève-toi et dors ; jeûne et interromps ton jeûne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ada1c9a8-4b6e-4356-a134-bb557591bfdf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1159k",
+      "reference": "Sahih Muslim, hadith 1159 k, book 13, بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "title": "بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالَ زُهَيْرٌ حَدَّثَنَا سُفْيَانُ بْنُ، عُيَيْنَةَ عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ عَمْرِو بْنِ أَوْسٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، - رضى الله عنهما - قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ أَحَبَّ الصِّيَامِ إِلَى اللَّهِ صِيَامُ دَاوُدَ وَأَحَبَّ الصَّلاَةِ إِلَى اللَّهِ صَلاَةُ دَاوُدَ عَلَيْهِ السَّلاَمُ كَانَ يَنَامُ نِصْفَ اللَّيْلِ وَيَقُومُ ثُلُثَهُ وَيَنَامُ سُدُسَهُ وَكَانَ يَصُومُ يَوْمًا وَيُفْطِرُ يَوْمًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bdcdc106d1006b83451d3439f7c5ae7e848b4ea4f4b68e0d0fa3faa52d50107d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba et Zuhayr ibn Harb nous ont rapporté. Zuhayr dit : Sufyan ibn ‘Uyayna nous a rapporté, d’après ‘Amr ibn Dinar, d’après ‘Amr ibn Aws, d’après ‘Abd Allah ibn ‘Amr, qu’Allah les agrée tous deux, qui a dit : le Messager d’Allah ﷺ a dit : « Le jeûne le plus aimé d’Allah est celui de Dawud, et la prière la plus aimée d’Allah est celle de Dawud, paix sur lui. Il dormait la moitié de la nuit, en priait un tiers, puis dormait le sixième restant. Il jeûnait un jour et interrompait son jeûne le jour suivant. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fa09b472-1c38-4480-805e-1553c59ecc7e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1159l",
+      "reference": "Sahih Muslim, hadith 1159 l, book 13, بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "title": "بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي عَمْرُو، بْنُ دِينَارٍ أَنَّ عَمْرَو بْنَ أَوْسٍ، أَخْبَرَهُ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ، - رضى الله عنهما - أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ أَحَبُّ الصِّيَامِ إِلَى اللَّهِ صِيَامُ دَاوُدَ كَانَ يَصُومُ نِصْفَ الدَّهْرِ وَأَحَبُّ الصَّلاَةِ إِلَى اللَّهِ عَزَّ وَجَلَّ صَلاَةُ دَاوُدَ - عَلَيْهِ السَّلاَمُ - كَانَ يَرْقُدُ شَطْرَ اللَّيْلِ ثُمَّ يَقُومُ ثُمَّ يَرْقُدُ آخِرَهُ يَقُومُ ثُلُثَ اللَّيْلِ بَعْدَ شَطْرِهِ ‏\"‏ ‏.‏ قَالَ قُلْتُ لِعَمْرِو بْنِ دِينَارٍ أَعَمْرُو بْنُ أَوْسٍ كَانَ يَقُولُ يَقُومُ ثُلُثَ اللَّيْلِ بَعْدَ شَطْرِهِ قَالَ نَعَمْ ‏.‏",
+      "source_hash_sha256": "39bf5d0b373414f697c489acd6fa3a5ed74bcb4221f2c515f72deaaa143a5275",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi‘ m’a rapporté : ‘Abd al-Razzaq nous a rapporté : Ibn Jurayj nous a informés : ‘Amr ibn Dinar m’a rapporté qu’‘Amr ibn Aws lui avait rapporté, d’après ‘Abd Allah ibn ‘Amr ibn al-‘As, qu’Allah les agrée tous deux : le Prophète ﷺ a dit : « Le jeûne le plus aimé d’Allah est celui de Dawud : il jeûnait la moitié du temps. La prière la plus aimée d’Allah, Puissant et Majestueux, est celle de Dawud, paix sur lui : il dormait la moitié de la nuit, puis se levait, puis dormait à la fin de la nuit ; après la première moitié, il priait pendant un tiers de la nuit. » J’ai demandé à ‘Amr ibn Dinar : « ‘Amr ibn Aws disait-il qu’il priait un tiers de la nuit après sa moitié ? » Il répondit : « Oui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "55901f9f-ea97-46a3-a861-94010dbe1831",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1159m",
+      "reference": "Sahih Muslim, hadith 1159 m, book 13, بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "title": "بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا خَالِدُ بْنُ عَبْدِ اللَّهِ، عَنْ خَالِدٍ، عَنْ أَبِي قِلاَبَةَ، قَالَ أَخْبَرَنِي أَبُو الْمَلِيحِ، قَالَ دَخَلْتُ مَعَ أَبِيكَ عَلَى عَبْدِ اللَّهِ بْنِ عَمْرٍو فَحَدَّثَنَا أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم ذُكِرَ لَهُ صَوْمِي فَدَخَلَ عَلَىَّ فَأَلْقَيْتُ لَهُ وِسَادَةً مِنْ أَدَمٍ حَشْوُهَا لِيفٌ فَجَلَسَ عَلَى الأَرْضِ وَصَارَتِ الْوِسَادَةُ بَيْنِي وَبَيْنَهُ فَقَالَ لِي ‏\"‏ أَمَا يَكْفِيكَ مِنْ كُلِّ شَهْرٍ ثَلاَثَةُ أَيَّامٍ ‏\"‏ ‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ خَمْسًا ‏\"‏ ‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ سَبْعًا ‏\"‏ ‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ تِسْعًا ‏\"‏ ‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ أَحَدَ عَشَرَ ‏\"‏ ‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لاَ صَوْمَ فَوْقَ صَوْمِ دَاوُدَ شَطْرُ الدَّهْرِ صِيَامُ يَوْمٍ وَإِفْطَارُ يَوْمٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1f06b78305dd3f94f416f05f19a037836c5e549e16f17fb3446c33eb43b6edd1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Khalid ibn ‘Abd Allah nous a informés, d’après Khalid, d’après Abu Qilaba, qui a dit : Abu al-Malih m’a rapporté : « Avec ton père, je suis allé voir ‘Abd Allah ibn ‘Amr. Il nous raconta que le Messager d’Allah ﷺ avait été informé de mon jeûne. Il vint chez moi. Je lui tendis un coussin en cuir rembourré de fibres, mais il s’assit par terre, le coussin étant entre nous. Il me dit : “Ne te suffisent-ils pas, trois jours de jeûne chaque mois ?” Je répondis : “Messager d’Allah…” Il dit : “Cinq.” Je répondis : “Messager d’Allah…” Il dit : “Sept.” Je répondis : “Messager d’Allah…” Il dit : “Neuf.” Je répondis : “Messager d’Allah…” Il dit : “Onze.” Je répondis : “Messager d’Allah…” Le Prophète ﷺ dit alors : “Il n’y a pas de jeûne meilleur que celui de Dawud : la moitié du temps, un jour de jeûne et un jour sans jeûne.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2cf4b8c6-fbb3-4005-92fb-920d8664f6e7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1159n",
+      "reference": "Sahih Muslim, hadith 1159 n, book 13, بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "title": "بَاب النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ أَوْ فَوَّتَ بِهِ حَقًّا أَوْ لَمْ يُفْطِرْ الْعِيدَيْنِ وَالتَّشْرِيقَ وَبَيَانِ تَفْضِيلِ صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا غُنْدَرٌ، عَنْ شُعْبَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ زِيَادِ بْنِ فَيَّاضٍ، قَالَ سَمِعْتُ أَبَا عِيَاضٍ، عَنْ عَبْدِ، اللَّهِ بْنِ عَمْرٍو - رضى الله عنهما - أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ لَهُ ‏\"‏ صُمْ يَوْمًا وَلَكَ أَجْرُ مَا بَقِيَ ‏\"‏ ‏.‏ قَالَ إِنِّي أُطِيقُ أَكْثَرَ مِنْ ذَلِكَ ‏.‏ قَالَ ‏\"‏ صُمْ يَوْمَيْنِ وَلَكَ أَجْرُ مَا بَقِيَ ‏\"‏ ‏.‏ قَالَ إِنِّي أُطِيقُ أَكْثَرَ مِنْ ذَلِكَ ‏.‏ قَالَ ‏\"‏ صُمْ ثَلاَثَةَ أَيَّامٍ وَلَكَ أَجْرُ مَا بَقِيَ ‏\"‏ ‏.‏ قَالَ إِنِّي أُطِيقُ أَكْثَرَ مِنْ ذَلِكَ ‏.‏ قَالَ ‏\"‏ صُمْ أَرْبَعَةَ أَيَّامٍ وَلَكَ أَجْرُ مَا بَقِيَ ‏\"‏ ‏.‏ قَالَ إِنِّي أُطِيقُ أَكْثَرَ مِنْ ذَلِكَ ‏.‏ قَالَ ‏\"‏ صُمْ أَفْضَلَ الصِّيَامِ عِنْدَ اللَّهِ صَوْمَ دَاوُدَ - عَلَيْهِ السَّلاَمُ - كَانَ يَصُومُ يَوْمًا وَيُفْطِرُ يَوْمًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "125eebacbeab456418bddddbab2cffe4141a56eb5481171cf90dd37f23b6dba0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Ghundar nous a rapporté, d’après Shu‘ba. Muhammad ibn al-Muthanna nous a aussi rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Ziyad ibn Fayyad, qui a dit : j’ai entendu Abu ‘Iyad rapporter d’après ‘Abd Allah ibn ‘Amr, qu’Allah les agrée tous deux, que le Messager d’Allah ﷺ lui dit : « Jeûne un jour, et tu auras la récompense pour le reste. » Il répondit : « Je peux en faire davantage. » Il dit : « Jeûne deux jours, et tu auras la récompense pour le reste. » Il répondit : « Je peux en faire davantage. » Il dit : « Jeûne trois jours, et tu auras la récompense pour le reste. » Il répondit : « Je peux en faire davantage. » Il dit : « Jeûne quatre jours, et tu auras la récompense pour le reste. » Il répondit : « Je peux en faire davantage. » Il dit : « Le meilleur jeûne auprès d’Allah est celui de Dawud, paix sur lui : il jeûnait un jour et interrompait son jeûne le jour suivant. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "090fb546-6727-433d-abc0-61151981e1c9",
+      "reason": "La source ne donne qu’une variante d’expression du récit précédent sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
