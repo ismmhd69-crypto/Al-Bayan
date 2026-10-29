@@ -11610,3 +11610,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1941b-1943b
 
 - FR-LIB-HAD-MUSLIM-0912 saves four private French drafts about horse meat, wild asses, and the desert lizard. Two chain-only entries remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1943c-1945a
+
+- FR-LIB-HAD-MUSLIM-0913 saves five private French drafts about the desert lizard and its permissibility, preserving the reports’ distinctions. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
