@@ -38607,6 +38607,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0465",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0465.json",
+      "sourceIds": [
+        "7661b10a-542e-46e4-a416-f2e6ac0117a0",
+        "461aba3f-10a3-4d08-ab51-b77a8ddf2e4f",
+        "90af436d-45a6-4896-8da9-e0f54b6041b5",
+        "789c9af1-f189-4ade-bf3f-e36d7d92b8ca",
+        "82ec5abc-bb87-41f6-ae2f-7dcfd62b3296",
+        "050638e2-5dca-4d5d-bdaf-30e9386270c1"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one chain-and-variant-only cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42914,8 +42935,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8154,
-  "hadithLocalRemaining": 6475,
+  "hadithLocalDrafted": 8159,
+  "hadithLocalRemaining": 6470,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -46014,8 +46035,8 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1818,
+  "hadithMuslimDrafted": 1823,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 849
+  "hadithNeedsMo": 850
 }
