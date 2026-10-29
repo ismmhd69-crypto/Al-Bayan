@@ -1276,3 +1276,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-268` saves six private French drafts for Bukhari 1537 and 1539–1543. They preserve the reports about perfume during ihram, clothing restrictions, and the talbiya during the journey from Arafat. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,417 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 78. Total local hadith rows not drafted: 13,212, including held records.
+
+### 2026-10-29: Bukhari 1545–1550 source review
+
+- `FR-LIB-HAD-BUKHARI-269` saves six private French drafts for Bukhari 1545–1550. They preserve the detailed account of the Prophet’s journey and rites, the prayer reports, and the transmitted wordings of the talbiya. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,423 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 78. Total local hadith rows not drafted: 13,206, including held records.
