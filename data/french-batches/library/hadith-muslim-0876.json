@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0876",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:10:47.700Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e5cdd052-8c25-4618-9868-39c4fdd18808",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1849a",
+      "reference": "Sahih Muslim, hadith 1849 a, book 33, باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "title": "باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَسَنُ بْنُ الرَّبِيعِ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنِ الْجَعْدِ أَبِي عُثْمَانَ، عَنْ أَبِي، رَجَاءٍ عَنِ ابْنِ عَبَّاسٍ، يَرْوِيهِ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ رَأَى مِنْ أَمِيرِهِ شَيْئًا يَكْرَهُهُ فَلْيَصْبِرْ فَإِنَّهُ مَنْ فَارَقَ الْجَمَاعَةَ شِبْرًا فَمَاتَ فَمِيتَةٌ جَاهِلِيَّةٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "33f4532daa3edbf2006dedb573f61351fa5255947b0fd70e867791935050bcea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hasan ibn ar-Rabî‘ nous a rapporté : Hammâd ibn Zayd nous a rapporté, d’après al-Ja‘d, Abû ‘Uthmân, d’après Abû Rajâ’, d’après Ibn ‘Abbâs, qui rapporte ces paroles du Prophète : « Celui qui voit chez son émir quelque chose qui lui déplaît, qu’il patiente. Celui qui se sépare de la communauté ne serait-ce que d’un empan, puis meurt, meurt d’une mort de l’époque de l’ignorance. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a622983f-9b4a-4d8e-a821-2f83b15d7999",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1849b",
+      "reference": "Sahih Muslim, hadith 1849 b, book 33, باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "title": "باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا الْجَعْدُ، حَدَّثَنَا أَبُو رَجَاءٍ، الْعُطَارِدِيُّ عَنِ ابْنِ عَبَّاسٍ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ كَرِهَ مِنْ أَمِيرِهِ شَيْئًا فَلْيَصْبِرْ عَلَيْهِ فَإِنَّهُ لَيْسَ أَحَدٌ مِنَ النَّاسِ خَرَجَ مِنَ السُّلْطَانِ شِبْرًا فَمَاتَ عَلَيْهِ إِلاَّ مَاتَ مِيتَةً جَاهِلِيَّةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b7609f364c1214ac410b3d73e76cad44fd31449456b65be0970bf25b293b947f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shaybân ibn Farrûkh nous a rapporté : ‘Abd al-Wârith nous a rapporté : al-Ja‘d nous a rapporté : Abû Rajâ’ al-‘Utâridî nous a rapporté, d’après Ibn ‘Abbâs, d’après le Messager d’Allah, qui a dit : « Celui qui désapprouve quelque chose chez son émir, qu’il patiente. Nul ne se détache de l’autorité, ne serait-ce que d’un empan, puis meurt dans cet état sans mourir d’une mort de l’époque de l’ignorance. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bb1e614c-9bfb-43f6-87c9-f36d17594c93",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1850",
+      "reference": "Sahih Muslim, hadith 1850, book 33, باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "title": "باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هُرَيْمُ بْنُ عَبْدِ الأَعْلَى، حَدَّثَنَا الْمُعْتَمِرُ، قَالَ سَمِعْتُ أَبِي يُحَدِّثُ، عَنْ أَبِي، مِجْلَزٍ عَنْ جُنْدَبِ بْنِ عَبْدِ اللَّهِ الْبَجَلِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ قُتِلَ تَحْتَ رَايَةٍ عُمِّيَّةٍ يَدْعُو عَصَبِيَّةً أَوْ يَنْصُرُ عَصَبِيَّةً فَقِتْلَةٌ جَاهِلِيَّةٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c3577a8f055801825edaf00e75f5480f593f1769caaefec9c3189dbcb90b307a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Huraym ibn ‘Abd al-A‘lâ nous a rapporté : al-Mu‘tamir nous a rapporté : J’ai entendu mon père rapporter, d’après Abû Mijlaz, d’après Jundab ibn ‘Abd Allâh al-Bajalî, qui a dit : Le Messager d’Allah a dit : « Celui qui est tué sous une bannière ambiguë, en appelant au clanisme ou en le soutenant, sa mort est une mort de l’époque de l’ignorance. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "15e182ad-9bc2-497c-a83c-025baed517ea",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1851a",
+      "reference": "Sahih Muslim, hadith 1851 a, book 33, باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "title": "باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا عَاصِمٌ، - وَهُوَ ابْنُ مُحَمَّدِ بْنِ زَيْدٍ - عَنْ زَيْدِ بْنِ مُحَمَّدٍ، عَنْ نَافِعٍ، قَالَ جَاءَ عَبْدُ اللَّهِ بْنُ عُمَرَ إِلَى عَبْدِ اللَّهِ بْنِ مُطِيعٍ حِينَ كَانَ مِنْ أَمْرِ الْحَرَّةِ مَا كَانَ زَمَنَ يَزِيدَ بْنِ مُعَاوِيَةَ فَقَالَ اطْرَحُوا لأَبِي عَبْدِ الرَّحْمَنِ وِسَادَةً فَقَالَ إِنِّي لَمْ آتِكَ لأَجْلِسَ أَتَيْتُكَ لأُحَدِّثَكَ حَدِيثًا سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُهُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ خَلَعَ يَدًا مِنْ طَاعَةٍ لَقِيَ اللَّهَ يَوْمَ الْقِيَامَةِ لاَ حُجَّةَ لَهُ وَمَنْ مَاتَ وَلَيْسَ فِي عُنُقِهِ بَيْعَةٌ مَاتَ مِيتَةً جَاهِلِيَّةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7ffacc885b5945c1846c29a69fee2fdf81cbe6a7ea20c91570d0f3672876360d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allâh ibn Mu‘âdh al-‘Anbarî nous a rapporté : mon père nous a rapporté : ‘Âsim — c’est-à-dire le fils de Muhammad ibn Zayd — nous a rapporté, d’après Zayd ibn Muhammad, d’après Nâfi‘, qui a dit : ‘Abd Allâh ibn ‘Umar se rendit chez ‘Abd Allâh ibn Mutî‘ lors des événements d’al-Harra, à l’époque de Yazîd ibn Mu‘âwiya. Celui-ci dit : « Étendez un coussin pour Abû ‘Abd ar-Rahmân. » Ibn ‘Umar répondit : « Je ne suis pas venu m’asseoir. Je suis venu te rapporter une parole que j’ai entendue du Messager d’Allah. Je l’ai entendu dire : “Celui qui retire sa main de l’obéissance rencontrera Allah au Jour de la Résurrection sans aucun argument. Celui qui meurt sans qu’une allégeance soit à son cou meurt d’une mort de l’époque de l’ignorance.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "26f97f6b-570c-4284-8448-bd14ca2a56de",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1851b",
+      "reference": "Sahih Muslim, hadith 1851 b, book 33, باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "title": "باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا يَحْيَى بْنُ عَبْدِ اللَّهِ بْنِ بُكَيْرٍ، حَدَّثَنَا لَيْثٌ، عَنْ عُبَيْدِ اللَّهِ، بْنِ أَبِي جَعْفَرٍ عَنْ بُكَيْرِ بْنِ عَبْدِ اللَّهِ بْنِ الأَشَجِّ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّهُ أَتَى ابْنَ مُطِيعٍ ‏.‏ فَذَكَرَ عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "57a19e8621cf538371493efa0649f66c5d072990a42c89103c7a6feddc10a0dd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "01a1fc01-4751-41ab-8a6e-c1c009ec65db",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1851c",
+      "reference": "Sahih Muslim, hadith 1851 c, book 33, باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "title": "باب الأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ وَتَحْذِيرِ الدُّعَاةِ إِلَى الْكُفْرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا ابْنُ مَهْدِيٍّ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ عَمْرِو بْنِ جَبَلَةَ، حَدَّثَنَا بِشْرُ بْنُ عُمَرَ، قَالاَ جَمِيعًا حَدَّثَنَا هِشَامُ بْنُ سَعْدٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ أَبِيهِ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمَعْنَى حَدِيثِ نَافِعٍ عَنِ ابْنِ عُمَرَ ‏.‏",
+      "source_hash_sha256": "0050932565f132b15ad76a025d77ac7e454cfd6cd52283d663b207189ae816d0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "26f97f6b-570c-4284-8448-bd14ca2a56de",
+      "url": "https://sunnah.com/muslim:1851b",
+      "reason": "Cette entrée rapporte une chaîne supplémentaire puis renvoie au récit précédent du Prophète sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "01a1fc01-4751-41ab-8a6e-c1c009ec65db",
+      "url": "https://sunnah.com/muslim:1851c",
+      "reason": "Cette entrée fournit d’autres chaînes et indique seulement qu’elles transmettent le même sens que le récit précédent, sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
