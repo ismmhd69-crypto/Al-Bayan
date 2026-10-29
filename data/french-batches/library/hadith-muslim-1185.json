@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-1185",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:36:32.295Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "da9f06e3-d82b-4bde-9973-710e0004c0a2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2556c",
+      "reference": "Sahih Muslim, hadith 2556 c, book 45, باب صِلَةِ الرَّحِمِ وَتَحْرِيمِ قَطِيعَتِهَا ‏‏",
+      "title": "باب صِلَةِ الرَّحِمِ وَتَحْرِيمِ قَطِيعَتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، عَنْ عَبْدِ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ وَقَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "2c39f93472fe2b499c2259c682c27ee9026bf39adcd4e89f3bf210b2aca23f3c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a0a6e1a0-b4f2-4ec6-b3b9-2170381de3dc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2557a",
+      "reference": "Sahih Muslim, hadith 2557 a, book 45, باب صِلَةِ الرَّحِمِ وَتَحْرِيمِ قَطِيعَتِهَا ‏‏",
+      "title": "باب صِلَةِ الرَّحِمِ وَتَحْرِيمِ قَطِيعَتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى التُّجِيبِيُّ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ سَرَّهُ أَنْ يُبْسَطَ عَلَيْهِ رِزْقُهُ أَوْ يُنْسَأَ فِي أَثَرِهِ فَلْيَصِلْ رَحِمَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4c6158056b2e874f5df9a7191c70189b828436e699b1b52eb19a0d2eef4e3825",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mālik rapporte avoir entendu le Messager d’Allah ﷺ dire : « Que celui qui souhaite voir sa subsistance s’élargir et sa vie se prolonger maintienne les liens de parenté. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "653af450-138a-41e1-a603-66abf1c1e5cd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2557b",
+      "reference": "Sahih Muslim, hadith 2557 b, book 45, باب صِلَةِ الرَّحِمِ وَتَحْرِيمِ قَطِيعَتِهَا ‏‏",
+      "title": "باب صِلَةِ الرَّحِمِ وَتَحْرِيمِ قَطِيعَتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، حَدَّثَنِي عُقَيْلُ بْنُ، خَالِدٍ قَالَ قَالَ ابْنُ شِهَابٍ أَخْبَرَنِي أَنَسُ بْنُ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ أَحَبَّ أَنْ يُبْسَطَ لَهُ فِي رِزْقِهِ وَيُنْسَأَ لَهُ فِي أَثَرِهِ فَلْيَصِلْ رَحِمَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f56ae4ba0c963fc28eb57b816b32da76d7699fd3c263442608255b2c436fb386",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mālik rapporte que le Messager d’Allah ﷺ a dit : « Que celui qui aime voir sa subsistance s’élargir et sa vie se prolonger maintienne les liens de parenté. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "73d51d7c-9ce3-4978-9fa5-67ee26942d46",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2558a",
+      "reference": "Sahih Muslim, hadith 2558 a, book 45, باب صِلَةِ الرَّحِمِ وَتَحْرِيمِ قَطِيعَتِهَا ‏‏",
+      "title": "باب صِلَةِ الرَّحِمِ وَتَحْرِيمِ قَطِيعَتِهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ الْعَلاَءَ بْنَ عَبْدِ الرَّحْمَنِ، يُحَدِّثُ عَنْ أَبِيهِ، عَنْ أَبِي، هُرَيْرَةَ أَنَّ رَجُلاً، قَالَ يَا رَسُولَ اللَّهِ إِنَّ لِي قَرَابَةً أَصِلُهُمْ وَيَقْطَعُونِي وَأُحْسِنُ إِلَيْهِمْ وَيُسِيئُونَ إِلَىَّ وَأَحْلُمُ عَنْهُمْ وَيَجْهَلُونَ عَلَىَّ ‏.‏ فَقَالَ ‏\"‏ لَئِنْ كُنْتَ كَمَا قُلْتَ فَكَأَنَّمَا تُسِفُّهُمُ الْمَلَّ وَلاَ يَزَالُ مَعَكَ مِنَ اللَّهِ ظَهِيرٌ عَلَيْهِمْ مَا دُمْتَ عَلَى ذَلِكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "267988868addacd6c87df00e33c01268b086eed42f7d3c6a9251ca31dffc4d89",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte qu’un homme dit : « Ô Messager d’Allah, j’ai des proches avec lesquels je maintiens les liens, mais eux les rompent avec moi ; je leur fais du bien, mais ils me font du mal ; je me montre patient envers eux, mais ils se comportent durement avec moi. » Il répondit : « Si tu es bien comme tu le dis, c’est comme si tu leur faisais avaler de la cendre brûlante. Tant que tu persévéreras ainsi, Allah t’apportera un soutien contre eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1b8b897b-69b3-4a5e-821f-4843d3dd495d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2558b",
+      "reference": "Sahih Muslim, hadith 2558 b, book 45, باب النَّهْىِ عَنِ التَّحَاسُدِ، وَالتَّبَاغُضِ، وَالتَّدَابُرِ، ‏‏",
+      "title": "باب النَّهْىِ عَنِ التَّحَاسُدِ، وَالتَّبَاغُضِ، وَالتَّدَابُرِ، ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَبَاغَضُوا وَلاَ تَحَاسَدُوا وَلاَ تَدَابَرُوا وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا وَلاَ يَحِلُّ لِمُسْلِمٍ أَنْ يَهْجُرَ أَخَاهُ فَوْقَ ثَلاَثٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "11c8489b59100013a9b895863b98726c47ccfb656186cec9bfe241d8b765d152",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mālik rapporte que le Messager d’Allah ﷺ a dit : « Ne vous détestez pas, ne vous enviez pas, ne vous détournez pas les uns des autres. Soyez des serviteurs d’Allah frères entre vous. Il n’est pas permis à un musulman de délaisser son frère plus de trois jours. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "06a0ec99-e649-4d7b-a02d-8c4eba0e7252",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2559a",
+      "reference": "Sahih Muslim, hadith 2559 a, book 45, باب النَّهْىِ عَنِ التَّحَاسُدِ، وَالتَّبَاغُضِ، وَالتَّدَابُرِ، ‏‏",
+      "title": "باب النَّهْىِ عَنِ التَّحَاسُدِ، وَالتَّبَاغُضِ، وَالتَّدَابُرِ، ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَاجِبُ بْنُ الْوَلِيدِ، حَدَّثَنَا مُحَمَّدُ بْنُ حَرْبٍ، حَدَّثَنَا مُحَمَّدُ بْنُ الْوَلِيدِ الزُّبَيْدِيُّ، عَنِ الزُّهْرِيِّ، أَخْبَرَنِي أَنَسُ بْنُ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ح وَحَدَّثَنِيهِ حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنِي ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ حَدِيثِ مَالِكٍ ‏.‏",
+      "source_hash_sha256": "f6ff76066f58c361aa9bb39b759fc65c0e5bd52dcfbf3fc7ad96d9c069860a33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "da9f06e3-d82b-4bde-9973-710e0004c0a2",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "06a0ec99-e649-4d7b-a02d-8c4eba0e7252",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit de Mālik sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
