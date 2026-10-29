@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 298,
+    "hadithNeedsMo": 299,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -16177,6 +16177,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-754",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-754.json",
+      "sourceIds": ["ff47b207-54ef-401c-b21b-5788a89ec730", "e7c55385-df75-464c-98e3-3f34ca6aa52b", "0d164a53-27eb-406e-a097-4fab0d5a3a02", "3890f67d-ffc9-4499-88d7-72f594d9a56a", "6d3e14b3-cfb6-47ea-ad98-49493a23ce75", "e48e3edb-c766-41df-834f-a07e894b75db"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
+    }
   ],
   "blockers": [
     {
@@ -16551,8 +16566,15 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 24:11. It remains blank in FR-LIB-HAD-BUKHARI-750 until an approved, attributed French Quran translation is confirmed."
     }
+,
+    {
+      "id": "HADITH-BUKHARI-4172-QURAN-48-1-48-5",
+      "scope": "Sahih al-Bukhari 4172: direct quotations of Quran 48:1 and 48:5",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 48:1 and 48:5. It remains blank in FR-LIB-HAD-BUKHARI-754 until an approved, attributed French Quran translation is confirmed."
+    }
   ],
-  "hadithBukhariDrafted": 3687,
-  "hadithLocalDrafted": 3687,
-  "hadithLocalRemaining": 10970
+  "hadithBukhariDrafted": 3692,
+  "hadithLocalDrafted": 3692,
+  "hadithLocalRemaining": 10965
 }
