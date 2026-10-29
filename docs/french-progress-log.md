@@ -9706,3 +9706,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0515 saves five private French drafts about the pilgrimage entry points (miqat) for residents and travelers. Muslim 1183a begins a report but stops before giving the actual response and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1184a–1186a
+
+- FR-LIB-HAD-MUSLIM-0516 saves five private French drafts about the talbiya, the polytheists’ additions to it, and the place where the Prophet entered consecration. Muslim 1184c only refers to the previous talbiya wording and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
