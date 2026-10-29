@@ -1,0 +1,111 @@
+{
+  "batch_id": "HADITH-MUSLIM-0839",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:56:51.633Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f0dd4040-dbcc-4fc1-9a76-1b97e1a180f3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1773b",
+      "reference": "Sahih Muslim, hadith 1773 b, book 32, باب كِتَابِ النَّبِيِّ صلى الله عليه وسلم إِلَى هِرَقْلَ يَدْعُوهُ إِلَى الإِسْلاَمِ ‏‏",
+      "title": "باب كِتَابِ النَّبِيِّ صلى الله عليه وسلم إِلَى هِرَقْلَ يَدْعُوهُ إِلَى الإِسْلاَمِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ حَسَنٌ الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ حَدَّثَنَا يَعْقُوبُ، - وَهُوَ ابْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ - حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، بِهَذَا الإِسْنَادِ وَزَادَ فِي الْحَدِيثِ وَكَانَ قَيْصَرُ لَمَّا كَشَفَ اللَّهُ عَنْهُ جُنُودَ فَارِسَ مَشَى مِنْ حِمْصَ إِلَى إِيلِيَاءَ شُكْرًا لِمَا أَبْلاَهُ اللَّهُ ‏.‏ وَقَالَ فِي الْحَدِيثِ ‏\"‏ مِنْ مُحَمَّدٍ عَبْدِ اللَّهِ وَرَسُولِهِ ‏\"‏ ‏.‏ وَقَالَ ‏\"‏ إِثْمَ الْيَرِيسِيِّينَ ‏\"‏ ‏.‏ وَقَالَ ‏\"‏ بِدَاعِيَةِ الإِسْلاَمِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "699f3d89efd2db08c0eab7ab1f2f88d75e2dd6dfe390cc310562f12e5158d9c3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Hasan al-Hulwânî et ‘Abd ibn Humayd nous ont rapporté : Ya‘qûb — c’est-à-dire Ibn Ibrâhîm ibn Sa‘d — nous a rapporté : mon père nous a rapporté, d’après Sâlih, d’après Ibn Shihâb, par cette même chaîne. Cette version ajoute au récit que, lorsque Allah délivra César des troupes perses, il marcha de Hims à Iliya en signe de gratitude pour ce qu’Allah lui avait accordé. Elle porte la formulation : « De Muhammad, serviteur d’Allah et Son Messager » ; « le péché des al-Yarisiyyîn » ; et « par l’appel de l’islam ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2df4e3f9-c1ea-4abe-abfb-7f2491d1892a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1774a",
+      "reference": "Sahih Muslim, hadith 1774 a, book 32, باب كُتُبِ النَّبِيِّ صلى الله عليه وسلم إِلَى مُلُوكِ الْكُفَّارِ يَدْعُوهُمْ إِلَى اللَّهِ عَزَّ وَجَلَّ",
+      "title": "باب كُتُبِ النَّبِيِّ صلى الله عليه وسلم إِلَى مُلُوكِ الْكُفَّارِ يَدْعُوهُمْ إِلَى اللَّهِ عَزَّ وَجَلَّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يُوسُفُ بْنُ حَمَّادٍ الْمَعْنِيُّ، حَدَّثَنَا عَبْدُ الأَعْلَى، عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم كَتَبَ إِلَى كِسْرَى وَإِلَى قَيْصَرَ وَإِلَى النَّجَاشِيِّ وَإِلَى كُلِّ جَبَّارٍ يَدْعُوهُمْ إِلَى اللَّهِ تَعَالَى وَلَيْسَ بِالنَّجَاشِيِّ الَّذِي صَلَّى عَلَيْهِ النَّبِيُّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "87060edad71d2d581f36c48dfc11ad2f3422236146ee4e7cbf862f6e2da3c41c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yûsuf ibn Hammâd al-Ma‘nî nous a rapporté : ‘Abd al-A‘lâ nous a rapporté, d’après Sa‘îd, d’après Qatâda, d’après Anas : Le Prophète d’Allah écrivit à Kisrâ, à César, au Négus et à tout souverain tyrannique, les appelant à Allah, exalté soit-Il. Il ne s’agissait pas du Négus pour lequel le Prophète avait accompli la prière funéraire.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c05bc21c-c0e9-4095-9b41-7bb1116166ee",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1774b",
+      "reference": "Sahih Muslim, hadith 1774 b, book 32, باب كُتُبِ النَّبِيِّ صلى الله عليه وسلم إِلَى مُلُوكِ الْكُفَّارِ يَدْعُوهُمْ إِلَى اللَّهِ عَزَّ وَجَلَّ",
+      "title": "باب كُتُبِ النَّبِيِّ صلى الله عليه وسلم إِلَى مُلُوكِ الْكُفَّارِ يَدْعُوهُمْ إِلَى اللَّهِ عَزَّ وَجَلَّ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ عَبْدِ اللَّهِ الرُّزِّيُّ، حَدَّثَنَا عَبْدُ الْوَهَّابِ بْنُ عَطَاءٍ، عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ وَلَمْ يَقُلْ وَلَيْسَ بِالنَّجَاشِي الَّذِي صَلَّى عَلَيْهِ النَّبِيُّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "04cdaaffb01e970e4879020ddffe626bd5c508822ac8877945f8bc178c435eef",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Abd Allah al-Râzî nous a rapporté : ‘Abd al-Wahhâb ibn ‘Atâ’ nous a rapporté, d’après Sa‘îd, d’après Qatâda : Anas ibn Mâlik nous a rapporté, d’après le Prophète, un récit semblable, sans la précision : « Il ne s’agissait pas du Négus pour lequel le Prophète avait accompli la prière funéraire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f13c7ada-a248-4ee3-855c-cd7953e016db",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1774c",
+      "reference": "Sahih Muslim, hadith 1774 c, book 32, باب كُتُبِ النَّبِيِّ صلى الله عليه وسلم إِلَى مُلُوكِ الْكُفَّارِ يَدْعُوهُمْ إِلَى اللَّهِ عَزَّ وَجَلَّ",
+      "title": "باب كُتُبِ النَّبِيِّ صلى الله عليه وسلم إِلَى مُلُوكِ الْكُفَّارِ يَدْعُوهُمْ إِلَى اللَّهِ عَزَّ وَجَلَّ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ نَصْرُ بْنُ عَلِيٍّ الْجَهْضَمِيُّ، أَخْبَرَنِي أَبِي، حَدَّثَنِي خَالِدُ بْنُ قَيْسٍ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، وَلَمْ يَذْكُرْ وَلَيْسَ بِالنَّجَاشِيِّ الَّذِي صَلَّى عَلَيْهِ النَّبِيُّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "bbfa09602fc4b53df08fdea3f41aae424e2dd6d9931098b1eca156cf55118d96",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nasr ibn ‘Alî al-Jahdamî nous a rapporté : mon père m’a informé : Khâlid ibn Qays m’a rapporté, d’après Qatâda, d’après Anas, sans mentionner la précision : « Il ne s’agissait pas du Négus pour lequel le Prophète avait accompli la prière funéraire. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

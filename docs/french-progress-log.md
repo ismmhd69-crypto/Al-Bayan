@@ -11314,3 +11314,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1773a
 
 - FR-LIB-HAD-MUSLIM-0838 records the long report about the letter to Heraclius as a Needs Mo hold because the letter contains a Quran quotation from 3:64. The entire French entry remains blank pending an attributed and authorized French Quran translation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1773b-1774c
+
+- FR-LIB-HAD-MUSLIM-0839 saves four private French drafts: a report variant adding Caesar’s journey and wording details, the report about letters to rulers, and two variants omitting its qualification about the Negus. No Quran quotation appears in these entries. No database write or publication occurred.

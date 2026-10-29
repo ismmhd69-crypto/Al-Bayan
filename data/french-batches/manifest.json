@@ -44894,6 +44894,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "blocked"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0839",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0839.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete reports or distinctive short variants translated as private drafts, preserving the added Caesar detail and the differing Negus qualification; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -49201,8 +49214,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9329,
-  "hadithLocalRemaining": 5197,
+  "hadithLocalDrafted": 9333,
+  "hadithLocalRemaining": 5193,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -54396,7 +54409,7 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3166,
+  "hadithMuslimDrafted": 3170,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 1335
