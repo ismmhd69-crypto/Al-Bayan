@@ -9151,3 +9151,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0404 saves four private French drafts about the reward for attending funeral prayers and following the procession. Muslim 945b and 945c are incomplete variants and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1589 Muslim drafts, 7925 total hadith drafts, 6704 remaining, and 756 Needs Mo items.
+
+### 2026-10-29: Muslim 945g–949a
+
+- FR-LIB-HAD-MUSLIM-0405 saves five private French drafts about the reward for attending a funeral and testimony about the deceased. Muslim 946b only refers back to an earlier report and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1594 Muslim drafts, 7930 total hadith drafts, 6699 remaining, and 757 Needs Mo items.
