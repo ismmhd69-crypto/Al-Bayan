@@ -3366,3 +3366,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-690` saves two private French drafts about Abû Tâlib and the Prophet’s night journey.
 - Both records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,461 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 257. Total local hadith rows not drafted: 11,196, including held records.
+
+### 2026-10-29: Bukhari 3887
+
+- `FR-LIB-HAD-BUKHARI-691` saves one private French draft of the extended night-journey and daily-prayers report. It is kept as a single-item batch because of its length.
+- The record passed the focused validator, including its Arabic hash, ID, reference, rights metadata and private unpublished long-text state. No database writes or publication occurred. Bukhari local drafts: 3,462 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 257. Total local hadith rows not drafted: 11,195, including held records.
