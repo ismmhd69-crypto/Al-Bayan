@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0723",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:02:08.056Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cfbffbc3-fef0-4fd0-aed8-b503f3b6b362",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1551c",
+      "reference": "Sahih Muslim, hadith 1551 c, book 22, باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "title": "باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، حَدَّثَنِي نَافِعٌ، عَنِ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم عَامَلَ أَهْلَ خَيْبَرَ بِشَطْرِ مَا خَرَجَ مِنْهَا مِنْ زَرْعٍ أَوْ ثَمَرٍ ‏.‏ وَاقْتَصَّ الْحَدِيثَ بِنَحْوِ حَدِيثِ عَلِيِّ بْنِ مُسْهِرٍ وَلَمْ يَذْكُرْ فَكَانَتْ عَائِشَةُ وَحَفْصَةُ مِمَّنِ اخْتَارَتَا الأَرْضَ وَالْمَاءَ وَقَالَ خَيَّرَ أَزْوَاجَ النَّبِيِّ صلى الله عليه وسلم أَنْ يُقْطِعَ لَهُنَّ الأَرْضَ وَلَمْ يَذْكُرِ الْمَاءَ ‏.‏",
+      "source_hash_sha256": "1054f05901478b4ee422ecf78711ba9aa9efed0f9754e42a859b4f8416f16646",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0e8f7e23-9dfb-4a64-93d6-bd0832701fd5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1551d",
+      "reference": "Sahih Muslim, hadith 1551 d, book 22, باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "title": "باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي أُسَامَةُ بْنُ زَيْدٍ اللَّيْثِيُّ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، قَالَ لَمَّا افْتُتِحَتْ خَيْبَرُ سَأَلَتْ يَهُودُ رَسُولَ اللَّهِ صلى الله عليه وسلم أَنْ يُقِرَّهُمْ فِيهَا عَلَى أَنْ يَعْمَلُوا عَلَى نِصْفِ مَا خَرَجَ مِنْهَا مِنَ الثَّمَرِ وَالزَّرْعِ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أُقِرُّكُمْ فِيهَا عَلَى ذَلِكَ مَا شِئْنَا ‏\"‏ ‏.‏ ثُمَّ سَاقَ الْحَدِيثَ بِنَحْوِ حَدِيثِ ابْنِ نُمَيْرٍ وَابْنِ مُسْهِرٍ عَنْ عُبَيْدِ اللَّهِ وَزَادَ فِيهِ وَكَانَ الثَّمَرُ يُقْسَمُ عَلَى السُّهْمَانِ مِنْ نِصْفِ خَيْبَرَ فَيَأْخُذُ رَسُولُ اللَّهِ صلى الله عليه وسلم الْخُمُسَ ‏.‏",
+      "source_hash_sha256": "33b5bda5ccf130aafb2a8631b4509472cb89ea3969f8b9004d514d17d3376185",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir nous a rapporté : Abd Allah ibn Wahb nous a rapporté : Usama ibn Zayd al-Laythi m’a informé, d’après Nafi, d’après Abd Allah ibn Umar, qui dit : « Lorsque Khaybar fut conquise, les Juifs demandèrent au Messager d’Allah de les y laisser, à condition qu’ils travaillent la terre et lui remettent la moitié de ses récoltes de fruits et de cultures. Le Messager d’Allah leur dit : “Nous vous y laisserons aussi longtemps que nous le voudrons.” » Puis il transmit un récit semblable à ceux d’Ibn Numayr et d’Ibn Mushir, d’après Ubayd Allah, en ajoutant que les récoltes étaient réparties selon les parts de la moitié de Khaybar et que le Messager d’Allah en prélevait le cinquième.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "55f5b96a-96a3-4173-bd08-202361459f65",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1551e",
+      "reference": "Sahih Muslim, hadith 1551 e, book 22, باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "title": "باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ نَافِعٍ، عَنْ عَبْدِ، اللَّهِ بْنِ عُمَرَ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ دَفَعَ إِلَى يَهُودِ خَيْبَرَ نَخْلَ خَيْبَرَ وَأَرْضَهَا عَلَى أَنْ يَعْتَمِلُوهَا مِنْ أَمْوَالِهِمْ وَلِرَسُولِ اللَّهِ صلى الله عليه وسلم شَطْرُ ثَمَرِهَا ‏.‏",
+      "source_hash_sha256": "f512f91fe07530bea16aad9846c9e87f07a1038a27c1e6237e37b99b3d79398c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Rumh nous a rapporté : al-Layth nous a informés, d’après Muhammad ibn Abd al-Rahman, d’après Nafi, d’après Abd Allah ibn Umar, que le Messager d’Allah remit aux Juifs de Khaybar ses palmeraies et ses terres afin qu’ils les cultivent à leurs frais, en échange de la moitié des récoltes de fruits revenant au Messager d’Allah.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "16511103-7158-4fc5-a0df-b95c239a3c47",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1551f",
+      "reference": "Sahih Muslim, hadith 1551 f, book 22, باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "title": "باب الْمُسَاقَاةِ وَالْمُعَامَلَةِ بِجُزْءٍ مِنَ الثَّمَرِ وَالزَّرْعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، وَإِسْحَاقُ بْنُ مَنْصُورٍ، - وَاللَّفْظُ لاِبْنِ رَافِعٍ - قَالاَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، حَدَّثَنِي مُوسَى بْنُ عُقْبَةَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ عُمَرَ، بْنَ الْخَطَّابِ أَجْلَى الْيَهُودَ وَالنَّصَارَى مِنْ أَرْضِ الْحِجَازِ وَأَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم لَمَّا ظَهَرَ عَلَى خَيْبَرَ أَرَادَ إِخْرَاجَ الْيَهُودِ مِنْهَا وَكَانَتِ الأَرْضُ حِينَ ظُهِرَ عَلَيْهَا لِلَّهِ وَلِرَسُولِهِ وَلِلْمُسْلِمِينَ فَأَرَادَ إِخْرَاجَ الْيَهُودِ مِنْهَا فَسَأَلَتِ الْيَهُودُ رَسُولَ اللَّهِ صلى الله عليه وسلم أَنْ يُقِرَّهُمْ بِهَا عَلَى أَنْ يَكْفُوا عَمَلَهَا وَلَهُمْ نِصْفُ الثَّمَرِ فَقَالَ لَهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ نُقِرُّكُمْ بِهَا عَلَى ذَلِكَ مَا شِئْنَا ‏\"‏ ‏.‏ فَقَرُّوا بِهَا حَتَّى أَجْلاَهُمْ عُمَرُ إِلَى تَيْمَاءَ وَأَرِيحَاءَ ‏.‏",
+      "source_hash_sha256": "424a88cca0e10fa6f713054a5bd85a019ed091d2e5d58d48db0213dbaa87972d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi et Ishaq ibn Mansur nous ont rapporté — la formulation est celle d’Ibn Rafi — : Abd al-Razzaq nous a rapporté : Ibn Jurayj nous a informés : Musa ibn Uqba m’a rapporté, d’après Nafi, d’après Ibn Umar, qu’Umar ibn al-Khattab expulsa les Juifs et les chrétiens du territoire du Hijaz. Lorsque le Messager d’Allah prit Khaybar, il voulut en faire sortir les Juifs. Après sa conquête, les terres appartenaient à Allah, à Son Messager et aux musulmans. Les Juifs demandèrent au Messager d’Allah de les y laisser, à condition qu’ils prennent en charge la culture et reçoivent la moitié des récoltes. Il leur dit : « Nous vous y laisserons aussi longtemps que nous le voudrons. » Ils y demeurèrent jusqu’à ce qu’Umar les expulse vers Tayma et Ariha.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "84c4da60-b747-47dc-8844-aa280d162a5d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1552a",
+      "reference": "Sahih Muslim, hadith 1552 a, book 22, باب فَضْلِ الْغَرْسِ وَالزَّرْعِ ‏‏",
+      "title": "باب فَضْلِ الْغَرْسِ وَالزَّرْعِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عَبْدُ الْمَلِكِ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ مُسْلِمٍ يَغْرِسُ غَرْسًا إِلاَّ كَانَ مَا أُكِلَ مِنْهُ لَهُ صَدَقَةٌ وَمَا سُرِقَ مِنْهُ لَهُ صَدَقَةٌ وَمَا أَكَلَ السَّبُعُ مِنْهُ فَهُوَ لَهُ صَدَقَةٌ وَمَا أَكَلَتِ الطَّيْرُ فَهُوَ لَهُ صَدَقَةً وَلاَ يَرْزَؤُهُ أَحَدٌ إِلاَّ كَانَ لَهُ صَدَقَةٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1f6fdc642ee83bc38fe8624a162a780e3d8f49fc17e52c3ed36c2187f5da0de4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Numayr nous a rapporté : mon père nous a rapporté : Abd al-Malik nous a rapporté, d’après Ata, d’après Jabir, qui dit que le Messager d’Allah a dit : « Tout musulman qui plante un arbre reçoit une aumône pour ce qui en est mangé, ce qui en est volé, ce qu’en mange une bête sauvage ou un oiseau. Et chaque fois que quelqu’un en prélève quelque chose, cela lui vaut une aumône. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "43ea63f7-9d33-4aa9-8326-01350fa917a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1552b",
+      "reference": "Sahih Muslim, hadith 1552 b, book 22, باب فَضْلِ الْغَرْسِ وَالزَّرْعِ ‏‏",
+      "title": "باب فَضْلِ الْغَرْسِ وَالزَّرْعِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم دَخَلَ عَلَى أُمِّ مُبَشِّرٍ الأَنْصَارِيَّةِ فِي نَخْلٍ لَهَا فَقَالَ لَهَا النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَنْ غَرَسَ هَذَا النَّخْلَ أَمُسْلِمٌ أَمْ كَافِرٌ ‏\"‏ ‏.‏ فَقَالَتْ بَلْ مُسْلِمٌ ‏.‏ فَقَالَ ‏\"‏ لاَ يَغْرِسُ مُسْلِمٌ غَرْسًا وَلاَ يَزْرَعُ زَرْعًا فَيَأْكُلَ مِنْهُ إِنْسَانٌ وَلاَ دَابَّةٌ وَلاَ شَىْءٌ إِلاَّ كَانَتْ لَهُ صَدَقَةٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "019b890064985f2d4ee7b3a047c8f0fe5f57c45e1d82d60c364f889f6c1363de",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Layth nous a rapporté. Muhammad ibn Rumh nous a également rapporté : al-Layth nous a informés, d’après Abu al-Zubayr, d’après Jabir, que le Prophète entra chez Umm Mubashshir al-Ansariyya, dans une palmeraie qui lui appartenait. Le Prophète lui demanda : « Qui a planté ces palmiers, un musulman ou un non-musulman ? » Elle répondit : « Un musulman. » Il dit : « Chaque fois qu’un musulman plante un arbre ou sème une culture, puis qu’un être humain, un animal ou quoi que ce soit en mange, cela lui vaut une aumône. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "cfbffbc3-fef0-4fd0-aed8-b503f3b6b362",
+      "reason": "Cette entrée résume un récit précédent et ne reproduit pas le récit complet ; elle ajoute seulement des précisions sur les variantes. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}

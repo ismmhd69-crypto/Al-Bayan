@@ -10741,3 +10741,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0722 saves five private French drafts about making land available for cultivation and the agreement at Khaybar. Muslim 1550c only refers to preceding reports and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1551c–1552b
+
+- FR-LIB-HAD-MUSLIM-0723 saves five private French drafts about the Khaybar agreement and planting trees. Muslim 1551c refers to an earlier report and only notes differences between versions, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
