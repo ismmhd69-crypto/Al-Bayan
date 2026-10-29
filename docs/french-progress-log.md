@@ -6042,3 +6042,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1185 saves two private French drafts about the Prophet’s simple meals and the small amount of barley in ‘Â’isha’s home. No database writes or publication occurred.
 - Both drafts passed the focused validator. Bukhari local drafts: 5,428 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 782. Total local hadith rows not drafted: 9,201, including held records.
+
+### 2026-10-29: Bukhari 6452
+
+- FR-LIB-HAD-BUKHARI-1186 saves one long private French draft, kept by itself because its Arabic source exceeds 2,000 characters. The report mentions an unspecified Quran verse without quoting it. No database writes or publication occurred.
+- The one-record batch passed the focused validator. Bukhari local drafts: 5,429 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 782. Total local hadith rows not drafted: 9,200, including held records.
