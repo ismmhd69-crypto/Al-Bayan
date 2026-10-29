@@ -11046,3 +11046,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0783 saves four private French drafts on the merit of faithful service, freeing six enslaved people by lot, and the killing of Abd Allah ibn Sahl at Khaybar. Muslim 1666b and 1668c contain only chains/cross-references and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1669b–1669g
+
+- FR-LIB-HAD-MUSLIM-0784 saves five private French drafts about the Khaybar killing, the oath procedure, and the blood compensation. Muslim 1669d only provides chains and a cross-reference, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
