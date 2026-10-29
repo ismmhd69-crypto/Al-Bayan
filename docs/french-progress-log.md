@@ -796,3 +796,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-154` saves private French drafts for Bukhari 860–864. Bukhari 859 remains blank under Needs Mo because it quotes Quran 37:102 and no approved, attributed French Quran translation is available.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 801 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 42. Total local hadith rows not drafted: 13,828, including held records.
+### 2026-10-29: Bukhari 865–870 source review
+
+- `FR-LIB-HAD-BUKHARI-155` saves six private French drafts for Bukhari 865–870. The reports preserve the request about women attending the mosque, the two transmission forms concerning women’s departure, and the instruction to shorten prayer when a child cries.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 807 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 42. Total local hadith rows not drafted: 13,822, including held records.
