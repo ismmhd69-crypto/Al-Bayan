@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-BUKHARI-329",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:06:43.825Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2308fc96-f43c-4232-bd44-5cd92514251c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1912",
+      "reference": "Sahih al-Bukhari, hadith 1912, book 30, باب شَهْرَا عِيدٍ لاَ يَنْقُصَانِ",
+      "title": "باب شَهْرَا عِيدٍ لاَ يَنْقُصَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ إِسْحَاقَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرَةَ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏ وَحَدَّثَنِي مُسَدَّدٌ، حَدَّثَنَا مُعْتَمِرٌ، عَنْ خَالِدٍ الْحَذَّاءِ، قَالَ أَخْبَرَنِي عَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرَةَ، عَنْ أَبِيهِ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ شَهْرَانِ لاَ يَنْقُصَانِ شَهْرَا عِيدٍ رَمَضَانُ وَذُو الْحَجَّةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "46f46731a57478f295aea24ccc8a469139a9315591e6dc3e0d636602dd973d0a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Première chaîne de transmission : Musaddad, Mu‘tamir, Ishâq, ‘Abd ar-Rahmân ibn Abî Bakra, son père Abû Bakra et le Prophète.\n\nDeuxième chaîne : Musaddad, Mu‘tamir, Khâlid al-Hadhdhâ’, ‘Abd ar-Rahmân ibn Abî Bakra, son père Abû Bakra et le Prophète.\n\nLe Prophète a dit : « Deux mois ne diminuent pas, les deux mois des fêtes : Ramadan et Dhû al-Hijja. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0ca6363e-91a4-48dc-a738-e457be78d22c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1913",
+      "reference": "Sahih al-Bukhari, hadith 1913, book 30, باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لاَ نَكْتُبُ وَلاَ نَحْسُبُ ‏\"‏‏.‏",
+      "title": "باب قَوْلِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لاَ نَكْتُبُ وَلاَ نَحْسُبُ ‏\"‏‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا الأَسْوَدُ بْنُ قَيْسٍ، حَدَّثَنَا سَعِيدُ بْنُ عَمْرٍو، أَنَّهُ سَمِعَ ابْنَ عُمَرَ ـ رضى الله عنهما ـ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنَّا أُمَّةٌ أُمِّيَّةٌ، لاَ نَكْتُبُ وَلاَ نَحْسُبُ الشَّهْرُ هَكَذَا وَهَكَذَا ‏\"‏‏.‏ يَعْنِي مَرَّةً تِسْعَةً وَعِشْرِينَ، وَمَرَّةً ثَلاَثِينَ‏.‏",
+      "source_hash_sha256": "6c2a154987595325709195108887bb8dc8934e8f1905785714fc8b8f0ecbd7de",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Âdam, Shu‘ba, al-Aswad ibn Qays, Sa‘îd ibn ‘Amr et Ibn ‘Umar.\n\nLe Prophète a dit : « Nous sommes une communauté qui ne sait ni écrire ni calculer. Le mois est ainsi et ainsi », c’est-à-dire parfois de vingt-neuf jours et parfois de trente jours.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ff3e81d-473d-405a-954b-91a3fdbd336e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1914",
+      "reference": "Sahih al-Bukhari, hadith 1914, book 30, باب لاَ يَتَقَدَّمَنَّ رَمَضَانَ بِصَوْمِ يَوْمٍ وَلاَ يَوْمَيْنِ",
+      "title": "باب لاَ يَتَقَدَّمَنَّ رَمَضَانَ بِصَوْمِ يَوْمٍ وَلاَ يَوْمَيْنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هِشَامٌ، حَدَّثَنَا يَحْيَى بْنُ أَبِي كَثِيرٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَتَقَدَّمَنَّ أَحَدُكُمْ رَمَضَانَ بِصَوْمِ يَوْمٍ أَوْ يَوْمَيْنِ، إِلاَّ أَنْ يَكُونَ رَجُلٌ كَانَ يَصُومُ صَوْمَهُ فَلْيَصُمْ ذَلِكَ الْيَوْمَ ‏\"‏‏.‏",
+      "source_hash_sha256": "96fb64313088e8d0f231ba79b167e3c0e5ad2f7477cde1b123ecc771a3249e04",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muslim ibn Ibrâhîm, Hishâm, Yahyâ ibn Abî Kathîr, Abû Salama et Abû Hurayra.\n\nLe Prophète a dit : « Que nul d’entre vous ne devance le Ramadan en jeûnant un ou deux jours, sauf s’il s’agit d’un jour qu’un homme a l’habitude de jeûner ; qu’il jeûne alors ce jour-là. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "40793656-f37e-4cbf-a9d1-4688525fcb74",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1915",
+      "reference": "Sahih al-Bukhari, hadith 1915, book 30, بَابُ قَوْلِ اللَّهِ جَلَّ ذِكْرُهُ: {أُحِلَّ لَكُمْ لَيْلَةَ الصِّيَامِ الرَّفَثُ إِلَى نِسَائِكُمْ هُنَّ لِبَاسٌ لَكُمْ وَأَنْتُمْ لِبَاسٌ لَهُنَّ عَلِمَ اللَّهُ أَنَّكُمْ كُنْتُمْ تَخْتَانُونَ أَنْفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنْكُمْ فَالآنَ بَاشِرُوهُنَّ وَابْتَغُوا مَا كَتَبَ اللَّهُ لَ",
+      "title": "بَابُ قَوْلِ اللَّهِ جَلَّ ذِكْرُهُ: {أُحِلَّ لَكُمْ لَيْلَةَ الصِّيَامِ الرَّفَثُ إِلَى نِسَائِكُمْ هُنَّ لِبَاسٌ لَكُمْ وَأَنْتُمْ لِبَاسٌ لَهُنَّ عَلِمَ اللَّهُ أَنَّكُمْ كُنْتُمْ تَخْتَانُونَ أَنْفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنْكُمْ فَالآنَ بَاشِرُوهُنَّ وَابْتَغُوا مَا كَتَبَ اللَّهُ لَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ إِسْرَائِيلَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ ـ رضى الله عنه ـ قَالَ كَانَ أَصْحَابُ مُحَمَّدٍ صلى الله عليه وسلم إِذَا كَانَ الرَّجُلُ صَائِمًا، فَحَضَرَ الإِفْطَارُ، فَنَامَ قَبْلَ أَنْ يُفْطِرَ لَمْ يَأْكُلْ لَيْلَتَهُ وَلاَ يَوْمَهُ، حَتَّى يُمْسِيَ، وَإِنَّ قَيْسَ بْنَ صِرْمَةَ الأَنْصَارِيَّ كَانَ صَائِمًا، فَلَمَّا حَضَرَ الإِفْطَارُ أَتَى امْرَأَتَهُ، فَقَالَ لَهَا أَعِنْدَكِ طَعَامٌ قَالَتْ لاَ وَلَكِنْ أَنْطَلِقُ، فَأَطْلُبُ لَكَ‏.‏ وَكَانَ يَوْمَهُ يَعْمَلُ، فَغَلَبَتْهُ عَيْنَاهُ، فَجَاءَتْهُ امْرَأَتُهُ، فَلَمَّا رَأَتْهُ قَالَتْ خَيْبَةً لَكَ‏.‏ فَلَمَّا انْتَصَفَ النَّهَارُ غُشِيَ عَلَيْهِ، فَذُكِرَ ذَلِكَ لِلنَّبِيِّ صلى الله عليه وسلم فَنَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"] {‏أُحِلَّ لَكُمْ لَيْلَةَ الصِّيَامِ الرَّفَثُ إِلَى نِسَائِكُمْ‏} ‏ فَفَرِحُوا بِهَا فَرَحًا شَدِيدًا، وَنَزَلَتْ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"] {‏وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ‏} ‏‏.‏",
+      "source_hash_sha256": "e94270195cfb0157a019ba3d68acec269bbc102931dbfe372fc38f20e3d8f37a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a0007ee8-8585-4e85-8a1e-988751adc420",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1916",
+      "reference": "Sahih al-Bukhari, hadith 1916, book 30, بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجُ بْنُ مِنْهَالٍ، حَدَّثَنَا هُشَيْمٌ، قَالَ أَخْبَرَنِي حُصَيْنُ بْنُ عَبْدِ الرَّحْمَنِ، عَنِ الشَّعْبِيِّ، عَنْ عَدِيِّ بْنِ حَاتِمٍ ـ رضى الله عنه ـ قَالَ لَمَّا نَزَلَتْ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"] {‏حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ‏} ‏ عَمَدْتُ إِلَى عِقَالٍ أَسْوَدَ وَإِلَى عِقَالٍ أَبْيَضَ، فَجَعَلْتُهُمَا تَحْتَ وِسَادَتِي، فَجَعَلْتُ أَنْظُرُ فِي اللَّيْلِ، فَلاَ يَسْتَبِينُ لِي، فَغَدَوْتُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرْتُ لَهُ ذَلِكَ فَقَالَ ‏\"‏ إِنَّمَا ذَلِكَ سَوَادُ اللَّيْلِ وَبَيَاضُ النَّهَارِ ‏\"‏‏.‏",
+      "source_hash_sha256": "4662856222e872ad302e3994dba6e0f80cb7ba61f493c73a394824ceb020ce65",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "422030ea-02c2-4d8e-a61a-8d97b4649358",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1917",
+      "reference": "Sahih al-Bukhari, hadith 1917, book 30, بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، حَدَّثَنَا ابْنُ أَبِي حَازِمٍ، عَنْ أَبِيهِ، عَنْ سَهْلِ بْنِ سَعْدٍ، ح‏.‏ حَدَّثَنِي سَعِيدُ بْنُ أَبِي مَرْيَمَ، حَدَّثَنَا أَبُو غَسَّانَ، مُحَمَّدُ بْنُ مُطَرِّفٍ قَالَ حَدَّثَنِي أَبُو حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ، قَالَ أُنْزِلَتْ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"] {‏وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ‏} ‏ وَلَمْ يَنْزِلْ مِنَ الْفَجْرِ، فَكَانَ رِجَالٌ إِذَا أَرَادُوا الصَّوْمَ رَبَطَ أَحَدُهُمْ فِي رِجْلِهِ الْخَيْطَ الأَبْيَضَ وَالْخَيْطَ الأَسْوَدَ، وَلَمْ يَزَلْ يَأْكُلُ حَتَّى يَتَبَيَّنَ لَهُ رُؤْيَتُهُمَا، فَأَنْزَلَ اللَّهُ بَعْدُ ‏[quran sura=\"2\" aya_start=\"187\" aya_end=\"187\"] {‏مِنَ الْفَجْرِ‏} ‏ فَعَلِمُوا أَنَّهُ إِنَّمَا يَعْنِي اللَّيْلَ وَالنَّهَارَ‏.‏",
+      "source_hash_sha256": "ea1002cf4e96637a002b06f870eb210386b203e021c2116af55269f1f787013f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "40793656-f37e-4cbf-a9d1-4688525fcb74",
+      "reason": "This report directly quotes Quran 2:187 twice. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "a0007ee8-8585-4e85-8a1e-988751adc420",
+      "reason": "This report directly quotes Quran 2:187. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "source_id": "422030ea-02c2-4d8e-a61a-8d97b4649358",
+      "reason": "This report directly quotes Quran 2:187, including two quoted portions. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
