@@ -7806,3 +7806,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0136 handles the deferred long report by itself. The report directly quotes the wording of Quran 14:48, so the complete French text remains blank under Needs Mo until an approved, attributed French Quran translation with permitted use is confirmed.
 - Its source hash is retained; the focused validator passed the one-item long-source rule. No database write or publication occurred. Counts remain 561 Muslim drafts, 6,897 total hadith drafts, 7,732 remaining, and rise to 276 Needs Mo items.
+
+### 2026-10-29: Muslim 315b–317a
+
+- FR-LIB-HAD-MUSLIM-0137 saves three private French drafts about ritual washing after major impurity. Muslim 315b and 316b–c contain variant notes or cross-references without complete report wording, so they remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 564 Muslim drafts, 6,900 total hadith drafts, 7,729 remaining, and 279 Needs Mo items.
