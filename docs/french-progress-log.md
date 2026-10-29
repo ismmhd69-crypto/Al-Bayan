@@ -9986,3 +9986,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0571 saves six private French drafts about early departure from Muzdalifa and the Prophet’s permission for women and vulnerable pilgrims. Distinct short variant wording is kept with its own source record.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1293c–1296c
+
+- FR-LIB-HAD-MUSLIM-0572 saves five private French drafts about the early departure of vulnerable pilgrims and the stoning of the Jamrah. Muslim 1296c only refers to the preceding report with a wording correction and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
