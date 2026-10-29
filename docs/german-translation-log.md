@@ -61,3 +61,5 @@ Published: `false`
 | muslim-001 | 30 | 30 | 0 | 18215 | 18245 | Stored cleanly as unpublished drafts |
 | bukhari-001-part1 | 15 | 15 | 0 | 18245 | 18260 | Stored cleanly as unpublished drafts |
 | muslim-002 | 30 | 30 | 0 | 18260 | 18290 | Stored cleanly as unpublished drafts |
+| muslim-003 | 30 | 30 | 0 | 18290 | 18320 | Stored cleanly as unpublished drafts |
+| muslim-004 | 30 | 30 | 0 | 18320 | 18350 | Stored cleanly as unpublished drafts |
