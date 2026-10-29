@@ -15547,6 +15547,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-712",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-712.json",
+      "sourceIds": ["626b90aa-e873-4fcf-9758-69eeddd75c6d", "880a772d-c14b-4939-b55e-703fbb03b106", "484dad10-c368-4f41-a621-4377c6cdd2b0", "483eace5-6af0-4931-800e-0c2b8fc7816d", "c5293a78-30d3-481b-a084-567ce95cca4e", "7029d6f9-016a-42d0-b3f2-89933d8f9877"],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; one Quran-wording record and one incomplete-source record remain blank with reason-specific holds",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15768,6 +15783,19 @@
       "scope": "Sahih al-Bukhari 3980: direct quotations of Quran 7:44 and 27:80",
       "status": "blocked",
       "reason": "The report directly quotes Quran 7:44 and 27:80. It remains blank in FR-LIB-HAD-BUKHARI-711 until an approved, attributed French Quran translation is confirmed."
+    }
+,
+    {
+      "id": "HADITH-BUKHARI-3983-QURAN-41-40-WORDING",
+      "scope": "Sahih al-Bukhari 3983: divine speech includes wording matching Quran 41:40",
+      "status": "blocked",
+      "reason": "The report presents اعملوا ما شئتم as divine speech, wording that directly matches part of Quran 41:40. It remains blank in FR-LIB-HAD-BUKHARI-712 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3987-INCOMPLETE-WORDING",
+      "scope": "Sahih al-Bukhari 3987: ending fragment with unclear wording",
+      "status": "blocked",
+      "reason": "The local source record ends with a fragment whose exact wording and meaning are unclear. The full record remains blank in FR-LIB-HAD-BUKHARI-712 pending confirmation of the complete source text."
     }
   ],
   "hadithBukhariDrafted": 3524,
