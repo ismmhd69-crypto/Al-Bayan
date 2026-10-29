@@ -16192,6 +16192,28 @@
       "published": 0,
       "status": "local draft with holds"
     }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-755",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-755.json",
+  "sourceIds": [
+    "34957f47-aafc-40aa-a86a-a1f76017d5c8",
+    "97c47753-b20b-4c94-a39f-093f7fc3dc24",
+    "a1e01948-1e11-473b-8f86-252511d9417c",
+    "ba0c3a3b-217e-41a0-a875-b7c2a4ddc263",
+    "b5ce2fbc-ab4f-412f-bda2-15e8519a5e42",
+    "8861bf0f-d0bb-4f7b-8d08-8e0f174ea018"
+  ],
+  "translated": 5,
+  "inserted": 0,
+  "preserved": 1,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -16573,8 +16595,16 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 48:1 and 48:5. It remains blank in FR-LIB-HAD-BUKHARI-754 until an approved, attributed French Quran translation is confirmed."
     }
+
+,
+    {
+  "id": "HADITH-BUKHARI-4177-QURAN-48-1",
+  "scope": "Sahih al-Bukhari 4177: direct quotation of Quran 48:1",
+  "status": "blocked",
+  "reason": "The report directly quotes Quran 48:1. It remains blank in FR-LIB-HAD-BUKHARI-755 until an approved, attributed French Quran translation is confirmed."
+}
   ],
-  "hadithBukhariDrafted": 3692,
-  "hadithLocalDrafted": 3692,
-  "hadithLocalRemaining": 10965
+  "hadithBukhariDrafted": 3697,
+  "hadithLocalDrafted": 3697,
+  "hadithLocalRemaining": 10960
 }
