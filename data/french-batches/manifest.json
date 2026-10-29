@@ -18408,6 +18408,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-853",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-853.json",
+      "sourceIds": [
+        "0fae0846-bb09-4b50-ab9d-0dcdaf0290fd",
+        "a7888c47-27a5-4dd0-83a7-79c74862eebe",
+        "306a07e7-4e45-4225-a0ed-021e5c0a43b8",
+        "c288f484-412c-48a3-b859-1a4eed074c7e",
+        "c84365b0-dfaa-4b6e-a352-03b6b377f4aa",
+        "efe08a01-ee3e-4c9a-9dde-6a986166ccb7"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 5,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19820,9 +19841,39 @@
       "scope": "Sahih al-Bukhari 4697: repeated direct Quranic wording from 31:34",
       "status": "blocked",
       "reason": "Le rapport reprend directement plusieurs formules de Quran 31:34. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-852, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4698-QURAN-14-25",
+      "scope": "Sahih al-Bukhari 4698: direct Quranic phrase from 14:25",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement la formule coranique « تؤتي أكلها كل حين » de Quran 14:25. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-853, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4699-QURAN-14-27",
+      "scope": "Sahih al-Bukhari 4699: direct quotation of Quran 14:27",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 14:27. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-853, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4700-QURAN-14-28",
+      "scope": "Sahih al-Bukhari 4700: direct quotation of Quran 14:28",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 14:28. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-853, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4701-QURAN-34-23",
+      "scope": "Sahih al-Bukhari 4701: direct Quranic quotation from 34:23",
+      "status": "blocked",
+      "reason": "Le récit reprend une citation directe de Quran 34:23 (« قالوا الحق وهو العلي الكبير »). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-853, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4703-QURAN-8-24-1-2",
+      "scope": "Sahih al-Bukhari 4703: direct quotations of Quran 8:24 and 1:2",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 8:24 et 1:2. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-853, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4008,
-  "hadithLocalDrafted": 4008,
-  "hadithLocalRemaining": 10659
+  "hadithBukhariDrafted": 4009,
+  "hadithLocalDrafted": 4009,
+  "hadithLocalRemaining": 10658
 }
