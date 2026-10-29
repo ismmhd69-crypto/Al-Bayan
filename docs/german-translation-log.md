@@ -130,3 +130,5 @@ Published: `false`
 | muslim-068 | 30 | 30 | 0 | 20270 | 20300 | Stored cleanly as unpublished drafts |
 | muslim-070 | 30 | 30 | 0 | 20300 | 20330 | Stored cleanly as unpublished drafts |
 | muslim-071 | 30 | 30 | 0 | 20330 | 20360 | Stored cleanly as unpublished drafts |
+| muslim-072 | 30 | 30 | 0 | 20360 | 20390 | Stored cleanly as unpublished drafts |
+| muslim-073 | 30 | 30 | 0 | 20390 | 20420 | Stored cleanly as unpublished drafts |
