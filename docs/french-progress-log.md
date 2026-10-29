@@ -10981,3 +10981,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0770 saves four private French drafts on vow expiation and swearing by fathers. Muslim 1646c and 1646e only refer to other versions and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1646f–1649a
+
+- FR-LIB-HAD-MUSLIM-0771 saves five private French drafts about oaths and atonement. All five source reports include translatable text, including the reported wording variations.
+- All five source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
