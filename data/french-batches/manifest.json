@@ -15892,6 +15892,21 @@
       "published": 0,
       "status": "local draft with holds"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-735",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-735.json",
+      "sourceIds": ["9cbc9956-13d5-4b2b-88ef-d9118dbb381b"],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -16201,7 +16216,7 @@
       "reason": "The report directly quotes Quran 3:128. It remains blank in FR-LIB-HAD-BUKHARI-734 until an approved, attributed French Quran translation is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 3552,
-  "hadithLocalDrafted": 3552,
-  "hadithLocalRemaining": 11105
+  "hadithBukhariDrafted": 3553,
+  "hadithLocalDrafted": 3553,
+  "hadithLocalRemaining": 11104
 }

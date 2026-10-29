@@ -3586,3 +3586,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-734` saves three private French drafts. Hadiths 4069 and 4070 remain blank because they directly quote Quran 3:128; both holds are recorded for Mo.
 - All five records passed the focused validator, including both private holds. No database writes or publication occurred. Bukhari local drafts: 3,604 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 288. Total local hadith rows not drafted: 11,059, including held records.
+
+### 2026-10-29: Bukhari 4072
+
+- `FR-LIB-HAD-BUKHARI-735` saves one private French draft of Wahshî’s account concerning Hamza and Musaylima.
+- The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,605 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 288. Total local hadith rows not drafted: 11,058, including held records.
