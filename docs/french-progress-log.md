@@ -9726,3 +9726,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0519 saves six private French drafts about Aisha’s reports of applying perfume for pilgrimage consecration and the visible traces of perfume in the Prophet’s hair. All six reports provide complete source text.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1190d–1190i
+
+- FR-LIB-HAD-MUSLIM-0520 saves four private French drafts about perfume’s remaining visible traces after the Prophet entered consecration. Muslim 1190d only refers to a previous report, and 1190i provides only its chain of transmission; both remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
