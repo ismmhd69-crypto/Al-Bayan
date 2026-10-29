@@ -20339,6 +20339,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-949",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-949.json",
+      "sourceIds": [
+        "ce2b99ac-74f0-4ef2-ae13-6ed86712db1d"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -23209,6 +23225,18 @@
       "scope": "Sahih al-Bukhari 5190: excerpt explicitly omits the rest of the narration",
       "status": "blocked",
       "reason": "The source excerpt ends by referring to the rest of the report but does not include it. Keep blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-5191-LONG-SOURCE-REVIEW",
+      "scope": "Sahih al-Bukhari 5191: 6,668-character complex narration",
+      "status": "blocked",
+      "reason": "This unusually long, complex source needs a distinct completeness review before translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5191-QURAN-66-4",
+      "scope": "Sahih al-Bukhari 5191: direct Quran quotation from 66:4",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 66:4. Keep the complete translation blank pending an approved, attributed French Quran translation."
     },
     {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
