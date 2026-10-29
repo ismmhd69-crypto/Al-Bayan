@@ -7472,3 +7472,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0073 saves one complete private French draft of the 3,985-character night-journey report, preserving its narrator chain, events and prayer numbers.
 - The source hash and focused validator are retained; the single-item long-text rule passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 321 of 7,366. Hadith Needs Mo: 207. Total local hadith rows not drafted: 7,972, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 164a
+
+- FR-LIB-HAD-MUSLIM-0074 saves one complete private French draft of the 2,852-character night-journey report, retaining the uncertain narrator link and the listed events and numbers.
+- The source hash and focused validator are retained; the single-item long-text rule passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 322 of 7,366. Hadith Needs Mo: 207. Total local hadith rows not drafted: 7,971, including held records. No database writes or publication occurred.
