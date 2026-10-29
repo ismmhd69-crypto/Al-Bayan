@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-424",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:53:36.628Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "41a33409-e738-49a1-94cd-8072564e7492",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2467",
+      "reference": "Sahih al-Bukhari, hadith 2467, book 46, باب الْغُرْفَةِ وَالْعُلِّيَّةِ الْمُشْرِفَةِ وَغَيْرِ الْمُشْرِفَةِ فِي السُّطُوحِ وَغَيْرِهَا",
+      "title": "باب الْغُرْفَةِ وَالْعُلِّيَّةِ الْمُشْرِفَةِ وَغَيْرِ الْمُشْرِفَةِ فِي السُّطُوحِ وَغَيْرِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ ـ رضى الله عنهما ـ قَالَ أَشْرَفَ النَّبِيُّ صلى الله عليه وسلم عَلَى أُطُمٍ مِنْ آطَامِ الْمَدِينَةِ ثُمَّ قَالَ ‏\"‏ هَلْ تَرَوْنَ مَا أَرَى إِنِّي أَرَى مَوَاقِعَ الْفِتَنِ خِلاَلَ بُيُوتِكُمْ كَمَوَاقِعِ الْقَطْرِ ‏\"‏‏.‏",
+      "source_hash_sha256": "6e97ab9e1920d8d44adb687551e8e501c72372369adf5d0cd81b981af93efa27",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Muhammad, Ibn ‘Uyayna, al-Zuhrî, ‘Urwa et Usâma ibn Zayd.\n\nLe Prophète se tint sur l’une des hautes tours de Médine et dit : « Voyez-vous ce que je vois ? Je vois les lieux où les troubles frapperont vos maisons, comme les endroits que touche la pluie. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

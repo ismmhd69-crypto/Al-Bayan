@@ -2031,3 +2031,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-423` saves five private French drafts for Bukhari 2461–2463 and 2465–2466. Bukhari 2464 directly quotes Quran 5:93; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,232 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 135. Total local hadith rows not drafted: 12,397, including held records.
+
+### 2026-10-29: Bukhari 2467 source review
+
+- `FR-LIB-HAD-BUKHARI-424` saves one private French draft for Bukhari 2467, comparing the spread of future trials among homes to the way raindrops fall.
+- The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,233 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 135. Total local hadith rows not drafted: 12,396, including held records.
