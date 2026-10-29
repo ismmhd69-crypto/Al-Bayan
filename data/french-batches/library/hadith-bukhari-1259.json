@@ -1,0 +1,167 @@
+{
+  "batch_id": "HADITH-BUKHARI-1259",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:21:43.784Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "46282412-2e49-4198-ad0d-c5cfd9c3cc58",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6873",
+      "reference": "Sahih al-Bukhari, hadith 6873, book 87, باب قَوْلِ اللَّهِ تَعَالَى ‏{‏وَمَنْ أَحْيَاهَا‏}‏",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏{‏وَمَنْ أَحْيَاهَا‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا اللَّيْثُ، حَدَّثَنَا يَزِيدُ، عَنْ أَبِي الْخَيْرِ، عَنِ الصُّنَابِحِيِّ، عَنْ عُبَادَةَ بْنِ الصَّامِتِ ـ رضى الله عنه ـ قَالَ إِنِّي مِنَ النُّقَبَاءِ الَّذِينَ بَايَعُوا رَسُولَ اللَّهِ صلى الله عليه وسلم بَايَعْنَاهُ عَلَى أَنْ لاَ نُشْرِكَ بِاللَّهِ شَيْئًا، وَلاَ نَسْرِقَ وَلاَ نَزْنِيَ، وَلاَ نَقْتُلَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ، وَلاَ نَنْتَهِبَ، وَلاَ نَعْصِيَ، بِالْجَنَّةِ إِنْ فَعَلْنَا ذَلِكَ، فَإِنْ غَشِينَا مِنْ ذَلِكَ شَيْئًا كَانَ قَضَاءُ ذَلِكَ إِلَى اللَّهِ‏.‏",
+      "source_hash_sha256": "21cc8809fa52044e67a1583e094bc8e5c375251c92c7670042378ad8fe697fa5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La formulation du pacte reprend directement des passages du Coran 60:12. Garder toute sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    },
+    {
+      "source_id": "43b69d85-c29f-46b5-9930-966741ab314d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6874",
+      "reference": "Sahih al-Bukhari, hadith 6874, book 87, باب قَوْلِ اللَّهِ تَعَالَى ‏{‏وَمَنْ أَحْيَاهَا‏}‏",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏{‏وَمَنْ أَحْيَاهَا‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا جُوَيْرِيَةُ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ حَمَلَ عَلَيْنَا السِّلاَحَ فَلَيْسَ مِنَّا ‏\"‏‏.‏ رَوَاهُ أَبُو مُوسَى عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "d8cdc9451021367dc4f4206e9adf6575bf16bf52fd6a616a5a0c913ea3976912",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Mûsâ ibn Ismâ‘îl nous a rapporté : Juwayriya nous a rapporté, d’après Nâfi‘, d’après ‘Abd Allah — qu’Allah l’agrée —, d’après le Prophète ﷺ, qui a dit : « Celui qui porte les armes contre nous n’est pas des nôtres. » Abû Mûsâ l’a également rapporté du Prophète ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2606a41a-ed51-4079-b124-61dca02307fe",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6875",
+      "reference": "Sahih al-Bukhari, hadith 6875, book 87, باب قَوْلِ اللَّهِ تَعَالَى ‏{‏وَمَنْ أَحْيَاهَا‏}‏",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏{‏وَمَنْ أَحْيَاهَا‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ الْمُبَارَكِ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، حَدَّثَنَا أَيُّوبُ، وَيُونُسُ، عَنِ الْحَسَنِ، عَنِ الأَحْنَفِ بْنِ قَيْسٍ، قَالَ ذَهَبْتُ لأَنْصُرَ هَذَا الرَّجُلَ، فَلَقِيَنِي أَبُو بَكْرَةَ فَقَالَ أَيْنَ تُرِيدُ قُلْتُ أَنْصُرُ هَذَا الرَّجُلَ‏.‏ قَالَ ارْجِعْ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِذَا الْتَقَى الْمُسْلِمَانِ بِسَيْفَيْهِمَا فَالْقَاتِلُ وَالْمَقْتُولُ فِي النَّارِ ‏\"‏‏.‏ قُلْتُ يَا رَسُولَ اللَّهِ هَذَا الْقَاتِلُ فَمَا بَالُ الْمَقْتُولِ قَالَ ‏\"‏ إِنَّهُ كَانَ حَرِيصًا عَلَى قَتْلِ صَاحِبِهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "eb57959dcc7d03e4ada1680a37d2fd6bfe3a29e192e6dc27c86edcda51ce5a26",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd al-Rahmân ibn al-Mubârak nous a rapporté : Hammâd ibn Zayd nous a rapporté : Ayyûb et Yûnus nous ont rapporté, d’après al-Hasan, d’après al-Ahnaf ibn Qays, qui a dit : « Je partis pour soutenir cet homme. Abû Bakra me rencontra et me demanda : “Où vas-tu ?” Je répondis : “Je vais soutenir cet homme.” Il dit : “Retourne sur tes pas, car j’ai entendu le Messager d’Allah ﷺ dire : ‘Lorsque deux musulmans s’affrontent avec leurs épées, le meurtrier et le tué sont en Enfer.’” Je demandai : “Messager d’Allah, pour le meurtrier, je comprends ; mais qu’en est-il du tué ?” Il répondit : “Lui aussi tenait à tuer son compagnon.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ddb27857-3044-4c79-b2b3-479e1800af70",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6876",
+      "reference": "Sahih al-Bukhari, hadith 6876, book 87, باب سُؤَالِ الْقَاتِلِ حَتَّى يُقِرَّ وَالإِقْرَارِ فِي الْحُدُودِ",
+      "title": "باب سُؤَالِ الْقَاتِلِ حَتَّى يُقِرَّ وَالإِقْرَارِ فِي الْحُدُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَجَّاجُ بْنُ مِنْهَالٍ، حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ أَنَّ يَهُودِيًّا، رَضَّ رَأْسَ جَارِيَةٍ بَيْنَ حَجَرَيْنِ، فَقِيلَ لَهَا مَنْ فَعَلَ بِكِ هَذَا أَفُلاَنٌ أَوْ فُلاَنٌ حَتَّى سُمِّيَ الْيَهُودِيُّ، فَأُتِيَ بِهِ النَّبِيُّ صلى الله عليه وسلم فَلَمْ يَزَلْ بِهِ حَتَّى أَقَرَّ بِهِ، فَرُضَّ رَأْسُهُ بِالْحِجَارَةِ‏.‏",
+      "source_hash_sha256": "712cf7568a343911f255c15103f5bed038892032686d5236e85de691780cacdf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hajjâj ibn Minhâl nous a rapporté : Hammâm nous a rapporté, d’après Qatâda, d’après Anas ibn Mâlik — qu’Allah l’agrée — : Un juif écrasa la tête d’une jeune esclave entre deux pierres. On lui demanda : « Untel ou untel t’a-t-il fait cela ? » On continua jusqu’à ce que le nom du juif soit prononcé. On l’amena au Prophète ﷺ ; il finit par reconnaître son acte. Alors sa tête fut écrasée avec des pierres.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0d2b66f3-0aec-4021-aada-fd5ed3be5223",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6877",
+      "reference": "Sahih al-Bukhari, hadith 6877, book 87, باب إِذَا قَتَلَ بِحَجَرٍ أَوْ بِعَصًا",
+      "title": "باب إِذَا قَتَلَ بِحَجَرٍ أَوْ بِعَصًا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدٌ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، عَنْ شُعْبَةَ، عَنْ هِشَامِ بْنِ زَيْدِ بْنِ أَنَسٍ، عَنْ جَدِّهِ، أَنَسِ بْنِ مَالِكٍ قَالَ خَرَجَتْ جَارِيَةٌ عَلَيْهَا أَوْضَاحٌ بِالْمَدِينَةِ ـ قَالَ ـ فَرَمَاهَا يَهُودِيٌّ بِحَجَرٍ ـ قَالَ ـ فَجِيءَ بِهَا إِلَى النَّبِيِّ صلى الله عليه وسلم وَبِهَا رَمَقٌ فَقَالَ لَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ فُلاَنٌ قَتَلَكِ ‏\"‏‏.‏ فَرَفَعَتْ رَأْسَهَا، فَأَعَادَ عَلَيْهَا قَالَ ‏\"‏ فُلاَنٌ قَتَلَكِ ‏\"‏‏.‏ فَرَفَعَتْ رَأْسَهَا، فَقَالَ لَهَا فِي الثَّالِثَةِ ‏\"‏ فُلاَنٌ قَتَلَكِ ‏\"‏‏.‏ فَخَفَضَتْ رَأْسَهَا، فَدَعَا بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَتَلَهُ بَيْنَ الْحَجَرَيْنِ‏.‏",
+      "source_hash_sha256": "59253d2b8e663188f2e5834f1cf9141cb46c46c30440bee4c054bf21fe88950d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad nous a rapporté : ‘Abd Allah ibn Idrîs nous a informés, d’après Shu‘ba, d’après Hishâm ibn Zayd ibn Anas, d’après son grand-père Anas ibn Mâlik, qui a dit : « Une jeune esclave parée de bijoux d’argent sortit à Médine. Un juif lui lança une pierre. On l’amena au Prophète ﷺ alors qu’elle respirait encore. Le Messager d’Allah ﷺ lui demanda : “Untel t’a-t-il tuée ?” Elle releva la tête. Il lui posa de nouveau la question, et elle releva la tête. La troisième fois, il lui demanda : “Untel t’a-t-il tuée ?” Elle baissa la tête. Le Messager d’Allah ﷺ le fit alors venir et le tua entre les deux pierres. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6ec56d0d-990e-4b00-963b-d84fda2330f5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6878",
+      "reference": "Sahih al-Bukhari, hadith 6878, book 87, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏أَنَّ النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ وَالأَنْفَ بِالأَنْفِ وَالأُذُنَ بِالأُذُنِ وَالسِّنَّ بِالسِّنِّ وَالْجُرُوحَ قِصَاصٌ فَمَنْ تَصَدَّقَ بِهِ فَهُوَ كَفَّارَةٌ لَهُ وَمَنْ لَمْ يَحْكُمْ بِمَا أَنْزَلَ اللَّهُ فَأُولَئِكَ هُمُ الظَّالِمُونَ}",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏أَنَّ النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ وَالأَنْفَ بِالأَنْفِ وَالأُذُنَ بِالأُذُنِ وَالسِّنَّ بِالسِّنِّ وَالْجُرُوحَ قِصَاصٌ فَمَنْ تَصَدَّقَ بِهِ فَهُوَ كَفَّارَةٌ لَهُ وَمَنْ لَمْ يَحْكُمْ بِمَا أَنْزَلَ اللَّهُ فَأُولَئِكَ هُمُ الظَّالِمُونَ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلاَّ بِإِحْدَى ثَلاَثٍ النَّفْسُ بِالنَّفْسِ وَالثَّيِّبُ الزَّانِي، وَالْمَارِقُ مِنَ الدِّينِ التَّارِكُ الْجَمَاعَةَ ‏\"‏‏.‏",
+      "source_hash_sha256": "9c03d7b78959e0a6035beee802edcc3b02d35074c2930c6dd2fd0100d89b53db",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Umar ibn Hafs nous a rapporté : mon père nous a rapporté : al-A‘mash nous a rapporté, d’après ‘Abd Allah ibn Murra, d’après Masrûq, d’après ‘Abd Allah, qui a dit : Le Messager d’Allah ﷺ a dit : « Il n’est pas permis de verser le sang d’un musulman qui atteste qu’il n’y a pas de divinité en dehors d’Allah et que je suis le Messager d’Allah, sauf dans l’un de ces trois cas : une vie pour une vie ; l’adultère commis par une personne déjà mariée ; et celui qui quitte la religion en abandonnant la communauté. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "46282412-2e49-4198-ad0d-c5cfd9c3cc58",
+      "url": "https://sunnah.com/bukhari:6873",
+      "reason": "La formulation du pacte reprend directement des passages du Coran 60:12. Garder toute sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    }
+  ]
+}

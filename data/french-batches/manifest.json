@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5783,
+    "hadithBukhariDrafted": 5788,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5783,
+    "hadithLocalDrafted": 5788,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8846,
-    "hadithNeedsMo": 833,
+    "hadithLocalRemaining": 8841,
+    "hadithNeedsMo": 834,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26622,6 +26622,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1259",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1259.json",
+      "sourceIds": [
+        "46282412-2e49-4198-ad0d-c5cfd9c3cc58",
+        "43b69d85-c29f-46b5-9930-966741ab314d",
+        "2606a41a-ed51-4079-b124-61dca02307fe",
+        "ddb27857-3044-4c79-b2b3-479e1800af70",
+        "0d2b66f3-0aec-4021-aada-fd5ed3be5223",
+        "6ec56d0d-990e-4b00-963b-d84fda2330f5"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one report held in full because its pledge wording directly echoes Quran 60:12. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -30008,11 +30029,17 @@
       "scope": "Sahih al-Bukhari 6861: direct quotation of Quran 25:68",
       "status": "blocked",
       "reason": "The report directly quotes Quran 25:68. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6873-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 6873: pledge wording directly echoes Quran 60:12",
+      "status": "blocked",
+      "reason": "The pledge wording directly echoes phrases from Quran 60:12. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5783,
-  "hadithLocalDrafted": 5783,
-  "hadithLocalRemaining": 8846,
+  "hadithBukhariDrafted": 5788,
+  "hadithLocalDrafted": 5788,
+  "hadithLocalRemaining": 8841,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30541,6 +30568,12 @@
       "scope": "Sahih al-Bukhari 6861: direct quotation of Quran 25:68",
       "status": "blocked",
       "reason": "The report directly quotes Quran 25:68. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6873-QURAN-60-12",
+      "scope": "Sahih al-Bukhari 6873: pledge wording directly echoes Quran 60:12",
+      "status": "blocked",
+      "reason": "The pledge wording directly echoes phrases from Quran 60:12. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
