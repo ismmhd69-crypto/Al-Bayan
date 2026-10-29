@@ -10946,3 +10946,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0763 saves four private French drafts on bequests and charity. Muslim 1628h–i only provide cross-references and brief context, so they remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1632a–1635a
+
+- FR-LIB-HAD-MUSLIM-0764 saves five private French drafts on an endowment, a bequest, and property left by the Prophet ﷺ. Muslim 1633 only points back to the other report while describing omissions, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
