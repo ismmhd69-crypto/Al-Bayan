@@ -3151,3 +3151,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-647` keeps the report about the Prophet’s death and the succession discussion blank because it quotes Quran 39:30 and 3:144. No approved, attributed French Quran translation is confirmed.
 - The record passed the focused validator with its Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,267 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 239. Total local hadith rows not drafted: 11,390, including held records.
+
+### 2026-10-29: Bukhari 3669–3673
+
+- `FR-LIB-HAD-BUKHARI-648` saves three private French drafts about Ibn al-Hanafiyya, the lost necklace and the companions. Bukhari 3669–3670 remain blank because the account quotes Quran 3:144. No approved, attributed French Quran translation is confirmed.
+- All four records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,270 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 240. Total local hadith rows not drafted: 11,387, including held records.
