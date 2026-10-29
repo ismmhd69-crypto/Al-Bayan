@@ -17589,6 +17589,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-812",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-812.json",
+      "sourceIds": [
+        "d3010888-4cb2-4577-ae76-c7768d34faf5",
+        "fc45ec63-50de-4d8a-9746-551f050307a9",
+        "adc6fba3-6e7f-40c5-b7be-f2df888d0ea5",
+        "6af1b13e-aca9-42d8-922e-984f73216590",
+        "cb8aa900-d692-41f9-9dd0-e9c23c8016f6",
+        "4049637c-fc90-46c6-9c6f-79b6eb610bd5"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -18205,7 +18226,7 @@
       "reason": "The report directly quotes Quran 2:143 twice. The complete record remains blank in FR-LIB-HAD-BUKHARI-811 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3938,
-  "hadithLocalDrafted": 3938,
-  "hadithLocalRemaining": 10719
+  "hadithBukhariDrafted": 3944,
+  "hadithLocalDrafted": 3944,
+  "hadithLocalRemaining": 10713
 }
