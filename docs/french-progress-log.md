@@ -10431,3 +10431,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0660 saves five private French drafts about lineage recognition and the Prophet’s stay with Umm Salama after their marriage. Muslim 1459d only gives a variant of the preceding report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1460c–1462
+
+- FR-LIB-HAD-MUSLIM-0661 saves four private French drafts about time allocated to a new wife and an account involving Aisha and Zaynab. Muslim 1460d–e are incomplete variants that refer to earlier reports and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

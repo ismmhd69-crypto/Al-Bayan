@@ -42656,6 +42656,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0661",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0661.json",
+      "sourceIds": [
+        "0e888cea-5e9c-40c7-a4de-7dce8ad98152",
+        "b670d173-2729-4a7c-b540-363b64c62ee6",
+        "7de1c8ca-cd81-444c-acea-5ccfdd769d74",
+        "8cab5dd0-163c-42d6-995f-e3778a82ee4c",
+        "7d88d661-8b10-4c8f-ace1-e84e5fcd5a6a",
+        "b84e545e-dc05-4175-a695-b17b7cecec08"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two incomplete cross-reference variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46963,8 +46984,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8961,
-  "hadithLocalRemaining": 5668,
+  "hadithLocalDrafted": 8965,
+  "hadithLocalRemaining": 5664,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51261,10 +51282,20 @@
       "source_id": "3e3a6ad1-1ee3-4941-b656-beec9f6e40fa",
       "reason": "Cette entrée ne donne qu’une variante à propos du récit précédent (« بمعنى حديثهم ») et précise que Mujazziz était un expert en filiation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "b670d173-2729-4a7c-b540-363b64c62ee6",
+      "reason": "Cette entrée renvoie simplement à la version précédente (« مثله »), sans reprendre le récit. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7de1c8ca-cd81-444c-acea-5ccfdd769d74",
+      "reason": "Cette entrée renvoie au récit précédent en n’en donnant que des éléments (« وذكر أشياء هذا فيه ») et une variante de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2625,
+  "hadithMuslimDrafted": 2629,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1152
+  "hadithNeedsMo": 1154
 }
