@@ -896,3 +896,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-179` saves five private French drafts for Bukhari 1016–1019 and 1021. Bukhari 1020 remains blank under Needs Mo because it quotes Quran 44:10 and 44:16 and no approved, attributed French Quran translation is available.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 946 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 47. Total local hadith rows not drafted: 13,683, including held records.
+### 2026-10-29: Bukhari 1022–1027 source review
+
+- `FR-LIB-HAD-BUKHARI-180` saves six private French drafts for Bukhari 1022–1027. They preserve the standing supplication for rain, facing the qibla, turning the cloak, and the variants about the prayer at the open-air prayer ground.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 952 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 47. Total local hadith rows not drafted: 13,677, including held records.
