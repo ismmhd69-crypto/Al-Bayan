@@ -820,3 +820,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-160` saves six private French drafts for Bukhari 895–896 and 898–901. The source export did not include a Bukhari 897 record. The translations preserve the repeated seven-day washing wording, the permission to attend mosque at night, and the rainy-day instruction to pray at home.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 836 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,793, including held records.
+### 2026-10-29: Bukhari 902–907 source review
+
+- `FR-LIB-HAD-BUKHARI-161` saves six private French drafts for Bukhari 902–907. The reports preserve the reasons given for Friday washing, the timing of the prayer in hot and cold weather, and the variant transmission that does not specify Friday.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 842 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,787, including held records.
