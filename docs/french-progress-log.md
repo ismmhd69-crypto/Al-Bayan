@@ -10281,3 +10281,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0630 saves four private French drafts about marriage proposals, marriage to an aunt and niece together, and marriage contracts during pilgrimage consecration. Muslim 1408f and 1408j only refer to previous reports and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1409b–1410b
+
+- FR-LIB-HAD-MUSLIM-0631 saves six private French drafts about marriage contracts during pilgrimage consecration and the reports about the Prophet’s marriage to Maymuna. The differing statements about whether he was in consecration are preserved within their source records.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
