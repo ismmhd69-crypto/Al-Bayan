@@ -11290,3 +11290,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1762b
 
 - FR-LIB-HAD-MUSLIM-0832 saves one private French draft of the short variant. It preserves the chain and explicitly records that this version omits the mention of nafl. Focused validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1763
+
+- FR-LIB-HAD-MUSLIM-0833 records the complete long report as a Needs Mo hold because it contains Quran quotations from 8:9, 8:67, and 8:69. The entire French entry remains blank pending an attributed and authorized French Quran translation. No database write or publication occurred.
