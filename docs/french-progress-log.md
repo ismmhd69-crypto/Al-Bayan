@@ -14,6 +14,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - Existing German exporters are not reused: they hard-code `de`, export into `data/german-batches`, and the hadith exporter omits source publication state and source hashes. Existing insert tooling writes English and German rows, so it is not safe for a French batch.
 - Database blocker: the live `public.source_translations.lang` constraint only accepts `ar`, `en`, and `de`. The task forbids schema changes. Therefore French drafts cannot currently be inserted into Supabase. No database write was attempted. Local website work may continue; library database drafting remains blocked unless the schema constraint is separately changed later.
 - French batch manifest: `data/french-batches/manifest.json`.
+- The 324 leaf strings in the current English interface dictionary have now been translated into 13 private French batches and assembled into `dictionaries/fr.ts`. Each batch passed exact key/source, nonempty-text, and placeholder checks. This is only a dictionary draft: it is not connected to locale routing, public navigation, APIs, or a private preview yet.
+- The code-level scan found additional visible hard-coded copy in pages, reader controls, and Ask/error/reconnect flows. Those locations are not included in the 324 dictionary strings and are still being inventoried.
 
 ### Batch ledger
 
@@ -23,6 +25,16 @@ Scope: private local preparation only. French remains absent from public locale 
 | FR-UI-001 | Interface dictionary keys `meta.title` through `home.how1t` | 25 | 0 | 0 | Key/source parity, nonempty French, and placeholder parity passed | 274 interface strings; 97 learning items | Local draft saved |
 | FR-UI-002 | Interface dictionary keys `home.how1` through `ask.notFatwa` | 25 | 0 | 0 | Key/source parity, nonempty French, and placeholder parity passed | 274 interface strings; 97 learning items | Local draft saved |
 | FR-UI-003 | Interface dictionary keys `ask.error` through `ask.v2.views.position_a` | 25 | 0 | 0 | Key/source parity, nonempty French, and placeholder parity passed; valid French loanwords retained | 249 interface strings; 97 learning items | Local draft saved |
+| FR-UI-004 | Interface dictionary keys `ask.v2.views.position_b` through `ask.scholarShort.permanent-committee` | 25 | 0 | 0 | Key/source parity, nonempty French, and placeholder parity passed; established scholar names retained | 224 interface strings; 97 learning items | Local draft saved |
+| FR-UI-005 | Interface dictionary keys `ask.scholarShort.al-barrak` through `ask.video.channels.UCwMocSKEbLav6SZvwzTvDbQ` | 25 | 0 | 0 | Key/source parity, nonempty French, and placeholder parity passed; names and the French abbreviation `min` retained | 199 interface strings; 97 learning items | Local draft saved |
+| FR-UI-006 | Interface dictionary keys `ask.video.channels.UCWjCSGhmSGu0VLf2mPFS0Kg` through `ask.testMode` | 25 | 0 | 0 | Key/source parity, nonempty French, and placeholder parity passed; names and collection titles retained | 174 interface strings; 97 learning items | Local draft saved |
+| FR-UI-007 | Interface dictionary keys `ask.source` through `more.theme` | 25 | 0 | 0 | Key/source parity, nonempty French, and exact placeholder parity passed | 149 interface strings; 97 learning items | Local draft saved |
+| FR-UI-008 | Interface dictionary keys `more.themeLight` through `about.points.4.0` | 24 | 0 | 0 | Key/source parity, nonempty French, and placeholder parity passed | 125 interface strings; 97 learning items | Local draft saved |
+| FR-UI-009 | Interface dictionary keys `about.points.4.1` through `reportPage.title` | 25 | 0 | 0 | Key/source parity, nonempty French, and placeholder parity passed | 100 interface strings; 97 learning items | Local draft saved |
+| FR-UI-010 | Interface dictionary keys `reportPage.subtitle` through `quran.allSurahs` | 25 | 0 | 0 | Key/source parity, nonempty French, and exact placeholder parity passed | 75 interface strings; 97 learning items | Local draft saved |
+| FR-UI-011 | Interface dictionary keys `quran.surahNumber` through `quran.playVerse` | 25 | 0 | 0 | Key/source parity, nonempty French, and exact placeholder parity passed; Arabic recitation formula unchanged | 50 interface strings; 97 learning items | Local draft saved |
+| FR-UI-012 | Interface dictionary keys `quran.pauseVerse` through `hadith.noMatches` | 25 | 0 | 0 | Key/source parity, nonempty French, and exact placeholder parity passed; reciter attribution and hadith collection names retained | 25 interface strings; 97 learning items | Local draft saved |
+| FR-UI-013 | Interface dictionary keys `hadith.clearSearch` through `hadith.filterBooksPlaceholder` | 25 | 0 | 0 | Key/source parity, nonempty French, and exact placeholder parity passed; unavailable French translation stated clearly | 0 dictionary strings; 97 learning items | Local draft saved |
 
 ### Needs Mo
 

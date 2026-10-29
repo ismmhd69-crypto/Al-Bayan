@@ -19,7 +19,7 @@ for (const entry of entries) {
   if (!entry.fr.trim()) errors.push(`empty_french:${entry.key}`);
   const names = (text: string) => [...text.matchAll(/\{([A-Za-z0-9_]+)\}/gu)].map((match) => match[1]).sort();
   if (JSON.stringify(names(entry.source)) !== JSON.stringify(names(entry.fr))) errors.push(`placeholder_mismatch:${entry.key}`);
-  const acceptedLoanwords = new Set(["nav.hadith", "ask.bayan", "ask.v2.hadith", "ask.v2.sources"]);
+  const acceptedLoanwords = new Set(["nav.hadith", "ask.bayan", "ask.v2.hadith", "ask.v2.sources", "ask.source", "ask.scholarShort.ibn-baz", "ask.scholarShort.ibn-uthaymeen", "ask.scholarShort.al-albani", "ask.scholarShort.al-fawzan", "ask.scholarShort.al-barrak", "ask.scholarShort.othman-al-khamis", "ask.video.minutes", "ask.hadith.bukhari", "ask.hadith.muslim", "ask.hadith.numberMuslim", "hadith.bukhari", "hadith.muslim", "hadith.hadithNumber"]);
   if (!acceptedLoanwords.has(entry.key) && entry.fr.trim() === entry.source.trim() && /[A-Za-z]/u.test(entry.source)) errors.push(`unchanged_english:${entry.key}`);
 }
 if (errors.length) {
