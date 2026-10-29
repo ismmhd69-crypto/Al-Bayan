@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:44:52.889Z",
+  "lastReconciled": "2026-10-29T13:45:36.404Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 0,
+    "hadithMuslimDrafted": 1,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6336,
-    "hadithDatabaseMissing": 8293,
-    "hadithLocalRemaining": 8293,
+    "hadithLocalDrafted": 6337,
+    "hadithDatabaseMissing": 8292,
+    "hadithLocalRemaining": 8292,
     "hadithNeedsMo": 170,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -29141,6 +29141,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0001",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0001.json",
+      "sourceIds": [
+        "f0ae7b91-9647-48d6-8458-080aa4e451fd"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "1 complete private draft; source hash retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -33022,8 +33038,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6336,
-  "hadithLocalRemaining": 8293,
+  "hadithLocalDrafted": 6337,
+  "hadithLocalRemaining": 8292,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -34046,5 +34062,5 @@
       "reason": "Ce récit cite directement des paroles coraniques. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 0
+  "hadithMuslimDrafted": 1
 }
