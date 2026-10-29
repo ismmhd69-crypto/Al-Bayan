@@ -3766,3 +3766,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-770` saves one private French draft of the al-Hudaybiya agreement and the report about the daughter of Hamza.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,752 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 310. Total local hadith rows not drafted: 10,905, including held records.
+
+### 2026-10-29: Bukhari 4252–4258
+
+- `FR-LIB-HAD-BUKHARI-771` saves six private French drafts about the al-Hudaybiya agreement, the Prophet’s ʿumras and Maymûna.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,758 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 310. Total local hadith rows not drafted: 10,899, including held records.
