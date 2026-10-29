@@ -38015,6 +38015,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0436",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0436.json",
+      "sourceIds": [
+        "74b3c8c7-4876-4fc5-9bfe-9232ff05333f",
+        "b78dca99-a287-4ce8-af49-c3ea144bfc80",
+        "6f8941f0-de4c-48f6-a8f1-5f0e0833f350",
+        "0356232d-0af9-4802-b9ff-dd8f92953131",
+        "10ef2054-31cf-41bd-bca0-50b7bc6ea2c4",
+        "3b8fc79a-e530-4511-abb4-fb0a08dde27a"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; four incomplete cross-references and one direct Quran quotation held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42322,8 +42343,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8041,
-  "hadithLocalRemaining": 6588,
+  "hadithLocalDrafted": 8042,
+  "hadithLocalRemaining": 6587,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -45290,10 +45311,35 @@
       "source_id": "bf5c83cf-0690-43b9-b6ac-e19762f5eccd",
       "reason": "La source renvoie à un récit précédent sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "74b3c8c7-4876-4fc5-9bfe-9232ff05333f",
+      "reason": "La source indique seulement que le récit est rapporté dans le sens d’une version précédente, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "b78dca99-a287-4ce8-af49-c3ea144bfc80",
+      "reason": "La source ne cite qu’une partie du récit précédent et précise que la suite est omise. Garder la traduction française vide jusqu’à disponibilité du texte complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "6f8941f0-de4c-48f6-a8f1-5f0e0833f350",
+      "reason": "La source ne fournit que des chaînes de transmission et renvoie au récit précédent, sans reprendre son contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "0356232d-0af9-4802-b9ff-dd8f92953131",
+      "reason": "La source contient une citation directe du Coran (sourate 9, verset 79). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "10ef2054-31cf-41bd-bca0-50b7bc6ea2c4",
+      "reason": "La source ne rapporte qu’une chaîne alternative et une précision de variante, en renvoyant au récit précédent sans le reprendre intégralement. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1705,
+  "hadithMuslimDrafted": 1706,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 805
+  "hadithNeedsMo": 810
 }
