@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5007,
+    "hadithBukhariDrafted": 5011,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5007,
+    "hadithLocalDrafted": 5011,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9622,
-    "hadithNeedsMo": 755,
+    "hadithLocalRemaining": 9618,
+    "hadithNeedsMo": 757,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23183,6 +23183,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1087",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1087.json",
+      "sourceIds": [
+        "7a541fe1-ca1c-4110-9777-7e3aecd1c022",
+        "38adb2ae-bdb4-476a-89a5-5b18b137a8ac",
+        "8d5fc06c-e9b4-43fe-98fb-2f00c8561a11",
+        "e167241e-608c-4100-a896-1f9f570d800e",
+        "14092663-e2f7-40e1-9537-97b4ae463130",
+        "2f3e4ecd-7a1d-44f9-bb21-59513b881317"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four records passed the focused validator; one direct Quran quotation and one incomplete source held blank. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26280,6 +26301,18 @@
       "scope": "Sahih al-Bukhari 5982: excerpt contains the question but omits the answer and remainder",
       "status": "blocked",
       "reason": "The exported text is an incomplete excerpt. Keep the item blank until the complete report is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-5987-QURAN-47-22",
+      "scope": "Sahih al-Bukhari 5987 direct quotation of Quran 47:22",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 47:22. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-5990-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5990: Arabic contains a gap after إن آل أبي",
+      "status": "blocked",
+      "reason": "The exported Arabic is incomplete at this point and the missing wording affects the report. Keep the item blank until the source is confirmed."
     }
   ]
 }
