@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6035,
+    "hadithBukhariDrafted": 6036,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6035,
+    "hadithLocalDrafted": 6036,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8594,
+    "hadithLocalRemaining": 8593,
     "hadithNeedsMo": 850,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -27646,6 +27646,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1309",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1309.json",
+      "sourceIds": [
+        "1a312c68-7524-4d64-9da0-827c95180d6c"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "one complete long-source draft in isolated batch; source hash retained; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -31136,9 +31152,9 @@
       "reason": "The source cuts off after an opening quotation mark. Keep the complete French translation blank pending confirmation of the complete report."
     }
   ],
-  "hadithBukhariDrafted": 6035,
-  "hadithLocalDrafted": 6035,
-  "hadithLocalRemaining": 8594,
+  "hadithBukhariDrafted": 6036,
+  "hadithLocalDrafted": 6036,
+  "hadithLocalRemaining": 8593,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
