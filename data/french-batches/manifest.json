@@ -42181,6 +42181,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0638",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0638.json",
+      "sourceIds": [
+        "c6e09031-a9e1-4f19-a242-021a20955807",
+        "7320a367-c2e7-4c1a-a3b9-413157f85af2",
+        "846e6c97-f5f1-48f6-b4d1-8e49a328b068",
+        "6576309c-cb74-4a7a-809c-91d8c4cd17b5",
+        "e9d6e178-145c-48f8-90e6-c39689f7d7de",
+        "8f715a74-e53d-456c-b6c4-2df5a8c88436"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two incomplete cross-reference variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46488,8 +46509,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8881,
-  "hadithLocalRemaining": 5748,
+  "hadithLocalDrafted": 8885,
+  "hadithLocalRemaining": 5744,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50536,10 +50557,20 @@
       "source_id": "8c9ca13e-6680-4d74-a0d7-7dc96d1a3489",
       "reason": "Cette entrée ne reproduit pas le récit et indique seulement qu’une variante ne mentionne pas la pratique d’Aïcha. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "c6e09031-a9e1-4f19-a242-021a20955807",
+      "reason": "Cette entrée ne reprend pas le récit complet et renvoie à la version précédente (« بِهَذَا الْحَدِيثِ »), en n’ajoutant qu’une variante. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "8f715a74-e53d-456c-b6c4-2df5a8c88436",
+      "reason": "Cette entrée ne reprend pas le récit complet et renvoie à la version précédente (« بِهَذَا الْحَدِيثِ »), en n’ajoutant qu’une variante. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2545,
+  "hadithMuslimDrafted": 2549,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1102
+  "hadithNeedsMo": 1104
 }
