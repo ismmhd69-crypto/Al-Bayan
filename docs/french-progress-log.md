@@ -1231,3 +1231,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-259` saves six private French drafts for Bukhari 1483–1488. They preserve the irrigation-based rates and Bukhari’s note on clarified transmissions, the prohibition on sale of unripe fruit, and the report that the Prophet’s family did not eat charity. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,358 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,271, including held records.
+
+### 2026-10-29: Bukhari 1489–1494 source review
+
+- `FR-LIB-HAD-BUKHARI-260` saves six private French drafts for Bukhari 1489–1494. They preserve the rulings on retrieving donated property, the distinction between charity and a gift, and the report about taking lawful benefit from a dead animal’s hide. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,364 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,265, including held records.
