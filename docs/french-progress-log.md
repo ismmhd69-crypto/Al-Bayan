@@ -952,3 +952,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-193` saves six private French drafts for Bukhari 1104–1109. They preserve the travel prayers on a mount and the reports about combining Maghrib and Isha while traveling. The exporter still flags a later overlong source for its own single-record artifact.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,024 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 53. Total local hadith rows not drafted: 13,605, including held records.
+### 2026-10-29: Bukhari 1110–1115 source review
+
+- `FR-LIB-HAD-BUKHARI-194` saves six private French drafts for Bukhari 1110–1115. They preserve the reports about combining prayers while traveling and the instructions for following an imam when praying seated.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,030 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 53. Total local hadith rows not drafted: 13,599, including held records.
