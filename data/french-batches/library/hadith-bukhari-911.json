@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-911",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:44:39.525Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f44bf6b6-fea7-44be-937f-c0c5e0736131",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4978",
+      "reference": "Sahih al-Bukhari, hadith 4978, 4979, book 66, باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "title": "باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ شَيْبَانَ، عَنْ يَحْيَى، عَنْ أَبِي سَلَمَةَ، قَالَ أَخْبَرَتْنِي عَائِشَةُ، وَابْنُ، عَبَّاسٍ رضى الله عنهم قَالاَ لَبِثَ النَّبِيُّ صلى الله عليه وسلم بِمَكَّةَ عَشْرَ سِنِينَ يُنْزَلُ عَلَيْهِ الْقُرْآنُ وَبِالْمَدِينَةِ عَشْرَ سِنِينَ.",
+      "source_hash_sha256": "193e1994ffb47d139f2392f5f0e101b854ff69d6d562b73790e087a71c961167",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂʾisha et Ibn ʿAbbâs (qu’Allah les agrée) rapportent que le Prophète (paix et bénédictions sur lui) passa dix années à La Mecque, puis dix années à Médine, tandis que le Quran lui était révélé.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8811c35c-d6df-48da-a046-375928497b8e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4980",
+      "reference": "Sahih al-Bukhari, hadith 4980, book 66, باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "title": "باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ أَبِي، عَنْ أَبِي عُثْمَانَ، قَالَ أُنْبِئْتُ أَنَّ جِبْرِيلَ، أَتَى النَّبِيَّ صلى الله عليه وسلم وَعِنْدَهُ أُمُّ سَلَمَةَ فَجَعَلَ يَتَحَدَّثُ فَقَالَ النَّبِيُّ صلى الله عليه وسلم لأُمِّ سَلَمَةَ ‏\"‏ مَنْ هَذَا ‏\"‏‏.‏ أَوْ كَمَا قَالَ قَالَتْ هَذَا دِحْيَةُ‏.‏ فَلَمَّا قَامَ قَالَتْ وَاللَّهِ مَا حَسِبْتُهُ إِلاَّ إِيَّاهُ حَتَّى سَمِعْتُ خُطْبَةَ النَّبِيِّ صلى الله عليه وسلم يُخْبِرُ خَبَرَ جِبْرِيلَ أَوْ كَمَا قَالَ، قَالَ أَبِي قُلْتُ لأَبِي عُثْمَانَ مِمَّنْ سَمِعْتَ هَذَا‏.‏ قَالَ مِنْ أُسَامَةَ بْنِ زَيْدٍ‏.‏",
+      "source_hash_sha256": "0f8672c11e7d2ee49ce948d7060def197d95b25747fc2b00f90d5e865e5a3a40",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû ʿUthmân rapporte qu’on lui avait appris que Jibrîl vint trouver le Prophète (paix et bénédictions sur lui) alors qu’Umm Salama était auprès de lui. Jibrîl se mit à lui parler. Le Prophète demanda à Umm Salama : « Qui est cet homme ? » ou une formule semblable. Elle répondit : « C’est Diḥya. » Après son départ, elle dit : « Par Allah, j’ai cru que ce n’était que lui, jusqu’à ce que j’entende le sermon du Prophète nous informant de la visite de Jibrîl », ou une formule semblable. Le père du rapporteur dit : « Je demandai à Abû ʿUthmân de qui il tenait ce récit. Il répondit : “D’Usâma ibn Zayd.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b88ba703-9538-4682-9e41-aaf6a1cfe928",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4981",
+      "reference": "Sahih al-Bukhari, hadith 4981, book 66, باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "title": "باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا اللَّيْثُ، حَدَّثَنَا سَعِيدٌ الْمَقْبُرِيُّ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَا مِنَ الأَنْبِيَاءِ نَبِيٌّ إِلاَّ أُعْطِيَ مَا مِثْلُهُ آمَنَ عَلَيْهِ الْبَشَرُ، وَإِنَّمَا كَانَ الَّذِي أُوتِيتُ وَحْيًا أَوْحَاهُ اللَّهُ إِلَىَّ فَأَرْجُو أَنْ أَكُونَ أَكْثَرَهُمْ تَابِعًا يَوْمَ الْقِيَامَةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "67ce3df03a3d776a80fe9cd0da986ef82acef43c309e6e8d463f41bb4d11c88b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Chaque prophète a reçu un signe auquel les gens ont cru. Ce qui m’a été accordé est une révélation qu’Allah m’a inspirée. J’espère donc avoir le plus grand nombre de fidèles au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0cdf9070-1b10-4ef8-b964-ba67be0b1041",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4982",
+      "reference": "Sahih al-Bukhari, hadith 4982, book 66, باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "title": "باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ مُحَمَّدٍ، حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا أَبِي، عَنْ صَالِحِ بْنِ كَيْسَانَ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي أَنَسُ بْنُ مَالِكٍ ـ رضى الله عنه ـ أَنَّ اللَّهَ، تَعَالَى تَابَعَ عَلَى رَسُولِهِ صلى الله عليه وسلم قَبْلَ وَفَاتِهِ حَتَّى تَوَفَّاهُ أَكْثَرَ مَا كَانَ الْوَحْىُ، ثُمَّ تُوُفِّيَ رَسُولُ اللَّهِ صلى الله عليه وسلم بَعْدُ‏.‏",
+      "source_hash_sha256": "59b0fc3c72e82431463c6fe43067b25b182670ad1ace1ff0fd9c65bfaf8ebb90",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik (qu’Allah l’agrée) rapporte qu’Allah fit parvenir à Son Messager (paix et bénédictions sur lui) de plus en plus de révélations peu avant sa mort, jusqu’à ce qu’il décède. Le Messager d’Allah mourut ensuite.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c680d099-7544-4d9f-9640-ae79e7c89ebb",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4983",
+      "reference": "Sahih al-Bukhari, hadith 4983, book 66, باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "title": "باب كَيْفَ نُزُولُ الْوَحْىِ وَأَوَّلُ مَا نَزَلَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَسْوَدِ بْنِ قَيْسٍ، قَالَ سَمِعْتُ جُنْدَبًا، يَقُولُ اشْتَكَى النَّبِيُّ صلى الله عليه وسلم فَلَمْ يَقُمْ لَيْلَةً أَوْ لَيْلَتَيْنِ فَأَتَتْهُ امْرَأَةٌ فَقَالَتْ يَا مُحَمَّدُ مَا أُرَى شَيْطَانَكَ إِلاَّ قَدْ تَرَكَكَ، فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"93\" aya_start=\"1\" aya_end=\"3\"]{‏وَالضُّحَى * وَاللَّيْلِ إِذَا سَجَى * مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى‏}‏",
+      "source_hash_sha256": "eab23d6370bc6ba3b904a95c105da6de731d69e1293094d18b77fc1a24392e13",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e0a7153c-f9a3-4a61-8f93-c16d02c316a1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4984",
+      "reference": "Sahih al-Bukhari, hadith 4984, book 66, باب نَزَلَ الْقُرْآنُ بِلِسَانِ قُرَيْشٍ وَالْعَرَبِ",
+      "title": "باب نَزَلَ الْقُرْآنُ بِلِسَانِ قُرَيْشٍ وَالْعَرَبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، حَدَّثَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، وَأَخْبَرَنِي أَنَسُ بْنُ مَالِكٍ، قَالَ فَأَمَرَ عُثْمَانُ زَيْدَ بْنَ ثَابِتٍ وَسَعِيدَ بْنَ الْعَاصِ وَعَبْدَ اللَّهِ بْنَ الزُّبَيْرِ وَعَبْدَ الرَّحْمَنِ بْنَ الْحَارِثِ بْنِ هِشَامٍ أَنْ يَنْسَخُوهَا، فِي الْمَصَاحِفِ وَقَالَ لَهُمْ إِذَا اخْتَلَفْتُمْ أَنْتُمْ وَزَيْدُ بْنُ ثَابِتٍ فِي عَرَبِيَّةٍ مِنْ عَرَبِيَّةِ الْقُرْآنِ فَاكْتُبُوهَا بِلِسَانِ قُرَيْشٍ، فَإِنَّ الْقُرْآنَ أُنْزِلَ بِلِسَانِهِمْ فَفَعَلُوا‏.‏",
+      "source_hash_sha256": "c56974372148e436d8a046843f9f74ac60201b382287c67a05cd19c7fb980d83",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte qu’ʿUthmân demanda à Zayd ibn Thâbit, Saʿîd ibn al-ʿÂṣ, ʿAbd Allâh ibn az-Zubayr et ʿAbd ar-Raḥmân ibn al-Ḥârith ibn Hishâm de copier le texte dans les codex. Il leur dit : « Si vous divergez, Zayd ibn Thâbit et vous, au sujet d’une expression arabe du Quran, écrivez-la dans la langue des Quraysh, car le Quran a été révélé dans leur langue. » Ils le firent.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c680d099-7544-4d9f-9640-ae79e7c89ebb",
+      "url": "https://sunnah.com/bukhari:4983",
+      "reason": "Le rapport cite directement Quran 93:1-3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-911, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}
