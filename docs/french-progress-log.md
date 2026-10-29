@@ -524,3 +524,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-UI-HC-017 saved 25 French labels and descriptions from components/learning/PrayerTimesVisual.tsx; FR-UI-HC-018 saved the final 5. Each draft keeps the exact Arabic wording and the lesson’s mapped source references.
 - The batches passed source-file, unique-ID, nonempty French, and placeholder checks. Mapped references were preserved: resident prayer counts to Ibn Baz 17464; time signs to Muslim 612d/612e; the Asr shadow boundary to Ibn Baz 3961/9516; and the night boundary to Ibn Baz 17595.
 - Code-level visitor-copy coverage increased from 254 to 284 saved strings. All remain private AI drafts, with no human review or publication.
+
+### 2026-10-29: five pillars learning visual
+
+- `FR-UI-HC-019` saved 24 French labels and descriptions from `components/learning/FivePillarsVisual.tsx`; `FR-UI-HC-020` saved the remaining two Hajj descriptions. The paired Arabic wording is retained where the component provides it, and the five-pillars lesson references are recorded.
+- The Zakah description includes an unsupported flat “usually 2.5%” rate. Its French wording is saved only as a private draft and is marked Needs Mo; the mapped lesson says an individual calculation needs relevant details and does not support that figure. The draft must not be used until a supporting source and conditions are approved.
+- The batches passed the focused source-file, unique-ID, nonempty-text and placeholder checks. Code-level visitor-copy coverage increased from 284 to 310 saved strings. Website Needs Mo: 2 items, including the existing Ramadan supplication attribution hold. No live code or public locale routing changed.
