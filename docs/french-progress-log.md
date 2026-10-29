@@ -2406,3 +2406,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-498` saves six private French drafts about the journey to Khaybar, Umm Harâm, the value of the vulnerable, later generations, a battle report and archery.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,610 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 168. Total local hadith rows not drafted: 12,045, including held records.
+
+### 2026-10-29: Bukhari 2900–2905 source review
+
+- `FR-LIB-HAD-BUKHARI-499` saves six private French drafts about archery at Badr, the Abyssinians, Uhud, the Banû al-Nadîr property and Sa‘d’s archery.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,616 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 168. Total local hadith rows not drafted: 12,039, including held records.
