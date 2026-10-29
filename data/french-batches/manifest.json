@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5862,
+    "hadithBukhariDrafted": 5865,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5862,
+    "hadithLocalDrafted": 5865,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8767,
-    "hadithNeedsMo": 842,
+    "hadithLocalRemaining": 8764,
+    "hadithNeedsMo": 843,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26965,6 +26965,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1276",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1276.json",
+      "sourceIds": [
+        "4454b89a-b970-4af4-b164-6ed73d301bd0",
+        "08b765d3-59c0-4e7f-b54b-94d0147aafbe",
+        "e82de5df-f19b-42c1-a01c-955deead9160",
+        "2bdb9f06-5429-4a73-9fcf-151f670fac21"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Three complete French drafts; one report held blank because the legal transaction and key terms need clarification. All source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "three private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -30405,11 +30424,17 @@
       "scope": "Sahih al-Bukhari 6972: obscure plant terms مغافير and العرفط",
       "status": "blocked",
       "reason": "The account depends on the obscure terms مغافير and العرفط and their scent; the wording cannot be translated safely from this excerpt without clarifying those terms. Keep the complete report blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6980-UNCLEAR-TRANSACTION-TERMS",
+      "scope": "Sahih al-Bukhari 6980: complex pre-emption stratagem and terms لا داء ولا خبثة ولا غائلة",
+      "status": "blocked",
+      "reason": "The legal discussion sets out a multi-step property transaction using a currency exchange and relies on the terms لا داء ولا خبثة ولا غائلة. Their legal force is unclear in this excerpt. Keep the complete report blank pending reliable clarification."
     }
   ],
-  "hadithBukhariDrafted": 5862,
-  "hadithLocalDrafted": 5862,
-  "hadithLocalRemaining": 8767,
+  "hadithBukhariDrafted": 5865,
+  "hadithLocalDrafted": 5865,
+  "hadithLocalRemaining": 8764,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30992,6 +31017,12 @@
       "scope": "Sahih al-Bukhari 6972: obscure plant terms مغافير and العرفط",
       "status": "blocked",
       "reason": "The account depends on the obscure terms مغافير and العرفط and their scent; the wording cannot be translated safely from this excerpt without clarifying those terms. Keep the complete report blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6980-UNCLEAR-TRANSACTION-TERMS",
+      "scope": "Sahih al-Bukhari 6980: complex pre-emption stratagem and terms لا داء ولا خبثة ولا غائلة",
+      "status": "blocked",
+      "reason": "The legal discussion sets out a multi-step property transaction using a currency exchange and relies on the terms لا داء ولا خبثة ولا غائلة. Their legal force is unclear in this excerpt. Keep the complete report blank pending reliable clarification."
     }
   ]
 }
