@@ -2396,3 +2396,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-496` saves six private French drafts about Umm Sulayt’s service at Uhud, women’s support of the injured, Abû ‘Âmir’s injury, Sa‘d’s night watch and attachment to wealth.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,598 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 168. Total local hadith rows not drafted: 12,057, including held records.
+
+### 2026-10-29: Bukhari 2887–2892 source review
+
+- `FR-LIB-HAD-BUKHARI-497` saves six private French drafts about humble service, Uhud, Medina’s protected area, fasting during travel, everyday charity and guard duty.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,604 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 168. Total local hadith rows not drafted: 12,051, including held records.
