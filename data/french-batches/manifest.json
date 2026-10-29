@@ -15193,6 +15193,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-690",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-690.json",
+      "sourceIds": [
+        "599ca366-13a7-421b-9d92-b846c19a2056",
+        "1917f5ce-f9ff-4b26-a22a-abadaa707f28"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -15318,7 +15335,7 @@
       "reason": "The long local record includes Quranic wording in its appended commentary. The full record remains blank in FR-LIB-HAD-BUKHARI-687 until an approved, attributed French Quran translation is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 3459,
-  "hadithLocalDrafted": 3459,
-  "hadithLocalRemaining": 11198
+  "hadithBukhariDrafted": 3461,
+  "hadithLocalDrafted": 3461,
+  "hadithLocalRemaining": 11196
 }
