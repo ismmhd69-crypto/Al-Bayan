@@ -6752,6 +6752,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1572 held for embedded Quran quotations"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-274",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-274.json",
+      "sourceIds": [
+        "4f7c60d9-896b-4cf9-895a-8dbeb4d481df",
+        "e33be759-1a22-4c3e-bd22-235c4e3981cc",
+        "dd3834da-4696-49b0-8fc2-566dede01900",
+        "438e6deb-e47b-4590-9f2e-30c484d13118",
+        "f79c994b-3e0c-43e8-905a-097c8558b076",
+        "37488079-2484-41db-8d6b-cdba9857f963"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [
