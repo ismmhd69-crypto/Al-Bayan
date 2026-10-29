@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5536,
+    "hadithBukhariDrafted": 5542,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5536,
+    "hadithLocalDrafted": 5542,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9093,
+    "hadithLocalRemaining": 9087,
     "hadithNeedsMo": 796,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -25573,6 +25573,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1208",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1208.json",
+      "sourceIds": [
+        "fccf3c90-8b46-4eca-86de-e6cbeb33302b",
+        "9eececf2-a143-456b-8c3a-c09e3b981880",
+        "38b08861-5bcb-44ec-afdb-47fef0db430f",
+        "dc5c3d9a-41ca-4e9f-bfca-0361319fbb74",
+        "0d5b748a-4cfd-48c6-8f90-06734f45ce0e",
+        "7c33c8b5-741c-4d88-ae7c-46ac25b6214e"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Six complete French drafts; focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -28739,9 +28760,9 @@
       "reason": "The report uses two rare plant terms (الثعارير and الضغابيس) and an aside (وكان قد سقط فمه) whose referent and meaning are unclear in this record. Keep the complete translation blank until the source wording is reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 5536,
-  "hadithLocalDrafted": 5536,
-  "hadithLocalRemaining": 9093,
+  "hadithBukhariDrafted": 5542,
+  "hadithLocalDrafted": 5542,
+  "hadithLocalRemaining": 9087,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
