@@ -6751,3 +6751,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1314 saves five private French drafts. Hadith 7195 contains unresolved demonstrative and dual-pronoun references in a brief courtroom anecdote, so its complete French text remains blank and is recorded under Needs Mo. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,058 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 853. Total local hadith rows not drafted: 8,571, including held records.
+
+### 2026-10-29: Bukhari 7199 and 7201–7205
+
+- FR-LIB-HAD-BUKHARI-1315 saves six private French drafts, preserving the pledged conditions, the call to defend truth without fearing blame, the qualifier “within your ability,” and the distinct written pledge variants. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,064 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 853. Total local hadith rows not drafted: 8,565, including held records.
