@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-MUSLIM-0866",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:05:57.576Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b5d53596-93e1-4485-a22a-dcaaeb5f0d82",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1829e",
+      "reference": "Sahih Muslim, hadith 1829 e, book 33, باب فَضِيلَةِ الإِمَامِ الْعَادِلِ وَعُقُوبَةِ الْجَائِرِ وَالْحَثِّ عَلَى الرِّفْقِ بِالرَّعِيَّةِ وَالنَّهْيِ عَنْ إِدْخَالِ الْمَشَقَّةِ عَلَيْهِمْ",
+      "title": "باب فَضِيلَةِ الإِمَامِ الْعَادِلِ وَعُقُوبَةِ الْجَائِرِ وَالْحَثِّ عَلَى الرِّفْقِ بِالرَّعِيَّةِ وَالنَّهْيِ عَنْ إِدْخَالِ الْمَشَقَّةِ عَلَيْهِمْ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَحْمَدُ بْنُ عَبْدِ الرَّحْمَنِ بْنِ وَهْبٍ، أَخْبَرَنِي عَمِّي عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي رَجُلٌ، سَمَّاهُ وَعَمْرُو بْنُ الْحَارِثِ عَنْ بُكَيْرٍ، عَنْ بُسْرِ بْنِ سَعِيدٍ، حَدَّثَهُ عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا الْمَعْنَى ‏.‏",
+      "source_hash_sha256": "acc75b37813477c3482c7440b2f2d36fb0dbb09688154f2f55d1bb8e7aeab93a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "963859e9-18d7-4148-99de-62ccae60641a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1830",
+      "reference": "Sahih Muslim, hadith 1830, book 33, باب فَضِيلَةِ الإِمَامِ الْعَادِلِ وَعُقُوبَةِ الْجَائِرِ وَالْحَثِّ عَلَى الرِّفْقِ بِالرَّعِيَّةِ وَالنَّهْيِ عَنْ إِدْخَالِ الْمَشَقَّةِ عَلَيْهِمْ",
+      "title": "باب فَضِيلَةِ الإِمَامِ الْعَادِلِ وَعُقُوبَةِ الْجَائِرِ وَالْحَثِّ عَلَى الرِّفْقِ بِالرَّعِيَّةِ وَالنَّهْيِ عَنْ إِدْخَالِ الْمَشَقَّةِ عَلَيْهِمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا جَرِيرُ بْنُ حَازِمٍ، حَدَّثَنَا الْحَسَنُ، أَنَّ عَائِذَ بْنَ عَمْرٍو، - وَكَانَ مِنْ أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم - دَخَلَ عَلَى عُبَيْدِ اللَّهِ بْنِ زِيَادٍ فَقَالَ أَىْ بُنَىَّ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ شَرَّ الرِّعَاءِ الْحُطَمَةُ فَإِيَّاكَ أَنْ تَكُونَ مِنْهُمْ ‏\"‏ ‏.‏ فَقَالَ لَهُ اجْلِسْ فَإِنَّمَا أَنْتَ مِنْ نُخَالَةِ أَصْحَابِ مُحَمَّدٍ صلى الله عليه وسلم ‏.‏ فَقَالَ وَهَلْ كَانَتْ لَهُمْ نُخَالَةٌ إِنَّمَا كَانَتِ النُّخَالَةُ بَعْدَهُمْ وَفِي غَيْرِهِمْ ‏.‏",
+      "source_hash_sha256": "4d9f415815978fdb1286791753746cb694c2f398597d5ee84887b1085c0c414b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Shaybân ibn Farrûkh nous a rapporté : Jarîr ibn Hâzim nous a rapporté : al-Hasan nous a rapporté qu’‘Â’idh ibn ‘Amr, qui était l’un des Compagnons du Messager d’Allah, entra chez ‘Ubayd Allah ibn Ziyâd et lui dit : « Mon fils, j’ai entendu le Messager d’Allah dire : “Les pires bergers sont ceux qui brutalisent leur troupeau. Prends garde à ne pas être de ceux-là.” » ‘Ubayd Allah lui dit : « Assieds-toi. Tu n’es que la lie des compagnons de Muhammad. » Il répondit : « Y avait-il de la lie parmi eux ? La lie est apparue après eux et chez d’autres qu’eux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a98a6322-c355-4fe0-887e-322719412baf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1831a",
+      "reference": "Sahih Muslim, hadith 1831 a, book 33, باب غِلَظِ تَحْرِيمِ الْغُلُولِ ‏‏",
+      "title": "باب غِلَظِ تَحْرِيمِ الْغُلُولِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، عَنْ أَبِي حَيَّانَ، عَنْ أَبِي، زُرْعَةَ عَنْ أَبِي هُرَيْرَةَ، قَالَ قَامَ فِينَا رَسُولُ اللَّهِ صلى الله عليه وسلم ذَاتَ يَوْمٍ فَذَكَرَ الْغُلُولَ فَعَظَّمَهُ وَعَظَّمَ أَمْرَهُ ثُمَّ قَالَ ‏\"‏ لاَ أُلْفِيَنَّ أَحَدَكُمْ يَجِيءُ يَوْمَ الْقِيَامَةِ عَلَى رَقَبَتِهِ بَعِيرٌ لَهُ رُغَاءٌ يَقُولُ يَا رَسُولَ اللَّهِ أَغِثْنِي ‏.‏ فَأَقُولُ لاَ أَمْلِكُ لَكَ شَيْئًا قَدْ أَبْلَغْتُكَ ‏.‏ لاَ أُلْفِيَنَّ أَحَدَكُمْ يَجِيءُ يَوْمَ الْقِيَامَةِ عَلَى رَقَبَتِهِ فَرَسٌ لَهُ حَمْحَمَةٌ فَيَقُولُ يَا رَسُولَ اللَّهِ أَغِثْنِي ‏.‏ فَأَقُولُ لاَ أَمْلِكُ لَكَ شَيْئًا قَدْ أَبْلَغْتُكَ ‏.‏ لاَ أُلْفِيَنَّ أَحَدَكُمْ يَجِيءُ يَوْمَ الْقِيَامَةِ عَلَى رَقَبَتِهِ شَاةٌ لَهَا ثُغَاءٌ يَقُولُ يَا رَسُولَ اللَّهِ أَغِثْنِي ‏.‏ فَأَقُولُ لاَ أَمْلِكُ لَكَ شَيْئًا قَدْ أَبْلَغْتُكَ ‏.‏ لاَ أُلْفِيَنَّ أَحَدَكُمْ يَجِيءُ يَوْمَ الْقِيَامَةِ عَلَى رَقَبَتِهِ نَفْسٌ لَهَا صِيَاحٌ فَيَقُولُ يَا رَسُولَ اللَّهِ أَغِثْنِي ‏.‏ فَأَقُولُ لاَ أَمْلِكُ لَكَ شَيْئًا قَدْ أَبْلَغْتُكَ ‏.‏ لاَ أُلْفِيَنَّ أَحَدَكُمْ يَجِيءُ يَوْمَ الْقِيَامَةِ عَلَى رَقَبَتِهِ رِقَاعٌ تَخْفِقُ فَيَقُولُ يَا رَسُولَ اللَّهِ أَغِثْنِي ‏.‏ فَأَقُولُ لاَ أَمْلِكُ لَكَ شَيْئًا قَدْ أَبْلَغْتُكَ ‏.‏ لاَ أُلْفِيَنَّ أَحَدَكُمْ يَجِيءُ يَوْمَ الْقِيَامَةِ عَلَى رَقَبَتِهِ صَامِتٌ فَيَقُولُ يَا رَسُولَ اللَّهِ أَغِثْنِي فَأَقُولُ لاَ أَمْلِكُ لَكَ شَيْئًا قَدْ أَبْلَغْتُكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7c80115621ae71eac9fe4d9e1b932bf891e7785fa4ba271a5289292b13ee686a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : Ismâ‘îl ibn Ibrâhîm nous a rapporté, d’après Abû Hayyân, d’après Abû Zur‘a, d’après Abû Hurayra, qui a dit : Un jour, le Messager d’Allah se leva parmi nous. Il évoqua l’appropriation frauduleuse des biens du butin, en souligna la gravité, puis dit : « Que je ne voie aucun de vous venir le Jour de la Résurrection avec un chameau sur le cou qui blatère, en disant : “Ô Messager d’Allah, porte-moi secours !” Je lui répondrai : “Je ne peux rien pour toi ; je t’avais transmis le message.” Que je ne voie aucun de vous venir le Jour de la Résurrection avec un cheval sur le cou qui hennit, en disant : “Ô Messager d’Allah, porte-moi secours !” Je lui répondrai : “Je ne peux rien pour toi ; je t’avais transmis le message.” Que je ne voie aucun de vous venir le Jour de la Résurrection avec un mouton sur le cou qui bêle, en disant : “Ô Messager d’Allah, porte-moi secours !” Je lui répondrai : “Je ne peux rien pour toi ; je t’avais transmis le message.” Que je ne voie aucun de vous venir le Jour de la Résurrection avec une personne sur le cou qui crie, en disant : “Ô Messager d’Allah, porte-moi secours !” Je lui répondrai : “Je ne peux rien pour toi ; je t’avais transmis le message.” Que je ne voie aucun de vous venir le Jour de la Résurrection avec des étoffes qui claquent sur son cou, en disant : “Ô Messager d’Allah, porte-moi secours !” Je lui répondrai : “Je ne peux rien pour toi ; je t’avais transmis le message.” Que je ne voie aucun de vous venir le Jour de la Résurrection avec des biens silencieux sur le cou, en disant : “Ô Messager d’Allah, porte-moi secours !” Je lui répondrai : “Je ne peux rien pour toi ; je t’avais transmis le message.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b3c905f3-b524-43a3-acaa-852d3279d98d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1831b",
+      "reference": "Sahih Muslim, hadith 1831 b, book 33, باب غِلَظِ تَحْرِيمِ الْغُلُولِ ‏‏",
+      "title": "باب غِلَظِ تَحْرِيمِ الْغُلُولِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الرَّحِيمِ بْنُ سُلَيْمَانَ، عَنْ أَبِي حَيَّانَ، ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ أَبِي حَيَّانَ، وَعُمَارَةَ بْنِ الْقَعْقَاعِ، جَمِيعًا عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، بِمِثْلِ حَدِيثِ إِسْمَاعِيلَ عَنْ أَبِي حَيَّانَ، ‏.‏",
+      "source_hash_sha256": "ec54a25b2286a2589ce31d5a427851622a341ccfd3235e5c7874e734c6ca58e9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f442bb49-fdb0-4e07-9070-fefb5efe5272",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1831c",
+      "reference": "Sahih Muslim, hadith 1831 c, book 33, باب غِلَظِ تَحْرِيمِ الْغُلُولِ ‏‏",
+      "title": "باب غِلَظِ تَحْرِيمِ الْغُلُولِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَحْمَدُ بْنُ سَعِيدِ بْنِ صَخْرٍ الدَّارِمِيُّ، حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا حَمَّادٌ، - يَعْنِي ابْنَ زَيْدٍ - عَنْ أَيُّوبَ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ أَبِي زُرْعَةَ بْنِ عَمْرِو بْنِ جَرِيرٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ ذَكَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم الْغُلُولَ فَعَظَّمَهُ ‏.‏ وَاقْتَصَّ الْحَدِيثَ قَالَ حَمَّادٌ ثُمَّ سَمِعْتُ يَحْيَى بَعْدَ ذَلِكَ يُحَدِّثُهُ فَحَدَّثَنَا بِنَحْوِ مَا حَدَّثَنَا عَنْهُ أَيُّوبُ ‏.‏",
+      "source_hash_sha256": "3380a7ff8b444da17a7d648e2da6f2a814743762cf20a2631b07156a7b9c0b56",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6af7f425-3d1e-470c-bb66-47516ce37301",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1831d",
+      "reference": "Sahih Muslim, hadith 1831 d, book 33, باب غِلَظِ تَحْرِيمِ الْغُلُولِ ‏‏",
+      "title": "باب غِلَظِ تَحْرِيمِ الْغُلُولِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَحْمَدُ بْنُ الْحَسَنِ بْنِ خِرَاشٍ، حَدَّثَنَا أَبُو مَعْمَرٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا أَيُّوبُ، عَنْ يَحْيَى بْنِ سَعِيدِ بْنِ حَيَّانَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِنَحْوِ حَدِيثِهِمْ ‏.‏",
+      "source_hash_sha256": "5c37a772cb10b198e086adcc7d231da900ae0af2b040a5d609a411b21156d1a5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b5d53596-93e1-4485-a22a-dcaaeb5f0d82",
+      "reason": "Cette entrée donne une chaîne de transmission puis rapporte seulement le même sens que le récit précédent, sans reproduire le contenu ni une variante distincte. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "b3c905f3-b524-43a3-acaa-852d3279d98d",
+      "reason": "Cette entrée fournit plusieurs chaînes puis renvoie au récit d’Ismâ‘îl (« le même récit ») sans reproduire son contenu. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f442bb49-fdb0-4e07-9070-fefb5efe5272",
+      "reason": "Cette entrée mentionne l’appropriation frauduleuse puis dit que le récit a été rapporté, sans reproduire son contenu ni une différence distincte ; le reste est une note de transmission. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "6af7f425-3d1e-470c-bb66-47516ce37301",
+      "reason": "Cette entrée donne uniquement une chaîne de transmission puis renvoie à un récit semblable sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    }
+  ]
+}
