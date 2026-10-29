@@ -2881,3 +2881,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-593` saves three private French drafts about ‘Âshûrâ’ and the prophets. Bukhari 3400 remains entirely blank because it reproduces Quran 18:63–64 wording from the Moses and al-Khidr story; an approved attributed French Quran translation is unavailable.
 - All four records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,045 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 210. Total local hadith rows not drafted: 11,610, including held records.
+
+### 2026-10-29: Bukhari 3401 long-source review
+
+- `FR-LIB-HAD-BUKHARI-594` contains the long account of Moses and al-Khidr. It remains entirely blank because it directly quotes Quran 18:79–82; an approved attributed French Quran translation is unavailable.
+- The record passed the focused single-item long-source validator with its Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,045 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 211. Total local hadith rows not drafted: 11,610, including held records.
