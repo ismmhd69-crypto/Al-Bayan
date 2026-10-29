@@ -11514,3 +11514,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1876g-1878b
 
 - FR-LIB-HAD-MUSLIM-0888 saves five private French drafts about the hardship of staying behind, martyrdom, and the merit of fighting in Allah’s cause. One abbreviated narration is retained without filling in its omitted passage. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1880-1882
+
+- FR-LIB-HAD-MUSLIM-0889 saves four private French drafts about morning and evening departures in Allah’s cause. The Quran-quoting report (9:19) and its chain-only cross-reference remain blank under Needs Mo with specific reasons. No database write or publication occurred.
