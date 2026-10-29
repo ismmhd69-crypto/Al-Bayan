@@ -9861,3 +9861,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0546 saves two private French drafts about Hafsa asking why the Prophet ﷺ remained in ihram. Muslim 1227 repeats part of Quran 2:196; 1228 and 1229b/d are incomplete variants. All four remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1229e–1230e
+
+- FR-LIB-HAD-MUSLIM-0547 saves two private French drafts about Hafsa’s question and Ibn Umar’s conditional umra during the conflict at Mecca. Muslim 1230b and 1230d quote Quran 33:21; 1230c/e are incomplete variants. All four remain blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.

@@ -40314,6 +40314,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0547",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0547.json",
+      "sourceIds": [
+        "a382b774-25b7-4680-a673-18ee7e4ba794",
+        "d1d7beaa-b671-481b-922b-27d61956fc47",
+        "67341db3-21cb-4177-88b3-aac6d15d4379",
+        "ca361ce8-335e-45e4-b410-d0420bc261a9",
+        "536b4f6a-1100-454c-b763-b74b2df45985",
+        "574d02d5-ad66-4605-a2ab-7389062afb53"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; source hashes and IDs preserved; two private unpublished drafts; two direct Quran quotes and two incomplete variants held blank under Needs Mo; rights flags and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44621,8 +44642,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8496,
-  "hadithLocalRemaining": 6133,
+  "hadithLocalDrafted": 8498,
+  "hadithLocalRemaining": 6131,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48084,10 +48105,30 @@
       "source_id": "f54accf9-2680-469f-8901-21d944052e71",
       "reason": "La source ne reprend pas le récit complet et renvoie uniquement à une version précédente. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "67341db3-21cb-4177-88b3-aac6d15d4379",
+      "reason": "La source cite directement le Coran 33:21. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ca361ce8-335e-45e4-b410-d0420bc261a9",
+      "reason": "La source cite directement le Coran 33:21. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "536b4f6a-1100-454c-b763-b74b2df45985",
+      "reason": "La source renvoie au récit précédent ou à cette histoire sans reproduire le texte complet. Garder toute la traduction française vide jusqu’à disponibilité du contenu intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "574d02d5-ad66-4605-a2ab-7389062afb53",
+      "reason": "La source renvoie au récit précédent ou à cette histoire sans reproduire le texte complet. Garder toute la traduction française vide jusqu’à disponibilité du contenu intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2160,
+  "hadithMuslimDrafted": 2162,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 985
+  "hadithNeedsMo": 989
 }
