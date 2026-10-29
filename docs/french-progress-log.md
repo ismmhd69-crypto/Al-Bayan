@@ -1502,3 +1502,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - A reread of Bukhari batches 311–313 found that several French drafts did not retain the full narrator chains. The chains have now been added to every translated record in those three batches; records already held blank remain unchanged.
 - The focused validator passed again for batches 311, 312 and 313. Translation counts, Needs Mo holds and publication/database status are unchanged.
+### 2026-10-29: Bukhari 1822–1827 source review
+
+- `FR-LIB-HAD-BUKHARI-314` saves six private French drafts for Bukhari 1822–1827. The reports retain both transmission paths and the full hunting account. The incomplete closing fragments in 1826 and 1827 remain incomplete in French; no list or missing hadith wording was supplied from nearby reports. The short wording about al-Qâha in 1823 leaves its distance unit unspecified, as the source does.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,665 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 98. Total local hadith rows not drafted: 12,964, including previously held records.
