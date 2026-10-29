@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5445,
+    "hadithBukhariDrafted": 5450,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5445,
+    "hadithLocalDrafted": 5450,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9184,
-    "hadithNeedsMo": 784,
+    "hadithLocalRemaining": 9179,
+    "hadithNeedsMo": 785,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25201,6 +25201,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1190",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1190.json",
+      "sourceIds": [
+        "b10b6ea4-7429-4c3b-97a3-88d7a1b4cd1c",
+        "50671f41-06fa-4d9a-a764-aea0a4ef0ba7",
+        "80372455-0ef7-4f16-a8ed-94bdbc64e670",
+        "089b66cb-0136-4121-8bdf-5b7236b2b7da",
+        "9f6986c2-926e-40a2-9031-8282680ad34f",
+        "16d69e97-23b5-4356-8084-e015e40119b5"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6473 remains blank because it directly quotes Quran 64:1. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -28299,11 +28320,17 @@
       "scope": "Sahih al-Bukhari 6467 commentary: direct quotation of Quran 33:70",
       "status": "blocked",
       "reason": "The commentary directly quotes Quran 33:70. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6473-QURAN-64-1",
+      "scope": "Sahih al-Bukhari 6473: direct quotation of Quran 64:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 64:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5445,
-  "hadithLocalDrafted": 5445,
-  "hadithLocalRemaining": 9184,
+  "hadithBukhariDrafted": 5450,
+  "hadithLocalDrafted": 5450,
+  "hadithLocalRemaining": 9179,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28544,6 +28571,12 @@
       "scope": "Sahih al-Bukhari 6467 commentary: direct quotation of Quran 33:70",
       "status": "blocked",
       "reason": "The commentary directly quotes Quran 33:70. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6473-QURAN-64-1",
+      "scope": "Sahih al-Bukhari 6473: direct quotation of Quran 64:1",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 64:1. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
