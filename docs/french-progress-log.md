@@ -10406,3 +10406,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0655 saves four private French drafts about marriage prohibitions through milk kinship and the number of suckles that establish them. Muslim 1449b and 1449d are cross-reference-only variants and remain blank under Needs Mo. The exporter also recorded one deferred long source for isolation in a single-item batch.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1451c–1452b
+
+- FR-LIB-HAD-MUSLIM-0656 saves three private French drafts about the number of suckles that establish milk kinship. Muslim 1451d is only a wording variant; 1452a–b report Quranic passages about suckling and remain blank under Needs Mo pending an approved French Quran translation and rights confirmation.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

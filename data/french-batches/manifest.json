@@ -42551,6 +42551,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0656",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0656.json",
+      "sourceIds": [
+        "35601d19-18f3-4c2e-b569-fec5d4d9646c",
+        "4644ab9a-79c3-40a2-babc-245e7867d368",
+        "470f4a6f-530d-4f92-97a5-52a6d37347cc",
+        "cf65759c-5a40-4dd6-baac-b7a90897a4e5",
+        "a58d07af-b2a1-4324-81dd-b0f73ac9dd83",
+        "1ed7f381-6db6-4f51-9889-2d427301a685"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, one incomplete variant and two reports quoting Quranic material held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46858,8 +46879,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8944,
-  "hadithLocalRemaining": 5685,
+  "hadithLocalDrafted": 8947,
+  "hadithLocalRemaining": 5682,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51091,10 +51112,25 @@
       "source_id": "56c92c50-6b2b-41ae-86e0-a1cc52acd43d",
       "reason": "Cette entrée renvoie au récit précédent et n’en donne que des variantes de chaîne et de nom, sans reprendre son contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "4644ab9a-79c3-40a2-babc-245e7867d368",
+      "reason": "Cette entrée ne reprend pas le récit et ne donne que des variations de formulation renvoyant à la transmission précédente. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "a58d07af-b2a1-4324-81dd-b0f73ac9dd83",
+      "reason": "Cette source rapporte des versets du Coran sur le nombre de tétées qui interdisent le mariage et mentionne leur abrogation. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1ed7f381-6db6-4f51-9889-2d427301a685",
+      "reason": "Cette source rapporte des versets du Coran sur le nombre de tétées qui interdisent le mariage. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2608,
+  "hadithMuslimDrafted": 2611,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1139
+  "hadithNeedsMo": 1142
 }
