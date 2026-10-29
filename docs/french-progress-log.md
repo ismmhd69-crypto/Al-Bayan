@@ -11726,3 +11726,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1997i-1997n
 
 - FR-LIB-HAD-MUSLIM-0941 saves six private French drafts about prohibited containers, including explanations of their names and construction. The uncertain mention of one vessel in a report remains marked uncertain. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1997p-1999b
+
+- FR-LIB-HAD-MUSLIM-0942 saves five private French drafts about the prohibited vessels and the use of a stone vessel when no other vessel was available. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
