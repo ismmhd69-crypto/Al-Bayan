@@ -1,0 +1,162 @@
+{
+  "batch_id": "HADITH-MUSLIM-1245",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:06:26.102Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "84fbe015-017c-4e76-a2d3-017789891df4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2714a",
+      "reference": "Sahih Muslim, hadith 2714 a, book 48, باب مَا يَقُولُ عِنْدَ النَّوْمِ وَأَخْذِ الْمَضْجَعِ",
+      "title": "باب مَا يَقُولُ عِنْدَ النَّوْمِ وَأَخْذِ الْمَضْجَعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ مُوسَى الأَنْصَارِيُّ، حَدَّثَنَا أَنَسُ بْنُ عِيَاضٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ، حَدَّثَنِي سَعِيدُ بْنُ أَبِي سَعِيدٍ الْمَقْبُرِيُّ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا أَوَى أَحَدُكُمْ إِلَى فِرَاشِهِ فَلْيَأْخُذْ دَاخِلَةَ إِزَارِهِ فَلْيَنْفُضْ بِهَا فِرَاشَهُ وَلْيُسَمِّ اللَّهَ فَإِنَّهُ لاَ يَعْلَمُ مَا خَلَفَهُ بَعْدَهُ عَلَى فِرَاشِهِ فَإِذَا أَرَادَ أَنْ يَضْطَجِعَ فَلْيَضْطَجِعْ عَلَى شِقِّهِ الأَيْمَنِ وَلْيَقُلْ سُبْحَانَكَ اللَّهُمَّ رَبِّي بِكَ وَضَعْتُ جَنْبِي وَبِكَ أَرْفَعُهُ إِنْ أَمْسَكْتَ نَفْسِي فَاغْفِرْ لَهَا وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "021652aeea32a59c78fa905e8dfddc2baaf4ee00f7b7ca88d8005fa4802838c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥāq ibn Mūsā al-Anṣārī nous a rapporté : Anas ibn ʿIyāḍ nous a rapporté : ʿUbayd Allāh nous a rapporté : Saʿīd ibn Abī Saʿīd al-Maqburī m’a rapporté, d’après son père, d’après Abū Hurayra, selon lequel le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous se met au lit, qu’il prenne le bord intérieur de son vêtement et en secoue sa couche, en prononçant le nom d’Allah, car il ne sait pas ce qui s’y est trouvé après lui. Puis, lorsqu’il veut s’allonger, qu’il se couche sur le côté droit et dise : “Gloire à Toi, ô Allah, mon Seigneur. C’est par Toi que je pose mon flanc et c’est par Toi que je le relève. Si Tu retiens mon âme, pardonne-lui; si Tu la renvoies, protège-la comme Tu protèges Tes serviteurs vertueux.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "74e8141d-b64e-46b0-89a1-1d91cd4f56ec",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2714b",
+      "reference": "Sahih Muslim, hadith 2714 b, book 48, باب مَا يَقُولُ عِنْدَ النَّوْمِ وَأَخْذِ الْمَضْجَعِ",
+      "title": "باب مَا يَقُولُ عِنْدَ النَّوْمِ وَأَخْذِ الْمَضْجَعِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا عَبْدَةُ، عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، بِهَذَا الإِسْنَادِ وَقَالَ ‏\"‏ ثُمَّ لْيَقُلْ بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي فَإِنْ أَحْيَيْتَ نَفْسِي فَارْحَمْهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b2170eb4ed62e8c0cd060919e697dbd6a8c982d37bea2ea71698a3fec3e7442e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_wording_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e7962009-58e1-41dc-b242-66c508326a11",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2715",
+      "reference": "Sahih Muslim, hadith 2715, book 48, باب مَا يَقُولُ عِنْدَ النَّوْمِ وَأَخْذِ الْمَضْجَعِ",
+      "title": "باب مَا يَقُولُ عِنْدَ النَّوْمِ وَأَخْذِ الْمَضْجَعِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ حَمَّادِ بْنِ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ إِذَا أَوَى إِلَى فِرَاشِهِ قَالَ ‏\"‏ الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَكَفَانَا وَآوَانَا فَكَمْ مِمَّنْ لاَ كَافِيَ لَهُ وَلاَ مُئْوِيَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3bcab5a7255604f62c76ab3178a8b59f62968a2eb6b9591844fded61a2172612",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba nous a rapporté : Yazīd ibn Hārūn nous a rapporté, d’après Ḥammād ibn Salama, d’après Thābit, d’après Anas, selon lequel le Messager d’Allah ﷺ, lorsqu’il se mettait au lit, disait : « Louange à Allah qui nous a nourris, abreuvés, suffisamment pourvus et abrités. Combien sont ceux qui n’ont personne pour subvenir à leurs besoins ni pour leur offrir un abri ! »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c0b05cd-ef2f-4556-844f-fbc998c7ed83",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2716a",
+      "reference": "Sahih Muslim, hadith 2716 a, book 48, باب التَّعَوُّذِ مِنْ شَرِّ مَا عَمِلَ وَمِنْ شَرِّ مَا لَمْ يَعْمَلْ",
+      "title": "باب التَّعَوُّذِ مِنْ شَرِّ مَا عَمِلَ وَمِنْ شَرِّ مَا لَمْ يَعْمَلْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، - وَاللَّفْظُ لِيَحْيَى - قَالاَ أَخْبَرَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ هِلاَلٍ، عَنْ فَرْوَةَ بْنِ نَوْفَلٍ الأَشْجَعِيِّ، قَالَ سَأَلْتُ عَائِشَةَ عَمَّا كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدْعُو بِهِ اللَّهَ قَالَتْ كَانَ يَقُولُ ‏\"‏ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ مَا عَمِلْتُ وَمِنْ شَرِّ مَا لَمْ أَعْمَلْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "02b9fba7d3093b06101964cc2bbe98e101416a2deac91ee4aecd076cb544cb3d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yaḥyā ibn Yaḥyā et Isḥāq ibn Ibrāhīm nous ont rapporté — le libellé est celui de Yaḥyā. Ils ont dit : Jarīr nous a informés, d’après Manṣūr, d’après Hilāl, d’après Farwa ibn Nawfal al-Ashjaʿī, qui a dit : J’ai interrogé ʿĀʾisha au sujet des invocations que le Messager d’Allah ﷺ adressait à Allah. Elle répondit : « Il disait : “Ô Allah, je cherche refuge auprès de Toi contre le mal de ce que j’ai fait et contre le mal de ce que je n’ai pas fait.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e92c9fa1-04a3-441b-8d11-4e69753b29b2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2716b",
+      "reference": "Sahih Muslim, hadith 2716 b, book 48, باب التَّعَوُّذِ مِنْ شَرِّ مَا عَمِلَ وَمِنْ شَرِّ مَا لَمْ يَعْمَلْ",
+      "title": "باب التَّعَوُّذِ مِنْ شَرِّ مَا عَمِلَ وَمِنْ شَرِّ مَا لَمْ يَعْمَلْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، عَنْ حُصَيْنٍ، عَنْ هِلاَلٍ، عَنْ فَرْوَةَ بْنِ نَوْفَلٍ، قَالَ سَأَلْتُ عَائِشَةَ عَنْ دُعَاءٍ، كَانَ يَدْعُو بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَتْ كَانَ يَقُولُ ‏\"‏ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ مَا عَمِلْتُ وَشَرِّ مَا لَمْ أَعْمَلْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "884f0b6aa78f555be924130cbcc875598514931ae4398d848da47edc89ef60bf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Bakr ibn Abī Shayba et Abū Kurayb nous ont rapporté : ʿAbd Allāh ibn Idrīs nous a rapporté, d’après Ḥuṣayn, d’après Hilāl, d’après Farwa ibn Nawfal, qui a dit : J’ai interrogé ʿĀʾisha au sujet d’une invocation que le Messager d’Allah ﷺ adressait à Allah. Elle répondit : « Il disait : “Ô Allah, je cherche refuge auprès de Toi contre le mal de ce que j’ai fait et contre le mal de ce que je n’ai pas fait.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fae1184c-55ac-478a-b19d-e301ce770d4a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2716c",
+      "reference": "Sahih Muslim, hadith 2716 c, book 48, باب التَّعَوُّذِ مِنْ شَرِّ مَا عَمِلَ وَمِنْ شَرِّ مَا لَمْ يَعْمَلْ",
+      "title": "باب التَّعَوُّذِ مِنْ شَرِّ مَا عَمِلَ وَمِنْ شَرِّ مَا لَمْ يَعْمَلْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، ح وَحَدَّثَنَا مُحَمَّدُ، بْنُ عَمْرِو بْنِ جَبَلَةَ حَدَّثَنَا مُحَمَّدٌ، - يَعْنِي ابْنَ جَعْفَرٍ - كِلاَهُمَا عَنْ شُعْبَةَ، عَنْ حُصَيْنٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ غَيْرَ أَنَّ فِي حَدِيثِ مُحَمَّدِ بْنِ جَعْفَرٍ ‏\"‏ وَمِنْ شَرِّ مَا لَمْ أَعْمَلْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7b6c4b5dab247f26bfc4a4a43cc10e382554642fd4bfa2574826e4bbedb3fa00",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_wording_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "74e8141d-b64e-46b0-89a1-1d91cd4f56ec", "reason": "Cette entrée ne donne qu’une variante partielle de l’invocation précédente, sans en reproduire le texte complet. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "fae1184c-55ac-478a-b19d-e301ce770d4a", "reason": "Cette entrée précise seulement une variante dans la fin de l’invocation précédente. Garder la traduction française vide sans le texte complet.", "status": "blocked" }
+  ]
+}
