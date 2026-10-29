@@ -7122,3 +7122,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0003 saves 6 private French drafts: reports on the obligatory prayers, the pillars of Islam, the Bedouin delegation, and a variant chain for the Hadith of Gabriel. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 11 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,282, including held records.
+
+### 2026-10-29: Muslim 14a–16a
+
+- FR-LIB-HAD-MUSLIM-0004 saves 6 private French drafts covering guidance toward Paradise and the variant order of the five pillars. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 17 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,276, including held records.
