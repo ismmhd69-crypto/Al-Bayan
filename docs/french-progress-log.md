@@ -864,3 +864,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-171` saves six private French drafts for Bukhari 966–971. They preserve Ibn Umar’s confrontation with al-Hajjaj, the Eid sacrifice timing, the virtue of the first ten days of Dhul-Hijja, and the differing forms of remembrance during the Hajj journey.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 901 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 44. Total local hadith rows not drafted: 13,728, including held records.
+### 2026-10-29: Bukhari 972–977 source review
+
+- `FR-LIB-HAD-BUKHARI-172` saves six private French drafts for Bukhari 972–977. They preserve the practice of praying toward a planted lance, reports about women attending Eid prayer, and the Prophet’s ﷺ address and appeal for charity.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 907 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 44. Total local hadith rows not drafted: 13,722, including held records.
