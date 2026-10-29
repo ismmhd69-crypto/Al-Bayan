@@ -10331,3 +10331,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0640 saves two private French drafts describing the wedding banquet for Zaynab and the events surrounding revelation of the veil verse. Muslim 1428e contains Quran quotations and remains blank under Needs Mo until an approved French Quran translation and its rights are confirmed.
 - All three source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1428g (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0641 isolates the 2,699-character report in a single-item batch. Its Quran quotation means the full French text remains blank under Needs Mo until an approved French Quran translation and its rights are confirmed.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

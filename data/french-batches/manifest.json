@@ -42241,6 +42241,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0641",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0641.json",
+      "sourceIds": [
+        "bdf49d82-598e-4f1c-a383-42a7a7b454dd"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: one 2,699-character source isolated in a single-item batch; Arabic original and hash, ID, blank French text for a Quran-quoted report held under Needs Mo, rights flags, and private unpublished state passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -50626,10 +50642,15 @@
       "source_id": "28aca756-a2bb-40d9-8c1b-82abca7c2f43",
       "reason": "Cette source contient une citation coranique explicite de la sourate 33, verset 53. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
+    },
+    {
+      "source_id": "bdf49d82-598e-4f1c-a383-42a7a7b454dd",
+      "reason": "Cette source isolée de 2 699 caractères contient une citation coranique explicite de la sourate 33, verset 53. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 2554,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1108
+  "hadithNeedsMo": 1109
 }
