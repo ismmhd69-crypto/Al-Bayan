@@ -57,3 +57,7 @@ Published: `false`
 | bukhari-037 | 30 | 30 | 0 | 18130 | 18160 | Stored cleanly as unpublished drafts |
 | bukhari-038 | 30 | 30 | 0 | 18160 | 18190 | Stored cleanly as unpublished drafts |
 | bukhari-039 | 10 | 10 | 0 | 18190 | 18200 | Stored cleanly as unpublished drafts |
+| bukhari-001-part2 | 15 | 15 | 0 | 18200 | 18215 | Stored cleanly as unpublished drafts |
+| muslim-001 | 30 | 30 | 0 | 18215 | 18245 | Stored cleanly as unpublished drafts |
+| bukhari-001-part1 | 15 | 15 | 0 | 18245 | 18260 | Stored cleanly as unpublished drafts |
+| muslim-002 | 30 | 30 | 0 | 18260 | 18290 | Stored cleanly as unpublished drafts |
