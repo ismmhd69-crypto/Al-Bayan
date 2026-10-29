@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-fr-drafts; missing-only inserts authorized where existing schema and source rights permit; public activation forbidden",
-  "lastReconciled": "2026-10-29T22:35:57.615Z",
+  "lastReconciled": "2026-10-29T22:36:17.084Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -59,18 +59,18 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 5141,
+    "hadithMuslimDrafted": 5145,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11477,
+    "hadithLocalDrafted": 11481,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3152,
-    "hadithNeedsMo": 2919,
+    "hadithLocalRemaining": 3148,
+    "hadithNeedsMo": 2921,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14396,
-    "hadithSourcesNotYetExported": 233
+    "hadithSourcesProcessed": 14402,
+    "hadithSourcesNotYetExported": 227
   },
   "batches": [
     {
@@ -52306,6 +52306,30 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1320",
+      "contentType": "hadith-library",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1320.json",
+      "sourceIds": [
+        "0627b04d-42a9-4494-a42b-5304ab17a205",
+        "5548f9f2-844c-4704-a1df-ead1a00b66c6",
+        "f908a270-d93c-422e-b244-25fff3328fcd",
+        "5f671d21-2a13-4960-b3b5-20091f724e82",
+        "98215a28-0009-413e-b33e-02a5289b9dd4",
+        "5f1df514-59d4-4765-9905-e07d5863a580"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 2,
+      "failed": 0,
+      "remaining": 3148,
+      "validation": "Focused French hadith validator passed; two abbreviated reference variants remain blank pending complete-text validation.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -56613,8 +56637,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 11477,
-  "hadithLocalRemaining": 3152,
+  "hadithLocalDrafted": 11481,
+  "hadithLocalRemaining": 3148,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -62676,12 +62700,12 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 5141,
+  "hadithMuslimDrafted": 5145,
   "hadithDatabaseMissing": 14629,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 2919,
+  "hadithNeedsMo": 2921,
   "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
-  "hadithSourcesProcessed": 14396,
-  "hadithSourcesNotYetExported": 233,
+  "hadithSourcesProcessed": 14402,
+  "hadithSourcesNotYetExported": 227,
   "hadithPublished": 0
 }
