@@ -11246,3 +11246,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0823 records the deferred long report. It contains Quran quotations 29:8, 31:15, 8:1, and 5:90 in Arabic, so the entire French entry remains blank under Needs Mo until approved attributed French Quran translations are confirmed. No translation, database write, or publication occurred.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending.
+
+### 2026-10-29: Muslim 1748d-1749e
+
+- FR-LIB-HAD-MUSLIM-0824 saves four private French drafts: the distinctive details in the report about Sa‘d, and three reports on extra shares of camel booty. Muslim 1749d contains only another chain for the preceding report and remains blank under Needs Mo. Muslim 1749e is damaged by an embedded stray “4661 -” and unclear chain continuation; it also remains blank pending source repair.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
