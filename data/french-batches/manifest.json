@@ -37631,6 +37631,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0417",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0417.json",
+      "sourceIds": [
+        "e04a8460-c373-4434-95ed-0bce1865a87c",
+        "f6813200-0bb8-46d5-a356-faf60a603757",
+        "cd001599-c4ec-43f8-82a1-d6380d2236ba",
+        "53897de0-7a69-4885-8ed2-f35e9aa87f6b",
+        "0ddb0839-1367-45e6-84ea-e2278845b545",
+        "b0b30e60-b3c0-44b8-9f6b-cafa50fd156e"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two incomplete cross-references held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -41938,8 +41959,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7976,
-  "hadithLocalRemaining": 6653,
+  "hadithLocalDrafted": 7980,
+  "hadithLocalRemaining": 6649,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -44736,10 +44757,20 @@
       "scope": "Sahih Muslim 878B: chain-only cross-reference",
       "status": "blocked",
       "reason": "La source ne rapporte que la chaîne de transmission d’un récit précédent, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "0ddb0839-1367-45e6-84ea-e2278845b545",
+      "reason": "La source ne reprend que la chaîne de transmission et renvoie au récit précédent par « semblable », sans en reproduire le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "b0b30e60-b3c0-44b8-9f6b-cafa50fd156e",
+      "reason": "La source ne fournit qu’une chaîne et renvoie à une version précédente sans reprendre son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1640,
+  "hadithMuslimDrafted": 1644,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 771
+  "hadithNeedsMo": 773
 }
