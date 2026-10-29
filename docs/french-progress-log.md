@@ -1981,3 +1981,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-413` saves six private French drafts for Bukhari 2400–2405, covering debt repayment, insolvency, a deferred emancipation, and Jâbir’s account of settling his father’s debt and later selling a camel to the Prophet.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,177 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 130. Total local hadith rows not drafted: 12,452, including held records.
+
+### 2026-10-29: Bukhari 2407–2412 source review
+
+- `FR-LIB-HAD-BUKHARI-414` saves six private French drafts for Bukhari 2407–2412, covering the no-deception condition in sales, prohibited conduct, responsibility, recitation differences, and accounts about the prophets Moses and Muhammad.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,183 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 130. Total local hadith rows not drafted: 12,446, including held records.
