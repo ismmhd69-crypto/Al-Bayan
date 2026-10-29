@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-1151",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:26:17.518Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cc659824-d69e-46f6-8a9e-dd28cb9c9eee",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2484b",
+      "reference": "Sahih Muslim, hadith 2484 b, book 44, باب مِنْ فَضَائِلِ عَبْدِ اللَّهِ بْنِ سَلاَمٍ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عَبْدِ اللَّهِ بْنِ سَلاَمٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَمْرِو بْنِ عَبَّادِ بْنِ جَبَلَةَ بْنِ أَبِي رَوَّادٍ، حَدَّثَنَا حَرَمِيُّ بْنُ عُمَارَةَ، حَدَّثَنَا قُرَّةُ بْنُ خَالِدٍ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، قَالَ قَالَ قَيْسُ بْنُ عُبَادٍ كُنْتُ فِي حَلْقَةٍ فِيهَا سَعْدُ بْنُ مَالِكٍ وَابْنُ عُمَرَ فَمَرَّ عَبْدُ اللَّهِ بْنُ سَلاَمٍ فَقَالُوا هَذَا رَجُلٌ مِنْ أَهْلِ الْجَنَّةِ ‏.‏ فَقُمْتُ فَقُلْتُ لَهُ إِنَّهُمْ قَالُوا كَذَا وَكَذَا ‏.‏ قَالَ سُبْحَانَ اللَّهِ مَا كَانَ يَنْبَغِي لَهُمْ أَنْ يَقُولُوا مَا لَيْسَ لَهُمْ بِهِ عِلْمٌ إِنَّمَا رَأَيْتُ كَأَنَّ عَمُودًا وُضِعَ فِي رَوْضَةٍ خَضْرَاءَ فَنُصِبَ فِيهَا وَفِي رَأْسِهَا عُرْوَةٌ وَفِي أَسْفَلِهَا مِنْصَفٌ - وَالْمِنْصَفُ الْوَصِيفُ - فَقِيلَ لِيَ ارْقَهْ ‏.‏ فَرَقِيتُ حَتَّى أَخَذْتُ بِالْعُرْوَةِ فَقَصَصْتُهَا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَمُوتُ عَبْدُ اللَّهِ وَهُوَ آخِذٌ بِالْعُرْوَةِ الْوُثْقَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "824e1b8ac15d369ee4a0fe6fa4d3c7210c8edc9c4bec9b5c81cd740a6bb746d9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Sirin rapporte que Qays ibn Abbad a dit : « J’étais dans un cercle où se trouvaient Sa‘d ibn Malik et Ibn Umar. Abdullah ibn Salam passa près de nous, et ils dirent : “Cet homme fait partie des gens du Paradis.” Je me levai, le rejoignis et lui rapportai leurs paroles. Il s’exclama : “Gloire à Allah ! Ils n’auraient pas dû affirmer ce qu’ils ne savent pas. J’ai seulement vu en rêve un pilier dressé dans un jardin verdoyant. À son sommet se trouvait un anneau et, à son pied, un serviteur — le mot désigne un jeune domestique. On me dit : ‘Grimpe.’ Je grimpai jusqu’à saisir l’anneau. » Je racontai ce rêve au Messager d’Allah ﷺ. Il dit : « Abdullah mourra en tenant fermement le lien le plus solide. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
