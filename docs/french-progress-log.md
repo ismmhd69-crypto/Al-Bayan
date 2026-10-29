@@ -2561,3 +2561,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-529` saves six private French drafts about post-battle stays, ‘umra, the return of property, and Jâbir’s meal for the people at the Trench.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,766 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 173. Total local hadith rows not drafted: 11,891, including held records.
+
+### 2026-10-29: Bukhari 3071–3076
+
+- `FR-LIB-HAD-BUKHARI-530` saves six private French drafts about Umm Khâlid’s garment, the charity date, misappropriation of spoils, slaughtering animals, and Dhû al-Khalasa.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,772 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 173. Total local hadith rows not drafted: 11,885, including held records.
