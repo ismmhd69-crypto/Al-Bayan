@@ -8011,3 +8011,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0177 saves five private French drafts about the Prophet’s final illness and Abu Bakr leading the prayer. Muslim 418g summarizes previous versions and gives only added wording and placement details, so it remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 722 Muslim drafts, 7,058 total hadith drafts, 7,571 remaining, and 347 Needs Mo items.
+
+### 2026-10-29: Muslim 418h–420
+
+- FR-LIB-HAD-MUSLIM-0178 saves four private French drafts about Abu Bakr leading prayer and the Prophet ﷺ appearing to the congregation near the end of his illness. Muslim 419b–c give only abbreviated cross-references and remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 726 Muslim drafts, 7,062 total hadith drafts, 7,567 remaining, and 349 Needs Mo items.
