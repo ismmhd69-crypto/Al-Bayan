@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-1351",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:46:31.000Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f75efc8e-7c59-479f-9a72-1aced8d02e97",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2991b",
+      "reference": "Sahih Muslim, hadith 2991 b, book 55, باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "title": "باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو خَالِدٍ، - يَعْنِي الأَحْمَرَ - عَنْ سُلَيْمَانَ التَّيْمِيِّ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "d104dcc217179f6925fbb6196d379029a6c4052e295b59924eab449e31ad9040",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "514c0a8e-dcd8-4be5-8e41-9451e4e20b1c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2992",
+      "reference": "Sahih Muslim, hadith 2992, book 55, باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "title": "باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، - وَاللَّفْظُ لِزُهَيْرٍ - قَالاَ حَدَّثَنَا الْقَاسِمُ بْنُ مَالِكٍ، عَنْ عَاصِمِ بْنِ كُلَيْبٍ، عَنْ أَبِي بُرْدَةَ، قَالَ دَخَلْتُ عَلَى أَبِي مُوسَى وَهْوَ فِي بَيْتِ بِنْتِ الْفَضْلِ بْنِ عَبَّاسٍ فَعَطَسْتُ فَلَمْ يُشَمِّتْنِي وَعَطَسَتْ فَشَمَّتَهَا فَرَجَعْتُ إِلَى أُمِّي فَأَخْبَرْتُهَا فَلَمَّا جَاءَهَا قَالَتْ عَطَسَ عِنْدَكَ ابْنِي فَلَمْ تُشَمِّتْهُ وَعَطَسَتْ فَشَمَّتَّهَا ‏.‏ فَقَالَ إِنَّ ابْنَكِ عَطَسَ فَلَمْ يَحْمَدِ اللَّهَ فَلَمْ أُشَمِّتْهُ وَعَطَسَتْ فَحَمِدَتِ اللَّهَ فَشَمَّتُّهَا سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِذَا عَطَسَ أَحَدُكُمْ فَحَمِدَ اللَّهَ فَشَمِّتُوهُ فَإِنْ لَمْ يَحْمَدِ اللَّهَ فَلاَ تُشَمِّتُوهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9340194325b466156a515c7f52c8090b7870fb61f32944d130fde1a34a1becca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Burda rapporte : Je rendis visite à Abu Musa dans la maison de la fille d’al-Fadl ibn Abbas. J’éternuai, mais il n’invoqua pas la miséricorde d’Allah pour moi. Elle éternua, et il l’invoqua pour elle. Je retournai chez ma mère et le lui racontai. Quand Abu Musa vint chez elle, elle lui dit : « Mon fils a éternué chez toi et tu n’as pas invoqué la miséricorde d’Allah pour lui ; elle a éternué et tu l’as invoquée pour elle. » Il répondit : « Ton fils a éternué sans louer Allah, alors je ne l’ai pas fait pour lui. Elle a éternué en louant Allah, alors je l’ai fait pour elle. J’ai entendu le Messager d’Allah ﷺ dire : “Lorsque l’un de vous éternue et loue Allah, invoquez pour lui la miséricorde d’Allah ; s’il ne Le loue pas, ne le faites pas.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "67424101-517e-4039-afeb-16b231b77cf4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2993",
+      "reference": "Sahih Muslim, hadith 2993, book 55, باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "title": "باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا عِكْرِمَةُ بْنُ عَمَّارٍ، عَنْ إِيَاسِ، بْنِ سَلَمَةَ بْنِ الأَكْوَعِ عَنْ أَبِيهِ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا أَبُو النَّضْرِ، هَاشِمُ بْنُ الْقَاسِمِ حَدَّثَنَا عِكْرِمَةُ بْنُ عَمَّارٍ، حَدَّثَنِي إِيَاسُ بْنُ سَلَمَةَ بْنِ الأَكْوَعِ، أَنَّ أَبَاهُ، حَدَّثَهُ أَنَّهُ، سَمِعَ النَّبِيَّ صلى الله عليه وسلم وَعَطَسَ رَجُلٌ عِنْدَهُ فَقَالَ لَهُ ‏\"‏ يَرْحَمُكَ اللَّهُ ‏\"‏ ‏.‏ ثُمَّ عَطَسَ أُخْرَى فَقَالَ لَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الرَّجُلُ مَزْكُومٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ee507a78b9655ef69278653254c26e7432e7ea0f33346cb20e020dafce3f6fed",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Un homme éternua en présence du Prophète ﷺ. Celui-ci invoqua pour lui la miséricorde d’Allah. L’homme éternua de nouveau, et le Messager d’Allah ﷺ dit : « Cet homme est enrhumé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3abc0d10-9420-4781-ae68-e592bf2cd1af",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2994",
+      "reference": "Sahih Muslim, hadith 2994, book 55, باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "title": "باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَعَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنُونَ ابْنَ جَعْفَرٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ التَّثَاؤُبُ مِنَ الشَّيْطَانِ فَإِذَا تَثَاءَبَ أَحَدُكُمْ فَلْيَكْظِمْ مَا اسْتَطَاعَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bd942fddc85d13f5bd7dc01e8c870e39de5e9143e14078c59ef7675a9fa67db2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Le bâillement vient de Satan. Lorsque l’un de vous bâille, qu’il le retienne autant qu’il le peut. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a33713c1-605e-4750-8220-a423f83b5244",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2995a",
+      "reference": "Sahih Muslim, hadith 2995 a, book 55, باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "title": "باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، مَالِكُ بْنُ عَبْدِ الْوَاحِدِ حَدَّثَنَا بِشْرُ بْنُ الْمُفَضَّلِ، حَدَّثَنَا سُهَيْلُ بْنُ أَبِي صَالِحٍ، قَالَ سَمِعْتُ ابْنًا، لأَبِي سَعِيدٍ الْخُدْرِيِّ يُحَدِّثُ أَبِي عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا تَثَاوَبَ أَحَدُكُمْ فَلْيُمْسِكْ بِيَدِهِ عَلَى فِيهِ فَإِنَّ الشَّيْطَانَ يَدْخُلُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2f4224714750e7fb9ec8d568f2ea30b65a57cb61850c220c969717ea24150389",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Lorsque l’un de vous bâille, qu’il place sa main sur sa bouche, car Satan entre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aae38ab8-217f-480e-b2ca-1a5e6f40495e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2995b",
+      "reference": "Sahih Muslim, hadith 2995 b, book 55, باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "title": "باب تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، عَنْ سُهَيْلٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي، سَعِيدٍ عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا تَثَاوَبَ أَحَدُكُمْ فَلْيُمْسِكْ بِيَدِهِ فَإِنَّ الشَّيْطَانَ يَدْخُلُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "97bfb9823084413171201a2fdaadd0a38ec4df6deff159583cde2deb9ce35f51",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Lorsque l’un de vous bâille, qu’il place sa main sur sa bouche, car Satan entre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f75efc8e-7c59-479f-9a72-1aced8d02e97",
+      "status": "blocked",
+      "reason": "Cette entrée indique uniquement qu’elle transmet une version semblable au récit précédent, sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation du texte complet."
+    }
+  ]
+}
