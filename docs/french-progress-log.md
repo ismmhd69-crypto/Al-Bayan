@@ -3331,3 +3331,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-683` saves three private French drafts about Sa‘d ibn Abî Waqqâs, the jinn and ritual cleansing.
 - All three records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,438 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 254. Total local hadith rows not drafted: 11,219, including held records.
+
+### 2026-10-29: Bukhari 3861
+
+- `FR-LIB-HAD-BUKHARI-684` saves one private French draft of the extended report about Abû Dharr’s journey to meet the Prophet. It is kept as a single-item batch because of its length.
+- The record passed the focused validator, including its Arabic hash, ID, reference, rights metadata and private unpublished long-text state. No database writes or publication occurred. Bukhari local drafts: 3,439 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 254. Total local hadith rows not drafted: 11,218, including held records.
