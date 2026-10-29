@@ -9281,3 +9281,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0430 saves four private French drafts on family support, maintaining kinship, and giving charity for a deceased parent. Muslim 1001b and 1002b are incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1687 Muslim drafts, 8023 total hadith drafts, 6606 remaining, and 793 Needs Mo items.
+
+### 2026-10-29: Muslim 1004c–1006
+
+- FR-LIB-HAD-MUSLIM-0431 saves four private French drafts about charity for a deceased parent, good deeds, and support for others. Muslim 1004b and 1004e are incomplete cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1691 Muslim drafts, 8027 total hadith drafts, 6602 remaining, and 795 Needs Mo items.
