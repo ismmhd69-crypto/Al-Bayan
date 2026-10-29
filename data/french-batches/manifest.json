@@ -19140,6 +19140,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-890",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-890.json",
+      "sourceIds": [
+        "5e522bbf-0903-4fd3-a346-b7b485d50d21",
+        "55426334-7d0a-443d-acf1-a9c8f4938787",
+        "7d5de3e9-6e9f-4472-9b2b-3397862ff87b",
+        "57ee915f-ba16-4397-aaf1-194cde5e3c6a",
+        "636b9048-bf26-49f1-a91c-45f67372d321",
+        "31075386-cb74-4a45-b9ee-d065272c24b7"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -21344,9 +21365,27 @@
       "scope": "Sahih al-Bukhari 4875: direct Quran quotation from 54:45",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 54:45. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-889, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4876-QURAN-54-46",
+      "scope": "Sahih al-Bukhari 4876: direct Quran quotation from 54:46",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 54:46. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-890, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4877-QURAN-54-45-46",
+      "scope": "Sahih al-Bukhari 4877: direct Quran quotation from 54:45-46",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 54:45-46. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-890, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4881-QURAN-56-30",
+      "scope": "Sahih al-Bukhari 4881: direct Quran quotation from 56:30",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 56:30. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-890, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4054,
-  "hadithLocalDrafted": 4054,
-  "hadithLocalRemaining": 10613
+  "hadithBukhariDrafted": 4057,
+  "hadithLocalDrafted": 4057,
+  "hadithLocalRemaining": 10610
 }
