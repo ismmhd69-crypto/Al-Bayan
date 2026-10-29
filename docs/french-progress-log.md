@@ -9156,3 +9156,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0405 saves five private French drafts about the reward for attending a funeral and testimony about the deceased. Muslim 946b only refers back to an earlier report and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1594 Muslim drafts, 7930 total hadith drafts, 6699 remaining, and 757 Needs Mo items.
+
+### 2026-10-29: Muslim 949b–951c
+
+- FR-LIB-HAD-MUSLIM-0406 saves three private French drafts about the funeral prayer and the announcement of the Najashi’s death. Muslim 949b, 950b and 951c contain incomplete cross-references or chain-only text and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1597 Muslim drafts, 7933 total hadith drafts, 6696 remaining, and 760 Needs Mo items.

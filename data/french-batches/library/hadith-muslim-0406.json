@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0406",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:59:12.064Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "471cdecf-ad31-4a0f-a722-959a9f4bf4dd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:949b",
+      "reference": "Sahih Muslim, hadith 949 b, book 11, باب فِيمَنْ يُثْنَى عَلَيْهِ خَيْرٌ أَوْ شَرٌّ مِنَ الْمَوْتَى ‏‏",
+      "title": "باب فِيمَنْ يُثْنَى عَلَيْهِ خَيْرٌ أَوْ شَرٌّ مِنَ الْمَوْتَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الرَّبِيعِ الزَّهْرَانِيُّ، حَدَّثَنَا حَمَّادٌ يَعْنِي ابْنَ زَيْدٍ، ح وَحَدَّثَنِي يَحْيَى بْنُ، يَحْيَى أَخْبَرَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، كِلاَهُمَا عَنْ ثَابِتٍ، عَنْ أَنَسٍ، قَالَ مُرَّ عَلَى النَّبِيِّ صلى الله عليه وسلم بِجَنَازَةٍ ‏.‏ فَذَكَرَ بِمَعْنَى حَدِيثِ عَبْدِ الْعَزِيزِ عَنْ أَنَسٍ غَيْرَ أَنَّ حَدِيثَ عَبْدِ الْعَزِيزِ أَتَمُّ ‏.‏",
+      "source_hash_sha256": "7e64fcc339cbe1a1e28610b0f9716369297505681a0fb42fa397dca5cf036485",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0d410060-2aeb-49d9-bb8b-e30fde0ee7aa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:950a",
+      "reference": "Sahih Muslim, hadith 950 a, book 11, باب مَا جَاءَ فِي ‏\"‏ مُسْتَرِيحٌ وَمُسْتَرَاحٌ مِنْهُ ‏\"‏ ‏‏",
+      "title": "باب مَا جَاءَ فِي ‏\"‏ مُسْتَرِيحٌ وَمُسْتَرَاحٌ مِنْهُ ‏\"‏ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، فِيمَا قُرِئَ عَلَيْهِ عَنْ مُحَمَّدِ بْنِ عَمْرِو، بْنِ حَلْحَلَةَ عَنْ مَعْبَدِ بْنِ كَعْبِ بْنِ مَالِكٍ، عَنْ أَبِي قَتَادَةَ بْنِ رِبْعِيٍّ، أَنَّهُ كَانَ يُحَدِّثُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم مُرَّ عَلَيْهِ بِجَنَازَةٍ فَقَالَ ‏\"‏ مُسْتَرِيحٌ وَمُسْتَرَاحٌ مِنْهُ ‏\"‏ ‏.‏ قَالُوا يَا رَسُولَ اللَّهِ مَا الْمُسْتَرِيحُ وَالْمُسْتَرَاحُ مِنْهُ ‏.‏ فَقَالَ ‏\"‏ الْعَبْدُ الْمُؤْمِنُ يَسْتَرِيحُ مِنْ نَصَبِ الدُّنْيَا وَالْعَبْدُ الْفَاجِرُ يَسْتَرِيحُ مِنْهُ الْعِبَادُ وَالْبِلاَدُ وَالشَّجَرُ وَالدَّوَابُّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7e0d9cb4f7b73f7b5579c7152456aafe4f6e1bdd3c540d8c182c24012b79b2eb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté, d’après Malik ibn Anas, selon ce qui lui fut récité, d’après Muhammad ibn ‘Amr ibn Halhala, d’après Ma‘bad ibn Ka‘b ibn Malik, d’après Abu Qatada ibn Rib‘i, qui rapportait que le Messager d’Allah ﷺ vit passer un cortège funèbre et dit : « Il est délivré, et les autres sont délivrés de lui. » On demanda : « Messager d’Allah, qu’entends-tu par “il est délivré” et “les autres sont délivrés de lui” ? » Il répondit : « Le serviteur croyant est délivré des fatigues de ce monde. Quant au serviteur pervers, les serviteurs, les terres, les arbres et les bêtes sont délivrés de lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d763a58e-d79a-430a-86f2-63635d82a3a9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:950b",
+      "reference": "Sahih Muslim, hadith 950 b, book 11, باب مَا جَاءَ فِي ‏\"‏ مُسْتَرِيحٌ وَمُسْتَرَاحٌ مِنْهُ ‏\"‏ ‏‏",
+      "title": "باب مَا جَاءَ فِي ‏\"‏ مُسْتَرِيحٌ وَمُسْتَرَاحٌ مِنْهُ ‏\"‏ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، جَمِيعًا عَنْ عَبْدِ اللَّهِ بْنِ سَعِيدِ بْنِ أَبِي هِنْدٍ، عَنْ مُحَمَّدِ بْنِ عَمْرٍو، عَنِ ابْنٍ لِكَعْبِ بْنِ مَالِكٍ، عَنْ أَبِي قَتَادَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم وَفِي حَدِيثِ يَحْيَى بْنِ سَعِيدٍ ‏\"‏ يَسْتَرِيحُ مِنْ أَذَى الدُّنْيَا وَنَصَبِهَا إِلَى رَحْمَةِ اللَّهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "fc82ad5c65aff8a879171cb534014b9c75ee083a5bcbcc23b4b20f4b9bcc7ae0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "de00b2f0-93cc-4010-bbfc-85121ec45076",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:951a",
+      "reference": "Sahih Muslim, hadith 951 a, book 11, باب فِي التَّكْبِيرِ عَلَى الْجَنَازَةِ ‏‏",
+      "title": "باب فِي التَّكْبِيرِ عَلَى الْجَنَازَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَعَى لِلنَّاسِ النَّجَاشِيَ فِي الْيَوْمِ الَّذِي مَاتَ فِيهِ فَخَرَجَ بِهِمْ إِلَى الْمُصَلَّى وَكَبَّرَ أَرْبَعَ تَكْبِيرَاتٍ ‏.‏",
+      "source_hash_sha256": "b2d0043ca6ae540662320b83779943c890cdf7e4481631b6042d5da31fc79858",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya a dit : J’ai lu devant Malik, d’après Ibn Shihab, d’après Sa‘id ibn al-Musayyab, d’après Abu Hurayra : le Messager d’Allah ﷺ annonça aux gens la mort du Najashi le jour même de son décès. Il sortit avec eux vers le lieu de prière et prononça quatre takbirs.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "923a14ba-5157-4cf4-ba57-26043f9a541e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:951b",
+      "reference": "Sahih Muslim, hadith 951 b, book 11, باب فِي التَّكْبِيرِ عَلَى الْجَنَازَةِ ‏‏",
+      "title": "باب فِي التَّكْبِيرِ عَلَى الْجَنَازَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، حَدَّثَنِي أَبِي، عَنْ جَدِّي، قَالَ حَدَّثَنِي عُقَيْلُ، بْنُ خَالِدٍ عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، وَأَبِي، سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ أَنَّهُمَا حَدَّثَاهُ عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ قَالَ نَعَى لَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم النَّجَاشِيَ صَاحِبَ الْحَبَشَةِ فِي الْيَوْمِ الَّذِي مَاتَ فِيهِ فَقَالَ ‏\"‏ اسْتَغْفِرُوا لأَخِيكُمْ ‏\"‏ ‏.‏ قَالَ ابْنُ شِهَابٍ وَحَدَّثَنِي سَعِيدُ بْنُ الْمُسَيَّبِ أَنَّ أَبَا هُرَيْرَةَ حَدَّثَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم صَفَّ بِهِمْ بِالْمُصَلَّى فَصَلَّى فَكَبَّرَ عَلَيْهِ أَرْبَعَ تَكْبِيرَاتٍ ‏.‏",
+      "source_hash_sha256": "f10986447935edd4cb222123cf70f04f07fbbded31c8638eee74696585299b5e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd al-Malik ibn Shu‘ayb ibn al-Layth m’a rapporté : mon père m’a rapporté, d’après mon grand-père, qui a dit : ‘Uqayl ibn Khalid m’a rapporté, d’après Ibn Shihab, d’après Sa‘id ibn al-Musayyab et Abu Salama ibn ‘Abd al-Rahman, qui lui rapportèrent tous deux d’après Abu Hurayra : le Messager d’Allah ﷺ nous annonça la mort du Najashi, souverain d’Abyssinie, le jour même de son décès, puis dit : « Demandez pardon pour votre frère. » Ibn Shihab dit : Sa‘id ibn al-Musayyab m’a rapporté qu’Abu Hurayra lui avait dit que le Messager d’Allah ﷺ les avait rangés au lieu de prière, avait prié et prononcé quatre takbirs sur lui.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8b4498a9-ae23-40b6-b1ed-d2390e3b6306",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:951c",
+      "reference": "Sahih Muslim, hadith 951 c, book 11, باب فِي التَّكْبِيرِ عَلَى الْجَنَازَةِ ‏‏",
+      "title": "باب فِي التَّكْبِيرِ عَلَى الْجَنَازَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَمْرٌو النَّاقِدُ، وَحَسَنٌ الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالُوا حَدَّثَنَا يَعْقُوبُ، - وَهُوَ ابْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ - حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، كَرِوَايَةِ عُقَيْلٍ بِالإِسْنَادَيْنِ جَمِيعًا ‏.‏",
+      "source_hash_sha256": "5d4fc8ca3e83955415484ac1d7be9b2dba3f071f88b1adc075fa536a47fdf88d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "471cdecf-ad31-4a0f-a722-959a9f4bf4dd",
+      "reason": "La source renvoie au récit précédent en indiquant seulement qu’il est similaire, et précise que l’autre version est plus complète. Garder la traduction française vide jusqu’à disponibilité du texte intégral."
+    },
+    {
+      "source_id": "d763a58e-d79a-430a-86f2-63635d82a3a9",
+      "reason": "La source ne rapporte qu’une variante de formulation du récit précédent, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "8b4498a9-ae23-40b6-b1ed-d2390e3b6306",
+      "reason": "La source ne contient que des chaînes de transmission alternatives pour les récits précédents. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
