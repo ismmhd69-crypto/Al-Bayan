@@ -10146,3 +10146,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0603 saves five private French drafts about Medina’s sacred boundaries and the conduct of visitors there. Muslim 1363b only refers to a preceding report and adds a variant, so it remains blank under Needs Mo. The oversized source remains queued for isolated handling.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1365a–1365b
+
+- FR-LIB-HAD-MUSLIM-0604 saves one private French draft about Anas serving the Prophet ﷺ and the sanctity of Medina. Muslim 1365b gives only a variant by reference to the preceding report and remains blank under Needs Mo.
+- Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

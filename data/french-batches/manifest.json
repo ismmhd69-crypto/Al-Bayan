@@ -41491,6 +41491,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0604",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0604.json",
+      "sourceIds": [
+        "bb344365-7bb2-4271-b400-0d8b44ab891b",
+        "91d113af-9a94-4ff9-ac45-6a8fa924af71"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: two records; Arabic originals and hashes, IDs, one private unpublished draft, one variant-only cross-reference held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45798,8 +45815,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8748,
-  "hadithLocalRemaining": 5881,
+  "hadithLocalDrafted": 8749,
+  "hadithLocalRemaining": 5880,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49611,10 +49628,15 @@
       "source_id": "6991dde7-f98c-4ef3-99b6-6da60e6a869c",
       "reason": "Cette entrée ne reprend pas le récit complet et renvoie au rapport précédent (« مِثْلَ حَدِيثِ ابْنِ نُمَيْرٍ »), en n’ajoutant qu’une variante. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "91d113af-9a94-4ff9-ac45-6a8fa924af71",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie au précédent (« بِمِثْلِهِ »), en ne précisant qu’une variante de formulation. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2412,
+  "hadithMuslimDrafted": 2413,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1055
+  "hadithNeedsMo": 1056
 }
