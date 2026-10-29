@@ -90,3 +90,5 @@ Published: `false`
 | muslim-028 | 30 | 30 | 0 | 19070 | 19100 | Stored cleanly as unpublished drafts |
 | muslim-031 | 30 | 30 | 0 | 19100 | 19130 | Stored cleanly as unpublished drafts |
 | muslim-030 | 30 | 30 | 0 | 19130 | 19160 | Stored cleanly as unpublished drafts |
+| muslim-032 | 30 | 30 | 0 | 19160 | 19190 | Stored cleanly as unpublished drafts |
+| muslim-033 | 30 | 30 | 0 | 19190 | 19220 | Stored cleanly as unpublished drafts |
