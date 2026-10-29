@@ -5776,3 +5776,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1126 saves one private French draft for the extended Khaybar report and its verses. It was handled as a one-record batch.
 - The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,142 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,487, including held records.
+
+### 2026-10-29: Bukhari 6149–6150 and 6152–6154
+
+- FR-LIB-HAD-BUKHARI-1127 saves five private French drafts about poetry, speech, and hospitality. The longer poem report Bukhari 6151 was isolated for individual translation.
+- All five records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,147 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,482, including held records.
