@@ -1,0 +1,190 @@
+{
+  "batch_id": "HADITH-MUSLIM-0099",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:27:57.200Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b883ae54-47f7-4521-b31e-b6d26d775f36",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:206b",
+      "reference": "Sahih Muslim, hadith 206 b, book 1, باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَمْرٌو النَّاقِدُ، حَدَّثَنَا مُعَاوِيَةُ بْنُ عَمْرٍو، حَدَّثَنَا زَائِدَةُ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ ذَكْوَانَ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَ هَذَا ‏.‏",
+      "source_hash_sha256": "626a8b4b5852503c9b6b3e7c04c44343138fd53cdc0625492c4a69c0720f06b8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe ne donne que la chaîne de transmission et renvoie au récit précédent sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "e20d1486-abcb-48c7-b860-752c0fc2e69d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:207a",
+      "reference": "Sahih Muslim, hadith 207 a, book 1, باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا التَّيْمِيُّ، عَنْ أَبِي عُثْمَانَ، عَنْ قَبِيصَةَ بْنِ الْمُخَارِقِ، وَزُهَيْرِ بْنِ عَمْرٍو، قَالاَ لَمَّا نَزَلَتْ ‏[quran sura=\"26\" aya_start=\"214\" aya_end=\"214\"]{‏ وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ‏}‏ قَالَ انْطَلَقَ نَبِيُّ اللَّهِ صلى الله عليه وسلم إِلَى رَضْمَةٍ مِنْ جَبَلٍ فَعَلاَ أَعْلاَهَا حَجَرًا ثُمَّ نَادَى ‏\"‏ يَا بَنِي عَبْدِ مَنَافَاهْ إِنِّي نَذِيرٌ إِنَّمَا مَثَلِي وَمَثَلُكُمْ كَمَثَلِ رَجُلٍ رَأَى الْعَدُوَّ فَانْطَلَقَ يَرْبَأُ أَهْلَهُ فَخَشِيَ أَنْ يَسْبِقُوهُ فَجَعَلَ يَهْتِفُ يَا صَبَاحَاهْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "95c60f371212aaba4fb255f3f2f5bc9a6c766655942d4e201217673b79cb9eb5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "acc3b37c-a9a9-43bc-9435-5c356996e12c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:207b",
+      "reference": "Sahih Muslim, hadith 207 b, book 1, باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، حَدَّثَنَا الْمُعْتَمِرُ، عَنْ أَبِيهِ، حَدَّثَنَا أَبُو عُثْمَانَ، عَنْ زُهَيْرِ بْنِ عَمْرٍو، وَقَبِيصَةَ بْنِ مُخَارِقٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِنَحْوِهِ ‏.‏",
+      "source_hash_sha256": "cb85110c42ed7bbf729133ec31fde77cb375332e3fbfb366a415ac7437abc8de",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe ne donne que la chaîne de transmission et renvoie à une version précédente sans rapporter le texte du récit. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "a390b75c-6981-423c-bebe-7ea31da070ec",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:208a",
+      "reference": "Sahih Muslim, hadith 208 a, book 1, باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا أَبُو أُسَامَةَ، عَنِ الأَعْمَشِ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ لَمَّا نَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"26\" aya_start=\"214\" aya_end=\"214\"]{‏ وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ‏}‏ وَرَهْطَكَ مِنْهُمُ الْمُخْلَصِينَ ‏.‏ خَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَتَّى صَعِدَ الصَّفَا فَهَتَفَ ‏\"‏ يَا صَبَاحَاهْ ‏\"‏ ‏.‏ فَقَالُوا مَنْ هَذَا الَّذِي يَهْتِفُ قَالُوا مُحَمَّدٌ ‏.‏ فَاجْتَمَعُوا إِلَيْهِ فَقَالَ ‏\"‏ يَا بَنِي فُلاَنٍ يَا بَنِي فُلاَنٍ يَا بَنِي فُلاَنٍ يَا بَنِي عَبْدِ مَنَافٍ يَا بَنِي عَبْدِ الْمُطَّلِبِ ‏\"‏ فَاجْتَمَعُوا إِلَيْهِ فَقَالَ ‏\"‏ أَرَأَيْتَكُمْ لَوْ أَخْبَرْتُكُمْ أَنَّ خَيْلاً تَخْرُجُ بِسَفْحِ هَذَا الْجَبَلِ أَكُنْتُمْ مُصَدِّقِيَّ ‏\"‏ ‏.‏ قَالُوا مَا جَرَّبْنَا عَلَيْكَ كَذِبًا ‏.‏ قَالَ ‏\"‏ فَإِنِّي نَذِيرٌ لَكُمْ بَيْنَ يَدَىْ عَذَابٍ شَدِيدٍ ‏\"‏ ‏.‏ قَالَ فَقَالَ أَبُو لَهَبٍ تَبًّا لَكَ أَمَا جَمَعْتَنَا إِلاَّ لِهَذَا ثُمَّ قَامَ فَنَزَلَتْ هَذِهِ السُّورَةُ تَبَّتْ يَدَا أَبِي لَهَبٍ وَقَدْ تَبَّ ‏.‏ كَذَا قَرَأَ الأَعْمَشُ إِلَى آخِرِ السُّورَةِ ‏.‏",
+      "source_hash_sha256": "eaa15eac0098c8bd47fac22e294cd27887f76f74503f379450d56145e44f42f4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "c2518237-ef3d-4a4f-a521-21286b94831f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:208b",
+      "reference": "Sahih Muslim, hadith 208 b, book 1, باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى: {وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ}",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ قَالَ صَعِدَ رَسُولُ اللَّهِ صلى الله عليه وسلم ذَاتَ يَوْمٍ الصَّفَا فَقَالَ ‏\"‏ يَا صَبَاحَاهْ ‏\"‏ ‏.‏ بِنَحْوِ حَدِيثِ أَبِي أُسَامَةَ وَلَمْ يَذْكُرْ نُزُولَ الآيَةِ ‏[quran sura=\"26\" aya_start=\"214\" aya_end=\"214\"]{‏ وَأَنْذِرْ عَشِيرَتَكَ الأَقْرَبِينَ‏}‏",
+      "source_hash_sha256": "6094c486785adc9221f001b69cbbf102eecb71a6353929889a2c80bec0705364",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Cette variante cite directement le verset 26:214 du Coran et ne donne pas le texte complet du récit. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "e1daa3bd-ea9e-4180-8cb0-26190e14ee42",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:209a",
+      "reference": "Sahih Muslim, hadith 209 a, book 1, باب شَفَاعَةِ النَّبِيِّ صلى الله عليه وسلم لأَبِي طَالِبٍ وَالتَّخْفِيفِ عَنْهُ بِسَبَبِهِ ‏‏",
+      "title": "باب شَفَاعَةِ النَّبِيِّ صلى الله عليه وسلم لأَبِي طَالِبٍ وَالتَّخْفِيفِ عَنْهُ بِسَبَبِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ الْقَوَارِيرِيُّ، وَمُحَمَّدُ بْنُ أَبِي بَكْرِ الْمُقَدَّمِيُّ، وَمُحَمَّدُ بْنُ عَبْدِ الْمَلِكِ الأُمَوِيُّ، قَالُوا حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ عَبْدِ الْمَلِكِ بْنِ عُمَيْرٍ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَارِثِ بْنِ نَوْفَلٍ، عَنِ الْعَبَّاسِ بْنِ عَبْدِ الْمُطَّلِبِ، أَنَّهُ قَالَ يَا رَسُولَ اللَّهِ هَلْ نَفَعْتَ أَبَا طَالِبٍ بِشَىْءٍ فَإِنَّهُ كَانَ يَحُوطُكَ وَيَغْضَبُ لَكَ قَالَ ‏\"‏ نَعَمْ هُوَ فِي ضَحْضَاحٍ مِنْ نَارٍ وَلَوْلاَ أَنَا لَكَانَ فِي الدَّرْكِ الأَسْفَلِ مِنَ النَّارِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c90b2a8786bfd0841a48f4959bf6598006c9839a49e7344edeae6a814878620e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allah ibn ‘Umar al-Qawariri, Muhammad ibn Abi Bakr al-Muqaddami et Muhammad ibn ‘Abd al-Malik al-Umawi nous ont rapporté, d’après Abu ‘Awana, d’après ‘Abd al-Malik ibn ‘Umayr, d’après ‘Abd Allah ibn al-Harith ibn Nawfal, d’après al-‘Abbas ibn ‘Abd al-Muttalib, qui a dit : « Messager de Dieu, as-tu été utile à Abu Talib en quoi que ce soit ? Il te protégeait et prenait ta défense. » Il répondit : « Oui. Il est dans une partie peu profonde du Feu. Sans moi, il serait dans le niveau le plus bas du Feu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b883ae54-47f7-4521-b31e-b6d26d775f36",
+      "reason": "La source arabe ne donne que la chaîne de transmission et renvoie au récit précédent sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "e20d1486-abcb-48c7-b860-752c0fc2e69d",
+      "reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "acc3b37c-a9a9-43bc-9435-5c356996e12c",
+      "reason": "La source arabe ne donne que la chaîne de transmission et renvoie à une version précédente sans rapporter le texte du récit. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "a390b75c-6981-423c-bebe-7ea31da070ec",
+      "reason": "Ce récit cite directement le verset 26:214 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "c2518237-ef3d-4a4f-a521-21286b94831f",
+      "reason": "Cette variante cite directement le verset 26:214 du Coran et ne donne pas le texte complet du récit. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
