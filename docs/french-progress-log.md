@@ -7916,3 +7916,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0158 saves five private French drafts about the call to prayer, its wording, and the two callers appointed by the Prophet ﷺ. Muslim 378c gives only the context and a fire-lighting variant while referring back to a previous report, so it remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 666 Muslim drafts, 7,002 total hadith drafts, 7,627 remaining, and 303 Needs Mo items.
+
+### 2026-10-29: Muslim 380b–384
+
+- FR-LIB-HAD-MUSLIM-0159 saves four private French drafts about the call to prayer and repeating it. Muslim 380b and 381b only refer to previous reports without repeating their content, so both remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 670 Muslim drafts, 7,006 total hadith drafts, 7,623 remaining, and 305 Needs Mo items.

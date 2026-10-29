@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0159",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:07:37.106Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "217505a6-f9e3-47b0-9f9e-2527d1b38554",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:380b",
+      "reference": "Sahih Muslim, hadith 380 b, book 4, باب اسْتِحْبَابِ اتِّخَاذِ مُؤَذِّنَيْنِ لِلْمَسْجِدِ الْوَاحِدِ ‏‏",
+      "title": "باب اسْتِحْبَابِ اتِّخَاذِ مُؤَذِّنَيْنِ لِلْمَسْجِدِ الْوَاحِدِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، حَدَّثَنَا الْقَاسِمُ، عَنْ عَائِشَةَ، مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "d19bbe7408a9ce10c83f41a89fde5d628a48320cdb50ba18363a5f8eba6da5a5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5e866cf5-49be-49c2-bf0c-3764781c1749",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:381a",
+      "reference": "Sahih Muslim, hadith 381 a, book 4, باب جَوَازِ أَذَانِ الأَعْمَى إِذَا كَانَ مَعَهُ بَصِيرٌ ‏",
+      "title": "باب جَوَازِ أَذَانِ الأَعْمَى إِذَا كَانَ مَعَهُ بَصِيرٌ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ الْهَمْدَانِيُّ حَدَّثَنَا خَالِدٌ، - يَعْنِي ابْنَ مَخْلَدٍ - عَنْ مُحَمَّدِ بْنِ جَعْفَرٍ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ ابْنُ أُمِّ مَكْتُومٍ يُؤَذِّنُ لِرَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ أَعْمَى ‏.‏",
+      "source_hash_sha256": "97948bf51f34377f823407a467fdd7ff29a7170d130db9f3c9a73eaab776d513",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kurayb, Muhammad ibn al-Ala al-Hamdani, m’a rapporté : Khalid — Ibn Makhlad — nous a rapporté, d’après Muhammad ibn Ja‘far, qui a dit : Hisham nous a rapporté, d’après son père, d’après Aïcha : Ibn Umm Maktum, qui était aveugle, appelait à la prière pour le Messager d’Allah ﷺ.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a3548204-8ac3-4c6a-bfac-51f50b372d22",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:381b",
+      "reference": "Sahih Muslim, hadith 381 b, book 4, باب جَوَازِ أَذَانِ الأَعْمَى إِذَا كَانَ مَعَهُ بَصِيرٌ ‏",
+      "title": "باب جَوَازِ أَذَانِ الأَعْمَى إِذَا كَانَ مَعَهُ بَصِيرٌ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ سَلَمَةَ الْمُرَادِيُّ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، عَنْ يَحْيَى بْنِ عَبْدِ اللَّهِ، وَسَعِيدِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "0ca3b7b133fdb479b912c39754c87b62c5d5c58e36356e1ebcc3187abeaeda3d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e0efafac-3b77-41a9-947a-6c27e0346185",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:382",
+      "reference": "Sahih Muslim, hadith 382, book 4, باب الإِمْسَاكِ عَنِ الإِغَارَةِ، عَلَى قَوْمٍ فِي دَارِ الْكُفْرِ إِذَا سُمِعَ فِيهِمُ الأَذَانُ ‏",
+      "title": "باب الإِمْسَاكِ عَنِ الإِغَارَةِ، عَلَى قَوْمٍ فِي دَارِ الْكُفْرِ إِذَا سُمِعَ فِيهِمُ الأَذَانُ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى، - يَعْنِي ابْنَ سَعِيدٍ - عَنْ حَمَّادِ بْنِ سَلَمَةَ، حَدَّثَنَا ثَابِتٌ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُغِيرُ إِذَا طَلَعَ الْفَجْرُ وَكَانَ يَسْتَمِعُ الأَذَانَ فَإِنْ سَمِعَ أَذَانًا أَمْسَكَ وَإِلاَّ أَغَارَ فَسَمِعَ رَجُلاً يَقُولُ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ عَلَى الْفِطْرَةِ ‏\"‏ ‏.‏ ثُمَّ قَالَ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَرَجْتَ مِنَ النَّارِ ‏\"‏ ‏.‏ فَنَظَرُوا فَإِذَا هُوَ رَاعِي مِعْزًى ‏.‏",
+      "source_hash_sha256": "fdee22d5e8226da422573dc82db1381285c9fc4d9766e44f89e46463dcd78b49",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : Yahya — Ibn Sa‘id — nous a rapporté, d’après Hammad ibn Salama : Thabit nous a rapporté, d’après Anas ibn Malik, qui a dit : le Messager d’Allah ﷺ lançait des expéditions lorsque l’aube se levait. Il prêtait attention à l’appel à la prière : s’il en entendait un, il s’abstenait ; sinon, il lançait l’expédition. Il entendit alors un homme dire : « Allah est le plus grand, Allah est le plus grand. » Le Messager d’Allah ﷺ dit : « Tu es dans la disposition naturelle. » L’homme dit ensuite : « J’atteste qu’il n’y a aucune divinité digne d’adoration en dehors d’Allah, j’atteste qu’il n’y a aucune divinité digne d’adoration en dehors d’Allah. » Le Messager d’Allah ﷺ dit : « Tu es sorti du Feu. » Ils regardèrent et virent qu’il s’agissait d’un berger de chèvres.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eb7a7fe5-f90d-456c-b1de-317c06a7e49f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:383",
+      "reference": "Sahih Muslim, hadith 383, book 4, باب اسْتِحْبَابِ الْقَوْلِ مِثْلَ قَوْلِ الْمُؤَذِّنِ لِمَنْ سَمِعَهُ ثُمَّ يُصَلِّي عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ثُمَّ يَسْأَلُ اللَّهَ لَهُ الْوَسِيلَةَ",
+      "title": "باب اسْتِحْبَابِ الْقَوْلِ مِثْلَ قَوْلِ الْمُؤَذِّنِ لِمَنْ سَمِعَهُ ثُمَّ يُصَلِّي عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ثُمَّ يَسْأَلُ اللَّهَ لَهُ الْوَسِيلَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عَطَاءِ بْنِ يَزِيدَ اللَّيْثِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِذَا سَمِعْتُمُ النِّدَاءَ فَقُولُوا مِثْلَ مَا يَقُولُ الْمُؤَذِّنُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "45424f31cb97c5bcafa806333cca9d39feb8783c1f2228dbc2a78f3b00cae25a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya m’a rapporté. Il a dit : j’ai récité devant Malik, d’après Ibn Shihab, d’après Ata ibn Yazid al-Laythi, d’après Abu Sa‘id al-Khudri : le Messager d’Allah ﷺ a dit : « Lorsque vous entendez l’appel à la prière, répétez ce que dit le muezzin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "681190d9-fbda-4c36-b40f-7d20a5a0cd8b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:384",
+      "reference": "Sahih Muslim, hadith 384, book 4, باب اسْتِحْبَابِ الْقَوْلِ مِثْلَ قَوْلِ الْمُؤَذِّنِ لِمَنْ سَمِعَهُ ثُمَّ يُصَلِّي عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ثُمَّ يَسْأَلُ اللَّهَ لَهُ الْوَسِيلَةَ",
+      "title": "باب اسْتِحْبَابِ الْقَوْلِ مِثْلَ قَوْلِ الْمُؤَذِّنِ لِمَنْ سَمِعَهُ ثُمَّ يُصَلِّي عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ثُمَّ يَسْأَلُ اللَّهَ لَهُ الْوَسِيلَةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلَمَةَ الْمُرَادِيُّ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، عَنْ حَيْوَةَ، وَسَعِيدِ بْنِ أَبِي أَيُّوبَ، وَغَيْرِهِمَا، عَنْ كَعْبِ بْنِ عَلْقَمَةَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ جُبَيْرٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ، أَنَّهُ سَمِعَ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِذَا سَمِعْتُمُ الْمُؤَذِّنَ فَقُولُوا مِثْلَ مَا يَقُولُ ثُمَّ صَلُّوا عَلَىَّ فَإِنَّهُ مَنْ صَلَّى عَلَىَّ صَلاَةً صَلَّى اللَّهُ عَلَيْهِ بِهَا عَشْرًا ثُمَّ سَلُوا اللَّهَ لِيَ الْوَسِيلَةَ فَإِنَّهَا مَنْزِلَةٌ فِي الْجَنَّةِ لاَ تَنْبَغِي إِلاَّ لِعَبْدٍ مِنْ عِبَادِ اللَّهِ وَأَرْجُو أَنْ أَكُونَ أَنَا هُوَ فَمَنْ سَأَلَ لِيَ الْوَسِيلَةَ حَلَّتْ لَهُ الشَّفَاعَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3720d24f6430a5752cc0c6e22f9bee1f341b2636b8e3d7e9a321ff33f7e582a4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Salama al-Muradi nous a rapporté : Abdullah ibn Wahb nous a rapporté, d’après Haywa, Sa‘id ibn Abi Ayyub et d’autres, d’après Ka‘b ibn Alqama, d’après Abd al-Rahman ibn Jubayr, d’après Abdullah ibn Amr ibn al-As, qui a entendu le Prophète ﷺ dire : « Lorsque vous entendez le muezzin, répétez ce qu’il dit, puis invoquez Allah pour qu’Il m’accorde Ses bénédictions. Quiconque invoque Allah pour qu’Il m’accorde Ses bénédictions une fois, Allah lui en accorde dix. Puis demandez à Allah de m’accorder al-Wasila : c’est un rang au Paradis qui ne convient qu’à un seul serviteur d’Allah, et j’espère être celui-là. Quiconque demande al-Wasila pour moi recevra mon intercession. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "217505a6-f9e3-47b0-9f9e-2527d1b38554",
+      "reason": "La source arabe ne reprend que la chaîne de transmission et renvoie au récit précédent d’Aïcha. Garder la traduction en attente plutôt que de compléter à partir d’un autre hadith."
+    },
+    {
+      "source_id": "a3548204-8ac3-4c6a-bfac-51f50b372d22",
+      "reason": "La source arabe donne seulement des chaînes de transmission et renvoie à la version précédente sans en répéter le texte. Garder la traduction en attente plutôt que de recopier le récit voisin."
+    }
+  ]
+}
