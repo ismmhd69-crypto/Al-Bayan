@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-412",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:47:27.558Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5e295a77-b180-407b-b9b3-9633b4e06060",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2394",
+      "reference": "Sahih al-Bukhari, hadith 2394, book 43, باب حُسْنِ الْقَضَاءِ",
+      "title": "باب حُسْنِ الْقَضَاءِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا خَلاَّدٌ، حَدَّثَنَا مِسْعَرٌ، حَدَّثَنَا مُحَارِبُ بْنُ دِثَارٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ قَالَ أَتَيْتُ النَّبِيَّ صلى الله عليه وسلم وَهْوَ فِي الْمَسْجِدِ ـ قَالَ مِسْعَرٌ أُرَاهُ قَالَ ضُحًى ـ فَقَالَ ‏\"‏ صَلِّ رَكْعَتَيْنِ ‏\"‏‏.‏ وَكَانَ لِي عَلَيْهِ دَيْنٌ فَقَضَانِي وَزَادَنِي‏.‏",
+      "source_hash_sha256": "69205298b052bebf341e73eb2df564d2f775e88823249b181d76cd971838894f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Khallâd, Mis‘ar, Muhârib ibn Dithâr et Jâbir ibn ‘Abd Allâh.\n\nJâbir a rapporté : « Je vins trouver le Prophète alors qu’il se trouvait dans la mosquée. Mis‘ar précise qu’il croit que c’était dans la matinée. Il me dit : “Prie deux unités.” Il avait une dette envers moi ; il me la remboursa en ajoutant un surplus. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "abc1b0cd-3177-41f5-b840-b5b9b64b716a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2395",
+      "reference": "Sahih al-Bukhari, hadith 2395, book 43, باب إِذَا قَضَى دُونَ حَقِّهِ أَوْ حَلَّلَهُ فَهْوَ جَائِزٌ",
+      "title": "باب إِذَا قَضَى دُونَ حَقِّهِ أَوْ حَلَّلَهُ فَهْوَ جَائِزٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا يُونُسُ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي ابْنُ كَعْبِ بْنِ مَالِكٍ، أَنَّ جَابِرَ بْنَ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ أَخْبَرَهُ أَنَّ أَبَاهُ قُتِلَ يَوْمَ أُحُدٍ شَهِيدًا، وَعَلَيْهِ دَيْنٌ فَاشْتَدَّ الْغُرَمَاءُ فِي حُقُوقِهِمْ، فَأَتَيْتُ النَّبِيَّ صلى الله عليه وسلم فَسَأَلَهُمْ أَنْ يَقْبَلُوا تَمْرَ حَائِطِي وَيُحَلِّلُوا أَبِي فَأَبَوْا، فَلَمْ يُعْطِهِمِ النَّبِيُّ صلى الله عليه وسلم حَائِطِي، وَقَالَ ‏\"‏ سَنَغْدُو عَلَيْكَ ‏\"‏‏.‏ فَغَدَا عَلَيْنَا حِينَ أَصْبَحَ، فَطَافَ فِي النَّخْلِ، وَدَعَا فِي ثَمَرِهَا بِالْبَرَكَةِ، فَجَدَدْتُهَا فَقَضَيْتُهُمْ، وَبَقِيَ لَنَا مِنْ تَمْرِهَا‏.‏",
+      "source_hash_sha256": "0885b1c86d744672828577e53d0d1166e77f698f58fc3aa326bee74e52a66f38",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abdân, ‘Abd Allâh, Yûnus, al-Zuhrî et le fils de Ka‘b ibn Mâlik. Jâbir ibn ‘Abd Allâh lui rapporta que son père était tombé en martyr à Uhud en laissant une dette. Ses créanciers insistèrent pour obtenir leurs droits. J’allai trouver le Prophète et lui demandai de leur proposer les dattes de mon verger en échange de l’acquittement de la dette de mon père. Ils refusèrent. Le Prophète ne leur céda pas mon verger et dit : « Nous viendrons demain matin. » Il vint le lendemain, fit le tour des palmiers et invoqua la bénédiction sur leurs fruits. Je récoltai les dattes, remboursai les créanciers et il nous en resta encore.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f38a233a-8cf7-4c24-92a9-98c602db84e9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2396",
+      "reference": "Sahih al-Bukhari, hadith 2396, book 43, باب إِذَا قَاصَّ أَوْ جَازَفَهُ فِي الدَّيْنِ تَمْرًا بِتَمْرٍ أَوْ غَيْرِهِ",
+      "title": "باب إِذَا قَاصَّ أَوْ جَازَفَهُ فِي الدَّيْنِ تَمْرًا بِتَمْرٍ أَوْ غَيْرِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ الْمُنْذِرِ، حَدَّثَنَا أَنَسٌ، عَنْ هِشَامٍ، عَنْ وَهْبِ بْنِ كَيْسَانَ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ أَنَّهُ أَخْبَرَهُ أَنَّ أَبَاهُ تُوُفِّيَ، وَتَرَكَ عَلَيْهِ ثَلاَثِينَ وَسْقًا لِرَجُلٍ مِنَ الْيَهُودِ، فَاسْتَنْظَرَهُ جَابِرٌ، فَأَبَى أَنْ يُنْظِرَهُ، فَكَلَّمَ جَابِرٌ رَسُولَ اللَّهِ صلى الله عليه وسلم لِيَشْفَعَ لَهُ إِلَيْهِ، فَجَاءَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَكَلَّمَ الْيَهُودِيَّ لِيَأْخُذَ ثَمَرَ نَخْلِهِ بِالَّذِي لَهُ فَأَبَى، فَدَخَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم النَّخْلَ، فَمَشَى فِيهَا ثُمَّ قَالَ لِجَابِرٍ ‏\"‏ جُدَّ لَهُ فَأَوْفِ لَهُ الَّذِي لَهُ ‏\"‏‏.‏ فَجَدَّهُ بَعْدَ مَا رَجَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَأَوْفَاهُ ثَلاَثِينَ وَسْقًا، وَفَضَلَتْ لَهُ سَبْعَةَ عَشَرَ وَسْقًا، فَجَاءَ جَابِرٌ رَسُولَ اللَّهِ صلى الله عليه وسلم لِيُخْبِرَهُ بِالَّذِي كَانَ، فَوَجَدَهُ يُصَلِّي الْعَصْرَ، فَلَمَّا انْصَرَفَ أَخْبَرَهُ بِالْفَضْلِ، فَقَالَ ‏\"‏ أَخْبِرْ ذَلِكَ ابْنَ الْخَطَّابِ ‏\"‏‏.‏ فَذَهَبَ جَابِرٌ إِلَى عُمَرَ، فَأَخْبَرَهُ‏.‏ فَقَالَ لَهُ عُمَرُ لَقَدْ عَلِمْتُ حِينَ مَشَى فِيهَا رَسُولُ اللَّهِ صلى الله عليه وسلم لَيُبَارَكَنَّ فِيهَا‏.‏",
+      "source_hash_sha256": "4e3bf781e819731d13d863dfe698595d01883a271f760ebe416499c73e25a34c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ibrâhîm ibn al-Mundhir, Anas, Hishâm, Wahb ibn Kaysân et Jâbir ibn ‘Abd Allâh.\n\nJâbir rapporta que son père mourut en laissant une dette de trente wasq de dattes envers un homme juif. Jâbir demanda à ce créancier de lui accorder un délai, mais celui-ci refusa. Jâbir sollicita le Messager d’Allah pour qu’il intercède en sa faveur. Le Prophète alla voir le créancier et lui proposa de prendre les fruits des palmiers de Jâbir en règlement de sa créance, mais il refusa. Le Messager d’Allah entra alors dans le verger, le parcourut, puis dit à Jâbir : « Récolte pour lui et acquitte-toi entièrement de ce que tu lui dois. » Après le départ du Messager d’Allah, Jâbir récolta les dattes, remit au créancier les trente wasq dus, et il lui en resta dix-sept. Il alla ensuite trouver le Prophète pour lui raconter ce qui s’était passé. Le trouvant en prière de l’après-midi, il attendit qu’il ait terminé, puis lui annonça le surplus. Le Prophète lui dit : « Informe-en Ibn al-Khattâb. » Jâbir alla donc le dire à ‘Umar. Celui-ci lui répondit : « Je savais que, lorsque le Messager d’Allah avait parcouru ce verger, Allah y mettrait certainement Sa bénédiction. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "df6c93b7-28dc-484a-8679-ec9c0b9c26a1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2397",
+      "reference": "Sahih al-Bukhari, hadith 2397, book 43, باب مَنِ اسْتَعَاذَ مِنَ الدَّيْنِ",
+      "title": "باب مَنِ اسْتَعَاذَ مِنَ الدَّيْنِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، ح وَحَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي أَخِي، عَنْ سُلَيْمَانَ، عَنْ مُحَمَّدِ بْنِ أَبِي عَتِيقٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، أَنَّ عَائِشَةَ ـ رضى الله عنها ـ أَخْبَرَتْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَدْعُو فِي الصَّلاَةِ وَيَقُولُ ‏\"‏ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْمَأْثَمِ وَالْمَغْرَمِ ‏\"‏‏.‏ فَقَالَ لَهُ قَائِلٌ مَا أَكْثَرَ مَا تَسْتَعِيذُ يَا رَسُولَ اللَّهِ مِنَ الْمَغْرَمِ قَالَ ‏\"‏ إِنَّ الرَّجُلَ إِذَا غَرِمَ حَدَّثَ فَكَذَبَ وَوَعَدَ فَأَخْلَفَ ‏\"‏‏.‏",
+      "source_hash_sha256": "511baa0fb70f7628b82e97f7cc25811ee95e336929e735f7a9759227c274c0e2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû al-Yamân, Shu‘ayb, al-Zuhrî et ‘Urwa, d’après ‘Â’isha. Une autre chaîne passe par Ismâ‘îl, son frère, Sulaymân, Muhammad ibn Abî ‘Atîq, Ibn Shihâb et ‘Urwa.\n\n‘Â’isha a rapporté que le Messager d’Allah disait dans sa prière : « Ô Allah, je cherche refuge auprès de Toi contre le péché et l’endettement. » Quelqu’un lui demanda : « Messager d’Allah, pourquoi cherches-tu si souvent refuge contre l’endettement ? » Il répondit : « Lorsqu’un homme s’endette, il parle et ment, et il fait une promesse puis la manque. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9f1d6b5b-fcf0-4373-98a0-7a5a045b9443",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2398",
+      "reference": "Sahih al-Bukhari, hadith 2398, book 43, باب الصَّلاَةِ عَلَى مَنْ تَرَكَ دَيْنًا",
+      "title": "باب الصَّلاَةِ عَلَى مَنْ تَرَكَ دَيْنًا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، عَنْ عَدِيِّ بْنِ ثَابِتٍ، عَنْ أَبِي حَازِمٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ تَرَكَ مَالاً فَلِوَرَثَتِهِ، وَمَنْ تَرَكَ كَلاًّ فَإِلَيْنَا ‏\"‏‏.‏",
+      "source_hash_sha256": "26522d5b3724b44f4a2304d671f3ebf88ac50422d2e8ccd86dfe908f42dcdfe1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû al-Walîd, Shu‘ba, ‘Adî ibn Thâbit, Abû Hâzim et Abû Hurayra.\n\nLe Prophète a dit : « Celui qui laisse des biens les laisse à ses héritiers. Celui qui laisse des personnes à charge, c’est à nous de nous en occuper. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e87fb39e-2995-4199-b251-d814991f508b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2399",
+      "reference": "Sahih al-Bukhari, hadith 2399, book 43, باب الصَّلاَةِ عَلَى مَنْ تَرَكَ دَيْنًا",
+      "title": "باب الصَّلاَةِ عَلَى مَنْ تَرَكَ دَيْنًا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا أَبُو عَامِرٍ، حَدَّثَنَا فُلَيْحٌ، عَنْ هِلاَلِ بْنِ عَلِيٍّ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي عَمْرَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ مَا مِنْ مُؤْمِنٍ إِلاَّ وَأَنَا أَوْلَى بِهِ فِي الدُّنْيَا وَالآخِرَةِ اقْرَءُوا إِنْ شِئْتُمْ ‏[quran sura=\"33\" aya_start=\"5\" aya_end=\"5\"]{‏النَّبِيُّ أَوْلَى بِالْمُؤْمِنِينَ مِنْ أَنْفُسِهِمْ‏}‏ فَأَيُّمَا مُؤْمِنٍ مَاتَ وَتَرَكَ مَالاً فَلْيَرِثْهُ عَصَبَتُهُ مَنْ كَانُوا، وَمَنْ تَرَكَ دَيْنًا أَوْ ضَيَاعًا فَلْيَأْتِنِي فَأَنَا مَوْلاَهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "fedb9cbe139b4ffc4b030124a8fd93ddf716d6aeb3b15c91b65e9d292439ba8f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e87fb39e-2995-4199-b251-d814991f508b",
+      "reason": "This report directly quotes Quran 33:6. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}

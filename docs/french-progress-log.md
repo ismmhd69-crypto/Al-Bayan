@@ -1971,3 +1971,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-411` saves six private French drafts for Bukhari 2388–2393, covering wealth and charity, repayment of debts, fair treatment of people in financial difficulty, and repaying borrowed livestock.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,166 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 129. Total local hadith rows not drafted: 12,463, including held records.
+
+### 2026-10-29: Bukhari 2394–2399 source review
+
+- `FR-LIB-HAD-BUKHARI-412` saves five private French drafts for Bukhari 2394–2398. Bukhari 2399 directly quotes Quran 33:6; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,171 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 130. Total local hadith rows not drafted: 12,458, including held records.
