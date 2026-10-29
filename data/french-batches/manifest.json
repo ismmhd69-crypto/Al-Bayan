@@ -42824,6 +42824,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0669",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0669.json",
+      "sourceIds": [
+        "c80cb16d-2ca8-401c-96ba-5aa8bb409cf5",
+        "1059b534-957b-4eca-9de5-adcbdc4d7066",
+        "fae816fd-7f8c-4e15-bfba-55fb5c59e367",
+        "25d93fce-6583-4c7d-9d54-79c0e3385602",
+        "27cdd44d-7abf-47fd-a989-eba6ea355114",
+        "dc163e3b-dce3-4128-8744-428343c568ec"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, two private unpublished drafts, two Quran-quoted reports and two incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47131,8 +47152,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8990,
-  "hadithLocalRemaining": 5639,
+  "hadithLocalDrafted": 8992,
+  "hadithLocalRemaining": 5637,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51524,10 +51545,30 @@
       "source_id": "9c158224-5065-421b-a1b2-0b472fc7fe68",
       "reason": "Cette source contient des citations coraniques explicites des sourates 66:1, 66:4 et 66:3. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
+    },
+    {
+      "source_id": "c80cb16d-2ca8-401c-96ba-5aa8bb409cf5",
+      "reason": "Cette entrée renvoie seulement au récit précédent (« بهذا سواء » / « نحوه ») et ne le reproduit pas. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1059b534-957b-4eca-9de5-adcbdc4d7066",
+      "reason": "Cette source contient des citations coraniques explicites des sourates 33:28–29, 33:4 et 33:3. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "fae816fd-7f8c-4e15-bfba-55fb5c59e367",
+      "reason": "Cette source cite le verset 33:51 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "25d93fce-6583-4c7d-9d54-79c0e3385602",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie seulement à la version précédente (« نحوه »). Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2654,
+  "hadithMuslimDrafted": 2656,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1171
+  "hadithNeedsMo": 1175
 }
