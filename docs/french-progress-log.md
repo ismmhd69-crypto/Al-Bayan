@@ -597,3 +597,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-114` saved private French drafts for Bukhari 627–632. The texts preserve the repeated call-and-prayer wording, travel instructions, the three requests to wait for the heat to lessen, the two companions’ instruction, the narrator’s uncertainty about remembered details, and the cold-weather instruction to pray in dwellings.
 - The batch passed the focused validator for all six records, including Arabic hashes, rights metadata, private unpublished state and the long-record rule. No Needs Mo item was identified in this batch. No database writes or publication occurred.
 - Bukhari local drafts: 589 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 28. Total local hadith rows not drafted: 14,040, including held records.
+
+### 2026-10-29: Bukhari 633–638 source review
+
+- `FR-LIB-HAD-BUKHARI-115` saved private French drafts for Bukhari 633–638. The reports retain the lance placed before the Prophet at al-Abtah, the observer following Bilal’s mouth during the call, the instruction to arrive calmly and complete missed prayer, and both waiting-for-the-imam wordings.
+- The batch passed the focused validator for all six records, including Arabic hashes, rights metadata, private unpublished state and the long-record rule. No Needs Mo item was identified in this batch. No database writes or publication occurred.
+- Bukhari local drafts: 595 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 28. Total local hadith rows not drafted: 14,034, including held records.
