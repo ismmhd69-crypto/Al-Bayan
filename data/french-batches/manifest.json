@@ -28,8 +28,8 @@
   },
   "websiteProgress": {
     "uiStringsTotal": 324,
-    "uiStringsDrafted": 50,
-    "uiStringsRemaining": 274,
+    "uiStringsDrafted": 75,
+    "uiStringsRemaining": 249,
     "newToIslamLessonsRemaining": 32,
     "hardQuestionsArticlesRemaining": 21,
     "preparedAnswersRemaining": 44
@@ -57,6 +57,19 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "key/source parity, nonempty text, and placeholder parity passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-UI-003",
+      "contentType": "website-interface",
+      "language": "fr",
+      "artifact": "data/french-batches/ui-strings-003.json",
+      "translated": 25,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "key/source parity, nonempty text, and placeholder parity passed; known French loanwords retained",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
