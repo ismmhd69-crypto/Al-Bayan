@@ -1881,3 +1881,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-393` saves four private French drafts for Bukhari 2293–2296. Bukhari 2292 directly quotes Quran 4:33; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
 - The five-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,087 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 121. Total local hadith rows not drafted: 12,542, including held records.
+
+### 2026-10-29: Bukhari 2297 long-source review
+
+- `FR-LIB-HAD-BUKHARI-394` saves the full private French draft for Bukhari 2297, a source too long for a multi-item export. It preserves the complete account of Abû Bakr’s first attempted migration and Ibn al-Dughunna’s protection.
+- The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,088 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 121. Total local hadith rows not drafted: 12,541, including held records.
