@@ -1,0 +1,63 @@
+{
+  "batch_id": "HADITH-BUKHARI-377",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:25:10.557Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5536cc9b-c4e0-463a-a696-a206c3f5648e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2214",
+      "reference": "Sahih al-Bukhari, hadith 2214, book 34, باب بَيْعِ الأَرْضِ وَالدُّورِ وَالْعُرُوضِ مُشَاعًا غَيْرَ مَقْسُومٍ",
+      "title": "باب بَيْعِ الأَرْضِ وَالدُّورِ وَالْعُرُوضِ مُشَاعًا غَيْرَ مَقْسُومٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ مَحْبُوبٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، حَدَّثَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ قَالَ قَضَى النَّبِيُّ صلى الله عليه وسلم بِالشُّفْعَةِ فِي كُلِّ مَالٍ لَمْ يُقْسَمْ، فَإِذَا وَقَعَتِ الْحُدُودُ وَصُرِّفَتِ الطُّرُقُ فَلاَ شُفْعَةَ‏.‏",
+      "source_hash_sha256": "929c769867bd003b2e445de5df86f6cc51e0034fda8294593b45916f85dae7a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Mahbûb, ‘Abd al-Wâhid, Ma‘mar, al-Zuhrî, Abû Salama ibn ‘Abd ar-Rahmân et Jâbir ibn ‘Abd Allâh.\n\nLe Prophète a établi le droit de préemption pour tout bien indivis. Lorsque les limites sont fixées et que les voies d’accès sont attribuées, il n’y a plus de droit de préemption.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5d7ec331-5a6e-4135-852a-75cf53113de7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2214b",
+      "reference": "Sahih al-Bukhari, hadith 2214b, book 34, باب بَيْعِ الأَرْضِ وَالدُّورِ وَالْعُرُوضِ مُشَاعًا غَيْرَ مَقْسُومٍ",
+      "title": "باب بَيْعِ الأَرْضِ وَالدُّورِ وَالْعُرُوضِ مُشَاعًا غَيْرَ مَقْسُومٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، بِهَذَا وَقَالَ فِي كُلِّ مَا لَمْ يُقْسَمْ‏.‏ تَابَعَهُ هِشَامٌ عَنْ مَعْمَرٍ‏.‏ قَالَ عَبْدُ الرَّزَّاقِ فِي كُلِّ مَالٍ‏.‏ رَوَاهُ عَبْدُ الرَّحْمَنِ بْنُ إِسْحَاقَ عَنِ الزُّهْرِيِّ‏.‏",
+      "source_hash_sha256": "8083130b564c1d5abdb284cbc72ac1bca86fd42ce7bf32fee6cc3fe250a71099",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaînes de transmission : Musaddad et ‘Abd al-Wâhid ; Hishâm, d’après Ma‘mar ; ‘Abd ar-Razzâq ; et ‘Abd ar-Rahmân ibn Ishâq, d’après al-Zuhrî.\n\n‘Abd al-Wâhid rapporte la même formulation, avec ces mots : « pour tout bien qui n’a pas été divisé ». Hishâm l’a également rapporté d’après Ma‘mar. ‘Abd ar-Razzâq rapporte la formulation : « pour tout bien ». ‘Abd ar-Rahmân ibn Ishâq l’a rapporté d’après al-Zuhrî.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
