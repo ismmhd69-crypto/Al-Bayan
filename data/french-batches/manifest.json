@@ -18130,6 +18130,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-839",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-839.json",
+      "sourceIds": [
+        "70f3b544-5e02-40c8-a544-61387e474a83",
+        "2fbe3b3d-da7c-4e89-ad7a-3507472298d8",
+        "dc790b56-bf90-4a5a-a2f5-3d5d4de9e7d1",
+        "352a6e1c-42ea-4279-89eb-965dbdb1d597",
+        "51861dcd-09ff-42c9-ae8c-59c4bda37dc9",
+        "c90bc915-0eb9-4409-86db-522d7851ca44"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -19278,9 +19299,27 @@
       "scope": "Sahih al-Bukhari 4629: direct quotations of Quran 6:82 and 31:13",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 6:82 et 31:13. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-838, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4632-QURAN-6-90",
+      "scope": "Sahih al-Bukhari 4632: direct quotation of Quran 6:90",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 6:90. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-839, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4634-QURAN-7-33",
+      "scope": "Sahih al-Bukhari 4634: direct Quranic phrase from 7:33",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement la formule de Quran 7:33 « ما ظهر منها وما بطن ». Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-839, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4635-QURAN-6-158",
+      "scope": "Sahih al-Bukhari 4635: direct Quranic wording from 6:158",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement une partie de Quran 6:158. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-839, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3984,
-  "hadithLocalDrafted": 3984,
-  "hadithLocalRemaining": 10679
+  "hadithBukhariDrafted": 3987,
+  "hadithLocalDrafted": 3987,
+  "hadithLocalRemaining": 10676
 }
