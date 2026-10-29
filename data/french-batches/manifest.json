@@ -17946,6 +17946,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-830",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-830.json",
+      "sourceIds": [
+        "1b10975e-692f-4e5f-b619-f3bc2c8845ab"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -18892,7 +18908,7 @@
       "reason": "Le rapport cite directement Quran 4:33 à plusieurs reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-829, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3970,
-  "hadithLocalDrafted": 3970,
-  "hadithLocalRemaining": 10687
+  "hadithBukhariDrafted": 3971,
+  "hadithLocalDrafted": 3971,
+  "hadithLocalRemaining": 10686
 }
