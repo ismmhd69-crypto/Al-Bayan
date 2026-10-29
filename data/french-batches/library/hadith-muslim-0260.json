@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0260",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:52:21.378Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ad499be7-4c44-445c-9496-8b83c55fc383",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:619a",
+      "reference": "Sahih Muslim, hadith 619 a, book 5, باب اسْتِحْبَابِ تَقْدِيمِ الظُّهْرِ فِي أَوَّلِ الْوَقْتِ فِي غَيْرِ شِدَّةِ الْحَرِّ ‏‏",
+      "title": "باب اسْتِحْبَابِ تَقْدِيمِ الظُّهْرِ فِي أَوَّلِ الْوَقْتِ فِي غَيْرِ شِدَّةِ الْحَرِّ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو الأَحْوَصِ، سَلاَّمُ بْنُ سُلَيْمٍ عَنْ أَبِي إِسْحَاقَ، عَنْ سَعِيدِ بْنِ وَهْبٍ، عَنْ خَبَّابٍ، قَالَ شَكَوْنَا إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم الصَّلاَةَ فِي الرَّمْضَاءِ فَلَمْ يُشْكِنَا ‏.‏",
+      "source_hash_sha256": "489ea385cd0ecec8dc485e3b78d0745dc76ed7915b0a28bef5cacb8aec3751f0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Abu al-Ahwas nous a rapporté : Sallam ibn Sulaym nous a rapporté, d’après Abu Ishaq, d’après Sa‘id ibn Wahb, d’après Khabbab, qui dit : « Nous nous plaignîmes au Messager d’Allah ﷺ de la chaleur brûlante du sol pendant la prière, mais il ne nous accorda pas de répit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0da033cb-f015-4824-86cf-dfc9f19d957e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:619b",
+      "reference": "Sahih Muslim, hadith 619 b, book 5, باب اسْتِحْبَابِ تَقْدِيمِ الظُّهْرِ فِي أَوَّلِ الْوَقْتِ فِي غَيْرِ شِدَّةِ الْحَرِّ ‏‏",
+      "title": "باب اسْتِحْبَابِ تَقْدِيمِ الظُّهْرِ فِي أَوَّلِ الْوَقْتِ فِي غَيْرِ شِدَّةِ الْحَرِّ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، وَعَوْنُ بْنُ سَلاَّمٍ، - قَالَ عَوْنٌ أَخْبَرَنَا وَقَالَ ابْنُ يُونُسَ، وَاللَّفْظُ، لَهُ حَدَّثَنَا زُهَيْرٌ، - قَالَ حَدَّثَنَا أَبُو إِسْحَاقَ، عَنْ سَعِيدِ بْنِ وَهْبٍ، عَنْ خَبَّابٍ، قَالَ أَتَيْنَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَشَكَوْنَا إِلَيْهِ حَرَّ الرَّمْضَاءِ فَلَمْ يُشْكِنَا ‏.‏ قَالَ زُهَيْرٌ قُلْتُ لأَبِي إِسْحَاقَ أَفِي الظُّهْرِ قَالَ نَعَمْ ‏.‏ قُلْتُ أَفِي تَعْجِيلِهَا قَالَ نَعَمْ ‏.‏",
+      "source_hash_sha256": "c30046ad8b3bea83a0fb1b60f74f885ed5bef36def54ba647782208e32332937",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Yunus et Awn ibn Salam nous ont rapporté. Awn dit : Zuhayr nous a rapporté. Ibn Yunus dit — la formulation est la sienne : Zuhayr nous a rapporté : Abu Ishaq nous a rapporté, d’après Sa‘id ibn Wahb, d’après Khabbab, qui dit : « Nous vînmes trouver le Messager d’Allah ﷺ et nous nous plaignîmes à lui de la chaleur brûlante du sol. Il ne nous accorda pas de répit. » Zuhayr dit : « Je demandai à Abu Ishaq : “S’agissait-il de la prière de midi ?” Il répondit : “Oui.” Je demandai : “Était-elle accomplie tôt ?” Il répondit : “Oui.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "119ce152-f092-4f60-8ee4-2d7a456e78b1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:620",
+      "reference": "Sahih Muslim, hadith 620, book 5, باب اسْتِحْبَابِ تَقْدِيمِ الظُّهْرِ فِي أَوَّلِ الْوَقْتِ فِي غَيْرِ شِدَّةِ الْحَرِّ ‏‏",
+      "title": "باب اسْتِحْبَابِ تَقْدِيمِ الظُّهْرِ فِي أَوَّلِ الْوَقْتِ فِي غَيْرِ شِدَّةِ الْحَرِّ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، حَدَّثَنَا بِشْرُ بْنُ الْمُفَضَّلِ، عَنْ غَالِبٍ الْقَطَّانِ، عَنْ بَكْرِ بْنِ عَبْدِ اللَّهِ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كُنَّا نُصَلِّي مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي شِدَّةِ الْحَرِّ فَإِذَا لَمْ يَسْتَطِعْ أَحَدُنَا أَنْ يُمَكِّنَ جَبْهَتَهُ مِنَ الأَرْضِ بَسَطَ ثَوْبَهُ فَسَجَدَ عَلَيْهِ ‏.‏",
+      "source_hash_sha256": "ba68545cb6db751a5a5a15cc082beedbc06418d76ddae7938720d72c77e9e6c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Bishr ibn al-Mufaddal nous a rapporté, d’après Ghalib al-Qattan, d’après Bakr ibn Abdullah, d’après Anas ibn Malik, qui dit : « Nous priions avec le Messager d’Allah ﷺ malgré la chaleur intense. Lorsque l’un de nous ne pouvait poser fermement son front au sol, il étendait son vêtement et se prosternait dessus. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c27a90b-b4af-4a43-b5c6-0c69e6e6c58c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:621a",
+      "reference": "Sahih Muslim, hadith 621 a, book 5, باب اسْتِحْبَابِ التَّبْكِيرِ بِالْعَصْرِ",
+      "title": "باب اسْتِحْبَابِ التَّبْكِيرِ بِالْعَصْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح قَالَ وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّهُ أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يُصَلِّي الْعَصْرَ وَالشَّمْسُ مُرْتَفِعَةٌ حَيَّةٌ فَيَذْهَبُ الذَّاهِبُ إِلَى الْعَوَالِي فَيَأْتِي الْعَوَالِيَ وَالشَّمْسُ مُرْتَفِعَةٌ ‏.‏ وَلَمْ يَذْكُرْ قُتَيْبَةُ فَيَأْتِي الْعَوَالِيَ ‏.‏",
+      "source_hash_sha256": "2c86e7a65e96dd06ad9f55c87a6082f3a79d47061654fb49106072996c9902fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : al-Layth nous a rapporté. (H) Muhammad ibn Rumh nous a rapporté : al-Layth nous a informés, d’après Ibn Shihab, qu’Anas ibn Malik lui avait rapporté que le Messager d’Allah ﷺ accomplissait la prière de l’asr alors que le soleil était encore haut et brillant. Un homme pouvait partir pour les hauteurs d’al-Awali, y arriver alors que le soleil était encore haut. Qutayba ne mentionna pas son arrivée à al-Awali.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d75d8e5f-83c5-4383-bcdd-1e4aef14d091",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:621b",
+      "reference": "Sahih Muslim, hadith 621 b, book 5, باب اسْتِحْبَابِ التَّبْكِيرِ بِالْعَصْرِ",
+      "title": "باب اسْتِحْبَابِ التَّبْكِيرِ بِالْعَصْرِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسٍ، ‏.‏ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يُصَلِّي الْعَصْرَ بِمِثْلِهِ سَوَاءً ‏.‏",
+      "source_hash_sha256": "b8bb8fd50c0fa1136cec12b4e79c83120ab6c52ff662a1cc42cf10b75e95949a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "258872e3-cbb0-4639-bae4-0b918e186d2d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:621c",
+      "reference": "Sahih Muslim, hadith 621 c, book 5, باب اسْتِحْبَابِ التَّبْكِيرِ بِالْعَصْرِ",
+      "title": "باب اسْتِحْبَابِ التَّبْكِيرِ بِالْعَصْرِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كُنَّا نُصَلِّي الْعَصْرَ ثُمَّ يَذْهَبُ الذَّاهِبُ إِلَى قُبَاءٍ فَيَأْتِيهِمْ وَالشَّمْسُ مُرْتَفِعَةٌ ‏.‏",
+      "source_hash_sha256": "8641833cc3fc1012023cb292a05dbfaaab39bb7424b41196cbc552285367a75f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu à Malik, d’après Ibn Shihab, d’après Anas ibn Malik, qui dit : « Nous accomplissions la prière de l’asr. Puis un homme partait pour Quba et arrivait auprès de ses habitants alors que le soleil était encore haut. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "d75d8e5f-83c5-4383-bcdd-1e4aef14d091",
+      "reason": "La source ne donne que la chaîne de transmission et renvoie au récit précédent (« pareil »), sans reprendre son texte complet. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
