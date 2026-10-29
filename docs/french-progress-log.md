@@ -11330,3 +11330,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1777-1779
 
 - FR-LIB-HAD-MUSLIM-0842 saves three private French drafts: two reports from Hunayn and one from Badr. The chains, dialogue, and event sequence are preserved. No Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1780a
+
+- FR-LIB-HAD-MUSLIM-0843 records the complete report about the conquest of Mecca as a Needs Mo hold because it contains the Quranic phrase from 17:81. The entire French entry remains blank pending an attributed and authorized French Quran translation. No database write or publication occurred.
