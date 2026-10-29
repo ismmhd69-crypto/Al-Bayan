@@ -19198,6 +19198,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-893",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-893.json",
+      "sourceIds": [
+        "b9b3aa41-e5f9-4c14-967d-9e752c9c1d0f"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -21450,6 +21466,12 @@
       "scope": "Sahih al-Bukhari 4889: direct Quran quotation from 59:9",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 59:9. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-892, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4890-QURAN-60-1",
+      "scope": "Sahih al-Bukhari 4890: repeated direct Quran quotation from 60:1",
+      "status": "blocked",
+      "reason": "Hadith 4890 cite directement à deux reprises Quran 60:1 dans un récit concernant Ḥâṭib ibn Abî Baltaʿa. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-893, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4059,
