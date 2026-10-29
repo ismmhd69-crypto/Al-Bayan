@@ -38246,6 +38246,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0447",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0447.json",
+      "sourceIds": [
+        "523456e0-bb1f-4d1e-b17f-cc6f9f8174bd",
+        "02e9f1c6-ba44-458e-910c-68ec10a307d3",
+        "fc657a24-5f27-418e-967e-709467b00ced",
+        "37c1e462-9a80-4a3c-bfad-1e9f085554bc",
+        "c94bf887-c0f0-48cf-8f8a-1316593e5730",
+        "ca5de3e2-aab6-43a6-a9ba-bbcbd68d3b53"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete cross-reference and one direct Quran-text item held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42553,8 +42574,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8088,
-  "hadithLocalRemaining": 6541,
+  "hadithLocalDrafted": 8092,
+  "hadithLocalRemaining": 6537,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -45616,10 +45637,20 @@
       "source_id": "36ec7b43-1419-41ea-9a9e-58b236d50079",
       "reason": "La source ne fournit que la chaîne de transmission et indique que le récit est « dans le même sens », sans reproduire son texte. Garder la traduction française vide jusqu’à disponibilité du texte complet.",
       "status": "blocked"
+    },
+    {
+      "source_id": "02e9f1c6-ba44-458e-910c-68ec10a307d3",
+      "reason": "La source ne reprend que la chaîne et renvoie au récit d’Abu ‘Awana, sans en reproduire le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c94bf887-c0f0-48cf-8f8a-1316593e5730",
+      "reason": "La source cite directement un passage présenté comme un verset du Coran et mentionne une autre sourate perdue dont un fragment est cité. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1752,
+  "hadithMuslimDrafted": 1756,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 824
+  "hadithNeedsMo": 826
 }

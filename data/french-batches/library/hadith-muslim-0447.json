@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0447",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:22:54.709Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "523456e0-bb1f-4d1e-b17f-cc6f9f8174bd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1048a",
+      "reference": "Sahih Muslim, hadith 1048 a, book 12, باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "title": "باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَسَعِيدُ بْنُ مَنْصُورٍ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ كَانَ لاِبْنِ آدَمَ وَادِيَانِ مِنْ مَالٍ لاَبْتَغَى وَادِيًا ثَالِثًا وَلاَ يَمْلأُ جَوْفَ ابْنِ آدَمَ إِلاَّ التُّرَابُ وَيَتُوبُ اللَّهُ عَلَى مَنْ تَابَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4a7650335e2b2b1edcb89ddb1fcf17b6b50740ff7d0e17409f94e43ca3187d18",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya, Sa‘id ibn Mansur et Qutayba ibn Sa‘id nous ont rapporté. Yahya dit : Abu ‘Awana nous a informés ; les deux autres disent : Abu ‘Awana nous a rapporté, d’après Qatada, d’après Anas, qui a dit que le Messager d’Allah ﷺ a dit : « Si le fils d’Adam possédait deux vallées de biens, il en chercherait une troisième. Rien ne remplit le ventre du fils d’Adam si ce n’est la terre. Allah accueille le repentir de celui qui se repent. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "02e9f1c6-ba44-458e-910c-68ec10a307d3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1048b",
+      "reference": "Sahih Muslim, hadith 1048 b, book 12, باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "title": "باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، أَخْبَرَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ - فَلاَ أَدْرِي أَشَىْءٌ أُنْزِلَ أَمْ شَىْءٌ كَانَ يَقُولُهُ - بِمِثْلِ حَدِيثِ أَبِي عَوَانَةَ ‏.‏",
+      "source_hash_sha256": "4ef76544ac6af8c16bcb80e541fa9a5e0e3a258ec53dea586c0100f6c56a00c3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fc657a24-5f27-418e-967e-709467b00ced",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1048c",
+      "reference": "Sahih Muslim, hadith 1048 c, book 12, باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "title": "باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنِي ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ لَوْ كَانَ لاِبْنِ آدَمَ وَادٍ مِنْ ذَهَبٍ أَحَبَّ أَنَّ لَهُ وَادِيًا آخَرَ وَلَنْ يَمْلأَ فَاهُ إِلاَّ التُّرَابُ وَاللَّهُ يَتُوبُ عَلَى مَنْ تَابَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2a8e844bee133ac040e01af06cb38d92217c0f376572db82503a4064f061aaa3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya m’a rapporté : Ibn Wahb m’a informé : Yunus m’a informé, d’après Ibn Shihab, d’après Anas ibn Malik, d’après le Messager d’Allah ﷺ, qui a dit : « Si le fils d’Adam possédait une vallée d’or, il en voudrait une autre. Rien ne remplit sa bouche si ce n’est la terre. Allah accueille le repentir de celui qui se repent. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "37c1e462-9a80-4a3c-bfad-1e9f085554bc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1049",
+      "reference": "Sahih Muslim, hadith 1049, book 12, باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "title": "باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، قَالاَ حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، عَنِ ابْنِ جُرَيْجٍ، قَالَ سَمِعْتُ عَطَاءً، يَقُولُ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ لَوْ أَنَّ لاِبْنِ آدَمَ مِلْءَ وَادٍ مَالاً لأَحَبَّ أَنْ يَكُونَ إِلَيْهِ مِثْلُهُ وَلاَ يَمْلأُ نَفْسَ ابْنِ آدَمَ إِلاَّ التُّرَابُ وَاللَّهُ يَتُوبُ عَلَى مَنْ تَابَ ‏\"‏ ‏.‏ قَالَ ابْنُ عَبَّاسٍ فَلاَ أَدْرِي أَمِنَ الْقُرْآنِ هُوَ أَمْ لاَ ‏.‏ وَفِي رِوَايَةِ زُهَيْرٍ قَالَ فَلاَ أَدْرِي أَمِنَ الْقُرْآنِ ‏.‏ لَمْ يَذْكُرِ ابْنَ عَبَّاسٍ ‏.‏",
+      "source_hash_sha256": "e13db9b64b65b26318ec8285ffd3c161301a9423e9a210363d1bb788bc770545",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Harun ibn ‘Abd Allah m’ont rapporté : Hajjaj ibn Muhammad nous a rapporté, d’après Ibn Jurayj, qui a dit : J’ai entendu ‘Ata’ dire : J’ai entendu Ibn ‘Abbas dire : J’ai entendu le Messager d’Allah ﷺ dire : « Si le fils d’Adam possédait une vallée pleine de biens, il en voudrait une autre semblable. Rien ne remplit son âme si ce n’est la terre. Allah accueille le repentir de celui qui se repent. » Ibn ‘Abbas dit : « Je ne sais pas si cela fait partie du Coran ou non. » Dans la transmission de Zuhayr, il dit : « Je ne sais pas si cela fait partie du Coran », sans mentionner Ibn ‘Abbas.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c94bf887-c0f0-48cf-8f8a-1316593e5730",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1050",
+      "reference": "Sahih Muslim, hadith 1050, book 12, باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "title": "باب لَوْ أَنَّ لاِبْنِ آدَمَ وَادِيَيْنِ لاَبْتَغَى ثَالِثًا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ دَاوُدَ، عَنْ أَبِي حَرْبِ بْنِ أَبِي، الأَسْوَدِ عَنْ أَبِيهِ، قَالَ بَعَثَ أَبُو مُوسَى الأَشْعَرِيُّ إِلَى قُرَّاءِ أَهْلِ الْبَصْرَةِ فَدَخَلَ عَلَيْهِ ثَلاَثُمِائَةِ رَجُلٍ قَدْ قَرَءُوا الْقُرْآنَ فَقَالَ أَنْتُمْ خِيَارُ أَهْلِ الْبَصْرَةِ وَقُرَّاؤُهُمْ فَاتْلُوهُ وَلاَ يَطُولَنَّ عَلَيْكُمُ الأَمَدُ فَتَقْسُوَ قُلُوبُكُمْ كَمَا قَسَتْ قُلُوبُ مَنْ كَانَ قَبْلَكُمْ وَإِنَّا كُنَّا نَقْرَأُ سُورَةً كُنَّا نُشَبِّهُهَا فِي الطُّولِ وَالشِّدَّةِ بِبَرَاءَةَ فَأُنْسِيتُهَا غَيْرَ أَنِّي قَدْ حَفِظْتُ مِنْهَا لَوْ كَانَ لاِبْنِ آدَمَ وَادِيَانِ مِنْ مَالٍ لاَبْتَغَى وَادِيًا ثَالِثًا وَلاَ يَمْلأُ جَوْفَ ابْنِ آدَمَ إِلاَّ التُّرَابُ ‏.‏ وَكُنَّا نَقْرَأُ سُورَةً كُنَّا نُشَبِّهُهَا بِإِحْدَى الْمُسَبِّحَاتِ فَأُنْسِيتُهَا غَيْرَ أَنِّي حَفِظْتُ مِنْهَا ‏{‏ يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لاَ تَفْعَلُونَ‏}‏ فَتُكْتَبُ شَهَادَةً فِي أَعْنَاقِكُمْ فَتُسْأَلُونَ عَنْهَا يَوْمَ الْقِيَامَةِ ‏.‏",
+      "source_hash_sha256": "5259e208bfcf7f02cddf92bc96594744a7ef8273331fcd52dccdfb4413e16e18",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ca5de3e2-aab6-43a6-a9ba-bbcbd68d3b53",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1051",
+      "reference": "Sahih Muslim, hadith 1051, book 12, باب لَيْسَ الْغِنَى عَنْ كَثْرَةِ الْعَرَضِ",
+      "title": "باب لَيْسَ الْغِنَى عَنْ كَثْرَةِ الْعَرَضِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَيْسَ الْغِنَى عَنْ كَثْرَةِ الْعَرَضِ وَلَكِنَّ الْغِنَى غِنَى النَّفْسِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a7c45fcfbc99cca92454c101a48982bda2920e78021c5eda3ffc717b28f7fb0e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Ibn Numayr nous ont rapporté : Sufyan ibn ‘Uyayna nous a rapporté, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra, qui a dit que le Messager d’Allah ﷺ a dit : « La richesse ne consiste pas à posséder beaucoup de biens ; la vraie richesse est celle de l’âme. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "02e9f1c6-ba44-458e-910c-68ec10a307d3",
+      "reason": "La source ne reprend que la chaîne et renvoie au récit d’Abu ‘Awana, sans en reproduire le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "c94bf887-c0f0-48cf-8f8a-1316593e5730",
+      "reason": "La source cite directement un passage présenté comme un verset du Coran et mentionne une autre sourate perdue dont un fragment est cité. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    }
+  ]
+}
