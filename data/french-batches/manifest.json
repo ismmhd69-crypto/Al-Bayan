@@ -48612,6 +48612,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1124",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1124.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "three complete reports translated as private drafts; two reports with embedded Quran quotations and one transmission variant left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52919,8 +52932,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9747,
-  "hadithLocalRemaining": 4779,
+  "hadithLocalDrafted": 9750,
+  "hadithLocalRemaining": 4776,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -58867,10 +58880,25 @@
       "source_id": "6cca8f4a-a9f2-4a0e-a8d3-cd58c4452a31",
       "reason": "Cette entrée reprend seulement une partie d’un récit précédent et signale des variantes de transmission. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "774ccda1-36ff-4c32-9041-fde731836b55",
+      "reason": "Ce récit reprend une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "df4ab7e9-576c-4c99-bc7e-f9529d097bdd",
+      "reason": "Cette entrée ne reproduit que des variantes de transmission ou un ajout renvoyant au récit précédent. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "20ead949-7dfd-4eda-85a0-818ff755854e",
+      "reason": "Ce récit reprend une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3584,
+  "hadithMuslimDrafted": 3587,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1516
+  "hadithNeedsMo": 1519
 }

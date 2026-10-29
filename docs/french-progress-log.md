@@ -12458,3 +12458,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2413b-2416b
 
 - FR-LIB-HAD-MUSLIM-1123 saves two complete reports as private French drafts. One Quran-quotation report and three incomplete transmission variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-30: Muslim 2417a-2419a
+
+- FR-LIB-HAD-MUSLIM-1124 saves three complete reports as private French drafts. Two reports with embedded Quran quotations and one transmission variant remain blank with specific Needs Mo reasons. No database write or publication occurred.
