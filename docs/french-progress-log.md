@@ -3836,3 +3836,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-784` saves four private French drafts. Hadith 4322 and 4324 remain blank because their source phrases are unclear; both holds are recorded for Mo.
 - All six records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,815 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 317. Total local hadith rows not drafted: 10,842, including held records.
+
+### 2026-10-29: Bukhari 4328–4333
+
+- `FR-LIB-HAD-BUKHARI-785` saves six private French drafts about the events at al-Jiʿrâna, the ʿumra question, and the Anṣâr.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,821 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 317. Total local hadith rows not drafted: 10,836, including held records.
