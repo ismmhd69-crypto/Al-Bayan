@@ -15340,6 +15340,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-698",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-698.json",
+      "sourceIds": ["f91cc7f8-e9ed-462c-9393-dec20bf88fde"],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished single-item long-text draft passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15470,7 +15485,7 @@
       "reason": "The long local report directly quotes Quran 9:108. It remains blank in FR-LIB-HAD-BUKHARI-696 until an approved, attributed French Quran translation is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 3482,
-  "hadithLocalDrafted": 3482,
-  "hadithLocalRemaining": 11175
+  "hadithBukhariDrafted": 3483,
+  "hadithLocalDrafted": 3483,
+  "hadithLocalRemaining": 11174
 }

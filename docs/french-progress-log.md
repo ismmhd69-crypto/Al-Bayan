@@ -3401,3 +3401,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-697` saves four private French drafts about Asmâ’, Surâqa and the emigration to Medina.
 - All four records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,482 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 260. Total local hadith rows not drafted: 11,175, including held records.
+
+### 2026-10-29: Bukhari 3911
+
+- `FR-LIB-HAD-BUKHARI-698` saves one private French draft of the long report about the arrival in Medina and ʿAbd Allâh ibn Salâm.
+- The record passed the focused validator for its Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,483 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 260. Total local hadith rows not drafted: 11,174, including held records.
