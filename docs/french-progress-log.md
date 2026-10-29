@@ -3506,3 +3506,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-718` saves one private French draft of the long report about ʿAlî’s camels and his marriage preparations with Fâtima.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,552 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 278. Total local hadith rows not drafted: 11,105, including held records.
+
+### 2026-10-29: Bukhari 4004–4009
+
+- `FR-LIB-HAD-BUKHARI-719` saves five private French drafts. Hadith 4009 remains blank because its local source ends before the report continues.
+- All six records passed the focused validator, including the incomplete-source hold. No database writes or publication occurred. Bukhari local drafts: 3,557 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 279. Total local hadith rows not drafted: 11,100, including held records.

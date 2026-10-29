@@ -15652,6 +15652,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-719",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-719.json",
+      "sourceIds": ["de2c4b20-759c-48c7-9d79-6422c3db6c54", "5485e39f-5470-4c50-944f-947079ea1971", "613fe1da-fd61-4390-ad7b-b8badc799350", "9dfd4c8a-2da9-437b-b94f-ce8b8b495802", "60b9f756-e3a9-4ca0-94db-493f7e2d5fa0", "21b79b17-879e-4dd1-a40c-5d87865e764b"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; one truncated source record remains blank with a reason-specific hold",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15893,6 +15908,13 @@
       "scope": "Sahih al-Bukhari 4000: direct quotation of Quran 33:5",
       "status": "blocked",
       "reason": "The report directly quotes Quran 33:5. It remains blank in FR-LIB-HAD-BUKHARI-716 until an approved, attributed French Quran translation is confirmed."
+    }
+,
+    {
+      "id": "HADITH-BUKHARI-4009-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 4009: record ends before the report continues",
+      "status": "blocked",
+      "reason": "The local source record ends after saying ʿItbân ibn Mâlik came to the Messenger of God, without the rest of the report. The full record remains blank in FR-LIB-HAD-BUKHARI-719 pending confirmation of the complete source text."
     }
   ],
   "hadithBukhariDrafted": 3524,
