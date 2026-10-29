@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 1162,
+    "hadithBukhariDrafted": 1167,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 1162,
+    "hadithLocalDrafted": 1167,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 13467,
-    "hadithNeedsMo": 59,
+    "hadithLocalRemaining": 13462,
+    "hadithNeedsMo": 60,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -2556,6 +2556,20 @@
       "status": "six private local AI drafts"
     },
     {
+      "id": "FR-LIB-HAD-BUKHARI-219",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-219.json",
+      "sourceIds": ["9b6cc6eb-2752-41a7-b6e3-7690c926ce04", "b84cae92-f4ce-4ae2-bc18-60c2a96facd9", "8d9b6809-04ee-4e7a-a021-174cb81fa75b", "7e74efa6-1f82-42ad-a983-5de58b7630cc", "28375b52-02fa-4ef6-8c3b-c0905345a6d4", "6884d0b5-3650-4471-8dd1-b3958edee19e"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, rights, private unpublished state and reason-specific damaged-source hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private local AI drafts; Bukhari 1261 held for damaged source wording"
+    },
+    {
       "id": "FR-LIB-HAD-BUKHARI-203",
       "contentType": "hadith",
       "language": "fr",
@@ -4223,6 +4237,12 @@
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
       "reason": "The exact food-related referent of مِرْمَاتَيْنِ is not confirmed from the local Arabic record. The full report remains blank in private batch FR-LIB-HAD-BUKHARI-116 until its meaning can be checked."
+    },
+    {
+      "id": "HADITH-BUKHARI-1261-ISHAAR-TEXT",
+      "scope": "Sahih al-Bukhari 1261: closing explanation of الإشعار",
+      "status": "blocked",
+      "reason": "The local Arabic source ends with the damaged wording الففنه. Keep the entire report blank in private batch FR-LIB-HAD-BUKHARI-219 until this phrase is confirmed."
     },
     {
       "id": "RAMADAN-IFTAR-DUA-REFERENCE",
