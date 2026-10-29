@@ -1627,3 +1627,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-343` saves six private French drafts for Bukhari 2001–2006, covering reports about the fast of ‘Âshûrâ’. Transmission chains are retained.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,821 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,808, including held records.
+
+### 2026-10-29: Bukhari 2007–2012 source review
+
+- `FR-LIB-HAD-BUKHARI-344` saves six private French drafts for Bukhari 2007–2012, including the reports on ‘Âshûrâ’ and congregational night prayers in Ramadan.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,827 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,802, including held records.
