@@ -8081,3 +8081,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0191 contains six reports that quote Quran passages directly. All six French texts remain blank pending an approved, attributed French Quran translation with permitted use.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts remain at 775 Muslim drafts, 7,111 total hadith drafts, and 7,518 remaining; Needs Mo now has 378 items.
+
+### 2026-10-29: Muslim 459–462b
+
+- FR-LIB-HAD-MUSLIM-0192 saves two private French drafts reporting the number of verses recited in the dawn prayer. Muslim 459, 460 and 462a quote Quran wording and remain blank pending an approved, attributed French Quran translation with permitted use. Muslim 462b is an incomplete cross-reference variant and remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 777 Muslim drafts, 7,113 total hadith drafts, 7,516 remaining, and 382 Needs Mo items.
