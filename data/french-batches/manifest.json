@@ -13987,6 +13987,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-629",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-629.json",
+      "sourceIds": [
+        "08bbef1a-30e4-4d03-b236-790cd3bf9bf9"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private hold state passed; full single-item long report retained blank",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -14074,6 +14090,12 @@
       "scope": "Sahih al-Bukhari 3541: phrase إن ابن أختي وقع",
       "status": "blocked",
       "reason": "The local Arabic phrase is ambiguous and appears damaged. The full report remains blank in FR-LIB-HAD-BUKHARI-619 until the exact wording is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3581-ARAFAT",
+      "scope": "Sahih al-Bukhari 3581: final narrator variant فعرفنا من العرافة",
+      "status": "blocked",
+      "reason": "The final narrator variant is unclear in the local Arabic record. The full report remains blank in FR-LIB-HAD-BUKHARI-629 until its wording and referent are confirmed."
     }  ],
   "hadithBukhariDrafted": 3196,
   "hadithLocalDrafted": 3196,
