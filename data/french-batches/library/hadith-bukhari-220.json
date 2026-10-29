@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-220",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:10:22.179Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "09857d72-9581-42f9-ba28-1d8cc7e05a8a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1267",
+      "reference": "Sahih al-Bukhari, hadith 1267, book 23, باب كَيْفَ يُكَفَّنُ الْمُحْرِمُ",
+      "title": "باب كَيْفَ يُكَفَّنُ الْمُحْرِمُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو النُّعْمَانِ، أَخْبَرَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهم ـ أَنَّ رَجُلاً، وَقَصَهُ بَعِيرُهُ، وَنَحْنُ مَعَ النَّبِيِّ صلى الله عليه وسلم وَهْوَ مُحْرِمٌ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اغْسِلُوهُ بِمَاءٍ وَسِدْرٍ، وَكَفِّنُوهُ فِي ثَوْبَيْنِ، وَلاَ تُمِسُّوهُ طِيبًا، وَلاَ تُخَمِّرُوا رَأْسَهُ، فَإِنَّ اللَّهَ يَبْعَثُهُ يَوْمَ الْقِيَامَةِ مُلَبِّدًا ‏\"‏‏.‏",
+      "source_hash_sha256": "2576c230d12c3f36a35a6bece920853c96a72cbd128fe867c42b0e6800b97fc0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Nu‘man nous a rapporté : Abu Awana nous a informés, d’après Abu Bishr, d’après Saïd ibn Jubayr, d’après Ibn Abbas, qu’Allah les agrée, qui dit : « Un homme dont le chameau avait brisé la nuque se trouvait avec nous auprès du Prophète ﷺ alors qu’il était en état de sacralisation. Le Prophète ﷺ dit : “Lavez-le avec de l’eau et des feuilles de jujubier, enveloppez-le dans deux étoffes, ne le parfumez pas et ne lui couvrez pas la tête, car Allah le ressuscitera le Jour de la Résurrection avec les cheveux agglutinés.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6e12140a-32d9-4e65-85ab-f5be1363b7bd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1268",
+      "reference": "Sahih al-Bukhari, hadith 1268, book 23, باب كَيْفَ يُكَفَّنُ الْمُحْرِمُ",
+      "title": "باب كَيْفَ يُكَفَّنُ الْمُحْرِمُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ عَمْرٍو، وَأَيُّوبَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهم ـ قَالَ كَانَ رَجُلٌ وَاقِفٌ مَعَ النَّبِيِّ صلى الله عليه وسلم بِعَرَفَةَ فَوَقَعَ عَنْ رَاحِلَتِهِ ـ قَالَ أَيُّوبُ فَوَقَصَتْهُ، وَقَالَ عَمْرٌو فَأَقْصَعَتْهُ ـ فَمَاتَ فَقَالَ ‏\"‏ اغْسِلُوهُ بِمَاءٍ وَسِدْرٍ، وَكَفِّنُوهُ فِي ثَوْبَيْنِ، وَلاَ تُحَنِّطُوهُ وَلاَ تُخَمِّرُوا رَأْسَهُ، فَإِنَّهُ يُبْعَثُ يَوْمَ الْقِيَامَةِ ـ قَالَ أَيُّوبُ يُلَبِّي، وَقَالَ عَمْرٌو ـ مُلَبِّيًا ‏\"‏‏.‏",
+      "source_hash_sha256": "6e8b2bf43423f7a2fad21bb8db3086e77f59c6cdfc2cb050b4709a49e8ca4359",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Hammad ibn Zayd nous a rapporté, d’après Amr et Ayyub, d’après Saïd ibn Jubayr, d’après Ibn Abbas, qu’Allah les agrée, qui dit : « Un homme se tenait auprès du Prophète ﷺ à Arafat lorsqu’il tomba de sa monture. Ayyub rapporte que sa monture lui brisa la nuque, tandis qu’Amr rapporte qu’elle le tua. Il mourut. Le Prophète ﷺ dit : “Lavez-le avec de l’eau et des feuilles de jujubier, enveloppez-le dans deux étoffes, ne le parfumez pas et ne lui couvrez pas la tête, car il sera ressuscité le Jour de la Résurrection.” » Ayyub rapporte : « Il récitera la talbiya », tandis qu’Amr rapporte : « en récitant la talbiya ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b401147c-2428-4fac-aa0d-41f37c7fcfc2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1269",
+      "reference": "Sahih al-Bukhari, hadith 1269, book 23, باب الْكَفَنِ فِي الْقَمِيصِ الَّذِي يُكَفُّ أَوْ لاَ يُكَفُّ ، وَمَنْ كُفِّنَ بِغَيْرِ قَمِيصٍ",
+      "title": "باب الْكَفَنِ فِي الْقَمِيصِ الَّذِي يُكَفُّ أَوْ لاَ يُكَفُّ ، وَمَنْ كُفِّنَ بِغَيْرِ قَمِيصٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عُبَيْدِ اللَّهِ، قَالَ حَدَّثَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ أَنَّ عَبْدَ، اللَّهِ بْنَ أُبَىٍّ لَمَّا تُوُفِّيَ جَاءَ ابْنُهُ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ أَعْطِنِي قَمِيصَكَ أُكَفِّنْهُ فِيهِ، وَصَلِّ عَلَيْهِ وَاسْتَغْفِرْ لَهُ، فَأَعْطَاهُ النَّبِيُّ صلى الله عليه وسلم قَمِيصَهُ فَقَالَ ‏\"‏ آذِنِّي أُصَلِّي عَلَيْهِ ‏\"‏‏.‏ فَآذَنَهُ، فَلَمَّا أَرَادَ أَنْ يُصَلِّيَ عَلَيْهِ جَذَبَهُ عُمَرُ ـ رضى الله عنه ـ فَقَالَ أَلَيْسَ اللَّهُ نَهَاكَ أَنْ تُصَلِّيَ عَلَى الْمُنَافِقِينَ فَقَالَ ‏\"‏ أَنَا بَيْنَ خِيرَتَيْنِ قَالَ ‏[quran sura=\"9\" aya_start=\"80\" aya_end=\"80\"]{‏اسْتَغْفِرْ لَهُمْ أَوْ لاَ تَسْتَغْفِرْ لَهُمْ إِنْ تَسْتَغْفِرْ لَهُمْ سَبْعِينَ مَرَّةً فَلَنْ يَغْفِرَ اللَّهُ لَهُمْ‏}‏ ‏\"‏‏.‏ فَصَلَّى عَلَيْهِ فَنَزَلَتْ ‏[quran sura=\"9\" aya_start=\"84\" aya_end=\"84\"]{‏وَلاَ تُصَلِّ عَلَى أَحَدٍ مِنْهُمْ مَاتَ أَبَدًا‏}‏",
+      "source_hash_sha256": "091c5062a8deac2f5a913f207bd02a356418efc597b2f6a566b2c2c71e4530b8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "74dc93cf-4487-435e-b6ce-cfac6f4aeec9",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1270",
+      "reference": "Sahih al-Bukhari, hadith 1270, book 23, باب الْكَفَنِ فِي الْقَمِيصِ الَّذِي يُكَفُّ أَوْ لاَ يُكَفُّ ، وَمَنْ كُفِّنَ بِغَيْرِ قَمِيصٍ",
+      "title": "باب الْكَفَنِ فِي الْقَمِيصِ الَّذِي يُكَفُّ أَوْ لاَ يُكَفُّ ، وَمَنْ كُفِّنَ بِغَيْرِ قَمِيصٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مَالِكُ بْنُ إِسْمَاعِيلَ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنْ عَمْرٍو، سَمِعَ جَابِرًا ـ رضى الله عنه ـ قَالَ أَتَى النَّبِيُّ صلى الله عليه وسلم عَبْدَ اللَّهِ بْنَ أُبَىٍّ بَعْدَ مَا دُفِنَ فَأَخْرَجَهُ، فَنَفَثَ فِيهِ مِنْ رِيقِهِ وَأَلْبَسَهُ قَمِيصَهُ‏.‏",
+      "source_hash_sha256": "7e56b71028fe85e16656af07a119f240356239eb778e446eba266bbc96b7a72f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Malik ibn Ismail nous a rapporté : Ibn Uyayna nous a rapporté, d’après Amr, qui dit : J’ai entendu Jabir, qu’Allah l’agrée, dire : « Le Prophète ﷺ se rendit auprès d’Abd Allah ibn Ubayy après son enterrement. Il le fit sortir, souffla sur lui avec un peu de sa salive et le revêtit de sa tunique. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "420ec299-a21d-4a67-9bf8-6861cf955821",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1271",
+      "reference": "Sahih al-Bukhari, hadith 1271, book 23, باب الْكَفَنِ بِغَيْرِ قَمِيصٍ",
+      "title": "باب الْكَفَنِ بِغَيْرِ قَمِيصٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنْ هِشَامٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كُفِّنَ النَّبِيُّ صلى الله عليه وسلم فِي ثَلاَثَةِ أَثْوَابِ سَحُولَ كُرْسُفٍ، لَيْسَ فِيهَا قَمِيصٌ وَلاَ عِمَامَةٌ‏.‏",
+      "source_hash_sha256": "92e91d30bb99f643b6de0e8a48a5b486e30a726508c5d9bb41dd4463e3c8d1dc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Nuaym nous a rapporté : Sufyan nous a rapporté, d’après Hisham, d’après Urwa, d’après Aïcha, qu’Allah l’agrée, qui dit : « Le Prophète ﷺ fut enveloppé dans trois étoffes en coton de type sahuli, sans tunique ni turban. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2638931b-3265-4bbf-8e16-85d012b3e5e3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1272",
+      "reference": "Sahih al-Bukhari, hadith 1272, book 23, باب الْكَفَنِ بِغَيْرِ قَمِيصٍ",
+      "title": "باب الْكَفَنِ بِغَيْرِ قَمِيصٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ هِشَامٍ، حَدَّثَنِي أَبِي، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كُفِّنَ فِي ثَلاَثَةِ أَثْوَابٍ، لَيْسَ فِيهَا قَمِيصٌ وَلاَ عِمَامَةٌ‏.‏",
+      "source_hash_sha256": "2f5eef5bf7900eda3980aa0b94099e88d605818313d918c5fae8b7c5b9f8d265",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Yahya nous a rapporté, d’après Hisham, qui dit : mon père m’a rapporté, d’après Aïcha, qu’Allah l’agrée : « Le Messager d’Allah ﷺ fut enveloppé dans trois étoffes, sans tunique ni turban. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b401147c-2428-4fac-aa0d-41f37c7fcfc2",
+      "reason": "This report directly quotes parts of Quran 9:80 and Quran 9:84. Keep the entire report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
