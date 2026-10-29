@@ -54,7 +54,18 @@
     "preparedAnswersRemaining": 0,
     "preparedAnswersDraftFiles": "data/french-batches/prepared-answers-*.json",
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
-    "hardcodedVisitorCopyDrafted": 24
+    "hardcodedVisitorCopyDrafted": 24,
+    "hadithHumanReviewed": 0,
+    "hadithBukhariDrafted": 2,
+    "hadithMuslimDrafted": 0,
+    "hadithDatabaseInserted": 0,
+    "hadithMuslimTotal": 7366,
+    "hadithBukhariTotal": 7263,
+    "hadithLocalDrafted": 2,
+    "hadithDatabaseMissing": 14629,
+    "hadithLocalRemaining": 14627,
+    "hadithPublished": 0,
+    "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
   "batches": [
     {
@@ -732,6 +743,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-001",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-001.json",
+      "sourceIds": [
+        "09c17088-3041-4121-af6a-3858bbfe2d4d",
+        "8d51995a-4d75-4e55-8ef0-00ba56262b9a"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "exact Arabic source hashes, identifiers, URLs, references, publication state, source rights, and French text passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local AI draft"
     }
   ],
   "blockers": [
@@ -740,6 +768,12 @@
       "scope": "all Supabase source translations",
       "status": "blocked",
       "reason": "The live public.source_translations.lang constraint only accepts ar, en, and de. Adding fr requires a schema change, which is explicitly prohibited. No French database rows have been written."
+    },
+    {
+      "id": "SUNNAH-FR-TRANSLATION-INDEX",
+      "scope": "Sahih al-Bukhari and Sahih Muslim source rows from sunnah.com",
+      "status": "blocked",
+      "reason": "Live editorial.source_rights metadata permits AI processing but sets translation_index_allowed=false. Keep French drafts in private local files; do not insert them into source_translations or publish them."
     }
   ]
 }

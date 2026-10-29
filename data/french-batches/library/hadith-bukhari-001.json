@@ -1,0 +1,57 @@
+{
+  "batch_id": "HADITH-BUKHARI-001",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T01:34:58.542Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "09c17088-3041-4121-af6a-3858bbfe2d4d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1",
+      "reference": "Sahih al-Bukhari, hadith 1, book 1, باب كَيْفَ كَانَ بَدْءُ الْوَحْىِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "title": "باب كَيْفَ كَانَ بَدْءُ الْوَحْىِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ الأَنْصَارِيُّ، قَالَ أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِيُّ، أَنَّهُ سَمِعَ عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ، يَقُولُ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ ـ رضى الله عنه ـ عَلَى الْمِنْبَرِ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى دُنْيَا يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "506e037c20bff0f6992e68b13f6837a51a6c0352a31ba86fe50eaa78b6e3ff23",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Humaydi, ‘Abd Allah ibn al-Zubayr, nous a rapporté. Il a dit : Sufyan nous a rapporté ; il a dit : Yahya ibn Sa‘id al-Ansari nous a rapporté ; il a dit : Muhammad ibn Ibrahim al-Taymi m’a informé qu’il avait entendu ‘Alqama ibn Waqqas al-Laythi dire : « J’ai entendu ‘Umar ibn al-Khattab (qu’Allah l’agrée), alors qu’il était sur le minbar, dire : “J’ai entendu le Messager d’Allah ﷺ dire : ‘Les actes ne valent que par les intentions, et chacun n’aura que ce qu’il a eu l’intention de faire. Celui dont l’émigration vise un bien de ce bas monde qu’il obtiendra, ou une femme qu’il épousera, son émigration sera pour ce en vue de quoi il a émigré.’” »",
+      "draft_status": "missing_translation_private_local_draft",
+      "database_inserted": false
+    },
+    {
+      "source_id": "8d51995a-4d75-4e55-8ef0-00ba56262b9a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2",
+      "reference": "Sahih al-Bukhari, hadith 2, book 1, كتاب بدء الوحى",
+      "title": "كتاب بدء الوحى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ أَخْبَرَنَا مَالِكٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ ـ رضى الله عنها ـ أَنَّ الْحَارِثَ بْنَ هِشَامٍ ـ رضى الله عنه ـ سَأَلَ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ كَيْفَ يَأْتِيكَ الْوَحْىُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَحْيَانًا يَأْتِينِي مِثْلَ صَلْصَلَةِ الْجَرَسِ ـ وَهُوَ أَشَدُّهُ عَلَىَّ ـ فَيُفْصَمُ عَنِّي وَقَدْ وَعَيْتُ عَنْهُ مَا قَالَ، وَأَحْيَانًا يَتَمَثَّلُ لِيَ الْمَلَكُ رَجُلاً فَيُكَلِّمُنِي فَأَعِي مَا يَقُولُ ‏\"‏‏.‏ قَالَتْ عَائِشَةُ رضى الله عنها وَلَقَدْ رَأَيْتُهُ يَنْزِلُ عَلَيْهِ الْوَحْىُ فِي الْيَوْمِ الشَّدِيدِ الْبَرْدِ، فَيَفْصِمُ عَنْهُ وَإِنَّ جَبِينَهُ لَيَتَفَصَّدُ عَرَقًا‏.‏",
+      "source_hash_sha256": "ee37f8528609a66c3ec389b99a3e3ca16308c3f495bf60d2bdbf292ad5ba82db",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Yusuf nous a rapporté. Il a dit : Malik nous a informés, d’après Hisham ibn ‘Urwa, d’après son père, d’après ‘Aïcha, Mère des croyants (qu’Allah l’agrée), qu’al-Harith ibn Hisham demanda au Messager d’Allah : « Ô Messager d’Allah, comment la révélation vous parvient-elle ? » Le Messager d’Allah répondit : « Parfois, elle me vient comme le tintement d’une cloche. C’est alors ce qui m’est le plus pénible ; puis elle cesse et j’ai retenu ce qu’elle disait. Parfois, l’ange se présente à moi sous une apparence humaine et me parle ; je comprends alors ce qu’il dit. » ‘Aïcha ajouta : « Je l’ai vu recevoir la révélation alors que le jour était extrêmement froid. Lorsqu’elle cessait, son front ruisselait de sueur. »",
+      "draft_status": "missing_translation_private_local_draft",
+      "database_inserted": false
+    }
+  ],
+  "needs_mo": []
+}

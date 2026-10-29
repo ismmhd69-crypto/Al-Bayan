@@ -84,3 +84,13 @@ Scope: private local preparation only. French remains absent from public locale 
 - Reader cards say that approved Quran French and saved French library translations are unavailable. No Quran translation was generated. French records remain unavailable from Supabase because the current language constraint still blocks `fr` and schema changes are forbidden.
 - The hard-coded visitor-copy audit is still incomplete. In particular, audio controls, reader accessibility labels, and Ask progress copy outside the prepared French status strings need a full sweep before website coverage can be called complete.
 - Hard-coded visitor-copy batch `hardcoded-copy-001.json` adds French versions of 24 strings in the home gateways, audio controls, reader navigation/accessibility labels, and Quran unavailable/error states. Source-file presence, unique IDs, nonempty copy, and `{rate}` placeholder parity passed. The private preview shows these drafts; the full hard-coded copy audit remains in progress, with additional Ask and reader text still to inventory.
+
+### Phase 4: Hadith library, local drafts
+
+| Batch | Source IDs | Translated | Inserted | Preserved | Validation | Remaining local drafts | Status |
+|---|---|---:|---:|---:|---|---:|---|
+| FR-LIB-HAD-BUKHARI-001 | `09c17088-3041-4121-af6a-3858bbfe2d4d` (Bukhari 1), `8d51995a-4d75-4e55-8ef0-00ba56262b9a` (Bukhari 2) | 2 | 0 | 0 | Source IDs and SHA-256 hashes, original text, references, publication state, permissions, and nonempty French passed; each narration reread against Arabic | 14,627 | Private local AI drafts; unpublished; no human review |
+
+- The live source rows were read from project `jnietkyxgnocyizvjiel`; both had no French translation row at export time and are published sources. Their `sunnah.com` rights record has `status=granted` and `ai_processing_allowed=true`, while `translation_index_allowed=false`. The drafts therefore remain private local files and are not submitted to the database.
+- The live `source_translations.lang` check still permits only `ar`, `en`, and `de`. French database insertions remain at zero; all 14,629 hadith translations are still missing in the database even when a local draft exists.
+- Hadiths containing embedded Quran quotations are held for an approved attributed French Quran source. The current application Quran source list contains English and German only; no French Quran text was generated or saved.
