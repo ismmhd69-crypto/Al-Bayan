@@ -1004,3 +1004,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-206` saves one private French draft for the combined Bukhari 1185–1186 report. It preserves the full account of Itban ibn Malik’s request, the prayer at his home, the comments about Malik, and Mahmoud’s later confirmation from Itban.
 - The single-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,094 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,535, including held records.
+### 2026-10-29: Bukhari 1187–1193 source review
+
+- `FR-LIB-HAD-BUKHARI-207` saves six private French drafts for Bukhari 1187–1193, including the brief Bukhari 1188 wording as it appears in the source. They preserve the reports about prayer at home, the two holy mosques, and visits to Quba.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,100 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,529, including held records.
