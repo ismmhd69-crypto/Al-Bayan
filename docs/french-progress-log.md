@@ -9846,3 +9846,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0543 saves five private French drafts about tamattu and reports on its status among the Companions. Muslim 1223b contains only a transmission-chain cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1225a–1226c
+
+- FR-LIB-HAD-MUSLIM-0544 saves three private French drafts about the tamattu rites. Muslim 1225b–c and 1226b are abbreviated variants without the full report; all three remain blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
