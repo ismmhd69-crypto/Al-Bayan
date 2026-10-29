@@ -10221,3 +10221,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0618 saves five private French drafts about Mount Uhud and the merits of prayer in the Prophet’s mosque. Muslim 1392c only provides a variant account by reference to the preceding report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1394d–1395d
+
+- FR-LIB-HAD-MUSLIM-0619 saves two private French drafts about the merit of prayer in the Prophet’s mosque. Muslim 1394e and 1395b–d contain only a chain or references to prior wording and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

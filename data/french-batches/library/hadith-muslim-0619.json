@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0619",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:30:17.476Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "10f7aece-ee8d-4548-84e8-721f749d9cf7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1394d",
+      "reference": "Sahih Muslim, hadith 1394 d, book 15, باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "title": "باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ أَبِي عُمَرَ، جَمِيعًا عَنِ الثَّقَفِيِّ، - قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا عَبْدُ الْوَهَّابِ، - قَالَ سَمِعْتُ يَحْيَى بْنَ سَعِيدٍ، يَقُولُ سَأَلْتُ أَبَا صَالِحٍ هَلْ سَمِعْتَ أَبَا هُرَيْرَةَ، يَذْكُرُ فَضْلَ الصَّلاَةِ فِي مَسْجِدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ لاَ وَلَكِنْ أَخْبَرَنِي عَبْدُ اللَّهِ بْنُ إِبْرَاهِيمَ بْنِ قَارِظٍ أَنَّهُ سَمِعَ أَبَا هُرَيْرَةَ يُحَدِّثُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ صَلاَةٌ فِي مَسْجِدِي هَذَا خَيْرٌ مِنْ أَلْفِ صَلاَةٍ - أَوْ كَأَلْفِ صَلاَةٍ - فِيمَا سِوَاهُ مِنَ الْمَسَاجِدِ إِلاَّ أَنْ يَكُونَ الْمَسْجِدَ الْحَرَامَ ‏\"‏ ‏.",
+      "source_hash_sha256": "8cc0f5c721a01fd1ce1a1b8acba11d0d0dcdff5248bcdec2ea6051095528584c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Sa‘id rapporte qu’il demanda à Abu Salih : « As-tu entendu Abu Hurayra mentionner le mérite de la prière dans la mosquée du Messager d’Allah ﷺ ? » Il répondit : « Non. Mais Abd Allah ibn Ibrahim ibn Qariz m’a rapporté avoir entendu Abu Hurayra dire que le Messager d’Allah ﷺ a dit : “Une prière accomplie dans cette mosquée qui est la mienne vaut — ou équivaut à — mille prières accomplies dans toute autre mosquée, sauf dans la Mosquée sacrée.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2a870160-2c90-42cb-a222-ecc0d8aea1eb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1394e",
+      "reference": "Sahih Muslim, hadith 1394 e, book 15, باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "title": "باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، وَمُحَمَّدُ بْنُ حَاتِمٍ، قَالُوا حَدَّثَنَا يَحْيَى، الْقَطَّانُ عَنْ يَحْيَى بْنِ سَعِيدٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "1db900532352c4cca3c187a1faa0d214f2f3b5d53ae99fab22cec9d28ce640a2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f9973638-6554-47f1-b965-c9d18fb40503",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1395a",
+      "reference": "Sahih Muslim, hadith 1395 a, book 15, باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "title": "باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، قَالَ أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ صَلاَةٌ فِي مَسْجِدِي هَذَا أَفْضَلُ مِنْ أَلْفِ صَلاَةٍ فِيمَا سِوَاهُ إِلاَّ الْمَسْجِدَ الْحَرَامَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "caf8692d41117d069e8fc232876279e44333986d0753ea8d5c75a3c7006c08d3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Prophète ﷺ a dit : « Une prière accomplie dans cette mosquée qui est la mienne vaut mieux que mille prières accomplies ailleurs, à l’exception de la Mosquée sacrée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c79b8b45-b6a7-408a-a963-cdc7813d50c8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1395b",
+      "reference": "Sahih Muslim, hadith 1395 b, book 15, باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "title": "باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ نُمَيْرٍ، وَأَبُو أُسَامَةَ ح وَحَدَّثَنَاهُ ابْنُ، نُمَيْرٍ حَدَّثَنَا أَبِي ح، وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الْوَهَّابِ، كُلُّهُمْ عَنْ عُبَيْدِ اللَّهِ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "e1c3ddbd810fdbfa162b3441c29d855511e2716d1a3ee896a8d3c71083d5f3dc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d45d11d6-7f42-4266-af82-ce0e72feb093",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1395c",
+      "reference": "Sahih Muslim, hadith 1395 c, book 15, باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "title": "باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا ابْنُ أَبِي زَائِدَةَ، عَنْ مُوسَى الْجُهَنِيِّ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "a9722fb5a93990eaaab21e562ba7c618a101a3a760da98c99fefa987c886c832",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8543d664-fb05-4987-8d08-b2fd7ad9481d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1395d",
+      "reference": "Sahih Muslim, hadith 1395 d, book 15, باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "title": "باب فَضْلِ الصَّلاَةِ بِمَسْجِدَىْ مَكَّةَ وَالْمَدِينَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ ابْنُ أَبِي عُمَرَ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ أَيُّوبَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "833fbe0929fb4ead5edeabca3a77027378ebe82a94cc7e8d2fa5a78d9cfac694",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "2a870160-2c90-42cb-a222-ecc0d8aea1eb",
+      "reason": "Cette entrée ne reproduit pas le récit et ne fournit que la chaîne de transmission ou un renvoi au précédent (« بِهَذَا الإِسْنَادِ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "c79b8b45-b6a7-408a-a963-cdc7813d50c8",
+      "reason": "Cette entrée ne reproduit pas le récit et ne fournit que la chaîne de transmission ou un renvoi au précédent (« بِهَذَا الإِسْنَادِ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "d45d11d6-7f42-4266-af82-ce0e72feb093",
+      "reason": "Cette entrée ne reproduit pas le récit et ne fournit que la chaîne de transmission ou un renvoi au précédent (« بِهَذَا الإِسْنَادِ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "8543d664-fb05-4987-8d08-b2fd7ad9481d",
+      "reason": "Cette entrée ne reproduit pas le récit et ne fournit que la chaîne de transmission ou un renvoi au précédent (« بِهَذَا الإِسْنَادِ » / « بِمِثْلِهِ »). Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
