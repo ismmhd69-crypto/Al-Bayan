@@ -3091,3 +3091,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-635` saves one private French draft about serenity accompanying Quran recitation.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,224 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 233. Total local hadith rows not drafted: 11,433, including held records.
+
+### 2026-10-29: Bukhari 3615 long report
+
+- `FR-LIB-HAD-BUKHARI-636` keeps the long Hijra account blank because it contains the Quran 9:40 wording “Do not grieve; God is with us.” No approved, attributed French Quran translation is confirmed.
+- The record passed the focused validator with its Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,224 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 234. Total local hadith rows not drafted: 11,433, including held records.
