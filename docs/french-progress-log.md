@@ -8106,3 +8106,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0196 saves six private French drafts about prayer duration, responding to a child’s crying, and the proportions of the Prophet’s prayer. All six source entries include report wording.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 793 Muslim drafts, 7,129 total hadith drafts, 7,500 remaining, and 390 Needs Mo items.
+
+### 2026-10-29: Muslim 471c–474c
+
+- FR-LIB-HAD-MUSLIM-0197 saves five private French drafts about the pauses and timing of prayer movements. Muslim 471c only says that the earlier report continues, so it remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 798 Muslim drafts, 7,134 total hadith drafts, 7,495 remaining, and 391 Needs Mo items.
