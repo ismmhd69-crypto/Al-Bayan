@@ -36463,6 +36463,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0360",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0360.json",
+      "sourceIds": [
+        "4309f436-49a2-4411-859d-9d65f6bb4010",
+        "4e18a1d1-b962-40c9-8889-925a6c47587a",
+        "c746d831-b5af-498c-98e8-8cd6a38ca4e4",
+        "d8550f2c-89b2-48f8-a07a-45931f9ffa0e",
+        "d497b360-fb63-453d-9d38-c8b2c735cc24",
+        "f4956cfc-a304-41cc-8790-0df4e47102ec"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; two incomplete cross-references held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40770,8 +40791,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7764,
-  "hadithLocalRemaining": 6865,
+  "hadithLocalDrafted": 7768,
+  "hadithLocalRemaining": 6861,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43376,10 +43397,22 @@
       "scope": "Sahih Muslim 839b: abbreviated cross-reference",
       "status": "blocked",
       "reason": "La source renvoie au récit précédent sur la prière en situation de peur et ne donne qu’une formule sommaire sans reproduire son contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0360-843D-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 843D: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent en indiquant seulement qu’il est semblable, sans en reprendre le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0360-843E-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 843E: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source donne uniquement le sens général du récit précédent et précise une omission, sans reproduire son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1428,
+  "hadithMuslimDrafted": 1432,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 670
+  "hadithNeedsMo": 672
 }
