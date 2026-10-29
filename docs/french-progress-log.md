@@ -7503,3 +7503,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0079 records both items as Needs Mo. Hadith 176b quotes Quran 53:11 and 53:13; 176c contains only a chain that points to another report and has no hadith text.
 - Both source hashes are retained and the focused validator passed. Draft counts remain Bukhari 6,336 and Muslim 340 (6,676 total drafts, 7,953 hadith rows not drafted). Hadith Needs Mo: 215. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 177a
+
+- FR-LIB-HAD-MUSLIM-0080 exports this 2,089-character report as a single-item batch. It directly quotes several Quran verses, so the entire French translation remains blank and is recorded under Needs Mo.
+- The source hash and focused validation are retained. Draft counts remain Bukhari 6,336 and Muslim 340 (6,676 total drafts, 7,953 hadith rows not drafted). Hadith Needs Mo: 216. No database writes or publication occurred.

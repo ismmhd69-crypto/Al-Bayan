@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:20:53.716Z",
+  "lastReconciled": "2026-10-29T14:21:08.915Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6676,
     "hadithDatabaseMissing": 7953,
     "hadithLocalRemaining": 7953,
-    "hadithNeedsMo": 215,
+    "hadithNeedsMo": 216,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30711,6 +30711,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "blocked"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0080",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0080.json",
+      "sourceIds": [
+        "e84c658d-e133-42d5-8841-ca7b3169d8ca"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; long hadith held blank because it directly quotes multiple Quran verses",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked"
     }
   ],
   "blockers": [
@@ -34859,6 +34875,12 @@
       "scope": "Sahih Muslim 176 c: incomplete Arabic source",
       "status": "blocked",
       "reason": "La source arabe ne contient que la chaîne de transmission et renvoie à ce hadith sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-177A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 177 a: multiple direct Quran quotations",
+      "status": "blocked",
+      "reason": "Ce récit de 2 089 caractères cite directement plusieurs versets du Coran, notamment 81:23, 53:13, 6:103, 42:51, 5:67 et 27:65. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
@@ -36154,10 +36176,16 @@
       "scope": "Sahih Muslim 176 c: incomplete Arabic source",
       "status": "blocked",
       "reason": "La source arabe ne contient que la chaîne de transmission et renvoie à ce hadith sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-177A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 177 a: multiple direct Quran quotations",
+      "status": "blocked",
+      "reason": "Ce récit de 2 089 caractères cite directement plusieurs versets du Coran, notamment 81:23, 53:13, 6:103, 42:51, 5:67 et 27:65. Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
     }
   ],
   "hadithMuslimDrafted": 340,
   "hadithDatabaseMissing": 7953,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 215
+  "hadithNeedsMo": 216
 }
