@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0467",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:30:03.707Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2b79b275-afd3-45c6-a1f0-9438ce4512f8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1082b",
+      "reference": "Sahih Muslim, hadith 1082 b, book 13, باب لاَ تَقَدَّمُوا رَمَضَانَ بِصَوْمِ يَوْمٍ وَلاَ يَوْمَيْنِ ‏‏",
+      "title": "باب لاَ تَقَدَّمُوا رَمَضَانَ بِصَوْمِ يَوْمٍ وَلاَ يَوْمَيْنِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ بِشْرٍ الْحَرِيرِيُّ، حَدَّثَنَا مُعَاوِيَةُ، - يَعْنِي ابْنَ سَلاَّمٍ ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا أَبُو عَامِرٍ، حَدَّثَنَا هِشَامٌ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ أَبِي عُمَرَ، قَالاَ حَدَّثَنَا عَبْدُ الْوَهَّابِ بْنُ عَبْدِ الْمَجِيدِ، حَدَّثَنَا أَيُّوبُ، ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا حُسَيْنُ بْنُ، مُحَمَّدٍ حَدَّثَنَا شَيْبَانُ، كُلُّهُمْ عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "f7f2ceca0673cb13436a735cdc6bbbc153a72903d0c7863c379de5a1792c8ce0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bb9d5b5b-7402-4020-8d93-add1debe91b6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1083",
+      "reference": "Sahih Muslim, hadith 1083, book 13, باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "title": "باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، أَنَّ النَّبِيَّ صلى الله عليه وسلم أَقْسَمَ أَنْ لاَ يَدْخُلَ عَلَى أَزْوَاجِهِ شَهْرًا - قَالَ الزُّهْرِيُّ - فَأَخْبَرَنِي عُرْوَةُ عَنْ عَائِشَةَ - رضى الله عنها - قَالَتْ لَمَّا مَضَتْ تِسْعٌ وَعِشْرُونَ لَيْلَةً أَعُدُّهُنَّ دَخَلَ عَلَىَّ رَسُولُ اللَّهِ صلى الله عليه وسلم - قَالَتْ بَدَأَ بِي - فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّكَ أَقْسَمْتَ أَنْ لاَ تَدْخُلَ عَلَيْنَا شَهْرًا وَإِنَّكَ دَخَلْتَ مِنْ تِسْعٍ وَعِشْرِينَ أَعُدُّهُنَّ فَقَالَ ‏\"‏ إِنَّ الشَّهْرَ تِسْعٌ وَعِشْرُونَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c1b00d485600dff213673a26d4ddc1fd0152413637b75688ffa193cd69f811e1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd ibn Humayd nous a rapporté : ‘Abd al-Razzaq nous a informés : Ma‘mar nous a informés, d’après al-Zuhri, que le Prophète ﷺ avait juré de ne pas entrer chez ses épouses pendant un mois. Al-Zuhri dit : ‘Urwa m’a rapporté, d’après ‘Aisha, qu’Allah l’agrée, qui a dit : après vingt-neuf nuits que j’avais comptées, le Messager d’Allah ﷺ entra chez moi — il commença par moi. Je lui dis : « Messager d’Allah, tu as juré de ne pas entrer chez nous pendant un mois, mais tu es venu après vingt-neuf nuits, que j’avais comptées. » Il répondit : « Le mois compte vingt-neuf jours. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "95caf252-e040-4b75-bae0-0a3b73686975",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1084a",
+      "reference": "Sahih Muslim, hadith 1084 a, book 13, باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "title": "باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا لَيْثٌ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، - رضى الله عنه - أَنَّهُ قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم اعْتَزَلَ نِسَاءَهُ شَهْرًا فَخَرَجَ إِلَيْنَا فِي تِسْعٍ وَعِشْرِينَ فَقُلْنَا إِنَّمَا الْيَوْمُ تِسْعٌ وَعِشْرُونَ ‏.‏ فَقَالَ ‏\"‏ إِنَّمَا الشَّهْرُ ‏\"‏ ‏.‏ وَصَفَّقَ بِيَدَيْهِ ثَلاَثَ مَرَّاتٍ وَحَبَسَ إِصْبَعًا وَاحِدَةً فِي الآخِرَةِ ‏.‏",
+      "source_hash_sha256": "10c9f9783b3e89158872286b00f1a161f9708aa4c7e2e8edb033ae4a66a3b63f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rumh nous a rapporté : al-Layth nous a informés. H. Qutayba ibn Sa‘id nous a rapporté — et voici sa formulation — : Layth nous a rapporté, d’après Abu al-Zubayr, d’après Jabir, qu’Allah l’agrée, qui a dit : le Messager d’Allah ﷺ s’était tenu à l’écart de ses épouses pendant un mois, puis sortit nous rejoindre après vingt-neuf jours. Nous lui dîmes : « Aujourd’hui ne fait que vingt-neuf jours. » Il répondit : « Le mois… » et frappa ses mains trois fois, en repliant un doigt la dernière fois.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c39faac3-aaf4-4ad8-a37c-a15b00f0d9ea",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1084b",
+      "reference": "Sahih Muslim, hadith 1084 b, book 13, باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "title": "باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي هَارُونُ بْنُ عَبْدِ اللَّهِ، وَحَجَّاجُ بْنُ الشَّاعِرِ، قَالاَ حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، قَالَ قَالَ ابْنُ جُرَيْجٍ أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، - رضى الله عنهما - يَقُولُ اعْتَزَلَ النَّبِيُّ صلى الله عليه وسلم نِسَاءَهُ شَهْرًا فَخَرَجَ إِلَيْنَا صَبَاحَ تِسْعٍ وَعِشْرِينَ فَقَالَ بَعْضُ الْقَوْمِ يَا رَسُولَ اللَّهِ إِنَّمَا أَصْبَحْنَا لِتِسْعٍ وَعِشْرِينَ ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنَّ الشَّهْرَ يَكُونُ تِسْعًا وَعِشْرِينَ ‏\"‏ ‏.‏ ثُمَّ طَبَّقَ النَّبِيُّ صلى الله عليه وسلم بِيَدَيْهِ ثَلاَثًا مَرَّتَيْنِ بِأَصَابِعِ يَدَيْهِ كُلِّهَا وَالثَّالِثَةَ بِتِسْعٍ مِنْهَا ‏.‏",
+      "source_hash_sha256": "02989b37bd52598ccda3cb4f00dd9d84187f8fa000bb4da6fa1abed3e32fea2b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn ‘Abd Allah et Hajjaj ibn al-Sha‘ir m’ont rapporté : Hajjaj ibn Muhammad nous a rapporté : Ibn Jurayj a dit : Abu al-Zubayr m’a informé qu’il avait entendu Jabir ibn ‘Abd Allah, qu’Allah les agrée tous deux, dire : le Prophète ﷺ s’était tenu à l’écart de ses épouses pendant un mois, puis sortit nous rejoindre au matin du vingt-neuvième jour. Certains dirent : « Messager d’Allah, nous sommes seulement au matin du vingt-neuvième jour. » Le Prophète ﷺ répondit : « Le mois peut compter vingt-neuf jours. » Puis il joignit les mains trois fois : deux fois avec tous les doigts, puis la troisième fois avec neuf doigts.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4d27d0d3-0ccd-418b-8e3d-68c9a341d12a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1085a",
+      "reference": "Sahih Muslim, hadith 1085 a, book 13, باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "title": "باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي هَارُونُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، قَالَ قَالَ ابْنُ جُرَيْجٍ أَخْبَرَنِي يَحْيَى بْنُ عَبْدِ اللَّهِ بْنِ مُحَمَّدِ بْنِ صَيْفِيٍّ، أَنَّ عِكْرِمَةَ بْنَ عَبْدِ الرَّحْمَنِ بْنِ الْحَارِثِ، أَخْبَرَهُ أَنَّ أُمَّ سَلَمَةَ - رضى الله عنها - أَخْبَرَتْهُ أَنَّ النَّبِيَّ صلى الله عليه وسلم حَلَفَ أَنْ لاَ يَدْخُلَ عَلَى بَعْضِ أَهْلِهِ شَهْرًا فَلَمَّا مَضَى تِسْعَةٌ وَعِشْرُونَ يَوْمًا غَدَا عَلَيْهِمْ - أَوْ رَاحَ - فَقِيلَ لَهُ حَلَفْتَ يَا نَبِيَّ اللَّهِ أَنْ لاَ تَدْخُلَ عَلَيْنَا شَهْرًا ‏.‏ قَالَ ‏\"‏ إِنَّ الشَّهْرَ يَكُونُ تِسْعَةً وَعِشْرِينَ يَوْمًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "87532c731f24dcacbe58f29a1cc67ef1acdea6122c80c86a9dc4ca3373fca4fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn ‘Abd Allah m’a rapporté : Hajjaj ibn Muhammad nous a rapporté : Ibn Jurayj a dit : Yahya ibn ‘Abd Allah ibn Muhammad ibn Sayfi m’a informé qu’‘Ikrima ibn ‘Abd al-Rahman ibn al-Harith lui avait rapporté qu’Umm Salama, qu’Allah l’agrée, lui avait dit : le Prophète ﷺ avait juré de ne pas entrer chez certaines de ses épouses pendant un mois. Après vingt-neuf jours, il vint les voir le matin — ou le soir. On lui dit : « Prophète d’Allah, tu as juré de ne pas entrer chez nous pendant un mois. » Il répondit : « Le mois peut compter vingt-neuf jours. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "af1a46eb-9f9c-48b6-b8bc-8e1e522585ee",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1085b",
+      "reference": "Sahih Muslim, hadith 1085 b, book 13, باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "title": "باب الشَّهْرُ يَكُونُ تِسْعًا وَعِشْرِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا رَوْحٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا الضَّحَّاكُ، - يَعْنِي أَبَا عَاصِمٍ - جَمِيعًا عَنِ ابْنِ جُرَيْجٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "0d30efcfa36539cbc29022525d9c9d0a3ece3d3d3dd5953b632c3f277b4b7628",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "2b79b275-afd3-45c6-a1f0-9438ce4512f8",
+      "reason": "La source ne donne que la chaîne de transmission et renvoie au contenu du rapport précédent sans le reproduire. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    },
+    {
+      "source_id": "af1a46eb-9f9c-48b6-b8bc-8e1e522585ee",
+      "reason": "La source ne donne que la chaîne de transmission et renvoie au contenu du rapport précédent sans le reproduire. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    }
+  ]
+}

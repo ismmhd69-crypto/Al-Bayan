@@ -9461,3 +9461,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0466 saves six private French drafts about determining the month from the crescent and not starting the Ramadan fast early. Each source gives a complete report.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1082b–1085b
+
+- FR-LIB-HAD-MUSLIM-0467 saves four private French drafts about the lunar month and the Prophet’s oath concerning his household. Muslim 1082b and 1085b give only a chain referring to a prior report and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
