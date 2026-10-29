@@ -2926,3 +2926,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-602` saves four private French drafts about Jesus’ descent, the Dajjâl, and earlier communities. Bukhari 3447 and 3448 remain entirely blank because they directly quote Quran 21:104/5:117–118 and 4:159; an approved attributed French Quran translation is unavailable.
 - All six records passed the focused validator, including the two Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,083 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 221. Total local hadith rows not drafted: 11,574, including held records.
+
+### 2026-10-29: Bukhari 3456–3461
+
+- `FR-LIB-HAD-BUKHARI-603` saves six private French drafts about earlier communities, prayer, and transmitting knowledge.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,089 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 221. Total local hadith rows not drafted: 11,568, including held records.
