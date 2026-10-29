@@ -3256,3 +3256,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-668` saves six private French drafts about the Ansâr and the bonds between the Ansâr and the emigrants.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,369 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 246. Total local hadith rows not drafted: 11,288, including held records.
+
+### 2026-10-29: Bukhari 3784–3789
+
+- `FR-LIB-HAD-BUKHARI-669` saves six private French drafts about the Ansâr, their followers and their clans.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,375 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 246. Total local hadith rows not drafted: 11,282, including held records.
