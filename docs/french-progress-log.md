@@ -7981,3 +7981,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0171 saves two private French drafts about the tashahhud and invoking blessings on the Prophet ﷺ. Muslim 404b–c and 406b–c contain only cross-referenced report variants or additions, so they remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 704 Muslim drafts, 7,040 total hadith drafts, 7,589 remaining, and 334 Needs Mo items.
+
+### 2026-10-29: Muslim 407–410b
+
+- FR-LIB-HAD-MUSLIM-0172 saves four private French drafts about invoking blessings on the Prophet ﷺ and responses during congregational prayer. Muslim 409b and 410b only refer to earlier reports, so they remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 708 Muslim drafts, 7,044 total hadith drafts, 7,585 remaining, and 336 Needs Mo items.
