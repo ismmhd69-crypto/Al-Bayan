@@ -9386,3 +9386,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0451 saves five private French drafts about the Ansar and distributions after Hunayn. Muslim 1059g is an incomplete cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1775 Muslim drafts, 8111 total hadith drafts, 6518 remaining, and 831 Needs Mo items.
+
+### 2026-10-29: Muslim 1060c–1063b
+
+- FR-LIB-HAD-MUSLIM-0452 saves five private French drafts covering the end of the Hunayn distributions and the beginning of the Khawarij reports. Muslim 1063b is an incomplete cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
