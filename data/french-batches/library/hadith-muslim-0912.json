@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0912",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:23:23.111Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "680f78d3-ef09-4026-b2a9-e8870e4ccd4c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1941b",
+      "reference": "Sahih Muslim, hadith 1941 b, book 34, باب فِي أَكْلِ لُحُومِ الْخَيْلِ ‏‏",
+      "title": "باب فِي أَكْلِ لُحُومِ الْخَيْلِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ أَكَلْنَا زَمَنَ خَيْبَرَ الْخَيْلَ وَحُمُرَ الْوَحْشِ وَنَهَانَا النَّبِيُّ صلى الله عليه وسلم عَنِ الْحِمَارِ الأَهْلِيِّ ‏.‏",
+      "source_hash_sha256": "6303805fccaddd131e324fbce5e1d4e334b3ea4ef530c3e203a80481b193cbae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hâtim m’a rapporté : Muhammad ibn Bakr nous a rapporté : Ibn Jurayj nous a informés : Abû al-Zubayr m’a informé avoir entendu Jâbir ibn ‘Abd Allâh dire : « À l’époque de Khaybar, nous avons mangé du cheval et des ânes sauvages. Le Prophète nous a interdit les ânes domestiques. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7a0787d3-6521-4242-b23d-d00de4371248",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1941c",
+      "reference": "Sahih Muslim, hadith 1941 c, book 34, باب فِي أَكْلِ لُحُومِ الْخَيْلِ ‏‏",
+      "title": "باب فِي أَكْلِ لُحُومِ الْخَيْلِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، ح وَحَدَّثَنِي يَعْقُوبُ الدَّوْرَقِيُّ، وَأَحْمَدُ بْنُ، عُثْمَانَ النَّوْفَلِيُّ قَالاَ حَدَّثَنَا أَبُو عَاصِمٍ، كِلاَهُمَا عَنِ ابْنِ جُرَيْجٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "df295581fb19db466f20039b1df7faa1a5572bfb121ea0b69f73dcf901072a6e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "46acc1eb-2a6e-40d9-a4cb-c67916f995f6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1942a",
+      "reference": "Sahih Muslim, hadith 1942 a, book 34, باب فِي أَكْلِ لُحُومِ الْخَيْلِ ‏‏",
+      "title": "باب فِي أَكْلِ لُحُومِ الْخَيْلِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبِي وَحَفْصُ بْنُ غِيَاثٍ، وَوَكِيعٌ، عَنْ هِشَامٍ، عَنْ فَاطِمَةَ، عَنْ أَسْمَاءَ، قَالَتْ نَحَرْنَا فَرَسًا عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَأَكَلْنَاهُ ‏.‏",
+      "source_hash_sha256": "19f681c604dfeba926a42a5fce56df8c9bafee0edcfff4f93b88562cecd7d078",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Abd Allâh ibn Numayr nous a rapporté : Mon père, Hafs ibn Ghiyâth et Wakî‘ nous ont rapporté, d’après Hishâm, d’après Fâtima, d’après Asmâ’, qui a dit : « Du temps du Messager d’Allah, nous avons égorgé un cheval et nous en avons mangé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b4b37330-4575-42ea-a4db-87a248b05058",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1942b",
+      "reference": "Sahih Muslim, hadith 1942 b, book 34, باب فِي أَكْلِ لُحُومِ الْخَيْلِ ‏‏",
+      "title": "باب فِي أَكْلِ لُحُومِ الْخَيْلِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ كِلاَهُمَا عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "e73425435c4865be47d5bb2e3bbb704a9f22b04fee355b9ee4c7c4105dc3ae63",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9896615b-7416-4898-8526-7580a662e749",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1943a",
+      "reference": "Sahih Muslim, hadith 1943 a, book 34, باب إِبَاحَةِ الضَّبِّ ‏‏",
+      "title": "باب إِبَاحَةِ الضَّبِّ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَيَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ عَنْ إِسْمَاعِيلَ، قَالَ يَحْيَى بْنُ يَحْيَى أَخْبَرَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، أَنَّهُ سَمِعَ ابْنَ عُمَرَ، يَقُولُ سُئِلَ النَّبِيُّ صلى الله عليه وسلم عَنِ الضَّبِّ فَقَالَ ‏\"‏ لَسْتُ بِآكِلِهِ وَلاَ مُحَرِّمِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5f94ba8c91930c89d43e530467fe400a5a082168589c331342855f604e99a1a6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ, Yahyâ ibn Ayyûb, Qutayba et Ibn Hujr nous ont rapporté, d’après Ismâ‘îl. Yahyâ ibn Yahyâ a dit : Ismâ‘îl ibn Ja‘far nous a informés, d’après ‘Abd Allâh ibn Dînâr, qui a entendu Ibn ‘Umar dire : On interrogea le Prophète au sujet du lézard épineux. Il répondit : « Je n’en mange pas et je ne l’interdis pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "78752969-969c-4d7d-a7e4-67f821b6850b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1943b",
+      "reference": "Sahih Muslim, hadith 1943 b, book 34, باب إِبَاحَةِ الضَّبِّ ‏‏",
+      "title": "باب إِبَاحَةِ الضَّبِّ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ سَأَلَ رَجُلٌ رَسُولَ اللَّهِ صلى الله عليه وسلم عَنْ أَكْلِ الضَّبِّ فَقَالَ ‏\"‏ لاَ آكُلُهُ وَلاَ أُحَرِّمُهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3a5822cbc076a65d4fbe7edf9b1d4475ec8922ed35e5f814c0a2eba81ccd7e3c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : Layth nous a rapporté. Muhammad ibn Rumh m’a également rapporté : al-Layth nous a informés, d’après Nâfi‘, d’après Ibn ‘Umar, qui a dit : Un homme interrogea le Messager d’Allah au sujet de la consommation du lézard épineux. Il répondit : « Je n’en mange pas et je ne l’interdis pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "7a0787d3-6521-4242-b23d-d00de4371248",
+      "url": "https://sunnah.com/muslim:1941c",
+      "reason": "Cette entrée ne fournit que d’autres chaînes de transmission du récit précédent, sans contenu ni variante distincte. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "b4b37330-4575-42ea-a4db-87a248b05058",
+      "url": "https://sunnah.com/muslim:1942b",
+      "reason": "Cette entrée ne fournit que d’autres chaînes de transmission du récit précédent, sans contenu ni variante distincte. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}

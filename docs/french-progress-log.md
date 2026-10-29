@@ -11606,3 +11606,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1938d-1941a
 
 - FR-LIB-HAD-MUSLIM-0911 saves five private French drafts about the Khaybar reports on domestic donkey meat and horse meat. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1941b-1943b
+
+- FR-LIB-HAD-MUSLIM-0912 saves four private French drafts about horse meat, wild asses, and the desert lizard. Two chain-only entries remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
