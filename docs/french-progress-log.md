@@ -9856,3 +9856,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0545 saves four private French drafts about the tamattu reports from Imran ibn Husayn. Muslim 1226d and 1226j are abbreviated variants and remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1227–1229d
+
+- FR-LIB-HAD-MUSLIM-0546 saves two private French drafts about Hafsa asking why the Prophet ﷺ remained in ihram. Muslim 1227 repeats part of Quran 2:196; 1228 and 1229b/d are incomplete variants. All four remain blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.

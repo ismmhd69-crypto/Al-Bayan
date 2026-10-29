@@ -40293,6 +40293,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0546",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0546.json",
+      "sourceIds": [
+        "17da3a6a-2888-4ff9-8d6e-de95e334cdf4",
+        "7c7ea54d-9310-4355-8f6d-601cfd62244d",
+        "0217954c-c29f-45cd-aa03-565bea5e7299",
+        "fda98799-b294-46ff-9123-2afaf0cd412f",
+        "b63db665-a538-41ad-b3a4-1bb29fd60ad0",
+        "f54accf9-2680-469f-8901-21d944052e71"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; source hashes and IDs preserved; two private unpublished drafts; one direct Quran 2:196 fragment and three incomplete variants held blank under Needs Mo; rights flags and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44600,8 +44621,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8494,
-  "hadithLocalRemaining": 6135,
+  "hadithLocalDrafted": 8496,
+  "hadithLocalRemaining": 6133,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -48043,10 +48064,30 @@
       "source_id": "dc2fa51b-6dd8-4449-83fe-28deb45f7961",
       "reason": "La source ne reproduit que la chaîne ou une variante additionnelle du récit précédent, sans reprendre son contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "17da3a6a-2888-4ff9-8d6e-de95e334cdf4",
+      "reason": "La source reprend directement une partie du Coran 2:196 sur le sacrifice et le jeûne compensatoire, même sans marqueur explicite. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7c7ea54d-9310-4355-8f6d-601cfd62244d",
+      "reason": "La source ne reprend pas le récit complet et renvoie uniquement à une version précédente. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "fda98799-b294-46ff-9123-2afaf0cd412f",
+      "reason": "La source ne reprend pas le récit complet et renvoie uniquement à une version précédente. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f54accf9-2680-469f-8901-21d944052e71",
+      "reason": "La source ne reprend pas le récit complet et renvoie uniquement à une version précédente. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2158,
+  "hadithMuslimDrafted": 2160,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 981
+  "hadithNeedsMo": 985
 }
