@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-635",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:27:53.410Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "25872610-375c-42dd-a981-2923746b39db",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3614",
+      "reference": "Sahih al-Bukhari, hadith 3614, book 61, باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "title": "باب عَلاَمَاتِ النُّبُوَّةِ فِي الإِسْلاَمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، سَمِعْتُ الْبَرَاءَ بْنَ عَازِبٍ ـ رضى الله عنهما ـ قَرَأَ رَجُلٌ الْكَهْفَ وَفِي الدَّارِ الدَّابَّةُ فَجَعَلَتْ تَنْفِرُ فَسَلَّمَ، فَإِذَا ضَبَابَةٌ ـ أَوْ سَحَابَةٌ ـ غَشِيَتْهُ، فَذَكَرَهُ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ اقْرَأْ فُلاَنُ، فَإِنَّهَا السَّكِينَةُ نَزَلَتْ لِلْقُرْآنِ، أَوْ تَنَزَّلَتْ لِلْقُرْآنِ ‏\"‏‏.‏",
+      "source_hash_sha256": "b975fc4b80c41106fcbf63e33afba63993631434e679d63a4efacc854f5ec7c5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Barâ’ ibn ‘Âzib rapporte qu’un homme récitait la sourate al-Kahf dans sa maison, tandis qu’une bête s’y trouvait. Elle se mit à s’agiter. L’homme salua ; un nuage — ou une brume — l’enveloppa. Il en parla au Prophète, qui lui dit : « Continue à réciter, Untel, car la sérénité est descendue avec le Coran, ou est descendue pour le Coran. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
