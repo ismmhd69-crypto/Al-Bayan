@@ -11918,3 +11918,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2085b-2085g
 
 - FR-LIB-HAD-MUSLIM-0989 saves three complete private French drafts about dragging clothing out of pride. Three entries that only refer to or vary an earlier report remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2085h-2088a
+
+- FR-LIB-HAD-MUSLIM-0990 saves four complete private French drafts about clothing length and pride. Two entries that only compare prior reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
