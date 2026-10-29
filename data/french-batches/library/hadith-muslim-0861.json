@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0861",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:04:00.124Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "964eb77a-4165-4018-8008-a91822a905df",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1812h",
+      "reference": "Sahih Muslim, hadith 1812 h, book 32, باب النِّسَاءُ الْغَازِيَاتُ يُرْضَخُ لَهُنَّ وَلاَ يُسْهَمُ وَالنَّهْىُ عَنْ قَتْلِ صِبْيَانِ أَهْلِ الْحَرْبِ",
+      "title": "باب النِّسَاءُ الْغَازِيَاتُ يُرْضَخُ لَهُنَّ وَلاَ يُسْهَمُ وَالنَّهْىُ عَنْ قَتْلِ صِبْيَانِ أَهْلِ الْحَرْبِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، حَدَّثَنَا هِشَامُ بْنُ حَسَّانَ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "4fdb9446730f7e56e0bf2e6dfc6fcab76e5de65e126c28f52f0bd61fb4e0ac35",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2a8ddb82-64ad-40d9-ac91-c25e94b8e1c6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1813",
+      "reference": "Sahih Muslim, hadith 1813, book 32, باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا زَكَرِيَّاءُ، أَخْبَرَنَا أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ غَزَوْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم تِسْعَ عَشْرَةَ غَزْوَةً - قَالَ جَابِرٌ - لَمْ أَشْهَدْ بَدْرًا وَلاَ أُحُدًا مَنَعَنِي أَبِي فَلَمَّا قُتِلَ عَبْدُ اللَّهِ يَوْمَ أُحُدٍ لَمْ أَتَخَلَّفْ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي غَزْوَةٍ قَطُّ ‏.‏",
+      "source_hash_sha256": "73ecfd5b2a8b13a7cd11d6c282cf1783198033b314a8441043f0589527df44a5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Rawh ibn ‘Ubâda nous a rapporté : Zakariyyâ nous a rapporté : Abû al-Zubayr nous a informés avoir entendu Jâbir ibn ‘Abd Allah dire : J’ai participé à dix-neuf expéditions avec le Messager d’Allah. Jâbir dit : Je n’ai assisté ni à Badr ni à Uhud, car mon père m’en avait empêché. Après que ‘Abd Allah eut été tué à Uhud, je ne manquai plus aucune expédition avec le Messager d’Allah.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b338923b-97f3-42a6-9d18-e8cc3cb8d70a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1814a",
+      "reference": "Sahih Muslim, hadith 1814 a, book 32, باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا زَيْدُ بْنُ الْحُبَابِ، ح وَحَدَّثَنَا سَعِيدُ بْنُ مُحَمَّدٍ، الْجَرْمِيُّ حَدَّثَنَا أَبُو تُمَيْلَةَ، قَالاَ جَمِيعًا حَدَّثَنَا حُسَيْنُ بْنُ وَاقِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، ‏.‏ قَالَ غَزَا رَسُولُ اللَّهِ صلى الله عليه وسلم تِسْعَ عَشْرَةَ غَزْوَةً قَاتَلَ فِي ثَمَانٍ مِنْهُنَّ ‏.‏ وَلَمْ يَقُلْ أَبُو بَكْرٍ مِنْهُنَّ ‏.‏ وَقَالَ فِي حَدِيثِهِ حَدَّثَنِي عَبْدُ اللَّهِ بْنُ بُرَيْدَةَ ‏.‏",
+      "source_hash_sha256": "fe91ebcfbef2d37c6cd4f3920ac34f36a8663c0785e17ffa49c2cb011206b6df",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Zayd ibn al-Hubâb nous a rapporté. (H) Sa‘îd ibn Muhammad al-Jarmî nous a rapporté : Abû Tumayla nous a rapporté. Tous deux nous ont rapporté : Husayn ibn Wâqid nous a rapporté, d’après ‘Abd Allah ibn Burayda, d’après son père, qui a dit : Le Messager d’Allah participa à dix-neuf expéditions et combattit dans huit d’entre elles. Abû Bakr n’a pas dit « d’entre elles ». Dans sa version, il a dit : « ‘Abd Allah ibn Burayda m’a rapporté. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0d7ae2e1-f093-4e1b-8adc-442d26c938f3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1814b",
+      "reference": "Sahih Muslim, hadith 1814 b, book 32, باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا مُعْتَمِرُ بْنُ سُلَيْمَانَ، عَنْ كَهْمَسٍ، عَنِ ابْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، أَنَّهُ قَالَ غَزَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم سِتَّ عَشْرَةَ غَزْوَةً ‏.‏",
+      "source_hash_sha256": "96d50a4f24b26f3f85db9bf8d30a9e66105ee83dc7f423a1b5db716b0cbb22c0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Hanbal m’a rapporté : Mu‘tamir ibn Sulaymân nous a rapporté, d’après Kahmas, d’après Ibn Burayda, d’après son père, qui a dit : Il participa à seize expéditions avec le Messager d’Allah.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "46158360-7937-4074-84e5-d213b419cd09",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1815a",
+      "reference": "Sahih Muslim, hadith 1815 a, book 32, باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا حَاتِمٌ، - يَعْنِي ابْنَ إِسْمَاعِيلَ - عَنْ يَزِيدَ، - وَهُوَ ابْنُ أَبِي عُبَيْدٍ قَالَ سَمِعْتُ سَلَمَةَ، يَقُولُ غَزَوْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم سَبْعَ غَزَوَاتٍ وَخَرَجْتُ فِيمَا يَبْعَثُ مِنَ الْبُعُوثِ تِسْعَ غَزَوَاتٍ مَرَّةً عَلَيْنَا أَبُو بَكْرٍ وَمَرَّةً عَلَيْنَا أُسَامَةُ بْنُ زَيْدٍ ‏.‏",
+      "source_hash_sha256": "4418635cae947a000c9b80297a9b1708ff4a032f67f18b714c18e0076fa58338",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Abbâd nous a rapporté : Hâtim — c’est-à-dire Ibn Ismâ‘îl — nous a rapporté, d’après Yazîd — Ibn Abî ‘Ubayd — qui a dit : J’ai entendu Salama dire : J’ai participé à sept expéditions avec le Messager d’Allah et j’ai pris part à neuf détachements qu’il envoya. Une fois, Abû Bakr nous commandait ; une autre fois, c’était Usâma ibn Zayd.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a73a8c38-2f4a-4ccf-b544-d9610c634be8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1815b",
+      "reference": "Sahih Muslim, hadith 1815 b, book 32, باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "title": "باب عَدَدِ غَزَوَاتِ النَّبِيِّ صلى الله عليه وسلم",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَاتِمٌ، بِهَذَا الإِسْنَادِ ‏.‏ غَيْرَ أَنَّهُ قَالَ فِي كِلْتَيْهِمَا سَبْعَ غَزَوَاتٍ ‏.‏",
+      "source_hash_sha256": "6d494f9ac9ec7e79b31d97ce4682006add8fe0202bf43711c84810740d60eb15",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : Hâtim nous a rapporté, par cette même chaîne, avec cette différence : il dit que chacune des deux catégories comptait sept expéditions.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "964eb77a-4165-4018-8008-a91822a905df",
+      "reason": "Cette entrée donne uniquement une chaîne de transmission et renvoie au récit précédent (« un récit semblable ») sans reproduire de contenu ni de variante distincte. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    }
+  ]
+}

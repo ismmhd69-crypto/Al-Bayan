@@ -11402,3 +11402,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1812b-1812g
 
 - FR-LIB-HAD-MUSLIM-0860 saves four private French drafts of distinct answers and reports about women in expeditions, children, orphans, and relatives. Two incomplete cross-references remain blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1812h-1815b
+
+- FR-LIB-HAD-MUSLIM-0861 saves five private French drafts reporting expedition counts and their distinct variations. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No database write or publication occurred.
