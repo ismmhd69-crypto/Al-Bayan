@@ -1216,3 +1216,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-256` saves six private French drafts for Bukhari 1468–1473. They preserve the reports on zakat refusal, self-reliance, and al-Hakim ibn Hizam’s repeated refusals of public allocations. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,346 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 76. Total local hadith rows not drafted: 13,283, including held records.
+
+### 2026-10-29: Bukhari 1474–1480 source review
+
+- `FR-LIB-HAD-BUKHARI-257` saves five private French drafts for Bukhari 1474, 1476–1477 and 1479–1480. Bukhari 1478 remains blank and is recorded under Needs Mo because the source editor’s note quotes Quranic wording from 26:94 and 67:22; no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,351 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 77. Total local hadith rows not drafted: 13,278, including held records.
