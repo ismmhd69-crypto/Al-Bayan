@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5805,
+    "hadithBukhariDrafted": 5807,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5805,
+    "hadithLocalDrafted": 5807,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8824,
+    "hadithLocalRemaining": 8822,
     "hadithNeedsMo": 835,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -26706,6 +26706,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1263",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1263.json",
+      "sourceIds": [
+        "cc1a7f9b-2c52-4f7c-8472-c62b7e08362b",
+        "4c00424d-dd9b-4fa2-b0f6-ef86a29eccf3"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Two complete French drafts, preserving the procedural wording and the report’s closing ruling. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -30106,9 +30123,9 @@
       "reason": "The report directly quotes Quran 2:178 several times. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5805,
-  "hadithLocalDrafted": 5805,
-  "hadithLocalRemaining": 8824,
+  "hadithBukhariDrafted": 5807,
+  "hadithLocalDrafted": 5807,
+  "hadithLocalRemaining": 8822,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
