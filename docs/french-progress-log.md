@@ -609,3 +609,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-116` saved private French drafts for Bukhari 639–643, preserving the instruction to wait in place, the report about the delayed prayer on the day of the Trench, and the narrator’s wording in the brief reports about conversation after the iqama.
 - Bukhari 644 remains blank and held under Needs Mo because the exact meaning of the closing food-related term `مِرْمَاتَيْنِ` is not confirmed from the local Arabic text. The complete batch passed the focused validator, including source hashes, rights metadata, private unpublished state and the reason-specific hold.
 - Five local drafts were added; one additional hadith is held. No database writes or publication occurred. Bukhari local drafts: 600 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 29. Total local hadith rows not drafted: 14,029, including held records.
+
+### 2026-10-29: Bukhari 645–650 source review
+
+- `FR-LIB-HAD-BUKHARI-117` saved private French drafts for Bukhari 645–647 and 649–650, preserving the distinct twenty-seven- and twenty-five-degree reports and the full explanation of the reward for walking to congregational prayer.
+- Bukhari 648 remains blank and held under Needs Mo because it quotes Quran 17:78 and the project has no approved, attributed French Quran translation. The batch passed the focused validator for all six records, including Arabic hashes, rights metadata, private unpublished state and the reason-specific hold.
+- Five local drafts were added; one additional hadith is held. No database writes or publication occurred. Bukhari local drafts: 605 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 30. Total local hadith rows not drafted: 14,024, including held records.

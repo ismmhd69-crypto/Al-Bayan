@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 600,
+    "hadithBukhariDrafted": 605,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 600,
+    "hadithLocalDrafted": 605,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 14029,
-    "hadithNeedsMo": 28,
+    "hadithLocalRemaining": 14024,
+    "hadithNeedsMo": 30,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -2304,6 +2304,20 @@
       "status": "five private local AI drafts; one Needs Mo hold"
     },
     {
+      "id": "FR-LIB-HAD-BUKHARI-117",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-117.json",
+      "sourceIds": ["058b3802-a2ca-46ff-9d71-a9696321fc26", "514c8cf7-a06f-4d8c-be22-9b58fe768d8e", "a1deb7c4-e0be-48c6-86ce-7593a95e6f53", "313fbf6a-ae40-495b-8e30-9dbea9217bf3", "ce4ea6fa-86c1-45d9-8480-03ffb6ead41a", "3b5a46fc-57e6-4f18-bf63-3c0967a3316e"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed; Bukhari 648 held for embedded Quran quotation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private local AI drafts; one Needs Mo hold"
+    },
+    {
       "id": "FR-LIB-HAD-BUKHARI-112",
       "contentType": "hadith",
       "language": "fr",
@@ -2768,7 +2782,7 @@
       "id": "QURAN-FR-EMBEDDED-QUOTES",
       "scope": "Hadith records containing Quran quotations",
       "status": "blocked",
-      "reason": "The current application Quran source configuration exposes English and German translations only. Hadiths containing Quran quotations are held until an approved, attributed French Quran translation is confirmed. Bukhari 610 is additionally recorded in batch FR-LIB-HAD-BUKHARI-111. No French Quran text was generated or saved."
+      "reason": "The current application Quran source configuration exposes English and German translations only. Hadiths containing Quran quotations are held until an approved, attributed French Quran translation is confirmed. Bukhari 610 and 648 are recorded in batches FR-LIB-HAD-BUKHARI-111 and FR-LIB-HAD-BUKHARI-117. No French Quran text was generated or saved."
     },
     {
       "id": "ARABIC-HADITH-INCOMPLETE-MATN",
