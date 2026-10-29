@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5676,
+    "hadithBukhariDrafted": 5680,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5676,
+    "hadithLocalDrafted": 5680,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8953,
-    "hadithNeedsMo": 818,
+    "hadithLocalRemaining": 8949,
+    "hadithNeedsMo": 820,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26170,6 +26170,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "four private drafts; two Needs Mo holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1237",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1237.json",
+      "sourceIds": [
+        "2beb560c-a7cc-46d7-b28f-d168af4e5556",
+        "f58ea380-dc68-4f0b-8215-00360481ae1d",
+        "1a90ba11-b210-4827-8f7c-2ffe198ddf4a",
+        "d0066948-bf60-43c0-9270-15070048d0db",
+        "ab92ffa3-a223-417c-b331-33becf923344",
+        "81cb0a54-9a27-46f3-b561-ad3c82797038"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four complete French drafts; two reports held in full (one direct Quran quotation and one unclear wording/variant note). Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private drafts; two Needs Mo holds"
     }
   ],
   "blockers": [
@@ -29466,11 +29487,23 @@
       "scope": "Sahih al-Bukhari 6739: direct quotation of Quran 4:11",
       "status": "blocked",
       "reason": "The report directly quotes Quran 4:11. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6744-QURAN-4-176",
+      "scope": "Sahih al-Bukhari 6744: direct quotation of Quran 4:176",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:176. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6745-UNCLEAR-DEPENDENTS",
+      "scope": "Sahih al-Bukhari 6745: unclear wording كلاً أو ضياعًا and attached variant note لكل: العيال",
+      "status": "blocked",
+      "reason": "The wording كلاً أو ضياعًا and attached variant note لكل: العيال do not establish the complete passage’s meaning with sufficient certainty. Keep the whole report blank until reliably clarified."
     }
   ],
-  "hadithBukhariDrafted": 5676,
-  "hadithLocalDrafted": 5676,
-  "hadithLocalRemaining": 8953,
+  "hadithBukhariDrafted": 5680,
+  "hadithLocalDrafted": 5680,
+  "hadithLocalRemaining": 8949,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29909,6 +29942,18 @@
       "scope": "Sahih al-Bukhari 6739: direct quotation of Quran 4:11",
       "status": "blocked",
       "reason": "The report directly quotes Quran 4:11. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6744-QURAN-4-176",
+      "scope": "Sahih al-Bukhari 6744: direct quotation of Quran 4:176",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:176. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6745-UNCLEAR-DEPENDENTS",
+      "scope": "Sahih al-Bukhari 6745: unclear wording كلاً أو ضياعًا and attached variant note لكل: العيال",
+      "status": "blocked",
+      "reason": "The wording كلاً أو ضياعًا and attached variant note لكل: العيال do not establish the complete passage’s meaning with sufficient certainty. Keep the whole report blank until reliably clarified."
     }
   ]
 }
