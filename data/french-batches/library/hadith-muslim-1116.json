@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-1116",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:15:40.508Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "c2922367-e263-4f34-b9f6-3e0886b68663",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2398a",
+      "reference": "Sahih Muslim, hadith 2398 a, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَحْمَدُ بْنُ عَمْرِو بْنِ سَرْحٍ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، عَنْ إِبْرَاهِيمَ، بْنِ سَعْدٍ عَنْ أَبِيهِ، سَعْدِ بْنِ إِبْرَاهِيمَ عَنْ أَبِي سَلَمَةَ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ كَانَ يَقُولُ ‏\"‏ قَدْ كَانَ يَكُونُ فِي الأُمَمِ قَبْلَكُمْ مُحَدَّثُونَ فَإِنْ يَكُنْ فِي أُمَّتِي مِنْهُمْ أَحَدٌ فَإِنَّ عُمَرَ بْنَ الْخَطَّابِ مِنْهُمْ ‏\"‏ ‏.‏ قَالَ ابْنُ وَهْبٍ تَفْسِيرُ مُحَدَّثُونَ مُلْهَمُونَ ‏.‏",
+      "source_hash_sha256": "e121bd6f486f765a8895924e94e50d2c8b3e7dab762ddf32f3de5f90733f051e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte que le Prophète ﷺ disait : « Parmi les peuples qui vous ont précédés, il y avait des hommes inspirés. S’il y en a un dans ma communauté, c’est Umar ibn al-Khattâb. » Ibn Wahb explique que les hommes inspirés sont ceux qui reçoivent une inspiration.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "184acf0e-a264-4e73-9e7a-a108804db9f6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2398b",
+      "reference": "Sahih Muslim, hadith 2398 b, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا عَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا ابْنُ عُيَيْنَةَ، كِلاَهُمَا عَنِ ابْنِ عَجْلاَنَ، عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "e305566b805d3a01393f6de0c2df64fdc5493b0e31b1907ef637d3de1d14c43e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "381b7f1c-7caa-4541-aeeb-23b7b6bdf4c3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2399",
+      "reference": "Sahih Muslim, hadith 2399, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُقْبَةُ بْنُ مُكْرَمٍ الْعَمِّيُّ، حَدَّثَنَا سَعِيدُ بْنُ عَامِرٍ، قَالَ جُوَيْرِيَةُ بْنُ أَسْمَاءَ أَخْبَرَنَا عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ عُمَرُ وَافَقْتُ رَبِّي فِي ثَلاَثٍ فِي مَقَامِ إِبْرَاهِيمَ وَفِي الْحِجَابِ وَفِي أُسَارَى بَدْرٍ ‏.‏",
+      "source_hash_sha256": "7465e8e55588458e68671cdbc4af0ae03e34031edcae1b68ff145933ecf3736e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte qu’Umar dit : « Mon Seigneur a fait coïncider la Révélation avec mon avis dans trois cas : la station d’Ibrâhîm, le voile et les prisonniers de Badr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9e12547d-7537-4c51-93df-c02d9e504415",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2400a",
+      "reference": "Sahih Muslim, hadith 2400 a, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ لَمَّا تُوُفِّيَ عَبْدُ اللَّهِ بْنُ أُبَىٍّ ابْنُ سَلُولَ جَاءَ ابْنُهُ عَبْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَسَأَلَهُ أَنْ يُعْطِيَهُ قَمِيصَهُ أَنْ يُكَفِّنَ فِيهِ أَبَاهُ فَأَعْطَاهُ ثُمَّ سَأَلَهُ أَنْ يُصَلِّيَ عَلَيْهِ فَقَامَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِيُصَلِّيَ عَلَيْهِ فَقَامَ عُمَرُ فَأَخَذَ بِثَوْبِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ أَتُصَلِّي عَلَيْهِ وَقَدْ نَهَاكَ اللَّهُ أَنْ تُصَلِّيَ عَلَيْهِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّمَا خَيَّرَنِيَ اللَّهُ فَقَالَ ‏[quran sura=\"9\" aya_start=\"80\" aya_end=\"80\"]{‏ اسْتَغْفِرْ لَهُمْ أَوْ لاَ تَسْتَغْفِرْ لَهُمْ إِنْ تَسْتَغْفِرْ لَهُمْ سَبْعِينَ مَرَّةً‏}‏ وَسَأَزِيدُ عَلَى سَبْعِينَ ‏\"‏ ‏.‏ قَالَ إِنَّهُ مُنَافِقٌ ‏.‏ فَصَلَّى عَلَيْهِ رَسُولُ اللَّهِ صلى الله عليه وسلم وَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"9\" aya_start=\"84\" aya_end=\"84\"]{‏ وَلاَ تُصَلِّ عَلَى أَحَدٍ مِنْهُمْ مَاتَ أَبَدًا وَلاَ تَقُمْ عَلَى قَبْرِهِ‏}‏ ‏.‏",
+      "source_hash_sha256": "2b4a1e73defc03ee658e67659f982d07609e4ded86110f43ba454d2cd17c5cba",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6cf86b02-8112-49ae-a94f-22c60e1b8c97",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2400b",
+      "reference": "Sahih Muslim, hadith 2400 b, book 44, باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُمَرَ رضى الله تعالى عنه ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، بِهَذَا الإِسْنَادِ فِي مَعْنَى حَدِيثِ أَبِي أُسَامَةَ وَزَادَ قَالَ فَتَرَكَ الصَّلاَةَ عَلَيْهِمْ ‏.‏",
+      "source_hash_sha256": "3dee3288268665a7323e215d2cc3aad1c6a84573dc9c5b1fa35973beafc811ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a634f456-cbd3-486d-80ef-aa7bd4d630bb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2401",
+      "reference": "Sahih Muslim, hadith 2401, book 44, باب مِنْ فَضَائِلِ عُثْمَانَ بْنِ عَفَّانَ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عُثْمَانَ بْنِ عَفَّانَ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَيَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالَ يَحْيَى بْنُ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرُونَ، حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنُونَ ابْنَ جَعْفَرٍ - عَنْ مُحَمَّدِ بْنِ أَبِي حَرْمَلَةَ، عَنْ عَطَاءٍ، وَسُلَيْمَانَ، ابْنَىْ يَسَارٍ وَأَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ أَنَّ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم مُضْطَجِعًا فِي بَيْتِي كَاشِفًا عَنْ فَخِذَيْهِ أَوْ سَاقَيْهِ فَاسْتَأْذَنَ أَبُو بَكْرٍ فَأَذِنَ لَهُ وَهُوَ عَلَى تِلْكَ الْحَالِ فَتَحَدَّثَ ثُمَّ اسْتَأْذَنَ عُمَرُ فَأَذِنَ لَهُ وَهُوَ كَذَلِكَ فَتَحَدَّثَ ثُمَّ اسْتَأْذَنَ عُثْمَانُ فَجَلَسَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَسَوَّى ثِيَابَهُ - قَالَ مُحَمَّدٌ وَلاَ أَقُولُ ذَلِكَ فِي يَوْمٍ وَاحِدٍ - فَدَخَلَ فَتَحَدَّثَ فَلَمَّا خَرَجَ قَالَتْ عَائِشَةُ دَخَلَ أَبُو بَكْرٍ فَلَمْ تَهْتَشَّ لَهُ وَلَمْ تُبَالِهِ ثُمَّ دَخَلَ عُمَرُ فَلَمْ تَهْتَشَّ لَهُ وَلَمْ تُبَالِهِ ثُمَّ دَخَلَ عُثْمَانُ فَجَلَسْتَ وَسَوَّيْتَ ثِيَابَكَ فَقَالَ ‏\"‏ أَلاَ أَسْتَحِي مِنْ رَجُلٍ تَسْتَحِي مِنْهُ الْمَلاَئِكَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a47345cf79b056ec5553f444ca904f05ae514c38425ff62352d012029c6dee89",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte que le Messager d’Allah ﷺ était allongé dans ma maison, la cuisse ou le tibia découvert. Abû Bakr demanda la permission d’entrer ; le Prophète ﷺ la lui accorda alors qu’il était dans cette position, et ils parlèrent. Umar demanda ensuite la permission et entra dans les mêmes circonstances ; ils parlèrent. Puis Uthmân demanda la permission. Le Messager d’Allah ﷺ s’assit et remit ses vêtements en ordre — Muhammad précise que cela ne se passa pas le même jour. Uthmân entra et ils parlèrent. Lorsqu’il fut sorti, Aïcha dit : « Abû Bakr est entré et tu ne t’es pas redressé ni soucié de ta tenue ; Umar est entré et tu ne t’es pas redressé ni soucié de ta tenue ; puis Uthmân est entré et tu t’es assis et as remis tes vêtements en ordre. » Il répondit : « Ne devrais-je pas éprouver de la pudeur devant un homme devant qui les anges éprouvent de la pudeur ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "184acf0e-a264-4e73-9e7a-a108804db9f6",
+      "reason": "Cette entrée ne fournit que la chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "9e12547d-7537-4c51-93df-c02d9e504415",
+      "reason": "Ce récit contient deux citations coraniques intégrées. Garder la traduction française vide jusqu’à vérification des traductions autorisées et de leur attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "6cf86b02-8112-49ae-a94f-22c60e1b8c97",
+      "reason": "Cette entrée renvoie au récit précédent qui contient les citations coraniques et ne rapporte qu’un détail complémentaire. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}

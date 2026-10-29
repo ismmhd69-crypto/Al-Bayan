@@ -48495,6 +48495,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1116",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1116.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "three complete reports translated as private drafts; one transmission-only variant and two reports with Quran quotations or dependent details left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52802,8 +52815,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9724,
-  "hadithLocalRemaining": 4802,
+  "hadithLocalDrafted": 9727,
+  "hadithLocalRemaining": 4799,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -58630,10 +58643,25 @@
       "source_id": "97aa4f76-a0e3-49a3-8abf-8e7d7d2730ae",
       "reason": "Cette entrée ne reproduit pas le récit complet et renvoie à une autre version pour le reste du contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "184acf0e-a264-4e73-9e7a-a108804db9f6",
+      "reason": "Cette entrée ne fournit que la chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "9e12547d-7537-4c51-93df-c02d9e504415",
+      "reason": "Ce récit contient deux citations coraniques intégrées. Garder la traduction française vide jusqu’à vérification des traductions autorisées et de leur attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "6cf86b02-8112-49ae-a94f-22c60e1b8c97",
+      "reason": "Cette entrée renvoie au récit précédent qui contient les citations coraniques et ne rapporte qu’un détail complémentaire. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3561,
+  "hadithMuslimDrafted": 3564,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1492
+  "hadithNeedsMo": 1495
 }
