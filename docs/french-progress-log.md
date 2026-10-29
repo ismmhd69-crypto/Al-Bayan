@@ -9526,3 +9526,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0479 saves five private French drafts about fasting after waking in a state of major ritual impurity and the expiation for intercourse during Ramadan. Muslim 1111b is a variant-only cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1111c–1112b
+
+- FR-LIB-HAD-MUSLIM-0480 saves three private French drafts about expiation for intercourse during Ramadan. Muslim 1111d, 1111f, and 1112b summarize or refer to earlier reports without reproducing the complete text, so they remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
