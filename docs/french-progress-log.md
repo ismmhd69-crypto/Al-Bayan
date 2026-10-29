@@ -7327,3 +7327,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0044 saves 5 private French drafts on false oaths, self-harm, and outward appearances. Hadith 110c contains only a transmission chain and is held blank under Needs Mo until a complete source is found. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 214 of 7,366. Hadith Needs Mo: 183. Total local hadith rows not drafted: 8,079, including held records.
+
+### 2026-10-29: Muslim 113b–118
+
+- FR-LIB-HAD-MUSLIM-0045 saves 6 private French drafts on the Khaybar campaign, faith, and approaching trials. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 220 of 7,366. Hadith Needs Mo: 183. Total local hadith rows not drafted: 8,073, including held records.
