@@ -11906,3 +11906,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2078d-2079b
 
 - FR-LIB-HAD-MUSLIM-0986 saves four complete private French drafts about rings, garments, and saddle coverings. Two entries that refer back to full reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2080a-2082b
+
+- FR-LIB-HAD-MUSLIM-0987 saves five complete private French drafts about clothing, bedding, and a pillow. One entry that only refers back to a prior version remains blank with a specific Needs Mo reason. No database write or publication occurred.
