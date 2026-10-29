@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0756",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:11:38.031Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2a556e7b-3e09-4cf4-b72c-cf78fa2c66e8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1622d",
+      "reference": "Sahih Muslim, hadith 1622 d, book 24, بَاب تَحْرِيمِ الرُّجُوعِ فِي الصَّدَقَةِ وَالْهِبَةِ بَعْدَ الْقَبْضِ إِلَّا مَا وَهَبَهُ لِوَلَدِهِ وَإِنْ سَفَلَ",
+      "title": "بَاب تَحْرِيمِ الرُّجُوعِ فِي الصَّدَقَةِ وَالْهِبَةِ بَعْدَ الْقَبْضِ إِلَّا مَا وَهَبَهُ لِوَلَدِهِ وَإِنْ سَفَلَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، وَأَحْمَدُ بْنُ عِيسَى، قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، - وَهُوَ ابْنُ الْحَارِثِ - عَنْ بُكَيْرٍ، أَنَّهُ سَمِعَ سَعِيدَ بْنَ الْمُسَيَّبِ، يَقُولُ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّمَا مَثَلُ الَّذِي يَتَصَدَّقُ بِصَدَقَةٍ ثُمَّ يَعُودُ فِي صَدَقَتِهِ كَمَثَلِ الْكَلْبِ يَقِيءُ ثُمَّ يَأْكُلُ قَيْأَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0d1ede96398bd89d0e107c7aef833644f399f772a9857441cec0004d657b5af0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli et Ahmad ibn Isa m’ont rapporté : Ibn Wahb nous a rapporté : Amr — Ibn al-Harith — nous a informés, d’après Bukayr, qui avait entendu Sa‘id ibn al-Musayyab dire : « J’ai entendu Ibn Abbas dire : J’ai entendu le Messager d’Allah dire : “Celui qui fait une aumône puis la reprend ressemble au chien qui vomit puis mange son vomi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e754abb6-e5d0-422e-a132-2ee90e42a250",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1622e",
+      "reference": "Sahih Muslim, hadith 1622 e, book 24, بَاب تَحْرِيمِ الرُّجُوعِ فِي الصَّدَقَةِ وَالْهِبَةِ بَعْدَ الْقَبْضِ إِلَّا مَا وَهَبَهُ لِوَلَدِهِ وَإِنْ سَفَلَ",
+      "title": "بَاب تَحْرِيمِ الرُّجُوعِ فِي الصَّدَقَةِ وَالْهِبَةِ بَعْدَ الْقَبْضِ إِلَّا مَا وَهَبَهُ لِوَلَدِهِ وَإِنْ سَفَلَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنِ ابْنِ عَبَّاسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ الْعَائِدُ فِي هِبَتِهِ كَالْعَائِدِ فِي قَيْئِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2fa358abe147a429a60aa3f0f459007d219438c40a83fee0a8f108fc9b0a9193",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Muhammad ibn Bashshar nous ont rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté : « J’ai entendu Qatada rapporter, d’après Sa‘id ibn al-Musayyab, d’après Ibn Abbas, d’après le Prophète, qui dit : “Celui qui reprend son don ressemble à celui qui retourne à son vomi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dae9e1ca-602f-44a3-8c67-ccf29e20363e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1622f",
+      "reference": "Sahih Muslim, hadith 1622 f, book 24, بَاب تَحْرِيمِ الرُّجُوعِ فِي الصَّدَقَةِ وَالْهِبَةِ بَعْدَ الْقَبْضِ إِلَّا مَا وَهَبَهُ لِوَلَدِهِ وَإِنْ سَفَلَ",
+      "title": "بَاب تَحْرِيمِ الرُّجُوعِ فِي الصَّدَقَةِ وَالْهِبَةِ بَعْدَ الْقَبْضِ إِلَّا مَا وَهَبَهُ لِوَلَدِهِ وَإِنْ سَفَلَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "78eab5caf5b3be1bf6a320e68dde820fa67f870c63aa17da2400da632313abfc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fdb6190b-022b-4a1c-b034-5c18aed6d7c0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1622g",
+      "reference": "Sahih Muslim, hadith 1622 g, book 24, بَاب تَحْرِيمِ الرُّجُوعِ فِي الصَّدَقَةِ وَالْهِبَةِ بَعْدَ الْقَبْضِ إِلَّا مَا وَهَبَهُ لِوَلَدِهِ وَإِنْ سَفَلَ",
+      "title": "بَاب تَحْرِيمِ الرُّجُوعِ فِي الصَّدَقَةِ وَالْهِبَةِ بَعْدَ الْقَبْضِ إِلَّا مَا وَهَبَهُ لِوَلَدِهِ وَإِنْ سَفَلَ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا الْمَخْزُومِيُّ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا عَبْدُ اللَّهِ، بْنُ طَاوُسٍ عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الْعَائِدُ فِي هِبَتِهِ كَالْكَلْبِ يَقِيءُ ثُمَّ يَعُودُ فِي قَيْئِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5d10e65b11ee1a72aad168c11490d620d5b28c571d03664289dbe1d7823b64a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim nous a rapporté : al-Makhzumi nous a informés : Wuhayb nous a rapporté : Abd Allah ibn Tawus nous a rapporté, d’après son père, d’après Ibn Abbas, d’après le Messager d’Allah, qui dit : « Celui qui reprend son don ressemble au chien qui vomit puis retourne à son vomi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ff91c12f-47b0-4cd5-a8dc-3b139e528a20",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1623a",
+      "reference": "Sahih Muslim, hadith 1623 a, book 24, باب كَرَاهَةِ تَفْضِيلِ بَعْضِ الأَوْلاَدِ فِي الْهِبَةِ ‏‏",
+      "title": "باب كَرَاهَةِ تَفْضِيلِ بَعْضِ الأَوْلاَدِ فِي الْهِبَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ حُمَيْدِ بْنِ عَبْدِ، الرَّحْمَنِ وَعَنْ مُحَمَّدِ بْنِ النُّعْمَانِ بْنِ بَشِيرٍ، يُحَدِّثَانِهِ عَنِ النُّعْمَانِ بْنِ بَشِيرٍ، أَنَّهُ قَالَ إِنَّ أَبَاهُ أَتَى بِهِ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ إِنِّي نَحَلْتُ ابْنِي هَذَا غُلاَمًا كَانَ لِي ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَكُلَّ وَلَدِكَ نَحَلْتَهُ مِثْلَ هَذَا ‏\"‏ ‏.‏ فَقَالَ لاَ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ فَارْجِعْهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2effcc4ec7fd7ab83b3e429ec8bf004d35c9c484d080891fa14cb93e46af6c28",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya dit : « J’ai récité devant Malik », d’après Ibn Shihab, d’après Humayd ibn Abd al-Rahman et Muhammad ibn al-Nu‘man ibn Bashir, qui rapportaient d’après al-Nu‘man ibn Bashir. Celui-ci dit : « Mon père m’amena devant le Messager d’Allah et lui dit : “J’ai donné à ce fils un jeune serviteur qui m’appartenait.” Le Messager d’Allah demanda : “As-tu fait le même don à chacun de tes enfants ?” Il répondit : “Non.” Le Messager d’Allah dit : “Reprends-le.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8906da8d-f27c-4ac2-87a9-1258ec6c5c2b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1623b",
+      "reference": "Sahih Muslim, hadith 1623 b, book 24, باب كَرَاهَةِ تَفْضِيلِ بَعْضِ الأَوْلاَدِ فِي الْهِبَةِ ‏‏",
+      "title": "باب كَرَاهَةِ تَفْضِيلِ بَعْضِ الأَوْلاَدِ فِي الْهِبَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنِ ابْنِ شِهَابٍ، عَنْ حُمَيْدِ بْنِ، عَبْدِ الرَّحْمَنِ وَمُحَمَّدِ بْنِ النُّعْمَانِ عَنِ النُّعْمَانِ بْنِ بَشِيرٍ، قَالَ أَتَى بِي أَبِي إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ إِنِّي نَحَلْتُ ابْنِي هَذَا غُلاَمًا ‏.‏ فَقَالَ ‏\"‏ أَكُلَّ بَنِيكَ نَحَلْتَ ‏\"‏ ‏.‏ قَالَ لاَ ‏.‏ قَالَ ‏\"‏ فَارْدُدْهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "010b08336e8d2e7372309ad05b2d5eeb0cced0643fbd56783ce15f8008fb61fc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Ibrahim ibn Sa‘d nous a rapporté, d’après Ibn Shihab, d’après Humayd ibn Abd al-Rahman et Muhammad ibn al-Nu‘man, d’après al-Nu‘man ibn Bashir, qui dit : « Mon père m’amena auprès du Messager d’Allah et lui dit : “J’ai donné à ce fils un jeune serviteur.” Le Prophète demanda : “As-tu fait un don semblable à tous tes fils ?” Il répondit : “Non.” Le Prophète dit : “Alors reprends-le.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "dae9e1ca-602f-44a3-8c67-ccf29e20363e",
+      "reason": "Cette entrée donne uniquement une chaîne de transmission et renvoie au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
